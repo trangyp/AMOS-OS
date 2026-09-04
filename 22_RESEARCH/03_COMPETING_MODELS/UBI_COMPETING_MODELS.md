@@ -12,18 +12,18 @@ segment: 22_RESEARCH/03_COMPETING_MODELS
 artifact_kind: COMPETING_MODELS_ANALYSIS
 path: 22_RESEARCH/03_COMPETING_MODELS/UBI_COMPETING_MODELS.md
 tags:
-- amos-os
-- research
-- vault
-- 03_competing_models
-- ubi_competing_models
-- biological_ai_comparisons
-- non_compensatory_vs_linear
-- rscf
-- canon_candidate
-- canon/research
-- unified-biological-intelligence
-- absolute-biological-integrity-framework
+  - amos-os
+  - research
+  - vault
+  - 03_competing_models
+  - ubi_competing_models
+  - biological_ai_comparisons
+  - non_compensatory_vs_linear
+  - rscf
+  - canon_candidate
+  - canon/research
+  - unified-biological-intelligence
+  - absolute-biological-integrity-framework
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -38,13 +38,13 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - 11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE
-  - 22_RESEARCH/03_COMPETING_MODELS/03_COMPETING_MODELS_MOC
-  - AMOS_CORPUS
+    - 11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE
+    - 22_RESEARCH/03_COMPETING_MODELS/03_COMPETING_MODELS_MOC
+    - AMOS_CORPUS
   scope:
-  - RESEARCH_ANALYSIS
-  - COMPETING_MODELS
-  - SOURCE_DEFINED_MODEL
+    - RESEARCH_ANALYSIS
+    - COMPETING_MODELS
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   competing_moc:
     artifact: 22_RESEARCH/03_COMPETING_MODELS/03_COMPETING_MODELS_MOC
@@ -61,28 +61,28 @@ epistemic_boundary:
 
 `UBI_COMPETING_MODELS.md` evaluates the **Unified Biological Intelligence (UBI)** model against conventional artificial intelligence, cybernetic feedback, and cognitive neuroscience frameworks.
 
----
+______________________________________________________________________
 
-# 1. Comparative Evaluation Grid
+## 1. Comparative Evaluation Grid
 
-| Paradigm / Model | Structural Aggregation | Substrate Independence | Emergence Scaling | Failure Mode Handling |
-| :--- | :--- | :--- | :--- | :--- |
-| **Standard LLM / Transformer** | Additive weighted sum ($\sum w_i x_i$) | Full substrate agnosticism | Empirical scaling laws ($L \sim N^{-\alpha}$) | Hallucination under context drift |
-| **Active Inference / FEP** | Variational Free Energy minimization | Embodied sensorimotor loop | Continuous Markov blanket optimization | High computational bottleneck |
-| **Cybernetic Homeostasis** | Negative feedback loops ($\Delta e$) | Mechanical / biological hybrid | Linear equilibrium maintenance | Vulnerable to compounding delays |
-| **AMOS UBI Model** | **Non-compensatory product ($(\prod x_k)^{1/4}$)** | **Hard biological substrate veto** | **Quadratic capability ($e = i^2$)** | **Immediate zero-collapse upon domain failure** |
+| Paradigm / Model               | Structural Aggregation                             | Substrate Independence             | Emergence Scaling                             | Failure Mode Handling                           |
+| :----------------------------- | :------------------------------------------------- | :--------------------------------- | :-------------------------------------------- | :---------------------------------------------- |
+| **Standard LLM / Transformer** | Additive weighted sum ($\sum w_i x_i$)             | Full substrate agnosticism         | Empirical scaling laws ($L \sim N^{-\alpha}$) | Hallucination under context drift               |
+| **Active Inference / FEP**     | Variational Free Energy minimization               | Embodied sensorimotor loop         | Continuous Markov blanket optimization        | High computational bottleneck                   |
+| **Cybernetic Homeostasis**     | Negative feedback loops ($\Delta e$)               | Mechanical / biological hybrid     | Linear equilibrium maintenance                | Vulnerable to compounding delays                |
+| **AMOS UBI Model**             | **Non-compensatory product ($(\prod x_k)^{1/4}$)** | **Hard biological substrate veto** | **Quadratic capability ($e = i^2$)**          | **Immediate zero-collapse upon domain failure** |
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Competing Models MOC:** 22_RESEARCH/03_COMPETING_MODELS/[[22_RESEARCH/03_COMPETING_MODELS/03_COMPETING_MODELS_MOC|03_COMPETING_MODELS_MOC]]
 - **Biological Master:** 11_KNOWLEDGE/05_FRAMEWORKS/[[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]]
 - **Biological Integrity:** 11_KNOWLEDGE/05_FRAMEWORKS/[[11_KNOWLEDGE/05_FRAMEWORKS/ABSOLUTE_BIOLOGICAL_INTEGRITY_FRAMEWORK|ABSOLUTE_BIOLOGICAL_INTEGRITY_FRAMEWORK]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -100,10 +100,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[22_RESEARCH/22_RESEARCH_MOC|22_RESEARCH_MOC]] · 22_RESEARCH/03_COMPETING_MODELS/[[22_RESEARCH/03_COMPETING_MODELS/03_COMPETING_MODELS_MOC|03_COMPETING_MODELS_MOC]] · 11_KNOWLEDGE/05_FRAMEWORKS/[[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]]
 
----
-**MOC:** 22_RESEARCH/03_COMPETING_MODELS/[[22_RESEARCH/03_COMPETING_MODELS/03_COMPETING_MODELS_MOC|03_COMPETING_MODELS_MOC]]
+______________________________________________________________________
 
+**MOC:** 22_RESEARCH/03_COMPETING_MODELS/[[22_RESEARCH/03_COMPETING_MODELS/03_COMPETING_MODELS_MOC|03_COMPETING_MODELS_MOC]]

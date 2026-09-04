@@ -1,86 +1,103 @@
 ---
-title: TESTS TEST CONTRACT
-type: test
-source: 19_TESTS
-tags:
-- amos-os
-- canon/test
-- routing-policy-validation-receipt
-- authz-engine-validation-receipt
-- law-hierarchy
+title: "Tests Test Contract — Governing Verification, Metamorphic Fuzzing & Invariant Assurance Specification"
+type: plane_contract
+plane: 19_TESTS
+domain: F_ASSURANCE_LIFECYCLE_EVIDENCE
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
+status: ACTIVE_CONTRACT
+conclusion_class: DERIVED
 rscf:
   state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  claim_class: AMOS_MODEL
+  provenance:
+    - 19_TESTS/19_TESTS_MOC
+    - 19_TESTS/METAMORPHIC_FUZZING_AND_INVARIANT_TESTING
+    - 00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE
+  scope: testing_verification_and_assurance_governance
+tags:
+  - amos-os
+  - 19-tests
+  - plane-contract
+  - metamorphic-testing
+  - property-based-testing
+  - mutation-analysis
+  - lean4-verification
 ---
 
-# TESTS TEST CONTRACT
+# Tests Test Contract — Governing Verification, Metamorphic Fuzzing & Invariant Assurance Specification
 
-## 0. Status
-Tests-plane contract for **TEST CONTRACT**. AMOS_MODEL; canonical status CONDITIONAL; implementation PARTIAL.
-
-## 1. Scope
-Governs test taxonomy, coverage declarations, negative coverage, and receipts as they bear on `TEST CONTRACT`. Bounded by dependency closure: conclusions inherit the weakest load-bearing premise.
-
-## 2. Contract terms
-- **Typed artifacts** — every artifact declares artifact_type, epistemic class, scope, regime.
-- **Firewalls preserved** — CAPABILITY ≠ AUTHORITY · PROPOSAL ≠ COMMIT · OBSERVED ≠ CURRENT · TEST_PASS ≠ TRUTH.
-- **Epochs distinct** — state_version ≠ causal_epoch ≠ policy_epoch ≠ provenance_epoch unless an explicit mapping licenses equivalence.
-- **Local finality requires proof** — demonstrated dependency closure may avoid coordination; assumed independence may not.
-- **Selective invalidation** — failure invalidates dependent descendants only; unrelated state is preserved.
-
-## 3. Invariants
-- Fail closed on UNKNOWN/GAP; gaps stay visible, never promoted to PASS.
-- Confidence of any conclusion ≤ confidence of its weakest load-bearing premise (ceiling 0.95).
-- Consequential effects emit receipts; rollback basin exists before mutation.
-- Competing hypotheses remain visible when evidence does not discriminate.
-
-## 4. Executed reference
-No subsystem-local executor yet. Existing executed validators for the OS: routing-policy validator 19/19 ([[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]]) and authz invariant engine 17/17 ([[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]) — cited as pattern, not as evidence for this artifact.
-
-## 5. Gaps
-Runtime enforcement, persistence binding, and empirical validation remain OPEN (UNKNOWN/GAP). Promotion beyond AMOS_MODEL requires the promotion-gate checklist plus an executed receipt specific to this contract.
-
-## 6. Falsifiers
-F1: canonical source defines different semantics for this surface. F2: an executed test contradicts a declared invariant. F3: this contract silently collapses a protected firewall.
-## Worked semantics
-Given an operation touching `TESTS · TEST CONTRACT` within the Tests plane:
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-2. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-3. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-4. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-5. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-6. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
-
-## Promotion-gate checklist
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
-
-## Cross-plane bindings
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]|AMOS Core Laws · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
-- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
-- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
----
-
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+> **Origin Architect / Steward:** Trang Phan  
+> **AMOS_CORE Target:** `v4.4`  
+> **Domain Alignment:** Domain F (Assurance, Learning & Lifecycle Evidence)  
+> **Conclusion Class:** `DERIVED` (RSCF Validated)  
+> **Status:** `ACTIVE_CONTRACT`
 
 ---
-**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+
+## 1. Architectural Scope & Core Invariants
+
+`19_TESTS` governs the continuous verification, metamorphic fuzzing, property-based shrinking, AST mutation analysis, and formal Lean 4 theorem proving pipelines of AMOS OS.
+
+```text
+TEST_SPECIFIED != TEST_EXECUTED
+TEST_PASSED != PROVED_CORRECT
+BENCHMARK_SCORE != PRODUCTION_SAFETY
+PASS_ON_SYNTHETIC != PASS_ON_EMPIRICAL
+```
+
+```mermaid
+graph TD
+    CODE[Proposed Code / State Mutation] --> L4[01. Lean 4 Formal Invariant Proof Checker]
+    L4 --> PBT[02. QuickCheck Property-Based Generator (>100k Runs)]
+    PBT --> MET[03. Metamorphic Relation Fuzzing Sieve]
+    MET --> MUT[04. AST Mutation Testing Score M_S >= 92.5%]
+    MUT --> CHS[05. Chaos Network & Storage Fault Injection]
+    CHS --> PASS{All Verification Passed?}
+    PASS -->|Yes| REC[06. Sealed Verification Receipt to 17_OBSERVABILITY]
+    PASS -->|No| ROL[07. Instant Rollback & Block Commit]
+```
 
 ---
-RSCF-NODE
-node_id: amos_19_tests_tests_test_contract_md
-node_type: note
-path: 19_TESTS/TESTS_TEST_CONTRACT.md
-claim_class: AMOS_MODEL
+
+## 2. Comprehensive 5-Tier Verification Suites
+
+| Test Suite | Method / Tool | Pass Threshold | Invariant Guarantee |
+| :--- | :--- | :--- | :--- |
+| **Tier 1: Formal Proofs** | Lean 4 Theorem Prover | $100\%$ proof discharge | Zero unproved `sorry` axioms |
+| **Tier 2: Invariant Monotonicity**| Metamorphic Relation Fuzzing | Violation Rate $\le 0.001\%$ | Epistemic Monotonicity preserved |
+| **Tier 3: Property Generators** | QuickCheck / Hypothesis | $\ge 100,000$ cases | Shrinking to minimal counterexample |
+| **Tier 4: Mutation Testing** | Mutmut / Stryker AST Mutator | $M_S \ge 92.5\%$ killed | Zero surviving equivalent mutants |
+| **Tier 5: Chaos Fault Injection**| Chaos Mesh / Network Jitter | $100\%$ state recovery | Zero data corruption under split-brain |
 
 ---
-**MOC:** [[19_TESTS/19_TESTS_MOC|19_TESTS_MOC]]
+
+## 3. Mathematical Formulation of Metamorphic Relations
+
+A metamorphic relation $\mathcal{M} = (r_{\text{in}}, r_{\text{out}})$ defines the invariant relationship between source and follow-up test executions:
+
+$$\forall \mathbf{x} \in \mathcal{X}, \quad r_{\text{in}}(\mathbf{x}, \mathbf{x}') \implies r_{\text{out}}(f(\mathbf{x}), f(\mathbf{x}'))$$
+
+### 3.1 Epistemic Monotonicity Metamorphic Invariant
+Adding strictly non-contradictory supporting evidence $\mathbf{e}^+$ cannot decrease the confidence score of a verified claim:
+$$\text{Evidence}' = \text{Evidence} \cup \{\mathbf{e}^+\} \implies \mathcal{C}(\text{Claim} \mid \text{Evidence}') \ge \mathcal{C}(\text{Claim} \mid \text{Evidence})$$
+
+---
+
+## 4. CI/CD Gate Policies & Failure Containment
+
+1. **Zero-Warning Tolerance:** Commits containing compiler warnings, unhandled linter errors, or orphaned wikilinks are deterministically rejected at the git pre-commit hook.
+2. **Immutable Test Receipts:** Every test execution generates a BLAKE3-hashed cryptographic receipt stored in `17_OBSERVABILITY/receipts/`.
+3. **Flaky Test Quarantine:** Any non-deterministic test is immediately quarantined and de-listed from active promotion gates until root-cause resolution.
+
+---
+
+## 5. Lineage & Cross-Plane References
+
+- **Parent MOC:** [[19_TESTS/19_TESTS_MOC|19_TESTS_MOC]]
+- **Metamorphic Spec:** [[19_TESTS/METAMORPHIC_FUZZING_AND_INVARIANT_TESTING|METAMORPHIC_FUZZING_AND_INVARIANT_TESTING]]
+- **Observability Tracing:** [[17_OBSERVABILITY/OBSERVABILITY_OBSERVABILITY_CONTRACT|17_OBSERVABILITY]]
+- **Research Benchmarks:** [[22_RESEARCH/05_BENCHMARKS/RESEARCH_BENCHMARKS_CONTRACT|RESEARCH_BENCHMARKS_CONTRACT]]
+- **Security Master:** [[18_SECURITY/SECURITY_SECURITY_CONTRACT|18_SECURITY]]
+

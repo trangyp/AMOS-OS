@@ -12,21 +12,21 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: ENGINE
 path: 11_KNOWLEDGE/05_FRAMEWORKS/NEUROSYNCAI_RECOVERY_ENGINE.md
 tags:
-- amos-os
-- knowledge
-- vault
-- 05_frameworks
-- neurosyncai_recovery_engine
-- fatigue_recovery
-- autonomic_reset
-- flow_restoration
-- rscf
-- canon_candidate
-- canon/knowledge
-- neurosyncai-master
-- neurosyncai-framework
-- ubi-entropy-correction
-- phuong-phap-trang
+  - amos-os
+  - knowledge
+  - vault
+  - 05_frameworks
+  - neurosyncai_recovery_engine
+  - fatigue_recovery
+  - autonomic_reset
+  - flow_restoration
+  - rscf
+  - canon_candidate
+  - canon/knowledge
+  - neurosyncai-master
+  - neurosyncai-framework
+  - ubi-entropy-correction
+  - phuong-phap-trang
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -41,23 +41,23 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - NEUROSYNCAI_FRAMEWORK
-  - UBI_NEUROSYNCAI_BINDING
-  - AMOS_CORPUS
+    - NEUROSYNCAI_FRAMEWORK
+    - UBI_NEUROSYNCAI_BINDING
+    - AMOS_CORPUS
   scope:
-  - KNOWLEDGE_FRAMEWORKS
-  - RECOVERY_ENGINES
-  - SOURCE_DEFINED_MODEL
+    - KNOWLEDGE_FRAMEWORKS
+    - RECOVERY_ENGINES
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   master:
     artifact:
-    - - NEUROSYNCAI_MASTER
+      -   - NEUROSYNCAI_MASTER
   framework:
     artifact:
-    - - NEUROSYNCAI_FRAMEWORK
+      -   - NEUROSYNCAI_FRAMEWORK
   entropy_correction:
     artifact:
-    - - UBI_ENTROPY_CORRECTION
+      -   - UBI_ENTROPY_CORRECTION
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
@@ -71,26 +71,26 @@ epistemic_boundary:
 
 It operates active restorative protocols that automatically mitigate cognitive fatigue, reset sympathetic hyper-arousal, and restore optimal neurobiological flow states during human-AI collaboration.
 
----
+______________________________________________________________________
 
-# 1. Recovery Engine Mechanisms
+## 1. Recovery Engine Mechanisms
 
 1. **Autonomic Strain Detection:** Flags sustained drops in HRV RMSSD or elevated muscle tension.
-2. **Generative Micro-Pacing:** Introduces subtle rhythmic micro-pauses in text and visual streams.
-3. **Parasympathetic Prompting:** Shifts tone and linguistic cadence toward grounding, low-cognitive-load syntax.
+1. **Generative Micro-Pacing:** Introduces subtle rhythmic micro-pauses in text and visual streams.
+1. **Parasympathetic Prompting:** Shifts tone and linguistic cadence toward grounding, low-cognitive-load syntax.
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Master Controller:** [[11_KNOWLEDGE/05_FRAMEWORKS/NEUROSYNCAI_MASTER|NEUROSYNCAI_MASTER]]
 - **Parent Framework:** [[11_KNOWLEDGE/05_FRAMEWORKS/NEUROSYNCAI_FRAMEWORK|NEUROSYNCAI_FRAMEWORK]]
 - **Biological Entropy:** [[11_KNOWLEDGE/05_FRAMEWORKS/UBI_ENTROPY_CORRECTION|UBI_ENTROPY_CORRECTION]]
 - **Phương Pháp Trang:** [[11_KNOWLEDGE/05_FRAMEWORKS/PHUONG_PHAP_TRANG|PHUONG_PHAP_TRANG]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -108,10 +108,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/NEUROSYNCAI_MASTER|NEUROSYNCAI_MASTER]] · [[11_KNOWLEDGE/05_FRAMEWORKS/NEUROSYNCAI_FRAMEWORK|NEUROSYNCAI_FRAMEWORK]] · [[11_KNOWLEDGE/05_FRAMEWORKS/UBI_ENTROPY_CORRECTION|UBI_ENTROPY_CORRECTION]]
 
----
-**MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]
+______________________________________________________________________
 
+**MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]

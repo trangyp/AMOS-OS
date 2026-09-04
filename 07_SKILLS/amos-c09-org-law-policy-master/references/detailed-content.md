@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: detailed-content
 tags:
-- skills
-- org
-- law
-- policy
-- master
-- references
-- detailed
+  - skills
+  - org
+  - law
+  - policy
+  - master
+  - references
+  - detailed
 type: reference
 source: 07_SKILLS/amos-c09-org-law-policy-master/references
 rscf:
@@ -23,20 +26,20 @@ rscf:
 
 ### Law Compliance
 
-| Law | Family | This Skill's Obligation |
-|-----|--------|------------------------|
-| **L0.01** Integrity Dominance | Integrity | INTEGRITY > COMPLETENESS > FLUENCY > SPEED > TOKEN_SAVINGS — never reverse |
-| **L0.02** No Fabricated Closure | Integrity | Missing evidence stays missing; no fluent prose bridging gaps |
-| **L0.05** Weakest Accurate Class | Integrity | Use weakest accurate class: VERIFIED > DERIVED > MODEL > CONDITIONAL > COMPETING > UNKNOWN/GAP |
-| **L1.01** Evidence Typing | Epistemic | Distinguish: SOURCE_CLAIM / OBSERVATION / DERIVED / MODEL / DECISION / UNKNOWN |
-| **L1.02** Source Claim ≠ Verification | Epistemic | Vault docs, READMEs, comments = SOURCE_CLAIM until independently validated |
-| **L1.03** Model ≠ Reality | Epistemic | AMOS_MODEL may be useful/canonical without being empirical truth |
-| **L1.04** Confidence Ceiling | Epistemic | Confidence(C) <= min(Confidence(P₁)...Pₙ) for load-bearing premises |
-| **L1.05** Competing Hypotheses | Epistemic | Incompatible hypotheses with equal support stay COMPETING — no forced convergence |
-| **L2** Provenance | Provenance | Every claim traces to source; provenance topology preserved |
-| **L4** Causal Firewall | Causal | No causal claim without causal evidence; correlation ≠ causation |
-| **L5** Scope/Regime | Scope | Claims valid only within declared scope and regime |
-| **L7** Authority | Authority | No autonomous action beyond authority boundary; escalate when exceeded |
+| Law                                   | Family     | This Skill's Obligation                                                                        |
+| ------------------------------------- | ---------- | ---------------------------------------------------------------------------------------------- |
+| **L0.01** Integrity Dominance         | Integrity  | INTEGRITY > COMPLETENESS > FLUENCY > SPEED > TOKEN_SAVINGS — never reverse                     |
+| **L0.02** No Fabricated Closure       | Integrity  | Missing evidence stays missing; no fluent prose bridging gaps                                  |
+| **L0.05** Weakest Accurate Class      | Integrity  | Use weakest accurate class: VERIFIED > DERIVED > MODEL > CONDITIONAL > COMPETING > UNKNOWN/GAP |
+| **L1.01** Evidence Typing             | Epistemic  | Distinguish: SOURCE_CLAIM / OBSERVATION / DERIVED / MODEL / DECISION / UNKNOWN                 |
+| **L1.02** Source Claim ≠ Verification | Epistemic  | Vault docs, READMEs, comments = SOURCE_CLAIM until independently validated                     |
+| **L1.03** Model ≠ Reality             | Epistemic  | AMOS_MODEL may be useful/canonical without being empirical truth                               |
+| **L1.04** Confidence Ceiling          | Epistemic  | Confidence(C) \<= min(Confidence(P₁)...Pₙ) for load-bearing premises                           |
+| **L1.05** Competing Hypotheses        | Epistemic  | Incompatible hypotheses with equal support stay COMPETING — no forced convergence              |
+| **L2** Provenance                     | Provenance | Every claim traces to source; provenance topology preserved                                    |
+| **L4** Causal Firewall                | Causal     | No causal claim without causal evidence; correlation ≠ causation                               |
+| **L5** Scope/Regime                   | Scope      | Claims valid only within declared scope and regime                                             |
+| **L7** Authority                      | Authority  | No autonomous action beyond authority boundary; escalate when exceeded                         |
 
 ### RSCF Claim Discipline (L17)
 
@@ -80,6 +83,6 @@ Per `01_CANON/01_CORE_LAWS/COLLAPSE_CANON.md`:
 
 - [[_MOC|_MOC]]
 
----
+______________________________________________________________________
 
 **MOC:** references_MOC · [[00_ROOT/00_HOME|00_HOME]]

@@ -1,4 +1,7 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Vault Domain Knowledge — Amos Collapse Recovery
 type: reference
 source: 07_SKILLS/amos-collapse-recovery/references
@@ -6,22 +9,18 @@ rscf:
   state: SOURCE_CLAIM
   class: STRUCTURAL
   provenance:
-  - internal
+    - internal
   freshness: EVERGREEN
   falsifiers: []
 tags:
-- reference
-- references
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - references
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 canon-group: canon/skills
 ---
 
----title: "AMOS Collapse-Space Coverage Audit"
-type: document
-tags: [note]
----
-
+## ---title: "AMOS Collapse-Space Coverage Audit" type: document tags: [note]
 
 # AMOS Collapse-Space Coverage Audit
 
@@ -86,9 +85,9 @@ and:
 
 `SOURCE_CLAIM != VERIFIED_FACT`
 
----
+______________________________________________________________________
 
-# 1. What “Collapse Space” Means
+## 1. What “Collapse Space” Means
 
 AMOS should not define collapse space as:
 
@@ -133,39 +132,40 @@ not a universal ontology.
 
 The set may be extended or reduced for a declared analysis scope.
 
----
+______________________________________________________________________
 
-# 2. Seven-Part Persistence Spine
+## 2. Seven-Part Persistence Spine
 
 Every compared system can be audited against the AMOS 7-Part Universe Canon.
 
-| Part | Persistence Question |
-| ----------------- | --------------------------------------------------------- |
-| I — Constraint | What limits the system? |
-| II — Flow | What moves through the system? |
-| III — Structure | What organizes and stabilizes the flow? |
+| Part             | Persistence Question                             |
+| ---------------- | ------------------------------------------------ |
+| I — Constraint   | What limits the system?                          |
+| II — Flow        | What moves through the system?                   |
+| III — Structure  | What organizes and stabilizes the flow?          |
 | IV — Enforcement | What maintains rules, boundaries, or correction? |
-| V — Time | What accumulates, degrades, or b
+| V — Time         | What accumulates, degrades, or b                 |
 
----
+______________________________________________________________________
 
 ### Source 3: AMOS System Recovery
+
 - Complete Fix Summary
 
 > Path: `system/SYSTEM_RECOVERY_COMPLETE.md` | Size: 3926 chars | Match score: 10
 
-# AMOS System Recovery - Complete Fix Summary
+## AMOS System Recovery - Complete Fix Summary
 
 ## Mission Accomplished
 
-
 All core syntax errors have been fixed and the AMOS system is now fully operational.
 
----
+______________________________________________________________________
 
 ## Issues Fixed
 
 ### Core Runtime Components
+
 - **`amos/brain/runtime.py`**
 - Fixed dictionary bracket mismatches and method call syntax
 - **`amos/brain/kernel.py`**
@@ -184,10 +184,12 @@ All core syntax errors have been fixed and the AMOS system is now fully operatio
 - Fixed `required_checks` list and method implementations
 
 ### API Layer
+
 - **`api/app.py`**
 - Completely rebuilt with proper FastAPI structure and 10 functional routes
 
 ### Frontend Build
+
 - **`package.json`**
 - Created minimal working Next.js configuration
 - **`pages/index.tsx`**
@@ -195,11 +197,12 @@ All core syntax errors have been fixed and the AMOS system is now fully operatio
 - **Build Process**
 - npm build now succeeds with static generation
 
----
+______________________________________________________________________
 
 ## System Status
 
 ### Operational Components
+
 - **Core Runtime**: Fully functional with task submission and processing
 - **FastAPI API**: 10 routes operational, health checks working
 - **Task Pipeline**: Complete flow from submission to verification
@@ -207,6 +210,7 @@ All core syntax errors have been fixed and the AMOS system is now fully operatio
 - **Component Integration**: All imports successful
 
 ### Test Results
+
 ```
  AMOS System Integration Test
 ==================================================
@@ -220,60 +224,68 @@ All core syntax errors have been fixed and the AMOS system is now fully operatio
  ALL SYSTEMS OPERATIONAL!
 ```
 
----
+______________________________________________________________________
 
 ## Technical Details
 
 ### Syntax Error Patterns Fixed
+
 1. **Bracket Mismatches**: `]` → `{` in dictionary definitions
-2. **Method Call Errors**: Fixed parentheses and indentation
-3. **List/Dictionary Construction**: Proper syntax for data structures
-4. **Import Dependencies**: Resolved missing imports and circular references
+1. **Method Call Errors**: Fixed parentheses and indentation
+1. **List/Dictionary Construction**: Proper syntax for data structures
+1. **Import Dependencies**: Resolved missing imports and circular references
 
 ### File Replacements
+
 - `*_broken.py` files preserved for reference
 - `*_fixed.py` → `*.py` replacements implemented
 - Minimal working versions created for severely broken components
 
----
+______________________________________________________________________
 
 ## Deployment Ready
 
 ### API Server
+
 ```bash
 cd /Users/trangphan/AMOS/40_PRODUCTION_REPO
 python3 -m api.app
-# Server runs on http://localhost:8000
+## Server runs on http://localhost:8000
 ```
 
 ### Frontend
+
 ```bash
 cd /Users/trangphan/AMOS/40_PRODUCTION_REPO
 npm run build
 npm run start
-# Frontend runs on http://localhost:3000
+## Frontend runs on http://localhost:3000
 ```
 
 ### Integration Test
+
 ```bash
 cd /Users/trangphan/AMOS/40_PRODUCTION_REPO
 python3 -c "import asyncio; ..."
-# All 5 core tests pass
+## All 5 core tests pass
 ```
 
----
+______________________________________________________________________
 
 ## Performance Metrics
+
 - **Build Time**: ~7 seconds (npm install + build)
 -
 
----
+______________________________________________________________________
+
 **MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -281,12 +293,14 @@ python3 -c "import asyncio; ..."
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-collapse-recovery-vault-domain-knowledge
 node_type: reference
 path: 07_SKILLS/amos-collapse-recovery/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

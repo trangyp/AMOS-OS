@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: L01 SENSING OBSERVATION PRIMITIVES COGNITIVE MATRIX OPERATORS
 type: cognitive
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION
 tags:
-- cognitive-matrix
-- primitives
-- matrix/l01-sensing-observation
-- note
-- domain/cognitive-matrix
+  - cognitive-matrix
+  - primitives
+  - matrix/l01-sensing-observation
+  - note
+  - domain/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -27,9 +30,9 @@ rscf:
 
 > **Epistemic boundary:** this document defines the proposed operator contract for `L01_SENSING_OBSERVATION`. It specifies admissible transformations over sensing and observation state while preserving provenance, scope, time, regime, uncertainty, H/M/L scale, epistemic class, and control-plane authority. Exact canonical L01 operator names, signatures, ordering, and implementation semantics remain subject to direct-canon confirmation and executable validation.
 
----
+______________________________________________________________________
 
-# 0. Purpose
+## 0. Purpose
 
 `L01_SENSING_OBSERVATION/OPERATORS.md` defines the AMOS operator surface by which raw or already-structured sensing inputs may be transformed into governed observation records.
 
@@ -51,31 +54,31 @@ with what resulting epistemic class
 
 The core transformation is conceptually:
 
-[
-\boxed{
+\[
+\\boxed{
 SensingInput
-\xrightarrow{Operator}
+\\xrightarrow{Operator}
 ObservationState
 }
-]
+\]
 
 but never:
 
-[
-\boxed{
+\[
+\\boxed{
 SensingInput
-\xrightarrow{Operator}
+\\xrightarrow{Operator}
 Reality
 }
-]
+\]
 
 Operators manipulate representations of observations.
 
 They do not create ontological truth merely by execution.
 
----
+______________________________________________________________________
 
-# 1. Source / Canon References
+## 1. Source / Canon References
 
 ## 1.1 Origin
 
@@ -174,22 +177,22 @@ OPERATOR CONTRACT
 IMPLEMENTED RUNTIME
 ```
 
----
+______________________________________________________________________
 
-# 2. Definition
+## 2. Definition
 
 An `L01 Operator` is a typed transformation, validation, classification, routing, comparison, or state-transition function applied to sensing or observation state.
 
 General form:
 
-[
-\boxed{
+\[
+\\boxed{
 O_i:
 (X,C,A)
-\rightarrow
+\\rightarrow
 (Y,E)
 }
-]
+\]
 
 where:
 
@@ -222,9 +225,9 @@ authority
 validation result
 ```
 
----
+______________________________________________________________________
 
-# 3. Scope
+## 3. Scope
 
 This contract governs operators acting on:
 
@@ -288,9 +291,9 @@ cross-boundary information release
 
 Those require appropriate control-plane authority.
 
----
+______________________________________________________________________
 
-# 4. Typed Inputs
+## 4. Typed Inputs
 
 ```yaml
 L01OperatorInput:
@@ -355,9 +358,9 @@ L01OperatorInput:
     type: ExecutionContext
 ```
 
----
+______________________________________________________________________
 
-# 5. Typed Outputs
+## 5. Typed Outputs
 
 ```yaml
 L01OperatorOutput:
@@ -430,9 +433,9 @@ L01OperatorOutput:
       - QUARANTINED
 ```
 
----
+______________________________________________________________________
 
-# 6. State Variables
+## 6. State Variables
 
 ```text
 X = input state
@@ -478,10 +481,10 @@ Z = lifecycle / commit state
 
 Operator-state tensor:
 
-[
-\boxed{
+\[
+\\boxed{
 T_O =
-T[
+T\[
 operator,
 version,
 input,
@@ -497,13 +500,13 @@ uncertainty,
 quality,
 authority,
 status
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 7. Operator Families
+## 7. Operator Families
 
 The proposed L01 operator surface is divided into the following families:
 
@@ -528,9 +531,9 @@ These families are architectural organization.
 
 They are not direct-canon claims unless independently confirmed.
 
----
+______________________________________________________________________
 
-# 8. Candidate Operator Registry
+## 8. Candidate Operator Registry
 
 ```text
 SENSE
@@ -605,19 +608,19 @@ OPERATOR NAME PRESENT HERE
 DIRECT CANON CONFIRMATION
 ```
 
----
+______________________________________________________________________
 
-# 9. SENSE
+## 9. SENSE
 
 Conceptual acquisition:
 
-[
-\boxed{
+\[
+\\boxed{
 SENSE(E,M,C)
-\rightarrow
+\\rightarrow
 S
 }
-]
+\]
 
 where:
 
@@ -632,19 +635,19 @@ S = sensing state
 
 It only denotes acquisition through an available sensing channel.
 
----
+______________________________________________________________________
 
-# 10. OBSERVE
+## 10. OBSERVE
 
 Conceptually:
 
-[
-\boxed{
+\[
+\\boxed{
 OBSERVE(S,C)
-\rightarrow
+\\rightarrow
 O_c
 }
-]
+\]
 
 where `O_c` is an observation candidate.
 
@@ -656,9 +659,9 @@ signal
 verified fact
 ```
 
----
+______________________________________________________________________
 
-# 11. CAPTURE
+## 11. CAPTURE
 
 `CAPTURE` records a bounded representation of accessible sensing state.
 
@@ -686,19 +689,19 @@ CAPTURED
 VALIDATED
 ```
 
----
+______________________________________________________________________
 
-# 12. INGEST
+## 12. INGEST
 
 `INGEST` accepts an observation-bearing input from an external or upstream source.
 
-[
-\boxed{
+\[
+\\boxed{
 INGEST(X)
-\rightarrow
+\\rightarrow
 X'
 }
-]
+\]
 
 Ingestion is an admission into processing, not validation.
 
@@ -712,9 +715,9 @@ INGESTED
 TRUE
 ```
 
----
+______________________________________________________________________
 
-# 13. TYPE
+## 13. TYPE
 
 `TYPE` assigns or verifies a semantic/structural type.
 
@@ -734,19 +737,19 @@ Unknown
 
 Typing must preserve uncertainty when classification is ambiguous.
 
----
+______________________________________________________________________
 
-# 14. PARSE
+## 14. PARSE
 
-[
-\boxed{
-PARSE(X,\Sigma)
-\rightarrow
+\[
+\\boxed{
+PARSE(X,\\Sigma)
+\\rightarrow
 X_p
 }
-]
+\]
 
-where (\Sigma) is an expected schema or grammar.
+where (\\Sigma) is an expected schema or grammar.
 
 Parse success establishes structural compatibility only.
 
@@ -760,20 +763,20 @@ PARSE_SUCCESS
 TRUTH
 ```
 
----
+______________________________________________________________________
 
-# 15. NORMALIZE
+## 15. NORMALIZE
 
 `NORMALIZE` maps equivalent representations into a common representation.
 
-[
-\boxed{
+\[
+\\boxed{
 N:
 X
-\rightarrow
+\\rightarrow
 X_n
 }
-]
+\]
 
 Normalization must preserve semantic identity or explicitly record loss.
 
@@ -787,9 +790,9 @@ field normalization
 encoding normalization
 ```
 
----
+______________________________________________________________________
 
-# 16. CANONICALIZE
+## 16. CANONICALIZE
 
 `CANONICALIZE` selects a canonical representation where multiple equivalent encodings exist.
 
@@ -803,27 +806,27 @@ uncertainty introduced by conversion
 
 Thus:
 
-[
-\boxed{
+\[
+\\boxed{
 Canonical(X)
-\neq
+\\neq
 Original(X)
 }
-]
+\]
 
 even when semantically equivalent within a declared scope.
 
----
+______________________________________________________________________
 
-# 17. BIND_SOURCE
+## 17. BIND_SOURCE
 
-[
-\boxed{
+\[
+\\boxed{
 BIND_SOURCE(O,S)
-\rightarrow
+\\rightarrow
 O'
 }
-]
+\]
 
 Attaches source identity and ancestry.
 
@@ -835,9 +838,9 @@ source = UNKNOWN
 
 not an inferred source presented as observed fact.
 
----
+______________________________________________________________________
 
-# 18. BIND_OBSERVER
+## 18. BIND_OBSERVER
 
 Attaches the observer or acquisition actor where relevant.
 
@@ -852,9 +855,9 @@ system
 
 Observer identity must remain distinct from source identity when they differ.
 
----
+______________________________________________________________________
 
-# 19. BIND_TIME
+## 19. BIND_TIME
 
 Attaches temporal coordinates.
 
@@ -868,27 +871,27 @@ ingestion time
 processing time
 ```
 
-[
-\boxed{
+\[
+\\boxed{
 ObservationTime
-\neq
+\\neq
 ProcessingTime
 }
-]
+\]
 
 unless explicitly equal.
 
----
+______________________________________________________________________
 
-# 20. BIND_SCOPE
+## 20. BIND_SCOPE
 
-[
-\boxed{
+\[
+\\boxed{
 BIND_SCOPE(O,S_c)
-\rightarrow
+\\rightarrow
 O'
 }
-]
+\]
 
 Scope may include:
 
@@ -905,9 +908,9 @@ environment
 
 Unknown scope must remain explicit.
 
----
+______________________________________________________________________
 
-# 21. BIND_REGIME
+## 21. BIND_REGIME
 
 Attaches regime information such as:
 
@@ -924,9 +927,9 @@ when relevant.
 
 Regime binding prevents observations from being silently generalized across incompatible operating conditions.
 
----
+______________________________________________________________________
 
-# 22. BIND_HML
+## 22. BIND_HML
 
 Assigns observation scale:
 
@@ -938,35 +941,35 @@ H = system / global
 
 The operator must not infer a higher scale solely from repetition.
 
----
+______________________________________________________________________
 
-# 23. BIND_PROVENANCE
+## 23. BIND_PROVENANCE
 
 Conceptually:
 
-[
-\boxed{
+\[
+\\boxed{
 BIND_PROVENANCE(O,P)
-\rightarrow
+\\rightarrow
 O_P
 }
-]
+\]
 
 The resulting observation must retain ancestry to its input evidence.
 
----
+______________________________________________________________________
 
-# 24. VALIDATE
+## 24. VALIDATE
 
 Generic validation:
 
-[
-\boxed{
+\[
+\\boxed{
 VALIDATE(O,I)
-\rightarrow
+\\rightarrow
 V
 }
-]
+\]
 
 where `I` is the applicable invariant set.
 
@@ -988,9 +991,9 @@ UNKNOWN
 PASS
 ```
 
----
+______________________________________________________________________
 
-# 25. VERIFY_TYPE
+## 25. VERIFY_TYPE
 
 Checks that the observation representation satisfies the required type contract.
 
@@ -1008,9 +1011,9 @@ UNKNOWN_TYPE
 
 rather than silent coercion when semantics may change.
 
----
+______________________________________________________________________
 
-# 26. VERIFY_SOURCE
+## 26. VERIFY_SOURCE
 
 Checks:
 
@@ -1026,9 +1029,9 @@ where applicable.
 
 Source verification does not establish observation correctness by itself.
 
----
+______________________________________________________________________
 
-# 27. VERIFY_TIME
+## 27. VERIFY_TIME
 
 Checks:
 
@@ -1041,9 +1044,9 @@ event/observation distinction
 freshness relevance
 ```
 
----
+______________________________________________________________________
 
-# 28. VERIFY_SCOPE
+## 28. VERIFY_SCOPE
 
 Checks whether:
 
@@ -1059,9 +1062,9 @@ actual observation coverage
 
 A local observation cannot automatically satisfy a global scope claim.
 
----
+______________________________________________________________________
 
-# 29. VERIFY_REGIME
+## 29. VERIFY_REGIME
 
 Checks whether observation use remains inside its regime-validity envelope.
 
@@ -1072,9 +1075,9 @@ used in regime R2
 
 requires explicit compatibility or revalidation.
 
----
+______________________________________________________________________
 
-# 30. VERIFY_PROVENANCE
+## 30. VERIFY_PROVENANCE
 
 Checks:
 
@@ -1088,9 +1091,9 @@ correlated evidence
 missing lineage
 ```
 
----
+______________________________________________________________________
 
-# 31. ASSESS_QUALITY
+## 31. ASSESS_QUALITY
 
 Candidate quality dimensions include:
 
@@ -1107,9 +1110,9 @@ measurement reliability
 
 Quality must remain multidimensional where collapsing dimensions would hide important weakness.
 
----
+______________________________________________________________________
 
-# 32. ASSESS_UNCERTAINTY
+## 32. ASSESS_UNCERTAINTY
 
 Produces or updates an uncertainty vector.
 
@@ -1137,14 +1140,14 @@ uncertainty:
 
 No numerical value should be fabricated merely because an operator expects one.
 
----
+______________________________________________________________________
 
-# 33. ASSESS_FRESHNESS
+## 33. ASSESS_FRESHNESS
 
 Conceptually:
 
-[
-\boxed{
+\[
+\\boxed{
 Freshness =
 f(
 observation_time,
@@ -1154,7 +1157,7 @@ purpose,
 change_rate
 )
 }
-]
+\]
 
 This is an AMOS MODEL relationship, not a universal empirical equation.
 
@@ -1167,17 +1170,17 @@ CONDITIONAL
 UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 34. COMPARE
+## 34. COMPARE
 
-[
-\boxed{
+\[
+\\boxed{
 COMPARE(O_1,O_2)
-\rightarrow
+\\rightarrow
 C
 }
-]
+\]
 
 Comparison requires compatibility checks for:
 
@@ -1193,27 +1196,27 @@ measurement method
 
 before differences are interpreted.
 
----
+______________________________________________________________________
 
-# 35. CORRELATE
+## 35. CORRELATE
 
 `CORRELATE` identifies association between observation states.
 
 Hard causal firewall:
 
-[
-\boxed{
+\[
+\\boxed{
 Correlation
-\neq
+\\neq
 Causation
 }
-]
+\]
 
 The operator must not emit causal conclusions unless separately supported by causally typed evidence.
 
----
+______________________________________________________________________
 
-# 36. MATCH
+## 36. MATCH
 
 Determines whether observations may refer to the same:
 
@@ -1227,57 +1230,57 @@ phenomenon
 
 Matching confidence must remain explicit when identity is uncertain.
 
----
+______________________________________________________________________
 
-# 37. DIFFERENCE
+## 37. DIFFERENCE
 
 Conceptually:
 
-[
-\boxed{
+\[
+\\boxed{
 DIFF(O_1,O_2)
-\rightarrow
-\Delta O
+\\rightarrow
+\\Delta O
 }
-]
+\]
 
 The difference must preserve the coordinate frame under which the comparison is meaningful.
 
----
+______________________________________________________________________
 
-# 38. FILTER
+## 38. FILTER
 
-[
-\boxed{
+\[
+\\boxed{
 FILTER(O,P)
-\rightarrow
+\\rightarrow
 O'
 }
-]
+\]
 
 where `P` is an explicit predicate.
 
 Filtering must preserve knowledge that excluded observations existed when exclusion materially affects interpretation.
 
----
+______________________________________________________________________
 
-# 39. SELECT
+## 39. SELECT
 
 Selects observations satisfying declared criteria.
 
 Selection criteria must be provenance-visible for consequential downstream use.
 
----
+______________________________________________________________________
 
-# 40. PARTITION
+## 40. PARTITION
 
-[
-\boxed{
+\[
+\\boxed{
 PARTITION(O,K)
-\rightarrow
-{O_1,\dots,O_n}
+\\rightarrow
+{O_1,\\dots,O_n}
 }
-]
+\]
 
 Possible keys:
 
@@ -1292,9 +1295,9 @@ quality
 epistemic class
 ```
 
----
+______________________________________________________________________
 
-# 41. DEDUPLICATE
+## 41. DEDUPLICATE
 
 Deduplication identifies redundant representations.
 
@@ -1308,17 +1311,17 @@ INDEPENDENT CONFIRMATION
 
 Deduplication should preserve ancestry information rather than merely deleting copies.
 
----
+______________________________________________________________________
 
-# 42. AGGREGATE
+## 42. AGGREGATE
 
-[
-\boxed{
+\[
+\\boxed{
 AGGREGATE({O_i},A)
-\rightarrow
+\\rightarrow
 O_A
 }
-]
+\]
 
 Aggregation requires explicit:
 
@@ -1335,41 +1338,41 @@ provenance treatment
 
 Aggregation must not erase material disagreement.
 
----
+______________________________________________________________________
 
-# 43. DECOMPOSE
+## 43. DECOMPOSE
 
-[
-\boxed{
+\[
+\\boxed{
 DECOMPOSE(O,D)
-\rightarrow
-{O_1,\dots,O_n}
+\\rightarrow
+{O_1,\\dots,O_n}
 }
-]
+\]
 
 Used where a composite observation contains separable sub-observations.
 
 Decomposition must preserve parent-child lineage.
 
----
+______________________________________________________________________
 
-# 44. PROJECT
+## 44. PROJECT
 
 Maps an observation into a reduced representation or coordinate space.
 
-[
-\boxed{
-PROJECT(O,\Pi)
-\rightarrow
-O_\Pi
+\[
+\\boxed{
+PROJECT(O,\\Pi)
+\\rightarrow
+O\_\\Pi
 }
-]
+\]
 
 Projection loss must be explicit where decision-relevant.
 
----
+______________________________________________________________________
 
-# 45. ALIGN
+## 45. ALIGN
 
 Aligns observations across:
 
@@ -1386,17 +1389,17 @@ Alignment is a transformation.
 
 It is not proof that aligned observations describe the same underlying cause.
 
----
+______________________________________________________________________
 
-# 46. DETECT_CONFLICT
+## 46. DETECT_CONFLICT
 
-[
-\boxed{
+\[
+\\boxed{
 DETECT_CONFLICT({O_i})
-\rightarrow
+\\rightarrow
 K
 }
-]
+\]
 
 Conflict may arise from:
 
@@ -1412,9 +1415,9 @@ different interpretations
 
 Not every apparent conflict is a true contradiction.
 
----
+______________________________________________________________________
 
-# 47. PRESERVE_COMPETING
+## 47. PRESERVE_COMPETING
 
 When observations cannot yet be reconciled:
 
@@ -1434,33 +1437,30 @@ COMPETING {
 
 rather than unsupported convergence.
 
----
+______________________________________________________________________
 
-# 48. DISCRIMINATE
+## 48. DISCRIMINATE
 
 Identifies the cheapest high-information observation or test capable of distinguishing competing hypotheses.
 
 Conceptually:
 
-[
-\boxed{
-D^*
-===
+## \[ \\boxed{ D^\*
 
-\arg\max_D
-\frac{
+\\arg\\max_D
+\\frac{
 ExpectedDiscrimination(D)
 }{
 Cost(D)
 }
 }
-]
+\]
 
 This is a decision-model expression, not an established universal law.
 
----
+______________________________________________________________________
 
-# 49. QUARANTINE
+## 49. QUARANTINE
 
 Moves an observation into an isolated unresolved state.
 
@@ -1478,9 +1478,9 @@ integrity failure
 
 Quarantine is neither rejection nor validation.
 
----
+______________________________________________________________________
 
-# 50. INVALIDATE
+## 50. INVALIDATE
 
 Marks an observation as unusable for specified dependent claims or decisions.
 
@@ -1494,9 +1494,9 @@ validator
 dependency impact
 ```
 
----
+______________________________________________________________________
 
-# 51. SUPERSEDE
+## 51. SUPERSEDE
 
 Links a newer or corrected observation to an older observation.
 
@@ -1510,41 +1510,41 @@ O_new
 
 Historical lineage remains available unless governance requires deletion.
 
----
+______________________________________________________________________
 
-# 52. REVOKE
+## 52. REVOKE
 
 Marks an observation or source as no longer authorized/trusted for specified uses.
 
 Revocation should propagate only through affected dependency closure.
 
----
+______________________________________________________________________
 
-# 53. REOBSERVE
+## 53. REOBSERVE
 
-[
-\boxed{
+\[
+\\boxed{
 REOBSERVE(Target,C)
-\rightarrow
-O_{new}
+\\rightarrow
+O\_{new}
 }
-]
+\]
 
 `REOBSERVE` must create a new temporal observation state.
 
 It must not silently rewrite the old observation.
 
----
+______________________________________________________________________
 
-# 54. REVALIDATE
+## 54. REVALIDATE
 
-[
-\boxed{
-REVALIDATE(O,C_{new})
-\rightarrow
-V_{new}
+\[
+\\boxed{
+REVALIDATE(O,C\_{new})
+\\rightarrow
+V\_{new}
 }
-]
+\]
 
 Required when material validity conditions change, including:
 
@@ -1558,9 +1558,9 @@ operator version
 control policy
 ```
 
----
+______________________________________________________________________
 
-# 55. REPAIR
+## 55. REPAIR
 
 `REPAIR` addresses malformed, incomplete, corrupted, or invalid observation state.
 
@@ -1582,25 +1582,25 @@ restore or reject
 
 Repair must not fabricate missing evidence.
 
----
+______________________________________________________________________
 
-# 56. ROUTE
+## 56. ROUTE
 
 Routes observation state to the appropriate next primitive, validator, memory layer, or control plane.
 
-[
-\boxed{
+\[
+\\boxed{
 ROUTE(O,C)
-\rightarrow
+\\rightarrow
 Destination
 }
-]
+\]
 
 Routing eligibility does not grant the destination authority to act.
 
----
+______________________________________________________________________
 
-# 57. EMIT
+## 57. EMIT
 
 Produces an observation result for downstream consumption.
 
@@ -1622,9 +1622,9 @@ uncertainty
 provenance
 ```
 
----
+______________________________________________________________________
 
-# 58. PROPOSE
+## 58. PROPOSE
 
 Creates a proposed state transition or downstream action.
 
@@ -1642,42 +1642,39 @@ PROPOSE_REOBSERVATION
 PROPOSE_INVALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 59. COMMIT
+## 59. COMMIT
 
 `COMMIT` creates an authoritative durable state change only after applicable control-plane checks.
 
 Conceptually:
 
-[
-\boxed{
-CommitEligible
-==============
+## \[ \\boxed{ CommitEligible
 
 Validated
-\land
+\\land
 Authorized
-\land
+\\land
 Fresh
-\land
+\\land
 ConstraintCompatible
 }
-]
+\]
 
 This is an AMOS MODEL gate.
 
 The operator contract does not claim that ChatGPT itself implements transactional commit semantics.
 
----
+______________________________________________________________________
 
-# 60. Operator Composition
+## 60. Operator Composition
 
 Operators may compose:
 
-[
-O_n \circ O_{n-1} \circ \cdots \circ O_1
-]
+\[
+O_n \\circ O\_{n-1} \\circ \\cdots \\circ O_1
+\]
 
 but composition is valid only when:
 
@@ -1699,21 +1696,21 @@ provenance continuity
 
 hold.
 
----
+______________________________________________________________________
 
-# 61. Operator Composition Invariant
+## 61. Operator Composition Invariant
 
 For composed transformation:
 
-[
+\[
 X
-\xrightarrow{O_1}
+\\xrightarrow{O_1}
 X_1
-\xrightarrow{O_2}
+\\xrightarrow{O_2}
 X_2
-\xrightarrow{O_3}
+\\xrightarrow{O_3}
 Y
-]
+\]
 
 provenance must retain:
 
@@ -1729,19 +1726,19 @@ Y
 
 at sufficient resolution for audit and repair.
 
----
+______________________________________________________________________
 
-# 62. Non-Commutativity
+## 62. Non-Commutativity
 
 Operator order may matter.
 
 Generally:
 
-[
+\[
 O_a(O_b(X))
-\neq
+\\neq
 O_b(O_a(X))
-]
+\]
 
 Example:
 
@@ -1757,15 +1754,15 @@ AGGREGATE → FILTER
 
 Therefore operator ordering must be explicit where semantically material.
 
----
+______________________________________________________________________
 
-# 63. Idempotence
+## 63. Idempotence
 
 Some operators may be expected to be idempotent under fixed context:
 
-[
+\[
 O(O(X)) = O(X)
-]
+\]
 
 Candidate examples:
 
@@ -1785,9 +1782,9 @@ UNKNOWN/GAP
 
 until operator-specific semantics are canonicalized.
 
----
+______________________________________________________________________
 
-# 64. Reversibility
+## 64. Reversibility
 
 Operators should declare whether they are:
 
@@ -1809,22 +1806,19 @@ normalization may be reversible or lossy
 
 Irreversible transformations require stronger governance when source data cannot be reconstructed.
 
----
+______________________________________________________________________
 
-# 65. Information-Loss Boundary
+## 65. Information-Loss Boundary
 
-For transformation \(O\):
+For transformation (O):
 
-[
-\boxed{
-Loss(O)
-=======
+## \[ \\boxed{ Loss(O)
 
 ## InformationRequiredBefore
 
 InformationRecoverableAfter
 }
-]
+\]
 
 conceptually.
 
@@ -1832,9 +1826,9 @@ No numerical interpretation is implied unless a domain-specific metric is define
 
 Decision-relevant loss must be recorded.
 
----
+______________________________________________________________________
 
-# 66. Core Operator Invariants
+## 66. Core Operator Invariants
 
 Minimum proposed invariant registry:
 
@@ -1861,9 +1855,9 @@ L01-OP-INV-019  Operator-Version Traceability
 L01-OP-INV-020  Loss Visibility
 ```
 
----
+______________________________________________________________________
 
-# 67. Typed Input / Output Invariant
+## 67. Typed Input / Output Invariant
 
 Every operator must either:
 
@@ -1879,9 +1873,9 @@ fail / return UNKNOWN
 
 It must not silently reinterpret incompatible data.
 
----
+______________________________________________________________________
 
-# 68. Observation != Reality
+## 68. Observation != Reality
 
 No operator may promote:
 
@@ -1897,17 +1891,17 @@ reality
 
 without an explicit epistemic boundary.
 
-[
-\boxed{
+\[
+\\boxed{
 OperatorOutput
-\neq
+\\neq
 RealityByDefinition
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 69. Transformation Traceability
+## 69. Transformation Traceability
 
 Every material transformation should be reconstructable as:
 
@@ -1921,27 +1915,27 @@ parameters/context
 output
 ```
 
----
+______________________________________________________________________
 
-# 70. Provenance Preservation
+## 70. Provenance Preservation
 
 Conceptually:
 
-[
-\boxed{
+\[
+\\boxed{
 P(Y)
-\supseteq
+\\supseteq
 P(X)
-+
+\+
 P(O)
 }
-]
+\]
 
 where lineage to both input and transformation is retained.
 
----
+______________________________________________________________________
 
-# 71. Temporal Preservation
+## 71. Temporal Preservation
 
 Operators must not silently substitute:
 
@@ -1961,33 +1955,33 @@ or:
 event time
 ```
 
----
+______________________________________________________________________
 
-# 72. Scope Preservation
+## 72. Scope Preservation
 
 Transformation may narrow scope explicitly.
 
 It may not silently widen scope.
 
-[
-\boxed{
+\[
+\\boxed{
 Scope(Y)
-\subseteq
+\\subseteq
 Scope(X)
 }
-]
+\]
 
 for ordinary filtering/projection unless a valid aggregation/generalization rule explicitly licenses broader scope.
 
----
+______________________________________________________________________
 
-# 73. Regime Preservation
+## 73. Regime Preservation
 
 Operators must preserve regime identity unless they explicitly perform regime translation or revalidation.
 
----
+______________________________________________________________________
 
-# 74. H/M/L Preservation
+## 74. H/M/L Preservation
 
 Cross-scale transformation requires explicit mapping.
 
@@ -2007,23 +2001,23 @@ H
 
 must not occur merely because multiple observations are present.
 
----
+______________________________________________________________________
 
-# 75. Uncertainty Preservation
+## 75. Uncertainty Preservation
 
 Transformation cannot legitimately increase certainty solely because data has been processed.
 
-[
-\boxed{
+\[
+\\boxed{
 Processing
-\neq
+\\neq
 IndependentEvidence
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 76. Epistemic-Class Preservation
+## 76. Epistemic-Class Preservation
 
 Examples:
 
@@ -2043,9 +2037,9 @@ OBSERVATION
 
 A transformation must not silently upgrade epistemic class.
 
----
+______________________________________________________________________
 
-# 77. Unknown Preservation
+## 77. Unknown Preservation
 
 ```text
 UNKNOWN
@@ -2071,9 +2065,9 @@ UNKNOWN
 
 without declared policy and justification.
 
----
+______________________________________________________________________
 
-# 78. Contradiction Visibility
+## 78. Contradiction Visibility
 
 Operators must not suppress material disagreement merely to produce a single clean output.
 
@@ -2083,9 +2077,9 @@ COMPETING
 
 is a valid terminal state.
 
----
+______________________________________________________________________
 
-# 79. Causal Firewall
+## 79. Causal Firewall
 
 Observation operators may establish:
 
@@ -2105,9 +2099,9 @@ sufficient condition
 intervention effect
 ```
 
----
+______________________________________________________________________
 
-# 80. Provenance Independence
+## 80. Provenance Independence
 
 If:
 
@@ -2125,9 +2119,9 @@ O1 + O2 + O3
 
 do not automatically constitute three independent observations.
 
----
+______________________________________________________________________
 
-# 81. Operator-Version Traceability
+## 81. Operator-Version Traceability
 
 If operator behavior changes between versions:
 
@@ -2138,9 +2132,9 @@ Operator v2
 
 outputs must remain attributable to the version that produced them when the difference can affect interpretation.
 
----
+______________________________________________________________________
 
-# 82. Dependencies
+## 82. Dependencies
 
 Primary dependencies:
 
@@ -2177,9 +2171,9 @@ VALIDATION
 MEMORY / ROUTING / DOWNSTREAM COGNITION
 ```
 
----
+______________________________________________________________________
 
-# 83. H/M/L Applicability
+## 83. H/M/L Applicability
 
 ## L — Local Operators
 
@@ -2248,17 +2242,17 @@ ASSESS_COVERAGE
 
 provided valid cross-scale transformation exists.
 
----
+______________________________________________________________________
 
-# 84. Cross-Scale Rule
+## 84. Cross-Scale Rule
 
-[
+\[
 O_L
-\xrightarrow{A_{L\rightarrow M}}
+\\xrightarrow{A\_{L\\rightarrow M}}
 O_M
-\xrightarrow{A_{M\rightarrow H}}
+\\xrightarrow{A\_{M\\rightarrow H}}
 O_H
-]
+\]
 
 requires explicit aggregation/translation functions.
 
@@ -2270,9 +2264,9 @@ MANY LOCAL OBSERVATIONS
 AUTOMATIC GLOBAL TRUTH
 ```
 
----
+______________________________________________________________________
 
-# 85. Control-Plane Requirements
+## 85. Control-Plane Requirements
 
 The control plane should govern:
 
@@ -2289,9 +2283,9 @@ which invalidations may commit
 which external effects may occur
 ```
 
----
+______________________________________________________________________
 
-# 86. Capability / Authority Boundary
+## 86. Capability / Authority Boundary
 
 An agent may possess:
 
@@ -2305,17 +2299,17 @@ ROUTE capability
 
 without possessing authority to exercise those capabilities in a given context.
 
-[
-\boxed{
+\[
+\\boxed{
 Capability
-\neq
+\\neq
 Authority
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 87. Proposal / Commit Boundary
+## 87. Proposal / Commit Boundary
 
 Potential state-changing operators should distinguish:
 
@@ -2341,18 +2335,18 @@ from:
 COMMIT_WRITE
 ```
 
----
+______________________________________________________________________
 
-# 88. Commit-Time Revalidation
+## 88. Commit-Time Revalidation
 
 For consequential state changes, eligibility should be rechecked at commit time.
 
 Conceptually:
 
-[
-\boxed{
+\[
+\\boxed{
 Commit(O)
-\Rightarrow
+\\Rightarrow
 Revalidate(
 authority,
 constraints,
@@ -2360,13 +2354,13 @@ freshness,
 dependencies
 )
 }
-]
+\]
 
 This prevents stale preconditions from silently authorizing a later effect.
 
----
+______________________________________________________________________
 
-# 89. Agents
+## 89. Agents
 
 Candidate architectural roles:
 
@@ -2393,9 +2387,9 @@ ROLE
 DEPLOYED AGENT
 ```
 
----
+______________________________________________________________________
 
-# 90. Skills
+## 90. Skills
 
 Candidate supporting capabilities:
 
@@ -2416,9 +2410,9 @@ repair/recovery
 
 Skill availability does not imply authorization.
 
----
+______________________________________________________________________
 
-# 91. Workflow — Basic Observation
+## 91. Workflow — Basic Observation
 
 ```text
 ACCESS INPUT
@@ -2456,9 +2450,9 @@ VALIDATE
 EMIT / QUARANTINE
 ```
 
----
+______________________________________________________________________
 
-# 92. Workflow — Multi-Source Observation
+## 92. Workflow — Multi-Source Observation
 
 ```text
 INGEST OBSERVATIONS
@@ -2484,9 +2478,9 @@ VALIDATE
 EMIT
 ```
 
----
+______________________________________________________________________
 
-# 93. Workflow — Stale Observation
+## 93. Workflow — Stale Observation
 
 ```text
 RETRIEVE OBSERVATION
@@ -2507,9 +2501,9 @@ FRESH?
     COMPARE WITH HISTORICAL STATE
 ```
 
----
+______________________________________________________________________
 
-# 94. Workflow — Operator Failure
+## 94. Workflow — Operator Failure
 
 ```text
 OPERATOR EXECUTION
@@ -2531,9 +2525,9 @@ REEXECUTE
 REVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 95. Protocols
+## 95. Protocols
 
 Candidate protocol messages:
 
@@ -2597,9 +2591,9 @@ OperatorExecutionResult:
   confidence_ceiling:
 ```
 
----
+______________________________________________________________________
 
-# 96. Evidence / Provenance
+## 96. Evidence / Provenance
 
 Every consequential operator execution should preserve or reference:
 
@@ -2620,14 +2614,14 @@ uncertainty changes
 authority context
 ```
 
----
+______________________________________________________________________
 
-# 97. Operator Provenance Tensor
+## 97. Operator Provenance Tensor
 
-[
-\boxed{
+\[
+\\boxed{
 P_O =
-T[
+T\[
 execution,
 operator,
 version,
@@ -2640,13 +2634,13 @@ scope,
 regime,
 validator,
 authority
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 98. Uncertainty Vector
+## 98. Uncertainty Vector
 
 Material uncertainty may include:
 
@@ -2680,27 +2674,27 @@ uncertainty:
 
 No unsupported numeric uncertainty should be invented.
 
----
+______________________________________________________________________
 
-# 99. Confidence Ceiling
+## 99. Confidence Ceiling
 
-For output \(Y\) produced from load-bearing inputs \(X_i\):
+For output (Y) produced from load-bearing inputs (X_i):
 
-[
-\boxed{
+\[
+\\boxed{
 Conf(Y)
-\le
-\min_i Conf(X_i)
+\\le
+\\min_i Conf(X_i)
 }
-]
+\]
 
 unless an independent validating observation legitimately raises the evidential basis.
 
 Transformation alone does not constitute independent confirmation.
 
----
+______________________________________________________________________
 
-# 100. Failure Modes
+## 100. Failure Modes
 
 ## FM-OP-01 — Untyped Transformation
 
@@ -2790,9 +2784,9 @@ Failure causes unnecessary global rollback.
 
 Dependent outputs survive invalid operator/input state.
 
----
+______________________________________________________________________
 
-# 101. Repair / Recovery
+## 101. Repair / Recovery
 
 General recovery:
 
@@ -2822,9 +2816,9 @@ REVALIDATE
 RESTORE OR REJECT
 ```
 
----
+______________________________________________________________________
 
-# 102. Selective Recovery
+## 102. Selective Recovery
 
 If:
 
@@ -2850,20 +2844,17 @@ invalidate:
 
 but unrelated observation branches remain valid.
 
-[
-\boxed{
-RepairScope
-===========
+## \[ \\boxed{ RepairScope
 
 AffectedDependencyClosure
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 103. Operator Substitution
+## 103. Operator Substitution
 
-If operator \(O_a\) fails, substitution with \(O_b\) is allowed only when:
+If operator (O_a) fails, substitution with (O_b) is allowed only when:
 
 ```text
 input contract compatible
@@ -2877,9 +2868,9 @@ provenance preserved
 
 Similarity of function names is insufficient.
 
----
+______________________________________________________________________
 
-# 104. Validators
+## 104. Validators
 
 Minimum proposed validators:
 
@@ -2925,9 +2916,9 @@ VALIDATOR_INFORMATION_LOSS
 VALIDATOR_SIMULATION_BOUNDARY
 ```
 
----
+______________________________________________________________________
 
-# 105. Minimum Tests
+## 105. Minimum Tests
 
 ```text
 TEST_OP_001
@@ -3006,9 +2997,9 @@ TEST_OP_025
 unaffected branches survive repair
 ```
 
----
+______________________________________________________________________
 
-# 106. Adversarial Tests
+## 106. Adversarial Tests
 
 Test against:
 
@@ -3064,9 +3055,9 @@ unauthorized write
 unauthorized external route
 ```
 
----
+______________________________________________________________________
 
-# 107. Falsifiers
+## 107. Falsifiers
 
 This contract must be revised if:
 
@@ -3090,9 +3081,9 @@ tests show proposed invariants prevent required legitimate observation behavior
 domain-specific sensing requires stronger semantics than this generic contract
 ```
 
----
+______________________________________________________________________
 
-# 108. Gap Matrix
+## 108. Gap Matrix
 
 ```yaml
 operator_gap_status:
@@ -3171,9 +3162,9 @@ operator_gap_status:
     status: GAP
 ```
 
----
+______________________________________________________________________
 
-# 109. Gap Priority
+## 109. Gap Priority
 
 Highest-priority unresolved items:
 
@@ -3203,9 +3194,9 @@ Highest-priority unresolved items:
 12. Execute adversarial and regression tests.
 ```
 
----
+______________________________________________________________________
 
-# 110. Hard Boundaries
+## 110. Hard Boundaries
 
 ```text
 PLACEHOLDER
@@ -3301,9 +3292,9 @@ VALID
 AUTHORIZED
 ```
 
----
+______________________________________________________________________
 
-# 111. RSCF Completion State
+## 111. RSCF Completion State
 
 ```yaml
 rscf:
@@ -3399,9 +3390,9 @@ rscf:
     not empirically universal
 ```
 
----
+______________________________________________________________________
 
-# 112. Completion State
+## 112. Completion State
 
 ```yaml
 completion_state:
@@ -3482,9 +3473,9 @@ completion_state:
     MODEL / CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
-# 113. Final Contract
+## 113. Final Contract
 
 `L01_SENSING_OBSERVATION/OPERATORS.md` defines the proposed transformation surface between accessible sensing inputs and governed observation state.
 
@@ -3541,59 +3532,59 @@ information loss
 
 Its strongest governing distinctions are:
 
-[
-\boxed{
-Observation \neq Reality
+\[
+\\boxed{
+Observation \\neq Reality
 }
-]
+\]
 
-[
-\boxed{
-Parsing \neq Validation
+\[
+\\boxed{
+Parsing \\neq Validation
 }
-]
+\]
 
-[
-\boxed{
-Transformation \neq IndependentEvidence
+\[
+\\boxed{
+Transformation \\neq IndependentEvidence
 }
-]
+\]
 
-[
-\boxed{
-Correlation \neq Causation
+\[
+\\boxed{
+Correlation \\neq Causation
 }
-]
+\]
 
-[
-\boxed{
-Aggregation \neq Consensus
+\[
+\\boxed{
+Aggregation \\neq Consensus
 }
-]
+\]
 
-[
-\boxed{
-Local \neq Global
+\[
+\\boxed{
+Local \\neq Global
 }
-]
+\]
 
-[
-\boxed{
-Capability \neq Authority
+\[
+\\boxed{
+Capability \\neq Authority
 }
-]
+\]
 
-[
-\boxed{
-Proposal \neq Commit
+\[
+\\boxed{
+Proposal \\neq Commit
 }
-]
+\]
 
-[
-\boxed{
-Unknown \neq Pass
+\[
+\\boxed{
+Unknown \\neq Pass
 }
-]
+\]
 
 The strongest warranted status is:
 
@@ -3639,30 +3630,33 @@ IMPLEMENTED
 VALIDATED
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[00_ROOT/00_HOME|00_HOME]] · 06-Knowledge-Base-MOC
 
 ```
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: l01_sensing_observation_primitives_cognitive_matrix_operators
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_OPERATORS.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_MOC|L01_SENSING_OBSERVATION_MOC]]
-

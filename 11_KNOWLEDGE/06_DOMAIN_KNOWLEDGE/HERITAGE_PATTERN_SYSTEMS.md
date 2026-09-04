@@ -12,20 +12,20 @@ segment: 11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE
 artifact_kind: DOMAIN_KNOWLEDGE
 path: 11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/HERITAGE_PATTERN_SYSTEMS.md
 tags:
-- amos-os
-- knowledge
-- vault
-- 06_domain_knowledge
-- heritage_pattern_systems
-- pattern_recognition
-- cyclical_signatures
-- structural_heuristics
-- rscf
-- canon_candidate
-- canon/knowledge
-- heritage-intelligence-master
-- tss-seven-cycles
-- tpe-trang-prediction-engine
+  - amos-os
+  - knowledge
+  - vault
+  - 06_domain_knowledge
+  - heritage_pattern_systems
+  - pattern_recognition
+  - cyclical_signatures
+  - structural_heuristics
+  - rscf
+  - canon_candidate
+  - canon/knowledge
+  - heritage-intelligence-master
+  - tss-seven-cycles
+  - tpe-trang-prediction-engine
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -40,16 +40,16 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - HERITAGE_INTELLIGENCE_CANON
-  - AMOS_CORPUS
+    - HERITAGE_INTELLIGENCE_CANON
+    - AMOS_CORPUS
   scope:
-  - DOMAIN_KNOWLEDGE
-  - PATTERN_SYSTEMS
-  - SOURCE_DEFINED_MODEL
+    - DOMAIN_KNOWLEDGE
+    - PATTERN_SYSTEMS
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   master_framework:
     artifact:
-    - - HERITAGE_INTELLIGENCE_MASTER
+      -   - HERITAGE_INTELLIGENCE_MASTER
   pattern_framework:
     artifact: 11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_PATTERN_INTELLIGENCE
 epistemic_boundary:
@@ -65,26 +65,26 @@ epistemic_boundary:
 
 It catalogs recurring cyclical signatures, early warning indicators, structural tipping points, and phase transitions extracted from multi-generational historical records.
 
----
+______________________________________________________________________
 
-# 1. Pattern Recognition Invariants
+## 1. Pattern Recognition Invariants
 
 1. **Cycle Signatures:** Recurring phase trajectories identifiable before visible system-wide collapse occurs.
-2. **Early Inflection Flags:** Micro-shifts in social cohesion ($H$), metabolic overload ($\Omega$), or systemic fragmentation ($F$).
-3. **Resilience Heuristics:** Proven ancestral strategies for rapidly damping external shocks ($S$).
+1. **Early Inflection Flags:** Micro-shifts in social cohesion ($H$), metabolic overload ($\Omega$), or systemic fragmentation ($F$).
+1. **Resilience Heuristics:** Proven ancestral strategies for rapidly damping external shocks ($S$).
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Framework Specification:** [[11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_PATTERN_INTELLIGENCE|HERITAGE_PATTERN_INTELLIGENCE]]
 - **Master Framework:** [[11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_INTELLIGENCE_MASTER|HERITAGE_INTELLIGENCE_MASTER]]
 - **TSS Lifecycle Integration:** [[11_KNOWLEDGE/05_FRAMEWORKS/TSS_SEVEN_CYCLES|TSS_SEVEN_CYCLES]]
 - **Foresight Prediction:** [[11_KNOWLEDGE/trang/TPE_TRANG_PREDICTION_ENGINE|TPE_TRANG_PREDICTION_ENGINE]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -102,11 +102,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[01_CANON/01_CORE_LAWS/ATOMIC_MULTI_RSCF|ATOMIC_MULTI_RSCF]] · [[02_KERNEL/K_ATOMIC_MULTI_RSCF|K_ATOMIC_MULTI_RSCF]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/06_DOMAIN_KNOWLEDGE_MOC|06_DOMAIN_KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_PATTERN_INTELLIGENCE|HERITAGE_PATTERN_INTELLIGENCE]] · [[11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_INTELLIGENCE_MASTER|HERITAGE_INTELLIGENCE_MASTER]] · [[11_KNOWLEDGE/05_FRAMEWORKS/TSS_SEVEN_CYCLES|TSS_SEVEN_CYCLES]] · [[11_KNOWLEDGE/trang/TPE_TRANG_PREDICTION_ENGINE|TPE_TRANG_PREDICTION_ENGINE]]
 
----
+______________________________________________________________________
+
 **MOC:** [[11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/06_DOMAIN_KNOWLEDGE_MOC|06_DOMAIN_KNOWLEDGE_MOC]]
-
-

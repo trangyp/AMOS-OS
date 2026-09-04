@@ -89,7 +89,7 @@
     "mckinsey-customer-journey-planning-rscf"
   ],
   "depends_on_workflows": [
-    "mckinsey-customer-journey-planning-rscf-workflow.md"
+    "amos-mckinsey-customer-journey-planning-rscf-workflow.md"
   ],
   "epistemic_class": "AMOS_MODEL",
   "claim_ceiling": 0.95,

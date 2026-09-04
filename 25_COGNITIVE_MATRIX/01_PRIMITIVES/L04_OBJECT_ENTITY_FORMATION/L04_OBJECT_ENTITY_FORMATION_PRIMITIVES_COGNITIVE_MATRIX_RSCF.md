@@ -10,11 +10,11 @@ primitive: L04_OBJECT_ENTITY_FORMATION
 artifact: RSCF.md
 runtime_alignment: AMOS Full Brain OS / AMOS_CORE v4.4 lineage
 tags:
-- cognitive-matrix
-- primitives
-- matrix/l04-object-entity-formation
-- note
-- domain/cognitive-matrix
+  - cognitive-matrix
+  - primitives
+  - matrix/l04-object-entity-formation
+  - note
+  - domain/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -65,9 +65,9 @@ percept evidence
 
 without allowing later coherence to overwrite weaknesses in earlier premises.
 
----
+______________________________________________________________________
 
-# 1. Source / Canon References
+## 1. Source / Canon References
 
 ## 1.1 Canonical RSCF structure
 
@@ -140,9 +140,9 @@ canonical_L04_RSCF_specialization:
 
 All L04-specific RSCF nodes, graphs, dependencies, and hypotheses below remain `AMOS_MODEL`.
 
----
+______________________________________________________________________
 
-# 2. Definition and Scope
+## 2. Definition and Scope
 
 An L04 RSCF is a provenance-bound dependency graph representing:
 
@@ -174,12 +174,10 @@ what would falsify each conclusion
 
 Conceptually:
 
-[
-R^{L04}
-=======
+## \[ R^{L04}
 
 (N,E,A,S,Rg,T,F,C,G)
-]
+\]
 
 where:
 
@@ -197,9 +195,9 @@ G   = gap state
 
 This equation is `AMOS_MODEL`.
 
----
+______________________________________________________________________
 
-# 3. Typed Inputs
+## 3. Typed Inputs
 
 ```yaml
 L04RSCFInput:
@@ -256,9 +254,9 @@ L04RSCFInput:
     type: AuthorityContext | null
 ```
 
----
+______________________________________________________________________
 
-# 4. Typed Outputs
+## 4. Typed Outputs
 
 ```yaml
 L04RSCFOutput:
@@ -306,9 +304,9 @@ L04RSCFOutput:
       - UNKNOWN_GAP
 ```
 
----
+______________________________________________________________________
 
-# 5. RSCF Node Contract
+## 5. RSCF Node Contract
 
 ```yaml
 L04RSCFNode:
@@ -395,9 +393,9 @@ L04RSCFNode:
       - UNKNOWN_GAP
 ```
 
----
+______________________________________________________________________
 
-# 6. Dependency Edge Contract
+## 6. Dependency Edge Contract
 
 ```yaml
 L04RSCFEdge:
@@ -450,9 +448,9 @@ L04RSCFEdge:
 
 Causal typing must remain explicit because structural similarity or temporal sequence alone does not establish causation.
 
----
+______________________________________________________________________
 
-# 7. State Variables
+## 7. State Variables
 
 ```text
 N_t       active RSCF nodes
@@ -474,17 +472,17 @@ Q_t       quarantine state
 
 Candidate complete RSCF state:
 
-[
+\[
 RSCF_t=
 (N_t,E_t,LB_t,Prov_t,Ind_t,Comp_t,Contr_t,
 Scope_t,Reg_t,Fresh_t,Fals_t,Gap_t,Conf_t,Inv_t,Q_t)
-]
+\]
 
 `AMOS_MODEL`.
 
----
+______________________________________________________________________
 
-# 8. L04 H/M/L RSCF Map
+## 8. L04 H/M/L RSCF Map
 
 Canonical RSCF uses H/M/L recursive addressing.
 
@@ -553,9 +551,9 @@ entity candidate
 
 Each edge must remain auditable.
 
----
+______________________________________________________________________
 
-# 9. Core RSCF Invariants
+## 9. Core RSCF Invariants
 
 ```text
 RSCF-L04-001
@@ -627,34 +625,34 @@ RSCF-L04-022
 UNKNOWN/GAP != PASS.
 ```
 
----
+______________________________________________________________________
 
-# 10. Confidence Ceiling
+## 10. Confidence Ceiling
 
 Canonical RSCF states that derived confidence cannot exceed the weakest load-bearing premise unless independently revalidated.
 
 For L04:
 
-[
+\[
 Conf(O)
-\le
-\min_{p\in LB(O)}
+\\le
+\\min\_{p\\in LB(O)}
 Conf(p)
-]
+\]
 
-[
+\[
 Conf(I)
-\le
-\min_{p\in LB(I)}
+\\le
+\\min\_{p\\in LB(I)}
 Conf(p)
-]
+\]
 
-[
+\[
 Conf(E)
-\le
-\min_{p\in LB(E)}
+\\le
+\\min\_{p\\in LB(E)}
 Conf(p)
-]
+\]
 
 unless an affected premise is independently revalidated.
 
@@ -668,9 +666,9 @@ weak perceptual ancestry
 weakly supported entity conclusion
 ```
 
----
+______________________________________________________________________
 
-# 11. Competing Hypotheses
+## 11. Competing Hypotheses
 
 Canonical RSCF requires preservation of `COMPETING` whenever incompatible hypotheses remain equal, incomparable, correlated, or insufficiently discriminated.
 
@@ -708,9 +706,9 @@ DO NOT FORCE CONVERGENCE
 IDENTIFY CHEAPEST DISCRIMINATING TEST
 ```
 
----
+______________________________________________________________________
 
-# 12. Cheapest Discriminating Test
+## 12. Cheapest Discriminating Test
 
 Canonical RSCF recommends testing the cheapest high-information premise rather than accumulating redundant support.
 
@@ -747,9 +745,9 @@ find one identity-critical feature that cannot be simultaneously
 satisfied by both hypotheses.
 ```
 
----
+______________________________________________________________________
 
-# 13. Scope / Regime Contract
+## 13. Scope / Regime Contract
 
 Every consequential RSCF node inherits an applicability envelope including, where relevant:
 
@@ -785,9 +783,9 @@ regime:
 
 No claim may silently escape this envelope.
 
----
+______________________________________________________________________
 
-# 14. Provenance Topology
+## 14. Provenance Topology
 
 For each claim:
 
@@ -835,20 +833,18 @@ multiple descendants of one origin
 multiple independent confirmations
 ```
 
----
+______________________________________________________________________
 
-# 15. Selective Invalidation
+## 15. Selective Invalidation
 
 Canonical capsule reuse requires selective invalidation when a premise fails.
 
 Conceptually:
 
-[
-Invalidate(p)
-=============
+## \[ Invalidate(p)
 
-Desc_{LB}(p)
-]
+Desc\_{LB}(p)
+\]
 
 where `Desc_LB` means load-bearing descendants.
 
@@ -879,9 +875,9 @@ unrelated descendants
 
 Global recomputation is not required unless dependency closure proves global coupling.
 
----
+______________________________________________________________________
 
-# 16. Operators
+## 16. Operators
 
 Candidate RSCF operators:
 
@@ -921,9 +917,9 @@ CLASSIFY_CONCLUSION
 
 Canonical L04-specific operator names remain `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
-# 17. Dependencies
+## 17. Dependencies
 
 The L04 RSCF depends conceptually on:
 
@@ -957,9 +953,9 @@ AMOS infrastructure control plane
 
 Exact canonical dependency closure remains `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
-# 18. Control-Plane Requirements
+## 18. Control-Plane Requirements
 
 RSCF structures cognitive and evidentiary state.
 
@@ -1016,9 +1012,9 @@ VALID RSCF CAPSULE
 AUTHORIZED EFFECT
 ```
 
----
+______________________________________________________________________
 
-# 19. Agents
+## 19. Agents
 
 Candidate logical roles:
 
@@ -1035,9 +1031,9 @@ L04_CAPSULE_REVALIDATOR
 
 These remain `MODEL` roles.
 
----
+______________________________________________________________________
 
-# 20. Skills
+## 20. Skills
 
 Applicable capability families include:
 
@@ -1063,9 +1059,9 @@ AMOS Infrastructure Control Plane
 
 Skill presence establishes addressability only.
 
----
+______________________________________________________________________
 
-# 21. Workflow
+## 21. Workflow
 
 Canonical RSCF workflow is:
 
@@ -1124,9 +1120,9 @@ ISSUE WEAKEST ACCURATE CONCLUSION
 CREATE REUSABLE CAPSULE
 ```
 
----
+______________________________________________________________________
 
-# 22. Protocols
+## 22. Protocols
 
 Candidate RSCF protocols:
 
@@ -1160,9 +1156,9 @@ L04_RSCF_TRANSITION_PROPOSAL
 
 Canonical names remain `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
-# 23. Evidence / Provenance Contract
+## 23. Evidence / Provenance Contract
 
 Each consequential capsule must retain:
 
@@ -1212,9 +1208,9 @@ L04RSCFCapsule:
 
 This matches the default RSCF proof-capsule semantics.
 
----
+______________________________________________________________________
 
-# 24. Reuse Conditions
+## 24. Reuse Conditions
 
 An L04 capsule may be reused only while:
 
@@ -1247,9 +1243,9 @@ or
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 25. Uncertainty Vector
+## 25. Uncertainty Vector
 
 ```yaml
 uncertainty:
@@ -1283,9 +1279,9 @@ uncertainty:
 
 These dimensions should remain separate when collapsing them would hide decision-changing uncertainty.
 
----
+______________________________________________________________________
 
-# 26. Failure Modes
+## 26. Failure Modes
 
 ```yaml
 failure_modes:
@@ -1342,9 +1338,9 @@ failure_modes:
     effect: block_effect
 ```
 
----
+______________________________________________________________________
 
-# 27. Repair / Recovery
+## 27. Repair / Recovery
 
 ```text
 DETECT RSCF FAILURE
@@ -1380,9 +1376,9 @@ REVALIDATE CAPSULE
 
 Repair must not fabricate evidence simply to close a graph.
 
----
+______________________________________________________________________
 
-# 28. Tests / Validators
+## 28. Tests / Validators
 
 ```text
 RSCF-T01
@@ -1479,9 +1475,9 @@ formal_verification: false
 empirical_validation: false
 ```
 
----
+______________________________________________________________________
 
-# 29. Falsifiers
+## 29. Falsifiers
 
 Revise this L04 RSCF specialization if authoritative canon establishes materially different:
 
@@ -1517,9 +1513,9 @@ invalidate L04-specific dependent MODEL clauses
 
 while preserving unaffected canonical RSCF structure.
 
----
+______________________________________________________________________
 
-# 30. Gap Status
+## 30. Gap Status
 
 ```yaml
 gap_status:
@@ -1596,9 +1592,9 @@ identifier conventions
 formatting
 ```
 
----
+______________________________________________________________________
 
-# 31. Primary L04 RSCF Capsule
+## 31. Primary L04 RSCF Capsule
 
 ```yaml
 rscf:
@@ -1772,9 +1768,9 @@ rscf:
     - no_triggered_falsifier
 ```
 
----
+______________________________________________________________________
 
-# 32. Completion State
+## 32. Completion State
 
 ```yaml
 completion_state:
@@ -1855,9 +1851,9 @@ completion_state:
     MODEL
 ```
 
----
+______________________________________________________________________
 
-# 33. Hard Boundaries
+## 33. Hard Boundaries
 
 ```text
 PLACEHOLDER != IMPLEMENTED
@@ -1905,15 +1901,15 @@ CAPSULE REUSE != AUTOMATIC CURRENT VALIDITY
 VALID RSCF != COMMIT AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 34. Governing RSCF Contract
+## 34. Governing RSCF Contract
 
 > **`L04_OBJECT_ENTITY_FORMATION` SHALL represent consequential object, continuity, identity, and entity claims as provenance-bound RSCF structures containing typed epistemic nodes, load-bearing dependencies, scope, regime, freshness, observer context where material, competing hypotheses, contradictions, causal typing, falsifiers, material gaps, and confidence ceilings. RSCF structure SHALL NOT itself establish external truth, object existence, entity identity, persistence, or causation. Derived confidence SHALL NOT exceed the weakest unresolved load-bearing premise unless independently revalidated. Evidence sharing ancestry SHALL NOT be counted as independent confirmation. Unresolved incompatible hypotheses SHALL remain `COMPETING` until discriminating evidence exists. Failed premises SHALL selectively invalidate dependent descendants while preserving unaffected state. Reusable proof capsules SHALL be revalidated whenever dependency, provenance, scope, regime, freshness, or falsifier state changes. L04 RSCF MAY support cognitive decisions and state-transition proposals but SHALL NOT confer authority to commit durable effects. Critical missing information SHALL remain `UNKNOWN/GAP`, never synthetic `PASS`.**
 
----
+______________________________________________________________________
 
-# 35. Canon Boundary
+## 35. Canon Boundary
 
 ```text
 SOURCE-ALIGNED RSCF CANON:
@@ -2028,23 +2024,27 @@ NOT ESTABLISHED
 
 ```
 ```
----
+
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: l04_object_entity_formation_primitives_cognitive_matrix_rscf
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L04_OBJECT_ENTITY_FORMATION/L04_OBJECT_ENTITY_FORMATION_PRIMITIVES_COGNITIVE_MATRIX_RSCF.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L04_OBJECT_ENTITY_FORMATION/L04_OBJECT_ENTITY_FORMATION_MOC|L04_OBJECT_ENTITY_FORMATION_MOC]]
-

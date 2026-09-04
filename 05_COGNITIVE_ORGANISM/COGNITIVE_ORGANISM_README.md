@@ -1,76 +1,98 @@
 ---
-title: COGNITIVE ORGANISM README
-type: cognitive
+title: "05_COGNITIVE_ORGANISM — Organ Coordination Architecture"
+type: architecture_specification
 source: 05_COGNITIVE_ORGANISM
-tags:
-- amos-os
-- canon/cognitive
-- readme
-- routing-policy-validation-receipt
-- authz-engine-validation-receipt
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
+status: ACTIVE_SPECIFICATION
+epistemic_class: AMOS_MODEL
+conclusion_class: DERIVED
 rscf:
   state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  claim_class: AMOS_MODEL
+  provenance:
+    - 00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE
+    - 01_CANON/03_COGNITION_CANON/FULL_BRAIN_OS_CANON
+  scope: cognitive_organism
+tags:
+  - amos-os
+  - cognitive-organism
+  - organs
+  - full-brain-os
+  - perception-will
 ---
 
-# COGNITIVE ORGANISM README
+# 05_COGNITIVE_ORGANISM — Organ Coordination Architecture
 
-## Purpose
-`COGNITIVE ORGANISM README` is the package readme for the **Cognitive Organism** plane segment at `05_COGNITIVE_ORGANISM`.
-The Cognitive Organism plane governs the organism-level cognitive assembly above kernels and below agents. Normative load-bearing content lives in the sibling contract(s); this readme orients navigation.
+## 1. Plane Purpose
 
-## Sibling artifacts
-- [[05_COGNITIVE_ORGANISM/COGNITIVE_ORGANISM_COGNITIVE_ORGANISM_CONTRACT|COGNITIVE_ORGANISM_COGNITIVE_ORGANISM_CONTRACT]]
+The `05_COGNITIVE_ORGANISM` plane (**Partition C: Cognitive Capability & Orchestration**) models the Full Brain OS cognitive loop, organ coordination dynamics, and linguistic transformation engines.
 
-## Contract discipline
-Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
+This plane implements the biological metaphor of cognitive organs as modular, coordinated processing units. Each organ handles a distinct cognitive function, and the organism plane orchestrates their interaction through a structured perception-to-action loop with invariant gating at each stage.
 
-## Gaps
-Executable binding PARTIAL unless an executed validation receipt exists for this subsystem ([[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]).
-## Worked semantics
-Given an operation touching `COGNITIVE ORGANISM README` within the Cognitive Organism plane:
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-2. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-3. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-4. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-5. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-6. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
-
-## Promotion-gate checklist
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
-
-## Cross-plane bindings
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]|AMOS Core Laws · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
-- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
-- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
----
-
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+```text
+ORGANISM != CONSCIOUSNESS
+MODEL != EMBODIED_BEING
+COGNITIVE_LOOP != UNCHECKED_AGENCY
+DOCUMENTED != IMPLEMENTED
+```
 
 ---
-**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+
+## 2. Architecture Overview
+
+The cognitive organism operates as a seven-organ pipeline with feedback loops. Each organ receives structured input from its predecessor, applies domain-specific processing, and passes output to the next organ. The Ethics Organ serves as a hard gate: no cognitive output may bypass ethical invariant checking.
 
 ---
-RSCF-NODE
-node_id: amos_05_cognitive_organism_cognitive_organism_readme_md
-node_type: note
-path: 05_COGNITIVE_ORGANISM/COGNITIVE_ORGANISM_README.md
-claim_class: AMOS_MODEL
+
+## 3. Key Components
+
+### 3.1 Seven Core Cognitive Organs
+
+```mermaid
+graph TD
+    A[Perception Organ<br/>Sensory parsing & input structuring] --> B[Working Memory Organ<br/>Active context & attention]
+    B --> C[Reasoning & Inference Organ<br/>Hypothesis generation]
+    C --> D[Ethics & Invariant Organ<br/>Axiom & boundary gating]
+    D --> E[Will & Decision Organ<br/>Goal selection & commitment]
+    E --> F[Action & Tool Organ<br/>Execution adapter]
+    F --> G[Narrative & Consolidation Organ<br/>Episodic trace synthesis]
+    G --> A
+```
+
+1. **Perception Organ**: Multi-modal token parsing, semantic normalization, and ambiguity identification. Transforms raw input into structured cognitive tensors.
+2. **Memory Organ**: Retrieval and consolidation across the 4 memory tiers (working, episodic, semantic, procedural). Manages attention allocation and context window selection.
+3. **Reasoning Organ**: Deductive, inductive, and abductive inference generation. Hosts the MURK 19-primitive Absolute Logic kernel and the 19x19 interaction matrix.
+4. **Ethics Organ**: Hard boundary enforcement against harmful or unauthorized actions. Implements the non-compensatory refusal gates and capability-bound governance checks.
+5. **Will Organ**: Goal prioritization, budget allocation, and intentional focus. Selects among competing action proposals based on multi-objective optimization.
+6. **Action Organ**: Bounded tool execution via `14_TOOLS`. Routes actions through sandboxed adapters with capability-scoped permissions.
+7. **Narrative Organ**: Synthesis of coherent self-audit logs and user-facing explanations. Consolidates episodic traces into the memory organ for future retrieval.
+
+### 3.2 Cognitive Loop Invariants
+
+- The Ethics Organ is non-bypassable: no output from the Reasoning Organ may reach the Will Organ without passing through ethical invariant gates.
+- The Narrative Organ feeds back to the Perception Organ, creating a self-reflective loop that enables learning from prior episodes.
+- Each organ transition produces a cryptographic receipt binding input, output, and processing context.
 
 ---
-**MOC:** [[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC|05_COGNITIVE_ORGANISM_MOC]]
+
+## 4. Navigation
+
+- **Cognitive Organism MOC:** [[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC|05_COGNITIVE_ORGANISM_MOC]]
+- **BCI Wavefront Engine:** [[05_COGNITIVE_ORGANISM/AUTONOMOUS_BCI_WAVEFRONT_PHASE_SHAPING_AND_SLM_ENGINE|AUTONOMOUS_BCI_WAVEFRONT_PHASE_SHAPING_AND_SLM_ENGINE]]
+- **BCI Execution Ledger:** [[05_COGNITIVE_ORGANISM/BCI_WAVEFRONT_SLM_EXECUTION_LEDGER|BCI_WAVEFRONT_SLM_EXECUTION_LEDGER]]
+- **Cognitive Matrix:** [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]
+- **Canon (Cognition):** [[01_CANON/03_COGNITION_CANON/FULL_BRAIN_OS_CANON|FULL_BRAIN_OS_CANON]]
+- **Tools Plane:** [[14_TOOLS/14_TOOLS_MOC|14_TOOLS_MOC]]
+- **Root Architecture:** [[00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE|FULL_BRAIN_OS_MECE_ARCHITECTURE]]
 
 ---
-**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+
+## 5. Status & Gaps
+
+- **Status:** `ACTIVE_SPECIFICATION` — all seven organs are documented with defined interfaces and invariant gates.
+- **Organ Implementation:** The organ architecture is a cognitive model specification. Mapping to concrete LLM-based or neurosymbolic implementations is `DOCUMENTED != IMPLEMENTED` for most organs.
+- **BCI Integration:** The BCI Wavefront SLM engine is the most mature component, with execution ledger results verified. Other organs lack equivalent execution evidence.
+- **MURK Integration:** The MURK 19-primitive reasoning kernel is integrated into the Reasoning Organ at the brain model level (`cosmo-brain/AMOS_MURK_BRAIN_INTEGRATION.py`), but vault-level specification of this integration is incomplete.
+- **Memory Tier Implementation:** The four-tier memory system is specified. Procedural memory consolidation and episodic trace decay models are `UNKNOWN/GAP`.

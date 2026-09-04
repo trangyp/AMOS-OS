@@ -17,59 +17,68 @@ scope: AMOS_OS
 created: 2026-08-25
 updated: 2026-08-25
 tags:
-- amos-os
-- kernel
-- core
-- canon-group/tech-ai
-- canon/model
-- kernel/causal
-- kernel/causal-hierarchy
-- kernel/causal-closure
-- kernel/causal-epoch
-- kernel/dependency
-- kernel/provenance
-- kernel/regime
-- kernel/scope
-- kernel/multi-hypothesis
-- kernel/validation
-- rscf/state/model
-- causal/hierarchy
-- causal/mechanism
-- causal/confounding
-- causal/mediation
-- causal/feedback
-- causal/effect
-- topic/causal-hierarchy
-- topic/causal-inference
-- k-counterfactual
-- k-core19-logic
-- k-meta-logic
-- readme
-- architecture
-- authoritative-state
-- amos-core-laws
-- law-hierarchy
-- canon-provenance
-- source-lineage
-- k-structural-reasoning
-- k-causal-closure
-- k-causal-epoch
-- k-metacognition
-- k-multi-hypothesis
+  - amos-os
+  - kernel
+  - core
+  - canon-group/tech-ai
+  - canon/model
+  - kernel/causal
+  - kernel/causal-hierarchy
+  - kernel/causal-closure
+  - kernel/causal-epoch
+  - kernel/dependency
+  - kernel/provenance
+  - kernel/regime
+  - kernel/scope
+  - kernel/multi-hypothesis
+  - kernel/validation
+  - rscf/state/model
+  - causal/hierarchy
+  - causal/mechanism
+  - causal/confounding
+  - causal/mediation
+  - causal/feedback
+  - causal/effect
+  - topic/causal-hierarchy
+  - topic/causal-inference
+  - k-counterfactual
+  - k-core19-logic
+  - k-meta-logic
+  - readme
+  - architecture
+  - authoritative-state
+  - amos-core-laws
+  - law-hierarchy
+  - canon-provenance
+  - source-lineage
+  - k-structural-reasoning
+  - k-causal-closure
+  - k-causal-epoch
+  - k-metacognition
+  - k-multi-hypothesis
 aliases:
-- AMOS Causal Hierarchy Kernel - Causal Hierarchy Kernel - K Causal Hierarchy - K_CAUSAL_HIERA
+  - AMOS Causal Hierarchy Kernel - Causal Hierarchy Kernel - K Causal Hierarchy - K_CAUSAL_HIERA
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 # K CAUSAL HIERARCHY
+
 > **AMOS Core target:** `v4.4`
 > **Origin architect / steward:** Trang Phan
 > **Plane:** `02_KERNEL`
 > **Status:** `AMOS_MODEL`
 > **Conclusion class:** `AMOS_MODEL`
+
 ## Purpose
+
 `K_CAUSAL_HIERARCHY` defines the AMOS kernel contract for distinguishing levels and types of causal knowledge.
 Its central purpose is to prevent weaker evidence from being silently promoted into stronger causal claims.
 The governing rule is:
+
 ```text
 OBSERVATION
 !=
@@ -87,17 +96,10 @@ INTERVENTIONAL EFFECT
 !=
 COUNTERFACTUAL EFFECT
 ```
-A claim may move upward in the causal hierarchy only when evidence appropriate to the stronger causal class is available.
-Structural similarity, sequence, repetition, authority, model confidence, or fluent explanation cannot substitute for causal evidence.
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
----
 
+## A claim may move upward in the causal hierarchy only when evidence appropriate to the stronger causal class is available. Structural similarity, sequence, repetition, authority, model confidence, or fluent explanation cannot substitute for causal evidence. rscf: state: DERIVED claim_class: DERIVED provenance: AMOS_corpus scope: AMOS_general
 
-# 1. Core Law
+## 1. Core Law
 
 For evidence state `E` and causal claim `C`:
 
@@ -117,9 +119,9 @@ CAUSAL LICENSE OF LOAD-BEARING EVIDENCE
 
 A stronger conclusion cannot be derived merely because it is compatible with weaker evidence.
 
----
+______________________________________________________________________
 
-# 2. Causal Firewall
+## 2. Causal Firewall
 
 AMOS distinguishes at minimum:
 
@@ -143,9 +145,9 @@ FEEDBACK
 
 These relations are not interchangeable.
 
----
+______________________________________________________________________
 
-# 3. Base Hierarchy
+## 3. Base Hierarchy
 
 A useful conceptual hierarchy is:
 
@@ -173,9 +175,9 @@ It is not a claim that every causal problem follows a single linear ladder.
 
 Some causal relation types are orthogonal and require separate typing.
 
----
+______________________________________________________________________
 
-# 4. L0 — Observation
+## 4. L0 — Observation
 
 An observation records what was measured, reported, or detected.
 
@@ -205,9 +207,9 @@ OBSERVED(Y)
 X CAUSES Y
 ```
 
----
+______________________________________________________________________
 
-# 5. L1 — Association
+## 5. L1 — Association
 
 Association means variables or events appear related under a defined measurement context.
 
@@ -227,9 +229,9 @@ Association may motivate causal investigation.
 
 It does not establish causation.
 
----
+______________________________________________________________________
 
-# 6. L2 — Correlation
+## 6. L2 — Correlation
 
 Correlation is a typed statistical relationship.
 
@@ -263,9 +265,9 @@ CHANCE
 MODEL MISSPECIFICATION
 ```
 
----
+______________________________________________________________________
 
-# 7. Correlation Firewall
+## 7. Correlation Firewall
 
 ```text
 CORRELATION
@@ -293,9 +295,9 @@ INDEPENDENT CAUSAL CONFIRMATION
 
 when the observations share provenance or confounding structure.
 
----
+______________________________________________________________________
 
-# 8. L3 — Temporal Precedence
+## 8. L3 — Temporal Precedence
 
 Suppose:
 
@@ -321,9 +323,9 @@ CAUSES(X, Y)
 
 Temporal precedence is evidence about ordering, not sufficient causal evidence.
 
----
+______________________________________________________________________
 
-# 9. Structural Dependency
+## 9. Structural Dependency
 
 A structural dependency means one component depends on another according to a system model.
 
@@ -352,9 +354,9 @@ execution dependency
 
 These must remain typed.
 
----
+______________________________________________________________________
 
-# 10. Dependency Firewall
+## 10. Dependency Firewall
 
 ```text
 DEPENDENCY
@@ -364,9 +366,9 @@ CAUSATION
 
 A dependency edge may become part of a causal model only when the semantics of the edge justify causal interpretation.
 
----
+______________________________________________________________________
 
-# 11. L4 — Causal Candidate
+## 11. L4 — Causal Candidate
 
 A causal candidate is a hypothesis such as:
 
@@ -394,9 +396,9 @@ STATE = COMPETING
 
 where appropriate.
 
----
+______________________________________________________________________
 
-# 12. L5 — Mechanism-Supported Relation
+## 12. L5 — Mechanism-Supported Relation
 
 A mechanism describes a plausible process through which one state influences another.
 
@@ -420,9 +422,9 @@ DEMONSTRATED CAUSAL EFFECT
 
 A mechanism can be real while its effect is negligible, context-dependent, blocked, or dominated by other pathways.
 
----
+______________________________________________________________________
 
-# 13. Mechanism Typing
+## 13. Mechanism Typing
 
 A mechanism claim should identify:
 
@@ -441,9 +443,9 @@ mechanism:
 
 Mechanisms without explicit conditions risk scope leakage.
 
----
+______________________________________________________________________
 
-# 14. Enabling Condition
+## 14. Enabling Condition
 
 An enabling condition makes an outcome or mechanism possible.
 
@@ -471,9 +473,9 @@ ENABLING
 SUFFICIENT
 ```
 
----
+______________________________________________________________________
 
-# 15. Necessary Condition
+## 15. Necessary Condition
 
 `X` is necessary for `Y` under scope `S` when:
 
@@ -497,9 +499,9 @@ NECESSARY
 SUFFICIENT
 ```
 
----
+______________________________________________________________________
 
-# 16. Sufficient Condition
+## 16. Sufficient Condition
 
 `X` is sufficient for `Y` under conditions `C` when:
 
@@ -511,9 +513,9 @@ within the relevant scope and regime.
 
 Sufficiency must not be generalized beyond those conditions.
 
----
+______________________________________________________________________
 
-# 17. Necessary and Sufficient
+## 17. Necessary and Sufficient
 
 When both are established:
 
@@ -527,9 +529,9 @@ This is a strong claim.
 
 It requires correspondingly strong evidence.
 
----
+______________________________________________________________________
 
-# 18. Causal Contribution
+## 18. Causal Contribution
 
 Many real systems have multiple contributing causes.
 
@@ -551,9 +553,9 @@ X is sufficient for Y
 
 AMOS should preserve this distinction rather than forcing binary causation.
 
----
+______________________________________________________________________
 
-# 19. Mediation
+## 19. Mediation
 
 Mediation represents an intermediate causal path:
 
@@ -573,9 +575,9 @@ TOTAL EFFECT
 
 when those distinctions are material.
 
----
+______________________________________________________________________
 
-# 20. Mediation Firewall
+## 20. Mediation Firewall
 
 Observing:
 
@@ -592,9 +594,9 @@ X → M → Y
 
 The path remains a model until appropriately validated.
 
----
+______________________________________________________________________
 
-# 21. Confounding
+## 21. Confounding
 
 A confounder `Z` may produce:
 
@@ -613,9 +615,9 @@ without the proposed direct causal relation.
 
 Therefore every consequential causal claim should consider material confounding alternatives.
 
----
+______________________________________________________________________
 
-# 22. Hidden Confounding
+## 22. Hidden Confounding
 
 Unknown or unmeasured variables may remain possible.
 
@@ -629,9 +631,9 @@ NO CONFOUNDER EXISTS
 
 Confidence must respect the evidence available.
 
----
+______________________________________________________________________
 
-# 23. Selection Effects
+## 23. Selection Effects
 
 Selection may induce misleading associations.
 
@@ -657,9 +659,9 @@ ASSOCIATION AFTER SELECTION
 
 when selection is material.
 
----
+______________________________________________________________________
 
-# 24. Collider Structure
+## 24. Collider Structure
 
 A collider:
 
@@ -679,9 +681,9 @@ CONDITIONING
 
 is not automatically harmless.
 
----
+______________________________________________________________________
 
-# 25. Common Cause
+## 25. Common Cause
 
 A common cause structure:
 
@@ -695,9 +697,9 @@ is a primary competing explanation for apparent `X → Y` relations.
 
 Causal analysis should explicitly test it when plausible.
 
----
+______________________________________________________________________
 
-# 26. Common Effect
+## 26. Common Effect
 
 A common effect structure:
 
@@ -718,9 +720,9 @@ or:
 Y → X
 ```
 
----
+______________________________________________________________________
 
-# 27. Chain
+## 27. Chain
 
 A causal chain:
 
@@ -741,9 +743,9 @@ does not automatically imply a simple invariant effect of `X` on `Y`.
 
 Intervention semantics, blockers, nonlinearities, regimes, and feedback may matter.
 
----
+______________________________________________________________________
 
-# 28. Fork
+## 28. Fork
 
 A causal fork:
 
@@ -759,9 +761,9 @@ This must remain distinguishable from:
 X → Y
 ```
 
----
+______________________________________________________________________
 
-# 29. Feedback
+## 29. Feedback
 
 Feedback occurs when causal influence participates in a loop.
 
@@ -783,9 +785,9 @@ over time.
 
 Feedback requires temporal or state indexing to avoid treating cyclic influence as an instantaneous contradiction.
 
----
+______________________________________________________________________
 
-# 30. Feedback Firewall
+## 30. Feedback Firewall
 
 ```text
 FEEDBACK
@@ -795,9 +797,9 @@ SIMPLE BIDIRECTIONAL CORRELATION
 
 A feedback claim requires evidence that reciprocal causal influence actually occurs.
 
----
+______________________________________________________________________
 
-# 31. Positive Feedback
+## 31. Positive Feedback
 
 Positive feedback amplifies change.
 
@@ -813,9 +815,9 @@ further ΔX
 
 The label `positive` refers to amplification structure, not desirability.
 
----
+______________________________________________________________________
 
-# 32. Negative Feedback
+## 32. Negative Feedback
 
 Negative feedback counteracts deviation.
 
@@ -837,9 +839,9 @@ BAD
 
 It describes causal control structure.
 
----
+______________________________________________________________________
 
-# 33. Direct Cause
+## 33. Direct Cause
 
 A direct causal edge:
 
@@ -861,9 +863,9 @@ DIRECT
 
 must inherit the model's granularity and scope.
 
----
+______________________________________________________________________
 
-# 34. Indirect Cause
+## 34. Indirect Cause
 
 An indirect effect occurs through one or more mediators:
 
@@ -873,9 +875,9 @@ X → M1 → M2 → Y
 
 The path should remain explicit when it matters to intervention or explanation.
 
----
+______________________________________________________________________
 
-# 35. Total Causal Effect
+## 35. Total Causal Effect
 
 Conceptually:
 
@@ -891,9 +893,9 @@ where the mathematical decomposition is valid for the model used.
 
 AMOS must not assume additive decomposition universally.
 
----
+______________________________________________________________________
 
-# 36. L6 — Interventional Effect
+## 36. L6 — Interventional Effect
 
 An interventional causal claim concerns what changes when an intervention changes `X`.
 
@@ -909,9 +911,9 @@ supports a causal effect under the relevant assumptions.
 
 This is stronger than observational association.
 
----
+______________________________________________________________________
 
-# 37. Intervention Firewall
+## 37. Intervention Firewall
 
 ```text
 P(Y | X)
@@ -925,9 +927,9 @@ P(Y | do(X))
 
 Therefore observational prediction and causal intervention must remain distinct.
 
----
+______________________________________________________________________
 
-# 38. Intervention Scope
+## 38. Intervention Scope
 
 An intervention effect inherits:
 
@@ -943,9 +945,9 @@ ASSUMPTIONS
 
 An intervention validated in one envelope must not silently generalize to another.
 
----
+______________________________________________________________________
 
-# 39. Natural vs Artificial Intervention
+## 39. Natural vs Artificial Intervention
 
 Different interventions on nominally the same variable may produce different effects.
 
@@ -959,9 +961,9 @@ is insufficiently precise when intervention mechanism matters.
 
 The intervention should be typed where necessary.
 
----
+______________________________________________________________________
 
-# 40. L7 — Counterfactual Effect
+## 40. L7 — Counterfactual Effect
 
 Counterfactual reasoning concerns alternative outcomes for the same modeled unit or state under different interventions.
 
@@ -979,9 +981,9 @@ Y_x'
 
 The counterfactual level makes stronger assumptions than ordinary association.
 
----
+______________________________________________________________________
 
-# 41. Counterfactual Firewall
+## 41. Counterfactual Firewall
 
 ```text
 OBSERVED Y AFTER X
@@ -996,9 +998,9 @@ WITHOUT X
 
 The missing counterfactual must be inferred through an appropriately justified model or design.
 
----
+______________________________________________________________________
 
-# 42. Relationship to [[02_KERNEL/02_COGNITION/K_COUNTERFACTUAL|K_COUNTERFACTUAL]]
+## 42. Relationship to [[02_KERNEL/02_COGNITION/K_COUNTERFACTUAL|K_COUNTERFACTUAL]]
 
 `K_COUNTERFACTUAL` governs the logical construction and evaluation of counterfactual branches.
 
@@ -1010,9 +1012,9 @@ COUNTERFACTUAL BRANCH
 COUNTERFACTUAL PROOF
 ```
 
----
+______________________________________________________________________
 
-# 43. Causal Direction
+## 43. Causal Direction
 
 Given association:
 
@@ -1032,9 +1034,9 @@ NO CAUSAL EDGE
 
 AMOS must not select direction from association alone unless additional evidence licenses it.
 
----
+______________________________________________________________________
 
-# 44. Causal Graph
+## 44. Causal Graph
 
 A causal model may be represented as:
 
@@ -1051,9 +1053,9 @@ E = typed causal edges
 
 Each causal edge should carry sufficient metadata to identify its epistemic status.
 
----
+______________________________________________________________________
 
-# 45. Typed Causal Edge
+## 45. Typed Causal Edge
 
 Recommended conceptual representation:
 
@@ -1084,9 +1086,9 @@ causal_edge:
   confidence_ceiling:
 ```
 
----
+______________________________________________________________________
 
-# 46. Relation Types
+## 46. Relation Types
 
 Recommended relation vocabulary:
 
@@ -1111,9 +1113,9 @@ FEEDBACKS_WITH
 
 Do not collapse these into a generic `RELATED_TO` when causal semantics matter.
 
----
+______________________________________________________________________
 
-# 47. Epistemic Classes
+## 47. Epistemic Classes
 
 Causal claims retain AMOS conclusion classes:
 
@@ -1128,9 +1130,9 @@ UNKNOWN/GAP
 
 A causal relation represented in a model is not automatically `VERIFIED`.
 
----
+______________________________________________________________________
 
-# 48. Source Claims
+## 48. Source Claims
 
 A document may assert:
 
@@ -1152,9 +1154,9 @@ VERIFIED:
 X causes Y
 ```
 
----
+______________________________________________________________________
 
-# 49. Evidence Typing
+## 49. Evidence Typing
 
 Relevant evidence classes include:
 
@@ -1169,9 +1171,9 @@ UNKNOWN
 
 The evidence type determines what causal inference it can support.
 
----
+______________________________________________________________________
 
-# 50. Evidence Strength Firewall
+## 50. Evidence Strength Firewall
 
 A useful constraint is:
 
@@ -1183,9 +1185,9 @@ WEAKEST LOAD-BEARING CAUSAL PREMISE
 
 unless the weak premise has been independently revalidated or replaced.
 
----
+______________________________________________________________________
 
-# 51. Provenance Independence
+## 51. Provenance Independence
 
 Suppose three claims all descend from one source:
 
@@ -1204,9 +1206,9 @@ B + C + D
 
 do not constitute three independent causal confirmations.
 
----
+______________________________________________________________________
 
-# 52. Provenance Topology
+## 52. Provenance Topology
 
 Causal validation should preserve:
 
@@ -1221,9 +1223,9 @@ REGIME
 
 when these can affect causal confidence.
 
----
+______________________________________________________________________
 
-# 53. Causal Sybil Hardening
+## 53. Causal Sybil Hardening
 
 Repeated claims can create false apparent confirmation.
 
@@ -1243,9 +1245,9 @@ POPULARITY
 CAUSAL PROOF
 ```
 
----
+______________________________________________________________________
 
-# 54. Scope Firewall
+## 54. Scope Firewall
 
 Every important causal claim inherits an applicability envelope.
 
@@ -1263,9 +1265,9 @@ causal_scope:
 
 Causal validity outside this envelope remains unestablished.
 
----
+______________________________________________________________________
 
-# 55. Cross-Scale Causation
+## 55. Cross-Scale Causation
 
 A causal relation at one scale:
 
@@ -1289,9 +1291,9 @@ STRUCTURAL SIMILARITY ACROSS SCALE
 CAUSAL TRANSFER
 ```
 
----
+______________________________________________________________________
 
-# 56. Cross-Domain Causation
+## 56. Cross-Domain Causation
 
 A causal pattern validated in domain `D1` may inspire a model for `D2`.
 
@@ -1311,9 +1313,9 @@ MODEL
 
 until independently validated in `D2`.
 
----
+______________________________________________________________________
 
-# 57. Regime Firewall
+## 57. Regime Firewall
 
 Suppose:
 
@@ -1338,9 +1340,9 @@ X → Z → Y
 
 Therefore causal conclusions must bind to regime where material.
 
----
+______________________________________________________________________
 
-# 58. Causal Epoch Integration
+## 58. Causal Epoch Integration
 
 `K_CAUSAL_EPOCH` binds causal validity to bounded causal states.
 
@@ -1356,9 +1358,9 @@ CAUSAL EPOCH
 WHEN / UNDER WHAT STATE IS IT VALID?
 ```
 
----
+______________________________________________________________________
 
-# 59. Causal Closure Integration
+## 59. Causal Closure Integration
 
 `K_CAUSAL_CLOSURE` determines which causal dependencies are load-bearing.
 
@@ -1378,9 +1380,9 @@ EPOCH
 BOUNDED CAUSAL PROOF STRUCTURE
 ```
 
----
+______________________________________________________________________
 
-# 60. Structural Reasoning Integration
+## 60. Structural Reasoning Integration
 
 `K_STRUCTURAL_REASONING` may identify:
 
@@ -1399,9 +1401,9 @@ A causes B
 
 `K_CAUSAL_HIERARCHY` provides the causal firewall between structure and causation.
 
----
+______________________________________________________________________
 
-# 61. Multi-Hypothesis Integration
+## 61. Multi-Hypothesis Integration
 
 When causal direction is unresolved:
 
@@ -1415,9 +1417,9 @@ H3: Z → X,Y
 
 `K_CAUSAL_HIERARCHY` prevents premature promotion of one hypothesis.
 
----
+______________________________________________________________________
 
-# 62. Metacognitive Challenge
+## 62. Metacognitive Challenge
 
 `K_METACOGNITION` should challenge consequential causal conclusions for:
 
@@ -1435,9 +1437,9 @@ FEEDBACK
 MODEL MISSPECIFICATION
 ```
 
----
+______________________________________________________________________
 
-# 63. Strongest Supported Conclusion
+## 63. Strongest Supported Conclusion
 
 AMOS should choose:
 
@@ -1467,9 +1469,9 @@ Incorrect:
 X CAUSES Y
 ```
 
----
+______________________________________________________________________
 
-# 64. Causal Promotion
+## 64. Causal Promotion
 
 Conceptually:
 
@@ -1487,9 +1489,9 @@ COUNTERFACTUAL EFFECT
 
 Promotion is governed by evidence, not prose.
 
----
+______________________________________________________________________
 
-# 65. Causal Demotion
+## 65. Causal Demotion
 
 New evidence may weaken an existing causal conclusion.
 
@@ -1517,9 +1519,9 @@ UNKNOWN/GAP
 
 This is a valid epistemic transition.
 
----
+______________________________________________________________________
 
-# 66. Causal Invalidation
+## 66. Causal Invalidation
 
 If a load-bearing causal premise fails:
 
@@ -1543,9 +1545,9 @@ INVALIDATE C2
 PRESERVE C3
 ```
 
----
+______________________________________________________________________
 
-# 67. Causal Confidence Ceiling
+## 67. Causal Confidence Ceiling
 
 For conclusion `C` with load-bearing premises:
 
@@ -1569,9 +1571,9 @@ unless independent evidence revalidates the relevant dependency.
 
 This is a reasoning constraint, not necessarily a literal numerical formula.
 
----
+______________________________________________________________________
 
-# 68. Sensitivity
+## 68. Sensitivity
 
 For consequential causal claims identify:
 
@@ -1586,9 +1588,9 @@ capable of flipping the causal conclusion.
 
 Test that condition first when practical.
 
----
+______________________________________________________________________
 
-# 69. Fragile Causation
+## 69. Fragile Causation
 
 A causal conclusion should be marked:
 
@@ -1608,17 +1610,17 @@ REGIME
 
 of the claimed causal effect.
 
----
+______________________________________________________________________
 
-# 70. Robust Causation
+## 70. Robust Causation
 
 A causal conclusion is comparatively robust when it survives plausible perturbations of noncritical assumptions.
 
 Robustness does not expand its validated scope automatically.
 
----
+______________________________________________________________________
 
-# 71. Adversarial Validation
+## 71. Adversarial Validation
 
 For consequential causal claims:
 
@@ -1650,9 +1652,9 @@ OR
 RETURN UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 72. Causal Proof Capsule
+## 72. Causal Proof Capsule
 
 Important causal conclusions should conceptually carry:
 
@@ -1687,9 +1689,9 @@ causal_proof_capsule:
   confidence_ceiling:
 ```
 
----
+______________________________________________________________________
 
-# 73. Causal Hierarchy Invariants
+## 73. Causal Hierarchy Invariants
 
 ```text
 CH-01
@@ -1768,9 +1770,9 @@ CH-25
 UNKNOWN/GAP MUST NOT BECOME PASS
 ```
 
----
+______________________________________________________________________
 
-# 74. Failure Modes
+## 74. Failure Modes
 
 ```text
 CORRELATION_AS_CAUSATION
@@ -1800,9 +1802,9 @@ GLOBAL_INVALIDATION
 UNKNOWN_AS_PASS
 ```
 
----
+______________________________________________________________________
 
-# 75. Conceptual Classification Algorithm
+## 75. Conceptual Classification Algorithm
 
 ```python
 def classify_causal_claim(claim, evidence):
@@ -1838,9 +1840,9 @@ def classify_causal_claim(claim, evidence):
 
 This is architectural pseudocode, not a claim of deployed implementation.
 
----
+______________________________________________________________________
 
-# 76. Conceptual Causal Challenge
+## 76. Conceptual Causal Challenge
 
 ```python
 def challenge_causal_claim(claim):
@@ -1863,9 +1865,9 @@ def challenge_causal_claim(claim):
     return strongest_supported_class(claim)
 ```
 
----
+______________________________________________________________________
 
-# 77. Relationship to Law Hierarchy
+## 77. Relationship to Law Hierarchy
 
 `K_LAW_HIERARCHY` governs precedence among applicable AMOS laws.
 
@@ -1881,9 +1883,9 @@ CAUSAL HIERARCHY
 
 They solve different ordering problems.
 
----
+______________________________________________________________________
 
-# 78. Relationship to [[02_KERNEL/01_META_LOGIC/K_CORE19_LOGIC|K_CORE19_LOGIC]]
+## 78. Relationship to [[02_KERNEL/01_META_LOGIC/K_CORE19_LOGIC|K_CORE19_LOGIC]]
 
 Core logical consistency is prerequisite to causal reasoning.
 
@@ -1899,9 +1901,9 @@ CAUSAL CLASSIFICATION
 CAUSAL VALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 79. Relationship to [[02_KERNEL/01_META_LOGIC/K_META_LOGIC|K_META_LOGIC]]
+## 79. Relationship to [[02_KERNEL/01_META_LOGIC/K_META_LOGIC|K_META_LOGIC]]
 
 `K_META_LOGIC` governs reasoning about reasoning structures.
 
@@ -1909,9 +1911,9 @@ It may determine whether the causal inference procedure itself is valid under th
 
 `K_CAUSAL_HIERARCHY` remains responsible for causal claim typing.
 
----
+______________________________________________________________________
 
-# 80. Relationship to Provenance
+## 80. Relationship to Provenance
 
 Causal evidence cannot be interpreted independently of provenance when source ancestry affects independence or reliability.
 
@@ -1925,9 +1927,9 @@ PROVENANCE TOPOLOGY
 
 must be jointly evaluated when material.
 
----
+______________________________________________________________________
 
-# 81. Relationship to Authority
+## 81. Relationship to Authority
 
 Causal validity does not grant action authority.
 
@@ -1939,9 +1941,9 @@ PERMISSION TO ACT
 
 Authority remains a control-plane concern.
 
----
+______________________________________________________________________
 
-# 82. Relationship to Models
+## 82. Relationship to Models
 
 A model may encode:
 
@@ -1965,9 +1967,9 @@ MODEL EDGE
 VERIFIED CAUSAL EDGE
 ```
 
----
+______________________________________________________________________
 
-# 83. Relationship to Agents
+## 83. Relationship to Agents
 
 Agents may:
 
@@ -1986,9 +1988,9 @@ AGENT OUTPUT
 CANONICAL CAUSAL TRUTH
 ```
 
----
+______________________________________________________________________
 
-# 84. Relationship to Research
+## 84. Relationship to Research
 
 External papers, experiments, datasets, benchmarks, and reports may supply causal evidence.
 
@@ -2006,9 +2008,9 @@ ASSUMPTIONS
 
 before AMOS promotes causal conclusions.
 
----
+______________________________________________________________________
 
-# 85. Required Tests
+## 85. Required Tests
 
 Future implementation verification should include:
 
@@ -2038,9 +2040,9 @@ SELECTIVE-INVALIDATION TEST
 UNKNOWN-PRESERVATION TEST
 ```
 
----
+______________________________________________________________________
 
-# 86. Negative Tests
+## 86. Negative Tests
 
 ```text
 X BEFORE Y
@@ -2111,9 +2113,9 @@ PASS
 MUST FAIL
 ```
 
----
+______________________________________________________________________
 
-# 87. Lifecycle
+## 87. Lifecycle
 
 ```text
 PLACEHOLDER
@@ -2147,9 +2149,9 @@ VALIDATION
 AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 88. Promotion Gate
+## 88. Promotion Gate
 
 Before promotion beyond `AMOS_MODEL`:
 
@@ -2185,9 +2187,9 @@ EMPIRICAL_VALIDATION = UNKNOWN/GAP
 FORMAL_VERIFICATION = UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 89. Integrity Note
+## 89. Integrity Note
 
 This artifact replaces the repository placeholder with an AMOS v4.4-aligned causal hierarchy model.
 
@@ -2226,9 +2228,9 @@ FORMAL_VERIFICATION = UNKNOWN/GAP
 RUNTIME_AUTHORITY = NONE
 ```
 
----
+______________________________________________________________________
 
-# 90. RSCF Node
+## 90. RSCF Node
 
 ```RSCF-NODE
 node_id: AMOS-OS-K-CAUSAL-HIERARCHY
@@ -2278,9 +2280,9 @@ RSCF-RELATIONS:
   - VERIFIED_BY: README
 ```
 
----
+______________________________________________________________________
 
-# 91. Canonical Summary
+## 91. Canonical Summary
 
 ```text
 OBSERVE
@@ -2425,12 +2427,14 @@ README
 ```text
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 **MOC:** [[02_KERNEL/03_CAUSAL/03_CAUSAL_MOC|03_CAUSAL_MOC]]

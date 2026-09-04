@@ -1,85 +1,95 @@
 ---
-title: INV-AUTHZ-023
-type: invariant
+title: "INV-AUTHZ-023 — Cross-Regime Bridge Gating"
+type: authority_invariant
 source: 03_CONTROL_PLANE/04_AUTHORITY
-tags:
-- control-plane
-- canon/control-plane
-- routing-policy-validation-receipt
-- authz-engine-validation-receipt
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
+status: ACTIVE_INVARIANT
+epistemic_class: AMOS_MODEL
+conclusion_class: DERIVED
 rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
+  state: DERIVED
+  claim_class: AMOS_MODEL
+  provenance:
+    - 03_CONTROL_PLANE/CONTROL_PLANE_CONTROL_PLANE_CONTRACT
+    - 01_CANON/01_CORE_LAWS/LAW_HIERARCHY
   scope: authority_governance
+tags:
+  - amos-os
+  - authority
+  - invariant
+  - control-plane
+  - inv-authz-023
 ---
 
-# INV-AUTHZ-023
+# INV-AUTHZ-023 — Cross-Regime Bridge Gating
 
-## 0. Status
-Control Plane-plane artifact. AMOS_MODEL · CONDITIONAL · implementation PARTIAL.
+## 1. Formal Specification
 
-## 1. Purpose
-`INV-AUTHZ-023` defines typed artifact specification, serving the Control Plane plane's obligation: governance surfaces that gate effects: task contracts, capability, policy, authority, provenance, semantic transactions, observability, effects, commit, exposure, replay, rollback.
+> **Invariant Statement:**
+> `Transferring knowledge across different ontological regimes requires an explicit attenuation penalty.`
 
-## 2. Semantics
-- Every load-bearing field is typed; unknown values are recorded as `UNKNOWN/GAP`, never invented.
-- Scope and regime are declared on every claim; cross-regime transfer requires an explicit bridge.
-- Confidence ceiling 0.95; conclusion confidence ≤ weakest load-bearing premise.
+## 2. Invariant Rule & Mathematical Formulation
 
-## 3. Failure modes guarded
-STALE_READ · SCOPE_LEAK · REGIME_DRIFT · CONFIDENCE_INFLATION · AUTHORITY_ESCALATION · PROVENANCE_LOSS · SILENT_PARTIAL_COMMIT · UNKNOWN_AS_VALID.
+Let $\mathcal{R}_1, \mathcal{R}_2$ be two distinct ontological regimes, $\text{Transfer}(k, \mathcal{R}_1, \mathcal{R}_2)$ the transfer of knowledge $k$ between regimes, and $\alpha(\mathcal{R}_1, \mathcal{R}_2)$ the attenuation penalty:
 
-## 4. Validation
-No artifact-specific executor yet; executed OS validators exist as pattern ([[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]). Required tests before promotion: identity, type-contract, negative-case (missing/malformed/stale input), authority boundary, rollback.
+$$\forall k, \forall \mathcal{R}_1 \neq \mathcal{R}_2, \quad \text{Transfer}(k, \mathcal{R}_1, \mathcal{R}_2) \implies \text{Conf}(k_{\mathcal{R}_2}) = \text{Conf}(k_{\mathcal{R}_1}) \cdot \alpha(\mathcal{R}_1, \mathcal{R}_2)$$
 
-## 5. Gaps
-Implementation binding, empirical validation, and cross-artifact consistency checks remain OPEN (UNKNOWN/GAP).
+where $\alpha(\mathcal{R}_1, \mathcal{R}_2) \in (0, 1)$ is the regime-distance-dependent attenuation factor:
 
-## 6. Falsifiers
-F1: canonical source contradicts declared semantics. F2: executed test violates a stated invariant. F3: artifact promotes UNKNOWN to PASS.
-## Worked semantics
-Given an operation touching `INV-AUTHZ-023` within the Control Plane plane:
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-2. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-3. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-4. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-5. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-6. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
+$$\alpha(\mathcal{R}_1, \mathcal{R}_2) = \frac{1}{1 + d_{\text{ontological}}(\mathcal{R}_1, \mathcal{R}_2)}$$
 
-## Promotion-gate checklist
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
+The transfer requires an explicit bridge certificate:
 
-## Cross-plane bindings
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]|AMOS Core Laws · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
-- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
-- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
----
+$$\text{Transfer}(k, \mathcal{R}_1, \mathcal{R}_2) \implies \exists \beta : \text{BridgeCert}(\beta, \mathcal{R}_1, \mathcal{R}_2) \land \text{Verify}(\beta) = \text{True}$$
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+No unbridged transfer is permitted:
 
----
-**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+$$\neg \exists \beta : \text{BridgeCert}(\beta, \mathcal{R}_1, \mathcal{R}_2) \implies \text{Transfer}(k, \mathcal{R}_1, \mathcal{R}_2) = \text{False}$$
 
----
-RSCF-NODE
-node_id: cp_03_control_plane_04_authority_inv_authz_023_md
-node_type: note
-path: 03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-023.md
-claim_class: AMOS_MODEL
+## 3. Enforcement & Verification
 
----
-**MOC:** [[03_CONTROL_PLANE/04_AUTHORITY/04_AUTHORITY_MOC|04_AUTHORITY_MOC]]
+- **Evaluation Point:** Evaluated at the cross-regime transfer gate when knowledge is submitted for transfer between ontological regimes. The gate checks for a valid bridge certificate and applies the attenuation penalty.
+- **Violation Consequence:** If no bridge certificate is presented, the transfer is refused. A `MISSING_BRIDGE_CERT` receipt is emitted to `17_OBSERVABILITY`. The knowledge remains in its original regime.
+- **Recovery Procedure:** A bridge certificate must be generated by a qualified regime translator. Once verified, the transfer may be resubmitted with the attenuation penalty applied.
+- **Verification Cadence:** Synchronous at every cross-regime transfer request. Bridge certificates are verified once and cached for subsequent transfers between the same regime pair.
+- **Governed By:** [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE_MOC]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
 
----
-**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+## 4. Attack Vectors & Mitigations
+
+- **Unbridged Transfer:** An agent transfers knowledge between regimes without a bridge certificate to avoid attenuation. Mitigated by the mandatory bridge certificate check at the transfer gate.
+- **Bridge Certificate Forgery:** An attacker forges a bridge certificate to enable unauthorized transfers. Mitigated by the certificate verification that checks the translator's signature.
+- **Attenuation Bypass:** An agent attempts to transfer knowledge at full confidence without applying the attenuation penalty. Mitigated by the automatic attenuation computation at the transfer gate.
+- **Regime Misclassification:** An agent misclassifies the target regime to reduce the attenuation penalty. Mitigated by the regime classification being verified by the bridge certificate, not by the transferring agent.
+
+## 5. Dependencies & Prerequisites
+
+- **Depends On:** [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-021|INV-AUTHZ-021]] — Confidence ceiling capping provides the upper bound that attenuation further reduces.
+- **Depends On:** [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-012|INV-AUTHZ-012]] — Reality grounding requirement ensures transferred knowledge has supporting evidence.
+- **Depends On:** [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-036|INV-AUTHZ-036]] — Multi-modal verification barrier ensures cross-modal transfers verify semantic invariance.
+- **Requires:** An ontological regime classification system.
+- **Requires:** A bridge certificate generation and verification protocol.
+
+## 6. Provenance & Audit Trail
+
+- **Receipt Type:** `CROSS_REGIME_TRANSFER_RECEIPT` — emitted for every cross-regime transfer, recording the source and target regimes, bridge certificate, attenuation factor, and transferred confidence.
+- **Storage Location:** `17_OBSERVABILITY` with regime-pair-indexed partitions.
+- **Receipt Fields:** Source regime, target regime, knowledge ID, original confidence, attenuation factor, transferred confidence, bridge certificate hash, translator identity, BLAKE3 hash.
+- **Immutability:** Transfer receipts are append-only per [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-014|INV-AUTHZ-014]].
+
+## 7. Related Invariants
+
+- [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-012|INV-AUTHZ-012]] — Reality Grounding Requirement
+- [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-021|INV-AUTHZ-021]] — Confidence Ceiling Capping
+- [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-024|INV-AUTHZ-024]] — Competing Hypotheses Preservation
+- [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-036|INV-AUTHZ-036]] — Multi-Modal Verification Barrier
+- [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-047|INV-AUTHZ-047]] — Selective Invalidation Granularity
+
+## 8. Navigation & Bindings
+
+- **Control Plane:** [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE_MOC]]
+- **Control Plane Contract:** [[03_CONTROL_PLANE/CONTROL_PLANE_CONTROL_PLANE_CONTRACT|CONTROL_PLANE_CONTRACT]]
+- **Canon Law Hierarchy:** [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- **Kernel:** [[02_KERNEL/02_KERNEL_MOC|02_KERNEL_MOC]]
+- **Observability:** [[17_OBSERVABILITY/17_OBSERVABILITY_MOC|17_OBSERVABILITY_MOC]]

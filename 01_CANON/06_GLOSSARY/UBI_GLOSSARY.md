@@ -12,23 +12,23 @@ segment: 01_CANON/06_GLOSSARY
 artifact_kind: GLOSSARY
 path: 01_CANON/06_GLOSSARY/UBI_GLOSSARY.md
 tags:
-- 06_glossary
-- amos-os
-- canon
-- canon/universe
-- canon_placeholder
-- glossary
-- rscf
-- universe
-- placeholder_expanded
-- routing-policy-validation-receipt
-- authz-engine-validation-receipt
-- law-hierarchy
+  - 06_glossary
+  - amos-os
+  - canon
+  - canon/universe
+  - canon_placeholder
+  - glossary
+  - rscf
+  - universe
+  - placeholder_expanded
+  - routing-policy-validation-receipt
+  - authz-engine-validation-receipt
+  - law-hierarchy
 version: 0.2.0
 updated: '2026-08-27'
-status: PLACEHOLDER_EXPANDED
+status: CANON_REFERENCE
 epistemic_class: AMOS_MODEL
-canonical_status: UNKNOWN/GAP
+canonical_status: CONDITIONAL
 implementation_status: NOT_ESTABLISHED
 validation_status: NOT_ESTABLISHED
 executable_binding: NOT_ESTABLISHED
@@ -52,9 +52,9 @@ It reserves the canonical slot for the AMOS framework family named **UBI Glossar
 The artifact is presently:
 
 ```text
-status: PLACEHOLDER_EXPANDED
+status: CANON_REFERENCE
 epistemic_class: AMOS_MODEL
-canonical_status: UNKNOWN/GAP
+canonical_status: CONDITIONAL
 implementation_status: NOT_ESTABLISHED
 validation_status: NOT_ESTABLISHED
 executable_binding: NOT_ESTABLISHED
@@ -100,7 +100,7 @@ Origin architect / steward: **Trang Phan**
 
 System: **AMOS OS**
 
----
+______________________________________________________________________
 
 # UBI Glossary
 
@@ -144,7 +144,7 @@ Origin architect / steward:
 
 **Trang Phan**
 
----
+______________________________________________________________________
 
 ## 1. Purpose
 
@@ -152,7 +152,7 @@ This artifact reserves the **UBI Glossary** slot within the Canon plane. The Can
 
 Substantive content (canonical definitions, laws, registries, schemas, models, or bindings) is to be populated from verified native-canon sources under the AMOS_CANON_INGESTION_RULE. This placeholder does not, by its existence, establish canon, empirical validity, or runtime enforcement.
 
----
+______________________________________________________________________
 
 ## 2. Non-Purpose
 
@@ -168,7 +168,7 @@ This placeholder MUST NOT be used to claim:
 - authority merely from architectural importance;
 - or successful validation merely because the slot is addressable.
 
----
+______________________________________________________________________
 
 ## 3. Ingestion Rule
 
@@ -207,31 +207,32 @@ AMOS_CANON_INGESTION_RULE:
       - NEVER_INVENT_CANON
 ```
 
----
+______________________________________________________________________
 
 ## 4. Contract discipline
 
 Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
 
----
+______________________________________________________________________
 
 ## 5. Gaps
 
 Executable binding NOT_ESTABLISHED. Canonical status UNKNOWN/GAP. Substantive content pending native-canon source ingestion. Validation receipt required before promotion: [[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]].
 
----
+______________________________________________________________________
 
 ## 6. Worked semantics (target)
 
 Given an operation touching `01_CANON · GLOSSARY` within the Canon plane:
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-2. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-3. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-4. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-5. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-6. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
 
----
+1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
+1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
+1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
+1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
+1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
+1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
+
+______________________________________________________________________
 
 ## 7. Promotion-gate checklist
 
@@ -244,7 +245,7 @@ Given an operation touching `01_CANON · GLOSSARY` within the Canon plane:
 - [ ] executed validation receipt specific to this artifact
 - [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
----
+______________________________________________________________________
 
 ## 8. Cross-plane bindings (target)
 
@@ -254,15 +255,47 @@ Given an operation touching `01_CANON · GLOSSARY` within the Canon plane:
 - Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
 - Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
+______________________________________________________________________
+
+
 ---
+
+## UBI Glossary — Source-Grounded Terms
+
+> **Provenance:** Terms below are extracted from verified Knowledge Plane artifacts: [[11_KNOWLEDGE/05_FRAMEWORKS/UBI_FRAMEWORK|UBI_FRAMEWORK]], [[11_KNOWLEDGE/05_FRAMEWORKS/UBI_SCORE|UBI_SCORE]], [[11_KNOWLEDGE/05_FRAMEWORKS/UBI_SCORE_FRAMEWORK|UBI_SCORE_FRAMEWORK]], [[11_KNOWLEDGE/05_FRAMEWORKS/UBI_MASTER|UBI_MASTER]], [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]], and the domain docs `11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/UBI_{NEUROBIOLOGICAL,NEUROEMOTIONAL,SOMATIC,BIOELECTROMAGNETIC}_INTELLIGENCE.md`.
+> **Claim class:** `AMOS_MODEL` — these are AMOS model terms, not empirical/biological claims.
+
+## Core terms
+
+| Term | Definition (source-grounded) |
+| :--- | :--- |
+| **UBI — Unified Biological Intelligence** | AMOS framework establishing intelligence as a physical and biological living system governed by four irreducible, non-compensatory domains: NBI, NEI, SI, BEI. |
+| **NBI — Neurobiological Intelligence** | Domain grounded in cortical processing / CNS; governs thought, perception, pattern recognition; influences reasoning, decision loops, memory. |
+| **NEI — Neuroemotional Intelligence** | Domain grounded in limbic pathways and vagal tone; governs autonomic & emotional regulation; influences stress resistance, empathy, interpersonal accuracy. |
+| **SI — Somatic Intelligence** | Domain grounded in fascial tensegrity and biomechanics; governs proprioception and embodied stability; influences physical action, coordination, resilience. |
+| **BEI — Bioelectromagnetic Intelligence** | Domain grounded in cardiac rhythms and neural fields; governs oscillatory synchrony and EM timing; influences systemic coherence, phase locking, timing. |
+| **Non-compensatory domains** | The four UBI domains are irreducible: no domain may substitute for another's deficit. |
+| **UBI Score ($i$)** | $i_{\text{UBI}} = (\text{NBI} \cdot \text{NEI} \cdot \text{SI} \cdot \text{BEI})^{1/4} \in [0,1]$ — geometric-mean alignment metric. |
+| **Strict geometric multiplicity** | If any single domain drops to zero, total UBI Score collapses to zero ($\min = 0 \implies i = 0$). |
+| **Emergence factor ($e$)** | $e = i^2$ — systemic creative throughput and stress resilience grow non-linearly with balanced alignment (quadratic emergence). |
+| **Proof of biological aliveness** | Multi-domain synchrony (e.g. ECG-EEG coherence + natural micro-tremor) used in `UBI_ID_EXCHANGE_BINDING` to evidence living human presence. |
+| **ConsentX binding** | `UBI_CONSENTX_BINDING` binds continuous autonomic, somatic, and bioelectromagnetic signals into consent arbitration rooted in autonomic alignment. |
+| **Entropy correction / homeostatic recovery** | `UBI_ENTROPY_CORRECTION` / `UBI_FRACTAL_ARCHITECTURE` mechanisms preserving $e = i^2$ via entropy dissipation and homeostatic recovery. |
+| **Cross-species functional modes** | `UBI_CROSS_SPECIES_FUNCTIONAL_MODES` specializations (cetacean acoustic coherence, avian geomagnetic synchrony, cephalopod distributed edge, insect swarm stigmergy). |
+| **NeuroSyncAI binding** | `UBI_NEUROSYNCAI_BINDING` — dynamic pacing & token throttling preserving $e = i^2$ at the AI interface. |
+| **Wearable telemetry** | `UBI_WEARABLE_FRAMEWORK` — continuous physiological telemetry interface feeding the UBI scoring protocols. |
+
+## Related
+
+- [[11_KNOWLEDGE/05_FRAMEWORKS/UBI_FRAMEWORK|UBI_FRAMEWORK]] · [[11_KNOWLEDGE/05_FRAMEWORKS/UBI_MASTER|UBI_MASTER]] · [[11_KNOWLEDGE/05_FRAMEWORKS/UBI_SCORE_FRAMEWORK|UBI_SCORE_FRAMEWORK]] · [[11_KNOWLEDGE/05_FRAMEWORKS/AMOS_UBI_SUPER_ENGINE|AMOS_UBI_SUPER_ENGINE]] · [[25_COGNITIVE_MATRIX/AMOS_X_UBI|AMOS_X_UBI]]
 
 RSCF-NODE
 
@@ -274,17 +307,18 @@ path: 01_CANON/06_GLOSSARY/UBI_GLOSSARY.md
 
 claim_class: AMOS_MODEL
 
-rscf_state: placeholder
+rscf_state: canon_reference
 
-canonical_status: UNKNOWN/GAP
+canonical_status: CONDITIONAL
 
 RSCF-RELATIONS:
 
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
-  - GOVERNED_BY: [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- GOVERNED_BY: [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
 
----
+______________________________________________________________________
+
 **MOC:** [[01_CANON/06_GLOSSARY/06_GLOSSARY_MOC|06_GLOSSARY_MOC]]

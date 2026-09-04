@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: L02 ATTENTION PRIMITIVES COGNITIVE MATRIX STATE
 type: state
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION
 tags:
-- cognitive-matrix
-- primitives
-- matrix/l02-attention
-- note
-- domain/cognitive-matrix
+  - cognitive-matrix
+  - primitives
+  - matrix/l02-attention
+  - note
+  - domain/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -43,7 +46,7 @@ EXECUTED != COMMITTED
 
 Attention is therefore modeled as a **bounded allocation and routing state**, not as evidence that the selected object is true, important in reality, causally relevant, or authorized for action.
 
----
+______________________________________________________________________
 
 ## Source / canon references
 
@@ -97,30 +100,30 @@ empirical cognitive equivalence     = UNKNOWN/GAP
 
 The equations and state-machine definitions below must not be represented as established neuroscience or universally validated cognition models.
 
----
+______________________________________________________________________
 
-# 1. Definition and scope
+## 1. Definition and scope
 
 ## 1.1 Definition
 
 The L02 attention state is the typed representation of:
 
 1. what objects are currently eligible for attention;
-2. which objects are receiving attention;
-3. how much attention each receives;
-4. why allocation occurred;
-5. which constraints bound allocation;
-6. what evidence supports the allocation;
-7. how allocation changes through time;
-8. what unresolved alternatives remain;
-9. whether attention may progress toward reasoning or action;
-10. how attention state can be repaired when corrupted.
+1. which objects are receiving attention;
+1. how much attention each receives;
+1. why allocation occurred;
+1. which constraints bound allocation;
+1. what evidence supports the allocation;
+1. how allocation changes through time;
+1. what unresolved alternatives remain;
+1. whether attention may progress toward reasoning or action;
+1. how attention state can be repaired when corrupted.
 
 Conceptually:
 
-[
+\[
 A_t =
-\mathcal{A}
+\\mathcal{A}
 (
 O_t,
 G_t,
@@ -131,7 +134,7 @@ C_t,
 B_t,
 P_t
 )
-]
+\]
 
 where:
 
@@ -149,9 +152,9 @@ P_t = provenance/context state
 
 This equation is an `AMOS_MODEL`, not an empirical cognitive law.
 
----
+______________________________________________________________________
 
-# 2. Scope
+## 2. Scope
 
 `STATE.md` owns the representation and lifecycle of L02 attention state.
 
@@ -193,9 +196,9 @@ external action authorization
 irreversible commit
 ```
 
----
+______________________________________________________________________
 
-# 3. Typed inputs / outputs
+## 3. Typed inputs / outputs
 
 ## 3.1 Input contract
 
@@ -300,9 +303,9 @@ AttentionStateOutput:
       - UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 4. Core state object
+## 4. Core state object
 
 ```yaml
 AttentionState:
@@ -371,9 +374,9 @@ AttentionState:
     recovery_point: null
 ```
 
----
+______________________________________________________________________
 
-# 5. State variables
+## 5. State variables
 
 Core variables:
 
@@ -411,9 +414,9 @@ Esc_t     = escalation targets
 Epoch_t   = attention-state epoch
 ```
 
----
+______________________________________________________________________
 
-# 6. Candidate attention target
+## 6. Candidate attention target
 
 ```yaml
 AttentionTarget:
@@ -467,9 +470,9 @@ AttentionTarget:
       - STALE
 ```
 
----
+______________________________________________________________________
 
-# 7. Operators
+## 7. Operators
 
 Candidate state operators:
 
@@ -520,9 +523,9 @@ REPAIR()
 
 These operators remain `AMOS_MODEL` unless directly bound to canonical implementation.
 
----
+______________________________________________________________________
 
-# 8. State-transition model
+## 8. State-transition model
 
 Candidate lifecycle:
 
@@ -565,45 +568,43 @@ REVALIDATED
 nearest valid predecessor
 ```
 
----
+______________________________________________________________________
 
-# 9. Allocation model
+## 9. Allocation model
 
 A candidate priority representation may be expressed as:
 
-[
-\pi_{i,t}
-=========
+## \[ \\pi\_{i,t}
 
 f(
-G_{i,t},
-S_{i,t},
-N_{i,t},
-U_{i,t},
-R_{i,t},
-T_{i,t},
-K_{i,t},
-E_{i,t}
+G\_{i,t},
+S\_{i,t},
+N\_{i,t},
+U\_{i,t},
+R\_{i,t},
+T\_{i,t},
+K\_{i,t},
+E\_{i,t}
 )
-]
+\]
 
 subject to:
 
-[
-\sum_i a_{i,t} \leq B_t
-]
+\[
+\\sum_i a\_{i,t} \\leq B_t
+\]
 
 and:
 
-[
-a_{i,t} \geq 0
-]
+\[
+a\_{i,t} \\geq 0
+\]
 
 with reserve constraint:
 
-[
-\sum_i a_{i,t} \leq B_t - B^r_t
-]
+\[
+\\sum_i a\_{i,t} \\leq B_t - B^r_t
+\]
 
 when reserve attention is required.
 
@@ -611,9 +612,9 @@ These equations describe a candidate AMOS control model only.
 
 They do **not** assert that biological or machine attention universally follows this equation.
 
----
+______________________________________________________________________
 
-# 10. Invariants
+## 10. Invariants
 
 ```text
 L02-STATE-INV-001
@@ -677,9 +678,9 @@ L02-STATE-INV-020
 Failed state validation cannot be repaired by relabeling the state.
 ```
 
----
+______________________________________________________________________
 
-# 11. Dependencies
+## 11. Dependencies
 
 Primary upstream dependency:
 
@@ -729,9 +730,9 @@ L02/TESTS.md
 L02/RSCF.md
 ```
 
----
+______________________________________________________________________
 
-# 12. H/M/L applicability
+## 12. H/M/L applicability
 
 ## H — governing attention state
 
@@ -790,9 +791,9 @@ H priority != M priority != L priority
 
 unless an explicit mapping establishes equivalence.
 
----
+______________________________________________________________________
 
-# 13. Control-plane requirements
+## 13. Control-plane requirements
 
 The control plane should own or enforce:
 
@@ -830,9 +831,9 @@ CONTROL-PLANE CHECK
 AUTHORIZED EFFECT
 ```
 
----
+______________________________________________________________________
 
-# 14. Agents
+## 14. Agents
 
 Candidate architectural roles:
 
@@ -850,9 +851,9 @@ These names describe possible responsibilities.
 
 They do not establish implemented autonomous agents.
 
----
+______________________________________________________________________
 
-# 15. Skills
+## 15. Skills
 
 Candidate supporting Skills:
 
@@ -871,9 +872,9 @@ AMOS Repair Priority Governor
 
 Skill availability does not imply invocation permission.
 
----
+______________________________________________________________________
 
-# 16. Workflows
+## 16. Workflows
 
 Primary attention-state workflow:
 
@@ -903,9 +904,9 @@ REASSESS
 CONTINUE / DEEPEN / SWITCH / DEFER / STOP
 ```
 
----
+______________________________________________________________________
 
-# 17. Protocols
+## 17. Protocols
 
 Candidate state protocols:
 
@@ -930,9 +931,9 @@ ATTENTION_STATE_CLOSE
 
 Exact canonical protocol identifiers remain `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
-# 18. Evidence / provenance
+## 18. Evidence / provenance
 
 Every consequential state should preserve:
 
@@ -972,9 +973,9 @@ AttentionStateProvenance:
 
 Derived priority must preserve ancestry to the observations and rules that produced it.
 
----
+______________________________________________________________________
 
-# 19. Uncertainty vector
+## 19. Uncertainty vector
 
 Attention state should distinguish:
 
@@ -991,22 +992,22 @@ AttentionUncertainty:
 
 Do not compress these automatically into a single confidence number when the distinction can change the decision.
 
----
+______________________________________________________________________
 
-# 20. Confidence ceiling
+## 20. Confidence ceiling
 
 For a derived attention-state conclusion:
 
-[
+\[
 Conf(A_t)
-\leq
-\min(
+\\leq
+\\min(
 Conf(P_1),
 Conf(P_2),
 ...,
 Conf(P_n)
 )
-]
+\]
 
 for load-bearing premises unless independently revalidated evidence raises the applicable bound.
 
@@ -1024,9 +1025,9 @@ confidence(target_claim_is_true) = LOW
 
 This distinction is mandatory.
 
----
+______________________________________________________________________
 
-# 21. Failure modes
+## 21. Failure modes
 
 ```text
 FM-L02-ST-001 Attention starvation
@@ -1090,9 +1091,9 @@ FM-L02-ST-020 UNKNOWN treated as resolved
 Missing information silently becomes a passing state.
 ```
 
----
+______________________________________________________________________
 
-# 22. Repair / recovery
+## 22. Repair / recovery
 
 Repair principle:
 
@@ -1138,9 +1139,9 @@ RESUME()
 
 Global reset should be a last resort.
 
----
+______________________________________________________________________
 
-# 23. Tests / validators
+## 23. Tests / validators
 
 ```text
 TEST-L02-ST-001 Budget conservation
@@ -1192,9 +1193,9 @@ Required target metadata absent.
 Expected: UNKNOWN/GAP, not PASS.
 ```
 
----
+______________________________________________________________________
 
-# 24. State validators
+## 24. State validators
 
 Candidate validator set:
 
@@ -1216,9 +1217,9 @@ validators:
 
 These are architectural definitions, not evidence that executable validators currently exist.
 
----
+______________________________________________________________________
 
-# 25. Falsifiers
+## 25. Falsifiers
 
 This state contract should be revised or rejected if direct canon establishes that:
 
@@ -1235,9 +1236,9 @@ A falsifier does not automatically invalidate the entire primitive.
 
 Selective invalidation applies.
 
----
+______________________________________________________________________
 
-# 26. Gap status
+## 26. Gap status
 
 ```yaml
 gap_status:
@@ -1306,9 +1307,9 @@ gap_status:
     status: UNKNOWN_GAP
 ```
 
----
+______________________________________________________________________
 
-# 27. Minimum implementation contract
+## 27. Minimum implementation contract
 
 An implementation claiming support for `L02_ATTENTION/STATE` should minimally demonstrate:
 
@@ -1336,9 +1337,9 @@ Until these are demonstrated:
 ADDRESSABLE != IMPLEMENTED
 ```
 
----
+______________________________________________________________________
 
-# 28. Promotion criteria
+## 28. Promotion criteria
 
 Promotion beyond `MODEL-DEFINED / UNVALIDATED` requires at minimum:
 
@@ -1368,9 +1369,9 @@ PLACEHOLDER
 
 No state may be skipped merely because the architecture is addressable.
 
----
+______________________________________________________________________
 
-# 29. RSCF completion state
+## 29. RSCF completion state
 
 ```yaml
 claim_class: MODEL
@@ -1459,9 +1460,9 @@ confidence_ceiling:
     validated canonical L02 STATE artifact or executed runtime implementation.
 ```
 
----
+______________________________________________________________________
 
-# 30. Hard boundaries
+## 30. Hard boundaries
 
 ```text
 PLACEHOLDER != IMPLEMENTED
@@ -1516,22 +1517,26 @@ primary_gap: DIRECT_CANON_AND_RUNTIME_VALIDATION
 
 **Conclusion class: `MODEL`.** The contract is sufficiently specified to make `L02_ATTENTION` state structurally addressable, but it must remain distinct from canonical recovery, implementation, executed validation, and empirical proof.
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: l02_attention_primitives_cognitive_matrix_state
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION/L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_STATE.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION/L02_ATTENTION_MOC|L02_ATTENTION_MOC]]

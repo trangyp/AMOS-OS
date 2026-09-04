@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: L02 ATTENTION PRIMITIVES COGNITIVE MATRIX OPERATORS
 type: cognitive
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION
 tags:
-- cognitive-matrix
-- primitives
-- matrix/l02-attention
-- note
-- domain/cognitive-matrix
+  - cognitive-matrix
+  - primitives
+  - matrix/l02-attention
+  - note
+  - domain/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -19,26 +22,23 @@ rscf:
 
 The source placeholder explicitly defines L02 as **“attention allocation; budget scarce reasoning/observation resources”** and requires operators/kernels, invariants, H/M/L, interfaces, dependencies, provenance, repair, tests, governance, freshness, and version lineage before promotion. It also explicitly prohibits inventing missing canon or implementation status.
 
----
+______________________________________________________________________
+
 tags:
-  - amos
-  - cognitive-matrix
-  - l02
-  - attention
-  - operators
-  - kernels
-  - rscf
-  - hml
-  - governance
 
-title: L02_ATTENTION — Operators
-origin_architect: "Trang Phan"
-status: "MODEL_SPECIFICATION / SOURCE-BOUNDED / UNVALIDATED"
-epistemic_class: "MODEL"
-runtime_alignment: "AMOS Full Brain OS / AMOS_CORE v4.4 lineage"
----
+- amos
+- cognitive-matrix
+- l02
+- attention
+- operators
+- kernels
+- rscf
+- hml
+- governance
 
-# L02_ATTENTION — Operators
+## title: L02_ATTENTION — Operators origin_architect: "Trang Phan" status: "MODEL_SPECIFICATION / SOURCE-BOUNDED / UNVALIDATED" epistemic_class: "MODEL" runtime_alignment: "AMOS Full Brain OS / AMOS_CORE v4.4 lineage"
+
+## L02_ATTENTION — Operators
 
 **Class:** `COGNITIVE_PRIMITIVE_OPERATOR_CONTRACT`
 **Origin architect / steward:** Trang Phan
@@ -48,9 +48,9 @@ runtime_alignment: "AMOS Full Brain OS / AMOS_CORE v4.4 lineage"
 
 > **Canon boundary:** the recovered L02 source establishes the primitive role as attention allocation over scarce reasoning/observation resources and explicitly requires an operator/kernel contract before promotion. It does not currently provide a canonical named L02 operator registry. Therefore operator names, signatures, transition equations, kernels, and protocols in this artifact are `AMOS_MODEL` unless independently recovered from direct canon or executable runtime evidence.
 
----
+______________________________________________________________________
 
-# 0. Purpose
+## 0. Purpose
 
 Define the typed operators through which `L02_ATTENTION` may:
 
@@ -96,9 +96,9 @@ OPERATOR RESULT
 COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 1. Source / Canon References
+## 1. Source / Canon References
 
 ## 1.1 Source-supported primitive role
 
@@ -165,23 +165,23 @@ Applicable AMOS framework forms include:
 
 ### Hard admission
 
-[
-Admit(x)=\bigwedge_i HardInvariant_i(x)
-]
+\[
+Admit(x)=\\bigwedge_i HardInvariant_i(x)
+\]
 
 ### Confidence ceiling
 
-[
-Conf(C)\leq\min_i Conf(P_i)
-]
+\[
+Conf(C)\\leq\\min_i Conf(P_i)
+\]
 
 ### Selective invalidation
 
-[
+\[
 Invalid(p)
-\Rightarrow
+\\Rightarrow
 Invalidate(Descendants(p))
-]
+\]
 
 These constrain L02 operators but are not proof of canonical L02-specific operator names.
 
@@ -213,18 +213,18 @@ L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_README
 L01_SENSING_OBSERVATION
 ```
 
----
+______________________________________________________________________
 
-# 2. Definition and Scope
+## 2. Definition and Scope
 
 An L02 operator is a typed transformation:
 
-[
+\[
 O:
 (S_t,I,C)
-\rightarrow
-(S_{t+1},R)
-]
+\\rightarrow
+(S\_{t+1},R)
+\]
 
 where:
 
@@ -239,15 +239,15 @@ R       = operator result
 
 The operator is admissible only when:
 
-[
+\[
 Preconditions(O,S_t,I,C)=true
-]
+\]
 
 and:
 
-[
-HardInvariants(S_{t+1})=true
-]
+\[
+HardInvariants(S\_{t+1})=true
+\]
 
 or the transition must fail closed.
 
@@ -282,9 +282,9 @@ policy override
 unbounded tool execution
 ```
 
----
+______________________________________________________________________
 
-# 3. Operator Classes
+## 3. Operator Classes
 
 ```yaml
 AttentionOperatorClass:
@@ -342,9 +342,9 @@ AttentionOperatorClass:
       produce or consume control-plane validation state
 ```
 
----
+______________________________________________________________________
 
-# 4. Typed Operator Contract
+## 4. Typed Operator Contract
 
 ```yaml
 AttentionOperator:
@@ -409,9 +409,9 @@ AttentionOperator:
     type: RepairRef[]
 ```
 
----
+______________________________________________________________________
 
-# 5. Typed Inputs
+## 5. Typed Inputs
 
 ```yaml
 AttentionOperatorInput:
@@ -459,9 +459,9 @@ AttentionOperatorInput:
     type: AuthorityContext | UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 6. Typed Outputs
+## 6. Typed Outputs
 
 ```yaml
 AttentionOperatorOutput:
@@ -510,9 +510,9 @@ AttentionOperatorOutput:
       - UNKNOWN_GAP
 ```
 
----
+______________________________________________________________________
 
-# 7. State Variables
+## 7. State Variables
 
 ```text
 X_t       = candidate attention set
@@ -535,9 +535,9 @@ Contr_t   = contradiction state
 Mem_t     = attention-supporting memory state
 ```
 
----
+______________________________________________________________________
 
-# 8. Core Operator Registry
+## 8. Core Operator Registry
 
 The following operators form the proposed L02 model registry.
 
@@ -591,9 +591,9 @@ EMIT_PROPOSAL()
 
 All names above are `AMOS_MODEL` until directly recovered.
 
----
+______________________________________________________________________
 
-# 9. `INGEST()`
+## 9. `INGEST()`
 
 ## Purpose
 
@@ -601,12 +601,12 @@ Receive candidate objects from upstream observation, reasoning, memory, tool, or
 
 Signature:
 
-[
+\[
 INGEST:
 InputObject[]
-\rightarrow
+\\rightarrow
 AttentionCandidate[]
-]
+\]
 
 Candidate:
 
@@ -639,19 +639,19 @@ INGESTED
 ADMITTED
 ```
 
----
+______________________________________________________________________
 
-# 10. `NORMALIZE()`
+## 10. `NORMALIZE()`
 
 ## Purpose — part 2
 
 Convert heterogeneous candidates into a comparable typed attention representation.
 
-[
+\[
 NORMALIZE(x)
-\rightarrow
+\\rightarrow
 x'
-]
+\]
 
 Normalization may align:
 
@@ -675,20 +675,18 @@ NORMALIZATION
 SEMANTIC COLLAPSE
 ```
 
----
+______________________________________________________________________
 
-# 11. `ADMIT()`
+## 11. `ADMIT()`
 
 ## Purpose — part 3
 
 Determine whether a candidate is eligible to enter ordinary attention allocation.
 
-[
-Admit(x)
-========
+## \[ Admit(x)
 
-\bigwedge_i HardInvariant_i(x)
-]
+\\bigwedge_i HardInvariant_i(x)
+\]
 
 Result:
 
@@ -709,9 +707,9 @@ cannot compensate for
 FAILED HARD INVARIANT
 ```
 
----
+______________________________________________________________________
 
-# 12. `REJECT()`
+## 12. `REJECT()`
 
 ## Purpose — part 4
 
@@ -725,9 +723,9 @@ DELETE FROM HISTORY
 
 Rejected candidates should retain sufficient provenance to explain the decision.
 
----
+______________________________________________________________________
 
-# 13. `QUARANTINE()`
+## 13. `QUARANTINE()`
 
 ## Purpose — part 5
 
@@ -747,28 +745,26 @@ unresolved critical contradiction
 
 Formally:
 
-[
+\[
 IntegrityUnknown(x)
-\Rightarrow
+\\Rightarrow
 QUARANTINE(x)
-]
+\]
 
 where continuing ordinary processing would be unsafe.
 
----
+______________________________________________________________________
 
-# 14. `ASSESS_RELEVANCE()`
+## 14. `ASSESS_RELEVANCE()`
 
 ## Purpose — part 6
 
 Estimate candidate relevance to the governing objective.
 
-[
-Rel_i
-=====
+## \[ Rel_i
 
 f(x_i,G_t)
-]
+\]
 
 This is `AMOS_MODEL`.
 
@@ -782,9 +778,9 @@ TRUTH
 
 A false hypothesis may be highly relevant because falsifying it changes the decision.
 
----
+______________________________________________________________________
 
-# 15. `ASSESS_SALIENCE()`
+## 15. `ASSESS_SALIENCE()`
 
 ## Purpose — part 7
 
@@ -812,9 +808,9 @@ PRIORITY
 
 Salience is one attention signal, not the governing result.
 
----
+______________________________________________________________________
 
-# 16. `ASSESS_UNCERTAINTY()`
+## 16. `ASSESS_UNCERTAINTY()`
 
 ## Purpose — part 8
 
@@ -840,9 +836,9 @@ HIGH UNCERTAINTY
 AUTOMATIC HIGH PRIORITY
 ```
 
----
+______________________________________________________________________
 
-# 17. `ASSESS_CONSEQUENCE()`
+## 17. `ASSESS_CONSEQUENCE()`
 
 ## Purpose — part 9
 
@@ -862,9 +858,9 @@ recoverability window
 
 This is a governance input, not an empirical universal formula.
 
----
+______________________________________________________________________
 
-# 18. `ASSESS_DEPENDENCY_CRITICALITY()`
+## 18. `ASSESS_DEPENDENCY_CRITICALITY()`
 
 ## Purpose — part 10
 
@@ -872,15 +868,13 @@ Estimate whether a candidate is load-bearing for other active claims or decision
 
 Candidate model:
 
-[
-Criticality(x)
-==============
+## \[ Criticality(x)
 
 f(
 DescendantImpact(x),
 FailureSensitivity(x)
 )
-]
+\]
 
 Hard boundary:
 
@@ -890,9 +884,9 @@ HIGH GRAPH DEGREE
 HIGH EPISTEMIC CRITICALITY
 ```
 
----
+______________________________________________________________________
 
-# 19. `ASSESS_TIME_SENSITIVITY()`
+## 19. `ASSESS_TIME_SENSITIVITY()`
 
 ## Purpose — part 11
 
@@ -918,9 +912,9 @@ URGENT
 IMPORTANT
 ```
 
----
+______________________________________________________________________
 
-# 20. `ASSESS_INFORMATION_VALUE()`
+## 20. `ASSESS_INFORMATION_VALUE()`
 
 ## Purpose — part 12
 
@@ -928,20 +922,18 @@ Estimate whether additional attention can materially reduce decision-changing un
 
 Candidate:
 
-[
-EIV(x)
-======
+## \[ EIV(x)
 
 ExpectedDecisionValue(
 AdditionalProcessing(x)
 )
-]
+\]
 
 The exact numeric model remains unresolved.
 
----
+______________________________________________________________________
 
-# 21. `ASSESS_COST()`
+## 21. `ASSESS_COST()`
 
 ## Purpose — part 13
 
@@ -963,9 +955,9 @@ switching cost
 
 Resource units must remain typed.
 
----
+______________________________________________________________________
 
-# 22. `RANK()`
+## 22. `RANK()`
 
 ## Purpose — part 14
 
@@ -973,9 +965,7 @@ Order eligible candidates by attention priority.
 
 Generic model:
 
-[
-\pi_i
-=====
+## \[ \\pi_i
 
 F(
 Rel_i,
@@ -987,7 +977,7 @@ InformationValue_i,
 Cost_i,
 Salience_i
 )
-]
+\]
 
 No canonical weighting is asserted.
 
@@ -1011,17 +1001,17 @@ RANK
 AUTHORIZE
 ```
 
----
+______________________________________________________________________
 
-# 23. `COMPARE()`
+## 23. `COMPARE()`
 
 ## Purpose — part 15
 
 Compare two or more candidates when a complete total ranking is unnecessary.
 
-[
+\[
 COMPARE(x_i,x_j)
-\rightarrow
+\\rightarrow
 {
 i>j,
 j>i,
@@ -1029,25 +1019,25 @@ EQUIVALENT,
 INCOMPARABLE,
 UNKNOWN
 }
-]
+\]
 
 `INCOMPARABLE` is valid when candidates use incompatible resource, scope, or consequence dimensions.
 
 Do not force a numeric comparison where semantics do not support it.
 
----
+______________________________________________________________________
 
-# 24. `SELECT()`
+## 24. `SELECT()`
 
 ## Purpose — part 16
 
 Select candidates for potential resource allocation.
 
-[
-SELECT(E_t,\Pi_t,B_t)
-\rightarrow
+\[
+SELECT(E_t,\\Pi_t,B_t)
+\\rightarrow
 S_t
-]
+\]
 
 Selection does not allocate resources yet.
 
@@ -1057,50 +1047,48 @@ SELECTED
 ALLOCATED
 ```
 
----
+______________________________________________________________________
 
-# 25. `ALLOCATE()`
+## 25. `ALLOCATE()`
 
 ## Purpose — part 17
 
 Assign bounded cognitive resources to selected candidates.
 
-[
+\[
 ALLOCATE(S_t,B_t)
-\rightarrow
+\\rightarrow
 A_t
-]
+\]
 
 subject to:
 
-[
-\sum_i a_i
-\le
+\[
+\\sum_i a_i
+\\le
 B_t
-]
+\]
 
 for compatible resource units.
 
 Allocation output remains an attention-state proposal where authoritative state commit is governed externally.
 
----
+______________________________________________________________________
 
-# 26. `RESERVE()`
+## 26. `RESERVE()`
 
 ## Purpose — part 18
 
 Protect a portion of the attention budget for unforeseen decision-relevant events.
 
-[
-B_{available}
-=============
+## \[ B\_{available}
 
-## B_{total}
+## B\_{total}
 
-## B_{reserved}
+## B\_{reserved}
 
-B_{used}
-]
+B\_{used}
+\]
 
 Reserve may support:
 
@@ -1114,19 +1102,19 @@ critical gap discovery
 tool failure
 ```
 
----
+______________________________________________________________________
 
-# 27. `FOCUS()`
+## 27. `FOCUS()`
 
 ## Purpose — part 19
 
 Move a candidate into active processing.
 
-[
+\[
 FOCUS(x_i)
-\Rightarrow
+\\Rightarrow
 Active(x_i)
-]
+\]
 
 provided:
 
@@ -1144,9 +1132,9 @@ FOCUS
 BELIEVE
 ```
 
----
+______________________________________________________________________
 
-# 28. `SUSTAIN()`
+## 28. `SUSTAIN()`
 
 ## Purpose — part 20
 
@@ -1156,16 +1144,14 @@ A sustain decision should require continued expected value.
 
 Candidate:
 
-[
-Continue(x)
-===========
+## \[ Continue(x)
 
-EIV_{next}(x)
+EIV\_{next}(x)
 
 >
 
-Cost_{next}(x)
-]
+Cost\_{next}(x)
+\]
 
 as an `AMOS_MODEL` heuristic.
 
@@ -1175,17 +1161,17 @@ If no longer decision-relevant:
 RELEASE or DEFER
 ```
 
----
+______________________________________________________________________
 
-# 29. `SHIFT()`
+## 29. `SHIFT()`
 
 ## Purpose — part 21
 
 Move attention from one candidate or branch to another.
 
-[
+\[
 SHIFT(x_i,x_j)
-]
+\]
 
 should account for:
 
@@ -1198,26 +1184,26 @@ memory/recovery cost
 
 Frequent unnecessary switching is an attention-thrashing failure mode.
 
----
+______________________________________________________________________
 
-# 30. `RELEASE()`
+## 30. `RELEASE()`
 
 ## Purpose — part 22
 
 Return unused attention resources to the available budget.
 
-[
-B_{available}' =
-B_{available} + Released
-]
+\[
+B\_{available}' =
+B\_{available} + Released
+\]
 
 for compatible units.
 
 Release does not delete provenance or history.
 
----
+______________________________________________________________________
 
-# 31. `DEFER()`
+## 31. `DEFER()`
 
 ## Purpose — part 23
 
@@ -1242,9 +1228,9 @@ freshness condition
 dependencies
 ```
 
----
+______________________________________________________________________
 
-# 32. `RESUME()`
+## 32. `RESUME()`
 
 ## Purpose — part 24
 
@@ -1267,9 +1253,9 @@ RESUME
 ASSUME OLD PRIORITY STILL VALID
 ```
 
----
+______________________________________________________________________
 
-# 33. `ESCALATE()`
+## 33. `ESCALATE()`
 
 ## Purpose — part 25
 
@@ -1304,9 +1290,9 @@ Escalation changes who/what must reason about the issue.
 
 It does not itself authorize external action.
 
----
+______________________________________________________________________
 
-# 34. `DEESCALATE()`
+## 34. `DEESCALATE()`
 
 ## Purpose — part 26
 
@@ -1333,17 +1319,17 @@ DEESCALATION
 cannot hide unresolved critical gaps.
 ```
 
----
+______________________________________________________________________
 
-# 35. `CHECK_FRESHNESS()`
+## 35. `CHECK_FRESHNESS()`
 
 ## Purpose — part 27
 
 Determine whether mutable load-bearing state remains valid for current use.
 
-[
+\[
 Fresh(x,t)
-]
+\]
 
 may depend on:
 
@@ -1365,9 +1351,9 @@ STALE
 UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 36. `REVALIDATE()`
+## 36. `REVALIDATE()`
 
 ## Purpose — part 28
 
@@ -1389,9 +1375,9 @@ REVALIDATE
 REUSE OLD CONCLUSION
 ```
 
----
+______________________________________________________________________
 
-# 37. `INVALIDATE()`
+## 37. `INVALIDATE()`
 
 ## Purpose — part 29
 
@@ -1399,43 +1385,41 @@ Withdraw validity from state dependent on failed premises.
 
 Core rule:
 
-[
+\[
 Invalid(p)
-\Rightarrow
+\\Rightarrow
 Invalidate(Descendants(p))
-]
+\]
 
 not:
 
-[
+\[
 Invalid(p)
-\Rightarrow
+\\Rightarrow
 Invalidate(All)
-]
+\]
 
 unless dependency closure proves (p) globally load-bearing.
 
----
+______________________________________________________________________
 
-# 38. `REALLOCATE()`
+## 38. `REALLOCATE()`
 
 ## Purpose — part 30
 
 Redistribute attention resources after state change.
 
-[
-A_{t+1}
-=======
+## \[ A\_{t+1}
 
 REALLOCATE(
 A_t,
-\Delta Evidence,
-\Delta Goal,
-\Delta Risk,
-\Delta Regime,
-\Delta Dependency
+\\Delta Evidence,
+\\Delta Goal,
+\\Delta Risk,
+\\Delta Regime,
+\\Delta Dependency
 )
-]
+\]
 
 Possible triggers:
 
@@ -1450,9 +1434,9 @@ regime shift
 critical gap discovery
 ```
 
----
+______________________________________________________________________
 
-# 39. `RECALL()`
+## 39. `RECALL()`
 
 ## Purpose — part 31
 
@@ -1476,9 +1460,9 @@ REVALIDATION
 
 A recalled priority should normally be treated as prior state, not automatically current state.
 
----
+______________________________________________________________________
 
-# 40. `EXTERNALIZE_MEMORY()`
+## 40. `EXTERNALIZE_MEMORY()`
 
 ## Purpose — part 32
 
@@ -1507,9 +1491,9 @@ not:
 DurableMemoryCommit
 ```
 
----
+______________________________________________________________________
 
-# 41. `REPAIR()`
+## 41. `REPAIR()`
 
 ## Purpose — part 33
 
@@ -1535,20 +1519,18 @@ resume
 
 Repair itself must respect L02 repair and control-plane contracts.
 
----
+______________________________________________________________________
 
-# 42. `ROLLBACK_PROPOSE()`
+## 42. `ROLLBACK_PROPOSE()`
 
 ## Purpose — part 34
 
 Propose restoration to the nearest valid attention state when local repair is insufficient.
 
-[
-S_{rollback}
-============
+## \[ S\_{rollback}
 
-NearestValidAncestor(S_{failed})
-]
+NearestValidAncestor(S\_{failed})
+\]
 
 subject to:
 
@@ -1564,9 +1546,9 @@ The operator proposes rollback.
 
 Authoritative rollback commit belongs to the appropriate control plane.
 
----
+______________________________________________________________________
 
-# 43. `EMIT_PROPOSAL()`
+## 43. `EMIT_PROPOSAL()`
 
 ## Purpose — part 35
 
@@ -1606,9 +1588,9 @@ EMIT_PROPOSAL()
 COMMIT()
 ```
 
----
+______________________________________________________________________
 
-# 44. Composite Attention Kernel
+## 44. Composite Attention Kernel
 
 A candidate L02 processing kernel is:
 
@@ -1642,46 +1624,42 @@ This is `AMOS_MODEL`.
 
 It must not be labelled canonical without source evidence.
 
----
+______________________________________________________________________
 
-# 45. Formal Kernel Representation
+## 45. Formal Kernel Representation
 
 Let:
 
-[
-K_{L02}
-=======
+## \[ K\_{L02}
 
-O_n\circ O_{n-1}\circ\dots\circ O_1
-]
+O_n\\circ O\_{n-1}\\circ\\dots\\circ O_1
+\]
 
-where each \(O_i\) is an admissible L02 operator.
+where each (O_i) is an admissible L02 operator.
 
 Kernel validity requires:
 
-[
-Valid(K_{L02})
-==============
+## \[ Valid(K\_{L02})
 
-\bigwedge_i
+\\bigwedge_i
 ValidTransition(O_i)
-]
+\]
 
 and:
 
-[
+\[
 Invariant(S_0)
-\land
-\bigwedge_i PreserveInvariant(O_i)
-\Rightarrow
+\\land
+\\bigwedge_i PreserveInvariant(O_i)
+\\Rightarrow
 Invariant(S_n)
-]
+\]
 
 where no unresolved required check is silently interpreted as `true`.
 
----
+______________________________________________________________________
 
-# 46. Operator Preconditions
+## 46. Operator Preconditions
 
 Every operator should declare preconditions.
 
@@ -1708,9 +1686,9 @@ ALLOCATE:
     - UNKNOWN_GAP
 ```
 
----
+______________________________________________________________________
 
-# 47. Operator Postconditions
+## 47. Operator Postconditions
 
 Example:
 
@@ -1726,9 +1704,9 @@ ALLOCATE:
     - no_authority_promotion
 ```
 
----
+______________________________________________________________________
 
-# 48. Operator Invariants
+## 48. Operator Invariants
 
 ```text
 L02-OP-INV-001
@@ -1792,9 +1770,9 @@ L02-OP-INV-020
 Model operator definitions cannot be promoted to canon without evidence.
 ```
 
----
+______________________________________________________________________
 
-# 49. Dependencies
+## 49. Dependencies
 
 Core dependencies may include:
 
@@ -1827,9 +1805,9 @@ dependencies:
 
 Potential downstream primitive relationships remain `UNKNOWN/GAP` unless directly recovered.
 
----
+______________________________________________________________________
 
-# 50. H/M/L Applicability
+## 50. H/M/L Applicability
 
 ## H — Governing Operators
 
@@ -1887,9 +1865,9 @@ cannot silently mutate
 H GOVERNING OBJECTIVE.
 ```
 
----
+______________________________________________________________________
 
-# 51. Cross-Scale Operators
+## 51. Cross-Scale Operators
 
 Candidate:
 
@@ -1916,9 +1894,9 @@ M→H:
 escalate only decision-relevant changes
 ```
 
----
+______________________________________________________________________
 
-# 52. Control-Plane Requirements
+## 52. Control-Plane Requirements
 
 L02 operators may manage reversible attention state locally where permitted.
 
@@ -1952,9 +1930,9 @@ Operator ownership matrix:
 
 This ownership matrix is `AMOS_MODEL`.
 
----
+______________________________________________________________________
 
-# 53. Agents
+## 53. Agents
 
 Candidate logical roles:
 
@@ -1974,9 +1952,9 @@ These are role abstractions.
 
 They do not prove separate runtime deployments.
 
----
+______________________________________________________________________
 
-# 54. Skills
+## 54. Skills
 
 Potential capability mappings:
 
@@ -2000,9 +1978,9 @@ OPERATOR CAN CALL SKILL
 OPERATOR HAS UNBOUNDED AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 55. Standard Workflow
+## 55. Standard Workflow
 
 ```text
 1. INGEST candidates
@@ -2050,9 +2028,9 @@ OPERATOR HAS UNBOUNDED AUTHORITY
 18. EMIT proposal where downstream governance is required
 ```
 
----
+______________________________________________________________________
 
-# 56. Protocols
+## 56. Protocols
 
 Operator invocation envelope:
 
@@ -2134,9 +2112,9 @@ AttentionOperatorResult:
     value: NOT_COMMITTED
 ```
 
----
+______________________________________________________________________
 
-# 57. Evidence / Provenance
+## 57. Evidence / Provenance
 
 Every consequential operator execution should preserve:
 
@@ -2163,11 +2141,9 @@ repair/rollback lineage
 
 Candidate provenance tensor:
 
-[
-P_O
-===
+## \[ P_O
 
-T[
+T\[
 operator,
 actor,
 input,
@@ -2179,14 +2155,14 @@ regime,
 HML,
 authority,
 time
-]
-]
+\]
+\]
 
 This is `AMOS_MODEL`.
 
----
+______________________________________________________________________
 
-# 58. Read-Set Discipline
+## 58. Read-Set Discipline
 
 Where mutable state influences an operator decision:
 
@@ -2207,23 +2183,23 @@ ObservedRead:
 
 Commit-sensitive operators should not rely solely on one global state hash if fine-grained read identity is available.
 
----
+______________________________________________________________________
 
-# 59. Freshness
+## 59. Freshness
 
 Operator results inherit freshness limits from load-bearing state.
 
 If:
 
-[
+\[
 Fresh(p)=false
-]
+\]
 
 and operator result depends on (p):
 
-[
+\[
 Fresh(Result_O)=false
-]
+\]
 
 until revalidated.
 
@@ -2235,19 +2211,19 @@ CACHED OPERATOR RESULT
 CURRENT VALID RESULT
 ```
 
----
+______________________________________________________________________
 
-# 60. Confidence Ceiling
+## 60. Confidence Ceiling
 
-For operator result \(R_O\):
+For operator result (R_O):
 
-[
+\[
 Conf(R_O)
-\le
-\min_i Conf(P_i)
-]
+\\le
+\\min_i Conf(P_i)
+\]
 
-for load-bearing premises \(P_i\).
+for load-bearing premises (P_i).
 
 An operator's deterministic execution does not prove the validity of its inputs.
 
@@ -2259,9 +2235,9 @@ BAD INPUT
 DETERMINISTIC BAD OUTPUT
 ```
 
----
+______________________________________________________________________
 
-# 61. Failure Modes
+## 61. Failure Modes
 
 ```text
 FM-L02-OP-001   Invalid Input Type
@@ -2299,9 +2275,9 @@ FM-L02-OP-032   Operator Sequence Drift
 FM-L02-OP-033   Model Operator Reported as Canon
 ```
 
----
+______________________________________________________________________
 
-# 62. Repair / Recovery
+## 62. Repair / Recovery
 
 General operator repair:
 
@@ -2339,17 +2315,17 @@ or
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 63. Operator Rollback
+## 63. Operator Rollback
 
 Where an operator modifies reversible local attention state:
 
-[
-Rollback(O,S_{t+1})
-\rightarrow
+\[
+Rollback(O,S\_{t+1})
+\\rightarrow
 S_t
-]
+\]
 
 where prior state remains valid.
 
@@ -2370,9 +2346,9 @@ nearest valid state
 
 rather than automatically resetting all of L02.
 
----
+______________________________________________________________________
 
-# 64. Tests / Validators
+## 64. Tests / Validators
 
 Required validators:
 
@@ -2399,9 +2375,9 @@ VALIDATE_REPAIR
 VALIDATE_ROLLBACK
 ```
 
----
+______________________________________________________________________
 
-# 65. Minimum Test Suite
+## 65. Minimum Test Suite
 
 ```text
 TEST-L02-OP-001
@@ -2480,9 +2456,9 @@ TEST-L02-OP-025
 AMOS_MODEL operator cannot be reported as canonical L02 operator.
 ```
 
----
+______________________________________________________________________
 
-# 66. Adversarial Tests
+## 66. Adversarial Tests
 
 Test operator integrity against:
 
@@ -2507,9 +2483,9 @@ rollback tampering
 UNKNOWN→PASS coercion
 ```
 
----
+______________________________________________________________________
 
-# 67. Falsifiers
+## 67. Falsifiers
 
 Revise this artifact if direct canon establishes that:
 
@@ -2537,9 +2513,9 @@ runtime evidence validates a materially different kernel
 
 An individual operator specification is falsified if executable evidence demonstrates that the operator cannot preserve its declared contract under the claimed scope.
 
----
+______________________________________________________________________
 
-# 68. Competing Operator Architectures
+## 68. Competing Operator Architectures
 
 ## COMPETING-001 — Minimal Primitive
 
@@ -2606,9 +2582,9 @@ COMPETING-004
 
 but this remains `MODEL / COMPETING` until canonical ownership is resolved.
 
----
+______________________________________________________________________
 
-# 69. Gap Matrix
+## 69. Gap Matrix
 
 ```yaml
 gap_status:
@@ -2693,9 +2669,9 @@ Critical gaps:
 5. executed negative tests
 ```
 
----
+______________________________________________________________________
 
-# 70. Cheapest Discriminating Evidence
+## 70. Cheapest Discriminating Evidence
 
 Highest-value retrieval order:
 
@@ -2723,9 +2699,9 @@ The decisive architectural question is:
 
 > **Does canonical L02 itself own admission, allocation, invalidation, and attention-state mutation, or does it primarily score/propose while the AMOS infrastructure control plane owns authoritative state transitions?**
 
----
+______________________________________________________________________
 
-# 71. RSCF Completion State
+## 71. RSCF Completion State
 
 ```yaml
 rscf:
@@ -2870,9 +2846,9 @@ rscf:
     which state transitions are L02-owned versus control-plane-owned
 ```
 
----
+______________________________________________________________________
 
-# 72. Completion State
+## 72. Completion State
 
 ```yaml
 completion_state:
@@ -2950,9 +2926,9 @@ completion_state:
     MODEL
 ```
 
----
+______________________________________________________________________
 
-# 73. Hard Boundaries
+## 73. Hard Boundaries
 
 ```text
 PLACEHOLDER != IMPLEMENTED
@@ -3014,9 +2990,9 @@ IMPLEMENTED OPERATOR != VALIDATED OPERATOR
 MODEL OPERATOR != CANONICAL OPERATOR
 ```
 
----
+______________________________________________________________________
 
-# 74. References
+## 74. References
 
 ```text
 PLACEHOLDER
@@ -3057,15 +3033,15 @@ Cosmo_Brain_BRIDGE_INDEX
 Cosmo_Brain_BRIDGE_INDEX
 ```
 
----
+______________________________________________________________________
 
-# 75. Governing Operator Contract
+## 75. Governing Operator Contract
 
 > **`L02_ATTENTION` operates through typed, invariant-preserving transformations that admit candidate targets, assess their decision relevance, rank them, allocate finite reasoning/observation resources, manage focus and deferral, respond to stale or invalid dependencies, and escalate unresolved consequential state. Every operator must preserve provenance, scope, regime, H/M/L identity, confidence ceilings, contradiction visibility, and authority boundaries. Attention operators may propose state changes, but they may not silently promote truth, create authority, erase gaps, or commit durable external effects.**
 
----
+______________________________________________________________________
 
-# 76. Canon Boundary
+## 76. Canon Boundary
 
 ```text
 SOURCE-SUPPORTED:
@@ -3135,22 +3111,27 @@ AUTHORIZATION TO COMMIT
 
 ```text
 ```
----
+
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: l02_attention_primitives_cognitive_matrix_operators
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION/L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_OPERATORS.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION/L02_ATTENTION_MOC|L02_ATTENTION_MOC]]

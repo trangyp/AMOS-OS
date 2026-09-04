@@ -1,28 +1,31 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: L00 REALITY ENVIRONMENT PRIMITIVES COGNITIVE MATRIX WORKFLOWS
 type: workflow
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT
 tags:
-- amos
-- cognitive-matrix
-- matrix/l00
-- reality-environment
-- workflows
-- orchestration
-- grounding
-- observation
-- provenance
-- state
-- control-plane
-- validation
-- repair
-- recovery
-- rscf
-- rscf/S-state
-- rscf/T-topology
-- rscf/C-constraint
-- rscf/type-model
-- domain/cognitive-matrix
+  - amos
+  - cognitive-matrix
+  - matrix/l00
+  - reality-environment
+  - workflows
+  - orchestration
+  - grounding
+  - observation
+  - provenance
+  - state
+  - control-plane
+  - validation
+  - repair
+  - recovery
+  - rscf
+  - rscf/S-state
+  - rscf/T-topology
+  - rscf/C-constraint
+  - rscf/type-model
+  - domain/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -43,9 +46,9 @@ rscf:
 
 > **Canon boundary:** direct authoritative L00 workflow canon is not established by the supplied placeholder alone. The workflows below are therefore conservative AMOS architectural models derived from the established L00 reality/environment, state, variable, provenance, RSCF, control-plane, test, and repair contracts. They must not be represented as recovered source canon without direct source evidence.
 
----
+______________________________________________________________________
 
-# 0. Purpose
+## 0. Purpose
 
 `L00_REALITY_ENVIRONMENT/WORKFLOWS.md` defines how AMOS moves reality-sensitive information through controlled sequences from environment interaction to admitted state, reasoning use, action preparation, outcome observation, invalidation, repair, and recovery.
 
@@ -101,61 +104,58 @@ AUTHORIZED EFFECT
 VERIFIED OUTCOME
 ```
 
----
+______________________________________________________________________
 
-# 1. Workflow Definition
+## 1. Workflow Definition
 
 An L00 workflow is a typed, ordered, stateful transition structure governing how environment-related information and effects move through AMOS.
 
 Conceptually:
 
-[
+\[
 W =
 (N,E,C,S,P,G,V,R)
-]
+\]
 
 where:
 
-- \(N\) = workflow nodes / steps;
-- \(E\) = transition edges;
-- \(C\) = constraints;
-- \(S\) = workflow state;
-- \(P\) = provenance;
-- \(G\) = governance state;
-- \(V\) = validation state;
-- \(R\) = recovery paths.
+- (N) = workflow nodes / steps;
+- (E) = transition edges;
+- (C) = constraints;
+- (S) = workflow state;
+- (P) = provenance;
+- (G) = governance state;
+- (V) = validation state;
+- (R) = recovery paths.
 
 A workflow is therefore more than a list of actions.
 
-[
-\boxed{
-Workflow
-========
+## \[ \\boxed{ Workflow
 
 OrderedTransitions
-+
+\+
 TypedState
-+
+\+
 Preconditions
-+
+\+
 Postconditions
-+
+\+
 Validation
-+
+\+
 Governance
-+
+\+
 Recovery
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 2. Workflow Tensor
+## 2. Workflow Tensor
 
-[
-\boxed{
+\[
+\\boxed{
 T_W =
-T[
+T\[
 workflow_id,
 version,
 objective,
@@ -183,20 +183,17 @@ failure_state,
 rollback,
 validation,
 finalization
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 3. Workflow State Tensor
+## 3. Workflow State Tensor
 
-[
-\boxed{
-T_{WS}
-======
+## \[ \\boxed{ T\_{WS}
 
-T[
+T\[
 workflow_id,
 run_id,
 current_step,
@@ -210,13 +207,13 @@ authority_state,
 validation_state,
 failure_state,
 recovery_state
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 4. Workflow Lifecycle
+## 4. Workflow Lifecycle
 
 ```text
 DEFINED
@@ -257,25 +254,25 @@ ACTIVE
 └── UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 5. Core Workflow Invariant
+## 5. Core Workflow Invariant
 
 Every transition must satisfy:
 
-[
-\boxed{
-Transition(s_i \rightarrow s_j)
-\Rightarrow
+\[
+\\boxed{
+Transition(s_i \\rightarrow s_j)
+\\Rightarrow
 Preconditions(s_j)=PASS
 }
-]
+\]
 
 No stage may be entered merely because it is the next textual step.
 
----
+______________________________________________________________________
 
-# 6. Workflow Identity
+## 6. Workflow Identity
 
 ```yaml
 workflow_identity:
@@ -315,9 +312,9 @@ WORKFLOW EXECUTION
 SUCCESS
 ```
 
----
+______________________________________________________________________
 
-# 7. Workflow Classes
+## 7. Workflow Classes
 
 L00 workflows may be divided into the following classes:
 
@@ -383,9 +380,9 @@ W28  MEMORY ADMISSION
 W29  MEMORY REVALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 8. Universal L00 Workflow
+## 8. Universal L00 Workflow
 
 ```text
 REQUEST / EXTERNAL EVENT
@@ -460,9 +457,9 @@ REOBSERVE
 UPDATE STATE / MEMORY / DEPENDENCIES
 ```
 
----
+______________________________________________________________________
 
-# 9. W00 — Environment Identification Workflow
+## 9. W00 — Environment Identification Workflow
 
 ## Objective
 
@@ -486,10 +483,10 @@ CREATE EnvID
 
 Conceptual identity:
 
-[
+\[
 EnvID =
 (system,instance,version,location,regime)
-]
+\]
 
 ### Inputs
 
@@ -522,9 +519,9 @@ CONDITIONAL
 
 not guessed identity.
 
----
+______________________________________________________________________
 
-# 10. W01 — Observation Acquisition Workflow
+## 10. W01 — Observation Acquisition Workflow
 
 ```text
 DEFINE TARGET
@@ -562,9 +559,9 @@ FAILED OBSERVATION
 NEGATIVE OBSERVATION
 ```
 
----
+______________________________________________________________________
 
-# 11. W02 — Measurement Workflow
+## 11. W02 — Measurement Workflow
 
 ```text
 OBSERVATION
@@ -588,7 +585,7 @@ EMIT MEASUREMENT
 
 Equation:
 
-[
+\[
 M_t =
 f(
 O_t,
@@ -597,13 +594,13 @@ Method,
 Calibration,
 Noise
 )
-]
+\]
 
 A measurement remains a representation produced through a method.
 
----
+______________________________________________________________________
 
-# 12. W03 — Source Ingestion Workflow
+## 12. W03 — Source Ingestion Workflow
 
 ```text
 SOURCE
@@ -631,9 +628,9 @@ SOURCE SAYS X
 X VERIFIED
 ```
 
----
+______________________________________________________________________
 
-# 13. W04 — Provenance Binding Workflow
+## 13. W04 — Provenance Binding Workflow
 
 ```text
 EVIDENCE OBJECT
@@ -659,15 +656,15 @@ INDEPENDENCE GROUP
 
 Output:
 
-[
+\[
 Prov(E)
-]
+\]
 
 including material lineage.
 
----
+______________________________________________________________________
 
-# 14. W05 — State Construction Workflow
+## 14. W05 — State Construction Workflow
 
 ```text
 OBSERVATIONS
@@ -708,9 +705,9 @@ BUILD CANDIDATE STATE
 
 Candidate state is not yet committed state.
 
----
+______________________________________________________________________
 
-# 15. W06 — Current State Query Workflow
+## 15. W06 — Current State Query Workflow
 
 ```text
 QUERY
@@ -748,30 +745,28 @@ COMPETING
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 16. Current State Equation
+## 16. Current State Equation
 
 For query (q):
 
-[
-Current(S,q)
-============
+## \[ Current(S,q)
 
 Valid(S)
-\land
+\\land
 Fresh(S,q)
-\land
+\\land
 ScopeCompatible(S,q)
-\land
+\\land
 RegimeCompatible(S,q)
-]
+\]
 
 No state is universally "current" independent of use.
 
----
+______________________________________________________________________
 
-# 17. W07 — State Delta Workflow
+## 17. W07 — State Delta Workflow
 
 ```text
 CURRENT STATE
@@ -812,9 +807,9 @@ REMOVED
 
 unless observation completeness establishes absence.
 
----
+______________________________________________________________________
 
-# 18. W08 — State Admission Workflow
+## 18. W08 — State Admission Workflow
 
 ```text
 CANDIDATE STATE
@@ -856,34 +851,32 @@ REJECT
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 19. Admission Equation
+## 19. Admission Equation
 
 Conceptually:
 
-[
-Admit(S)
-========
+## \[ Admit(S)
 
 TypeValid
-\land
+\\land
 ProvValid
-\land
+\\land
 ScopeValid
-\land
+\\land
 RegimeValid
-\land
+\\land
 TemporalValid
-\land
+\\land
 ConstraintPass
-]
+\]
 
 where applicable.
 
----
+______________________________________________________________________
 
-# 20. W09 — State Commit Workflow
+## 20. W09 — State Commit Workflow
 
 ```text
 ADMITTED CANDIDATE
@@ -915,25 +908,23 @@ ADMITTED
 COMMITTED
 ```
 
----
+______________________________________________________________________
 
-# 21. State Commit Equation
+## 21. State Commit Equation
 
-[
-Commit(S_t,\Delta)
-==================
+## \[ Commit(S_t,\\Delta)
 
-\begin{cases}
-S_{t+1}, & CommitConditions=PASS \
+\\begin{cases}
+S\_{t+1}, & CommitConditions=PASS \
 S_t, & otherwise
-\end{cases}
-]
+\\end{cases}
+\]
 
 Failed commit must preserve the last valid committed state.
 
----
+______________________________________________________________________
 
-# 22. W10 — Freshness Revalidation Workflow
+## 22. W10 — Freshness Revalidation Workflow
 
 ```text
 CURRENT STATE
@@ -959,9 +950,9 @@ FRESH?
     REVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 23. W11 — Regime Transition Workflow
+## 23. W11 — Regime Transition Workflow
 
 ```text
 CURRENT REGIME R1
@@ -983,17 +974,17 @@ CREATE NEW REGIME-AWARE EPOCH
 
 Equation:
 
-[
-R_t \neq R_{t+1}
-\Rightarrow
+\[
+R_t \\neq R\_{t+1}
+\\Rightarrow
 Revalidate(D_R)
-]
+\]
 
-where \(D_R\) is the regime-dependent state set.
+where (D_R) is the regime-dependent state set.
 
----
+______________________________________________________________________
 
-# 24. W12 — Conflict Resolution Workflow
+## 24. W12 — Conflict Resolution Workflow
 
 ```text
 CONFLICT DETECTED
@@ -1027,9 +1018,9 @@ UNKNOWN/GAP
 
 No averaging by default.
 
----
+______________________________________________________________________
 
-# 25. W13 — Evidence Independence Workflow
+## 25. W13 — Evidence Independence Workflow
 
 ```text
 EVIDENCE SET
@@ -1057,9 +1048,9 @@ SOURCE COUNT
 INDEPENDENT EVIDENCE COUNT
 ```
 
----
+______________________________________________________________________
 
-# 26. W14 — Decision Grounding Workflow
+## 26. W14 — Decision Grounding Workflow
 
 ```text
 DECISION QUESTION
@@ -1097,9 +1088,9 @@ INSUFFICIENT
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 27. W15 — Action Preparation Workflow
+## 27. W15 — Action Preparation Workflow
 
 ```text
 DECISION
@@ -1131,9 +1122,9 @@ ACTION PROPOSAL
 ACTION
 ```
 
----
+______________________________________________________________________
 
-# 28. W16 — Commit-Time Revalidation Workflow
+## 28. W16 — Commit-Time Revalidation Workflow
 
 Immediately before durable effect:
 
@@ -1163,9 +1154,9 @@ or
 ABORT
 ```
 
----
+______________________________________________________________________
 
-# 29. W17 — Effect Commit Workflow
+## 29. W17 — Effect Commit Workflow
 
 ```text
 COMMITTABLE PROPOSAL
@@ -1196,9 +1187,9 @@ PARTIAL
 UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 30. W18 — Effect Verification Workflow
+## 30. W18 — Effect Verification Workflow
 
 ```text
 ACTION ATTEMPT
@@ -1218,20 +1209,18 @@ CLASSIFY RESULT
 
 Equation:
 
-[
-VerifiedEffect
-==============
+## \[ VerifiedEffect
 
 CommitEvidence
-\land
+\\land
 PostStateObserved
-\land
+\\land
 EffectBindingValid
-]
+\]
 
----
+______________________________________________________________________
 
-# 31. W19 — Outcome Reobservation Workflow
+## 31. W19 — Outcome Reobservation Workflow
 
 ```text
 COMMITTED EFFECT
@@ -1261,9 +1250,9 @@ INTENDED EFFECT
 OBSERVED OUTCOME
 ```
 
----
+______________________________________________________________________
 
-# 32. W20 — Selective Invalidation Workflow
+## 32. W20 — Selective Invalidation Workflow
 
 ```text
 FAILED PREMISE / STATE
@@ -1285,23 +1274,23 @@ SCHEDULE REVALIDATION
 
 Equation:
 
-[
+\[
 Invalid(p)
-\Rightarrow
-Invalidate(Desc_{LB}(p))
-]
+\\Rightarrow
+Invalidate(Desc\_{LB}(p))
+\]
 
 while:
 
-[
+\[
 Independent(x,p)
-\Rightarrow
+\\Rightarrow
 Preserve(x)
-]
+\]
 
----
+______________________________________________________________________
 
-# 33. W21 — Quarantine Workflow
+## 33. W21 — Quarantine Workflow
 
 ```text
 SUSPICIOUS OBJECT
@@ -1321,18 +1310,16 @@ REVALIDATE / REPAIR / REJECT
 
 Quarantine means:
 
-[
-Quarantine(x)
-=============
+## \[ Quarantine(x)
 
 Preserve(x)
-\land
+\\land
 BlockTrustedReuse(x)
-]
+\]
 
----
+______________________________________________________________________
 
-# 34. W22 — Reconciliation Workflow
+## 34. W22 — Reconciliation Workflow
 
 Used when effect or state status is ambiguous.
 
@@ -1365,9 +1352,9 @@ PARTIAL_EFFECT
 STILL_UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 35. W23 — Repair Workflow
+## 35. W23 — Repair Workflow
 
 ```text
 FAILURE DETECTED
@@ -1401,9 +1388,9 @@ SYMPTOM
 CAUSE
 ```
 
----
+______________________________________________________________________
 
-# 36. W24 — Rollback Workflow
+## 36. W24 — Rollback Workflow
 
 ```text
 REPAIR / UPDATE FAILED
@@ -1431,9 +1418,9 @@ ROLLBACK
 TIME REVERSAL
 ```
 
----
+______________________________________________________________________
 
-# 37. W25 — Recovery Workflow
+## 37. W25 — Recovery Workflow
 
 ```text
 FAILED / DEGRADED STATE
@@ -1455,20 +1442,18 @@ MONITOR
 
 Recovery equation:
 
-[
-S_{recovered}
-=============
+## \[ S\_{recovered}
 
-S_{valid}
-\cup
-S_{repaired}
-\cup
+S\_{valid}
+\\cup
+S\_{repaired}
+\\cup
 Revalidated(Dependents)
-]
+\]
 
----
+______________________________________________________________________
 
-# 38. W26 — Replay Workflow
+## 38. W26 — Replay Workflow
 
 ```text
 RUN RECORD
@@ -1492,9 +1477,9 @@ REPORT DIVERGENCE
 
 Replay divergence must remain visible.
 
----
+______________________________________________________________________
 
-# 39. W27 — Adversarial Validation Workflow
+## 39. W27 — Adversarial Validation Workflow
 
 ```text
 PRIMARY CONCLUSION
@@ -1524,9 +1509,9 @@ FALSIFIED
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 40. W28 — Memory Admission Workflow
+## 40. W28 — Memory Admission Workflow
 
 ```text
 CANDIDATE MEMORY
@@ -1560,9 +1545,9 @@ GENERATED OUTPUT
 TRUSTED MEMORY
 ```
 
----
+______________________________________________________________________
 
-# 41. W29 — Memory Revalidation Workflow
+## 41. W29 — Memory Revalidation Workflow
 
 ```text
 RETRIEVED MEMORY
@@ -1586,9 +1571,9 @@ CURRENT ENOUGH?
 
 Retrieval does not refresh evidential age.
 
----
+______________________________________________________________________
 
-# 42. Workflow Inputs
+## 42. Workflow Inputs
 
 ```yaml
 WorkflowInput:
@@ -1632,9 +1617,9 @@ WorkflowInput:
   consequence:
 ```
 
----
+______________________________________________________________________
 
-# 43. Workflow Outputs
+## 43. Workflow Outputs
 
 ```yaml
 WorkflowOutput:
@@ -1676,9 +1661,9 @@ WorkflowOutput:
   conclusion_class:
 ```
 
----
+______________________________________________________________________
 
-# 44. Workflow Variables
+## 44. Workflow Variables
 
 ```text
 W_id        workflow identity
@@ -1718,9 +1703,9 @@ W_U         uncertainty state
 W_G         gap state
 ```
 
----
+______________________________________________________________________
 
-# 45. Workflow Operators
+## 45. Workflow Operators
 
 ```text
 START
@@ -1788,16 +1773,13 @@ REPLAY
 STOP
 ```
 
----
+______________________________________________________________________
 
-# 46. Workflow Transition Tensor
+## 46. Workflow Transition Tensor
 
-[
-\boxed{
-T_{TR}
-======
+## \[ \\boxed{ T\_{TR}
 
-T[
+T\[
 from_state,
 to_state,
 trigger,
@@ -1808,19 +1790,17 @@ authority,
 validation,
 failure_branch,
 rollback
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 47. Workflow Guard
+## 47. Workflow Guard
 
 A transition guard is:
 
-[
-G_{ij}
-======
+## \[ G\_{ij}
 
 f(
 state,
@@ -1830,19 +1810,19 @@ regime,
 authority,
 constraints
 )
-]
+\]
 
 Transition occurs only when:
 
-[
-G_{ij}=PASS
-]
+\[
+G\_{ij}=PASS
+\]
 
 Unknown load-bearing guard state must not silently evaluate to `PASS`.
 
----
+______________________________________________________________________
 
-# 48. Workflow Branching
+## 48. Workflow Branching
 
 Branches must preserve cause and condition.
 
@@ -1864,9 +1844,9 @@ branch:
 
 Every consequential branch should include an `unknown_path`.
 
----
+______________________________________________________________________
 
-# 49. Unknown Branch Invariant
+## 49. Unknown Branch Invariant
 
 ```text
 BOOLEAN WORKFLOW
@@ -1877,15 +1857,15 @@ WHEN INPUTS ARE EPISTEMICALLY UNCERTAIN
 
 For tri-state conditions:
 
-[
+\[
 Condition
-\in
+\\in
 {TRUE,FALSE,UNKNOWN}
-]
+\]
 
----
+______________________________________________________________________
 
-# 50. Workflow Merge
+## 50. Workflow Merge
 
 Branches may rejoin only when:
 
@@ -1911,9 +1891,9 @@ COMMON NEXT STEP
 MERGEABLE STATE
 ```
 
----
+______________________________________________________________________
 
-# 51. Workflow H/M/L
+## 51. Workflow H/M/L
 
 ## H — Governing Workflow
 
@@ -1963,38 +1943,35 @@ single API result
 single state field update
 ```
 
----
+______________________________________________________________________
 
-# 52. H/M/L Propagation Invariant
+## 52. H/M/L Propagation Invariant
 
 A successful L workflow does not imply successful H workflow.
 
-[
+\[
 Success(L)
-\not\Rightarrow
+\\not\\Rightarrow
 Success(H)
-]
+\]
 
 Likewise:
 
-[
+\[
 Failure(L)
-\not\Rightarrow
+\\not\\Rightarrow
 Failure(H)
-]
+\]
 
 unless dependency structure makes the local state globally load-bearing.
 
----
+______________________________________________________________________
 
-# 53. Cross-Scale Workflow Tensor
+## 53. Cross-Scale Workflow Tensor
 
-[
-\boxed{
-T_{HML-W}
-=========
+## \[ \\boxed{ T\_{HML-W}
 
-T[
+T\[
 workflow,
 source_scale,
 target_scale,
@@ -2003,13 +1980,13 @@ dependency_fanout,
 upward_impact,
 downward_constraints,
 validation
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 54. Workflow Dependencies
+## 54. Workflow Dependencies
 
 ```yaml
 dependencies:
@@ -2057,9 +2034,9 @@ dependencies:
 
 Exact neighboring primitive bindings remain source-dependent.
 
----
+______________________________________________________________________
 
-# 55. Agent Roles
+## 55. Agent Roles
 
 Candidate workflow roles:
 
@@ -2115,9 +2092,9 @@ IMPLEMENTED AGENT
 AUTHORIZED AGENT
 ```
 
----
+______________________________________________________________________
 
-# 56. Skill Bindings
+## 56. Skill Bindings
 
 Relevant skill classes include:
 
@@ -2155,9 +2132,9 @@ recovery verification
 
 A workflow invoking a Skill inherits that Skill's scope, dependency, provenance, and validation constraints.
 
----
+______________________________________________________________________
 
-# 57. Protocol Integration
+## 57. Protocol Integration
 
 Workflows exchange typed protocol messages.
 
@@ -2195,9 +2172,9 @@ RecoveryResult
 
 Protocol failure must not silently become workflow success.
 
----
+______________________________________________________________________
 
-# 58. Workflow Provenance
+## 58. Workflow Provenance
 
 Every consequential workflow run should preserve:
 
@@ -2243,16 +2220,13 @@ failures
 repair paths
 ```
 
----
+______________________________________________________________________
 
-# 59. Workflow Provenance Tensor
+## 59. Workflow Provenance Tensor
 
-[
-\boxed{
-T_{WP}
-======
+## \[ \\boxed{ T\_{WP}
 
-T[
+T\[
 workflow,
 run,
 inputs,
@@ -2268,13 +2242,13 @@ transitions,
 effects,
 outputs,
 timestamps
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 60. Workflow Evidence
+## 60. Workflow Evidence
 
 A workflow may consume and produce evidence.
 
@@ -2294,17 +2268,17 @@ POST-EFFECT OBSERVATION
 
 These must not be collapsed.
 
----
+______________________________________________________________________
 
-# 61. Workflow Confidence Ceiling
+## 61. Workflow Confidence Ceiling
 
-For workflow conclusion \(C_W\):
+For workflow conclusion (C_W):
 
-[
-\boxed{
+\[
+\\boxed{
 Conf(C_W)
-\le
-\min(
+\\le
+\\min(
 InputEvidence,
 WorkflowValidity,
 DependencyValidity,
@@ -2314,18 +2288,18 @@ RegimeCompatibility,
 Freshness
 )
 }
-]
+\]
 
 where each term represents its applicable ceiling.
 
----
+______________________________________________________________________
 
-# 62. Workflow Uncertainty Tensor
+## 62. Workflow Uncertainty Tensor
 
-[
-\boxed{
+\[
+\\boxed{
 T_U^W =
-T[
+T\[
 input,
 observation,
 measurement,
@@ -2337,15 +2311,15 @@ temporal,
 execution,
 authority,
 recovery
-]
+\]
 }
-]
+\]
 
 Workflow success must not erase upstream uncertainty.
 
----
+______________________________________________________________________
 
-# 63. Workflow Control Plane
+## 63. Workflow Control Plane
 
 The control plane governs transitions capable of durable effects.
 
@@ -2369,14 +2343,14 @@ COMMIT
 
 Cognitive workers should not directly self-finalize durable effects.
 
----
+______________________________________________________________________
 
-# 64. Workflow Authority Tensor
+## 64. Workflow Authority Tensor
 
-[
-\boxed{
+\[
+\\boxed{
 T_A^W =
-T[
+T\[
 workflow,
 principal,
 operation,
@@ -2387,9 +2361,9 @@ valid_until,
 constraints,
 delegation,
 revocation
-]
+\]
 }
-]
+\]
 
 Hard invariant:
 
@@ -2399,9 +2373,9 @@ WORKFLOW CAN REACH A WRITE STEP
 WORKFLOW IS AUTHORIZED TO WRITE
 ```
 
----
+______________________________________________________________________
 
-# 65. Read-Set Workflow
+## 65. Read-Set Workflow
 
 Before effectful decisions:
 
@@ -2431,9 +2405,9 @@ If material read state changed:
 REVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 66. Write-Set Workflow
+## 66. Write-Set Workflow
 
 ```yaml
 write_set:
@@ -2448,9 +2422,9 @@ write_set:
 
 Write-set existence does not itself authorize mutation.
 
----
+______________________________________________________________________
 
-# 67. Semantic Transaction Workflow
+## 67. Semantic Transaction Workflow
 
 When several workflow steps collectively form one semantic action:
 
@@ -2472,25 +2446,23 @@ COMMIT NONE
 
 if partial execution violates invariants.
 
----
+______________________________________________________________________
 
-# 68. Workflow Atomicity Equation
+## 68. Workflow Atomicity Equation
 
-[
-Commit(W)
-=========
+## \[ Commit(W)
 
-\begin{cases}
+\\begin{cases}
 AllRequiredEffects, & Preconditions=PASS \
 NoSemanticCommit, & otherwise
-\end{cases}
-]
+\\end{cases}
+\]
 
 where atomicity is required.
 
----
+______________________________________________________________________
 
-# 69. Workflow Idempotency
+## 69. Workflow Idempotency
 
 Retryable workflows should distinguish:
 
@@ -2506,7 +2478,7 @@ NEW SEMANTIC EFFECT
 
 Idempotency identity may bind:
 
-[
+\[
 I_K =
 Hash(
 principal,
@@ -2515,13 +2487,13 @@ operation,
 target,
 semantic_effect
 )
-]
+\]
 
 where supported.
 
----
+______________________________________________________________________
 
-# 70. Workflow Crash Recovery
+## 70. Workflow Crash Recovery
 
 ```text
 RUNNING
@@ -2547,14 +2519,14 @@ PROCESS CRASH
 EFFECT FAILURE
 ```
 
----
+______________________________________________________________________
 
-# 71. Workflow Failure Tensor
+## 71. Workflow Failure Tensor
 
-[
-\boxed{
+\[
+\\boxed{
 T_F^W =
-T[
+T\[
 failure_id,
 workflow,
 step,
@@ -2567,13 +2539,13 @@ dependencies,
 effect_ambiguity,
 recoverability,
 provenance
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 72. Failure Classes
+## 72. Failure Classes
 
 ```text
 WORKFLOW_INPUT_FAILURE
@@ -2619,9 +2591,9 @@ RECOVERY_FAILURE
 UNKNOWN_FAILURE
 ```
 
----
+______________________________________________________________________
 
-# 73. Failure Localization
+## 73. Failure Localization
 
 A terminal failure does not prove the terminal step is the root cause.
 
@@ -2639,31 +2611,27 @@ TERMINAL ERROR
 
 The repair target should be the earliest supported load-bearing failure.
 
----
+______________________________________________________________________
 
-# 74. Repair Workflow Principle
+## 74. Repair Workflow Principle
 
-[
-RepairTarget
-============
+## \[ RepairTarget
 
 EarliestSupportedFailure
-]
+\]
 
 rather than:
 
-[
-RepairTarget
-============
+## \[ RepairTarget
 
 LastVisibleError
-]
+\]
 
 when the two differ.
 
----
+______________________________________________________________________
 
-# 75. Workflow Recovery State
+## 75. Workflow Recovery State
 
 ```yaml
 workflow_recovery:
@@ -2691,9 +2659,9 @@ workflow_recovery:
   status:
 ```
 
----
+______________________________________________________________________
 
-# 76. Stop Conditions
+## 76. Stop Conditions
 
 A workflow should stop when:
 
@@ -2721,9 +2689,9 @@ repeated recovery failed
 UNKNOWN/GAP is the correct terminal state
 ```
 
----
+______________________________________________________________________
 
-# 77. No Infinite Retry Invariant
+## 77. No Infinite Retry Invariant
 
 ```text
 REPEATED FAILURE
@@ -2734,9 +2702,9 @@ PROGRESS
 
 Repeated identical repair paths should trigger escalation or termination.
 
----
+______________________________________________________________________
 
-# 78. Workflow Invariants
+## 78. Workflow Invariants
 
 ## WF-I01 — Typed Entry
 
@@ -2818,9 +2786,9 @@ Replay divergence remains visible.
 
 Workflow completion may never override hard invariants.
 
----
+______________________________________________________________________
 
-# 79. Workflow Failure Modes
+## 79. Workflow Failure Modes
 
 ## WF-F01 — Missing Precondition
 
@@ -2902,9 +2870,9 @@ Workflow is treated as validated without execution evidence.
 
 Model workflow is presented as recovered source canon.
 
----
+______________________________________________________________________
 
-# 80. Workflow Repair
+## 80. Workflow Repair
 
 Generic repair:
 
@@ -2928,26 +2896,24 @@ REVALIDATE
 RESUME FROM NEAREST VALID CHECKPOINT
 ```
 
----
+______________________________________________________________________
 
-# 81. Workflow Repair Equation
+## 81. Workflow Repair Equation
 
-[
-Repair(W,f)
-===========
+## \[ Repair(W,f)
 
-Preserve(W_{valid})
-+
-Invalidate(Desc_{LB}(f))
-+
+Preserve(W\_{valid})
+\+
+Invalidate(Desc\_{LB}(f))
+\+
 Repair(f)
-+
+\+
 Revalidate(Affected)
-]
+\]
 
----
+______________________________________________________________________
 
-# 82. Validators
+## 82. Validators
 
 ```text
 VALIDATOR_WF_IDENTITY
@@ -2995,9 +2961,9 @@ VALIDATOR_WF_REPLAY
 VALIDATOR_WF_CONFIDENCE_CEILING
 ```
 
----
+______________________________________________________________________
 
-# 83. Minimum Workflow Tests
+## 83. Minimum Workflow Tests
 
 ```text
 TEST_WF_001
@@ -3061,9 +3027,9 @@ TEST_WF_020
 workflow can terminate at UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 84. Adversarial Workflow Tests
+## 84. Adversarial Workflow Tests
 
 Test workflows against:
 
@@ -3109,9 +3075,9 @@ rollback failure
 recovery failure
 ```
 
----
+______________________________________________________________________
 
-# 85. Workflow Falsifiers
+## 85. Workflow Falsifiers
 
 This workflow architecture fails its purpose if an implementation allows:
 
@@ -3153,9 +3119,9 @@ workflow replay claims without reproducible state
 workflow success without validating required postconditions
 ```
 
----
+______________________________________________________________________
 
-# 86. Gap Matrix
+## 86. Gap Matrix
 
 ```yaml
 gap_status:
@@ -3201,9 +3167,9 @@ gap_status:
     - visualization format
 ```
 
----
+______________________________________________________________________
 
-# 87. Hard Boundaries
+## 87. Hard Boundaries
 
 ```text
 PLACEHOLDER != IMPLEMENTED
@@ -3261,9 +3227,9 @@ REPLAYABLE != REPLAY VERIFIED
 MODEL WORKFLOW != SOURCE CANON
 ```
 
----
+______________________________________________________________________
 
-# 88. AI Application
+## 88. AI Application
 
 For AI systems, L00 workflows provide the orchestration layer preventing an AI from turning internal cognition into pseudo-reality.
 
@@ -3315,9 +3281,9 @@ RETRIEVAL
 
 from being accepted without provenance analysis.
 
----
+______________________________________________________________________
 
-# 89. AI Grounding Workflow
+## 89. AI Grounding Workflow
 
 ```text
 AI REQUEST
@@ -3352,9 +3318,9 @@ UNKNOWN/GAP
 
 or an explicitly labeled model/conditional answer is required.
 
----
+______________________________________________________________________
 
-# 90. AI Hallucination Prevention Workflow
+## 90. AI Hallucination Prevention Workflow
 
 ```text
 CLAIM GENERATED
@@ -3378,17 +3344,17 @@ EVIDENCE PATH EXISTS?
 
 Hard invariant:
 
-[
+\[
 ModelGenerated(x)
-\land
-\neg EvidenceLinked(x)
-\Rightarrow
-x \notin VERIFIED
-]
+\\land
+\\neg EvidenceLinked(x)
+\\Rightarrow
+x \\notin VERIFIED
+\]
 
----
+______________________________________________________________________
 
-# 91. AI Tool Workflow
+## 91. AI Tool Workflow
 
 ```text
 TOOL NEED IDENTIFIED
@@ -3414,9 +3380,9 @@ USE RESULT CONDITIONALLY
 
 Tool output does not automatically become truth.
 
----
+______________________________________________________________________
 
-# 92. AI Multi-Agent Workflow
+## 92. AI Multi-Agent Workflow
 
 ```text
 COORDINATOR
@@ -3446,9 +3412,9 @@ THREE AGENTS READING ONE SOURCE
 THREE INDEPENDENT CONFIRMATIONS
 ```
 
----
+______________________________________________________________________
 
-# 93. AI Memory Workflow
+## 93. AI Memory Workflow
 
 ```text
 AI OUTPUT
@@ -3478,9 +3444,9 @@ REVALIDATE APPLICABILITY
 USE / REFRESH / QUARANTINE
 ```
 
----
+______________________________________________________________________
 
-# 94. AI Prediction Workflow
+## 94. AI Prediction Workflow
 
 ```text
 CURRENT L00 STATE
@@ -3504,9 +3470,9 @@ UPDATE MODEL / RSCF
 
 Prediction must never overwrite the pre-outcome state as observation.
 
----
+______________________________________________________________________
 
-# 95. AI Action Workflow
+## 95. AI Action Workflow
 
 For consequential effects:
 
@@ -3534,9 +3500,9 @@ OBSERVE RESULT
 
 The cognitive model is never the final authority solely because it produced the proposal.
 
----
+______________________________________________________________________
 
-# 96. Workflow RSCF Capsule
+## 96. Workflow RSCF Capsule
 
 ```yaml
 rscf:
@@ -3633,131 +3599,125 @@ rscf:
     remain unresolved
 ```
 
----
+______________________________________________________________________
 
-# 97. Canonical Workflow Equations
+## 97. Canonical Workflow Equations
 
 ### Transition law
 
-[
-\boxed{
+\[
+\\boxed{
 Transition(i,j)
-\Rightarrow
+\\Rightarrow
 Preconditions(j)=PASS
 }
-]
+\]
 
 ### Grounding law
 
-[
-\boxed{
-GroundedWorkflow
-================
+## \[ \\boxed{ GroundedWorkflow
 
 Observation
-\land
+\\land
 EpistemicTyping
-\land
+\\land
 Provenance
-\land
+\\land
 Scope
-\land
+\\land
 Regime
-\land
+\\land
 Freshness
 }
-]
+\]
 
 ### Admission law
 
-[
-\boxed{
+\[
+\\boxed{
 Admit
-\Rightarrow
+\\Rightarrow
 ValidationPass
 }
-]
+\]
 
 ### Authority law
 
-[
-\boxed{
+\[
+\\boxed{
 Capability
-\neq
+\\neq
 Authority
 }
-]
+\]
 
 ### Proposal law
 
-[
-\boxed{
+\[
+\\boxed{
 Proposal
-\neq
+\\neq
 Commit
 }
-]
+\]
 
 ### Effect law
 
-[
-\boxed{
+\[
+\\boxed{
 ActionAttempt
-\neq
+\\neq
 VerifiedEffect
 }
-]
+\]
 
 ### Freshness law
 
-[
-\boxed{
+\[
+\\boxed{
 ValidAtRead
-\not\Rightarrow
+\\not\\Rightarrow
 ValidAtCommit
 }
-]
+\]
 
 when mutable state can change.
 
 ### Invalidation law
 
-[
-\boxed{
+\[
+\\boxed{
 Invalid(p)
-\Rightarrow
-Invalidate(Desc_{LB}(p))
+\\Rightarrow
+Invalidate(Desc\_{LB}(p))
 }
-]
+\]
 
 ### Recovery law
 
-[
-\boxed{
-Recovery
-========
+## \[ \\boxed{ Recovery
 
 Repair
-\land
+\\land
 Reobservation
-\land
+\\land
 Revalidation
 }
-]
+\]
 
 ### Unknown law
 
-[
-\boxed{
+\[
+\\boxed{
 CriticalUnknown
-\Rightarrow
+\\Rightarrow
 UNKNOWN/GAP
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 98. Completion State
+## 98. Completion State
 
 ```yaml
 completion_state:
@@ -3831,9 +3791,9 @@ completion_state:
     MODEL / CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
-# 99. Final Workflow Contract
+## 99. Final Workflow Contract
 
 `L00_REALITY_ENVIRONMENT/WORKFLOWS.md` governs **how reality-sensitive state moves through AMOS**.
 
@@ -3883,39 +3843,39 @@ PASS
 
 The governing L00 workflow law is therefore:
 
-[
-\boxed{
+\[
+\\boxed{
 RealityContact
-\rightarrow
+\\rightarrow
 TypedObservation
-\rightarrow
+\\rightarrow
 Provenance
-\rightarrow
+\\rightarrow
 ValidatedState
-\rightarrow
+\\rightarrow
 BoundedReasoning
-\rightarrow
+\\rightarrow
 GovernedProposal
-\rightarrow
+\\rightarrow
 AuthorizedCommit
-\rightarrow
+\\rightarrow
 ObservedOutcome
 }
-]
+\]
 
 with:
 
-[
-\boxed{
+\[
+\\boxed{
 Failure
-\rightarrow
+\\rightarrow
 SelectiveInvalidation
-\rightarrow
+\\rightarrow
 Repair
-\rightarrow
+\\rightarrow
 Revalidation
 }
-]
+\]
 
 and whenever the required grounding, authority, compatibility, or evidence is unavailable:
 
@@ -3931,29 +3891,33 @@ Until authoritative direct L00 workflow canon, executable workflow runtime, and 
 MODEL / CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · L00_REALITY_ENVIRONMENT — HML · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · L00_REALITY_ENVIRONMENT — RSCF · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[00_ROOT/00_HOME|00_HOME]] · 06-Knowledge-Base-MOC
 
 ```
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: l00_reality_environment_primitives_cognitive_matrix_workflows
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_WORKFLOWS.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_MOC|L00_REALITY_ENVIRONMENT_MOC]]

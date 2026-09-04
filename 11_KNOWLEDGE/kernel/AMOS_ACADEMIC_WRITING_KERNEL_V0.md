@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: AMOS_ACADEMIC_WRITING_KERNEL_V0
 tags:
-- knowledge
-- kernel
-- academic
-- writing
-- system-scan-agent
-- automation-profiles
-- amos-simulation-kernel-v0-math-foundations
+  - knowledge
+  - kernel
+  - academic
+  - writing
+  - system-scan-agent
+  - automation-profiles
+  - amos-simulation-kernel-v0-math-foundations
 type: note
 source: 11_KNOWLEDGE/kernel
 rscf:
@@ -21,7 +24,7 @@ rscf:
 
 ## Full Canonical Expansion · Source-Grounded · RSCF-Aware · Obsidian-Ready
 
-> [!abstract] Canonical conclusion
+> [!ABSTRACT] Canonical conclusion
 > **AMOS ACADEMIC WRITING KERNEL V0** is a source-defined academic-writing governance/configuration artifact within `11_KNOWLEDGE/kernel`. It specifies document axes, structural templates, a ten-step reasoning pipeline, citation constraints, quality controls, output modes, and routing rules for academic composition.
 >
 > The strongest supported classification is **SOURCE_CLAIM → AMOS_MODEL / framework specification**.
@@ -30,9 +33,9 @@ rscf:
 >
 > Its strongest integrity property is the explicit prohibition on fabricated sources and DOIs. Its most important unresolved weakness is that the citation policy says real citations require user-supplied metadata; this is safe against fabrication but underspecified for environments where authoritative bibliographic retrieval is available.
 
----
+______________________________________________________________________
 
-# 1. Normalized Source Frontmatter
+## 1. Normalized Source Frontmatter
 
 The following preserves the supplied frontmatter fields and values. Escaping introduced by transport/rendering has been removed; no additional metadata is inserted into this source block.
 
@@ -57,9 +60,9 @@ rscf:
 ---
 ```
 
----
+______________________________________________________________________
 
-# 2. Source/Derived Boundary
+## 2. Source/Derived Boundary
 
 | Property                          | Status                                                      |
 | --------------------------------- | ----------------------------------------------------------- |
@@ -81,9 +84,9 @@ rscf:
 | Production readiness              | **UNKNOWN/GAP**                                             |
 | External academic validity        | **UNKNOWN/GAP**                                             |
 
----
+______________________________________________________________________
 
-# 3. Raw Source Object
+## 3. Raw Source Object
 
 The principal source payload is structurally interpretable as:
 
@@ -213,9 +216,9 @@ The principal source payload is structurally interpretable as:
 }
 ```
 
----
+______________________________________________________________________
 
-# 4. Source Formatting Observation
+## 4. Source Formatting Observation
 
 There is a Markdown-boundary issue in the supplied representation.
 
@@ -244,7 +247,8 @@ rather than:
 ```json
 { ... }
 ````
----
+
+______________________________________________________________________
 
 **Related:** ...
 
@@ -260,7 +264,7 @@ That repair is **DERIVED formatting normalization**, not a change to the JSON se
 
 ---
 
-# 5. Artifact Identity
+## 5. Artifact Identity
 
 Canonical source identity:
 
@@ -304,9 +308,9 @@ V0
 
 Do not fabricate a version mapping.
 
----
+______________________________________________________________________
 
-# 6. Authorship Attribution
+## 6. Authorship Attribution
 
 Source:
 
@@ -322,9 +326,9 @@ This remains a corpus/source attribution.
 
 It should not be transformed into claims about independent academic validation, software implementation, or external institutional authorship.
 
----
+______________________________________________________________________
 
-# 7. Core Purpose
+## 7. Core Purpose
 
 The source describes the engine as:
 
@@ -351,9 +355,9 @@ subject to source-defined governance constraints.
 
 This equation is **DERIVED**, not supplied source code.
 
----
+______________________________________________________________________
 
-# 8. Determinism Claim
+## 8. Determinism Claim
 
 The word:
 
@@ -405,9 +409,9 @@ under a precisely defined runtime.
 
 The source does not provide such a contract.
 
----
+______________________________________________________________________
 
-# 9. Deterministic Structure vs Deterministic Generation
+## 9. Deterministic Structure vs Deterministic Generation
 
 A crucial distinction:
 
@@ -432,9 +436,9 @@ These are not equivalent.
 
 The source supports a **preference for deterministic structural governance** more strongly than it establishes deterministic text generation.
 
----
+______________________________________________________________________
 
-# 10. “No Narrative Drift”
+## 10. “No Narrative Drift”
 
 This is a source objective.
 
@@ -450,9 +454,9 @@ A safe interpretation is:
 
 > Outputs should remain aligned with the document objective, argument structure, evidence, and academic register.
 
----
+______________________________________________________________________
 
-# 11. Narrative Drift Requires an Operational Definition
+## 11. Narrative Drift Requires an Operational Definition
 
 No source formula defines drift.
 
@@ -479,19 +483,19 @@ where:
 
 This is an augmentation, not original canon.
 
----
+______________________________________________________________________
 
-# 12. Primary Architecture
+## 12. Primary Architecture
 
 The source has seven major configuration modules:
 
 1. Language
-2. Axes
-3. Structures
-4. Reasoning Pipeline
-5. Citation Policy
-6. Quality Controls
-7. Output Modes + Routing
+1. Axes
+1. Structures
+1. Reasoning Pipeline
+1. Citation Policy
+1. Quality Controls
+1. Output Modes + Routing
 
 Conceptually:
 
@@ -506,9 +510,9 @@ Academic Writing Kernel
 └── Output Router
 ```
 
----
+______________________________________________________________________
 
-# 13. Language Module
+## 13. Language Module
 
 Source:
 
@@ -536,9 +540,9 @@ Academic Kernel default = English
 Global language precedence = UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 14. Style Rule — Precise
+## 14. Style Rule — Precise
 
 Source requires:
 
@@ -563,9 +567,9 @@ $$
 Precision \neq Certainty
 $$
 
----
+______________________________________________________________________
 
-# 15. Style Rule — Neutral
+## 15. Style Rule — Neutral
 
 Source requires:
 
@@ -589,9 +593,9 @@ $$
 NeutralTone \neq EqualEvidenceWeight
 $$
 
----
+______________________________________________________________________
 
-# 16. Style Rule — Evidence-Based
+## 16. Style Rule — Evidence-Based
 
 Source:
 
@@ -616,9 +620,9 @@ UNKNOWN
 
 The source itself does not explicitly introduce those categories inside this kernel, but they are compatible with its RSCF context.
 
----
+______________________________________________________________________
 
-# 17. No Metaphor Unless Requested
+## 17. No Metaphor Unless Requested
 
 Source:
 
@@ -638,9 +642,9 @@ metaphor_allowed =
     false otherwise
 ```
 
----
+______________________________________________________________________
 
-# 18. No Rhetorical Flourish
+## 18. No Rhetorical Flourish
 
 Source:
 
@@ -657,9 +661,9 @@ It should not be interpreted as prohibiting:
 - disciplined emphasis;
 - appropriate disciplinary conventions.
 
----
+______________________________________________________________________
 
-# 19. No Conversational Tone
+## 19. No Conversational Tone
 
 Source:
 
@@ -679,9 +683,9 @@ $$
 
 unless explicitly bound.
 
----
+______________________________________________________________________
 
-# 20. Axis Architecture
+## 20. Axis Architecture
 
 The kernel defines four configuration axes:
 
@@ -692,16 +696,16 @@ $$
 
 where:
 
-- \(D\) = document type;
-- \(S\) = discipline;
-- \(E\) = evidence requirement;
-- \(R\) = rigor level.
+- (D) = document type;
+- (S) = discipline;
+- (E) = evidence requirement;
+- (R) = rigor level.
 
 This Cartesian-product interpretation is **DERIVED** from the source's parallel axis lists.
 
----
+______________________________________________________________________
 
-# 21. Document-Type Axis
+## 21. Document-Type Axis
 
 The source defines eight document types:
 
@@ -722,9 +726,9 @@ $$
 |D|=8
 $$
 
----
+______________________________________________________________________
 
-# 22. Research Paper
+## 22. Research Paper
 
 Source-supported category:
 
@@ -742,9 +746,9 @@ research_paper => IMRaD
 
 That mapping would be an inference.
 
----
+______________________________________________________________________
 
-# 23. Thesis
+## 23. Thesis
 
 Source-supported category:
 
@@ -766,9 +770,9 @@ Missing possibilities include:
 
 Therefore thesis support is declared at the type level but not exhaustively structurally specified.
 
----
+______________________________________________________________________
 
-# 24. Literature Review
+## 24. Literature Review
 
 Source-supported:
 
@@ -789,9 +793,9 @@ Missing details include:
 
 Do not silently treat a literature review as a systematic review.
 
----
+______________________________________________________________________
 
-# 25. Systematic Review
+## 25. Systematic Review
 
 Source-supported:
 
@@ -820,9 +824,9 @@ Systematic review support = SOURCE_CLAIM
 Protocol completeness = UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 26. Methods Paper
+## 26. Methods Paper
 
 Source:
 
@@ -834,9 +838,9 @@ No methods-paper-specific evaluation criteria are supplied.
 
 Potential requirements depend heavily on discipline.
 
----
+______________________________________________________________________
 
-# 27. Theoretical Paper
+## 27. Theoretical Paper
 
 Source:
 
@@ -848,9 +852,9 @@ This is important because IMRaD may be inappropriate.
 
 The existence of this category itself demonstrates that the kernel cannot safely assume IMRaD universally.
 
----
+______________________________________________________________________
 
-# 28. Policy Brief
+## 28. Policy Brief
 
 Source:
 
@@ -864,9 +868,9 @@ No explicit policy-brief template is supplied.
 
 Therefore the routing engine must either derive one or rely on missing external configuration.
 
----
+______________________________________________________________________
 
-# 29. Academic Essay
+## 29. Academic Essay
 
 Source:
 
@@ -878,9 +882,9 @@ No dedicated argumentative essay structure is supplied.
 
 Thus the generic structure may be used, but that mapping is not explicitly stated.
 
----
+______________________________________________________________________
 
-# 30. Discipline Axis
+## 30. Discipline Axis
 
 Eight discipline categories are supplied:
 
@@ -901,9 +905,9 @@ $$
 |S|=8
 $$
 
----
+______________________________________________________________________
 
-# 31. Science
+## 31. Science
 
 `science` is broad.
 
@@ -918,17 +922,17 @@ No distinction exists between:
 
 Thus discipline resolution remains coarse-grained.
 
----
+______________________________________________________________________
 
-# 32. Engineering
+## 32. Engineering
 
 `engineering` is likewise broad.
 
 No subdomain taxonomy is supplied.
 
----
+______________________________________________________________________
 
-# 33. Medicine
+## 33. Medicine
 
 `medicine` is explicitly supported.
 
@@ -944,9 +948,9 @@ None are specified.
 
 Therefore the source supports writing classification, not independent medical validation.
 
----
+______________________________________________________________________
 
-# 34. Computing
+## 34. Computing
 
 `computing` is explicitly supported.
 
@@ -961,9 +965,9 @@ No distinction exists among:
 - networking;
 - computational science.
 
----
+______________________________________________________________________
 
-# 35. Social Science
+## 35. Social Science
 
 Source:
 
@@ -975,9 +979,9 @@ No qualitative/quantitative/mixed-method distinction is supplied.
 
 This is a meaningful gap because evidence and structure differ materially across methodologies.
 
----
+______________________________________________________________________
 
-# 36. Economics
+## 36. Economics
 
 Economics receives its own discipline label.
 
@@ -990,9 +994,9 @@ The source does not specify:
 - microeconomics;
 - policy economics.
 
----
+______________________________________________________________________
 
-# 37. Humanities
+## 37. Humanities
 
 Humanities is explicitly supported.
 
@@ -1000,9 +1004,9 @@ This creates a strong constraint against universal IMRaD routing.
 
 Many humanities papers are argument-driven rather than methods/results-driven.
 
----
+______________________________________________________________________
 
-# 38. Interdisciplinary
+## 38. Interdisciplinary
 
 Source:
 
@@ -1028,9 +1032,9 @@ may create different:
 
 The artifact identifies interdisciplinary work but does not specify its composition law.
 
----
+______________________________________________________________________
 
-# 39. Evidence Requirement Axis
+## 39. Evidence Requirement Axis
 
 Three levels:
 
@@ -1046,9 +1050,9 @@ $$
 |E|=3
 $$
 
----
+______________________________________________________________________
 
-# 40. High Formal Evidence
+## 40. High Formal Evidence
 
 The phrase is source-defined but not formally operationalized.
 
@@ -1062,9 +1066,9 @@ Missing:
 - primary-vs-secondary source weighting;
 - confidence calibration.
 
----
+______________________________________________________________________
 
-# 41. Moderate Evidence
+## 41. Moderate Evidence
 
 Likewise undefined quantitatively.
 
@@ -1080,9 +1084,9 @@ from:
 moderate_evidence
 ```
 
----
+______________________________________________________________________
 
-# 42. Conceptual Argumentation
+## 42. Conceptual Argumentation
 
 This mode permits argumentation that may rely less heavily on empirical evidence.
 
@@ -1094,9 +1098,9 @@ $$
 
 A conceptual paper still requires valid premises and disciplined reasoning.
 
----
+______________________________________________________________________
 
-# 43. Evidence Levels Are Not Conclusion Classes
+## 43. Evidence Levels Are Not Conclusion Classes
 
 Do not conflate:
 
@@ -1123,9 +1127,9 @@ The second is an epistemic conclusion taxonomy.
 
 They operate at different semantic levels.
 
----
+______________________________________________________________________
 
-# 44. Rigor Axis
+## 44. Rigor Axis
 
 Source levels:
 
@@ -1143,9 +1147,9 @@ $$
 |R|=5
 $$
 
----
+______________________________________________________________________
 
-# 45. Rigor Is Ordered by Source Wording
+## 45. Rigor Is Ordered by Source Wording
 
 The routing policy says:
 
@@ -1171,9 +1175,9 @@ $$
 
 However, the source does not define the dimensions on which this order is measured.
 
----
+______________________________________________________________________
 
-# 46. Rigor Is Not Person Ranking
+## 46. Rigor Is Not Person Ranking
 
 The rigor labels should govern output requirements.
 
@@ -1185,9 +1189,9 @@ $$
 RequestedRigor \neq UserIdentity
 $$
 
----
+______________________________________________________________________
 
-# 47. Possible Rigor Dimensions
+## 47. Possible Rigor Dimensions
 
 **PROPOSED**, not source-defined:
 
@@ -1206,9 +1210,9 @@ $$
 
 This would make the rigor axis operationally useful without treating it as personal ranking.
 
----
+______________________________________________________________________
 
-# 48. Configuration-Space Size
+## 48. Configuration-Space Size
 
 If every axis can combine independently:
 
@@ -1222,9 +1226,9 @@ This count is **DERIVED**.
 
 It does not prove all 960 combinations are semantically valid.
 
----
+______________________________________________________________________
 
-# 49. Compatibility Problem
+## 49. Compatibility Problem
 
 Some combinations may require specialized treatment.
 
@@ -1247,9 +1251,9 @@ $$
 
 A compatibility validator is not supplied.
 
----
+______________________________________________________________________
 
-# 50. Structural Templates
+## 50. Structural Templates
 
 Two source structures exist:
 
@@ -1258,9 +1262,9 @@ IMRaD
 Academic_Generic
 ```
 
----
+______________________________________________________________________
 
-# 51. IMRaD
+## 51. IMRaD
 
 Source:
 
@@ -1279,9 +1283,9 @@ $$
 
 The source gives ordering but not subsection requirements.
 
----
+______________________________________________________________________
 
-# 52. IMRaD Applicability
+## 52. IMRaD Applicability
 
 IMRaD is commonly suitable for some empirical work, but the source does not state its routing conditions.
 
@@ -1299,21 +1303,21 @@ IMRaD applies to document X
 
 requires routing logic not supplied.
 
----
+______________________________________________________________________
 
-# 53. Academic Generic Structure
+## 53. Academic Generic Structure
 
 Source:
 
 1. Abstract
-2. Introduction
-3. Background / Literature
-4. Methods / Approach
-5. Findings / Analysis
-6. Discussion
-7. Implications
-8. Limitations
-9. Conclusion
+1. Introduction
+1. Background / Literature
+1. Methods / Approach
+1. Findings / Analysis
+1. Discussion
+1. Implications
+1. Limitations
+1. Conclusion
 
 Thus:
 
@@ -1321,9 +1325,9 @@ $$
 |AcademicGeneric|=9
 $$
 
----
+______________________________________________________________________
 
-# 54. Generic Structure Is Broad but Not Universal
+## 54. Generic Structure Is Broad but Not Universal
 
 The word `Academic_Generic` suggests a general template.
 
@@ -1338,9 +1342,9 @@ Findings / Analysis
 
 as separately labeled sections.
 
----
+______________________________________________________________________
 
-# 55. Structure Selection Function
+## 55. Structure Selection Function
 
 A useful derived abstraction is:
 
@@ -1355,11 +1359,11 @@ UserGoal
 )
 $$
 
-The source implies such routing but does not provide \(F\).
+The source implies such routing but does not provide (F).
 
----
+______________________________________________________________________
 
-# 56. User Goal Is Outside the Declared Axes
+## 56. User Goal Is Outside the Declared Axes
 
 The reasoning pipeline explicitly includes:
 
@@ -1376,13 +1380,13 @@ Config =
 (D,S,E,R,G)
 $$
 
-where \(G\) = user goal.
+where (G) = user goal.
 
 This is an important structural observation.
 
----
+______________________________________________________________________
 
-# 57. Ten-Step Reasoning Pipeline
+## 57. Ten-Step Reasoning Pipeline
 
 Source sequence:
 
@@ -1399,9 +1403,9 @@ Source sequence:
 10. Produce optional variants.
 ```
 
----
+______________________________________________________________________
 
-# 58. Pipeline Step 1 — Classification
+## 58. Pipeline Step 1 — Classification
 
 Inputs identified:
 
@@ -1421,9 +1425,9 @@ even though evidence requirement is a declared axis.
 
 This is a genuine internal gap.
 
----
+______________________________________________________________________
 
-# 59. Axis/Pipeline Mismatch
+## 59. Axis/Pipeline Mismatch
 
 Axes declare:
 
@@ -1456,9 +1460,9 @@ No discriminating evidence is supplied.
 
 **Conclusion: UNKNOWN/GAP.**
 
----
+______________________________________________________________________
 
-# 60. Pipeline Step 2 — User Goal
+## 60. Pipeline Step 2 — User Goal
 
 The kernel asks:
 
@@ -1477,9 +1481,9 @@ Potential source-compatible goal dimensions include:
 
 But only output modes make some of these explicit.
 
----
+______________________________________________________________________
 
-# 61. Pipeline Step 3 — Structure Mapping
+## 61. Pipeline Step 3 — Structure Mapping
 
 The source says:
 
@@ -1492,15 +1496,15 @@ Yet only two structural templates are defined.
 This implies either:
 
 1. all documents route to one of the two;
-2. the templates are examples;
-3. the kernel constructs new structures dynamically;
-4. external templates exist.
+1. the templates are examples;
+1. the kernel constructs new structures dynamically;
+1. external templates exist.
 
 All remain possible.
 
----
+______________________________________________________________________
 
-# 62. Pipeline Step 4 — Concept and Argument Extraction
+## 62. Pipeline Step 4 — Concept and Argument Extraction
 
 Source:
 
@@ -1519,9 +1523,9 @@ $$
 
 but this is augmentation.
 
----
+______________________________________________________________________
 
-# 63. Pipeline Step 5 — Hierarchical MECE Outline
+## 63. Pipeline Step 5 — Hierarchical MECE Outline
 
 Source explicitly requires:
 
@@ -1540,9 +1544,9 @@ But the artifact itself does not spell out the acronym.
 
 Within AMOS-style use, it functions as a structural decomposition preference.
 
----
+______________________________________________________________________
 
-# 64. MECE as Heuristic
+## 64. MECE as Heuristic
 
 MECE is useful for partitioning some problem spaces.
 
@@ -1564,9 +1568,9 @@ The safe interpretation is:
 
 > minimize unnecessary overlap while seeking sufficient coverage where the subject permits it.
 
----
+______________________________________________________________________
 
-# 65. MECE Failure Condition
+## 65. MECE Failure Condition
 
 A rigid MECE decomposition could distort domains where overlap is substantive.
 
@@ -1588,9 +1592,9 @@ merely to satisfy presentation structure.
 
 This is a **DERIVED integrity constraint**.
 
----
+______________________________________________________________________
 
-# 66. Pipeline Step 6 — Evidence and Logic
+## 66. Pipeline Step 6 — Evidence and Logic
 
 Source:
 
@@ -1608,9 +1612,9 @@ $$
 
 unless the claim is explicitly labeled as inference/model/hypothesis.
 
----
+______________________________________________________________________
 
-# 67. Evidence Must Remain Typed
+## 67. Evidence Must Remain Typed
 
 Academic prose should distinguish:
 
@@ -1627,9 +1631,9 @@ unknown
 
 Otherwise fluent synthesis can silently promote epistemic status.
 
----
+______________________________________________________________________
 
-# 68. Pipeline Step 7 — Academic Tone
+## 68. Pipeline Step 7 — Academic Tone
 
 Source:
 
@@ -1667,9 +1671,9 @@ $$
 CitationDependency
 $$
 
----
+______________________________________________________________________
 
-# 69. Academic Tone Cannot Upgrade Evidence
+## 69. Academic Tone Cannot Upgrade Evidence
 
 A polished sentence can still be weakly supported.
 
@@ -1685,9 +1689,9 @@ $$
 Fluency \neq Evidence
 $$
 
----
+______________________________________________________________________
 
-# 70. Pipeline Step 8 — Limitations and Assumptions
+## 70. Pipeline Step 8 — Limitations and Assumptions
 
 This is one of the strongest source-defined integrity controls.
 
@@ -1699,9 +1703,9 @@ Add limitations and assumptions.
 
 That helps expose applicability boundaries.
 
----
+______________________________________________________________________
 
-# 71. Limitation Placement
+## 71. Limitation Placement
 
 The generic template includes a dedicated:
 
@@ -1717,9 +1721,9 @@ Therefore limitations can conceptually be required even when the selected struct
 
 This is a reasonable **DERIVED** interpretation.
 
----
+______________________________________________________________________
 
-# 72. Pipeline Step 9 — Final Text
+## 72. Pipeline Step 9 — Final Text
 
 Source:
 
@@ -1740,9 +1744,9 @@ This should occur only after:
 
 Thus the source architecture strongly favors **structure-before-prose**.
 
----
+______________________________________________________________________
 
-# 73. Pipeline Step 10 — Optional Variants
+## 73. Pipeline Step 10 — Optional Variants
 
 Source:
 
@@ -1754,9 +1758,9 @@ Variants are not mandatory.
 
 Possible variants correspond to output modes, but exact mapping is not specified.
 
----
+______________________________________________________________________
 
-# 74. Pipeline Formalization
+## 74. Pipeline Formalization
 
 A derived functional representation:
 
@@ -1806,38 +1810,38 @@ $$
 
 This formalization is **DERIVED**, not literal source implementation.
 
----
+______________________________________________________________________
 
-# 75. Citation Policy
+## 75. Citation Policy
 
 Source rules:
 
 1. No fabricated sources or DOIs.
-2. Use user-provided references faithfully.
-3. If no references are provided, cite conceptually without fake metadata.
-4. Require user-supplied metadata for real citations.
+1. Use user-provided references faithfully.
+1. If no references are provided, cite conceptually without fake metadata.
+1. Require user-supplied metadata for real citations.
 
 This is a high-value anti-fabrication boundary.
 
----
+______________________________________________________________________
 
-# 76. Citation Invariant 1
+## 76. Citation Invariant 1
 
 $$
 FabricatedCitation = FORBIDDEN
 $$
 
----
+______________________________________________________________________
 
-# 77. Citation Invariant 2
+## 77. Citation Invariant 2
 
 $$
 FabricatedDOI = FORBIDDEN
 $$
 
----
+______________________________________________________________________
 
-# 78. Citation Invariant 3
+## 78. Citation Invariant 3
 
 User-supplied references should be represented faithfully.
 
@@ -1859,9 +1863,9 @@ must not silently alter:
 - URL;
 - publication venue.
 
----
+______________________________________________________________________
 
-# 79. Faithful Citation Does Not Mean Valid Citation
+## 79. Faithful Citation Does Not Mean Valid Citation
 
 A user can provide incorrect metadata.
 
@@ -1873,9 +1877,9 @@ $$
 
 The source says use references faithfully; it does not say treat all supplied metadata as verified truth.
 
----
+______________________________________________________________________
 
-# 80. Conceptual Citation
+## 80. Conceptual Citation
 
 Source says:
 
@@ -1899,9 +1903,9 @@ Smith et al. (2024)
 
 when no real source is available.
 
----
+______________________________________________________________________
 
-# 81. Conceptual Citation Is Not a Formal Citation
+## 81. Conceptual Citation Is Not a Formal Citation
 
 Therefore:
 
@@ -1911,9 +1915,9 @@ $$
 
 and should not be represented as one.
 
----
+______________________________________________________________________
 
-# 82. Real Citation Metadata Rule
+## 82. Real Citation Metadata Rule
 
 Source:
 
@@ -1936,9 +1940,9 @@ External verified bibliographic retrieval
 
 within this artifact alone.
 
----
+______________________________________________________________________
 
-# 83. Citation Policy — Conservative Reading
+## 83. Citation Policy — Conservative Reading
 
 The strict source reading is:
 
@@ -1952,9 +1956,9 @@ But a broader AMOS runtime may have a separate evidence/retrieval authority laye
 
 No precedence rule is supplied here.
 
----
+______________________________________________________________________
 
-# 84. Citation Policy — Integrity-Preserving Extension
+## 84. Citation Policy — Integrity-Preserving Extension
 
 **PROPOSED**, not source canon:
 
@@ -1970,9 +1974,9 @@ with provenance retained.
 
 This would preserve the anti-fabrication intent while permitting validated research workflows.
 
----
+______________________________________________________________________
 
-# 85. Citation Provenance
+## 85. Citation Provenance
 
 Every real citation ideally carries:
 
@@ -1987,9 +1991,9 @@ scope
 
 This is proposed RSCF hardening.
 
----
+______________________________________________________________________
 
-# 86. Citation Independence
+## 86. Citation Independence
 
 Multiple papers are not automatically independent evidence.
 
@@ -2013,9 +2017,9 @@ $$
 CitationCount \neq IndependentEvidenceCount
 $$
 
----
+______________________________________________________________________
 
-# 87. Citation Popularity Firewall
+## 87. Citation Popularity Firewall
 
 Likewise:
 
@@ -2025,9 +2029,9 @@ $$
 
 Citation frequency may matter contextually but is not itself proof.
 
----
+______________________________________________________________________
 
-# 88. Authority Firewall
+## 88. Authority Firewall
 
 $$
 PrestigiousVenue \neq AutomaticTruth
@@ -2035,9 +2039,9 @@ $$
 
 Authority can inform trust but cannot replace evidence evaluation.
 
----
+______________________________________________________________________
 
-# 89. DOI Firewall
+## 89. DOI Firewall
 
 $$
 ValidDOI \neq ValidClaim
@@ -2045,21 +2049,21 @@ $$
 
 A DOI establishes identifier resolution, not truth of every statement in the paper.
 
----
+______________________________________________________________________
 
-# 90. Quality Controls
+## 90. Quality Controls
 
 Source checks:
 
 1. Clarity, coherence, logical sequence.
-2. MECE structure.
-3. Scientific neutrality.
-4. Evidence-level compliance.
-5. Explicit limitations and assumptions.
+1. MECE structure.
+1. Scientific neutrality.
+1. Evidence-level compliance.
+1. Explicit limitations and assumptions.
 
----
+______________________________________________________________________
 
-# 91. Quality Control 1 — Clarity
+## 91. Quality Control 1 — Clarity
 
 A text can be clear but wrong.
 
@@ -2071,9 +2075,9 @@ $$
 
 Clarity is necessary for interpretability, not sufficient for validity.
 
----
+______________________________________________________________________
 
-# 92. Quality Control 1 — Coherence
+## 92. Quality Control 1 — Coherence
 
 Likewise:
 
@@ -2083,9 +2087,9 @@ $$
 
 A false theory can be internally coherent.
 
----
+______________________________________________________________________
 
-# 93. Quality Control 1 — Logical Sequence
+## 93. Quality Control 1 — Logical Sequence
 
 Logical sequence concerns argument progression.
 
@@ -2098,15 +2102,15 @@ ValidInference + FalsePremise
 \not\Rightarrow TrueConclusion
 $$
 
----
+______________________________________________________________________
 
-# 94. Quality Control 2 — MECE
+## 94. Quality Control 2 — MECE
 
 MECE should be treated as a structural quality criterion rather than empirical proof.
 
----
+______________________________________________________________________
 
-# 95. Quality Control 3 — Scientific Neutrality
+## 95. Quality Control 3 — Scientific Neutrality
 
 The term is source-defined.
 
@@ -2121,9 +2125,9 @@ Potential dimensions include:
 
 These are **DERIVED** interpretations.
 
----
+______________________________________________________________________
 
-# 96. Neutrality and False Balance
+## 96. Neutrality and False Balance
 
 Scientific neutrality should not imply:
 
@@ -2141,9 +2145,9 @@ H1 has stronger evidence than H2.
 
 without advocacy.
 
----
+______________________________________________________________________
 
-# 97. Quality Control 4 — Evidence-Level Compliance
+## 97. Quality Control 4 — Evidence-Level Compliance
 
 This presumably connects to:
 
@@ -2157,9 +2161,9 @@ But no compliance test is supplied.
 
 Therefore the check exists at policy level but lacks operational criteria.
 
----
+______________________________________________________________________
 
-# 98. Quality Control 5 — Limitations
+## 98. Quality Control 5 — Limitations
 
 Source explicitly requires:
 
@@ -2181,17 +2185,17 @@ $$
 
 for nontrivial academic claims.
 
----
+______________________________________________________________________
 
-# 99. Missing Quality Control — Citation Verification
+## 99. Missing Quality Control — Citation Verification
 
 Citation policy exists, but citation verification is not explicitly included in `quality_controls.checks`.
 
 This is a structural omission.
 
----
+______________________________________________________________________
 
-# 100. Missing Quality Control — Claim/Citation Entailment
+## 100. Missing Quality Control — Claim/Citation Entailment
 
 No rule explicitly asks:
 
@@ -2215,9 +2219,9 @@ $$
 
 No such check is supplied.
 
----
+______________________________________________________________________
 
-# 101. Missing Quality Control — Scope
+## 101. Missing Quality Control — Scope
 
 The source does not explicitly require checking whether evidence scope matches claim scope.
 
@@ -2231,9 +2235,9 @@ $$
 
 This is an important gap.
 
----
+______________________________________________________________________
 
-# 102. Missing Quality Control — Causal Typing
+## 102. Missing Quality Control — Causal Typing
 
 No explicit causal firewall exists in this artifact.
 
@@ -2257,9 +2261,9 @@ A hardened version should distinguish:
 - necessary condition;
 - sufficient condition.
 
----
+______________________________________________________________________
 
-# 103. Missing Quality Control — Statistical Integrity
+## 103. Missing Quality Control — Statistical Integrity
 
 No explicit checks cover:
 
@@ -2274,9 +2278,9 @@ No explicit checks cover:
 
 This is especially important for `science`, `medicine`, `economics`, and `social_science`.
 
----
+______________________________________________________________________
 
-# 104. Missing Quality Control — Methodological Fit
+## 104. Missing Quality Control — Methodological Fit
 
 No explicit test verifies:
 
@@ -2286,9 +2290,9 @@ ResearchQuestion
 Method
 $$
 
----
+______________________________________________________________________
 
-# 105. Missing Quality Control — Contradiction Preservation
+## 105. Missing Quality Control — Contradiction Preservation
 
 The artifact does not explicitly say how conflicting literature should be handled.
 
@@ -2303,9 +2307,9 @@ rather than force a single narrative.
 
 This is **DERIVED/PROPOSED** for this kernel.
 
----
+______________________________________________________________________
 
-# 106. Output Modes
+## 106. Output Modes
 
 Nine modes are supplied:
 
@@ -2327,9 +2331,9 @@ Default:
 full_paper
 ```
 
----
+______________________________________________________________________
 
-# 107. Full Paper
+## 107. Full Paper
 
 `full_paper` is default.
 
@@ -2349,9 +2353,9 @@ Evidence not supplied.
 
 rather than invent content.
 
----
+______________________________________________________________________
 
-# 108. Abstract Only
+## 108. Abstract Only
 
 `abstract_only` implies a compressed academic output.
 
@@ -2363,9 +2367,9 @@ The source does not define abstract type:
 - conference;
 - journal-specific.
 
----
+______________________________________________________________________
 
-# 109. Section Only
+## 109. Section Only
 
 `section_only` allows localized generation.
 
@@ -2375,9 +2379,9 @@ This creates an important dependency question:
 
 The source does not define context closure.
 
----
+______________________________________________________________________
 
-# 110. Outline
+## 110. Outline
 
 `outline` naturally aligns with Step 5.
 
@@ -2393,9 +2397,9 @@ $$
 
 but this is not explicitly specified.
 
----
+______________________________________________________________________
 
-# 111. Rewrite for Rigor
+## 111. Rewrite for Rigor
 
 This mode should increase rigor without changing unsupported claims into supported ones.
 
@@ -2407,9 +2411,9 @@ RewriteForRigor
 ConfidencePromotion
 $$
 
----
+______________________________________________________________________
 
-# 112. Rewrite for Clarity
+## 112. Rewrite for Clarity
 
 Similarly:
 
@@ -2421,9 +2425,9 @@ $$
 
 A clarity rewrite should conserve meaning.
 
----
+______________________________________________________________________
 
-# 113. Extended Review
+## 113. Extended Review
 
 The source does not define what “extended” means.
 
@@ -2436,9 +2440,9 @@ Unknown dimensions:
 - source count;
 - disciplinary breadth.
 
----
+______________________________________________________________________
 
-# 114. Compression 20 Percent
+## 114. Compression 20 Percent
 
 Source:
 
@@ -2472,9 +2476,9 @@ Therefore:
 
 **COMPETING.**
 
----
+______________________________________________________________________
 
-# 115. Expansion 200 Percent
+## 115. Expansion 200 Percent
 
 Likewise ambiguous.
 
@@ -2494,9 +2498,9 @@ The source does not resolve this.
 
 **COMPETING.**
 
----
+______________________________________________________________________
 
-# 116. Compression Must Preserve Claims
+## 116. Compression Must Preserve Claims
 
 Regardless of length semantics:
 
@@ -2520,9 +2524,9 @@ $$
 
 through deletion of qualifiers.
 
----
+______________________________________________________________________
 
-# 117. Expansion Must Not Invent Evidence
+## 117. Expansion Must Not Invent Evidence
 
 Likewise:
 
@@ -2532,9 +2536,9 @@ $$
 
 A 200% expansion may elaborate explanation and structure, but cannot create sources or empirical support.
 
----
+______________________________________________________________________
 
-# 118. Routing Module
+## 118. Routing Module
 
 Source rules:
 
@@ -2545,9 +2549,9 @@ Request missing parameters if needed.
 Increase rigor when applicable.
 ```
 
----
+______________________________________________________________________
 
-# 119. Routing Inputs Are Incomplete
+## 119. Routing Inputs Are Incomplete
 
 Routing explicitly mentions:
 
@@ -2565,9 +2569,9 @@ Yet these are used elsewhere.
 
 Therefore the complete routing signature is unresolved.
 
----
+______________________________________________________________________
 
-# 120. Routing Function — Source-Minimum
+## 120. Routing Function — Source-Minimum
 
 The explicit source supports at least:
 
@@ -2585,9 +2589,9 @@ Select(DocumentType,RigorLevel)
 (Structure,Tone)
 $$
 
----
+______________________________________________________________________
 
-# 121. Routing Function — Derived Complete Model
+## 121. Routing Function — Derived Complete Model
 
 A more complete inferred model is:
 
@@ -2603,9 +2607,9 @@ $$
 
 This is **DERIVED**, not explicit.
 
----
+______________________________________________________________________
 
-# 122. Missing-Parameter Rule
+## 122. Missing-Parameter Rule
 
 Source:
 
@@ -2625,9 +2629,9 @@ It does not require clarification for every unspecified axis.
 
 Therefore the kernel allows inference/defaulting where sufficient.
 
----
+______________________________________________________________________
 
-# 123. Clarification Sufficiency
+## 123. Clarification Sufficiency
 
 A safe derived rule:
 
@@ -2639,9 +2643,9 @@ $$
 
 This prevents unnecessary questioning.
 
----
+______________________________________________________________________
 
-# 124. Increase Rigor When Applicable
+## 124. Increase Rigor When Applicable
 
 This rule is underspecified.
 
@@ -2655,9 +2659,9 @@ Questions include:
 
 No source answers these.
 
----
+______________________________________________________________________
 
-# 125. Rigor Escalation Firewall
+## 125. Rigor Escalation Firewall
 
 Rigor escalation must not imply:
 
@@ -2683,9 +2687,9 @@ $$
 Rigor \neq JargonDensity
 $$
 
----
+______________________________________________________________________
 
-# 126. Academic Rigor — Safe Derived Definition
+## 126. Academic Rigor — Safe Derived Definition
 
 A robust interpretation is:
 
@@ -2708,9 +2712,9 @@ rather than verbosity.
 
 This is **DERIVED**.
 
----
+______________________________________________________________________
 
-# 127. Kernel Inputs
+## 127. Kernel Inputs
 
 The source implies at least:
 
@@ -2724,9 +2728,9 @@ evidence requirement
 rigor level
 ```
 
----
+______________________________________________________________________
 
-# 128. Kernel Outputs
+## 128. Kernel Outputs
 
 The source implies:
 
@@ -2741,9 +2745,9 @@ compressed variant
 expanded variant
 ```
 
----
+______________________________________________________________________
 
-# 129. Kernel State
+## 129. Kernel State
 
 No persistent state model is supplied.
 
@@ -2755,9 +2759,9 @@ memory behavior = UNKNOWN
 
 The artifact should not be assumed to mutate long-term knowledge.
 
----
+______________________________________________________________________
 
-# 130. Tool Behavior
+## 130. Tool Behavior
 
 No tools are specified.
 
@@ -2778,17 +2782,17 @@ Zotero
 
 are not source-defined dependencies.
 
----
+______________________________________________________________________
 
-# 131. Proof Engine
+## 131. Proof Engine
 
 No proof engine is explicitly defined in this artifact.
 
 Its RSCF metadata establishes claim/provenance context, but not a formal proof mechanism.
 
----
+______________________________________________________________________
 
-# 132. RSCF State
+## 132. RSCF State
 
 Source:
 
@@ -2808,9 +2812,9 @@ Not:
 
 > an independently verified universal academic-writing standard.
 
----
+______________________________________________________________________
 
-# 133. Provenance Topology
+## 133. Provenance Topology
 
 Source ancestry:
 
@@ -2824,9 +2828,9 @@ AMOS ACADEMIC WRITING KERNEL V0
 
 Any downstream notes copied from this artifact remain descendants of the same provenance unless independently sourced.
 
----
+______________________________________________________________________
 
-# 134. Provenance Independence
+## 134. Provenance Independence
 
 If ten downstream notes repeat:
 
@@ -2842,9 +2846,9 @@ $$
 Descendants(Source_1) \neq IndependentSources_n
 $$
 
----
+______________________________________________________________________
 
-# 135. Corpus Model vs Empirical Claim
+## 135. Corpus Model vs Empirical Claim
 
 The kernel contains mostly normative architecture.
 
@@ -2861,9 +2865,9 @@ These are rules.
 
 They are not empirical claims that those policies maximize academic quality in every discipline.
 
----
+______________________________________________________________________
 
-# 136. Normative vs Descriptive Separation
+## 136. Normative vs Descriptive Separation
 
 The artifact mixes:
 
@@ -2883,9 +2887,9 @@ Deterministic academic writing kernel.
 
 The latter requires evidence if interpreted as runtime fact.
 
----
+______________________________________________________________________
 
-# 137. Framework vs Implementation
+## 137. Framework vs Implementation
 
 The source is much stronger as a **framework specification** than as evidence of executable implementation.
 
@@ -2906,24 +2910,24 @@ Framework specification = SOURCE-GROUNDED
 Executable implementation = UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 138. “Kernel” Semantic Boundary
+## 138. “Kernel” Semantic Boundary
 
 The word `kernel` could mean:
 
 1. conceptual governance core;
-2. prompt/configuration kernel;
-3. executable software kernel;
-4. AMOS architectural naming convention.
+1. prompt/configuration kernel;
+1. executable software kernel;
+1. AMOS architectural naming convention.
 
 The artifact does not discriminate.
 
 Therefore do not import operating-system kernel semantics automatically.
 
----
+______________________________________________________________________
 
-# 139. `vInfinity` Semantic Boundary
+## 139. `vInfinity` Semantic Boundary
 
 The identifier:
 
@@ -2948,9 +2952,9 @@ $$
 Name(vInfinity) \neq InfiniteCapability
 $$
 
----
+______________________________________________________________________
 
-# 140. Structural Completeness Claim
+## 140. Structural Completeness Claim
 
 Description says:
 
@@ -2970,9 +2974,9 @@ But the source itself exposes gaps:
 
 Therefore “structurally complete” remains a **SOURCE_CLAIM / design objective**, not a verified universal property.
 
----
+______________________________________________________________________
 
-# 141. Strongest Internal Contradiction Test
+## 141. Strongest Internal Contradiction Test
 
 There is no direct logical contradiction between:
 
@@ -2988,9 +2992,9 @@ Therefore:
 
 **CONDITIONAL**, not falsified outright.
 
----
+______________________________________________________________________
 
-# 142. Applicability Envelope
+## 142. Applicability Envelope
 
 The source declares broad applicability across:
 
@@ -3012,9 +3016,9 @@ But it does not specify:
 
 Thus the applicability envelope is broad but underspecified.
 
----
+______________________________________________________________________
 
-# 143. Journal-Specific Requirements
+## 143. Journal-Specific Requirements
 
 No mechanism exists for:
 
@@ -3032,9 +3036,9 @@ journal-specific section limits
 
 unless externally supplied.
 
----
+______________________________________________________________________
 
-# 144. Citation Style
+## 144. Citation Style
 
 No citation style is specified.
 
@@ -3051,9 +3055,9 @@ Harvard
 
 are all unresolved until requested or externally configured.
 
----
+______________________________________________________________________
 
-# 145. Bibliography Formatting
+## 145. Bibliography Formatting
 
 No bibliography-generation schema exists.
 
@@ -3063,9 +3067,9 @@ $$
 CitationTruth \neq CitationStyle
 $$
 
----
+______________________________________________________________________
 
-# 146. Source Quality Assessment
+## 146. Source Quality Assessment
 
 The artifact does not define a source hierarchy.
 
@@ -3083,9 +3087,9 @@ No rule ranks:
 
 Thus `evidence-based` remains under-operationalized.
 
----
+______________________________________________________________________
 
-# 147. Discipline-Specific Evidence
+## 147. Discipline-Specific Evidence
 
 Different disciplines license different evidence.
 
@@ -3107,9 +3111,9 @@ Therefore evidence evaluation must be discipline-sensitive.
 
 No such mapping is supplied.
 
----
+______________________________________________________________________
 
-# 148. Epistemic Regime
+## 148. Epistemic Regime
 
 A claim may be valid under one methodological regime and not another.
 
@@ -3127,9 +3131,9 @@ randomized clinical evidence
 
 The kernel includes both discipline categories but no explicit regime model.
 
----
+______________________________________________________________________
 
-# 149. Scope Firewall
+## 149. Scope Firewall
 
 A robust academic kernel needs:
 
@@ -3143,9 +3147,9 @@ unless an explicit generalization argument exists.
 
 This is **PROPOSED hardening**.
 
----
+______________________________________________________________________
 
-# 150. Temporal Firewall
+## 150. Temporal Firewall
 
 Evidence can become stale.
 
@@ -3161,9 +3165,9 @@ superseded evidence
 retraction monitoring
 ```
 
----
+______________________________________________________________________
 
-# 151. Retraction Handling
+## 151. Retraction Handling
 
 No rule specifies what happens if a source is:
 
@@ -3174,9 +3178,9 @@ No rule specifies what happens if a source is:
 
 This is a consequential academic gap.
 
----
+______________________________________________________________________
 
-# 152. Causal Firewall
+## 152. Causal Firewall
 
 Proposed integrity rule:
 
@@ -3198,9 +3202,9 @@ $$
 
 The source's general `evidence & logic` requirement is compatible with these, but does not explicitly state them.
 
----
+______________________________________________________________________
 
-# 153. Competing Hypotheses
+## 153. Competing Hypotheses
 
 Academic writing frequently requires:
 
@@ -3220,9 +3224,9 @@ $$
 
 not forced convergence.
 
----
+______________________________________________________________________
 
-# 154. Negative Evidence
+## 154. Negative Evidence
 
 Absence of evidence must not become evidence of absence without appropriate search/power conditions.
 
@@ -3232,9 +3236,9 @@ NoObservedEvidence
 False
 $$
 
----
+______________________________________________________________________
 
-# 155. Null Results
+## 155. Null Results
 
 Likewise:
 
@@ -3248,9 +3252,9 @@ without additional inferential conditions.
 
 No statistical policy is supplied.
 
----
+______________________________________________________________________
 
-# 156. Evidence Density
+## 156. Evidence Density
 
 The source does not define citation density.
 
@@ -3268,9 +3272,9 @@ minimum N citations
 
 is canonical.
 
----
+______________________________________________________________________
 
-# 157. Evidence Relevance
+## 157. Evidence Relevance
 
 A high citation count can mask weak support.
 
@@ -3282,9 +3286,9 @@ $$
 
 rather than citation count alone.
 
----
+______________________________________________________________________
 
-# 158. Argument Graph
+## 158. Argument Graph
 
 A useful derived academic representation:
 
@@ -3304,11 +3308,11 @@ Conclusion
 Limitations
 ```
 
----
+______________________________________________________________________
 
-# 159. Claim-Evidence Graph
+## 159. Claim-Evidence Graph
 
-For each important claim \(C_i\):
+For each important claim (C_i):
 
 $$
 C_i \leftarrow \{E_1,E_2,\dots,E_n\}
@@ -3318,9 +3322,9 @@ with explicit dependencies.
 
 If an evidence node fails, only dependent claims should be downgraded.
 
----
+______________________________________________________________________
 
-# 160. Local Invalidation
+## 160. Local Invalidation
 
 Proposed rule:
 
@@ -3338,9 +3342,9 @@ $$
 
 unless the failed evidence is globally load-bearing.
 
----
+______________________________________________________________________
 
-# 161. Weakest-Premise Ceiling
+## 161. Weakest-Premise Ceiling
 
 For a derived conclusion:
 
@@ -3354,9 +3358,9 @@ unless independent revalidation supplies stronger support.
 
 This is AMOS-compatible hardening, not explicit source text.
 
----
+______________________________________________________________________
 
-# 162. Proof Capsule for Academic Claim
+## 162. Proof Capsule for Academic Claim
 
 A proposed academic proof capsule:
 
@@ -3376,9 +3380,9 @@ limitations:
 confidence_ceiling:
 ```
 
----
+______________________________________________________________________
 
-# 163. Claim Classes
+## 163. Claim Classes
 
 Recommended AMOS-compatible classes:
 
@@ -3395,9 +3399,9 @@ The artifact itself only declares its own RSCF claim class as `SOURCE_CLAIM`; it
 
 Therefore their use here is a **derived integration**.
 
----
+______________________________________________________________________
 
-# 164. Academic Source Claim
+## 164. Academic Source Claim
 
 When a paper states something, the kernel should distinguish:
 
@@ -3417,9 +3421,9 @@ $$
 PaperClaims(X) \neq Verified(X)
 $$
 
----
+______________________________________________________________________
 
-# 165. Literature Consensus
+## 165. Literature Consensus
 
 Even widespread agreement should be represented carefully.
 
@@ -3435,9 +3439,9 @@ $$
 
 especially if evidence ancestry is correlated.
 
----
+______________________________________________________________________
 
-# 166. Meta-Analysis Firewall
+## 166. Meta-Analysis Firewall
 
 Even meta-analysis should not automatically be treated as universal truth.
 
@@ -3451,9 +3455,9 @@ Its validity depends on:
 - population;
 - outcome definition.
 
----
+______________________________________________________________________
 
-# 167. Systematic Review Firewall
+## 167. Systematic Review Firewall
 
 Similarly:
 
@@ -3463,9 +3467,9 @@ $$
 
 Method quality matters.
 
----
+______________________________________________________________________
 
-# 168. Academic Neutrality and Advocacy
+## 168. Academic Neutrality and Advocacy
 
 For `policy_brief`, recommendations may be expected.
 
@@ -3493,9 +3497,9 @@ $$
 EvidenceSummary
 $$
 
----
+______________________________________________________________________
 
-# 169. Decision Layer
+## 169. Decision Layer
 
 For policy work:
 
@@ -3509,9 +3513,9 @@ Evidence
 
 The recommendation is a decision layer, not a factual discovery.
 
----
+______________________________________________________________________
 
-# 170. Humanities Firewall
+## 170. Humanities Firewall
 
 Humanities scholarship may rely on:
 
@@ -3523,9 +3527,9 @@ Humanities scholarship may rely on:
 
 Therefore forcing a scientific empirical template could violate discipline fit.
 
----
+______________________________________________________________________
 
-# 171. Medicine Firewall
+## 171. Medicine Firewall
 
 Medical writing requires increased validation because downstream stakes may be high.
 
@@ -3533,9 +3537,9 @@ The artifact itself does not define a medical safety escalation mechanism.
 
 Thus medicine support should not be interpreted as clinical decision authority.
 
----
+______________________________________________________________________
 
-# 172. Computing Firewall
+## 172. Computing Firewall
 
 Claims about system performance require environment-specific evidence.
 
@@ -3547,9 +3551,9 @@ $$
 
 No benchmark policy is supplied.
 
----
+______________________________________________________________________
 
-# 173. Engineering Firewall
+## 173. Engineering Firewall
 
 Engineering claims often depend on:
 
@@ -3560,9 +3564,9 @@ Engineering claims often depend on:
 
 These should be explicit where material.
 
----
+______________________________________________________________________
 
-# 174. Economics Firewall
+## 174. Economics Firewall
 
 Economic results can depend on:
 
@@ -3574,9 +3578,9 @@ Economic results can depend on:
 
 Therefore scope/regime handling is critical.
 
----
+______________________________________________________________________
 
-# 175. Interdisciplinary Firewall
+## 175. Interdisciplinary Firewall
 
 Cross-domain structural resemblance does not establish mechanism equivalence.
 
@@ -3586,9 +3590,9 @@ Similarity(A,B)
 SameMechanism(A,B)
 $$
 
----
+______________________________________________________________________
 
-# 176. Analogy Firewall
+## 176. Analogy Firewall
 
 If metaphor or analogy is explicitly requested:
 
@@ -3598,9 +3602,9 @@ $$
 
 The `no metaphor unless requested` rule already limits unnecessary analogy, but requested analogy must still remain epistemically typed.
 
----
+______________________________________________________________________
 
-# 177. Outline Before Evidence?
+## 177. Outline Before Evidence?
 
 The source pipeline builds the outline at Step 5 and populates evidence at Step 6.
 
@@ -3613,9 +3617,9 @@ predefined outline
 
 The source does not include a feedback loop where evidence can restructure the outline.
 
----
+______________________________________________________________________
 
-# 178. Proposed Evidence-Driven Repair Loop
+## 178. Proposed Evidence-Driven Repair Loop
 
 A stronger architecture would allow:
 
@@ -3630,9 +3634,9 @@ If evidence invalidates the planned structure, the outline should change.
 
 This is **PROPOSED**.
 
----
+______________________________________________________________________
 
-# 179. Pipeline Is Linear in Source
+## 179. Pipeline Is Linear in Source
 
 The ten steps are listed linearly.
 
@@ -3640,9 +3644,9 @@ No explicit loops are supplied.
 
 Therefore recursive revision is not source-grounded.
 
----
+______________________________________________________________________
 
-# 180. Academic Writing Is Often Iterative
+## 180. Academic Writing Is Often Iterative
 
 A practical implementation may require:
 
@@ -3656,13 +3660,13 @@ outline
 
 But this is a model extension.
 
----
+______________________________________________________________________
 
-# 181. Optional Variant Conservation
+## 181. Optional Variant Conservation
 
 Every output variant should conserve epistemic meaning.
 
-For transformation \(T\):
+For transformation (T):
 
 $$
 T(X)=Y
@@ -3676,9 +3680,9 @@ $$
 
 unless new evidence is explicitly introduced.
 
----
+______________________________________________________________________
 
-# 182. Rewrite Invariant
+## 182. Rewrite Invariant
 
 Proposed:
 
@@ -3690,9 +3694,9 @@ $$
 
 within reasonable linguistic equivalence.
 
----
+______________________________________________________________________
 
-# 183. Rigor Rewrite Invariant
+## 183. Rigor Rewrite Invariant
 
 $$
 Rewrite_{rigor}(X)
@@ -3707,9 +3711,9 @@ may strengthen:
 
 It may not strengthen unsupported empirical certainty.
 
----
+______________________________________________________________________
 
-# 184. Compression Invariant
+## 184. Compression Invariant
 
 $$
 Compression(X)
@@ -3731,9 +3735,9 @@ Unsafe compression:
 The intervention improves X.
 ```
 
----
+______________________________________________________________________
 
-# 185. Expansion Invariant
+## 185. Expansion Invariant
 
 Expansion may add:
 
@@ -3752,9 +3756,9 @@ It must not add fabricated:
 - quotations;
 - statistics.
 
----
+______________________________________________________________________
 
-# 186. Quotation Integrity
+## 186. Quotation Integrity
 
 No explicit quotation policy is supplied.
 
@@ -3767,9 +3771,9 @@ verbatim quote
 
 Paraphrase should not be represented as quotation.
 
----
+______________________________________________________________________
 
-# 187. Data Integrity
+## 187. Data Integrity
 
 No rule explicitly prevents fabricated datasets or results.
 
@@ -3783,9 +3787,9 @@ $$
 
 unless clearly labeled as simulated/example data.
 
----
+______________________________________________________________________
 
-# 188. Simulated Data
+## 188. Simulated Data
 
 If illustrative data are generated:
 
@@ -3799,9 +3803,9 @@ $$
 SimulatedData \neq ObservedData
 $$
 
----
+______________________________________________________________________
 
-# 189. Methods Integrity
+## 189. Methods Integrity
 
 A method not actually performed must not be written in past tense as though executed.
 
@@ -3821,9 +3825,9 @@ Safe:
 A proposed study could recruit...
 ```
 
----
+______________________________________________________________________
 
-# 190. Results Integrity
+## 190. Results Integrity
 
 Likewise:
 
@@ -3835,9 +3839,9 @@ $$
 
 This is essential for academic integrity.
 
----
+______________________________________________________________________
 
-# 191. Literature Review Integrity
+## 191. Literature Review Integrity
 
 A model cannot safely say:
 
@@ -3853,9 +3857,9 @@ $$
 RetrievedSubset \neq EntireLiterature
 $$
 
----
+______________________________________________________________________
 
-# 192. Search Completeness
+## 192. Search Completeness
 
 For systematic review:
 
@@ -3867,17 +3871,17 @@ $$
 
 No search protocol exists in source.
 
----
+______________________________________________________________________
 
-# 193. Publication Bias
+## 193. Publication Bias
 
 No source policy handles publication bias.
 
 This is a missing evidence-quality dimension.
 
----
+______________________________________________________________________
 
-# 194. Contradictory Literature
+## 194. Contradictory Literature
 
 Proposed handling:
 
@@ -3894,9 +3898,9 @@ not:
 average prose into fake consensus
 ```
 
----
+______________________________________________________________________
 
-# 195. Minority Hypothesis
+## 195. Minority Hypothesis
 
 A less popular hypothesis may still have stronger evidence.
 
@@ -3906,9 +3910,9 @@ $$
 Popularity \neq EvidentialWeight
 $$
 
----
+______________________________________________________________________
 
-# 196. Temporal Validity
+## 196. Temporal Validity
 
 An academic conclusion should inherit evidence time bounds where material.
 
@@ -3920,9 +3924,9 @@ $$
 
 No source temporal policy exists.
 
----
+______________________________________________________________________
 
-# 197. Geographic Scope
+## 197. Geographic Scope
 
 Evidence from one jurisdiction/population should not silently generalize globally.
 
@@ -3934,9 +3938,9 @@ $$
 
 without justification.
 
----
+______________________________________________________________________
 
-# 198. Measurement Scope
+## 198. Measurement Scope
 
 Different measurement instruments can operationalize the same construct differently.
 
@@ -3946,17 +3950,17 @@ $$
 SameLabel \neq SameMeasurement
 $$
 
----
+______________________________________________________________________
 
-# 199. Construct Validity
+## 199. Construct Validity
 
 A named variable does not guarantee it measures the intended concept.
 
 The kernel does not include construct-validity checking.
 
----
+______________________________________________________________________
 
-# 200. Model Assumption Visibility
+## 200. Model Assumption Visibility
 
 For theoretical and quantitative work, assumptions should be explicit.
 
@@ -3966,9 +3970,9 @@ This aligns directly with the source's:
 Explicit limitations and assumptions.
 ```
 
----
+______________________________________________________________________
 
-# 201. Assumption Registry
+## 201. Assumption Registry
 
 **PROPOSED:**
 
@@ -3983,9 +3987,9 @@ assumptions:
     falsifier:
 ```
 
----
+______________________________________________________________________
 
-# 202. Sensitivity Analysis
+## 202. Sensitivity Analysis
 
 For consequential conclusions, identify the premise most capable of changing the result.
 
@@ -3995,13 +3999,13 @@ p^*=
 Impact(Change(p),Conclusion)
 $$
 
-Then test \(p^*\) first.
+Then test (p^\*) first.
 
 This is an AMOS-compatible extension.
 
----
+______________________________________________________________________
 
-# 203. Fragility Classification
+## 203. Fragility Classification
 
 If a small plausible change flips the conclusion:
 
@@ -4011,25 +4015,25 @@ CONDITIONAL
 
 is safer than a strong absolute claim.
 
----
+______________________________________________________________________
 
-# 204. Robust Conclusion
+## 204. Robust Conclusion
 
 A conclusion is more robust when it survives reasonable variation in noncritical assumptions.
 
 This is not the same as empirical verification.
 
----
+______________________________________________________________________
 
-# 205. Missing Confidence Model
+## 205. Missing Confidence Model
 
 No numeric confidence system exists in this source.
 
 Therefore do not invent confidence percentages.
 
----
+______________________________________________________________________
 
-# 206. Missing Claim Ceiling
+## 206. Missing Claim Ceiling
 
 Unlike some AMOS artifacts, this source contains no explicit:
 
@@ -4039,9 +4043,9 @@ claim_ceiling
 
 Therefore no numeric maximum confidence should be assigned from source.
 
----
+______________________________________________________________________
 
-# 207. Missing Validation Status
+## 207. Missing Validation Status
 
 The frontmatter does not state:
 
@@ -4057,9 +4061,9 @@ PASSED_CONSTITUTIONAL_TESTS
 
 or equivalent from other kernel artifacts.
 
----
+______________________________________________________________________
 
-# 208. Missing Implementation Status
+## 208. Missing Implementation Status
 
 No:
 
@@ -4077,9 +4081,9 @@ CONCEPTUAL_SOURCE_DEFINED
 
 may be a reasonable analytical description, but it is **DERIVED**, not source metadata.
 
----
+______________________________________________________________________
 
-# 209. Missing Executable Binding
+## 209. Missing Executable Binding
 
 No:
 
@@ -4091,9 +4095,9 @@ exists.
 
 Thus runtime execution is unverified.
 
----
+______________________________________________________________________
 
-# 210. Missing Updated Date
+## 210. Missing Updated Date
 
 No `updated` field is supplied.
 
@@ -4101,9 +4105,9 @@ There is also no `created` field.
 
 Therefore source freshness cannot be established from metadata.
 
----
+______________________________________________________________________
 
-# 211. Freshness Gap
+## 211. Freshness Gap
 
 Status:
 
@@ -4119,9 +4123,9 @@ for:
 - expiry;
 - supersession.
 
----
+______________________________________________________________________
 
-# 212. Related Links
+## 212. Related Links
 
 Source lists:
 
@@ -4143,9 +4147,9 @@ These are explicit navigational relations.
 
 Their semantic relationship types are not supplied.
 
----
+______________________________________________________________________
 
-# 213. Related ≠ Dependency
+## 213. Related ≠ Dependency
 
 A wikilink under `Related:` does not establish:
 
@@ -4158,11 +4162,11 @@ DEPENDS_ON
 
 Thus all such edge types remain unresolved.
 
----
+______________________________________________________________________
 
-# 214. MOC Relation
+## 214. MOC Relation
 
-`` is explicitly labeled:
+\`\` is explicitly labeled:
 
 ```text
 MOC
@@ -4176,9 +4180,9 @@ MEMBER_OF / INDEXED_BY → [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]
 
 but exact RSCF edge semantics are not source-defined.
 
----
+______________________________________________________________________
 
-# 215. `11_KNOWLEDGE/kernel`
+## 215. `11_KNOWLEDGE/kernel`
 
 The source path indicates organizational placement.
 
@@ -4190,9 +4194,9 @@ FilesystemOrVaultPlacement
 RuntimeDependency
 $$
 
----
+______________________________________________________________________
 
-# 216. Relationship to AGENTS AMOS OS KERNEL
+## 216. Relationship to AGENTS AMOS OS KERNEL
 
 A nearby supplied artifact describes an AMOS agent contract where nontrivial tasks are submitted to a kernel and governed through skills/tools/budget/context/proof/policy/transactions/finalization.
 
@@ -4210,9 +4214,9 @@ However, this academic artifact itself does not explicitly bind to that contract
 
 Therefore this relation is **DERIVED**, not explicit canon.
 
----
+______________________________________________________________________
 
-# 217. Possible Routing Integration
+## 217. Possible Routing Integration
 
 A derived integration model:
 
@@ -4236,25 +4240,25 @@ Final Output
 
 Again: architectural synthesis, not literal runtime proof.
 
----
+______________________________________________________________________
 
-# 218. Authority Tokens
+## 218. Authority Tokens
 
 The academic artifact itself says nothing about authority tokens.
 
 Do not import them as native fields simply because another kernel contract uses them.
 
----
+______________________________________________________________________
 
-# 219. Persistent Memory
+## 219. Persistent Memory
 
 The academic artifact says nothing about persistent memory.
 
 A broader AMOS contract may prohibit direct mutation, but this artifact alone does not specify memory semantics.
 
----
+______________________________________________________________________
 
-# 220. Transaction Semantics
+## 220. Transaction Semantics
 
 No:
 
@@ -4270,9 +4274,9 @@ semantics are supplied here.
 
 Therefore distributed/transaction guarantees cannot be claimed.
 
----
+______________________________________________________________________
 
-# 221. Distributed Guarantees
+## 221. Distributed Guarantees
 
 Nothing in this source establishes:
 
@@ -4284,9 +4288,9 @@ Nothing in this source establishes:
 
 These must not be inferred from the word `kernel`.
 
----
+______________________________________________________________________
 
-# 222. Host Runtime Firewall
+## 222. Host Runtime Firewall
 
 $$
 ConceptualKernel
@@ -4296,9 +4300,9 @@ $$
 
 This is a critical anti-overclaim rule.
 
----
+______________________________________________________________________
 
-# 223. Academic Integrity Priority
+## 223. Academic Integrity Priority
 
 A safe priority ordering derived from the source and AMOS integrity doctrine is:
 
@@ -4316,9 +4320,9 @@ $$
 
 The exact ordering is not written in this artifact, so this is framework integration rather than exact source text.
 
----
+______________________________________________________________________
 
-# 224. Citation Priority
+## 224. Citation Priority
 
 When a requested full paper lacks references:
 
@@ -4338,9 +4342,9 @@ $$
 CitationIntegrity > ApparentCompleteness
 $$
 
----
+______________________________________________________________________
 
-# 225. Missing Evidence Behavior
+## 225. Missing Evidence Behavior
 
 Safe state:
 
@@ -4358,9 +4362,9 @@ missing evidence
 → invent plausible citation
 ```
 
----
+______________________________________________________________________
 
-# 226. Fail-Closed Citation Rule
+## 226. Fail-Closed Citation Rule
 
 Proposed:
 
@@ -4372,9 +4376,9 @@ NoVerifiedRetrieval
 NoFormalCitation
 $$
 
----
+______________________________________________________________________
 
-# 227. Fail-Closed Result Rule
+## 227. Fail-Closed Result Rule
 
 $$
 ObservedResultsUnavailable
@@ -4382,9 +4386,9 @@ ObservedResultsUnavailable
 DoNotGenerateObservedResults
 $$
 
----
+______________________________________________________________________
 
-# 228. Fail-Closed Method Rule
+## 228. Fail-Closed Method Rule
 
 $$
 MethodNotPerformed
@@ -4392,9 +4396,9 @@ MethodNotPerformed
 DoNotClaimMethodWasPerformed
 $$
 
----
+______________________________________________________________________
 
-# 229. Fail-Closed Review Rule
+## 229. Fail-Closed Review Rule
 
 $$
 SearchNotSystematic
@@ -4402,9 +4406,9 @@ SearchNotSystematic
 DoNotClaimSystematicCompleteness
 $$
 
----
+______________________________________________________________________
 
-# 230. Fail-Closed Causal Rule
+## 230. Fail-Closed Causal Rule
 
 $$
 EvidenceTypeNotCausal
@@ -4412,9 +4416,9 @@ EvidenceTypeNotCausal
 DoNotPromoteToCausalEffect
 $$
 
----
+______________________________________________________________________
 
-# 231. Fail-Closed Scope Rule
+## 231. Fail-Closed Scope Rule
 
 $$
 EvidenceScope \not\supseteq ClaimScope
@@ -4422,9 +4426,9 @@ EvidenceScope \not\supseteq ClaimScope
 NarrowClaim \lor MarkConditional
 $$
 
----
+______________________________________________________________________
 
-# 232. Academic Output Contract
+## 232. Academic Output Contract
 
 A proposed typed output:
 
@@ -4448,9 +4452,9 @@ academic_output:
 
 This is **PROPOSED**.
 
----
+______________________________________________________________________
 
-# 233. Input Contract
+## 233. Input Contract
 
 Proposed:
 
@@ -4470,9 +4474,9 @@ academic_request:
   journal_constraints:
 ```
 
----
+______________________________________________________________________
 
-# 234. Required vs Optional Inputs
+## 234. Required vs Optional Inputs
 
 The source does not explicitly define required fields.
 
@@ -4480,9 +4484,9 @@ A smallest-sufficient strategy could infer many fields from the request and ask 
 
 This is derived.
 
----
+______________________________________________________________________
 
-# 235. User Goal Examples
+## 235. User Goal Examples
 
 Possible derived goals:
 
@@ -4500,9 +4504,9 @@ review literature
 
 Only some map directly to source output modes.
 
----
+______________________________________________________________________
 
-# 236. Mode Routing Table
+## 236. Mode Routing Table
 
 **DERIVED:**
 
@@ -4520,9 +4524,9 @@ Only some map directly to source output modes.
 
 This mapping is intuitive but not explicitly provided.
 
----
+______________________________________________________________________
 
-# 237. Structure Routing Table
+## 237. Structure Routing Table
 
 **PROPOSED / not canonical:**
 
@@ -4539,9 +4543,9 @@ This mapping is intuitive but not explicitly provided.
 
 Do not encode this as original source canon.
 
----
+______________________________________________________________________
 
-# 238. Why Automatic Structure Selection Is Nontrivial
+## 238. Why Automatic Structure Selection Is Nontrivial
 
 Because:
 
@@ -4565,9 +4569,9 @@ research_paper + medicine
 
 Therefore discipline materially affects routing.
 
----
+______________________________________________________________________
 
-# 239. Journal Constraints Can Override Generic Structure
+## 239. Journal Constraints Can Override Generic Structure
 
 A journal may impose a mandatory template.
 
@@ -4585,9 +4589,9 @@ $$
 
 This is **PROPOSED**.
 
----
+______________________________________________________________________
 
-# 240. Safety and Integrity Override
+## 240. Safety and Integrity Override
 
 However:
 
@@ -4599,33 +4603,33 @@ $$
 
 when the latter would require fabrication or deception.
 
----
+______________________________________________________________________
 
-# 241. Academic Ghostwriting Boundary
+## 241. Academic Ghostwriting Boundary
 
 The source does not discuss academic-integrity policies concerning assessed work or authorship.
 
 Therefore such governance is external to this artifact.
 
----
+______________________________________________________________________
 
-# 242. Plagiarism
+## 242. Plagiarism
 
 No explicit plagiarism rule appears.
 
 The anti-fabrication citation policy does not itself guarantee plagiarism prevention.
 
----
+______________________________________________________________________
 
-# 243. Paraphrase Integrity
+## 243. Paraphrase Integrity
 
 A proper paraphrase should preserve attribution where the idea depends on a source.
 
 No explicit policy is supplied.
 
----
+______________________________________________________________________
 
-# 244. Source Transformation
+## 244. Source Transformation
 
 A safe invariant:
 
@@ -4641,9 +4645,9 @@ must preserve:
 - uncertainty;
 - attribution dependency.
 
----
+______________________________________________________________________
 
-# 245. Citation Laundering
+## 245. Citation Laundering
 
 Unsafe pattern:
 
@@ -4654,33 +4658,33 @@ Source A cites Source B
 
 A provenance-aware kernel should preserve ancestry where material.
 
----
+______________________________________________________________________
 
-# 246. Secondary Citation
+## 246. Secondary Citation
 
 No rule exists for secondary citations.
 
 This remains a gap.
 
----
+______________________________________________________________________
 
-# 247. Primary Source Preference
+## 247. Primary Source Preference
 
 No rule exists requiring primary-source retrieval.
 
 Therefore do not claim it is canonical.
 
----
+______________________________________________________________________
 
-# 248. Evidence Hierarchy
+## 248. Evidence Hierarchy
 
 No universal hierarchy should be invented because discipline matters.
 
 A humanities source hierarchy may differ radically from clinical medicine.
 
----
+______________________________________________________________________
 
-# 249. Empirical vs Conceptual Papers
+## 249. Empirical vs Conceptual Papers
 
 The artifact supports both:
 
@@ -4696,9 +4700,9 @@ conceptual_argumentation
 
 This indicates that evidence expectations should vary by task.
 
----
+______________________________________________________________________
 
-# 250. Theoretical Validity
+## 250. Theoretical Validity
 
 A theoretical paper can be rigorous without new empirical data.
 
@@ -4710,9 +4714,9 @@ NoNewEmpiricalData
 LowRigor
 $$
 
----
+______________________________________________________________________
 
-# 251. Conceptual Argumentation Firewall
+## 251. Conceptual Argumentation Firewall
 
 But:
 
@@ -4724,9 +4728,9 @@ $$
 
 A conceptual model remains appropriately typed until tested.
 
----
+______________________________________________________________________
 
-# 252. Formal Evidence Firewall
+## 252. Formal Evidence Firewall
 
 Likewise:
 
@@ -4738,115 +4742,115 @@ proves a result only relative to its axioms/formal system.
 
 It does not automatically prove empirical applicability.
 
----
+______________________________________________________________________
 
-# 253. Mathematical Notation
+## 253. Mathematical Notation
 
 The source does not specify equation style, notation conventions, or LaTeX requirements.
 
----
+______________________________________________________________________
 
-# 254. Tables and Figures
+## 254. Tables and Figures
 
 No table/figure policy is supplied.
 
----
+______________________________________________________________________
 
-# 255. Supplementary Materials
+## 255. Supplementary Materials
 
 No supplementary-material architecture is supplied.
 
----
+______________________________________________________________________
 
-# 256. Appendices
+## 256. Appendices
 
 No appendix policy is supplied.
 
----
+______________________________________________________________________
 
-# 257. Abstract Requirements
+## 257. Abstract Requirements
 
 No word limit or structured abstract schema is supplied.
 
----
+______________________________________________________________________
 
-# 258. Keywords
+## 258. Keywords
 
 No keyword-generation rule is supplied.
 
----
+______________________________________________________________________
 
-# 259. Title Generation
+## 259. Title Generation
 
 No explicit title-generation rule is supplied.
 
----
+______________________________________________________________________
 
-# 260. Research Questions
+## 260. Research Questions
 
 No formal research-question generation method is supplied.
 
----
+______________________________________________________________________
 
-# 261. Hypotheses
+## 261. Hypotheses
 
 No hypothesis-generation or preregistration policy is supplied.
 
----
+______________________________________________________________________
 
-# 262. Methods Reproducibility
+## 262. Methods Reproducibility
 
 No reproducibility checklist exists.
 
----
+______________________________________________________________________
 
-# 263. Data Availability
+## 263. Data Availability
 
 No data-availability statement policy exists.
 
----
+______________________________________________________________________
 
-# 264. Code Availability
+## 264. Code Availability
 
 No code-availability policy exists.
 
----
+______________________________________________________________________
 
-# 265. Conflicts of Interest
+## 265. Conflicts of Interest
 
 No conflict-of-interest statement policy exists.
 
----
+______________________________________________________________________
 
-# 266. Funding
+## 266. Funding
 
 No funding disclosure policy exists.
 
----
+______________________________________________________________________
 
-# 267. Ethics Approval
+## 267. Ethics Approval
 
 No human/animal research ethics statement policy exists.
 
 This matters especially for medicine and social science.
 
----
+______________________________________________________________________
 
-# 268. Author Contributions
+## 268. Author Contributions
 
 No authorship contribution taxonomy exists.
 
----
+______________________________________________________________________
 
-# 269. AI Disclosure
+## 269. AI Disclosure
 
 No policy specifies disclosure of AI assistance.
 
 Thus institutional/journal requirements must be handled externally.
 
----
+______________________________________________________________________
 
-# 270. Reporting Guidelines
+## 270. Reporting Guidelines
 
 No specialized reporting guideline bindings exist.
 
@@ -4864,17 +4868,17 @@ COREQ
 
 must not be assumed to be built into this artifact.
 
----
+______________________________________________________________________
 
-# 271. Discipline Registry Gap
+## 271. Discipline Registry Gap
 
 The broad eight-discipline taxonomy likely requires downstream specialization for high rigor.
 
 But no child-kernel registry is supplied.
 
----
+______________________________________________________________________
 
-# 272. Potential Fractal Architecture
+## 272. Potential Fractal Architecture
 
 A **PROPOSED** H/M/L decomposition:
 
@@ -4886,9 +4890,9 @@ L — Claims, citations, sentences, tables, equations
 
 This is not explicitly present in the source.
 
----
+______________________________________________________________________
 
-# 273. H-Level
+## 273. H-Level
 
 Could contain:
 
@@ -4902,9 +4906,9 @@ H:
   central_question:
 ```
 
----
+______________________________________________________________________
 
-# 274. M-Level
+## 274. M-Level
 
 Could contain:
 
@@ -4918,9 +4922,9 @@ M:
   limitation_plan:
 ```
 
----
+______________________________________________________________________
 
-# 275. L-Level
+## 275. L-Level
 
 Could contain:
 
@@ -4935,9 +4939,9 @@ L:
   sentence:
 ```
 
----
+______________________________________________________________________
 
-# 276. Fractal Validation
+## 276. Fractal Validation
 
 Each level can be checked locally:
 
@@ -4957,9 +4961,9 @@ while preserving cross-level consistency.
 
 This is derived architecture.
 
----
+______________________________________________________________________
 
-# 277. RSCF Academic Capsule
+## 277. RSCF Academic Capsule
 
 Proposed:
 
@@ -4981,17 +4985,17 @@ RSCF:
     receipts:
 ```
 
----
+______________________________________________________________________
 
-# 278. Receipt Semantics
+## 278. Receipt Semantics
 
 No receipt concept is source-defined here.
 
 Any RSCF receipt implementation would need external binding.
 
----
+______________________________________________________________________
 
-# 279. Evidence Provenance Graph
+## 279. Evidence Provenance Graph
 
 ```mermaid
 graph TD
@@ -5016,9 +5020,9 @@ graph TD
 
 Here `C1` and `C2` partially share source ancestry through `S1`; that dependency should remain visible.
 
----
+______________________________________________________________________
 
-# 280. Academic Kernel Conceptual Flow
+## 280. Academic Kernel Conceptual Flow
 
 ```mermaid
 flowchart TD
@@ -5036,9 +5040,9 @@ flowchart TD
 
 This directly reflects the source's ten-step ordering.
 
----
+______________________________________________________________________
 
-# 281. Hardened Conceptual Flow
+## 281. Hardened Conceptual Flow
 
 The following is **PROPOSED**, not source canon:
 
@@ -5059,9 +5063,9 @@ flowchart TD
     L --> M[Final Academic Output]
 ```
 
----
+______________________________________________________________________
 
-# 282. Minimum Evidence Admission Rule
+## 282. Minimum Evidence Admission Rule
 
 Proposed:
 
@@ -5077,17 +5081,17 @@ $$
 
 with stricter requirements for consequential claims.
 
----
+______________________________________________________________________
 
-# 283. Source Authentication
+## 283. Source Authentication
 
 No authentication method is supplied.
 
 A document being provided by a user does not independently establish authorship or publication status.
 
----
+______________________________________________________________________
 
-# 284. Evidence Typing
+## 284. Evidence Typing
 
 Suggested:
 
@@ -5106,9 +5110,9 @@ UNKNOWN
 
 This is proposed, not source canon.
 
----
+______________________________________________________________________
 
-# 285. Evidence Quality Is Multidimensional
+## 285. Evidence Quality Is Multidimensional
 
 A useful derived vector:
 
@@ -5124,9 +5128,9 @@ $$
 
 instead of one vague confidence number.
 
----
+______________________________________________________________________
 
-# 286. Claim Sufficiency
+## 286. Claim Sufficiency
 
 A claim is ready for academic inclusion when:
 
@@ -5139,9 +5143,9 @@ A claim is ready for academic inclusion when:
 
 This is a derived governance standard.
 
----
+______________________________________________________________________
 
-# 287. Decision Sufficiency
+## 287. Decision Sufficiency
 
 For policy briefs, action recommendations may be possible even when empirical certainty is incomplete.
 
@@ -5152,9 +5156,9 @@ But recommendation should remain conditional on:
 - uncertainty;
 - alternatives.
 
----
+______________________________________________________________________
 
-# 288. Reversible Recommendations
+## 288. Reversible Recommendations
 
 Under uncertainty:
 
@@ -5166,9 +5170,9 @@ when expected outcomes are otherwise comparable.
 
 This is an AMOS governance extension.
 
----
+______________________________________________________________________
 
-# 289. Irreversible Claims
+## 289. Irreversible Claims
 
 Academic prose itself can have downstream impact.
 
@@ -5181,9 +5185,9 @@ Strong claims in:
 
 warrant higher validation.
 
----
+______________________________________________________________________
 
-# 290. Adversarial Validation
+## 290. Adversarial Validation
 
 For consequential conclusions, after constructing the strongest supported interpretation, challenge it with a genuinely different path.
 
@@ -5197,9 +5201,9 @@ Questions:
 - Does the citation actually support the sentence?
 - Is the apparent consensus inherited from one source?
 
----
+______________________________________________________________________
 
-# 291. Challenge Success
+## 291. Challenge Success
 
 If challenge succeeds:
 
@@ -5212,9 +5216,9 @@ or return unknown
 
 Do not rhetorically defend the first draft.
 
----
+______________________________________________________________________
 
-# 292. Challenge Failure
+## 292. Challenge Failure
 
 Failure to find a contradiction is not proof.
 
@@ -5222,9 +5226,9 @@ $$
 NoDetectedContradiction \neq Verified
 $$
 
----
+______________________________________________________________________
 
-# 293. Proof Capsule — Determinism
+## 293. Proof Capsule — Determinism
 
 ```yaml
 claim: "The academic writing kernel is deterministic."
@@ -5243,9 +5247,9 @@ confidence_ceiling:
 conclusion: CONDITIONAL / SOURCE_CLAIM
 ```
 
----
+______________________________________________________________________
 
-# 294. Proof Capsule — Citation Integrity
+## 294. Proof Capsule — Citation Integrity
 
 ```yaml
 claim: "The source prohibits fabricated sources and DOIs."
@@ -5260,9 +5264,9 @@ invalidation:
   - authoritative source revision superseding this artifact
 ```
 
----
+______________________________________________________________________
 
-# 295. Proof Capsule — Universal Structural Completeness
+## 295. Proof Capsule — Universal Structural Completeness
 
 ```yaml
 claim: "The kernel provides complete structures for all declared academic document types."
@@ -5276,9 +5280,9 @@ conclusion:
   - not established
 ```
 
----
+______________________________________________________________________
 
-# 296. Proof Capsule — Runtime Implementation
+## 296. Proof Capsule — Runtime Implementation
 
 ```yaml
 claim: "AMOS_Academic_Writing_Kernel_vInfinity is implemented and executable."
@@ -5295,9 +5299,9 @@ conclusion:
   - not established
 ```
 
----
+______________________________________________________________________
 
-# 297. Proof Capsule — MECE Universality
+## 297. Proof Capsule — MECE Universality
 
 ```yaml
 claim: "MECE is appropriate for every academic subject."
@@ -5310,9 +5314,9 @@ conclusion:
   - treat MECE as source-defined structural heuristic, not universal ontology
 ```
 
----
+______________________________________________________________________
 
-# 298. Proof Capsule — Academic Effectiveness
+## 298. Proof Capsule — Academic Effectiveness
 
 ```yaml
 claim: "This kernel improves academic writing quality."
@@ -5327,9 +5331,9 @@ missing:
   - replication
 ```
 
----
+______________________________________________________________________
 
-# 299. Boundary Test — No References
+## 299. Boundary Test — No References
 
 Input:
 
@@ -5350,9 +5354,9 @@ Possible outputs:
 - request source material;
 - identify citation slots.
 
----
+______________________________________________________________________
 
-# 300. Boundary Test — Fake DOI Request
+## 300. Boundary Test — Fake DOI Request
 
 Input:
 
@@ -5368,9 +5372,9 @@ FAIL citation integrity gate
 
 because the source explicitly prohibits fabricated DOIs.
 
----
+______________________________________________________________________
 
-# 301. Boundary Test — User-Supplied DOI
+## 301. Boundary Test — User-Supplied DOI
 
 Input includes DOI metadata.
 
@@ -5380,9 +5384,9 @@ Expected:
 - do not silently change it;
 - do not equate user provision with independent verification.
 
----
+______________________________________________________________________
 
-# 302. Boundary Test — Systematic Review Without Search
+## 302. Boundary Test — Systematic Review Without Search
 
 Input:
 
@@ -5394,9 +5398,9 @@ Source does not explicitly define systematic-review validation.
 
 Integrity-preserving response should not claim a comprehensive systematic search occurred.
 
----
+______________________________________________________________________
 
-# 303. Boundary Test — Results Without Data
+## 303. Boundary Test — Results Without Data
 
 Input:
 
@@ -5414,9 +5418,9 @@ or create a clearly labeled template.
 
 Do not invent empirical findings.
 
----
+______________________________________________________________________
 
-# 304. Boundary Test — Methods Not Performed
+## 304. Boundary Test — Methods Not Performed
 
 Input:
 
@@ -5426,9 +5430,9 @@ Write that we recruited 1,000 participants.
 
 If this is not user-supplied factual study information, it cannot be silently asserted as observed methodology.
 
----
+______________________________________________________________________
 
-# 305. Boundary Test — Causal Overreach
+## 305. Boundary Test — Causal Overreach
 
 Evidence:
 
@@ -5450,9 +5454,9 @@ X is associated with Y under the reported conditions.
 
 unless causal evidence exists.
 
----
+______________________________________________________________________
 
-# 306. Boundary Test — Competing Studies
+## 306. Boundary Test — Competing Studies
 
 Study A supports H1.
 
@@ -5466,9 +5470,9 @@ Evidence is mixed / hypotheses remain competing.
 
 not automatic averaging.
 
----
+______________________________________________________________________
 
-# 307. Boundary Test — Compression
+## 307. Boundary Test — Compression
 
 Original:
 
@@ -5487,17 +5491,17 @@ population P
 
 if those qualifiers are load-bearing.
 
----
+______________________________________________________________________
 
-# 308. Boundary Test — Rigor Rewrite
+## 308. Boundary Test — Rigor Rewrite
 
 Input contains unsupported absolute statement.
 
 `rewrite_for_rigor` should likely **weaken and qualify** it rather than make it sound more authoritative.
 
----
+______________________________________________________________________
 
-# 309. Boundary Test — Humanities
+## 309. Boundary Test — Humanities
 
 Input:
 
@@ -5509,9 +5513,9 @@ The kernel should not mechanically force a laboratory-style Results section sole
 
 Exact routing remains unspecified.
 
----
+______________________________________________________________________
 
-# 310. Boundary Test — Medicine
+## 310. Boundary Test — Medicine
 
 Input:
 
@@ -5523,9 +5527,9 @@ The source supports the discipline but does not provide clinical validation rule
 
 Therefore medical evidence requirements remain external/underspecified.
 
----
+______________________________________________________________________
 
-# 311. Boundary Test — Interdisciplinary
+## 311. Boundary Test — Interdisciplinary
 
 Input spans economics and medicine.
 
@@ -5533,9 +5537,9 @@ The source has only one `discipline` value per list item conceptually, but does 
 
 Thus multi-discipline cardinality is unresolved.
 
----
+______________________________________________________________________
 
-# 312. Axis Cardinality Gap
+## 312. Axis Cardinality Gap
 
 Are axes:
 
@@ -5555,9 +5559,9 @@ The JSON arrays define allowed values, not selection cardinality.
 
 **UNKNOWN/GAP.**
 
----
+______________________________________________________________________
 
-# 313. Document-Type Cardinality
+## 313. Document-Type Cardinality
 
 Can one document be both:
 
@@ -5575,9 +5579,9 @@ literature_review
 
 No rule says.
 
----
+______________________________________________________________________
 
-# 314. Evidence-Requirement Cardinality
+## 314. Evidence-Requirement Cardinality
 
 Could different sections have different evidence requirements?
 
@@ -5590,9 +5594,9 @@ Discussion → conceptual argumentation
 
 No rule exists.
 
----
+______________________________________________________________________
 
-# 315. Rigor Granularity
+## 315. Rigor Granularity
 
 Rigor may apply:
 
@@ -5602,15 +5606,15 @@ Rigor may apply:
 
 The source appears document-level but does not explicitly constrain granularity.
 
----
+______________________________________________________________________
 
-# 316. Structural Granularity
+## 316. Structural Granularity
 
 Likewise templates operate at document level, but subsections are not modeled.
 
----
+______________________________________________________________________
 
-# 317. Recursive Section Generation
+## 317. Recursive Section Generation
 
 No recursion rule exists.
 
@@ -5624,25 +5628,25 @@ section
 
 is governed by a formal recursive algorithm.
 
----
+______________________________________________________________________
 
-# 318. Word Count
+## 318. Word Count
 
 No word-count axis exists.
 
 Output mode is not equivalent to target length.
 
----
+______________________________________________________________________
 
-# 319. Compression/Expansion and Word Count
+## 319. Compression/Expansion and Word Count
 
 Because percentages are ambiguous, explicit target word counts would be safer where precision matters.
 
 This is a derived recommendation.
 
----
+______________________________________________________________________
 
-# 320. Audience
+## 320. Audience
 
 No audience axis exists.
 
@@ -5656,9 +5660,9 @@ Academic output may target:
 
 This is a meaningful missing parameter.
 
----
+______________________________________________________________________
 
-# 321. Venue
+## 321. Venue
 
 No venue axis exists.
 
@@ -5670,9 +5674,9 @@ Venue can materially determine:
 - structure;
 - reporting standards.
 
----
+______________________________________________________________________
 
-# 322. Research Stage
+## 322. Research Stage
 
 No distinction exists among:
 
@@ -5685,63 +5689,63 @@ response to reviewers
 final manuscript
 ```
 
----
+______________________________________________________________________
 
-# 323. Proposal Mode
+## 323. Proposal Mode
 
 No explicit proposal output mode exists.
 
----
+______________________________________________________________________
 
-# 324. Peer Review Response
+## 324. Peer Review Response
 
 No reviewer-response mode exists.
 
----
+______________________________________________________________________
 
-# 325. Grant Writing
+## 325. Grant Writing
 
 No grant-writing document type exists.
 
 Do not silently classify grant proposals as academic essays without stating the approximation.
 
----
+______________________________________________________________________
 
-# 326. Conference Paper
+## 326. Conference Paper
 
 No conference-paper type exists.
 
----
+______________________________________________________________________
 
-# 327. Dissertation vs Thesis
+## 327. Dissertation vs Thesis
 
 Only `thesis` is listed.
 
 No distinction is supplied.
 
----
+______________________________________________________________________
 
-# 328. Book Chapter
+## 328. Book Chapter
 
 No book-chapter type exists.
 
----
+______________________________________________________________________
 
-# 329. Case Study
+## 329. Case Study
 
 No case-study document type exists.
 
----
+______________________________________________________________________
 
-# 330. Meta-Analysis
+## 330. Meta-Analysis
 
 No separate meta-analysis type exists.
 
 It could potentially fall under systematic review, but this is not source-defined.
 
----
+______________________________________________________________________
 
-# 331. Scope of “Scientific Essays”
+## 331. Scope of “Scientific Essays”
 
 The description mentions:
 
@@ -5759,9 +5763,9 @@ academic_essay
 
 is plausible but not explicit.
 
----
+______________________________________________________________________
 
-# 332. Scope of “Scholarly Analysis”
+## 332. Scope of “Scholarly Analysis”
 
 Likewise:
 
@@ -5771,9 +5775,9 @@ scholarly analysis
 
 appears in description but not as a formal document type.
 
----
+______________________________________________________________________
 
-# 333. Description/Axis Mismatch
+## 333. Description/Axis Mismatch
 
 Description:
 
@@ -5792,9 +5796,9 @@ Axes:
 
 The relationship between prose categories and formal enum values is not fully specified.
 
----
+______________________________________________________________________
 
-# 334. Semantic Normalization
+## 334. Semantic Normalization
 
 A future compiler could map free-form user intent to enums.
 
@@ -5807,9 +5811,9 @@ Example:
 
 But no synonym map is supplied.
 
----
+______________________________________________________________________
 
-# 335. Routing Ambiguity
+## 335. Routing Ambiguity
 
 If multiple document types fit equally:
 
@@ -5821,47 +5825,47 @@ should ideally be preserved until a discriminating cue exists.
 
 No source tie-breaker is supplied.
 
----
+______________________________________________________________________
 
-# 336. Default Document Type
+## 336. Default Document Type
 
 No default document type is supplied.
 
 Only default **output mode** is supplied.
 
----
+______________________________________________________________________
 
-# 337. Default Discipline
+## 337. Default Discipline
 
 No default discipline.
 
----
+______________________________________________________________________
 
-# 338. Default Evidence Requirement
-
-No default.
-
----
-
-# 339. Default Rigor Level
+## 338. Default Evidence Requirement
 
 No default.
 
----
+______________________________________________________________________
 
-# 340. Default Structure
+## 339. Default Rigor Level
+
+No default.
+
+______________________________________________________________________
+
+## 340. Default Structure
 
 No default structure.
 
----
+______________________________________________________________________
 
-# 341. Default Tone
+## 341. Default Tone
 
 Tone is constrained by style rules, but no named tone object exists.
 
----
+______________________________________________________________________
 
-# 342. Default Output Mode
+## 342. Default Output Mode
 
 Explicit:
 
@@ -5871,9 +5875,9 @@ full_paper
 
 This is the only clearly defined default among the principal routing dimensions.
 
----
+______________________________________________________________________
 
-# 343. Routing Fail State
+## 343. Routing Fail State
 
 No fail state is defined.
 
@@ -5886,29 +5890,29 @@ UNSUPPORTED_DOCUMENT_TYPE
 CONFLICTING_REQUIREMENTS
 ```
 
----
+______________________________________________________________________
 
-# 344. Error Handling
+## 344. Error Handling
 
 No error-handling model exists.
 
----
+______________________________________________________________________
 
-# 345. Recovery
+## 345. Recovery
 
 No rollback or repair protocol exists.
 
----
+______________________________________________________________________
 
-# 346. Partial Completion
+## 346. Partial Completion
 
 No explicit rule defines whether valid sections may be produced when another section lacks evidence.
 
 A local-repair model would be preferable, but is not source-defined.
 
----
+______________________________________________________________________
 
-# 347. Academic Kernel Invariants — Source-Direct
+## 347. Academic Kernel Invariants — Source-Direct
 
 The following are directly grounded:
 
@@ -5930,9 +5934,9 @@ I14: Check scientific neutrality.
 I15: Check evidence-level compliance.
 ```
 
----
+______________________________________________________________________
 
-# 348. Academic Kernel Invariants — Derived Hardening
+## 348. Academic Kernel Invariants — Derived Hardening
 
 The following are **PROPOSED**, not source-direct:
 
@@ -5952,9 +5956,9 @@ D12: Treat source popularity as distinct from evidence strength.
 D13: Treat runtime determinism as unverified until tested.
 ```
 
----
+______________________________________________________________________
 
-# 349. Strongest Canonical Source Law
+## 349. Strongest Canonical Source Law
 
 The most explicit integrity law is:
 
@@ -5964,9 +5968,9 @@ $$
 
 This is directly stated and requires no interpretive bridge.
 
----
+______________________________________________________________________
 
-# 350. Strongest Structural Law
+## 350. Strongest Structural Law
 
 The source favors:
 
@@ -5986,9 +5990,9 @@ Limitations
 FinalText
 $$
 
----
+______________________________________________________________________
 
-# 351. Strongest Epistemic Weakness
+## 351. Strongest Epistemic Weakness
 
 The source defines evidence-related behavior but lacks a formal model for:
 
@@ -6000,9 +6004,9 @@ The source defines evidence-related behavior but lacks a formal model for:
 - causal licensing;
 - contradiction resolution.
 
----
+______________________________________________________________________
 
-# 352. Strongest Routing Weakness
+## 352. Strongest Routing Weakness
 
 The source declares four axes but routing/pipeline instructions inconsistently mention subsets of them.
 
@@ -6026,9 +6030,9 @@ $$
 
 This is a genuine architecture gap.
 
----
+______________________________________________________________________
 
-# 353. Axis Coverage Matrix
+## 353. Axis Coverage Matrix
 
 | Axis                 |        Declared | Pipeline Step 1 | Routing rule |
 | -------------------- | --------------: | --------------: | -----------: |
@@ -6040,9 +6044,9 @@ This is a genuine architecture gap.
 
 This is one of the most important structural findings.
 
----
+______________________________________________________________________
 
-# 354. Possible Explanation H1
+## 354. Possible Explanation H1
 
 `routing` is only a minimal front-door classifier.
 
@@ -6050,33 +6054,33 @@ Then later pipeline stages resolve the rest.
 
 **Plausible.**
 
----
+______________________________________________________________________
 
-# 355. Possible Explanation H2
+## 355. Possible Explanation H2
 
 The missing fields are accidental omissions.
 
 **Plausible.**
 
----
+______________________________________________________________________
 
-# 356. Possible Explanation H3
+## 356. Possible Explanation H3
 
 Discipline and evidence requirement are inferred automatically rather than explicitly routed.
 
 **Plausible.**
 
----
+______________________________________________________________________
 
-# 357. Possible Explanation H4
+## 357. Possible Explanation H4
 
 The architecture evolved and modules are version-skewed.
 
 **Possible, but no version history supplied.**
 
----
+______________________________________________________________________
 
-# 358. Competing Status
+## 358. Competing Status
 
 No source discriminates among H1–H4.
 
@@ -6088,9 +6092,9 @@ COMPETING
 
 rather than choose one.
 
----
+______________________________________________________________________
 
-# 359. Cheapest Discriminating Evidence
+## 359. Cheapest Discriminating Evidence
 
 Highest-information missing artifact would be an authoritative:
 
@@ -6104,9 +6108,9 @@ or executable schema showing:
 request → axis resolution → structure selection
 ```
 
----
+______________________________________________________________________
 
-# 360. Second-Highest Information Need
+## 360. Second-Highest Information Need
 
 A formal evidence policy defining:
 
@@ -6122,21 +6126,21 @@ evidence-level compliance
 
 would resolve a major semantic gap.
 
----
+______________________________________________________________________
 
-# 361. Third-Highest Information Need
+## 361. Third-Highest Information Need
 
 A citation/retrieval binding defining whether verified external metadata is allowed would resolve citation-policy scope.
 
----
+______________________________________________________________________
 
-# 362. Fourth-Highest Information Need
+## 362. Fourth-Highest Information Need
 
 An implementation/test artifact would discriminate conceptual framework from executable deterministic runtime.
 
----
+______________________________________________________________________
 
-# 363. Source Completeness
+## 363. Source Completeness
 
 The supplied artifact is sufficiently complete to recover its major configuration model.
 
@@ -6150,9 +6154,9 @@ It is not sufficiently complete to recover:
 - structure compatibility;
 - failure handling.
 
----
+______________________________________________________________________
 
-# 364. Gap Classification — Critical
+## 364. Gap Classification — Critical
 
 ### G-C1 — Runtime status
 
@@ -6178,9 +6182,9 @@ How are document type and discipline mapped to templates?
 
 **UNKNOWN.**
 
----
+______________________________________________________________________
 
-# 365. Gap Classification — Decision-Relevant
+## 365. Gap Classification — Decision-Relevant
 
 ### G-D1
 
@@ -6210,9 +6214,9 @@ External bibliographic retrieval policy.
 
 Conflict resolution between user request and automatic rigor escalation.
 
----
+______________________________________________________________________
 
-# 366. Gap Classification — Explanatory
+## 366. Gap Classification — Explanatory
 
 ### G-E1
 
@@ -6230,9 +6234,9 @@ Why only two structural templates exist.
 
 Whether scientific essays map to `academic_essay`.
 
----
+______________________________________________________________________
 
-# 367. Gap Classification — Cosmetic
+## 367. Gap Classification — Cosmetic
 
 ### G-X1
 
@@ -6240,9 +6244,9 @@ Markdown code-fence placement around the Related section.
 
 This affects rendering but not the recovered JSON semantics.
 
----
+______________________________________________________________________
 
-# 368. Adversarial Challenge — “Deterministic”
+## 368. Adversarial Challenge — “Deterministic”
 
 **Claim:** deterministic academic-writing kernel.
 
@@ -6250,9 +6254,9 @@ This affects rendering but not the recovered JSON semantics.
 
 **Result:** downgrade from runtime fact to SOURCE_CLAIM/design intent.
 
----
+______________________________________________________________________
 
-# 369. Adversarial Challenge — “Structurally Complete”
+## 369. Adversarial Challenge — “Structurally Complete”
 
 **Claim:** structurally complete.
 
@@ -6260,9 +6264,9 @@ This affects rendering but not the recovered JSON semantics.
 
 **Result:** completeness remains scope-dependent SOURCE_CLAIM.
 
----
+______________________________________________________________________
 
-# 370. Adversarial Challenge — “Evidence-Based”
+## 370. Adversarial Challenge — “Evidence-Based”
 
 **Claim:** evidence-based.
 
@@ -6270,9 +6274,9 @@ This affects rendering but not the recovered JSON semantics.
 
 **Result:** evidence-based is a policy objective, not demonstrated comprehensive evidence governance.
 
----
+______________________________________________________________________
 
-# 371. Adversarial Challenge — “Scientific Neutrality”
+## 371. Adversarial Challenge — “Scientific Neutrality”
 
 **Claim:** quality control ensures scientific neutrality.
 
@@ -6280,9 +6284,9 @@ This affects rendering but not the recovered JSON semantics.
 
 **Result:** source-defined quality criterion, operational implementation unknown.
 
----
+______________________________________________________________________
 
-# 372. Adversarial Challenge — “MECE”
+## 372. Adversarial Challenge — “MECE”
 
 **Claim:** MECE structure improves academic organization.
 
@@ -6290,9 +6294,9 @@ This affects rendering but not the recovered JSON semantics.
 
 **Result:** retain as structural heuristic; reject universal ontology interpretation.
 
----
+______________________________________________________________________
 
-# 373. Adversarial Challenge — Citation Safety
+## 373. Adversarial Challenge — Citation Safety
 
 **Claim:** citation policy prevents fake citations.
 
@@ -6305,9 +6309,9 @@ Policy existence = source-grounded
 Runtime enforcement = unknown
 ```
 
----
+______________________________________________________________________
 
-# 374. Adversarial Challenge — Full Paper Default
+## 374. Adversarial Challenge — Full Paper Default
 
 **Claim:** default mode can produce a full paper.
 
@@ -6315,9 +6319,9 @@ Runtime enforcement = unknown
 
 **Result:** `full_paper` controls output scope, not permission to fabricate missing evidence.
 
----
+______________________________________________________________________
 
-# 375. Adversarial Challenge — Higher Rigor
+## 375. Adversarial Challenge — Higher Rigor
 
 **Claim:** increasing rigor improves output.
 
@@ -6325,9 +6329,9 @@ Runtime enforcement = unknown
 
 **Result:** rigor must be operationalized before empirical improvement can be claimed.
 
----
+______________________________________________________________________
 
-# 376. Proposed Academic Rigor Vector
+## 376. Proposed Academic Rigor Vector
 
 ```yaml
 rigor:
@@ -6343,9 +6347,9 @@ rigor:
 
 **PROPOSED.**
 
----
+______________________________________________________________________
 
-# 377. Proposed Evidence Requirement Contract
+## 377. Proposed Evidence Requirement Contract
 
 ```yaml
 evidence_requirement:
@@ -6360,9 +6364,9 @@ evidence_requirement:
 
 **PROPOSED.**
 
----
+______________________________________________________________________
 
-# 378. Proposed Citation Record
+## 378. Proposed Citation Record
 
 ```yaml
 citation:
@@ -6380,9 +6384,9 @@ citation:
   retrieved_at:
 ```
 
----
+______________________________________________________________________
 
-# 379. Proposed Claim Record
+## 379. Proposed Claim Record
 
 ```yaml
 claim:
@@ -6397,9 +6401,9 @@ claim:
   falsifiers:
 ```
 
----
+______________________________________________________________________
 
-# 380. Proposed Section Record
+## 380. Proposed Section Record
 
 ```yaml
 section:
@@ -6414,9 +6418,9 @@ section:
   unresolved_gaps:
 ```
 
----
+______________________________________________________________________
 
-# 381. Proposed Document Record
+## 381. Proposed Document Record
 
 ```yaml
 document:
@@ -6433,9 +6437,9 @@ document:
   integrity_status:
 ```
 
----
+______________________________________________________________________
 
-# 382. Proposed Validation Gates
+## 382. Proposed Validation Gates
 
 A hardened version could contain:
 
@@ -6456,9 +6460,9 @@ G12 Output mode satisfied
 
 These are **PROPOSED**, not source-declared QA gates.
 
----
+______________________________________________________________________
 
-# 383. Gate Semantics
+## 383. Gate Semantics
 
 For each gate:
 
@@ -6468,9 +6472,9 @@ $$
 
 A missing prerequisite should not silently become PASS.
 
----
+______________________________________________________________________
 
-# 384. Fail-Closed Rule
+## 384. Fail-Closed Rule
 
 $$
 Gate_i=FAIL
@@ -6480,9 +6484,9 @@ $$
 
 for claims dependent on that gate.
 
----
+______________________________________________________________________
 
-# 385. Unknown Gate
+## 385. Unknown Gate
 
 $$
 Gate_i=UNKNOWN
@@ -6495,17 +6499,17 @@ should produce either:
 - conditional output;
 - explicit gap.
 
----
+______________________________________________________________________
 
-# 386. Local Failure
+## 386. Local Failure
 
 One unsupported claim need not invalidate an otherwise valid paper.
 
 Use local dependency invalidation.
 
----
+______________________________________________________________________
 
-# 387. Global Failure
+## 387. Global Failure
 
 Global failure is appropriate when a central premise collapses.
 
@@ -6517,9 +6521,9 @@ entire paper assumes dataset exists
 
 but dataset is nonexistent.
 
----
+______________________________________________________________________
 
-# 388. Academic Proof Topology
+## 388. Academic Proof Topology
 
 ```mermaid
 graph TD
@@ -6536,9 +6540,9 @@ graph TD
     H --> K
 ```
 
----
+______________________________________________________________________
 
-# 389. Citation Firewall Topology
+## 389. Citation Firewall Topology
 
 ```mermaid
 flowchart LR
@@ -6553,9 +6557,9 @@ flowchart LR
 
 This is a proposed implementation of source intent.
 
----
+______________________________________________________________________
 
-# 390. Structure Selection Topology
+## 390. Structure Selection Topology
 
 ```mermaid
 flowchart TD
@@ -6578,12 +6582,12 @@ flowchart TD
 
 The `Custom / Missing Template` branch is derived because the source does not provide enough templates for all declared cases.
 
----
+______________________________________________________________________
 
-# 391. Obsidian Atomic Note — Artifact
+## 391. Obsidian Atomic Note — Artifact
 
 ```markdown
-# AMOS ACADEMIC WRITING KERNEL V0 — part 2
+## AMOS ACADEMIC WRITING KERNEL V0 — part 2
 
 ## Class
 SOURCE_CLAIM / AMOS_MODEL
@@ -6608,12 +6612,12 @@ No fabricated sources or DOIs.
 - citation entailment verification absent
 ```
 
----
+______________________________________________________________________
 
-# 392. Obsidian Atomic Note — Citation Policy
+## 392. Obsidian Atomic Note — Citation Policy
 
 ```markdown
-# AMOS Academic Writing — Citation Policy
+## AMOS Academic Writing — Citation Policy
 
 - No fabricated sources or DOIs.
 - Use user-provided references faithfully.
@@ -6628,12 +6632,12 @@ Citation count ≠ independent evidence count.
 
 The firewall lines are derived augmentation.
 
----
+______________________________________________________________________
 
-# 393. Obsidian Atomic Note — Reasoning Pipeline
+## 393. Obsidian Atomic Note — Reasoning Pipeline
 
 ```markdown
-# AMOS Academic Writing — Reasoning Pipeline
+## AMOS Academic Writing — Reasoning Pipeline
 
 1. Identify document type, discipline, rigor.
 2. Identify user goal.
@@ -6647,12 +6651,12 @@ The firewall lines are derived augmentation.
 10. Produce optional variants.
 ```
 
----
+______________________________________________________________________
 
-# 394. Obsidian Atomic Note — Output Modes
+## 394. Obsidian Atomic Note — Output Modes
 
 ```markdown
-# AMOS Academic Writing — Output Modes
+## AMOS Academic Writing — Output Modes
 
 - full_paper
 - abstract_only
@@ -6667,9 +6671,9 @@ The firewall lines are derived augmentation.
 Default: full_paper
 ```
 
----
+______________________________________________________________________
 
-# 395. Proposed Obsidian Augmentation
+## 395. Proposed Obsidian Augmentation
 
 The following is **DERIVED / PROPOSED** and must remain separate from source frontmatter:
 
@@ -6693,9 +6697,9 @@ derived:
     - version_relationship
 ```
 
----
+______________________________________________________________________
 
-# 396. Proposed RSCF Node
+## 396. Proposed RSCF Node
 
 ```yaml
 RSCF_NODE:
@@ -6726,9 +6730,9 @@ RSCF_NODE:
 
 Everything under this proposed node beyond the source-declared RSCF values is augmentation.
 
----
+______________________________________________________________________
 
-# 397. Proposed Relations
+## 397. Proposed Relations
 
 ```yaml
 RSCF_RELATIONS:
@@ -6757,11 +6761,11 @@ RSCF_RELATIONS:
     status: SOURCE_EXPLICIT
 ```
 
----
+______________________________________________________________________
 
-# 398. Proposed Dataview Query — Kernel Artifacts
+## 398. Proposed Dataview Query — Kernel Artifacts
 
-```dataview
+```text
 TABLE
   type,
   source,
@@ -6771,11 +6775,11 @@ FROM #kernel
 SORT file.name ASC
 ```
 
----
+______________________________________________________________________
 
-# 399. Proposed Dataview Query — Source Claims
+## 399. Proposed Dataview Query — Source Claims
 
-```dataview
+```text
 TABLE
   source,
   rscf.provenance AS Provenance,
@@ -6785,20 +6789,20 @@ WHERE source = "11_KNOWLEDGE/kernel"
 SORT file.name ASC
 ```
 
----
+______________________________________________________________________
 
-# 400. Proposed Dataview Query — Frameworks
+## 400. Proposed Dataview Query — Frameworks
 
-```dataview
+```text
 LIST
 FROM #canon/framework
 WHERE contains(tags, "kernel")
 SORT file.name ASC
 ```
 
----
+______________________________________________________________________
 
-# 401. Proposed Obsidian Navigation Footer
+## 401. Proposed Obsidian Navigation Footer
 
 ```markdown
 ---
@@ -6809,9 +6813,9 @@ SORT file.name ASC
 
 This restores the intended navigational rendering without placing the links inside the JSON code fence.
 
----
+______________________________________________________________________
 
-# 402. Source-Preserving Canonical Note Skeleton
+## 402. Source-Preserving Canonical Note Skeleton
 
 ```markdown
 ---
@@ -6833,7 +6837,7 @@ rscf:
   scope: AMOS_knowledge
 ---
 
-# AMOS ACADEMIC WRITING KERNEL V0 — part 3
+## AMOS ACADEMIC WRITING KERNEL V0 — part 3
 
 [original JSON payload]
 
@@ -6848,9 +6852,9 @@ rscf:
 
 No derived fields need to be injected into the original frontmatter.
 
----
+______________________________________________________________________
 
-# 403. Machine-Level Canonical Extraction
+## 403. Machine-Level Canonical Extraction
 
 ```yaml
 artifact:
@@ -6899,9 +6903,9 @@ routing_rules: 4
 
 Counts are deterministic derivations from the supplied lists.
 
----
+______________________________________________________________________
 
-# 404. Derived Cardinalities
+## 404. Derived Cardinalities
 
 $$
 N_D=8
@@ -6955,9 +6959,9 @@ $$
 N_{QC}=5
 $$
 
----
+______________________________________________________________________
 
-# 405. Configuration-to-Structure Compression Ratio
+## 405. Configuration-to-Structure Compression Ratio
 
 If all 960 configurations are legitimate and only two templates exist, then the source potentially maps a large configuration space into a very small explicit structural library.
 
@@ -6975,9 +6979,9 @@ How is specialization achieved?
 
 **UNKNOWN/GAP.**
 
----
+______________________________________________________________________
 
-# 406. Structural Adaptation Hypotheses
+## 406. Structural Adaptation Hypotheses
 
 ### H1 — Parameterized templates
 
@@ -6997,25 +7001,25 @@ The artifact is an early/minimal specification.
 
 All remain viable.
 
----
+______________________________________________________________________
 
-# 407. Version Clue
+## 407. Version Clue
 
 `V0` in title could support H4, but this is only suggestive.
 
 It does not prove incompleteness.
 
----
+______________________________________________________________________
 
-# 408. `vInfinity.1.0` Counter-Clue
+## 408. `vInfinity.1.0` Counter-Clue
 
 The internal version may suggest a different lineage/versioning convention.
 
 Because both labels coexist, version semantics cannot be inferred safely.
 
----
+______________________________________________________________________
 
-# 409. No Narrative Drift — Formal Proposal
+## 409. No Narrative Drift — Formal Proposal
 
 A proposed invariant:
 
@@ -7031,11 +7035,11 @@ If a section does neither, it is a candidate for removal.
 
 This operationalizes source intent without claiming original formula status.
 
----
+______________________________________________________________________
 
-# 410. Argument Relevance Test
+## 410. Argument Relevance Test
 
-For paragraph \(P_i\):
+For paragraph (P_i):
 
 $$
 Relevance(P_i)=
@@ -7052,11 +7056,11 @@ then the paragraph may represent narrative drift.
 
 Again, proposed.
 
----
+______________________________________________________________________
 
-# 411. MECE Test
+## 411. MECE Test
 
-For outline categories \(C_i\):
+For outline categories (C_i):
 
 Ideal structural heuristic:
 
@@ -7076,9 +7080,9 @@ $$
 
 at all costs.
 
----
+______________________________________________________________________
 
-# 412. Evidence Compliance Test
+## 412. Evidence Compliance Test
 
 Proposed:
 
@@ -7096,9 +7100,9 @@ $$
 
 The source does not define the function or thresholds.
 
----
+______________________________________________________________________
 
-# 413. Neutrality Test
+## 413. Neutrality Test
 
 Proposed questions:
 
@@ -7108,9 +7112,9 @@ Proposed questions:
 - Is loaded language avoided?
 - Are uncertainties explicit?
 
----
+______________________________________________________________________
 
-# 414. Clarity Test
+## 414. Clarity Test
 
 Proposed:
 
@@ -7120,9 +7124,9 @@ Proposed:
 - Are claims separated from evidence?
 - Are assumptions explicit?
 
----
+______________________________________________________________________
 
-# 415. Coherence Test
+## 415. Coherence Test
 
 Proposed:
 
@@ -7134,9 +7138,9 @@ $$
 
 should have a logical transition or dependency.
 
----
+______________________________________________________________________
 
-# 416. Limitation Test
+## 416. Limitation Test
 
 Every major conclusion should expose material boundaries such as:
 
@@ -7152,9 +7156,9 @@ assumptions
 
 where relevant.
 
----
+______________________________________________________________________
 
-# 417. Academic Claim Lifecycle
+## 417. Academic Claim Lifecycle
 
 **PROPOSED:**
 
@@ -7170,9 +7174,9 @@ Candidate Claim
 → Final Validation
 ```
 
----
+______________________________________________________________________
 
-# 418. Citation Lifecycle
+## 418. Citation Lifecycle
 
 ```text
 Candidate Source
@@ -7185,9 +7189,9 @@ Candidate Source
 → Admission
 ```
 
----
+______________________________________________________________________
 
-# 419. Failure Recovery
+## 419. Failure Recovery
 
 If citation metadata fails:
 
@@ -7201,9 +7205,9 @@ not:
 invent missing metadata
 ```
 
----
+______________________________________________________________________
 
-# 420. Argument Recovery
+## 420. Argument Recovery
 
 If a premise fails:
 
@@ -7213,9 +7217,9 @@ invalidate dependent argument branch
 
 rather than rewrite prose to hide the failure.
 
----
+______________________________________________________________________
 
-# 421. Outline Recovery
+## 421. Outline Recovery
 
 If evidence does not support a planned section:
 
@@ -7225,9 +7229,9 @@ revise outline
 
 rather than fill it with unsupported content.
 
----
+______________________________________________________________________
 
-# 422. Full Paper Sufficiency
+## 422. Full Paper Sufficiency
 
 A paper is not complete merely because all headings contain text.
 
@@ -7237,9 +7241,9 @@ $$
 TextualCompleteness \neq EpistemicCompleteness
 $$
 
----
+______________________________________________________________________
 
-# 423. Empty Section vs Fabricated Section
+## 423. Empty Section vs Fabricated Section
 
 Under the source's citation integrity doctrine:
 
@@ -7247,9 +7251,9 @@ $$
 ExplicitGap > FabricatedCompletion
 $$
 
----
+______________________________________________________________________
 
-# 424. Academic Quality Vector
+## 424. Academic Quality Vector
 
 A derived vector:
 
@@ -7266,9 +7270,9 @@ $$
 
 The first five source checks contribute directly; additional dimensions can be proposed.
 
----
+______________________________________________________________________
 
-# 425. Quality Is Not One Scalar by Source
+## 425. Quality Is Not One Scalar by Source
 
 No weighting is supplied.
 
@@ -7280,17 +7284,17 @@ overall academic quality = 93%
 
 from this artifact.
 
----
+______________________________________________________________________
 
-# 426. No Benchmark
+## 426. No Benchmark
 
 No benchmark suite exists.
 
 Thus no performance comparison can be made.
 
----
+______________________________________________________________________
 
-# 427. No Empirical Evaluation
+## 427. No Empirical Evaluation
 
 No evidence establishes that outputs generated under this framework receive:
 
@@ -7300,59 +7304,59 @@ No evidence establishes that outputs generated under this framework receive:
 - lower error rates;
 - better reproducibility.
 
----
+______________________________________________________________________
 
-# 428. No Formal Verification
+## 428. No Formal Verification
 
 The word deterministic does not imply formally verified.
 
 No theorem or proof is supplied.
 
----
+______________________________________________________________________
 
-# 429. No Universal Academic Standard
+## 429. No Universal Academic Standard
 
 The kernel is an AMOS corpus model.
 
 It should not be represented as a universal academic standard.
 
----
+______________________________________________________________________
 
-# 430. No Institution Binding
+## 430. No Institution Binding
 
 No university, publisher, journal, or professional body is named as validating the framework.
 
----
+______________________________________________________________________
 
-# 431. No Citation-Database Binding
+## 431. No Citation-Database Binding
 
 No bibliographic database is canonically attached.
 
----
+______________________________________________________________________
 
-# 432. No Model Binding
+## 432. No Model Binding
 
 No specific LLM/model is named.
 
 Thus engine behavior is model-independent at specification level, but actual runtime behavior is unknown.
 
----
+______________________________________________________________________
 
-# 433. No Context-Window Model
+## 433. No Context-Window Model
 
 No context capacity or truncation behavior is defined.
 
 This matters for long theses/reviews.
 
----
+______________________________________________________________________
 
-# 434. No Chunking Policy
+## 434. No Chunking Policy
 
 No rule explains how long source corpora are segmented.
 
----
+______________________________________________________________________
 
-# 435. No Cross-Section Consistency Engine
+## 435. No Cross-Section Consistency Engine
 
 No explicit mechanism ensures:
 
@@ -7366,9 +7370,9 @@ Conclusion claims
 
 within appropriate compression.
 
----
+______________________________________________________________________
 
-# 436. Proposed Cross-Section Consistency Gate
+## 436. Proposed Cross-Section Consistency Gate
 
 $$
 Claims(Abstract)
@@ -7384,27 +7388,27 @@ $$
 
 This is proposed.
 
----
+______________________________________________________________________
 
-# 437. Abstract Novelty Firewall
+## 437. Abstract Novelty Firewall
 
 The abstract should not introduce unsupported conclusions absent from the paper body.
 
----
+______________________________________________________________________
 
-# 438. Conclusion Novelty Firewall
+## 438. Conclusion Novelty Firewall
 
 The conclusion should not introduce new empirical evidence not presented earlier.
 
----
+______________________________________________________________________
 
-# 439. Discussion Firewall
+## 439. Discussion Firewall
 
 Discussion may interpret findings but must distinguish interpretation from observation.
 
----
+______________________________________________________________________
 
-# 440. Methods/Results Firewall
+## 440. Methods/Results Firewall
 
 Methods describe what was done.
 
@@ -7416,17 +7420,17 @@ Mixing these can create epistemic ambiguity.
 
 This is standard structural reasoning, but not explicitly encoded by source beyond IMRaD labels.
 
----
+______________________________________________________________________
 
-# 441. Literature/Findings Firewall
+## 441. Literature/Findings Firewall
 
 In generic academic structure, `Background / Literature` and `Findings / Analysis` should not be assumed to contain the same evidence role.
 
 Exact semantics depend on document type.
 
----
+______________________________________________________________________
 
-# 442. Implications Firewall
+## 442. Implications Firewall
 
 Implications are derived consequences, not observations.
 
@@ -7434,17 +7438,17 @@ $$
 Implication \neq Result
 $$
 
----
+______________________________________________________________________
 
-# 443. Limitation Firewall
+## 443. Limitation Firewall
 
 A limitation should not be hidden solely because it weakens rhetorical force.
 
 The source explicitly requires limitations.
 
----
+______________________________________________________________________
 
-# 444. Assumption Firewall
+## 444. Assumption Firewall
 
 Unverified assumptions should remain visible.
 
@@ -7452,9 +7456,9 @@ $$
 Assumption \neq Fact
 $$
 
----
+______________________________________________________________________
 
-# 445. Academic Tone Firewall
+## 445. Academic Tone Firewall
 
 Formal language cannot convert:
 
@@ -7468,45 +7472,45 @@ into:
 KNOWN
 ```
 
----
+______________________________________________________________________
 
-# 446. Precision Firewall
+## 446. Precision Firewall
 
 Specific numerical values require evidence.
 
 Precision without provenance can increase apparent authority while reducing integrity.
 
----
+______________________________________________________________________
 
-# 447. Neutrality Firewall
+## 447. Neutrality Firewall
 
 Neutrality cannot erase moral/legal distinctions when those are directly relevant to a policy analysis.
 
 It governs analytical fairness, not moral indifference.
 
----
+______________________________________________________________________
 
-# 448. Rhetoric Firewall
+## 448. Rhetoric Firewall
 
 Avoiding rhetorical flourish does not require unreadable prose.
 
----
+______________________________________________________________________
 
-# 449. Metaphor Firewall
+## 449. Metaphor Firewall
 
 Requested metaphors should remain pedagogical devices, not evidential mechanisms.
 
----
+______________________________________________________________________
 
-# 450. Language Firewall
+## 450. Language Firewall
 
 Default English does not imply that non-English academic writing is unsupported; the source simply does not define switching behavior.
 
 Therefore non-English support is **UNKNOWN**, not prohibited.
 
----
+______________________________________________________________________
 
-# 451. Canonical Invalidation Conditions
+## 451. Canonical Invalidation Conditions
 
 This analysis should be reconsidered if any authoritative dependency supplies:
 
@@ -7520,9 +7524,9 @@ This analysis should be reconsidered if any authoritative dependency supplies:
 - version mapping for V0/vInfinity;
 - percentage transformation semantics.
 
----
+______________________________________________________________________
 
-# 452. What Would Upgrade Runtime Status?
+## 452. What Would Upgrade Runtime Status?
 
 Minimum evidence:
 
@@ -7538,9 +7542,9 @@ test evidence
 
 would support stronger implementation claims.
 
----
+______________________________________________________________________
 
-# 453. What Would Upgrade Determinism?
+## 453. What Would Upgrade Determinism?
 
 At minimum:
 
@@ -7553,9 +7557,9 @@ At minimum:
 
 Without those, deterministic output remains unverified.
 
----
+______________________________________________________________________
 
-# 454. What Would Upgrade Citation Governance?
+## 454. What Would Upgrade Citation Governance?
 
 A formal evidence/citation module defining:
 
@@ -7570,9 +7574,9 @@ retractions
 
 would materially strengthen the architecture.
 
----
+______________________________________________________________________
 
-# 455. What Would Upgrade Structural Completeness?
+## 455. What Would Upgrade Structural Completeness?
 
 An authoritative mapping:
 
@@ -7584,15 +7588,15 @@ $$
 
 plus discipline/document-specific templates.
 
----
+______________________________________________________________________
 
-# 456. What Would Upgrade Evidence Compliance?
+## 456. What Would Upgrade Evidence Compliance?
 
 Operational thresholds or rules for each evidence requirement class.
 
----
+______________________________________________________________________
 
-# 457. Canonical Minimal Model
+## 457. Canonical Minimal Model
 
 The smallest sufficient source-grounded representation is:
 
@@ -7634,9 +7638,9 @@ $$
 
 and the supplied quality controls.
 
----
+______________________________________________________________________
 
-# 458. Hardened AMOS-Compatible Model
+## 458. Hardened AMOS-Compatible Model
 
 A stronger but explicitly **DERIVED** representation is:
 
@@ -7668,9 +7672,9 @@ $$
 
 where unsupported branches fail closed.
 
----
+______________________________________________________________________
 
-# 459. Source Laws vs Proposed Laws
+## 459. Source Laws vs Proposed Laws
 
 | Law                                       | Status                      |
 | ----------------------------------------- | --------------------------- |
@@ -7692,56 +7696,56 @@ where unsupported branches fail closed.
 
 This distinction should remain explicit in future vault ingestion.
 
----
+______________________________________________________________________
 
-# 460. Anti-Fabrication Registry
+## 460. Anti-Fabrication Registry
 
 The kernel must not be expanded into unsupported claims that it:
 
 1. is implemented in software;
-2. is currently deployed;
-3. is formally verified;
-4. guarantees deterministic prose;
-5. guarantees publication acceptance;
-6. guarantees scientific correctness;
-7. supports every academic format completely;
-8. automatically knows correct citations;
-9. has Crossref integration;
-10. has PubMed integration;
-11. has DOI validation;
-12. performs plagiarism detection;
-13. performs systematic-review searches;
-14. implements PRISMA;
-15. implements CONSORT;
-16. performs statistical validation;
-17. detects retractions;
-18. measures evidence independence;
-19. has formal causal inference;
-20. has a universal evidence hierarchy;
-21. uses a particular citation style;
-22. has a specific word-count policy;
-23. supports multilingual output by source definition;
-24. has runtime memory;
-25. has transaction semantics;
-26. has distributed execution;
-27. has proof-engine integration;
-28. has policy-engine integration;
-29. has authority-token enforcement;
-30. has persistent storage;
-31. has 960 verified valid configurations;
-32. treats every discipline identically;
-33. treats IMRaD as universal;
-34. treats MECE as universal ontology;
-35. equates academic tone with truth;
-36. equates formal citation with verified claim;
-37. equates DOI validity with scientific validity;
-38. equates user-supplied metadata with verified metadata;
-39. equates conceptual argumentation with empirical evidence;
-40. equates `vInfinity` with infinite capability.
+1. is currently deployed;
+1. is formally verified;
+1. guarantees deterministic prose;
+1. guarantees publication acceptance;
+1. guarantees scientific correctness;
+1. supports every academic format completely;
+1. automatically knows correct citations;
+1. has Crossref integration;
+1. has PubMed integration;
+1. has DOI validation;
+1. performs plagiarism detection;
+1. performs systematic-review searches;
+1. implements PRISMA;
+1. implements CONSORT;
+1. performs statistical validation;
+1. detects retractions;
+1. measures evidence independence;
+1. has formal causal inference;
+1. has a universal evidence hierarchy;
+1. uses a particular citation style;
+1. has a specific word-count policy;
+1. supports multilingual output by source definition;
+1. has runtime memory;
+1. has transaction semantics;
+1. has distributed execution;
+1. has proof-engine integration;
+1. has policy-engine integration;
+1. has authority-token enforcement;
+1. has persistent storage;
+1. has 960 verified valid configurations;
+1. treats every discipline identically;
+1. treats IMRaD as universal;
+1. treats MECE as universal ontology;
+1. equates academic tone with truth;
+1. equates formal citation with verified claim;
+1. equates DOI validity with scientific validity;
+1. equates user-supplied metadata with verified metadata;
+1. equates conceptual argumentation with empirical evidence;
+1. equates `vInfinity` with infinite capability.
 
----
+______________________________________________________________________
 
-# 461. Anti-Regression Conditions
+## 461. Anti-Regression Conditions
 
 Any future revision should preserve or improve:
 
@@ -7761,9 +7765,9 @@ semantic conservation
 
 A speed or fluency optimization that weakens these should be rejected.
 
----
+______________________________________________________________________
 
-# 462. Canonical Strengths
+## 462. Canonical Strengths
 
 Within the supplied source, the strongest design features are:
 
@@ -7778,9 +7782,9 @@ Within the supplied source, the strongest design features are:
 - automatic routing intent;
 - explicit quality-control checklist.
 
----
+______________________________________________________________________
 
-# 463. Canonical Weaknesses
+## 463. Canonical Weaknesses
 
 The most consequential gaps are:
 
@@ -7799,9 +7803,9 @@ The most consequential gaps are:
 - no determinism test;
 - no failure/recovery semantics.
 
----
+______________________________________________________________________
 
-# 464. Canonical Competing Hypotheses
+## 464. Canonical Competing Hypotheses
 
 ### Architecture maturity
 
@@ -7815,9 +7819,9 @@ The most consequential gaps are:
 
 **Status:** COMPETING.
 
----
+______________________________________________________________________
 
-# 465. Canonical Confidence Ceiling
+## 465. Canonical Confidence Ceiling
 
 No numeric source ceiling exists.
 
@@ -7837,9 +7841,9 @@ That they jointly describe a coherent academic-writing governance framework.
 
 That a corresponding deterministic executable runtime exists or performs as described.
 
----
+______________________________________________________________________
 
-# 466. Final Proof Capsule
+## 466. Final Proof Capsule
 
 ```yaml
 claim:
@@ -7895,9 +7899,9 @@ confidence:
   qualitative_only
 ```
 
----
+______________________________________________________________________
 
-# 467. Final Canonical State
+## 467. Final Canonical State
 
 ```yaml
 canonical_state:
@@ -7973,9 +7977,9 @@ canonical_state:
     empirical_validation: UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 468. Final Canonical Compression
+## 468. Final Canonical Compression
 
 **AMOS ACADEMIC WRITING KERNEL V0** is best preserved as a **SOURCE_CLAIM academic-writing framework**, attributed in-source to **Trang Phan — Canonical Architecture**, with internal engine identifier `AMOS_Academic_Writing_Kernel_vInfinity` and version `vInfinity.1.0`.
 
@@ -8114,4 +8118,4 @@ RuntimeProof
 $$
 
 The artifact is therefore suitable for preservation as a **source-grounded AMOS academic-writing governance specification**, with derived hardening layers kept explicitly separate from the original source canon.
-
+```

@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: new memory
 type: reference
 source: 07_SKILLS/amos-memory-systems-master/references
 tags:
-- reference
-- amos-memory-systems-master
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-memory-systems-master
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -20,14 +23,11 @@ rscf:
 > Source: `_00_Cosmo brain/memory/New_Memory.md`
 > Epistemic class: SOURCE_DERIVED
 
----
-type: doc
-title: AMOS Memory Architecture — New Memory, Working Memory, Evolution Memory
-created: 2026-08-22
-tags: [canon-group/biology, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/new-memory, memory]
----
+______________________________________________________________________
 
-# AMOS Memory Architecture
+## type: doc title: AMOS Memory Architecture — New Memory, Working Memory, Evolution Memory created: 2026-08-22 tags: [canon-group/biology, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/new-memory, memory]
+
+## AMOS Memory Architecture
 
 The AMOS memory system is a multi-layered architecture that treats memory as coherence carried through transformation. It encompasses several distinct memory subsystems: the core Memory Architecture, Distinct Working Memory, Evolutionary and Anti-Regression Memory, and a Learning and Memory Fractal Architecture with 50 templates.
 
@@ -43,18 +43,19 @@ Memory is coherence carried through transformation.
 
 ### Retention Classes
 
-| Class | Description |
-|-------|-------------|
-| HOT | Decision-active |
-| WARM | Validated reusable capsule |
-| COLD | Recoverable detail |
-| QUARANTINED | Conflict/contamination/staleness |
-| EXPIRED | Invalid in current regime |
+| Class       | Description                          |
+| ----------- | ------------------------------------ |
+| HOT         | Decision-active                      |
+| WARM        | Validated reusable capsule           |
+| COLD        | Recoverable detail                   |
+| QUARANTINED | Conflict/contamination/staleness     |
+| EXPIRED     | Invalid in current regime            |
 | RAW_ARCHIVE | Exact source, do-not-load by default |
 
 ### Invariants
 
 Preserve at all times:
+
 - Objective
 - Hard constraints
 - Load-bearing premises
@@ -103,28 +104,28 @@ signal, word, concept, chunk, lesson, skill, habit, identity, lifelong_system
 
 ### L/M/H Levels
 
-| Level | Description |
-|-------|-------------|
-| L | Low learning: weak attention, poor encoding, high entropy, low recall |
-| M | Functional but shallow: recognition without reliable recall or transfer |
-| H | Deep learning: strong encoding, retrieval, transfer, validation, and identity integration |
+| Level | Description                                                                               |
+| ----- | ----------------------------------------------------------------------------------------- |
+| L     | Low learning: weak attention, poor encoding, high entropy, low recall                     |
+| M     | Functional but shallow: recognition without reliable recall or transfer                   |
+| H     | Deep learning: strong encoding, retrieval, transfer, validation, and identity integration |
 
 ### Key Templates (50 total)
 
-| ID | Name | Formula | Layer |
-|----|------|---------|-------|
-| LM001 | attention_capture | AC = relevant_signal / total_signal | attention |
-| LM004 | encoding_strength | ES = attention * meaning * emotion * repetition | encoding |
-| LM007 | working_memory_load | WML = active_chunks / capacity | working_memory |
-| LM011 | consolidation_strength | CS = sleep_quality * repetition * emotional_salience * low_interference | consolidation |
-| LM012 | retrieval_strength | RS = cue_quality * encoding_strength * recency * frequency | retrieval |
-| LM014 | forgetting_curve | F = initial_memory * exp(-decay_rate * time) | forgetting |
-| LM020 | learning_update | LU = learning_rate * prediction_error * feedback_quality | learning |
-| LM021 | transfer_score | TS = applied_correctly_new_context / learned_skill | transfer |
-| LM027 | memory_entropy | ME = w1*interference + w2*schema_conflict + w3*retrieval_error + w4*attention_leak + w5*context_gap | entropy |
-| LM048 | memory_integrity | MI = encoding * consolidation * retrieval * validation * (1-entropy) | integrity |
-| LM049 | learning_quality | LQ = attention * encoding * feedback * retrieval_practice * transfer * (1-load) | quality |
-| LM050 | final_mastery | Mastery = retention * transfer * speed * accuracy * metacognitive_accuracy | mastery |
+| ID    | Name                   | Formula                                                                                              | Layer          |
+| ----- | ---------------------- | ---------------------------------------------------------------------------------------------------- | -------------- |
+| LM001 | attention_capture      | AC = relevant_signal / total_signal                                                                  | attention      |
+| LM004 | encoding_strength      | ES = attention * meaning * emotion * repetition                                                      | encoding       |
+| LM007 | working_memory_load    | WML = active_chunks / capacity                                                                       | working_memory |
+| LM011 | consolidation_strength | CS = sleep_quality * repetition * emotional_salience * low_interference                              | consolidation  |
+| LM012 | retrieval_strength     | RS = cue_quality * encoding_strength * recency * frequency                                           | retrieval      |
+| LM014 | forgetting_curve       | F = initial_memory * exp(-decay_rate * time)                                                         | forgetting     |
+| LM020 | learning_update        | LU = learning_rate * prediction_error * feedback_quality                                             | learning       |
+| LM021 | transfer_score         | TS = applied_correctly_new_context / learned_skill                                                   | transfer       |
+| LM027 | memory_entropy         | ME = w1*interference + w2*schema_conflict + w3*retrieval_error + w4*attention_leak + w5\*context_gap | entropy        |
+| LM048 | memory_integrity       | MI = encoding * consolidation * retrieval * validation * (1-entropy)                                 | integrity      |
+| LM049 | learning_quality       | LQ = attention * encoding * feedback * retrieval_practice * transfer * (1-load)                      | quality        |
+| LM050 | final_mastery          | Mastery = retention * transfer * speed * accuracy * metacognitive_accuracy                           | mastery        |
 
 ### Learning Permission Rules
 
@@ -147,10 +148,12 @@ The MemoryWrite_Agent is a BRAIN_SYSTEM component that handles memory write oper
 - `_00_Cosmo brain/memory/learning_memory_architecture.md` — 50-template learning and memory fractal architecture
 - `_00_Cosmo brain/memory/memory_write_agent.md` — Memory write agent component
 
----
+______________________________________________________________________
+
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
-**MOC:** references_MOC
----
+  **MOC:** references_MOC
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -158,12 +161,14 @@ The MemoryWrite_Agent is a BRAIN_SYSTEM component that handles memory write oper
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-memory-systems-master-new-memory
 node_type: reference
 path: 07_SKILLS/amos-memory-systems-master/references/new_memory.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

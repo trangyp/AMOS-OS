@@ -15,41 +15,41 @@ kernel_family: MEMORY
 scope: AMOS_OS
 updated: 2026-08-26
 tags:
-- amos-os
-- kernel
-- core
-- canon-group/tech-ai
-- kernel/memory
-- kernel/memory-admission
-- kernel/provenance
-- kernel/epistemics
-- kernel/freshness
-- kernel/dependency
-- kernel/recovery
-- rscf/claim
-- rscf/provenance
-- topic/memory
-- topic/admission
-- topic/persistence
-- topic/knowledge-harvest
-- topic/invalidation
-- canon/kernel
-- memory
-- readme
-- architecture
-- amos-core-laws
-- law-hierarchy
-- canon-provenance
-- source-lineage
-- k-identity
-- k-context-state
-- k-context-compaction
-- k-system-state
-- k-world-model
-- k-meta-logic
-- k-multi-hypothesis
-- k-causal-closure
-- k-causal-epoch
+  - amos-os
+  - kernel
+  - core
+  - canon-group/tech-ai
+  - kernel/memory
+  - kernel/memory-admission
+  - kernel/provenance
+  - kernel/epistemics
+  - kernel/freshness
+  - kernel/dependency
+  - kernel/recovery
+  - rscf/claim
+  - rscf/provenance
+  - topic/memory
+  - topic/admission
+  - topic/persistence
+  - topic/knowledge-harvest
+  - topic/invalidation
+  - canon/kernel
+  - memory
+  - readme
+  - architecture
+  - amos-core-laws
+  - law-hierarchy
+  - canon-provenance
+  - source-lineage
+  - k-identity
+  - k-context-state
+  - k-context-compaction
+  - k-system-state
+  - k-world-model
+  - k-meta-logic
+  - k-multi-hypothesis
+  - k-causal-closure
+  - k-causal-epoch
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -100,7 +100,7 @@ UNKNOWN/GAP != PASS
 CAPABILITY != AUTHORITY
 ```
 
----
+______________________________________________________________________
 
 ## 1. Core Law
 
@@ -128,7 +128,7 @@ over persisting information whose identity, provenance, epistemic type, scope, v
 
 Absence from persistent memory is preferable to corrupted persistent memory.
 
----
+______________________________________________________________________
 
 ## 2. Admission Boundary
 
@@ -155,7 +155,7 @@ ADMIT(m_candidate)
 
 Admission is not binary when evidence quality or governance state is unresolved.
 
----
+______________________________________________________________________
 
 ## 3. Admission Pipeline
 
@@ -189,7 +189,7 @@ PERSIST WITH VALIDITY ENVELOPE
 
 No stage may silently promote epistemic status.
 
----
+______________________________________________________________________
 
 ## 4. Memory Object Contract
 
@@ -224,7 +224,7 @@ Fields may be distributed across implementation structures.
 
 The contract concerns semantic availability, not mandatory physical representation.
 
----
+______________________________________________________________________
 
 ## 5. Epistemic Typing
 
@@ -265,7 +265,7 @@ MODEL
 DECISION
 ```
 
----
+______________________________________________________________________
 
 ## 6. Conclusion Classes
 
@@ -290,7 +290,7 @@ UNKNOWN/GAP → VERIFIED
 
 without a separate validation event.
 
----
+______________________________________________________________________
 
 ## 7. Persistence Firewall
 
@@ -312,7 +312,7 @@ PERSISTENCE != VALIDATION
 
 Memory is a persistence substrate, not a truth oracle.
 
----
+______________________________________________________________________
 
 ## 8. Canon Firewall
 
@@ -338,7 +338,7 @@ and:
 MEMORY_ADMISSION != CANON_PROMOTION
 ```
 
----
+______________________________________________________________________
 
 ## 9. Authority Firewall
 
@@ -364,7 +364,7 @@ CAPABILITY != AUTHORITY
 
 A component capable of writing memory does not automatically possess authority to write every memory class.
 
----
+______________________________________________________________________
 
 ## 10. Candidate Sources
 
@@ -389,7 +389,7 @@ RECOVERY STATE
 
 Source class influences admission requirements but does not alone determine truth.
 
----
+______________________________________________________________________
 
 ## 11. User Input
 
@@ -411,7 +411,7 @@ SOURCE_CLAIM(X, USER)
 
 unless independently validated.
 
----
+______________________________________________________________________
 
 ## 12. Model Output
 
@@ -431,7 +431,7 @@ merely because it is coherent, repeated, or persisted.
 
 Where retained, its provenance should identify model derivation.
 
----
+______________________________________________________________________
 
 ## 13. Tool Results
 
@@ -450,7 +450,7 @@ depending on the tool.
 
 Tool invocation itself does not establish correctness.
 
----
+______________________________________________________________________
 
 ## 14. External Evidence
 
@@ -467,7 +467,7 @@ LICENSE / IP STATUS WHEN MATERIAL
 
 before promotion into validated knowledge.
 
----
+______________________________________________________________________
 
 ## 15. Knowledge Harvest Pipeline
 
@@ -485,7 +485,7 @@ These stages must remain distinct.
 
 A useful artifact may enter persistent evidence before it qualifies as validated knowledge.
 
----
+______________________________________________________________________
 
 ## 16. Documentation Firewall
 
@@ -508,7 +508,7 @@ until validation establishes stronger status.
 
 Persistence does not alter this rule.
 
----
+______________________________________________________________________
 
 ## 17. Identity Gate
 
@@ -540,7 +540,7 @@ or:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
 ## 18. Provenance Gate
 
@@ -570,7 +570,7 @@ TRANSFORMATION HISTORY
 
 when material.
 
----
+______________________________________________________________________
 
 ## 19. Provenance Independence
 
@@ -600,7 +600,7 @@ B + C + D
 
 must retain their common ancestry.
 
----
+______________________________________________________________________
 
 ## 20. Sybil-Hardening Rule
 
@@ -615,7 +615,7 @@ N INDEPENDENT SOURCES
 
 Memory admission should preserve ancestry topology sufficient to detect this.
 
----
+______________________________________________________________________
 
 ## 21. Scope Gate
 
@@ -635,7 +635,7 @@ scope:
 
 A claim valid for scope `S` must not be persisted as universally valid.
 
----
+______________________________________________________________________
 
 ## 22. Regime Gate
 
@@ -659,7 +659,7 @@ VALID(C | R0)
 VALID(C | ANY_REGIME)
 ```
 
----
+______________________________________________________________________
 
 ## 23. Freshness Gate
 
@@ -689,7 +689,7 @@ DEFERRED
 
 rather than unconditional persistence.
 
----
+______________________________________________________________________
 
 ## 24. Staleness
 
@@ -711,7 +711,7 @@ STALE
 
 The object may remain historically useful while becoming invalid for current-state reasoning.
 
----
+______________________________________________________________________
 
 ## 25. Dependency Gate
 
@@ -740,7 +740,7 @@ DEPENDENCY(C,P2)
 
 or an equivalent persistent relation.
 
----
+______________________________________________________________________
 
 ## 26. Confidence Ceiling
 
@@ -758,7 +758,7 @@ unless independently revalidated.
 
 Persistence must not increase this ceiling.
 
----
+______________________________________________________________________
 
 ## 27. Conflict Gate
 
@@ -790,7 +790,7 @@ SELECT MOST RECENT
 
 unless recency legitimately resolves the conflict.
 
----
+______________________________________________________________________
 
 ## 28. Competing Hypotheses
 
@@ -812,7 +812,7 @@ with their respective support structures.
 
 Memory admission must not force convergence for storage convenience.
 
----
+______________________________________________________________________
 
 ## 29. Contradiction Preservation
 
@@ -829,7 +829,7 @@ Contradiction is information.
 
 It must not be erased merely to create a cleaner database.
 
----
+______________________________________________________________________
 
 ## 30. Causal Gate
 
@@ -852,7 +852,7 @@ CAUSAL EFFECT
 
 Structural resemblance or sequence alone does not license causal admission.
 
----
+______________________________________________________________________
 
 ## 31. Structural Similarity Firewall
 
@@ -870,7 +870,7 @@ SAME_CAUSAL_MECHANISM(A,B)
 
 without independent validation.
 
----
+______________________________________________________________________
 
 ## 32. Admission Classes
 
@@ -887,7 +887,7 @@ UNKNOWN/GAP
 
 These represent admission state, not necessarily epistemic class.
 
----
+______________________________________________________________________
 
 ## 33. ADMITTED
 
@@ -901,7 +901,7 @@ VERIFIED
 
 The persisted object retains its actual conclusion class.
 
----
+______________________________________________________________________
 
 ## 34. ADMITTED_CONDITIONAL
 
@@ -919,7 +919,7 @@ TEMPORARY USER PREFERENCE
 
 Conditions must persist with the object.
 
----
+______________________________________________________________________
 
 ## 35. QUARANTINED
 
@@ -938,7 +938,7 @@ UNTRUSTED IMPORT
 
 Quarantined content must not silently participate as trusted evidence.
 
----
+______________________________________________________________________
 
 ## 36. DEFERRED
 
@@ -956,7 +956,7 @@ UNRESOLVED DEPENDENCY
 
 The candidate may be reconsidered when the gap is closed.
 
----
+______________________________________________________________________
 
 ## 37. REJECTED
 
@@ -975,7 +975,7 @@ KNOWN MALICIOUS MEMORY POISONING
 
 Rejection should preserve enough audit information to explain the decision when governance requires.
 
----
+______________________________________________________________________
 
 ## 38. UNKNOWN/GAP
 
@@ -995,7 +995,7 @@ UNKNOWN/GAP
 ADMITTED
 ```
 
----
+______________________________________________________________________
 
 ## 39. Admission Utility
 
@@ -1023,7 +1023,7 @@ privacy/security_cost
 
 This is an architectural model, not a universal numerical formula.
 
----
+______________________________________________________________________
 
 ## 40. Admission Threshold
 
@@ -1045,7 +1045,7 @@ and expected persistence value justifies retention for the target memory class.
 
 Integrity gates cannot be bypassed merely because storage is cheap.
 
----
+______________________________________________________________________
 
 ## 41. Memory Classes
 
@@ -1064,7 +1064,7 @@ AUDIT MEMORY
 
 These are conceptual categories unless separately implemented in `10_MEMORY`.
 
----
+______________________________________________________________________
 
 ## 42. Working Memory
 
@@ -1082,7 +1082,7 @@ requires explicit admission.
 
 Temporary presence is not persistence authorization.
 
----
+______________________________________________________________________
 
 ## 43. Evidence Memory
 
@@ -1100,7 +1100,7 @@ It may legitimately contain contradictory evidence.
 
 Its purpose is preservation, not convergence.
 
----
+______________________________________________________________________
 
 ## 44. Semantic Memory
 
@@ -1108,7 +1108,7 @@ Semantic memory contains reusable claims or concepts.
 
 Admission requires stronger typing and scope control because semantic memory may influence many future conclusions.
 
----
+______________________________________________________________________
 
 ## 45. Decision Memory
 
@@ -1133,7 +1133,7 @@ DECISION
 
 rather than being promoted to factual evidence.
 
----
+______________________________________________________________________
 
 ## 46. Recovery Memory
 
@@ -1149,7 +1149,7 @@ REPLAY POINTER
 DEPENDENCY STATE
 ```
 
----
+______________________________________________________________________
 
 ## 47. Audit Memory
 
@@ -1167,7 +1167,7 @@ does not necessarily imply:
 DELETE_FROM_AUDIT
 ```
 
----
+______________________________________________________________________
 
 ## 48. Memory Promotion
 
@@ -1189,7 +1189,7 @@ Every transition requires its own gate.
 
 No transition is automatic.
 
----
+______________________________________________________________________
 
 ## 49. Memory Demotion
 
@@ -1209,7 +1209,7 @@ INVALIDATED
 
 without deleting historical provenance.
 
----
+______________________________________________________________________
 
 ## 50. Invalidation
 
@@ -1235,7 +1235,7 @@ not:
 Invalidate(all memory)
 ```
 
----
+______________________________________________________________________
 
 ## 51. Local Repair
 
@@ -1253,7 +1253,7 @@ over global memory reconstruction.
 
 Unaffected memory remains valid.
 
----
+______________________________________________________________________
 
 ## 52. Dependency-Aware Invalidation
 
@@ -1278,7 +1278,7 @@ but does not automatically invalidate:
 C3
 ```
 
----
+______________________________________________________________________
 
 ## 53. Supersession
 
@@ -1297,7 +1297,7 @@ DEPENDENCY EFFECT
 
 when material.
 
----
+______________________________________________________________________
 
 ## 54. Newer != Authoritative
 
@@ -1317,7 +1317,7 @@ AUTHORITATIVE
 
 A later artifact may be erroneous, lower-authority, or scoped differently.
 
----
+______________________________________________________________________
 
 ## 55. Duplicate Detection
 
@@ -1338,7 +1338,7 @@ CORRELATED_DESCENDANT
 
 These relations must not be conflated.
 
----
+______________________________________________________________________
 
 ## 56. Duplicate vs Corroboration
 
@@ -1354,7 +1354,7 @@ INDEPENDENT CONFIRMATION
 
 Independent corroboration requires independent provenance, not merely distinct filenames or memory IDs.
 
----
+______________________________________________________________________
 
 ## 57. Version Identity
 
@@ -1368,7 +1368,7 @@ VERSION ID
 
 Admission should preserve version identity when historical reproducibility or dependency validity requires it.
 
----
+______________________________________________________________________
 
 ## 58. Mutable Sources
 
@@ -1391,7 +1391,7 @@ REVISION ID
 
 or another stable evidence representation.
 
----
+______________________________________________________________________
 
 ## 59. Persistent Provenance
 
@@ -1406,7 +1406,7 @@ UNDER WHAT CONDITIONS
 THROUGH WHICH TRANSFORMATIONS
 ```
 
----
+______________________________________________________________________
 
 ## 60. Provenance Cannot Be Reconstructed by Guess
 
@@ -1418,7 +1418,7 @@ PROVENANCE = UNKNOWN
 
 Do not infer source ancestry merely from semantic similarity.
 
----
+______________________________________________________________________
 
 ## 61. Memory Poisoning Defense
 
@@ -1438,7 +1438,7 @@ HIDDEN INSTRUCTION
 
 Such candidates should trigger stronger validation or quarantine.
 
----
+______________________________________________________________________
 
 ## 62. Authority Impersonation
 
@@ -1458,7 +1458,7 @@ does not establish authority.
 
 Authority must derive from recognized governance/provenance structure.
 
----
+______________________________________________________________________
 
 ## 63. Instruction/Data Boundary
 
@@ -1472,7 +1472,7 @@ PERSISTED INSTRUCTION TEXT
 AUTHORIZED COMMAND
 ```
 
----
+______________________________________________________________________
 
 ## 64. Security Gate
 
@@ -1492,7 +1492,7 @@ where applicable.
 
 Epistemically valid content can still be inadmissible for security reasons.
 
----
+______________________________________________________________________
 
 ## 65. Secrets
 
@@ -1512,7 +1512,7 @@ SECRET VALUE
 
 when architecture and policy support secure indirection.
 
----
+______________________________________________________________________
 
 ## 66. Minimal Persistence
 
@@ -1534,7 +1534,7 @@ STORAGE DEBT
 
 without weakening required provenance.
 
----
+______________________________________________________________________
 
 ## 67. Context Compaction Interaction
 
@@ -1574,7 +1574,7 @@ does not mean:
 KEEP ACTIVE
 ```
 
----
+______________________________________________________________________
 
 ## 68. Proof Capsule Admission
 
@@ -1598,7 +1598,7 @@ proof_capsule:
   confidence_ceiling:
 ```
 
----
+______________________________________________________________________
 
 ## 69. RSCF Admission
 
@@ -1619,7 +1619,7 @@ FALSIFIERS
 
 when applicable.
 
----
+______________________________________________________________________
 
 ## 70. RSCF Reuse
 
@@ -1639,7 +1639,7 @@ NO MATERIAL NEW CONFLICT
 
 Otherwise revalidation is required.
 
----
+______________________________________________________________________
 
 ## 71. H/M/L Admission
 
@@ -1664,7 +1664,7 @@ L/RAW RECOVERY REFERENCES
 
 where sufficient.
 
----
+______________________________________________________________________
 
 ## 72. Raw Evidence Default
 
@@ -1682,7 +1682,7 @@ NOT ACTIVELY LOADED
 NOT PERSISTED
 ```
 
----
+______________________________________________________________________
 
 ## 73. Admission of Derived Knowledge
 
@@ -1706,7 +1706,7 @@ STORE C
 DEPENDENCY(C,{P1,P2})
 ```
 
----
+______________________________________________________________________
 
 ## 74. Independent Revalidation
 
@@ -1728,7 +1728,7 @@ may create a new support path.
 
 The new path must be genuinely independent.
 
----
+______________________________________________________________________
 
 ## 75. Admission and Causal Epoch
 
@@ -1754,7 +1754,7 @@ EPOCH_n+1
 
 if relevant causal state changed.
 
----
+______________________________________________________________________
 
 ## 76. MVCC/CAS Compatibility
 
@@ -1778,7 +1778,7 @@ REVALIDATE
 
 rather than persisting a stale conclusion as current.
 
----
+______________________________________________________________________
 
 ## 77. Atomic Multi-RSCF Admission
 
@@ -1804,7 +1804,7 @@ C SUPPORTED BY R1
 
 after persistence.
 
----
+______________________________________________________________________
 
 ## 78. Causal Epoch Finality Compatibility
 
@@ -1824,7 +1824,7 @@ FINALITY ENVELOPE
 
 when finality is load-bearing.
 
----
+______________________________________________________________________
 
 ## 79. Recovery Semantics
 
@@ -1848,7 +1848,7 @@ UNKNOWN
 
 states explicitly.
 
----
+______________________________________________________________________
 
 ## 80. Partial Admission
 
@@ -1872,7 +1872,7 @@ must be enforced by the relevant runtime/state layer.
 
 This kernel contract defines the invariant; it does not assert an implementation.
 
----
+______________________________________________________________________
 
 ## 81. Memory Lifecycle
 
@@ -1896,7 +1896,7 @@ SUPERSEDED / ARCHIVED
 
 Transitions should remain auditable where required.
 
----
+______________________________________________________________________
 
 ## 82. Revalidation Trigger
 
@@ -1915,7 +1915,7 @@ SECURITY POLICY CHANGES
 CAUSAL EPOCH ADVANCES
 ```
 
----
+______________________________________________________________________
 
 ## 83. Revalidation Is Local
 
@@ -1931,7 +1931,7 @@ DEPENDENT CLOSURE
 TARGETED REVALIDATION
 ```
 
----
+______________________________________________________________________
 
 ## 84. Falsifier Storage
 
@@ -1948,7 +1948,7 @@ memory:
 
 This improves future repair efficiency.
 
----
+______________________________________________________________________
 
 ## 85. Sensitivity
 
@@ -1968,7 +1968,7 @@ CONDITIONAL
 
 status where appropriate.
 
----
+______________________________________________________________________
 
 ## 86. Admission Under Uncertainty
 
@@ -1983,7 +1983,7 @@ Resolve that gap first.
 
 This follows the smallest sufficient proof scope.
 
----
+______________________________________________________________________
 
 ## 87. Gap Priority
 
@@ -2002,7 +2002,7 @@ Cosmetic incompleteness should not block safe admission.
 
 Critical provenance or authority gaps should.
 
----
+______________________________________________________________________
 
 ## 88. Admission Fast Path
 
@@ -2021,7 +2021,7 @@ AUTHORITY VALID
 REVERSIBLE IMPACT
 ```
 
----
+______________________________________________________________________
 
 ## 89. Escalation Conditions
 
@@ -2040,7 +2040,7 @@ SECURITY CLASS IS UNCLEAR
 CANON PROMOTION IS IMPLIED
 ```
 
----
+______________________________________________________________________
 
 ## 90. Adversarial Validation
 
@@ -2069,7 +2069,7 @@ REJECT
 
 as appropriate.
 
----
+______________________________________________________________________
 
 ## 91. Admission Invariants
 
@@ -2150,7 +2150,7 @@ MA-25
 MEMORY ADMISSION MUST REMAIN DISTINCT FROM CONTEXT COMPACTION
 ```
 
----
+______________________________________________________________________
 
 ## 92. Failure Modes
 
@@ -2182,7 +2182,7 @@ SUPERSESSION_LOSS
 UNKNOWN_PASS_COLLAPSE
 ```
 
----
+______________________________________________________________________
 
 ## 93. Required Tests
 
@@ -2222,7 +2222,7 @@ REVALIDATION TEST
 LOCAL-RECOVERY TEST
 ```
 
----
+______________________________________________________________________
 
 ## 94. Negative Tests
 
@@ -2297,7 +2297,7 @@ UNKNOWN/GAP
 MUST FAIL
 ```
 
----
+______________________________________________________________________
 
 ## 95. Promotion Gate
 
@@ -2344,7 +2344,7 @@ FORMAL_VERIFICATION = UNKNOWN/GAP
 EMPIRICAL_VALIDATION = UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
 ## 96. Authority Boundary
 
@@ -2386,7 +2386,7 @@ K_MEMORY_ADMISSION
 CANON PROMOTION AUTHORITY
 ```
 
----
+______________________________________________________________________
 
 ## 97. RSCF Node
 
@@ -2431,7 +2431,7 @@ RSCF-RELATIONS:
   - VERIFIED_BY: README
 ```
 
----
+______________________________________________________________________
 
 ## 98. Canonical Summary
 
@@ -2597,13 +2597,14 @@ README
 ```text
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
-**MOC:** [[02_KERNEL/05_MEMORY/05_MEMORY_MOC|05_MEMORY_MOC]]
+______________________________________________________________________
 
+**MOC:** [[02_KERNEL/05_MEMORY/05_MEMORY_MOC|05_MEMORY_MOC]]

@@ -8,7 +8,7 @@ executable binding stays PARTIAL unless an executed receipt exists.
 """
 import os, re, sys
 
-ROOT = "/Users/mac/Documents/AMOS_OS"
+ROOT = str(__import__("pathlib").Path(__file__).resolve().parents[1])
 
 PLANES = {
     "00_ROOT": ("Root", "vault-wide identity, architecture map, authoritative state pointers, and release governance"),

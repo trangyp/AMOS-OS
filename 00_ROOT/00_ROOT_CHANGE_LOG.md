@@ -17,8 +17,8 @@ canonical_status: UNKNOWN/GAP
 implementation_status: UNKNOWN/GAP
 validation_status: UNKNOWN/GAP
 tags:
-- note
-- canon/root
+  - note
+  - canon/root
 rscf:
   state: SOURCE_CLAIM
   claim_class: CONDITIONAL
@@ -67,9 +67,9 @@ A change-log entry records state transition evidence.
 
 It does not manufacture authority, validation, implementation, or canonical status.
 
----
+______________________________________________________________________
 
-# 1. Root Change-Control Law
+## 1. Root Change-Control Law
 
 Every material AMOS root change SHOULD be represented as an explicit transition:
 
@@ -105,9 +105,9 @@ PROPOSED(Δ)
 COMMITTED(Δ)
 ```
 
----
+______________________________________________________________________
 
-# 2. Scope
+## 2. Scope
 
 The root change log covers material changes to AMOS OS including, where applicable:
 
@@ -175,9 +175,9 @@ and supersession lineage.
 
 Purely cosmetic changes MAY receive lighter treatment if they cannot alter interpretation, behavior, authority, provenance, dependency resolution, or execution.
 
----
+______________________________________________________________________
 
-# 3. Non-Purpose
+## 3. Non-Purpose
 
 The root change log MUST NOT be treated as:
 
@@ -201,9 +201,9 @@ a substitute for authorization;
 or a mechanism for silently rewriting history.
 ```
 
----
+______________________________________________________________________
 
-# 4. Root Change Invariants
+## 4. Root Change Invariants
 
 The following hard boundaries apply:
 
@@ -233,9 +233,9 @@ SUPERSEDED != DELETED
 UNKNOWN/GAP != PASS
 ```
 
----
+______________________________________________________________________
 
-# 5. Change Object
+## 5. Change Object
 
 A root change SHOULD be represented as a typed object.
 
@@ -308,9 +308,9 @@ change_record:
     reverted_at: timestamp | null
 ```
 
----
+______________________________________________________________________
 
-# 6. Change Identity
+## 6. Change Identity
 
 Every material change MUST have a stable `change_id`.
 
@@ -330,9 +330,9 @@ CHANGE_ID
 ONE CHANGE LINEAGE
 ```
 
----
+______________________________________________________________________
 
-# 7. Change Classes
+## 7. Change Classes
 
 Root changes SHOULD be classified.
 
@@ -394,9 +394,9 @@ CHG-DOCUMENTATION
 
 One change MAY carry multiple classes where required.
 
----
+______________________________________________________________________
 
-# 8. Change Lifecycle
+## 8. Change Lifecycle
 
 The root change lifecycle is:
 
@@ -434,9 +434,9 @@ ABORTED
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 9. Lifecycle Transition Law
+## 9. Lifecycle Transition Law
 
 Lifecycle transitions must be explicit.
 
@@ -450,9 +450,9 @@ COMMITTED
 
 unless an explicitly authorized emergency procedure permits that path and preserves equivalent evidence and audit requirements.
 
----
+______________________________________________________________________
 
-# 10. Proposed Change
+## 10. Proposed Change
 
 `PROPOSED` means:
 
@@ -476,9 +476,9 @@ validated;
 or canonical.
 ```
 
----
+______________________________________________________________________
 
-# 11. Validated Change
+## 11. Validated Change
 
 `VALIDATED` means the declared validation requirements for the declared scope were satisfied.
 
@@ -498,9 +498,9 @@ or empirically universal.
 
 Validation MUST carry its scope.
 
----
+______________________________________________________________________
 
-# 12. Authorized Change
+## 12. Authorized Change
 
 `AUTHORIZED` means the applicable authority has permitted the specified transition within an explicit envelope.
 
@@ -526,9 +526,9 @@ constraints;
 and version/state.
 ```
 
----
+______________________________________________________________________
 
-# 13. Prepared Change
+## 13. Prepared Change
 
 `PREPARED` means:
 
@@ -538,9 +538,9 @@ the change is eligible for commit subject to final commit-time checks.
 
 It remains uncommitted.
 
----
+______________________________________________________________________
 
-# 14. Committed Change
+## 14. Committed Change
 
 `COMMITTED` means the governed state transition has been durably applied to the target state recognized by the relevant control plane.
 
@@ -552,9 +552,9 @@ CANONICAL
 
 unless canon admission is itself part of the authorized committed transition.
 
----
+______________________________________________________________________
 
-# 15. Rejected Change
+## 15. Rejected Change
 
 A rejected change remains part of historical provenance.
 
@@ -578,9 +578,9 @@ authority decision;
 and possible repair path.
 ```
 
----
+______________________________________________________________________
 
-# 16. Quarantined Change
+## 16. Quarantined Change
 
 A change SHOULD be quarantined when:
 
@@ -610,9 +610,9 @@ DO_NOT_PROMOTE
 DO_NOT_COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 17. Superseded Change
+## 17. Superseded Change
 
 Supersession means a later valid state replaces a previous state for a declared applicability envelope.
 
@@ -628,9 +628,9 @@ SUPERSEDED_BY
 SUCCESSOR
 ```
 
----
+______________________________________________________________________
 
-# 18. Reverted Change
+## 18. Reverted Change
 
 A revert is itself a new change event.
 
@@ -656,9 +656,9 @@ COMMITTED
 
 Both remain in history.
 
----
+______________________________________________________________________
 
-# 19. Immutable Historical Principle
+## 19. Immutable Historical Principle
 
 Committed historical records SHOULD be append-preserving.
 
@@ -676,9 +676,9 @@ or corrective change.
 
 not silent mutation of historical meaning.
 
----
+______________________________________________________________________
 
-# 20. Change Provenance
+## 20. Change Provenance
 
 Every consequential change SHOULD retain provenance for:
 
@@ -706,9 +706,9 @@ supersession;
 and rollback.
 ```
 
----
+______________________________________________________________________
 
-# 21. Source Provenance
+## 21. Source Provenance
 
 Where a change derives from corpus or source material, record:
 
@@ -723,9 +723,9 @@ source_provenance:
   interpretation_class: string
 ```
 
----
+______________________________________________________________________
 
-# 22. Canon Provenance
+## 22. Canon Provenance
 
 A change claimed to modify canon SHOULD identify:
 
@@ -747,9 +747,9 @@ affected downstream objects.
 
 No source file becomes canon merely because a change log references it.
 
----
+______________________________________________________________________
 
-# 23. Dependency Impact
+## 23. Dependency Impact
 
 Each material change SHOULD declare affected dependencies.
 
@@ -763,9 +763,9 @@ dependency_impact:
   unaffected_objects: []
 ```
 
----
+______________________________________________________________________
 
-# 24. Selective Invalidation
+## 24. Selective Invalidation
 
 AMOS change handling SHOULD invalidate only affected conclusions or state.
 
@@ -787,9 +787,9 @@ Invalidate(All)
 
 unless dependency closure cannot be established safely.
 
----
+______________________________________________________________________
 
-# 25. Change Read Set
+## 25. Change Read Set
 
 A consequential change SHOULD identify the state relied upon during decision-making.
 
@@ -803,9 +803,9 @@ read_set:
 
 This permits later detection of stale assumptions.
 
----
+______________________________________________________________________
 
-# 26. Change Write Set
+## 26. Change Write Set
 
 The expected mutation surface SHOULD be explicit.
 
@@ -819,9 +819,9 @@ write_set:
 
 Unexpected writes are a governance signal.
 
----
+______________________________________________________________________
 
-# 27. Version Boundary
+## 27. Version Boundary
 
 Every material change SHOULD distinguish:
 
@@ -837,9 +837,9 @@ VERSION_AFTER
 
 A new version identifier must not be treated as evidence of semantic correctness.
 
----
+______________________________________________________________________
 
-# 28. Hash / Fingerprint
+## 28. Hash / Fingerprint
 
 Where technically applicable, state artifacts SHOULD carry content fingerprints.
 
@@ -864,9 +864,9 @@ Hash presence proves content identity only under the chosen hashing assumptions.
 
 It does not prove semantic validity.
 
----
+______________________________________________________________________
 
-# 29. Change Epoch
+## 29. Change Epoch
 
 AMOS MAY associate changes with a logical epoch:
 
@@ -880,9 +880,9 @@ An epoch denotes governed state progression.
 
 It MUST NOT be interpreted as literal distributed finality unless an implementation actually provides those guarantees.
 
----
+______________________________________________________________________
 
-# 30. Authority Requirement
+## 30. Authority Requirement
 
 A change proposer does not gain authority by creating the change.
 
@@ -894,9 +894,9 @@ AUTHORIZER
 
 An AI agent may propose a root change without possessing authority to commit it.
 
----
+______________________________________________________________________
 
-# 31. Authority Witness
+## 31. Authority Witness
 
 Consequential changes SHOULD bind an authority witness.
 
@@ -913,9 +913,9 @@ authority_witness:
   constraints: []
 ```
 
----
+______________________________________________________________________
 
-# 32. Commit-Time Authority
+## 32. Commit-Time Authority
 
 Authority MUST remain valid at the relevant commit boundary.
 
@@ -931,9 +931,9 @@ AUTHORIZED(t_commit)
 
 when authority can change.
 
----
+______________________________________________________________________
 
-# 33. Revocation
+## 33. Revocation
 
 If authority is revoked before commit:
 
@@ -957,9 +957,9 @@ state must be repaired;
 or prior valid effects remain historically valid.
 ```
 
----
+______________________________________________________________________
 
-# 34. Policy Binding
+## 34. Policy Binding
 
 Changes SHOULD record applicable policy decisions.
 
@@ -976,9 +976,9 @@ policy_binding:
     - UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 35. Policy Change
+## 35. Policy Change
 
 Changes to policy require particular care because they can alter future admissibility.
 
@@ -1000,9 +1000,9 @@ effective time;
 migration behavior.
 ```
 
----
+______________________________________________________________________
 
-# 36. Capability Change
+## 36. Capability Change
 
 A capability change MAY alter what the system can technically execute.
 
@@ -1014,9 +1014,9 @@ NEW_CAPABILITY
 NEW_AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 37. Security-Sensitive Change
+## 37. Security-Sensitive Change
 
 Security-sensitive changes SHOULD receive elevated validation.
 
@@ -1042,9 +1042,9 @@ commit-control changes;
 revocation changes.
 ```
 
----
+______________________________________________________________________
 
-# 38. Change Risk Model
+## 38. Change Risk Model
 
 A change MAY be represented by:
 
@@ -1064,9 +1064,9 @@ f(
 
 This is an AMOS MODEL, not an empirically validated universal risk equation.
 
----
+______________________________________________________________________
 
-# 39. Reversibility Classes
+## 39. Reversibility Classes
 
 ```text
 R0 = informational / no mutation
@@ -1082,9 +1082,9 @@ R4 = effectively irreversible
 
 Higher irreversibility SHOULD increase required validation and authorization.
 
----
+______________________________________________________________________
 
-# 40. Blast Radius
+## 40. Blast Radius
 
 A change SHOULD estimate its possible dependency blast radius.
 
@@ -1102,9 +1102,9 @@ EXTERNAL
 
 A local file edit may still have root blast radius if many systems depend on it.
 
----
+______________________________________________________________________
 
-# 41. Change Validation
+## 41. Change Validation
 
 Validation requirements depend on change class.
 
@@ -1142,9 +1142,9 @@ runtime validation;
 human governance review.
 ```
 
----
+______________________________________________________________________
 
-# 42. Validation Record
+## 42. Validation Record
 
 ```yaml
 validation_record:
@@ -1177,9 +1177,9 @@ validation_record:
   timestamp: timestamp
 ```
 
----
+______________________________________________________________________
 
-# 43. Test Evidence
+## 43. Test Evidence
 
 A change log MUST NOT claim that tests passed unless executable evidence exists.
 
@@ -1199,9 +1199,9 @@ TEST_EXECUTED
 TEST_PASSED
 ```
 
----
+______________________________________________________________________
 
-# 44. Environment Binding
+## 44. Environment Binding
 
 Runtime validation SHOULD record:
 
@@ -1227,9 +1227,9 @@ input state.
 
 A result from one environment does not automatically generalize.
 
----
+______________________________________________________________________
 
-# 45. Regression Boundary
+## 45. Regression Boundary
 
 A change may fix one failure while creating another.
 
@@ -1245,9 +1245,9 @@ regression surface
 
 where material.
 
----
+______________________________________________________________________
 
-# 46. Anti-Regression Rule
+## 46. Anti-Regression Rule
 
 A proposed optimization MUST NOT be accepted merely because it improves:
 
@@ -1285,9 +1285,9 @@ security;
 or recoverability.
 ```
 
----
+______________________________________________________________________
 
-# 47. Change Comparison
+## 47. Change Comparison
 
 For versions:
 
@@ -1313,9 +1313,9 @@ semantic_delta:
   unchanged_load_bearing_invariants: []
 ```
 
----
+______________________________________________________________________
 
-# 48. Canonical Delta
+## 48. Canonical Delta
 
 Canon changes SHOULD separately identify:
 
@@ -1331,9 +1331,9 @@ RUNTIME DELTA
 
 These are not equivalent.
 
----
+______________________________________________________________________
 
-# 49. Change Conflict
+## 49. Change Conflict
 
 Two changes conflict if their simultaneous application cannot preserve required invariants or expected state.
 
@@ -1347,9 +1347,9 @@ Example:
 
 A conflict must remain visible until resolved.
 
----
+______________________________________________________________________
 
-# 50. Competing Changes
+## 50. Competing Changes
 
 Where two valid alternatives remain unresolved:
 
@@ -1367,9 +1367,9 @@ COMPETING
 
 rather than arbitrarily forcing convergence.
 
----
+______________________________________________________________________
 
-# 51. Merge Requirement
+## 51. Merge Requirement
 
 A merge requires:
 
@@ -1389,9 +1389,9 @@ invariant preservation.
 
 Textual merge success is insufficient.
 
----
+______________________________________________________________________
 
-# 52. Change Composition
+## 52. Change Composition
 
 Individually safe changes can compose into unsafe behavior.
 
@@ -1411,9 +1411,9 @@ Valid(Δ1 ⊕ Δ2)
 
 Composition requires separate evaluation where interactions are material.
 
----
+______________________________________________________________________
 
-# 53. Multi-Change Transaction
+## 53. Multi-Change Transaction
 
 Related changes MAY be grouped:
 
@@ -1437,9 +1437,9 @@ NONE COMMIT
 
 should hold within the implementation's actual transactional guarantees.
 
----
+______________________________________________________________________
 
-# 54. Partial Failure
+## 54. Partial Failure
 
 If one required change in an atomic group fails:
 
@@ -1451,17 +1451,17 @@ NO PARTIAL FINALIZATION
 
 unless an explicitly valid compensating transaction exists.
 
----
+______________________________________________________________________
 
-# 55. Change Finalization
+## 55. Change Finalization
 
 A change is final only relative to the declared system and finalization mechanism.
 
 Do not claim universal distributed finality unless formally or operationally established.
 
----
+______________________________________________________________________
 
-# 56. Root Change Entry Format
+## 56. Root Change Entry Format
 
 Recommended human-readable entry:
 
@@ -1519,9 +1519,9 @@ Recommended human-readable entry:
 ...
 ```
 
----
+______________________________________________________________________
 
-# 57. Machine-Readable Entry
+## 57. Machine-Readable Entry
 
 ```yaml
 amos_change:
@@ -1593,9 +1593,9 @@ amos_change:
   gaps: []
 ```
 
----
+______________________________________________________________________
 
-# 58. Root Change Index
+## 58. Root Change Index
 
 The change-log system SHOULD support an index by:
 
@@ -1625,9 +1625,9 @@ dependency;
 supersession lineage.
 ```
 
----
+______________________________________________________________________
 
-# 59. Temporal Fields
+## 59. Temporal Fields
 
 Material entries SHOULD distinguish:
 
@@ -1655,9 +1655,9 @@ reverted_at
 
 These timestamps must not be collapsed when their difference is material.
 
----
+______________________________________________________________________
 
-# 60. Effective Time
+## 60. Effective Time
 
 A committed change MAY have:
 
@@ -1674,9 +1674,9 @@ effective tomorrow
 
 The change log SHOULD preserve this distinction.
 
----
+______________________________________________________________________
 
-# 61. Freshness
+## 61. Freshness
 
 Authority, policy, evidence, and state assumptions may expire independently.
 
@@ -1692,9 +1692,9 @@ check dependency freshness;
 check target state freshness.
 ```
 
----
+______________________________________________________________________
 
-# 62. Optimistic State Validation
+## 62. Optimistic State Validation
 
 Where appropriate, a change MAY expect:
 
@@ -1710,9 +1710,9 @@ current_version != V
 
 This expresses an MVCC/CAS-style reasoning pattern without claiming a particular implementation.
 
----
+______________________________________________________________________
 
-# 63. Compare-and-Set Concept
+## 63. Compare-and-Set Concept
 
 AMOS MODEL:
 
@@ -1730,9 +1730,9 @@ otherwise:
 REVALIDATE / CONFLICT
 ```
 
----
+______________________________________________________________________
 
-# 64. Stale Change Detection
+## 64. Stale Change Detection
 
 A change becomes stale when load-bearing assumptions no longer match current state.
 
@@ -1744,9 +1744,9 @@ INVALIDATE_DEPENDENT_VALIDATION
 
 not necessarily the entire change record.
 
----
+______________________________________________________________________
 
-# 65. Selective Revalidation
+## 65. Selective Revalidation
 
 If one dependency changes:
 
@@ -1758,9 +1758,9 @@ instead of blindly repeating every validation step.
 
 This preserves efficiency without sacrificing integrity.
 
----
+______________________________________________________________________
 
-# 66. Change Audit Trail
+## 66. Change Audit Trail
 
 A material change SHOULD permit reconstruction of:
 
@@ -1784,9 +1784,9 @@ what committed;
 what happened afterward.
 ```
 
----
+______________________________________________________________________
 
-# 67. Audit Integrity
+## 67. Audit Integrity
 
 Audit records SHOULD be protected from silent retroactive rewriting.
 
@@ -1798,9 +1798,9 @@ append correction
 
 rather than silently replacing historical meaning.
 
----
+______________________________________________________________________
 
-# 68. Agent-Generated Changes
+## 68. Agent-Generated Changes
 
 Agent-generated changes MUST carry agent provenance.
 
@@ -1816,9 +1816,9 @@ agent_change:
 
 An agent's ability to generate a patch does not grant authority to commit it.
 
----
+______________________________________________________________________
 
-# 69. Skill-Generated Changes
+## 69. Skill-Generated Changes
 
 Skill-generated changes SHOULD identify:
 
@@ -1838,9 +1838,9 @@ validator path.
 
 Skill execution does not self-validate the resulting change.
 
----
+______________________________________________________________________
 
-# 70. Generator Changes
+## 70. Generator Changes
 
 Generated artifacts MUST begin with the weakest accurate status.
 
@@ -1858,9 +1858,9 @@ UNKNOWN/GAP
 
 unless stronger status is supported.
 
----
+______________________________________________________________________
 
-# 71. Human Approval
+## 71. Human Approval
 
 Where human approval is required, record:
 
@@ -1878,9 +1878,9 @@ version approved.
 
 Approval of version `V1` must not silently authorize materially changed `V2`.
 
----
+______________________________________________________________________
 
-# 72. Emergency Change
+## 72. Emergency Change
 
 AMOS MAY define an emergency path.
 
@@ -1906,9 +1906,9 @@ mandatory post-event review;
 explicit rollback plan.
 ```
 
----
+______________________________________________________________________
 
-# 73. Emergency Entry
+## 73. Emergency Entry
 
 ```yaml
 emergency_change:
@@ -1921,9 +1921,9 @@ emergency_change:
   mandatory_review_by: timestamp
 ```
 
----
+______________________________________________________________________
 
-# 74. Deprecation
+## 74. Deprecation
 
 Deprecation means:
 
@@ -1945,9 +1945,9 @@ and:
 superseded
 ```
 
----
+______________________________________________________________________
 
-# 75. Removal
+## 75. Removal
 
 Removal SHOULD identify:
 
@@ -1965,9 +1965,9 @@ retention requirements;
 rollback possibility.
 ```
 
----
+______________________________________________________________________
 
-# 76. Migration
+## 76. Migration
 
 Breaking changes SHOULD provide migration semantics where applicable.
 
@@ -1981,9 +1981,9 @@ NEW STATE
 
 Migration must preserve required identity and provenance.
 
----
+______________________________________________________________________
 
-# 77. Root Change Control Plane
+## 77. Root Change Control Plane
 
 The control plane SHOULD own or govern:
 
@@ -2011,9 +2011,9 @@ supersession.
 
 Domain workers may propose changes but should not independently manufacture commit authority.
 
----
+______________________________________________________________________
 
-# 78. Root Change Agents
+## 78. Root Change Agents
 
 Possible roles:
 
@@ -2041,9 +2041,9 @@ RECOVERY_AGENT
 
 Role assignment does not itself establish authority.
 
----
+______________________________________________________________________
 
-# 79. Root Change Skills
+## 79. Root Change Skills
 
 Relevant Skills MAY include:
 
@@ -2071,9 +2071,9 @@ rollback validation;
 supersession analysis.
 ```
 
----
+______________________________________________________________________
 
-# 80. Root Change Workflow
+## 80. Root Change Workflow
 
 ```text
 1. IDENTIFY CHANGE
@@ -2117,9 +2117,9 @@ supersession analysis.
 20. SUPERSEDE / REPAIR / REVERT IF REQUIRED
 ```
 
----
+______________________________________________________________________
 
-# 81. Change Protocol
+## 81. Change Protocol
 
 ```text
 PROPOSE
@@ -2149,9 +2149,9 @@ VERIFY
 LOG
 ```
 
----
+______________________________________________________________________
 
-# 82. Adversarial Validation
+## 82. Adversarial Validation
 
 Consequential changes SHOULD be challenged using a materially different validation path.
 
@@ -2179,9 +2179,9 @@ rollback failure;
 stronger competing design.
 ```
 
----
+______________________________________________________________________
 
-# 83. Change Sensitivity
+## 83. Change Sensitivity
 
 Identify the smallest assumption capable of flipping the change decision.
 
@@ -2203,9 +2203,9 @@ one critical test.
 
 Test these first.
 
----
+______________________________________________________________________
 
-# 84. Failure Modes
+## 84. Failure Modes
 
 ```text
 FM-CHG-001 unlogged material change
@@ -2249,9 +2249,9 @@ FM-CHG-019 superseded state erased
 FM-CHG-020 generated change self-certifies
 ```
 
----
+______________________________________________________________________
 
-# 85. Extended Failure Modes
+## 85. Extended Failure Modes
 
 ```text
 FM-CHG-021 partial atomic commit
@@ -2295,9 +2295,9 @@ FM-CHG-039 change composition creates unreviewed effect
 FM-CHG-040 audit record differs from committed state
 ```
 
----
+______________________________________________________________________
 
-# 86. Repair
+## 86. Repair
 
 When a change-control failure is detected:
 
@@ -2323,9 +2323,9 @@ VERIFY
 APPEND CORRECTIVE CHANGE RECORD
 ```
 
----
+______________________________________________________________________
 
-# 87. Rollback
+## 87. Rollback
 
 Rollback SHOULD specify:
 
@@ -2342,9 +2342,9 @@ rollback:
 
 Rollback itself must be governed.
 
----
+______________________________________________________________________
 
-# 88. Rollback Safety
+## 88. Rollback Safety
 
 A prior state may no longer be safe.
 
@@ -2358,9 +2358,9 @@ CURRENTLY_SAFE_TO_RESTORE
 
 Rollback requires current-context validation.
 
----
+______________________________________________________________________
 
-# 89. Change Validators
+## 89. Change Validators
 
 Minimum validator surface:
 
@@ -2402,9 +2402,9 @@ validate_supersession
 validate_rollback
 ```
 
----
+______________________________________________________________________
 
-# 90. Core Tests
+## 90. Core Tests
 
 ```text
 T-CHG-001 proposed change cannot be marked committed without commit evidence
@@ -2428,9 +2428,9 @@ T-CHG-009 capability addition does not create authority
 T-CHG-010 UNKNOWN/GAP cannot satisfy required validation
 ```
 
----
+______________________________________________________________________
 
-# 91. Extended Tests
+## 91. Extended Tests
 
 ```text
 T-CHG-011 conflicting concurrent changes are detected
@@ -2464,9 +2464,9 @@ T-CHG-024 canon change cannot bypass canon admission
 T-CHG-025 runtime change cannot claim production validation without evidence
 ```
 
----
+______________________________________________________________________
 
-# 92. Falsifiers
+## 92. Falsifiers
 
 This specification fails if AMOS permits:
 
@@ -2492,9 +2492,9 @@ rollback that erases historical evidence;
 or generated artifacts to self-certify.
 ```
 
----
+______________________________________________________________________
 
-# 93. H/M/L Applicability
+## 93. H/M/L Applicability
 
 ## H — Root / System
 
@@ -2562,9 +2562,9 @@ individual policy rules;
 individual permissions.
 ```
 
----
+______________________________________________________________________
 
-# 94. Cross-Scale Change Law
+## 94. Cross-Scale Change Law
 
 A local change may have system-wide effects.
 
@@ -2578,9 +2578,9 @@ IMPACT_SCALE
 
 Dependency analysis determines impact.
 
----
+______________________________________________________________________
 
-# 95. Dependencies
+## 95. Dependencies
 
 This specification conceptually depends on:
 
@@ -2634,9 +2634,9 @@ CANON_GOVERNANCE
 
 Exact path bindings remain subject to the authoritative repository.
 
----
+______________________________________________________________________
 
-# 96. Root Change Map
+## 96. Root Change Map
 
 ```text
                        ┌────────────────────┐
@@ -2682,9 +2682,9 @@ Exact path bindings remain subject to the authoritative repository.
                        └────────────────────┘
 ```
 
----
+______________________________________________________________________
 
-# 97. RSCF
+## 97. RSCF
 
 ```yaml
 rscf:
@@ -2748,9 +2748,9 @@ rscf:
   confidence_ceiling: 0
 ```
 
----
+______________________________________________________________________
 
-# 98. Gap Matrix
+## 98. Gap Matrix
 
 ```yaml
 gap_matrix:
@@ -2805,9 +2805,9 @@ gap_matrix:
     state: UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 99. Initial Change Ledger
+## 99. Initial Change Ledger
 
 No historical AMOS changes are invented by this specification.
 
@@ -2837,9 +2837,9 @@ change_ledger:
       canon_status: UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 100. Historical Reconstruction Rule
+## 100. Historical Reconstruction Rule
 
 Existing AMOS version history must not be reconstructed from memory or architectural plausibility.
 
@@ -2873,9 +2873,9 @@ UNKNOWN/GAP
 
 not invented chronology.
 
----
+______________________________________________________________________
 
-# 101. Promotion Requirements
+## 101. Promotion Requirements
 
 Before this root change-log architecture can be treated as operational, recover or implement:
 
@@ -2931,9 +2931,9 @@ history-integrity tests;
 and adversarial change-control tests.
 ```
 
----
+______________________________________________________________________
 
-# 102. Promotion Ladder
+## 102. Promotion Ladder
 
 ```text
 PROPOSED_SPECIFICATION
@@ -2957,9 +2957,9 @@ RUNTIME_ACTIVE
 
 No stage implies the next.
 
----
+______________________________________________________________________
 
-# 103. Current State
+## 103. Current State
 
 ```yaml
 current_state:
@@ -2994,9 +2994,9 @@ current_state:
   confidence_ceiling: 0
 ```
 
----
+______________________________________________________________________
 
-# 104. Final Root Change Contract
+## 104. Final Root Change Contract
 
 AMOS root change governance SHALL preserve the distinction between:
 
@@ -3086,30 +3086,33 @@ The governing root law is:
 
 > **AMOS change history is an append-preserving provenance structure, not a narrative of presumed progress. A change becomes part of governed state only through the applicable validation, authority, policy, dependency, freshness, and commit boundaries. Newness does not establish correctness; implementation does not establish validation; logging does not establish approval; and no repair, rollback, or supersession may erase the lineage required to reconstruct how the system reached its current state.**
 
----
+______________________________________________________________________
 
-# END — `00_ROOT_CHANGE_LOG.md`
+## END — `00_ROOT_CHANGE_LOG.md`
 
 ```
 ```
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]]
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: 00_root_change_log
 node_type: note
 path: 00_ROOT/00_ROOT_CHANGE_LOG.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[00_ROOT/00_COSMO_BRAIN_MOC|00_COSMO_BRAIN_MOC]]
-

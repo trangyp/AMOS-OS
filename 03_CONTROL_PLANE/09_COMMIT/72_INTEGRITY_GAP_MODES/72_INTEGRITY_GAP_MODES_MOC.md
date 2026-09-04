@@ -1,10 +1,13 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: 72 Integrity Gap Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/72_INTEGRITY_GAP_MODES
 tags:
-- 72-integrity-gap-modes
-- canon/control-plane
+  - 72-integrity-gap-modes
+  - canon/control-plane
 moc: true
 rscf:
   state: DERIVED
@@ -24,5 +27,6 @@ rscf:
 - [[03_CONTROL_PLANE/09_COMMIT/72_INTEGRITY_GAP_MODES/INTEGRITY_GAP_MODES_COMMIT_CONTROL_PLANE_MODE_FAMILY_SPEC|INTEGRITY_GAP_MODES_COMMIT_CONTROL_PLANE_MODE_FAMILY_SPEC]]
 - [[03_CONTROL_PLANE/09_COMMIT/72_INTEGRITY_GAP_MODES/INTEGRITY_GAP_MODES_COMMIT_CONTROL_PLANE_README|INTEGRITY_GAP_MODES_COMMIT_CONTROL_PLANE_README]]
 
----
+______________________________________________________________________
+
 **Parent:** [[03_CONTROL_PLANE/09_COMMIT/09_COMMIT_MOC|09_COMMIT_MOC]]

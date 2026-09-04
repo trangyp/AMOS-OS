@@ -4,22 +4,19 @@ title: SKILL — Amos C09 Org Law Policy Master
 type: skill
 source: 07_SKILLS/amos-c09-org-law-policy-master
 name: amos-c09-org-law-policy-master
-description: AMOS C09 Org, Law & Policy — governance, authority, compliance, regulatory
-  frameworks, constitutional governance, legal reasoning, policy analysis. Use when
-  governance design, legal analysis, or pol. Do not use for generic tasks outside
-  c09 domain.
+description: AMOS C09 Org, Law & Policy — governance, authority, compliance, regulatory frameworks, constitutional governance, legal reasoning, policy analysis. Use when governance design, legal analysis, or pol. Do not use for generic tasks outside c09 domain.
 parent_skill: none
 domain: c09
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CANON
 tags:
-- type/skill
-- type/skill
-- domain/org-law-policy
-- epistemic/source_claim
-- hml/h
-- epistemic/source_canon
-- amos-os
+  - type/skill
+  - type/skill
+  - domain/org-law-policy
+  - epistemic/source_claim
+  - hml/h
+  - epistemic/source_canon
+  - amos-os
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -29,23 +26,23 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: H
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
-- L7_authority
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
+  - L7_authority
 collapse_class: fail_closed
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L7
-- L16
-- L17
-- L18
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L7
+  - L16
+  - L17
+  - L18
 license: MIT
 steward: Trang Phan
 ---
@@ -87,15 +84,15 @@ A parent skill with clearly labeled sections is better than 29 separate shallow 
 ## Operations
 
 1. **c09_org_law.org_structure_design**: F01 — Model organizations as governed systems with distinguishable layers (legal entities, reporting structure, operating model, decision rights, control system, incentive/culture layer). Detect inte...
-2. **c09_org_law.decision_rights_framework**: F01 — Apply the five questions (who proposes, decides, consults, informs, executes) to every recurring decision area. Classify decisions as strategic/tactical/operational/crisis with appropriate...
-3. **c09_org_law.controls_risk_compliance**: F02 — Design control frameworks (preventive/detective/corrective) across strategic/tactical/operational/automated levels. Apply segregation of duties, authorization thresholds, documentation, mon...
-4. **c09_org_law.legal_reasoning_primitives**: F03 — Parse legal questions using primitives (PERSON, ORGANISATION, STATE, ASSET, CONTRACT, OBLIGATION, RIGHT, RISK, SANCTION, EVIDENCE) and relations (OWNS, OWES, IS_SUBJECT_TO, VIOLATES, COMP...
-5. **c09_org_law.jurisdiction_mapping**: F04 — Enumerate connecting factors (incorporation, performance, harm, forum clause, mandatory rules, residence). Identify candidate jurisdictions per factor. Detect mandatory/local-policy overrides....
-6. **c09_org_law.compliance_reasoning**: F05 — Determine compliance scope from activities (not intentions): which jurisdictions the entity operates in, sells into, employs in, processes data about. Run policy gap analysis: norm inventory →...
-7. **c09_org_law.jurisdiction_ecosystems**: F06 — Apply jurisdiction-specific legal ecosystem models (Vietnam 25-axis frame, China 10-layer/11-domain/12-axis tensor). Maintain invariant: jurisdiction-specificity lives in defaults, vocabular...
-8. **c09_org_law.succession_architecture**: F07 — Evaluate succession as a structural property, not a personal one. Classify successor types (founder-continuity, family-loyalist, operational-modizer, full-transformation, hybrid) with heuris...
-9. **c09_org_law.culture_transformation**: F08 — Assess culture via stated-vs-enacted gap (highest-signal metric). Apply culture change levers multiplicatively (leadership modeling, incentive restructuring, hiring/exit, communication, struc...
-10. **c09_org_law.monitoring_audit_loop**: F09 — Execute the monitoring-to-decision loop: observe → diagnose → decide → implement → re-test → record. Demand evidence of operation (not existence) for every control. Enforce revalidation dates...
+1. **c09_org_law.decision_rights_framework**: F01 — Apply the five questions (who proposes, decides, consults, informs, executes) to every recurring decision area. Classify decisions as strategic/tactical/operational/crisis with appropriate...
+1. **c09_org_law.controls_risk_compliance**: F02 — Design control frameworks (preventive/detective/corrective) across strategic/tactical/operational/automated levels. Apply segregation of duties, authorization thresholds, documentation, mon...
+1. **c09_org_law.legal_reasoning_primitives**: F03 — Parse legal questions using primitives (PERSON, ORGANISATION, STATE, ASSET, CONTRACT, OBLIGATION, RIGHT, RISK, SANCTION, EVIDENCE) and relations (OWNS, OWES, IS_SUBJECT_TO, VIOLATES, COMP...
+1. **c09_org_law.jurisdiction_mapping**: F04 — Enumerate connecting factors (incorporation, performance, harm, forum clause, mandatory rules, residence). Identify candidate jurisdictions per factor. Detect mandatory/local-policy overrides....
+1. **c09_org_law.compliance_reasoning**: F05 — Determine compliance scope from activities (not intentions): which jurisdictions the entity operates in, sells into, employs in, processes data about. Run policy gap analysis: norm inventory →...
+1. **c09_org_law.jurisdiction_ecosystems**: F06 — Apply jurisdiction-specific legal ecosystem models (Vietnam 25-axis frame, China 10-layer/11-domain/12-axis tensor). Maintain invariant: jurisdiction-specificity lives in defaults, vocabular...
+1. **c09_org_law.succession_architecture**: F07 — Evaluate succession as a structural property, not a personal one. Classify successor types (founder-continuity, family-loyalist, operational-modizer, full-transformation, hybrid) with heuris...
+1. **c09_org_law.culture_transformation**: F08 — Assess culture via stated-vs-enacted gap (highest-signal metric). Apply culture change levers multiplicatively (leadership modeling, incentive restructuring, hiring/exit, communication, struc...
+1. **c09_org_law.monitoring_audit_loop**: F09 — Execute the monitoring-to-decision loop: observe → diagnose → decide → implement → re-test → record. Demand evidence of operation (not existence) for every control. Enforce revalidation dates...
 
 ## Vault-Sourced Domain Knowledge
 
@@ -143,6 +140,7 @@ C09 is not a lawyer, not a compliance certifier, and not an oracle of organizati
 > This is the actual execution path, not metadata. Each step uses a domain family from the vault knowledge and passes through the P1 Reality Contact Loop.
 
 ### Step 1: Organization Structure Analysis (F01)
+
 **Precondition**: Governance question received with organization context.
 **Operation**: Model the organization as a governed system across six layers (legal entities, reporting structure, operating model, decision rights, control system, incentive/culture). Detect inter-layer misalignment. Map ownership taxonomy to principal-agent structures. Apply the five questions (who proposes/decides/consults/informs/executes) to each decision area. Classify decisions as strategic/tactical/operational/crisis.
 **P1 Gate**: Is the decision-rights matrix internally consistent? Two matrices assigning the same decision to different owners is a latent conflict, not a flexibility feature. An orphan decision (no #2 answer) or theater (no #5 answer) must be flagged.
@@ -150,6 +148,7 @@ C09 is not a lawyer, not a compliance certifier, and not an oracle of organizati
 **Effect**: Layered org model with decision-rights matrix and ownership taxonomy.
 
 ### Step 2: Controls & Risk Architecture (F02)
+
 **Precondition**: Layered org model from Step 1.
 **Operation**: Design control framework across preventive/detective/corrective types and strategic/tactical/operational/automated levels. Apply segregation of duties, authorization thresholds, documentation, monitoring, independent review. Build risk register: each entry carries description, owner, likelihood, impact, existing controls, residual exposure, treatment decision, review date. Assess concentration and coupling (single points of dependency, correlated exposures, hidden couplings).
 **P1 Gate**: Is control intensity past the Ω-overload point? Excessive control slows decisions, drives shadow processes, and selects for rule-followers over judgment. Minimum sufficient governance — not maximum — is the target.
@@ -157,6 +156,7 @@ C09 is not a lawyer, not a compliance certifier, and not an oracle of organizati
 **Effect**: Control framework with risk register and concentration map.
 
 ### Step 3: Legal Reasoning (F03)
+
 **Precondition**: Control framework from Step 2; legal question identified.
 **Operation**: Parse question using legal primitives (PERSON, ORGANISATION, STATE, ASSET, CONTRACT, OBLIGATION, RIGHT, RISK, SANCTION, EVIDENCE) and relations (OWNS, OWES, IS_SUBJECT_TO, VIOLATES, COMPLIES_WITH, HAS_DUTY_TO, etc.). Apply truth values (TRUE/FALSE/UNKNOWN), modalities (MUST/SHOULD/MAY), and burden-of-proof allocation. Run the analysis pipeline: Parse → State → Goal → Strategy → Apply (Rule of 2 + Rule of 4) → Safety → Channel → Realise → Evaluate.
 **P1 Gate**: Are legal claims being treated as verified? All legal claims are SOURCE_CLAIM until independently validated by qualified local counsel. No fabricated cases or citations. No outcome prediction beyond structural classes.
@@ -164,6 +164,7 @@ C09 is not a lawyer, not a compliance certifier, and not an oracle of organizati
 **Effect**: Legal analysis with primitives, competing interpretations, and disclaimer.
 
 ### Step 4: Jurisdiction Mapping (F04)
+
 **Precondition**: Legal analysis from Step 3.
 **Operation**: Enumerate connecting factors (place of incorporation, performance, harm, forum clause, mandatory rules, residence). Identify candidate jurisdictions per factor. Detect mandatory/local-policy overrides. Determine forum and its conflicts rules. Record unresolved overlaps as open risks. For multi-jurisdiction operations: map layered obligations (domestic + extraterritorial + treaty/bloc + industry licensing). Obligations accumulate additively.
 **P1 Gate**: Am I assuming a governing-law clause is globally self-executing? Some connections resist contractual override. Never assume clause effectiveness without verifying the jurisdiction.
@@ -171,6 +172,7 @@ C09 is not a lawyer, not a compliance certifier, and not an oracle of organizati
 **Effect**: Jurisdiction map with connecting factors, candidate jurisdictions, and open-risk register.
 
 ### Step 5: Compliance Reasoning (F05)
+
 **Precondition**: Jurisdiction map from Step 4.
 **Operation**: Determine compliance scope from activities (not intentions): jurisdictions operated in, sold into, employed in, data processed about. Run policy gap analysis: norm inventory → coverage mapping (requirement → owning policy → owning control → evidence source) → gap classification (missing policy / policy-without-control / control-without-evidence / evidence-not-monitored) → risk ranking (severity = sanction magnitude × detection probability × operational cost) → remediation plan. Classify regulatory intensity (light/moderate/heavy/special regime).
 **P1 Gate**: Is the compliance program documented but not operating? Regulators and courts increasingly distinguish paper programs from effective ones. Evidence of actual operation (testing results, actioned findings, disciplined violations) is what separates the two. A binder is not a program.
@@ -178,6 +180,7 @@ C09 is not a lawyer, not a compliance certifier, and not an oracle of organizati
 **Effect**: Compliance assessment with gap classification, risk ranking, and remediation plan.
 
 ### Step 6: Jurisdiction-Specific Ecosystem (F06)
+
 **Precondition**: Compliance assessment from Step 5; specific jurisdiction identified.
 **Operation**: Apply jurisdiction-specific legal ecosystem model. For Vietnam: use 25-axis analysis frame (domain cluster, matter type, jurisdiction scope, client type, risk level, etc.). For China: use 10-layer/11-domain/12-axis tensor. For other jurisdictions: apply the portable kernel pattern — swap only jurisdiction packs (defaults, vocabulary, institution maps); keep primitives (H3), pipeline (H3 M3), and safety rules fixed.
 **P1 Gate**: Am I relaxing safety constraints for a specific jurisdiction? The invariant: jurisdiction-specificity lives in defaults, vocabulary, and institution maps — never in relaxed safety constraints. No live statutes/cases; conceptual coverage only.
@@ -185,13 +188,15 @@ C09 is not a lawyer, not a compliance certifier, and not an oracle of organizati
 **Effect**: Jurisdiction-specific analysis with engine mode (diagnosis/design/ecosystem/cross-border/scenario) and local-counsel recommendation.
 
 ### Step 7: Succession & Transition Architecture (F07)
+
 **Precondition**: Org model and governance state from Steps 1–2; transition question identified.
-**Operation**: Evaluate succession as a structural property. Classify successor type (founder-continuity <10%, family-loyalist 15–25%, operational-modernizer 40–55%, full-transformation 60–75%, hybrid context-dependent). Score succession fit across five variables (clarity under pressure, adaptation under complexity, system design ability, authority acceptance, low-ego/high-responsibility). Detect departmental failure order as early-warning triage. Apply succession decision matrix: stable→Type 2/3, stagnating→Type 3, declining→Type 4, near-collapse→Type 4 external.
+**Operation**: Evaluate succession as a structural property. Classify successor type (founder-continuity \<10%, family-loyalist 15–25%, operational-modernizer 40–55%, full-transformation 60–75%, hybrid context-dependent). Score succession fit across five variables (clarity under pressure, adaptation under complexity, system design ability, authority acceptance, low-ego/high-responsibility). Detect departmental failure order as early-warning triage. Apply succession decision matrix: stable→Type 2/3, stagnating→Type 3, declining→Type 4, near-collapse→Type 4 external.
 **P1 Gate**: Am I evaluating candidates without evaluating the surrounding structure? Evaluating candidates without structure predicts failure even with good candidates. A high charisma score with low system-design and low-ego scores is the classic false-positive.
 **Self-audit**: Are the heuristic priors labelled as such, not as measurements? These come from qualitative synthesis, not controlled studies — treat as directional, re-estimate per case.
 **Effect**: Succession assessment with successor type, fit scores, and failure-order triage.
 
 ### Step 8: Culture & Transformation Governance (F08)
+
 **Precondition**: Succession assessment from Step 7; transformation question identified.
 **Operation**: Assess culture via diagnostic questions (what behaviors are rewarded/punished, stated vs enacted gap). Apply culture change levers multiplicatively (leadership modeling, incentive restructuring, hiring/exit, communication, structural redesign). Govern transformation: re-specify decision rights during transformation (normal rights freeze under ambiguity), set pacing/milestones, distinguish interest-based resistance from competence-based caution. Assess TSS governance load (Ω-overload, H-cohesion, F-fragmentation, S-shock-sensitivity).
 **P1 Gate**: Is the stated/actual culture gap large and persistent? This indicates incentive misdesign, not communication failure. Is transformation governance parallel-running with unchanged legacy governance? That's change theater.
@@ -199,6 +204,7 @@ C09 is not a lawyer, not a compliance certifier, and not an oracle of organizati
 **Effect**: Culture assessment with transformation governance plan and TSS load profile.
 
 ### Step 9: Monitoring & Audit Loop (F09)
+
 **Precondition**: All prior assessments complete; governance system mapped.
 **Operation**: Execute the monitoring-to-decision loop: observe (controls, audits, attrition, disputes, regulator contact) → diagnose (gap map, failure order, culture gap) → decide (treat/accept/escalate) → implement (owned, dated, resourced) → re-test (evidence of operation, not existence) → record (decision, rationale, supersession). Set revalidation dates for every CONDITIONAL legal statement and governance assessment older than one planning cycle. Apply the governance viability operator as comparative diagnostic.
 **P1 Gate**: Am I accepting evidence of control existence as evidence of control operation? These are different things. Absence of test evidence indicates an unevaluated claim, not a clean state.
@@ -207,15 +213,15 @@ C09 is not a lawyer, not a compliance certifier, and not an oracle of organizati
 
 ### Decision Gates
 
-| Gate | Check | Failure Action |
-|------|-------|---------------|
-| **G1** | Jurisdiction scoped for every legal claim | Unscoped legal claim → SOURCE_CLAIM, not VERIFIED; require jurisdiction identification |
-| **G2** | Two readings held for any material legal claim | Single-reading analysis → advocacy document, not analysis; restart Step 3 |
-| **G3** | Authority boundary respected | Decision exceeds authority boundary → escalate, do not execute |
-| **G4** | Paper-program vs effective-program distinguished | Documented program without operation evidence → paper gap, not clean state |
-
+| Gate   | Check                                            | Failure Action                                                                         |
+| ------ | ------------------------------------------------ | -------------------------------------------------------------------------------------- |
+| **G1** | Jurisdiction scoped for every legal claim        | Unscoped legal claim → SOURCE_CLAIM, not VERIFIED; require jurisdiction identification |
+| **G2** | Two readings held for any material legal claim   | Single-reading analysis → advocacy document, not analysis; restart Step 3              |
+| **G3** | Authority boundary respected                     | Decision exceeds authority boundary → escalate, do not execute                         |
+| **G4** | Paper-program vs effective-program distinguished | Documented program without operation evidence → paper gap, not clean state             |
 
 ## Provenance
+
 - **Skill**: amos-c09-org-law-policy-master
 - **Source**: AMOS_OS Obsidian vault (`/Users/mac/Documents/AMOS_OS`)
 - **Vault source**: `11_KNOWLEDGE/AMOS_C09_ORG_LAW_POLICY_MASTER_KNOWLEDGE.md` (content_hash: bead46b07fc02558)
@@ -261,7 +267,6 @@ C09 is not a lawyer, not a compliance certifier, and not an oracle of organizati
 - Access to AMOS_OS Obsidian vault for vault-sourced content
 - No external API credentials required
 
-
 ## Validation
 
 - **Consistency**: Results must not contain unresolved contradictions within the skill's scope (Law of Law).
@@ -296,17 +301,19 @@ C09 is not a lawyer, not a compliance certifier, and not an oracle of organizati
 ## Examples
 
 - **Scenario**: Designing decision rights for a multi-entity group
+
   - **Input**: "We're restructuring a holding company with 5 subsidiaries — who should decide capital allocation?"
   - **Output**: Decision rights matrix per subsidiary × decision type, with delegation thresholds, escalation paths, and consistency checks. Flags orphan decisions and overlaps.
 
 - **Scenario**: Legal analysis of cross-border data transfer compliance
+
   - **Input**: "Does our Vietnam-based SaaS selling into EU need GDPR compliance?"
   - **Output**: Jurisdiction map with connecting factors, layered obligations (VN domestic + EU extraterritorial + treaty), compliance scope determination, gap classification, and local-counsel recommendation. All legal claims labelled SOURCE_CLAIM.
 
 - **Scenario**: Succession planning for a declining family business
+
   - **Input**: "The founder is retiring from a stagnating family firm — what successor type do we need?"
   - **Output**: Successor type classification (Type 3 operational-modernizer for stagnating), five-variable fit scoring framework, departmental failure-order triage, and family-business succession mechanics with structural mitigations. Heuristic priors labelled as directional, not measured.
-
 
 ## Anti-Patterns
 
@@ -316,15 +323,13 @@ C09 is not a lawyer, not a compliance certifier, and not an oracle of organizati
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
-- **Parent**: `` — routes to this skill when c09 specialization is needed
+- **Parent**: \`\` — routes to this skill when c09 specialization is needed
 - **Peers**: Other skills in the `c09` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -343,7 +348,6 @@ C09 is not a lawyer, not a compliance certifier, and not an oracle of organizati
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -351,7 +355,6 @@ C09 is not a lawyer, not a compliance certifier, and not an oracle of organizati
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 See `references/detailed-content.md` for detailed amos canon grounding.
 
@@ -404,11 +407,10 @@ See `references/detailed-content.md` for detailed amos canon grounding.
 - `references/vn_nab_legal_audit_report.md` — loaded on demand
 - `references/vn_shareholder_board_report.md` — loaded on demand
 - `references/vn_technical_legal_terms.md` — loaded on demand
-- `` — skill Map of Content
-- `` — parent skill
-- `` — corresponding workflow
-- `` — corresponding agent
-
+- \`\` — skill Map of Content
+- \`\` — parent skill
+- \`\` — corresponding workflow
+- \`\` — corresponding agent
 
 ## Do not use
 
@@ -417,6 +419,6 @@ See `references/detailed-content.md` for detailed amos canon grounding.
 - As a substitute for domain-specific legal or compliance evidence
 - Outside org/law/policy domain reasoning
 
----
+______________________________________________________________________
 
 **MOC:** references_MOC · [[00_ROOT/00_HOME|00_HOME]]

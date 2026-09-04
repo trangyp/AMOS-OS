@@ -1,19 +1,22 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: L01 SENSING OBSERVATION PRIMITIVES COGNITIVE MATRIX REPAIR
 type: cognitive
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION
 tags:
-- amos
-- cognitive-matrix
-- matrix/l01
-- sensing-observation
-- repair
-- recovery
-- provenance
-- rscf
-- hml
-- control-plane
-- domain/cognitive-matrix
+  - amos
+  - cognitive-matrix
+  - matrix/l01
+  - sensing-observation
+  - repair
+  - recovery
+  - provenance
+  - rscf
+  - hml
+  - control-plane
+  - domain/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL
@@ -33,9 +36,9 @@ rscf:
 
 > **Epistemic boundary:** this artifact defines a proposed repair and recovery contract for `L01_SENSING_OBSERVATION`. It does not establish that the repair mechanisms described here are implemented, executable, canonically complete, formally verified, or empirically validated.
 
----
+______________________________________________________________________
 
-# 0. Executive Definition
+## 0. Executive Definition
 
 `L01_SENSING_OBSERVATION/REPAIR.md` defines how AMOS should respond when sensing or observation state becomes unreliable, incomplete, stale, conflicted, misclassified, improperly transformed, incorrectly scoped, provenance-damaged, unauthorized, or otherwise unfit for downstream use.
 
@@ -71,29 +74,29 @@ COMMIT ONLY IF AUTHORIZED
 
 The core rule is:
 
-[
-\boxed{
+\[
+\\boxed{
 Repair
-\neq
+\\neq
 RewriteReality
 }
-]
+\]
 
 and:
 
-[
-\boxed{
+\[
+\\boxed{
 Repair
-\neq
+\\neq
 FabricateMissingEvidence
 }
-]
+\]
 
 Repair restores integrity of the observation representation and its governed use. It does not manufacture reality contact that did not occur.
 
----
+______________________________________________________________________
 
-# 1. Purpose
+## 1. Purpose
 
 The purpose of the L01 repair subsystem is to restore the integrity, traceability, admissibility, and downstream safety of sensing and observation state after a material failure has been detected.
 
@@ -133,9 +136,9 @@ to convert UNKNOWN into PASS
 to let capability substitute for authority
 ```
 
----
+______________________________________________________________________
 
-# 2. Source / Canon References
+## 2. Source / Canon References
 
 ## 2.1 Origin
 
@@ -233,9 +236,9 @@ REPAIR_IMPLEMENTED
 REPAIR_VALIDATED
 ```
 
----
+______________________________________________________________________
 
-# 3. Definition and Scope
+## 3. Definition and Scope
 
 L01 repair is the governed process by which an affected sensing/observation state is:
 
@@ -279,9 +282,9 @@ memory handoff
 downstream dependency state
 ```
 
----
+______________________________________________________________________
 
-# 4. Out of Scope
+## 4. Out of Scope
 
 L01 repair does not independently own:
 
@@ -300,9 +303,9 @@ institutional authority
 
 It may initiate or request those processes where dependencies require them.
 
----
+______________________________________________________________________
 
-# 5. Repair Object
+## 5. Repair Object
 
 The central repair object is:
 
@@ -372,9 +375,9 @@ L01RepairCase:
       - UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 6. Typed Inputs
+## 6. Typed Inputs
 
 ```yaml
 L01RepairInput:
@@ -429,9 +432,9 @@ L01RepairInput:
     type: H | M | L | MULTI_SCALE | UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 7. Typed Outputs
+## 7. Typed Outputs
 
 ```yaml
 L01RepairOutput:
@@ -495,9 +498,9 @@ L01RepairOutput:
     type: GapRecord[]
 ```
 
----
+______________________________________________________________________
 
-# 8. State Variables
+## 8. State Variables
 
 Minimum repair-state variables:
 
@@ -526,11 +529,9 @@ K = commit state
 
 Candidate repair-state tensor:
 
-[
-T_{repair}
-==========
+## \[ T\_{repair}
 
-T[
+T\[
 observation,
 failure,
 invariant,
@@ -545,14 +546,14 @@ repair,
 validation,
 authority,
 commit
-]
-]
+\]
+\]
 
 This is an `AMOS_MODEL`.
 
----
+______________________________________________________________________
 
-# 9. Repair Operators
+## 9. Repair Operators
 
 Candidate operator registry:
 
@@ -606,9 +607,9 @@ not:
 IMPLEMENTED
 ```
 
----
+______________________________________________________________________
 
-# 10. Repair Invariants
+## 10. Repair Invariants
 
 ```text
 L01-REP-INV-001  Repair must not fabricate evidence.
@@ -633,112 +634,103 @@ L01-REP-INV-019  Stale validation must be rerun before consequential commit.
 L01-REP-INV-020  Repair success does not establish empirical truth.
 ```
 
----
+______________________________________________________________________
 
-# 11. Fundamental Repair Equations
+## 11. Fundamental Repair Equations
 
 ## 11.1 Selective Invalidation
 
-For failed observation \(O_i\):
+For failed observation (O_i):
 
-[
-\boxed{
-Affected(O_i)
-=============
+## \[ \\boxed{ Affected(O_i)
 
-Descendants_{load-bearing}\(O_i\)
+Descendants\_{load-bearing}(O_i)
 }
-]
+\]
 
 The invalidation set should not automatically equal the entire cognitive state.
 
-[
-\boxed{
+\[
+\\boxed{
 LocalFailure
-\not\Rightarrow
+\\not\\Rightarrow
 GlobalInvalidation
 }
-]
+\]
 
----
+______________________________________________________________________
 
 ## 11.2 Earliest Material Failure
 
 Given an execution/provenance path:
 
-[
-n_0 \rightarrow n_1 \rightarrow \dots \rightarrow n_k
-]
+\[
+n_0 \\rightarrow n_1 \\rightarrow \\dots \\rightarrow n_k
+\]
 
 define:
 
-[
-\boxed{
-F^*
-===
+## \[ \\boxed{ F^\*
 
-\min_{\prec}
+\\min\_{\\prec}
 {
 n_i :
 Failure(n_i)
-\land
+\\land
 Material(n_i)
 }
 }
-]
+\]
 
-where (\prec) is causal/dependency precedence.
+where (\\prec) is causal/dependency precedence.
 
 This is an `AMOS_MODEL` definition.
 
----
+______________________________________________________________________
 
 ## 11.3 Repair Confidence
 
-[
-\boxed{
-C_{repair}
-\le
-\min(
-C_{diagnosis},
-C_{evidence},
-C_{provenance},
-C_{dependency},
-C_{scope},
-C_{regime},
-C_{authority}
+\[
+\\boxed{
+C\_{repair}
+\\le
+\\min(
+C\_{diagnosis},
+C\_{evidence},
+C\_{provenance},
+C\_{dependency},
+C\_{scope},
+C\_{regime},
+C\_{authority}
 )
 }
-]
+\]
 
 for load-bearing premises.
 
----
+______________________________________________________________________
 
 ## 11.4 Reobservation Identity
 
-If a new reality-contact event occurs at \(t_2\):
+If a new reality-contact event occurs at (t_2):
 
-[
-\boxed{
-Observe(E,t_2)
-==============
+## \[ \\boxed{ Observe(E,t_2)
 
 O_2
 }
-]
+\]
 
 not:
 
-[
+\[
 O_1 := O_2
-]
+\]
 
-Historical \(O_1\) remains traceable.
+Historical (O_1) remains traceable.
 
----
+______________________________________________________________________
 
-# 12. Dependencies
+## 12. Dependencies
 
 ## 12.1 Required L01 Dependencies
 
@@ -784,9 +776,9 @@ memory admission controls
 audit log
 ```
 
----
+______________________________________________________________________
 
-# 13. H/M/L Applicability
+## 13. H/M/L Applicability
 
 Repair applies recursively.
 
@@ -845,9 +837,9 @@ the dependency structure is system-wide
 or local repair cannot restore integrity
 ```
 
----
+______________________________________________________________________
 
-# 14. Fractal Repair Rule
+## 14. Fractal Repair Rule
 
 Default escalation:
 
@@ -873,20 +865,17 @@ else:
 
 Therefore:
 
-[
-\boxed{
-RepairScope
-===========
+## \[ \\boxed{ RepairScope
 
 SmallestSufficientDependencyClosure
 }
-]
+\]
 
 where determinable.
 
----
+______________________________________________________________________
 
-# 15. Control-Plane Requirements
+## 15. Control-Plane Requirements
 
 The control plane should govern consequential repair transitions.
 
@@ -911,9 +900,9 @@ A cognitive worker may diagnose or propose.
 
 It must not silently convert a proposal into durable authoritative state.
 
----
+______________________________________________________________________
 
-# 16. Proposal / Commit Separation
+## 16. Proposal / Commit Separation
 
 ```text
 REPAIR_DIAGNOSIS
@@ -931,17 +920,17 @@ COMMIT / REJECT
 
 Hard boundary:
 
-[
-\boxed{
+\[
+\\boxed{
 RepairProposal
-\neq
+\\neq
 RepairCommit
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 17. Commit-Time Revalidation
+## 17. Commit-Time Revalidation
 
 Immediately before consequential repair commit, recheck:
 
@@ -964,9 +953,9 @@ If any load-bearing premise has changed:
 ABORT OR REVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 18. Agents
+## 18. Agents
 
 Candidate repair-agent roles:
 
@@ -997,9 +986,9 @@ AGENT_CAPABILITY
 AGENT_AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 19. Skills
+## 19. Skills
 
 Candidate supporting skill families:
 
@@ -1025,9 +1014,9 @@ Skills supply bounded capabilities.
 
 They do not establish truth or authority by existence alone.
 
----
+______________________________________________________________________
 
-# 20. Primary Repair Workflow
+## 20. Primary Repair Workflow
 
 ```text
 FAILURE SIGNAL
@@ -1071,9 +1060,9 @@ COMMIT / REJECT / QUARANTINE
 AUDIT
 ```
 
----
+______________________________________________________________________
 
-# 21. Reobservation Workflow
+## 21. Reobservation Workflow
 
 Reobservation is preferred when the original reality contact can be repeated and the expected information value justifies it.
 
@@ -1104,9 +1093,9 @@ CAN REALITY CONTACT BE REPEATED?
     CONFIRM / COMPETE / SUPERSEDE
 ```
 
----
+______________________________________________________________________
 
-# 22. Reprocessing vs Reobservation
+## 22. Reprocessing vs Reobservation
 
 This distinction is mandatory.
 
@@ -1122,21 +1111,21 @@ new contact with the relevant environment/reality state
 
 Therefore:
 
-[
-\boxed{
+\[
+\\boxed{
 Reprocess(O_1)
-\neq
+\\neq
 Observe(E,t_2)
 }
-]
+\]
 
 Reprocessing may improve representation quality.
 
 It does not create independent empirical evidence merely because a different algorithm was used.
 
----
+______________________________________________________________________
 
-# 23. Conflict Repair Workflow
+## 23. Conflict Repair Workflow
 
 ```text
 O_A
@@ -1174,9 +1163,9 @@ RESOLVE OR PRESERVE COMPETING
 
 Do not average incompatible observations merely to create apparent agreement.
 
----
+______________________________________________________________________
 
-# 24. Provenance Repair
+## 24. Provenance Repair
 
 Provenance repair is permitted only when missing lineage can be independently reconstructed.
 
@@ -1214,9 +1203,9 @@ PROVENANCE = UNKNOWN / PARTIAL
 
 and downstream confidence must remain bounded accordingly.
 
----
+______________________________________________________________________
 
-# 25. Temporal Repair
+## 25. Temporal Repair
 
 Temporal failures include:
 
@@ -1249,9 +1238,9 @@ REVALIDATE TIME-SENSITIVE DEPENDENTS
 
 Never infer exact timestamps solely because an event sequence appears plausible.
 
----
+______________________________________________________________________
 
-# 26. Scope Repair
+## 26. Scope Repair
 
 Scope repair applies when an observation has been generalized beyond its evidence envelope.
 
@@ -1279,21 +1268,21 @@ INVALIDATE ONLY UNSUPPORTED GENERALIZATION
 
 Hard invariant:
 
-[
-\boxed{
+\[
+\\boxed{
 Repair
-\not\Rightarrow
+\\not\\Rightarrow
 ScopeExpansion
 }
-]
+\]
 
 unless new evidence supports expansion.
 
----
+______________________________________________________________________
 
-# 27. Regime Repair
+## 27. Regime Repair
 
-An observation valid in regime \(G_1\) may not remain applicable in \(G_2\).
+An observation valid in regime (G_1) may not remain applicable in (G_2).
 
 Repair should detect:
 
@@ -1319,9 +1308,9 @@ REQUEST NEW OBSERVATION IF REQUIRED
 REVALIDATE REGIME-SENSITIVE DEPENDENTS
 ```
 
----
+______________________________________________________________________
 
-# 28. H/M/L Repair
+## 28. H/M/L Repair
 
 Cross-scale failure can occur when local evidence is incorrectly promoted.
 
@@ -1351,9 +1340,9 @@ PRESERVE VALID L STATE
 RECOMPUTE M/H ONLY IF NECESSARY
 ```
 
----
+______________________________________________________________________
 
-# 29. Classification Repair
+## 29. Classification Repair
 
 Misclassification examples:
 
@@ -1377,9 +1366,9 @@ assign weakest accurate epistemic class
 propagate class correction to dependents
 ```
 
----
+______________________________________________________________________
 
-# 30. Uncertainty Repair
+## 30. Uncertainty Repair
 
 Uncertainty may be corrupted through:
 
@@ -1397,26 +1386,26 @@ Repair should reconstruct only uncertainty components supported by evidence.
 
 Candidate rule:
 
-[
+\[
 U' =
 Repair(U,E)
-]
+\]
 
 subject to:
 
-[
-\boxed{
+\[
+\\boxed{
 EvidenceDoesNotSupportLowerUncertainty
-\Rightarrow
-U' \not< U
+\\Rightarrow
+U' \\not< U
 }
-]
+\]
 
 conceptually.
 
----
+______________________________________________________________________
 
-# 31. Memory Repair Boundary
+## 31. Memory Repair Boundary
 
 If a failed L01 observation has entered memory:
 
@@ -1436,9 +1425,9 @@ REVALIDATE ONLY DEPENDENT MEMORY STATE
 
 L01 should not independently rewrite memory owned by another subsystem unless explicitly authorized.
 
----
+______________________________________________________________________
 
-# 32. Downstream Repair Boundary
+## 32. Downstream Repair Boundary
 
 A repaired observation may invalidate:
 
@@ -1458,9 +1447,9 @@ L01 should emit an invalidation/revalidation signal.
 
 It should not silently rewrite every downstream object.
 
----
+______________________________________________________________________
 
-# 33. Repair Protocols
+## 33. Repair Protocols
 
 Candidate protocol objects:
 
@@ -1501,9 +1490,9 @@ validation state
 version/epoch where applicable
 ```
 
----
+______________________________________________________________________
 
-# 34. Repair State Machine
+## 34. Repair State Machine
 
 Candidate lifecycle:
 
@@ -1548,9 +1537,9 @@ INVALIDATED
 ESCALATED
 ```
 
----
+______________________________________________________________________
 
-# 35. Failure Modes of Repair Itself
+## 35. Failure Modes of Repair Itself
 
 ```text
 FM-L01-REP-001  Fabricated Evidence Repair
@@ -1580,9 +1569,9 @@ FM-L01-REP-024  Repair Confidence Inflation
 FM-L01-REP-025  Repair Status Inflation
 ```
 
----
+______________________________________________________________________
 
-# 36. Repair Loop Prevention
+## 36. Repair Loop Prevention
 
 Repeated repair attempts without changed evidence should not continue indefinitely.
 
@@ -1610,9 +1599,9 @@ or
 REQUEST DISCRIMINATING EVIDENCE
 ```
 
----
+______________________________________________________________________
 
-# 37. Recovery Hierarchy
+## 37. Recovery Hierarchy
 
 Preferred recovery order:
 
@@ -1648,23 +1637,21 @@ This ordering is not absolute.
 
 The cheapest high-information, integrity-preserving repair should be preferred.
 
----
+______________________________________________________________________
 
-# 38. Repair Decision Rule
+## 38. Repair Decision Rule
 
 Candidate conceptual rule:
 
-[
-R^*
-===
+## \[ R^\*
 
-\arg\max_R
-\frac{
+\\arg\\max_R
+\\frac{
 ExpectedIntegrityGain(R)
 }{
 Cost(R)+Irreversibility(R)+Risk(R)
 }
-]
+\]
 
 subject to:
 
@@ -1678,9 +1665,9 @@ NO INVALID CONFIDENCE PROMOTION
 
 This is an `AMOS_MODEL`, not an empirically validated universal optimization equation.
 
----
+______________________________________________________________________
 
-# 39. Rollback
+## 39. Rollback
 
 Rollback is appropriate when:
 
@@ -1703,9 +1690,9 @@ validation state
 
 without deleting the failed transition from audit history.
 
----
+______________________________________________________________________
 
-# 40. Supersession
+## 40. Supersession
 
 Supersession differs from deletion.
 
@@ -1732,9 +1719,9 @@ DELETE O1
 
 This preserves temporal truth and auditability.
 
----
+______________________________________________________________________
 
-# 41. Quarantine
+## 41. Quarantine
 
 Quarantine is appropriate when:
 
@@ -1757,9 +1744,9 @@ or downstream use could create material harm
 
 Quarantined observations remain inspectable but must not silently re-enter trusted downstream state.
 
----
+______________________________________________________________________
 
-# 42. Tests / Validators
+## 42. Tests / Validators
 
 Minimum repair validators:
 
@@ -1788,9 +1775,9 @@ VALIDATOR_SUPERSESSION
 VALIDATOR_QUARANTINE
 ```
 
----
+______________________________________________________________________
 
-# 43. Minimum Test Suite
+## 43. Minimum Test Suite
 
 ```text
 TEST_L01_REPAIR_001
@@ -1884,9 +1871,9 @@ TEST_L01_REPAIR_030
 passing repair tests does not establish empirical truth
 ```
 
----
+______________________________________________________________________
 
-# 44. Adversarial Repair Tests
+## 44. Adversarial Repair Tests
 
 Repair should eventually be challenged with:
 
@@ -1914,9 +1901,9 @@ false quarantine release
 synthetic data presented as reobservation
 ```
 
----
+______________________________________________________________________
 
-# 45. Falsifiers
+## 45. Falsifiers
 
 This repair contract should be revised if:
 
@@ -1942,9 +1929,9 @@ executed tests falsify selective-invalidation assumptions
 empirical evidence demonstrates that a proposed sensing-repair mechanism is unreliable
 ```
 
----
+______________________________________________________________________
 
-# 46. Gap Matrix
+## 46. Gap Matrix
 
 ```yaml
 gap_matrix:
@@ -2053,9 +2040,9 @@ gap_matrix:
     criticality: CRITICAL
 ```
 
----
+______________________________________________________________________
 
-# 47. Gap Resolution Priority
+## 47. Gap Resolution Priority
 
 ```text
 1. Locate direct canonical L01 repair material.
@@ -2099,9 +2086,9 @@ gap_matrix:
 20. Promote status only from actual evidence.
 ```
 
----
+______________________________________________________________________
 
-# 48. Evidence / Provenance of This Artifact
+## 48. Evidence / Provenance of This Artifact
 
 ```yaml
 artifact_provenance:
@@ -2132,9 +2119,9 @@ artifact_provenance:
 
 This artifact must not be used as independent evidence for its own reconstructed claims.
 
----
+______________________________________________________________________
 
-# 49. Uncertainty Vector
+## 49. Uncertainty Vector
 
 ```yaml
 uncertainty:
@@ -2165,9 +2152,9 @@ uncertainty:
     level: MEDIUM_HIGH
 ```
 
----
+______________________________________________________________________
 
-# 50. Confidence Ceiling
+## 50. Confidence Ceiling
 
 The strongest warranted conclusion is:
 
@@ -2187,19 +2174,19 @@ EMPIRICALLY VALIDATED
 
 Therefore:
 
-[
-\boxed{
-C_{repair}
-\le
-C_{weakest\ load-bearing\ premise}
+\[
+\\boxed{
+C\_{repair}
+\\le
+C\_{weakest\\ load-bearing\\ premise}
 }
-]
+\]
 
 unless independently revalidated.
 
----
+______________________________________________________________________
 
-# 51. RSCF Completion State
+## 51. RSCF Completion State
 
 ```yaml
 rscf:
@@ -2298,9 +2285,9 @@ rscf:
     not empirical proof
 ```
 
----
+______________________________________________________________________
 
-# 52. Completion State
+## 52. Completion State
 
 ```yaml
 completion_state:
@@ -2384,9 +2371,9 @@ completion_state:
     MODEL / CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
-# 53. Repair Contract Summary
+## 53. Repair Contract Summary
 
 ```text
 L01 REPAIR
@@ -2432,9 +2419,9 @@ The governing principle is:
 
 > **Repair the failed representation or dependency at the smallest sufficient scope, preserve valid history and unaffected state, obtain new evidence when necessary, and never manufacture certainty merely to restore coherence.**
 
----
+______________________________________________________________________
 
-# 54. Final Hard Boundaries
+## 54. Final Hard Boundaries
 
 ```text
 PLACEHOLDER
@@ -2534,29 +2521,33 @@ IMPLEMENTED
 VALIDATED
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]]
 
 ```
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: l01_sensing_observation_primitives_cognitive_matrix_repair
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_REPAIR.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_MOC|L01_SENSING_OBSERVATION_MOC]]

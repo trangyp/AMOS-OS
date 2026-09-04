@@ -1,21 +1,24 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: L01 SENSING OBSERVATION PRIMITIVES COGNITIVE MATRIX GAP MATRIX
 type: gap
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION
 tags:
-- amos
-- cognitive-matrix
-- matrix/l01
-- sensing-observation
-- gap-matrix
-- completeness
-- validation
-- provenance
-- control-plane
-- recovery
-- rscf
-- rscf/type-model
-- domain/cognitive-matrix
+  - amos
+  - cognitive-matrix
+  - matrix/l01
+  - sensing-observation
+  - gap-matrix
+  - completeness
+  - validation
+  - provenance
+  - control-plane
+  - recovery
+  - rscf
+  - rscf/type-model
+  - domain/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -36,9 +39,9 @@ rscf:
 
 > **Completeness boundary:** completeness in this document means completeness relative to a declared L01 architectural scope. It does not mean empirical truth, universal sensing completeness, runtime implementation, operational validation, or proof that all real sensing systems obey the proposed structure.
 
----
+______________________________________________________________________
 
-# 0. Purpose
+## 0. Purpose
 
 `L01_SENSING_OBSERVATION/GAP_MATRIX.md` defines the AMOS method for identifying what remains missing, unresolved, contradictory, unimplemented, unvalidated, stale, or insufficiently evidenced before `L01_SENSING_OBSERVATION` can be promoted to stronger architectural or runtime status.
 
@@ -78,9 +81,9 @@ OPERATIONALLY MONITORED
 
 with explicit gaps retained at every stage.
 
----
+______________________________________________________________________
 
-# 1. Governing Completeness Law
+## 1. Governing Completeness Law
 
 The central law is:
 
@@ -108,36 +111,36 @@ NO GAP
 
 Therefore:
 
-[
-\boxed{
-Completeness_{scope}
-\neq
+\[
+\\boxed{
+Completeness\_{scope}
+\\neq
 Truth
 }
-]
+\]
 
 and:
 
-[
-\boxed{
-Completeness_{scope}
-\neq
+\[
+\\boxed{
+Completeness\_{scope}
+\\neq
 Implementation
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 2. Gap Definition
+## 2. Gap Definition
 
 A gap is any missing or unresolved object, relation, dependency, invariant, implementation, validator, evidence path, authority state, recovery path, or scope condition required for the declared L01 contract.
 
 Define:
 
-[
-\boxed{
+\[
+\\boxed{
 G =
-T[
+T\[
 gap_id,
 class,
 target,
@@ -154,13 +157,13 @@ resolution,
 owner,
 status,
 confidence
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 3. Gap Classes
+## 3. Gap Classes
 
 AMOS gap classes:
 
@@ -190,9 +193,9 @@ A missing element limits understanding but does not currently change the core st
 
 A missing element affects presentation, naming, organization, or formatting without changing system integrity.
 
----
+______________________________________________________________________
 
-# 4. Gap State
+## 4. Gap State
 
 ```text
 OPEN
@@ -228,16 +231,13 @@ UNKNOWN
 NOT_APPLICABLE
 ```
 
----
+______________________________________________________________________
 
-# 5. Gap Tensor
+## 5. Gap Tensor
 
-[
-\boxed{
-T_GAP^{L01}
-===========
+## \[ \\boxed{ T_GAP^{L01}
 
-T[
+T\[
 gap_id,
 artifact,
 component,
@@ -256,13 +256,13 @@ provenance,
 resolution_path,
 status,
 confidence_ceiling
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 6. Gap Type Registry
+## 6. Gap Type Registry
 
 ```text
 G01 SOURCE_CANON_GAP
@@ -336,18 +336,15 @@ G34 DEPLOYMENT_GAP
 G35 UNKNOWN_GAP
 ```
 
----
+______________________________________________________________________
 
-# 7. Completion Dimensions
+## 7. Completion Dimensions
 
 L01 completeness must be assessed across separate dimensions.
 
-[
-\boxed{
-C_{L01}
-=======
+## \[ \\boxed{ C\_{L01}
 
-T[
+T\[
 canon,
 definition,
 variables,
@@ -372,15 +369,15 @@ implementation,
 runtime,
 governance,
 operations
-]
+\]
 }
-]
+\]
 
 No single scalar completeness score should replace this multidimensional view unless the aggregation rule is explicit.
 
----
+______________________________________________________________________
 
-# 8. Completion Status Vocabulary
+## 8. Completion Status Vocabulary
 
 Allowed system-completion states:
 
@@ -415,9 +412,9 @@ UNKNOWN/GAP
 = insufficient evidence to classify safely
 ```
 
----
+______________________________________________________________________
 
-# 9. Current L01 Overall Status
+## 9. Current L01 Overall Status
 
 ```yaml
 current_status:
@@ -451,9 +448,9 @@ This does not imply the conceptual architecture is unusable.
 
 It means stronger promotion has not yet been evidenced.
 
----
+______________________________________________________________________
 
-# 10. Source Canon Gap
+## 10. Source Canon Gap
 
 ## GAP-L01-001
 
@@ -493,9 +490,9 @@ MODEL_DERIVED
 SOURCE_CANON
 ```
 
----
+______________________________________________________________________
 
-# 11. Canon Version Gap
+## 11. Canon Version Gap
 
 ## GAP-L01-002
 
@@ -525,9 +522,9 @@ LATEST MODEL
 LATEST CANON
 ```
 
----
+______________________________________________________________________
 
-# 12. Primitive Boundary Gap
+## 12. Primitive Boundary Gap
 
 ## GAP-L01-003
 
@@ -573,9 +570,9 @@ tests
 failure ownership
 ```
 
----
+______________________________________________________________________
 
-# 13. L00 → L01 Interface Gap
+## 13. L00 → L01 Interface Gap
 
 ## GAP-L01-004
 
@@ -605,9 +602,9 @@ provenance context
 
 Need direct interface specification before implementation promotion.
 
----
+______________________________________________________________________
 
-# 14. Downstream Interface Gap
+## 14. Downstream Interface Gap
 
 ## GAP-L01-005
 
@@ -635,9 +632,9 @@ L01 OUTPUT SCHEMA
 CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
-# 15. Variable Registry Gap
+## 15. Variable Registry Gap
 
 ## GAP-L01-006
 
@@ -687,9 +684,9 @@ state ownership
 version semantics
 ```
 
----
+______________________________________________________________________
 
-# 16. State Machine Gap
+## 16. State Machine Gap
 
 ## GAP-L01-007
 
@@ -724,9 +721,9 @@ rollback behavior
 concurrent transition rules
 ```
 
----
+______________________________________________________________________
 
-# 17. Operator Registry Gap
+## 17. Operator Registry Gap
 
 ## GAP-L01-008
 
@@ -758,9 +755,9 @@ REPAIR
 
 But exact canonical semantics, signatures, side effects, and authority requirements remain unresolved.
 
----
+______________________________________________________________________
 
-# 18. Equation Registry Gap
+## 18. Equation Registry Gap
 
 ## GAP-L01-009
 
@@ -782,9 +779,9 @@ DERIVED_METRIC equations
 
 No structural equation should be silently promoted to empirical law.
 
----
+______________________________________________________________________
 
-# 19. Measurement Model Gap
+## 19. Measurement Model Gap
 
 ## GAP-L01-010
 
@@ -810,9 +807,9 @@ noise models
 
 These must be supplied per sensing domain.
 
----
+______________________________________________________________________
 
-# 20. Invariant Closure Gap
+## 20. Invariant Closure Gap
 
 ## GAP-L01-011
 
@@ -840,9 +837,9 @@ identity
 dependency lineage
 ```
 
----
+______________________________________________________________________
 
-# 21. Dependency Closure Gap
+## 21. Dependency Closure Gap
 
 ## GAP-L01-012
 
@@ -872,9 +869,9 @@ downstream claims
 
 Current architecture provides structural mappings but not a complete runtime dependency graph.
 
----
+______________________________________________________________________
 
-# 22. Dependency Criticality Gap
+## 22. Dependency Criticality Gap
 
 ## GAP-L01-013
 
@@ -902,9 +899,9 @@ SUPPORTING
 
 Without this, failure propagation may over- or under-invalidate downstream state.
 
----
+______________________________________________________________________
 
-# 23. H/M/L Mapping Gap
+## 23. H/M/L Mapping Gap
 
 ## GAP-L01-014
 
@@ -930,9 +927,9 @@ Critical unresolved question:
 WHEN MAY L-LEVEL EVIDENCE PROMOTE M OR H STATE?
 ```
 
----
+______________________________________________________________________
 
-# 24. Aggregation Rule Gap
+## 24. Aggregation Rule Gap
 
 ## GAP-L01-015
 
@@ -940,12 +937,10 @@ No universal aggregation operator exists.
 
 Candidate relation:
 
-[
-O_H
-===
+## \[ O_H
 
-\mathcal{A}(O_{L,1},...,O_{L,n})
-]
+\\mathcal{A}(O\_{L,1},...,O\_{L,n})
+\]
 
 requires explicit:
 
@@ -975,9 +970,9 @@ LOCAL OBSERVATIONS
 GLOBAL STATE
 ```
 
----
+______________________________________________________________________
 
-# 25. Control-Plane Implementation Gap
+## 25. Control-Plane Implementation Gap
 
 ## GAP-L01-016
 
@@ -1003,9 +998,9 @@ revocation logic
 audit state
 ```
 
----
+______________________________________________________________________
 
-# 26. Authority Registry Gap
+## 26. Authority Registry Gap
 
 ## GAP-L01-017
 
@@ -1037,9 +1032,9 @@ CAPABILITY
 AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 27. Commit-Time Governance Gap
+## 27. Commit-Time Governance Gap
 
 ## GAP-L01-018
 
@@ -1063,9 +1058,9 @@ revalidation
 
 This is especially important where environment state can change between observation and durable admission.
 
----
+______________________________________________________________________
 
-# 28. Agent Implementation Gap
+## 28. Agent Implementation Gap
 
 ## GAP-L01-019
 
@@ -1099,9 +1094,9 @@ IMPLEMENTED AGENT
 
 Need executable identity, capability, tool, authority, and test bindings.
 
----
+______________________________________________________________________
 
-# 29. Agent Registry Gap
+## 29. Agent Registry Gap
 
 ## GAP-L01-020
 
@@ -1129,9 +1124,9 @@ validators
 status
 ```
 
----
+______________________________________________________________________
 
-# 30. Skill Binding Gap
+## 30. Skill Binding Gap
 
 ## GAP-L01-021
 
@@ -1165,9 +1160,9 @@ SKILL EXISTS
 SKILL VALIDATED FOR L01
 ```
 
----
+______________________________________________________________________
 
-# 31. Workflow Canon Gap
+## 31. Workflow Canon Gap
 
 ## GAP-L01-022
 
@@ -1197,9 +1192,9 @@ revocation
 
 Current workflows remain structural models until runtime validation exists.
 
----
+______________________________________________________________________
 
-# 32. Workflow Transaction Gap
+## 32. Workflow Transaction Gap
 
 ## GAP-L01-023
 
@@ -1221,9 +1216,9 @@ downstream release
 
 may need atomic or coordinated admission.
 
----
+______________________________________________________________________
 
-# 33. Protocol Gap
+## 33. Protocol Gap
 
 ## GAP-L01-024
 
@@ -1271,9 +1266,9 @@ error semantics
 replay behavior
 ```
 
----
+______________________________________________________________________
 
-# 34. Protocol Versioning Gap
+## 34. Protocol Versioning Gap
 
 ## GAP-L01-025
 
@@ -1295,9 +1290,9 @@ unknown fields
 invalid messages
 ```
 
----
+______________________________________________________________________
 
-# 35. Provenance Schema Gap
+## 35. Provenance Schema Gap
 
 ## GAP-L01-026
 
@@ -1331,9 +1326,9 @@ hash
 independence group
 ```
 
----
+______________________________________________________________________
 
-# 36. Provenance Independence Gap
+## 36. Provenance Independence Gap
 
 ## GAP-L01-027
 
@@ -1362,9 +1357,9 @@ EVIDENCE MULTIPLICITY
 MAY BE FALSE CONFIRMATION
 ```
 
----
+______________________________________________________________________
 
-# 37. Provenance Revocation Gap
+## 37. Provenance Revocation Gap
 
 ## GAP-L01-028
 
@@ -1384,9 +1379,9 @@ Does historical state remain?
 How is trust changed?
 ```
 
----
+______________________________________________________________________
 
-# 38. Evidence Admission Gap
+## 38. Evidence Admission Gap
 
 ## GAP-L01-029
 
@@ -1420,9 +1415,9 @@ conflict state
 
 Thresholds remain domain-specific.
 
----
+______________________________________________________________________
 
-# 39. Evidence Independence Scoring Gap
+## 39. Evidence Independence Scoring Gap
 
 ## GAP-L01-030
 
@@ -1438,9 +1433,9 @@ or a calibrated domain-specific measure.
 
 Do not invent percentages of independence.
 
----
+______________________________________________________________________
 
-# 40. Uncertainty Model Gap
+## 40. Uncertainty Model Gap
 
 ## GAP-L01-031
 
@@ -1464,9 +1459,9 @@ U_provenance_independence
 
 but exact scales and aggregation methods remain unresolved.
 
----
+______________________________________________________________________
 
-# 41. Measurement Uncertainty Gap
+## 41. Measurement Uncertainty Gap
 
 ## GAP-L01-032
 
@@ -1492,19 +1487,19 @@ instrument drift
 
 No generic numeric uncertainty should be fabricated.
 
----
+______________________________________________________________________
 
-# 42. Confidence Calibration Gap
+## 42. Confidence Calibration Gap
 
 ## GAP-L01-033
 
 Confidence ceiling semantics exist:
 
-[
+\[
 Conf(C)
-\le
-\min_{p\in LB(C)}Conf(p)
-]
+\\le
+\\min\_{p\\in LB(C)}Conf(p)
+\]
 
 But exact numeric calibration requires evidence.
 
@@ -1524,28 +1519,26 @@ regime validity
 confidence interpretation
 ```
 
----
+______________________________________________________________________
 
-# 43. Freshness Model Gap
+## 43. Freshness Model Gap
 
 ## GAP-L01-034
 
 A structural freshness function exists:
 
-[
-Fresh
-=====
+## \[ Fresh
 
 f(Age,ChangeRate,DecisionHorizon,Regime)
-]
+\]
 
 but exact thresholds remain undefined.
 
 Freshness must be domain- and decision-dependent.
 
----
+______________________________________________________________________
 
-# 44. Regime Detection Gap
+## 44. Regime Detection Gap
 
 ## GAP-L01-035
 
@@ -1565,9 +1558,9 @@ cross-regime compatibility
 revalidation triggers
 ```
 
----
+______________________________________________________________________
 
-# 45. Scope Ontology Gap
+## 45. Scope Ontology Gap
 
 ## GAP-L01-036
 
@@ -1593,9 +1586,9 @@ H/M/L scale
 
 Scope must be machine-comparable before automated compatibility checks are reliable.
 
----
+______________________________________________________________________
 
-# 46. Resolution Ontology Gap
+## 46. Resolution Ontology Gap
 
 ## GAP-L01-037
 
@@ -1617,9 +1610,9 @@ modal resolution
 H/M/L resolution
 ```
 
----
+______________________________________________________________________
 
-# 47. Sensor Registry Gap
+## 47. Sensor Registry Gap
 
 ## GAP-L01-038
 
@@ -1653,9 +1646,9 @@ latency
 authority requirements
 ```
 
----
+______________________________________________________________________
 
-# 48. Sensor Health Model Gap
+## 48. Sensor Health Model Gap
 
 ## GAP-L01-039
 
@@ -1681,9 +1674,9 @@ schema stability
 
 Sensor health metrics must not be treated as truth scores.
 
----
+______________________________________________________________________
 
-# 49. Multimodal Fusion Gap
+## 49. Multimodal Fusion Gap
 
 ## GAP-L01-040
 
@@ -1715,9 +1708,9 @@ uncertainty
 
 No universal fusion equation is currently established.
 
----
+______________________________________________________________________
 
-# 50. Observer-Effect Gap
+## 50. Observer-Effect Gap
 
 ## GAP-L01-041
 
@@ -1741,9 +1734,9 @@ state mutation
 
 Passive and active observation must remain distinguishable.
 
----
+______________________________________________________________________
 
-# 51. Sampling / Coverage Gap
+## 51. Sampling / Coverage Gap
 
 ## GAP-L01-042
 
@@ -1771,9 +1764,9 @@ missing-region model
 selection bias model
 ```
 
----
+______________________________________________________________________
 
-# 52. Failure Registry Gap
+## 52. Failure Registry Gap
 
 ## GAP-L01-043
 
@@ -1795,9 +1788,9 @@ which require escalation
 which have verified recovery
 ```
 
----
+______________________________________________________________________
 
-# 53. Failure Severity Gap
+## 53. Failure Severity Gap
 
 ## GAP-L01-044
 
@@ -1825,9 +1818,9 @@ repair cost
 
 No arbitrary numeric severity should be assigned.
 
----
+______________________________________________________________________
 
-# 54. Root-Cause Attribution Gap
+## 54. Root-Cause Attribution Gap
 
 ## GAP-L01-045
 
@@ -1857,9 +1850,9 @@ ANOMALY DETECTED
 ROOT CAUSE IDENTIFIED
 ```
 
----
+______________________________________________________________________
 
-# 55. Repair Registry Gap
+## 55. Repair Registry Gap
 
 ## GAP-L01-046
 
@@ -1874,9 +1867,9 @@ failure class
 → revalidation
 ```
 
----
+______________________________________________________________________
 
-# 56. Repair Harm Gap
+## 56. Repair Harm Gap
 
 ## GAP-L01-047
 
@@ -1898,9 +1891,9 @@ introduce new bias
 break downstream dependencies
 ```
 
----
+______________________________________________________________________
 
-# 57. Recovery Window Gap
+## 57. Recovery Window Gap
 
 ## GAP-L01-048
 
@@ -1922,9 +1915,9 @@ event replayability
 external state drift
 ```
 
----
+______________________________________________________________________
 
-# 58. Test Harness Gap
+## 58. Test Harness Gap
 
 ## GAP-L01-049
 
@@ -1950,9 +1943,9 @@ timings
 replay records
 ```
 
----
+______________________________________________________________________
 
-# 59. Validator Implementation Gap
+## 59. Validator Implementation Gap
 
 ## GAP-L01-050
 
@@ -1988,9 +1981,9 @@ admission
 repair
 ```
 
----
+______________________________________________________________________
 
-# 60. Adversarial Validation Gap
+## 60. Adversarial Validation Gap
 
 ## GAP-L01-051
 
@@ -2020,9 +2013,9 @@ simulation/reality confusion
 memory/reality confusion
 ```
 
----
+______________________________________________________________________
 
-# 61. Test Evidence Gap
+## 61. Test Evidence Gap
 
 ## GAP-L01-052
 
@@ -2052,9 +2045,9 @@ provenance
 
 No executed evidence currently established by this artifact.
 
----
+______________________________________________________________________
 
-# 62. Formal Verification Gap
+## 62. Formal Verification Gap
 
 ## GAP-L01-053
 
@@ -2084,9 +2077,9 @@ UNKNOWN/GAP
 
 unless separately evidenced.
 
----
+______________________________________________________________________
 
-# 63. Runtime Implementation Gap
+## 63. Runtime Implementation Gap
 
 ## GAP-L01-054
 
@@ -2114,9 +2107,9 @@ workflow orchestration
 repair engine
 ```
 
----
+______________________________________________________________________
 
-# 64. State Persistence Gap
+## 64. State Persistence Gap
 
 ## GAP-L01-055
 
@@ -2140,9 +2133,9 @@ repair history
 provenance
 ```
 
----
+______________________________________________________________________
 
-# 65. Concurrency Gap
+## 65. Concurrency Gap
 
 ## GAP-L01-056
 
@@ -2164,9 +2157,9 @@ source changes during observation
 
 Need concurrency semantics.
 
----
+______________________________________________________________________
 
-# 66. MVCC / CAS Runtime Gap
+## 66. MVCC / CAS Runtime Gap
 
 ## GAP-L01-057
 
@@ -2186,9 +2179,9 @@ But actual L01 runtime support must be demonstrated.
 
 These are reasoning/control patterns, not claims of existing distributed runtime implementation.
 
----
+______________________________________________________________________
 
-# 67. Finality Gap
+## 67. Finality Gap
 
 ## GAP-L01-058
 
@@ -2206,9 +2199,9 @@ revocable
 superseded
 ```
 
----
+______________________________________________________________________
 
-# 68. Replay Gap
+## 68. Replay Gap
 
 ## GAP-L01-059
 
@@ -2236,9 +2229,9 @@ raw output
 validator versions
 ```
 
----
+______________________________________________________________________
 
-# 69. Observability Gap
+## 69. Observability Gap
 
 ## GAP-L01-060
 
@@ -2274,9 +2267,9 @@ NO OBSERVED FAILURE
 NO FAILURE
 ```
 
----
+______________________________________________________________________
 
-# 70. Operational Monitoring Gap
+## 70. Operational Monitoring Gap
 
 ## GAP-L01-061
 
@@ -2304,9 +2297,9 @@ quarantine rate
 repair rate
 ```
 
----
+______________________________________________________________________
 
-# 71. Performance Gap
+## 71. Performance Gap
 
 ## GAP-L01-062
 
@@ -2330,9 +2323,9 @@ recovery time
 
 Performance claims remain unverified without measured environment-specific evidence.
 
----
+______________________________________________________________________
 
-# 72. Resource Budget Gap
+## 72. Resource Budget Gap
 
 ## GAP-L01-063
 
@@ -2358,9 +2351,9 @@ parallel observers
 provenance retention
 ```
 
----
+______________________________________________________________________
 
-# 73. Security Gap
+## 73. Security Gap
 
 ## GAP-L01-064
 
@@ -2386,9 +2379,9 @@ malicious metadata
 cross-agent collusion
 ```
 
----
+______________________________________________________________________
 
-# 74. Information Boundary Gap
+## 74. Information Boundary Gap
 
 ## GAP-L01-065
 
@@ -2412,9 +2405,9 @@ what must be redacted
 what requires consent
 ```
 
----
+______________________________________________________________________
 
-# 75. Privacy / Exposure Gap
+## 75. Privacy / Exposure Gap
 
 ## GAP-L01-066
 
@@ -2432,9 +2425,9 @@ cross-session accumulation
 multimodal fusion
 ```
 
----
+______________________________________________________________________
 
-# 76. Human Observation Gap
+## 76. Human Observation Gap
 
 ## GAP-L01-067
 
@@ -2464,9 +2457,9 @@ DIRECT EXTERNAL MEASUREMENT
 
 while still preserving the report itself as valid source evidence of what was reported.
 
----
+______________________________________________________________________
 
-# 77. AI Observation Gap
+## 77. AI Observation Gap
 
 ## GAP-L01-068
 
@@ -2496,9 +2489,9 @@ OBSERVATION
 
 without an external evidence path.
 
----
+______________________________________________________________________
 
-# 78. Simulation Boundary Gap
+## 78. Simulation Boundary Gap
 
 ## GAP-L01-069
 
@@ -2520,9 +2513,9 @@ OBSERVED
 
 These representations may interact but cannot be silently merged.
 
----
+______________________________________________________________________
 
-# 79. Memory Boundary Gap
+## 79. Memory Boundary Gap
 
 ## GAP-L01-070
 
@@ -2550,9 +2543,9 @@ RETRIEVED MEMORY
 NEW OBSERVATION
 ```
 
----
+______________________________________________________________________
 
-# 80. Causal Boundary Gap
+## 80. Causal Boundary Gap
 
 ## GAP-L01-071
 
@@ -2574,9 +2567,9 @@ counterfactual dependence
 
 Need downstream causal architecture.
 
----
+______________________________________________________________________
 
-# 81. Semantic Interpretation Gap
+## 81. Semantic Interpretation Gap
 
 ## GAP-L01-072
 
@@ -2598,9 +2591,9 @@ meaning construction
 
 This is a key architectural boundary gap.
 
----
+______________________________________________________________________
 
-# 82. Representation Gap
+## 82. Representation Gap
 
 ## GAP-L01-073
 
@@ -2622,9 +2615,9 @@ compression
 modality conversion
 ```
 
----
+______________________________________________________________________
 
-# 83. Cross-Architecture Compatibility Gap
+## 83. Cross-Architecture Compatibility Gap
 
 ## GAP-L01-074
 
@@ -2648,9 +2641,9 @@ H/M/L tensors
 
 Need explicit compatibility maps.
 
----
+______________________________________________________________________
 
-# 84. Universal Variable Registry Gap
+## 84. Universal Variable Registry Gap
 
 ## GAP-L01-075
 
@@ -2676,9 +2669,9 @@ equation bindings
 aliases
 ```
 
----
+______________________________________________________________________
 
-# 85. Contradiction Registry Gap
+## 85. Contradiction Registry Gap
 
 ## GAP-L01-076
 
@@ -2706,9 +2699,9 @@ resolution state
 discriminating tests
 ```
 
----
+______________________________________________________________________
 
-# 86. Canon Conflict Gap
+## 86. Canon Conflict Gap
 
 ## GAP-L01-077
 
@@ -2732,9 +2725,9 @@ SUPERSESSION STATUS
 CANON DECISION
 ```
 
----
+______________________________________________________________________
 
-# 87. Supersession Gap
+## 87. Supersession Gap
 
 ## GAP-L01-078
 
@@ -2756,9 +2749,9 @@ old test expectations
 
 A newer document does not automatically supersede an older one without canon/version authority.
 
----
+______________________________________________________________________
 
-# 88. Documentation Consistency Gap
+## 88. Documentation Consistency Gap
 
 ## GAP-L01-079
 
@@ -2782,9 +2775,9 @@ FAILURE_MODES agree with REPAIR
 RSCF reflects all load-bearing dependencies
 ```
 
----
+______________________________________________________________________
 
-# 89. Circular Definition Gap
+## 89. Circular Definition Gap
 
 ## GAP-L01-080
 
@@ -2800,9 +2793,9 @@ Validated sensing output = accepted observation
 
 without an independent definition of validation.
 
----
+______________________________________________________________________
 
-# 90. Undefined Term Gap
+## 90. Undefined Term Gap
 
 ## GAP-L01-081
 
@@ -2840,21 +2833,21 @@ admission
 
 Undefined foundational terms block formal closure.
 
----
+______________________________________________________________________
 
-# 91. Gap Propagation
+## 91. Gap Propagation
 
-If gap (g) is load-bearing for claim \(C\):
+If gap (g) is load-bearing for claim (C):
 
-[
-\boxed{
+\[
+\\boxed{
 Open(g)
-\land
+\\land
 LoadBearing(g,C)
-\Rightarrow
-Ceiling(C)\downarrow
+\\Rightarrow
+Ceiling(C)\\downarrow
 }
-]
+\]
 
 or:
 
@@ -2870,9 +2863,9 @@ C = UNKNOWN/GAP
 
 depending on criticality.
 
----
+______________________________________________________________________
 
-# 92. Gap Dependency Graph
+## 92. Gap Dependency Graph
 
 ```text
 SOURCE_CANON_GAP
@@ -2896,9 +2889,9 @@ OPERATIONAL GAP
 
 Not every gap is strictly linear, but this illustrates common dependency direction.
 
----
+______________________________________________________________________
 
-# 93. Gap Closure Rule
+## 93. Gap Closure Rule
 
 A gap is `RESOLVED` only when:
 
@@ -2924,32 +2917,29 @@ as applicable.
 
 Merely filling text into a Markdown file does not close an implementation or validation gap.
 
----
+______________________________________________________________________
 
-# 94. Gap Closure Tensor
+## 94. Gap Closure Tensor
 
-[
-\boxed{
-Close(g)
-========
+## \[ \\boxed{ Close(g)
 
 Definition
-\land
+\\land
 Evidence
-\land
+\\land
 Provenance
-\land
+\\land
 DependencyClosure
-\land
+\\land
 Validation
 }
-]
+\]
 
 with terms included only where applicable to that gap class.
 
----
+______________________________________________________________________
 
-# 95. Gap Promotion Ladder
+## 95. Gap Promotion Ladder
 
 ```text
 UNKNOWN GAP
@@ -2971,9 +2961,9 @@ RESOLUTION VALIDATED
 CLOSED
 ```
 
----
+______________________________________________________________________
 
-# 96. Gap Reopening
+## 96. Gap Reopening
 
 A resolved gap may reopen if:
 
@@ -3003,9 +2993,9 @@ RESOLVED ONCE
 RESOLVED FOREVER
 ```
 
----
+______________________________________________________________________
 
-# 97. H/M/L Gap Matrix
+## 97. H/M/L Gap Matrix
 
 ## H — System-Level Gaps
 
@@ -3061,33 +3051,33 @@ single validator
 single transition
 ```
 
----
+______________________________________________________________________
 
-# 98. H/M/L Gap Propagation
+## 98. H/M/L Gap Propagation
 
 A local gap affects H-level completeness only when it is load-bearing.
 
-[
+\[
 Gap_L
-\land
+\\land
 LoadBearing(L,H)
-\Rightarrow
+\\Rightarrow
 Gap_H
-]
+\]
 
 Otherwise:
 
-[
+\[
 Gap_L
-\not\Rightarrow
+\\not\\Rightarrow
 Gap_H
-]
+\]
 
 This prevents over-invalidation.
 
----
+______________________________________________________________________
 
-# 99. Control-Plane Gap Matrix
+## 99. Control-Plane Gap Matrix
 
 ```yaml
 control_plane_gaps:
@@ -3126,9 +3116,9 @@ control_plane_gaps:
     status: GAP
 ```
 
----
+______________________________________________________________________
 
-# 100. Agent Gap Matrix
+## 100. Agent Gap Matrix
 
 ```yaml
 agent_gaps:
@@ -3161,9 +3151,9 @@ agent_gaps:
     status: GAP
 ```
 
----
+______________________________________________________________________
 
-# 101. Skill Gap Matrix
+## 101. Skill Gap Matrix
 
 ```yaml
 skill_gaps:
@@ -3190,9 +3180,9 @@ skill_gaps:
     status: GAP
 ```
 
----
+______________________________________________________________________
 
-# 102. Workflow Gap Matrix
+## 102. Workflow Gap Matrix
 
 ```yaml
 workflow_gaps:
@@ -3219,9 +3209,9 @@ workflow_gaps:
     status: GAP
 ```
 
----
+______________________________________________________________________
 
-# 103. Protocol Gap Matrix
+## 103. Protocol Gap Matrix
 
 ```yaml
 protocol_gaps:
@@ -3248,9 +3238,9 @@ protocol_gaps:
     status: GAP
 ```
 
----
+______________________________________________________________________
 
-# 104. Evidence / Provenance Gap Matrix
+## 104. Evidence / Provenance Gap Matrix
 
 ```yaml
 evidence_provenance_gaps:
@@ -3280,9 +3270,9 @@ evidence_provenance_gaps:
     status: GAP
 ```
 
----
+______________________________________________________________________
 
-# 105. Uncertainty Gap Matrix
+## 105. Uncertainty Gap Matrix
 
 ```yaml
 uncertainty_gaps:
@@ -3309,9 +3299,9 @@ uncertainty_gaps:
     status: GAP
 ```
 
----
+______________________________________________________________________
 
-# 106. Failure / Repair Gap Matrix
+## 106. Failure / Repair Gap Matrix
 
 ```yaml
 failure_repair_gaps:
@@ -3344,9 +3334,9 @@ failure_repair_gaps:
     status: GAP
 ```
 
----
+______________________________________________________________________
 
-# 107. Test / Validator Gap Matrix
+## 107. Test / Validator Gap Matrix
 
 ```yaml
 testing_gaps:
@@ -3382,11 +3372,11 @@ testing_gaps:
     status: GAP
 ```
 
----
+______________________________________________________________________
 
-# 108. Gap Prioritization Equation
+## 108. Gap Prioritization Equation
 
-Let gap \(g_i\) have:
+Let gap (g_i) have:
 
 ```text
 I_i = decision impact
@@ -3404,48 +3394,42 @@ C_i = closure cost
 
 A conceptual priority score may be:
 
-[
-\boxed{
-Priority(g_i)
-=============
+## \[ \\boxed{ Priority(g_i)
 
-\frac{
-I_i \cdot K_i \cdot (1+D_i) \cdot (1+R_i) \cdot (1+U_i)
+\\frac{
+I_i \\cdot K_i \\cdot (1+D_i) \\cdot (1+R_i) \\cdot (1+U_i)
 }{
 1+C_i
 }
 }
-]
+\]
 
 This is an `AMOS_MODEL` heuristic.
 
 No numeric values should be assigned without operational definitions.
 
----
+______________________________________________________________________
 
-# 109. Cheapest Discriminating Gap Closure
+## 109. Cheapest Discriminating Gap Closure
 
 When multiple gaps block the same promotion:
 
-[
-\boxed{
-Test^*
-======
+## \[ \\boxed{ Test^\*
 
-\arg\max_t
-\frac{
+\\arg\\max_t
+\\frac{
 ExpectedDecisionChange(t)
 }{
 Cost(t)+Risk(t)+Delay(t)
 }
 }
-]
+\]
 
 Prefer the cheapest safe test capable of changing the completion decision.
 
----
+______________________________________________________________________
 
-# 110. Critical Gap Ordering
+## 110. Critical Gap Ordering
 
 Current recommended closure order:
 
@@ -3477,9 +3461,9 @@ Current recommended closure order:
 
 This is a structural priority model.
 
----
+______________________________________________________________________
 
-# 111. Promotion Gates
+## 111. Promotion Gates
 
 ## Gate 1 — Canon Promotion
 
@@ -3573,9 +3557,9 @@ revalidation
 runtime evidence
 ```
 
----
+______________________________________________________________________
 
-# 112. Promotion Invariants
+## 112. Promotion Invariants
 
 ```text
 SOURCE_CLAIM
@@ -3599,9 +3583,9 @@ BENCHMARK PASS
 OPERATIONAL ASSURANCE
 ```
 
----
+______________________________________________________________________
 
-# 113. Gap Falsifiers
+## 113. Gap Falsifiers
 
 This gap matrix itself is incomplete if it fails to track any load-bearing gap concerning:
 
@@ -3659,9 +3643,9 @@ operations
 
 It must also be revised if direct source canon establishes materially different L01 structure.
 
----
+______________________________________________________________________
 
-# 114. Gap Resolution Validators
+## 114. Gap Resolution Validators
 
 ```text
 VALIDATOR_GAP_IDENTITY
@@ -3689,9 +3673,9 @@ VALIDATOR_GAP_IMPLEMENTATION_STATUS
 VALIDATOR_GAP_TEST_STATUS
 ```
 
----
+______________________________________________________________________
 
-# 115. Minimum Gap Tests
+## 115. Minimum Gap Tests
 
 ```text
 TEST_GAP_001
@@ -3740,23 +3724,20 @@ TEST_GAP_015
 gap closure preserves version lineage
 ```
 
----
+______________________________________________________________________
 
-# 116. Completion Equation
+## 116. Completion Equation
 
-For declared scope \(S\), let required load-bearing requirements be \(R_S\).
+For declared scope (S), let required load-bearing requirements be (R_S).
 
 Then:
 
-[
-\boxed{
-CompleteForScope(S)
-===================
+## \[ \\boxed{ CompleteForScope(S)
 
-\bigwedge_{r\in R_S}
+\\bigwedge\_{r\\in R_S}
 Resolved(r)
 }
-]
+\]
 
 subject to:
 
@@ -3768,69 +3749,57 @@ dependency closure established
 required validation evidence present
 ```
 
----
+______________________________________________________________________
 
-# 117. Conditional Completion
+## 117. Conditional Completion
 
-[
-\boxed{
-Conditional(S)
-==============
+## \[ \\boxed{ Conditional(S)
 
 SomeRequiredGapsOpen
-\land
+\\land
 AssumptionsExplicit
-\land
+\\land
 BoundedUsePossible
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 118. Incomplete State
+## 118. Incomplete State
 
-[
-\boxed{
-Incomplete(S)
-=============
+## \[ \\boxed{ Incomplete(S)
 
-\exists g\in CriticalGaps(S):
+\\exists g\\in CriticalGaps(S):
 Open(g)
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 119. Contradictory State
+## 119. Contradictory State
 
-[
-\boxed{
-Contradictory(S)
-================
+## \[ \\boxed{ Contradictory(S)
 
-\exists(c_1,c_2):
+\\exists(c_1,c_2):
 Incompatible(c_1,c_2)
-\land
+\\land
 Unresolved(c_1,c_2)
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 120. Unknown State
+## 120. Unknown State
 
-[
-\boxed{
-Unknown(S)
-==========
+## \[ \\boxed{ Unknown(S)
 
 EvidenceInsufficientToClassify(S)
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 121. Current Completion Matrix
+## 121. Current Completion Matrix
 
 ```yaml
 L01_completion_matrix:
@@ -3932,9 +3901,9 @@ L01_completion_matrix:
     class: CRITICAL
 ```
 
----
+______________________________________________________________________
 
-# 122. Current Critical Gaps
+## 122. Current Critical Gaps
 
 ```text
 CRITICAL-01
@@ -3977,9 +3946,9 @@ CRITICAL-13
 Operational monitoring and drift detection are not established.
 ```
 
----
+______________________________________________________________________
 
-# 123. Current Decision-Relevant Gaps
+## 123. Current Decision-Relevant Gaps
 
 ```text
 DR-01
@@ -4019,9 +3988,9 @@ DR-12
 Memory revalidation rules remain incomplete.
 ```
 
----
+______________________________________________________________________
 
-# 124. Current Explanatory Gaps
+## 124. Current Explanatory Gaps
 
 ```text
 EX-01
@@ -4043,9 +4012,9 @@ EX-06
 Formal-verification candidates are not exhaustively mapped.
 ```
 
----
+______________________________________________________________________
 
-# 125. Current Cosmetic Gaps
+## 125. Current Cosmetic Gaps
 
 ```text
 COS-01
@@ -4066,9 +4035,9 @@ Tag taxonomy may be normalized.
 
 These do not justify delaying critical closure unless they cause semantic ambiguity.
 
----
+______________________________________________________________________
 
-# 126. Repair / Gap Closure Workflow
+## 126. Repair / Gap Closure Workflow
 
 ```text
 IDENTIFY GAP
@@ -4094,9 +4063,9 @@ REVALIDATE DEPENDENTS
 PROMOTE ONLY IF WARRANTED
 ```
 
----
+______________________________________________________________________
 
-# 127. Gap Repair Invariant
+## 127. Gap Repair Invariant
 
 ```text
 FILLING TEXT
@@ -4128,9 +4097,9 @@ OPERATIONAL_GAP
 requires operational evidence
 ```
 
----
+______________________________________________________________________
 
-# 128. Anti-Cosmetic Closure Rule
+## 128. Anti-Cosmetic Closure Rule
 
 The following do not close load-bearing gaps:
 
@@ -4152,9 +4121,9 @@ assuming defaults
 copying a model into a canon section
 ```
 
----
+______________________________________________________________________
 
-# 129. Gap Provenance
+## 129. Gap Provenance
 
 Every resolved gap should preserve:
 
@@ -4188,9 +4157,9 @@ gap_provenance:
   rollback_reference:
 ```
 
----
+______________________________________________________________________
 
-# 130. Gap Memory
+## 130. Gap Memory
 
 Gap history should remain persistent.
 
@@ -4210,25 +4179,25 @@ what assumptions changed
 
 This prevents repeated failed closure paths.
 
----
+______________________________________________________________________
 
-# 131. Gap Dependency Invalidation
+## 131. Gap Dependency Invalidation
 
 If a gap is resolved using premise (p), and (p) later fails:
 
-[
-\boxed{
+\[
+\\boxed{
 Invalid(p)
-\Rightarrow
+\\Rightarrow
 Reopen(DependentGaps(p))
 }
-]
+\]
 
 Only dependent gap closures should reopen.
 
----
+______________________________________________________________________
 
-# 132. Gap RSCF Capsule
+## 132. Gap RSCF Capsule
 
 ```yaml
 rscf:
@@ -4331,9 +4300,9 @@ rscf:
     remain unresolved
 ```
 
----
+______________________________________________________________________
 
-# 133. Completion State
+## 133. Completion State
 
 ```yaml
 completion_state:
@@ -4405,24 +4374,21 @@ completion_state:
     AMOS_MODEL / CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
-# 134. Final Gap Contract
+## 134. Final Gap Contract
 
 The `L01_SENSING_OBSERVATION` gap architecture exists to ensure that missing structure remains visible rather than being concealed by fluent documentation.
 
 The fundamental completion relation is:
 
-[
-\boxed{
-Completeness
-============
+## \[ \\boxed{ Completeness
 
 ## DeclaredRequirements
 
 OpenLoadBearingGaps
 }
-]
+\]
 
 conceptually, not as a literal scalar subtraction unless completeness metrics are formally defined.
 
@@ -4556,29 +4522,33 @@ under the classification:
 AMOS_MODEL / CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · L01_SENSING_OBSERVATION — HML · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · L01_SENSING_OBSERVATION — RSCF · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[00_ROOT/00_HOME|00_HOME]] · 06-Knowledge-Base-MOC
 
 ```
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: l01_sensing_observation_primitives_cognitive_matrix_gap_matrix
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_GAP_MATRIX.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_MOC|L01_SENSING_OBSERVATION_MOC]]

@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Vault Domain Knowledge — Software Engineering Qa
 type: reference
 source: 07_SKILLS/software-engineering-qa/references
 tags:
-- reference
-- software-engineering-qa
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - software-engineering-qa
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -26,6 +29,7 @@ rscf:
 > **Source**: `11_KNOWLEDGE/AMOS_C10_TECH_ENGINEERING_MASTER_KNOWLEDGE.md` from the AMOS_OS Obsidian vault.
 
 ### Claim Classes (C10)
+
 - **VERIFIED** — strongly supported engineering result within a stated regime.
 - **DERIVED** — mathematical or logical consequence of stated premises/model.
 - **MODEL** — representation useful within stated scope.
@@ -34,17 +38,20 @@ rscf:
 - **UNKNOWN/GAP** — insufficient evidence or unresolved mechanism.
 
 ### Architecture Design Discipline (H2)
+
 - Every architecture decision requires explicit functional requirements, non-functional requirements, constraints, and scale assumptions.
 - **Rule of 2**: at least two architectural approaches must be held concurrently until trade-offs are explicit.
 - **Pattern selection discipline**: `selected_pattern + rejected_alternatives + why`.
 - **Validation firewall**: architecture output is design, not a working system. Every recommendation carries assumptions stated, alternatives compared, uncertainty labelled, validation and implementation acknowledged.
 
 ### Integration Contracts (H5)
+
 - No direct calls without a contract. Every integration declares data shapes, SLA, failure semantics, and rejection protocol.
 - Rejects are REASONED (documented reason codes), never silent.
 - Circuit breaker lifecycle: closed -> open on failure threshold -> half_open after cooldown.
 
 ### Security Architecture (H6)
+
 - Trust boundary mapping by data sensitivity and authority level.
 - Least-privilege surface minimization — each list starts empty and earns entries.
 - Fail-closed verification — timeout = deny, parse failure = deny, unknown state = deny.
@@ -53,6 +60,7 @@ rscf:
 ### Engineering Causal Firewall (H7)
 
 Do not infer causation from:
+
 - correlation between metrics alone
 - before/after deployment sequence alone
 - benchmark fit alone
@@ -61,18 +69,21 @@ Do not infer causation from:
 Causal evidence draws from controlled experiments, canary rollouts with holdout, incident replication, and convergent independent telemetry.
 
 ### Data Pipeline Quality (H3)
+
 - Quality dimensions: validity, completeness, accuracy, consistency, freshness.
 - Stale data served without staleness flags is worse than explicit unavailability.
 - Pipelines require declared trigger semantics, retry policy, idempotency of writes, dead-letter paths, and backfill capability.
 - Two datasets derived from the same upstream feed are not independent confirmation of anything.
 
----
+______________________________________________________________________
+
 **MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -80,12 +91,14 @@ Causal evidence draws from controlled experiments, canary rollouts with holdout,
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: software-engineering-qa-vault-domain-knowledge
 node_type: reference
 path: 07_SKILLS/software-engineering-qa/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

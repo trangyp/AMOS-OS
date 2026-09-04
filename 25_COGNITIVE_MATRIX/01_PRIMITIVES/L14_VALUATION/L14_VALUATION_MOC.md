@@ -1,10 +1,13 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: L14 Valuation MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L14_VALUATION
 tags:
-- matrix/l14-valuation
-- domain/cognitive-matrix
+  - matrix/l14-valuation
+  - domain/cognitive-matrix
 moc: true
 rscf:
   state: DERIVED
@@ -48,5 +51,6 @@ rscf:
 
 - [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]] — 00_INDEX
 
----
+______________________________________________________________________
+
 **Parent:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/01_PRIMITIVES_MOC|01_PRIMITIVES_MOC]]

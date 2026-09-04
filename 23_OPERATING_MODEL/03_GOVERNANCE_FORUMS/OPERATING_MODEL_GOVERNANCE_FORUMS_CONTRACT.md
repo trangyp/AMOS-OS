@@ -1,86 +1,90 @@
 ---
-title: OPERATING MODEL GOVERNANCE FORUMS CONTRACT
-type: model
-source: 23_OPERATING_MODEL/03_GOVERNANCE_FORUMS
-tags:
-- amos-os
-- canon/operating-model
-- routing-policy-validation-receipt
-- authz-engine-validation-receipt
-- law-hierarchy
+title: "Operating Model Governance Forums Contract — Alignment Councils, Review Cadences & Consensus Procedures"
+type: subplane_contract
+plane: 23_OPERATING_MODEL
+subplane: 03_GOVERNANCE_FORUMS
+domain: A_NORMATIVE_GOVERNANCE
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
+status: ACTIVE_SPECIFICATION
+conclusion_class: DERIVED
 rscf:
   state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  claim_class: AMOS_MODEL
+  provenance:
+    - 23_OPERATING_MODEL/OPERATING_MODEL_OPERATING_MODEL_CONTRACT
+    - 23_OPERATING_MODEL/01_ROLES/OPERATING_MODEL_ROLES_CONTRACT
+    - 23_OPERATING_MODEL/02_DECISION_RIGHTS/OPERATING_MODEL_DECISION_RIGHTS_CONTRACT
+  scope: governance_forums_and_review_cadences
+tags:
+  - amos-os
+  - 23-operating-model
+  - governance-forums
+  - alignment-councils
+  - review-cadences
+  - consensus-procedures
 ---
 
-# OPERATING MODEL GOVERNANCE FORUMS CONTRACT
+# Operating Model Governance Forums Contract — Alignment Councils, Review Cadences & Consensus Procedures
 
-## 0. Status
-Operating Model-plane contract for **GOVERNANCE FORUMS CONTRACT**. AMOS_MODEL; canonical status CONDITIONAL; implementation PARTIAL.
-
-## 1. Scope
-Governs roles, decision rights, governance forums, escalation paths, service levels as they bear on `GOVERNANCE FORUMS CONTRACT`. Bounded by dependency closure: conclusions inherit the weakest load-bearing premise.
-
-## 2. Contract terms
-- **Typed artifacts** — every artifact declares artifact_type, epistemic class, scope, regime.
-- **Firewalls preserved** — CAPABILITY ≠ AUTHORITY · PROPOSAL ≠ COMMIT · OBSERVED ≠ CURRENT · TEST_PASS ≠ TRUTH.
-- **Epochs distinct** — state_version ≠ causal_epoch ≠ policy_epoch ≠ provenance_epoch unless an explicit mapping licenses equivalence.
-- **Local finality requires proof** — demonstrated dependency closure may avoid coordination; assumed independence may not.
-- **Selective invalidation** — failure invalidates dependent descendants only; unrelated state is preserved.
-
-## 3. Invariants
-- Fail closed on UNKNOWN/GAP; gaps stay visible, never promoted to PASS.
-- Confidence of any conclusion ≤ confidence of its weakest load-bearing premise (ceiling 0.95).
-- Consequential effects emit receipts; rollback basin exists before mutation.
-- Competing hypotheses remain visible when evidence does not discriminate.
-
-## 4. Executed reference
-No subsystem-local executor yet. Existing executed validators for the OS: routing-policy validator 19/19 ([[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]]) and authz invariant engine 17/17 ([[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]) — cited as pattern, not as evidence for this artifact.
-
-## 5. Gaps
-Runtime enforcement, persistence binding, and empirical validation remain OPEN (UNKNOWN/GAP). Promotion beyond AMOS_MODEL requires the promotion-gate checklist plus an executed receipt specific to this contract.
-
-## 6. Falsifiers
-F1: canonical source defines different semantics for this surface. F2: an executed test contradicts a declared invariant. F3: this contract silently collapses a protected firewall.
-## Worked semantics
-Given an operation touching `OPERATING MODEL · GOVERNANCE FORUMS CONTRACT` within the Operating Model plane:
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-2. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-3. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-4. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-5. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-6. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
-
-## Promotion-gate checklist
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
-
-## Cross-plane bindings
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]|AMOS Core Laws · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
-- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
-- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
----
-
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+> **Origin Architect / Steward:** Trang Phan  
+> **AMOS_CORE Target:** `v4.4`  
+> **Domain Alignment:** Domain A (Normative & Governance Definition)  
+> **Conclusion Class:** `DERIVED` (RSCF Validated)  
+> **Status:** `ACTIVE_SPECIFICATION`
 
 ---
-**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+
+## 1. Architectural Scope & Mission
+
+`23_OPERATING_MODEL/03_GOVERNANCE_FORUMS` establishes the synchronous and asynchronous alignment councils, scheduled review cadences, and multi-agent coordination forums that maintain systemic coherence and epistemic alignment across AMOS OS.
+
+```text
+MEETING != MEANINGFUL_ALIGNMENT
+STATUS_REPORTING != EPISTEMIC_VERIFICATION
+CADENCE_WITHOUT_PURPOSE == PROTOCOL_BLOAT
+ASYNC_FIRST != ACCOUNTABILITY_VOID
+```
 
 ---
-RSCF-NODE
-node_id: amos_del_03_governance_forums_operating_model_governance_forums_contract_md
-node_type: note
-path: 23_OPERATING_MODEL/03_GOVERNANCE_FORUMS/OPERATING_MODEL_GOVERNANCE_FORUMS_CONTRACT.md
-claim_class: AMOS_MODEL
+
+## 2. Master Governance Forum Topology
+
+```
+┌────────────────────────────────────────────────────────────────────────┐
+│                   AMOS OS MASTER GOVERNANCE FORUMS                     │
+├────────────────────────┬──────────────┬──────────────┬─────────────────┤
+│ Forum Name             │ Cadence      │ Participants │ Core Mandate    │
+├────────────────────────┼──────────────┼──────────────┼─────────────────┤
+│ 1. Canonical Review    │ Monthly / Ad │ Trang Phan + │ Core law & MOC  │
+│    Council (CRC)       │ hoc (Tier D3)│ Plane Leads  │ architectural   │
+├────────────────────────┼──────────────┼──────────────┼─────────────────┤
+│ 2. SOTA Research &     │ Bi-Weekly    │ Lead Research│ Ingest 2026 lit,│
+│    Frontier Council    │              │ & Domain C/D │ benchmarks, QEC │
+├────────────────────────┼──────────────┼──────────────┼─────────────────┤
+│ 3. Agent Swarm Daily   │ Epoch-based  │ Tier 2 & 3   │ Deadlock check, │
+│    Sync (SDS)          │ (Continuous) │ Agents       │ CAS handoffs    │
+├────────────────────────┼──────────────┼──────────────┼─────────────────┤
+│ 4. Security & Audit    │ Weekly       │ Red-Team +   │ Vulnerability & │
+│    Integrity Gate      │              │ Audit Leads  │ drift reviews   │
+└────────────────────────┴──────────────┴──────────────┴─────────────────┘
+```
 
 ---
-**MOC:** [[23_OPERATING_MODEL/03_GOVERNANCE_FORUMS/03_GOVERNANCE_FORUMS_MOC|03_GOVERNANCE_FORUMS_MOC]]
+
+## 3. Operational Protocols for Forum Decisions
+
+1. **Pre-Read Packet Sealed:** Every forum discussion requires an immutable, pre-circulated Markdown brief with complete RSCF evidence citations $\ge 24\text{ hours}$ (or $\ge 100$ agentic epochs) in advance.
+2. **Deterministic Minutes:** All forum resolutions are compiled into structured JSON-LD / YAML change proposals and logged to `20_OPERATIONS`.
+3. **Async-First Bias:** Issues resolvable via algebraic quorum rules in `02_DECISION_RIGHTS` must not be escalated to synchronous human review.
+
+---
+
+## 4. Lineage & Cross-Plane References
+
+- **Parent Contract:** [[23_OPERATING_MODEL/OPERATING_MODEL_OPERATING_MODEL_CONTRACT|OPERATING_MODEL_OPERATING_MODEL_CONTRACT]]
+- **Roles Matrix:** [[23_OPERATING_MODEL/01_ROLES/OPERATING_MODEL_ROLES_CONTRACT|OPERATING_MODEL_ROLES_CONTRACT]]
+- **Decision Rights:** [[23_OPERATING_MODEL/02_DECISION_RIGHTS/OPERATING_MODEL_DECISION_RIGHTS_CONTRACT|OPERATING_MODEL_DECISION_RIGHTS_CONTRACT]]
+- **Operations Log:** [[20_OPERATIONS/20_OPERATIONS_MOC|20_OPERATIONS]]
+

@@ -4,25 +4,22 @@ title: SKILL — Mckinsey Architecture Reference Transfer Rscf
 type: skill
 source: 07_SKILLS/mckinsey-architecture-reference-transfer-rscf
 name: mckinsey-architecture-reference-transfer-rscf
-description: Architecture Reference Transfer — McKinsey strategic capability. Use
-  when strategic analysis, business consulting, or McKinsey-framework reasoning. Use
-  when amos-c08-strategy-game-master routes to this specialized capability. Do not
-  use for generic tasks outside mckinsey domain.
+description: Architecture Reference Transfer — McKinsey strategic capability. Use when strategic analysis, business consulting, or McKinsey-framework reasoning. Use when amos-c08-strategy-game-master routes to this specialized capability. Do not use for generic tasks outside mckinsey domain.
 parent_skill: amos-c08-strategy-game-master
 domain: mckinsey
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
 tags:
-- type/skill
-- type/skill
-- domain/strategy-game
-- epistemic/source_claim
-- hml/m
-- epistemic/source_claim
-- amos-os
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/strategy-game
+  - epistemic/source_claim
+  - hml/m
+  - epistemic/source_claim
+  - amos-os
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -32,20 +29,20 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: M
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L16
-- L17
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L16
+  - L17
 license: MIT
 steward: Trang Phan
 ---
@@ -55,6 +52,7 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: mckinsey. Parent: amos-c08-strategy-game-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
 ## When to Use
 
 - When mckinsey strategy framework for mckinsey: architecture reference transfer rscf is needed within the mckinsey domain
@@ -77,12 +75,12 @@ Origin architect: **Trang Phan**. Domain: mckinsey. Parent: amos-c08-strategy-ga
 ## Operations
 
 1. **architecture_reference.assess_commercial**: Assess commercial due diligence: market, competitive position, and growth
-2. **architecture_reference.evaluate_credit**: Evaluate credit and lending: risk scoring, portfolio, and concentration
-3. **architecture_reference.analyze_banking**: Analyze banking CRM: customer lifetime value, retention, and cross-sell
-4. **architecture_reference.transfer_architecture**: Transfer architecture references: best practices across organizational contexts
-5. **architecture_reference.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-6. **architecture_reference.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
-7. **architecture_reference.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+1. **architecture_reference.evaluate_credit**: Evaluate credit and lending: risk scoring, portfolio, and concentration
+1. **architecture_reference.analyze_banking**: Analyze banking CRM: customer lifetime value, retention, and cross-sell
+1. **architecture_reference.transfer_architecture**: Transfer architecture references: best practices across organizational contexts
+1. **architecture_reference.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+1. **architecture_reference.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+1. **architecture_reference.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## 11_KNOWLEDGE Vault Content
 
@@ -94,20 +92,23 @@ Origin architect: **Trang Phan**. Domain: mckinsey. Parent: amos-c08-strategy-ga
 From C08 Strategy & Game: Consulting frameworks and strategic architecture. From C09 Org & Law: Organizational architecture and governance.
 
 **Reference transfer model**:
+
 - **Architecture reference**: a documented architecture pattern from one domain
 - **Transfer**: applying the architecture pattern to a new domain
 - **Adaptation**: adapting the pattern to fit the new domain's constraints
 - **Validation**: validating that the transferred architecture works in the new domain
 
 **Transfer protocol**:
+
 1. **Identify reference**: identify the source architecture pattern
-2. **Analyze constraints**: analyze the target domain's constraints
-3. **Map**: map the reference architecture to the target domain
-4. **Adapt**: adapt the architecture to fit target constraints
-5. **Validate**: validate the adapted architecture
-6. **Document**: document the transfer with provenance
+1. **Analyze constraints**: analyze the target domain's constraints
+1. **Map**: map the reference architecture to the target domain
+1. **Adapt**: adapt the architecture to fit target constraints
+1. **Validate**: validate the adapted architecture
+1. **Document**: document the transfer with provenance
 
 **Transfer laws**:
+
 - `REFERENCE != SOLUTION`: a reference architecture is not a solution; it must be adapted
 - `PATTERN != GUARANTEE`: a pattern that works in one domain does not guarantee success in another
 - `TRANSFER != COPY`: transfer is adaptation, not copying
@@ -122,23 +123,23 @@ Architecture reference transfer is an analytical methodology. It does not prove 
 
 ## Core Components
 
-| Component | Import Path | Purpose |
-|-----------|-------------|---------|
-| `HierarchicalGenerator` | `.core` | Rule-based 7-level hierarchy |
-| `GoalDrivenGenerator` | `.goal_core` | Natural language goal parsing |
-| `UnifiedGenerator` | `.unified_generator` | Combines both approaches |
-| `PatternLibrary` | `.patterns` | Code templates for 5 pattern types |
-| `AMOSArchitectureBridge` | `.integration` | AMOS ecosystem integration |
+| Component                | Import Path          | Purpose                            |
+| ------------------------ | -------------------- | ---------------------------------- |
+| `HierarchicalGenerator`  | `.core`              | Rule-based 7-level hierarchy       |
+| `GoalDrivenGenerator`    | `.goal_core`         | Natural language goal parsing      |
+| `UnifiedGenerator`       | `.unified_generator` | Combines both approaches           |
+| `PatternLibrary`         | `.patterns`          | Code templates for 5 pattern types |
+| `AMOSArchitectureBridge` | `.integration`       | AMOS ecosystem integration         |
 
 ## CLI Commands
 
 ```bash
-# Main CLI
+## Main CLI
 python -m hierarchical_ai_architecture_generator generate --limit 1000
 python -m hierarchical_ai_architecture_generator query --layer safety_controller
 python -m hierarchical_ai_architecture_generator demo
 
-# Goal-driven CLI
+## Goal-driven CLI
 python goal_driven_ai_architecture_generator_v2.py generate \
     --goal "Create retrieval system" --count 50
 python goal_driven_ai_architecture_ge
@@ -154,17 +155,19 @@ python goal_driven_ai_architecture_ge
 ## Examples
 
 - **Scenario**: When mckinsey strategy framework for mckinsey: architecture reference transfer rscf is needed within the mckinsey domain
+
   - **Input**: A query matching this skill's domain (mckinsey)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When the parent skill (`amos-c08-strategy-game-master`) routes to this specialized capability
+
   - **Input**: A query matching this skill's domain (mckinsey)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When a query requires mckinsey-specific reasoning grounded in vault sources
+
   - **Input**: A query matching this skill's domain (mckinsey)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Validation Gates
 
@@ -181,7 +184,6 @@ python goal_driven_ai_architecture_ge
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `amos-c08-strategy-game-master` — routes to this skill when mckinsey specialization is needed
@@ -189,7 +191,6 @@ python goal_driven_ai_architecture_ge
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -208,7 +209,6 @@ python goal_driven_ai_architecture_ge
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -216,7 +216,6 @@ python goal_driven_ai_architecture_ge
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -229,11 +228,12 @@ python goal_driven_ai_architecture_ge
 
 - `references/mckinsey-architecture-reference-transfer-rscf_code.md` — loaded on demand
 - `references/references_MOC.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `amos-c08-strategy-game-master` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `mckinsey-architecture-reference-transfer-rscf-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -241,13 +241,14 @@ python goal_driven_ai_architecture_ge
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: mckinsey-architecture-reference-transfer-rscf
 node_type: skill
 path: 07_SKILLS/mckinsey-architecture-reference-transfer-rscf/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
-

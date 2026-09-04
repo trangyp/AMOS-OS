@@ -12,19 +12,19 @@ segment: 11_KNOWLEDGE/03_RSCF
 artifact_kind: INDEX
 path: 11_KNOWLEDGE/03_RSCF/NEUROSYNCAI_RSCF_INDEX.md
 tags:
-- amos-os
-- knowledge
-- vault
-- 03_rscf
-- neurosyncai_rscf_index
-- proof_capsules
-- bio_adaptive_proofs
-- rscf
-- canon_candidate
-- canon/knowledge
-- neurosyncai-master
-- unified-biological-intelligence
-- amos-x-neurosyncai
+  - amos-os
+  - knowledge
+  - vault
+  - 03_rscf
+  - neurosyncai_rscf_index
+  - proof_capsules
+  - bio_adaptive_proofs
+  - rscf
+  - canon_candidate
+  - canon/knowledge
+  - neurosyncai-master
+  - unified-biological-intelligence
+  - amos-x-neurosyncai
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -39,19 +39,19 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - NEUROSYNCAI_FRAMEWORK
-  - AMOS_CORPUS
+    - NEUROSYNCAI_FRAMEWORK
+    - AMOS_CORPUS
   scope:
-  - KNOWLEDGE_RSCF
-  - NEUROSYNCAI_RSCF_INDEX
-  - SOURCE_DEFINED_MODEL
+    - KNOWLEDGE_RSCF
+    - NEUROSYNCAI_RSCF_INDEX
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   rscf_moc:
     artifact:
-    - - 03_RSCF_MOC
+      -   - 03_RSCF_MOC
   neurosyncai_master:
     artifact:
-    - - NEUROSYNCAI_MASTER
+      -   - NEUROSYNCAI_MASTER
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   index_structure: VERIFIED_SOURCE_STRUCTURE
@@ -65,29 +65,29 @@ epistemic_boundary:
 
 It catalogs verifiable proof capsules governing bio-adaptive AI throttling, real-time fatigue mitigation, and dual-system cognitive switching.
 
----
+______________________________________________________________________
 
-# 1. Indexed RSCF Capsules
+## 1. Indexed RSCF Capsules
 
-| Node ID | Module | Claim Class | Governing Invariant | Status |
-| :--- | :--- | :--- | :--- | :--- |
-| `RSCF-NSY-001` | NeurosyncAI Master | `AMOS_MODEL` | Real-Time Bio-Synchrony Loop | Active |
-| `RSCF-NSY-002` | Recovery Engine | `AMOS_MODEL` | Parasympathetic Micro-Pacing | Active |
-| `RSCF-NSY-003` | Dual-System Architecture | `AMOS_MODEL` | Cognitive Load Arbitration | Active |
-| `RSCF-NSY-004` | UBI-NeurosyncAI Bridge | `SYSTEM_INVARIANT` | Dynamic Token Throttling | Active |
+| Node ID        | Module                   | Claim Class        | Governing Invariant          | Status |
+| :------------- | :----------------------- | :----------------- | :--------------------------- | :----- |
+| `RSCF-NSY-001` | NeurosyncAI Master       | `AMOS_MODEL`       | Real-Time Bio-Synchrony Loop | Active |
+| `RSCF-NSY-002` | Recovery Engine          | `AMOS_MODEL`       | Parasympathetic Micro-Pacing | Active |
+| `RSCF-NSY-003` | Dual-System Architecture | `AMOS_MODEL`       | Cognitive Load Arbitration   | Active |
+| `RSCF-NSY-004` | UBI-NeurosyncAI Bridge   | `SYSTEM_INVARIANT` | Dynamic Token Throttling     | Active |
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **RSCF MOC:** [[11_KNOWLEDGE/03_RSCF/03_RSCF_MOC|03_RSCF_MOC]]
 - **NeurosyncAI Master:** [[11_KNOWLEDGE/05_FRAMEWORKS/NEUROSYNCAI_MASTER|NEUROSYNCAI_MASTER]]
 - **Biological Master:** [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]]
 - **Cognitive Matrix:** [[25_COGNITIVE_MATRIX/AMOS_X_NEUROSYNCAI|AMOS_X_NEUROSYNCAI]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -105,10 +105,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/03_RSCF/03_RSCF_MOC|03_RSCF_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/NEUROSYNCAI_MASTER|NEUROSYNCAI_MASTER]] · [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]] · [[25_COGNITIVE_MATRIX/AMOS_X_NEUROSYNCAI|AMOS_X_NEUROSYNCAI]]
 
----
-**MOC:** [[11_KNOWLEDGE/03_RSCF/03_RSCF_MOC|03_RSCF_MOC]]
+______________________________________________________________________
 
+**MOC:** [[11_KNOWLEDGE/03_RSCF/03_RSCF_MOC|03_RSCF_MOC]]

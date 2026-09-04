@@ -12,39 +12,39 @@ segment: 01_CANON/03_COGNITION_CANON
 artifact_kind: CANON
 path: 01_CANON/03_COGNITION_CANON/AMOS_HOMEOSTASIS_CANON.md
 tags:
-- amos-os
-- amos_homeostasis
-- amos_homeostasis_canon
-- homeostasis
-- cognition
-- cognition_canon
-- regulation
-- stability
-- equilibrium
-- adaptive_regulation
-- canon
-- universe
-- 03_cognition_canon
-- canon_placeholder
-- rscf
-- provenance
-- lineage
-- epistemic_integrity
-- scope
-- regime
-- temporal_validity
-- causal_firewall
-- validation
-- governed_evolution
-- competing_hypotheses
-- canon/universe
-- amos-os
-- routing-policy-validation-receipt
-- authz-engine-validation-receipt
-- law-hierarchy
+  - amos-os
+  - amos_homeostasis
+  - amos_homeostasis_canon
+  - homeostasis
+  - cognition
+  - cognition_canon
+  - regulation
+  - stability
+  - equilibrium
+  - adaptive_regulation
+  - canon
+  - universe
+  - 03_cognition_canon
+  - canon_placeholder
+  - rscf
+  - provenance
+  - lineage
+  - epistemic_integrity
+  - scope
+  - regime
+  - temporal_validity
+  - causal_firewall
+  - validation
+  - governed_evolution
+  - competing_hypotheses
+  - canon/universe
+  - amos-os
+  - routing-policy-validation-receipt
+  - authz-engine-validation-receipt
+  - law-hierarchy
 aliases:
-- AMOS Homeostasis Canon
-- AMOS Homeostasis
+  - AMOS Homeostasis Canon
+  - AMOS Homeostasis
 version: 0.2.0
 updated: '2026-08-27'
 status: PLACEHOLDER_EXPANDED
@@ -101,7 +101,7 @@ rscf:
 
 #amos_os #amos_homeostasis #amos_homeostasis_canon #homeostasis #cognition #cognition_canon #regulation #stability #adaptive_regulation #canon #rscf #provenance #scope #regime #causal_firewall
 
-> [!abstract] Canon identity
+> [!ABSTRACT] Canon identity
 > **Artifact:** `AMOS_HOMEOSTASIS_CANON.md`
 > **Artifact ID:** `amos_01_canon_03_cognition_canon_amos_homeostasis_canon`
 > **System:** AMOS OS
@@ -116,7 +116,7 @@ rscf:
 > **Executable binding:** `NOT_ESTABLISHED`
 > **Origin architect / steward:** **Trang Phan**
 
----
+______________________________________________________________________
 
 ## 0. Canonical Status
 
@@ -184,7 +184,7 @@ SUBSTANTIVE_HOMEOSTASIS_CANON
 NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
 ## 1. Governing Integrity Boundary
 
@@ -286,11 +286,11 @@ STRUCTURAL SIMILARITY
 CAUSAL EQUIVALENCE
 ```
 
----
+______________________________________________________________________
 
 ## 2. Strongest Supported Claim
 
-> [!success] DERIVED
+> [!SUCCESS] DERIVED
 > AMOS OS reserves an ADD-ONLY Canon artifact named `AMOS_HOMEOSTASIS_CANON.md` in `01_CANON/03_COGNITION_CANON` for the framework family identified as **AMOS Homeostasis Canon**.
 
 ```yaml
@@ -323,7 +323,7 @@ claim:
 
 No stronger substantive homeostasis claim is licensed by the placeholder alone.
 
----
+______________________________________________________________________
 
 ## 3. Artifact Identity
 
@@ -377,7 +377,7 @@ identity:
     ADD_ONLY
 ```
 
----
+______________________________________________________________________
 
 ## 4. Identifier Consistency
 
@@ -413,9 +413,9 @@ Executable resolution remains:
 
 `NOT_ESTABLISHED`.
 
----
+______________________________________________________________________
 
-# Part I — Homeostasis Semantic Firewall
+## Part I — Homeostasis Semantic Firewall
 
 ## 5. Native Meaning of “Homeostasis”
 
@@ -447,7 +447,7 @@ Do not silently substitute definitions from:
 
 Those may later serve as external evidence or comparison models, but they are not native AMOS canon by default.
 
----
+______________________________________________________________________
 
 ## 6. Homeostasis Term Firewall
 
@@ -513,7 +513,7 @@ ERROR CORRECTION
 
 One or more relationships may later be established by native evidence. None is established by the title.
 
----
+______________________________________________________________________
 
 ## 7. Stability Firewall
 
@@ -553,7 +553,7 @@ A system can be stable without being homeostatic, and a homeostatic model could 
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
 ## 8. Equilibrium Firewall
 
@@ -594,7 +594,7 @@ Current:
 
 `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
 ## 9. Regulation Firewall
 
@@ -622,7 +622,7 @@ HOMEOSTASIS
 
 A regulatory mechanism may be part of a future native homeostasis model, but the relationship must be sourced.
 
----
+______________________________________________________________________
 
 ## 10. Feedback Firewall
 
@@ -661,7 +661,7 @@ feedback:
   causal_role: UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
 ## 11. Setpoint Firewall
 
@@ -697,7 +697,7 @@ setpoint:
   regime_dependent: UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
 ## 12. Target-Range Firewall
 
@@ -727,7 +727,7 @@ MODEL BOUND
 BIOLOGICAL BOUND
 ```
 
----
+______________________________________________________________________
 
 ## 13. Error-Signal Firewall
 
@@ -761,7 +761,7 @@ error_signal:
   causal_role: UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
 ## 14. Sensor Firewall
 
@@ -795,7 +795,7 @@ sensor_model:
   uncertainty_model: UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
 ## 15. Controller Firewall
 
@@ -831,7 +831,7 @@ controller:
   authority: NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
 ## 16. Effector Firewall
 
@@ -863,7 +863,7 @@ effector_model:
   response_contract: UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
 ## 17. Feedforward Firewall
 
@@ -893,7 +893,7 @@ feedforward:
   causal_role: UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
 ## 18. Allostasis Firewall
 
@@ -922,7 +922,7 @@ homeostasis_to_allostasis:
   overlap: UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
 ## 19. Robustness Firewall
 
@@ -950,7 +950,7 @@ HOMEOSTASIS
 
 A homeostatic architecture might produce robustness, but this would be a causal claim requiring evidence.
 
----
+______________________________________________________________________
 
 ## 20. Resilience Firewall
 
@@ -976,7 +976,7 @@ Native distinctions remain:
 
 `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
 ## 21. Self-Regulation Firewall
 
@@ -1000,9 +1000,9 @@ SELF-AWARENESS
 
 No agency or consciousness follows from a regulatory model.
 
----
+______________________________________________________________________
 
-# Part II — Competing Interpretations
+## Part II — Competing Interpretations
 
 ## 22. Competing Native Interpretations
 
@@ -1052,7 +1052,7 @@ UNKNOWN/GAP
 
 These are hypotheses for discrimination, not canon.
 
----
+______________________________________________________________________
 
 ## 23. Cheapest Discriminating Evidence
 
@@ -1123,9 +1123,9 @@ WHAT WOULD FALSIFY IT?
 
 A source answering these questions has much higher discriminating value than additional documents merely repeating the term `homeostasis`.
 
----
+______________________________________________________________________
 
-# Part III — Native Definition and Architecture Slots
+## Part III — Native Definition and Architecture Slots
 
 ## 24. Native Definition Schema
 
@@ -1234,7 +1234,7 @@ AMOS_HOMEOSTASIS_NATIVE_SCHEMA:
 
 This schema reserves typed slots. It does not populate them.
 
----
+______________________________________________________________________
 
 ## 25. Homeostasis Type
 
@@ -1256,7 +1256,7 @@ homeostasis_type:
   native_amos_type: UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
 ## 26. Regulated-System Slot
 
@@ -1271,7 +1271,7 @@ regulated_system:
 
 No regulated system should be inferred merely from Cognition Canon placement.
 
----
+______________________________________________________________________
 
 ## 27. Regulated-Variable Registry
 
@@ -1298,7 +1298,7 @@ regulated_variable:
   provenance: required
 ```
 
----
+______________________________________________________________________
 
 ## 28. Target-State Model
 
@@ -1314,7 +1314,7 @@ target_state:
   regime_sensitive: UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
 ## 29. Setpoint Model
 
@@ -1334,7 +1334,7 @@ is native canon unless verified.
 
 It may be a generic control-model example, but not AMOS Homeostasis canon.
 
----
+______________________________________________________________________
 
 ## 30. Target-Range Model
 
@@ -1358,7 +1358,7 @@ range:
   provenance: required
 ```
 
----
+______________________________________________________________________
 
 ## 31. Disturbance Model
 
@@ -1389,7 +1389,7 @@ ERROR
 DISTURBANCE
 ```
 
----
+______________________________________________________________________
 
 ## 32. Error Model
 
@@ -1404,7 +1404,7 @@ error_model:
   confidence: UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
 ## 33. Sensor / Observation Model
 
@@ -1438,7 +1438,7 @@ PROXY
 TARGET
 ```
 
----
+______________________________________________________________________
 
 ## 34. Controller Model
 
@@ -1454,7 +1454,7 @@ controller_model:
   authority: NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
 ## 35. Effector Model
 
@@ -1468,7 +1468,7 @@ effector_model:
   causal_effect: UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
 ## 36. Feedback Model
 
@@ -1484,7 +1484,7 @@ feedback_model:
   coupling: UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
 ## 37. Feedforward Model
 
@@ -1497,7 +1497,7 @@ feedforward_model:
   action_policy: UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
 ## 38. Dynamics Model
 
@@ -1517,7 +1517,7 @@ dynamics:
 
 No dynamical form is native until sourced.
 
----
+______________________________________________________________________
 
 ## 39. Equation Registry
 
@@ -1547,7 +1547,7 @@ SIMULATION FIT
 CAUSAL VALIDATION
 ```
 
----
+______________________________________________________________________
 
 ## 40. Stability Model
 
@@ -1565,7 +1565,7 @@ stability_model:
 
 Do not import Lyapunov, control-theoretic, or dynamical-systems definitions as native AMOS semantics without source support.
 
----
+______________________________________________________________________
 
 ## 41. Recovery Model
 
@@ -1595,7 +1595,7 @@ ROLLBACK
 HOMEOSTATIC RECOVERY
 ```
 
----
+______________________________________________________________________
 
 ## 42. Adaptation Model
 
@@ -1622,7 +1622,8 @@ ADAPTATION
 !=
 HOMEOSTASIS
 ```
----
+
+______________________________________________________________________
 
 ## 43. Measurement Model
 
@@ -1658,9 +1659,9 @@ COMPUTED VALUE
 EMPIRICAL MEASUREMENT
 ```
 
----
+______________________________________________________________________
 
-# Part IV — Causal Discipline
+## Part IV — Causal Discipline
 
 ## 44. Causal Firewall
 
@@ -1718,7 +1719,7 @@ STRUCTURAL SIMILARITY
 CAUSAL EQUIVALENCE
 ```
 
----
+______________________________________________________________________
 
 ## 45. Homeostatic Mechanism Claim
 
@@ -1745,7 +1746,7 @@ MECHANISM
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
 ## 46. Necessary / Sufficient Conditions
 
@@ -1782,7 +1783,7 @@ HOMEOSTASIS PRESENT
 SUFFICIENT FOR COGNITION
 ```
 
----
+______________________________________________________________________
 
 ## 47. Confounding Firewall
 
@@ -1810,7 +1811,7 @@ H8 — the model's target was misidentified.
 
 Observed return alone does not identify the mechanism.
 
----
+______________________________________________________________________
 
 ## 48. Feedback Causality Firewall
 
@@ -1832,9 +1833,9 @@ HOMEOSTATIC MECHANISM
 
 Each transition requires its own evidence class and confidence ceiling.
 
----
+______________________________________________________________________
 
-# Part V — Biological and Cognitive Firewalls
+## Part V — Biological and Cognitive Firewalls
 
 ## 49. Biological Homeostasis Firewall
 
@@ -1872,7 +1873,7 @@ ENDOCRINE FEEDBACK
 
 Any such mapping remains `MODEL` until independently validated.
 
----
+______________________________________________________________________
 
 ## 50. Biological Analogy Firewall
 
@@ -1898,7 +1899,7 @@ EMPIRICAL VALIDATION
 
 Cross-domain analogies must remain explicitly typed as `MODEL`.
 
----
+______________________________________________________________________
 
 ## 51. Cognition Relation
 
@@ -1920,7 +1921,7 @@ homeostasis_to_cognition:
 
 Placement in the Cognition Canon segment establishes organizational context, not a causal relationship.
 
----
+______________________________________________________________________
 
 ## 52. Cognition Firewall
 
@@ -1962,7 +1963,7 @@ HOMEOSTASIS
 CONSCIOUSNESS
 ```
 
----
+______________________________________________________________________
 
 ## 53. Emotion Relation
 
@@ -1996,7 +1997,7 @@ HOMEOSTATIC MODEL
 EMOTIONAL EXPERIENCE
 ```
 
----
+______________________________________________________________________
 
 ## 54. Attention Relation
 
@@ -2023,7 +2024,8 @@ STABLE ATTENTION
 !=
 HOMEOSTASIS
 ```
----
+
+______________________________________________________________________
 
 ## 55. Memory Relation
 
@@ -2050,7 +2052,8 @@ RECOVERY OF DATA
 !=
 HOMEOSTATIC RECOVERY
 ```
----
+
+______________________________________________________________________
 
 ## 56. Learning Relation
 
@@ -2075,7 +2078,8 @@ LEARNING
 !=
 HOMEOSTASIS
 ```
----
+
+______________________________________________________________________
 
 ## 57. Decision Relation
 
@@ -2100,7 +2104,8 @@ ACTION
 !=
 HOMEOSTATIC EFFECT
 ```
----
+
+______________________________________________________________________
 
 ## 58. Agency Relation
 
@@ -2128,7 +2133,8 @@ HOMEOSTASIS
 !=
 SELF-AWARENESS
 ```
----
+
+______________________________________________________________________
 
 ## 59. Metacognition Relation
 
@@ -2153,7 +2159,8 @@ METACOGNITION
 !=
 SELF-AWARENESS
 ```
----
+
+______________________________________________________________________
 
 ## 60. Consciousness Relation
 
@@ -2196,7 +2203,7 @@ HOMEOSTATIC ARCHITECTURE
 CONSCIOUS ARCHITECTURE
 ```
 
----
+______________________________________________________________________
 
 ## 61. Full Brain OS Relation
 
@@ -2220,7 +2227,7 @@ homeostasis_to_full_brain_os:
 
 Do not infer that Homeostasis is a subsystem merely because that architecture may sound plausible.
 
----
+______________________________________________________________________
 
 ## 62. Cognitive Field Relation
 
@@ -2256,9 +2263,9 @@ REGULATED SYSTEM
 
 unless native canon establishes otherwise.
 
----
+______________________________________________________________________
 
-# Part VI — Relationship and Lineage Topology
+## Part VI — Relationship and Lineage Topology
 
 ## 63. Same-Segment Firewall
 
@@ -2286,7 +2293,7 @@ RELATED NAME
 CANONICAL EDGE
 ```
 
----
+______________________________________________________________________
 
 ## 64. Relation to Cognition Master Canon
 
@@ -2306,7 +2313,7 @@ relation_to_cognition_master:
   supersession: UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
 ## 65. Relation to Full Brain OS Master Canon
 
@@ -2327,7 +2334,7 @@ relation_to_full_brain_os_master:
 
 No parent-child relationship is inferred.
 
----
+______________________________________________________________________
 
 ## 66. Framework Identity Test
 
@@ -2367,7 +2374,7 @@ COMPETING
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
 ## 67. Duplicate Filename / Source Firewall
 
@@ -2391,9 +2398,9 @@ INDEPENDENT EVIDENCE
 
 Use content and lineage comparison before canonical merging.
 
----
+______________________________________________________________________
 
-# Part VII — Provenance and Epistemics
+## Part VII — Provenance and Epistemics
 
 ## 68. Evidence Classes
 
@@ -2432,7 +2439,7 @@ Examples:
 → UNKNOWN/GAP absent causal evidence
 ```
 
----
+______________________________________________________________________
 
 ## 69. Provenance Topology
 
@@ -2465,7 +2472,7 @@ IMPLEMENTATION BINDINGS
 VALIDATION RECEIPTS
 ```
 
----
+______________________________________________________________________
 
 ## 70. Provenance Record Schema
 
@@ -2484,7 +2491,7 @@ provenance_record:
   regime: required
 ```
 
----
+______________________________________________________________________
 
 ## 71. Provenance Independence
 
@@ -2512,7 +2519,7 @@ provenance_independence:
   status: NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
 ## 72. Repetition Firewall
 
@@ -2538,7 +2545,7 @@ NO CONTRADICTION FOUND
 VERIFICATION
 ```
 
----
+______________________________________________________________________
 
 ## 73. Confidence Ceiling
 
@@ -2561,7 +2568,7 @@ MIN(CONFIDENCE(load-bearing Pi))
 
 unless `C` has independent validating evidence.
 
----
+______________________________________________________________________
 
 ## 74. External Research Firewall
 
@@ -2597,7 +2604,7 @@ EXTERNAL_EVIDENCE
 
 unless explicitly incorporated through governed native-canon ingestion.
 
----
+______________________________________________________________________
 
 ## 75. Empirical Firewall
 
@@ -2621,9 +2628,9 @@ VERIFIED EMPIRICAL EFFECT
 
 Empirical promotion requires evidence appropriate to the claim.
 
----
+______________________________________________________________________
 
-# Part VIII — Scope, Regime, Time
+## Part VIII — Scope, Regime, Time
 
 ## 76. Scope Envelope
 
@@ -2653,7 +2660,7 @@ homeostasis_scope:
   assumptions: UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
 ## 77. Scope Firewall
 
@@ -2679,7 +2686,7 @@ MODEL OF REGULATION
 UNIVERSAL HOMEOSTASIS LAW
 ```
 
----
+______________________________________________________________________
 
 ## 78. Regime Envelope
 
@@ -2696,7 +2703,7 @@ regime:
   transition_conditions: UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
 ## 79. Regime-Shift Firewall
 
@@ -2720,7 +2727,7 @@ CONTROLLER VALID @ R2
 
 A regime shift may invalidate prior target ranges, controller assumptions, or stability conclusions.
 
----
+______________________________________________________________________
 
 ## 80. Temporal Validity
 
@@ -2742,9 +2749,10 @@ CURRENT FILE VERSION
 !=
 CURRENT ENVIRONMENT VALIDITY
 ```
----
 
-# Part IX — RSCF / H-M-L / Fractal Runtime
+______________________________________________________________________
+
+## Part IX — RSCF / H-M-L / Fractal Runtime
 
 ## 81. RSCF Binding
 
@@ -2782,7 +2790,7 @@ RSCF REPRESENTATION
 EXECUTABLE HOMEOSTASIS ENGINE
 ```
 
----
+______________________________________________________________________
 
 ## 82. RSCF Homeostasis Claim Schema
 
@@ -2806,7 +2814,7 @@ rscf_homeostasis_claim:
   confidence_ceiling: required
 ```
 
----
+______________________________________________________________________
 
 ## 83. H/M/L Binding
 
@@ -2829,7 +2837,7 @@ L = CONTROL VARIABLE
 
 as native canon without evidence.
 
----
+______________________________________________________________________
 
 ## 84. Fractal Retrieval Target
 
@@ -2856,7 +2864,7 @@ DO_NOT_LOAD_UNLESS_REQUIRED
 
 This is a reasoning pattern, not a claim of literal runtime implementation.
 
----
+______________________________________________________________________
 
 ## 85. Smallest Sufficient Proof Scope
 
@@ -2898,9 +2906,9 @@ NON-CONFLICTING
 
 Otherwise escalate.
 
----
+______________________________________________________________________
 
-# Part X — Governed Canon Mutation
+## Part X — Governed Canon Mutation
 
 ## 86. Contract Discipline
 
@@ -2921,7 +2929,7 @@ homeostasis_canon_contract:
   mutation: ROLLBACK_BASIN_REQUIRED
 ```
 
----
+______________________________________________________________________
 
 ## 87. Worked Canon-Operation Semantics
 
@@ -3004,7 +3012,7 @@ INVALIDATE DEPENDENT DESCENDANTS ONLY
 RECORD RECEIPT
 ```
 
----
+______________________________________________________________________
 
 ## 88. Canon Operation vs Homeostatic Dynamics Firewall
 
@@ -3038,7 +3046,7 @@ CANON GOVERNANCE LOOP
 HOMEOSTATIC LOOP
 ```
 
----
+______________________________________________________________________
 
 ## 89. Selective Invalidation
 
@@ -3079,7 +3087,7 @@ UNRELATED HOMEOSTASIS CLAIMS
 UNRELATED COGNITION CANON
 ```
 
----
+______________________________________________________________________
 
 ## 90. Failure Recovery
 
@@ -3099,7 +3107,7 @@ REROUTE WITH CHANGED EVIDENCE
 
 Do not repeat a failed path without changed evidence.
 
----
+______________________________________________________________________
 
 ## 91. MVCC Conceptual Discipline
 
@@ -3135,7 +3143,7 @@ Literal MVCC implementation:
 
 `NOT_ESTABLISHED`.
 
----
+______________________________________________________________________
 
 ## 92. CAS Conceptual Discipline
 
@@ -3154,7 +3162,7 @@ Literal CAS implementation:
 
 `NOT_ESTABLISHED`.
 
----
+______________________________________________________________________
 
 ## 93. Atomic Multi-RSCF Target
 
@@ -3192,7 +3200,7 @@ Literal distributed transaction implementation remains:
 
 `NOT_ESTABLISHED`.
 
----
+______________________________________________________________________
 
 ## 94. Causal Epoch Discipline
 
@@ -3218,7 +3226,7 @@ Literal causal-epoch finalization remains:
 
 `NOT_ESTABLISHED`.
 
----
+______________________________________________________________________
 
 ## 95. Proof-Based Coordination Avoidance
 
@@ -3248,9 +3256,9 @@ ESCALATE
 
 Independence must be demonstrated, not assumed.
 
----
+______________________________________________________________________
 
-# Part XI — Adversarial Validation
+## Part XI — Adversarial Validation
 
 ## 96. Adversarial Validation Checklist
 
@@ -3306,35 +3314,35 @@ OR
 RETURN UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
 ## 97. Sensitivity Analysis
 
 The highest-sensitivity premise is:
 
-> [!danger] Critical premise
+> [!DANGER] Critical premise
 > The verified native AMOS definition of **Homeostasis**.
 
 The next highest-sensitivity premises are:
 
 1. regulated-system boundary;
-2. regulated variables;
-3. target/setpoint/range semantics;
-4. disturbance semantics;
-5. observation/measurement semantics;
-6. controller semantics;
-7. feedback/feedforward semantics;
-8. stability definition;
-9. causal mechanism;
-10. cognition relation;
-11. scope;
-12. regime;
-13. provenance ancestry;
-14. executable binding.
+1. regulated variables;
+1. target/setpoint/range semantics;
+1. disturbance semantics;
+1. observation/measurement semantics;
+1. controller semantics;
+1. feedback/feedforward semantics;
+1. stability definition;
+1. causal mechanism;
+1. cognition relation;
+1. scope;
+1. regime;
+1. provenance ancestry;
+1. executable binding.
 
 If the native definition establishes that `homeostasis` means something unlike biological/control-theoretic usage, much of any externally inferred architecture must be discarded.
 
----
+______________________________________________________________________
 
 ## 98. Uncertainty Vector
 
@@ -3398,9 +3406,9 @@ uncertainty:
   executable_binding: HIGH
 ```
 
----
+______________________________________________________________________
 
-# Part XII — Cross-Plane Boundaries
+## Part XII — Cross-Plane Boundaries
 
 ## 99. Kernel Boundary
 
@@ -3430,7 +3438,7 @@ Current kernel binding:
 
 `NOT_ESTABLISHED`.
 
----
+______________________________________________________________________
 
 ## 100. Control-Plane Boundary
 
@@ -3460,7 +3468,7 @@ Current control-plane binding:
 
 `NOT_ESTABLISHED`.
 
----
+______________________________________________________________________
 
 ## 101. Observability Boundary
 
@@ -3492,7 +3500,7 @@ AUTHORITY
 
 Observability can provide evidence but never becomes authority merely by measuring the system.
 
----
+______________________________________________________________________
 
 ## 102. Operations Boundary
 
@@ -3520,9 +3528,9 @@ HOMEOSTASIS
 
 Operations semantics and homeostasis semantics must remain separately typed.
 
----
+______________________________________________________________________
 
-# Part XIII — Validation
+## Part XIII — Validation
 
 ## 103. Required Validation Receipts
 
@@ -3546,7 +3554,7 @@ validation_receipts:
     status: NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
 ## 104. Homeostasis Validation Receipt Schema
 
@@ -3605,7 +3613,7 @@ validation_receipt:
   final_status: required
 ```
 
----
+______________________________________________________________________
 
 ## 105. Negative Validation Matrix
 
@@ -3655,9 +3663,9 @@ validation_receipt:
 | Missing validation receipt                         | no promotion                    |
 | `UNKNOWN/GAP` treated as PASS                      | reject                          |
 
----
+______________________________________________________________________
 
-# Part XIV — Gap Registry
+## Part XIV — Gap Registry
 
 ## 106. Critical Gaps
 
@@ -3753,7 +3761,7 @@ gap:
   status: UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
 ## 107. Decision-Relevant Gaps
 
@@ -3789,9 +3797,9 @@ decision_relevant_gaps:
   provenance_independence: NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# Part XV — Worked Integrity Examples
+## Part XV — Worked Integrity Examples
 
 ## 108. Worked Example — Negative Feedback
 
@@ -3825,7 +3833,7 @@ EXPLICIT FEEDBACK DEFINITION
 TYPED FEEDBACK EDGE
 ```
 
----
+______________________________________________________________________
 
 ## 109. Worked Example — Setpoint
 
@@ -3853,7 +3861,7 @@ SETPOINT VALUE EXISTS
 REGULATORY MECHANISM EXISTS
 ```
 
----
+______________________________________________________________________
 
 ## 110. Worked Example — Stability
 
@@ -3877,7 +3885,7 @@ STABILITY
 HOMEOSTASIS
 ```
 
----
+______________________________________________________________________
 
 ## 111. Worked Example — Recovery
 
@@ -3896,7 +3904,7 @@ CAUSAL CLAIM NOT ESTABLISHED
 
 Alternative explanations must be considered.
 
----
+______________________________________________________________________
 
 ## 112. Worked Example — Biological Analogy
 
@@ -3921,7 +3929,7 @@ ANALOGY
 BIOLOGICAL IDENTITY
 ```
 
----
+______________________________________________________________________
 
 ## 113. Worked Example — Emotion
 
@@ -3951,7 +3959,7 @@ REGULATED VARIABLE SEMANTICS
 CAUSAL EVIDENCE IF "REGULATES" IS CAUSAL
 ```
 
----
+______________________________________________________________________
 
 ## 114. Worked Example — Consciousness
 
@@ -3979,7 +3987,7 @@ HOMEOSTASIS
 SUBJECTIVE EXPERIENCE
 ```
 
----
+______________________________________________________________________
 
 ## 115. Worked Example — Canon Governance
 
@@ -4006,7 +4014,7 @@ HOMEOSTATIC RECOVERY
 
 A native relation must be established independently.
 
----
+______________________________________________________________________
 
 ## 116. Worked Example — Provenance Correlation
 
@@ -4028,7 +4036,7 @@ Then:
 
 The claim remains bounded by the ancestry of the original source.
 
----
+______________________________________________________________________
 
 ## 117. Worked Example — Competing Definitions
 
@@ -4052,7 +4060,7 @@ COMPETING
 
 Do not average the definitions.
 
----
+______________________________________________________________________
 
 ## 118. Worked Example — Regime Shift
 
@@ -4070,7 +4078,7 @@ VALID(T1 @ R2)
 
 Revalidation is required before reuse.
 
----
+______________________________________________________________________
 
 ## 119. Worked Example — Selective Invalidation
 
@@ -4107,9 +4115,9 @@ UNRELATED HOMEOSTASIS CLAIMS
 
 if their own premises remain valid.
 
----
+______________________________________________________________________
 
-# Part XVI — Promotion
+## Part XVI — Promotion
 
 ## 120. Promotion-Gate Checklist
 
@@ -4166,7 +4174,7 @@ if their own premises remain valid.
 - [ ] artifact-specific validation receipt executed
 - [ ] unresolved critical gaps remain visible as `UNKNOWN/GAP`
 
----
+______________________________________________________________________
 
 ## 121. Promotion State
 
@@ -4238,9 +4246,9 @@ CONTINUE NATIVE SOURCE INGESTION
 DO NOT PROMOTE
 ```
 
----
+______________________________________________________________________
 
-# Part XVII — Proof Capsule
+## Part XVII — Proof Capsule
 
 ## 122. Current Proof Capsule
 
@@ -4351,9 +4359,9 @@ proof_capsule:
     validation: true
 ```
 
----
+______________________________________________________________________
 
-# Part XVIII — Canonical Knowledge Capsule
+## Part XVIII — Canonical Knowledge Capsule
 
 ## 123. Canonical Knowledge Capsule
 
@@ -4478,9 +4486,9 @@ EXECUTABLE IMPLEMENTATION
 VALIDATION
 ```
 
----
+______________________________________________________________________
 
-# Part XIX — Canonical Invariants
+## Part XIX — Canonical Invariants
 
 ## 124. Canonical Invariants
 
@@ -4614,9 +4622,9 @@ VALID COMPONENTS != VALIDATED COMPOSITION
 ONE FAILED PREMISE != GLOBAL INVALIDATION
 ```
 
----
+______________________________________________________________________
 
-# Part XX — Status Matrix
+## Part XX — Status Matrix
 
 ## 125. Status Matrix
 
@@ -4680,15 +4688,15 @@ ONE FAILED PREMISE != GLOBAL INVALIDATION
 | Validation                       | NOT_ESTABLISHED  |
 | Empirical validity               | NOT_ESTABLISHED  |
 
----
+______________________________________________________________________
 
-# Part XXI — Minimum Missing Information
+## Part XXI — Minimum Missing Information
 
 ## 126. Minimum Missing Information
 
 The decisive missing evidence is:
 
-> [!danger]
+> [!DANGER]
 > A **verified native AMOS source explicitly defining AMOS Homeostasis**.
 
 Minimum decision-changing payload:
@@ -4773,9 +4781,9 @@ NEVER_INVENT_CANON
 
 remains controlling.
 
----
+______________________________________________________________________
 
-# Part XXII — Terminal Canon Guard
+## Part XXII — Terminal Canon Guard
 
 ## 127. Terminal Canon Guard
 
@@ -4843,9 +4851,9 @@ AMOS_HOMEOSTASIS_CANON_GUARD:
     NEVER_INVENT_CANON
 ```
 
----
+______________________________________________________________________
 
-# Part XXIII — Obsidian Navigation
+## Part XXIII — Obsidian Navigation
 
 ## 128. Obsidian Navigation
 
@@ -4882,9 +4890,9 @@ AMOS_HOMEOSTASIS_CANON_GUARD:
 - [[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]]
 - [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]
 
----
+______________________________________________________________________
 
-# Part XXIV — RSCF Node
+## Part XXIV — RSCF Node
 
 ## 129. RSCF Node
 
@@ -5007,9 +5015,9 @@ RSCF-NODE:
     - TARGET_VALIDATED_BY: ""
 ```
 
----
+______________________________________________________________________
 
-# Part XXV — Final Integrity Rule
+## Part XXV — Final Integrity Rule
 
 ## 130. Final Integrity Rule
 
@@ -5167,13 +5175,13 @@ EXECUTE REQUIRED RECEIPTS
 PROMOTE ONLY AFTER VALIDATION
 ```
 
----
+______________________________________________________________________
 
 **MOC:** [[01_CANON/03_COGNITION_CANON/03_COGNITION_CANON_MOC|03_COGNITION_CANON_MOC]]
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[01_CANON/03_COGNITION_CANON/AMOS_COGNITION_CANON|AMOS_COGNITION_CANON]] · [[01_CANON/03_COGNITION_CANON/AMOS_COGNITION_MASTER_CANON|AMOS_COGNITION_MASTER_CANON]] · [[01_CANON/03_COGNITION_CANON/AMOS_COGNITIVE_FIELD_CANON|AMOS_COGNITIVE_FIELD_CANON]] · [[01_CANON/03_COGNITION_CANON/AMOS_CONSCIOUSNESS_CANON|AMOS_CONSCIOUSNESS_CANON]] · [[01_CANON/03_COGNITION_CANON/AMOS_FULL_BRAIN_OS_CANON|AMOS_FULL_BRAIN_OS_CANON]] · [[01_CANON/03_COGNITION_CANON/AMOS_FULL_BRAIN_OS_MASTER_CANON|AMOS_FULL_BRAIN_OS_MASTER_CANON]]
 
----
+______________________________________________________________________
 
 **Origin Architect / Steward:** Trang Phan
 **System:** AMOS OS
@@ -5184,4 +5192,3 @@ PROMOTE ONLY AFTER VALIDATION
 **Executable Binding:** `NOT_ESTABLISHED`
 
 #amos_os #amos_homeostasis #amos_homeostasis_canon #homeostasis #cognition #cognition_canon #regulation #stability #adaptive_regulation #canon #rscf #provenance #lineage #scope #regime #temporal_validity #causal_firewall #validation #competing_hypotheses #unknown_gap #never_invent_canon
-

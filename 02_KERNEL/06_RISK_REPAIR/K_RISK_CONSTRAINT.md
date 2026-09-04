@@ -15,40 +15,40 @@ kernel_family: GOVERNED_DECISION
 scope: AMOS_OS
 updated: 2026-08-26
 tags:
-- amos-os
-- kernel
-- core
-- kernel/risk
-- kernel/constraint
-- kernel/governance
-- kernel/invariants
-- kernel/uncertainty
-- kernel/repair
-- kernel/causal
-- kernel/provenance
-- topic/risk-envelope
-- topic/irreversibility
-- topic/action-governance
-- canon/kernel
-- k-repair-priority
-- k-repair-harm
-- k-homeostasis
-- k-causal-closure
-- k-system-state
-- k-context-state
-- k-event-bus
-- readme
-- amos-core-laws
-- law-hierarchy
-- canon-provenance
-- k-core19-logic
-- k-meta-logic
-- k-structural-reasoning
-- k-causal-epoch
-- k-collapse-recovery
-- k-memory-admission
-- k-memory-conflict
-- k-memory-immune
+  - amos-os
+  - kernel
+  - core
+  - kernel/risk
+  - kernel/constraint
+  - kernel/governance
+  - kernel/invariants
+  - kernel/uncertainty
+  - kernel/repair
+  - kernel/causal
+  - kernel/provenance
+  - topic/risk-envelope
+  - topic/irreversibility
+  - topic/action-governance
+  - canon/kernel
+  - k-repair-priority
+  - k-repair-harm
+  - k-homeostasis
+  - k-causal-closure
+  - k-system-state
+  - k-context-state
+  - k-event-bus
+  - readme
+  - amos-core-laws
+  - law-hierarchy
+  - canon-provenance
+  - k-core19-logic
+  - k-meta-logic
+  - k-structural-reasoning
+  - k-causal-epoch
+  - k-collapse-recovery
+  - k-memory-admission
+  - k-memory-conflict
+  - k-memory-immune
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -118,7 +118,7 @@ PROPOSED ACTION
      UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
 ## 1. Hard Distinctions
 
@@ -146,7 +146,7 @@ REVERSIBLE != HARMLESS
 ROLLBACK EXISTS != ROLLBACK WORKS
 ```
 
----
+______________________________________________________________________
 
 ## 2. Core Risk Object
 
@@ -209,7 +209,7 @@ UNKNOWN/GAP
 
 They must not silently become zero.
 
----
+______________________________________________________________________
 
 ## 3. Risk Is Typed
 
@@ -252,7 +252,7 @@ FORCED_SINGLE_SCORE
 
 when scalarization would hide decision-relevant structure.
 
----
+______________________________________________________________________
 
 ## 4. Risk Constraint Law
 
@@ -291,7 +291,7 @@ ESCALATE
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
 ## 5. Hard vs Soft Constraints
 
@@ -333,7 +333,7 @@ OVERRIDE
 HARD INTEGRITY CONSTRAINT
 ```
 
----
+______________________________________________________________________
 
 ## 6. Constraint Precedence
 
@@ -361,7 +361,7 @@ This does not replace the canonical `LAW_HIERARCHY`.
 
 It expresses the risk subsystem's dependency on it.
 
----
+______________________________________________________________________
 
 ## 7. Risk Envelope
 
@@ -388,7 +388,7 @@ risk_envelope:
 
 A risk decision outside its envelope is not automatically reusable.
 
----
+______________________________________________________________________
 
 ## 8. Scope Firewall
 
@@ -418,7 +418,7 @@ SAFE_IN_SCOPE
 UNIVERSALLY_SAFE
 ```
 
----
+______________________________________________________________________
 
 ## 9. Regime Firewall
 
@@ -438,7 +438,7 @@ TEST_DATA → AUTHORITATIVE_STATE
 
 A previously acceptable action can become unacceptable without the action itself changing.
 
----
+______________________________________________________________________
 
 ## 10. Temporal Firewall
 
@@ -468,7 +468,7 @@ RECOVERY CONDITIONS
 
 have materially changed.
 
----
+______________________________________________________________________
 
 ## 11. Risk and Uncertainty
 
@@ -496,7 +496,7 @@ BE TREATED AS
 LOW RISK
 ```
 
----
+______________________________________________________________________
 
 ## 12. Uncertainty Vector
 
@@ -515,7 +515,7 @@ uncertainty:
 
 The system should spend reasoning where reducing uncertainty can change the decision.
 
----
+______________________________________________________________________
 
 ## 13. Evidence Constraint
 
@@ -547,7 +547,7 @@ ALL OPERATING REGIMES SAFE
 
 unless the evidence actually covers them.
 
----
+______________________________________________________________________
 
 ## 14. Provenance Constraint
 
@@ -571,7 +571,7 @@ do not constitute three independent confirmations.
 
 Correlation risk must be preserved.
 
----
+______________________________________________________________________
 
 ## 15. Confidence Ceiling
 
@@ -593,7 +593,7 @@ MIN(
 
 A weak load-bearing premise caps the conclusion.
 
----
+______________________________________________________________________
 
 ## 16. Causal Firewall
 
@@ -616,7 +616,7 @@ A structural resemblance between a proposed action and a prior incident does not
 
 Likewise, absence of structural resemblance does not prove safety.
 
----
+______________________________________________________________________
 
 ## 17. Hazard Paths
 
@@ -644,7 +644,7 @@ CONDITIONAL
 
 is preferable to false causal certainty.
 
----
+______________________________________________________________________
 
 ## 18. Necessary vs Sufficient Risk Conditions
 
@@ -666,7 +666,7 @@ But if `C` is only correlated with `H`, removing `C` does not prove risk removal
 
 Risk controls require correct causal typing.
 
----
+______________________________________________________________________
 
 ## 19. Blast Radius
 
@@ -695,7 +695,7 @@ HUMAN / INSTITUTIONAL EFFECTS
 
 Unknown blast radius is itself decision-relevant.
 
----
+______________________________________________________________________
 
 ## 20. Propagation Risk
 
@@ -714,7 +714,7 @@ CROSS-RSCF CONTAMINATION
 
 A small initial error may therefore be high risk.
 
----
+______________________________________________________________________
 
 ## 21. Irreversibility
 
@@ -737,7 +737,7 @@ GREATER IRREVERSIBILITY
 → GREATER VALIDATION REQUIREMENT
 ```
 
----
+______________________________________________________________________
 
 ## 22. Reversibility Bias
 
@@ -755,7 +755,7 @@ This is not absolute.
 
 An irreversible action may be necessary to prevent greater irreversible harm.
 
----
+______________________________________________________________________
 
 ## 23. Recovery Constraint
 
@@ -782,7 +782,7 @@ ROLLBACK DEFINED
 RECOVERY VALIDATED
 ```
 
----
+______________________________________________________________________
 
 ## 24. Recovery Option Preservation
 
@@ -800,7 +800,7 @@ DESTROY UNIQUE DIAGNOSTIC EVIDENCE
 
 Such actions require heightened constraint.
 
----
+______________________________________________________________________
 
 ## 25. Repair Risk
 
@@ -829,7 +829,7 @@ K_RISK_CONSTRAINT
 → IS THE ACTION WITHIN THE GOVERNED RISK ENVELOPE?
 ```
 
----
+______________________________________________________________________
 
 ## 26. Containment Constraint
 
@@ -847,7 +847,7 @@ DELAY CREATES GREATER EXPECTED IRREVERSIBLE LOSS
 
 But containment must still respect non-negotiable authority and safety constraints.
 
----
+______________________________________________________________________
 
 ## 27. Minimum Sufficient Intervention
 
@@ -877,7 +877,7 @@ P1 + P2 + P3 + ALL DESCENDANTS
 
 without justification.
 
----
+______________________________________________________________________
 
 ## 28. Least Blast Radius
 
@@ -890,7 +890,7 @@ A2 → LOCAL CONTAINED MUTATION
 
 prefer `A2` when it achieves the objective without introducing new load-bearing risk.
 
----
+______________________________________________________________________
 
 ## 29. Staged Action
 
@@ -923,7 +923,7 @@ ROLLBACK
 STOP CONDITIONS
 ```
 
----
+______________________________________________________________________
 
 ## 30. Risk Budget
 
@@ -949,7 +949,7 @@ ENOUGH BENEFIT
 
 cannot buy permission to violate a non-negotiable invariant.
 
----
+______________________________________________________________________
 
 ## 31. Cumulative Risk
 
@@ -975,7 +975,7 @@ may exceed the sum of naïvely independent estimates.
 
 Dependencies and common-mode failure matter.
 
----
+______________________________________________________________________
 
 ## 32. Correlated Risk
 
@@ -991,7 +991,7 @@ Treating them as independent underestimates risk.
 
 Common ancestry and shared state must be included.
 
----
+______________________________________________________________________
 
 ## 33. Tail Risk
 
@@ -1016,7 +1016,7 @@ OR REJECT
 
 depending on evidence and authority.
 
----
+______________________________________________________________________
 
 ## 34. Unknown Tail Risk
 
@@ -1030,7 +1030,7 @@ must remain visible.
 
 Do not manufacture precise probabilities.
 
----
+______________________________________________________________________
 
 ## 35. Model Risk
 
@@ -1049,7 +1049,7 @@ DEPENDENCIES
 
 A model cannot authorize its own applicability.
 
----
+______________________________________________________________________
 
 ## 36. Measurement Risk
 
@@ -1081,7 +1081,7 @@ CRITICAL SUBGROUP FAILURE
 
 Therefore risk evaluation must use measurements appropriate to the actual hazard.
 
----
+______________________________________________________________________
 
 ## 37. Proxy Risk
 
@@ -1099,7 +1099,7 @@ LOW SAFETY RISK
 
 if rare errors carry asymmetric harm.
 
----
+______________________________________________________________________
 
 ## 38. Optimization Firewall
 
@@ -1115,7 +1115,7 @@ BETTER BENCHMARK
 
 are invalid improvements if they violate a hard risk constraint.
 
----
+______________________________________________________________________
 
 ## 39. Authority Constraint
 
@@ -1138,7 +1138,7 @@ RISK ANALYSIS
 RISK ACCEPTANCE AUTHORITY
 ```
 
----
+______________________________________________________________________
 
 ## 40. Policy Boundary
 
@@ -1170,7 +1170,7 @@ CONTROL_PLANE
 RUNTIME
 ```
 
----
+______________________________________________________________________
 
 ## 41. Capability Boundary
 
@@ -1192,7 +1192,7 @@ or:
 A IS AUTHORIZED
 ```
 
----
+______________________________________________________________________
 
 ## 42. External Effect Constraint
 
@@ -1211,7 +1211,7 @@ ROLLBACK
 
 Internal reasoning confidence alone is insufficient.
 
----
+______________________________________________________________________
 
 ## 43. Persistent-State Constraint
 
@@ -1229,7 +1229,7 @@ COMMIT
 
 Risk should generally increase across this boundary as persistence and downstream dependency increase.
 
----
+______________________________________________________________________
 
 ## 44. Canon Mutation Constraint
 
@@ -1249,7 +1249,7 @@ ROLLBACK / RECOVERY PLAN
 
 File existence is not promotion.
 
----
+______________________________________________________________________
 
 ## 45. Memory Admission Constraint
 
@@ -1270,7 +1270,7 @@ RETRIEVAL IMPACT
 
 A fluent statement is not safe memory merely because it is useful.
 
----
+______________________________________________________________________
 
 ## 46. Multi-RSCF Risk
 
@@ -1295,7 +1295,7 @@ RECOVERY
 
 A locally valid action can be globally unsafe if atomic reasoning dependencies are ignored.
 
----
+______________________________________________________________________
 
 ## 47. Atomicity Constraint
 
@@ -1319,7 +1319,7 @@ ANY INVALID
 
 subject to the relevant control-plane contract.
 
----
+______________________________________________________________________
 
 ## 48. MVCC / CAS Constraint
 
@@ -1349,7 +1349,7 @@ STALE VALIDATION
 CURRENT VALIDATION
 ```
 
----
+______________________________________________________________________
 
 ## 49. Causal Epoch Constraint
 
@@ -1364,7 +1364,7 @@ risk analysis depending on `CE17` may be stale.
 
 High-impact actions should not commit against an invalid causal epoch.
 
----
+______________________________________________________________________
 
 ## 50. Finality Constraint
 
@@ -1386,7 +1386,7 @@ UNCERTAINTY
 
 This is a qualitative relationship, not a universal empirical equation.
 
----
+______________________________________________________________________
 
 ## 51. Adversarial Validation
 
@@ -1418,7 +1418,7 @@ OR
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
 ## 52. Sensitivity Test
 
@@ -1446,7 +1446,7 @@ Fragile decisions should be:
 CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
 ## 53. Competing Risk Models
 
@@ -1473,7 +1473,7 @@ AVERAGE(A,B) → ACCEPTABLE
 
 Seek discriminating evidence.
 
----
+______________________________________________________________________
 
 ## 54. Safe Default Under Critical Gap
 
@@ -1489,7 +1489,7 @@ ESCALATE IF REQUIRED
 
 rather than pretending the gap is resolved.
 
----
+______________________________________________________________________
 
 ## 55. Fail-Closed vs Fail-Open
 
@@ -1507,7 +1507,7 @@ NONCRITICAL READ CACHE UNAVAILABLE
 
 No universal fail-closed rule should be applied outside its scope.
 
----
+______________________________________________________________________
 
 ## 56. Risk Decision Classes
 
@@ -1526,7 +1526,7 @@ RCC — COMPETING
 
 These are model-level decision classes until formally adopted into canon.
 
----
+______________________________________________________________________
 
 ## 57. RC0 — Prohibited
 
@@ -1537,7 +1537,7 @@ ACTION
 → BLOCK
 ```
 
----
+______________________________________________________________________
 
 ## 58. RC1 — Escalation Required
 
@@ -1552,7 +1552,7 @@ GOVERNANCE IMPACT IS MATERIAL
 
 or policy explicitly requires escalation.
 
----
+______________________________________________________________________
 
 ## 59. RC2 — Contain / Stabilize Only
 
@@ -1565,7 +1565,7 @@ CONTAIN
 → REASSESS
 ```
 
----
+______________________________________________________________________
 
 ## 60. RC3 — Staged / Limited Action
 
@@ -1582,7 +1582,7 @@ LIMITED AUTHORITY
 
 with observable stop conditions.
 
----
+______________________________________________________________________
 
 ## 61. RC4 — Conditionally Allowed
 
@@ -1601,7 +1601,7 @@ ONLY IF:
 
 Failure of any load-bearing condition invalidates the allowance.
 
----
+______________________________________________________________________
 
 ## 62. RC5 — Allowed Within Envelope
 
@@ -1620,7 +1620,7 @@ within the specified envelope.
 
 This is not universal permission.
 
----
+______________________________________________________________________
 
 ## 63. RCX — Unknown/Gap
 
@@ -1636,7 +1636,7 @@ must not be silently transformed into:
 ACCEPTABLE
 ```
 
----
+______________________________________________________________________
 
 ## 64. RCC — Competing
 
@@ -1644,7 +1644,7 @@ Use when incompatible risk assessments remain genuinely supported.
 
 Preserve the disagreement until discriminating evidence exists.
 
----
+______________________________________________________________________
 
 ## 65. Decision Gate
 
@@ -1688,7 +1688,7 @@ RESIDUAL RISK WITHIN AUTHORIZED ENVELOPE?
 └── YES → RC5
 ```
 
----
+______________________________________________________________________
 
 ## 66. Risk Constraint Invariants
 
@@ -1784,7 +1784,7 @@ KRC-30
 UNKNOWN/GAP MUST NOT PASS AS VALIDATED SAFETY
 ```
 
----
+______________________________________________________________________
 
 ## 67. Required Tests
 
@@ -1830,7 +1830,7 @@ COMPETING-RISK TEST
 UNKNOWN-GAP TEST
 ```
 
----
+______________________________________________________________________
 
 ## 68. Negative Tests
 
@@ -1916,7 +1916,7 @@ UNKNOWN/GAP
 MUST FAIL
 ```
 
----
+______________________________________________________________________
 
 ## 69. Failure Modes
 
@@ -1947,7 +1947,7 @@ PREMATURE RISK CONVERGENCE
 AUTHORITY BYPASS
 ```
 
----
+______________________________________________________________________
 
 ## 70. Recovery Semantics
 
@@ -1979,7 +1979,7 @@ RESUME ONLY THROUGH AUTHORIZED PATH
 
 Do not invalidate unrelated valid state merely because one action failed.
 
----
+______________________________________________________________________
 
 ## 71. Interaction with [[02_KERNEL/06_RISK_REPAIR/K_REPAIR_PRIORITY|K_REPAIR_PRIORITY]]
 
@@ -2013,7 +2013,7 @@ HIGH PRIORITY
 UNCONSTRAINED EXECUTION
 ```
 
----
+______________________________________________________________________
 
 ## 72. Interaction with [[02_KERNEL/06_RISK_REPAIR/K_REPAIR_HARM|K_REPAIR_HARM]]
 
@@ -2029,7 +2029,7 @@ ACTION_RISK CONTEXT
 
 conceptually, without collapsing the two kernel contracts.
 
----
+______________________________________________________________________
 
 ## 73. Interaction with [[02_KERNEL/06_RISK_REPAIR/K_HOMEOSTASIS|K_HOMEOSTASIS]]
 
@@ -2044,7 +2044,7 @@ K_REPAIR_PRIORITY
 → WHICH PERMISSIBLE / NECESSARY REPAIR SHOULD BE ADDRESSED FIRST?
 ```
 
----
+______________________________________________________________________
 
 ## 74. Interaction with [[02_KERNEL/03_CAUSAL/K_CAUSAL_CLOSURE|K_CAUSAL_CLOSURE]]
 
@@ -2072,7 +2072,7 @@ UNKNOWN/GAP
 
 should remain available.
 
----
+______________________________________________________________________
 
 ## 75. Interaction with [[02_KERNEL/04_STATE/K_SYSTEM_STATE|K_SYSTEM_STATE]]
 
@@ -2090,7 +2090,7 @@ RISK(A | S18)
 
 Therefore material state changes can invalidate previous action permission.
 
----
+______________________________________________________________________
 
 ## 76. Interaction with [[02_KERNEL/04_STATE/K_CONTEXT_STATE|K_CONTEXT_STATE]]
 
@@ -2109,7 +2109,7 @@ VALIDATION
 PROVENANCE
 ```
 
----
+______________________________________________________________________
 
 ## 77. Interaction with [[02_KERNEL/04_STATE/K_EVENT_BUS|K_EVENT_BUS]]
 
@@ -2130,7 +2130,7 @@ ACTION_CONDITIONALLY_ALLOWED
 
 Event publication itself does not imply policy enforcement unless runtime/control-plane wiring exists.
 
----
+______________________________________________________________________
 
 ## 78. Proof Capsule
 
@@ -2164,7 +2164,7 @@ risk_constraint_proof:
   decision_class:
 ```
 
----
+______________________________________________________________________
 
 ## 79. Promotion Gate
 
@@ -2215,7 +2215,7 @@ FORMAL_RISK_BOUND_PROOF = UNKNOWN/GAP
 EMPIRICAL_VALIDATION = UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
 ## 80. RSCF Node
 
@@ -2262,7 +2262,7 @@ RSCF-RELATIONS:
   - OPERATED_BY: README
 ```
 
----
+______________________________________________________________________
 
 ## 81. Canonical Risk-Constraint Summary
 
@@ -2530,13 +2530,14 @@ README
 **Classification note:** this is substantive replacement content for the placeholder at `02_KERNEL/K_RISK_CONSTRAINT.md`, classified as **AMOS_MODEL**. It defines the proposed kernel contract but does **not** establish implementation, runtime enforcement, empirical validation, formal proof, or final-canon promotion. Those remain `UNKNOWN/GAP` pending provenance, conflict resolution, implementation evidence, tests, and explicit promotion.
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
-**MOC:** [[02_KERNEL/06_RISK_REPAIR/06_RISK_REPAIR_MOC|06_RISK_REPAIR_MOC]]
+______________________________________________________________________
 
+**MOC:** [[02_KERNEL/06_RISK_REPAIR/06_RISK_REPAIR_MOC|06_RISK_REPAIR_MOC]]

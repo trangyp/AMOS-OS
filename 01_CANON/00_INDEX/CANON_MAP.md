@@ -3,8 +3,7 @@ type: canon
 source: 01_CANON/00_INDEX
 artifact_id: AMOS-OS-CANON-MAP
 name: AMOS_OS_CANON_MAP
-title: AMOS OS Canon Map — Canonical Authority, Lineage, Provenance, and Promotion
-  Topology
+title: AMOS OS Canon Map — Canonical Authority, Lineage, Provenance, and Promotion Topology
 document_version: 2.0.0
 map_version: 1.0.0
 amos_core_target: v4.4
@@ -18,48 +17,47 @@ steward: Trang Phan
 created: 2026-08-25
 updated: 2026-08-25
 scope:
-- AMOS_OS - canon - canonical_authority - canon_lineage - provenance - supersession
-  - pr
+  - AMOS_OS - canon - canonical_authority - canon_lineage - provenance - supersession - pr
 tags:
-- amos
-- canon
-- universe
-- amos-os
-- canonical-authority
-- canonical-lineage
-- source-of-truth
-- provenance
-- provenance-topology
-- supersession
-- promotion
-- demotion
-- deprecation
-- lineage
-- rscf
-- epistemic-regime
-- competing-hypotheses
-- dependency-closure
-- governance
-- integrity
-- amos-core
-- amos-core-v4-4
-- canon-group/tech-ai
-- canon/map
-- rscf/claim
-- rscf/provenance
-- rscf/state/derived
-- topic/amos-os
-- topic/canon
-- topic/canonical-authority
-- readme
-- architecture
-- authoritative-state
-- placement-rules
-- amos-full-brain-os-architecture
-- operating-model
-- amos-layer-maps
+  - amos
+  - canon
+  - universe
+  - amos-os
+  - canonical-authority
+  - canonical-lineage
+  - source-of-truth
+  - provenance
+  - provenance-topology
+  - supersession
+  - promotion
+  - demotion
+  - deprecation
+  - lineage
+  - rscf
+  - epistemic-regime
+  - competing-hypotheses
+  - dependency-closure
+  - governance
+  - integrity
+  - amos-core
+  - amos-core-v4-4
+  - canon-group/tech-ai
+  - canon/map
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/derived
+  - topic/amos-os
+  - topic/canon
+  - topic/canonical-authority
+  - readme
+  - architecture
+  - authoritative-state
+  - placement-rules
+  - amos-full-brain-os-architecture
+  - operating-model
+  - amos-layer-maps
 aliases:
-- AMOS Canon Map - AMOS OS Canon Map - Canon Authority Map - Canon Lineage Map
+  - AMOS Canon Map - AMOS OS Canon Map - Canon Authority Map - Canon Lineage Map
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -68,18 +66,21 @@ rscf:
 ---
 
 # AMOS OS Canon Map
+
 **Origin architect / steward:** Trang Phan
+
 > **Status:** `ACTIVE_MAP`
 > **AMOS_CORE target:** `v4.4`
 > **Conclusion class:** `AMOS_MODEL`
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: index_navigation
----
+> rscf:
+> state: DERIVED
+> claim_class: DERIVED
+> provenance: AMOS_corpus
+> scope: index_navigation
 
-# AMOS OS Canon Map — Canonical Authority, Lineage, Provenance, and Promotion Topology
+______________________________________________________________________
+
+## AMOS OS Canon Map — Canonical Authority, Lineage, Provenance, and Promotion Topology
 
 ## 0. Purpose
 
@@ -119,7 +120,7 @@ CANONICALLY VALIDATED
 
 Canonical status requires explicit provenance and governance state.
 
----
+______________________________________________________________________
 
 ## 1. Canon Plane Role
 
@@ -156,7 +157,7 @@ Canon constrains downstream interpretation.
 
 Canon does not execute runtime behavior.
 
----
+______________________________________________________________________
 
 ## 2. Canon Authority Boundary
 
@@ -184,7 +185,7 @@ CANON != RESEARCH
 CANON != EMPIRICAL PROOF
 ```
 
----
+______________________________________________________________________
 
 ## 3. Canonical Authority Model
 
@@ -234,7 +235,7 @@ MEMORY
 CANON
 ```
 
----
+______________________________________________________________________
 
 ## 4. Canon Conclusion Classes
 
@@ -265,7 +266,7 @@ CANONICAL MODEL
 VERIFIED EMPIRICAL CLAIM
 ```
 
----
+______________________________________________________________________
 
 ## 5. Evidence Types
 
@@ -302,7 +303,7 @@ depending on context.
 
 It does not automatically establish causation.
 
----
+______________________________________________________________________
 
 ## 6. Canonical Provenance
 
@@ -328,7 +329,7 @@ CLAIM
 
 Where hashes or revision IDs exist, they may be retained as lineage anchors.
 
----
+______________________________________________________________________
 
 ## 7. Provenance Topology
 
@@ -361,7 +362,7 @@ REPETITION
 INDEPENDENCE
 ```
 
----
+______________________________________________________________________
 
 ## 8. Canonical Independence
 
@@ -386,7 +387,7 @@ PROVENANCE_INDEPENDENCE
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
 ## 9. Canon Dependency Model
 
@@ -420,7 +421,7 @@ INVALIDATE ALL CANON
 
 This preserves unaffected canonical work.
 
----
+______________________________________________________________________
 
 ## 10. Dependency Closure
 
@@ -442,7 +443,7 @@ The smallest sufficient closure should be examined.
 
 Do not recursively load unrelated canon merely because it exists.
 
----
+______________________________________________________________________
 
 ## 11. Confidence Ceiling
 
@@ -465,7 +466,7 @@ unless additional independent evidence changes the support structure.
 
 This prevents downstream certainty inflation.
 
----
+______________________________________________________________________
 
 ## 12. Scope Firewall
 
@@ -492,7 +493,7 @@ VALID_IN_SCOPE_A
 VALID_IN_ALL_SCOPES
 ```
 
----
+______________________________________________________________________
 
 ## 13. Regime Firewall
 
@@ -522,7 +523,7 @@ VALID NOW
 
 unless regime compatibility remains established.
 
----
+______________________________________________________________________
 
 ## 14. Freshness Boundary
 
@@ -542,7 +543,7 @@ UNKNOWN
 
 A stale load-bearing premise should trigger revalidation where the conclusion depends on freshness.
 
----
+______________________________________________________________________
 
 ## 15. Causal Firewall
 
@@ -587,7 +588,7 @@ CAUSATION
 
 Cross-domain mappings remain `MODEL` unless independently validated.
 
----
+______________________________________________________________________
 
 ## 16. Competing Hypotheses
 
@@ -619,7 +620,7 @@ COMPETING
 
 rather than selecting an unsupported winner.
 
----
+______________________________________________________________________
 
 ## 17. Discriminating Evidence
 
@@ -638,7 +639,7 @@ TEST
 
 over repeated accumulation of evidence that supports every hypothesis equally.
 
----
+______________________________________________________________________
 
 ## 18. Canon Promotion Pipeline
 
@@ -672,7 +673,7 @@ This pipeline may be compressed where sufficient proof already exists.
 
 Integrity requirements may not be skipped.
 
----
+______________________________________________________________________
 
 ## 19. Canon Promotion States
 
@@ -695,7 +696,7 @@ ARCHIVED
 
 These are lifecycle states, not necessarily conclusion classes.
 
----
+______________________________________________________________________
 
 ## 20. Canon Admission Gate
 
@@ -715,7 +716,7 @@ stored in the canon directory
 
 Admission should depend on the relevant governance and evidence requirements.
 
----
+______________________________________________________________________
 
 ## 21. Canon Supersession
 
@@ -744,7 +745,7 @@ effective date
 
 where available.
 
----
+______________________________________________________________________
 
 ## 22. Supersession Is Not Deletion
 
@@ -766,7 +767,7 @@ causal lineage
 
 Superseded artifacts should normally move toward historical/archive status rather than disappear.
 
----
+______________________________________________________________________
 
 ## 23. Version Identity Firewall
 
@@ -800,7 +801,7 @@ NEW FILENAME
 NEW SEMANTIC IDENTITY
 ```
 
----
+______________________________________________________________________
 
 ## 24. AMOS_CORE Lineage
 
@@ -857,7 +858,7 @@ These are AMOS reasoning/architecture patterns.
 
 They should not be represented as claims that a conversational model literally implements source-code distributed mechanisms.
 
----
+______________________________________________________________________
 
 ## 25. v4.4 Canon Fast Path
 
@@ -892,7 +893,7 @@ Otherwise:
 ESCALATE
 ```
 
----
+______________________________________________________________________
 
 ## 26. Mandatory Escalation Conditions
 
@@ -911,7 +912,7 @@ has ambiguous dependencies
 
 Speed must not weaken integrity.
 
----
+______________________________________________________________________
 
 ## 27. Adversarial Validation
 
@@ -941,7 +942,7 @@ RETURN UNKNOWN/GAP
 
 Do not defend the original conclusion merely because it was generated first.
 
----
+______________________________________________________________________
 
 ## 28. Sensitivity
 
@@ -965,7 +966,7 @@ CONDITIONAL
 
 Robust results should survive plausible perturbations of noncritical assumptions.
 
----
+______________________________________________________________________
 
 ## 29. Gap Classification
 
@@ -1000,7 +1001,7 @@ UNKNOWN/GAP
 
 for the affected dependency.
 
----
+______________________________________________________________________
 
 ## 30. Canon Conflict Model
 
@@ -1021,7 +1022,7 @@ Conflict should be classified before resolution.
 
 Not all differing statements are contradictions.
 
----
+______________________________________________________________________
 
 ## 31. Canon Conflict Resolution
 
@@ -1049,7 +1050,7 @@ RESOLVE OR PRESERVE COMPETING
 
 Never erase a genuine contradiction merely to make the canon appear internally smooth.
 
----
+______________________________________________________________________
 
 ## 32. Canon Invalidations
 
@@ -1075,7 +1076,7 @@ GLOBAL RECOMPUTATION
 
 where correctness is preserved.
 
----
+______________________________________________________________________
 
 ## 33. Canon Rollback
 
@@ -1097,7 +1098,7 @@ REOPEN PROMOTION PATH
 
 Rollback must not erase evidence that the invalid promotion occurred.
 
----
+______________________________________________________________________
 
 ## 34. Canon Repairability
 
@@ -1114,7 +1115,7 @@ over irreversible canonical mutation.
 
 This is especially important where downstream dependency breadth is large.
 
----
+______________________________________________________________________
 
 ## 35. Canon and Knowledge
 
@@ -1147,7 +1148,7 @@ validated knowledge
 
 Canon is the governed authoritative subset.
 
----
+______________________________________________________________________
 
 ## 36. Canon and Research
 
@@ -1177,7 +1178,7 @@ CANON
 
 without promotion governance.
 
----
+______________________________________________________________________
 
 ## 37. Canon and Memory
 
@@ -1201,7 +1202,7 @@ UNVALIDATED MEMORY
 
 subject to provenance and version verification.
 
----
+______________________________________________________________________
 
 ## 38. Canon and Kernel
 
@@ -1225,7 +1226,7 @@ CANON DEFINITION
 
 Implementation behavior does not silently rewrite canon.
 
----
+______________________________________________________________________
 
 ## 39. Canon and Control Plane
 
@@ -1249,7 +1250,7 @@ CANON CONTENT
 
 Governance machinery and governed definitions remain distinct.
 
----
+______________________________________________________________________
 
 ## 40. Canon and Runtime
 
@@ -1275,7 +1276,7 @@ explicitly governed exception
 
 not automatic canon evolution.
 
----
+______________________________________________________________________
 
 ## 41. Canon and Models
 
@@ -1297,7 +1298,7 @@ That does not imply:
 
 > Every prediction produced by the model is verified.
 
----
+______________________________________________________________________
 
 ## 42. Canon and State
 
@@ -1325,7 +1326,7 @@ STATE:
 
 These belong to different planes.
 
----
+______________________________________________________________________
 
 ## 43. Canon and Schemas
 
@@ -1343,7 +1344,7 @@ unless explicitly admitted as a canonical contract.
 
 Schema validation proves structural conformity only.
 
----
+______________________________________________________________________
 
 ## 44. Canon and Tests
 
@@ -1367,7 +1368,7 @@ UNIVERSAL VALIDITY
 
 Test evidence remains bounded by its test environment and scope.
 
----
+______________________________________________________________________
 
 ## 45. Canon and Archive
 
@@ -1389,7 +1390,7 @@ ARCHIVE
 
 References from active systems should resolve to the active canonical version unless historical reconstruction is explicitly intended.
 
----
+______________________________________________________________________
 
 ## 46. Canon and Operating Model
 
@@ -1411,7 +1412,7 @@ AUTHORITY TO APPROVE CANON
 CANON CLAIM ITSELF
 ```
 
----
+______________________________________________________________________
 
 ## 47. Canon Artifact Minimum Contract
 
@@ -1444,7 +1445,7 @@ falsifiers
 confidence ceiling
 ```
 
----
+______________________________________________________________________
 
 ## 48. Canon RSCF Structure
 
@@ -1467,7 +1468,7 @@ CLAIM
 
 Reuse is valid only while required dependencies remain valid.
 
----
+______________________________________________________________________
 
 ## 49. Canon Source-of-Truth Rule
 
@@ -1497,7 +1498,7 @@ COPY
 NEW AUTHORITY
 ```
 
----
+______________________________________________________________________
 
 ## 50. Canon Reference Rule
 
@@ -1513,7 +1514,7 @@ IDENTITY
 
 Canonical references should be repairable across repository reorganizations.
 
----
+______________________________________________________________________
 
 ## 51. Canon Naming Boundary
 
@@ -1544,7 +1545,7 @@ when the artifact represents the continuously governed canonical identity.
 
 Historical versions may be retained separately through governed lineage/archive mechanisms.
 
----
+______________________________________________________________________
 
 ## 52. Canon Promotion Receipt
 
@@ -1565,7 +1566,7 @@ rollback reference
 
 The exact implementation remains dependent on control-plane design.
 
----
+______________________________________________________________________
 
 ## 53. Canon Change Classes
 
@@ -1589,7 +1590,7 @@ RETRACTION
 
 Not every textual edit is a semantic canon change.
 
----
+______________________________________________________________________
 
 ## 54. Canon Breaking Change
 
@@ -1609,7 +1610,7 @@ MIGRATION / REVALIDATION
 
 Do not treat breaking changes as ordinary editorial updates.
 
----
+______________________________________________________________________
 
 ## 55. Canon Anti-Regression Gate
 
@@ -1628,7 +1629,7 @@ user fit
 
 Optimization must preserve or improve integrity.
 
----
+______________________________________________________________________
 
 ## 56. Canon Failure Classes
 
@@ -1659,7 +1660,7 @@ CN-F023 UNGOVERNED_BREAKING_CHANGE
 CN-F024 DEPENDENT_ARTIFACT_NOT_REVALIDATED
 ```
 
----
+______________________________________________________________________
 
 ## 57. Hard Canon Invariants
 
@@ -1705,7 +1706,7 @@ CN19 CANON EVOLUTION MUST PRESERVE PROVENANCE
 CN20 OPTIMIZATION MUST NOT WEAKEN INTEGRITY
 ```
 
----
+______________________________________________________________________
 
 ## 58. Canon Integrity Gate
 
@@ -1730,7 +1731,7 @@ UNKNOWN/GAP
 
 must remain visible.
 
----
+______________________________________________________________________
 
 ## 59. Canon Audit Checklist
 
@@ -1752,7 +1753,7 @@ must remain visible.
 [ ] historical lineage remains reconstructable
 ```
 
----
+______________________________________________________________________
 
 ## 60. Canon Map RSCF Node
 
@@ -1834,7 +1835,7 @@ confidence_ceiling:
   implementation_conformance: UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
 ## 61. Compact Canon Map
 
@@ -1876,7 +1877,7 @@ confidence_ceiling:
                            ARCHIVE
 ```
 
----
+______________________________________________________________________
 
 ## 62. Canon Lifecycle
 
@@ -1919,7 +1920,7 @@ INVALID PREMISE
 → DEPENDENT INVALIDATION
 ```
 
----
+______________________________________________________________________
 
 ## 63. Final Canon Law
 
@@ -1951,7 +1952,7 @@ The governing principle is:
 
 > **Canonical authority must remain explicit, provenance-aware, dependency-aware, scope-bounded, regime-aware, contradiction-preserving, and historically reconstructable. Canonical status must never be inferred merely from location, repetition, implementation, memory, or fluency.**
 
----
+______________________________________________________________________
 
 ## 64. Changelog
 
@@ -2000,34 +2001,40 @@ EMPIRICAL VALIDATION
 FINAL CANON
 ```
 
----
+______________________________________________________________________
 
 **Related:** README|AMOS OS · [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|MOC · [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]|Architecture · [[00_ROOT/SYSTEM_MAP|SYSTEM_MAP]]|System Map · [[00_ROOT/DEPENDENCY_MAP|DEPENDENCY_MAP]]|Dependency Map · [[00_ROOT/AUTHORITATIVE_STATE|AUTHORITATIVE_STATE]]|Authoritative State · [[00_ROOT/00_ROOT_NAMING_STANDARD|00_ROOT_NAMING_STANDARD]]|Naming Standard · [[00_ROOT/PLACEMENT_RULES|PLACEMENT_RULES]]|Placement Rules · CANON_MAP|Canon Map · [[02_KERNEL/00_INDEX/KERNEL_MAP|KERNEL_MAP]]|Kernel Map · [[03_CONTROL_PLANE/00_INDEX/CONTROL_PLANE_MAP|CONTROL_PLANE_MAP]]|Control Plane Map · [[11_KNOWLEDGE/AMOS_FULL_BRAIN_OS_ARCHITECTURE|Knowledge Architecture]] · [[22_RESEARCH/00_INDEX/INDEX_RESEARCH_README|INDEX_RESEARCH_README]]|Research · [[23_OPERATING_MODEL/00_INDEX/OPERATING_MODEL|OPERATING_MODEL]]|Operating Model · [[24_ARCHIVE/00_LEGACY/LEGACY_ARCHIVE_README|LEGACY_ARCHIVE_README]]|Archive
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: canon_map
 node_type: note
 path: 01_CANON/00_INDEX/CANON_MAP.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
+
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
 ## Related MOCs
 
 - [[00_ROOT/AMOS_LAYER_MAPS|AMOS_LAYER_MAPS]] — top-level AMOS layer map index
 - [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] — AMOS OS master map
 - [[00_ROOT/00_HOME|00_HOME]] — universal vault hub
 
----
+______________________________________________________________________
+
 **MOC:** [[01_CANON/00_INDEX/INDEX_CANON_README|INDEX_CANON_README]]
 
----
+______________________________________________________________________
+
 **MOC:** [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]]

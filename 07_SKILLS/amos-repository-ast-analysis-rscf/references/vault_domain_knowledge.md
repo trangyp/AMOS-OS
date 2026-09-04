@@ -1,21 +1,23 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Vault Domain Knowledge — Amos Repository Ast Analysis Rscf
 type: reference
 source: 07_SKILLS/amos-repository-ast-analysis-rscf/references
 tags:
-- reference
-- amos-repository-ast-analysis-rscf
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-repository-ast-analysis-rscf
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: CONDITIONAL
   claim_class: CONDITIONAL
   provenance: AMOS_corpus
   scope: skill_reference
 overclaim_risk: true
-overclaim_note: Contains language that may violate AMOS anti-overclaim principles;
-  classified as CONDITIONAL pending validation.
+overclaim_note: Contains language that may violate AMOS anti-overclaim principles; classified as CONDITIONAL pending validation.
 ---
 
 # Vault-Sourced Domain Knowledge
@@ -27,7 +29,8 @@ overclaim_note: Contains language that may violate AMOS anti-overclaim principle
 ## Vault-Sourced Content
 
 ### Source 1: V11
-- Planetary Consent Infrastructure_ Complete Technical Framework
+
+- Planetary Consent Infrastructure\_ Complete Technical Framework
 
 > Path: `tech-coding/V11 - Planetary Consent Infrastructure_ Complete Technical Framework.md` | Size: 33746 chars | Match score: 13
 
@@ -95,7 +98,6 @@ Financial Infrastructure Ecosystem: 11 actor types
 
 Governance and Standards Ecosystem: 11 actor types
 
-
 Biological and Environmental Ecosystem: 10 actor types
 
 Original Human-Digital Ecosystem: 14 actor types
@@ -124,7 +126,7 @@ with community consent for resource allocation
 
 5. Agricultural Infrastructure: Crop mo
 
----
+______________________________________________________________________
 
 ### Source 2: AMOS_EV_INFRASTRUCTURE_AGENTS_SUPER_ENGINE_vInfinity_X100k_GLOBAL_C_REFACTORED_v3
 
@@ -294,10 +296,9 @@ with community consent for resource allocation
 -
 ```
 
----
+______________________________________________________________________
 
-**Related:** [[07_SKILLS/amos-repository-ast-analysis-rscf/amos-repository-ast-analysis-rscf_MOC|amos-repository-ast-analysis-rscf_MOC]]
----
+## **Related:** [[07_SKILLS/amos-repository-ast-analysis-rscf/amos-repository-ast-analysis-rscf_MOC|amos-repository-ast-analysis-rscf_MOC]]
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -305,13 +306,14 @@ with community consent for resource allocation
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-repository-ast-analysis-rscf-vault-domain-knowledge
 node_type: reference
 path: 07_SKILLS/amos-repository-ast-analysis-rscf/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC
-

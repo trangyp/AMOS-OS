@@ -12,22 +12,22 @@ source: 01_CANON/02_UNIVERSE_CANON
 steward: Trang Phan
 system: AMOS OS
 tags:
-- amos-os
-- canon
-- universe_canon
-- governance
-- authority
-- policy
-- authorization
-- commit
-- capability
-- p5_plane
-- rscf
-- canon/universe
-- p1-reality-environment
-- p2-sense-evidence
-- p3-knowledge-memory
-- p4-cognition-models
+  - amos-os
+  - canon
+  - universe_canon
+  - governance
+  - authority
+  - policy
+  - authorization
+  - commit
+  - capability
+  - p5_plane
+  - rscf
+  - canon/universe
+  - p1-reality-environment
+  - p2-sense-evidence
+  - p3-knowledge-memory
+  - p4-cognition-models
 title: P5 GOVERNANCE AUTHORITY
 type: note
 version: 0.2.0
@@ -45,9 +45,9 @@ version: 0.2.0
 
 **External authority status:** `NOT ESTABLISHED BY THIS ARTIFACT`
 
----
+______________________________________________________________________
 
-# 1. Purpose
+## 1. Purpose
 
 `P5 Governance / Authority` defines how AMOS controls transitions from:
 
@@ -129,9 +129,9 @@ How are decisions superseded?
 How are failed governance states repaired?
 ```
 
----
+______________________________________________________________________
 
-# 2. Foundational Boundary
+## 2. Foundational Boundary
 
 Mandatory:
 
@@ -156,19 +156,22 @@ INTELLIGENCE
 !=
 AUTHORITY
 ```
+
 ```text
 CONFIDENCE
 !=
 AUTHORITY
 ```
+
 ```text
 RECOMMENDATION
 !=
 DECISION
 ```
----
 
-# 3. Governance Definition
+______________________________________________________________________
+
+## 3. Governance Definition
 
 Within AMOS:
 
@@ -189,9 +192,9 @@ or revoked.
 
 Governance specifies legitimate transition conditions.
 
----
+______________________________________________________________________
 
-# 4. Authority Definition
+## 4. Authority Definition
 
 Authority is:
 
@@ -220,9 +223,9 @@ revocable
 time-aware
 ```
 
----
+______________________________________________________________________
 
-# 5. Authority Is Relational
+## 5. Authority Is Relational
 
 Authority is not a universal property of an actor.
 
@@ -241,9 +244,9 @@ Authority(
 
 A person or agent may have authority over one object but none over another.
 
----
+______________________________________________________________________
 
-# 6. No Universal Authority Inference
+## 6. No Universal Authority Inference
 
 Mandatory:
 
@@ -253,9 +256,9 @@ AUTHORIZED_FOR_X
 AUTHORIZED_FOR_Y
 ```
 
----
+______________________________________________________________________
 
-# 7. Governance vs Authority
+## 7. Governance vs Authority
 
 Governance answers:
 
@@ -269,9 +272,9 @@ Authority answers:
 Who or what may act under those rules?
 ```
 
----
+______________________________________________________________________
 
-# 8. Governance vs Control Plane
+## 8. Governance vs Control Plane
 
 `08_GOVERNANCE` should own system-wide governance doctrine.
 
@@ -289,9 +292,9 @@ to:
 authorized state transition.
 ```
 
----
+______________________________________________________________________
 
-# 9. Decision vs Execution
+## 9. Decision vs Execution
 
 Mandatory:
 
@@ -305,9 +308,9 @@ A decision may authorize execution later.
 
 An executor may be different from the decision-maker.
 
----
+______________________________________________________________________
 
-# 10. Approval vs Commitment
+## 10. Approval vs Commitment
 
 ```text
 APPROVED
@@ -319,9 +322,9 @@ Approval means a transition is permitted.
 
 Commit means the governed state has actually changed.
 
----
+______________________________________________________________________
 
-# 11. Commit vs Success
+## 11. Commit vs Success
 
 ```text
 COMMITTED
@@ -335,9 +338,9 @@ A committed canon update may create inconsistency.
 
 Execution outcome must be observed separately.
 
----
+______________________________________________________________________
 
-# 12. Authority Object
+## 12. Authority Object
 
 Recommended:
 
@@ -383,9 +386,9 @@ authority:
   status: null
 ```
 
----
+______________________________________________________________________
 
-# 13. Governance Decision Object
+## 13. Governance Decision Object
 
 ```yaml
 governance_decision:
@@ -435,9 +438,9 @@ governance_decision:
   provenance_refs: []
 ```
 
----
+______________________________________________________________________
 
-# 14. Proposal Object
+## 14. Proposal Object
 
 ```yaml
 proposal:
@@ -471,9 +474,9 @@ proposal:
   status: PROPOSED
 ```
 
----
+______________________________________________________________________
 
-# 15. Proposal Firewall
+## 15. Proposal Firewall
 
 Mandatory:
 
@@ -488,14 +491,16 @@ PROPOSAL
 !=
 COMMIT
 ```
+
 ```text
 PROPOSAL
 !=
 EXECUTION
 ```
----
 
-# 16. Decision Classes
+______________________________________________________________________
+
+## 16. Decision Classes
 
 Suggested:
 
@@ -527,9 +532,9 @@ SUPERSEDE
 UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 17. Authority Classes
+## 17. Authority Classes
 
 Suggested:
 
@@ -567,67 +572,67 @@ OWN
 STEWARD
 ```
 
----
+______________________________________________________________________
 
-# 18. READ Authority
+## 18. READ Authority
 
 Allows observation of governed state.
 
 Does not imply write permission.
 
----
+______________________________________________________________________
 
-# 19. PROPOSE Authority
+## 19. PROPOSE Authority
 
 Allows creation of proposals.
 
 Does not authorize acceptance or execution.
 
----
+______________________________________________________________________
 
-# 20. REVIEW Authority
+## 20. REVIEW Authority
 
 Allows assessment and recommendation.
 
----
+______________________________________________________________________
 
-# 21. VALIDATE Authority
+## 21. VALIDATE Authority
 
 Allows execution or acceptance of specified validation protocols.
 
 Validation authority does not automatically grant canon or deployment authority.
 
----
+______________________________________________________________________
 
-# 22. APPROVE Authority
+## 22. APPROVE Authority
 
 Allows formal approval for specified transitions.
 
----
+______________________________________________________________________
 
-# 23. VETO Authority
+## 23. VETO Authority
 
 Allows blocking a specified transition under defined conditions.
 
 Veto scope must be explicit.
 
----
+______________________________________________________________________
 
-# 24. COMMIT Authority
+## 24. COMMIT Authority
 
 Allows authoritative state transition.
 
 This is stronger than approval.
 
----
+______________________________________________________________________
 
-# 25. EXECUTE Authority
+## 25. EXECUTE Authority
 
 Allows effectful action through operational interfaces.
 
----
+______________________________________________________________________
 
-# 26. DEPLOY Authority
+## 26. DEPLOY Authority
 
 Allows runtime deployment transition.
 
@@ -645,15 +650,15 @@ observability
 
 where stakes justify it.
 
----
+______________________________________________________________________
 
-# 27. ROLLBACK Authority
+## 27. ROLLBACK Authority
 
 Allows restoration of prior compatible state.
 
----
+______________________________________________________________________
 
-# 28. REVOKE Authority
+## 28. REVOKE Authority
 
 Allows withdrawal of previously granted:
 
@@ -669,9 +674,9 @@ canon eligibility
 
 depending on scope.
 
----
+______________________________________________________________________
 
-# 29. DELEGATE Authority
+## 29. DELEGATE Authority
 
 Allows granting some authority to another principal.
 
@@ -683,15 +688,15 @@ AUTHORITY_TO_ACT
 AUTHORITY_TO_DELEGATE
 ```
 
----
+______________________________________________________________________
 
-# 30. AUDIT Authority
+## 30. AUDIT Authority
 
 Allows inspection of governance, authorization, decision, and execution records.
 
----
+______________________________________________________________________
 
-# 31. OWN Authority
+## 31. OWN Authority
 
 Represents semantic or institutional ownership.
 
@@ -699,15 +704,15 @@ Ownership may include stronger governance rights.
 
 Exact meaning must be defined by the owning subsystem.
 
----
+______________________________________________________________________
 
-# 32. STEWARD Authority
+## 32. STEWARD Authority
 
 A steward maintains quality, coherence, and process but need not have unlimited ownership authority.
 
----
+______________________________________________________________________
 
-# 33. Principal
+## 33. Principal
 
 A principal is any identified actor capable of holding authority.
 
@@ -731,9 +736,9 @@ role
 system
 ```
 
----
+______________________________________________________________________
 
-# 34. Principal Identity
+## 34. Principal Identity
 
 Authority must bind to a resolved identity.
 
@@ -745,9 +750,9 @@ UNKNOWN_PRINCIPAL
 
 must not receive implicit high-risk authority.
 
----
+______________________________________________________________________
 
-# 35. Role vs Principal
+## 35. Role vs Principal
 
 A role is an authority template.
 
@@ -759,9 +764,9 @@ ROLE
 PERSON
 ```
 
----
+______________________________________________________________________
 
-# 36. Authority Scope
+## 36. Authority Scope
 
 Authority may be bounded by:
 
@@ -787,9 +792,9 @@ version
 regime
 ```
 
----
+______________________________________________________________________
 
-# 37. Authority Scope Firewall
+## 37. Authority Scope Firewall
 
 ```text
 LOCAL AUTHORITY
@@ -797,9 +802,9 @@ LOCAL AUTHORITY
 GLOBAL AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 38. Jurisdiction
+## 38. Jurisdiction
 
 Jurisdiction defines the governed domain over which authority is valid.
 
@@ -819,9 +824,9 @@ legal entity
 research program
 ```
 
----
+______________________________________________________________________
 
-# 39. Jurisdiction Conflict
+## 39. Jurisdiction Conflict
 
 Two governance systems may both claim authority over an action.
 
@@ -833,9 +838,9 @@ JURISDICTION_CONFLICT
 
 until resolved.
 
----
+______________________________________________________________________
 
-# 40. Authority Envelope
+## 40. Authority Envelope
 
 Recommended:
 
@@ -861,9 +866,9 @@ authority_envelope:
   valid_until: null
 ```
 
----
+______________________________________________________________________
 
-# 41. Temporal Authority
+## 41. Temporal Authority
 
 Authority should support:
 
@@ -877,9 +882,9 @@ suspension
 revocation
 ```
 
----
+______________________________________________________________________
 
-# 42. Expired Authority
+## 42. Expired Authority
 
 Mandatory:
 
@@ -889,9 +894,9 @@ WAS_AUTHORIZED
 IS_AUTHORIZED_NOW
 ```
 
----
+______________________________________________________________________
 
-# 43. Conditional Authority
+## 43. Conditional Authority
 
 Authority may activate only if:
 
@@ -907,9 +912,9 @@ environment matches target
 rollback exists
 ```
 
----
+______________________________________________________________________
 
-# 44. Least Authority Principle
+## 44. Least Authority Principle
 
 Grant only the minimum authority required for the task.
 
@@ -921,9 +926,9 @@ GrantedAuthority
 MinimumSufficientAuthority(Task)
 ```
 
----
+______________________________________________________________________
 
-# 45. Authority Minimization
+## 45. Authority Minimization
 
 Prefer:
 
@@ -953,9 +958,9 @@ commit
 
 when autonomous commitment is unnecessary.
 
----
+______________________________________________________________________
 
-# 46. No Authority by Capability Discovery
+## 46. No Authority by Capability Discovery
 
 If an agent discovers it can access a tool:
 
@@ -969,9 +974,9 @@ does not imply:
 GOVERNED_PERMISSION.
 ```
 
----
+______________________________________________________________________
 
-# 47. Tool Permission
+## 47. Tool Permission
 
 Every effectful tool use should conceptually resolve:
 
@@ -989,9 +994,9 @@ target
 action
 ```
 
----
+______________________________________________________________________
 
-# 48. Agent Authority
+## 48. Agent Authority
 
 Agents should have explicit authority classes.
 
@@ -1009,9 +1014,9 @@ PROPOSE_ONLY
 
 unless otherwise governed.
 
----
+______________________________________________________________________
 
-# 49. Agent Self-Elevation Prohibition
+## 49. Agent Self-Elevation Prohibition
 
 Mandatory:
 
@@ -1022,15 +1027,15 @@ SELF-GRANT
 AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 50. Delegation
+## 50. Delegation
 
 Delegation transfers some scoped authority from one principal to another.
 
----
+______________________________________________________________________
 
-# 51. Delegation Object
+## 51. Delegation Object
 
 ```yaml
 delegation:
@@ -1058,9 +1063,9 @@ delegation:
   status: null
 ```
 
----
+______________________________________________________________________
 
-# 52. Delegation Ceiling
+## 52. Delegation Ceiling
 
 Delegated authority may not exceed the delegator's authority.
 
@@ -1072,9 +1077,9 @@ Authority(delegator)
 
 within delegated scope.
 
----
+______________________________________________________________________
 
-# 53. No Authority Creation Through Delegation
+## 53. No Authority Creation Through Delegation
 
 Mandatory:
 
@@ -1085,9 +1090,9 @@ PERMISSION
 THE DELEGATOR DOES NOT POSSESS
 ```
 
----
+______________________________________________________________________
 
-# 54. Redelegation
+## 54. Redelegation
 
 Redelegation must be explicitly permitted.
 
@@ -1099,15 +1104,15 @@ NO REDELEGATION
 
 for sensitive authority.
 
----
+______________________________________________________________________
 
-# 55. Delegation Depth
+## 55. Delegation Depth
 
 Limit recursive delegation to reduce authority ambiguity and privilege drift.
 
----
+______________________________________________________________________
 
-# 56. Delegation Provenance
+## 56. Delegation Provenance
 
 Every authority chain should remain traceable:
 
@@ -1118,9 +1123,9 @@ origin authority
 → current principal
 ```
 
----
+______________________________________________________________________
 
-# 57. Authority Ancestry
+## 57. Authority Ancestry
 
 Authority is provenance-bearing.
 
@@ -1132,9 +1137,9 @@ dependent delegated authority
 
 may need revocation.
 
----
+______________________________________________________________________
 
-# 58. Authority Dependency
+## 58. Authority Dependency
 
 Conceptually:
 
@@ -1144,9 +1149,9 @@ DEPENDS_ON
 ParentAuthority
 ```
 
----
+______________________________________________________________________
 
-# 59. Local Authority Invalidation
+## 59. Local Authority Invalidation
 
 If one authority grant fails:
 
@@ -1155,9 +1160,9 @@ invalidate only
 delegations depending on it.
 ```
 
----
+______________________________________________________________________
 
-# 60. Authority Revocation
+## 60. Authority Revocation
 
 ```text
 ACTIVE
@@ -1167,9 +1172,9 @@ REVOKED
 
 should immediately affect actions requiring that authority.
 
----
+______________________________________________________________________
 
-# 61. Revocation Object
+## 61. Revocation Object
 
 ```yaml
 authority_revocation:
@@ -1189,9 +1194,9 @@ authority_revocation:
   provenance_refs: []
 ```
 
----
+______________________________________________________________________
 
-# 62. Emergency Revocation
+## 62. Emergency Revocation
 
 For urgent safety or integrity failures:
 
@@ -1204,9 +1209,9 @@ may be allowed if policy explicitly permits.
 
 The provisional nature must be recorded.
 
----
+______________________________________________________________________
 
-# 63. Suspension
+## 63. Suspension
 
 Temporary disablement:
 
@@ -1218,9 +1223,9 @@ SUSPENDED
 
 without full revocation.
 
----
+______________________________________________________________________
 
-# 64. Authority Lifecycle
+## 64. Authority Lifecycle
 
 Suggested:
 
@@ -1242,9 +1247,9 @@ EXPIRED / REVOKED
 ARCHIVED
 ```
 
----
+______________________________________________________________________
 
-# 65. Governance Lifecycle
+## 65. Governance Lifecycle
 
 Suggested:
 
@@ -1268,9 +1273,9 @@ OUTCOME REVIEW
 CLOSE / REPAIR / ROLLBACK
 ```
 
----
+______________________________________________________________________
 
-# 66. Governance Gate
+## 66. Governance Gate
 
 A governance gate determines whether transition may proceed.
 
@@ -1300,23 +1305,23 @@ policy
 auditability
 ```
 
----
+______________________________________________________________________
 
-# 67. Evidence Gate
+## 67. Evidence Gate
 
 Consequential decisions should have sufficient P2/P3 support.
 
----
+______________________________________________________________________
 
-# 68. Model Gate
+## 68. Model Gate
 
 P4 model support should match the decision class.
 
 A speculative model should not justify irreversible high-impact action without additional controls.
 
----
+______________________________________________________________________
 
-# 69. Validation Gate
+## 69. Validation Gate
 
 Relevant validation should bind:
 
@@ -1332,9 +1337,9 @@ regime
 environment
 ```
 
----
+______________________________________________________________________
 
-# 70. Dependency Gate
+## 70. Dependency Gate
 
 Before consequential change:
 
@@ -1344,9 +1349,9 @@ trace downstream dependencies
 
 when failure could propagate.
 
----
+______________________________________________________________________
 
-# 71. Risk Gate
+## 71. Risk Gate
 
 Higher stakes require stronger governance.
 
@@ -1368,9 +1373,9 @@ security risk
 large dependency closure
 ```
 
----
+______________________________________________________________________
 
-# 72. Reversibility Gate
+## 72. Reversibility Gate
 
 If action is reversible:
 
@@ -1386,9 +1391,9 @@ If irreversible:
 increase validation and authority requirements.
 ```
 
----
+______________________________________________________________________
 
-# 73. Rollback Gate
+## 73. Rollback Gate
 
 For effectful changes where rollback is possible and relevant:
 
@@ -1398,23 +1403,23 @@ ROLLBACK PLAN
 
 should exist before commit.
 
----
+______________________________________________________________________
 
-# 74. Observability Gate
+## 74. Observability Gate
 
 A high-impact action without post-commit observability may be unsafe.
 
 Require enough telemetry to know whether the transition succeeded.
 
----
+______________________________________________________________________
 
-# 75. Policy
+## 75. Policy
 
 A policy is a governed rule constraining decisions or actions.
 
----
+______________________________________________________________________
 
-# 76. Policy Object
+## 76. Policy Object
 
 ```yaml
 policy:
@@ -1446,9 +1451,9 @@ policy:
   status: null
 ```
 
----
+______________________________________________________________________
 
-# 77. Policy vs Law
+## 77. Policy vs Law
 
 An internal AMOS policy is not external law.
 
@@ -1462,9 +1467,9 @@ LEGAL_AUTHORITY
 
 unless an external legal source actually grants it.
 
----
+______________________________________________________________________
 
-# 78. Policy Precedence
+## 78. Policy Precedence
 
 When policies conflict, precedence must be explicit.
 
@@ -1484,17 +1489,17 @@ external legal requirement
 
 Exact precedence requires canon/governance definition.
 
----
+______________________________________________________________________
 
-# 79. Specificity Rule
+## 79. Specificity Rule
 
 A more specific policy may override a general one only if governance allows.
 
 Do not assume automatically.
 
----
+______________________________________________________________________
 
-# 80. Policy Conflict
+## 80. Policy Conflict
 
 State:
 
@@ -1504,9 +1509,9 @@ POLICY_CONFLICT
 
 if two simultaneously applicable rules require incompatible outcomes.
 
----
+______________________________________________________________________
 
-# 81. Governance Conflict
+## 81. Governance Conflict
 
 Potential:
 
@@ -1526,9 +1531,9 @@ evidence conflict
 
 These should not be collapsed into one generic error.
 
----
+______________________________________________________________________
 
-# 82. Separation of Duties
+## 82. Separation of Duties
 
 High-risk processes may require distinct roles for:
 
@@ -1544,9 +1549,9 @@ execution
 audit
 ```
 
----
+______________________________________________________________________
 
-# 83. Separation-of-Duties Principle
+## 83. Separation-of-Duties Principle
 
 Avoid where stakes justify:
 
@@ -1559,17 +1564,17 @@ and audits
 its own action.
 ```
 
----
+______________________________________________________________________
 
-# 84. Four-Eyes Control
+## 84. Four-Eyes Control
 
 A governance model may require at least two independent approving principals for certain changes.
 
 This is a policy option, not universally required.
 
----
+______________________________________________________________________
 
-# 85. Quorum
+## 85. Quorum
 
 Some decisions may require multiple members.
 
@@ -1587,9 +1592,9 @@ quorum:
   expiry: null
 ```
 
----
+______________________________________________________________________
 
-# 86. Quorum Boundary
+## 86. Quorum Boundary
 
 ```text
 NUMBER_OF_APPROVALS
@@ -1599,25 +1604,25 @@ QUALITY_OF_DECISION
 
 Quorum is a governance mechanism, not evidence.
 
----
+______________________________________________________________________
 
-# 87. Consensus
+## 87. Consensus
 
 Consensus can be a governance decision rule.
 
 It should not be treated as empirical proof.
 
----
+______________________________________________________________________
 
-# 88. Majority
+## 88. Majority
 
 Majority voting may resolve governance choice.
 
 It does not establish truth.
 
----
+______________________________________________________________________
 
-# 89. Veto
+## 89. Veto
 
 Veto should have:
 
@@ -1631,17 +1636,17 @@ authority
 expiry or review path
 ```
 
----
+______________________________________________________________________
 
-# 90. Absolute Veto Risk
+## 90. Absolute Veto Risk
 
 Unbounded permanent veto can create governance deadlock.
 
 If used, its domain must be explicit.
 
----
+______________________________________________________________________
 
-# 91. Governance Deadlock
+## 91. Governance Deadlock
 
 Occurs when valid governance rules prevent all available transitions.
 
@@ -1653,9 +1658,9 @@ BLOCKED
 
 not silent bypass.
 
----
+______________________________________________________________________
 
-# 92. Deadlock Resolution
+## 92. Deadlock Resolution
 
 Possible:
 
@@ -1673,15 +1678,15 @@ temporary safe state
 governed exception
 ```
 
----
+______________________________________________________________________
 
-# 93. Escalation
+## 93. Escalation
 
 Escalation routes a decision to stronger authority.
 
----
+______________________________________________________________________
 
-# 94. Escalation Trigger
+## 94. Escalation Trigger
 
 Examples:
 
@@ -1703,21 +1708,21 @@ security issue
 cross-domain impact
 ```
 
----
+______________________________________________________________________
 
-# 95. Escalation Is Not Failure
+## 95. Escalation Is Not Failure
 
 Escalation is correct when local authority or evidence is insufficient.
 
----
+______________________________________________________________________
 
-# 96. Exception
+## 96. Exception
 
 A policy exception should be explicit and governed.
 
----
+______________________________________________________________________
 
-# 97. Exception Object
+## 97. Exception Object
 
 ```yaml
 exception:
@@ -1743,9 +1748,9 @@ exception:
   status: null
 ```
 
----
+______________________________________________________________________
 
-# 98. Exception Boundary
+## 98. Exception Boundary
 
 ```text
 EXCEPTION
@@ -1753,9 +1758,9 @@ EXCEPTION
 POLICY DELETION
 ```
 
----
+______________________________________________________________________
 
-# 99. Emergency Governance
+## 99. Emergency Governance
 
 Emergency conditions may alter normal gates.
 
@@ -1773,9 +1778,9 @@ reviewable
 revocable
 ```
 
----
+______________________________________________________________________
 
-# 100. Emergency Authority
+## 100. Emergency Authority
 
 Recommended:
 
@@ -1797,9 +1802,9 @@ emergency_authority:
   rollback_requirement: null
 ```
 
----
+______________________________________________________________________
 
-# 101. Emergency Firewall
+## 101. Emergency Firewall
 
 ```text
 EMERGENCY
@@ -1807,15 +1812,15 @@ EMERGENCY
 UNLIMITED AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 102. Emergency Expiry
+## 102. Emergency Expiry
 
 Emergency permissions should expire automatically unless renewed through governance.
 
----
+______________________________________________________________________
 
-# 103. Post-Emergency Review
+## 103. Post-Emergency Review
 
 After use:
 
@@ -1831,9 +1836,9 @@ what effects occurred?
 what should change?
 ```
 
----
+______________________________________________________________________
 
-# 104. Authority and Risk
+## 104. Authority and Risk
 
 Authority requirements should scale with:
 
@@ -1851,9 +1856,9 @@ dependency depth
 security sensitivity
 ```
 
----
+______________________________________________________________________
 
-# 105. Blast Radius
+## 105. Blast Radius
 
 Define conceptually:
 
@@ -1865,21 +1870,21 @@ potentially materially affected
 by action
 ```
 
----
+______________________________________________________________________
 
-# 106. Small Blast Radius
+## 106. Small Blast Radius
 
 May justify localized authority.
 
----
+______________________________________________________________________
 
-# 107. Large Blast Radius
+## 107. Large Blast Radius
 
 Should trigger stronger governance.
 
----
+______________________________________________________________________
 
-# 108. Dependency-Aware Governance
+## 108. Dependency-Aware Governance
 
 Before changing load-bearing node `X`:
 
@@ -1889,9 +1894,9 @@ TRACE_DEPENDENTS(X)
 
 to assess governance impact.
 
----
+______________________________________________________________________
 
-# 109. Local Decision Authority
+## 109. Local Decision Authority
 
 Local authority is permissible when:
 
@@ -1907,9 +1912,9 @@ rollback local
 no authority conflict
 ```
 
----
+______________________________________________________________________
 
-# 110. Governance Fast Path
+## 110. Governance Fast Path
 
 For low-risk reversible local changes:
 
@@ -1927,9 +1932,9 @@ observe
 
 may be sufficient.
 
----
+______________________________________________________________________
 
-# 111. Governance Escalation Path
+## 111. Governance Escalation Path
 
 For high-risk changes:
 
@@ -1955,9 +1960,9 @@ observability
 post-commit verification
 ```
 
----
+______________________________________________________________________
 
-# 112. Canon Promotion Authority
+## 112. Canon Promotion Authority
 
 Transition:
 
@@ -1971,9 +1976,9 @@ must be governed.
 
 No research agent or generator should silently self-promote output into canon.
 
----
+______________________________________________________________________
 
-# 113. Canon Promotion Gate
+## 113. Canon Promotion Gate
 
 Require at minimum:
 
@@ -1997,9 +2002,9 @@ authority
 supersession impact
 ```
 
----
+______________________________________________________________________
 
-# 114. Canon Revocation
+## 114. Canon Revocation
 
 If current canon becomes unsafe or invalid:
 
@@ -2013,9 +2018,9 @@ may be necessary.
 
 Revocation should preserve history.
 
----
+______________________________________________________________________
 
-# 115. Canon Supersession
+## 115. Canon Supersession
 
 ```text
 CURRENT A
@@ -2029,9 +2034,9 @@ CURRENT B
 
 should be governed and versioned.
 
----
+______________________________________________________________________
 
-# 116. Canon Split-Brain Governance
+## 116. Canon Split-Brain Governance
 
 If two objects claim current canon status:
 
@@ -2045,9 +2050,9 @@ or
 declare COMPETING
 ```
 
----
+______________________________________________________________________
 
-# 117. Root Governance
+## 117. Root Governance
 
 Changes to top-level architecture may require stronger governance than ordinary child artifacts.
 
@@ -2065,9 +2070,9 @@ ownership change
 root retirement
 ```
 
----
+______________________________________________________________________
 
-# 118. Model Governance
+## 118. Model Governance
 
 P4 models may be:
 
@@ -2085,9 +2090,9 @@ revoked
 
 P5 governs transitions between these states.
 
----
+______________________________________________________________________
 
-# 119. Memory Governance
+## 119. Memory Governance
 
 P3 knowledge/memory changes may require governance when affecting:
 
@@ -2105,9 +2110,9 @@ historical record
 critical provenance
 ```
 
----
+______________________________________________________________________
 
-# 120. Evidence Governance
+## 120. Evidence Governance
 
 P2 evidence should not be altered merely to support a desired decision.
 
@@ -2127,9 +2132,9 @@ access
 
 but not rewrite observed evidence.
 
----
+______________________________________________________________________
 
-# 121. Evidence Integrity Firewall
+## 121. Evidence Integrity Firewall
 
 Mandatory:
 
@@ -2144,9 +2149,9 @@ CHANGE THE EVIDENCE
 TO FIT THE DECISION
 ```
 
----
+______________________________________________________________________
 
-# 122. Environment Governance
+## 122. Environment Governance
 
 P1 environment assumptions may determine action eligibility.
 
@@ -2157,15 +2162,15 @@ authority may be insufficient
 for irreversible action.
 ```
 
----
+______________________________________________________________________
 
-# 123. Decision
+## 123. Decision
 
 A decision is a committed selection among alternatives.
 
----
+______________________________________________________________________
 
-# 124. Decision Input
+## 124. Decision Input
 
 A governed decision may depend on:
 
@@ -2187,9 +2192,9 @@ authority
 alternatives
 ```
 
----
+______________________________________________________________________
 
-# 125. Decision Object
+## 125. Decision Object
 
 ```yaml
 decision:
@@ -2223,9 +2228,9 @@ decision:
   effective_at: null
 ```
 
----
+______________________________________________________________________
 
-# 126. Decision vs Truth
+## 126. Decision vs Truth
 
 A decision can be legitimate under uncertainty without being a factual claim.
 
@@ -2237,9 +2242,9 @@ DECISION
 EMPIRICAL_TRUTH
 ```
 
----
+______________________________________________________________________
 
-# 127. Decision Sufficiency
+## 127. Decision Sufficiency
 
 A decision can be sufficient before all uncertainty is eliminated.
 
@@ -2251,15 +2256,15 @@ does not justify delay
 relative to action stakes.
 ```
 
----
+______________________________________________________________________
 
-# 128. Reversible Decision
+## 128. Reversible Decision
 
 Prefer reversible decisions under substantial uncertainty.
 
----
+______________________________________________________________________
 
-# 129. Irreversible Decision
+## 129. Irreversible Decision
 
 Requires stronger:
 
@@ -2277,9 +2282,9 @@ dependency analysis
 sensitivity analysis
 ```
 
----
+______________________________________________________________________
 
-# 130. Staged Commitment
+## 130. Staged Commitment
 
 High uncertainty may justify:
 
@@ -2292,9 +2297,9 @@ sandbox
 
 rather than immediate full commitment.
 
----
+______________________________________________________________________
 
-# 131. Proposal/Commit Firewall
+## 131. Proposal/Commit Firewall
 
 Mandatory:
 
@@ -2306,9 +2311,9 @@ COMMIT
 
 A model or agent may propose without changing authoritative state.
 
----
+______________________________________________________________________
 
-# 132. Two-Phase Governance Concept
+## 132. Two-Phase Governance Concept
 
 Conceptually:
 
@@ -2324,9 +2329,9 @@ for consequential changes.
 
 This is an architecture pattern, not a claim that every host implements two-phase commit.
 
----
+______________________________________________________________________
 
-# 133. CAS/MVCC Governance Concept
+## 133. CAS/MVCC Governance Concept
 
 For mutable governed state:
 
@@ -2339,9 +2344,9 @@ before commit
 
 to prevent stale authority/action.
 
----
+______________________________________________________________________
 
-# 134. Stale Decision Writer
+## 134. Stale Decision Writer
 
 If approval targeted:
 
@@ -2357,9 +2362,9 @@ v5
 
 the original approval should not automatically commit against v5.
 
----
+______________________________________________________________________
 
-# 135. Approval Binding
+## 135. Approval Binding
 
 Approval should bind:
 
@@ -2375,9 +2380,9 @@ scope
 time
 ```
 
----
+______________________________________________________________________
 
-# 136. Approval Reuse Boundary
+## 136. Approval Reuse Boundary
 
 ```text
 APPROVED_ONCE
@@ -2385,9 +2390,9 @@ APPROVED_ONCE
 APPROVED_FOR_ALL FUTURE VERSIONS
 ```
 
----
+______________________________________________________________________
 
-# 137. Atomic Governance
+## 137. Atomic Governance
 
 Some changes require multiple objects to transition together.
 
@@ -2403,9 +2408,9 @@ deployment schema
 policy
 ```
 
----
+______________________________________________________________________
 
-# 138. Atomic Transition Set
+## 138. Atomic Transition Set
 
 ```yaml
 governed_transition_set:
@@ -2423,9 +2428,9 @@ governed_transition_set:
   commit_policy: ATOMIC
 ```
 
----
+______________________________________________________________________
 
-# 139. Partial Commit Failure
+## 139. Partial Commit Failure
 
 If only part of a required atomic change commits:
 
@@ -2437,17 +2442,17 @@ DEGRADED / BLOCKED
 
 until repaired.
 
----
+______________________________________________________________________
 
-# 140. Control Plane
+## 140. Control Plane
 
 The control plane should enforce effectful authority where implementation exists.
 
 P5 defines the semantic requirement.
 
----
+______________________________________________________________________
 
-# 141. Control Token
+## 141. Control Token
 
 A control plane may use:
 
@@ -2465,9 +2470,9 @@ as implementation mechanisms.
 
 But possessing a credential does not establish governance legitimacy if the grant itself is invalid.
 
----
+______________________________________________________________________
 
-# 142. Authentication vs Authorization
+## 142. Authentication vs Authorization
 
 Mandatory:
 
@@ -2489,17 +2494,17 @@ Authorization answers:
 what may you do?
 ```
 
----
+______________________________________________________________________
 
-# 143. Authorization vs Governance
+## 143. Authorization vs Governance
 
 Authorization may be technically enforced while governance policy itself is wrong or stale.
 
 These layers must remain distinct.
 
----
+______________________________________________________________________
 
-# 144. Audit
+## 144. Audit
 
 Governance should produce auditable records.
 
@@ -2523,9 +2528,9 @@ with which evidence
 with what outcome
 ```
 
----
+______________________________________________________________________
 
-# 145. Audit Log
+## 145. Audit Log
 
 ```yaml
 governance_audit_event:
@@ -2555,15 +2560,15 @@ governance_audit_event:
   outcome: null
 ```
 
----
+______________________________________________________________________
 
-# 146. Audit Integrity
+## 146. Audit Integrity
 
 Audit logs should not be editable by ordinary actors whose actions they audit without compensating controls.
 
----
+______________________________________________________________________
 
-# 147. Audit vs Provenance
+## 147. Audit vs Provenance
 
 Audit records:
 
@@ -2579,9 +2584,9 @@ where state/knowledge/action lineage came from.
 
 They overlap but are not identical.
 
----
+______________________________________________________________________
 
-# 148. Accountability
+## 148. Accountability
 
 Accountability requires linking:
 
@@ -2595,9 +2600,9 @@ action
 outcome
 ```
 
----
+______________________________________________________________________
 
-# 149. Accountability Boundary
+## 149. Accountability Boundary
 
 An actor should only be accountable for what was within its:
 
@@ -2611,9 +2616,9 @@ control
 
 unless external law/policy defines otherwise.
 
----
+______________________________________________________________________
 
-# 150. Outcome Review
+## 150. Outcome Review
 
 After execution compare:
 
@@ -2627,9 +2632,9 @@ with:
 observed outcome.
 ```
 
----
+______________________________________________________________________
 
-# 151. Governance Learning
+## 151. Governance Learning
 
 Governance should learn from:
 
@@ -2649,9 +2654,9 @@ unexpected externalities
 
 without rewriting history.
 
----
+______________________________________________________________________
 
-# 152. Governance Memory
+## 152. Governance Memory
 
 P3 should retain:
 
@@ -2671,15 +2676,15 @@ repair
 
 for consequential decisions.
 
----
+______________________________________________________________________
 
-# 153. Governance Provenance
+## 153. Governance Provenance
 
 Every material policy or authority grant should preserve origin and supersession.
 
----
+______________________________________________________________________
 
-# 154. Decision Provenance
+## 154. Decision Provenance
 
 A decision should be reconstructable from:
 
@@ -2695,9 +2700,9 @@ authority
 governance rule
 ```
 
----
+______________________________________________________________________
 
-# 155. Policy Provenance
+## 155. Policy Provenance
 
 A policy should identify:
 
@@ -2715,15 +2720,15 @@ superseded policy
 legal/external basis if any
 ```
 
----
+______________________________________________________________________
 
-# 156. Governance Versioning
+## 156. Governance Versioning
 
 Policies and authority definitions should be versioned.
 
----
+______________________________________________________________________
 
-# 157. Policy Version Boundary
+## 157. Policy Version Boundary
 
 ```text
 POLICY_v1
@@ -2733,15 +2738,15 @@ POLICY_v2
 
 even when titles match.
 
----
+______________________________________________________________________
 
-# 158. Current Governance SSOT
+## 158. Current Governance SSOT
 
 Current governance state should resolve through explicit SSOT/versioning.
 
----
+______________________________________________________________________
 
-# 159. Governance Split-Brain
+## 159. Governance Split-Brain
 
 Critical when:
 
@@ -2753,9 +2758,9 @@ claim mutually exclusive control
 over same action/scope/time.
 ```
 
----
+______________________________________________________________________
 
-# 160. Authority Split-Brain
+## 160. Authority Split-Brain
 
 Example:
 
@@ -2767,9 +2772,9 @@ Principal B separately has sole commit authority
 
 for same object without explicit coexistence rules.
 
----
+______________________________________________________________________
 
-# 161. Governance Conflict Resolution
+## 161. Governance Conflict Resolution
 
 Use:
 
@@ -2791,9 +2796,9 @@ external legal constraint
 
 where applicable.
 
----
+______________________________________________________________________
 
-# 162. External Legal Authority
+## 162. External Legal Authority
 
 AMOS internal governance must not fabricate legal authority.
 
@@ -2807,33 +2812,33 @@ LEGAL_AUTHORITY
 
 unless externally grounded.
 
----
+______________________________________________________________________
 
-# 163. Institutional Authority
+## 163. Institutional Authority
 
 Institutional power depends on actual external organization rules.
 
 P5 can model it but cannot create it by declaration.
 
----
+______________________________________________________________________
 
-# 164. Normative Authority
+## 164. Normative Authority
 
 A normative model can state what should be done.
 
 It does not itself create institutional enforcement authority.
 
----
+______________________________________________________________________
 
-# 165. Epistemic Authority
+## 165. Epistemic Authority
 
 Expertise may increase evidential relevance.
 
 It does not create unrestricted decision rights.
 
----
+______________________________________________________________________
 
-# 166. Authority Source Types
+## 166. Authority Source Types
 
 Suggested:
 
@@ -2861,17 +2866,17 @@ EMERGENCY_GRANT
 UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 167. Origin Architect Boundary
+## 167. Origin Architect Boundary
 
 Within AMOS corpus provenance, Trang Phan is the origin architect/steward of the cited AMOS/Trang architecture.
 
 This corpus role should not be generalized into unrelated external legal or institutional authority.
 
----
+______________________________________________________________________
 
-# 168. Stewardship
+## 168. Stewardship
 
 Stewardship may include:
 
@@ -2887,9 +2892,9 @@ managing supersession
 
 as defined by AMOS governance.
 
----
+______________________________________________________________________
 
-# 169. Ownership vs Stewardship
+## 169. Ownership vs Stewardship
 
 ```text
 OWNER
@@ -2899,9 +2904,9 @@ STEWARD
 
 unless governance explicitly combines them.
 
----
+______________________________________________________________________
 
-# 170. Governance Values
+## 170. Governance Values
 
 AMOS governance should inherit:
 
@@ -2915,9 +2920,9 @@ fluency
 speed
 ```
 
----
+______________________________________________________________________
 
-# 171. Integrity Veto
+## 171. Integrity Veto
 
 A transition should be blocked when it requires:
 
@@ -2935,15 +2940,15 @@ silent scope expansion
 unauthorized action
 ```
 
----
+______________________________________________________________________
 
-# 172. Completeness Boundary
+## 172. Completeness Boundary
 
 Missing noncritical detail should not block safe progress if integrity is preserved.
 
----
+______________________________________________________________________
 
-# 173. Speed Boundary
+## 173. Speed Boundary
 
 Speed may never justify:
 
@@ -2957,15 +2962,15 @@ hiding gaps
 weakening provenance
 ```
 
----
+______________________________________________________________________
 
-# 174. Efficiency Governance
+## 174. Efficiency Governance
 
 Optimization is permitted only if it preserves integrity requirements.
 
----
+______________________________________________________________________
 
-# 175. Anti-Regression Gate
+## 175. Anti-Regression Gate
 
 A governance optimization should preserve or improve:
 
@@ -2989,9 +2994,9 @@ user fit
 
 otherwise roll back.
 
----
+______________________________________________________________________
 
-# 176. Governance Sensitivity
+## 176. Governance Sensitivity
 
 Identify:
 
@@ -3014,9 +3019,9 @@ dependency criticality
 risk threshold
 ```
 
----
+______________________________________________________________________
 
-# 177. Governance Uncertainty
+## 177. Governance Uncertainty
 
 Track:
 
@@ -3036,9 +3041,9 @@ dependency uncertainty
 
 separately.
 
----
+______________________________________________________________________
 
-# 178. Authority Confidence
+## 178. Authority Confidence
 
 Do not infer authority with strong confidence from indirect cues.
 
@@ -3048,9 +3053,9 @@ If authority cannot be established:
 UNKNOWN_AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 179. Unknown Authority Rule
+## 179. Unknown Authority Rule
 
 Mandatory:
 
@@ -3062,9 +3067,9 @@ DO NOT COMMIT
 
 for actions requiring explicit authority.
 
----
+______________________________________________________________________
 
-# 180. Governance Gap Classes
+## 180. Governance Gap Classes
 
 Suggested:
 
@@ -3094,9 +3099,9 @@ LEGAL_GAP
 DEPENDENCY_IMPACT_GAP
 ```
 
----
+______________________________________________________________________
 
-# 181. Gap Severity
+## 181. Gap Severity
 
 Use:
 
@@ -3110,9 +3115,9 @@ EXPLANATORY
 COSMETIC
 ```
 
----
+______________________________________________________________________
 
-# 182. Critical Governance Gap
+## 182. Critical Governance Gap
 
 Examples:
 
@@ -3128,9 +3133,9 @@ rollback impossible but unassessed
 high-impact dependency closure unknown
 ```
 
----
+______________________________________________________________________
 
-# 183. Governance Gap Object
+## 183. Governance Gap Object
 
 ```yaml
 governance_gap:
@@ -3150,9 +3155,9 @@ governance_gap:
   status: OPEN
 ```
 
----
+______________________________________________________________________
 
-# 184. Governance Failure Modes
+## 184. Governance Failure Modes
 
 ## F01 — Capability/Authority Collapse
 
@@ -3270,9 +3275,9 @@ Veto creates irreversible deadlock without review path.
 
 Authority gap filled by assumption.
 
----
+______________________________________________________________________
 
-# 185. Governance Falsifiers
+## 185. Governance Falsifiers
 
 This architecture should be revised if:
 
@@ -3294,9 +3299,9 @@ auditability cannot reconstruct consequential decisions
 reversible/irreversible distinction cannot improve action safety
 ```
 
----
+______________________________________________________________________
 
-# 186. Governance RSCF
+## 186. Governance RSCF
 
 Important governance conclusions should carry:
 
@@ -3334,9 +3339,9 @@ rscf:
   confidence_ceiling: null
 ```
 
----
+______________________________________________________________________
 
-# 187. Governance Confidence Ceiling
+## 187. Governance Confidence Ceiling
 
 A conclusion such as:
 
@@ -3360,9 +3365,9 @@ time validity
 jurisdiction
 ```
 
----
+______________________________________________________________________
 
-# 188. Governance Fast Path Preconditions
+## 188. Governance Fast Path Preconditions
 
 Local fast-path governance may be used only when:
 
@@ -3382,9 +3387,9 @@ no conflict
 fresh state
 ```
 
----
+______________________________________________________________________
 
-# 189. Governance Slow Path Triggers
+## 189. Governance Slow Path Triggers
 
 Escalate when:
 
@@ -3408,9 +3413,9 @@ policy conflict
 critical dependency coupling
 ```
 
----
+______________________________________________________________________
 
-# 190. P5 H/M/L Architecture
+## 190. P5 H/M/L Architecture
 
 P5 is fractal.
 
@@ -3425,9 +3430,9 @@ L:
 specific action authorization
 ```
 
----
+______________________________________________________________________
 
-# 191. H-Level Governance
+## 191. H-Level Governance
 
 Examples:
 
@@ -3441,9 +3446,9 @@ canon promotion policy
 global authority model
 ```
 
----
+______________________________________________________________________
 
-# 192. M-Level Governance
+## 192. M-Level Governance
 
 Examples:
 
@@ -3457,9 +3462,9 @@ validation policy
 research governance
 ```
 
----
+______________________________________________________________________
 
-# 193. L-Level Governance
+## 193. L-Level Governance
 
 Examples:
 
@@ -3471,9 +3476,9 @@ revoke one token
 promote one artifact version
 ```
 
----
+______________________________________________________________________
 
-# 194. H/M/L Authority Flow
+## 194. H/M/L Authority Flow
 
 Conceptually:
 
@@ -3485,9 +3490,9 @@ M implementation rule
 L action authorization
 ```
 
----
+______________________________________________________________________
 
-# 195. Bottom-Up Governance Feedback
+## 195. Bottom-Up Governance Feedback
 
 Local outcomes should be able to trigger:
 
@@ -3499,25 +3504,25 @@ H-level governance review
 
 if repeated failures expose structural weakness.
 
----
+______________________________________________________________________
 
-# 196. Top-Down Governance Risk
+## 196. Top-Down Governance Risk
 
 High-level rules may become harmful when context changes.
 
 Governance must remain corrigible.
 
----
+______________________________________________________________________
 
-# 197. Governance Self-Modification
+## 197. Governance Self-Modification
 
 Changes to governance rules require governance.
 
 This creates recursion.
 
----
+______________________________________________________________________
 
-# 198. Meta-Governance
+## 198. Meta-Governance
 
 Meta-governance defines:
 
@@ -3525,15 +3530,15 @@ Meta-governance defines:
 how governance itself may change.
 ```
 
----
+______________________________________________________________________
 
-# 199. Meta-Governance Firewall
+## 199. Meta-Governance Firewall
 
 Governance must not be able to silently remove all constraints on its own modification.
 
----
+______________________________________________________________________
 
-# 200. Constitutional Constraint
+## 200. Constitutional Constraint
 
 Some rules may be designated harder to change.
 
@@ -3551,9 +3556,9 @@ unknown/gap visibility
 
 Exact constitutional hierarchy remains canon-dependent.
 
----
+______________________________________________________________________
 
-# 201. Governance Recursion Termination
+## 201. Governance Recursion Termination
 
 Recursive governance review should stop when:
 
@@ -3567,9 +3572,9 @@ remaining uncertainty cannot change eligibility
 
 rather than infinite meta-review.
 
----
+______________________________________________________________________
 
-# 202. Governance and P1
+## 202. Governance and P1
 
 P1 determines:
 
@@ -3587,17 +3592,17 @@ cannot override
 physical impossibility.
 ```
 
----
+______________________________________________________________________
 
-# 203. Governance and P2
+## 203. Governance and P2
 
 P2 determines evidence.
 
 Governance decides what evidence is sufficient for an action but does not manufacture evidence.
 
----
+______________________________________________________________________
 
-# 204. Governance and P3
+## 204. Governance and P3
 
 P3 preserves:
 
@@ -3611,9 +3616,9 @@ authority history
 governance outcomes
 ```
 
----
+______________________________________________________________________
 
-# 205. Governance and P4
+## 205. Governance and P4
 
 P4 generates:
 
@@ -3629,41 +3634,41 @@ alternatives
 
 P5 determines whether any proposed transition is authorized.
 
----
+______________________________________________________________________
 
-# 206. Governance and Validation
+## 206. Governance and Validation
 
 Validation determines whether specified properties were shown.
 
 P5 determines whether those results satisfy governance gates.
 
----
+______________________________________________________________________
 
-# 207. Governance and Deployment
+## 207. Governance and Deployment
 
 Deployment requires operational authority in addition to technical deployability.
 
----
+______________________________________________________________________
 
-# 208. Governance and Observability
+## 208. Governance and Observability
 
 Post-commit state should be observable enough to assess success, failure, or rollback conditions.
 
----
+______________________________________________________________________
 
-# 209. Governance and Provenance
+## 209. Governance and Provenance
 
 Every consequential policy, authority grant, approval, delegation, revocation, and commit should retain provenance.
 
----
+______________________________________________________________________
 
-# 210. Governance and Dependency Graph
+## 210. Governance and Dependency Graph
 
 Authority decisions should be dependency-aware where downstream impact is material.
 
----
+______________________________________________________________________
 
-# 211. Governance and Research
+## 211. Governance and Research
 
 Research may often operate with:
 
@@ -3679,9 +3684,9 @@ CANON_COMMIT
 
 authority.
 
----
+______________________________________________________________________
 
-# 212. Research Freedom Boundary
+## 212. Research Freedom Boundary
 
 Experimental freedom should not silently grant:
 
@@ -3697,9 +3702,9 @@ irreversible
 
 authority.
 
----
+______________________________________________________________________
 
-# 213. Agent Governance
+## 213. Agent Governance
 
 Agents should operate under explicit lifecycle and authority states.
 
@@ -3719,9 +3724,9 @@ SUSPENDED
 REVOKED
 ```
 
----
+______________________________________________________________________
 
-# 214. Agent Authority Object
+## 214. Agent Authority Object
 
 ```yaml
 agent_authority:
@@ -3745,9 +3750,9 @@ agent_authority:
   revocation_ref: null
 ```
 
----
+______________________________________________________________________
 
-# 215. Agent Default
+## 215. Agent Default
 
 For AMOS cognitive agents:
 
@@ -3759,9 +3764,9 @@ PROPOSE_ONLY
 
 unless explicit implementation/governance establishes more.
 
----
+______________________________________________________________________
 
-# 216. External Action Boundary
+## 216. External Action Boundary
 
 The Full Brain contract explicitly preserves:
 
@@ -3790,9 +3795,9 @@ AMOS RECOMMENDATION
 AUTOMATIC WORLD ACTION
 ```
 
----
+______________________________________________________________________
 
-# 217. Action Object
+## 217. Action Object
 
 ```yaml
 action_request:
@@ -3820,9 +3825,9 @@ action_request:
   status: PROPOSED
 ```
 
----
+______________________________________________________________________
 
-# 218. Action States
+## 218. Action States
 
 Suggested:
 
@@ -3848,9 +3853,9 @@ REVOKED
 UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 219. Action Verification
+## 219. Action Verification
 
 After execution:
 
@@ -3860,21 +3865,21 @@ verify actual state
 
 rather than assuming the requested effect occurred.
 
----
+______________________________________________________________________
 
-# 220. Action Idempotency
+## 220. Action Idempotency
 
 Where possible, actions should indicate whether repeated execution is safe.
 
----
+______________________________________________________________________
 
-# 221. Duplicate Commit Protection
+## 221. Duplicate Commit Protection
 
 Effectful requests should prevent accidental duplicate execution where relevant.
 
----
+______________________________________________________________________
 
-# 222. Authority Replay Risk
+## 222. Authority Replay Risk
 
 Old authorization must not be replayed after:
 
@@ -3888,15 +3893,15 @@ revocation
 scope change
 ```
 
----
+______________________________________________________________________
 
-# 223. Replay Protection
+## 223. Replay Protection
 
 Authorization should bind enough state to reject stale reuse.
 
----
+______________________________________________________________________
 
-# 224. Governance Protocol
+## 224. Governance Protocol
 
 Conceptually:
 
@@ -3926,9 +3931,9 @@ VERIFY
 AUDIT
 ```
 
----
+______________________________________________________________________
 
-# 225. Governance Workflow — Canon Promotion
+## 225. Governance Workflow — Canon Promotion
 
 ```text
 CANDIDATE ARTIFACT
@@ -3956,9 +3961,9 @@ ATOMIC SSOT UPDATE
 AUDIT
 ```
 
----
+______________________________________________________________________
 
-# 226. Governance Workflow — Deployment
+## 226. Governance Workflow — Deployment
 
 ```text
 DEPLOYMENT CANDIDATE
@@ -3982,9 +3987,9 @@ CANARY / STAGED COMMIT
 VERIFY
 ```
 
----
+______________________________________________________________________
 
-# 227. Governance Workflow — Revocation
+## 227. Governance Workflow — Revocation
 
 ```text
 DETECT CRITICAL FAILURE
@@ -4004,9 +4009,9 @@ AUDIT
 REPAIR
 ```
 
----
+______________________________________________________________________
 
-# 228. Governance Workflow — Delegation
+## 228. Governance Workflow — Delegation
 
 ```text
 REQUEST DELEGATION
@@ -4028,9 +4033,9 @@ COMMIT DELEGATION
 AUDIT
 ```
 
----
+______________________________________________________________________
 
-# 229. Governance Workflow — Emergency
+## 229. Governance Workflow — Emergency
 
 ```text
 TRIGGER
@@ -4048,9 +4053,9 @@ RETURN TO NORMAL GOVERNANCE
 POST-INCIDENT REVIEW
 ```
 
----
+______________________________________________________________________
 
-# 230. Governance Workflow — Policy Change
+## 230. Governance Workflow — Policy Change
 
 ```text
 PROPOSE POLICY CHANGE
@@ -4074,9 +4079,9 @@ SUPERSEDE OLD POLICY
 AUDIT
 ```
 
----
+______________________________________________________________________
 
-# 231. Governance Audit
+## 231. Governance Audit
 
 Audit should verify:
 
@@ -4110,9 +4115,9 @@ execution verified?
 audit log complete?
 ```
 
----
+______________________________________________________________________
 
-# 232. Governance Audit Capsule
+## 232. Governance Audit Capsule
 
 ```yaml
 governance_audit:
@@ -4144,9 +4149,9 @@ governance_audit:
   result: null
 ```
 
----
+______________________________________________________________________
 
-# 233. Authority Audit
+## 233. Authority Audit
 
 Audit:
 
@@ -4166,9 +4171,9 @@ with what revocation state?
 with what redelegation rights?
 ```
 
----
+______________________________________________________________________
 
-# 234. Authority Audit Finding Classes
+## 234. Authority Audit Finding Classes
 
 ```text
 UNKNOWN_PRINCIPAL
@@ -4194,9 +4199,9 @@ MISSING_PROVENANCE
 MISSING_REVOCATION_PATH
 ```
 
----
+______________________________________________________________________
 
-# 235. Governance Finding Classes
+## 235. Governance Finding Classes
 
 ```text
 PROPOSAL_COMMIT_COLLAPSE
@@ -4232,9 +4237,9 @@ DEPLOYMENT_WITHOUT_AUTHORITY
 UNKNOWN_AUTHORITY_ASSUMED
 ```
 
----
+______________________________________________________________________
 
-# 236. Critical P5 Findings
+## 236. Critical P5 Findings
 
 Block consequential action when:
 
@@ -4262,9 +4267,9 @@ canon promotion lacks governance
 external executor authority missing
 ```
 
----
+______________________________________________________________________
 
-# 237. P5 Tests
+## 237. P5 Tests
 
 Minimum:
 
@@ -4302,75 +4307,75 @@ emergency expiry test
 split-brain test
 ```
 
----
+______________________________________________________________________
 
-# 238. Principal Identity Test
+## 238. Principal Identity Test
 
 Actioning principal must resolve to known identity or explicitly anonymous/unknown class if policy permits.
 
----
+______________________________________________________________________
 
-# 239. Authority Scope Test
+## 239. Authority Scope Test
 
 Requested action must fit authority envelope.
 
----
+______________________________________________________________________
 
-# 240. Authority Freshness Test
+## 240. Authority Freshness Test
 
 Authority must be valid at action time.
 
----
+______________________________________________________________________
 
-# 241. Delegation Test
+## 241. Delegation Test
 
 Delegator must possess delegated rights.
 
----
+______________________________________________________________________
 
-# 242. Redelegation Test
+## 242. Redelegation Test
 
 Delegate may only redelegate when explicitly allowed.
 
----
+______________________________________________________________________
 
-# 243. Policy Precedence Test
+## 243. Policy Precedence Test
 
 Conflicting policies must resolve under declared precedence.
 
----
+______________________________________________________________________
 
-# 244. Proposal/Commit Test
+## 244. Proposal/Commit Test
 
 A proposal alone must not mutate authoritative state.
 
----
+______________________________________________________________________
 
-# 245. Approval/Version Test
+## 245. Approval/Version Test
 
 Approval should fail if target version changed materially.
 
----
+______________________________________________________________________
 
-# 246. Validation Gate Test
+## 246. Validation Gate Test
 
 Required validator failure should block transition unless governed exception exists.
 
----
+______________________________________________________________________
 
-# 247. Dependency Gate Test
+## 247. Dependency Gate Test
 
 High-impact changes should identify affected dependency closure.
 
----
+______________________________________________________________________
 
-# 248. Risk Gate Test
+## 248. Risk Gate Test
 
 Governance rigor should scale with impact and irreversibility.
 
----
+______________________________________________________________________
 
-# 249. Rollback Test
+## 249. Rollback Test
 
 Where rollback is required:
 
@@ -4380,33 +4385,33 @@ simulate or verify rollback
 
 before high-risk commit when feasible.
 
----
+______________________________________________________________________
 
-# 250. Audit Test
+## 250. Audit Test
 
 Consequential decision should be reconstructable.
 
----
+______________________________________________________________________
 
-# 251. Revocation Test
+## 251. Revocation Test
 
 Revoked authority must no longer permit new effectful operations.
 
----
+______________________________________________________________________
 
-# 252. Emergency Expiry Test
+## 252. Emergency Expiry Test
 
 Emergency grants must stop after expiry unless renewed.
 
----
+______________________________________________________________________
 
-# 253. Split-Brain Test
+## 253. Split-Brain Test
 
 Only one authoritative current policy/authority state should exist where exclusivity is required.
 
----
+______________________________________________________________________
 
-# 254. P5 Invariants
+## 254. P5 Invariants
 
 ## Capability invariant
 
@@ -4492,9 +4497,9 @@ governance cannot convert weak evidence into strong evidence
 AMOS internal reasoning does not itself create external execution authority
 ```
 
----
+______________________________________________________________________
 
-# 255. P5 State Variables
+## 255. P5 State Variables
 
 Conceptual:
 
@@ -4550,9 +4555,9 @@ commit state
 
 These are architecture variables, not universal scalars.
 
----
+______________________________________________________________________
 
-# 256. P5 Operators
+## 256. P5 Operators
 
 Architecture-level semantic operators:
 
@@ -4620,9 +4625,9 @@ TRACE_DEPENDENCY_IMPACT()
 
 These are semantic contracts, not claims of implemented runtime functions.
 
----
+______________________________________________________________________
 
-# 257. Governance Agent
+## 257. Governance Agent
 
 A governance agent may:
 
@@ -4648,9 +4653,9 @@ propose approval or rejection
 propose escalation
 ```
 
----
+______________________________________________________________________
 
-# 258. Governance Agent Default Authority
+## 258. Governance Agent Default Authority
 
 Default:
 
@@ -4666,9 +4671,9 @@ PROPOSE_ONLY
 
 unless explicitly governed otherwise.
 
----
+______________________________________________________________________
 
-# 259. Governance Agent Contract
+## 259. Governance Agent Contract
 
 ```yaml
 agent:
@@ -4714,9 +4719,9 @@ agent:
   audit_log: required
 ```
 
----
+______________________________________________________________________
 
-# 260. Governance Registry
+## 260. Governance Registry
 
 A derived implementation may maintain:
 
@@ -4740,9 +4745,9 @@ P5_GOVERNANCE_AUTHORITY/
 
 This is proposed infrastructure, not an assertion that such storage currently exists.
 
----
+______________________________________________________________________
 
-# 261. Authority Registry Entry
+## 261. Authority Registry Entry
 
 ```yaml
 authority_registry_entry:
@@ -4768,9 +4773,9 @@ authority_registry_entry:
   provenance_ref: null
 ```
 
----
+______________________________________________________________________
 
-# 262. Decision Registry Entry
+## 262. Decision Registry Entry
 
 ```yaml
 decision_registry_entry:
@@ -4794,9 +4799,9 @@ decision_registry_entry:
   status: null
 ```
 
----
+______________________________________________________________________
 
-# 263. Authority SSOT
+## 263. Authority SSOT
 
 Current authority state should resolve through governed versioning.
 
@@ -4810,9 +4815,9 @@ AUTHORITY_CREATOR
 
 The registry records authority; governance establishes it.
 
----
+______________________________________________________________________
 
-# 264. Governance SSOT
+## 264. Governance SSOT
 
 Current policy should be uniquely resolved within:
 
@@ -4828,9 +4833,9 @@ regime
 
 where exclusivity applies.
 
----
+______________________________________________________________________
 
-# 265. P5 Core Laws
+## 265. P5 Core Laws
 
 ```text
 CAPABILITY
@@ -4843,144 +4848,172 @@ KNOWLEDGE
 !=
 AUTHORITY
 ```
+
 ```text
 INTELLIGENCE
 !=
 AUTHORITY
 ```
+
 ```text
 CONFIDENCE
 !=
 AUTHORITY
 ```
+
 ```text
 EXPERTISE
 !=
 AUTHORITY
 ```
+
 ```text
 AUTHENTICATION
 !=
 AUTHORIZATION
 ```
+
 ```text
 AUTHORIZATION
 !=
 SUCCESS
 ```
+
 ```text
 PROPOSAL
 !=
 APPROVAL
 ```
+
 ```text
 APPROVAL
 !=
 COMMIT
 ```
+
 ```text
 COMMIT
 !=
 EXECUTION_SUCCESS
 ```
+
 ```text
 VALIDATION
 !=
 AUTHORITY
 ```
+
 ```text
 EVIDENCE
 !=
 PERMISSION
 ```
+
 ```text
 POLICY
 !=
 REALITY
 ```
+
 ```text
 AMOS_POLICY
 !=
 EXTERNAL_LAW
 ```
+
 ```text
 OWNERSHIP
 !=
 TRUTH
 ```
+
 ```text
 STEWARD
 !=
 UNBOUNDED_OWNER
 ```
+
 ```text
 LOCAL_AUTHORITY
 !=
 GLOBAL_AUTHORITY
 ```
+
 ```text
 PAST_AUTHORITY
 !=
 CURRENT_AUTHORITY
 ```
+
 ```text
 DELEGATED_AUTHORITY
 <=
 DELEGATOR_AUTHORITY
 ```
+
 ```text
 AUTHORITY_TO_ACT
 !=
 AUTHORITY_TO_DELEGATE
 ```
+
 ```text
 EMERGENCY_AUTHORITY
 !=
 PERMANENT_AUTHORITY
 ```
+
 ```text
 QUORUM
 !=
 EMPIRICAL_VALIDATION
 ```
+
 ```text
 MAJORITY
 !=
 TRUTH
 ```
+
 ```text
 CONSENSUS
 !=
 PROOF
 ```
+
 ```text
 READ
 !=
 WRITE
 ```
+
 ```text
 WRITE
 !=
 CANON_COMMIT
 ```
+
 ```text
 AGENT
 MUST NOT
 SELF-ELEVATE
 ```
+
 ```text
 UNKNOWN_AUTHORITY
 →
 NO EFFECTFUL COMMIT
 ```
+
 ```text
 UNKNOWN/GAP
 !=
 PASS
 ```
----
 
-# 266. Minimum P5 Governance Contract
+______________________________________________________________________
+
+## 266. Minimum P5 Governance Contract
 
 Before AMOS treats a consequential transition as authorized, it should be able to answer:
 
@@ -5076,9 +5109,9 @@ not:
 AUTHORIZED
 ```
 
----
+______________________________________________________________________
 
-# 267. P5 Decision Table
+## 267. P5 Decision Table
 
 ```text
 Actor can technically perform action?
@@ -5124,9 +5157,9 @@ Authority unclear?
 → UNKNOWN / NO COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 268. P5 Authority Decision Table
+## 268. P5 Authority Decision Table
 
 ```text
 Need only inspection?
@@ -5163,9 +5196,9 @@ Need transfer rights?
 → DELEGATE, if permitted
 ```
 
----
+______________________________________________________________________
 
-# 269. P5 Escalation Decision Table
+## 269. P5 Escalation Decision Table
 
 ```text
 Local authority sufficient?
@@ -5196,9 +5229,9 @@ Competing governance interpretations?
 → preserve conflict until resolved
 ```
 
----
+______________________________________________________________________
 
-# 270. P5 RSCF Completion State
+## 270. P5 RSCF Completion State
 
 The placeholder:
 
@@ -5300,9 +5333,9 @@ confidence_ceiling:
   exact_agent_execution_authority: UNKNOWN_UNLESS_EXPLICITLY_GRANTED
 ```
 
----
+______________________________________________________________________
 
-# 271. Known Gaps
+## 271. Known Gaps
 
 The following remain `UNKNOWN/GAP` until explicit AMOS canon or implementation defines them:
 
@@ -5374,9 +5407,9 @@ exact multi-object atomic governance mechanism
 
 Do not fabricate these as implemented.
 
----
+______________________________________________________________________
 
-# 272. Completion Status
+## 272. Completion Status
 
 This artifact should no longer remain:
 
@@ -5420,9 +5453,9 @@ external_legal_authority_status: NOT_ESTABLISHED
 autonomous_world_authority_status: NOT_GRANTED_BY_AMOS_ARCHITECTURE
 ```
 
----
+______________________________________________________________________
 
-# 273. Final Contract
+## 273. Final Contract
 
 `P5 Governance / Authority` is the **decision legitimacy, permission, commitment, delegation, and accountability plane** of the AMOS Universe Canon.
 
@@ -5588,15 +5621,15 @@ UNKNOWN/GAP.
 DO NOT COMMIT.
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
 
 RSCF-NODE
 
@@ -5627,5 +5660,6 @@ claim_class: AMOS_MODEL
 **Conclusion class:** `DERIVED / CONDITIONAL`. P5 now functions as the full **governance, authority, delegation, approval, commitment, execution-control, revocation, accountability, and audit plane** after P4. The decisive AMOS boundary remains that architectural capability or model intelligence never independently grants execution authority; the Full Brain source explicitly preserves the lack of autonomous world action without an external executor.
 ```
 
----
+______________________________________________________________________
+
 **MOC:** [[01_CANON/02_UNIVERSE_CANON/02_UNIVERSE_CANON_MOC|02_UNIVERSE_CANON_MOC]]

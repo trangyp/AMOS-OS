@@ -9,11 +9,11 @@ epistemic_class: MODEL
 primitive: L04_OBJECT_ENTITY_FORMATION
 artifact: VARIABLES.md
 tags:
-- cognitive-matrix
-- primitives
-- matrix/l04-object-entity-formation
-- note
-- domain/cognitive-matrix
+  - cognitive-matrix
+  - primitives
+  - matrix/l04-object-entity-formation
+  - note
+  - domain/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -55,9 +55,9 @@ candidate != committed state
 
 The variables below are candidate AMOS model variables. Their presence in this specification does not establish that an authoritative L04 runtime currently implements them.
 
----
+______________________________________________________________________
 
-# 1. Source / Canon References
+## 1. Source / Canon References
 
 ## 1.1 Source-aligned basis
 
@@ -114,9 +114,9 @@ canonical_thresholds: UNKNOWN_GAP
 
 Everything newly specified below is `AMOS_MODEL`, not recovered canon.
 
----
+______________________________________________________________________
 
-# 2. Definition and Scope
+## 2. Definition and Scope
 
 An `L04Variable` is a typed state-bearing value used to represent or govern:
 
@@ -163,9 +163,9 @@ production implementation claims
 empirical benchmark claims
 ```
 
----
+______________________________________________________________________
 
-# 3. Root Typed State
+## 3. Root Typed State
 
 ```yaml
 L04ObjectEntityState:
@@ -237,9 +237,9 @@ L04ObjectEntityState:
     type: L04LifecycleState
 ```
 
----
+______________________________________________________________________
 
-# 4. Input Variables
+## 4. Input Variables
 
 ## 4.1 Percept input
 
@@ -300,9 +300,9 @@ requires provenance + applicability evaluation
 where those are load-bearing.
 ```
 
----
+______________________________________________________________________
 
-# 5. Feature Variables
+## 5. Feature Variables
 
 ```yaml
 FeatureRecord:
@@ -343,9 +343,9 @@ FEATURE != OBJECT
 
 A feature may support object formation but cannot by itself instantiate an object unless authoritative canon explicitly defines such an operator.
 
----
+______________________________________________________________________
 
-# 6. Distinction Variables
+## 6. Distinction Variables
 
 ```yaml
 DistinctionRecord:
@@ -378,9 +378,9 @@ DistinctionRecord:
 
 Candidate conceptual notation:
 
-[
-D(a,b\mid c)
-]
+\[
+D(a,b\\mid c)
+\]
 
 where `c` is the declared distinction criterion.
 
@@ -392,9 +392,9 @@ Invariant:
 D(a,b) does not imply causal independence.
 ```
 
----
+______________________________________________________________________
 
-# 7. Relation Variables
+## 7. Relation Variables
 
 ```yaml
 RelationRecord:
@@ -441,9 +441,9 @@ derived_from
 
 No relation class automatically licenses causation.
 
----
+______________________________________________________________________
 
-# 8. Boundary Variables
+## 8. Boundary Variables
 
 ```yaml
 BoundaryHypothesis:
@@ -489,9 +489,9 @@ cannot exceed its weakest unresolved
 load-bearing distinction/relation evidence.
 ```
 
----
+______________________________________________________________________
 
-# 9. Binding Variables
+## 9. Binding Variables
 
 ```yaml
 BindingHypothesis:
@@ -533,9 +533,9 @@ ADJACENCY != BINDING
 SIMILARITY != BINDING
 ```
 
----
+______________________________________________________________________
 
-# 10. Object Candidate Variables
+## 10. Object Candidate Variables
 
 ```yaml
 ObjectCandidate:
@@ -600,9 +600,9 @@ does not imply
 persistent entity identity.
 ```
 
----
+______________________________________________________________________
 
-# 11. Continuity Variables
+## 11. Continuity Variables
 
 ```yaml
 ContinuityHypothesis:
@@ -642,9 +642,9 @@ Hard boundary:
 CONTINUITY != IDENTITY
 ```
 
----
+______________________________________________________________________
 
-# 12. Identity Variables
+## 12. Identity Variables
 
 ```yaml
 IdentityHypothesis:
@@ -702,9 +702,9 @@ CONTINUITY alone != IDENTITY
 unless canonical semantics explicitly license it.
 ```
 
----
+______________________________________________________________________
 
-# 13. Entity Candidate Variables
+## 13. Entity Candidate Variables
 
 ```yaml
 EntityCandidate:
@@ -764,9 +764,9 @@ Critical invariant:
 ENTITY CANDIDATE != ONTOLOGICALLY VERIFIED ENTITY
 ```
 
----
+______________________________________________________________________
 
-# 14. Contradiction Variables
+## 14. Contradiction Variables
 
 ```yaml
 ContradictionRecord:
@@ -808,9 +808,9 @@ contradiction existence
 must remain queryable until legitimately resolved.
 ```
 
----
+______________________________________________________________________
 
-# 15. Competing Hypothesis Variables
+## 15. Competing Hypothesis Variables
 
 ```yaml
 CompetingHypothesisSet:
@@ -848,9 +848,9 @@ equal/incomparable support
 must not be converted into arbitrary convergence.
 ```
 
----
+______________________________________________________________________
 
-# 16. Provenance Variables
+## 16. Provenance Variables
 
 ```yaml
 ProvenanceNode:
@@ -897,9 +897,9 @@ Hard invariant:
 MULTIPLE RECORDS != MULTIPLE INDEPENDENT SOURCES
 ```
 
----
+______________________________________________________________________
 
-# 17. Dependency Variables
+## 17. Dependency Variables
 
 ```yaml
 DependencyEdge:
@@ -932,9 +932,9 @@ not
 → globally invalidate unrelated state
 ```
 
----
+______________________________________________________________________
 
-# 18. Scope Variables
+## 18. Scope Variables
 
 ```yaml
 ScopeEnvelope:
@@ -970,9 +970,9 @@ scope(derived)
 
 unless explicit independent evidence widens applicability.
 
----
+______________________________________________________________________
 
-# 19. Regime Variables
+## 19. Regime Variables
 
 ```yaml
 RegimeEnvelope:
@@ -1002,9 +1002,9 @@ RegimeEnvelope:
 
 A regime transition may invalidate only conclusions whose applicability depends on the changed regime.
 
----
+______________________________________________________________________
 
-# 20. Freshness Variables
+## 20. Freshness Variables
 
 ```yaml
 FreshnessState:
@@ -1032,9 +1032,9 @@ Hard boundary:
 previously valid != currently valid
 ```
 
----
+______________________________________________________________________
 
-# 21. Uncertainty Variables
+## 21. Uncertainty Variables
 
 ```yaml
 L04UncertaintyVector:
@@ -1078,9 +1078,9 @@ L04UncertaintyVector:
 
 These components SHOULD remain separate where their distinction affects downstream decisions.
 
----
+______________________________________________________________________
 
-# 22. Confidence Variables
+## 22. Confidence Variables
 
 ```yaml
 ConfidenceBound:
@@ -1110,19 +1110,19 @@ ConfidenceBound:
 
 Candidate AMOS confidence rule:
 
-[
+\[
 C(y)
-\le
-\min_{x\in LB(y)} C(x)
-]
+\\le
+\\min\_{x\\in LB(y)} C(x)
+\]
 
 where `LB(y)` denotes unresolved load-bearing premises for `y`.
 
 This is a governance/model equation, not a validated probabilistic law.
 
----
+______________________________________________________________________
 
-# 23. Lifecycle Variables
+## 23. Lifecycle Variables
 
 ```yaml
 L04LifecycleState:
@@ -1149,9 +1149,9 @@ L04LifecycleState:
 
 This ordering MUST NOT be interpreted as canonical mandatory serial execution. A recurrent/joint constraint architecture remains a competing implementation model until canon resolves the issue.
 
----
+______________________________________________________________________
 
-# 24. Authority Variables
+## 24. Authority Variables
 
 ```yaml
 AuthorityState:
@@ -1189,9 +1189,9 @@ does not imply
 operator_authorized == true
 ```
 
----
+______________________________________________________________________
 
-# 25. Revision / Transaction Variables
+## 25. Revision / Transaction Variables
 
 ```yaml
 L04RevisionState:
@@ -1230,9 +1230,9 @@ proposed_revision != authoritative_revision
 until governed commit succeeds.
 ```
 
----
+______________________________________________________________________
 
-# 26. Typed Outputs
+## 26. Typed Outputs
 
 Primary candidate outputs:
 
@@ -1266,9 +1266,9 @@ L04Output:
 
 No output automatically implies durable mutation.
 
----
+______________________________________________________________________
 
-# 27. Operators
+## 27. Operators
 
 Candidate variable-mutating operators:
 
@@ -1327,9 +1327,9 @@ ROLLBACK
 
 These names are `MODEL` unless recovered from authoritative canon.
 
----
+______________________________________________________________________
 
-# 28. Variable Invariants
+## 28. Variable Invariants
 
 ```text
 V01
@@ -1403,9 +1403,9 @@ V20
 UNKNOWN/GAP MUST REMAIN REPRESENTABLE.
 ```
 
----
+______________________________________________________________________
 
-# 29. Dependencies
+## 29. Dependencies
 
 Candidate upstream dependency chain:
 
@@ -1443,9 +1443,9 @@ control-plane state
 
 The apparent chain is architectural, not evidence that cognition itself proceeds strictly serially.
 
----
+______________________________________________________________________
 
-# 30. H/M/L Applicability
+## 30. H/M/L Applicability
 
 ## L — Local evidence variables
 
@@ -1500,9 +1500,9 @@ Hard invariant:
 L support != M support != H support
 ```
 
----
+______________________________________________________________________
 
-# 31. Control-Plane Requirements
+## 31. Control-Plane Requirements
 
 The control plane SHOULD own or validate:
 
@@ -1533,9 +1533,9 @@ new entity
 
 Workers MUST NOT obtain durable authority merely because they generated a valid proposal.
 
----
+______________________________________________________________________
 
-# 32. Agents
+## 32. Agents
 
 Candidate logical roles:
 
@@ -1555,9 +1555,9 @@ L04_REPAIR_AGENT
 
 These are role specifications, not claims of deployed agents.
 
----
+______________________________________________________________________
 
-# 33. Skills
+## 33. Skills
 
 Candidate supporting AMOS capabilities:
 
@@ -1577,9 +1577,9 @@ amos-claim-verifier
 
 Skill availability does not establish L04 implementation.
 
----
+______________________________________________________________________
 
-# 34. Workflow
+## 34. Workflow
 
 Candidate state workflow:
 
@@ -1621,9 +1621,9 @@ CONTROL-PLANE VALIDATION
 COMMIT OR REJECT
 ```
 
----
+______________________________________________________________________
 
-# 35. Protocols
+## 35. Protocols
 
 Candidate variable-facing protocols:
 
@@ -1644,9 +1644,9 @@ L04_VAR_COMMIT
 
 Protocol identifiers are `MODEL`.
 
----
+______________________________________________________________________
 
-# 36. Evidence / Provenance
+## 36. Evidence / Provenance
 
 Every consequential variable SHOULD support reconstruction of:
 
@@ -1684,18 +1684,18 @@ VariableEvidence:
 
 No derived object/entity claim should become stronger merely because provenance metadata was omitted.
 
----
+______________________________________________________________________
 
-# 37. Uncertainty and Confidence Ceiling
+## 37. Uncertainty and Confidence Ceiling
 
 The L04 confidence ceiling is governed by load-bearing evidence rather than representational completeness.
 
 Candidate rule:
 
-[
+\[
 C(E)
-\le
-\min(
+\\le
+\\min(
 C(P),
 C(D),
 C(Bnd),
@@ -1704,7 +1704,7 @@ C(Cont),
 C(Id),
 C(Prov)
 )
-]
+\]
 
 only for components that are actually load-bearing for the entity claim.
 
@@ -1729,9 +1729,9 @@ empirical_cognitive_validity:
   confidence_ceiling: 0
 ```
 
----
+______________________________________________________________________
 
-# 38. Failure Modes
+## 38. Failure Modes
 
 ```yaml
 failure_modes:
@@ -1794,9 +1794,9 @@ failure_modes:
     severity: CRITICAL
 ```
 
----
+______________________________________________________________________
 
-# 39. Repair / Recovery
+## 39. Repair / Recovery
 
 Variable repair SHOULD follow:
 
@@ -1826,9 +1826,9 @@ PROPOSE RECOMMIT
 
 Repair MUST NOT erase the failed value's provenance merely to restore apparent consistency.
 
----
+______________________________________________________________________
 
-# 40. Tests / Validators
+## 40. Tests / Validators
 
 Minimum validators:
 
@@ -1874,9 +1874,9 @@ stale revision commit
 
 These tests are specifications until executed.
 
----
+______________________________________________________________________
 
-# 41. Falsifiers
+## 41. Falsifiers
 
 Revise this contract if authoritative canon demonstrates:
 
@@ -1910,9 +1910,9 @@ treated as an interface projection rather than
 canonical internal representation.
 ```
 
----
+______________________________________________________________________
 
-# 42. Gap Status
+## 42. Gap Status
 
 ```yaml
 gap_status:
@@ -1984,9 +1984,9 @@ gap_status:
     status: UNKNOWN_GAP
 ```
 
----
+______________________________________________________________________
 
-# 43. RSCF Capsule
+## 43. RSCF Capsule
 
 ```yaml
 rscf:
@@ -2049,9 +2049,9 @@ rscf:
     empirical_validation: UNKNOWN_GAP
 ```
 
----
+______________________________________________________________________
 
-# 44. Completion State
+## 44. Completion State
 
 ```yaml
 completion_state:
@@ -2129,9 +2129,9 @@ completion_state:
     MODEL
 ```
 
----
+______________________________________________________________________
 
-# 45. Hard Boundaries
+## 45. Hard Boundaries
 
 ```text
 PLACEHOLDER != IMPLEMENTED
@@ -2187,15 +2187,15 @@ MUTABLE != AUTHORIZED
 PROPOSED_REVISION != AUTHORITATIVE_REVISION
 ```
 
----
+______________________________________________________________________
 
-# 46. Governing Variable Contract
+## 46. Governing Variable Contract
 
 > **`L04_OBJECT_ENTITY_FORMATION` SHALL preserve typed separation among percepts, features, distinctions, relations, boundaries, bindings, object candidates, continuity hypotheses, identity hypotheses, and entity candidates. Every consequential derived variable SHALL retain sufficient provenance, dependency, scope, regime, freshness, epistemic-class, and uncertainty information to determine whether downstream reuse remains licensed. Similarity, naming, adjacency, temporal sequence, or structural resemblance SHALL NOT silently establish identity. Contradictions and genuinely competing object/entity hypotheses SHALL remain representable. Derived confidence SHALL NOT exceed unresolved load-bearing support without independent revalidation. Invalidating one variable SHALL selectively invalidate its dependent descendants rather than unrelated state. Variable mutability SHALL NOT imply authority, and proposed state SHALL remain distinct from authoritative committed state. Missing canonical semantics SHALL remain `UNKNOWN/GAP` rather than being filled by implementation convenience.**
 
----
+______________________________________________________________________
 
-# 47. Final Classification
+## 47. Final Classification
 
 ```text
 CONCLUSION CLASS:
@@ -2225,23 +2225,27 @@ BLOCKED
 
 ```
 ```
----
+
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: l04_object_entity_formation_primitives_cognitive_matrix_variables
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L04_OBJECT_ENTITY_FORMATION/L04_OBJECT_ENTITY_FORMATION_PRIMITIVES_COGNITIVE_MATRIX_VARIABLES.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L04_OBJECT_ENTITY_FORMATION/L04_OBJECT_ENTITY_FORMATION_MOC|L04_OBJECT_ENTITY_FORMATION_MOC]]
-

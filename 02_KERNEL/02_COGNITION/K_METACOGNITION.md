@@ -17,52 +17,61 @@ scope: AMOS_OS
 created: 2026-08-25
 updated: 2026-08-25
 tags:
-- amos-os
-- kernel
-- core
-- canon-group/tech-ai
-- canon/model
-- kernel/reasoning
-- kernel/metacognition
-- kernel/epistemic
-- kernel/provenance
-- kernel/uncertainty
-- kernel/validation
-- kernel/dependency
-- kernel/scope
-- kernel/regime
-- kernel/sensitivity
-- kernel/rscf
-- rscf/claim
-- rscf/provenance
-- rscf/state/model
-- topic/metacognition
-- readme
-- architecture
-- amos-core-laws
-- law-hierarchy
-- canon-provenance
-- source-lineage
-- supersession-log
-- k-core19-logic
-- k-distinction-relation-constraint
-- k-law-hierarchy
-- k-meta-logic
-- k-counterfactual
-- authoritative-state
+  - amos-os
+  - kernel
+  - core
+  - canon-group/tech-ai
+  - canon/model
+  - kernel/reasoning
+  - kernel/metacognition
+  - kernel/epistemic
+  - kernel/provenance
+  - kernel/uncertainty
+  - kernel/validation
+  - kernel/dependency
+  - kernel/scope
+  - kernel/regime
+  - kernel/sensitivity
+  - kernel/rscf
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/model
+  - topic/metacognition
+  - readme
+  - architecture
+  - amos-core-laws
+  - law-hierarchy
+  - canon-provenance
+  - source-lineage
+  - supersession-log
+  - k-core19-logic
+  - k-distinction-relation-constraint
+  - k-law-hierarchy
+  - k-meta-logic
+  - k-counterfactual
+  - authoritative-state
 aliases:
-- AMOS Metacognition Kernel - Metacognition Kernel - K Metacognition - K_METACOGNITION
+  - AMOS Metacognition Kernel - Metacognition Kernel - K Metacognition - K_METACOGNITION
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 # K_METACOGNITION
+
 > **AMOS Core target:** `v4.4`
 > **Origin architect / steward:** Trang Phan
 > **Plane:** `02_KERNEL`
 > **Status:** `AMOS_MODEL`
 > **Conclusion class:** `AMOS_MODEL`
+
 ## Purpose
+
 `K_METACOGNITION` defines the AMOS kernel contract for reasoning about the quality, limits, state, and reliability of reasoning itself.
 Its core function is:
+
 ```text
 REASON
 ↓
@@ -78,17 +87,10 @@ ADAPT REASONING DEPTH
 ↓
 STOP, ESCALATE, REPAIR, OR CONTINUE
 ```
-Metacognition does not create truth by introspection.
-It governs whether a conclusion is sufficiently supported to be reused, challenged, downgraded, escalated, or rejected.
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
----
 
+## Metacognition does not create truth by introspection. It governs whether a conclusion is sufficiently supported to be reused, challenged, downgraded, escalated, or rejected. rscf: state: DERIVED claim_class: DERIVED provenance: AMOS_corpus scope: AMOS_general
 
-# 1. Architectural Position
+## 1. Architectural Position
 
 ```text
 CANON
@@ -119,9 +121,9 @@ VALIDATION
 AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 2. Core Law
+## 2. Core Law
 
 ```text
 THINKING ABOUT THINKING
@@ -153,9 +155,9 @@ ABSENCE OF DETECTED ERROR
 PROOF OF CORRECTNESS
 ```
 
----
+______________________________________________________________________
 
-# 3. Metacognitive Object
+## 3. Metacognitive Object
 
 A metacognitive state should conceptually carry:
 
@@ -196,9 +198,9 @@ metacognitive_state:
   confidence_ceiling:
 ```
 
----
+______________________________________________________________________
 
-# 4. Objective Awareness
+## 4. Objective Awareness
 
 Before evaluating reasoning quality, the kernel must know what the reasoning is trying to achieve.
 
@@ -228,9 +230,9 @@ but insufficient for:
 IRREVERSIBLE DECISION
 ```
 
----
+______________________________________________________________________
 
-# 5. Stakes Awareness
+## 5. Stakes Awareness
 
 Required validation increases with consequence.
 
@@ -252,9 +254,9 @@ DOWNSTREAM DEPENDENCY
 
 This is a governance principle, not a universal numerical formula.
 
----
+______________________________________________________________________
 
-# 6. Epistemic State
+## 6. Epistemic State
 
 Metacognition must distinguish:
 
@@ -280,9 +282,9 @@ UNKNOWN
 
 These must not silently collapse into one another.
 
----
+______________________________________________________________________
 
-# 7. Conclusion Classes
+## 7. Conclusion Classes
 
 Every material conclusion should use the weakest accurate class:
 
@@ -305,9 +307,9 @@ VERIFIED
 
 without validation.
 
----
+______________________________________________________________________
 
-# 8. Confidence Firewall
+## 8. Confidence Firewall
 
 ```text
 SUBJECTIVE CONFIDENCE
@@ -331,9 +333,9 @@ MIN(
 
 unless the relevant premise is independently revalidated.
 
----
+______________________________________________________________________
 
-# 9. Load-Bearing Premises
+## 9. Load-Bearing Premises
 
 A premise is load-bearing when changing or invalidating it can materially change a conclusion.
 
@@ -348,9 +350,9 @@ CONCLUSION C
 
 Metacognitive effort should prioritize these premises over decorative background information.
 
----
+______________________________________________________________________
 
-# 10. Dependency Awareness
+## 10. Dependency Awareness
 
 For:
 
@@ -380,9 +382,9 @@ LOCAL FAILURE
 GLOBAL FAILURE
 ```
 
----
+______________________________________________________________________
 
-# 11. Selective Invalidation
+## 11. Selective Invalidation
 
 The default recovery operation is:
 
@@ -404,9 +406,9 @@ DELETE EVERYTHING
 
 This supports repairable reasoning.
 
----
+______________________________________________________________________
 
-# 12. Contradiction Awareness
+## 12. Contradiction Awareness
 
 Metacognition must actively detect:
 
@@ -429,9 +431,9 @@ CONDITIONAL
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 13. Competing Hypotheses
+## 13. Competing Hypotheses
 
 If:
 
@@ -449,9 +451,9 @@ STATE = COMPETING
 
 Do not force convergence.
 
----
+______________________________________________________________________
 
-# 14. Adversarial Validation
+## 14. Adversarial Validation
 
 For consequential conclusions:
 
@@ -474,9 +476,9 @@ CAUSAL OVERREACH
 STRONGER ALTERNATIVE
 ```
 
----
+______________________________________________________________________
 
-# 15. Independent Challenge Requirement
+## 15. Independent Challenge Requirement
 
 Repeating the same reasoning in different words is not independent validation.
 
@@ -492,9 +494,9 @@ CORRELATED CHECK
 
 not independent confirmation.
 
----
+______________________________________________________________________
 
-# 16. Provenance Awareness
+## 16. Provenance Awareness
 
 Metacognition should ask:
 
@@ -522,9 +524,9 @@ SUMMARY D
 
 may represent one provenance family.
 
----
+______________________________________________________________________
 
-# 17. Provenance Independence Firewall
+## 17. Provenance Independence Firewall
 
 ```text
 MULTIPLE DOCUMENTS
@@ -534,9 +536,9 @@ MULTIPLE INDEPENDENT SOURCES
 
 Independence must be demonstrated when it materially affects confidence.
 
----
+______________________________________________________________________
 
-# 18. Freshness Awareness
+## 18. Freshness Awareness
 
 A previously valid conclusion may become invalid when its temporal assumptions expire.
 
@@ -554,9 +556,9 @@ FRESHNESS_VALID(C, t)
 
 Freshness is claim-specific.
 
----
+______________________________________________________________________
 
-# 19. Scope Awareness
+## 19. Scope Awareness
 
 Every material claim inherits an applicability envelope.
 
@@ -576,9 +578,9 @@ scope:
 
 Metacognition must detect attempts to generalize beyond this envelope.
 
----
+______________________________________________________________________
 
-# 20. Scope Leakage
+## 20. Scope Leakage
 
 Example:
 
@@ -604,9 +606,9 @@ does not prove:
 VALID AT SCALE 1000X
 ```
 
----
+______________________________________________________________________
 
-# 21. Regime Awareness
+## 21. Regime Awareness
 
 A conclusion may be valid under:
 
@@ -622,9 +624,9 @@ REGIME R2
 
 Metacognition must test whether the environment has crossed a regime boundary.
 
----
+______________________________________________________________________
 
-# 22. Causal Awareness
+## 22. Causal Awareness
 
 Metacognition must detect when reasoning silently upgrades:
 
@@ -649,9 +651,9 @@ FEEDBACK
 CAUSAL EFFECT
 ```
 
----
+______________________________________________________________________
 
-# 23. Causal Overreach Firewall
+## 23. Causal Overreach Firewall
 
 The following are insufficient by themselves to establish causation:
 
@@ -666,9 +668,9 @@ NARRATIVE COHERENCE
 
 Metacognition must downgrade conclusions that exceed the causal evidence type.
 
----
+______________________________________________________________________
 
-# 24. Structural Similarity Firewall
+## 24. Structural Similarity Firewall
 
 ```text
 STRUCTURE(A) ≈ STRUCTURE(B)
@@ -688,9 +690,9 @@ CAUSAL EQUIVALENCE
 
 Cross-domain mappings remain `MODEL` unless independently validated.
 
----
+______________________________________________________________________
 
-# 25. Uncertainty Vector
+## 25. Uncertainty Vector
 
 Material uncertainty should be decomposed:
 
@@ -715,9 +717,9 @@ This prevents the phrase:
 
 from hiding what is actually uncertain.
 
----
+______________________________________________________________________
 
-# 26. Evidence Uncertainty
+## 26. Evidence Uncertainty
 
 Ask:
 
@@ -735,9 +737,9 @@ CONFLICTING OBSERVATIONS
 MEASUREMENT ERROR
 ```
 
----
+______________________________________________________________________
 
-# 27. Model Uncertainty
+## 27. Model Uncertainty
 
 Ask:
 
@@ -749,9 +751,9 @@ Multiple models may explain the same evidence.
 
 Model uncertainty must not be mislabeled as evidence uncertainty.
 
----
+______________________________________________________________________
 
-# 28. Scope Uncertainty
+## 28. Scope Uncertainty
 
 Ask:
 
@@ -773,9 +775,9 @@ UNKNOWN/GAP
 
 when material.
 
----
+______________________________________________________________________
 
-# 29. Temporal Uncertainty
+## 29. Temporal Uncertainty
 
 Ask:
 
@@ -785,9 +787,9 @@ IS THE INFORMATION STILL CURRENT ENOUGH?
 
 Stale premises should trigger revalidation when freshness can change the outcome.
 
----
+______________________________________________________________________
 
-# 30. Causal Uncertainty
+## 30. Causal Uncertainty
 
 Ask:
 
@@ -798,9 +800,9 @@ OR ONLY ASSOCIATION?
 
 This uncertainty is critical when the user intends intervention.
 
----
+______________________________________________________________________
 
-# 31. Execution Uncertainty
+## 31. Execution Uncertainty
 
 A correct plan may still fail operationally.
 
@@ -820,9 +822,9 @@ ENVIRONMENTAL VARIANCE
 DEPENDENCY FAILURE
 ```
 
----
+______________________________________________________________________
 
-# 32. Provenance-Independence Uncertainty
+## 32. Provenance-Independence Uncertainty
 
 Ask:
 
@@ -838,9 +840,9 @@ U_provenance_independence > 0
 
 and confidence should not be boosted as though independence were established.
 
----
+______________________________________________________________________
 
-# 33. Gap Classification
+## 33. Gap Classification
 
 Metacognitive gaps are classified:
 
@@ -863,9 +865,9 @@ EXPLANATORY
 COSMETIC
 ```
 
----
+______________________________________________________________________
 
-# 34. Critical Gap
+## 34. Critical Gap
 
 A critical gap prevents a safe or valid conclusion.
 
@@ -886,9 +888,9 @@ RETURN UNKNOWN/GAP
 
 and identify the minimum missing information.
 
----
+______________________________________________________________________
 
-# 35. Decision-Relevant Gap
+## 35. Decision-Relevant Gap
 
 A gap is decision-relevant when resolving it may change:
 
@@ -902,25 +904,25 @@ RESOURCE ALLOCATION
 
 These should normally be investigated before explanatory detail.
 
----
+______________________________________________________________________
 
-# 36. Explanatory Gap
+## 36. Explanatory Gap
 
 An explanatory gap affects understanding but not the current decision.
 
 It may remain unresolved once action sufficiency is reached.
 
----
+______________________________________________________________________
 
-# 37. Cosmetic Gap
+## 37. Cosmetic Gap
 
 A cosmetic gap affects presentation rather than reasoning integrity.
 
 It should not consume reasoning budget while higher-value uncertainty remains.
 
----
+______________________________________________________________________
 
-# 38. Sensitivity
+## 38. Sensitivity
 
 Metacognition asks:
 
@@ -931,9 +933,9 @@ THAT WOULD FLIP THE CONCLUSION?
 
 This identifies fragile reasoning.
 
----
+______________________________________________________________________
 
-# 39. Fragility
+## 39. Fragility
 
 If:
 
@@ -955,9 +957,9 @@ and usually:
 CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
-# 40. Robustness
+## 40. Robustness
 
 A conclusion is comparatively robust if it survives plausible perturbations of noncritical assumptions.
 
@@ -969,9 +971,9 @@ CERTAIN
 
 Robustness does not remove scope, provenance, or causal requirements.
 
----
+______________________________________________________________________
 
-# 41. Adaptive Complexity
+## 41. Adaptive Complexity
 
 AMOS reasoning depth is represented conceptually as:
 
@@ -985,9 +987,9 @@ C4 MAXIMUM
 
 Use the lowest level sufficient for integrity.
 
----
+______________________________________________________________________
 
-# 42. C0 — Direct
+## 42. C0 — Direct
 
 Appropriate when:
 
@@ -1001,9 +1003,9 @@ NO FRESHNESS PROBLEM
 
 Avoid unnecessary architecture expansion.
 
----
+______________________________________________________________________
 
-# 43. C1 — Compact
+## 43. C1 — Compact
 
 Use when limited decomposition is required but uncertainty remains small.
 
@@ -1016,9 +1018,9 @@ LIMIT
 ACTION
 ```
 
----
+______________________________________________________________________
 
-# 44. C2 — Structured
+## 44. C2 — Structured
 
 Use when reasoning requires:
 
@@ -1030,9 +1032,9 @@ BASIC PROVENANCE
 MULTIPLE OPTIONS
 ```
 
----
+______________________________________________________________________
 
-# 45. C3 — Deep
+## 45. C3 — Deep
 
 Escalate when:
 
@@ -1046,9 +1048,9 @@ MULTIPLE COMPETING MODELS
 SIGNIFICANT DEPENDENCY
 ```
 
----
+______________________________________________________________________
 
-# 46. C4 — Maximum
+## 46. C4 — Maximum
 
 Reserve for cases involving combinations such as:
 
@@ -1065,9 +1067,9 @@ SYSTEMIC FAILURE RISK
 
 Maximum complexity is not intrinsically better.
 
----
+______________________________________________________________________
 
-# 47. Escalation Rule
+## 47. Escalation Rule
 
 Escalate when additional reasoning can materially alter:
 
@@ -1080,9 +1082,9 @@ RISK
 
 Do not escalate merely because more analysis is possible.
 
----
+______________________________________________________________________
 
-# 48. De-escalation Rule
+## 48. De-escalation Rule
 
 Once outcome-changing uncertainty is resolved:
 
@@ -1092,9 +1094,9 @@ DE-ESCALATE
 
 Do not continue expanding analysis without positive expected decision value.
 
----
+______________________________________________________________________
 
-# 49. Reasoning Budget
+## 49. Reasoning Budget
 
 Metacognitive effort should be allocated where uncertainty reduction has the highest decision value.
 
@@ -1110,9 +1112,9 @@ COST_OF_RESOLUTION(U_i)
 
 This is an architectural optimization model, not a claim of literal numerical runtime calculation.
 
----
+______________________________________________________________________
 
-# 50. Smallest Sufficient Proof Scope
+## 50. Smallest Sufficient Proof Scope
 
 v4.4 fast-path reasoning prefers:
 
@@ -1124,9 +1126,9 @@ THE REQUIRED CONCLUSION
 
 Do not traverse unrelated knowledge.
 
----
+______________________________________________________________________
 
-# 51. Local Reasoning Fast Path
+## 51. Local Reasoning Fast Path
 
 Local reasoning is admissible only when:
 
@@ -1148,9 +1150,9 @@ NO MATERIAL CONFLICT
 
 Then global reasoning may be avoided.
 
----
+______________________________________________________________________
 
-# 52. Fast-Path Escalation
+## 52. Fast-Path Escalation
 
 Escalate from local reasoning if:
 
@@ -1165,9 +1167,9 @@ GOVERNANCE IMPACT DETECTED
 IRREVERSIBLE STAKES DETECTED
 ```
 
----
+______________________________________________________________________
 
-# 53. H/M/L Retrieval Awareness
+## 53. H/M/L Retrieval Awareness
 
 Metacognition controls retrieval depth.
 
@@ -1185,9 +1187,9 @@ RAW EVIDENCE
 
 Raw evidence is loaded only when necessary to alter the answer or validate a load-bearing premise.
 
----
+______________________________________________________________________
 
-# 54. Retrieval Firewall
+## 54. Retrieval Firewall
 
 ```text
 MORE RETRIEVAL
@@ -1206,9 +1208,9 @@ OBSCURE LOAD-BEARING PREMISES
 
 Retrieval must remain purpose-driven.
 
----
+______________________________________________________________________
 
-# 55. RSCF Awareness
+## 55. RSCF Awareness
 
 Metacognition treats RSCF structures as dependency-bearing reasoning objects.
 
@@ -1236,9 +1238,9 @@ CONFIDENCE CEILING
 
 where applicable.
 
----
+______________________________________________________________________
 
-# 56. Proof Capsule Awareness
+## 56. Proof Capsule Awareness
 
 Important conclusions should conceptually carry:
 
@@ -1267,9 +1269,9 @@ proof_capsule:
 
 Metacognition decides whether this capsule remains reusable.
 
----
+______________________________________________________________________
 
-# 57. Proof Reuse
+## 57. Proof Reuse
 
 A proof capsule may be reused only while:
 
@@ -1291,9 +1293,9 @@ Otherwise:
 REVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 58. Persistent Provenance
+## 58. Persistent Provenance
 
 A conclusion without recoverable provenance should not silently retain high trust after context loss.
 
@@ -1307,9 +1309,9 @@ WHEN IT WAS VALID
 WHAT COULD INVALIDATE IT
 ```
 
----
+______________________________________________________________________
 
-# 59. Failure Detection
+## 59. Failure Detection
 
 Metacognition should recognize:
 
@@ -1326,9 +1328,9 @@ EXECUTION FAILURE
 
 Different failures require different repair paths.
 
----
+______________________________________________________________________
 
-# 60. Failure Recovery
+## 60. Failure Recovery
 
 Default:
 
@@ -1348,9 +1350,9 @@ REROUTE
 
 Global recomputation is a last resort.
 
----
+______________________________________________________________________
 
-# 61. No Repeated Failed Path
+## 61. No Repeated Failed Path
 
 ```text
 FAILED PATH
@@ -1364,9 +1366,9 @@ DO NOT REPEAT
 
 Retry requires some changed condition.
 
----
+______________________________________________________________________
 
-# 62. Reasoning Loop Detection
+## 62. Reasoning Loop Detection
 
 Metacognition should detect loops such as:
 
@@ -1390,9 +1392,9 @@ STOP
 
 or identify the missing discriminating evidence.
 
----
+______________________________________________________________________
 
-# 63. Branch Control
+## 63. Branch Control
 
 Branch only when alternatives can materially alter the outcome.
 
@@ -1406,9 +1408,9 @@ CLAIM / DECISION / ACTION
 
 Equivalent branches should merge.
 
----
+______________________________________________________________________
 
-# 64. Branch Explosion Firewall
+## 64. Branch Explosion Firewall
 
 Do not enumerate all conceivable alternatives.
 
@@ -1423,9 +1425,9 @@ DECISION-RELEVANT
 
 branches.
 
----
+______________________________________________________________________
 
-# 65. Strongest Alternative Test
+## 65. Strongest Alternative Test
 
 Before accepting an important conclusion:
 
@@ -1441,9 +1443,9 @@ COMPETING
 
 may be the correct state.
 
----
+______________________________________________________________________
 
-# 66. Discriminating Test Selection
+## 66. Discriminating Test Selection
 
 Prefer evidence that separates hypotheses.
 
@@ -1458,9 +1460,9 @@ THAT CAN CHANGE THE DECISION
 
 Do not accumulate redundant confirmation.
 
----
+______________________________________________________________________
 
-# 67. Falsification Awareness
+## 67. Falsification Awareness
 
 Ask:
 
@@ -1470,9 +1472,9 @@ WHAT OBSERVATION WOULD MAKE THIS CONCLUSION WRONG?
 
 A claim with no identifiable falsifier may still function as a model, definition, or normative rule, but must not masquerade as an empirically testable proposition.
 
----
+______________________________________________________________________
 
-# 68. Confirmation-Bias Firewall
+## 68. Confirmation-Bias Firewall
 
 Metacognition should not search only for support.
 
@@ -1486,9 +1488,9 @@ CHALLENGE SEARCH
 
 are both required when feasible.
 
----
+______________________________________________________________________
 
-# 69. Narrative-Coherence Firewall
+## 69. Narrative-Coherence Firewall
 
 A clean story is not evidence.
 
@@ -1500,9 +1502,9 @@ VALID CAUSAL MODEL
 
 Metacognition must resist filling missing edges because the resulting explanation sounds complete.
 
----
+______________________________________________________________________
 
-# 70. Completeness Firewall
+## 70. Completeness Firewall
 
 ```text
 INCOMPLETE BUT SUPPORTED
@@ -1524,9 +1526,9 @@ SPEED
 TOKEN SAVINGS
 ```
 
----
+______________________________________________________________________
 
-# 71. Unknown Preservation
+## 71. Unknown Preservation
 
 When a critical fact is unavailable:
 
@@ -1544,9 +1546,9 @@ LIKELY FACT
 
 merely to finish the response.
 
----
+______________________________________________________________________
 
-# 72. Assumption Awareness
+## 72. Assumption Awareness
 
 Assumptions must be explicit when they are load-bearing.
 
@@ -1563,9 +1565,9 @@ assumption:
 
 Hidden assumptions are a metacognitive failure.
 
----
+______________________________________________________________________
 
-# 73. Assumption Minimization
+## 73. Assumption Minimization
 
 Prefer reasoning that requires fewer unsupported assumptions when explanatory power is otherwise comparable.
 
@@ -1573,9 +1575,9 @@ This does not establish a universal simplicity law.
 
 It is a reliability heuristic.
 
----
+______________________________________________________________________
 
-# 74. Model Awareness
+## 74. Model Awareness
 
 Metacognition must know when it is operating inside a model.
 
@@ -1593,9 +1595,9 @@ BOUNDARY CONDITIONS
 ASSUMPTIONS
 ```
 
----
+______________________________________________________________________
 
-# 75. Benchmark Firewall
+## 75. Benchmark Firewall
 
 ```text
 BENCHMARK SUCCESS
@@ -1605,9 +1607,9 @@ UNIVERSAL VALIDITY
 
 A model validated on benchmark `B` remains validated only within the supported applicability envelope.
 
----
+______________________________________________________________________
 
-# 76. Simulation Firewall
+## 76. Simulation Firewall
 
 ```text
 SIMULATION SUCCESS
@@ -1619,9 +1621,9 @@ Simulation is evidence about behavior under the simulation assumptions.
 
 It is not automatically evidence about external reality.
 
----
+______________________________________________________________________
 
-# 77. Formal-Proof Firewall
+## 77. Formal-Proof Firewall
 
 Testing distributed or Byzantine scenarios does not automatically constitute universal formal proof.
 
@@ -1633,9 +1635,9 @@ FORMAL PROOF
 
 unless formal proof actually exists.
 
----
+______________________________________________________________________
 
-# 78. Latency Firewall
+## 78. Latency Firewall
 
 Reported performance such as:
 
@@ -1651,9 +1653,9 @@ MEASURED LATENCY
 HARDWARE-INDEPENDENT PROPERTY
 ```
 
----
+______________________________________________________________________
 
-# 79. Capability / Authority Firewall
+## 79. Capability / Authority Firewall
 
 Metacognitive confidence never creates authority.
 
@@ -1675,9 +1677,9 @@ PROPOSAL
 COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 80. Metacognition / Control-Plane Firewall
+## 80. Metacognition / Control-Plane Firewall
 
 `K_METACOGNITION` may detect that escalation or authorization is needed.
 
@@ -1693,9 +1695,9 @@ CONTROL PLANE:
 
 These roles remain separate.
 
----
+______________________________________________________________________
 
-# 81. Metacognition / Runtime Firewall
+## 81. Metacognition / Runtime Firewall
 
 The kernel may specify:
 
@@ -1716,9 +1718,9 @@ REASONING RECOMMENDATION
 EXECUTED STATE TRANSITION
 ```
 
----
+______________________________________________________________________
 
-# 82. Metacognition / Cognition Firewall
+## 82. Metacognition / Cognition Firewall
 
 ```text
 K_METACOGNITION
@@ -1734,9 +1736,9 @@ KERNEL CONTRACT
 COGNITIVE ORGAN
 ```
 
----
+______________________________________________________________________
 
-# 83. Metacognition / Agent Firewall
+## 83. Metacognition / Agent Firewall
 
 An agent may use metacognitive rules.
 
@@ -1750,9 +1752,9 @@ K_METACOGNITION
 
 The kernel defines reusable reasoning constraints.
 
----
+______________________________________________________________________
 
-# 84. Stop Conditions
+## 84. Stop Conditions
 
 Reasoning should stop when all three are sufficient:
 
@@ -1764,27 +1766,27 @@ ACTION SUFFICIENCY
 
 unless the user explicitly requests deeper analysis.
 
----
+______________________________________________________________________
 
-# 85. Claim Sufficiency
+## 85. Claim Sufficiency
 
 Reached when the requested claim can be stated with an appropriate conclusion class and material uncertainty is visible.
 
----
+______________________________________________________________________
 
-# 86. Decision Sufficiency
+## 86. Decision Sufficiency
 
 Reached when remaining uncertainty is unlikely to change the selected decision.
 
----
+______________________________________________________________________
 
-# 87. Action Sufficiency
+## 87. Action Sufficiency
 
 Reached when the next safe action is clear enough to execute or hand off.
 
----
+______________________________________________________________________
 
-# 88. Overthinking Detection
+## 88. Overthinking Detection
 
 Further analysis is wasteful when:
 
@@ -1796,9 +1798,9 @@ and no integrity-critical gap remains.
 
 Metacognition should then stop rather than optimize indefinitely.
 
----
+______________________________________________________________________
 
-# 89. Underthinking Detection
+## 89. Underthinking Detection
 
 Further reasoning is required when unresolved uncertainty can materially change:
 
@@ -1810,9 +1812,9 @@ DECISION
 ACTION
 ```
 
----
+______________________________________________________________________
 
-# 90. Self-Correction
+## 90. Self-Correction
 
 When new evidence invalidates a conclusion:
 
@@ -1832,9 +1834,9 @@ PRESERVE VALID COMPONENTS
 UPDATE DEPENDENTS
 ```
 
----
+______________________________________________________________________
 
-# 91. Anti-Regression
+## 91. Anti-Regression
 
 A reasoning optimization is acceptable only if it preserves or improves:
 
@@ -1855,9 +1857,9 @@ Otherwise:
 ROLL BACK OPTIMIZATION
 ```
 
----
+______________________________________________________________________
 
-# 92. Metacognitive Invariants
+## 92. Metacognitive Invariants
 
 ```text
 MC-01
@@ -1936,9 +1938,9 @@ MC-25
 REASONING SHOULD STOP WHEN CLAIM, DECISION, AND ACTION SUFFICIENCY ARE MET
 ```
 
----
+______________________________________________________________________
 
-# 93. Failure Modes
+## 93. Failure Modes
 
 ```text
 OVERCONFIDENCE
@@ -1968,9 +1970,9 @@ PREMATURE_STOP
 ANALYSIS_WITHOUT_DECISION_VALUE
 ```
 
----
+______________________________________________________________________
 
-# 94. Conceptual Runtime
+## 94. Conceptual Runtime
 
 ```python
 def metacognitive_check(reasoning_state):
@@ -2018,9 +2020,9 @@ def metacognitive_check(reasoning_state):
 
 This is architectural pseudocode, not a claim of deployed implementation.
 
----
+______________________________________________________________________
 
-# 95. Required Tests
+## 95. Required Tests
 
 Future implementation verification should include:
 
@@ -2047,9 +2049,9 @@ AUTHORITY-FIREWALL TEST
 UNKNOWN-PRESERVATION TEST
 ```
 
----
+______________________________________________________________________
 
-# 96. Negative Tests
+## 96. Negative Tests
 
 ```text
 HIGH CONFIDENCE
@@ -2113,9 +2115,9 @@ AUTOMATIC RETRY
 MUST FAIL
 ```
 
----
+______________________________________________________________________
 
-# 97. Promotion Gate
+## 97. Promotion Gate
 
 Before promotion beyond `AMOS_MODEL`:
 
@@ -2149,9 +2151,9 @@ Until these are evidenced:
 IMPLEMENTATION_STATUS = UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 98. Lifecycle
+## 98. Lifecycle
 
 ```text
 PLACEHOLDER
@@ -2189,9 +2191,9 @@ VALIDATED
 AUTHORIZED
 ```
 
----
+______________________________________________________________________
 
-# 99. Integrity Note
+## 99. Integrity Note
 
 This artifact replaces an empty repository placeholder with a structured metacognitive kernel model aligned to the AMOS v4.4 reasoning architecture.
 
@@ -2206,9 +2208,9 @@ EMPIRICAL_VALIDATION = UNKNOWN/GAP
 RUNTIME_AUTHORITY = NONE
 ```
 
----
+______________________________________________________________________
 
-# 100. RSCF Node
+## 100. RSCF Node
 
 ```RSCF-NODE
 node_id: AMOS-OS-K-METACOGNITION
@@ -2255,7 +2257,7 @@ RSCF-RELATIONS:
   - VERIFIED_BY: README
 ```
 
----
+______________________________________________________________________
 
 ## Related
 
@@ -2295,12 +2297,14 @@ README
 ```text
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 **MOC:** [[02_KERNEL/02_COGNITION/02_COGNITION_MOC|02_COGNITION_MOC]]

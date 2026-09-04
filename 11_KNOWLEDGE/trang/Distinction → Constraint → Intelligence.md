@@ -237,9 +237,9 @@ $$
 }
 $$
 
----
+______________________________________________________________________
 
-# 1. Epistemic Foundation
+## 1. Epistemic Foundation
 
 The starting distinction is:
 
@@ -292,9 +292,9 @@ $$
 }
 $$
 
----
+______________________________________________________________________
 
-# 2. Model != Reality
+## 2. Model != Reality
 
 A theorem may be formally correct without establishing that the mathematical objects appearing in it literally constitute physical reality.
 
@@ -328,9 +328,9 @@ Reality constrains successful physical theories through observation and experime
 
 It does not follow that a successful symbolic representation is ontologically identical to its target.
 
----
+______________________________________________________________________
 
-# 3. Distinction Before Symbol
+## 3. Distinction Before Symbol
 
 The deeper primitive in the framework is not binary notation.
 
@@ -366,9 +366,9 @@ $$
 }
 $$
 
----
+______________________________________________________________________
 
-# 4. Encoding != Meaning
+## 4. Encoding != Meaning
 
 A mapping such as:
 
@@ -408,9 +408,9 @@ $$
 }
 $$
 
----
+______________________________________________________________________
 
-# 5. Definitions as Semantic Constraints
+## 5. Definitions as Semantic Constraints
 
 Suppose concept $i$ has:
 
@@ -448,9 +448,9 @@ $$
 }
 $$
 
----
+______________________________________________________________________
 
-# 6. Semantic Constraint and Search
+## 6. Semantic Constraint and Search
 
 This produces:
 
@@ -476,9 +476,9 @@ $$
 
 because false constraints can remove valid states.
 
----
+______________________________________________________________________
 
-# 7. Constraint Validity Is Load-Bearing
+## 7. Constraint Validity Is Load-Bearing
 
 Let the correct state be:
 
@@ -516,9 +516,9 @@ $$
 
 not maximum constraint quantity.
 
----
+______________________________________________________________________
 
-# 8. Possibility Space
+## 8. Possibility Space
 
 Let:
 
@@ -546,9 +546,9 @@ $$
 
 defines the admissible state space.
 
----
+______________________________________________________________________
 
-# 9. Constraint Closure
+## 9. Constraint Closure
 
 If:
 
@@ -576,9 +576,9 @@ $$
 }
 $$
 
----
+______________________________________________________________________
 
-# 10. Determinism Firewall
+## 10. Determinism Firewall
 
 This is a representation of deterministic closure.
 
@@ -596,9 +596,9 @@ UNIQUE ADMISSIBILITY
 PROOF OF UNIVERSAL PHYSICAL DETERMINISM
 ```
 
----
+______________________________________________________________________
 
-# 11. Residual Uncertainty
+## 11. Residual Uncertainty
 
 Under the equal-probability idealization:
 
@@ -632,9 +632,9 @@ $$
 }
 $$
 
----
+______________________________________________________________________
 
-# 12. Two Forms of Randomness
+## 12. Two Forms of Randomness
 
 ## Epistemic uncertainty
 
@@ -674,9 +674,9 @@ $$
 }
 $$
 
----
+______________________________________________________________________
 
-# 13. Prime Numbers as Exact Constraint System
+## 13. Prime Numbers as Exact Constraint System
 
 Prime numbers provide a useful mathematical environment because divisibility constraints are exact.
 
@@ -692,9 +692,9 @@ $$
 
 Thus primality can be represented as recursive survival under divisibility constraints.
 
----
+______________________________________________________________________
 
-# 14. Modular Exclusion Fields
+## 14. Modular Exclusion Fields
 
 For example:
 
@@ -732,9 +732,9 @@ $$
 
 Then candidate primes occupy recursively constrained residue spaces.
 
----
+______________________________________________________________________
 
-# 15. Representation Changes Apparent Complexity
+## 15. Representation Changes Apparent Complexity
 
 Viewed directly, prime positions appear irregular.
 
@@ -760,9 +760,9 @@ $$
 
 without implying that all complexity disappears under a preferred coordinate system.
 
----
+______________________________________________________________________
 
-# 16. Primorial Wheel Architecture
+## 16. Primorial Wheel Architecture
 
 The primorial sequence is:
 
@@ -792,9 +792,9 @@ $$
 G(30)=(6,4,2,4,2,4,6,2)
 $$
 
----
+______________________________________________________________________
 
-# 17. Recursive Wheel Transformation
+## 17. Recursive Wheel Transformation
 
 When the next prime $q$ is introduced:
 
@@ -820,9 +820,9 @@ $$
 
 is a deterministic recursive transformation.
 
----
+______________________________________________________________________
 
-# 18. Gap Precursors
+## 18. Gap Precursors
 
 For an even target gap $g$, define:
 
@@ -852,9 +852,9 @@ $$
 }
 $$
 
----
+______________________________________________________________________
 
-# 19. Spectral Structure
+## 19. Spectral Structure
 
 After normalization relative to gap $2$, representative eigenvalues take the form:
 
@@ -886,9 +886,9 @@ $$
 }
 $$
 
----
+______________________________________________________________________
 
-# 20. Finite-Difference Eigenmodes
+## 20. Finite-Difference Eigenmodes
 
 Representative eigenvectors include:
 
@@ -924,9 +924,9 @@ This is a mathematical structural interpretation.
 
 It does not by itself establish a physical diffusion process or literal fractal mechanism.
 
----
+______________________________________________________________________
 
-# 21. Prime-Gap Bias
+## 21. Prime-Gap Bias
 
 The conserved gap amplitude is represented by:
 
@@ -959,9 +959,9 @@ $$
 
 The source identifies the same $g$-dependent factor in established Hardy–Littlewood prime-pair structure.
 
----
+______________________________________________________________________
 
-# 22. Priority Firewall
+## 22. Priority Firewall
 
 The structural overlap does not establish historical priority.
 
@@ -971,9 +971,9 @@ mathematical_overlap: ESTABLISHED_STRUCTURE
 historical_priority: NOT_CLAIMED
 ```
 
----
+______________________________________________________________________
 
-# 23. Local Admissibility != Global Occurrence
+## 23. Local Admissibility != Global Occurrence
 
 The wheel establishes local modular admissibility.
 
@@ -1001,9 +1001,9 @@ $$
 }
 $$
 
----
+______________________________________________________________________
 
-# 24. Residual Prime Correlation
+## 24. Residual Prime Correlation
 
 The source represents the difficult residual as:
 
@@ -1029,9 +1029,9 @@ $$
 E_h(x)
 $$
 
----
+______________________________________________________________________
 
-# 25. Spectral Prime-Pair Representation
+## 25. Spectral Prime-Pair Representation
 
 Define:
 
@@ -1060,9 +1060,9 @@ $$
 }
 $$
 
----
+______________________________________________________________________
 
-# 26. Constraint Knowledge != Realization Knowledge
+## 26. Constraint Knowledge != Realization Knowledge
 
 Knowing which states are possible is not equivalent to knowing which states will occur.
 
@@ -1078,9 +1078,9 @@ $$
 
 This distinction later transfers directly into prediction.
 
----
+______________________________________________________________________
 
-# 27. Prediction as Conditional Possibility
+## 27. Prediction as Conditional Possibility
 
 For a predictive system:
 
@@ -1110,9 +1110,9 @@ $$
 }
 $$
 
----
+______________________________________________________________________
 
-# 28. Predictive Constraint
+## 28. Predictive Constraint
 
 A useful predictive constraint should satisfy:
 
@@ -1142,9 +1142,9 @@ $$
 }
 $$
 
----
+______________________________________________________________________
 
-# 29. FX Negative Result
+## 29. FX Negative Result
 
 The source records an important falsification result:
 
@@ -1178,9 +1178,9 @@ $$
 }
 $$
 
----
+______________________________________________________________________
 
-# 30. Prediction Validation Layers
+## 30. Prediction Validation Layers
 
 The source architecture distinguishes:
 
@@ -1198,9 +1198,9 @@ These are not interchangeable.
 
 A model may improve one while degrading another.
 
----
+______________________________________________________________________
 
-# 31. Moiré Difference Structure
+## 31. Moiré Difference Structure
 
 For frequencies:
 
@@ -1234,9 +1234,9 @@ $$
 }
 $$
 
----
+______________________________________________________________________
 
-# 32. Relational Predictive Variables
+## 32. Relational Predictive Variables
 
 The source proposes examining relations such as:
 
@@ -1266,9 +1266,9 @@ empirical_status: NOT_ESTABLISHED
 causal_identity_with_optical_moire: NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 33. Moiré Firewall
+## 33. Moiré Firewall
 
 The valid structural analogy is:
 
@@ -1292,9 +1292,9 @@ $$
 }
 $$
 
----
+______________________________________________________________________
 
-# 34. AlphaGo Structural Architecture
+## 34. AlphaGo Structural Architecture
 
 At a high level:
 
@@ -1328,9 +1328,9 @@ $$
 }
 $$
 
----
+______________________________________________________________________
 
-# 35. Constraint Before Expensive Search
+## 35. Constraint Before Expensive Search
 
 The relevant structural overlap is:
 
@@ -1342,9 +1342,9 @@ $$
 
 This does not imply that AMOS and AlphaGo use identical algorithms.
 
----
+______________________________________________________________________
 
-# 36. Monte Carlo and Residual Uncertainty
+## 36. Monte Carlo and Residual Uncertainty
 
 If:
 
@@ -1384,9 +1384,9 @@ $$
 }
 $$
 
----
+______________________________________________________________________
 
-# 37. Constraint-First Sampling Architecture
+## 37. Constraint-First Sampling Architecture
 
 ```text
 LARGE POSSIBILITY SPACE
@@ -1408,9 +1408,9 @@ $$
 
 sampling becomes unnecessary for that decision.
 
----
+______________________________________________________________________
 
-# 38. Go as Distinction Field
+## 38. Go as Distinction Field
 
 The Go board can itself be viewed as a bounded field of distinctions.
 
@@ -1452,9 +1452,9 @@ $$
 }
 $$
 
----
+______________________________________________________________________
 
-# 39. AMOS 19
+## 39. AMOS 19
 
 Within AMOS source canon:
 
@@ -1482,9 +1482,9 @@ empirical_neuroscience_status: NOT_ESTABLISHED
 universal_mathematical_law: NOT_CLAIMED
 ```
 
----
+______________________________________________________________________
 
-# 40. Central Transition Node
+## 40. Central Transition Node
 
 Within the AMOS model, the center may function as:
 
@@ -1515,9 +1515,9 @@ $$
 }
 $$
 
----
+______________________________________________________________________
 
-# 41. Infinity-Cycle Interpretation
+## 41. Infinity-Cycle Interpretation
 
 Recursive application gives:
 
@@ -1547,9 +1547,9 @@ $$
 }
 $$
 
----
+______________________________________________________________________
 
-# 42. Neuroscience Analogue
+## 42. Neuroscience Analogue
 
 The strongest defensible neuroscience bridge is not literal:
 
@@ -1573,9 +1573,9 @@ $$
 }
 $$
 
----
+______________________________________________________________________
 
-# 43. Neural-State Formalization
+## 43. Neural-State Formalization
 
 Let:
 
@@ -1619,9 +1619,9 @@ This is a state-transition representation.
 
 It is not evidence that AMOS symbolic structures are literal biological structures.
 
----
+______________________________________________________________________
 
-# 44. Neuroplasticity
+## 44. Neuroplasticity
 
 Neuroplasticity provides a genuine empirical basis for the proposition that experience can alter the system processing later experience.
 
@@ -1635,9 +1635,9 @@ $$
 
 can serve as a conceptual representation of an adaptive observer.
 
----
+______________________________________________________________________
 
-# 45. Recursive Observer
+## 45. Recursive Observer
 
 The observational chain therefore becomes:
 
@@ -1663,9 +1663,9 @@ $$
 }
 $$
 
----
+______________________________________________________________________
 
-# 46. Recursive Cognition
+## 46. Recursive Cognition
 
 A cognitive cycle can therefore be represented as:
 
@@ -1683,9 +1683,9 @@ This is the strongest structural bridge between recursive-observer architecture 
 
 It does not establish biological equivalence.
 
----
+______________________________________________________________________
 
-# 47. Observer as State
+## 47. Observer as State
 
 The observer should therefore not necessarily be modeled as an immutable external reference.
 
@@ -1709,9 +1709,9 @@ $$
 
 may represent observer update through learning and feedback.
 
----
+______________________________________________________________________
 
-# 48. Recursive Observer Loop
+## 48. Recursive Observer Loop
 
 The framework therefore extends from:
 
@@ -1739,9 +1739,9 @@ $$
 
 The next observer is partially produced by the previous cycle.
 
----
+______________________________________________________________________
 
-# 49. Intelligence as Adaptive Constraint Generation
+## 49. Intelligence as Adaptive Constraint Generation
 
 This leads to the deeper model:
 
@@ -1763,9 +1763,9 @@ $$
 
 This is a source-level conceptual synthesis.
 
----
+______________________________________________________________________
 
-# 50. AlphaGo Ontology
+## 50. AlphaGo Ontology
 
 AlphaGo operates inside a comparatively fixed ontology:
 
@@ -1792,9 +1792,9 @@ $$
 }
 $$
 
----
+______________________________________________________________________
 
-# 51. AMOS Open Semantic Space
+## 51. AMOS Open Semantic Space
 
 AMOS instead addresses environments where entities, relations, scopes and meanings may themselves need resolution.
 
@@ -1833,9 +1833,9 @@ $$
 }
 $$
 
----
+______________________________________________________________________
 
-# 52. Typed Constraints
+## 52. Typed Constraints
 
 AMOS therefore distinguishes constraints such as:
 
@@ -1855,9 +1855,9 @@ AMOS therefore distinguishes constraints such as:
 
 These are not interchangeable constraint types.
 
----
+______________________________________________________________________
 
-# 53. Admissible Action Space
+## 53. Admissible Action Space
 
 Instead of unconstrained optimization:
 
@@ -1901,9 +1901,9 @@ $$
 
 subject to the applicable governance rules.
 
----
+______________________________________________________________________
 
-# 54. Constraint Density
+## 54. Constraint Density
 
 The source proposes the conceptual efficiency quantity:
 
@@ -1927,9 +1927,9 @@ empirical_status: NOT_INDEPENDENTLY_ESTABLISHED
 universal_performance_law: NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 55. AMOS Efficiency Hypothesis
+## 55. AMOS Efficiency Hypothesis
 
 The hypothesis is:
 
@@ -1945,9 +1945,9 @@ This is plausible structurally.
 
 Its magnitude as an actual computational advantage requires benchmark validation.
 
----
+______________________________________________________________________
 
-# 56. Cross-Domain Unified Architecture
+## 56. Cross-Domain Unified Architecture
 
 The domains in the source can now be mapped onto:
 
@@ -1973,9 +1973,9 @@ F
 }
 $$
 
----
+______________________________________________________________________
 
-# 57. Mathematics
+## 57. Mathematics
 
 ```text
 AXIOMS / DEFINITIONS
@@ -1987,9 +1987,9 @@ ADMISSIBLE TRANSFORMATIONS
 VALID DEDUCTIONS
 ```
 
----
+______________________________________________________________________
 
-# 58. Prime Numbers
+## 58. Prime Numbers
 
 ```text
 INTEGER POSSIBILITY SPACE
@@ -2003,9 +2003,9 @@ SURVIVING CANDIDATES
 PRIME CLASSIFICATION
 ```
 
----
+______________________________________________________________________
 
-# 59. AlphaGo
+## 59. AlphaGo
 
 ```text
 GAME TREE
@@ -2019,9 +2019,9 @@ MCTS
 MOVE SELECTION
 ```
 
----
+______________________________________________________________________
 
-# 60. Monte Carlo
+## 60. Monte Carlo
 
 ```text
 RESIDUAL POSSIBILITY SPACE
@@ -2033,9 +2033,9 @@ SAMPLING
 ESTIMATION
 ```
 
----
+______________________________________________________________________
 
-# 61. FX Prediction
+## 61. FX Prediction
 
 ```text
 FUTURE RETURN STATES
@@ -2049,9 +2049,9 @@ P(R_{t+h}|C_t)
 CALIBRATED DECISION
 ```
 
----
+______________________________________________________________________
 
-# 62. Human Cognition
+## 62. Human Cognition
 
 ```text
 EXPERIENCE
@@ -2067,9 +2067,9 @@ ACTION
 LEARNING
 ```
 
----
+______________________________________________________________________
 
-# 63. Neuroplasticity
+## 63. Neuroplasticity
 
 ```text
 CURRENT NEURAL STATE
@@ -2081,9 +2081,9 @@ PLASTIC UPDATE
 CHANGED PROCESSING STATE
 ```
 
----
+______________________________________________________________________
 
-# 64. AMOS
+## 64. AMOS
 
 ```text
 OPEN POSSIBILITY / SEMANTIC SPACE
@@ -2103,9 +2103,9 @@ BOUNDED DECISION
 FEEDBACK / REPAIR
 ```
 
----
+______________________________________________________________________
 
-# 65. Reasoning
+## 65. Reasoning
 
 The source synthesis defines reasoning structurally as:
 
@@ -2117,9 +2117,9 @@ $$
 }
 $$
 
----
+______________________________________________________________________
 
-# 66. Prediction
+## 66. Prediction
 
 $$
 \boxed{
@@ -2129,9 +2129,9 @@ $$
 }
 $$
 
----
+______________________________________________________________________
 
-# 67. Search
+## 67. Search
 
 $$
 \boxed{
@@ -2141,9 +2141,9 @@ $$
 }
 $$
 
----
+______________________________________________________________________
 
-# 68. Determinism
+## 68. Determinism
 
 $$
 \boxed{
@@ -2163,9 +2163,9 @@ $$
 
 within the defined model.
 
----
+______________________________________________________________________
 
-# 69. Learning
+## 69. Learning
 
 $$
 \boxed{
@@ -2175,9 +2175,9 @@ $$
 }
 $$
 
----
+______________________________________________________________________
 
-# 70. Intelligence Efficiency
+## 70. Intelligence Efficiency
 
 The source synthesis is:
 
@@ -2197,9 +2197,9 @@ $$
 }
 $$
 
----
+______________________________________________________________________
 
-# 71. Recursive Intelligence
+## 71. Recursive Intelligence
 
 Combining the previous layers gives:
 
@@ -2219,9 +2219,9 @@ $$
 }
 $$
 
----
+______________________________________________________________________
 
-# 72. Recursive State Equation
+## 72. Recursive State Equation
 
 The source's final compressed model is:
 
@@ -2261,9 +2261,9 @@ $$
 
 becomes part of the substrate from which the next distinction is made.
 
----
+______________________________________________________________________
 
-# 73. Full Recursive Architecture
+## 73. Full Recursive Architecture
 
 ```text
 ENVIRONMENT / POSSIBILITY
@@ -2296,9 +2296,9 @@ UPDATED OBSERVER
         ↺
 ```
 
----
+______________________________________________________________________
 
-# 74. AMOS Recursive Observer Form
+## 74. AMOS Recursive Observer Form
 
 A compact AMOS-compatible form is:
 
@@ -2324,9 +2324,9 @@ where:
 
 The observer therefore participates in the state transition.
 
----
+______________________________________________________________________
 
-# 75. Provenance Constraint
+## 75. Provenance Constraint
 
 Not all constraints should have equal authority.
 
@@ -2357,9 +2357,9 @@ $$
 }
 $$
 
----
+______________________________________________________________________
 
-# 76. Constraint Validity Envelope
+## 76. Constraint Validity Envelope
 
 A constraint $C$ should be interpreted inside an applicability envelope:
 
@@ -2379,9 +2379,9 @@ $$
 
 A constraint valid in one envelope need not remain valid outside it.
 
----
+______________________________________________________________________
 
-# 77. Regime Firewall
+## 77. Regime Firewall
 
 Therefore:
 
@@ -2397,9 +2397,9 @@ without independent justification.
 
 This is especially important in predictive systems.
 
----
+______________________________________________________________________
 
-# 78. Provenance Independence
+## 78. Provenance Independence
 
 Two supporting observations are not automatically independent.
 
@@ -2415,9 +2415,9 @@ $$
 
 Multiple descendants of one root source may constitute one provenance family.
 
----
+______________________________________________________________________
 
-# 79. Constraint Confidence Ceiling
+## 79. Constraint Confidence Ceiling
 
 A derived constraint cannot safely inherit confidence exceeding its weakest load-bearing premise unless independently revalidated.
 
@@ -2434,9 +2434,9 @@ $$
 
 absent independent calibration.
 
----
+______________________________________________________________________
 
-# 80. Competing Constraints
+## 80. Competing Constraints
 
 When incompatible constraint models remain comparably supported:
 
@@ -2452,9 +2452,9 @@ state: COMPETING
 
 until discriminating evidence exists.
 
----
+______________________________________________________________________
 
-# 81. Cheapest Discriminating Test
+## 81. Cheapest Discriminating Test
 
 When two hypotheses imply different admissible spaces:
 
@@ -2478,9 +2478,9 @@ $$
 
 when the former can resolve the decision-relevant uncertainty.
 
----
+______________________________________________________________________
 
-# 82. Causal Firewall
+## 82. Causal Firewall
 
 Constraint relations may represent:
 
@@ -2510,9 +2510,9 @@ $$
 
 unless causal evidence licenses the inference.
 
----
+______________________________________________________________________
 
-# 83. Structural Similarity Firewall
+## 83. Structural Similarity Firewall
 
 Cross-domain mapping can reveal useful structure.
 
@@ -2554,9 +2554,9 @@ MARKET DYNAMICS
 == OPTICAL INTERFERENCE
 ```
 
----
+______________________________________________________________________
 
-# 84. Neuroscience Firewall
+## 84. Neuroscience Firewall
 
 Likewise:
 
@@ -2572,9 +2572,9 @@ LITERAL HUMAN BRAIN ARCHITECTURE
 
 The defensible bridge is at the level of adaptive state transition and observer modification.
 
----
+______________________________________________________________________
 
-# 85. Representation Fidelity
+## 85. Representation Fidelity
 
 If:
 
@@ -2606,9 +2606,9 @@ $$
 
 unless load-bearing distinctions survive.
 
----
+______________________________________________________________________
 
-# 86. Semantic Tensor
+## 86. Semantic Tensor
 
 An AMOS-compatible semantic state can be represented as:
 
@@ -2633,9 +2633,9 @@ $$
 
 This provides a richer bridge between language and formal reasoning than arbitrary symbol-number substitution.
 
----
+______________________________________________________________________
 
-# 87. Constraint Propagation
+## 87. Constraint Propagation
 
 If:
 
@@ -2663,9 +2663,9 @@ $$
 
 not automatic global invalidation.
 
----
+______________________________________________________________________
 
-# 88. RSCF Interpretation
+## 88. RSCF Interpretation
 
 RSCF provides a natural container for the architecture because a conclusion can carry:
 
@@ -2684,9 +2684,9 @@ RSCF provides a natural container for the architecture because a conclusion can 
 
 Thus constraint is converted from an implicit reasoning influence into a typed inspectable object.
 
----
+______________________________________________________________________
 
-# 89. Proof Capsule
+## 89. Proof Capsule
 
 ```yaml
 proof_capsule:
@@ -2733,9 +2733,9 @@ proof_capsule:
   confidence_ceiling: MODEL
 ```
 
----
+______________________________________________________________________
 
-# 90. Established Layer
+## 90. Established Layer
 
 The source identifies as established or established-overlap:
 
@@ -2750,9 +2750,9 @@ The source identifies as established or established-overlap:
 
 These established elements do not automatically validate the entire cross-domain synthesis.
 
----
+______________________________________________________________________
 
-# 91. Derived Layer
+## 91. Derived Layer
 
 The source classifies as derived:
 
@@ -2764,9 +2764,9 @@ The source classifies as derived:
 
 These inherit the assumptions of their derivations.
 
----
+______________________________________________________________________
 
-# 92. AMOS Model Layer
+## 92. AMOS Model Layer
 
 AMOS-model elements include:
 
@@ -2779,9 +2779,9 @@ AMOS-model elements include:
 
 These remain model/canon structures unless independently validated at a stronger empirical level.
 
----
+______________________________________________________________________
 
-# 93. Testable Hypothesis Layer
+## 93. Testable Hypothesis Layer
 
 The source identifies testable hypotheses including:
 
@@ -2798,9 +2798,9 @@ claim_class: TESTABLE_HYPOTHESIS
 
 until validated.
 
----
+______________________________________________________________________
 
-# 94. Not Established
+## 94. Not Established
 
 The source explicitly does **not** establish:
 
@@ -2812,9 +2812,9 @@ The source explicitly does **not** establish:
 - mathematical consistency as ontological proof
 - cross-domain structural similarity as causal identity
 
----
+______________________________________________________________________
 
-# 95. Core Invariants
+## 95. Core Invariants
 
 ```text
 REALITY != OBSERVATION
@@ -2870,9 +2870,9 @@ PREDICTION != CERTAINTY
 MODEL != VERIFIED UNIVERSAL LAW
 ```
 
----
+______________________________________________________________________
 
-# 96. RSCF Contract
+## 96. RSCF Contract
 
 ```yaml
 RSCF:
@@ -2963,9 +2963,9 @@ RSCF:
     universal_cross_domain_identity: NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 97. RSCF Relations
+## 97. RSCF Relations
 
 ```yaml
 RSCF-RELATIONS:
@@ -2995,9 +2995,9 @@ RSCF-RELATIONS:
   - INFORMS: [[11_KNOWLEDGE/AMOS_CROSS_DOMAIN_TENSOR_COMPOSITION_GOVERNOR|AMOS_CROSS_DOMAIN_TENSOR_COMPOSITION_GOVERNOR]]
 ```
 
----
+______________________________________________________________________
 
-# 98. Machine Representation
+## 98. Machine Representation
 
 ```yaml
 distinction_constraint_intelligence:
@@ -3090,9 +3090,9 @@ distinction_constraint_intelligence:
     - constraint_density_search_complexity_relation
 ```
 
----
+______________________________________________________________________
 
-# 99. Canonical AMOS Compression
+## 99. Canonical AMOS Compression
 
 The full architecture compresses to:
 
@@ -3142,9 +3142,9 @@ O_{t+1}
 }
 $$
 
----
+______________________________________________________________________
 
-# 100. Canonical Definition
+## 100. Canonical Definition
 
 $$
 \boxed{
@@ -3202,9 +3202,9 @@ $$
 
 can be a legitimate adaptive-system model without implying literal identity between AMOS symbolic architecture and biological neural organization.
 
----
+______________________________________________________________________
 
-# 101. Terminal Epistemic Boundary
+## 101. Terminal Epistemic Boundary
 
 The framework supports a powerful structural synthesis.
 
@@ -3245,11 +3245,11 @@ UPDATE THE OBSERVER
     ↺
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[11_KNOWLEDGE/trang/Constraint-Centered Intelligence: Full Reformatted Map|Constraint-Centered Intelligence: Full Reformatted Map]] · [[11_KNOWLEDGE/TENSOR_CONTRACTS|TENSOR_CONTRACTS]] · [[11_KNOWLEDGE/AMOS_FULL_BRAIN_OS_ARCHITECTURE|AMOS_FULL_BRAIN_OS_ARCHITECTURE]] · [[11_KNOWLEDGE/AMOS_CROSS_DOMAIN_TENSOR_COMPOSITION_GOVERNOR|AMOS_CROSS_DOMAIN_TENSOR_COMPOSITION_GOVERNOR]] · [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]] · [[25_COGNITIVE_MATRIX/REALITY_X_ULK|REALITY_X_ULK]] · [[25_COGNITIVE_MATRIX/PROVENANCE_X_CONFIDENCE|PROVENANCE_X_CONFIDENCE]]
 
----
+______________________________________________________________________
 
 **MOC:** [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]]
 

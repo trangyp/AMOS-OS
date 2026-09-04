@@ -1,4 +1,7 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: AMOS PERSONALITY TRANG ENGINE V0 WEB7
 type: engine
 source: 11_KNOWLEDGE/trang
@@ -7,13 +10,13 @@ canon-type: framework
 rscf-state: source-claim
 topic: amos-personality-trang-engine-v0
 tags:
-- canon-group/human-system
-- canon/framework
-- rscf/claim
-- rscf/provenance
-- rscf/state/source-claim
-- topic/amos-personality-trang-engine-v0
-- trang
+  - canon-group/human-system
+  - canon/framework
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - topic/amos-personality-trang-engine-v0
+  - trang
 created: 2026-08-22
 rscf:
   state: SOURCE_CLAIM
@@ -21,6 +24,7 @@ rscf:
   provenance: AMOS_corpus
   scope: AMOS_knowledge
 ---
+
 # AMOS PERSONALITY TRANG ENGINE V0 WEB7
 
 ```json
@@ -35,6 +39,6 @@ rscf:
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/kernel/AMOS_SIMULATION_KERNEL|AMOS_SIMULATION_KERNEL]] · [[11_KNOWLEDGE/engine/SYSTEM_SCAN_ENGINE|SYSTEM_SCAN_ENGINE]] · [[11_KNOWLEDGE/stubs/automation_profiles|automation_profiles]]
 ```
 
----
-**MOC:** [[11_KNOWLEDGE/trang/trang_MOC|trang_MOC]]
+______________________________________________________________________
 
+**MOC:** [[11_KNOWLEDGE/trang/trang_MOC|trang_MOC]]

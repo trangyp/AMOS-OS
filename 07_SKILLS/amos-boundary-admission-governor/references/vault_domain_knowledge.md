@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Vault Domain Knowledge — Amos Boundary Admission Governor
 type: reference
 source: 07_SKILLS/amos-boundary-admission-governor/references
 tags:
-- reference
-- amos-boundary-admission-governor
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-boundary-admission-governor
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -27,9 +30,9 @@ rscf:
 
 > Path: `architecture/The_Intelligence_OS_Useful_Architecture.md` | Size: 28606 chars | Match score: 5
 
-# The Intelligence OS™
-## 1. Purpose
+## The Intelligence OS™
 
+## 1. Purpose
 
 The architecture separates:
 
@@ -41,9 +44,9 @@ $$\boxed{ CoreEngine \rightarrow DomainProducts \rightarrow CommercialSystems \r
 
 The source frames the system as a reusable intelligence substrate rather than a single application.
 
----
+______________________________________________________________________
 
-# 2. Epistemic Boundary
+## 2. Epistemic Boundary
 
 The source contains at least four different claim classes:
 
@@ -71,9 +74,9 @@ and:
 
 $$\boxed{ Projected\ Revenue \neq Observed\ Revenue }$$
 
----
+______________________________________________________________________
 
-# 3. Master System Architecture
+## 3. Master System Architecture
 
 The source can be represented as:
 
@@ -105,9 +108,9 @@ The system is therefore fundamentally:
 
 $$\boxed{ Platform + Portfolio + Commercialization + Scale }$$
 
----
+______________________________________________________________________
 
-# 4. Three Framing Layers
+## 4. Three Framing Layers
 
 The source describes a three-layer framing structure above the detailed product hierarchy.
 
@@ -128,9 +131,9 @@ These layers must not be collapsed.
 
 $$\boxed{ IntelligenceCapability \neq ProductMarketFit }$$
 
----
+______________________________________________________________________
 
-# 5. Level 0 — Core Intelligence Engine
+## 5. Level 0 — Core Intelligence Engine
 
 Level 0 is the shared engine beneath all commercial domains.
 
@@ -140,7 +143,7 @@ $$\boxed{ L_0 = CoreIntelligence }$$
 
 Its role is to provide reusable primitives such as:
 
-```text
+````text
 reasoning
 memory
 pattern detection
@@ -157,7 +160,7 @@ orchest
 
 > Path: `rscf/RSCF Structural Tag Migration.md` | Size: 22332 chars | Match score: 5
 
-# RSCF Structural Tag Migration
+## RSCF Structural Tag Migration
 
 ## Overview
 
@@ -168,25 +171,25 @@ The migration operates on a bounded registry of Markdown files and transforms:
 legacy canon-group taxonomy
         ↓
 RSCF structural-axis taxonomy
-```
+````
 
 The source implementation defines migration mappings for AMOS, Cosmo Brain, formal-system, memory, canon, topology, state, compression, repair, mutation, boundary, cross-scale, entropy, and evidence-oriented notes.
 
 The architectural purpose is:
 
-[
-\boxed{
+\[
+\\boxed{
 LegacyMetadata
-\rightarrow
+\\rightarrow
 TypedRSCFMetadata
 }
-]
+\]
 
 while preserving document content outside the targeted metadata field.
 
----
+______________________________________________________________________
 
-# 1. Migration Objective
+## 1. Migration Objective
 
 The migration replaces legacy tag structures such as:
 
@@ -218,48 +221,44 @@ to:
 typed RSCF structural coordinates
 ```
 
----
+______________________________________________________________________
 
-# 2. Core Transformation
+## 2. Core Transformation
 
 For each registered file:
 
-[
+\[
 F_i=
 (
 Path_i,
 Pattern_i,
 Replacement_i
 )
-]
+\]
 
 the migration performs:
 
-[
-Content'_i
-==========
+## \[ Content'\_i
 
 Replace(
 Content_i,
 Pattern_i,
 Replacement_i
 )
-]
+\]
 
 subject to the invariant:
 
-[
-Body(Content'_i)
-================
+## \[ Body(Content'\_i)
 
 Body(Content_i)
-]
+\]
 
 except for explicitly targeted metadata cleanup.
 
----
+______________________________________________________________________
 
-# 3. Migration Registry
+## 3. Migration Registry
 
 The migration registry is explicit rather than dynamically inferred.
 
@@ -289,9 +288,9 @@ MIGRATIONS
 
 This preserves deterministic behavior.
 
----
+______________________________________________________________________
 
-# 4. RSCF Structural Axes
+## 4. RSCF Structural Axes
 
 The target taxonomy includes multiple RSCF structural dimensions.
 
@@ -311,9 +310,9 @@ inventory boundaries
 canonical separation
 ```
 
----
+______________________________________________________________________
 
-# 5. Constraint
+## 5. Constraint
 
 ```text
 rscf/C-constraint
@@ -328,9 +327,9 @@ canon constraints
 structural admissibility
 ```
 
----
+______________________________________________________________________
 
-# 6. Relation
+## 6. Relation
 
 ```text
 rscf/G-relation
@@ -345,9 +344,9 @@ dependency
 cross-component relation
 ```
 
----
+______________________________________________________________________
 
-# 7. State
+## 7. State
 
 ```text
 rscf/S-state
@@ -363,9 +362,9 @@ system state
 dynamic configuration
 ```
 
----
+______________________________________________________________________
 
-# 8. Topology
+## 8. Topology
 
 ```text
 rscf/T-topology
@@ -381,9 +380,9 @@ connectivity
 spatial organization
 ```
 
----
+______________________________________________________________________
 
-# 9. Memory
+## 9. Memory
 
 ```text
 rscf/M-memory
@@ -399,9 +398,9 @@ memory architecture
 vault persistence
 ```
 
----
+______________________________________________________________________
 
-# 10. Compression
+## 10. Compression
 
 ```text
 rscf/K-compression
@@ -419,7 +418,7 @@ structural abstraction
 ```
 ---
 
-# 11. Repair
+## 11. Repair
 
 rscf/P-
 
@@ -564,5 +563,8 @@ RSCF-RELATIONS:
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC
 
+```
+
+```
 ```
 ```

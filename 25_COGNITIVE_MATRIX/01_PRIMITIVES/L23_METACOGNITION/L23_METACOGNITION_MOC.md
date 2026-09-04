@@ -1,10 +1,13 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: L23 Metacognition MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L23_METACOGNITION
 tags:
-- matrix/l23-metacognition
-- domain/cognitive-matrix
+  - matrix/l23-metacognition
+  - domain/cognitive-matrix
 moc: true
 rscf:
   state: DERIVED
@@ -48,5 +51,6 @@ rscf:
 
 - [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]] — 00_INDEX
 
----
+______________________________________________________________________
+
 **Parent:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/01_PRIMITIVES_MOC|01_PRIMITIVES_MOC]]

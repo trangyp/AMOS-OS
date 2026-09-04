@@ -261,7 +261,7 @@ def main():
     parser.add_argument("--package", action="store_true", help="Build registry index + catalog + gateway")
     parser.add_argument("--catalog", action="store_true", help="Generate Markdown catalog only")
     parser.add_argument("--gateway", action="store_true", help="Generate gateway skill only")
-    parser.add_argument("--output-dir", default=".", help="Output directory")
+    parser.add_argument("--output-dir", default="07_SKILLS", help="Output directory")
     parser.add_argument("--summary", action="store_true", help="Print summary only")
     args = parser.parse_args()
 

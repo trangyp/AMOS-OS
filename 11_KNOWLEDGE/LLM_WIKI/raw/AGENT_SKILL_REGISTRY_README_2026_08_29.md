@@ -1,4 +1,7 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 date: 2026-08-29
 epistemic_class: OBSERVATION
 provenance: GitHub README, not independently verified
@@ -10,11 +13,12 @@ rscf:
 source: https://raw.githubusercontent.com/gfernandf/agent-skill-registry/main/README.md
 title: Agent Skill Registry README — Raw Capture
 ---
+
 # Agent Skill Registry README — Raw Capture
 
 Source: `https://github.com/gfernandf/agent-skill-registry`
 
-# Agent Skill Registry
+## Agent Skill Registry
 
 An open registry of reusable **AI agent skills** and **capability
 definitions**.
@@ -45,44 +49,44 @@ See the companion runtime at [agent-skills](https://github.com/gfernandf/agent-s
 
 Apache 2.0 — see [LICENSE](LICENSE).
 
----
+______________________________________________________________________
 
 The registry provides a standardized, declarative way to define:
 
--   primitive **capabilities**
--   composable **skills (workflows)**
--   shared **vocabulary**
--   machine-readable **catalogs**
+- primitive **capabilities**
+- composable **skills (workflows)**
+- shared **vocabulary**
+- machine-readable **catalogs**
 
 It acts as the **source of truth for agent workflows** that can be
 executed by compatible runtimes.
 
-------------------------------------------------------------------------
+______________________________________________________________________
 
-# Why this exists
+## Why this exists
 
 AI agents increasingly rely on structured tools and workflows.
 
 However, most implementations today are:
 
--   tightly coupled to a specific framework
--   implemented imperatively in code
--   difficult to reuse across systems
--   inconsistent in naming and structure
+- tightly coupled to a specific framework
+- implemented imperatively in code
+- difficult to reuse across systems
+- inconsistent in naming and structure
 
 The **Agent Skill Registry** addresses this by providing:
 
--   a **common vocabulary**
--   a **declarative workflow model**
--   a **shared registry of reusable skills**
--   a **machine-readable catalog for runtimes**
+- a **common vocabulary**
+- a **declarative workflow model**
+- a **shared registry of reusable skills**
+- a **machine-readable catalog for runtimes**
 
 The goal is to make agent capabilities **discoverable, composable, and
 reusable**.
 
-------------------------------------------------------------------------
+______________________________________________________________________
 
-# Core Concepts
+## Core Concepts
 
 The registry defines two fundamental building blocks.
 
@@ -92,10 +96,10 @@ Capabilities represent **primitive operations**.
 
 They define a **contract** describing what an operation does, including:
 
--   inputs
--   outputs
--   execution properties
--   optional metadata
+- inputs
+- outputs
+- execution properties
+- optional metadata
 
 Examples:
 
@@ -109,7 +113,7 @@ Capabilities are **not implementations**.
 
 They define **what a runtime must implement**, not how.
 
-------------------------------------------------------------------------
+______________________________________________________________________
 
 ## Skills
 
@@ -117,11 +121,11 @@ Skills are **composable workflows** built from capabilities.
 
 A skill defines:
 
--   inputs
--   outputs
--   steps
--   capability usage
--   optional nested skill usage
+- inputs
+- outputs
+- steps
+- capability usage
+- optional nested skill usage
 
 Example skill:
 
@@ -134,9 +138,9 @@ web.page.fetch → web.page.extract → reasoning.content.summarize
 Skills allow building reusable agent behavior without writing imperative
 code.
 
-------------------------------------------------------------------------
+______________________________________________________________________
 
-# Registry Structure
+## Registry Structure
 
 agent-skill-registry\
 │\
@@ -155,9 +159,9 @@ agent-skill-registry\
 └─ docs/\
 Specifications and language documentation
 
-------------------------------------------------------------------------
+______________________________________________________________________
 
-# Vocabulary
+## Vocabulary
 
 The registry enforces a **controlled vocabulary** to maintain
 consistency.
@@ -179,13 +183,13 @@ vocabulary.json
 
 This ensures:
 
--   consistent naming
--   predictable semantics
--   long-term maintainability
+- consistent naming
+- predictable semantics
+- long-term maintainability
 
-------------------------------------------------------------------------
+______________________________________________________________________
 
-# Skills as Dataflow
+## Skills as Dataflow
 
 Skills are **declarative workflows**.
 
@@ -195,14 +199,14 @@ Example:
 
 steps:
 
--   id: fetch uses: web.page.fetch input: url: inputs.url output: content:
-    vars.page
+- id: fetch uses: web.page.fetch input: url: inputs.url output: content:
+  vars.page
 
--   id: extract uses: web.page.extract input: content: vars.page output:
-    text: vars.text
+- id: extract uses: web.page.extract input: content: vars.page output:
+  text: vars.text
 
--   id: summarize uses: reasoning.content.summarize input: text: vars.text output:
-    summary: outputs.summary
+- id: summarize uses: reasoning.content.summarize input: text: vars.text output:
+  summary: outputs.summary
 
 Execution semantics:
 
@@ -210,9 +214,9 @@ inputs → steps → outputs
 
 No imperative logic is embedded in the skill definition.
 
-------------------------------------------------------------------------
+______________________________________________________________________
 
-# Generated Catalog
+## Generated Catalog
 
 The registry generates machine-readable catalogs used by runtimes.
 
@@ -223,18 +227,18 @@ catalog/stats.json
 
 These provide:
 
--   skill discovery
--   dependency graphs
--   usage statistics
--   capability relationships
+- skill discovery
+- dependency graphs
+- usage statistics
+- capability relationships
 
 Catalogs are generated using:
 
 tools/generate_catalog.py
 
-------------------------------------------------------------------------
+______________________________________________________________________
 
-# Validation
+## Validation
 
 All registry content is validated using:
 
@@ -242,19 +246,19 @@ tools/validate_registry.py
 
 Validation checks:
 
--   schema correctness
--   vocabulary compliance
--   capability references
--   skill dependency cycles
--   identifier correctness
+- schema correctness
+- vocabulary compliance
+- capability references
+- skill dependency cycles
+- identifier correctness
 
 Run validation:
 
 python tools/validate_registry.py
 
-------------------------------------------------------------------------
+______________________________________________________________________
 
-# Statistics
+## Statistics
 
 Registry statistics are generated automatically.
 
@@ -266,30 +270,30 @@ catalog/stats.json
 
 Including:
 
--   capability usage
--   unused primitives
--   skill counts by domain
--   metadata coverage
+- capability usage
+- unused primitives
+- skill counts by domain
+- metadata coverage
 
-------------------------------------------------------------------------
+______________________________________________________________________
 
-# Contributing
+## Contributing
 
 Contributions are welcome.
 
 You may contribute:
 
--   new capabilities
--   new skills
--   improvements to metadata
--   documentation updates
+- new capabilities
+- new skills
+- improvements to metadata
+- documentation updates
 
 Typical workflow:
 
-1.  Add capability or skill\
-2.  Run validator\
-3.  Regenerate catalog\
-4.  Submit pull request
+1. Add capability or skill\\
+1. Run validator\\
+1. Regenerate catalog\\
+1. Submit pull request
 
 Commands:
 
@@ -300,9 +304,9 @@ python tools/governance_guardrails.py\
 python tools/capability_governance_guardrails.py\
 python tools/enforce_capability_sunset.py
 
-------------------------------------------------------------------------
+______________________________________________________________________
 
-# Design Principles
+## Design Principles
 
 The registry follows several core principles.
 
@@ -328,9 +332,9 @@ Naming follows a strict vocabulary to avoid fragmentation.
 
 The registry is designed to grow through community contributions.
 
-------------------------------------------------------------------------
+______________________________________________________________________
 
-# Relationship with Runtimes
+## Relationship with Runtimes
 
 This repository **does not execute skills**.
 
@@ -342,23 +346,23 @@ A runtime typically performs:
 
 skill → step resolution → capability provider → execution
 
-------------------------------------------------------------------------
+______________________________________________________________________
 
-# Current Registry Scope
+## Current Registry Scope
 
 Current registry includes:
 
--   159 capabilities
--   37 skills
--   validation tooling
--   dependency graph generation
--   registry statistics
+- 159 capabilities
+- 37 skills
+- validation tooling
+- dependency graph generation
+- registry statistics
 
 This represents the first usable registry version.
 
-------------------------------------------------------------------------
+______________________________________________________________________
 
-# Documentation
+## Documentation
 
 Additional documentation:
 
@@ -379,17 +383,16 @@ Governance artifact:
 catalog/governance_guardrails.json\
 catalog/capability_governance_guardrails.json
 
-------------------------------------------------------------------------
+______________________________________________________________________
 
-# Vision
+## Vision
 
 The long-term goal is to create a **shared ecosystem of agent skills**
 that can be:
 
--   discovered
--   reused
--   composed
--   executed across runtimes
+- discovered
+- reused
+- composed
+- executed across runtimes
 
 A common language for AI agent workflows.
-

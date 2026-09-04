@@ -1,16 +1,19 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: 06 Execution MOC
 type: moc
 source: 04_RUNTIME/06_EXECUTION
 tags:
-- 06-execution
-- canon/runtime
-- adaptive-complexity-runtime
-- adversarial-validation-runtime
-- fast-path-runtime
-- fractal-runtime
-- sensitivity-runtime
-- uncertainty-vector-runtime
+  - 06-execution
+  - canon/runtime
+  - adaptive-complexity-runtime
+  - adversarial-validation-runtime
+  - fast-path-runtime
+  - fractal-runtime
+  - sensitivity-runtime
+  - uncertainty-vector-runtime
 moc: true
 rscf:
   state: DERIVED
@@ -33,5 +36,6 @@ rscf:
 - [[04_RUNTIME/06_EXECUTION/SENSITIVITY_RUNTIME|SENSITIVITY_RUNTIME]]
 - [[04_RUNTIME/06_EXECUTION/UNCERTAINTY_VECTOR_RUNTIME|UNCERTAINTY_VECTOR_RUNTIME]]
 
----
+______________________________________________________________________
+
 **Parent:** [[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME_MOC]]

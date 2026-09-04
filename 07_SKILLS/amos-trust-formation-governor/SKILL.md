@@ -4,25 +4,22 @@ title: SKILL — Amos Trust Formation Governor
 type: skill
 source: 07_SKILLS/amos-trust-formation-governor
 name: amos-trust-formation-governor
-description: Trust Formation Governor — organization, law and policy capability. Use
-  when governance design, legal analysis, or policy reasoning. Use when amos-c09-org-law-policy-master
-  routes to this specialized capability. Do not use for generic tasks outside c09
-  domain.
+description: Trust Formation Governor — organization, law and policy capability. Use when governance design, legal analysis, or policy reasoning. Use when amos-c09-org-law-policy-master routes to this specialized capability. Do not use for generic tasks outside c09 domain.
 parent_skill: amos-c09-org-law-policy-master
 domain: c09
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
 tags:
-- type/skill
-- type/skill
-- domain/org-law-policy
-- epistemic/source_claim
-- hml/h
-- epistemic/source_claim
-- amos-os
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/org-law-policy
+  - epistemic/source_claim
+  - hml/h
+  - epistemic/source_claim
+  - amos-os
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -32,23 +29,23 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: H
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
-- L7_authority
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
+  - L7_authority
 collapse_class: fail_closed
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L7
-- L16
-- L17
-- L18
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L7
+  - L16
+  - L17
+  - L18
 license: MIT
 steward: Trang Phan
 ---
@@ -58,6 +55,7 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: c09. Parent: amos-c09-org-law-policy-master. Epistemic class: SOURCE_CLAIM. H/M/L: H.
+
 ## When to Use
 
 - When governing ethical decisions: principles, consequences, fairness
@@ -82,11 +80,11 @@ Origin architect: **Trang Phan**. Domain: c09. Parent: amos-c09-org-law-policy-m
 ## Operations
 
 1. **trust_formation.govern_ethics**: Govern ethical decisions: principles, consequences, and procedural fairness
-2. **trust_formation.enforce_risk_constraint**: Enforce risk constraints: acceptable risk, risk budget, and risk escalation
-3. **trust_formation.assess_trust**: Assess trust formation: evidence, reputation, and accountability mechanisms
-4. **trust_formation.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-5. **trust_formation.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
-6. **trust_formation.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+1. **trust_formation.enforce_risk_constraint**: Enforce risk constraints: acceptable risk, risk budget, and risk escalation
+1. **trust_formation.assess_trust**: Assess trust formation: evidence, reputation, and accountability mechanisms
+1. **trust_formation.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+1. **trust_formation.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+1. **trust_formation.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## 11_KNOWLEDGE Vault Content
 
@@ -98,6 +96,7 @@ Origin architect: **Trang Phan**. Domain: c09. Parent: amos-c09-org-law-policy-m
 From Cosmo Brain Universe Core: Trust formation in global market and customer behavior patterns. From C06 Society & Culture: Trust dynamics in social systems.
 
 **Trust formation model** (from Universe Core, Module 5):
+
 - **Income-based behavior**: trust formation varies by income level
 - **Life-stage behavior**: trust formation varies by life stage
 - **Digital adoption curves**: trust formation varies with digital adoption
@@ -109,6 +108,7 @@ From Cosmo Brain Universe Core: Trust formation in global market and customer be
 - **Economic stress reactions**: trust formation under economic stress
 
 **Governor model**:
+
 - **Trust baseline**: the baseline trust level
 - **Trust formation rate**: the rate at which trust forms
 - **Trust breakdown rate**: the rate at which trust breaks down
@@ -116,15 +116,17 @@ From Cosmo Brain Universe Core: Trust formation in global market and customer be
 - **Trust floor**: the minimum trust level
 
 **Governor laws**:
+
 - `TRUST != TRUSTWORTHINESS`: trust is the trustor's belief; trustworthiness is the trustee's property
-- `FORMATION != EARNING**: trust formation is a process; earning trust is an action
-- `TRUST != COMPLIANCE**: trust is a belief; compliance is a behavior
+- \`FORMATION != EARNING\*\*: trust formation is a process; earning trust is an action
+- \`TRUST != COMPLIANCE\*\*: trust is a belief; compliance is a behavior
 
 ### Epistemic Boundary
 
 Trust formation governance is a social model. It does not prove trust is always well-formed, that the formation model is complete, or that trust implies trustworthiness.
 
 ## Failure Modes
+
 - **Insufficient evidence**: If source material is insufficient, mark as UNKNOWN/GAP and fail closed — do not fabricate.
 - **Scope violation**: If the query falls outside the skill's declared scope, escalate to the parent skill or steward.
 - **Binding broken**: If 1:1:1 binding (skill→agent→workflow) is broken, flag routing mismatch and block execution.
@@ -138,7 +140,8 @@ Trust formation governance is a social model. It does not prove trust is always 
 - **G3 (Provenance)**: Source path recorded for every derived claim.
 - **G4 (Anti-overreach)**: No cla
 
----
+______________________________________________________________________
+
 **Links:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 ## Related
@@ -148,17 +151,19 @@ Trust formation governance is a social model. It does not prove trust is always 
 ## Examples
 
 - **Scenario**: When governing ethical decisions: principles, consequences, fairness
+
   - **Input**: A query matching this skill's domain (c09)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When enforcing risk constraints: acceptable risk, budget, escalation
+
   - **Input**: A query matching this skill's domain (c09)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When assessing trust formation: evidence, reputation, accountability
+
   - **Input**: A query matching this skill's domain (c09)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Anti-Patterns
 
@@ -168,7 +173,6 @@ Trust formation governance is a social model. It does not prove trust is always 
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `amos-c09-org-law-policy-master` — routes to this skill when c09 specialization is needed
@@ -176,7 +180,6 @@ Trust formation governance is a social model. It does not prove trust is always 
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -195,7 +198,6 @@ Trust formation governance is a social model. It does not prove trust is always 
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -203,7 +205,6 @@ Trust formation governance is a social model. It does not prove trust is always 
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -216,11 +217,12 @@ Trust formation governance is a social model. It does not prove trust is always 
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `amos-c09-org-law-policy-master` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `amos-trust-formation-governor-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -228,12 +230,14 @@ Trust formation governance is a social model. It does not prove trust is always 
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-trust-formation-governor
 node_type: skill
 path: 07_SKILLS/amos-trust-formation-governor/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

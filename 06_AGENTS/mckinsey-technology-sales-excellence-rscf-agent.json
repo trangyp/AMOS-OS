@@ -89,7 +89,7 @@
     "mckinsey-technology-sales-excellence-rscf"
   ],
   "depends_on_workflows": [
-    "mckinsey-technology-sales-excellence-rscf-workflow.md"
+    "amos-mckinsey-technology-sales-excellence-rscf-workflow.md"
   ],
   "epistemic_class": "AMOS_MODEL",
   "claim_ceiling": 0.95,

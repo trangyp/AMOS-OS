@@ -2,17 +2,17 @@
 type: dependency
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L03_PERCEPT_FORMATION
 tags:
-- amos
-- cognitive-matrix
-- matrix/l03
-- percept-formation
-- dependencies
-- perception
-- provenance
-- rscf
-- hml
-- governance
-- domain/cognitive-matrix
+  - amos
+  - cognitive-matrix
+  - matrix/l03
+  - percept-formation
+  - dependencies
+  - perception
+  - provenance
+  - rscf
+  - hml
+  - governance
+  - domain/cognitive-matrix
 title: L03_PERCEPT_FORMATION — Dependencies
 origin_architect: Trang Phan
 status: MODEL_DEPENDENCY_CONTRACT / UNIMPLEMENTED / UNVALIDATED
@@ -33,11 +33,11 @@ rscf:
 **Artifact:** `DEPENDENCIES.md`
 **Status:** `AMOS_MODEL / UNIMPLEMENTED / UNVALIDATED`
 
-> **Canon boundary:** AMOS perception architecture requires H/M/L structure, typed invariants/tensors, RSCF, equation provenance, falsifiers, repair, competing hypotheses, confidence ceilings, and provenance. Hard invariants are non-compensatory, and source-defined constructs must not be confused with external empirical validation.  The detailed L03 dependency graph below is therefore an AMOS model completion unless direct canonical L03 dependencies or executable runtime evidence independently establish it.
+> **Canon boundary:** AMOS perception architecture requires H/M/L structure, typed invariants/tensors, RSCF, equation provenance, falsifiers, repair, competing hypotheses, confidence ceilings, and provenance. Hard invariants are non-compensatory, and source-defined constructs must not be confused with external empirical validation. The detailed L03 dependency graph below is therefore an AMOS model completion unless direct canonical L03 dependencies or executable runtime evidence independently establish it.
 
----
+______________________________________________________________________
 
-# 0. Purpose
+## 0. Purpose
 
 Define the dependency contract governing `L03_PERCEPT_FORMATION`.
 
@@ -94,9 +94,9 @@ DEPENDENCY FAILURE
 GLOBAL FAILURE
 ```
 
----
+______________________________________________________________________
 
-# 1. Source / Canon References
+## 1. Source / Canon References
 
 ## 1.1 Source-aligned AMOS architecture
 
@@ -153,20 +153,18 @@ canonical_invalidation_rules: UNKNOWN_GAP
 canonical_runtime_dependency_engine: UNKNOWN_GAP
 ```
 
----
+______________________________________________________________________
 
-# 2. Definition and Scope
+## 2. Definition and Scope
 
 A dependency in L03 is a typed relation indicating that some percept state, inference, validation, or transition requires another object, state, premise, resource, or authority condition.
 
 Candidate formal form:
 
-[
-d_{ij}
-======
+## \[ d\_{ij}
 
-Dep(x_i,x_j,\tau,s,r,f,p)
-]
+Dep(x_i,x_j,\\tau,s,r,f,p)
+\]
 
 where:
 
@@ -207,9 +205,9 @@ runtime/state dependencies
 
 They do not automatically establish causal mechanism.
 
----
+______________________________________________________________________
 
-# 3. Dependency Type System
+## 3. Dependency Type System
 
 ```yaml
 DependencyEdge:
@@ -272,9 +270,9 @@ DependencyEdge:
       - UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 4. Typed Inputs
+## 4. Typed Inputs
 
 ```yaml
 L03DependencyInput:
@@ -328,9 +326,9 @@ L03DependencyInput:
     type: DependencyGraph | null
 ```
 
----
+______________________________________________________________________
 
-# 5. Typed Outputs
+## 5. Typed Outputs
 
 ```yaml
 L03DependencyOutput:
@@ -382,9 +380,9 @@ L03DependencyOutput:
       - UNKNOWN_GAP
 ```
 
----
+______________________________________________________________________
 
-# 6. State Variables
+## 6. State Variables
 
 ```text
 D_t       = full L03 dependency graph
@@ -416,9 +414,9 @@ Gap_t     = dependency gaps
 Epoch_t   = dependency-validation epoch
 ```
 
----
+______________________________________________________________________
 
-# 7. Upstream Dependencies
+## 7. Upstream Dependencies
 
 ## 7.1 L00 — Reality / Environment
 
@@ -452,7 +450,7 @@ ENVIRONMENT
 OBSERVATION
 ```
 
----
+______________________________________________________________________
 
 ## 7.2 L01 — Sensing / Observation
 
@@ -476,7 +474,7 @@ UNKNOWN/GAP
 
 not invented evidence.
 
----
+______________________________________________________________________
 
 ## 7.3 L02 — Attention
 
@@ -502,18 +500,16 @@ MORE TRUE
 
 Attention state is a processing dependency, not an epistemic promotion.
 
----
+______________________________________________________________________
 
-# 8. Observation Dependencies
+## 8. Observation Dependencies
 
 Each percept candidate should expose its observation support set:
 
-[
-Obs(P_i)
-========
+## \[ Obs(P_i)
 
-{o_1,o_2,\ldots,o_n}
-]
+{o_1,o_2,\\ldots,o_n}
+\]
 
 Candidate structure:
 
@@ -528,25 +524,25 @@ PerceptObservationDependency:
 
 If a required observation becomes invalid:
 
-[
+\[
 Invalid(o_j)
-\Rightarrow
+\\Rightarrow
 Revalidate(P_i)
-]
+\]
 
-and if \(o_j\) is load-bearing:
+and if (o_j) is load-bearing:
 
-[
+\[
 Invalid(o_j)
-\Rightarrow
+\\Rightarrow
 Invalidate(P_i)
-]
+\]
 
 unless an independent proof path remains.
 
----
+______________________________________________________________________
 
-# 9. Feature Dependencies
+## 9. Feature Dependencies
 
 A percept may depend on extracted or normalized features:
 
@@ -562,11 +558,11 @@ percept
 
 Candidate:
 
-[
+\[
 P
-\leftarrow
-B(F_1,F_2,\ldots,F_n)
-]
+\\leftarrow
+B(F_1,F_2,\\ldots,F_n)
+\]
 
 Feature extraction must preserve ancestry.
 
@@ -580,9 +576,9 @@ NEW INDEPENDENT EVIDENCE
 
 if derived from one observation.
 
----
+______________________________________________________________________
 
-# 10. Binding Dependencies
+## 10. Binding Dependencies
 
 Percepts may depend upon explicit feature or observation bindings.
 
@@ -620,9 +616,9 @@ CORRELATION / CO-OCCURRENCE
 COMMON IDENTITY
 ```
 
----
+______________________________________________________________________
 
-# 11. Temporal Dependencies
+## 11. Temporal Dependencies
 
 A percept may depend on time ordering or temporal proximity.
 
@@ -656,9 +652,9 @@ observation latency changes materially
 
 Exact canonical windows remain `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
-# 12. Spatial Dependencies
+## 12. Spatial Dependencies
 
 Where spatial information exists, percept bindings may depend on:
 
@@ -687,9 +683,9 @@ spatial dependency = UNKNOWN / NOT_AVAILABLE
 
 not fabricated.
 
----
+______________________________________________________________________
 
-# 13. Modality Dependencies
+## 13. Modality Dependencies
 
 Percepts may depend on one or more modalities.
 
@@ -727,9 +723,9 @@ NEGATIVE EVIDENCE
 
 A multimodal percept may be downgraded or split into `COMPETING` percepts if its required modalities become incompatible.
 
----
+______________________________________________________________________
 
-# 14. Observer Dependencies
+## 14. Observer Dependencies
 
 Some percepts depend materially on observer position, access, instrumentation, or context.
 
@@ -755,9 +751,9 @@ OBSERVER-INDEPENDENT
 
 without valid transformation.
 
----
+______________________________________________________________________
 
-# 15. Context Dependencies
+## 15. Context Dependencies
 
 A percept may depend on prior context.
 
@@ -781,9 +777,9 @@ CONTEXT CAN CONDITION INTERPRETATION
 BUT CANNOT MANUFACTURE OBSERVATION
 ```
 
----
+______________________________________________________________________
 
-# 16. Scope Dependencies
+## 16. Scope Dependencies
 
 Every percept has an applicability scope.
 
@@ -802,17 +798,17 @@ ScopeDependency:
 
 Hard rule:
 
-[
+\[
 Valid(P,S_A)
-\not\Rightarrow
+\\not\\Rightarrow
 Valid(P,S_B)
-]
+\]
 
 without a valid transfer mapping.
 
----
+______________________________________________________________________
 
-# 17. Regime Dependencies
+## 17. Regime Dependencies
 
 Percept validity may depend on regime.
 
@@ -831,19 +827,19 @@ current state
 
 A regime shift can invalidate dependent percepts even when raw observations remain unchanged.
 
----
+______________________________________________________________________
 
-# 18. Freshness Dependencies
+## 18. Freshness Dependencies
 
 Percept state inherits freshness from its load-bearing dependencies.
 
 Candidate:
 
-[
+\[
 Fresh(P)
-\le
-\min_i Fresh(d_i)
-]
+\\le
+\\min_i Fresh(d_i)
+\]
 
 in the sense that a percept cannot be fresher than a stale load-bearing premise without independent revalidation.
 
@@ -863,9 +859,9 @@ UNCHANGED TEXT
 UNCHANGED WORLD STATE
 ```
 
----
+______________________________________________________________________
 
-# 19. Provenance Dependencies
+## 19. Provenance Dependencies
 
 Every percept should depend on recoverable semantic origins.
 
@@ -903,20 +899,18 @@ MANY DESCENDANTS
 MANY INDEPENDENT SOURCES
 ```
 
----
+______________________________________________________________________
 
-# 20. Constraint Dependencies
+## 20. Constraint Dependencies
 
 Hard constraints are non-compensatory.
 
 Candidate admission equation:
 
-[
-Admit(P)
-========
+## \[ Admit(P)
 
-\bigwedge_j Constraint_j(P)
-]
+\\bigwedge_j Constraint_j(P)
+\]
 
 If one required hard constraint fails:
 
@@ -937,9 +931,9 @@ required modality availability
 authority requirements
 ```
 
----
+______________________________________________________________________
 
-# 21. RSCF Dependencies
+## 21. RSCF Dependencies
 
 Every consequential L03 percept should be representable in RSCF form.
 
@@ -964,17 +958,17 @@ RSCF is a dependency representation.
 
 It is not empirical proof.
 
----
+______________________________________________________________________
 
-# 22. Confidence Dependencies
+## 22. Confidence Dependencies
 
-For percept \(P\) with load-bearing dependencies \(d_i\):
+For percept (P) with load-bearing dependencies (d_i):
 
-[
+\[
 Conf(P)
-\le
-\min_i Conf(d_i)
-]
+\\le
+\\min_i Conf(d_i)
+\]
 
 unless an independent supporting path survives.
 
@@ -990,9 +984,9 @@ percept ceiling <= MEDIUM
 
 Perceptual coherence alone cannot raise that ceiling.
 
----
+______________________________________________________________________
 
-# 23. H/M/L Dependencies
+## 23. H/M/L Dependencies
 
 ## H — Global percept dependencies
 
@@ -1051,9 +1045,9 @@ H percept
 
 without explicit cross-scale aggregation.
 
----
+______________________________________________________________________
 
-# 24. Control-Plane Dependencies
+## 24. Control-Plane Dependencies
 
 L03 depends on control-plane governance where state becomes authoritative or consequential.
 
@@ -1085,9 +1079,9 @@ AUTHORITY DEPENDENCY
 
 Both must be separately satisfied where applicable.
 
----
+______________________________________________________________________
 
-# 25. Memory Dependencies
+## 25. Memory Dependencies
 
 Percept formation may use prior percepts or context from memory.
 
@@ -1112,9 +1106,9 @@ CURRENT OBSERVATION
 
 Memory should influence L03 only through an explicitly typed context or prior dependency.
 
----
+______________________________________________________________________
 
-# 26. Resource Dependencies
+## 26. Resource Dependencies
 
 Percept formation also depends on bounded resources.
 
@@ -1140,9 +1134,9 @@ return UNKNOWN/GAP
 
 but must not produce fabricated percept certainty.
 
----
+______________________________________________________________________
 
-# 27. Downstream Dependencies
+## 27. Downstream Dependencies
 
 L03 outputs may feed later cognitive layers.
 
@@ -1181,9 +1175,9 @@ confidence ceiling
 
 Exact canonical downstream primitive IDs remain `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
-# 28. Dependency Graph Model
+## 28. Dependency Graph Model
 
 Candidate graph:
 
@@ -1225,9 +1219,9 @@ observer context ─────────► percept stages
 H/M/L ────────────────────► all stages
 ```
 
----
+______________________________________________________________________
 
-# 29. Dependency Operators
+## 29. Dependency Operators
 
 Candidate operators:
 
@@ -1263,9 +1257,9 @@ REHYDRATE_DEPENDENCY_GRAPH()
 
 These names remain `AMOS_MODEL`.
 
----
+______________________________________________________________________
 
-# 30. Dependency Invariants
+## 30. Dependency Invariants
 
 ```text
 L03-DEP-INV-001
@@ -1329,27 +1323,27 @@ L03-DEP-INV-020
 Proposal dependency completion does not imply commit completion.
 ```
 
----
+______________________________________________________________________
 
-# 31. Selective Invalidation
+## 31. Selective Invalidation
 
 Core rule:
 
-[
+\[
 Invalid(x)
-\Rightarrow
+\\Rightarrow
 Invalidate(Descendants(x))
-]
+\]
 
 for dependency-connected descendants.
 
 But:
 
-[
+\[
 Invalid(x)
-\not\Rightarrow
+\\not\\Rightarrow
 Invalidate(Unrelated(x))
-]
+\]
 
 Example:
 
@@ -1378,19 +1372,17 @@ P2 → unchanged
 
 assuming no hidden shared dependency exists.
 
----
+______________________________________________________________________
 
-# 32. Dependency Closure
+## 32. Dependency Closure
 
-For percept \(P\), define dependency closure:
+For percept (P), define dependency closure:
 
-[
-Closure(P)
-==========
+## \[ Closure(P)
 
 {d:
-d \text{ is load-bearing for } P}
-]
+d \\text{ is load-bearing for } P}
+\]
 
 The control objective is not to load every possible ancestor.
 
@@ -1412,9 +1404,9 @@ REQUIRED GRAPH
 
 when a smaller valid closure is sufficient.
 
----
+______________________________________________________________________
 
-# 33. Competing Dependency Models
+## 33. Competing Dependency Models
 
 Sometimes the dependency graph itself is uncertain.
 
@@ -1439,9 +1431,9 @@ COMPETING
 
 until discriminating observations resolve the dependency topology.
 
----
+______________________________________________________________________
 
-# 34. Failure Modes
+## 34. Failure Modes
 
 ```text
 FM-L03-DEP-001
@@ -1505,9 +1497,9 @@ FM-L03-DEP-020
 Dependency graph described as implemented runtime without evidence.
 ```
 
----
+______________________________________________________________________
 
-# 35. Repair / Recovery
+## 35. Repair / Recovery
 
 Dependency repair workflow:
 
@@ -1547,9 +1539,9 @@ RESUME
 
 Do not repair by rewriting source evidence.
 
----
+______________________________________________________________________
 
-# 36. Tests / Validators
+## 36. Tests / Validators
 
 Minimum validators:
 
@@ -1636,9 +1628,9 @@ tests_executed: false
 runtime_verified: false
 ```
 
----
+______________________________________________________________________
 
-# 37. Agents
+## 37. Agents
 
 Candidate dependency-related roles:
 
@@ -1658,9 +1650,9 @@ These are architectural roles only.
 
 Different agents do not automatically constitute independent evidence.
 
----
+______________________________________________________________________
 
-# 38. Skills
+## 38. Skills
 
 Relevant supporting AMOS capabilities include:
 
@@ -1678,9 +1670,9 @@ RSCF Modeler
 
 Skill availability is not implementation evidence.
 
----
+______________________________________________________________________
 
-# 39. Workflow
+## 39. Workflow
 
 ```text
 RECEIVE PERCEPT CANDIDATE
@@ -1710,9 +1702,9 @@ CHECK AUTHORITY DEPENDENCIES IF STATE EFFECT EXISTS
 VALID / CONDITIONAL / COMPETING / UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 40. Protocols
+## 40. Protocols
 
 Candidate protocols:
 
@@ -1732,9 +1724,9 @@ L03_DEP_CONFLICT_NOTICE
 
 Canonical names remain `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
-# 41. Evidence / Provenance
+## 41. Evidence / Provenance
 
 Every dependency edge should preserve sufficient evidence to answer:
 
@@ -1777,9 +1769,9 @@ DependencyProvenance:
   invalidation_conditions: []
 ```
 
----
+______________________________________________________________________
 
-# 42. Uncertainty and Confidence Ceiling
+## 42. Uncertainty and Confidence Ceiling
 
 Dependency uncertainty should remain decomposed:
 
@@ -1802,18 +1794,18 @@ A percept depending on uncertain dependency topology should inherit that uncerta
 
 Confidence rule:
 
-[
+\[
 Conf(P)
-\le
-\min_{d_i \in LoadBearing(P)}
+\\le
+\\min\_{d_i \\in LoadBearing(P)}
 Conf(d_i)
-]
+\]
 
 unless another independently validated proof path supports the percept.
 
----
+______________________________________________________________________
 
-# 43. Falsifiers
+## 43. Falsifiers
 
 Revise this contract if direct canon establishes that:
 
@@ -1835,9 +1827,9 @@ canonical runtime uses materially different dependency objects;
 direct tests contradict the modeled dependency propagation.
 ```
 
----
+______________________________________________________________________
 
-# 44. Gap Matrix
+## 44. Gap Matrix
 
 ```yaml
 gap_status:
@@ -1918,9 +1910,9 @@ gap_status:
     status: CRITICAL_GAP
 ```
 
----
+______________________________________________________________________
 
-# 45. Competing Dependency Architectures
+## 45. Competing Dependency Architectures
 
 ## COMPETING-001 — Linear Chain
 
@@ -1938,7 +1930,7 @@ Risk:
 may omit feedback and cross-context dependencies
 ```
 
----
+______________________________________________________________________
 
 ## COMPETING-002 — DAG
 
@@ -1958,7 +1950,7 @@ modality
 
 Percept formation modeled as a DAG.
 
----
+______________________________________________________________________
 
 ## COMPETING-003 — Feedback Graph
 
@@ -1978,7 +1970,7 @@ Risk:
 feedback can create self-reinforcement
 ```
 
----
+______________________________________________________________________
 
 ## COMPETING-004 — Hybrid Governed DAG
 
@@ -2002,9 +1994,9 @@ because it permits feedback without hiding directional evidence lineage.
 
 This remains `MODEL`.
 
----
+______________________________________________________________________
 
-# 46. RSCF Completion State
+## 46. RSCF Completion State
 
 ```yaml
 rscf:
@@ -2109,9 +2101,9 @@ rscf:
     provenance-family handling, and selective invalidation behavior.
 ```
 
----
+______________________________________________________________________
 
-# 47. Completion State
+## 47. Completion State
 
 ```yaml
 completion_state:
@@ -2189,9 +2181,9 @@ completion_state:
     MODEL
 ```
 
----
+______________________________________________________________________
 
-# 48. Hard Boundaries
+## 48. Hard Boundaries
 
 ```text
 PLACEHOLDER != IMPLEMENTED
@@ -2239,15 +2231,15 @@ DEPENDENCY GRAPH DEFINED != DEPENDENCY ENGINE IMPLEMENTED
 IMPLEMENTED != VALIDATED
 ```
 
----
+______________________________________________________________________
 
-# 49. Governing Dependency Contract
+## 49. Governing Dependency Contract
 
 > **`L03_PERCEPT_FORMATION` SHALL maintain explicit dependency lineage from percept candidates back through bindings, features, attention state, observations, and semantic origins. Scope, regime, freshness, observer context, modality availability, H/M/L position, constraints, provenance, and authority dependencies SHALL remain explicit where material. A failed load-bearing dependency SHALL invalidate or force revalidation only of its actual descendants unless broader dependency closure proves systemic impact. Attention, structural dependency, temporal order, feature co-occurrence, or repeated provenance SHALL NOT be silently promoted into truth, causation, independent confirmation, or authority.**
 
----
+______________________________________________________________________
 
-# 50. Canon Boundary
+## 50. Canon Boundary
 
 ```text
 SOURCE-ALIGNED:
@@ -2347,22 +2339,27 @@ AUTHORITY TO COMMIT
 
 ```text
 ```
----
+
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: l03_percept_formation_primitives_cognitive_matrix_dependencies
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L03_PERCEPT_FORMATION/L03_PERCEPT_FORMATION_PRIMITIVES_COGNITIVE_MATRIX_DEPENDENCIES.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L03_PERCEPT_FORMATION/L03_PERCEPT_FORMATION_MOC|L03_PERCEPT_FORMATION_MOC]]

@@ -12,19 +12,19 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: BINDING
 path: 11_KNOWLEDGE/05_FRAMEWORKS/UBI_RATPAK_BINDING.md
 tags:
-- amos-os
-- knowledge
-- vault
-- 05_frameworks
-- ubi_ratpak_binding
-- relational_telemetry
-- data_packaging
-- rscf
-- canon_candidate
-- canon/knowledge
-- unified-biological-intelligence
-- ratpak
-- ubi-wearable-framework
+  - amos-os
+  - knowledge
+  - vault
+  - 05_frameworks
+  - ubi_ratpak_binding
+  - relational_telemetry
+  - data_packaging
+  - rscf
+  - canon_candidate
+  - canon/knowledge
+  - unified-biological-intelligence
+  - ratpak
+  - ubi-wearable-framework
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -39,20 +39,20 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - RATPAK_SPECIFICATION
-  - UBI_OFFICIAL_MANUAL
-  - AMOS_CORPUS
+    - RATPAK_SPECIFICATION
+    - UBI_OFFICIAL_MANUAL
+    - AMOS_CORPUS
   scope:
-  - KNOWLEDGE_FRAMEWORKS
-  - BINDINGS
-  - SOURCE_DEFINED_MODEL
+    - KNOWLEDGE_FRAMEWORKS
+    - BINDINGS
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   biological_master:
     artifact:
-    - - UNIFIED_BIOLOGICAL_INTELLIGENCE
+      -   - UNIFIED_BIOLOGICAL_INTELLIGENCE
   ratpak:
     artifact:
-    - - RATPAK
+      -   - RATPAK
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
@@ -66,25 +66,25 @@ epistemic_boundary:
 
 It formalizes the relational packaging schemas that serialize multi-channel continuous biological telemetry (NBI, NEI, SI, BEI) into high-efficiency [[11_KNOWLEDGE/05_FRAMEWORKS/RATPAK|RATPAK]] payloads.
 
----
+______________________________________________________________________
 
-# 1. Telemetry Packaging Schema
+## 1. Telemetry Packaging Schema
 
 - **Timestamp & Provenance Anchor:** Cryptographic hardware device hash + microsecond synchronization.
 - **Relational Vector Serialization:** $\vec{X} = [\text{NBI}, \text{NEI}, \text{SI}, \text{BEI}]$ compressed alongside error variance bounds ($\sigma_k^2$).
 - **Lossy Edge Compression with Invariant Recovery:** Preserves topological alignment metrics while dropping non-essential high-frequency noise.
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Biological Master:** [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]]
 - **[[11_KNOWLEDGE/05_FRAMEWORKS/RATPAK|RATPAK]] Master:** [[11_KNOWLEDGE/05_FRAMEWORKS/RATPAK|RATPAK]]
 - **Wearable Sensors:** [[11_KNOWLEDGE/05_FRAMEWORKS/UBI_WEARABLE_FRAMEWORK|UBI_WEARABLE_FRAMEWORK]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -102,10 +102,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]] · [[11_KNOWLEDGE/05_FRAMEWORKS/RATPAK|RATPAK]] · [[11_KNOWLEDGE/05_FRAMEWORKS/UBI_WEARABLE_FRAMEWORK|UBI_WEARABLE_FRAMEWORK]]
 
----
-**MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]
+______________________________________________________________________
 
+**MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]

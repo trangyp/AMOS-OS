@@ -1,4 +1,7 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: 11 Knowledge MOC
 type: moc
 source: 11_KNOWLEDGE

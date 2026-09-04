@@ -1,10 +1,13 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: 03 Rscf MOC
 type: moc
 source: 11_KNOWLEDGE/03_RSCF
 tags:
-- 03-rscf
-- canon/knowledge
+  - 03-rscf
+  - canon/knowledge
 moc: true
 rscf:
   state: SOURCE_CLAIM
@@ -30,5 +33,6 @@ rscf:
 - [[11_KNOWLEDGE/03_RSCF/UBI_RSCF_INDEX|UBI_RSCF_INDEX]]
 - [[11_KNOWLEDGE/03_RSCF/UNIVERSE_RSCF_INDEX|UNIVERSE_RSCF_INDEX]]
 
----
+______________________________________________________________________
+
 **Parent:** [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]]

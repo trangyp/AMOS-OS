@@ -1,10 +1,13 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: 06 Reasoning Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/06_REASONING_MODES
 tags:
-- 06-reasoning-modes
-- canon/control-plane
+  - 06-reasoning-modes
+  - canon/control-plane
 moc: true
 rscf:
   state: DERIVED
@@ -32,5 +35,6 @@ rscf:
 - [[03_CONTROL_PLANE/09_COMMIT/06_REASONING_MODES/04_AUDIT/04_AUDIT_MOC|04_AUDIT_MOC]] — 04_AUDIT
 - [[03_CONTROL_PLANE/09_COMMIT/06_REASONING_MODES/05_MEASURE/05_MEASURE_MOC|05_MEASURE_MOC]] — 05_MEASURE
 
----
+______________________________________________________________________
+
 **Parent:** [[03_CONTROL_PLANE/09_COMMIT/09_COMMIT_MOC|09_COMMIT_MOC]]

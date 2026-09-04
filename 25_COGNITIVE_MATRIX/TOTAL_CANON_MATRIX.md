@@ -12,42 +12,42 @@ segment: 25_COGNITIVE_MATRIX
 artifact_kind: MATRIX_TABLE
 path: 25_COGNITIVE_MATRIX/TOTAL_CANON_MATRIX.md
 tags:
-- amos-os
-- cognitive-matrix
-- vault
-- total-canon-matrix
-- master-canon
-- master_convergence_grid
-- cross-plane
-- canon_routing
-- core_laws
-- law/L0-integrity
-- universe_strata
-- seven_part_universe
-- epistemic_invariants
-- enforcement_gates
-- authority_envelopes
-- physical_conservation
-- anti_autopoisoning
-- null_state
-- rscf
-- provenance
-- canon_candidate
-- canon/matrix
-- architecture
-- canon
-- k-rscf
-- k-hml
-- k-core-laws
-- k-provenance
-- k-provenance-topology
-- k-anti-autopoisoning
-- k-authority
-- k-governance
-- k-reality
-- k-universe-strata
-- law/L0-integrity
-- amos-core-v4-4
+  - amos-os
+  - cognitive-matrix
+  - vault
+  - total-canon-matrix
+  - master-canon
+  - master_convergence_grid
+  - cross-plane
+  - canon_routing
+  - core_laws
+  - law/L0-integrity
+  - universe_strata
+  - seven_part_universe
+  - epistemic_invariants
+  - enforcement_gates
+  - authority_envelopes
+  - physical_conservation
+  - anti_autopoisoning
+  - null_state
+  - rscf
+  - provenance
+  - canon_candidate
+  - canon/matrix
+  - architecture
+  - canon
+  - k-rscf
+  - k-hml
+  - k-core-laws
+  - k-provenance
+  - k-provenance-topology
+  - k-anti-autopoisoning
+  - k-authority
+  - k-governance
+  - k-reality
+  - k-universe-strata
+  - law/L0-integrity
+  - amos-core-v4-4
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -65,13 +65,13 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - 01_CANON/01_CANON_MOC
-  - 01_CANON/01_CORE_LAWS/01_CORE_LAWS_MOC
-  - AMOS_CORPUS
+    - 01_CANON/01_CANON_MOC
+    - 01_CANON/01_CORE_LAWS/01_CORE_LAWS_MOC
+    - AMOS_CORPUS
   scope:
-  - COGNITIVE_MATRIX
-  - MASTER_CANON_MATRIX
-  - SOURCE_DEFINED_MODEL
+    - COGNITIVE_MATRIX
+    - MASTER_CANON_MATRIX
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   canon_moc:
     artifact: 01_CANON/01_CANON_MOC
@@ -120,16 +120,16 @@ $$
 
 where:
 
-- \(L_i\) = canon law or stratum;
-- \(P_i\) = primary statement;
-- \(I_i\) = epistemic invariant;
-- \(G_i\) = named enforcement gate.
+- (L_i) = canon law or stratum;
+- (P_i) = primary statement;
+- (I_i) = epistemic invariant;
+- (G_i) = named enforcement gate.
 
 This notation is **DERIVED**, not a supplied canonical equation.
 
----
+______________________________________________________________________
 
-# 3. Routing ≠ Causation
+## 3. Routing ≠ Causation
 
 The existence of a matrix mapping:
 
@@ -141,9 +141,9 @@ does not establish that the law physically causes the gate, or that the gate emp
 
 The relationship is source-defined architectural routing.
 
----
+______________________________________________________________________
 
-# 4. Routing ≠ Implementation
+## 4. Routing ≠ Implementation
 
 A row may define an intended enforcement mechanism without establishing an executable binding.
 
@@ -155,9 +155,9 @@ NamedGate
 ImplementedGate
 $$
 
----
+______________________________________________________________________
 
-# 5. Master Convergence Grid
+## 5. Master Convergence Grid
 
 The artifact describes itself as the:
 
@@ -167,9 +167,9 @@ This description is a **SOURCE_CLAIM**.
 
 The supplied table itself explicitly exposes five rows.
 
----
+______________________________________________________________________
 
-# 6. Completeness Firewall
+## 6. Completeness Firewall
 
 The phrase `mapping all 01_CANON laws` must not be converted into a verified completeness claim from this artifact alone.
 
@@ -183,9 +183,9 @@ Until then:
 
 `TOTAL_CANON_COMPLETENESS = NOT_INDEPENDENTLY_ESTABLISHED`.
 
----
+______________________________________________________________________
 
-# 7. L0 Integrity
+## 7. L0 Integrity
 
 The source-defined L0 row is:
 
@@ -202,9 +202,9 @@ L0_Integrity:
     "Invariant Assertion Gate"
 ```
 
----
+______________________________________________________________________
 
-# 8. L0 Primary Relation
+## 8. L0 Primary Relation
 
 The supplied notation is:
 
@@ -224,9 +224,9 @@ is stronger than simple implication.
 
 It denotes a source-defined biconditional relationship.
 
----
+______________________________________________________________________
 
-# 9. L0 Symbol Boundary
+## 9. L0 Symbol Boundary
 
 This artifact does not define the complete semantics of:
 
@@ -238,9 +238,9 @@ Therefore those symbols must not be expanded from intuition alone.
 
 Retrieve the authoritative Core Laws source when exact definitions matter.
 
----
+______________________________________________________________________
 
-# 10. L0 Biconditional Firewall
+## 10. L0 Biconditional Firewall
 
 Do not silently replace:
 
@@ -258,9 +258,9 @@ or vice versa.
 
 The distinction is structurally material.
 
----
+______________________________________________________________________
 
-# 11. L0 Formal-Proof Boundary
+## 11. L0 Formal-Proof Boundary
 
 The source contains a mathematical-looking statement.
 
@@ -276,9 +276,9 @@ Classification remains:
 
 `AMOS_MODEL / SOURCE_CLAIM`.
 
----
+______________________________________________________________________
 
-# 12. Law of Law
+## 12. Law of Law
 
 The supplied epistemic invariant for L0 is:
 
@@ -286,9 +286,9 @@ The supplied epistemic invariant for L0 is:
 
 This phrase should be preserved exactly as source terminology unless the Core Laws corpus supplies an authoritative expansion.
 
----
+______________________________________________________________________
 
-# 13. Law-of-Law Firewall
+## 13. Law-of-Law Firewall
 
 Do not infer that `Law of Law` means:
 
@@ -300,9 +300,9 @@ Do not infer that `Law of Law` means:
 
 without source evidence.
 
----
+______________________________________________________________________
 
-# 14. Invariant Assertion Gate
+## 14. Invariant Assertion Gate
 
 The source maps L0 to:
 
@@ -310,9 +310,9 @@ The source maps L0 to:
 
 At the weakest warranted level, this is a named source-defined enforcement gate associated with L0 integrity.
 
----
+______________________________________________________________________
 
-# 15. Assertion Gate ≠ Runtime Assertion
+## 15. Assertion Gate ≠ Runtime Assertion
 
 The artifact does not establish:
 
@@ -323,9 +323,9 @@ The artifact does not establish:
 - failure semantics;
 - rollback semantics.
 
----
+______________________________________________________________________
 
-# 16. L0 Canonical Compression
+## 16. L0 Canonical Compression
 
 $$
 \boxed{
@@ -342,9 +342,9 @@ $$
 
 The arrows are a derived routing visualization, not a causal theorem.
 
----
+______________________________________________________________________
 
-# 17. L1 Reality
+## 17. L1 Reality
 
 The source-defined L1 row is:
 
@@ -361,9 +361,9 @@ L1_Reality:
     "Hardware / Energy Firewall"
 ```
 
----
+______________________________________________________________________
 
-# 18. Physical-Substrate Law
+## 18. Physical-Substrate Law
 
 The source states:
 
@@ -371,17 +371,17 @@ The source states:
 
 Within this artifact, that is a canonical AMOS model statement.
 
----
+______________________________________________________________________
 
-# 19. Physical-Reality Firewall
+## 19. Physical-Reality Firewall
 
 This source statement should not be inflated into a newly verified universal law of physics.
 
 The artifact is not independent physical evidence.
 
----
+______________________________________________________________________
 
-# 20. Physical Conservation
+## 20. Physical Conservation
 
 The associated invariant is:
 
@@ -389,9 +389,9 @@ The associated invariant is:
 
 Its precise relationship to standard conservation laws in physics is not defined here.
 
----
+______________________________________________________________________
 
-# 21. Conservation Firewall
+## 21. Conservation Firewall
 
 Do not silently equate `Physical Conservation` with any particular combination of:
 
@@ -402,9 +402,9 @@ Do not silently equate `Physical Conservation` with any particular combination o
 
 The source may use the term at a broader architectural level.
 
----
+______________________________________________________________________
 
-# 22. Hardware / Energy Firewall
+## 22. Hardware / Energy Firewall
 
 The named L1 enforcement gate is:
 
@@ -412,9 +412,9 @@ The named L1 enforcement gate is:
 
 This is source-defined terminology.
 
----
+______________________________________________________________________
 
-# 23. Hardware Firewall Boundary
+## 23. Hardware Firewall Boundary
 
 The artifact does not establish that this is:
 
@@ -425,9 +425,9 @@ The artifact does not establish that this is:
 - a cryptographic hardware root;
 - an actual energy-control system.
 
----
+______________________________________________________________________
 
-# 24. Reality Constraint
+## 24. Reality Constraint
 
 The weakest compatible interpretation is that AMOS canon does not license cognition or governance to claim exemption from physical substrate constraints.
 
@@ -435,9 +435,9 @@ Classification:
 
 `DERIVED INTERPRETATION`.
 
----
+______________________________________________________________________
 
-# 25. L1 Canonical Compression
+## 25. L1 Canonical Compression
 
 $$
 \boxed{
@@ -450,9 +450,9 @@ Hardware/EnergyFirewall
 }
 $$
 
----
+______________________________________________________________________
 
-# 26. L2 Cognition
+## 26. L2 Cognition
 
 The source-defined L2 row is:
 
@@ -469,9 +469,9 @@ L2_Cognition:
     "Null-State Recovery Basin"
 ```
 
----
+______________________________________________________________________
 
-# 27. Null-State Invariant
+## 27. Null-State Invariant
 
 The source explicitly associates cognition with preservation of:
 
@@ -481,9 +481,9 @@ $$
 
 described here as the null-state invariant.
 
----
+______________________________________________________________________
 
-# 28. \(S_0\) Semantic Boundary
+## 28. (S_0) Semantic Boundary
 
 This artifact does not provide a complete formal definition of:
 
@@ -501,9 +501,9 @@ Therefore do not automatically equate it with:
 - safe mode;
 - last-known-good state.
 
----
+______________________________________________________________________
 
-# 29. Cross-Artifact \(S_0\) Alignment
+## 29. Cross-Artifact (S_0) Alignment
 
 The RSCF × GMEF matrix also uses:
 
@@ -515,16 +515,16 @@ for anti-autopoisoning rollback.
 
 This creates a **source-level structural correspondence**.
 
-It does not, by itself, prove that both artifacts use \(S_0\) with exactly identical operational semantics.
+It does not, by itself, prove that both artifacts use (S_0) with exactly identical operational semantics.
 
----
+______________________________________________________________________
 
-# 30. \(S_0\) Discriminating Requirement
+## 30. (S_0) Discriminating Requirement
 
 If exact equivalence matters, retrieve:
 
 1. Core Laws definition of L2;
-1. GMEF definition of \(S_0\);
+1. GMEF definition of (S_0);
 1. Control Plane recovery semantics.
 
 Until then:
@@ -537,9 +537,9 @@ $$
 
 remains unresolved.
 
----
+______________________________________________________________________
 
-# 31. Anti-Autopoisoning
+## 31. Anti-Autopoisoning
 
 The L2 epistemic invariant is:
 
@@ -547,9 +547,9 @@ The L2 epistemic invariant is:
 
 This aligns structurally with the anti-autopoisoning rollback terminology supplied by the RSCF × GMEF matrix.
 
----
+______________________________________________________________________
 
-# 32. Cross-Matrix Structural Link
+## 32. Cross-Matrix Structural Link
 
 The source corpus therefore supports a model-level connection:
 
@@ -566,9 +566,9 @@ Anti-Autopoisoning Rollback
 
 The connection is **MODEL-level** unless explicit dependency evidence establishes stronger canonical identity.
 
----
+______________________________________________________________________
 
-# 33. Structural Similarity ≠ Identity
+## 33. Structural Similarity ≠ Identity
 
 Repeated terminology does not automatically prove:
 
@@ -580,9 +580,9 @@ same state definition;
 
 same runtime scope.
 
----
+______________________________________________________________________
 
-# 34. Null-State Recovery Basin
+## 34. Null-State Recovery Basin
 
 The source maps L2 to:
 
@@ -590,21 +590,21 @@ The source maps L2 to:
 
 This is a named source-defined enforcement gate.
 
----
+______________________________________________________________________
 
-# 35. Recovery Basin Firewall
+## 35. Recovery Basin Firewall
 
 Do not assume `recovery basin` literally means an attractor basin from dynamical-systems mathematics unless the relevant canon defines it that way.
 
----
+______________________________________________________________________
 
-# 36. Recovery ≠ Implementation
+## 36. Recovery ≠ Implementation
 
 The matrix does not establish an executable recovery mechanism.
 
----
+______________________________________________________________________
 
-# 37. L2 Canonical Compression
+## 37. L2 Canonical Compression
 
 $$
 \boxed{
@@ -617,9 +617,9 @@ NullStateRecoveryBasin
 }
 $$
 
----
+______________________________________________________________________
 
-# 38. L3 Governance
+## 38. L3 Governance
 
 The source-defined L3 row is:
 
@@ -636,9 +636,9 @@ L3_Governance:
     "Cryptographic Authority Gate"
 ```
 
----
+______________________________________________________________________
 
-# 39. Capability–Authority Separation
+## 39. Capability–Authority Separation
 
 The source explicitly states:
 
@@ -650,15 +650,15 @@ $$
 
 This is the central L3 governance distinction.
 
----
+______________________________________________________________________
 
-# 40. Governance Meaning
+## 40. Governance Meaning
 
 A system's ability to perform an action does not, under the source-defined model, itself confer permission or legitimate authority to perform that action.
 
----
+______________________________________________________________________
 
-# 41. Capability Firewall
+## 41. Capability Firewall
 
 Therefore:
 
@@ -670,9 +670,9 @@ $$
 
 This is a derived logical normalization of the supplied inequality.
 
----
+______________________________________________________________________
 
-# 42. Authority Envelopes
+## 42. Authority Envelopes
 
 The associated epistemic invariant is:
 
@@ -680,9 +680,9 @@ The associated epistemic invariant is:
 
 The exact envelope schema is not supplied here.
 
----
+______________________________________________________________________
 
-# 43. Authority Envelope Boundary
+## 43. Authority Envelope Boundary
 
 Do not invent:
 
@@ -704,17 +704,17 @@ expiry semantics.
 
 Retrieve authoritative governance canon when these matter.
 
----
+______________________________________________________________________
 
-# 44. Cryptographic Authority Gate
+## 44. Cryptographic Authority Gate
 
 The named enforcement gate is:
 
 `Cryptographic Authority Gate`.
 
----
+______________________________________________________________________
 
-# 45. Cryptographic Claim Boundary
+## 45. Cryptographic Claim Boundary
 
 The presence of the word `Cryptographic` does not establish:
 
@@ -726,9 +726,9 @@ The presence of the word `Cryptographic` does not establish:
 - hardware security modules;
 - verified cryptographic enforcement.
 
----
+______________________________________________________________________
 
-# 46. Named Cryptographic Gate ≠ Verified Cryptography
+## 46. Named Cryptographic Gate ≠ Verified Cryptography
 
 $$
 SourceTerm("Cryptographic")
@@ -736,9 +736,9 @@ SourceTerm("Cryptographic")
 EvidenceOfCryptographicImplementation
 $$
 
----
+______________________________________________________________________
 
-# 47. L3 Canonical Compression
+## 47. L3 Canonical Compression
 
 $$
 \boxed{
@@ -751,9 +751,9 @@ CryptographicAuthorityGate
 }
 $$
 
----
+______________________________________________________________________
 
-# 48. 7-Part Universe
+## 48. 7-Part Universe
 
 The fifth supplied row is:
 
@@ -770,9 +770,9 @@ Seven_Part_Universe:
     "Cosmic Collapse Lattice"
 ```
 
----
+______________________________________________________________________
 
-# 49. Universe-Strata Classification
+## 49. Universe-Strata Classification
 
 This row differs from L0–L3 because it is identified as:
 
@@ -782,9 +782,9 @@ rather than another numbered law.
 
 It should therefore remain classified as a **stratum/system row** rather than silently renamed L4.
 
----
+______________________________________________________________________
 
-# 50. L4 Firewall
+## 50. L4 Firewall
 
 Do not infer:
 
@@ -794,9 +794,9 @@ $$
 
 from table position alone.
 
----
+______________________________________________________________________
 
-# 51. Multiscale Cosmological Layers
+## 51. Multiscale Cosmological Layers
 
 The supplied primary statement is:
 
@@ -804,9 +804,9 @@ The supplied primary statement is:
 
 This establishes source-defined cosmological architecture language.
 
----
+______________________________________________________________________
 
-# 52. Cosmology Epistemic Boundary
+## 52. Cosmology Epistemic Boundary
 
 The artifact does not independently establish that the AMOS 7-Part Universe is a verified scientific cosmological model.
 
@@ -814,9 +814,9 @@ It remains:
 
 `AMOS_MODEL / SOURCE_CLAIM`.
 
----
+______________________________________________________________________
 
-# 53. Structural Harmony
+## 53. Structural Harmony
 
 The associated invariant is:
 
@@ -824,9 +824,9 @@ The associated invariant is:
 
 The artifact does not provide its mathematical definition.
 
----
+______________________________________________________________________
 
-# 54. Structural Harmony Firewall
+## 54. Structural Harmony Firewall
 
 Do not equate structural harmony with:
 
@@ -839,9 +839,9 @@ Do not equate structural harmony with:
 
 without source evidence.
 
----
+______________________________________________________________________
 
-# 55. Cosmic Collapse Lattice
+## 55. Cosmic Collapse Lattice
 
 The named gate is:
 
@@ -849,15 +849,15 @@ The named gate is:
 
 This is source-defined terminology.
 
----
+______________________________________________________________________
 
-# 56. Cosmic Collapse Firewall
+## 56. Cosmic Collapse Firewall
 
 The phrase does not establish an empirically observed physical lattice or cosmological collapse mechanism.
 
----
+______________________________________________________________________
 
-# 57. Runtime-Label Tension
+## 57. Runtime-Label Tension
 
 The matrix column is named:
 
@@ -871,9 +871,9 @@ The safest classification remains:
 
 `SOURCE_DEFINED_MODEL`.
 
----
+______________________________________________________________________
 
-# 58. Cross-Domain Firewall
+## 58. Cross-Domain Firewall
 
 A conceptual mapping between computational governance and cosmological structure remains:
 
@@ -883,9 +883,9 @@ unless independently validated.
 
 Structural resemblance alone does not establish causal or physical equivalence.
 
----
+______________________________________________________________________
 
-# 59. 7-Part Universe Compression
+## 59. 7-Part Universe Compression
 
 $$
 \boxed{
@@ -898,9 +898,9 @@ CosmicCollapseLattice
 }
 $$
 
----
+______________________________________________________________________
 
-# 60. Five-Row Canon Architecture
+## 60. Five-Row Canon Architecture
 
 The complete supplied matrix can be represented as:
 
@@ -926,9 +926,9 @@ The complete supplied matrix can be represented as:
 
 This is a derived visualization of the supplied table.
 
----
+______________________________________________________________________
 
-# 61. Layer Ordering
+## 61. Layer Ordering
 
 The table orders:
 
@@ -950,55 +950,55 @@ ontological depth;
 
 temporal sequence.
 
----
+______________________________________________________________________
 
-# 62. Numbering ≠ Execution Sequence
+## 62. Numbering ≠ Execution Sequence
 
 Do not infer that L0 executes before L1, L2, or L3 at runtime.
 
----
+______________________________________________________________________
 
-# 63. L0 as Integrity Layer
+## 63. L0 as Integrity Layer
 
 The name `L0 Integrity` suggests foundational placement in the source architecture.
 
 The exact dependency direction requires Core Laws evidence.
 
----
+______________________________________________________________________
 
-# 64. L1 as Reality Constraint
+## 64. L1 as Reality Constraint
 
 The L1 statement creates a source-defined boundary against overriding physical substrate.
 
 This functions conceptually as a reality firewall for higher-level cognition and governance claims.
 
----
+______________________________________________________________________
 
-# 65. L2 as Cognitive Recovery
+## 65. L2 as Cognitive Recovery
 
-L2 associates cognition with preservation/recovery around \(S_0\).
+L2 associates cognition with preservation/recovery around (S_0).
 
 This gives cognition an explicit anti-autopoisoning constraint.
 
----
+______________________________________________________________________
 
-# 66. L3 as Authority Constraint
+## 66. L3 as Authority Constraint
 
 L3 prevents capability from being silently promoted into legitimate authority.
 
 This is a governance firewall.
 
----
+______________________________________________________________________
 
-# 67. Universe Strata as Structural Model
+## 67. Universe Strata as Structural Model
 
 The 7-Part Universe row extends the matrix beyond cognitive/governance architecture into source-defined universal strata.
 
 That cross-domain extension requires particularly strict epistemic typing.
 
----
+______________________________________________________________________
 
-# 68. Cross-Plane Convergence
+## 68. Cross-Plane Convergence
 
 The matrix's source-defined purpose is not merely to list laws.
 
@@ -1014,9 +1014,9 @@ EPISTEMIC INVARIANT
 NAMED ENFORCEMENT GATE
 ```
 
----
+______________________________________________________________________
 
-# 69. Convergence ≠ Collapse
+## 69. Convergence ≠ Collapse
 
 Cross-plane convergence should not erase distinctions between:
 
@@ -1028,17 +1028,17 @@ governance rules;
 
 cosmological models.
 
----
+______________________________________________________________________
 
-# 70. Typed Canon Requirement
+## 70. Typed Canon Requirement
 
 Each row should retain its epistemic type and scope.
 
 A governance invariant cannot become a physical law merely because both appear in the same matrix.
 
----
+______________________________________________________________________
 
-# 71. Causal Firewall
+## 71. Causal Firewall
 
 The matrix does not license causal claims such as:
 
@@ -1052,41 +1052,41 @@ structural harmony causes cosmological stability.
 
 Those require separately typed evidence.
 
----
+______________________________________________________________________
 
-# 72. Scope Firewall
+## 72. Scope Firewall
 
 Each claim inherits its own applicability envelope.
 
 Do not silently generalize one row into another.
 
----
+______________________________________________________________________
 
-# 73. L0 ≠ L1
+## 73. L0 ≠ L1
 
 Integrity architecture and physical substrate constraints are related by matrix membership but are not identical.
 
----
+______________________________________________________________________
 
-# 74. L1 ≠ L2
+## 74. L1 ≠ L2
 
 Physical conservation does not establish cognitive recovery.
 
----
+______________________________________________________________________
 
-# 75. L2 ≠ L3
+## 75. L2 ≠ L3
 
 Cognitive anti-autopoisoning does not establish governance authority.
 
----
+______________________________________________________________________
 
-# 76. L3 ≠ Universe Strata
+## 76. L3 ≠ Universe Strata
 
 Authority governance does not establish cosmological structure.
 
----
+______________________________________________________________________
 
-# 77. Cross-Plane Analogy Firewall
+## 77. Cross-Plane Analogy Firewall
 
 Any structural analogy across these rows remains:
 
@@ -1094,9 +1094,9 @@ Any structural analogy across these rows remains:
 
 until independently validated.
 
----
+______________________________________________________________________
 
-# 78. Claims Registry
+## 78. Claims Registry
 
 The source connects the matrix to:
 
@@ -1106,15 +1106,15 @@ This suggests a source-defined relationship between matrix entries and claim gov
 
 The exact registry schema is not supplied here.
 
----
+______________________________________________________________________
 
-# 79. Registry ≠ Verification
+## 79. Registry ≠ Verification
 
 Presence of a claim in a canonical registry would establish registration/corpus status, not automatically empirical truth.
 
----
+______________________________________________________________________
 
-# 80. Canon MOC
+## 80. Canon MOC
 
 The matrix binds to:
 
@@ -1122,9 +1122,9 @@ The matrix binds to:
 
 This is the authoritative retrieval target when the complete Canon Plane structure matters.
 
----
+______________________________________________________________________
 
-# 81. Core Laws MOC
+## 81. Core Laws MOC
 
 The matrix binds to:
 
@@ -1132,9 +1132,9 @@ The matrix binds to:
 
 Retrieve it when exact L0–L3 semantics matter.
 
----
+______________________________________________________________________
 
-# 82. Smallest Sufficient Retrieval
+## 82. Smallest Sufficient Retrieval
 
 For:
 
@@ -1144,9 +1144,9 @@ H-level retrieval is sufficient:
 
 **It source-defines the master convergence grid connecting Canon laws/strata to epistemic invariants and named enforcement gates.**
 
----
+______________________________________________________________________
 
-# 83. L0 Detail Retrieval
+## 83. L0 Detail Retrieval
 
 For:
 
@@ -1158,13 +1158,13 @@ Current artifact:
 
 Retrieve the Core Laws source.
 
----
+______________________________________________________________________
 
-# 84. L2 Detail Retrieval
+## 84. L2 Detail Retrieval
 
 For:
 
-> What exactly is \(S_0\)?
+> What exactly is (S_0)?
 
 Current artifact:
 
@@ -1172,9 +1172,9 @@ Current artifact:
 
 Retrieve authoritative Core Laws / GMEF / recovery definitions.
 
----
+______________________________________________________________________
 
-# 85. L3 Detail Retrieval
+## 85. L3 Detail Retrieval
 
 For:
 
@@ -1184,9 +1184,9 @@ Current artifact:
 
 `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
-# 86. Universe Detail Retrieval
+## 86. Universe Detail Retrieval
 
 For:
 
@@ -1198,9 +1198,9 @@ Current artifact:
 
 The row asserts multiscale cosmological layers but does not enumerate them.
 
----
+______________________________________________________________________
 
-# 87. Runtime Question
+## 87. Runtime Question
 
 For:
 
@@ -1212,9 +1212,9 @@ Current answer:
 
 The artifact explicitly marks executable binding and runtime enforcement as not established.
 
----
+______________________________________________________________________
 
-# 88. Matrix Completeness Question
+## 88. Matrix Completeness Question
 
 For:
 
@@ -1226,9 +1226,9 @@ Current answer:
 
 The artifact describes itself that way, but completeness requires comparison with the authoritative Canon MOC.
 
----
+______________________________________________________________________
 
-# 89. H-Level Capsule
+## 89. H-Level Capsule
 
 ```yaml
 H:
@@ -1249,9 +1249,9 @@ H:
     25_COGNITIVE_MATRIX
 ```
 
----
+______________________________________________________________________
 
-# 90. M-Level Capsule
+## 90. M-Level Capsule
 
 ```yaml
 M:
@@ -1274,9 +1274,9 @@ M:
     - CANON_CLAIM_REGISTRY
 ```
 
----
+______________________________________________________________________
 
-# 91. L-Level Capsule
+## 91. L-Level Capsule
 
 Load only when required:
 
@@ -1303,9 +1303,9 @@ L:
     - empirical_validation
 ```
 
----
+______________________________________________________________________
 
-# 92. Master Machine Representation
+## 92. Master Machine Representation
 
 ```yaml
 TOTAL_CANON_MATRIX:
@@ -1421,9 +1421,9 @@ TOTAL_CANON_MATRIX:
     NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 93. RSCF Master Contract
+## 93. RSCF Master Contract
 
 ```yaml
 RSCF:
@@ -1519,9 +1519,9 @@ RSCF:
       UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 94. Cross-Plane Proof Capsule
+## 94. Cross-Plane Proof Capsule
 
 ```yaml
 PROOF_CAPSULE:
@@ -1663,9 +1663,9 @@ PROOF_CAPSULE:
       UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 95. Cross-Matrix Relation to RSCF × GMEF
+## 95. Cross-Matrix Relation to RSCF × GMEF
 
 The supplied Total Canon Matrix and the previously supplied RSCF × GMEF Matrix have a material structural intersection at L2:
 
@@ -1697,9 +1697,9 @@ The stronger conclusion:
 
 is **NOT ESTABLISHED**.
 
----
+______________________________________________________________________
 
-# 96. Cross-Matrix Relation to Governance
+## 96. Cross-Matrix Relation to Governance
 
 L3 also aligns conceptually with governed mutation:
 
@@ -1715,9 +1715,9 @@ Classification:
 
 `DERIVED CROSS-MATRIX MODEL`.
 
----
+______________________________________________________________________
 
-# 97. Mutation Capability Firewall
+## 97. Mutation Capability Firewall
 
 Conceptually:
 
@@ -1731,9 +1731,9 @@ This is a strong integration point between L3 governance and governed evolution.
 
 It should remain derived until an explicit cross-reference establishes canonical binding.
 
----
+______________________________________________________________________
 
-# 98. L0 × GMEF Relation
+## 98. L0 × GMEF Relation
 
 GMEF mutation invariants conceptually depend on preservation of integrity.
 
@@ -1751,17 +1751,17 @@ Classification:
 
 `MODEL / DERIVED`.
 
----
+______________________________________________________________________
 
-# 99. L1 × Runtime Relation
+## 99. L1 × Runtime Relation
 
 Any executable AMOS runtime would necessarily remain constrained by actual hardware and energy conditions.
 
 However, that ordinary physical fact does not independently validate the specific AMOS `Hardware / Energy Firewall` construct.
 
----
+______________________________________________________________________
 
-# 100. Cross-Plane Dependency Firewall
+## 100. Cross-Plane Dependency Firewall
 
 The matrix must not be interpreted as evidence that all planes are one mechanism.
 
@@ -1781,9 +1781,9 @@ SharedStructure
 SharedCausation
 $$
 
----
+______________________________________________________________________
 
-# 101. Provenance Topology
+## 101. Provenance Topology
 
 Each row should retain independent provenance tracing.
 
@@ -1795,17 +1795,17 @@ $$
 5\ IndependentConfirmations
 $$
 
----
+______________________________________________________________________
 
-# 102. Canonical Authority ≠ Empirical Independence
+## 102. Canonical Authority ≠ Empirical Independence
 
 An authoritative AMOS source may determine what AMOS canon says.
 
 It does not automatically determine whether a claim about external physical reality is empirically true.
 
----
+______________________________________________________________________
 
-# 103. Internal Canon Question
+## 103. Internal Canon Question
 
 For:
 
@@ -1813,9 +1813,9 @@ For:
 
 Canonical source authority is directly relevant.
 
----
+______________________________________________________________________
 
-# 104. External Reality Question
+## 104. External Reality Question
 
 For:
 
@@ -1825,9 +1825,9 @@ AMOS source authority alone is insufficient.
 
 Independent empirical evidence is required.
 
----
+______________________________________________________________________
 
-# 105. Epistemic Typing
+## 105. Epistemic Typing
 
 Important claims should preserve distinctions among:
 
@@ -1847,9 +1847,9 @@ The present matrix is primarily:
 
 `SOURCE_CLAIM / AMOS_MODEL`.
 
----
+______________________________________________________________________
 
-# 106. Runtime Promotion Rule
+## 106. Runtime Promotion Rule
 
 A named enforcement gate should not be promoted to:
 
@@ -1857,9 +1857,9 @@ A named enforcement gate should not be promoted to:
 
 without executable evidence.
 
----
+______________________________________________________________________
 
-# 107. Formal Promotion Rule
+## 107. Formal Promotion Rule
 
 A mathematical-looking canon statement should not be promoted to:
 
@@ -1867,9 +1867,9 @@ A mathematical-looking canon statement should not be promoted to:
 
 without formal definitions and proof.
 
----
+______________________________________________________________________
 
-# 108. Empirical Promotion Rule
+## 108. Empirical Promotion Rule
 
 A physical or cosmological statement should not be promoted to:
 
@@ -1877,9 +1877,9 @@ A physical or cosmological statement should not be promoted to:
 
 without appropriately scoped independent evidence.
 
----
+______________________________________________________________________
 
-# 109. Gate Registry Model
+## 109. Gate Registry Model
 
 A derived future implementation schema could be:
 
@@ -1909,9 +1909,9 @@ CANON_GATE_REGISTRY:
 
 This is a normalization, not evidence of an existing registry.
 
----
+______________________________________________________________________
 
-# 110. Runtime Binding Requirements
+## 110. Runtime Binding Requirements
 
 Before claiming executable Total Canon enforcement, establish:
 
@@ -1995,9 +1995,9 @@ SECURITY TESTS
 FAILURE-INJECTION TESTS
 ```
 
----
+______________________________________________________________________
 
-# 111. Formal Validation Requirements
+## 111. Formal Validation Requirements
 
 Before claiming formal verification, establish:
 
@@ -2049,9 +2049,9 @@ PROOF CHECKER
 IMPLEMENTATION-CONFORMANCE BRIDGE
 ```
 
----
+______________________________________________________________________
 
-# 112. Empirical Validation Requirements
+## 112. Empirical Validation Requirements
 
 For externally testable claims, establish appropriately typed evidence.
 
@@ -2098,16 +2098,16 @@ DISCRIMINATING TESTS
 INDEPENDENT REPLICATION
 ```
 
----
+______________________________________________________________________
 
-# 113. Critical Gaps
+## 113. Critical Gaps
 
 For executable interpretation, the most important unresolved gaps are:
 
 **CRITICAL**
 
 - (\\mathcal C,\\mathcal E,\\mathcal F) definitions;
-- \(S_0\) definition;
+- (S_0) definition;
 - Authority Envelope semantics;
 - executable gate definitions;
 - gate failure/recovery semantics.
@@ -2133,9 +2133,9 @@ For executable interpretation, the most important unresolved gaps are:
 - formatting;
 - naming aliases.
 
----
+______________________________________________________________________
 
-# 114. Anti-Fabrication Contract
+## 114. Anti-Fabrication Contract
 
 This artifact MUST NOT by itself be used to claim:
 
@@ -2152,11 +2152,11 @@ This artifact MUST NOT by itself be used to claim:
 1. `Physical Conservation` is identical to a specific standard conservation law.
 1. A Hardware / Energy Firewall is implemented.
 1. Software can override physical substrate constraints.
-1. \(S_0\) is fully defined here.
-1. \(S_0\) necessarily means factory state.
-1. \(S_0\) necessarily means genesis state.
-1. \(S_0\) necessarily means last-known-good state.
-1. L2 \(S_0\) is proven identical to GMEF \(S_0\).
+1. (S_0) is fully defined here.
+1. (S_0) necessarily means factory state.
+1. (S_0) necessarily means genesis state.
+1. (S_0) necessarily means last-known-good state.
+1. L2 (S_0) is proven identical to GMEF (S_0).
 1. Anti-Autopoisoning is executable.
 1. A Null-State Recovery Basin is implemented.
 1. `Recovery Basin` is formally a dynamical-system attractor.
@@ -2190,9 +2190,9 @@ This artifact MUST NOT by itself be used to claim:
 1. The table establishes causal hierarchy.
 1. The matrix erases epistemic differences between planes.
 
----
+______________________________________________________________________
 
-# 115. Anti-Regression Contract
+## 115. Anti-Regression Contract
 
 Any future canonical revision should preserve or explicitly supersede:
 
@@ -2280,9 +2280,9 @@ COMPETING-HYPOTHESIS PRESERVATION
 UNKNOWN/GAP PRESERVATION
 ```
 
----
+______________________________________________________________________
 
-# 116. Invalidation Conditions
+## 116. Invalidation Conditions
 
 Revalidate this matrix when:
 
@@ -2332,9 +2332,9 @@ INDEPENDENT EMPIRICAL EVIDENCE APPEARS
 AUTHORITATIVE CONTRADICTION APPEARS
 ```
 
----
+______________________________________________________________________
 
-# 117. RSCF Relations
+## 117. RSCF Relations
 
 ```yaml
 RSCF_RELATIONS:
@@ -2410,9 +2410,9 @@ RSCF_RELATIONS:
       ""
 ```
 
----
+______________________________________________________________________
 
-# 118. Native Canon Ingestion
+## 118. Native Canon Ingestion
 
 ```yaml
 TOTAL_CANON_MATRIX_INGESTION:
@@ -2534,9 +2534,9 @@ TOTAL_CANON_MATRIX_INGESTION:
       - PRESERVE_MODEL_CLASS_UNTIL_VALIDATED
 ```
 
----
+______________________________________________________________________
 
-# 119. Canonical Compression
+## 119. Canonical Compression
 
 ```text
                    TOTAL CANON MATRIX
@@ -2635,9 +2635,9 @@ EXTERNAL EMPIRICAL VALIDITY
 NOT ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 120. Final Canonical Candidate Statement
+## 120. Final Canonical Candidate Statement
 
 **Total Canon Cross-Plane Matrix** is the source-defined AMOS master convergence grid connecting selected Canon laws and universal strata to their associated epistemic invariants and named enforcement gates.
 
@@ -2761,7 +2761,7 @@ The decisive integrity boundaries are:
 
 **L1'S PHYSICAL LANGUAGE MUST NOT BE PROMOTED FROM AMOS MODEL TO VERIFIED PHYSICS WITHOUT INDEPENDENT EVIDENCE.**
 
-**L2'S \(S_0\) MUST REMAIN SOURCE-BOUND UNTIL ITS EXACT SEMANTICS ARE RETRIEVED.**
+**L2'S (S_0) MUST REMAIN SOURCE-BOUND UNTIL ITS EXACT SEMANTICS ARE RETRIEVED.**
 
 **THE SHARED `S₀` / `ANTI-AUTOPOISONING` LANGUAGE BETWEEN TOTAL CANON AND RSCF × GMEF ESTABLISHES STRUCTURAL ALIGNMENT, NOT AUTOMATICALLY IDENTICAL RUNTIME MECHANISMS.**
 
@@ -2843,15 +2843,15 @@ $$
 
 AMOS may route different laws, invariants, and strata through one cognitive matrix while still preserving their distinct **scope, evidence type, provenance, causal status, and confidence ceiling**.
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|AMOS MOC]]
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]] · [[01_CANON/01_CANON_MOC|01_CANON_MOC]] · [[01_CANON/01_CORE_LAWS/01_CORE_LAWS_MOC|01_CORE_LAWS_MOC]] · [[11_KNOWLEDGE/02_CLAIMS/CANON_CLAIM_REGISTRY|CANON_CLAIM_REGISTRY]] · [[02_KERNEL/09_INTEGRATION/K_RSCF|K_RSCF]] · [[02_KERNEL/09_INTEGRATION/K_HML|K_HML]] · [[02_KERNEL/K_CANON|K_CANON]] · [[02_KERNEL/K_CORE_LAWS|K_CORE_LAWS]] · [[02_KERNEL/08_PROVENANCE/K_PROVENANCE|K_PROVENANCE]] · [[02_KERNEL/08_PROVENANCE/K_PROVENANCE_TOPOLOGY|K_PROVENANCE_TOPOLOGY]] · [[02_KERNEL/K_ANTI_AUTOPOISONING|K_ANTI_AUTOPOISONING]] · [[02_KERNEL/K_AUTHORITY|K_AUTHORITY]] · [[02_KERNEL/K_GOVERNANCE|K_GOVERNANCE]] · [[02_KERNEL/K_REALITY|K_REALITY]] · [[02_KERNEL/K_UNIVERSE_STRATA|K_UNIVERSE_STRATA]]
 
----
+______________________________________________________________________
 
 RSCF-NODE
 
@@ -2931,11 +2931,10 @@ RSCF-RELATIONS:
 
 - LINEAGE_TARGET: [[00_ROOT/AMOS_CORE_v4_4|AMOS_CORE_v4_4]]
 
----
+______________________________________________________________________
 
 **MOC:** [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]
 
----
+______________________________________________________________________
 
 **END OF `TOTAL_CANON_MATRIX.md`**
-

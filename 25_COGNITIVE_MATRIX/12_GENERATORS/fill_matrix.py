@@ -6,7 +6,8 @@ unless --force. Emits receipt at 25_COGNITIVE_MATRIX/07_COVERAGE/.
 """
 import os, re, sys, json, datetime
 
-ROOT = "/Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX"
+import os as _os
+ROOT = _os.path.dirname(_os.path.dirname(_os.path.abspath(__file__)))
 STAMP = "2026-08-26"
 
 # file-type -> (title suffix, section builder key)

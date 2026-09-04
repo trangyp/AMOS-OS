@@ -89,7 +89,7 @@
     "arxiv-llm-judge-bias-geometry-rscf"
   ],
   "depends_on_workflows": [
-    "arxiv-llm-judge-bias-geometry-rscf-workflow.md"
+    "amos-arxiv-llm-judge-bias-geometry-rscf-workflow.md"
   ],
   "epistemic_class": "AMOS_MODEL",
   "claim_ceiling": 0.95,

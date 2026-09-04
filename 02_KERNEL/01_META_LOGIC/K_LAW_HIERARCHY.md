@@ -17,52 +17,61 @@ scope: AMOS_OS
 created: 2026-08-25
 updated: 2026-08-25
 tags:
-- amos-os
-- kernel
-- core
-- canon-group/tech-ai
-- canon/model
-- kernel/foundation
-- kernel/law-hierarchy
-- kernel/precedence
-- kernel/invariants
-- kernel/governance
-- kernel/authority
-- kernel/constraints
-- kernel/conflict-resolution
-- kernel/provenance
-- kernel/scope
-- kernel/regime
-- kernel/versioning
-- kernel/supersession
-- rscf/claim
-- rscf/provenance
-- rscf/state/model
-- topic/law-hierarchy
-- readme
-- architecture
-- placement-rules
-- amos-core-laws
-- law-hierarchy
-- canon-provenance
-- source-lineage
-- supersession-log
-- k-core19-logic
-- k-distinction-relation-constraint
-- authoritative-state
+  - amos-os
+  - kernel
+  - core
+  - canon-group/tech-ai
+  - canon/model
+  - kernel/foundation
+  - kernel/law-hierarchy
+  - kernel/precedence
+  - kernel/invariants
+  - kernel/governance
+  - kernel/authority
+  - kernel/constraints
+  - kernel/conflict-resolution
+  - kernel/provenance
+  - kernel/scope
+  - kernel/regime
+  - kernel/versioning
+  - kernel/supersession
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/model
+  - topic/law-hierarchy
+  - readme
+  - architecture
+  - placement-rules
+  - amos-core-laws
+  - law-hierarchy
+  - canon-provenance
+  - source-lineage
+  - supersession-log
+  - k-core19-logic
+  - k-distinction-relation-constraint
+  - authoritative-state
 aliases:
-- AMOS Law Hierarchy Kernel - Law Hierarchy Kernel - K Law Hierarchy - K_LAW_HIERARCHY
+  - AMOS Law Hierarchy Kernel - Law Hierarchy Kernel - K Law Hierarchy - K_LAW_HIERARCHY
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 # K_LAW_HIERARCHY
+
 > **AMOS Core target:** `v4.4`
 > **Origin architect / steward:** Trang Phan
 > **Plane:** `02_KERNEL`
 > **Status:** `AMOS_MODEL`
 > **Conclusion class:** `AMOS_MODEL`
+
 ## Purpose
+
 `K_LAW_HIERARCHY` defines the deterministic precedence model used when multiple AMOS laws, invariants, constraints, policies, rules, or instructions are simultaneously applicable.
 Its central function is:
+
 ```text
 APPLICABLE RULES
 ↓
@@ -76,18 +85,10 @@ CONFLICT DETECTION
 ↓
 VALID RULE SET
 ```
-The kernel prevents arbitrary conflict resolution.
-It does **not** create authority.
-It evaluates authority and precedence already established through AMOS canon and governance structures.
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
----
 
+## The kernel prevents arbitrary conflict resolution. It does **not** create authority. It evaluates authority and precedence already established through AMOS canon and governance structures. rscf: state: DERIVED claim_class: DERIVED provenance: AMOS_corpus scope: AMOS_general
 
-# 1. Core Law
+## 1. Core Law
 
 ```text
 INTEGRITY
@@ -127,9 +128,9 @@ MORE POPULAR
 MORE AUTHORITATIVE
 ```
 
----
+______________________________________________________________________
 
-# 2. Architectural Position
+## 2. Architectural Position
 
 ```text
 01_CANON
@@ -166,9 +167,9 @@ KERNEL LAW EVALUATION
 
 `K_LAW_HIERARCHY` provides the deterministic reasoning contract for evaluating that hierarchy.
 
----
+______________________________________________________________________
 
-# 3. Hard Boundary
+## 3. Hard Boundary
 
 ```text
 CANON != KERNEL
@@ -185,9 +186,9 @@ SPECIFICITY != AUTHORITY
 UNKNOWN/GAP != PASS
 ```
 
----
+______________________________________________________________________
 
-# 4. Law Object
+## 4. Law Object
 
 A law should be treated as a typed object rather than an unstructured sentence.
 
@@ -227,9 +228,9 @@ law:
 
 Only fields material to a particular law need to be instantiated.
 
----
+______________________________________________________________________
 
-# 5. Law Classes
+## 5. Law Classes
 
 AMOS should distinguish at minimum:
 
@@ -251,9 +252,9 @@ USER REQUEST
 
 These classes are not interchangeable.
 
----
+______________________________________________________________________
 
-# 6. Authority Classes
+## 6. Authority Classes
 
 Conceptually:
 
@@ -275,9 +276,9 @@ This numbering is an architectural model for deterministic comparison.
 
 It must not be interpreted as recovered historical canon unless explicitly bound to canonical source lineage.
 
----
+______________________________________________________________________
 
-# 7. Default Precedence
+## 7. Default Precedence
 
 Conceptually:
 
@@ -319,9 +320,9 @@ DEPENDENCY
 
 before selecting a rule.
 
----
+______________________________________________________________________
 
-# 8. Precedence Function
+## 8. Precedence Function
 
 For rules `A` and `B`, conceptual precedence may be represented as:
 
@@ -344,9 +345,9 @@ UNKNOWN
 
 AMOS must not force a total order where only a partial order is justified.
 
----
+______________________________________________________________________
 
-# 9. Partial-Order Principle
+## 9. Partial-Order Principle
 
 The law hierarchy is not necessarily:
 
@@ -382,9 +383,9 @@ NON_COMPARABLE
 
 is a valid result.
 
----
+______________________________________________________________________
 
-# 10. Applicability Before Precedence
+## 10. Applicability Before Precedence
 
 Before comparing authority:
 
@@ -409,9 +410,9 @@ SCOPE_MATCH
 
 A high-authority law outside its declared applicability envelope must not be silently generalized.
 
----
+______________________________________________________________________
 
-# 11. Scope Firewall
+## 11. Scope Firewall
 
 A law may apply only to:
 
@@ -441,9 +442,9 @@ CONTROL_PLANE
 
 unless its scope includes it.
 
----
+______________________________________________________________________
 
-# 12. Regime Firewall
+## 12. Regime Firewall
 
 A law valid under:
 
@@ -467,9 +468,9 @@ VALID(L | R2)
 
 unless regime invariance is established.
 
----
+______________________________________________________________________
 
-# 13. Temporal Validity
+## 13. Temporal Validity
 
 A law may have:
 
@@ -482,9 +483,9 @@ revalidation_due
 
 A law outside its valid temporal envelope must not remain active merely because it exists in the repository.
 
----
+______________________________________________________________________
 
-# 14. Supersession
+## 14. Supersession
 
 Supersession is explicit and directional.
 
@@ -502,9 +503,9 @@ SUPERSEDED
 DELETED
 ```
 
----
+______________________________________________________________________
 
-# 15. Partial Supersession
+## 15. Partial Supersession
 
 A new law may supersede only part of an older law.
 
@@ -533,9 +534,9 @@ CLAUSE C = PRESERVED
 
 unless broader supersession is explicitly declared.
 
----
+______________________________________________________________________
 
-# 16. Supersession Firewall
+## 16. Supersession Firewall
 
 The following do not prove supersession:
 
@@ -550,9 +551,9 @@ MORE RECENT COMMIT
 
 Supersession requires authoritative lineage.
 
----
+______________________________________________________________________
 
-# 17. Version Rule
+## 17. Version Rule
 
 ```text
 VERSION
@@ -585,9 +586,9 @@ AUTHORITY(v4) > AUTHORITY(v3)
 
 without valid promotion/supersession evidence.
 
----
+______________________________________________________________________
 
-# 18. Specificity
+## 18. Specificity
 
 Specificity may resolve conflicts only where canon licenses specificity as a precedence rule.
 
@@ -615,9 +616,9 @@ SPECIFICITY
 INHERENT AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 19. Exception Semantics
+## 19. Exception Semantics
 
 An exception must be explicit.
 
@@ -641,9 +642,9 @@ An exception is not equivalent to supersession.
 EXCEPTION != SUPERSESSION
 ```
 
----
+______________________________________________________________________
 
-# 20. Override Semantics
+## 20. Override Semantics
 
 An override is a governed temporary or scoped precedence alteration.
 
@@ -665,9 +666,9 @@ override:
 
 No override should exist merely because a runtime component chooses to ignore a rule.
 
----
+______________________________________________________________________
 
-# 21. Override Authority
+## 21. Override Authority
 
 ```text
 OVERRIDE CAPABILITY
@@ -679,9 +680,9 @@ A component capable of changing state cannot automatically override canon or inv
 
 Valid override requires an authority path.
 
----
+______________________________________________________________________
 
-# 22. Non-Overrideable Laws
+## 22. Non-Overrideable Laws
 
 Some laws may be declared:
 
@@ -701,9 +702,9 @@ PROPOSAL != COMMIT
 
 A lower layer cannot waive such a law.
 
----
+______________________________________________________________________
 
-# 23. Conflict Types
+## 23. Conflict Types
 
 AMOS should distinguish:
 
@@ -722,9 +723,9 @@ IMPLEMENTATION_CONFLICT
 
 Conflict type affects resolution.
 
----
+______________________________________________________________________
 
-# 24. Direct Contradiction
+## 24. Direct Contradiction
 
 Example:
 
@@ -744,9 +745,9 @@ DIRECT_CONTRADICTION
 
 must be registered.
 
----
+______________________________________________________________________
 
-# 25. Conflict Resolution
+## 25. Conflict Resolution
 
 Conceptual resolution sequence:
 
@@ -772,9 +773,9 @@ CHECK EXPLICIT PRECEDENCE
 RESOLVE OR PRESERVE CONFLICT
 ```
 
----
+______________________________________________________________________
 
-# 26. Conflict Preservation
+## 26. Conflict Preservation
 
 If two applicable laws remain:
 
@@ -794,9 +795,9 @@ COMPETING / CONFLICT
 
 not arbitrary selection.
 
----
+______________________________________________________________________
 
-# 27. Unknown Precedence
+## 27. Unknown Precedence
 
 If precedence cannot be established:
 
@@ -822,9 +823,9 @@ ESCALATE / BLOCK / CONDITIONAL
 
 depending on governance policy.
 
----
+______________________________________________________________________
 
-# 28. Integrity Ceiling
+## 28. Integrity Ceiling
 
 A derived rule decision cannot have stronger authority than its load-bearing authority premise.
 
@@ -842,9 +843,9 @@ MIN(
 
 unless independently revalidated by a higher-authority path.
 
----
+______________________________________________________________________
 
-# 29. Provenance Requirement
+## 29. Provenance Requirement
 
 A law's authority requires recoverable provenance.
 
@@ -864,9 +865,9 @@ CURRENT STATUS
 
 A law with unknown provenance cannot silently acquire canonical authority.
 
----
+______________________________________________________________________
 
-# 30. Source Count Firewall
+## 30. Source Count Firewall
 
 Multiple copies of the same law do not create stronger authority.
 
@@ -892,9 +893,9 @@ REPETITION
 INDEPENDENT AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 31. Authority vs Evidence
+## 31. Authority vs Evidence
 
 ```text
 AUTHORITY
@@ -914,9 +915,9 @@ SYSTEM AUTHORITY
 
 unless governance promotes it into a rule.
 
----
+______________________________________________________________________
 
-# 32. Law vs Model
+## 32. Law vs Model
 
 ```text
 MODEL
@@ -946,9 +947,9 @@ MODEL CONFIDENCE
 AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 33. Law vs Policy
+## 33. Law vs Policy
 
 A policy is normally a governed operational rule beneath canon/kernel invariants.
 
@@ -964,9 +965,9 @@ CONTROL-PLANE POLICY
 
 Policy may specialize behavior but cannot silently contradict higher authority.
 
----
+______________________________________________________________________
 
-# 34. Law vs Protocol
+## 34. Law vs Protocol
 
 A protocol defines interaction semantics.
 
@@ -986,9 +987,9 @@ ROOT AUTHORITY
 
 unless explicitly elevated.
 
----
+______________________________________________________________________
 
-# 35. Law vs Runtime Rule
+## 35. Law vs Runtime Rule
 
 Runtime rules govern execution behavior.
 
@@ -1003,9 +1004,9 @@ SCHEDULING POLICY
 
 They remain subordinate to higher integrity and authority constraints.
 
----
+______________________________________________________________________
 
-# 36. Law vs Heuristic
+## 36. Law vs Heuristic
 
 A heuristic may optimize:
 
@@ -1027,9 +1028,9 @@ INTEGRITY CONSTRAINT
 
 Always.
 
----
+______________________________________________________________________
 
-# 37. Fast-Path Law
+## 37. Fast-Path Law
 
 AMOS v4.4 permits smallest-sufficient-proof reasoning only when the fast path preserves integrity.
 
@@ -1052,9 +1053,9 @@ Otherwise:
 ESCALATE
 ```
 
----
+______________________________________________________________________
 
-# 38. Optimization Firewall
+## 38. Optimization Firewall
 
 No optimization may weaken:
 
@@ -1076,9 +1077,9 @@ OPTIMIZATION
 INTEGRITY
 ```
 
----
+______________________________________________________________________
 
-# 39. Causal Firewall Precedence
+## 39. Causal Firewall Precedence
 
 A lower-level reasoning rule cannot override causal discipline.
 
@@ -1093,16 +1094,18 @@ CORRELATION
 !=
 CAUSATION
 ```
+
 ```text
 SEQUENCE
 !=
 CAUSATION
 ```
+
 No convenience rule can promote these relations into causal proof.
 
----
+______________________________________________________________________
 
-# 40. Provenance Firewall Precedence
+## 40. Provenance Firewall Precedence
 
 Likewise:
 
@@ -1114,9 +1117,9 @@ MULTIPLE INDEPENDENT SOURCES
 
 A heuristic counting sources cannot override provenance topology.
 
----
+______________________________________________________________________
 
-# 41. Scope Firewall Precedence
+## 41. Scope Firewall Precedence
 
 A rule favoring generalization cannot override explicit scope limits.
 
@@ -1132,9 +1135,9 @@ VALID GLOBALLY
 
 without revalidation.
 
----
+______________________________________________________________________
 
-# 42. Regime Firewall Precedence
+## 42. Regime Firewall Precedence
 
 When regime validity fails:
 
@@ -1146,9 +1149,9 @@ STALE / INVALID / REVALIDATE
 
 A cached conclusion cannot override a detected regime shift.
 
----
+______________________________________________________________________
 
-# 43. Freshness
+## 43. Freshness
 
 Freshness is a constraint, not automatic authority.
 
@@ -1160,9 +1163,9 @@ MORE AUTHORITATIVE
 
 But stale evidence may invalidate an otherwise authoritative decision if the law explicitly requires current evidence.
 
----
+______________________________________________________________________
 
-# 44. Safety / Stakes Escalation
+## 44. Safety / Stakes Escalation
 
 As stakes rise:
 
@@ -1180,9 +1183,9 @@ required validation increases.
 
 A speed optimization cannot outrank this governance requirement.
 
----
+______________________________________________________________________
 
-# 45. Authority Chain
+## 45. Authority Chain
 
 A valid governed action conceptually follows:
 
@@ -1208,9 +1211,9 @@ VALID LOGIC
 AUTHORIZED ACTION
 ```
 
----
+______________________________________________________________________
 
-# 46. Proposal / Commit Hierarchy
+## 46. Proposal / Commit Hierarchy
 
 ```text
 PROPOSAL
@@ -1228,9 +1231,9 @@ A proposal cannot self-promote into committed state.
 PROPOSAL != COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 47. Capability / Authority Hierarchy
+## 47. Capability / Authority Hierarchy
 
 ```text
 CAPABILITY
@@ -1254,9 +1257,9 @@ does not establish:
 MAY_DO(X)
 ```
 
----
+______________________________________________________________________
 
-# 48. Tool Authority
+## 48. Tool Authority
 
 ```text
 TOOL_AVAILABLE
@@ -1282,9 +1285,9 @@ EXTERNAL_EFFECT_AUTHORIZED
 
 These are distinct gates.
 
----
+______________________________________________________________________
 
-# 49. User Instruction Position
+## 49. User Instruction Position
 
 User instructions are important runtime inputs.
 
@@ -1302,9 +1305,9 @@ HIGHER CONSTRAINT CHECK
 EXECUTION
 ```
 
----
+______________________________________________________________________
 
-# 50. Domain Law Position
+## 50. Domain Law Position
 
 Domain-specific rules may specialize generic rules where:
 
@@ -1330,9 +1333,9 @@ Outside that domain:
 NO AUTOMATIC GENERALIZATION
 ```
 
----
+______________________________________________________________________
 
-# 51. Local Configuration
+## 51. Local Configuration
 
 Local configuration has narrow authority.
 
@@ -1346,9 +1349,9 @@ may be overridden by a higher runtime or control-plane policy.
 
 Local configuration cannot rewrite canon.
 
----
+______________________________________________________________________
 
-# 52. Constraint Composition
+## 52. Constraint Composition
 
 If multiple compatible laws apply:
 
@@ -1368,9 +1371,9 @@ where strict conjunction is appropriate.
 
 But composition rules must be typed.
 
----
+______________________________________________________________________
 
-# 53. Constraint Closure
+## 53. Constraint Closure
 
 For decision `D`, evaluate only laws capable of changing `D`.
 
@@ -1391,9 +1394,9 @@ MATERIAL CONFLICTS
 
 This prevents unnecessary global recomputation.
 
----
+______________________________________________________________________
 
-# 54. Locality
+## 54. Locality
 
 ```text
 LOCAL DECISION
@@ -1407,9 +1410,9 @@ Otherwise:
 ESCALATE
 ```
 
----
+______________________________________________________________________
 
-# 55. Conflict Escalation Conditions
+## 55. Conflict Escalation Conditions
 
 Escalate when:
 
@@ -1425,9 +1428,9 @@ IRREVERSIBLE STAKES
 DEPENDENCY CLOSURE UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 56. Deterministic Resolution Algorithm
+## 56. Deterministic Resolution Algorithm
 
 Conceptually:
 
@@ -1468,9 +1471,9 @@ def resolve_law_set(laws, context):
 
 This is architectural pseudocode, not evidence of deployed implementation.
 
----
+______________________________________________________________________
 
-# 57. Resolution Tuple
+## 57. Resolution Tuple
 
 A law comparison may conceptually evaluate:
 
@@ -1500,9 +1503,9 @@ LAW HIERARCHY
 WEIGHTED SCOREBOARD
 ```
 
----
+______________________________________________________________________
 
-# 58. No Authority Averaging
+## 58. No Authority Averaging
 
 Conflicting authority cannot safely be resolved by:
 
@@ -1516,9 +1519,9 @@ MODEL CONFIDENCE
 
 unless an authoritative governance rule explicitly defines that mechanism.
 
----
+______________________________________________________________________
 
-# 59. Competing Laws
+## 59. Competing Laws
 
 When incompatible rules remain equally supported and equally authoritative:
 
@@ -1537,9 +1540,9 @@ MISSING DISCRIMINATOR
 
 rather than inventing convergence.
 
----
+______________________________________________________________________
 
-# 60. Cheapest Discriminator
+## 60. Cheapest Discriminator
 
 When conflict is resolvable through additional evidence, seek the cheapest high-information discriminator.
 
@@ -1556,9 +1559,9 @@ CHECK REGIME CONDITION
 
 Do not gather redundant evidence if one authoritative check can resolve the conflict.
 
----
+______________________________________________________________________
 
-# 61. Failure Propagation
+## 61. Failure Propagation
 
 If a law used by decision `D` becomes invalid:
 
@@ -1574,9 +1577,9 @@ invalidate dependent conclusions/actions according to dependency semantics.
 
 Do not invalidate unrelated branches.
 
----
+______________________________________________________________________
 
-# 62. Rollback
+## 62. Rollback
 
 ```text
 FAILED LAW PREMISE
@@ -1594,9 +1597,9 @@ REVALIDATE
 
 Global rollback is last resort.
 
----
+______________________________________________________________________
 
-# 63. Persistent Provenance
+## 63. Persistent Provenance
 
 A resolved law decision should preserve where material:
 
@@ -1624,9 +1627,9 @@ law_resolution:
   resulting_state:
 ```
 
----
+______________________________________________________________________
 
-# 64. Atomicity
+## 64. Atomicity
 
 If several law-dependent changes form one logical commit:
 
@@ -1646,9 +1649,9 @@ NONE
 
 Law resolution therefore integrates with AMOS atomicity and commit semantics.
 
----
+______________________________________________________________________
 
-# 65. Concurrency
+## 65. Concurrency
 
 Concurrent rule or policy updates must not silently produce ambiguous authority.
 
@@ -1668,9 +1671,9 @@ This aligns with AMOS MVCC/CAS reasoning patterns.
 
 It does not assert that every implementation literally uses a particular database mechanism.
 
----
+______________________________________________________________________
 
-# 66. Causal Epoch Finality
+## 66. Causal Epoch Finality
 
 Where decisions depend on epoch-finalized state:
 
@@ -1684,9 +1687,9 @@ Finality semantics belong to the relevant state/control/runtime mechanisms.
 
 The law hierarchy must respect them.
 
----
+______________________________________________________________________
 
-# 67. Law Hierarchy Invariants
+## 67. Law Hierarchy Invariants
 
 ```text
 LH-01
@@ -1750,9 +1753,9 @@ LH-20
 AUTHORITY PROVENANCE MUST REMAIN RECOVERABLE
 ```
 
----
+______________________________________________________________________
 
-# 68. Core Resolution Laws
+## 68. Core Resolution Laws
 
 ```text
 APPLICABILITY BEFORE PRECEDENCE
@@ -1776,9 +1779,9 @@ AUTHORIZATION BEFORE COMMIT
 INTEGRITY BEFORE OPTIMIZATION
 ```
 
----
+______________________________________________________________________
 
-# 69. Failure Modes
+## 69. Failure Modes
 
 ```text
 AUTHORITY_COLLAPSE
@@ -1803,9 +1806,9 @@ PARTIAL_ATOMIC_COMMIT
 UNKNOWN_AS_PASS
 ```
 
----
+______________________________________________________________________
 
-# 70. Recovery Semantics
+## 70. Recovery Semantics
 
 For a hierarchy failure:
 
@@ -1829,9 +1832,9 @@ REVALIDATE
 
 Unrelated decisions remain intact where dependency independence is established.
 
----
+______________________________________________________________________
 
-# 71. Observability
+## 71. Observability
 
 Material law resolutions should expose traceable fields such as:
 
@@ -1859,9 +1862,9 @@ TRACE EXISTS
 RESOLUTION CORRECT
 ```
 
----
+______________________________________________________________________
 
-# 72. Test Requirements
+## 72. Test Requirements
 
 The kernel should eventually test:
 
@@ -1888,9 +1891,9 @@ ATOMIC LAW-DEPENDENT COMMIT
 CONCURRENT LAW UPDATE
 ```
 
----
+______________________________________________________________________
 
-# 73. Negative Tests
+## 73. Negative Tests
 
 ```text
 NEWER LAW → AUTOMATICALLY HIGHER
@@ -1927,9 +1930,9 @@ HEURISTIC → OVERRIDE INVARIANT
 MUST FAIL
 ```
 
----
+______________________________________________________________________
 
-# 74. Lifecycle
+## 74. Lifecycle
 
 ```text
 PLACEHOLDER
@@ -1958,9 +1961,9 @@ TESTED != VALIDATED
 VALIDATED != AUTHORIZED
 ```
 
----
+______________________________________________________________________
 
-# 75. Promotion Gate
+## 75. Promotion Gate
 
 Before promotion beyond `AMOS_MODEL`:
 
@@ -1991,9 +1994,9 @@ Until these gates are satisfied:
 IMPLEMENTATION_STATUS = UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 76. Integrity Note
+## 76. Integrity Note
 
 This artifact replaces an empty repository placeholder with a structured AMOS v4.4-aligned law-hierarchy model.
 
@@ -2023,9 +2026,9 @@ The corresponding `01_CANON/LAW_HIERARCHY` remains the proper location for autho
 
 This kernel defines how those laws are interpreted and resolved computationally.
 
----
+______________________________________________________________________
 
-# 77. RSCF Node
+## 77. RSCF Node
 
 ```RSCF-NODE
 node_id: AMOS-OS-K-LAW-HIERARCHY
@@ -2054,7 +2057,7 @@ RSCF-RELATIONS:
   - VERIFIED_BY: README
 ```
 
----
+______________________________________________________________________
 
 ## Related
 
@@ -2095,12 +2098,14 @@ README
 ```text
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 **MOC:** [[02_KERNEL/01_META_LOGIC/01_META_LOGIC_MOC|01_META_LOGIC_MOC]]

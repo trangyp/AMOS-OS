@@ -16,34 +16,34 @@ schema_family: RSCF
 schema_role: KNOWLEDGE_RSCF
 schema_version: AMOS_CORE_v4.4-compatible-conceptual
 tags:
-- amos-os
-- amos_core
-- cognition
-- distributed_cognition
-- cluster
-- orchestrator
-- multi_role_reasoning
-- rscf
-- fractal_knowledge
-- provenance
-- verification
-- governance
-- mvcc
-- cas
-- atomic_reasoning
-- failure_recovery
-- anti_sybil
-- epistemic_firewall
-- determinism
-- canon/universe
-- architecture
-- validation
-- agents
-- memory
-- law/L19-proof-capsule
-- canon
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - amos-os
+  - amos_core
+  - cognition
+  - distributed_cognition
+  - cluster
+  - orchestrator
+  - multi_role_reasoning
+  - rscf
+  - fractal_knowledge
+  - provenance
+  - verification
+  - governance
+  - mvcc
+  - cas
+  - atomic_reasoning
+  - failure_recovery
+  - anti_sybil
+  - epistemic_firewall
+  - determinism
+  - canon/universe
+  - architecture
+  - validation
+  - agents
+  - memory
+  - law/L19-proof-capsule
+  - canon
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 version: 1.0.0
 updated: '2026-08-27'
 status: MODEL
@@ -57,10 +57,7 @@ determinism_validation_status: UNKNOWN/GAP
 executable_binding: NOT_ESTABLISHED
 ingestion_action: ADD_ONLY
 overclaim_risk: true
-overclaim_note: 'Architecture-level descriptions are retained as AMOS_MODEL. Runtime,
-  determinism, security, latency, production-readiness, autonomous operation, and
-  performance claims remain CONDITIONAL, SOURCE_CLAIM, or UNKNOWN/GAP unless independently
-  validated.
+overclaim_note: 'Architecture-level descriptions are retained as AMOS_MODEL. Runtime, determinism, security, latency, production-readiness, autonomous operation, and performance claims remain CONDITIONAL, SOURCE_CLAIM, or UNKNOWN/GAP unless independently validated.
 
   '
 rscf:
@@ -82,17 +79,17 @@ The **AMOS Distributed Cognition Cluster Orchestrator (DCO)** is a governed mult
 It separates major cognitive responsibilities into specialized roles:
 
 1. planning;
-2. evidence acquisition;
-3. implementation;
-4. adversarial verification;
-5. compression;
-6. auditing.
+1. evidence acquisition;
+1. implementation;
+1. adversarial verification;
+1. compression;
+1. auditing.
 
 These roles are coordinated through an orchestration layer responsible for task decomposition, routing, dependency management, gating, resource discipline, provenance continuity, and finalization control.
 
 The architecture is represented canonically as:
 
-```text
+````text
 TASK
   ↓
 PLANNER
@@ -167,15 +164,15 @@ APPROVED
 UNKNOWN/GAP
 ≠
 PASS
-```
+````
 
 Origin architect / steward:
 
 **Trang Phan**
 
----
+______________________________________________________________________
 
-# 1. Bootstrap Capsule
+## 1. Bootstrap Capsule
 
 The AMOS Distributed Cognition Cluster Orchestrator is a governed reasoning architecture that distributes cognitive work across specialized roles while preserving shared evidence, typed responsibility, provenance, verification, bounded execution, contradiction visibility, and governance.
 
@@ -199,9 +196,9 @@ BOUNDED EXECUTION
 
 The architecture treats distributed cognition as a controlled reasoning graph rather than an unrestricted collection of autonomous agents.
 
----
+______________________________________________________________________
 
-# 2. Core Law
+## 2. Core Law
 
 ```text
 INTEGRITY
@@ -236,9 +233,9 @@ MIN(
 
 unless independent validation changes the evidential structure.
 
----
+______________________________________________________________________
 
-# 3. Governing Objective
+## 3. Governing Objective
 
 The DCO exists to answer the following architectural question:
 
@@ -260,9 +257,9 @@ GOVERNANCE VALIDITY
 
 rather than raw throughput alone.
 
----
+______________________________________________________________________
 
-# 4. Absolute Laws
+## 4. Absolute Laws
 
 ## L0 — Determinism Discipline
 
@@ -298,7 +295,7 @@ A SHA256 content identifier may establish stable identity for identical canonica
 
 It does not establish deterministic inference.
 
----
+______________________________________________________________________
 
 ## L1 — Shared Reference State
 
@@ -316,16 +313,16 @@ GUARANTEED TRUTH
 
 The shared state can itself contain:
 
-* stale information;
-* conflicting evidence;
-* incomplete evidence;
-* incorrect source claims;
-* model assumptions;
-* unresolved gaps.
+- stale information;
+- conflicting evidence;
+- incomplete evidence;
+- incorrect source claims;
+- model assumptions;
+- unresolved gaps.
 
 Therefore SSOT synchronizes reference state but does not automatically certify epistemic validity.
 
----
+______________________________________________________________________
 
 ## L2 — Least Privilege
 
@@ -347,7 +344,7 @@ A Verifier does not automatically receive commit authority.
 
 An Auditor does not automatically become the source of factual truth.
 
----
+______________________________________________________________________
 
 ## L3 — No Single Point of Truth
 
@@ -363,7 +360,7 @@ Neither one agent nor many agents constitute evidence merely by agreeing.
 
 Independent confirmation requires materially independent provenance roots and sufficiently distinct failure paths.
 
----
+______________________________________________________________________
 
 ## L4 — Budget Discipline
 
@@ -395,9 +392,9 @@ DECISION-CHANGING UNCERTAINTY
 BACKGROUND DETAIL
 ```
 
----
+______________________________________________________________________
 
-# 5. Fractal Architecture
+## 5. Fractal Architecture
 
 The architecture follows H/M/L decomposition.
 
@@ -413,9 +410,9 @@ RAW EVIDENCE
 
 Raw evidence is loaded only when materially required.
 
----
+______________________________________________________________________
 
-# 6. H Layer — Distributed Cognition Cluster
+## 6. H Layer — Distributed Cognition Cluster
 
 ## H.SYSTEM
 
@@ -437,33 +434,33 @@ The H layer owns no claim merely because it coordinates lower layers.
 
 It is a composition boundary.
 
----
+______________________________________________________________________
 
-# 7. M Layer — Core Subsystems
+## 7. M Layer — Core Subsystems
 
 ## M1 — Orchestrator
 
 Responsibilities:
 
-* task admission;
-* task identity;
-* decomposition;
-* DAG construction;
-* dependency tracking;
-* role assignment;
-* routing;
-* gate evaluation;
-* retry policy;
-* budget enforcement;
-* conflict escalation;
-* snapshot management;
-* finalization eligibility.
+- task admission;
+- task identity;
+- decomposition;
+- DAG construction;
+- dependency tracking;
+- role assignment;
+- routing;
+- gate evaluation;
+- retry policy;
+- budget enforcement;
+- conflict escalation;
+- snapshot management;
+- finalization eligibility.
 
 The Orchestrator coordinates work.
 
 It does not automatically validate the truth of work.
 
----
+______________________________________________________________________
 
 ## M2 — Agent Roles
 
@@ -482,23 +479,23 @@ Role separation exists to create typed responsibility and distinct failure bound
 
 Role count itself provides no epistemic guarantee.
 
----
+______________________________________________________________________
 
 ## M3 — Shared State / SSOT
 
 Contains conceptual references to:
 
-* schemas;
-* policies;
-* knowledge snapshots;
-* evidence objects;
-* task state;
-* provenance;
-* dependency state;
-* verification state;
-* audit state.
+- schemas;
+- policies;
+- knowledge snapshots;
+- evidence objects;
+- task state;
+- provenance;
+- dependency state;
+- verification state;
+- audit state.
 
----
+______________________________________________________________________
 
 ## M4 — Capability Security
 
@@ -524,58 +521,58 @@ Capabilities are not authority.
 CAPABILITY != AUTHORITY
 ```
 
----
+______________________________________________________________________
 
 ## M5 — Verification
 
 Verification may include:
 
-* factual evidence checks;
-* contradiction search;
-* computation checks;
-* code checks;
-* provenance checks;
-* scope checks;
-* temporal checks;
-* causal checks;
-* dependency checks;
-* adversarial challenge.
+- factual evidence checks;
+- contradiction search;
+- computation checks;
+- code checks;
+- provenance checks;
+- scope checks;
+- temporal checks;
+- causal checks;
+- dependency checks;
+- adversarial challenge.
 
----
+______________________________________________________________________
 
 ## M6 — Infrastructure
 
 Potential infrastructure components include:
 
-* code validator;
-* test runner;
-* type checker;
-* security scanner;
-* complexity analyzer;
-* evidence resolver;
-* provenance store;
-* snapshot store;
-* policy evaluator.
+- code validator;
+- test runner;
+- type checker;
+- security scanner;
+- complexity analyzer;
+- evidence resolver;
+- provenance store;
+- snapshot store;
+- policy evaluator.
 
 Existence of these components in the architecture does not establish their implementation.
 
----
+______________________________________________________________________
 
 ## M7 — Evaluation
 
 Evaluation concerns:
 
-* scenario coverage;
-* success criteria;
-* reproducibility;
-* regression;
-* failure injection;
-* contradiction handling;
-* provenance preservation;
-* budget behavior;
-* security boundaries.
+- scenario coverage;
+- success criteria;
+- reproducibility;
+- regression;
+- failure injection;
+- contradiction handling;
+- provenance preservation;
+- budget behavior;
+- security boundaries.
 
----
+______________________________________________________________________
 
 ## M8 — Governance
 
@@ -595,9 +592,9 @@ Governance decides whether an operation may proceed.
 
 Governance does not transform unsupported factual claims into verified facts.
 
----
+______________________________________________________________________
 
-# 8. L Layer — Atomic State
+## 8. L Layer — Atomic State
 
 Representative atomic state includes:
 
@@ -625,9 +622,9 @@ audit_result
 finalization_state
 ```
 
----
+______________________________________________________________________
 
-# 9. Agent Registry
+## 9. Agent Registry
 
 ## 9.1 Planner
 
@@ -643,13 +640,13 @@ ORCHESTRATION DESIGN
 
 Responsibilities:
 
-* determine objective;
-* identify constraints;
-* identify decision-changing uncertainties;
-* build task DAG;
-* identify evidence requirements;
-* assign role responsibilities;
-* define completion criteria.
+- determine objective;
+- identify constraints;
+- identify decision-changing uncertainties;
+- build task DAG;
+- identify evidence requirements;
+- assign role responsibilities;
+- define completion criteria.
 
 Source budget profile:
 
@@ -660,7 +657,7 @@ timeout_seconds: 30
 
 These values are architecture defaults/source profiles, not validated universal optima.
 
----
+______________________________________________________________________
 
 ## 9.2 Retriever
 
@@ -672,13 +669,13 @@ EVIDENCE ACQUISITION
 
 Responsibilities:
 
-* locate evidence;
-* preserve provenance;
-* classify evidence type;
-* identify freshness;
-* identify source ancestry;
-* detect duplicate provenance;
-* surface gaps.
+- locate evidence;
+- preserve provenance;
+- classify evidence type;
+- identify freshness;
+- identify source ancestry;
+- detect duplicate provenance;
+- surface gaps.
 
 Source budget profile:
 
@@ -689,7 +686,7 @@ timeout_seconds: 45
 
 Retriever output does not automatically become truth.
 
----
+______________________________________________________________________
 
 ## 9.3 Implementer
 
@@ -703,13 +700,13 @@ ACCEPTED EVIDENCE + CONSTRAINTS
 
 Responsibilities:
 
-* synthesize;
-* compute;
-* generate artifacts;
-* produce candidate conclusions;
-* preserve evidence links;
-* declare assumptions;
-* expose unresolved dependencies.
+- synthesize;
+- compute;
+- generate artifacts;
+- produce candidate conclusions;
+- preserve evidence links;
+- declare assumptions;
+- expose unresolved dependencies.
 
 Source budget profile:
 
@@ -720,7 +717,7 @@ timeout_seconds: 120
 
 Implementation is a proposal until verification and governance gates pass.
 
----
+______________________________________________________________________
 
 ## 9.4 Verifier
 
@@ -732,14 +729,14 @@ ADVERSARIAL VALIDATION
 
 Responsibilities:
 
-* challenge candidate conclusions;
-* search for contradiction;
-* detect correlated provenance;
-* identify stale premises;
-* detect scope leakage;
-* test hidden dependencies;
-* challenge causal overreach;
-* search for stronger alternatives.
+- challenge candidate conclusions;
+- search for contradiction;
+- detect correlated provenance;
+- identify stale premises;
+- detect scope leakage;
+- test hidden dependencies;
+- challenge causal overreach;
+- search for stronger alternatives.
 
 Source budget profile:
 
@@ -757,7 +754,7 @@ CONFLICT
 UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 ## 9.5 Compressor
 
@@ -769,13 +766,13 @@ MINIMAL SUFFICIENT BASIS EXTRACTION
 
 The Compressor removes non-load-bearing redundancy while preserving:
 
-* decisive evidence;
-* material uncertainty;
-* scope;
-* dependencies;
-* competing explanations;
-* falsifiers;
-* confidence ceilings.
+- decisive evidence;
+- material uncertainty;
+- scope;
+- dependencies;
+- competing explanations;
+- falsifiers;
+- confidence ceilings.
 
 Source budget profile:
 
@@ -786,7 +783,7 @@ timeout_seconds: 30
 
 Compression MUST NOT increase confidence.
 
----
+______________________________________________________________________
 
 ## 9.6 Auditor
 
@@ -798,12 +795,12 @@ GOVERNANCE VALIDATION
 
 Responsibilities:
 
-* policy validation;
-* provenance validation;
-* scope validation;
-* authorization checks;
-* audit receipt generation;
-* finalization eligibility.
+- policy validation;
+- provenance validation;
+- scope validation;
+- authorization checks;
+- audit receipt generation;
+- finalization eligibility.
 
 Source budget profile:
 
@@ -820,9 +817,9 @@ AUDIT_PASS
 FACTUAL_TRUTH
 ```
 
----
+______________________________________________________________________
 
-# 10. Typed Message Model
+## 10. Typed Message Model
 
 Canonical conceptual message:
 
@@ -852,9 +849,9 @@ message:
     schema_version: version
 ```
 
----
+______________________________________________________________________
 
-# 11. Message Integrity
+## 11. Message Integrity
 
 A message should preserve:
 
@@ -873,16 +870,16 @@ A content hash detects content changes only within its hashing assumptions.
 
 It does not prove:
 
-* sender authenticity;
-* factual correctness;
-* authorization;
-* freshness;
-* independence;
-* causal validity.
+- sender authenticity;
+- factual correctness;
+- authorization;
+- freshness;
+- independence;
+- causal validity.
 
----
+______________________________________________________________________
 
-# 12. Evidence Typing
+## 12. Evidence Typing
 
 Evidence SHOULD be typed.
 
@@ -899,9 +896,9 @@ UNKNOWN
 
 These classes are not interchangeable.
 
----
+______________________________________________________________________
 
-# 13. SOURCE_CLAIM
+## 13. SOURCE_CLAIM
 
 A claim asserted by a source.
 
@@ -915,48 +912,48 @@ does not imply:
 X IS VERIFIED
 ```
 
----
+______________________________________________________________________
 
-# 14. OBSERVATION
+## 14. OBSERVATION
 
 An observation is a recorded measurement or directly observed state within a declared measurement regime.
 
 Observation validity is bounded by:
 
-* instrument;
-* environment;
-* time;
-* measurement method;
-* sampling;
-* scope.
+- instrument;
+- environment;
+- time;
+- measurement method;
+- sampling;
+- scope.
 
----
+______________________________________________________________________
 
-# 15. DERIVED
+## 15. DERIVED
 
 A conclusion derived from premises.
 
 Its confidence cannot exceed unresolved load-bearing dependencies.
 
----
+______________________________________________________________________
 
-# 16. MODEL
+## 16. MODEL
 
 A conceptual representation, hypothesis, architecture, mapping, or explanatory structure.
 
 A MODEL may be useful without being empirically verified.
 
----
+______________________________________________________________________
 
-# 17. DECISION
+## 17. DECISION
 
 A governed choice.
 
 A decision may be valid under uncertainty without claiming certainty about the world.
 
----
+______________________________________________________________________
 
-# 18. UNKNOWN
+## 18. UNKNOWN
 
 Insufficient evidence.
 
@@ -974,9 +971,9 @@ UNKNOWN
 PASS
 ```
 
----
+______________________________________________________________________
 
-# 19. Gating Engine
+## 19. Gating Engine
 
 ## G1 — Evidence Gate
 
@@ -1000,7 +997,7 @@ Missing load-bearing evidence results in:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
 ## G2 — Computation Gate
 
@@ -1018,18 +1015,18 @@ COMPARE
 
 Tool output itself remains subject to tool correctness and input validity.
 
----
+______________________________________________________________________
 
 ## G3 — Code Gate
 
 Generated or modified code SHOULD, where applicable:
 
-* parse;
-* compile;
-* typecheck;
-* pass relevant tests;
-* pass security checks;
-* satisfy declared contracts.
+- parse;
+- compile;
+- typecheck;
+- pass relevant tests;
+- pass security checks;
+- satisfy declared contracts.
 
 ```text
 CODE_WRITTEN
@@ -1037,7 +1034,7 @@ CODE_WRITTEN
 CODE_VALIDATED
 ```
 
----
+______________________________________________________________________
 
 ## G4 — Verifier Gate
 
@@ -1049,7 +1046,7 @@ IMPLEMENTER_REVISION
 
 Rejected implementation cannot be finalized unchanged.
 
----
+______________________________________________________________________
 
 ## G5 — Conflict Gate
 
@@ -1065,23 +1062,23 @@ COMPETING
 
 Contradiction must not be hidden through averaging or forced consensus.
 
----
+______________________________________________________________________
 
 ## G6 — Budget Gate
 
 Budget violations trigger:
 
-* reprioritization;
-* compression;
-* branch termination;
-* escalation;
-* explicit incompleteness.
+- reprioritization;
+- compression;
+- branch termination;
+- escalation;
+- explicit incompleteness.
 
 Integrity-critical checks are not silently discarded.
 
----
+______________________________________________________________________
 
-# 20. Verification Loop
+## 20. Verification Loop
 
 ```text
 IMPLEMENT
@@ -1116,9 +1113,9 @@ ACTION SUFFICIENCY
 
 are achieved, or when unresolved gaps prevent safe finalization.
 
----
+______________________________________________________________________
 
-# 21. Adversarial Verification
+## 21. Adversarial Verification
 
 For consequential conclusions, verification should attempt to defeat the candidate result.
 
@@ -1147,9 +1144,9 @@ OR
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 22. Provenance Topology
+## 22. Provenance Topology
 
 Canonical topology:
 
@@ -1179,9 +1176,9 @@ Every transformation creates lineage.
 
 Transformation does not create independence.
 
----
+______________________________________________________________________
 
-# 23. Anti-Sybil Provenance Hardening
+## 23. Anti-Sybil Provenance Hardening
 
 Problem:
 
@@ -1214,9 +1211,9 @@ Independence should be demonstrated through ancestry and failure-path analysis.
 
 It must not be assumed from superficial source labels.
 
----
+______________________________________________________________________
 
-# 24. Provenance Object
+## 24. Provenance Object
 
 Conceptual evidence provenance object:
 
@@ -1236,9 +1233,9 @@ provenance:
   freshness_status: fresh_stale_unknown
 ```
 
----
+______________________________________________________________________
 
-# 25. Snapshot / MVCC Model
+## 25. Snapshot / MVCC Model
 
 Reasoning state SHOULD conceptually be pinned to:
 
@@ -1252,9 +1249,9 @@ Reasoning state SHOULD conceptually be pinned to:
 
 This prevents silent mixing of incompatible reference states.
 
----
+______________________________________________________________________
 
-# 26. Compare-and-Swap Semantics
+## 26. Compare-and-Swap Semantics
 
 Controlled mutation conceptually follows:
 
@@ -1282,9 +1279,9 @@ CAS is an architecture concept here.
 
 Runtime enforcement remains unestablished unless implemented and tested.
 
----
+______________________________________________________________________
 
-# 27. Atomic Multi-RSCF Reasoning
+## 27. Atomic Multi-RSCF Reasoning
 
 Transaction scope:
 
@@ -1331,9 +1328,9 @@ Otherwise:
 NO_COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 28. Proposal / Commit Separation
+## 28. Proposal / Commit Separation
 
 A candidate result is initially:
 
@@ -1361,9 +1358,9 @@ Authorization allows an operation to become eligible for commit.
 
 It does not itself constitute commit.
 
----
+______________________________________________________________________
 
-# 29. Causal Epoch Finality
+## 29. Causal Epoch Finality
 
 Conceptually, a finalized result belongs to a logical epoch.
 
@@ -1391,9 +1388,9 @@ VALID_AT_EPOCH_n
 VALID_FOREVER
 ```
 
----
+______________________________________________________________________
 
-# 30. Dependency Closure
+## 30. Dependency Closure
 
 The orchestrator should traverse only dependencies capable of materially changing the result.
 
@@ -1409,9 +1406,9 @@ STOP WHEN SUFFICIENT
 
 This supports the smallest sufficient proof scope.
 
----
+______________________________________________________________________
 
-# 31. Fast Path
+## 31. Fast Path
 
 Local reasoning is eligible only when the architecture can establish:
 
@@ -1431,18 +1428,18 @@ NON-CONFLICT
 
 Escalation is required when evidence:
 
-* shares ancestry;
-* conflicts;
-* is stale;
-* crosses regimes;
-* has causal coupling;
-* affects governance;
-* carries irreversible stakes;
-* has ambiguous dependencies.
+- shares ancestry;
+- conflicts;
+- is stale;
+- crosses regimes;
+- has causal coupling;
+- affects governance;
+- carries irreversible stakes;
+- has ambiguous dependencies.
 
----
+______________________________________________________________________
 
-# 32. Competing Hypotheses
+## 32. Competing Hypotheses
 
 The system must not force convergence when evidence supports incompatible alternatives without sufficient discrimination.
 
@@ -1466,9 +1463,9 @@ STATE = COMPETING
 
 The next preferred action is a high-information discriminating test.
 
----
+______________________________________________________________________
 
-# 33. Discriminating Test Selection
+## 33. Discriminating Test Selection
 
 Prefer:
 
@@ -1494,9 +1491,9 @@ argmax(
 
 This is a model-level decision principle, not a universally validated mathematical law.
 
----
+______________________________________________________________________
 
-# 34. Causal Firewall
+## 34. Causal Firewall
 
 The architecture distinguishes:
 
@@ -1531,9 +1528,9 @@ A CAUSED B
 
 Agent consensus does not establish causal validity.
 
----
+______________________________________________________________________
 
-# 35. Scope Firewall
+## 35. Scope Firewall
 
 Important conclusions inherit an applicability envelope.
 
@@ -1552,9 +1549,9 @@ scope:
 
 A conclusion MUST NOT silently escape this envelope.
 
----
+______________________________________________________________________
 
-# 36. Regime Shift Handling
+## 36. Regime Shift Handling
 
 If validity conditions change:
 
@@ -1574,9 +1571,9 @@ VALID_IN_REGIME_A
 VALID_IN_REGIME_B
 ```
 
----
+______________________________________________________________________
 
-# 37. Sensitivity Analysis
+## 37. Sensitivity Analysis
 
 For consequential conclusions, identify the smallest premise, threshold, assumption, or observation capable of changing the outcome.
 
@@ -1589,9 +1586,9 @@ THAT CHANGES DECISION
 
 Test high-sensitivity premises first.
 
----
+______________________________________________________________________
 
-# 38. Fragility
+## 38. Fragility
 
 If small plausible perturbations change the conclusion:
 
@@ -1607,9 +1604,9 @@ RESULT = MORE ROBUST
 
 Robustness does not automatically imply truth.
 
----
+______________________________________________________________________
 
-# 39. Adaptive Complexity
+## 39. Adaptive Complexity
 
 Reasoning complexity is selected according to task needs.
 
@@ -1623,23 +1620,23 @@ C4 MAXIMUM
 
 Escalation drivers:
 
-* high stakes;
-* irreversibility;
-* novelty;
-* weak evidence;
-* stale evidence;
-* contradiction;
-* causal ambiguity;
-* scope mismatch;
-* competing models;
-* governance impact;
-* low provenance trust.
+- high stakes;
+- irreversibility;
+- novelty;
+- weak evidence;
+- stale evidence;
+- contradiction;
+- causal ambiguity;
+- scope mismatch;
+- competing models;
+- governance impact;
+- low provenance trust.
 
 De-escalation occurs when outcome-changing uncertainty has been resolved.
 
----
+______________________________________________________________________
 
-# 40. Failure Recovery
+## 40. Failure Recovery
 
 Governing rule:
 
@@ -1649,9 +1646,9 @@ BEFORE
 GLOBAL RECOMPUTATION
 ```
 
----
+______________________________________________________________________
 
-# 41. Verifier Failure
+## 41. Verifier Failure
 
 If verification rejects an implementation:
 
@@ -1673,9 +1670,9 @@ REROUTE
 IMPLEMENTER
 ```
 
----
+______________________________________________________________________
 
-# 42. Evidence Failure
+## 42. Evidence Failure
 
 If evidence is invalidated:
 
@@ -1691,9 +1688,9 @@ DEPENDENT ACTIONS
 
 Unrelated conclusions remain intact.
 
----
+______________________________________________________________________
 
-# 43. Tool Failure
+## 43. Tool Failure
 
 If a tool fails:
 
@@ -1721,9 +1718,9 @@ UNKNOWN/GAP
 
 The same failed path SHOULD NOT be repeated without changed evidence or conditions.
 
----
+______________________________________________________________________
 
-# 44. Policy Failure
+## 44. Policy Failure
 
 If policy validation fails:
 
@@ -1735,9 +1732,9 @@ AUDITOR / GOVERNANCE
 
 Policy failure is not repaired by increasing model confidence.
 
----
+______________________________________________________________________
 
-# 45. Epistemic Firewall
+## 45. Epistemic Firewall
 
 The following remain `SOURCE_CLAIM` unless independently validated:
 
@@ -1757,9 +1754,9 @@ Architecture descriptions may remain `MODEL`.
 
 Runtime assertions require runtime evidence.
 
----
+______________________________________________________________________
 
-# 46. Determinism Firewall
+## 46. Determinism Firewall
 
 The following must remain separated:
 
@@ -1775,9 +1772,9 @@ END-TO-END DETERMINISM
 
 Proof of one does not prove the others.
 
----
+______________________________________________________________________
 
-# 47. Security Firewall
+## 47. Security Firewall
 
 Security claims require executable validation.
 
@@ -1800,9 +1797,9 @@ Without such evidence:
 SECURITY_STATUS = UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 48. Governance Firewall
+## 48. Governance Firewall
 
 Architectural importance does not grant authority.
 
@@ -1822,9 +1819,9 @@ authority:
   permissions: required
 ```
 
----
+______________________________________________________________________
 
-# 49. Audit Receipts
+## 49. Audit Receipts
 
 Consequential finalization SHOULD conceptually produce a receipt containing:
 
@@ -1864,9 +1861,9 @@ RECEIPT
 EMPIRICAL TRUTH
 ```
 
----
+______________________________________________________________________
 
-# 50. Uncertainty Vector
+## 50. Uncertainty Vector
 
 Material uncertainty may be decomposed into:
 
@@ -1885,9 +1882,9 @@ U =
 
 Reasoning resources should be spent where uncertainty reduction has positive expected decision value.
 
----
+______________________________________________________________________
 
-# 51. Gap Taxonomy
+## 51. Gap Taxonomy
 
 Gaps are classified:
 
@@ -1910,9 +1907,9 @@ EXPLANATORY
 COSMETIC
 ```
 
----
+______________________________________________________________________
 
-# 52. Critical Gaps
+## 52. Critical Gaps
 
 ## GAP_SOURCE_CODE
 
@@ -1924,7 +1921,7 @@ description: >
   have not been established by this artifact.
 ```
 
----
+______________________________________________________________________
 
 ## GAP_TEST_ARTIFACTS
 
@@ -1936,7 +1933,7 @@ description: >
   and validation receipts are not established.
 ```
 
----
+______________________________________________________________________
 
 ## GAP_DETERMINISM
 
@@ -1948,7 +1945,7 @@ description: >
   required for end-to-end determinism claims are absent.
 ```
 
----
+______________________________________________________________________
 
 ## GAP_SECURITY
 
@@ -1959,9 +1956,9 @@ description: >
   Adversarial capability and isolation testing is not established.
 ```
 
----
+______________________________________________________________________
 
-# 53. Decision-Relevant Gaps
+## 53. Decision-Relevant Gaps
 
 The following remain unresolved:
 
@@ -1979,9 +1976,9 @@ SANDBOX IMPLEMENTATION
 AUDIT STORAGE
 ```
 
----
+______________________________________________________________________
 
-# 54. Proof Capsule Schema
+## 54. Proof Capsule Schema
 
 Important conclusions should conceptually carry:
 
@@ -2020,9 +2017,9 @@ proof_capsule:
     state: established_or_unknown
 ```
 
----
+______________________________________________________________________
 
-# 55. Proof Capsule — Architecture
+## 55. Proof Capsule — Architecture
 
 ```yaml
 id: PC_ARCHITECTURE
@@ -2039,9 +2036,9 @@ scope: AMOS_DCO_architecture
 implementation_status: NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 56. Proof Capsule — Role Specialization
+## 56. Proof Capsule — Role Specialization
 
 ```yaml
 id: PC_ROLE_SPECIALIZATION
@@ -2053,9 +2050,9 @@ claim: >
   Compressor, and Auditor.
 ```
 
----
+______________________________________________________________________
 
-# 57. Proof Capsule — Determinism
+## 57. Proof Capsule — Determinism
 
 ```yaml
 id: PC_DETERMINISM
@@ -2074,9 +2071,9 @@ falsifier:
   - uncontrolled external state changes result
 ```
 
----
+______________________________________________________________________
 
-# 58. Proof Capsule — Production Readiness
+## 58. Proof Capsule — Production Readiness
 
 ```yaml
 id: PC_PRODUCTION_READY
@@ -2096,9 +2093,9 @@ missing:
   - operational_receipts
 ```
 
----
+______________________________________________________________________
 
-# 59. Proof Capsule — Security
+## 59. Proof Capsule — Security
 
 ```yaml
 id: PC_SECURITY
@@ -2119,9 +2116,9 @@ required_evidence:
   - policy_bypass_tests
 ```
 
----
+______________________________________________________________________
 
-# 60. Proof Capsule — Provenance Independence
+## 60. Proof Capsule — Provenance Independence
 
 ```yaml
 id: PC_PROVENANCE_INDEPENDENCE
@@ -2135,9 +2132,9 @@ claim: >
 scope: provenance_reasoning
 ```
 
----
+______________________________________________________________________
 
-# 61. RSCF Graph
+## 61. RSCF Graph
 
 ```text
                          ┌───────────────┐
@@ -2212,9 +2209,9 @@ VERIFIER
      IMPLEMENTER
 ```
 
----
+______________________________________________________________________
 
-# 62. Atomic RSCF Nodes
+## 62. Atomic RSCF Nodes
 
 ```text
 RSCF.AMOS.DCO.H.SYSTEM
@@ -2256,9 +2253,9 @@ RSCF.AMOS.DCO.L.RECEIPT
 RSCF.AMOS.DCO.L.EPOCH
 ```
 
----
+______________________________________________________________________
 
-# 63. RSCF Relations
+## 63. RSCF Relations
 
 ```text
 TASK
@@ -2318,9 +2315,9 @@ AUDITOR
 FINALIZATION
 ```
 
----
+______________________________________________________________________
 
-# 64. Execution State Machine
+## 64. Execution State Machine
 
 ```text
 CREATED
@@ -2368,9 +2365,9 @@ AUDIT_FAILED
 HELD
 ```
 
----
+______________________________________________________________________
 
-# 65. Finalization Preconditions
+## 65. Finalization Preconditions
 
 A result may be finalized only if all applicable load-bearing gates pass.
 
@@ -2400,41 +2397,41 @@ HOLD
 
 not fabricated completion.
 
----
+______________________________________________________________________
 
-# 66. Promotion Gates
+## 66. Promotion Gates
 
 Before this architecture can be promoted from conceptual MODEL toward validated implementation status:
 
-* [ ] executable source modules identified;
-* [ ] schemas bound to runtime objects;
-* [ ] role identity enforcement implemented;
-* [ ] capability enforcement implemented;
-* [ ] deterministic content serialization tested;
-* [ ] snapshot versioning implemented;
-* [ ] CAS semantics tested under concurrency;
-* [ ] evidence provenance persisted;
-* [ ] provenance ancestry validation implemented;
-* [ ] verifier rejection blocks commit;
-* [ ] conflict path preserves COMPETING;
-* [ ] UNKNOWN fails closed where required;
-* [ ] rollback invalidates only descendants;
-* [ ] negative cases tested;
-* [ ] stale evidence behavior tested;
-* [ ] regime mismatch tested;
-* [ ] policy mismatch tested;
-* [ ] privilege escalation tested;
-* [ ] sandbox escape tested;
-* [ ] cross-role leakage tested;
-* [ ] unauthorized mutation tested;
-* [ ] failure injection completed;
-* [ ] repeated-run determinism claims independently evaluated;
-* [ ] performance claims tied to declared hardware/environment;
-* [ ] validation receipts persisted.
+- [ ] executable source modules identified;
+- [ ] schemas bound to runtime objects;
+- [ ] role identity enforcement implemented;
+- [ ] capability enforcement implemented;
+- [ ] deterministic content serialization tested;
+- [ ] snapshot versioning implemented;
+- [ ] CAS semantics tested under concurrency;
+- [ ] evidence provenance persisted;
+- [ ] provenance ancestry validation implemented;
+- [ ] verifier rejection blocks commit;
+- [ ] conflict path preserves COMPETING;
+- [ ] UNKNOWN fails closed where required;
+- [ ] rollback invalidates only descendants;
+- [ ] negative cases tested;
+- [ ] stale evidence behavior tested;
+- [ ] regime mismatch tested;
+- [ ] policy mismatch tested;
+- [ ] privilege escalation tested;
+- [ ] sandbox escape tested;
+- [ ] cross-role leakage tested;
+- [ ] unauthorized mutation tested;
+- [ ] failure injection completed;
+- [ ] repeated-run determinism claims independently evaluated;
+- [ ] performance claims tied to declared hardware/environment;
+- [ ] validation receipts persisted.
 
----
+______________________________________________________________________
 
-# 67. Negative Test Matrix
+## 67. Negative Test Matrix
 
 Required conceptual negative cases include:
 
@@ -2461,9 +2458,9 @@ DEPENDENCY INVALIDATION
 REGIME SHIFT
 ```
 
----
+______________________________________________________________________
 
-# 68. Failure Semantics
+## 68. Failure Semantics
 
 ## Missing evidence
 
@@ -2519,9 +2516,9 @@ VERSION_MISMATCH
 NO WRITE
 ```
 
----
+______________________________________________________________________
 
-# 69. Anti-Regression Law
+## 69. Anti-Regression Law
 
 Any optimization must preserve or improve:
 
@@ -2542,9 +2539,9 @@ Otherwise:
 ROLLBACK OPTIMIZATION
 ```
 
----
+______________________________________________________________________
 
-# 70. Knowledge Harvest
+## 70. Knowledge Harvest
 
 Canonical lifecycle:
 
@@ -2558,22 +2555,22 @@ VALIDATED KNOWLEDGE
 
 Knowledge objects should preserve:
 
-* provenance;
-* version/hash;
-* license/IP status where relevant;
-* dependencies;
-* competing claims;
-* environment fit;
-* freshness;
-* governance state;
-* revalidation timing;
-* lineage.
+- provenance;
+- version/hash;
+- license/IP status where relevant;
+- dependencies;
+- competing claims;
+- environment fit;
+- freshness;
+- governance state;
+- revalidation timing;
+- lineage.
 
 Documentation claims remain `SOURCE_CLAIM` until validated.
 
----
+______________________________________________________________________
 
-# 71. Action Governance
+## 71. Action Governance
 
 Validation depth increases with:
 
@@ -2598,9 +2595,9 @@ IRREVERSIBLE
 
 when expected outcomes are otherwise comparable.
 
----
+______________________________________________________________________
 
-# 72. Conclusion Classes
+## 72. Conclusion Classes
 
 Canonical classes:
 
@@ -2617,9 +2614,9 @@ Use the weakest accurate class.
 
 Never promote because stronger wording sounds more complete.
 
----
+______________________________________________________________________
 
-# 73. Example Reasoning Transaction
+## 73. Example Reasoning Transaction
 
 Input:
 
@@ -2684,9 +2681,9 @@ reason: stale_load_bearing_premise
 
 The system requests updated evidence rather than hiding the weakness.
 
----
+______________________________________________________________________
 
-# 74. Example Provenance-Sybil Failure
+## 74. Example Provenance-Sybil Failure
 
 Suppose:
 
@@ -2728,9 +2725,9 @@ Therefore:
 EFFECTIVE_CONFIRMATION_COUNT = 1
 ```
 
----
+______________________________________________________________________
 
-# 75. Example Conflict
+## 75. Example Conflict
 
 Evidence:
 
@@ -2747,9 +2744,9 @@ STATE = COMPETING
 
 The system does not average them into false certainty.
 
----
+______________________________________________________________________
 
-# 76. Example Scope Failure
+## 76. Example Scope Failure
 
 Evidence validates:
 
@@ -2778,9 +2775,9 @@ SYSTEM_A × E1 × T1
 
 until external validity is established.
 
----
+______________________________________________________________________
 
-# 77. Example Causal Failure
+## 77. Example Causal Failure
 
 Observed:
 
@@ -2798,12 +2795,12 @@ A CAUSED B
 
 Required causal work may include:
 
-* mechanism;
-* intervention;
-* counterfactual reasoning;
-* confounder analysis;
-* controlled comparison;
-* temporal structure.
+- mechanism;
+- intervention;
+- counterfactual reasoning;
+- confounder analysis;
+- controlled comparison;
+- temporal structure.
 
 Without appropriate evidence:
 
@@ -2813,9 +2810,9 @@ CLASS = ASSOCIATION / MODEL
 
 not verified causation.
 
----
+______________________________________________________________________
 
-# 78. Example Local Rollback
+## 78. Example Local Rollback
 
 Graph:
 
@@ -2843,19 +2840,19 @@ D2
 
 This is the architecture's preferred repair pattern.
 
----
+______________________________________________________________________
 
-# 79. Observability Boundary
+## 79. Observability Boundary
 
 Observability may report:
 
-* state;
-* latency;
-* error;
-* route;
-* gate result;
-* budget consumption;
-* provenance references.
+- state;
+- latency;
+- error;
+- route;
+- gate result;
+- budget consumption;
+- provenance references.
 
 But:
 
@@ -2873,9 +2870,9 @@ LOGGED
 APPROVED
 ```
 
----
+______________________________________________________________________
 
-# 80. Performance Boundary
+## 80. Performance Boundary
 
 Performance claims require explicit environment binding.
 
@@ -2901,9 +2898,9 @@ REPORTED LATENCY
 HARDWARE-INDEPENDENT PROPERTY
 ```
 
----
+______________________________________________________________________
 
-# 81. Distributed-System Boundary
+## 81. Distributed-System Boundary
 
 Use of concepts such as:
 
@@ -2920,9 +2917,9 @@ does not prove a deployed distributed system implements those mechanisms.
 
 Within this artifact they remain conceptual architectural semantics unless executable bindings and validation receipts establish otherwise.
 
----
+______________________________________________________________________
 
-# 82. Coordination Avoidance Boundary
+## 82. Coordination Avoidance Boundary
 
 Proof-based coordination avoidance may be an architectural target where local dependency closure can establish that a decision is independent of unrelated state.
 
@@ -2936,9 +2933,9 @@ ACTUAL DEPENDENCY INDEPENDENCE
 
 It cannot be assumed merely for performance.
 
----
+______________________________________________________________________
 
-# 83. Minimal Sufficient Proof Scope
+## 83. Minimal Sufficient Proof Scope
 
 The system should seek:
 
@@ -2951,9 +2948,9 @@ This provides the basis for efficient verification.
 
 Background information that cannot affect the outcome need not be loaded into the active reasoning state.
 
----
+______________________________________________________________________
 
-# 84. Stop Conditions
+## 84. Stop Conditions
 
 Stop reasoning when:
 
@@ -2969,33 +2966,33 @@ have been achieved.
 
 Do not continue merely to maximize apparent completeness.
 
----
+______________________________________________________________________
 
-# 85. Non-Purpose
+## 85. Non-Purpose
 
 This architecture MUST NOT be used by itself to claim:
 
-* consciousness;
-* biological cognition;
-* sentience;
-* universal intelligence;
-* autonomous authority;
-* scientific proof;
-* mathematical theoremhood;
-* production readiness;
-* universal determinism;
-* universal security;
-* Byzantine fault tolerance;
-* distributed consensus correctness;
-* formal verification;
-* enterprise readiness;
-* autonomous self-improvement.
+- consciousness;
+- biological cognition;
+- sentience;
+- universal intelligence;
+- autonomous authority;
+- scientific proof;
+- mathematical theoremhood;
+- production readiness;
+- universal determinism;
+- universal security;
+- Byzantine fault tolerance;
+- distributed consensus correctness;
+- formal verification;
+- enterprise readiness;
+- autonomous self-improvement.
 
 Such claims require their own appropriately typed evidence.
 
----
+______________________________________________________________________
 
-# 86. Implementation Boundary
+## 86. Implementation Boundary
 
 Current artifact status:
 
@@ -3018,9 +3015,9 @@ CAN DESCRIBE
 CAN EXECUTE
 ```
 
----
+______________________________________________________________________
 
-# 87. Canonical Invariants
+## 87. Canonical Invariants
 
 ```text
 INTEGRITY > COMPLETENESS
@@ -3048,9 +3045,9 @@ IMPLEMENTED != VALIDATED
 UNKNOWN/GAP != PASS
 ```
 
----
+______________________________________________________________________
 
-# 88. Promotion State Machine
+## 88. Promotion State Machine
 
 ```text
 PLACEHOLDER
@@ -3072,9 +3069,9 @@ Promotion between states requires evidence specific to that transition.
 
 No state may be inferred solely because later-state terminology appears in documentation.
 
----
+______________________________________________________________________
 
-# 89. Cross-Plane Bindings
+## 89. Cross-Plane Bindings
 
 Target bindings:
 
@@ -3104,17 +3101,17 @@ GOVERNANCE
 
 Conceptual references:
 
-*
-*
-*
-*
-*
-*
-*
+-
+-
+-
+-
+-
+-
+-
 
----
+______________________________________________________________________
 
-# 90. Canonical Knowledge Capsule
+## 90. Canonical Knowledge Capsule
 
 **Class: MODEL**
 
@@ -3192,9 +3189,9 @@ AUTONOMOUS ENHANCEMENT
 
 These remain `SOURCE_CLAIM`, `CONDITIONAL`, or `UNKNOWN/GAP` until supported by executable artifacts, environment-bound tests, provenance-independent validation, and governance receipts.
 
----
+______________________________________________________________________
 
-# 91. Final RSCF Node
+## 91. Final RSCF Node
 
 ```yaml
 RSCF-NODE:
@@ -3231,9 +3228,9 @@ RSCF-NODE:
     regime: conceptual_architecture
 ```
 
----
+______________________________________________________________________
 
-# 92. RSCF Relations
+## 92. RSCF Relations
 
 ```yaml
 RSCF-RELATIONS:
@@ -3255,9 +3252,9 @@ RSCF-RELATIONS:
   - RELATED_TO: [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 ```
 
----
+______________________________________________________________________
 
-# 93. Validation Requirements
+## 93. Validation Requirements
 
 Promotion beyond the current state requires artifact-specific receipts for:
 
@@ -3286,9 +3283,9 @@ CANONICAL IMPLEMENTATION STATUS
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 94. Final Integrity Boundary
+## 94. Final Integrity Boundary
 
 ```text
 WHAT THE [[00_ROOT/ARCHITECTURE|ARCHITECTURE]] SPECIFIES
@@ -3327,7 +3324,7 @@ The governing invariant remains:
 ```
 ---
 
-**Related:**  ·
+**Related:**  
 
 ---
 
@@ -3358,5 +3355,8 @@ The governing invariant remains:
 **Unresolved critical runtime claims:** UNKNOWN/GAP
 
 
+```
+
+```
 ```
 ```

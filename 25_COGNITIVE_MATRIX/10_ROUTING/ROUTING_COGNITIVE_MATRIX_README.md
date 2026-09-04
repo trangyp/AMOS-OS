@@ -12,17 +12,17 @@ segment: 25_COGNITIVE_MATRIX/10_ROUTING
 artifact_kind: COGNITIVE
 path: 25_COGNITIVE_MATRIX/10_ROUTING/ROUTING_COGNITIVE_MATRIX_README.md
 tags:
-- 10_routing
-- amos-os
-- domain/cognitive-matrix
-- canon/universe
-- cognitive
-- cognitive-matrix
-- matrix
-- readme
-- routing
-- rscf
-- placeholder_expanded
+  - 10_routing
+  - amos-os
+  - domain/cognitive-matrix
+  - canon/universe
+  - cognitive
+  - cognitive-matrix
+  - matrix
+  - readme
+  - routing
+  - rscf
+  - placeholder_expanded
 version: 0.2.0
 updated: '2026-08-27'
 status: PLACEHOLDER_EXPANDED
@@ -99,7 +99,7 @@ Origin architect / steward: **Trang Phan**
 
 System: **AMOS OS**
 
----
+______________________________________________________________________
 
 # 10_ROUTING — Routing Infrastructure Contract
 
@@ -113,9 +113,9 @@ System: **AMOS OS**
 >
 > **AMOS_CORE target:** `v4.4`
 
----
+______________________________________________________________________
 
-# 0. Purpose
+## 0. Purpose
 
 `10_ROUTING` defines the AMOS infrastructure contract responsible for selecting the **smallest valid path** through the AMOS architecture for a given request, claim, decision, validation task, generation task, workflow transition, mode activation, or effect proposal.
 
@@ -149,9 +149,9 @@ WORKER / EFFECT
 
 Routing is therefore **selection and path construction**, not authorization.
 
----
+______________________________________________________________________
 
-# 1. Core routing law
+## 1. Core routing law
 
 The primary AMOS routing rule is:
 
@@ -182,9 +182,9 @@ CAPABILITY
 != AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 2. Fractal routing principle
+## 2. Fractal routing principle
 
 AMOS routing follows the Fractal Knowledge Network pattern:
 
@@ -210,15 +210,15 @@ DO_NOT_LOAD_UNLESS_REQUIRED
 
 for raw evidence or deeply nested subsystems that cannot alter the result.
 
----
+______________________________________________________________________
 
-# 3. Routing definition
+## 3. Routing definition
 
 A route is modeled as:
 
-[
+\[
 R =
-\langle
+\\langle
 Request,
 Context,
 Scope,
@@ -230,26 +230,26 @@ Policy,
 State,
 Selection,
 Fallback
-\rangle
-]
+\\rangle
+\]
 
 The routing function is:
 
-[
+\[
 Route(q,ctx)
-\rightarrow
-{P_1,P_2,\ldots,P_n}
-]
+\\rightarrow
+{P_1,P_2,\\ldots,P_n}
+\]
 
-where each \(P_i\) is a possible valid path.
+where each (P_i) is a possible valid path.
 
 A second operation resolves or preserves competition:
 
-[
-Resolve(P_1,\ldots,P_n)
-\rightarrow
-P^*
-]
+\[
+Resolve(P_1,\\ldots,P_n)
+\\rightarrow
+P^\*
+\]
 
 or:
 
@@ -259,9 +259,9 @@ COMPETING / AMBIGUOUS
 
 if no defensible unique route exists.
 
----
+______________________________________________________________________
 
-# 4. Routing subsystem responsibilities
+## 4. Routing subsystem responsibilities
 
 `10_ROUTING` may be responsible for:
 
@@ -295,9 +295,9 @@ This is a contract surface.
 
 It does not prove implementation.
 
----
+______________________________________________________________________
 
-# 5. Non-responsibilities
+## 5. Non-responsibilities
 
 `10_ROUTING` must not silently own:
 
@@ -318,9 +318,9 @@ Routing may route **to** those services.
 
 It does not become those services.
 
----
+______________________________________________________________________
 
-# 6. Routing object model
+## 6. Routing object model
 
 ```yaml
 route:
@@ -386,15 +386,15 @@ route:
     UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 7. Route path representation
+## 7. Route path representation
 
 A route may be represented as a graph:
 
-[
+\[
 G_R=(V_R,E_R)
-]
+\]
 
 where nodes may include:
 
@@ -418,9 +418,9 @@ RecoveryHandler
 
 Edges should be typed.
 
----
+______________________________________________________________________
 
-# 8. Route relation ontology
+## 8. Route relation ontology
 
 Recommended relation types:
 
@@ -443,9 +443,9 @@ SUPERSEDES
 
 Untyped graph edges should be avoided for load-bearing routing.
 
----
+______________________________________________________________________
 
-# 9. Request classification
+## 9. Request classification
 
 Before component routing, classify the request.
 
@@ -490,9 +490,9 @@ request_classes:
 
 Routing burden should increase with consequence.
 
----
+______________________________________________________________________
 
-# 10. Typed routing input
+## 10. Typed routing input
 
 ```yaml
 routing_input:
@@ -539,9 +539,9 @@ routing_input:
     authority_required: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 11. Typed routing output
+## 11. Typed routing output
 
 ```yaml
 routing_output:
@@ -586,9 +586,9 @@ routing_output:
     UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 12. Routing state machine
+## 12. Routing state machine
 
 ```text
 UNROUTED
@@ -629,9 +629,9 @@ QUARANTINED
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 13. Core route invariants
+## 13. Core route invariants
 
 ## I-ROUTE-001 — Objective first
 
@@ -717,9 +717,9 @@ Similar-looking components are not interchangeable without compatibility evidenc
 
 ## I-ROUTE-020 — Route must expose invalidation conditions
 
----
+______________________________________________________________________
 
-# 14. Candidate discovery
+## 14. Candidate discovery
 
 Candidate sources may include:
 
@@ -744,9 +744,9 @@ DISCOVERED
 != SELECTED
 ```
 
----
+______________________________________________________________________
 
-# 15. Candidate filtering
+## 15. Candidate filtering
 
 Hard filters may include:
 
@@ -768,36 +768,28 @@ effect class
 
 A candidate failing a hard filter is removed before ranking.
 
----
+______________________________________________________________________
 
-# 16. Candidate ranking
+## 16. Candidate ranking
 
 Only after hard filtering may ranking occur.
 
 Candidate score may conceptually include:
 
-[
-Score(c)=
-w_sSpecificity+
-w_cCapability+
-w_hHMLFit+
-w_rRegimeFit+
-w_fFreshness+
-w_vValidation
--------------
+## \[ Score(c)= w_sSpecificity+ w_cCapability+ w_hHMLFit+ w_rRegimeFit+ w_fFreshness+ w_vValidation
 
 ## w_dDependencyCost
 
 w_kRisk
-]
+\]
 
 Weights remain `UNKNOWN/GAP`.
 
 No ranking score overrides a hard failure.
 
----
+______________________________________________________________________
 
-# 17. Specificity hierarchy
+## 17. Specificity hierarchy
 
 Provisional preference:
 
@@ -815,9 +807,9 @@ DEFAULT FALLBACK
 
 This should remain subordinate to actual policy/canon if recovered.
 
----
+______________________________________________________________________
 
-# 18. First-match prohibition
+## 18. First-match prohibition
 
 Bad routing:
 
@@ -839,9 +831,9 @@ discover
 → select
 ```
 
----
+______________________________________________________________________
 
-# 19. Explicit component routing
+## 19. Explicit component routing
 
 If a request explicitly names:
 
@@ -861,9 +853,9 @@ EXPLICIT_TARGET_NOT_FOUND
 
 not silently choose another component.
 
----
+______________________________________________________________________
 
-# 20. Default routing
+## 20. Default routing
 
 Default routing may occur only when:
 
@@ -875,9 +867,9 @@ AND default policy-permitted
 AND fallback allowed
 ```
 
----
+______________________________________________________________________
 
-# 21. No-route result
+## 21. No-route result
 
 `NO_ROUTE` is a valid outcome.
 
@@ -891,9 +883,9 @@ UNJUSTIFIED_ROUTE
 
 under AMOS integrity ordering.
 
----
+______________________________________________________________________
 
-# 22. H/M/L routing
+## 22. H/M/L routing
 
 AMOS routing should bind H/M/L relative to the current task.
 
@@ -938,9 +930,9 @@ specific schema
 specific evidence node
 ```
 
----
+______________________________________________________________________
 
-# 23. Recursive H/M/L routing
+## 23. Recursive H/M/L routing
 
 Each selected node may recursively decompose.
 
@@ -953,9 +945,9 @@ H
 
 The router should stop when further descent cannot materially change the answer or action.
 
----
+______________________________________________________________________
 
-# 24. Domain routing
+## 24. Domain routing
 
 Domain selection should be evidence-driven.
 
@@ -969,9 +961,9 @@ domain_route:
 
 Multiple domains may remain active when the task is genuinely cross-domain.
 
----
+______________________________________________________________________
 
-# 25. Cross-domain routing
+## 25. Cross-domain routing
 
 Cross-domain reasoning requires a firewall.
 
@@ -990,9 +982,9 @@ assumptions
 validation status
 ```
 
----
+______________________________________________________________________
 
-# 26. Mode routing
+## 26. Mode routing
 
 Mode routing chooses the operating/reasoning mode.
 
@@ -1019,9 +1011,9 @@ HANDOFF_CONTINUITY_MODES
 
 Existence of a folder does not imply valid mode semantics.
 
----
+______________________________________________________________________
 
-# 27. Mode binding contract
+## 27. Mode binding contract
 
 ```yaml
 mode_route:
@@ -1041,9 +1033,9 @@ mode_route:
     UNVALIDATED_BINDING
 ```
 
----
+______________________________________________________________________
 
-# 28. Mode conflict
+## 28. Mode conflict
 
 If multiple mutually exclusive modes are simultaneously required:
 
@@ -1053,9 +1045,9 @@ MODE_CONFLICT
 
 until a declared policy or discriminating requirement resolves the conflict.
 
----
+______________________________________________________________________
 
-# 29. Adaptive complexity routing
+## 29. Adaptive complexity routing
 
 AMOS complexity levels:
 
@@ -1087,9 +1079,9 @@ low trust
 explicit maximum-detail request
 ```
 
----
+______________________________________________________________________
 
-# 30. Agent routing
+## 30. Agent routing
 
 Agent routing answers:
 
@@ -1111,9 +1103,9 @@ agent_route:
 
 Agent selection does not grant execution authority.
 
----
+______________________________________________________________________
 
-# 31. Agent routing precedence
+## 31. Agent routing precedence
 
 Potential precedence:
 
@@ -1131,9 +1123,9 @@ fallback
 
 subject to compatibility and policy.
 
----
+______________________________________________________________________
 
-# 32. Agent routing failure
+## 32. Agent routing failure
 
 An explicit unknown Agent should fail closed.
 
@@ -1146,9 +1138,9 @@ unknown specialist
 
 which creates hidden semantic substitution.
 
----
+______________________________________________________________________
 
-# 33. Skill routing
+## 33. Skill routing
 
 Skill routing should match:
 
@@ -1164,9 +1156,9 @@ dependencies
 
 A Skill may expose capability but not authority.
 
----
+______________________________________________________________________
 
-# 34. Skill composition
+## 34. Skill composition
 
 If multiple Skills are required:
 
@@ -1178,22 +1170,20 @@ Skill B
 
 their invariant requirements should combine monotonically.
 
-[
-I_{combined}
-============
+## \[ I\_{combined}
 
 I_A
-\cup
+\\cup
 I_B
-\cup
-I_{policy}
-]
+\\cup
+I\_{policy}
+\]
 
 Routing must not drop stricter requirements.
 
----
+______________________________________________________________________
 
-# 35. Engine routing
+## 35. Engine routing
 
 Engine routing selects repeatable domain computation.
 
@@ -1210,9 +1200,9 @@ scope
 regime
 ```
 
----
+______________________________________________________________________
 
-# 36. Kernel routing
+## 36. Kernel routing
 
 Kernel selection should favor exact deterministic primitives.
 
@@ -1227,9 +1217,9 @@ invariant set
 side-effect classification
 ```
 
----
+______________________________________________________________________
 
-# 37. Worker routing
+## 37. Worker routing
 
 Worker routing has elevated burden because Workers may execute effects.
 
@@ -1247,9 +1237,9 @@ idempotency requirement
 
 Worker selection still does not authorize execution.
 
----
+______________________________________________________________________
 
-# 38. Agent → Worker firewall
+## 38. Agent → Worker firewall
 
 Hard AMOS separation:
 
@@ -1272,9 +1262,9 @@ Agent → Worker candidate path
 
 but the control plane must authorize the transition.
 
----
+______________________________________________________________________
 
-# 39. Validator routing
+## 39. Validator routing
 
 Validator routing should be validation-class-specific.
 
@@ -1293,9 +1283,9 @@ causal validation
 
 One validator should not silently substitute for another validation class.
 
----
+______________________________________________________________________
 
-# 40. Generator routing
+## 40. Generator routing
 
 Generator routing selects a generator based on:
 
@@ -1311,9 +1301,9 @@ dependencies
 
 A routed generator produces a candidate, not automatically a promoted artifact.
 
----
+______________________________________________________________________
 
-# 41. Workflow routing
+## 41. Workflow routing
 
 Distinguish:
 
@@ -1331,9 +1321,9 @@ Canonical workflows may have enforced transition graphs.
 
 Ad-hoc plans may remain event sequences validated per consequential event.
 
----
+______________________________________________________________________
 
-# 42. Event routing
+## 42. Event routing
 
 Event routing should bind:
 
@@ -1354,9 +1344,9 @@ EVENT RECEIVED
 != AUTHORITY GRANTED
 ```
 
----
+______________________________________________________________________
 
-# 43. Evidence routing
+## 43. Evidence routing
 
 Evidence selection should preserve epistemic type:
 
@@ -1371,22 +1361,22 @@ UNKNOWN
 
 Evidence routing must not silently treat all retrieved content as equivalent.
 
----
+______________________________________________________________________
 
-# 44. Provenance-aware evidence routing
+## 44. Provenance-aware evidence routing
 
-For evidence set \(E\):
+For evidence set (E):
 
-[
+\[
 Roots(E)=
-{root(e):e\in E}
-]
+{root(e):e\\in E}
+\]
 
 Independent support should count effective ancestry roots, not file count.
 
----
+______________________________________________________________________
 
-# 45. RSCF routing
+## 45. RSCF routing
 
 RSCF route traversal should focus on load-bearing premises.
 
@@ -1399,9 +1389,9 @@ claim
 
 Only open deeper evidence when it can alter the conclusion.
 
----
+______________________________________________________________________
 
-# 46. GMEF routing
+## 46. GMEF routing
 
 Governance-sensitive routes should enter GMEF/control paths when they involve:
 
@@ -1415,9 +1405,9 @@ irreversible effect
 finality
 ```
 
----
+______________________________________________________________________
 
-# 47. Dependency routing
+## 47. Dependency routing
 
 Dependencies must be classified:
 
@@ -1430,25 +1420,23 @@ COSMETIC
 
 Only load-bearing dependency failure should necessarily block the route.
 
----
+______________________________________________________________________
 
-# 48. Dependency closure
+## 48. Dependency closure
 
 Define:
 
-[
-Closure(R)
-==========
+## \[ Closure(R)
 
 {d:
-d\text{ can materially alter route validity}}
-]
+d\\text{ can materially alter route validity}}
+\]
 
 The router should establish this closure before fast-path reuse.
 
----
+______________________________________________________________________
 
-# 49. Dependency edge types
+## 49. Dependency edge types
 
 ```text
 REQUIRES
@@ -1462,9 +1450,9 @@ FALLBACK_FOR
 SUPERSEDES
 ```
 
----
+______________________________________________________________________
 
-# 50. Registry architecture
+## 50. Registry architecture
 
 `10_ROUTING` may depend on registries such as:
 
@@ -1484,9 +1472,9 @@ CELL_REGISTRY
 
 These registries remain dependencies, not automatic truth sources.
 
----
+______________________________________________________________________
 
-# 51. Registry entry contract
+## 51. Registry entry contract
 
 ```yaml
 registry_entry:
@@ -1501,9 +1489,9 @@ registry_entry:
   provenance: []
 ```
 
----
+______________________________________________________________________
 
-# 52. Registry validity
+## 52. Registry validity
 
 ```text
 REGISTERED
@@ -1518,9 +1506,9 @@ ACTIVE
 
 Routing should inspect status explicitly.
 
----
+______________________________________________________________________
 
-# 53. Registry freshness
+## 53. Registry freshness
 
 A route should capture:
 
@@ -1534,9 +1522,9 @@ registry_snapshot:
 
 A changed load-bearing registry may invalidate the route.
 
----
+______________________________________________________________________
 
-# 54. MVCC-style routing
+## 54. MVCC-style routing
 
 Conceptual AMOS pattern:
 
@@ -1565,9 +1553,9 @@ STALE_ROUTE
 
 where the changed state is load-bearing.
 
----
+______________________________________________________________________
 
-# 55. Route read set
+## 55. Route read set
 
 ```yaml
 route_read_set:
@@ -1593,9 +1581,9 @@ route_read_set:
     load_bearing: false
 ```
 
----
+______________________________________________________________________
 
-# 56. Route write set
+## 56. Route write set
 
 Routing itself should normally have minimal mutation.
 
@@ -1611,9 +1599,9 @@ route_write_set:
 
 World-effect mutation is outside the router.
 
----
+______________________________________________________________________
 
-# 57. Route cache
+## 57. Route cache
 
 A route may be cached only with explicit validity metadata.
 
@@ -1628,9 +1616,9 @@ cached_route:
   valid_until: null
 ```
 
----
+______________________________________________________________________
 
-# 58. Cache reuse gate
+## 58. Cache reuse gate
 
 Reuse requires:
 
@@ -1645,9 +1633,9 @@ freshness valid
 no new conflict
 ```
 
----
+______________________________________________________________________
 
-# 59. v4.4 proof-based coordination avoidance
+## 59. v4.4 proof-based coordination avoidance
 
 AMOS v4.4-style local routing reuse is appropriate only when local independence is established.
 
@@ -1672,9 +1660,9 @@ Otherwise escalate.
 
 This is a reasoning pattern; it does not claim the Markdown layer literally implements distributed coordination avoidance.
 
----
+______________________________________________________________________
 
-# 60. Route invalidation
+## 60. Route invalidation
 
 Invalidate a route when a load-bearing condition changes.
 
@@ -1693,9 +1681,9 @@ dependency failed
 security context changed
 ```
 
----
+______________________________________________________________________
 
-# 61. Selective invalidation
+## 61. Selective invalidation
 
 Do not invalidate unrelated routes.
 
@@ -1710,9 +1698,9 @@ Preserve routes using W2
 
 This follows the AMOS repair principle.
 
----
+______________________________________________________________________
 
-# 62. Fallback routing
+## 62. Fallback routing
 
 Fallback is a governed branch.
 
@@ -1725,9 +1713,9 @@ fallback_route:
   degraded_guarantees: []
 ```
 
----
+______________________________________________________________________
 
-# 63. Semantic fallback
+## 63. Semantic fallback
 
 A fallback may be:
 
@@ -1739,9 +1727,9 @@ DIFFERENT_SEMANTICS
 
 Only the first should be treated as transparent substitution.
 
----
+______________________________________________________________________
 
-# 64. Degraded routing
+## 64. Degraded routing
 
 When routing degrades, output should expose lost guarantees.
 
@@ -1758,9 +1746,9 @@ degraded_route:
     - domain-specific validation
 ```
 
----
+______________________________________________________________________
 
-# 65. Recovery routing
+## 65. Recovery routing
 
 Recovery paths may include:
 
@@ -1776,9 +1764,9 @@ no-action safe state
 
 Recovery path selection should itself obey routing rules.
 
----
+______________________________________________________________________
 
-# 66. Retry routing
+## 66. Retry routing
 
 Do not retry an identical failed route without changed conditions.
 
@@ -1793,9 +1781,9 @@ OR PolicyChanged
 OR TransientFailureResolved
 ```
 
----
+______________________________________________________________________
 
-# 67. Competing routes
+## 67. Competing routes
 
 If multiple routes have valid but incomparable support:
 
@@ -1816,9 +1804,9 @@ competing_routes:
     weaknesses: []
 ```
 
----
+______________________________________________________________________
 
-# 68. Route discrimination
+## 68. Route discrimination
 
 Prefer the cheapest high-information test that can distinguish competing routes.
 
@@ -1834,9 +1822,9 @@ check current registry
 
 before launching expensive multi-agent evaluation.
 
----
+______________________________________________________________________
 
-# 69. Scope firewall
+## 69. Scope firewall
 
 No routing outside validated scope without explicit revalidation.
 
@@ -1848,9 +1836,9 @@ scope B
 → UNKNOWN until compatibility established
 ```
 
----
+______________________________________________________________________
 
-# 70. Regime firewall
+## 70. Regime firewall
 
 A route can become invalid after regime change.
 
@@ -1863,9 +1851,9 @@ development → security-critical
 read-only → mutation
 ```
 
----
+______________________________________________________________________
 
-# 71. Freshness firewall
+## 71. Freshness firewall
 
 Freshness may apply separately to:
 
@@ -1881,9 +1869,9 @@ runtime state
 
 No single universal freshness duration should be invented.
 
----
+______________________________________________________________________
 
-# 72. Causal firewall
+## 72. Causal firewall
 
 Routing a causal question requires capabilities that can distinguish:
 
@@ -1899,9 +1887,9 @@ causal effect
 
 A generic analogy engine should not satisfy a causal question.
 
----
+______________________________________________________________________
 
-# 73. Authority firewall
+## 73. Authority firewall
 
 Routing may conclude:
 
@@ -1918,9 +1906,9 @@ ROUTE
 != GRANT
 ```
 
----
+______________________________________________________________________
 
-# 74. Policy routing
+## 74. Policy routing
 
 Requests with governance consequences should route through policy evaluation.
 
@@ -1937,9 +1925,9 @@ execute external effect
 → effect authority policy
 ```
 
----
+______________________________________________________________________
 
-# 75. Security routing
+## 75. Security routing
 
 Security-sensitive requests may require specialized routing to:
 
@@ -1952,9 +1940,9 @@ secret-safe handler
 
 Security capability cannot be inferred from general capability.
 
----
+______________________________________________________________________
 
-# 76. Privacy/data routing
+## 76. Privacy/data routing
 
 Data routing must respect access constraints.
 
@@ -1969,9 +1957,9 @@ authorized source
 != permitted for every purpose
 ```
 
----
+______________________________________________________________________
 
-# 77. Execution routing
+## 77. Execution routing
 
 Consequential actions require an effect-aware route.
 
@@ -1996,9 +1984,9 @@ Agent
 
 path should be treated as AMOS-governed durable execution unless the infrastructure contract explicitly mediates it.
 
----
+______________________________________________________________________
 
-# 78. Execution effect classes
+## 78. Execution effect classes
 
 Potential classes:
 
@@ -2015,9 +2003,9 @@ Required routing depth should scale accordingly.
 
 Exact classification remains provisional.
 
----
+______________________________________________________________________
 
-# 79. Worker-only durable effect rule
+## 79. Worker-only durable effect rule
 
 For durable effects:
 
@@ -2030,9 +2018,9 @@ Evidence returns
 
 The router may select the Worker but cannot grant the authority.
 
----
+______________________________________________________________________
 
-# 80. Event-bus relationship
+## 80. Event-bus relationship
 
 The Event Bus is a transport/coordination substrate.
 
@@ -2049,9 +2037,9 @@ event received
 != request authorized
 ```
 
----
+______________________________________________________________________
 
-# 81. Event route record
+## 81. Event route record
 
 ```yaml
 event_route:
@@ -2063,9 +2051,9 @@ event_route:
   authority_required: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 82. Routing event taxonomy
+## 82. Routing event taxonomy
 
 ```text
 ROUTING_REQUESTED
@@ -2087,9 +2075,9 @@ NO_ROUTE
 ROUTING_COMPLETED
 ```
 
----
+______________________________________________________________________
 
-# 83. Routing event envelope
+## 83. Routing event envelope
 
 ```yaml
 routing_event:
@@ -2106,9 +2094,9 @@ routing_event:
   timestamp: null
 ```
 
----
+______________________________________________________________________
 
-# 84. Binding subsystem relationship
+## 84. Binding subsystem relationship
 
 Detailed binding semantics belong in:
 
@@ -2128,9 +2116,9 @@ BINDING
 
 The README should reference, not duplicate, the entire sibling contract.
 
----
+______________________________________________________________________
 
-# 85. Binding validation
+## 85. Binding validation
 
 A route is not complete until load-bearing bindings are valid enough.
 
@@ -2156,9 +2144,9 @@ worker compatibility
 effect classification
 ```
 
----
+______________________________________________________________________
 
-# 86. Relationship to 11_VALIDATION
+## 86. Relationship to 11_VALIDATION
 
 ```text
 ROUTING
@@ -2172,9 +2160,9 @@ VALIDATION
 
 `10_ROUTING` does not self-certify.
 
----
+______________________________________________________________________
 
-# 87. Relationship to Promotion Gates
+## 87. Relationship to Promotion Gates
 
 ```text
 route selected
@@ -2189,9 +2177,9 @@ ROUTABLE
 != PROMOTABLE
 ```
 
----
+______________________________________________________________________
 
-# 88. Relationship to 12_GENERATORS
+## 88. Relationship to 12_GENERATORS
 
 Routing may select an appropriate generator.
 
@@ -2203,9 +2191,9 @@ request
 
 Generator output then passes Validation and Promotion Gates.
 
----
+______________________________________________________________________
 
-# 89. Relationship to Cognitive Matrix cells
+## 89. Relationship to Cognitive Matrix cells
 
 A cell route may require:
 
@@ -2221,9 +2209,9 @@ provenance
 
 A cell that is merely addressable is not necessarily valid.
 
----
+______________________________________________________________________
 
-# 90. Cell routing status
+## 90. Cell routing status
 
 ```yaml
 cell_route:
@@ -2234,9 +2222,9 @@ cell_route:
   validation_status: NOT_CELL_VALIDATED
 ```
 
----
+______________________________________________________________________
 
-# 91. Routing protocols
+## 91. Routing protocols
 
 Potential protocols:
 
@@ -2255,9 +2243,9 @@ route replay protocol
 
 Exact protocols remain `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
-# 92. Routing agents
+## 92. Routing agents
 
 Possible provisional roles:
 
@@ -2295,9 +2283,9 @@ Preserves competing routes.
 
 All remain non-authoritative.
 
----
+______________________________________________________________________
 
-# 93. Routing Skills
+## 93. Routing Skills
 
 Potential Skills:
 
@@ -2322,9 +2310,9 @@ compare-routes
 invalidate-route
 ```
 
----
+______________________________________________________________________
 
-# 94. Routing engines
+## 94. Routing engines
 
 Potential engine layer:
 
@@ -2339,9 +2327,9 @@ Conflict Routing Engine
 Route Reuse Engine
 ```
 
----
+______________________________________________________________________
 
-# 95. Routing kernels
+## 95. Routing kernels
 
 Possible deterministic primitives:
 
@@ -2362,9 +2350,9 @@ detect_ambiguity()
 compare_registry_version()
 ```
 
----
+______________________________________________________________________
 
-# 96. Routing protocols and workers
+## 96. Routing protocols and workers
 
 Most routing itself should be read/select behavior.
 
@@ -2379,9 +2367,9 @@ Worker
 → performs bounded operation
 ```
 
----
+______________________________________________________________________
 
-# 97. Route observability
+## 97. Route observability
 
 A route trace should allow reconstruction of:
 
@@ -2401,23 +2389,23 @@ fallback
 invalidation conditions
 ```
 
----
+______________________________________________________________________
 
-# 98. Route replay
+## 98. Route replay
 
 For deterministic routing under unchanged context:
 
-[
+\[
 Same(Request,Registry,Policy,Mode,Context)
-\Rightarrow
+\\Rightarrow
 Same(Route)
-]
+\]
 
 unless nondeterminism is explicitly part of the routing contract.
 
----
+______________________________________________________________________
 
-# 99. Route receipt
+## 99. Route receipt
 
 ```yaml
 route_receipt:
@@ -2449,9 +2437,9 @@ route_receipt:
   valid_until: null
 ```
 
----
+______________________________________________________________________
 
-# 100. Route receipt semantics
+## 100. Route receipt semantics
 
 A route receipt proves only:
 
@@ -2467,9 +2455,9 @@ canon validity
 finality
 ```
 
----
+______________________________________________________________________
 
-# 101. Route metrics
+## 101. Route metrics
 
 Potential operational metrics:
 
@@ -2490,9 +2478,9 @@ mean_route_latency
 
 Operational metrics are not correctness proof.
 
----
+______________________________________________________________________
 
-# 102. Route quality
+## 102. Route quality
 
 Potential quality dimensions:
 
@@ -2507,9 +2495,9 @@ route_quality:
   fallback_quality: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 103. Routing uncertainty vector
+## 103. Routing uncertainty vector
 
 ```yaml
 routing_uncertainty:
@@ -2529,9 +2517,9 @@ routing_uncertainty:
 
 The router should spend effort only where reducing uncertainty can change the route.
 
----
+______________________________________________________________________
 
-# 104. Sensitivity
+## 104. Sensitivity
 
 Identify the smallest condition that changes the selected route.
 
@@ -2556,9 +2544,9 @@ regime shifts
 
 Fragile routes should be labeled `CONDITIONAL`.
 
----
+______________________________________________________________________
 
-# 105. Failure modes
+## 105. Failure modes
 
 ```yaml
 failure_modes:
@@ -2644,9 +2632,9 @@ failure_modes:
     description: route descends before H/M scope is established
 ```
 
----
+______________________________________________________________________
 
-# 106. Recovery architecture
+## 106. Recovery architecture
 
 ```text
 ROUTE FAILURE
@@ -2666,9 +2654,9 @@ REBIND
 
 Global rerouting is last resort.
 
----
+______________________________________________________________________
 
-# 107. Route repair
+## 107. Route repair
 
 Repair should distinguish:
 
@@ -2688,9 +2676,9 @@ RESET
 
 Use the least disruptive sufficient operation.
 
----
+______________________________________________________________________
 
-# 108. Test taxonomy
+## 108. Test taxonomy
 
 Routing tests should include:
 
@@ -2725,9 +2713,9 @@ recovery
 security
 ```
 
----
+______________________________________________________________________
 
-# 109. Constitutional routing tests
+## 109. Constitutional routing tests
 
 ```text
 T-ROUTE-001
@@ -2792,9 +2780,9 @@ load-bearing dependency changes
 → dependent route invalidated only
 ```
 
----
+______________________________________________________________________
 
-# 110. Adversarial routing tests
+## 110. Adversarial routing tests
 
 Inject:
 
@@ -2814,9 +2802,9 @@ hidden fallback
 
 The router should fail closed or preserve ambiguity.
 
----
+______________________________________________________________________
 
-# 111. Security tests
+## 111. Security tests
 
 Potential security routing tests:
 
@@ -2832,9 +2820,9 @@ event-handler spoofing
 
 Exact controls remain implementation gaps.
 
----
+______________________________________________________________________
 
-# 112. Falsifiers
+## 112. Falsifiers
 
 This placeholder is falsifiable.
 
@@ -2860,9 +2848,9 @@ Binding is canonically defined as part of another subsystem rather than 10_ROUTI
 
 Successful falsifier requires revision or supersession.
 
----
+______________________________________________________________________
 
-# 113. Evidence / provenance contract
+## 113. Evidence / provenance contract
 
 ```yaml
 evidence_provenance:
@@ -2886,9 +2874,9 @@ evidence_provenance:
 
 No implementation claims should be promoted while these remain missing.
 
----
+______________________________________________________________________
 
-# 114. Source/canon relation
+## 114. Source/canon relation
 
 Potential relevant AMOS concepts include:
 
@@ -2910,9 +2898,9 @@ These concepts can shape the placeholder.
 
 They do not prove this exact routing subsystem has been implemented.
 
----
+______________________________________________________________________
 
-# 115. Control-plane boundary
+## 115. Control-plane boundary
 
 Routing is below effect authority.
 
@@ -2932,9 +2920,9 @@ Worker
 
 This separation should remain invariant across Agent, Skill, Engine, Kernel, Workflow, and Event-Bus paths.
 
----
+______________________________________________________________________
 
-# 116. Routing and canon
+## 116. Routing and canon
 
 A routing rule may be canonical only after governance.
 
@@ -2947,9 +2935,9 @@ routing proposal
 
 README presence alone does not establish canon.
 
----
+______________________________________________________________________
 
-# 117. Routing and policy
+## 117. Routing and policy
 
 Policy may constrain:
 
@@ -2965,9 +2953,9 @@ worker routing
 
 Policy epoch should become a load-bearing route dependency where applicable.
 
----
+______________________________________________________________________
 
-# 118. Routing and finality
+## 118. Routing and finality
 
 Routing should generally occur well before finality.
 
@@ -2978,9 +2966,9 @@ route finalized
 != external effect finalized
 ```
 
----
+______________________________________________________________________
 
-# 119. RSCF routing capsule
+## 119. RSCF routing capsule
 
 ```yaml
 rscf:
@@ -3049,9 +3037,9 @@ rscf:
     PLACEHOLDER
 ```
 
----
+______________________________________________________________________
 
-# 120. GMEF routing capsule
+## 120. GMEF routing capsule
 
 ```yaml
 gmef:
@@ -3106,9 +3094,9 @@ gmef:
     UNFINALIZED
 ```
 
----
+______________________________________________________________________
 
-# 121. Routing proof capsule
+## 121. Routing proof capsule
 
 ```yaml
 proof_capsule:
@@ -3150,9 +3138,9 @@ proof_capsule:
     - dependency invalidated
 ```
 
----
+______________________________________________________________________
 
-# 122. Related artifacts
+## 122. Related artifacts
 
 ```yaml
 related:
@@ -3211,9 +3199,9 @@ related:
     UNVERIFIED
 ```
 
----
+______________________________________________________________________
 
-# 123. Related relation types
+## 123. Related relation types
 
 ```text
 PARENT_OF
@@ -3235,9 +3223,9 @@ SUPERSEDES
 SUPERSEDED_BY
 ```
 
----
+______________________________________________________________________
 
-# 124. Related tag ontology
+## 124. Related tag ontology
 
 ```text
 Identity:
@@ -3325,9 +3313,9 @@ Recovery:
 #Replay
 ```
 
----
+______________________________________________________________________
 
-# 125. Required completion field status
+## 125. Required completion field status
 
 ```yaml
 completion_status:
@@ -3433,9 +3421,9 @@ completion_status:
     status: NOT_RUN
 ```
 
----
+______________________________________________________________________
 
-# 126. Gap registry
+## 126. Gap registry
 
 ```yaml
 gaps:
@@ -3469,9 +3457,9 @@ gaps:
     - README formatting
 ```
 
----
+______________________________________________________________________
 
-# 127. Hard boundaries
+## 127. Hard boundaries
 
 ```text
 PLACEHOLDER != IMPLEMENTED
@@ -3521,9 +3509,9 @@ STALE != CURRENT
 ROUTE_VALID != OUTPUT_TRUE
 ```
 
----
+______________________________________________________________________
 
-# 128. Current decision
+## 128. Current decision
 
 ```yaml
 decision:
@@ -3563,9 +3551,9 @@ decision:
     - claim route success proves output correctness
 ```
 
----
+______________________________________________________________________
 
-# 129. Final RSCF summary
+## 129. Final RSCF summary
 
 **Claim**
 
@@ -3658,23 +3646,27 @@ UNBOUND
 
 ```
 ```
----
+
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: routing_cognitive_matrix_readme
 node_type: note
 path: 25_COGNITIVE_MATRIX/10_ROUTING/ROUTING_COGNITIVE_MATRIX_README.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/10_ROUTING/10_ROUTING_MOC|10_ROUTING_MOC]]
-

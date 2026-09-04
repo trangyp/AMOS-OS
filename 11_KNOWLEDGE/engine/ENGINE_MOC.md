@@ -1,115 +1,118 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Engine MOC
 type: moc
 source: 11_KNOWLEDGE/engine
 tags:
-- engine
-- canon/knowledge
-- 3-spicies-interaction-engine-hie-uiface
-- amos-7pt-canon-migration-engine
-- amos-academic-writing-engine-vinfinity
-- amos-audit-quality-engine-v0
-- amos-audit-quality-engine-v0-domains7
-- amos-academic-writing-kernal-engine-v0-sub2
-- amos-australia-economy-engine-v0-unipower4
-- amos-australia-engines-model
-- amos-australia-workforce-engine-v0-unipower4
-- amos-automation-engine-layer
-- amos-automation-engine-v1-0-0
-- amos-behavior-engine-canonical-v0
-- amos-bei-engine-v0-ubi7
-- amos-bizfin-engine-v0-sector-packs7
-- amos-bod-engine-v0-unipower4
-- amos-business-finance-super-engine
-- amos-change-management-engine-v0-governance-risk
-- amos-chart-engine
-- amos-china-engines-model
-- amos-chinese-legal-ecosystem-engine-v0-unipower4
-- amos-chinese-legal-engine-v0-unipower4
-- amos-coding-engine
-- amos-coding-engine-300-full
-- amos-coding-engine-gpt
-- amos-coding-engine-layer
-- amos-cognition-engine-canonical-v0
-- amos-cognition-engine-layer
-- amos-cognition-engine-v0-core7
-- amos-cognition-engine-vinfinity
-- amos-consciousness-engine-layer
-- amos-consciousness-engine-v0-core7
-- amos-consciousness-engine-vinfinity
-- amos-consulting-amos-invest-amos-canon-tech-engine
-- amos-consulting-bizfin-engine-vinfinity
-- amos-consulting-super-engine
-- amos-continuation-engine
-- amos-corp-doc-engine-vinfinity
-- amos-crisis-management-engine-v0-governance-risk
-- amos-data-engineering-kernel-v0-tech
-- amos-design-engine-v0-tech7
-- amos-design-engine-vinfinity-max
-- amos-design-language-engine-layer
-- amos-documentation-engine-layer
-- amos-domain-engines
-- amos-electrical-power-engine-layer
-- amos-emotion-engine-canonical-v0
-- amos-emotion-engine-layer
-- amos-emotion-engine-v0-core7
-- amos-emotion-engine-vinfinity
-- amos-engine
-- amos-engine-formal
-- amos-engine-practical
-- amos-ev-infrastructure-agents-super-engine-x100k
-- amos-fabrication-engine-v0
-- amos-forex-signal-ukr-engine
-- amos-fx-engine
-- amos-global-legal-engine-v0-unipower4
-- amos-governance-economy-engine-vinfinity
-- amos-gov-engine-v0-sector-packs7
-- amos-hie-human-interaction-engine
-- amos-human-engine-v0-sector-packs7
-- amos-human-intelligence-engine-v0-core7
-- amos-legal-engine-layer
-- amos-legal-super-engine-vinfinity
-- amos-logic-core-engine
-- amos-logic-core-engine-v0-logic
-- amos-mechanical-structural-engine-layer
-- amos-meta-engines-index-vinfinity
-- amos-ml-engineering-kernel-v0-tech
-- amos-monogram-engine-v0-dsc4
-- amos-monogram-kernal-engine-v0-dsc4
-- amos-nbi-engine-v0-ubi7
-- amos-nei-engine-v0-ubi7
-- amos-numerical-methods-engine-layer
-- amos-omni-factory-engine
-- amos-org-governance-engine-layer
-- amos-org-governance-engine-v0-governance-risk7
-- amos-org-governance-engine-vinfinity
-- amos-personality-engine-canonical-v0
-- amos-personality-engine-layer
-- amos-personality-engine-v0-core7
-- amos-personality-engine-vinfinity
-- amos-physics-cosmos-engine-layer
-- amos-policy-design-engine-v0-governance-risk
-- amos-policy-geostrategy-engine-vinfinity
-- amos-risk-compliance-engine-layer
-- amos-risk-compliance-engine-v0-org-risk-policy7-2
-- amos-risk-compliance-engine-vinfinity
-- amos-science-engine-v0-sector-packs7
-- amos-scientific-engine-v0-unipower4
-- amos-scientific-engine-vinfinity
-- amos-si-engine-v0-ubi7
-- amos-species-interaction-core-engine
-- amos-species-interaction-core-engine-v0-domains7
-- amos-speed-engine-v0-root
-- amos-strategic-document-engine-v0-unipower4
-- amos-super-code-engine-v1-6-0
-- amos-super-consciousness-engine
-- amos-super-consciousness-engine-vinfinity-max-h3
-- amos-engines-master
-- amos-super-engine-v1-0-0
-- amos-super-engine-vomni-x1000
-- amos-super-factory-engine-v2-0-0
-- amos-super-kernel-and-engine
-- amos-systems-core-engine
+  - engine
+  - canon/knowledge
+  - 3-spicies-interaction-engine-hie-uiface
+  - amos-7pt-canon-migration-engine
+  - amos-academic-writing-engine-vinfinity
+  - amos-audit-quality-engine-v0
+  - amos-audit-quality-engine-v0-domains7
+  - amos-academic-writing-kernal-engine-v0-sub2
+  - amos-australia-economy-engine-v0-unipower4
+  - amos-australia-engines-model
+  - amos-australia-workforce-engine-v0-unipower4
+  - amos-automation-engine-layer
+  - amos-automation-engine-v1-0-0
+  - amos-behavior-engine-canonical-v0
+  - amos-bei-engine-v0-ubi7
+  - amos-bizfin-engine-v0-sector-packs7
+  - amos-bod-engine-v0-unipower4
+  - amos-business-finance-super-engine
+  - amos-change-management-engine-v0-governance-risk
+  - amos-chart-engine
+  - amos-china-engines-model
+  - amos-chinese-legal-ecosystem-engine-v0-unipower4
+  - amos-chinese-legal-engine-v0-unipower4
+  - amos-coding-engine
+  - amos-coding-engine-300-full
+  - amos-coding-engine-gpt
+  - amos-coding-engine-layer
+  - amos-cognition-engine-canonical-v0
+  - amos-cognition-engine-layer
+  - amos-cognition-engine-v0-core7
+  - amos-cognition-engine-vinfinity
+  - amos-consciousness-engine-layer
+  - amos-consciousness-engine-v0-core7
+  - amos-consciousness-engine-vinfinity
+  - amos-consulting-amos-invest-amos-canon-tech-engine
+  - amos-consulting-bizfin-engine-vinfinity
+  - amos-consulting-super-engine
+  - amos-continuation-engine
+  - amos-corp-doc-engine-vinfinity
+  - amos-crisis-management-engine-v0-governance-risk
+  - amos-data-engineering-kernel-v0-tech
+  - amos-design-engine-v0-tech7
+  - amos-design-engine-vinfinity-max
+  - amos-design-language-engine-layer
+  - amos-documentation-engine-layer
+  - amos-domain-engines
+  - amos-electrical-power-engine-layer
+  - amos-emotion-engine-canonical-v0
+  - amos-emotion-engine-layer
+  - amos-emotion-engine-v0-core7
+  - amos-emotion-engine-vinfinity
+  - amos-engine
+  - amos-engine-formal
+  - amos-engine-practical
+  - amos-ev-infrastructure-agents-super-engine-x100k
+  - amos-fabrication-engine-v0
+  - amos-forex-signal-ukr-engine
+  - amos-fx-engine
+  - amos-global-legal-engine-v0-unipower4
+  - amos-governance-economy-engine-vinfinity
+  - amos-gov-engine-v0-sector-packs7
+  - amos-hie-human-interaction-engine
+  - amos-human-engine-v0-sector-packs7
+  - amos-human-intelligence-engine-v0-core7
+  - amos-legal-engine-layer
+  - amos-legal-super-engine-vinfinity
+  - amos-logic-core-engine
+  - amos-logic-core-engine-v0-logic
+  - amos-mechanical-structural-engine-layer
+  - amos-meta-engines-index-vinfinity
+  - amos-ml-engineering-kernel-v0-tech
+  - amos-monogram-engine-v0-dsc4
+  - amos-monogram-kernal-engine-v0-dsc4
+  - amos-nbi-engine-v0-ubi7
+  - amos-nei-engine-v0-ubi7
+  - amos-numerical-methods-engine-layer
+  - amos-omni-factory-engine
+  - amos-org-governance-engine-layer
+  - amos-org-governance-engine-v0-governance-risk7
+  - amos-org-governance-engine-vinfinity
+  - amos-personality-engine-canonical-v0
+  - amos-personality-engine-layer
+  - amos-personality-engine-v0-core7
+  - amos-personality-engine-vinfinity
+  - amos-physics-cosmos-engine-layer
+  - amos-policy-design-engine-v0-governance-risk
+  - amos-policy-geostrategy-engine-vinfinity
+  - amos-risk-compliance-engine-layer
+  - amos-risk-compliance-engine-v0-org-risk-policy7-2
+  - amos-risk-compliance-engine-vinfinity
+  - amos-science-engine-v0-sector-packs7
+  - amos-scientific-engine-v0-unipower4
+  - amos-scientific-engine-vinfinity
+  - amos-si-engine-v0-ubi7
+  - amos-species-interaction-core-engine
+  - amos-species-interaction-core-engine-v0-domains7
+  - amos-speed-engine-v0-root
+  - amos-strategic-document-engine-v0-unipower4
+  - amos-super-code-engine-v1-6-0
+  - amos-super-consciousness-engine
+  - amos-super-consciousness-engine-vinfinity-max-h3
+  - amos-engines-master
+  - amos-super-engine-v1-0-0
+  - amos-super-engine-vomni-x1000
+  - amos-super-factory-engine-v2-0-0
+  - amos-super-kernel-and-engine
+  - amos-systems-core-engine
 moc: true
 rscf:
   state: AMOS_MODEL
@@ -346,5 +349,6 @@ rscf:
 - [[11_KNOWLEDGE/engine/VN_LEGAL_ENGINE|VN_LEGAL_ENGINE]]
 - [[11_KNOWLEDGE/engine/VN_LEGAL_ENGINE|VN_LEGAL_ENGINE_MAX_STANDARD]]
 
----
+______________________________________________________________________
+
 **Parent:** [[11_KNOWLEDGE/11_KNOWLEDGE_MOC|11_KNOWLEDGE_MOC]]

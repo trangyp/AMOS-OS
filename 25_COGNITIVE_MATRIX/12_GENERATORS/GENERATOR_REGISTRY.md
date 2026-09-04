@@ -1,4 +1,7 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: GENERATOR REGISTRY
 type: note
 source: 25_COGNITIVE_MATRIX/12_GENERATORS
@@ -6,29 +9,25 @@ rscf:
   state: SOURCE_CLAIM
   class: STRUCTURAL
   provenance:
-  - internal
+    - internal
   freshness: EVERGREEN
   falsifiers: []
 tags:
-- note
-- 12-generators
-- readme
-- generator-output
-- generator-falsification
-- generator-promotion
-- task-resolver
-- capability-resolver
-- mode-admission-queue
-- mode-coverage-matrix
-- mode-dependency-graph
+  - note
+  - 12-generators
+  - readme
+  - generator-output
+  - generator-falsification
+  - generator-promotion
+  - task-resolver
+  - capability-resolver
+  - mode-admission-queue
+  - mode-coverage-matrix
+  - mode-dependency-graph
 canon-group: canon/cognitive-matrix
 ---
 
----title: "GENERATOR REGISTRY"
-type: document
-tags: [note]
----
-
+## ---title: "GENERATOR REGISTRY" type: document tags: [note]
 
 # Generator Registry
 
@@ -44,9 +43,9 @@ tags: [note]
 **Empirical Validation Status:** NOT ESTABLISHED BY THIS DOCUMENT
 **Final Canon Status:** NOT ESTABLISHED BY THIS DOCUMENT
 
----
+______________________________________________________________________
 
-# 0. Registry Declaration
+## 0. Registry Declaration
 
 The Generator Registry is the governed AMOS OS index of recognized generator identities, versions, contracts, capabilities, dependencies, lifecycle states, provenance, validation state, promotion state, compatibility envelopes, constraints, and resolution metadata.
 
@@ -95,40 +94,40 @@ $$\boxed{ Registered \neq Validated \neq Promoted \neq Selected \neq Executed \n
 
 No registry entry acquires stronger epistemic or operational status merely by existing in the registry.
 
----
+______________________________________________________________________
 
-# 1. Purpose
+## 1. Purpose
 
 The Generator Registry exists to provide a deterministic, provenance-aware and inspectable generator namespace for AMOS.
 
 Its responsibilities include:
 
 1. uniquely identifying generators;
-2. distinguishing generator families from versions;
-3. preserving generator lineage;
-4. binding generators to contracts;
-5. recording generator capabilities;
-6. recording task compatibility;
-7. recording mode compatibility;
-8. representing dependencies;
-9. representing conflicts;
-10. representing compositions;
-11. preserving provenance;
-12. preserving validation state;
-13. preserving falsification state;
-14. preserving promotion state;
-15. preserving supersession;
-16. representing scope and regime;
-17. representing freshness;
-18. exposing resolution metadata;
-19. preventing ambiguous generator selection;
-20. preventing stale or invalidated generators from silently resolving;
-21. preserving historical generator identities;
-22. supporting targeted invalidation and rollback.
+1. distinguishing generator families from versions;
+1. preserving generator lineage;
+1. binding generators to contracts;
+1. recording generator capabilities;
+1. recording task compatibility;
+1. recording mode compatibility;
+1. representing dependencies;
+1. representing conflicts;
+1. representing compositions;
+1. preserving provenance;
+1. preserving validation state;
+1. preserving falsification state;
+1. preserving promotion state;
+1. preserving supersession;
+1. representing scope and regime;
+1. representing freshness;
+1. exposing resolution metadata;
+1. preventing ambiguous generator selection;
+1. preventing stale or invalidated generators from silently resolving;
+1. preserving historical generator identities;
+1. supporting targeted invalidation and rollback.
 
----
+______________________________________________________________________
 
-# 2. Registry Non-Goals
+## 2. Registry Non-Goals
 
 The registry does **not** itself prove:
 
@@ -156,9 +155,9 @@ and:
 
 $$Entry(G) \not\Rightarrow Executable(G)$$
 
----
+______________________________________________________________________
 
-# 3. Core Registry Law
+## 3. Core Registry Law
 
 For generator $G$:
 
@@ -168,9 +167,9 @@ subject to applicable constraints.
 
 A registry record is valid only to the extent that its load-bearing fields are valid.
 
----
+______________________________________________________________________
 
-# 4. Registry Identity Law
+## 4. Registry Identity Law
 
 Every generator MUST have a stable generator identifier.
 
@@ -196,9 +195,9 @@ best_counterfactual_generator_2026
 
 Identity must survive ordinary version evolution.
 
----
+______________________________________________________________________
 
-# 5. Generator Family vs Generator Version
+## 5. Generator Family vs Generator Version
 
 AMOS distinguishes:
 
@@ -224,9 +223,9 @@ version: 4.4.0
 
 A new version does not require a new conceptual family unless the identity boundary itself changes.
 
----
+______________________________________________________________________
 
-# 6. Registry Key
+## 6. Registry Key
 
 A fully qualified generator registry key SHOULD conceptually bind:
 
@@ -253,9 +252,9 @@ HASH_STATUS = UNKNOWN
 
 not fabricated.
 
----
+______________________________________________________________________
 
-# 7. Identity Envelope
+## 7. Identity Envelope
 
 A generator entry SHOULD support:
 
@@ -282,9 +281,9 @@ identity:
 
 Aliases MUST NOT create independent generator identities.
 
----
+______________________________________________________________________
 
-# 8. Alias Law
+## 8. Alias Law
 
 If:
 
@@ -310,9 +309,9 @@ capability counting
 validation counting
 ```
 
----
+______________________________________________________________________
 
-# 9. Registry Entry Classes
+## 9. Registry Entry Classes
 
 Entries MAY represent:
 
@@ -331,9 +330,9 @@ The entry class MUST be explicit.
 
 A wrapper around a generator is not automatically identical to the underlying generator.
 
----
+______________________________________________________________________
 
-# 10. Lifecycle State
+## 10. Lifecycle State
 
 Each generator SHOULD expose a lifecycle state.
 
@@ -361,9 +360,9 @@ RETIRED
 
 The registry MUST distinguish lifecycle state from epistemic claim class.
 
----
+______________________________________________________________________
 
-# 11. Registry State Machine
+## 11. Registry State Machine
 
 Conceptually:
 
@@ -403,9 +402,9 @@ DEPRECATED ─► RETIRED
 
 Transitions require the applicable governance process.
 
----
+______________________________________________________________________
 
-# 12. Registration
+## 12. Registration
 
 Registration means:
 
@@ -425,9 +424,9 @@ lifecycle state
 
 Registration alone establishes no performance claim.
 
----
+______________________________________________________________________
 
-# 13. Registry Admission
+## 13. Registry Admission
 
 An entry SHOULD NOT become operationally admissible merely because it is registered.
 
@@ -448,9 +447,9 @@ $$Admissible = Registered \land VersionValid \land ContractCompatible \land Capa
 
 plus task-specific governance.
 
----
+______________________________________________________________________
 
-# 14. Generator Contract Binding
+## 14. Generator Contract Binding
 
 Every operational generator SHOULD bind to an applicable Generator Contract.
 
@@ -476,9 +475,9 @@ INVALIDATED
 
 `UNKNOWN` and `UNASSESSED` MUST NOT be silently converted to `COMPLIANT`.
 
----
+______________________________________________________________________
 
-# 15. Output Contract Binding
+## 15. Output Contract Binding
 
 A registry entry SHOULD identify its applicable output contract.
 
@@ -504,9 +503,9 @@ uncertainty
 falsifiers
 ```
 
----
+______________________________________________________________________
 
-# 16. Generator Purpose
+## 16. Generator Purpose
 
 Each generator SHOULD declare its intended purpose.
 
@@ -523,9 +522,9 @@ Purpose is descriptive.
 
 It does not itself authorize use.
 
----
+______________________________________________________________________
 
-# 17. Capability Declaration
+## 17. Capability Declaration
 
 A generator MAY declare capabilities.
 
@@ -553,9 +552,9 @@ SOURCE_CLAIM
 
 until independently established.
 
----
+______________________________________________________________________
 
-# 18. Capability State
+## 18. Capability State
 
 Capability claims SHOULD have state.
 
@@ -579,9 +578,9 @@ Thus:
 
 $$DeclaredCapability \neq ValidatedCapability$$
 
----
+______________________________________________________________________
 
-# 19. Task Compatibility
+## 19. Task Compatibility
 
 The registry SHOULD identify task classes for which a generator is:
 
@@ -605,9 +604,9 @@ task_compatibility:
     state: INCOMPATIBLE
 ```
 
----
+______________________________________________________________________
 
-# 20. Mode Compatibility
+## 20. Mode Compatibility
 
 Generator admissibility MAY depend on AMOS mode.
 
@@ -631,9 +630,9 @@ MODE_COVERAGE_MATRIX
 MODE_DEPENDENCY_GRAPH
 ```
 
----
+______________________________________________________________________
 
-# 21. Capability Resolver Integration
+## 21. Capability Resolver Integration
 
 The Capability Resolver SHOULD be able to query the registry for:
 
@@ -653,9 +652,9 @@ $$Candidates(C) = \{G \mid Provides(G,C)\}$$
 
 followed by admissibility filtering.
 
----
+______________________________________________________________________
 
-# 22. Task Resolver Integration
+## 22. Task Resolver Integration
 
 The Task Resolver SHOULD NOT select a generator from name similarity alone.
 
@@ -692,9 +691,9 @@ COMPETING CANDIDATES
 SELECTION / COMPETING / GAP
 ```
 
----
+______________________________________________________________________
 
-# 23. Resolution Is Not Registry Mutation
+## 23. Resolution Is Not Registry Mutation
 
 Selecting generator $G$ for a task does not automatically modify $G$'s registry status.
 
@@ -706,9 +705,9 @@ $$SuccessfulRun(G,T) \not\Rightarrow Validated(G)$$
 
 Evidence from execution MAY later enter an appropriate validation process.
 
----
+______________________________________________________________________
 
-# 24. Scope Envelope
+## 24. Scope Envelope
 
 Every material generator claim SHOULD inherit a scope.
 
@@ -729,9 +728,9 @@ scope:
 
 A generator validated under $S_1$ is not automatically validated under $S_2$.
 
----
+______________________________________________________________________
 
-# 25. Regime Envelope
+## 25. Regime Envelope
 
 A generator SHOULD identify regime dependencies.
 
@@ -749,9 +748,9 @@ regime:
 
 Material regime changes may invalidate prior generator conclusions.
 
----
+______________________________________________________________________
 
-# 26. Freshness
+## 26. Freshness
 
 Registry entries SHOULD carry temporal state.
 
@@ -767,9 +766,9 @@ freshness:
 
 A registry record can remain historically valid while its operational evidence becomes stale.
 
----
+______________________________________________________________________
 
-# 27. Provenance
+## 27. Provenance
 
 Every generator SHOULD preserve provenance sufficient to reconstruct its origin and lifecycle.
 
@@ -788,9 +787,9 @@ provenance:
 
 Missing provenance MUST remain visible.
 
----
+______________________________________________________________________
 
-# 28. Provenance Topology
+## 28. Provenance Topology
 
 The registry SHOULD represent ancestry rather than only flat source lists.
 
@@ -808,9 +807,9 @@ SOURCE B ──► GENERATOR G3
 
 This matters when comparing apparently independent generators.
 
----
+______________________________________________________________________
 
-# 29. Sybil Hardening
+## 29. Sybil Hardening
 
 If:
 
@@ -826,9 +825,9 @@ Three registry entries do not necessarily imply three independent generators.
 
 $$EntryCount \neq IndependentGeneratorCount$$
 
----
+______________________________________________________________________
 
-# 30. Dependency Declaration
+## 30. Dependency Declaration
 
 Generators SHOULD declare dependencies.
 
@@ -849,9 +848,9 @@ dependencies:
 
 Dependencies SHOULD be typed.
 
----
+______________________________________________________________________
 
-# 31. Dependency Types
+## 31. Dependency Types
 
 Useful dependency classes include:
 
@@ -871,9 +870,9 @@ GENERATOR
 
 A hard dependency failure can invalidate generator admissibility.
 
----
+______________________________________________________________________
 
-# 32. Dependency Graph
+## 32. Dependency Graph
 
 The registry SHOULD support generator dependency topology.
 
@@ -890,9 +889,9 @@ $$D(G) = D_{direct}(G) \cup D_{material-transitive}(G)$$
 
 Only material dependency closure needs to be traversed for a given decision.
 
----
+______________________________________________________________________
 
-# 33. Dependency Cycles
+## 33. Dependency Cycles
 
 Generator cycles MUST be detectable.
 
@@ -912,9 +911,9 @@ UNKNOWN/GAP
 
 or block resolution.
 
----
+______________________________________________________________________
 
-# 34. Conflict Registry
+## 34. Conflict Registry
 
 Generator conflicts SHOULD be explicit.
 
@@ -940,9 +939,9 @@ REGIME_CONFLICT
 UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 35. Composition
+## 35. Composition
 
 The registry MAY represent generator compositions.
 
@@ -964,9 +963,9 @@ composition:
 
 Composition identity is distinct from member identities.
 
----
+______________________________________________________________________
 
-# 36. Composition Law
+## 36. Composition Law
 
 $$Validated(G_1) \land Validated(G_2) \not\Rightarrow Validated(Compose(G_1,G_2))$$
 
@@ -983,9 +982,9 @@ new dependencies
 
 The registry MUST preserve composition-level validation separately.
 
----
+______________________________________________________________________
 
-# 37. Versioning
+## 37. Versioning
 
 Generator versions SHOULD follow the applicable versioning contract.
 
@@ -1001,9 +1000,9 @@ versioning:
   superseded_by: []
 ```
 
----
+______________________________________________________________________
 
-# 38. Version Mutation Law
+## 38. Version Mutation Law
 
 An existing immutable version record SHOULD NOT be silently rewritten into a materially different generator.
 
@@ -1019,9 +1018,9 @@ rather than:
 MUTATE HISTORY
 ```
 
----
+______________________________________________________________________
 
-# 39. Supersession
+## 39. Supersession
 
 Supersession MUST be explicit.
 
@@ -1043,9 +1042,9 @@ supersession:
 
 Historical records remain recoverable.
 
----
+______________________________________________________________________
 
-# 40. Deprecation
+## 40. Deprecation
 
 Deprecated generators SHOULD remain discoverable for lineage and compatibility.
 
@@ -1061,9 +1060,9 @@ retirement condition
 
 Deprecation does not equal deletion.
 
----
+______________________________________________________________________
 
-# 41. Retirement
+## 41. Retirement
 
 A retired generator SHOULD not normally be selected by the resolver.
 
@@ -1078,9 +1077,9 @@ audit evidence
 
 SHOULD remain accessible.
 
----
+______________________________________________________________________
 
-# 42. Validation Binding
+## 42. Validation Binding
 
 The registry SHOULD link to generator validation artifacts.
 
@@ -1108,9 +1107,9 @@ INVALIDATED
 UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 43. Falsification Binding
+## 43. Falsification Binding
 
 Every consequential generator SHOULD expose falsification state.
 
@@ -1128,9 +1127,9 @@ falsification:
 
 Failure to find a falsifier does not prove universal validity.
 
----
+______________________________________________________________________
 
-# 44. Promotion Binding
+## 44. Promotion Binding
 
 The registry SHOULD bind to the generator promotion process.
 
@@ -1148,9 +1147,9 @@ promotion:
 
 Promotion state MUST NOT be inferred from registry age or use frequency.
 
----
+______________________________________________________________________
 
-# 45. Epistemic Classification
+## 45. Epistemic Classification
 
 Generator-related claims SHOULD preserve their class.
 
@@ -1175,9 +1174,9 @@ claim:
 
 until validated.
 
----
+______________________________________________________________________
 
-# 46. Conclusion Classes
+## 46. Conclusion Classes
 
 Registry-derived conclusions SHOULD use:
 
@@ -1192,9 +1191,9 @@ UNKNOWN/GAP
 
 The weakest accurate class governs.
 
----
+______________________________________________________________________
 
-# 47. Confidence Ceiling
+## 47. Confidence Ceiling
 
 If generator admissibility depends on:
 
@@ -1208,9 +1207,9 @@ for load-bearing premises unless independently revalidated.
 
 Registry metadata MUST NOT inflate confidence.
 
----
+______________________________________________________________________
 
-# 48. Generator Competition
+## 48. Generator Competition
 
 Multiple generators MAY satisfy the same requested capability.
 
@@ -1226,9 +1225,9 @@ CAPABILITY C
 
 The registry SHOULD expose all materially viable candidates.
 
----
+______________________________________________________________________
 
-# 49. Competition State
+## 49. Competition State
 
 Candidate generators MAY be:
 
@@ -1251,9 +1250,9 @@ COMPETING
 
 MUST be preserved.
 
----
+______________________________________________________________________
 
-# 50. No Forced Winner
+## 50. No Forced Winner
 
 If:
 
@@ -1275,9 +1274,9 @@ resolution:
     - G2
 ```
 
----
+______________________________________________________________________
 
-# 51. Discriminating Tests
+## 51. Discriminating Tests
 
 Where competition matters, the system SHOULD seek a high-information discriminating test.
 
@@ -1285,9 +1284,9 @@ $$T^* = \arg\max_T \frac{ExpectedDecisionInformation(T)} {Cost(T)}$$
 
 subject to safety and governance constraints.
 
----
+______________________________________________________________________
 
-# 52. Generator Coverage
+## 52. Generator Coverage
 
 The registry SHOULD support coverage analysis.
 
@@ -1309,9 +1308,9 @@ COMPETING COVERAGE
 UNVALIDATED COVERAGE
 ```
 
----
+______________________________________________________________________
 
-# 53. Coverage Is Not Reliability
+## 53. Coverage Is Not Reliability
 
 If five generators claim a capability:
 
@@ -1321,9 +1320,9 @@ this does not mean the capability has five independently reliable implementation
 
 Ancestry and validation must be considered.
 
----
+______________________________________________________________________
 
-# 54. Generator Selection Score
+## 54. Generator Selection Score
 
 Implementations MAY use a resolution score, but scoring MUST NOT override hard integrity constraints.
 
@@ -1348,9 +1347,9 @@ $$HardConstraintViolation(G) \Rightarrow Inadmissible(G)$$
 
 regardless of score.
 
----
+______________________________________________________________________
 
-# 55. Deterministic Resolution
+## 55. Deterministic Resolution
 
 Given equivalent registry state, policy, scope, and task requirements, generator resolution SHOULD be deterministic where the governing rules fully order candidates.
 
@@ -1362,9 +1361,9 @@ COMPETING
 
 rather than arbitrary tie-breaking.
 
----
+______________________________________________________________________
 
-# 56. Registry Query Contract
+## 56. Registry Query Contract
 
 Conceptual query:
 
@@ -1387,9 +1386,9 @@ generator_query:
   include_invalidated: false
 ```
 
----
+______________________________________________________________________
 
-# 57. Registry Query Result
+## 57. Registry Query Result
 
 ```yaml
 generator_query_result:
@@ -1410,9 +1409,9 @@ generator_query_result:
   freshness: null
 ```
 
----
+______________________________________________________________________
 
-# 58. Resolution Status
+## 58. Resolution Status
 
 Possible query outcomes include:
 
@@ -1427,9 +1426,9 @@ STALE
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 59. Resolver Failure Transparency
+## 59. Resolver Failure Transparency
 
 If no generator satisfies the requirements:
 
@@ -1447,9 +1446,9 @@ UNKNOWN/GAP
 
 is preferable to assuming compatibility.
 
----
+______________________________________________________________________
 
-# 60. Registry and RSCF
+## 60. Registry and RSCF
 
 The Generator Registry SHOULD integrate with RSCF reasoning.
 
@@ -1471,9 +1470,9 @@ rscf:
   decision: null
 ```
 
----
+______________________________________________________________________
 
-# 61. RSCF Node Identity
+## 61. RSCF Node Identity
 
 This artifact is itself represented as an RSCF knowledge node:
 
@@ -1486,9 +1485,9 @@ RSCF-NODE:
   claim_class: AMOS_MODEL
 ```
 
----
+______________________________________________________________________
 
-# 62. RSCF Relations
+## 62. RSCF Relations
 
 ```yaml
 RSCF-RELATIONS:
@@ -1518,9 +1517,9 @@ RSCF-RELATIONS:
 
 These relations describe intended architecture unless separately verified as implemented.
 
----
+______________________________________________________________________
 
-# 63. H/M/L Representation
+## 63. H/M/L Representation
 
 Registry retrieval SHOULD follow AMOS fractal knowledge principles.
 
@@ -1558,9 +1557,9 @@ Raw evidence defaults to:
 DO_NOT_LOAD_UNLESS_REQUIRED
 ```
 
----
+______________________________________________________________________
 
-# 64. Smallest Sufficient Registry Query
+## 64. Smallest Sufficient Registry Query
 
 A registry query SHOULD retrieve only fields capable of changing the decision.
 
@@ -1592,9 +1591,9 @@ governance
 
 may be required.
 
----
+______________________________________________________________________
 
-# 65. Fast-Path Resolution
+## 65. Fast-Path Resolution
 
 Localized registry resolution is admissible only when:
 
@@ -1604,9 +1603,9 @@ are sufficiently established for the decision.
 
 Otherwise resolution escalates.
 
----
+______________________________________________________________________
 
-# 66. Mandatory Escalation
+## 66. Mandatory Escalation
 
 Registry resolution SHOULD escalate when:
 
@@ -1622,9 +1621,9 @@ governance impact increases
 irreversible effects are possible
 ```
 
----
+______________________________________________________________________
 
-# 67. Information Exposure
+## 67. Information Exposure
 
 Registry queries MUST respect information exposure rules.
 
@@ -1643,9 +1642,9 @@ exposure:
 
 The registry MUST NOT treat retrievability as disclosure authorization.
 
----
+______________________________________________________________________
 
-# 68. Binding
+## 68. Binding
 
 Generator selection SHOULD produce an explicit binding.
 
@@ -1670,9 +1669,9 @@ generator_binding:
 
 Binding is not execution.
 
----
+______________________________________________________________________
 
-# 69. Binding Stability
+## 69. Binding Stability
 
 If the generator version or load-bearing registry state changes after binding but before consequential execution, the binding SHOULD be rechecked.
 
@@ -1680,9 +1679,9 @@ $$State_{bind} \neq State_{commit} \Rightarrow Revalidate$$
 
 when the difference is material.
 
----
+______________________________________________________________________
 
-# 70. MVCC Pattern
+## 70. MVCC Pattern
 
 A registry implementation MAY use MVCC-like semantics:
 
@@ -1705,9 +1704,9 @@ COMPARE CURRENT REGISTRY
 
 This is a conceptual consistency pattern, not a claim about literal implementation.
 
----
+______________________________________________________________________
 
-# 71. CAS Pattern
+## 71. CAS Pattern
 
 A generator transition MAY use compare-and-swap semantics:
 
@@ -1721,9 +1720,9 @@ TRANSITION_ABORTED
 
 followed by targeted revalidation.
 
----
+______________________________________________________________________
 
-# 72. Atomic Multi-Generator Resolution
+## 72. Atomic Multi-Generator Resolution
 
 Some tasks require multiple generators as one reasoning unit.
 
@@ -1739,9 +1738,9 @@ partial resolution ≠ complete resolution
 
 AMOS SHOULD validate the relevant composition atomically.
 
----
+______________________________________________________________________
 
-# 73. Causal Epoch
+## 73. Causal Epoch
 
 Registry decisions MAY be associated with a causal epoch.
 
@@ -1754,9 +1753,9 @@ registry_snapshot:
 
 A binding valid under $E_{42}$ does not automatically survive a material causal change in $E_{43}$.
 
----
+______________________________________________________________________
 
-# 74. Persistent Provenance
+## 74. Persistent Provenance
 
 Historical registry state SHOULD remain reconstructable.
 
@@ -1775,9 +1774,9 @@ what superseded it
 
 for a relevant historical decision.
 
----
+______________________________________________________________________
 
-# 75. Registry Mutation
+## 75. Registry Mutation
 
 Material mutation SHOULD be governed.
 
@@ -1802,9 +1801,9 @@ RETIRE
 
 Each mutation SHOULD preserve provenance.
 
----
+______________________________________________________________________
 
-# 76. No Silent Mutation
+## 76. No Silent Mutation
 
 The registry MUST NOT silently change a load-bearing field such as:
 
@@ -1820,9 +1819,9 @@ promotion state
 
 without corresponding lifecycle/provenance treatment.
 
----
+______________________________________________________________________
 
-# 77. Invalidation
+## 77. Invalidation
 
 A generator may become invalid when:
 
@@ -1838,9 +1837,9 @@ regime changes materially
 
 Invalidation SHOULD be targeted.
 
----
+______________________________________________________________________
 
-# 78. Targeted Invalidation
+## 78. Targeted Invalidation
 
 If dependency $D$ fails:
 
@@ -1854,9 +1853,9 @@ not:
 
 $$Invalidate(AllGenerators)$$
 
----
+______________________________________________________________________
 
-# 79. Quarantine
+## 79. Quarantine
 
 `QUARANTINED` indicates unresolved integrity risk.
 
@@ -1872,9 +1871,9 @@ quarantine:
   release_conditions: []
 ```
 
----
+______________________________________________________________________
 
-# 80. Registry Integrity Checks
+## 80. Registry Integrity Checks
 
 The registry SHOULD detect:
 
@@ -1893,9 +1892,9 @@ missing provenance
 orphaned aliases
 ```
 
----
+______________________________________________________________________
 
-# 81. Duplicate Identity
+## 81. Duplicate Identity
 
 If two artifacts claim:
 
@@ -1914,9 +1913,9 @@ must be raised.
 
 AMOS MUST NOT arbitrarily merge them.
 
----
+______________________________________________________________________
 
-# 82. Version Collision
+## 82. Version Collision
 
 If:
 
@@ -1930,9 +1929,9 @@ VERSION_COLLISION
 
 The entries remain competing/ambiguous until resolved through provenance.
 
----
+______________________________________________________________________
 
-# 83. Supersession Integrity
+## 83. Supersession Integrity
 
 A valid supersession chain SHOULD be acyclic.
 
@@ -1945,9 +1944,9 @@ G2 supersedes G1
 
 unless a distinct explicitly modeled semantic relation explains it.
 
----
+______________________________________________________________________
 
-# 84. Provenance Independence
+## 84. Provenance Independence
 
 When comparing generators, the registry SHOULD expose provenance correlation.
 
@@ -1962,9 +1961,9 @@ independence:
 
 This prevents false confidence from apparent redundancy.
 
----
+______________________________________________________________________
 
-# 85. Registry Proof Capsule
+## 85. Registry Proof Capsule
 
 Important registry conclusions SHOULD conceptually produce a Proof Capsule.
 
@@ -1993,9 +1992,9 @@ registry_proof_capsule:
   invalidation_conditions: []
 ```
 
----
+______________________________________________________________________
 
-# 86. Proof Capsule Reuse
+## 86. Proof Capsule Reuse
 
 A prior registry resolution may be reused only while:
 
@@ -2011,9 +2010,9 @@ no material contradiction
 
 Otherwise targeted re-resolution is required.
 
----
+______________________________________________________________________
 
-# 87. Registry Snapshot
+## 87. Registry Snapshot
 
 A consequential resolution SHOULD be capable of referencing a registry snapshot.
 
@@ -2029,9 +2028,9 @@ registry_snapshot:
 
 This supports reproducibility and causal lineage.
 
----
+______________________________________________________________________
 
-# 88. Canonical Entry Shape
+## 88. Canonical Entry Shape
 
 A maximum-detail generator record MAY use:
 
@@ -2174,9 +2173,9 @@ generator_registry_entry:
   proof_capsule_ref: null
 ```
 
----
+______________________________________________________________________
 
-# 89. Registry Collection Shape
+## 89. Registry Collection Shape
 
 The entire registry MAY conceptually be represented as:
 
@@ -2221,9 +2220,9 @@ generator_registry:
   gaps: []
 ```
 
----
+______________________________________________________________________
 
-# 90. Derived Indexes
+## 90. Derived Indexes
 
 The registry MAY maintain derived indexes for efficiency.
 
@@ -2241,9 +2240,9 @@ GENERATOR → PROVENANCE
 
 Derived indexes MUST remain subordinate to authoritative registry records.
 
----
+______________________________________________________________________
 
-# 91. Index Consistency
+## 91. Index Consistency
 
 If:
 
@@ -2261,9 +2260,9 @@ conflict, the discrepancy MUST be surfaced.
 
 The system MUST NOT silently choose whichever produces a convenient result.
 
----
+______________________________________________________________________
 
-# 92. Registry Rebuild
+## 92. Registry Rebuild
 
 Derived indexes MAY be rebuilt from authoritative records.
 
@@ -2281,9 +2280,9 @@ AUTHORITATIVE ENTRIES
 
 This enables repair without rewriting generator identity history.
 
----
+______________________________________________________________________
 
-# 93. Failure Recovery
+## 93. Failure Recovery
 
 If registry corruption is detected:
 
@@ -2311,9 +2310,9 @@ REVALIDATE AFFECTED RESOLUTIONS
 
 Global recomputation is a last resort.
 
----
+______________________________________________________________________
 
-# 94. Registry Gap Classes
+## 94. Registry Gap Classes
 
 Missing registry information SHOULD be classified:
 
@@ -2340,9 +2339,9 @@ Missing display icon:
 COSMETIC
 ```
 
----
+______________________________________________________________________
 
-# 95. Critical Gap Law
+## 95. Critical Gap Law
 
 If a critical field required for resolution is missing:
 
@@ -2360,9 +2359,9 @@ depending on the context.
 
 AMOS MUST NOT fabricate the missing value.
 
----
+______________________________________________________________________
 
-# 96. Registry Invariants
+## 96. Registry Invariants
 
 ```text
 GR-I01
@@ -2456,9 +2455,9 @@ GR-I30
 Integrity > completeness > fluency > speed > token savings.
 ```
 
----
+______________________________________________________________________
 
-# 97. Reference Registration Flow
+## 97. Reference Registration Flow
 
 ```text
 GENERATOR ARTIFACT
@@ -2493,9 +2492,9 @@ SCOPE / REGIME DECLARATION
 REGISTERED
 ```
 
----
+______________________________________________________________________
 
-# 98. Reference Resolution Flow
+## 98. Reference Resolution Flow
 
 ```text
 TASK REQUEST
@@ -2544,9 +2543,9 @@ COMPETING GENERATORS
 GENERATOR BINDING
 ```
 
----
+______________________________________________________________________
 
-# 99. Reference Mutation Flow
+## 99. Reference Mutation Flow
 
 ```text
 REQUESTED CHANGE
@@ -2582,9 +2581,9 @@ DERIVED INDEX UPDATE
 PERSIST PROVENANCE
 ```
 
----
+______________________________________________________________________
 
-# 100. Anti-Fabrication Rules
+## 100. Anti-Fabrication Rules
 
 The registry MUST NOT infer:
 
@@ -2601,9 +2600,9 @@ compatibility from structural similarity
 
 These require their own evidence.
 
----
+______________________________________________________________________
 
-# 101. Documentation Firewall
+## 101. Documentation Firewall
 
 README, registry, architecture, or specification claims are:
 
@@ -2617,9 +2616,9 @@ Therefore:
 
 $$Documented(G,C) \not\Rightarrow EmpiricallyVerified(G,C)$$
 
----
+______________________________________________________________________
 
-# 102. Structural Similarity Firewall
+## 102. Structural Similarity Firewall
 
 If generator $G_1$ resembles validated generator $G_2$:
 
@@ -2631,9 +2630,9 @@ $$Valid(G_1)$$
 
 Structural similarity may justify a hypothesis or test strategy, not automatic promotion.
 
----
+______________________________________________________________________
 
-# 103. Authority Boundary
+## 103. Authority Boundary
 
 The Generator Registry may answer:
 
@@ -2655,9 +2654,9 @@ Execution Authority
 Commit-Time Validation
 ```
 
----
+______________________________________________________________________
 
-# 104. Canon Boundary
+## 104. Canon Boundary
 
 This document defines the candidate substantive architecture for `GENERATOR_REGISTRY.md`.
 
@@ -2676,9 +2675,9 @@ this specification has completed final canon promotion.
 
 Those require independent evidence and governance.
 
----
+______________________________________________________________________
 
-# 105. Artifact Declaration
+## 105. Artifact Declaration
 
 ```yaml
 artifact:
@@ -2722,9 +2721,9 @@ artifact:
       evidence-bearing states.
 ```
 
----
+______________________________________________________________________
 
-# 106. Final Registry Law
+## 106. Final Registry Law
 
 $$\boxed{ Registry = Identity + Lineage + Evidence\ State + Operational\ Constraints }$$
 
@@ -2754,15 +2753,15 @@ When these cannot be established, the registry preserves the gap.
 
 It does not invent completion.
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[25_COGNITIVE_MATRIX/12_GENERATORS/00_INDEX/GENERATORS_MAP|GENERATORS_MAP]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · 12_GENERATORS_CONTRACT · 12_GENERATORS_VERSIONING · [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_OUTPUT|GENERATOR_OUTPUT]] · [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_FALSIFICATION|GENERATOR_FALSIFICATION]] · [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_PROMOTION|GENERATOR_PROMOTION]] · [[03_CONTROL_PLANE/01_TASK_CONTRACT/TASK_CONTRACT|TASK_CONTRACT]] · [[03_CONTROL_PLANE/01_TASK_CONTRACT/TASK_RESOLVER|TASK_RESOLVER]] · [[03_CONTROL_PLANE/02_CAPABILITY/CAPABILITY_RESOLVER|CAPABILITY_RESOLVER]] · [[03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX/MODE_ADMISSION_QUEUE|MODE_ADMISSION_QUEUE]] · [[03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX/MODE_COMPOSITION_REGISTRY|MODE_COMPOSITION_REGISTRY]] · [[03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX/MODE_CONFLICT_REGISTRY|MODE_CONFLICT_REGISTRY]] · [[03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX/MODE_COVERAGE_MATRIX|MODE_COVERAGE_MATRIX]] · [[03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX/MODE_DEPENDENCY_GRAPH|MODE_DEPENDENCY_GRAPH]]
 
----
+______________________________________________________________________
 
 RSCF-NODE
 
@@ -2793,6 +2792,6 @@ RSCF-RELATIONS:
 The key integrity distinction is that this file is now **substantive architecture rather than a placeholder**, but it remains `AMOS_MODEL / CANDIDATE_CANON`: it does not falsely assert that the registry is already populated or implemented.
 ```
 
----
-**MOC:** [[25_COGNITIVE_MATRIX/12_GENERATORS/12_GENERATORS_MOC|12_GENERATORS_MOC]]
+______________________________________________________________________
 
+**MOC:** [[25_COGNITIVE_MATRIX/12_GENERATORS/12_GENERATORS_MOC|12_GENERATORS_MOC]]

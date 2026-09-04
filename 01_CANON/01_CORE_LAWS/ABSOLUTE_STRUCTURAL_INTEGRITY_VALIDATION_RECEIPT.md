@@ -12,21 +12,21 @@ segment: 01_CANON/01_CORE_LAWS
 artifact_kind: VALIDATION_RECEIPT
 path: 01_CANON/01_CORE_LAWS/ABSOLUTE_STRUCTURAL_INTEGRITY_VALIDATION_RECEIPT.md
 tags:
-- amos-os
-- canon
-- core_laws
-- receipt
-- validation
-- structural_integrity
-- integrity
-- verification
-- provenance
-- rscf
-- validation_receipt
-- canon/core
-- amos-core
-- law-hierarchy
-- amos-core-all-versions-fractal-knowledge-network
+  - amos-os
+  - canon
+  - core_laws
+  - receipt
+  - validation
+  - structural_integrity
+  - integrity
+  - verification
+  - provenance
+  - rscf
+  - validation_receipt
+  - canon/core
+  - amos-core
+  - law-hierarchy
+  - amos-core-all-versions-fractal-knowledge-network
 version: 0.2.0
 updated: '2026-08-28'
 status: RECEIPT_SLOT_DEFINED
@@ -41,12 +41,12 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
   provenance:
-  - AMOS_corpus
-  - source_note_absolute_structural_integrity_validation_receipt
+    - AMOS_corpus
+    - source_note_absolute_structural_integrity_validation_receipt
   scope:
-  - 01_CANON
-  - 01_CORE_LAWS
-  - STRUCTURAL_INTEGRITY
+    - 01_CANON
+    - 01_CORE_LAWS
+    - STRUCTURAL_INTEGRITY
   regime: canon_validation_receipt
   confidence_ceiling: source_supported
   provenance_independence: NOT_ESTABLISHED
@@ -93,9 +93,9 @@ NOT ESTABLISHED
 
 The receipt MUST NOT self-certify merely because its title or source text declares a pass.
 
----
+______________________________________________________________________
 
-# 1. Purpose
+## 1. Purpose
 
 The purpose of this artifact is to provide an addressable validation-receipt contract for determining whether a defined structural-integrity validation scope has passed its governing checks.
 
@@ -119,9 +119,9 @@ The receipt records validation.
 
 It does not create validity.
 
----
+______________________________________________________________________
 
-# 2. Governing Integrity Boundary
+## 2. Governing Integrity Boundary
 
 The following distinctions are mandatory:
 
@@ -163,9 +163,9 @@ UNKNOWN/GAP != PASS
 
 No downstream layer may silently collapse these distinctions.
 
----
+______________________________________________________________________
 
-# 3. Meaning of "Absolute"
+## 3. Meaning of "Absolute"
 
 The word `Absolute` is retained because it is part of the source artifact's canonical name.
 
@@ -201,9 +201,9 @@ ABSOLUTE
 UNIVERSAL INFALLIBILITY
 ```
 
----
+______________________________________________________________________
 
-# 4. Structural Integrity
+## 4. Structural Integrity
 
 For this receipt, `structural integrity` refers to preservation of the explicitly governed AMOS structural invariants applicable to the validation target.
 
@@ -251,9 +251,9 @@ This list defines candidate validation dimensions.
 
 A concrete validation run must identify exactly which dimensions and constraints were actually tested.
 
----
+______________________________________________________________________
 
-# 5. Validation Envelope
+## 5. Validation Envelope
 
 No pass result is meaningful without an applicability envelope.
 
@@ -297,9 +297,9 @@ validation_envelope:
 
 Missing load-bearing envelope fields reduce the admissible conclusion.
 
----
+______________________________________________________________________
 
-# 6. Constraint Registry Requirement
+## 6. Constraint Registry Requirement
 
 The phrase:
 
@@ -323,7 +323,7 @@ $$
 \forall c_i \in C,\quad Validate(c_i)=PASS
 $$
 
-If the complete set \(C\) is not identified, the claim:
+If the complete set (C) is not identified, the claim:
 
 ```text
 ALL CONSTRAINTS PASS
@@ -340,9 +340,9 @@ NOT ESTABLISHED FROM
 THE PROVIDED SOURCE NOTE
 ```
 
----
+______________________________________________________________________
 
-# 7. Validation Result Classes
+## 7. Validation Result Classes
 
 Every constraint evaluation should resolve to one of:
 
@@ -364,9 +364,9 @@ INVALIDATED
 
 `UNKNOWN`, `NOT_EXECUTED`, or `STALE` MUST NOT be coerced into `PASS`.
 
----
+______________________________________________________________________
 
-# 8. Pass Semantics
+## 8. Pass Semantics
 
 For a declared constraint set:
 
@@ -405,9 +405,9 @@ NO UNRESOLVED LOAD-BEARING FAILURE
 TRUE
 ```
 
----
+______________________________________________________________________
 
-# 9. Fail-Closed Rule
+## 9. Fail-Closed Rule
 
 If any load-bearing validation state is:
 
@@ -445,9 +445,9 @@ UNKNOWN/GAP
 
 when evidence is insufficient.
 
----
+______________________________________________________________________
 
-# 10. Evidence Requirement
+## 10. Evidence Requirement
 
 A validation receipt should carry evidence sufficient to reconstruct why the result was issued.
 
@@ -485,9 +485,9 @@ validation_evidence:
 
 Without execution evidence, the receipt remains documentary rather than validated.
 
----
+______________________________________________________________________
 
-# 11. Provenance Requirement
+## 11. Provenance Requirement
 
 Validation evidence must retain ancestry.
 
@@ -509,9 +509,9 @@ A result without recoverable ancestry has insufficient provenance for a strong v
 
 Multiple summaries derived from one execution do not create independent validation.
 
----
+______________________________________________________________________
 
-# 12. Independence Boundary
+## 12. Independence Boundary
 
 If multiple validators are used, their independence must not be assumed.
 
@@ -539,9 +539,9 @@ $$
 
 where ancestry is shared.
 
----
+______________________________________________________________________
 
-# 13. Structural Validation Layers
+## 13. Structural Validation Layers
 
 A complete validation program may operate recursively across H/M/L.
 
@@ -605,11 +605,11 @@ NEGATIVE CASES
 
 A higher-level pass must not be inferred solely from a lower-level sample.
 
----
+______________________________________________________________________
 
-# 14. Recursive Integrity
+## 14. Recursive Integrity
 
-For a parent structure \(R\) with descendants:
+For a parent structure (R) with descendants:
 
 $$
 Desc(R)=\{r_1,\ldots,r_n\}
@@ -633,9 +633,9 @@ unless the failed child is load-bearing for the claimed system invariant.
 
 Dependency topology determines propagation.
 
----
+______________________________________________________________________
 
-# 15. Selective Invalidation
+## 15. Selective Invalidation
 
 If a premise or constraint later fails, invalidate only dependent validation conclusions.
 
@@ -662,9 +662,9 @@ RECEIPT_B
 
 provided independence is established.
 
----
+______________________________________________________________________
 
-# 16. Freshness
+## 16. Freshness
 
 Validation receipts are temporal artifacts.
 
@@ -698,9 +698,9 @@ $$
 
 without freshness continuity.
 
----
+______________________________________________________________________
 
-# 17. Version Binding
+## 17. Version Binding
 
 A receipt MUST identify the exact artifact version or immutable content identity that was validated.
 
@@ -726,9 +726,9 @@ must not silently certify:
 Artifact@v2
 ```
 
----
+______________________________________________________________________
 
-# 18. Epoch Binding
+## 18. Epoch Binding
 
 Where epoch semantics apply, preserve distinctions between:
 
@@ -746,9 +746,9 @@ PROVENANCE EPOCH
 
 A pass in one epoch does not automatically transfer to another.
 
----
+______________________________________________________________________
 
-# 19. Scope Firewall
+## 19. Scope Firewall
 
 A validation result inherits the scope of its test.
 
@@ -778,9 +778,9 @@ SAMPLED PASS
 EXHAUSTIVE PASS
 ```
 
----
+______________________________________________________________________
 
-# 20. Regime Firewall
+## 20. Regime Firewall
 
 Validation validity is regime-bounded.
 
@@ -804,9 +804,9 @@ ASSUMPTIONS
 
 A regime shift may invalidate a receipt without implying that its historical execution was incorrect.
 
----
+______________________________________________________________________
 
-# 21. Contradiction Check
+## 21. Contradiction Check
 
 Before a complete pass is issued, the validation system should search for contradictory evidence.
 
@@ -836,9 +836,9 @@ REGIME MISMATCH
 
 Unresolved load-bearing contradictions block unconditional pass.
 
----
+______________________________________________________________________
 
-# 22. Adversarial Validation
+## 22. Adversarial Validation
 
 For consequential structural-integrity claims, validation should not consist only of confirming expected success.
 
@@ -868,9 +868,9 @@ ROLLBACK FAILURE
 
 A successful challenge downgrades or invalidates the receipt.
 
----
+______________________________________________________________________
 
-# 23. Negative Cases
+## 23. Negative Cases
 
 A strong structural-integrity validator should test failure behavior, including:
 
@@ -906,9 +906,9 @@ UNKNOWN REQUIRED FIELD
 
 Happy-path success alone is insufficient for an absolute scoped pass.
 
----
+______________________________________________________________________
 
-# 24. Transactional Integrity
+## 24. Transactional Integrity
 
 Where a structural mutation spans multiple load-bearing nodes:
 
@@ -932,9 +932,9 @@ PROPOSAL != COMMIT
 PARTIAL COMMIT != VALID COMPLETE COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 25. Rollback Integrity
+## 25. Rollback Integrity
 
 Consequential validation should establish a repair/rollback basin where applicable.
 
@@ -958,9 +958,9 @@ ROLLBACK
 ERASE FAILURE
 ```
 
----
+______________________________________________________________________
 
-# 26. Confidence Ceiling
+## 26. Confidence Ceiling
 
 The confidence of the receipt cannot exceed its weakest load-bearing validation premise.
 
@@ -980,9 +980,9 @@ unless the weak premise is independently revalidated.
 
 A high number of passing noncritical tests cannot compensate for one unresolved critical constraint.
 
----
+______________________________________________________________________
 
-# 27. Sensitivity
+## 27. Sensitivity
 
 Before issuing a consequential pass, identify the smallest condition capable of flipping the result.
 
@@ -1002,9 +1002,9 @@ ONE MATERIAL REGIME MISMATCH
 
 If a plausible unresolved condition can flip the result, the receipt remains `CONDITIONAL` or `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
-# 28. Receipt State Machine
+## 28. Receipt State Machine
 
 ```text
 DEFINED
@@ -1024,9 +1024,9 @@ PASS           FAIL        UNKNOWN/GAP      STALE
 
 A receipt does not begin in `PASS`.
 
----
+______________________________________________________________________
 
-# 29. Machine-Readable Receipt Contract
+## 29. Machine-Readable Receipt Contract
 
 ```yaml
 ABSOLUTE_STRUCTURAL_INTEGRITY_VALIDATION_RECEIPT:
@@ -1084,9 +1084,9 @@ ABSOLUTE_STRUCTURAL_INTEGRITY_VALIDATION_RECEIPT:
     absolute_structural_integrity_pass: NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 30. Current Receipt Assessment
+## 30. Current Receipt Assessment
 
 Based strictly on the supplied source artifact:
 
@@ -1132,9 +1132,9 @@ CURRENT_ASSESSMENT:
 
 Therefore the artifact cannot currently be promoted to a verified `PASS` receipt without additional validation evidence.
 
----
+______________________________________________________________________
 
-# 31. Minimum Evidence Required for PASS
+## 31. Minimum Evidence Required for PASS
 
 The minimum load-bearing evidence needed to upgrade the receipt is:
 
@@ -1162,9 +1162,9 @@ The minimum load-bearing evidence needed to upgrade the receipt is:
 
 For stronger claims, adversarial or independently implemented validation may also be required.
 
----
+______________________________________________________________________
 
-# 32. Promotion Gate
+## 32. Promotion Gate
 
 The receipt may be promoted to a scoped `PASS` only when:
 
@@ -1195,9 +1195,9 @@ VALIDATION_STATUS
 NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 33. Example of a Valid Scoped PASS Receipt
+## 33. Example of a Valid Scoped PASS Receipt
 
 The following is a schema example only, **not an executed receipt**:
 
@@ -1243,9 +1243,9 @@ receipt_example:
 
 This example MUST NOT itself be treated as evidence.
 
----
+______________________________________________________________________
 
-# 34. Proof Capsule
+## 34. Proof Capsule
 
 ```yaml
 PROOF_CAPSULE:
@@ -1310,9 +1310,9 @@ PROOF_CAPSULE:
     UNKNOWN/GAP_FOR_ACTUAL_PASS
 ```
 
----
+______________________________________________________________________
 
-# 35. RSCF
+## 35. RSCF
 
 ```yaml
 RSCF:
@@ -1382,9 +1382,9 @@ RSCF:
     source_supported
 ```
 
----
+______________________________________________________________________
 
-# 36. Canonical Compression
+## 36. Canonical Compression
 
 The entire receipt contract compresses to:
 
@@ -1452,9 +1452,9 @@ TokenSavings
 }
 $$
 
----
+______________________________________________________________________
 
-# 37. RSCF Node
+## 37. RSCF Node
 
 RSCF-NODE
 
@@ -1529,19 +1529,19 @@ RSCF-RELATIONS:
 - REQUIRES:
   FRESHNESS_VALIDATION
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
 
 **Related:** AMOS_CORE · [[01_CANON/01_CORE_LAWS/01_CORE_LAWS_MOC|01_CORE_LAWS_MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[01_CANON/01_CORE_LAWS/AMOS_CORE_ALL_VERSIONS_FRACTAL_KNOWLEDGE_NETWORK|AMOS_CORE_ALL_VERSIONS_FRACTAL_KNOWLEDGE_NETWORK]]
 
----
+______________________________________________________________________
 
 **MOC:** [[01_CANON/01_CORE_LAWS/01_CORE_LAWS_MOC|01_CORE_LAWS_MOC]]
 
----
+______________________________________________________________________
 
 **Origin architect / steward:** **Trang Phan**
 

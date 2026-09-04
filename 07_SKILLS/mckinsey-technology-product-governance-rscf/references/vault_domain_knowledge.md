@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Vault Domain Knowledge — Mckinsey Technology Product Governance Rscf
 type: reference
 source: 07_SKILLS/mckinsey-technology-product-governance-rscf/references
 tags:
-- reference
-- mckinsey-technology-product-governance-rscf
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - mckinsey-technology-product-governance-rscf
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -24,6 +27,7 @@ rscf:
 ## Vault-Sourced Content
 
 ### Source 1: 3b. Governance
+
 - process v8
 
 > Path: `governance/3b. Governance - process v8.md` | Size: 44077 chars | Match score: 15
@@ -34,10 +38,11 @@ About TCJ
 Governance
 Thisplaybookcontainsallthepieces andpartsthat
 makeupourapproachtotransforming customer
-| journeys.Thisis | | alivingdocumentandthelatest |
-| --------------- | -------- | ----------------------------- |
-| versioncan | be found | onTCJ’sConfluencesite. |
-Last updated in May 2019
+
+| journeys.Thisis          |          | alivingdocumentandthelatest |
+| ------------------------ | -------- | --------------------------- |
+| versioncan               | be found | onTCJ’sConfluencesite.      |
+| Last updated in May 2019 |          |                             |
 
 How this module fits into overall TCJ Playbook
 Transformation
@@ -103,17 +108,19 @@ McKinsey & Company
 
 TCJ governance bodies
 With wider Bank Within TCJ
-| Scope | Committee | Purpose | Attendees | Frequency |
-| ----- | --------- | ------- | --------- | --------- |
-Program-level TCJ Business Budget allocation based on drawdown approved by DEXCO Chief Strategy and Design (Chair) Monthly
-Review Drawdown for all OPEX and CAPEX expenditures below RM1m (within Group Chief Technology Officer
-budget) Group Technology Leads (e.g. EAS, IT Security, App)
-| | | Overall TCJ program delivery plan (Benefits and timeline by Journey) | Head of TCJ | |
-| --- | --- | -------------------------------------------
 
----
+| Scope                                                                                                                      | Committee | Purpose                                                              | Attendees   | Frequency |
+| -------------------------------------------------------------------------------------------------------------------------- | --------- | -------------------------------------------------------------------- | ----------- | --------- |
+| Program-level TCJ Business Budget allocation based on drawdown approved by DEXCO Chief Strategy and Design (Chair) Monthly |           |                                                                      |             |           |
+| Review Drawdown for all OPEX and CAPEX expenditures below RM1m (within Group Chief Technology Officer                      |           |                                                                      |             |           |
+| budget) Group Technology Leads (e.g. EAS, IT Security, App)                                                                |           |                                                                      |             |           |
+|                                                                                                                            |           | Overall TCJ program delivery plan (Benefits and timeline by Journey) | Head of TCJ |           |
+| ---                                                                                                                        | ---       | -------------------------------------------                          |             |           |
+
+______________________________________________________________________
 
 ### Source 2: 3c. Governance
+
 - Delivery and value mgmt v6
 
 > Path: `governance/3c. Governance - Delivery and value mgmt v6.md` | Size: 132726 chars | Match score: 13
@@ -186,40 +193,41 @@ as expected?
 McKinsey & Company
 
 1. WHAT ARE OKRS?
-Key principles of OKRs
-Objectives Key Results
- What we want to achieve How to achieve objective
-(in the form of metrics and deliverables)
- Qualitative Measurable and quantifiable, indicating if advances have
- Actionable by the team been made
- Simple / One sentence Make the objective achievable
- As independent as possible Clear method for grading
- Combine opposing forces / trade-off if possible
-OKR overall characteristics
- Inspirational / Motivational
- Time bound and in Short cycles (quarterly)
- Simplicity
- Transparency
- Defined both top-down and bottom-up (~ 60% defined bottom-up)
- Leverage Stretch goals (~ 0.6 to 0.7 achievement rate – “difficult, not impossible”)
- Organization-wide: 3-5 Objectives and 3- 5 Key Results per Objective
- OKRs are shared by all members in TCJ and the Journey Team
-McKinsey & Company 4
+   Key principles of OKRs
+   Objectives Key Results
+   What we want to achieve How to achieve objective
+   (in the form of metrics and deliverables)
+   Qualitative Measurable and quantifiable, indicating if advances have
+   Actionable by the team been made
+   Simple / One sentence Make the objective achievable
+   As independent as possible Clear method for grading
+   Combine opposing forces / trade-off if possible
+   OKR overall characteristics
+   Inspirational / Motivational
+   Time bound and in Short cycles (quarterly)
+   Simplicity
+   Transparency
+   Defined both top-down and bottom-up (~ 60% defined bottom-up)
+   Leverage Stretch goals (~ 0.6 to 0.7 achievement rate – “difficult, not impossible”)
+   Organization-wide: 3-5 Objectives and 3- 5 Key Results per Objective
+   OKRs are shared by all members in TCJ and the Journey Team
+   McKinsey & Company 4
 
 1. WHAT ARE OKRS?
-Benefits – Why use OKR
-Description
-Short cycles allows quick adjustments and better adaptation to changes, reducing risks
-Agility
-Transparency allows that the team understand organization’s goals and priorities, as
-Clear communication
-each one’s role
-Shared success criteria enhance cooperation among teams
-Cooperation enhanceme
+   Benefits – Why use OKR
+   Description
+   Short cycles allows quick adjustments and better adaptation to changes, reducing risks
+   Agility
+   Transparency allows that the team understand organization’s goals and priorities, as
+   Clear communication
+   each one’s role
+   Shared success criteria enhance cooperation among teams
+   Cooperation enhanceme
 
----
+______________________________________________________________________
 
 ### Source 3: 3a. Governance
+
 - org structure - v5
 
 > Path: `governance/3a. Governance - org structure - v5.md` | Size: 122394 chars | Match score: 13
@@ -230,10 +238,11 @@ About TCJ
 Organization
 Thisplaybookcontainsallthepieces andpartsthat
 makeupourapproachtotransforming customer
-| journeys.Thisis | | alivingdocumentandthelatest |
-| --------------- | -------- | ----------------------------- |
-| versioncan | be found | onTCJ’sConfluencesite. |
-Last updated in May 2019
+
+| journeys.Thisis          |          | alivingdocumentandthelatest |
+| ------------------------ | -------- | --------------------------- |
+| versioncan               | be found | onTCJ’sConfluencesite.      |
+| Last updated in May 2019 |          |                             |
 
 How this module fits into overall TCJ Playbook
 Transformation
@@ -305,27 +314,29 @@ McKinsey & Company 4
 
 Roles of the three groups
 Group Description
- Grouping of TCJ members that is accountable to design and deliver new customer journey
- Consists of members assigned to a particular journey at a certain time
- Consists of TCJ employees + CIMB SMEs that are seconded to TCJ; covering full set of capabilities required to
+Grouping of TCJ members that is accountable to design and deliver new customer journey
+Consists of members assigned to a particular journey at a certain time
+Consists of TCJ employees + CIMB SMEs that are seconded to TCJ; covering full set of capabilities required to
 Journey Team
 deliver E2E journey
- Example: Retail CASA, Commercial Lending (10 defined in total)
- Grouping of TCJ resources that focuses on capability development (incl. sharing of best practices, maintaining
+Example: Retail CASA, Commercial Lending (10 defined in total)
+Grouping of TCJ resources that focuses on capability development (incl. sharing of best practices, maintaining
 consistent standards and methodologies across TCJ)
- Consists of members with similar competency areas
+Consists of members with similar competency areas
 Chapter
- Chapter members are a pool of resources that are assigned to Journey Teams and gather periodically to align
- Example: Technology Developers, Technology DevOps, Value Assurance
- Group
+Chapter members are a pool of resources that are assigned to Journey Teams and gather periodically to align
+Example: Technology Developers, Technology DevOps, Value Assurance
+Group
 
----
+______________________________________________________________________
+
 **MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -333,12 +344,14 @@ Chapter
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: mckinsey-technology-product-governance-rscf-vault-domain-knowledge
 node_type: reference
 path: 07_SKILLS/mckinsey-technology-product-governance-rscf/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

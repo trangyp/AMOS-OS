@@ -1,11 +1,14 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: C08 Execution MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C08_EXECUTION
 tags:
-- c08-execution
-- domain/cognitive-matrix
-- c08-execution-control-planes-cognitive-matrix-rscf
+  - c08-execution
+  - domain/cognitive-matrix
+  - c08-execution-control-planes-cognitive-matrix-rscf
 moc: true
 rscf:
   state: DERIVED
@@ -47,5 +50,6 @@ rscf:
 
 - [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]] — 00_INDEX
 
----
+______________________________________________________________________
+
 **Parent:** [[25_COGNITIVE_MATRIX/03_CONTROL_PLANES/03_CONTROL_PLANES_MOC|03_CONTROL_PLANES_MOC]]

@@ -74,7 +74,7 @@
     "arxiv-grpo-reasoning-policy-rscf"
   ],
   "depends_on_workflows": [
-    "arxiv-grpo-reasoning-policy-rscf-workflow.md"
+    "amos-arxiv-grpo-reasoning-policy-rscf-workflow.md"
   ],
   "epistemic_class": "AMOS_MODEL",
   "claim_ceiling": 0.95,

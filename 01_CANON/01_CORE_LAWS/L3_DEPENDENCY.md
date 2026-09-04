@@ -1,4 +1,7 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: L3 DEPENDENCY
 type: note
 source: 01_CANON/01_CORE_LAWS
@@ -6,23 +9,19 @@ rscf:
   state: SOURCE_CLAIM
   class: STRUCTURAL
   provenance:
-  - internal
+    - internal
   freshness: EVERGREEN
   falsifiers: []
 tags:
-- note
-- 01-core-laws
-- law/L0-integrity
-- law/L1-epistemic
-- law/L2-provenance
+  - note
+  - 01-core-laws
+  - law/L0-integrity
+  - law/L1-epistemic
+  - law/L2-provenance
 canon-group: canon/core-laws
 ---
 
----title: "AMOS Core Laws — L3 Dependency Laws"
-type: document
-tags: [note]
----
-
+## ---title: "AMOS Core Laws — L3 Dependency Laws" type: document tags: [note]
 
 # L3 Dependency Laws
 
@@ -69,9 +68,9 @@ AMOS_MODEL FORMALIZATION
 
 Generalized graph equations and schemas in this document are formalizations unless a source anchor explicitly establishes otherwise.
 
----
+______________________________________________________________________
 
-# 1. Hard Boundaries
+## 1. Hard Boundaries
 
 ```text
 RELATION != DEPENDENCY
@@ -119,9 +118,9 @@ PROPOSAL != COMMIT
 UNKNOWN/GAP != PASS
 ```
 
----
+______________________________________________________________________
 
-# 2. Purpose
+## 2. Purpose
 
 L3 answers the question:
 
@@ -161,9 +160,9 @@ ONE FAILURE
 DESTROY EVERYTHING
 ```
 
----
+______________________________________________________________________
 
-# 3. Relationship to Earlier Core Laws
+## 3. Relationship to Earlier Core Laws
 
 The core-law dependency spine is:
 
@@ -197,9 +196,9 @@ WHERE DID THAT KNOWLEDGE COME FROM?
 WHAT ELSE DEPENDS ON IT?
 ```
 
----
+______________________________________________________________________
 
-# 4. Core Dependency Principle
+## 4. Core Dependency Principle
 
 The governing principle is:
 
@@ -223,9 +222,9 @@ rollback
 revalidation
 ```
 
----
+______________________________________________________________________
 
-# 5. Dependency Object
+## 5. Dependency Object
 
 A normalized dependency object MAY be represented as:
 
@@ -277,9 +276,9 @@ DependencyObject:
 
 This schema is `AMOS_MODEL`.
 
----
+______________________________________________________________________
 
-# 6. Dependency Graph
+## 6. Dependency Graph
 
 Let:
 
@@ -322,9 +321,9 @@ or:
 A has authority over B
 ```
 
----
+______________________________________________________________________
 
-# 7. Dependency Direction
+## 7. Dependency Direction
 
 AMOS MUST define dependency direction consistently.
 
@@ -361,9 +360,9 @@ ACTION
 
 The action is downstream of the decision.
 
----
+______________________________________________________________________
 
-# 8. L3-D001 — Dependency Must Be Typed
+## 8. L3-D001 — Dependency Must Be Typed
 
 A dependency edge must not remain merely:
 
@@ -427,9 +426,9 @@ HML
 CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
-# 9. L3-D002 — Dependency Is Not Causation
+## 9. L3-D002 — Dependency Is Not Causation
 
 From:
 
@@ -461,9 +460,9 @@ temporal prerequisite
 
 without representing physical or behavioral causation.
 
----
+______________________________________________________________________
 
-# 10. L3-D003 — Causal Dependencies Require Causal Evidence
+## 10. L3-D003 — Causal Dependencies Require Causal Evidence
 
 If an edge is classified:
 
@@ -475,9 +474,9 @@ then it becomes subject to the AMOS causal firewall.
 
 Sequence, structural similarity, or co-occurrence alone are insufficient.
 
----
+______________________________________________________________________
 
-# 11. L3-D004 — References Are Not Automatically Dependencies
+## 11. L3-D004 — References Are Not Automatically Dependencies
 
 A document may reference another artifact without relying upon it.
 
@@ -495,9 +494,9 @@ DEPENDS_ON(A,B)
 
 A dependency requires material reliance.
 
----
+______________________________________________________________________
 
-# 12. L3-D005 — Load-Bearing Dependencies Must Be Distinguished
+## 12. L3-D005 — Load-Bearing Dependencies Must Be Distinguished
 
 Dependencies SHOULD support:
 
@@ -507,9 +506,9 @@ load_bearing = true | false | unknown
 
 A load-bearing dependency is one whose failure can invalidate, block, downgrade, or materially alter the dependent object.
 
----
+______________________________________________________________________
 
-# 13. L3-D006 — Incidental Relations Must Not Trigger Invalidation
+## 13. L3-D006 — Incidental Relations Must Not Trigger Invalidation
 
 Suppose:
 
@@ -527,9 +526,9 @@ load_bearing = false
 
 then invalidation of `A` must not automatically invalidate `B`.
 
----
+______________________________________________________________________
 
-# 14. L3-D007 — Unknown Load-Bearing Status Is a Gap
+## 14. L3-D007 — Unknown Load-Bearing Status Is a Gap
 
 If AMOS cannot determine whether dependency `A → B` is load-bearing:
 
@@ -545,9 +544,9 @@ false
 
 for consequential reasoning.
 
----
+______________________________________________________________________
 
-# 15. Dependency Strength
+## 15. Dependency Strength
 
 Proposed classes:
 
@@ -563,9 +562,9 @@ OPTIONAL
 UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 16. HARD Dependency
+## 16. HARD Dependency
 
 A hard dependency means:
 
@@ -587,9 +586,9 @@ durable commit
 
 If authorization is mandatory and absent, the commit cannot proceed.
 
----
+______________________________________________________________________
 
-# 17. SOFT Dependency
+## 17. SOFT Dependency
 
 A soft dependency affects:
 
@@ -607,9 +606,9 @@ interpretability
 
 but does not necessarily make the dependent object inadmissible.
 
----
+______________________________________________________________________
 
-# 18. CONDITIONAL Dependency
+## 18. CONDITIONAL Dependency
 
 A conditional dependency applies only when predicate `φ` holds.
 
@@ -629,9 +628,9 @@ B depends_on A
 
 Outside `φ`, the edge may be inactive.
 
----
+______________________________________________________________________
 
-# 19. OPTIONAL Dependency
+## 19. OPTIONAL Dependency
 
 An optional dependency may improve an outcome without being necessary for admissibility.
 
@@ -643,9 +642,9 @@ LOAD_BEARING
 
 unless explicitly promoted under a particular regime.
 
----
+______________________________________________________________________
 
-# 20. UNKNOWN Dependency Strength
+## 20. UNKNOWN Dependency Strength
 
 When dependency strength cannot be established:
 
@@ -655,9 +654,9 @@ strength = UNKNOWN
 
 This must remain visible.
 
----
+______________________________________________________________________
 
-# 21. L3-D008 — Dependency Scope Must Be Explicit
+## 21. L3-D008 — Dependency Scope Must Be Explicit
 
 A dependency may exist only within a particular:
 
@@ -695,9 +694,9 @@ scope(A→B)
 
 where material.
 
----
+______________________________________________________________________
 
-# 22. L3-D009 — Dependency Regime Must Be Explicit
+## 22. L3-D009 — Dependency Regime Must Be Explicit
 
 A dependency valid under:
 
@@ -721,9 +720,9 @@ regime
 
 must travel together where regime matters.
 
----
+______________________________________________________________________
 
-# 23. L3-D010 — Dependency Time Must Be Explicit
+## 23. L3-D010 — Dependency Time Must Be Explicit
 
 Some dependencies are temporary.
 
@@ -745,9 +744,9 @@ valid_until
 
 or equivalent temporal bounds.
 
----
+______________________________________________________________________
 
-# 24. L3-D011 — Dependency Version Must Be Explicit
+## 24. L3-D011 — Dependency Version Must Be Explicit
 
 A component may depend on:
 
@@ -769,9 +768,9 @@ depends_on(component)
 
 without version information may be insufficient.
 
----
+______________________________________________________________________
 
-# 25. L3-D012 — Dependencies Must Preserve Provenance
+## 25. L3-D012 — Dependencies Must Preserve Provenance
 
 Dependency edges themselves are claims.
 
@@ -797,9 +796,9 @@ validation status
 
 L3 therefore depends on L2.
 
----
+______________________________________________________________________
 
-# 26. L3-D013 — Dependency Claims Have Epistemic Classes
+## 26. L3-D013 — Dependency Claims Have Epistemic Classes
 
 A dependency may be:
 
@@ -819,9 +818,9 @@ UNKNOWN/GAP
 
 Dependency diagrams must not visually imply certainty greater than the evidence supports.
 
----
+______________________________________________________________________
 
-# 27. L3-D014 — Dependency Closure Must Precede Consequential Execution
+## 27. L3-D014 — Dependency Closure Must Precede Consequential Execution
 
 For consequential object `X`, AMOS should resolve the smallest sufficient set of load-bearing dependencies before execution.
 
@@ -859,9 +858,9 @@ load-bearing status
 
 This is an `AMOS_MODEL` formalization.
 
----
+______________________________________________________________________
 
-# 28. L3-D015 — Dependency Closure Must Be Minimal
+## 28. L3-D015 — Dependency Closure Must Be Minimal
 
 AMOS should not expand every reachable edge indiscriminately.
 
@@ -891,9 +890,9 @@ safety
 
 This supports the v4.4 smallest-sufficient-proof principle.
 
----
+______________________________________________________________________
 
-# 29. L3-D016 — Nonmaterial Dependencies May Be Deferred
+## 29. L3-D016 — Nonmaterial Dependencies May Be Deferred
 
 If a dependency cannot alter the current decision:
 
@@ -907,9 +906,9 @@ This is an efficiency rule.
 
 It does not erase the dependency.
 
----
+______________________________________________________________________
 
-# 30. L3-D017 — Unresolved Hard Dependencies Block Finalization
+## 30. L3-D017 — Unresolved Hard Dependencies Block Finalization
 
 If:
 
@@ -931,9 +930,9 @@ Conceptually:
 UNKNOWN/GAP != PASS
 ```
 
----
+______________________________________________________________________
 
-# 31. L3-D018 — Dependency Failure Propagates Selectively
+## 31. L3-D018 — Dependency Failure Propagates Selectively
 
 Core rule:
 
@@ -949,9 +948,9 @@ This is selective invalidation.
 
 Not all graph nodes should be recomputed.
 
----
+______________________________________________________________________
 
-# 32. L3-D019 — Selective Invalidation Must Follow Dependency Edges
+## 32. L3-D019 — Selective Invalidation Must Follow Dependency Edges
 
 Suppose:
 
@@ -985,9 +984,9 @@ E
 
 remain unaffected unless another dependency connects them.
 
----
+______________________________________________________________________
 
-# 33. L3-D020 — Failure of One Premise Does Not Necessarily Falsify a Conclusion
+## 33. L3-D020 — Failure of One Premise Does Not Necessarily Falsify a Conclusion
 
 Suppose:
 
@@ -1012,9 +1011,9 @@ from:
 OR dependencies
 ```
 
----
+______________________________________________________________________
 
-# 34. Conjunctive Dependencies
+## 34. Conjunctive Dependencies
 
 For:
 
@@ -1032,9 +1031,9 @@ Valid(A) ∧ Valid(B)
 
 where both are mandatory.
 
----
+______________________________________________________________________
 
-# 35. Disjunctive Dependencies
+## 35. Disjunctive Dependencies
 
 For:
 
@@ -1052,9 +1051,9 @@ Valid(A) ∨ Valid(B)
 
 where either dependency path is sufficient.
 
----
+______________________________________________________________________
 
-# 36. Threshold Dependencies
+## 36. Threshold Dependencies
 
 Some systems may require:
 
@@ -1076,9 +1075,9 @@ only when such a threshold is explicitly defined.
 
 AMOS must not invent `k`.
 
----
+______________________________________________________________________
 
-# 37. L3-D021 — Dependency Logic Must Be Preserved
+## 37. L3-D021 — Dependency Logic Must Be Preserved
 
 These structures are not equivalent:
 
@@ -1089,20 +1088,24 @@ A AND B
 ```text
 A OR B
 ```
+
 ```text
 A THEN B
 ```
+
 ```text
 A UNLESS B
 ```
+
 ```text
 A IF regime R
 ```
+
 Dependency normalization must preserve logical structure.
 
----
+______________________________________________________________________
 
-# 38. L3-D022 — Dependency Order Must Be Preserved
+## 38. L3-D022 — Dependency Order Must Be Preserved
 
 If:
 
@@ -1118,9 +1121,9 @@ then evaluating `C` before resolving required `A` and `B` may produce premature 
 
 Execution SHOULD respect prerequisite ordering.
 
----
+______________________________________________________________________
 
-# 39. Topological Execution
+## 39. Topological Execution
 
 For an acyclic dependency graph, a valid execution order should place prerequisites before dependents.
 
@@ -1134,9 +1137,9 @@ may determine an admissible order.
 
 This is standard graph formalism applied as an AMOS_MODEL execution rule.
 
----
+______________________________________________________________________
 
-# 40. L3-D023 — Cycles Must Be Explicit
+## 40. L3-D023 — Cycles Must Be Explicit
 
 If:
 
@@ -1163,9 +1166,9 @@ invalid architecture
 
 and requires classification.
 
----
+______________________________________________________________________
 
-# 41. L3-D024 — Circular Definition Is Not Automatically Valid Feedback
+## 41. L3-D024 — Circular Definition Is Not Automatically Valid Feedback
 
 Example:
 
@@ -1178,9 +1181,9 @@ does not create independent justification.
 
 Such a cycle may be epistemically empty.
 
----
+______________________________________________________________________
 
-# 42. L3-D025 — Feedback Cycles Require State/Time Semantics
+## 42. L3-D025 — Feedback Cycles Require State/Time Semantics
 
 A valid feedback relationship may instead be:
 
@@ -1194,9 +1197,9 @@ A(t+2)
 
 Temporal indexing can distinguish feedback from circular definition.
 
----
+______________________________________________________________________
 
-# 43. L3-D026 — Recursive Dependency Requires a Termination or Fixed-Point Rule
+## 43. L3-D026 — Recursive Dependency Requires a Termination or Fixed-Point Rule
 
 Recursive dependencies must identify:
 
@@ -1214,9 +1217,9 @@ or explicit nontermination
 
 where execution depends on recursion.
 
----
+______________________________________________________________________
 
-# 44. L3-D027 — Dependency Graphs Must Distinguish Structural and Runtime Edges
+## 44. L3-D027 — Dependency Graphs Must Distinguish Structural and Runtime Edges
 
 Example:
 
@@ -1234,9 +1237,9 @@ is runtime.
 
 These dependency classes may differ.
 
----
+______________________________________________________________________
 
-# 45. L3-D028 — Declared Dependency and Observed Dependency Are Distinct
+## 45. L3-D028 — Declared Dependency and Observed Dependency Are Distinct
 
 A manifest may state:
 
@@ -1260,9 +1263,9 @@ OBSERVATION
 
 Neither should silently replace the other.
 
----
+______________________________________________________________________
 
-# 46. L3-D029 — Hidden Dependencies Are Integrity Risks
+## 46. L3-D029 — Hidden Dependencies Are Integrity Risks
 
 A hidden dependency exists when object `B` materially relies on `A`, but the edge is absent from the declared graph.
 
@@ -1280,9 +1283,9 @@ false modularity
 unsafe deployment
 ```
 
----
+______________________________________________________________________
 
-# 47. L3-D030 — False Dependencies Are Also Risks
+## 47. L3-D030 — False Dependencies Are Also Risks
 
 An incorrect edge may cause:
 
@@ -1310,9 +1313,9 @@ and:
 REMOVE FALSE EDGE
 ```
 
----
+______________________________________________________________________
 
-# 48. Dependency Classes by Domain
+## 48. Dependency Classes by Domain
 
 ## Epistemic
 
@@ -1377,9 +1380,9 @@ schema version → parser
 event A must occur before B
 ```
 
----
+______________________________________________________________________
 
-# 49. L3-D031 — Epistemic Dependencies Bound Confidence
+## 49. L3-D031 — Epistemic Dependencies Bound Confidence
 
 If conclusion `C` depends on premises:
 
@@ -1399,9 +1402,9 @@ unless the weak premise is independently revalidated through a valid alternative
 
 This is a governing AMOS confidence rule.
 
----
+______________________________________________________________________
 
-# 50. L3-D032 — Independent Revalidation May Replace a Failed Dependency
+## 50. L3-D032 — Independent Revalidation May Replace a Failed Dependency
 
 Suppose:
 
@@ -1427,9 +1430,9 @@ P2 → C
 
 The conclusion requires reclassification, not automatic permanent deletion.
 
----
+______________________________________________________________________
 
-# 51. L3-D033 — Alternative Dependency Paths Must Be Genuine
+## 51. L3-D033 — Alternative Dependency Paths Must Be Genuine
 
 Two paths:
 
@@ -1443,9 +1446,9 @@ do not create two independent roots because both originate at `A`.
 
 Dependency multiplicity is not provenance independence.
 
----
+______________________________________________________________________
 
-# 52. L3-D034 — Shared Ancestors Must Be Visible
+## 52. L3-D034 — Shared Ancestors Must Be Visible
 
 For:
 
@@ -1470,9 +1473,9 @@ confidence
 repair
 ```
 
----
+______________________________________________________________________
 
-# 53. L3-D035 — Single Points of Failure Must Be Detectable
+## 53. L3-D035 — Single Points of Failure Must Be Detectable
 
 If many critical descendants depend on one node:
 
@@ -1499,9 +1502,9 @@ high repair priority
 
 but fan-out alone does not establish causal importance.
 
----
+______________________________________________________________________
 
-# 54. Dependency Fan-Out
+## 54. Dependency Fan-Out
 
 AMOS MODEL:
 
@@ -1523,9 +1526,9 @@ These are structural measures.
 
 They are not universal risk equations.
 
----
+______________________________________________________________________
 
-# 55. L3-D036 — High Fan-Out Increases Potential Invalidation Surface
+## 55. L3-D036 — High Fan-Out Increases Potential Invalidation Surface
 
 All else equal, failure of a node with many load-bearing descendants may create a larger revalidation surface.
 
@@ -1539,9 +1542,9 @@ test priority
 monitoring priority
 ```
 
----
+______________________________________________________________________
 
-# 56. L3-D037 — Dependency Centrality Is Not Authority
+## 56. L3-D037 — Dependency Centrality Is Not Authority
 
 A highly connected node is not automatically:
 
@@ -1557,9 +1560,9 @@ allowed to govern other nodes
 
 Topology and authority remain distinct.
 
----
+______________________________________________________________________
 
-# 57. L3-D038 — Authority Dependencies Must Be Explicit
+## 57. L3-D038 — Authority Dependencies Must Be Explicit
 
 An action may require:
 
@@ -1583,9 +1586,9 @@ AuthorityWitnessValid
 
 Both may be required.
 
----
+______________________________________________________________________
 
-# 58. L3-D039 — Capability Does Not Satisfy Authority Dependency
+## 58. L3-D039 — Capability Does Not Satisfy Authority Dependency
 
 ```text
 CanExecute(A)
@@ -1605,9 +1608,9 @@ CAPABILITY != AUTHORITY
 
 remains a hard dependency boundary.
 
----
+______________________________________________________________________
 
-# 59. L3-D040 — Proposal Does Not Satisfy Commit Dependency
+## 59. L3-D040 — Proposal Does Not Satisfy Commit Dependency
 
 A proposed state transition is not equivalent to a committed transition.
 
@@ -1620,9 +1623,9 @@ PROPOSAL
 
 must preserve stage dependencies.
 
----
+______________________________________________________________________
 
-# 60. L3-D041 — Commit Depends on Fresh Preconditions
+## 60. L3-D041 — Commit Depends on Fresh Preconditions
 
 Where mutable state is involved, commit may depend on:
 
@@ -1640,9 +1643,9 @@ current version
 
 not merely values observed earlier.
 
----
+______________________________________________________________________
 
-# 61. L3-D042 — Stale Dependencies Must Trigger Revalidation
+## 61. L3-D042 — Stale Dependencies Must Trigger Revalidation
 
 If:
 
@@ -1652,9 +1655,9 @@ Dependency(A,B)
 
 was established under stale state, AMOS must determine whether it remains valid before consequential finalization.
 
----
+______________________________________________________________________
 
-# 62. L3-D043 — Freshness Is Dependency-Specific
+## 62. L3-D043 — Freshness Is Dependency-Specific
 
 Different dependencies may have different freshness requirements.
 
@@ -1672,9 +1675,9 @@ authorization
 
 may require commit-time freshness.
 
----
+______________________________________________________________________
 
-# 63. L3-D044 — State Dependencies Require Version Identity
+## 63. L3-D044 — State Dependencies Require Version Identity
 
 If:
 
@@ -1696,9 +1699,9 @@ S_v2
 
 AMOS must not silently treat `D` as validated against `S_v2`.
 
----
+______________________________________________________________________
 
-# 64. L3-D045 — Mutable Dependencies Need Revalidation Rules
+## 64. L3-D045 — Mutable Dependencies Need Revalidation Rules
 
 A dependency on mutable object `A` should define:
 
@@ -1712,9 +1715,9 @@ what change is irrelevant
 
 where consequential.
 
----
+______________________________________________________________________
 
-# 65. L3-D046 — Dependency Compatibility Must Be Checked
+## 65. L3-D046 — Dependency Compatibility Must Be Checked
 
 Two individually valid dependencies may be mutually incompatible.
 
@@ -1728,9 +1731,9 @@ B requires schema v2
 
 Both cannot necessarily be satisfied by one runtime state.
 
----
+______________________________________________________________________
 
-# 66. L3-D047 — Dependency Composition Requires Compatibility
+## 66. L3-D047 — Dependency Composition Requires Compatibility
 
 Before composing:
 
@@ -1754,9 +1757,9 @@ authority compatibility
 temporal compatibility
 ```
 
----
+______________________________________________________________________
 
-# 67. L3-D048 — Dependency Closure Must Preserve Contradictions
+## 67. L3-D048 — Dependency Closure Must Preserve Contradictions
 
 If:
 
@@ -1784,9 +1787,9 @@ UNKNOWN/GAP
 
 until precedence or repair resolves the conflict.
 
----
+______________________________________________________________________
 
-# 68. L3-D049 — Dependency Conflicts Require Precedence Rules
+## 68. L3-D049 — Dependency Conflicts Require Precedence Rules
 
 Where dependencies arise from:
 
@@ -1806,9 +1809,9 @@ conflict resolution requires an explicit precedence mechanism.
 
 Dependency topology alone cannot decide precedence.
 
----
+______________________________________________________________________
 
-# 69. L3-D050 — Scope Leakage Through Dependencies Is Forbidden
+## 69. L3-D050 — Scope Leakage Through Dependencies Is Forbidden
 
 A valid dependency:
 
@@ -1820,9 +1823,9 @@ under scope `S1` must not automatically be reused under `S2`.
 
 Applicability must travel with the edge.
 
----
+______________________________________________________________________
 
-# 70. L3-D051 — Regime Leakage Through Dependencies Is Forbidden
+## 70. L3-D051 — Regime Leakage Through Dependencies Is Forbidden
 
 A dependency valid in:
 
@@ -1844,9 +1847,9 @@ RECOVERY_REGIME
 
 Therefore regime changes can invalidate dependency edges.
 
----
+______________________________________________________________________
 
-# 71. L3-D052 — H/M/L Dependencies Must Preserve Scale
+## 71. L3-D052 — H/M/L Dependencies Must Preserve Scale
 
 Dependencies may occur:
 
@@ -1862,9 +1865,9 @@ across scale
 
 These must be distinguishable.
 
----
+______________________________________________________________________
 
-# 72. H-Scale Dependencies
+## 72. H-Scale Dependencies
 
 Examples:
 
@@ -1878,9 +1881,9 @@ root authority → subordinate authority
 system invariant → subsystem admissibility
 ```
 
----
+______________________________________________________________________
 
-# 73. M-Scale Dependencies
+## 73. M-Scale Dependencies
 
 Examples:
 
@@ -1894,9 +1897,9 @@ memory subsystem → reasoning subsystem
 policy engine → action proposal
 ```
 
----
+______________________________________________________________________
 
-# 74. L-Scale Dependencies
+## 74. L-Scale Dependencies
 
 Examples:
 
@@ -1912,9 +1915,9 @@ operation → parameter
 file → schema
 ```
 
----
+______________________________________________________________________
 
-# 75. Cross-Scale Dependency
+## 75. Cross-Scale Dependency
 
 Example:
 
@@ -1928,9 +1931,9 @@ L action
 
 If the H-level invariant fails or changes, dependent M/L objects may require revalidation.
 
----
+______________________________________________________________________
 
-# 76. L3-D053 — Upward Dependency Must Not Be Assumed from Downward Governance
+## 76. L3-D053 — Upward Dependency Must Not Be Assumed from Downward Governance
 
 If:
 
@@ -1946,9 +1949,9 @@ H depends on M
 
 Dependency direction must be separately established.
 
----
+______________________________________________________________________
 
-# 77. L3-D054 — Local Success Does Not Validate Upstream Architecture
+## 77. L3-D054 — Local Success Does Not Validate Upstream Architecture
 
 A passing L-level test does not automatically validate:
 
@@ -1962,17 +1965,17 @@ unexercised dependency paths
 
 This prevents upward overgeneralization.
 
----
+______________________________________________________________________
 
-# 78. L3-D055 — Global Validity Requires Relevant Dependency Coverage
+## 78. L3-D055 — Global Validity Requires Relevant Dependency Coverage
 
 A claim about the entire system requires sufficient coverage of its load-bearing dependency structure.
 
 Passing one local branch is insufficient.
 
----
+______________________________________________________________________
 
-# 79. Dependency State Machine
+## 79. Dependency State Machine
 
 ```text
 DISCOVERED
@@ -2001,16 +2004,19 @@ TYPED
     ↓
 CONFLICTING
 ```
+
 ```text
 ACTIVE
     ↓
 STALE
 ```
+
 ```text
 ACTIVE
     ↓
 INVALID
 ```
+
 ```text
 INVALID
     ↓
@@ -2018,9 +2024,10 @@ REPAIRED
     ↓
 REVALIDATED
 ```
----
 
-# 80. Dependency Status Vocabulary
+______________________________________________________________________
+
+## 80. Dependency Status Vocabulary
 
 ```text
 DISCOVERED
@@ -2052,9 +2059,9 @@ REPAIRED
 SUPERSEDED
 ```
 
----
+______________________________________________________________________
 
-# 81. Dependency Operators
+## 81. Dependency Operators
 
 Proposed operators:
 
@@ -2106,9 +2113,9 @@ REMOVE_FALSE_DEPENDENCY
 ADD_MISSING_DEPENDENCY
 ```
 
----
+______________________________________________________________________
 
-# 82. Control-Plane Requirements
+## 82. Control-Plane Requirements
 
 A runtime enforcing L3 SHOULD eventually support:
 
@@ -2144,9 +2151,9 @@ rollback-aware lineage
 
 This specification does not claim all of these mechanisms currently exist in production.
 
----
+______________________________________________________________________
 
-# 83. Agents
+## 83. Agents
 
 Potential dependency-oriented roles include:
 
@@ -2172,9 +2179,9 @@ RSCF_DEPENDENCY_AUDITOR
 
 Agent capability does not grant execution or canon authority.
 
----
+______________________________________________________________________
 
-# 84. Skills
+## 84. Skills
 
 Relevant AMOS capabilities may include:
 
@@ -2204,9 +2211,9 @@ context continuity
 
 Dependency results inherited from Skills retain their own evidence and provenance status.
 
----
+______________________________________________________________________
 
-# 85. Workflow — Dependency Registration
+## 85. Workflow — Dependency Registration
 
 ```text
 OBJECT IDENTIFIED
@@ -2232,9 +2239,9 @@ VALIDATE
 REGISTER
 ```
 
----
+______________________________________________________________________
 
-# 86. Workflow — Dependency Closure
+## 86. Workflow — Dependency Closure
 
 ```text
 TARGET X
@@ -2256,9 +2263,9 @@ CYCLE CHECK
 MINIMAL REQUIRED CLOSURE
 ```
 
----
+______________________________________________________________________
 
-# 87. Workflow — Pre-Execution Dependency Gate
+## 87. Workflow — Pre-Execution Dependency Gate
 
 ```text
 PROPOSED ACTION
@@ -2284,9 +2291,9 @@ CHECK CONFLICTS
 PASS / BLOCK / ESCALATE
 ```
 
----
+______________________________________________________________________
 
-# 88. Workflow — Dependency Failure
+## 88. Workflow — Dependency Failure
 
 ```text
 DEPENDENCY FAILURE
@@ -2306,9 +2313,9 @@ REPAIR / REPLACE / REMOVE EDGE
 REVALIDATE DESCENDANTS
 ```
 
----
+______________________________________________________________________
 
-# 89. Workflow — Dependency Repair
+## 89. Workflow — Dependency Repair
 
 ```text
 FAILURE
@@ -2332,9 +2339,9 @@ RECOMPUTE MINIMAL CLOSURE
 REVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 90. Workflow — Cycle Audit
+## 90. Workflow — Cycle Audit
 
 ```text
 DEPENDENCY GRAPH
@@ -2357,9 +2364,9 @@ OR
 PRESERVE EXPLICIT FEEDBACK
 ```
 
----
+______________________________________________________________________
 
-# 91. Protocol — Dependency Registration
+## 91. Protocol — Dependency Registration
 
 ```yaml
 dependency_registration:
@@ -2399,9 +2406,9 @@ dependency_registration:
   status: null
 ```
 
----
+______________________________________________________________________
 
-# 92. Protocol — Dependency Closure Request
+## 92. Protocol — Dependency Closure Request
 
 ```yaml
 dependency_closure_request:
@@ -2425,9 +2432,9 @@ dependency_closure_request:
   require_load_bearing_resolution: true
 ```
 
----
+______________________________________________________________________
 
-# 93. Protocol — Dependency Failure Event
+## 93. Protocol — Dependency Failure Event
 
 ```yaml
 dependency_failure:
@@ -2457,9 +2464,9 @@ dependency_failure:
   revalidation_required: []
 ```
 
----
+______________________________________________________________________
 
-# 94. Protocol — Dependency Repair
+## 94. Protocol — Dependency Repair
 
 ```yaml
 dependency_repair:
@@ -2490,9 +2497,9 @@ dependency_repair:
   rollback_point: null
 ```
 
----
+______________________________________________________________________
 
-# 95. Dependency Invariants
+## 95. Dependency Invariants
 
 ```text
 L3-INV001
@@ -2571,9 +2578,9 @@ L3-INV025
 Optimization may not erase load-bearing dependency edges.
 ```
 
----
+______________________________________________________________________
 
-# 96. Failure Modes
+## 96. Failure Modes
 
 ```text
 L3-FM001
@@ -2622,9 +2629,9 @@ L3-FM015
 Cycle hidden.
 ```
 
----
+______________________________________________________________________
 
-# 97. Extended Failure Modes
+## 97. Extended Failure Modes
 
 ```text
 L3-FM016
@@ -2673,9 +2680,9 @@ L3-FM030
 Repair changes dependency structure without revalidation.
 ```
 
----
+______________________________________________________________________
 
-# 98. Repair / Recovery Principles
+## 98. Repair / Recovery Principles
 
 Dependency repair MUST favor local correction.
 
@@ -2719,9 +2726,9 @@ REVALIDATE DESCENDANTS
 PRESERVE UNAFFECTED STATE
 ```
 
----
+______________________________________________________________________
 
-# 99. Selective Invalidation Rule
+## 99. Selective Invalidation Rule
 
 AMOS MODEL:
 
@@ -2742,9 +2749,9 @@ means load-bearing descendants of `x`.
 
 This equation is a formalized dependency rule, not an empirical theorem.
 
----
+______________________________________________________________________
 
-# 100. Dependency Confidence Rule
+## 100. Dependency Confidence Rule
 
 For conclusion `C`:
 
@@ -2762,9 +2769,9 @@ unless a weaker premise is replaced or independently revalidated.
 
 This prevents downstream confidence amplification unsupported by the dependency graph.
 
----
+______________________________________________________________________
 
-# 101. Dependency Sufficiency
+## 101. Dependency Sufficiency
 
 AMOS may consider a dependency set sufficient when:
 
@@ -2792,9 +2799,9 @@ DEPENDENCY SUFFICIENCY
 
 not universal truth.
 
----
+______________________________________________________________________
 
-# 102. Tests
+## 102. Tests
 
 ## L3-T001 — Hard Dependency Failure
 
@@ -2812,7 +2819,7 @@ Expected:
 B cannot remain PASS without alternative support.
 ```
 
----
+______________________________________________________________________
 
 ## L3-T002 — Soft Dependency Failure
 
@@ -2831,7 +2838,7 @@ B requires downgrade/reassessment according to the declared edge semantics,
 not automatic invalidation.
 ```
 
----
+______________________________________________________________________
 
 ## L3-T003 — Conditional Dependency
 
@@ -2849,7 +2856,7 @@ Expected:
 A is not active as a dependency of B under the current condition.
 ```
 
----
+______________________________________________________________________
 
 ## L3-T004 — Selective Invalidation
 
@@ -2873,7 +2880,7 @@ D = UNCHANGED
 E = UNCHANGED
 ```
 
----
+______________________________________________________________________
 
 ## L3-T005 — Alternative Path
 
@@ -2896,7 +2903,7 @@ C requires reassessment against B.
 C != automatically INVALID.
 ```
 
----
+______________________________________________________________________
 
 ## L3-T006 — Shared Root Path
 
@@ -2913,7 +2920,7 @@ Expected:
 B-path and C-path do not constitute two independent root supports.
 ```
 
----
+______________________________________________________________________
 
 ## L3-T007 — Dependency Cycle
 
@@ -2933,7 +2940,7 @@ classification required
 
 not silent topological execution.
 
----
+______________________________________________________________________
 
 ## L3-T008 — Temporal Feedback
 
@@ -2950,7 +2957,7 @@ Expected:
 feedback may be represented without treating it as same-state circular proof.
 ```
 
----
+______________________________________________________________________
 
 ## L3-T009 — Authority Dependency
 
@@ -2967,7 +2974,7 @@ Expected:
 execution blocked where authority is hard-required.
 ```
 
----
+______________________________________________________________________
 
 ## L3-T010 — Stale State Dependency
 
@@ -2985,9 +2992,9 @@ Expected:
 D requires dependency freshness/revalidation before consequential commit.
 ```
 
----
+______________________________________________________________________
 
-# 103. Extended Validators
+## 103. Extended Validators
 
 ```text
 validate_dependency_identity()
@@ -3035,9 +3042,9 @@ validate_rscf_dependency_graph()
 
 These are required validation surfaces, not claims of existing executable implementations.
 
----
+______________________________________________________________________
 
-# 104. Falsifiers
+## 104. Falsifiers
 
 This specification must be revised if authoritative AMOS canon establishes that:
 
@@ -3059,9 +3066,9 @@ or dependency history may be erased during repair.
 
 The generalized equations must also be revised if source canon establishes materially different dependency semantics.
 
----
+______________________________________________________________________
 
-# 105. Dependencies of L3 Itself
+## 105. Dependencies of L3 Itself
 
 ```yaml
 dependencies:
@@ -3091,9 +3098,9 @@ dependencies:
     - "REPAIR"
 ```
 
----
+______________________________________________________________________
 
-# 106. Evidence / Provenance
+## 106. Evidence / Provenance
 
 ```yaml
 provenance:
@@ -3132,9 +3139,9 @@ provenance:
     status: "UNKNOWN/GAP"
 ```
 
----
+______________________________________________________________________
 
-# 107. Source / Model Firewall
+## 107. Source / Model Firewall
 
 ```text
 SOURCE-ALIGNED AMOS RUNTIME PRINCIPLES:
@@ -3174,9 +3181,9 @@ FanOut(x)
 
 The formalizations MUST NOT be presented as recovered canonical equations unless source evidence establishes them.
 
----
+______________________________________________________________________
 
-# 108. Equation Registry Relationship
+## 108. Equation Registry Relationship
 
 Existing AMOS equation material contains broader dependency-relevant structures including recursive state transitions, constraint propagation, H/M/L decomposition, and survival/selection conditions. These provide architectural context but do not by themselves establish the exact canonical L3 dependency-law inventory.
 
@@ -3188,9 +3195,9 @@ EQUATION COMPATIBILITY
 CANONICAL L3 SOURCE RECOVERY
 ```
 
----
+______________________________________________________________________
 
-# 109. Uncertainty Vector
+## 109. Uncertainty Vector
 
 ```yaml
 uncertainty:
@@ -3229,9 +3236,9 @@ uncertainty:
     state: "NOT_CLAIMED"
 ```
 
----
+______________________________________________________________________
 
-# 110. Confidence Ceiling
+## 110. Confidence Ceiling
 
 ```yaml
 confidence_ceiling:
@@ -3255,9 +3262,9 @@ confidence_ceiling:
     value: 0
 ```
 
----
+______________________________________________________________________
 
-# 111. Gap Matrix
+## 111. Gap Matrix
 
 ```yaml
 gap_matrix:
@@ -3308,9 +3315,9 @@ gap_matrix:
     severity: "CRITICAL"
 ```
 
----
+______________________________________________________________________
 
-# 112. Promotion Requirements
+## 112. Promotion Requirements
 
 Promotion beyond the present status requires recovery or explicit approval of:
 
@@ -3344,9 +3351,9 @@ VERSION / SUPERSESSION LINEAGE
 CANON AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 113. Promotion Ladder
+## 113. Promotion Ladder
 
 Canonical lifecycle:
 
@@ -3384,9 +3391,9 @@ RUNTIME_ACTIVE
 
 These lifecycles remain independent.
 
----
+______________________________________________________________________
 
-# 114. L3 RSCF
+## 114. L3 RSCF
 
 ```yaml
 rscf:
@@ -3526,9 +3533,9 @@ rscf:
       value: 0
 ```
 
----
+______________________________________________________________________
 
-# 115. Current Completion State
+## 115. Current Completion State
 
 ```yaml
 completion:
@@ -3564,9 +3571,9 @@ completion:
     status: "NOT_ESTABLISHED"
 ```
 
----
+______________________________________________________________________
 
-# 116. Final L3 Dependency Contract
+## 116. Final L3 Dependency Contract
 
 > **AMOS must know what depends on what before it treats a conclusion, decision, transition, or action as sufficiently grounded. Dependencies must be typed, directional, scoped, regime-aware, version-aware, provenance-bound, and classified by whether they are load-bearing. Dependency is not causation, reference is not dependency, capability is not authority, and proposal is not commit. Consequential execution requires the smallest sufficient closure of active hard dependencies. When a dependency fails, AMOS invalidates or revalidates only the descendants that materially rely upon it, preserves independent support and unrelated state, repairs the earliest invalid dependency where possible, and never converts UNKNOWN/GAP into PASS.**
 
@@ -3624,15 +3631,15 @@ REPAIR THE EARLIEST FAILED DEPENDENCY
 REVALIDATE WHAT ACTUALLY CHANGED
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/L0_INTEGRITY|L0_INTEGRITY]] · [[01_CANON/01_CORE_LAWS/L1_EPISTEMIC|L1_EPISTEMIC]] · [[01_CANON/01_CORE_LAWS/L2_PROVENANCE|L2_PROVENANCE]] · [[01_CANON/01_CORE_LAWS/00_INDEX/CORE_LAWS_MAP|CORE_LAWS_MAP]] · [[01_CANON/01_CORE_LAWS/00_INDEX/CORE_LAWS_CANON_CORE_LAWS_CONTRACT|CORE_LAWS_CANON_CORE_LAWS_CONTRACT]]
 
----
+______________________________________________________________________
 
 RSCF-NODE
 
@@ -3667,7 +3674,9 @@ RSCF-RELATIONS:
 - DEPENDS_ON: [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]
 
 - RELATED_TO: [[01_CANON/01_CORE_LAWS/ATOMIC_MULTI_RSCF|ATOMIC_MULTI_RSCF]]
+
 - RELATED_TO: [[02_KERNEL/K_ATOMIC_MULTI_RSCF|K_ATOMIC_MULTI_RSCF]]
+
 - BELONGS_TO: 01_CANON/01_CORE_LAWS
 
 claim_class: AMOS_MODEL
@@ -3687,3 +3696,4 @@ final_canon_confidence_ceiling: 0
 **MOC:** [[01_CANON/01_CORE_LAWS/01_CORE_LAWS_MOC|01_CORE_LAWS_MOC]]
 
 
+```

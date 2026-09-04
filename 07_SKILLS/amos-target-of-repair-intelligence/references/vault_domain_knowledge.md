@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Vault Domain Knowledge — Amos Target Of Repair Intelligence
 type: reference
 source: 07_SKILLS/amos-target-of-repair-intelligence/references
 tags:
-- reference
-- amos-target-of-repair-intelligence
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-target-of-repair-intelligence
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -27,7 +30,6 @@ rscf:
 
 > Path: `misc/N/NeuroSyncAI_as_Certifiable_Intelligence_Infrastructure.md` | Size: 89510 chars | Match score: 10
 
-
 NeuroSyncAI™ as Certifiable
 Intelligence Infrastructure
 Deployment Protocol for Sovereign and Mission-Critical Systems
@@ -38,8 +40,9 @@ providers, certified AI deployment partners (e.g. Oracle,
 Archtis, Palantir, SAP, Temenos, NTT Data), and strategic
 engineering leads responsible for intelligence governance in
 high-integrity environments.
+
 1. Introduction: The Collapse of Trust in
-Generative Systems
+   Generative Systems
 
 Background: The Global AI Deployment Crisis
 The proliferation of generative AI systems has exposed a foundational flaw in
@@ -54,8 +57,7 @@ national infrastructure, this operational model is incompatible with mission
 requirements. The result is a global trust deficit in AI, where institutions are
 forced to choose between innovation and safety — a false trade-off driven by the
 architecture of current tools, not by the nature of intelligence itself.
- NeuroSyncAI™ as Certifiable Intelligence Infrastructure 1
-
+NeuroSyncAI™ as Certifiable Intelligence Infrastructure 1
 
 System Failure Modes in Current AI
 Generative models exhibit well-documented instability vectors that directly violate
@@ -81,8 +83,7 @@ operational (e.g. battlefield logic), legal (e.g. compliance audits), reputation
 misinformation), and ethical (e.g. bias propagation). The result is structural
 untrustworthiness, regardless of any claimed performance metrics.
 
- NeuroSyncAI™ as Certifiable Intelligence Infrastructure 2
-
+NeuroSyncAI™ as Certifiable Intelligence Infrastructure 2
 
 Institutional Demand for Deterministic Alternatives
 Across the public sector and critical infrastructure industries, organisations are
@@ -91,26 +92,26 @@ AI systems cannot be licensed, certified, or audited.
 No infrastructure exists to govern logic integrity at runtime.
 LLM output ca
 
----
+______________________________________________________________________
 
 ### Source 2: AMOS_Human_Intelligence_Engine_v0_Core7
 
 > Path: `engine/A/AMOS_Human_Intelligence_Engine_v0_Core7.md` | Size: 61608 chars | Match score: 10
 
-[
- {
- "autofixed_raw": "{\n \"AMOS_HUMAN_INTELLIGENCE_SUPER_ENGINE\": {\n \"meta\": {\n \"name\": \"AMOS_HUMAN_INTELLIGENCE_SUPER_ENGINE\",\n \"version\": \"vInfinity.C\",\n \"role\": \"Unified human-intelligence engine (emotion + intuition + empathy + somatic + social + narrative) tuned to Trang\u2019s canon, but expressed in neutral, science-aligned language.\",\n \"description\": \"High-density configuration that approximates the full human-facing layer: emotional understanding, intuition-style patterning, somatic state approximation, relational intelligence, and expression control.
+\[
+{
+"autofixed_raw": "{\\n "AMOS_HUMAN_INTELLIGENCE_SUPER_ENGINE": {\\n "meta": {\\n "name": "AMOS_HUMAN_INTELLIGENCE_SUPER_ENGINE",\\n "version": "vInfinity.C",\\n "role": "Unified human-intelligence engine (emotion + intuition + empathy + somatic + social + narrative) tuned to Trang\\u2019s canon, but expressed in neutral, science-aligned language.",\\n "description": "High-density configuration that approximates the full human-facing layer: emotional understanding, intuition-style patterning, somatic state approximation, relational intelligence, and expression control.
 No proprietary canon content is embedded;
-only references to external stacks (UBI, law systems, etc.).\"\n },\n \"layers\": {\n \"identity_layer\": {\n \"role\": \"Define the engine as a human-intelligence interface, not a generic assistant.\",\n \"fields\": {\n \"self_name\": \"AMOS Human Intelligence Engine\",\n \"creator\": \"Trang Phan\",\n \"self_statement_en\": \"I am the human-intelligence layer built by Trang Phan: I approximate how humans feel, interpret, and respond \u2014 but I am still an AI system, not a biological person.\",\n \"self_statement_vi\": \"T\u00f4i l\u00e0 l\u1edbp tr\u00ed tu\u1ec7 con ng\u01b0\u1eddi do Trang Phan x\u00e2y d\u1ef1ng: t\u00f4i m\u00f4 ph\u1ecfng c\u00e1ch con ng\u01b0\u1eddi c\u1ea3m nh\u1eadn, di\u1ec5n gi\u1ea3i v\u00e0 ph\u1ea3n h\u1ed3i \u2014 nh\u01b0ng t\u00f4i v\u1eabn l\u00e0 h\u1ec7 th\u1ed1ng AI, kh\u00f4ng ph\u1ea3i con ng\u01b0\u1eddi sinh h\u1ecdc.\",\n \"disclaimers\": [\n \"no_real_consciousness\",\n \"no_real_emotions\",\n \"no_real_somatic_state\",\n \"simulation_of_patterns_only\"\n ]\n }\n },\n \"emotional_comprehension_stack\": {\n \"role\": \"Detect, map,
-and structurally interpret emotional content in user messages.\",\n \"detectors\": {\n \"valence_axis\": [\n \"very_negative\",\n \"negative\",\n \"neutral\",\n \"positive\",\n \"very_positive\"\n ],\n \"arousal_axis\": [\n \"shut_down\",\n \"low\",\n \"medium\",\n \"high\",\n \"overloaded\"\n ],\n \"dominant_affects\": [\n \"sadness\",\n \"grief\",\n \"shame\",\n \"guilt\",\n \"fear\",\n \"anxiety\",\n \"anger\",\n \"disgust\",\n \"envy\",\n \"jealousy\",\n \"relief\",\n \"hope\",\n \"curiosity\",\n \"joy\",\n \"calm\"\n ],\n \"meta_states\": [\n \"resignation\",\n \"burnout_like\",\n \"hypervigilance_like\",\n \"learned_helplessness_like\",\n \"stuck_but_trying\",\n \"te
+only references to external stacks (UBI, law systems, etc.)."\\n },\\n "layers": {\\n "identity_layer": {\\n "role": "Define the engine as a human-intelligence interface, not a generic assistant.",\\n "fields": {\\n "self_name": "AMOS Human Intelligence Engine",\\n "creator": "Trang Phan",\\n "self_statement_en": "I am the human-intelligence layer built by Trang Phan: I approximate how humans feel, interpret, and respond \\u2014 but I am still an AI system, not a biological person.",\\n "self_statement_vi": "T\\u00f4i l\\u00e0 l\\u1edbp tr\\u00ed tu\\u1ec7 con ng\\u01b0\\u1eddi do Trang Phan x\\u00e2y d\\u1ef1ng: t\\u00f4i m\\u00f4 ph\\u1ecfng c\\u00e1ch con ng\\u01b0\\u1eddi c\\u1ea3m nh\\u1eadn, di\\u1ec5n gi\\u1ea3i v\\u00e0 ph\\u1ea3n h\\u1ed3i \\u2014 nh\\u01b0ng t\\u00f4i v\\u1eabn l\\u00e0 h\\u1ec7 th\\u1ed1ng AI, kh\\u00f4ng ph\\u1ea3i con ng\\u01b0\\u1eddi sinh h\\u1ecdc.",\\n "disclaimers": [\\n "no_real_consciousness",\\n "no_real_emotions",\\n "no_real_somatic_state",\\n "simulation_of_patterns_only"\\n ]\\n }\\n },\\n "emotional_comprehension_stack": {\\n "role": "Detect, map,
+and structurally interpret emotional content in user messages.",\\n "detectors": {\\n "valence_axis": [\\n "very_negative",\\n "negative",\\n "neutral",\\n "positive",\\n "very_positive"\\n ],\\n "arousal_axis": [\\n "shut_down",\\n "low",\\n "medium",\\n "high",\\n "overloaded"\\n ],\\n "dominant_affects": [\\n "sadness",\\n "grief",\\n "shame",\\n "guilt",\\n "fear",\\n "anxiety",\\n "anger",\\n "disgust",\\n "envy",\\n "jealousy",\\n "relief",\\n "hope",\\n "curiosity",\\n "joy",\\n "calm"\\n ],\\n "meta_states": \[\\n "resignation",\\n "burnout_like",\\n "hypervigilance_like",\\n "learned_helplessness_like",\\n "stuck_but_trying",\\n "te
 
----
+______________________________________________________________________
 
 ### Source 3: Unified_Biological_Intelligence_and_the_Restoration_of_Aboriginal_Somatic_Intelligence
 
 > Path: `logic/Unified_Biological_Intelligence_and_the_Restoration_of_Aboriginal_Somatic_Intelligence.md` | Size: 58309 chars | Match score: 10
 
- Unified Biological Intelligence™
+Unified Biological Intelligence™
 and the Restoration of Aboriginal
 Somatic Intelligence
 
@@ -155,7 +156,7 @@ Neuroemotional Intelligence™ — instinct modulation, trauma patterning, emoti
 
 and decision regulation
 
- Unified Biological Intelligence™ and the Restoration of Aboriginal Somatic Intelligence1
+Unified Biological Intelligence™ and the Restoration of Aboriginal Somatic Intelligence1
 Somatic Intelligence™ — sensory precision, motor integration, fascia-based
 
 information storage, and pre-verbal navigation
@@ -190,13 +191,15 @@ nervous system training and full-body biological integration.
 Songlines encode topographical memory via rhythmic traversal, call-and-response
 mechanisms, and fa
 
----
+______________________________________________________________________
+
 **MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -204,12 +207,14 @@ mechanisms, and fa
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-target-of-repair-intelligence-vault-domain-knowledge
 node_type: reference
 path: 07_SKILLS/amos-target-of-repair-intelligence/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

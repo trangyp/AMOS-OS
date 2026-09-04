@@ -5,28 +5,28 @@ origin: Google Drive — _00_AMOS_CANON/Unipower/
 origin_architect: Trang Phan
 type: reference
 tags:
-- canon-group/tech-ai
-- unipower
-- engines
-- vietnam
-- australia
-- china
-- global
-- canon-group/human-system
-- economy
-- workforce
-- ev
-- market
-- system-operations
-- ai-intelligence
-- bod
-- scientific
-- strategic-document
-- tech
-- risk-policy-governance
-- omnistructure
-- engine
-- canon/knowledge
+  - canon-group/tech-ai
+  - unipower
+  - engines
+  - vietnam
+  - australia
+  - china
+  - global
+  - canon-group/human-system
+  - economy
+  - workforce
+  - ev
+  - market
+  - system-operations
+  - ai-intelligence
+  - bod
+  - scientific
+  - strategic-document
+  - tech
+  - risk-policy-governance
+  - omnistructure
+  - engine
+  - canon/knowledge
 status: active
 provenance: VERIFIED
 confidence: VERIFIED
@@ -43,7 +43,7 @@ rscf:
 Full inventory of 20 Unipower engine files from `_00_AMOS_CANON/Unipower/`.
 Country-specific (Australia, China, Vietnam) and cross-domain engines.
 
----
+______________________________________________________________________
 
 ## Vietnam Engines (5)
 
@@ -53,7 +53,7 @@ Country-specific (Australia, China, Vietnam) and cross-domain engines.
 
 **Role**: Primary Vietnam legal engine.
 
----
+______________________________________________________________________
 
 ### 2. AMOS_Vn_Omnistructure_Engine
 
@@ -61,7 +61,7 @@ Country-specific (Australia, China, Vietnam) and cross-domain engines.
 
 **Role**: Vietnam omnistructure (compressed).
 
----
+______________________________________________________________________
 
 ### 3. VN_Legal_MAX.json
 
@@ -69,7 +69,7 @@ Country-specific (Australia, China, Vietnam) and cross-domain engines.
 
 **Role**: MAX expansion of Vietnam legal.
 
----
+______________________________________________________________________
 
 ### 4. HSE_Engine.txt
 
@@ -77,7 +77,7 @@ Country-specific (Australia, China, Vietnam) and cross-domain engines.
 
 **Role**: Vietnam human systems analysis.
 
----
+______________________________________________________________________
 
 ### 5. Human Systems Engine™ (HSE) VN
 
@@ -85,7 +85,7 @@ Country-specific (Australia, China, Vietnam) and cross-domain engines.
 
 **Role**: Vietnam HSE markdown version.
 
----
+______________________________________________________________________
 
 ## Australia Engines (3)
 
@@ -95,7 +95,7 @@ Country-specific (Australia, China, Vietnam) and cross-domain engines.
 
 **Role**: Australia economy megakernel.
 
----
+______________________________________________________________________
 
 ### 7. AMOS_Australia_Workforce_Engine
 
@@ -103,7 +103,7 @@ Country-specific (Australia, China, Vietnam) and cross-domain engines.
 
 **Role**: Australia workforce analysis.
 
----
+______________________________________________________________________
 
 ### 8. AMOS_Australia_Law_Incentives_Funding_Grants_Engine
 
@@ -111,7 +111,7 @@ Country-specific (Australia, China, Vietnam) and cross-domain engines.
 
 **Role**: Australia law and incentives.
 
----
+______________________________________________________________________
 
 ## China Engines (2)
 
@@ -121,7 +121,7 @@ Country-specific (Australia, China, Vietnam) and cross-domain engines.
 
 **Role**: China legal kernel+engine.
 
----
+______________________________________________________________________
 
 ### 10. AMOS_Chinese_Legal_Ecosystem_Engine
 
@@ -129,7 +129,7 @@ Country-specific (Australia, China, Vietnam) and cross-domain engines.
 
 **Role**: China legal ecosystem modeling.
 
----
+______________________________________________________________________
 
 ## Global Engines (3)
 
@@ -139,7 +139,7 @@ Country-specific (Australia, China, Vietnam) and cross-domain engines.
 
 **Role**: Global legal reasoning.
 
----
+______________________________________________________________________
 
 ### 12. AMOS_Risk_Policy_Governance_Ecosystem_Engine
 
@@ -147,7 +147,7 @@ Country-specific (Australia, China, Vietnam) and cross-domain engines.
 
 **Role**: Risk, policy, governance ecosystem.
 
----
+______________________________________________________________________
 
 ### 13. AMOS_Scientific_Engine
 
@@ -155,7 +155,7 @@ Country-specific (Australia, China, Vietnam) and cross-domain engines.
 
 **Role**: Scientific godmode reasoning.
 
----
+______________________________________________________________________
 
 ## Cross-Domain Engines (7)
 
@@ -165,7 +165,7 @@ Country-specific (Australia, China, Vietnam) and cross-domain engines.
 
 **Role**: UniPower/AI intelligence OS.
 
----
+______________________________________________________________________
 
 ### 15. AMOS_Uni_Market_Engine
 
@@ -173,7 +173,7 @@ Country-specific (Australia, China, Vietnam) and cross-domain engines.
 
 **Role**: UniPower market/logistics engine.
 
----
+______________________________________________________________________
 
 ### 16. AMOS_Uni_System_Operations_Engine
 
@@ -181,7 +181,7 @@ Country-specific (Australia, China, Vietnam) and cross-domain engines.
 
 **Role**: UniPower system operations.
 
----
+______________________________________________________________________
 
 ### 17. AMOS_Ev_Kernel
 
@@ -189,7 +189,7 @@ Country-specific (Australia, China, Vietnam) and cross-domain engines.
 
 **Role**: EV infrastructure (kernel version).
 
----
+______________________________________________________________________
 
 ### 18. AMOS_Bod_Engine
 
@@ -197,7 +197,7 @@ Country-specific (Australia, China, Vietnam) and cross-domain engines.
 
 **Role**: Board of Directors / executive governance engine.
 
----
+______________________________________________________________________
 
 ### 19. AMOS_Strategic_Document_Engine
 
@@ -205,7 +205,7 @@ Country-specific (Australia, China, Vietnam) and cross-domain engines.
 
 **Role**: Strategic document generation.
 
----
+______________________________________________________________________
 
 ### 20. AMOS_Tech_Engine
 
@@ -213,52 +213,51 @@ Country-specific (Australia, China, Vietnam) and cross-domain engines.
 
 **Role**: General tech engine.
 
----
+______________________________________________________________________
 
 ## Summary Table
 
-| # | Engine | Country/Domain | Type | Key Feature |
-|---|--------|---------------|------|-------------|
-| 1 | Vn_Legal_Engine | Vietnam | Legal | Transport, EV, energy, data, commercial |
-| 2 | Vn_Omnistructure_Engine | Vietnam | Structure | Compressed x100k virtual expansion |
-| 3 | VN_Legal_MAX | Vietnam | Legal | Full expansion MAX |
-| 4 | HSE_Engine.txt | Vietnam | Human Systems | Vietnam HSE text |
-| 5 | HSE VN MD | Vietnam | Human Systems | Vietnam HSE markdown |
-| 6 | Australia_Economy_Engine | Australia | Economy | MEGAKERNEL x1000 |
-| 7 | Australia_Workforce_Engine | Australia | Workforce | Omniverse kernel |
-| 8 | Australia_Law_Incentives | Australia | Law | v2_full_plus_4_advanced_layers |
-| 9 | Chinese_Legal_Engine | China | Legal | Kernel+Engine composite |
-| 10 | Chinese_Legal_Ecosystem | China | Legal | Regulatory ecosystem modeling |
-| 11 | Global_Legal_Engine | Global | Legal | Multi-jurisdiction |
-| 12 | Risk_Policy_Governance | Global | Risk/Gov | Ecosystem_MAX + Governance_Economy_MAX |
-| 13 | Scientific_Engine | Global | Science | DSc-level godmode |
-| 14 | Uni_Ai_Intelligence | Cross-domain | AI/OS | UniPower/UniTaxi ecosystem |
-| 15 | Uni_Market_Engine | Cross-domain | Market | Refactored x100k |
-| 16 | Uni_System_Operations | Cross-domain | Ops | System operations |
-| 17 | Ev_Kernel | Cross-domain | EV | EV kernel (lightweight) |
-| 18 | Bod_Engine | Cross-domain | Governance | Board/executive |
-| 19 | Strategic_Document | Cross-domain | Writing | Strategic documents |
-| 20 | Tech_Engine | Cross-domain | Tech | General tech |
+| #   | Engine                     | Country/Domain | Type          | Key Feature                             |
+| --- | -------------------------- | -------------- | ------------- | --------------------------------------- |
+| 1   | Vn_Legal_Engine            | Vietnam        | Legal         | Transport, EV, energy, data, commercial |
+| 2   | Vn_Omnistructure_Engine    | Vietnam        | Structure     | Compressed x100k virtual expansion      |
+| 3   | VN_Legal_MAX               | Vietnam        | Legal         | Full expansion MAX                      |
+| 4   | HSE_Engine.txt             | Vietnam        | Human Systems | Vietnam HSE text                        |
+| 5   | HSE VN MD                  | Vietnam        | Human Systems | Vietnam HSE markdown                    |
+| 6   | Australia_Economy_Engine   | Australia      | Economy       | MEGAKERNEL x1000                        |
+| 7   | Australia_Workforce_Engine | Australia      | Workforce     | Omniverse kernel                        |
+| 8   | Australia_Law_Incentives   | Australia      | Law           | v2_full_plus_4_advanced_layers          |
+| 9   | Chinese_Legal_Engine       | China          | Legal         | Kernel+Engine composite                 |
+| 10  | Chinese_Legal_Ecosystem    | China          | Legal         | Regulatory ecosystem modeling           |
+| 11  | Global_Legal_Engine        | Global         | Legal         | Multi-jurisdiction                      |
+| 12  | Risk_Policy_Governance     | Global         | Risk/Gov      | Ecosystem_MAX + Governance_Economy_MAX  |
+| 13  | Scientific_Engine          | Global         | Science       | DSc-level godmode                       |
+| 14  | Uni_Ai_Intelligence        | Cross-domain   | AI/OS         | UniPower/UniTaxi ecosystem              |
+| 15  | Uni_Market_Engine          | Cross-domain   | Market        | Refactored x100k                        |
+| 16  | Uni_System_Operations      | Cross-domain   | Ops           | System operations                       |
+| 17  | Ev_Kernel                  | Cross-domain   | EV            | EV kernel (lightweight)                 |
+| 18  | Bod_Engine                 | Cross-domain   | Governance    | Board/executive                         |
+| 19  | Strategic_Document         | Cross-domain   | Writing       | Strategic documents                     |
+| 20  | Tech_Engine                | Cross-domain   | Tech          | General tech                            |
 
----
+______________________________________________________________________
 
 ## Relationship to AMOS Core
 
 Unipower engines are the **country/sector-specific application layer** of AMOS:
 
 1. **Core**: Deterministic Logic & Law Engine
-2. **Cognitive Stack**: 13 domain-neutral reasoning engines
-3. **Domain Engines**: 17 domain-specific engines
-4. **Unipower**: 20 country/sector-specific engines (this document)
+1. **Cognitive Stack**: 13 domain-neutral reasoning engines
+1. **Domain Engines**: 17 domain-specific engines
+1. **Unipower**: 20 country/sector-specific engines (this document)
 
 Each Unipower engine maps to the AMOS omni-logic and can be orchestrated by the AMOS OS Agent with country-specific packs.
 
----
+______________________________________________________________________
 
 ## Source
 
 All engine specs from: `Google Drive /_00_AMOS_CANON/Unipower/` (20 files: 18 JSON + 1 TXT + 1 MD)
-
 
 ## RSCF Links
 
@@ -267,9 +266,10 @@ All engine specs from: `Google Drive /_00_AMOS_CANON/Unipower/` (20 files: 18 JS
 - amos-core-brain-os-engines
 - AMOS_Vietnam_Engines_Model
 
----
+______________________________________________________________________
+
 **Links:** [[11_KNOWLEDGE/engine/ENGINE_MOC|ENGINE_MOC]] | [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]]
 
----
+______________________________________________________________________
 
 **MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]] · [[00_ROOT/00_HOME|00_HOME]]

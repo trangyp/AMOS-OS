@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Vault Domain Knowledge — Mckinsey Enterprise Data Transformation Rscf
 type: reference
 source: 07_SKILLS/mckinsey-enterprise-data-transformation-rscf/references
 tags:
-- reference
-- mckinsey-enterprise-data-transformation-rscf
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - mckinsey-enterprise-data-transformation-rscf
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -27,14 +30,16 @@ rscf:
 
 > Path: `misc/N/NEW PROCESS Transformation Framework.md` | Size: 2521 chars | Match score: 12
 
-# NEW PROCESS — 7-Way Transformation Framework
+## NEW PROCESS — 7-Way Transformation Framework
 
 ## Overview
+
 Transforming Customer Journeys (TCJ) Playbook — living document for journey team transformation.
 
 ## Phases
 
 ### 1. Planning (2 months)
+
 - Initial insight analysis (internal + external)
 - Process diagnostic
 - Revenue/cost baselining
@@ -45,6 +50,7 @@ Transforming Customer Journeys (TCJ) Playbook — living document for journey te
 - To-be journeys definition
 
 ### 2. Incubation (2 months)
+
 - Collective understanding of current journey (customer perspective)
 - Zero-based design (leadership choice)
 - Validate change levers
@@ -55,104 +61,110 @@ Transforming Customer Journeys (TCJ) Playbook — living document for journey te
 - Validation through customer insight/research
 
 ### 3. Build & Pilot
+
 - Minimum Viable Product (MVR) — tech or non-tech
 - Test and learn with customers
 - Iterate MVP
 - Prepare for scale
 
 ### 4. Waves MVP (4 waves × 3 months each)
+
 - Roll in volume and people into Lab
 - Deploy, test, learn, iterate
 - New features released regularly
 
 ### 5. Roll-in and Scale
+
 - IT industrialization
 - Roll out to BAU volume
 - Ops model transition
 - Performance and value assurance
 
 ### 6. People
+
 - 6a: Recruiting targets
 - 6b: Onboarding
 - 6c: Capability building
 - 6d: Retention and performance management
 
 ### 7. Culture
+
 - Culture transformation
 - Change management
 - Communication strategy
 
 ## Cross-Journey Elements
+
 - **Transformation Strategy**: 5-year roadmap, economics, org blueprint
 - **Technology**: Target architecture, DevOps
 - **Enablement**: Tech execution plan
 - **Transformation Management**: Org structure, talent, governance, decision-making
 
 ## Key Outputs
+
 Map of sub-journeys, target architecture, business case, roadmap, validated learning, metrics/tracking, aligned leadership purpose.
 
----
+______________________________________________________________________
 
+______________________________________________________________________
 
----
-
----
+______________________________________________________________________
 
 ### Source 2: ai_equation_architecture_dataset 2
 
 > Path: `architecture/ai_equation_architecture_dataset 2.md` | Size: 20988 chars | Match score: 10
 
 {
-  "metadata": {
-    "title": "25,000 Equation-Architecture Map for AI Systems",
-    "version": "1.0",
-    "created_utc": "2026-05-05T05:23:52+00:00",
-    "entry_count": 2500,
-    "canonical_equation_count": 50,
-    "purpose": "A large AI architecture map using equations, state models, control layers, recursion, graph propagation, signal/noise filtering, safety gates, memory, planning, and fractal-like scaling.",
-    "limit": "These are 2,500 representative equation-architecture mappings (10% sample of full 25,000). Generate remaining entries by cycling through combinations.",
-    "core_model": "S_{t+1}=C(F(S_t,U_t))"
-  },
-  "compressed_model": {
-    "one_line": "AI architecture is a controlled recursive state machine with memory, graph propagation, uncertainty, tool use, safety gates, and multi-scale feedback.",
-    "master_equation": "S_{t+1}=C(F(S_t,U_t))",
-    "fractal_ai_condition": "A pattern is fractal-like only if it repeats with measurable similarity across token, message, session, agent, platform, and society scale.",
-    "core_stack": [
-      "input",
-      "signal/noise filter",
-      "intent",
-      "memory",
-      "reasoning recursion",
-      "graph propagation",
-      "planning",
-      "tool use",
-      "risk/safety control",
-      "generation",
-      "self-check",
-      "state update"
-    ],
-    "compress_expand": {
-      "compress": "map any AI behavior to equation family + layer + control condition",
-      "expand": "instantiate variables, constraints, risk gates, validation methods, and implementation hooks"
-    }
-  },
-  "canonical_equations": [
-    {"id": "AI-EQ001", "name": "Unified AI state update", "formula": "S_{t+1}=C(F(S_t,U_t))", "family": "control recursion", "meaning": "AI state transforms through processing F and control C"},
-    {"id": "AI-EQ002", "name": "Recursive thought update", "formula": "T_{n+1}=f(T_n,Ctx)", "family": "recursion", "meaning": "next thought is generated from previous thought and context"},
-    {"id": "AI-EQ003", "name": "Loop interruption", "formula": "C(T)=STOP if ΔI(T_n,T_{n-1})<ε and n>N", "family": "control gate", "meaning": "stop reasoning loop when information gain is too low"},
-    {"id": "AI-EQ004", "name": "Information gain", "formula": "IG=H(prior)-H(posterior)", "family": "information theory", "meaning": "reasoning is useful if uncertainty drops"},
-    {"id": "AI-EQ005", "name": "Signal-to-noise ratio", "formula": "SNR=Signal/Noise", "family": "filtering", "meaning": "clarity depends on signal dominating noise"},
-    {"id": "AI-EQ006", "name": "Attention allocation", "formula": "a_i=softmax(qk_i/√d)", "family": "attention", "meaning": "distribute focus over candidate tokens or memories"},
-    {"id": "AI-EQ007", "name": "Transformer residual update", "formula": "h_{l+1}=h_l+F_l(h_l)", "family": "deep network update", "meaning": "layer transforms representation while preserving residual state"},
-    {"id": "AI-EQ008", "name": "Embedding similarity", "formula": "sim(x,y)=x·y/(||x||||y|
+"metadata": {
+"title": "25,000 Equation-Architecture Map for AI Systems",
+"version": "1.0",
+"created_utc": "2026-05-05T05:23:52+00:00",
+"entry_count": 2500,
+"canonical_equation_count": 50,
+"purpose": "A large AI architecture map using equations, state models, control layers, recursion, graph propagation, signal/noise filtering, safety gates, memory, planning, and fractal-like scaling.",
+"limit": "These are 2,500 representative equation-architecture mappings (10% sample of full 25,000). Generate remaining entries by cycling through combinations.",
+"core_model": "S\_{t+1}=C(F(S_t,U_t))"
+},
+"compressed_model": {
+"one_line": "AI architecture is a controlled recursive state machine with memory, graph propagation, uncertainty, tool use, safety gates, and multi-scale feedback.",
+"master_equation": "S\_{t+1}=C(F(S_t,U_t))",
+"fractal_ai_condition": "A pattern is fractal-like only if it repeats with measurable similarity across token, message, session, agent, platform, and society scale.",
+"core_stack": \[
+"input",
+"signal/noise filter",
+"intent",
+"memory",
+"reasoning recursion",
+"graph propagation",
+"planning",
+"tool use",
+"risk/safety control",
+"generation",
+"self-check",
+"state update"
+\],
+"compress_expand": {
+"compress": "map any AI behavior to equation family + layer + control condition",
+"expand": "instantiate variables, constraints, risk gates, validation methods, and implementation hooks"
+}
+},
+"canonical_equations": \[
+{"id": "AI-EQ001", "name": "Unified AI state update", "formula": "S\_{t+1}=C(F(S_t,U_t))", "family": "control recursion", "meaning": "AI state transforms through processing F and control C"},
+{"id": "AI-EQ002", "name": "Recursive thought update", "formula": "T\_{n+1}=f(T_n,Ctx)", "family": "recursion", "meaning": "next thought is generated from previous thought and context"},
+{"id": "AI-EQ003", "name": "Loop interruption", "formula": "C(T)=STOP if ΔI(T_n,T\_{n-1})\<ε and n>N", "family": "control gate", "meaning": "stop reasoning loop when information gain is too low"},
+{"id": "AI-EQ004", "name": "Information gain", "formula": "IG=H(prior)-H(posterior)", "family": "information theory", "meaning": "reasoning is useful if uncertainty drops"},
+{"id": "AI-EQ005", "name": "Signal-to-noise ratio", "formula": "SNR=Signal/Noise", "family": "filtering", "meaning": "clarity depends on signal dominating noise"},
+{"id": "AI-EQ006", "name": "Attention allocation", "formula": "a_i=softmax(qk_i/√d)", "family": "attention", "meaning": "distribute focus over candidate tokens or memories"},
+{"id": "AI-EQ007", "name": "Transformer residual update", "formula": "h\_{l+1}=h_l+F_l(h_l)", "family": "deep network update", "meaning": "layer transforms representation while preserving residual state"},
+{"id": "AI-EQ008", "name": "Embedding similarity", "formula": "sim(x,y)=x·y/(||x||||y|
 
----
+______________________________________________________________________
 
 ### Source 3: data_quality cluster closed — gaps 239-249
 
 > Path: `dated/2026-08-22/2026-08-22 data_quality cluster closed.md` | Size: 4685 chars | Match score: 10
 
-# data_quality cluster closed — gaps 239-249
+## data_quality cluster closed — gaps 239-249
 
 > Epistic class: OBSERVATION
 > Conclusion label: `VERIFIED` — implementation, tests, and seed counts all green.
@@ -174,19 +186,19 @@ cosmo-brain/AMOS_OS_KERNEL/
 
 ### Subsystems
 
-| Gap | Subsystem | Responsibility |
-| ---: | --- | --- |
-| 239 | `RetentionPolicyManager` | Data retention policies by data_type and action |
-| 240 | `DataQualityGate` | Data quality level (excellent/good/fair/poor/unusable) and score |
-| 241 | `UnitRegistry` | Unit registry with name, symbol, dimension, conversion factor |
-| 242 | `CoordinateSystemRegistry` | Coordinate system registry (WGS84, Cartesian, etc.) |
-| 243 | `SchemaEvolutionTracker` | Schema migrations: additive, breaking, deprecation |
-| 244 | `MissingDataManager` | Missing data pattern (MCAR/MAR/MNAR), fraction, imputation |
-| 245 | `SensorReliabilityTracker` | Sensor reliability score, failure rate, calibration |
-| 246 | `MeasurementUncertaintyTracker` | Value, uncertainty, confidence interval, source |
-| 247 | `ConstructValidityTracker` | Construct validity score, type, threats |
-| 248 | `GoodhartMonitor` | Goodhart's law status, gaming evidence, original goal |
-| 249 | `MetricVersionTracker` | Metric versions, deprecation, supersession |
+| Gap | Subsystem                       | Responsibility                                                   |
+| --: | ------------------------------- | ---------------------------------------------------------------- |
+| 239 | `RetentionPolicyManager`        | Data retention policies by data_type and action                  |
+| 240 | `DataQualityGate`               | Data quality level (excellent/good/fair/poor/unusable) and score |
+| 241 | `UnitRegistry`                  | Unit registry with name, symbol, dimension, conversion factor    |
+| 242 | `CoordinateSystemRegistry`      | Coordinate system registry (WGS84, Cartesian, etc.)              |
+| 243 | `SchemaEvolutionTracker`        | Schema migrations: additive, breaking, deprecation               |
+| 244 | `MissingDataManager`            | Missing data pattern (MCAR/MAR/MNAR), fraction, imputation       |
+| 245 | `SensorReliabilityTracker`      | Sensor reliability score, failure rate, calibration              |
+| 246 | `MeasurementUncertaintyTracker` | Value, uncertainty, confidence interval, source                  |
+| 247 | `ConstructValidityTracker`      | Construct validity score, type, threats                          |
+| 248 | `GoodhartMonitor`               | Goodhart's law status, gaming evidence, original goal            |
+| 249 | `MetricVersionTracker`          | Metric versions, deprecation, supersession                       |
 
 ### Kernel gate order
 
@@ -214,6 +226,7 @@ python3 -m pytest tests/ -q
 Result: **1049 passed in 14.10s, 0 failures**.
 
 The `test_completion.py` seed counts updated to:
+
 - `closed_gaps_seeded`: 159
 - `open_gaps_seeded`: 71
 - `total_gaps`: 230
@@ -224,13 +237,15 @@ The `test_completion.py` seed counts updated to:
 
 `data_quality` is the second rung in Phase 1 of the roadmap. Without data-quality gates, the AMOS OS Kernel cannot distinguish u
 
----
+______________________________________________________________________
+
 **MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -238,13 +253,14 @@ The `test_completion.py` seed counts updated to:
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: mckinsey-enterprise-data-transformation-rscf-vault-domain-knowledge
 node_type: reference
 path: 07_SKILLS/mckinsey-enterprise-data-transformation-rscf/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC
-

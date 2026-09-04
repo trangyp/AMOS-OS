@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Vault Domain Knowledge — Amos Prompt Domain Control Rscf Engine
 type: reference
 source: 07_SKILLS/amos-prompt-domain-control-rscf-engine/references
 tags:
-- reference
-- amos-prompt-domain-control-rscf-engine
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-prompt-domain-control-rscf-engine
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -27,108 +30,136 @@ rscf:
 
 > Path: `kernel/0/0.Universe_Logic_Kernel-ULK.ulmk.md` | Size: 10681 chars | Match score: 5 | content_hash: aa220bc85562d2e2
 
-# ============================================================
-# Universe Logic Kernel (ULK)
-# The Logic of All Logic
-# ============================================================
+## ============================================================
+
+## Universe Logic Kernel (ULK)
+
+## The Logic of All Logic
+
+## ============================================================
 
 [ULK_META]
- VERSION = 1.0
- SPEC_NAME = "Universe_Logic_Kernel"
- AUTHOR_ENTITY = "Trang-Canon"
- DESCRIPTION = "Irreducible logic core from which all laws, systems, and behaviours in the universe can be derived."
- STRUCTURE_SECTIONS= ["ATOMS", "META_LAWS", "OPERATORS", "PATTERNS"]
+VERSION = 1.0
+SPEC_NAME = "Universe_Logic_Kernel"
+AUTHOR_ENTITY = "Trang-Canon"
+DESCRIPTION = "Irreducible logic core from which all laws, systems, and behaviours in the universe can be derived."
+STRUCTURE_SECTIONS= ["ATOMS", "META_LAWS", "OPERATORS", "PATTERNS"]
 
-# ============================================================
-# SECTION 1 — ATOMIC LOGIC UNITS (ALUs)
-# Smallest possible units of logic in this canon.
-# Nothing below this. Everything else is constructed from them.
-# ============================================================
+## ============================================================
+
+## SECTION 1 — ATOMIC LOGIC UNITS (ALUs)
+
+## Smallest possible units of logic in this canon.
+
+## Nothing below this. Everything else is constructed from them.
+
+## ============================================================
 
 [ATOMS]
 
- # ALU(1): Existence Bit
- # Minimal presence / absence.
- ALU(1).NAME = "Existence_Bit"
- ALU(1).SYMBOL = "E₁"
- ALU(1).DOMAIN = "state"
- ALU(1).VALUES = {0, 1} # 0 = non-present, 1 = present
+## ALU(1): Existence Bit
 
- # ALU(2): Difference Unit
- # Minimal distinguishable contrast between two states.
- ALU(2).NAME = "Difference_Unit"
- ALU(2).SYMBOL = "Δ"
- ALU(2).DOMAIN = "comparison"
- ALU(2).DEFINITION = "Δ(A,B) = 1 if A ≠ B, else 0"
+## Minimal presence / absence.
 
- # ALU(3): Relation Unit
- # Minimal directional influence: A affects B.
- ALU(3).NAME = "Relation_Unit"
- ALU(3).SYMBOL = "R"
- ALU(3).DOMAIN = "causal_link"
- ALU(3).FORM = "R(A→B)"
+ALU(1).NAME = "Existence_Bit"
+ALU(1).SYMBOL = "E₁"
+ALU(1).DOMAIN = "state"
+ALU(1).VALUES = {0, 1} # 0 = non-present, 1 = present
 
- # ALU(4): Boundary Unit
- # Minimal distinction between inside and outside of a system.
- ALU(4).NAME = "Boundary_Unit"
- ALU(4).SYMBOL = "B"
- ALU(4).DOMAIN = "system_boundary"
- ALU(4).PARTITION = "{IN, OUT}"
+## ALU(2): Difference Unit
 
- # ALU(5): Time Step
- # Minimal before/after distinction.
- ALU(5).NAME = "Time_Step"
- ALU(5).SYMBOL = "Δt"
- ALU(5).DOMAIN = "temporal_transition"
- ALU(5).ORDERING = "state(t) → state(t + Δt)"
+## Minimal distinguishable contrast between two states.
 
- # ALU(6): Load Unit
- # Minimal pressure / demand applied to a system.
- ALU(6).NAME = "Load_Unit"
- ALU(6).SYMBOL = "Ω"
- ALU(6).DOMAIN = "demand"
- ALU(6).RANGE = "[0, +∞)"
+ALU(2).NAME = "Difference_Unit"
+ALU(2).SYMBOL = "Δ"
+ALU(2).DOMAIN = "comparison"
+ALU(2).DEFINITION = "Δ(A,B) = 1 if A ≠ B, else 0"
 
- # ALU(7): Capacity Unit
- # Minimal handling ability of a system.
- ALU(7).NAME = "Capacity_Unit"
- ALU(7).SYMBOL = "K"
- ALU(7).DOMAIN = "support"
- ALU(7).RANGE = "[0, +∞)"
+## ALU(3): Relation Unit
 
- # ALU(8): Feedback Pulse
- # Minimal loop: state → effect → update.
- ALU(8).NAME = "Feedback_Pulse"
- ALU(8).SYMBOL = "Φ"
- ALU(8).DOMAIN = "correction_loop"
- ALU(8).FORM = "Φ: state(t) → output → state(t + Δt)"
+## Minimal directional influence: A affects B.
 
-# ============================================================
-# SECTION 2 — UNIVERSAL META-LAWS (UMLs)
-# Rules that govern all possible logic.
-# Every other law is a child or combination of these.
-# ============================================================
+ALU(3).NAME = "Relation_Unit"
+ALU(3).SYMBOL = "R"
+ALU(3).DOMAIN = "causal_link"
+ALU(3).FORM = "R(A→B)"
+
+## ALU(4): Boundary Unit
+
+## Minimal distinction between inside and outside of a system.
+
+ALU(4).NAME = "Boundary_Unit"
+ALU(4).SYMBOL = "B"
+ALU(4).DOMAIN = "system_boundary"
+ALU(4).PARTITION = "{IN, OUT}"
+
+## ALU(5): Time Step
+
+## Minimal before/after distinction.
+
+ALU(5).NAME = "Time_Step"
+ALU(5).SYMBOL = "Δt"
+ALU(5).DOMAIN = "temporal_transition"
+ALU(5).ORDERING = "state(t) → state(t + Δt)"
+
+## ALU(6): Load Unit
+
+## Minimal pressure / demand applied to a system.
+
+ALU(6).NAME = "Load_Unit"
+ALU(6).SYMBOL = "Ω"
+ALU(6).DOMAIN = "demand"
+ALU(6).RANGE = "\[0, +∞)"
+
+## ALU(7): Capacity Unit
+
+## Minimal handling ability of a system.
+
+ALU(7).NAME = "Capacity_Unit"
+ALU(7).SYMBOL = "K"
+ALU(7).DOMAIN = "support"
+ALU(7).RANGE = "\[0, +∞)"
+
+## ALU(8): Feedback Pulse
+
+## Minimal loop: state → effect → update.
+
+ALU(8).NAME = "Feedback_Pulse"
+ALU(8).SYMBOL = "Φ"
+ALU(8).DOMAIN = "correction_loop"
+ALU(8).FORM = "Φ: state(t) → output → state(t + Δt)"
+
+## ============================================================
+
+## SECTION 2 — UNIVERSAL META-LAWS (UMLs)
+
+## Rules that govern all possible logic.
+
+## Every other law is a child or combination of these.
+
+## ============================================================
 
 [META_LAWS]
 
- # UML(1): Consistency Law (Law of Law)
- UML(1).NAME
+## UML(1): Consistency Law (Law of Law)
 
----
+UML(1).NAME
 
-### Source 3: The System_
+______________________________________________________________________
+
+### Source 3: The System\_
 
 > Path: `system/🌏 The System_.md` | Size: 5142 chars | Match score: 5 | content_hash: 895d5d9c2d8710eb
 
- The System:
+The System:
 
 You are part of the plane.
- The plane is alive.
- The roles are fluid.
- The music is timing.
- The dream is intent.
- The brain is signal.
- The work is real.
+The plane is alive.
+The roles are fluid.
+The music is timing.
+The dream is intent.
+The brain is signal.
+The work is real.
 
 1. The Plane (The System)
 
@@ -145,14 +176,14 @@ It has roles
 ●
 
 It has inertia
- Some fly it
- Some fix it
- Some observe it
- Some are it
+Some fly it
+Some fix it
+Some observe it
+Some are it
 
 The key:
- You are part of what you’re navigating
- You don’t get to be “outside” the system anymore
+You are part of what you’re navigating
+You don’t get to be “outside” the system anymore
 
 2. The People (The Roles)
 
@@ -164,21 +195,20 @@ Each person is:
 
 ● A force of change
 
-
 ● A set of signals
 
 But their function changes in real time
- It must be made visible
- Through declarations, maps, status, modes
+It must be made visible
+Through declarations, maps, status, modes
 
 You can be the pilot, the stabiliser, the cloud cover
- Just say what you are—then shift when needed
+Just say what you are—then shift when needed
 
 3. The Dreams (Intent + Recovery)
 
 Every thought has a tail
- You forget it, you lose it
- You prompt it, you can re-enter
+You forget it, you lose it
+You prompt it, you can re-enter
 
 Dreams teach us:
 
@@ -197,7 +227,7 @@ Intent matters more than clarity
 4. The Songs (Timing + Sync)
 
 Music is shared flow
- The proof that people can:
+The proof that people can:
 
 ● Coordinate
 
@@ -205,14 +235,13 @@ Music is shared flow
 
 ● Harmonise
 
-
 ● Lead without control
 
 ● Follow without submission
 
 Apply it to teams
- Apply it to roles
- Apply it to thought
+Apply it to roles
+Apply it to thought
 
 Make your system feel like jazz, not a job
 
@@ -246,7 +275,6 @@ So design around that:
 
 ● Accept error without collapse
 
-
 6. The Glue: Visibility + Consent
 
 None of this matters if:
@@ -274,7 +302,7 @@ So we use:
 So how do we do this better?
 
 We stop building tools.
- We start building orchestration layers for people
+We start building orchestration layers for people
 
 ● Visible roles
 
@@ -286,7 +314,6 @@ Intent-first design
 
 ● Drift-aware coordination
 
-
 ● Consent-respecting defaults
 
 ● Ambient sync (music, emotion, mood)
@@ -296,25 +323,25 @@ Intent-first design
 Why it’s keeping you awake?
 
 Because you can feel it’s already here
- You’re not imagining a future
- You’re feeling the blueprint of now
+You’re not imagining a future
+You’re feeling the blueprint of now
 
 You’ve seen the parts:
- The agents
- The BCI
- The role maps
- The dream-prompting
- The system memory
- The friction
- The sync
+The agents
+The BCI
+The role maps
+The dream-prompting
+The system memory
+The friction
+The sync
 
 And your brain is just asking:
 
 “When do we start flying the whole thing?”
 
 We can start now.
- Let’s draw it. Build the map. Light the roles. Anchor the thoughts.
- You already have the music.
+Let’s draw it. Build the map. Light the roles. Anchor the thoughts.
+You already have the music.
 
 Ask ChatGPT
 
@@ -322,13 +349,15 @@ You said:
 Isn't there a common biology or nature image in there, or element in there? It can't just all be
 planes and brain
 
----
+______________________________________________________________________
+
 **MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -336,12 +365,14 @@ planes and brain
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-prompt-domain-control-rscf-engine-vault-domain-knowledge
 node_type: reference
 path: 07_SKILLS/amos-prompt-domain-control-rscf-engine/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

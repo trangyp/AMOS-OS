@@ -1,10 +1,6 @@
 ---
 name: obsidian-cli
-description: Use the official Obsidian CLI when a task needs Obsidian's running app,
-  index, configured features, command registry, or developer runtime. Use for currently
-  open notes and tabs, workspace state, daily notes, typed properties, tasks, links/backlinks,
-  Bases queries, template resolution, link-aware moves, plugin commands, and plugin/theme
-  debugging; do not use it for ordinary filesystem operations.
+description: Use the official Obsidian CLI when a task needs Obsidian's running app, index, configured features, command registry, or developer runtime. Use for currently open notes and tabs, workspace state, daily notes, typed properties, tasks, links/backlinks, Bases queries, template resolution, link-aware moves, plugin commands, and plugin/theme debugging; do not use it for ordinary filesystem operations.
 language: en
 license: MIT
 metadata:
@@ -13,6 +9,11 @@ metadata:
   copilot-builtin-version: '2'
   copilot-upstream-revision: a1dc48e68138490d522c04cbf5822214c6eb1202
 tags:
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 # Obsidian CLI
@@ -30,15 +31,15 @@ Prefer that exact path over <code>obsidian</code> from <code>PATH</code>, and
 always invoke it as a quoted executable rather than constructing a command
 string. Before relying on the CLI, probe it using the active shell:
 
-~~~bash
+```bash
 obsidian_cli="${COPILOT_OBSIDIAN_CLI:-obsidian}"
 "$obsidian_cli" version
-~~~
+```
 
-~~~powershell
+```powershell
 $obsidianCli = if ($env:COPILOT_OBSIDIAN_CLI) { $env:COPILOT_OBSIDIAN_CLI } else { "obsidian" }
 & $obsidianCli version
-~~~
+```
 
 A command being present on PATH is not sufficient: the probe must exit
 successfully. Use the selected executable in place of <code>obsidian</code> in
@@ -52,9 +53,9 @@ The CLI requires a compatible Obsidian installer and a running app. Commands
 can differ by version, so inspect live help before using a command whose syntax
 is not already established:
 
-~~~bash
+```bash
 obsidian help <command>
-~~~
+```
 
 When a request truly needs the runtime capability and the probe fails, tell the
 user to open Obsidian and enable **Settings → General → Command line
@@ -63,15 +64,15 @@ repair steps to the user.
 
 ## Target precisely
 
-Put <code>vault=&lt;name-or-id&gt;</code> before the command whenever the vault is
+Put <code>vault=\<name-or-id></code> before the command whenever the vault is
 known. Use <code>path=</code> for an exact vault-relative path. Use
 <code>file=</code> only when Obsidian's wikilink-style name resolution is
 desired. Do not rely on the active vault or active file when a precise target
 is available.
 
-~~~bash
+```bash
 obsidian vault="My Vault" backlinks path="Projects/Plan.md" format=json
-~~~
+```
 
 Parameters use <code>name=value</code>; boolean flags have no value. Quote
 values containing spaces or shell-special characters.
@@ -108,10 +109,10 @@ meaning beyond raw files:
 
 When the user asks about notes currently open in Obsidian:
 
-~~~bash
+```bash
 obsidian vault="My Vault" tabs ids
 obsidian vault="My Vault" workspace ids
-~~~
+```
 
 Use <code>tabs ids</code> as the source of truth for open tabs. Keep entries
 verbatim and classify them only when the output provides enough evidence:
@@ -131,9 +132,9 @@ not substitute <code>recents</code>, which includes files that are no longer ope
 If the tab output does not expose paths or view types clearly, correlate its tab
 IDs with this read-only, structured workspace query:
 
-~~~bash
+```bash
 obsidian vault="My Vault" eval code='JSON.stringify((()=>{const tabs=[];const active=app.workspace.getMostRecentLeaf();app.workspace.iterateAllLeaves(leaf=>{const path=leaf.view.file?.path??null;tabs.push({id:leaf.id,title:leaf.getDisplayText(),viewType:leaf.view.getViewType(),path,kind:path===null?"view":path.toLowerCase().endsWith(".md")?"markdown":"file",active:leaf===active})});return tabs})())'
-~~~
+```
 
 The workspace query also returns sidebar and floating leaves. Only call an entry
 an open tab when its ID appears in <code>tabs ids</code>; retain query-only
@@ -143,9 +144,9 @@ matching workspace entry instead of guessing their identity.
 If the user asks for the single currently focused note and the tab output does
 not identify it, use a read-only app query:
 
-~~~bash
+```bash
 obsidian vault="My Vault" eval code="app.workspace.getMostRecentLeaf()?.view.file?.path ?? ''"
-~~~
+```
 
 Use normal filesystem tools only for explicit paths returned by Obsidian, and
 choose a reader appropriate to the file type. Do not read every open note when
@@ -155,14 +156,14 @@ paths or titles alone answer the request.
 
 <code>commands</code> lists registered command IDs, including commands provided
 by plugins. Filter by an ID prefix, then execute the selected command with
-<code>command id=&lt;command-id&gt;</code>. Never guess a command ID when it can be
+<code>command id=\<command-id></code>. Never guess a command ID when it can be
 discovered. Do not execute a discovered command whose effect is prohibited by
 the host-session rules below.
 
-~~~bash
+```bash
 obsidian vault="My Vault" commands filter="my-plugin:"
 obsidian vault="My Vault" command id="my-plugin:run-action"
-~~~
+```
 
 ## Plugin and theme development
 
@@ -170,12 +171,12 @@ Use the CLI as the first choice for runtime verification after the normal build
 or test command has produced artifacts:
 
 1. For a plugin other than Copilot, reload with
-   <code>plugin:reload id=&lt;plugin-id&gt;</code> when needed. Never reload the
+   <code>plugin:reload id=\<plugin-id></code> when needed. Never reload the
    Copilot plugin from a Copilot-hosted agent session.
-2. Inspect <code>dev:errors</code> and <code>dev:console level=error</code>.
-3. Verify UI state with <code>dev:screenshot path=...</code>,
+1. Inspect <code>dev:errors</code> and <code>dev:console level=error</code>.
+1. Verify UI state with <code>dev:screenshot path=...</code>,
    <code>dev:dom selector=...</code>, and <code>dev:css selector=...</code>.
-4. Use <code>dev:mobile on</code> only when mobile emulation is relevant, and
+1. Use <code>dev:mobile on</code> only when mobile emulation is relevant, and
    turn it off afterward.
 
 Read-only <code>eval</code> and <code>dev:cdp</code> queries are appropriate for
@@ -226,6 +227,6 @@ this skill.
 Adapted from <code>kepano/obsidian-skills</code> at revision
 <code>a1dc48e68138490d522c04cbf5822214c6eb1202</code>. See <code>LICENSE</code>.
 
----
+______________________________________________________________________
 
 **MOC:** [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/00_HOME|00_HOME]]

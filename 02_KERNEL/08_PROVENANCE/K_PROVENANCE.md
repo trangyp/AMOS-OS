@@ -14,30 +14,30 @@ plane: KERNEL
 scope: AMOS_OS
 updated: 2026-08-26
 tags:
-- kernel
-- provenance
-- note
-- canon/kernel
-- readme
-- amos-core-laws
-- law-hierarchy
-- canon-provenance
-- source-lineage
-- supersession-log
-- k-provenance-topology
-- k-structural-reasoning
-- k-causal-closure
-- k-causal-epoch
-- k-context-state
-- k-system-state
-- k-memory-admission
-- k-memory-conflict
-- k-memory-immune
-- k-memory-retrieval
-- k-context-compaction
-- k-collapse-recovery
-- k-commit-time-authority
-- k-information-exposure
+  - kernel
+  - provenance
+  - note
+  - canon/kernel
+  - readme
+  - amos-core-laws
+  - law-hierarchy
+  - canon-provenance
+  - source-lineage
+  - supersession-log
+  - k-provenance-topology
+  - k-structural-reasoning
+  - k-causal-closure
+  - k-causal-epoch
+  - k-context-state
+  - k-system-state
+  - k-memory-admission
+  - k-memory-conflict
+  - k-memory-immune
+  - k-memory-retrieval
+  - k-context-compaction
+  - k-collapse-recovery
+  - k-commit-time-authority
+  - k-information-exposure
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -93,9 +93,9 @@ TO JUSTIFY THAT CLAIM.
 
 This artifact defines AMOS architectural semantics. It does **not** establish that all described provenance persistence, verification, MVCC/CAS, epoch, distributed finalization, or coordination mechanisms are implemented.
 
----
+______________________________________________________________________
 
-# 1. Core Provenance Law
+## 1. Core Provenance Law
 
 ```text
 CLAIM
@@ -125,9 +125,9 @@ EPISTEMIC HISTORY
 RECOVERABLE.
 ```
 
----
+______________________________________________________________________
 
-# 2. Provenance Object
+## 2. Provenance Object
 
 Every materially important epistemic object should conceptually support:
 
@@ -183,9 +183,9 @@ UNKNOWN
 
 They must not be reconstructed through fluent guesswork.
 
----
+______________________________________________________________________
 
-# 3. Epistemic Type
+## 3. Epistemic Type
 
 Every provenance-bearing object should preserve its epistemic class:
 
@@ -228,9 +228,9 @@ SILENTLY CHANGE
 EPISTEMIC TYPE.
 ```
 
----
+______________________________________________________________________
 
-# 4. Provenance Identity
+## 4. Provenance Identity
 
 A provenance record requires a stable identity when persistence matters.
 
@@ -254,9 +254,9 @@ VERSION_ID
 
 One claim may accumulate multiple provenance records across versions or validation epochs.
 
----
+______________________________________________________________________
 
-# 5. Origin
+## 5. Origin
 
 `origin` identifies the material source from which the relevant information ultimately enters the reasoning chain, where known.
 
@@ -284,9 +284,9 @@ If origin cannot be established:
 origin: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 6. Source
+## 6. Source
 
 A source is an identifiable provider of information.
 
@@ -311,9 +311,9 @@ UNKNOWN
 
 Source classification does not itself establish reliability.
 
----
+______________________________________________________________________
 
-# 7. Source Claim
+## 7. Source Claim
 
 A statement made by a source is initially:
 
@@ -346,9 +346,9 @@ VERIFIED:
 SYSTEM ACTUALLY HAS P
 ```
 
----
+______________________________________________________________________
 
-# 8. Observation
+## 8. Observation
 
 An observation records something actually measured, detected, or directly inspected under a specified method and environment.
 
@@ -366,9 +366,9 @@ observation_provenance:
 
 Observation validity remains bounded by those conditions.
 
----
+______________________________________________________________________
 
-# 9. Derived Provenance
+## 9. Derived Provenance
 
 A derived object must preserve its premises.
 
@@ -394,9 +394,9 @@ D
 
 where those are load-bearing.
 
----
+______________________________________________________________________
 
-# 10. Model Provenance
+## 10. Model Provenance
 
 A model-level claim should identify:
 
@@ -413,9 +413,9 @@ when materially relevant.
 
 Model output must not be silently represented as observation.
 
----
+______________________________________________________________________
 
-# 11. Decision Provenance
+## 11. Decision Provenance
 
 Consequential decisions should preserve enough provenance to reconstruct:
 
@@ -455,9 +455,9 @@ decision_provenance:
   invalidation_conditions: []
 ```
 
----
+______________________________________________________________________
 
-# 12. Provenance Completeness
+## 12. Provenance Completeness
 
 Provenance completeness is contextual.
 
@@ -483,9 +483,9 @@ BETTER PROVENANCE
 
 when the additional metadata cannot alter validity or recoverability.
 
----
+______________________________________________________________________
 
-# 13. Load-Bearing Provenance
+## 13. Load-Bearing Provenance
 
 A provenance element is load-bearing if changing it could materially alter:
 
@@ -502,9 +502,9 @@ DECISION
 
 Load-bearing provenance receives priority.
 
----
+______________________________________________________________________
 
-# 14. Provenance Sufficiency
+## 14. Provenance Sufficiency
 
 For claim `C`:
 
@@ -523,9 +523,9 @@ SMALLEST SUFFICIENT
 PROVENANCE CLOSURE
 ```
 
----
+______________________________________________________________________
 
-# 15. Provenance Attachment
+## 15. Provenance Attachment
 
 When a new epistemic object is created:
 
@@ -539,9 +539,9 @@ should be treated conceptually as one integrity unit when provenance is load-bea
 
 Separating them must not make the object appear better supported than it is.
 
----
+______________________________________________________________________
 
-# 16. Provenance Propagation
+## 16. Provenance Propagation
 
 If:
 
@@ -565,9 +565,9 @@ CONFLICTS
 
 unless independently replaced or revalidated.
 
----
+______________________________________________________________________
 
-# 17. Provenance Preservation
+## 17. Provenance Preservation
 
 Operations such as:
 
@@ -595,9 +595,9 @@ REPRESENTATION CHANGE
 LINEAGE RESET
 ```
 
----
+______________________________________________________________________
 
-# 18. Transformation Record
+## 18. Transformation Record
 
 Conceptually:
 
@@ -622,9 +622,9 @@ OUTPUT VALIDITY
 MUST BE REASSESSED.
 ```
 
----
+______________________________________________________________________
 
-# 19. Lossy Transformation
+## 19. Lossy Transformation
 
 A transformation is provenance-lossy if information necessary for future validity evaluation disappears.
 
@@ -642,9 +642,9 @@ REMOVING CONFLICT STATE
 
 when those fields are load-bearing.
 
----
+______________________________________________________________________
 
-# 20. Provenance Compression
+## 20. Provenance Compression
 
 Provenance may be compressed if:
 
@@ -666,9 +666,9 @@ MIRROR_CLUSTER
 
 provided independence is not misrepresented.
 
----
+______________________________________________________________________
 
-# 21. Provenance Recovery
+## 21. Provenance Recovery
 
 If detailed provenance is not currently loaded but remains recoverable through a stable reference:
 
@@ -688,9 +688,9 @@ PROVENANCE_GAP
 
 must become visible.
 
----
+______________________________________________________________________
 
-# 22. Provenance Pointer
+## 22. Provenance Pointer
 
 Conceptually:
 
@@ -706,9 +706,9 @@ provenance_pointer:
 
 A pointer establishes recoverability only if its target can actually be resolved.
 
----
+______________________________________________________________________
 
-# 23. Persistent Provenance
+## 23. Persistent Provenance
 
 Important knowledge should not rely solely on transient context for lineage.
 
@@ -729,9 +729,9 @@ AUDIT
 REPAIR
 ```
 
----
+______________________________________________________________________
 
-# 24. Persistence Invariant
+## 24. Persistence Invariant
 
 If a persisted conclusion requires provenance to remain trustworthy:
 
@@ -755,9 +755,9 @@ TRUST AFTER RELOAD
 
 may exceed the available evidence.
 
----
+______________________________________________________________________
 
-# 25. Provenance and Memory Admission
+## 25. Provenance and Memory Admission
 
 Memory admission should ask:
 
@@ -794,9 +794,9 @@ ADMITTED AS UNKNOWN
 
 depending on stakes.
 
----
+______________________________________________________________________
 
-# 26. Provenance and Retrieval
+## 26. Provenance and Retrieval
 
 Retrieval should preserve provenance bindings.
 
@@ -823,9 +823,9 @@ CONFLICT
 VALIDATION STATE
 ```
 
----
+______________________________________________________________________
 
-# 27. Retrieval Time
+## 27. Retrieval Time
 
 ```text
 retrieved_at
@@ -841,9 +841,9 @@ validated_at
 
 A freshly retrieved old source remains old evidence.
 
----
+______________________________________________________________________
 
-# 28. Freshness
+## 28. Freshness
 
 Freshness is evaluated against the claim's temporal requirements.
 
@@ -866,9 +866,9 @@ DECISION REQUIREMENT
 
 No universal freshness interval is asserted.
 
----
+______________________________________________________________________
 
-# 29. Freshness Inheritance
+## 29. Freshness Inheritance
 
 ```text
 OLD OBSERVATION
@@ -886,9 +886,9 @@ NEW ARTIFACT DATE
 NEW EVIDENCE DATE
 ```
 
----
+______________________________________________________________________
 
-# 30. Scope
+## 30. Scope
 
 Provenance must preserve the applicability envelope where material:
 
@@ -904,9 +904,9 @@ ASSUMPTIONS
 
 A derived claim inherits relevant restrictions.
 
----
+______________________________________________________________________
 
-# 31. Regime
+## 31. Regime
 
 A claim valid in:
 
@@ -922,9 +922,9 @@ REGIME R2
 
 without evidence of compatibility or revalidation.
 
----
+______________________________________________________________________
 
-# 32. Scope Leakage
+## 32. Scope Leakage
 
 Example:
 
@@ -948,9 +948,9 @@ CONDITIONED,
 OR REJECTED.
 ```
 
----
+______________________________________________________________________
 
-# 33. Confidence Ceiling
+## 33. Confidence Ceiling
 
 Derived confidence cannot exceed the weakest unresolved load-bearing constraint.
 
@@ -971,9 +971,9 @@ MIN(
 
 unless independently revalidated.
 
----
+______________________________________________________________________
 
-# 34. Provenance Confidence
+## 34. Provenance Confidence
 
 Provenance confidence refers to confidence in the lineage record itself.
 
@@ -997,9 +997,9 @@ WE HAVE LOW CONFIDENCE
 X IS TRUE.
 ```
 
----
+______________________________________________________________________
 
-# 35. Independence
+## 35. Independence
 
 When multiple sources support a conclusion, provenance must preserve whether they are:
 
@@ -1019,9 +1019,9 @@ Detailed topology semantics are delegated to:
 K_PROVENANCE_TOPOLOGY
 ```
 
----
+______________________________________________________________________
 
-# 36. Correlation Risk
+## 36. Correlation Risk
 
 Material shared dependencies should remain visible.
 
@@ -1040,9 +1040,9 @@ SHARED INCENTIVE
 
 Repeated evidence with shared origin must not inflate confidence as though independent.
 
----
+______________________________________________________________________
 
-# 37. Provenance and Sybil Hardening
+## 37. Provenance and Sybil Hardening
 
 A single source appearing under many identities must not generate artificial confirmation.
 
@@ -1053,9 +1053,9 @@ ONE ORIGIN
 
 remains one correlated provenance family unless independently validated.
 
----
+______________________________________________________________________
 
-# 38. Conflict
+## 38. Conflict
 
 Provenance must preserve unresolved conflict.
 
@@ -1072,9 +1072,9 @@ COMPETING
 
 is preferable to fabricated convergence.
 
----
+______________________________________________________________________
 
-# 39. Conflict Is Data
+## 39. Conflict Is Data
 
 A conflict is not necessarily an error in the provenance system.
 
@@ -1090,9 +1090,9 @@ GENUINE DISAGREEMENT
 
 Therefore conflict should first be preserved, then explained.
 
----
+______________________________________________________________________
 
-# 40. Conflict Resolution
+## 40. Conflict Resolution
 
 A provenance conflict may be resolved through:
 
@@ -1108,9 +1108,9 @@ FORMAL GOVERNANCE
 
 Resolution must itself carry provenance.
 
----
+______________________________________________________________________
 
-# 41. Supersession
+## 41. Supersession
 
 Supersession requires an explicit relationship:
 
@@ -1130,9 +1130,9 @@ NEWER FILE
 CANONICAL SUCCESSOR
 ```
 
----
+______________________________________________________________________
 
-# 42. Supersession Record
+## 42. Supersession Record
 
 ```yaml
 supersession:
@@ -1146,9 +1146,9 @@ supersession:
   compatibility:
 ```
 
----
+______________________________________________________________________
 
-# 43. Version
+## 43. Version
 
 Version lineage should preserve:
 
@@ -1163,9 +1163,9 @@ where applicable.
 
 Different versions may remain simultaneously valid in different regimes.
 
----
+______________________________________________________________________
 
-# 44. Hash
+## 44. Hash
 
 Hashes can support:
 
@@ -1191,9 +1191,9 @@ DIFFERENT HASH
 INDEPENDENT SOURCE
 ```
 
----
+______________________________________________________________________
 
-# 45. Canon Provenance
+## 45. Canon Provenance
 
 Promotion into canon should preserve:
 
@@ -1209,9 +1209,9 @@ SUPERSESSION RELATIONSHIPS
 
 Canon without provenance becomes difficult to repair safely.
 
----
+______________________________________________________________________
 
-# 46. Provenance Authority
+## 46. Provenance Authority
 
 Authority to modify provenance is distinct from authority to assert a claim.
 
@@ -1227,9 +1227,9 @@ INVALIDATION AUTHORITY
 
 may differ.
 
----
+______________________________________________________________________
 
-# 47. Provenance Mutation
+## 47. Provenance Mutation
 
 Changes to load-bearing provenance should be explicit operations.
 
@@ -1249,9 +1249,9 @@ QUARANTINE
 
 Silent mutation is prohibited where it changes epistemic meaning.
 
----
+______________________________________________________________________
 
-# 48. Append Versus Rewrite
+## 48. Append Versus Rewrite
 
 Historical provenance should normally be append-preserving where practical.
 
@@ -1272,9 +1272,9 @@ OLD RECORD
 
 when history is decision-relevant.
 
----
+______________________________________________________________________
 
-# 49. Correction
+## 49. Correction
 
 A correction does not require deleting the erroneous historical claim.
 
@@ -1290,9 +1290,9 @@ corrects: C1
 
 This preserves causal and epistemic history.
 
----
+______________________________________________________________________
 
-# 50. Invalidation
+## 50. Invalidation
 
 If provenance establishes that premise `P` is invalid:
 
@@ -1318,9 +1318,9 @@ INVALID(P)
 INVALID(EVERYTHING)
 ```
 
----
+______________________________________________________________________
 
-# 51. Local Invalidation
+## 51. Local Invalidation
 
 Core v4.4 repair law:
 
@@ -1333,9 +1333,9 @@ REVALIDATE LOCALLY
 
 Global recomputation is a last resort.
 
----
+______________________________________________________________________
 
-# 52. Provenance Damage Radius
+## 52. Provenance Damage Radius
 
 For failed node `P`:
 
@@ -1348,9 +1348,9 @@ DEPENDENT DESCENDANTS(P)
 
 The goal is to calculate the smallest correct damage radius.
 
----
+______________________________________________________________________
 
-# 53. Provenance Repair
+## 53. Provenance Repair
 
 Repair sequence:
 
@@ -1372,9 +1372,9 @@ RECOMPUTE AFFECTED DESCENDANTS
 RESTORE VALID FINALITY
 ```
 
----
+______________________________________________________________________
 
-# 54. Failure Recovery
+## 54. Failure Recovery
 
 Do not repeat the same failed provenance path without changed evidence.
 
@@ -1397,9 +1397,9 @@ ALTERNATE RECOVERY PATH
 
 where justified.
 
----
+______________________________________________________________________
 
-# 55. Proof Capsules
+## 55. Proof Capsules
 
 Important conclusions should conceptually bind to a proof capsule:
 
@@ -1421,9 +1421,9 @@ proof_capsule:
 
 The provenance field may reference detailed topology rather than duplicating it.
 
----
+______________________________________________________________________
 
-# 56. Proof Capsule Reuse
+## 56. Proof Capsule Reuse
 
 A proof capsule may be reused only if:
 
@@ -1442,9 +1442,9 @@ Otherwise:
 REVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 57. Provenance Invalidation of Proof Capsules
+## 57. Provenance Invalidation of Proof Capsules
 
 If provenance assumption `P` fails:
 
@@ -1464,9 +1464,9 @@ must be invalidated or downgraded if `P` was load-bearing.
 
 Other capsules remain unaffected unless dependent.
 
----
+______________________________________________________________________
 
-# 58. Provenance and RSCF
+## 58. Provenance and RSCF
 
 RSCF nodes should be able to reference provenance sufficient to establish:
 
@@ -1480,9 +1480,9 @@ WHAT CONFLICTS WITH IT
 
 Provenance should not require duplicating the entire source corpus into each RSCF node.
 
----
+______________________________________________________________________
 
-# 59. Atomic Multi-RSCF Provenance
+## 59. Atomic Multi-RSCF Provenance
 
 When a conclusion depends jointly on:
 
@@ -1496,9 +1496,9 @@ their provenance state must be coherent enough that no material cross-version in
 
 This is the provenance requirement underlying atomic multi-RSCF reasoning.
 
----
+______________________________________________________________________
 
-# 60. Provenance Snapshot
+## 60. Provenance Snapshot
 
 Conceptually:
 
@@ -1514,9 +1514,9 @@ provenance_snapshot:
 
 A snapshot provides a coherent provenance view for reasoning.
 
----
+______________________________________________________________________
 
-# 61. Provenance Epoch
+## 61. Provenance Epoch
 
 A provenance epoch identifies a coherent lineage state.
 
@@ -1528,9 +1528,9 @@ P0
 
 A new epoch is warranted when a material provenance mutation changes what conclusions may validly finalize.
 
----
+______________________________________________________________________
 
-# 62. Epoch Change
+## 62. Epoch Change
 
 Possible epoch-changing events:
 
@@ -1548,9 +1548,9 @@ REGIME CHANGE
 
 Not every metadata edit requires an epoch transition.
 
----
+______________________________________________________________________
 
-# 63. Provenance Finality
+## 63. Provenance Finality
 
 A conclusion finalized against epoch `P1` is valid only while its load-bearing provenance remains compatible.
 
@@ -1566,9 +1566,9 @@ If `P2` changes a load-bearing dependency:
 FINALITY MUST BE REVALIDATED.
 ```
 
----
+______________________________________________________________________
 
-# 64. MVCC Concept
+## 64. MVCC Concept
 
 AMOS may reason conceptually with versioned provenance state:
 
@@ -1586,9 +1586,9 @@ This is an architectural pattern corresponding to MVCC-style reasoning.
 
 It is **not** a claim that the conversational runtime literally implements MVCC.
 
----
+______________________________________________________________________
 
-# 65. CAS Concept
+## 65. CAS Concept
 
 At commit time:
 
@@ -1618,9 +1618,9 @@ rather than blindly committing.
 
 This is CAS-style reasoning semantics, not a runtime implementation claim.
 
----
+______________________________________________________________________
 
-# 66. Commit-Time Provenance Authority
+## 66. Commit-Time Provenance Authority
 
 A conclusion that was valid during reasoning may become stale before action.
 
@@ -1633,9 +1633,9 @@ PROVENANCE REVALIDATION
 
 for load-bearing evidence.
 
----
+______________________________________________________________________
 
-# 67. Shard-Local Provenance
+## 67. Shard-Local Provenance
 
 Where provenance is partitioned across conceptual shards, a local shard may finalize only when its dependency closure establishes that remote state cannot materially alter the result.
 
@@ -1647,9 +1647,9 @@ PROVEN INDEPENDENCE
 
 where independence is load-bearing.
 
----
+______________________________________________________________________
 
-# 68. Coordination Avoidance
+## 68. Coordination Avoidance
 
 AMOS v4.4 favors avoiding unnecessary global coordination.
 
@@ -1672,9 +1672,9 @@ FRESHNESS
 
 Otherwise escalate.
 
----
+______________________________________________________________________
 
-# 69. Hardened Shard-Local Finalization
+## 69. Hardened Shard-Local Finalization
 
 Conceptually:
 
@@ -1700,9 +1700,9 @@ Failure of any load-bearing check:
 ESCALATE
 ```
 
----
+______________________________________________________________________
 
-# 70. Provenance Fast Path
+## 70. Provenance Fast Path
 
 Use the smallest sufficient proof scope.
 
@@ -1720,9 +1720,9 @@ NO MATERIAL CONFLICT
 
 This allows local reasoning without traversing irrelevant global lineage.
 
----
+______________________________________________________________________
 
-# 71. Fast-Path Rejection
+## 71. Fast-Path Rejection
 
 Escalate provenance inspection when:
 
@@ -1740,9 +1740,9 @@ GOVERNANCE AFFECTED
 ACTION IRREVERSIBLE
 ```
 
----
+______________________________________________________________________
 
-# 72. Provenance and Causal Firewall
+## 72. Provenance and Causal Firewall
 
 Provenance answers:
 
@@ -1767,9 +1767,9 @@ DERIVED_FROM
 CAUSED_BY
 ```
 
----
+______________________________________________________________________
 
-# 73. Provenance and Structural Similarity
+## 73. Provenance and Structural Similarity
 
 Two artifacts with similar structure may suggest:
 
@@ -1797,9 +1797,9 @@ UNKNOWN
 
 according to evidence.
 
----
+______________________________________________________________________
 
-# 74. Provenance and Adversarial Validation
+## 74. Provenance and Adversarial Validation
 
 For consequential conclusions, challenge provenance using a genuinely different path.
 
@@ -1829,9 +1829,9 @@ OR
 RETURN UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 75. Provenance Sensitivity
+## 75. Provenance Sensitivity
 
 Identify the smallest provenance fact that could flip the conclusion.
 
@@ -1856,9 +1856,9 @@ THE TWO TESTS?
 
 Test that first.
 
----
+______________________________________________________________________
 
-# 76. Provenance Gap Classification
+## 76. Provenance Gap Classification
 
 Missing provenance should be classified:
 
@@ -1881,9 +1881,9 @@ OF NON-LOAD-BEARING NOTE
 → POSSIBLY COSMETIC
 ```
 
----
+______________________________________________________________________
 
-# 77. Critical Provenance Gap
+## 77. Critical Provenance Gap
 
 If a critical gap cannot be resolved:
 
@@ -1908,9 +1908,9 @@ OR
 SIGNED RESULT RECORD.
 ```
 
----
+______________________________________________________________________
 
-# 78. Provenance and Governance
+## 78. Provenance and Governance
 
 Governance-sensitive provenance includes:
 
@@ -1924,9 +1924,9 @@ WHO MAY FINALIZE?
 
 Authority should itself be provenance-bound.
 
----
+______________________________________________________________________
 
-# 79. Authority Provenance
+## 79. Authority Provenance
 
 Conceptually:
 
@@ -1943,9 +1943,9 @@ authority_provenance:
 
 Unknown authority must not be invented.
 
----
+______________________________________________________________________
 
-# 80. Provenance and Security
+## 80. Provenance and Security
 
 Security-relevant provenance may need stronger guarantees for:
 
@@ -1960,9 +1960,9 @@ ANTI-SYBIL DEFENSE
 
 The exact mechanism remains implementation-specific unless established elsewhere.
 
----
+______________________________________________________________________
 
-# 81. Information Exposure
+## 81. Information Exposure
 
 Provenance recoverability does not imply unrestricted disclosure.
 
@@ -1981,9 +1981,9 @@ Information-exposure rules govern what may be revealed.
 
 Integrity requires provenance to exist where needed; it does not require exposing protected internals.
 
----
+______________________________________________________________________
 
-# 82. Provenance and Proprietary Canon
+## 82. Provenance and Proprietary Canon
 
 AMOS may preserve:
 
@@ -2004,9 +2004,9 @@ RECOVERABILITY
 PUBLIC DISCLOSURE
 ```
 
----
+______________________________________________________________________
 
-# 83. Provenance and Knowledge Harvest
+## 83. Provenance and Knowledge Harvest
 
 Knowledge harvest follows:
 
@@ -2033,9 +2033,9 @@ REVALIDATION TIME
 LINEAGE
 ```
 
----
+______________________________________________________________________
 
-# 84. Documentation Claims
+## 84. Documentation Claims
 
 Documentation is evidence of what documentation states.
 
@@ -2051,9 +2051,9 @@ SOURCE_CLAIM
 
 until separately validated for the underlying behavior.
 
----
+______________________________________________________________________
 
-# 85. Benchmark Claims
+## 85. Benchmark Claims
 
 Benchmark provenance should preserve:
 
@@ -2077,9 +2077,9 @@ BENCHMARK SUCCESS
 UNIVERSAL VALIDITY
 ```
 
----
+______________________________________________________________________
 
-# 86. Latency Claims
+## 86. Latency Claims
 
 A latency result is scoped to its measurement conditions.
 
@@ -2096,9 +2096,9 @@ SYSTEM LATENCY
 IS UNIVERSALLY 10ms
 ```
 
----
+______________________________________________________________________
 
-# 87. Distributed-System Claims
+## 87. Distributed-System Claims
 
 A distributed or Byzantine test may establish:
 
@@ -2115,9 +2115,9 @@ UNIVERSAL FORMAL SAFETY
 
 unless formal proof exists.
 
----
+______________________________________________________________________
 
-# 88. Formal Proof
+## 88. Formal Proof
 
 Formal proof provenance should preserve:
 
@@ -2132,9 +2132,9 @@ VERIFIER VERSION
 
 Testing must not be relabeled as proof.
 
----
+______________________________________________________________________
 
-# 89. Provenance Conclusion Classes
+## 89. Provenance Conclusion Classes
 
 Use the weakest accurate class:
 
@@ -2169,9 +2169,9 @@ NO SOURCE INFORMATION
 → UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 90. Provenance State Machine
+## 90. Provenance State Machine
 
 Conceptually:
 
@@ -2212,9 +2212,9 @@ INVALIDATED
 
 No state transition should silently imply empirical truth.
 
----
+______________________________________________________________________
 
-# 91. Provenance Status Record
+## 91. Provenance Status Record
 
 ```yaml
 provenance_status:
@@ -2228,9 +2228,9 @@ provenance_status:
   epoch:
 ```
 
----
+______________________________________________________________________
 
-# 92. Provenance Mutation Event
+## 92. Provenance Mutation Event
 
 ```yaml
 provenance_event:
@@ -2246,9 +2246,9 @@ provenance_event:
   authority:
 ```
 
----
+______________________________________________________________________
 
-# 93. Observability Events
+## 93. Observability Events
 
 Recommended events:
 
@@ -2287,9 +2287,9 @@ PROVENANCE_COMMIT_REVALIDATION_FAILED
 PROVENANCE_COMMIT_REVALIDATION_PASSED
 ```
 
----
+______________________________________________________________________
 
-# 94. Kernel Invariants
+## 94. Kernel Invariants
 
 ```text
 KP-01
@@ -2428,9 +2428,9 @@ KP-45
 TRUST MUST REMAIN LOCAL, TYPED, SCOPED, PROVENANCE-AWARE, REGIME-AWARE, AND FRESHNESS-BOUNDED
 ```
 
----
+______________________________________________________________________
 
-# 95. Required Tests
+## 95. Required Tests
 
 ```text
 SOURCE-CLAIM TYPING TEST
@@ -2494,9 +2494,9 @@ BENCHMARK-PROVENANCE TEST
 FORMAL-PROOF-PROVENANCE TEST
 ```
 
----
+______________________________________________________________________
 
-# 96. Negative Tests
+## 96. Negative Tests
 
 ```text
 MISSING SOURCE
@@ -2580,9 +2580,9 @@ PROPRIETARY PROVENANCE
 MUST FAIL
 ```
 
----
+______________________________________________________________________
 
-# 97. Failure Modes
+## 97. Failure Modes
 
 ```text
 PROVENANCE FABRICATION
@@ -2616,9 +2616,9 @@ TEST-AS-PROOF OVERCLAIM
 PROPRIETARY INFORMATION EXPOSURE
 ```
 
----
+______________________________________________________________________
 
-# 98. Interaction Matrix
+## 98. Interaction Matrix
 
 ```text
 CANON_PROVENANCE
@@ -2703,9 +2703,9 @@ OPERATIONS
 → REPAIR PROVENANCE FAILURES
 ```
 
----
+______________________________________________________________________
 
-# 99. Promotion Gate
+## 99. Promotion Gate
 
 Before promotion beyond `AMOS_MODEL`, evidence should establish:
 
@@ -2781,9 +2781,9 @@ EMPIRICAL_VALIDATION = UNKNOWN/GAP
 FORMAL_VERIFICATION = UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 100. RSCF Node
+## 100. RSCF Node
 
 ```RSCF-NODE
 node_id: AMOS-OS-K-PROVENANCE
@@ -2837,9 +2837,9 @@ RSCF-RELATIONS:
   - RECOVERED_BY: README
 ```
 
----
+______________________________________________________________________
 
-# 101. Canonical Summary
+## 101. Canonical Summary
 
 ```text
 PROVENANCE ANSWERS:
@@ -3056,13 +3056,14 @@ README
 **Classification:** `AMOS_MODEL`. This replaces the placeholder with a substantive kernel-level provenance contract while deliberately keeping implementation, empirical validation, and formal verification claims at `UNKNOWN/GAP` until supported through the canon/provenance/promotion process.
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
-**MOC:** [[02_KERNEL/08_PROVENANCE/08_PROVENANCE_MOC|08_PROVENANCE_MOC]]
+______________________________________________________________________
 
+**MOC:** [[02_KERNEL/08_PROVENANCE/08_PROVENANCE_MOC|08_PROVENANCE_MOC]]

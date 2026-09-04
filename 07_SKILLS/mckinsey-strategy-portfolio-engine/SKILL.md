@@ -4,25 +4,22 @@ title: SKILL — Mckinsey Strategy Portfolio Engine
 type: skill
 source: 07_SKILLS/mckinsey-strategy-portfolio-engine
 name: mckinsey-strategy-portfolio-engine
-description: Strategy Portfolio Engine — McKinsey strategic capability. Use when strategic
-  analysis, business consulting, or McKinsey-framework reasoning. Use when amos-c08-strategy-game-master
-  routes to this specialized capability. Do not use for generic tasks outside mckinsey
-  domain.
+description: Strategy Portfolio Engine — McKinsey strategic capability. Use when strategic analysis, business consulting, or McKinsey-framework reasoning. Use when amos-c08-strategy-game-master routes to this specialized capability. Do not use for generic tasks outside mckinsey domain.
 parent_skill: amos-c08-strategy-game-master
 domain: mckinsey
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
 tags:
-- type/skill
-- type/skill
-- domain/strategy-game
-- epistemic/source_claim
-- hml/m
-- epistemic/source_claim
-- amos-os
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/strategy-game
+  - epistemic/source_claim
+  - hml/m
+  - epistemic/source_claim
+  - amos-os
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -32,20 +29,20 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: M
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L16
-- L17
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L16
+  - L17
 license: MIT
 steward: Trang Phan
 ---
@@ -55,6 +52,7 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: mckinsey. Parent: amos-c08-strategy-game-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
 ## When to Use
 
 - When mckinsey strategy framework for mckinsey: strategy portfolio engine is needed within the mckinsey domain
@@ -79,12 +77,12 @@ Origin architect: **Trang Phan**. Domain: mckinsey. Parent: amos-c08-strategy-ga
 ## Operations
 
 1. **strategy_portfolio.assess_commercial**: Assess commercial due diligence: market, competitive position, and growth
-2. **strategy_portfolio.evaluate_credit**: Evaluate credit and lending: risk scoring, portfolio, and concentration
-3. **strategy_portfolio.analyze_banking**: Analyze banking CRM: customer lifetime value, retention, and cross-sell
-4. **strategy_portfolio.transfer_architecture**: Transfer architecture references: best practices across organizational contexts
-5. **strategy_portfolio.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-6. **strategy_portfolio.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
-7. **strategy_portfolio.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+1. **strategy_portfolio.evaluate_credit**: Evaluate credit and lending: risk scoring, portfolio, and concentration
+1. **strategy_portfolio.analyze_banking**: Analyze banking CRM: customer lifetime value, retention, and cross-sell
+1. **strategy_portfolio.transfer_architecture**: Transfer architecture references: best practices across organizational contexts
+1. **strategy_portfolio.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+1. **strategy_portfolio.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+1. **strategy_portfolio.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## 11_KNOWLEDGE Vault Content
 
@@ -95,12 +93,14 @@ Origin architect: **Trang Phan**. Domain: mckinsey. Parent: amos-c08-strategy-ga
 From C08 Strategy & Game: Strategic portfolio management.
 
 **Portfolio strategy model**:
+
 - **BCG matrix**: stars, cash cows, question marks, dogs
 - **GE-McKinsey matrix**: industry attractiveness vs competitive strength
 - **Portfolio balance**: balance growth and cash flow across portfolio
 - **Resource allocation**: allocate resources based on strategic priority
 
 **Strategy laws**:
+
 - `STRATEGY != PLAN`: a strategy is a direction; a plan is a sequence of actions
 - `PORTFOLIO != COLLECTION`: a portfolio is a balanced set; a collection is an unstructured group
 - `ALLOCATION != DISTRIBUTION`: allocation is strategic; distribution is mechanical
@@ -110,6 +110,7 @@ From C08 Strategy & Game: Strategic portfolio management.
 The strategy portfolio engine is an analytical toolset. It does not prove optimal allocation, that portfolio balance is always achievable, or that strategic frameworks predict outcomes.
 
 ## Failure Modes
+
 - **Insufficient evidence**: If source material is insufficient, mark as UNKNOWN/GAP and fail closed — do not fabricate.
 - **Scope violation**: If the query falls outside the skill's declared scope, escalate to the parent skill or steward.
 - **Binding broken**: If 1:1:1 binding (skill→agent→workflow) is broken, flag routing mismatch and block execution.
@@ -133,9 +134,10 @@ The strategy portfolio engine is an analytical toolset. It does not prove optima
 - **Origin architect**: Trang Phan
 - **Vault sources**:
 - `architecture/DSc ScD Portfolio - Three Canon Architecture.md` — DSc/ScD Portfolio — Trang Phan (Independent Submission) (6148 chars, score: 10, content_hash: ad04085e8f89fc0a)
-- `s
+- \`s
 
----
+______________________________________________________________________
+
 **Links:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 ## Related
@@ -145,17 +147,19 @@ The strategy portfolio engine is an analytical toolset. It does not prove optima
 ## Examples
 
 - **Scenario**: When mckinsey strategy framework for mckinsey: strategy portfolio engine is needed within the mckinsey domain
+
   - **Input**: A query matching this skill's domain (mckinsey)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When the parent skill (`amos-c08-strategy-game-master`) routes to this specialized capability
+
   - **Input**: A query matching this skill's domain (mckinsey)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When a query requires mckinsey-specific reasoning grounded in vault sources
+
   - **Input**: A query matching this skill's domain (mckinsey)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Anti-Patterns
 
@@ -165,7 +169,6 @@ The strategy portfolio engine is an analytical toolset. It does not prove optima
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `amos-c08-strategy-game-master` — routes to this skill when mckinsey specialization is needed
@@ -173,7 +176,6 @@ The strategy portfolio engine is an analytical toolset. It does not prove optima
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -192,7 +194,6 @@ The strategy portfolio engine is an analytical toolset. It does not prove optima
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -200,7 +201,6 @@ The strategy portfolio engine is an analytical toolset. It does not prove optima
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -213,11 +213,12 @@ The strategy portfolio engine is an analytical toolset. It does not prove optima
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `amos-c08-strategy-game-master` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `mckinsey-strategy-portfolio-engine-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -225,12 +226,14 @@ The strategy portfolio engine is an analytical toolset. It does not prove optima
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: mckinsey-strategy-portfolio-engine
 node_type: skill
 path: 07_SKILLS/mckinsey-strategy-portfolio-engine/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

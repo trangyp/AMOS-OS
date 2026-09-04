@@ -1,11 +1,14 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: O11 Goal MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O11_GOAL
 tags:
-- o11-goal
-- domain/cognitive-matrix
-- o11-goal-lifecycle-operations-cognitive-matrix-hml
+  - o11-goal
+  - domain/cognitive-matrix
+  - o11-goal-lifecycle-operations-cognitive-matrix-hml
 moc: true
 rscf:
   state: DERIVED
@@ -46,5 +49,6 @@ rscf:
 
 - [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]] — 00_INDEX
 
----
+______________________________________________________________________
+
 **Parent:** [[25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/02_LIFECYCLE_OPERATIONS_MOC|02_LIFECYCLE_OPERATIONS_MOC]]

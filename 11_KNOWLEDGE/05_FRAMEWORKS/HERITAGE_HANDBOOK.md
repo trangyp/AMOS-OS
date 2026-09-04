@@ -12,22 +12,22 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: HANDBOOK
 path: 11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_HANDBOOK.md
 tags:
-- amos-os
-- knowledge
-- vault
-- 05_frameworks
-- heritage_handbook
-- operational_handbook
-- decision_protocols
-- governance_manual
-- rscf
-- canon_candidate
-- canon/knowledge
-- heritage-intelligence-master
-- skill
-- heritage-to-tss-binding
-- heritage-x-tss
-- heritage-zero-framework
+  - amos-os
+  - knowledge
+  - vault
+  - 05_frameworks
+  - heritage_handbook
+  - operational_handbook
+  - decision_protocols
+  - governance_manual
+  - rscf
+  - canon_candidate
+  - canon/knowledge
+  - heritage-intelligence-master
+  - skill
+  - heritage-to-tss-binding
+  - heritage-x-tss
+  - heritage-zero-framework
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -42,19 +42,19 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - HERITAGE_INTELLIGENCE_CANON
-  - AMOS_CORPUS
+    - HERITAGE_INTELLIGENCE_CANON
+    - AMOS_CORPUS
   scope:
-  - KNOWLEDGE_FRAMEWORKS
-  - OPERATIONAL_HANDBOOK
-  - SOURCE_DEFINED_MODEL
+    - KNOWLEDGE_FRAMEWORKS
+    - OPERATIONAL_HANDBOOK
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   master_framework:
     artifact:
-    - - HERITAGE_INTELLIGENCE_MASTER
+      -   - HERITAGE_INTELLIGENCE_MASTER
   decision_intelligence_skill:
     artifact:
-    - - SKILL
+      -   - SKILL
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
@@ -68,9 +68,9 @@ epistemic_boundary:
 
 It provides step-by-step protocols for decision navigation, trust scoring, self-refutation passes, and rollback basin generation.
 
----
+______________________________________________________________________
 
-# 1. Operational Decision Protocols
+## 1. Operational Decision Protocols
 
 ```text
 STEP 1: IDENTITY & PROVENANCE AUDIT
@@ -93,18 +93,18 @@ STEP 5: RECEIPT GENERATION & SIGNING
 └── Issue cryptographic decision receipt with provenance hash and confidence ceiling.
 ```
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Master Framework:** [[11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_INTELLIGENCE_MASTER|HERITAGE_INTELLIGENCE_MASTER]]
 - **Operational Skill:** SKILL
 - **TSS Coupling:** [[11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_TO_TSS_BINDING|HERITAGE_TO_TSS_BINDING]] and [[25_COGNITIVE_MATRIX/HERITAGE_X_TSS|HERITAGE_X_TSS]]
 - **Zero Anchor:** [[11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_ZERO_FRAMEWORK|HERITAGE_ZERO_FRAMEWORK]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -122,9 +122,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_INTELLIGENCE_MASTER|HERITAGE_INTELLIGENCE_MASTER]] · [[11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_TO_TSS_BINDING|HERITAGE_TO_TSS_BINDING]] · [[25_COGNITIVE_MATRIX/HERITAGE_X_TSS|HERITAGE_X_TSS]]
 
----
+______________________________________________________________________
+
 **MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]

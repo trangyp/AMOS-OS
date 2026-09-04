@@ -12,16 +12,16 @@ segment: 25_COGNITIVE_MATRIX/12_GENERATORS
 artifact_kind: ROADMAP
 path: 25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_ROADMAP.md
 tags:
-- 12_generators
-- amos-os
-- domain/cognitive-matrix
-- canon/universe
-- cognitive-matrix
-- generators
-- note
-- roadmap
-- rscf
-- placeholder_expanded
+  - 12_generators
+  - amos-os
+  - domain/cognitive-matrix
+  - canon/universe
+  - cognitive-matrix
+  - generators
+  - note
+  - roadmap
+  - rscf
+  - placeholder_expanded
 version: 0.2.0
 updated: '2026-08-27'
 status: PLACEHOLDER_EXPANDED
@@ -98,7 +98,7 @@ Origin architect / steward: **Trang Phan**
 
 System: **AMOS OS**
 
----
+______________________________________________________________________
 
 # 12 Generators Roadmap
 
@@ -116,9 +116,9 @@ System: **AMOS OS**
 >
 > **AMOS_CORE target:** `v4.4`
 
----
+______________________________________________________________________
 
-# 0. Purpose
+## 0. Purpose
 
 `12_GENERATORS/ROADMAP.md` defines the governed implementation and maturation path for the AMOS Generator subsystem.
 
@@ -161,9 +161,9 @@ ACTIVE
 != FINALIZED
 ```
 
----
+______________________________________________________________________
 
-# 1. Roadmap constitutional law
+## 1. Roadmap constitutional law
 
 The roadmap must obey the same AMOS integrity ordering as the subsystem it plans:
 
@@ -183,9 +183,9 @@ Therefore:
 
 > **No roadmap phase may be declared complete because documentation exists, files were generated, or nominal implementation paths were added. Exit requires evidence corresponding to the declared phase contract.**
 
----
+______________________________________________________________________
 
-# 2. Planning versus truth
+## 2. Planning versus truth
 
 Roadmap language should distinguish:
 
@@ -217,9 +217,9 @@ does not become:
 
 without evidence.
 
----
+______________________________________________________________________
 
-# 3. Roadmap objectives
+## 3. Roadmap objectives
 
 The Generator roadmap exists to move from:
 
@@ -250,9 +250,9 @@ rollback
 auditability
 ```
 
----
+______________________________________________________________________
 
-# 4. Target architecture
+## 4. Target architecture
 
 The intended architectural direction is:
 
@@ -284,9 +284,9 @@ RECEIPT / PROVENANCE / REGISTRY
 
 This is a roadmap target, not proof that the full path currently exists.
 
----
+______________________________________________________________________
 
-# 5. Architectural dependency order
+## 5. Architectural dependency order
 
 The roadmap should generally build in this dependency order:
 
@@ -310,9 +310,9 @@ The roadmap should generally build in this dependency order:
 
 Higher layers should not be built on undefined lower-layer semantics.
 
----
+______________________________________________________________________
 
-# 6. Phase state model
+## 6. Phase state model
 
 Each roadmap phase should use:
 
@@ -338,9 +338,9 @@ COMPLETE_UNVALIDATED
 != VALIDATED
 ```
 
----
+______________________________________________________________________
 
-# 7. Roadmap phase object
+## 7. Roadmap phase object
 
 ```yaml
 roadmap_phase:
@@ -387,9 +387,9 @@ roadmap_phase:
   confidence_ceiling: 0
 ```
 
----
+______________________________________________________________________
 
-# 8. Milestone object
+## 8. Milestone object
 
 ```yaml
 roadmap_milestone:
@@ -422,9 +422,9 @@ roadmap_milestone:
     UNFINALIZED
 ```
 
----
+______________________________________________________________________
 
-# 9. Phase 0 — Canon and architecture recovery
+## 9. Phase 0 — Canon and architecture recovery
 
 ## Objective
 
@@ -468,9 +468,9 @@ CONDITIONAL
 
 if authoritative source remains incomplete.
 
----
+______________________________________________________________________
 
-# 10. Phase 1 — Generator contract foundation
+## 10. Phase 1 — Generator contract foundation
 
 ## Objective — part 2
 
@@ -502,9 +502,9 @@ named invariants
 falsifiers
 ```
 
----
+______________________________________________________________________
 
-# 11. Phase 2 — Generator taxonomy
+## 11. Phase 2 — Generator taxonomy
 
 Define Generator classes.
 
@@ -525,9 +525,9 @@ CANON_CANDIDATE_GENERATOR
 
 Each class should declare different validation and effect requirements.
 
----
+______________________________________________________________________
 
-# 12. Generator class burden matrix
+## 12. Generator class burden matrix
 
 ```yaml
 generator_class_burden:
@@ -564,9 +564,9 @@ generator_class_burden:
 
 Exact classes remain provisional.
 
----
+______________________________________________________________________
 
-# 13. Phase 3 — Schema infrastructure
+## 13. Phase 3 — Schema infrastructure
 
 ## Objective — part 3
 
@@ -593,9 +593,9 @@ semantic meaning documented
 compatibility rules defined
 ```
 
----
+______________________________________________________________________
 
-# 14. Phase 4 — Template infrastructure
+## 14. Phase 4 — Template infrastructure
 
 ## Objective — part 4
 
@@ -616,9 +616,9 @@ source binding
 
 Templates must not silently create authority or canon.
 
----
+______________________________________________________________________
 
-# 15. Template registry milestone
+## 15. Template registry milestone
 
 Create provisional:
 
@@ -639,9 +639,9 @@ template_registry_entry:
   provenance: []
 ```
 
----
+______________________________________________________________________
 
-# 16. Phase 5 — Generator registry
+## 16. Phase 5 — Generator registry
 
 Create governed Generator discovery.
 
@@ -668,9 +668,9 @@ REGISTERED
 != VALIDATED
 ```
 
----
+______________________________________________________________________
 
-# 17. Registry status lifecycle
+## 17. Registry status lifecycle
 
 Suggested:
 
@@ -686,9 +686,9 @@ DISCOVERED
 
 Exact lifecycle requires governance validation.
 
----
+______________________________________________________________________
 
-# 18. Phase 6 — Deterministic Generator kernels
+## 18. Phase 6 — Deterministic Generator kernels
 
 Implement smallest deterministic primitives first.
 
@@ -707,9 +707,9 @@ construct_write_set()
 
 Kernels should remain narrow and typed.
 
----
+______________________________________________________________________
 
-# 19. Kernel readiness criteria
+## 19. Kernel readiness criteria
 
 A Generator kernel should not advance until:
 
@@ -722,9 +722,9 @@ failure behavior declared
 unit tests exist
 ```
 
----
+______________________________________________________________________
 
-# 20. Phase 7 — Generator Engine
+## 20. Phase 7 — Generator Engine
 
 Compose kernels into a repeatable Generator Engine.
 
@@ -743,9 +743,9 @@ bind request
 
 No authoritative write yet.
 
----
+______________________________________________________________________
 
-# 21. Candidate-only milestone
+## 21. Candidate-only milestone
 
 First meaningful vertical slice should stop here:
 
@@ -764,9 +764,9 @@ NO AUTHORITATIVE WRITE
 
 This provides a safe proving ground.
 
----
+______________________________________________________________________
 
-# 22. Phase 8 — Provenance infrastructure
+## 22. Phase 8 — Provenance infrastructure
 
 Every generated candidate should carry lineage.
 
@@ -797,9 +797,9 @@ generation_provenance:
   generated_at: null
 ```
 
----
+______________________________________________________________________
 
-# 23. Provenance-topology milestone
+## 23. Provenance-topology milestone
 
 Add detection for:
 
@@ -814,9 +814,9 @@ source substitution
 
 Prevent generated derivatives from inflating evidence independence.
 
----
+______________________________________________________________________
 
-# 24. Phase 9 — Generator validation
+## 24. Phase 9 — Generator validation
 
 Implement `12_GENERATORS/VALIDATION.md`.
 
@@ -835,9 +835,9 @@ authority boundary
 
 Defer expensive optional checks until core integrity works.
 
----
+______________________________________________________________________
 
-# 25. Validation receipt milestone
+## 25. Validation receipt milestone
 
 Introduce:
 
@@ -857,9 +857,9 @@ result
 freshness
 ```
 
----
+______________________________________________________________________
 
-# 26. Phase 10 — Generator tests
+## 26. Phase 10 — Generator tests
 
 Implement `12_GENERATORS/TESTS.md`.
 
@@ -875,9 +875,9 @@ duplicate request is idempotent
 provenance is preserved
 ```
 
----
+______________________________________________________________________
 
-# 27. Minimum proof-of-Generator slice
+## 27. Minimum proof-of-Generator slice
 
 The smallest meaningful infrastructure proof should be:
 
@@ -895,9 +895,9 @@ The smallest meaningful infrastructure proof should be:
 
 This establishes the basic Generator boundary without implementing the entire subsystem.
 
----
+______________________________________________________________________
 
-# 28. Phase 11 — Routing integration
+## 28. Phase 11 — Routing integration
 
 Integrate with `10_ROUTING`.
 
@@ -914,9 +914,9 @@ fallback behavior
 
 Routing must not select a Generator solely by first registration match.
 
----
+______________________________________________________________________
 
-# 29. Routing readiness tests
+## 29. Routing readiness tests
 
 ```text
 explicit Generator exists → select exact
@@ -926,9 +926,9 @@ equal candidates → AMBIGUOUS
 stale registry → rebind
 ```
 
----
+______________________________________________________________________
 
-# 30. Phase 12 — Worker boundary
+## 30. Phase 12 — Worker boundary
 
 Add controlled materialization.
 
@@ -947,9 +947,9 @@ Worker
 
 Generator should not directly mutate authoritative state.
 
----
+______________________________________________________________________
 
-# 31. Worker contract milestone
+## 31. Worker contract milestone
 
 Define:
 
@@ -964,9 +964,9 @@ generator_worker:
   rollback_required: true
 ```
 
----
+______________________________________________________________________
 
-# 32. Phase 13 — State consistency
+## 32. Phase 13 — State consistency
 
 Implement MVCC/CAS-style reasoning for Generator writes.
 
@@ -985,9 +985,9 @@ If target changed:
 STALE_GENERATION
 ```
 
----
+______________________________________________________________________
 
-# 33. Read-set milestone
+## 33. Read-set milestone
 
 Every consequential invocation should capture:
 
@@ -999,9 +999,9 @@ generation_read_set:
     load_bearing: true
 ```
 
----
+______________________________________________________________________
 
-# 34. Write-set milestone
+## 34. Write-set milestone
 
 Every materialization should declare:
 
@@ -1014,9 +1014,9 @@ generation_write_set:
 
 No undeclared mutation.
 
----
+______________________________________________________________________
 
-# 35. Phase 14 — Idempotency
+## 35. Phase 14 — Idempotency
 
 Implement:
 
@@ -1029,9 +1029,9 @@ ambiguous retry handling
 
 Same request should not create uncontrolled duplicates.
 
----
+______________________________________________________________________
 
-# 36. Phase 15 — Atomic bundles
+## 36. Phase 15 — Atomic bundles
 
 Support Generators producing multiple semantically coupled artifacts.
 
@@ -1054,9 +1054,9 @@ critical failure
 → no partial promotion
 ```
 
----
+______________________________________________________________________
 
-# 37. Atomicity milestone
+## 37. Atomicity milestone
 
 Define:
 
@@ -1068,9 +1068,9 @@ generation_transaction:
   state: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 38. Phase 16 — Event Bus integration
+## 38. Phase 16 — Event Bus integration
 
 Integrate Generator lifecycle with Event Bus.
 
@@ -1089,9 +1089,9 @@ GENERATION_MATERIALIZED
 GENERATION_ROLLED_BACK
 ```
 
----
+______________________________________________________________________
 
-# 39. Event proof requirements
+## 39. Event proof requirements
 
 Events should carry enough context to reconstruct:
 
@@ -1109,9 +1109,9 @@ policy epoch
 
 Transport does not create authority.
 
----
+______________________________________________________________________
 
-# 40. Phase 17 — Promotion integration
+## 40. Phase 17 — Promotion integration
 
 Connect Generator candidates to:
 
@@ -1121,9 +1121,9 @@ Connect Generator candidates to:
 
 Generated artifacts should transition through explicit promotion classes.
 
----
+______________________________________________________________________
 
-# 41. Promotion integration invariant
+## 41. Promotion integration invariant
 
 ```text
 GENERATED
@@ -1136,9 +1136,9 @@ AUTHORIZED
 != COMMITTED
 ```
 
----
+______________________________________________________________________
 
-# 42. Phase 18 — Canon-candidate pipeline
+## 42. Phase 18 — Canon-candidate pipeline
 
 For canon-sensitive generation:
 
@@ -1155,9 +1155,9 @@ SOURCE
 
 No direct Generator-to-canon transition.
 
----
+______________________________________________________________________
 
-# 43. Phase 19 — Policy-candidate pipeline
+## 43. Phase 19 — Policy-candidate pipeline
 
 For generated policy:
 
@@ -1173,9 +1173,9 @@ POLICY_CANDIDATE
 
 A file write is not policy activation.
 
----
+______________________________________________________________________
 
-# 44. Phase 20 — Security hardening
+## 44. Phase 20 — Security hardening
 
 Generator-specific security requirements include:
 
@@ -1190,9 +1190,9 @@ worker privilege minimization
 registry integrity
 ```
 
----
+______________________________________________________________________
 
-# 45. Security exit criteria
+## 45. Security exit criteria
 
 No security phase exit without:
 
@@ -1204,9 +1204,9 @@ known residual risks
 rollback
 ```
 
----
+______________________________________________________________________
 
-# 46. Phase 21 — Adversarial validation
+## 46. Phase 21 — Adversarial validation
 
 Run independent challenge paths seeking:
 
@@ -1223,9 +1223,9 @@ partial bundle commit
 retry ambiguity
 ```
 
----
+______________________________________________________________________
 
-# 47. Phase 22 — Recovery
+## 47. Phase 22 — Recovery
 
 Implement local repair.
 
@@ -1241,9 +1241,9 @@ rollback
 supersede
 ```
 
----
+______________________________________________________________________
 
-# 48. Selective invalidation milestone
+## 48. Selective invalidation milestone
 
 Dependency failure should invalidate only affected outputs.
 
@@ -1257,9 +1257,9 @@ Template T changed
 
 where C does not depend on T.
 
----
+______________________________________________________________________
 
-# 49. Phase 23 — Observability
+## 49. Phase 23 — Observability
 
 Generator traces should expose:
 
@@ -1278,9 +1278,9 @@ receipts
 rollback
 ```
 
----
+______________________________________________________________________
 
-# 50. Observability maturity levels
+## 50. Observability maturity levels
 
 ```text
 O0:
@@ -1301,9 +1301,9 @@ replayable generation history
 
 These are provisional maturity labels.
 
----
+______________________________________________________________________
 
-# 51. Phase 24 — Replay infrastructure
+## 51. Phase 24 — Replay infrastructure
 
 Support replay of:
 
@@ -1316,9 +1316,9 @@ failure reproduction
 
 Replay should bind exact versions and environment.
 
----
+______________________________________________________________________
 
-# 52. Phase 25 — Generator audit
+## 52. Phase 25 — Generator audit
 
 Introduce dedicated audit capabilities for:
 
@@ -1334,9 +1334,9 @@ promotion integration
 
 Audit remains separate from promotion authority.
 
----
+______________________________________________________________________
 
-# 53. Phase 26 — Shadow deployment
+## 53. Phase 26 — Shadow deployment
 
 Before active Generator materialization, run:
 
@@ -1350,9 +1350,9 @@ collect errors
 
 This is `SHADOW`.
 
----
+______________________________________________________________________
 
-# 54. Shadow exit criteria
+## 54. Shadow exit criteria
 
 Require:
 
@@ -1365,9 +1365,9 @@ observability works
 no silent authority leak
 ```
 
----
+______________________________________________________________________
 
-# 55. Phase 27 — Canary deployment
+## 55. Phase 27 — Canary deployment
 
 Allow tightly bounded live materialization.
 
@@ -1382,9 +1382,9 @@ rollback
 monitoring
 ```
 
----
+______________________________________________________________________
 
-# 56. Canary stop conditions
+## 56. Canary stop conditions
 
 Immediate stop triggers:
 
@@ -1398,9 +1398,9 @@ rollback failure
 security incident
 ```
 
----
+______________________________________________________________________
 
-# 57. Phase 28 — Limited production
+## 57. Phase 28 — Limited production
 
 Expand only after canary evidence.
 
@@ -1414,9 +1414,9 @@ live observability
 recovery tested
 ```
 
----
+______________________________________________________________________
 
-# 58. Phase 29 — Production readiness
+## 58. Phase 29 — Production readiness
 
 Production should require evidence for:
 
@@ -1435,9 +1435,9 @@ capacity
 
 No production claim should be made solely from architectural completeness.
 
----
+______________________________________________________________________
 
-# 59. Phase 30 — Canonical maturity
+## 59. Phase 30 — Canonical maturity
 
 Only after stable implementation should the subsystem be considered for canonical status.
 
@@ -1454,9 +1454,9 @@ policy authority complete
 runtime behavior matches contract
 ```
 
----
+______________________________________________________________________
 
-# 60. Roadmap dependency graph
+## 60. Roadmap dependency graph
 
 ```text
 CANON / SOURCE
@@ -1498,9 +1498,9 @@ CANARY
 PRODUCTION
 ```
 
----
+______________________________________________________________________
 
-# 61. Critical path
+## 61. Critical path
 
 The likely critical path is:
 
@@ -1519,9 +1519,9 @@ GENERATOR_CONTRACT
 
 Everything beyond that depends on these foundations.
 
----
+______________________________________________________________________
 
-# 62. Parallelizable tracks
+## 62. Parallelizable tracks
 
 Some work may proceed independently.
 
@@ -1556,9 +1556,9 @@ parallel_tracks:
 
 Parallel work must converge through explicit integration tests.
 
----
+______________________________________________________________________
 
-# 63. Roadmap priority classes
+## 63. Roadmap priority classes
 
 ```text
 P0 CRITICAL
@@ -1570,9 +1570,9 @@ P4 DEFERRED
 
 Priority must reflect decision/risk value, not documentation convenience.
 
----
+______________________________________________________________________
 
-# 64. P0 milestones
+## 64. P0 milestones
 
 Suggested P0:
 
@@ -1588,9 +1588,9 @@ stale-target protection
 constitutional tests
 ```
 
----
+______________________________________________________________________
 
-# 65. P1 milestones
+## 65. P1 milestones
 
 Suggested:
 
@@ -1604,9 +1604,9 @@ promotion integration
 recovery
 ```
 
----
+______________________________________________________________________
 
-# 66. P2 milestones
+## 66. P2 milestones
 
 Suggested:
 
@@ -1618,9 +1618,9 @@ performance
 audit
 ```
 
----
+______________________________________________________________________
 
-# 67. P3 / deferred
+## 67. P3 / deferred
 
 Potential:
 
@@ -1634,9 +1634,9 @@ distributed sharding
 
 unless evidence shows these are immediately load-bearing.
 
----
+______________________________________________________________________
 
-# 68. Anti-roadmap-bloat rule
+## 68. Anti-roadmap-bloat rule
 
 Do not implement every possible Generator class at once.
 
@@ -1655,9 +1655,9 @@ dozens of Generator classes
 → no validated execution path
 ```
 
----
+______________________________________________________________________
 
-# 69. First vertical slice
+## 69. First vertical slice
 
 Recommended first concrete slice:
 
@@ -1693,9 +1693,9 @@ bounded Worker only
 
 This is the smallest useful proof of Generator infrastructure.
 
----
+______________________________________________________________________
 
-# 70. Second vertical slice
+## 70. Second vertical slice
 
 ```text
 Generator:
@@ -1712,9 +1712,9 @@ mode binding
 no self-activation
 ```
 
----
+______________________________________________________________________
 
-# 71. Third vertical slice
+## 71. Third vertical slice
 
 ```text
 Generator:
@@ -1730,9 +1730,9 @@ semantic compatibility
 dependency references
 ```
 
----
+______________________________________________________________________
 
-# 72. Fourth vertical slice
+## 72. Fourth vertical slice
 
 Potentially:
 
@@ -1752,9 +1752,9 @@ rollback
 
 exist.
 
----
+______________________________________________________________________
 
-# 73. Roadmap invariant set
+## 73. Roadmap invariant set
 
 ## I-ROAD-GEN-001
 
@@ -1816,28 +1816,26 @@ Roadmap phase order may only be bypassed with explicit dependency proof.
 
 Newer implementation does not supersede validated predecessor automatically.
 
----
+______________________________________________________________________
 
-# 74. Roadmap promotion gate
+## 74. Roadmap promotion gate
 
 A phase may advance only when:
 
-[
-Advance(P)
-==========
+## \[ Advance(P)
 
 EntrySatisfied
-\land DeliverablesExist
-\land RequiredTestsPass
-\land RequiredValidationPasses
-\land CriticalGapsClosed
-]
+\\land DeliverablesExist
+\\land RequiredTestsPass
+\\land RequiredValidationPasses
+\\land CriticalGapsClosed
+\]
 
 for its declared burden.
 
----
+______________________________________________________________________
 
-# 75. Exit-criterion proof
+## 75. Exit-criterion proof
 
 Every phase exit should generate a capsule:
 
@@ -1864,9 +1862,9 @@ phase_exit_proof:
     UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 76. Phase dependency invalidation
+## 76. Phase dependency invalidation
 
 If Phase 3 schema semantics change:
 
@@ -1880,9 +1878,9 @@ registry bindings
 
 Do not necessarily invalidate provenance architecture unrelated to schema semantics.
 
----
+______________________________________________________________________
 
-# 77. Roadmap branching
+## 77. Roadmap branching
 
 When competing designs exist:
 
@@ -1903,9 +1901,9 @@ roadmap_branch:
 
 Do not force premature convergence.
 
----
+______________________________________________________________________
 
-# 78. Decision gates
+## 78. Decision gates
 
 High-impact decisions requiring explicit gate:
 
@@ -1919,9 +1917,9 @@ code generation
 production deployment
 ```
 
----
+______________________________________________________________________
 
-# 79. Cheap discriminating tests first
+## 79. Cheap discriminating tests first
 
 When architecture choices compete, prefer:
 
@@ -1934,9 +1932,9 @@ boundary test
 
 over large implementation commitments.
 
----
+______________________________________________________________________
 
-# 80. Uncertainty vector
+## 80. Uncertainty vector
 
 ```yaml
 roadmap_uncertainty:
@@ -1969,9 +1967,9 @@ roadmap_uncertainty:
     MEDIUM
 ```
 
----
+______________________________________________________________________
 
-# 81. Sensitivity
+## 81. Sensitivity
 
 Roadmap sensitivity questions:
 
@@ -1984,9 +1982,9 @@ Which policy choice determines Generator write authority?
 
 Prioritize these first.
 
----
+______________________________________________________________________
 
-# 82. Current highest-impact gaps
+## 82. Current highest-impact gaps
 
 Provisional:
 
@@ -2002,9 +2000,9 @@ policy/authority binding
 
 These should dominate near-term investigation.
 
----
+______________________________________________________________________
 
-# 83. Roadmap failure modes
+## 83. Roadmap failure modes
 
 ```yaml
 failure_modes:
@@ -2070,9 +2068,9 @@ failure_modes:
     description: coverage or passing tests interpreted as universal correctness
 ```
 
----
+______________________________________________________________________
 
-# 84. Recovery from roadmap failure
+## 84. Recovery from roadmap failure
 
 ```text
 ROADMAP FAILURE
@@ -2090,9 +2088,9 @@ UPDATE ROADMAP
 REVALIDATE NEXT PHASE
 ```
 
----
+______________________________________________________________________
 
-# 85. Roadmap supersession
+## 85. Roadmap supersession
 
 A new roadmap version should record:
 
@@ -2118,9 +2116,9 @@ roadmap_supersession:
   provenance: []
 ```
 
----
+______________________________________________________________________
 
-# 86. Roadmap freshness
+## 86. Roadmap freshness
 
 Roadmap validity depends on:
 
@@ -2135,9 +2133,9 @@ known critical gaps
 
 Therefore it should be periodically revalidated.
 
----
+______________________________________________________________________
 
-# 87. Roadmap review triggers
+## 87. Roadmap review triggers
 
 Review when:
 
@@ -2151,9 +2149,9 @@ validation contract changes
 test failures reveal architectural flaw
 ```
 
----
+______________________________________________________________________
 
-# 88. Roadmap event taxonomy
+## 88. Roadmap event taxonomy
 
 Possible events:
 
@@ -2172,9 +2170,9 @@ GENERATOR_ROADMAP_SUPERSEDED
 
 Events do not create completion status without corresponding evidence.
 
----
+______________________________________________________________________
 
-# 89. Roadmap event envelope
+## 89. Roadmap event envelope
 
 ```yaml
 generator_roadmap_event:
@@ -2199,9 +2197,9 @@ generator_roadmap_event:
   timestamp: null
 ```
 
----
+______________________________________________________________________
 
-# 90. Roadmap Agents
+## 90. Roadmap Agents
 
 Possible roles:
 
@@ -2235,9 +2233,9 @@ Seeks premature milestones, hidden dependencies, and overclaim.
 
 No roadmap Agent can mark a phase authoritative by its own judgment.
 
----
+______________________________________________________________________
 
-# 91. Roadmap Skills
+## 91. Roadmap Skills
 
 Potential Skills:
 
@@ -2254,9 +2252,9 @@ plan-generator-canary
 plan-generator-recovery
 ```
 
----
+______________________________________________________________________
 
-# 92. Roadmap Engine
+## 92. Roadmap Engine
 
 Potential:
 
@@ -2276,9 +2274,9 @@ gap prioritization
 
 This remains a model role.
 
----
+______________________________________________________________________
 
-# 93. Roadmap Kernel layer
+## 93. Roadmap Kernel layer
 
 Potential deterministic primitives:
 
@@ -2293,9 +2291,9 @@ invalidate_dependent_phase()
 compare_roadmap_version()
 ```
 
----
+______________________________________________________________________
 
-# 94. Roadmap Worker boundary
+## 94. Roadmap Worker boundary
 
 A roadmap itself should not mutate production.
 
@@ -2312,9 +2310,9 @@ Worker / development process
 → implementation
 ```
 
----
+______________________________________________________________________
 
-# 95. Roadmap test suite
+## 95. Roadmap test suite
 
 Roadmap logic itself should be tested.
 
@@ -2328,9 +2326,9 @@ production cannot precede canary where canary required
 local dependency failure invalidates only descendants
 ```
 
----
+______________________________________________________________________
 
-# 96. Constitutional roadmap tests
+## 96. Constitutional roadmap tests
 
 ```text
 T-GROAD-001
@@ -2382,9 +2380,9 @@ coverage = 100%
 → roadmap cannot claim universal correctness
 ```
 
----
+______________________________________________________________________
 
-# 97. Exit criteria by maturity tier
+## 97. Exit criteria by maturity tier
 
 ```yaml
 maturity_tiers:
@@ -2431,9 +2429,9 @@ maturity_tiers:
 
 These maturity labels are provisional.
 
----
+______________________________________________________________________
 
-# 98. Roadmap score prohibition
+## 98. Roadmap score prohibition
 
 Do not compress maturity into a single unsupported percentage such as:
 
@@ -2456,9 +2454,9 @@ maturity_vector:
   recovery: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 99. Current provisional maturity vector
+## 99. Current provisional maturity vector
 
 ```yaml
 current_maturity:
@@ -2512,9 +2510,9 @@ current_maturity:
     NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 100. RSCF completion state
+## 100. RSCF completion state
 
 ```yaml
 rscf:
@@ -2585,9 +2583,9 @@ rscf:
     PLACEHOLDER
 ```
 
----
+______________________________________________________________________
 
-# 101. GMEF completion state
+## 101. GMEF completion state
 
 ```yaml
 gmef:
@@ -2636,9 +2634,9 @@ gmef:
     UNFINALIZED
 ```
 
----
+______________________________________________________________________
 
-# 102. Roadmap proof capsule
+## 102. Roadmap proof capsule
 
 ```yaml
 proof_capsule:
@@ -2676,9 +2674,9 @@ proof_capsule:
     - security blocker discovered
 ```
 
----
+______________________________________________________________________
 
-# 103. Related artifacts
+## 103. Related artifacts
 
 ```yaml
 related:
@@ -2736,9 +2734,9 @@ related:
     UNVERIFIED
 ```
 
----
+______________________________________________________________________
 
-# 104. Relation ontology
+## 104. Relation ontology
 
 ```text
 PLANS
@@ -2758,9 +2756,9 @@ SUPERSEDED_BY
 ROLLBACK_TO
 ```
 
----
+______________________________________________________________________
 
-# 105. Completion status
+## 105. Completion status
 
 ```yaml
 completion_status:
@@ -2854,9 +2852,9 @@ completion_status:
     status: UNBOUND
 ```
 
----
+______________________________________________________________________
 
-# 106. Gap registry
+## 106. Gap registry
 
 ```yaml
 gaps:
@@ -2893,9 +2891,9 @@ gaps:
     - formatting
 ```
 
----
+______________________________________________________________________
 
-# 107. Hard boundaries
+## 107. Hard boundaries
 
 ```text
 PLACEHOLDER != IMPLEMENTED
@@ -2945,9 +2943,9 @@ UNKNOWN/GAP != READY
 SKIPPED_TEST != EXIT_CRITERION_PASS
 ```
 
----
+______________________________________________________________________
 
-# 108. Current decision
+## 108. Current decision
 
 ```yaml
 decision:
@@ -2990,9 +2988,9 @@ decision:
     - grant Worker authority
 ```
 
----
+______________________________________________________________________
 
-# 109. Immediate recommended implementation sequence
+## 109. Immediate recommended implementation sequence
 
 Given the current unresolved state, the smallest defensible sequence is:
 
@@ -3013,9 +3011,9 @@ Given the current unresolved state, the smallest defensible sequence is:
 
 This ordering minimizes irreversible architectural debt.
 
----
+______________________________________________________________________
 
-# 110. Final conclusion
+## 110. Final conclusion
 
 **Claim**
 
@@ -3122,22 +3120,27 @@ PLANNING_ONLY
 
 The key distinction is that `ROADMAP.md` should now own **sequencing, maturity, dependency order, phase gates, rollout, and readiness**, while `GENERATOR_CONTRACT.md` owns Generator semantics, `VALIDATION.md` owns admissibility checks, and `TESTS.md` owns executable assurance. This separation keeps the roadmap useful without turning planning language into implementation claims.
 ```
----
+
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[25_COGNITIVE_MATRIX/12_GENERATORS/00_INDEX/GENERATORS_MAP|GENERATORS_MAP]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: generators_roadmap
 node_type: note
 path: 25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_ROADMAP.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/12_GENERATORS/12_GENERATORS_MOC|12_GENERATORS_MOC]]

@@ -74,7 +74,7 @@
     "mckinsey-banking-crm-assessment-rscf"
   ],
   "depends_on_workflows": [
-    "mckinsey-banking-crm-assessment-rscf-workflow.md"
+    "amos-mckinsey-banking-crm-assessment-rscf-workflow.md"
   ],
   "epistemic_class": "AMOS_MODEL",
   "claim_ceiling": 0.95,

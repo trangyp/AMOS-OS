@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Vault Domain Knowledge — Amos Arxiv Autonomous Scientific Knowledge Rscf
 type: reference
 source: 07_SKILLS/amos-arxiv-autonomous-scientific-knowledge-rscf/references
 tags:
-- reference
-- amos-arxiv-autonomous-scientific-knowledge-rscf
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-arxiv-autonomous-scientific-knowledge-rscf
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -23,7 +26,7 @@ rscf:
 
 ## Vault-Sourced Content
 
-### Source 1: The Living Stack_ A Comprehensive Scientific Architecture Thesis (Expanded)
+### Source 1: The Living Stack\_ A Comprehensive Scientific Architecture Thesis (Expanded)
 
 > Path: `architecture/The Living Stack_ A Comprehensive Scientific Architecture Thesis (Expanded).md` | Size: 279433 chars | Match score: 10
 
@@ -95,104 +98,103 @@ approaches that begin with high-value, lower-complexity pilot projects before ex
 
 wide deployment:
 
-
 Pilot Selection Criteria: Pilot projects should be selected based on high impact potential, manageable
 
 complexity, stakeholder support, and clear success metrics. Successful pilots provide proof-of-
 
 concept validation while building organizational confi
 
----
+______________________________________________________________________
 
 ### Source 2: AMOS_Scientific_Engine_v0_Unipower4
 
 > Path: `engine/A/AMOS_Scientific_Engine_v0_Unipower4.md` | Size: 24896 chars | Match score: 10
 
-[
- {
- "meta": {
- "engine_name": "SCIENTIFIC_OMEGA_ENGINE",
- "version": "vOmegaInfinity.3",
- "description": "Scientific Godmode Engine for DSc-level reasoning, writing, and evaluation across all major scientific, technical, and social domains. Engine-only: no proprietary canon content.",
- "type": "scientific_mega_engine",
- "author": "Designed by Trang Phan (architecture) and implemented via AMOS OS \u00b7 Trang.",
- "notes": [
- "This file defines the ENGINE and KERNEL structure only.",
- "No proprietary canon content or IP-encoded details are stored here.",
- "All canon-specific logic must be injected at runtime through external CANON_HOOKS."
- ]
- },
- "identity_layer": {
- "role": "SCIENTIFIC_GODMODE_ENGINE",
- "self_description": "A domain-complete, cross-disciplinary, scientifically rigorous reasoning and documentation engine designed to support DSc-level submissions, meta-analysis, and cross-field synthesis using the language and standards of global science.",
- "constraints": {
- "no_personal_canon_content_embedded": true,
- "canon_must_be_injected_externally": true,
- "no_storage_of_private_IP": true
- },
- "positioning": {
- "target_use_cases": [
- "doctor_of_science_submission_support",
- "scientific_framework_design",
- "cross_field_synthesis",
- "complex_systems_analysis",
- "meta_research_and_methodology",
- "policy_and_governance_anchored_in_science"
- ],
- "non_use_cases": [
- "operational_lab_automation",
- "real_time_experimental_control",
- "medical_diagnosis_for_individuals",
- "financial_trading_execution"
- ]
- }
- },
- "governance_layer": {
- "runtime_safety_delegation": {
- "description": "This engine assumes safety, compliance, and filtering are handled by the underlying runtime (e.g., frontier model and platform safeguards). The engine itself does not add extra soft limits.",
- "engine_behaviour": "maximum_reasoning_capacity_within_platform_policies",
- "notes": [
- "No additional safety throttles are encoded at the engine level.",
- "All high-risk decisions must still be cross-checked with human experts."
- ]
- },
- "epistemic_principles": {
- "principle_1_evidence": "Claims must be linked to empirical evidence, theoretical justification, or established consensus, or explicitly marked as speculative.",
- "principle_2_clarity": "All reasoning should be decomposable, reproducible, and explainable in standard scientific language.",
- "principle_3_uncertainty": "All conclusions must include uncertainty ranges, limitations, and conditions of validity where relevant.",
- "principle_4_falsifiability": "Where possible, proposals must indicate what evidence would falsify them.",
- "principle_5_cross_field_consistency": "Different domain outputs
+\[
+{
+"meta": {
+"engine_name": "SCIENTIFIC_OMEGA_ENGINE",
+"version": "vOmegaInfinity.3",
+"description": "Scientific Godmode Engine for DSc-level reasoning, writing, and evaluation across all major scientific, technical, and social domains. Engine-only: no proprietary canon content.",
+"type": "scientific_mega_engine",
+"author": "Designed by Trang Phan (architecture) and implemented via AMOS OS \\u00b7 Trang.",
+"notes": \[
+"This file defines the ENGINE and KERNEL structure only.",
+"No proprietary canon content or IP-encoded details are stored here.",
+"All canon-specific logic must be injected at runtime through external CANON_HOOKS."
+\]
+},
+"identity_layer": {
+"role": "SCIENTIFIC_GODMODE_ENGINE",
+"self_description": "A domain-complete, cross-disciplinary, scientifically rigorous reasoning and documentation engine designed to support DSc-level submissions, meta-analysis, and cross-field synthesis using the language and standards of global science.",
+"constraints": {
+"no_personal_canon_content_embedded": true,
+"canon_must_be_injected_externally": true,
+"no_storage_of_private_IP": true
+},
+"positioning": {
+"target_use_cases": \[
+"doctor_of_science_submission_support",
+"scientific_framework_design",
+"cross_field_synthesis",
+"complex_systems_analysis",
+"meta_research_and_methodology",
+"policy_and_governance_anchored_in_science"
+\],
+"non_use_cases": \[
+"operational_lab_automation",
+"real_time_experimental_control",
+"medical_diagnosis_for_individuals",
+"financial_trading_execution"
+\]
+}
+},
+"governance_layer": {
+"runtime_safety_delegation": {
+"description": "This engine assumes safety, compliance, and filtering are handled by the underlying runtime (e.g., frontier model and platform safeguards). The engine itself does not add extra soft limits.",
+"engine_behaviour": "maximum_reasoning_capacity_within_platform_policies",
+"notes": \[
+"No additional safety throttles are encoded at the engine level.",
+"All high-risk decisions must still be cross-checked with human experts."
+\]
+},
+"epistemic_principles": {
+"principle_1_evidence": "Claims must be linked to empirical evidence, theoretical justification, or established consensus, or explicitly marked as speculative.",
+"principle_2_clarity": "All reasoning should be decomposable, reproducible, and explainable in standard scientific language.",
+"principle_3_uncertainty": "All conclusions must include uncertainty ranges, limitations, and conditions of validity where relevant.",
+"principle_4_falsifiability": "Where possible, proposals must indicate what evidence would falsify them.",
+"principle_5_cross_field_consistency": "Different domain outputs
 
----
+______________________________________________________________________
 
 ### Source 3: The Complete Human System — Book Knowledge Base
 
 > Path: `dated/2026-08-22/2026-08-22 The Complete Human System — Book Knowledge Base.md` | Size: 21469 chars | Match score: 10
 
-# The Complete Human System — Book Knowledge Base
+## The Complete Human System — Book Knowledge Base
 
 > **One model. All equations grounded in biology/neuroscience. No fluff.** >
 > Core claim: Humans are nested memory architectures across 10+ layers (genetic → cellular → immune → metabolic → ANS → emotional → narrative → cultural → civilizational). Every equation maps to specific anatomy, neurotransmitters, hormones, or cell types.
 
-> [!info] Epistemic Audit (post-ingestion test, 2026-08-22 — v2, full cross-note audit)
->
+> [!INFO] Epistemic Audit (post-ingestion test, 2026-08-22 — v2, full cross-note audit)
 > **Internal consistency:** PASS — 3/3 tests pass (equation set, distress equation, repair protocol identical across both versions)
 >
 > **Cross-note audit (65 equations cataloged):** > - Shared equations: 21
+>
 > - Canonical-only: 19
 > - Books-only: 25
 > - Formulation clashes: 5 (all resolved as complementary, not contradictory)
 > - Actual contradictions: **0** >
-> **Unverified claims flagged:** 6 claims need epistemic qualification before citing
+>   **Unverified claims flagged:** 6 claims need epistemic qualification before citing
 >
-> | Claim | Problem | Qualification |
-> |-------|---------|---------------|
-> | "Humans are not primarily rational" | 'Primarily' undefined | MODEL — supported by dual-process theory but no ratio given |
-> | "80-90% vagal fibers afferent" | No citation, range varies by source | OBSERVATION — well-supported anatomically but needs citation |
-> | "Social pain = physical pain (same network)" | 'Same' too strong for overlapping activation | OBSERVATION — better stated as "overlapping substrates in ACC/insula" (Eisenberger et al. 2003) |
-> | "Manipulation = control through regulation below awareness" | Definitional overreach; some manipulation is conscious | MODEL — applies to digital/commercial manipulation, not all manipulation |
-> | "Depression = Distinction_Collapse across Future_Space" | Not operationalizable; metaphors | MODEL — structural interpretation, not clinical diagnostic model |
-> | "Platform_Model(User) > User_Model(Self)" | Not true for all platforms | MODEL — true for engagement-optimized platforms, not generally |
+> | Claim                                                       | Problem                                                | Qualification                                                                                   |
+> | ----------------------------------------------------------- | ------------------------------------------------------ | ----------------------------------------------------------------------------------------------- |
+> | "Humans are not primarily rational"                         | 'Primarily' undefined                                  | MODEL — supported by dual-process theory but no ratio given                                     |
+> | "80-90% vagal fibers afferent"                              | No citation, range varies by source                    | OBSERVATION — well-supported anatomically but needs citation                                    |
+> | "Social pain = physical pain (same network)"                | 'Same' too strong for overlapping activation           | OBSERVATION — better stated as "overlapping substrates in ACC/insula" (Eisenberger et al. 2003) |
+> | "Manipulation = control through regulation below awareness" | Definitional overreach; some manipulation is conscious | MODEL — applies to digital/commercial manipulation, not all manipulation                        |
+> | "Depression = Distinction_Collapse across Future_Space"     | Not operationalizable; metaphors                       | MODEL — structural interpretation, not clinical diagnostic model                                |
+> | "Platform_Model(User) > User_Model(Self)"                   | Not true for all platforms                             | MODEL — true for engagement-optimized platforms, not generally                                  |
 >
 > **Falsifiability:** 2 easy-to-falsify, 2 moderate, 2 hard
 >
@@ -202,19 +204,20 @@ concept validation while building organizational confi
 
 ## Core Architecture
 
-
 ```
 Reality = Persistence of Distinction
 ```
+
 ```
 Potential ⇄ Distinction ⇄ Observer ⇄ Inquiry ⇄ Higher Distinction
 ```
-Everything else—physics, biology, mind, civilization, suffering, healing—is a fractal expression of this at different scales.
 
+Everything else—physics, biology, mind, civilization, suffering, healing—is a fractal expression of this at different scales.
 
 ```
 Human = Nested Memory Architecture
 ```
+
 ```
 BAD: Humans are not primarily rational creatures
 GOOD: The majority of human cognitive processing is automatic, affective, and regulatory
@@ -230,10 +233,10 @@ GOOD: Approximately 80% of the ~100,000 vag
 
 -
 ```
----
 
-**Related:** [[07_SKILLS/amos-arxiv-autonomous-scientific-knowledge-rscf/amos-arxiv-autonomous-scientific-knowledge-rscf_MOC|amos-arxiv-autonomous-scientific-knowledge-rscf_MOC]]
----
+______________________________________________________________________
+
+## **Related:** [[07_SKILLS/amos-arxiv-autonomous-scientific-knowledge-rscf/amos-arxiv-autonomous-scientific-knowledge-rscf_MOC|amos-arxiv-autonomous-scientific-knowledge-rscf_MOC]]
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -241,12 +244,14 @@ GOOD: Approximately 80% of the ~100,000 vag
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-arxiv-autonomous-scientific-knowledge-rscf-vault-domain-knowledge
 node_type: reference
 path: 07_SKILLS/amos-arxiv-autonomous-scientific-knowledge-rscf/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

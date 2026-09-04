@@ -12,28 +12,28 @@ segment: 25_COGNITIVE_MATRIX/10_ROUTING
 artifact_kind: NOTE
 path: 25_COGNITIVE_MATRIX/10_ROUTING/ROUTING_AUDIT.md
 tags:
-- 10_routing
-- AMOS
-- AMOS_CORE
-- AMOS_CORE_v4_4
-- AMOS_FULL_BRAIN_OS
-- AMOS_OS
-- COGNITIVE_MATRIX
-- ROUTING
-- ROUTING_AUDIT
-- TRANG_PHAN
-- amos-os
-- audit
-- domain/cognitive-matrix
-- canon/universe
-- cognitive-matrix
-- matrix
-- note
-- routing
-- rscf
-- identity: -None
-- placeholder_expanded
-- law-hierarchy
+  - 10_routing
+  - AMOS
+  - AMOS_CORE
+  - AMOS_CORE_v4_4
+  - AMOS_FULL_BRAIN_OS
+  - AMOS_OS
+  - COGNITIVE_MATRIX
+  - ROUTING
+  - ROUTING_AUDIT
+  - TRANG_PHAN
+  - amos-os
+  - audit
+  - domain/cognitive-matrix
+  - canon/universe
+  - cognitive-matrix
+  - matrix
+  - note
+  - routing
+  - rscf
+  - identity: -None
+  - placeholder_expanded
+  - law-hierarchy
 version: 0.2.0
 updated: '2026-08-27'
 status: PLACEHOLDER_EXPANDED
@@ -110,7 +110,7 @@ Origin architect / steward: **Trang Phan**
 
 System: **AMOS OS**
 
----
+______________________________________________________________________
 
 # 10_ROUTING — Routing Audit
 
@@ -125,15 +125,15 @@ System: **AMOS OS**
 > **Conclusion class:** `UNKNOWN/GAP`
 >
 > **AMOS_CORE target:** `v4.4`
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
----
+> rscf:
+> state: DERIVED
+> claim_class: DERIVED
+> provenance: AMOS_corpus
+> scope: AMOS_general
 
+______________________________________________________________________
 
-# 0. Purpose
+## 0. Purpose
 
 `ROUTING_AUDIT.md` defines the AMOS contract for auditing whether the `10_ROUTING` subsystem:
 
@@ -169,26 +169,26 @@ AUTHORIZE
 != COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 1. Audit objective
+## 1. Audit objective
 
 The primary audit question is:
 
-> **Given request Q and state S, did AMOS select and bind the smallest sufficient valid route, under the correct cons
+> \*\*Given request Q and state S, did AMOS select and bind the smallest sufficient valid route, under the correct cons
 
----
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/10_ROUTING/10_ROUTING_MOC|10_ROUTING_MOC]]
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
 
----
+______________________________________________________________________
 
 **MOC:** [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]
 
----
+______________________________________________________________________
 
 *RSCF Status: SOURCE_CLAIM · Epistemic Class: AMOS_MODEL · Canonical Status: UNKNOWN/GAP*
-

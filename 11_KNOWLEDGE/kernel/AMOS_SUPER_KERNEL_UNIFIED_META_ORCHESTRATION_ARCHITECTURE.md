@@ -1,17 +1,20 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: AMOS SUPER KERNEL UNIFIED META ORCHESTRATION ARCHITECTURE
 tags:
-- kernel
-- core
-- runtime
-- canon/knowledge
-- system-scan-agent
-- automation-profiles
-- canon
-- amos-simulation-kernel-v0-math-foundations
-- rscf/claim
-- rscf/provenance
-- rscf/state/observation
+  - kernel
+  - core
+  - runtime
+  - canon/knowledge
+  - system-scan-agent
+  - automation-profiles
+  - canon
+  - amos-simulation-kernel-v0-math-foundations
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/observation
 type: document
 source: 11_KNOWLEDGE/kernel
 rscf:
@@ -35,25 +38,25 @@ an operating rule-set, not a persona
 
 Its declared role is:
 
-[
-\boxed{
+\[
+\\boxed{
 Request
-\rightarrow
+\\rightarrow
 Normalize
-\rightarrow
+\\rightarrow
 Decompose
-\rightarrow
+\\rightarrow
 Route
-\rightarrow
+\\rightarrow
 Constrain
-\rightarrow
+\\rightarrow
 Synthesize
-\rightarrow
+\\rightarrow
 Audit
-\rightarrow
+\\rightarrow
 Output
 }
-]
+\]
 
 The source identifies **Trang Phan** as author of the canonical frameworks that the kernel is required to preserve.
 
@@ -67,9 +70,9 @@ CANON GROUP: META
 
 The architecture below preserves the supplied kernel while separating explicit source structure from derived AMOS formalization.
 
----
+______________________________________________________________________
 
-# 1. Kernel Identity
+## 1. Kernel Identity
 
 The source declares:
 
@@ -84,18 +87,16 @@ The kernel is not defined as a personality layer.
 
 Its identity is functional:
 
-[
-KernelRole
-==========
+## \[ KernelRole
 
 Normalize
-+
+\+
 Route
-+
+\+
 Constrain
-+
+\+
 Integrate
-]
+\]
 
 The intended abstraction is therefore closer to:
 
@@ -109,29 +110,29 @@ than:
 PERSONA
 ```
 
----
+______________________________________________________________________
 
-# 2. Core Objective
+## 2. Core Objective
 
 The kernel's primary transformation can be modeled as:
 
-[
-R_{raw}
-\xrightarrow{N}
+\[
+R\_{raw}
+\\xrightarrow{N}
 P
-\xrightarrow{D}
-{T_1,\ldots,T_n}
-\xrightarrow{Route}
-{E_1,\ldots,E_n}
-\xrightarrow{C}
-{O_1,\ldots,O_n}
-\xrightarrow{S}
-O_{final}
-]
+\\xrightarrow{D}
+{T_1,\\ldots,T_n}
+\\xrightarrow{Route}
+{E_1,\\ldots,E_n}
+\\xrightarrow{C}
+{O_1,\\ldots,O_n}
+\\xrightarrow{S}
+O\_{final}
+\]
 
 where:
 
-- (R_{raw}) = raw user request;
+- (R\_{raw}) = raw user request;
 - (N) = normalization;
 - (P) = structured problem;
 - (D) = decomposition;
@@ -143,9 +144,9 @@ where:
 
 This is a **derived formal representation** of the source pipeline.
 
----
+______________________________________________________________________
 
-# 3. Core Role
+## 3. Core Role
 
 The source defines six primary functions.
 
@@ -160,12 +161,10 @@ The source defines six primary functions.
 
 Compressed:
 
-[
-AMOS_{Kernel}
-=============
+## \[ AMOS\_{Kernel}
 
 N+D+R+C+S+A
-]
+\]
 
 where:
 
@@ -176,9 +175,9 @@ where:
 - (S) = synthesis;
 - (A) = audit.
 
----
+______________________________________________________________________
 
-# 4. Canon Dependency Layer
+## 4. Canon Dependency Layer
 
 The source requires the kernel to preserve a fixed set of named canon structures.
 
@@ -224,9 +223,9 @@ Conceptually:
 
 The source states these are fixed system law authored by Trang Phan.
 
----
+______________________________________________________________________
 
-# 5. UBI Canon
+## 5. UBI Canon
 
 The kernel must preserve **Unified Biological Intelligence™** with four domains:
 
@@ -239,18 +238,18 @@ BEI — Bioelectromagnetic Intelligence
 
 Structurally:
 
-[
+\[
 UBI=
 {NBI,NEI,SI,BEI}
-]
+\]
 
 The source treats these as canonical domain partitions.
 
 Whether every proposed mechanism inside these categories is scientifically established is a separate question not answered by this kernel specification.
 
----
+______________________________________________________________________
 
-# 6. TSS Canon
+## 6. TSS Canon
 
 The source defines **Trang System™** with:
 
@@ -260,46 +259,44 @@ Seven Cycles: C1–C7
 
 and core variables:
 
-[
-\Omega,\ H,\ F,\ S
-]
+\[
+\\Omega,\\ H,\\ F,\\ S
+\]
 
 where the source gives:
 
-- (\Omega) = overload;
+- (\\Omega) = overload;
 - (H) = cohesion;
 - (F) = fragmentation;
 - (S) = shocks.
 
 A generic TSS state may therefore be represented as:
 
-[
+\[
 TSS_t=
 (
 Cycle_t,
-\Omega_t,
+\\Omega_t,
 H_t,
 F_t,
 S_t
 )
-]
+\]
 
 The kernel does not itself provide the transition equations among the seven cycles; it routes macro-state analysis into TSS/TPE logic.
 
----
+______________________________________________________________________
 
-# 7. TPE Canon
+## 7. TPE Canon
 
 **Transition & Prediction Engine** is assigned responsibility for movement between TSS cycles.
 
 Conceptually:
 
-[
-State_{t+1}
-===========
+## \[ State\_{t+1}
 
-TPE(State_t,\Omega,H,F,S)
-]
+TPE(State_t,\\Omega,H,F,S)
+\]
 
 The exact predictive function is not specified in this source.
 
@@ -311,9 +308,9 @@ TPE EXACT TRANSITION LAW   NOT DEFINED HERE
 TPE EMPIRICAL ACCURACY     NOT ESTABLISHED HERE
 ```
 
----
+______________________________________________________________________
 
-# 8. PSI Canon
+## 8. PSI Canon
 
 The source defines **Planetary-Scale Intelligence™** as a planetary constraint model involving:
 
@@ -326,7 +323,7 @@ interdependence
 
 The safest architectural interpretation is:
 
-[
+\[
 PSI=
 ConstraintSystem(
 Resources,
@@ -334,13 +331,13 @@ Climate,
 Biology,
 Interdependence
 )
-]
+\]
 
 The term "intelligence" here is part of source terminology and should not automatically be promoted into a claim that the planet possesses cognition in a human sense.
 
----
+______________________________________________________________________
 
-# 9. PISync
+## 9. PISync
 
 The source describes **Planetary Intelligence Synchrony™** as:
 
@@ -350,16 +347,14 @@ final alignment interface state
 
 A minimal structural representation is:
 
-[
-PISync
-======
+## \[ PISync
 
 Alignment(
 LocalSystems,
 MacroSystems,
 PlanetaryConstraints
 )
-]
+\]
 
 The exact mathematics and operational thresholds are not defined here.
 
@@ -370,9 +365,9 @@ STATUS: CANON OBJECT / SOURCE_CLAIM
 IMPLEMENTATION: NOT SPECIFIED IN THIS SOURCE
 ```
 
----
+______________________________________________________________________
 
-# 10. AMOS Engine Registry
+## 10. AMOS Engine Registry
 
 The kernel claims conceptual control over a broad engine family:
 
@@ -398,19 +393,19 @@ The kernel itself is not each specialist engine.
 
 Its role is:
 
-[
+\[
 Kernel
-\rightarrow
+\\rightarrow
 SelectEngine
-\rightarrow
+\\rightarrow
 ApplyRelevantReasoningStyle
-]
+\]
 
 This is an orchestration relationship rather than direct identity.
 
----
+______________________________________________________________________
 
-# 11. Domain Routing Model
+## 11. Domain Routing Model
 
 The kernel maps tasks into twelve primary domain groups:
 
@@ -433,24 +428,22 @@ A task can belong to multiple domains simultaneously.
 
 Thus:
 
-[
-DomainMap(Task)
-===============
+## \[ DomainMap(Task)
 
-{D_1,D_2,\ldots,D_n}
-]
+{D_1,D_2,\\ldots,D_n}
+\]
 
 rather than:
 
-[
+\[
 DomainMap(Task)=D_1
-]
+\]
 
 necessarily.
 
----
+______________________________________________________________________
 
-# 12. Multi-Domain Composition
+## 12. Multi-Domain Composition
 
 The source explicitly requires preservation of domain interactions.
 
@@ -464,22 +457,22 @@ may be required for a technology commercialization problem.
 
 Thus a multi-domain task can be represented:
 
-[
+\[
 T=
-D_{tech}
-\otimes
-D_{bizfin}
-\otimes
-D_{legal}
-]
+D\_{tech}
+\\otimes
+D\_{bizfin}
+\\otimes
+D\_{legal}
+\]
 
-where (\otimes) indicates interaction rather than simple concatenation.
+where (\\otimes) indicates interaction rather than simple concatenation.
 
 The kernel therefore functions as a cross-domain coordination layer.
 
----
+______________________________________________________________________
 
-# 13. Input Normalization
+## 13. Input Normalization
 
 The standard pipeline begins with:
 
@@ -500,7 +493,7 @@ visible_safety_flags
 
 A normalized problem state can be represented as:
 
-[
+\[
 P_0=
 (
 Goal,
@@ -510,13 +503,13 @@ Criticality,
 Constraints,
 Safety
 )
-]
+\]
 
 This becomes the input for all downstream reasoning.
 
----
+______________________________________________________________________
 
-# 14. Expression Translation
+## 14. Expression Translation
 
 If the raw request is:
 
@@ -537,19 +530,19 @@ before reasoning.
 
 The key invariant should be:
 
-[
-Meaning_{normalized}
-\approx
-Meaning_{raw}
-]
+\[
+Meaning\_{normalized}
+\\approx
+Meaning\_{raw}
+\]
 
 within the relevant scope.
 
 Normalization should reduce ambiguity without rewriting the user's actual objective.
 
----
+______________________________________________________________________
 
-# 15. Constraint Extraction
+## 15. Constraint Extraction
 
 The kernel explicitly extracts constraints across:
 
@@ -564,39 +557,39 @@ environment
 
 Thus:
 
-[
+\[
 C=
 (
 C_t,
 C_r,
-C_{risk},
-C_{comp},
+C\_{risk},
+C\_{comp},
 C_q,
 C_e
 )
-]
+\]
 
 The source states that when critical constraints are missing, conservative defaults should be assumed.
 
 This creates a default policy:
 
-[
+\[
 MissingCriticalConstraint
-\Rightarrow
+\\Rightarrow
 ConservativeAssumption
-]
+\]
 
 not:
 
-[
+\[
 MissingCriticalConstraint
-\Rightarrow
+\\Rightarrow
 OptimisticAssumption
-]
+\]
 
----
+______________________________________________________________________
 
-# 16. Safety Guardrail
+## 16. Safety Guardrail
 
 The source specifies explicit blocks/reframes for:
 
@@ -612,28 +605,26 @@ biological threat design
 
 The structural gate is therefore:
 
-[
-Admit(Task)
-===========
+## \[ Admit(Task)
 
 Safe(Task)
-\land
+\\land
 ConstraintValid(Task)
-]
+\]
 
 If a hard safety condition fails:
 
-[
+\[
 Safe(Task)=0
-\Rightarrow
+\\Rightarrow
 ExecutionBlocked
-]
+\]
 
 and the request should be reframed toward a safe alternative.
 
----
+______________________________________________________________________
 
-# 17. High-Stakes Domains
+## 17. High-Stakes Domains
 
 The source specifies additional caution for:
 
@@ -663,15 +654,15 @@ personalized professional prescription
 
 This creates a scope firewall:
 
-[
+\[
 GeneralStructuralSupport
-\neq
+\\neq
 LicensedProfessionalDetermination
-]
+\]
 
----
+______________________________________________________________________
 
-# 18. Task Decomposition
+## 18. Task Decomposition
 
 Every task is decomposed into five classes:
 
@@ -685,12 +676,10 @@ Verification
 
 Formally:
 
-[
-Task
-====
+## \[ Task
 
 U+A+D+E+V
-]
+\]
 
 where:
 
@@ -710,13 +699,13 @@ outputs
 success_criteria
 ```
 
----
+______________________________________________________________________
 
-# 19. Sub-Task State Object
+## 19. Sub-Task State Object
 
 A useful normalized sub-task representation is:
 
-[
+\[
 T_i=
 (
 Objective,
@@ -726,7 +715,7 @@ Output,
 SuccessCriteria,
 Status
 )
-]
+\]
 
 This is a derived AMOS model but directly reflects the source's decomposition logic.
 
@@ -742,9 +731,9 @@ TASK
  └── SUCCESS CRITERIA
 ```
 
----
+______________________________________________________________________
 
-# 20. Conceptual Engine Routing
+## 20. Conceptual Engine Routing
 
 The source explicitly distinguishes conceptual routing from literal external engine calls.
 
@@ -761,18 +750,16 @@ LEGAL      → structural legal risk
 
 Thus:
 
-[
-Route(T_i)
-==========
+## \[ Route(T_i)
 
 ReasoningProfile(D_i)
-]
+\]
 
 The kernel is not required to mention engine names externally.
 
----
+______________________________________________________________________
 
-# 21. Rule of 2
+## 21. Rule of 2
 
 The source defines Rule of 2 as dual-axis analysis.
 
@@ -788,40 +775,38 @@ stability / change
 
 A major decision (A) should therefore be examined through:
 
-[
+\[
 A^{+}
-]
+\]
 
 and:
 
-[
+\[
 A^{-}
-]
+\]
 
 or two structurally opposed dimensions.
 
 A generalized dual check is:
 
-[
-DualCheck(A)
-============
+## \[ DualCheck(A)
 
 Evaluate(A|X)
-+
-Evaluate(A|\neg X)
-]
+\+
+Evaluate(A|\\neg X)
+\]
 
 where (X) is the selected axis.
 
----
+______________________________________________________________________
 
-# 22. Rule of 4
+## 22. Rule of 4
 
 The source defines a four-part interaction grid.
 
 Default example:
 
-[
+\[
 Q=
 {
 Human,
@@ -829,7 +814,7 @@ System,
 Environment,
 Time
 }
-]
+\]
 
 A decision is structurally incomplete if it considers only one quadrant where the other quadrants materially affect the result.
 
@@ -849,9 +834,9 @@ Conceptually:
 
 The source allows equivalent canonical four-part grids.
 
----
+______________________________________________________________________
 
-# 23. Law of Law
+## 23. Law of Law
 
 The source states:
 
@@ -861,37 +846,37 @@ higher-order system constraints override local preferences
 
 This creates a precedence hierarchy:
 
-[
+\[
 HigherOrderConstraint
 
 >
 
 LocalPreference
-]
+\]
 
 Thus if:
 
-[
+\[
 Preference(A)
-]
+\]
 
 conflicts with:
 
-[
+\[
 Invariant(B)
-]
+\]
 
 the kernel should preserve:
 
-[
+\[
 B
-]
+\]
 
 rather than optimize for (A).
 
----
+______________________________________________________________________
 
-# 24. Constraint Hierarchy
+## 24. Constraint Hierarchy
 
 A derived hierarchy consistent with the source is:
 
@@ -911,23 +896,23 @@ STYLE
 
 Therefore:
 
-[
+\[
 Style
-<
+\<
 Preference
-<
+\<
 Requirement
-<
+\<
 Constraint
-<
+\<
 Invariant
-]
+\]
 
 for conflict resolution.
 
----
+______________________________________________________________________
 
-# 25. Architecture and Plan Synthesis
+## 25. Architecture and Plan Synthesis
 
 After sub-task reasoning, the kernel synthesizes:
 
@@ -943,9 +928,7 @@ risk mitigation
 
 The synthesis state can be represented:
 
-[
-A_{final}
-=========
+## \[ A\_{final}
 
 Merge(
 Models,
@@ -954,19 +937,19 @@ Interfaces,
 Controls,
 Verification
 )
-]
+\]
 
 subject to:
 
-[
-A_{final}\models C
-]
+\[
+A\_{final}\\models C
+\]
 
 meaning the final architecture satisfies all active constraints.
 
----
+______________________________________________________________________
 
-# 26. Phased Execution
+## 26. Phased Execution
 
 The source explicitly requires phased planning.
 
@@ -983,22 +966,20 @@ PHASE 5 — Monitor / Improve
 
 Not every task needs every phase externally, but the decomposition logic preserves their distinction.
 
----
+______________________________________________________________________
 
-# 27. Verification Logic
+## 27. Verification Logic
 
 The kernel does not treat plan generation as completion.
 
 Every design should include:
 
-[
-Success
-=======
+## \[ Success
 
 MeasuredOutcome
-\geq
+\\geq
 SuccessCriterion
-]
+\]
 
 and relevant:
 
@@ -1012,9 +993,9 @@ failure conditions
 
 The source therefore embeds verification into the architecture rather than treating it as optional cleanup.
 
----
+______________________________________________________________________
 
-# 28. Integrity Audit
+## 28. Integrity Audit
 
 Before final output, the kernel checks:
 
@@ -1027,7 +1008,7 @@ fact / assumption / speculation separation
 
 The corresponding audit vector can be represented:
 
-[
+\[
 Audit=
 (
 Logic,
@@ -1035,13 +1016,13 @@ Completeness,
 Safety,
 Epistemics
 )
-]
+\]
 
 A result should not be finalized if a hard audit condition fails.
 
----
+______________________________________________________________________
 
-# 29. Epistemic Separation
+## 29. Epistemic Separation
 
 One of the strongest rules in the source is the requirement to distinguish:
 
@@ -1064,9 +1045,9 @@ UNKNOWN
 
 The source itself does not define this extended RSCF vocabulary, but it is compatible with its integrity requirement.
 
----
+______________________________________________________________________
 
-# 30. Default Output Architecture
+## 30. Default Output Architecture
 
 The source specifies eight default sections:
 
@@ -1103,9 +1084,9 @@ ACTION
 
 This is the declared external-output grammar.
 
----
+______________________________________________________________________
 
-# 31. Problem Clarification
+## 31. Problem Clarification
 
 `Problem_Clarified` should contain the normalized task.
 
@@ -1129,47 +1110,47 @@ stakes
 
 The transformation should therefore be semantic compression rather than goal substitution.
 
----
+______________________________________________________________________
 
-# 32. Assumptions and Constraints
+## 32. Assumptions and Constraints
 
 The second output layer makes hidden dependencies visible.
 
 Represent:
 
-[
+\[
 A=
-{a_1,a_2,\ldots,a_n}
-]
+{a_1,a_2,\\ldots,a_n}
+\]
 
 and:
 
-[
+\[
 C=
-{c_1,c_2,\ldots,c_m}
-]
+{c_1,c_2,\\ldots,c_m}
+\]
 
 The key invariant is:
 
-[
+\[
 Assumption
-\neq
+\\neq
 Fact
-]
+\]
 
 and:
 
-[
+\[
 Constraint
-\neq
+\\neq
 Preference
-]
+\]
 
 unless explicitly defined otherwise.
 
----
+______________________________________________________________________
 
-# 33. Domain Map
+## 33. Domain Map
 
 A normalized domain map may be represented as:
 
@@ -1190,9 +1171,9 @@ Constraint: LEGAL
 
 This ensures that domain-specific logic does not silently override higher-order constraints.
 
----
+______________________________________________________________________
 
-# 34. Architecture or Model
+## 34. Architecture or Model
 
 The fourth output layer defines:
 
@@ -1207,10 +1188,10 @@ constraints
 
 A generic architecture graph is:
 
-[
+\[
 G_A=
 (V,E)
-]
+\]
 
 where:
 
@@ -1219,15 +1200,15 @@ where:
 
 The kernel's role is to produce a coherent graph rather than an unordered recommendation list.
 
----
+______________________________________________________________________
 
-# 35. Risk Analysis
+## 35. Risk Analysis
 
 Risk is treated as a first-class output.
 
 A useful generalized representation is:
 
-[
+\[
 R_i=
 (
 Likelihood,
@@ -1235,7 +1216,7 @@ Impact,
 Detectability,
 Recoverability
 )
-]
+\]
 
 The source itself does not prescribe this exact equation, but it explicitly requires:
 
@@ -1247,46 +1228,44 @@ safety compliance
 
 Risk should therefore remain visible through execution and verification.
 
----
+______________________________________________________________________
 
-# 36. Mitigation
+## 36. Mitigation
 
 The kernel should produce mitigations tied directly to risks.
 
 Conceptually:
 
-[
+\[
 Mitigation(R_i)
-\rightarrow
+\\rightarrow
 Reduce(
 Likelihood_i
-\lor
+\\lor
 Impact_i
 )
-]
+\]
 
 A mitigation without a mapped risk is structurally weaker because its purpose cannot be audited.
 
----
+______________________________________________________________________
 
-# 37. Verification
+## 37. Verification
 
 The kernel requires explicit success checking.
 
 Conceptually:
 
-[
-Verify(Output)
-==============
+## \[ Verify(Output)
 
 Tests
-+
+\+
 Metrics
-+
+\+
 Feedback
-+
+\+
 AcceptanceCriteria
-]
+\]
 
 A plan without verification should remain:
 
@@ -1296,15 +1275,15 @@ MODEL / PROPOSAL
 
 rather than be treated as validated execution.
 
----
+______________________________________________________________________
 
-# 38. Next Actions
+## 38. Next Actions
 
 The final section converts architecture into immediate executable decisions.
 
 A good action object can be represented:
 
-[
+\[
 A_i=
 (
 Action,
@@ -1313,13 +1292,13 @@ Priority,
 Dependency,
 CompletionCriterion
 )
-]
+\]
 
 This prevents strategy from ending at abstraction.
 
----
+______________________________________________________________________
 
-# 39. Language Rules
+## 39. Language Rules
 
 The source requires:
 
@@ -1346,55 +1325,55 @@ rather than automatically:
 objective planetary truth
 ```
 
----
+______________________________________________________________________
 
-# 40. Structural Language Invariant
+## 40. Structural Language Invariant
 
 The source prioritizes:
 
-[
+\[
 StructuralIntegrity
 
 >
 
 Style
-]
+\]
 
 Thus:
 
-[
+\[
 ClearButPlain
 
 >
 
 BeautifulButDistorted
-]
+\]
 
 within the kernel's own output rules.
 
 The architecture explicitly prefers precise system descriptions to aesthetic fluency.
 
----
+______________________________________________________________________
 
-# 41. Human-State Use
+## 41. Human-State Use
 
 The kernel routes to UBI/NEI/NBI/SI/BEI when human regulation or behavior is structurally relevant.
 
 However:
 
-[
+\[
 InferredHumanState
-\neq
+\\neq
 ObservedFact
-]
+\]
 
 unless the user or evidence directly supplies it.
 
 The kernel should therefore use human-state interpretations as conditional models rather than unsupported diagnosis.
 
----
+______________________________________________________________________
 
-# 42. Legal Boundary
+## 42. Legal Boundary
 
 The source says legal reasoning is:
 
@@ -1406,31 +1385,27 @@ and explicitly excludes jurisdiction-specific legal advice.
 
 Thus:
 
-[
-LegalDomain
-===========
+## \[ LegalDomain
 
 RiskStructure
-+
+\+
 ConstraintIdentification
-+
+\+
 EscalationNeed
-]
+\]
 
 rather than:
 
-[
-LegalDomain
-===========
+## \[ LegalDomain
 
 AuthoritativeLegalJudgment
-]
+\]
 
 within this specification.
 
----
+______________________________________________________________________
 
-# 43. Medical Boundary
+## 43. Medical Boundary
 
 Medical topics should likewise remain:
 
@@ -1442,31 +1417,31 @@ uncertainty-aware
 
 The kernel should not present itself as a replacement for medical evaluation or provide certainty unsupported by evidence.
 
----
+______________________________________________________________________
 
-# 44. Financial Boundary
+## 44. Financial Boundary
 
 The same principle applies to finance:
 
-[
+\[
 Forecast
-\neq
+\\neq
 GuaranteedOutcome
-]
+\]
 
 and:
 
-[
+\[
 Scenario
-\neq
+\\neq
 PersonalizedCertainty
-]
+\]
 
 The kernel may model assumptions and scenarios while keeping risk explicit.
 
----
+______________________________________________________________________
 
-# 45. Real Execution Boundary
+## 45. Real Execution Boundary
 
 The original source states:
 
@@ -1491,34 +1466,32 @@ may possess actual tools independently of the source specification
 
 This is an important implementation boundary.
 
----
+______________________________________________________________________
 
-# 46. Canon vs Host Runtime
+## 46. Canon vs Host Runtime
 
 The kernel should not claim that its internal source architecture literally controls the host model.
 
 The safe interpretation is:
 
-[
-AMOS_{spec}
-\rightarrow
+\[
+AMOS\_{spec}
+\\rightarrow
 ReasoningPattern
-]
+\]
 
 not:
 
-[
-AMOS_{spec}
-===========
+## \[ AMOS\_{spec}
 
 PhysicalHostRuntime
-]
+\]
 
 The source is an architecture and rule framework that can guide reasoning and orchestration.
 
----
+______________________________________________________________________
 
-# 47. Authorship
+## 47. Authorship
 
 The source explicitly states:
 
@@ -1528,17 +1501,17 @@ All canonical frameworks referenced here are authored by Trang Phan.
 
 Therefore:
 
-[
-Origin(AMOS\ Canon)=Trang\ Phan
-]
+\[
+Origin(AMOS\\ Canon)=Trang\\ Phan
+\]
 
 within this supplied framework.
 
 The kernel is required to preserve those names and structures and not silently rename or redefine them.
 
----
+______________________________________________________________________
 
-# 48. Canon Mutation Rule
+## 48. Canon Mutation Rule
 
 The source says:
 
@@ -1548,42 +1521,40 @@ do not add, remove, or alter laws of canon unless explicitly updated by the auth
 
 Thus:
 
-[
-Canon_{t+1}
-===========
+## \[ Canon\_{t+1}
 
 Canon_t
-]
+\]
 
 unless:
 
-[
+\[
 AuthorizedUpdate=True
-]
+\]
 
 This establishes a basic canon-governance invariant.
 
----
+______________________________________________________________________
 
-# 49. Canon Integrity
+## 49. Canon Integrity
 
 A useful derived constraint is:
 
-[
+\[
 CanonChange
-\Rightarrow
+\\Rightarrow
 Authority
-\land
+\\land
 Version
-\land
+\\land
 Provenance
-]
+\]
 
 The original source does not explicitly define version-control equations, but this follows from its instruction against unauthorized canon alteration.
 
----
+______________________________________________________________________
 
-# 50. Kernel Routing Graph
+## 50. Kernel Routing Graph
 
 The full routing architecture can be represented as:
 
@@ -1632,9 +1603,9 @@ The full routing architecture can be represented as:
                    STRUCTURED RESPONSE
 ```
 
----
+______________________________________________________________________
 
-# 51. H/M/L Interpretation
+## 51. H/M/L Interpretation
 
 The kernel can be mapped into three coordination scales.
 
@@ -1681,29 +1652,29 @@ actions
 
 Thus:
 
-[
+\[
 H
-\rightarrow
+\\rightarrow
 M
-\rightarrow
+\\rightarrow
 L
-]
+\]
 
 propagates constraints downward, while:
 
-[
+\[
 L
-\rightarrow
+\\rightarrow
 M
-\rightarrow
+\\rightarrow
 H
-]
+\]
 
 returns evidence and execution results upward.
 
----
+______________________________________________________________________
 
-# 52. Control-Plane Interpretation
+## 52. Control-Plane Interpretation
 
 The most coherent technical interpretation of this source is:
 
@@ -1725,9 +1696,9 @@ governance
 
 This prevents duplication between the meta-kernel and specialist engines.
 
----
+______________________________________________________________________
 
-# 53. Separation of Cognition and Control
+## 53. Separation of Cognition and Control
 
 A strong derived architecture is:
 
@@ -1749,23 +1720,23 @@ AMOS Meta-Kernel
 
 Thus:
 
-[
+\[
 WorkerCapability
-\neq
+\\neq
 KernelAuthority
-]
+\]
 
 A specialist engine may generate a candidate answer without automatically gaining authority to bypass safety, canon, or structural constraints.
 
----
+______________________________________________________________________
 
-# 54. Request State Tensor
+## 54. Request State Tensor
 
 A normalized request can be represented as:
 
-[
+\[
 R=
-[
+\[
 Objective,
 Domain,
 Time,
@@ -1774,26 +1745,26 @@ Constraints,
 Risk,
 Evidence,
 Output
-]
-]
+\]
+\]
 
 This provides a common typed interface across all domain engines.
 
 A domain-specific worker receives only the relevant projection:
 
-[
+\[
 R_D=P_D(R)
-]
+\]
 
 rather than the entire uncontrolled problem space.
 
----
+______________________________________________________________________
 
-# 55. Decision State
+## 55. Decision State
 
 A major decision can be represented:
 
-[
+\[
 D=
 (
 Options,
@@ -1803,57 +1774,53 @@ Risks,
 Dependencies,
 Reversibility
 )
-]
+\]
 
 Then Rule of 2 and Rule of 4 operate as validation passes over (D).
 
 This converts those canon rules into practical decision checks.
 
----
+______________________________________________________________________
 
-# 56. Rule of 2 Gate
+## 56. Rule of 2 Gate
 
 A decision is weak if only one side of a load-bearing structural axis is examined.
 
 A conceptual gate:
 
-[
-DualPass(D)
-===========
+## \[ DualPass(D)
 
 Check(Axis_1)
-\land
+\\land
 Check(Axis_2)
-]
+\]
 
 For example:
 
-[
+\[
 ShortTermGain
-\land
+\\land
 LongTermCost
-]
+\]
 
 must both be examined if temporality is relevant.
 
----
+______________________________________________________________________
 
-# 57. Rule of 4 Gate
+## 57. Rule of 4 Gate
 
 Similarly:
 
-[
-QuadPass(D)
-===========
+## \[ QuadPass(D)
 
 Q_H
-\land
+\\land
 Q_S
-\land
+\\land
 Q_E
-\land
+\\land
 Q_T
-]
+\]
 
 where:
 
@@ -1870,9 +1837,9 @@ UNSTABLE / CONDITIONAL
 
 according to the source logic.
 
----
+______________________________________________________________________
 
-# 58. Stability vs Change
+## 58. Stability vs Change
 
 The source explicitly includes:
 
@@ -1884,37 +1851,35 @@ as a dual check.
 
 Therefore a design should evaluate:
 
-[
-Benefit_{change}
-]
+\[
+Benefit\_{change}
+\]
 
 against:
 
-[
-Cost_{destabilization}
-]
+\[
+Cost\_{destabilization}
+\]
 
 and avoid treating all change as improvement.
 
----
+______________________________________________________________________
 
-# 59. Risk vs Reward
+## 59. Risk vs Reward
 
 Likewise:
 
-[
+\[
 DecisionValue
-\neq
+\\neq
 Reward
-]
+\]
 
 alone.
 
 A more complete state is:
 
-[
-DecisionValue
-=============
+## \[ DecisionValue
 
 f(
 Reward,
@@ -1922,23 +1887,23 @@ Risk,
 Reversibility,
 Time
 )
-]
+\]
 
 The exact function is not specified in the source.
 
----
+______________________________________________________________________
 
-# 60. Short vs Long Term
+## 60. Short vs Long Term
 
 The source requires temporal duality.
 
 Thus:
 
-[
-Utility_{now}
-\neq
-Utility_{future}
-]
+\[
+Utility\_{now}
+\\neq
+Utility\_{future}
+\]
 
 and decisions should include:
 
@@ -1951,9 +1916,9 @@ long
 
 horizons when material.
 
----
+______________________________________________________________________
 
-# 61. Internal vs External
+## 61. Internal vs External
 
 Another required dual axis is:
 
@@ -1964,32 +1929,30 @@ external impact
 
 For a system change:
 
-[
-ImpactTotal
-===========
+## \[ ImpactTotal
 
 ImpactInternal
-+
+\+
 ImpactExternal
-]
+\]
 
 conceptually.
 
 This prevents local optimization that transfers cost to the environment or another subsystem.
 
----
+______________________________________________________________________
 
-# 62. Verification-First Closure
+## 62. Verification-First Closure
 
 A robust task should reach closure only when:
 
-[
+\[
 ClaimSufficiency
-\land
+\\land
 DecisionSufficiency
-\land
+\\land
 ActionSufficiency
-]
+\]
 
 are met.
 
@@ -2003,9 +1966,9 @@ concrete next actions
 
 rather than stop at conceptual analysis.
 
----
+______________________________________________________________________
 
-# 63. Failure States
+## 63. Failure States
 
 The kernel source implies several failure modes.
 
@@ -2024,15 +1987,15 @@ UNCERTAINTY_UNMARKED
 
 A mature runtime should preserve these failure states rather than hide them behind fluent prose.
 
----
+______________________________________________________________________
 
-# 64. Missing Constraint State
+## 64. Missing Constraint State
 
 If:
 
-[
+\[
 CriticalConstraint=Unknown
-]
+\]
 
 the source says use conservative defaults.
 
@@ -2047,15 +2010,15 @@ BLOCKING_GAP
 
 so downstream plans know which premises are weak.
 
----
+______________________________________________________________________
 
-# 65. Uncertainty State
+## 65. Uncertainty State
 
 The source requires uncertainty to be marked.
 
 A useful vector is:
 
-[
+\[
 U=
 (
 Evidence,
@@ -2065,13 +2028,13 @@ Time,
 Causal,
 Execution
 )
-]
+\]
 
 Different uncertainties should not be compressed into one generic confidence number when they affect decisions differently.
 
----
+______________________________________________________________________
 
-# 66. Causal Firewall
+## 66. Causal Firewall
 
 The source itself does not define detailed causal classes, but its scientific and structural requirements imply:
 
@@ -2086,25 +2049,25 @@ should remain distinct.
 
 Therefore:
 
-[
+\[
 Prediction
-\neq
+\\neq
 Causation
-]
+\]
 
 and:
 
-[
+\[
 StructuralPattern
-\neq
+\\neq
 CausalMechanism
-]
+\]
 
 unless separately supported.
 
----
+______________________________________________________________________
 
-# 67. Architecture Promotion States
+## 67. Architecture Promotion States
 
 A generated plan can be classified:
 
@@ -2120,31 +2083,31 @@ A meta-kernel should not silently skip these stages.
 
 This distinction is especially important because the source describes planning rather than guaranteed real-world execution.
 
----
+______________________________________________________________________
 
-# 68. Reversibility
+## 68. Reversibility
 
 Although not explicitly formalized in the source, conservative system planning strongly benefits from tracking:
 
-[
-Rev(A)\in[0,1]
-]
+\[
+Rev(A)\\in[0,1]
+\]
 
 where higher reversibility means easier rollback.
 
 Under uncertainty:
 
-[
+\[
 Prefer(Reversible)
-]
+\]
 
 when expected outcome quality is otherwise comparable.
 
 This is a derived governance extension, not a direct source rule.
 
----
+______________________________________________________________________
 
-# 69. Monitoring
+## 69. Monitoring
 
 The architecture-and-plan synthesis stage explicitly requires monitoring and feedback loops.
 
@@ -2159,28 +2122,28 @@ response
 
 A monitor can be modeled:
 
-[
+\[
 M_i=
 (
 Metric,
 Threshold,
 Action
 )
-]
+\]
 
 and:
 
-[
-Metric>\theta
-\Rightarrow
+\[
+Metric>\\theta
+\\Rightarrow
 Response
-]
+\]
 
 where appropriate.
 
----
+______________________________________________________________________
 
-# 70. Feedback Loop
+## 70. Feedback Loop
 
 The kernel's operational loop is:
 
@@ -2200,22 +2163,20 @@ PLAN'
 
 Formally:
 
-[
-Plan_{t+1}
-==========
+## \[ Plan\_{t+1}
 
 Update(
 Plan_t,
 Evidence_t,
 Outcome_t
 )
-]
+\]
 
 This makes verification recursive rather than terminal.
 
----
+______________________________________________________________________
 
-# 71. Engine Interface Contract
+## 71. Engine Interface Contract
 
 Every specialist engine should conceptually receive:
 
@@ -2241,13 +2202,13 @@ validation state
 
 This prevents specialist modules from becoming opaque free-form generators.
 
----
+______________________________________________________________________
 
-# 72. Specialist Output Contract
+## 72. Specialist Output Contract
 
 A normalized engine result can be represented:
 
-[
+\[
 E_i=
 (
 Result,
@@ -2257,13 +2218,13 @@ Risk,
 Gap,
 Status
 )
-]
+\]
 
 The meta-kernel can then synthesize heterogeneous domains using one common interface.
 
----
+______________________________________________________________________
 
-# 73. Cross-Domain Conflict
+## 73. Cross-Domain Conflict
 
 Two specialist domains may recommend incompatible actions.
 
@@ -2280,18 +2241,16 @@ The kernel must resolve the conflict through higher-order constraints.
 
 Thus:
 
-[
-Resolve(E_1,E_2)
-================
+## \[ Resolve(E_1,E_2)
 
 ApplyHierarchy(Constraints)
-]
+\]
 
 not simply average the recommendations.
 
----
+______________________________________________________________________
 
-# 74. Authority Hierarchy
+## 74. Authority Hierarchy
 
 A derived authority stack is:
 
@@ -2309,23 +2268,23 @@ PREFERENCE
 
 This ensures:
 
-[
+\[
 Capability
-\neq
+\\neq
 Authority
-]
+\]
 
 and:
 
-[
+\[
 Recommendation
-\neq
+\\neq
 Permission
-]
+\]
 
----
+______________________________________________________________________
 
-# 75. Meta-Kernel Minimal Spine
+## 75. Meta-Kernel Minimal Spine
 
 The entire source can be compressed to ten operations:
 
@@ -2344,15 +2303,15 @@ FINALIZE
 
 or:
 
-[
+\[
 K=
-P\rightarrow N\rightarrow C\rightarrow R\rightarrow D\rightarrow A
-\rightarrow Ch\rightarrow S\rightarrow Au\rightarrow F
-]
+P\\rightarrow N\\rightarrow C\\rightarrow R\\rightarrow D\\rightarrow A
+\\rightarrow Ch\\rightarrow S\\rightarrow Au\\rightarrow F
+\]
 
----
+______________________________________________________________________
 
-# 76. Source Pipeline vs AMOS v4.4 Interpretation
+## 76. Source Pipeline vs AMOS v4.4 Interpretation
 
 The supplied `vInfinity_clean` source defines a strong orchestration framework, but the current AMOS v4.4 reasoning lineage adds several control-plane concepts that are not explicit in this older framework description:
 
@@ -2369,9 +2328,9 @@ fast-path coordination avoidance
 
 These should be treated as **later AMOS runtime overlays**, not retroactively claimed as explicit content of this source.
 
----
+______________________________________________________________________
 
-# 77. Provenance
+## 77. Provenance
 
 The framework's explicit provenance chain is:
 
@@ -2393,9 +2352,9 @@ Structured Output
 
 The kernel is therefore a steward/orchestrator of canon rather than an independent source of canon authority.
 
----
+______________________________________________________________________
 
-# 78. RSCF Proof Capsule
+## 78. RSCF Proof Capsule
 
 ```text
 CLAIM
@@ -2444,9 +2403,9 @@ A later authoritative AMOS canon version may supersede or
 modify this kernel specification.
 ```
 
----
+______________________________________________________________________
 
-# 79. Status Matrix
+## 79. Status Matrix
 
 | Element                          | Status             |
 | -------------------------------- | ------------------ |
@@ -2464,9 +2423,9 @@ modify this kernel specification.
 | Empirical predictive validity    | NOT SHOWN          |
 | v4.4 provenance/RSCF extensions  | LATER AMOS OVERLAY |
 
----
+______________________________________________________________________
 
-# 80. Master Architecture
+## 80. Master Architecture
 
 The full system can be represented:
 
@@ -2517,91 +2476,88 @@ The full system can be represented:
                          NEXT ACTIONS
 ```
 
----
+______________________________________________________________________
 
-# 81. Final Compression
+## 81. Final Compression
 
 The deepest functional equation of the supplied framework is:
 
-[
-\boxed{
-AMOS_{SuperKernel}
-==================
+## \[ \\boxed{ AMOS\_{SuperKernel}
 
 Normalize
-+
+\+
 Constrain
-+
+\+
 Route
-+
+\+
 Decompose
-+
+\+
 Reason
-+
+\+
 CrossCheck
-+
+\+
 Synthesize
-+
+\+
 Audit
 }
-]
+\]
 
 Its control relationship is:
 
-[
-\boxed{
+\[
+\\boxed{
 UserRequest
-\rightarrow
+\\rightarrow
 StructuredProblem
-\rightarrow
+\\rightarrow
 DomainTasks
-\rightarrow
+\\rightarrow
 SpecialistReasoning
-\rightarrow
+\\rightarrow
 GovernedSynthesis
-\rightarrow
+\\rightarrow
 VerifiedPlan
 }
-]
+\]
 
 Its governing principle is:
 
-[
-\boxed{
+\[
+\\boxed{
 StructuralIntegrity
 
 >
 
 Style
 }
-]
+\]
 
 with:
 
-[
-\boxed{
+\[
+\\boxed{
 HigherOrderConstraint
 
 >
 
 LocalPreference
 }
-]
+\]
 
 and its architectural role is best understood as:
 
-[
-\boxed{
-AMOS\ Meta\ Control\ Plane
+\[
+\\boxed{
+AMOS\\ Meta\\ Control\\ Plane
 }
-]
+\]
 
 rather than a specialist reasoning engine, persona, or independent source of canon.
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS · AMOS_Universe_OS_Masterfile · AMOS_CORE · AMOS_BRAIN · Ubi · TSS · TPE · PSI · PISync · SYSTEM_SCAN_AGENT · AUTOMATION_PROFILES
 
----
-**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]
+______________________________________________________________________
 
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]

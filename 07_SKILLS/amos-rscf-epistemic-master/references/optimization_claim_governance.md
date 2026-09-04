@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: optimization claim governance
 type: reference
 source: 07_SKILLS/amos-rscf-epistemic-master/references
 tags:
-- reference
-- amos-rscf-epistemic-master
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-rscf-epistemic-master
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -20,15 +23,11 @@ rscf:
 > Source: `_00_Cosmo brain/dated/2026-08-25/2026-08-25 Optimization-Claim Governance Layer.md`
 > Epistemic class: SOURCE_DERIVED
 
----
-title: 2026-08-25 Optimization-Claim Governance Layer
-type: daily-learning
-date: 2026-08-25
-epistemic: SOURCE/DERIVED
-tags: [math, optimization, governance, dated, dated/2026-08-25]
----
+______________________________________________________________________
 
-# 2026-08-25 — Optimization-Claim Governance (Optimization-Kernel Deep)
+## title: 2026-08-25 Optimization-Claim Governance Layer type: daily-learning date: 2026-08-25 epistemic: SOURCE/DERIVED tags: [math, optimization, governance, dated, dated/2026-08-25]
+
+## 2026-08-25 — Optimization-Claim Governance (Optimization-Kernel Deep)
 
 ## Gap found
 
@@ -36,39 +35,41 @@ Optimizer output is the **most confidently-wrong evidence class in applied math*
 
 ## Closure (4 channels)
 
-| Channel | Artifact |
-|---|---|
-| Skill | `amos/amos-optimization-claim-governance` — claim-hierarchy table (what each license requires), six failure gates |
-| Agent | `.devin/agents/amos-optimizer-certificate-auditor-agent.json` — 6 capabilities incl. method-class identification and G3 escalation |
-| Workflow | `optimization-claim-audit-pipeline-workflow.md` — 8-step pipeline |
-| Memory + vault note | recorded |
+| Channel             | Artifact                                                                                                                           |
+| ------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| Skill               | `amos/amos-optimization-claim-governance` — claim-hierarchy table (what each license requires), six failure gates                  |
+| Agent               | `.devin/agents/amos-optimizer-certificate-auditor-agent.json` — 6 capabilities incl. method-class identification and G3 escalation |
+| Workflow            | `optimization-claim-audit-pipeline-workflow.md` — 8-step pipeline                                                                  |
+| Memory + vault note | recorded                                                                                                                           |
 
 ## The claim hierarchy (core content)
 
-| Claim | License requires |
-|---|---|
-| Local optimum | first-order/KKT conditions + feasibility |
+| Claim          | License requires                                                              |
+| -------------- | ----------------------------------------------------------------------------- |
+| Local optimum  | first-order/KKT conditions + feasibility                                      |
 | Global optimum | proven convexity or bound certificate — **heuristics can NEVER certify this** |
-| Converged | stopping criterion satisfied in history, not budget exhaustion |
-| Near-optimal | optimality gap with bound provenance |
-| Robust optimal | pre-declared sensitivity ranges |
+| Converged      | stopping criterion satisfied in history, not budget exhaustion                |
+| Near-optimal   | optimality gap with bound provenance                                          |
+| Robust optimal | pre-declared sensitivity ranges                                               |
 
 ## Key rules
 
 1. **Heuristic "global" = Signal Fidelity violation** escalated into law-stack G3
-2. **Feasibility at full precision** — numerical solvers return slightly-infeasible points routinely
-3. **Pareto fronts as fronts** with declared scalarization weights; single-point multi-objective answers blocked
-4. **In-sample vs out-of-sample objective provenance** declared
+1. **Feasibility at full precision** — numerical solvers return slightly-infeasible points routinely
+1. **Pareto fronts as fronts** with declared scalarization weights; single-point multi-objective answers blocked
+1. **In-sample vs out-of-sample objective provenance** declared
 
 ## Audit-family tally: 15 layers
+
 Optimization claims were the last major uncaptured evidence class; the family now spans fits, point hypotheses, constructions, transforms, and solver outputs.
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · AMOS Simulation Kernel v0 Math Foundations · system scan agent · automation profiles
 
----
-**MOC:** references_MOC
----
+______________________________________________________________________
+
+## **MOC:** references_MOC
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -76,12 +77,14 @@ Optimization claims were the last major uncaptured evidence class; the family no
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-rscf-epistemic-master-optimization-claim-governance
 node_type: reference
 path: 07_SKILLS/amos-rscf-epistemic-master/references/optimization_claim_governance.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

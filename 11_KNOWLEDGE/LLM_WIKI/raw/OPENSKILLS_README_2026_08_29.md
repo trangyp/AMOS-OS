@@ -1,4 +1,7 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 date: 2026-08-29
 epistemic_class: OBSERVATION
 provenance: GitHub README, not independently verified
@@ -10,33 +13,42 @@ rscf:
 source: https://raw.githubusercontent.com/ljluestc/OpenSkills/main/README.md
 title: OpenSkills SDK README — Raw Capture
 ---
+
 # OpenSkills SDK README — Raw Capture
 
 Source: `https://github.com/ljluestc/OpenSkills`
 
-# OpenSkills SDK
+## OpenSkills SDK
 
 An open-source Agent Skill framework implementing the progressive disclosure architecture for AI agent skills.
 
-[![PyPI version](https://badge.fury.io/py/openskills-sdk.svg)](https://badge.fury.io/py/openskills-sdk)
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
-
+[![PYPI VERSION]
+[![LICENSE]
+[![PYTHON 3.10+]
 ## Features
 
 - **Three-layer progressive disclosure architecture**
+
   - Layer 1 (Metadata): Always loaded for skill discovery
   - Layer 2 (Instruction): Loaded on demand when skill is selected
   - Layer 3 (Resources): Conditionally loaded References and Scripts
 
 - **SKILL.md file format** - Simple markdown-based skill definition
+
 - **Smart Reference loading** - Three modes (explicit/implicit/always) with LLM-based selection
+
 - **Auto-discovery** - Automatically discover references from `references/` directory
+
 - **Script execution** - Run scripts triggered by LLM via `[INVOKE:name]`
+
 - **Multiple LLM providers** - OpenAI, Azure OpenAI, Ollama, Together, Groq, DeepSeek
+
 - **Auto skill invocation** - Automatically match and invoke skills based on user queries
+
 - **Multimodal support** - Handle images via URL, base64, or file path
+
 - **Sandbox execution** - Secure script execution in isolated AIO Sandbox environment
+
 - **Automatic file sync** - Upload input files and download outputs automatically
 
 ## Installation
@@ -103,13 +115,13 @@ from openskills import SkillManager
 
 manager = SkillManager([Path("./infographic-skills")])
 
-# Discover infographic-skills (Layer 1 - Metadata)
+## Discover infographic-skills (Layer 1 - Metadata)
 await manager.discover()
 
-# Match user query
+## Match user query
 skills = manager.match("summarize meeting")
 
-# Load instruction (Layer 2)
+## Load instruction (Layer 2)
 if skills:
     instruction = await manager.load_instruction(skills[0].name)
     print(instruction.content)
@@ -128,19 +140,19 @@ OpenSkills supports executing scripts in an isolated sandbox environment using [
 #### Option 1: Docker (Recommended)
 
 ```bash
-# Pull and run the sandbox container
+## Pull and run the sandbox container
 docker run -d --name aio-sandbox \
   -p 8080:8080 \
   ghcr.io/agent-infra/aio-sandbox:latest
 
-# Verify it's running
+## Verify it's running
 curl http://localhost:8080/health
 ```
 
 #### Option 2: Docker Compose
 
 ```yaml
-# docker-compose.yml
+## docker-compose.yml
 version: '3.8'
 services:
   sandbox:
@@ -179,7 +191,7 @@ Dependencies are installed automatically when the skill is initialized.
 #### Automatic File Synchronization
 
 1. **Upload**: Local file paths in script input are auto-uploaded to `/home/gem/uploads/`
-2. **Download**: Specify output directories in script config to auto-download results
+1. **Download**: Specify output directories in script config to auto-download results
 
 ```yaml
 scripts:
@@ -255,7 +267,7 @@ scripts:
     description: Upload summary to cloud storage
 ---
 
-# Meeting Summary Skill
+## Meeting Summary Skill
 
 You are a professional meeting assistant...
 
@@ -288,11 +300,11 @@ You are a professional meeting assistant...
 
 References support three loading modes:
 
-| Mode | Behavior |
-|------|----------|
-| `explicit` | Has condition, LLM evaluates whether condition is met |
+| Mode       | Behavior                                                        |
+| ---------- | --------------------------------------------------------------- |
+| `explicit` | Has condition, LLM evaluates whether condition is met           |
 | `implicit` | No condition, LLM decides if useful for current query (default) |
-| `always` | Always loaded (e.g., safety guidelines, specs) |
+| `always`   | Always loaded (e.g., safety guidelines, specs)                  |
 
 ### Auto-Discovery
 
@@ -327,6 +339,7 @@ Auto-discovered files that aren't declared in frontmatter default to `implicit` 
 ## Environment Variables
 
 ### OpenAI
+
 ```bash
 export OPENAI_API_KEY=your-api-key
 export OPENAI_BASE_URL=https://api.openai.com/v1  # Optional
@@ -334,6 +347,7 @@ export OPENAI_MODEL=gpt-4  # Optional
 ```
 
 ### Azure OpenAI
+
 ```bash
 export AZURE_OPENAI_API_KEY=your-azure-api-key
 export AZURE_OPENAI_ENDPOINT=https://your-resource.openai.azure.com
@@ -346,21 +360,21 @@ export AZURE_OPENAI_API_VERSION=2024-02-15-preview  # Optional
 ```python
 from openskills import AzureOpenAIClient, SkillAgent
 
-# Method 1: Using environment variables
+## Method 1: Using environment variables
 client = AzureOpenAIClient()
 
-# Method 2: Explicit configuration
+## Method 2: Explicit configuration
 client = AzureOpenAIClient(
     api_key="your-api-key",
     endpoint="https://your-resource.openai.azure.com",
     deployment="gpt-4",
 )
 
-# Method 3: Using create_client helper
+## Method 3: Using create_client helper
 from openskills import create_client
 client = create_client("azure", deployment="gpt-4")
 
-# Use with SkillAgent
+## Use with SkillAgent
 agent = SkillAgent(
     skill_paths=["./infographic-skills"],
     llm_client=client,
@@ -381,6 +395,7 @@ See the [examples](./examples) directory for complete examples:
 ### Running Examples
 
 #### Basic Demo (Local Execution)
+
 ```bash
 cd examples
 export OPENAI_API_KEY=your-api-key
@@ -388,36 +403,38 @@ python demo.py
 ```
 
 #### Sandbox Demo (Recommended)
+
 ```bash
-# 1. Start sandbox first
+## 1. Start sandbox first
 docker run -d -p 8080:8080 ghcr.io/agent-infra/aio-sandbox:latest
 
-# 2. Run demo with sandbox
+## 2. Run demo with sandbox
 cd examples/file-to-article-generator
 export OPENAI_API_KEY=your-api-key
 python demo.py /path/to/your/file.pdf
 ```
 
 The sandbox demo will:
+
 1. Initialize sandbox environment and install dependencies
-2. Upload your file to sandbox automatically
-3. Execute parsing script in isolated environment
-4. Download generated images to local `output/` directory
-5. Generate article with proper image references
+1. Upload your file to sandbox automatically
+1. Execute parsing script in isolated environment
+1. Download generated images to local `output/` directory
+1. Generate article with proper image references
 
 ## CLI Commands
 
 ```bash
-# List all infographic-skills
+## List all infographic-skills
 openskills list
 
-# Show skill details
+## Show skill details
 openskills show meeting-summary
 
-# Validate a skill
+## Validate a skill
 openskills validate ./my-skill/
 
-# Match query to infographic-skills
+## Match query to infographic-skills
 openskills match "summarize meeting"
 ```
 

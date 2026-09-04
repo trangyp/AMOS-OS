@@ -1,4 +1,7 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: GOVERNANCE ENGINE
 type: engine
 source: 11_KNOWLEDGE/engine
@@ -7,17 +10,17 @@ canon-type: framework
 rscf-state: source-claim
 topic: governance-engine
 tags:
-- canon-group/tech-ai
-- canon/framework
-- rscf/claim
-- rscf/provenance
-- rscf/state/source-claim
-- topic/governance-engine
-- engine
-- system-scan-agent
-- automation-profiles
-- amos-simulation-kernel-v0-math-foundations
-- trang-framework-recursive-ontology-dynamics
+  - canon-group/tech-ai
+  - canon/framework
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - topic/governance-engine
+  - engine
+  - system-scan-agent
+  - automation-profiles
+  - amos-simulation-kernel-v0-math-foundations
+  - trang-framework-recursive-ontology-dynamics
 created: 2026-08-22
 rscf:
   state: AMOS_MODEL
@@ -28,12 +31,13 @@ rscf:
 
 # Governance Engine
 
-> [!info] Populated Stub
+> [!INFO] Populated Stub
 > Source: `engine/G/Governance_Super_Engine_v3.md` (full engine spec, 902 lines).
 > **Epistemic class**: SOURCE_CLAIM (vault-sourced)
 > **Audit**: Populated 2026-08-26 from Governance_Super_Engine_v3 source.
 
 ## Status
+
 - **Type**: Engine spec (reference to full source)
 - **Content**: Vault-sourced from Governance_Super_Engine_v3
 - **Action**: Populated 2026-08-26
@@ -73,6 +77,7 @@ rscf:
 ## Governance Principles
 
 Core principles include:
+
 - law_first_not_personality_first
 - structure_before_speed
 - risk_envelope_explicit_not_implicit
@@ -87,12 +92,14 @@ See `engine/G/Governance_Super_Engine_v3.md` for the complete 902-line specifica
 - `engine/A/AMOS Org Governance Engine vInfinity.md`
 - `engine/A/AMOS Governance Economy Engine vInfinity.md`
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS · SYSTEM_SCAN_AGENT · AUTOMATION_PROFILES
 
----
+______________________________________________________________________
+
 **MOC:** [[11_KNOWLEDGE/engine/ENGINE_MOC|ENGINE_MOC]]
 
----
-**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+______________________________________________________________________
 
+**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

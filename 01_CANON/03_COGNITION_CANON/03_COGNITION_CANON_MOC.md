@@ -1,12 +1,15 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: 03 Cognition Canon MOC
 type: moc
 source: 01_CANON/03_COGNITION_CANON
 tags:
-- canon/universe
-- amos-19x19-cognitive-field
-- amos-cross-species-functional-mode-model
-- trang-framework-recursive-ontology-dynamics
+  - canon/universe
+  - amos-19x19-cognitive-field
+  - amos-cross-species-functional-mode-model
+  - trang-framework-recursive-ontology-dynamics
 moc: true
 rscf:
   state: DERIVED
@@ -60,8 +63,10 @@ rscf:
 
 - `00_INDEX/` (no markdown)
 
----
+______________________________________________________________________
+
 **Parent:** [[01_CANON/01_CANON_MOC|01_CANON_MOC]]
 
----
+______________________________________________________________________
+
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

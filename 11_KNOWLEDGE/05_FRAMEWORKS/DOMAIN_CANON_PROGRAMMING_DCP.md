@@ -12,19 +12,19 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: SPECIFICATION
 path: 11_KNOWLEDGE/05_FRAMEWORKS/DOMAIN_CANON_PROGRAMMING_DCP.md
 tags:
-- amos-os
-- knowledge
-- vault
-- 05_frameworks
-- dcp_specification
-- domain_canon_programming
-- formal_type_contracts
-- rscf
-- canon_candidate
-- canon/knowledge
-- domain-canon-programming
-- ldai-logically-deterministic-ai
-- absolute-structural-integrity
+  - amos-os
+  - knowledge
+  - vault
+  - 05_frameworks
+  - dcp_specification
+  - domain_canon_programming
+  - formal_type_contracts
+  - rscf
+  - canon_candidate
+  - canon/knowledge
+  - domain-canon-programming
+  - ldai-logically-deterministic-ai
+  - absolute-structural-integrity
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -39,19 +39,19 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - DOMAIN_CANON_PROGRAMMING
-  - AMOS_CORPUS
+    - DOMAIN_CANON_PROGRAMMING
+    - AMOS_CORPUS
   scope:
-  - KNOWLEDGE_FRAMEWORKS
-  - DCP_SPECIFICATION
-  - SOURCE_DEFINED_MODEL
+    - KNOWLEDGE_FRAMEWORKS
+    - DCP_SPECIFICATION
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   primary:
     name: Domain Canon Programming (DCP) Detailed Specification
     role: PROOF_FIRST_CANONICAL_SPECIFICATION
   parent_framework:
     artifact:
-    - - DOMAIN_CANON_PROGRAMMING
+      -   - DOMAIN_CANON_PROGRAMMING
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
@@ -65,9 +65,9 @@ epistemic_boundary:
 
 It formalizes the compiler gates, invariant verification passes, and proof receipt generation requirements required for writing and committing code in AMOS OS.
 
----
+______________________________________________________________________
 
-# 1. DCP Verification Pipeline
+## 1. DCP Verification Pipeline
 
 ```text
 SOURCE CODE & TYPE PROOF
@@ -83,18 +83,18 @@ DCP COMPILER VERIFICATION GATES:
 VERIFIED CANONICAL COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Parent Framework:** [[01_CANON/04_INFRASTRUCTURE_CANON/DOMAIN_CANON_PROGRAMMING|DOMAIN_CANON_PROGRAMMING]]
 - **Deterministic AI:** [[11_KNOWLEDGE/05_FRAMEWORKS/LDAI_LOGICALLY_DETERMINISTIC_AI|LDAI_LOGICALLY_DETERMINISTIC_AI]]
 - **Absolute Structural Integrity:** [[11_KNOWLEDGE/05_FRAMEWORKS/ABSOLUTE_STRUCTURAL_INTEGRITY|ABSOLUTE_STRUCTURAL_INTEGRITY]]
 - **Full Architecture:** `11_KNOWLEDGE/AMOS_FULL_BRAIN_OS_ARCHITECTURE`
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -112,9 +112,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]] · [[01_CANON/04_INFRASTRUCTURE_CANON/DOMAIN_CANON_PROGRAMMING|DOMAIN_CANON_PROGRAMMING]] · [[11_KNOWLEDGE/05_FRAMEWORKS/LDAI_LOGICALLY_DETERMINISTIC_AI|LDAI_LOGICALLY_DETERMINISTIC_AI]] · [[11_KNOWLEDGE/05_FRAMEWORKS/ABSOLUTE_STRUCTURAL_INTEGRITY|ABSOLUTE_STRUCTURAL_INTEGRITY]]
 
----
+______________________________________________________________________
+
 **MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]

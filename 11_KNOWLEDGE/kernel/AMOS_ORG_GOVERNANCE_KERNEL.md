@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: AMOS ORG GOVERNANCE KERNEL V0 GOVERNANCE RISK
 tags:
-- canon-group/human-system
-- canon/framework
-- rscf/claim
-- rscf/provenance
-- rscf/state/source-claim
-- topic/amos-org-governance-kernel-v0
-- kernel
+  - canon-group/human-system
+  - canon/framework
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - topic/amos-org-governance-kernel-v0
+  - kernel
 type: data
 source: 11_KNOWLEDGE/kernel
 rscf:
@@ -64,6 +67,6 @@ rscf:
 **Related:** [[11_KNOWLEDGE/kernel/AMOS_MBB_CONSULTING_KERNEL_V0|AMOS_MBB_CONSULTING_KERNEL_V0]] · [[11_KNOWLEDGE/kernel/IP_KERNEL_SHIELD_ARCHIVE_AMOS22|IP_KERNEL_SHIELD_ARCHIVE_AMOS22]] · [[11_KNOWLEDGE/kernel/SENSE_CORE_KERNEL|SENSE_CORE_KERNEL]] · [[11_KNOWLEDGE/kernel/AMOS_FOREX_PACKAGES_UKR_RECURSIVE_KERNEL|AMOS_FOREX_PACKAGES_UKR_RECURSIVE_KERNEL]]
 ```
 
----
-**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]
+______________________________________________________________________
 
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]

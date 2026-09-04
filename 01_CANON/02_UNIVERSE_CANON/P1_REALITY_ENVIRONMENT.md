@@ -12,19 +12,19 @@ segment: 01_CANON/02_UNIVERSE_CANON
 artifact_kind: CANON_SPECIFICATION
 path: 01_CANON/02_UNIVERSE_CANON/P1_REALITY_ENVIRONMENT.md
 tags:
-- amos-os
-- canon
-- universe
-- universe_canon
-- p1
-- reality
-- environment
-- falsifiability
-- constraint_inheritance
-- epistemic_boundary
-- rscf
-- canon/universe
-- trang-framework-recursive-ontology-dynamics
+  - amos-os
+  - canon
+  - universe
+  - universe_canon
+  - p1
+  - reality
+  - environment
+  - falsifiability
+  - constraint_inheritance
+  - epistemic_boundary
+  - rscf
+  - canon/universe
+  - trang-framework-recursive-ontology-dynamics
 version: 1.0.0
 updated: '2026-08-27'
 status: PROPOSED_SPECIFICATION
@@ -39,13 +39,13 @@ rscf:
   state: SOURCE_GROUNDED
   claim_class: AMOS_MODEL
   provenance:
-  - AMOS_corpus
-  - 01_CANON/02_UNIVERSE_CANON/AMOS_7_PART_UNIVERSE_CANON
-  - 01_CANON/02_UNIVERSE_CANON/HML_CANON
-  - TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS
+    - AMOS_corpus
+    - 01_CANON/02_UNIVERSE_CANON/AMOS_7_PART_UNIVERSE_CANON
+    - 01_CANON/02_UNIVERSE_CANON/HML_CANON
+    - TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS
   scope:
-  - UNIVERSE_CANON
-  - P1_REALITY_ENVIRONMENT
+    - UNIVERSE_CANON
+    - P1_REALITY_ENVIRONMENT
 ---
 
 # P1 — Reality & Environment Plane
@@ -114,9 +114,9 @@ UNKNOWN/GAP != PASS
 
 **Origin architect / steward: Trang Phan**
 
----
+______________________________________________________________________
 
-# 1. Purpose
+## 1. Purpose
 
 P1 defines the system boundary at which AMOS encounters constraints not created merely by its own representations.
 
@@ -146,9 +146,9 @@ The system may construct, revise, compress, simulate, or reason over models.
 
 It may not infer that reality conforms to those models merely because the models are internally coherent.
 
----
+______________________________________________________________________
 
-# 2. Scope
+## 2. Scope
 
 P1 concerns:
 
@@ -164,9 +164,9 @@ P1 concerns:
 
 P1 therefore acts as the outer epistemic constraint surface of downstream AMOS planes.
 
----
+______________________________________________________________________
 
-# 3. Non-Purpose
+## 3. Non-Purpose
 
 P1 does **not**, by itself, establish:
 
@@ -183,9 +183,9 @@ P1 does **not**, by itself, establish:
 
 Where such claims are introduced, they require their own evidence and applicability envelope.
 
----
+______________________________________________________________________
 
-# 4. Canonical Questions
+## 4. Canonical Questions
 
 P1 organizes reasoning around three source-defined questions.
 
@@ -199,7 +199,7 @@ $$
 Reality \neq InternalRepresentation
 $$
 
----
+______________________________________________________________________
 
 ### P1-Q2 — Binding Constraint
 
@@ -209,7 +209,7 @@ Candidate examples may include physical, causal, resource, temporal, information
 
 Their existence and exact form remain claim-specific.
 
----
+______________________________________________________________________
 
 ### P1-Q3 — Novelty
 
@@ -235,9 +235,9 @@ $$
 
 rather than reinterpretation of the observation merely to preserve the old model.
 
----
+______________________________________________________________________
 
-# 5. P1-1 — Reality Primacy
+## 5. P1-1 — Reality Primacy
 
 ## Law
 
@@ -266,9 +266,9 @@ $$
 
 A model may be internally coherent and still fail against observation.
 
----
+______________________________________________________________________
 
-# 6. Reality Primacy Firewall
+## 6. Reality Primacy Firewall
 
 When internal architecture and external evidence conflict:
 
@@ -320,9 +320,9 @@ UNKNOWN/GAP
 
 Discriminating evidence determines which explanation survives.
 
----
+______________________________________________________________________
 
-# 7. P1-2 — Constraint Inheritance
+## 7. P1-2 — Constraint Inheritance
 
 ## Law — part 2
 
@@ -339,7 +339,7 @@ $$
 C_{P1}
 $$
 
-is an externally binding constraint applicable to downstream plane \(P_n\), then:
+is an externally binding constraint applicable to downstream plane (P_n), then:
 
 $$
 P_n \models C_{P1}
@@ -349,9 +349,9 @@ is required for an admissible downstream state.
 
 No downstream plane may remove an externally binding constraint merely by changing its internal representation.
 
----
+______________________________________________________________________
 
-# 8. Constraint Propagation
+## 8. Constraint Propagation
 
 Conceptually:
 
@@ -397,13 +397,13 @@ applicability:
 
 where material.
 
----
+______________________________________________________________________
 
-# 9. Constraint Non-Legislation
+## 9. Constraint Non-Legislation
 
 A downstream representation cannot legislate away an external constraint.
 
-Formally, for model \(M\) and externally established applicable constraint \(C\):
+Formally, for model (M) and externally established applicable constraint (C):
 
 $$
 M \models \neg C
@@ -425,9 +425,9 @@ MODEL OVERRIDE
 REALITY OVERRIDE
 ```
 
----
+______________________________________________________________________
 
-# 10. P1-3 — Falsifiability Contact
+## 10. P1-3 — Falsifiability Contact
 
 ## Law — part 3
 
@@ -437,7 +437,7 @@ P1-3 FALSIFIABILITY CONTACT
 Models must remain touchable by observation.
 ```
 
-For an empirically oriented claim \(C\), AMOS should preserve, where possible:
+For an empirically oriented claim (C), AMOS should preserve, where possible:
 
 ```yaml
 FALSIFIABILITY_CONTACT:
@@ -463,9 +463,9 @@ FALSIFIABILITY_CONTACT:
 
 A claim that has no defined empirical contact must not be silently represented as empirically validated.
 
----
+______________________________________________________________________
 
-# 11. Observation Contract
+## 11. Observation Contract
 
 P1 separates the environment from representations of environmental contact.
 
@@ -501,9 +501,9 @@ $$
 
 This distinction matters because observations can themselves be incomplete, noisy, biased, corrupted, stale, or regime-limited.
 
----
+______________________________________________________________________
 
-# 12. Typed Environmental Evidence
+## 12. Typed Environmental Evidence
 
 Environmental contact should preserve evidence typing.
 
@@ -555,9 +555,9 @@ P1_EVIDENCE:
 
 The environment itself is not equivalent to the record describing it.
 
----
+______________________________________________________________________
 
-# 13. Environmental Novelty
+## 13. Environmental Novelty
 
 P1 treats unexpected environmental information as potentially decision-changing evidence.
 
@@ -567,7 +567,7 @@ $$
 \hat O_t=M_t(X_t)
 $$
 
-be the predicted observation and \(O_t\) the observed result.
+be the predicted observation and (O_t) the observed result.
 
 Define discrepancy:
 
@@ -575,7 +575,7 @@ $$
 \Delta_t=D(O_t,\hat O_t)
 $$
 
-where \(D\) is an appropriate domain-specific discrepancy function.
+where (D) is an appropriate domain-specific discrepancy function.
 
 A material discrepancy may trigger:
 
@@ -597,9 +597,9 @@ UPDATE / HOLD
 
 No universal discrepancy threshold is established by this artifact.
 
----
+______________________________________________________________________
 
-# 14. Surprise Is Not Automatic Falsification
+## 14. Surprise Is Not Automatic Falsification
 
 Unexpected observation does not prove model failure.
 
@@ -622,9 +622,9 @@ because discrepancy can arise from:
 
 Therefore unexpected evidence opens a contradiction-resolution path rather than forcing a predetermined conclusion.
 
----
+______________________________________________________________________
 
-# 15. Irreducible Uncertainty
+## 15. Irreducible Uncertainty
 
 P1 recognizes that some environmental uncertainty may remain unresolved within available resources.
 
@@ -650,9 +650,9 @@ MissingEvidence
 ConvenientAssumptionAsFact
 $$
 
----
+______________________________________________________________________
 
-# 16. Resource Finitude
+## 16. Resource Finitude
 
 P1 includes finite environmental resources as an architectural constraint category.
 
@@ -684,9 +684,9 @@ The specific availability and limits of each resource are environment-dependent 
 
 They are not fixed universally by this canon.
 
----
+______________________________________________________________________
 
-# 17. Causal Boundary
+## 17. Causal Boundary
 
 P1 does not permit structural resemblance to substitute for causal evidence.
 
@@ -726,9 +726,9 @@ CAUSAL EFFECT
 
 P1 contact can provide evidence relevant to these classifications, but does not automatically establish any of them.
 
----
+______________________________________________________________________
 
-# 18. Scope / Regime Firewall
+## 18. Scope / Regime Firewall
 
 Environmental findings inherit applicability envelopes.
 
@@ -760,9 +760,9 @@ $$
 
 without a justified bridge between regimes.
 
----
+______________________________________________________________________
 
-# 19. Regime Change
+## 19. Regime Change
 
 A downstream conclusion may become stale when environmental conditions change.
 
@@ -776,7 +776,7 @@ CONCLUSION C
 ENVIRONMENT E₁
 ```
 
-If \(E_1\) violates a load-bearing applicability condition of \(C\), the conclusion must be revalidated.
+If (E_1) violates a load-bearing applicability condition of (C), the conclusion must be revalidated.
 
 Thus:
 
@@ -786,9 +786,9 @@ PAST VALIDITY
 CURRENT VALIDITY
 ```
 
----
+______________________________________________________________________
 
-# 20. P1 and the Khung Trang Pre-Symbolic Spine
+## 20. P1 and the Khung Trang Pre-Symbolic Spine
 
 P1 has a structural relationship to the Khung Trang pre-symbolic sequence:
 
@@ -830,9 +830,9 @@ rather than:
 IDENTICAL_TO
 ```
 
----
+______________________________________________________________________
 
-# 21. P1 and H/M/L
+## 21. P1 and H/M/L
 
 P1 constraints may propagate through the H/M/L hierarchy.
 
@@ -850,9 +850,9 @@ If only an L-level premise fails, unrelated H/M structures should remain intact.
 
 This preserves selective invalidation.
 
----
+______________________________________________________________________
 
-# 22. Dependency-Scoped Invalidation
+## 22. Dependency-Scoped Invalidation
 
 Given:
 
@@ -866,9 +866,9 @@ $$
 P1_b\rightarrow C_b
 $$
 
-failure of \(P1_a\) invalidates its dependent descendants.
+failure of (P1_a) invalidates its dependent descendants.
 
-It does not automatically invalidate the independent \(P1_b\) branch.
+It does not automatically invalidate the independent (P1_b) branch.
 
 ```text
 FAILED ENVIRONMENTAL PREMISE
@@ -880,11 +880,11 @@ INVALIDATE DESCENDANTS
 PRESERVE UNAFFECTED STATE
 ```
 
----
+______________________________________________________________________
 
-# 23. Reality Contact and Confidence
+## 23. Reality Contact and Confidence
 
-A conclusion depending on environmental premise \(E\) cannot exceed that premise's confidence unless independently revalidated.
+A conclusion depending on environmental premise (E) cannot exceed that premise's confidence unless independently revalidated.
 
 $$
 Conf(C)
@@ -892,13 +892,13 @@ Conf(C)
 \min_i Conf(P_i)
 $$
 
-for load-bearing premises \(P_i\).
+for load-bearing premises (P_i).
 
 Environmental uncertainty therefore propagates upward rather than disappearing through reasoning depth.
 
----
+______________________________________________________________________
 
-# 24. Competing Explanations
+## 24. Competing Explanations
 
 When model/world disagreement occurs, AMOS should preserve genuinely viable alternatives.
 
@@ -922,9 +922,9 @@ COMPETING
 
 is the correct conclusion class.
 
----
+______________________________________________________________________
 
-# 25. Discriminating Tests
+## 25. Discriminating Tests
 
 P1 favors the cheapest sufficiently informative environmental test capable of separating competing explanations.
 
@@ -943,9 +943,9 @@ $$
 
 This is a decision heuristic within the AMOS model, not a universal mathematical law.
 
----
+______________________________________________________________________
 
-# 26. Reality Contact Loop
+## 26. Reality Contact Loop
 
 The target P1 correction loop is:
 
@@ -971,9 +971,9 @@ MODEL UPDATE / HOLD
 
 This prevents closed-loop internal coherence from substituting for external correction.
 
----
+______________________________________________________________________
 
-# 27. Failure Modes
+## 27. Failure Modes
 
 P1 is intended to expose several architectural failure modes.
 
@@ -1017,9 +1017,9 @@ P1_FAILURE_MODES:
       "Multiple descendants of one observation counted as independent confirmation."
 ```
 
----
+______________________________________________________________________
 
-# 28. P1 Admission Contract
+## 28. P1 Admission Contract
 
 An environmental premise used in consequential reasoning should resolve, where material:
 
@@ -1063,9 +1063,9 @@ UNKNOWN/GAP
 
 rather than automatic admission.
 
----
+______________________________________________________________________
 
-# 29. P1 Proof Capsule
+## 29. P1 Proof Capsule
 
 ```yaml
 P1_PROOF_CAPSULE:
@@ -1107,9 +1107,9 @@ P1_PROOF_CAPSULE:
   status:
 ```
 
----
+______________________________________________________________________
 
-# 30. Validation Requirements
+## 30. Validation Requirements
 
 Promotion beyond conceptual specification requires evidence that P1 rules are operationally enforced.
 
@@ -1129,9 +1129,9 @@ L4 RUNTIME VALIDATION
 
 Empirical claims additionally require domain-appropriate external validation.
 
----
+______________________________________________________________________
 
-# 31. Required Negative Cases
+## 31. Required Negative Cases
 
 ```yaml
 P1_NEGATIVE_CASES:
@@ -1168,9 +1168,9 @@ P1_NEGATIVE_CASES:
     - environmental_constraint_overridden_by_internal_model
 ```
 
----
+______________________________________________________________________
 
-# 32. Gap Register
+## 32. Gap Register
 
 ```yaml
 P1_GAPS:
@@ -1196,9 +1196,9 @@ P1_GAPS:
     status: SOURCE_LINK_PRESENT_IDENTITY_NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 33. Promotion Gate
+## 33. Promotion Gate
 
 Promotion from:
 
@@ -1228,9 +1228,9 @@ CANONICAL STATUS
 CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
-# 34. Cross-Plane Bindings
+## 34. Cross-Plane Bindings
 
 ```yaml
 P1_BINDINGS:
@@ -1257,9 +1257,9 @@ P1_BINDINGS:
 
 Cross-plane links do not establish empirical validity or ontological identity.
 
----
+______________________________________________________________________
 
-# 35. RSCF Contract
+## 35. RSCF Contract
 
 ```yaml
 RSCF:
@@ -1320,9 +1320,9 @@ RSCF:
     source_supported
 ```
 
----
+______________________________________________________________________
 
-# 36. Final Integrity Rule
+## 36. Final Integrity Rule
 
 ```text
 P1 IS AN ARCHITECTURAL
@@ -1350,7 +1350,7 @@ CANONICAL STATUS
 CONDITIONAL.
 ```
 
----
+______________________________________________________________________
 
 ## Navigation
 
@@ -1358,6 +1358,6 @@ CONDITIONAL.
 - [[01_CANON/02_UNIVERSE_CANON/AMOS_7_PART_UNIVERSE_CANON|AMOS_7_PART_UNIVERSE_CANON]]
 - [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
 
 **MOC:** [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]] · [[00_ROOT/00_HOME|00_HOME]]

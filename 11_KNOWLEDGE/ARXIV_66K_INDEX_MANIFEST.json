@@ -1,0 +1,316 @@
+{
+  "corpus_root": "/Users/mac/Documents/_arxiv_md_external/obsidian-arxiv-md",
+  "total_indexed_papers": 66027,
+  "indexing_duration_seconds": 1.792,
+  "categories": {
+    "AI / Machine Learning (cs.AI, cs.LG)": 10,
+    "Quantum Physics & Computation (quant-ph)": 67,
+    "Neuromorphic & Bio-BCI (q-bio.NC, q-bio.QM)": 26,
+    "Quantitative Finance & Microstructure (q-fin)": 5,
+    "Mathematics & Singularity Theory (math)": 189,
+    "Other Domain Sciences": 203
+  },
+  "proof_hash": "60e4a61866105bd7249323c6182e55055bba9ddf4a8069ced0ebcbeab6e419a4",
+  "sample_entries": [
+    {
+      "filename": "ARXIV_QFM_MURK_AUDIT.md",
+      "title": "arXiv QFM MURK Cross-Check Audit",
+      "category": "Quantum Physics & Computation (quant-ph)",
+      "path": "/Users/mac/Documents/_arxiv_md_external/obsidian-arxiv-md/ARXIV_QFM_MURK_AUDIT.md"
+    },
+    {
+      "filename": "1312_4023_ON_A_CLASS_OF_LIFTING_MODULES.md",
+      "title": "1312.4023_On_A_Class_of_Lifting_Modules",
+      "category": "Mathematics & Singularity Theory (math)",
+      "path": "/Users/mac/Documents/_arxiv_md_external/obsidian-arxiv-md/2013/1312_4023_ON_A_CLASS_OF_LIFTING_MODULES.md"
+    },
+    {
+      "filename": "1309_3915V1_A_NEW_VERSATILE_IN_PROCESS_MONITORING_SYSTEM_FOR_MILLING.md",
+      "title": "1309.3915v1_A_new_versatile_in-process_monitoring_system_for_milling",
+      "category": "Other Domain Sciences",
+      "path": "/Users/mac/Documents/_arxiv_md_external/obsidian-arxiv-md/2013/1309_3915V1_A_NEW_VERSATILE_IN_PROCESS_MONITORING_SYSTEM_FOR_MILLING.md"
+    },
+    {
+      "filename": "1307_8397V2_SIRIUS_AND_THE_PROJECT_OF_THE_MEGALITHIC_ENCLOSURES_AT_GOBEKLI_TEPE.md",
+      "title": "1307.8397v2_Sirius_and_the_project_of_the_megalithic_enclosures_at_Gobekli_Tepe",
+      "category": "Other Domain Sciences",
+      "path": "/Users/mac/Documents/_arxiv_md_external/obsidian-arxiv-md/2013/1307_8397V2_SIRIUS_AND_THE_PROJECT_OF_THE_MEGALITHIC_ENCLOSURES_AT_GOBEKLI_TEPE.md"
+    },
+    {
+      "filename": "1303_2449V1_USING_QUALIA_INFORMATION_TO_IDENTIFY_LEXICAL_SEMANTIC_CLASSES_IN_AN_UNSUPERVISED.md",
+      "title": "1303.2449v1_Using_qualia_information_to_identify_lexical_semantic_classes_in_an_",
+      "category": "Other Domain Sciences",
+      "path": "/Users/mac/Documents/_arxiv_md_external/obsidian-arxiv-md/2013/1303_2449V1_USING_QUALIA_INFORMATION_TO_IDENTIFY_LEXICAL_SEMANTIC_CLASSES_IN_AN_UNSUPERVISED.md"
+    },
+    {
+      "filename": "1311_3576V2_REPRODUCING_KERNEL_HILBERT_SPACE_BASED_ESTIMATION_OF_SYSTEMS_OF_ORDINARY_DIFFERE.md",
+      "title": "1311.3576v2_Reproducing_kernel_Hilbert_space_based_estimation_of_systems_of_ordi",
+      "category": "Mathematics & Singularity Theory (math)",
+      "path": "/Users/mac/Documents/_arxiv_md_external/obsidian-arxiv-md/2013/1311_3576V2_REPRODUCING_KERNEL_HILBERT_SPACE_BASED_ESTIMATION_OF_SYSTEMS_OF_ORDINARY_DIFFERE.md"
+    },
+    {
+      "filename": "1305_6243V1_ASTROCHEMISTRY_THE_ISSUE_OF_MOLECULAR_COMPLEXITY_IN_ASTROPHYSICAL_ENVIRONMENTS.md",
+      "title": "1305.6243v1_Astrochemistry__the_issue_of_molecular_complexity_in_astrophysical_e",
+      "category": "Other Domain Sciences",
+      "path": "/Users/mac/Documents/_arxiv_md_external/obsidian-arxiv-md/2013/1305_6243V1_ASTROCHEMISTRY_THE_ISSUE_OF_MOLECULAR_COMPLEXITY_IN_ASTROPHYSICAL_ENVIRONMENTS.md"
+    },
+    {
+      "filename": "1312_1482V1_LOW_COMPLEXITY_DECODING_FOR_PUNCTURED_TRELLIS_CODED_MODULATION_OVER_INTERSYMBOL.md",
+      "title": "1312.1482v1_Low_Complexity_Decoding_for_Punctured_Trellis-Coded_Modulation_Over_",
+      "category": "Mathematics & Singularity Theory (math)",
+      "path": "/Users/mac/Documents/_arxiv_md_external/obsidian-arxiv-md/2013/1312_1482V1_LOW_COMPLEXITY_DECODING_FOR_PUNCTURED_TRELLIS_CODED_MODULATION_OVER_INTERSYMBOL.md"
+    },
+    {
+      "filename": "1308_4526V5_FORMALIZATION_MECHANIZATION_AND_AUTOMATION_OF_G_DEL_S_PROOF_OF_GOD_S_EXISTENCE.md",
+      "title": "1308.4526v5_Formalization__Mechanization_and_Automation_of_G\u00f6del_s_Proof_of_God_",
+      "category": "Other Domain Sciences",
+      "path": "/Users/mac/Documents/_arxiv_md_external/obsidian-arxiv-md/2013/1308_4526V5_FORMALIZATION_MECHANIZATION_AND_AUTOMATION_OF_G_DEL_S_PROOF_OF_GOD_S_EXISTENCE.md"
+    },
+    {
+      "filename": "1310_3972_FULL_NLO_MASSIVE_GAUGE_BOSON_PAIR_PRODUCTION_AT_THE_LHC.md",
+      "title": "1310.3972_Full_NLO_massive_gauge_boson_pair_production_at_the_LHC",
+      "category": "Quantum Physics & Computation (quant-ph)",
+      "path": "/Users/mac/Documents/_arxiv_md_external/obsidian-arxiv-md/2013/1310_3972_FULL_NLO_MASSIVE_GAUGE_BOSON_PAIR_PRODUCTION_AT_THE_LHC.md"
+    },
+    {
+      "filename": "1301_4050V1_PUNCTURED_TRELLIS_CODED_MODULATION.md",
+      "title": "1301.4050v1_Punctured_Trellis-Coded_Modulation",
+      "category": "Mathematics & Singularity Theory (math)",
+      "path": "/Users/mac/Documents/_arxiv_md_external/obsidian-arxiv-md/2013/1301_4050V1_PUNCTURED_TRELLIS_CODED_MODULATION.md"
+    },
+    {
+      "filename": "1301_1077V1_A_QUANTITATIVE_METHOD_FOR_ESTIMATING_THE_HUMAN_DEVELOPMENT_STAGES_BY_BASED_ON_TH.md",
+      "title": "1301.1077v1_A_Quantitative_Method_for_Estimating_the_Human_Development_Stages_by",
+      "category": "Mathematics & Singularity Theory (math)",
+      "path": "/Users/mac/Documents/_arxiv_md_external/obsidian-arxiv-md/2013/1301_1077V1_A_QUANTITATIVE_METHOD_FOR_ESTIMATING_THE_HUMAN_DEVELOPMENT_STAGES_BY_BASED_ON_TH.md"
+    },
+    {
+      "filename": "1310_4109_CHALLENGES_FOR_PRECISION_MEASUREMENTS_AT_THE_LHC.md",
+      "title": "1310.4109_Challenges_for_precision_measurements_at_the_LHC",
+      "category": "Quantum Physics & Computation (quant-ph)",
+      "path": "/Users/mac/Documents/_arxiv_md_external/obsidian-arxiv-md/2013/1310_4109_CHALLENGES_FOR_PRECISION_MEASUREMENTS_AT_THE_LHC.md"
+    },
+    {
+      "filename": "1301_0773_GLUON_SATURATION_AT_HIGHER_ORDERS_AND_IMPROVEMENT_OF_KINEMATICS.md",
+      "title": "1301.0773_Gluon_saturation_at_higher_orders_and_improvement_of_kinematics",
+      "category": "Quantum Physics & Computation (quant-ph)",
+      "path": "/Users/mac/Documents/_arxiv_md_external/obsidian-arxiv-md/2013/1301_0773_GLUON_SATURATION_AT_HIGHER_ORDERS_AND_IMPROVEMENT_OF_KINEMATICS.md"
+    },
+    {
+      "filename": "1303_3162V2_NONLINEAR_INVERSION_FROM_PARTIAL_EIT_DATA_COMPUTATIONAL_EXPERIMENTS.md",
+      "title": "1303.3162v2_Nonlinear_Inversion_from_Partial_EIT_Data__Computational_Experiments",
+      "category": "Quantum Physics & Computation (quant-ph)",
+      "path": "/Users/mac/Documents/_arxiv_md_external/obsidian-arxiv-md/2013/1303_3162V2_NONLINEAR_INVERSION_FROM_PARTIAL_EIT_DATA_COMPUTATIONAL_EXPERIMENTS.md"
+    },
+    {
+      "filename": "1309_1161V2_NOISELESS_GRAVITATIONAL_LENSING_SIMULATIONS.md",
+      "title": "1309.1161v2_Noiseless_Gravitational_Lensing_Simulations",
+      "category": "Other Domain Sciences",
+      "path": "/Users/mac/Documents/_arxiv_md_external/obsidian-arxiv-md/2013/1309_1161V2_NOISELESS_GRAVITATIONAL_LENSING_SIMULATIONS.md"
+    },
+    {
+      "filename": "1309_3712V1_SILICON_NANOSTRUCTURES_TOXICITY_AN_AB_INITO_APPROACH.md",
+      "title": "1309.3712v1_Silicon_nanostructures_toxicity__An_ab_inito_approach",
+      "category": "Other Domain Sciences",
+      "path": "/Users/mac/Documents/_arxiv_md_external/obsidian-arxiv-md/2013/1309_3712V1_SILICON_NANOSTRUCTURES_TOXICITY_AN_AB_INITO_APPROACH.md"
+    },
+    {
+      "filename": "1312_6879V1_ZOONOSES_FRONTIER_VETERINARIAN_PRODUCER_PROCESSOR_AND_BEYOND.md",
+      "title": "1312.6879v1_Zoonoses_Frontier__Veterinarian__Producer__Processor_and_Beyond",
+      "category": "Other Domain Sciences",
+      "path": "/Users/mac/Documents/_arxiv_md_external/obsidian-arxiv-md/2013/1312_6879V1_ZOONOSES_FRONTIER_VETERINARIAN_PRODUCER_PROCESSOR_AND_BEYOND.md"
+    },
+    {
+      "filename": "1306_0651V1_METEORS_IN_THE_MAORI_ASTRONOMICAL_TRADITIONS_OF_NEW_ZEALAND.md",
+      "title": "1306.0651v1_Meteors_in_the_Maori_Astronomical_Traditions_of_New_Zealand",
+      "category": "Other Domain Sciences",
+      "path": "/Users/mac/Documents/_arxiv_md_external/obsidian-arxiv-md/2013/1306_0651V1_METEORS_IN_THE_MAORI_ASTRONOMICAL_TRADITIONS_OF_NEW_ZEALAND.md"
+    },
+    {
+      "filename": "1301_1410_REVIEW_ON_TOP_FORWARD_BACKWARD_ASYMMETRY.md",
+      "title": "1301.1410_Review_on_top_forward-backward_asymmetry",
+      "category": "Quantum Physics & Computation (quant-ph)",
+      "path": "/Users/mac/Documents/_arxiv_md_external/obsidian-arxiv-md/2013/1301_1410_REVIEW_ON_TOP_FORWARD_BACKWARD_ASYMMETRY.md"
+    },
+    {
+      "filename": "1307_2060_SOME_COMMENTS_ON_DILATON_GRAVITY.md",
+      "title": "1307.2060_Some_Comments_on_Dilaton_Gravity",
+      "category": "Quantum Physics & Computation (quant-ph)",
+      "path": "/Users/mac/Documents/_arxiv_md_external/obsidian-arxiv-md/2013/1307_2060_SOME_COMMENTS_ON_DILATON_GRAVITY.md"
+    },
+    {
+      "filename": "1302_5491V1_IMPLICATIONS_FOR_IMPROVING_ACCESSIBILITY_TO_E_COMMERCE_WEBSITES_IN_DEVELOPING_CO.md",
+      "title": "1302.5491v1_Implications_for_Improving_Accessibility_to_E-Commerce_Websites_in_D",
+      "category": "Mathematics & Singularity Theory (math)",
+      "path": "/Users/mac/Documents/_arxiv_md_external/obsidian-arxiv-md/2013/1302_5491V1_IMPLICATIONS_FOR_IMPROVING_ACCESSIBILITY_TO_E_COMMERCE_WEBSITES_IN_DEVELOPING_CO.md"
+    },
+    {
+      "filename": "1312_2363V1_A_REFERENCE_INVARIANT_HEALTH_DISPARITY_INDEX_BASED_ON_R_NYI_DIVERGENCE.md",
+      "title": "1312.2363v1_A_reference-invariant_health_disparity_index_based_on_R\u00e9nyi_divergen",
+      "category": "Mathematics & Singularity Theory (math)",
+      "path": "/Users/mac/Documents/_arxiv_md_external/obsidian-arxiv-md/2013/1312_2363V1_A_REFERENCE_INVARIANT_HEALTH_DISPARITY_INDEX_BASED_ON_R_NYI_DIVERGENCE.md"
+    },
+    {
+      "filename": "1310_7801_EPOBF_ENERGY_EFFICIENT_ALLOCATION_OF_VIRTUAL_MACHINES_IN_HIGH_PERFORMANCE_COMPU.md",
+      "title": "1310.7801_EPOBF__Energy_Efficient_Allocation_of_Virtual_Machines_in_High_Perform",
+      "category": "Other Domain Sciences",
+      "path": "/Users/mac/Documents/_arxiv_md_external/obsidian-arxiv-md/2013/1310_7801_EPOBF_ENERGY_EFFICIENT_ALLOCATION_OF_VIRTUAL_MACHINES_IN_HIGH_PERFORMANCE_COMPU.md"
+    },
+    {
+      "filename": "1309_7522V1_AN_APPLICATION_OF_BACKPROPAGATION_ARTIFICIAL_NEURAL_NETWORK_METHOD_FOR_MEASURING.md",
+      "title": "1309.7522v1_An_Application_of_Backpropagation_Artificial_Neural_Network_Method_f",
+      "category": "Neuromorphic & Bio-BCI (q-bio.NC, q-bio.QM)",
+      "path": "/Users/mac/Documents/_arxiv_md_external/obsidian-arxiv-md/2013/1309_7522V1_AN_APPLICATION_OF_BACKPROPAGATION_ARTIFICIAL_NEURAL_NETWORK_METHOD_FOR_MEASURING.md"
+    },
+    {
+      "filename": "1304_0583V1_COMMUTING_AND_NONCOMMUTING_INFINITESIMALS.md",
+      "title": "1304.0583v1_Commuting_and_noncommuting_infinitesimals",
+      "category": "Mathematics & Singularity Theory (math)",
+      "path": "/Users/mac/Documents/_arxiv_md_external/obsidian-arxiv-md/2013/1304_0583V1_COMMUTING_AND_NONCOMMUTING_INFINITESIMALS.md"
+    },
+    {
+      "filename": "1311_6762V1_NEGATIVE_AREA_COMPRESSIBILITY_IN_SILVER_I_TRICYANOMETHANIDE.md",
+      "title": "1311.6762v1_Negative_area_compressibility_in_silver_I__tricyanomethanide",
+      "category": "Other Domain Sciences",
+      "path": "/Users/mac/Documents/_arxiv_md_external/obsidian-arxiv-md/2013/1311_6762V1_NEGATIVE_AREA_COMPRESSIBILITY_IN_SILVER_I_TRICYANOMETHANIDE.md"
+    },
+    {
+      "filename": "1302_6667V1_CROWDSOURCING_FOR_BIOINFORMATICS.md",
+      "title": "1302.6667v1_Crowdsourcing_for_Bioinformatics",
+      "category": "Mathematics & Singularity Theory (math)",
+      "path": "/Users/mac/Documents/_arxiv_md_external/obsidian-arxiv-md/2013/1302_6667V1_CROWDSOURCING_FOR_BIOINFORMATICS.md"
+    },
+    {
+      "filename": "1312_6991_DIPOLAR_DARK_MATTER_AND_COSMOLOGY.md",
+      "title": "1312.6991_Dipolar_Dark_Matter_and_Cosmology",
+      "category": "Other Domain Sciences",
+      "path": "/Users/mac/Documents/_arxiv_md_external/obsidian-arxiv-md/2013/1312_6991_DIPOLAR_DARK_MATTER_AND_COSMOLOGY.md"
+    },
+    {
+      "filename": "1307_4583V2_SIMPLY_CONCEIVING_THE_ARRHENIUS_LAW_AND_ABSOLUTE_KINETIC_CONSTANTS_USING_THE_GEO.md",
+      "title": "1307.4583v2_Simply_conceiving_the_Arrhenius_law_and_absolute_kinetic_constants_u",
+      "category": "Mathematics & Singularity Theory (math)",
+      "path": "/Users/mac/Documents/_arxiv_md_external/obsidian-arxiv-md/2013/1307_4583V2_SIMPLY_CONCEIVING_THE_ARRHENIUS_LAW_AND_ABSOLUTE_KINETIC_CONSTANTS_USING_THE_GEO.md"
+    },
+    {
+      "filename": "1306_4447V1_HACKING_SMART_MACHINES_WITH_SMARTER_ONES_HOW_TO_EXTRACT_MEANINGFUL_DATA_FROM_MA.md",
+      "title": "1306.4447v1_Hacking_Smart_Machines_with_Smarter_Ones__How_to_Extract_Meaningful_",
+      "category": "Other Domain Sciences",
+      "path": "/Users/mac/Documents/_arxiv_md_external/obsidian-arxiv-md/2013/1306_4447V1_HACKING_SMART_MACHINES_WITH_SMARTER_ONES_HOW_TO_EXTRACT_MEANINGFUL_DATA_FROM_MA.md"
+    },
+    {
+      "filename": "1302_0453V1_SUPERCONDUCTING_RESONANCE_AND_PARING_SYMMETRY_IN_ELECTRON_DOPED_CUPRATES.md",
+      "title": "1302.0453v1_Superconducting_Resonance_and_paring_symmetry_in_electron-doped_cupr",
+      "category": "Quantum Physics & Computation (quant-ph)",
+      "path": "/Users/mac/Documents/_arxiv_md_external/obsidian-arxiv-md/2013/1302_0453V1_SUPERCONDUCTING_RESONANCE_AND_PARING_SYMMETRY_IN_ELECTRON_DOPED_CUPRATES.md"
+    },
+    {
+      "filename": "1304_1357V1_TRAP_FREE_MANIPULATION_IN_THE_LANDAU_ZENER_SYSTEM.md",
+      "title": "1304.1357v1_Trap-free_manipulation_in_the_Landau-Zener_system",
+      "category": "Quantum Physics & Computation (quant-ph)",
+      "path": "/Users/mac/Documents/_arxiv_md_external/obsidian-arxiv-md/2013/1304_1357V1_TRAP_FREE_MANIPULATION_IN_THE_LANDAU_ZENER_SYSTEM.md"
+    },
+    {
+      "filename": "1311_5402_VIRIALIZATION_INDUCED_CURVATURE_VERSUS_DARK_ENERGY.md",
+      "title": "1311.5402_Virialization-induced_curvature_versus_dark_energy",
+      "category": "Mathematics & Singularity Theory (math)",
+      "path": "/Users/mac/Documents/_arxiv_md_external/obsidian-arxiv-md/2013/1311_5402_VIRIALIZATION_INDUCED_CURVATURE_VERSUS_DARK_ENERGY.md"
+    },
+    {
+      "filename": "1304_3271V1_GOOGLE_AS_GOD_OPPORTUNITIES_AND_RISKS_OF_THE_INFORMATION_AGE.md",
+      "title": "1304.3271v1_Google_as_God__Opportunities_and_Risks_of_the_Information_Age",
+      "category": "Quantum Physics & Computation (quant-ph)",
+      "path": "/Users/mac/Documents/_arxiv_md_external/obsidian-arxiv-md/2013/1304_3271V1_GOOGLE_AS_GOD_OPPORTUNITIES_AND_RISKS_OF_THE_INFORMATION_AGE.md"
+    },
+    {
+      "filename": "1306_0756V4_INVISIBLE_STIMULI_IMPLICIT_THRESHOLDS_WHY_INVISIBILITY_JUDGMENTS_CANNOT_BE_INT.md",
+      "title": "1306.0756v4_Invisible_stimuli__implicit_thresholds__Why_invisibility_judgments_c",
+      "category": "Neuromorphic & Bio-BCI (q-bio.NC, q-bio.QM)",
+      "path": "/Users/mac/Documents/_arxiv_md_external/obsidian-arxiv-md/2013/1306_0756V4_INVISIBLE_STIMULI_IMPLICIT_THRESHOLDS_WHY_INVISIBILITY_JUDGMENTS_CANNOT_BE_INT.md"
+    },
+    {
+      "filename": "1307_1819V1_TWO_COMPONENT_MODEL_OF_2D_TRIGGER_ASSOCIATED_HADRON_CORRELATIONS_ON_RAPIDITY_SPA.md",
+      "title": "1307.1819v1_Two-component_model_of_2D_trigger-associated_hadron_correlations_on_",
+      "category": "Quantum Physics & Computation (quant-ph)",
+      "path": "/Users/mac/Documents/_arxiv_md_external/obsidian-arxiv-md/2013/1307_1819V1_TWO_COMPONENT_MODEL_OF_2D_TRIGGER_ASSOCIATED_HADRON_CORRELATIONS_ON_RAPIDITY_SPA.md"
+    },
+    {
+      "filename": "1312_1395V2_ERROR_PRONE_POLYMERASE_ACTIVITY_CAUSES_MULTINUCLEOTIDE_MUTATIONS_IN_HUMANS.md",
+      "title": "1312.1395v2_Error-prone_polymerase_activity_causes_multinucleotide_mutations_in_",
+      "category": "Mathematics & Singularity Theory (math)",
+      "path": "/Users/mac/Documents/_arxiv_md_external/obsidian-arxiv-md/2013/1312_1395V2_ERROR_PRONE_POLYMERASE_ACTIVITY_CAUSES_MULTINUCLEOTIDE_MUTATIONS_IN_HUMANS.md"
+    },
+    {
+      "filename": "1309_6031V3_RECONSIDERING_WRITTEN_LANGUAGE.md",
+      "title": "1309.6031v3_Reconsidering_Written_Language",
+      "category": "Other Domain Sciences",
+      "path": "/Users/mac/Documents/_arxiv_md_external/obsidian-arxiv-md/2013/1309_6031V3_RECONSIDERING_WRITTEN_LANGUAGE.md"
+    },
+    {
+      "filename": "1311_1113_CONSTRAINTS_ON_HIGGS_COUPLINGS_AND_PHYSICS_BEYOND_THE_STANDARD_MODEL.md",
+      "title": "1311.1113_Constraints_on_Higgs_Couplings_and_Physics_Beyond_the_Standard_Model",
+      "category": "Other Domain Sciences",
+      "path": "/Users/mac/Documents/_arxiv_md_external/obsidian-arxiv-md/2013/1311_1113_CONSTRAINTS_ON_HIGGS_COUPLINGS_AND_PHYSICS_BEYOND_THE_STANDARD_MODEL.md"
+    },
+    {
+      "filename": "1312_5375_GRAVITATIONAL_WAVES_FROM_SPINNING_COMPACT_OBJECT_BINARIES_NEW_POST_NEWTONIAN_RE.md",
+      "title": "1312.5375_Gravitational_waves_from_spinning_compact_object_binaries__New_post-Ne",
+      "category": "Quantum Physics & Computation (quant-ph)",
+      "path": "/Users/mac/Documents/_arxiv_md_external/obsidian-arxiv-md/2013/1312_5375_GRAVITATIONAL_WAVES_FROM_SPINNING_COMPACT_OBJECT_BINARIES_NEW_POST_NEWTONIAN_RE.md"
+    },
+    {
+      "filename": "1312_5941_DEVELOPING_A_MODEL_OF_EVACUATION_AFTER_AN_EARTHQUAKE_IN_LEBANON.md",
+      "title": "1312.5941_Developing_a_model_of_evacuation_after_an_earthquake_in_Lebanon",
+      "category": "Other Domain Sciences",
+      "path": "/Users/mac/Documents/_arxiv_md_external/obsidian-arxiv-md/2013/1312_5941_DEVELOPING_A_MODEL_OF_EVACUATION_AFTER_AN_EARTHQUAKE_IN_LEBANON.md"
+    },
+    {
+      "filename": "1310_4009_THE_MOND_PHENOMENOLOGY.md",
+      "title": "1310.4009_The_MOND_phenomenology",
+      "category": "Other Domain Sciences",
+      "path": "/Users/mac/Documents/_arxiv_md_external/obsidian-arxiv-md/2013/1310_4009_THE_MOND_PHENOMENOLOGY.md"
+    },
+    {
+      "filename": "1305_2158V1_ORIGIN_OF_THE_SPRINGS_OF_COSTA_VERDE_BEACH_IN_LIMA_PERU.md",
+      "title": "1305.2158v1_Origin_of_the_springs_of_Costa_Verde_beach_in_Lima_Peru",
+      "category": "Mathematics & Singularity Theory (math)",
+      "path": "/Users/mac/Documents/_arxiv_md_external/obsidian-arxiv-md/2013/1305_2158V1_ORIGIN_OF_THE_SPRINGS_OF_COSTA_VERDE_BEACH_IN_LIMA_PERU.md"
+    },
+    {
+      "filename": "1312_4851_REPRESENTING_SIMULATING_AND_ANALYSING_HO_CHI_MINH_CITY_TSUNAMI_PLAN_BY_MEANS_OF.md",
+      "title": "1312.4851_Representing__Simulating_and_Analysing_Ho_Chi_Minh_City_Tsunami_Plan_b",
+      "category": "Other Domain Sciences",
+      "path": "/Users/mac/Documents/_arxiv_md_external/obsidian-arxiv-md/2013/1312_4851_REPRESENTING_SIMULATING_AND_ANALYSING_HO_CHI_MINH_CITY_TSUNAMI_PLAN_BY_MEANS_OF.md"
+    },
+    {
+      "filename": "1307_2860V1_AUTOCATALYTIC_SETS_AND_BIOLOGICAL_SPECIFICITY.md",
+      "title": "1307.2860v1_Autocatalytic_Sets_and_Biological_Specificity",
+      "category": "Mathematics & Singularity Theory (math)",
+      "path": "/Users/mac/Documents/_arxiv_md_external/obsidian-arxiv-md/2013/1307_2860V1_AUTOCATALYTIC_SETS_AND_BIOLOGICAL_SPECIFICITY.md"
+    },
+    {
+      "filename": "1310_3373_MOND_AND_ITS_BIMETRIC_FORMULATION.md",
+      "title": "1310.3373_MOND_and_its_bimetric_formulation",
+      "category": "Other Domain Sciences",
+      "path": "/Users/mac/Documents/_arxiv_md_external/obsidian-arxiv-md/2013/1310_3373_MOND_AND_ITS_BIMETRIC_FORMULATION.md"
+    },
+    {
+      "filename": "1303_1927V1_THE_LINEAR_STOCHASTIC_ORDER_AND_DIRECTED_INFERENCE_FOR_MULTIVARIATE_ORDERED_DIST.md",
+      "title": "1303.1927v1_The_linear_stochastic_order_and_directed_inference_for_multivariate_",
+      "category": "Mathematics & Singularity Theory (math)",
+      "path": "/Users/mac/Documents/_arxiv_md_external/obsidian-arxiv-md/2013/1303_1927V1_THE_LINEAR_STOCHASTIC_ORDER_AND_DIRECTED_INFERENCE_FOR_MULTIVARIATE_ORDERED_DIST.md"
+    },
+    {
+      "filename": "1312_0558_ICECUBE_S_NEUTRINOS_THE_BEGINNING_OF_EXTRA_GALACTIC_NEUTRINO_ASTROPHYSICS.md",
+      "title": "1312.0558_IceCube_s_Neutrinos__The_beginning_of_extra-Galactic_neutrino_astrophy",
+      "category": "Other Domain Sciences",
+      "path": "/Users/mac/Documents/_arxiv_md_external/obsidian-arxiv-md/2013/1312_0558_ICECUBE_S_NEUTRINOS_THE_BEGINNING_OF_EXTRA_GALACTIC_NEUTRINO_ASTROPHYSICS.md"
+    },
+    {
+      "filename": "1302_5199V1_A_VIRTUAL_WORLD_MODEL_TO_ENHANCE_TOURISM_DESTINATION_ACCESSIBILITY_IN_DEVELOPING.md",
+      "title": "1302.5199v1_A_Virtual_World_Model_to_Enhance_Tourism_Destination_Accessibility_i",
+      "category": "Other Domain Sciences",
+      "path": "/Users/mac/Documents/_arxiv_md_external/obsidian-arxiv-md/2013/1302_5199V1_A_VIRTUAL_WORLD_MODEL_TO_ENHANCE_TOURISM_DESTINATION_ACCESSIBILITY_IN_DEVELOPING.md"
+    }
+  ]
+}

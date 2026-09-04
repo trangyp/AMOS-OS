@@ -12,19 +12,19 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: BINDING
 path: 11_KNOWLEDGE/05_FRAMEWORKS/UBI_CONSENTX_BINDING.md
 tags:
-- amos-os
-- knowledge
-- vault
-- 05_frameworks
-- ubi_consentx_binding
-- biological_consent
-- autonomic_validation
-- rscf
-- canon_candidate
-- canon/knowledge
-- unified-biological-intelligence
-- consentx
-- ubi-id-exchange-binding
+  - amos-os
+  - knowledge
+  - vault
+  - 05_frameworks
+  - ubi_consentx_binding
+  - biological_consent
+  - autonomic_validation
+  - rscf
+  - canon_candidate
+  - canon/knowledge
+  - unified-biological-intelligence
+  - consentx
+  - ubi-id-exchange-binding
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -39,19 +39,19 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - UBI_PLUS_NEUROSYNCAI_INTEGRATION_WITH_CONSENTX
-  - AMOS_CORPUS
+    - UBI_PLUS_NEUROSYNCAI_INTEGRATION_WITH_CONSENTX
+    - AMOS_CORPUS
   scope:
-  - KNOWLEDGE_FRAMEWORKS
-  - BINDINGS
-  - SOURCE_DEFINED_MODEL
+    - KNOWLEDGE_FRAMEWORKS
+    - BINDINGS
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   biological_master:
     artifact:
-    - - UNIFIED_BIOLOGICAL_INTELLIGENCE
+      -   - UNIFIED_BIOLOGICAL_INTELLIGENCE
   consent_engine:
     artifact:
-    - - CONSENTX
+      -   - CONSENTX
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
@@ -65,9 +65,9 @@ epistemic_boundary:
 
 It binds continuous autonomic, somatic, and bioelectromagnetic signals directly into the [[11_KNOWLEDGE/05_FRAMEWORKS/CONSENTX|CONSENTX]] arbitration engine, validating genuine human readiness before executing system transactions.
 
----
+______________________________________________________________________
 
-# 1. Binding Architecture
+## 1. Binding Architecture
 
 ```text
                ┌────────────────────────────────────────────────────────┐
@@ -81,17 +81,17 @@ AUTONOMIC STATE STREAM             COERCION & STRESS DETECTOR         CONSENT AR
 • Facial & muscle tension (SI)       dopaminergic manipulation          somatic dissonance > threshold
 ```
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Biological Master:** [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]]
 - **Consent Engine:** [[11_KNOWLEDGE/05_FRAMEWORKS/CONSENTX|CONSENTX]]
 - **Native Vault Source:** `11_KNOWLEDGE/biology-ubi/UBI_PLUS_NEUROSYNCAI_INTEGRATION_WITH_CONSENTX`
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -109,9 +109,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]] · [[11_KNOWLEDGE/05_FRAMEWORKS/CONSENTX|CONSENTX]] · [[11_KNOWLEDGE/05_FRAMEWORKS/UBI_ID_EXCHANGE_BINDING|UBI_ID_EXCHANGE_BINDING]]
 
----
+______________________________________________________________________
+
 **MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]

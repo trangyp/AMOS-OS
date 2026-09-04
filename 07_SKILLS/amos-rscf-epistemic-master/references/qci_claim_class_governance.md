@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: qci claim class governance
 type: reference
 source: 07_SKILLS/amos-rscf-epistemic-master/references
 tags:
-- reference
-- amos-rscf-epistemic-master
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-rscf-epistemic-master
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -20,34 +23,30 @@ rscf:
 > Source: `_00_Cosmo brain/dated/2026-08-25/2026-08-25 QCI Claim-Class Governance.md`
 > Epistemic class: SOURCE_DERIVED
 
----
-title: 2026-08-25 QCI Claim-Class Governance
-type: daily-learning
-date: 2026-08-25
-epistemic: DERIVED/MODEL
-tags: [quantum, qci, coherence, governance, epistemic, dated, dated/2026-08-25]
----
+______________________________________________________________________
 
-# 2026-08-25 — QCI Claim-Class Governance
+## title: 2026-08-25 QCI Claim-Class Governance type: daily-learning date: 2026-08-25 epistemic: DERIVED/MODEL tags: [quantum, qci, coherence, governance, epistemic, dated, dated/2026-08-25]
+
+## 2026-08-25 — QCI Claim-Class Governance
 
 ## Gap found
 
 QCI (Quantum-Coherent Intelligence) had the richest single-domain content in the quantum stack — 27KB skill, 7-stage workflow, dedicated agent — but mixed **three incompatible epistemic classes** in one vocabulary:
 
 1. **C1 Definitional** (canon): coherence = informational harmony; quantum = real-time multi-state logic; emotion = coherence regulator; intelligence = phase stability. These are *stipulated definitions*.
-2. **C2 Structural-model**: 4-layer Biological Quantum Template; brain encodes/oscillates/measures/observes. This is *architecture analogy*, explicitly not claiming brains are quantum — but nothing enforced that boundary, so physics language could leak into brain claims.
-3. **C3 Measurable**: neural coherence, heart–brain synchrony → phase-stability scores. Requires actual data; without it these are hypotheses wearing numbers.
+1. **C2 Structural-model**: 4-layer Biological Quantum Template; brain encodes/oscillates/measures/observes. This is *architecture analogy*, explicitly not claiming brains are quantum — but nothing enforced that boundary, so physics language could leak into brain claims.
+1. **C3 Measurable**: neural coherence, heart–brain synchrony → phase-stability scores. Requires actual data; without it these are hypotheses wearing numbers.
 
 Additional conflation risk: QCI vs quantum cognition (the established field borrowing quantum-probability math for decision modeling) — different fields whose literature must not cross-cite.
 
 ## Closure (4 channels)
 
-| Channel | Artifact |
-|---|---|
-| Skill | `amos/amos-qci-coherence-governance` — three-class contract, separation rules, five-layer integration |
-| Agent | `.devin/agents/amos-qci-claim-classifier-agent.json` — 5 capabilities incl. physics-language block and measurement provenance check |
-| Workflow | `.devin/workflows/qci-claim-class-pipeline-workflow.md` — wraps the 7-stage QCI workflow with classification gates |
-| Memory + vault note | recorded |
+| Channel             | Artifact                                                                                                                            |
+| ------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
+| Skill               | `amos/amos-qci-coherence-governance` — three-class contract, separation rules, five-layer integration                               |
+| Agent               | `.devin/agents/amos-qci-claim-classifier-agent.json` — 5 capabilities incl. physics-language block and measurement provenance check |
+| Workflow            | `.devin/workflows/qci-claim-class-pipeline-workflow.md` — wraps the 7-stage QCI workflow with classification gates                  |
+| Memory + vault note | recorded                                                                                                                            |
 
 ## Key separations now enforced
 
@@ -60,12 +59,13 @@ Additional conflation risk: QCI vs quantum cognition (the established field borr
 
 This is the same governance shape applied repeatedly: find a domain where SOURCE canon, MODEL extension, and DERIVED measurement share one vocabulary → build an explicit class contract → wrap the existing workflow with classification gates → give the contract an owning agent. Applied to: bridges (B-classes), collapse (QLS/UCP), and now coherence (QCI C1/C2/C3).
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · AMOS Simulation Kernel v0 Math Foundations · system scan agent · automation profiles
 
----
-**MOC:** references_MOC
----
+______________________________________________________________________
+
+## **MOC:** references_MOC
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -73,12 +73,14 @@ This is the same governance shape applied repeatedly: find a domain where SOURCE
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-rscf-epistemic-master-qci-claim-class-governance
 node_type: reference
 path: 07_SKILLS/amos-rscf-epistemic-master/references/qci_claim_class_governance.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

@@ -1,4 +1,7 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: AMOS MEDICAL CLINICAL KERNEL V0 BIOLOGY COGNITION7
 type: kernel
 source: 11_KNOWLEDGE/kernel
@@ -7,13 +10,13 @@ canon-type: framework
 rscf-state: source-claim
 topic: amos-medical-clinical-kernel-v0
 tags:
-- canon-group/biology
-- canon/framework
-- rscf/claim
-- rscf/provenance
-- rscf/state/source-claim
-- topic/amos-medical-clinical-kernel-v0
-- kernel
+  - canon-group/biology
+  - canon/framework
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - topic/amos-medical-clinical-kernel-v0
+  - kernel
 created: 2026-08-22
 rscf:
   state: SOURCE_CLAIM
@@ -284,6 +287,6 @@ rscf:
 **Related:** [[11_KNOWLEDGE/kernel/LOGIC_KERNEL|LOGIC_KERNEL]] · [[11_KNOWLEDGE/kernel/AMOS_SUPER_FABRICATION_KERNEL|AMOS_SUPER_FABRICATION_KERNEL]] · [[11_KNOWLEDGE/kernel/AMOS_LEGAL_KERNEL|AMOS_LEGAL_KERNEL]] · [[11_KNOWLEDGE/kernel/AMOS_EV_KERNEL|AMOS_EV_KERNEL]]
 ```
 
----
-**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]
+______________________________________________________________________
 
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]

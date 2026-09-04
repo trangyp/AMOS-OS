@@ -18,21 +18,21 @@ conclusion_class: AMOS_MODEL / CONDITIONAL
 source_status: SOURCE_CLAIM
 validation_status: REQUIRES_RUNTIME_REVALIDATION
 tags:
-- agents
-- knowledge
-- vault
-- canon-group/tech-ai
-- canon/protocol
-- rscf/claim
-- rscf/provenance
-- topic/agent-onboarding
-- topic/runtime-governance
-- topic/amos-core
-- validation
-- architecture
-- memory
-- integration
-- workflow
+  - agents
+  - knowledge
+  - vault
+  - canon-group/tech-ai
+  - canon/protocol
+  - rscf/claim
+  - rscf/provenance
+  - topic/agent-onboarding
+  - topic/runtime-governance
+  - topic/amos-core
+  - validation
+  - architecture
+  - memory
+  - integration
+  - workflow
 governing_law: integrity > completeness > fluency > speed > token savings
 rscf:
   state: SOURCE_CLAIM
@@ -53,9 +53,9 @@ rscf:
 > It is a **runtime-governance document**, not evidence that every historical
 > AMOS performance or architecture claim is currently valid.
 
----
+______________________________________________________________________
 
-# 0. ORIGIN / VERSION / EPISTEMIC BOUNDARY
+## 0. ORIGIN / VERSION / EPISTEMIC BOUNDARY
 
 ## 0.1 Origin
 
@@ -75,7 +75,7 @@ promote old benchmark claims into current facts
 confuse framework names with empirical mechanisms
 ```
 
----
+______________________________________________________________________
 
 ## 0.2 Version axes
 
@@ -107,7 +107,7 @@ VERSION:
 
 Do not label this guide itself `v4.4` merely because it targets AMOS_CORE v4.4.
 
----
+______________________________________________________________________
 
 ## 0.3 Historical source claims
 
@@ -145,9 +145,9 @@ timing data
 artifact hash
 ```
 
----
+______________________________________________________________________
 
-# 1. AMOS EPISTEMIC CLASSES
+## 1. AMOS EPISTEMIC CLASSES
 
 Every consequential engineering claim should use the weakest accurate class.
 
@@ -189,9 +189,9 @@ FALSIFIED
 contradicted by executed evidence
 ```
 
----
+______________________________________________________________________
 
-# 2. CORE LAW
+## 2. CORE LAW
 
 ```text
 INTEGRITY
@@ -212,9 +212,9 @@ Do not make the system look complete
 when the evidence says it is partial.
 ```
 
----
+______________________________________________________________________
 
-# 3. PRE-WORK GATE
+## 3. PRE-WORK GATE
 
 Before substantial system work, the agent MUST resolve one authoritative working state.
 
@@ -253,9 +253,9 @@ status = UNKNOWN/GAP
 
 Do not manufacture certainty.
 
----
+______________________________________________________________________
 
-# 4. MANDATORY READING ORDER
+## 4. MANDATORY READING ORDER
 
 Use progressive loading.
 
@@ -278,11 +278,11 @@ RAW IMPLEMENTATION
 Recommended order:
 
 1. This guide.
-2. Current architecture report.
-3. Current AMOS_CORE implementation or authoritative runtime entrypoint.
-4. Tests for the affected subsystem.
-5. Direct dependencies.
-6. Only then broader historical material.
+1. Current architecture report.
+1. Current AMOS_CORE implementation or authoritative runtime entrypoint.
+1. Tests for the affected subsystem.
+1. Direct dependencies.
+1. Only then broader historical material.
 
 Hard rule:
 
@@ -292,9 +292,9 @@ DO_NOT_LOAD_EVERYTHING_BY_DEFAULT
 
 Load only dependencies capable of changing the decision.
 
----
+______________________________________________________________________
 
-# 5. SYSTEM OVERVIEW
+## 5. SYSTEM OVERVIEW
 
 The historical onboarding architecture describes AMOS as:
 
@@ -327,9 +327,9 @@ VALIDATION
 
 Do not assume every named component remains current merely because it appears in an older guide.
 
----
+______________________________________________________________________
 
-# 6. QUANTUM TERMINOLOGY FIREWALL
+## 6. QUANTUM TERMINOLOGY FIREWALL
 
 The predecessor guide uses names such as:
 
@@ -371,9 +371,9 @@ not:
 evidence of phenomenal consciousness
 ```
 
----
+______________________________________________________________________
 
-# 7. QUANTUM CONSCIOUSNESS COMPONENT
+## 7. QUANTUM CONSCIOUSNESS COMPONENT
 
 Historical source interface:
 
@@ -408,7 +408,7 @@ conscious subjective experience
 physical quantum consciousness
 ```
 
----
+______________________________________________________________________
 
 ## 7.2 Runtime verification contract
 
@@ -427,9 +427,9 @@ tests
 benchmark provenance
 ```
 
----
+______________________________________________________________________
 
-# 8. THE 14 HISTORICAL VERTICAL SLICES
+## 8. THE 14 HISTORICAL VERTICAL SLICES
 
 The predecessor guide identifies fourteen slices.
 
@@ -469,9 +469,9 @@ They are preserved as the historical slice registry.
 | S13 | Real Build Detector         | `fake_build_detector.py`       | SOURCE_CLAIM  |
 | S14 | Integration Status Reporter | `integration_status_report.py` | SOURCE_CLAIM  |
 
----
+______________________________________________________________________
 
-# 9. SLICE VALIDATION STATE
+## 9. SLICE VALIDATION STATE
 
 Do not equate:
 
@@ -512,9 +512,9 @@ DEPRECATED
 
 A slice is production-eligible only after required gates pass.
 
----
+______________________________________________________________________
 
-# 10. H / M / L SYSTEM MAP
+## 10. H / M / L SYSTEM MAP
 
 ```text
 H — AMOS system
@@ -550,9 +550,9 @@ cannot exceed
 load-bearing M/L evidence.
 ```
 
----
+______________________________________________________________________
 
-# 11. GOVERNANCE [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]
+## 11. GOVERNANCE [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]
 
 Historical source components:
 
@@ -576,9 +576,9 @@ FINALITY
 AUDIT
 ```
 
----
+______________________________________________________________________
 
-# 12. MEMORY GOVERNANCE
+## 12. MEMORY GOVERNANCE
 
 Memory is persistent state, not truth.
 
@@ -607,9 +607,9 @@ StaleMemory
 → revalidate or quarantine
 ```
 
----
+______________________________________________________________________
 
-# 13. POLICY GATE
+## 13. POLICY GATE
 
 A policy gate should answer:
 
@@ -633,9 +633,9 @@ ScopeValid(a)
 ∧ RiskValid(a)
 ```
 
----
+______________________________________________________________________
 
-# 14. COMMIT-TIME FINALITY
+## 14. COMMIT-TIME FINALITY
 
 Pre-flight validation is not enough for mutable state.
 
@@ -658,9 +658,9 @@ ReadSetFresh
 ∧ ConflictFree
 ```
 
----
+______________________________________________________________________
 
-# 15. PROVENANCE
+## 15. PROVENANCE
 
 Every consequential system claim should carry:
 
@@ -686,9 +686,9 @@ of the same source
 independent validation
 ```
 
----
+______________________________________________________________________
 
-# 16. STANDARD INTEGRATION PATTERN
+## 16. STANDARD INTEGRATION PATTERN
 
 The historical guide contains placeholder integration such as:
 
@@ -715,9 +715,9 @@ Therefore:
 cannot count as integration.
 ```
 
----
+______________________________________________________________________
 
-# 17. GOVERNED INTEGRATION CONTRACT
+## 17. GOVERNED INTEGRATION CONTRACT
 
 Use the actual repository APIs.
 
@@ -745,9 +745,9 @@ The exact methods MUST come from repository evidence.
 
 Do not invent `attach_*` APIs if they do not exist.
 
----
+______________________________________________________________________
 
-# 18. OPTIONAL ENHANCEMENT PATTERN
+## 18. OPTIONAL ENHANCEMENT PATTERN
 
 Correct runtime structure:
 
@@ -783,9 +783,9 @@ else:
     result = await classical_path(operation, data)
 ```
 
----
+______________________________________________________________________
 
-# 19. SINGLE-BRAIN PRINCIPLE
+## 19. SINGLE-BRAIN PRINCIPLE
 
 Historical directive:
 
@@ -815,9 +815,9 @@ It requires:
 one governed authority / state lineage
 ```
 
----
+______________________________________________________________________
 
-# 20. USER DIRECTIVE GOVERNANCE
+## 20. USER DIRECTIVE GOVERNANCE
 
 The predecessor guide says:
 
@@ -847,9 +847,9 @@ UserDirectiveCompliance
 BlindCompliance
 ```
 
----
+______________________________________________________________________
 
-# 21. WORKING PRINCIPLES
+## 21. WORKING PRINCIPLES
 
 ```text
 NO FAKE IMPLEMENTATION
@@ -873,9 +873,9 @@ PRESERVE PROVENANCE
 FAIL CLOSED ON UNKNOWN HIGH-IMPACT STATE
 ```
 
----
+______________________________________________________________________
 
-# 22. THINK IN SYSTEMS, NOT FILES
+## 22. THINK IN SYSTEMS, NOT FILES
 
 For every change, identify:
 
@@ -895,9 +895,9 @@ rollback
 
 File-local correctness is insufficient when downstream behavior changes.
 
----
+______________________________________________________________________
 
-# 23. FEATURE COMPLETION MODEL
+## 23. FEATURE COMPLETION MODEL
 
 Historical completion criteria:
 
@@ -935,9 +935,9 @@ When relevant:
 ∧ Rollback
 ```
 
----
+______________________________________________________________________
 
-# 24. FEATURE STATES
+## 24. FEATURE STATES
 
 ```text
 DESIGNED
@@ -961,9 +961,9 @@ IMPLEMENTED
 
 without evidence.
 
----
+______________________________________________________________________
 
-# 25. BEFORE DEVELOPMENT
+## 25. BEFORE DEVELOPMENT
 
 Mandatory:
 
@@ -980,9 +980,9 @@ Mandatory:
 10. Define rollback.
 ```
 
----
+______________________________________________________________________
 
-# 26. DURING DEVELOPMENT
+## 26. DURING DEVELOPMENT
 
 ```text
 1. Make smallest sufficient change.
@@ -995,9 +995,9 @@ Mandatory:
 8. Do not replace a failed path with narrative success.
 ```
 
----
+______________________________________________________________________
 
-# 27. AFTER DEVELOPMENT
+## 27. AFTER DEVELOPMENT
 
 ```text
 1. Run targeted tests.
@@ -1012,9 +1012,9 @@ Mandatory:
 10. Classify result using evidence.
 ```
 
----
+______________________________________________________________________
 
-# 28. EXECUTION PROVENANCE
+## 28. EXECUTION PROVENANCE
 
 Every significant validation run should capture:
 
@@ -1038,9 +1038,9 @@ RUN:
   artifact_hashes:
 ```
 
----
+______________________________________________________________________
 
-# 29. BENCHMARK FORENSICS
+## 29. BENCHMARK FORENSICS
 
 Historical claims include:
 
@@ -1063,9 +1063,9 @@ SOURCE_CLAIM
 
 unless accompanied by benchmark evidence.
 
----
+______________________________________________________________________
 
-# 30. BENCHMARK REQUIREMENTS
+## 30. BENCHMARK REQUIREMENTS
 
 A valid performance claim requires:
 
@@ -1091,9 +1091,9 @@ BENCHMARK:
   timestamp:
 ```
 
----
+______________________________________________________________________
 
-# 31. OPS/SEC FIREWALL
+## 31. OPS/SEC FIREWALL
 
 ```text
 ops/sec
@@ -1115,9 +1115,9 @@ UNSCOPED_METRIC
 
 not a transferable performance guarantee.
 
----
+______________________________________________________________________
 
-# 32. ACCURACY FIREWALL
+## 32. ACCURACY FIREWALL
 
 ```text
 99% accuracy
@@ -1141,9 +1141,9 @@ Without those:
 status = SOURCE_CLAIM
 ```
 
----
+______________________________________________________________________
 
-# 33. EFFICIENCY FIREWALL
+## 33. EFFICIENCY FIREWALL
 
 ```text
 98% efficiency
@@ -1167,9 +1167,9 @@ Without a definition:
 status = UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 34. OVERALL PERFORMANCE SCORE
+## 34. OVERALL PERFORMANCE SCORE
 
 Historical:
 
@@ -1196,9 +1196,9 @@ Otherwise:
 OverallPerformance = SOURCE_CLAIM
 ```
 
----
+______________________________________________________________________
 
-# 35. PRODUCTION-READY GATE
+## 35. PRODUCTION-READY GATE
 
 The old guide says:
 
@@ -1236,9 +1236,9 @@ Without executed evidence:
 ProductionReady = UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 36. ENTERPRISE-GRADE FIREWALL
+## 36. ENTERPRISE-GRADE FIREWALL
 
 The phrase:
 
@@ -1270,9 +1270,9 @@ No measurable contract:
 status = MARKETING_LABEL
 ```
 
----
+______________________________________________________________________
 
-# 37. SYSTEM HEALTH
+## 37. SYSTEM HEALTH
 
 Historical status:
 
@@ -1296,9 +1296,9 @@ Otherwise:
 QUANTUM_OPTIMAL = SOURCE_LABEL
 ```
 
----
+______________________________________________________________________
 
-# 38. PERFORMANCE TARGETS
+## 38. PERFORMANCE TARGETS
 
 Historical future targets:
 
@@ -1327,9 +1327,9 @@ FORECAST
 
 unless justified by a predictive model.
 
----
+______________________________________________________________________
 
-# 39. GOVERNED PERFORMANCE LOOP
+## 39. GOVERNED PERFORMANCE LOOP
 
 ```text
 DEFINE METRIC
@@ -1349,9 +1349,9 @@ REGRESSION CHECK
 PROMOTE OR ROLLBACK
 ```
 
----
+______________________________________________________________________
 
-# 40. IMPORT GUARD
+## 40. IMPORT GUARD
 
 Historical claim:
 
@@ -1377,9 +1377,9 @@ Only then:
 status = VERIFIED_FOR_TESTED_SCOPE
 ```
 
----
+______________________________________________________________________
 
-# 41. STATE MANAGEMENT
+## 41. STATE MANAGEMENT
 
 Historical claim:
 
@@ -1398,9 +1398,9 @@ identities = UNKNOWN/GAP
 
 until recovered from authoritative source.
 
----
+______________________________________________________________________
 
-# 42. MEMORY GOVERNANCE VALIDATION
+## 42. MEMORY GOVERNANCE VALIDATION
 
 Minimum tests:
 
@@ -1415,9 +1415,9 @@ M07 selective invalidation
 M08 rollback
 ```
 
----
+______________________________________________________________________
 
-# 43. POLICY GATE VALIDATION
+## 43. POLICY GATE VALIDATION
 
 Minimum:
 
@@ -1432,9 +1432,9 @@ P07 high-impact escalation
 P08 commit-time revalidation
 ```
 
----
+______________________________________________________________________
 
-# 44. EXTERNAL CLI BRIDGE
+## 44. EXTERNAL CLI BRIDGE
 
 Historical source calls the bridge:
 
@@ -1462,9 +1462,9 @@ tests exercise real path
 
 A class named `FixedClaws` alone does not prove real CLI integration.
 
----
+______________________________________________________________________
 
-# 45. REAL BUILD DETECTOR
+## 45. REAL BUILD DETECTOR
 
 A detector that claims to distinguish real/fake builds should inspect evidence such as:
 
@@ -1481,9 +1481,9 @@ runtime invocation
 
 It MUST NOT classify builds solely from filenames or documentation claims.
 
----
+______________________________________________________________________
 
-# 46. INTEGRATION STATUS REPORTER
+## 46. INTEGRATION STATUS REPORTER
 
 Status reporting is downstream of evidence.
 
@@ -1508,9 +1508,9 @@ DesiredStatus
 → DecorativeEvidence
 ```
 
----
+______________________________________________________________________
 
-# 47. NO-THEATER INVARIANT
+## 47. NO-THEATER INVARIANT
 
 ```text
 DashboardGreen
@@ -1523,24 +1523,28 @@ ReportSaysPass
 !=
 TestsPassed
 ```
+
 ```text
 FileExists
 !=
 FeatureWorks
 ```
+
 ```text
 MethodExists
 !=
 MethodCalled
 ```
+
 ```text
 CodePathExists
 !=
 ProductionPathUsesIt
 ```
----
 
-# 48. INTEGRATION INVARIANT
+______________________________________________________________________
+
+## 48. INTEGRATION INVARIANT
 
 ```text
 Integrated(component)
@@ -1552,9 +1556,9 @@ ReachableFromEntrypoint
 ∧ ErrorPathObserved
 ```
 
----
+______________________________________________________________________
 
-# 49. TESTING INVARIANT
+## 49. TESTING INVARIANT
 
 A test provides evidence only for its tested scope.
 
@@ -1572,9 +1576,9 @@ TestCount
 TestQuality
 ```
 
----
+______________________________________________________________________
 
-# 50. ACCEPTANCE
+## 50. ACCEPTANCE
 
 Acceptance must identify:
 
@@ -1598,9 +1602,9 @@ without that context remains:
 SOURCE_CLAIM
 ```
 
----
+______________________________________________________________________
 
-# 51. RSCF SYSTEM CLAIM
+## 51. RSCF SYSTEM CLAIM
 
 ```yaml
 claim_id: AMOS-ONBOARD-001
@@ -1633,9 +1637,9 @@ confidence_ceiling:
   current_runtime_state: unknown
 ```
 
----
+______________________________________________________________________
 
-# 52. RSCF PERFORMANCE CLAIM
+## 52. RSCF PERFORMANCE CLAIM
 
 ```yaml
 claim_id: AMOS-ONBOARD-PERF-001
@@ -1664,9 +1668,9 @@ confidence_ceiling:
   reproduced_performance: unknown
 ```
 
----
+______________________________________________________________________
 
-# 53. RSCF QUANTUM CLAIM
+## 53. RSCF QUANTUM CLAIM
 
 ```yaml
 claim_id: AMOS-ONBOARD-QUANTUM-001
@@ -1688,9 +1692,9 @@ confidence_ceiling:
   physical_quantum_mechanism: unknown
 ```
 
----
+______________________________________________________________________
 
-# 54. COMPETING HYPOTHESES — PERFORMANCE
+## 54. COMPETING HYPOTHESES — PERFORMANCE
 
 ```text
 H1
@@ -1722,9 +1726,9 @@ raw output
 environment
 ```
 
----
+______________________________________________________________________
 
-# 55. COMPETING HYPOTHESES — QUANTUM COMPONENT
+## 55. COMPETING HYPOTHESES — QUANTUM COMPONENT
 
 ```text
 H1
@@ -1745,9 +1749,9 @@ architectural metaphor
 
 Do not resolve without implementation evidence.
 
----
+______________________________________________________________________
 
-# 56. COMMON FAILURE MODES
+## 56. COMMON FAILURE MODES
 
 ```text
 F01 DOCUMENTATION_AS_RUNTIME_TRUTH
@@ -1770,9 +1774,9 @@ F17 GLOBAL_REWRITE_FOR_LOCAL_FAILURE
 F18 USER_DIRECTIVE_OVER_HIGHER_ORDER_CONSTRAINT
 ```
 
----
+______________________________________________________________________
 
-# 57. FAILURE RECOVERY
+## 57. FAILURE RECOVERY
 
 ```text
 DetectFailure
@@ -1801,9 +1805,9 @@ Do not repeat a failed path
 without changed evidence.
 ```
 
----
+______________________________________________________________________
 
-# 58. SELECTIVE INVALIDATION
+## 58. SELECTIVE INVALIDATION
 
 Example:
 
@@ -1828,9 +1832,9 @@ slice existence
 unrelated tests
 ```
 
----
+______________________________________________________________________
 
-# 59. CONTEXT CONTINUITY
+## 59. CONTEXT CONTINUITY
 
 For long engineering sessions preserve:
 
@@ -1849,9 +1853,9 @@ CONTEXT_STATE:
 
 Do not allow the latest tool result to replace the objective.
 
----
+______________________________________________________________________
 
-# 60. RISK-AWARE ESCALATION
+## 60. RISK-AWARE ESCALATION
 
 Escalate validation depth when change affects:
 
@@ -1878,9 +1882,9 @@ rollback-capable
 
 changes.
 
----
+______________________________________________________________________
 
-# 61. v4.4 FAST-PATH PRINCIPLE
+## 61. v4.4 FAST-PATH PRINCIPLE
 
 Use the smallest sufficient proof scope.
 
@@ -1898,9 +1902,9 @@ rollback is available
 
 Otherwise escalate.
 
----
+______________________________________________________________________
 
-# 62. CAUSAL FIREWALL
+## 62. CAUSAL FIREWALL
 
 Do not confuse:
 
@@ -1928,9 +1932,9 @@ reliability improved
 
 A causal claim requires evidence appropriate to the mechanism.
 
----
+______________________________________________________________________
 
-# 63. PERFORMANCE CHANGE CAUSAL TEST
+## 63. PERFORMANCE CHANGE CAUSAL TEST
 
 To claim:
 
@@ -1960,9 +1964,9 @@ Without this:
 class = HYPOTHESIS
 ```
 
----
+______________________________________________________________________
 
-# 64. TROUBLESHOOTING [[08_WORKFLOWS/law-stack-enforcement-pipeline/WORKFLOW|WORKFLOW]]
+## 64. TROUBLESHOOTING [[08_WORKFLOWS/law-stack-enforcement-pipeline/WORKFLOW|WORKFLOW]]
 
 ## Component unavailable
 
@@ -2008,9 +2012,9 @@ check entrypoint
 → error propagation
 ```
 
----
+______________________________________________________________________
 
-# 65. HELP / ESCALATION
+## 65. HELP / ESCALATION
 
 Before creating a new abstraction:
 
@@ -2025,9 +2029,9 @@ Before creating a new abstraction:
 
 Only create a new module if the existing system cannot satisfy the requirement without violating structure.
 
----
+______________________________________________________________________
 
-# 66. FUTURE ENHANCEMENTS
+## 66. FUTURE ENHANCEMENTS
 
 Historical roadmap:
 
@@ -2057,9 +2061,9 @@ risk model
 promotion gate
 ```
 
----
+______________________________________________________________________
 
-# 67. DEFINITION OF "REAL"
+## 67. DEFINITION OF "REAL"
 
 A component is not “real” merely because code exists.
 
@@ -2081,9 +2085,9 @@ For persistent/consequential components:
 ∧ Recoverable
 ```
 
----
+______________________________________________________________________
 
-# 68. DEFINITION OF "NO MOCKS"
+## 68. DEFINITION OF "NO MOCKS"
 
 Mocks are not inherently invalid in testing.
 
@@ -2103,9 +2107,9 @@ Therefore the stronger rule is:
 
 > Never present a mock, stub, fixture, synthetic response, or placeholder as production evidence.
 
----
+______________________________________________________________________
 
-# 69. DEFINITION OF "NO THEATER"
+## 69. DEFINITION OF "NO THEATER"
 
 Theater occurs when:
 
@@ -2126,9 +2130,9 @@ AI name without model execution
 quantum label without quantum mechanism
 ```
 
----
+______________________________________________________________________
 
-# 70. FINAL PRE-WORK CHECKLIST
+## 70. FINAL PRE-WORK CHECKLIST
 
 Before making substantial AMOS changes:
 
@@ -2151,9 +2155,9 @@ Before making substantial AMOS changes:
 [ ] I will report gaps instead of fabricating closure.
 ```
 
----
+______________________________________________________________________
 
-# 71. FINAL POST-WORK CHECKLIST
+## 71. FINAL POST-WORK CHECKLIST
 
 ```text
 [ ] Implementation complete for declared scope.
@@ -2171,9 +2175,9 @@ Before making substantial AMOS changes:
 [ ] Conclusion class assigned correctly.
 ```
 
----
+______________________________________________________________________
 
-# 72. COMPLETION STATES
+## 72. COMPLETION STATES
 
 ```text
 CODE_COMPLETE
@@ -2191,9 +2195,9 @@ Do not collapse them into:
 DONE
 ```
 
----
+______________________________________________________________________
 
-# 73. CURRENT HISTORICAL CLAIM AUDIT
+## 73. CURRENT HISTORICAL CLAIM AUDIT
 
 Based only on the predecessor onboarding guide:
 
@@ -2236,9 +2240,9 @@ AUDIT:
     class: REJECT_AS_ABSOLUTE
 ```
 
----
+______________________________________________________________________
 
-# 74. FINAL CONCLUSION
+## 74. FINAL CONCLUSION
 
 The predecessor onboarding guide contains a useful structural core:
 
@@ -2269,9 +2273,9 @@ The AMOS v4.4-aligned rule is:
 
 > **No claim may exceed its evidence, no implementation may exceed its authority, and no local success may be promoted into system-level completion without dependency-closed validation.**
 
----
+______________________________________________________________________
 
-# 75. RSCF NODE
+## 75. RSCF NODE
 
 ```yaml
 node_id: AMOS_AGENT_ONBOARDING_V3
@@ -2328,9 +2332,9 @@ confidence_ceiling:
   production_readiness: unknown
 ```
 
----
+______________________________________________________________________
 
-# 76. CHANGELOG
+## 76. CHANGELOG
 
 ## v3.0.0 — 2026-08-25
 
@@ -2384,9 +2388,9 @@ integration-first workflow
 historical performance claims
 ```
 
----
+______________________________________________________________________
 
-# 77. FINAL RULE
+## 77. FINAL RULE
 
 ```text
 SOURCE CLAIM
@@ -2417,22 +2421,26 @@ CALL VERIFIED
 ```
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: agent_onboarding_guide
 node_type: note
 path: 11_KNOWLEDGE/AGENT_ONBOARDING_GUIDE.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]]

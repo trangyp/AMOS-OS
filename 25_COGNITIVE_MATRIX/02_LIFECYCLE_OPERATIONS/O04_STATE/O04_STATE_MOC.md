@@ -1,10 +1,13 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: O04 State MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O04_STATE
 tags:
-- o04-state
-- domain/cognitive-matrix
+  - o04-state
+  - domain/cognitive-matrix
 moc: true
 rscf:
   state: DERIVED
@@ -45,5 +48,6 @@ rscf:
 
 - [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]] — 00_INDEX
 
----
+______________________________________________________________________
+
 **Parent:** [[25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/02_LIFECYCLE_OPERATIONS_MOC|02_LIFECYCLE_OPERATIONS_MOC]]

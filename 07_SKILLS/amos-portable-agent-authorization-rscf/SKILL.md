@@ -4,25 +4,22 @@ title: SKILL — Amos Portable Agent Authorization Rscf
 type: skill
 source: 07_SKILLS/amos-portable-agent-authorization-rscf
 name: amos-portable-agent-authorization-rscf
-description: Portable Agent Authorization — agent systems capability. Use when agent
-  design, delegation reasoning, or multi-agent governance. Use when amos-agent-systems-master
-  routes to this specialized capability. Do not use for generic tasks outside agent
-  domain.
+description: Portable Agent Authorization — agent systems capability. Use when agent design, delegation reasoning, or multi-agent governance. Use when amos-agent-systems-master routes to this specialized capability. Do not use for generic tasks outside agent domain.
 parent_skill: amos-agent-systems-master
 domain: agent
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
 tags:
-- type/skill
-- type/skill
-- domain/agent-systems
-- epistemic/source_claim
-- hml/m
-- epistemic/source_claim
-- amos-os
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/agent-systems
+  - epistemic/source_claim
+  - hml/m
+  - epistemic/source_claim
+  - amos-os
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -32,23 +29,23 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: M
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
-- L7_authority
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
+  - L7_authority
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L7
-- L16
-- L17
-- L18
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L7
+  - L16
+  - L17
+  - L18
 license: MIT
 steward: Trang Phan
 ---
@@ -58,6 +55,7 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: agent. Parent: amos-agent-systems-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
 ## When to Use
 
 - When governing agency: who acts, under what authority, consequences
@@ -84,13 +82,13 @@ Origin architect: **Trang Phan**. Domain: agent. Parent: amos-agent-systems-mast
 ## Operations
 
 1. **portable_agent.govern_agency**: Govern agency: who acts, under what authority, with what consequences
-2. **portable_agent.design_externalization**: Design agent externalization: what is delegated, to whom, with what controls
-3. **portable_agent.attribute_ownership**: Attribute agent ownership: who is responsible for each agent action
-4. **portable_agent.verify_agentic**: Verify agentic skill-lie algebroid: structural consistency of agent capabilities
-5. **portable_agent.validate_delegation**: Validate delegation witness: temporal, revocable, attenuation-bound
-6. **portable_agent.detect_drift**: Detect drift in authorization chains, delegation validity, or trust contracts
-7. **portable_agent.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-8. **portable_agent.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+1. **portable_agent.design_externalization**: Design agent externalization: what is delegated, to whom, with what controls
+1. **portable_agent.attribute_ownership**: Attribute agent ownership: who is responsible for each agent action
+1. **portable_agent.verify_agentic**: Verify agentic skill-lie algebroid: structural consistency of agent capabilities
+1. **portable_agent.validate_delegation**: Validate delegation witness: temporal, revocable, attenuation-bound
+1. **portable_agent.detect_drift**: Detect drift in authorization chains, delegation validity, or trust contracts
+1. **portable_agent.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+1. **portable_agent.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## Vault-Sourced Domain Knowledge
 
@@ -107,6 +105,7 @@ Temporal, revocable, attenuation-bound delegation closing the zombie-agent probl
 ### Enforcement Trust Contract (v43)
 
 16-field contract binding authority to the entire enforcement chain:
+
 - Control plane, policy artifact + signer + compiler, refmon, runtime/kernel
 - Workload, egress guard, epochs, delegation parent + attenuation
 - Independence root, agent-write exclusion, release ledger
@@ -140,7 +139,8 @@ Enforcement trust contracts are AMOS_MODEL validated through synthetic fuzz test
 - **G1 (Law of Law)**: No unresolved contradictions within the skill's scope.
 - **G2 (Epistemic class)**: All claims labeled SOURCE / DERIVED / AMOS_MODEL / EMPIRICAL — never claim beyond
 
----
+______________________________________________________________________
+
 **Links:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 ## Related
@@ -150,17 +150,19 @@ Enforcement trust contracts are AMOS_MODEL validated through synthetic fuzz test
 ## Examples
 
 - **Scenario**: When governing agency: who acts, under what authority, consequences
+
   - **Input**: A query matching this skill's domain (agent)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When designing agent externalization: delegation and controls
+
   - **Input**: A query matching this skill's domain (agent)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When attributing agent ownership and responsibility
+
   - **Input**: A query matching this skill's domain (agent)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Anti-Patterns
 
@@ -170,7 +172,6 @@ Enforcement trust contracts are AMOS_MODEL validated through synthetic fuzz test
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `amos-agent-systems-master` — routes to this skill when agent specialization is needed
@@ -178,7 +179,6 @@ Enforcement trust contracts are AMOS_MODEL validated through synthetic fuzz test
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -197,7 +197,6 @@ Enforcement trust contracts are AMOS_MODEL validated through synthetic fuzz test
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -205,7 +204,6 @@ Enforcement trust contracts are AMOS_MODEL validated through synthetic fuzz test
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -218,11 +216,12 @@ Enforcement trust contracts are AMOS_MODEL validated through synthetic fuzz test
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `amos-agent-systems-master` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `amos-portable-agent-authorization-rscf-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -230,12 +229,14 @@ Enforcement trust contracts are AMOS_MODEL validated through synthetic fuzz test
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-portable-agent-authorization-rscf
 node_type: skill
 path: 07_SKILLS/amos-portable-agent-authorization-rscf/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

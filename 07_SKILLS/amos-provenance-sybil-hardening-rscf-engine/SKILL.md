@@ -4,25 +4,22 @@ title: SKILL — Amos Provenance Sybil Hardening Rscf Engine
 type: skill
 source: 07_SKILLS/amos-provenance-sybil-hardening-rscf-engine
 name: amos-provenance-sybil-hardening-rscf-engine
-description: Provenance Sybil Hardening — security and safety capability. Use when
-  security analysis, safety verification, or adversarial defense. Use when amos-security-safety-master
-  routes to this specialized capability. Do not use for generic tasks outside security
-  domain.
+description: Provenance Sybil Hardening — security and safety capability. Use when security analysis, safety verification, or adversarial defense. Use when amos-security-safety-master routes to this specialized capability. Do not use for generic tasks outside security domain.
 parent_skill: amos-security-safety-master
 domain: security
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
 tags:
-- type/skill
-- type/skill
-- domain/security-safety
-- epistemic/source_claim
-- hml/h
-- epistemic/source_claim
-- amos-os
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/security-safety
+  - epistemic/source_claim
+  - hml/h
+  - epistemic/source_claim
+  - amos-os
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -32,25 +29,25 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: H
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
-- L7_authority
-- L23_mvcc_cas
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
+  - L7_authority
+  - L23_mvcc_cas
 collapse_class: fail_closed
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L7
-- L16
-- L17
-- L18
-- L23
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L7
+  - L16
+  - L17
+  - L18
+  - L23
 license: MIT
 steward: Trang Phan
 ---
@@ -60,6 +57,7 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: security. Parent: amos-security-safety-master. Epistemic class: SOURCE_CLAIM. H/M/L: H.
+
 ## When to Use
 
 - When detecting adversarial activity: attacks, probes, manipulation
@@ -85,13 +83,13 @@ Origin architect: **Trang Phan**. Domain: security. Parent: amos-security-safety
 ## Operations
 
 1. **provenance_sybil.detect_adversary**: Detect adversarial activity: attacks, probes, and manipulation attempts
-2. **provenance_sybil.quantify_entropy**: Quantify adversarial entropy: uncertainty, information leakage, and attack surface
-3. **provenance_sybil.govern_trust**: Govern principal-trust relationships: delegation, revocation, and audit
-4. **provenance_sybil.monitor_attack**: Monitor distributed attack composition: multi-stage, multi-vector threats
-5. **provenance_sybil.replay_provenance**: Replay execution provenance: trace and verify every action for integrity
-6. **provenance_sybil.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-7. **provenance_sybil.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
-8. **provenance_sybil.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+1. **provenance_sybil.quantify_entropy**: Quantify adversarial entropy: uncertainty, information leakage, and attack surface
+1. **provenance_sybil.govern_trust**: Govern principal-trust relationships: delegation, revocation, and audit
+1. **provenance_sybil.monitor_attack**: Monitor distributed attack composition: multi-stage, multi-vector threats
+1. **provenance_sybil.replay_provenance**: Replay execution provenance: trace and verify every action for integrity
+1. **provenance_sybil.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+1. **provenance_sybil.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+1. **provenance_sybil.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## Vault-Sourced Content
 
@@ -99,39 +97,46 @@ Origin architect: **Trang Phan**. Domain: security. Parent: amos-security-safety
 
 > Path: `misc/V/V3_7_1.md` | Size: 1467 chars | Match score: 9 | content_hash: 497a4dd5c70d0081
 
-# v3.7.1 — Provenance Topology Hardened Runtime
+## v3.7.1 — Provenance Topology Hardened Runtime
 
 ## Focus
+
 - root-content fingerprints
 - Sybil alias collapse
 - cycle/missing-parent/equivocation rejection
 
 ## Known gap at this version
+
 Recursive Python traversal failed around depth ~3000.
 
 ## Brain adaptation
+
 Treat this runtime stage as a loadable reasoning capability. Preserve the later lineage improvements; never regress to an earlier weakness when a later module corrects it.
 
 ## Benchmark record
+
 > **Reference**: See `references/sybil_hardening_spec.md` (content_hash: 5dacd8a6a7b937d4) for the JSON specification.
 
 Benchmark claims are bounded to the recorded test corpus/environment and must not be generalized universally.
 
----
+______________________________________________________________________
 
----
+______________________________________________________________________
 
 ### Source 2: AMOS Provenance and Trust
 
 > Path: `brain/P/PROVENANCE (AMOS_MD_BRAIN).md` | Size: 1161 chars | Match score: 9 | content_hash: e6058f84799a8578
 
-# AMOS Provenance and Trust
+## AMOS Provenance and Trust
 
 ## Trust is local
+
 Trust is typed, scoped, provenance-aware, regime-aware, and freshness-bounded.
 
 ## Evidence identity
+
 Track when material:
+
 - source identity
 - source type
 - parent/ancestor source
@@ -141,26 +146,30 @@ Track when material:
 - independence status
 
 ## Sybil hardening
+
 Multiple documents, posts, agents, or summaries descending from the same origin count as correlated support, not independent confirmation.
 
 Authority, popularity, repetition, or paraphrase do not prove independence.
 
 ## Independence test
+
 Before aggregating support ask:
+
 1. Do sources share a parent?
-2. Do they share a dataset, benchmark, fixture, model output, or press release?
-3. Is one merely summarizing another?
-4. Were they independently measured?
-5. Do they fail independently?
+1. Do they share a dataset, benchmark, fixture, model output, or press release?
+1. Is one merely summarizing another?
+1. Were they independently measured?
+1. Do they fail independently?
 
 If unknown, mark provenance independence as uncertain.
 
 ## Freshness
+
 A stale source can remain historically accurate but lose applicability in a changed regime.
 
----
+______________________________________________________________________
 
----
+______________________________________________________________________
 
 ### Source 3: AMOS_CORE v3.9 — Persistent Incremental Provenance Runtime
 
@@ -170,16 +179,18 @@ A stale source can remain historically accurate but lose applicability in a chan
 AMOS_CORE v3 – Deterministic Reasoning Kernel (Clean Single-File Version)
 
 Status:
+
 - Executable Python module (no external dependencies beyond stdlib).
 - Canon-aligned structure with:
-    - Core-19 logic + rewrite system
-    - Knowledge base + entailment + contradiction detection
+  - Core-19 logic + rewrite system
+  - Knowledge base + entailment + contradiction detection
 - TSS-style system state
-    - Task + engine API
-- Minimal translation layer (NL <-> logic stubs)
-    - D
+  - Task + engine API
+- Minimal translation layer (NL \<-> logic stubs)
+  - D
 
----
+______________________________________________________________________
+
 **Links:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 ## Related
@@ -189,17 +200,19 @@ Status:
 ## Examples
 
 - **Scenario**: When detecting adversarial activity: attacks, probes, manipulation
+
   - **Input**: A query matching this skill's domain (security)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When quantifying adversarial entropy and attack surface
+
   - **Input**: A query matching this skill's domain (security)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When governing principal-trust relationships: delegation, revocation
+
   - **Input**: A query matching this skill's domain (security)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Validation Gates
 
@@ -216,7 +229,6 @@ Status:
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `amos-security-safety-master` — routes to this skill when security specialization is needed
@@ -224,7 +236,6 @@ Status:
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -243,7 +254,6 @@ Status:
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -251,7 +261,6 @@ Status:
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -264,11 +273,12 @@ Status:
 
 - `references/references_MOC.md` — loaded on demand
 - `references/sybil_hardening_spec.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `amos-security-safety-master` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `amos-provenance-sybil-hardening-rscf-engine-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -276,12 +286,14 @@ Status:
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-provenance-sybil-hardening-rscf-engine
 node_type: skill
 path: 07_SKILLS/amos-provenance-sybil-hardening-rscf-engine/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

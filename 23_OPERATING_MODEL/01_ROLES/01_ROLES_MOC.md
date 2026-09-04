@@ -1,32 +1,51 @@
 ---
-title: 01 Roles MOC
-type: moc
-source: 23_OPERATING_MODEL/01_ROLES
-tags:
-- 01-roles
-- canon/operating-model
-moc: true
+title: "01 Roles Moc — Plane Governance Specification"
+type: specification
+source: 23_OPERATING_MODEL
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
+status: ACTIVE_SPECIFICATION
+epistemic_class: AMOS_MODEL
+conclusion_class: DERIVED
 rscf:
   state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  claim_class: AMOS_MODEL
+  provenance:
+    - 00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE
+    - 00_ROOT/00_ROOT_MOC
+  scope: plane_governance
+tags:
+  - amos-os
+  - 23-operating-model
+  - specification
+  - 01-roles-moc
 ---
 
-# 01 Roles — Map of Content
+# 01 Roles Moc — Plane Governance Specification
 
-**Path:** `23_OPERATING_MODEL/01_ROLES`
-**Files:** 3 | **Subdirectories:** 1
-
-## Files
-
-- [[23_OPERATING_MODEL/01_ROLES/OPERATING_MODEL_ROLES_CONTRACT|OPERATING_MODEL_ROLES_CONTRACT]]
-- [[23_OPERATING_MODEL/01_ROLES/ROLES_OPERATING_MODEL_README|ROLES_OPERATING_MODEL_README]]
-- [[23_OPERATING_MODEL/01_ROLES/ROLE_REGISTRY|ROLE_REGISTRY]]
-
-## Subdirectories
-
-- [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]] — 00_INDEX
+> **Origin Architect / Steward:** Trang Phan  
+> **AMOS_CORE Target:** `v4.4`  
+> **Conclusion Class:** `AMOS_MODEL`  
+> **Status:** `ACTIVE_SPECIFICATION`
 
 ---
-**Parent:** [[23_OPERATING_MODEL/23_OPERATING_MODEL_MOC|23_OPERATING_MODEL_MOC]]
+
+## 1. Architectural Scope
+
+`01_ROLES_MOC` defines the typed contracts, invariants, and operational procedures for `23_OPERATING_MODEL` within the AMOS Full OS MECE architecture.
+
+---
+
+## 2. Governing Invariants
+
+- **Axiom Adherence:** Strictly bound by M01–M20 core laws.
+- **Fail-Closed Execution:** Rejects unverified or malformed inputs into the rollback basin.
+- **Immutable Receipts:** Emits auditable trace logs to `17_OBSERVABILITY`.
+
+---
+
+## 3. Navigation & Bindings
+
+- **Master MOC:** [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]
+- **Partition Architecture:** [[00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE|FULL_BRAIN_OS_MECE_ARCHITECTURE]]

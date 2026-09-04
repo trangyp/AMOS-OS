@@ -1,17 +1,20 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: L01 SENSING OBSERVATION PRIMITIVES COGNITIVE MATRIX MEMORY
 type: memory
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION
 tags:
-- amos
-- cognitive-matrix
-- matrix/l01
-- sensing-observation
-- memory
-- provenance
-- temporal-integrity
-- rscf
-- domain/cognitive-matrix
+  - amos
+  - cognitive-matrix
+  - matrix/l01
+  - sensing-observation
+  - memory
+  - provenance
+  - temporal-integrity
+  - rscf
+  - domain/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL
@@ -31,9 +34,9 @@ rscf:
 
 > **Epistemic boundary:** this document defines the proposed memory contract for `L01_SENSING_OBSERVATION`. It specifies how observation records may be retained, retrieved, updated, superseded, invalidated, and passed downstream without converting remembered observations into current observations or verified reality. Exact L01 memory semantics remain subject to direct-canon confirmation and executable validation.
 
----
+______________________________________________________________________
 
-# 0. Purpose
+## 0. Purpose
 
 `L01_SENSING_OBSERVATION/MEMORY.md` defines the AMOS contract for retaining observation state after acquisition.
 
@@ -58,31 +61,31 @@ whether it can safely be reused
 
 The core boundary is:
 
-[
-\boxed{
+\[
+\\boxed{
 RememberedObservation
-\neq
+\\neq
 CurrentObservation
 }
-]
+\]
 
 and:
 
-[
-\boxed{
+\[
+\\boxed{
 StoredObservation
-\neq
+\\neq
 Reality
 }
-]
+\]
 
 Memory preserves evidence about prior observation states.
 
 It does not create new observational evidence merely by retaining or retrieving them.
 
----
+______________________________________________________________________
 
-# 1. Source / Canon References
+## 1. Source / Canon References
 
 ## 1.1 Origin
 
@@ -167,15 +170,15 @@ MEMORY MODEL
 IMPLEMENTED MEMORY SYSTEM
 ```
 
----
+______________________________________________________________________
 
-# 2. Definition
+## 2. Definition
 
 `L01 Observation Memory` is the provenance-bound retained representation of a previously acquired observation state.
 
 Define:
 
-[
+\[
 M_O =
 (
 id,
@@ -193,7 +196,7 @@ e,
 v,
 d
 )
-]
+\]
 
 where:
 
@@ -222,9 +225,9 @@ value
 
 but a typed evidence-bearing state.
 
----
+______________________________________________________________________
 
-# 3. Scope
+## 3. Scope
 
 This contract governs memory for:
 
@@ -277,9 +280,9 @@ long-term belief formation
 
 unless those mechanisms consume L01 observation records.
 
----
+______________________________________________________________________
 
-# 4. Typed Inputs
+## 4. Typed Inputs
 
 ```yaml
 ObservationMemoryWriteInput:
@@ -367,9 +370,9 @@ ObservationMemoryReadInput:
     type: RetrievalPurpose
 ```
 
----
+______________________________________________________________________
 
-# 5. Typed Outputs
+## 5. Typed Outputs
 
 ```yaml
 ObservationMemoryRecord:
@@ -477,9 +480,9 @@ ObservationMemoryReadResult:
       - UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 6. State Variables
+## 6. State Variables
 
 ```text
 M = observation-memory state
@@ -521,10 +524,10 @@ X = retrieval context
 
 Memory tensor:
 
-[
-\boxed{
+\[
+\\boxed{
 T_M =
-T[
+T\[
 memory,
 observation,
 source,
@@ -538,13 +541,13 @@ uncertainty,
 provenance,
 epistemic_class,
 lifecycle
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 7. Memory Lifecycle
+## 7. Memory Lifecycle
 
 Proposed lifecycle:
 
@@ -582,9 +585,9 @@ TOMBSTONE / RETENTION ACTION
 
 No lifecycle transition implies that the original observation itself has changed historically.
 
----
+______________________________________________________________________
 
-# 8. Operators
+## 8. Operators
 
 Candidate memory operators:
 
@@ -636,19 +639,19 @@ REOBSERVE
 RESTORE
 ```
 
----
+______________________________________________________________________
 
-# 9. WRITE
+## 9. WRITE
 
 Conceptually:
 
-[
-\boxed{
+\[
+\\boxed{
 WRITE(O,C)
-\rightarrow
+\\rightarrow
 M_O
 }
-]
+\]
 
 only when memory admission requirements are satisfied.
 
@@ -667,17 +670,17 @@ epistemic class
 validation state
 ```
 
----
+______________________________________________________________________
 
-# 10. READ
+## 10. READ
 
-[
-\boxed{
+\[
+\\boxed{
 READ(M,q)
-\rightarrow
+\\rightarrow
 R
 }
-]
+\]
 
 where retrieval must return the record with its validity envelope.
 
@@ -693,13 +696,13 @@ context discarded
 
 when discarded context can alter interpretation.
 
----
+______________________________________________________________________
 
-# 11. RETRIEVE
+## 11. RETRIEVE
 
 Retrieval should conceptually depend on:
 
-[
+\[
 R =
 f(
 relevance,
@@ -711,7 +714,7 @@ quality,
 freshness,
 authority
 )
-]
+\]
 
 This is an AMOS MODEL, not a mandated numerical ranking equation.
 
@@ -731,9 +734,9 @@ CURRENT
 AUTHORIZED FOR USE
 ```
 
----
+______________________________________________________________________
 
-# 12. SUPERSEDE
+## 12. SUPERSEDE
 
 When corrected or newer evidence replaces an older record:
 
@@ -749,17 +752,17 @@ The old record should normally remain historically traceable.
 
 Thus:
 
-[
-\boxed{
+\[
+\\boxed{
 Supersede(M)
-\neq
+\\neq
 EraseHistory(M)
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 13. INVALIDATE
+## 13. INVALIDATE
 
 Invalidation marks a memory record as no longer admissible for its previous use.
 
@@ -779,9 +782,9 @@ which validator
 which dependents were affected
 ```
 
----
+______________________________________________________________________
 
-# 14. QUARANTINE
+## 14. QUARANTINE
 
 Quarantine isolates uncertain or suspicious observation memory without falsely deleting or validating it.
 
@@ -795,19 +798,19 @@ DISCRIMINATING EVIDENCE
 RESTORE / INVALIDATE / REVOKE
 ```
 
----
+______________________________________________________________________
 
-# 15. REOBSERVE
+## 15. REOBSERVE
 
 Historical memory may trigger a request for new observation.
 
-[
-\boxed{
+\[
+\\boxed{
 REOBSERVE(M_O)
-\rightarrow
-O_{new}
+\\rightarrow
+O\_{new}
 }
-]
+\]
 
 Crucially:
 
@@ -819,9 +822,9 @@ is a new observation.
 
 It must not silently overwrite the historical observation identity.
 
----
+______________________________________________________________________
 
-# 16. Core Memory Invariants
+## 16. Core Memory Invariants
 
 Minimum proposed invariant registry:
 
@@ -848,35 +851,35 @@ L01-MEM-INV-019  Provenance Independence
 L01-MEM-INV-020  Repair History Preservation
 ```
 
----
+______________________________________________________________________
 
-# 17. Memory != Observation Event
+## 17. Memory != Observation Event
 
 The stored representation of an observation is not the original observation event.
 
-[
-\boxed{
+\[
+\\boxed{
 M(O)
-\neq
-O_{event}
+\\neq
+O\_{event}
 }
-]
+\]
 
 Memory is a representation of evidence from that event.
 
----
+______________________________________________________________________
 
-# 18. Memory != Current Reality
+## 18. Memory != Current Reality
 
 Core invariant:
 
-[
-\boxed{
+\[
+\\boxed{
 M_t(x)
-\not\Rightarrow
-Reality_{now}(x)
+\\not\\Rightarrow
+Reality\_{now}(x)
 }
-]
+\]
 
 Example:
 
@@ -891,25 +894,25 @@ DOES NOT IMPLY:
 
 unless current evidence supports it.
 
----
+______________________________________________________________________
 
-# 19. Retrieval != Reobservation
+## 19. Retrieval != Reobservation
 
-[
-\boxed{
+\[
+\\boxed{
 Retrieve(M)
-\neq
+\\neq
 ObserveAgain(Environment)
 }
-]
+\]
 
 A retrieval operation provides historical evidence.
 
 It does not constitute fresh sensing.
 
----
+______________________________________________________________________
 
-# 20. Historical != Current
+## 20. Historical != Current
 
 Every observation memory must preserve its temporal envelope.
 
@@ -923,27 +926,27 @@ A memory can be current as a **record** while stale as evidence about the **envi
 
 This distinction must remain explicit.
 
----
+______________________________________________________________________
 
-# 21. Provenance Preservation
+## 21. Provenance Preservation
 
-For memory record \(M_O\):
+For memory record (M_O):
 
-[
-\boxed{
+\[
+\\boxed{
 P(M_O)
-\supseteq
+\\supseteq
 P(O)
 }
-]
+\]
 
 conceptually through lineage.
 
 Memory transformation must not sever source ancestry.
 
----
+______________________________________________________________________
 
-# 22. Temporal Preservation
+## 22. Temporal Preservation
 
 Store separately when available:
 
@@ -958,9 +961,9 @@ revalidation time
 
 These times must not be silently collapsed into one timestamp.
 
----
+______________________________________________________________________
 
-# 23. Scope Preservation
+## 23. Scope Preservation
 
 A remembered local observation remains local unless broader evidence exists.
 
@@ -974,9 +977,9 @@ MEMORY:
 system globally was X
 ```
 
----
+______________________________________________________________________
 
-# 24. Regime Preservation
+## 24. Regime Preservation
 
 Memory must preserve the regime under which an observation was made when regime matters.
 
@@ -990,9 +993,9 @@ UNKNOWN
 
 Historical observations from incompatible regimes require explicit handling before reuse.
 
----
+______________________________________________________________________
 
-# 25. Epistemic-Class Preservation
+## 25. Epistemic-Class Preservation
 
 Memory must preserve:
 
@@ -1006,17 +1009,17 @@ UNKNOWN
 
 A record does not become stronger because it has been stored for a long time or repeatedly retrieved.
 
-[
-\boxed{
+\[
+\\boxed{
 Repetition
-\neq
+\\neq
 Validation
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 26. Uncertainty Preservation
+## 26. Uncertainty Preservation
 
 Memory storage must not silently remove uncertainty.
 
@@ -1038,9 +1041,9 @@ not:
 memory uncertainty = zero
 ```
 
----
+______________________________________________________________________
 
-# 27. H/M/L Preservation
+## 27. H/M/L Preservation
 
 Memory must retain scale when material.
 
@@ -1060,9 +1063,9 @@ H
 
 without a valid transformation path.
 
----
+______________________________________________________________________
 
-# 28. Contradiction Preservation
+## 28. Contradiction Preservation
 
 If two retained observations conflict:
 
@@ -1081,9 +1084,9 @@ X + NOT X
 
 into an unsupported consensus.
 
----
+______________________________________________________________________
 
-# 29. Supersession Traceability
+## 29. Supersession Traceability
 
 Corrected observations should use explicit lineage:
 
@@ -1108,9 +1111,9 @@ replay
 repair analysis
 ```
 
----
+______________________________________________________________________
 
-# 30. Selective Invalidation
+## 30. Selective Invalidation
 
 Suppose:
 
@@ -1133,20 +1136,17 @@ invalidate:
 
 but preserve unrelated state.
 
-[
-\boxed{
-Invalidation
-============
+## \[ \\boxed{ Invalidation
 
 AffectedDependencyClosure
 }
-]
+\]
 
 rather than indiscriminate deletion.
 
----
+______________________________________________________________________
 
-# 31. Authority Separation
+## 31. Authority Separation
 
 A memory subsystem may technically support:
 
@@ -1161,17 +1161,17 @@ share
 
 without having authority to perform all of them.
 
-[
-\boxed{
+\[
+\\boxed{
 Capability
-\neq
+\\neq
 Authority
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 32. Proposal / Commit Separation
+## 32. Proposal / Commit Separation
 
 Memory-write proposal:
 
@@ -1187,17 +1187,17 @@ COMMIT_WRITE(M)
 
 where durable or governed persistence requires authorization.
 
-[
-\boxed{
+\[
+\\boxed{
 Proposal
-\neq
+\\neq
 Commit
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 33. Unknown Preservation
+## 33. Unknown Preservation
 
 Unknown values remain unknown.
 
@@ -1223,9 +1223,9 @@ CURRENT
 
 without evidence.
 
----
+______________________________________________________________________
 
-# 34. Simulation Separation
+## 34. Simulation Separation
 
 Memory must preserve whether content originated from:
 
@@ -1240,19 +1240,19 @@ model inference
 
 Thus:
 
-[
-\boxed{
+\[
+\\boxed{
 SimulationMemory
-\neq
+\\neq
 ObservationMemory
 }
-]
+\]
 
 even if both use the same storage substrate.
 
----
+______________________________________________________________________
 
-# 35. Provenance Independence
+## 35. Provenance Independence
 
 Copies of one observation do not create independent evidence.
 
@@ -1266,17 +1266,17 @@ M3 ← summary(M2)
 
 then these may still represent one provenance family.
 
-[
-\boxed{
-N_{effective}
-\le
-N_{demonstrated\ independent\ provenance\ families}
+\[
+\\boxed{
+N\_{effective}
+\\le
+N\_{demonstrated\\ independent\\ provenance\\ families}
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 36. Repair History Preservation
+## 36. Repair History Preservation
 
 Repair must preserve:
 
@@ -1291,9 +1291,9 @@ whether restoration occurred
 
 Repair without traceability weakens memory integrity.
 
----
+______________________________________________________________________
 
-# 37. Dependencies
+## 37. Dependencies
 
 Primary dependencies:
 
@@ -1329,9 +1329,9 @@ OBSERVATION MEMORY
 LATER COGNITIVE PRIMITIVES
 ```
 
----
+______________________________________________________________________
 
-# 38. H/M/L Applicability
+## 38. H/M/L Applicability
 
 ## L — Local Memory
 
@@ -1399,37 +1399,37 @@ stale system state
 global overgeneralization
 ```
 
----
+______________________________________________________________________
 
-# 39. Cross-Scale Memory Rule
+## 39. Cross-Scale Memory Rule
 
 Conceptually:
 
-[
+\[
 M_L
-\xrightarrow{A_{L\rightarrow M}}
+\\xrightarrow{A\_{L\\rightarrow M}}
 M_M
-\xrightarrow{A_{M\rightarrow H}}
+\\xrightarrow{A\_{M\\rightarrow H}}
 M_H
-]
+\]
 
 but:
 
-[
-\boxed{
+\[
+\\boxed{
 M_H
-\neq
-\sum M_L
+\\neq
+\\sum M_L
 }
-]
+\]
 
 in any simplistic sense.
 
 Aggregation requires explicit semantics and must preserve decision-relevant exceptions.
 
----
+______________________________________________________________________
 
-# 40. Control-Plane Requirements
+## 40. Control-Plane Requirements
 
 The control plane should own or govern:
 
@@ -1452,30 +1452,27 @@ commit eligibility
 
 The memory worker must not self-grant persistence authority.
 
----
+______________________________________________________________________
 
-# 41. Memory Admission Gate
+## 41. Memory Admission Gate
 
 Conceptually:
 
-[
-\boxed{
-Admit(M)
-========
+## \[ \\boxed{ Admit(M)
 
 Typed
-\land
+\\land
 ProvenanceBound
-\land
+\\land
 ScopeBound
-\land
+\\land
 TimeBound
-\land
+\\land
 PolicyAllowed
-\land
+\\land
 AuthorityValid
 }
-]
+\]
 
 If a required term is unresolved:
 
@@ -1487,40 +1484,37 @@ QUARANTINE / CONDITIONAL / REJECT
 
 rather than automatic validation.
 
----
+______________________________________________________________________
 
-# 42. Retrieval Gate
+## 42. Retrieval Gate
 
 Conceptually:
 
-[
-\boxed{
-Reusable(M,C)
-=============
+## \[ \\boxed{ Reusable(M,C)
 
 Relevant(M,C)
-\land
+\\land
 ScopeCompatible
-\land
+\\land
 RegimeCompatible
-\land
+\\land
 FreshEnough
-\land
+\\land
 ProvenanceValid
-\land
+\\land
 AuthorityValid
-\land
-\neg Revoked
+\\land
+\\neg Revoked
 }
-]
+\]
 
 This is an AMOS MODEL gate.
 
 It is not claimed as an implemented runtime equation.
 
----
+______________________________________________________________________
 
-# 43. Freshness
+## 43. Freshness
 
 Freshness is purpose-dependent.
 
@@ -1537,24 +1531,21 @@ UNKNOWN_FRESHNESS
 
 Conceptually:
 
-[
-\boxed{
-ValidNow
-========
+## \[ \\boxed{ ValidNow
 
 ValidThen
-\land
+\\land
 RegimeCompatible
-\land
+\\land
 FreshEnough
-\land
-\neg FalsifierTriggered
+\\land
+\\neg FalsifierTriggered
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 44. Retention
+## 44. Retention
 
 Retention should depend on:
 
@@ -1580,9 +1571,9 @@ UNKNOWN/GAP
 
 until domain/control-plane policy specifies it.
 
----
+______________________________________________________________________
 
-# 45. Compaction
+## 45. Compaction
 
 Memory may be compacted only if decision-relevant information survives.
 
@@ -1603,17 +1594,17 @@ supersession state
 
 Thus:
 
-[
-\boxed{
+\[
+\\boxed{
 Compact(M)
-\Rightarrow
+\\Rightarrow
 PreserveLoadBearingState(M)
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 46. Memory Compression Boundary
+## 46. Memory Compression Boundary
 
 Forbidden compression:
 
@@ -1641,9 +1632,9 @@ historical observation
 
 Compression must not manufacture certainty.
 
----
+______________________________________________________________________
 
-# 47. Agents
+## 47. Agents
 
 Candidate roles:
 
@@ -1669,9 +1660,9 @@ ROLE
 DEPLOYED AGENT
 ```
 
----
+______________________________________________________________________
 
-# 48. Skills
+## 48. Skills
 
 Candidate capabilities:
 
@@ -1691,9 +1682,9 @@ claim verification
 
 Skill availability does not imply authority to modify persistent memory.
 
----
+______________________________________________________________________
 
-# 49. Workflow — Memory Write
+## 49. Workflow — Memory Write
 
 ```text
 RECEIVE OBSERVATION
@@ -1719,9 +1710,9 @@ PROPOSE MEMORY WRITE
 COMMIT OR QUARANTINE
 ```
 
----
+______________________________________________________________________
 
-# 50. Workflow — Memory Read
+## 50. Workflow — Memory Read
 
 ```text
 RECEIVE QUERY
@@ -1745,9 +1736,9 @@ CHECK CONFLICTS
 RETURN RECORDS + VALIDITY ENVELOPE
 ```
 
----
+______________________________________________________________________
 
-# 51. Workflow — Current-State Use
+## 51. Workflow — Current-State Use
 
 When historical memory is requested as current evidence:
 
@@ -1767,9 +1758,9 @@ CURRENT ENOUGH?
 └── NO  → REOBSERVE
 ```
 
----
+______________________________________________________________________
 
-# 52. Workflow — Supersession
+## 52. Workflow — Supersession
 
 ```text
 NEW OBSERVATION
@@ -1790,9 +1781,9 @@ CREATE LINEAGE EDGE
 REVALIDATE DEPENDENTS
 ```
 
----
+______________________________________________________________________
 
-# 53. Workflow — Invalidation
+## 53. Workflow — Invalidation
 
 ```text
 SOURCE / OBSERVATION FAILURE
@@ -1812,9 +1803,9 @@ REOBSERVE / REPAIR
 REVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 54. Protocols
+## 54. Protocols
 
 Candidate protocol messages:
 
@@ -1861,9 +1852,9 @@ ObservationMemoryReadResult:
   confidence_ceiling:
 ```
 
----
+______________________________________________________________________
 
-# 55. Evidence / Provenance
+## 55. Evidence / Provenance
 
 Every material observation-memory record should retain or reference:
 
@@ -1885,14 +1876,14 @@ supersession lineage
 invalidation history
 ```
 
----
+______________________________________________________________________
 
-# 56. Provenance Tensor
+## 56. Provenance Tensor
 
-[
-\boxed{
+\[
+\\boxed{
 P_M =
-T[
+T\[
 memory,
 observation,
 source,
@@ -1905,15 +1896,15 @@ transform,
 validator,
 version,
 status
-]
+\]
 }
-]
+\]
 
 Multiple stored copies do not imply multiple independent observations.
 
----
+______________________________________________________________________
 
-# 57. Memory Identity
+## 57. Memory Identity
 
 Observation identity should remain stable across representation changes where possible.
 
@@ -1933,9 +1924,9 @@ These may be representations of the same underlying observation lineage.
 
 Do not count them as three independent observations.
 
----
+______________________________________________________________________
 
-# 58. Uncertainty Vector
+## 58. Uncertainty Vector
 
 Material uncertainty may include:
 
@@ -1975,19 +1966,19 @@ uncertainty:
 
 No numerical values should be invented when unsupported.
 
----
+______________________________________________________________________
 
-# 59. Confidence Ceiling
+## 59. Confidence Ceiling
 
-For memory-dependent conclusion \(C\):
+For memory-dependent conclusion (C):
 
-[
-\boxed{
+\[
+\\boxed{
 Conf(C)
-\le
-\min_{p\in LB(C)} Conf(p)
+\\le
+\\min\_{p\\in LB(C)} Conf(p)
 }
-]
+\]
 
 unless independently revalidated.
 
@@ -1999,9 +1990,9 @@ REPEATED RETRIEVAL
 NEW EVIDENCE
 ```
 
----
+______________________________________________________________________
 
-# 60. Failure Modes
+## 60. Failure Modes
 
 ## FM-MEM-01 — Memory-as-Reality
 
@@ -2091,9 +2082,9 @@ Missing memory fields silently become normal/false/valid values.
 
 Corrected record hides the prior failure and its downstream effects.
 
----
+______________________________________________________________________
 
-# 61. Repair / Recovery
+## 61. Repair / Recovery
 
 General recovery sequence:
 
@@ -2121,9 +2112,9 @@ REVALIDATE DEPENDENTS
 RESTORE ELIGIBLE STATE
 ```
 
----
+______________________________________________________________________
 
-# 62. Repair Rule
+## 62. Repair Rule
 
 Repair should prefer:
 
@@ -2143,9 +2134,9 @@ silently overwrite history
 
 unless retention/privacy policy explicitly requires destructive deletion.
 
----
+______________________________________________________________________
 
-# 63. Recovery from Staleness
+## 63. Recovery from Staleness
 
 ```text
 STALE MEMORY
@@ -2164,9 +2155,9 @@ CHECK WHETHER CURRENT STATE MATTERS
     link historical and current state
 ```
 
----
+______________________________________________________________________
 
-# 64. Recovery from Conflict
+## 64. Recovery from Conflict
 
 ```text
 M1 = X
@@ -2185,9 +2176,9 @@ REOBSERVE / VALIDATE
 RESOLVE OR PRESERVE COMPETING
 ```
 
----
+______________________________________________________________________
 
-# 65. Validators
+## 65. Validators
 
 Minimum proposed validators:
 
@@ -2229,9 +2220,9 @@ VALIDATOR_MEMORY_SIMULATION_BOUNDARY
 VALIDATOR_MEMORY_COMPACTION
 ```
 
----
+______________________________________________________________________
 
-# 66. Minimum Tests
+## 66. Minimum Tests
 
 ```text
 TEST_MEM_001
@@ -2310,9 +2301,9 @@ TEST_MEM_025
 reobservation creates a new observation identity/time state
 ```
 
----
+______________________________________________________________________
 
-# 67. Adversarial Tests
+## 67. Adversarial Tests
 
 Test against:
 
@@ -2360,9 +2351,9 @@ corrupted provenance edge
 unknown scope defaulted to universal
 ```
 
----
+______________________________________________________________________
 
-# 68. Falsifiers
+## 68. Falsifiers
 
 This contract must be revised if:
 
@@ -2386,9 +2377,9 @@ privacy/retention governance requires stronger deletion semantics
 domain-specific sensing semantics invalidate a proposed generic memory rule
 ```
 
----
+______________________________________________________________________
 
-# 69. Gap Matrix
+## 69. Gap Matrix
 
 ```yaml
 memory_gap_status:
@@ -2463,9 +2454,9 @@ memory_gap_status:
     status: GAP
 ```
 
----
+______________________________________________________________________
 
-# 70. Gap Priority
+## 70. Gap Priority
 
 Highest-priority unresolved items:
 
@@ -2496,9 +2487,9 @@ Highest-priority unresolved items:
 12. Execute adversarial and regression tests.
 ```
 
----
+______________________________________________________________________
 
-# 71. Hard Boundaries
+## 71. Hard Boundaries
 
 ```text
 PLACEHOLDER
@@ -2582,9 +2573,9 @@ COMPACTED
 SEMANTICALLY EQUIVALENT
 ```
 
----
+______________________________________________________________________
 
-# 72. RSCF Completion State
+## 72. RSCF Completion State
 
 ```yaml
 rscf:
@@ -2679,9 +2670,9 @@ rscf:
     not empirically universal
 ```
 
----
+______________________________________________________________________
 
-# 73. Completion State
+## 73. Completion State
 
 ```yaml
 completion_state:
@@ -2762,9 +2753,9 @@ completion_state:
     MODEL / CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
-# 74. Final Contract
+## 74. Final Contract
 
 `L01_SENSING_OBSERVATION/MEMORY.md` defines the proposed persistence boundary for observation evidence.
 
@@ -2812,59 +2803,59 @@ repair lineage
 
 Its strongest governing distinctions are:
 
-[
-\boxed{
-Memory \neq Reality
+\[
+\\boxed{
+Memory \\neq Reality
 }
-]
+\]
 
-[
-\boxed{
-Memory \neq CurrentObservation
+\[
+\\boxed{
+Memory \\neq CurrentObservation
 }
-]
+\]
 
-[
-\boxed{
-Retrieval \neq Reobservation
+\[
+\\boxed{
+Retrieval \\neq Reobservation
 }
-]
+\]
 
-[
-\boxed{
-Historical \neq Current
+\[
+\\boxed{
+Historical \\neq Current
 }
-]
+\]
 
-[
-\boxed{
-Repetition \neq IndependentConfirmation
+\[
+\\boxed{
+Repetition \\neq IndependentConfirmation
 }
-]
+\]
 
-[
-\boxed{
-Supersession \neq Erasure
+\[
+\\boxed{
+Supersession \\neq Erasure
 }
-]
+\]
 
-[
-\boxed{
-Capability \neq Authority
+\[
+\\boxed{
+Capability \\neq Authority
 }
-]
+\]
 
-[
-\boxed{
-Proposal \neq Commit
+\[
+\\boxed{
+Proposal \\neq Commit
 }
-]
+\]
 
-[
-\boxed{
-Unknown \neq Pass
+\[
+\\boxed{
+Unknown \\neq Pass
 }
-]
+\]
 
 The strongest warranted status is:
 
@@ -2910,29 +2901,33 @@ HISTORICALLY VALID
 CURRENTLY VALID
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[00_ROOT/00_HOME|00_HOME]] · 06-Knowledge-Base-MOC
 
 ```
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: l01_sensing_observation_primitives_cognitive_matrix_memory
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_MEMORY.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_MOC|L01_SENSING_OBSERVATION_MOC]]

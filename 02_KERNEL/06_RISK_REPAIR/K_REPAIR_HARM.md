@@ -15,41 +15,41 @@ kernel_family: RECOVERY
 scope: AMOS_OS
 updated: 2026-08-26
 tags:
-- amos-os
-- kernel
-- core
-- kernel/repair
-- kernel/harm
-- kernel/recovery
-- kernel/invariants
-- kernel/provenance
-- kernel/causal
-- kernel/rollback
-- kernel/homeostasis
-- rscf
-- topic/repair
-- topic/harm
-- topic/failure-containment
-- topic/reversibility
-- topic/collateral-damage
-- canon/kernel
-- readme
-- amos-core-laws
-- law-hierarchy
-- canon-provenance
-- k-core19-logic
-- k-meta-logic
-- k-structural-reasoning
-- k-causal-closure
-- k-causal-epoch
-- k-system-state
-- k-identity
-- k-homeostasis
-- k-collapse-recovery
-- k-memory-admission
-- k-memory-conflict
-- k-memory-immune
-- k-memory-retrieval
+  - amos-os
+  - kernel
+  - core
+  - kernel/repair
+  - kernel/harm
+  - kernel/recovery
+  - kernel/invariants
+  - kernel/provenance
+  - kernel/causal
+  - kernel/rollback
+  - kernel/homeostasis
+  - rscf
+  - topic/repair
+  - topic/harm
+  - topic/failure-containment
+  - topic/reversibility
+  - topic/collateral-damage
+  - canon/kernel
+  - readme
+  - amos-core-laws
+  - law-hierarchy
+  - canon-provenance
+  - k-core19-logic
+  - k-meta-logic
+  - k-structural-reasoning
+  - k-causal-closure
+  - k-causal-epoch
+  - k-system-state
+  - k-identity
+  - k-homeostasis
+  - k-collapse-recovery
+  - k-memory-admission
+  - k-memory-conflict
+  - k-memory-immune
+  - k-memory-retrieval
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -91,7 +91,7 @@ FAULT
 → POST-REPAIR VALIDATION
 ```
 
----
+______________________________________________________________________
 
 ## 1. Hard Boundaries
 
@@ -111,7 +111,7 @@ PROPOSAL != COMMIT
 UNKNOWN/GAP != PASS
 ```
 
----
+______________________________________________________________________
 
 ## 2. Core Repair Law
 
@@ -152,7 +152,7 @@ The harm bound is typed and scope-dependent.
 
 No universal numeric harm threshold is implied.
 
----
+______________________________________________________________________
 
 ## 3. Repair-Harm Principle
 
@@ -179,7 +179,7 @@ TARGET SUCCESS
 SYSTEM SUCCESS
 ```
 
----
+______________________________________________________________________
 
 ## 4. Integrity Ordering
 
@@ -207,7 +207,7 @@ Exact domain-specific precedence remains governed by applicable canon and author
 
 A repair must not silently weaken a higher-order invariant to restore a lower-order objective.
 
----
+______________________________________________________________________
 
 ## 5. Repair Object
 
@@ -240,7 +240,7 @@ Missing load-bearing fields remain:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
 ## 6. Harm Object
 
@@ -268,7 +268,7 @@ repair_harm:
   uncertainty:
 ```
 
----
+______________________________________________________________________
 
 ## 7. Harm Classes
 
@@ -297,7 +297,7 @@ EXTERNAL-EFFECT HARM
 
 These classes may overlap.
 
----
+______________________________________________________________________
 
 ## 8. Direct Harm
 
@@ -318,7 +318,7 @@ FIX INVALID STATE
 
 The target correction does not excuse the collateral loss.
 
----
+______________________________________________________________________
 
 ## 9. Dependency Harm
 
@@ -339,7 +339,7 @@ C2
 
 Therefore repair analysis requires dependency closure sufficient to capture outcome-changing descendants.
 
----
+______________________________________________________________________
 
 ## 10. Ancestor Harm
 
@@ -366,7 +366,7 @@ SILENTLY REWRITE
 HIGHER-LAYER LAW.
 ```
 
----
+______________________________________________________________________
 
 ## 11. Sibling Harm
 
@@ -393,7 +393,7 @@ does not prove:
 IMPACT_SCOPE = A
 ```
 
----
+______________________________________________________________________
 
 ## 12. Provenance Harm
 
@@ -411,7 +411,7 @@ WHAT STATE EXISTS AFTER
 
 Repair must preserve sufficient forensic lineage.
 
----
+______________________________________________________________________
 
 ## 13. Evidence Harm
 
@@ -427,7 +427,7 @@ PRESERVE EVIDENCE
 
 where safe and feasible.
 
----
+______________________________________________________________________
 
 ## 14. Memory Harm
 
@@ -453,7 +453,7 @@ K_MEMORY_RETRIEVAL
 
 without replacing their responsibilities.
 
----
+______________________________________________________________________
 
 ## 15. Identity Harm
 
@@ -475,7 +475,7 @@ SEMANTIC IDENTITY REWRITE
 
 unless an explicitly governed identity migration is intended.
 
----
+______________________________________________________________________
 
 ## 16. Authority Harm
 
@@ -498,7 +498,7 @@ TOOL CAN DO X
 TOOL MAY DO X
 ```
 
----
+______________________________________________________________________
 
 ## 17. Security Harm
 
@@ -516,7 +516,7 @@ INTEGRITY CHECK DISABLEMENT
 
 Functional recovery must not silently trade away security integrity.
 
----
+______________________________________________________________________
 
 ## 18. Observability Harm
 
@@ -542,7 +542,7 @@ DELETE ERROR LOG
 REMOVE ERROR
 ```
 
----
+______________________________________________________________________
 
 ## 19. Recoverability Harm
 
@@ -560,7 +560,7 @@ IRREVERSIBLY MIGRATE STATE
 
 Such future-option destruction is load-bearing when assessing repair safety.
 
----
+______________________________________________________________________
 
 ## 20. Temporal Harm
 
@@ -574,7 +574,7 @@ R @ T0
 
 Therefore immediate post-repair success may be insufficient where delayed dependencies or effects are material.
 
----
+______________________________________________________________________
 
 ## 21. Regime Harm
 
@@ -592,7 +592,7 @@ VALID_REPAIR(R | G2)
 
 Repair validity inherits regime constraints.
 
----
+______________________________________________________________________
 
 ## 22. Causal Harm
 
@@ -611,7 +611,7 @@ CHANGE DEPENDENCY ORDER
 
 Causal consequences must not be inferred from structural similarity alone.
 
----
+______________________________________________________________________
 
 ## 23. Causal Firewall
 
@@ -639,7 +639,7 @@ R MASKED THE SYMPTOM
 
 Root-cause claims require appropriately typed evidence.
 
----
+______________________________________________________________________
 
 ## 24. Repair Impact Closure
 
@@ -665,7 +665,7 @@ AUTHORITY-RELEVANT STATE(R)
 
 Only dependencies capable of materially changing the repair decision need be traversed.
 
----
+______________________________________________________________________
 
 ## 25. Local Repair Rule
 
@@ -692,7 +692,7 @@ REPAIR LOCALLY
 
 may be safer than global recomputation.
 
----
+______________________________________________________________________
 
 ## 26. Locality Firewall
 
@@ -714,7 +714,7 @@ REPAIR IMPACT IS LOCAL
 
 Locality must be demonstrated, not assumed.
 
----
+______________________________________________________________________
 
 ## 27. Blast Radius
 
@@ -738,7 +738,7 @@ PERSISTENCE_SCOPE
 
 Unknown blast radius increases required validation.
 
----
+______________________________________________________________________
 
 ## 28. Reversibility
 
@@ -756,7 +756,7 @@ Exact classification criteria are subsystem-specific.
 
 Higher irreversibility requires stronger evidence and governance.
 
----
+______________________________________________________________________
 
 ## 29. Reversible-First Law
 
@@ -775,7 +775,7 @@ R1
 
 unless evidence establishes a material reason otherwise.
 
----
+______________________________________________________________________
 
 ## 30. Minimum Harm Principle
 
@@ -797,7 +797,7 @@ AUTHORITY(R) = PASS
 
 This is a decision model, not a claim of universally measurable scalar harm.
 
----
+______________________________________________________________________
 
 ## 31. Harm Is Multi-Dimensional
 
@@ -819,7 +819,7 @@ Materially incomparable harms may remain:
 COMPETING
 ```
 
----
+______________________________________________________________________
 
 ## 32. Repair Alternatives
 
@@ -836,7 +836,7 @@ R6 — DEFER + CONTAIN
 
 Do not force convergence when evidence cannot discriminate safely.
 
----
+______________________________________________________________________
 
 ## 33. Cheapest Discriminating Test
 
@@ -857,7 +857,7 @@ INFORMATION BEFORE INTERVENTION
 
 where decision value is positive.
 
----
+______________________________________________________________________
 
 ## 34. Repair Sensitivity
 
@@ -877,7 +877,7 @@ Then `D` is a sensitivity-critical premise.
 
 Resolve it before expanding repair scope when feasible.
 
----
+______________________________________________________________________
 
 ## 35. Repair Confidence Ceiling
 
@@ -897,7 +897,7 @@ MIN(
 
 unless independent revalidation supports the relevant premise.
 
----
+______________________________________________________________________
 
 ## 36. Repair and RSCF
 
@@ -917,7 +917,7 @@ repair should invalidate or reconstruct only dependent descendants of `P2`.
 
 Do not discard independent valid state unnecessarily.
 
----
+______________________________________________________________________
 
 ## 37. Atomic Multi-RSCF Repair
 
@@ -943,7 +943,7 @@ R3
 
 Then reconstruct the smallest sufficient atomic reasoning set required for `D`.
 
----
+______________________________________________________________________
 
 ## 38. Persistent Provenance
 
@@ -962,7 +962,7 @@ ROLLBACK INFORMATION
 
 Persistent provenance is part of repair integrity.
 
----
+______________________________________________________________________
 
 ## 39. MVCC / CAS Interaction
 
@@ -984,7 +984,7 @@ before repair commit, stale repair assumptions require revalidation.
 
 Do not silently apply a repair computed against obsolete state.
 
----
+______________________________________________________________________
 
 ## 40. Causal Epoch Interaction
 
@@ -1004,7 +1004,7 @@ REPAIR COMPLETE
 OLD CAUSAL CONCLUSIONS STILL VALID
 ```
 
----
+______________________________________________________________________
 
 ## 41. Homeostasis Interaction
 
@@ -1023,7 +1023,7 @@ K_REPAIR_HARM
   WITHOUT UNACCEPTABLE NEW HARM?
 ```
 
----
+______________________________________________________________________
 
 ## 42. Collapse Recovery Interaction
 
@@ -1040,7 +1040,7 @@ COLLAPSE
 
 Emergency containment may precede complete analysis when required to prevent greater irreversible harm, but uncertainty must remain explicit.
 
----
+______________________________________________________________________
 
 ## 43. Repair-Harm Decision Classes
 
@@ -1057,7 +1057,7 @@ UNKNOWN/GAP
 
 Kernel classification does not itself grant commit authority.
 
----
+______________________________________________________________________
 
 ## 44. Repair Gate
 
@@ -1089,7 +1089,7 @@ EXECUTE THROUGH AUTHORIZED PATH
 POST-REPAIR VALIDATION
 ```
 
----
+______________________________________________________________________
 
 ## 45. Post-Repair Validation
 
@@ -1112,7 +1112,7 @@ OBSERVABILITY
 RECOVERABILITY
 ```
 
----
+______________________________________________________________________
 
 ## 46. Repair Success Classes
 
@@ -1135,7 +1135,7 @@ authority, provenance, rollback, and required tests satisfied
 
 `RS0` must never be reported as equivalent to `RS4`.
 
----
+______________________________________________________________________
 
 ## 47. Latent Harm Monitoring
 
@@ -1152,7 +1152,7 @@ The monitoring duration is domain- and dependency-specific.
 
 No universal duration should be invented.
 
----
+______________________________________________________________________
 
 ## 48. Repair Failure
 
@@ -1172,7 +1172,7 @@ POST-STATE CANNOT BE VALIDATED
 
 Repair failure itself becomes evidence.
 
----
+______________________________________________________________________
 
 ## 49. Failed Repair Recovery
 
@@ -1194,7 +1194,7 @@ SELECT DIFFERENT PATH
 
 Do not repeat a failed path without changed evidence or changed conditions.
 
----
+______________________________________________________________________
 
 ## 50. Repair Thrashing
 
@@ -1212,7 +1212,7 @@ or equivalent repeated interventions occur without resolving the underlying unce
 
 Detecting thrashing should trigger escalation and causal reassessment.
 
----
+______________________________________________________________________
 
 ## 51. Repair Cascade
 
@@ -1235,7 +1235,7 @@ Stop expanding the cascade blindly.
 
 Reconstruct the relevant dependency/causal closure.
 
----
+______________________________________________________________________
 
 ## 52. Repair Debt
 
@@ -1256,7 +1256,7 @@ repair_debt:
 
 Mitigation must not silently become permanent validated state.
 
----
+______________________________________________________________________
 
 ## 53. Emergency Repair
 
@@ -1275,7 +1275,7 @@ CONTAIN
 
 Emergency conditions do not erase provenance or authority requirements; they may alter the applicable governed procedure.
 
----
+______________________________________________________________________
 
 ## 54. No-Repair Option
 
@@ -1299,7 +1299,7 @@ AUTHORITY UNCLEAR
 
 A no-repair decision must still preserve monitoring and escalation semantics.
 
----
+______________________________________________________________________
 
 ## 55. Repair Proof Capsule
 
@@ -1329,7 +1329,7 @@ repair_proof_capsule:
 
 Reuse is allowed only while dependencies and validity conditions remain intact.
 
----
+______________________________________________________________________
 
 ## 56. Adversarial Repair Validation
 
@@ -1363,7 +1363,7 @@ OR
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
 ## 57. Anti-Regression Law
 
@@ -1385,7 +1385,7 @@ USER / SYSTEM FIT
 
 Repair optimization must preserve or improve these dimensions where applicable.
 
----
+______________________________________________________________________
 
 ## 58. Repair-Harm Event
 
@@ -1412,7 +1412,7 @@ repair_harm_event:
   residual_uncertainty:
 ```
 
----
+______________________________________________________________________
 
 ## 59. Authority Boundary
 
@@ -1436,7 +1436,7 @@ EXTERNAL SIDE-EFFECT PERMISSION
 FINAL COMMIT
 ```
 
----
+______________________________________________________________________
 
 ## 60. Runtime Boundary
 
@@ -1480,7 +1480,7 @@ COMMIT
 PROVENANCE GOVERNANCE
 ```
 
----
+______________________________________________________________________
 
 ## 61. Repair-Harm Invariants
 
@@ -1562,7 +1562,7 @@ KRH-25
 WHEN VALIDITY CANNOT BE ESTABLISHED THE RESULT MUST REMAIN UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
 ## 62. Required Tests
 
@@ -1599,7 +1599,7 @@ NO-REPAIR TEST
 UNKNOWN-GAP TEST
 ```
 
----
+______________________________________________________________________
 
 ## 63. Negative Tests
 
@@ -1669,7 +1669,7 @@ UNKNOWN/GAP
 MUST FAIL
 ```
 
----
+______________________________________________________________________
 
 ## 64. Failure Modes
 
@@ -1696,7 +1696,7 @@ FALSE SUCCESS
 UNBOUNDED BLAST RADIUS
 ```
 
----
+______________________________________________________________________
 
 ## 65. Recovery Semantics
 
@@ -1736,7 +1736,7 @@ FAIL CLOSED
 → UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
 ## 66. Promotion Gate
 
@@ -1783,7 +1783,7 @@ FORMAL_REPAIR_SAFETY_PROOF = UNKNOWN/GAP
 EMPIRICAL_VALIDATION = UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
 ## 67. RSCF Node
 
@@ -1829,7 +1829,7 @@ RSCF-RELATIONS:
   - OPERATED_BY: README
 ```
 
----
+______________________________________________________________________
 
 ## 68. Canonical Repair-Harm Summary
 
@@ -2062,13 +2062,14 @@ README
 ```text
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
-**MOC:** [[02_KERNEL/06_RISK_REPAIR/06_RISK_REPAIR_MOC|06_RISK_REPAIR_MOC]]
+______________________________________________________________________
 
+**MOC:** [[02_KERNEL/06_RISK_REPAIR/06_RISK_REPAIR_MOC|06_RISK_REPAIR_MOC]]

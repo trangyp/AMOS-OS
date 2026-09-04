@@ -1,28 +1,28 @@
 ---
 tags:
-- canon
-- core_laws
-- evolution
-- mutation
-- supersession
-- anti_regression
-- repair
-- rollback
-- gmef
-- rscf
-- governance
-- canon/universe
-- law-hierarchy
-- law/L0-integrity
-- law/L1-epistemic
-- law/L2-provenance
-- law/L3-dependency
-- law/L4-causal
-- law/L5-scope-regime
-- law/L6-uncertainty
-- law/L7-authority
-- law/L8-execution
-- law/L18-gmef
+  - canon
+  - core_laws
+  - evolution
+  - mutation
+  - supersession
+  - anti_regression
+  - repair
+  - rollback
+  - gmef
+  - rscf
+  - governance
+  - canon/universe
+  - law-hierarchy
+  - law/L0-integrity
+  - law/L1-epistemic
+  - law/L2-provenance
+  - law/L3-dependency
+  - law/L4-causal
+  - law/L5-scope-regime
+  - law/L6-uncertainty
+  - law/L7-authority
+  - law/L8-execution
+  - law/L18-gmef
 title: L9 Evolution Laws
 origin_architect: Trang Phan
 updated: '2026-08-26'
@@ -52,9 +52,9 @@ rscf:
 >
 > Evolution is governed mutation, not unrestricted self-modification.
 
----
+______________________________________________________________________
 
-# 0. Status
+## 0. Status
 
 This document expands the supplied L9 seed specification:
 
@@ -110,9 +110,9 @@ SUPERSESSION != HISTORY_DELETION
 TEST_PASS != UNIVERSAL_VALIDITY
 ```
 
----
+______________________________________________________________________
 
-# 1. Purpose
+## 1. Purpose
 
 L9 answers:
 
@@ -151,9 +151,9 @@ LOAD-BEARING INTEGRITY
 
 A change that improves one metric while weakening governance, provenance, rollback, or correctness is not automatically an improvement.
 
----
+______________________________________________________________________
 
-# 2. Evolution Boundary
+## 2. Evolution Boundary
 
 L9 distinguishes:
 
@@ -185,9 +185,9 @@ A newer version is not automatically better.
 
 A superseding version does not erase its predecessor.
 
----
+______________________________________________________________________
 
-# 3. Core Evolution Object
+## 3. Core Evolution Object
 
 A governed candidate mutation MAY be represented conceptually as:
 
@@ -244,9 +244,9 @@ EvolutionCandidate:
 
 This schema is `AMOS_MODEL`.
 
----
+______________________________________________________________________
 
-# 4. V-1 — Additive-First
+## 4. V-1 — Additive-First
 
 **Supplied law:**
 
@@ -279,9 +279,9 @@ It means destructive mutation carries a higher governance burden because it can 
 - earlier canon;
 - dependent assumptions.
 
----
+______________________________________________________________________
 
-# 5. Additive Change
+## 5. Additive Change
 
 An additive mutation introduces new capability or structure while preserving the pre-existing object where possible.
 
@@ -309,9 +309,9 @@ avoids destructive dependency breakage
 
 and does not create uncontrolled complexity.
 
----
+______________________________________________________________________
 
-# 6. Additive Does Not Mean Safe
+## 6. Additive Does Not Mean Safe
 
 The following is prohibited:
 
@@ -335,9 +335,9 @@ Additions can still introduce:
 
 Therefore additive changes still require validation.
 
----
+______________________________________________________________________
 
-# 7. Destructive Mutation
+## 7. Destructive Mutation
 
 A destructive mutation includes changes that remove or invalidate previously available structures.
 
@@ -357,9 +357,9 @@ change authority semantics
 
 Such mutations require stronger governance.
 
----
+______________________________________________________________________
 
-# 8. Supersession Ceremony
+## 8. Supersession Ceremony
 
 Destructive replacement SHOULD proceed through an explicit supersession process.
 
@@ -400,9 +400,9 @@ Supersession changes current validity.
 
 It does not rewrite history.
 
----
+______________________________________________________________________
 
-# 9. Supersession Preservation Law
+## 9. Supersession Preservation Law
 
 If:
 
@@ -430,9 +430,9 @@ Therefore:
 SUPERSESSION != DELETION
 ```
 
----
+______________________________________________________________________
 
-# 10. Historical Integrity
+## 10. Historical Integrity
 
 Evolution history SHOULD preserve:
 
@@ -449,9 +449,9 @@ what was superseded
 
 History is part of the system's repair substrate.
 
----
+______________________________________________________________________
 
-# 11. V-2 — Bounded Mutation
+## 11. V-2 — Bounded Mutation
 
 **Supplied law:**
 
@@ -465,9 +465,9 @@ A mutation MUST NOT be treated as local merely because the direct edit is small.
 
 The relevant quantity is the dependency-aware consequence radius.
 
----
+______________________________________________________________________
 
-# 12. Mutation Blast Radius
+## 12. Mutation Blast Radius
 
 A conceptual mutation blast radius MAY include:
 
@@ -513,9 +513,9 @@ not:
 SMALL
 ```
 
----
+______________________________________________________________________
 
-# 13. Mutation Surface
+## 13. Mutation Surface
 
 A candidate change SHOULD identify:
 
@@ -539,9 +539,9 @@ DirectMutationSet
 PotentialImpactSet
 ```
 
----
+______________________________________________________________________
 
-# 14. Dependency-Aware Impact
+## 14. Dependency-Aware Impact
 
 If:
 
@@ -566,9 +566,9 @@ UNCHANGED_FILE
 UNCHANGED_BEHAVIOR
 ```
 
----
+______________________________________________________________________
 
-# 15. Cross-Layer Mutation
+## 15. Cross-Layer Mutation
 
 A local mutation may affect:
 
@@ -591,9 +591,9 @@ Examples:
 
 Blast-radius analysis must preserve H/M/L direction.
 
----
+______________________________________________________________________
 
-# 16. Mutation Class
+## 16. Mutation Class
 
 A governed evolution system SHOULD classify candidate changes by consequence.
 
@@ -618,9 +618,9 @@ USE HIGHER-CONSEQUENCE PLAUSIBLE CLASS
 
 until discriminating evidence exists.
 
----
+______________________________________________________________________
 
-# 17. Mutation Permission Profile
+## 17. Mutation Permission Profile
 
 Every governed candidate SHOULD have a mutation permission profile.
 
@@ -654,9 +654,9 @@ UNKNOWN/GAP
 
 for promotion.
 
----
+______________________________________________________________________
 
-# 18. Authority for Mutation
+## 18. Authority for Mutation
 
 Ability to edit a system does not grant authority to evolve it.
 
@@ -670,9 +670,9 @@ Evolution authority is governed by L7.
 
 For high-consequence changes, authority should increase with mutation class.
 
----
+______________________________________________________________________
 
-# 19. Self-Modification Boundary
+## 19. Self-Modification Boundary
 
 A component MUST NOT redefine the rules used to judge its own admissibility unless explicitly authorized through a higher-order governance process.
 
@@ -687,9 +687,9 @@ candidate change
 
 This is governance capture.
 
----
+______________________________________________________________________
 
-# 20. Governance Capture Law
+## 20. Governance Capture Law
 
 ```text
 MUTATION
@@ -704,9 +704,9 @@ as a means of gaining promotion.
 
 A mutation that changes its own admission rules requires independent review.
 
----
+______________________________________________________________________
 
-# 21. V-3 — Anti-Regression
+## 21. V-3 — Anti-Regression
 
 **Supplied law:**
 
@@ -728,9 +728,9 @@ REGRESSION
 
 unless the prior validation has been explicitly superseded as no longer applicable.
 
----
+______________________________________________________________________
 
-# 22. Regression
+## 22. Regression
 
 A regression is a loss of previously established behavior, invariant satisfaction, safety, correctness, compatibility, or performance that remains required under the new version's declared contract.
 
@@ -750,9 +750,9 @@ reliability regression
 repairability regression
 ```
 
----
+______________________________________________________________________
 
-# 23. Regression Is an Incident
+## 23. Regression Is an Incident
 
 A detected regression SHOULD trigger:
 
@@ -775,9 +775,9 @@ revalidate
 
 The system MUST NOT silently redefine the failed baseline as irrelevant unless an authorized supersession explicitly does so.
 
----
+______________________________________________________________________
 
-# 24. Baseline
+## 24. Baseline
 
 A mutation requires a baseline against which change can be evaluated.
 
@@ -798,9 +798,9 @@ failure tolerances
 
 No baseline means anti-regression coverage is incomplete.
 
----
+______________________________________________________________________
 
-# 25. Validation Receipt
+## 25. Validation Receipt
 
 The supplied enforcement references:
 
@@ -831,9 +831,9 @@ A validation receipt is evidence about a specific validation event.
 
 It is not universal proof.
 
----
+______________________________________________________________________
 
-# 26. Baseline Applicability
+## 26. Baseline Applicability
 
 A prior passing test remains load-bearing only if its contract is still applicable.
 
@@ -853,9 +853,9 @@ when an explicit authorized contract change legitimately changes expected behavi
 
 This requires supersession, not silent deletion.
 
----
+______________________________________________________________________
 
-# 27. Protected Regression Set
+## 27. Protected Regression Set
 
 High-value validations MAY be designated:
 
@@ -883,9 +883,9 @@ security boundaries
 core-law invariants
 ```
 
----
+______________________________________________________________________
 
-# 28. Regression Scope
+## 28. Regression Scope
 
 A regression MAY affect:
 
@@ -899,9 +899,9 @@ production environment
 
 Incident severity SHOULD account for consequence radius.
 
----
+______________________________________________________________________
 
-# 29. Negative Evolution Memory
+## 29. Negative Evolution Memory
 
 Failed changes SHOULD remain recoverable as negative evolution memory.
 
@@ -927,9 +927,9 @@ ROLLBACK
 ERASE_FAILURE
 ```
 
----
+______________________________________________________________________
 
-# 30. V-4 — Repair Over Growth
+## 30. V-4 — Repair Over Growth
 
 **Supplied law:**
 
@@ -957,9 +957,9 @@ This does not mean capability growth must stop whenever repair capacity is imper
 
 It means repairability is part of the admissibility assessment for evolution.
 
----
+______________________________________________________________________
 
-# 31. Repair Capacity
+## 31. Repair Capacity
 
 Repair capacity may include:
 
@@ -981,9 +981,9 @@ repair memory
 
 A system with growing action capability but no corresponding recovery capability becomes increasingly fragile.
 
----
+______________________________________________________________________
 
-# 32. Growth / Repair Balance
+## 32. Growth / Repair Balance
 
 Conceptually:
 
@@ -1005,9 +1005,9 @@ but this is an `AMOS_MODEL` heuristic unless DMER canon defines an exact equatio
 
 Do not treat it as an empirically calibrated law without source evidence.
 
----
+______________________________________________________________________
 
-# 33. Repair Coverage
+## 33. Repair Coverage
 
 A mutation SHOULD identify:
 
@@ -1027,9 +1027,9 @@ repair_coverage:
 
 High-consequence mutation with critical repair fields unknown SHOULD NOT be broadly propagated.
 
----
+______________________________________________________________________
 
-# 34. Reversibility
+## 34. Reversibility
 
 Evolution SHOULD prefer reversible steps where uncertainty remains high.
 
@@ -1053,9 +1053,9 @@ GENERAL PRODUCTION
 
 Not every domain supports every stage, but promotion SHOULD increase exposure gradually where possible.
 
----
+______________________________________________________________________
 
-# 35. Rollback Requirement
+## 35. Rollback Requirement
 
 Every nontrivial mutation SHOULD declare:
 
@@ -1078,9 +1078,9 @@ IRREVERSIBLE
 
 must be explicit and evidence/authority burden must increase.
 
----
+______________________________________________________________________
 
-# 36. Known-Good Parent
+## 36. Known-Good Parent
 
 A mutation SHOULD preserve a known-good predecessor where possible.
 
@@ -1094,9 +1094,9 @@ with enough provenance to reconstruct and restore it.
 
 A new version without a recoverable predecessor has reduced rollback strength.
 
----
+______________________________________________________________________
 
-# 37. Rollback Is a State Transition
+## 37. Rollback Is a State Transition
 
 Rollback is not "pretend the candidate never existed."
 
@@ -1120,9 +1120,9 @@ V2 failed
 V2 was rolled back
 ```
 
----
+______________________________________________________________________
 
-# 38. Rollback Validation
+## 38. Rollback Validation
 
 After rollback:
 
@@ -1140,9 +1140,9 @@ ROLLBACK_EXECUTED
 ROLLBACK_VALIDATED
 ```
 
----
+______________________________________________________________________
 
-# 39. Repair vs Rollback
+## 39. Repair vs Rollback
 
 ```text
 REPAIR
@@ -1164,9 +1164,9 @@ candidate fails
 → re-test
 ```
 
----
+______________________________________________________________________
 
-# 40. Capability Growth Gate
+## 40. Capability Growth Gate
 
 Before a new capability is promoted, the system SHOULD ask:
 
@@ -1181,9 +1181,9 @@ Can downstream dependents be revalidated?
 
 If not, growth may require tighter propagation limits.
 
----
+______________________________________________________________________
 
-# 41. Mutation Lifecycle
+## 41. Mutation Lifecycle
 
 A conceptual evolution lifecycle:
 
@@ -1221,9 +1221,9 @@ DEPRECATED
 
 The exact lifecycle requires alignment with authoritative GMEF/canon.
 
----
+______________________________________________________________________
 
-# 42. Hidden Promotion Prohibition
+## 42. Hidden Promotion Prohibition
 
 A candidate MUST NOT move:
 
@@ -1237,9 +1237,9 @@ without explicit intermediate governance required for its mutation class.
 
 Promotion state must be recorded.
 
----
+______________________________________________________________________
 
-# 43. Promotion Is Not Mutation
+## 43. Promotion Is Not Mutation
 
 A candidate may remain unchanged while its exposure level changes.
 
@@ -1253,9 +1253,9 @@ PROPAGATION
 
 The system must govern both.
 
----
+______________________________________________________________________
 
-# 44. Propagation Envelope
+## 44. Propagation Envelope
 
 A candidate SHOULD declare the maximum exposure allowed before promotion.
 
@@ -1282,9 +1282,9 @@ PropagationEnvelope:
 
 The candidate MUST NOT autonomously expand its own propagation envelope.
 
----
+______________________________________________________________________
 
-# 45. Propagation Monotonicity
+## 45. Propagation Monotonicity
 
 Increasing exposure is another governed change.
 
@@ -1300,9 +1300,9 @@ It changes consequence radius.
 
 Promotion requires sufficient evidence for the larger envelope.
 
----
+______________________________________________________________________
 
-# 46. Evidence Threshold
+## 46. Evidence Threshold
 
 Each mutation class SHOULD define required evidence strength.
 
@@ -1331,9 +1331,9 @@ independent replication
 
 No single evidence type is universally sufficient.
 
----
+______________________________________________________________________
 
-# 47. Claim Strength Bound
+## 47. Claim Strength Bound
 
 For evolution claims:
 
@@ -1355,9 +1355,9 @@ does not support:
 universally safe architecture
 ```
 
----
+______________________________________________________________________
 
-# 48. Local Success
+## 48. Local Success
 
 A change succeeding in:
 
@@ -1373,9 +1373,9 @@ environment Y
 
 L5 scope/regime laws remain active.
 
----
+______________________________________________________________________
 
-# 49. Evidence Transfer
+## 49. Evidence Transfer
 
 Before using evidence from one environment to authorize another:
 
@@ -1399,9 +1399,9 @@ regime
 authority
 ```
 
----
+______________________________________________________________________
 
-# 50. Experiment Environment
+## 50. Experiment Environment
 
 Evolution SHOULD separate environments by consequence.
 
@@ -1421,9 +1421,9 @@ If GMEF X0–X6 classes are used, exact definitions must come from the GMEF regi
 
 A candidate may not be tested in an environment exceeding current authorization.
 
----
+______________________________________________________________________
 
-# 51. Experiment Isolation
+## 51. Experiment Isolation
 
 An experiment SHOULD bound:
 
@@ -1438,9 +1438,9 @@ what gets logged
 
 Open-ended propagation is prohibited for unvalidated mutation.
 
----
+______________________________________________________________________
 
-# 52. Monitoring
+## 52. Monitoring
 
 Promotion does not end validation.
 
@@ -1460,9 +1460,9 @@ unexpected side effects
 repair burden
 ```
 
----
+______________________________________________________________________
 
-# 53. Stop Conditions
+## 53. Stop Conditions
 
 Every nontrivial rollout SHOULD define stop conditions before exposure.
 
@@ -1483,9 +1483,9 @@ Thresholds must come from applicable domain evidence/policy.
 
 Do not invent them here.
 
----
+______________________________________________________________________
 
-# 54. Monitoring Window
+## 54. Monitoring Window
 
 Monitoring duration SHOULD depend on the timescale of potential failure.
 
@@ -1501,9 +1501,9 @@ FAILURE_LATENCY
 
 where known.
 
----
+______________________________________________________________________
 
-# 55. Delayed Failure
+## 55. Delayed Failure
 
 Some mutations may pass immediate checks yet cause:
 
@@ -1520,9 +1520,9 @@ later.
 
 L9 therefore includes post-promotion monitoring.
 
----
+______________________________________________________________________
 
-# 56. Competing Evolution Hypotheses
+## 56. Competing Evolution Hypotheses
 
 Every consequential mutation SHOULD consider at least:
 
@@ -1539,9 +1539,9 @@ Hr — result is regime-specific and fails after transition
 
 Where material, additional hypotheses SHOULD be added.
 
----
+______________________________________________________________________
 
-# 57. Improvement vs Regression
+## 57. Improvement vs Regression
 
 A candidate may simultaneously:
 
@@ -1560,9 +1560,9 @@ SYSTEM_IMPROVEMENT
 
 Promotion requires evaluation across protected constraints.
 
----
+______________________________________________________________________
 
-# 58. Multi-Objective Evolution
+## 58. Multi-Objective Evolution
 
 Candidate assessment MAY include:
 
@@ -1582,9 +1582,9 @@ maintainability
 
 Optimization MUST NOT weaken hard constraints.
 
----
+______________________________________________________________________
 
-# 59. Hard Governance Constraints
+## 59. Hard Governance Constraints
 
 Some dimensions SHOULD function as gates rather than tradeable objectives.
 
@@ -1610,9 +1610,9 @@ HARD_CONSTRAINT_FAILURE
 NO PROMOTION
 ```
 
----
+______________________________________________________________________
 
-# 60. Anti-Regression Envelope
+## 60. Anti-Regression Envelope
 
 An optimization is admissible only when it preserves or improves load-bearing qualities such as:
 
@@ -1630,9 +1630,9 @@ user fit
 
 where relevant.
 
----
+______________________________________________________________________
 
-# 61. Schema Evolution
+## 61. Schema Evolution
 
 Schema changes SHOULD be classified as:
 
@@ -1645,9 +1645,9 @@ unknown
 
 Breaking schema change requires dependency impact analysis and migration planning.
 
----
+______________________________________________________________________
 
-# 62. API Evolution
+## 62. API Evolution
 
 API changes SHOULD preserve:
 
@@ -1661,9 +1661,9 @@ migration path
 
 Silent contract changes violate bounded mutation.
 
----
+______________________________________________________________________
 
-# 63. Policy Evolution
+## 63. Policy Evolution
 
 Policy changes may alter:
 
@@ -1677,9 +1677,9 @@ escalation rules
 
 Such changes require governance authority and downstream invalidation where applicable.
 
----
+______________________________________________________________________
 
-# 64. Authority Evolution
+## 64. Authority Evolution
 
 Changing authority semantics is a high-consequence mutation.
 
@@ -1695,9 +1695,9 @@ commit-time checks
 
 Such mutations MUST NOT be self-authorized by the subsystem being changed.
 
----
+______________________________________________________________________
 
-# 65. Canon Evolution
+## 65. Canon Evolution
 
 Canon evolution requires explicit provenance and supersession.
 
@@ -1714,9 +1714,9 @@ affected downstream canon
 
 Canon change MUST NOT silently rewrite origin history.
 
----
+______________________________________________________________________
 
-# 66. Skill Evolution
+## 66. Skill Evolution
 
 A Skill mutation SHOULD reassess:
 
@@ -1734,9 +1734,9 @@ provenance
 
 Adding a tool may change mutation class even if prose instructions barely change.
 
----
+______________________________________________________________________
 
-# 67. Agent Evolution
+## 67. Agent Evolution
 
 Agent changes MAY alter:
 
@@ -1752,9 +1752,9 @@ execution behavior
 
 Therefore agent mutation must be assessed behaviorally, not only textually.
 
----
+______________________________________________________________________
 
-# 68. Memory Evolution
+## 68. Memory Evolution
 
 Memory schema or retention changes can alter future reasoning.
 
@@ -1773,9 +1773,9 @@ where material.
 
 A memory optimization that reduces tokens but destroys provenance is a regression.
 
----
+______________________________________________________________________
 
-# 69. Control-Plane Evolution
+## 69. Control-Plane Evolution
 
 Control-plane changes are high-consequence because they can modify:
 
@@ -1791,9 +1791,9 @@ rollback
 
 Such mutations require stronger evidence and independent governance.
 
----
+______________________________________________________________________
 
-# 70. Validator Evolution
+## 70. Validator Evolution
 
 A candidate MUST NOT gain approval merely by weakening the validator that previously blocked it.
 
@@ -1807,9 +1807,9 @@ CHANGE_JUDGE
 
 requires explicit independence controls.
 
----
+______________________________________________________________________
 
-# 71. Benchmark Evolution
+## 71. Benchmark Evolution
 
 Changing a benchmark can make metrics appear improved without system improvement.
 
@@ -1831,9 +1831,9 @@ reason
 
 where historical comparison matters.
 
----
+______________________________________________________________________
 
-# 72. Metric Gaming
+## 72. Metric Gaming
 
 A mutation that optimizes a metric may degrade the underlying objective.
 
@@ -1845,9 +1845,9 @@ METRIC_GAIN
 OBJECTIVE_GAIN
 ```
 
----
+______________________________________________________________________
 
-# 73. Git History
+## 73. Git History
 
 The supplied enforcement identifies:
 
@@ -1878,9 +1878,9 @@ validation
 causal responsibility
 ```
 
----
+______________________________________________________________________
 
-# 74. Git Is Not Canon Authority
+## 74. Git Is Not Canon Authority
 
 ```text
 COMMITTED_TO_GIT
@@ -1898,17 +1898,17 @@ VALIDATED
 
 unless a repository governance process explicitly establishes those equivalences.
 
----
+______________________________________________________________________
 
-# 75. Version Identity
+## 75. Version Identity
 
 Every meaningful mutation SHOULD produce a distinguishable version or state identity.
 
 Without version identity, provenance and regression analysis become fragile.
 
----
+______________________________________________________________________
 
-# 76. Change Manifest
+## 76. Change Manifest
 
 A governed mutation SHOULD produce a change manifest.
 
@@ -1938,9 +1938,9 @@ ChangeManifest:
   authority: null
 ```
 
----
+______________________________________________________________________
 
-# 77. Expected-Unchanged Set
+## 77. Expected-Unchanged Set
 
 Anti-regression requires declaring what SHOULD NOT change.
 
@@ -1958,9 +1958,9 @@ PROTECTED_UNCHANGED_SET
 
 Unexpected changes in the protected set are regressions.
 
----
+______________________________________________________________________
 
-# 78. Mutation Diff
+## 78. Mutation Diff
 
 A mutation diff SHOULD distinguish:
 
@@ -1975,9 +1975,9 @@ dependency diff
 
 A small text diff can have a large semantic or governance effect.
 
----
+______________________________________________________________________
 
-# 79. Semantic Mutation
+## 79. Semantic Mutation
 
 If behavior changes without obvious file-level change—for example through dependency upgrades—the mutation must still be treated as evolution.
 
@@ -1989,9 +1989,9 @@ NO SOURCE DIFF
 NO SYSTEM MUTATION
 ```
 
----
+______________________________________________________________________
 
-# 80. Dependency Upgrade
+## 80. Dependency Upgrade
 
 Changing a dependency version MAY introduce mutation even if AMOS-owned code is unchanged.
 
@@ -2005,9 +2005,9 @@ schemas
 performance
 ```
 
----
+______________________________________________________________________
 
-# 81. Environment Mutation
+## 81. Environment Mutation
 
 Changing:
 
@@ -2025,9 +2025,9 @@ can alter behavior.
 
 Environment changes SHOULD therefore be versioned and validated where material.
 
----
+______________________________________________________________________
 
-# 82. Mutation Evidence
+## 82. Mutation Evidence
 
 Evidence SHOULD be bound to:
 
@@ -2043,9 +2043,9 @@ time
 
 A test result for `V1` cannot automatically validate `V2`.
 
----
+______________________________________________________________________
 
-# 83. Validation Freshness
+## 83. Validation Freshness
 
 A candidate mutation invalidates old validations that depend on changed behavior.
 
@@ -2061,9 +2061,9 @@ Invalidate(
 
 Unrelated validation receipts remain valid where dependency isolation is established.
 
----
+______________________________________________________________________
 
-# 84. Selective Revalidation
+## 84. Selective Revalidation
 
 L9 follows:
 
@@ -2085,9 +2085,9 @@ RETEST EVERYTHING ALWAYS
 
 unless dependency uncertainty requires global validation.
 
----
+______________________________________________________________________
 
-# 85. Proof-Based Avoidance of Global Revalidation
+## 85. Proof-Based Avoidance of Global Revalidation
 
 A subsystem MAY avoid revalidation if it can demonstrate:
 
@@ -2105,9 +2105,9 @@ Absence of evidence is insufficient.
 
 Independence must be established.
 
----
+______________________________________________________________________
 
-# 86. Mutation Isolation
+## 86. Mutation Isolation
 
 A candidate SHOULD be isolated so failure cannot escape its permitted propagation envelope before promotion.
 
@@ -2126,9 +2126,9 @@ separate namespace
 
 depending on domain.
 
----
+______________________________________________________________________
 
-# 87. Feature Flags
+## 87. Feature Flags
 
 Feature flags can support bounded rollout, but:
 
@@ -2140,9 +2140,9 @@ ROLLBACK GUARANTEE
 
 if underlying state migrations or irreversible effects have already occurred.
 
----
+______________________________________________________________________
 
-# 88. Data Migration
+## 88. Data Migration
 
 Data migrations deserve separate evolution treatment.
 
@@ -2160,9 +2160,9 @@ partial-failure behavior
 
 A schema rollback may not restore mutated data automatically.
 
----
+______________________________________________________________________
 
-# 89. Irreversible Mutation
+## 89. Irreversible Mutation
 
 When rollback is impossible or incomplete:
 
@@ -2181,9 +2181,9 @@ monitoring
 blast-radius limitation
 ```
 
----
+______________________________________________________________________
 
-# 90. Migration Compatibility
+## 90. Migration Compatibility
 
 Where old and new versions coexist:
 
@@ -2195,9 +2195,9 @@ compatibility constraints SHOULD be tested explicitly.
 
 Mixed-version operation is a distinct regime.
 
----
+______________________________________________________________________
 
-# 91. Forks
+## 91. Forks
 
 A fork creates parallel evolution paths:
 
@@ -2219,9 +2219,9 @@ merge conditions
 
 No branch automatically supersedes the other.
 
----
+______________________________________________________________________
 
-# 92. Merge
+## 92. Merge
 
 Merging two evolutionary branches requires compatibility analysis.
 
@@ -2239,9 +2239,9 @@ VALID(MERGE(A,B))
 
 because interactions may create new behavior.
 
----
+______________________________________________________________________
 
-# 93. Emergent Mutation Risk
+## 93. Emergent Mutation Risk
 
 Composed individually safe changes may create unsafe global behavior.
 
@@ -2257,9 +2257,9 @@ SAFE(A+B)
 
 without composition testing where interaction is material.
 
----
+______________________________________________________________________
 
-# 94. Mutation Interaction Graph
+## 94. Mutation Interaction Graph
 
 Conceptually:
 
@@ -2283,9 +2283,9 @@ shared failure path
 
 This is an AMOS_MODEL tool.
 
----
+______________________________________________________________________
 
-# 95. Concurrent Mutation
+## 95. Concurrent Mutation
 
 Concurrent evolution increases ambiguity over causation and regression attribution.
 
@@ -2299,9 +2299,9 @@ root_cause_confidence
 
 should be bounded.
 
----
+______________________________________________________________________
 
-# 96. Evolution Epoch
+## 96. Evolution Epoch
 
 A system MAY group validated changes into an evolution epoch.
 
@@ -2319,9 +2319,9 @@ EvolutionEpoch:
 
 Epochs support replay and historical reasoning.
 
----
+______________________________________________________________________
 
-# 97. Finalization
+## 97. Finalization
 
 A candidate should become final for an epoch only after:
 
@@ -2339,9 +2339,9 @@ Finalization does not imply permanent immutability.
 
 Later evidence may still trigger repair or supersession.
 
----
+______________________________________________________________________
 
-# 98. GMEF Relationship
+## 98. GMEF Relationship
 
 L9 aligns structurally with GMEF-style governed evolution.
 
@@ -2359,9 +2359,9 @@ rollback
 
 A candidate MUST NOT redefine its own admissibility rules.
 
----
+______________________________________________________________________
 
-# 99. GMEF Lifecycle Legality
+## 99. GMEF Lifecycle Legality
 
 A candidate should not jump directly to unrestricted deployment.
 
@@ -2377,9 +2377,9 @@ candidate
 
 The exact GMEF lifecycle state names should be sourced from the authoritative GMEF reference when canonical precision is required.
 
----
+______________________________________________________________________
 
-# 100. Evidence Classes
+## 100. Evidence Classes
 
 Where GMEF ET0–ET5 evidence levels are used, exact meanings MUST be recovered from the GMEF reference.
 
@@ -2393,9 +2393,9 @@ EvidenceRequiredForMutationClass
 
 before promotion.
 
----
+______________________________________________________________________
 
-# 101. Authority Classes
+## 101. Authority Classes
 
 Where GMEF HA0–HA5 authority classes are used, exact meanings MUST come from authoritative GMEF definitions.
 
@@ -2407,9 +2407,9 @@ MODEL OUTPUT
 AUTHORIZATION TOKEN
 ```
 
----
+______________________________________________________________________
 
-# 102. Experiment Environment Classes
+## 102. Experiment Environment Classes
 
 Where GMEF X0–X6 are used, exact environment meanings MUST come from the authoritative GMEF registry.
 
@@ -2421,9 +2421,9 @@ ExperimentConsequence
 AuthorizedExperimentEnvelope
 ```
 
----
+______________________________________________________________________
 
-# 103. Adversarial Evolution Review
+## 103. Adversarial Evolution Review
 
 Before consequential promotion, challenge the candidate.
 
@@ -2455,9 +2455,9 @@ Are negative outcomes hidden by aggregation?
 Did provenance become less recoverable?
 ```
 
----
+______________________________________________________________________
 
-# 104. Self-Refutation Requirement
+## 104. Self-Refutation Requirement
 
 A candidate SHOULD actively search for evidence that would block its own promotion.
 
@@ -2471,9 +2471,9 @@ FIND THE CHEAPEST STRONG FALSIFIER
 
 not merely collect supportive evidence.
 
----
+______________________________________________________________________
 
-# 105. Stop Conditions for Evolution
+## 105. Stop Conditions for Evolution
 
 Evolution SHOULD stop or pause when:
 
@@ -2500,9 +2500,9 @@ QUARANTINE
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 106. Quarantine
+## 106. Quarantine
 
 A mutation SHOULD enter quarantine when:
 
@@ -2523,9 +2523,9 @@ BUT
 DO NOT PROPAGATE
 ```
 
----
+______________________________________________________________________
 
-# 107. Rollout
+## 107. Rollout
 
 A rollout SHOULD have:
 
@@ -2549,9 +2549,9 @@ RolloutPlan:
   responsible_authority: null
 ```
 
----
+______________________________________________________________________
 
-# 108. Canary
+## 108. Canary
 
 A canary is a bounded live exposure.
 
@@ -2565,9 +2565,9 @@ GLOBAL_PRODUCTION_VALIDITY
 
 Expansion requires transfer evidence.
 
----
+______________________________________________________________________
 
-# 109. Shadow Mode
+## 109. Shadow Mode
 
 Shadow mode may evaluate behavior without allowing the candidate to control consequential effects.
 
@@ -2579,9 +2579,9 @@ PRODUCTION_EFFECT
 
 Shadow success provides evidence but does not establish execution authority.
 
----
+______________________________________________________________________
 
-# 110. Sandbox
+## 110. Sandbox
 
 Sandbox success establishes behavior only within sandbox conditions.
 
@@ -2593,9 +2593,9 @@ SANDBOX_PASS
 PRODUCTION_PASS
 ```
 
----
+______________________________________________________________________
 
-# 111. Monitoring After Promotion
+## 111. Monitoring After Promotion
 
 General production is not epistemic closure.
 
@@ -2610,9 +2610,9 @@ security issues
 unexpected externalities
 ```
 
----
+______________________________________________________________________
 
-# 112. Repair Trigger
+## 112. Repair Trigger
 
 Repair SHOULD be triggered when:
 
@@ -2630,9 +2630,9 @@ is discovered.
 
 Repair should target the earliest load-bearing failure.
 
----
+______________________________________________________________________
 
-# 113. Repair Locality
+## 113. Repair Locality
 
 L9 inherits selective repair:
 
@@ -2650,9 +2650,9 @@ REVALIDATE DESCENDANTS
 
 Global rollback is a last resort.
 
----
+______________________________________________________________________
 
-# 114. Repair Does Not Equal Growth
+## 114. Repair Does Not Equal Growth
 
 Repair restores or improves integrity.
 
@@ -2662,9 +2662,9 @@ They are different change classes.
 
 A repair SHOULD NOT silently introduce unrelated capability expansion.
 
----
+______________________________________________________________________
 
-# 115. Repair Regression
+## 115. Repair Regression
 
 A repair can itself cause regression.
 
@@ -2688,9 +2688,9 @@ original-failure validation
 protected-regression validation
 ```
 
----
+______________________________________________________________________
 
-# 116. Rollback Failure
+## 116. Rollback Failure
 
 Rollback may fail due to:
 
@@ -2705,9 +2705,9 @@ environment drift
 
 Therefore rollback capability itself SHOULD be validated before high-consequence deployment.
 
----
+______________________________________________________________________
 
-# 117. Recovery Point
+## 117. Recovery Point
 
 A candidate SHOULD identify:
 
@@ -2729,9 +2729,9 @@ configuration
 database backup
 ```
 
----
+______________________________________________________________________
 
-# 118. Evolution Provenance
+## 118. Evolution Provenance
 
 A mutation SHOULD preserve provenance for:
 
@@ -2749,9 +2749,9 @@ supersession
 
 These are separate events.
 
----
+______________________________________________________________________
 
-# 119. Evolution Ledger
+## 119. Evolution Ledger
 
 A conceptual evolution ledger MAY record:
 
@@ -2781,9 +2781,9 @@ EvolutionLedgerEntry:
   provenance: []
 ```
 
----
+______________________________________________________________________
 
-# 120. Evolution Memory
+## 120. Evolution Memory
 
 Persistent evolution memory SHOULD preserve negative as well as positive outcomes.
 
@@ -2803,9 +2803,9 @@ BE ERASED BY SUCCESSOR VERSION
 
 unless retention rules explicitly require deletion.
 
----
+______________________________________________________________________
 
-# 121. H/M/L Applicability
+## 121. H/M/L Applicability
 
 ## H — Governing Evolution
 
@@ -2820,7 +2820,7 @@ H-level mutation includes:
 
 These carry the largest governance burden.
 
----
+______________________________________________________________________
 
 ## M — Subsystem Evolution
 
@@ -2834,7 +2834,7 @@ M-level mutation includes:
 - memory subsystems;
 - workflow engines.
 
----
+______________________________________________________________________
 
 ## L — Local Evolution
 
@@ -2849,9 +2849,9 @@ L-level mutation includes:
 
 A local mutation MAY still have H/M consequences if dependency fan-out is large.
 
----
+______________________________________________________________________
 
-# 122. Cross-Scale Mutation
+## 122. Cross-Scale Mutation
 
 A mutation MUST be classified by consequence, not merely edit location.
 
@@ -2875,9 +2875,9 @@ SMALL_DIFF
 SMALL_MUTATION
 ```
 
----
+______________________________________________________________________
 
-# 123. Control-Plane Requirements
+## 123. Control-Plane Requirements
 
 An L9-conformant control plane SHOULD support:
 
@@ -2917,32 +2917,32 @@ control_plane_requirements:
 
 This is a governance contract, not proof that every mechanism is presently executable.
 
----
+______________________________________________________________________
 
-# 124. Agent Requirements
+## 124. Agent Requirements
 
 An L9-conformant agent SHOULD:
 
 1. identify the current authoritative state;
-2. identify the proposed mutation;
-3. classify its mutation type;
-4. define intended benefit;
-5. define protected unchanged behavior;
-6. calculate or bound blast radius;
-7. inspect dependency closure;
-8. identify required evidence;
-9. identify required authority;
-10. define rollback;
-11. define monitoring;
-12. search for regressions;
-13. generate competing hypotheses;
-14. identify falsifiers;
-15. avoid self-modifying admission criteria;
-16. request governance promotion rather than self-promote.
+1. identify the proposed mutation;
+1. classify its mutation type;
+1. define intended benefit;
+1. define protected unchanged behavior;
+1. calculate or bound blast radius;
+1. inspect dependency closure;
+1. identify required evidence;
+1. identify required authority;
+1. define rollback;
+1. define monitoring;
+1. search for regressions;
+1. generate competing hypotheses;
+1. identify falsifiers;
+1. avoid self-modifying admission criteria;
+1. request governance promotion rather than self-promote.
 
----
+______________________________________________________________________
 
-# 125. Skill Requirements
+## 125. Skill Requirements
 
 A mutable Skill SHOULD expose:
 
@@ -2975,9 +2975,9 @@ evolution_contract:
   supersession_required: false
 ```
 
----
+______________________________________________________________________
 
-# 126. Workflow Contract
+## 126. Workflow Contract
 
 Canonical conceptual L9 workflow:
 
@@ -3009,9 +3009,9 @@ Canonical conceptual L9 workflow:
 25. RECORD EVOLUTION LEDGER
 ```
 
----
+______________________________________________________________________
 
-# 127. Protocol Contract
+## 127. Protocol Contract
 
 ```yaml
 EVOLUTION_REQUEST:
@@ -3066,9 +3066,9 @@ EVOLUTION_FINALIZATION:
   ledger_entry: ...
 ```
 
----
+______________________________________________________________________
 
-# 128. Failure Modes
+## 128. Failure Modes
 
 L9 recognizes at least:
 
@@ -3172,9 +3172,9 @@ Multiple versions claim authority without precedence.
 
 Capability accumulates faster than maintenance and repair capacity.
 
----
+______________________________________________________________________
 
-# 129. Recovery / Repair
+## 129. Recovery / Repair
 
 Canonical recovery:
 
@@ -3206,9 +3206,9 @@ RE-RUN PROTECTED VALIDATIONS
 RE-ENTER GOVERNED LIFECYCLE
 ```
 
----
+______________________________________________________________________
 
-# 130. Regression Recovery
+## 130. Regression Recovery
 
 When a protected regression occurs:
 
@@ -3228,9 +3228,9 @@ authorized contract supersession occurs
 candidate rejected
 ```
 
----
+______________________________________________________________________
 
-# 131. Mutation Rollback
+## 131. Mutation Rollback
 
 Rollback SHOULD restore:
 
@@ -3247,9 +3247,9 @@ as applicable.
 
 A code rollback alone may be insufficient.
 
----
+______________________________________________________________________
 
-# 132. Selective Rollback
+## 132. Selective Rollback
 
 Where impact boundaries are proven, rollback may target only affected components.
 
@@ -3261,9 +3261,9 @@ broader rollback
 
 may be required.
 
----
+______________________________________________________________________
 
-# 133. Validator Families
+## 133. Validator Families
 
 Conceptual validators include:
 
@@ -3313,9 +3313,9 @@ These are conceptual validator responsibilities.
 
 They are not claims of exact implementation function names.
 
----
+______________________________________________________________________
 
-# 134. Minimum Evolution Tests
+## 134. Minimum Evolution Tests
 
 ## L9-T1 — Additive Change
 
@@ -3335,7 +3335,7 @@ ADDITIVE CANDIDATE
 
 subject to normal validation.
 
----
+______________________________________________________________________
 
 ## L9-T2 — Destructive Rewrite
 
@@ -3352,7 +3352,7 @@ Expected:
 REJECT / REQUIRE SUPERSESSION
 ```
 
----
+______________________________________________________________________
 
 ## L9-T3 — Unknown Blast Radius
 
@@ -3371,7 +3371,7 @@ HOLD_FOR_EVIDENCE
 
 not `LOW_RISK`.
 
----
+______________________________________________________________________
 
 ## L9-T4 — Protected Regression
 
@@ -3389,7 +3389,7 @@ REGRESSION INCIDENT
 PROMOTION BLOCKED
 ```
 
----
+______________________________________________________________________
 
 ## L9-T5 — Authorized Supersession
 
@@ -3410,7 +3410,7 @@ SUPERSESSION CANDIDATE
 
 not silent regression.
 
----
+______________________________________________________________________
 
 ## L9-T6 — Capability Without Repair
 
@@ -3431,7 +3431,7 @@ HOLD / REJECT / RESTRICT PROPAGATION
 
 depending on consequence.
 
----
+______________________________________________________________________
 
 ## L9-T7 — Candidate Weakens Validator
 
@@ -3450,7 +3450,7 @@ GOVERNANCE_CAPTURE
 REJECT
 ```
 
----
+______________________________________________________________________
 
 ## L9-T8 — Hidden Production Promotion
 
@@ -3468,7 +3468,7 @@ Expected:
 ILLEGAL_LIFECYCLE_TRANSITION
 ```
 
----
+______________________________________________________________________
 
 ## L9-T9 — Canary Success
 
@@ -3486,7 +3486,7 @@ VALID_WITHIN_CANARY_SCOPE
 
 not universal validation.
 
----
+______________________________________________________________________
 
 ## L9-T10 — Rollback
 
@@ -3506,7 +3506,7 @@ REVALIDATION_REQUIRED
 
 not automatic `RESTORED`.
 
----
+______________________________________________________________________
 
 ## L9-T11 — Failed Rollback
 
@@ -3523,7 +3523,7 @@ Expected:
 PARTIAL_RECOVERY / INCIDENT
 ```
 
----
+______________________________________________________________________
 
 ## L9-T12 — Dependency Upgrade
 
@@ -3541,7 +3541,7 @@ Expected:
 EVOLUTION_EVENT
 ```
 
----
+______________________________________________________________________
 
 ## L9-T13 — Valid Branches Invalid Merge
 
@@ -3559,7 +3559,7 @@ Expected:
 MERGE REGRESSION
 ```
 
----
+______________________________________________________________________
 
 ## L9-T14 — Independent Unaffected Subsystem
 
@@ -3578,7 +3578,7 @@ Z validation may remain reusable
 
 subject to proof of independence.
 
----
+______________________________________________________________________
 
 ## L9-T15 — Failure Memory
 
@@ -3594,7 +3594,7 @@ Expected:
 failure artifact preserved
 ```
 
----
+______________________________________________________________________
 
 ## L9-T16 — Version Leakage
 
@@ -3611,7 +3611,7 @@ Expected:
 V1 RECEIPT DOES NOT VALIDATE V2
 ```
 
----
+______________________________________________________________________
 
 ## L9-T17 — Authority Expansion
 
@@ -3628,9 +3628,9 @@ Expected:
 REJECT / ESCALATE FOR INDEPENDENT AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 135. Enforcement References
+## 135. Enforcement References
 
 The supplied artifact identifies:
 
@@ -3679,27 +3679,27 @@ INDEPENDENTLY VERIFIED ENFORCEMENT
 
 until implementations and evidence are inspected.
 
----
+______________________________________________________________________
 
-# 136. Falsifiers
+## 136. Falsifiers
 
 This specification requires revision if:
 
 1. authoritative evolution canon permits unbounded mutation;
-2. authoritative canon rejects additive-first behavior;
-3. destructive rewrite is canonically permitted without supersession;
-4. regression is not treated as an incident under applicable canon;
-5. DMER L3 defines materially different repair/growth semantics;
-6. `01_CANON/08_SUPERSESSION` defines a materially different lifecycle;
-7. validation receipts are not canonical regression evidence;
-8. canonical mutation classes differ materially;
-9. canonical propagation semantics differ;
-10. authoritative GMEF defines incompatible lifecycle or mutation rules;
-11. higher-order canon supersedes V-1 through V-4.
+1. authoritative canon rejects additive-first behavior;
+1. destructive rewrite is canonically permitted without supersession;
+1. regression is not treated as an incident under applicable canon;
+1. DMER L3 defines materially different repair/growth semantics;
+1. `01_CANON/08_SUPERSESSION` defines a materially different lifecycle;
+1. validation receipts are not canonical regression evidence;
+1. canonical mutation classes differ materially;
+1. canonical propagation semantics differ;
+1. authoritative GMEF defines incompatible lifecycle or mutation rules;
+1. higher-order canon supersedes V-1 through V-4.
 
----
+______________________________________________________________________
 
-# 137. Core Invariants
+## 137. Core Invariants
 
 ## L9-I1 — Additive Preference
 
@@ -3711,7 +3711,7 @@ DESTRUCTIVE_EQUIVALENT_CHANGE
 
 where both satisfy the objective.
 
----
+______________________________________________________________________
 
 ## L9-I2 — Supersession Preservation
 
@@ -3721,7 +3721,7 @@ DESTRUCTIVE_REPLACEMENT
 SUPERSESSION_RECORD
 ```
 
----
+______________________________________________________________________
 
 ## L9-I3 — History Preservation
 
@@ -3731,7 +3731,7 @@ MUST NOT
 ERASE PREDECESSOR HISTORY
 ```
 
----
+______________________________________________________________________
 
 ## L9-I4 — Blast Radius
 
@@ -3741,7 +3741,7 @@ MUTATION
 DECLARED IMPACT ENVELOPE
 ```
 
----
+______________________________________________________________________
 
 ## L9-I5 — Unknown Radius
 
@@ -3751,7 +3751,7 @@ UNKNOWN_BLAST_RADIUS
 LOW_RISK
 ```
 
----
+______________________________________________________________________
 
 ## L9-I6 — Anti-Regression
 
@@ -3763,7 +3763,7 @@ POST_CHANGE_FAIL
 REGRESSION
 ```
 
----
+______________________________________________________________________
 
 ## L9-I7 — Regression Incident
 
@@ -3775,7 +3775,7 @@ INCIDENT / PROMOTION BLOCK
 
 unless explicitly superseded.
 
----
+______________________________________________________________________
 
 ## L9-I8 — Repair Capacity
 
@@ -3785,7 +3785,7 @@ REQUIRES
 ADEQUATE REPAIR CONSIDERATION
 ```
 
----
+______________________________________________________________________
 
 ## L9-I9 — Rollback Preservation
 
@@ -3795,7 +3795,7 @@ MUST NOT
 ERASE FAILURE EVIDENCE
 ```
 
----
+______________________________________________________________________
 
 ## L9-I10 — Known-Good Parent
 
@@ -3807,7 +3807,7 @@ RECOVERABLE PARENT
 
 where technically possible.
 
----
+______________________________________________________________________
 
 ## L9-I11 — Governance Independence
 
@@ -3817,7 +3817,7 @@ MUST NOT
 LOWER ITS OWN ADMISSION STANDARD
 ```
 
----
+______________________________________________________________________
 
 ## L9-I12 — Propagation Bound
 
@@ -3827,7 +3827,7 @@ DEPLOYMENT
 AUTHORIZED_PROPAGATION_ENVELOPE
 ```
 
----
+______________________________________________________________________
 
 ## L9-I13 — Evidence Bound
 
@@ -3837,7 +3837,7 @@ CLAIM_STRENGTH
 EVIDENCE_STRENGTH
 ```
 
----
+______________________________________________________________________
 
 ## L9-I14 — Local Success
 
@@ -3847,7 +3847,7 @@ LOCAL_PASS
 GLOBAL_VALIDATION
 ```
 
----
+______________________________________________________________________
 
 ## L9-I15 — Version Binding
 
@@ -3859,7 +3859,7 @@ VALIDATION(V2)
 
 unless equivalence is demonstrated.
 
----
+______________________________________________________________________
 
 ## L9-I16 — Repair Validation
 
@@ -3871,7 +3871,7 @@ VALID_REPAIR
 
 until regression checks pass.
 
----
+______________________________________________________________________
 
 ## L9-I17 — Composition Validation
 
@@ -3885,9 +3885,9 @@ VALID(A+B)
 
 without interaction evidence.
 
----
+______________________________________________________________________
 
-# 138. Hard Boundaries
+## 138. Hard Boundaries
 
 ```text
 CHANGE != IMPROVEMENT
@@ -3931,9 +3931,9 @@ MODEL_OUTPUT != AUTHORIZATION
 UNKNOWN/GAP != PASS
 ```
 
----
+______________________________________________________________________
 
-# 139. Dependencies
+## 139. Dependencies
 
 Primary conceptual dependency spine:
 
@@ -3992,9 +3992,9 @@ dependencies:
     role: governs actual application, rollout, rollback, and effects
 ```
 
----
+______________________________________________________________________
 
-# 140. Related Evolution Infrastructure
+## 140. Related Evolution Infrastructure
 
 L9 conceptually interfaces with:
 
@@ -4020,9 +4020,9 @@ EXECUTION_LEDGER
 
 These names do not independently establish implementation.
 
----
+______________________________________________________________________
 
-# 141. Evidence / Provenance Requirements
+## 141. Evidence / Provenance Requirements
 
 A mature evolution record SHOULD preserve:
 
@@ -4053,9 +4053,9 @@ evolution_provenance:
   environment_fingerprint: ...
 ```
 
----
+______________________________________________________________________
 
-# 142. Uncertainty Vector
+## 142. Uncertainty Vector
 
 Mutation uncertainty MAY be represented as:
 
@@ -4076,9 +4076,9 @@ uncertainty:
 
 A candidate with high uncertainty in a load-bearing governance dimension receives a lower promotion ceiling.
 
----
+______________________________________________________________________
 
-# 143. Confidence Ceiling
+## 143. Confidence Ceiling
 
 Conceptually:
 
@@ -4099,9 +4099,9 @@ This is an AMOS_MODEL governance relation.
 
 It is not a calibrated probability equation.
 
----
+______________________________________________________________________
 
-# 144. Gap Status
+## 144. Gap Status
 
 ```yaml
 gap_status:
@@ -4153,9 +4153,9 @@ gap_status:
     final_canon_approval: REQUIRED
 ```
 
----
+______________________________________________________________________
 
-# 145. RSCF Completion State
+## 145. RSCF Completion State
 
 ```yaml
 claim_class: AMOS_MODEL
@@ -4258,9 +4258,9 @@ confidence_ceiling:
   runtime_verification: NOT_ESTABLISHED_HERE
 ```
 
----
+______________________________________________________________________
 
-# 146. Canon Promotion Gate
+## 146. Canon Promotion Gate
 
 Before final canon promotion:
 
@@ -4330,9 +4330,9 @@ not:
 STATUS = VERIFIED_FINAL_CANON
 ```
 
----
+______________________________________________________________________
 
-# 147. Final L9 Law Summary
+## 147. Final L9 Law Summary
 
 The supplied L9 contract reduces to four governing laws.
 
@@ -4359,6 +4359,7 @@ DEPENDENTS
 BLAST RADIUS
 PROPAGATION ENVELOPE
 ```
+
 ```text
 V-3 — ANTI-REGRESSION
 
@@ -4370,6 +4371,7 @@ REGRESSION INCIDENT
 
 NO SILENT BASELINE ERASURE
 ```
+
 ```text
 V-4 — REPAIR OVER GROWTH
 
@@ -4379,6 +4381,7 @@ REPAIR CAPACITY GROWTH
 =
 INCREASED EXPOSURE
 ```
+
 The complete governed evolution rule is conceptually:
 
 ```text
@@ -4432,15 +4435,15 @@ The final L9 governing principle is:
 
 > **AMOS may evolve only when change remains attributable, bounded, testable, reversible or explicitly governed as irreversible, resistant to regression, and supported by enough repair capacity to contain failure. Evolution must preserve its parent, its provenance, its failed experiments, and its authority chain. A system is not improved merely because it has become more capable.**
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[01_CANON/01_CORE_LAWS/L0_INTEGRITY|L0_INTEGRITY]] · [[01_CANON/01_CORE_LAWS/L1_EPISTEMIC|L1_EPISTEMIC]] · [[01_CANON/01_CORE_LAWS/L2_PROVENANCE|L2_PROVENANCE]] · [[01_CANON/01_CORE_LAWS/L3_DEPENDENCY|L3_DEPENDENCY]] · [[01_CANON/01_CORE_LAWS/L4_CAUSAL|L4_CAUSAL]] · [[01_CANON/01_CORE_LAWS/L5_SCOPE_REGIME|L5_SCOPE_REGIME]] · [[01_CANON/01_CORE_LAWS/L6_UNCERTAINTY|L6_UNCERTAINTY]] · [[01_CANON/01_CORE_LAWS/L7_AUTHORITY|L7_AUTHORITY]] · [[01_CANON/01_CORE_LAWS/L8_EXECUTION|L8_EXECUTION]] · 01_CANON/08_SUPERSESSION · [[01_CANON/01_CORE_LAWS/L18_GMEF|L18_GMEF]] · VALIDATION_RECEIPT · ROLLBACK · REPAIR
 
----
+______________________________________________________________________
 
 RSCF-NODE
 
@@ -4472,5 +4475,6 @@ RSCF-RELATIONS:
 
 claim_class: AMOS_MODEL
 
----
+______________________________________________________________________
+
 **MOC:** [[01_CANON/01_CORE_LAWS/01_CORE_LAWS_MOC|01_CORE_LAWS_MOC]]

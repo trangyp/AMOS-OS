@@ -1,10 +1,13 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: L00 REALITY ENVIRONMENT PRIMITIVES COGNITIVE MATRIX STATE
 type: state
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT
 tags:
-- amos
-- domain/cognitive-matrix
+  - amos
+  - domain/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -24,9 +27,9 @@ rscf:
 
 > **Critical provenance boundary:** the current Primitive Registry explicitly marks `L00 — REALITY_ENVIRONMENT` source maturity as `missing`. Therefore this document defines a conservative AMOS state contract derived from higher-order AMOS architecture and invariants. It must not be represented as recovered L00 source canon.
 
----
+______________________________________________________________________
 
-# 0. Purpose
+## 0. Purpose
 
 `STATE.md` defines the typed state carried by `L00_REALITY_ENVIRONMENT`.
 
@@ -94,9 +97,9 @@ OUTCOME OBSERVATION
 
 These layers must not collapse into one another.
 
----
+______________________________________________________________________
 
-# 1. Architectural Role
+## 1. Architectural Role
 
 `L00_REALITY_ENVIRONMENT` is the reality-facing boundary of the AMOS Cognitive Matrix.
 
@@ -160,9 +163,9 @@ OUTCOME OBSERVATION
 
 The exact boundaries with neighboring primitives remain conditional until their direct canon contracts are established.
 
----
+______________________________________________________________________
 
-# 2. Source Status
+## 2. Source Status
 
 ```yaml
 source_status:
@@ -194,39 +197,39 @@ MODEL
 VERIFIED CANON
 ```
 
----
+______________________________________________________________________
 
-# 3. Formal State Definition
+## 3. Formal State Definition
 
 The L00 state is modeled as:
 
-[
-S^{L00}_t =
-(E_t, O_t, M_t, C_t, P_t, T_t, \Sigma_t, R_t, U_t, V_t, D_t)
-]
+\[
+S^{L00}\_t =
+(E_t, O_t, M_t, C_t, P_t, T_t, \\Sigma_t, R_t, U_t, V_t, D_t)
+\]
 
 where:
 
-| Symbol     | Meaning                       |
-| ---------- | ----------------------------- |
-| \(E_t\)      | represented environment state |
-| \(O_t\)      | observations                  |
-| \(M_t\)      | measurements                  |
-| \(C_t\)      | source claims / conflicts     |
-| \(P_t\)      | provenance topology           |
-| \(T_t\)      | temporal coordinates          |
-| (\Sigma_t) | applicability scope           |
-| \(R_t\)      | regime                        |
-| \(U_t\)      | uncertainty vector            |
-| \(V_t\)      | validity/admission state      |
-| \(D_t\)      | dependency structure          |
+| Symbol      | Meaning                       |
+| ----------- | ----------------------------- |
+| (E_t)       | represented environment state |
+| (O_t)       | observations                  |
+| (M_t)       | measurements                  |
+| (C_t)       | source claims / conflicts     |
+| (P_t)       | provenance topology           |
+| (T_t)       | temporal coordinates          |
+| (\\Sigma_t) | applicability scope           |
+| (R_t)       | regime                        |
+| (U_t)       | uncertainty vector            |
+| (V_t)       | validity/admission state      |
+| (D_t)       | dependency structure          |
 
 This is an AMOS architectural equation, not an empirical law.
 
 The minimal state equation is:
 
-[
-\boxed{
+\[
+\\boxed{
 L00State =
 Representation(
 Observation,
@@ -237,29 +240,29 @@ Regime,
 Uncertainty
 )
 }
-]
+\]
 
 subject to:
 
-[
-\boxed{
-L00State \neq Reality
+\[
+\\boxed{
+L00State \\neq Reality
 }
-]
+\]
 
 and:
 
-[
-\boxed{
+\[
+\\boxed{
 MissingGrounding
-\Rightarrow
+\\Rightarrow
 UNKNOWN/GAP
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 4. State Tensor
+## 4. State Tensor
 
 ```text
 T_L00_STATE =
@@ -306,20 +309,18 @@ SAME_SEMANTICS
 
 Composition requires compatibility across all load-bearing axes.
 
-[
-Compatible(T_a,T_b)
-===================
+## \[ Compatible(T_a,T_b)
 
 SemanticCompatibility
-\land
+\\land
 ScopeCompatibility
-\land
+\\land
 RegimeCompatibility
-\land
+\\land
 TemporalCompatibility
-\land
+\\land
 ProvenanceCompatibility
-]
+\]
 
 If compatibility is unresolved:
 
@@ -327,9 +328,9 @@ If compatibility is unresolved:
 DO NOT MERGE
 ```
 
----
+______________________________________________________________________
 
-# 5. Primary State Schema
+## 5. Primary State Schema
 
 ```yaml
 L00RealityEnvironmentState:
@@ -445,9 +446,9 @@ L00RealityEnvironmentState:
   confidence_ceiling:
 ```
 
----
+______________________________________________________________________
 
-# 6. Typed Inputs
+## 6. Typed Inputs
 
 ```yaml
 L00StateInput:
@@ -503,9 +504,9 @@ NOT_RETRIEVED
 NONEXISTENT
 ```
 
----
+______________________________________________________________________
 
-# 7. Typed Outputs
+## 7. Typed Outputs
 
 ```yaml
 L00StateOutput:
@@ -552,9 +553,9 @@ UNKNOWN/GAP
 
 The weakest accurate class must be used.
 
----
+______________________________________________________________________
 
-# 8. State Variables
+## 8. State Variables
 
 ```text
 S_env       current admitted environment representation
@@ -608,9 +609,9 @@ E_epoch     environment-state epoch
 Auth        applicable authority state
 ```
 
----
+______________________________________________________________________
 
-# 9. Epistemic State Partition
+## 9. Epistemic State Partition
 
 Every consequential L00 state element must carry an epistemic class.
 
@@ -652,9 +653,9 @@ OBSERVATION
 
 requires evidence establishing that the claimed value was independently observed under the relevant observation contract.
 
----
+______________________________________________________________________
 
-# 10. Reality–Representation Firewall
+## 10. Reality–Representation Firewall
 
 The valid direction is:
 
@@ -690,21 +691,21 @@ Simulation may create simulated state.
 
 None may mutate historical observations into agreement with themselves.
 
----
+______________________________________________________________________
 
-# 11. Environment Epoch
+## 11. Environment Epoch
 
 Each admitted material environment state should carry a versioned epoch.
 
-[
+\[
 E^{(0)}
-\rightarrow
+\\rightarrow
 E^{(1)}
-\rightarrow
+\\rightarrow
 E^{(2)}
-\rightarrow
+\\rightarrow
 ...
-]
+\]
 
 A new epoch is required when a decision-relevant change invalidates assumptions attached to the previous environment representation.
 
@@ -734,9 +735,9 @@ environment_epoch:
 
 Epoching is an architectural mechanism in this contract, not evidence that an executable L00 epoch store currently exists.
 
----
+______________________________________________________________________
 
-# 12. State Operators
+## 12. State Operators
 
 ```text
 INITIALIZE
@@ -804,9 +805,9 @@ REJECT
 ROLLBACK
 ```
 
----
+______________________________________________________________________
 
-# 13. State Lifecycle
+## 13. State Lifecycle
 
 ```text
 UNINITIALIZED
@@ -838,74 +839,68 @@ CURRENT
 
 Existence of a value does not license transition to `CURRENT`.
 
----
+______________________________________________________________________
 
-# 14. Observation Update Equation
+## 14. Observation Update Equation
 
-For a new observation \(o_t\):
+For a new observation (o_t):
 
-[
-S_{t+1}
-=======
+## \[ S\_{t+1}
 
 Update(S_t,o_t)
-]
+\]
 
 only if the observation satisfies the relevant admission conditions.
 
 Define:
 
-[
-Admissible(o_t)
-===============
+## \[ Admissible(o_t)
 
 SchemaValid
-\land
+\\land
 ProvenanceAcceptable
-\land
+\\land
 ScopeCompatible
-\land
+\\land
 RegimeCompatible
-\land
+\\land
 TemporalValid
-]
+\]
 
 Then:
 
-[
+\[
 Admissible(o_t)=1
-\Rightarrow
+\\Rightarrow
 CandidateUpdate(S_t,o_t)
-]
+\]
 
 Otherwise:
 
-[
+\[
 o_t
-\rightarrow
+\\rightarrow
 QUARANTINE
-]
+\]
 
 or:
 
-[
+\[
 o_t
-\rightarrow
+\\rightarrow
 UNKNOWN/GAP
-]
+\]
 
 No failed observation may silently mutate admitted state.
 
----
+______________________________________________________________________
 
-# 15. State Delta
+## 15. State Delta
 
-[
-\Delta S_t
-==========
+## \[ \\Delta S_t
 
-Compare(S_t,S_{t-1})
-]
+Compare(S_t,S\_{t-1})
+\]
 
 Delta classes:
 
@@ -933,34 +928,32 @@ REMOVED
 
 unless the observation method is capable of establishing absence.
 
----
+______________________________________________________________________
 
-# 16. State Merge
+## 16. State Merge
 
 Two state fragments may merge only when compatible across load-bearing dimensions.
 
-[
-Mergeable(S_a,S_b)
-==================
+## \[ Mergeable(S_a,S_b)
 
 Semantics
-\land
+\\land
 Scope
-\land
+\\land
 Regime
-\land
+\\land
 Time
-\land
+\\land
 Measurement
-\land
+\\land
 Provenance
-]
+\]
 
 If:
 
-[
+\[
 Mergeable(S_a,S_b)=0
-]
+\]
 
 then:
 
@@ -982,26 +975,24 @@ UNKNOWN/GAP
 
 must remain visible.
 
----
+______________________________________________________________________
 
-# 17. Current-State Rule
+## 17. Current-State Rule
 
 `CURRENT` is relative to a declared use and decision horizon.
 
 It is not timeless.
 
-[
-Current(S,t,d)
-==============
+## \[ Current(S,t,d)
 
 Valid(S)
-\land
+\\land
 Fresh(S,t,d)
-\land
+\\land
 ScopeCompatible(S,d)
-\land
+\\land
 RegimeCompatible(S,d)
-]
+\]
 
 where (d) is the downstream decision context.
 
@@ -1017,9 +1008,9 @@ does not imply:
 CURRENT FOR PURPOSE B
 ```
 
----
+______________________________________________________________________
 
-# 18. Freshness
+## 18. Freshness
 
 ```yaml
 freshness:
@@ -1046,25 +1037,23 @@ freshness:
 
 Conceptually:
 
-[
-Fresh(S,t)
-==========
+## \[ Fresh(S,t)
 
 f(
-t-T_{obs},
-environment\ volatility,
-decision\ horizon,
+t-T\_{obs},
+environment\\ volatility,
+decision\\ horizon,
 regime
 )
-]
+\]
 
 No universal freshness threshold is asserted.
 
 Freshness must be domain- and use-sensitive.
 
----
+______________________________________________________________________
 
-# 19. Temporal Integrity
+## 19. Temporal Integrity
 
 L00 must distinguish:
 
@@ -1100,9 +1089,9 @@ CURRENT EVENT
 
 Temporal compression must preserve these distinctions whenever they can affect downstream reasoning.
 
----
+______________________________________________________________________
 
-# 20. Scope Contract
+## 20. Scope Contract
 
 Every consequential state should carry an applicability envelope.
 
@@ -1136,9 +1125,9 @@ VALID HERE
 VALID EVERYWHERE
 ```
 
----
+______________________________________________________________________
 
-# 21. Regime Contract
+## 21. Regime Contract
 
 Environment state may be regime-dependent.
 
@@ -1162,17 +1151,17 @@ A regime transition may invalidate otherwise fresh observations.
 
 Therefore:
 
-[
+\[
 RegimeShift
-\Rightarrow
+\\Rightarrow
 Revalidate(DependentState)
-]
+\]
 
 when regime membership is load-bearing.
 
----
+______________________________________________________________________
 
-# 22. Provenance Contract
+## 22. Provenance Contract
 
 Every consequential state value should be traceable through:
 
@@ -1236,9 +1225,9 @@ Provenance enables auditability.
 
 It does not automatically establish correctness.
 
----
+______________________________________________________________________
 
-# 23. Provenance Independence
+## 23. Provenance Independence
 
 Multiple sources may share ancestry.
 
@@ -1254,11 +1243,11 @@ do not automatically represent three independent observations.
 
 Define:
 
-[
+\[
 IndependentEvidenceCount
-\le
+\\le
 UniqueIndependentAncestryGroups
-]
+\]
 
 Correlated descendants must not artificially increase confidence.
 
@@ -1276,9 +1265,9 @@ MULTIPLE ALIASES
 MULTIPLE SOURCES
 ```
 
----
+______________________________________________________________________
 
-# 24. Uncertainty Tensor
+## 24. Uncertainty Tensor
 
 ```text
 U_L00 =
@@ -1299,24 +1288,24 @@ T[
 
 A scalar confidence score must not erase a critical uncertainty dimension.
 
----
+______________________________________________________________________
 
-# 25. Confidence Ceiling
+## 25. Confidence Ceiling
 
-For state element \(s_i\):
+For state element (s_i):
 
-[
+\[
 Conf(s_i)
-\le
-\min(
-C_{evidence},
-C_{provenance},
-C_{freshness},
-C_{scope},
-C_{regime},
-C_{measurement}
+\\le
+\\min(
+C\_{evidence},
+C\_{provenance},
+C\_{freshness},
+C\_{scope},
+C\_{regime},
+C\_{measurement}
 )
-]
+\]
 
 unless an independent evidential path removes dependence on the weakest premise.
 
@@ -1330,9 +1319,9 @@ THE WEAKEST LOAD-BEARING PREMISE
 
 without independent revalidation.
 
----
+______________________________________________________________________
 
-# 26. Conflict State
+## 26. Conflict State
 
 Conflicting environment values must remain explicit.
 
@@ -1384,9 +1373,9 @@ COMPETING
 
 No fluent synthesis may erase unresolved conflict.
 
----
+______________________________________________________________________
 
-# 27. H/M/L State Architecture
+## 27. H/M/L State Architecture
 
 ## H — Environment / Governing State
 
@@ -1476,48 +1465,46 @@ EVERY L CONDITION
 
 unless downward applicability is established.
 
----
+______________________________________________________________________
 
-# 28. Cross-Scale State Equation
+## 28. Cross-Scale State Equation
 
 Let:
 
-[
-S_H,\ S_M,\ S_L
-]
+\[
+S_H,\\ S_M,\\ S_L
+\]
 
 represent high-, medium-, and low-scale state.
 
 Then:
 
-[
+\[
 S_H
-\neq
+\\neq
 Aggregate(S_L)
-]
+\]
 
 unless an explicit valid aggregation operator exists.
 
 A safe transformation requires:
 
-[
-ValidAggregate
-==============
+## \[ ValidAggregate
 
 TypeCompatible
-\land
+\\land
 ScopeCompatible
-\land
+\\land
 ScaleRuleDefined
-\land
+\\land
 ProvenancePreserved
-]
+\]
 
 Cross-scale analogy alone is insufficient.
 
----
+______________________________________________________________________
 
-# 29. Dependencies
+## 29. Dependencies
 
 ```yaml
 dependencies:
@@ -1565,9 +1552,9 @@ dependencies:
 
 Because neighboring primitive contracts may themselves remain source-incomplete, dependency completeness must not be assumed.
 
----
+______________________________________________________________________
 
-# 30. Control-Plane Contract
+## 30. Control-Plane Contract
 
 L00 cognition may propose state.
 
@@ -1623,9 +1610,9 @@ rollback
 recovery
 ```
 
----
+______________________________________________________________________
 
-# 31. Capability / Authority Firewall
+## 31. Capability / Authority Firewall
 
 ```text
 CAN OBSERVE
@@ -1651,9 +1638,9 @@ AUTHORIZED TO EXECUTE
 
 Authority must be externally resolved by the applicable AMOS control-plane contract.
 
----
+______________________________________________________________________
 
-# 32. Candidate Agents
+## 32. Candidate Agents
 
 Architectural roles may include:
 
@@ -1705,9 +1692,9 @@ NAMED AGENT
 IMPLEMENTED AGENT
 ```
 
----
+______________________________________________________________________
 
-# 33. Candidate Skill Families
+## 33. Candidate Skill Families
 
 Relevant capability families include:
 
@@ -1743,9 +1730,9 @@ Metacognitive Confidence Auditing
 
 Skill availability does not grant state-write authority.
 
----
+______________________________________________________________________
 
-# 34. Workflow — State Construction
+## 34. Workflow — State Construction
 
 ```text
 ENVIRONMENT TARGET
@@ -1783,9 +1770,9 @@ CONTROL-PLANE AUTHORIZATION
 COMMIT NEW EPOCH
 ```
 
----
+______________________________________________________________________
 
-# 35. Workflow — State Read
+## 35. Workflow — State Read
 
 ```text
 STATE REQUEST
@@ -1823,9 +1810,9 @@ COMPETING
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 36. Workflow — Environment Change
+## 36. Workflow — Environment Change
 
 ```text
 NEW OBSERVATION
@@ -1852,9 +1839,9 @@ MATERIAL DIFFERENCE?
     INVALIDATE AFFECTED DESCENDANTS
 ```
 
----
+______________________________________________________________________
 
-# 37. Workflow — Conflict Resolution
+## 37. Workflow — Conflict Resolution
 
 ```text
 STATE_A = X
@@ -1896,9 +1883,9 @@ or
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 38. Workflow — Staleness
+## 38. Workflow — Staleness
 
 ```text
 CURRENT STATE
@@ -1922,17 +1909,17 @@ or
 REAFFIRM CURRENT STATE
 ```
 
----
+______________________________________________________________________
 
-# 39. Workflow — Selective Invalidation
+## 39. Workflow — Selective Invalidation
 
 If premise (p) supports descendants (D(p)):
 
-[
+\[
 Invalid(p)
-\Rightarrow
+\\Rightarrow
 Invalidate(D(p))
-]
+\]
 
 but not unrelated state.
 
@@ -1956,9 +1943,9 @@ GLOBAL STATE FAILURE
 
 unless the failed premise is itself globally load-bearing.
 
----
+______________________________________________________________________
 
-# 40. Workflow — Recovery
+## 40. Workflow — Recovery
 
 ```text
 INVALID STATE ELEMENT
@@ -1982,9 +1969,9 @@ RECOMMIT IF AUTHORIZED
 
 Global recomputation is a last resort.
 
----
+______________________________________________________________________
 
-# 41. State Update Protocol
+## 41. State Update Protocol
 
 ```yaml
 L00StateUpdateProposal:
@@ -2029,9 +2016,9 @@ L00StateUpdateProposal:
   proposed_next_epoch:
 ```
 
----
+______________________________________________________________________
 
-# 42. State Commit Protocol
+## 42. State Commit Protocol
 
 ```yaml
 L00StateCommitDecision:
@@ -2065,23 +2052,21 @@ L00StateCommitDecision:
   rollback_reference:
 ```
 
----
+______________________________________________________________________
 
-# 43. Atomicity Requirement
+## 43. Atomicity Requirement
 
 A state commit must not leave a logically partial state when the proposed update is defined as one atomic transition.
 
 Conceptually:
 
-[
-Commit(S_t,\Delta S)
-====================
+## \[ Commit(S_t,\\Delta S)
 
-\begin{cases}
-S_{t+1}, & \text{if all required commit conditions pass}\
-S_t, & \text{otherwise}
-\end{cases}
-]
+\\begin{cases}
+S\_{t+1}, & \\text{if all required commit conditions pass}\
+S_t, & \\text{otherwise}
+\\end{cases}
+\]
 
 Thus:
 
@@ -2101,9 +2086,9 @@ PARTIALLY MUTATED CURRENT STATE
 
 This is an architectural requirement, not a claim that atomic state commits are already implemented.
 
----
+______________________________________________________________________
 
-# 44. Core State Invariants
+## 44. Core State Invariants
 
 ```text
 INV_L00_STATE_001
@@ -2197,9 +2182,9 @@ INV_L00_STATE_030
 FAILED_COMMIT_PRESERVES_LAST_VALID_STATE
 ```
 
----
+______________________________________________________________________
 
-# 45. Failure Modes
+## 45. Failure Modes
 
 ```text
 FAIL_STATE_MODEL_REALITY_COLLAPSE
@@ -2255,62 +2240,56 @@ FAIL_STATE_SCHEMA_AS_IMPLEMENTATION
 FAIL_STATE_TRACEABILITY_AS_TRUTH
 ```
 
----
+______________________________________________________________________
 
-# 46. Repair Equations
+## 46. Repair Equations
 
 Generic repair:
 
-[
+\[
 Failure
-\rightarrow
+\\rightarrow
 Localize
-\rightarrow
+\\rightarrow
 Invalidate
-\rightarrow
+\\rightarrow
 Rollback
-\rightarrow
+\\rightarrow
 Reobserve
-\rightarrow
+\\rightarrow
 Revalidate
-\rightarrow
+\\rightarrow
 Recommit
-]
+\]
 
 Selective repair:
 
-[
-RepairScope
-===========
+## \[ RepairScope
 
 Descendants(FailedPremise)
-]
+\]
 
 unless evidence establishes a broader dependency failure.
 
 Recovery objective:
 
-[
-S_{recovered}
-=============
+## \[ S\_{recovered}
 
 NearestValidState
-+
+\+
 ValidatedReplacementDelta
-]
+\]
 
 not:
 
-[
-S_{recovered}
-=============
+## \[ S\_{recovered}
 
 UnboundedReconstruction
-]
+\]
 
----
+______________________________________________________________________
 
-# 47. Validators
+## 47. Validators
 
 ```text
 VALIDATOR_STATE_SCHEMA
@@ -2352,9 +2331,9 @@ VALIDATOR_STATE_ATOMICITY
 VALIDATOR_STATE_CONFIDENCE_CEILING
 ```
 
----
+______________________________________________________________________
 
-# 48. Minimum Tests
+## 48. Minimum Tests
 
 ```text
 TEST_STATE_001
@@ -2418,9 +2397,9 @@ TEST_STATE_020
 UNKNOWN/GAP cannot produce PASS
 ```
 
----
+______________________________________________________________________
 
-# 49. Adversarial Tests
+## 49. Adversarial Tests
 
 Test against:
 
@@ -2476,9 +2455,9 @@ false absence inference
 unknown value converted to zero
 ```
 
----
+______________________________________________________________________
 
-# 50. Falsifiers
+## 50. Falsifiers
 
 This proposed L00 state architecture fails its declared purpose if an implementation cannot:
 
@@ -2528,9 +2507,9 @@ recover a prior valid state
 return UNKNOWN/GAP when grounding fails
 ```
 
----
+______________________________________________________________________
 
-# 51. Gap Matrix
+## 51. Gap Matrix
 
 ```yaml
 gap_status:
@@ -2580,9 +2559,9 @@ gap_status:
     - display formatting
 ```
 
----
+______________________________________________________________________
 
-# 52. Hard Boundaries
+## 52. Hard Boundaries
 
 ```text
 PLACEHOLDER != IMPLEMENTED
@@ -2646,9 +2625,9 @@ STRUCTURAL_CONTRACT != EXECUTED_RUNTIME
 MODEL_EXTENSION != SOURCE_CANON
 ```
 
----
+______________________________________________________________________
 
-# 53. AI Application
+## 53. AI Application
 
 For an AI system, L00 functions as a **grounding boundary** between external evidence and internal cognition.
 
@@ -2696,9 +2675,9 @@ WHAT THE SYSTEM ACTUALLY DID
 WHAT HAPPENED AFTERWARD
 ```
 
----
+______________________________________________________________________
 
-# 54. AI Grounding Pipeline
+## 54. AI Grounding Pipeline
 
 ```text
 EXTERNAL ENVIRONMENT
@@ -2738,34 +2717,34 @@ L00 / OUTCOME STATE UPDATE
 
 The pipeline prevents cognition from recursively manufacturing its own evidence.
 
----
+______________________________________________________________________
 
-# 55. AI Hallucination Boundary
+## 55. AI Hallucination Boundary
 
 A hallucination-relevant failure occurs when internally generated information is promoted into externally grounded state without evidence.
 
 Conceptually:
 
-[
+\[
 HallucinationRisk
-\uparrow
-\quad\text{when}\quad
+\\uparrow
+\\quad\\text{when}\\quad
 ModelOutput
-\rightarrow
+\\rightarrow
 ObservedState
-]
+\]
 
 without an observation bridge.
 
 Therefore:
 
-[
+\[
 ModelGenerated(x)
-\land
-\neg Observed(x)
-\Rightarrow
-x \notin OBSERVED
-]
+\\land
+\\neg Observed(x)
+\\Rightarrow
+x \\notin OBSERVED
+\]
 
 The correct class remains:
 
@@ -2787,9 +2766,9 @@ UNKNOWN/GAP
 
 depending on the state.
 
----
+______________________________________________________________________
 
-# 56. AI Memory Boundary
+## 56. AI Memory Boundary
 
 Persistent AI memory must not automatically become current reality state.
 
@@ -2805,19 +2784,19 @@ CURRENT REALITY:
 
 Therefore:
 
-[
+\[
 Memory(x,t_0)
-\land
+\\land
 t_1 > t_0
-\not\Rightarrow
+\\not\\Rightarrow
 Current(x,t_1)
-]
+\]
 
 A freshness-sensitive task requires reobservation or revalidation.
 
----
+______________________________________________________________________
 
-# 57. AI Tool Boundary
+## 57. AI Tool Boundary
 
 Tool output enters L00 as evidence-bearing observation or source-reported state according to the tool's semantics.
 
@@ -2863,9 +2842,9 @@ provenance
 
 when these are decision-relevant.
 
----
+______________________________________________________________________
 
-# 58. AI Prediction Boundary
+## 58. AI Prediction Boundary
 
 Prediction consumes environment state.
 
@@ -2899,9 +2878,9 @@ SCORING / LEARNING
 
 This preserves the distinction between forecast and outcome.
 
----
+______________________________________________________________________
 
-# 59. AI Control-Plane Boundary
+## 59. AI Control-Plane Boundary
 
 The AI cognition layer may produce:
 
@@ -2937,9 +2916,9 @@ COMMIT / EXECUTE
 
 This prevents cognitive plausibility from becoming operational authority.
 
----
+______________________________________________________________________
 
-# 60. AI State Read Contract
+## 60. AI State Read Contract
 
 An AI requesting environment state should receive not merely a value but its applicability envelope.
 
@@ -2983,9 +2962,9 @@ from:
 VALUE IS SAFE FOR THIS DECISION
 ```
 
----
+______________________________________________________________________
 
-# 61. AI State Write Contract
+## 61. AI State Write Contract
 
 AI-generated updates should enter as proposals.
 
@@ -3027,44 +3006,42 @@ AUTHORITY RESOLVED
 COMMIT OR REJECT
 ```
 
----
+______________________________________________________________________
 
-# 62. AI Safety Invariant
+## 62. AI Safety Invariant
 
 For consequential actions:
 
-[
+\[
 ActionPermission
-\not\Leftarrow
+\\not\\Leftarrow
 ModelConfidence
-]
+\]
 
 alone.
 
 Instead, action eligibility must depend on a broader governed state such as:
 
-[
-EligibleAction
-==============
+## \[ EligibleAction
 
 GroundedState
-\land
+\\land
 ValidScope
-\land
+\\land
 ValidRegime
-\land
+\\land
 FreshEnough
-\land
+\\land
 Authority
-\land
+\\land
 ConstraintSatisfaction
-]
+\]
 
 The exact authorization equation belongs to the governing control plane, not L00 itself.
 
----
+______________________________________________________________________
 
-# 63. RSCF State Capsule
+## 63. RSCF State Capsule
 
 ```yaml
 rscf:
@@ -3146,24 +3123,24 @@ rscf:
     source evidence and executable validation
 ```
 
----
+______________________________________________________________________
 
-# 64. Governing State Laws
+## 64. Governing State Laws
 
 The complete L00 state contract compresses to the following laws.
 
 ### Reality law
 
-[
-\boxed{
-State \neq Reality
+\[
+\\boxed{
+State \\neq Reality
 }
-]
+\]
 
 ### Representation law
 
-[
-\boxed{
+\[
+\\boxed{
 L00State =
 Representation(
 Observation,
@@ -3174,136 +3151,133 @@ Regime,
 Uncertainty
 )
 }
-]
+\]
 
 ### Grounding law
 
-[
-\boxed{
+\[
+\\boxed{
 MissingGrounding
-\Rightarrow
+\\Rightarrow
 UNKNOWN/GAP
 }
-]
+\]
 
 ### Epistemic law
 
-[
-\boxed{
+\[
+\\boxed{
 Observed
-\neq
+\\neq
 Inferred
-\neq
+\\neq
 Modeled
-\neq
+\\neq
 Predicted
 }
-]
+\]
 
 ### Freshness law
 
-[
-\boxed{
+\[
+\\boxed{
 Current
-\Rightarrow
+\\Rightarrow
 FreshEnoughForDeclaredUse
 }
-]
+\]
 
 ### Provenance law
 
-[
-\boxed{
+\[
+\\boxed{
 Transformation
-\Rightarrow
+\\Rightarrow
 PreserveProvenance
 }
-]
+\]
 
 ### Independence law
 
-[
-\boxed{
+\[
+\\boxed{
 SharedAncestry
-\not\Rightarrow
+\\not\\Rightarrow
 IndependentConfirmation
 }
-]
+\]
 
 ### Scope law
 
-[
-\boxed{
-Validity
-========
+## \[ \\boxed{ Validity
 
 Validity(Scope,Regime,Time)
 }
-]
+\]
 
 ### Conflict law
 
-[
-\boxed{
+\[
+\\boxed{
 UnresolvedConflict
-\Rightarrow
+\\Rightarrow
 PreserveCOMPETING
 }
-]
+\]
 
 ### Dependency law
 
-[
-\boxed{
+\[
+\\boxed{
 FailedPremise
-\Rightarrow
+\\Rightarrow
 InvalidateDependentDescendants
 }
-]
+\]
 
 ### Authority law
 
-[
-\boxed{
+\[
+\\boxed{
 Capability
-\neq
+\\neq
 Authority
 }
-]
+\]
 
 ### Commit law
 
-[
-\boxed{
+\[
+\\boxed{
 Proposal
-\neq
+\\neq
 Commit
 }
-]
+\]
 
 ### Recovery law
 
-[
-\boxed{
+\[
+\\boxed{
 FailedCommit
-\Rightarrow
+\\Rightarrow
 PreserveLastValidState
 }
-]
+\]
 
 ### Canon boundary
 
-[
-\boxed{
+\[
+\\boxed{
 StructuralModel
-\neq
+\\neq
 RecoveredSourceCanon
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 65. Completion State
+## 65. Completion State
 
 ```yaml
 completion_state:
@@ -3365,9 +3339,9 @@ completion_state:
     MODEL / CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
-# 66. Final Contract
+## 66. Final Contract
 
 `L00_REALITY_ENVIRONMENT/STATE.md` defines the AMOS boundary between **external reality and the system's internal representation of that reality**.
 
@@ -3424,26 +3398,30 @@ UNKNOWN/GAP
 
 is the valid state.
 
----
+______________________________________________________________________
 
 **Related:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · L00_REALITY_ENVIRONMENT — HML · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · L00_REALITY_ENVIRONMENT — RSCF · [[00_ROOT/00_HOME|00_HOME]] · 06-Knowledge-Base-MOC
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: l00_reality_environment_primitives_cognitive_matrix_state
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_STATE.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_MOC|L00_REALITY_ENVIRONMENT_MOC]]

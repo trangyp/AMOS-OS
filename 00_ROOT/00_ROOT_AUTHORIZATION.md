@@ -18,8 +18,8 @@ implementation_status: UNKNOWN/GAP
 validation_status: UNKNOWN/GAP
 active_root_authority: UNBOUND
 tags:
-- note
-- canon/root
+  - note
+  - canon/root
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -71,9 +71,9 @@ ROOT_AUTHORIZATION_SPEC
 ROOT_AUTHORITY_GRANT
 ```
 
----
+______________________________________________________________________
 
-# 1. Fundamental Boundary
+## 1. Fundamental Boundary
 
 AMOS SHALL distinguish:
 
@@ -119,9 +119,9 @@ COMMIT
 
 No step may be silently skipped where it is required by the action's governance class.
 
----
+______________________________________________________________________
 
-# 2. Hard Authorization Laws
+## 2. Hard Authorization Laws
 
 ```text
 CAPABILITY != AUTHORITY
@@ -167,9 +167,9 @@ UNKNOWN_AUTHORITY != ALLOW
 UNKNOWN/GAP != PASS
 ```
 
----
+______________________________________________________________________
 
-# 3. Root Authorization Definition
+## 3. Root Authorization Definition
 
 A **Root Authorization** is the highest recognized authorization basis inside a declared AMOS governance domain.
 
@@ -202,9 +202,9 @@ RootAuthorization = INVALID
 
 depending on whether evidence is missing or contradictory.
 
----
+______________________________________________________________________
 
-# 4. Root Does Not Mean Unlimited
+## 4. Root Does Not Mean Unlimited
 
 `ROOT` means:
 
@@ -234,9 +234,9 @@ or authoritative over every domain.
 
 Root authority remains bounded.
 
----
+______________________________________________________________________
 
-# 5. Root Authority Domains
+## 5. Root Authority Domains
 
 AMOS MAY recognize multiple independent root domains.
 
@@ -274,9 +274,9 @@ EMERGENCY_AUTHORITY
 
 These domains MUST NOT be assumed mutually interchangeable.
 
----
+______________________________________________________________________
 
-# 6. Authority Domain Separation
+## 6. Authority Domain Separation
 
 Example:
 
@@ -312,9 +312,9 @@ AUTHORITY(domain_B)
 
 unless an explicit authority relation establishes otherwise.
 
----
+______________________________________________________________________
 
-# 7. Root Principal
+## 7. Root Principal
 
 A root principal is the identity to which a valid root authority grant is bound.
 
@@ -348,9 +348,9 @@ root_principal:
     - UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 8. Identity Is Not Authority
+## 8. Identity Is Not Authority
 
 Identity resolution answers:
 
@@ -370,9 +370,9 @@ AUTHORITY_VERIFIED
 
 A perfectly authenticated principal may have zero authority over a requested effect.
 
----
+______________________________________________________________________
 
-# 9. Root Authority Grant
+## 9. Root Authority Grant
 
 A root authority grant SHOULD be represented as a typed object.
 
@@ -428,9 +428,9 @@ root_authority_grant:
     - UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 10. Root Grant Admission
+## 10. Root Grant Admission
 
 A proposed root authority grant MUST NOT become active merely because the file exists.
 
@@ -460,9 +460,9 @@ COMMIT
 ACTIVE ROOT GRANT
 ```
 
----
+______________________________________________________________________
 
-# 11. Root Authority Sources
+## 11. Root Authority Sources
 
 The source of authority MUST be explicit.
 
@@ -494,9 +494,9 @@ EXTERNAL_AUTHORITY_BINDING
 
 These classes are not automatically equivalent.
 
----
+______________________________________________________________________
 
-# 12. Authority Source Object
+## 12. Authority Source Object
 
 ```yaml
 authority_source:
@@ -528,9 +528,9 @@ authority_source:
       - INVALID
 ```
 
----
+______________________________________________________________________
 
-# 13. Root Authority Provenance
+## 13. Root Authority Provenance
 
 Every active root authority SHOULD preserve:
 
@@ -556,9 +556,9 @@ WHAT supersedes it
 WHAT evidence supports it
 ```
 
----
+______________________________________________________________________
 
-# 14. Root Authority Lineage
+## 14. Root Authority Lineage
 
 Conceptually:
 
@@ -581,9 +581,9 @@ ROOT GRANT R0
 
 Every downstream authority SHOULD remain traceable to a valid root path.
 
----
+______________________________________________________________________
 
-# 15. Authority Path
+## 15. Authority Path
 
 An authority path is:
 
@@ -607,9 +607,9 @@ Valid(R0)
 
 One failed load-bearing edge invalidates that path.
 
----
+______________________________________________________________________
 
-# 16. Multiple Authority Paths
+## 16. Multiple Authority Paths
 
 A principal MAY possess multiple independent authority paths.
 
@@ -633,9 +633,9 @@ Revocation of `D1` does not necessarily invalidate `D2`.
 
 Therefore invalidation MUST be dependency-aware.
 
----
+______________________________________________________________________
 
-# 17. Provenance Independence
+## 17. Provenance Independence
 
 Two authority paths MUST NOT be considered independent merely because they have different identifiers.
 
@@ -653,9 +653,9 @@ D1
 
 They cannot be treated as independent root confirmation.
 
----
+______________________________________________________________________
 
-# 18. Delegation Law
+## 18. Delegation Law
 
 Delegated authority MUST NOT exceed its parent.
 
@@ -675,9 +675,9 @@ ParentAuthority
 ∩ CurrentConstraints
 ```
 
----
+______________________________________________________________________
 
-# 19. Delegation Attenuation
+## 19. Delegation Attenuation
 
 Delegation MAY reduce:
 
@@ -711,9 +711,9 @@ risk level.
 
 It MUST NOT silently expand them.
 
----
+______________________________________________________________________
 
-# 20. Delegation Depth
+## 20. Delegation Depth
 
 A root grant MAY specify:
 
@@ -737,9 +737,9 @@ R0 → D1 → D2 → D3 → D4
 
 is invalid.
 
----
+______________________________________________________________________
 
-# 21. Non-Delegable Authority
+## 21. Non-Delegable Authority
 
 Some authority MAY be explicitly:
 
@@ -763,9 +763,9 @@ root policy replacement.
 
 Whether any concrete authority is non-delegable requires the applicable source.
 
----
+______________________________________________________________________
 
-# 22. Authority Scope
+## 22. Authority Scope
 
 Every root grant MUST define its applicability envelope.
 
@@ -801,9 +801,9 @@ UNSPECIFIED_SCOPE
 → ALL
 ```
 
----
+______________________________________________________________________
 
-# 23. Effect Binding
+## 23. Effect Binding
 
 Authority SHOULD bind to effects, not only tool names.
 
@@ -831,9 +831,9 @@ external disclosure.
 
 Therefore authorization should evaluate semantic effect where possible.
 
----
+______________________________________________________________________
 
-# 24. Operation vs Effect
+## 24. Operation vs Effect
 
 ```text
 OPERATION
@@ -857,9 +857,9 @@ effect:
 
 A permitted operation MUST NOT be used to create a prohibited effect.
 
----
+______________________________________________________________________
 
-# 25. Purpose Binding
+## 25. Purpose Binding
 
 Authority MAY be purpose-limited.
 
@@ -875,9 +875,9 @@ purpose:
 
 The same operation may therefore be authorized in one purpose context and prohibited in another.
 
----
+______________________________________________________________________
 
-# 26. Recipient Binding
+## 26. Recipient Binding
 
 Authority MAY constrain recipients.
 
@@ -892,9 +892,9 @@ recipients:
 
 Recipient changes MAY invalidate prior authorization.
 
----
+______________________________________________________________________
 
-# 27. Resource Binding
+## 27. Resource Binding
 
 Authority MAY bind to:
 
@@ -922,9 +922,9 @@ data class.
 
 Authority over resource `A` MUST NOT imply authority over resource `B`.
 
----
+______________________________________________________________________
 
-# 28. Temporal Binding
+## 28. Temporal Binding
 
 Every authority grant SHOULD define:
 
@@ -938,9 +938,9 @@ or explicitly establish an open-ended validity rule.
 
 Authority validity is evaluated at relevant decision time.
 
----
+______________________________________________________________________
 
-# 29. Commit-Time Authority
+## 29. Commit-Time Authority
 
 For mutable authority:
 
@@ -956,9 +956,9 @@ AUTHORIZED_AT_COMMIT_TIME
 
 Therefore consequential transactions SHOULD support commit-time authority revalidation.
 
----
+______________________________________________________________________
 
-# 30. Authority Freshness
+## 30. Authority Freshness
 
 An authority witness SHOULD carry freshness information.
 
@@ -970,9 +970,9 @@ freshness:
   revalidation_required_after: duration | null
 ```
 
----
+______________________________________________________________________
 
-# 31. Authority Witness
+## 31. Authority Witness
 
 An authority witness records the evidence used to establish effective authority.
 
@@ -1009,9 +1009,9 @@ authority_witness:
     - UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 32. Witness Is Not Authority
+## 32. Witness Is Not Authority
 
 An authority witness is evidence about authority.
 
@@ -1027,9 +1027,9 @@ Destroying a witness does not necessarily revoke authority.
 
 Revoking authority should invalidate dependent witnesses.
 
----
+______________________________________________________________________
 
-# 33. Authorization Request
+## 33. Authorization Request
 
 ```yaml
 authorization_request:
@@ -1056,9 +1056,9 @@ authorization_request:
   provenance: {}
 ```
 
----
+______________________________________________________________________
 
-# 34. Root Authorization Evaluation
+## 34. Root Authorization Evaluation
 
 Conceptually:
 
@@ -1092,9 +1092,9 @@ CHECK CONSTRAINTS
 BUILD AUTHORITY WITNESS
 ```
 
----
+______________________________________________________________________
 
-# 35. Effective Authority
+## 35. Effective Authority
 
 AMOS MODEL:
 
@@ -1110,9 +1110,9 @@ CurrentConstraints(t)
 
 However, union MUST NOT permit semantic reconstruction of a prohibited effect unless composition is explicitly permitted.
 
----
+______________________________________________________________________
 
-# 36. Authority Composition
+## 36. Authority Composition
 
 Two narrow grants MAY sometimes combine.
 
@@ -1144,9 +1144,9 @@ LOCAL_PERMISSION_B
 AUTOMATIC_COMPOSITE_PERMISSION
 ```
 
----
+______________________________________________________________________
 
-# 37. Cross-Grant Composition Guard
+## 37. Cross-Grant Composition Guard
 
 Before combining grants:
 
@@ -1166,9 +1166,9 @@ check disclosure boundary;
 check authority source compatibility.
 ```
 
----
+______________________________________________________________________
 
-# 38. Root Policy Interaction
+## 38. Root Policy Interaction
 
 Root authority remains subject to applicable policy unless the authority grant explicitly and validly includes policy-override authority.
 
@@ -1180,9 +1180,9 @@ ROOT_AUTHORITY
 AUTOMATIC_POLICY_OVERRIDE
 ```
 
----
+______________________________________________________________________
 
-# 39. Policy Cannot Manufacture Root Authority
+## 39. Policy Cannot Manufacture Root Authority
 
 Policy may:
 
@@ -1208,9 +1208,9 @@ POLICY_ALLOW
 NO_AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 40. Capability Interaction
+## 40. Capability Interaction
 
 A principal may have authority but lack capability.
 
@@ -1232,9 +1232,9 @@ NOT_AUTHORIZED
 NO_EXECUTION
 ```
 
----
+______________________________________________________________________
 
-# 41. Root Authorization Decision Function
+## 41. Root Authorization Decision Function
 
 AMOS MODEL:
 
@@ -1253,9 +1253,9 @@ IdentityValid
 
 Failure of a hard condition is non-compensatory.
 
----
+______________________________________________________________________
 
-# 42. Authorization Outcomes
+## 42. Authorization Outcomes
 
 ```text
 ALLOW
@@ -1275,9 +1275,9 @@ UNKNOWN/GAP
 
 `UNKNOWN/GAP` MUST NOT be converted to `ALLOW` merely to preserve workflow continuity.
 
----
+______________________________________________________________________
 
-# 43. Default-Deny Boundary
+## 43. Default-Deny Boundary
 
 For governed consequential actions:
 
@@ -1291,9 +1291,9 @@ This does not require every low-impact informational operation to use the same g
 
 Governance intensity SHOULD scale with consequence and irreversibility.
 
----
+______________________________________________________________________
 
-# 44. Root Revocation
+## 44. Root Revocation
 
 Root authority MAY be revocable according to its source contract.
 
@@ -1324,9 +1324,9 @@ root_revocation:
     - UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 45. Root Revocation Propagation
+## 45. Root Revocation Propagation
 
 ```text
 ROOT GRANT REVOKED
@@ -1342,9 +1342,9 @@ CACHED AUTHORIZATIONS INVALIDATED
 PENDING TRANSACTIONS REVALIDATED
 ```
 
----
+______________________________________________________________________
 
-# 46. Selective Revocation
+## 46. Selective Revocation
 
 If a principal has:
 
@@ -1367,9 +1367,9 @@ Path B
 
 if independently valid.
 
----
+______________________________________________________________________
 
-# 47. Partial Revocation
+## 47. Partial Revocation
 
 A revocation MAY narrow authority rather than eliminate it.
 
@@ -1385,9 +1385,9 @@ READ
 
 This MUST produce a new effective authority state.
 
----
+______________________________________________________________________
 
-# 48. Root Suspension
+## 48. Root Suspension
 
 Suspension differs from revocation.
 
@@ -1403,9 +1403,9 @@ authority withdrawal according to revocation semantics
 
 Suspended authority MUST NOT authorize new commits.
 
----
+______________________________________________________________________
 
-# 49. Root Expiration
+## 49. Root Expiration
 
 At:
 
@@ -1423,9 +1423,9 @@ unless valid renewal/supersession exists.
 
 Expired authority MUST NOT silently renew itself.
 
----
+______________________________________________________________________
 
-# 50. Root Supersession
+## 50. Root Supersession
 
 Root authority may be replaced:
 
@@ -1439,9 +1439,9 @@ ROOT_GRANT_v2
 
 The previous grant remains in historical provenance.
 
----
+______________________________________________________________________
 
-# 51. Supersession Rule
+## 51. Supersession Rule
 
 Supersession MUST specify whether:
 
@@ -1457,9 +1457,9 @@ pending transactions survive.
 
 Defaulting these silently is unsafe.
 
----
+______________________________________________________________________
 
-# 52. Root Rotation
+## 52. Root Rotation
 
 Credential or key rotation MUST be distinguished from authority supersession.
 
@@ -1471,9 +1471,9 @@ AUTHORITY_CHANGE
 
 A principal may retain identical authority while authentication material changes.
 
----
+______________________________________________________________________
 
-# 53. Root Credential Boundary
+## 53. Root Credential Boundary
 
 Credentials prove or support identity/control.
 
@@ -1487,9 +1487,9 @@ UNLIMITED_PERMISSION
 
 A valid signature from a root principal still requires scope evaluation.
 
----
+______________________________________________________________________
 
-# 54. Multi-Principal Root Authority
+## 54. Multi-Principal Root Authority
 
 Some root actions MAY require multiple principals.
 
@@ -1513,9 +1513,9 @@ Then:
 
 valid independent approvals are required.
 
----
+______________________________________________________________________
 
-# 55. Multi-Principal Independence
+## 55. Multi-Principal Independence
 
 Threshold approval MUST account for common control.
 
@@ -1529,9 +1529,9 @@ KEY_COUNT
 PRINCIPAL_INDEPENDENCE
 ```
 
----
+______________________________________________________________________
 
-# 56. Root Conflict
+## 56. Root Conflict
 
 Conflicting root grants MAY occur.
 
@@ -1565,9 +1565,9 @@ ESCALATION
 BLOCK_CONFLICT
 ```
 
----
+______________________________________________________________________
 
-# 57. Root Precedence
+## 57. Root Precedence
 
 Precedence MUST be explicit.
 
@@ -1593,9 +1593,9 @@ supersession lineage.
 
 No generic precedence hierarchy should be invented where source canon is absent.
 
----
+______________________________________________________________________
 
-# 58. Root Authority Registry
+## 58. Root Authority Registry
 
 Root grants SHOULD be discoverable through an authoritative registry.
 
@@ -1614,9 +1614,9 @@ root_authority_registry:
   provenance: {}
 ```
 
----
+______________________________________________________________________
 
-# 59. Registry Integrity
+## 59. Registry Integrity
 
 The root registry SHOULD protect against:
 
@@ -1640,9 +1640,9 @@ forged revocations;
 version confusion.
 ```
 
----
+______________________________________________________________________
 
-# 60. Registry Versioning
+## 60. Registry Versioning
 
 Every consequential authority evaluation SHOULD identify the authority-state version used.
 
@@ -1654,9 +1654,9 @@ authority_state_version = AUTH-EPOCH-391
 
 This permits commit-time detection of authority changes.
 
----
+______________________________________________________________________
 
-# 61. Authority Epoch
+## 61. Authority Epoch
 
 An authority epoch is a logical version of relevant authorization state.
 
@@ -1674,9 +1674,9 @@ E3
 
 A transaction validated under `E1` may require revalidation before commit under `E3`.
 
----
+______________________________________________________________________
 
-# 62. Commit-Time Authority Check
+## 62. Commit-Time Authority Check
 
 ```text
 transaction.authority_epoch
@@ -1702,9 +1702,9 @@ REVALIDATE
 
 unless deterministic dependency analysis proves the change irrelevant.
 
----
+______________________________________________________________________
 
-# 63. Fine-Grained Read Set
+## 63. Fine-Grained Read Set
 
 A transaction SHOULD record the exact authority objects it depended upon.
 
@@ -1724,9 +1724,9 @@ authority_read_set:
 
 This enables selective rather than global revalidation.
 
----
+______________________________________________________________________
 
-# 64. Authority Dependency Closure
+## 64. Authority Dependency Closure
 
 For action `A`:
 
@@ -1748,9 +1748,9 @@ temporal state
 
 Only changes that can alter the authorization result need invalidate the transaction.
 
----
+______________________________________________________________________
 
-# 65. Root Authorization and Transactions
+## 65. Root Authorization and Transactions
 
 A transaction SHOULD bind:
 
@@ -1772,9 +1772,9 @@ constraint state;
 resource versions.
 ```
 
----
+______________________________________________________________________
 
-# 66. Proposal Boundary
+## 66. Proposal Boundary
 
 Agents and models may produce:
 
@@ -1792,9 +1792,9 @@ solely by generation.
 
 Activation requires the applicable governance process.
 
----
+______________________________________________________________________
 
-# 67. Agent Boundary
+## 67. Agent Boundary
 
 An agent cannot make itself root.
 
@@ -1812,9 +1812,9 @@ AGENT_SPAWN
 
 cannot manufacture new authority.
 
----
+______________________________________________________________________
 
-# 68. Child-Agent Law
+## 68. Child-Agent Law
 
 For parent agent `P` and child `C`:
 
@@ -1826,9 +1826,9 @@ DelegableAuthority(P)
 
 unless `C` possesses an independent external authority path.
 
----
+______________________________________________________________________
 
-# 69. Skill Boundary
+## 69. Skill Boundary
 
 A Skill cannot manufacture root authority.
 
@@ -1846,9 +1846,9 @@ SKILL_CAN_EXECUTE
 SKILL_MAY_COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 70. Workflow Boundary
+## 70. Workflow Boundary
 
 A workflow cannot inherit more authority than its participating principals and explicit workflow grants provide.
 
@@ -1860,9 +1860,9 @@ AuthorizedComposition(
 )
 ```
 
----
+______________________________________________________________________
 
-# 71. Tool Boundary
+## 71. Tool Boundary
 
 Tool access is capability.
 
@@ -1877,14 +1877,16 @@ TOOL_CONNECTED
 !=
 TOOL_AUTHORIZED
 ```
+
 ```text
 TOOL_CALL_SUCCEEDED
 !=
 ACTION_WAS_AUTHORIZED
 ```
----
 
-# 72. Memory Boundary
+______________________________________________________________________
+
+## 72. Memory Boundary
 
 Stored root-authority information MUST NOT be trusted merely because it exists in memory.
 
@@ -1896,9 +1898,9 @@ MEMORY("P has authority")
 CURRENT_AUTHORITY(P)
 ```
 
----
+______________________________________________________________________
 
-# 73. Cached Authorization
+## 73. Cached Authorization
 
 Cached authorization MAY be reused only while its dependencies remain valid.
 
@@ -1919,9 +1921,9 @@ authorization_cache:
   invalidation_conditions: []
 ```
 
----
+______________________________________________________________________
 
-# 74. Cache Invalidation
+## 74. Cache Invalidation
 
 Invalidate cached authorization when load-bearing state changes, including:
 
@@ -1949,9 +1951,9 @@ environment;
 transaction state.
 ```
 
----
+______________________________________________________________________
 
-# 75. Emergency Root Authority
+## 75. Emergency Root Authority
 
 Emergency authority MUST be explicit and bounded.
 
@@ -1981,9 +1983,9 @@ emergency_authority:
   post_event_review_required: true
 ```
 
----
+______________________________________________________________________
 
-# 76. Emergency Authority Law
+## 76. Emergency Authority Law
 
 ```text
 EMERGENCY
@@ -2007,9 +2009,9 @@ purpose-bound;
 automatically expiring.
 ```
 
----
+______________________________________________________________________
 
-# 77. Break-Glass Authority
+## 77. Break-Glass Authority
 
 Break-glass procedures SHOULD require:
 
@@ -2031,9 +2033,9 @@ post-action review.
 
 Break-glass state MUST NOT silently become normal authority.
 
----
+______________________________________________________________________
 
-# 78. Root Authorization State Machine
+## 78. Root Authorization State Machine
 
 ```text
 PROPOSED
@@ -2056,9 +2058,9 @@ ACTIVE
 
 Invalid paths MUST be rejected.
 
----
+______________________________________________________________________
 
-# 79. Root Grant State
+## 79. Root Grant State
 
 ```yaml
 root_authorization_state:
@@ -2085,9 +2087,9 @@ root_authorization_state:
   provenance: {}
 ```
 
----
+______________________________________________________________________
 
-# 80. Core Invariants
+## 80. Core Invariants
 
 ## AUTH-ROOT-INV-001 — No Self-Authorization
 
@@ -2129,9 +2131,9 @@ Expired authority cannot authorize new commits.
 
 Material authority state must preserve provenance.
 
----
+______________________________________________________________________
 
-# 81. Extended Invariants
+## 81. Extended Invariants
 
 ## AUTH-ROOT-INV-011
 
@@ -2173,9 +2175,9 @@ Stale witnesses cannot authorize changed authority state without revalidation.
 
 Root supersession preserves historical lineage.
 
----
+______________________________________________________________________
 
-# 82. Transaction Invariants
+## 82. Transaction Invariants
 
 ## AUTH-ROOT-INV-021
 
@@ -2217,9 +2219,9 @@ Recipient changes may invalidate authorization.
 
 Effect changes require authorization re-evaluation.
 
----
+______________________________________________________________________
 
-# 83. Governance Invariants
+## 83. Governance Invariants
 
 ## AUTH-ROOT-INV-031
 
@@ -2261,9 +2263,9 @@ Placeholder replacement cannot create authority.
 
 Canonical admission and runtime activation remain separate.
 
----
+______________________________________________________________________
 
-# 84. Root Authorization Protocol
+## 84. Root Authorization Protocol
 
 ```text
 AUTH_REQUEST
@@ -2291,9 +2293,9 @@ TRANSACTION_MANAGER
 COMMIT_GUARD
 ```
 
----
+______________________________________________________________________
 
-# 85. Root Resolution Protocol
+## 85. Root Resolution Protocol
 
 Input:
 
@@ -2333,9 +2335,9 @@ root_authority_resolution:
     - UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 86. Failure Modes
+## 86. Failure Modes
 
 ```text
 FM-ROOT-001 self-authorized root
@@ -2379,9 +2381,9 @@ FM-ROOT-019 conflicting root grants silently merged
 FM-ROOT-020 root domain leakage
 ```
 
----
+______________________________________________________________________
 
-# 87. Additional Failure Modes
+## 87. Additional Failure Modes
 
 ```text
 FM-ROOT-021 cross-resource authority leakage
@@ -2425,9 +2427,9 @@ FM-ROOT-039 generated artifact treated as authority
 FM-ROOT-040 placeholder promoted directly to active authority
 ```
 
----
+______________________________________________________________________
 
-# 88. Adversarial Cases
+## 88. Adversarial Cases
 
 The authorization system SHOULD explicitly test:
 
@@ -2479,9 +2481,9 @@ policy race;
 multi-principal Sybil approval.
 ```
 
----
+______________________________________________________________________
 
-# 89. Repair / Recovery
+## 89. Repair / Recovery
 
 When root authority integrity fails:
 
@@ -2507,9 +2509,9 @@ AUDIT
 RESUME
 ```
 
----
+______________________________________________________________________
 
-# 90. Root Compromise Recovery
+## 90. Root Compromise Recovery
 
 If root credentials are suspected compromised:
 
@@ -2533,9 +2535,9 @@ REPAIR DEPENDENT STATE
 
 Credential compromise does not automatically prove every authority action was invalid, but it destroys the assumption that credential possession alone establishes trustworthy control during the affected interval.
 
----
+______________________________________________________________________
 
-# 91. Root Registry Recovery
+## 91. Root Registry Recovery
 
 Recovery SHOULD preserve:
 
@@ -2557,9 +2559,9 @@ audit history.
 
 Do not restore an old registry snapshot without checking whether doing so resurrects revoked authority.
 
----
+______________________________________________________________________
 
-# 92. Validators
+## 92. Validators
 
 Minimum validators:
 
@@ -2607,9 +2609,9 @@ validate_emergency_authority
 validate_root_registry_integrity
 ```
 
----
+______________________________________________________________________
 
-# 93. Tests
+## 93. Tests
 
 ```text
 T-ROOT-001 valid root grant accepted
@@ -2653,9 +2655,9 @@ T-ROOT-019 authority epoch change triggers revalidation
 T-ROOT-020 irrelevant authority change permits selective fast path
 ```
 
----
+______________________________________________________________________
 
-# 94. Extended Tests
+## 94. Extended Tests
 
 ```text
 T-ROOT-021 resource scope enforced
@@ -2699,9 +2701,9 @@ T-ROOT-039 transaction blocked after relevant authority mutation
 T-ROOT-040 UNKNOWN/GAP never returns ALLOW
 ```
 
----
+______________________________________________________________________
 
-# 95. Falsifiers
+## 95. Falsifiers
 
 The root authorization architecture is falsified for its declared scope if any of the following are possible:
 
@@ -2731,9 +2733,9 @@ multiple aliases of one principal satisfy an independence threshold;
 or UNKNOWN/GAP is treated as authorization.
 ```
 
----
+______________________________________________________________________
 
-# 96. RSCF
+## 96. RSCF
 
 ```yaml
 rscf:
@@ -2802,9 +2804,9 @@ rscf:
   confidence_ceiling: 0
 ```
 
----
+______________________________________________________________________
 
-# 97. Current Root Binding State
+## 97. Current Root Binding State
 
 This specification MUST NOT fabricate a concrete active root principal.
 
@@ -2834,9 +2836,9 @@ but:
 ACTIVE ROOT AUTHORITY NOT ESTABLISHED BY THIS ARTIFACT
 ```
 
----
+______________________________________________________________________
 
-# 98. Gap Status
+## 98. Gap Status
 
 ```yaml
 gap_status:
@@ -2878,9 +2880,9 @@ gap_status:
     state: UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 99. Promotion Requirements
+## 99. Promotion Requirements
 
 Before this artifact or an associated root authority system can be promoted to active runtime status, recover or establish:
 
@@ -2926,9 +2928,9 @@ recovery;
 governance approval.
 ```
 
----
+______________________________________________________________________
 
-# 100. Promotion State Machine
+## 100. Promotion State Machine
 
 ```text
 SPECIFICATION
@@ -2956,9 +2958,9 @@ GOVERNED_ACTIVE
 
 No transition is automatic.
 
----
+______________________________________________________________________
 
-# 101. Final Root Authorization Contract
+## 101. Final Root Authorization Contract
 
 AMOS SHALL recognize root authority only where an authority source, principal, scope, effect envelope, constraints, temporal validity, provenance, and governance state support that recognition.
 
@@ -3066,30 +3068,33 @@ The governing AMOS root-authorization law is:
 
 > **No component may manufacture its own authority. Authority must originate from a valid, provenance-bound source; delegation may only attenuate that authority; authorization must bind it to a specific effect and current state; and no proposal becomes a governed effect until authority, policy, constraints, transaction state, and commit-time validity have been satisfied.**
 
----
+______________________________________________________________________
 
-# END — 00_ROOT_AUTHORIZATION.md
+## END — 00_ROOT_AUTHORIZATION.md
 
 ```
 ```
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]]
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: 00_root_authorization
 node_type: note
 path: 00_ROOT/00_ROOT_AUTHORIZATION.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[00_ROOT/00_COSMO_BRAIN_MOC|00_COSMO_BRAIN_MOC]]
-

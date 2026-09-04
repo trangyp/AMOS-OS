@@ -12,19 +12,19 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: INTELLIGENCE
 path: 11_KNOWLEDGE/05_FRAMEWORKS/DIRECTED_SYSTEMAL_INTELLIGENCE.md
 tags:
-- amos-os
-- knowledge
-- vault
-- 05_frameworks
-- directed_systemal_intelligence
-- goal_directed_systems
-- teleological_architecture
-- alignment
-- rscf
-- canon_candidate
-- canon/knowledge
-- cognitive-systems-architecture
-- amos-mind-os-framework
+  - amos-os
+  - knowledge
+  - vault
+  - 05_frameworks
+  - directed_systemal_intelligence
+  - goal_directed_systems
+  - teleological_architecture
+  - alignment
+  - rscf
+  - canon_candidate
+  - canon/knowledge
+  - cognitive-systems-architecture
+  - amos-mind-os-framework
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -39,19 +39,19 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - GOAL_DRIVEN_AI_ARCHITECTURE_GENERATOR_V2
-  - AMOS_CORPUS
+    - GOAL_DRIVEN_AI_ARCHITECTURE_GENERATOR_V2
+    - AMOS_CORPUS
   scope:
-  - KNOWLEDGE_FRAMEWORKS
-  - DIRECTED_INTELLIGENCE
-  - SOURCE_DEFINED_MODEL
+    - KNOWLEDGE_FRAMEWORKS
+    - DIRECTED_INTELLIGENCE
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   cognitive_systems:
     artifact:
-    - - COGNITIVE_SYSTEMS_ARCHITECTURE
+      -   - COGNITIVE_SYSTEMS_ARCHITECTURE
   mind_os:
     artifact:
-    - - AMOS_MIND_OS_FRAMEWORK
+      -   - AMOS_MIND_OS_FRAMEWORK
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
@@ -65,9 +65,9 @@ epistemic_boundary:
 
 It models how complex systems maintain purposeful, goal-directed behavior across multiple scales without falling into local optimization traps or ungrounded reward drift.
 
----
+______________________________________________________________________
 
-# 1. Teleological Architecture
+## 1. Teleological Architecture
 
 ```text
                ┌────────────────────────────────────────────────────────┐
@@ -81,18 +81,18 @@ ROOT PURPOSE & INVARIANTS          TELEOLOGICAL NAVIGATION            DYNAMIC FE
 • Substrate safety constraints       uncertain payoff landscapes        disturbances (Shock S)
 ```
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Cognitive Systems:** [[11_KNOWLEDGE/05_FRAMEWORKS/COGNITIVE_SYSTEMS_ARCHITECTURE|COGNITIVE_SYSTEMS_ARCHITECTURE]]
 - **Mind OS:** [[11_KNOWLEDGE/05_FRAMEWORKS/AMOS_MIND_OS_FRAMEWORK|AMOS_MIND_OS_FRAMEWORK]]
 - **Goal Driven AI:** `11_KNOWLEDGE/architecture/GOAL_DRIVEN_AI_ARCHITECTURE_GENERATOR_V2`
 - **Values OS:** `11_KNOWLEDGE/AMOS_VALUE_CREATION_OS`
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -110,9 +110,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/COGNITIVE_SYSTEMS_ARCHITECTURE|COGNITIVE_SYSTEMS_ARCHITECTURE]] · [[11_KNOWLEDGE/05_FRAMEWORKS/AMOS_MIND_OS_FRAMEWORK|AMOS_MIND_OS_FRAMEWORK]] · `11_KNOWLEDGE/AMOS_VALUE_CREATION_OS`
 
----
+______________________________________________________________________
+
 **MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]

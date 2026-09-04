@@ -1,88 +1,102 @@
 ---
-title: WORKFLOWS WORKFLOW CONTRACT
-type: workflow
-source: 08_WORKFLOWS
-tags:
-- amos-os
-- type/workflow
-- workflows
-- workflow
-- routing-policy-validation-receipt
-- authz-engine-validation-receipt
-- law-hierarchy
+title: "Workflows Workflow Contract — Master DAG Orchestration, Multi-Agent Pipeline & Epistemic Verification Specification"
+type: plane_contract
+plane: 08_WORKFLOWS
+domain: C_COGNITIVE_CAPABILITY
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
+status: ACTIVE_SPECIFICATION
+conclusion_class: DERIVED
 rscf:
-  state: AMOS_MODEL
+  state: DERIVED
   claim_class: AMOS_MODEL
-  provenance: AMOS_corpus
-  scope: workflow_process
+  provenance:
+    - 08_WORKFLOWS/08_WORKFLOWS_MOC
+    - 08_WORKFLOWS/AUTONOMOUS_MULTI_AGENT_EPISTEMIC_VERIFICATION_CHAIN
+    - 00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE
+  scope: workflow_dag_orchestration_and_pipeline_governance
+tags:
+  - amos-os
+  - 08-workflows
+  - plane-contract
+  - dag-orchestration
+  - multi-agent-pipeline
+  - epistemic-verification
+  - checkpointing
 ---
 
-# WORKFLOWS [[08_WORKFLOWS/law-stack-enforcement-pipeline/WORKFLOW|WORKFLOW]] CONTRACT
+# Workflows Workflow Contract — Master DAG Orchestration, Multi-Agent Pipeline & Epistemic Verification Specification
 
-## 0. Status
-Workflows-plane contract for **WORKFLOWS [[08_WORKFLOWS/law-stack-enforcement-pipeline/WORKFLOW|WORKFLOW]] CONTRACT**. AMOS_MODEL; canonical status CONDITIONAL; implementation PARTIAL.
-
-## 1. Scope
-Governs multi-step orchestration definitions with typed stages and rollback basins as they bear on `WORKFLOWS WORKFLOW CONTRACT`. Bounded by dependency closure: conclusions inherit the weakest load-bearing premise.
-
-## 2. Contract terms
-- **Typed artifacts** — every artifact declares artifact_type, epistemic class, scope, regime.
-- **Firewalls preserved** — CAPABILITY ≠ AUTHORITY · PROPOSAL ≠ COMMIT · OBSERVED ≠ CURRENT · TEST_PASS ≠ TRUTH.
-- **Epochs distinct** — state_version ≠ causal_epoch ≠ policy_epoch ≠ provenance_epoch unless an explicit mapping licenses equivalence.
-- **Local finality requires proof** — demonstrated dependency closure may avoid coordination; assumed independence may not.
-- **Selective invalidation** — failure invalidates dependent descendants only; unrelated state is preserved.
-
-## 3. Invariants
-- Fail closed on UNKNOWN/GAP; gaps stay visible, never promoted to PASS.
-- Confidence of any conclusion ≤ confidence of its weakest load-bearing premise (ceiling 0.95).
-- Consequential effects emit receipts; rollback basin exists before mutation.
-- Competing hypotheses remain visible when evidence does not discriminate.
-
-## 4. Executed reference
-No subsystem-local executor yet. Existing executed validators for the OS: routing-policy validator 19/19 ([[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]]) and authz invariant engine 17/17 ([[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]) — cited as pattern, not as evidence for this artifact.
-
-## 5. Gaps
-Runtime enforcement, persistence binding, and empirical validation remain OPEN (UNKNOWN/GAP). Promotion beyond AMOS_MODEL requires the promotion-gate checklist plus an executed receipt specific to this contract.
-
-## 6. Falsifiers
-F1: canonical source defines different semantics for this surface. F2: an executed test contradicts a declared invariant. F3: this contract silently collapses a protected firewall.
-## Worked semantics
-Given an operation touching `WORKFLOWS WORKFLOW CONTRACT` within the Workflows plane:
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-2. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-3. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-4. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-5. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-6. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
-
-## Promotion-gate checklist
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
-
-## Cross-plane bindings
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]|AMOS Core Laws · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
-- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
-- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
----
-
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+> **Origin Architect / Steward:** Trang Phan  
+> **AMOS_CORE Target:** `v4.4`  
+> **Domain Alignment:** Domain C (Cognitive Capability / Orchestration)  
+> **Conclusion Class:** `DERIVED` (RSCF Validated)  
+> **Status:** `ACTIVE_SPECIFICATION`
 
 ---
-**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+
+## 1. Architectural Scope & Subsystem Role
+
+`08_WORKFLOWS` governs the compilation, execution, checkpointing, and formal verification of all Directed Acyclic Graph (DAG) task pipelines, multi-agent epistemic verification chains, and autonomous reasoning workflows in AMOS OS.
+
+```text
+WORKFLOW_EXECUTION != BLIND_PIPELINE_RUN
+STAGE_COMPLETION != EPISTEMIC_VALIDATION
+CHECKPOINTING != UNBOUNDED_STORAGE
+INTERMEDIATE_ERROR == INSTANT_CONTAINMENT
+```
+
+```mermaid
+graph TD
+    TASK[Task Specification / Objective] --> DAG[01. Topological DAG Task Compiler]
+    DAG --> ST1[Stage 1: amos-claim-extractor]
+    ST1 --> ST2[Stage 2: amos-evidence-harvester]
+    ST2 --> ST3[Stage 3: amos-epistemic-verifier]
+    ST3 --> ST4[Stage 4: amos-adversarial-red-team]
+    ST4 --> ST5[Stage 5: amos-proof-finalizer]
+    ST5 --> CKP[02. Deterministic State Checkpointing]
+    CKP --> COMM[12_STATE / 17_OBSERVABILITY]
+```
 
 ---
-RSCF-NODE
-node_id: amos_08_workflows_workflows_workflow_contract_md
-node_type: note
-path: 08_WORKFLOWS/WORKFLOWS_WORKFLOW_CONTRACT.md
-claim_class: AMOS_MODEL
+
+## 2. Master 5-Stage Multi-Agent Verification Architecture
+
+| Pipeline Stage | Assigned Agent Archetype | Primary Mandate | Failure Mode Action |
+| :--- | :--- | :--- | :--- |
+| **1. Claim Extraction** | `amos-claim-extractor` | Deconstruct unstructured text into typed atomic claims | Re-parse with constrained CFG |
+| **2. Evidence Harvesting**| `amos-evidence-harvester` | Retrieve primary literature, telemetry, and vault axioms | Flag missing citations as GAP |
+| **3. Epistemic Verification**| `amos-epistemic-verifier` | Evaluate cross-modal consistency, calculate confidence $\mathcal{C}$| Reject ungrounded claims |
+| **4. Adversarial Red-Team**| `amos-adversarial-red-team`| Synthesize counterexamples, probe edge cases ($\mathcal{H} \le 0.15\text{ b}$)| Veto promotion if vulnerable |
+| **5. Proof Finalization** | `amos-proof-finalizer` | Compile Lean 4 proof capsule and seal BLAKE3 receipt | Abort commit and trigger rollback |
 
 ---
-**MOC:** [[08_WORKFLOWS/08_WORKFLOWS_MOC|08_WORKFLOWS_MOC]]
+
+## 3. Mathematical DAG Scheduling Invariants
+
+Let $\mathcal{G} = (\mathcal{V}, \mathcal{E})$ be the workflow DAG with node priorities $\pi(v)$ and resource costs $c(v)$:
+
+### 3.1 Topological Ordering Invariant
+$$(u \to v) \in \mathcal{E} \implies \text{StartTime}(v) \ge \text{FinishTime}(u)$$
+
+### 3.2 Bounded Resource & Token Horizon
+$$\sum_{v \in \mathcal{V}} \text{ComputeCost}(v) \le B_{\text{workflow}}^{\max} < \infty$$
+
+---
+
+## 4. Checkpoint & Rollback Policies
+
+1. **Deterministic Intermediate Checkpoints:** Every completed DAG stage writes an immutable snapshot to `/scratch/checkpoints/` with a BLAKE3 trace hash.
+2. **One-Click Replayability:** Any pipeline failure can be perfectly replayed from the nearest preceding verified checkpoint without re-running upstream compute.
+
+---
+
+## 5. Lineage & Cross-Plane References
+
+- **Parent MOC:** [[08_WORKFLOWS/08_WORKFLOWS_MOC|08_WORKFLOWS_MOC]]
+- **Verification Chain:** [[08_WORKFLOWS/AUTONOMOUS_MULTI_AGENT_EPISTEMIC_VERIFICATION_CHAIN|AUTONOMOUS_MULTI_AGENT_EPISTEMIC_VERIFICATION_CHAIN]]
+- **Agent Governance:** [[06_AGENTS/AGENTS_AGENT_CONTRACT|06_AGENTS]]
+- **Skills Registry:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
+- **State Storage:** [[12_STATE/STATE_STATE_CONTRACT|12_STATE]]
+

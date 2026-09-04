@@ -12,16 +12,16 @@ segment: 04_RUNTIME/02_ROUTER
 artifact_kind: ROUTER_SPEC
 path: 04_RUNTIME/02_ROUTER/HML_ROUTER.md
 tags:
-- amos-os
-- runtime
-- vault
-- 02_router
-- hml_router
-- high_mid_low
-- progressive_disclosure
-- rscf
-- canon_candidate
-- canon/runtime
+  - amos-os
+  - runtime
+  - vault
+  - 02_router
+  - hml_router
+  - high_mid_low
+  - progressive_disclosure
+  - rscf
+  - canon_candidate
+  - canon/runtime
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -36,13 +36,13 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - 04_RUNTIME/02_ROUTER/02_ROUTER_MOC
-  - 11_KNOWLEDGE/11_KNOWLEDGE_MOC
-  - AMOS_CORPUS
+    - 04_RUNTIME/02_ROUTER/02_ROUTER_MOC
+    - 11_KNOWLEDGE/11_KNOWLEDGE_MOC
+    - AMOS_CORPUS
   scope:
-  - RUNTIME_ROUTER
-  - HML_ROUTING
-  - SOURCE_DEFINED_MODEL
+    - RUNTIME_ROUTER
+    - HML_ROUTING
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   router_moc:
     artifact: 04_RUNTIME/02_ROUTER/02_ROUTER_MOC
@@ -59,9 +59,9 @@ epistemic_boundary:
 
 `HML_ROUTER.md` is the canonical Runtime Plane specification governing the progressive context disclosure across **High (H - Metadata/Index)**, **Mid (M - Structure/Executive)**, and **Low (L - Deep Raw Corpus)** layers within `04_RUNTIME/02_ROUTER`.
 
----
+______________________________________________________________________
 
-# 1. H/M/L Progressive Disclosure Strategy
+## 1. H/M/L Progressive Disclosure Strategy
 
 ```text
   User Request / System Inquiry
@@ -76,17 +76,17 @@ epistemic_boundary:
          (Invoked ONLY when mathematical line-by-line verification is required)
 ```
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Router MOC:** 04_RUNTIME/02_ROUTER/[[04_RUNTIME/02_ROUTER/02_ROUTER_MOC|02_ROUTER_MOC]]
 - **Knowledge MOC:** 11_KNOWLEDGE/[[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]]
 - **Cognitive Matrix:** 25_COGNITIVE_MATRIX/[[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -104,9 +104,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME_MOC]] · 04_RUNTIME/02_ROUTER/[[04_RUNTIME/02_ROUTER/02_ROUTER_MOC|02_ROUTER_MOC]] · 11_KNOWLEDGE/[[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]]
 
----
+______________________________________________________________________
+
 **MOC:** 04_RUNTIME/02_ROUTER/[[04_RUNTIME/02_ROUTER/02_ROUTER_MOC|02_ROUTER_MOC]]

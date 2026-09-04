@@ -1,16 +1,19 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Vault Domain Knowledge — Amos Canonical Software Substrate Rscf
 type: reference
 source: 07_SKILLS/amos-canonical-software-substrate-rscf/references
 tags:
-- reference
-- amos-canonical-software-substrate-rscf
-- type/skill
-- 2026-08-22-amos-obsidian-memory-bridge
-- law-hierarchy
-- 2026-08-22-cognitive-substrate-reality-gate
-- 2026-08-22-cognitive-substrate-reasoning-graph
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-canonical-software-substrate-rscf
+  - type/skill
+  - 2026-08-22-amos-obsidian-memory-bridge
+  - law-hierarchy
+  - 2026-08-22-cognitive-substrate-reality-gate
+  - 2026-08-22-cognitive-substrate-reasoning-graph
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -30,7 +33,7 @@ rscf:
 
 > Path: `dated/2026-08-23/2026-08-23 AMOS Cognitive Substrate Bug Fixes.md` | Size: 5985 chars | Match score: 10
 
-# AMOS Cognitive Substrate Bug Fixes
+## AMOS Cognitive Substrate Bug Fixes
 
 > Epistemic class: OBSERVATION
 > Conclusion label: `VERIFIED` — Fixed 3 bugs in AMOS_COGNITIVE_SUBSTRATE.py, all 146 self-tests pass.
@@ -46,6 +49,7 @@ cognitive substrate layer) that were causing self-test failures.
 `CognitiveSubstrateGate.detect_mode_reversion()` (line 3224)
 
 self-test at line 3813 expected a dict with `culprit_mode` key:
+
 ```python
 revert_warning2["culprit_mode"] == ReasoningMode.EXPLOSE
 ```
@@ -55,11 +59,11 @@ the most recent previous mode that differs from the current mode.
 
 ## Bug 2: `time.time()` called at class definition time
 
-
 ```python
 time_created: float = field(default_factory=time.time)  # correct
 time_updated: float = field(default_factory=time.time())  # BUG: calls time.time() once
 ```
+
 `time.time()` with parentheses calls the function once at class definition time
 and uses the float result as the default factory. This caused
 `TypeError: 'float' object is not callable` when creating MemoryObject instances.
@@ -67,7 +71,6 @@ and uses the float result as the default factory. This caused
 `default_factory` receives the callable itself.
 
 ## Bug 3: `MemoryTrustState.RETRACTED` doesn't exist
-
 
 but `MemoryTrustState` enum only has: TRUSTED, PROVISIONAL, QUARANTINED, STALE,
 REVOKED, FALSIFIED. `RETRACTED` exists in the `ObjectStatus` enum, not
@@ -77,13 +80,10 @@ to match.
 
 ## Bug 4: Mode transition not recorded in meta-cognitive history
 
-
 but didn't call `self.meta_cognitive_state.snapshot()`, so the meta-cognitive
 history was never updated after mode transitions.
 
-
 ## Bug 5: Scope compatibility check with empty scope
-
 
 for an object with no scope set (all None fields). But `Scope.compatible_with()`
 only fails when BOTH scopes have a non-None value that differs. With the object's
@@ -93,14 +93,14 @@ tests so the scope compatibility check has a real value to compare against.
 
 ## Test Results
 
-| Suite | Before | After |
-|-------|--------|-------|
-| AMOS_COGNITIVE_SUBSTRATE.py self-tests | 123/125 (crash) | 146/146 |
-| test_cognitive_substrate_reality_gate.py | 26 | 26 |
-| test_cognitive_substrate_reasoning_graph.py | 29 | 29 |
-| test_cognitive_substrate_memory_graph.py | 38 | 38 |
-| test_cognitive_substrate_interface.py | 32 | 32 |
-| **Total cognitive substrate** | **240** | **271** |
+| Suite                                       | Before          | After   |
+| ------------------------------------------- | --------------- | ------- |
+| AMOS_COGNITIVE_SUBSTRATE.py self-tests      | 123/125 (crash) | 146/146 |
+| test_cognitive_substrate_reality_gate.py    | 26              | 26      |
+| test_cognitive_substrate_reasoning_graph.py | 29              | 29      |
+| test_cognitive_substrate_memory_graph.py    | 38              | 38      |
+| test_cognitive_substrate_interface.py       | 32              | 32      |
+| **Total cognitive substrate**               | **240**         | **271** |
 
 ## Key Lessons
 
@@ -108,19 +108,19 @@ tests so the scope compatibility check has a real value to compare against.
    once at definition time; the second passes the callable. Always use
    `field(default_factory=time.time)` for dataclass timestamp fields.
 
-2. **Enum membership**: Before using `EnumClass.MEMBER`, verify the member exists
+1. **Enum membership**: Before using `EnumClass.MEMBER`, verify the member exists
    in that specific enum class. `RETRACTED` was in `ObjectStatus`, not
    `MemoryTrustState`.
 
-3. **Return type contracts**: When a self-test expects `result["key"
+1. **Return type contracts**: When a self-test expects \`result\["key"
 
----
+______________________________________________________________________
 
 ### Source 2: AMOS Cognitive Substrate Query and Tag Retrieval
 
 > Path: `dated/2026-08-23/2026-08-23 AMOS Cognitive Substrate Query and Tag Retrieval.md` | Size: 5905 chars | Match score: 10
 
-# AMOS Cognitive Substrate Query and Tag Retrieval
+## AMOS Cognitive Substrate Query and Tag Retrieval
 
 > Epistemic class: OBSERVATION
 > Conclusion label: `VERIFIED` — Added query() and retrieve_by_tag() methods with
@@ -187,25 +187,25 @@ captures transitions. The `transition_mode()` method now appends a
    means "applies everywhere". Only objects with explicit scope values are
    filtered by scope mismatch.
 
-2. **Trust state filtering**: `query()` only returns TRUSTED and PROVISIONAL
+1. **Trust state filtering**: `query()` only returns TRUSTED and PROVISIONAL
    objects by default. QUARANTINED, REVOKED, FALSIFIED, and STALE objects are
    excluded unless explicitly requested via `trust_states` parameter.
 
-3. **Lexical matching**: The query uses simple term overlap scoring. This is
+1. **Lexical matching**: The query uses simple term overlap scoring. This is
    intentionally simple — the cognitive substrate is a mechanistic reasoning
    layer, not a search engine. Semantic matching would require embedding
    comparison which is a higher-level concern.
 
-4. **MetaCognitiveEvent vs MetaCognitiveSnapshot**: Events capture transitions
+1. **MetaCognitiveEvent vs MetaCognitiveSnapshot**: Events capture transitions
    (w
 
----
+______________________________________________________________________
 
 ### Source 3: Cognitive Substrate Memory Operation Graph
 
 > Path: `dated/2026-08-22/2026-08-22 Cognitive Substrate Memory Graph.md` | Size: 5699 chars | Match score: 10
 
-# Cognitive Substrate Memory Operation Graph
+## Cognitive Substrate Memory Operation Graph
 
 > Slice 3 of the AMOS Cognitive Substrate Layer. Implements the memory side of
 > `M_t = (V_t, E_t, O_t, I_t, Q_t, L_t)` with field-level lineage, epistemic-class
@@ -228,14 +228,14 @@ reconstructed as an operation-variable execution graph and attributed to the
 M_t = (V_t, E_t, O_t, I_t, Q_t, L_t)
 ```
 
-| Component | Meaning | Gaps |
-|-----------|---------|------|
-| V_t | Memory-object graph (fields with lineage) | 810–815 |
-| E_t | Semantic / provenance / dependency edges | 825–826 |
-| O_t | Memory operation history | 801–802 |
-| I_t | Indexes | 801 |
-| Q_t | Quarantine / trust state | 827–830 |
-| L_t | Lifecycle state (active, superseded, retracted, archived) | 822–824 |
+| Component | Meaning                                                   | Gaps    |
+| --------- | --------------------------------------------------------- | ------- |
+| V_t       | Memory-object graph (fields with lineage)                 | 810–815 |
+| E_t       | Semantic / provenance / dependency edges                  | 825–826 |
+| O_t       | Memory operation history                                  | 801–802 |
+| I_t       | Indexes                                                   | 801     |
+| Q_t       | Quarantine / trust state                                  | 827–830 |
+| L_t       | Lifecycle state (active, superseded, retracted, archived) | 822–824 |
 
 Memory evolution: `M_{t+1} = Pi_admission(R_reconcile(C_consolidate(U_update(M_t, E_t))))`
 
@@ -255,15 +255,15 @@ are stale or wrong.
 
 ## 5. Epistemic-class preservation (gaps 831–837)
 
-| Gap | Preservation rule |
-|-----|-------------------|
-| 831 | SOURCE_CLAIM, OBSERVATION, DERIVED, MODEL, DECISION survive storage unchanged |
+| Gap | Preservation rule                                                                    |
+| --- | ------------------------------------------------------------------------------------ |
+| 831 | SOURCE_CLAIM, OBSERVATION, DERIVED, MODEL, DECISION survive storage unchanged        |
 | 832 | Modality ("may", "likely", "must", "observed", "predicted") must survive compression |
-| 833 | Negation ("not", exceptions, exclusion conditions) must not be dropped |
-| 834 | Quantifiers ("some", "most", "all", thresholds) must remain explicit |
-| 835 | Correlation cannot become cause during consolidation |
-| 836 | Future forecast cannot become present observation after time passes |
-| 837 | "Agent A believes X" cannot become "X is true" |
+| 833 | Negation ("not", exceptions, exclusion conditions) must not be dropped               |
+| 834 | Quantifiers ("some", "most", "all", thresholds) must remain explicit                 |
+| 835 | Correlation cannot become cause during consolidation                                 |
+| 836 | Future forecast cannot become present observation after time passes                  |
+| 837 | "Agent A believes X" cannot become "X is true"                                       |
 
 ## 6. Consolidation (gaps 841–844)
 
@@ -274,11 +274,11 @@ are stale or wrong.
 ## 7. Retrieval graph (gaps 873–878)
 
 Retrieval is modeled as graph traversal with path provenance. Failure is separated into:
-`STORE_FAILURE | INDEX_FAILURE | QUERY_FAIL
+\`STORE_FAILURE | INDEX_FAILURE | QUERY_FAIL
 
----
-**MOC:** references_MOC
----
+______________________________________________________________________
+
+## **MOC:** references_MOC
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -286,13 +286,14 @@ Retrieval is modeled as graph traversal with path provenance. Failure is separat
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-canonical-software-substrate-rscf-vault-domain-knowledge
 node_type: reference
 path: 07_SKILLS/amos-canonical-software-substrate-rscf/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC
-

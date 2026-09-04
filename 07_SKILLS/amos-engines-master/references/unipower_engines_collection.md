@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: unipower engines collection
 type: reference
 source: 07_SKILLS/amos-engines-master/references
 tags:
-- reference
-- amos-engines-master
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-engines-master
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -20,25 +23,16 @@ rscf:
 > Source: `_00_Cosmo brain/engine/A/AMOS Unipower Engines.md`
 > Epistemic class: SOURCE_DERIVED
 
----
-title: AMOS Unipower Engines — Full Inventory
-created: "2026-08-22"
-origin: "Google Drive — _00_AMOS_CANON/Unipower/"
-origin_architect: "Trang Phan"
-type: "reference"
-tags: [canon-group/tech-ai, unipower, engines, vietnam, australia, china, global, canon-group/human-system, economy, workforce, ev, market, system-operations, ai-intelligence, bod, scientific, strategic-document, tech, risk-policy-governance, omnistructure, engine]
-status: "active"
-provenance: "VERIFIED"
-confidence: "VERIFIED"
-source: "Google Drive /_00_AMOS_CANON/Unipower/ (20 files: 18 JSON + 2 TXT/MD)"
----
+______________________________________________________________________
 
-# AMOS Unipower Engines — part 2
+## title: AMOS Unipower Engines — Full Inventory created: "2026-08-22" origin: "Google Drive — \_00_AMOS_CANON/Unipower/" origin_architect: "Trang Phan" type: "reference" tags: [canon-group/tech-ai, unipower, engines, vietnam, australia, china, global, canon-group/human-system, economy, workforce, ev, market, system-operations, ai-intelligence, bod, scientific, strategic-document, tech, risk-policy-governance, omnistructure, engine] status: "active" provenance: "VERIFIED" confidence: "VERIFIED" source: "Google Drive /\_00_AMOS_CANON/Unipower/ (20 files: 18 JSON + 2 TXT/MD)"
+
+## AMOS Unipower Engines — part 2
 
 Full inventory of 20 Unipower engine files from `_00_AMOS_CANON/Unipower/`.
 Country-specific (Australia, China, Vietnam) and cross-domain engines.
 
----
+______________________________________________________________________
 
 ## Vietnam Engines (5)
 
@@ -48,7 +42,7 @@ Country-specific (Australia, China, Vietnam) and cross-domain engines.
 
 **Role**: Primary Vietnam legal engine.
 
----
+______________________________________________________________________
 
 ### 2. AMOS_Vn_Omnistructure_Engine
 
@@ -56,7 +50,7 @@ Country-specific (Australia, China, Vietnam) and cross-domain engines.
 
 **Role**: Vietnam omnistructure (compressed).
 
----
+______________________________________________________________________
 
 ### 3. VN_Legal_MAX.json
 
@@ -64,7 +58,7 @@ Country-specific (Australia, China, Vietnam) and cross-domain engines.
 
 **Role**: MAX expansion of Vietnam legal.
 
----
+______________________________________________________________________
 
 ### 4. HSE_Engine.txt
 
@@ -72,7 +66,7 @@ Country-specific (Australia, China, Vietnam) and cross-domain engines.
 
 **Role**: Vietnam human systems analysis.
 
----
+______________________________________________________________________
 
 ### 5. Human Systems Engine™ (HSE) VN
 
@@ -80,7 +74,7 @@ Country-specific (Australia, China, Vietnam) and cross-domain engines.
 
 **Role**: Vietnam HSE markdown version.
 
----
+______________________________________________________________________
 
 ## Australia Engines (3)
 
@@ -90,7 +84,7 @@ Country-specific (Australia, China, Vietnam) and cross-domain engines.
 
 **Role**: Australia economy megakernel.
 
----
+______________________________________________________________________
 
 ### 7. AMOS_Australia_Workforce_Engine
 
@@ -98,7 +92,7 @@ Country-specific (Australia, China, Vietnam) and cross-domain engines.
 
 **Role**: Australia workforce analysis.
 
----
+______________________________________________________________________
 
 ### 8. AMOS_Australia_Law_Incentives_Funding_Grants_Engine
 
@@ -106,7 +100,7 @@ Country-specific (Australia, China, Vietnam) and cross-domain engines.
 
 **Role**: Australia law and incentives.
 
----
+______________________________________________________________________
 
 ## China Engines (2)
 
@@ -116,7 +110,7 @@ Country-specific (Australia, China, Vietnam) and cross-domain engines.
 
 **Role**: China legal kernel+engine.
 
----
+______________________________________________________________________
 
 ### 10. AMOS_Chinese_Legal_Ecosystem_Engine
 
@@ -124,7 +118,7 @@ Country-specific (Australia, China, Vietnam) and cross-domain engines.
 
 **Role**: China legal ecosystem modeling.
 
----
+______________________________________________________________________
 
 ## Global Engines (3)
 
@@ -134,7 +128,7 @@ Country-specific (Australia, China, Vietnam) and cross-domain engines.
 
 **Role**: Global legal reasoning.
 
----
+______________________________________________________________________
 
 ### 12. AMOS_Risk_Policy_Governance_Ecosystem_Engine
 
@@ -142,7 +136,7 @@ Country-specific (Australia, China, Vietnam) and cross-domain engines.
 
 **Role**: Risk, policy, governance ecosystem.
 
----
+______________________________________________________________________
 
 ### 13. AMOS_Scientific_Engine
 
@@ -150,21 +144,23 @@ Country-specific (Australia, China, Vietnam) and cross-domain engines.
 
 **Role**: Scientific godmode reasoning.
 
----
+______________________________________________________________________
 
 ## Cross-Domain Engines (7)
 
 ### 14. AMOS_Uni_Ai_Intelligence_Engine
 
-*
+-
 
----
+______________________________________________________________________
+
 **MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -172,12 +168,14 @@ Country-specific (Australia, China, Vietnam) and cross-domain engines.
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-engines-master-unipower-engines-collection
 node_type: reference
 path: 07_SKILLS/amos-engines-master/references/unipower_engines_collection.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

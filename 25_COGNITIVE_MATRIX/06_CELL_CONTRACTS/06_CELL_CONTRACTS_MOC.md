@@ -1,14 +1,17 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: 06 Cell Contracts MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/06_CELL_CONTRACTS
 tags:
-- 06-cell-contracts
-- domain/cognitive-matrix
-- cell-authority
-- cell-bindings
-- cell-evidence
-- cell-state
+  - 06-cell-contracts
+  - domain/cognitive-matrix
+  - cell-authority
+  - cell-bindings
+  - cell-evidence
+  - cell-state
 moc: true
 rscf:
   state: DERIVED
@@ -33,7 +36,8 @@ rscf:
 
 ## Subdirectories
 
-- [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]] — 00_INDEX
+- 00_INDEX_MOC — 00_INDEX
 
----
+______________________________________________________________________
+
 **Parent:** [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]

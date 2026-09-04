@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: POLICY DECISION
 type: decision
 source: 03_CONTROL_PLANE/03_POLICY
 tags:
-- control-plane
-- policy
-- note
-- canon/control-plane
-- capability-manifest
+  - control-plane
+  - policy
+  - note
+  - canon/control-plane
+  - capability-manifest
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL
@@ -94,9 +97,9 @@ ADDRESSABLE != VALIDATED
 PLACEHOLDER != IMPLEMENTED
 ```
 
----
+______________________________________________________________________
 
-# 1. Purpose
+## 1. Purpose
 
 The purpose of `POLICY_DECISION.md` is to establish one explicit governed object for answering:
 
@@ -117,9 +120,9 @@ The policy decision object exists so that downstream systems do not infer permis
 
 Policy evaluation MUST produce an explicit decision state.
 
----
+______________________________________________________________________
 
-# 2. Position in AMOS OS
+## 2. Position in AMOS OS
 
 Conceptually:
 
@@ -155,9 +158,9 @@ A policy decision is therefore an intermediate governed state.
 
 It is not the final effect-release state.
 
----
+______________________________________________________________________
 
-# 3. Relationship to [[03_CONTROL_PLANE/03_POLICY/POLICY_REGISTRY|POLICY_REGISTRY]].md
+## 3. Relationship to [[03_CONTROL_PLANE/03_POLICY/POLICY_REGISTRY|POLICY_REGISTRY]].md
 
 `POLICY_REGISTRY.md` answers:
 
@@ -194,9 +197,9 @@ POLICY_DECISION
 
 A policy decision MUST preserve references to the policy versions from which it was derived.
 
----
+______________________________________________________________________
 
-# 4. Relationship to [[03_CONTROL_PLANE/02_CAPABILITY/CAPABILITY_MANIFEST|CAPABILITY_MANIFEST]].md
+## 4. Relationship to [[03_CONTROL_PLANE/02_CAPABILITY/CAPABILITY_MANIFEST|CAPABILITY_MANIFEST]].md
 
 Capability resolution answers:
 
@@ -241,9 +244,9 @@ CAPABLE(C)
 
 Both may be required.
 
----
+______________________________________________________________________
 
-# 5. Relationship to Authority
+## 5. Relationship to Authority
 
 Policy and authority MUST remain separate.
 
@@ -286,9 +289,9 @@ AuthorityValid(P, A, R)
 
 does not override applicable policy unless a valid policy explicitly defines such an override mechanism.
 
----
+______________________________________________________________________
 
-# 6. Relationship to Control Plane
+## 6. Relationship to Control Plane
 
 The policy decision is evidence consumed by the control plane.
 
@@ -329,9 +332,9 @@ release ledger ambiguous;
 receiver completion uncertain.
 ```
 
----
+______________________________________________________________________
 
-# 7. Core Policy Decision Object
+## 7. Core Policy Decision Object
 
 Canonical conceptual object:
 
@@ -360,9 +363,9 @@ POLICY_DECISION :=
   × FinalDecision
 ```
 
----
+______________________________________________________________________
 
-# 8. Canonical Representation
+## 8. Canonical Representation
 
 ```yaml
 policy_decision:
@@ -448,9 +451,9 @@ policy_decision:
   confidence_ceiling: 0
 ```
 
----
+______________________________________________________________________
 
-# 9. Policy Decision States
+## 9. Policy Decision States
 
 The base AMOS policy-decision state space SHOULD include:
 
@@ -467,9 +470,9 @@ UNKNOWN_GAP
 
 These states MUST remain semantically distinct.
 
----
+______________________________________________________________________
 
-# 10. ALLOW
+## 10. ALLOW
 
 `ALLOW` means:
 
@@ -488,9 +491,9 @@ COMMITTED
 
 A downstream authority or commit gate may still block the action.
 
----
+______________________________________________________________________
 
-# 11. DENY
+## 11. DENY
 
 `DENY` means:
 
@@ -510,9 +513,9 @@ denial:
 
 A denial MUST NOT be silently converted into `ALLOW` because an agent believes the action is useful.
 
----
+______________________________________________________________________
 
-# 12. CONDITIONAL
+## 12. CONDITIONAL
 
 `CONDITIONAL` means:
 
@@ -536,9 +539,9 @@ Until all mandatory conditions are satisfied:
 CONDITIONAL != ALLOW
 ```
 
----
+______________________________________________________________________
 
-# 13. ESCALATE
+## 13. ESCALATE
 
 `ESCALATE` means:
 
@@ -561,9 +564,9 @@ Escalation is not denial.
 
 It is also not permission.
 
----
+______________________________________________________________________
 
-# 14. REVALIDATE
+## 14. REVALIDATE
 
 `REVALIDATE` means:
 
@@ -583,9 +586,9 @@ effect changed;
 freshness expired.
 ```
 
----
+______________________________________________________________________
 
-# 15. CONFLICT
+## 15. CONFLICT
 
 `CONFLICT` means:
 
@@ -600,9 +603,9 @@ CONFLICT != ALLOW
 
 unless a governing conflict-resolution rule explicitly defines the outcome.
 
----
+______________________________________________________________________
 
-# 16. NOT_APPLICABLE
+## 16. NOT_APPLICABLE
 
 `NOT_APPLICABLE` means:
 
@@ -612,9 +615,9 @@ This state SHOULD be used for individual policy evaluation.
 
 A final decision cannot infer `ALLOW` merely because one discovered policy is not applicable.
 
----
+______________________________________________________________________
 
-# 17. UNKNOWN_GAP
+## 17. UNKNOWN_GAP
 
 `UNKNOWN_GAP` means:
 
@@ -627,9 +630,9 @@ UNKNOWN/GAP != ALLOW
 UNKNOWN/GAP != PASS
 ```
 
----
+______________________________________________________________________
 
-# 18. Decision Subject
+## 18. Decision Subject
 
 Every policy decision MUST identify the governed subject where applicable.
 
@@ -656,9 +659,9 @@ subject:
 
 Identity alone does not establish authority.
 
----
+______________________________________________________________________
 
-# 19. Requested Action
+## 19. Requested Action
 
 The requested action SHOULD be represented independently of natural-language intent.
 
@@ -700,9 +703,9 @@ request:
 
 Policy evaluation SHOULD use the normalized operation where possible rather than relying only on natural-language labels.
 
----
+______________________________________________________________________
 
-# 20. Effect Intent
+## 20. Effect Intent
 
 For effect-producing actions, policy evaluation SHOULD receive an explicit effect intent.
 
@@ -729,9 +732,9 @@ effect_intent:
 
 Policy SHOULD evaluate the proposed effect, not merely the tool name.
 
----
+______________________________________________________________________
 
-# 21. Policy Applicability
+## 21. Policy Applicability
 
 Before evaluating a policy's rule body, AMOS SHOULD establish whether that policy applies.
 
@@ -756,9 +759,9 @@ consequence;
 delegation state.
 ```
 
----
+______________________________________________________________________
 
-# 22. Applicability Record
+## 22. Applicability Record
 
 ```yaml
 applicability:
@@ -783,9 +786,9 @@ applicability:
   temporal_match: null
 ```
 
----
+______________________________________________________________________
 
-# 23. Applicability Invariant
+## 23. Applicability Invariant
 
 Unknown applicability for a potentially governing policy MUST NOT silently become non-applicability.
 
@@ -801,9 +804,9 @@ FinalDecision ≠ ALLOW
 
 unless another canonical rule explicitly proves that the unresolved policy cannot change the outcome.
 
----
+______________________________________________________________________
 
-# 24. Individual Policy Evaluation
+## 24. Individual Policy Evaluation
 
 Each applicable policy SHOULD generate an independent evaluation record.
 
@@ -839,9 +842,9 @@ policy_evaluation:
 
 The final decision is composed from these records.
 
----
+______________________________________________________________________
 
-# 25. Policy Composition
+## 25. Policy Composition
 
 Multiple policies may govern one action.
 
@@ -859,9 +862,9 @@ POLICY_DECISION
 
 Composition MUST NOT use arbitrary ordering unless ordering itself is canonical policy.
 
----
+______________________________________________________________________
 
-# 26. Composition Inputs
+## 26. Composition Inputs
 
 Policy composition SHOULD consider:
 
@@ -879,9 +882,9 @@ explicit override relationships;
 hard-vs-soft constraint class.
 ```
 
----
+______________________________________________________________________
 
-# 27. Policy Precedence
+## 27. Policy Precedence
 
 Where precedence exists, it MUST be explicit.
 
@@ -900,9 +903,9 @@ precedence:
 
 No policy receives precedence merely because it was loaded first.
 
----
+______________________________________________________________________
 
-# 28. Only-Tighten Principle
+## 28. Only-Tighten Principle
 
 Where applicable to a policy family, delegated or lower-level policy SHOULD be allowed to tighten a governing constraint but not silently weaken it.
 
@@ -916,9 +919,9 @@ unless the upper policy explicitly grants exception authority.
 
 This is a governance model rule and MUST be scoped to policy families where such inheritance is defined.
 
----
+______________________________________________________________________
 
-# 29. Deny Dominance
+## 29. Deny Dominance
 
 For hard constraints:
 
@@ -940,9 +943,9 @@ technical capability;
 successful previous execution.
 ```
 
----
+______________________________________________________________________
 
-# 30. Conditional Composition
+## 30. Conditional Composition
 
 If:
 
@@ -960,9 +963,9 @@ Final = CONDITIONAL(C1 ∧ C2)
 
 unless precedence rules establish otherwise.
 
----
+______________________________________________________________________
 
-# 31. Unknown Composition
+## 31. Unknown Composition
 
 If an unresolved policy could materially change the decision:
 
@@ -984,9 +987,9 @@ ESCALATE
 
 depending on governance rules.
 
----
+______________________________________________________________________
 
-# 32. Conflict Preservation
+## 32. Conflict Preservation
 
 Suppose:
 
@@ -1005,9 +1008,9 @@ FinalDecision = CONFLICT
 
 The system MUST NOT select whichever result is more convenient.
 
----
+______________________________________________________________________
 
-# 33. Obligations
+## 33. Obligations
 
 Policy may permit an action while imposing obligations.
 
@@ -1046,9 +1049,9 @@ obligation:
   evidence_refs: []
 ```
 
----
+______________________________________________________________________
 
-# 34. Obligation Invariant
+## 34. Obligation Invariant
 
 Mandatory pre-action obligations MUST be satisfied before action release.
 
@@ -1062,9 +1065,9 @@ not releasable
 
 A post-action obligation may not necessarily block execution, but MUST remain tracked.
 
----
+______________________________________________________________________
 
-# 35. Prohibitions
+## 35. Prohibitions
 
 Explicit prohibitions SHOULD be represented independently.
 
@@ -1087,9 +1090,9 @@ prohibition:
 
 This prevents prohibitions from disappearing into explanatory prose.
 
----
+______________________________________________________________________
 
-# 36. Conditions
+## 36. Conditions
 
 Conditions differ from obligations.
 
@@ -1109,9 +1112,9 @@ record approval provenance.
 
 These SHOULD remain separate.
 
----
+______________________________________________________________________
 
-# 37. Exception Model
+## 37. Exception Model
 
 Exceptions MUST be explicit governed objects.
 
@@ -1140,9 +1143,9 @@ policy_exception:
   revoked: false
 ```
 
----
+______________________________________________________________________
 
-# 38. Exception Invariant
+## 38. Exception Invariant
 
 An exception MUST NOT broaden beyond its explicit envelope.
 
@@ -1152,9 +1155,9 @@ ExceptionScope ⊆ AuthorizedExceptionScope
 
 Expired or revoked exceptions MUST NOT be reused.
 
----
+______________________________________________________________________
 
-# 39. Policy Decision Scope
+## 39. Policy Decision Scope
 
 Every material decision SHOULD preserve:
 
@@ -1174,9 +1177,9 @@ scope:
 
 Empty scope does not automatically mean universal scope.
 
----
+______________________________________________________________________
 
-# 40. Regime
+## 40. Regime
 
 Policy validity may depend on regime.
 
@@ -1196,9 +1199,9 @@ regime:
 
 A development `ALLOW` MUST NOT silently become a production `ALLOW`.
 
----
+______________________________________________________________________
 
-# 41. Temporal Validity
+## 41. Temporal Validity
 
 Every reusable policy decision SHOULD carry temporal validity.
 
@@ -1216,9 +1219,9 @@ freshness:
 
 A policy decision is not permanently valid.
 
----
+______________________________________________________________________
 
-# 42. Freshness Invariant
+## 42. Freshness Invariant
 
 If a load-bearing policy changes:
 
@@ -1240,9 +1243,9 @@ effect change;
 constraint change.
 ```
 
----
+______________________________________________________________________
 
-# 43. Fine-Grained Read Set
+## 43. Fine-Grained Read Set
 
 Where infrastructure supports precise dependency tracking, the policy decision SHOULD preserve the authoritative policy objects actually read during evaluation.
 
@@ -1265,9 +1268,9 @@ ReadSet =
 
 A change to an unread unrelated policy SHOULD NOT invalidate the decision merely because the global registry changed.
 
----
+______________________________________________________________________
 
-# 44. Selective Invalidation
+## 44. Selective Invalidation
 
 Suppose:
 
@@ -1287,9 +1290,9 @@ unless another dependency establishes broader impact.
 
 This is preferred over indiscriminate global recomputation.
 
----
+______________________________________________________________________
 
-# 45. Policy Context
+## 45. Policy Context
 
 The policy evaluator SHOULD receive an explicit context object.
 
@@ -1316,9 +1319,9 @@ policy_context:
 
 Missing load-bearing context remains a gap.
 
----
+______________________________________________________________________
 
-# 46. Authority Context
+## 46. Authority Context
 
 Policy evaluation MAY depend on authority state.
 
@@ -1342,9 +1345,9 @@ authority_context:
 
 Policy logic MUST NOT fabricate authority.
 
----
+______________________________________________________________________
 
-# 47. Constraint Context
+## 47. Constraint Context
 
 Policies may depend on constraints such as:
 
@@ -1374,9 +1377,9 @@ constraint_context:
 
 Constraint freshness may require commit-time revalidation.
 
----
+______________________________________________________________________
 
-# 48. Evidence
+## 48. Evidence
 
 A policy decision SHOULD retain evidence supporting material predicates.
 
@@ -1405,9 +1408,9 @@ evidence:
   provenance: []
 ```
 
----
+______________________________________________________________________
 
-# 49. Evidence Sufficiency
+## 49. Evidence Sufficiency
 
 Policy evaluation SHOULD distinguish:
 
@@ -1420,9 +1423,9 @@ predicate conflicting.
 
 A missing value MUST NOT be coerced into the value most favorable to execution.
 
----
+______________________________________________________________________
 
-# 50. Provenance
+## 50. Provenance
 
 Every consequential policy decision SHOULD preserve sufficient provenance to reconstruct:
 
@@ -1438,9 +1441,9 @@ when evaluation occurred;
 which evaluator produced the decision.
 ```
 
----
+______________________________________________________________________
 
-# 51. Provenance Object
+## 51. Provenance Object
 
 ```yaml
 provenance:
@@ -1464,9 +1467,9 @@ provenance:
   transaction_id: null
 ```
 
----
+______________________________________________________________________
 
-# 52. Provenance Independence
+## 52. Provenance Independence
 
 Multiple policy interpretations derived from one underlying source MUST NOT be treated as independent policy authority.
 
@@ -1482,9 +1485,9 @@ the existence of three policy objects does not establish three independent gover
 
 Where material, ancestry SHOULD remain visible.
 
----
+______________________________________________________________________
 
-# 53. Decision Reason Codes
+## 53. Decision Reason Codes
 
 Machine-readable reason codes SHOULD accompany policy decisions.
 
@@ -1526,9 +1529,9 @@ UNKNOWN_EVIDENCE
 
 Reason codes SHOULD NOT replace explanatory provenance.
 
----
+______________________________________________________________________
 
-# 54. Policy Decision Explanation
+## 54. Policy Decision Explanation
 
 The decision MAY expose a concise explanation:
 
@@ -1549,9 +1552,9 @@ The explanation MUST reflect the structured decision.
 
 It MUST NOT override it.
 
----
+______________________________________________________________________
 
-# 55. Decision Hash
+## 55. Decision Hash
 
 A policy decision MAY be cryptographically or deterministically bound to its relevant inputs.
 
@@ -1576,9 +1579,9 @@ The exact hashing scheme is implementation-dependent.
 
 The purpose is to prevent reuse of a policy decision for a materially different action.
 
----
+______________________________________________________________________
 
-# 56. Decision Binding
+## 56. Decision Binding
 
 A policy decision for:
 
@@ -1600,9 +1603,9 @@ WRITE(resource_A, payload_Y)
 
 unless the policy decision's explicit scope covers those variants.
 
----
+______________________________________________________________________
 
-# 57. Parameter Binding
+## 57. Parameter Binding
 
 Consequential policy decisions SHOULD bind to normalized action parameters or a canonical parameter digest.
 
@@ -1616,9 +1619,9 @@ binding:
 
 Parameter mutation after evaluation requires revalidation when policy-sensitive.
 
----
+______________________________________________________________________
 
-# 58. Capability Binding
+## 58. Capability Binding
 
 If policy depends on capability characteristics, the decision SHOULD bind to the resolved capability contract.
 
@@ -1632,9 +1635,9 @@ capability_binding:
 
 A provider substitution may therefore invalidate policy applicability.
 
----
+______________________________________________________________________
 
-# 59. Observability Requirements
+## 59. Observability Requirements
 
 Policy MAY impose observability obligations.
 
@@ -1664,9 +1667,9 @@ OBSERVABILITY IS ACTUALLY PRESENT
 
 Coverage MUST be validated by the infrastructure/control plane.
 
----
+______________________________________________________________________
 
-# 60. Policy and Effect Release
+## 60. Policy and Effect Release
 
 Policy `ALLOW` is not effect release.
 
@@ -1690,9 +1693,9 @@ COMMITTABLE
 
 Any required gate may still block release.
 
----
+______________________________________________________________________
 
-# 61. Durable Effect Boundary
+## 61. Durable Effect Boundary
 
 For persistent/external/model-promotion effects, the control plane SHOULD revalidate at commit time at least the load-bearing:
 
@@ -1709,9 +1712,9 @@ observability envelope.
 
 This protects against stale preflight decisions.
 
----
+______________________________________________________________________
 
-# 62. Proposal vs Commit
+## 62. Proposal vs Commit
 
 Policy may permit a system to generate a proposal without permitting the proposal to be committed.
 
@@ -1733,9 +1736,9 @@ Therefore:
 ProposalPermission != CommitPermission
 ```
 
----
+______________________________________________________________________
 
-# 63. Effect Classes
+## 63. Effect Classes
 
 Policy MAY discriminate by effect class.
 
@@ -1761,9 +1764,9 @@ E7_HIGH_CONSEQUENCE_OR_IRREVERSIBLE_EFFECT
 
 Higher consequence MAY require stronger policy conditions.
 
----
+______________________________________________________________________
 
-# 64. Consequence-Aware Escalation
+## 64. Consequence-Aware Escalation
 
 A policy may require escalation based on:
 
@@ -1792,9 +1795,9 @@ escalation:
     - HUMAN_AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 65. Decision Finality
+## 65. Decision Finality
 
 A policy decision is final only relative to its policy-evaluation scope.
 
@@ -1823,9 +1826,9 @@ FINAL
 
 where ambiguity is possible.
 
----
+______________________________________________________________________
 
-# 66. Receiver Completion
+## 66. Receiver Completion
 
 A policy decision MAY require receiver-attested completion for external effects.
 
@@ -1851,9 +1854,9 @@ signature/trust status;
 temporal validity.
 ```
 
----
+______________________________________________________________________
 
-# 67. Idempotency Policy
+## 67. Idempotency Policy
 
 Policy MAY require stable idempotency for durable effects.
 
@@ -1868,9 +1871,9 @@ Policy can require this property.
 
 Infrastructure must enforce the actual release state.
 
----
+______________________________________________________________________
 
-# 68. Ambiguous Externalization
+## 68. Ambiguous Externalization
 
 If an external effect may have occurred but completion cannot be established:
 
@@ -1888,9 +1891,9 @@ RECONCILE
 
 before another dispatch.
 
----
+______________________________________________________________________
 
-# 69. Cached Policy Decisions
+## 69. Cached Policy Decisions
 
 Policy decisions MAY be cached only when reuse conditions remain valid.
 
@@ -1914,9 +1917,9 @@ policy_decision_cache:
   invalidation_conditions: []
 ```
 
----
+______________________________________________________________________
 
-# 70. Cache Reuse Invariant
+## 70. Cache Reuse Invariant
 
 A cached policy decision MUST NOT be reused when a load-bearing binding changed.
 
@@ -1935,9 +1938,9 @@ capability contract changed;
 exception revoked.
 ```
 
----
+______________________________________________________________________
 
-# 71. Policy Decision Operators
+## 71. Policy Decision Operators
 
 The policy-decision architecture SHOULD support the following conceptual operators.
 
@@ -1948,7 +1951,7 @@ DISCOVER_POLICY(context)
 → CandidatePolicySet
 ```
 
----
+______________________________________________________________________
 
 ## `RESOLVE_APPLICABILITY`
 
@@ -1957,7 +1960,7 @@ RESOLVE_APPLICABILITY(policy, context)
 → ApplicabilityResult
 ```
 
----
+______________________________________________________________________
 
 ## `EVALUATE_POLICY`
 
@@ -1966,7 +1969,7 @@ EVALUATE_POLICY(policy, context)
 → PolicyEvaluation
 ```
 
----
+______________________________________________________________________
 
 ## `COMPOSE_POLICY_RESULTS`
 
@@ -1975,7 +1978,7 @@ COMPOSE_POLICY_RESULTS({D1 ... Dn})
 → PolicyDecision
 ```
 
----
+______________________________________________________________________
 
 ## `VALIDATE_DECISION`
 
@@ -1984,7 +1987,7 @@ VALIDATE_DECISION(decision)
 → VALID | INVALID | UNKNOWN_GAP
 ```
 
----
+______________________________________________________________________
 
 ## `REVALIDATE_DECISION`
 
@@ -1993,7 +1996,7 @@ REVALIDATE_DECISION(decision, current_state)
 → PolicyDecision'
 ```
 
----
+______________________________________________________________________
 
 ## `INVALIDATE_DECISION`
 
@@ -2001,7 +2004,7 @@ REVALIDATE_DECISION(decision, current_state)
 INVALIDATE_DECISION(decision, failed_dependency)
 ```
 
----
+______________________________________________________________________
 
 ## `ESCALATE_DECISION`
 
@@ -2009,7 +2012,7 @@ INVALIDATE_DECISION(decision, failed_dependency)
 ESCALATE_DECISION(decision, authority_target)
 ```
 
----
+______________________________________________________________________
 
 ## `SUPERSEDE_DECISION`
 
@@ -2017,9 +2020,9 @@ ESCALATE_DECISION(decision, authority_target)
 SUPERSEDE_DECISION(old_decision, new_decision)
 ```
 
----
+______________________________________________________________________
 
-# 72. State Variables
+## 72. State Variables
 
 Recommended policy-decision state variables:
 
@@ -2071,9 +2074,9 @@ PolicyCompose(
 
 This is an AMOS MODEL representation, not a claim of a universal mathematical policy law.
 
----
+______________________________________________________________________
 
-# 73. Decision Sufficiency
+## 73. Decision Sufficiency
 
 A policy decision is structurally sufficient only when the information required to determine its policy-local result is available.
 
@@ -2097,9 +2100,9 @@ If a required term is unresolved:
 PolicySufficient = false
 ```
 
----
+______________________________________________________________________
 
-# 74. Confidence Ceiling
+## 74. Confidence Ceiling
 
 The confidence of a policy decision MUST NOT exceed its weakest load-bearing premise unless independently revalidated.
 
@@ -2122,9 +2125,9 @@ This is an AMOS MODEL governance equation.
 
 It is not an empirically calibrated probability unless calibration evidence exists.
 
----
+______________________________________________________________________
 
-# 75. Uncertainty Vector
+## 75. Uncertainty Vector
 
 Recommended representation:
 
@@ -2144,15 +2147,15 @@ uncertainty:
 
 Uncertainty SHOULD remain multidimensional where collapsing it would hide a decision-relevant weakness.
 
----
+______________________________________________________________________
 
-# 76. Policy Decision Invariants
+## 76. Policy Decision Invariants
 
 ## INV-PD-001 — Explicit Decision
 
 Every completed policy evaluation MUST produce an explicit state.
 
----
+______________________________________________________________________
 
 ## INV-PD-002 — No Capability-to-Permission Collapse
 
@@ -2160,7 +2163,7 @@ Every completed policy evaluation MUST produce an explicit state.
 CAPABILITY != POLICY_ALLOW
 ```
 
----
+______________________________________________________________________
 
 ## INV-PD-003 — No Policy-to-Authority Collapse
 
@@ -2168,7 +2171,7 @@ CAPABILITY != POLICY_ALLOW
 POLICY_ALLOW != AUTHORITY
 ```
 
----
+______________________________________________________________________
 
 ## INV-PD-004 — No Allow-to-Commit Collapse
 
@@ -2176,7 +2179,7 @@ POLICY_ALLOW != AUTHORITY
 ALLOW != COMMIT
 ```
 
----
+______________________________________________________________________
 
 ## INV-PD-005 — Unknown Is Not Pass
 
@@ -2184,251 +2187,251 @@ ALLOW != COMMIT
 UNKNOWN_GAP != ALLOW
 ```
 
----
+______________________________________________________________________
 
 ## INV-PD-006 — Scope Preservation
 
 A decision MUST NOT be reused outside its validated scope.
 
----
+______________________________________________________________________
 
 ## INV-PD-007 — Regime Preservation
 
 A decision MUST NOT be reused across incompatible regimes without revalidation.
 
----
+______________________________________________________________________
 
 ## INV-PD-008 — Version Binding
 
 Material decisions MUST preserve load-bearing policy versions.
 
----
+______________________________________________________________________
 
 ## INV-PD-009 — Conflict Visibility
 
 Unresolved policy conflict MUST remain visible.
 
----
+______________________________________________________________________
 
 ## INV-PD-010 — No Silent Override
 
 Overrides require explicit authority and policy basis.
 
----
+______________________________________________________________________
 
 ## INV-PD-011 — Condition Preservation
 
 Unsatisfied mandatory conditions prevent unconditional `ALLOW`.
 
----
+______________________________________________________________________
 
 ## INV-PD-012 — Obligation Preservation
 
 Mandatory obligations MUST survive downstream handoff.
 
----
+______________________________________________________________________
 
 ## INV-PD-013 — Provenance Preservation
 
 Material decisions MUST preserve reconstructable policy provenance.
 
----
+______________________________________________________________________
 
 ## INV-PD-014 — Freshness Preservation
 
 Stale policy decisions MUST NOT masquerade as current.
 
----
+______________________________________________________________________
 
 ## INV-PD-015 — Parameter Binding
 
 Material parameter changes require revalidation when policy-sensitive.
 
----
+______________________________________________________________________
 
 ## INV-PD-016 — Effect Binding
 
 Policy approval for one effect MUST NOT automatically transfer to a different effect.
 
----
+______________________________________________________________________
 
 ## INV-PD-017 — Selective Invalidation
 
 Only conclusions dependent on a failed premise SHOULD be invalidated unless broader dependency exists.
 
----
+______________________________________________________________________
 
 ## INV-PD-018 — Revocation Dominance
 
 Revoked exceptions or authority MUST NOT remain effective through stale cached decisions.
 
----
+______________________________________________________________________
 
 ## INV-PD-019 — No Evidence Inflation
 
 Correlated evidence MUST NOT be counted as independent confirmation.
 
----
+______________________________________________________________________
 
 ## INV-PD-020 — Proposal/Commit Separation
 
 Permission to propose an effect MUST NOT be interpreted as permission to commit it.
 
----
+______________________________________________________________________
 
-# 77. Failure Modes
+## 77. Failure Modes
 
 ## FM-PD-001 — Missing Policy
 
 A governing policy exists but is not discovered.
 
----
+______________________________________________________________________
 
 ## FM-PD-002 — False Applicability
 
 A policy is applied outside its scope.
 
----
+______________________________________________________________________
 
 ## FM-PD-003 — Missed Applicability
 
 A governing policy is incorrectly classified `NOT_APPLICABLE`.
 
----
+______________________________________________________________________
 
 ## FM-PD-004 — Stale Decision
 
 An old decision is reused after a load-bearing change.
 
----
+______________________________________________________________________
 
 ## FM-PD-005 — Scope Leakage
 
 A narrow policy result is generalized.
 
----
+______________________________________________________________________
 
 ## FM-PD-006 — Regime Leakage
 
 A decision crosses environments or regimes without validation.
 
----
+______________________________________________________________________
 
 ## FM-PD-007 — Authority Smuggling
 
 Policy `ALLOW` is treated as authority.
 
----
+______________________________________________________________________
 
 ## FM-PD-008 — Capability Smuggling
 
 Capability availability is treated as policy permission.
 
----
+______________________________________________________________________
 
 ## FM-PD-009 — Commit Smuggling
 
 Policy permission is treated as durable commit authority.
 
----
+______________________________________________________________________
 
 ## FM-PD-010 — Conflict Suppression
 
 Incompatible policies are silently collapsed.
 
----
+______________________________________________________________________
 
 ## FM-PD-011 — Unknown Suppression
 
 Missing policy information is treated as permission.
 
----
+______________________________________________________________________
 
 ## FM-PD-012 — Exception Expansion
 
 A narrow exception is applied broadly.
 
----
+______________________________________________________________________
 
 ## FM-PD-013 — Revoked Exception Reuse
 
 A revoked exception survives through cache or stale state.
 
----
+______________________________________________________________________
 
 ## FM-PD-014 — Policy Version Drift
 
 Decision provenance points to the wrong policy version.
 
----
+______________________________________________________________________
 
 ## FM-PD-015 — Parameter Drift
 
 Action parameters change after policy evaluation.
 
----
+______________________________________________________________________
 
 ## FM-PD-016 — Target Drift
 
 The target changes while the decision is reused.
 
----
+______________________________________________________________________
 
 ## FM-PD-017 — Effect Drift
 
 The actual effect differs from the evaluated effect intent.
 
----
+______________________________________________________________________
 
 ## FM-PD-018 — Obligation Loss
 
 Required obligations disappear between policy evaluation and execution.
 
----
+______________________________________________________________________
 
 ## FM-PD-019 — Provenance Loss
 
 The basis of the decision cannot be reconstructed.
 
----
+______________________________________________________________________
 
 ## FM-PD-020 — Precedence Error
 
 Policies are ordered using an invalid hierarchy.
 
----
+______________________________________________________________________
 
 ## FM-PD-021 — Override Forgery
 
 An override is accepted without valid authority.
 
----
+______________________________________________________________________
 
 ## FM-PD-022 — Correlated Policy Inflation
 
 Multiple derivatives of one source are treated as independent governing authority.
 
----
+______________________________________________________________________
 
 ## FM-PD-023 — Cached Allow Resurrection
 
 A revoked or changed policy state is bypassed through an old `ALLOW`.
 
----
+______________________________________________________________________
 
 ## FM-PD-024 — Policy/Runtime Divergence
 
 The runtime performs an action inconsistent with the recorded policy decision.
 
----
+______________________________________________________________________
 
 ## FM-PD-025 — Post-Evaluation Mutation
 
 The proposal changes after policy evaluation without revalidation.
 
----
+______________________________________________________________________
 
-# 78. Repair / Recovery
+## 78. Repair / Recovery
 
 Canonical repair sequence:
 
@@ -2458,9 +2461,9 @@ RESTORE / SUPERSEDE / DENY / ESCALATE
 
 Do not rerun the same failed path without changed evidence or state.
 
----
+______________________________________________________________________
 
-# 79. Repair Principle
+## 79. Repair Principle
 
 Repair SHOULD target the smallest causal failure.
 
@@ -2480,9 +2483,9 @@ then re-evaluate the dependencies affected by `P2`.
 
 Do not automatically discard unrelated valid evidence.
 
----
+______________________________________________________________________
 
-# 80. Rollback
+## 80. Rollback
 
 If an invalid policy decision influenced a staged but uncommitted action:
 
@@ -2507,9 +2510,9 @@ escalate
 
 Policy repair MUST NOT pretend an irreversible effect never occurred.
 
----
+______________________________________________________________________
 
-# 81. Tests / Validators
+## 81. Tests / Validators
 
 Minimum policy-decision test surface:
 
@@ -2595,9 +2598,9 @@ T-PD-039 regime-wildcard protection
 T-PD-040 policy/runtime consistency
 ```
 
----
+______________________________________________________________________
 
-# 82. Schema Validator
+## 82. Schema Validator
 
 The schema validator SHOULD reject consequential policy decisions missing:
 
@@ -2621,9 +2624,9 @@ unless explicitly classified:
 UNKNOWN_GAP
 ```
 
----
+______________________________________________________________________
 
-# 83. Semantic Validator
+## 83. Semantic Validator
 
 Structural schema validity is insufficient.
 
@@ -2644,9 +2647,9 @@ commit leakage;
 missing effect binding.
 ```
 
----
+______________________________________________________________________
 
-# 84. Commit-Time Validator
+## 84. Commit-Time Validator
 
 For durable effects, commit-time validation SHOULD test whether the policy decision remains applicable to the exact staged effect.
 
@@ -2668,9 +2671,9 @@ CurrentRegime compatible
 
 where each comparison is scoped to load-bearing dependencies rather than irrelevant global state.
 
----
+______________________________________________________________________
 
-# 85. Adversarial Validator
+## 85. Adversarial Validator
 
 For high-consequence decisions, validation SHOULD challenge:
 
@@ -2700,9 +2703,9 @@ Could a stronger applicable prohibition exist?
 
 A successful challenge requires downgrade, revalidation, conflict preservation, escalation, or denial as appropriate.
 
----
+______________________________________________________________________
 
-# 86. Falsifiers
+## 86. Falsifiers
 
 A policy decision claim is falsified if reliable evidence establishes that:
 
@@ -2740,9 +2743,9 @@ the recorded provenance cannot reconstruct the decision;
 or runtime behavior violated the recorded decision.
 ```
 
----
+______________________________________________________________________
 
-# 87. Decision Query Surface
+## 87. Decision Query Surface
 
 AMOS SHOULD be able to query policy decisions by:
 
@@ -2770,46 +2773,46 @@ exception;
 supersession lineage.
 ```
 
----
+______________________________________________________________________
 
-# 88. Decision Audit Surface
+## 88. Decision Audit Surface
 
 An auditor SHOULD be able to answer:
 
 1. What action was evaluated?
-2. Who requested it?
-3. Against which target?
-4. Through which capability/provider?
-5. Which policies were discovered?
-6. Which were applicable?
-7. Which were excluded?
-8. Why were they excluded?
-9. Which rules fired?
-10. Which policies denied?
-11. Which policies allowed?
-12. Which conditions remained?
-13. Which obligations were created?
-14. Which exception was used?
-15. Was the exception valid?
-16. Which precedence rule resolved conflicts?
-17. What evidence supported the decision?
-18. What policy versions were used?
-19. What was the scope?
-20. What was the regime?
-21. When was the decision evaluated?
-22. Is it still fresh?
-23. Was authority independently checked?
-24. Was the effect identical at commit?
-25. Was the decision reused?
-26. Were load-bearing dependencies unchanged?
-27. Was the action ultimately committed?
-28. If committed, under what authority?
-29. What receipt or effect evidence exists?
-30. What could falsify the decision?
+1. Who requested it?
+1. Against which target?
+1. Through which capability/provider?
+1. Which policies were discovered?
+1. Which were applicable?
+1. Which were excluded?
+1. Why were they excluded?
+1. Which rules fired?
+1. Which policies denied?
+1. Which policies allowed?
+1. Which conditions remained?
+1. Which obligations were created?
+1. Which exception was used?
+1. Was the exception valid?
+1. Which precedence rule resolved conflicts?
+1. What evidence supported the decision?
+1. What policy versions were used?
+1. What was the scope?
+1. What was the regime?
+1. When was the decision evaluated?
+1. Is it still fresh?
+1. Was authority independently checked?
+1. Was the effect identical at commit?
+1. Was the decision reused?
+1. Were load-bearing dependencies unchanged?
+1. Was the action ultimately committed?
+1. If committed, under what authority?
+1. What receipt or effect evidence exists?
+1. What could falsify the decision?
 
----
+______________________________________________________________________
 
-# 89. H/M/L Applicability
+## 89. H/M/L Applicability
 
 The policy-decision architecture applies across AMOS H/M/L scales.
 
@@ -2828,7 +2831,7 @@ canon governance.
 
 H-level policy may constrain M and L decisions.
 
----
+______________________________________________________________________
 
 ## M — Subsystem / Workflow Scale
 
@@ -2845,7 +2848,7 @@ transaction policy.
 
 M-level policy SHOULD remain compatible with governing H-level constraints.
 
----
+______________________________________________________________________
 
 ## L — Local Operation Scale
 
@@ -2861,9 +2864,9 @@ specific transaction effect.
 
 L-level decisions provide concrete execution-policy results.
 
----
+______________________________________________________________________
 
-# 90. Cross-Scale Invariant
+## 90. Cross-Scale Invariant
 
 Lower-scale policy decisions MUST NOT silently weaken higher-scale governing constraints.
 
@@ -2881,9 +2884,9 @@ where the policy hierarchy defines tightening inheritance.
 
 This relationship is not universal across all conceivable policies; it applies where AMOS policy inheritance is explicitly defined.
 
----
+______________________________________________________________________
 
-# 91. Agent Roles
+## 91. Agent Roles
 
 Recommended agent roles:
 
@@ -2904,9 +2907,9 @@ An agent may propose a policy decision.
 
 The control plane remains responsible for enforcing governing boundaries.
 
----
+______________________________________________________________________
 
-# 92. Skill Roles
+## 92. Skill Roles
 
 Relevant Skill classes MAY include:
 
@@ -2924,9 +2927,9 @@ effect-release validation.
 
 A Skill's presence does not prove implementation or authority.
 
----
+______________________________________________________________________
 
-# 93. Workflow
+## 93. Workflow
 
 Canonical policy-decision workflow:
 
@@ -2978,9 +2981,9 @@ Canonical policy-decision workflow:
 23. INVALIDATE / RECOMPUTE IF NECESSARY
 ```
 
----
+______________________________________________________________________
 
-# 94. Protocol
+## 94. Protocol
 
 Recommended request:
 
@@ -3039,9 +3042,9 @@ policy_decision_response:
   confidence_ceiling: null
 ```
 
----
+______________________________________________________________________
 
-# 95. Control-Plane Return Mapping
+## 95. Control-Plane Return Mapping
 
 The policy layer itself MAY use:
 
@@ -3087,9 +3090,9 @@ UNKNOWN_GAP
 
 The policy decision MUST NOT falsely claim those infrastructure states unless it actually owns that control-plane responsibility.
 
----
+______________________________________________________________________
 
-# 96. Policy Decision Example — Read
+## 96. Policy Decision Example — Read
 
 ```yaml
 policy_decision:
@@ -3148,9 +3151,9 @@ The example remains structurally illustrative.
 
 It does not assert runtime validation.
 
----
+______________________________________________________________________
 
-# 97. Policy Decision Example — Conditional Write
+## 97. Policy Decision Example — Conditional Write
 
 ```yaml
 policy_decision:
@@ -3206,9 +3209,9 @@ policy_decision:
 
 This MUST NOT be interpreted as authorization to write.
 
----
+______________________________________________________________________
 
-# 98. Policy Decision Example — Conflict
+## 98. Policy Decision Example — Conflict
 
 ```yaml
 policy_decision:
@@ -3243,9 +3246,9 @@ policy_decision:
 
 AMOS MUST preserve the conflict until discriminating governance evidence exists.
 
----
+______________________________________________________________________
 
-# 99. Policy Decision Example — Stale Allow
+## 99. Policy Decision Example — Stale Allow
 
 Prepared state:
 
@@ -3281,9 +3284,9 @@ ALLOW
 COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 100. Promotion Model
+## 100. Promotion Model
 
 Recommended maturity path:
 
@@ -3309,9 +3312,9 @@ GOVERNED ACTIVE
 
 No stage automatically implies the next.
 
----
+______________________________________________________________________
 
-# 101. Promotion Requirements
+## 101. Promotion Requirements
 
 ## Structural Model → Schema Validated
 
@@ -3376,9 +3379,9 @@ security review;
 no unresolved critical gaps.
 ```
 
----
+______________________________________________________________________
 
-# 102. No Automatic Promotion
+## 102. No Automatic Promotion
 
 The following transitions are prohibited without evidence:
 
@@ -3396,9 +3399,9 @@ TEST_PASS → UNIVERSALLY_VALID
 STRUCTURALLY_COMPLETE → CANONICAL
 ```
 
----
+______________________________________________________________________
 
-# 103. Gap Classification
+## 103. Gap Classification
 
 Policy-decision gaps SHOULD be classified:
 
@@ -3431,9 +3434,9 @@ gap:
     - "canonical precedence evidence"
 ```
 
----
+______________________________________________________________________
 
-# 104. Critical Gaps
+## 104. Critical Gaps
 
 Critical policy-decision gaps include unresolved:
 
@@ -3453,9 +3456,9 @@ irreversible-action condition.
 
 Critical gaps MUST NOT be downgraded for fluency or convenience.
 
----
+______________________________________________________________________
 
-# 105. Gap Matrix
+## 105. Gap Matrix
 
 | Surface                     |                      Required | Current Specification State |
 | --------------------------- | ----------------------------: | --------------------------- |
@@ -3492,9 +3495,9 @@ Critical gaps MUST NOT be downgraded for fluency or convenience.
 | Executed validator results  |       Required for validation | UNKNOWN/GAP                 |
 | Canon admission             | Required for canonical status | UNKNOWN/GAP                 |
 
----
+______________________________________________________________________
 
-# 106. RSCF Binding
+## 106. RSCF Binding
 
 Recommended RSCF representation:
 
@@ -3538,9 +3541,9 @@ rscf:
   confidence_ceiling: 0
 ```
 
----
+______________________________________________________________________
 
-# 107. RSCF Conclusion Classes
+## 107. RSCF Conclusion Classes
 
 Policy-related claims SHOULD use the weakest accurate class:
 
@@ -3572,9 +3575,9 @@ UNKNOWN/GAP:
 governing policy cannot be determined.
 ```
 
----
+______________________________________________________________________
 
-# 108. GMEF Binding
+## 108. GMEF Binding
 
 Changes to policy-decision semantics SHOULD enter governed evolution when they modify:
 
@@ -3596,9 +3599,9 @@ provenance requirements.
 
 A seemingly small change to `ALLOW` semantics may materially change the system's authority boundary and therefore requires stronger governance than a cosmetic schema change.
 
----
+______________________________________________________________________
 
-# 109. Policy Decision Change Record
+## 109. Policy Decision Change Record
 
 ```yaml
 policy_decision_change:
@@ -3625,9 +3628,9 @@ policy_decision_change:
   approval_state: PROPOSED
 ```
 
----
+______________________________________________________________________
 
-# 110. Security Requirements
+## 110. Security Requirements
 
 The policy-decision layer SHOULD defend against:
 
@@ -3651,9 +3654,9 @@ unknown-to-allow coercion;
 post-evaluation parameter mutation.
 ```
 
----
+______________________________________________________________________
 
-# 111. Replay Protection
+## 111. Replay Protection
 
 A policy decision SHOULD NOT be replayed against a materially different transaction.
 
@@ -3672,9 +3675,9 @@ authority context
 
 Replay validity must be explicitly evaluated.
 
----
+______________________________________________________________________
 
-# 112. Policy Decision Persistence
+## 112. Policy Decision Persistence
 
 Persistent policy decisions SHOULD retain enough state for later audit.
 
@@ -3700,9 +3703,9 @@ invalidation state.
 
 Persistence does not imply permanent validity.
 
----
+______________________________________________________________________
 
-# 113. Decision Lifecycle
+## 113. Decision Lifecycle
 
 Recommended lifecycle:
 
@@ -3730,9 +3733,9 @@ ACTIVE → EXPIRED
 ANY → QUARANTINED
 ```
 
----
+______________________________________________________________________
 
-# 114. Quarantine
+## 114. Quarantine
 
 Policy decisions with suspicious provenance, corrupted policy references, or unresolved integrity failures SHOULD be quarantinable.
 
@@ -3753,9 +3756,9 @@ quarantine:
 
 Quarantine MUST preserve evidence.
 
----
+______________________________________________________________________
 
-# 115. Supersession
+## 115. Supersession
 
 When a policy decision is recomputed after a load-bearing change:
 
@@ -3774,9 +3777,9 @@ supersession:
 
 Historical decisions SHOULD remain auditable.
 
----
+______________________________________________________________________
 
-# 116. Observability Events
+## 116. Observability Events
 
 Material operations SHOULD emit events such as:
 
@@ -3818,9 +3821,9 @@ reason;
 state transition.
 ```
 
----
+______________________________________________________________________
 
-# 117. Minimum Policy Decision
+## 117. Minimum Policy Decision
 
 Minimum structurally meaningful object:
 
@@ -3861,9 +3864,9 @@ policy_decision:
 
 For consequential effects, the minimum object SHOULD be expanded with effect, authority, constraint, freshness, and transaction bindings.
 
----
+______________________________________________________________________
 
-# 118. Canonical Decision Law
+## 118. Canonical Decision Law
 
 The core policy-decision law is:
 
@@ -3895,9 +3898,9 @@ freshness
 dependencies
 ```
 
----
+______________________________________________________________________
 
-# 119. Commit Boundary Law
+## 119. Commit Boundary Law
 
 For durable effects:
 
@@ -3931,9 +3934,9 @@ AUTHORIZED EFFECT RELEASE
 
 No earlier stage implies a later stage.
 
----
+______________________________________________________________________
 
-# 120. Current Completion State
+## 120. Current Completion State
 
 ```yaml
 completion:
@@ -3994,9 +3997,9 @@ completion:
   canon_approval: UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 121. Hard Boundary Block
+## 121. Hard Boundary Block
 
 ```text
 POLICY != POLICY_DECISION
@@ -4048,9 +4051,9 @@ CORRELATED_EVIDENCE != INDEPENDENT_CONFIRMATION
 MODEL != EMPIRICAL FACT
 ```
 
----
+______________________________________________________________________
 
-# 122. Canon Boundary
+## 122. Canon Boundary
 
 Trang Phan remains the origin architect and steward of AMOS.
 
@@ -4092,9 +4095,9 @@ provenance
 
 resolution.
 
----
+______________________________________________________________________
 
-# 123. Final Policy Decision Contract
+## 123. Final Policy Decision Contract
 
 AMOS SHALL preserve the following policy-decision chain:
 
@@ -4179,30 +4182,33 @@ AMOS MUST NOT convert successful execution into proof of policy validity.
 
 Integrity remains prior to completeness, fluency, speed, and optimization.
 
----
+______________________________________________________________________
 
-# END — POLICY_DECISION.md
+## END — POLICY_DECISION.md
 
 ```
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: policy_decision
 node_type: note
 path: 03_CONTROL_PLANE/03_POLICY/POLICY_DECISION.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[03_CONTROL_PLANE/03_POLICY/03_POLICY_MOC|03_POLICY_MOC]]
-

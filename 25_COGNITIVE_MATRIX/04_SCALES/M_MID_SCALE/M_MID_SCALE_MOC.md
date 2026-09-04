@@ -1,20 +1,23 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: M Mid Scale MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/04_SCALES/M_MID_SCALE
 tags:
-- m-mid-scale
-- domain/cognitive-matrix
-- cognitive-matrix-boundaries
-- cognitive-matrix-semantics
-- cognitive-matrix-translation-rules
-- scales-cognitive-matrix-control-planes
-- scales-cognitive-matrix-definition
-- scales-cognitive-matrix-dependencies
-- scales-cognitive-matrix-gap-matrix
-- scales-cognitive-matrix-invariants
-- scales-cognitive-matrix-rscf
-- scales-cognitive-matrix-tests
+  - m-mid-scale
+  - domain/cognitive-matrix
+  - cognitive-matrix-boundaries
+  - cognitive-matrix-semantics
+  - cognitive-matrix-translation-rules
+  - scales-cognitive-matrix-control-planes
+  - scales-cognitive-matrix-definition
+  - scales-cognitive-matrix-dependencies
+  - scales-cognitive-matrix-gap-matrix
+  - scales-cognitive-matrix-invariants
+  - scales-cognitive-matrix-rscf
+  - scales-cognitive-matrix-tests
 moc: true
 rscf:
   state: DERIVED
@@ -47,5 +50,6 @@ rscf:
 
 - [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]] — 00_INDEX
 
----
+______________________________________________________________________
+
 **Parent:** [[25_COGNITIVE_MATRIX/04_SCALES/04_SCALES_MOC|04_SCALES_MOC]]

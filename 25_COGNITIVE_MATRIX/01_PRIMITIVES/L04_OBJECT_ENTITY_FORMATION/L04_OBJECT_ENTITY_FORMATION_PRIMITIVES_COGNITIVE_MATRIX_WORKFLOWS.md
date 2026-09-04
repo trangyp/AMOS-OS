@@ -9,11 +9,11 @@ epistemic_class: MODEL
 primitive: L04_OBJECT_ENTITY_FORMATION
 artifact: WORKFLOWS.md
 tags:
-- cognitive-matrix
-- primitives
-- matrix/l04-object-entity-formation
-- note
-- domain/cognitive-matrix
+  - cognitive-matrix
+  - primitives
+  - matrix/l04-object-entity-formation
+  - note
+  - domain/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -49,9 +49,9 @@ capability != authority
 
 This document defines candidate AMOS workflow architecture. It does not establish that an executable L04 runtime exists.
 
----
+______________________________________________________________________
 
-# 1. Source / Canon References
+## 1. Source / Canon References
 
 ## 1.1 Source-aligned basis
 
@@ -112,9 +112,9 @@ canonical_commit_protocol: UNKNOWN_GAP
 
 Workflow definitions below are `AMOS_MODEL`.
 
----
+______________________________________________________________________
 
-# 2. Definition and Scope
+## 2. Definition and Scope
 
 An `L04Workflow` is a governed sequence or graph of typed transformations operating over admitted perceptual evidence to produce:
 
@@ -159,9 +159,9 @@ L04 is currently implemented
 L04 is empirically validated
 ```
 
----
+______________________________________________________________________
 
-# 3. Typed Inputs
+## 3. Typed Inputs
 
 ```yaml
 L04WorkflowInput:
@@ -213,9 +213,9 @@ untyped or materially untraceable input
 must not silently enter authoritative L04 state.
 ```
 
----
+______________________________________________________________________
 
-# 4. Typed Outputs
+## 4. Typed Outputs
 
 ```yaml
 L04WorkflowOutput:
@@ -272,9 +272,9 @@ REJECTED
 
 `COMPLETE_PROPOSAL` does not mean `COMMITTED`.
 
----
+______________________________________________________________________
 
-# 5. Workflow State Variables
+## 5. Workflow State Variables
 
 ```yaml
 L04WorkflowState:
@@ -367,9 +367,9 @@ TERMINATED_GAP
 
 These phases describe a candidate logical workflow, not necessarily a mandatory serial runtime.
 
----
+______________________________________________________________________
 
-# 6. Operators
+## 6. Operators
 
 Candidate workflow operators:
 
@@ -425,9 +425,9 @@ REQUEST_COMMIT
 
 All operator names remain `MODEL` unless canonically recovered.
 
----
+______________________________________________________________________
 
-# 7. Core Workflow
+## 7. Core Workflow
 
 ```text
 L03 OUTPUT
@@ -476,9 +476,9 @@ RE-EVALUATE              ENTITY CANDIDATE
        COMMIT          REJECT
 ```
 
----
+______________________________________________________________________
 
-# 8. Workflow W01 — Initialization
+## 8. Workflow W01 — Initialization
 
 ## Objective
 
@@ -519,9 +519,9 @@ Hard invariant:
 INITIALIZATION != COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 9. Workflow W02 — Input Admission
+## 9. Workflow W02 — Input Admission
 
 ## Objective — part 2
 
@@ -552,9 +552,9 @@ UNKNOWN_GAP
 
 Unknown required provenance must not produce `ADMIT` merely because the percept is syntactically valid.
 
----
+______________________________________________________________________
 
-# 10. Workflow W03 — Distinction Formation
+## 10. Workflow W03 — Distinction Formation
 
 ## Objective — part 3
 
@@ -582,9 +582,9 @@ difference under one criterion
 does not imply globally distinct entities.
 ```
 
----
+______________________________________________________________________
 
-# 11. Workflow W04 — Relation Formation
+## 11. Workflow W04 — Relation Formation
 
 ## Objective — part 4
 
@@ -611,9 +611,9 @@ similarity != identity
 adjacency != binding
 ```
 
----
+______________________________________________________________________
 
-# 12. Workflow W05 — Boundary Formation
+## 12. Workflow W05 — Boundary Formation
 
 ## Objective — part 5
 
@@ -640,9 +640,9 @@ do not collapse
 → register COMPETING
 ```
 
----
+______________________________________________________________________
 
-# 13. Workflow W06 — Binding Formation
+## 13. Workflow W06 — Binding Formation
 
 ## Objective — part 6
 
@@ -670,9 +670,9 @@ Invariant:
 CO_OCCURRENCE != BINDING
 ```
 
----
+______________________________________________________________________
 
-# 14. Workflow W07 — Object Candidate Formation
+## 14. Workflow W07 — Object Candidate Formation
 
 Object candidacy requires sufficient compatible support from the currently load-bearing subset of:
 
@@ -688,9 +688,9 @@ provenance
 
 Candidate conceptual transition:
 
-[
-O_c = F(P,D,R,B_{nd},B_{ind}\mid S,G,\Pi)
-]
+\[
+O_c = F(P,D,R,B\_{nd},B\_{ind}\\mid S,G,\\Pi)
+\]
 
 where:
 
@@ -715,9 +715,9 @@ not
 VALIDATED_OBJECT
 ```
 
----
+______________________________________________________________________
 
-# 15. Workflow W08 — Competing Object Resolution
+## 15. Workflow W08 — Competing Object Resolution
 
 When incompatible object hypotheses survive validation:
 
@@ -749,9 +749,9 @@ count correlated evidence as independent votes
 force convergence for workflow completion
 ```
 
----
+______________________________________________________________________
 
-# 16. Workflow W09 — Continuity Evaluation
+## 16. Workflow W09 — Continuity Evaluation
 
 Entity formation requires additional reasoning beyond object candidacy.
 
@@ -785,9 +785,9 @@ Hard invariant:
 CONTINUITY != IDENTITY
 ```
 
----
+______________________________________________________________________
 
-# 17. Workflow W10 — Identity Evaluation
+## 17. Workflow W10 — Identity Evaluation
 
 Identity evaluation asks whether multiple object observations are licensed as observations of the same entity.
 
@@ -825,17 +825,17 @@ same class != same entity
 temporal succession != same entity
 ```
 
----
+______________________________________________________________________
 
-# 18. Workflow W11 — Entity Candidate Formation
+## 18. Workflow W11 — Entity Candidate Formation
 
 Entity candidacy may proceed only after identity requirements applicable to the declared scope are satisfied.
 
 Candidate transition:
 
-[
-E_c = G(O_c,C,I,\Pi,S,R)
-]
+\[
+E_c = G(O_c,C,I,\\Pi,S,R)
+\]
 
 where:
 
@@ -862,9 +862,9 @@ Hard boundary:
 ENTITY_CANDIDATE != VERIFIED_REAL-WORLD_ENTITY
 ```
 
----
+______________________________________________________________________
 
-# 19. Workflow W12 — Provenance Audit
+## 19. Workflow W12 — Provenance Audit
 
 Before consequential promotion, evaluate:
 
@@ -893,9 +893,9 @@ confidence ceiling must remain bounded
 or state becomes CONDITIONAL.
 ```
 
----
+______________________________________________________________________
 
-# 20. Workflow W13 — Scope / Regime Audit
+## 20. Workflow W13 — Scope / Regime Audit
 
 Every candidate SHALL be checked against its applicability envelope.
 
@@ -915,17 +915,17 @@ load-bearing evidence regimes.
 
 A regime shift SHALL trigger selective revalidation rather than unconditional global reset.
 
----
+______________________________________________________________________
 
-# 21. Workflow W14 — Confidence Audit
+## 21. Workflow W14 — Confidence Audit
 
 Candidate confidence:
 
-[
+\[
 C(y)
-\le
-\min_{x\in LB(y)} C(x)
-]
+\\le
+\\min\_{x\\in LB(y)} C(x)
+\]
 
 unless a weak premise has been replaced or independently revalidated.
 
@@ -939,9 +939,9 @@ a candidate is structurally elegant
 an agent repeatedly proposed it
 ```
 
----
+______________________________________________________________________
 
-# 22. Workflow W15 — Final Validation
+## 22. Workflow W15 — Final Validation
 
 Before proposal generation, validators SHOULD inspect:
 
@@ -974,9 +974,9 @@ REJECTED
 
 `UNKNOWN_GAP` cannot be converted into `PASS`.
 
----
+______________________________________________________________________
 
-# 23. Workflow W16 — State Transition Proposal
+## 23. Workflow W16 — State Transition Proposal
 
 A successful cognitive workflow may produce:
 
@@ -1010,9 +1010,9 @@ Invariant:
 PROPOSAL_READY != COMMITTED
 ```
 
----
+______________________________________________________________________
 
-# 24. Workflow W17 — Control-Plane Commit
+## 24. Workflow W17 — Control-Plane Commit
 
 The control plane, not the cognitive worker, determines whether durable mutation is authorized.
 
@@ -1049,9 +1049,9 @@ Hard boundary:
 CAPABILITY != AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 25. Workflow W18 — Selective Invalidation
+## 25. Workflow W18 — Selective Invalidation
 
 When a premise fails:
 
@@ -1073,9 +1073,9 @@ Hard invariant:
 LOCAL FAILURE != GLOBAL RESET
 ```
 
----
+______________________________________________________________________
 
-# 26. Workflow W19 — Repair / Recovery
+## 26. Workflow W19 — Repair / Recovery
 
 Repair sequence:
 
@@ -1107,9 +1107,9 @@ PROPOSE NEW TRANSITION
 
 A failed path MUST NOT simply be repeated without changed evidence, state, or assumptions.
 
----
+______________________________________________________________________
 
-# 27. Workflow W20 — Gap Termination
+## 27. Workflow W20 — Gap Termination
 
 If a critical requirement cannot be established:
 
@@ -1132,9 +1132,9 @@ commit_allowed: false
 
 Termination with a gap is a valid governed outcome.
 
----
+______________________________________________________________________
 
-# 28. H/M/L Applicability
+## 28. H/M/L Applicability
 
 ## L — Local percept structure
 
@@ -1197,9 +1197,9 @@ Invariant:
 L evidence cannot silently satisfy M/H requirements.
 ```
 
----
+______________________________________________________________________
 
-# 29. Control-Plane Requirements
+## 29. Control-Plane Requirements
 
 Control-plane ownership SHOULD include:
 
@@ -1230,9 +1230,9 @@ propose
 
 L04 workers SHALL NOT gain durable authority through successful reasoning alone.
 
----
+______________________________________________________________________
 
-# 30. Agents
+## 30. Agents
 
 Candidate workflow roles:
 
@@ -1255,9 +1255,9 @@ L04_REPAIR_AGENT
 
 These are logical roles, not deployed-agent claims.
 
----
+______________________________________________________________________
 
-# 31. Skills
+## 31. Skills
 
 Candidate supporting AMOS capabilities:
 
@@ -1284,9 +1284,9 @@ Skill existence establishes addressability only.
 ADDRESSABLE != VALIDATED
 ```
 
----
+______________________________________________________________________
 
-# 32. Protocols
+## 32. Protocols
 
 Candidate workflow protocols:
 
@@ -1325,9 +1325,9 @@ L04_WF_TERMINATE_GAP
 
 Protocol names remain `MODEL`.
 
----
+______________________________________________________________________
 
-# 33. Workflow Invariants
+## 33. Workflow Invariants
 
 ```text
 WFI01
@@ -1397,9 +1397,9 @@ WFI20
 GAP TERMINATION IS PREFERABLE TO FABRICATION.
 ```
 
----
+______________________________________________________________________
 
-# 34. Evidence / Provenance
+## 34. Evidence / Provenance
 
 Each consequential workflow transition SHOULD emit:
 
@@ -1441,9 +1441,9 @@ WorkflowEvidenceRecord:
 
 This supports selective replay, invalidation, and audit.
 
----
+______________________________________________________________________
 
-# 35. Uncertainty and Confidence Ceiling
+## 35. Uncertainty and Confidence Ceiling
 
 Material uncertainty SHOULD remain decomposed into:
 
@@ -1488,9 +1488,9 @@ empirical_cognitive_validity:
   confidence_ceiling: 0
 ```
 
----
+______________________________________________________________________
 
-# 36. Failure Modes
+## 36. Failure Modes
 
 ```yaml
 failure_modes:
@@ -1559,9 +1559,9 @@ failure_modes:
     severity: CRITICAL
 ```
 
----
+______________________________________________________________________
 
-# 37. Repair / Recovery
+## 37. Repair / Recovery
 
 Repair policy:
 
@@ -1592,9 +1592,9 @@ repeat identical failed reasoning
 globally reset without dependency justification
 ```
 
----
+______________________________________________________________________
 
-# 38. Tests / Validators
+## 38. Tests / Validators
 
 Minimum workflow validators:
 
@@ -1647,9 +1647,9 @@ critical UNKNOWN/GAP
 
 All tests remain specifications until executed.
 
----
+______________________________________________________________________
 
-# 39. Falsifiers
+## 39. Falsifiers
 
 Revise this workflow contract if authoritative L04 canon establishes:
 
@@ -1686,9 +1686,9 @@ transitions, this workflow must be treated
 only as an audit projection over the joint state.
 ```
 
----
+______________________________________________________________________
 
-# 40. Gap Status
+## 40. Gap Status
 
 ```yaml
 gap_status:
@@ -1760,9 +1760,9 @@ gap_status:
     status: UNKNOWN_GAP
 ```
 
----
+______________________________________________________________________
 
-# 41. RSCF Capsule
+## 41. RSCF Capsule
 
 ```yaml
 rscf:
@@ -1833,9 +1833,9 @@ rscf:
     empirical_validation: UNKNOWN_GAP
 ```
 
----
+______________________________________________________________________
 
-# 42. Completion State
+## 42. Completion State
 
 ```yaml
 completion_state:
@@ -1916,9 +1916,9 @@ completion_state:
     MODEL
 ```
 
----
+______________________________________________________________________
 
-# 43. Hard Boundaries
+## 43. Hard Boundaries
 
 ```text
 PLACEHOLDER != IMPLEMENTED
@@ -1972,15 +1972,15 @@ UNKNOWN != FALSE
 GAP != PASS
 ```
 
----
+______________________________________________________________________
 
-# 44. Governing Workflow Contract
+## 44. Governing Workflow Contract
 
 > **`L04_OBJECT_ENTITY_FORMATION` SHALL operate, where instantiated, as a provenance-preserving governed transformation from admitted perceptual evidence toward object and entity candidates without collapsing percept, object, continuity, identity, or entity into one state. Workflow stages SHALL preserve typed inputs, dependencies, competing hypotheses, contradictions, scope, regime, freshness, uncertainty, and confidence ceilings. Similarity, adjacency, naming, temporal succession, or structural resemblance SHALL NOT silently establish identity. Where multiple materially supported object or entity hypotheses remain, the workflow SHALL preserve `COMPETING` until discriminating evidence exists. Failed premises SHALL selectively invalidate dependent descendants while preserving unaffected state. Critical `UNKNOWN/GAP` SHALL block pass. Successful reasoning SHALL produce at most a state-transition proposal unless current control-plane authority independently validates and commits that proposal. Missing canonical workflow semantics SHALL remain `UNKNOWN/GAP` rather than being filled by implementation convenience.**
 
----
+______________________________________________________________________
 
-# 45. Final Classification
+## 45. Final Classification
 
 ```text
 CONCLUSION CLASS:
@@ -2016,23 +2016,27 @@ BLOCKED
 
 ```
 ```
----
+
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: l04_object_entity_formation_primitives_cognitive_matrix_workflows
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L04_OBJECT_ENTITY_FORMATION/L04_OBJECT_ENTITY_FORMATION_PRIMITIVES_COGNITIVE_MATRIX_WORKFLOWS.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L04_OBJECT_ENTITY_FORMATION/L04_OBJECT_ENTITY_FORMATION_MOC|L04_OBJECT_ENTITY_FORMATION_MOC]]
-

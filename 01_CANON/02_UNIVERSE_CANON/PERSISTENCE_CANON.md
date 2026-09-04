@@ -17,46 +17,45 @@ steward: Trang Phan
 created: 2026-08-25
 updated: 2026-08-25
 tags:
-- amos
-- canon
-- universe
-- amos-os
-- amos-core
-- amos-core-v4-4
-- persistence
-- durable-state
-- provenance
-- persistent-provenance
-- causal-lineage
-- state
-- memory
-- rscf
-- mvcc
-- cas
-- atomicity
-- epoch
-- finality
-- recovery
-- rollback
-- supersession
-- versioning
-- integrity
-- canon-group/tech-ai
-- canon/framework
-- canon/model
-- rscf/claim
-- rscf/provenance
-- rscf/state/derived
-- readme
-- architecture
-- neural-network
-- authoritative-state
-- placement-rules
-- amos-core-laws
-- law-hierarchy
+  - amos
+  - canon
+  - universe
+  - amos-os
+  - amos-core
+  - amos-core-v4-4
+  - persistence
+  - durable-state
+  - provenance
+  - persistent-provenance
+  - causal-lineage
+  - state
+  - memory
+  - rscf
+  - mvcc
+  - cas
+  - atomicity
+  - epoch
+  - finality
+  - recovery
+  - rollback
+  - supersession
+  - versioning
+  - integrity
+  - canon-group/tech-ai
+  - canon/framework
+  - canon/model
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/derived
+  - readme
+  - architecture
+  - neural-network
+  - authoritative-state
+  - placement-rules
+  - amos-core-laws
+  - law-hierarchy
 aliases:
-- AMOS Persistence Canon - Persistence Canon - AMOS Durable State Canon - AMOS Persistent
-  Prov
+  - AMOS Persistence Canon - Persistence Canon - AMOS Durable State Canon - AMOS Persistent Prov
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -65,19 +64,21 @@ rscf:
 ---
 
 # AMOS Persistence Canon
+
 **Origin architect / steward:** Trang Phan
+
 > **Status:** `ACTIVE_CANON_CANDIDATE`
 > **AMOS Core target:** `v4.4`
 > **Conclusion class:** `AMOS_MODEL`
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: universe_canon
----
+> rscf:
+> state: SOURCE_CLAIM
+> claim_class: SOURCE_CLAIM
+> provenance: AMOS_corpus
+> scope: universe_canon
 
+______________________________________________________________________
 
-# 0. Purpose
+## 0. Purpose
 
 The **AMOS Persistence Canon** defines the architectural laws governing durable AMOS state across time, revisions, failures, recovery, supersession, and distributed or shard-local execution contexts.
 
@@ -123,9 +124,9 @@ SPEED
 STORAGE / TOKEN SAVINGS
 ```
 
----
+______________________________________________________________________
 
-# 1. Persistence Is Not Storage
+## 1. Persistence Is Not Storage
 
 Canonical distinction:
 
@@ -166,9 +167,9 @@ PARTIAL
 UNCOMMITTED
 ```
 
----
+______________________________________________________________________
 
-# 2. Persistence Scope
+## 2. Persistence Scope
 
 The persistence architecture may govern:
 
@@ -193,9 +194,9 @@ SUPERSESSION HISTORY
 
 Different classes may require different durability guarantees.
 
----
+______________________________________________________________________
 
-# 3. Persistence Planes
+## 3. Persistence Planes
 
 Conceptually:
 
@@ -221,9 +222,9 @@ Conceptually:
 
 These concerns must not be silently collapsed into one field.
 
----
+______________________________________________________________________
 
-# 4. Persistence Identity Firewall
+## 4. Persistence Identity Firewall
 
 The following identities are distinct:
 
@@ -254,9 +255,9 @@ A rename must not silently create a new semantic object.
 
 A content change must not silently preserve an old revision identity.
 
----
+______________________________________________________________________
 
-# 5. Canonical Persistent Object
+## 5. Canonical Persistent Object
 
 A mature persistent object should conceptually support:
 
@@ -304,9 +305,9 @@ Not every physical implementation must serialize this exact schema.
 
 The semantics are the important part.
 
----
+______________________________________________________________________
 
-# 6. Durable State Classes
+## 6. Durable State Classes
 
 AMOS should distinguish at least:
 
@@ -325,9 +326,9 @@ UNKNOWN
 
 These classes are not interchangeable.
 
----
+______________________________________________________________________
 
-# 7. Authoritative State
+## 7. Authoritative State
 
 Authoritative state is state recognized by the relevant governance boundary as currently controlling.
 
@@ -353,9 +354,9 @@ PERSISTED
 AUTHORITATIVE
 ```
 
----
+______________________________________________________________________
 
-# 8. Working State
+## 8. Working State
 
 Working state may be mutable and incomplete.
 
@@ -385,9 +386,9 @@ COMMIT
 NEW AUTHORITATIVE
 ```
 
----
+______________________________________________________________________
 
-# 9. Proposed State
+## 9. Proposed State
 
 A proposed update is not committed state.
 
@@ -410,9 +411,9 @@ dependency updates
 
 but remains non-authoritative until the applicable commit gate succeeds.
 
----
+______________________________________________________________________
 
-# 10. Shadow State
+## 10. Shadow State
 
 Shadow state may support:
 
@@ -431,9 +432,9 @@ Shadow state must not silently become authoritative.
 SHADOW != AUTHORITATIVE
 ```
 
----
+______________________________________________________________________
 
-# 11. Recovery State
+## 11. Recovery State
 
 Recovery state exists to restore or reconstruct a valid operating point.
 
@@ -452,9 +453,9 @@ RECOVERY INSTRUCTIONS
 
 Recovery state itself does not automatically become current state.
 
----
+______________________________________________________________________
 
-# 12. Persistent Provenance
+## 12. Persistent Provenance
 
 AMOS persistence must preserve material provenance.
 
@@ -482,9 +483,9 @@ MUST NOT
 SEVER MATERIAL PROVENANCE.
 ```
 
----
+______________________________________________________________________
 
-# 13. Provenance Is Persistent State
+## 13. Provenance Is Persistent State
 
 Provenance is not merely logging metadata.
 
@@ -500,9 +501,9 @@ MAY BE INSUFFICIENT.
 
 A reconstructed claim with unknown ancestry may require confidence downgrade or revalidation.
 
----
+______________________________________________________________________
 
-# 14. Causal Lineage
+## 14. Causal Lineage
 
 AMOS v4.4 reasoning preserves causal lineage where material.
 
@@ -534,9 +535,9 @@ STATE B
 STATE C
 ```
 
----
+______________________________________________________________________
 
-# 15. Causal Lineage Is Not Causal Proof
+## 15. Causal Lineage Is Not Causal Proof
 
 A recorded transition history establishes process lineage.
 
@@ -550,9 +551,9 @@ CAUSAL EFFECT PROOF
 
 AMOS causal firewall still applies.
 
----
+______________________________________________________________________
 
-# 16. Revision Model
+## 16. Revision Model
 
 A revision is an identifiable state of a semantic object.
 
@@ -572,9 +573,9 @@ revision:
 
 Revision identity must be explicit where concurrency or recovery depends on it.
 
----
+______________________________________________________________________
 
-# 17. Immutable History Principle
+## 17. Immutable History Principle
 
 Current state may be mutable through governed transition.
 
@@ -601,9 +602,9 @@ ANNOTATION
 
 rather than silent historical mutation.
 
----
+______________________________________________________________________
 
-# 18. Supersession
+## 18. Supersession
 
 Supersession is a first-class persistence relation.
 
@@ -629,9 +630,9 @@ A NEVER EXISTED
 
 Persistent lineage should retain both where governance requires it.
 
----
+______________________________________________________________________
 
-# 19. Tombstones
+## 19. Tombstones
 
 Deletion may require a persistent tombstone rather than total disappearance.
 
@@ -658,9 +659,9 @@ RECOVERY
 SUPERSESSION
 ```
 
----
+______________________________________________________________________
 
-# 20. MVCC Concept
+## 20. MVCC Concept
 
 AMOS persistence may use **multi-version concurrency control concepts** where concurrent readers and writers require stable revision views.
 
@@ -683,9 +684,9 @@ MAY OBSERVE REVISION 11
 
 This avoids requiring every reader to observe partially mutated state.
 
----
+______________________________________________________________________
 
-# 21. MVCC Is an Architectural Pattern
+## 21. MVCC Is an Architectural Pattern
 
 The canon distinguishes:
 
@@ -706,9 +707,9 @@ CURRENTLY IMPLEMENTS MVCC
 
 The latter is not asserted by this canon.
 
----
+______________________________________________________________________
 
-# 22. Compare-And-Swap Concept
+## 22. Compare-And-Swap Concept
 
 A guarded state transition may use CAS-like semantics.
 
@@ -739,9 +740,9 @@ WHEN PREDECESSOR IDENTITY
 IS LOAD-BEARING.
 ```
 
----
+______________________________________________________________________
 
-# 23. Lost Update Prevention
+## 23. Lost Update Prevention
 
 Without revision guarding:
 
@@ -759,9 +760,9 @@ B may destroy A's update.
 
 Therefore consequential persistent state should support mechanisms capable of detecting stale writes.
 
----
+______________________________________________________________________
 
-# 24. Atomicity
+## 24. Atomicity
 
 A persistent transition may involve multiple related objects.
 
@@ -785,9 +786,9 @@ NONE BECOME AUTHORITATIVE
 
 is the target atomicity property.
 
----
+______________________________________________________________________
 
-# 25. Atomic Multi-RSCF Persistence
+## 25. Atomic Multi-RSCF Persistence
 
 AMOS v4.4 may require conclusions spanning multiple RSCFs.
 
@@ -811,9 +812,9 @@ MUST NOT
 MASQUERADE AS COMPLETE COMMIT.
 ```
 
----
+______________________________________________________________________
 
-# 26. Commit Record
+## 26. Commit Record
 
 A logical commit should conceptually preserve:
 
@@ -838,9 +839,9 @@ commit:
   status:
 ```
 
----
+______________________________________________________________________
 
-# 27. Commit Is Not Validation
+## 27. Commit Is Not Validation
 
 A commit records an accepted state transition.
 
@@ -862,9 +863,9 @@ COMPETING
 
 if that is its correct epistemic class.
 
----
+______________________________________________________________________
 
-# 28. Authority Firewall
+## 28. Authority Firewall
 
 Persistence infrastructure must not self-authorize.
 
@@ -890,9 +891,9 @@ CAPABILITY != AUTHORITY
 
 remains binding.
 
----
+______________________________________________________________________
 
-# 29. Commit Authority
+## 29. Commit Authority
 
 A commit may require explicit authority context:
 
@@ -909,9 +910,9 @@ Authority must be evaluated against the applicable scope.
 
 A valid authority in one domain does not automatically transfer to another.
 
----
+______________________________________________________________________
 
-# 30. Epoch Model
+## 30. Epoch Model
 
 Where ordered state transitions require epoch semantics, an epoch identifies a bounded causal/version interval.
 
@@ -937,9 +938,9 @@ SHARD COORDINATION
 VERSION BOUNDARIES
 ```
 
----
+______________________________________________________________________
 
-# 31. Causal Epoch Finality
+## 31. Causal Epoch Finality
 
 A state may be treated as final only after the relevant causal dependencies for its epoch satisfy the required finalization conditions.
 
@@ -961,9 +962,9 @@ FINALIZED EPOCH STATE
 
 Finality must not be inferred merely because a write occurred.
 
----
+______________________________________________________________________
 
-# 32. Write != Finality
+## 32. Write != Finality
 
 Canonical boundary:
 
@@ -979,9 +980,9 @@ FINALITY
 
 A system may physically persist bytes before the logical state is final.
 
----
+______________________________________________________________________
 
-# 33. Finality States
+## 33. Finality States
 
 Conceptually:
 
@@ -1001,9 +1002,9 @@ FINALIZED
 
 Implementations may combine stages where safe, but semantic distinctions remain important.
 
----
+______________________________________________________________________
 
-# 34. Shard-Local Persistence
+## 34. Shard-Local Persistence
 
 AMOS v4.4 includes the concept of hardened shard-local finalization.
 
@@ -1023,9 +1024,9 @@ FINALIZATION CONDITIONS HOLD
 
 This avoids unnecessary global coordination.
 
----
+______________________________________________________________________
 
-# 35. Locality Must Be Proven
+## 35. Locality Must Be Proven
 
 Canonical law:
 
@@ -1037,9 +1038,9 @@ NOT ASSUMED.
 
 Repository placement, naming, or shard assignment alone does not prove dependency independence.
 
----
+______________________________________________________________________
 
-# 36. Cross-Shard Escalation
+## 36. Cross-Shard Escalation
 
 Local finalization must escalate when encountering:
 
@@ -1062,9 +1063,9 @@ LOCAL FINALIZATION
 COORDINATED FINALIZATION
 ```
 
----
+______________________________________________________________________
 
-# 37. Proof-Based Coordination Avoidance
+## 37. Proof-Based Coordination Avoidance
 
 Global coordination should be avoided only when proof demonstrates that it is unnecessary.
 
@@ -1093,9 +1094,9 @@ COORDINATION AVOIDANCE
 
 not optimistic assumption.
 
----
+______________________________________________________________________
 
-# 38. Persistent Dependency Graph
+## 38. Persistent Dependency Graph
 
 Persistent state should retain material dependency relationships.
 
@@ -1117,9 +1118,9 @@ A MAY REQUIRE
 REVALIDATION / INVALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 39. Dependency-Scoped Invalidation
+## 39. Dependency-Scoped Invalidation
 
 Canonical recovery law:
 
@@ -1139,9 +1140,9 @@ LOCAL FAILURE
 GLOBAL RESET
 ```
 
----
+______________________________________________________________________
 
-# 40. Persistent RSCF State
+## 40. Persistent RSCF State
 
 A persisted RSCF should conceptually retain:
 
@@ -1173,9 +1174,9 @@ rscf_persistence:
 
 Persisting only the conclusion text is insufficient for high-value reusable reasoning.
 
----
+______________________________________________________________________
 
-# 41. Proof Capsule Persistence
+## 41. Proof Capsule Persistence
 
 Reusable proof capsules should retain enough information to determine whether reuse remains valid.
 
@@ -1195,9 +1196,9 @@ REVISION
 
 Reuse requires checking the validity envelope.
 
----
+______________________________________________________________________
 
-# 42. Persistent Confidence Is Conditional
+## 42. Persistent Confidence Is Conditional
 
 A stored confidence value is not timeless.
 
@@ -1221,9 +1222,9 @@ WITHOUT VALIDITY ENVELOPE
 IS INCOMPLETE.
 ```
 
----
+______________________________________________________________________
 
-# 43. Scope Persistence
+## 43. Scope Persistence
 
 Material persistent claims should retain scope.
 
@@ -1240,9 +1241,9 @@ scope:
 
 A restored claim must not silently escape its original scope.
 
----
+______________________________________________________________________
 
-# 44. Regime Persistence
+## 44. Regime Persistence
 
 Persistent conclusions should retain regime assumptions when material.
 
@@ -1264,9 +1265,9 @@ IDENTIFY AFFECTED DEPENDENCIES
 REVALIDATE LOCALLY
 ```
 
----
+______________________________________________________________________
 
-# 45. Freshness Persistence
+## 45. Freshness Persistence
 
 Persistent objects should distinguish:
 
@@ -1288,9 +1289,9 @@ RECENTLY STORED
 RECENTLY VALIDATED
 ```
 
----
+______________________________________________________________________
 
-# 46. Persistent Contradictions
+## 46. Persistent Contradictions
 
 Persistence must not resolve contradictions by deletion.
 
@@ -1314,9 +1315,9 @@ COMPETING
 
 rather than forced replacement.
 
----
+______________________________________________________________________
 
-# 47. Conflict Record
+## 47. Conflict Record
 
 Conceptually:
 
@@ -1340,9 +1341,9 @@ conflict:
   discriminating_evidence_needed: []
 ```
 
----
+______________________________________________________________________
 
-# 48. Merge Firewall
+## 48. Merge Firewall
 
 A merge is not automatically reconciliation.
 
@@ -1364,9 +1365,9 @@ CONFLICT ANALYSIS
 
 must precede semantic convergence.
 
----
+______________________________________________________________________
 
-# 49. Branch Persistence
+## 49. Branch Persistence
 
 Branches may represent:
 
@@ -1380,9 +1381,9 @@ SHADOW STATE
 
 Branch identity must remain explicit until convergence is justified.
 
----
+______________________________________________________________________
 
-# 50. Checkpoints
+## 50. Checkpoints
 
 A checkpoint is a recoverable state boundary.
 
@@ -1400,9 +1401,9 @@ RECOVERY POINTER
 
 A checkpoint need not contain every historical event if those events remain reconstructable elsewhere.
 
----
+______________________________________________________________________
 
-# 51. Journal / Ledger
+## 51. Journal / Ledger
 
 Append-oriented records may preserve transitions:
 
@@ -1425,9 +1426,9 @@ CURRENT STATE
 
 This is an architectural pattern, not a requirement that every AMOS subsystem use event sourcing.
 
----
+______________________________________________________________________
 
-# 52. Replay
+## 52. Replay
 
 Replay must preserve ordering constraints.
 
@@ -1451,9 +1452,9 @@ EVENT B
 
 when the events are causally ordered.
 
----
+______________________________________________________________________
 
-# 53. Idempotence
+## 53. Idempotence
 
 Recovery operations should be idempotent where practical.
 
@@ -1473,9 +1474,9 @@ SAME VALID STATE
 
 unless the operation is explicitly non-idempotent and guarded accordingly.
 
----
+______________________________________________________________________
 
-# 54. Duplicate Commit Protection
+## 54. Duplicate Commit Protection
 
 Persistent systems should prevent accidental replay from creating duplicated semantic effects.
 
@@ -1488,9 +1489,9 @@ DO NOT APPLY X AGAIN
 
 where the operation is defined as exactly-once at the semantic layer.
 
----
+______________________________________________________________________
 
-# 55. Exactly-Once Firewall
+## 55. Exactly-Once Firewall
 
 Physical exactly-once execution may not always be available.
 
@@ -1517,9 +1518,9 @@ DEDUPLICATION
 
 where required.
 
----
+______________________________________________________________________
 
-# 56. Recovery Objective
+## 56. Recovery Objective
 
 Recovery seeks the nearest valid state.
 
@@ -1539,9 +1540,9 @@ REVALIDATE
 
 Do not discard unaffected valid work.
 
----
+______________________________________________________________________
 
-# 57. Rollback
+## 57. Rollback
 
 Rollback must itself be a governed state transition.
 
@@ -1557,9 +1558,9 @@ KNOWN VALID STATE
 
 Rollback does not mean silently deleting history.
 
----
+______________________________________________________________________
 
-# 58. Roll Forward
+## 58. Roll Forward
 
 Sometimes rollback is unsafe or impossible.
 
@@ -1575,9 +1576,9 @@ NEW VALID STATE
 
 This is roll-forward recovery.
 
----
+______________________________________________________________________
 
-# 59. Compensation
+## 59. Compensation
 
 For irreversible external effects:
 
@@ -1600,9 +1601,9 @@ may be required.
 
 Persistence should retain enough history to determine what compensation is necessary.
 
----
+______________________________________________________________________
 
-# 60. External Effects Firewall
+## 60. External Effects Firewall
 
 Internal state persistence and external-world effects are distinct.
 
@@ -1622,9 +1623,9 @@ INTERNAL COMMIT RECORDED
 
 Reconciliation may be required after partial failure.
 
----
+______________________________________________________________________
 
-# 61. External Effect Record
+## 61. External Effect Record
 
 Conceptually:
 
@@ -1650,9 +1651,9 @@ external_effect:
 
 This supports detection of split-brain states between internal and external reality.
 
----
+______________________________________________________________________
 
-# 62. Failure Classes
+## 62. Failure Classes
 
 Persistence failures may include:
 
@@ -1675,9 +1676,9 @@ EXTERNAL EFFECT DIVERGENCE
 
 Different failures require different recovery paths.
 
----
+______________________________________________________________________
 
-# 63. Corruption
+## 63. Corruption
 
 Corruption may be:
 
@@ -1694,9 +1695,9 @@ A valid checksum can detect some byte-level corruption.
 
 It cannot prove semantic correctness.
 
----
+______________________________________________________________________
 
-# 64. Hash Firewall
+## 64. Hash Firewall
 
 ```text
 HASH MATCH
@@ -1722,9 +1723,9 @@ HASH VALID
 SEMANTICALLY VALID
 ```
 
----
+______________________________________________________________________
 
-# 65. Persistent Provenance Independence
+## 65. Persistent Provenance Independence
 
 If several persisted claims descend from one source:
 
@@ -1739,9 +1740,9 @@ they remain correlated.
 
 Persistence must not erase ancestry and later count them as three independent confirmations.
 
----
+______________________________________________________________________
 
-# 66. Sybil-Hardened Persistence
+## 66. Sybil-Hardened Persistence
 
 Canonical invariant:
 
@@ -1757,9 +1758,9 @@ must not create artificial evidence independence.
 
 Source ancestry should survive replication where decision-relevant.
 
----
+______________________________________________________________________
 
-# 67. Cache Persistence
+## 67. Cache Persistence
 
 Caches may persist derived results.
 
@@ -1783,9 +1784,9 @@ FRESHNESS EXPIRES
 PROVENANCE FAILS
 ```
 
----
+______________________________________________________________________
 
-# 68. Memory Persistence
+## 68. Memory Persistence
 
 Memory is persistent context.
 
@@ -1803,9 +1804,9 @@ REMEMBERED != VERIFIED
 
 Memory entries should preserve epistemic and provenance status when material.
 
----
+______________________________________________________________________
 
-# 69. Knowledge Persistence
+## 69. Knowledge Persistence
 
 Persistent knowledge may include:
 
@@ -1822,9 +1823,9 @@ Persistence must preserve these types.
 
 Storage must not flatten them into undifferentiated "facts."
 
----
+______________________________________________________________________
 
-# 70. Canon Persistence
+## 70. Canon Persistence
 
 Canon requires stronger governance than ordinary knowledge persistence.
 
@@ -1846,9 +1847,9 @@ Persistence infrastructure records this transition.
 
 It does not independently authorize it.
 
----
+______________________________________________________________________
 
-# 71. Canon Supersession
+## 71. Canon Supersession
 
 When canon changes:
 
@@ -1870,9 +1871,9 @@ WHAT DEPENDENCIES CHANGED
 WHAT DOWNSTREAM OBJECTS REQUIRE REVALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 72. Schema Evolution
+## 72. Schema Evolution
 
 Persistent data structures evolve.
 
@@ -1887,9 +1888,9 @@ CANON VERSION
 
 These are not necessarily identical.
 
----
+______________________________________________________________________
 
-# 73. Migration
+## 73. Migration
 
 A migration should conceptually define:
 
@@ -1905,9 +1906,9 @@ PROVENANCE
 
 Migration success must not be inferred merely because parsing succeeded.
 
----
+______________________________________________________________________
 
-# 74. Backward Compatibility
+## 74. Backward Compatibility
 
 Backward compatibility may be:
 
@@ -1920,9 +1921,9 @@ BEHAVIORAL
 
 A file can remain syntactically readable while becoming semantically incompatible.
 
----
+______________________________________________________________________
 
-# 75. Persistent Unknowns
+## 75. Persistent Unknowns
 
 Unknown state must be representable.
 
@@ -1946,9 +1947,9 @@ Hard boundary:
 UNKNOWN/GAP != PASS
 ```
 
----
+______________________________________________________________________
 
-# 76. Partial State
+## 76. Partial State
 
 Partial persistence must be explicit.
 
@@ -1967,9 +1968,9 @@ state:
 
 Partial state may still support limited reversible actions.
 
----
+______________________________________________________________________
 
-# 77. Persistence and H/M/L
+## 77. Persistence and H/M/L
 
 H/M/L persistent knowledge should preserve resolution relationships:
 
@@ -1989,9 +1990,9 @@ but H/M/L role remains separate from physical persistence location.
 HML ROLE != STORAGE LOCATION
 ```
 
----
+______________________________________________________________________
 
-# 78. Persistent H/M/L Compression
+## 78. Persistent H/M/L Compression
 
 A persisted H summary should retain pointers sufficient to recover its load-bearing M/L evidence.
 
@@ -2009,9 +2010,9 @@ SOURCE
 
 Compression must not sever revalidation paths.
 
----
+______________________________________________________________________
 
-# 79. Persistence and RSCF
+## 79. Persistence and RSCF
 
 RSCF persistence supports selective invalidation.
 
@@ -2033,9 +2034,9 @@ INVALIDATE B IF DEPENDENT
 
 Other RSCFs remain untouched.
 
----
+______________________________________________________________________
 
-# 80. Persistent Uncertainty Vector
+## 80. Persistent Uncertainty Vector
 
 Where consequential, persistent proof state may retain separate uncertainty dimensions:
 
@@ -2051,9 +2052,9 @@ PROVENANCE-INDEPENDENCE
 
 A single confidence number should not erase materially different uncertainty sources.
 
----
+______________________________________________________________________
 
-# 81. Persistent Falsifiers
+## 81. Persistent Falsifiers
 
 Important persisted claims should retain known invalidation conditions.
 
@@ -2066,9 +2067,9 @@ falsifiers:
 
 This allows future evidence to trigger targeted revalidation.
 
----
+______________________________________________________________________
 
-# 82. Event-Time Firewall
+## 82. Event-Time Firewall
 
 Distinguish:
 
@@ -2084,9 +2085,9 @@ These may differ substantially.
 
 Ordering by storage time alone can produce incorrect causal history.
 
----
+______________________________________________________________________
 
-# 83. Clock Firewall
+## 83. Clock Firewall
 
 Wall-clock timestamps alone may be insufficient to establish causal ordering.
 
@@ -2104,9 +2105,9 @@ in every distributed context.
 
 Where causality matters, explicit causal/version relationships should supplement timestamps.
 
----
+______________________________________________________________________
 
-# 84. Deterministic Replay
+## 84. Deterministic Replay
 
 Where deterministic replay is claimed, the persistent record must contain enough information to reproduce the relevant transition under the specified environment.
 
@@ -2134,9 +2135,9 @@ DETERMINISTIC REPLAY
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 85. Environment Persistence
+## 85. Environment Persistence
 
 Reproducibility may require persistence of:
 
@@ -2152,9 +2153,9 @@ FEATURE FLAGS
 
 where these can alter the result.
 
----
+______________________________________________________________________
 
-# 86. Persistence Minimal Invariants
+## 86. Persistence Minimal Invariants
 
 ```text
 PERSIST-001 PERSISTED != VERIFIED
@@ -2218,9 +2219,9 @@ PERSIST-029 SCHEMA COMPATIBILITY != SEMANTIC COMPATIBILITY
 PERSIST-030 OPTIMIZATION MUST NOT WEAKEN INTEGRITY
 ```
 
----
+______________________________________________________________________
 
-# 87. Canonical Commit Flow
+## 87. Canonical Commit Flow
 
 ```text
 READ AUTHORITATIVE STATE
@@ -2258,9 +2259,9 @@ If any load-bearing gate fails:
 NO SILENT PROMOTION
 ```
 
----
+______________________________________________________________________
 
-# 88. Canonical Recovery Flow
+## 88. Canonical Recovery Flow
 
 ```text
 DETECT FAILURE
@@ -2284,9 +2285,9 @@ FINALIZE RECOVERED STATE
 REOPEN NORMAL OPERATION
 ```
 
----
+______________________________________________________________________
 
-# 89. Recovery Decision
+## 89. Recovery Decision
 
 Conceptually:
 
@@ -2303,9 +2304,9 @@ ELSE
 
 Irreversible effects increase governance requirements.
 
----
+______________________________________________________________________
 
-# 90. Anti-Patterns
+## 90. Anti-Patterns
 
 The following violate Persistence Canon:
 
@@ -2345,9 +2346,9 @@ ASSUME TIMESTAMP ORDER == CAUSAL ORDER
 ASSUME SCHEMA PARSE SUCCESS == SEMANTIC MIGRATION SUCCESS
 ```
 
----
+______________________________________________________________________
 
-# 91. Persistence Validation Matrix
+## 91. Persistence Validation Matrix
 
 | Property         | Required question                                             |
 | ---------------- | ------------------------------------------------------------- |
@@ -2367,9 +2368,9 @@ ASSUME SCHEMA PARSE SUCCESS == SEMANTIC MIGRATION SUCCESS
 | Replay           | Is replay possible where claimed?                             |
 | External effects | Can internal/external divergence be reconciled?               |
 
----
+______________________________________________________________________
 
-# 92. Persistence Test Families
+## 92. Persistence Test Families
 
 A mature implementation should eventually test:
 
@@ -2400,9 +2401,9 @@ ROLLBACK
 ROLL-FORWARD COMPENSATION
 ```
 
----
+______________________________________________________________________
 
-# 93. Failure Injection
+## 93. Failure Injection
 
 Persistence claims should be tested against failure where consequential.
 
@@ -2425,9 +2426,9 @@ EXTERNAL EFFECT TIMEOUT
 
 Passing normal execution alone is insufficient evidence of recovery correctness.
 
----
+______________________________________________________________________
 
-# 94. Proof Capsule for Persistent State
+## 94. Proof Capsule for Persistent State
 
 Important persistent conclusions should conceptually carry:
 
@@ -2460,9 +2461,9 @@ proof_capsule:
   invalidation_conditions: []
 ```
 
----
+______________________________________________________________________
 
-# 95. Conclusion Classes
+## 95. Conclusion Classes
 
 Persistence-related claims must use the weakest accurate class:
 
@@ -2488,9 +2489,9 @@ Examples:
 → UNKNOWN/GAP unless implementation evidence exists
 ```
 
----
+______________________________________________________________________
 
-# 96. Implementation Firewall
+## 96. Implementation Firewall
 
 This canon defines AMOS persistence architecture.
 
@@ -2517,9 +2518,9 @@ ARCHITECTURAL MODEL / TARGET
 
 until proven.
 
----
+______________________________________________________________________
 
-# 97. Distributed-System Proof Firewall
+## 97. Distributed-System Proof Firewall
 
 Tests demonstrating distributed behavior are evidence within their tested envelope.
 
@@ -2531,9 +2532,9 @@ UNIVERSAL FORMAL PROOF
 
 A benchmark, simulation, or fault-injection suite establishes only what its environment, assumptions, and coverage support.
 
----
+______________________________________________________________________
 
-# 98. Persistence Governance
+## 98. Persistence Governance
 
 Governance requirements increase with:
 
@@ -2550,9 +2551,9 @@ CANON AUTHORITY
 
 Higher-impact persistence transitions should require stronger validation and recovery guarantees.
 
----
+______________________________________________________________________
 
-# 99. Promotion Gate
+## 99. Promotion Gate
 
 Promotion:
 
@@ -2588,9 +2589,9 @@ requires review of at least:
 
 Until promotion, this artifact remains an AMOS architectural model.
 
----
+______________________________________________________________________
 
-# 100. RSCF Node
+## 100. RSCF Node
 
 ```yaml
 node_id: AMOS_PERSISTENCE_CANON
@@ -2647,9 +2648,9 @@ does_not_establish:
   - empirical validation of all recovery paths
 ```
 
----
+______________________________________________________________________
 
-# 101. Changelog
+## 101. Changelog
 
 ## v2.0.0 — 2026-08-25
 
@@ -2707,9 +2708,9 @@ Added:
 
 Initial placeholder reserved the canonical AMOS OS location.
 
----
+______________________________________________________________________
 
-# 102. Canonical Summary
+## 102. Canonical Summary
 
 ```text
 PERSISTENCE
@@ -2803,29 +2804,33 @@ AND HOW TO RECOVER
 WHEN IT FAILS.
 ```
 
----
+______________________________________________________________________
 
 **Related:** README|AMOS OS · [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|MOC · [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]|Architecture · [[00_ROOT/SYSTEM_MAP|SYSTEM_MAP]]|System Map · [[00_ROOT/NEURAL_NETWORK|NEURAL_NETWORK]]|AMOS Neural Network · [[00_ROOT/AUTHORITATIVE_STATE|AUTHORITATIVE_STATE]]|Authoritative State · [[00_ROOT/PLACEMENT_RULES|PLACEMENT_RULES]]|Placement Rules · AMOS Canon · [[01_CANON/00_INDEX/CANON_MAP|CANON_MAP]]|Canon Map · [[01_CANON/01_CORE_LAWS/AMOS_CORE_LAWS|AMOS Core Laws]] · [[01_CANON/01_CORE_LAWS/INVARIANT_REGISTRY|INVARIANT_REGISTRY]]|Invariant Registry · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]|Law Hierarchy · [[01_CANON/02_UNIVERSE_CANON/HML_CANON|HML_CANON]]|H/M/L Canon · [[02_KERNEL/00_INDEX/KERNEL_MAP|KERNEL_MAP]]|Kernel Map · [[03_CONTROL_PLANE/00_INDEX/CONTROL_PLANE_MAP|CONTROL_PLANE_MAP]]|Control Plane Map · [[04_RUNTIME/00_INDEX/RUNTIME_MAP|RUNTIME_MAP]]|Runtime Map · [[09_PROTOCOLS/00_INDEX/PROTOCOL_MAP|PROTOCOL_MAP]]|Protocol Map · [[10_MEMORY/00_INDEX/MEMORY_MEMORY_MAP|MEMORY_MEMORY_MAP]]|Memory Map · Knowledge Map · [[12_STATE/00_INDEX/STATE_STATE_MAP|STATE_STATE_MAP]]|State Map · [[16_SCHEMAS/00_INDEX/SCHEMA_MAP|SCHEMA_MAP]]|Schema Map · [[17_OBSERVABILITY/00_INDEX/OBSERVABILITY_OBSERVABILITY_MAP|OBSERVABILITY_OBSERVABILITY_MAP]]|Observability Map · [[18_SECURITY/00_INDEX/SECURITY_MAP|SECURITY_MAP]]|Security Map · [[19_TESTS/00_INDEX/TEST_MAP|TEST_MAP]]|Test Map · [[20_OPERATIONS/00_INDEX/OPERATIONS_MAP|OPERATIONS_MAP]]|Operations Map
 
 ```
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: persistence_canon
 node_type: note
 path: 01_CANON/02_UNIVERSE_CANON/PERSISTENCE_CANON.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[01_CANON/02_UNIVERSE_CANON/02_UNIVERSE_CANON_MOC|02_UNIVERSE_CANON_MOC]]

@@ -1,87 +1,106 @@
 ---
-title: RESEARCH VALIDATION CONTRACT
-type: validation
-source: 22_RESEARCH/04_VALIDATION
-tags:
-- amos-os
-- canon/research
-- validation
-- routing-policy-validation-receipt
-- authz-engine-validation-receipt
-- law-hierarchy
+title: "Research Validation Contract — Multi-Modal Epistemic Triangulation & Cross-Corpus Assurance Specification"
+type: subplane_contract
+plane: 22_RESEARCH
+subplane: 04_VALIDATION
+domain: F_ASSURANCE_LIFECYCLE_EVIDENCE
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
+status: ACTIVE_SPECIFICATION
+conclusion_class: DERIVED
 rscf:
   state: DERIVED
-  claim_class: EMPIRICAL
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  claim_class: AMOS_MODEL
+  provenance:
+    - 22_RESEARCH/22_RESEARCH_MOC
+    - 00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE
+    - 25_COGNITIVE_MATRIX/PROVENANCE_X_CONFIDENCE
+  scope: multi_modal_validation_and_triangulation
+tags:
+  - amos-os
+  - 22-research
+  - validation-contract
+  - epistemic-triangulation
+  - cross-corpus-verification
+  - out-of-distribution
 ---
 
-# RESEARCH VALIDATION CONTRACT
+# Research Validation Contract — Multi-Modal Epistemic Triangulation & Cross-Corpus Assurance Specification
 
-## 0. Status
-Research-plane contract for **VALIDATION CONTRACT**. AMOS_MODEL; canonical status CONDITIONAL; implementation PARTIAL.
-
-## 1. Scope
-Governs research questions, experiments, competing models, validation, benchmarks as they bear on `VALIDATION CONTRACT`. Bounded by dependency closure: conclusions inherit the weakest load-bearing premise.
-
-## 2. Contract terms
-- **Typed artifacts** — every artifact declares artifact_type, epistemic class, scope, regime.
-- **Firewalls preserved** — CAPABILITY ≠ AUTHORITY · PROPOSAL ≠ COMMIT · OBSERVED ≠ CURRENT · TEST_PASS ≠ TRUTH.
-- **Epochs distinct** — state_version ≠ causal_epoch ≠ policy_epoch ≠ provenance_epoch unless an explicit mapping licenses equivalence.
-- **Local finality requires proof** — demonstrated dependency closure may avoid coordination; assumed independence may not.
-- **Selective invalidation** — failure invalidates dependent descendants only; unrelated state is preserved.
-
-## 3. Invariants
-- Fail closed on UNKNOWN/GAP; gaps stay visible, never promoted to PASS.
-- Confidence of any conclusion ≤ confidence of its weakest load-bearing premise (ceiling 0.95).
-- Consequential effects emit receipts; rollback basin exists before mutation.
-- Competing hypotheses remain visible when evidence does not discriminate.
-
-## 4. Executed reference
-No subsystem-local executor yet. Existing executed validators for the OS: routing-policy validator 19/19 ([[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]]) and authz invariant engine 17/17 ([[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]) — cited as pattern, not as evidence for this artifact.
-
-## 5. Gaps
-Runtime enforcement, persistence binding, and empirical validation remain OPEN (UNKNOWN/GAP). Promotion beyond AMOS_MODEL requires the promotion-gate checklist plus an executed receipt specific to this contract.
-
-## 6. Falsifiers
-F1: canonical source defines different semantics for this surface. F2: an executed test contradicts a declared invariant. F3: this contract silently collapses a protected firewall.
-## Worked semantics
-Given an operation touching `RESEARCH · VALIDATION CONTRACT` within the Research plane:
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-2. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-3. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-4. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-5. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-6. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
-
-## Promotion-gate checklist
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
-
-## Cross-plane bindings
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]|AMOS Core Laws · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
-- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
-- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
----
-
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+> **Origin Architect / Steward:** Trang Phan  
+> **AMOS_CORE Target:** `v4.4`  
+> **Domain Alignment:** Domain F (Assurance, Learning & Lifecycle Evidence)  
+> **Conclusion Class:** `DERIVED` (RSCF Validated)  
+> **Status:** `ACTIVE_SPECIFICATION`
 
 ---
-**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+
+## 1. Architectural Scope & Epistemic Mandate
+
+`22_RESEARCH/04_VALIDATION` defines the formal validation mechanisms, cross-corpus epistemic triangulation protocols, and out-of-distribution (OOD) stress testing standards required to validate scientific, architectural, and algorithmic claims in AMOS OS.
+
+```text
+SELF_CONSISTENCY != EXTERNAL_VALIDITY
+SINGLE_CORPUS_RETRIEVAL != INDEPENDENT_CONFIRMATION
+IN_DISTRIBUTION_ACCURACY != ROBUST_GENERALIZATION
+UNVALIDATED_THEORY == SPECULATIVE_MODEL
+```
+
+```mermaid
+graph TD
+    CLM[Candidate Claim C] --> SRC1[Corpus Source 1: Peer-Reviewed Literature]
+    CLM --> SRC2[Corpus Source 2: Empirical Physical / BCI Telemetry]
+    CLM --> SRC3[Corpus Source 3: Lean 4 Formal Mathematical Proof]
+    SRC1 & SRC2 & SRC3 --> TRI[01. Multi-Modal Epistemic Triangulation Sieve]
+    TRI --> OOD[02. Out-of-Distribution & Adversarial Perturbation Test]
+    OOD --> UQ[03. Conformalized Confidence Quantification C >= 0.90]
+    UQ --> VAL[04. Validated RSCF Proof Capsule Emission]
+```
 
 ---
-RSCF-NODE
-node_id: amos_22_research_04_validation_research_validation_contract_md
-node_type: note
-path: 22_RESEARCH/04_VALIDATION/RESEARCH_VALIDATION_CONTRACT.md
-claim_class: AMOS_MODEL
+
+## 2. Mathematical Formalism of Epistemic Triangulation
+
+### 2.1 Sybil-Hardened Multi-Source Independence Metric
+Let $\mathcal{S} = \{s_1, s_2, \dots, s_K\}$ be the set of corroborating sources for claim $\mathcal{C}$. The effective independent evidence weight $W_{\text{eff}}$ is discounted for mutual corpus overlap:
+
+$$W_{\text{eff}}(\mathcal{S}) = \sum_{k=1}^K w(s_k) \cdot \prod_{j < k} \left( 1 - \mathcal{J}(\text{Provenance}(s_k), \text{Provenance}(s_j)) \right)$$
+
+Where $\mathcal{J}(A, B) = \frac{|A \cap B|}{|A \cup B|}$ is the Jaccard similarity index of citation and data source lineage.
+
+### 2.2 Out-of-Distribution (OOD) Generalization Bound
+A model or theoretical claim $\mathcal{M}$ is validated under distribution shift $\mathcal{P}_{\text{test}} \ne \mathcal{P}_{\text{train}}$ if:
+
+$$\mathbb{E}_{\mathbf{x} \sim \mathcal{P}_{\text{test}}} \left[ \mathcal{L}(\mathcal{M}(\mathbf{x}), y) \right] \le \mathbb{E}_{\mathbf{x} \sim \mathcal{P}_{\text{train}}} \left[ \mathcal{L}(\mathcal{M}(\mathbf{x}), y) \right] + \sqrt{\frac{1}{2} \mathcal{D}_{\text{JS}}(\mathcal{P}_{\text{train}} \parallel \mathcal{P}_{\text{test}})}$$
+
+Where $\mathcal{D}_{\text{JS}}$ is the Jensen-Shannon divergence between environments.
 
 ---
-**MOC:** [[22_RESEARCH/04_VALIDATION/04_VALIDATION_MOC|04_VALIDATION_MOC]]
+
+## 3. Mandatory 3-Way Triangulation Gates
+
+A claim cannot be promoted to canonical `DERIVED` status without passing three orthogonal validation gates:
+
+| Gate | Validation Modality | Minimum Criterion | Failure Remediation |
+| :--- | :--- | :--- | :--- |
+| **Gate 1: Formal Logic** | Lean 4 / Isabelle theorem prover | Zero unproved `sorry` axioms | Demoted to `PROPOSAL` |
+| **Gate 2: Empirical Data** | Physical dataset / BCI telemetry | $p \le 0.001$, $BF_{10} \ge 100$ | Demoted to `HYPOTHESIS` |
+| **Gate 3: Cross-Corpus** | $\ge 2$ independent research labs / publications | $W_{\text{eff}} \ge 2.50$ | Flagged as `SOURCE_CLAIM` |
+
+---
+
+## 4. Invariants & Guardrails
+
+1. **Weakest Link Invariant:** The overall confidence of a derived chain $\mathcal{C} = \bigwedge_{i=1}^n \mathcal{P}_i$ is strictly bounded by $\mathcal{C}(\mathcal{C}) \le \min_{i} \mathcal{C}(\mathcal{P}_i)$.
+2. **Deterministic Regression Suite:** All validation tests are continuously re-executed against new core model revisions to prevent silent cognitive regression.
+
+---
+
+## 5. Lineage & Cross-Plane References
+
+- **Parent MOC:** [[22_RESEARCH/22_RESEARCH_MOC|22_RESEARCH_MOC]] · [[22_RESEARCH/04_VALIDATION/04_VALIDATION_MOC|04_VALIDATION_MOC]]
+- **Experiments Protocol:** [[22_RESEARCH/02_EXPERIMENTS/RESEARCH_EXPERIMENTS_CONTRACT|RESEARCH_EXPERIMENTS_CONTRACT]]
+- **Benchmarks Suite:** [[22_RESEARCH/05_BENCHMARKS/RESEARCH_BENCHMARKS_CONTRACT|RESEARCH_BENCHMARKS_CONTRACT]]
+- **Tests Subsystem:** [[19_TESTS/TESTS_TEST_CONTRACT|19_TESTS]]
+

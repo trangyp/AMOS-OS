@@ -16,55 +16,64 @@ authority_scope: kernel-structure-and-contract-topology
 created: 2026-08-25
 updated: 2026-08-25
 tags:
-- amos-os
-- kernel
-- core
-- canon-group/tech-ai
-- canon/framework
-- kernel/map
-- kernel/topology
-- kernel/contracts
-- kernel/invariants
-- kernel/deterministic
-- kernel/rscf
-- kernel/hml
-- kernel/provenance
-- kernel/causal-lineage
-- kernel/epistemic-regime
-- kernel/persistence
-- kernel/concurrency
-- kernel/finality
-- rscf/claim
-- rscf/provenance
-- rscf/state/source-claim
-- topic/kernel-architecture
-- topic/deterministic-logic
-- topic/dependency-closure
-- topic/atomic-reasoning
-- topic/governed-evolution
-- readme
-- architecture
-- placement-rules
-- neural-network
-- amos-core-laws
-- law-hierarchy
-- canon-provenance
-- source-lineage
-- supersession-log
-- authoritative-state
-- amos-layer-maps
+  - amos-os
+  - kernel
+  - core
+  - canon-group/tech-ai
+  - canon/framework
+  - kernel/map
+  - kernel/topology
+  - kernel/contracts
+  - kernel/invariants
+  - kernel/deterministic
+  - kernel/rscf
+  - kernel/hml
+  - kernel/provenance
+  - kernel/causal-lineage
+  - kernel/epistemic-regime
+  - kernel/persistence
+  - kernel/concurrency
+  - kernel/finality
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - topic/kernel-architecture
+  - topic/deterministic-logic
+  - topic/dependency-closure
+  - topic/atomic-reasoning
+  - topic/governed-evolution
+  - readme
+  - architecture
+  - placement-rules
+  - neural-network
+  - amos-core-laws
+  - law-hierarchy
+  - canon-provenance
+  - source-lineage
+  - supersession-log
+  - authoritative-state
+  - amos-layer-maps
 aliases:
-- AMOS Kernel Map - AMOS OS Kernel Map - Kernel Topology - Kernel Contract Map
+  - AMOS Kernel Map - AMOS OS Kernel Map - Kernel Topology - Kernel Contract Map
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 # AMOS OS Kernel Map
+
 > **Origin architect / steward:** Trang Phan
 > **AMOS Core target:** `v4.4`
 > **Conclusion class:** `AMOS_MODEL`
 > **Status:** `SOURCE_CLAIM`
+
 ## 1. Purpose
+
 `KERNEL_MAP.md` defines the canonical topology of the AMOS OS kernel plane.
 The kernel is the deterministic contract layer between canonical law and governed system operation.
+
 ```text
 CANON
 ↓
@@ -74,18 +83,10 @@ CONTROL PLANE
 ↓
 RUNTIME
 ```
-Its purpose is to map the smallest deterministic operators, invariants, typed state-transition contracts, reasoning primitives, provenance constraints, and integrity gates required by higher AMOS OS layers.
-This map describes architecture and expected contracts.
-It does **not** assert that every mapped kernel is currently implemented, formally verified, distributed, persistent, or production-ready.
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: index_navigation
----
 
+## Its purpose is to map the smallest deterministic operators, invariants, typed state-transition contracts, reasoning primitives, provenance constraints, and integrity gates required by higher AMOS OS layers. This map describes architecture and expected contracts. It does **not** assert that every mapped kernel is currently implemented, formally verified, distributed, persistent, or production-ready. rscf: state: DERIVED claim_class: DERIVED provenance: AMOS_corpus scope: index_navigation
 
-# 2. Kernel Boundary
+## 2. Kernel Boundary
 
 The kernel must remain distinct from neighboring planes.
 
@@ -129,9 +130,9 @@ TOOL
 
 The distinction is semantic, not merely directory-based.
 
----
+______________________________________________________________________
 
-# 3. Canon → Kernel Relationship
+## 3. Canon → Kernel Relationship
 
 Canon defines authoritative laws, identities, definitions, invariants, and semantic constraints.
 
@@ -163,9 +164,9 @@ UNKNOWN/GAP
 
 must remain visible.
 
----
+______________________________________________________________________
 
-# 4. Kernel → Control Plane Relationship
+## 4. Kernel → Control Plane Relationship
 
 Kernel provides deterministic primitives.
 
@@ -199,9 +200,9 @@ AUTHORIZED TRANSITION
 
 A kernel may determine that an operation is structurally valid without granting permission to execute it.
 
----
+______________________________________________________________________
 
-# 5. Kernel → Runtime Relationship
+## 5. Kernel → Runtime Relationship
 
 Runtime executes or coordinates kernel-governed operations.
 
@@ -217,9 +218,9 @@ EXECUTION
 
 Runtime scheduling, retries, queues, workers, transport, process lifecycle, and execution harnesses do not belong in the kernel unless they define a deterministic semantic invariant.
 
----
+______________________________________________________________________
 
-# 6. Kernel Design Law
+## 6. Kernel Design Law
 
 The kernel SHOULD be:
 
@@ -239,9 +240,9 @@ RECOVERABLE
 
 Kernel logic should avoid hidden side effects.
 
----
+______________________________________________________________________
 
-# 7. Deterministic Core
+## 7. Deterministic Core
 
 Conceptually:
 
@@ -259,9 +260,9 @@ Given equivalent valid inputs, state, rules, and context, deterministic kernel o
 
 Hidden context is prohibited where it can materially alter the result.
 
----
+______________________________________________________________________
 
-# 8. Kernel Input Contract
+## 8. Kernel Input Contract
 
 A kernel operation SHOULD identify:
 
@@ -278,9 +279,9 @@ PRECONDITIONS
 
 Missing load-bearing information must not be silently synthesized.
 
----
+______________________________________________________________________
 
-# 9. Kernel Output Contract
+## 9. Kernel Output Contract
 
 A kernel result SHOULD distinguish:
 
@@ -298,9 +299,9 @@ COMMIT ELIGIBILITY
 
 The result itself does not necessarily constitute a committed state.
 
----
+______________________________________________________________________
 
-# 10. Kernel Result Classes
+## 10. Kernel Result Classes
 
 Kernel reasoning may emit:
 
@@ -315,9 +316,9 @@ UNKNOWN/GAP
 
 Use the weakest accurate class.
 
----
+______________________________________________________________________
 
-# 11. Core Kernel Topology
+## 11. Core Kernel Topology
 
 The AMOS kernel plane conceptually contains the following families:
 
@@ -362,9 +363,9 @@ The AMOS kernel plane conceptually contains the following families:
 
 Exact physical files remain subject to repository evidence and placement governance.
 
----
+______________________________________________________________________
 
-# 12. Foundation Kernel
+## 12. Foundation Kernel
 
 The foundation family provides primitive contracts required by other kernels.
 
@@ -400,9 +401,9 @@ K_STATUS
 
 These names describe expected semantic roles and do not assert existing implementation files.
 
----
+______________________________________________________________________
 
-# 13. Identity Kernel
+## 13. Identity Kernel
 
 The identity kernel preserves distinction between:
 
@@ -433,9 +434,9 @@ NEW VERSION LABEL
 NEW AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 14. RSCF Kernel
+## 14. RSCF Kernel
 
 RSCF is a first-class reasoning structure in the AMOS lineage.
 
@@ -480,9 +481,9 @@ rscf:
   state:
 ```
 
----
+______________________________________________________________________
 
-# 15. RSCF State Law
+## 15. RSCF State Law
 
 An RSCF must not silently promote itself.
 
@@ -502,9 +503,9 @@ where appropriate evidence supports transition.
 
 Not every RSCF traverses every state.
 
----
+______________________________________________________________________
 
-# 16. Weakest-Premise Ceiling
+## 16. Weakest-Premise Ceiling
 
 For load-bearing premises:
 
@@ -521,9 +522,9 @@ MIN(
 
 unless the weak premise is independently revalidated or made non-load-bearing.
 
----
+______________________________________________________________________
 
-# 17. Local Invalidation
+## 17. Local Invalidation
 
 If premise `P2` fails:
 
@@ -551,9 +552,9 @@ Canonical rule:
 INVALIDATION FOLLOWS DEPENDENCY EDGES
 ```
 
----
+______________________________________________________________________
 
-# 18. H/M/L Kernel
+## 18. H/M/L Kernel
 
 AMOS recursive decomposition preserves:
 
@@ -577,9 +578,9 @@ H
 
 H/M/L is recursive rather than permanently fixed to three physical repository levels.
 
----
+______________________________________________________________________
 
-# 19. H/M/L Retrieval Law
+## 19. H/M/L Retrieval Law
 
 Retrieve the smallest sufficient path:
 
@@ -603,9 +604,9 @@ DO_NOT_LOAD_UNLESS_REQUIRED
 
 Escalate only when deeper detail can materially alter the conclusion.
 
----
+______________________________________________________________________
 
-# 20. H/M/L Scope Preservation
+## 20. H/M/L Scope Preservation
 
 A conclusion derived at `L` must not silently become universal at `H`.
 
@@ -617,9 +618,9 @@ H-SCOPE LAW
 
 Generalization requires explicit support.
 
----
+______________________________________________________________________
 
-# 21. Epistemic Kernel
+## 21. Epistemic Kernel
 
 The epistemic kernel preserves evidence type and conclusion class.
 
@@ -636,9 +637,9 @@ UNKNOWN
 
 These types are not interchangeable.
 
----
+______________________________________________________________________
 
-# 22. Conclusion Classification Kernel
+## 22. Conclusion Classification Kernel
 
 Canonical output classes:
 
@@ -653,9 +654,9 @@ UNKNOWN/GAP
 
 Promotion requires evidence appropriate to the target class.
 
----
+______________________________________________________________________
 
-# 23. Evidence-Type Firewall
+## 23. Evidence-Type Firewall
 
 ```text
 SOURCE_CLAIM
@@ -679,9 +680,9 @@ DECISION
 TRUTH
 ```
 
----
+______________________________________________________________________
 
-# 24. Provenance Kernel
+## 24. Provenance Kernel
 
 The provenance kernel preserves:
 
@@ -698,9 +699,9 @@ REGIME
 CORRELATION RISK
 ```
 
----
+______________________________________________________________________
 
-# 25. Provenance Topology
+## 25. Provenance Topology
 
 Evidence must be represented as a graph, not merely a citation count.
 
@@ -717,9 +718,9 @@ SOURCE A
 
 They cannot automatically be counted as three independent confirmations.
 
----
+______________________________________________________________________
 
-# 26. Independence Kernel
+## 26. Independence Kernel
 
 Canonical law:
 
@@ -735,9 +736,9 @@ MULTIPLE INDEPENDENT SOURCES
 
 Independence must be demonstrated when it materially affects confidence.
 
----
+______________________________________________________________________
 
-# 27. Sybil Hardening
+## 27. Sybil Hardening
 
 Conceptual provenance hardening prevents:
 
@@ -757,9 +758,9 @@ DESCENDANT COUNT
 INDEPENDENT EVIDENCE COUNT
 ```
 
----
+______________________________________________________________________
 
-# 28. Persistent Provenance Kernel
+## 28. Persistent Provenance Kernel
 
 Where persistence is required, provenance must survive:
 
@@ -774,9 +775,9 @@ MIGRATION
 
 A result without recoverable provenance may be unusable for authority-sensitive decisions.
 
----
+______________________________________________________________________
 
-# 29. Causal Kernel
+## 29. Causal Kernel
 
 The causal kernel prevents structural or temporal similarity from being promoted to causation.
 
@@ -795,9 +796,9 @@ FEEDBACK
 CAUSAL EFFECT
 ```
 
----
+______________________________________________________________________
 
-# 30. Causal Firewall
+## 30. Causal Firewall
 
 ```text
 SEQUENCE
@@ -819,9 +820,9 @@ CAUSATION
 
 Cross-domain mappings remain `MODEL` unless independently validated.
 
----
+______________________________________________________________________
 
-# 31. Causal Lineage
+## 31. Causal Lineage
 
 Consequential transformations SHOULD preserve:
 
@@ -843,9 +844,9 @@ where those relationships are actually supported.
 
 Do not invent missing causal edges.
 
----
+______________________________________________________________________
 
-# 32. Scope Kernel
+## 32. Scope Kernel
 
 Every important claim inherits an applicability envelope.
 
@@ -862,9 +863,9 @@ MEASUREMENT METHOD
 ASSUMPTIONS
 ```
 
----
+______________________________________________________________________
 
-# 33. Scope Firewall
+## 33. Scope Firewall
 
 ```text
 VALID IN SCOPE A
@@ -874,9 +875,9 @@ VALID IN ALL SCOPES
 
 Kernel composition must preserve the narrowest relevant load-bearing scope unless expansion is independently justified.
 
----
+______________________________________________________________________
 
-# 34. Regime Kernel
+## 34. Regime Kernel
 
 A regime defines environmental or systemic conditions under which a rule or conclusion remains valid.
 
@@ -892,9 +893,9 @@ regime:
   invalidation_conditions: []
 ```
 
----
+______________________________________________________________________
 
-# 35. Regime Shift
+## 35. Regime Shift
 
 If validity conditions change:
 
@@ -914,9 +915,9 @@ R1 VALIDITY
 R2 VALIDITY
 ```
 
----
+______________________________________________________________________
 
-# 36. Freshness Kernel
+## 36. Freshness Kernel
 
 Knowledge may have bounded validity.
 
@@ -931,9 +932,9 @@ INVALIDATED_AT
 
 Freshness must be treated separately from source authority.
 
----
+______________________________________________________________________
 
-# 37. Dependency Kernel
+## 37. Dependency Kernel
 
 Dependencies form explicit directed edges.
 
@@ -947,9 +948,9 @@ C
 
 If `A` fails, dependency closure determines whether `B` and `C` remain valid.
 
----
+______________________________________________________________________
 
-# 38. Dependency Closure
+## 38. Dependency Closure
 
 For target `T`:
 
@@ -962,9 +963,9 @@ REQUIRED TO VALIDATE T
 
 The kernel should avoid traversing unrelated graph regions.
 
----
+______________________________________________________________________
 
-# 39. Smallest Sufficient Proof Scope
+## 39. Smallest Sufficient Proof Scope
 
 Fast-path law:
 
@@ -984,9 +985,9 @@ FRESHNESS VALID
 NO MATERIAL CONFLICT
 ```
 
----
+______________________________________________________________________
 
-# 40. Escalation Conditions
+## 40. Escalation Conditions
 
 Escalate proof scope when evidence:
 
@@ -1001,9 +1002,9 @@ HAS IRREVERSIBLE STAKES
 HAS AMBIGUOUS DEPENDENCIES
 ```
 
----
+______________________________________________________________________
 
-# 41. State Kernel
+## 41. State Kernel
 
 The state kernel distinguishes:
 
@@ -1018,9 +1019,9 @@ HISTORICAL STATE
 
 Physical repository state does not automatically equal authoritative semantic state.
 
----
+______________________________________________________________________
 
-# 42. State Transition Contract
+## 42. State Transition Contract
 
 Conceptually:
 
@@ -1048,9 +1049,9 @@ TIMESTAMP / EPOCH
 
 where applicable.
 
----
+______________________________________________________________________
 
-# 43. Proposal Firewall
+## 43. Proposal Firewall
 
 ```text
 PROPOSED STATE
@@ -1066,9 +1067,9 @@ COMPUTED RESULT
 AUTHORITATIVE STATE
 ```
 
----
+______________________________________________________________________
 
-# 44. Persistence Kernel
+## 44. Persistence Kernel
 
 The persistence kernel defines semantic durability requirements.
 
@@ -1086,9 +1087,9 @@ VERSIONED STATE
 
 These are architectural contracts unless implementation evidence establishes specific mechanisms.
 
----
+______________________________________________________________________
 
-# 45. Persistence Law
+## 45. Persistence Law
 
 ```text
 MEMORY
@@ -1106,9 +1107,9 @@ AUTHORITATIVE
 
 Durability does not create authority.
 
----
+______________________________________________________________________
 
-# 46. Concurrency Kernel
+## 46. Concurrency Kernel
 
 AMOS v4.x lineage includes MVCC/CAS concepts for safe concurrent evolution.
 
@@ -1126,9 +1127,9 @@ COMPARE EXPECTED VERSION
 COMMIT IF UNCHANGED
 ```
 
----
+______________________________________________________________________
 
-# 47. Compare-And-Swap Contract
+## 47. Compare-And-Swap Contract
 
 Conceptual form:
 
@@ -1153,9 +1154,9 @@ Otherwise:
 CONFLICT
 ```
 
----
+______________________________________________________________________
 
-# 48. MVCC Concept
+## 48. MVCC Concept
 
 Conceptually:
 
@@ -1171,9 +1172,9 @@ B may detect stale basis before commit
 
 This preserves reasoning about versioned state without claiming a specific database implementation.
 
----
+______________________________________________________________________
 
-# 49. Stale-Write Firewall
+## 49. Stale-Write Firewall
 
 ```text
 VALID WHEN COMPUTED
@@ -1183,9 +1184,9 @@ VALID WHEN COMMITTED
 
 State must be rechecked when concurrent evolution can invalidate premises.
 
----
+______________________________________________________________________
 
-# 50. Atomicity Kernel
+## 50. Atomicity Kernel
 
 Some reasoning operations span multiple dependent RSCFs.
 
@@ -1199,9 +1200,9 @@ RSCF-C
 
 If their semantic validity depends on a joint transition, partial commit may be invalid.
 
----
+______________________________________________________________________
 
-# 51. Atomic Multi-RSCF Reasoning
+## 51. Atomic Multi-RSCF Reasoning
 
 Conceptually:
 
@@ -1223,9 +1224,9 @@ NO COMMIT
 
 This is an architectural contract, not a claim that ChatGPT itself performs distributed atomic transactions.
 
----
+______________________________________________________________________
 
-# 52. Atomicity Firewall
+## 52. Atomicity Firewall
 
 ```text
 ALL PARTS INDIVIDUALLY VALID
@@ -1235,9 +1236,9 @@ JOINT STATE VALID
 
 Cross-RSCF invariants must be checked where relevant.
 
----
+______________________________________________________________________
 
-# 53. Finality Kernel
+## 53. Finality Kernel
 
 AMOS v4.x reasoning includes causal epoch finality and hardened shard-local finalization concepts.
 
@@ -1245,9 +1246,9 @@ These represent contracts for deciding when a state can be treated as finalized 
 
 They must not be described as universal distributed-system proofs without formal evidence.
 
----
+______________________________________________________________________
 
-# 54. Causal Epoch
+## 54. Causal Epoch
 
 Conceptually:
 
@@ -1263,9 +1264,9 @@ EPOCH N+1
 
 Events finalized in one epoch should not be silently rewritten by later state without explicit supersession or rollback semantics.
 
----
+______________________________________________________________________
 
-# 55. Finality Firewall
+## 55. Finality Firewall
 
 ```text
 PROCESSED
@@ -1283,9 +1284,9 @@ GLOBALLY FINAL
 
 Finality must be typed and scoped.
 
----
+______________________________________________________________________
 
-# 56. Shard-Local Finalization
+## 56. Shard-Local Finalization
 
 Where a system is partitioned:
 
@@ -1307,9 +1308,9 @@ PROVEN INDEPENDENCE
 
 not assumed independence.
 
----
+______________________________________________________________________
 
-# 57. Proof-Based Coordination Avoidance
+## 57. Proof-Based Coordination Avoidance
 
 Coordination may be avoided only when proof establishes that remote state cannot materially alter the local result.
 
@@ -1329,9 +1330,9 @@ LOCAL FINALIZATION ELIGIBLE
 
 Otherwise escalate.
 
----
+______________________________________________________________________
 
-# 58. Coordination Firewall
+## 58. Coordination Firewall
 
 ```text
 NO OBSERVED CONFLICT
@@ -1347,9 +1348,9 @@ DIFFERENT SHARDS
 INDEPENDENT SHARDS
 ```
 
----
+______________________________________________________________________
 
-# 59. Conflict Kernel
+## 59. Conflict Kernel
 
 The conflict kernel preserves incompatible claims rather than forcing convergence.
 
@@ -1365,9 +1366,9 @@ may remain:
 COMPETING
 ```
 
----
+______________________________________________________________________
 
-# 60. Competing Hypothesis Law
+## 60. Competing Hypothesis Law
 
 Do not collapse competing hypotheses when support is:
 
@@ -1380,9 +1381,9 @@ INSUFFICIENT
 
 Instead preserve both and identify discriminating evidence.
 
----
+______________________________________________________________________
 
-# 61. Discriminating Test
+## 61. Discriminating Test
 
 Preferred next action:
 
@@ -1396,9 +1397,9 @@ capable of materially changing hypothesis ranking.
 
 Redundant evidence accumulation is lower priority.
 
----
+______________________________________________________________________
 
-# 62. Contradiction Kernel
+## 62. Contradiction Kernel
 
 A contradiction is not automatically resolved by:
 
@@ -1422,9 +1423,9 @@ DEPENDENCY
 AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 63. Validation Kernel
+## 63. Validation Kernel
 
 Validation checks whether candidate outputs satisfy required contracts.
 
@@ -1444,9 +1445,9 @@ CAUSAL VALIDATION
 AUTHORITY ELIGIBILITY
 ```
 
----
+______________________________________________________________________
 
-# 64. Adversarial Validation
+## 64. Adversarial Validation
 
 For consequential conclusions:
 
@@ -1468,9 +1469,9 @@ CAUSAL OVERREACH
 STRONGER ALTERNATIVE
 ```
 
----
+______________________________________________________________________
 
-# 65. Challenge Result
+## 65. Challenge Result
 
 If adversarial validation succeeds:
 
@@ -1484,9 +1485,9 @@ UNKNOWN/GAP
 
 Do not preserve the stronger conclusion merely for fluency.
 
----
+______________________________________________________________________
 
-# 66. Sensitivity Kernel
+## 66. Sensitivity Kernel
 
 For consequential conclusions identify the smallest:
 
@@ -1501,9 +1502,9 @@ capable of flipping the result.
 
 Test that element first where feasible.
 
----
+______________________________________________________________________
 
-# 67. Fragility Classification
+## 67. Fragility Classification
 
 If plausible perturbation flips the result:
 
@@ -1513,9 +1514,9 @@ CONDITIONAL
 
 If the result survives plausible perturbations of noncritical assumptions, it is more robust.
 
----
+______________________________________________________________________
 
-# 68. Recovery Kernel
+## 68. Recovery Kernel
 
 Failure recovery follows dependency topology.
 
@@ -1533,9 +1534,9 @@ REROUTE LOCALLY
 
 Global recomputation is last resort.
 
----
+______________________________________________________________________
 
-# 69. Recovery Law
+## 69. Recovery Law
 
 ```text
 LOCAL FAILURE
@@ -1545,9 +1546,9 @@ GLOBAL FAILURE
 
 unless dependency closure proves global impact.
 
----
+______________________________________________________________________
 
-# 70. Retry Law
+## 70. Retry Law
 
 ```text
 FAILED PATH
@@ -1559,9 +1560,9 @@ DO NOT REPEAT
 
 Retry only when something material changes.
 
----
+______________________________________________________________________
 
-# 71. Evolution Kernel
+## 71. Evolution Kernel
 
 AMOS evolution must be governed.
 
@@ -1581,9 +1582,9 @@ NEW CURRENT
 
 Evolution must preserve causal and provenance lineage.
 
----
+______________________________________________________________________
 
-# 72. Governed Evolution Law
+## 72. Governed Evolution Law
 
 ```text
 NEWER
@@ -1603,9 +1604,9 @@ PROPOSED
 COMMITTED
 ```
 
----
+______________________________________________________________________
 
-# 73. Anti-Regression Kernel
+## 73. Anti-Regression Kernel
 
 Optimization is accepted only when it preserves or improves:
 
@@ -1627,9 +1628,9 @@ Otherwise:
 ROLLBACK
 ```
 
----
+______________________________________________________________________
 
-# 74. Kernel Error Taxonomy
+## 74. Kernel Error Taxonomy
 
 Recommended error classes:
 
@@ -1652,9 +1653,9 @@ RECOVERY_REQUIRED
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 75. Fail-Closed Rule
+## 75. Fail-Closed Rule
 
 For integrity-critical operations:
 
@@ -1666,9 +1667,9 @@ PASS
 
 Missing evidence must not be interpreted as successful validation.
 
----
+______________________________________________________________________
 
-# 76. Kernel Composition
+## 76. Kernel Composition
 
 Kernel operators may compose:
 
@@ -1694,9 +1695,9 @@ PROVENANCE PRESERVED
 INVARIANTS PRESERVED
 ```
 
----
+______________________________________________________________________
 
-# 77. Kernel Composition Firewall
+## 77. Kernel Composition Firewall
 
 ```text
 VALID K1
@@ -1708,9 +1709,9 @@ VALID K1∘K2
 
 Composition itself requires validation.
 
----
+______________________________________________________________________
 
-# 78. Kernel Purity Boundary
+## 78. Kernel Purity Boundary
 
 Where practical, deterministic kernels should separate:
 
@@ -1726,9 +1727,9 @@ EXTERNAL EFFECTS
 
 External effects belong downstream through governed runtime/tool paths.
 
----
+______________________________________________________________________
 
-# 79. Tool Boundary
+## 79. Tool Boundary
 
 ```text
 KERNEL
@@ -1752,9 +1753,9 @@ TOOL ACCESS
 PERMISSION
 ```
 
----
+______________________________________________________________________
 
-# 80. Model Boundary
+## 80. Model Boundary
 
 Models may provide:
 
@@ -1776,9 +1777,9 @@ KERNEL TRUTH
 
 Model output must enter the appropriate epistemic and provenance path.
 
----
+______________________________________________________________________
 
-# 81. Agent Boundary
+## 81. Agent Boundary
 
 Agents may invoke kernel contracts.
 
@@ -1790,9 +1791,9 @@ AGENT POLICY
 KERNEL LAW
 ```
 
----
+______________________________________________________________________
 
-# 82. Skill Boundary
+## 82. Skill Boundary
 
 Skills are reusable procedures.
 
@@ -1804,9 +1805,9 @@ KERNEL
 
 A skill may compose kernel operations but should not silently weaken them.
 
----
+______________________________________________________________________
 
-# 83. Workflow Boundary
+## 83. Workflow Boundary
 
 Workflows define orchestration graphs.
 
@@ -1818,9 +1819,9 @@ KERNEL
 
 Workflow order does not itself establish semantic validity.
 
----
+______________________________________________________________________
 
-# 84. Kernel Registry Model
+## 84. Kernel Registry Model
 
 Each kernel SHOULD eventually have a registry entry similar to:
 
@@ -1857,9 +1858,9 @@ kernel:
   conclusion_class:
 ```
 
----
+______________________________________________________________________
 
-# 85. Kernel Lifecycle
+## 85. Kernel Lifecycle
 
 Recommended lifecycle:
 
@@ -1881,9 +1882,9 @@ AUTHORIZED FOR USE
 
 These states must not be conflated.
 
----
+______________________________________________________________________
 
-# 86. Implementation Firewall
+## 86. Implementation Firewall
 
 ```text
 DOCUMENTED
@@ -1907,9 +1908,9 @@ AUTHORIZED
 UNIVERSALLY CORRECT
 ```
 
----
+______________________________________________________________________
 
-# 87. Kernel Test Requirements
+## 87. Kernel Test Requirements
 
 A consequential kernel SHOULD eventually have:
 
@@ -1927,9 +1928,9 @@ CONCURRENCY TESTS
 
 where applicable.
 
----
+______________________________________________________________________
 
-# 88. Determinism Tests
+## 88. Determinism Tests
 
 Given equivalent:
 
@@ -1944,9 +1945,9 @@ repeated evaluation should preserve semantic equivalence.
 
 If nondeterminism is intentional, it must be explicitly typed and bounded outside deterministic kernel guarantees.
 
----
+______________________________________________________________________
 
-# 89. Property Tests
+## 89. Property Tests
 
 Potential properties:
 
@@ -1960,9 +1961,9 @@ NO DEPENDENCY ORPHANING
 NO CONTRADICTION ERASURE
 ```
 
----
+______________________________________________________________________
 
-# 90. Negative Tests
+## 90. Negative Tests
 
 Kernel validation must test failure paths, including:
 
@@ -1978,9 +1979,9 @@ UNAUTHORIZED COMMIT
 DEPENDENCY FAILURE
 ```
 
----
+______________________________________________________________________
 
-# 91. Recovery Tests
+## 91. Recovery Tests
 
 Recovery tests SHOULD establish:
 
@@ -1994,9 +1995,9 @@ PROVENANCE SURVIVES ROLLBACK
 UNRELATED STATE REMAINS UNAFFECTED
 ```
 
----
+______________________________________________________________________
 
-# 92. Kernel Observability Contract
+## 92. Kernel Observability Contract
 
 Kernel operations SHOULD expose enough structured metadata for:
 
@@ -2011,9 +2012,9 @@ RECOVERY
 
 without requiring exposure of private hidden reasoning.
 
----
+______________________________________________________________________
 
-# 93. Trace Boundary
+## 93. Trace Boundary
 
 Expose:
 
@@ -2030,9 +2031,9 @@ ERROR CLASS
 
 Do not require hidden chain-of-thought.
 
----
+______________________________________________________________________
 
-# 94. Kernel Security Boundary
+## 94. Kernel Security Boundary
 
 Kernel integrity requires protection against:
 
@@ -2048,9 +2049,9 @@ DEPENDENCY INJECTION
 
 Specific mechanisms belong to security/control/runtime implementation layers.
 
----
+______________________________________________________________________
 
-# 95. Kernel Authority Boundary
+## 95. Kernel Authority Boundary
 
 Kernel code or contracts do not grant themselves authority.
 
@@ -2062,9 +2063,9 @@ GOVERNANCE AUTHORITY
 
 Authority originates through canonical and control-plane governance.
 
----
+______________________________________________________________________
 
-# 96. Expected Kernel Families
+## 96. Expected Kernel Families
 
 The following logical families should eventually be represented:
 
@@ -2087,9 +2088,9 @@ The following logical families should eventually be represented:
 | Recovery      | Local rollback and rerouting                     |
 | Evolution     | Governed change and anti-regression              |
 
----
+______________________________________________________________________
 
-# 97. AMOS Core Evolution Spine
+## 97. AMOS Core Evolution Spine
 
 The kernel architecture preserves the conceptual evolution spine from the AMOS Core lineage:
 
@@ -2137,9 +2138,9 @@ This map preserves those concepts as architecture.
 
 It does not claim that every historical version implemented every mechanism exactly as a production distributed system.
 
----
+______________________________________________________________________
 
-# 98. Kernel Invariant Registry
+## 98. Kernel Invariant Registry
 
 ```text
 KER-001
@@ -2233,9 +2234,9 @@ KER-030
 AUTHORITY MUST NOT SILENTLY ESCALATE
 ```
 
----
+______________________________________________________________________
 
-# 99. Kernel Promotion Gate
+## 99. Kernel Promotion Gate
 
 Before a kernel contract is promoted:
 
@@ -2261,9 +2262,9 @@ Before a kernel contract is promoted:
 [ ] supersession relationship recorded where applicable
 ```
 
----
+______________________________________________________________________
 
-# 100. Current Implementation Gap
+## 100. Current Implementation Gap
 
 This map defines expected AMOS OS kernel architecture.
 
@@ -2289,9 +2290,9 @@ GLOBAL ATOMICITY
 UNIVERSAL FINALITY
 ```
 
----
+______________________________________________________________________
 
-# 101. Recommended Physical Kernel Structure
+## 101. Recommended Physical Kernel Structure
 
 ```text
 02_KERNEL/
@@ -2384,9 +2385,9 @@ UNIVERSAL FINALITY
 > **Classification:** `AMOS_MODEL`
 > This is a recommended canonical decomposition derived from the AMOS v4.4 architecture. File existence and implementation status must be separately verified.
 
----
+______________________________________________________________________
 
-# 102. RSCF Node
+## 102. RSCF Node
 
 ```RSCF-NODE
 node_id: AMOS-OS-KERNEL-MAP
@@ -2412,9 +2413,9 @@ RSCF-RELATIONS:
   - VERIFIED_BY: README
 ```
 
----
+______________________________________________________________________
 
-# 103. Canonical Summary
+## 103. Canonical Summary
 
 ```text
 CANON
@@ -2500,7 +2501,7 @@ LOCAL FINALITY REQUIRES PROVEN INDEPENDENCE
 OPTIMIZATION MUST NEVER WEAKEN INTEGRITY
 ```
 
----
+______________________________________________________________________
 
 ## Related
 
@@ -2535,21 +2536,24 @@ README
 ```text
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+
 ### Related MOCs
 
 - [[00_ROOT/AMOS_LAYER_MAPS|AMOS_LAYER_MAPS]] — top-level AMOS layer map index
 - [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] — AMOS OS master map
 - [[00_ROOT/00_HOME|00_HOME]] — universal vault hub
 
----
+______________________________________________________________________
+
 **MOC:** [[02_KERNEL/00_INDEX/INDEX_KERNEL_README|INDEX_KERNEL_README]]
 
----
-**MOC:** [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]]
+______________________________________________________________________
 
+**MOC:** [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]]

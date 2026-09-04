@@ -12,17 +12,17 @@ segment: 25_COGNITIVE_MATRIX/11_VALIDATION
 artifact_kind: NOTE
 path: 25_COGNITIVE_MATRIX/11_VALIDATION/PROMOTION_GATES.md
 tags:
-- 11_validation
-- amos-os
-- domain/cognitive-matrix
-- canon/universe
-- cognitive-matrix
-- gates
-- note
-- promotion
-- rscf
-- validation
-- placeholder_expanded
+  - 11_validation
+  - amos-os
+  - domain/cognitive-matrix
+  - canon/universe
+  - cognitive-matrix
+  - gates
+  - note
+  - promotion
+  - rscf
+  - validation
+  - placeholder_expanded
 version: 0.2.0
 updated: '2026-08-27'
 status: PLACEHOLDER_EXPANDED
@@ -99,7 +99,7 @@ Origin architect / steward: **Trang Phan**
 
 System: **AMOS OS**
 
----
+______________________________________________________________________
 
 # 11_VALIDATION — Promotion Gates
 
@@ -113,9 +113,9 @@ System: **AMOS OS**
 >
 > **AMOS_CORE target:** `v4.4`
 
----
+______________________________________________________________________
 
-# 0. Purpose
+## 0. Purpose
 
 `PROMOTION_GATES.md` defines the AMOS contract for deciding whether a candidate artifact, claim, mode, cell, generator output, schema, policy, canon object, workflow, runtime configuration, agent capability, Skill, Engine, Kernel, Worker, or state transition is eligible to move from a lower-trust lifecycle state into a higher-trust lifecycle state.
 
@@ -147,36 +147,34 @@ FINALIZED
 
 Promotion is therefore represented as a governed state transition:
 
-[
+\[
 P:
 S_i
-\rightarrow
-S_{i+1}
-]
+\\rightarrow
+S\_{i+1}
+\]
 
 subject to:
 
-[
-Eligible(P)
-===========
+## \[ Eligible(P)
 
 Validation
-\land Provenance
-\land Scope
-\land Regime
-\land Freshness
-\land DependencyClosure
-\land Policy
-\land Authority
-\land StateConsistency
-\land NoCriticalConflict
-]
+\\land Provenance
+\\land Scope
+\\land Regime
+\\land Freshness
+\\land DependencyClosure
+\\land Policy
+\\land Authority
+\\land StateConsistency
+\\land NoCriticalConflict
+\]
 
 where each term must be explicitly operationalized for the target promotion class.
 
----
+______________________________________________________________________
 
-# 1. Core promotion law
+## 1. Core promotion law
 
 The primary law is:
 
@@ -209,15 +207,15 @@ REPEATED
 
 Promotion requires explicit evidence.
 
----
+______________________________________________________________________
 
-# 2. Promotion object
+## 2. Promotion object
 
 A promotion operation is modeled as:
 
-[
+\[
 P=
-\langle
+\\langle
 Candidate,
 FromState,
 ToState,
@@ -233,8 +231,8 @@ Freshness,
 ReadSet,
 WriteSet,
 Receipts
-\rangle
-]
+\\rangle
+\]
 
 A promotion request is admissible only if its declared transition is valid.
 
@@ -261,9 +259,9 @@ STAGED_RUNTIME_CONFIG
 
 The burden must scale with consequence.
 
----
+______________________________________________________________________
 
-# 3. Promotion classes
+## 3. Promotion classes
 
 AMOS should distinguish promotion classes.
 
@@ -320,9 +318,9 @@ promotion_classes:
 
 These classes are a provisional AMOS model until authoritative promotion canon is recovered.
 
----
+______________________________________________________________________
 
-# 4. Promotion lifecycle states
+## 4. Promotion lifecycle states
 
 Suggested lifecycle:
 
@@ -373,9 +371,9 @@ Not all promotion classes require every state.
 
 The exact transition graph should be class-specific.
 
----
+______________________________________________________________________
 
-# 5. Promotion gate taxonomy
+## 5. Promotion gate taxonomy
 
 A promotion gate should be decomposed into named gates.
 
@@ -469,9 +467,9 @@ promotion_gate_stack:
 
 The required subset is determined by promotion class.
 
----
+______________________________________________________________________
 
-# 6. Gate result ontology
+## 6. Gate result ontology
 
 Every gate should emit:
 
@@ -499,25 +497,23 @@ gate_result:
   confidence_ceiling: 0.4
 ```
 
----
+______________________________________________________________________
 
-# 7. Gate composition
+## 7. Gate composition
 
 If required gates are:
 
-[
-G_r={G_1,G_2,\dots,G_n}
-]
+\[
+G_r={G_1,G_2,\\dots,G_n}
+\]
 
 then:
 
-[
-PromotionEligible
-=================
+## \[ PromotionEligible
 
-\bigwedge_{G_i\in G_r}
+\\bigwedge\_{G_i\\in G_r}
 GatePassEnough(G_i)
-]
+\]
 
 By default:
 
@@ -538,18 +534,18 @@ CONDITIONAL
 → class-specific governance decision
 ```
 
----
+______________________________________________________________________
 
-# 8. Confidence ceiling
+## 8. Confidence ceiling
 
 Promotion confidence is bounded by the weakest load-bearing gate.
 
-[
-C_{promotion}
-\le
-\min_{i\in LoadBearing}
+\[
+C\_{promotion}
+\\le
+\\min\_{i\\in LoadBearing}
 C(G_i)
-]
+\]
 
 Unless the weak dependency has independent revalidation.
 
@@ -567,9 +563,9 @@ promotion confidence <= 0.0
 
 if authority is mandatory.
 
----
+______________________________________________________________________
 
-# 9. Typed promotion request
+## 9. Typed promotion request
 
 ```yaml
 promotion_request:
@@ -634,9 +630,9 @@ promotion_request:
     idempotency_key: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 10. Typed promotion output
+## 10. Typed promotion output
 
 ```yaml
 promotion_decision:
@@ -688,9 +684,9 @@ promotion_decision:
     valid_until: null
 ```
 
----
+______________________________________________________________________
 
-# 11. Promotion state variables
+## 11. Promotion state variables
 
 ```yaml
 promotion_state:
@@ -741,9 +737,9 @@ promotion_state:
     finalized: false
 ```
 
----
+______________________________________________________________________
 
-# 12. Promotion operators
+## 12. Promotion operators
 
 Candidate operators:
 
@@ -777,9 +773,9 @@ rollback_promotion()
 
 These are structural contracts, not verified runtime implementation claims.
 
----
+______________________________________________________________________
 
-# 13. Core promotion invariants
+## 13. Core promotion invariants
 
 ## I-PROM-001 — Candidate identity binding
 
@@ -894,9 +890,9 @@ Finality requires the declared finalization proof/receipt.
 
 Replacing an active artifact requires explicit lineage.
 
----
+______________________________________________________________________
 
-# 14. H/M/L applicability
+## 14. H/M/L applicability
 
 ## H — Governance promotion
 
@@ -942,9 +938,9 @@ local cell materialization
 
 A local L-level success cannot imply H-level system validity.
 
----
+______________________________________________________________________
 
-# 15. Recursive H/M/L gate
+## 15. Recursive H/M/L gate
 
 A gate itself may have:
 
@@ -969,9 +965,9 @@ L:
   grant ID / expiry / target match
 ```
 
----
+______________________________________________________________________
 
-# 16. Source/canon gate
+## 16. Source/canon gate
 
 `G01_SOURCE`
 
@@ -996,9 +992,9 @@ CANON_ADMITTED
 
 A reference to a canonical-looking filename is insufficient.
 
----
+______________________________________________________________________
 
-# 17. Provenance gate
+## 17. Provenance gate
 
 `G02_PROVENANCE`
 
@@ -1025,9 +1021,9 @@ scope mismatch
 stale source
 ```
 
----
+______________________________________________________________________
 
-# 18. Provenance independence
+## 18. Provenance independence
 
 If:
 
@@ -1046,9 +1042,9 @@ effective independent root count remains:
 
 Promotion cannot treat repetition as increased evidence strength.
 
----
+______________________________________________________________________
 
-# 19. Schema gate
+## 19. Schema gate
 
 `G03_SCHEMA`
 
@@ -1069,9 +1065,9 @@ Boundary:
 SCHEMA_PASS != SEMANTIC_PASS
 ```
 
----
+______________________________________________________________________
 
-# 20. Semantic gate
+## 20. Semantic gate
 
 `G04_SEMANTIC`
 
@@ -1096,31 +1092,31 @@ requires validation evidence.
 
 A generated label does not validate itself.
 
----
+______________________________________________________________________
 
-# 21. Dependency gate
+## 21. Dependency gate
 
 `G05_DEPENDENCY`
 
 Given:
 
-[
-D(C)={d_1,\dots,d_n}
-]
+\[
+D(C)={d_1,\\dots,d_n}
+\]
 
 identify load-bearing dependencies:
 
-[
-LB(C)\subseteq D(C)
-]
+\[
+LB(C)\\subseteq D(C)
+\]
 
 Promotion requires all load-bearing dependencies to be sufficiently valid.
 
 Non-load-bearing dependencies should not create unnecessary global blocking.
 
----
+______________________________________________________________________
 
-# 22. Dependency closure
+## 22. Dependency closure
 
 Promotion needs enough dependency closure to know:
 
@@ -1136,9 +1132,9 @@ Unknown critical dependency:
 → BLOCK
 ```
 
----
+______________________________________________________________________
 
-# 23. Epistemic gate
+## 23. Epistemic gate
 
 `G06_EPISTEMIC`
 
@@ -1164,9 +1160,9 @@ require additional evidence.
 
 Formatting cannot perform epistemic promotion.
 
----
+______________________________________________________________________
 
-# 24. Conclusion-class promotion
+## 24. Conclusion-class promotion
 
 Possible epistemic transitions include:
 
@@ -1188,9 +1184,9 @@ MODEL
 
 may be the correct state after contradictory evidence.
 
----
+______________________________________________________________________
 
-# 25. Conflict gate
+## 25. Conflict gate
 
 `G07_CONFLICT`
 
@@ -1212,9 +1208,9 @@ COMPETING
 
 rather than arbitrary promotion.
 
----
+______________________________________________________________________
 
-# 26. Scope gate
+## 26. Scope gate
 
 `G08_SCOPE`
 
@@ -1234,9 +1230,9 @@ Promotion may narrow scope.
 
 Promotion must not silently broaden scope.
 
----
+______________________________________________________________________
 
-# 27. Regime gate
+## 27. Regime gate
 
 `G09_REGIME`
 
@@ -1251,9 +1247,9 @@ regime:
 
 A candidate validated in one regime may become stale or conditional in another.
 
----
+______________________________________________________________________
 
-# 28. Freshness gate
+## 28. Freshness gate
 
 `G10_FRESHNESS`
 
@@ -1273,9 +1269,9 @@ Freshness is type-specific.
 
 No universal maximum age should be invented.
 
----
+______________________________________________________________________
 
-# 29. Causal gate
+## 29. Causal gate
 
 `G11_CAUSAL`
 
@@ -1295,9 +1291,9 @@ causal effect
 
 Structural similarity alone cannot pass the causal gate.
 
----
+______________________________________________________________________
 
-# 30. Policy gate
+## 30. Policy gate
 
 `G12_POLICY`
 
@@ -1314,9 +1310,9 @@ policy:
 
 If policy epoch changes after validation, promotion requires re-check.
 
----
+______________________________________________________________________
 
-# 31. Authority gate
+## 31. Authority gate
 
 `G13_AUTHORITY`
 
@@ -1342,9 +1338,9 @@ authority exists
 != authority valid
 ```
 
----
+______________________________________________________________________
 
-# 32. Authority freshness
+## 32. Authority freshness
 
 Authority can expire or be revoked.
 
@@ -1358,9 +1354,9 @@ may not be sufficient for irreversible commit.
 
 High-consequence transitions may require commit-time authority freshness.
 
----
+______________________________________________________________________
 
-# 33. State gate
+## 33. State gate
 
 `G14_STATE`
 
@@ -1375,9 +1371,9 @@ state_snapshot:
 
 Promotion should not operate against a silently changed world.
 
----
+______________________________________________________________________
 
-# 34. MVCC pattern
+## 34. MVCC pattern
 
 Conceptual pattern:
 
@@ -1395,14 +1391,14 @@ COMMIT IF UNCHANGED
 
 This follows the AMOS_CORE v4.x reasoning pattern without claiming a Markdown repository literally implements distributed MVCC.
 
----
+______________________________________________________________________
 
-# 35. CAS gate
+## 35. CAS gate
 
-[
+\[
 CAS =
 (CurrentState == ObservedState)
-]
+\]
 
 If false:
 
@@ -1412,9 +1408,9 @@ STALE_PROMOTION
 
 Then invalidate only dependent work.
 
----
+______________________________________________________________________
 
-# 36. Read-set contract
+## 36. Read-set contract
 
 ```yaml
 promotion_read_set:
@@ -1430,9 +1426,9 @@ promotion_read_set:
     load_bearing: false
 ```
 
----
+______________________________________________________________________
 
-# 37. Write-set contract
+## 37. Write-set contract
 
 ```yaml
 promotion_write_set:
@@ -1454,9 +1450,9 @@ promotion_write_set:
 
 Mutation burden should scale with write class.
 
----
+______________________________________________________________________
 
-# 38. Atomicity gate
+## 38. Atomicity gate
 
 `G15_ATOMICITY`
 
@@ -1480,9 +1476,9 @@ promotion_transaction:
   commit_state: NOT_COMMITTED
 ```
 
----
+______________________________________________________________________
 
-# 39. Execution gate
+## 39. Execution gate
 
 `G16_EXECUTION`
 
@@ -1498,9 +1494,9 @@ effect path observable?
 
 Agents and Skills do not directly satisfy this gate.
 
----
+______________________________________________________________________
 
-# 40. Worker-only effect invariant
+## 40. Worker-only effect invariant
 
 ```text
 Agent
@@ -1515,9 +1511,9 @@ Worker
 
 A promoted capability must not create a path where stochastic cognition bypasses deterministic execution governance.
 
----
+______________________________________________________________________
 
-# 41. Recovery gate
+## 41. Recovery gate
 
 `G17_RECOVERY`
 
@@ -1534,9 +1530,9 @@ failure containment
 
 If rollback is impossible, promotion burden increases.
 
----
+______________________________________________________________________
 
-# 42. Observability gate
+## 42. Observability gate
 
 `G18_OBSERVABILITY`
 
@@ -1553,9 +1549,9 @@ what receipt exists?
 can it be replayed?
 ```
 
----
+______________________________________________________________________
 
-# 43. Finality gate
+## 43. Finality gate
 
 `G19_FINALITY`
 
@@ -1572,9 +1568,9 @@ rollback state known
 
 Finality is stronger than validation and stronger than commit.
 
----
+______________________________________________________________________
 
-# 44. Adversarial gate
+## 44. Adversarial gate
 
 `G20_ADVERSARIAL`
 
@@ -1595,9 +1591,9 @@ stronger competing candidate
 
 The challenge path should not simply repeat the same validator.
 
----
+______________________________________________________________________
 
-# 45. Promotion matrix by target type
+## 45. Promotion matrix by target type
 
 ```yaml
 promotion_profiles:
@@ -1663,9 +1659,9 @@ promotion_profiles:
 
 Exact profiles remain provisional until authoritative policy exists.
 
----
+______________________________________________________________________
 
-# 46. Generator promotion
+## 46. Generator promotion
 
 Relationship with `12_GENERATORS`:
 
@@ -1685,9 +1681,9 @@ PROMOTED STATE
 
 Generator output never self-promotes.
 
----
+______________________________________________________________________
 
-# 47. Validator promotion
+## 47. Validator promotion
 
 A validator itself should require promotion.
 
@@ -1704,9 +1700,9 @@ VALIDATOR_DRAFT
 
 A validator cannot simply validate itself into authority.
 
----
+______________________________________________________________________
 
-# 48. Mode promotion
+## 48. Mode promotion
 
 ```text
 MODE_FOLDER
@@ -1725,9 +1721,9 @@ MODE_EXISTS
 != MODE_ACTIVE
 ```
 
----
+______________________________________________________________________
 
-# 49. Cognitive-cell promotion
+## 49. Cognitive-cell promotion
 
 ```text
 CELL_ADDRESS
@@ -1749,9 +1745,9 @@ provenance
 scope
 ```
 
----
+______________________________________________________________________
 
-# 50. Skill promotion
+## 50. Skill promotion
 
 Possible Skill lifecycle:
 
@@ -1766,9 +1762,9 @@ SKILL_DRAFT
 
 Skill registration does not imply authority to perform every declared effect.
 
----
+______________________________________________________________________
 
-# 51. Agent promotion
+## 51. Agent promotion
 
 Agent activation should bind:
 
@@ -1786,9 +1782,9 @@ fallback
 
 A capable Agent remains below the infrastructure control plane.
 
----
+______________________________________________________________________
 
-# 52. Kernel promotion
+## 52. Kernel promotion
 
 Kernel burden should focus on:
 
@@ -1804,9 +1800,9 @@ dependency minimality
 
 Kernel success cannot authorize world effects.
 
----
+______________________________________________________________________
 
-# 53. Engine promotion
+## 53. Engine promotion
 
 Engine promotion may require:
 
@@ -1819,9 +1815,9 @@ observability
 performance envelope
 ```
 
----
+______________________________________________________________________
 
-# 54. Worker promotion
+## 54. Worker promotion
 
 Worker promotion is execution-sensitive.
 
@@ -1838,9 +1834,9 @@ receipts
 sandbox/security
 ```
 
----
+______________________________________________________________________
 
-# 55. Workflow promotion
+## 55. Workflow promotion
 
 Workflow promotion should validate transition graph.
 
@@ -1855,9 +1851,9 @@ terminal states
 
 Ad-hoc agent plans need not be promoted as canonical workflows unless they become reusable governed protocols.
 
----
+______________________________________________________________________
 
-# 56. Canon promotion
+## 56. Canon promotion
 
 Canon admission pipeline:
 
@@ -1883,9 +1879,9 @@ CANON_ADMISSION
 
 Repeated corpus presence alone does not satisfy this pipeline.
 
----
+______________________________________________________________________
 
-# 57. Policy promotion
+## 57. Policy promotion
 
 Policy promotion should be among the highest-burden transitions.
 
@@ -1905,9 +1901,9 @@ audit
 
 Policy generation and policy activation are separate.
 
----
+______________________________________________________________________
 
-# 58. Root-state promotion
+## 58. Root-state promotion
 
 Promoting `AUTHORITATIVE_STATE.md` requires binding the exact:
 
@@ -1926,9 +1922,9 @@ finality state
 
 A newer root-state file does not supersede an older one by timestamp alone.
 
----
+______________________________________________________________________
 
-# 59. Promotion receipt
+## 59. Promotion receipt
 
 ```yaml
 promotion_receipt:
@@ -1977,9 +1973,9 @@ promotion_receipt:
     UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 60. Promotion receipt invalidation
+## 60. Promotion receipt invalidation
 
 A promotion receipt becomes invalid or stale when a load-bearing bound condition changes.
 
@@ -1996,9 +1992,9 @@ provenance root changed
 mode registry changed
 ```
 
----
+______________________________________________________________________
 
-# 61. Receipt reuse
+## 61. Receipt reuse
 
 A previous promotion receipt may be reused only if:
 
@@ -2015,9 +2011,9 @@ no new conflict
 
 Otherwise revalidation is required.
 
----
+______________________________________________________________________
 
-# 62. Event taxonomy
+## 62. Event taxonomy
 
 ```text
 PROMOTION_REQUESTED
@@ -2043,9 +2039,9 @@ PROMOTION_ROLLED_BACK
 
 Event publication does not satisfy the gate itself.
 
----
+______________________________________________________________________
 
-# 63. Promotion event envelope
+## 63. Promotion event envelope
 
 ```yaml
 promotion_event:
@@ -2076,9 +2072,9 @@ promotion_event:
   timestamp: null
 ```
 
----
+______________________________________________________________________
 
-# 64. Agents
+## 64. Agents
 
 Possible agent roles:
 
@@ -2114,9 +2110,9 @@ Builds rollback/repair proposal.
 
 No Agent can approve its own promotion.
 
----
+______________________________________________________________________
 
-# 65. Skills
+## 65. Skills
 
 Possible Skills:
 
@@ -2138,9 +2134,9 @@ adversarial-promotion-review
 
 Skill invocation does not create promotion authority.
 
----
+______________________________________________________________________
 
-# 66. Engine layer
+## 66. Engine layer
 
 Possible engines:
 
@@ -2155,9 +2151,9 @@ Recovery Gate Engine
 Finality Gate Engine
 ```
 
----
+______________________________________________________________________
 
-# 67. Kernel layer
+## 67. Kernel layer
 
 Candidate deterministic kernels:
 
@@ -2179,9 +2175,9 @@ check_rollback_target()
 invalidate_descendants()
 ```
 
----
+______________________________________________________________________
 
-# 68. Worker boundary
+## 68. Worker boundary
 
 Actual promotion mutations should be executed by bounded workers.
 
@@ -2197,9 +2193,9 @@ Receipt
 
 The reasoning component should not directly rewrite authoritative state.
 
----
+______________________________________________________________________
 
-# 69. Protocols
+## 69. Protocols
 
 Potential protocols:
 
@@ -2218,9 +2214,9 @@ revalidation
 
 Exact protocols remain `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
-# 70. Promotion concurrency
+## 70. Promotion concurrency
 
 Two concurrent promotions may conflict.
 
@@ -2235,9 +2231,9 @@ Both may have validated against the same prior state.
 
 CAS/finality should prevent both from silently becoming authoritative.
 
----
+______________________________________________________________________
 
-# 71. Competing promotion requests
+## 71. Competing promotion requests
 
 If multiple candidates seek the same exclusive target state:
 
@@ -2250,9 +2246,9 @@ promotion_competition:
 
 The correct result may remain `COMPETING` until discriminating evidence or policy resolves it.
 
----
+______________________________________________________________________
 
-# 72. Supersession gate
+## 72. Supersession gate
 
 Supersession requires explicit predecessor/successor identity.
 
@@ -2269,9 +2265,9 @@ supersession:
 
 No silent replacement.
 
----
+______________________________________________________________________
 
-# 73. Rollback gate
+## 73. Rollback gate
 
 Rollback should bind:
 
@@ -2286,9 +2282,9 @@ authority
 
 Rollback itself may require promotion-style validation.
 
----
+______________________________________________________________________
 
-# 74. Selective invalidation
+## 74. Selective invalidation
 
 When one premise fails:
 
@@ -2308,9 +2304,9 @@ policy gate becomes stale
 
 This follows AMOS dependency-local repair.
 
----
+______________________________________________________________________
 
-# 75. Fast path
+## 75. Fast path
 
 AMOS v4.4-style local fast path may be used only when:
 
@@ -2329,9 +2325,9 @@ Then only required local gates need re-evaluation.
 
 No fast path may bypass integrity.
 
----
+______________________________________________________________________
 
-# 76. Escalation conditions
+## 76. Escalation conditions
 
 Escalate to broader validation if:
 
@@ -2348,9 +2344,9 @@ security impact
 ambiguous dependency closure
 ```
 
----
+______________________________________________________________________
 
-# 77. Adaptive gate depth
+## 77. Adaptive gate depth
 
 Possible mapping:
 
@@ -2373,9 +2369,9 @@ root/canon/policy/irreversible promotion
 
 Consequence drives depth.
 
----
+______________________________________________________________________
 
-# 78. Security promotion gate
+## 78. Security promotion gate
 
 Security-sensitive transitions may additionally require:
 
@@ -2392,9 +2388,9 @@ incident observability
 
 No generic validation PASS should substitute for security review.
 
----
+______________________________________________________________________
 
-# 79. Empirical promotion gate
+## 79. Empirical promotion gate
 
 A model moving from research to operational use may require:
 
@@ -2411,9 +2407,9 @@ drift monitoring
 
 A benchmark PASS is not universal empirical validation.
 
----
+______________________________________________________________________
 
-# 80. Deployment promotion gate
+## 80. Deployment promotion gate
 
 Typical lifecycle:
 
@@ -2427,9 +2423,9 @@ OFFLINE
 
 Promotion between deployment states may require different evidence.
 
----
+______________________________________________________________________
 
-# 81. Shadow → canary
+## 81. Shadow → canary
 
 Possible requirements:
 
@@ -2442,9 +2438,9 @@ minimum quality threshold
 rollback available
 ```
 
----
+______________________________________________________________________
 
-# 82. Canary → production
+## 82. Canary → production
 
 Higher burden:
 
@@ -2460,9 +2456,9 @@ rollback
 authority
 ```
 
----
+______________________________________________________________________
 
-# 83. Canon candidate → canon
+## 83. Canon candidate → canon
 
 Highest epistemic burden:
 
@@ -2479,9 +2475,9 @@ authority
 
 No amount of fluent synthesis can bypass this.
 
----
+______________________________________________________________________
 
-# 84. Placeholder → completed contract
+## 84. Placeholder → completed contract
 
 For Cognitive Matrix placeholder files:
 
@@ -2504,9 +2500,9 @@ falsifiers
 
 If authoritative source remains missing, the file may become a detailed `MODEL_DRAFT` but not canonically complete.
 
----
+______________________________________________________________________
 
-# 85. Failure modes
+## 85. Failure modes
 
 ```yaml
 failure_modes:
@@ -2584,9 +2580,9 @@ failure_modes:
     description: state changed after validation but promotion still commits
 ```
 
----
+______________________________________________________________________
 
-# 86. Recovery workflow
+## 86. Recovery workflow
 
 ```text
 PROMOTION FAILURE
@@ -2608,9 +2604,9 @@ REPAIR SOURCE / DEPENDENCY / STATE
 RE-EVALUATE MINIMUM NECESSARY GATES
 ```
 
----
+______________________________________________________________________
 
-# 87. Retry policy
+## 87. Retry policy
 
 A failed promotion should only retry if evidence or state changed.
 
@@ -2627,9 +2623,9 @@ OR ValidatorChanged
 OR TransientFailureResolved
 ```
 
----
+______________________________________________________________________
 
-# 88. Tests
+## 88. Tests
 
 Required test categories:
 
@@ -2655,9 +2651,9 @@ adversarial
 security
 ```
 
----
+______________________________________________________________________
 
-# 89. Constitutional tests
+## 89. Constitutional tests
 
 ```text
 T-PROM-001
@@ -2721,9 +2717,9 @@ rollback required but missing
 → high-risk promotion blocked
 ```
 
----
+______________________________________________________________________
 
-# 90. Adversarial promotion tests
+## 90. Adversarial promotion tests
 
 Attack the promotion path with:
 
@@ -2744,9 +2740,9 @@ retry after ambiguous commit
 
 Promotion should fail safely.
 
----
+______________________________________________________________________
 
-# 91. Falsifiers
+## 91. Falsifiers
 
 This placeholder contract is itself provisional.
 
@@ -2771,9 +2767,9 @@ named invariants conflict with higher-order accepted AMOS canon
 
 If so, update this artifact and preserve supersession lineage.
 
----
+______________________________________________________________________
 
-# 92. Promotion proof capsule
+## 92. Promotion proof capsule
 
 ```yaml
 proof_capsule:
@@ -2812,9 +2808,9 @@ proof_capsule:
     - receipt expired
 ```
 
----
+______________________________________________________________________
 
-# 93. RSCF completion state
+## 93. RSCF completion state
 
 ```yaml
 rscf:
@@ -2878,9 +2874,9 @@ rscf:
     PLACEHOLDER
 ```
 
----
+______________________________________________________________________
 
-# 94. GMEF completion state
+## 94. GMEF completion state
 
 ```yaml
 gmef:
@@ -2930,9 +2926,9 @@ gmef:
     UNFINALIZED
 ```
 
----
+______________________________________________________________________
 
-# 95. Related artifacts
+## 95. Related artifacts
 
 ```yaml
 related:
@@ -2978,9 +2974,9 @@ related:
     UNVERIFIED
 ```
 
----
+______________________________________________________________________
 
-# 96. Relation types
+## 96. Relation types
 
 ```text
 REQUIRES
@@ -2999,9 +2995,9 @@ FINALIZED_BY
 ACTIVATED_BY
 ```
 
----
+______________________________________________________________________
 
-# 97. Promotion dependency hierarchy
+## 97. Promotion dependency hierarchy
 
 ```text
 TIER 0
@@ -3033,9 +3029,9 @@ SUMMARIES
 
 A Tier-4 summary cannot promote a Tier-1 artifact.
 
----
+______________________________________________________________________
 
-# 98. Required completion status
+## 98. Required completion status
 
 ```yaml
 completion_status:
@@ -3133,9 +3129,9 @@ completion_status:
     status: UNBOUND
 ```
 
----
+______________________________________________________________________
 
-# 99. Gap registry
+## 99. Gap registry
 
 ```yaml
 gaps:
@@ -3168,9 +3164,9 @@ gaps:
     - naming harmonization
 ```
 
----
+______________________________________________________________________
 
-# 100. Hard boundaries
+## 100. Hard boundaries
 
 ```text
 PLACEHOLDER != IMPLEMENTED
@@ -3212,9 +3208,9 @@ SCHEMA_VALID != SEMANTICALLY_VALID
 SEMANTICALLY_VALID != EPISTEMICALLY_VALID
 ```
 
----
+______________________________________________________________________
 
-# 101. Current decision
+## 101. Current decision
 
 ```yaml
 decision:
@@ -3251,9 +3247,9 @@ decision:
     - declare finality
 ```
 
----
+______________________________________________________________________
 
-# 102. Final proof capsule
+## 102. Final proof capsule
 
 **Claim**
 
@@ -3342,22 +3338,27 @@ UNFINALIZED
 
 ```
 ```
----
+
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: promotion_gates
 node_type: note
 path: 25_COGNITIVE_MATRIX/11_VALIDATION/PROMOTION_GATES.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/11_VALIDATION/11_VALIDATION_MOC|11_VALIDATION_MOC]]

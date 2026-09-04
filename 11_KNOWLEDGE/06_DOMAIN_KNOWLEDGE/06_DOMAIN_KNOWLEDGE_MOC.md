@@ -1,20 +1,23 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: 06 Domain Knowledge MOC
 type: moc
 source: 11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE
 tags:
-- 06-domain-knowledge
-- canon/knowledge
-- heritage-civilization-history
-- heritage-fractal-mathematics
-- heritage-intelligence
-- heritage-music-acoustic-rules
-- heritage-pattern-systems
-- heritage-spatial-intelligence
-- ubi-bioelectromagnetic-intelligence
-- ubi-neurobiological-intelligence
-- ubi-neuroemotional-intelligence
-- ubi-somatic-intelligence
+  - 06-domain-knowledge
+  - canon/knowledge
+  - heritage-civilization-history
+  - heritage-fractal-mathematics
+  - heritage-intelligence
+  - heritage-music-acoustic-rules
+  - heritage-pattern-systems
+  - heritage-spatial-intelligence
+  - ubi-bioelectromagnetic-intelligence
+  - ubi-neurobiological-intelligence
+  - ubi-neuroemotional-intelligence
+  - ubi-somatic-intelligence
 moc: true
 rscf:
   state: SOURCE_CLAIM
@@ -41,5 +44,6 @@ rscf:
 - [[11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/UBI_NEUROEMOTIONAL_INTELLIGENCE|UBI_NEUROEMOTIONAL_INTELLIGENCE]]
 - [[11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/UBI_SOMATIC_INTELLIGENCE|UBI_SOMATIC_INTELLIGENCE]]
 
----
+______________________________________________________________________
+
 **Parent:** [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]]

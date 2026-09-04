@@ -1,4 +1,7 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: MEDICAL CLINICAL KERNEL VINFINITY SUPER
 type: kernel
 source: 11_KNOWLEDGE/kernel
@@ -7,13 +10,13 @@ canon-type: framework
 rscf-state: source-claim
 topic: medical-clinical-kernel-vinfinity-super
 tags:
-- canon-group/biology
-- canon/framework
-- rscf/claim
-- rscf/provenance
-- rscf/state/source-claim
-- topic/medical-clinical-kernel-vinfinity-super
-- kernel
+  - canon-group/biology
+  - canon/framework
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - topic/medical-clinical-kernel-vinfinity-super
+  - kernel
 created: 2026-08-22
 rscf:
   state: SOURCE_CLAIM
@@ -123,6 +126,6 @@ rscf:
 **Related:** [[11_KNOWLEDGE/kernel/DOCUMENTATION_KERNEL_V0|DOCUMENTATION_KERNEL_V0]] · [[11_KNOWLEDGE/kernel/AMOS_DESIGN_KERNEL|AMOS_DESIGN_KERNEL]] · [[11_KNOWLEDGE/kernel/AMOS_META_EPISTEMOLOGY_KERNEL|AMOS_META_EPISTEMOLOGY_KERNEL]] · [[11_KNOWLEDGE/kernel/AMOS_ORG_GOVERNANCE_KERNEL|AMOS_ORG_GOVERNANCE_KERNEL]]
 ```
 
----
-**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]
+______________________________________________________________________
 
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]

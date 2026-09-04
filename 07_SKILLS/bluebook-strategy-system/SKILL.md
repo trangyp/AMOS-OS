@@ -4,25 +4,22 @@ title: SKILL — Bluebook Strategy System
 type: skill
 source: 07_SKILLS/bluebook-strategy-system
 name: bluebook-strategy-system
-description: Strategy System — strategy and game theory capability. Use when strategic
-  analysis, game theory, or competitive reasoning. Use when amos-c08-strategy-game-master
-  routes to this specialized capability. Do not use for generic tasks outside c08
-  domain.
+description: Strategy System — strategy and game theory capability. Use when strategic analysis, game theory, or competitive reasoning. Use when amos-c08-strategy-game-master routes to this specialized capability. Do not use for generic tasks outside c08 domain.
 parent_skill: amos-c08-strategy-game-master
 domain: c08
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
 tags:
-- type/skill
-- type/skill
-- domain/strategy-game
-- epistemic/source_claim
-- hml/m
-- epistemic/source_claim
-- amos-os
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/strategy-game
+  - epistemic/source_claim
+  - hml/m
+  - epistemic/source_claim
+  - amos-os
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -32,23 +29,23 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: M
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
-- L7_authority
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
+  - L7_authority
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L7
-- L16
-- L17
-- L18
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L7
+  - L16
+  - L17
+  - L18
 license: MIT
 steward: Trang Phan
 ---
@@ -58,6 +55,7 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: c08. Parent: amos-c08-strategy-game-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
 ## When to Use
 
 - When analyzing strategic position and competitive landscape
@@ -84,12 +82,12 @@ Origin architect: **Trang Phan**. Domain: c08. Parent: amos-c08-strategy-game-ma
 ## Operations
 
 1. **strategy.analyze_strategy**: Analyze strategic position: competitive landscape, game-theoretic equilibrium
-2. **strategy.evaluate_decision**: Evaluate decisions under uncertainty: expected value, regret, risk-adjusted return
-3. **strategy.model_game**: Model game-theoretic interactions: players, strategies, payoffs, equilibria
-4. **strategy.assess_risk**: Assess strategic risk: downside scenarios, adversarial responses, black swans
-5. **strategy.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-6. **strategy.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
-7. **strategy.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+1. **strategy.evaluate_decision**: Evaluate decisions under uncertainty: expected value, regret, risk-adjusted return
+1. **strategy.model_game**: Model game-theoretic interactions: players, strategies, payoffs, equilibria
+1. **strategy.assess_risk**: Assess strategic risk: downside scenarios, adversarial responses, black swans
+1. **strategy.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+1. **strategy.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+1. **strategy.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## 11_KNOWLEDGE Vault Content
 
@@ -100,6 +98,7 @@ Origin architect: **Trang Phan**. Domain: c08. Parent: amos-c08-strategy-game-ma
 From C08 Strategy & Game: Bluebook strategy and consulting discipline.
 
 **Bluebook strategy principles**:
+
 - **Issue-driven**: start with the key issue, not the data
 - **Hypothesis-led**: form hypothesis before collecting data
 - **MECE-structured**: structure analysis to be Mutually Exclusive, Collectively Exhaustive
@@ -107,18 +106,20 @@ From C08 Strategy & Game: Bluebook strategy and consulting discipline.
 - **Actionable**: recommendations must be actionable, not just analytical
 
 **Strategy protocol**:
+
 1. **Define the issue**: what is the key strategic question?
-2. **Form hypothesis**: what is the likely answer?
-3. **Structure analysis**: MECE decomposition of the issue
-4. **Gather evidence**: collect data to test the hypothesis
-5. **Synthesize**: synthesize findings into recommendation
-6. **Communicate**: communicate using pyramid principle (conclusion first)
+1. **Form hypothesis**: what is the likely answer?
+1. **Structure analysis**: MECE decomposition of the issue
+1. **Gather evidence**: collect data to test the hypothesis
+1. **Synthesize**: synthesize findings into recommendation
+1. **Communicate**: communicate using pyramid principle (conclusion first)
 
 ### Epistemic Boundary
 
 The Bluebook strategy system is an analytical methodology. It does not prove strategic success, that all issues can be resolved this way, or that hypothesis-led investigation is always optimal.
 
 ## Failure Modes
+
 - **Insufficient evidence**: If source material is insufficient, mark as UNKNOWN/GAP and fail closed — do not fabricate.
 - **Scope violation**: If the query falls outside the skill's declared scope, escalate to the parent skill or steward.
 - **Binding broken**: If 1:1:1 binding (skill→agent→workflow) is broken, flag routing mismatch and block execution.
@@ -143,7 +144,8 @@ The Bluebook strategy system is an analytical methodology. It does not prove str
 - **Vault sources**:
 - `engine/A/AMOS Policy Geostrategy Engine vInfinity.md` — AMOS Policy Geostr
 
----
+______________________________________________________________________
+
 **Links:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 ## Related
@@ -153,17 +155,19 @@ The Bluebook strategy system is an analytical methodology. It does not prove str
 ## Examples
 
 - **Scenario**: When analyzing strategic position and competitive landscape
+
   - **Input**: A query matching this skill's domain (c08)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When evaluating decisions under uncertainty: expected value, regret
+
   - **Input**: A query matching this skill's domain (c08)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When modeling game-theoretic interactions and equilibria
+
   - **Input**: A query matching this skill's domain (c08)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Anti-Patterns
 
@@ -173,7 +177,6 @@ The Bluebook strategy system is an analytical methodology. It does not prove str
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `amos-c08-strategy-game-master` — routes to this skill when c08 specialization is needed
@@ -181,7 +184,6 @@ The Bluebook strategy system is an analytical methodology. It does not prove str
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -200,7 +202,6 @@ The Bluebook strategy system is an analytical methodology. It does not prove str
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -208,7 +209,6 @@ The Bluebook strategy system is an analytical methodology. It does not prove str
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -221,11 +221,12 @@ The Bluebook strategy system is an analytical methodology. It does not prove str
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `amos-c08-strategy-game-master` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `bluebook-strategy-system-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -233,12 +234,14 @@ The Bluebook strategy system is an analytical methodology. It does not prove str
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: bluebook-strategy-system
 node_type: skill
 path: 07_SKILLS/bluebook-strategy-system/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

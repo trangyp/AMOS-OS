@@ -1,4 +1,7 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: AMOS TECH UBI CANON KERNEL V1 TECH4
 type: canon
 source: 11_KNOWLEDGE/kernel
@@ -7,14 +10,14 @@ canon-type: framework
 rscf-state: source-claim
 topic: amos-tech-ubi-canon-kernel-v1
 tags:
-- canon-group/biology
-- canon/framework
-- rscf/claim
-- rscf/provenance
-- rscf/state/source-claim
-- topic/amos-tech-ubi-canon-kernel-v1
-- kernel
-- canon
+  - canon-group/biology
+  - canon/framework
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - topic/amos-tech-ubi-canon-kernel-v1
+  - kernel
+  - canon
 created: 2026-08-22
 rscf:
   state: SOURCE_CLAIM
@@ -61,6 +64,6 @@ rscf:
 **Related:** [[11_KNOWLEDGE/kernel/INVESTMENT_KERNEL|INVESTMENT_KERNEL]] · [[11_KNOWLEDGE/kernel/ORG_GOVERNANCE_KERNEL|ORG_GOVERNANCE_KERNEL]] · [[11_KNOWLEDGE/kernel/LOGIC_KERNEL|LOGIC_KERNEL]] · [[11_KNOWLEDGE/kernel/BIOLOGICAL_KERNEL_COMPUTING_BKC|BIOLOGICAL_KERNEL_COMPUTING_BKC]]
 ```
 
----
-**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]
+______________________________________________________________________
 
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]

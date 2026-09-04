@@ -1,85 +1,97 @@
 ---
-title: INV-AUTHZ-022
-type: invariant
+title: "INV-AUTHZ-022 — No Silent Failure"
+type: authority_invariant
 source: 03_CONTROL_PLANE/04_AUTHORITY
-tags:
-- control-plane
-- canon/control-plane
-- routing-policy-validation-receipt
-- authz-engine-validation-receipt
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
+status: ACTIVE_INVARIANT
+epistemic_class: AMOS_MODEL
+conclusion_class: DERIVED
 rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
+  state: DERIVED
+  claim_class: AMOS_MODEL
+  provenance:
+    - 03_CONTROL_PLANE/CONTROL_PLANE_CONTROL_PLANE_CONTRACT
+    - 01_CANON/01_CORE_LAWS/LAW_HIERARCHY
   scope: authority_governance
+tags:
+  - amos-os
+  - authority
+  - invariant
+  - control-plane
+  - inv-authz-022
 ---
 
-# INV-AUTHZ-022
+# INV-AUTHZ-022 — No Silent Failure
 
-## 0. Status
-Control Plane-plane artifact. AMOS_MODEL · CONDITIONAL · implementation PARTIAL.
+## 1. Formal Specification
 
-## 1. Purpose
-`INV-AUTHZ-022` defines typed artifact specification, serving the Control Plane plane's obligation: governance surfaces that gate effects: task contracts, capability, policy, authority, provenance, semantic transactions, observability, effects, commit, exposure, replay, rollback.
+> **Invariant Statement:**
+> `All failed transactions must emit structured error records explaining the exact violated invariant.`
 
-## 2. Semantics
-- Every load-bearing field is typed; unknown values are recorded as `UNKNOWN/GAP`, never invented.
-- Scope and regime are declared on every claim; cross-regime transfer requires an explicit bridge.
-- Confidence ceiling 0.95; conclusion confidence ≤ weakest load-bearing premise.
+## 2. Invariant Rule & Mathematical Formulation
 
-## 3. Failure modes guarded
-STALE_READ · SCOPE_LEAK · REGIME_DRIFT · CONFIDENCE_INFLATION · AUTHORITY_ESCALATION · PROVENANCE_LOSS · SILENT_PARTIAL_COMMIT · UNKNOWN_AS_VALID.
+Let $\mathcal{F}$ be the set of failed transactions, $\text{ErrorRecord}(f)$ the error record for failure $f$, and $\text{Invariant}(f)$ the violated invariant:
 
-## 4. Validation
-No artifact-specific executor yet; executed OS validators exist as pattern ([[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]). Required tests before promotion: identity, type-contract, negative-case (missing/malformed/stale input), authority boundary, rollback.
+$$\forall f \in \mathcal{F}, \quad \exists r \in \text{ErrorRecords} : \text{Bind}(r, f) \land \text{Specifies}(r, \text{Invariant}(f))$$
 
-## 5. Gaps
-Implementation binding, empirical validation, and cross-artifact consistency checks remain OPEN (UNKNOWN/GAP).
+The error record must be structured and contain minimum required fields:
 
-## 6. Falsifiers
-F1: canonical source contradicts declared semantics. F2: executed test violates a stated invariant. F3: artifact promotes UNKNOWN to PASS.
-## Worked semantics
-Given an operation touching `INV-AUTHZ-022` within the Control Plane plane:
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-2. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-3. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-4. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-5. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-6. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
+$$\text{Valid}(r) \iff \text{TransactionID}(r) \neq \emptyset \land \text{InvariantID}(r) \neq \emptyset \land \text{ErrorDescription}(r) \neq \emptyset \land \text{Timestamp}(r) \neq \emptyset$$
 
-## Promotion-gate checklist
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
+No failure may occur without an error record:
 
-## Cross-plane bindings
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]|AMOS Core Laws · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
-- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
-- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
----
+$$\text{Fail}(T) \implies \exists r : \text{Emitted}(r, T) \land \text{Stored}(r, \text{17\_OBSERVABILITY})$$
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+The error emission is synchronous with the failure:
 
----
-**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+$$\text{Time}(\text{Emit}(r)) \le \text{Time}(\text{Fail}(T)) + \epsilon_{\text{emit}}$$
 
----
-RSCF-NODE
-node_id: cp_03_control_plane_04_authority_inv_authz_022_md
-node_type: note
-path: 03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-022.md
-claim_class: AMOS_MODEL
+where $\epsilon_{\text{emit}} \to 0$.
 
----
-**MOC:** [[03_CONTROL_PLANE/04_AUTHORITY/04_AUTHORITY_MOC|04_AUTHORITY_MOC]]
+## 3. Enforcement & Verification
 
----
-**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+- **Evaluation Point:** Evaluated at the transaction failure handler in the Control Plane. When a transaction fails, the handler must emit a structured error record before returning control to the caller.
+- **Violation Consequence:** If a transaction fails without emitting an error record, the system treats this as a meta-failure. A `SILENT_FAILURE_VIOLATION` receipt is emitted by the meta-failure detector. The transaction is force-rolled back.
+- **Recovery Procedure:** The failed transaction is rolled back using the pre-allocated rollback basin per [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-010|INV-AUTHZ-010]]. The error record guides the recovery procedure by identifying the violated invariant.
+- **Verification Cadence:** Synchronous at every transaction failure. A periodic audit scans for transactions that failed without corresponding error records.
+- **Governed By:** [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE_MOC]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+
+## 4. Attack Vectors & Mitigations
+
+- **Silent Failure Suppression:** An agent suppresses error records to hide failed transactions and their causes. Mitigated by the synchronous emission requirement that forces error record generation before control returns.
+- **Error Record Vagueness:** An agent emits an error record with vague or missing invariant identification. Mitigated by the structured format requirement that mandates specific fields including the invariant ID.
+- **Error Record Loss:** An error record is lost due to storage failure. Mitigated by replicated storage of error records and by the meta-failure detector that identifies missing records.
+- **Error Record Flooding:** An attacker triggers massive numbers of failures to flood the error record storage. Mitigated by rate limiting and by [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-040|INV-AUTHZ-040]] resource exhaustion failsafe.
+
+## 5. Dependencies & Prerequisites
+
+- **Depends On:** [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-010|INV-AUTHZ-010]] — Rollback basin pre-condition ensures failed transactions can be rolled back.
+- **Depends On:** [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-020|INV-AUTHZ-020]] — Audit trail immutability ensures error records cannot be modified after emission.
+- **Depends On:** [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-014|INV-AUTHZ-014]] — Monotonic provenance ledger ensures error records are append-only.
+- **Requires:** A structured error record format with mandatory fields.
+- **Requires:** A synchronous error emission mechanism in the transaction failure handler.
+
+## 6. Provenance & Audit Trail
+
+- **Receipt Type:** `STRUCTURED_ERROR_RECORD` — emitted for every failed transaction, recording the transaction ID, violated invariant, error description, and timestamp.
+- **Storage Location:** `17_OBSERVABILITY` with transaction-ID-indexed and invariant-ID-indexed partitions.
+- **Receipt Fields:** Transaction ID, violated invariant ID, error description, error category, timestamp, agent identity, state hash at failure, BLAKE3 hash.
+- **Immutability:** Error records are append-only per [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-014|INV-AUTHZ-014]] and protected by [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-020|INV-AUTHZ-020]].
+
+## 7. Related Invariants
+
+- [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-009|INV-AUTHZ-009]] — Quarantine on Anomaly
+- [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-010|INV-AUTHZ-010]] — Rollback Basin Pre-condition
+- [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-014|INV-AUTHZ-014]] — Monotonic Provenance Ledger
+- [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-017|INV-AUTHZ-017]] — Fail-Closed on Desync
+- [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-020|INV-AUTHZ-020]] — Audit Trail Immutability
+
+## 8. Navigation & Bindings
+
+- **Control Plane:** [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE_MOC]]
+- **Control Plane Contract:** [[03_CONTROL_PLANE/CONTROL_PLANE_CONTROL_PLANE_CONTRACT|CONTROL_PLANE_CONTRACT]]
+- **Canon Law Hierarchy:** [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- **Kernel:** [[02_KERNEL/02_KERNEL_MOC|02_KERNEL_MOC]]
+- **Observability:** [[17_OBSERVABILITY/17_OBSERVABILITY_MOC|17_OBSERVABILITY_MOC]]

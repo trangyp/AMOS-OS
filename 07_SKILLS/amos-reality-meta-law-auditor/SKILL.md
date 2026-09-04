@@ -4,25 +4,22 @@ title: SKILL — Amos Reality Meta Law Auditor
 type: skill
 source: 07_SKILLS/amos-reality-meta-law-auditor
 name: amos-reality-meta-law-auditor
-description: Reality Meta Law Auditor — audit and repair capability. Use when auditing,
-  failure analysis, gap discovery, or repair allocation. Use when amos-audit-repair-master
-  routes to this specialized capability. Do not use for generic tasks outside audit
-  domain.
+description: Reality Meta Law Auditor — audit and repair capability. Use when auditing, failure analysis, gap discovery, or repair allocation. Use when amos-audit-repair-master routes to this specialized capability. Do not use for generic tasks outside audit domain.
 parent_skill: amos-audit-repair-master
 domain: audit
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
 tags:
-- type/skill
-- type/skill
-- domain/audit-repair
-- epistemic/source_claim
-- hml/m
-- epistemic/source_claim
-- amos-os
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/audit-repair
+  - epistemic/source_claim
+  - hml/m
+  - epistemic/source_claim
+  - amos-os
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -32,25 +29,25 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: M
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
-- L7_authority
-- L22_replayability
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
+  - L7_authority
+  - L22_replayability
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L7
-- L16
-- L17
-- L18
-- L22
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L7
+  - L16
+  - L17
+  - L18
+  - L22
 license: MIT
 steward: Trang Phan
 ---
@@ -60,6 +57,7 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: audit. Parent: amos-audit-repair-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
 ## When to Use
 
 - When auditing claims against evidence and provenance
@@ -80,6 +78,7 @@ Origin architect: **Trang Phan**. Domain: audit. Parent: amos-audit-repair-maste
 - **reality_meta.benchmark_forensics**: Benchmark forensic analysis: trace performance regressions to root causes
 
 > **Reference**: See `references/vault_domain_knowledge.md` (content_hash: 82f89f9854baa4fc) for the full vault-sourced domain knowledge (9344 chars).
+
 - **reality_meta.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
 - **reality_meta.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **reality_meta.validate_outputs**: Validate outputs against domain constraints and epistemic class.
@@ -87,13 +86,13 @@ Origin architect: **Trang Phan**. Domain: audit. Parent: amos-audit-repair-maste
 ## Operations
 
 1. **reality_meta.audit_claim**: Audit claims against evidence, provenance, and epistemic class
-2. **reality_meta.detect_gap**: Detect gaps: missing capabilities, missing evidence, missing tests, missing monitors
-3. **reality_meta.allocate_repair**: Allocate repair resources to highest-leverage gaps and failure modes
-4. **reality_meta.verify_closure**: Verify gap closure: requirement → capability → component → test → evidence
-5. **reality_meta.benchmark_forensics**: Benchmark forensic analysis: trace performance regressions to root causes
-6. **reality_meta.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-7. **reality_meta.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
-8. **reality_meta.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+1. **reality_meta.detect_gap**: Detect gaps: missing capabilities, missing evidence, missing tests, missing monitors
+1. **reality_meta.allocate_repair**: Allocate repair resources to highest-leverage gaps and failure modes
+1. **reality_meta.verify_closure**: Verify gap closure: requirement → capability → component → test → evidence
+1. **reality_meta.benchmark_forensics**: Benchmark forensic analysis: trace performance regressions to root causes
+1. **reality_meta.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+1. **reality_meta.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+1. **reality_meta.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## 11_KNOWLEDGE Vault Content
 
@@ -105,29 +104,33 @@ Origin architect: **Trang Phan**. Domain: audit. Parent: amos-audit-repair-maste
 From C01 Meta Logic: 5 meta-laws as the foundation for reality auditing. From Cognitive Organism OS: Reality Gate as L0 cognitive substrate.
 
 **5 Meta-laws for reality auditing**:
+
 1. **Law of Law**: no unresolved contradictions within the system
-2. **Rule of 2**: at least 2 independent supports for any claim
-3. **Rule of 4**: check 4 dimensions: scope, regime, evidence, falsifier
-4. **Signal Fidelity Preservation**: no loss of signal fidelity through processing
-5. **Structural Integrity**: system structure must be maintained under stress
+1. **Rule of 2**: at least 2 independent supports for any claim
+1. **Rule of 4**: check 4 dimensions: scope, regime, evidence, falsifier
+1. **Signal Fidelity Preservation**: no loss of signal fidelity through processing
+1. **Structural Integrity**: system structure must be maintained under stress
 
 **Reality auditing protocol**:
+
 1. **Check contradictions**: verify no unresolved contradictions (Law of Law)
-2. **Check independence**: verify at least 2 independent supports (Rule of 2)
-3. **Check 4 dimensions**: verify scope, regime, evidence, falsifier (Rule of 4)
-4. **Check signal fidelity**: verify no signal fidelity loss
-5. **Check structural integrity**: verify structure maintained under stress
-6. **Report**: report with audit outcome and provenance
+1. **Check independence**: verify at least 2 independent supports (Rule of 2)
+1. **Check 4 dimensions**: verify scope, regime, evidence, falsifier (Rule of 4)
+1. **Check signal fidelity**: verify no signal fidelity loss
+1. **Check structural integrity**: verify structure maintained under stress
+1. **Report**: report with audit outcome and provenance
 
 **Reality Gate (L0)**:
+
 - **Perception-as-science-substrate filter**: perceptions filtered through science substrate
 - **Anti-autopoisoning**: system cannot poison its own perception
 - **Reality check**: every observation must pass reality check
 
 **Auditing laws**:
+
 - `AUDIT != PROOF`: auditing checks declared properties; it does not prove truth
-- `META-LAW != LAW**: meta-laws govern laws; they are not laws themselves
-- `REALITY != PERCEPTION**: reality is independent of observation; perception is interpretation
+- \`META-LAW != LAW\*\*: meta-laws govern laws; they are not laws themselves
+- \`REALITY != PERCEPTION\*\*: reality is independent of observation; perception is interpretation
 
 ### Epistemic Boundary
 
@@ -141,7 +144,8 @@ Reality meta-law auditing is an epistemic governance construct. It does not prov
 - **Validation failure**: If validation gates fail, downgrade confidence, flag the gap, and escalate — do not force-fit.
 - **Epistemic overreach**: If a claim exceeds the established evidence or epistemic class, retrac
 
----
+______________________________________________________________________
+
 **Links:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 ## Related
@@ -151,17 +155,19 @@ Reality meta-law auditing is an epistemic governance construct. It does not prov
 ## Examples
 
 - **Scenario**: When auditing claims against evidence and provenance
+
   - **Input**: A query matching this skill's domain (audit)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When detecting gaps in capabilities, evidence, tests, or monitors
+
   - **Input**: A query matching this skill's domain (audit)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When allocating repair resources to highest-leverage gaps
+
   - **Input**: A query matching this skill's domain (audit)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Validation Gates
 
@@ -178,7 +184,6 @@ Reality meta-law auditing is an epistemic governance construct. It does not prov
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `amos-audit-repair-master` — routes to this skill when audit specialization is needed
@@ -186,7 +191,6 @@ Reality meta-law auditing is an epistemic governance construct. It does not prov
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -205,7 +209,6 @@ Reality meta-law auditing is an epistemic governance construct. It does not prov
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -213,7 +216,6 @@ Reality meta-law auditing is an epistemic governance construct. It does not prov
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -226,11 +228,12 @@ Reality meta-law auditing is an epistemic governance construct. It does not prov
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `amos-audit-repair-master` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `amos-reality-meta-law-auditor-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -238,12 +241,14 @@ Reality meta-law auditing is an epistemic governance construct. It does not prov
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-reality-meta-law-auditor
 node_type: skill
 path: 07_SKILLS/amos-reality-meta-law-auditor/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

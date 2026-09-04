@@ -1,11 +1,14 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Amos-7-Part-Universe-Canon MOC
 type: moc
 source: 07_SKILLS/amos-7-part-universe-canon
 tags:
-- type/skill
-- skill
-- references
+  - type/skill
+  - skill
+  - references
 moc: true
 rscf:
   state: DERIVED
@@ -21,18 +24,23 @@ rscf:
 
 ## Files
 
+- [[07_SKILLS/amos-7-part-universe-canon/references|references]]
+
 - SKILL
 - references
 
 ## Subdirectories
 
-- references_MOC — references
+- [[07_SKILLS/amos-7-part-universe-canon/references/references_MOC|references_MOC]] — references
 
----
----
-**References MOC:** [[07_SKILLS/spreadsheets/references/references_MOC|references_MOC]]
+______________________________________________________________________
 
----
+______________________________________________________________________
+
+**References MOC:** [[07_SKILLS/amos-7-part-universe-canon/references/references_MOC|references_MOC]]
+
+______________________________________________________________________
+
 **Skill:** [[07_SKILLS/amos-7-part-universe-canon/SKILL|SKILL]]
 
 **References:** [[07_SKILLS/amos-7-part-universe-canon/references/references_MOC|references]]

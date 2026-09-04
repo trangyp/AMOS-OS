@@ -1,18 +1,21 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: L01 SENSING OBSERVATION PRIMITIVES COGNITIVE MATRIX DEFINITION
 type: definition
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION
 tags:
-- amos
-- cognitive-matrix
-- matrix/l01
-- sensing
-- observation
-- cognitive-primitive
-- epistemics
-- provenance
-- rscf
-- domain/cognitive-matrix
+  - amos
+  - cognitive-matrix
+  - matrix/l01
+  - sensing
+  - observation
+  - cognitive-primitive
+  - epistemics
+  - provenance
+  - rscf
+  - domain/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -32,9 +35,9 @@ rscf:
 
 > **Canon boundary:** The supplied placeholder establishes that `L01_SENSING_OBSERVATION` is an addressable AMOS cognitive primitive and specifies the required completion surface. It does not, by itself, establish a complete canonical definition or an implemented sensing runtime. The contract below conservatively defines the primitive using the supplied L00/L01 structure and AMOS evidence, provenance, epistemic, H/M/L, RSCF, and control-plane principles. Direct source-canon claims remain bounded by available evidence.
 
----
+______________________________________________________________________
 
-# 0. Purpose
+## 0. Purpose
 
 `L01_SENSING_OBSERVATION` defines the AMOS primitive responsible for acquiring, representing, typing, and preserving observations of an addressable environment before higher-order interpretation, inference, prediction, memory consolidation, decision, or action.
 
@@ -75,22 +78,22 @@ L01 owns the sensing/observation boundary.
 
 It does not automatically own the truth of the world beyond that boundary.
 
----
+______________________________________________________________________
 
-# 1. Core Definition
+## 1. Core Definition
 
 `L01_SENSING_OBSERVATION` is the AMOS cognitive primitive that converts an authorized, bounded interaction with an environment or evidence source into a typed observation carrying sufficient context, provenance, uncertainty, temporal identity, scope, and regime information for downstream reasoning.
 
 Canonical model:
 
-[
-\boxed{
+\[
+\\boxed{
 L01:
 (E,A,C,M,Q,T,R,G)
-\rightarrow
+\\rightarrow
 O
 }
-]
+\]
 
 where:
 
@@ -110,10 +113,7 @@ An observation is therefore not merely a value.
 
 It is a structured relation:
 
-[
-\boxed{
-O
-=
+## \[ \\boxed{ O
 
 Observed(
 Observer,
@@ -128,49 +128,49 @@ Provenance,
 Uncertainty
 )
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 2. Foundational Distinction
+## 2. Foundational Distinction
 
 The primitive must preserve:
 
-[
-\boxed{
+\[
+\\boxed{
 EnvironmentState
-\neq
+\\neq
 Observation
 }
-]
+\]
 
 and:
 
-[
-\boxed{
+\[
+\\boxed{
 Observation
-\neq
+\\neq
 Interpretation
 }
-]
+\]
 
 and:
 
-[
-\boxed{
+\[
+\\boxed{
 Observation
-\neq
+\\neq
 GroundTruth
 }
-]
+\]
 
 An observation is evidence about an environment state under a particular sensing relationship.
 
 It is not the environment itself.
 
----
+______________________________________________________________________
 
-# 3. Epistemic Position
+## 3. Epistemic Position
 
 L01 sits between reality/environment and cognition.
 
@@ -202,9 +202,9 @@ MODEL OF OBSERVATION
 BELIEF ABOUT WORLD
 ```
 
----
+______________________________________________________________________
 
-# 4. Scope
+## 4. Scope
 
 L01 includes:
 
@@ -278,9 +278,9 @@ truth certification
 
 Those functions belong to downstream or cross-cutting AMOS layers unless direct canon specifies otherwise.
 
----
+______________________________________________________________________
 
-# 5. Observation Object
+## 5. Observation Object
 
 The minimum conceptual observation object is:
 
@@ -328,9 +328,9 @@ OBSERVATION:
   admission_state:
 ```
 
----
+______________________________________________________________________
 
-# 6. Typed Inputs
+## 6. Typed Inputs
 
 Candidate typed inputs:
 
@@ -380,9 +380,9 @@ L01_INPUT:
     type: TASK_CONTRACT
 ```
 
----
+______________________________________________________________________
 
-# 7. Typed Outputs
+## 7. Typed Outputs
 
 Primary outputs:
 
@@ -444,18 +444,15 @@ REVOKED
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 8. Observation Tensor
+## 8. Observation Tensor
 
 A generalized L01 tensor may be represented as:
 
-[
-\boxed{
-T_{L01}
-=======
+## \[ \\boxed{ T\_{L01}
 
-T[
+T\[
 observation,
 target,
 observer,
@@ -472,25 +469,23 @@ quality,
 uncertainty,
 provenance,
 validation
-]
+\]
 }
-]
+\]
 
 This is an AMOS structural model.
 
 It is not asserted as established measurement theory.
 
----
+______________________________________________________________________
 
-# 9. Evidence Tensor Compatibility
+## 9. Evidence Tensor Compatibility
 
 L01 observations should map into the wider evidence structure:
 
-[
-T_E
-===
+## \[ T_E
 
-T[
+T\[
 evidence_id,
 source_id,
 source_type,
@@ -503,22 +498,22 @@ measurement,
 quality,
 independence,
 revocation_state
-]
-]
+\]
+\]
 
 Conceptually:
 
-[
+\[
 Observation
-\rightarrow
+\\rightarrow
 EvidenceCandidate
-]
+\]
 
 only after evidence typing requirements are satisfied.
 
----
+______________________________________________________________________
 
-# 10. State Variables
+## 10. State Variables
 
 ```text
 S_env        environment reference state
@@ -564,31 +559,31 @@ S_fail       failure state
 S_repair     repair state
 ```
 
----
+______________________________________________________________________
 
-# 11. State Transition
+## 11. State Transition
 
 A candidate observation lifecycle is:
 
-[
-\boxed{
+\[
+\\boxed{
 REQUESTED
-\rightarrow
+\\rightarrow
 AUTHORIZED
-\rightarrow
+\\rightarrow
 ACQUIRING
-\rightarrow
+\\rightarrow
 RAW
-\rightarrow
+\\rightarrow
 TYPED
-\rightarrow
+\\rightarrow
 PROVENANCE_BOUND
-\rightarrow
+\\rightarrow
 VALIDATED
-\rightarrow
+\\rightarrow
 ADMITTED
 }
-]
+\]
 
 Alternative branches include:
 
@@ -612,9 +607,9 @@ ADMITTED
 → REVOKED
 ```
 
----
+______________________________________________________________________
 
-# 12. Operators
+## 12. Operators
 
 Candidate L01 operators:
 
@@ -674,49 +669,41 @@ REVOKE
 REPAIR
 ```
 
----
+______________________________________________________________________
 
-# 13. Primitive Operator
+## 13. Primitive Operator
 
 The core sensing operator may be represented as:
 
-[
-\boxed{
-\mathcal{S}(E,A,C,M,t)
-======================
+## \[ \\boxed{ \\mathcal{S}(E,A,C,M,t)
 
 O
 }
-]
+\]
 
 This does not imply perfect observation.
 
 A more realistic structural form is:
 
-[
-\boxed{
-O
-=
+## \[ \\boxed{ O
 
-\mathcal{S}(E,A,C,M,t)
-+
-\epsilon
+\\mathcal{S}(E,A,C,M,t)
+\+
+\\epsilon
 }
-]
+\]
 
-where (\epsilon) represents unresolved observation error, noise, distortion, missingness, or modelled uncertainty.
+where (\\epsilon) represents unresolved observation error, noise, distortion, missingness, or modelled uncertainty.
 
 This is a generic AMOS model, not a universal physical measurement equation.
 
----
+______________________________________________________________________
 
-# 14. Observation Fidelity
+## 14. Observation Fidelity
 
 Candidate structural fidelity:
 
-[
-F_O
-===
+## \[ F_O
 
 f(
 Resolution,
@@ -726,39 +713,39 @@ Coverage,
 Freshness,
 MethodFit
 )
-]
+\]
 
 with:
 
-[
-0 \leq F_O \leq 1
-]
+\[
+0 \\leq F_O \\leq 1
+\]
 
 only where the component measures themselves are operationally defined.
 
 A numerical fidelity score must not be fabricated merely because the equation exists.
 
----
+______________________________________________________________________
 
-# 15. Core Invariants
+## 15. Core Invariants
 
 ## L01-I01 — Reality / Observation Separation
 
-[
-Environment \neq Observation
-]
+\[
+Environment \\neq Observation
+\]
 
 ## L01-I02 — Observation / Interpretation Separation
 
-[
-Observation \neq Interpretation
-]
+\[
+Observation \\neq Interpretation
+\]
 
 ## L01-I03 — Observation / Truth Separation
 
-[
-Observation \neq GroundTruth
-]
+\[
+Observation \\neq GroundTruth
+\]
 
 ## L01-I04 — Raw / Validated Separation
 
@@ -836,30 +823,30 @@ Observer-specific measurement conditions remain attached where relevant.
 
 AMOS model reconstruction is not silently promoted to source canon.
 
----
+______________________________________________________________________
 
-# 16. Observation Availability
+## 16. Observation Availability
 
 Define:
 
-[
-A_{obs}
-\in
+\[
+A\_{obs}
+\\in
 {
 AVAILABLE,
 PARTIAL,
 UNAVAILABLE,
 UNKNOWN
 }
-]
+\]
 
 Hard rule:
 
-[
-A_{obs}=UNAVAILABLE
-\Rightarrow
+\[
+A\_{obs}=UNAVAILABLE
+\\Rightarrow
 NoFabricatedObservation
-]
+\]
 
 Therefore:
 
@@ -877,9 +864,9 @@ NOT OBSERVED
 FALSE
 ```
 
----
+______________________________________________________________________
 
-# 17. Missingness
+## 17. Missingness
 
 Candidate missingness classes:
 
@@ -909,49 +896,47 @@ UNKNOWN_CAUSE
 
 Missingness itself should be typed evidence.
 
----
+______________________________________________________________________
 
-# 18. Temporal Coordinates
+## 18. Temporal Coordinates
 
 L01 should distinguish:
 
-[
-t_e = event\ time
-]
+\[
+t_e = event\\ time
+\]
 
-[
-t_o = observation\ time
-]
+\[
+t_o = observation\\ time
+\]
 
-[
-t_r = retrieval\ time
-]
+\[
+t_r = retrieval\\ time
+\]
 
 These may differ:
 
-[
-t_e \neq t_o \neq t_r
-]
+\[
+t_e \\neq t_o \\neq t_r
+\]
 
 Failure to preserve this distinction can create timestamp leakage or stale-state errors.
 
----
+______________________________________________________________________
 
-# 19. Freshness
+## 19. Freshness
 
 Observation freshness is contextual.
 
-[
-Fresh(O,q)
-==========
+## \[ Fresh(O,q)
 
 f(
-t_{now}-t_o,
+t\_{now}-t_o,
 EnvironmentChangeRate,
 DecisionHorizon,
 Regime
 )
-]
+\]
 
 Possible states:
 
@@ -967,9 +952,9 @@ UNKNOWN
 
 Freshness is not equivalent to truth.
 
----
+______________________________________________________________________
 
-# 20. Resolution
+## 20. Resolution
 
 Observation resolution may include:
 
@@ -991,9 +976,7 @@ H/M/L scale resolution
 
 Candidate structure:
 
-[
-R_O
-===
+## \[ R_O
 
 (
 R_t,
@@ -1001,22 +984,20 @@ R_s,
 R_m,
 R_h
 )
-]
+\]
 
 where the components are defined by the relevant sensing domain.
 
----
+______________________________________________________________________
 
-# 21. Observer Model
+## 21. Observer Model
 
 An observation should preserve the observer relationship:
 
-[
-O
-=
+## \[ O
 
-O(E \mid A,C,M)
-]
+O(E \\mid A,C,M)
+\]
 
 This means the same environment may produce different observations under:
 
@@ -1038,9 +1019,9 @@ different preprocessing
 
 Different observations do not automatically imply different realities.
 
----
+______________________________________________________________________
 
-# 22. Observation Channel
+## 22. Observation Channel
 
 Candidate channels include:
 
@@ -1080,32 +1061,30 @@ MULTIMODAL
 
 Channel availability must be explicit.
 
----
+______________________________________________________________________
 
-# 23. Multimodal Observation
+## 23. Multimodal Observation
 
-For modalities (m_1,\ldots,m_n):
+For modalities (m_1,\\ldots,m_n):
 
-[
-O
-=
+## \[ O
 
-{O_{m_1},O_{m_2},...,O_{m_n}}
-]
+{O\_{m_1},O\_{m_2},...,O\_{m_n}}
+\]
 
 Fusion should not occur before compatibility checks.
 
-[
+\[
 Compatible(O_i,O_j)=FALSE
-\Rightarrow
+\\Rightarrow
 DoNotCollapse(O_i,O_j)
-]
+\]
 
 Conflicting modalities may remain `COMPETING`.
 
----
+______________________________________________________________________
 
-# 24. Provenance
+## 24. Provenance
 
 Minimum provenance should preserve:
 
@@ -1177,9 +1156,9 @@ OBSERVATION_PROVENANCE:
   hashes: []
 ```
 
----
+______________________________________________________________________
 
-# 25. Provenance Topology
+## 25. Provenance Topology
 
 Multiple observation artifacts may descend from one source.
 
@@ -1196,17 +1175,17 @@ SOURCE_A
 
 Therefore:
 
-[
-3\ artifacts
-\neq
-3\ independent\ observations
-]
+\[
+3\\ artifacts
+\\neq
+3\\ independent\\ observations
+\]
 
 Independence must be established rather than assumed.
 
----
+______________________________________________________________________
 
-# 26. Evidence Classification
+## 26. Evidence Classification
 
 L01 outputs should distinguish:
 
@@ -1242,9 +1221,9 @@ predicted future reading
 
 These classes must not collapse into one another.
 
----
+______________________________________________________________________
 
-# 27. Observation vs Source Claim
+## 27. Observation vs Source Claim
 
 Reading a source may produce two distinct objects:
 
@@ -1260,15 +1239,15 @@ The first can be supported by inspecting the document.
 
 The second requires independent epistemic validation appropriate to the claim.
 
----
+______________________________________________________________________
 
-# 28. Observation vs Derived State
+## 28. Observation vs Derived State
 
 If:
 
-[
+\[
 D=f(O_1,O_2,...,O_n)
-]
+\]
 
 then:
 
@@ -1284,47 +1263,47 @@ D = OBSERVATION
 
 unless independently measured.
 
----
+______________________________________________________________________
 
-# 29. Observation vs Prediction
+## 29. Observation vs Prediction
 
-[
-Prediction_{t+1}
-\neq
+\[
+Prediction\_{t+1}
+\\neq
 Observation_t
-]
+\]
 
 Even a highly calibrated prediction remains a model output until the predicted event is observed.
 
----
+______________________________________________________________________
 
-# 30. Observation vs Memory
+## 30. Observation vs Memory
 
-[
+\[
 Memory(O_t)
-\neq
-Observation_{now}
-]
+\\neq
+Observation\_{now}
+\]
 
 Memory may preserve an earlier observation.
 
 It does not refresh its timestamp merely by retrieval.
 
----
+______________________________________________________________________
 
-# 31. Observation vs Simulation
+## 31. Observation vs Simulation
 
-[
+\[
 Simulation(E)
-\neq
+\\neq
 Observation(E)
-]
+\]
 
 A digital twin, simulation, synthetic dataset, or counterfactual may approximate or model reality but must retain its representation class.
 
----
+______________________________________________________________________
 
-# 32. Quality
+## 32. Quality
 
 Candidate observation-quality dimensions:
 
@@ -1354,14 +1333,11 @@ provenance integrity
 
 A composite quality score should only be used if its weighting and measurement semantics are defined.
 
----
+______________________________________________________________________
 
-# 33. Uncertainty Vector
+## 33. Uncertainty Vector
 
-[
-\boxed{
-U_{L01}
-=======
+## \[ \\boxed{ U\_{L01}
 
 (
 U_m,
@@ -1374,7 +1350,7 @@ U_c,
 U_x
 )
 }
-]
+\]
 
 where:
 
@@ -1396,17 +1372,17 @@ U_c = channel/modality uncertainty
 U_x = execution uncertainty
 ```
 
----
+______________________________________________________________________
 
-# 34. Confidence Ceiling
+## 34. Confidence Ceiling
 
 Observation confidence must not exceed the weakest load-bearing component.
 
-[
-\boxed{
+\[
+\\boxed{
 Conf(O)
-\le
-\min(
+\\le
+\\min(
 Q,
 P,
 F,
@@ -1416,7 +1392,7 @@ M,
 V
 )
 }
-]
+\]
 
 where:
 
@@ -1438,9 +1414,9 @@ V = validation integrity
 
 Unknown critical terms constrain confidence.
 
----
+______________________________________________________________________
 
-# 35. H/M/L Applicability
+## 35. H/M/L Applicability
 
 ## H — High/System Scale
 
@@ -1506,33 +1482,33 @@ single database record
 single event
 ```
 
----
+______________________________________________________________________
 
-# 36. Cross-Scale Rule
+## 36. Cross-Scale Rule
 
-[
+\[
 O_L
-\not\Rightarrow
+\\not\\Rightarrow
 State_H
-]
+\]
 
 unless a validated aggregation mapping exists.
 
 Likewise:
 
-[
+\[
 O_H
-\not\Rightarrow
+\\not\\Rightarrow
 State_L
-]
+\]
 
 without appropriate decomposition evidence.
 
 Cross-scale mappings remain explicit.
 
----
+______________________________________________________________________
 
-# 37. Dependencies
+## 37. Dependencies
 
 ```yaml
 dependencies:
@@ -1585,9 +1561,9 @@ dependencies:
 
 Exact downstream primitive identifiers remain source-gap bounded unless established elsewhere in canon.
 
----
+______________________________________________________________________
 
-# 38. Control-Plane Requirements
+## 38. Control-Plane Requirements
 
 L01 sensing should be governed by:
 
@@ -1621,17 +1597,17 @@ COMMIT-TIME REVALIDATION
 
 Hard boundary:
 
-[
+\[
 Capability
-\neq
+\\neq
 Authority
-]
+\]
 
 A sensor or tool being technically callable does not mean the observing agent is authorized to use it.
 
----
+______________________________________________________________________
 
-# 39. Control-Plane Flow
+## 39. Control-Plane Flow
 
 ```text
 OBSERVATION INTENT
@@ -1659,9 +1635,9 @@ CONTROL-PLANE CHECK
 ADMIT / QUARANTINE / REJECT / REOBSERVE
 ```
 
----
+______________________________________________________________________
 
-# 40. Agents
+## 40. Agents
 
 Candidate L01 agent roles:
 
@@ -1705,9 +1681,9 @@ These are architectural roles.
 
 They are not claims of deployed agents.
 
----
+______________________________________________________________________
 
-# 41. Agent Authority Boundary
+## 41. Agent Authority Boundary
 
 Agents may:
 
@@ -1747,9 +1723,9 @@ commit durable trusted state without governance
 expand scope beyond authorization
 ```
 
----
+______________________________________________________________________
 
-# 42. Skills
+## 42. Skills
 
 Candidate supporting skills include:
 
@@ -1783,9 +1759,9 @@ Skill availability does not prove execution.
 
 Skill execution does not confer authority.
 
----
+______________________________________________________________________
 
-# 43. Workflows
+## 43. Workflows
 
 Candidate L01 workflows:
 
@@ -1827,9 +1803,9 @@ REPAIR_OBSERVATION_STATE
 REVOKE_OBSERVATION
 ```
 
----
+______________________________________________________________________
 
-# 44. Primary Workflow
+## 44. Primary Workflow
 
 ```text
 DEFINE TARGET
@@ -1867,9 +1843,9 @@ VALIDATE
 ADMIT / QUARANTINE / REOBSERVE
 ```
 
----
+______________________________________________________________________
 
-# 45. Protocols
+## 45. Protocols
 
 Candidate protocol objects:
 
@@ -1911,9 +1887,9 @@ ReobservationRequest
 RevocationEvent
 ```
 
----
+______________________________________________________________________
 
-# 46. Protocol Minimum Fields
+## 46. Protocol Minimum Fields
 
 Every consequential observation transfer should preserve where applicable:
 
@@ -1949,9 +1925,9 @@ provenance
 validation state
 ```
 
----
+______________________________________________________________________
 
-# 47. Evidence / Provenance Requirements
+## 47. Evidence / Provenance Requirements
 
 Trusted L01 observations should provide enough evidence to answer:
 
@@ -1991,46 +1967,43 @@ UNKNOWN/GAP
 
 must remain visible.
 
----
+______________________________________________________________________
 
-# 48. Observation Admission
+## 48. Observation Admission
 
 Candidate admission rule:
 
-[
-\boxed{
-Admit(O)
-========
+## \[ \\boxed{ Admit(O)
 
 TypeValid
-\land
+\\land
 AuthorityValid
-\land
+\\land
 ScopeValid
-\land
+\\land
 ProvenanceValid
-\land
+\\land
 QualitySufficient
-\land
+\\land
 FreshnessSufficient
-\land
+\\land
 NoBlockingConflict
 }
-]
+\]
 
 where each predicate must be operationally defined for the relevant environment.
 
 This is an AMOS governance model, not a universal empirical law.
 
----
+______________________________________________________________________
 
-# 49. Conflict Handling
+## 49. Conflict Handling
 
 If:
 
-[
-O_1 \neq O_2
-]
+\[
+O_1 \\neq O_2
+\]
 
 the system should test:
 
@@ -2058,9 +2031,9 @@ genuine environmental change?
 
 before declaring contradiction.
 
----
+______________________________________________________________________
 
-# 50. Competing Observations
+## 50. Competing Observations
 
 Where incompatible observations remain comparably supported:
 
@@ -2085,9 +2058,9 @@ competing:
     reobserve target using an independent channel
 ```
 
----
+______________________________________________________________________
 
-# 51. Reobservation
+## 51. Reobservation
 
 Reobservation is appropriate when:
 
@@ -2113,9 +2086,9 @@ measurement failed
 critical value is missing
 ```
 
----
+______________________________________________________________________
 
-# 52. Failure Modes
+## 52. Failure Modes
 
 ## L01-F01 — Hallucinated Observation
 
@@ -2197,9 +2170,9 @@ Agent's observation proposal becomes trusted state automatically.
 
 Model reconstruction is represented as recovered source canon.
 
----
+______________________________________________________________________
 
-# 53. Repair / Recovery
+## 53. Repair / Recovery
 
 Generic L01 repair flow:
 
@@ -2229,31 +2202,31 @@ REVALIDATE
 RESTORE / QUARANTINE / REJECT
 ```
 
----
+______________________________________________________________________
 
-# 54. Selective Invalidation
+## 54. Selective Invalidation
 
-If observation \(O_i\) fails:
+If observation (O_i) fails:
 
-[
+\[
 Failure(O_i)
-\Rightarrow
+\\Rightarrow
 Invalidate(Desc(O_i))
-]
+\]
 
 not:
 
-[
+\[
 Failure(O_i)
-\Rightarrow
+\\Rightarrow
 Invalidate(AllKnowledge)
-]
+\]
 
 Unaffected evidence remains reusable where its own dependencies remain valid.
 
----
+______________________________________________________________________
 
-# 55. Repair Principles
+## 55. Repair Principles
 
 ```text
 repair cause before symptom
@@ -2273,9 +2246,9 @@ preserve competing evidence
 restore only after validation
 ```
 
----
+______________________________________________________________________
 
-# 56. Tests / Validators
+## 56. Tests / Validators
 
 Candidate validators:
 
@@ -2319,9 +2292,9 @@ VALIDATOR_AUTHORITY
 VALIDATOR_ADMISSION
 ```
 
----
+______________________________________________________________________
 
-# 57. Minimum Tests
+## 57. Minimum Tests
 
 ```text
 TEST_L01_001
@@ -2400,9 +2373,9 @@ TEST_L01_025
 model-derived definition cannot be labeled implemented without evidence
 ```
 
----
+______________________________________________________________________
 
-# 58. Adversarial Tests
+## 58. Adversarial Tests
 
 Test L01 against:
 
@@ -2448,9 +2421,9 @@ observer bias hidden from metadata
 corrupted measurement presented as valid
 ```
 
----
+______________________________________________________________________
 
-# 59. Falsifiers
+## 59. Falsifiers
 
 This contract fails if an implementation permits:
 
@@ -2494,9 +2467,9 @@ failed observations to leave dependent conclusions trusted
 model architecture to be represented as implemented canon
 ```
 
----
+______________________________________________________________________
 
-# 60. Source / Canon References
+## 60. Source / Canon References
 
 Current source classes supporting this reconstruction include:
 
@@ -2534,9 +2507,9 @@ SOURCE FAMILY SUPPORT
 DIRECT CANON PROOF
 ```
 
----
+______________________________________________________________________
 
-# 61. Gap Matrix
+## 61. Gap Matrix
 
 ```yaml
 gap_status:
@@ -2573,9 +2546,9 @@ gap_status:
     - tensor symbol choices
 ```
 
----
+______________________________________________________________________
 
-# 62. Hard Boundaries
+## 62. Hard Boundaries
 
 ```text
 PLACEHOLDER != IMPLEMENTED
@@ -2629,9 +2602,9 @@ MODEL != IMPLEMENTATION
 IMPLEMENTATION != VALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 63. RSCF Completion Capsule
+## 63. RSCF Completion Capsule
 
 ```yaml
 rscf:
@@ -2712,9 +2685,9 @@ rscf:
     and executed validation remain unresolved
 ```
 
----
+______________________________________________________________________
 
-# 64. Completion State
+## 64. Completion State
 
 ```yaml
 completion_state:
@@ -2795,77 +2768,77 @@ completion_state:
     MODEL / CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
-# 65. Final Definition
+## 65. Final Definition
 
 `L01_SENSING_OBSERVATION` is the AMOS cognitive primitive responsible for establishing the first governed informational contact between an addressable environment and downstream cognition.
 
 Its minimum structural relation is:
 
-[
-\boxed{
+\[
+\\boxed{
 Environment
-\xrightarrow{Sensing}
+\\xrightarrow{Sensing}
 Observation
 }
-]
+\]
 
 Its epistemic boundary is:
 
-[
-\boxed{
+\[
+\\boxed{
 Reality
-\neq
+\\neq
 Observation
-\neq
+\\neq
 Interpretation
-\neq
+\\neq
 Inference
 }
-]
+\]
 
 Its evidence boundary is:
 
-[
-\boxed{
+\[
+\\boxed{
 RawObservation
-\neq
+\\neq
 ValidatedObservation
-\neq
+\\neq
 GroundTruth
 }
-]
+\]
 
 Its governance boundary is:
 
-[
-\boxed{
+\[
+\\boxed{
 Capability
-\neq
+\\neq
 Authority
 }
-]
+\]
 
 and:
 
-[
-\boxed{
+\[
+\\boxed{
 Proposal
-\neq
+\\neq
 Commit
 }
-]
+\]
 
 Its uncertainty boundary is:
 
-[
-\boxed{
+\[
+\\boxed{
 CriticalUnknown
-\Rightarrow
+\\Rightarrow
 UNKNOWN/GAP
 }
-]
+\]
 
 Every trusted observation should remain bound, where materially applicable, to:
 
@@ -2929,29 +2902,33 @@ Until direct authoritative L01 canon and executable validation evidence establis
 MODEL / CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · L01_SENSING_OBSERVATION — HML · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · L01_SENSING_OBSERVATION — RSCF · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[00_ROOT/00_HOME|00_HOME]] · 06-Knowledge-Base-MOC
 
 ```
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: l01_sensing_observation_primitives_cognitive_matrix_definition
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_DEFINITION.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_MOC|L01_SENSING_OBSERVATION_MOC]]

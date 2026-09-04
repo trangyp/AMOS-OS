@@ -12,17 +12,17 @@ segment: 25_COGNITIVE_MATRIX
 artifact_kind: MATRIX
 path: 25_COGNITIVE_MATRIX/CANON_X_KNOWLEDGE.md
 tags:
-- amos-os
-- cognitive-matrix
-- canon_x_knowledge
-- structural_review
-- epistemic_boundary
-- provenance
-- rscf
-- canon/matrix
-- validation
-- law/L19-proof-capsule
-- canon
+  - amos-os
+  - cognitive-matrix
+  - canon_x_knowledge
+  - structural_review
+  - epistemic_boundary
+  - provenance
+  - rscf
+  - canon/matrix
+  - validation
+  - law/L19-proof-capsule
+  - canon
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -67,7 +67,7 @@ the knowledge object
 
 I would strengthen the artifact with the following core contract:
 
-```markdown
+````markdown
 # 4. Canon × Knowledge Governing Law
 
 The Canon × Knowledge matrix binds applicable canonical constraints
@@ -109,7 +109,7 @@ VERIFIED
 CANONICAL
 !=
 EMPIRICAL_TRUTH
-```
+````
 
 The governing relationship is:
 
@@ -121,10 +121,10 @@ $$
 
 where:
 
-* \(K\) is a knowledge object;
-* \(C_{applicable}\) is the smallest applicable canonical constraint set;
-* `Gate` evaluates structural admissibility;
-* the expression is an AMOS model, not an empirical equation.
+- (K) is a knowledge object;
+- (C\_{applicable}) is the smallest applicable canonical constraint set;
+- `Gate` evaluates structural admissibility;
+- the expression is an AMOS model, not an empirical equation.
 
 A successful gate establishes only the status represented by that
 specific gate.
@@ -139,9 +139,9 @@ COMPLIANT → TRUE
 PROPOSAL → COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 5. Directionality
+## 5. Directionality
 
 The primary governing direction is:
 
@@ -182,9 +182,9 @@ DOES NOT
 SILENTLY REWRITE CANON
 ```
 
----
+______________________________________________________________________
 
-# 6. Applicability Resolution
+## 6. Applicability Resolution
 
 Not every canonical law governs every knowledge object.
 
@@ -213,9 +213,9 @@ UNKNOWN/GAP
 
 rather than assumed compliance.
 
----
+______________________________________________________________________
 
-# 7. Knowledge Object Typing
+## 7. Knowledge Object Typing
 
 Knowledge-plane objects SHOULD remain typed as applicable:
 
@@ -232,9 +232,9 @@ UNKNOWN/GAP
 
 Canon evaluation MUST preserve those epistemic distinctions.
 
----
+______________________________________________________________________
 
-# 8. Compliance Gate
+## 8. Compliance Gate
 
 Conceptually:
 
@@ -278,9 +278,9 @@ Canon_Knowledge_Gate:
     - REJECT
 ```
 
----
+______________________________________________________________________
 
-# 9. Confidence Ceiling
+## 9. Confidence Ceiling
 
 Passing canonical constraints cannot raise a knowledge object's
 confidence beyond its evidence.
@@ -301,9 +301,9 @@ CANON COMPLIANCE
 EVIDENCE AMPLIFICATION
 ```
 
----
+______________________________________________________________________
 
-# 10. Contradiction Handling
+## 10. Contradiction Handling
 
 If knowledge conflicts with canon, the matrix MUST first determine
 the conflict type:
@@ -346,9 +346,9 @@ OPEN CANON-EVOLUTION PROPOSAL
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 11. Provenance Firewall
+## 11. Provenance Firewall
 
 Canon and knowledge provenance MUST remain distinguishable.
 
@@ -376,9 +376,9 @@ CANON A
 
 does not create independent validation.
 
----
+______________________________________________________________________
 
-# 12. Dynamic Compliance Boundary
+## 12. Dynamic Compliance Boundary
 
 The phrase:
 
@@ -409,9 +409,9 @@ VALIDATED GATE
 
 No runtime enforcement may be inferred from this matrix specification.
 
----
+______________________________________________________________________
 
-# 13. Matrix Integrity Invariant
+## 13. Matrix Integrity Invariant
 
 The central matrix invariant is:
 
@@ -433,9 +433,9 @@ PROMOTION REQUIRES
 AN EXPLICIT GOVERNED TRANSITION
 ```
 
----
+______________________________________________________________________
 
-# 14. RSCF Contract
+## 14. RSCF Contract
 
 ```yaml
 RSCF:
@@ -497,40 +497,40 @@ RSCF:
       UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 15. Promotion Gates
+## 15. Promotion Gates
 
 ## Canon-model promotion
 
-* [x] Canon plane identified
-* [x] Knowledge plane identified
-* [x] Claims/RSCF/framework relationships declared
-* [x] epistemic boundary declared
-* [x] runtime status explicitly separated
-* [ ] exact governing canon set resolved
-* [ ] referenced MOCs individually validated
-* [ ] cross-plane dependency topology validated
-* [ ] contradiction behavior canonically bound
-* [ ] canon-evolution authority path bound
-* [ ] artifact-specific promotion receipt
+- [x] Canon plane identified
+- [x] Knowledge plane identified
+- [x] Claims/RSCF/framework relationships declared
+- [x] epistemic boundary declared
+- [x] runtime status explicitly separated
+- [ ] exact governing canon set resolved
+- [ ] referenced MOCs individually validated
+- [ ] cross-plane dependency topology validated
+- [ ] contradiction behavior canonically bound
+- [ ] canon-evolution authority path bound
+- [ ] artifact-specific promotion receipt
 
 ## Runtime promotion
 
-* [ ] executable applicability resolver
-* [ ] typed knowledge-object binding
-* [ ] canon-version resolution
-* [ ] dependency traversal
-* [ ] provenance topology validation
-* [ ] scope/regime validation
-* [ ] contradiction preservation
-* [ ] confidence-ceiling enforcement
-* [ ] fail-closed UNKNOWN/GAP behavior
-* [ ] validation receipts
+- [ ] executable applicability resolver
+- [ ] typed knowledge-object binding
+- [ ] canon-version resolution
+- [ ] dependency traversal
+- [ ] provenance topology validation
+- [ ] scope/regime validation
+- [ ] contradiction preservation
+- [ ] confidence-ceiling enforcement
+- [ ] fail-closed UNKNOWN/GAP behavior
+- [ ] validation receipts
 
----
+______________________________________________________________________
 
-# 16. Canonical Status
+## 16. Canonical Status
 
 Until the remaining promotion conditions are established, the
 integrity-preserving metadata is:
@@ -570,7 +570,3 @@ I could not independently traverse the referenced AMOS corpus files in this turn
 
 ```
 **MOC:**
-
-
-```
-```

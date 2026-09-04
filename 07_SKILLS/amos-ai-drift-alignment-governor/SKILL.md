@@ -4,25 +4,22 @@ title: SKILL — Amos Ai Drift Alignment Governor
 type: skill
 source: 07_SKILLS/amos-ai-drift-alignment-governor
 name: amos-ai-drift-alignment-governor
-description: Ai Drift Alignment Governor — runtime and OS capability. Use when runtime
-  reasoning, OS kernel operations, or adaptive stability. Use when amos-os-runtime-master
-  routes to this specialized capability. Do not use for generic tasks outside runtime
-  domain.
+description: Ai Drift Alignment Governor — runtime and OS capability. Use when runtime reasoning, OS kernel operations, or adaptive stability. Use when amos-os-runtime-master routes to this specialized capability. Do not use for generic tasks outside runtime domain.
 parent_skill: amos-os-runtime-master
 domain: runtime
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
 tags:
-- type/skill
-- type/skill
-- domain/os-runtime
-- epistemic/source_claim
-- hml/m
-- epistemic/source_claim
-- amos-os
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/os-runtime
+  - epistemic/source_claim
+  - hml/m
+  - epistemic/source_claim
+  - amos-os
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -32,25 +29,25 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: M
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
-- L7_authority
-- L8_execution
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
+  - L7_authority
+  - L8_execution
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L7
-- L8
-- L16
-- L17
-- L18
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L7
+  - L8
+  - L16
+  - L17
+  - L18
 license: MIT
 steward: Trang Phan
 ---
@@ -60,6 +57,7 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: runtime. Parent: amos-os-runtime-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
 ## When to Use
 
 - When monitoring runtime stability: drift, oscillation, divergence
@@ -87,13 +85,13 @@ Origin architect: **Trang Phan**. Domain: runtime. Parent: amos-os-runtime-maste
 ## Operations
 
 1. **ai_drift.monitor_stability**: Monitor runtime stability: drift, oscillation, divergence, and regime transitions
-2. **ai_drift.calibrate_feedback**: Calibrate feedback control loops to maintain stable operating conditions
-3. **ai_drift.decompose_primitive**: Decompose complex operations into primitive, atomic, verifiable steps
-4. **ai_drift.align_drift**: Align AI drift back to authorized operating envelope when deviation is detected
-5. **ai_drift.enforce_closed_loop**: Enforce closed-loop learning: every output feeds back into the next iteration
-6. **ai_drift.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-7. **ai_drift.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
-8. **ai_drift.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+1. **ai_drift.calibrate_feedback**: Calibrate feedback control loops to maintain stable operating conditions
+1. **ai_drift.decompose_primitive**: Decompose complex operations into primitive, atomic, verifiable steps
+1. **ai_drift.align_drift**: Align AI drift back to authorized operating envelope when deviation is detected
+1. **ai_drift.enforce_closed_loop**: Enforce closed-loop learning: every output feeds back into the next iteration
+1. **ai_drift.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+1. **ai_drift.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+1. **ai_drift.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## 11_KNOWLEDGE Vault Content
 
@@ -105,19 +103,23 @@ Origin architect: **Trang Phan**. Domain: runtime. Parent: amos-os-runtime-maste
 From Cosmo Brain Evolutionary Adaptive Systems: AI Drift as Evolutionary State Change with baseline, current state, and drift equations. From Universe OS: AI drift in global risk engine (300+ risk signatures).
 
 **AI drift model** (SOURCE_DERIVED):
+
 ```
 D_t = d(X_t^AI, X_0^AI)
 ```
+
 - `X_0^AI` = baseline AI state (at deployment or last alignment)
 - `X_t^AI` = current AI state (at time t)
 - `D_t` = drift at time t (distance between current and baseline)
 - `d(.,.)` = distance function
 
 **AI drift in global risk engine** (from Universe OS):
+
 - 300+ risk signatures including: AI drift, data corruption, model drift, bias behaviour, prompt fragility, data quality decay
 - AI drift is one of many tracked risk signatures
 
 **Governor model**:
+
 - **Baseline tracking**: track the baseline AI state
 - **Current state tracking**: track the current AI state
 - **Drift computation**: compute drift between current and baseline
@@ -125,9 +127,10 @@ D_t = d(X_t^AI, X_0^AI)
 - **Alignment action**: take alignment action if drift exceeds threshold
 
 **Governor laws**:
+
 - `DRIFT != CHANGE`: drift is unintended change; intended change is not drift
-- `ALIGNMENT != RESTORATION**: alignment brings the system back to baseline; restoration fixes a specific issue
-- `DRIFT != DEGRADATION**: drift is change from baseline; degradation is decline in quality
+- \`ALIGNMENT != RESTORATION\*\*: alignment brings the system back to baseline; restoration fixes a specific issue
+- \`DRIFT != DEGRADATION\*\*: drift is change from baseline; degradation is decline in quality
 
 ### Epistemic Boundary
 
@@ -145,7 +148,8 @@ AI drift alignment governance is an operational construct. It does not prove all
 
 - **G1 (Law of Law)**: No unresolved contradictions within the skill's
 
----
+______________________________________________________________________
+
 **Links:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 ## Related
@@ -155,17 +159,19 @@ AI drift alignment governance is an operational construct. It does not prove all
 ## Examples
 
 - **Scenario**: When monitoring runtime stability: drift, oscillation, divergence
+
   - **Input**: A query matching this skill's domain (runtime)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When calibrating feedback control loops for stable operation
+
   - **Input**: A query matching this skill's domain (runtime)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When decomposing complex operations into primitive steps
+
   - **Input**: A query matching this skill's domain (runtime)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Anti-Patterns
 
@@ -175,7 +181,6 @@ AI drift alignment governance is an operational construct. It does not prove all
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `amos-os-runtime-master` — routes to this skill when runtime specialization is needed
@@ -183,7 +188,6 @@ AI drift alignment governance is an operational construct. It does not prove all
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -202,7 +206,6 @@ AI drift alignment governance is an operational construct. It does not prove all
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -210,7 +213,6 @@ AI drift alignment governance is an operational construct. It does not prove all
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -223,11 +225,12 @@ AI drift alignment governance is an operational construct. It does not prove all
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `amos-os-runtime-master` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `amos-ai-drift-alignment-governor-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -235,12 +238,14 @@ AI drift alignment governance is an operational construct. It does not prove all
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-ai-drift-alignment-governor
 node_type: skill
 path: 07_SKILLS/amos-ai-drift-alignment-governor/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

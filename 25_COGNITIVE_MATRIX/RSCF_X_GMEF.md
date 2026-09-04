@@ -12,28 +12,28 @@ segment: 25_COGNITIVE_MATRIX
 artifact_kind: MATRIX
 path: 25_COGNITIVE_MATRIX/RSCF_X_GMEF.md
 tags:
-- amos-os
-- cognitive-matrix
-- vault
-- rscf_x_gmef
-- rscf
-- gmef
-- gmef_v4_8
-- governed_mutation
-- evolution_framework
-- evolution_governance
-- evolutionary_debt
-- non_compensatory_debt
-- proof_continuity
-- proof_capsule
-- mutation_gate
-- rollback
-- anti_autopoisoning
-- semantic_drift
-- evolution_receipt
-- provenance
-- canon_candidate
-- canon/matrix
+  - amos-os
+  - cognitive-matrix
+  - vault
+  - rscf_x_gmef
+  - rscf
+  - gmef
+  - gmef_v4_8
+  - governed_mutation
+  - evolution_framework
+  - evolution_governance
+  - evolutionary_debt
+  - non_compensatory_debt
+  - proof_continuity
+  - proof_capsule
+  - mutation_gate
+  - rollback
+  - anti_autopoisoning
+  - semantic_drift
+  - evolution_receipt
+  - provenance
+  - canon_candidate
+  - canon/matrix
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -50,13 +50,13 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - 11_KNOWLEDGE/03_RSCF/03_RSCF_MOC
-  - 03_CONTROL_PLANE/03_CONTROL_PLANE_MOC
-  - AMOS_CORPUS
+    - 11_KNOWLEDGE/03_RSCF/03_RSCF_MOC
+    - 03_CONTROL_PLANE/03_CONTROL_PLANE_MOC
+    - AMOS_CORPUS
   scope:
-  - COGNITIVE_MATRIX
-  - EVOLUTION_PROOF_GOVERNOR
-  - SOURCE_DEFINED_MODEL
+    - COGNITIVE_MATRIX
+    - EVOLUTION_PROOF_GOVERNOR
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   rscf_moc:
     artifact: 11_KNOWLEDGE/03_RSCF/03_RSCF_MOC
@@ -98,9 +98,9 @@ $$
 
 with failure routing toward rollback rather than silent accumulation of unsupported evolutionary debt.
 
-The strongest warranted classification remains **AMOS_MODEL / SOURCE_CLAIM**. The source defines the governance architecture and its invariants; it does **not** independently establish that GMEF v4.8, signed evolution receipts, semantic-drift detection, or rollback-to-\(S_0\) are executable or runtime-enforced.
+The strongest warranted classification remains **AMOS_MODEL / SOURCE_CLAIM**. The source defines the governance architecture and its invariants; it does **not** independently establish that GMEF v4.8, signed evolution receipts, semantic-drift detection, or rollback-to-(S_0) are executable or runtime-enforced.
 
-# RSCF × GMEF Cognitive Matrix Specification
+## RSCF × GMEF Cognitive Matrix Specification
 
 `RSCF_X_GMEF.md` defines the source-grounded AMOS Cognitive Matrix specification governing the integration between:
 
@@ -131,44 +131,44 @@ COMMIT / ROLLBACK DISPATCH
 with three explicit governance invariants:
 
 1. Non-Compensatory Debt Invariant
-2. Proof Continuity Law
-3. Anti-Autopoisoning Rollback
+1. Proof Continuity Law
+1. Anti-Autopoisoning Rollback
 
 The source-level transition relation is:
 
 \[
-\mu(S_t)\rightarrow S_{t+1}
+\\mu(S_t)\\rightarrow S\_{t+1}
 \]
 
 subject to RSCF proof preservation.
 
----
+______________________________________________________________________
 
-# 0. Epistemic Boundary
+## 0. Epistemic Boundary
 
 ## Source-grounded
 
 The supplied artifact establishes the source presence and structure of:
 
 1. `RSCF_X_GMEF.md`;
-2. the RSCF × GMEF Cognitive Matrix identity;
-3. Trang Phan as origin architect and steward;
-4. RSCF Proof Capsules as one side of the integration;
-5. GMEF v4.8 as the named evolution framework;
-6. proposed system mutation \(\mu\);
-7. an RSCF invariant auditor;
-8. commit / rollback dispatch;
-9. the Non-Compensatory Debt Invariant;
-10. the Proof Continuity Law;
-11. Anti-Autopoisoning Rollback;
-12. rollback toward \(S_0\) when semantic drift is induced;
-13. evolution receipts as source-defined output language;
-14. the RSCF MOC dependency;
-15. the Control Plane dependency;
-16. ASEA Evolution as an inter-plane connection;
-17. `AMOS_MODEL` as claim class;
-18. `SOURCE_CLAIM` as RSCF state;
-19. runtime enforcement as not established.
+1. the RSCF × GMEF Cognitive Matrix identity;
+1. Trang Phan as origin architect and steward;
+1. RSCF Proof Capsules as one side of the integration;
+1. GMEF v4.8 as the named evolution framework;
+1. proposed system mutation (\\mu);
+1. an RSCF invariant auditor;
+1. commit / rollback dispatch;
+1. the Non-Compensatory Debt Invariant;
+1. the Proof Continuity Law;
+1. Anti-Autopoisoning Rollback;
+1. rollback toward (S_0) when semantic drift is induced;
+1. evolution receipts as source-defined output language;
+1. the RSCF MOC dependency;
+1. the Control Plane dependency;
+1. ASEA Evolution as an inter-plane connection;
+1. `AMOS_MODEL` as claim class;
+1. `SOURCE_CLAIM` as RSCF state;
+1. runtime enforcement as not established.
 
 ## Not independently established
 
@@ -211,7 +211,7 @@ Therefore:
 
 \[
 SourceDefinedGovernance
-\neq
+\\neq
 RuntimeEnforcedGovernance
 \]
 
@@ -219,13 +219,13 @@ and:
 
 \[
 SourceDefinedProofInvariant
-\neq
+\\neq
 FormalProofOfInvariant
 \]
 
----
+______________________________________________________________________
 
-# 1. Canonical Evolution Mesh
+## 1. Canonical Evolution Mesh
 
 ```text
                ┌────────────────────────────────────────────────────────┐
@@ -241,11 +241,10 @@ PROPOSED SYSTEM MUTATION (μ)       RSCF INVARIANT AUDITOR            COMMIT / R
 • Structural re-weighting            and non-compensatory debt         receipt or triggers S₀
 ```
 
----
+______________________________________________________________________
 
 **MOC:** [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_HOME|00_HOME]] · [[01_CANON/01_CORE_LAWS/01_CORE_LAWS_MOC|01_CORE_LAWS_MOC]]
 
----
+______________________________________________________________________
 
 **Related:** [[01_CANON/01_CORE_LAWS/L17_RSCF|L17_RSCF]] · [[01_CANON/01_CORE_LAWS/L18_GMEF|L18_GMEF]] · [[01_CANON/01_CORE_LAWS/ATOMIC_MULTI_RSCF|ATOMIC_MULTI_RSCF]] · [[02_KERNEL/K_ATOMIC_MULTI_RSCF|K_ATOMIC_MULTI_RSCF]] · [[01_CANON/01_CORE_LAWS/ROLLBACK_AND_RECOVERY_BASINS|ROLLBACK_AND_RECOVERY_BASINS]] · [[01_CANON/01_CORE_LAWS/L10_FAILURE_RECOVERY|L10_FAILURE_RECOVERY]]
-

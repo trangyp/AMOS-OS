@@ -1,18 +1,21 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: 00 Mode Index MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX
 tags:
-- canon/control-plane
-- mode-admission-queue
-- mode-coverage-matrix
-- mode-dependency-graph
-- mode-discovery-queue
-- mode-extension-protocol
-- mode-ontology
-- mode-placeholder-audit-2026-08-25
-- mode-revalidation-schedule
-- mode-transition-matrix
+  - canon/control-plane
+  - mode-admission-queue
+  - mode-coverage-matrix
+  - mode-dependency-graph
+  - mode-discovery-queue
+  - mode-extension-protocol
+  - mode-ontology
+  - mode-placeholder-audit-2026-08-25
+  - mode-revalidation-schedule
+  - mode-transition-matrix
 moc: true
 rscf:
   state: DERIVED
@@ -44,5 +47,6 @@ rscf:
 - [[03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX/MODE_REVALIDATION_SCHEDULE|MODE_REVALIDATION_SCHEDULE]]
 - [[03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX/MODE_TRANSITION_MATRIX|MODE_TRANSITION_MATRIX]]
 
----
+______________________________________________________________________
+
 **Parent:** [[03_CONTROL_PLANE/09_COMMIT/09_COMMIT_MOC|09_COMMIT_MOC]]

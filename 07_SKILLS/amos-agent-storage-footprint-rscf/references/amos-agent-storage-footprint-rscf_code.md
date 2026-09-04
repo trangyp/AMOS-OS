@@ -1,14 +1,17 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: amos agent storage footprint rscf code
 type: reference
 source: 07_SKILLS/amos-agent-storage-footprint-rscf/references
 tags:
-- reference
-- amos-agent-storage-footprint-rscf
-- type/skill
-- skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-agent-storage-footprint-rscf
+  - type/skill
+  - skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -23,8 +26,8 @@ rscf:
 ## Pseudocode: amos-agent-storage-footprint-rscf
 
 ```python
-# amos-agent-storage-footprint-rscf - operational pseudocode
-# This is a reference implementation sketch, not production code.
+## amos-agent-storage-footprint-rscf - operational pseudocode
+## This is a reference implementation sketch, not production code.
 
 class AmosAgentStorageFootprintRscf:
     """RSCF engine for amos-agent-storage-footprint-rscf."""
@@ -60,13 +63,15 @@ class AmosAgentStorageFootprintRscf:
         return min(1.0, len(self.evidence) / 10.0)
 ```
 
----
+______________________________________________________________________
+
 **MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -74,13 +79,14 @@ class AmosAgentStorageFootprintRscf:
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-agent-storage-footprint-rscf-amos-agent-storage-footprint-rscf-code
 node_type: reference
 path: 07_SKILLS/amos-agent-storage-footprint-rscf/references/amos-agent-storage-footprint-rscf_code.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC
-

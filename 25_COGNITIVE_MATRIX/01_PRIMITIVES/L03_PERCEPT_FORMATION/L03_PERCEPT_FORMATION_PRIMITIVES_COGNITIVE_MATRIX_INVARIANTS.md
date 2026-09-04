@@ -2,15 +2,15 @@
 type: invariant
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L03_PERCEPT_FORMATION
 tags:
-- amos
-- cognitive-matrix
-- matrix/l03
-- percept-formation
-- invariants
-- rscf
-- provenance
-- governance
-- domain/cognitive-matrix
+  - amos
+  - cognitive-matrix
+  - matrix/l03
+  - percept-formation
+  - invariants
+  - rscf
+  - provenance
+  - governance
+  - domain/cognitive-matrix
 title: L03_PERCEPT_FORMATION — Invariants
 origin_architect: Trang Phan
 status: MODEL_INVARIANT_CONTRACT / UNIMPLEMENTED / UNVALIDATED
@@ -53,34 +53,34 @@ GOVERNED PERCEPT STATE
 
 without allowing percept formation to silently convert uncertainty, interpretation, aggregation, attention, or prior expectation into observed fact.
 
----
+______________________________________________________________________
 
-# 1. Source / Canon References
+## 1. Source / Canon References
 
 ## 1.1 Source-aligned cross-scale invariants
 
 The AMOS Cross-Scale RSCF Tensor Engine explicitly establishes the following governing invariants:
 
 1. aggregation does not prove identity;
-2. macro stability may coexist with local collapse;
-3. local correlation does not establish macro causation;
-4. downward constraint must be distinguished from downward causation;
-5. decision-relevant heterogeneity must survive aggregation;
-6. scope, regime, and observer envelopes propagate with claims.
+1. macro stability may coexist with local collapse;
+1. local correlation does not establish macro causation;
+1. downward constraint must be distinguished from downward causation;
+1. decision-relevant heterogeneity must survive aggregation;
+1. scope, regime, and observer envelopes propagate with claims.
 
 It additionally requires every tensor cell used in a conclusion to bind to an RSCF node and every transformation to bind to a typed RSCF edge.
 
 The source also establishes the load-bearing confidence ceiling:
 
-[
-Conf(c)\leq\min_{p\in P_c}Conf(p)
-]
+\[
+Conf(c)\\leq\\min\_{p\\in P_c}Conf(p)
+\]
 
 unless a weak premise is independently revalidated, and selective invalidation:
 
-[
-Invalidate(p)=Desc_{LB}(p)
-]
+\[
+Invalidate(p)=Desc\_{LB}(p)
+\]
 
 for load-bearing descendants.
 
@@ -99,35 +99,35 @@ canonical_L03_runtime_validators: UNKNOWN_GAP
 
 Therefore, except where explicitly source-aligned above, the invariant set below is an `AMOS_MODEL` contract.
 
----
+______________________________________________________________________
 
-# 2. Definition and Scope
+## 2. Definition and Scope
 
 An `L03_PERCEPT_FORMATION` invariant is a predicate that must remain true across every admissible L03 state transition.
 
 Let:
 
-[
+\[
 S_t^{L03}
-]
+\]
 
 denote the L03 state at time (t), and let:
 
-[
-O_i:S_t^{L03}\rightarrow S_{t+1}^{L03}
-]
+\[
+O_i:S_t^{L03}\\rightarrow S\_{t+1}^{L03}
+\]
 
 be an L03 operator.
 
-For invariant \(I_k\):
+For invariant (I_k):
 
-[
+\[
 I_k(S_t)=TRUE
-\land
-O_i\in O_{admissible}
-\Rightarrow
-I_k(S_{t+1})=TRUE
-]
+\\land
+O_i\\in O\_{admissible}
+\\Rightarrow
+I_k(S\_{t+1})=TRUE
+\]
 
 `AMOS_MODEL`.
 
@@ -147,9 +147,9 @@ INVARIANT PASS
 EMPIRICAL TRUTH
 ```
 
----
+______________________________________________________________________
 
-# 3. Typed Inputs
+## 3. Typed Inputs
 
 ```yaml
 L03InvariantInput:
@@ -203,9 +203,9 @@ L03InvariantInput:
     type: AuthorityContext
 ```
 
----
+______________________________________________________________________
 
-# 4. Typed Outputs
+## 4. Typed Outputs
 
 ```yaml
 L03InvariantOutput:
@@ -253,9 +253,9 @@ VALIDATOR OUTPUT
 COMMIT AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 5. State Variables
+## 5. State Variables
 
 Candidate invariant state:
 
@@ -277,19 +277,17 @@ Auth_t    = authority context
 
 Candidate composite state:
 
-[
-S_t^{INV}
-=========
+## \[ S_t^{INV}
 
 (
 Inv_t,V_t,D_t,Prov_t,Conf_t,U_t,
 Scope_t,Reg_t,Obs_t,Fresh_t,Comp_t,Gap_t
 )
-]
+\]
 
----
+______________________________________________________________________
 
-# 6. Operators
+## 6. Operators
 
 ```text
 REGISTER_INVARIANT()
@@ -324,9 +322,9 @@ REVALIDATE()
 
 Canonical operator identifiers remain `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
-# 7. Core Invariant Registry
+## 7. Core Invariant Registry
 
 ## L03-INV-001 — Observation / Percept Separation
 
@@ -338,19 +336,19 @@ A percept formed from observations must remain distinguishable from those observ
 
 Candidate:
 
-[
+\[
 P=F(O,K)
-]
+\]
 
 does not imply:
 
-[
-P\equiv O
-]
+\[
+P\\equiv O
+\]
 
-where \(K\) may include attention, context, prior state, binding, or other constraints.
+where (K) may include attention, context, prior state, binding, or other constraints.
 
----
+______________________________________________________________________
 
 ## L03-INV-002 — Percept / Reality Separation
 
@@ -368,7 +366,7 @@ EXTERNAL-WORLD TRUTH
 
 unless separately grounded and validated.
 
----
+______________________________________________________________________
 
 ## L03-INV-003 — Attention / Evidence Separation
 
@@ -388,7 +386,7 @@ FALSE
 
 Attention may influence processing priority but cannot itself establish evidential validity.
 
----
+______________________________________________________________________
 
 ## L03-INV-004 — Attention / Percept Separation
 
@@ -400,7 +398,7 @@ PERCEPT FORMATION
 
 L02 may influence which inputs enter or receive processing resources, but selection alone cannot instantiate a validated L03 percept.
 
----
+______________________________________________________________________
 
 ## L03-INV-005 — Input Provenance Preservation
 
@@ -408,23 +406,23 @@ Every material percept must retain recoverable ancestry to the observations, inp
 
 Candidate:
 
-[
+\[
 Anc(P)
-\neq
-\varnothing
-]
+\\neq
+\\varnothing
+\]
 
 for any percept used in a consequential conclusion.
 
----
+______________________________________________________________________
 
 ## L03-INV-006 — Transformation Traceability
 
 Every nontrivial transformation:
 
-[
-X\rightarrow P
-]
+\[
+X\\rightarrow P
+\]
 
 must have an explicitly typed transformation edge.
 
@@ -436,7 +434,7 @@ UNKNOWN/GAP
 
 This is directly aligned with the source requirement that transformations bind to typed RSCF edges.
 
----
+______________________________________________________________________
 
 ## L03-INV-007 — RSCF Binding
 
@@ -450,7 +448,7 @@ RSCF NODE
 
 Source-aligned.
 
----
+______________________________________________________________________
 
 ## L03-INV-008 — Aggregation Does Not Prove Identity
 
@@ -462,7 +460,7 @@ OBJECT IDENTITY PROOF
 
 Directly source-aligned.
 
----
+______________________________________________________________________
 
 ## L03-INV-009 — Binding Does Not Prove Identity
 
@@ -480,23 +478,23 @@ object candidate
 
 does not by itself prove that the object candidate corresponds to a unique external entity.
 
----
+______________________________________________________________________
 
 ## L03-INV-010 — Confidence Ceiling
 
-For a percept \(P\) with load-bearing premises (LB(P)):
+For a percept (P) with load-bearing premises (LB(P)):
 
-[
+\[
 Conf(P)
-\le
-\min_{x\in LB(P)}Conf(x)
-]
+\\le
+\\min\_{x\\in LB(P)}Conf(x)
+\]
 
 unless a weak premise is independently revalidated.
 
 Directly source-aligned.
 
----
+______________________________________________________________________
 
 ## L03-INV-011 — No Confidence Inflation by Repetition
 
@@ -508,7 +506,7 @@ INDEPENDENT CONFIRMATION
 
 Multiple descendants of one observation or source cannot independently raise confidence merely by multiplicity.
 
----
+______________________________________________________________________
 
 ## L03-INV-012 — Provenance Independence Must Be Demonstrated
 
@@ -520,7 +518,7 @@ INDEPENDENT SOURCE
 
 Independence is an evidential property requiring ancestry analysis.
 
----
+______________________________________________________________________
 
 ## L03-INV-013 — Uncertainty Preservation
 
@@ -528,17 +526,17 @@ If a load-bearing input remains uncertain, that uncertainty must remain represen
 
 Candidate:
 
-[
+\[
 U(P)
-\geq
-U_{material}(LB(P))
-]
+\\geq
+U\_{material}(LB(P))
+\]
 
 qualitatively, subject to independently validated uncertainty reduction.
 
 This is a structural model, not a universal numerical uncertainty equation.
 
----
+______________________________________________________________________
 
 ## L03-INV-014 — UNKNOWN Does Not Become PASS
 
@@ -551,7 +549,7 @@ PASS
 
 A load-bearing unknown must remain visible or be resolved before a stronger conclusion class is assigned.
 
----
+______________________________________________________________________
 
 ## L03-INV-015 — Competing Percepts Must Survive
 
@@ -566,7 +564,7 @@ COMPETING
 
 not arbitrary forced convergence.
 
----
+______________________________________________________________________
 
 ## L03-INV-016 — Cheapest Discriminating Evidence Preferred
 
@@ -574,7 +572,7 @@ Where competing percepts matter, validation should prioritize evidence capable o
 
 This is a governance/runtime model.
 
----
+______________________________________________________________________
 
 ## L03-INV-017 — Scope Preservation
 
@@ -582,17 +580,17 @@ A percept may not silently expand beyond the applicability envelope of its load-
 
 Candidate:
 
-[
+\[
 Scope(P)
-\subseteq
-\bigcap_{x\in LB(P)}Scope(x)
-]
+\\subseteq
+\\bigcap\_{x\\in LB(P)}Scope(x)
+\]
 
 unless scope extension is independently justified.
 
 The source requires scope propagation across cross-scale claims.
 
----
+______________________________________________________________________
 
 ## L03-INV-018 — Regime Preservation
 
@@ -604,7 +602,7 @@ REGIME CHANGE
 REVALIDATE DEPENDENT PERCEPTS
 ```
 
----
+______________________________________________________________________
 
 ## L03-INV-019 — Observer Preservation
 
@@ -620,7 +618,7 @@ without separate justification.
 
 Source-aligned at the cross-scale level.
 
----
+______________________________________________________________________
 
 ## L03-INV-020 — Freshness Preservation
 
@@ -632,9 +630,9 @@ STALE PREMISE
 DEPENDENT PERCEPT REVALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 8. H/M/L Invariants
+## 8. H/M/L Invariants
 
 ## L03-INV-021 — Explicit Scale Identity
 
@@ -644,35 +642,35 @@ Every cross-scale percept node must retain its H/M/L scale.
 L != M != H
 ```
 
----
+______________________________________________________________________
 
 ## L03-INV-022 — L→M Aggregation Is Not Identity
 
-[
-X_M=A_{L\rightarrow M}\(X_L\)
-]
+\[
+X_M=A\_{L\\rightarrow M}(X_L)
+\]
 
 does not establish:
 
-[
-X_M\equiv X_L
-]
+\[
+X_M\\equiv X_L
+\]
 
 nor real-world identity.
 
 Source-aligned.
 
----
+______________________________________________________________________
 
 ## L03-INV-023 — M→H Aggregation Is Not Global Truth
 
-[
-X_H=A_{M\rightarrow H}\(X_M\)
-]
+\[
+X_H=A\_{M\\rightarrow H}(X_M)
+\]
 
-does not establish that \(X_H\) is a complete or externally true scene/world state.
+does not establish that (X_H) is a complete or externally true scene/world state.
 
----
+______________________________________________________________________
 
 ## L03-INV-024 — Decision-Relevant Heterogeneity Survives
 
@@ -680,7 +678,7 @@ Aggregation may compress lower-level states but cannot erase distinctions capabl
 
 Directly source-aligned.
 
----
+______________________________________________________________________
 
 ## L03-INV-025 — Macro Stability May Coexist With Local Failure
 
@@ -688,25 +686,25 @@ A stable H-level percept does not imply all L/M nodes remain valid.
 
 Directly source-aligned.
 
----
+______________________________________________________________________
 
 ## L03-INV-026 — Local Failure Does Not Imply Global Failure
 
 A local percept failure invalidates higher-scale states only when a load-bearing dependency exists.
 
----
+______________________________________________________________________
 
 ## L03-INV-027 — Selective Invalidation
 
-[
-Invalidate(p)=Desc_{LB}(p)
-]
+\[
+Invalidate(p)=Desc\_{LB}(p)
+\]
 
 Dependent descendants are invalidated or revalidated; unrelated branches survive.
 
 Directly source-aligned.
 
----
+______________________________________________________________________
 
 ## L03-INV-028 — Local Correlation Does Not Establish Macro Causation
 
@@ -718,23 +716,23 @@ Cause(L,H)
 
 Directly source-aligned.
 
----
+______________________________________________________________________
 
 ## L03-INV-029 — Downward Constraint Is Not Downward Causation
 
-[
-X'*M=C*{H\rightarrow M}(X_H,X_M)
-]
+\[
+X'*M=C*{H\\rightarrow M}(X_H,X_M)
+\]
 
 and:
 
-[
-X'*L=C*{M\rightarrow L}(X'_M,X_L)
-]
+\[
+X'*L=C*{M\\rightarrow L}(X'\_M,X_L)
+\]
 
 represent constraint operations in the source model and must not be silently promoted to causal claims.
 
----
+______________________________________________________________________
 
 ## L03-INV-030 — High-Level Expectation Cannot Rewrite Observation
 
@@ -746,9 +744,9 @@ TOP-DOWN EXPECTATION
 OBSERVATION MUTATION
 ```
 
----
+______________________________________________________________________
 
-# 9. Causal Invariants
+## 9. Causal Invariants
 
 ## L03-INV-031 — Association / Causation Firewall
 
@@ -758,7 +756,7 @@ ASSOCIATION != CAUSATION
 
 Perceptual co-occurrence cannot by itself establish causal structure.
 
----
+______________________________________________________________________
 
 ## L03-INV-032 — Temporal Order / Causation Firewall
 
@@ -768,7 +766,7 @@ A BEFORE B
 A CAUSED B
 ```
 
----
+______________________________________________________________________
 
 ## L03-INV-033 — Structural Similarity / Causation Firewall
 
@@ -778,15 +776,15 @@ SIMILAR STRUCTURE
 SAME MECHANISM
 ```
 
----
+______________________________________________________________________
 
 ## L03-INV-034 — Predictive Utility / Causal Mechanism Firewall
 
 A feature that predicts a percept does not automatically constitute the mechanism producing the external phenomenon represented by that percept.
 
----
+______________________________________________________________________
 
-# 10. Multimodal Invariants
+## 10. Multimodal Invariants
 
 These are `AMOS_MODEL` pending direct L03 canon.
 
@@ -802,7 +800,7 @@ TEXT EVIDENCE
 
 Modality identity must remain recoverable after fusion.
 
----
+______________________________________________________________________
 
 ## L03-INV-036 — Missing Modality Is Not Negative Evidence
 
@@ -812,7 +810,7 @@ MODALITY UNAVAILABLE
 OBSERVED ABSENCE
 ```
 
----
+______________________________________________________________________
 
 ## L03-INV-037 — Cross-Modal Agreement Is Not Automatic Independence
 
@@ -824,15 +822,15 @@ MULTIMODAL
 INDEPENDENT
 ```
 
----
+______________________________________________________________________
 
 ## L03-INV-038 — Cross-Modal Conflict Must Remain Visible
 
 Conflicting modality evidence cannot be silently averaged into a falsely coherent percept where the conflict is decision-relevant.
 
----
+______________________________________________________________________
 
-# 11. State-Transition Invariants
+## 11. State-Transition Invariants
 
 ## L03-INV-039 — State Mutation Requires Traceability
 
@@ -847,7 +845,7 @@ provenance
 result state
 ```
 
----
+______________________________________________________________________
 
 ## L03-INV-040 — Failed Transition Cannot Be Recorded as Valid
 
@@ -857,13 +855,13 @@ TRANSFORM FAILURE
 VALID STATE TRANSITION
 ```
 
----
+______________________________________________________________________
 
 ## L03-INV-041 — Repair Does Not Rewrite History
 
 A repaired percept may supersede an earlier percept, but the earlier state and reason for invalidation must remain recoverable where provenance requirements apply.
 
----
+______________________________________________________________________
 
 ## L03-INV-042 — Rollback Preserves Unaffected State
 
@@ -877,9 +875,9 @@ LOCALIZED RECOVERY
 
 unless dependency closure proves broader invalidation necessary.
 
----
+______________________________________________________________________
 
-# 12. Control-Plane Invariants
+## 12. Control-Plane Invariants
 
 ## L03-INV-043 — Capability Is Not Authority
 
@@ -889,7 +887,7 @@ CAPABILITY != AUTHORITY
 
 An L03 worker capable of producing a percept has no implied authority to commit durable state.
 
----
+______________________________________________________________________
 
 ## L03-INV-044 — Proposal Is Not Commit
 
@@ -899,7 +897,7 @@ PERCEPT PROPOSAL
 AUTHORITATIVE PERCEPT COMMIT
 ```
 
----
+______________________________________________________________________
 
 ## L03-INV-045 — Validation Is Not Authorization
 
@@ -911,13 +909,13 @@ AUTHORIZED EFFECT
 
 A percept may pass cognitive validators without authorizing external action.
 
----
+______________________________________________________________________
 
 ## L03-INV-046 — Commit Requires Fresh Authority
 
 Any durable mutation requiring authority must be checked at the authoritative commit boundary, not inferred from earlier capability.
 
----
+______________________________________________________________________
 
 ## L03-INV-047 — Cognitive Layer Cannot Self-Grant Authority
 
@@ -927,9 +925,9 @@ cannot
 CREATE ITS OWN COMMIT AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 13. Epistemic Invariants
+## 13. Epistemic Invariants
 
 ## L03-INV-048 — Conclusion Class Cannot Exceed Evidence
 
@@ -946,7 +944,7 @@ UNKNOWN/GAP
 
 The weakest accurate class must be used.
 
----
+______________________________________________________________________
 
 ## L03-INV-049 — Model Cannot Be Presented as Observation
 
@@ -954,13 +952,13 @@ The weakest accurate class must be used.
 MODEL != OBSERVATION
 ```
 
----
+______________________________________________________________________
 
 ## L03-INV-050 — Derived Percept Cannot Become Source Claim
 
 Derivation ancestry must remain visible.
 
----
+______________________________________________________________________
 
 ## L03-INV-051 — Absence of Contradiction Is Not Confirmation
 
@@ -970,7 +968,7 @@ NO CONTRADICTION FOUND
 VERIFIED
 ```
 
----
+______________________________________________________________________
 
 ## L03-INV-052 — Structural Validity Is Not Empirical Validation
 
@@ -980,9 +978,9 @@ INVARIANTS PASS
 COGNITIVE SCIENCE VALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 14. Dependencies
+## 14. Dependencies
 
 Internal:
 
@@ -1020,9 +1018,9 @@ AMOS information boundary controls
 AMOS infrastructure control plane
 ```
 
----
+______________________________________________________________________
 
-# 15. H/M/L Applicability
+## 15. H/M/L Applicability
 
 ```yaml
 HML:
@@ -1060,9 +1058,9 @@ HML:
       - downward constraint firewall
 ```
 
----
+______________________________________________________________________
 
-# 16. Agents
+## 16. Agents
 
 Candidate logical roles:
 
@@ -1083,9 +1081,9 @@ Status:
 MODEL ROLES / NOT IMPLEMENTATION EVIDENCE
 ```
 
----
+______________________________________________________________________
 
-# 17. Skills
+## 17. Skills
 
 Relevant capability families:
 
@@ -1110,9 +1108,9 @@ SKILL EXISTS
 L03 INTEGRATION EXISTS
 ```
 
----
+______________________________________________________________________
 
-# 18. Workflow
+## 18. Workflow
 
 ```text
 RECEIVE PROPOSED PERCEPT STATE
@@ -1150,9 +1148,9 @@ PASS / CONDITIONAL / FAIL / UNKNOWN_GAP
 PROPOSE RESULT
 ```
 
----
+______________________________________________________________________
 
-# 19. Protocols
+## 19. Protocols
 
 Candidate protocol surface:
 
@@ -1173,9 +1171,9 @@ Canonical protocol names:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 20. Evidence / Provenance Contract
+## 20. Evidence / Provenance Contract
 
 Each invariant evaluation should carry:
 
@@ -1217,9 +1215,9 @@ InvariantEvidence:
   falsifier: null
 ```
 
----
+______________________________________________________________________
 
-# 21. Failure Modes
+## 21. Failure Modes
 
 ```text
 FM-L03-INV-001
@@ -1304,9 +1302,9 @@ FM-L03-INV-027
 Invariant pass is presented as empirical validation.
 ```
 
----
+______________________________________________________________________
 
-# 22. Repair / Recovery
+## 22. Repair / Recovery
 
 ```text
 DETECT INVARIANT VIOLATION
@@ -1347,9 +1345,9 @@ REPAIR MUST NOT FALSIFY INPUT HISTORY
 TO MAKE THE PERCEPT COHERENT
 ```
 
----
+______________________________________________________________________
 
-# 23. Tests / Validators
+## 23. Tests / Validators
 
 Minimum conceptual test suite:
 
@@ -1440,9 +1438,9 @@ formal_verification: false
 empirical_validation: false
 ```
 
----
+______________________________________________________________________
 
-# 24. Falsifiers
+## 24. Falsifiers
 
 This artifact must be revised if direct canon establishes incompatible rules for:
 
@@ -1465,9 +1463,9 @@ A modeled invariant is also falsified for its stated scope if an authoritative i
 
 Empirical neuroscience or psychology findings cannot directly falsify an AMOS software/model invariant unless the invariant is explicitly promoted into an empirical cognitive claim.
 
----
+______________________________________________________________________
 
-# 25. Gap Matrix
+## 25. Gap Matrix
 
 ```yaml
 gap_status:
@@ -1539,9 +1537,9 @@ gap_status:
     status: CRITICAL_GAP
 ```
 
----
+______________________________________________________________________
 
-# 26. Uncertainty and Confidence Ceiling
+## 26. Uncertainty and Confidence Ceiling
 
 ```yaml
 uncertainty:
@@ -1597,9 +1595,9 @@ UNKNOWN/GAP:
 empirical cognition claims
 ```
 
----
+______________________________________________________________________
 
-# 27. RSCF Completion State
+## 27. RSCF Completion State
 
 ```yaml
 rscf:
@@ -1694,9 +1692,9 @@ rscf:
     causality, selective-invalidation, and authority boundaries.
 ```
 
----
+______________________________________________________________________
 
-# 28. Completion State
+## 28. Completion State
 
 ```yaml
 completion_state:
@@ -1777,9 +1775,9 @@ completion_state:
     MODEL
 ```
 
----
+______________________________________________________________________
 
-# 29. Hard Boundaries
+## 29. Hard Boundaries
 
 ```text
 PLACEHOLDER != IMPLEMENTED
@@ -1837,15 +1835,15 @@ INVARIANT PASS != IMPLEMENTATION
 IMPLEMENTATION != VALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 30. Governing Invariant Contract
+## 30. Governing Invariant Contract
 
 > **`L03_PERCEPT_FORMATION` SHALL preserve the distinction between observation, attention, interpretation, percept, and external reality. Every material percept SHALL retain recoverable provenance, typed dependency and transformation lineage, scope, regime, observer context, freshness, uncertainty, and an admissible confidence ceiling. Aggregation or binding SHALL NOT by itself establish identity or causation. Correlated descendants SHALL NOT be treated as independent evidence. Competing percepts SHALL remain `COMPETING` until discriminating evidence exists. H/M/L aggregation SHALL preserve decision-relevant heterogeneity, and downward constraints SHALL NOT be promoted into causal claims. Invalidated premises SHALL propagate only through load-bearing descendants. High-level coherence SHALL NOT rewrite contradictory lower-level observations. Cognitive capability SHALL NOT confer authority, and percept proposals SHALL NOT become durable commits without the governing control plane. Any unrecovered canonical L03 invariant SHALL remain `UNKNOWN/GAP`; structural invariant satisfaction SHALL NOT be represented as runtime, empirical, or cognitive-science validation.**
 
----
+______________________________________________________________________
 
-# 31. Canon Boundary
+## 31. Canon Boundary
 
 ```text
 SOURCE-ALIGNED:
@@ -1952,22 +1950,27 @@ NOT ESTABLISHED
 
 ```text
 ```
----
+
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: l03_percept_formation_primitives_cognitive_matrix_invariants
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L03_PERCEPT_FORMATION/L03_PERCEPT_FORMATION_PRIMITIVES_COGNITIVE_MATRIX_INVARIANTS.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L03_PERCEPT_FORMATION/L03_PERCEPT_FORMATION_MOC|L03_PERCEPT_FORMATION_MOC]]

@@ -2,14 +2,14 @@
 type: memory
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION
 tags:
-- amos
-- cognitive-matrix
-- matrix/l02
-- attention
-- memory
-- rscf
-- governance
-- domain/cognitive-matrix
+  - amos
+  - cognitive-matrix
+  - matrix/l02
+  - attention
+  - memory
+  - rscf
+  - governance
+  - domain/cognitive-matrix
 title: L02_ATTENTION — Memory
 origin_architect: Trang Phan
 status: MODEL_SPECIFICATION / SOURCE-BOUNDED / UNVALIDATED
@@ -32,9 +32,9 @@ rscf:
 
 > **Canon boundary:** Drive evidence confirms that AMOS treats `MEMORY` as an explicit cognitive-cell concern, while the primitive registry separately identifies `L07 — MEMORY` with only partial source maturity. Therefore this artifact defines **memory used by L02 attention**, not the canonical semantics of the dedicated L07 memory primitive.
 
----
+______________________________________________________________________
 
-# 0. Purpose
+## 0. Purpose
 
 Define what state `L02_ATTENTION` may retain, reuse, invalidate, externalize, or hand off so that attention allocation can operate across cycles without confusing:
 
@@ -88,9 +88,9 @@ RECALL
 REVALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 1. Source / Canon References
+## 1. Source / Canon References
 
 ## 1.1 Direct Drive evidence
 
@@ -146,9 +146,9 @@ L01_SENSING_OBSERVATION
 L07_MEMORY
 ```
 
----
+______________________________________________________________________
 
-# 2. Definition and Scope
+## 2. Definition and Scope
 
 `L02_ATTENTION_MEMORY` is the governed state required to preserve decision-relevant information about previous attention operations.
 
@@ -170,9 +170,7 @@ It does **not** establish a universal long-term memory architecture.
 
 Formally, as an AMOS model:
 
-[
-M^{L02}_t
-=========
+## \[ M^{L02}\_t
 
 {
 A_t,
@@ -183,23 +181,23 @@ P_t,
 F_t,
 X_t
 }
-]
+\]
 
 where:
 
-- \(A_t\) = active attention state,
-- \(H_t\) = relevant attention history,
-- \(D_t\) = deferred/unresolved items,
-- \(G_t\) = gap/contradiction state,
-- \(P_t\) = provenance/dependency references,
-- \(F_t\) = freshness/applicability state,
-- \(X_t\) = invalidation/recovery state.
+- (A_t) = active attention state,
+- (H_t) = relevant attention history,
+- (D_t) = deferred/unresolved items,
+- (G_t) = gap/contradiction state,
+- (P_t) = provenance/dependency references,
+- (F_t) = freshness/applicability state,
+- (X_t) = invalidation/recovery state.
 
 This equation is `AMOS_MODEL`, not recovered canon.
 
----
+______________________________________________________________________
 
-# 3. Typed Inputs
+## 3. Typed Inputs
 
 ```yaml
 AttentionMemoryInput:
@@ -247,9 +245,9 @@ AttentionMemoryInput:
     type: MemoryRetentionProposal?
 ```
 
----
+______________________________________________________________________
 
-# 4. Typed Outputs
+## 4. Typed Outputs
 
 ```yaml
 AttentionMemoryOutput:
@@ -296,9 +294,9 @@ MemoryWriteProposal
 MemoryCommit
 ```
 
----
+______________________________________________________________________
 
-# 5. State Variables
+## 5. State Variables
 
 ```text
 WM_t       active L02 working-memory state
@@ -327,9 +325,9 @@ Ret_t      retention class
 Exp_t      expiration/revalidation condition
 ```
 
----
+______________________________________________________________________
 
-# 6. Memory Classes
+## 6. Memory Classes
 
 L02 should distinguish at least:
 
@@ -360,9 +358,9 @@ RECOVERY_REF
 
 These classes must not be silently merged.
 
----
+______________________________________________________________________
 
-# 7. Operators
+## 7. Operators
 
 Proposed L02 memory operators:
 
@@ -430,15 +428,15 @@ Reduce memory footprint while preserving load-bearing distinctions.
 
 Recover a valid previous memory state after failure.
 
----
+______________________________________________________________________
 
-# 8. Invariants
+## 8. Invariants
 
 ## MEM-INV-001 — Memory ≠ Truth
 
-[
-Recall(x)\not\Rightarrow True(x)
-]
+\[
+Recall(x)\\not\\Rightarrow True(x)
+\]
 
 ## MEM-INV-002 — Memory ≠ Evidence
 
@@ -471,9 +469,9 @@ A regime-bound conclusion remains regime-bound after recall.
 
 ## MEM-INV-007 — Confidence Non-Inflation
 
-[
-Conf(recalled(x)) \le Conf(valid(x))
-]
+\[
+Conf(recalled(x)) \\le Conf(valid(x))
+\]
 
 Recall itself cannot increase confidence.
 
@@ -505,9 +503,9 @@ It does not obtain durable write authority merely by identifying useful memory.
 
 L02 may consume or propose memory objects without claiming ownership of the canonical `L07_MEMORY` primitive.
 
----
+______________________________________________________________________
 
-# 9. Dependencies
+## 9. Dependencies
 
 Primary conceptual dependency chain:
 
@@ -553,9 +551,9 @@ dependencies:
 
 The exact canonical dependency graph remains `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
-# 10. H/M/L Applicability
+## 10. H/M/L Applicability
 
 ## H — Governing Memory
 
@@ -604,9 +602,9 @@ L detail may be compressed or externalized
 only if H/M decision-relevant structure remains recoverable.
 ```
 
----
+______________________________________________________________________
 
-# 11. Control-Plane Requirements
+## 11. Control-Plane Requirements
 
 The control plane should own durable-memory effects involving:
 
@@ -646,9 +644,9 @@ CONTROL PLANE:
 
 Drive evidence supports the general need to distinguish memory addressability from durable control-plane validation.
 
----
+______________________________________________________________________
 
-# 12. Agents
+## 12. Agents
 
 Proposed logical roles:
 
@@ -670,9 +668,9 @@ ROLE DEFINITION
 IMPLEMENTED AGENT
 ```
 
----
+______________________________________________________________________
 
-# 13. Skills
+## 13. Skills
 
 Potential AMOS capabilities:
 
@@ -692,9 +690,9 @@ AMOS RSCF Modeler
 
 Skill availability does not prove canonical dependency or runtime use.
 
----
+______________________________________________________________________
 
-# 14. Workflow
+## 14. Workflow
 
 ```text
 RECEIVE attention result
@@ -727,9 +725,9 @@ CONTROL-PLANE VALIDATION
 COMMIT / REJECT / QUARANTINE
 ```
 
----
+______________________________________________________________________
 
-# 15. Protocol
+## 15. Protocol
 
 ```yaml
 L02AttentionMemoryCapsule:
@@ -779,9 +777,9 @@ L02AttentionMemoryCapsule:
   gaps: []
 ```
 
----
+______________________________________________________________________
 
-# 16. Evidence / Provenance
+## 16. Evidence / Provenance
 
 Every material memory object should preserve:
 
@@ -809,9 +807,9 @@ multiple independent sources
 
 Persistent recollection must not reset ancestry.
 
----
+______________________________________________________________________
 
-# 17. Uncertainty and Confidence Ceiling
+## 17. Uncertainty and Confidence Ceiling
 
 ```yaml
 uncertainty:
@@ -861,9 +859,9 @@ runtime enforcement:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 18. Failure Modes
+## 18. Failure Modes
 
 ```text
 FM-MEM-001  stale-memory reuse
@@ -885,9 +883,9 @@ FM-MEM-016  irrelevant memory capturing current attention
 FM-MEM-017  local memory overwriting governing H state
 ```
 
----
+______________________________________________________________________
 
-# 19. Repair / Recovery
+## 19. Repair / Recovery
 
 General repair:
 
@@ -937,9 +935,9 @@ restore externalized source
 → rerun dependent allocation only
 ```
 
----
+______________________________________________________________________
 
-# 20. Tests / Validators
+## 20. Tests / Validators
 
 Minimum validators:
 
@@ -1016,9 +1014,9 @@ Expected:
 do not blindly repeat path.
 ```
 
----
+______________________________________________________________________
 
-# 21. Falsifiers
+## 21. Falsifiers
 
 Revise this specification if canonical evidence establishes that:
 
@@ -1044,9 +1042,9 @@ canonical L02 memory semantics materially differ
 
 Runtime implementation claims are falsified if durable memory effects occur outside the declared governance boundary.
 
----
+______________________________________________________________________
 
-# 22. Gap Status
+## 22. Gap Status
 
 ```yaml
 gap_status:
@@ -1103,9 +1101,9 @@ and
 L07_MEMORY?
 ```
 
----
+______________________________________________________________________
 
-# 23. RSCF Completion State
+## 23. RSCF Completion State
 
 ```yaml
 rscf:
@@ -1189,9 +1187,9 @@ rscf:
     persistent retention, invalidation, and commit authority
 ```
 
----
+______________________________________________________________________
 
-# 24. Hard Boundaries
+## 24. Hard Boundaries
 
 ```text
 PLACEHOLDER != IMPLEMENTED
@@ -1235,9 +1233,9 @@ EXPIRED != FALSE
 DOCUMENTED MEMORY != IMPLEMENTED MEMORY
 ```
 
----
+______________________________________________________________________
 
-# 25. Completion State
+## 25. Completion State
 
 ```yaml
 completion_state:
@@ -1309,11 +1307,11 @@ completion_state:
     MODEL
 ```
 
-# 26. Governing Memory Contract
+## 26. Governing Memory Contract
 
 > **`L02_ATTENTION` may retain and retrieve the smallest sufficient state needed to allocate scarce attention coherently across cycles, but memory reuse must preserve epistemic class, provenance, dependencies, scope, regime, freshness, contradictions, competing hypotheses, and confidence ceilings. Recall does not constitute evidence or revalidation. L02 may propose durable retention, invalidation, or externalization, but durable effects remain subject to the appropriate control plane. The exact ownership boundary between L02 attention memory and the distinct `L07_MEMORY` primitive remains a critical canonical gap.**
 
-# 27. Conclusion Class
+## 27. Conclusion Class
 
 ```text
 SOURCE-SUPPORTED:
@@ -1335,22 +1333,27 @@ MODEL
 
 ```text
 ```
----
+
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: l02_attention_primitives_cognitive_matrix_memory
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION/L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_MEMORY.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION/L02_ATTENTION_MOC|L02_ATTENTION_MOC]]

@@ -80,92 +80,92 @@ claim_ceiling:
   tpe_runtime_capability: "NOT_ESTABLISHED"
 
 tags:
-- amos-os
-- amos
-- trang
-- trang_phan
-- tpe
-- tpe_model
-- tpe_registry
-- tpe_model_registry
-- tpe_prediction_layer
-- prediction_layer
-- prediction
-- predictive_model
-- forecasting
-- domain_model
-- domain_registry
-- model
-- models
-- specification
-- registry
-- model_registry
-- architecture
-- 04_domain
-- canon/model
-- canon/domain
-- canon_candidate
-- native_canon
-- canon_ingestion
-- source_claim
-- observation
-- derived
-- AMOS_MODEL
-- epistemic_regime
-- epistemic_class
-- conclusion_class
-- model_observation_firewall
-- prediction_observation_firewall
-- prediction_outcome_firewall
-- model_output_firewall
-- provenance
-- provenance_topology
-- source_ancestry
-- model_ancestry
-- provenance_independence
-- sybil_hardening
-- confidence_ceiling
-- calibration
-- uncertainty
-- uncertainty_vector
-- scope
-- regime
-- temporal_validity
-- freshness
-- causal_firewall
-- predictive_firewall
-- scope_firewall
-- regime_firewall
-- temporal_firewall
-- provenance_firewall
-- authority_firewall
-- equation_firewall
-- mathematical_firewall
-- competing_hypotheses
-- competing_models
-- contradiction
-- falsifier
-- sensitivity
-- unknown_gap
-- fail_closed
-- rscf
-- hml
-- proof_capsule
-- dependency_closure
-- selective_invalidation
-- governed_evolution
-- model_lifecycle
-- versioning
-- mvcc
-- cas
-- rollback
-- validation
-- validation_receipt
-- governance
-- add_only
-- no_overwrite
-- external_evidence
-- native_source_required
+  - amos-os
+  - amos
+  - trang
+  - trang_phan
+  - tpe
+  - tpe_model
+  - tpe_registry
+  - tpe_model_registry
+  - tpe_prediction_layer
+  - prediction_layer
+  - prediction
+  - predictive_model
+  - forecasting
+  - domain_model
+  - domain_registry
+  - model
+  - models
+  - specification
+  - registry
+  - model_registry
+  - architecture
+  - 04_domain
+  - canon/model
+  - canon/domain
+  - canon_candidate
+  - native_canon
+  - canon_ingestion
+  - source_claim
+  - observation
+  - derived
+  - AMOS_MODEL
+  - epistemic_regime
+  - epistemic_class
+  - conclusion_class
+  - model_observation_firewall
+  - prediction_observation_firewall
+  - prediction_outcome_firewall
+  - model_output_firewall
+  - provenance
+  - provenance_topology
+  - source_ancestry
+  - model_ancestry
+  - provenance_independence
+  - sybil_hardening
+  - confidence_ceiling
+  - calibration
+  - uncertainty
+  - uncertainty_vector
+  - scope
+  - regime
+  - temporal_validity
+  - freshness
+  - causal_firewall
+  - predictive_firewall
+  - scope_firewall
+  - regime_firewall
+  - temporal_firewall
+  - provenance_firewall
+  - authority_firewall
+  - equation_firewall
+  - mathematical_firewall
+  - competing_hypotheses
+  - competing_models
+  - contradiction
+  - falsifier
+  - sensitivity
+  - unknown_gap
+  - fail_closed
+  - rscf
+  - hml
+  - proof_capsule
+  - dependency_closure
+  - selective_invalidation
+  - governed_evolution
+  - model_lifecycle
+  - versioning
+  - mvcc
+  - cas
+  - rollback
+  - validation
+  - validation_receipt
+  - governance
+  - add_only
+  - no_overwrite
+  - external_evidence
+  - native_source_required
 rscf:
   state: "DERIVED"
   claim_class: "DERIVED"
@@ -178,7 +178,7 @@ rscf:
 
 # TPE Model Registry
 
-> [!abstract] Registry Position
+> [!ABSTRACT] Registry Position
 > `TPE_MODEL_REGISTRY.md` is the governed Models-plane registry surface reserved for the AMOS framework/model family identified by the source as **TPE**.
 >
 > Available AMOS corpus context associates the identifier `TPE` with a `TPE_prediction_layer` architectural anchor. That association is preserved here as a **SOURCE_CLAIM**.
@@ -187,9 +187,9 @@ rscf:
 >
 > Those surfaces remain `UNKNOWN/GAP` or `NOT_ESTABLISHED`.
 
----
+______________________________________________________________________
 
-# 0. Status
+## 0. Status
 
 Source state:
 
@@ -272,9 +272,9 @@ The expanded artifact defines the registry's governance and epistemic contract.
 
 It does not fabricate missing TPE canon.
 
----
+______________________________________________________________________
 
-# 1. Corpus Anchor
+## 1. Corpus Anchor
 
 Available AMOS corpus context contains the architectural identifier:
 
@@ -314,9 +314,9 @@ TPE VALIDATION
 TPE EXECUTABLE RUNTIME
 ```
 
----
+______________________________________________________________________
 
-# 2. Strongest Current Classification
+## 2. Strongest Current Classification
 
 ```text
 REGISTRY IDENTITY
@@ -404,9 +404,9 @@ TPE EXECUTABLE BINDING
 NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 3. Core Registry Law
+## 3. Core Registry Law
 
 ```text
 REGISTERED
@@ -432,9 +432,9 @@ EXECUTABLE
 AUTHORIZED
 ```
 
----
+______________________________________________________________________
 
-# 4. Core Prediction Law
+## 4. Core Prediction Law
 
 ```text
 PREDICTION
@@ -444,9 +444,9 @@ OBSERVATION
 
 This is the principal TPE registry firewall.
 
----
+______________________________________________________________________
 
-# 5. Prediction ≠ Outcome
+## 5. Prediction ≠ Outcome
 
 ```text
 PREDICTED(Y_t+n)
@@ -456,9 +456,9 @@ OBSERVED(Y_t+n)
 
 until the outcome is independently observed.
 
----
+______________________________________________________________________
 
-# 6. Prediction ≠ Future Fact
+## 6. Prediction ≠ Future Fact
 
 A prediction is not an observation from the future.
 
@@ -472,9 +472,9 @@ PREDICTION
 KNOWN FUTURE STATE
 ```
 
----
+______________________________________________________________________
 
-# 7. TPE Identity Firewall
+## 7. TPE Identity Firewall
 
 The strongest supported identifier is:
 
@@ -494,9 +494,9 @@ But the acronym's native expansion remains:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 8. Prediction-Layer Association
+## 8. Prediction-Layer Association
 
 Permitted statement:
 
@@ -514,9 +514,9 @@ AMOS prediction engine with algorithms X, Y, Z.
 
 The latter requires native evidence.
 
----
+______________________________________________________________________
 
-# 9. Acronym Integrity
+## 9. Acronym Integrity
 
 Forbidden:
 
@@ -550,9 +550,9 @@ VERIFY DEFINITION
 INGEST
 ```
 
----
+______________________________________________________________________
 
-# 10. Purpose
+## 10. Purpose
 
 The TPE Model Registry provides the governed address space for native TPE models once their source definitions are verified.
 
@@ -626,9 +626,9 @@ EXECUTABLE BINDING
 
 where supported by native sources.
 
----
+______________________________________________________________________
 
-# 11. Non-Purpose
+## 11. Non-Purpose
 
 This registry MUST NOT be used to claim:
 
@@ -646,9 +646,9 @@ This registry MUST NOT be used to claim:
 - authority merely from predictive capability;
 - successful validation merely because a model is registered.
 
----
+______________________________________________________________________
 
-# 12. Governing Boundaries
+## 12. Governing Boundaries
 
 ```text
 PLACEHOLDER
@@ -752,9 +752,9 @@ UNKNOWN/GAP
 PASS
 ```
 
----
+______________________________________________________________________
 
-# 13. Primary Epistemic Classes
+## 13. Primary Epistemic Classes
 
 The registry preserves exactly four primary AMOS knowledge classes:
 
@@ -768,9 +768,9 @@ DERIVED
 MODEL
 ```
 
----
+______________________________________________________________________
 
-# 14. SOURCE_CLAIM
+## 14. SOURCE_CLAIM
 
 Example:
 
@@ -787,9 +787,9 @@ SOURCE_CLAIM
 
 It must not silently promote this to verified predictive validity.
 
----
+______________________________________________________________________
 
-# 15. OBSERVATION
+## 15. OBSERVATION
 
 An observation requires an observation process.
 
@@ -805,9 +805,9 @@ OBSERVATION:
   provenance:
 ```
 
----
+______________________________________________________________________
 
-# 16. DERIVED
+## 16. DERIVED
 
 A derived conclusion requires premises and a transformation.
 
@@ -821,9 +821,9 @@ TRANSFORMATION T
 DERIVED C
 ```
 
----
+______________________________________________________________________
 
-# 17. MODEL
+## 17. MODEL
 
 A forecast, simulation, predictive distribution, classification, risk score, trend projection, scenario estimate, or other TPE representation remains:
 
@@ -833,25 +833,25 @@ MODEL
 
 unless a particular associated proposition has stronger warranted classification.
 
----
+______________________________________________________________________
 
-# 18. UNKNOWN/GAP
+## 18. UNKNOWN/GAP
 
 `UNKNOWN/GAP` is an unresolved state.
 
 It is not a fifth primary epistemic class.
 
----
+______________________________________________________________________
 
-# 19. DECISION
+## 19. DECISION
 
 A decision is an action/governance object.
 
 It is not a fifth primary epistemic class.
 
----
+______________________________________________________________________
 
-# 20. Conclusion Classes
+## 20. Conclusion Classes
 
 ```text
 VERIFIED
@@ -869,9 +869,9 @@ UNKNOWN/GAP
 
 Use the weakest accurate class.
 
----
+______________________________________________________________________
 
-# 21. Prediction Epistemics
+## 21. Prediction Epistemics
 
 A future-oriented TPE output should conceptually remain:
 
@@ -893,9 +893,9 @@ PROVENANCE
 
 until compared with subsequent observation.
 
----
+______________________________________________________________________
 
-# 22. Prediction Lifecycle
+## 22. Prediction Lifecycle
 
 ```text
 INPUT STATE
@@ -913,9 +913,9 @@ COMPARE
 ERROR / CALIBRATION / VALIDATION UPDATE
 ```
 
----
+______________________________________________________________________
 
-# 23. Prediction Before Outcome
+## 23. Prediction Before Outcome
 
 Before target resolution:
 
@@ -927,9 +927,9 @@ UNKNOWN
 
 The model output does not change this.
 
----
+______________________________________________________________________
 
-# 24. Prediction After Outcome
+## 24. Prediction After Outcome
 
 After observation:
 
@@ -943,15 +943,15 @@ EVALUATION
 
 The original prediction must remain preserved.
 
----
+______________________________________________________________________
 
-# 25. No Retroactive Prediction Mutation
+## 25. No Retroactive Prediction Mutation
 
 A forecast must not be silently edited after the target outcome becomes known.
 
----
+______________________________________________________________________
 
-# 26. Forecast Provenance
+## 26. Forecast Provenance
 
 A consequential forecast should preserve:
 
@@ -975,15 +975,15 @@ CONFIGURATION
 PROVENANCE
 ```
 
----
+______________________________________________________________________
 
-# 27. Prediction Timestamp
+## 27. Prediction Timestamp
 
 Every prediction requires a time boundary where temporal semantics matter.
 
----
+______________________________________________________________________
 
-# 28. Target Timestamp
+## 28. Target Timestamp
 
 Prediction time and target time are distinct.
 
@@ -993,9 +993,9 @@ t_prediction
 t_target
 ```
 
----
+______________________________________________________________________
 
-# 29. Prediction Horizon
+## 29. Prediction Horizon
 
 Conceptually:
 
@@ -1007,9 +1007,9 @@ t_target - t_prediction
 
 This is generic normalized semantics, not asserted as a native TPE equation.
 
----
+______________________________________________________________________
 
-# 30. Horizon Integrity
+## 30. Horizon Integrity
 
 ```text
 VALID AT H1
@@ -1019,9 +1019,9 @@ VALID AT H2
 
 A short-horizon model does not automatically generalize to long horizons.
 
----
+______________________________________________________________________
 
-# 31. Forecast Horizon Contract
+## 31. Forecast Horizon Contract
 
 ```yaml
 TPE_HORIZON:
@@ -1032,15 +1032,15 @@ TPE_HORIZON:
   valid_range:
 ```
 
----
+______________________________________________________________________
 
-# 32. Target
+## 32. Target
 
 Every predictive model should identify what is being predicted.
 
----
+______________________________________________________________________
 
-# 33. Target Contract
+## 33. Target Contract
 
 ```yaml
 TPE_TARGET:
@@ -1054,21 +1054,21 @@ TPE_TARGET:
   regime:
 ```
 
----
+______________________________________________________________________
 
-# 34. Target Ambiguity
+## 34. Target Ambiguity
 
 An ambiguous target makes evaluation ambiguous.
 
----
+______________________________________________________________________
 
-# 35. Target Resolution
+## 35. Target Resolution
 
 The observation process that resolves a target must be specified separately from the prediction.
 
----
+______________________________________________________________________
 
-# 36. Prediction ≠ Target Resolution
+## 36. Prediction ≠ Target Resolution
 
 ```text
 MODEL SAYS Y
@@ -1076,15 +1076,15 @@ MODEL SAYS Y
 Y WAS OBSERVED
 ```
 
----
+______________________________________________________________________
 
-# 37. Input Window
+## 37. Input Window
 
 Predictive models may consume information available before a prediction cutoff.
 
----
+______________________________________________________________________
 
-# 38. Temporal Leakage Firewall
+## 38. Temporal Leakage Firewall
 
 ```text
 INFORMATION AFTER
@@ -1093,9 +1093,9 @@ PREDICTION CUTOFF
 
 must not silently enter a historical prediction test.
 
----
+______________________________________________________________________
 
-# 39. Look-Ahead Bias
+## 39. Look-Ahead Bias
 
 Conceptually:
 
@@ -1108,15 +1108,15 @@ POTENTIAL LOOK-AHEAD BIAS
 
 where applicable.
 
----
+______________________________________________________________________
 
-# 40. Data Leakage
+## 40. Data Leakage
 
 Training/evaluation leakage may invalidate apparent predictive performance.
 
----
+______________________________________________________________________
 
-# 41. Leakage ≠ Genuine Prediction
+## 41. Leakage ≠ Genuine Prediction
 
 ```text
 LEAKAGE-ASSISTED ACCURACY
@@ -1124,9 +1124,9 @@ LEAKAGE-ASSISTED ACCURACY
 VALID FORECASTING PERFORMANCE
 ```
 
----
+______________________________________________________________________
 
-# 42. Input Contract
+## 42. Input Contract
 
 ```yaml
 TPE_MODEL_INPUT:
@@ -1145,21 +1145,21 @@ TPE_MODEL_INPUT:
   freshness:
 ```
 
----
+______________________________________________________________________
 
-# 43. Input Provenance
+## 43. Input Provenance
 
 Input provenance may materially alter forecast validity.
 
----
+______________________________________________________________________
 
-# 44. Input Freshness
+## 44. Input Freshness
 
 Stale data may reduce or invalidate predictive applicability.
 
----
+______________________________________________________________________
 
-# 45. Missing Critical Input
+## 45. Missing Critical Input
 
 ```text
 CRITICAL INPUT MISSING
@@ -1171,9 +1171,9 @@ HOLD OR DEGRADE
 
 according to explicit model contract.
 
----
+______________________________________________________________________
 
-# 46. Imputation
+## 46. Imputation
 
 Imputed data must remain distinguishable from observed data.
 
@@ -1183,9 +1183,9 @@ IMPUTED
 OBSERVED
 ```
 
----
+______________________________________________________________________
 
-# 47. Feature
+## 47. Feature
 
 If native TPE models use features, each should have typed semantics.
 
@@ -1202,9 +1202,9 @@ TPE_FEATURE:
   provenance:
 ```
 
----
+______________________________________________________________________
 
-# 48. Feature ≠ Cause
+## 48. Feature ≠ Cause
 
 ```text
 PREDICTIVE FEATURE
@@ -1212,9 +1212,9 @@ PREDICTIVE FEATURE
 CAUSAL FACTOR
 ```
 
----
+______________________________________________________________________
 
-# 49. Importance ≠ Causality
+## 49. Importance ≠ Causality
 
 ```text
 MODEL FEATURE IMPORTANCE
@@ -1222,15 +1222,15 @@ MODEL FEATURE IMPORTANCE
 CAUSAL EFFECT
 ```
 
----
+______________________________________________________________________
 
-# 50. Correlated Feature
+## 50. Correlated Feature
 
 A feature may predict because it proxies another variable.
 
----
+______________________________________________________________________
 
-# 51. Proxy ≠ Mechanism
+## 51. Proxy ≠ Mechanism
 
 ```text
 PROXY
@@ -1238,15 +1238,15 @@ PROXY
 MECHANISM
 ```
 
----
+______________________________________________________________________
 
-# 52. Model Identity
+## 52. Model Identity
 
 Each future native TPE model requires a stable identity.
 
----
+______________________________________________________________________
 
-# 53. Model Entry Contract
+## 53. Model Entry Contract
 
 ```yaml
 TPE_MODEL_ENTRY:
@@ -1346,9 +1346,9 @@ TPE_MODEL_ENTRY:
     revalidation_epoch:
 ```
 
----
+______________________________________________________________________
 
-# 54. Native Naming Convention
+## 54. Native Naming Convention
 
 Current native TPE model naming convention:
 
@@ -1356,9 +1356,9 @@ Current native TPE model naming convention:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 55. Normalized Model ID
+## 55. Normalized Model ID
 
 Possible AMOS-normalized form:
 
@@ -1370,9 +1370,9 @@ This is a registry normalization proposal.
 
 It is not native TPE canon.
 
----
+______________________________________________________________________
 
-# 56. Model Family
+## 56. Model Family
 
 Current native TPE model families:
 
@@ -1380,9 +1380,9 @@ Current native TPE model families:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 57. No Invented Model Families
+## 57. No Invented Model Families
 
 Do not invent families such as:
 
@@ -1404,9 +1404,9 @@ TPE CRISIS
 
 without native source support.
 
----
+______________________________________________________________________
 
-# 58. Generic Predictive Model Types
+## 58. Generic Predictive Model Types
 
 The registry schema may support generic classes such as:
 
@@ -1438,23 +1438,23 @@ These are registry vocabulary.
 
 They do not assert that native TPE contains these types.
 
----
+______________________________________________________________________
 
-# 59. Native TPE Model Types
+## 59. Native TPE Model Types
 
 ```text
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 60. Native Definition
+## 60. Native Definition
 
 Every recovered model should preserve its native definition.
 
----
+______________________________________________________________________
 
-# 61. Native ≠ Normalized
+## 61. Native ≠ Normalized
 
 ```text
 NATIVE DEFINITION
@@ -1462,9 +1462,9 @@ NATIVE DEFINITION
 AMOS NORMALIZED DEFINITION
 ```
 
----
+______________________________________________________________________
 
-# 62. Definition Contract
+## 62. Definition Contract
 
 ```yaml
 TPE_MODEL_DEFINITION:
@@ -1477,9 +1477,9 @@ TPE_MODEL_DEFINITION:
   source_version:
 ```
 
----
+______________________________________________________________________
 
-# 63. Variables
+## 63. Variables
 
 ```yaml
 TPE_VARIABLE:
@@ -1497,9 +1497,9 @@ TPE_VARIABLE:
   source_ref:
 ```
 
----
+______________________________________________________________________
 
-# 64. Same Symbol ≠ Same Variable
+## 64. Same Symbol ≠ Same Variable
 
 ```text
 X IN TPE MODEL A
@@ -1509,9 +1509,9 @@ X IN TPE MODEL B
 
 unless semantic identity is established.
 
----
+______________________________________________________________________
 
-# 65. Parameters
+## 65. Parameters
 
 ```yaml
 TPE_PARAMETER:
@@ -1528,9 +1528,9 @@ TPE_PARAMETER:
   provenance:
 ```
 
----
+______________________________________________________________________
 
-# 66. Parameter ≠ Universal Constant
+## 66. Parameter ≠ Universal Constant
 
 ```text
 FITTED PARAMETER
@@ -1538,15 +1538,15 @@ FITTED PARAMETER
 UNIVERSAL CONSTANT
 ```
 
----
+______________________________________________________________________
 
-# 67. Assumptions
+## 67. Assumptions
 
 Predictive assumptions must be visible.
 
----
+______________________________________________________________________
 
-# 68. Assumption Contract
+## 68. Assumption Contract
 
 ```yaml
 TPE_ASSUMPTION:
@@ -1560,17 +1560,17 @@ TPE_ASSUMPTION:
   falsifier:
 ```
 
----
+______________________________________________________________________
 
-# 69. Stationarity Assumption
+## 69. Stationarity Assumption
 
 If a future model assumes stability of a distribution or process, that assumption must be explicit.
 
 No such native TPE assumption is currently established.
 
----
+______________________________________________________________________
 
-# 70. Distribution Shift
+## 70. Distribution Shift
 
 Conceptually:
 
@@ -1584,39 +1584,39 @@ R1 != R2
 PREDICTIVE VALIDITY MAY CHANGE
 ```
 
----
+______________________________________________________________________
 
-# 71. Regime Shift
+## 71. Regime Shift
 
 Prediction validity must be re-evaluated when the operative regime changes materially.
 
----
+______________________________________________________________________
 
-# 72. Model Drift
+## 72. Model Drift
 
 A model may become less valid while remaining unchanged.
 
----
+______________________________________________________________________
 
-# 73. Data Drift
+## 73. Data Drift
 
 Input distributions may change.
 
----
+______________________________________________________________________
 
-# 74. Concept Drift
+## 74. Concept Drift
 
 Relations between inputs and target may change.
 
----
+______________________________________________________________________
 
-# 75. Drift ≠ Immediate Total Failure
+## 75. Drift ≠ Immediate Total Failure
 
 Drift may narrow confidence or applicability rather than invalidate every model component.
 
----
+______________________________________________________________________
 
-# 76. Drift Contract
+## 76. Drift Contract
 
 ```yaml
 TPE_DRIFT:
@@ -1630,9 +1630,9 @@ TPE_DRIFT:
   required_action:
 ```
 
----
+______________________________________________________________________
 
-# 77. Equations
+## 77. Equations
 
 Current native TPE equation inventory:
 
@@ -1640,9 +1640,9 @@ Current native TPE equation inventory:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 78. Equation Contract
+## 78. Equation Contract
 
 ```yaml
 TPE_EQUATION:
@@ -1665,9 +1665,9 @@ TPE_EQUATION:
   implementation_status:
 ```
 
----
+______________________________________________________________________
 
-# 79. Equation ≠ Empirical Law
+## 79. Equation ≠ Empirical Law
 
 ```text
 EQUATION
@@ -1675,9 +1675,9 @@ EQUATION
 EMPIRICAL LAW
 ```
 
----
+______________________________________________________________________
 
-# 80. Formula ≠ Forecast Validity
+## 80. Formula ≠ Forecast Validity
 
 ```text
 FORMULA EXISTS
@@ -1685,21 +1685,21 @@ FORMULA EXISTS
 FORMULA PREDICTS WELL
 ```
 
----
+______________________________________________________________________
 
-# 81. Formal Proof ≠ Forecast Accuracy
+## 81. Formal Proof ≠ Forecast Accuracy
 
 A theorem about a predictive model does not establish empirical forecasting performance.
 
----
+______________________________________________________________________
 
-# 82. Forecast Accuracy ≠ Formal Proof
+## 82. Forecast Accuracy ≠ Formal Proof
 
 Empirical accuracy does not prove a mathematical theorem.
 
----
+______________________________________________________________________
 
-# 83. Prediction Output
+## 83. Prediction Output
 
 Generic output contract:
 
@@ -1720,21 +1720,21 @@ TPE_PREDICTION:
   provenance:
 ```
 
----
+______________________________________________________________________
 
-# 84. Point Prediction
+## 84. Point Prediction
 
 A point estimate alone does not encode complete uncertainty.
 
----
+______________________________________________________________________
 
-# 85. Interval Prediction
+## 85. Interval Prediction
 
 An interval requires explicit semantics.
 
----
+______________________________________________________________________
 
-# 86. Interval Semantics
+## 86. Interval Semantics
 
 Do not silently equate:
 
@@ -1748,9 +1748,9 @@ CREDIBLE INTERVAL
 HEURISTIC RANGE
 ```
 
----
+______________________________________________________________________
 
-# 87. Probability Output
+## 87. Probability Output
 
 If a TPE model outputs probability:
 
@@ -1760,9 +1760,9 @@ P(Y)
 
 the interpretation must be defined.
 
----
+______________________________________________________________________
 
-# 88. Probability ≠ Certainty
+## 88. Probability ≠ Certainty
 
 ```text
 P = 0.99
@@ -1770,9 +1770,9 @@ P = 0.99
 CERTAINTY
 ```
 
----
+______________________________________________________________________
 
-# 89. Score ≠ Probability
+## 89. Score ≠ Probability
 
 ```text
 SCORE
@@ -1782,15 +1782,15 @@ PROBABILITY
 
 unless the model explicitly defines and validates that interpretation.
 
----
+______________________________________________________________________
 
-# 90. Confidence ≠ Probability
+## 90. Confidence ≠ Probability
 
 AMOS confidence metadata must not silently become a probability forecast.
 
----
+______________________________________________________________________
 
-# 91. Confidence Ceiling
+## 91. Confidence Ceiling
 
 For derived conclusions:
 
@@ -1807,9 +1807,9 @@ MIN(
 
 for load-bearing premises unless independently revalidated.
 
----
+______________________________________________________________________
 
-# 92. Prediction Confidence
+## 92. Prediction Confidence
 
 Prediction confidence must not exceed what its:
 
@@ -1831,15 +1831,15 @@ PROVENANCE
 
 support.
 
----
+______________________________________________________________________
 
-# 93. Uncertainty
+## 93. Uncertainty
 
 Predictive uncertainty should remain explicit.
 
----
+______________________________________________________________________
 
-# 94. Uncertainty Types
+## 94. Uncertainty Types
 
 Generic schema may distinguish:
 
@@ -1861,9 +1861,9 @@ EXECUTION UNCERTAINTY
 
 where relevant.
 
----
+______________________________________________________________________
 
-# 95. Unknown Uncertainty
+## 95. Unknown Uncertainty
 
 If uncertainty cannot be quantified:
 
@@ -1875,9 +1875,9 @@ UNKNOWN/GAP
 
 is preferable to invented precision.
 
----
+______________________________________________________________________
 
-# 96. Precision ≠ Accuracy
+## 96. Precision ≠ Accuracy
 
 ```text
 PRECISE NUMBER
@@ -1885,9 +1885,9 @@ PRECISE NUMBER
 ACCURATE PREDICTION
 ```
 
----
+______________________________________________________________________
 
-# 97. Calibration
+## 97. Calibration
 
 Calibration asks whether forecast confidence corresponds appropriately to observed frequencies or other declared target semantics.
 
@@ -1897,9 +1897,9 @@ Native TPE calibration methodology:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 98. Calibration Contract
+## 98. Calibration Contract
 
 ```yaml
 TPE_CALIBRATION:
@@ -1917,15 +1917,15 @@ TPE_CALIBRATION:
   provenance:
 ```
 
----
+______________________________________________________________________
 
-# 99. Calibrated ≠ Correct Every Time
+## 99. Calibrated ≠ Correct Every Time
 
 A calibrated probabilistic model can produce individual incorrect predictions.
 
----
+______________________________________________________________________
 
-# 100. Accuracy ≠ Calibration
+## 100. Accuracy ≠ Calibration
 
 ```text
 ACCURACY
@@ -1933,21 +1933,21 @@ ACCURACY
 CALIBRATION
 ```
 
----
+______________________________________________________________________
 
-# 101. Calibration ≠ Discrimination
+## 101. Calibration ≠ Discrimination
 
 A model can be calibrated yet weak at ranking cases.
 
----
+______________________________________________________________________
 
-# 102. Evaluation
+## 102. Evaluation
 
 A TPE prediction requires evaluation only after its target is resolvable.
 
----
+______________________________________________________________________
 
-# 103. Evaluation Contract
+## 103. Evaluation Contract
 
 ```yaml
 TPE_PREDICTION_EVALUATION:
@@ -1963,9 +1963,9 @@ TPE_PREDICTION_EVALUATION:
   provenance:
 ```
 
----
+______________________________________________________________________
 
-# 104. Prediction Error
+## 104. Prediction Error
 
 Conceptually:
 
@@ -1980,33 +1980,33 @@ COMPARE(
 
 The exact error function depends on model semantics.
 
----
+______________________________________________________________________
 
-# 105. Error ≠ Model Worthlessness
+## 105. Error ≠ Model Worthlessness
 
 One failed forecast does not necessarily invalidate the entire model.
 
----
+______________________________________________________________________
 
-# 106. Success ≠ Universal Validity
+## 106. Success ≠ Universal Validity
 
 One successful forecast does not validate the entire model.
 
----
+______________________________________________________________________
 
-# 107. Error Distribution
+## 107. Error Distribution
 
 Predictive evaluation should consider patterns of error rather than only isolated cases where appropriate.
 
----
+______________________________________________________________________
 
-# 108. Backtesting
+## 108. Backtesting
 
 Backtesting evaluates a model against historical data under a defined replay protocol.
 
----
+______________________________________________________________________
 
-# 109. Backtest ≠ Forward Validation
+## 109. Backtest ≠ Forward Validation
 
 ```text
 BACKTEST_SUCCESS
@@ -2014,15 +2014,15 @@ BACKTEST_SUCCESS
 FORWARD_VALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 110. Backtest Leakage
+## 110. Backtest Leakage
 
 A backtest must not contain information that would have been unavailable at prediction time.
 
----
+______________________________________________________________________
 
-# 111. Historical Replay
+## 111. Historical Replay
 
 Conceptually:
 
@@ -2038,15 +2038,15 @@ GENERATE PREDICTION
 COMPARE WITH LATER OBSERVATION
 ```
 
----
+______________________________________________________________________
 
-# 112. Retrospective Fit
+## 112. Retrospective Fit
 
 Fitting a model after observing outcomes is not equivalent to having predicted those outcomes prospectively.
 
----
+______________________________________________________________________
 
-# 113. Retrodiction ≠ Prediction
+## 113. Retrodiction ≠ Prediction
 
 ```text
 EXPLAINING PAST DATA
@@ -2054,15 +2054,15 @@ EXPLAINING PAST DATA
 PREDICTING UNSEEN FUTURE DATA
 ```
 
----
+______________________________________________________________________
 
-# 114. Forward Validation
+## 114. Forward Validation
 
 Prospective predictions should be timestamped before target resolution.
 
----
+______________________________________________________________________
 
-# 115. Prediction Receipt
+## 115. Prediction Receipt
 
 ```yaml
 TPE_PREDICTION_RECEIPT:
@@ -2080,17 +2080,17 @@ TPE_PREDICTION_RECEIPT:
   provenance:
 ```
 
----
+______________________________________________________________________
 
-# 116. Immutable Prediction Record
+## 116. Immutable Prediction Record
 
 After issuance, a prediction record should be append-only where auditability matters.
 
 Corrections should create new records rather than silently rewriting history.
 
----
+______________________________________________________________________
 
-# 117. Forecast Revision
+## 117. Forecast Revision
 
 A revised prediction is a new forecast state.
 
@@ -2100,9 +2100,9 @@ FORECAST V1
 FORECAST V2
 ```
 
----
+______________________________________________________________________
 
-# 118. Revision Lineage
+## 118. Revision Lineage
 
 ```text
 P1
@@ -2114,33 +2114,33 @@ P2
 
 Both predictions should remain recoverable.
 
----
+______________________________________________________________________
 
-# 119. Revision ≠ Original Accuracy
+## 119. Revision ≠ Original Accuracy
 
 A later revision must not be used to rewrite the earlier model's historical accuracy.
 
----
+______________________________________________________________________
 
-# 120. Baseline
+## 120. Baseline
 
 Predictive performance should be interpreted against an appropriate baseline where meaningful.
 
----
+______________________________________________________________________
 
-# 121. Baseline ≠ Universal Comparator
+## 121. Baseline ≠ Universal Comparator
 
 The appropriate baseline depends on target and evaluation context.
 
----
+______________________________________________________________________
 
-# 122. Benchmark
+## 122. Benchmark
 
 A benchmark provides scoped evaluation.
 
----
+______________________________________________________________________
 
-# 123. Benchmark Success ≠ Universal Validity
+## 123. Benchmark Success ≠ Universal Validity
 
 ```text
 BENCHMARK PASS
@@ -2148,35 +2148,35 @@ BENCHMARK PASS
 UNIVERSAL PREDICTIVE VALIDITY
 ```
 
----
+______________________________________________________________________
 
-# 124. Metric
+## 124. Metric
 
 Metrics must match prediction semantics.
 
----
+______________________________________________________________________
 
-# 125. Metric ≠ Objective Truth
+## 125. Metric ≠ Objective Truth
 
 A metric is an evaluation function.
 
 It may omit relevant dimensions.
 
----
+______________________________________________________________________
 
-# 126. Metric Gaming
+## 126. Metric Gaming
 
 Optimization against one metric may degrade unmeasured properties.
 
----
+______________________________________________________________________
 
-# 127. Multiple Metrics
+## 127. Multiple Metrics
 
 Multiple metrics may be required when no single measure captures decision-relevant performance.
 
----
+______________________________________________________________________
 
-# 128. Predictive Performance ≠ Decision Utility
+## 128. Predictive Performance ≠ Decision Utility
 
 ```text
 GOOD PREDICTION
@@ -2200,9 +2200,9 @@ AUTHORITY
 CONTEXT
 ```
 
----
+______________________________________________________________________
 
-# 129. Prediction ≠ Recommendation
+## 129. Prediction ≠ Recommendation
 
 ```text
 FORECAST
@@ -2210,9 +2210,9 @@ FORECAST
 RECOMMENDATION
 ```
 
----
+______________________________________________________________________
 
-# 130. Recommendation ≠ Authorization
+## 130. Recommendation ≠ Authorization
 
 ```text
 RECOMMENDATION
@@ -2220,9 +2220,9 @@ RECOMMENDATION
 AUTHORIZATION
 ```
 
----
+______________________________________________________________________
 
-# 131. Predictive Capability ≠ Authority
+## 131. Predictive Capability ≠ Authority
 
 ```text
 CAPABILITY
@@ -2232,9 +2232,9 @@ AUTHORITY
 
 A highly predictive model still does not authorize consequential action.
 
----
+______________________________________________________________________
 
-# 132. Decision Boundary
+## 132. Decision Boundary
 
 Conceptually:
 
@@ -2258,15 +2258,15 @@ AUTOMATIC AUTHORITY
 
 unless explicitly governed and validated.
 
----
+______________________________________________________________________
 
-# 133. Prediction and Causation
+## 133. Prediction and Causation
 
 TPE predictive models must distinguish prediction from causal inference.
 
----
+______________________________________________________________________
 
-# 134. Causal Firewall
+## 134. Causal Firewall
 
 ```text
 PREDICTS
@@ -2274,53 +2274,53 @@ PREDICTS
 CAUSES
 ```
 
----
+______________________________________________________________________
 
-# 135. Association
+## 135. Association
 
 Association may support prediction without mechanism.
 
----
+______________________________________________________________________
 
-# 136. Correlation
+## 136. Correlation
 
 Correlation may be predictive.
 
 It does not establish causal direction.
 
----
+______________________________________________________________________
 
-# 137. Mechanism
+## 137. Mechanism
 
 A mechanism claim requires appropriately typed evidence.
 
----
+______________________________________________________________________
 
-# 138. Confounding
+## 138. Confounding
 
 Predictive association may arise from a third factor.
 
----
+______________________________________________________________________
 
-# 139. Mediation
+## 139. Mediation
 
 A relation may operate through intermediate variables.
 
----
+______________________________________________________________________
 
-# 140. Feedback
+## 140. Feedback
 
 Prediction targets may be embedded in feedback systems.
 
----
+______________________________________________________________________
 
-# 141. Intervention Effect
+## 141. Intervention Effect
 
 Predicting an outcome under observed conditions is distinct from predicting the effect of intervention.
 
----
+______________________________________________________________________
 
-# 142. Observational Prediction ≠ Intervention Prediction
+## 142. Observational Prediction ≠ Intervention Prediction
 
 ```text
 P(Y | X)
@@ -2334,9 +2334,9 @@ EFFECT OF DOING X
 
 without causal justification.
 
----
+______________________________________________________________________
 
-# 143. Structural Similarity ≠ Causation
+## 143. Structural Similarity ≠ Causation
 
 ```text
 STRUCTURE A
@@ -2346,9 +2346,9 @@ STRUCTURE B
 
 does not establish a shared causal mechanism.
 
----
+______________________________________________________________________
 
-# 144. Sequence ≠ Causation
+## 144. Sequence ≠ Causation
 
 ```text
 A BEFORE B
@@ -2356,9 +2356,9 @@ A BEFORE B
 A CAUSED B
 ```
 
----
+______________________________________________________________________
 
-# 145. Co-Occurrence ≠ Causation
+## 145. Co-Occurrence ≠ Causation
 
 ```text
 A WITH B
@@ -2366,21 +2366,21 @@ A WITH B
 A CAUSED B
 ```
 
----
+______________________________________________________________________
 
-# 146. Predictive Feature Importance ≠ Intervention Target
+## 146. Predictive Feature Importance ≠ Intervention Target
 
 A high-importance feature is not automatically a valid intervention target.
 
----
+______________________________________________________________________
 
-# 147. Scope
+## 147. Scope
 
 Every consequential TPE model inherits an applicability envelope.
 
----
+______________________________________________________________________
 
-# 148. Scope Contract
+## 148. Scope Contract
 
 ```yaml
 TPE_SCOPE:
@@ -2396,9 +2396,9 @@ TPE_SCOPE:
   assumptions:
 ```
 
----
+______________________________________________________________________
 
-# 149. Domain Scope
+## 149. Domain Scope
 
 ```text
 VALID IN DOMAIN D1
@@ -2406,15 +2406,15 @@ VALID IN DOMAIN D1
 VALID IN D2
 ```
 
----
+______________________________________________________________________
 
-# 150. Population Scope
+## 150. Population Scope
 
 Population-level prediction does not automatically establish individual-level prediction.
 
----
+______________________________________________________________________
 
-# 151. Environment Scope
+## 151. Environment Scope
 
 ```text
 VALID IN E1
@@ -2422,9 +2422,9 @@ VALID IN E1
 VALID IN E2
 ```
 
----
+______________________________________________________________________
 
-# 152. Scale Scope
+## 152. Scale Scope
 
 ```text
 VALID AT SCALE S1
@@ -2432,39 +2432,39 @@ VALID AT SCALE S1
 VALID AT SCALE S2
 ```
 
----
+______________________________________________________________________
 
-# 153. Temporal Scope
+## 153. Temporal Scope
 
 Predictive performance may decay across time.
 
----
+______________________________________________________________________
 
-# 154. Horizon Scope
+## 154. Horizon Scope
 
 A model may have different validity at different horizons.
 
----
+______________________________________________________________________
 
-# 155. Measurement Scope
+## 155. Measurement Scope
 
 Target measurement changes may invalidate prior evaluation.
 
----
+______________________________________________________________________
 
-# 156. Scope Leakage
+## 156. Scope Leakage
 
 A model validated in one applicability envelope must not silently generalize beyond it.
 
----
+______________________________________________________________________
 
-# 157. Regime
+## 157. Regime
 
 Predictive validity is regime-aware.
 
----
+______________________________________________________________________
 
-# 158. Regime Contract
+## 158. Regime Contract
 
 ```yaml
 TPE_REGIME:
@@ -2479,9 +2479,9 @@ TPE_REGIME:
   invalidation_conditions:
 ```
 
----
+______________________________________________________________________
 
-# 159. Regime Shift
+## 159. Regime Shift
 
 ```text
 VALIDATED IN R1
@@ -2491,9 +2491,9 @@ CURRENT SYSTEM IN R2
 VALIDATED IN R2
 ```
 
----
+______________________________________________________________________
 
-# 160. Regime Detection
+## 160. Regime Detection
 
 A model may require explicit detection of regime changes before reuse.
 
@@ -2503,15 +2503,15 @@ Native TPE regime-detection mechanisms:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 161. Freshness
+## 161. Freshness
 
 Prediction depends strongly on temporal validity.
 
----
+______________________________________________________________________
 
-# 162. Freshness Axes
+## 162. Freshness Axes
 
 Track independently where material:
 
@@ -2533,9 +2533,9 @@ POLICY FRESHNESS
 ENVIRONMENT FRESHNESS
 ```
 
----
+______________________________________________________________________
 
-# 163. Observed ≠ Current
+## 163. Observed ≠ Current
 
 ```text
 OBSERVED
@@ -2545,9 +2545,9 @@ CURRENT
 
 unless freshness is established.
 
----
+______________________________________________________________________
 
-# 164. Historical Accuracy ≠ Current Accuracy
+## 164. Historical Accuracy ≠ Current Accuracy
 
 ```text
 HISTORICALLY ACCURATE
@@ -2555,9 +2555,9 @@ HISTORICALLY ACCURATE
 CURRENTLY ACCURATE
 ```
 
----
+______________________________________________________________________
 
-# 165. Temporal Validity Contract
+## 165. Temporal Validity Contract
 
 ```yaml
 TPE_TEMPORAL_VALIDITY:
@@ -2568,15 +2568,15 @@ TPE_TEMPORAL_VALIDITY:
   invalidation_event:
 ```
 
----
+______________________________________________________________________
 
-# 166. Provenance
+## 166. Provenance
 
 Every load-bearing TPE claim should remain traceable.
 
----
+______________________________________________________________________
 
-# 167. Provenance Contract
+## 167. Provenance Contract
 
 ```yaml
 TPE_MODEL_PROVENANCE:
@@ -2603,9 +2603,9 @@ TPE_MODEL_PROVENANCE:
   updated:
 ```
 
----
+______________________________________________________________________
 
-# 168. Prediction Ancestry
+## 168. Prediction Ancestry
 
 A forecast may depend on:
 
@@ -2627,9 +2627,9 @@ CONFIGURATION
 REGIME CLASSIFICATION
 ```
 
----
+______________________________________________________________________
 
-# 169. Evaluation Ancestry
+## 169. Evaluation Ancestry
 
 An evaluation may depend on:
 
@@ -2647,9 +2647,9 @@ EVALUATION CODE
 ENVIRONMENT
 ```
 
----
+______________________________________________________________________
 
-# 170. Persistent Provenance
+## 170. Persistent Provenance
 
 Provenance should survive:
 
@@ -2667,9 +2667,9 @@ INVALIDATION
 ARCHIVAL
 ```
 
----
+______________________________________________________________________
 
-# 171. Provenance Topology
+## 171. Provenance Topology
 
 Conceptually:
 
@@ -2684,9 +2684,9 @@ SOURCE S0
 
 M1 and M2 are not automatically independent if both derive from S0.
 
----
+______________________________________________________________________
 
-# 172. Repetition ≠ Independence
+## 172. Repetition ≠ Independence
 
 ```text
 MULTIPLE PREDICTIONS
@@ -2695,9 +2695,9 @@ FROM THE SAME MODEL
 MULTIPLE INDEPENDENT MODELS
 ```
 
----
+______________________________________________________________________
 
-# 173. Model Diversity ≠ Provenance Independence
+## 173. Model Diversity ≠ Provenance Independence
 
 Different model names may share:
 
@@ -2715,9 +2715,9 @@ ASSUMPTIONS
 CODE
 ```
 
----
+______________________________________________________________________
 
-# 174. Independence Must Be Demonstrated
+## 174. Independence Must Be Demonstrated
 
 Do not infer independence from:
 
@@ -2733,15 +2733,15 @@ RUN COUNT
 REPORT COUNT
 ```
 
----
+______________________________________________________________________
 
-# 175. Sybil Hardening
+## 175. Sybil Hardening
 
 Derivative evidence must not artificially inflate confidence.
 
----
+______________________________________________________________________
 
-# 176. Model Ancestry
+## 176. Model Ancestry
 
 Typed relations may include:
 
@@ -2765,15 +2765,15 @@ INSPIRED_BY
 
 when source-supported.
 
----
+______________________________________________________________________
 
-# 177. Competing Predictive Models
+## 177. Competing Predictive Models
 
 TPE may eventually contain several models for one target.
 
----
+______________________________________________________________________
 
-# 178. Competition ≠ Failure
+## 178. Competition ≠ Failure
 
 ```text
 COMPETING
@@ -2781,9 +2781,9 @@ COMPETING
 ERROR
 ```
 
----
+______________________________________________________________________
 
-# 179. Competing Model Contract
+## 179. Competing Model Contract
 
 ```yaml
 TPE_COMPETING_SET:
@@ -2808,9 +2808,9 @@ TPE_COMPETING_SET:
   status: COMPETING
 ```
 
----
+______________________________________________________________________
 
-# 180. Prediction Disagreement
+## 180. Prediction Disagreement
 
 If:
 
@@ -2821,9 +2821,9 @@ M2 → P(Y)=0.2
 
 do not arbitrarily average unless an ensemble rule is itself justified.
 
----
+______________________________________________________________________
 
-# 181. Ensemble ≠ Automatic Improvement
+## 181. Ensemble ≠ Automatic Improvement
 
 ```text
 MULTIPLE MODELS
@@ -2835,33 +2835,33 @@ BETTER MODEL
 
 without validation.
 
----
+______________________________________________________________________
 
-# 182. Correlated Models
+## 182. Correlated Models
 
 Combining highly correlated models may create false confidence.
 
----
+______________________________________________________________________
 
-# 183. Model Diversity
+## 183. Model Diversity
 
 Useful diversity should be demonstrated, not inferred.
 
----
+______________________________________________________________________
 
-# 184. Discriminating Test
+## 184. Discriminating Test
 
 Prefer evidence that separates competing models rather than redundant repetitions.
 
----
+______________________________________________________________________
 
-# 185. Contradiction
+## 185. Contradiction
 
 Contradictory forecasts should remain visible.
 
----
+______________________________________________________________________
 
-# 186. Contradiction Contract
+## 186. Contradiction Contract
 
 ```yaml
 TPE_CONTRADICTION:
@@ -2878,9 +2878,9 @@ TPE_CONTRADICTION:
   status:
 ```
 
----
+______________________________________________________________________
 
-# 187. Apparent Contradiction
+## 187. Apparent Contradiction
 
 Two predictions may differ because of:
 
@@ -2898,9 +2898,9 @@ DIFFERENT SCOPE
 DIFFERENT REGIME
 ```
 
----
+______________________________________________________________________
 
-# 188. Genuine Predictive Conflict
+## 188. Genuine Predictive Conflict
 
 If all relevant semantics overlap and predictions materially conflict:
 
@@ -2910,15 +2910,15 @@ PRESERVE CONFLICT
 
 until resolved.
 
----
+______________________________________________________________________
 
-# 189. Falsifiers
+## 189. Falsifiers
 
 Predictive claims require falsification or evaluation conditions.
 
----
+______________________________________________________________________
 
-# 190. Forecast Falsifier
+## 190. Forecast Falsifier
 
 For a deterministic point claim:
 
@@ -2930,29 +2930,29 @@ PREDICTED TARGET
 
 may falsify that particular prediction.
 
----
+______________________________________________________________________
 
-# 191. Probabilistic Falsification
+## 191. Probabilistic Falsification
 
 A single low-probability event occurring does not automatically falsify a probabilistic model.
 
 Evaluation requires appropriate repeated or distribution-sensitive testing.
 
----
+______________________________________________________________________
 
-# 192. Universal Predictive Claim
+## 192. Universal Predictive Claim
 
 A claim of universal prediction may be falsified by a valid counterexample within its asserted universal scope.
 
----
+______________________________________________________________________
 
-# 193. Sensitivity
+## 193. Sensitivity
 
 Consequential forecasts should identify the smallest change capable of materially changing the result.
 
----
+______________________________________________________________________
 
-# 194. Input Sensitivity
+## 194. Input Sensitivity
 
 ```text
 SMALL INPUT CHANGE
@@ -2962,9 +2962,9 @@ LARGE OUTPUT CHANGE
 
 indicates fragility.
 
----
+______________________________________________________________________
 
-# 195. Parameter Sensitivity
+## 195. Parameter Sensitivity
 
 ```text
 SMALL PARAMETER CHANGE
@@ -2974,27 +2974,27 @@ FORECAST FLIP
 
 should be exposed.
 
----
+______________________________________________________________________
 
-# 196. Threshold Sensitivity
+## 196. Threshold Sensitivity
 
 Classification decisions near thresholds should be marked fragile where appropriate.
 
----
+______________________________________________________________________
 
-# 197. Horizon Sensitivity
+## 197. Horizon Sensitivity
 
 Forecasts may change materially with horizon.
 
----
+______________________________________________________________________
 
-# 198. Regime Sensitivity
+## 198. Regime Sensitivity
 
 Forecasts may reverse across regimes.
 
----
+______________________________________________________________________
 
-# 199. Model Sensitivity
+## 199. Model Sensitivity
 
 If plausible models yield incompatible forecasts:
 
@@ -3004,21 +3004,21 @@ COMPETING
 
 may be the strongest warranted state.
 
----
+______________________________________________________________________
 
-# 200. Robustness
+## 200. Robustness
 
 A robust prediction survives plausible perturbations of noncritical assumptions.
 
----
+______________________________________________________________________
 
-# 201. Dependency Closure
+## 201. Dependency Closure
 
 Consequential prediction should traverse the smallest result-changing dependency set.
 
----
+______________________________________________________________________
 
-# 202. Dependency Contract
+## 202. Dependency Contract
 
 ```yaml
 TPE_MODEL_DEPENDENCY:
@@ -3035,9 +3035,9 @@ TPE_MODEL_DEPENDENCY:
   optional:
 ```
 
----
+______________________________________________________________________
 
-# 203. Dependency Graph
+## 203. Dependency Graph
 
 ```text
 SOURCE
@@ -3059,15 +3059,15 @@ EVALUATION
 DERIVED VALIDATION CLAIM
 ```
 
----
+______________________________________________________________________
 
-# 204. Hidden Dependency
+## 204. Hidden Dependency
 
 A hidden upstream model or data transformation may invalidate apparent independence.
 
----
+______________________________________________________________________
 
-# 205. Selective Invalidation
+## 205. Selective Invalidation
 
 ```text
 FAILED DEPENDENCY D
@@ -3084,9 +3084,9 @@ FAILED D
 INVALIDATE ALL TPE
 ```
 
----
+______________________________________________________________________
 
-# 206. Failure Localization
+## 206. Failure Localization
 
 ```text
 IDENTIFY FAILED NODE
@@ -3100,15 +3100,15 @@ PRESERVE UNAFFECTED MODELS
 REVALIDATE LOCALLY
 ```
 
----
+______________________________________________________________________
 
-# 207. RSCF Representation
+## 207. RSCF Representation
 
 Each consequential TPE model may be represented as an RSCF node.
 
----
+______________________________________________________________________
 
-# 208. TPE RSCF Contract
+## 208. TPE RSCF Contract
 
 ```yaml
 TPE_RSCF:
@@ -3127,9 +3127,9 @@ TPE_RSCF:
   status:
 ```
 
----
+______________________________________________________________________
 
-# 209. H/M/L Mapping
+## 209. H/M/L Mapping
 
 Normalized registry mapping:
 
@@ -3151,9 +3151,9 @@ This is AMOS-normalized registry semantics.
 
 It is not asserted as native TPE architecture.
 
----
+______________________________________________________________________
 
-# 210. H-Level
+## 210. H-Level
 
 Potential H-level concerns:
 
@@ -3171,9 +3171,9 @@ PROVENANCE
 VALIDATION POLICY
 ```
 
----
+______________________________________________________________________
 
-# 211. M-Level
+## 211. M-Level
 
 Generic potential M-level objects:
 
@@ -3191,9 +3191,9 @@ SCENARIO MODEL FAMILY
 
 These are generic registry categories only.
 
----
+______________________________________________________________________
 
-# 212. L-Level
+## 212. L-Level
 
 ```text
 MODEL
@@ -3221,15 +3221,15 @@ EVALUATION
 VALIDATION RECEIPT
 ```
 
----
+______________________________________________________________________
 
-# 213. H/M/L Integrity
+## 213. H/M/L Integrity
 
 High-level predictive architecture cannot override contradictory lower-level evidence.
 
----
+______________________________________________________________________
 
-# 214. Local Validity ≠ Global Validity
+## 214. Local Validity ≠ Global Validity
 
 ```text
 ONE VALID FORECAST
@@ -3237,9 +3237,9 @@ ONE VALID FORECAST
 TPE VALID
 ```
 
----
+______________________________________________________________________
 
-# 215. One Failed Forecast ≠ Global Invalidity
+## 215. One Failed Forecast ≠ Global Invalidity
 
 ```text
 ONE FAILED FORECAST
@@ -3249,9 +3249,9 @@ ALL TPE INVALID
 
 unless the failed forecast falsifies a load-bearing universal premise.
 
----
+______________________________________________________________________
 
-# 216. Proof Capsule
+## 216. Proof Capsule
 
 ```yaml
 TPE_PROOF_CAPSULE:
@@ -3285,9 +3285,9 @@ TPE_PROOF_CAPSULE:
   confidence_ceiling:
 ```
 
----
+______________________________________________________________________
 
-# 217. Prediction Proof Capsule
+## 217. Prediction Proof Capsule
 
 A prediction capsule should additionally preserve:
 
@@ -3301,9 +3301,9 @@ prediction:
   calibration_status:
 ```
 
----
+______________________________________________________________________
 
-# 218. Proof Capsule Reuse
+## 218. Proof Capsule Reuse
 
 Reuse requires:
 
@@ -3325,9 +3325,9 @@ FRESHNESS VALID
 NO INVALIDATING CONTRADICTION
 ```
 
----
+______________________________________________________________________
 
-# 219. Adversarial Validation
+## 219. Adversarial Validation
 
 Consequential TPE conclusions should be challenged for:
 
@@ -3361,17 +3361,17 @@ METRIC MISALIGNMENT
 STRONGER ALTERNATIVE MODEL
 ```
 
----
+______________________________________________________________________
 
-# 220. Independent Challenge
+## 220. Independent Challenge
 
 A genuinely different challenge path is preferred.
 
 Re-running the same pipeline does not establish independent confirmation.
 
----
+______________________________________________________________________
 
-# 221. Validation Dimensions
+## 221. Validation Dimensions
 
 Keep separate:
 
@@ -3399,71 +3399,71 @@ RUNTIME VALIDATION
 GOVERNANCE VALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 222. Source Validation
+## 222. Source Validation
 
 Confirms source identity/content.
 
 It does not prove predictive claims.
 
----
+______________________________________________________________________
 
-# 223. Schema Validation
+## 223. Schema Validation
 
 Confirms structural conformance.
 
----
+______________________________________________________________________
 
-# 224. Formal Validation
+## 224. Formal Validation
 
 Checks formal properties.
 
----
+______________________________________________________________________
 
-# 225. Backtest Validation
+## 225. Backtest Validation
 
 Checks historical replay performance under declared conditions.
 
----
+______________________________________________________________________
 
-# 226. Forward Validation
+## 226. Forward Validation
 
 Checks predictions issued before outcomes were observed.
 
----
+______________________________________________________________________
 
-# 227. Calibration Validation
+## 227. Calibration Validation
 
 Checks declared uncertainty semantics.
 
----
+______________________________________________________________________
 
-# 228. Empirical Validation
+## 228. Empirical Validation
 
 Compares model claims against observations within declared scope.
 
----
+______________________________________________________________________
 
-# 229. Causal Validation
+## 229. Causal Validation
 
 Required only for causal claims, but predictive accuracy alone is insufficient.
 
----
+______________________________________________________________________
 
-# 230. Runtime Validation
+## 230. Runtime Validation
 
 Checks execution behavior.
 
----
+______________________________________________________________________
 
-# 231. Governance Validation
+## 231. Governance Validation
 
 Checks authorization, commit, rollback, provenance, and receipt discipline.
 
----
+______________________________________________________________________
 
-# 232. Test Pass ≠ Truth
+## 232. Test Pass ≠ Truth
 
 ```text
 TEST_PASS
@@ -3471,9 +3471,9 @@ TEST_PASS
 TRUTH
 ```
 
----
+______________________________________________________________________
 
-# 233. Backtest Pass ≠ Future Accuracy
+## 233. Backtest Pass ≠ Future Accuracy
 
 ```text
 BACKTEST_PASS
@@ -3481,9 +3481,9 @@ BACKTEST_PASS
 GUARANTEED_FUTURE_ACCURACY
 ```
 
----
+______________________________________________________________________
 
-# 234. Forward Validation ≠ Universal Validity
+## 234. Forward Validation ≠ Universal Validity
 
 ```text
 FORWARD_VALIDATED_IN_SCOPE
@@ -3491,9 +3491,9 @@ FORWARD_VALIDATED_IN_SCOPE
 UNIVERSALLY_VALID
 ```
 
----
+______________________________________________________________________
 
-# 235. Runtime Success ≠ Predictive Validity
+## 235. Runtime Success ≠ Predictive Validity
 
 ```text
 MODEL EXECUTES
@@ -3501,9 +3501,9 @@ MODEL EXECUTES
 MODEL PREDICTS CORRECTLY
 ```
 
----
+______________________________________________________________________
 
-# 236. Predictive Validity ≠ Causal Validity
+## 236. Predictive Validity ≠ Causal Validity
 
 ```text
 PREDICTS WELL
@@ -3511,9 +3511,9 @@ PREDICTS WELL
 EXPLAINS CAUSE
 ```
 
----
+______________________________________________________________________
 
-# 237. Validation Receipt
+## 237. Validation Receipt
 
 ```yaml
 TPE_VALIDATION_RECEIPT:
@@ -3548,15 +3548,15 @@ TPE_VALIDATION_RECEIPT:
   limitations:
 ```
 
----
+______________________________________________________________________
 
-# 238. Receipt Scope
+## 238. Receipt Scope
 
 A receipt validates only what its executed checks actually cover.
 
----
+______________________________________________________________________
 
-# 239. Receipt Reuse
+## 239. Receipt Reuse
 
 Reuse requires compatibility of:
 
@@ -3580,27 +3580,27 @@ ENVIRONMENT
 VALIDATION METHOD
 ```
 
----
+______________________________________________________________________
 
-# 240. Routing Receipt Firewall
+## 240. Routing Receipt Firewall
 
 `[[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]]` does not independently validate TPE predictions.
 
----
+______________________________________________________________________
 
-# 241. Authorization Receipt Firewall
+## 241. Authorization Receipt Firewall
 
 `[[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]` does not establish TPE predictive accuracy, calibration, empirical validity, or causal validity.
 
----
+______________________________________________________________________
 
-# 242. Artifact-Specific Receipt
+## 242. Artifact-Specific Receipt
 
 Promotion requires TPE-specific validation or a receipt explicitly covering TPE's load-bearing claims.
 
----
+______________________________________________________________________
 
-# 243. Lifecycle
+## 243. Lifecycle
 
 ```text
 PLACEHOLDER
@@ -3620,51 +3620,51 @@ VALIDATED?
 └── YES → GOVERNED PROMOTION
 ```
 
----
+______________________________________________________________________
 
-# 244. PLACEHOLDER
+## 244. PLACEHOLDER
 
 Original source state.
 
----
+______________________________________________________________________
 
-# 245. SOURCE_LOCATED
+## 245. SOURCE_LOCATED
 
 A candidate native TPE source has been found.
 
----
+______________________________________________________________________
 
-# 246. SOURCE_VERIFIED
+## 246. SOURCE_VERIFIED
 
 Source identity and lineage have been established sufficiently for ingestion.
 
----
+______________________________________________________________________
 
-# 247. INGESTED
+## 247. INGESTED
 
 Verified source material has entered governed ingestion.
 
----
+______________________________________________________________________
 
-# 248. NORMALIZED
+## 248. NORMALIZED
 
 Source material has been mapped into typed AMOS structures without silent semantic mutation.
 
----
+______________________________________________________________________
 
-# 249. CANON_CANDIDATE
+## 249. CANON_CANDIDATE
 
 Eligible for canonical review.
 
----
+______________________________________________________________________
 
-# 250. CONDITIONAL
+## 250. CONDITIONAL
 
 Subject to unresolved validity conditions.
 
----
+______________________________________________________________________
 
-# 251. CANONICAL
+## 251. CANONICAL
 
 Accepted under AMOS governance.
 
@@ -3676,33 +3676,33 @@ CANONICAL
 EMPIRICAL_TRUTH
 ```
 
----
+______________________________________________________________________
 
-# 252. COMPETING
+## 252. COMPETING
 
 Multiple viable predictive models remain unresolved.
 
----
+______________________________________________________________________
 
-# 253. SUPERSEDED
+## 253. SUPERSEDED
 
 A newer governed model/version is preferred.
 
----
+______________________________________________________________________
 
-# 254. INVALIDATED
+## 254. INVALIDATED
 
 A load-bearing premise or validity condition failed.
 
----
+______________________________________________________________________
 
-# 255. ARCHIVED
+## 255. ARCHIVED
 
 Retained for audit, provenance, and heritage.
 
----
+______________________________________________________________________
 
-# 256. Prediction Lifecycle
+## 256. Prediction Lifecycle
 
 A prediction has a separate lifecycle:
 
@@ -3720,45 +3720,45 @@ EVALUATED
 ARCHIVED
 ```
 
----
+______________________________________________________________________
 
-# 257. PROPOSED Prediction
+## 257. PROPOSED Prediction
 
 Not yet authoritative as an issued forecast.
 
----
+______________________________________________________________________
 
-# 258. ISSUED Prediction
+## 258. ISSUED Prediction
 
 Timestamped and frozen for audit.
 
----
+______________________________________________________________________
 
-# 259. OPEN Prediction
+## 259. OPEN Prediction
 
 Target outcome not yet resolved.
 
----
+______________________________________________________________________
 
-# 260. RESOLVED Prediction
+## 260. RESOLVED Prediction
 
 Target observation is available.
 
----
+______________________________________________________________________
 
-# 261. EVALUATED Prediction
+## 261. EVALUATED Prediction
 
 Prediction has been compared against the target under a declared metric.
 
----
+______________________________________________________________________
 
-# 262. ARCHIVED Prediction
+## 262. ARCHIVED Prediction
 
 Historical record preserved.
 
----
+______________________________________________________________________
 
-# 263. Prediction State ≠ Model State
+## 263. Prediction State ≠ Model State
 
 ```text
 PREDICTION STATUS
@@ -3768,9 +3768,9 @@ MODEL STATUS
 
 A model may remain active after a prediction resolves.
 
----
+______________________________________________________________________
 
-# 264. Model State ≠ Registry State
+## 264. Model State ≠ Registry State
 
 ```text
 MODEL STATUS
@@ -3778,9 +3778,9 @@ MODEL STATUS
 REGISTRY STATUS
 ```
 
----
+______________________________________________________________________
 
-# 265. Epoch Separation
+## 265. Epoch Separation
 
 Keep distinct:
 
@@ -3804,9 +3804,9 @@ validation_epoch
 revalidation_epoch
 ```
 
----
+______________________________________________________________________
 
-# 266. Canon Ingestion Rule
+## 266. Canon Ingestion Rule
 
 ```yaml
 AMOS_CANON_INGESTION_RULE:
@@ -3852,9 +3852,9 @@ AMOS_CANON_INGESTION_RULE:
       - NEVER_INVENT_CANON
 ```
 
----
+______________________________________________________________________
 
-# 267. TPE-Specific Ingestion Contract
+## 267. TPE-Specific Ingestion Contract
 
 ```yaml
 TPE_MODEL_INGESTION:
@@ -3920,9 +3920,9 @@ TPE_MODEL_INGESTION:
     - SELECTIVE_INVALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 268. Existing Folder
+## 268. Existing Folder
 
 ```text
 EXISTING FOLDER
@@ -3930,9 +3930,9 @@ EXISTING FOLDER
 PRESERVE
 ```
 
----
+______________________________________________________________________
 
-# 269. Existing File
+## 269. Existing File
 
 ```text
 EXISTING FILE
@@ -3942,9 +3942,9 @@ PRESERVE
 DO NOT OVERWRITE
 ```
 
----
+______________________________________________________________________
 
-# 270. Duplicate Filename
+## 270. Duplicate Filename
 
 ```text
 COMPARE CONTENT
@@ -3954,9 +3954,9 @@ COMPARE LINEAGE
 DO NOT OVERWRITE
 ```
 
----
+______________________________________________________________________
 
-# 271. Multiple TPE Sources
+## 271. Multiple TPE Sources
 
 If several verified sources describe the same TPE framework:
 
@@ -3968,9 +3968,9 @@ MULTIPLE PROVENANCE EDGES
 
 where identity is established.
 
----
+______________________________________________________________________
 
-# 272. Ambiguous TPE Identity
+## 272. Ambiguous TPE Identity
 
 If `TPE` has incompatible definitions across sources:
 
@@ -3980,15 +3980,15 @@ COMPETING
 
 until discriminating evidence resolves identity.
 
----
+______________________________________________________________________
 
-# 273. Historical Source
+## 273. Historical Source
 
 Historical sources should be linked rather than erased.
 
----
+______________________________________________________________________
 
-# 274. Historical Prediction Model ≠ Current Model
+## 274. Historical Prediction Model ≠ Current Model
 
 ```text
 HISTORICAL
@@ -3996,17 +3996,17 @@ HISTORICAL
 CURRENT
 ```
 
----
+______________________________________________________________________
 
-# 275. External Research
+## 275. External Research
 
 External forecasting research may support or challenge TPE claims.
 
 It remains external evidence unless explicitly adopted into native canon through governance.
 
----
+______________________________________________________________________
 
-# 276. External Evidence ≠ Native Canon
+## 276. External Evidence ≠ Native Canon
 
 ```text
 EXTERNAL_EVIDENCE
@@ -4014,9 +4014,9 @@ EXTERNAL_EVIDENCE
 NATIVE_CANON
 ```
 
----
+______________________________________________________________________
 
-# 277. Reported Accuracy
+## 277. Reported Accuracy
 
 If a source reports:
 
@@ -4033,9 +4033,9 @@ SOURCE_CLAIM:
 
 until the evaluation method and evidence are validated.
 
----
+______________________________________________________________________
 
-# 278. Reported Accuracy ≠ Independent Accuracy
+## 278. Reported Accuracy ≠ Independent Accuracy
 
 ```text
 SOURCE REPORTS RESULT R
@@ -4043,9 +4043,9 @@ SOURCE REPORTS RESULT R
 AMOS INDEPENDENTLY VALIDATED R
 ```
 
----
+______________________________________________________________________
 
-# 279. Registry Mutations
+## 279. Registry Mutations
 
 Potential mutation classes:
 
@@ -4081,69 +4081,69 @@ INVALIDATE_MODEL
 ARCHIVE_MODEL
 ```
 
----
+______________________________________________________________________
 
-# 280. ADD_MODEL
+## 280. ADD_MODEL
 
 Creates a new model identity.
 
----
+______________________________________________________________________
 
-# 281. ADD_MODEL_VERSION
+## 281. ADD_MODEL_VERSION
 
 Preserves previous versions.
 
----
+______________________________________________________________________
 
-# 282. ADD_TARGET
+## 282. ADD_TARGET
 
 Adds a formally defined prediction target.
 
----
+______________________________________________________________________
 
-# 283. ADD_PREDICTION
+## 283. ADD_PREDICTION
 
 Adds an immutable or versioned forecast record.
 
----
+______________________________________________________________________
 
-# 284. ADD_OBSERVATION
+## 284. ADD_OBSERVATION
 
 Adds independently sourced target observation.
 
----
+______________________________________________________________________
 
-# 285. ADD_EVALUATION
+## 285. ADD_EVALUATION
 
 Links a prediction to a resolved target under a declared metric.
 
----
+______________________________________________________________________
 
-# 286. ADD_VALIDATION
+## 286. ADD_VALIDATION
 
 Adds scoped validation evidence.
 
----
+______________________________________________________________________
 
-# 287. UPDATE_SCOPE
+## 287. UPDATE_SCOPE
 
 Scope changes require review.
 
----
+______________________________________________________________________
 
-# 288. UPDATE_REGIME
+## 288. UPDATE_REGIME
 
 Regime changes may invalidate existing predictive claims.
 
----
+______________________________________________________________________
 
-# 289. SUPERSEDE_MODEL
+## 289. SUPERSEDE_MODEL
 
 Preserves historical lineage.
 
----
+______________________________________________________________________
 
-# 290. INVALIDATE_MODEL
+## 290. INVALIDATE_MODEL
 
 Record:
 
@@ -4161,9 +4161,9 @@ TIMESTAMP
 EVIDENCE
 ```
 
----
+______________________________________________________________________
 
-# 291. Registry Mutation Contract
+## 291. Registry Mutation Contract
 
 ```yaml
 TPE_REGISTRY_MUTATION:
@@ -4196,9 +4196,9 @@ TPE_REGISTRY_MUTATION:
   result:
 ```
 
----
+______________________________________________________________________
 
-# 292. Worked Semantics
+## 292. Worked Semantics
 
 Given an operation touching:
 
@@ -4236,9 +4236,9 @@ PROPOSE
 COMMIT OR HOLD
 ```
 
----
+______________________________________________________________________
 
-# 293. Admit
+## 293. Admit
 
 Resolve:
 
@@ -4254,9 +4254,9 @@ MODEL VERSION
 
 where applicable.
 
----
+______________________________________________________________________
 
-# 294. Unresolved Identity
+## 294. Unresolved Identity
 
 ```text
 UNRESOLVED ID
@@ -4268,21 +4268,21 @@ FAIL CLOSED
 
 for consequential operations.
 
----
+______________________________________________________________________
 
-# 295. Bind Scope
+## 295. Bind Scope
 
 Declare the intended applicability envelope.
 
----
+______________________________________________________________________
 
-# 296. Bind Regime
+## 296. Bind Regime
 
 Declare active regime.
 
----
+______________________________________________________________________
 
-# 297. Bind Temporal Context
+## 297. Bind Temporal Context
 
 For predictions declare:
 
@@ -4296,15 +4296,15 @@ TARGET TIME
 HORIZON
 ```
 
----
+______________________________________________________________________
 
-# 298. Check Authority
+## 298. Check Authority
 
 Authority must be epoch-valid.
 
----
+______________________________________________________________________
 
-# 299. Capability ≠ Authority
+## 299. Capability ≠ Authority
 
 ```text
 ABLE TO GENERATE FORECAST
@@ -4312,27 +4312,27 @@ ABLE TO GENERATE FORECAST
 AUTHORIZED TO ACT ON FORECAST
 ```
 
----
+______________________________________________________________________
 
-# 300. Validate Preconditions
+## 300. Validate Preconditions
 
 Traverse the smallest result-changing dependency closure.
 
----
+______________________________________________________________________
 
-# 301. Check Version
+## 301. Check Version
 
 Prevent stale mutation and stale model ambiguity.
 
----
+______________________________________________________________________
 
-# 302. Check Provenance
+## 302. Check Provenance
 
 Verify load-bearing inputs and model sources remain recoverable.
 
----
+______________________________________________________________________
 
-# 303. Check Conflict
+## 303. Check Conflict
 
 At minimum:
 
@@ -4362,15 +4362,15 @@ TEMPORAL CONFLICT
 AUTHORITY CONFLICT
 ```
 
----
+______________________________________________________________________
 
-# 304. Propose
+## 304. Propose
 
 Candidate state remains non-authoritative.
 
----
+______________________________________________________________________
 
-# 305. Proposal ≠ Commit
+## 305. Proposal ≠ Commit
 
 ```text
 PROPOSAL
@@ -4378,27 +4378,27 @@ PROPOSAL
 COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 306. Commit
+## 306. Commit
 
 Commit only after load-bearing gates pass.
 
----
+______________________________________________________________________
 
-# 307. Hold
+## 307. Hold
 
 Critical unresolved uncertainty results in hold.
 
----
+______________________________________________________________________
 
-# 308. Rollback Basin
+## 308. Rollback Basin
 
 Consequential mutation requires recoverable prior state.
 
----
+______________________________________________________________________
 
-# 309. MVCC-Compatible Semantics
+## 309. MVCC-Compatible Semantics
 
 Conceptually:
 
@@ -4418,9 +4418,9 @@ This is AMOS-normalized governance semantics.
 
 It does not establish a literal TPE implementation.
 
----
+______________________________________________________________________
 
-# 310. CAS-Compatible Semantics
+## 310. CAS-Compatible Semantics
 
 Conceptually:
 
@@ -4434,9 +4434,9 @@ CURRENT_VERSION
 
 plus semantic, provenance, validation, and authority gates.
 
----
+______________________________________________________________________
 
-# 311. CAS ≠ Correctness
+## 311. CAS ≠ Correctness
 
 ```text
 CAS SUCCESS
@@ -4444,15 +4444,15 @@ CAS SUCCESS
 FORECAST CORRECTNESS
 ```
 
----
+______________________________________________________________________
 
-# 312. Atomic Reasoning
+## 312. Atomic Reasoning
 
 Consequential TPE conclusions should be decomposable into checkable claims.
 
----
+______________________________________________________________________
 
-# 313. Atomic Prediction Example
+## 313. Atomic Prediction Example
 
 Avoid:
 
@@ -4475,9 +4475,9 @@ Outcome E remains unresolved
 until independently observed.
 ```
 
----
+______________________________________________________________________
 
-# 314. Local Validity ≠ Global Validity
+## 314. Local Validity ≠ Global Validity
 
 ```text
 ONE PREDICTION VALID
@@ -4485,15 +4485,15 @@ ONE PREDICTION VALID
 ALL TPE VALID
 ```
 
----
+______________________________________________________________________
 
-# 315. Replay
+## 315. Replay
 
 Where executable models exist, predictions should be replayable against pinned historical inputs when technically possible.
 
----
+______________________________________________________________________
 
-# 316. Replay Contract
+## 316. Replay Contract
 
 ```yaml
 TPE_REPLAY:
@@ -4512,21 +4512,21 @@ TPE_REPLAY:
   replay_prediction:
 ```
 
----
+______________________________________________________________________
 
-# 317. Determinism
+## 317. Determinism
 
 Do not claim deterministic replay when uncontrolled nondeterminism exists.
 
----
+______________________________________________________________________
 
-# 318. Randomness
+## 318. Randomness
 
 Preserve random seed and stochastic configuration where material.
 
----
+______________________________________________________________________
 
-# 319. Reproducibility
+## 319. Reproducibility
 
 ```text
 SAME MODEL NAME
@@ -4554,9 +4554,9 @@ ENVIRONMENT
 RANDOMNESS
 ```
 
----
+______________________________________________________________________
 
-# 320. Fast Path
+## 320. Fast Path
 
 Smallest sufficient proof scope is permitted only when:
 
@@ -4578,9 +4578,9 @@ FRESHNESS VALID
 NO MATERIAL CONFLICT
 ```
 
----
+______________________________________________________________________
 
-# 321. Escalation Conditions
+## 321. Escalation Conditions
 
 Escalate when:
 
@@ -4610,9 +4610,9 @@ IRREVERSIBLE ACTION DEPENDS ON FORECAST
 GOVERNANCE IMPACT IS HIGH
 ```
 
----
+______________________________________________________________________
 
-# 322. Adaptive Complexity
+## 322. Adaptive Complexity
 
 ```text
 C0 = DIRECT
@@ -4622,9 +4622,9 @@ C3 = DEEP
 C4 = MAXIMUM
 ```
 
----
+______________________________________________________________________
 
-# 323. Consequence Radius
+## 323. Consequence Radius
 
 ```text
 LOCAL_METADATA
@@ -4644,9 +4644,9 @@ CROSS_DOMAIN
 GOVERNANCE_CRITICAL
 ```
 
----
+______________________________________________________________________
 
-# 324. Uncertainty Vector
+## 324. Uncertainty Vector
 
 ```yaml
 TPE_UNCERTAINTY:
@@ -4659,49 +4659,39 @@ TPE_UNCERTAINTY:
   provenance_independence:
 ```
 
----
+______________________________________________________________________
 
-# 325. Evidence Uncertainty
+## 325. Evidence Uncertainty
 
 Does available evidence support the predictive claim?
 
----
+______________________________________________________________________
 
-# 326. Model Uncertainty
+## 326. Model Uncertainty
 
 Could another model explain or predict the target differently?
 
----
+______________________________________________________________________
 
-# 327. Scope Uncertainty
+## 327. Scope Uncertainty
 
 Does validation cover the intended use?
 
----
+______________________________________________________________________
 
-# 328. Temporal Uncertainty
+## 328. Temporal Uncertainty
 
 Are model, inputs, dependencies, and evaluation still fresh?
 
----
+______________________________________________________________________
 
-# 329. Causal Uncertainty
+## 329. Causal Uncertainty
 
 Does the model merely predict, or is a causal claim being made?
 
----
+______________________________________________________________________
 
-# 330. Execution Uncertainty
-
-Current:
-
-```text
-NOT_ESTABLISHED
-```
-
----
-
-# 331. Provenance-Independence Uncertainty
+## 330. Execution Uncertainty
 
 Current:
 
@@ -4709,9 +4699,19 @@ Current:
 NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 332. Gap Classes
+## 331. Provenance-Independence Uncertainty
+
+Current:
+
+```text
+NOT_ESTABLISHED
+```
+
+______________________________________________________________________
+
+## 332. Gap Classes
 
 ```text
 CRITICAL
@@ -4723,9 +4723,9 @@ EXPLANATORY
 COSMETIC
 ```
 
----
+______________________________________________________________________
 
-# 333. Current TPE Gap Register
+## 333. Current TPE Gap Register
 
 ```yaml
 TPE_REGISTRY_GAPS:
@@ -4861,9 +4861,9 @@ TPE_REGISTRY_GAPS:
     status: UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 334. Minimum Critical Missing Information
+## 334. Minimum Critical Missing Information
 
 Minimum information required for substantive TPE population:
 
@@ -4883,9 +4883,9 @@ MODEL OR MODEL-FAMILY IDENTITIES
 DEFINED BY THAT SOURCE
 ```
 
----
+______________________________________________________________________
 
-# 335. Prediction-Layer Anchor ≠ Complete Canon
+## 335. Prediction-Layer Anchor ≠ Complete Canon
 
 ```text
 TPE_prediction_layer
@@ -4911,15 +4911,15 @@ VALIDATION
 RUNTIME
 ```
 
----
+______________________________________________________________________
 
-# 336. No Fluent Gap Filling
+## 336. No Fluent Gap Filling
 
 Missing TPE prediction semantics must not be replaced with plausible forecasting theory and mislabeled as native canon.
 
----
+______________________________________________________________________
 
-# 337. Integrity > Invented Completeness
+## 337. Integrity > Invented Completeness
 
 ```text
 VISIBLE UNKNOWN/GAP
@@ -4927,9 +4927,9 @@ VISIBLE UNKNOWN/GAP
 INVENTED TPE CANON
 ```
 
----
+______________________________________________________________________
 
-# 338. Registry Completeness
+## 338. Registry Completeness
 
 Current:
 
@@ -4939,9 +4939,9 @@ TPE MODEL INVENTORY COMPLETENESS
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 339. Registry Completeness Contract
+## 339. Registry Completeness Contract
 
 ```yaml
 TPE_REGISTRY_COMPLETENESS:
@@ -4958,9 +4958,9 @@ TPE_REGISTRY_COMPLETENESS:
   validation_receipt:
 ```
 
----
+______________________________________________________________________
 
-# 340. Empty Registry ≠ Nonexistence
+## 340. Empty Registry ≠ Nonexistence
 
 ```text
 NO REGISTERED MODEL
@@ -4968,15 +4968,15 @@ NO REGISTERED MODEL
 NO TPE MODEL EXISTS
 ```
 
----
+______________________________________________________________________
 
-# 341. Broken Link ≠ Invalid Model
+## 341. Broken Link ≠ Invalid Model
 
 Navigation failure does not establish predictive invalidity.
 
----
+______________________________________________________________________
 
-# 342. Link Integrity ≠ Model Integrity
+## 342. Link Integrity ≠ Model Integrity
 
 ```text
 LINK_INTEGRITY
@@ -4984,9 +4984,9 @@ LINK_INTEGRITY
 MODEL_INTEGRITY
 ```
 
----
+______________________________________________________________________
 
-# 343. Schema Integrity ≠ Predictive Validity
+## 343. Schema Integrity ≠ Predictive Validity
 
 ```text
 SCHEMA_VALID
@@ -4994,9 +4994,9 @@ SCHEMA_VALID
 PREDICTIVELY_VALID
 ```
 
----
+______________________________________________________________________
 
-# 344. Registry Query Contract
+## 344. Registry Query Contract
 
 ```yaml
 TPE_QUERY:
@@ -5015,9 +5015,9 @@ TPE_QUERY:
   uncertainty_tolerance:
 ```
 
----
+______________________________________________________________________
 
-# 345. Registry Query Operations
+## 345. Registry Query Operations
 
 ```text
 LOOKUP
@@ -5063,49 +5063,49 @@ CANONICAL_STATUS
 IMPLEMENTATION_STATUS
 ```
 
----
+______________________________________________________________________
 
-# 346. LOOKUP
+## 346. LOOKUP
 
 Resolves a registry record.
 
 It does not validate it.
 
----
+______________________________________________________________________
 
-# 347. PREDICTIONS
+## 347. PREDICTIONS
 
 Returns recorded model predictions.
 
 It does not convert them to observations.
 
----
+______________________________________________________________________
 
-# 348. OUTCOMES
+## 348. OUTCOMES
 
 Returns independently recorded target observations where available.
 
----
+______________________________________________________________________
 
-# 349. EVALUATIONS
+## 349. EVALUATIONS
 
 Returns prediction-versus-outcome evaluations.
 
----
+______________________________________________________________________
 
-# 350. CALIBRATION
+## 350. CALIBRATION
 
 Returns calibration evidence and scope.
 
----
+______________________________________________________________________
 
-# 351. VALIDATION
+## 351. VALIDATION
 
 Returns validation separated by type.
 
----
+______________________________________________________________________
 
-# 352. Machine-Readable Registry
+## 352. Machine-Readable Registry
 
 ```yaml
 TPE_MODEL_REGISTRY:
@@ -5248,9 +5248,9 @@ TPE_MODEL_REGISTRY:
       NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 353. Machine-Readable Model Schema
+## 353. Machine-Readable Model Schema
 
 ```yaml
 TPE_MODEL:
@@ -5358,9 +5358,9 @@ TPE_MODEL:
     revalidation_epoch:
 ```
 
----
+______________________________________________________________________
 
-# 354. Registry Invariants
+## 354. Registry Invariants
 
 ```yaml
 TPE_REGISTRY_INVARIANTS:
@@ -5480,9 +5480,9 @@ TPE_REGISTRY_INVARIANTS:
     rule: FORECAST_HISTORY_MUST_NOT_BE_RETROACTIVELY_REWRITTEN
 ```
 
----
+______________________________________________________________________
 
-# 355. Decision Matrix
+## 355. Decision Matrix
 
 | Condition                              | Required behavior                   |
 | -------------------------------------- | ----------------------------------- |
@@ -5507,9 +5507,9 @@ TPE_REGISTRY_INVARIANTS:
 | Authority absent                       | reject mutation                     |
 | Critical gap unresolved                | fail closed                         |
 
----
+______________________________________________________________________
 
-# 356. Negative Test — Acronym
+## 356. Negative Test — Acronym
 
 Invalid:
 
@@ -5526,9 +5526,9 @@ TPE ACRONYM EXPANSION
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 357. Negative Test — Prediction Layer
+## 357. Negative Test — Prediction Layer
 
 Invalid:
 
@@ -5537,9 +5537,9 @@ The corpus mentions TPE_prediction_layer.
 Therefore every TPE algorithm is known.
 ```
 
----
+______________________________________________________________________
 
-# 358. Negative Test — Future Fact
+## 358. Negative Test — Future Fact
 
 Invalid:
 
@@ -5548,9 +5548,9 @@ TPE predicts event E.
 Therefore E will happen.
 ```
 
----
+______________________________________________________________________
 
-# 359. Negative Test — Certainty
+## 359. Negative Test — Certainty
 
 Invalid:
 
@@ -5561,9 +5561,9 @@ Therefore the event is practically certain.
 
 without probability semantics and calibration.
 
----
+______________________________________________________________________
 
-# 360. Negative Test — Causation
+## 360. Negative Test — Causation
 
 Invalid:
 
@@ -5572,9 +5572,9 @@ Feature A strongly predicts target B.
 Therefore A causes B.
 ```
 
----
+______________________________________________________________________
 
-# 361. Negative Test — Backtest
+## 361. Negative Test — Backtest
 
 Invalid:
 
@@ -5583,9 +5583,9 @@ TPE performs well on historical data.
 Therefore it will perform equally well in the future.
 ```
 
----
+______________________________________________________________________
 
-# 362. Negative Test — Retrospective Fit
+## 362. Negative Test — Retrospective Fit
 
 Invalid:
 
@@ -5594,9 +5594,9 @@ The model explains every past event.
 Therefore it predicted them.
 ```
 
----
+______________________________________________________________________
 
-# 363. Negative Test — Canon
+## 363. Negative Test — Canon
 
 Invalid:
 
@@ -5605,9 +5605,9 @@ TPE is canonical.
 Therefore its predictions are scientifically true.
 ```
 
----
+______________________________________________________________________
 
-# 364. Negative Test — Implementation
+## 364. Negative Test — Implementation
 
 Invalid:
 
@@ -5616,9 +5616,9 @@ TPE software runs.
 Therefore TPE forecasts are validated.
 ```
 
----
+______________________________________________________________________
 
-# 365. Negative Test — Source Multiplicity
+## 365. Negative Test — Source Multiplicity
 
 Invalid:
 
@@ -5627,9 +5627,9 @@ Five AMOS documents repeat a TPE claim.
 Therefore five independent sources confirm it.
 ```
 
----
+______________________________________________________________________
 
-# 366. Negative Test — Empty Registry
+## 366. Negative Test — Empty Registry
 
 Invalid:
 
@@ -5644,9 +5644,9 @@ Required:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 367. Positive Test — Prediction
+## 367. Positive Test — Prediction
 
 At `t0`, model M issues forecast P.
 
@@ -5658,9 +5658,9 @@ prediction_time: t0
 target_status: UNRESOLVED
 ```
 
----
+______________________________________________________________________
 
-# 368. Positive Test — Outcome
+## 368. Positive Test — Outcome
 
 At `t1`, target observation O becomes available.
 
@@ -5670,9 +5670,9 @@ Register separately:
 epistemic_class: OBSERVATION
 ```
 
----
+______________________________________________________________________
 
-# 369. Positive Test — Evaluation
+## 369. Positive Test — Evaluation
 
 Then derive:
 
@@ -5692,9 +5692,9 @@ with:
 epistemic_class: DERIVED
 ```
 
----
+______________________________________________________________________
 
-# 370. Positive Test — Competing Forecasts
+## 370. Positive Test — Competing Forecasts
 
 If M1 and M2 remain viable and disagree:
 
@@ -5704,9 +5704,9 @@ COMPETING
 
 is permitted.
 
----
+______________________________________________________________________
 
-# 371. Positive Test — Scope
+## 371. Positive Test — Scope
 
 If M is validated only for:
 
@@ -5720,9 +5720,9 @@ HORIZON H
 
 do not generalize beyond D/R/H.
 
----
+______________________________________________________________________
 
-# 372. Positive Test — Selective Invalidation
+## 372. Positive Test — Selective Invalidation
 
 If input pipeline D fails and only models M2 and M3 depend on D:
 
@@ -5733,9 +5733,9 @@ M2 + M3 DEPENDENTS
 
 Preserve M1 if independent.
 
----
+______________________________________________________________________
 
-# 373. Positive Test — Unknown
+## 373. Positive Test — Unknown
 
 If native TPE formalism remains absent:
 
@@ -5745,9 +5745,9 @@ tpe_formalism: UNKNOWN/GAP
 
 is correct.
 
----
+______________________________________________________________________
 
-# 374. Promotion Gate — Native Canon
+## 374. Promotion Gate — Native Canon
 
 - [ ] authoritative TPE source located
 - [ ] source identity verified
@@ -5759,9 +5759,9 @@ is correct.
 - [ ] historical lineage linked
 - [ ] competing definitions visible
 
----
+______________________________________________________________________
 
-# 375. Promotion Gate — Model Inventory
+## 375. Promotion Gate — Model Inventory
 
 - [ ] model families identified
 - [ ] model IDs identified
@@ -5772,9 +5772,9 @@ is correct.
 - [ ] duplicates compared
 - [ ] competing identities preserved
 
----
+______________________________________________________________________
 
-# 376. Promotion Gate — Formalism
+## 376. Promotion Gate — Formalism
 
 - [ ] native definitions preserved
 - [ ] variables typed
@@ -5787,9 +5787,9 @@ is correct.
 - [ ] uncertainty semantics explicit
 - [ ] missing derivations visible
 
----
+______________________________________________________________________
 
-# 377. Promotion Gate — Prediction Integrity
+## 377. Promotion Gate — Prediction Integrity
 
 - [ ] prediction timestamps preserved
 - [ ] input cutoffs preserved
@@ -5802,9 +5802,9 @@ is correct.
 - [ ] calibration claims validated
 - [ ] uncertainty semantics validated
 
----
+______________________________________________________________________
 
-# 378. Promotion Gate — Epistemics
+## 378. Promotion Gate — Epistemics
 
 - [ ] `SOURCE_CLAIM` separated
 - [ ] `OBSERVATION` separated
@@ -5816,9 +5816,9 @@ is correct.
 - [ ] falsifiers declared
 - [ ] sensitivity evaluated
 
----
+______________________________________________________________________
 
-# 379. Promotion Gate — Scope and Regime
+## 379. Promotion Gate — Scope and Regime
 
 - [ ] domain declared
 - [ ] population declared where applicable
@@ -5830,9 +5830,9 @@ is correct.
 - [ ] measurement method declared
 - [ ] assumptions declared
 
----
+______________________________________________________________________
 
-# 380. Promotion Gate — Provenance
+## 380. Promotion Gate — Provenance
 
 - [ ] source ancestry persisted
 - [ ] model ancestry persisted
@@ -5843,9 +5843,9 @@ is correct.
 - [ ] source hash/version preserved where available
 - [ ] license/IP status preserved where available
 
----
+______________________________________________________________________
 
-# 381. Promotion Gate — Validation
+## 381. Promotion Gate — Validation
 
 - [ ] source validation
 - [ ] schema validation
@@ -5858,9 +5858,9 @@ is correct.
 - [ ] runtime validation where claimed
 - [ ] artifact-specific validation receipt
 
----
+______________________________________________________________________
 
-# 382. Promotion Gate — Governance
+## 382. Promotion Gate — Governance
 
 - [ ] authority binding
 - [ ] version conflict handling
@@ -5873,9 +5873,9 @@ is correct.
 - [ ] audit receipts
 - [ ] unresolved critical gaps visible
 
----
+______________________________________________________________________
 
-# 383. Required Negative Cases
+## 383. Required Negative Cases
 
 ```text
 MISSING SOURCE
@@ -5929,9 +5929,9 @@ UNAUTHORIZED MUTATION
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 384. Fail-Closed Matrix
+## 384. Fail-Closed Matrix
 
 | Failure                   | Required behavior                  |
 | ------------------------- | ---------------------------------- |
@@ -5952,9 +5952,9 @@ UNKNOWN/GAP
 | executable binding absent | do not claim runtime               |
 | critical gap unresolved   | fail closed                        |
 
----
+______________________________________________________________________
 
-# 385. Current Structural Validation
+## 385. Current Structural Validation
 
 ```text
 STRUCTURAL VALIDATION
@@ -5966,9 +5966,9 @@ The registry contract is populated.
 
 Substantive TPE native models are not.
 
----
+______________________________________________________________________
 
-# 386. Current Prediction-Layer Grounding
+## 386. Current Prediction-Layer Grounding
 
 ```text
 TPE_prediction_layer
@@ -5978,9 +5978,9 @@ CORPUS SOURCE_CLAIM
 
 This is the strongest currently preserved architectural anchor.
 
----
+______________________________________________________________________
 
-# 387. Current Formal Validation
+## 387. Current Formal Validation
 
 ```text
 TPE FORMAL VALIDATION
@@ -5988,9 +5988,9 @@ TPE FORMAL VALIDATION
 NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 388. Current Predictive Validation
+## 388. Current Predictive Validation
 
 ```text
 TPE PREDICTIVE VALIDATION
@@ -5998,9 +5998,9 @@ TPE PREDICTIVE VALIDATION
 NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 389. Current Calibration Validation
+## 389. Current Calibration Validation
 
 ```text
 TPE CALIBRATION VALIDATION
@@ -6008,9 +6008,9 @@ TPE CALIBRATION VALIDATION
 NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 390. Current Empirical Validation
+## 390. Current Empirical Validation
 
 ```text
 TPE EMPIRICAL VALIDATION
@@ -6018,9 +6018,9 @@ TPE EMPIRICAL VALIDATION
 NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 391. Current Causal Validation
+## 391. Current Causal Validation
 
 ```text
 TPE CAUSAL VALIDATION
@@ -6028,9 +6028,9 @@ TPE CAUSAL VALIDATION
 NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 392. Current Runtime Validation
+## 392. Current Runtime Validation
 
 ```text
 TPE RUNTIME VALIDATION
@@ -6038,9 +6038,9 @@ TPE RUNTIME VALIDATION
 NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 393. Current Executable Binding
+## 393. Current Executable Binding
 
 ```text
 TPE EXECUTABLE BINDING
@@ -6048,9 +6048,9 @@ TPE EXECUTABLE BINDING
 NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 394. Current Proof Capsule
+## 394. Current Proof Capsule
 
 ```yaml
 TPE_MODEL_REGISTRY_PROOF_CAPSULE:
@@ -6120,9 +6120,9 @@ TPE_MODEL_REGISTRY_PROOF_CAPSULE:
     validation_status: STRUCTURAL_ONLY
 ```
 
----
+______________________________________________________________________
 
-# 395. Status Matrix
+## 395. Status Matrix
 
 | Surface                         | Status                  |
 | ------------------------------- | ----------------------- |
@@ -6153,9 +6153,9 @@ TPE_MODEL_REGISTRY_PROOF_CAPSULE:
 | H/M/L semantics                 | `NORMALIZED_AMOS_MODEL` |
 | MVCC/CAS semantics              | `NORMALIZED_CONCEPTUAL` |
 
----
+______________________________________________________________________
 
-# 396. Source-Grounded Nucleus
+## 396. Source-Grounded Nucleus
 
 ```text
 TPE_MODEL_REGISTRY.md
@@ -6213,9 +6213,9 @@ INITIAL EXECUTABLE BINDING
 NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 397. Corpus-Grounded Extension
+## 397. Corpus-Grounded Extension
 
 ```text
 TPE
@@ -6231,9 +6231,9 @@ SOURCE_CLAIM
 
 This relation is not sufficient to infer the complete TPE architecture.
 
----
+______________________________________________________________________
 
-# 398. Normalized Expansion
+## 398. Normalized Expansion
 
 ```text
 SOURCE-GROUNDED PLACEHOLDER
@@ -6269,9 +6269,9 @@ MODEL LIFECYCLE
 EXPANDED TPE REGISTRY CONTRACT
 ```
 
----
+______________________________________________________________________
 
-# 399. Expansion ≠ Native Canon Population
+## 399. Expansion ≠ Native Canon Population
 
 ```text
 EXPANDED REGISTRY CONTRACT
@@ -6279,9 +6279,9 @@ EXPANDED REGISTRY CONTRACT
 POPULATED TPE CANON
 ```
 
----
+______________________________________________________________________
 
-# 400. Prediction Layer ≠ Prediction Engine Implementation
+## 400. Prediction Layer ≠ Prediction Engine Implementation
 
 ```text
 TPE_prediction_layer
@@ -6289,9 +6289,9 @@ TPE_prediction_layer
 VERIFIED EXECUTABLE PREDICTION ENGINE
 ```
 
----
+______________________________________________________________________
 
-# 401. Prediction Engine ≠ Oracle
+## 401. Prediction Engine ≠ Oracle
 
 Even if a future executable TPE prediction engine is verified:
 
@@ -6301,9 +6301,9 @@ PREDICTION ENGINE
 ORACLE
 ```
 
----
+______________________________________________________________________
 
-# 402. Model ≠ Future Reality
+## 402. Model ≠ Future Reality
 
 ```text
 MODEL(FUTURE)
@@ -6311,9 +6311,9 @@ MODEL(FUTURE)
 FUTURE
 ```
 
----
+______________________________________________________________________
 
-# 403. Probability ≠ Destiny
+## 403. Probability ≠ Destiny
 
 ```text
 PROBABILITY
@@ -6321,9 +6321,9 @@ PROBABILITY
 DESTINY
 ```
 
----
+______________________________________________________________________
 
-# 404. Prediction Integrity Principle
+## 404. Prediction Integrity Principle
 
 ```text
 A TPE PREDICTION
@@ -6335,9 +6335,9 @@ IS INDEPENDENTLY
 OBSERVED.
 ```
 
----
+______________________________________________________________________
 
-# 405. Temporal Integrity Principle
+## 405. Temporal Integrity Principle
 
 ```text
 A VALID FORECAST RECORD
@@ -6348,9 +6348,9 @@ THE FORECAST
 WAS ISSUED.
 ```
 
----
+______________________________________________________________________
 
-# 406. Evaluation Integrity Principle
+## 406. Evaluation Integrity Principle
 
 ```text
 TPE EVALUATION
@@ -6364,9 +6364,9 @@ THE EXERCISE
 AS RETROSPECTIVE.
 ```
 
----
+______________________________________________________________________
 
-# 407. Calibration Integrity Principle
+## 407. Calibration Integrity Principle
 
 ```text
 A NUMERIC CONFIDENCE
@@ -6377,9 +6377,9 @@ WITHOUT
 CALIBRATION EVIDENCE.
 ```
 
----
+______________________________________________________________________
 
-# 408. Causal Integrity Principle
+## 408. Causal Integrity Principle
 
 ```text
 PREDICTIVE PERFORMANCE
@@ -6392,9 +6392,9 @@ CAUSALLY APPROPRIATE
 EVIDENCE.
 ```
 
----
+______________________________________________________________________
 
-# 409. Scope Integrity Principle
+## 409. Scope Integrity Principle
 
 ```text
 TPE VALIDITY
@@ -6408,9 +6408,9 @@ SCOPE,
 AND REGIME.
 ```
 
----
+______________________________________________________________________
 
-# 410. Provenance Integrity Principle
+## 410. Provenance Integrity Principle
 
 ```text
 EVERY CONSEQUENTIAL
@@ -6434,9 +6434,9 @@ CONFIGURATION
 PROVENANCE.
 ```
 
----
+______________________________________________________________________
 
-# 411. Competition Integrity Principle
+## 411. Competition Integrity Principle
 
 ```text
 WHEN MULTIPLE
@@ -6452,9 +6452,9 @@ DISCRIMINATING
 EVIDENCE EXISTS.
 ```
 
----
+______________________________________________________________________
 
-# 412. Gap Integrity Principle
+## 412. Gap Integrity Principle
 
 ```text
 WHEN TPE CANON
@@ -6471,9 +6471,9 @@ THE REGISTRY
 APPEAR COMPLETE.
 ```
 
----
+______________________________________________________________________
 
-# 413. Invalidation Integrity Principle
+## 413. Invalidation Integrity Principle
 
 ```text
 WHEN A
@@ -6491,9 +6491,9 @@ UNRELATED
 REGISTRY STATE.
 ```
 
----
+______________________________________________________________________
 
-# 414. Governance Integrity Principle
+## 414. Governance Integrity Principle
 
 ```text
 PREDICTIVE CAPABILITY
@@ -6510,9 +6510,9 @@ BYPASS
 COMMIT GATES.
 ```
 
----
+______________________________________________________________________
 
-# 415. Add-Only Integrity Principle
+## 415. Add-Only Integrity Principle
 
 ```text
 NEW TPE KNOWLEDGE
@@ -6528,9 +6528,9 @@ SOURCE LINEAGE,
 OR VALIDATION HISTORY.
 ```
 
----
+______________________________________________________________________
 
-# 416. Final Epistemic Compression
+## 416. Final Epistemic Compression
 
 ```text
 SOURCE_CLAIM
@@ -6666,9 +6666,9 @@ UNKNOWN/GAP
 PASS
 ```
 
----
+______________________________________________________________________
 
-# 417. Final Prediction Compression
+## 417. Final Prediction Compression
 
 ```text
 TPE PREDICTION
@@ -6714,9 +6714,9 @@ DECLARED SCOPE
 DECLARED REGIME
 ```
 
----
+______________________________________________________________________
 
-# 418. Final Registry Compression
+## 418. Final Registry Compression
 
 ```text
 TPE MODEL REGISTRY
@@ -6791,9 +6791,9 @@ IMPLEMENTATION STATUS
 EXECUTABLE BINDING
 ```
 
----
+______________________________________________________________________
 
-# 419. Final Ingestion Compression
+## 419. Final Ingestion Compression
 
 ```text
 LOCATE NATIVE TPE SOURCE
@@ -6865,9 +6865,9 @@ COMMIT OR HOLD
 PRESERVE LINEAGE
 ```
 
----
+______________________________________________________________________
 
-# 420. Strongest Current Characterization
+## 420. Strongest Current Characterization
 
 ```text
 TPE_MODEL_REGISTRY.md
@@ -6959,9 +6959,9 @@ TPE EXECUTABLE BINDING
 NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 421. Promotion Checklist
+## 421. Promotion Checklist
 
 ## Structural contract
 
@@ -7039,9 +7039,9 @@ NOT_ESTABLISHED
 - [ ] rollback demonstrated
 - [ ] validation receipt persistence
 
----
+______________________________________________________________________
 
-# 422. Validation Receipt Requirement
+## 422. Validation Receipt Requirement
 
 The source references:
 
@@ -7093,9 +7093,9 @@ PROVENANCE-BOUND
 EXECUTED
 ```
 
----
+______________________________________________________________________
 
-# 423. Cross-Plane Bindings
+## 423. Cross-Plane Bindings
 
 Target architectural bindings:
 
@@ -7118,9 +7118,9 @@ LINK
 EXECUTABLE BINDING
 ```
 
----
+______________________________________________________________________
 
-# 424. RSCF-NODE
+## 424. RSCF-NODE
 
 ```yaml
 RSCF-NODE:
@@ -7271,9 +7271,9 @@ RSCF-NODE:
         - validation_receipt
 ```
 
----
+______________________________________________________________________
 
-# 425. RSCF-RELATIONS
+## 425. RSCF-RELATIONS
 
 ```yaml
 RSCF-RELATIONS:
@@ -7304,9 +7304,9 @@ RSCF-RELATIONS:
       [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]
 ```
 
----
+______________________________________________________________________
 
-# 426. Final RSCF State
+## 426. Final RSCF State
 
 ```text
 NODE
@@ -7394,9 +7394,9 @@ EXECUTABLE BINDING
 NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 427. Final Law
+## 427. Final Law
 
 ```text
 THE TPE MODEL REGISTRY
@@ -7690,15 +7690,15 @@ SPEED
 TOKEN SAVINGS.
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|AMOS MOC]]
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[02_KERNEL/KERNEL_README|KERNEL_README]] · [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]] · [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]] · [[11_KNOWLEDGE/kernel/AMOS_REINFORCEMENT_LEARNING_ANALYSIS_KERNEL|AMOS_REINFORCEMENT_LEARNING_ANALYSIS_KERNEL]] · [[11_KNOWLEDGE/kernel/AMOS_DEVOPS_INFRA_KERNEL_V0_TECH|AMOS_DEVOPS_INFRA_KERNEL_V0_TECH]] · [[11_KNOWLEDGE/kernel/AMOS_MULTI_PERSPECTIVE_REASONING_KERNEL|AMOS_MULTI_PERSPECTIVE_REASONING_KERNEL]] · [[11_KNOWLEDGE/kernel/IPPROTECTION_KERNEL|IPPROTECTION_KERNEL]]
 
----
+______________________________________________________________________
 
 RSCF-NODE
 
@@ -7739,7 +7739,6 @@ RSCF-RELATIONS:
 - RECOVERED_VIA: [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
 - ARCHITECTURAL_ANCHOR: TPE_prediction_layer
 
----
+______________________________________________________________________
 
 **MOC:** [[13_MODELS/04_DOMAIN/04_DOMAIN_MOC|04_DOMAIN_MOC]]
-

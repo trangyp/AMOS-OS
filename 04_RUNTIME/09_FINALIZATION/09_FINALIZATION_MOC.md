@@ -1,31 +1,51 @@
 ---
-title: 09 Finalization MOC
-type: moc
-source: 04_RUNTIME/09_FINALIZATION
-tags:
-- 09-finalization
-- canon/runtime
-- causal-epoch-finalizer
-- local-proof-finalizer
-- proof-capsule-finalizer
-moc: true
+title: "09 Finalization Moc — Plane Governance Specification"
+type: specification
+source: 04_RUNTIME
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
+status: ACTIVE_SPECIFICATION
+epistemic_class: AMOS_MODEL
+conclusion_class: DERIVED
 rscf:
   state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  claim_class: AMOS_MODEL
+  provenance:
+    - 00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE
+    - 00_ROOT/00_ROOT_MOC
+  scope: plane_governance
+tags:
+  - amos-os
+  - 04-runtime
+  - specification
+  - 09-finalization-moc
 ---
 
-# 09 Finalization — Map of Content
+# 09 Finalization Moc — Plane Governance Specification
 
-**Path:** `04_RUNTIME/09_FINALIZATION`
-**Files:** 3 | **Subdirectories:** 0
-
-## Files
-
-- [[04_RUNTIME/09_FINALIZATION/CAUSAL_EPOCH_FINALIZER|CAUSAL_EPOCH_FINALIZER]]
-- [[04_RUNTIME/09_FINALIZATION/LOCAL_PROOF_FINALIZER|LOCAL_PROOF_FINALIZER]]
-- [[04_RUNTIME/09_FINALIZATION/PROOF_CAPSULE_FINALIZER|PROOF_CAPSULE_FINALIZER]]
+> **Origin Architect / Steward:** Trang Phan  
+> **AMOS_CORE Target:** `v4.4`  
+> **Conclusion Class:** `AMOS_MODEL`  
+> **Status:** `ACTIVE_SPECIFICATION`
 
 ---
-**Parent:** [[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME_MOC]]
+
+## 1. Architectural Scope
+
+`09_FINALIZATION_MOC` defines the typed contracts, invariants, and operational procedures for `04_RUNTIME` within the AMOS Full OS MECE architecture.
+
+---
+
+## 2. Governing Invariants
+
+- **Axiom Adherence:** Strictly bound by M01–M20 core laws.
+- **Fail-Closed Execution:** Rejects unverified or malformed inputs into the rollback basin.
+- **Immutable Receipts:** Emits auditable trace logs to `17_OBSERVABILITY`.
+
+---
+
+## 3. Navigation & Bindings
+
+- **Master MOC:** [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]
+- **Partition Architecture:** [[00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE|FULL_BRAIN_OS_MECE_ARCHITECTURE]]

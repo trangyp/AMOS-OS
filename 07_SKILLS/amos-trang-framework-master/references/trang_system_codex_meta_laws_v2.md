@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: trang system codex meta laws v2
 type: reference
 source: 07_SKILLS/amos-trang-framework-master/references
 tags:
-- reference
-- amos-trang-framework-master
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-trang-framework-master
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -20,16 +23,13 @@ rscf:
 > Source: `_00_Cosmo brain/trang/THE_TRANG_SYSTEM_CODEX_META-LAWS.md`
 > Epistemic class: SOURCE_DERIVED
 
----
-type: doc
-title: Bridge to THE TRANG SYSTEM CODEX META-LAWS
-created: 2026-08-22
-tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/the-trang-system-codex-meta-laws, trang]
----
+______________________________________________________________________
 
-# Bridge: THE TRANG SYSTEM CODEX META-LAWS
+## type: doc title: Bridge to THE TRANG SYSTEM CODEX META-LAWS created: 2026-08-22 tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/the-trang-system-codex-meta-laws, trang]
 
-> [!info] Resolved Bridge
+## Bridge: THE TRANG SYSTEM CODEX META-LAWS
+
+> [!INFO] Resolved Bridge
 > The wikilink `THE TRANG SYSTEM™ CODEX – META-LAWS` resolves to:
 >
 > - `trang/THE TRANG SYSTEM™ CODEX – META-LAWS.md` (867 lines — full codex)
@@ -45,9 +45,9 @@ Resolved to: `trang/THE TRANG SYSTEM™ CODEX – META-LAWS.md`
 - [[11_KNOWLEDGE/COSMO_BRAIN_MOC|COSMO_BRAIN_MOC]]
 - THE TRANG SYSTEM™ CODEX – META-LAWS
 
----
-**MOC:** references_MOC
----
+______________________________________________________________________
+
+## **MOC:** references_MOC
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -55,12 +55,14 @@ Resolved to: `trang/THE TRANG SYSTEM™ CODEX – META-LAWS.md`
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-trang-framework-master-trang-system-codex-meta-laws-v2
 node_type: reference
 path: 07_SKILLS/amos-trang-framework-master/references/trang_system_codex_meta_laws_v2.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

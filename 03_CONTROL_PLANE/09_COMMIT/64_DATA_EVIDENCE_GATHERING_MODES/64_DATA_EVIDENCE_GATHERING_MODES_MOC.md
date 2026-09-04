@@ -1,10 +1,13 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: 64 Data Evidence Gathering Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/64_DATA_EVIDENCE_GATHERING_MODES
 tags:
-- 64-data-evidence-gathering-modes
-- canon/control-plane
+  - 64-data-evidence-gathering-modes
+  - canon/control-plane
 moc: true
 rscf:
   state: DERIVED
@@ -24,5 +27,6 @@ rscf:
 - [[03_CONTROL_PLANE/09_COMMIT/64_DATA_EVIDENCE_GATHERING_MODES/DATA_EVIDENCE_GATHERING_MODES_COMMIT_CONTROL_PLANE_MODE_FAMILY_SPEC|DATA_EVIDENCE_GATHERING_MODES_COMMIT_CONTROL_PLANE_MODE_FAMILY_SPEC]]
 - [[03_CONTROL_PLANE/09_COMMIT/64_DATA_EVIDENCE_GATHERING_MODES/DATA_EVIDENCE_GATHERING_MODES_COMMIT_CONTROL_PLANE_README|DATA_EVIDENCE_GATHERING_MODES_COMMIT_CONTROL_PLANE_README]]
 
----
+______________________________________________________________________
+
 **Parent:** [[03_CONTROL_PLANE/09_COMMIT/09_COMMIT_MOC|09_COMMIT_MOC]]

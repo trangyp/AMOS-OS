@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: 11k architecture decision record
 type: reference
 source: 07_SKILLS/amos-c10-tech-engineering-master/references
 tags:
-- reference
-- amos-c10-tech-engineering-master
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-c10-tech-engineering-master
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -20,7 +23,7 @@ rscf:
 > Source: `/Users/mac/Documents/AMOS_OS/11_KNOWLEDGE/Cosmo_Brain/ARCHITECTURE_DECISION_RECORD.md`
 > Epistemic class: SOURCE_DERIVED
 
-# COSMO Architecture Decision Record (ADR)
+## COSMO Architecture Decision Record (ADR)
 
 This document captures all significant architectural decisions made during the COSMO project. Each decision includes context, alternatives considered, and the chosen approach with its rationale.
 
@@ -31,13 +34,15 @@ This document captures all significant architectural decisions made during the C
 **Context**: The project needs to share code between mobile (React Native + Expo), web (Next.js), and admin consoles while maintaining clear boundaries between UI, domain, and infrastructure logic.
 
 **Considered Options**:
+
 1. **Monorepo with npm workspaces** (chosen): Single version management, shared packages, unified CI/CD
-2. **Multi-repo**: Separate version cycles, but duplication and context switching overhead
-3. **Mobile-first repo + web separate**: Tight coupling issues, harder to share domain logic
+1. **Multi-repo**: Separate version cycles, but duplication and context switching overhead
+1. **Mobile-first repo + web separate**: Tight coupling issues, harder to share domain logic
 
 **Decision**: Use monorepo with turbo for task orchestration and npm workspaces for package management.
 
 **Rationale**:
+
 - Enables shared `packages/domain`, `packages/audio`, `packages/art-engine`
 - Single source of truth for types and tokens
 - Unified testing and type checking
@@ -45,7 +50,7 @@ This document captures all significant architectural decisions made during the C
 
 **Related Files**: `package.json`, `turbo.json`, `packages/*`
 
----
+______________________________________________________________________
 
 ## ADR-002: Backend Platform: Supabase
 
@@ -54,14 +59,16 @@ This document captures all significant architectural decisions made during the C
 **Context**: Need for auth, Postgres, storage, and edge functions with minimal infrastructure management.
 
 **Considered Options**:
+
 1. **Supabase (chosen)**: Postgres + Auth + Storage + Edge Functions + RLS in one package
-2. **Firebase**: Real-time db, auth, storage, but limited SQL flexibility
-3. **Self-hosted Postgres + Auth service**: Full control, but high ops overhead
-4. **AWS Amplify**: Good integration, but costlier at scale
+1. **Firebase**: Real-time db, auth, storage, but limited SQL flexibility
+1. **Self-hosted Postgres + Auth service**: Full control, but high ops overhead
+1. **AWS Amplify**: Good integration, but costlier at scale
 
 **Decision**: Use Supabase for all backend needs.
 
 **Rationale**:
+
 - PostgreSQL with full SQL power and JSONB for flexible schemas
 - Row-level security (RLS) out-of-the-box for data isolation
 - Storage with signed URLs for secure sharing (gifts)
@@ -72,7 +79,7 @@ This document captures all significant architectural decisions made during the C
 
 **Related Files**: `supabase/migrations/`, `supabase/functions/`, `packages/api-client/`
 
----
+______________________________________________________________________
 
 ## ADR-003: Artwork Determinism and Versioning
 
@@ -81,13 +88,15 @@ This document captures all significant architectural decisions made during the C
 **Context**: The resonance artwork must be deterministic — same audio + same features + same seed → same artwork. This enables replay, comparison, and version management.
 
 **Considered Options**:
+
 1. **Deterministic SVG generation with seeded PRNG** (chosen): Same inputs always produce same output
-2. **Hash-based content addressable storage**: Content-addressed by feature vector hash
-3. **Server-side rendering only**: No client-side generation, always server-generated
+1. **Hash-based content addressable storage**: Content-addressed by feature vector hash
+1. **Server-side rendering only**: No client-side generation, always server-generated
 
 **Decision**: Use deterministic SVG generation with explicit versioning.
 
 **Implementation Detail**:
+
 - `artwork_engine_version = "cosmo-art-v1"` stored with each artwork
 - `seed UUID` stored per artwork (can be user-selected or derived from features)
 - `parameter_payload_json` stores all mapped visual parameters
@@ -95,6 +104,7 @@ This document captures all significant architectural decisions made during the C
 - Reproducibility record stored per artwork generation
 
 **Rationale**:
+
 - Enables before/after comparison with morph animation
 - Same scan re-generates same artwork (user can re-view at any time)
 - Version upgrades can be applied systematically
@@ -102,7 +112,7 @@ This document captures all significant architectural decisions made during the C
 
 **Related Files**: `packages/art-engine/`, `DATABASE_PROPOSAL.md` (resonance_artworks table)
 
----
+______________________________________________________________________
 
 ## ADR-004: Audio Storage Privacy-First
 
@@ -111,17 +121,20 @@ This document captures all significant architectural decisions made during the C
 **Context**: Audio recordings are the most sensitive user data. Default behavior must be privacy-protecting.
 
 **Considered Options**:
-1. **Audio storage OFF by default** (chosen): `save_audio_default: false` in user preferences
-2. **Audio storage ON by default**: Convenient but violates privacy-first principle
-3. **
 
----
+1. **Audio storage OFF by default** (chosen): `save_audio_default: false` in user preferences
+1. **Audio storage ON by default**: Convenient but violates privacy-first principle
+1. \*\*
+
+______________________________________________________________________
+
 **MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -129,12 +142,14 @@ This document captures all significant architectural decisions made during the C
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-c10-tech-engineering-master-11k-architecture-decision-record
 node_type: reference
 path: 07_SKILLS/amos-c10-tech-engineering-master/references/11k_architecture_decision_record.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

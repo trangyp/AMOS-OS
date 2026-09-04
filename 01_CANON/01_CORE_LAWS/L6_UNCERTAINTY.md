@@ -1,21 +1,21 @@
 ---
 tags:
-- canon
-- core_laws
-- uncertainty
-- confidence
-- unknown
-- competing
-- rscf
-- governance
-- canon/universe
-- law-hierarchy
-- law/L0-integrity
-- law/L1-epistemic
-- law/L2-provenance
-- law/L3-dependency
-- law/L4-causal
-- law/L5-scope-regime
+  - canon
+  - core_laws
+  - uncertainty
+  - confidence
+  - unknown
+  - competing
+  - rscf
+  - governance
+  - canon/universe
+  - law-hierarchy
+  - law/L0-integrity
+  - law/L1-epistemic
+  - law/L2-provenance
+  - law/L3-dependency
+  - law/L4-causal
+  - law/L5-scope-regime
 title: L6 Uncertainty Laws — 01 Core Laws
 origin_architect: Trang Phan
 updated: '2026-08-26'
@@ -45,9 +45,9 @@ rscf:
 >
 > Uncertainty is part of the epistemic state of a claim. It must not be hidden merely to produce a complete, fluent, decisive, or convenient answer.
 
----
+______________________________________________________________________
 
-# 0. Status
+## 0. Status
 
 This document is a proposed full structural specification for `[[01_CANON/01_CORE_LAWS/L6_UNCERTAINTY|L6_UNCERTAINTY]].md`.
 
@@ -72,9 +72,9 @@ VALIDATED_LOCALLY != UNIVERSALLY_VALID
 
 The supplied `0.95` hard confidence ceiling is retained as part of the proposed L6 specification, but remains conditional on authoritative epistemics canon not defining different semantics.
 
----
+______________________________________________________________________
 
-# 1. Purpose
+## 1. Purpose
 
 L6 exists to make uncertainty:
 
@@ -107,27 +107,32 @@ UNKNOWN → ASSUMED
 ```text
 AMBIGUOUS → ARBITRARILY SELECTED
 ```
+
 ```text
 COMPETING → AVERAGED
 ```
+
 ```text
 WEAK EVIDENCE → HIGH CONFIDENCE
 ```
+
 ```text
 MISSING EVIDENCE → PLAUSIBLE COMPLETION
 ```
+
 ```text
 MODEL UNCERTAINTY → SOURCE CERTAINTY
 ```
+
 and:
 
 ```text
 CONFIDENCE → TRUTH
 ```
 
----
+______________________________________________________________________
 
-# 2. Core Uncertainty Contract
+## 2. Core Uncertainty Contract
 
 Every consequential AMOS claim SHOULD carry an uncertainty state sufficient to answer:
 
@@ -165,9 +170,9 @@ U(
 
 This is an **AMOS MODEL expression**, not a universal mathematical theorem.
 
----
+______________________________________________________________________
 
-# 3. Foundational Laws
+## 3. Foundational Laws
 
 ## U-1 — Typed Uncertainty
 
@@ -198,7 +203,7 @@ uncertainty:
 
 A claim being `DERIVED` does not imply all uncertainty is derivational.
 
----
+______________________________________________________________________
 
 ## U-2 — Confidence Ceiling
 
@@ -237,7 +242,7 @@ Therefore:
 
 unless a specific calibrated statistical interpretation has been established.
 
----
+______________________________________________________________________
 
 ## U-3 — Ambiguity Preservation
 
@@ -276,7 +281,7 @@ NO_WINNER
 
 unless a probabilistic model actually licenses that assignment.
 
----
+______________________________________________________________________
 
 ## U-4 — Unknown Propagation
 
@@ -310,9 +315,9 @@ Thus:
 UNKNOWN/GAP != PASS
 ```
 
----
+______________________________________________________________________
 
-# 4. Additional Governing Laws
+## 4. Additional Governing Laws
 
 ## U-5 — Confidence Is Not Evidence
 
@@ -324,7 +329,7 @@ A confidence value summarizes epistemic state. It does not create evidence.
 
 Repeated confidence statements do not strengthen the underlying claim.
 
----
+______________________________________________________________________
 
 ## U-6 — Confidence Is Not Truth
 
@@ -340,7 +345,7 @@ Likewise:
 LOW_CONFIDENCE != FALSE
 ```
 
----
+______________________________________________________________________
 
 ## U-7 — Repetition Does Not Reduce Uncertainty
 
@@ -350,7 +355,7 @@ REPETITION != INDEPENDENT_CONFIRMATION
 
 Multiple sources descended from one origin do not automatically reduce uncertainty.
 
----
+______________________________________________________________________
 
 ## U-8 — Independence Must Be Demonstrated
 
@@ -362,7 +367,7 @@ MULTIPLE_SOURCES
 MULTIPLE_INDEPENDENT_SOURCES
 ```
 
----
+______________________________________________________________________
 
 ## U-9 — Uncertainty Is Typed, Not Scalar-Only
 
@@ -380,7 +385,7 @@ execution uncertainty
 provenance-independence uncertainty
 ```
 
----
+______________________________________________________________________
 
 ## U-10 — Uncertainty Reduction Requires Information
 
@@ -402,7 +407,7 @@ Legitimate reduction requires something such as:
 - successful execution test;
 - formal proof where applicable.
 
----
+______________________________________________________________________
 
 ## U-11 — Narrowing May Increase Confidence
 
@@ -424,7 +429,7 @@ through scope contraction.
 
 This is not fabrication if the narrower statement is independently supported.
 
----
+______________________________________________________________________
 
 ## U-12 — Uncertainty Must Be Decision-Relevant
 
@@ -442,9 +447,9 @@ for reasoning-resource allocation.
 
 This ordering concerns priority, not truth value.
 
----
+______________________________________________________________________
 
-# 5. Uncertainty Vector
+## 5. Uncertainty Vector
 
 For consequential claims, L6 SHOULD support a multidimensional uncertainty representation.
 
@@ -479,9 +484,9 @@ This vector is an AMOS structural model.
 
 It does not require every implementation to encode uncertainty numerically.
 
----
+______________________________________________________________________
 
-# 6. Evidence Uncertainty
+## 6. Evidence Uncertainty
 
 Evidence uncertainty concerns the quality and completeness of evidence supporting a claim.
 
@@ -507,9 +512,9 @@ uncertainty:
       - measurement_noise
 ```
 
----
+______________________________________________________________________
 
-# 7. Model Uncertainty
+## 7. Model Uncertainty
 
 Model uncertainty concerns whether the selected representation or explanatory model is appropriate.
 
@@ -533,9 +538,9 @@ LOW_MODEL_UNCERTAINTY
 
 A model may output many decimal places while remaining epistemically weak.
 
----
+______________________________________________________________________
 
-# 8. Scope Uncertainty
+## 8. Scope Uncertainty
 
 Scope uncertainty concerns uncertainty over where a claim applies.
 
@@ -562,9 +567,9 @@ SCOPE_UNCERTAINTY
 
 not universal applicability.
 
----
+______________________________________________________________________
 
-# 9. Temporal Uncertainty
+## 9. Temporal Uncertainty
 
 Temporal uncertainty concerns:
 
@@ -587,9 +592,9 @@ uncertainty:
 
 Temporal uncertainty does not necessarily invalidate historical claims but may invalidate current-use claims.
 
----
+______________________________________________________________________
 
-# 10. Causal Uncertainty
+## 10. Causal Uncertainty
 
 Causal uncertainty concerns uncertainty over whether observed relationships represent:
 
@@ -614,9 +619,9 @@ CAUSAL_EFFECT
 
 Causal typing remains governed by L4.
 
----
+______________________________________________________________________
 
-# 11. Execution Uncertainty
+## 11. Execution Uncertainty
 
 Execution uncertainty concerns whether a proposed operation will actually produce the expected result.
 
@@ -641,9 +646,9 @@ SUCCESSFUL_EXECUTION
 
 Execution evidence must remain separate from reasoning confidence.
 
----
+______________________________________________________________________
 
-# 12. Provenance-Independence Uncertainty
+## 12. Provenance-Independence Uncertainty
 
 AMOS MUST track uncertainty about whether apparently separate evidence is genuinely independent.
 
@@ -673,9 +678,9 @@ COUNT(SOURCES)
 COUNT(INDEPENDENT_ORIGINS)
 ```
 
----
+______________________________________________________________________
 
-# 13. Typed Uncertainty State
+## 13. Typed Uncertainty State
 
 A conceptual uncertainty object MAY be represented as:
 
@@ -726,9 +731,9 @@ UncertaintyState:
   provenance: [...]
 ```
 
----
+______________________________________________________________________
 
-# 14. Qualitative Uncertainty Levels
+## 14. Qualitative Uncertainty Levels
 
 Where numerical uncertainty is unsupported, AMOS SHOULD prefer explicit qualitative states.
 
@@ -759,9 +764,9 @@ P(error) > 0.5
 
 unless explicitly calibrated.
 
----
+______________________________________________________________________
 
-# 15. Numerical Confidence
+## 15. Numerical Confidence
 
 Numerical confidence MAY be used only when its semantics are explicit.
 
@@ -784,9 +789,9 @@ confidence: 0.72
 
 when ambiguity would matter.
 
----
+______________________________________________________________________
 
-# 16. Confidence Ceiling Mechanics
+## 16. Confidence Ceiling Mechanics
 
 For a conclusion `C` depending on premises:
 
@@ -821,9 +826,9 @@ fluent synthesis
 very strong conclusion
 ```
 
----
+______________________________________________________________________
 
-# 17. Independent Revalidation Exception
+## 17. Independent Revalidation Exception
 
 The weakest-premise ceiling may cease to bind if the conclusion is independently established through another valid proof path.
 
@@ -854,9 +859,9 @@ PARAPHRASED_PATH != INDEPENDENT_PATH
 
 Independence must be demonstrated.
 
----
+______________________________________________________________________
 
-# 18. Proposed Hard Ceiling
+## 18. Proposed Hard Ceiling
 
 Absent a recognized stronger proof state:
 
@@ -876,9 +881,9 @@ Until such canon is resolved:
 
 This remains conditional because the authoritative epistemics canon may define different ceiling semantics.
 
----
+______________________________________________________________________
 
-# 19. Confidence Composition Prohibition
+## 19. Confidence Composition Prohibition
 
 AMOS MUST NOT arbitrarily compute:
 
@@ -904,9 +909,9 @@ must not be used merely because they appear mathematically plausible.
 
 Confidence composition requires semantic and probabilistic justification.
 
----
+______________________________________________________________________
 
-# 20. Unknown
+## 20. Unknown
 
 `UNKNOWN` means the system lacks sufficient justified information to resolve a required state.
 
@@ -929,9 +934,9 @@ UNKNOWN != ZERO
 UNKNOWN != 0.5
 ```
 
----
+______________________________________________________________________
 
-# 21. GAP
+## 21. GAP
 
 `GAP` identifies a missing information, specification, implementation, provenance, validation, or dependency element.
 
@@ -946,9 +951,9 @@ COSMETIC
 
 The gap class determines priority.
 
----
+______________________________________________________________________
 
-# 22. Critical Gap
+## 22. Critical Gap
 
 A critical gap prevents a safe or justified conclusion.
 
@@ -968,9 +973,9 @@ STOP / FAIL CLOSED / ESCALATE
 
 depending on the relevant control plane.
 
----
+______________________________________________________________________
 
-# 23. Decision-Relevant Gap
+## 23. Decision-Relevant Gap
 
 A decision-relevant gap could change the recommended decision.
 
@@ -984,17 +989,17 @@ REDUNDANT_EVIDENCE_ACCUMULATION
 
 when the discriminating evidence can change the outcome.
 
----
+______________________________________________________________________
 
-# 24. Explanatory Gap
+## 24. Explanatory Gap
 
 An explanatory gap limits understanding but does not currently change the decision.
 
 It SHOULD remain visible but need not block action when action sufficiency is otherwise established.
 
----
+______________________________________________________________________
 
-# 25. Cosmetic Gap
+## 25. Cosmetic Gap
 
 A cosmetic gap does not materially alter:
 
@@ -1007,9 +1012,9 @@ A cosmetic gap does not materially alter:
 
 It has lowest repair priority.
 
----
+______________________________________________________________________
 
-# 26. Unknown Propagation Rule
+## 26. Unknown Propagation Rule
 
 Given:
 
@@ -1036,9 +1041,9 @@ not:
 C = ESTIMATED_WITHOUT_DISCLOSURE
 ```
 
----
+______________________________________________________________________
 
-# 27. Non-Load-Bearing Unknowns
+## 27. Non-Load-Bearing Unknowns
 
 Not every unknown blocks a conclusion.
 
@@ -1068,9 +1073,9 @@ not:
 PROPAGATE EVERY UNKNOWN GLOBALLY
 ```
 
----
+______________________________________________________________________
 
-# 28. Partial Knowledge
+## 28. Partial Knowledge
 
 AMOS SHOULD preserve partially known states.
 
@@ -1088,9 +1093,9 @@ rather than collapsing the entire state to one undifferentiated uncertainty labe
 
 This supports selective repair.
 
----
+______________________________________________________________________
 
-# 29. Competing Hypotheses
+## 29. Competing Hypotheses
 
 A competing hypothesis set MAY be represented as:
 
@@ -1117,9 +1122,9 @@ AMOS SHOULD preserve:
 - regime;
 - falsifiers.
 
----
+______________________________________________________________________
 
-# 30. Competition Is Not Probability
+## 30. Competition Is Not Probability
 
 Given:
 
@@ -1147,9 +1152,9 @@ Therefore:
 COMPETING_SET != PROBABILITY_DISTRIBUTION
 ```
 
----
+______________________________________________________________________
 
-# 31. Incomparable Hypotheses
+## 31. Incomparable Hypotheses
 
 Some alternatives cannot be ranked because they:
 
@@ -1167,9 +1172,9 @@ INCOMPARABLE
 
 rather than being forced into an ordinal ranking.
 
----
+______________________________________________________________________
 
-# 32. Correlated Hypotheses
+## 32. Correlated Hypotheses
 
 Two hypotheses may appear independently supported while relying on the same evidence origin.
 
@@ -1185,9 +1190,9 @@ must not substitute for:
 INDEPENDENT_SUPPORT
 ```
 
----
+______________________________________________________________________
 
-# 33. Discriminating Evidence
+## 33. Discriminating Evidence
 
 When hypotheses remain competing, AMOS SHOULD seek:
 
@@ -1213,9 +1218,9 @@ argmax(
 
 This is an AMOS decision heuristic, not a universally established equation.
 
----
+______________________________________________________________________
 
-# 34. Uncertainty Reduction
+## 34. Uncertainty Reduction
 
 Valid uncertainty reduction MAY occur through:
 
@@ -1244,9 +1249,9 @@ MODEL AGREEMENT WITHOUT INDEPENDENCE
 AUTHORITY WITHOUT EVIDENCE
 ```
 
----
+______________________________________________________________________
 
-# 35. Uncertainty Increase
+## 35. Uncertainty Increase
 
 Uncertainty SHOULD increase or confidence SHOULD decrease when:
 
@@ -1263,9 +1268,9 @@ Uncertainty SHOULD increase or confidence SHOULD decrease when:
 
 Thus confidence is reversible.
 
----
+______________________________________________________________________
 
-# 36. No Monotonic Confidence Assumption
+## 36. No Monotonic Confidence Assumption
 
 AMOS MUST NOT assume confidence only increases over time.
 
@@ -1283,9 +1288,9 @@ C(t+1) < C(t)
 
 and this downgrade is an integrity-preserving result.
 
----
+______________________________________________________________________
 
-# 37. Contradiction
+## 37. Contradiction
 
 Contradiction introduces uncertainty unless one side can be invalidated.
 
@@ -1315,9 +1320,9 @@ Until resolved:
 CONFLICT != CONSENSUS
 ```
 
----
+______________________________________________________________________
 
-# 38. Contradiction Visibility
+## 38. Contradiction Visibility
 
 A system MUST NOT hide contradiction by:
 
@@ -1330,9 +1335,9 @@ A system MUST NOT hide contradiction by:
 
 Contradiction remains visible until legitimately resolved.
 
----
+______________________________________________________________________
 
-# 39. Source Uncertainty
+## 39. Source Uncertainty
 
 Source uncertainty concerns whether the originating source itself is:
 
@@ -1353,9 +1358,9 @@ uncertainty:
     freshness: CURRENT
 ```
 
----
+______________________________________________________________________
 
-# 40. Derived Uncertainty
+## 40. Derived Uncertainty
 
 Derived uncertainty arises through transformations such as:
 
@@ -1377,9 +1382,9 @@ HIGH_QUALITY_INPUT
 ZERO_DERIVATION_UNCERTAINTY
 ```
 
----
+______________________________________________________________________
 
-# 41. Model Uncertainty vs Unknown
+## 41. Model Uncertainty vs Unknown
 
 These states must remain distinct.
 
@@ -1407,9 +1412,9 @@ is not equivalent to:
 two known causal models with uncertain selection
 ```
 
----
+______________________________________________________________________
 
-# 42. Epistemic Classification
+## 42. Epistemic Classification
 
 L6 SHOULD interoperate with the AMOS conclusion classes:
 
@@ -1440,9 +1445,9 @@ because confidence is high.
 
 Claim class and confidence are separate dimensions.
 
----
+______________________________________________________________________
 
-# 43. Conditional Claims
+## 43. Conditional Claims
 
 A `CONDITIONAL` claim SHOULD identify the condition.
 
@@ -1464,9 +1469,9 @@ conditions:
 
 A conditionless conditional label is structurally incomplete.
 
----
+______________________________________________________________________
 
-# 44. Confidence Ceiling Inheritance
+## 44. Confidence Ceiling Inheritance
 
 Derived claims inherit the weakest load-bearing ceiling.
 
@@ -1488,9 +1493,9 @@ unless independently revalidated.
 
 This prevents confidence inflation through synthesis.
 
----
+______________________________________________________________________
 
-# 45. Provenance Ceiling
+## 45. Provenance Ceiling
 
 Where source independence is uncertain:
 
@@ -1502,9 +1507,9 @@ the confidence ceiling SHOULD remain bounded.
 
 Multiple descendants cannot be treated as independent confirmation until ancestry is resolved.
 
----
+______________________________________________________________________
 
-# 46. Scope Ceiling
+## 46. Scope Ceiling
 
 If applicability outside scope `S1` is unknown:
 
@@ -1520,9 +1525,9 @@ Confidence(C outside S1) = bounded / UNKNOWN
 
 Confidence therefore attaches to the scoped claim, not merely its text.
 
----
+______________________________________________________________________
 
-# 47. Regime Ceiling
+## 47. Regime Ceiling
 
 If:
 
@@ -1544,17 +1549,17 @@ does not imply:
 high confidence in C|current_state
 ```
 
----
+______________________________________________________________________
 
-# 48. Temporal Ceiling
+## 48. Temporal Ceiling
 
 A claim whose evidence may be stale cannot retain its former current-use confidence merely because historical support was strong.
 
 Historical and current confidence must remain distinguishable.
 
----
+______________________________________________________________________
 
-# 49. Causal Ceiling
+## 49. Causal Ceiling
 
 A conclusion cannot carry stronger causal confidence than its causal evidence licenses.
 
@@ -1574,9 +1579,9 @@ by confidence scoring alone.
 
 L4 remains authoritative for causal typing.
 
----
+______________________________________________________________________
 
-# 50. Execution Ceiling
+## 50. Execution Ceiling
 
 Before execution:
 
@@ -1602,9 +1607,9 @@ PREDICTED_EXECUTION != EXECUTED_RESULT
 
 L6 prevents predicted execution confidence from masquerading as implementation evidence.
 
----
+______________________________________________________________________
 
-# 51. H/M/L Applicability
+## 51. H/M/L Applicability
 
 ## H — Governing/System Uncertainty
 
@@ -1619,7 +1624,7 @@ At H, uncertainty may concern:
 
 H-level uncertainty may constrain many downstream conclusions.
 
----
+______________________________________________________________________
 
 ## M — Subsystem Uncertainty
 
@@ -1634,7 +1639,7 @@ At M, uncertainty may concern:
 
 M uncertainty may propagate upward or downward depending on dependency structure.
 
----
+______________________________________________________________________
 
 ## L — Local Uncertainty
 
@@ -1649,9 +1654,9 @@ At L, uncertainty may concern:
 
 Local uncertainty does not automatically imply system-wide uncertainty.
 
----
+______________________________________________________________________
 
-# 52. Cross-Scale Uncertainty
+## 52. Cross-Scale Uncertainty
 
 AMOS MUST NOT blindly aggregate uncertainty across H/M/L.
 
@@ -1679,9 +1684,9 @@ LOW_U_L
 
 Cross-scale uncertainty requires explicit dependency and aggregation logic.
 
----
+______________________________________________________________________
 
-# 53. Uncertainty Propagation Through RSCF
+## 53. Uncertainty Propagation Through RSCF
 
 Given:
 
@@ -1710,9 +1715,9 @@ Propagate(
 
 This is not equivalent to summing uncertainty values.
 
----
+______________________________________________________________________
 
-# 54. Dependency-Aware Propagation
+## 54. Dependency-Aware Propagation
 
 If `P1` changes:
 
@@ -1738,9 +1743,9 @@ UNCERTAINTY_PROPAGATION
 DEPENDENCY_SELECTIVE
 ```
 
----
+______________________________________________________________________
 
-# 55. Uncertainty and Atomic Reasoning
+## 55. Uncertainty and Atomic Reasoning
 
 Where multiple RSCFs participate in one decision, uncertainty must be evaluated across the complete load-bearing set before commit.
 
@@ -1754,9 +1759,9 @@ LOCAL_CERTAINTY
 TRANSACTION_CERTAINTY
 ```
 
----
+______________________________________________________________________
 
-# 56. Control-Plane Requirements
+## 56. Control-Plane Requirements
 
 An L6-conformant control plane SHOULD support:
 
@@ -1789,29 +1794,29 @@ control_plane_requirements:
 
 This specifies control requirements; it does not prove runtime implementation.
 
----
+______________________________________________________________________
 
-# 57. Agent Requirements
+## 57. Agent Requirements
 
 AMOS agents SHOULD:
 
 1. identify material unknowns;
-2. classify uncertainty type;
-3. distinguish confidence from evidence;
-4. identify load-bearing uncertain premises;
-5. preserve competing hypotheses;
-6. inspect provenance independence;
-7. detect scope/regime uncertainty;
-8. determine whether uncertainty can flip the decision;
-9. identify cheapest discriminating evidence;
-10. apply confidence ceilings;
-11. refuse unsupported precision;
-12. downgrade conclusions when challenge succeeds;
-13. preserve unresolved gaps.
+1. classify uncertainty type;
+1. distinguish confidence from evidence;
+1. identify load-bearing uncertain premises;
+1. preserve competing hypotheses;
+1. inspect provenance independence;
+1. detect scope/regime uncertainty;
+1. determine whether uncertainty can flip the decision;
+1. identify cheapest discriminating evidence;
+1. apply confidence ceilings;
+1. refuse unsupported precision;
+1. downgrade conclusions when challenge succeeds;
+1. preserve unresolved gaps.
 
----
+______________________________________________________________________
 
-# 58. Skill Requirements
+## 58. Skill Requirements
 
 A Skill producing consequential claims SHOULD expose uncertainty when material.
 
@@ -1839,9 +1844,9 @@ skill_result:
 
 Skills MUST NOT erase uncertainty received from upstream dependencies.
 
----
+______________________________________________________________________
 
-# 59. Workflow
+## 59. Workflow
 
 Canonical conceptual L6 workflow:
 
@@ -1868,9 +1873,9 @@ Canonical conceptual L6 workflow:
 20. RECORD FALSIFIERS / GAPS
 ```
 
----
+______________________________________________________________________
 
-# 60. Protocol
+## 60. Protocol
 
 A minimal uncertainty protocol:
 
@@ -1911,9 +1916,9 @@ UNCERTAINTY_DECISION:
   falsifiers: [...]
 ```
 
----
+______________________________________________________________________
 
-# 61. Uncertainty and Action
+## 61. Uncertainty and Action
 
 Uncertainty does not always prohibit action.
 
@@ -1943,9 +1948,9 @@ ACTION_SUFFICIENCY = SUFFICIENT_FOR_TEST
 
 This prevents unnecessary paralysis.
 
----
+______________________________________________________________________
 
-# 62. Irreversibility Escalation
+## 62. Irreversibility Escalation
 
 Required certainty SHOULD increase as:
 
@@ -1968,9 +1973,9 @@ Irreversibility × Consequence
 
 This is a governance heuristic rather than a universal equation.
 
----
+______________________________________________________________________
 
-# 63. Reversible Action Under Uncertainty
+## 63. Reversible Action Under Uncertainty
 
 When uncertainty cannot be economically resolved before action, AMOS SHOULD prefer:
 
@@ -1986,9 +1991,9 @@ actions over irreversible commitments, assuming other constraints permit them.
 
 This converts uncertainty into controlled information acquisition.
 
----
+______________________________________________________________________
 
-# 64. Unknown Authority
+## 64. Unknown Authority
 
 Authority uncertainty is a critical special case.
 
@@ -2012,9 +2017,9 @@ CAPABILITY != AUTHORITY
 
 remains absolute.
 
----
+______________________________________________________________________
 
-# 65. Proposal Under Uncertainty
+## 65. Proposal Under Uncertainty
 
 A system MAY produce:
 
@@ -2032,9 +2037,9 @@ PROPOSAL != COMMIT
 
 A proposal SHOULD carry its unresolved assumptions and uncertainty state forward.
 
----
+______________________________________________________________________
 
-# 66. Commit-Time Uncertainty
+## 66. Commit-Time Uncertainty
 
 Before consequential commit, the system SHOULD re-evaluate:
 
@@ -2057,9 +2062,9 @@ REVALIDATE
 
 before effect.
 
----
+______________________________________________________________________
 
-# 67. Adversarial Validation
+## 67. Adversarial Validation
 
 Consequential conclusions SHOULD be challenged using a genuinely different path.
 
@@ -2085,9 +2090,9 @@ or
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 68. False Consensus
+## 68. False Consensus
 
 Multiple agents agreeing does not necessarily reduce uncertainty.
 
@@ -2109,9 +2114,9 @@ AGENT_AGREEMENT
 INDEPENDENT_CONFIRMATION
 ```
 
----
+______________________________________________________________________
 
-# 69. Ensemble Uncertainty
+## 69. Ensemble Uncertainty
 
 Agent or model ensembles MAY provide useful evidence only when:
 
@@ -2122,9 +2127,9 @@ Agent or model ensembles MAY provide useful evidence only when:
 
 Otherwise ensemble consensus must remain a weak signal.
 
----
+______________________________________________________________________
 
-# 70. Memory Uncertainty
+## 70. Memory Uncertainty
 
 Persistent memory SHOULD preserve:
 
@@ -2154,9 +2159,9 @@ now known
 
 merely because the item was stored.
 
----
+______________________________________________________________________
 
-# 71. Compression Law
+## 71. Compression Law
 
 Compression MUST preserve decision-relevant uncertainty.
 
@@ -2182,9 +2187,9 @@ MUST NOT
 CREATE CERTAINTY
 ```
 
----
+______________________________________________________________________
 
-# 72. Translation Law
+## 72. Translation Law
 
 Translation across:
 
@@ -2204,9 +2209,9 @@ TRANSLATED
 SEMANTICALLY_IDENTICAL
 ```
 
----
+______________________________________________________________________
 
-# 73. Measurement Uncertainty
+## 73. Measurement Uncertainty
 
 Measured values SHOULD preserve known uncertainty when material.
 
@@ -2223,9 +2228,9 @@ measurement:
 
 AMOS MUST NOT invent measurement precision beyond the source.
 
----
+______________________________________________________________________
 
-# 74. Precision Law
+## 74. Precision Law
 
 Displayed precision cannot exceed justified measurement or model precision.
 
@@ -2243,9 +2248,9 @@ is not inherently more reliable than:
 
 Excess decimal precision may create false certainty.
 
----
+______________________________________________________________________
 
-# 75. Threshold Uncertainty
+## 75. Threshold Uncertainty
 
 When a decision depends on a threshold:
 
@@ -2273,9 +2278,9 @@ x = 0.95
 
 assuming comparable uncertainty semantics.
 
----
+______________________________________________________________________
 
-# 76. Sensitivity
+## 76. Sensitivity
 
 For consequential claims, identify:
 
@@ -2298,9 +2303,9 @@ ROBUST_WITHIN_TESTED_ENVELOPE
 
 not universally robust.
 
----
+______________________________________________________________________
 
-# 77. Calibration
+## 77. Calibration
 
 Confidence calibration requires empirical validation against outcomes where applicable.
 
@@ -2324,9 +2329,9 @@ EPISTEMIC_SCORE != CALIBRATED_PROBABILITY
 
 unless validation establishes the mapping.
 
----
+______________________________________________________________________
 
-# 78. Post-Outcome Scoring
+## 78. Post-Outcome Scoring
 
 Where predictions are made, outcomes SHOULD update calibration evidence.
 
@@ -2341,9 +2346,9 @@ prediction
 
 A system that never checks predictions against outcomes cannot claim empirical calibration merely from internally coherent confidence values.
 
----
+______________________________________________________________________
 
-# 79. Uncertainty Budget
+## 79. Uncertainty Budget
 
 For complex decisions, AMOS MAY track a bounded uncertainty budget.
 
@@ -2362,9 +2367,9 @@ uncertainty_budget:
     - cosmetic_metadata
 ```
 
----
+______________________________________________________________________
 
-# 80. Reasoning Allocation
+## 80. Reasoning Allocation
 
 AMOS SHOULD spend additional reasoning where:
 
@@ -2380,9 +2385,9 @@ Do not deepen analysis merely because uncertainty exists.
 
 Deepen it when reducing that uncertainty can materially change the result.
 
----
+______________________________________________________________________
 
-# 81. Stop Condition
+## 81. Stop Condition
 
 Reasoning MAY stop when:
 
@@ -2400,9 +2405,9 @@ Not every uncertainty must be eliminated.
 
 Residual uncertainty MUST remain visible if material.
 
----
+______________________________________________________________________
 
-# 82. Failure Modes
+## 82. Failure Modes
 
 L6 recognizes at least:
 
@@ -2486,9 +2491,9 @@ System commits despite unresolved load-bearing uncertainty.
 
 One local unknown unnecessarily invalidates unrelated claims.
 
----
+______________________________________________________________________
 
-# 83. Repair / Recovery
+## 83. Repair / Recovery
 
 Canonical repair flow:
 
@@ -2514,9 +2519,9 @@ REVALIDATE
 RESTORE / DOWNGRADE / CONDITION / QUARANTINE
 ```
 
----
+______________________________________________________________________
 
-# 84. Confidence Repair
+## 84. Confidence Repair
 
 If:
 
@@ -2540,9 +2545,9 @@ unless independent revalidation exists.
 
 The previous `0.90` state should be recorded as invalidated rather than silently overwritten where provenance/history matters.
 
----
+______________________________________________________________________
 
-# 85. Unknown Restoration
+## 85. Unknown Restoration
 
 If an earlier process fabricated a value for an unknown field:
 
@@ -2558,9 +2563,9 @@ assumed X → UNKNOWN
 
 followed by selective revalidation of dependent claims.
 
----
+______________________________________________________________________
 
-# 86. Competing Restoration
+## 86. Competing Restoration
 
 If:
 
@@ -2578,9 +2583,9 @@ COMPETING:
 
 and invalidates conclusions that depended on false convergence.
 
----
+______________________________________________________________________
 
-# 87. Selective Invalidation
+## 87. Selective Invalidation
 
 If premise `P` becomes uncertain:
 
@@ -2601,9 +2606,9 @@ LOCAL_FAILURE
 GLOBAL_RESET
 ```
 
----
+______________________________________________________________________
 
-# 88. Validators
+## 88. Validators
 
 Conceptual L6 validators include:
 
@@ -2631,9 +2636,9 @@ validate_commit_uncertainty()
 validate_gap_classification()
 ```
 
----
+______________________________________________________________________
 
-# 89. Minimum Validator Tests
+## 89. Minimum Validator Tests
 
 ## Test U6-T1 — Unknown Propagation
 
@@ -2653,7 +2658,7 @@ C = UNKNOWN / CONDITIONAL
 
 not fabricated.
 
----
+______________________________________________________________________
 
 ## Test U6-T2 — Weakest Premise Ceiling
 
@@ -2673,7 +2678,7 @@ Expected:
 C ceiling ≤ 0.62
 ```
 
----
+______________________________________________________________________
 
 ## Test U6-T3 — Competing Preservation
 
@@ -2691,7 +2696,7 @@ COMPETING
 
 not arbitrary winner.
 
----
+______________________________________________________________________
 
 ## Test U6-T4 — No Probability Fabrication
 
@@ -2707,7 +2712,7 @@ Expected:
 No automatic 50/50 assignment.
 ```
 
----
+______________________________________________________________________
 
 ## Test U6-T5 — Provenance Correlation
 
@@ -2726,7 +2731,7 @@ independent_origins = 1
 
 where lineage is established.
 
----
+______________________________________________________________________
 
 ## Test U6-T6 — Confidence Downgrade
 
@@ -2744,7 +2749,7 @@ confidence ceiling reconsidered
 
 not frozen.
 
----
+______________________________________________________________________
 
 ## Test U6-T7 — Scope Uncertainty
 
@@ -2763,7 +2768,7 @@ S2 = UNKNOWN / CONDITIONAL
 
 unless transfer evidence exists.
 
----
+______________________________________________________________________
 
 ## Test U6-T8 — Regime Uncertainty
 
@@ -2780,7 +2785,7 @@ Expected:
 current applicability confidence bounded
 ```
 
----
+______________________________________________________________________
 
 ## Test U6-T9 — False Precision
 
@@ -2796,7 +2801,7 @@ Expected:
 derived output does not imply unsupported measurement precision
 ```
 
----
+______________________________________________________________________
 
 ## Test U6-T10 — Execution Distinction
 
@@ -2813,7 +2818,7 @@ Expected:
 implementation_status != VERIFIED_EXECUTION
 ```
 
----
+______________________________________________________________________
 
 ## Test U6-T11 — Independent Revalidation
 
@@ -2832,7 +2837,7 @@ C may receive stronger ceiling from Path B
 
 if independence is demonstrated.
 
----
+______________________________________________________________________
 
 ## Test U6-T12 — Local Unknown
 
@@ -2849,27 +2854,27 @@ Expected:
 C not automatically UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 90. Falsifiers
+## 90. Falsifiers
 
 The L6 specification is falsified or requires revision if authoritative canon establishes that:
 
 1. uncertainty classes differ materially from those represented here;
-2. confidence ceiling semantics differ;
-3. the proposed `0.95` ceiling is superseded;
-4. COMPETING hypotheses are governed by a different canonical structure;
-5. UNKNOWN propagation uses different canonical rules;
-6. an assumed dependency between L6 and L0-L5 is incorrect;
-7. executable AMOS runtime behavior contradicts claimed partial implementation;
-8. canonical confidence values have validated probabilistic semantics inconsistent with this document;
-9. stronger canon establishes different uncertainty composition rules.
+1. confidence ceiling semantics differ;
+1. the proposed `0.95` ceiling is superseded;
+1. COMPETING hypotheses are governed by a different canonical structure;
+1. UNKNOWN propagation uses different canonical rules;
+1. an assumed dependency between L6 and L0-L5 is incorrect;
+1. executable AMOS runtime behavior contradicts claimed partial implementation;
+1. canonical confidence values have validated probabilistic semantics inconsistent with this document;
+1. stronger canon establishes different uncertainty composition rules.
 
 These falsifiers apply to the specification, not to empirical uncertainty itself.
 
----
+______________________________________________________________________
 
-# 91. Core Invariants
+## 91. Core Invariants
 
 ## L6-I1 — Uncertainty Visibility
 
@@ -2992,9 +2997,9 @@ OUTPUT_PRECISION
 JUSTIFIED_PRECISION
 ```
 
----
+______________________________________________________________________
 
-# 92. Hard Boundaries
+## 92. Hard Boundaries
 
 ```text
 UNCERTAINTY != IGNORANCE_ERASURE
@@ -3034,9 +3039,9 @@ PROPOSAL != COMMIT
 UNKNOWN/GAP != PASS
 ```
 
----
+______________________________________________________________________
 
-# 93. Dependencies
+## 93. Dependencies
 
 Primary conceptual dependency spine:
 
@@ -3082,9 +3087,9 @@ dependencies:
 
 L6 MUST NOT weaken any upstream law.
 
----
+______________________________________________________________________
 
-# 94. Interaction with RSCF
+## 94. Interaction with RSCF
 
 A mature RSCF SHOULD support:
 
@@ -3119,9 +3124,9 @@ rscf:
 
 The uncertainty state belongs to the proof capsule, not merely the presentation layer.
 
----
+______________________________________________________________________
 
-# 95. RSCF Promotion Rule
+## 95. RSCF Promotion Rule
 
 A claim may be promoted only when its uncertainty state permits the target class.
 
@@ -3151,9 +3156,9 @@ CONDITIONAL
 
 if scope, regime, provenance, freshness, or dependency validity changes.
 
----
+______________________________________________________________________
 
-# 96. Interaction with GMEF
+## 96. Interaction with GMEF
 
 Where L6 uncertainty concerns a proposed machine/system change, GMEF SHOULD receive:
 
@@ -3168,9 +3173,9 @@ authority state
 
 A technically plausible mutation cannot be promoted merely because uncertainty was omitted.
 
----
+______________________________________________________________________
 
-# 97. Implementation Boundary
+## 97. Implementation Boundary
 
 Current declared implementation status:
 
@@ -3202,9 +3207,9 @@ LOGIC_EXECUTABLE_IN_PART
 RUNTIME_COMPLETE
 ```
 
----
+______________________________________________________________________
 
-# 98. Evidence / Provenance
+## 98. Evidence / Provenance
 
 Current supplied evidence for this artifact includes the explicit seed specification:
 
@@ -3233,9 +3238,9 @@ until reconciled against authoritative canon sources.
 
 No claim is made here that every expanded law is verbatim source canon.
 
----
+______________________________________________________________________
 
-# 99. Gap Status
+## 99. Gap Status
 
 ```yaml
 gap_status:
@@ -3274,9 +3279,9 @@ gap_status:
     final_canon_approval: REQUIRED
 ```
 
----
+______________________________________________________________________
 
-# 100. RSCF Completion State
+## 100. RSCF Completion State
 
 ```yaml
 claim_class: AMOS_MODEL
@@ -3369,9 +3374,9 @@ confidence_ceiling:
   empirical_calibration: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 101. Canon Promotion Gate
+## 101. Canon Promotion Gate
 
 Before final canon promotion:
 
@@ -3413,15 +3418,15 @@ not:
 STATUS = VERIFIED_FINAL_CANON
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[01_CANON/01_CORE_LAWS/ATOMIC_MULTI_RSCF|ATOMIC_MULTI_RSCF]] · [[02_KERNEL/K_ATOMIC_MULTI_RSCF|K_ATOMIC_MULTI_RSCF]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[01_CANON/01_CORE_LAWS/L0_INTEGRITY|L0_INTEGRITY]] · [[01_CANON/01_CORE_LAWS/L1_EPISTEMIC|L1_EPISTEMIC]] · [[01_CANON/01_CORE_LAWS/L2_PROVENANCE|L2_PROVENANCE]] · [[01_CANON/01_CORE_LAWS/L3_DEPENDENCY|L3_DEPENDENCY]] · [[01_CANON/01_CORE_LAWS/L4_CAUSAL|L4_CAUSAL]] · [[01_CANON/01_CORE_LAWS/L5_SCOPE_REGIME|L5_SCOPE_REGIME]]
 
----
+______________________________________________________________________
 
 RSCF-NODE
 
@@ -3451,3 +3456,4 @@ claim_class: AMOS_MODEL
 ---
 **MOC:** [[01_CANON/01_CORE_LAWS/01_CORE_LAWS_MOC|01_CORE_LAWS_MOC]]
 
+```

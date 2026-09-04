@@ -4,25 +4,22 @@ title: SKILL — Amos Semantic Grounding Auditor
 type: skill
 source: 07_SKILLS/amos-semantic-grounding-auditor
 name: amos-semantic-grounding-auditor
-description: Semantic Grounding Auditor — audit and repair capability. Use when auditing,
-  failure analysis, gap discovery, or repair allocation. Use when amos-audit-repair-master
-  routes to this specialized capability. Do not use for generic tasks outside audit
-  domain.
+description: Semantic Grounding Auditor — audit and repair capability. Use when auditing, failure analysis, gap discovery, or repair allocation. Use when amos-audit-repair-master routes to this specialized capability. Do not use for generic tasks outside audit domain.
 parent_skill: amos-audit-repair-master
 domain: audit
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
 tags:
-- type/skill
-- type/skill
-- domain/audit-repair
-- epistemic/source_claim
-- hml/m
-- epistemic/source_claim
-- amos-os
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/audit-repair
+  - epistemic/source_claim
+  - hml/m
+  - epistemic/source_claim
+  - amos-os
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -32,25 +29,25 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: M
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
-- L7_authority
-- L22_replayability
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
+  - L7_authority
+  - L22_replayability
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L7
-- L16
-- L17
-- L18
-- L22
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L7
+  - L16
+  - L17
+  - L18
+  - L22
 license: MIT
 steward: Trang Phan
 ---
@@ -60,6 +57,7 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: audit. Parent: amos-audit-repair-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
 ## When to Use
 
 - When auditing claims against evidence and provenance
@@ -87,13 +85,13 @@ Origin architect: **Trang Phan**. Domain: audit. Parent: amos-audit-repair-maste
 ## Operations
 
 1. **semantic_grounding.audit_claim**: Audit claims against evidence, provenance, and epistemic class
-2. **semantic_grounding.detect_gap**: Detect gaps: missing capabilities, missing evidence, missing tests, missing monitors
-3. **semantic_grounding.allocate_repair**: Allocate repair resources to highest-leverage gaps and failure modes
-4. **semantic_grounding.verify_closure**: Verify gap closure: requirement → capability → component → test → evidence
-5. **semantic_grounding.benchmark_forensics**: Benchmark forensic analysis: trace performance regressions to root causes
-6. **semantic_grounding.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-7. **semantic_grounding.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
-8. **semantic_grounding.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+1. **semantic_grounding.detect_gap**: Detect gaps: missing capabilities, missing evidence, missing tests, missing monitors
+1. **semantic_grounding.allocate_repair**: Allocate repair resources to highest-leverage gaps and failure modes
+1. **semantic_grounding.verify_closure**: Verify gap closure: requirement → capability → component → test → evidence
+1. **semantic_grounding.benchmark_forensics**: Benchmark forensic analysis: trace performance regressions to root causes
+1. **semantic_grounding.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+1. **semantic_grounding.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+1. **semantic_grounding.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## 11_KNOWLEDGE Vault Content
 
@@ -105,46 +103,54 @@ Origin architect: **Trang Phan**. Domain: audit. Parent: amos-audit-repair-maste
 From Cosmo Brain Overlooked: Semantic Grounding Divergence Detector to measure distance between symbolic coherence and structural reality. From New.md: Concrete world model with safe semantics envelope.
 
 **Semantic grounding divergence equations** (SOURCE_DERIVED):
+
 ```
 Divergence = |Semantic_Coherence - Structural_Grounding|
 Grounding_Loss = 1 - exp(-Divergence)
 ```
+
 - **Semantic coherence**: internal consistency of symbols
 - **Structural grounding**: correlation with measurable reality
 
 **Concrete world model** (from New.md):
+
 ```
 w = (S, T, Predicates, Ctx, Trace)
 ```
+
 - S = states, T = transitions, Predicates = predicates, Ctx = context, Trace = execution trace
 - Claims evaluated via `w ⊨ c` (world satisfies claim)
 
 **Grounding loss examples**: over-academic abstraction, LLM hallucination, legal formalism detached from reality
 
 **Auditing protocol**:
+
 1. **Measure semantic coherence**: measure internal consistency of symbols
-2. **Measure structural grounding**: measure correlation with measurable reality
-3. **Compute divergence**: compute divergence between the two
-4. **Compute grounding loss**: compute grounding loss from divergence
-5. **Report**: report with provenance and epistemic class
+1. **Measure structural grounding**: measure correlation with measurable reality
+1. **Compute divergence**: compute divergence between the two
+1. **Compute grounding loss**: compute grounding loss from divergence
+1. **Report**: report with provenance and epistemic class
 
 **Auditing laws**:
+
 - `COHERENCE != GROUNDING`: internal coherence does not imply external grounding
 - `SYMBOL != REALITY`: symbols represent reality; they are not reality
-- `GROUNDED != TRUE**: grounding connects to measurable reality; it does not prove truth
+- \`GROUNDED != TRUE\*\*: grounding connects to measurable reality; it does not prove truth
 
 ### Epistemic Boundary
 
 Semantic grounding auditing is an epistemic construct. It does not prove all grounding loss is detected, that the divergence formula is universally applicable, or that grounding implies truth.
 
 ## Failure Modes
+
 - **Insufficient evidence**: If source material is insufficient, mark as UNKNOWN/GAP and fail closed — do not fabricate.
 - **Scope violation**: If the query falls outside the skill's declared scope, escalate to the parent skill or steward.
 - **Binding broken**: If 1:1:1 binding (skill→agent→workflow) is broken, flag routing mismatch and block execution.
 - **Validation failure**: If validation gates fail, downgrade confidence, flag the gap, and escalate — do not force-fit.
 - **Epistemic overreach**: If a claim exceeds the established evidence or epistemic class, retract and relabel.
 
----
+______________________________________________________________________
+
 **Links:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 ## Related
@@ -154,17 +160,19 @@ Semantic grounding auditing is an epistemic construct. It does not prove all gro
 ## Examples
 
 - **Scenario**: When auditing claims against evidence and provenance
+
   - **Input**: A query matching this skill's domain (audit)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When detecting gaps in capabilities, evidence, tests, or monitors
+
   - **Input**: A query matching this skill's domain (audit)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When allocating repair resources to highest-leverage gaps
+
   - **Input**: A query matching this skill's domain (audit)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Validation Gates
 
@@ -181,7 +189,6 @@ Semantic grounding auditing is an epistemic construct. It does not prove all gro
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `amos-audit-repair-master` — routes to this skill when audit specialization is needed
@@ -189,7 +196,6 @@ Semantic grounding auditing is an epistemic construct. It does not prove all gro
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -208,7 +214,6 @@ Semantic grounding auditing is an epistemic construct. It does not prove all gro
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -216,7 +221,6 @@ Semantic grounding auditing is an epistemic construct. It does not prove all gro
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -229,11 +233,12 @@ Semantic grounding auditing is an epistemic construct. It does not prove all gro
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `amos-audit-repair-master` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `amos-semantic-grounding-auditor-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -241,12 +246,14 @@ Semantic grounding auditing is an epistemic construct. It does not prove all gro
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-semantic-grounding-auditor
 node_type: skill
 path: 07_SKILLS/amos-semantic-grounding-auditor/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

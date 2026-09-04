@@ -12,21 +12,21 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: FRAMEWORK
 path: 11_KNOWLEDGE/05_FRAMEWORKS/ABSOLUTE_STRUCTURAL_INTEGRITY.md
 tags:
-- amos-os
-- knowledge
-- vault
-- 05_frameworks
-- absolute_structural_integrity
-- law_of_law
-- ucia_closure
-- failure_determinism
-- enforceable_invariants
-- rscf
-- canon_candidate
-- canon/knowledge
-- design-for-absolute-integrity
-- psi-framework
-- psi-master
+  - amos-os
+  - knowledge
+  - vault
+  - 05_frameworks
+  - absolute_structural_integrity
+  - law_of_law
+  - ucia_closure
+  - failure_determinism
+  - enforceable_invariants
+  - rscf
+  - canon_candidate
+  - canon/knowledge
+  - design-for-absolute-integrity
+  - psi-framework
+  - psi-master
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -41,19 +41,19 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - ABSOLUTE_INTEGRITY_ARCHITECTURE_CANONICAL_ROOT
-  - AMOS_CORPUS
+    - ABSOLUTE_INTEGRITY_ARCHITECTURE_CANONICAL_ROOT
+    - AMOS_CORPUS
   scope:
-  - KNOWLEDGE_FRAMEWORKS
-  - STRUCTURAL_INTEGRITY
-  - SOURCE_DEFINED_MODEL
+    - KNOWLEDGE_FRAMEWORKS
+    - STRUCTURAL_INTEGRITY
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   primary:
     name: Absolute Integrity Architecture™ — Canonical Root
     role: ROOT_STRUCTURAL_INTEGRITY_AND_LAW_OF_LAW
   design_counterpart:
     artifact:
-    - - DESIGN_FOR_ABSOLUTE_INTEGRITY
+      -   - DESIGN_FOR_ABSOLUTE_INTEGRITY
   canonical_law:
     artifact: 01_CANON/01_CORE_LAWS/L0_INTEGRITY
 epistemic_boundary:
@@ -69,43 +69,46 @@ epistemic_boundary:
 
 It codifies the **Law of Law**, **UCIA Closure**, and **Failure Determinism** that define structural stability across physical, biological, software, and cognitive systems.
 
----
+______________________________________________________________________
 
-# 1. Formal Definition of a Law
+## 1. Formal Definition of a Law
 
 A statement is a **Law** if and only if it satisfies all 5 conditions:
+
 1. **Constraint ($\mathcal{C}$):** Restricts admissible system behavior.
-2. **Bounded Domain ($\mathcal{D}$):** Applies universally within a specified scope.
-3. **Enforcement ($\mathcal{E}$):** Violation produces non-optional consequence.
-4. **Failure Determinism ($\mathcal{F}$):** Constraint breach maps to a predictable collapse class.
-5. **Testability ($\mathcal{T}$):** Falsifiable under observation or execution.
+1. **Bounded Domain ($\mathcal{D}$):** Applies universally within a specified scope.
+1. **Enforcement ($\mathcal{E}$):** Violation produces non-optional consequence.
+1. **Failure Determinism ($\mathcal{F}$):** Constraint breach maps to a predictable collapse class.
+1. **Testability ($\mathcal{T}$):** Falsifiable under observation or execution.
 
 $$\text{Stability} \iff \text{Admissibility under } (\mathcal{C}, \mathcal{E}, \mathcal{F})$$
+
 $$\text{Collapse} \iff \text{Constraint breach under enforcement}$$
 
----
+______________________________________________________________________
 
-# 2. The Absolute Integrity™ Theorem
+## 2. The Absolute Integrity™ Theorem
 
 A system possesses **Absolute Integrity™** if and only if:
+
 - All governing constraints are explicit.
 - All assumptions are surfaced.
 - All claims are support-typed (`OBSERVATION`, `MODEL`, `PROOF`, `GAP`).
 - All decisions produce cryptographic receipts.
 - Capability does not exceed authority (`CAPABILITY != AUTHORITY`).
 
----
+______________________________________________________________________
 
-# 3. Inter-Plane & Vault Connections
+## 3. Inter-Plane & Vault Connections
 
 - **Core Canon Law:** `01_CANON/01_CORE_LAWS/L0_INTEGRITY`
 - **Design Framework:** [[11_KNOWLEDGE/05_FRAMEWORKS/DESIGN_FOR_ABSOLUTE_INTEGRITY|DESIGN_FOR_ABSOLUTE_INTEGRITY]]
 - **Canonical Root Source:** `11_KNOWLEDGE/architecture/ABSOLUTE_INTEGRITY_ARCHITECTURE_CANONICAL_ROOT`
 - **Perceived Integrity:** [[11_KNOWLEDGE/05_FRAMEWORKS/PSI_FRAMEWORK|PSI_FRAMEWORK]] and [[11_KNOWLEDGE/05_FRAMEWORKS/PSI_MASTER|PSI_MASTER]]
 
----
+______________________________________________________________________
 
-# 4. RSCF Contract
+## 4. RSCF Contract
 
 ```yaml
 RSCF:
@@ -123,10 +126,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]] · `01_CANON/01_CORE_LAWS/L0_INTEGRITY` · [[11_KNOWLEDGE/05_FRAMEWORKS/DESIGN_FOR_ABSOLUTE_INTEGRITY|DESIGN_FOR_ABSOLUTE_INTEGRITY]] · [[11_KNOWLEDGE/05_FRAMEWORKS/PSI_FRAMEWORK|PSI_FRAMEWORK]]
 
----
-**MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]
+______________________________________________________________________
 
+**MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]

@@ -16,27 +16,27 @@ schema_family: RSCF
 schema_role: COLLAPSE_RSCF
 schema_version: AMOS_CORE_v4.4-compatible-conceptual
 tags:
-- amos-os
-- canon
-- universe
-- core_laws
-- collapse
-- state_reduction
-- uncertainty
-- decision
-- commitment
-- finality
-- reversibility
-- dependency_graph
-- provenance
-- epistemic_regimes
-- competing_hypotheses
-- rscf
-- canon/universe
-- placeholder_expanded
-- validation
-- local-finality
-- law/L19-proof-capsule
+  - amos-os
+  - canon
+  - universe
+  - core_laws
+  - collapse
+  - state_reduction
+  - uncertainty
+  - decision
+  - commitment
+  - finality
+  - reversibility
+  - dependency_graph
+  - provenance
+  - epistemic_regimes
+  - competing_hypotheses
+  - rscf
+  - canon/universe
+  - placeholder_expanded
+  - validation
+  - local-finality
+  - law/L19-proof-capsule
 version: 0.2.0
 updated: '2026-08-27'
 status: PLACEHOLDER_EXPANDED
@@ -65,7 +65,7 @@ rscf:
 
 `COLLAPSE_CANON.md` is an **ADD-ONLY placeholder-expanded artifact** for:
 
-```text
+````text
 01_CANON/01_CORE_LAWS
 
 It reserves the canonical slot for the AMOS framework family named **Collapse Canon**.
@@ -82,7 +82,7 @@ AMOS_MODEL
 TARGET CONTRACT
 +
 CANON CANDIDATE
-```
+````
 
 until verified native-canon sources establish otherwise.
 
@@ -109,9 +109,9 @@ System:
 
 **AMOS OS**
 
----
+______________________________________________________________________
 
-# 1. Governing Integrity Boundary
+## 1. Governing Integrity Boundary
 
 The Collapse Canon MUST preserve:
 
@@ -175,9 +175,9 @@ LOGGED != APPROVED
 
 These distinctions are mandatory.
 
----
+______________________________________________________________________
 
-# 2. Purpose
+## 2. Purpose
 
 The target **Collapse Canon** governs disciplined reduction of unresolved state spaces into narrower epistemic, computational, governance, or decision states.
 
@@ -211,9 +211,9 @@ ONLY AS FAR AS
 EVIDENCE AND GOVERNANCE LICENSE
 ```
 
----
+______________________________________________________________________
 
-# 3. Terminology Firewall
+## 3. Terminology Firewall
 
 Because substantive native canon has not yet been established, the term:
 
@@ -240,9 +240,9 @@ AMOS_MODEL
 
 not verified native canon.
 
----
+______________________________________________________________________
 
-# 4. Core Target Law
+## 4. Core Target Law
 
 The target governing principle is:
 
@@ -265,29 +265,29 @@ must hold.
 
 This is a reasoning/governance invariant, not an asserted universal law of reality.
 
----
+______________________________________________________________________
 
-# 5. Non-Purpose
+## 5. Non-Purpose
 
 This artifact MUST NOT be used to claim:
 
-* physical wave-function collapse;
-* quantum measurement theory;
-* universal laws of observation;
-* consciousness-caused physical collapse;
-* metaphysical reality selection;
-* biological collapse mechanisms;
-* mathematical proof of collapse dynamics;
-* deterministic selection where evidence remains competing;
-* global finality from local finalization;
-* runtime enforcement that has not been implemented;
-* final canonical status;
-* empirical validity from architectural coherence;
-* authority merely from architectural centrality.
+- physical wave-function collapse;
+- quantum measurement theory;
+- universal laws of observation;
+- consciousness-caused physical collapse;
+- metaphysical reality selection;
+- biological collapse mechanisms;
+- mathematical proof of collapse dynamics;
+- deterministic selection where evidence remains competing;
+- global finality from local finalization;
+- runtime enforcement that has not been implemented;
+- final canonical status;
+- empirical validity from architectural coherence;
+- authority merely from architectural centrality.
 
----
+______________________________________________________________________
 
-# 6. Ingestion Rule
+## 6. Ingestion Rule
 
 ```yaml
 AMOS_CANON_INGESTION_RULE:
@@ -333,9 +333,9 @@ AMOS_CANON_INGESTION_RULE:
       - NEVER_INVENT_CANON
 ```
 
----
+______________________________________________________________________
 
-# 7. Collapse State Space
+## 7. Collapse State Space
 
 Let a conceptual unresolved state space be:
 
@@ -373,9 +373,9 @@ NO ADMISSIBLE STATE
 
 Collapse does not require convergence to exactly one state.
 
----
+______________________________________________________________________
 
-# 8. Partial Collapse
+## 8. Partial Collapse
 
 If evidence eliminates only some candidates:
 
@@ -393,9 +393,9 @@ PARTIAL_COLLAPSE
 
 not arbitrary selection of `B` or `D`.
 
----
+______________________________________________________________________
 
-# 9. Complete Operational Collapse
+## 9. Complete Operational Collapse
 
 A state space may reduce to one admissible candidate:
 
@@ -411,9 +411,9 @@ This establishes operational resolution only.
 
 It does not establish universal truth.
 
----
+______________________________________________________________________
 
-# 10. No-Collapse State
+## 10. No-Collapse State
 
 If evidence cannot discriminate:
 
@@ -441,9 +441,9 @@ Failure to collapse is not necessarily system failure.
 
 It may be the integrity-preserving result.
 
----
+______________________________________________________________________
 
-# 11. Collapse Classes
+## 11. Collapse Classes
 
 Target collapse classes:
 
@@ -475,9 +475,9 @@ UNKNOWN_COLLAPSE_CLASS
 
 These classes MUST remain typed.
 
----
+______________________________________________________________________
 
-# 12. Epistemic Collapse
+## 12. Epistemic Collapse
 
 Epistemic collapse reduces the set of claims consistent with available evidence.
 
@@ -512,9 +512,9 @@ COMPETING
 
 unless further evidence discriminates.
 
----
+______________________________________________________________________
 
-# 13. Hypothesis Collapse
+## 13. Hypothesis Collapse
 
 A hypothesis is removed only when:
 
@@ -532,9 +532,9 @@ or otherwise excluded under an explicitly declared rule.
 
 Low popularity alone does not justify elimination.
 
----
+______________________________________________________________________
 
-# 14. Decision Collapse
+## 14. Decision Collapse
 
 Decision collapse maps multiple admissible actions into a selected action or action set.
 
@@ -560,9 +560,9 @@ SELECTED ACTION
 EXECUTED ACTION
 ```
 
----
+______________________________________________________________________
 
-# 15. State Collapse
+## 15. State Collapse
 
 State collapse reduces uncertainty over the current state of a modeled system.
 
@@ -586,9 +586,9 @@ SYSTEM_STATE ∈ {S2,S3}
 
 This is a state-estimation operation, not automatically a claim about physical ontology.
 
----
+______________________________________________________________________
 
-# 16. Scope Collapse
+## 16. Scope Collapse
 
 A claim may be narrowed rather than rejected.
 
@@ -615,9 +615,9 @@ SCOPE_COLLAPSE
 
 The narrower claim may survive.
 
----
+______________________________________________________________________
 
-# 17. Regime Collapse
+## 17. Regime Collapse
 
 When a regime is identified, hypotheses incompatible with that regime may become inadmissible.
 
@@ -633,9 +633,9 @@ ELIMINATE ALL NON-R MODELS
 
 when regime identity remains unresolved.
 
----
+______________________________________________________________________
 
-# 18. Dependency Collapse
+## 18. Dependency Collapse
 
 If a load-bearing premise fails:
 
@@ -659,9 +659,9 @@ C2 = INVALIDATED
 
 Unrelated conclusions remain intact.
 
----
+______________________________________________________________________
 
-# 19. Governance Collapse
+## 19. Governance Collapse
 
 Governance may reduce the action space:
 
@@ -685,9 +685,9 @@ It is:
 GOVERNANCE_INADMISSIBLE
 ```
 
----
+______________________________________________________________________
 
-# 20. Commit Collapse
+## 20. Commit Collapse
 
 Commit collapse occurs when a proposed candidate becomes authoritative under the governing system.
 
@@ -711,9 +711,9 @@ Canonical boundary:
 PROPOSAL != COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 21. Execution Collapse
+## 21. Execution Collapse
 
 A committed action may still require execution.
 
@@ -741,9 +741,9 @@ SUCCESSFUL
 VALIDATED
 ```
 
----
+______________________________________________________________________
 
-# 22. Recovery Collapse
+## 22. Recovery Collapse
 
 After failure, the system may collapse the admissible recovery space toward the nearest valid recoverable state.
 
@@ -761,9 +761,9 @@ SAFE RECOVERY STATE
 
 Recovery should preserve unaffected state where possible.
 
----
+______________________________________________________________________
 
-# 23. Ontological Firewall
+## 23. Ontological Firewall
 
 AMOS MUST NOT infer:
 
@@ -781,9 +781,9 @@ The former may describe a computational or epistemic operation.
 
 The latter is an ontological claim requiring independent evidence.
 
----
+______________________________________________________________________
 
-# 24. Quantum Firewall
+## 24. Quantum Firewall
 
 Use of words such as:
 
@@ -807,9 +807,9 @@ MODEL
 
 unless independently validated against appropriate scientific evidence.
 
----
+______________________________________________________________________
 
-# 25. Cognitive Firewall
+## 25. Cognitive Firewall
 
 A cognitive decision narrowing multiple interpretations to one does not establish that cognition follows a physical collapse law.
 
@@ -829,9 +829,9 @@ COGNITIVE MODEL
 
 not verified physical mechanism.
 
----
+______________________________________________________________________
 
-# 26. Universe Firewall
+## 26. Universe Firewall
 
 A framework named:
 
@@ -843,9 +843,9 @@ within a universe/canon architecture does not establish a universal law of reali
 
 Canonical architecture and empirical ontology remain separate.
 
----
+______________________________________________________________________
 
-# 27. Deterministic Collapse
+## 27. Deterministic Collapse
 
 A deterministic collapse rule conceptually has:
 
@@ -859,9 +859,9 @@ where the same valid input and governing conditions produce the same result.
 
 If deterministic behavior is claimed, the relevant rule, state, version, and conditions must be declared.
 
----
+______________________________________________________________________
 
-# 28. Non-Deterministic Collapse
+## 28. Non-Deterministic Collapse
 
 If multiple outcomes remain valid under the governing model, the system MUST NOT falsely label the result deterministic.
 
@@ -877,9 +877,9 @@ or:
 COMPETING
 ```
 
----
+______________________________________________________________________
 
-# 29. Evidence-Driven Collapse
+## 29. Evidence-Driven Collapse
 
 Evidence may eliminate states only where the evidence bears on the distinction.
 
@@ -897,9 +897,9 @@ C from D
 
 Evidence scope must follow dependency edges.
 
----
+______________________________________________________________________
 
-# 30. Constraint-Driven Collapse
+## 30. Constraint-Driven Collapse
 
 Constraints may eliminate states:
 
@@ -915,9 +915,9 @@ But constraint provenance and authority must be established.
 
 An invented constraint cannot legitimately collapse the state space.
 
----
+______________________________________________________________________
 
-# 31. Authority-Driven Collapse
+## 31. Authority-Driven Collapse
 
 Authority may determine which state is permitted to become authoritative.
 
@@ -931,9 +931,9 @@ TRUTH
 
 A governance decision can select an operational state without converting it into empirical fact.
 
----
+______________________________________________________________________
 
-# 32. Observation-Driven Collapse
+## 32. Observation-Driven Collapse
 
 An observation can reduce uncertainty when it discriminates among states.
 
@@ -949,9 +949,9 @@ O
 
 No specific Bayesian or probabilistic semantics are asserted by this notation.
 
----
+______________________________________________________________________
 
-# 33. Model-Driven Collapse
+## 33. Model-Driven Collapse
 
 A model may constrain candidate states.
 
@@ -969,9 +969,9 @@ S INCOMPATIBLE WITH MODEL
 
 unless the model itself is sufficiently validated for the relevant use.
 
----
+______________________________________________________________________
 
-# 34. Provenance-Driven Collapse
+## 34. Provenance-Driven Collapse
 
 Evidence with invalid or unresolved provenance may be insufficient to eliminate competing states.
 
@@ -987,9 +987,9 @@ does not necessarily imply:
 EVIDENCE ADMISSIBLE
 ```
 
----
+______________________________________________________________________
 
-# 35. Freshness-Driven Collapse
+## 35. Freshness-Driven Collapse
 
 A state selected using stale evidence may no longer be valid.
 
@@ -1003,9 +1003,9 @@ REQUIRED_WINDOW
 
 when temporality is load-bearing.
 
----
+______________________________________________________________________
 
-# 36. Collapse Claim Classes
+## 36. Collapse Claim Classes
 
 Target vocabulary:
 
@@ -1041,9 +1041,9 @@ UNKNOWN/GAP
 
 These MUST NOT be silently collapsed into one generic "resolved" state.
 
----
+______________________________________________________________________
 
-# 37. Epistemic Classes
+## 37. Epistemic Classes
 
 Collapse-related conclusions remain separately typed as:
 
@@ -1071,9 +1071,9 @@ collapse_result:
 
 is valid when selection depends on unresolved assumptions.
 
----
+______________________________________________________________________
 
-# 38. Target Collapse Schema
+## 38. Target Collapse Schema
 
 ```yaml
 collapse_operation:
@@ -1141,9 +1141,9 @@ This is a target schema.
 
 Executable binding is NOT_ESTABLISHED.
 
----
+______________________________________________________________________
 
-# 39. Collapse Provenance
+## 39. Collapse Provenance
 
 Every consequential collapse SHOULD retain:
 
@@ -1171,9 +1171,9 @@ RECEIPT
 
 so that the state reduction can be reconstructed.
 
----
+______________________________________________________________________
 
-# 40. Provenance Topology
+## 40. Provenance Topology
 
 Target:
 
@@ -1195,9 +1195,9 @@ DECISION / COMMIT
 
 A result without recoverable ancestry is weaker than an equivalent result with persistent provenance.
 
----
+______________________________________________________________________
 
-# 41. Independent Evidence
+## 41. Independent Evidence
 
 Multiple evidence items SHOULD NOT be treated as independent merely because they appear separately.
 
@@ -1223,9 +1223,9 @@ ANCESTRY
 
 when independence affects collapse.
 
----
+______________________________________________________________________
 
-# 42. Anti-Sybil Collapse Rule
+## 42. Anti-Sybil Collapse Rule
 
 Invalid:
 
@@ -1250,9 +1250,9 @@ Correct:
 
 unless independence is demonstrated.
 
----
+______________________________________________________________________
 
-# 43. Dependency Closure
+## 43. Dependency Closure
 
 Before consequential collapse, traverse the smallest dependency closure capable of changing the result.
 
@@ -1280,9 +1280,9 @@ Raw evidence defaults:
 DO_NOT_LOAD_UNLESS_REQUIRED
 ```
 
----
+______________________________________________________________________
 
-# 44. Confidence Ceiling
+## 44. Confidence Ceiling
 
 A collapse result SHOULD NOT have greater confidence than its weakest load-bearing premise unless independently repaired.
 
@@ -1296,9 +1296,9 @@ MIN_LOAD_BEARING_CONFIDENCE
 
 This is a reasoning constraint, not a universal probability theorem.
 
----
+______________________________________________________________________
 
-# 45. Competing States
+## 45. Competing States
 
 If multiple states remain comparably supported:
 
@@ -1315,9 +1315,9 @@ COMPETING
 
 not forced convergence.
 
----
+______________________________________________________________________
 
-# 46. Incomparable States
+## 46. Incomparable States
 
 States may be incomparable because they rely on different evidence, scope, or regimes.
 
@@ -1337,9 +1337,9 @@ INCOMPARABLE / COMPETING
 
 until a discriminating basis exists.
 
----
+______________________________________________________________________
 
-# 47. Correlated Support
+## 47. Correlated Support
 
 If:
 
@@ -1353,9 +1353,9 @@ share ancestry, their combined support may not justify stronger collapse than th
 
 Repetition is not independent resolution.
 
----
+______________________________________________________________________
 
-# 48. Discriminating Test
+## 48. Discriminating Test
 
 When multiple states remain, prefer the cheapest safe test that maximally separates them.
 
@@ -1372,9 +1372,9 @@ REVERSIBILITY
 GOVERNANCE
 ```
 
----
+______________________________________________________________________
 
-# 49. Collapse Falsifiers
+## 49. Collapse Falsifiers
 
 A consequential collapse SHOULD identify what would reopen the state space.
 
@@ -1400,9 +1400,9 @@ VALIDATION FAILURE
 EXECUTION FAILURE
 ```
 
----
+______________________________________________________________________
 
-# 50. Reopening
+## 50. Reopening
 
 Collapse is not necessarily permanent.
 
@@ -1418,9 +1418,9 @@ REOPEN
 
 The reopened state space SHOULD include only states justified by the new dependency state.
 
----
+______________________________________________________________________
 
-# 51. Selective Reopening
+## 51. Selective Reopening
 
 If one premise fails, reopen only dependent branches.
 
@@ -1440,9 +1440,9 @@ REOPEN / INVALIDATE S2 PATH
 
 while preserving valid `S1` and `S3` paths.
 
----
+______________________________________________________________________
 
-# 52. Scope Firewall
+## 52. Scope Firewall
 
 Every consequential collapse SHOULD inherit:
 
@@ -1461,9 +1461,9 @@ scope:
 
 A state eliminated in one scope is not automatically eliminated globally.
 
----
+______________________________________________________________________
 
-# 53. Regime Firewall
+## 53. Regime Firewall
 
 A collapse result valid under:
 
@@ -1489,9 +1489,9 @@ or:
 REOPEN
 ```
 
----
+______________________________________________________________________
 
-# 54. Temporal Firewall
+## 54. Temporal Firewall
 
 A result at:
 
@@ -1515,9 +1515,9 @@ FINALIZED_AT_t1
 PERMANENTLY_FINAL
 ```
 
----
+______________________________________________________________________
 
-# 55. Scale Firewall
+## 55. Scale Firewall
 
 State reduction at one scale does not automatically resolve another.
 
@@ -1533,9 +1533,9 @@ does not establish:
 GLOBAL SYSTEM STATE RESOLVED
 ```
 
----
+______________________________________________________________________
 
-# 56. Cross-Domain Firewall
+## 56. Cross-Domain Firewall
 
 A collapse model useful in:
 
@@ -1561,9 +1561,9 @@ MODEL
 
 unless independently validated.
 
----
+______________________________________________________________________
 
-# 57. Structural Similarity Firewall
+## 57. Structural Similarity Firewall
 
 Similar state-transition graphs across domains establish structural resemblance at most.
 
@@ -1575,9 +1575,9 @@ SAME GRAPH SHAPE
 SAME REAL-WORLD PROCESS
 ```
 
----
+______________________________________________________________________
 
-# 58. Observation Firewall
+## 58. Observation Firewall
 
 Observation can update modeled state.
 
@@ -1599,9 +1599,9 @@ COMMIT
 
 unless governance explicitly binds observation to an authorized transition.
 
----
+______________________________________________________________________
 
-# 59. Logging Firewall
+## 59. Logging Firewall
 
 A logged collapse event does not establish approval.
 
@@ -1619,9 +1619,9 @@ LOGGED
 VALIDATED
 ```
 
----
+______________________________________________________________________
 
-# 60. Proposal Firewall
+## 60. Proposal Firewall
 
 A candidate collapse may be computed before it becomes authoritative.
 
@@ -1633,9 +1633,9 @@ PROPOSAL
 
 remains non-authoritative until gates pass.
 
----
+______________________________________________________________________
 
-# 61. Authorization Firewall
+## 61. Authorization Firewall
 
 Authorization permits an operation.
 
@@ -1647,9 +1647,9 @@ AUTHORIZED
 VERIFIED
 ```
 
----
+______________________________________________________________________
 
-# 62. Commit Firewall
+## 62. Commit Firewall
 
 Commit establishes authoritative system state within its governance scope.
 
@@ -1661,9 +1661,9 @@ COMMITTED
 EMPIRICALLY TRUE
 ```
 
----
+______________________________________________________________________
 
-# 63. Finality Firewall
+## 63. Finality Firewall
 
 Finality MUST be typed.
 
@@ -1687,9 +1687,9 @@ GLOBAL_FINALITY_UNKNOWN
 
 Do not silently promote local finality to global finality.
 
----
+______________________________________________________________________
 
-# 64. Local Finality
+## 64. Local Finality
 
 A locally finalized result means:
 
@@ -1700,9 +1700,9 @@ UNDER CURRENT VALID CONDITIONS
 
 It does not establish that no external dependency can later invalidate it.
 
----
+______________________________________________________________________
 
-# 65. Causal Epoch Finality
+## 65. Causal Epoch Finality
 
 A result may be final for:
 
@@ -1716,9 +1716,9 @@ A new epoch may require revalidation.
 
 This is a conceptual AMOS reasoning pattern, not a claim that ChatGPT literally implements distributed causal epoch machinery.
 
----
+______________________________________________________________________
 
-# 66. Epoch Transition
+## 66. Epoch Transition
 
 Target:
 
@@ -1734,9 +1734,9 @@ REVALIDATE AFFECTED RESULTS
 
 Unchanged independent results may remain reusable.
 
----
+______________________________________________________________________
 
-# 67. Atomic Multi-RSCF Collapse
+## 67. Atomic Multi-RSCF Collapse
 
 A consequential operation may depend on multiple RSCF nodes:
 
@@ -1762,9 +1762,9 @@ HOLD / ABORT / RETRY
 
 This is a conceptual integrity model, not evidence of an implemented distributed transaction system.
 
----
+______________________________________________________________________
 
-# 68. Partial Multi-RSCF Failure
+## 68. Partial Multi-RSCF Failure
 
 If a multi-node collapse requires atomicity:
 
@@ -1784,9 +1784,9 @@ NO AUTHORITATIVE COMMIT
 
 plus a receipt identifying the failed premise.
 
----
+______________________________________________________________________
 
-# 69. MVCC Concept
+## 69. MVCC Concept
 
 For mutable state, a target collapse operation may read against a versioned snapshot:
 
@@ -1800,9 +1800,9 @@ This preserves reasoning about concurrent mutation.
 
 It does not claim that all AMOS artifacts currently implement MVCC.
 
----
+______________________________________________________________________
 
-# 70. CAS Concept
+## 70. CAS Concept
 
 A target compare-and-swap discipline:
 
@@ -1816,9 +1816,9 @@ can protect collapse transitions from stale assumptions.
 
 Executable binding remains NOT_ESTABLISHED.
 
----
+______________________________________________________________________
 
-# 71. Persistent Provenance
+## 71. Persistent Provenance
 
 A committed collapse SHOULD retain persistent provenance sufficient to reconstruct:
 
@@ -1838,9 +1838,9 @@ WHICH VERSION WAS USED
 WHICH RECEIPT VALIDATED IT
 ```
 
----
+______________________________________________________________________
 
-# 72. Hardened Local Finalization
+## 72. Hardened Local Finalization
 
 Target local finalization requires at minimum:
 
@@ -1866,9 +1866,9 @@ RECEIPT RECORDED
 
 when applicable.
 
----
+______________________________________________________________________
 
-# 73. Coordination Avoidance Boundary
+## 73. Coordination Avoidance Boundary
 
 Local collapse may avoid broader coordination only when independence is demonstrated.
 
@@ -1892,9 +1892,9 @@ NO IRREVERSIBLE EXTERNAL EFFECT
 
 Otherwise coordination or escalation is required.
 
----
+______________________________________________________________________
 
-# 74. Proof-Based Coordination Avoidance
+## 74. Proof-Based Coordination Avoidance
 
 Target principle:
 
@@ -1912,9 +1912,9 @@ MERELY FOR SPEED
 
 Coordination avoidance is admissible only when a proof-relevant dependency analysis establishes that broader coordination cannot change the valid result.
 
----
+______________________________________________________________________
 
-# 75. Fast Path
+## 75. Fast Path
 
 Local collapse may use the fast path only when:
 
@@ -1938,9 +1938,9 @@ AUTHORITY VALID
 REVERSIBILITY ACCEPTABLE
 ```
 
----
+______________________________________________________________________
 
-# 76. Escalation Conditions
+## 76. Escalation Conditions
 
 Escalate when:
 
@@ -1970,23 +1970,23 @@ UNKNOWN AUTHORITY
 FAILED VALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 77. Adversarial Validation
+## 77. Adversarial Validation
 
 For consequential collapse:
 
 1. construct the strongest supported reduction;
-2. search for a state that was incorrectly eliminated;
-3. test shared provenance;
-4. test stale premises;
-5. test scope leakage;
-6. test regime leakage;
-7. test hidden dependencies;
-8. test causal coupling;
-9. test authority validity;
-10. test reversibility;
-11. test whether a weaker partial collapse is more accurate.
+1. search for a state that was incorrectly eliminated;
+1. test shared provenance;
+1. test stale premises;
+1. test scope leakage;
+1. test regime leakage;
+1. test hidden dependencies;
+1. test causal coupling;
+1. test authority validity;
+1. test reversibility;
+1. test whether a weaker partial collapse is more accurate.
 
 If challenge succeeds:
 
@@ -2018,9 +2018,9 @@ or:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 78. Sensitivity
+## 78. Sensitivity
 
 For every consequential collapse, identify the smallest premise capable of changing the selected state.
 
@@ -2044,9 +2044,9 @@ ONE CONFLICT
 
 Test it first.
 
----
+______________________________________________________________________
 
-# 79. Fragile Collapse
+## 79. Fragile Collapse
 
 If a plausible perturbation changes:
 
@@ -2068,17 +2068,17 @@ Correct classification:
 CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
-# 80. Robust Collapse
+## 80. Robust Collapse
 
 A collapse is more robust when plausible perturbations of noncritical assumptions do not alter the decision-relevant state.
 
 Robustness does not establish universal finality.
 
----
+______________________________________________________________________
 
-# 81. Proof Capsule — Collapse
+## 81. Proof Capsule — Collapse
 
 ```yaml
 proof_capsule:
@@ -2141,9 +2141,9 @@ proof_capsule:
     receipt: optional
 ```
 
----
+______________________________________________________________________
 
-# 82. Proof Capsule Reuse
+## 82. Proof Capsule Reuse
 
 A collapse proof capsule may be reused only while:
 
@@ -2169,9 +2169,9 @@ Otherwise:
 REVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 83. Selective Invalidation
+## 83. Selective Invalidation
 
 Suppose:
 
@@ -2194,9 +2194,9 @@ R3
 
 but preserve independent collapse results.
 
----
+______________________________________________________________________
 
-# 84. Failure Recovery
+## 84. Failure Recovery
 
 Target:
 
@@ -2214,9 +2214,9 @@ REROUTE LOCALLY
 
 Do not repeat the same failed path without changed evidence.
 
----
+______________________________________________________________________
 
-# 85. Global Recompute
+## 85. Global Recompute
 
 Global recomputation is a last resort.
 
@@ -2234,9 +2234,9 @@ WIDESPREAD CONFLICT
 LOCAL REPAIR CANNOT ESTABLISH SAFETY
 ```
 
----
+______________________________________________________________________
 
-# 86. Rollback Basin
+## 86. Rollback Basin
 
 Before consequential collapse, preserve sufficient prior state for reversal.
 
@@ -2260,9 +2260,9 @@ RECOVERY POINTER
 
 where applicable.
 
----
+______________________________________________________________________
 
-# 87. Irreversibility
+## 87. Irreversibility
 
 If collapse triggers irreversible external effects, validation depth MUST increase.
 
@@ -2284,9 +2284,9 @@ INSTITUTIONAL POLICY
 DATA DELETION
 ```
 
----
+______________________________________________________________________
 
-# 88. Reversible Action Preference
+## 88. Reversible Action Preference
 
 Under material uncertainty:
 
@@ -2300,9 +2300,9 @@ when cost, risk, and expected information value permit.
 
 This is a governance preference, not a universal theorem.
 
----
+______________________________________________________________________
 
-# 89. Worked Semantics — Competing Hypotheses
+## 89. Worked Semantics — Competing Hypotheses
 
 Input:
 
@@ -2340,9 +2340,9 @@ SELECT H2
 
 without discriminating evidence.
 
----
+______________________________________________________________________
 
-# 90. Worked Semantics — Unknown
+## 90. Worked Semantics — Unknown
 
 Input:
 
@@ -2366,9 +2366,9 @@ UNKNOWN/GAP
 
 where the unresolved distinction is decision-critical.
 
----
+______________________________________________________________________
 
-# 91. Worked Semantics — Provenance Failure
+## 91. Worked Semantics — Provenance Failure
 
 Suppose:
 
@@ -2392,9 +2392,9 @@ REOPEN COLLAPSE
 
 or downgrade confidence.
 
----
+______________________________________________________________________
 
-# 92. Worked Semantics — Stale Evidence
+## 92. Worked Semantics — Stale Evidence
 
 A state was selected at `t1`.
 
@@ -2412,9 +2412,9 @@ REVALIDATE
 
 not silent reuse.
 
----
+______________________________________________________________________
 
-# 93. Worked Semantics — Regime Shift
+## 93. Worked Semantics — Regime Shift
 
 State:
 
@@ -2442,9 +2442,9 @@ REOPEN
 
 or revalidate affected branches.
 
----
+______________________________________________________________________
 
-# 94. Worked Semantics — Scope Narrowing
+## 94. Worked Semantics — Scope Narrowing
 
 Claim candidates:
 
@@ -2470,9 +2470,9 @@ SCOPE_COLLAPSE
 
 not total rejection.
 
----
+______________________________________________________________________
 
-# 95. Worked Semantics — Governance
+## 95. Worked Semantics — Governance
 
 Candidates:
 
@@ -2503,9 +2503,9 @@ not:
 A = FALSE
 ```
 
----
+______________________________________________________________________
 
-# 96. Worked Semantics — Proposal
+## 96. Worked Semantics — Proposal
 
 System computes:
 
@@ -2521,9 +2521,9 @@ PROPOSED(B)
 
 until validation and authority gates pass.
 
----
+______________________________________________________________________
 
-# 97. Worked Semantics — Commit
+## 97. Worked Semantics — Commit
 
 If:
 
@@ -2545,9 +2545,9 @@ COMMIT B
 
 with receipt.
 
----
+______________________________________________________________________
 
-# 98. Worked Semantics — Failed Commit
+## 98. Worked Semantics — Failed Commit
 
 If authority expires between proposal and commit:
 
@@ -2565,9 +2565,9 @@ HOLD / ABORT
 
 not commit.
 
----
+______________________________________________________________________
 
-# 99. Worked Semantics — Version Race
+## 99. Worked Semantics — Version Race
 
 Read:
 
@@ -2595,9 +2595,9 @@ REVALIDATE / RETRY
 
 not stale commit.
 
----
+______________________________________________________________________
 
-# 100. Worked Semantics — Multi-RSCF
+## 100. Worked Semantics — Multi-RSCF
 
 Operation requires:
 
@@ -2618,9 +2618,9 @@ DO NOT FINALIZE USING STALE B@v8
 
 Revalidate the affected closure.
 
----
+______________________________________________________________________
 
-# 101. Worked Semantics — Local Finality
+## 101. Worked Semantics — Local Finality
 
 A shard-local operation finalizes state:
 
@@ -2642,9 +2642,9 @@ GLOBAL FINALITY ESTABLISHED
 
 unless global dependencies are proven irrelevant or separately finalized.
 
----
+______________________________________________________________________
 
-# 102. Worked Semantics — Coordination Avoidance
+## 102. Worked Semantics — Coordination Avoidance
 
 Suppose operation `O` touches only:
 
@@ -2672,9 +2672,9 @@ If any condition is unresolved:
 ESCALATE
 ```
 
----
+______________________________________________________________________
 
-# 103. Worked Semantics — Causal Coupling
+## 103. Worked Semantics — Causal Coupling
 
 Suppose:
 
@@ -2694,9 +2694,9 @@ Then structural locality alone does not establish reasoning independence.
 
 Causal coupling requires escalation where material.
 
----
+______________________________________________________________________
 
-# 104. Worked Semantics — Physical Analogy
+## 104. Worked Semantics — Physical Analogy
 
 Suppose a document describes decision resolution as:
 
@@ -2716,9 +2716,9 @@ It does not establish:
 PHYSICAL QUANTUM COLLAPSE
 ```
 
----
+______________________________________________________________________
 
-# 105. Worked Semantics — Finalized but Wrong
+## 105. Worked Semantics — Finalized but Wrong
 
 A state can be:
 
@@ -2742,9 +2742,9 @@ ENTER RECOVERY / NEW EPOCH
 
 subject to governance.
 
----
+______________________________________________________________________
 
-# 106. Worked Semantics — New Evidence
+## 106. Worked Semantics — New Evidence
 
 State space:
 
@@ -2764,9 +2764,9 @@ REOPEN C
 
 not necessarily reopen `A`.
 
----
+______________________________________________________________________
 
-# 107. Worked Semantics — Contradiction
+## 107. Worked Semantics — Contradiction
 
 Two valid evidence paths support:
 
@@ -2792,9 +2792,9 @@ CONTRADICTION VISIBLE
 
 until discrimination succeeds.
 
----
+______________________________________________________________________
 
-# 108. Worked Semantics — No Valid State
+## 108. Worked Semantics — No Valid State
 
 Suppose every candidate violates a required constraint.
 
@@ -2806,9 +2806,9 @@ NO_ADMISSIBLE_STATE
 
 This MUST NOT be silently converted into selection of the least-invalid candidate unless governance explicitly defines such fallback semantics.
 
----
+______________________________________________________________________
 
-# 109. Worked Semantics — Missing Candidate
+## 109. Worked Semantics — Missing Candidate
 
 If the candidate space itself may be incomplete:
 
@@ -2834,9 +2834,9 @@ with completeness:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 110. Open-World Boundary
+## 110. Open-World Boundary
 
 Unless closure is established, AMOS SHOULD assume that an enumerated candidate set may not exhaust reality.
 
@@ -2852,9 +2852,9 @@ does not automatically mean:
 ONLY POSSIBLE REAL STATE
 ```
 
----
+______________________________________________________________________
 
-# 111. Closed-World Collapse
+## 111. Closed-World Collapse
 
 A complete collapse over a closed-world state space requires a justified closure condition.
 
@@ -2872,9 +2872,9 @@ COMPLETE_OPERATIONAL_COLLAPSE
 
 remains bounded to the modeled candidate set.
 
----
+______________________________________________________________________
 
-# 112. Decision Sufficiency
+## 112. Decision Sufficiency
 
 Perfect state resolution is not always required.
 
@@ -2907,17 +2907,17 @@ may occur without:
 EPISTEMIC COLLAPSE
 ```
 
----
+______________________________________________________________________
 
-# 113. Claim Sufficiency
+## 113. Claim Sufficiency
 
 Reasoning may stop when the remaining unresolved states cannot materially change the requested claim.
 
 Do not force unnecessary collapse.
 
----
+______________________________________________________________________
 
-# 114. Action Sufficiency
+## 114. Action Sufficiency
 
 Reasoning may stop when:
 
@@ -2931,9 +2931,9 @@ REQUIRED AUTHORITY AVAILABLE
 
 even if explanatory uncertainty remains.
 
----
+______________________________________________________________________
 
-# 115. Collapse Sufficiency
+## 115. Collapse Sufficiency
 
 Target stop condition:
 
@@ -2947,9 +2947,9 @@ ACTION SUFFICIENT
 
 with unresolved material uncertainty still visible.
 
----
+______________________________________________________________________
 
-# 116. Adaptive Complexity
+## 116. Adaptive Complexity
 
 Target levels:
 
@@ -2991,9 +2991,9 @@ GOVERNANCE IMPACT
 LOW TRUST
 ```
 
----
+______________________________________________________________________
 
-# 117. Uncertainty Vector
+## 117. Uncertainty Vector
 
 When material, track separately:
 
@@ -3015,9 +3015,9 @@ PROVENANCE-INDEPENDENCE UNCERTAINTY
 
 Collapse one uncertainty dimension only when evidence resolves that dimension.
 
----
+______________________________________________________________________
 
-# 118. Gap Taxonomy
+## 118. Gap Taxonomy
 
 ```text
 CRITICAL
@@ -3031,9 +3031,9 @@ COSMETIC
 
 Resolve in that order.
 
----
+______________________________________________________________________
 
-# 119. Critical Gap — Native Canon
+## 119. Critical Gap — Native Canon
 
 ```yaml
 gap:
@@ -3052,9 +3052,9 @@ gap:
     - lineage
 ```
 
----
+______________________________________________________________________
 
-# 120. Critical Gap — Collapse Meaning
+## 120. Critical Gap — Collapse Meaning
 
 ```yaml
 gap:
@@ -3069,9 +3069,9 @@ gap:
     target semantics only.
 ```
 
----
+______________________________________________________________________
 
-# 121. Critical Gap — Executable Binding
+## 121. Critical Gap — Executable Binding
 
 ```yaml
 gap:
@@ -3084,9 +3084,9 @@ gap:
     been established.
 ```
 
----
+______________________________________________________________________
 
-# 122. Critical Gap — Validation
+## 122. Critical Gap — Validation
 
 ```yaml
 gap:
@@ -3099,9 +3099,9 @@ gap:
     Canon has been established.
 ```
 
----
+______________________________________________________________________
 
-# 123. Critical Gap — Physical Interpretation
+## 123. Critical Gap — Physical Interpretation
 
 ```yaml
 gap:
@@ -3114,37 +3114,37 @@ gap:
     refers to any physical or quantum collapse mechanism.
 ```
 
----
+______________________________________________________________________
 
-# 124. Promotion Gates
+## 124. Promotion Gates
 
 Before promotion from placeholder-expanded to populated canon:
 
-* [ ] substantive native-canon source recovered;
-* [ ] native meaning of collapse established;
-* [ ] provenance and lineage established;
-* [ ] typed collapse classes established;
-* [ ] input/output state schema bound;
-* [ ] scope schema bound;
-* [ ] regime schema bound;
-* [ ] version semantics established;
-* [ ] competing-state handling established;
-* [ ] provenance independence handling established;
-* [ ] selective invalidation implemented;
-* [ ] reopening semantics implemented;
-* [ ] rollback basin demonstrated;
-* [ ] authority checks implemented;
-* [ ] proposal/commit separation validated;
-* [ ] local/global finality distinction validated;
-* [ ] stale-state negative cases tested;
-* [ ] multi-RSCF failure cases tested where applicable;
-* [ ] UNKNOWN/GAP fail-closed behavior tested;
-* [ ] artifact-specific validation receipt executed;
-* [ ] unresolved critical gaps remain visible.
+- [ ] substantive native-canon source recovered;
+- [ ] native meaning of collapse established;
+- [ ] provenance and lineage established;
+- [ ] typed collapse classes established;
+- [ ] input/output state schema bound;
+- [ ] scope schema bound;
+- [ ] regime schema bound;
+- [ ] version semantics established;
+- [ ] competing-state handling established;
+- [ ] provenance independence handling established;
+- [ ] selective invalidation implemented;
+- [ ] reopening semantics implemented;
+- [ ] rollback basin demonstrated;
+- [ ] authority checks implemented;
+- [ ] proposal/commit separation validated;
+- [ ] local/global finality distinction validated;
+- [ ] stale-state negative cases tested;
+- [ ] multi-RSCF failure cases tested where applicable;
+- [ ] UNKNOWN/GAP fail-closed behavior tested;
+- [ ] artifact-specific validation receipt executed;
+- [ ] unresolved critical gaps remain visible.
 
----
+______________________________________________________________________
 
-# 125. Negative Validation Matrix
+## 125. Negative Validation Matrix
 
 Required target cases:
 
@@ -3198,9 +3198,9 @@ MISSING PROVENANCE
 MISSING VALIDATION RECEIPT
 ```
 
----
+______________________________________________________________________
 
-# 126. Mutation Discipline
+## 126. Mutation Discipline
 
 For a consequential collapse mutation:
 
@@ -3238,9 +3238,9 @@ COMMIT OR HOLD
 RECEIPT
 ```
 
----
+______________________________________________________________________
 
-# 127. Fail-Closed Rule
+## 127. Fail-Closed Rule
 
 If a load-bearing field is unresolved:
 
@@ -3262,9 +3262,9 @@ HOLD
 
 unless a governed reversible fallback exists.
 
----
+______________________________________________________________________
 
-# 128. Receipt Discipline
+## 128. Receipt Discipline
 
 A consequential collapse SHOULD produce a receipt containing enough information to reconstruct:
 
@@ -3292,9 +3292,9 @@ TIMESTAMP / EPOCH
 RESULT
 ```
 
----
+______________________________________________________________________
 
-# 129. Target Validation Receipt
+## 129. Target Validation Receipt
 
 ```yaml
 validation_receipt:
@@ -3373,9 +3373,9 @@ validation_receipt:
 
 No executed receipt of this form is established by the supplied placeholder.
 
----
+______________________________________________________________________
 
-# 130. H/M/L Fractal Target
+## 130. H/M/L Fractal Target
 
 ```text
 H — COLLAPSE SYSTEM
@@ -3393,9 +3393,9 @@ Raw evidence:
 DO_NOT_LOAD_UNLESS_REQUIRED
 ```
 
----
+______________________________________________________________________
 
-# 131. H-Layer
+## 131. H-Layer
 
 Target node:
 
@@ -3423,9 +3423,9 @@ FINALITY CONTROL
 RECOVERY ROUTING
 ```
 
----
+______________________________________________________________________
 
-# 132. Candidate M-Layer Families
+## 132. Candidate M-Layer Families
 
 ```text
 M.EPISTEMIC_COLLAPSE
@@ -3455,9 +3455,9 @@ M.VALIDATION
 
 These are target organizational categories, not established native canon.
 
----
+______________________________________________________________________
 
-# 133. Candidate L-Layer Nodes
+## 133. Candidate L-Layer Nodes
 
 ```text
 L.STATE_SPACE
@@ -3495,9 +3495,9 @@ L.ROLLBACK_POINTER
 L.GAP
 ```
 
----
+______________________________________________________________________
 
-# 134. RSCF Collapse Graph
+## 134. RSCF Collapse Graph
 
 Target:
 
@@ -3525,9 +3525,9 @@ STATE_SPACE
                                   └── COMMITS ──────> STATE
 ```
 
----
+______________________________________________________________________
 
-# 135. Collapse Lifecycle
+## 135. Collapse Lifecycle
 
 Target lifecycle:
 
@@ -3553,9 +3553,9 @@ VALIDATED
 
 Backward transitions remain allowed when premises fail.
 
----
+______________________________________________________________________
 
-# 136. No Monotonicity Assumption
+## 136. No Monotonicity Assumption
 
 Knowledge does not move only toward greater resolution.
 
@@ -3589,9 +3589,9 @@ FAILED DEPENDENCY
 RECOVERY
 ```
 
----
+______________________________________________________________________
 
-# 137. Collapse Contradiction
+## 137. Collapse Contradiction
 
 If two states cannot both hold under the same declared scope and regime:
 
@@ -3609,9 +3609,9 @@ the contradiction MUST remain visible until resolved.
 
 Do not invent a midpoint.
 
----
+______________________________________________________________________
 
-# 138. Non-Contradictory Competition
+## 138. Non-Contradictory Competition
 
 Two models may differ without contradiction if they apply to different:
 
@@ -3629,9 +3629,9 @@ ASSUMPTIONS
 
 Therefore contradiction detection must bind applicability envelopes before collapse.
 
----
+______________________________________________________________________
 
-# 139. Causal Firewall
+## 139. Causal Firewall
 
 Collapse order does not establish causal order.
 
@@ -3653,9 +3653,9 @@ OBSERVATION O TRIGGERED COLLAPSE
 
 does not automatically establish that `O` physically caused the underlying modeled state.
 
----
+______________________________________________________________________
 
-# 140. Causal Coupling
+## 140. Causal Coupling
 
 A local state transition may have nonlocal consequences through causal dependency.
 
@@ -3673,9 +3673,9 @@ CAUSALLY INDEPENDENT
 
 Causal coupling is an escalation condition.
 
----
+______________________________________________________________________
 
-# 141. Collapse vs Causation
+## 141. Collapse vs Causation
 
 Target distinction:
 
@@ -3689,9 +3689,9 @@ relation concerning production or change of outcomes
 
 Neither implies the other.
 
----
+______________________________________________________________________
 
-# 142. Decision vs Truth
+## 142. Decision vs Truth
 
 A decision may require one operational choice even while multiple hypotheses remain epistemically viable.
 
@@ -3709,9 +3709,9 @@ EPISTEMIC_COMPETING
 
 This distinction is essential.
 
----
+______________________________________________________________________
 
-# 143. Execution vs Knowledge
+## 143. Execution vs Knowledge
 
 Execution can alter the world and therefore generate new evidence.
 
@@ -3731,9 +3731,9 @@ REVALIDATION
 
 But the resulting observation must remain separately typed from interpretation.
 
----
+______________________________________________________________________
 
-# 144. Knowledge Harvest
+## 144. Knowledge Harvest
 
 Collapse-derived artifacts SHOULD follow:
 
@@ -3769,9 +3769,9 @@ REVALIDATION TIMING
 LINEAGE
 ```
 
----
+______________________________________________________________________
 
-# 145. Documentation Boundary
+## 145. Documentation Boundary
 
 A README or design document claiming:
 
@@ -3787,9 +3787,9 @@ SOURCE_CLAIM
 
 until execution or other appropriate evidence validates the behavior.
 
----
+______________________________________________________________________
 
-# 146. Benchmark Boundary
+## 146. Benchmark Boundary
 
 A successful benchmark may establish performance under the benchmark conditions.
 
@@ -3811,9 +3811,9 @@ nor:
 HARDWARE-INDEPENDENT LATENCY
 ```
 
----
+______________________________________________________________________
 
-# 147. Simulation Boundary
+## 147. Simulation Boundary
 
 Simulation can test collapse behavior under the simulated model.
 
@@ -3825,9 +3825,9 @@ SIMULATION PASS
 EMPIRICAL UNIVERSAL PROOF
 ```
 
----
+______________________________________________________________________
 
-# 148. Formal Proof Boundary
+## 148. Formal Proof Boundary
 
 If a formal proof exists, its claim is limited to the assumptions, formal system, and theorem actually proved.
 
@@ -3845,9 +3845,9 @@ ALL IMPLEMENTATIONS SATISFY P
 
 without implementation correspondence.
 
----
+______________________________________________________________________
 
-# 149. Implementation Boundary
+## 149. Implementation Boundary
 
 An implementation can instantiate target collapse semantics.
 
@@ -3861,9 +3861,9 @@ VALIDATED
 
 Validation must test the implementation under declared conditions.
 
----
+______________________________________________________________________
 
-# 150. Validation Boundary
+## 150. Validation Boundary
 
 A validation receipt establishes only what was actually tested.
 
@@ -3879,9 +3879,9 @@ ALL POSSIBLE CASES PASS
 
 unless a valid proof establishes that coverage.
 
----
+______________________________________________________________________
 
-# 151. Action Governance
+## 151. Action Governance
 
 Validation depth rises with:
 
@@ -3901,9 +3901,9 @@ DOWNSTREAM DEPENDENCY
 
 When uncertainty remains material, favor staged reversible transitions.
 
----
+______________________________________________________________________
 
-# 152. Collapse Action Ladder
+## 152. Collapse Action Ladder
 
 ```text
 OBSERVE
@@ -3925,9 +3925,9 @@ IRREVERSIBLE EFFECT
 
 Validation burden rises downward.
 
----
+______________________________________________________________________
 
-# 153. Anti-Regression Gate
+## 153. Anti-Regression Gate
 
 A collapse optimization is admissible only if it preserves or improves:
 
@@ -3959,9 +3959,9 @@ Otherwise:
 ROLL BACK
 ```
 
----
+______________________________________________________________________
 
-# 154. Integrity Priority
+## 154. Integrity Priority
 
 Target priority:
 
@@ -3979,9 +3979,9 @@ TOKEN SAVINGS
 
 A faster collapse that loses material uncertainty is invalid optimization.
 
----
+______________________________________________________________________
 
-# 155. Current Supported Canonical Claim
+## 155. Current Supported Canonical Claim
 
 From the supplied artifact itself, the strongest supported native statement is:
 
@@ -4006,9 +4006,9 @@ AMOS_MODEL / TARGET CONTRACT
 
 pending native-canon ingestion.
 
----
+______________________________________________________________________
 
-# 156. Current Proof Capsule
+## 156. Current Proof Capsule
 
 ```yaml
 proof_capsule:
@@ -4057,9 +4057,9 @@ proof_capsule:
     false
 ```
 
----
+______________________________________________________________________
 
-# 157. Canonical Knowledge Capsule
+## 157. Canonical Knowledge Capsule
 
 **Class: AMOS_MODEL / SOURCE_CLAIM**
 
@@ -4154,9 +4154,9 @@ UNKNOWN/GAP
 
 until verified native-canon sources and validation receipts establish otherwise.
 
----
+______________________________________________________________________
 
-# 158. Final Integrity Rule
+## 158. Final Integrity Rule
 
 Until substantive native canon is recovered:
 
@@ -4194,9 +4194,9 @@ VALIDATE
 PROMOTE WITH RECEIPTS
 ```
 
----
+______________________________________________________________________
 
-# 159. Canonical Invariants
+## 159. Canonical Invariants
 
 ```text
 INTEGRITY > COMPLETENESS > FLUENCY > SPEED > TOKEN SAVINGS
@@ -4271,7 +4271,7 @@ UNKNOWN/GAP != PASS
 
 ---
 
-**Related:**  ·
+**Related:**  
 
 ---
 
@@ -4346,5 +4346,8 @@ RSCF-RELATIONS:
 **Validation:** NOT_ESTABLISHED
 
 
+```
+
+```
 ```
 ```

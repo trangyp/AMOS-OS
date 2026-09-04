@@ -2,15 +2,15 @@
 type: state
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L03_PERCEPT_FORMATION
 tags:
-- amos
-- cognitive-matrix
-- matrix/l03
-- percept-formation
-- state
-- rscf
-- provenance
-- governance
-- domain/cognitive-matrix
+  - amos
+  - cognitive-matrix
+  - matrix/l03
+  - percept-formation
+  - state
+  - rscf
+  - provenance
+  - governance
+  - domain/cognitive-matrix
 title: L03_PERCEPT_FORMATION — State
 origin_architect: Trang Phan
 status: MODEL_STATE_CONTRACT / UNIMPLEMENTED / UNVALIDATED
@@ -92,9 +92,9 @@ PROPOSAL != COMMIT
 UNKNOWN/GAP != PASS
 ```
 
----
+______________________________________________________________________
 
-# 1. Source / Canon References
+## 1. Source / Canon References
 
 ## 1.1 Source-aligned AMOS state principles
 
@@ -209,9 +209,9 @@ canonical_commit_semantics: UNKNOWN_GAP
 
 Therefore all L03-specific state structures introduced below remain `AMOS_MODEL` unless separately source-bound.
 
----
+______________________________________________________________________
 
-# 2. Definition and Scope
+## 2. Definition and Scope
 
 `L03_PERCEPT_FORMATION_STATE` is the typed working state describing the current condition of percept construction.
 
@@ -241,8 +241,8 @@ It does **not** establish that the percept corresponds to external reality.
 
 Candidate abstraction:
 
-[
-S^{L03}_t =
+\[
+S^{L03}\_t =
 (
 O_t,
 A_t,
@@ -258,15 +258,15 @@ Dep_t,
 U_t,
 V_t
 )
-]
+\]
 
 where the variables are typed state components defined below.
 
 `AMOS_MODEL`.
 
----
+______________________________________________________________________
 
-# 3. Governing State Separation
+## 3. Governing State Separation
 
 L03 must preserve at least four distinct state domains:
 
@@ -303,9 +303,9 @@ CommittedState
 
 This follows the broader AMOS continuity requirement that conversation, runtime, artifact, and persistence state remain distinct.
 
----
+______________________________________________________________________
 
-# 4. Top-Level Typed State
+## 4. Top-Level Typed State
 
 ```yaml
 L03PerceptFormationState:
@@ -396,9 +396,9 @@ L03PerceptFormationState:
     type: PersistenceState
 ```
 
----
+______________________________________________________________________
 
-# 5. Typed Inputs
+## 5. Typed Inputs
 
 ```yaml
 L03StateInput:
@@ -445,20 +445,18 @@ L03StateInput:
 
 Input admission condition:
 
-[
-InputAdmissible
-===============
+## \[ InputAdmissible
 
 TypeValid
-\land
+\\land
 ScopeValid
-\land
+\\land
 RegimeValid
-\land
+\\land
 ProvenanceSufficient
-\land
+\\land
 HardConstraintsPass
-]
+\]
 
 `AMOS_MODEL`.
 
@@ -474,9 +472,9 @@ UNKNOWN/GAP
 
 —not implicit acceptance.
 
----
+______________________________________________________________________
 
-# 6. Typed Outputs
+## 6. Typed Outputs
 
 ```yaml
 L03StateOutput:
@@ -521,9 +519,9 @@ L03StateOutput:
     const: NONE
 ```
 
----
+______________________________________________________________________
 
-# 7. Core State Variables
+## 7. Core State Variables
 
 ```text
 O_t      = admitted observation state
@@ -564,9 +562,9 @@ Persist_t = persistence state
 Epoch_t  = state epoch/version
 ```
 
----
+______________________________________________________________________
 
-# 8. Observation State
+## 8. Observation State
 
 ```yaml
 ObservationState:
@@ -618,9 +616,9 @@ be rewritten into interpretation state.
 
 If normalization occurs, the original observation reference remains preserved.
 
----
+______________________________________________________________________
 
-# 9. Attention State
+## 9. Attention State
 
 ```yaml
 AttentionState:
@@ -664,9 +662,9 @@ DOES NOT IMPLY
 Truth(x) > Truth(y)
 ```
 
----
+______________________________________________________________________
 
-# 10. Feature State
+## 10. Feature State
 
 ```yaml
 FeatureState:
@@ -716,9 +714,9 @@ FEATURE DETECTED
 OBJECT ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 11. Relation State
+## 11. Relation State
 
 ```yaml
 RelationState:
@@ -774,9 +772,9 @@ SPATIAL ADJACENCY != CAUSATION
 RELATIONAL FIT != MECHANISM
 ```
 
----
+______________________________________________________________________
 
-# 12. Binding State
+## 12. Binding State
 
 ```yaml
 BindingState:
@@ -827,9 +825,9 @@ BOUND TOGETHER
 SAME ENTITY
 ```
 
----
+______________________________________________________________________
 
-# 13. Percept Candidate State
+## 13. Percept Candidate State
 
 ```yaml
 PerceptCandidate:
@@ -894,9 +892,9 @@ PerceptCandidate:
       - UNKNOWN_GAP
 ```
 
----
+______________________________________________________________________
 
-# 14. Competing Percept State
+## 14. Competing Percept State
 
 ```yaml
 CompetingPerceptSet:
@@ -940,9 +938,9 @@ PRESERVE COMPETING
 
 Absence of contradiction is not sufficient to collapse competing percepts.
 
----
+______________________________________________________________________
 
-# 15. H/M/L State
+## 15. H/M/L State
 
 ```yaml
 HMLPerceptState:
@@ -994,9 +992,9 @@ MUST NOT
 REWRITE SOURCE STATE AT L
 ```
 
----
+______________________________________________________________________
 
-# 16. Memory State
+## 16. Memory State
 
 ```yaml
 MemoryContext:
@@ -1043,9 +1041,9 @@ MUST REMAIN DISTINGUISHABLE FROM
 CURRENT OBSERVATION
 ```
 
----
+______________________________________________________________________
 
-# 17. Provenance State
+## 17. Provenance State
 
 ```yaml
 ProvenanceState:
@@ -1085,9 +1083,9 @@ OF ONE SOURCE
 MULTIPLE INDEPENDENT SOURCES
 ```
 
----
+______________________________________________________________________
 
-# 18. Dependency State
+## 18. Dependency State
 
 ```yaml
 DependencyState:
@@ -1116,19 +1114,19 @@ DependencyState:
 
 Candidate dependency rule:
 
-[
+\[
 Invalidate(x)
-\Rightarrow
-Invalidate(Descendants_{load-bearing}(x))
-]
+\\Rightarrow
+Invalidate(Descendants\_{load-bearing}(x))
+\]
 
 while unrelated state remains preserved.
 
 `AMOS_MODEL`.
 
----
+______________________________________________________________________
 
-# 19. Scope / Regime State
+## 19. Scope / Regime State
 
 ```yaml
 ApplicabilityState:
@@ -1160,9 +1158,9 @@ ApplicabilityState:
 
 Any percept candidate inherits its applicability envelope from load-bearing dependencies unless independently revalidated.
 
----
+______________________________________________________________________
 
-# 20. Freshness State
+## 20. Freshness State
 
 ```yaml
 FreshnessState:
@@ -1194,9 +1192,9 @@ PREVIOUSLY VALID
 CURRENTLY VALID
 ```
 
----
+______________________________________________________________________
 
-# 21. Uncertainty State
+## 21. Uncertainty State
 
 ```yaml
 L03UncertaintyVector:
@@ -1237,17 +1235,17 @@ L03UncertaintyVector:
 
 Uncertainty dimensions shall not be silently collapsed into one scalar when doing so would erase decision-relevant distinctions.
 
----
+______________________________________________________________________
 
-# 22. Confidence Ceiling State
+## 22. Confidence Ceiling State
 
 Candidate load-bearing rule:
 
-[
+\[
 Conf(P)
-\leq
-\min_{x \in LB(P)} Conf(x)
-]
+\\leq
+\\min\_{x \\in LB(P)} Conf(x)
+\]
 
 unless an affected premise has been independently revalidated.
 
@@ -1273,9 +1271,9 @@ MORE DERIVED NODES
 MORE INDEPENDENT EVIDENCE
 ```
 
----
+______________________________________________________________________
 
-# 23. Validation State
+## 23. Validation State
 
 ```yaml
 ValidationState:
@@ -1332,9 +1330,9 @@ ANY LOAD-BEARING UNKNOWN/GAP
 CANNOT BE SILENTLY COERCED TO PASS
 ```
 
----
+______________________________________________________________________
 
-# 24. Repair State
+## 24. Repair State
 
 ```yaml
 RepairState:
@@ -1385,9 +1383,9 @@ RepairState:
       - UNKNOWN_GAP
 ```
 
----
+______________________________________________________________________
 
-# 25. Authority State
+## 25. Authority State
 
 ```yaml
 AuthorityState:
@@ -1420,9 +1418,9 @@ commit_authority: null
 
 unless an external governing control plane explicitly supplies valid authority.
 
----
+______________________________________________________________________
 
-# 26. Persistence State
+## 26. Persistence State
 
 ```yaml
 PersistenceState:
@@ -1468,9 +1466,9 @@ WORKING
 
 No transition may be inferred merely because the previous state exists.
 
----
+______________________________________________________________________
 
-# 27. Operators
+## 27. Operators
 
 Candidate state operators:
 
@@ -1504,13 +1502,11 @@ REPAIR
 
 These are `AMOS_MODEL` operator names pending direct L03 canon.
 
----
+______________________________________________________________________
 
-# 28. Candidate State Transition Function
+## 28. Candidate State Transition Function
 
-[
-S_{t+1}
-=======
+## \[ S\_{t+1}
 
 T(
 S_t,
@@ -1518,7 +1514,7 @@ I_t,
 Op_t,
 C_t
 )
-]
+\]
 
 where:
 
@@ -1531,28 +1527,26 @@ C_t  = constraints/context
 
 subject to:
 
-[
-ValidTransition
-===============
+## \[ ValidTransition
 
 TypeValid
-\land
+\\land
 InvariantValid
-\land
+\\land
 ScopeValid
-\land
+\\land
 RegimeValid
-\land
+\\land
 AuthorityValid
-]
+\]
 
 `AMOS_MODEL`.
 
 A transition failure does not imply the previous valid state ceases to exist.
 
----
+______________________________________________________________________
 
-# 29. Lifecycle State Machine
+## 29. Lifecycle State Machine
 
 Candidate:
 
@@ -1587,9 +1581,9 @@ COMMIT-TIME VALIDATION
 
 `COMMITTED` is not owned by the L03 worker state itself.
 
----
+______________________________________________________________________
 
-# 30. Invariants
+## 30. Invariants
 
 ```text
 STATE-INV-001
@@ -1674,9 +1668,9 @@ STATE-INV-027
 ADDRESSABLE != VALIDATED
 ```
 
----
+______________________________________________________________________
 
-# 31. Dependencies
+## 31. Dependencies
 
 ## Upstream
 
@@ -1723,9 +1717,9 @@ AMOS deterministic control plane
 AMOS context continuity
 ```
 
----
+______________________________________________________________________
 
-# 32. H/M/L Applicability
+## 32. H/M/L Applicability
 
 ## L — Local percept state
 
@@ -1767,9 +1761,9 @@ H MAY CONSTRAIN SEARCH
 BUT MUST NOT FABRICATE L EVIDENCE
 ```
 
----
+______________________________________________________________________
 
-# 33. Control-Plane Requirements
+## 33. Control-Plane Requirements
 
 L03 workers may manipulate working state only inside an admitted capability envelope.
 
@@ -1816,9 +1810,9 @@ but not silently create:
 DURABLE_COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 34. Agents
+## 34. Agents
 
 Candidate state participants:
 
@@ -1844,9 +1838,9 @@ AGENT LOCAL STATE
 AUTHORITATIVE GLOBAL STATE
 ```
 
----
+______________________________________________________________________
 
-# 35. Skills
+## 35. Skills
 
 Candidate Skills interacting with state include:
 
@@ -1867,9 +1861,9 @@ AMOS Constraint Propagation RSCF Engine
 
 Skill availability does not prove implementation or validation.
 
----
+______________________________________________________________________
 
-# 36. Workflow
+## 36. Workflow
 
 ```text
 RECEIVE OBSERVATION REFERENCES
@@ -1911,9 +1905,9 @@ REPAIR IF REQUIRED
 RETURN WORKING PERCEPT STATE / PROPOSAL
 ```
 
----
+______________________________________________________________________
 
-# 37. Protocols
+## 37. Protocols
 
 Candidate state protocols:
 
@@ -1942,9 +1936,9 @@ L03_STATE_COMMIT_RESULT
 
 Canonical protocol names remain `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
-# 38. Evidence / Provenance
+## 38. Evidence / Provenance
 
 Every material state mutation should be attributable to:
 
@@ -1992,18 +1986,18 @@ UNATTRIBUTABLE MATERIAL STATE MUTATION
 QUARANTINE / GAP
 ```
 
----
+______________________________________________________________________
 
-# 39. Uncertainty and Confidence Ceiling
+## 39. Uncertainty and Confidence Ceiling
 
 State confidence is bounded by the weakest load-bearing state required to support the percept.
 
 Candidate:
 
-[
+\[
 Conf(S^{percept})
-\le
-\min(
+\\le
+\\min(
 Conf(O),
 Conf(F),
 Conf(R),
@@ -2012,7 +2006,7 @@ Conf(Prov),
 Conf(Scope),
 Conf(Regime)
 )
-]
+\]
 
 where only load-bearing dimensions are included.
 
@@ -2020,9 +2014,9 @@ where only load-bearing dimensions are included.
 
 Material uncertainty should remain vectorized rather than being hidden behind one aggregate score.
 
----
+______________________________________________________________________
 
-# 40. Failure Modes
+## 40. Failure Modes
 
 ```text
 SFM-001
@@ -2101,9 +2095,9 @@ SFM-025
 Validation status inferred from addressability.
 ```
 
----
+______________________________________________________________________
 
-# 41. Repair / Recovery
+## 41. Repair / Recovery
 
 The continuity architecture requires failed paths not to be repeated until retry conditions change and preserves the nearest valid checkpoint rather than allowing failure to redefine the objective.
 
@@ -2152,9 +2146,9 @@ MAY NOT BE REPEATED
 UNTIL RETRY_CONDITION CHANGES
 ```
 
----
+______________________________________________________________________
 
-# 42. Tests / Validators
+## 42. Tests / Validators
 
 Minimum validators:
 
@@ -2256,9 +2250,9 @@ formal_verification: false
 empirical_validation: false
 ```
 
----
+______________________________________________________________________
 
-# 43. Falsifiers
+## 43. Falsifiers
 
 This state contract should be revised if direct canonical evidence establishes:
 
@@ -2294,9 +2288,9 @@ one or more MODEL-level assumptions here
 
 does not falsify source-level AMOS principles unless those principles themselves are contradicted.
 
----
+______________________________________________________________________
 
-# 44. Gap Matrix
+## 44. Gap Matrix
 
 ```yaml
 gap_status:
@@ -2389,9 +2383,9 @@ gap_status:
     status: CRITICAL_GAP
 ```
 
----
+______________________________________________________________________
 
-# 45. Competing State Architectures
+## 45. Competing State Architectures
 
 ## COMPETING-001 — Flat Mutable State
 
@@ -2484,9 +2478,9 @@ MODEL PREFERENCE
 CANONICAL L03 STATE ARCHITECTURE
 ```
 
----
+______________________________________________________________________
 
-# 46. RSCF Completion State
+## 46. RSCF Completion State
 
 ```yaml
 rscf:
@@ -2602,9 +2596,9 @@ rscf:
     stale-epoch injection, and unauthorized-commit tests.
 ```
 
----
+______________________________________________________________________
 
-# 47. Completion State
+## 47. Completion State
 
 ```yaml
 completion_state:
@@ -2688,9 +2682,9 @@ completion_state:
     MODEL
 ```
 
----
+______________________________________________________________________
 
-# 48. Hard Boundaries
+## 48. Hard Boundaries
 
 ```text
 PLACEHOLDER != IMPLEMENTED
@@ -2746,15 +2740,15 @@ STRUCTURAL VALIDITY != EMPIRICAL PERCEPTUAL VALIDITY
 MODEL STATE SCHEMA != IMPLEMENTED STATE SCHEMA
 ```
 
----
+______________________________________________________________________
 
-# 49. Governing State Contract
+## 49. Governing State Contract
 
 > **`L03_PERCEPT_FORMATION` SHALL maintain percept formation as typed, versioned, provenance-bound working state rather than as an unqualified representation of reality. Source observations, attention allocation, derived features, relations, bindings, memory context, percept candidates, competing interpretations, H/M/L state, provenance, dependencies, scope, regime, freshness, uncertainty, validation, repair, authority, and persistence status SHALL remain distinguishable wherever material. State transformations SHALL preserve semantic origin and dependency lineage; attention SHALL NOT become truth, binding SHALL NOT become identity, memory SHALL NOT overwrite current observation, H-level hypotheses SHALL NOT rewrite L-level evidence, and shared provenance SHALL NOT manufacture independent confirmation. Competing percepts SHALL remain explicit until discriminating evidence warrants resolution. Confidence SHALL remain bounded by load-bearing premises. Failed or stale state SHALL be selectively invalidated while unaffected valid state is preserved. Repair SHALL return to the nearest valid state and require revalidation before promotion. Working-state correctness SHALL NOT imply durable authority: L03 MAY construct and propose percept state, while authoritative persistence remains externally governed. `UNKNOWN/GAP` SHALL remain non-passing.**
 
----
+______________________________________________________________________
 
-# 50. Canon Boundary
+## 50. Canon Boundary
 
 ```text
 SOURCE / ARCHITECTURE-ALIGNED:
@@ -2910,22 +2904,26 @@ EMPIRICAL HUMAN-PERCEPTION CLAIM:
 NOT ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: l03_percept_formation_primitives_cognitive_matrix_state
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L03_PERCEPT_FORMATION/L03_PERCEPT_FORMATION_PRIMITIVES_COGNITIVE_MATRIX_STATE.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L03_PERCEPT_FORMATION/L03_PERCEPT_FORMATION_MOC|L03_PERCEPT_FORMATION_MOC]]

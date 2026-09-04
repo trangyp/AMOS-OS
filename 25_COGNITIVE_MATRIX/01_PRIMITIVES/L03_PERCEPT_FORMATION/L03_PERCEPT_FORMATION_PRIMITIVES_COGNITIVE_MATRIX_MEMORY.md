@@ -2,15 +2,15 @@
 type: memory
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L03_PERCEPT_FORMATION
 tags:
-- amos
-- cognitive-matrix
-- matrix/l03
-- percept-formation
-- memory
-- rscf
-- provenance
-- governance
-- domain/cognitive-matrix
+  - amos
+  - cognitive-matrix
+  - matrix/l03
+  - percept-formation
+  - memory
+  - rscf
+  - provenance
+  - governance
+  - domain/cognitive-matrix
 title: L03_PERCEPT_FORMATION — Memory
 origin_architect: Trang Phan
 status: MODEL_MEMORY_CONTRACT / UNIMPLEMENTED / UNVALIDATED
@@ -47,9 +47,9 @@ MEMORY != COMMIT AUTHORITY
 
 This artifact defines a **memory interface contract**, not evidence that an L03 memory subsystem exists.
 
----
+______________________________________________________________________
 
-# 1. Source / Canon References
+## 1. Source / Canon References
 
 ## 1.1 Memory architecture source boundary
 
@@ -92,9 +92,7 @@ and requires update/forgetting operations to preserve provenance and supersessio
 
 The lifecycle expression:
 
-[
-M_{t+1}
-=======
+## \[ M\_{t+1}
 
 F(
 M_t,
@@ -104,7 +102,7 @@ Update_t,
 Forgetting_t,
 Retrieval_t
 )
-]
+\]
 
 is explicitly an **AMOS_MODEL overlay**, not a theorem from the source survey.
 
@@ -122,25 +120,25 @@ canonical_L03_memory_runtime: UNKNOWN_GAP
 
 Therefore, the L03-specific architecture below remains `AMOS_MODEL`.
 
----
+______________________________________________________________________
 
-# 2. Definition and Scope
+## 2. Definition and Scope
 
 `L03_PERCEPT_FORMATION/MEMORY` governs memory dependencies that may:
 
 1. supply prior context to percept formation;
-2. preserve prior percept states;
-3. support comparison between current and historical percepts;
-4. maintain working percept state during formation;
-5. preserve provenance and supersession lineage;
-6. support later retrieval of percept evidence;
-7. trigger revalidation when stored percepts become stale or contradicted.
+1. preserve prior percept states;
+1. support comparison between current and historical percepts;
+1. maintain working percept state during formation;
+1. preserve provenance and supersession lineage;
+1. support later retrieval of percept evidence;
+1. trigger revalidation when stored percepts become stale or contradicted.
 
 It does **not** establish that memory itself perceives.
 
 Formally:
 
-[
+\[
 P_t =
 F(
 O_t,
@@ -148,33 +146,33 @@ A_t,
 M_t,
 C_t
 )
-]
+\]
 
 where:
 
-- \(O_t\) = current observations;
-- \(A_t\) = attention state;
-- \(M_t\) = admissible retrieved memory;
-- \(C_t\) = contextual constraints;
-- \(P_t\) = percept candidate.
+- (O_t) = current observations;
+- (A_t) = attention state;
+- (M_t) = admissible retrieved memory;
+- (C_t) = contextual constraints;
+- (P_t) = percept candidate.
 
 `AMOS_MODEL`.
 
 Critical non-equivalence:
 
-[
-M_t \neq O_t
-]
+\[
+M_t \\neq O_t
+\]
 
 and:
 
-[
-Retrieve(M_i) \not\Rightarrow Truth(M_i,t)
-]
+\[
+Retrieve(M_i) \\not\\Rightarrow Truth(M_i,t)
+\]
 
----
+______________________________________________________________________
 
-# 3. Typed Inputs
+## 3. Typed Inputs
 
 ```yaml
 L03MemoryInput:
@@ -222,9 +220,9 @@ L03MemoryInput:
     type: AuthorityContext
 ```
 
----
+______________________________________________________________________
 
-# 4. Typed Outputs
+## 4. Typed Outputs
 
 ```yaml
 L03MemoryOutput:
@@ -282,9 +280,9 @@ MEMORY WRITE PROPOSAL
 MEMORY COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 5. State Variables
+## 5. State Variables
 
 Candidate L03 memory state:
 
@@ -306,9 +304,7 @@ Gap_t     = unresolved memory gaps
 
 Composite state:
 
-[
-S_t^{L03-M}
-===========
+## \[ S_t^{L03-M}
 
 (
 WM_t,
@@ -325,19 +321,19 @@ ObsCtx_t,
 Comp_t,
 Gap_t
 )
-]
+\]
 
 `AMOS_MODEL`.
 
----
+______________________________________________________________________
 
-# 6. Memory Tensor
+## 6. Memory Tensor
 
 The source-aligned AMOS memory tensor is:
 
-[
+\[
 M =
-T[
+T\[
 agent,
 memory_form,
 memory_function,
@@ -349,18 +345,16 @@ time,
 regime,
 provenance,
 trust_state
-]
-]
+\]
+\]
 
 with source-grounded distinctions for form, function, and lifecycle dynamics.
 
 L03 adds a candidate percept-specific projection:
 
-[
-M^{L03}
-=======
+## \[ M^{L03}
 
-T[
+T\[
 percept,
 observation_ancestry,
 attention_context,
@@ -373,14 +367,14 @@ regime,
 observer,
 provenance,
 trust
-]
-]
+\]
+\]
 
 `AMOS_MODEL`.
 
----
+______________________________________________________________________
 
-# 7. Operators
+## 7. Operators
 
 Candidate operators:
 
@@ -412,9 +406,9 @@ RESTORE_MEMORY_LINEAGE()
 
 Canonical operator names remain `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
-# 8. Invariants
+## 8. Invariants
 
 ## MEM-INV-001 — Memory / Observation Separation
 
@@ -424,7 +418,7 @@ RETRIEVED MEMORY != CURRENT OBSERVATION
 
 A historical percept cannot be silently reclassified as newly sensed evidence.
 
----
+______________________________________________________________________
 
 ## MEM-INV-002 — Retrieval / Truth Separation
 
@@ -434,7 +428,7 @@ RETRIEVED != TRUE
 
 This is directly aligned with the memory engine's hard invariants.
 
----
+______________________________________________________________________
 
 ## MEM-INV-003 — Memory / Percept Separation
 
@@ -446,7 +440,7 @@ CURRENT PERCEPT
 
 Historical percepts may condition current interpretation but cannot substitute for current formation.
 
----
+______________________________________________________________________
 
 ## MEM-INV-004 — Memory Form Independence
 
@@ -460,7 +454,7 @@ remain distinct representation forms.
 
 No form is automatically privileged as more truthful merely because of representation type. Source-aligned.
 
----
+______________________________________________________________________
 
 ## MEM-INV-005 — Memory Function Independence
 
@@ -472,7 +466,7 @@ WORKING
 
 remain distinct functions and cannot be silently collapsed into one semantic class. Source-aligned.
 
----
+______________________________________________________________________
 
 ## MEM-INV-006 — Lifecycle Independence
 
@@ -491,13 +485,13 @@ RETRIEVAL != UPDATE
 
 Source-aligned.
 
----
+______________________________________________________________________
 
 ## MEM-INV-007 — Provenance Preservation
 
 Every memory item materially influencing percept formation must retain recoverable provenance.
 
----
+______________________________________________________________________
 
 ## MEM-INV-008 — Supersession Preservation
 
@@ -511,7 +505,7 @@ HISTORY DELETION
 
 This aligns with the memory engine's requirement that update and forgetting preserve provenance/supersession lineage.
 
----
+______________________________________________________________________
 
 ## MEM-INV-009 — Shared Memory / Independence Separation
 
@@ -523,7 +517,7 @@ INDEPENDENT CORROBORATION
 
 Directly source-aligned.
 
----
+______________________________________________________________________
 
 ## MEM-INV-010 — Freshness Inheritance
 
@@ -537,13 +531,13 @@ CURRENT RETRIEVAL
 CURRENT EVIDENCE
 ```
 
----
+______________________________________________________________________
 
 ## MEM-INV-011 — Scope Preservation
 
 Memory retrieved outside its valid scope must not silently influence a percept as though scope-compatible.
 
----
+______________________________________________________________________
 
 ## MEM-INV-012 — Regime Preservation
 
@@ -555,29 +549,29 @@ VALID IN REGIME R2
 
 without compatibility or revalidation.
 
----
+______________________________________________________________________
 
 ## MEM-INV-013 — Observer Preservation
 
 Observer-dependent historical percepts remain observer-dependent after retrieval.
 
----
+______________________________________________________________________
 
 ## MEM-INV-014 — Confidence Ceiling
 
-For percept \(P\) depending materially on memory \(M_i\):
+For percept (P) depending materially on memory (M_i):
 
-[
+\[
 Conf(P)
-\le
-\min_{x\in LB(P)} Conf(x)
-]
+\\le
+\\min\_{x\\in LB(P)} Conf(x)
+\]
 
 for unresolved load-bearing premises.
 
 This is part of the source-aligned universal RSCF/confidence contract.
 
----
+______________________________________________________________________
 
 ## MEM-INV-015 — Contradiction Preservation
 
@@ -591,7 +585,7 @@ CONTRADICTION / COMPETING
 
 not forced reconciliation.
 
----
+______________________________________________________________________
 
 ## MEM-INV-016 — Memory Cannot Rewrite Observation
 
@@ -603,13 +597,13 @@ OBSERVATION MUTATION
 
 A retrieved prior percept cannot alter the recorded sensory/observation event merely to produce coherence.
 
----
+______________________________________________________________________
 
 ## MEM-INV-017 — Memory Cannot Self-Validate
 
 Repetition of a stored percept does not independently validate it.
 
----
+______________________________________________________________________
 
 ## MEM-INV-018 — Forgetting Is Not Falsification
 
@@ -621,7 +615,7 @@ FALSE
 
 Forgetting/removal describes memory availability, not necessarily truth status.
 
----
+______________________________________________________________________
 
 ## MEM-INV-019 — Missing Memory Is Not Negative Evidence
 
@@ -639,7 +633,7 @@ NO MEMORY FOUND
 EVENT DID NOT OCCUR
 ```
 
----
+______________________________________________________________________
 
 ## MEM-INV-020 — Capability / Authority Separation
 
@@ -657,9 +651,9 @@ MEMORY WRITE CAPABILITY
 COMMIT AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 9. H/M/L Applicability
+## 9. H/M/L Applicability
 
 ```yaml
 HML:
@@ -697,19 +691,19 @@ HML:
 
 Candidate propagation:
 
-[
-M_L \rightarrow M_M \rightarrow M_H
-]
+\[
+M_L \\rightarrow M_M \\rightarrow M_H
+\]
 
 does not imply:
 
-[
-M_L \equiv M_M \equiv M_H
-]
+\[
+M_L \\equiv M_M \\equiv M_H
+\]
 
----
+______________________________________________________________________
 
-# 10. Dependencies
+## 10. Dependencies
 
 Upstream:
 
@@ -744,9 +738,9 @@ AMOS Provenance Controls
 AMOS Infrastructure Control Plane
 ```
 
----
+______________________________________________________________________
 
-# 11. Control-Plane Requirements
+## 11. Control-Plane Requirements
 
 The L03 cognitive worker may:
 
@@ -793,9 +787,9 @@ COMMIT-TIME REVALIDATION
 COMMIT OR REJECT
 ```
 
----
+______________________________________________________________________
 
-# 12. Agents
+## 12. Agents
 
 Candidate logical roles:
 
@@ -817,9 +811,9 @@ MODEL ROLES
 IMPLEMENTED AGENTS
 ```
 
----
+______________________________________________________________________
 
-# 13. Skills
+## 13. Skills
 
 Relevant capability families include:
 
@@ -844,9 +838,9 @@ SKILL ADDRESSABILITY
 L03 INTEGRATION
 ```
 
----
+______________________________________________________________________
 
-# 14. Workflows
+## 14. Workflows
 
 ## 14.1 Retrieval workflow
 
@@ -902,9 +896,9 @@ CONTROL-PLANE VALIDATION
 COMMIT / REJECT
 ```
 
----
+______________________________________________________________________
 
-# 15. Protocols
+## 15. Protocols
 
 Candidate protocol surface:
 
@@ -929,9 +923,9 @@ L03_MEMORY_REVALIDATION_RESULT
 
 Canonical protocol identifiers remain `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
-# 16. Evidence / Provenance
+## 16. Evidence / Provenance
 
 Every material memory item should conceptually carry:
 
@@ -981,9 +975,9 @@ MemoryEvidence:
   falsifiers: []
 ```
 
----
+______________________________________________________________________
 
-# 17. Uncertainty and Confidence Ceiling
+## 17. Uncertainty and Confidence Ceiling
 
 Memory uncertainty should remain multidimensional:
 
@@ -1017,25 +1011,25 @@ uncertainty:
 
 Confidence rule:
 
-[
+\[
 Conf(P)
-\le
-\min(
+\\le
+\\min(
 Conf(O),
 Conf(M),
 Conf(B),
 Conf(Scope),
 Conf(Regime)
 )
-]
+\]
 
 when these are unresolved load-bearing premises.
 
 This is an `AMOS_MODEL` specialization of the source-aligned RSCF confidence rule, not an empirical cognitive equation.
 
----
+______________________________________________________________________
 
-# 18. Failure Modes
+## 18. Failure Modes
 
 ```text
 FM-L03-MEM-001
@@ -1099,9 +1093,9 @@ FM-L03-MEM-020
 Memory function classes are conflated.
 ```
 
----
+______________________________________________________________________
 
-# 19. Repair / Recovery
+## 19. Repair / Recovery
 
 ```text
 DETECT MEMORY-DEPENDENT PERCEPT FAILURE
@@ -1148,9 +1142,9 @@ SELECTIVE INVALIDATION
 NOT AUTOMATIC GLOBAL RESET
 ```
 
----
+______________________________________________________________________
 
-# 20. Tests / Validators
+## 20. Tests / Validators
 
 Minimum conceptual suite:
 
@@ -1226,9 +1220,9 @@ formal_verification: false
 empirical_validation: false
 ```
 
----
+______________________________________________________________________
 
-# 21. Falsifiers
+## 21. Falsifiers
 
 Revise this contract if direct canonical L03 material establishes incompatible rules for:
 
@@ -1252,9 +1246,9 @@ The model is also falsified for a declared runtime if executable implementation 
 
 Empirical neuroscience or psychology findings must not be represented as directly validating or falsifying this software/model contract unless an explicit empirical correspondence has first been established.
 
----
+______________________________________________________________________
 
-# 22. Gap Matrix
+## 22. Gap Matrix
 
 ```yaml
 gap_status:
@@ -1314,9 +1308,9 @@ gap_status:
     status: CRITICAL_GAP
 ```
 
----
+______________________________________________________________________
 
-# 23. RSCF Completion State
+## 23. RSCF Completion State
 
 ```yaml
 rscf:
@@ -1411,9 +1405,9 @@ rscf:
     preservation, selective invalidation, and commit authority.
 ```
 
----
+______________________________________________________________________
 
-# 24. Completion State
+## 24. Completion State
 
 ```yaml
 completion_state:
@@ -1494,9 +1488,9 @@ completion_state:
     MODEL
 ```
 
----
+______________________________________________________________________
 
-# 25. Hard Boundaries
+## 25. Hard Boundaries
 
 ```text
 PLACEHOLDER != IMPLEMENTED
@@ -1546,15 +1540,15 @@ MEMORY COHERENCE != EMPIRICAL TRUTH
 STRUCTURAL MEMORY VALIDATION != COGNITIVE VALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 26. Governing Memory Contract
+## 26. Governing Memory Contract
 
 > **`L03_PERCEPT_FORMATION` MAY use working, factual, experiential, token-level, parametric, latent, or other canonically admitted memory representations only through typed and provenance-preserving interfaces. Retrieved memory SHALL remain distinguishable from current observation and SHALL NOT become current truth merely by retrieval. Memory influencing a percept SHALL preserve source ancestry, temporal state, scope, regime, observer context, trust, uncertainty, and applicable confidence ceilings. Updates and forgetting SHALL preserve supersession/provenance lineage where required. Shared or duplicated memories SHALL NOT be treated as independent corroboration without demonstrated independent ancestry. Contradictions between current observations and stored percepts SHALL remain visible until discriminating evidence resolves them. Memory SHALL NOT rewrite observation merely to preserve perceptual coherence. Invalid memory SHALL selectively invalidate load-bearing descendants rather than trigger unnecessary global erasure. Cognitive access or write capability SHALL NOT confer commit authority. Any unrecovered canonical L03 memory behavior SHALL remain `UNKNOWN/GAP`, and structural completion of this contract SHALL NOT be represented as implementation, runtime validation, or empirical validation of human perception or memory.**
 
----
+______________________________________________________________________
 
-# 27. Canon Boundary
+## 27. Canon Boundary
 
 ```text
 SOURCE-ALIGNED:
@@ -1658,22 +1652,27 @@ NOT ESTABLISHED
 
 ```text
 ```
----
+
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: l03_percept_formation_primitives_cognitive_matrix_memory
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L03_PERCEPT_FORMATION/L03_PERCEPT_FORMATION_PRIMITIVES_COGNITIVE_MATRIX_MEMORY.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L03_PERCEPT_FORMATION/L03_PERCEPT_FORMATION_MOC|L03_PERCEPT_FORMATION_MOC]]

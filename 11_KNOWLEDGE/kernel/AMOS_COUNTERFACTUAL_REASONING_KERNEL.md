@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: AMOS COUNTERFACTUAL REASONING KERNEL V0 META COGNITION4 2
 tags:
-- canon-group/biology
-- canon/framework
-- rscf/claim
-- rscf/provenance
-- rscf/state/source-claim
-- topic/amos-counterfactual-reasoning-kernel-v0
-- kernel
+  - canon-group/biology
+  - canon/framework
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - topic/amos-counterfactual-reasoning-kernel-v0
+  - kernel
 type: data
 source: 11_KNOWLEDGE/kernel
 rscf:
@@ -115,6 +118,6 @@ rscf:
 **Related:** [[11_KNOWLEDGE/kernel/AMOS_UNNAMED_KERNEL_V0|AMOS_UNNAMED_KERNEL_V0]] · [[11_KNOWLEDGE/kernel/AMOS_PARTNERSHIPS_CHANNELS_KERNEL|AMOS_PARTNERSHIPS_CHANNELS_KERNEL]] · [[11_KNOWLEDGE/kernel/AMOS_SECURITY_ARCHITECTURE_KERNEL_V0_TECH|AMOS_SECURITY_ARCHITECTURE_KERNEL_V0_TECH]] · [[11_KNOWLEDGE/kernel/TECH_SYSTEMS_PRODUCT_MANAGEMENT_KERNEL|TECH_SYSTEMS_PRODUCT_MANAGEMENT_KERNEL]]
 ```
 
----
-**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]
+______________________________________________________________________
 
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]

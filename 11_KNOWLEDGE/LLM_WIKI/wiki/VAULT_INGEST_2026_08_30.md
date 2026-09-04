@@ -1,14 +1,17 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Vault Ingest 2026-08-30
 type: synthesis
 source: 11_KNOWLEDGE/LLM_WIKI
 tags:
-- ingest
-- vault
-- llm-wiki
-- canon/knowledge
-- karpathy-llm-wiki-summary
-- vault-reformat
+  - ingest
+  - vault
+  - llm-wiki
+  - canon/knowledge
+  - karpathy-llm-wiki-summary
+  - vault-reformat
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -30,40 +33,40 @@ Vault-wide reformat of all Markdown notes to the LLM-wiki convention. Single det
 
 ## Fixes applied
 
-| Fix | Count | Note |
-|------|-------|------|
-| `*`/`+` bullet → `-` | 25,539 | column-0 and indented, outside code fences |
-| Excess blank-line runs collapsed | 1,679 | 3+ blank lines → 2 |
-| `___` horizontal rule → `---` | 1,171 | outside code fences |
-| Missing trailing newline added | 85 | |
-| Unclosed code fence closed | 84 | opener length ≥ closer run kept intact (4-backtick wrappers preserved) |
-| `title:` added to frontmatter | 23 | inserted as first key; YAML `tags:`-first regression fixed and re-run |
-| Glued duplicate headings split (`## A## A`) | 17 | |
-| Minimal frontmatter added | 10 | files with no frontmatter at all |
-| Embedded frontmatter unwrapped | 3 | body restored; inner dangling fences closed |
+| Fix                                         | Count  | Note                                                                   |
+| ------------------------------------------- | ------ | ---------------------------------------------------------------------- |
+| `*`/`+` bullet → `-`                        | 25,539 | column-0 and indented, outside code fences                             |
+| Excess blank-line runs collapsed            | 1,679  | 3+ blank lines → 2                                                     |
+| `___` horizontal rule → `---`               | 1,171  | outside code fences                                                    |
+| Missing trailing newline added              | 85     |                                                                        |
+| Unclosed code fence closed                  | 84     | opener length ≥ closer run kept intact (4-backtick wrappers preserved) |
+| `title:` added to frontmatter               | 23     | inserted as first key; YAML `tags:`-first regression fixed and re-run  |
+| Glued duplicate headings split (`## A## A`) | 17     |                                                                        |
+| Minimal frontmatter added                   | 10     | files with no frontmatter at all                                       |
+| Embedded frontmatter unwrapped              | 3      | body restored; inner dangling fences closed                            |
 
 Deliberately **not** applied: `#heading` tag lines (tag clouds, not headings) and `* * *` marker runs (valid horizontal rules).
 
 ## Files touched by directory
 
-| Directory | Files |
-|-----------|-------|
-| 07_SKILLS | 232 |
-| 25_COGNITIVE_MATRIX | 138 |
-| 11_KNOWLEDGE | 129 |
-| 01_CANON | 84 |
-| 00_ROOT | 48 |
-| 05_COGNITIVE_ORGANISM | 43 |
-| 03_CONTROL_PLANE | 31 |
-| 08_WORKFLOWS | 26 |
-| 13_MODELS | 18 |
-| 02_KERNEL | 13 |
-| 16_SCHEMAS | 8 |
-| 24_ARCHIVE | 8 |
-| 12_STATE | 2 |
-| 21_DOMAINS | 1 |
-| .github | 1 |
-| loose root files (CLAUDE.md, skill-catalog.md, amos-skill-registry-gateway.md, skill-registry-catalog.md) | 4 |
+| Directory                                                                                                 | Files |
+| --------------------------------------------------------------------------------------------------------- | ----- |
+| 07_SKILLS                                                                                                 | 232   |
+| 25_COGNITIVE_MATRIX                                                                                       | 138   |
+| 11_KNOWLEDGE                                                                                              | 129   |
+| 01_CANON                                                                                                  | 84    |
+| 00_ROOT                                                                                                   | 48    |
+| 05_COGNITIVE_ORGANISM                                                                                     | 43    |
+| 03_CONTROL_PLANE                                                                                          | 31    |
+| 08_WORKFLOWS                                                                                              | 26    |
+| 13_MODELS                                                                                                 | 18    |
+| 02_KERNEL                                                                                                 | 13    |
+| 16_SCHEMAS                                                                                                | 8     |
+| 24_ARCHIVE                                                                                                | 8     |
+| 12_STATE                                                                                                  | 2     |
+| 21_DOMAINS                                                                                                | 1     |
+| .github                                                                                                   | 1     |
+| loose root files (CLAUDE.md, skill-catalog.md, amos-skill-registry-gateway.md, skill-registry-catalog.md) | 4     |
 
 ## Special cases
 
@@ -91,7 +94,8 @@ Deliberately **not** applied: `#heading` tag lines (tag clouds, not headings) an
 - Strict fence scan: **0** unclosed fences across all 7,081 scanned files
 - YAML scan: only the pre-existing `UBI_X_FULL_BRAIN.md` fails to parse
 
----
+______________________________________________________________________
+
 ```RSCF-NODE
 node_id: vault_ingest_2026_08_30
 node_type: synthesis
@@ -104,5 +108,6 @@ RSCF-RELATIONS:
 claim_class: AMOS_MODEL
 ```
 
----
+______________________________________________________________________
+
 **MOC:** [[11_KNOWLEDGE/LLM_WIKI/LLM_WIKI_MOC|LLM_WIKI_MOC]]

@@ -1,14 +1,17 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: L00_REALITY_ENVIRONMENT — Dependencies
 type: dependency
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT
 tags:
-- cognitive-matrix
-- primitives
-- matrix/l00-reality-environment
-- note
-- domain/cognitive-matrix
-- amos-simulation-kernel-v0-math-foundations
+  - cognitive-matrix
+  - primitives
+  - matrix/l00-reality-environment
+  - note
+  - domain/cognitive-matrix
+  - amos-simulation-kernel-v0-math-foundations
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -22,9 +25,9 @@ rscf:
 **Origin architect / steward:** Trang Phan
 **Status:** `ARCHITECTURE CONTRACT / IMPLEMENTATION-DEPENDENT`
 
----
+______________________________________________________________________
 
-# 1. Definition
+## 1. Definition
 
 `L00_REALITY_ENVIRONMENT / DEPENDENCIES` defines the typed dependency architecture connecting external reality, observations, measurements, evidence, provenance, internal representations, claims, models, memory, decisions, control-plane state, actions, effects, and subsequent observations.
 
@@ -54,71 +57,71 @@ Which dependencies are required before an action may commit?
 
 The canonical dependency chain is:
 
-[
-\boxed{
+\[
+\\boxed{
 Reality
-\rightarrow
+\\rightarrow
 Observation
-\rightarrow
+\\rightarrow
 Evidence
-\rightarrow
+\\rightarrow
 Representation
-\rightarrow
+\\rightarrow
 Claim
-\rightarrow
+\\rightarrow
 Decision
-\rightarrow
+\\rightarrow
 Governance
-\rightarrow
+\\rightarrow
 Action
-\rightarrow
+\\rightarrow
 Effect
-\rightarrow
+\\rightarrow
 Observation'
 }
-]
+\]
 
 This chain is architectural.
 
 Individual systems may instantiate only a subset.
 
----
+______________________________________________________________________
 
-# 2. Dependency Law
+## 2. Dependency Law
 
 AMOS dependency reasoning follows:
 
-[
-\boxed{
+\[
+\\boxed{
 Validity(x)
-\Rightarrow
+\\Rightarrow
 Validity(LoadBearingDependencies(x))
 }
-]
+\]
 
 If a load-bearing dependency becomes invalid:
 
-[
-\boxed{
-\neg Valid(d)
-\Rightarrow
+\[
+\\boxed{
+\\neg Valid(d)
+\\Rightarrow
 Revalidate(Descendants(d))
 }
-]
+\]
 
 This does **not** imply:
 
-[
-\neg Valid(d)
-\Rightarrow
+\[
+\\neg Valid(d)
+\\Rightarrow
 Invalidate(AllState)
-]
+\]
 
 The required behavior is selective dependency invalidation.
 
----
+______________________________________________________________________
 
-# 3. Dependency Architecture
+## 3. Dependency Architecture
 
 ```text
 ┌──────────────────────────────────────────────┐
@@ -169,18 +172,15 @@ The required behavior is selective dependency invalidation.
                  OBSERVATION'
 ```
 
----
+______________________________________________________________________
 
-# 4. Dependency Primitive
+## 4. Dependency Primitive
 
 A dependency is represented as:
 
-[
-\boxed{
-D_{ij}
-======
+## \[ \\boxed{ D\_{ij}
 
-T[
+T\[
 source,
 target,
 type,
@@ -194,9 +194,9 @@ freshness,
 authority,
 provenance,
 invalidation
-]
+\]
 }
-]
+\]
 
 where:
 
@@ -214,16 +214,13 @@ where:
 - `provenance` = origin and ancestry;
 - `invalidation` = downstream failure behavior.
 
----
+______________________________________________________________________
 
-# 5. Dependency Tensor
+## 5. Dependency Tensor
 
-[
-\boxed{
-T_D
-===
+## \[ \\boxed{ T_D
 
-T[
+T\[
 dependency_id,
 source_id,
 target_id,
@@ -239,9 +236,9 @@ provenance,
 authority,
 conflict,
 invalidation_policy
-]
+\]
 }
-]
+\]
 
 Example:
 
@@ -282,9 +279,9 @@ dependency:
   invalidation_policy:
 ```
 
----
+______________________________________________________________________
 
-# 6. Dependency Classes
+## 6. Dependency Classes
 
 AMOS distinguishes dependency classes rather than collapsing every connection into one graph edge.
 
@@ -318,18 +315,15 @@ DEPENDENCY != CAUSATION
 
 A dependency edge cannot be promoted to causal merely because downstream state changes when upstream state changes.
 
----
+______________________________________________________________________
 
-# 7. Dependency Relation Tensor
+## 7. Dependency Relation Tensor
 
 For objects (i) and (j):
 
-[
-\boxed{
-R_{ij}^{D}
-==========
+## \[ \\boxed{ R\_{ij}^{D}
 
-T[
+T\[
 type,
 direction,
 necessity,
@@ -341,28 +335,28 @@ conflict,
 authority,
 repair_coupling,
 provenance
-]
+\]
 }
-]
+\]
 
 This specializes the AMOS Relation Tensor for dependency analysis.
 
----
+______________________________________________________________________
 
-# 8. Dependency Graph
+## 8. Dependency Graph
 
 Define:
 
-[
-\boxed{
+\[
+\\boxed{
 G_D=(V,E_D)
 }
-]
+\]
 
 where:
 
-- \(V\) = typed AMOS objects;
-- \(E_D\) = typed dependency edges.
+- (V) = typed AMOS objects;
+- (E_D) = typed dependency edges.
 
 Possible nodes include:
 
@@ -392,50 +386,41 @@ repair states
 
 Edges must preserve their semantic class.
 
----
+______________________________________________________________________
 
-# 9. Dependency Closure
+## 9. Dependency Closure
 
 For object (x), define its upstream dependency closure:
 
-[
-\boxed{
-Dep^-(x)
-========
+## \[ \\boxed{ Dep^-(x)
 
-{d \mid d \leadsto x}
+{d \\mid d \\leadsto x}
 }
-]
+\]
 
 and downstream descendants:
 
-[
-\boxed{
-Dep^+(x)
-========
+## \[ \\boxed{ Dep^+(x)
 
-{y \mid x \leadsto y}
+{y \\mid x \\leadsto y}
 }
-]
+\]
 
 A consequential claim or action should resolve its relevant load-bearing upstream closure before finalization.
 
----
+______________________________________________________________________
 
-# 10. Smallest Sufficient Dependency Closure
+## 10. Smallest Sufficient Dependency Closure
 
 AMOS does not require loading the entire graph.
 
 Define:
 
-[
-\boxed{
-SDC(x)
-======
+## \[ \\boxed{ SDC(x)
 
 SmallestSufficientDependencyClosure(x)
 }
-]
+\]
 
 such that all dependencies capable of materially changing the validity or admissibility of (x) are included.
 
@@ -447,19 +432,19 @@ retrieve only dependencies that can change the outcome
 
 while preserving integrity.
 
----
+______________________________________________________________________
 
-# 11. Load-Bearing Dependency
+## 11. Load-Bearing Dependency
 
 A dependency (d) is load-bearing for conclusion (c) when:
 
-[
-\boxed{
+\[
+\\boxed{
 Remove(d)
-\Rightarrow
-Validity(c)\ changes
+\\Rightarrow
+Validity(c)\\ changes
 }
-]
+\]
 
 Conceptually:
 
@@ -476,19 +461,19 @@ OPTIONAL
 
 Compression must preserve load-bearing dependencies.
 
----
+______________________________________________________________________
 
-# 12. Dependency Compatibility
+## 12. Dependency Compatibility
 
 Two dependency structures may compose only if their shared axes are compatible.
 
-[
-\boxed{
+\[
+\\boxed{
 Compose(D_1,D_2)
-\iff
+\\iff
 Compatible(D_1,D_2)
 }
-]
+\]
 
 Compatibility includes:
 
@@ -507,16 +492,13 @@ state identity
 
 Same-name variables do not establish compatibility.
 
----
+______________________________________________________________________
 
-# 13. Dependency Compatibility Tensor
+## 13. Dependency Compatibility Tensor
 
-[
-\boxed{
-T_{DC}
-======
+## \[ \\boxed{ T\_{DC}
 
-T[
+T\[
 dependency_a,
 dependency_b,
 semantic,
@@ -527,43 +509,43 @@ units,
 authority,
 provenance,
 compatible
-]
+\]
 }
-]
+\]
 
 Hard invariant:
 
-[
-\boxed{
+\[
+\\boxed{
 CompatibleName
-\not\Rightarrow
+\\not\\Rightarrow
 CompatibleMeaning
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 14. Reality Dependencies
+## 14. Reality Dependencies
 
 The environment state is upstream of observations.
 
-[
-\boxed{
+\[
+\\boxed{
 R_t
-\xrightarrow{observe}
+\\xrightarrow{observe}
 O_t
 }
-]
+\]
 
 However, because observation is partial:
 
-[
-\boxed{
+\[
+\\boxed{
 O_t
-\neq
+\\neq
 R_t
 }
-]
+\]
 
 The dependency therefore means:
 
@@ -577,9 +559,9 @@ not:
 OBSERVATION IS COMPLETE REALITY
 ```
 
----
+______________________________________________________________________
 
-# 15. Observation Dependencies
+## 15. Observation Dependencies
 
 An observation may depend on:
 
@@ -601,12 +583,9 @@ state identity
 
 Define:
 
-[
-\boxed{
-Dep(O)
-======
+## \[ \\boxed{ Dep(O)
 
-[
+\[
 R,
 Observer,
 Method,
@@ -614,22 +593,19 @@ Time,
 Scope,
 Regime,
 Instrument
-]
+\]
 }
-]
+\]
 
 when these are applicable.
 
----
+______________________________________________________________________
 
-# 16. Measurement Dependencies
+## 16. Measurement Dependencies
 
 A measurement depends on:
 
-[
-\boxed{
-M
-=
+## \[ \\boxed{ M
 
 f(
 Quantity,
@@ -641,7 +617,7 @@ Time,
 Environment
 )
 }
-]
+\]
 
 Therefore:
 
@@ -653,16 +629,13 @@ FULL MEASUREMENT STATE
 
 where that context is required for interpretation.
 
----
+______________________________________________________________________
 
-# 17. Evidence Dependencies
+## 17. Evidence Dependencies
 
 Evidence depends on an observation or source plus provenance.
 
-[
-\boxed{
-E
-=
+## \[ \\boxed{ E
 
 f(
 Source,
@@ -674,22 +647,19 @@ Regime,
 Freshness
 )
 }
-]
+\]
 
 Evidence without recoverable origin cannot automatically support high-confidence downstream conclusions.
 
----
+______________________________________________________________________
 
-# 18. Claim Dependencies
+## 18. Claim Dependencies
 
 For claim (c):
 
-[
-\boxed{
-T_C
-===
+## \[ \\boxed{ T_C
 
-T[
+T\[
 claim,
 premises,
 evidence,
@@ -700,86 +670,83 @@ causal_level,
 competing,
 falsifiers,
 confidence
-]
+\]
 }
-]
+\]
 
 Claim validity depends on its load-bearing premises:
 
-[
-\boxed{
+\[
+\\boxed{
 Valid(c)
-\leq
-\bigwedge_{p\in P_c}Valid(p)
+\\leq
+\\bigwedge\_{p\\in P_c}Valid(p)
 }
-]
+\]
 
 where the expression represents logical dependency rather than a universal numerical confidence formula.
 
----
+______________________________________________________________________
 
-# 19. Confidence Dependency
+## 19. Confidence Dependency
 
-For load-bearing premises \(p_i\):
+For load-bearing premises (p_i):
 
-[
-\boxed{
+\[
+\\boxed{
 Conf(c)
-\leq
-\min_i Conf(p_i)
+\\leq
+\\min_i Conf(p_i)
 }
-]
+\]
 
 unless an independently validated aggregation rule justifies another ceiling.
 
 Reasoning fluency cannot raise confidence beyond unresolved load-bearing evidence.
 
----
+______________________________________________________________________
 
-# 20. Provenance Dependencies
+## 20. Provenance Dependencies
 
 Every evidence-bearing object should maintain:
 
-[
-\boxed{
+\[
+\\boxed{
 Object
-\rightarrow
+\\rightarrow
 Source
-\rightarrow
+\\rightarrow
 Origin
 }
-]
+\]
 
 where recoverable.
 
 For derived objects:
 
-[
-\boxed{
+\[
+\\boxed{
 Claim
-\rightarrow
+\\rightarrow
 Premise
-\rightarrow
+\\rightarrow
 Evidence
-\rightarrow
+\\rightarrow
 Observation
-\rightarrow
+\\rightarrow
 Source
 }
-]
+\]
 
 Provenance is therefore itself a dependency graph.
 
----
+______________________________________________________________________
 
-# 21. Provenance Dependency Tensor
+## 21. Provenance Dependency Tensor
 
-[
-\boxed{
-T_{PD}
-======
+## \[ \\boxed{ T\_{PD}
 
-T[
+T\[
 object,
 parent,
 origin,
@@ -790,56 +757,53 @@ timestamp,
 version,
 hash,
 revocation
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 22. Independence Dependencies
+## 22. Independence Dependencies
 
 Suppose:
 
-[
-E_1 \leftarrow S
-]
+\[
+E_1 \\leftarrow S
+\]
 
 and:
 
-[
-E_2 \leftarrow S
-]
+\[
+E_2 \\leftarrow S
+\]
 
-Then \(E_1\) and \(E_2\) share ancestry.
+Then (E_1) and (E_2) share ancestry.
 
 Therefore:
 
-[
-\boxed{
+\[
+\\boxed{
 E_1 + E_2
-\neq
-2\ independent\ confirmations
+\\neq
+2\\ independent\\ confirmations
 }
-]
+\]
 
 unless independence is demonstrated.
 
----
+______________________________________________________________________
 
-# 23. Sybil-Hardening Dependency Rule
+## 23. Sybil-Hardening Dependency Rule
 
 Evidence multiplicity must be evaluated over provenance topology.
 
 Define:
 
-[
-\boxed{
-I(E_i,E_j)
-==========
+## \[ \\boxed{ I(E_i,E_j)
 
 IndependentAncestry(E_i,E_j)
 }
-]
+\]
 
 Unknown ancestry does not establish independence.
 
@@ -847,20 +811,17 @@ Unknown ancestry does not establish independence.
 UNKNOWN_INDEPENDENCE != INDEPENDENT
 ```
 
----
+______________________________________________________________________
 
-# 24. Temporal Dependencies
+## 24. Temporal Dependencies
 
 A state may depend on another state only during a bounded temporal interval.
 
-[
-\boxed{
-Valid(D_{ij},t)
-===============
+## \[ \\boxed{ Valid(D\_{ij},t)
 
-t\in[t_{start},t_{expiry}]
+t\\in[t\_{start},t\_{expiry}]
 }
-]
+\]
 
 Temporal dependencies may include:
 
@@ -875,48 +836,45 @@ regime duration
 transaction epoch
 ```
 
----
+______________________________________________________________________
 
-# 25. Freshness Dependency
+## 25. Freshness Dependency
 
 For mutable dependency (d):
 
-[
+\[
 Age(d,t)=t-t_d
-]
+\]
 
 and:
 
-[
-\boxed{
-Fresh(d,c,t)
-============
+## \[ \\boxed{ Fresh(d,c,t)
 
-Age(d,t)\leq\tau_c
+Age(d,t)\\leq\\tau_c
 }
-]
+\]
 
-where (\tau_c) depends on the consuming claim or action.
+where (\\tau_c) depends on the consuming claim or action.
 
 A dependency may therefore be fresh for one decision and stale for another.
 
----
+______________________________________________________________________
 
-# 26. Regime Dependencies
+## 26. Regime Dependencies
 
 A dependency may be valid only under regime (g):
 
-[
-\boxed{
-D_{ij}\mid G=g
+\[
+\\boxed{
+D\_{ij}\\mid G=g
 }
-]
+\]
 
 If:
 
-[
-g_t \neq g_{t+1}
-]
+\[
+g_t \\neq g\_{t+1}
+\]
 
 then regime-sensitive descendants require revalidation.
 
@@ -926,18 +884,15 @@ Hard invariant:
 SAME VARIABLE != SAME DEPENDENCY ACROSS REGIMES
 ```
 
----
+______________________________________________________________________
 
-# 27. Scope Dependencies
+## 27. Scope Dependencies
 
 A dependency carries its applicability envelope:
 
-[
-\boxed{
-Scope(D)
-========
+## \[ \\boxed{ Scope(D)
 
-[
+\[
 system,
 population,
 environment,
@@ -945,27 +900,27 @@ scale,
 time,
 measurement,
 assumptions
-]
+\]
 }
-]
+\]
 
 A downstream object may narrow scope.
 
 It may not silently broaden it.
 
-[
-\boxed{
+\[
+\\boxed{
 Scope(child)
-\subseteq
+\\subseteq
 CompatibleScope(parents)
 }
-]
+\]
 
 unless new evidence supports expansion.
 
----
+______________________________________________________________________
 
-# 28. Cross-Scale Dependencies
+## 28. Cross-Scale Dependencies
 
 AMOS uses H/M/L dependency structure.
 
@@ -977,34 +932,31 @@ L = local/detail scale
 
 Cross-scale edges include:
 
-[
-D_{L\rightarrow M}
-]
+\[
+D\_{L\\rightarrow M}
+\]
 
-[
-D_{M\rightarrow H}
-]
+\[
+D\_{M\\rightarrow H}
+\]
 
-[
-D_{H\rightarrow M}
-]
+\[
+D\_{H\\rightarrow M}
+\]
 
-[
-D_{M\rightarrow L}
-]
+\[
+D\_{M\\rightarrow L}
+\]
 
 These edges must declare their transformation semantics.
 
----
+______________________________________________________________________
 
-# 29. Cross-Scale Dependency Tensor
+## 29. Cross-Scale Dependency Tensor
 
-[
-\boxed{
-T_{XD}
-======
+## \[ \\boxed{ T\_{XD}
 
-T[
+T\[
 source,
 source_scale,
 target,
@@ -1015,23 +967,23 @@ constraints,
 information_loss,
 uncertainty,
 provenance
-]
+\]
 }
-]
+\]
 
 Hard invariant:
 
-[
-\boxed{
+\[
+\\boxed{
 LocalEvidence
-\not\Rightarrow
+\\not\\Rightarrow
 GlobalTruth
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 30. H-Level Dependencies
+## 30. H-Level Dependencies
 
 At H scale, dependency analysis includes:
 
@@ -1048,25 +1000,22 @@ system-wide failure propagation
 
 Example:
 
-[
-\boxed{
-H_t
-===
+## \[ \\boxed{ H_t
 
-T[
+T\[
 governance,
 constraints,
 authority,
 topology,
 regime,
 global_state
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 31. M-Level Dependencies
+## 31. M-Level Dependencies
 
 At M scale:
 
@@ -1084,25 +1033,22 @@ control-plane components
 
 Example:
 
-[
-\boxed{
-M_t
-===
+## \[ \\boxed{ M_t
 
-T[
+T\[
 components,
 relations,
 flows,
 interfaces,
 constraints,
 state
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 32. L-Level Dependencies
+## 32. L-Level Dependencies
 
 At L scale:
 
@@ -1120,36 +1066,30 @@ individual actions
 
 Example:
 
-[
-\boxed{
-L_t
-===
+## \[ \\boxed{ L_t
 
-T[
+T\[
 object,
 state,
 inputs,
 outputs,
 dependencies,
 provenance
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 33. Upward Dependency Propagation
+## 33. Upward Dependency Propagation
 
 Local state may contribute to subsystem state:
 
-[
-\boxed{
-M
-=
+## \[ \\boxed{ M
 
-\Phi_{L\rightarrow M}(L_1,\ldots,L_n)
+\\Phi\_{L\\rightarrow M}(L_1,\\ldots,L_n)
 }
-]
+\]
 
 The mapping must define:
 
@@ -1165,39 +1105,33 @@ provenance
 
 No automatic upward generalization is permitted.
 
----
+______________________________________________________________________
 
-# 34. Downward Constraint Propagation
+## 34. Downward Constraint Propagation
 
 Higher-level constraints may restrict lower-level actions:
 
-[
-\boxed{
-Admissible(L)
-=============
+## \[ \\boxed{ Admissible(L)
 
 L
-\cap
+\\cap
 Constraints(M)
-\cap
+\\cap
 Constraints(H)
 }
-]
+\]
 
 This represents constraint inheritance.
 
 It does not mean H-level descriptions manufacture L-level observations.
 
----
+______________________________________________________________________
 
-# 35. Control-Plane Dependencies
+## 35. Control-Plane Dependencies
 
 A consequential commit may depend on:
 
-[
-\boxed{
-Commit
-======
+## \[ \\boxed{ Commit
 
 f(
 Proposal,
@@ -1210,20 +1144,17 @@ Transaction,
 EffectBinding
 )
 }
-]
+\]
 
 All load-bearing commit dependencies must remain valid at finalization.
 
----
+______________________________________________________________________
 
-# 36. Commit Dependency Tensor
+## 36. Commit Dependency Tensor
 
-[
-\boxed{
-T_{CD}
-======
+## \[ \\boxed{ T\_{CD}
 
-T[
+T\[
 proposal,
 evidence,
 read_set,
@@ -1234,72 +1165,69 @@ epoch,
 effect,
 rollback,
 commit_state
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 37. Commit-Time Revalidation
+## 37. Commit-Time Revalidation
 
 Suppose a proposal depends on environmental state:
 
-[
-S_{read}
-]
+\[
+S\_{read}
+\]
 
 Before commit, AMOS compares:
 
-[
-S_{commit}
-]
+\[
+S\_{commit}
+\]
 
 If a decision-relevant dependency changed:
 
-[
-\boxed{
-S_{read}\neq S_{commit}
-\Rightarrow
+\[
+\\boxed{
+S\_{read}\\neq S\_{commit}
+\\Rightarrow
 REVALIDATE
 }
-]
+\]
 
 when the mutation affects admissibility.
 
----
+______________________________________________________________________
 
-# 38. Observed Read Set
+## 38. Observed Read Set
 
 A governed action should preserve the state actually read during reasoning.
 
 Define:
 
-[
-\boxed{
-R_{obs}
-=======
+## \[ \\boxed{ R\_{obs}
 
 {
 (object_i,state_i,version_i)
-}_{i=1}^{n}
+}\_{i=1}^{n}
 }
-]
+\]
 
 This permits commit-time detection of stale dependencies.
 
----
+______________________________________________________________________
 
-# 39. Authority Dependencies
+## 39. Authority Dependencies
 
 Execution authority is an independent dependency class.
 
-[
-\boxed{
+\[
+\\boxed{
 Executable(a)
-\not\Rightarrow
+\\not\\Rightarrow
 Authorized(a)
 }
-]
+\]
 
 Authority may depend on:
 
@@ -1316,16 +1244,13 @@ approval
 revocation state
 ```
 
----
+______________________________________________________________________
 
-# 40. Authority Tensor
+## 40. Authority Tensor
 
-[
-\boxed{
-T_A
-===
+## \[ \\boxed{ T_A
 
-T[
+T\[
 principal,
 delegate,
 capability,
@@ -1337,39 +1262,39 @@ limits,
 approval,
 revocation,
 provenance
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 41. Capability Dependency
+## 41. Capability Dependency
 
 A skill or agent may require capability (k):
 
-[
-\boxed{
+\[
+\\boxed{
 Execute(task)
-\Rightarrow
+\\Rightarrow
 Capability(k)
 }
-]
+\]
 
 But:
 
-[
-\boxed{
+\[
+\\boxed{
 Capability(k)
-\not\Rightarrow
+\\not\\Rightarrow
 Authority(k)
 }
-]
+\]
 
 Capability dependencies and authority dependencies must remain separate graph edges.
 
----
+______________________________________________________________________
 
-# 42. Agent Dependencies
+## 42. Agent Dependencies
 
 An AMOS agent may depend on:
 
@@ -1391,12 +1316,9 @@ control plane
 
 Define:
 
-[
-\boxed{
-T_{AgentD}
-==========
+## \[ \\boxed{ T\_{AgentD}
 
-T[
+T\[
 agent,
 objective,
 role,
@@ -1409,13 +1331,13 @@ constraints,
 authority,
 budget,
 environment
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 43. Skill Dependencies
+## 43. Skill Dependencies
 
 A skill may depend on:
 
@@ -1432,12 +1354,9 @@ other skills
 validators
 ```
 
-[
-\boxed{
-T_{SkillD}
-==========
+## \[ \\boxed{ T\_{SkillD}
 
-T[
+T\[
 skill,
 inputs,
 outputs,
@@ -1448,31 +1367,28 @@ authority,
 validators,
 dependencies,
 provenance
-]
+\]
 }
-]
+\]
 
 A skill declaration establishes architectural capability, not proof that the capability executed successfully.
 
----
+______________________________________________________________________
 
-# 44. Workflow Dependencies
+## 44. Workflow Dependencies
 
 A workflow is a dependency-ordered transition system.
 
-[
-\boxed{
-W
-=
+## \[ \\boxed{ W
 
 (V_W,E_W)
 }
-]
+\]
 
 where:
 
-- \(V_W\) = workflow states or operations;
-- \(E_W\) = prerequisite or transition dependencies.
+- (V_W) = workflow states or operations;
+- (E_W) = prerequisite or transition dependencies.
 
 Example:
 
@@ -1496,36 +1412,33 @@ COMMIT
 OBSERVE EFFECT
 ```
 
----
+______________________________________________________________________
 
-# 45. Workflow Dependency Invariant
+## 45. Workflow Dependency Invariant
 
 A downstream workflow state may execute only when its hard prerequisites are satisfied.
 
-[
-\boxed{
+\[
+\\boxed{
 HardDependencyFail
-\Rightarrow
+\\Rightarrow
 TransitionBlocked
 }
-]
+\]
 
 A failed hard gate must not be converted into a prose warning while execution continues.
 
----
+______________________________________________________________________
 
-# 46. Protocol Dependencies
+## 46. Protocol Dependencies
 
 Protocols define legal transitions between components.
 
 A protocol dependency tensor is:
 
-[
-\boxed{
-T_{Protocol}
-============
+## \[ \\boxed{ T\_{Protocol}
 
-T[
+T\[
 sender,
 receiver,
 message,
@@ -1537,22 +1450,19 @@ idempotency,
 timeout,
 failure,
 provenance
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 47. Memory Dependencies
+## 47. Memory Dependencies
 
 Persistent memory may influence reasoning only while its applicability remains valid.
 
-[
-\boxed{
-T_M
-===
+## \[ \\boxed{ T_M
 
-T[
+T\[
 item,
 content,
 state,
@@ -1562,9 +1472,9 @@ freshness,
 contradiction,
 retention,
 revalidation
-]
+\]
 }
-]
+\]
 
 Memory dependency rules:
 
@@ -1578,9 +1488,9 @@ MEMORY != OBSERVATION
 STALE MEMORY != CURRENT EVIDENCE
 ```
 
----
+______________________________________________________________________
 
-# 48. Model Dependencies
+## 48. Model Dependencies
 
 A model output may depend on:
 
@@ -1596,42 +1506,36 @@ time
 model version
 ```
 
-[
-\boxed{
-\hat{y}
-=======
+## \[ \\boxed{ \\hat{y}
 
 M(
 X;
-\theta,
+\\theta,
 G,
 t
 )
 }
-]
+\]
 
 Therefore model output validity inherits model and input dependencies.
 
----
+______________________________________________________________________
 
-# 49. Simulation Dependencies
+## 49. Simulation Dependencies
 
 Simulation output depends on:
 
-[
-\boxed{
-S_{out}
-=======
+## \[ \\boxed{ S\_{out}
 
 Sim(
-S_{initial},
+S\_{initial},
 Rules,
 Parameters,
 Randomness,
 BoundaryConditions
 )
 }
-]
+\]
 
 Simulation dependencies do not become environmental evidence automatically.
 
@@ -1641,9 +1545,9 @@ SIMULATION_DEPENDENCY
 REALITY_DEPENDENCY
 ```
 
----
+______________________________________________________________________
 
-# 50. Causal Dependency Firewall
+## 50. Causal Dependency Firewall
 
 A graph edge may be:
 
@@ -1660,30 +1564,27 @@ These classes must not collapse.
 
 Specifically:
 
-[
-\boxed{
-D_{ij}
-\not\Rightarrow
+\[
+\\boxed{
+D\_{ij}
+\\not\\Rightarrow
 Cause(i,j)
 }
-]
+\]
 
 Causal promotion requires appropriately typed causal evidence.
 
----
+______________________________________________________________________
 
-# 51. Constraint Dependencies
+## 51. Constraint Dependencies
 
 A state or action may depend on constraints:
 
-[
-\boxed{
-Admissible(x)
-=============
+## \[ \\boxed{ Admissible(x)
 
-\bigwedge_{c\in C_x}Satisfied(c)
+\\bigwedge\_{c\\in C_x}Satisfied(c)
 }
-]
+\]
 
 Constraint classes may include:
 
@@ -1702,25 +1603,22 @@ governance
 
 Hard constraints block transitions.
 
----
+______________________________________________________________________
 
-# 52. Dependency Conflict
+## 52. Dependency Conflict
 
 Two dependencies conflict when their simultaneous requirements cannot be satisfied.
 
 Define:
 
-[
-\boxed{
-Conflict(D_i,D_j)
-=================
+## \[ \\boxed{ Conflict(D_i,D_j)
 
 Incompatible(
 requirements_i,
 requirements_j
 )
 }
-]
+\]
 
 Conflict must remain explicit until resolved.
 
@@ -1728,9 +1626,9 @@ Conflict must remain explicit until resolved.
 CONFLICT != CONSENSUS
 ```
 
----
+______________________________________________________________________
 
-# 53. Competing Dependencies
+## 53. Competing Dependencies
 
 If two incompatible dependency models remain plausible:
 
@@ -1749,30 +1647,27 @@ until discriminating evidence exists.
 
 The system should prefer the cheapest high-information test capable of distinguishing them.
 
----
+______________________________________________________________________
 
-# 54. Dependency Sensitivity
+## 54. Dependency Sensitivity
 
 For conclusion (c), define the sensitivity of dependency (d):
 
-[
-\boxed{
-Sens(d,c)
-=========
+## \[ \\boxed{ Sens(d,c)
 
-\Delta Decision(c)
-\mid
+\\Delta Decision(c)
+\\mid
 Perturb(d)
 }
-]
+\]
 
 This is a conceptual AMOS operator unless a domain provides a numerical metric.
 
 High-sensitivity dependencies should be checked before low-impact background dependencies.
 
----
+______________________________________________________________________
 
-# 55. Dependency Criticality
+## 55. Dependency Criticality
 
 A dependency may be classified:
 
@@ -1785,8 +1680,8 @@ COSMETIC
 
 Resolution order:
 
-[
-\boxed{
+\[
+\\boxed{
 CRITICAL
 
 >
@@ -1801,35 +1696,29 @@ EXPLANATORY
 
 COSMETIC
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 56. Dependency Consequence Radius
+## 56. Dependency Consequence Radius
 
 A failed dependency may have different propagation radius.
 
-[
-\boxed{
-CR(d)
-=====
+## \[ \\boxed{ CR(d)
 
-|{x:x\in Dep^+(d)\land x\ is\ consequential}|
+|{x:x\\in Dep^+(d)\\land x\\ is\\ consequential}|
 }
-]
+\]
 
 The count is meaningful only when graph construction is sufficiently complete for the declared scope.
 
----
+______________________________________________________________________
 
-# 57. Dependency Risk Tensor
+## 57. Dependency Risk Tensor
 
-[
-\boxed{
-T_{DR}
-======
+## \[ \\boxed{ T\_{DR}
 
-T[
+T\[
 dependency,
 failure_probability,
 consequence,
@@ -1838,57 +1727,51 @@ fanout,
 detectability,
 recoverability,
 priority
-]
+\]
 }
-]
+\]
 
 Probability fields must remain absent or qualitative unless supported by calibrated evidence.
 
----
+______________________________________________________________________
 
-# 58. Selective Invalidation
+## 58. Selective Invalidation
 
 If dependency (d) fails:
 
-[
-\boxed{
+\[
+\\boxed{
 Invalidate(
 AffectedDescendants(d)
 )
 }
-]
+\]
 
 not:
 
-[
+\[
 Invalidate(All)
-]
+\]
 
 The affected set is:
 
-[
-\boxed{
-A(d)
-====
+## \[ \\boxed{ A(d)
 
 {
-x\in Dep^+(d)
-\mid
-x\ materially\ depends\ on\ d
+x\\in Dep^+(d)
+\\mid
+x\\ materially\\ depends\\ on\\ d
 }
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 59. Dependency Invalidation Tensor
+## 59. Dependency Invalidation Tensor
 
-[
-\boxed{
-T_I
-===
+## \[ \\boxed{ T_I
 
-T[
+T\[
 failed_dependency,
 failure_type,
 affected_nodes,
@@ -1896,13 +1779,13 @@ preserved_nodes,
 revalidation_requirements,
 rollback_point,
 repair_state
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 60. Dependency Repair
+## 60. Dependency Repair
 
 Canonical dependency repair:
 
@@ -1928,24 +1811,21 @@ RUN VALIDATORS
 RESTORE
 ```
 
----
+______________________________________________________________________
 
-# 61. Repair Equation
+## 61. Repair Equation
 
-[
-\boxed{
-RepairScope(d)
-==============
+## \[ \\boxed{ RepairScope(d)
 
 SmallestSafeAffectedClosure(d)
 }
-]
+\]
 
 The preferred repair minimizes unnecessary invalidation while preserving correctness.
 
----
+______________________________________________________________________
 
-# 62. Rollback Dependency
+## 62. Rollback Dependency
 
 Rollback itself depends on:
 
@@ -1966,16 +1846,13 @@ ROLLBACK AVAILABLE
 ROLLBACK SAFE
 ```
 
----
+______________________________________________________________________
 
-# 63. Dependency Replay
+## 63. Dependency Replay
 
 For reproducible execution:
 
-[
-\boxed{
-Replay
-======
+## \[ \\boxed{ Replay
 
 f(
 Inputs,
@@ -1987,13 +1864,13 @@ State,
 Provenance
 )
 }
-]
+\]
 
 If load-bearing environmental dependencies differ, replay equivalence cannot be assumed.
 
----
+______________________________________________________________________
 
-# 64. Dependency State Machine
+## 64. Dependency State Machine
 
 ```text
 DISCOVERED
@@ -2021,16 +1898,13 @@ SUPERSEDED
 INVALIDATED
 ```
 
----
+______________________________________________________________________
 
-# 65. Dependency State Tensor
+## 65. Dependency State Tensor
 
-[
-\boxed{
-T_{DS}
-======
+## \[ \\boxed{ T\_{DS}
 
-T[
+T\[
 dependency,
 state,
 validation,
@@ -2040,13 +1914,13 @@ revocation,
 epoch,
 last_checked,
 provenance
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 66. Core Dependency Operators
+## 66. Core Dependency Operators
 
 ```text
 DISCOVER
@@ -2075,59 +1949,59 @@ REPLAY
 FINALIZE
 ```
 
----
+______________________________________________________________________
 
-# 67. Formal Operator Set
+## 67. Formal Operator Set
 
-[
-\mathcal{D}: Object\rightarrow Dependencies
-]
+\[
+\\mathcal{D}: Object\\rightarrow Dependencies
+\]
 
-[
-\mathcal{C}: Dependencies\rightarrow Closure
-]
+\[
+\\mathcal{C}: Dependencies\\rightarrow Closure
+\]
 
-[
-\mathcal{V}: Dependency\rightarrow ValidationState
-]
+\[
+\\mathcal{V}: Dependency\\rightarrow ValidationState
+\]
 
-[
-\mathcal{I}: FailedDependency\rightarrow AffectedDescendants
-]
+\[
+\\mathcal{I}: FailedDependency\\rightarrow AffectedDescendants
+\]
 
-[
-\mathcal{R}: FailedDependency\rightarrow RepairPlan
-]
+\[
+\\mathcal{R}: FailedDependency\\rightarrow RepairPlan
+\]
 
-[
-\mathcal{P}: DependencySet\rightarrow ProvenanceTopology
-]
+\[
+\\mathcal{P}: DependencySet\\rightarrow ProvenanceTopology
+\]
 
-[
-\mathcal{F}: Dependency\times Time\rightarrow FreshnessState
-]
+\[
+\\mathcal{F}: Dependency\\times Time\\rightarrow FreshnessState
+\]
 
----
+______________________________________________________________________
 
-# 68. Core Dependency Invariants
+## 68. Core Dependency Invariants
 
 ## L00-DEP-INV-01 — Typed Edges
 
 Every material dependency edge must have a semantic class.
 
----
+______________________________________________________________________
 
 ## L00-DEP-INV-02 — Direction Preservation
 
 Dependency direction must not silently reverse.
 
-[
-A\rightarrow B
-\not\Rightarrow
-B\rightarrow A
-]
+\[
+A\\rightarrow B
+\\not\\Rightarrow
+B\\rightarrow A
+\]
 
----
+______________________________________________________________________
 
 ## L00-DEP-INV-03 — Dependency / Causation Separation
 
@@ -2135,31 +2009,31 @@ B\rightarrow A
 DEPENDENCY != CAUSATION
 ```
 
----
+______________________________________________________________________
 
 ## L00-DEP-INV-04 — Provenance Preservation
 
 Load-bearing dependencies retain recoverable provenance.
 
----
+______________________________________________________________________
 
 ## L00-DEP-INV-05 — Scope Preservation
 
 A child cannot silently broaden parent evidence scope.
 
----
+______________________________________________________________________
 
 ## L00-DEP-INV-06 — Regime Preservation
 
 Regime-sensitive edges require revalidation after regime change.
 
----
+______________________________________________________________________
 
 ## L00-DEP-INV-07 — Freshness Preservation
 
 Mutable dependencies cannot silently remain valid indefinitely.
 
----
+______________________________________________________________________
 
 ## L00-DEP-INV-08 — Independence Verification
 
@@ -2167,7 +2041,7 @@ Mutable dependencies cannot silently remain valid indefinitely.
 MULTIPLICITY != INDEPENDENCE
 ```
 
----
+______________________________________________________________________
 
 ## L00-DEP-INV-09 — Capability / Authority Separation
 
@@ -2175,7 +2049,7 @@ MULTIPLICITY != INDEPENDENCE
 CAPABILITY != AUTHORITY
 ```
 
----
+______________________________________________________________________
 
 ## L00-DEP-INV-10 — Proposal / Commit Separation
 
@@ -2183,7 +2057,7 @@ CAPABILITY != AUTHORITY
 PROPOSAL != COMMIT
 ```
 
----
+______________________________________________________________________
 
 ## L00-DEP-INV-11 — Local / Global Separation
 
@@ -2191,19 +2065,19 @@ PROPOSAL != COMMIT
 LOCAL DEPENDENCY != GLOBAL PROOF
 ```
 
----
+______________________________________________________________________
 
 ## L00-DEP-INV-12 — Selective Invalidation
 
 Only dependency descendants requiring the failed premise are invalidated.
 
----
+______________________________________________________________________
 
 ## L00-DEP-INV-13 — Conflict Visibility
 
 Conflicting dependencies remain explicit.
 
----
+______________________________________________________________________
 
 ## L00-DEP-INV-14 — Unknown Preservation
 
@@ -2211,7 +2085,7 @@ Conflicting dependencies remain explicit.
 UNKNOWN DEPENDENCY != VALID DEPENDENCY
 ```
 
----
+______________________________________________________________________
 
 ## L00-DEP-INV-15 — Hard Gate
 
@@ -2219,55 +2093,55 @@ UNKNOWN DEPENDENCY != VALID DEPENDENCY
 HARD_DEPENDENCY_FAIL => TRANSITION_BLOCKED
 ```
 
----
+______________________________________________________________________
 
 ## L00-DEP-INV-16 — Compression Integrity
 
 Compression may not remove load-bearing dependencies or invalidation conditions.
 
----
+______________________________________________________________________
 
-# 69. Dependency Compression
+## 69. Dependency Compression
 
 For a large dependency graph:
 
-[
+\[
 G_D
-\rightarrow
+\\rightarrow
 G_D'
-]
+\]
 
 compression is valid only if:
 
-[
-\boxed{
+\[
+\\boxed{
 LoadBearing(G_D)
-\subseteq
+\\subseteq
 Recoverable(G_D')
 }
-]
+\]
 
 Compression may remove redundant representation.
 
 It may not remove decision-relevant dependency semantics.
 
----
+______________________________________________________________________
 
-# 70. Fractal Dependency Architecture
+## 70. Fractal Dependency Architecture
 
 AMOS dependency structure is recursive.
 
 A node may itself contain a dependency graph:
 
-[
-\boxed{
+\[
+\\boxed{
 Node_H
-\supset
+\\supset
 G_M
-\supset
+\\supset
 G_L
 }
-]
+\]
 
 Therefore:
 
@@ -2287,16 +2161,13 @@ EVIDENCE
 
 Dependency reasoning may recurse until the smallest outcome-changing premise is reached.
 
----
+______________________________________________________________________
 
-# 71. Fractal Dependency Tensor
+## 71. Fractal Dependency Tensor
 
-[
-\boxed{
-T_{FD}
-======
+## \[ \\boxed{ T\_{FD}
 
-T[
+T\[
 object,
 HML_scale,
 recursion_depth,
@@ -2306,13 +2177,13 @@ cross_scale_edges,
 constraints,
 state,
 provenance
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 72. AI Application
+## 72. AI Application
 
 For AI systems, dependency architecture prevents generated reasoning from becoming detached from its support structure.
 
@@ -2342,9 +2213,9 @@ The model is a cognitive worker inside the dependency architecture.
 
 It is not the authority source for all dependencies.
 
----
+______________________________________________________________________
 
-# 73. AI Context Dependency
+## 73. AI Context Dependency
 
 AI context may contain:
 
@@ -2360,38 +2231,35 @@ model-generated hypotheses
 
 These classes must remain distinguishable.
 
-[
-\boxed{
-ContextItem
-===========
+## \[ \\boxed{ ContextItem
 
 TypedDependency
 }
-]
+\]
 
 rather than untyped text.
 
----
+______________________________________________________________________
 
-# 74. AI Hallucination Dependency Failure
+## 74. AI Hallucination Dependency Failure
 
 A hallucination can be represented structurally as a claim whose required evidence dependency is absent, invalid, incompatible, or fabricated.
 
-[
-\boxed{
+\[
+\\boxed{
 Claim(c)
-\land
-RequiredEvidence(c)=\varnothing
+\\land
+RequiredEvidence(c)=\\varnothing
 }
-]
+\]
 
 does not automatically mean the proposition is false.
 
 It means the current reasoning path lacks sufficient grounding for the asserted class.
 
----
+______________________________________________________________________
 
-# 75. Retrieval Dependency
+## 75. Retrieval Dependency
 
 Retrieved content depends on:
 
@@ -2416,16 +2284,13 @@ TOP_RANKED != TRUE
 RETRIEVAL != VERIFICATION
 ```
 
----
+______________________________________________________________________
 
-# 76. Tool Dependency
+## 76. Tool Dependency
 
 A tool call depends on:
 
-[
-\boxed{
-ToolResult
-==========
+## \[ \\boxed{ ToolResult
 
 f(
 Tool,
@@ -2436,43 +2301,43 @@ State,
 Time
 )
 }
-]
+\]
 
 Changing any load-bearing input may change the result.
 
 Tool output should therefore carry execution provenance where consequential.
 
----
+______________________________________________________________________
 
-# 77. Agentic Dependency Chain
+## 77. Agentic Dependency Chain
 
 A governed AI action follows:
 
-[
-\boxed{
+\[
+\\boxed{
 Objective
-\rightarrow
+\\rightarrow
 Evidence
-\rightarrow
+\\rightarrow
 Plan
-\rightarrow
+\\rightarrow
 Capability
-\rightarrow
+\\rightarrow
 Authority
-\rightarrow
+\\rightarrow
 Commit
-\rightarrow
+\\rightarrow
 Effect
-\rightarrow
+\\rightarrow
 Verification
 }
-]
+\]
 
 Skipping a required hard dependency invalidates the transition.
 
----
+______________________________________________________________________
 
-# 78. Dependency Control Plane
+## 78. Dependency Control Plane
 
 The control plane should own dependency checks that cannot safely be delegated to stochastic cognition.
 
@@ -2494,45 +2359,45 @@ The AI worker may propose.
 
 The control plane validates and governs.
 
----
+______________________________________________________________________
 
-# 79. Dependency Finalization
+## 79. Dependency Finalization
 
 A dependency-bound conclusion may finalize only when:
 
-[
-\boxed{
+\[
+\\boxed{
 Finalize(c)
-\iff
+\\iff
 ClosureValid(c)
-\land
+\\land
 ScopeValid(c)
-\land
+\\land
 RegimeValid(c)
-\land
+\\land
 Fresh(c)
-\land
+\\land
 ProvenanceValid(c)
-\land
+\\land
 NoBlockingConflict(c)
 }
-]
+\]
 
 For governed actions, also require:
 
-[
-\boxed{
+\[
+\\boxed{
 AuthorityValid
-\land
+\\land
 ConstraintsSatisfied
-\land
+\\land
 CommitStateValid
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 80. Fast-Path Eligibility
+## 80. Fast-Path Eligibility
 
 Local reasoning may use the reduced path only when:
 
@@ -2549,9 +2414,9 @@ required independence is established
 
 Unknown independence requires escalation when independence is load-bearing.
 
----
+______________________________________________________________________
 
-# 81. Dependency Escalation Conditions
+## 81. Dependency Escalation Conditions
 
 Escalate when:
 
@@ -2569,9 +2434,9 @@ cross-scale propagation is large
 repair fan-out is unknown
 ```
 
----
+______________________________________________________________________
 
-# 82. Failure Modes
+## 82. Failure Modes
 
 ```text
 L00-DEP-FM-01
@@ -2635,15 +2500,15 @@ L00-DEP-FM-20
 DEPENDENCY GRAPH CYCLE HAS UNDEFINED SEMANTICS
 ```
 
----
+______________________________________________________________________
 
-# 83. Dependency Cycles
+## 83. Dependency Cycles
 
 Cycles may legitimately exist:
 
-[
-A\rightarrow B\rightarrow A
-]
+\[
+A\\rightarrow B\\rightarrow A
+\]
 
 for feedback systems.
 
@@ -2661,16 +2526,13 @@ failure behavior
 
 A static logical dependency cycle without a base condition may be invalid.
 
----
+______________________________________________________________________
 
-# 84. Dependency Cycle Tensor
+## 84. Dependency Cycle Tensor
 
-[
-\boxed{
-T_{Cycle}
-=========
+## \[ \\boxed{ T\_{Cycle}
 
-T[
+T\[
 nodes,
 edges,
 temporal_order,
@@ -2679,13 +2541,13 @@ update_rule,
 termination,
 stability,
 provenance
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 85. Repair / Recovery Protocol
+## 85. Repair / Recovery Protocol
 
 ```text
 1. Detect failed or suspect dependency.
@@ -2715,9 +2577,9 @@ provenance
 13. Preserve failure and repair provenance.
 ```
 
----
+______________________________________________________________________
 
-# 86. Validators
+## 86. Validators
 
 Minimum dependency validation suite:
 
@@ -2773,9 +2635,9 @@ L00-DEP-T24 Retrieval dependency provenance
 L00-DEP-T25 Finalization closure
 ```
 
----
+______________________________________________________________________
 
-# 87. Dependency Validator Contract
+## 87. Dependency Validator Contract
 
 ```yaml
 dependency_validator:
@@ -2817,36 +2679,36 @@ dependency_validator:
   confidence_ceiling:
 ```
 
----
+______________________________________________________________________
 
-# 88. Falsifiers
+## 88. Falsifiers
 
 The dependency architecture is incomplete or incorrectly implemented if:
 
 1. dependency edges can exist without type where type affects interpretation;
-2. structural dependencies are automatically treated as causal;
-3. conclusions can lose their load-bearing premises;
-4. provenance ancestry disappears during derivation;
-5. stale dependencies remain valid indefinitely;
-6. scope changes occur without explicit transformation;
-7. regime changes do not trigger revalidation;
-8. evidence descendants from one origin count as independent confirmation;
-9. capability automatically grants authority;
-10. proposal automatically becomes commit;
-11. failed premises leave dependent conclusions valid;
-12. repair invalidates unrelated state without necessity;
-13. conflicts disappear during graph merging;
-14. unknown dependencies pass hard validation;
-15. dependency compression removes invalidation conditions;
-16. mutable environmental reads are never revalidated;
-17. revoked authority remains actionable;
-18. cross-scale aggregation occurs without declared mapping;
-19. cyclic dependencies have no temporal or update semantics;
-20. finalization can occur without resolving load-bearing dependency closure.
+1. structural dependencies are automatically treated as causal;
+1. conclusions can lose their load-bearing premises;
+1. provenance ancestry disappears during derivation;
+1. stale dependencies remain valid indefinitely;
+1. scope changes occur without explicit transformation;
+1. regime changes do not trigger revalidation;
+1. evidence descendants from one origin count as independent confirmation;
+1. capability automatically grants authority;
+1. proposal automatically becomes commit;
+1. failed premises leave dependent conclusions valid;
+1. repair invalidates unrelated state without necessity;
+1. conflicts disappear during graph merging;
+1. unknown dependencies pass hard validation;
+1. dependency compression removes invalidation conditions;
+1. mutable environmental reads are never revalidated;
+1. revoked authority remains actionable;
+1. cross-scale aggregation occurs without declared mapping;
+1. cyclic dependencies have no temporal or update semantics;
+1. finalization can occur without resolving load-bearing dependency closure.
 
----
+______________________________________________________________________
 
-# 89. Gap Status
+## 89. Gap Status
 
 Dependency gaps must be classified:
 
@@ -2859,24 +2721,21 @@ COSMETIC
 
 A critical unresolved dependency yields:
 
-[
-\boxed{
+\[
+\\boxed{
 FinalizationEligible=FALSE
 }
-]
+\]
 
 for any conclusion or action requiring that dependency.
 
----
+______________________________________________________________________
 
-# 90. Dependency Gap Tensor
+## 90. Dependency Gap Tensor
 
-[
-\boxed{
-T_{Gap}
-=======
+## \[ \\boxed{ T\_{Gap}
 
-T[
+T\[
 missing_dependency,
 required_by,
 criticality,
@@ -2885,13 +2744,13 @@ discriminating_evidence,
 resolution_cost,
 consequence,
 status
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 91. Minimum Dependency Proof Capsule
+## 91. Minimum Dependency Proof Capsule
 
 ```yaml
 dependency_proof_capsule:
@@ -2939,9 +2798,9 @@ dependency_proof_capsule:
   confidence_ceiling:
 ```
 
----
+______________________________________________________________________
 
-# 92. RSCF Completion State
+## 92. RSCF Completion State
 
 ```yaml
 claim_class: MODEL
@@ -3023,9 +2882,9 @@ confidence_ceiling:
   empirical_universality: unverified
 ```
 
----
+______________________________________________________________________
 
-# 93. Hard Boundaries
+## 93. Hard Boundaries
 
 ```text
 DEPENDENCY != CAUSATION
@@ -3071,75 +2930,72 @@ ADDRESSABLE != VALIDATED
 UNKNOWN/GAP != PASS
 ```
 
----
+______________________________________________________________________
 
-# 94. Canonical Dependency Equation
+## 94. Canonical Dependency Equation
 
 The complete L00 dependency architecture may be represented as:
 
-[
-\boxed{
+\[
+\\boxed{
 R_t
-\xrightarrow{D_O}
+\\xrightarrow{D_O}
 O_t
-\xrightarrow{D_E}
+\\xrightarrow{D_E}
 E_t
-\xrightarrow{D_C}
+\\xrightarrow{D_C}
 C_t
-\xrightarrow{D_D}
+\\xrightarrow{D_D}
 D_t
-\xrightarrow{D_G}
+\\xrightarrow{D_G}
 G_t
-\xrightarrow{D_A}
+\\xrightarrow{D_A}
 A_t
-\xrightarrow{D_R}
-R_{t+1}
+\\xrightarrow{D_R}
+R\_{t+1}
 }
-]
+\]
 
 with provenance:
 
-[
-\boxed{
+\[
+\\boxed{
 P:
 R_t
-\rightarrow
+\\rightarrow
 O_t
-\rightarrow
+\\rightarrow
 E_t
-\rightarrow
+\\rightarrow
 C_t
-\rightarrow
+\\rightarrow
 D_t
-\rightarrow
+\\rightarrow
 A_t
 }
-]
+\]
 
 and feedback:
 
-[
-\boxed{
+\[
+\\boxed{
 A_t
-\rightarrow
-R_{t+1}
-\rightarrow
-O_{t+1}
+\\rightarrow
+R\_{t+1}
+\\rightarrow
+O\_{t+1}
 }
-]
+\]
 
 Every arrow is typed.
 
 No arrow automatically licenses a stronger semantic class than its declared dependency type.
 
----
+______________________________________________________________________
 
-# 95. Governing Dependency Law
+## 95. Governing Dependency Law
 
-[
-\boxed{
-AMOSValidity(x)
-===============
+## \[ \\boxed{ AMOSValidity(x)
 
 f(
 DependencyClosure,
@@ -3152,47 +3008,48 @@ ConstraintSatisfaction,
 ConflictState
 )
 }
-]
+\]
 
 For actions:
 
-[
-\boxed{
-AMOSCommitEligibility
-=====================
+## \[ \\boxed{ AMOSCommitEligibility
 
 AMOSValidity
-\land
+\\land
 AuthorityValidity
-\land
+\\land
 CommitTimeFreshness
 }
-]
+\]
 
 These are AMOS architectural equations, not claims of universal mathematical law.
 
 The purpose of `L00_REALITY_ENVIRONMENT / DEPENDENCIES` is to ensure that every important AMOS conclusion and effect remains connected to the exact observations, evidence, constraints, authority, state, and provenance on which it actually depends—and that failure propagates only as far as those dependencies justify.
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · 06-Knowledge-Base-MOC · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · AMOS_Typed_Tensor_Contracts · AMOS_Evidence_Tensor_Architecture · Cosmo_Brain_BRIDGE_INDEX · AMOS_Relation_Tensor_Architecture · AMOS_Provenance_Topology · AMOS_Context_State_Maintenance · AMOS_Constraint_Propagation · AMOS_Information_Boundary_Governor · AMOS_Execution_Provenance_Replay · AMOS_Infrastructure_Control_Plane · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations|AMOS_Simulation_Kernel_v0_Math_Foundations]] · system_scan_agent · automation_profiles
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: l00_reality_environment_primitives_cognitive_matrix_dependencies
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_DEPENDENCIES.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_MOC|L00_REALITY_ENVIRONMENT_MOC]]

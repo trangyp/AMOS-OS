@@ -12,20 +12,20 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: FRAMEWORK
 path: 11_KNOWLEDGE/05_FRAMEWORKS/BIO_LOGICAL_ARCHITECTURE.md
 tags:
-- amos-os
-- knowledge
-- vault
-- 05_frameworks
-- bio_logical_architecture
-- living_architecture
-- biological_logic
-- entropy_dissipation
-- rscf
-- canon_candidate
-- canon/knowledge
-- unified-biological-intelligence
-- uba-universal-biological-architecture
-- bio-logical-computing
+  - amos-os
+  - knowledge
+  - vault
+  - 05_frameworks
+  - bio_logical_architecture
+  - living_architecture
+  - biological_logic
+  - entropy_dissipation
+  - rscf
+  - canon_candidate
+  - canon/knowledge
+  - unified-biological-intelligence
+  - uba-universal-biological-architecture
+  - bio-logical-computing
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -40,23 +40,23 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - THE_LIVING_STACK_A_COMPREHENSIVE_SCIENTIFIC_ARCHITECTURE_THESIS_EXPANDED
-  - UBA_UNIVERSAL_BIOLOGICAL_ARCHITECTURE
-  - AMOS_CORPUS
+    - THE_LIVING_STACK_A_COMPREHENSIVE_SCIENTIFIC_ARCHITECTURE_THESIS_EXPANDED
+    - UBA_UNIVERSAL_BIOLOGICAL_ARCHITECTURE
+    - AMOS_CORPUS
   scope:
-  - KNOWLEDGE_FRAMEWORKS
-  - BIOLOGICAL_ARCHITECTURE
-  - SOURCE_DEFINED_MODEL
+    - KNOWLEDGE_FRAMEWORKS
+    - BIOLOGICAL_ARCHITECTURE
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   biological_master:
     artifact:
-    - - UNIFIED_BIOLOGICAL_INTELLIGENCE
+      -   - UNIFIED_BIOLOGICAL_INTELLIGENCE
   uba_specification:
     artifact:
-    - - UBA_UNIVERSAL_BIOLOGICAL_ARCHITECTURE
+      -   - UBA_UNIVERSAL_BIOLOGICAL_ARCHITECTURE
   living_computing:
     artifact:
-    - - BIO_LOGICAL_COMPUTING
+      -   - BIO_LOGICAL_COMPUTING
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
@@ -70,9 +70,9 @@ epistemic_boundary:
 
 It establishes an architectural synthesis between **formal structural logic** and **living biological morphogenesis**, ensuring software, cognitive, and organization systems mirror the self-healing, scale-invariant, and entropy-exporting properties of biological organisms.
 
----
+______________________________________________________________________
 
-# 1. Structural Synthesis
+## 1. Structural Synthesis
 
 ```text
                ┌────────────────────────────────────────────────────────┐
@@ -86,18 +86,18 @@ ORGANIC FRACTAL MORPHOLOGY         METABOLIC BOUNDARIES               AUTONOMIC 
 • Branching flow networks          • Localized entropy export         • Apoptosis & regeneration
 ```
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Biological Master:** [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]]
 - **UBA Specification:** [[11_KNOWLEDGE/05_FRAMEWORKS/UBA_UNIVERSAL_BIOLOGICAL_ARCHITECTURE|UBA_UNIVERSAL_BIOLOGICAL_ARCHITECTURE]]
 - **Living Computing:** [[11_KNOWLEDGE/05_FRAMEWORKS/BIO_LOGICAL_COMPUTING|BIO_LOGICAL_COMPUTING]]
 - **The Living Stack:** `11_KNOWLEDGE/architecture/THE_LIVING_STACK_A_COMPREHENSIVE_SCIENTIFIC_ARCHITECTURE_THESIS_EXPANDED`
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -115,9 +115,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]] · [[11_KNOWLEDGE/05_FRAMEWORKS/UBA_UNIVERSAL_BIOLOGICAL_ARCHITECTURE|UBA_UNIVERSAL_BIOLOGICAL_ARCHITECTURE]] · [[11_KNOWLEDGE/05_FRAMEWORKS/BIO_LOGICAL_COMPUTING|BIO_LOGICAL_COMPUTING]]
 
----
+______________________________________________________________________
+
 **MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]

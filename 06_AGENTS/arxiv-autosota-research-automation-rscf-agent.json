@@ -74,7 +74,7 @@
     "arxiv-autosota-research-automation-rscf"
   ],
   "depends_on_workflows": [
-    "arxiv-autosota-research-automation-rscf-workflow.md"
+    "amos-arxiv-autosota-research-automation-rscf-workflow.md"
   ],
   "epistemic_class": "AMOS_MODEL",
   "claim_ceiling": 0.95,

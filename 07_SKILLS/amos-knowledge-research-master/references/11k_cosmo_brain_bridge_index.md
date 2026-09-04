@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: 11k cosmo brain bridge index
 type: reference
 source: 07_SKILLS/amos-knowledge-research-master/references
 tags:
-- reference
-- amos-knowledge-research-master
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-knowledge-research-master
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -20,13 +23,11 @@ rscf:
 > Source: `/Users/mac/Documents/AMOS_OS/11_KNOWLEDGE/Cosmo_Brain_BRIDGE_INDEX.md`
 > Epistemic class: SOURCE_DERIVED
 
----
-canon-group: reference
-rscf-state: derived
-tags: [moc, index, bridge, cosmo-brain]
----
+______________________________________________________________________
 
-# Cosmo Brain Bridge Index
+## canon-group: reference rscf-state: derived tags: [moc, index, bridge, cosmo-brain]
+
+## Cosmo Brain Bridge Index
 
 > Bridge index linking AMOS_OS to the external Cosmo Brain vault (symlinked at `11_KNOWLEDGE/Cosmo_Brain/`).
 > The external vault has its own `.obsidian/` and MOC system under `docs/moc/`.
@@ -39,36 +40,36 @@ tags: [moc, index, bridge, cosmo-brain]
 
 ## Directory Summary
 
-| Directory | Files |
-|-----------|-------|
-| `docs/` | 2791 |
-| `_00_Cosmo brain/` | 2661 |
-| `.devin/` | 717 |
-| `apps/` | 701 |
-| `cosmo-brain/` | 402 |
-| `cosmo/` | 342 |
-| `designs/` | 310 |
-| `packages/` | 132 |
-| `supabase/` | 52 |
-| `scripts/` | 19 |
-| `prompt-exports/` | 12 |
-| `services/` | 12 |
-| `daily/` | 10 |
-| `references/` | 9 |
-| `.github/` | 8 |
-| `amos_adapter/` | 6 |
-| `md/` | 6 |
-| `_cosmo-brain-audit/` | 3 |
-| `e2e/` | 2 |
-| `levels/` | 1 |
-| *(top-level)* | 57 |
-| **Total** | **8253** |
+| Directory             | Files    |
+| --------------------- | -------- |
+| `docs/`               | 2791     |
+| `_00_Cosmo brain/`    | 2661     |
+| `.devin/`             | 717      |
+| `apps/`               | 701      |
+| `cosmo-brain/`        | 402      |
+| `cosmo/`              | 342      |
+| `designs/`            | 310      |
+| `packages/`           | 132      |
+| `supabase/`           | 52       |
+| `scripts/`            | 19       |
+| `prompt-exports/`     | 12       |
+| `services/`           | 12       |
+| `daily/`              | 10       |
+| `references/`         | 9        |
+| `.github/`            | 8        |
+| `amos_adapter/`       | 6        |
+| `md/`                 | 6        |
+| `_cosmo-brain-audit/` | 3        |
+| `e2e/`                | 2        |
+| `levels/`             | 1        |
+| *(top-level)*         | 57       |
+| **Total**             | **8253** |
 
 ## `docs/` (2791 files)
 
 ### `docs/brain/` (2481 files)
 
-- $$ — `docs/brain/$$.md`
+- $$ — `docs/brain/$$.md\`
 - 0.Universe_Logic_Kernel-ULK.ulmk — `docs/brain/0.Universe_Logic_Kernel-ULK.ulmk.md`
 - 00_AMOS_Full_Brain_OS_Architecture — `docs/brain/00_AMOS_Full_Brain_OS_Architecture.md`
 - 00_Cosmo_Brain_MOC — `docs/brain/00_Cosmo_Brain_MOC.md`
@@ -97,15 +98,17 @@ tags: [moc, index, bridge, cosmo-brain]
 - 2026-08-22 AMOS All 249 Gaps Closed — `docs/brain/2026-08-22 AMOS All 249 Gaps Closed.md`
 - 2026-08-22 AMOS Canon Cryptographic Infrastructure — `docs/brain/2026-08-22 AMOS Canon Cryptographic Infrastructure.md`
 - 2026-08-22 AMOS Cognitive Architecture Matrix Governance — `docs/brain/2026-08-22 AMOS Cognitive Architecture Matrix Governance.md`
-- 2026-08-22 AMOS Cognitive Architecture Matrix — `docs/brain/2026-08-22
+- 2026-08-22 AMOS Cognitive Architecture Matrix — \`docs/brain/2026-08-22
 
----
+______________________________________________________________________
+
 **MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -113,12 +116,14 @@ tags: [moc, index, bridge, cosmo-brain]
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-knowledge-research-master-11k-cosmo-brain-bridge-index
 node_type: reference
 path: 07_SKILLS/amos-knowledge-research-master/references/11k_cosmo_brain_bridge_index.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

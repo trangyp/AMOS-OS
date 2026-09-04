@@ -74,7 +74,7 @@
     "arxiv-grouped-query-attention-rscf"
   ],
   "depends_on_workflows": [
-    "arxiv-grouped-query-attention-rscf-workflow.md"
+    "amos-arxiv-grouped-query-attention-rscf-workflow.md"
   ],
   "epistemic_class": "AMOS_MODEL",
   "claim_ceiling": 0.95,

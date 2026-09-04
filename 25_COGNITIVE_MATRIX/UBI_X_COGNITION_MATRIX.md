@@ -12,42 +12,42 @@ segment: 25_COGNITIVE_MATRIX
 artifact_kind: MATRIX_TABLE
 path: 25_COGNITIVE_MATRIX/UBI_X_COGNITION_MATRIX.md
 tags:
-- amos-os
-- cognitive-matrix
-- vault
-- ubi_x_cognition_matrix
-- matrix_table
-- ubi
-- cognition
-- biological_signal
-- threshold_routing
-- working_memory
-- tone_filter
-- execution_throttle
-- gamma_clock
-- nbi
-- nei
-- si
-- bei
-- rscf
-- canon_candidate
-- canon/matrix
-- ubi-x-cognition
-- ubi-cognition-binding
-- k-mvcc
-- k-atomic-multi-rscf
-- validation
-- memory
-- signals
-- total-framework-matrix
-- total-kernel-matrix
-- total-canon-matrix
-- k-rscf
-- k-hml
-- k-provenance
-- k-fail-closed
-- k-governed-evolution
-- amos-core-v4-4
+  - amos-os
+  - cognitive-matrix
+  - vault
+  - ubi_x_cognition_matrix
+  - matrix_table
+  - ubi
+  - cognition
+  - biological_signal
+  - threshold_routing
+  - working_memory
+  - tone_filter
+  - execution_throttle
+  - gamma_clock
+  - nbi
+  - nei
+  - si
+  - bei
+  - rscf
+  - canon_candidate
+  - canon/matrix
+  - ubi-x-cognition
+  - ubi-cognition-binding
+  - k-mvcc
+  - k-atomic-multi-rscf
+  - validation
+  - memory
+  - signals
+  - total-framework-matrix
+  - total-kernel-matrix
+  - total-canon-matrix
+  - k-rscf
+  - k-hml
+  - k-provenance
+  - k-fail-closed
+  - k-governed-evolution
+  - amos-core-v4-4
 version: 2.0.0
 updated: '2026-08-28'
 status: ACTIVE_REFERENCE
@@ -59,10 +59,10 @@ executable_binding: ESTABLISHED
 framework_binding:
   matrix_spec:
     artifact:
-    - - UBI_X_COGNITION
+      -   - UBI_X_COGNITION
   knowledge_binding:
     artifact:
-    - - UBI_COGNITION_BINDING
+      -   - UBI_COGNITION_BINDING
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   matrix_structure: VERIFIED_SOURCE_STRUCTURE
@@ -121,9 +121,9 @@ $$
 
 The supplied artifact does not itself contain the relevant implementation, tests, biological measurement protocol, calibration dataset, or execution traces.
 
----
+______________________________________________________________________
 
-# 1. Canonical Matrix
+## 1. Canonical Matrix
 
 | Biological Signal            | Cognitive Target Engine       | Operational Threshold     | Enforcement Action                      |
 | ---------------------------- | ----------------------------- | ------------------------- | --------------------------------------- |
@@ -132,9 +132,9 @@ The supplied artifact does not itself contain the relevant implementation, tests
 | **SI (Somatic)**             | Execution Throttle            | (\\text{Fatigue}>0.75)    | Batch Rate Limiting & Queue Delay       |
 | **BEI (Bioelectromagnetic)** | 40Hz Gamma Clock Synchronizer | (\\text{Coherence}\<0.70) | Agent Resynchronization Pulse           |
 
----
+______________________________________________________________________
 
-# 2. Matrix Cardinality
+## 2. Matrix Cardinality
 
 The supplied table contains exactly four rows:
 
@@ -157,9 +157,9 @@ This establishes the four signal classes represented **by this artifact**.
 
 It does not, by itself, prove that no additional UBI signal class exists elsewhere in the corpus.
 
----
+______________________________________________________________________
 
-# 3. Row Schema
+## 3. Row Schema
 
 Each row has four principal dimensions:
 
@@ -183,9 +183,9 @@ $$
 
 This notation is **DERIVED normalization**.
 
----
+______________________________________________________________________
 
-# 4. Canonical Routing Function
+## 4. Canonical Routing Function
 
 The matrix can be represented structurally as:
 
@@ -207,9 +207,9 @@ This is a **DERIVED formalization** of the table structure.
 
 The artifact does not explicitly define a function named (\\mathcal R\_{UBI\\to COG}).
 
----
+______________________________________________________________________
 
-# 5. Threshold Direction Is Load-Bearing
+## 5. Threshold Direction Is Load-Bearing
 
 Two rows activate above a threshold:
 
@@ -233,9 +233,9 @@ $$
 
 Therefore operator direction must be preserved exactly.
 
----
+______________________________________________________________________
 
-# 6. Strict Inequality Firewall
+## 6. Strict Inequality Firewall
 
 All four supplied thresholds use strict inequalities.
 
@@ -289,9 +289,9 @@ $$
 
 unless another authoritative source specifies boundary handling.
 
----
+______________________________________________________________________
 
-# 7. Threshold ≠ Measurement Definition
+## 7. Threshold ≠ Measurement Definition
 
 The table gives numerical thresholds.
 
@@ -307,9 +307,9 @@ $$
 
 The operational meaning of the threshold remains dependent on the corresponding signal definition and binding.
 
----
+______________________________________________________________________
 
-# 8. Threshold ≠ Empirical Clinical Cutoff
+## 8. Threshold ≠ Empirical Clinical Cutoff
 
 Nothing in this artifact independently establishes that:
 
@@ -320,9 +320,9 @@ Nothing in this artifact independently establishes that:
 
 They are source-defined AMOS model thresholds unless external empirical validation is supplied.
 
----
+______________________________________________________________________
 
-# 9. Normalization Gap
+## 9. Normalization Gap
 
 The numerical values suggest normalized variables, but the artifact does not explicitly provide:
 
@@ -350,9 +350,9 @@ merely from the displayed values.
 
 Those ranges remain **UNKNOWN/GAP**.
 
----
+______________________________________________________________________
 
-# 10. NBI — Neurobiological
+## 10. NBI — Neurobiological
 
 ```yaml
 NBI:
@@ -373,9 +373,9 @@ NBI:
     - CACHE_EVICTION
 ```
 
----
+______________________________________________________________________
 
-# 11. NBI Trigger
+## 11. NBI Trigger
 
 The source-defined trigger is:
 
@@ -393,9 +393,9 @@ The enforcement action is:
 
 `Context Compaction & Cache Eviction`.
 
----
+______________________________________________________________________
 
-# 12. NBI Operational Chain
+## 12. NBI Operational Chain
 
 A faithful structural representation is:
 
@@ -423,9 +423,9 @@ CACHE EVICTION
 
 This is a **DERIVED control-flow representation** of the row.
 
----
+______________________________________________________________________
 
-# 13. NBI Non-Trigger Boundary
+## 13. NBI Non-Trigger Boundary
 
 The artifact defines what happens when:
 
@@ -445,9 +445,9 @@ Therefore the safe interpretation is:
 
 Do not invent an inverse action.
 
----
+______________________________________________________________________
 
-# 14. Working Memory Terminology Firewall
+## 14. Working Memory Terminology Firewall
 
 `Working Memory Allocator` is a source-defined AMOS cognitive target.
 
@@ -455,9 +455,9 @@ It must not automatically be treated as literal biological human working memory.
 
 The artifact maps a signal class into an AMOS cognitive-engine target.
 
----
+______________________________________________________________________
 
-# 15. Context Compaction
+## 15. Context Compaction
 
 The action explicitly contains:
 
@@ -474,9 +474,9 @@ The artifact does not specify:
 
 Those are lower-level dependencies.
 
----
+______________________________________________________________________
 
-# 16. Cache Eviction
+## 16. Cache Eviction
 
 The source additionally requires:
 
@@ -492,9 +492,9 @@ The artifact does not define:
 
 Therefore exact implementation remains unresolved.
 
----
+______________________________________________________________________
 
-# 17. Context Compaction ≠ Evidence Deletion
+## 17. Context Compaction ≠ Evidence Deletion
 
 Do not infer that context compaction authorizes deletion of load-bearing evidence.
 
@@ -502,9 +502,9 @@ Within AMOS integrity constraints, any implementation would still need to preser
 
 The source row itself does not specify that mechanism.
 
----
+______________________________________________________________________
 
-# 18. NEI — Neuroemotional
+## 18. NEI — Neuroemotional
 
 ```yaml
 NEI:
@@ -524,9 +524,9 @@ NEI:
     P3_SAFETY_COMMUNICATION_MASK_ACTIVATION
 ```
 
----
+______________________________________________________________________
 
-# 19. NEI Trigger
+## 19. NEI Trigger
 
 The source-defined condition is:
 
@@ -544,9 +544,9 @@ Action:
 
 `P3 Safety Communication Mask Activation`.
 
----
+______________________________________________________________________
 
-# 20. NEI Operational Chain
+## 20. NEI Operational Chain
 
 ```text
 NEI
@@ -571,9 +571,9 @@ ACTIVATION
 
 This is **DERIVED** from the supplied row.
 
----
+______________________________________________________________________
 
-# 21. Negative Valence ≠ Human Diagnosis
+## 21. Negative Valence ≠ Human Diagnosis
 
 The source uses a variable named `Valence`.
 
@@ -586,9 +586,9 @@ It does not establish that this is:
 
 Those interpretations would exceed the artifact.
 
----
+______________________________________________________________________
 
-# 22. P3 Meaning Gap
+## 22. P3 Meaning Gap
 
 The artifact names:
 
@@ -613,9 +613,9 @@ P3:
 
 if exact P3 semantics become load-bearing.
 
----
+______________________________________________________________________
 
-# 23. Safety Communication Mask ≠ Content Suppression by Default
+## 23. Safety Communication Mask ≠ Content Suppression by Default
 
 The phrase `Safety Communication Mask` establishes a source-defined communication control.
 
@@ -630,9 +630,9 @@ It does not specify:
 
 Exact semantics require its authoritative specification.
 
----
+______________________________________________________________________
 
-# 24. SI — Somatic
+## 24. SI — Somatic
 
 ```yaml
 SI:
@@ -653,9 +653,9 @@ SI:
     - QUEUE_DELAY
 ```
 
----
+______________________________________________________________________
 
-# 25. SI Trigger
+## 25. SI Trigger
 
 The source-defined trigger is:
 
@@ -673,9 +673,9 @@ Enforcement:
 
 `Batch Rate Limiting & Queue Delay`.
 
----
+______________________________________________________________________
 
-# 26. SI Operational Chain
+## 26. SI Operational Chain
 
 ```text
 SI
@@ -698,9 +698,9 @@ EXECUTION THROTTLE
       └── QUEUE DELAY
 ```
 
----
+______________________________________________________________________
 
-# 27. Fatigue Semantic Firewall
+## 27. Fatigue Semantic Firewall
 
 The matrix does not establish whether `Fatigue` represents:
 
@@ -712,9 +712,9 @@ The matrix does not establish whether `Fatigue` represents:
 
 Its exact semantics belong to the UBI specification/binding.
 
----
+______________________________________________________________________
 
-# 28. Throttling ≠ Halt
+## 28. Throttling ≠ Halt
 
 The action is:
 
@@ -734,9 +734,9 @@ $$
 
 within this source row.
 
----
+______________________________________________________________________
 
-# 29. Queue Delay ≠ Cancellation
+## 29. Queue Delay ≠ Cancellation
 
 Likewise:
 
@@ -748,17 +748,17 @@ $$
 
 unless a lower-level execution specification says otherwise.
 
----
+______________________________________________________________________
 
-# 30. SI Represents Degradation Control
+## 30. SI Represents Degradation Control
 
 At structural level, the row reduces execution rate under its source-defined fatigue condition rather than specifying immediate termination.
 
 This is a **DERIVED architectural characterization**.
 
----
+______________________________________________________________________
 
-# 31. BEI — Bioelectromagnetic
+## 31. BEI — Bioelectromagnetic
 
 ```yaml
 BEI:
@@ -778,9 +778,9 @@ BEI:
     AGENT_RESYNCHRONIZATION_PULSE
 ```
 
----
+______________________________________________________________________
 
-# 32. BEI Trigger
+## 32. BEI Trigger
 
 The source-defined condition is:
 
@@ -798,9 +798,9 @@ Action:
 
 `Agent Resynchronization Pulse`.
 
----
+______________________________________________________________________
 
-# 33. BEI Operational Chain
+## 33. BEI Operational Chain
 
 ```text
 BEI
@@ -822,9 +822,9 @@ Coherence < 0.70 ?
 AGENT RESYNCHRONIZATION PULSE
 ```
 
----
+______________________________________________________________________
 
-# 34. 40Hz Source Boundary
+## 34. 40Hz Source Boundary
 
 The source explicitly names:
 
@@ -841,9 +841,9 @@ But the artifact does not independently establish that:
 
 Those would require separately typed evidence.
 
----
+______________________________________________________________________
 
-# 35. Bioelectromagnetic ≠ Electromagnetic Causation
+## 35. Bioelectromagnetic ≠ Electromagnetic Causation
 
 The label `Bioelectromagnetic` does not itself prove a causal electromagnetic mechanism.
 
@@ -855,9 +855,9 @@ $$
 
 The source class should remain an **AMOS_MODEL** unless empirically validated.
 
----
+______________________________________________________________________
 
-# 36. Coherence Semantic Gap
+## 36. Coherence Semantic Gap
 
 The artifact does not define `Coherence`.
 
@@ -873,9 +873,9 @@ Required details include:
 - baseline;
 - noise handling.
 
----
+______________________________________________________________________
 
-# 37. Resynchronization Pulse ≠ Physical Pulse by Default
+## 37. Resynchronization Pulse ≠ Physical Pulse by Default
 
 `Agent Resynchronization Pulse` is source terminology.
 
@@ -889,9 +889,9 @@ The artifact does not establish whether `pulse` means:
 
 Preserve the term without inventing implementation semantics.
 
----
+______________________________________________________________________
 
-# 38. Four-Channel Structural Model
+## 38. Four-Channel Structural Model
 
 The complete table can be normalized as:
 
@@ -929,9 +929,9 @@ UBI_X_COGNITION:
       - Agent_Resynchronization_Pulse
 ```
 
----
+______________________________________________________________________
 
-# 39. Functional Partition
+## 39. Functional Partition
 
 The four target engines span four distinct operational functions:
 
@@ -947,9 +947,9 @@ BEI ──> SYNCHRONIZATION
 
 This is a **DERIVED functional classification**.
 
----
+______________________________________________________________________
 
-# 40. Distinct Signals ≠ Independent Signals
+## 40. Distinct Signals ≠ Independent Signals
 
 The four rows are structurally distinct.
 
@@ -966,17 +966,17 @@ DistinctVariables
 IndependentVariables
 $$
 
----
+______________________________________________________________________
 
-# 41. Correlation Risk
+## 41. Correlation Risk
 
 If the four quantities are derived from shared observations or common upstream state, simultaneous threshold crossings may represent correlated evidence rather than four independent signals.
 
 Their provenance topology must be inspected before treating them as independent confirmation.
 
----
+______________________________________________________________________
 
-# 42. Signal Identity ≠ Measurement Independence
+## 42. Signal Identity ≠ Measurement Independence
 
 Even if NBI, NEI, SI, and BEI have separate labels:
 
@@ -988,9 +988,9 @@ $$
 
 Independent ancestry must be demonstrated.
 
----
+______________________________________________________________________
 
-# 43. Threshold Crossing ≠ Causation
+## 43. Threshold Crossing ≠ Causation
 
 The table defines routing rules:
 
@@ -1012,9 +1012,9 @@ $$
 
 as an independently validated causal relationship.
 
----
+______________________________________________________________________
 
-# 44. Trigger ≠ Explanation
+## 44. Trigger ≠ Explanation
 
 For example:
 
@@ -1026,9 +1026,9 @@ can trigger context compaction in the source model without proving that high neu
 
 Operational routing and causal explanation are different claim types.
 
----
+______________________________________________________________________
 
-# 45. Measurement ≠ Ground Truth
+## 45. Measurement ≠ Ground Truth
 
 Even if a signal value is measured:
 
@@ -1040,9 +1040,9 @@ $$
 
 unless measurement validity and error bounds are established.
 
----
+______________________________________________________________________
 
-# 46. Threshold Sensitivity
+## 46. Threshold Sensitivity
 
 Each row contains a decision boundary.
 
@@ -1064,21 +1064,21 @@ Likewise for the other three thresholds.
 
 Therefore near-boundary classifications are potentially fragile unless measurement uncertainty is defined.
 
----
+______________________________________________________________________
 
-# 47. Measurement Error Gap
+## 47. Measurement Error Gap
 
 Suppose a metric has uncertainty (\\epsilon).
 
-Then near a threshold \(T\), a robust trigger requires sufficient separation from \(T\).
+Then near a threshold (T), a robust trigger requires sufficient separation from (T).
 
 The artifact supplies no (\\epsilon).
 
 Therefore exact robustness near threshold remains **UNKNOWN/GAP**.
 
----
+______________________________________________________________________
 
-# 48. No Hysteresis Specified
+## 48. No Hysteresis Specified
 
 The matrix does not define separate activation and deactivation thresholds.
 
@@ -1086,9 +1086,9 @@ Therefore no hysteresis mechanism can be assumed.
 
 This matters because noisy signals near a threshold could otherwise produce repeated toggling.
 
----
+______________________________________________________________________
 
-# 49. No Debounce Window Specified
+## 49. No Debounce Window Specified
 
 The source does not state whether a threshold must persist for:
 
@@ -1099,17 +1099,17 @@ The source does not state whether a threshold must persist for:
 
 Therefore temporal debounce semantics remain unresolved.
 
----
+______________________________________________________________________
 
-# 50. No Sampling Frequency Specified
+## 50. No Sampling Frequency Specified
 
 Except for `40Hz` appearing in the name of the BEI target, the artifact does not establish signal sampling rates.
 
 Do not infer that all UBI metrics operate at 40 Hz.
 
----
+______________________________________________________________________
 
-# 51. No Priority Order Specified
+## 51. No Priority Order Specified
 
 The table order:
 
@@ -1130,9 +1130,9 @@ RowOrder
 EnforcementPriority
 $$
 
----
+______________________________________________________________________
 
-# 52. No Execution Order Specified
+## 52. No Execution Order Specified
 
 If multiple thresholds cross simultaneously, the artifact does not state whether actions execute:
 
@@ -1144,17 +1144,17 @@ If multiple thresholds cross simultaneously, the artifact does not state whether
 
 This is a material integration gap.
 
----
+______________________________________________________________________
 
-# 53. No Mutual Exclusion Specified
+## 53. No Mutual Exclusion Specified
 
 The source does not state that only one signal can trigger at a time.
 
 Therefore simultaneous activation is structurally possible unless the binding says otherwise.
 
----
+______________________________________________________________________
 
-# 54. Multi-Trigger State
+## 54. Multi-Trigger State
 
 A derived multi-trigger representation is:
 
@@ -1164,13 +1164,13 @@ $$
 \{A_i\mid T_i(x_i)=TRUE\}
 $$
 
-where multiple \(A_i\) may coexist.
+where multiple (A_i) may coexist.
 
 This is **DERIVED** and requires the binding to determine actual runtime semantics.
 
----
+______________________________________________________________________
 
-# 55. Example: NBI + SI
+## 55. Example: NBI + SI
 
 If:
 
@@ -1191,9 +1191,9 @@ the source rows independently map to:
 
 The artifact does not define whether these actions conflict or compose.
 
----
+______________________________________________________________________
 
-# 56. Example: NEI + SI
+## 56. Example: NEI + SI
 
 If:
 
@@ -1214,9 +1214,9 @@ the source rows map to:
 
 Again, no arbitration rule is supplied.
 
----
+______________________________________________________________________
 
-# 57. Example: All Four
+## 57. Example: All Four
 
 If all four predicates are true, the table structurally yields four enforcement mappings.
 
@@ -1230,9 +1230,9 @@ $$
 
 The framework binding must define joint behavior.
 
----
+______________________________________________________________________
 
-# 58. Atomicity Gap
+## 58. Atomicity Gap
 
 The matrix does not state whether multi-trigger enforcement is atomic.
 
@@ -1248,9 +1248,9 @@ MULTI_TRIGGER_ATOMICITY:
     UNKNOWN_GAP
 ```
 
----
+______________________________________________________________________
 
-# 59. Conflict Resolution Gap
+## 59. Conflict Resolution Gap
 
 The matrix does not specify what happens if one action affects the input or execution conditions of another.
 
@@ -1263,9 +1263,9 @@ For example:
 
 Cross-action dependencies must not be invented.
 
----
+______________________________________________________________________
 
-# 60. Feedback Possibility
+## 60. Feedback Possibility
 
 Because enforcement actions can plausibly change system state, a feedback topology is structurally possible:
 
@@ -1281,9 +1281,9 @@ $$
 
 This is a **MODEL-level derived possibility**, not an explicit source claim.
 
----
+______________________________________________________________________
 
-# 61. Feedback ≠ Proven Feedback Loop
+## 61. Feedback ≠ Proven Feedback Loop
 
 The matrix alone does not establish that enforcement actions actually alter their corresponding UBI signals.
 
@@ -1295,9 +1295,9 @@ PossibleFeedback
 VerifiedFeedback
 $$
 
----
+______________________________________________________________________
 
-# 62. Stabilization ≠ Guaranteed
+## 62. Stabilization ≠ Guaranteed
 
 A threshold action might:
 
@@ -1310,17 +1310,17 @@ The source does not specify the response function.
 
 Therefore stability cannot be inferred.
 
----
+______________________________________________________________________
 
-# 63. Oscillation Risk
+## 63. Oscillation Risk
 
 Without hysteresis, temporal filtering, or response dynamics, threshold-based controllers can theoretically oscillate around decision boundaries.
 
 This is a generic control-system concern, not evidence that AMOS does oscillate.
 
----
+______________________________________________________________________
 
-# 64. Cross-Plane Meaning
+## 64. Cross-Plane Meaning
 
 The title calls the artifact a:
 
@@ -1340,19 +1340,19 @@ CONTROL / ENFORCEMENT ACTION
 
 Exact source/target plane identifiers beyond `25_COGNITIVE_MATRIX` are not enumerated in the table itself.
 
----
+______________________________________________________________________
 
-# 65. Cross-Plane ≠ Cross-Plane Atomicity
+## 65. Cross-Plane ≠ Cross-Plane Atomicity
 
 The presence of a cross-plane mapping does not establish atomic transaction semantics.
 
-That would require a binding to mechanisms such as `` or another authoritative protocol.
+That would require a binding to mechanisms such as \`\` or another authoritative protocol.
 
 No such binding is explicitly supplied here.
 
----
+______________________________________________________________________
 
-# 66. UBI × Kernel Matrix Boundary
+## 66. UBI × Kernel Matrix Boundary
 
 The Total Kernel Matrix previously did not contain a dedicated UBI row.
 
@@ -1368,9 +1368,9 @@ $$
 
 from this artifact alone.
 
----
+______________________________________________________________________
 
-# 67. Potential Kernel Dependencies Must Not Be Invented
+## 67. Potential Kernel Dependencies Must Not Be Invented
 
 It may be tempting to associate:
 
@@ -1383,15 +1383,15 @@ Those are plausible architectural hypotheses.
 
 They are **not source-established by this artifact**.
 
-Retrieve `` before asserting them.
+Retrieve \`\` before asserting them.
 
----
+______________________________________________________________________
 
-# 68. [[25_COGNITIVE_MATRIX/UBI_X_COGNITION|UBI_X_COGNITION]] Specification
+## 68. [[25_COGNITIVE_MATRIX/UBI_X_COGNITION|UBI_X_COGNITION]] Specification
 
 The Connections section explicitly identifies:
 
-``
+\`\`
 
 as:
 
@@ -1399,13 +1399,13 @@ as:
 
 Therefore this is a first-order dependency for exact semantics of the matrix.
 
----
+______________________________________________________________________
 
-# 69. [[11_KNOWLEDGE/05_FRAMEWORKS/UBI_COGNITION_BINDING|UBI_COGNITION_BINDING]]
+## 69. [[11_KNOWLEDGE/05_FRAMEWORKS/UBI_COGNITION_BINDING|UBI_COGNITION_BINDING]]
 
 The artifact explicitly identifies:
 
-``
+\`\`
 
 as:
 
@@ -1419,19 +1419,19 @@ This should be the preferred source for resolving:
 - multi-trigger arbitration;
 - enforcement semantics.
 
----
+______________________________________________________________________
 
-# 70. Cognitive Matrix MOC
+## 70. Cognitive Matrix MOC
 
 The artifact explicitly links:
 
-``.
+\`\`.
 
 Therefore the matrix belongs to the Cognitive Matrix plane's navigational/canonical structure.
 
----
+______________________________________________________________________
 
-# 71. Signal Registry
+## 71. Signal Registry
 
 ```yaml
 SIGNAL_REGISTRY:
@@ -1493,9 +1493,9 @@ SIGNAL_REGISTRY:
       0.70
 ```
 
----
+______________________________________________________________________
 
-# 72. Cognitive Target Registry
+## 72. Cognitive Target Registry
 
 ```yaml
 COGNITIVE_TARGET_REGISTRY:
@@ -1517,9 +1517,9 @@ COGNITIVE_TARGET_REGISTRY:
       BEI
 ```
 
----
+______________________________________________________________________
 
-# 73. Enforcement Registry
+## 73. Enforcement Registry
 
 ```yaml
 ENFORCEMENT_REGISTRY:
@@ -1539,9 +1539,9 @@ ENFORCEMENT_REGISTRY:
     - AGENT_RESYNCHRONIZATION_PULSE
 ```
 
----
+______________________________________________________________________
 
-# 74. Action Cardinality
+## 74. Action Cardinality
 
 Two rows specify paired actions:
 
@@ -1557,9 +1557,9 @@ Thus the source contains six named action components if compound phrases are dec
 
 That count is **DERIVED**, not a separate source declaration.
 
----
+______________________________________________________________________
 
-# 75. Ampersand Semantics
+## 75. Ampersand Semantics
 
 The source uses:
 
@@ -1581,9 +1581,9 @@ $$
 
 should not automatically be upgraded to transactional atomicity.
 
----
+______________________________________________________________________
 
-# 76. Trigger Function Registry
+## 76. Trigger Function Registry
 
 A normalized predicate set is:
 
@@ -1605,9 +1605,9 @@ $$
 
 This is a **DERIVED mathematical normalization**.
 
----
+______________________________________________________________________
 
-# 77. Activation Vector
+## 77. Activation Vector
 
 The complete trigger state can be represented:
 
@@ -1625,9 +1625,9 @@ where each element is Boolean.
 
 This representation is **DERIVED** and useful for cross-trigger reasoning.
 
----
+______________________________________________________________________
 
-# 78. Possible Trigger-State Count
+## 78. Possible Trigger-State Count
 
 With four Boolean threshold predicates:
 
@@ -1641,9 +1641,9 @@ This does **not** mean all sixteen states are reachable in the actual UBI model.
 
 Reachability depends on signal constraints not supplied here.
 
----
+______________________________________________________________________
 
-# 79. No Joint-State Constraints Supplied
+## 79. No Joint-State Constraints Supplied
 
 The artifact does not state whether certain combinations are impossible.
 
@@ -1661,9 +1661,9 @@ $$
 
 Therefore joint-state reachability remains unknown.
 
----
+______________________________________________________________________
 
-# 80. No Signal Dynamics Supplied
+## 80. No Signal Dynamics Supplied
 
 The matrix is essentially static.
 
@@ -1677,25 +1677,25 @@ for any of the four biological metrics.
 
 Thus dynamic prediction is outside this artifact.
 
----
+______________________________________________________________________
 
-# 81. No Recovery Thresholds Supplied
+## 81. No Recovery Thresholds Supplied
 
 The table defines activation thresholds but not explicit recovery/deactivation thresholds.
 
 Therefore exact return-to-normal behavior is a gap.
 
----
+______________________________________________________________________
 
-# 82. No Fallback Column
+## 82. No Fallback Column
 
 Unlike the Total Kernel Matrix, this artifact contains no explicit `Fail-Closed Fallback` column.
 
 Therefore do not invent per-row fallback behavior.
 
----
+______________________________________________________________________
 
-# 83. Enforcement ≠ Fail-Closed Fallback
+## 83. Enforcement ≠ Fail-Closed Fallback
 
 The enforcement action is what the source says occurs after the threshold predicate.
 
@@ -1707,9 +1707,9 @@ For example:
 
 is an enforcement action, not explicitly a failure-recovery action.
 
----
+______________________________________________________________________
 
-# 84. No Ground-State Reset Specified
+## 84. No Ground-State Reset Specified
 
 Nothing in this artifact directly maps UBI threshold crossings to:
 
@@ -1719,9 +1719,9 @@ $$
 
 Therefore a UBI trigger should not automatically cause ground-state reset.
 
----
+______________________________________________________________________
 
-# 85. No Halt Specified
+## 85. No Halt Specified
 
 No row states:
 
@@ -1737,9 +1737,9 @@ $$
 
 from this matrix alone.
 
----
+______________________________________________________________________
 
-# 86. No Rollback Specified
+## 86. No Rollback Specified
 
 No row states rollback.
 
@@ -1753,25 +1753,25 @@ $$
 
 unless the binding supplies that behavior.
 
----
+______________________________________________________________________
 
-# 87. No Causal Kernel Binding Specified
+## 87. No Causal Kernel Binding Specified
 
 The artifact does not explicitly bind its biological labels or thresholds to QCLA.
 
 Therefore biological terminology does not automatically license causal conclusions.
 
----
+______________________________________________________________________
 
-# 88. No Provenance Fields Per Measurement
+## 88. No Provenance Fields Per Measurement
 
 The artifact has document-level source provenance through its framework binding, but no per-observation provenance schema is shown for actual `Load`, `Valence`, `Fatigue`, or `Coherence` values.
 
 This matters for runtime evidence.
 
----
+______________________________________________________________________
 
-# 89. Runtime Observation Requirements
+## 89. Runtime Observation Requirements
 
 A runtime observation should conceptually carry:
 
@@ -1809,9 +1809,9 @@ UBI_OBSERVATION:
 
 This is a **DERIVED evidence schema**, not source text.
 
----
+______________________________________________________________________
 
-# 90. Freshness Boundary
+## 90. Freshness Boundary
 
 Biological/cognitive signals are potentially time-varying.
 
@@ -1821,9 +1821,9 @@ The artifact itself does not define freshness bounds.
 
 That remains an implementation gap.
 
----
+______________________________________________________________________
 
-# 91. Scope Boundary
+## 91. Scope Boundary
 
 A threshold calibrated for one:
 
@@ -1837,25 +1837,25 @@ must not automatically be generalized to another.
 
 The artifact does not provide the calibration envelope.
 
----
+______________________________________________________________________
 
-# 92. Regime Shift Boundary
+## 92. Regime Shift Boundary
 
 If measurement method, baseline, runtime configuration, or operating environment changes, previously calibrated thresholds may require revalidation.
 
 This is a **derived governance requirement**, not evidence that the thresholds are invalid.
 
----
+______________________________________________________________________
 
-# 93. Personal-Biology Firewall
+## 93. Personal-Biology Firewall
 
 The artifact's use of biological terminology must not be treated as evidence about any particular person's health, neurological state, emotional state, fatigue, or electromagnetic physiology.
 
 Individual application would require actual appropriately governed measurements and validation.
 
----
+______________________________________________________________________
 
-# 94. Model ≠ Medical System
+## 94. Model ≠ Medical System
 
 The artifact is explicitly:
 
@@ -1871,9 +1871,9 @@ It should not be promoted into:
 
 without independent evidence.
 
----
+______________________________________________________________________
 
-# 95. NBI Causal Firewall
+## 95. NBI Causal Firewall
 
 Do not infer:
 
@@ -1893,9 +1893,9 @@ $$
 
 The source only supplies an AMOS routing threshold.
 
----
+______________________________________________________________________
 
-# 96. NEI Causal Firewall
+## 96. NEI Causal Firewall
 
 Do not infer:
 
@@ -1907,9 +1907,9 @@ $$
 
 The source only supplies a communication-control trigger.
 
----
+______________________________________________________________________
 
-# 97. SI Causal Firewall
+## 97. SI Causal Firewall
 
 Do not infer:
 
@@ -1921,9 +1921,9 @@ $$
 
 The exact metric is undefined here.
 
----
+______________________________________________________________________
 
-# 98. BEI Causal Firewall
+## 98. BEI Causal Firewall
 
 Do not infer:
 
@@ -1935,9 +1935,9 @@ $$
 
 The source does not establish such a measurement interpretation.
 
----
+______________________________________________________________________
 
-# 99. 40 Hz Causal Firewall
+## 99. 40 Hz Causal Firewall
 
 Do not infer:
 
@@ -1959,9 +1959,9 @@ from this artifact.
 
 The number appears in the target engine's source-defined name.
 
----
+______________________________________________________________________
 
-# 100. Threshold Confidence Ceiling
+## 100. Threshold Confidence Ceiling
 
 Without measurement definitions and calibration evidence, confidence in a threshold-trigger decision cannot exceed confidence in:
 
@@ -1989,9 +1989,9 @@ $$
 
 This is a **DERIVED AMOS-compatible confidence ceiling**.
 
----
+______________________________________________________________________
 
-# 101. Weakest-Premise Rule
+## 101. Weakest-Premise Rule
 
 A numerically precise value does not overcome uncertainty in its meaning.
 
@@ -2003,9 +2003,9 @@ $$
 
 cannot robustly establish the NBI trigger if it is unknown whether `Load` is measured on the source-defined scale.
 
----
+______________________________________________________________________
 
-# 102. Provenance Independence Rule
+## 102. Provenance Independence Rule
 
 Suppose Load and Fatigue are both derived from one upstream measurement.
 
@@ -2013,9 +2013,9 @@ Then simultaneous NBI and SI triggers are correlated descendants.
 
 They should not be counted as two independent confirmations of system stress.
 
----
+______________________________________________________________________
 
-# 103. Multi-Signal Evidence Topology
+## 103. Multi-Signal Evidence Topology
 
 ```text
 RAW OBSERVATION
@@ -2035,9 +2035,9 @@ $$
 
 This is an illustrative provenance model, not a claim that the actual implementation shares ancestry.
 
----
+______________________________________________________________________
 
-# 104. Strongest Supported Runtime Conclusion
+## 104. Strongest Supported Runtime Conclusion
 
 Given a valid, fresh, correctly calibrated observation crossing one source-defined threshold, the strongest conclusion licensed by this matrix is:
 
@@ -2047,9 +2047,9 @@ It is not:
 
 > The underlying biological mechanism has been independently proven.
 
----
+______________________________________________________________________
 
-# 105. NBI Sensitivity Test
+## 105. NBI Sensitivity Test
 
 The decision-changing premise is:
 
@@ -2061,9 +2061,9 @@ The cheapest discriminating check is therefore whether the source-valid `Load` m
 
 Background biological theory is unnecessary if the operational decision only depends on that predicate and its measurement validity.
 
----
+______________________________________________________________________
 
-# 106. NEI Sensitivity Test
+## 106. NEI Sensitivity Test
 
 The decisive predicate is:
 
@@ -2073,9 +2073,9 @@ $$
 
 Near (-0.60), measurement uncertainty becomes load-bearing.
 
----
+______________________________________________________________________
 
-# 107. SI Sensitivity Test
+## 107. SI Sensitivity Test
 
 The decisive predicate is:
 
@@ -2085,9 +2085,9 @@ $$
 
 If the value is clearly below the threshold, deeper throttle analysis is unnecessary for that row.
 
----
+______________________________________________________________________
 
-# 108. BEI Sensitivity Test
+## 108. BEI Sensitivity Test
 
 The decisive predicate is:
 
@@ -2097,9 +2097,9 @@ $$
 
 Exact biological interpretation is not required merely to evaluate a valid source-defined metric, but it becomes essential if empirical biological claims are being made.
 
----
+______________________________________________________________________
 
-# 109. Fast Path
+## 109. Fast Path
 
 A local UBI routing fast path is appropriate when:
 
@@ -2125,9 +2125,9 @@ THE ACTION IS REVERSIBLE
 NO MEDICAL / SAFETY CLAIM IS BEING INFERRED
 ```
 
----
+______________________________________________________________________
 
-# 110. Escalation Conditions
+## 110. Escalation Conditions
 
 Escalate when:
 
@@ -2165,9 +2165,9 @@ RUNTIME EXECUTION IS CLAIMED
 CONSTITUTIONAL VALIDATION IS BEING AUDITED
 ```
 
----
+______________________________________________________________________
 
-# 111. Cheapest Discriminating Evidence
+## 111. Cheapest Discriminating Evidence
 
 When uncertainty is material, retrieve evidence in this order:
 
@@ -2197,9 +2197,9 @@ When uncertainty is material, retrieve evidence in this order:
 
 unless a higher-stakes claim requires earlier escalation.
 
----
+______________________________________________________________________
 
-# 112. H Capsule
+## 112. H Capsule
 
 ```yaml
 H:
@@ -2229,9 +2229,9 @@ H:
     2.0.0
 ```
 
----
+______________________________________________________________________
 
-# 113. M Capsule
+## 113. M Capsule
 
 ```yaml
 M:
@@ -2273,9 +2273,9 @@ M:
         - Agent_Resynchronization_Pulse
 ```
 
----
+______________________________________________________________________
 
-# 114. L Retrieval Capsule
+## 114. L Retrieval Capsule
 
 ```yaml
 L:
@@ -2347,9 +2347,9 @@ L:
       - failure_injection
 ```
 
----
+______________________________________________________________________
 
-# 115. Master Machine Representation
+## 115. Master Machine Representation
 
 ```yaml
 UBI_X_COGNITION_MATRIX:
@@ -2475,9 +2475,9 @@ UBI_X_COGNITION_MATRIX:
         - AGENT_RESYNCHRONIZATION_PULSE
 ```
 
----
+______________________________________________________________________
 
-# 116. RSCF Master Contract
+## 116. RSCF Master Contract
 
 ```yaml
 RSCF:
@@ -2549,9 +2549,9 @@ RSCF:
       UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 117. Proof Capsule
+## 117. Proof Capsule
 
 ```yaml
 PROOF_CAPSULE:
@@ -2677,9 +2677,9 @@ PROOF_CAPSULE:
       UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 118. Constitutional-Test Boundary
+## 118. Constitutional-Test Boundary
 
 The source declares:
 
@@ -2695,9 +2695,9 @@ The source-grounded conclusion is therefore:
 
 The complete test suite and results are not present in this artifact.
 
----
+______________________________________________________________________
 
-# 119. Executable-Binding Boundary
+## 119. Executable-Binding Boundary
 
 The source declares:
 
@@ -2718,9 +2718,9 @@ FROM THIS ARTIFACT ALONE:
 NOT ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 120. Independent Runtime Verification Requirements
+## 120. Independent Runtime Verification Requirements
 
 To independently verify the source-declared executable binding, retrieve:
 
@@ -2772,9 +2772,9 @@ RUNTIME TRACES
 FAILURE-INJECTION RESULTS
 ```
 
----
+______________________________________________________________________
 
-# 121. Independent Empirical Validation Requirements
+## 121. Independent Empirical Validation Requirements
 
 If the biological terminology is intended as an empirical claim rather than only an AMOS model, validation would additionally require:
 
@@ -2816,9 +2816,9 @@ TEMPORAL STABILITY
 FALSIFICATION CRITERIA
 ```
 
----
+______________________________________________________________________
 
-# 122. Constitutional Tests — Minimum Matrix-Level Suite
+## 122. Constitutional Tests — Minimum Matrix-Level Suite
 
 A source-compatible matrix test suite should at minimum distinguish boundary behavior:
 
@@ -2882,9 +2882,9 @@ BEI_TESTS:
 
 These tests are **DERIVED from the strict inequalities**. They are not evidence that the source's constitutional tests used these exact fixtures.
 
----
+______________________________________________________________________
 
-# 123. Multi-Trigger Test Requirements
+## 123. Multi-Trigger Test Requirements
 
 A robust implementation audit should additionally test:
 
@@ -2916,9 +2916,9 @@ ALL FOUR INACTIVE
 
 because single-row correctness does not establish joint-action correctness.
 
----
+______________________________________________________________________
 
-# 124. Threshold-Noise Tests
+## 124. Threshold-Noise Tests
 
 Near-threshold tests should include measurement perturbation where uncertainty is defined.
 
@@ -2938,9 +2938,9 @@ to determine whether the implementation:
 
 The matrix does not define the expected policy.
 
----
+______________________________________________________________________
 
-# 125. Anti-Fabrication Contract
+## 125. Anti-Fabrication Contract
 
 This artifact MUST NOT by itself be used to claim:
 
@@ -2982,7 +2982,7 @@ This artifact MUST NOT by itself be used to claim:
 1. Execution Throttle halts execution.
 1. Queue Delay cancels tasks.
 1. Enforcement actions are fail-closed fallbacks.
-1. UBI threshold crossing causes \(S_0\) reset.
+1. UBI threshold crossing causes (S_0) reset.
 1. UBI threshold crossing causes rollback.
 1. UBI threshold crossing causes system halt.
 1. The four signals are statistically independent.
@@ -3025,9 +3025,9 @@ This artifact MUST NOT by itself be used to claim:
 1. Runtime implementation automatically validates the biological model.
 1. Biological validation automatically validates the runtime implementation.
 
----
+______________________________________________________________________
 
-# 126. Anti-Regression Contract
+## 126. Anti-Regression Contract
 
 Future canonical revisions should preserve or explicitly supersede:
 
@@ -3127,9 +3127,9 @@ SCOPE / REGIME FIREWALL
 
 ```
 
----
+______________________________________________________________________
 
-# 127. Invalidation Conditions
+## 127. Invalidation Conditions
 
 Revalidate when:
 
@@ -3201,9 +3201,9 @@ PROVENANCE GRAPH CHANGES
 SCOPE OR ENVIRONMENT CHANGES
 ```
 
----
+______________________________________________________________________
 
-# 128. RSCF Relations
+## 128. RSCF Relations
 
 ```yaml
 RSCF_RELATIONS:
@@ -3262,9 +3262,9 @@ RSCF_RELATIONS:
       ""
 ```
 
----
+______________________________________________________________________
 
-# 129. Native Canon Ingestion
+## 129. Native Canon Ingestion
 
 ```yaml
 UBI_X_COGNITION_MATRIX_INGESTION:
@@ -3394,9 +3394,9 @@ UBI_X_COGNITION_MATRIX_INGESTION:
       - PRESERVE_UNKNOWN_WHEN_MEASUREMENT_SEMANTICS_ARE_MISSING
 ```
 
----
+______________________________________________________________________
 
-# 130. Canonical Compression
+## 130. Canonical Compression
 
 ```text
                   UBI × COGNITION
@@ -3488,9 +3488,9 @@ INDEPENDENT RUNTIME VERIFICATION
 NOT ESTABLISHED BY THIS ARTIFACT ALONE
 ```
 
----
+______________________________________________________________________
 
-# 131. Final Canonical Candidate Statement
+## 131. Final Canonical Candidate Statement
 
 **UBI × Cognition Cross-Plane Matrix Table v2.0.0** is the source-defined AMOS cognitive matrix mapping four UBI biological-signal classes into cognitive target engines through strict operational thresholds and corresponding enforcement actions.
 
@@ -3592,15 +3592,15 @@ The decisive integrity boundaries are:
 
 **ENFORCEMENT ACTIONS ARE NOT AUTOMATICALLY FAIL-CLOSED FALLBACKS.**
 
-**NO ROW AUTHORIZES AN \(S_0\) RESET, GLOBAL ROLLBACK, OR SYSTEM HALT BY ITSELF.**
+**NO ROW AUTHORIZES AN (S_0) RESET, GLOBAL ROLLBACK, OR SYSTEM HALT BY ITSELF.**
 
 **CROSS-PLANE ROUTING DOES NOT AUTOMATICALLY IMPLY CROSS-PLANE TRANSACTIONAL ATOMICITY.**
 
 **THE EXACT LOW-LEVEL KERNEL EXECUTING EACH ACTION IS NOT ESTABLISHED BY THIS ARTIFACT.**
 
-**`` SHOULD GOVERN EXACT SIGNAL/MATRIX SEMANTICS.**
+**\`\` SHOULD GOVERN EXACT SIGNAL/MATRIX SEMANTICS.**
 
-**`` SHOULD GOVERN EXACT COGNITIVE/RUNTIME BINDING.**
+**\`\` SHOULD GOVERN EXACT COGNITIVE/RUNTIME BINDING.**
 
 Operationally:
 
@@ -3714,15 +3714,15 @@ $$
 
 The matrix can therefore function canonically as a **UBI-to-cognition routing model** while preserving the separation between **source-defined biological abstractions, measured observations, cognitive routing, runtime enforcement, causal interpretation, and independently validated empirical claims**.
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|AMOS MOC]]
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]] · [[25_COGNITIVE_MATRIX/UBI_X_COGNITION|UBI_X_COGNITION]] · [[11_KNOWLEDGE/05_FRAMEWORKS/UBI_COGNITION_BINDING|UBI_COGNITION_BINDING]] · [[25_COGNITIVE_MATRIX/TOTAL_FRAMEWORK_MATRIX|TOTAL_FRAMEWORK_MATRIX]] · [[25_COGNITIVE_MATRIX/TOTAL_KERNEL_MATRIX|TOTAL_KERNEL_MATRIX]] · [[25_COGNITIVE_MATRIX/TOTAL_CANON_MATRIX|TOTAL_CANON_MATRIX]] · [[02_KERNEL/09_INTEGRATION/K_RSCF|K_RSCF]] · [[02_KERNEL/09_INTEGRATION/K_HML|K_HML]] · [[02_KERNEL/08_PROVENANCE/K_PROVENANCE|K_PROVENANCE]] · K_CAUSAL_FIREWALL · [[02_KERNEL/K_FAIL_CLOSED|K_FAIL_CLOSED]] · [[02_KERNEL/K_GOVERNED_EVOLUTION|K_GOVERNED_EVOLUTION]]
 
----
+______________________________________________________________________
 
 RSCF-NODE
 
@@ -3785,25 +3785,29 @@ RSCF-RELATIONS:
 - RELATED_TO: [[02_KERNEL/09_INTEGRATION/K_HML|K_HML]]
 
 - RELATED_TO: [[02_KERNEL/08_PROVENANCE/K_PROVENANCE|K_PROVENANCE]]
+
 - RELATED_TO: [[01_CANON/01_CORE_LAWS/L4_CAUSAL|L4_CAUSAL]]
+
 - RELATED_TO: [[02_KERNEL/K_FAIL_CLOSED|K_FAIL_CLOSED]]
+
 - RELATED_TO: [[02_KERNEL/K_GOVERNED_EVOLUTION|K_GOVERNED_EVOLUTION]]
+
 - RELATED_TO: [[01_CANON/01_CORE_LAWS/ATOMIC_MULTI_RSCF|ATOMIC_MULTI_RSCF]]
+
 - RELATED_TO: [[02_KERNEL/K_ATOMIC_MULTI_RSCF|K_ATOMIC_MULTI_RSCF]]
+
 - RELATED_TO: [[11_KNOWLEDGE/03_RSCF/UBI_RSCF_INDEX|UBI_RSCF_INDEX]]
 
 - LINEAGE_TARGET: [[00_ROOT/AMOS_CORE_v4_4|AMOS_CORE_v4_4]]
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[01_CANON/01_CORE_LAWS/ATOMIC_MULTI_RSCF|ATOMIC_MULTI_RSCF]] · [[02_KERNEL/K_ATOMIC_MULTI_RSCF|K_ATOMIC_MULTI_RSCF]] · [[11_KNOWLEDGE/03_RSCF/UBI_RSCF_INDEX|UBI_RSCF_INDEX]] · [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]
 
----
+______________________________________________________________________
 
 **MOC:** [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]
 
----
+______________________________________________________________________
 
 **END OF `UBI_X_COGNITION_MATRIX.md`**
-
-

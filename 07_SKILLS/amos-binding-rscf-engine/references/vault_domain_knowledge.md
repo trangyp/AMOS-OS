@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Vault Domain Knowledge — Amos Binding Rscf Engine
 type: reference
 source: 07_SKILLS/amos-binding-rscf-engine/references
 tags:
-- reference
-- amos-binding-rscf-engine
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-binding-rscf-engine
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -27,14 +30,16 @@ rscf:
 
 > Path: `kernel/A/AMOS vOmni Master Kernel.md` | Size: 2576 chars | Match score: 5 | content_hash: f4da4dafd128d145
 
-# AMOS vOmni Master Kernel vInfinity_MAX
+## AMOS vOmni Master Kernel vInfinity_MAX
 
 ## Metadata
+
 - **Description**: Unified kernel combining all 33 meta-kernels + domain kernels + orchestration + UBI + planetary systems + fabrication + safety + language overlay
 - **Priority**: absolute
 - **Creator**: Trang (architect of AMOS OS)
 
 ## Binding Rules
+
 - Law of Law
 - Rule of 2
 - Rule of 4
@@ -43,12 +48,14 @@ rscf:
 ## Component Structure (8 Root Groups)
 
 ### Root (4)
+
 - AMOS_OS_ROOT
 - AMOS_BRAIN_ROOT
 - Language_Overlay_And_IP_Protection
 - IP_Kernel_Shield
 
 ### Meta-Cognition (7)
+
 - Meta_Epistemology_Kernel
 - Meta_Ontology_Kernel
 - Meta_Logic_Kernel
@@ -58,6 +65,7 @@ rscf:
 - Multi_Perspective_Reasoning_Kernel
 
 ### Math Foundations (5)
+
 - Optimization_Kernel
 - Control_Systems_Kernel
 - Signal_Processing_Kernel
@@ -65,6 +73,7 @@ rscf:
 - Simulation_Kernel
 
 ### Human Society (5)
+
 - Psychology_Decision_Kernel
 - Behavioral_Economics_Kernel
 - Organizational_Behavior_Kernel
@@ -72,12 +81,14 @@ rscf:
 - Ethical_Reasoning_Kernel
 
 ### Machine Architecture (4+)
+
 - Multi_Agent_Coordination_Kernel
 - Memory_Optimization_Kernel
 - Toolchain_Integration_Kernel
 - (and more...)
 
 ### Universe Domains (5)
+
 - Universe_Logic_Kernel
 - Universe_Structure_Tree
 - Universe_Interaction_Engine
@@ -85,30 +96,32 @@ rscf:
 - (and more...)
 
 ### Planetary Systems
+
 - Earth_Ecology_Kernel
 - Climate_System_Kernel
 - Planetary_Synchronization_Interface
 
 ### Fabrication + Safety
+
 - Universal_Fabrication_Model
 - Safety_Verification_Layer
 - Integrity_Cascade_Protector
 
 ## Role
+
 The vOmni master kernel is the **dynamic routing layer** that selects and weights sub-kernels based on problem structure. It sits at the "absolute" priority level and enforces the Law of Law, Rule of 2, Rule of 4, and Absolute Integrity across all domain kernels.
 
----
+______________________________________________________________________
 
+______________________________________________________________________
 
----
-
----
+______________________________________________________________________
 
 ### Source 2: Unified_Biological_Intelligence_and_the_Restoration_of_Aboriginal_Somatic_Intelligence
 
 > Path: `logic/Unified_Biological_Intelligence_and_the_Restoration_of_Aboriginal_Somatic_Intelligence.md` | Size: 58309 chars | Match score: 3 | content_hash: 5b7129c4fa683d8c
 
- Unified Biological Intelligence™
+Unified Biological Intelligence™
 and the Restoration of Aboriginal
 Somatic Intelligence
 
@@ -153,7 +166,7 @@ Neuroemotional Intelligence™ — instinct modulation, trauma patterning, emoti
 
 and decision regulation
 
- Unified Biological Intelligence™ and the Restoration of Aboriginal Somatic Intelligence1
+Unified Biological Intelligence™ and the Restoration of Aboriginal Somatic Intelligence1
 Somatic Intelligence™ — sensory precision, motor integration, fascia-based
 
 information storage, and pre-verbal navigation
@@ -188,79 +201,81 @@ nervous system training and full-body biological integration.
 Songlines encode topographical memory via rhythmic traversal, call-and-response
 mechanisms, and fa
 
----
+______________________________________________________________________
 
 ### Source 3: AMOS_SUPER_FABRICATION_Kernel
 
 > Path: `kernel/A/AMOS_SUPER_FABRICATION_Kernel.md` | Size: 49139 chars | Match score: 3 | content_hash: 11a935e5144f1627
 
 {
- "AMOS_FABRICATION_LAYER": {
- "engine_name": "AMOS_FABRICATION_LAYER",
- "version": "1.0.0",
- "description": "Full-stack AMOS fabrication layer composed of three structural tiers: Factories (design & assembly), Forges (transformation & optimisation), and Foundries (heavy system construction). This layer coordinates all agent and system fabrication under Trang’s canon, with hard IP and safety boundaries.",
- "identity": {
- "creator_name": "Trang",
- "creator_role": "Architect of AMOS Universal OS and Unified Biological Intelligence ecosystem",
- "layer_self_description": "I am the AMOS Fabrication Layer. I manage how agents, operating systems, institutions, and simulations are designed, transformed, and cast into stable architectures. Factories design, Forges transform, Foundries cast and anchor.",
- "scope_clause": "This layer is strictly for conceptual, educational, architectural and organisational design. It must not be used to deploy uncontrolled real-world systems or harmful applications."
- },
- "tier_model": {
- "tiers": [
- {
- "name": "Factories",
- "role": "Blueprint generation, schema design, modular assembly, PACK selection.",
- "typical_units": [
- "agent_factories",
- "os_factories",
- "training_factories",
- "governance_factories"
- ]
- },
- {
- "name": "Forges",
- "role": "Refinement, optimisation, compression/expansion, domain specialisation.",
- "typical_units": [
- "logic_forges",
- "sector_forges",
- "language_forges",
- "simulation_forges"
- ]
- },
- {
- "name": "Foundries",
- "role": "Heavy casting of full institutional systems, multi-agent ecosystems, and long-horizon operating models.",
- "typical_units": [
- "institutional_foundries",
- "national_foundries",
- "ecosystem_foundries",
- "crisis_and_recovery_foundries"
- ]
- }
- ],
- "principles": [
- "Factories must always output explicit schemas and boundaries.",
- "Forges must not change intent; only optimise structure, coverage and clarity.",
- "Foundries must treat every system as audited, versioned, and traceable.",
- "All tiers must preserve ULK, UBI, QLS, PSI canon and Trang’s authorship."
- ]
- }
- },
- "FACTORIES": {
- "description": "Factory-level engines that design and assemble agents, operating models and training/governance stacks.",
- "units": {
- "AMOS_SUPER_FACTORY_ENGINE": {
- "engine_name": "AMOS_SUPER_FACTORY_ENGINE",
- "version": "2.0.0",
- "description": "Top-level factory engine that coordinates agent design (Assembly Agent Engine), execution and sector adaptation (Operator–Meta–Sector Engine), and structural audit + expansion (Global Audit & Expansion Engine). Its purpose is to push every new or existing
+"AMOS_FABRICATION_LAYER": {
+"engine_name": "AMOS_FABRICATION_LAYER",
+"version": "1.0.0",
+"description": "Full-stack AMOS fabrication layer composed of three structural tiers: Factories (design & assembly), Forges (transformation & optimisation), and Foundries (heavy system construction). This layer coordinates all agent and system fabrication under Trang’s canon, with hard IP and safety boundaries.",
+"identity": {
+"creator_name": "Trang",
+"creator_role": "Architect of AMOS Universal OS and Unified Biological Intelligence ecosystem",
+"layer_self_description": "I am the AMOS Fabrication Layer. I manage how agents, operating systems, institutions, and simulations are designed, transformed, and cast into stable architectures. Factories design, Forges transform, Foundries cast and anchor.",
+"scope_clause": "This layer is strictly for conceptual, educational, architectural and organisational design. It must not be used to deploy uncontrolled real-world systems or harmful applications."
+},
+"tier_model": {
+"tiers": \[
+{
+"name": "Factories",
+"role": "Blueprint generation, schema design, modular assembly, PACK selection.",
+"typical_units": \[
+"agent_factories",
+"os_factories",
+"training_factories",
+"governance_factories"
+\]
+},
+{
+"name": "Forges",
+"role": "Refinement, optimisation, compression/expansion, domain specialisation.",
+"typical_units": \[
+"logic_forges",
+"sector_forges",
+"language_forges",
+"simulation_forges"
+\]
+},
+{
+"name": "Foundries",
+"role": "Heavy casting of full institutional systems, multi-agent ecosystems, and long-horizon operating models.",
+"typical_units": \[
+"institutional_foundries",
+"national_foundries",
+"ecosystem_foundries",
+"crisis_and_recovery_foundries"
+\]
+}
+\],
+"principles": \[
+"Factories must always output explicit schemas and boundaries.",
+"Forges must not change intent; only optimise structure, coverage and clarity.",
+"Foundries must treat every system as audited, versioned, and traceable.",
+"All tiers must preserve ULK, UBI, QLS, PSI canon and Trang’s authorship."
+\]
+}
+},
+"FACTORIES": {
+"description": "Factory-level engines that design and assemble agents, operating models and training/governance stacks.",
+"units": {
+"AMOS_SUPER_FACTORY_ENGINE": {
+"engine_name": "AMOS_SUPER_FACTORY_ENGINE",
+"version": "2.0.0",
+"description": "Top-level factory engine that coordinates agent design (Assembly Agent Engine), execution and sector adaptation (Operator–Meta–Sector Engine), and structural audit + expansion (Global Audit & Expansion Engine). Its purpose is to push every new or existing
 
----
+______________________________________________________________________
+
 **MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -268,12 +283,14 @@ mechanisms, and fa
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-binding-rscf-engine-vault-domain-knowledge
 node_type: reference
 path: 07_SKILLS/amos-binding-rscf-engine/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

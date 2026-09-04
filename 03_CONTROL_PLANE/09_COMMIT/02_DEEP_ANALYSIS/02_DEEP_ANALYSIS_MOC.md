@@ -1,30 +1,33 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: 02 Deep Analysis MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/02_DEEP_ANALYSIS
 tags:
-- 02-deep-analysis
-- canon/control-plane
-- commit-control-plane-aliases
-- commit-control-plane-benchmarks
-- commit-control-plane-composition
-- commit-control-plane-domain-weights
-- commit-control-plane-engine-weights
-- commit-control-plane-deprecation-supersession
-- commit-control-plane-exit-criteria
-- commit-control-plane-failure-recovery
-- commit-control-plane-governance
-- commit-control-plane-layer-weights
-- commit-control-plane-observability
-- commit-control-plane-preconditions
-- commit-control-plane-purpose-scope
-- commit-control-plane-routing-bindings
-- commit-control-plane-safety-gates
-- commit-control-plane-tests
-- commit-control-plane-transition-rules
-- commit-control-plane-validation
-- deep-analysis-commit-control-plane-mode-spec
-- deep-analysis-commit-control-plane-provenance
+  - 02-deep-analysis
+  - canon/control-plane
+  - commit-control-plane-aliases
+  - commit-control-plane-benchmarks
+  - commit-control-plane-composition
+  - commit-control-plane-domain-weights
+  - commit-control-plane-engine-weights
+  - commit-control-plane-deprecation-supersession
+  - commit-control-plane-exit-criteria
+  - commit-control-plane-failure-recovery
+  - commit-control-plane-governance
+  - commit-control-plane-layer-weights
+  - commit-control-plane-observability
+  - commit-control-plane-preconditions
+  - commit-control-plane-purpose-scope
+  - commit-control-plane-routing-bindings
+  - commit-control-plane-safety-gates
+  - commit-control-plane-tests
+  - commit-control-plane-transition-rules
+  - commit-control-plane-validation
+  - deep-analysis-commit-control-plane-mode-spec
+  - deep-analysis-commit-control-plane-provenance
 moc: true
 rscf:
   state: DERIVED
@@ -67,5 +70,6 @@ rscf:
 - [[03_CONTROL_PLANE/09_COMMIT/02_DEEP_ANALYSIS/DEEP_ANALYSIS_COMMIT_CONTROL_PLANE_PROVENANCE|DEEP_ANALYSIS_COMMIT_CONTROL_PLANE_PROVENANCE]]
 - [[03_CONTROL_PLANE/09_COMMIT/02_DEEP_ANALYSIS/DEEP_ANALYSIS_COMMIT_CONTROL_PLANE_README|DEEP_ANALYSIS_COMMIT_CONTROL_PLANE_README]]
 
----
+______________________________________________________________________
+
 **Parent:** [[03_CONTROL_PLANE/09_COMMIT/09_COMMIT_MOC|09_COMMIT_MOC]]

@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: AMOS DATA SCIENCE KERNEL V0 TECH
 tags:
-- canon-group/tech-ai
-- canon/framework
-- rscf/claim
-- rscf/provenance
-- rscf/state/source-claim
-- topic/amos-data-science-kernel-v0
-- kernel
+  - canon-group/tech-ai
+  - canon/framework
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - topic/amos-data-science-kernel-v0
+  - kernel
 type: data
 source: 11_KNOWLEDGE/kernel
 rscf:
@@ -100,6 +103,6 @@ rscf:
 **Related:** [[11_KNOWLEDGE/kernel/AMOS_CONTROL_SYSTEMS_KERNEL|AMOS_CONTROL_SYSTEMS_KERNEL]] · [[11_KNOWLEDGE/kernel/IP_KERNEL_SHIELD_ARCHIVE_AMOS23|IP_KERNEL_SHIELD_ARCHIVE_AMOS23]] · [[11_KNOWLEDGE/kernel/FINANCE_SENSOR_KERNEL|FINANCE_SENSOR_KERNEL]] · [[11_KNOWLEDGE/kernel/AMOS_TECH_UBI_CANON_KERNEL_V1_TECH4|AMOS_TECH_UBI_CANON_KERNEL_V1_TECH4]]
 ```
 
----
-**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]
+______________________________________________________________________
 
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]

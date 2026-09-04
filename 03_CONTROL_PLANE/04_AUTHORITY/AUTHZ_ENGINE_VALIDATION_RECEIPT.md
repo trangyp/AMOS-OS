@@ -1,4 +1,7 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 type: authority
 source: 03_CONTROL_PLANE/04_AUTHORITY
 artifact_id: AMOS-CP-04-AUTHZ-ENGINE-RECEIPT
@@ -10,10 +13,10 @@ updated: 2026-08-26
 epistemic_class: DERIVED
 conclusion_class: PARTIAL
 tags:
-- note
-- 04-authority
-- canon/control-plane
-- trang-framework-recursive-ontology-dynamics
+  - note
+  - 04-authority
+  - canon/control-plane
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -29,16 +32,16 @@ rscf:
 invariants in `INV-AUTHZ-001..050.md` their first executable enforcement.
 17 probes covering the invariant families:
 
-| Family | Invariants exercised | Result |
-|---|---|---|
-| Separation laws (authn≠authz, authority, capability) | 001, 002, 003 | ✅ |
-| Binding (principal, target, scope containment) | 007, 009, 011 | ✅ |
-| Unknown handling (fail-closed) | 012, 040 | ✅ |
-| Freshness (authority epoch, revocation) | 021, 022 | ✅ |
-| Delegation (attenuation chain w/ human root) | 018, 038 | ✅ |
-| Provenance (semantic origin, intent freshness) | 043, 048 | ✅ |
-| Resource bounds (cumulative budget) | 041 | ✅ |
-| Emergency boundedness (20% cap) | 050 | ✅ |
+| Family                                               | Invariants exercised | Result |
+| ---------------------------------------------------- | -------------------- | ------ |
+| Separation laws (authn≠authz, authority, capability) | 001, 002, 003        | ✅     |
+| Binding (principal, target, scope containment)       | 007, 009, 011        | ✅     |
+| Unknown handling (fail-closed)                       | 012, 040             | ✅     |
+| Freshness (authority epoch, revocation)              | 021, 022             | ✅     |
+| Delegation (attenuation chain w/ human root)         | 018, 038             | ✅     |
+| Provenance (semantic origin, intent freshness)       | 043, 048             | ✅     |
+| Resource bounds (cumulative budget)                  | 041                  | ✅     |
+| Emergency boundedness (20% cap)                      | 050                  | ✅     |
 
 ## Result
 
@@ -83,8 +86,10 @@ DERIVED reference implementation pending promotion.
 python3 03_CONTROL_PLANE/04_AUTHORITY/authz_invariant_engine.py
 ```
 
----
+______________________________________________________________________
+
 **MOC:** [[03_CONTROL_PLANE/04_AUTHORITY/04_AUTHORITY_MOC|04_AUTHORITY_MOC]]
 
----
+______________________________________________________________________
+
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

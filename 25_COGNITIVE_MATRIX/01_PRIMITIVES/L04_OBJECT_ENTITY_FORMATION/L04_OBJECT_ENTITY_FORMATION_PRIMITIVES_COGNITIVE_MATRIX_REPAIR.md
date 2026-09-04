@@ -10,11 +10,11 @@ primitive: L04_OBJECT_ENTITY_FORMATION
 artifact: REPAIR.md
 runtime_alignment: AMOS Full Brain OS / AMOS_CORE v4.4 lineage
 tags:
-- cognitive-matrix
-- primitives
-- matrix/l04-object-entity-formation
-- note
-- domain/cognitive-matrix
+  - cognitive-matrix
+  - primitives
+  - matrix/l04-object-entity-formation
+  - note
+  - domain/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -65,9 +65,9 @@ validation:
 
 All detailed repair machinery below is consequently classified `AMOS_MODEL`.
 
----
+______________________________________________________________________
 
-# 1. Definition and Scope
+## 1. Definition and Scope
 
 `L04 REPAIR` is the governed MODEL contract for detecting, localizing, containing, reversing, reconstructing, and revalidating failures affecting object candidates, entity candidates, continuity hypotheses, identity hypotheses, and their dependencies.
 
@@ -101,25 +101,25 @@ committing a proposed correction
 
 The target is restoration of **contract integrity**, not restoration of a preferred answer.
 
----
+______________________________________________________________________
 
-# 2. Repair Objective
+## 2. Repair Objective
 
 Candidate objective:
 
-[
-R^* =
-\arg\min_R
-\left(
+\[
+R^\* =
+\\arg\\min_R
+\\left(
 D_R + E_R + C_R
-\right)
-]
+\\right)
+\]
 
 subject to:
 
-[
-I_{\text{hard}}(X'_t)=1
-]
+\[
+I\_{\\text{hard}}(X'\_t)=1
+\]
 
 where:
 
@@ -143,9 +143,9 @@ unnecessary global reconstruction
 
 provided local recovery preserves all load-bearing invariants.
 
----
+______________________________________________________________________
 
-# 3. Typed Inputs
+## 3. Typed Inputs
 
 ```yaml
 L04RepairInput:
@@ -208,9 +208,9 @@ L04RepairInput:
     type: StateVersion
 ```
 
----
+______________________________________________________________________
 
-# 4. Typed Outputs
+## 4. Typed Outputs
 
 ```yaml
 L04RepairOutput:
@@ -276,9 +276,9 @@ L04RepairOutput:
       - UNKNOWN_GAP
 ```
 
----
+______________________________________________________________________
 
-# 5. Repair State Variables
+## 5. Repair State Variables
 
 ```text
 F_t      detected failure state
@@ -297,14 +297,14 @@ Ver_t    state/version witness
 
 Candidate repair state:
 
-[
-S^{repair}_t =
-(F_t,T_t,A_t,P_t,Q_t,V_t,R_t,X'_t,Prov_t,U_t,Auth_t,Ver_t)
-]
+\[
+S^{repair}\_t =
+(F_t,T_t,A_t,P_t,Q_t,V_t,R_t,X'\_t,Prov_t,U_t,Auth_t,Ver_t)
+\]
 
----
+______________________________________________________________________
 
-# 6. Repair Operators
+## 6. Repair Operators
 
 Candidate operator registry:
 
@@ -349,9 +349,9 @@ ESCALATE
 
 These are MODEL operators. Canonical names and semantics remain `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
-# 7. Repair Invariants
+## 7. Repair Invariants
 
 ```text
 L04-REP-INV-001
@@ -424,9 +424,9 @@ SUCCESSFUL REPAIR TESTS DO NOT ESTABLISH
 EMPIRICAL COGNITIVE VALIDITY.
 ```
 
----
+______________________________________________________________________
 
-# 8. Dependencies
+## 8. Dependencies
 
 Primary repair dependency chain:
 
@@ -468,9 +468,9 @@ L04_CONTROL_PLANES
 
 Cross-cutting MODEL dependencies include provenance, constraint propagation, H/M/L reasoning, selective invalidation, and control-plane authorization.
 
----
+______________________________________________________________________
 
-# 9. H/M/L Applicability
+## 9. H/M/L Applicability
 
 ## L — Local repair
 
@@ -537,9 +537,9 @@ repair lowest causal failure point available
 → selectively recompute affected higher scales
 ```
 
----
+______________________________________________________________________
 
-# 10. Control-Plane Requirements
+## 10. Control-Plane Requirements
 
 L04 repair cognition may:
 
@@ -581,9 +581,9 @@ REPAIR COMMITTED
 
 A stale repair proposal MUST be revalidated against current state before commit.
 
----
+______________________________________________________________________
 
-# 11. Agents
+## 11. Agents
 
 Candidate logical repair roles:
 
@@ -607,9 +607,9 @@ These are architectural roles only.
 ROLE != IMPLEMENTED AGENT
 ```
 
----
+______________________________________________________________________
 
-# 12. Skills
+## 12. Skills
 
 Potential supporting capability families include:
 
@@ -630,9 +630,9 @@ AMOS Collapse Recovery
 
 Skill addressability does not prove runtime integration.
 
----
+______________________________________________________________________
 
-# 13. Core Repair Workflow
+## 13. Core Repair Workflow
 
 ```text
 FAILURE SIGNAL
@@ -681,9 +681,9 @@ CONTROL-PLANE REVALIDATION
 AUTHORIZED COMMIT OR NO COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 14. Failure-Specific Repair Patterns
+## 14. Failure-Specific Repair Patterns
 
 | Failure                               | Candidate repair                                              |
 | ------------------------------------- | ------------------------------------------------------------- |
@@ -707,9 +707,9 @@ AUTHORIZED COMMIT OR NO COMMIT
 | `UNAUTHORIZED_MUTATION`               | reject effect; restore authoritative prior state              |
 | `UNKNOWN_GAP_AS_PASS`                 | downgrade immediately to `UNKNOWN/GAP`                        |
 
----
+______________________________________________________________________
 
-# 15. Repair Protocols
+## 15. Repair Protocols
 
 Candidate protocol families:
 
@@ -736,9 +736,9 @@ REPAIR_ESCALATION
 
 Canonical protocol definitions remain `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
-# 16. Evidence / Provenance
+## 16. Evidence / Provenance
 
 Every consequential repair SHOULD retain:
 
@@ -794,9 +794,9 @@ commit authority
 
 They must not be collapsed into one provenance class.
 
----
+______________________________________________________________________
 
-# 17. Uncertainty and Confidence Ceiling
+## 17. Uncertainty and Confidence Ceiling
 
 Repair uncertainty vector:
 
@@ -817,17 +817,17 @@ uncertainty:
 
 Candidate ceiling:
 
-[
+\[
 Conf(R)
-\le
-\min(
+\\le
+\\min(
 Conf(F),
 Conf(T),
 Conf(D),
 Conf(E),
 Conf(V)
 )
-]
+\]
 
 where:
 
@@ -841,9 +841,9 @@ V = validation evidence
 
 A repair cannot become highly trusted merely because its output appears coherent.
 
----
+______________________________________________________________________
 
-# 18. Repair Failure Modes
+## 18. Repair Failure Modes
 
 Repair itself can fail through:
 
@@ -879,9 +879,9 @@ UNAUTHORIZED_REPAIR_COMMIT
 
 A repaired-looking output with damaged provenance or suppressed contradictions is itself a repair failure.
 
----
+______________________________________________________________________
 
-# 19. Recovery / Escalation
+## 19. Recovery / Escalation
 
 Escalate when:
 
@@ -908,9 +908,9 @@ minimum_missing_information: []
 
 The system should identify the smallest missing evidence capable of discriminating among candidate repairs.
 
----
+______________________________________________________________________
 
-# 20. Tests / Validators
+## 20. Tests / Validators
 
 ```text
 L04-REP-T01 — Selective Invalidation
@@ -983,9 +983,9 @@ formal_verification: false
 empirical_validation: false
 ```
 
----
+______________________________________________________________________
 
-# 21. Falsifiers
+## 21. Falsifiers
 
 This MODEL contract must be revised if authoritative evidence establishes:
 
@@ -1008,9 +1008,9 @@ recovery semantics
 
 A passing documentation review does not falsify implementation gaps.
 
----
+______________________________________________________________________
 
-# 22. Gap Status
+## 22. Gap Status
 
 | Area                       | Status                        |
 | -------------------------- | ----------------------------- |
@@ -1039,9 +1039,9 @@ A passing documentation review does not falsify implementation gaps.
 | Formal verification        | `UNKNOWN/GAP`                 |
 | Empirical validation       | `UNKNOWN/GAP`                 |
 
----
+______________________________________________________________________
 
-# 23. RSCF Completion State
+## 23. RSCF Completion State
 
 ```yaml
 rscf:
@@ -1144,9 +1144,9 @@ rscf:
     validation: UNKNOWN_GAP
 ```
 
----
+______________________________________________________________________
 
-# 24. Hard Boundaries
+## 24. Hard Boundaries
 
 ```text
 PLACEHOLDER != IMPLEMENTED
@@ -1194,15 +1194,15 @@ REPAIR CAPABILITY != REPAIR AUTHORITY
 REPAIR PROPOSAL != REPAIR COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 25. Governing Repair Contract
+## 25. Governing Repair Contract
 
 > **`L04_OBJECT_ENTITY_FORMATION` repair SHALL seek the smallest sufficient integrity-preserving correction of failures affecting object formation, entity formation, continuity, persistence, or identity representation. Repair SHALL localize the earliest supportable failure point, preserve admissible source evidence and provenance, quarantine or invalidate affected state selectively, preserve unaffected branches, retain unresolved contradictions and genuinely competing hypotheses, reconstruct only from admissible evidence, propagate revised uncertainty and confidence ceilings, and adversarially validate the candidate repair before promotion. Repair SHALL NOT fabricate missing evidence, force identity convergence, erase contradictory history, treat coherence as validation, repeat a failed repair path without changed evidence, or acquire durable authority merely from cognitive capability. Any effectful repair SHALL remain a proposal until the governing control plane establishes current authority, state freshness, dependency validity, constraint validity, provenance integrity, and commit eligibility. Critical unresolved repair gaps SHALL remain `UNKNOWN/GAP` rather than being represented as successful recovery.**
 
----
+______________________________________________________________________
 
-# 26. Final Completion State
+## 26. Final Completion State
 
 ```yaml
 completion_state:
@@ -1299,24 +1299,30 @@ NOT ESTABLISHED
 VALIDATION:
 NOT ESTABLISHED
 ```
+
 ```
 ```
----
+
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: l04_object_entity_formation_primitives_cognitive_matrix_repair
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L04_OBJECT_ENTITY_FORMATION/L04_OBJECT_ENTITY_FORMATION_PRIMITIVES_COGNITIVE_MATRIX_REPAIR.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L04_OBJECT_ENTITY_FORMATION/L04_OBJECT_ENTITY_FORMATION_MOC|L04_OBJECT_ENTITY_FORMATION_MOC]]

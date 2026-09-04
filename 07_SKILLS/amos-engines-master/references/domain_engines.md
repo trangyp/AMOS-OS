@@ -1,14 +1,17 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: domain engines
 type: reference
 source: 07_SKILLS/amos-engines-master/references
 tags:
-- reference
-- amos-engines-master
-- type/skill
-- law-hierarchy
-- canon
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-engines-master
+  - type/skill
+  - law-hierarchy
+  - canon
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -21,25 +24,16 @@ rscf:
 > Source: `_00_Cosmo brain/engine/A/AMOS Domain Engines.md`
 > Epistemic class: SOURCE_DERIVED
 
----
-title: AMOS Domain Engines — Full Inventory
-created: "2026-08-22"
-origin: "Google Drive — _00_AMOS_CANON/Domains/"
-origin_architect: "Trang Phan"
-type: "reference"
-tags: [canon-group/tech-ai, domain-engines, tech-systems, science-health, org-risk-policy, sub-domains, canon-group/human-system, governance, risk, compliance, scientific, medical-clinical, academic-writing, vietnamese-writing, engine]
-status: "active"
-provenance: "VERIFIED"
-confidence: "VERIFIED"
-source: "Google Drive /_00_AMOS_CANON/Domains/ (4 subfolders, 15 engine JSON files)"
----
+______________________________________________________________________
 
-# AMOS Domain Engines — part 2
+## title: AMOS Domain Engines — Full Inventory created: "2026-08-22" origin: "Google Drive — \_00_AMOS_CANON/Domains/" origin_architect: "Trang Phan" type: "reference" tags: [canon-group/tech-ai, domain-engines, tech-systems, science-health, org-risk-policy, sub-domains, canon-group/human-system, governance, risk, compliance, scientific, medical-clinical, academic-writing, vietnamese-writing, engine] status: "active" provenance: "VERIFIED" confidence: "VERIFIED" source: "Google Drive /\_00_AMOS_CANON/Domains/ (4 subfolders, 15 engine JSON files)"
+
+## AMOS Domain Engines — part 2
 
 Full inventory of domain engines from `_00_AMOS_CANON/Domains/`.
 Organized into 4 subfolders: Tech_Systems, Science_Health, Org_Risk_Policy, Sub.
 
----
+______________________________________________________________________
 
 ## Tech_Systems (8 engines)
 
@@ -49,7 +43,7 @@ Organized into 4 subfolders: Tech_Systems, Science_Health, Org_Risk_Policy, Sub.
 
 **Role**: Tech architecture control layer.
 
----
+______________________________________________________________________
 
 ### 2. AMOS_Design_Kernel
 
@@ -57,7 +51,7 @@ Organized into 4 subfolders: Tech_Systems, Science_Health, Org_Risk_Policy, Sub.
 
 **Role**: Maximum-power design reasoning.
 
----
+______________________________________________________________________
 
 ### 3. AMOS_Automation_Kernel
 
@@ -65,7 +59,7 @@ Organized into 4 subfolders: Tech_Systems, Science_Health, Org_Risk_Policy, Sub.
 
 **Role**: Self-auditing automation.
 
----
+______________________________________________________________________
 
 ### 4. AMOS_Coding_Kernel
 
@@ -73,7 +67,7 @@ Organized into 4 subfolders: Tech_Systems, Science_Health, Org_Risk_Policy, Sub.
 
 **Role**: Coding kernel (lightweight).
 
----
+______________________________________________________________________
 
 ### 5. AMOS_Design_Engine
 
@@ -81,7 +75,7 @@ Organized into 4 subfolders: Tech_Systems, Science_Health, Org_Risk_Policy, Sub.
 
 **Role**: Full-power design engine.
 
----
+______________________________________________________________________
 
 ### 6. AMOS_Documentation_Kernel
 
@@ -89,7 +83,7 @@ Organized into 4 subfolders: Tech_Systems, Science_Health, Org_Risk_Policy, Sub.
 
 **Role**: Documentation generation and management.
 
----
+______________________________________________________________________
 
 ### 7. AMOS_Coding_Engine
 
@@ -97,7 +91,7 @@ Organized into 4 subfolders: Tech_Systems, Science_Health, Org_Risk_Policy, Sub.
 
 **Role**: Full coding engine.
 
----
+______________________________________________________________________
 
 ### 8. AMOS_Engineering_Math_Kernel
 
@@ -105,7 +99,7 @@ Organized into 4 subfolders: Tech_Systems, Science_Health, Org_Risk_Policy, Sub.
 
 **Role**: Engineering mathematics.
 
----
+______________________________________________________________________
 
 ## Science_Health (2 engines)
 
@@ -115,7 +109,7 @@ Organized into 4 subfolders: Tech_Systems, Science_Health, Org_Risk_Policy, Sub.
 
 **Role**: Scientific reasoning and evaluation.
 
----
+______________________________________________________________________
 
 ### 10. AMOS_Medical_Clinical_Kernel
 
@@ -123,7 +117,7 @@ Organized into 4 subfolders: Tech_Systems, Science_Health, Org_Risk_Policy, Sub.
 
 **Role**: Clinical structuring (non-diagnostic).
 
----
+______________________________________________________________________
 
 ## Org_Risk_Policy (5 engines)
 
@@ -133,7 +127,7 @@ Organized into 4 subfolders: Tech_Systems, Science_Health, Org_Risk_Policy, Sub.
 
 **Role**: Organizational governance design and analysis.
 
----
+______________________________________________________________________
 
 ### 12. AMOS_Policy_Geostrategy_Engine
 
@@ -141,7 +135,7 @@ Organized into 4 subfolders: Tech_Systems, Science_Health, Org_Risk_Policy, Sub.
 
 **Role**: Policy analysis and geostrategy.
 
----
+______________________________________________________________________
 
 ### 13. AMOS_Risk_Compliance_Engine
 
@@ -149,19 +143,21 @@ Organized into 4 subfolders: Tech_Systems, Science_Health, Org_Risk_Policy, Sub.
 
 **Role**: Risk and compliance management.
 
----
+______________________________________________________________________
 
 ### 14. AMOS_Governance_Economy_Engine
 
-**
+\*\*
 
----
+______________________________________________________________________
+
 **MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -169,12 +165,14 @@ Organized into 4 subfolders: Tech_Systems, Science_Health, Org_Risk_Policy, Sub.
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-engines-master-domain-engines
 node_type: reference
 path: 07_SKILLS/amos-engines-master/references/domain_engines.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

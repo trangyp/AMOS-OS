@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: unipower engines layer
 type: reference
 source: 07_SKILLS/amos-engines-master/references
 tags:
-- reference
-- amos-engines-master
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-engines-master
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -20,14 +23,11 @@ rscf:
 > Source: `_00_Cosmo brain/engine/A/amos-unipower-engines.md`
 > Epistemic class: SOURCE_DERIVED
 
----
-type: doc
-title: AMOS Unipower Engines — Full Inventory
-created: 2026-08-22
-tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-unipower-engines, engine]
----
+______________________________________________________________________
 
-# AMOS Unipower Engines — Full Inventory
+## type: doc title: AMOS Unipower Engines — Full Inventory created: 2026-08-22 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-unipower-engines, engine]
+
+## AMOS Unipower Engines — Full Inventory
 
 Unipower engines are the **country/sector-specific application layer** of AMOS. There are 20 Unipower engine files organized into country-specific (Vietnam, Australia, China) and cross-domain engines. Each Unipower engine maps to the AMOS omni-logic and can be orchestrated by the AMOS OS Agent with country-specific packs.
 
@@ -163,37 +163,37 @@ Unipower engines are the **country/sector-specific application layer** of AMOS. 
 
 ## Summary Table
 
-| # | Engine | Country/Domain | Type | Key Feature |
-|---|--------|---------------|------|-------------|
-| 1 | Vn_Legal_Engine | Vietnam | Legal | Transport, EV, energy, data, commercial |
-| 2 | Vn_Omnistructure_Engine | Vietnam | Structure | Compressed x100k virtual expansion |
-| 3 | VN_Legal_MAX | Vietnam | Legal | Full expansion MAX |
-| 4 | HSE_Engine | Vietnam | Human Systems | Vietnam HSE text |
-| 5 | HSE VN MD | Vietnam | Human Systems | Vietnam HSE markdown |
-| 6 | Australia_Economy_Engine | Australia | Economy | MEGAKERNEL x1000 |
-| 7 | Australia_Workforce_Engine | Australia | Workforce | Omniverse kernel |
-| 8 | Australia_Law_Incentives | Australia | Law | v2_full_plus_4_advanced_layers |
-| 9 | Chinese_Legal_Engine | China | Legal | Kernel+Engine composite |
-| 10 | Chinese_Legal_Ecosystem | China | Legal | Regulatory ecosystem modeling |
-| 11 | Global_Legal_Engine | Global | Legal | Multi-jurisdiction |
-| 12 | Risk_Policy_Governance | Global | Risk/Gov | Ecosystem_MAX + Governance_Economy_MAX |
-| 13 | Scientific_Engine | Global | Science | DSc-level godmode |
-| 14 | Uni_Ai_Intelligence | Cross-domain | AI/OS | UniPower/UniTaxi ecosystem |
-| 15 | Uni_Market_Engine | Cross-domain | Market | Refactored x100k |
-| 16 | Uni_System_Operations | Cross-domain | Ops | System operations |
-| 17 | Ev_Kernel | Cross-domain | EV | EV kernel (lightweight) |
-| 18 | Bod_Engine | Cross-domain | Governance | Board/executive |
-| 19 | Strategic_Document | Cross-domain | Writing | Strategic documents |
-| 20 | Tech_Engine | Cross-domain | Tech | General tech |
+| #   | Engine                     | Country/Domain | Type          | Key Feature                             |
+| --- | -------------------------- | -------------- | ------------- | --------------------------------------- |
+| 1   | Vn_Legal_Engine            | Vietnam        | Legal         | Transport, EV, energy, data, commercial |
+| 2   | Vn_Omnistructure_Engine    | Vietnam        | Structure     | Compressed x100k virtual expansion      |
+| 3   | VN_Legal_MAX               | Vietnam        | Legal         | Full expansion MAX                      |
+| 4   | HSE_Engine                 | Vietnam        | Human Systems | Vietnam HSE text                        |
+| 5   | HSE VN MD                  | Vietnam        | Human Systems | Vietnam HSE markdown                    |
+| 6   | Australia_Economy_Engine   | Australia      | Economy       | MEGAKERNEL x1000                        |
+| 7   | Australia_Workforce_Engine | Australia      | Workforce     | Omniverse kernel                        |
+| 8   | Australia_Law_Incentives   | Australia      | Law           | v2_full_plus_4_advanced_layers          |
+| 9   | Chinese_Legal_Engine       | China          | Legal         | Kernel+Engine composite                 |
+| 10  | Chinese_Legal_Ecosystem    | China          | Legal         | Regulatory ecosystem modeling           |
+| 11  | Global_Legal_Engine        | Global         | Legal         | Multi-jurisdiction                      |
+| 12  | Risk_Policy_Governance     | Global         | Risk/Gov      | Ecosystem_MAX + Governance_Economy_MAX  |
+| 13  | Scientific_Engine          | Global         | Science       | DSc-level godmode                       |
+| 14  | Uni_Ai_Intelligence        | Cross-domain   | AI/OS         | UniPower/UniTaxi ecosystem              |
+| 15  | Uni_Market_Engine          | Cross-domain   | Market        | Refactored x100k                        |
+| 16  | Uni_System_Operations      | Cross-domain   | Ops           | System operations                       |
+| 17  | Ev_Kernel                  | Cross-domain   | EV            | EV kernel (lightweight)                 |
+| 18  | Bod_Engine                 | Cross-domain   | Governance    | Board/executive                         |
+| 19  | Strategic_Document         | Cross-domain   | Writing       | Strategic documents                     |
+| 20  | Tech_Engine                | Cross-domain   | Tech          | General tech                            |
 
 ## Relationship to AMOS Core
 
 Unipower engines are the **country/sector-specific application layer** of AMOS:
 
 1. **Core**: Deterministic Logic and Law Engine
-2. **Cognitive Stack**: 13 domain-neutral reasoning engines
-3. **Domain Engines**: 17 domain-specific engines
-4. **Unipower**: 20 country/sector-specific engines (this document)
+1. **Cognitive Stack**: 13 domain-neutral reasoning engines
+1. **Domain Engines**: 17 domain-specific engines
+1. **Unipower**: 20 country/sector-specific engines (this document)
 
 Each Unipower engine maps to the AMOS omni-logic and can be orchestrated by the AMOS OS Agent with country-specific packs.
 
@@ -203,10 +203,12 @@ Each Unipower engine maps to the AMOS omni-logic and can be orchestrated by the 
 - `_00_Cosmo brain/engine/A/AMOS Domain Engines.md` — 17 domain engines (preceding layer)
 - `_00_Cosmo brain/engine/A/AMOS Engines Master.md` — 5 Super Engines that unify all layers
 
----
+______________________________________________________________________
+
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
-**MOC:** references_MOC
----
+  **MOC:** references_MOC
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -214,12 +216,14 @@ Each Unipower engine maps to the AMOS omni-logic and can be orchestrated by the 
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-engines-master-unipower-engines-layer
 node_type: reference
 path: 07_SKILLS/amos-engines-master/references/unipower_engines_layer.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

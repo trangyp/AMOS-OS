@@ -1,14 +1,17 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: 15 Homeostasis MOC
 type: moc
 source: 05_COGNITIVE_ORGANISM/15_HOMEOSTASIS
 tags:
-- 15-homeostasis
-- canon/cognitive
-- absolute-biological-integrity
-- bioelectromagnetic-intelligence-bei
-- somatic-intelligence-si
-- ubi-homeostasis
+  - 15-homeostasis
+  - canon/cognitive
+  - absolute-biological-integrity
+  - bioelectromagnetic-intelligence-bei
+  - somatic-intelligence-si
+  - ubi-homeostasis
 moc: true
 rscf:
   state: DERIVED
@@ -29,5 +32,6 @@ rscf:
 - [[05_COGNITIVE_ORGANISM/15_HOMEOSTASIS/SOMATIC_INTELLIGENCE_SI|SOMATIC_INTELLIGENCE_SI]]
 - [[05_COGNITIVE_ORGANISM/15_HOMEOSTASIS/UBI_HOMEOSTASIS|UBI_HOMEOSTASIS]]
 
----
+______________________________________________________________________
+
 **Parent:** [[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC|05_COGNITIVE_ORGANISM_MOC]]

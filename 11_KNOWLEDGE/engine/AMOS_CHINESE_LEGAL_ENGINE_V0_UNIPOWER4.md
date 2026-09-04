@@ -1,4 +1,7 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: AMOS CHINESE LEGAL ENGINE V0 UNIPOWER4
 type: engine
 source: 11_KNOWLEDGE/engine
@@ -7,14 +10,19 @@ canon-type: framework
 rscf-state: source-claim
 topic: amos-chinese-legal-engine-v0
 tags:
-- canon-group/tech-ai
-- canon/framework
-- rscf/claim
-- rscf/provenance
-- rscf/state/source-claim
-- topic/amos-chinese-legal-engine-v0
-- engine
+  - canon-group/tech-ai
+  - canon/framework
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - topic/amos-chinese-legal-engine-v0
+  - engine
 created: 2026-08-22
+status: ACTIVE_SPECIFICATION
+epistemic_class: AMOS_MODEL
+conclusion_class: DERIVED
+canonical_status: CANONICAL_ENGINE
+updated: 2026-09-04
 rscf:
   state: AMOS_MODEL
   claim_class: AMOS_MODEL
@@ -24,18 +32,163 @@ rscf:
 
 # AMOS CHINESE LEGAL ENGINE V0 UNIPOWER4
 
-```json
-[
-  {
-    "autofixed_raw": "{\n  \"meta\": {\n    \"name\": \"AMOS_Chinese_Legal_System_Kernel_Engine_vInfinity_SUPER\",\n    \"version\": \"v1.0.0\",\n    \"author\": \"Trang Phan\",\n    \"type\": \"Kernel_Engine_Composite\",\n    \"language\": \"English\",\n    \"description\": \"Deterministic kernel+engine for structurally modeling Chinese law and regulations across all domains (civil, commercial, administrative, criminal, tax, IP, data, labour, environment, finance, etc.). Conceptual only; not legal advice.\",\n    \"created_at_utc\": \"2025-11-28T09:38:41.297746Z\",\n    \"density_profile\": \"kernel_x100k_virtual\"\n  },\n  \"scope\": {\n    \"legal_domains\": [\n      \"constitutional_and_state_structure\",\n      \"civil_and_contract\",\n      \"company_and_corporate_governance\",\n      \"securities_and_capital_markets\",\n      \"banking_and_finance\",\n      \"competition_and_antitrust\",\n      \"consumer_protection\",\n      \"intellectual_property\",\n      \"data_and_cybersecurity\",\n      \"labour_and_employment\",\n      \"social_security\",\n      \"environment_and_resource\",\n      \"taxation\",\n      \"administrative_law_and_procedure\",\n      \"criminal_law_and_procedure\",\n      \"procedural_law_civil\",\n      \"procedural_law_administrative\",\n      \"procedural_law_criminal\",\n      \"foreign_investment_and_trade\",\n      \"maritime_and_transport\",\n      \"family_and_inheritance\"\n    ],\n    \"instrument_types\": [\n      \"constitution_and_basic_law\",\n      \"national_statute\",\n      \"national_standing_committee_interpretation\",\n      \"administrative_regulation_state_council\",\n      \"judicial_interpretation_supreme_court\",\n      \"judicial_interpretation_supreme_procuratorate\",\n      \"local_regulation_provincial\",\n      \"local_regulation_municipal\",\n      \"departmental_rule_ministry_commission\",\n      \"normative_document_guidance\",\n      \"treaty_and_international_agreement\",\n      \"judicial_guiding_case\",\n      \"arbitration_rule\"\n    ],\n    \"integration_refs\": [\n      \"Policy_Geostrategy_Kernel_vInfinity_SUPER\",\n      \"Risk_Compliance_Kernel_vInfinity_SUPER\",\n      \"BizFin_Kernel_vInfinity\",\n      \"AMOS_C09_org_law_policy\",\n      \"AMOS_BRAIN_SUPER_with_C_CANON\",\n      \"AMOS_C_CANON_SUPER_CLEAN_x100k\"\n    ],\n    \"disclaimer\": \"This structure is conceptual and educational. It does not provide legal advice, official interpretations, or live statute/case content.\"\n  },\n  \"kernel\": {\n    \"axes\": [\n      {\n        \"id\": \"AX01\",\n        \"key\": \"legal_domain\",\n        \"values\": [\n          \"constitutional_and_state_structure\",\n          \"civil_and_contract\",\n          \"company_and_corporate_governance\",\n          \"securities_and_capital_markets\",\n          \"banking_and_finance\",\n          \"competition_and_antitrust\",\n          \"consumer_protection\",\n          \"intellectual_property\",\n          \"data_and_cybersecurity\",\n          \"labour_and_employment\",\n          \"social_security\",\n          \"environment_and_resource\",\n          \"taxation\",\n          \"administrative_law_and_procedure\",\n          \"criminal_law_and_procedure\",\n          \"procedural_law_civil\",\n          \"procedural_law_administrative\",\n          \"procedural_law_criminal\",\n          \"foreign_investment_and_trade\",\n          \"maritime_and_transport\",\n          \"family_and_inheritance\"\n        ]\n      },\n      {\n        \"id\": \"AX02\",\n        \"key\": \"instrument_type\",\n        \"values\": [\n          \"constitution_and_basic_law\",\n          \"national_statute\",\n          \"national_standing_committee_interpretation\",\n          \"administrative_regulation_state_council\",\n          \"judicial_interpretation_supreme_court\",\n          \"judicial_interpretation_supreme_procuratorate\",\n          \"local_regulation_provincial\",\n          \"local_regulation_municipal\",\n          \"departmental_rule_ministry_commission\",\n          \"normative_document_guidance\",\n          \"treaty_and_international_agreement\",\n          \"judicial_guiding_case\",\n          \"arbitration_rule\"\n        ]\n      },\n      {\n        \"id\": \"AX03\",\n        \"key\": \"jurisdiction_level\",\n        \"values\": [\n          \"national\",\n          \"provincial\",\n          \"subprovincial_city\",\n          \"county_or_district\",\n          \"special_zone\"\n        ]\n      },\n      {\n        \"id\": \"AX04\",\n        \"key\": \"forum_type\",\n        \"values\": [\n          \"supreme_court\",\n          \"high_court\",\n          \"intermediate_court\",\n          \"basic_court\",\n          \"specialized_court\",\n          \"arbitration_commission\",\n          \"administrative_agency\",\n          \"tax_authority\",\n          \"market_regulator\",\n          \"competition_authority\",\n          \"data_cyber_regulator\",\n          \"environment_regulator\",\n          \"labour_dispute_body\"\n        ]\n      },\n      {\n        \"id\": \"AX05\",\n        \"key\": \"proceeding_type\",\n        \"values\": [\n          \"substantive_rule_interpretation\",\n          \"legislative_drafting\",\n          \"consultation_and_comment\",\n          \"administrative_licensing\",\n          \"administrative_enforcement\",\n          \"administrative_penalty\",\n          \"civil_dispute_resolution\",\n          \"commercial_dispute_resolution\",\n          \"labour_dispute_resolution\",\n          \"tax_assessment_and_dispute\",\n          \"criminal_investigation\",\n          \"criminal_trial\",\n          \"appeal_or_retrial\",\n          \"arbitration_proceeding\",\n          \"mediation\"\n        ]\n      },\n      {\n        \"id\": \"AX06\",\n        \"key\": \"party_type\",\n        \"values\": [\n          \"state_body\",\n          \"state_owned_enterprise\",\n          \"private_company_domestic\",\n          \"foreign_invested_enterprise\",\n          \"financial_institution\",\n          \"platform_company\",\n          \"small_and_micro_enterprise\",\n          \"individual_citizen\",\n          \"foreign_individual_or_entity\"\n        ]\n      },\n      {\n        \"id\": \"AX07\",\n        \"key\": \"time_horizon\",\n        \"values\": [\n          \"ex_ante_structuring\",\n          \"ongoing_compliance\",\n          \"incident_response\",\n          \"enforcement_stage\",\n          \"post_enforcement_rectification\",\n          \"long_term_law_or_policy_change\"\n        ]\n      },\n      {\n        \"id\": \"AX08\",\n        \"key\": \"risk_severity\",\n        \"values\": [\n          \"low_compliance_risk\",\n          \"medium_compliance_risk\",\n          \"high_compliance_risk\",\n          \"administrative_high_risk\",\n          \"criminal_exposure\"\n        ]\n      },\n      {\n        \"id\": \"AX09\",\n        \"key\": \"cross_border_dimension\",\n        \"values\": [\n          \"purely_domestic\",\n          \"foreign_investment_entry\",\n          \"cross_border_trade_goods\",\n          \"cross_border_trade_services\",\n          \"data_cross_border_flow\",\n          \"overseas_listing_or_financing\",\n          \"sanctions_and_export_control_related\"\n        ]\n      },\n      {\n        \"id\": \"AX10\",\n        \"key\": \"digitalisation_level\",\n        \"values\": [\n          \"paper_based\",\n          \"mixed_analog_digital\",\n          \"fully_digital\",\n          \"platform_based_procedures\"\n        ]\n      },\n      {\n        \"id\": \"AX11\",\n        \"key\": \"policy_priority\",\n        \"values\": [\n          \"policy_neutral\",\n          \"policy_encouraged\",\n          \"policy_restricted\",\n          \"policy_phase_out\"\n        ]\n      },\n      {\n        \"id\": \"AX12\",\n        \"key\": \"interpretive_source\",\n        \"values\": [\n          \"statutory_text_only\",\n          \"statute_plus_judicial_interpretation\",\n          \"statute_plus_admin_guidance\",\n          \"statute_plus_local_regulation\",\n          \"statute_plus_guiding_cases\",\n          \"mixed_multi_source\"\n        ]\n      }\n    ],\n    \"dimensions_32\": [\n      {\n        \"id\": \"D01\",\n        \"name\": \"Norm_Hierarchy_Clarity\",\n        \"description\": \"Clarity of hierarchy between Constitution, statutes, regulations, rules, and interpretations.\"\n      },\n      {\n        \"id\": \"D02\",\n        \"name\": \"Rule_Clarity_and_Specificity\",\n        \"description\": \"How clearly the rules define rights, obligations, and prohibitions.\"\n      },\n      {\n        \"id\": \"D03\",\n        \"name\": \"Interpretation_Availability\",\n        \"description\": \"Availability of judicial interpretations, guidance, and precedents for the issue.\"\n      },\n      {\n        \"id\": \"D04\",\n        \"name\": \"Local_Uniformity\",\n        \"description\": \"Degree of uniform application across provinces and localities.\"\n      },\n      {\n        \"id\": \"D05\",\n        \"name\": \"Enforcement_Predictability\",\n        \"description\": \"Consistency and predictability of enforcement outcomes.\"\n      },\n      {\n        \"id\": \"D06\",\n        \"name\": \"Enforcement_Intensity\",\n        \"description\": \"Typical severity and frequency of enforcement in the domain.\"\n      },\n      {\n        \"id\": \"D07\",\n        \"name\": \"Procedural_Transparency\",\n        \"description\": \"Visibility of procedures, criteria, and decision-making processes.\"\n      },\n      {\n        \"id\": \"D08\",\n        \"name\": \"Procedural_Safeguards\",\n        \"description\": \"Availability of hearing, defence, representation, and appeal safeguards.\"\n      },\n      {\n        \"id\": \"D09\",\n        \"name\": \"Evidence_Standards_Clarity\",\n        \"description\": \"Clarity of evidence rules and standards for decision-making.\"\n      },\n      {\n        \"id\": \"D10\",\n        \"name\": \"Remedies_and_Sanctions_Clarity\",\n        \"description\": \"Definition of available remedies and sanctions and their ranges.\"\n      },\n      {\n        \"id\": \"D11\",\n        \"name\": \"Institutional_Capacity\",\n        \"description\": \"Capacity and expertise of the relevant courts or agencies.\"\n      },\n      {\n        \"id\": \"D12\",\n        \"name\": \"Case_Handling_Timeliness\",\n        \"description\": \"Typical timeframes for handling cases or procedures.\"\n      },\n      {\n        \"id\": \"D13\",\n        \"name\": \"Compliance_Burden\",\n        \"description\": \"Complexity and cost of implementing required controls and documentation.\"\n      },\n      {\n        \"id\": \"D14\",\n        \"name\": \"Cross_Border_Compatibility\",\n        \"description\": \"Compatibility with foreign legal expectations and treaties (where relevant).\"\n      },\n      {\n        \"id\": \"D15\",\n        \"name\": \"Sector_Specificity\",\n        \"description\": \"Degree to which sector-specific rules refine or complicate the baseline regime.\"\n      },\n      {\n        \"id\": \"D16\",\n        \"name\": \"Regulatory_Overlap\",\n        \"description\": \"Extent of overlapping jurisdiction between agencies and legal regimes.\"\n      },\n      {\n        \"id\": \"D17\",\n        \"name\": \"Dispute_Resolution_Options\",\n        \"description\": \"Availability of courts, arbitration, mediation, and administrative reconsideration.\"\n      },\n      {\n        \"id\": \"D18\",\n        \"name\": \"Predictability_of_Remedies\",\n        \"description\": \"Predictability of compensation, penalties, or other remedies.\"\n      },\n      {\n        \"id\": \"D19\",\n        \"name\": \"Documentation_and_Record_Requirements\",\n        \"description\": \"Breadth and depth of record-keeping required for compliance and defence.\"\n      },\n      {\n        \"id\": \"D20\",\n        \"name\": \"Policy_Change_Frequency\",\n        \"description\": \"How frequently legal rules and policies in the domain change.\"\n      },\n      {\n        \"id\": \"D21\",\n        \"name\": \"Policy_Alignment\",\n        \"description\": \"Alignment with overarching policy goals and development plans.\"\n      },\n      {\n        \"id\": \"D22\",\n        \"name\": \"Risk_Concentration\",\n        \"description\": \"Concentration of risk in specific actors or transactions.\"\n      },\n      {\n        \"id\": \"D23\",\n        \"name\": \"Human_Impact_and_Right_Sensitivity\",\n        \"description\": \"Impact on personal rights, livelihoods, and social stability.\"\n      },\n      {\n        \"id\": \"D24\",\n        \"name\": \"Economic_Impact_Significance\",\n        \"description\": \"Scale of potential economic impact of compliance failure or enforcement.\"\n      },\n      {\n        \"id\": \"D25\",\n        \"name\": \"Digital_and_Platform_Interaction\",\n        \"description\": \"Involvement of digital platforms, e-courts, or online enforcement systems.\"\n      },\n      {\n        \"id\": \"D26\",\n        \"name\": \"Evidence_and_Precedent_Strength\",\n        \"description\": \"Depth of available cases, guiding cases, and interpretations in the domain.\"\n      },\n      {\n        \"id\": \"D27\",\n        \"name\": \"Implementation_Readiness\",\n        \"description\": \"Clarity of practical steps to meet legal and regulatory requirements.\"\n      },\n      {\n        \"id\": \"D28\",\n        \"name\": \"Internal_Control_Requirement\",\n        \"description\": \"Strength and complexity of internal control and compliance system requirements.\"\n      },\n      {\n        \"id\": \"D29\",\n        \"name\": \"Third_Party_and_Ecosystem_Dependence\",\n        \"description\": \"Dependence on third-party service providers or ecosystem partners to comply.\"\n      },\n      {\n        \"id\": \"D30\",\n        \"name\": \"Systemic_Risk_Contribution\",\n        \"description\": \"Potential for failure in the domain to create broader systemic or sectoral risk.\"\n      },\n      {\n        \"id\": \"D31\",\n        \"name\": \"International_Scrutiny_Level\",\n        \"description\": \"Extent of international focus, reporting, or scrutiny on the domain.\"\n      },\n      {\n        \"id\": \"D32\",\n        \"name\": \"Overall_Legal_Risk_Level\",\n        \"description\": \"Composite measure of legal and enforcement risk.\"\n      }\n    ],\n    \"tensor\": {\n      \"structure\": \"axes[12] x dimensions[32]\",\n      \"notes\": \"Any Chinese legal/regulatory question is represented as a tensor point defined by domain, instrument, jurisdiction, forum, proceeding type, party type, time horizon, risk level, cross-border aspects, digitalisation, policy priority, and interpretive sources.\"\n    },\n    \"mapping_functions\": {\n      \"F_normalize_legal_query\": {\n        \"input\": [\n          \"raw_query\"\n        ],\n        \"output\": \"CN_LAW_INPUT\",\n        \"logic\": \"Extract domain(s), instrument focus, parties, forum, time horizon, risk level, and cross-border aspects from text.\"\n      },\n      \"F_map_axes\": {\n        \"input\": [\n          \"CN_LAW_INPUT\"\n        ],\n        \"output\": \"axes_state\",\n        \"logic\": \"Map CN_LAW_INPUT onto the 12 axes using explicit information and safe defaults where unspecified.\"\n      },\n      \"F_dimension_profile\": {\n        \"input\": [\n          \"CN_LAW_INPUT\",\n          \"axes_state\"\n        ],\n        \"output\": \"dimension_weights_32d\",\n        \"logic\": \"Set an importance profile across the 32 dimensions (clarity, predictability, enforcement intensity, etc.).\"\n      },\n      \"F_stateframe\": {\n        \"input\": [\n          \"axes_state\",\n          \"dimension_weights_32d\"\n        ],\n        \"output\": \"cn_law_stateframe\",\n        \"logic\": \"Instantiate a kernel state used by downstream engine modes (mapping, risk evaluation, design).\"\n      }\n    },\n    \"policies\": {\n      \"safety\": {\n        \"no_specific_legal_advice\": true,\n        \"no_prediction_of_exact_case_outcomes\": true,\n        \"always_recommend_licensed_counsel\": true\n      },\n      \"language\": {\n        \"no_metaphor\": true,\n        \"tone\": \"structural_clarity\",\n        \"no_normative_judgment\": true\n      },\n      \"data\": {\n        \"no_fabricated_statutes_or_cases\": true,\n        \"must_flag_assumptions\": true\n      },\n      \"governance\": {\n        \"anchor_to_MetaKernel_01\": \"Deterministic law, identity continuity, and boundary compliance apply.\",\n        \"non_substitution_clause\": \"This kernel cannot substitute for up-to-date legal databases and professional analysis.\"\n      }\n    },\n    \"routing\": {\n      \"by_objective\": [\n        {\n          \"pattern\": \"map_law|what_laws_apply|legal_framework\",\n          \"mode\": \"cn_law_mapping\"\n        },\n        {\n          \"pattern\": \"compliance|controls|policies|internal_rules\",\n          \"mode\": \"cn_law_compliance_design\"\n        },\n        {\n          \"pattern\": \"risk|exposure|liability|penalty\",\n          \"mode\": \"cn_law_risk_evaluation\"\n        },\n        {\n          \"pattern\": \"dispute|litigation|arbitration|appeal\",\n          \"mode\": \"cn_law_dispute_pathways\"\n        },\n        {\n          \"pattern\": \"reform|policy_option|legal_change|scenario\",\n          \"mode\": \"cn_law_reform_options\"\n        }\n      ]\n    }\n  },\n  \"engine\": {\n    \"modes\": {\n      \"cn_law_mapping\": {\n        \"description\": \"High-level mapping of relevant legal domains, instruments, forums, and interpretive sources for a scenario.\",\n        \"pipeline\": [\n          \"F_normalize_legal_query\",\n          \"F_map_axes\",\n          \"F_dimension_profile\",\n          \"F_stateframe\",\n          \"CN_LAW_applicable_domain_map\",\n          \"CN_LAW_instrument_and_forum_overview\"\n        ]\n      },\n      \"cn_law_compliance_design\": {\n        \"description\": \"Design of internal compliance structures, policies, and controls aligned with identified legal obligations.\",\n        \"pipeline\": [\n          \"F_normalize_legal_query\",\n          \"F_map_axes\",\n          \"F_dimension_profile\",\n          \"F_stateframe\",\n          \"CN_LAW_obligation_and_control_matrix\",\n          \"CN_LAW_compliance_system_blueprint\"\n        ]\n      },\n      \"cn_law_risk_evaluation\": {\n        \"description\": \"Evaluation of legal and regulatory risk based on domain, enforcement patterns, and party characteristics.\",\n        \"pipeline\": [\n          \"F_normalize_legal_query\",\n          \"F_map_axes\",\n          \"F_dimension_profile\",\n          \"F_stateframe\",\n          \"CN_LAW_dimension_risk_scorecard\",\n          \"CN_LAW_risk_heatmap\",\n          \"CN_LAW_mitigation_option_outline\"\n        ]\n      },\n      \"cn_law_dispute_pathways\": {\n        \"description\": \"Mapping of possible dispute resolution pathways (court, arbitration, admin reconsideration, mediation).\",\n        \"pipeline\": [\n          \"F_normalize_legal_query\",\n          \"F_map_axes\",\n          \"F_dimension_profile\",\n          \"F_stateframe\",\n          \"CN_LAW_forum_and_pathway_options\",\n          \"CN_LAW_pros_and_cons_matrix\"\n        ]\n      },\n      \"cn_law_reform_options\": {\n        \"description\": \"Scenario and reform options at the level of legal design or policy adjustment (conceptual only).\",\n        \"pipeline\": [\n          \"F_normalize_legal_query\",\n          \"F_map_axes\",\n          \"F_dimension_profile\",\n          \"F_stateframe\",\n          \"CN_LAW_scenario_set\",\n          \"CN_LAW_impact_and_risk_view\",\n          \"CN_LAW_potential_reform_paths\"\n        ]\n      }\n    },\n    \"components\": {\n      \"scorecards\": [\n        \"dimension_scorecard_0_100\",\n        \"axis_profile\",\n        \"legal_risk_heatmap\"\n      ],\n      \"artefact_templates\": {\n        \"docs\": [\n          \"cn_law_framework_mapping_memo\",\n          \"cn_law_compliance_design_memo\",\n          \"cn_law_risk_assessment_report\",\n          \"cn_law_dispute_pathway_brief\",\n          \"cn_law_reform_and_scenario_note\"\n        ],\n        \"decks\": [\n          \"exec_cn_law_risk_overview\",\n          \"board_cn_law_compliance_update\",\n          \"cn_law_structural_change_deck\"\n        ],\n        \"tables\": [\n          \"cn_law_obligation_control_matrix\",\n          \"cn_law_domain_instrument_forum_table\",\n          \"cn_law_dispute_pathway_comparison_matrix\"\n        ]\n      }\n    },\n    \"integration_links\": {\n      \"kernel_level\": [\n        \"kernel.axes\",\n        \"kernel.dimensions_32\",\n        \"kernel.tensor\",\n        \"kernel.mapping_functions\",\n        \"kernel.policies\",\n        \"kernel.routing\"\n      ],\n      \"engine_level_refs\": [\n        \"Policy_Geostrategy_Kernel_vInfinity_SUPER\",\n        \"Risk_Compliance_Kernel_vInfinity_SUPER\",\n        \"BizFin_Kernel_vInfinity\"\n      ],\n      \"notes\": [\n        \"Provides a structural Chinese law/regulation lens for policy, risk, and business kernels.\",\n        \"Must be used with live legal databases and qualified counsel for any real-world application.\"\n      ]\n    }\n  },\n  \"benchmarks\": {\n    \"global_reference_frameworks\": [\n      \"Comparative civil-law codification structures (conceptual reference to hierarchy and domains).\",\n      \"Rule-of-law and legal system assessment indices (conceptual metrics for clarity, predictability, and enforcement).\",\n      \"Global corporate compliance frameworks covering multi-domain legal obligations (conceptual structures).\"\n    ],\n    \"coverage_matrix\": {\n      \"legal_domain_coverage\": {\n        \"target\": \"global_best_conceptual\",\n        \"coverage_vs_target\": 1.0,\n        \"notes\": \"Includes all major Chinese legal domains at structural level; does not embed statute texts.\"\n      },\n      \"instrument_and_hierarchy_structure\": {\n        \"target\": \"global_best_conceptual\",\n        \"coverage_vs_target\": 1.0,\n        \"notes\": \"Models main instrument types and hierarchy conceptually; requires external sources for details.\"\n      },\n      \"risk_and_compliance_structuring\": {\n        \"target\": \"global_best_conceptual\",\n        \"coverage_vs_target\": 1.0,\n        \"notes\": \"Provides full mapping, compliance design, and risk evaluation structures across domains.\"\n      }\n    },\n    \"limitations\": [\n      \"Does not provide legal advice or official interpretations.\",\n      \"Does not contain real statute, regulation, case, or enforcement data.\",\n      \"All practical use must be reviewed and validated by licensed legal professionals.\"\n    ]\n  },\n  \"expansion\": {\n    \"virtual_layer_count\": 100000,\n    \"axes\": [\n      \"legal_domain\",\n      \"instrument_type\",\n      \"jurisdiction_level\",\n      \"forum_type\",\n      \"proceeding_type\",\n      \"party_type\",\n      \"time_horizon\",\n      \"risk_severity\",\n      \"cross_border_dimension\",\n      \"digitalisation_level\",\n      \"policy_priority\",\n      \"interpretive_source\",\n      \"mode\"\n    ],\n    \"notes\": [\n      \"Any concrete scenario involving Chinese law and regulations can be instantiated as a point in this tensor.\",\n      \"Kernel+engine composition ensures structural coverage of all legal domains while remaining conceptual and non-prescriptive.\"\n    ]\n  }\n}\n\"overlooked_elements_scanner_layer\": {\n  \"description\": \"Scans for structurally under-recognised incentives and constraints by cross-checking program landscapes, sectors, and funding stacks.\",\n  \"dimensions\": [\n    \"underutilised_program_archetypes\",\n    \"unusual_combinations_of_instruments\",\n    \"hidden_administrative_constraints\",\n    \"reporting_and_audit_burden_hotspots\",\n    \"policy_gray_zones_and_ambiguities\"\n  ],\n  \"outputs\": [\n    \"potentially_underused_structural_options\",\n    \"high_friction_procedural_segments\",\n    \"areas_requiring_professional_legal_or_tax_review\"\n  ],\n  \"must_not\": [\n    \"design_or_recommend_evasion_schemes\",\n    \"treat_gray_zones_as_exploitable_loopholes\",\n    \"present_structural_observations_as_legal_or_tax_advice\"\n  ]\n}",
-    "_autofix_note": "Could not auto-parse; original text preserved here."
-  }
-]
+> **Origin Architect / Steward:** Trang Phan
+> **Epistemic Class:** `AMOS_MODEL`
+> **Conclusion Class:** `DERIVED`
+> **Status:** `ACTIVE_SPECIFICATION`
+> **Governing Plane:** `11_KNOWLEDGE/engine`
 
 ---
-**Related:**  ·  ·  ·  ·
+
+## 1. Architectural Scope
+
+The **AMOS Chinese Legal Engine** (vInfinity SUPER, UniPower4) is a deterministic kernel+engine composite for structurally modeling Chinese law and regulations across all domains: civil, commercial, administrative, criminal, tax, IP, data, labour, environment, and finance. It is conceptual only and does not provide legal advice.
+
+This engine exists to provide a **structural map** of the Chinese legal-regulatory ecosystem, including institutions, instruments, enforcement modes, and cross-border interactions. It operates on the hierarchy of legal instruments from the PRC Constitution down to departmental rules and normative documents.
+
+**Epistemic Boundary:**
+```
+MODEL != OBSERVATION
+DOCUMENTED != IMPLEMENTED
+CAPABILITY != AUTHORITY
+STRUCTURAL_MAP != LEGAL_ADVICE
+CONCEPTUAL_ONLY != LIVE_STATUTE
+```
+
+**Legal Domains Covered:**
+constitutional, civil/contract, company/corporate, securities, banking/finance, competition/antitrust, consumer protection, IP, data/cybersecurity, labour/employment, social security, environment/resource, taxation, administrative law, criminal law, procedural law (civil/administrative/criminal), foreign investment/trade, maritime/transport, family/inheritance.
+
+**Instrument Hierarchy:**
+Constitution > National Statute > NPCSC Interpretation > State Council Regulation > Supreme Court Interpretation > Local Regulation > Departmental Rule > Normative Document > Treaty/International Agreement > Judicial Guiding Case.
+
+**Routing Modes:**
+- `cn_law_mapping` -- High-level mapping of domains and instruments
+- `cn_law_compliance_design` -- Design of internal compliance structures
+- `cn_law_risk_evaluation` -- Evaluation of legal and regulatory risk
+- `cn_law_dispute_pathways` -- Mapping of dispute resolution pathways
+- `cn_law_reform_options` -- Scenario and reform options at the policy level
+
+**Inputs:** `CN_LAW_INPUT{domain, instrument_type, jurisdiction_level, entity_type, cross_border, time_horizon}`
+**Outputs:** `CN_LAW_MAP{instrument_hierarchy[], compliance_structure[], risk_profile[], dispute_pathways[], reform_scenarios[]}`
+
+**Quality Axes:** Domain coverage, instrument hierarchy accuracy, enforcement mode mapping, cross-border dimension, transparency assessment, temporal validity, sector criticality, digitalisation level, policy priority alignment.
+
+---
+
+## 2. Governing Invariants
+
+| ID | Invariant | Description |
+|----|-----------|-------------|
+| INV-CN-001 | Conceptual-Only Boundary | Engine provides structural modeling only; never legal advice, never live statute text |
+| INV-CN-002 | Instrument Hierarchy Preservation | Legal instruments must be ordered by the constitutional hierarchy; no inversion |
+| INV-CN-003 | Domain Completeness Check | All 21 legal domains must be addressable; partial coverage must be flagged |
+| INV-CN-004 | Cross-Border Flagging | Any matter involving foreign investment, trade, or extraterritorial reach must be flagged |
+| INV-CN-005 | Enforcement Mode Mapping | Each instrument must carry an enforcement mode classification |
+| INV-CN-006 | Temporal Validity | All references must carry validity timestamps; Chinese law changes rapidly |
+| INV-CN-007 | No Binding Opinion | Engine must never produce eligibility determinations or binding legal opinions |
+
+---
+
+## 3. Mathematical Formulation
+
+**Instrument authority weight in hierarchy:**
+
+$$W(i) = \frac{1}{1 + \text{Rank}(i)} \cdot \text{Validity}(i, t)$$
+
+where $\text{Rank}(i)$ is the position in the constitutional hierarchy (0 = Constitution) and $\text{Validity}(i, t)$ is a temporal validity function.
+
+**Compliance structural completeness:**
+
+$$C_{\text{compliance}} = \frac{|\text{Covered}(D)|}{|D|} \cdot \frac{\sum_{i} W(i) \cdot \text{EnforcementActive}(i)}{\sum_{i} W(i)}$$
+
+where $D$ is the set of applicable legal domains.
+
+**Risk profile aggregation:**
+
+$$R = \sum_{d \in D} \alpha_d \cdot r_d \cdot (1 + \text{CrossBorder}(d)) \cdot (1 + \text{SectorCriticality}(d))$$
+
+---
+
+## 4. Architecture
+
+```mermaid
+graph TD
+    A[CN_LAW_INPUT] --> B[Domain Classification]
+    B --> C[Instrument Hierarchy Resolution]
+    C --> D[Enforcement Mode Mapping]
+    D --> E{Routing Mode}
+    E -->|mapping| F[Structural Map]
+    E -->|compliance| G[Compliance Design]
+    E -->|risk| H[Risk Evaluation]
+    E -->|dispute| I[Dispute Pathways]
+    E -->|reform| J[Reform Scenarios]
+    F --> K[Output Synthesis]
+    G --> K
+    H --> K
+    I --> K
+    J --> K
+    K --> L[CN_LAW_MAP]
+    D -.->|flag| M[Cross-Border Flag]
+    M --> L
 ```
 
 ---
-**MOC:** [[11_KNOWLEDGE/engine/ENGINE_MOC|ENGINE_MOC]]
 
+## 5. MECE Mapping to AMOS Full Brain OS
+
+| Engine Component | AMOS Plane | Role |
+|------------------|------------|------|
+| Domain Classification | `11_KNOWLEDGE` | Knowledge retrieval and routing |
+| Instrument Hierarchy Resolution | `16_SCHEMAS` | Schema hierarchy matching |
+| Enforcement Mode Mapping | `12_STATE` | State constraint evaluation |
+| Compliance Design | `03_CONTROL_PLANE` | Control structure generation |
+| Risk Evaluation | `06_INTELLIGENCE` | Risk assessment layer |
+| Dispute Pathways | `13_MODELS` | Pathway modelling |
+| Reform Scenarios | `22_RESEARCH` | Policy research |
+| Cross-Border Flagging | `03_CONTROL_PLANE` | Safety gate |
+| Output Synthesis | `04_RUNTIME` | Output generation |
+
+---
+
+## 6. Safety Invariants & Firewalls
+
+| ID | Firewall | Enforcement |
+|----|----------|-------------|
+| INV-CN-FW-001 | No Legal Advice | Output must contain structural disclaimer; violation blocks output |
+| INV-CN-FW-002 | No Live Statute | Engine must not present statute text as current or authoritative |
+| INV-CN-FW-003 | Cross-Border Mandatory Flag | Foreign investment/trade matters must be flagged for specialist review |
+| INV-CN-FW-004 | Data/Cybersecurity Sensitivity | Data and cybersecurity domain outputs must carry heightened risk flag |
+| INV-CN-FW-005 | No Government Impersonation | Engine must never represent itself as a Chinese government agency |
+
+---
+
+## 7. Navigation & Bindings
+
+- **Parent MOC:** [[11_KNOWLEDGE/engine/ENGINE_MOC|ENGINE_MOC]]
+- **Knowledge MOC:** [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]]
+- **Sibling Engine:** [[11_KNOWLEDGE/engine/AMOS_AUSTRALIA_LAW_INCENTIVES_FUNDING_GRANTS_ENGINE_V0_UNIPOWER4|AMOS_AUSTRALIA_LAW_INCENTIVES_FUNDING_GRANTS_ENGINE_V0_UNIPOWER4]]
+- **China Engines Model:** [[11_KNOWLEDGE/engine/AMOS_CHINA_ENGINES_MODEL|AMOS_CHINA_ENGINES_MODEL]]
+- **Governance Engine:** [[11_KNOWLEDGE/engine/AMOS_GOV_ENGINE_V0_SECTOR_PACKS7|AMOS_GOV_ENGINE_V0_SECTOR_PACKS7]]
+- **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+- **Core Laws:** [[01_CANON/01_CORE_LAWS/AMOS_CORE_LAWS|01_CORE_LAWS]]
+- **Kernel Plane:** [[02_KERNEL/02_KERNEL_MOC|02_KERNEL_MOC]]
+
+---
+
+## 8. Known Gaps & Falsifiers
+
+| ID | Gap | Impact | Action |
+|----|-----|--------|--------|
+| GAP-CN-001 | No live statute database | Instrument references are structural, not textual | Flag all references as conceptual mapping |
+| GAP-CN-002 | Judicial interpretation currency | Supreme Court interpretations update frequently | Temporal validity flag required |
+| GAP-CN-003 | Local regulation coverage | Provincial and municipal regulations are highly variable | Mark local-level mappings as partial |
+| GAP-CN-004 | Cross-border enforcement depth | Extraterritorial enforcement is complex and evolving | Flag for specialist cross-border review |
+| GAP-CN-005 | Data/cybersecurity rapid evolution | PIPL, DSL, CSL and implementing rules change rapidly | Heightened temporal staleness threshold for data domain |
+
+---
+
+**Related:** [[00_ROOT/00_HOME|00_HOME]] | [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] | [[11_KNOWLEDGE/engine/AMOS_CHINA_ENGINES_MODEL|AMOS_CHINA_ENGINES_MODEL]] | [[11_KNOWLEDGE/engine/AMOS_GOV_ENGINE_V0_SECTOR_PACKS7|AMOS_GOV_ENGINE_V0_SECTOR_PACKS7]]
+
+______________________________________________________________________
+
+**MOC:** [[11_KNOWLEDGE/engine/ENGINE_MOC|ENGINE_MOC]]

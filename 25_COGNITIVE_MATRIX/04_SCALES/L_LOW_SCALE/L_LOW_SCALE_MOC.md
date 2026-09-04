@@ -1,20 +1,23 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: L Low Scale MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/04_SCALES/L_LOW_SCALE
 tags:
-- l-low-scale
-- domain/cognitive-matrix
-- l-low-scale-scales-cognitive-matrix-rscf
-- scales-cognitive-matrix-boundaries
-- scales-cognitive-matrix-semantics
-- l-low-scale-scales-cognitive-matrix-control-planes
-- l-low-scale-scales-cognitive-matrix-definition
-- l-low-scale-scales-cognitive-matrix-dependencies
-- l-low-scale-scales-cognitive-matrix-gap-matrix
-- l-low-scale-scales-cognitive-matrix-invariants
-- l-low-scale-scales-cognitive-matrix-tests
-- scales-cognitive-matrix-translation-rules
+  - l-low-scale
+  - domain/cognitive-matrix
+  - l-low-scale-scales-cognitive-matrix-rscf
+  - scales-cognitive-matrix-boundaries
+  - scales-cognitive-matrix-semantics
+  - l-low-scale-scales-cognitive-matrix-control-planes
+  - l-low-scale-scales-cognitive-matrix-definition
+  - l-low-scale-scales-cognitive-matrix-dependencies
+  - l-low-scale-scales-cognitive-matrix-gap-matrix
+  - l-low-scale-scales-cognitive-matrix-invariants
+  - l-low-scale-scales-cognitive-matrix-tests
+  - scales-cognitive-matrix-translation-rules
 moc: true
 rscf:
   state: DERIVED
@@ -47,5 +50,6 @@ rscf:
 
 - [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]] — 00_INDEX
 
----
+______________________________________________________________________
+
 **Parent:** [[25_COGNITIVE_MATRIX/04_SCALES/04_SCALES_MOC|04_SCALES_MOC]]

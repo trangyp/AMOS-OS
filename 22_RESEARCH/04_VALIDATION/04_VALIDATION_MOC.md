@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: 04 Validation MOC
 type: moc
 source: 22_RESEARCH/04_VALIDATION
 tags:
-- 04-validation
-- canon/research
-- canon-source-claim-audit
-- cross-framework-validation
-- framework-empirical-status
+  - 04-validation
+  - canon/research
+  - canon-source-claim-audit
+  - cross-framework-validation
+  - framework-empirical-status
 moc: true
 rscf:
   state: DERIVED
@@ -34,5 +37,6 @@ rscf:
 
 - [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]] — 00_INDEX
 
----
+______________________________________________________________________
+
 **Parent:** [[22_RESEARCH/22_RESEARCH_MOC|22_RESEARCH_MOC]]

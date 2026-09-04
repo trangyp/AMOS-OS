@@ -3,8 +3,7 @@ type: map
 source: 00_ROOT
 artifact_id: AMOS-OS-SYSTEM-MAP
 name: AMOS_OS_SYSTEM_MAP
-title: AMOS OS System Map — Authoritative Plane Topology and Cross-System Relationship
-  Map
+title: AMOS OS System Map — Authoritative Plane Topology and Cross-System Relationship Map
 document_version: 2.0.0
 map_version: 1.0.0
 amos_core_target: v4.4
@@ -18,66 +17,65 @@ steward: Trang Phan
 created: 2026-08-25
 updated: 2026-08-25
 scope:
-- AMOS_OS - repository_topology - system_planes - authority_boundaries - execution_topology
+  - AMOS_OS - repository_topology - system_planes - authority_boundaries - execution_topology
 tags:
-- amos
-- amos-os
-- root
-- amos-os
-- architecture
-- topology
-- repository-topology
-- system-planes
-- authority
-- provenance
-- canon
-- kernel
-- control-plane
-- runtime
-- cognition
-- cognitive-organism
-- agents
-- skills
-- workflows
-- protocols
-- memory
-- knowledge
-- state
-- models
-- tools
-- interfaces
-- schemas
-- observability
-- security
-- tests
-- operations
-- domains
-- research
-- operating-model
-- archive
-- cognitive-matrix
-- rscf
-- hml
-- governance
-- failure-recovery
-- canon-group/tech-ai
-- rscf/claim
-- rscf/provenance
-- rscf/state/derived
-- topic/amos-os
-- topic/system-topology
-- topic/repository-architecture
-- readme
-- neural-network
-- full-tree
-- authoritative-state
-- placement-rules
-- roadmap
-- amos-full-brain-os-architecture
-- cognitive-matrix-architecture
+  - amos
+  - amos-os
+  - root
+  - amos-os
+  - architecture
+  - topology
+  - repository-topology
+  - system-planes
+  - authority
+  - provenance
+  - canon
+  - kernel
+  - control-plane
+  - runtime
+  - cognition
+  - cognitive-organism
+  - agents
+  - skills
+  - workflows
+  - protocols
+  - memory
+  - knowledge
+  - state
+  - models
+  - tools
+  - interfaces
+  - schemas
+  - observability
+  - security
+  - tests
+  - operations
+  - domains
+  - research
+  - operating-model
+  - archive
+  - cognitive-matrix
+  - rscf
+  - hml
+  - governance
+  - failure-recovery
+  - canon-group/tech-ai
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/derived
+  - topic/amos-os
+  - topic/system-topology
+  - topic/repository-architecture
+  - readme
+  - neural-network
+  - full-tree
+  - authoritative-state
+  - placement-rules
+  - roadmap
+  - amos-full-brain-os-architecture
+  - cognitive-matrix-architecture
 aliases:
-- AMOS System Map - AMOS OS System Map - AMOS Plane Map - AMOS Architecture Map -
-  AMOS Repos
+  - AMOS System Map - AMOS OS System Map - AMOS Plane Map - AMOS Architecture Map - AMOS Repos
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -86,19 +84,21 @@ rscf:
 ---
 
 # AMOS OS System Map
+
 **Origin architect / steward:** Trang Phan
+
 > **Status:** `ACTIVE_MAP`
 > **AMOS_CORE target:** `v4.4`
 > **Conclusion class:** `AMOS_MODEL`
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: EMPIRICAL
-  provenance: AMOS_corpus
-  scope: root_index
----
+> rscf:
+> state: SOURCE_CLAIM
+> claim_class: EMPIRICAL
+> provenance: AMOS_corpus
+> scope: root_index
 
+______________________________________________________________________
 
-# 0. Purpose
+## 0. Purpose
 
 This document is the root topology map for `AMOS_OS`.
 
@@ -151,9 +151,9 @@ AUTHORITATIVE_STATE
 
 for current validated implementation state.
 
----
+______________________________________________________________________
 
-# 1. Top-Level Repository Map
+## 1. Top-Level Repository Map
 
 ```text
 AMOS_OS/
@@ -187,9 +187,9 @@ AMOS_OS/
 └── 25_COGNITIVE_MATRIX
 ```
 
----
+______________________________________________________________________
 
-# 2. Root Architectural Spine
+## 2. Root Architectural Spine
 
 The primary conceptual flow is:
 
@@ -217,9 +217,9 @@ It is **not** a claim that every runtime operation literally traverses every lay
 
 The smallest sufficient valid dependency path should be used.
 
----
+______________________________________________________________________
 
-# 3. Cross-Cutting Substrates
+## 3. Cross-Cutting Substrates
 
 The execution spine is supported by cross-cutting systems:
 
@@ -273,9 +273,9 @@ TESTS
 OPERATIONS
 ```
 
----
+______________________________________________________________________
 
-# 4. Plane Classification
+## 4. Plane Classification
 
 AMOS OS planes fall into six broad structural classes.
 
@@ -301,9 +301,9 @@ Mapping:
 
 This classification is organizational, not a replacement for typed dependency relationships.
 
----
+______________________________________________________________________
 
-# 5. `00_ROOT` — Root Coordination Layer
+## 5. `00_ROOT` — Root Coordination Layer
 
 ## Role
 
@@ -349,9 +349,9 @@ CANON
 
 unless a specific artifact is explicitly admitted into canon.
 
----
+______________________________________________________________________
 
-# 6. `01_CANON` — Canon Plane
+## 6. `01_CANON` — Canon Plane
 
 ## Role — part 2
 
@@ -394,9 +394,9 @@ Canon states what is authoritative.
 
 It does not itself execute.
 
----
+______________________________________________________________________
 
-# 7. `02_KERNEL` — Deterministic Kernel Plane
+## 7. `02_KERNEL` — Deterministic Kernel Plane
 
 ## Role — part 3
 
@@ -440,9 +440,9 @@ The kernel provides primitives.
 
 The control plane decides how governed operations use them.
 
----
+______________________________________________________________________
 
-# 8. `03_CONTROL_PLANE` — Governance Plane
+## 8. `03_CONTROL_PLANE` — Governance Plane
 
 ## Role — part 4
 
@@ -478,9 +478,9 @@ PROPOSAL
 COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 9. `04_RUNTIME` — Execution Plane
+## 9. `04_RUNTIME` — Execution Plane
 
 ## Role — part 5
 
@@ -534,9 +534,9 @@ Runtime performs orchestration.
 
 Control plane governs authority and commit semantics.
 
----
+______________________________________________________________________
 
-# 10. `05_COGNITIVE_ORGANISM` — Cognitive Integration Plane
+## 10. `05_COGNITIVE_ORGANISM` — Cognitive Integration Plane
 
 ## Role — part 6
 
@@ -583,9 +583,9 @@ This is an architectural model.
 
 It does not establish literal biological cognition, subjective consciousness, or embodiment.
 
----
+______________________________________________________________________
 
-# 11. `06_AGENTS` — Worker Plane
+## 11. `06_AGENTS` — Worker Plane
 
 ## Role — part 7
 
@@ -623,9 +623,9 @@ AGENT
 AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 12. `07_SKILLS` — Reusable Procedure Plane
+## 12. `07_SKILLS` — Reusable Procedure Plane
 
 ## Role — part 8
 
@@ -655,9 +655,9 @@ An agent is a role-oriented worker.
 
 A skill is a reusable procedure.
 
----
+______________________________________________________________________
 
-# 13. `08_WORKFLOWS` — Orchestration Graph Plane
+## 13. `08_WORKFLOWS` — Orchestration Graph Plane
 
 ## Role — part 9
 
@@ -693,9 +693,9 @@ A skill is reusable procedure logic.
 
 A workflow coordinates multiple steps or components.
 
----
+______________________________________________________________________
 
-# 14. `09_PROTOCOLS` — Interaction Contract Plane
+## 14. `09_PROTOCOLS` — Interaction Contract Plane
 
 ## Role — part 10
 
@@ -726,9 +726,9 @@ Workflow defines orchestration.
 
 Protocol defines interaction semantics.
 
----
+______________________________________________________________________
 
-# 15. `10_MEMORY` — Memory Plane
+## 15. `10_MEMORY` — Memory Plane
 
 ## Role — part 11
 
@@ -757,14 +757,16 @@ MEMORY
 !=
 VALIDATED KNOWLEDGE
 ```
+
 ```text
 REMEMBERED
 !=
 TRUE
 ```
----
 
-# 16. `11_KNOWLEDGE` — Knowledge Plane
+______________________________________________________________________
+
+## 16. `11_KNOWLEDGE` — Knowledge Plane
 
 ## Role — part 12
 
@@ -797,9 +799,9 @@ DECISION
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 17. `12_STATE` — State Plane
+## 17. `12_STATE` — State Plane
 
 ## Role — part 13
 
@@ -828,9 +830,9 @@ Knowledge describes what is believed or established.
 
 State describes the current system condition.
 
----
+______________________________________________________________________
 
-# 18. `13_MODELS` — Model Plane
+## 18. `13_MODELS` — Model Plane
 
 ## Role — part 14
 
@@ -863,9 +865,9 @@ MODEL OUTPUT
 OBSERVATION
 ```
 
----
+______________________________________________________________________
 
-# 19. `14_TOOLS` — Tool / Effector Plane
+## 19. `14_TOOLS` — Tool / Effector Plane
 
 ## Role — part 15
 
@@ -893,9 +895,9 @@ PERMISSION
 
 Tool availability establishes capability only.
 
----
+______________________________________________________________________
 
-# 20. `15_INTERFACES` — Interface Plane
+## 20. `15_INTERFACES` — Interface Plane
 
 ## Role — part 16
 
@@ -927,9 +929,9 @@ AMOS SYSTEM
 
 Interfaces should not silently bypass control-plane authority.
 
----
+______________________________________________________________________
 
-# 21. `16_SCHEMAS` — Typed Schema Plane
+## 21. `16_SCHEMAS` — Typed Schema Plane
 
 ## Role — part 17
 
@@ -960,9 +962,9 @@ SCHEMA VALID
 SEMANTICALLY CORRECT
 ```
 
----
+______________________________________________________________________
 
-# 22. `17_OBSERVABILITY` — Observability Plane
+## 22. `17_OBSERVABILITY` — Observability Plane
 
 ## Role — part 18
 
@@ -991,9 +993,9 @@ CORRECT
 
 Observability provides evidence for validation.
 
----
+______________________________________________________________________
 
-# 23. `18_SECURITY` — Security Plane
+## 23. `18_SECURITY` — Security Plane
 
 ## Role — part 19
 
@@ -1017,9 +1019,9 @@ Security is cross-cutting.
 
 It does not belong exclusively at the external boundary.
 
----
+______________________________________________________________________
 
-# 24. `19_TESTS` — Verification Plane
+## 24. `19_TESTS` — Verification Plane
 
 ## Role — part 20
 
@@ -1053,9 +1055,9 @@ UNIVERSAL PROOF
 
 Every test result inherits its scope.
 
----
+______________________________________________________________________
 
-# 25. `20_OPERATIONS` — Operations Plane
+## 25. `20_OPERATIONS` — Operations Plane
 
 ## Role — part 21
 
@@ -1078,9 +1080,9 @@ health procedures
 
 Operations governs the transition between architecture and sustained execution.
 
----
+______________________________________________________________________
 
-# 26. `21_DOMAINS` — Domain Adapter Plane
+## 26. `21_DOMAINS` — Domain Adapter Plane
 
 ## Role — part 22
 
@@ -1110,9 +1112,9 @@ CORE LAW
 
 Domain-specific assumptions should not silently leak into the universal core.
 
----
+______________________________________________________________________
 
-# 27. `22_RESEARCH` — Research Plane
+## 27. `22_RESEARCH` — Research Plane
 
 ## Role — part 23
 
@@ -1140,9 +1142,9 @@ Research may inform canon promotion.
 
 It does not automatically become canon.
 
----
+______________________________________________________________________
 
-# 28. `23_OPERATING_MODEL` — Human Governance Plane
+## 28. `23_OPERATING_MODEL` — Human Governance Plane
 
 ## Role — part 24
 
@@ -1170,9 +1172,9 @@ RUNTIME AUTHORITY
 
 The two may interact but should remain explicitly modeled.
 
----
+______________________________________________________________________
 
-# 29. `24_ARCHIVE` — Historical Plane
+## 29. `24_ARCHIVE` — Historical Plane
 
 ## Role — part 25
 
@@ -1196,9 +1198,9 @@ DELETE
 
 Historical provenance should remain reconstructable where required.
 
----
+______________________________________________________________________
 
-# 30. `25_COGNITIVE_MATRIX` — Cognitive Relationship Plane
+## 30. `25_COGNITIVE_MATRIX` — Cognitive Relationship Plane
 
 ## Role — part 26
 
@@ -1226,9 +1228,9 @@ SOURCE OF TRUTH
 
 The matrix references authoritative artifacts rather than duplicating them.
 
----
+______________________________________________________________________
 
-# 31. Core Authority Flow
+## 31. Core Authority Flow
 
 Conceptual authority flow:
 
@@ -1256,9 +1258,9 @@ AUTHORITY
 
 No lower plane acquires authority merely because it can perform an operation.
 
----
+______________________________________________________________________
 
-# 32. Information Flow
+## 32. Information Flow
 
 Typical information path:
 
@@ -1292,9 +1294,9 @@ TOOL
 EXTERNAL EFFECT
 ```
 
----
+______________________________________________________________________
 
-# 33. Knowledge Flow
+## 33. Knowledge Flow
 
 ```text
 SOURCE
@@ -1324,9 +1326,9 @@ CANON
 
 This is governed promotion, not automatic escalation.
 
----
+______________________________________________________________________
 
-# 34. State Flow
+## 34. State Flow
 
 Conceptual state path:
 
@@ -1356,9 +1358,9 @@ COMMIT FAILURE
 RECOVERY / QUARANTINE / ROLLBACK
 ```
 
----
+______________________________________________________________________
 
-# 35. Provenance Flow
+## 35. Provenance Flow
 
 Provenance should travel with consequential information:
 
@@ -1387,9 +1389,9 @@ OUTPUT
 
 where required by scope and governance.
 
----
+______________________________________________________________________
 
-# 36. RSCF Topology
+## 36. RSCF Topology
 
 Conceptually:
 
@@ -1409,9 +1411,9 @@ CLAIM
 
 RSCFs primarily belong to knowledge/reasoning structures but may be consumed across multiple planes.
 
----
+______________________________________________________________________
 
-# 37. H/M/L Knowledge Topology
+## 37. H/M/L Knowledge Topology
 
 AMOS knowledge retrieval may be organized fractally:
 
@@ -1433,9 +1435,9 @@ LOAD SMALLEST SUFFICIENT DEPENDENCY PATH
 
 Raw evidence should not be loaded unless required to alter the answer or verify a load-bearing premise.
 
----
+______________________________________________________________________
 
-# 38. Agent–Skill–Workflow Relationship
+## 38. Agent–Skill–Workflow Relationship
 
 ```text
 AGENT
@@ -1463,9 +1465,9 @@ WORKFLOW
 
 But none of these relationships are mandatory in every case.
 
----
+______________________________________________________________________
 
-# 39. Agent–Tool Relationship
+## 39. Agent–Tool Relationship
 
 ```text
 AGENT
@@ -1487,9 +1489,9 @@ AGENT
 
 for consequential actions when that path bypasses authority controls.
 
----
+______________________________________________________________________
 
-# 40. Model Relationship
+## 40. Model Relationship
 
 Models may support:
 
@@ -1517,9 +1519,9 @@ MODEL
 DECISION AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 41. Memory Relationship
+## 41. Memory Relationship
 
 Memory may support:
 
@@ -1543,9 +1545,9 @@ validation state
 
 when material.
 
----
+______________________________________________________________________
 
-# 42. Schema Relationship
+## 42. Schema Relationship
 
 Schemas type objects crossing system boundaries.
 
@@ -1563,9 +1565,9 @@ CONSUMER
 
 This reduces silent semantic drift.
 
----
+______________________________________________________________________
 
-# 43. Security Relationship
+## 43. Security Relationship
 
 Security overlays:
 
@@ -1583,9 +1585,9 @@ OPERATIONS
 
 Security therefore behaves as a cross-cutting enforcement plane.
 
----
+______________________________________________________________________
 
-# 44. Observability Relationship
+## 44. Observability Relationship
 
 Observability consumes signals from:
 
@@ -1609,9 +1611,9 @@ health
 audit evidence
 ```
 
----
+______________________________________________________________________
 
-# 45. Test Relationship
+## 45. Test Relationship
 
 Tests validate bounded claims about:
 
@@ -1634,9 +1636,9 @@ OPERATIONS
 
 Testing is cross-plane.
 
----
+______________________________________________________________________
 
-# 46. Operations Relationship
+## 46. Operations Relationship
 
 Operations consumes:
 
@@ -1659,9 +1661,9 @@ restore
 incident response
 ```
 
----
+______________________________________________________________________
 
-# 47. Research-to-Canon Firewall
+## 47. Research-to-Canon Firewall
 
 Required conceptual boundary:
 
@@ -1687,9 +1689,9 @@ CANON
 
 without admission governance.
 
----
+______________________________________________________________________
 
-# 48. Archive Relationship
+## 48. Archive Relationship
 
 Supersession path:
 
@@ -1707,9 +1709,9 @@ Archive retains lineage.
 
 Active runtime dependencies should not silently point to deprecated artifacts.
 
----
+______________________________________________________________________
 
-# 49. Cognitive Matrix Relationship
+## 49. Cognitive Matrix Relationship
 
 The cognitive matrix should consume references from:
 
@@ -1725,9 +1727,9 @@ STATE
 
 but not duplicate their canonical definitions.
 
----
+______________________________________________________________________
 
-# 50. Plane Ownership Matrix
+## 50. Plane Ownership Matrix
 
 | Plane                   | Primary ownership                   |
 | ----------------------- | ----------------------------------- |
@@ -1758,9 +1760,9 @@ but not duplicate their canonical definitions.
 | `24_ARCHIVE`            | historical lineage                  |
 | `25_COGNITIVE_MATRIX`   | relationship topology               |
 
----
+______________________________________________________________________
 
-# 51. Critical Separation Laws
+## 51. Critical Separation Laws
 
 ```text
 CANON != KERNEL
@@ -1804,9 +1806,9 @@ TEST PASS != UNIVERSAL PROOF
 
 These boundaries prevent responsibility collapse.
 
----
+______________________________________________________________________
 
-# 52. External Effect Boundary
+## 52. External Effect Boundary
 
 External effects should conceptually occur only after required validation and authority checks.
 
@@ -1830,9 +1832,9 @@ RECEIPT
 
 For irreversible or high-impact actions, governance requirements increase.
 
----
+______________________________________________________________________
 
-# 53. Failure Boundary
+## 53. Failure Boundary
 
 Failure should remain typed.
 
@@ -1858,9 +1860,9 @@ ERROR
 
 when recovery semantics differ.
 
----
+______________________________________________________________________
 
-# 54. Recovery Topology
+## 54. Recovery Topology
 
 ```text
 FAILURE
@@ -1890,9 +1892,9 @@ GLOBAL RESET
 
 when local repair preserves correctness.
 
----
+______________________________________________________________________
 
-# 55. v4.4 Fast-Path Relationship
+## 55. v4.4 Fast-Path Relationship
 
 A local execution path may avoid unnecessary broader coordination only when required conditions are established:
 
@@ -1920,9 +1922,9 @@ Fast path means reduced unnecessary coordination.
 
 It does not mean reduced integrity.
 
----
+______________________________________________________________________
 
-# 56. Mode-System Placement
+## 56. Mode-System Placement
 
 Mode architecture may interact with:
 
@@ -1947,9 +1949,9 @@ MODE FOLDER
 MODE IMPLEMENTATION
 ```
 
----
+______________________________________________________________________
 
-# 57. Repository Placement Rule
+## 57. Repository Placement Rule
 
 Canonical placement follows semantic ownership.
 
@@ -2030,9 +2032,9 @@ COGNITIVE RELATION MAP
 → 25_COGNITIVE_MATRIX
 ```
 
----
+______________________________________________________________________
 
-# 58. Dependency Direction
+## 58. Dependency Direction
 
 Preferred dependency direction follows:
 
@@ -2069,9 +2071,9 @@ DIRECTORY NUMBER
 DEPENDENCY PROOF
 ```
 
----
+______________________________________________________________________
 
-# 59. Source-of-Truth Rule
+## 59. Source-of-Truth Rule
 
 Each semantic concept should have one authoritative home.
 
@@ -2097,9 +2099,9 @@ COPY C
 
 silently becoming independent authorities.
 
----
+______________________________________________________________________
 
-# 60. Neural Network Relationship
+## 60. Neural Network Relationship
 
 `NEURAL_NETWORK.md` provides graph connectivity.
 
@@ -2119,9 +2121,9 @@ SYSTEM RESPONSIBILITY MAP
 
 They are related but not interchangeable.
 
----
+______________________________________________________________________
 
-# 61. Full Tree Relationship
+## 61. Full Tree Relationship
 
 ```text
 SYSTEM_MAP
@@ -2134,11 +2136,12 @@ FULL_TREE
 =
 WHERE EXPECTED ARTIFACTS LIVE
 ```
+
 The system map should remain relatively stable even when the detailed tree grows.
 
----
+______________________________________________________________________
 
-# 62. Dependency Map Relationship
+## 62. Dependency Map Relationship
 
 ```text
 SYSTEM_MAP
@@ -2151,11 +2154,12 @@ DEPENDENCY_MAP
 =
 TYPED DEPENDENCY EDGES
 ```
+
 A system map should not attempt to duplicate every dependency edge.
 
----
+______________________________________________________________________
 
-# 63. Authoritative State Relationship
+## 63. Authoritative State Relationship
 
 ```text
 SYSTEM_MAP
@@ -2168,6 +2172,7 @@ AUTHORITATIVE_STATE
 =
 CURRENT VERIFIED IMPLEMENTATION STATE
 ```
+
 Therefore:
 
 ```text
@@ -2176,9 +2181,9 @@ MAPPED
 ACTIVE
 ```
 
----
+______________________________________________________________________
 
-# 64. Roadmap Relationship
+## 64. Roadmap Relationship
 
 ```text
 SYSTEM_MAP
@@ -2191,11 +2196,13 @@ ROADMAP
 =
 WHEN / IN WHAT PROMOTION ORDER
 ```
+
 ```text
 AUTHORITATIVE_STATE
 =
 WHAT IS CURRENTLY VERIFIED
 ```
+
 Together:
 
 ```text
@@ -2212,9 +2219,9 @@ AUTHORITATIVE_STATE
 
 provide the root architectural control surface.
 
----
+______________________________________________________________________
 
-# 65. MOC Relationship
+## 65. MOC Relationship
 
 Each major plane should have a local MOC or index.
 
@@ -2232,9 +2239,9 @@ COMPONENT
 
 This supports fractal navigation.
 
----
+______________________________________________________________________
 
-# 66. H/M/L Repository Mapping
+## 66. H/M/L Repository Mapping
 
 A practical repository interpretation:
 
@@ -2264,9 +2271,9 @@ Investment_Agent
 
 This is a navigation model and should not be treated as a universal semantic identity rule.
 
----
+______________________________________________________________________
 
-# 67. Structural Invariants
+## 67. Structural Invariants
 
 ```text
 SM01 EACH TOP-LEVEL PLANE HAS ONE PRIMARY ROLE
@@ -2310,9 +2317,9 @@ SM19 COGNITIVE MATRIX DOES NOT DUPLICATE AUTHORITY
 SM20 SYSTEM MAP DOES NOT CLAIM IMPLEMENTATION COMPLETENESS
 ```
 
----
+______________________________________________________________________
 
-# 68. Failure Registry
+## 68. Failure Registry
 
 ```text
 SM-F001 PLANE_RESPONSIBILITY_COLLISION
@@ -2337,9 +2344,9 @@ SM-F019 SYSTEM_MAP_STATE_OVERCLAIM
 SM-F020 UNGOVERNED_EXTERNAL_EFFECT
 ```
 
----
+______________________________________________________________________
 
-# 69. Map Integrity Checks
+## 69. Map Integrity Checks
 
 A repository audit should eventually verify:
 
@@ -2356,9 +2363,9 @@ external-effect paths are governed
 unknown placement is surfaced
 ```
 
----
+______________________________________________________________________
 
-# 70. Current Evidence Boundary
+## 70. Current Evidence Boundary
 
 This map defines the intended AMOS OS topology.
 
@@ -2391,9 +2398,9 @@ IMPLEMENTATION COMPLETENESS
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 71. System Map RSCF Node
+## 71. System Map RSCF Node
 
 ```yaml
 node_id: AMOS_OS_SYSTEM_MAP
@@ -2472,9 +2479,9 @@ confidence_ceiling:
   implementation_state: UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 72. Compact System Map
+## 72. Compact System Map
 
 ```text
                          AMOS OS
@@ -2515,9 +2522,9 @@ ARCHIVE
 COGNITIVE MATRIX
 ```
 
----
+______________________________________________________________________
 
-# 73. Final System Law
+## 73. Final System Law
 
 The system map compresses to:
 
@@ -2564,9 +2571,9 @@ The second invariant is:
 
 > **The system map defines architecture and responsibility boundaries; it does not convert planned structure into evidence of implementation.**
 
----
+______________________________________________________________________
 
-# 74. Changelog
+## 74. Changelog
 
 ## v2.0.0 — 2026-08-25
 
@@ -2613,30 +2620,33 @@ SYSTEM MAP
 IMPLEMENTATION PROOF
 ```
 
----
+______________________________________________________________________
 
 **Related:** README|AMOS OS · [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|MOC · [[00_ROOT/NEURAL_NETWORK|NEURAL_NETWORK]]|Neural Network · [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]|Architecture · [[00_ROOT/FULL_TREE|FULL_TREE]]|Full Tree · [[00_ROOT/DEPENDENCY_MAP|DEPENDENCY_MAP]]|Dependency Map · [[00_ROOT/AUTHORITATIVE_STATE|AUTHORITATIVE_STATE]]|Authoritative State · [[00_ROOT/00_ROOT_NAMING_STANDARD|00_ROOT_NAMING_STANDARD]]|Naming Standard · [[00_ROOT/PLACEMENT_RULES|PLACEMENT_RULES]]|Placement Rules · [[00_ROOT/ROADMAP|ROADMAP]]|Roadmap · [[01_CANON/00_INDEX/CANON_MAP|CANON_MAP]]|CANON · [[02_KERNEL/00_INDEX/KERNEL_MAP|KERNEL_MAP]]|KERNEL · [[03_CONTROL_PLANE/00_INDEX/CONTROL_PLANE_MAP|CONTROL_PLANE_MAP]]|CONTROL_PLANE · [[04_RUNTIME/00_INDEX/RUNTIME_MAP|RUNTIME_MAP]]|RUNTIME · [[05_COGNITIVE_ORGANISM/00_INDEX/COGNITIVE_ORGANISM_MAP|COGNITIVE_ORGANISM_MAP]]|COGNITIVE_ORGANISM · [[06_AGENTS/00_INDEX/AGENT_MAP|AGENT_MAP]]|[[AGENTS|AGENTS]] · [[07_SKILLS/00_INDEX/SKILL_MAP|SKILL_MAP]]|SKILLS · [[08_WORKFLOWS/00_INDEX/WORKFLOW_MAP|WORKFLOW_MAP]]|WORKFLOWS · [[09_PROTOCOLS/00_INDEX/PROTOCOL_MAP|PROTOCOL_MAP]]|PROTOCOLS · [[10_MEMORY/00_INDEX/MEMORY_MEMORY_MAP|MEMORY_MEMORY_MAP]]|MEMORY · [[11_KNOWLEDGE/AMOS_FULL_BRAIN_OS_ARCHITECTURE|AMOS_FULL_BRAIN_OS_ARCHITECTURE]]|KNOWLEDGE · [[12_STATE/00_INDEX/STATE_STATE_MAP|STATE_STATE_MAP]]|STATE · [[13_MODELS/00_INDEX/MODEL_MAP|MODEL_MAP]]|MODELS · [[14_TOOLS/00_INDEX/TOOL_MAP|TOOL_MAP]]|TOOLS · [[15_INTERFACES/00_INDEX/INTERFACE_MAP|INTERFACE_MAP]]|INTERFACES · [[16_SCHEMAS/00_INDEX/SCHEMA_MAP|SCHEMA_MAP]]|SCHEMAS · [[17_OBSERVABILITY/00_INDEX/OBSERVABILITY_OBSERVABILITY_MAP|OBSERVABILITY_OBSERVABILITY_MAP]]|OBSERVABILITY · [[18_SECURITY/00_INDEX/SECURITY_MAP|SECURITY_MAP]]|SECURITY · [[19_TESTS/00_INDEX/TEST_MAP|TEST_MAP]]|TESTS · [[20_OPERATIONS/00_INDEX/OPERATIONS_MAP|OPERATIONS_MAP]]|OPERATIONS · [[21_DOMAINS/00_INDEX/DOMAIN_ALIAS_MAP|DOMAIN_ALIAS_MAP]]|DOMAINS · [[22_RESEARCH/00_INDEX/INDEX_RESEARCH_README|INDEX_RESEARCH_README]]|RESEARCH · [[23_OPERATING_MODEL/00_INDEX/OPERATING_MODEL|OPERATING_MODEL]]|[[23_OPERATING_MODEL/00_INDEX/OPERATING_MODEL|OPERATING_MODEL]] · [[24_ARCHIVE/00_LEGACY/LEGACY_ARCHIVE_README|LEGACY_ARCHIVE_README]]|ARCHIVE · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_ARCHITECTURE|COGNITIVE_MATRIX_ARCHITECTURE]]|COGNITIVE_MATRIX
 
 ```
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: system_map_v1
 node_type: note
 path: 00_ROOT/SYSTEM_MAP_v1.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[00_ROOT/00_COSMO_BRAIN_MOC|00_COSMO_BRAIN_MOC]]
-

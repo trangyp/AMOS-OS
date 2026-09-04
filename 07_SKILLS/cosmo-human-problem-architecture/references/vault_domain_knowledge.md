@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Vault Domain Knowledge — Cosmo Human Problem Architecture
 type: reference
 source: 07_SKILLS/cosmo-human-problem-architecture/references
 tags:
-- reference
-- cosmo-human-problem-architecture
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - cosmo-human-problem-architecture
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -27,7 +30,7 @@ rscf:
 
 > Path: `system/Memory — The Complete Human System.md` | Size: 11179 chars | Match score: 15
 
-# The Complete Human System — Integrated Insights (v2 — Epistemically Audited)
+## The Complete Human System — Integrated Insights (v2 — Epistemically Audited)
 
 > **Humans are not primarily rational creatures. Rationality is a late addition to a billion-year-old regulatory system.**
 >
@@ -39,26 +42,24 @@ rscf:
 - Distress equation identical (5 terms + Repair_Capacity definition)
 - Repair protocol identical (8 steps, same biological order)
 
+| Claim                                                       | Problem                                                                        | Qualification                                                                                   |
+| ----------------------------------------------------------- | ------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------- |
+| "Humans are not primarily rational"                         | 'Primarily' undefined                                                          | MODEL — supported by dual-process theory but no ratio given                                     |
+| "80-90% vagal fibers afferent"                              | No citation, range varies by source                                            | OBSERVATION — well-supported anatomically but needs citation                                    |
+| "Social pain = physical pain (same network)"                | 'Same' too strong for overlapping activation                                   | OBSERVATION — better stated as "overlapping substrates in ACC/insula" (Eisenberger et al. 2003) |
+| "Manipulation = control through regulation below awareness" | Definitional overreach; some manipulation is conscious                         | MODEL — applies to digital/commercial manipulation, not all manipulation                        |
+| "Depression = Distinction_Collapse across Future_Space"     | Not operationalizable; 'Future_Space' and 'Distinction_Collapse' are metaphors | MODEL — structural interpretation, not clinical diagnostic model                                |
+| "Platform_Model(User) > User_Model(Self)"                   | Not true for all platforms                                                     | MODEL — true for engagement-optimized platforms, not generally                                  |
 
-| Claim | Problem | Qualification |
-|-------|---------|---------------|
-| "Humans are not primarily rational" | 'Primarily' undefined | MODEL — supported by dual-process theory but no ratio given |
-| "80-90% vagal fibers afferent" | No citation, range varies by source | OBSERVATION — well-supported anatomically but needs citation |
-| "Social pain = physical pain (same network)" | 'Same' too strong for overlapping activation | OBSERVATION — better stated as "overlapping substrates in ACC/insula" (Eisenberger et al. 2003) |
-| "Manipulation = control through regulation below awareness" | Definitional overreach; some manipulation is conscious | MODEL — applies to digital/commercial manipulation, not all manipulation |
-| "Depression = Distinction_Collapse across Future_Space" | Not operationalizable; 'Future_Space' and 'Distinction_Collapse' are metaphors | MODEL — structural interpretation, not clinical diagnostic model |
-| "Platform_Model(User) > User_Model(Self)" | Not true for all platforms | MODEL — true for engagement-optimized platforms, not generally |
-
-
----
+______________________________________________________________________
 
 ## Permanent Equations (Unchanged — structurally tested)
-
 
 ```
 Reality = Persistence of Distinction
 Potential ⇄ Distinction ⇄ Observer ⇄ Inquiry ⇄ Higher Distinction
 ```
+
 ```
 Human = Nested Memory Architecture (10 layers, 10 timescales)
 Life = Regulation / Entropy
@@ -72,8 +73,8 @@ Suffering = Multi-Layer Optimization Conflict
 Health = Alignment(Layer₁...ₙ)
 Healing = Re-Alignment of Layers
 ```
-## Improved Equations (Precision-Tightened)
 
+## Improved Equations (Precision-Tightened)
 
 ```
 BAD:  Humans are not primarily rational creatures
@@ -197,10 +198,10 @@ GOOD: Social pain activates overlapping neural substrates in dorsal anterior cin
 
 -
 ```
----
 
-**Related:** [[07_SKILLS/cosmo-human-problem-architecture/cosmo-human-problem-architecture_MOC|cosmo-human-problem-architecture_MOC]]
----
+______________________________________________________________________
+
+## **Related:** [[07_SKILLS/cosmo-human-problem-architecture/cosmo-human-problem-architecture_MOC|cosmo-human-problem-architecture_MOC]]
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -208,12 +209,14 @@ GOOD: Social pain activates overlapping neural substrates in dorsal anterior cin
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: cosmo-human-problem-architecture-vault-domain-knowledge
 node_type: reference
 path: 07_SKILLS/cosmo-human-problem-architecture/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

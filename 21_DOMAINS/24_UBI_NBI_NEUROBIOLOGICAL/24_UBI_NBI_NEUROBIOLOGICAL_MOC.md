@@ -1,11 +1,14 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: 24 Ubi Nbi Neurobiological MOC
 type: moc
 source: 21_DOMAINS/24_UBI_NBI_NEUROBIOLOGICAL
 tags:
-- 24-ubi-nbi-neurobiological
-- canon/domain
-- ubi-nbi-neurobiological-domains-domain-spec
+  - 24-ubi-nbi-neurobiological
+  - canon/domain
+  - ubi-nbi-neurobiological-domains-domain-spec
 moc: true
 rscf:
   state: DERIVED
@@ -27,7 +30,8 @@ rscf:
 
 ## Subdirectories
 
-- [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]] — 00_INDEX
+- [[21_DOMAINS/24_UBI_NBI_NEUROBIOLOGICAL/00_INDEX/DOMAIN_INDEX_MOC|00_INDEX]] — Subdomain Navigation
 
----
+______________________________________________________________________
+
 **Parent:** [[21_DOMAINS/21_DOMAINS_MOC|21_DOMAINS_MOC]]

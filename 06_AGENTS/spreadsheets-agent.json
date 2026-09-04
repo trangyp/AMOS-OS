@@ -94,7 +94,7 @@
     "spreadsheets"
   ],
   "depends_on_workflows": [
-    "spreadsheets-workflow.md"
+    "amos-spreadsheets-workflow.md"
   ],
   "epistemic_class": "AMOS_MODEL",
   "claim_ceiling": 0.95,

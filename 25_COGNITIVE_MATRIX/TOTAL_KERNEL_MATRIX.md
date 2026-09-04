@@ -12,44 +12,44 @@ segment: 25_COGNITIVE_MATRIX
 artifact_kind: MATRIX_TABLE
 path: 25_COGNITIVE_MATRIX/TOTAL_KERNEL_MATRIX.md
 tags:
-- amos-os
-- cognitive-matrix
-- vault
-- total_kernel_matrix
-- kernel_routing
-- kernel_convergence
-- 02_kernel_convergence
-- ulk
-- murk
-- go_board
-- mvcc
-- cas
-- atomic_multi_rscf
-- failure_recovery
-- meta_logic
-- qcla
-- dcp
-- proof_compiler
-- fail_closed
-- rscf
-- canon_candidate
-- canon/matrix
-- ulk-logic-kernel
-- k-mvcc
-- k-cas
-- k-atomic-multi-rscf
-- k-failure-recovery
-- mvcc-cas
-- canon
-- reality-x-ulk-matrix
-- total-canon-matrix
-- total-framework-matrix
-- k-rscf
-- k-hml
-- k-fail-closed
-- k-provenance
-- k-governed-evolution
-- amos-core-v4-4
+  - amos-os
+  - cognitive-matrix
+  - vault
+  - total_kernel_matrix
+  - kernel_routing
+  - kernel_convergence
+  - 02_kernel_convergence
+  - ulk
+  - murk
+  - go_board
+  - mvcc
+  - cas
+  - atomic_multi_rscf
+  - failure_recovery
+  - meta_logic
+  - qcla
+  - dcp
+  - proof_compiler
+  - fail_closed
+  - rscf
+  - canon_candidate
+  - canon/matrix
+  - ulk-logic-kernel
+  - k-mvcc
+  - k-cas
+  - k-atomic-multi-rscf
+  - k-failure-recovery
+  - mvcc-cas
+  - canon
+  - reality-x-ulk-matrix
+  - total-canon-matrix
+  - total-framework-matrix
+  - k-rscf
+  - k-hml
+  - k-fail-closed
+  - k-provenance
+  - k-governed-evolution
+  - amos-core-v4-4
 version: 2.0.0
 updated: '2026-08-28'
 status: ACTIVE_REFERENCE
@@ -64,25 +64,25 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - 02_KERNEL/02_KERNEL_MOC
-  - 02_KERNEL/ULK_LOGIC_KERNEL
-  - 25_COGNITIVE_MATRIX/REALITY_X_ULK
-  - AMOS_CORPUS
+    - 02_KERNEL/02_KERNEL_MOC
+    - 02_KERNEL/ULK_LOGIC_KERNEL
+    - 25_COGNITIVE_MATRIX/REALITY_X_ULK
+    - AMOS_CORPUS
   scope:
-  - COGNITIVE_MATRIX
-  - MASTER_KERNEL_MATRIX
-  - KERNEL_CONVERGENCE
-  - SOURCE_DEFINED_MODEL
+    - COGNITIVE_MATRIX
+    - MASTER_KERNEL_MATRIX
+    - KERNEL_CONVERGENCE
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   kernel_moc:
     artifact:
-    - - 02_KERNEL_MOC
+      -   - 02_KERNEL_MOC
   ulk:
     artifact:
-    - - ULK_LOGIC_KERNEL
+      -   - ULK_LOGIC_KERNEL
   cognitive_matrix:
     artifact:
-    - - 25_COGNITIVE_MATRIX_MOC
+      -   - 25_COGNITIVE_MATRIX_MOC
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   matrix_structure: VERIFIED_SOURCE_STRUCTURE
@@ -126,9 +126,9 @@ This establishes the ten kernel subsystems represented by this matrix.
 
 It does not, by itself, establish that no other kernel artifact exists elsewhere in AMOS.
 
----
+______________________________________________________________________
 
-# 3. Kernel Row Schema
+## 3. Kernel Row Schema
 
 Every matrix row has five principal dimensions:
 
@@ -154,17 +154,17 @@ $$
 
 where:
 
-- \(K_i\) = kernel subsystem;
-- \(A_i\) = architecture/operators;
-- \(I_i\) = invariant;
-- \(P_i\) = target runtime plane(s);
-- \(G_i\) = fail-closed fallback.
+- (K_i) = kernel subsystem;
+- (A_i) = architecture/operators;
+- (I_i) = invariant;
+- (P_i) = target runtime plane(s);
+- (G_i) = fail-closed fallback.
 
 This notation is **DERIVED normalization**.
 
----
+______________________________________________________________________
 
-# 4. Kernel ≠ Plane
+## 4. Kernel ≠ Plane
 
 The matrix routes kernel subsystems into planes.
 
@@ -178,9 +178,9 @@ One kernel may target multiple planes.
 
 One plane may receive multiple kernels.
 
----
+______________________________________________________________________
 
-# 5. Kernel ≠ Framework
+## 5. Kernel ≠ Framework
 
 The Total Framework Matrix identifies ULK as a framework-level architectural object.
 
@@ -198,17 +198,17 @@ $$
 
 unless an authoritative binding explicitly defines identity.
 
----
+______________________________________________________________________
 
-# 6. Invariant ≠ Implementation
+## 6. Invariant ≠ Implementation
 
 A mathematical or logical invariant in the table specifies the source-defined constraint.
 
 It does not itself demonstrate that executable code enforces that constraint on every runtime path.
 
----
+______________________________________________________________________
 
-# 7. Target Plane ≠ Exclusive Scope
+## 7. Target Plane ≠ Exclusive Scope
 
 A target plane establishes the supplied routing destination.
 
@@ -220,9 +220,9 @@ $$
 
 unless separately specified.
 
----
+______________________________________________________________________
 
-# 8. Kernel Execution & Verification Mesh
+## 8. Kernel Execution & Verification Mesh
 
 The supplied architecture contains three principal regions:
 
@@ -248,9 +248,9 @@ The supplied architecture contains three principal regions:
                     signed state receipts
 ```
 
----
+______________________________________________________________________
 
-# 9. Diagram ≠ Exhaustive Registry
+## 9. Diagram ≠ Exhaustive Registry
 
 The diagram explicitly names:
 
@@ -283,9 +283,9 @@ $$
 
 The diagram should not be treated as an exhaustive one-to-one rendering of the table.
 
----
+______________________________________________________________________
 
-# 10. QLS Structural Gap
+## 10. QLS Structural Gap
 
 `QLS Multi-State Superposition` appears in the transformation-flow diagram but not in `M.routed_kernels`.
 
@@ -302,9 +302,9 @@ Correct classification:
 
 **UNKNOWN/GAP** until the authoritative QLS artifact is retrieved.
 
----
+______________________________________________________________________
 
-# 11. Universal Logic Kernel
+## 11. Universal Logic Kernel
 
 ```yaml
 ULK:
@@ -334,9 +334,9 @@ ULK:
     REVERT_TO_GROUND_STATE_S0
 ```
 
----
+______________________________________________________________________
 
-# 12. ULK State Transition
+## 12. ULK State Transition
 
 The source supplies:
 
@@ -352,9 +352,9 @@ $$
 
 This is the most explicit ULK state-transition relation supplied in this matrix.
 
----
+______________________________________________________________________
 
-# 13. ULK Operator Order
+## 13. ULK Operator Order
 
 The expression has nested structure:
 
@@ -396,9 +396,9 @@ This is a **DERIVED syntactic decomposition**.
 
 The semantic meanings of the operators must come from ULK.
 
----
+______________________________________________________________________
 
-# 14. ULK Symbol Firewall
+## 14. ULK Symbol Firewall
 
 The matrix does not fully define:
 
@@ -408,9 +408,9 @@ $$
 
 Do not assign conventional meanings merely from mathematical notation.
 
----
+______________________________________________________________________
 
-# 15. Null Generation
+## 15. Null Generation
 
 ULK explicitly contains:
 
@@ -422,9 +422,9 @@ labelled `Null Gen`.
 
 This provides source-level evidence connecting empty-set/ground-state notation to the Kernel architecture.
 
----
+______________________________________________________________________
 
-# 16. Empty Set ≠ Deletion
+## 16. Empty Set ≠ Deletion
 
 Do not silently interpret:
 
@@ -442,9 +442,9 @@ as:
 
 Its exact ontology remains ULK/Trang ∅ dependent.
 
----
+______________________________________________________________________
 
-# 17. ULK Ground-State Fallback
+## 17. ULK Ground-State Fallback
 
 ULK's fail-closed fallback is:
 
@@ -452,11 +452,11 @@ $$
 Revert\ to\ Ground\ State\ (S_0)
 $$
 
-This gives \(S_0\) an explicit recovery role inside the kernel matrix.
+This gives (S_0) an explicit recovery role inside the kernel matrix.
 
----
+______________________________________________________________________
 
-# 18. ULK × Total Framework Matrix
+## 18. ULK × Total Framework Matrix
 
 The Total Framework Matrix supplied ULK as:
 
@@ -478,9 +478,9 @@ $$
 
 This is strong source-level cross-matrix correspondence.
 
----
+______________________________________________________________________
 
-# 19. ULK Target Expansion
+## 19. ULK Target Expansion
 
 Framework Matrix ULK target:
 
@@ -495,9 +495,9 @@ Thus the kernel matrix supplies a more operational routing envelope.
 
 This is not a contradiction: the matrices operate at different abstraction levels.
 
----
+______________________________________________________________________
 
-# 20. MURK 19×19 Topology
+## 20. MURK 19×19 Topology
 
 ```yaml
 MURK:
@@ -522,9 +522,9 @@ MURK:
     BOUNDARY_CONTRACTION
 ```
 
----
+______________________________________________________________________
 
-# 21. MURK Node Count
+## 21. MURK Node Count
 
 The source explicitly states:
 
@@ -538,9 +538,9 @@ $$
 
 That consistency is independently derivable from the dimensions, while the architectural interpretation remains source-defined.
 
----
+______________________________________________________________________
 
-# 22. MURK Liberty Invariant
+## 22. MURK Liberty Invariant
 
 The source supplies:
 
@@ -554,9 +554,9 @@ The conjunction matters.
 
 At source level, both conditions belong to the stated invariant.
 
----
+______________________________________________________________________
 
-# 23. MURK Conjunction Firewall
+## 23. MURK Conjunction Firewall
 
 Do not silently reinterpret:
 
@@ -572,13 +572,13 @@ $$
 
 The invariant explicitly uses conjunction.
 
----
+______________________________________________________________________
 
-# 24. MURK Semantic Firewall
+## 24. MURK Semantic Firewall
 
 The matrix does not define:
 
-- \(G\);
+- (G);
 - `Liberties`;
 - `TerritoryDominance`;
 - neighborhood topology;
@@ -588,9 +588,9 @@ The matrix does not define:
 
 Those remain L-level dependencies.
 
----
+______________________________________________________________________
 
-# 25. MURK ≠ Conventional Go by Default
+## 25. MURK ≠ Conventional Go by Default
 
 The terminology:
 
@@ -604,9 +604,9 @@ But the artifact identifies MURK as an AMOS discrete cellular topology.
 
 Structural similarity does not prove complete identity with conventional Go rules.
 
----
+______________________________________________________________________
 
-# 26. Boundary Contraction
+## 26. Boundary Contraction
 
 MURK's fallback is:
 
@@ -622,9 +622,9 @@ The artifact does not specify:
 
 These remain unresolved.
 
----
+______________________________________________________________________
 
-# 27. Go Board 19×19 Engine
+## 27. Go Board 19×19 Engine
 
 ```yaml
 GO_BOARD_19X19:
@@ -643,9 +643,9 @@ GO_BOARD_19X19:
     DOMINANCE_PRUNING
 ```
 
----
+______________________________________________________________________
 
-# 28. Go Board Determinization Relation
+## 28. Go Board Determinization Relation
 
 The source gives:
 
@@ -657,9 +657,9 @@ $$
 
 This indicates source-defined transformation from (\\Psi) through (\\hat{\\mathcal M}) toward a deterministic state.
 
----
+______________________________________________________________________
 
-# 29. Direction ≠ Empirical Causation
+## 29. Direction ≠ Empirical Causation
 
 The arrow in:
 
@@ -673,9 +673,9 @@ is an architectural transformation relation.
 
 It does not independently establish empirical causal effect.
 
----
+______________________________________________________________________
 
-# 30. MURK ≠ Go Board Engine
+## 30. MURK ≠ Go Board Engine
 
 Both use 19×19 topology and liberty-related concepts.
 
@@ -704,9 +704,9 @@ $$
 
 unless an authoritative source explicitly identifies them.
 
----
+______________________________________________________________________
 
-# 31. MURK × Go Board Structural Relation
+## 31. MURK × Go Board Structural Relation
 
 A conservative structural interpretation is:
 
@@ -726,9 +726,9 @@ A conservative structural interpretation is:
 
 This is **DERIVED**.
 
----
+______________________________________________________________________
 
-# 32. [[02_KERNEL/K_MVCC|K_MVCC]]
+## 32. [[02_KERNEL/K_MVCC|K_MVCC]]
 
 ```yaml
 K_MVCC:
@@ -746,9 +746,9 @@ K_MVCC:
     TRANSACTION_CONFLICT_ABORT
 ```
 
----
+______________________________________________________________________
 
-# 33. MVCC Temporal Invariant
+## 33. MVCC Temporal Invariant
 
 The source supplies:
 
@@ -760,9 +760,9 @@ $$
 
 Both temporal ordering and snapshot isolation are included.
 
----
+______________________________________________________________________
 
-# 34. Strict Commit Ordering
+## 34. Strict Commit Ordering
 
 The source uses:
 
@@ -784,17 +784,17 @@ $$
 
 does not satisfy the displayed inequality.
 
----
+______________________________________________________________________
 
-# 35. MVCC ≠ Full Database Semantics
+## 35. MVCC ≠ Full Database Semantics
 
 The term MVCC resembles conventional multiversion concurrency control, but the artifact only establishes the AMOS source-defined model.
 
 Do not automatically import every conventional database guarantee.
 
----
+______________________________________________________________________
 
-# 36. Snapshot Isolation ≠ Serializability
+## 36. Snapshot Isolation ≠ Serializability
 
 The artifact states:
 
@@ -814,9 +814,9 @@ $$
 
 without additional evidence.
 
----
+______________________________________________________________________
 
-# 37. Monotonic Epoch Clocks
+## 37. Monotonic Epoch Clocks
 
 The architecture explicitly names monotonic epoch clocks.
 
@@ -830,9 +830,9 @@ The artifact does not provide:
 
 Those require lower-level sources.
 
----
+______________________________________________________________________
 
-# 38. Transaction Conflict Abort
+## 38. Transaction Conflict Abort
 
 The fallback is:
 
@@ -840,9 +840,9 @@ The fallback is:
 
 This establishes rejection rather than silent conflict acceptance at the source-model level.
 
----
+______________________________________________________________________
 
-# 39. [[02_KERNEL/K_CAS|K_CAS]]
+## 39. [[02_KERNEL/K_CAS|K_CAS]]
 
 ```yaml
 K_CAS:
@@ -861,9 +861,9 @@ K_CAS:
     STATE_MISMATCH_REJECTION
 ```
 
----
+______________________________________________________________________
 
-# 40. CAS Transition Form
+## 40. CAS Transition Form
 
 The source supplies:
 
@@ -873,9 +873,9 @@ $$
 
 The displayed expression names the compare-and-swap operation but does not fully specify its return value or transition semantics.
 
----
+______________________________________________________________________
 
-# 41. Conservative CAS Semantics
+## 41. Conservative CAS Semantics
 
 From the architecture and fallback, the minimum source-compatible interpretation is:
 
@@ -896,17 +896,17 @@ UPDATE
 
 This is **DERIVED**, based on the named architecture and fallback.
 
----
+______________________________________________________________________
 
-# 42. CAS Atomicity Boundary
+## 42. CAS Atomicity Boundary
 
 The source calls the transition atomic.
 
 Independent implementation verification would require evidence that no observable partial state occurs across the relevant execution boundary.
 
----
+______________________________________________________________________
 
-# 43. CAS ≠ Multi-RSCF Atomicity
+## 43. CAS ≠ Multi-RSCF Atomicity
 
 [[02_KERNEL/K_CAS|K_CAS]] concerns an atomic state transition.
 
@@ -922,9 +922,9 @@ $$
 
 unless explicitly bound.
 
----
+______________________________________________________________________
 
-# 44. [[02_KERNEL/K_ATOMIC_MULTI_RSCF|K_ATOMIC_MULTI_RSCF]]
+## 44. [[02_KERNEL/K_ATOMIC_MULTI_RSCF|K_ATOMIC_MULTI_RSCF]]
 
 ```yaml
 K_ATOMIC_MULTI_RSCF:
@@ -943,9 +943,9 @@ K_ATOMIC_MULTI_RSCF:
     ATOMIC_ROLLBACK_ALL
 ```
 
----
+______________________________________________________________________
 
-# 45. Multi-RSCF Commit Invariant
+## 45. Multi-RSCF Commit Invariant
 
 The source supplies:
 
@@ -957,9 +957,9 @@ $$
 
 The biconditional operator is important.
 
----
+______________________________________________________________________
 
-# 46. Biconditional Preservation
+## 46. Biconditional Preservation
 
 The source uses:
 
@@ -975,11 +975,11 @@ $$
 
 Therefore do not silently weaken the invariant to one-way implication.
 
----
+______________________________________________________________________
 
-# 47. Atomic Multi-RSCF Meaning
+## 47. Atomic Multi-RSCF Meaning
 
-At source-model level, commit is tied to successful validation of all relevant \(R_i\).
+At source-model level, commit is tied to successful validation of all relevant (R_i).
 
 A conservative representation is:
 
@@ -991,9 +991,9 @@ $$
 
 This is a **DERIVED normalization** of the displayed invariant.
 
----
+______________________________________________________________________
 
-# 48. Atomic Rollback All
+## 48. Atomic Rollback All
 
 The fail-closed fallback is:
 
@@ -1001,9 +1001,9 @@ The fail-closed fallback is:
 
 Therefore the source-defined contract rejects partial multi-capsule success.
 
----
+______________________________________________________________________
 
-# 49. Atomicity ≠ Independently Verified Distributed Atomicity
+## 49. Atomicity ≠ Independently Verified Distributed Atomicity
 
 The artifact does not itself prove behavior under:
 
@@ -1018,9 +1018,9 @@ The artifact does not itself prove behavior under:
 
 Those require implementation and failure-injection evidence.
 
----
+______________________________________________________________________
 
-# 50. [[02_KERNEL/K_ATOMIC_MULTI_RSCF|K_ATOMIC_MULTI_RSCF]] × v4.4 Reasoning
+## 50. [[02_KERNEL/K_ATOMIC_MULTI_RSCF|K_ATOMIC_MULTI_RSCF]] × v4.4 Reasoning
 
 The kernel row strongly corresponds to the AMOS v4.4 reasoning pattern of **atomic multi-RSCF reasoning**.
 
@@ -1028,9 +1028,9 @@ However, this conversational adaptation must not imply that ChatGPT literally ex
 
 The kernel construct remains an AMOS architectural model unless implementation evidence is being examined.
 
----
+______________________________________________________________________
 
-# 51. [[02_KERNEL/K_FAILURE_RECOVERY|K_FAILURE_RECOVERY]]
+## 51. [[02_KERNEL/K_FAILURE_RECOVERY|K_FAILURE_RECOVERY]]
 
 ```yaml
 K_FAILURE_RECOVERY:
@@ -1048,9 +1048,9 @@ K_FAILURE_RECOVERY:
     IMMEDIATE_FAIL_CLOSED_HALT
 ```
 
----
+______________________________________________________________________
 
-# 52. Failure-Recovery Relation
+## 52. Failure-Recovery Relation
 
 The source supplies:
 
@@ -1067,9 +1067,9 @@ This establishes two source-defined recovery branches:
 1. rollback;
 1. ground-state recovery.
 
----
+______________________________________________________________________
 
-# 53. Disjunction Preservation
+## 53. Disjunction Preservation
 
 The source uses:
 
@@ -1079,17 +1079,17 @@ $$
 
 Do not silently convert this into a conjunction requiring both recovery outcomes.
 
----
+______________________________________________________________________
 
-# 54. Fault ≠ Global Recompute
+## 54. Fault ≠ Global Recompute
 
 The relation does not state that every fault causes complete-system recomputation.
 
 It explicitly allows rollback or ground-state transition.
 
----
+______________________________________________________________________
 
-# 55. Immediate Fail-Closed Halt
+## 55. Immediate Fail-Closed Halt
 
 If the recovery kernel itself reaches its fallback condition, the source specifies:
 
@@ -1111,9 +1111,9 @@ ROLLBACK OR S₀
 
 This representation is **DERIVED**.
 
----
+______________________________________________________________________
 
-# 56. Zero-Loss Rollback Claim Boundary
+## 56. Zero-Loss Rollback Claim Boundary
 
 The transformation-flow diagram labels:
 
@@ -1133,9 +1133,9 @@ Therefore:
 
 `Zero-Loss Rollback` = **SOURCE_CLAIM**, not independently verified property.
 
----
+______________________________________________________________________
 
-# 57. ULK × Failure Recovery
+## 57. ULK × Failure Recovery
 
 Both ULK and [[02_KERNEL/K_FAILURE_RECOVERY|K_FAILURE_RECOVERY]] route toward:
 
@@ -1157,9 +1157,9 @@ $$
 
 This creates strong source-level ground-state recovery convergence.
 
----
+______________________________________________________________________
 
-# 58. Trang ∅ × Kernel Recovery
+## 58. Trang ∅ × Kernel Recovery
 
 The Total Framework Matrix supplied:
 
@@ -1171,7 +1171,7 @@ and:
 
 `Immediate Clean State Reset`.
 
-The Kernel Matrix uses \(S_0\) in both ULK and [[02_KERNEL/K_FAILURE_RECOVERY|K_FAILURE_RECOVERY]].
+The Kernel Matrix uses (S_0) in both ULK and [[02_KERNEL/K_FAILURE_RECOVERY|K_FAILURE_RECOVERY]].
 
 This creates strong cross-matrix structural continuity:
 
@@ -1187,9 +1187,9 @@ TRANG ∅ GROUND STATE
 
 Exact semantic identity should still follow authoritative definitions.
 
----
+______________________________________________________________________
 
-# 59. Meta-Logic Kernel — CORE-19
+## 59. Meta-Logic Kernel — CORE-19
 
 ```yaml
 META_LOGIC_CORE_19:
@@ -1217,9 +1217,9 @@ META_LOGIC_CORE_19:
     LAW_VIOLATION_VETO
 ```
 
----
+______________________________________________________________________
 
-# 60. CORE-19 Numeric Structure
+## 60. CORE-19 Numeric Structure
 
 The source explicitly states:
 
@@ -1231,9 +1231,9 @@ The artifact does not enumerate them.
 
 Therefore their individual identities remain L-level dependencies.
 
----
+______________________________________________________________________
 
-# 61. CORE-19 Naming Firewall
+## 61. CORE-19 Naming Firewall
 
 `CORE-19` appears as the Meta-Logic Kernel label.
 
@@ -1246,9 +1246,9 @@ The artifact does not state that `19` means:
 
 Do not infer the meaning from the number alone.
 
----
+______________________________________________________________________
 
-# 62. Signal Fidelity & Structural Integrity
+## 62. Signal Fidelity & Structural Integrity
 
 The source lists these as the Meta-Logic invariant.
 
@@ -1256,9 +1256,9 @@ No mathematical formulation is provided in this artifact.
 
 Therefore exact pass/fail criteria remain unresolved.
 
----
+______________________________________________________________________
 
-# 63. Law Violation Veto
+## 63. Law Violation Veto
 
 The fail-closed fallback is:
 
@@ -1266,9 +1266,9 @@ The fail-closed fallback is:
 
 This establishes a source-defined hard blocking behavior for relevant law violations.
 
----
+______________________________________________________________________
 
-# 64. Meta-Logic × ULK
+## 64. Meta-Logic × ULK
 
 Both target:
 
@@ -1298,9 +1298,9 @@ META-LOGIC
 
 This is **DERIVED routing topology**, not necessarily execution order.
 
----
+______________________________________________________________________
 
-# 65. QCLA Causal Kernel
+## 65. QCLA Causal Kernel
 
 ```yaml
 QCLA:
@@ -1318,9 +1318,9 @@ QCLA:
     EPISTEMIC_INVALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 66. QCLA Causal Admissibility
+## 66. QCLA Causal Admissibility
 
 The source supplies:
 
@@ -1334,9 +1334,9 @@ $$
 
 This is a source-defined causal admissibility condition.
 
----
+______________________________________________________________________
 
-# 67. QCLA Biconditional Preservation
+## 67. QCLA Biconditional Preservation
 
 Again:
 
@@ -1348,9 +1348,9 @@ must not be silently weakened.
 
 The source presents temporal order and non-circularity as jointly tied to its causal admissibility predicate.
 
----
+______________________________________________________________________
 
-# 68. QCLA Causal Firewall
+## 68. QCLA Causal Firewall
 
 The matrix's QCLA relation must not be generalized into the empirical claim that:
 
@@ -1366,9 +1366,9 @@ In ordinary causal inference, temporal ordering and non-circularity alone do not
 
 Within this artifact, QCLA is an **AMOS_MODEL**.
 
----
+______________________________________________________________________
 
-# 69. Five Causal Claims Gap
+## 69. Five Causal Claims Gap
 
 The source states:
 
@@ -1386,9 +1386,9 @@ QCLA_K1_K5:
 
 when their content becomes load-bearing.
 
----
+______________________________________________________________________
 
-# 70. Epistemic Invalidation
+## 70. Epistemic Invalidation
 
 QCLA's fallback is:
 
@@ -1403,9 +1403,9 @@ This is categorically different from:
 
 It acts at the claim/knowledge-validity level.
 
----
+______________________________________________________________________
 
-# 71. QCLA × 11_KNOWLEDGE
+## 71. QCLA × 11_KNOWLEDGE
 
 QCLA uniquely targets:
 
@@ -1415,9 +1415,9 @@ among the ten displayed kernel rows.
 
 This gives causal admissibility a direct source-defined Knowledge-plane routing.
 
----
+______________________________________________________________________
 
-# 72. DCP Deterministic Compiler
+## 72. DCP Deterministic Compiler
 
 ```yaml
 DCP:
@@ -1435,9 +1435,9 @@ DCP:
     COMPILATION_ABORT
 ```
 
----
+______________________________________________________________________
 
-# 73. DCP Proof-Before-Commit
+## 73. DCP Proof-Before-Commit
 
 The source gives:
 
@@ -1451,9 +1451,9 @@ $$
 
 Thus compilation is represented as requiring both AST verification and signed receipt under the supplied invariant.
 
----
+______________________________________________________________________
 
-# 74. Implication Direction
+## 74. Implication Direction
 
 The source uses:
 
@@ -1471,9 +1471,9 @@ $$
 
 Therefore do not convert the implication into a biconditional.
 
----
+______________________________________________________________________
 
-# 75. DCP Receipt Semantics Gap
+## 75. DCP Receipt Semantics Gap
 
 `ReceiptSigned` is supplied.
 
@@ -1489,17 +1489,17 @@ The artifact does not define:
 
 Those remain implementation dependencies.
 
----
+______________________________________________________________________
 
-# 76. Signed Receipt ≠ Cryptographic Security Proof
+## 76. Signed Receipt ≠ Cryptographic Security Proof
 
 The presence of a signed receipt in the model does not itself establish secure key management, unforgeability, or non-repudiation.
 
 Those require implementation and threat-model evidence.
 
----
+______________________________________________________________________
 
-# 77. DCP × GMEF
+## 77. DCP × GMEF
 
 The Total Framework Matrix describes GMEF as:
 
@@ -1519,9 +1519,9 @@ These strongly converge on proof-governed mutation/execution.
 
 Exact dependency remains source-dependent.
 
----
+______________________________________________________________________
 
-# 78. DCP × Atomic Multi-RSCF
+## 78. DCP × Atomic Multi-RSCF
 
 DCP verifies a program/proof artifact before compilation.
 
@@ -1531,9 +1531,9 @@ Both therefore implement source-defined pre-commit validation patterns at differ
 
 Do not treat them as interchangeable.
 
----
+______________________________________________________________________
 
-# 79. DCP × Signed State Receipts
+## 79. DCP × Signed State Receipts
 
 The transformation diagram names:
 
@@ -1547,9 +1547,9 @@ This is strong source-level structural correspondence.
 
 The artifact does not explicitly state that every signed state-transition receipt is produced by DCP.
 
----
+______________________________________________________________________
 
-# 80. Runtime Plane Multiplicity
+## 80. Runtime Plane Multiplicity
 
 `04_RUNTIME` receives five displayed kernels:
 
@@ -1571,9 +1571,9 @@ within the table.
 
 This is a **DERIVED structural count**.
 
----
+______________________________________________________________________
 
-# 81. Kernel Plane Multiplicity
+## 81. Kernel Plane Multiplicity
 
 `02_KERNEL` receives:
 
@@ -1592,9 +1592,9 @@ $$
 
 within the table.
 
----
+______________________________________________________________________
 
-# 82. State Plane Multiplicity
+## 82. State Plane Multiplicity
 
 `12_STATE` receives:
 
@@ -1607,49 +1607,49 @@ $$
 |KernelsTargeting(12\_STATE)|=2
 $$
 
----
+______________________________________________________________________
 
-# 83. Models Plane
+## 83. Models Plane
 
 `13_MODELS` receives MURK.
 
 This connects discrete topology to the Models plane.
 
----
+______________________________________________________________________
 
-# 84. Control Plane
+## 84. Control Plane
 
 `03_CONTROL_PLANE` receives [[02_KERNEL/K_ATOMIC_MULTI_RSCF|K_ATOMIC_MULTI_RSCF]].
 
 This routes cross-capsule commit coordination into governance/control architecture.
 
----
+______________________________________________________________________
 
-# 85. Schemas Plane
+## 85. Schemas Plane
 
 `16_SCHEMAS` receives [[02_KERNEL/K_ATOMIC_MULTI_RSCF|K_ATOMIC_MULTI_RSCF]].
 
 This is significant because multi-RSCF atomicity is therefore not represented solely as runtime behavior; it also crosses schema structure.
 
----
+______________________________________________________________________
 
-# 86. Canon Plane
+## 86. Canon Plane
 
 `01_CANON` receives Meta-Logic CORE-19.
 
 Thus canonical laws have a direct source-defined kernel convergence route.
 
----
+______________________________________________________________________
 
-# 87. Knowledge Plane
+## 87. Knowledge Plane
 
 `11_KNOWLEDGE` receives QCLA.
 
 Thus causal admissibility is explicitly routed into Knowledge.
 
----
+______________________________________________________________________
 
-# 88. Cross-Plane Kernel Registry
+## 88. Cross-Plane Kernel Registry
 
 ```yaml
 TARGET_PLANE_REGISTRY:
@@ -1687,9 +1687,9 @@ TARGET_PLANE_REGISTRY:
     - k_atomic_multi_rscf
 ```
 
----
+______________________________________________________________________
 
-# 89. Multi-Plane Kernels
+## 89. Multi-Plane Kernels
 
 ```yaml
 MULTI_PLANE_KERNELS:
@@ -1719,9 +1719,9 @@ MULTI_PLANE_KERNELS:
     - 02_KERNEL
 ```
 
----
+______________________________________________________________________
 
-# 90. Single-Plane Kernels
+## 90. Single-Plane Kernels
 
 ```yaml
 SINGLE_PLANE_KERNELS:
@@ -1739,9 +1739,9 @@ SINGLE_PLANE_KERNELS:
     - 04_RUNTIME
 ```
 
----
+______________________________________________________________________
 
-# 91. One Kernel → Multiple Planes
+## 91. One Kernel → Multiple Planes
 
 The matrix establishes:
 
@@ -1751,9 +1751,9 @@ $$
 
 for six of the ten table rows.
 
----
+______________________________________________________________________
 
-# 92. Multiple Kernels → One Plane
+## 92. Multiple Kernels → One Plane
 
 It also establishes:
 
@@ -1769,9 +1769,9 @@ especially at:
 
 This is a central convergence property.
 
----
+______________________________________________________________________
 
-# 93. Table Order ≠ Runtime Order
+## 93. Table Order ≠ Runtime Order
 
 The row order does not establish:
 
@@ -1792,9 +1792,9 @@ as an execution pipeline.
 
 Dependency evidence is required.
 
----
+______________________________________________________________________
 
-# 94. Diagram Order ≠ Complete Execution Order
+## 94. Diagram Order ≠ Complete Execution Order
 
 Likewise, the diagram's:
 
@@ -1810,9 +1810,9 @@ is architectural grouping.
 
 It does not prove every operation passes through those groups sequentially.
 
----
+______________________________________________________________________
 
-# 95. Shared Plane ≠ Shared State
+## 95. Shared Plane ≠ Shared State
 
 Two kernels targeting the same plane may operate on different state domains.
 
@@ -1826,9 +1826,9 @@ $$
 
 Shared state must be established.
 
----
+______________________________________________________________________
 
-# 96. Shared State ≠ Independence
+## 96. Shared State ≠ Independence
 
 If kernels do share mutable state, separate validation results are not automatically independent.
 
@@ -1838,9 +1838,9 @@ SharedState
 PotentialDependency
 $$
 
----
+______________________________________________________________________
 
-# 97. MVCC × CAS
+## 97. MVCC × CAS
 
 The matrix places both within concurrency/state-transition architecture:
 
@@ -1868,9 +1868,9 @@ COMMIT   REJECT / RETRY PATH
 
 This is **DERIVED**, not an explicit pipeline in the artifact.
 
----
+______________________________________________________________________
 
-# 98. MVCC × CAS Conflict Boundary
+## 98. MVCC × CAS Conflict Boundary
 
 MVCC may validate a snapshot while CAS subsequently encounters a changed current state.
 
@@ -1878,9 +1878,9 @@ Therefore snapshot validity does not automatically imply CAS success.
 
 This is a generic structural implication of their supplied roles, not a claim about a particular implementation trace.
 
----
+______________________________________________________________________
 
-# 99. CAS × Atomic Multi-RSCF
+## 99. CAS × Atomic Multi-RSCF
 
 A single CAS transition may succeed while another capsule in a multi-RSCF transaction fails.
 
@@ -1894,9 +1894,9 @@ $$
 
 when multi-capsule atomicity is load-bearing.
 
----
+______________________________________________________________________
 
-# 100. Atomic Multi-RSCF × Recovery
+## 100. Atomic Multi-RSCF × Recovery
 
 If a multi-RSCF commit cannot complete safely, the supplied fallback is:
 
@@ -1906,9 +1906,9 @@ If a multi-RSCF commit cannot complete safely, the supplied fallback is:
 
 This creates a source-level recovery relationship, but exact coordination between the two kernels is not defined here.
 
----
+______________________________________________________________________
 
-# 101. Failure Recovery × MVCC
+## 101. Failure Recovery × MVCC
 
 Rollback may interact with epoch/snapshot state.
 
@@ -1922,17 +1922,17 @@ The matrix does not specify whether rollback:
 
 Do not invent those semantics.
 
----
+______________________________________________________________________
 
-# 102. Failure Recovery × CAS
+## 102. Failure Recovery × CAS
 
 Rollback to an earlier state may invalidate expected-state assumptions used by pending CAS operations.
 
 Exact invalidation behavior requires implementation evidence.
 
----
+______________________________________________________________________
 
-# 103. DCP × CAS
+## 103. DCP × CAS
 
 Proof-before-commit compilation and CAS operate at different layers:
 
@@ -1941,9 +1941,9 @@ Proof-before-commit compilation and CAS operate at different layers:
 
 A verified program does not automatically guarantee a successful state transition.
 
----
+______________________________________________________________________
 
-# 104. QCLA × DCP
+## 104. QCLA × DCP
 
 A program may compile correctly while its causal claims remain epistemically inadmissible.
 
@@ -1955,9 +1955,9 @@ CompilationValidity
 CausalValidity
 $$
 
----
+______________________________________________________________________
 
-# 105. Meta-Logic × DCP
+## 105. Meta-Logic × DCP
 
 An AST may verify syntactically/structurally while violating a canonical law.
 
@@ -1971,9 +1971,9 @@ $$
 
 unless the verifier explicitly includes those laws.
 
----
+______________________________________________________________________
 
-# 106. Meta-Logic × QCLA
+## 106. Meta-Logic × QCLA
 
 A causal claim may satisfy QCLA's source-defined admissibility tree while still needing compatibility with higher canonical/meta-logic constraints.
 
@@ -1981,9 +1981,9 @@ Conversely, law compliance does not establish causal validity.
 
 These are distinct validation dimensions.
 
----
+______________________________________________________________________
 
-# 107. MURK × QCLA
+## 107. MURK × QCLA
 
 Topological relation does not establish causation.
 
@@ -1997,17 +1997,17 @@ $$
 
 This is an important causal firewall.
 
----
+______________________________________________________________________
 
-# 108. Go Board × QCLA
+## 108. Go Board × QCLA
 
 Branch dominance or deterministic-state selection does not establish that the selected branch causally produces a real-world outcome.
 
 Decision/search topology and causal identification remain separate.
 
----
+______________________________________________________________________
 
-# 109. MURK × CAS
+## 109. MURK × CAS
 
 A topologically valid state may still fail a CAS transition because the current state no longer matches the expected state.
 
@@ -2019,9 +2019,9 @@ TopologicalValidity
 TransitionAuthority
 $$
 
----
+______________________________________________________________________
 
-# 110. ULK × CAS
+## 110. ULK × CAS
 
 A ULK-computed next state:
 
@@ -2031,23 +2031,23 @@ S_{t+1}
 \tau(\Pi_{\mathcal C}(S_t\otimes U_t))
 $$
 
-does not itself prove that the current mutable state remains \(S_t\) when commit occurs.
+does not itself prove that the current mutable state remains (S_t) when commit occurs.
 
 CAS can provide a separate state-match gate.
 
 This is a **DERIVED integration pattern**.
 
----
+______________________________________________________________________
 
-# 111. ULK × MVCC
+## 111. ULK × MVCC
 
 Likewise, ULK transformation can conceptually operate on a snapshot, while MVCC governs snapshot/epoch validity.
 
 The matrix does not explicitly define this execution pipeline, so it remains a derived integration model.
 
----
+______________________________________________________________________
 
-# 112. ULK × DCP
+## 112. ULK × DCP
 
 ULK represents logic transformation.
 
@@ -2070,9 +2070,9 @@ SIGNED RECEIPT
 
 This is **DERIVED**, not directly specified.
 
----
+______________________________________________________________________
 
-# 113. Meta-Logic × ULK
+## 113. Meta-Logic × ULK
 
 A conservative cross-kernel interpretation is:
 
@@ -2088,9 +2088,9 @@ ULK LOGIC TRANSFORMATION
 
 But the table does not explicitly specify invocation order.
 
----
+______________________________________________________________________
 
-# 114. Kernel Atomicity Hierarchy
+## 114. Kernel Atomicity Hierarchy
 
 The supplied matrix distinguishes several scopes of state integrity:
 
@@ -2113,9 +2113,9 @@ RECOVERY SCOPE
 
 This hierarchy is **DERIVED** from the named roles.
 
----
+______________________________________________________________________
 
-# 115. Atomicity Scope Firewall
+## 115. Atomicity Scope Firewall
 
 Do not infer:
 
@@ -2137,9 +2137,9 @@ without explicit scope evidence.
 
 Atomicity is typed and scoped.
 
----
+______________________________________________________________________
 
-# 116. Provenance Independence
+## 116. Provenance Independence
 
 Several source claims may descend from:
 
@@ -2156,15 +2156,15 @@ MultipleDescendants
 IndependentEvidence
 $$
 
----
+______________________________________________________________________
 
-# 117. Cross-Matrix Shared Ancestry
+## 117. Cross-Matrix Shared Ancestry
 
 If `TOTAL_FRAMEWORK_MATRIX`, `TOTAL_KERNEL_MATRIX`, and `TOTAL_CANON_MATRIX` all derive a ULK claim from the same underlying ULK artifact, three matrix occurrences still represent one underlying provenance branch unless independently validated.
 
----
+______________________________________________________________________
 
-# 118. Fail-Closed Registry
+## 118. Fail-Closed Registry
 
 ```yaml
 FAIL_CLOSED_KERNEL_REGISTRY:
@@ -2210,9 +2210,9 @@ FAIL_CLOSED_KERNEL_REGISTRY:
       COMPILATION_ABORT
 ```
 
----
+______________________________________________________________________
 
-# 119. Fallback Taxonomy
+## 119. Fallback Taxonomy
 
 The ten fallbacks span several distinct classes:
 
@@ -2248,11 +2248,11 @@ FALLBACK_CLASSES:
 
 This classification is **DERIVED**.
 
----
+______________________________________________________________________
 
-# 120. Failure ≠ Same Recovery Action
+## 120. Failure ≠ Same Recovery Action
 
-A failed QCLA causal claim should not automatically trigger an \(S_0\) runtime reset.
+A failed QCLA causal claim should not automatically trigger an (S_0) runtime reset.
 
 A CAS mismatch should not automatically imply epistemic invalidation.
 
@@ -2260,9 +2260,9 @@ A DCP compilation abort should not automatically imply whole-system rollback.
 
 Fallbacks are local and typed unless dependency closure requires escalation.
 
----
+______________________________________________________________________
 
-# 121. Local Failure Recovery Principle
+## 121. Local Failure Recovery Principle
 
 A v4.4-compatible derived integration rule is:
 
@@ -2282,9 +2282,9 @@ $$
 
 unless the failed kernel is globally load-bearing.
 
----
+______________________________________________________________________
 
-# 122. Nearest Valid State
+## 122. Nearest Valid State
 
 The supplied recovery architecture supports a conservative repair principle:
 
@@ -2304,17 +2304,17 @@ CONTINUE IF SAFE
 
 This is **DERIVED** from the source's rollback/reset architecture and AMOS recovery spine.
 
----
+______________________________________________________________________
 
-# 123. Ground-State Escalation
+## 123. Ground-State Escalation
 
-\(S_0\) should be treated as a stronger recovery basin than local rollback when the source-defined recovery path requires it.
+(S_0) should be treated as a stronger recovery basin than local rollback when the source-defined recovery path requires it.
 
-Do not default every local error to \(S_0\) unless dependency closure makes local repair unsafe.
+Do not default every local error to (S_0) unless dependency closure makes local repair unsafe.
 
----
+______________________________________________________________________
 
-# 124. Fail-Closed ≠ Fail-Safe Proof
+## 124. Fail-Closed ≠ Fail-Safe Proof
 
 The named fallbacks do not independently prove:
 
@@ -2332,9 +2332,9 @@ The named fallbacks do not independently prove:
 
 Those require appropriately typed evidence.
 
----
+______________________________________________________________________
 
-# 125. Concurrency Regime Firewall
+## 125. Concurrency Regime Firewall
 
 MVCC/CAS behavior can depend on:
 
@@ -2347,9 +2347,9 @@ MVCC/CAS behavior can depend on:
 
 A conclusion under one concurrency regime should not be silently generalized to another.
 
----
+______________________________________________________________________
 
-# 126. Distributed-Regime Firewall
+## 126. Distributed-Regime Firewall
 
 Nothing in this matrix alone establishes behavior under:
 
@@ -2362,17 +2362,17 @@ Nothing in this matrix alone establishes behavior under:
 
 Those are separate execution regimes.
 
----
+______________________________________________________________________
 
-# 127. Causal-Regime Firewall
+## 127. Causal-Regime Firewall
 
 QCLA's source-defined admissibility relation remains an AMOS causal model.
 
 Claims about external causation require appropriately typed empirical evidence and control of alternatives.
 
----
+______________________________________________________________________
 
-# 128. Compiler-Regime Firewall
+## 128. Compiler-Regime Firewall
 
 DCP's proof-before-commit model does not automatically transfer across:
 
@@ -2384,9 +2384,9 @@ DCP's proof-before-commit model does not automatically transfer across:
 
 Version compatibility is load-bearing.
 
----
+______________________________________________________________________
 
-# 129. Topological-Regime Firewall
+## 129. Topological-Regime Firewall
 
 MURK and Go Board invariants may depend on:
 
@@ -2399,9 +2399,9 @@ MURK and Go Board invariants may depend on:
 
 Do not generalize 19×19 results to arbitrary topology without validation.
 
----
+______________________________________________________________________
 
-# 130. Kernel Dependency Closure
+## 130. Kernel Dependency Closure
 
 Before using a local kernel result as sufficient, establish:
 
@@ -2429,9 +2429,9 @@ FAILURE REGIME WITHIN SCOPE
 
 Only relevant dependencies need retrieval.
 
----
+______________________________________________________________________
 
-# 131. Kernel Fast Path
+## 131. Kernel Fast Path
 
 A local fast path is appropriate when:
 
@@ -2455,9 +2455,9 @@ SCOPE / REGIME MATCH
 ACTION IS REVERSIBLE
 ```
 
----
+______________________________________________________________________
 
-# 132. Kernel Escalation Conditions
+## 132. Kernel Escalation Conditions
 
 Escalate when:
 
@@ -2489,9 +2489,9 @@ FAILURE MODEL CHANGES
 DEPENDENCIES ARE AMBIGUOUS
 ```
 
----
+______________________________________________________________________
 
-# 133. Atomic Multi-RSCF Fast-Path Firewall
+## 133. Atomic Multi-RSCF Fast-Path Firewall
 
 Do not replace:
 
@@ -2503,9 +2503,9 @@ with independent per-capsule reasoning when a shared commit is required.
 
 The local fast path is only valid if capsules are genuinely independent with respect to the decision.
 
----
+______________________________________________________________________
 
-# 134. Coordination Avoidance Boundary
+## 134. Coordination Avoidance Boundary
 
 The existence of [[02_KERNEL/K_ATOMIC_MULTI_RSCF|K_ATOMIC_MULTI_RSCF]] does not mean every operation requires global coordination.
 
@@ -2521,9 +2521,9 @@ $$
 
 subject to authoritative runtime semantics.
 
----
+______________________________________________________________________
 
-# 135. Proof-Based Coordination Avoidance
+## 135. Proof-Based Coordination Avoidance
 
 If independent proof capsules establish:
 
@@ -2538,9 +2538,9 @@ then local reasoning may avoid unnecessary coordination.
 
 This is a **v4.4-derived reasoning pattern**, not a claim that this matrix alone specifies the complete distributed protocol.
 
----
+______________________________________________________________________
 
-# 136. Causal Epoch Finality Boundary
+## 136. Causal Epoch Finality Boundary
 
 The matrix supplies monotonic epoch clocks but does not explicitly define causal epoch finality.
 
@@ -2559,17 +2559,17 @@ CAUSAL_EPOCH_FINALITY:
     GAP_IF_LOAD_BEARING
 ```
 
----
+______________________________________________________________________
 
-# 137. Shard-Local Finalization Boundary
+## 137. Shard-Local Finalization Boundary
 
 Likewise, the artifact does not explicitly define shard-local finalization.
 
 Do not infer it from MVCC/CAS alone.
 
----
+______________________________________________________________________
 
-# 138. Byzantine/Sybil Boundary
+## 138. Byzantine/Sybil Boundary
 
 No kernel row directly establishes Byzantine consensus.
 
@@ -2577,9 +2577,9 @@ Sybil quarantine appears in the Total Framework Matrix's Heritage governance, no
 
 Therefore kernel atomicity should not be promoted into Byzantine security.
 
----
+______________________________________________________________________
 
-# 139. Cross-Matrix Governance Escalation
+## 139. Cross-Matrix Governance Escalation
 
 When a kernel operation becomes authority-sensitive or provenance-sensitive, the kernel matrix may need escalation to framework/governance dependencies such as:
 
@@ -2590,27 +2590,27 @@ When a kernel operation becomes authority-sensitive or provenance-sensitive, the
 
 This is a cross-matrix dependency, not evidence that the kernel itself performs those governance functions.
 
----
+______________________________________________________________________
 
-# 140. Total Framework × Total Kernel Crosswalk
+## 140. Total Framework × Total Kernel Crosswalk
 
-| Framework   | Kernel Relation                                           | Status                                |
-| ----------- | --------------------------------------------------------- | ------------------------------------- |
-| Trang ∅     | ULK / [[02_KERNEL/K_FAILURE_RECOVERY|K_FAILURE_RECOVERY]] via \(S_0\)                        | Strong structural correspondence      |
-| TRA         | ULK / Meta-Logic via Canon + Kernel                       | Structural correspondence             |
-| Khung Trang | MURK / topology family                                    | Plausible structural correspondence   |
-| UBI         | No explicit dedicated kernel row here                     | GAP / external dependency             |
-| TSS         | MURK/Models may be relevant, but no explicit binding      | GAP unless sourced                    |
-| TPE         | MURK/Go topology may be relevant, but no explicit binding | GAP unless sourced                    |
-| Heritage    | [[02_KERNEL/K_ATOMIC_MULTI_RSCF|K_ATOMIC_MULTI_RSCF]] governance adjacency                  | Structural, not identity              |
-| GMEF        | DCP / CAS / Multi-RSCF / Recovery                         | Strong operational correspondence     |
-| ULK         | ULK ALU 0–5                                               | Direct naming/operator correspondence |
+| Framework   | Kernel Relation                                           | Status                                       |
+| ----------- | --------------------------------------------------------- | -------------------------------------------- |
+| Trang ∅     | ULK / \[\[02_KERNEL/K_FAILURE_RECOVERY                    | K_FAILURE_RECOVERY\]\] via (S_0)             |
+| TRA         | ULK / Meta-Logic via Canon + Kernel                       | Structural correspondence                    |
+| Khung Trang | MURK / topology family                                    | Plausible structural correspondence          |
+| UBI         | No explicit dedicated kernel row here                     | GAP / external dependency                    |
+| TSS         | MURK/Models may be relevant, but no explicit binding      | GAP unless sourced                           |
+| TPE         | MURK/Go topology may be relevant, but no explicit binding | GAP unless sourced                           |
+| Heritage    | \[\[02_KERNEL/K_ATOMIC_MULTI_RSCF                         | K_ATOMIC_MULTI_RSCF\]\] governance adjacency |
+| GMEF        | DCP / CAS / Multi-RSCF / Recovery                         | Strong operational correspondence            |
+| ULK         | ULK ALU 0–5                                               | Direct naming/operator correspondence        |
 
 Rows marked structural are **DERIVED**, unless an authoritative source explicitly binds them.
 
----
+______________________________________________________________________
 
-# 141. UBI Absence Is Not Negation
+## 141. UBI Absence Is Not Negation
 
 UBI has no dedicated row in the Kernel Matrix.
 
@@ -2618,9 +2618,9 @@ This does not mean UBI has no kernel dependencies.
 
 It only means no dedicated UBI kernel row is supplied here.
 
----
+______________________________________________________________________
 
-# 142. TSS/TPE Absence Is Not Negation
+## 142. TSS/TPE Absence Is Not Negation
 
 Similarly, TSS and TPE are not explicit kernel rows.
 
@@ -2628,13 +2628,13 @@ Do not infer absence of Kernel execution support.
 
 Retrieve their runtime bindings if that becomes material.
 
----
+______________________________________________________________________
 
-# 143. Kernel Matrix × Canon Matrix
+## 143. Kernel Matrix × Canon Matrix
 
 The supplied inter-plane connections explicitly include:
 
-``.
+\`\`.
 
 A conservative architectural distinction is:
 
@@ -2652,9 +2652,9 @@ $$
 
 This distinction should remain unless source canon defines a stronger identity.
 
----
+______________________________________________________________________
 
-# 144. Kernel Matrix × Reality × ULK
+## 144. Kernel Matrix × Reality × ULK
 
 The provenance explicitly includes:
 
@@ -2662,27 +2662,27 @@ The provenance explicitly includes:
 
 and the inter-plane links include:
 
-``.
+\`\`.
 
 Therefore Reality × ULK is a first-class dependency for exact ontology-to-kernel transformation semantics.
 
----
+______________________________________________________________________
 
-# 145. Kernel Matrix × [[02_KERNEL/MVCC_CAS|MVCC_CAS]]
+## 145. Kernel Matrix × [[02_KERNEL/MVCC_CAS|MVCC_CAS]]
 
 The inter-plane connections explicitly name:
 
-``.
+\`\`.
 
 This is the appropriate source to retrieve if the exact relationship between [[02_KERNEL/K_MVCC|K_MVCC]] and [[02_KERNEL/K_CAS|K_CAS]] becomes load-bearing.
 
 Do not fabricate that protocol from conventional database knowledge.
 
----
+______________________________________________________________________
 
-# 146. Kernel Matrix × Failure Recovery
+## 146. Kernel Matrix × Failure Recovery
 
-`` is explicitly linked.
+\`\` is explicitly linked.
 
 That source should govern exact:
 
@@ -2692,11 +2692,11 @@ That source should govern exact:
 - crash recovery;
 - fail-closed halt.
 
----
+______________________________________________________________________
 
-# 147. Kernel Matrix × Atomic Multi-RSCF
+## 147. Kernel Matrix × Atomic Multi-RSCF
 
-`` is explicitly linked.
+\`\` is explicitly linked.
 
 That source should govern exact:
 
@@ -2707,9 +2707,9 @@ That source should govern exact:
 - cross-plane atomicity;
 - coordination behavior.
 
----
+______________________________________________________________________
 
-# 148. H Capsule
+## 148. H Capsule
 
 ```yaml
 H:
@@ -2738,9 +2738,9 @@ H:
     2.0.0
 ```
 
----
+______________________________________________________________________
 
-# 149. M Capsule
+## 149. M Capsule
 
 ```yaml
 M:
@@ -2770,9 +2770,9 @@ M:
     FAIL_CLOSED_GATED
 ```
 
----
+______________________________________________________________________
 
-# 150. L Retrieval Capsule
+## 150. L Retrieval Capsule
 
 ```yaml
 L:
@@ -2888,9 +2888,9 @@ L:
       - runtime_traces
 ```
 
----
+______________________________________________________________________
 
-# 151. Master Machine Representation
+## 151. Master Machine Representation
 
 ```yaml
 TOTAL_KERNEL_MATRIX:
@@ -3009,9 +3009,9 @@ TOTAL_KERNEL_MATRIX:
         COMPILATION_ABORT
 ```
 
----
+______________________________________________________________________
 
-# 152. RSCF Master Contract
+## 152. RSCF Master Contract
 
 ```yaml
 RSCF:
@@ -3077,9 +3077,9 @@ RSCF:
       UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 153. RSCF State Topology
+## 153. RSCF State Topology
 
 The artifact metadata supplies:
 
@@ -3114,9 +3114,9 @@ RSCF_STATE_TOPOLOGY:
     NOT_EXPLICITLY_DEFINED
 ```
 
----
+______________________________________________________________________
 
-# 154. Proof Capsule
+## 154. Proof Capsule
 
 ```yaml
 PROOF_CAPSULE:
@@ -3244,9 +3244,9 @@ PROOF_CAPSULE:
       UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 155. Constitutional-Test Boundary
+## 155. Constitutional-Test Boundary
 
 The source declares:
 
@@ -3266,9 +3266,9 @@ is:
 
 But the supplied artifact does not contain the complete evidence required to reproduce those tests.
 
----
+______________________________________________________________________
 
-# 156. Executable-Binding Boundary
+## 156. Executable-Binding Boundary
 
 The source declares:
 
@@ -3291,9 +3291,9 @@ FROM THIS ARTIFACT ALONE:
 NOT ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 157. Runtime-Enforcement Boundary
+## 157. Runtime-Enforcement Boundary
 
 The source declares:
 
@@ -3307,9 +3307,9 @@ This establishes the source-defined runtime contract.
 
 It does not independently prove absence of fail-open implementation defects.
 
----
+______________________________________________________________________
 
-# 158. Independent Constitutional-Test Requirements
+## 158. Independent Constitutional-Test Requirements
 
 Independent reproduction would require:
 
@@ -3369,9 +3369,9 @@ PROVENANCE
 REPRODUCIBILITY
 ```
 
----
+______________________________________________________________________
 
-# 159. Independent Runtime Requirements
+## 159. Independent Runtime Requirements
 
 To verify `executable_binding: ESTABLISHED` independently, retrieve:
 
@@ -3427,9 +3427,9 @@ RUNTIME TRACES
 FAILURE-INJECTION RESULTS
 ```
 
----
+______________________________________________________________________
 
-# 160. Anti-Fabrication Contract
+## 160. Anti-Fabrication Contract
 
 This artifact MUST NOT by itself be used to claim:
 
@@ -3443,7 +3443,7 @@ This artifact MUST NOT by itself be used to claim:
 1. `FAIL_CLOSED_GATED` proves no fail-open defect exists.
 1. ULK's symbols have conventional mathematical meanings.
 1. (\\emptyset) means deletion.
-1. \(S_0\) means literal physical nothingness.
+1. (S_0) means literal physical nothingness.
 1. ULK's state transition is externally empirically validated.
 1. ULK's fallback always restores state without loss.
 1. MURK is identical to conventional Go.
@@ -3514,9 +3514,9 @@ This artifact MUST NOT by itself be used to claim:
 1. Proof terminology alone establishes formal soundness.
 1. Deterministic terminology alone establishes hardware-independent determinism.
 
----
+______________________________________________________________________
 
-# 161. Anti-Regression Contract
+## 161. Anti-Regression Contract
 
 Future canonical revisions should preserve or explicitly supersede:
 
@@ -3690,9 +3690,9 @@ FAIL-CLOSED BOUNDARY
 UNKNOWN/GAP PRESERVATION
 ```
 
----
+______________________________________________________________________
 
-# 162. Invalidation Conditions
+## 162. Invalidation Conditions
 
 Revalidate when:
 
@@ -3758,9 +3758,9 @@ DEPENDENCY GRAPH CHANGES
 EXECUTION REGIME CHANGES
 ```
 
----
+______________________________________________________________________
 
-# 163. RSCF Relations
+## 163. RSCF Relations
 
 ```yaml
 RSCF_RELATIONS:
@@ -3844,9 +3844,9 @@ RSCF_RELATIONS:
       ""
 ```
 
----
+______________________________________________________________________
 
-# 164. Native Canon Ingestion
+## 164. Native Canon Ingestion
 
 ```yaml
 TOTAL_KERNEL_MATRIX_INGESTION:
@@ -3998,9 +3998,9 @@ TOTAL_KERNEL_MATRIX_INGESTION:
       - REQUIRE_TEST_EVIDENCE_FOR_CONSTITUTIONAL_TEST_REPRODUCTION
 ```
 
----
+______________________________________________________________________
 
-# 165. Canonical Compression
+## 165. Canonical Compression
 
 ```text
                    TOTAL KERNEL MATRIX
@@ -4083,9 +4083,9 @@ INDEPENDENT RUNTIME VERIFICATION
 NOT ESTABLISHED BY THIS ARTIFACT ALONE
 ```
 
----
+______________________________________________________________________
 
-# 166. Final Canonical Candidate Statement
+## 166. Final Canonical Candidate Statement
 
 **Total Kernel Cross-Plane Matrix v2.0.0** is the source-defined AMOS master operational convergence grid connecting ten named kernel subsystems to their operators/architectures, mathematical or logical invariants, target runtime planes, and fail-closed fallback behavior.
 
@@ -4207,7 +4207,7 @@ The decisive integrity boundaries are:
 
 **FAILURES SHOULD REMAIN LOCAL AND TYPED WHEN DEPENDENCY CLOSURE ALLOWS; GLOBAL RESET IS NOT THE DEFAULT FOR EVERY LOCAL ERROR.**
 
-**GROUND-STATE \(S_0\) IS A SOURCE-DEFINED RECOVERY BASIN, NOT A LICENSE TO INVENT ITS ONTOLOGICAL OR IMPLEMENTATION SEMANTICS.**
+**GROUND-STATE (S_0) IS A SOURCE-DEFINED RECOVERY BASIN, NOT A LICENSE TO INVENT ITS ONTOLOGICAL OR IMPLEMENTATION SEMANTICS.**
 
 Operationally:
 
@@ -4340,15 +4340,15 @@ only as far as the actual dependency/failure scope requires.
 
 AMOS can therefore represent a unified kernel execution mesh while preserving **typed atomicity, local provenance, operator semantics, causal boundaries, state/version scope, recovery locality, fail-closed behavior, and confidence ceilings**.
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|AMOS MOC]]
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]] · [[02_KERNEL/02_KERNEL_MOC|02_KERNEL_MOC]] · [[02_KERNEL/ULK_LOGIC_KERNEL|ULK_LOGIC_KERNEL]] · [[02_KERNEL/K_MVCC|K_MVCC]] · [[02_KERNEL/K_CAS|K_CAS]] · [[02_KERNEL/MVCC_CAS|MVCC_CAS]] · [[02_KERNEL/K_ATOMIC_MULTI_RSCF|K_ATOMIC_MULTI_RSCF]] · [[02_KERNEL/K_FAILURE_RECOVERY|K_FAILURE_RECOVERY]] · [[25_COGNITIVE_MATRIX/REALITY_X_ULK_MATRIX|REALITY_X_ULK_MATRIX]] · [[25_COGNITIVE_MATRIX/TOTAL_CANON_MATRIX|TOTAL_CANON_MATRIX]] · [[25_COGNITIVE_MATRIX/TOTAL_FRAMEWORK_MATRIX|TOTAL_FRAMEWORK_MATRIX]] · [[02_KERNEL/09_INTEGRATION/K_RSCF|K_RSCF]] · [[02_KERNEL/09_INTEGRATION/K_HML|K_HML]] · [[02_KERNEL/K_CANON|K_CANON]] · K_KERNEL · [[02_KERNEL/K_FAIL_CLOSED|K_FAIL_CLOSED]] · [[02_KERNEL/08_PROVENANCE/K_PROVENANCE|K_PROVENANCE]] · K_CAUSAL_FIREWALL · [[02_KERNEL/K_GOVERNED_EVOLUTION|K_GOVERNED_EVOLUTION]]
 
----
+______________________________________________________________________
 
 RSCF-NODE
 
@@ -4444,11 +4444,10 @@ RSCF-RELATIONS:
 
 - LINEAGE_TARGET: [[00_ROOT/AMOS_CORE_v4_4|AMOS_CORE_v4_4]]
 
----
+______________________________________________________________________
 
 **MOC:** [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]
 
----
+______________________________________________________________________
 
 **END OF `TOTAL_KERNEL_MATRIX.md`**
-

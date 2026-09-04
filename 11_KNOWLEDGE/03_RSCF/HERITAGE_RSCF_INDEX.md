@@ -12,18 +12,18 @@ segment: 11_KNOWLEDGE/03_RSCF
 artifact_kind: INDEX
 path: 11_KNOWLEDGE/03_RSCF/HERITAGE_RSCF_INDEX.md
 tags:
-- amos-os
-- knowledge
-- vault
-- 03_rscf
-- heritage_rscf_index
-- proof_capsules
-- heritage_proofs
-- rscf
-- canon_candidate
-- canon/knowledge
-- heritage-intelligence-master
-- amos-x-heritage
+  - amos-os
+  - knowledge
+  - vault
+  - 03_rscf
+  - heritage_rscf_index
+  - proof_capsules
+  - heritage_proofs
+  - rscf
+  - canon_candidate
+  - canon/knowledge
+  - heritage-intelligence-master
+  - amos-x-heritage
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -38,19 +38,19 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - HERITAGE_INTELLIGENCE_CANON
-  - AMOS_CORPUS
+    - HERITAGE_INTELLIGENCE_CANON
+    - AMOS_CORPUS
   scope:
-  - KNOWLEDGE_RSCF
-  - HERITAGE_RSCF_INDEX
-  - SOURCE_DEFINED_MODEL
+    - KNOWLEDGE_RSCF
+    - HERITAGE_RSCF_INDEX
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   rscf_moc:
     artifact:
-    - - 03_RSCF_MOC
+      -   - 03_RSCF_MOC
   heritage_master:
     artifact:
-    - - HERITAGE_INTELLIGENCE_MASTER
+      -   - HERITAGE_INTELLIGENCE_MASTER
   claims_registry:
     artifact: 11_KNOWLEDGE/02_CLAIMS/HERITAGE_CLAIM_REGISTRY
 epistemic_boundary:
@@ -66,29 +66,29 @@ epistemic_boundary:
 
 It catalogs verifiable proof capsules covering ancestral geometry, fractal typologies, acoustic entrainment, and civilizational survival dynamics.
 
----
+______________________________________________________________________
 
-# 1. Indexed RSCF Capsules
+## 1. Indexed RSCF Capsules
 
-| Node ID | Heritage Framework | Claim Class | Structural Guarantee | Status |
-| :--- | :--- | :--- | :--- | :--- |
-| `RSCF-HRT-001` | Heritage Intelligence Master | `AMOS_MODEL` | 32-Layer Non-Compensatory Model | Active |
-| `RSCF-HRT-002` | Heritage Fractal Mathematics | `MATHEMATICAL_MODEL` | 12 Scale-Invariant Typologies | Active |
-| `RSCF-HRT-003` | Heritage Provenance | `SYSTEM_INVARIANT` | Source Independence Audit Pass | Active |
-| `RSCF-HRT-004` | Heritage Acoustic Rules | `OBSERVATION_GROUNDED` | Sub-Harmonic Entrainment | Active |
+| Node ID        | Heritage Framework           | Claim Class            | Structural Guarantee            | Status |
+| :------------- | :--------------------------- | :--------------------- | :------------------------------ | :----- |
+| `RSCF-HRT-001` | Heritage Intelligence Master | `AMOS_MODEL`           | 32-Layer Non-Compensatory Model | Active |
+| `RSCF-HRT-002` | Heritage Fractal Mathematics | `MATHEMATICAL_MODEL`   | 12 Scale-Invariant Typologies   | Active |
+| `RSCF-HRT-003` | Heritage Provenance          | `SYSTEM_INVARIANT`     | Source Independence Audit Pass  | Active |
+| `RSCF-HRT-004` | Heritage Acoustic Rules      | `OBSERVATION_GROUNDED` | Sub-Harmonic Entrainment        | Active |
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **RSCF MOC:** [[11_KNOWLEDGE/03_RSCF/03_RSCF_MOC|03_RSCF_MOC]]
 - **Heritage Master:** [[11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_INTELLIGENCE_MASTER|HERITAGE_INTELLIGENCE_MASTER]]
 - **Claims Registry:** [[11_KNOWLEDGE/02_CLAIMS/HERITAGE_CLAIM_REGISTRY|HERITAGE_CLAIM_REGISTRY]]
 - **Cognitive Matrix:** [[25_COGNITIVE_MATRIX/AMOS_X_HERITAGE|AMOS_X_HERITAGE]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -106,11 +106,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[01_CANON/01_CORE_LAWS/ATOMIC_MULTI_RSCF|ATOMIC_MULTI_RSCF]] · [[02_KERNEL/K_ATOMIC_MULTI_RSCF|K_ATOMIC_MULTI_RSCF]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/03_RSCF/03_RSCF_MOC|03_RSCF_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_INTELLIGENCE_MASTER|HERITAGE_INTELLIGENCE_MASTER]] · [[11_KNOWLEDGE/02_CLAIMS/HERITAGE_CLAIM_REGISTRY|HERITAGE_CLAIM_REGISTRY]] · [[25_COGNITIVE_MATRIX/AMOS_X_HERITAGE|AMOS_X_HERITAGE]] · [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]
 
----
+______________________________________________________________________
+
 **MOC:** [[11_KNOWLEDGE/03_RSCF/03_RSCF_MOC|03_RSCF_MOC]]
-
-

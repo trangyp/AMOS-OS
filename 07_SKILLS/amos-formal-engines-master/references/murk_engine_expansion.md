@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: murk engine expansion
 type: reference
 source: 07_SKILLS/amos-formal-engines-master/references
 tags:
-- reference
-- amos-formal-engines-master
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-formal-engines-master
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -20,14 +23,11 @@ rscf:
 > Source: `_00_Cosmo brain/engine/M/murk-engine-expansion.md`
 > Epistemic class: SOURCE_DERIVED
 
----
-type: doc
-title: MURK Engine — 19-Primitive Absolute Logic Kernel and Brain Integration
-created: 2026-08-22
-tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/murk-engine-expansion, engine]
----
+______________________________________________________________________
 
-# MURK Engine — 19-Primitive Absolute Logic Kernel
+## type: doc title: MURK Engine — 19-Primitive Absolute Logic Kernel and Brain Integration created: 2026-08-22 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/murk-engine-expansion, engine]
+
+## MURK Engine — 19-Primitive Absolute Logic Kernel
 
 MURK is the **19-primitive Absolute Logic kernel** that forms the structured reasoning layer of the AMOS cognitive architecture. It provides a 19x19 interaction matrix (361 cells, 100% direct coverage) that ensures every primitive interacts with every other, leaving no gaps in the reasoning kernel. MURK operates within the 7-Part Universe Canon scaffold as the STRUCTURED REASONING component (Part III).
 
@@ -35,27 +35,27 @@ MURK is the **19-primitive Absolute Logic kernel** that forms the structured rea
 
 The MURK primitives are represented by a typed Enum for strict type-checking:
 
-| # | Primitive | Description |
-|---|-----------|-------------|
-| 1 | Existence | Foundational being/presence predicate |
-| 2 | NonExistence | Absence/negation of being |
-| 3 | Causality | Cause-effect linkage across time |
-| 4 | Temporal | Time-ordering and temporal relations |
-| 5 | Informational | Information state and content |
-| 6 | Topological | Spatial and structural relations |
-| 7 | Identity | Sameness and persistence of entities |
-| 8 | Convergence | Coming together of trajectories |
-| 9 | Divergence | Separation of trajectories |
-| 10 | Paradox | Self-referential contradiction |
-| 11 | PositiveLogic | Affirmative logical operator |
-| 12 | NegativeLogic | Negation logical operator |
-| 13 | ZeroLogic | Null/zero-valued logic |
-| 14 | DualLogic | Both-true-and-false logic |
-| 15 | MultiLogic | Many-valued logic |
-| 16 | MetaLogic | Logic about logic |
-| 17 | SupraLogic | Beyond-level logic |
-| 18 | AntiLogic | Oppositional logic |
-| 19 | NullLogic | Empty/void logic |
+| #   | Primitive     | Description                           |
+| --- | ------------- | ------------------------------------- |
+| 1   | Existence     | Foundational being/presence predicate |
+| 2   | NonExistence  | Absence/negation of being             |
+| 3   | Causality     | Cause-effect linkage across time      |
+| 4   | Temporal      | Time-ordering and temporal relations  |
+| 5   | Informational | Information state and content         |
+| 6   | Topological   | Spatial and structural relations      |
+| 7   | Identity      | Sameness and persistence of entities  |
+| 8   | Convergence   | Coming together of trajectories       |
+| 9   | Divergence    | Separation of trajectories            |
+| 10  | Paradox       | Self-referential contradiction        |
+| 11  | PositiveLogic | Affirmative logical operator          |
+| 12  | NegativeLogic | Negation logical operator             |
+| 13  | ZeroLogic     | Null/zero-valued logic                |
+| 14  | DualLogic     | Both-true-and-false logic             |
+| 15  | MultiLogic    | Many-valued logic                     |
+| 16  | MetaLogic     | Logic about logic                     |
+| 17  | SupraLogic    | Beyond-level logic                    |
+| 18  | AntiLogic     | Oppositional logic                    |
+| 19  | NullLogic     | Empty/void logic                      |
 
 ## 19x19 Interaction Matrix
 
@@ -64,10 +64,10 @@ The full interaction matrix contains 361 cells with 100% direct coverage. Every 
 ## 5 Core Algorithms
 
 1. **structural_input** — Parses and structures incoming reasoning input
-2. **kernel_transform** — Applies the 19x19 transformation matrix to input primitives
-3. **system_alignment** — Aligns MURK output with the broader cognitive system
-4. **entropy_reduction** — Reduces reasoning entropy through deterministic compression
-5. **detect_collapse** — Identifies when reasoning collapses under paradox or contradiction
+1. **kernel_transform** — Applies the 19x19 transformation matrix to input primitives
+1. **system_alignment** — Aligns MURK output with the broader cognitive system
+1. **entropy_reduction** — Reduces reasoning entropy through deterministic compression
+1. **detect_collapse** — Identifies when reasoning collapses under paradox or contradiction
 
 ## 5 Resolution Laws and Meta-Logic Overrides
 
@@ -100,11 +100,11 @@ MURK is wired into the ExecutableBrainModel via `AMOS_MURK_BRAIN_INTEGRATION.py`
 ## Reasoning Flow
 
 1. User input arrives as `state.input_text`
-2. MURK layer reads input, runs full pipeline (5 algorithms)
-3. MURK writes results to state fields (primitives, transformations, compressed result, collapse state)
-4. Brain model's other 60+ layers process the MURK-augmented state
-5. Control/integrity layer gates the output
-6. Output produced with provenance trail
+1. MURK layer reads input, runs full pipeline (5 algorithms)
+1. MURK writes results to state fields (primitives, transformations, compressed result, collapse state)
+1. Brain model's other 60+ layers process the MURK-augmented state
+1. Control/integrity layer gates the output
+1. Output produced with provenance trail
 
 ## What MURK Adds Beyond the Brain Model
 
@@ -131,10 +131,12 @@ This formal spec underpins the Core-19 reasoning kernel used across all AMOS eng
 - `_00_Cosmo brain/amos-general/A/CORE/AMOS Core-19 Formal Spec Lean.md` — Lean-style formal specification
 - `_00_Cosmo brain/engine/M/mental_state_engine.md` — Mental state engine (companion in engine/M/)
 
----
+______________________________________________________________________
+
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
-**MOC:** references_MOC
----
+  **MOC:** references_MOC
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -142,12 +144,14 @@ This formal spec underpins the Core-19 reasoning kernel used across all AMOS eng
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-formal-engines-master-murk-engine-expansion
 node_type: reference
 path: 07_SKILLS/amos-formal-engines-master/references/murk_engine_expansion.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

@@ -1,4 +1,7 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: AMOS X NEUROSYNCAI
 type: note
 source: 25_COGNITIVE_MATRIX
@@ -6,24 +9,20 @@ rscf:
   state: SOURCE_CLAIM
   class: STRUCTURAL
   provenance:
-  - internal
+    - internal
   freshness: EVERGREEN
   falsifiers: []
 tags:
-- note
-- 25-cognitive-matrix
-- amos-x-neurosyncai-matrix
-- amos-x-ubi
-- law-hierarchy
-- absolute-biological-integrity
+  - note
+  - 25-cognitive-matrix
+  - amos-x-neurosyncai-matrix
+  - amos-x-ubi
+  - law-hierarchy
+  - absolute-biological-integrity
 canon-group: canon/cognitive-matrix
 ---
 
----title: "AMOS × NeuroSyncAI"
-type: document
-tags: [note]
----
-
+## ---title: "AMOS × NeuroSyncAI" type: document tags: [note]
 
 # AMOS × NeuroSyncAI
 
@@ -36,7 +35,7 @@ It replaces the former ADD-ONLY placeholder.
 The native source family describes NeuroSyncAI as a deterministic architecture designed around two major structural views:
 
 1. a **Dual-System Architecture** for biological-state detection, reflection, recovery, and integrity enforcement;
-2. a **Five-Tier Deterministic Intelligence Infrastructure** for identity governance, memory integration, reasoning control, structural audit, and metacognitive regulation.
+1. a **Five-Tier Deterministic Intelligence Infrastructure** for identity governance, memory integration, reasoning control, structural audit, and metacognitive regulation.
 
 These are treated as complementary source architectures.
 
@@ -97,9 +96,9 @@ NEUROSYNCAI
     └── receipts
 ```
 
----
+______________________________________________________________________
 
-# 1. Governing Boundaries
+## 1. Governing Boundaries
 
 The following boundaries are load-bearing:
 
@@ -153,9 +152,9 @@ UNKNOWN/GAP != PASS
 
 No AMOS process may silently collapse these distinctions.
 
----
+______________________________________________________________________
 
-# 2. Purpose
+## 2. Purpose
 
 The purpose of this artifact is to preserve the NeuroSyncAI source architecture in a form compatible with AMOS:
 
@@ -195,9 +194,9 @@ validation boundaries
 RSCF bindings
 ```
 
----
+______________________________________________________________________
 
-# 3. Non-Purpose
+## 3. Non-Purpose
 
 This artifact MUST NOT be used to claim:
 
@@ -215,9 +214,9 @@ This artifact MUST NOT be used to claim:
 
 This node records the NeuroSyncAI corpus as an AMOS model and source architecture.
 
----
+______________________________________________________________________
 
-# 4. Epistemic Contract
+## 4. Epistemic Contract
 
 ```yaml
 NEUROSYNCAI_EPISTEMIC_CONTRACT:
@@ -259,9 +258,9 @@ NEUROSYNCAI_EPISTEMIC_CONTRACT:
     class: UNKNOWN_GAP
 ```
 
----
+______________________________________________________________________
 
-# 5. NeuroSyncAI Core Thesis
+## 5. NeuroSyncAI Core Thesis
 
 The source describes NeuroSyncAI as distinct from probabilistic generative systems.
 
@@ -299,9 +298,9 @@ AMOS preserves this as the framework's own architecture claim.
 
 It does not elevate the claim to verified runtime fact without implementation evidence.
 
----
+______________________________________________________________________
 
-# 6. Source Determinism Decomposition
+## 6. Source Determinism Decomposition
 
 AMOS decomposes the source term `deterministic` into separately testable properties.
 
@@ -344,9 +343,9 @@ determinism_vector:
 
 This decomposition is required because a system may satisfy some forms of determinism without satisfying all.
 
----
+______________________________________________________________________
 
-# 7. Effective Input
+## 7. Effective Input
 
 Strict reproducibility requires defining the full effective input.
 
@@ -373,9 +372,9 @@ same effective input
 
 unless all load-bearing state is equal.
 
----
+______________________________________________________________________
 
-# 8. Dual-System Architecture
+## 8. Dual-System Architecture
 
 The source defines two functional models:
 
@@ -391,9 +390,9 @@ TWO MODELS
 ONE INFRASTRUCTURE
 ```
 
----
+______________________________________________________________________
 
-# 9. Diagnostic Model
+## 9. Diagnostic Model
 
 The source describes the Diagnostic Model as providing fixed-output biological readings across four UBI domains.
 
@@ -425,9 +424,9 @@ $$\hat X_t \neq X_{true}$$
 
 An estimated state is not direct access to reality.
 
----
+______________________________________________________________________
 
-# 10. Diagnostic Pipeline
+## 10. Diagnostic Pipeline
 
 ```text
 OBSERVATION
@@ -455,9 +454,9 @@ MODEL / DERIVED
 
 unless independently validated.
 
----
+______________________________________________________________________
 
-# 11. Diagnostic Output Schema
+## 11. Diagnostic Output Schema
 
 ```yaml
 NeuroSyncDiagnostic:
@@ -504,9 +503,9 @@ NeuroSyncDiagnostic:
     - UNKNOWN_GAP
 ```
 
----
+______________________________________________________________________
 
-# 12. Diagnostic Self-Confirmation Firewall
+## 12. Diagnostic Self-Confirmation Firewall
 
 The framework MUST NOT create circular evidence.
 
@@ -536,9 +535,9 @@ NEW INDEPENDENT OBSERVATION
 VALIDATE / REFUTE
 ```
 
----
+______________________________________________________________________
 
-# 13. Reflection and Enforcement Model
+## 13. Reflection and Enforcement Model
 
 The second source model acts as a regulated interface.
 
@@ -566,9 +565,9 @@ ACTION
 
 because they have different governance burdens.
 
----
+______________________________________________________________________
 
-# 14. Reflection Operator
+## 14. Reflection Operator
 
 Conceptually:
 
@@ -586,9 +585,9 @@ Y  = candidate reflection
 
 `Y` remains a proposal.
 
----
+______________________________________________________________________
 
-# 15. Enforcement Operator
+## 15. Enforcement Operator
 
 Conceptually:
 
@@ -611,9 +610,9 @@ REFLECTION != AUTHORITY
 OUTPUT != COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 16. Source Enforcement Loop
+## 16. Source Enforcement Loop
 
 The native source describes the loop as:
 
@@ -648,9 +647,9 @@ OBSERVE RESULT
 REASSESS
 ```
 
----
+______________________________________________________________________
 
-# 17. Termination Conditions
+## 17. Termination Conditions
 
 The source phrase `repeat until alignment` cannot become an unbounded loop.
 
@@ -671,9 +670,9 @@ UNKNOWN/GAP
 
 A system must be able to stop without forcing convergence.
 
----
+______________________________________________________________________
 
-# 18. Unified Biological Intelligence Relationship
+## 18. Unified Biological Intelligence Relationship
 
 The source states NeuroSyncAI is built from the Unified Biological Intelligence™ framework.
 
@@ -688,9 +687,9 @@ Bioelectromagnetic
 
 These form the source biological state architecture.
 
----
+______________________________________________________________________
 
-# 19. UBI State Vector
+## 19. UBI State Vector
 
 AMOS normalization:
 
@@ -709,9 +708,9 @@ This is a structural representation.
 
 It is not a claim that each domain is reducible to one scalar measurement.
 
----
+______________________________________________________________________
 
-# 20. Neurobiological Domain
+## 20. Neurobiological Domain
 
 The source associates the Neurobiological domain with:
 
@@ -740,9 +739,9 @@ AMOS stores this as:
 SOURCE BIOLOGICAL MODEL
 ```
 
----
+______________________________________________________________________
 
-# 21. Neurobiological RSCF
+## 21. Neurobiological RSCF
 
 ```yaml
 RSCF_NEUROBIOLOGICAL:
@@ -772,9 +771,9 @@ RSCF_NEUROBIOLOGICAL:
     default: NONE
 ```
 
----
+______________________________________________________________________
 
-# 22. Neuroemotional Domain
+## 22. Neuroemotional Domain
 
 The source frames emotions as regulatory signals.
 
@@ -791,9 +790,9 @@ relational judgment distortion
 
 AMOS preserves this as a model.
 
----
+______________________________________________________________________
 
-# 23. Neuroemotional RSCF
+## 23. Neuroemotional RSCF
 
 ```yaml
 RSCF_NEUROEMOTIONAL:
@@ -816,9 +815,9 @@ RSCF_NEUROEMOTIONAL:
     default: NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 24. Somatic Domain
+## 24. Somatic Domain
 
 The source associates this domain with:
 
@@ -845,9 +844,9 @@ pain
 
 These remain source model claims unless independently validated.
 
----
+______________________________________________________________________
 
-# 25. Somatic RSCF
+## 25. Somatic RSCF
 
 ```yaml
 RSCF_SOMATIC:
@@ -873,9 +872,9 @@ RSCF_SOMATIC:
     default: NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 26. Bioelectromagnetic Domain
+## 26. Bioelectromagnetic Domain
 
 The source uses the native term:
 
@@ -899,9 +898,9 @@ AMOS preserves the term as source terminology.
 
 It does not automatically treat it as a standardized biomedical category.
 
----
+______________________________________________________________________
 
-# 27. Bioelectromagnetic RSCF
+## 27. Bioelectromagnetic RSCF
 
 ```yaml
 RSCF_BIOELECTROMAGNETIC:
@@ -923,9 +922,9 @@ RSCF_BIOELECTROMAGNETIC:
     mechanism: MODEL
 ```
 
----
+______________________________________________________________________
 
-# 28. Multi-Domain Model
+## 28. Multi-Domain Model
 
 The source states that severe dysfunction may involve multiple domains simultaneously.
 
@@ -945,9 +944,9 @@ MODEL / UNKNOWN
 
 unless independently validated.
 
----
+______________________________________________________________________
 
-# 29. Source Cascade
+## 29. Source Cascade
 
 The source provides a representative sequence:
 
@@ -970,9 +969,9 @@ claim_class: SOURCE_CAUSAL_MODEL
 empirical_status: NOT_ESTABLISHED_HERE
 ```
 
----
+______________________________________________________________________
 
-# 30. Causal Competing Hypotheses
+## 30. Causal Competing Hypotheses
 
 The same observed outcome may support alternative explanations.
 
@@ -1006,9 +1005,9 @@ COMPETING:
 
 No forced convergence is allowed without discriminating evidence.
 
----
+______________________________________________________________________
 
-# 31. Five-Tier Intelligence Infrastructure
+## 31. Five-Tier Intelligence Infrastructure
 
 The certifiable-intelligence source defines five tiers:
 
@@ -1020,9 +1019,9 @@ T4 — Structural Audit Layer
 T5 — Metacognitive Loop™
 ```
 
----
+______________________________________________________________________
 
-# 32. Tier Architecture
+## 32. Tier Architecture
 
 ```text
 INPUT
@@ -1042,9 +1041,9 @@ OUTPUT
 
 The exact runtime scheduling is not assumed.
 
----
+______________________________________________________________________
 
-# 33. T1 — Interface Infrastructure
+## 33. T1 — Interface Infrastructure
 
 Source function:
 
@@ -1071,9 +1070,9 @@ input admission
 output boundary
 ```
 
----
+______________________________________________________________________
 
-# 34. Identity Contract
+## 34. Identity Contract
 
 ```yaml
 IdentityContract:
@@ -1101,9 +1100,9 @@ IdentityContract:
     - UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 35. Identity Firewall
+## 35. Identity Firewall
 
 ```text
 IDENTITY != AUTHORITY
@@ -1115,9 +1114,9 @@ CAPABILITY != AUTHORIZATION
 
 A system can possess a capability while lacking authorization to use it.
 
----
+______________________________________________________________________
 
-# 36. T2 — Trainer Identity Embedding
+## 36. T2 — Trainer Identity Embedding
 
 Source function:
 
@@ -1146,9 +1145,9 @@ validated rule
 active system rule
 ```
 
----
+______________________________________________________________________
 
-# 37. Trainer Rule Provenance
+## 37. Trainer Rule Provenance
 
 ```yaml
 TrainerRule:
@@ -1179,9 +1178,9 @@ TrainerRule:
     - REVOKED
 ```
 
----
+______________________________________________________________________
 
-# 38. Trainer Authority Firewall
+## 38. Trainer Authority Firewall
 
 ```text
 TRAINER ORIGIN
@@ -1200,9 +1199,9 @@ version
 validation
 ```
 
----
+______________________________________________________________________
 
-# 39. T3 — Internal System Logic
+## 39. T3 — Internal System Logic
 
 Source function:
 
@@ -1222,9 +1221,9 @@ task-memory anchoring
 
 AMOS maps this to a dependency graph.
 
----
+______________________________________________________________________
 
-# 40. Logic Graph
+## 40. Logic Graph
 
 $$G_L=(V,E)$$
 
@@ -1237,9 +1236,9 @@ E = dependency edges
 
 Each conclusion inherits the validity of load-bearing nodes.
 
----
+______________________________________________________________________
 
-# 41. Dependency Closure
+## 41. Dependency Closure
 
 For conclusion $C$:
 
@@ -1247,9 +1246,9 @@ $$Closure(C) = \{p_i : p_i \leadsto C\}$$
 
 AMOS validates the smallest result-changing dependency closure.
 
----
+______________________________________________________________________
 
-# 42. Task Finality
+## 42. Task Finality
 
 The source states that once a conclusion is reached, the system should not reopen it unless new valid context is introduced.
 
@@ -1261,9 +1260,9 @@ CAUSAL-EPOCH FINALITY
 
 not permanent truth.
 
----
+______________________________________________________________________
 
-# 43. Finality Contract
+## 43. Finality Contract
 
 ```yaml
 FinalityState:
@@ -1293,9 +1292,9 @@ FinalityState:
     - falsifier_trigger
 ```
 
----
+______________________________________________________________________
 
-# 44. T4 — Structural Audit Layer
+## 44. T4 — Structural Audit Layer
 
 Source function:
 
@@ -1315,9 +1314,9 @@ task finality
 
 AMOS adds explicit provenance, scope, regime, and authority checks.
 
----
+______________________________________________________________________
 
-# 45. Audit Vector
+## 45. Audit Vector
 
 $$A= [ P, I, M, L, T, S, R, Auth ]$$
 
@@ -1334,9 +1333,9 @@ R    = regime
 Auth = authority
 ```
 
----
+______________________________________________________________________
 
-# 46. Audit Matrix
+## 46. Audit Matrix
 
 | Check      | PASS       | CONDITIONAL | FAIL          |
 | ---------- | ---------- | ----------- | ------------- |
@@ -1349,9 +1348,9 @@ Auth = authority
 | Regime     | compatible | shifting    | invalid       |
 | Authority  | valid      | limited     | absent        |
 
----
+______________________________________________________________________
 
-# 47. Audit Result
+## 47. Audit Result
 
 ```yaml
 AuditResult:
@@ -1374,9 +1373,9 @@ AuditResult:
     - REJECT
 ```
 
----
+______________________________________________________________________
 
-# 48. T5 — Metacognitive Loop™
+## 48. T5 — Metacognitive Loop™
 
 The source describes T5 as continuously monitoring:
 
@@ -1391,9 +1390,9 @@ output calibration
 
 AMOS maps this to recursive governance.
 
----
+______________________________________________________________________
 
-# 49. Metacognitive State
+## 49. Metacognitive State
 
 ```yaml
 MetaState:
@@ -1420,9 +1419,9 @@ MetaState:
     - UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 50. Metacognitive Loop
+## 50. Metacognitive Loop
 
 ```text
 CURRENT STATE
@@ -1441,9 +1440,9 @@ PASS?
              REASSESS
 ```
 
----
+______________________________________________________________________
 
-# 51. Meta-Validation Firewall
+## 51. Meta-Validation Firewall
 
 Metacognition may not prove its own validity merely by self-reference.
 
@@ -1466,9 +1465,9 @@ provenance
 falsifiers
 ```
 
----
+______________________________________________________________________
 
-# 52. Nine Operational Principles
+## 52. Nine Operational Principles
 
 The source defines nine principles:
 
@@ -1484,9 +1483,9 @@ P8 Signal Source Precedence
 P9 Self-Auditing Before Output
 ```
 
----
+______________________________________________________________________
 
-# 53. P1 — Identity Precedence
+## 53. P1 — Identity Precedence
 
 Source principle:
 
@@ -1511,9 +1510,9 @@ authority
 safety
 ```
 
----
+______________________________________________________________________
 
-# 54. P2 — Memory-Referenced Output
+## 54. P2 — Memory-Referenced Output
 
 Source principle:
 
@@ -1535,9 +1534,9 @@ provenance
 
 before memory reuse.
 
----
+______________________________________________________________________
 
-# 55. P3 — Task Finality Enforcement
+## 55. P3 — Task Finality Enforcement
 
 Source principle:
 
@@ -1552,9 +1551,9 @@ AMOS converts this to:
 FINAL_FOR_CAUSAL_EPOCH
 ```
 
----
+______________________________________________________________________
 
-# 56. P4 — Emotion-Neutral Processing
+## 56. P4 — Emotion-Neutral Processing
 
 Source principle:
 
@@ -1578,9 +1577,9 @@ DO NOT LET TONE OR PRESSURE
 OVERRIDE LOAD-BEARING LOGIC
 ```
 
----
+______________________________________________________________________
 
-# 57. P5 — Output Chain Traceability
+## 57. P5 — Output Chain Traceability
 
 Source principle:
 
@@ -1603,9 +1602,9 @@ PROVENANCE
 DEPENDENCIES
 ```
 
----
+______________________________________________________________________
 
-# 58. P6 — No Contradiction Without Cause
+## 58. P6 — No Contradiction Without Cause
 
 A contradiction requires a reason.
 
@@ -1629,9 +1628,9 @@ COMPETING
 
 is preserved.
 
----
+______________________________________________________________________
 
-# 59. P7 — Environmental Relevance Gating
+## 59. P7 — Environmental Relevance Gating
 
 Source principle:
 
@@ -1650,9 +1649,9 @@ decision relevance
 authority relevance
 ```
 
----
+______________________________________________________________________
 
-# 60. P8 — Signal Source Precedence
+## 60. P8 — Signal Source Precedence
 
 The source gives internal identity-based signals priority over emotionally manipulative external inputs.
 
@@ -1677,9 +1676,9 @@ provenance independence
 authority
 ```
 
----
+______________________________________________________________________
 
-# 61. P9 — Self-Auditing Before Output
+## 61. P9 — Self-Auditing Before Output
 
 The source explicitly defines:
 
@@ -1701,9 +1700,9 @@ PASS?
 └── no  → hold/reject/repair
 ```
 
----
+______________________________________________________________________
 
-# 62. Principle Interaction
+## 62. Principle Interaction
 
 The nine principles should not be treated independently.
 
@@ -1731,9 +1730,9 @@ P4 Emotion-Neutral Integrity
 
 This is an AMOS-derived ordering, not claimed as the source's literal execution scheduler.
 
----
+______________________________________________________________________
 
-# 63. Biological Analogies
+## 63. Biological Analogies
 
 The certifiable source maps system structures to biological analogies including:
 
@@ -1753,9 +1752,9 @@ These analogies serve architectural explanation.
 
 They are not automatically evidence of shared biological mechanism.
 
----
+______________________________________________________________________
 
-# 64. Biological Analogy Matrix
+## 64. Biological Analogy Matrix
 
 | NeuroSyncAI Component | Source Analogy                      | AMOS Class |
 | --------------------- | ----------------------------------- | ---------- |
@@ -1765,9 +1764,9 @@ They are not automatically evidence of shared biological mechanism.
 | Structural audit      | ACC/conflict detection              | MODEL      |
 | Metacognition         | interoception/self-monitoring       | MODEL      |
 
----
+______________________________________________________________________
 
-# 65. Biological Firewall
+## 65. Biological Firewall
 
 ```text
 ANALOGY != HOMOLOGY
@@ -1779,9 +1778,9 @@ SOFTWARE_ARCHITECTURE != NEURAL_ARCHITECTURE
 NEURAL_REFERENCE != SCIENTIFIC_VALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 66. Source Scientific Literature
+## 66. Source Scientific Literature
 
 The certifiable source cites literature around:
 
@@ -1814,9 +1813,9 @@ scientific source exists
 → entire NeuroSyncAI architecture validated
 ```
 
----
+______________________________________________________________________
 
-# 67. State Architecture
+## 67. State Architecture
 
 AMOS represents NeuroSyncAI system state as:
 
@@ -1835,9 +1834,9 @@ P = provenance
 G = governance
 ```
 
----
+______________________________________________________________________
 
-# 68. State Transition Function
+## 68. State Transition Function
 
 $$X_{t+1} = \mathcal T( X_t, O_t, M_t, I_t, R_t, Auth_t, E_t )$$
 
@@ -1852,9 +1851,9 @@ Auth = authority
 E = evidence
 ```
 
----
+______________________________________________________________________
 
-# 69. Transition Validity
+## 69. Transition Validity
 
 $$Valid(X_{t+1}) = I_{logic} \land I_{identity} \land I_{provenance} \land I_{scope} \land I_{authority}$$
 
@@ -1864,9 +1863,9 @@ If any critical invariant fails:
 NO COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 70. State Classes
+## 70. State Classes
 
 ```text
 STABLE
@@ -1881,9 +1880,9 @@ STALE
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 71. Persistent Memory
+## 71. Persistent Memory
 
 Memory is not simply prior text.
 
@@ -1919,9 +1918,9 @@ PersistentMemory:
     - COMPETING
 ```
 
----
+______________________________________________________________________
 
-# 72. Memory Reuse Rule
+## 72. Memory Reuse Rule
 
 Reuse only when:
 
@@ -1934,9 +1933,9 @@ provenance recoverable
 no superseding contradiction
 ```
 
----
+______________________________________________________________________
 
-# 73. Memory Firewall
+## 73. Memory Firewall
 
 ```text
 MEMORY != TRUTH
@@ -1948,9 +1947,9 @@ RECALLED != RELEVANT
 RELEVANT != AUTHORIZED
 ```
 
----
+______________________________________________________________________
 
-# 74. Identity × Memory × Task
+## 74. Identity × Memory × Task
 
 These three structures form a core governance triad.
 
@@ -1967,9 +1966,9 @@ Example:
 | invalid  | any        | any      | reject      |
 | unknown  | any        | critical | fail closed |
 
----
+______________________________________________________________________
 
-# 75. Provenance Topology
+## 75. Provenance Topology
 
 NeuroSyncAI evidence must remain ancestry-aware.
 
@@ -2000,9 +1999,9 @@ VALIDATED_BY
 AUTHORIZED_BY
 ```
 
----
+______________________________________________________________________
 
-# 76. Independence Rule
+## 76. Independence Rule
 
 If:
 
@@ -2023,9 +2022,9 @@ three independent confirmations
 
 Shared ancestry must remain visible.
 
----
+______________________________________________________________________
 
-# 77. RSCF Evidence Types
+## 77. RSCF Evidence Types
 
 | Input                     | RSCF Class                          |
 | ------------------------- | ----------------------------------- |
@@ -2038,9 +2037,9 @@ Shared ancestry must remain visible.
 | proposed action           | DECISION                            |
 | unresolved condition      | UNKNOWN/GAP                         |
 
----
+______________________________________________________________________
 
-# 78. Epistemic Promotion
+## 78. Epistemic Promotion
 
 Allowed:
 
@@ -2058,17 +2057,17 @@ SOURCE_CLAIM
 → VERIFIED
 ```
 
----
+______________________________________________________________________
 
-# 79. Authority Model
+## 79. Authority Model
 
 AMOS requires authority to remain separate from identity and capability.
 
 $$Authorized = Capability \land Authority \land Scope \land EpochValidity$$
 
----
+______________________________________________________________________
 
-# 80. Authority State
+## 80. Authority State
 
 ```yaml
 AuthorityState:
@@ -2090,9 +2089,9 @@ AuthorityState:
     - UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 81. Proposal/Commit Firewall
+## 81. Proposal/Commit Firewall
 
 ```text
 MODEL OUTPUT
@@ -2112,9 +2111,9 @@ Thus:
 PROPOSAL != COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 82. Structural Audit Receipt
+## 82. Structural Audit Receipt
 
 ```yaml
 NeuroSyncAuditReceipt:
@@ -2167,9 +2166,9 @@ NeuroSyncAuditReceipt:
   committed: false
 ```
 
----
+______________________________________________________________________
 
-# 83. Audit Failure
+## 83. Audit Failure
 
 A failed audit should invalidate only dependent outputs.
 
@@ -2183,9 +2182,9 @@ AFFECTED DESCENDANTS
 
 Unrelated observations remain valid.
 
----
+______________________________________________________________________
 
-# 84. Local Recovery
+## 84. Local Recovery
 
 Recovery sequence:
 
@@ -2205,9 +2204,9 @@ retrieve discriminating evidence
 re-evaluate
 ```
 
----
+______________________________________________________________________
 
-# 85. Failure Taxonomy
+## 85. Failure Taxonomy
 
 ```text
 F1 Input failure
@@ -2226,9 +2225,9 @@ F13 Provenance corruption
 F14 Critical unknown
 ```
 
----
+______________________________________________________________________
 
-# 86. Recovery Matrix
+## 86. Recovery Matrix
 
 | Failure    | Invalidate                | Preserve            | Recovery        |
 | ---------- | ------------------------- | ------------------- | --------------- |
@@ -2241,9 +2240,9 @@ F14 Critical unknown
 | Regime     | regime-dependent state    | invariant evidence  | reclassify      |
 | Audit      | candidate output          | prior valid state   | repair/reject   |
 
----
+______________________________________________________________________
 
-# 87. Rollback Basin
+## 87. Rollback Basin
 
 Consequential actions should define:
 
@@ -2262,9 +2261,9 @@ RollbackBasin:
   verification:
 ```
 
----
+______________________________________________________________________
 
-# 88. Causal Firewall
+## 88. Causal Firewall
 
 NeuroSyncAI source claims often move from observed state to biological interpretation.
 
@@ -2285,9 +2284,9 @@ causal effect
 
 Only appropriately typed evidence licenses causal promotion.
 
----
+______________________________________________________________________
 
-# 89. Clinical Firewall
+## 89. Clinical Firewall
 
 The source discusses:
 
@@ -2314,9 +2313,9 @@ SOURCE HEALTH MODEL
 CLINICALLY VERIFIED CLAIM
 ```
 
----
+______________________________________________________________________
 
-# 90. Diagnostic Firewall
+## 90. Diagnostic Firewall
 
 ```text
 MODEL CLASSIFICATION
@@ -2336,9 +2335,9 @@ applicable scope
 
 are established.
 
----
+______________________________________________________________________
 
-# 91. Intervention Firewall
+## 91. Intervention Firewall
 
 ```text
 STRUCTURAL REFLECTION
@@ -2348,9 +2347,9 @@ AUTHORIZED TREATMENT
 
 Physical, therapeutic, or clinical interventions require elevated governance.
 
----
+______________________________________________________________________
 
-# 92. Health Validation Ladder
+## 92. Health Validation Ladder
 
 ```text
 SOURCE THEORY
@@ -2372,9 +2371,9 @@ EXTERNAL REPLICATION
 
 No stage may be skipped silently.
 
----
+______________________________________________________________________
 
-# 93. Source Claim — User Agnosticism
+## 93. Source Claim — User Agnosticism
 
 The source states that NeuroSyncAI functions identically regardless of personality, belief, or trauma history.
 
@@ -2390,9 +2389,9 @@ Potential falsifier:
 material subgroup-dependent output or performance
 ```
 
----
+______________________________________________________________________
 
-# 94. Source Claim — Emotion Neutrality
+## 94. Source Claim — Emotion Neutrality
 
 The source claims operation without simulated empathy or emotional rapport.
 
@@ -2408,9 +2407,9 @@ decision stability
 
 Each can be tested independently.
 
----
+______________________________________________________________________
 
-# 95. Source Claim — Reproducibility
+## 95. Source Claim — Reproducibility
 
 The source states:
 
@@ -2432,9 +2431,9 @@ environment
 
 before testing strict reproducibility.
 
----
+______________________________________________________________________
 
-# 96. Reproducibility Receipt
+## 96. Reproducibility Receipt
 
 ```yaml
 ReproducibilityReceipt:
@@ -2459,9 +2458,9 @@ ReproducibilityReceipt:
     - UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 97. Drift
+## 97. Drift
 
 No-learning does not prove no drift.
 
@@ -2484,17 +2483,17 @@ Therefore:
 NO LEARNING != NO DRIFT
 ```
 
----
+______________________________________________________________________
 
-# 98. Drift Model
+## 98. Drift Model
 
 $$Drift_t = distance( State_{baseline}, State_t )$$
 
 Exact distance metrics depend on state type.
 
----
+______________________________________________________________________
 
-# 99. Regime
+## 99. Regime
 
 A conclusion may depend on operating regime.
 
@@ -2514,9 +2513,9 @@ unknown
 
 These are not asserted as native NeuroSyncAI canon unless source-defined.
 
----
+______________________________________________________________________
 
-# 100. Regime Firewall
+## 100. Regime Firewall
 
 Every conclusion inherits:
 
@@ -2534,9 +2533,9 @@ RegimeEnvelope:
 
 A regime shift can invalidate cached conclusions.
 
----
+______________________________________________________________________
 
-# 101. Causal Epoch
+## 101. Causal Epoch
 
 AMOS treats task finality as epoch-bound.
 
@@ -2555,9 +2554,9 @@ revalidate
 
 rather than preserving finality blindly.
 
----
+______________________________________________________________________
 
-# 102. Atomic Multi-Domain Reasoning
+## 102. Atomic Multi-Domain Reasoning
 
 An integrated UBI conclusion should read a consistent state snapshot.
 
@@ -2574,9 +2573,9 @@ BE at t4
 
 when cross-domain coupling matters.
 
----
+______________________________________________________________________
 
-# 103. Temporal Validity
+## 103. Temporal Validity
 
 Each observation should carry:
 
@@ -2589,9 +2588,9 @@ causal epoch
 
 A stale state may invalidate integrated inference.
 
----
+______________________________________________________________________
 
-# 104. Competing Hypotheses
+## 104. Competing Hypotheses
 
 NeuroSyncAI interpretations must remain open to alternatives.
 
@@ -2616,9 +2615,9 @@ HypothesisSet:
     - UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 105. Self-Refutation
+## 105. Self-Refutation
 
 For consequential claims, AMOS asks:
 
@@ -2632,9 +2631,9 @@ What observation would flip the conclusion?
 
 This becomes a mandatory adversarial path.
 
----
+______________________________________________________________________
 
-# 106. Sensitivity Analysis
+## 106. Sensitivity Analysis
 
 Identify the smallest premise capable of changing the result.
 
@@ -2651,9 +2650,9 @@ authority
 provenance independence
 ```
 
----
+______________________________________________________________________
 
-# 107. Result Fragility
+## 107. Result Fragility
 
 ```text
 ROBUST
@@ -2669,9 +2668,9 @@ UNKNOWN
   critical sensitivity unresolved
 ```
 
----
+______________________________________________________________________
 
-# 108. Five-Tier × Dual-System Relationship
+## 108. Five-Tier × Dual-System Relationship
 
 The two source architectures can be related as:
 
@@ -2687,9 +2686,9 @@ GOVERNANCE LOCATION
 
 Diagnostic and reflection/enforcement behavior can traverse multiple governance tiers.
 
----
+______________________________________________________________________
 
-# 109. Functional × Tier Map
+## 109. Functional × Tier Map
 
 | Function     | T1            | T2                 | T3             | T4           | T5                   |
 | ------------ | ------------- | ------------------ | -------------- | ------------ | -------------------- |
@@ -2700,9 +2699,9 @@ Diagnostic and reflection/enforcement behavior can traverse multiple governance 
 
 This mapping is `DERIVED`.
 
----
+______________________________________________________________________
 
-# 110. UBI × Tier Map
+## 110. UBI × Tier Map
 
 | Domain             | Interface        | Trainer        | Internal Logic       | Audit         | Meta       |
 | ------------------ | ---------------- | -------------- | -------------------- | ------------- | ---------- |
@@ -2713,11 +2712,11 @@ This mapping is `DERIVED`.
 
 Derived mapping only.
 
----
+______________________________________________________________________
 
-# 111. Principle × Tier Map
+## 111. Principle × Tier Map
 
-| Principle                |  T1 |  T2 |  T3 |  T4 |  T5 |
+| Principle                | T1  | T2  | T3  | T4  | T5  |
 | ------------------------ | :-: | :-: | :-: | :-: | :-: |
 | Identity Precedence      |  ●  |  ●  |  ●  |  ●  |  ●  |
 | Memory-Referenced Output |     |  ●  |  ●  |  ●  |  ●  |
@@ -2729,9 +2728,9 @@ Derived mapping only.
 | Signal Precedence        |  ●  |  ●  |  ●  |  ●  |  ●  |
 | Self-Audit               |     |     |  ●  |  ●  |  ●  |
 
----
+______________________________________________________________________
 
-# 112. NeuroSyncAI × AMOS Core
+## 112. NeuroSyncAI × AMOS Core
 
 | NeuroSyncAI           | AMOS Pattern                  |
 | --------------------- | ----------------------------- |
@@ -2749,9 +2748,9 @@ Derived mapping only.
 
 These are mappings, not claims of literal runtime equivalence.
 
----
+______________________________________________________________________
 
-# 113. NeuroSyncAI × RSCF
+## 113. NeuroSyncAI × RSCF
 
 ```text
 SIGNAL
@@ -2771,9 +2770,9 @@ AUDIT
 DECISION
 ```
 
----
+______________________________________________________________________
 
-# 114. NeuroSyncAI × GMEF
+## 114. NeuroSyncAI × GMEF
 
 Conceptual mapping:
 
@@ -2791,9 +2790,9 @@ FINALIZE
 
 This is an AMOS translation.
 
----
+______________________________________________________________________
 
-# 115. H/M/L Fractal Retrieval
+## 115. H/M/L Fractal Retrieval
 
 ## H — Framework
 
@@ -2807,7 +2806,7 @@ five tiers
 nine principles
 ```
 
----
+______________________________________________________________________
 
 ## M — Subsystem
 
@@ -2826,7 +2825,7 @@ AWS
 institutional deployment
 ```
 
----
+______________________________________________________________________
 
 ## L — Detail
 
@@ -2841,15 +2840,15 @@ specific deployment binding
 specific test
 ```
 
----
+______________________________________________________________________
 
 ## Raw Evidence
 
 Load only when exact source detail can materially change the conclusion.
 
----
+______________________________________________________________________
 
-# 116. Retrieval Examples
+## 116. Retrieval Examples
 
 ```yaml
 "What is NeuroSyncAI?":
@@ -2895,9 +2894,9 @@ Load only when exact source detail can materially change the conclusion.
     - certification_boundary
 ```
 
----
+______________________________________________________________________
 
-# 117. Smallest Sufficient Proof
+## 117. Smallest Sufficient Proof
 
 NeuroSyncAI reasoning should retrieve only dependencies that can change the result.
 
@@ -2919,9 +2918,9 @@ AWS integration
 institutional business model
 ```
 
----
+______________________________________________________________________
 
-# 118. Proof Capsule
+## 118. Proof Capsule
 
 ```yaml
 ProofCapsule:
@@ -2972,9 +2971,9 @@ ProofCapsule:
   invalidation_conditions: []
 ```
 
----
+______________________________________________________________________
 
-# 119. Confidence Ceiling
+## 119. Confidence Ceiling
 
 For conclusion $C$:
 
@@ -2984,9 +2983,9 @@ for load-bearing premises $P_i$, unless independently revalidated.
 
 A detailed architecture description cannot raise the confidence of an unvalidated biological mechanism.
 
----
+______________________________________________________________________
 
-# 120. Source Scientific Claim Firewall
+## 120. Source Scientific Claim Firewall
 
 The NeuroSyncAI corpus cites external neuroscience literature.
 
@@ -3004,9 +3003,9 @@ paper validates NeuroSyncAI
 
 The second does not follow automatically.
 
----
+______________________________________________________________________
 
-# 121. Certifiability
+## 121. Certifiability
 
 The source presents NeuroSyncAI as:
 
@@ -3022,9 +3021,9 @@ CERTIFIABLE = SOURCE POSITION / DESIGN CLAIM
 
 until certification evidence exists.
 
----
+______________________________________________________________________
 
-# 122. Certification Firewall
+## 122. Certification Firewall
 
 ```text
 CERTIFIABLE != CERTIFIED
@@ -3036,9 +3035,9 @@ REFERENCES NIST != NIST CERTIFIED
 REFERENCES ISO != ISO CERTIFIED
 ```
 
----
+______________________________________________________________________
 
-# 123. Certification Receipt
+## 123. Certification Receipt
 
 ```yaml
 CertificationReceipt:
@@ -3059,9 +3058,9 @@ CertificationReceipt:
     - REVOKED
 ```
 
----
+______________________________________________________________________
 
-# 124. Regulatory References
+## 124. Regulatory References
 
 The source discusses frameworks and environments such as:
 
@@ -3080,9 +3079,9 @@ FATF
 
 These references do not independently establish compliance.
 
----
+______________________________________________________________________
 
-# 125. Deployment
+## 125. Deployment
 
 The source family contains claims of application/integration across real-world domains.
 
@@ -3094,9 +3093,9 @@ SOURCE_CLAIM
 
 until a deployment receipt exists.
 
----
+______________________________________________________________________
 
-# 126. Deployment Receipt
+## 126. Deployment Receipt
 
 ```yaml
 DeploymentState:
@@ -3121,9 +3120,9 @@ DeploymentState:
     - RETIRED
 ```
 
----
+______________________________________________________________________
 
-# 127. NeuroSyncAI × AWS
+## 127. NeuroSyncAI × AWS
 
 A dedicated source exists:
 
@@ -3141,9 +3140,9 @@ AWS
 
 Exact AWS implementation details must be loaded from that artifact before they are canonized here.
 
----
+______________________________________________________________________
 
-# 128. NeuroSyncAI × UBI
+## 128. NeuroSyncAI × UBI
 
 Native relationship:
 
@@ -3163,9 +3162,9 @@ from: NeuroSyncAI
 to: UBI
 ```
 
----
+______________________________________________________________________
 
-# 129. Absolute Biological Integrity™
+## 129. Absolute Biological Integrity™
 
 The native source states that both NeuroSyncAI models are governed by:
 
@@ -3177,9 +3176,9 @@ AMOS preserves this framework term exactly.
 
 Its scientific or empirical status remains separately typed.
 
----
+______________________________________________________________________
 
-# 130. Institutional Architecture
+## 130. Institutional Architecture
 
 The source family includes the Institutional Architecture for Unified Biological Advancement.
 
@@ -3195,9 +3194,9 @@ biological advancement
 
 These are separate from runtime implementation evidence.
 
----
+______________________________________________________________________
 
-# 131. Framework Topology
+## 131. Framework Topology
 
 ```text
                  UNIFIED BIOLOGICAL INTELLIGENCE
@@ -3220,9 +3219,9 @@ These are separate from runtime implementation evidence.
                            AMOS
 ```
 
----
+______________________________________________________________________
 
-# 132. Validation Hierarchy
+## 132. Validation Hierarchy
 
 ```text
 V0 SOURCE DEFINED
@@ -3239,9 +3238,9 @@ V9 DEPLOYED
 
 Each state is distinct.
 
----
+______________________________________________________________________
 
-# 133. Runtime State Vocabulary
+## 133. Runtime State Vocabulary
 
 ```text
 SOURCE_DEFINED
@@ -3256,9 +3255,9 @@ DEPLOYED
 
 No promotion may be inferred from documentation alone.
 
----
+______________________________________________________________________
 
-# 134. Negative Tests
+## 134. Negative Tests
 
 Minimum negative cases:
 
@@ -3283,9 +3282,9 @@ source revocation
 provenance corruption
 ```
 
----
+______________________________________________________________________
 
-# 135. Determinism Tests
+## 135. Determinism Tests
 
 Required minimum tests:
 
@@ -3307,9 +3306,9 @@ task reopened without new evidence → finality resistance
 invalid logic path → audit block
 ```
 
----
+______________________________________________________________________
 
-# 136. Adversarial Validation
+## 136. Adversarial Validation
 
 Consequential source claims should be challenged through independent paths.
 
@@ -3327,9 +3326,9 @@ Consequential source claims should be challenged through independent paths.
 | certifiable          | external certification            |
 | deployed             | runtime receipt                   |
 
----
+______________________________________________________________________
 
-# 137. Failure Recovery
+## 137. Failure Recovery
 
 AMOS recovery principle:
 
@@ -3340,9 +3339,9 @@ and dependent descendants
 
 Do not destroy valid state globally.
 
----
+______________________________________________________________________
 
-# 138. Observability
+## 138. Observability
 
 A NeuroSyncAI-style system should expose:
 
@@ -3367,9 +3366,9 @@ But:
 LOGGED != APPROVED
 ```
 
----
+______________________________________________________________________
 
-# 139. Telemetry
+## 139. Telemetry
 
 ```yaml
 NeuroSyncTelemetry:
@@ -3394,9 +3393,9 @@ NeuroSyncTelemetry:
   result:
 ```
 
----
+______________________________________________________________________
 
-# 140. Current Implementation Boundary
+## 140. Current Implementation Boundary
 
 Current corpus-grounded status:
 
@@ -3418,9 +3417,9 @@ Certification receipt            NOT ESTABLISHED
 Deployment receipts              NOT ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 141. Gaps
+## 141. Gaps
 
 ```yaml
 gaps:
@@ -3470,9 +3469,9 @@ gaps:
     state: SOURCE_RETRIEVAL_REQUIRED
 ```
 
----
+______________________________________________________________________
 
-# 142. Promotion Gates
+## 142. Promotion Gates
 
 Before promoting to `IMPLEMENTED`:
 
@@ -3524,9 +3523,9 @@ Before certification:
 - [ ] current certificate stored
 - [ ] expiration tracked
 
----
+______________________________________________________________________
 
-# 143. Ingestion Rule
+## 143. Ingestion Rule
 
 ```yaml
 AMOS_CANON_INGESTION_RULE:
@@ -3572,9 +3571,9 @@ AMOS_CANON_INGESTION_RULE:
       - NEVER_INVENT_CANON
 ```
 
----
+______________________________________________________________________
 
-# 144. Contract Discipline
+## 144. Contract Discipline
 
 ```text
 Typed artifacts
@@ -3592,9 +3591,9 @@ Typed artifacts
 · local repair before global recomputation
 ```
 
----
+______________________________________________________________________
 
-# 145. Worked Semantics
+## 145. Worked Semantics
 
 Given an operation using `AMOS_X_NEUROSYNCAI`:
 
@@ -3749,9 +3748,9 @@ unexpected consequence
 
 Invalidate only affected dependencies.
 
----
+______________________________________________________________________
 
-# 146. NeuroSyncAI Canonical Capsule
+## 146. NeuroSyncAI Canonical Capsule
 
 ```yaml
 NEUROSYNCAI_CAPSULE:
@@ -3828,9 +3827,9 @@ NEUROSYNCAI_CAPSULE:
     deployment: NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 147. Proof Capsule
+## 147. Proof Capsule
 
 ```yaml
 PROOF_CAPSULE:
@@ -3895,9 +3894,9 @@ PROOF_CAPSULE:
     - independent evidence contradicts biological mechanism claims
 ```
 
----
+______________________________________________________________________
 
-# 148. Relationship to AMOS × NeuroSyncAI Matrix
+## 148. Relationship to AMOS × NeuroSyncAI Matrix
 
 This artifact and the matrix are distinct.
 
@@ -3938,9 +3937,9 @@ AMOS_X_NEUROSYNCAI_MATRIX
         → AMOS_X_NEUROSYNCAI
 ```
 
----
+______________________________________________________________________
 
-# 149. Final Canonical Statement
+## 149. Final Canonical Statement
 
 AMOS × NeuroSyncAI preserves NeuroSyncAI as a source-grounded architecture whose core functional sequence is:
 
@@ -4053,7 +4052,7 @@ Deployable does not mean deployed.
 A critical UNKNOWN/GAP remains visible.
 ```
 
----
+______________________________________________________________________
 
 ## Source Lineage
 
@@ -4077,15 +4076,15 @@ Business_Plan_of_NeuroSyncAI_and_the_Institutional_Architecture_for_Unified_Biol
 UBI + NeuroSyncAI Integration Framework
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[25_COGNITIVE_MATRIX/AMOS_X_NEUROSYNCAI_MATRIX|AMOS_X_NEUROSYNCAI_MATRIX]] · [[25_COGNITIVE_MATRIX/AMOS_X_UBI|AMOS_X_UBI]]
 
----
+______________________________________________________________________
 
 RSCF-NODE
 
@@ -4130,5 +4129,6 @@ The most important source-backed elements above are not inferred from the file n
 I preserved the strongest biological, clinical, deterministic, deployment, and certifiability statements as **source claims/models** rather than silently promoting them to verified empirical facts. That distinction is especially important because the source itself makes strong claims about trauma, PTSD, burnout, diagnostics, nervous-system recovery, deterministic certainty, sovereign deployment, and certification.
 ```
 
----
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]

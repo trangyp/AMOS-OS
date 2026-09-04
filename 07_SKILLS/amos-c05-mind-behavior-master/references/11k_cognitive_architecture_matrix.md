@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: 11k cognitive architecture matrix
 type: reference
 source: 07_SKILLS/amos-c05-mind-behavior-master/references
 tags:
-- reference
-- amos-c05-mind-behavior-master
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-c05-mind-behavior-master
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -20,7 +23,7 @@ rscf:
 > Source: `/Users/mac/Documents/AMOS_OS/11_KNOWLEDGE/Cosmo_Brain/AMOS_COGNITIVE_ARCHITECTURE_MATRIX.md`
 > Epistemic class: SOURCE_DERIVED
 
-# AMOS Cognitive Architecture Matrix
+## AMOS Cognitive Architecture Matrix
 
 > **Status:** v1.0 — formal 4-axis matrix exposing every cognitive-primitive × lifecycle-operation × control-plane × scale interaction in AMOS, with rule-based coverage status.
 > **Companion artifact:** `AMOS_Cognitive_Architecture_Matrix.json` (machine-readable, 13,770 cells).
@@ -52,37 +55,39 @@ AMOS ≠ LLM
 
 The vertical cognitive stack. Each primitive carries a **maturity** score versus current AMOS, derived from the gap document's explicit claims (not guessed).
 
-| ID | Primitive | Subsystem / Gap ref | Maturity | Basis |
-|----|-----------|---------------------|----------|-------|
-| L0 | Reality / Environment | Environment substrate | missing | Not a typed subsystem |
-| L1 | Sensing / Observation | 931–960 | missing | Perception needs epistemic machinery |
-| L2 | Attention | 901–930 | missing | Attention missing as real subsystem |
-| L3 | Percept Formation | 931–960 | missing | Observation ≠ Interpretation firewall absent |
-| L4 | Object / Entity Formation | 961–990 | missing | Persistent entity identity absent |
-| L5 | Binding | 991–1020 | missing | Explicit relational cognition absent |
-| L6 | Working State | 1021–1050 | missing | No cognitive workspace beyond context window |
-| L7 | Memory | 1051–1140 | partial | HOT/WARM lifecycle exists; activation/interference/forgetting missing |
-| L8 | Representation | 1141–1170 | partial | Partial representation; world-model engine largely missing |
-| L9 | Inference | Reasoning kernel | partial | CORE-19 reasoning kernel exists |
-| L10 | World Modeling | 1141–1170 | missing | Enormous gap; LLM must not be the world model |
-| L11 | Causal Modeling | Causal mediation | partial | Counterfactual/causal kernels exist |
-| L12 | Counterfactual Simulation | 1201–1230 | partial | Counterfactual kernel exists; simulation worlds missing |
-| L13 | Prediction | 1171–1200 | missing | Prediction governance missing |
-| L14 | Valuation | 1231–1260 | missing | No explicit value-function architecture |
-| L15 | Goal Formation | Kernel goals | partial | Goals exist in kernel typed state |
-| L16 | Planning | Planning | partial | Planning exists; limited machinery |
-| L17 | Decision | 1261–1290 | partial | Decision filter exists; much missing |
-| L18 | Action | Execution plane | existing | Agents/Skills/Tools execution exists |
-| L19 | Outcome Observation | 931–960 | missing | Observation-to-outcome loop absent |
-| L20 | Credit Assignment | 1291–1320 | missing | No explicit credit/blame
+| ID  | Primitive                 | Subsystem / Gap ref   | Maturity | Basis                                                                 |
+| --- | ------------------------- | --------------------- | -------- | --------------------------------------------------------------------- |
+| L0  | Reality / Environment     | Environment substrate | missing  | Not a typed subsystem                                                 |
+| L1  | Sensing / Observation     | 931–960               | missing  | Perception needs epistemic machinery                                  |
+| L2  | Attention                 | 901–930               | missing  | Attention missing as real subsystem                                   |
+| L3  | Percept Formation         | 931–960               | missing  | Observation ≠ Interpretation firewall absent                          |
+| L4  | Object / Entity Formation | 961–990               | missing  | Persistent entity identity absent                                     |
+| L5  | Binding                   | 991–1020              | missing  | Explicit relational cognition absent                                  |
+| L6  | Working State             | 1021–1050             | missing  | No cognitive workspace beyond context window                          |
+| L7  | Memory                    | 1051–1140             | partial  | HOT/WARM lifecycle exists; activation/interference/forgetting missing |
+| L8  | Representation            | 1141–1170             | partial  | Partial representation; world-model engine largely missing            |
+| L9  | Inference                 | Reasoning kernel      | partial  | CORE-19 reasoning kernel exists                                       |
+| L10 | World Modeling            | 1141–1170             | missing  | Enormous gap; LLM must not be the world model                         |
+| L11 | Causal Modeling           | Causal mediation      | partial  | Counterfactual/causal kernels exist                                   |
+| L12 | Counterfactual Simulation | 1201–1230             | partial  | Counterfactual kernel exists; simulation worlds missing               |
+| L13 | Prediction                | 1171–1200             | missing  | Prediction governance missing                                         |
+| L14 | Valuation                 | 1231–1260             | missing  | No explicit value-function architecture                               |
+| L15 | Goal Formation            | Kernel goals          | partial  | Goals exist in kernel typed state                                     |
+| L16 | Planning                  | Planning              | partial  | Planning exists; limited machinery                                    |
+| L17 | Decision                  | 1261–1290             | partial  | Decision filter exists; much missing                                  |
+| L18 | Action                    | Execution plane       | existing | Agents/Skills/Tools execution exists                                  |
+| L19 | Outcome Observation       | 931–960               | missing  | Observation-to-outcome loop absent                                    |
+| L20 | Credit Assignment         | 1291–1320             | missing  | No explicit credit/blame                                              |
 
----
+______________________________________________________________________
+
 **MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -90,12 +95,14 @@ The vertical cognitive stack. Each primitive carries a **maturity** score versus
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-c05-mind-behavior-master-11k-cognitive-architecture-matrix
 node_type: reference
 path: 07_SKILLS/amos-c05-mind-behavior-master/references/11k_cognitive_architecture_matrix.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

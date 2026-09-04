@@ -12,21 +12,21 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: FRAMEWORK
 path: 11_KNOWLEDGE/05_FRAMEWORKS/FIRST_PRINCIPLES_ARTICULATION.md
 tags:
-- amos-os
-- knowledge
-- vault
-- 05_frameworks
-- first_principles
-- fpr
-- foundational_axioms
-- root_derivation
-- rscf
-- canon_candidate
-- canon/knowledge
-- ldai-logically-deterministic-ai
-- absolute-structural-integrity
-- qls-framework
-- cognitive-systems-architecture
+  - amos-os
+  - knowledge
+  - vault
+  - 05_frameworks
+  - first_principles
+  - fpr
+  - foundational_axioms
+  - root_derivation
+  - rscf
+  - canon_candidate
+  - canon/knowledge
+  - ldai-logically-deterministic-ai
+  - absolute-structural-integrity
+  - qls-framework
+  - cognitive-systems-architecture
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -41,12 +41,12 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - FPR_FIRST_PRINCIPLE_REASONING
-  - AMOS_CORPUS
+    - FPR_FIRST_PRINCIPLE_REASONING
+    - AMOS_CORPUS
   scope:
-  - KNOWLEDGE_FRAMEWORKS
-  - FIRST_PRINCIPLES
-  - SOURCE_DEFINED_MODEL
+    - KNOWLEDGE_FRAMEWORKS
+    - FIRST_PRINCIPLES
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   primary:
     name: First Principles Articulation & Reasoning (FPR)
@@ -54,10 +54,10 @@ framework_binding:
     role: ROOT_AXIOM_DISCOVERY_AND_DERIVATION
   deterministic_logic:
     artifact:
-    - - LDAI_LOGICALLY_DETERMINISTIC_AI
+      -   - LDAI_LOGICALLY_DETERMINISTIC_AI
   structural_integrity:
     artifact:
-    - - ABSOLUTE_STRUCTURAL_INTEGRITY
+      -   - ABSOLUTE_STRUCTURAL_INTEGRITY
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
@@ -71,9 +71,9 @@ epistemic_boundary:
 
 FPR strips away secondary analogies, industry conventions, and superficial heuristic assumptions, systematically deconstructing problems down to irreducible physical, biological, and mathematical invariants.
 
----
+______________________________________________________________________
 
-# 1. Deconstructive Protocol
+## 1. Deconstructive Protocol
 
 ```text
 COMPLEX PROBLEM STATEMENT / SYSTEM
@@ -89,18 +89,18 @@ FPR DECONSTRUCTION PIPELINE:
 VERIFIED FIRST-PRINCIPLE PROOF
 ```
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Deterministic Logic:** [[11_KNOWLEDGE/05_FRAMEWORKS/LDAI_LOGICALLY_DETERMINISTIC_AI|LDAI_LOGICALLY_DETERMINISTIC_AI]]
 - **Structural Integrity:** [[11_KNOWLEDGE/05_FRAMEWORKS/ABSOLUTE_STRUCTURAL_INTEGRITY|ABSOLUTE_STRUCTURAL_INTEGRITY]]
 - **Logic Scaffold:** [[11_KNOWLEDGE/05_FRAMEWORKS/QLS_FRAMEWORK|QLS_FRAMEWORK]]
 - **Cognitive Systems:** [[11_KNOWLEDGE/05_FRAMEWORKS/COGNITIVE_SYSTEMS_ARCHITECTURE|COGNITIVE_SYSTEMS_ARCHITECTURE]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -118,9 +118,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/LDAI_LOGICALLY_DETERMINISTIC_AI|LDAI_LOGICALLY_DETERMINISTIC_AI]] · [[11_KNOWLEDGE/05_FRAMEWORKS/ABSOLUTE_STRUCTURAL_INTEGRITY|ABSOLUTE_STRUCTURAL_INTEGRITY]] · [[11_KNOWLEDGE/05_FRAMEWORKS/QLS_FRAMEWORK|QLS_FRAMEWORK]]
 
----
+______________________________________________________________________
+
 **MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]

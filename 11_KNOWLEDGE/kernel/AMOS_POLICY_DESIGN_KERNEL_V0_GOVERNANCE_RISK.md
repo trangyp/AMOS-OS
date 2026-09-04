@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: AMOS POLICY DESIGN KERNEL V0 GOVERNANCE RISK
 tags:
-- canon-group/human-system
-- canon/framework
-- rscf/claim
-- rscf/provenance
-- rscf/state/source-claim
-- topic/amos-policy-design-kernel-v0
-- kernel
+  - canon-group/human-system
+  - canon/framework
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - topic/amos-policy-design-kernel-v0
+  - kernel
 type: data
 source: 11_KNOWLEDGE/kernel
 rscf:
@@ -64,6 +67,6 @@ rscf:
 **Related:** [[11_KNOWLEDGE/kernel/AMOS_BUSINESS_MODEL_KERNEL|AMOS_BUSINESS_MODEL_KERNEL]] · [[11_KNOWLEDGE/kernel/AMOS_TECH_IDENTITY_KERNEL_V1_TECH4|AMOS_TECH_IDENTITY_KERNEL_V1_TECH4]] · [[11_KNOWLEDGE/kernel/AMOS_SALES_KERNEL_V0|AMOS_SALES_KERNEL_V0]] · [[11_KNOWLEDGE/kernel/AMOS_POLITICAL_DYNAMICS_KERNEL|AMOS_POLITICAL_DYNAMICS_KERNEL]]
 ```
 
----
-**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]
+______________________________________________________________________
 
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]

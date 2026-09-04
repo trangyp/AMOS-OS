@@ -1,12 +1,15 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: O15 OBSERVATION LIFECYCLE OPERATIONS COGNITIVE MATRIX RSCF
 type: note
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O15_OBSERVATION
 tags:
-- note
-- o15-observation
-- domain/cognitive-matrix
-- trang-framework-recursive-ontology-dynamics
+  - note
+  - o15-observation
+  - domain/cognitive-matrix
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED
   claim_class: EMPIRICAL
@@ -51,20 +54,23 @@ MODEL != VERIFIED
 UNKNOWN/GAP != PASS
 ```
 
----
+______________________________________________________________________
 
 [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: o15_operations_rscf
 node_type: note
 path: 02_LIFECYCLE_OPERATIONS/O15_OBSERVATION/O15_OBSERVATION_LIFECYCLE_OPERATIONS_COGNITIVE_MATRIX_RSCF.md
 claim_class: DERIVED
-node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O15_OBSERVATION/O15_OBSERVATION_LIFECYCLE_OPERATIONS_COGNITIVE_MATRIX_RSCF.md
+node_path_note: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O15_OBSERVATION/O15_OBSERVATION_LIFECYCLE_OPERATIONS_COGNITIVE_MATRIX_RSCF.md
 
----
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O15_OBSERVATION/O15_OBSERVATION_MOC|O15_OBSERVATION_MOC]]
 
----
+______________________________________________________________________
+
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

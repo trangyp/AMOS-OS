@@ -1,12 +1,15 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: TASK RESOLVER
 type: task
 source: 03_CONTROL_PLANE/01_TASK_CONTRACT
 tags:
-- control-plane
-- task_contract
-- note
-- canon/control-plane
+  - control-plane
+  - task_contract
+  - note
+  - canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -26,9 +29,9 @@ rscf:
 >
 > **Origin Architect:** Trang Phan
 
----
+______________________________________________________________________
 
-# 0. Purpose
+## 0. Purpose
 
 The Task Resolver converts an incoming request, event, delegated objective,
 recovery requirement, or other task-producing signal into a bounded
@@ -87,9 +90,9 @@ and:
 GOVERNABLE WORK
 ```
 
----
+______________________________________________________________________
 
-# 1. Core Law
+## 1. Core Law
 
 ```text
 DO NOT EXECUTE
@@ -122,9 +125,9 @@ TEST SUFFICIENCY
 TASK CONTRACT
 ```
 
----
+______________________________________________________________________
 
-# 2. Fundamental Distinction
+## 2. Fundamental Distinction
 
 ```text
 REQUEST INTERPRETATION
@@ -169,9 +172,9 @@ The resolver establishes task semantics.
 Other Control Plane systems determine whether and how those semantics may be
 executed.
 
----
+______________________________________________________________________
 
-# 3. Resolver Role
+## 3. Resolver Role
 
 The resolver sits conceptually here:
 
@@ -195,9 +198,9 @@ TASK CONTRACT
 CONTROL PLANE
 ```
 
----
+______________________________________________________________________
 
-# 4. Resolver Contract
+## 4. Resolver Contract
 
 The resolver accepts:
 
@@ -227,9 +230,9 @@ UNKNOWN/GAP
 
 with an associated Task Contract or partial Task Contract.
 
----
+______________________________________________________________________
 
-# 5. Resolver Inputs
+## 5. Resolver Inputs
 
 Potential resolver inputs include:
 
@@ -257,9 +260,9 @@ CONTROL-PLANE ESCALATION
 
 The resolver must preserve the origin class.
 
----
+______________________________________________________________________
 
-# 6. Source Preservation
+## 6. Source Preservation
 
 Before interpretation:
 
@@ -294,9 +297,9 @@ source:
   provenance:
 ```
 
----
+______________________________________________________________________
 
-# 7. Source vs Resolution
+## 7. Source vs Resolution
 
 The resolver must preserve:
 
@@ -312,9 +315,9 @@ WHAT THE SYSTEM RESOLVED IT TO MEAN
 
 This permits later detection of semantic drift.
 
----
+______________________________________________________________________
 
-# 8. Resolver Objective
+## 8. Resolver Objective
 
 The resolver's primary objective is:
 
@@ -328,9 +331,9 @@ WITHOUT INVENTING
 LOAD-BEARING SEMANTICS.
 ```
 
----
+______________________________________________________________________
 
-# 9. Minimum Necessary Resolution
+## 9. Minimum Necessary Resolution
 
 Do not resolve more than necessary.
 
@@ -351,9 +354,9 @@ COMPLETION
 are sufficient for a low-stakes read-only task, the resolver should not
 manufacture unnecessary fields.
 
----
+______________________________________________________________________
 
-# 10. Adaptive Resolution Depth
+## 10. Adaptive Resolution Depth
 
 Resolution depth should scale with:
 
@@ -379,9 +382,9 @@ AUTHORITY SENSITIVITY
 PROVENANCE UNCERTAINTY
 ```
 
----
+______________________________________________________________________
 
-# 11. Resolver Complexity Classes
+## 11. Resolver Complexity Classes
 
 Candidate resolver complexity:
 
@@ -400,9 +403,9 @@ R4 MAXIMUM
 These correspond conceptually to adaptive task complexity, but are resolver
 states rather than claims of a specific implementation.
 
----
+______________________________________________________________________
 
-# 12. R0 Direct
+## 12. R0 Direct
 
 Use when the request is:
 
@@ -428,9 +431,9 @@ Example:
 "Summarize this paragraph."
 ```
 
----
+______________________________________________________________________
 
-# 13. R1 Compact
+## 13. R1 Compact
 
 Use when minor inference is required but ambiguity is low.
 
@@ -454,9 +457,9 @@ DELIVERABLE
 
 without deep branching.
 
----
+______________________________________________________________________
 
-# 14. R2 Structured
+## 14. R2 Structured
 
 Use when multiple fields require explicit resolution.
 
@@ -474,9 +477,9 @@ FRESHNESS REQUIREMENTS
 NONTRIVIAL CONSTRAINTS
 ```
 
----
+______________________________________________________________________
 
-# 15. R3 Deep
+## 15. R3 Deep
 
 Use when material ambiguity affects:
 
@@ -494,9 +497,9 @@ POLICY
 HIGH-VALUE OUTPUT
 ```
 
----
+______________________________________________________________________
 
-# 16. R4 Maximum
+## 16. R4 Maximum
 
 Use when:
 
@@ -516,9 +519,9 @@ MULTIPLE COMPETING INTERPRETATIONS
 
 make semantic error costly.
 
----
+______________________________________________________________________
 
-# 17. Resolution Pipeline
+## 17. Resolution Pipeline
 
 Canonical conceptual pipeline:
 
@@ -547,9 +550,9 @@ Canonical conceptual pipeline:
 
 Not every request requires every stage at maximum depth.
 
----
+______________________________________________________________________
 
-# 18. Capture
+## 18. Capture
 
 Capture preserves the incoming signal.
 
@@ -566,9 +569,9 @@ capture:
 
 The resolver should not begin by rewriting the source destructively.
 
----
+______________________________________________________________________
 
-# 19. Normalize
+## 19. Normalize
 
 Normalization may include:
 
@@ -586,9 +589,9 @@ STRUCTURE EXTRACTION
 
 Normalization must not alter intent.
 
----
+______________________________________________________________________
 
-# 20. Semantic-Preserving Normalization
+## 20. Semantic-Preserving Normalization
 
 Allowed:
 
@@ -610,9 +613,9 @@ Not allowed:
 
 because modality changed.
 
----
+______________________________________________________________________
 
-# 21. Modality Preservation
+## 21. Modality Preservation
 
 Preserve distinctions such as:
 
@@ -640,9 +643,9 @@ EXECUTE
 
 These can materially alter effect semantics.
 
----
+______________________________________________________________________
 
-# 22. Negation Preservation
+## 22. Negation Preservation
 
 Negation is load-bearing.
 
@@ -664,9 +667,9 @@ EXCLUDE X
 
 must remain an exclusion.
 
----
+______________________________________________________________________
 
-# 23. Conditional Preservation
+## 23. Conditional Preservation
 
 Conditional requests must remain conditional.
 
@@ -683,9 +686,9 @@ B
 
 unless `A` has been independently established.
 
----
+______________________________________________________________________
 
-# 24. Request Classification
+## 24. Request Classification
 
 The resolver may classify task type.
 
@@ -723,9 +726,9 @@ MONITORING
 
 Multiple classes may apply.
 
----
+______________________________________________________________________
 
-# 25. Information Task
+## 25. Information Task
 
 Goal:
 
@@ -739,9 +742,9 @@ Example:
 "What does this file say?"
 ```
 
----
+______________________________________________________________________
 
-# 26. Analysis Task
+## 26. Analysis Task
 
 Goal:
 
@@ -752,9 +755,9 @@ OR CONCLUSIONS
 FROM AVAILABLE INPUT
 ```
 
----
+______________________________________________________________________
 
-# 27. Synthesis Task
+## 27. Synthesis Task
 
 Goal:
 
@@ -765,9 +768,9 @@ INTO A COHERENT RESULT
 
 Synthesis must preserve contradictions rather than erase them.
 
----
+______________________________________________________________________
 
-# 28. Comparison Task
+## 28. Comparison Task
 
 Requires:
 
@@ -781,9 +784,9 @@ OUTPUT EXPECTATION
 
 If the dimension is materially ambiguous, resolution may be required.
 
----
+______________________________________________________________________
 
-# 29. Research Task
+## 29. Research Task
 
 Usually activates:
 
@@ -799,9 +802,9 @@ SOURCE INDEPENDENCE
 CONTRADICTION CHECKING
 ```
 
----
+______________________________________________________________________
 
-# 30. Decision Task
+## 30. Decision Task
 
 Requires enough information for:
 
@@ -811,9 +814,9 @@ DECISION SUFFICIENCY
 
 rather than exhaustive knowledge.
 
----
+______________________________________________________________________
 
-# 31. Planning Task
+## 31. Planning Task
 
 Produces:
 
@@ -823,9 +826,9 @@ PROPOSED ACTION STRUCTURE
 
 Planning does not itself authorize action.
 
----
+______________________________________________________________________
 
-# 32. Generation Task
+## 32. Generation Task
 
 Produces a new artifact.
 
@@ -845,9 +848,9 @@ MODEL
 SCHEMA
 ```
 
----
+______________________________________________________________________
 
-# 33. Transformation Task
+## 33. Transformation Task
 
 Transforms an existing artifact.
 
@@ -865,9 +868,9 @@ REFORMAT
 RESTRUCTURE
 ```
 
----
+______________________________________________________________________
 
-# 34. Validation Task
+## 34. Validation Task
 
 Tests an existing claim, artifact, plan, or result.
 
@@ -881,17 +884,17 @@ WHAT EVIDENCE?
 WHAT FAILURE CONDITION?
 ```
 
----
+______________________________________________________________________
 
-# 35. Execution Task
+## 35. Execution Task
 
 Requests a state-changing operation.
 
 This activates stronger resolution requirements.
 
----
+______________________________________________________________________
 
-# 36. Recovery Task
+## 36. Recovery Task
 
 Requests repair after failure or invalidation.
 
@@ -909,9 +912,9 @@ PRESERVED STATE
 EFFECTS TO REPAIR
 ```
 
----
+______________________________________________________________________
 
-# 37. Governance Task
+## 37. Governance Task
 
 May alter:
 
@@ -929,9 +932,9 @@ SYSTEM STRUCTURE
 
 Such tasks require higher scrutiny.
 
----
+______________________________________________________________________
 
-# 38. Monitoring Task
+## 38. Monitoring Task
 
 Requires:
 
@@ -949,9 +952,9 @@ NOTIFICATION / EFFECT EXPECTATION
 
 where material.
 
----
+______________________________________________________________________
 
-# 39. Intent Extraction
+## 39. Intent Extraction
 
 The resolver should distinguish:
 
@@ -981,9 +984,9 @@ CANONICAL SEMANTICS
 HIGH-CONFIDENCE REFERENCE RESOLUTION
 ```
 
----
+______________________________________________________________________
 
-# 40. Intent Confidence
+## 40. Intent Confidence
 
 Intent confidence should be bounded by evidence.
 
@@ -998,9 +1001,9 @@ REQUEST + VALID CONTEXT
 
 Fluent plausibility is not evidence.
 
----
+______________________________________________________________________
 
-# 41. Explicit vs Inferred Fields
+## 41. Explicit vs Inferred Fields
 
 Every material field should conceptually be classifiable as:
 
@@ -1018,9 +1021,9 @@ UNKNOWN
 
 This distinction is valuable for auditability.
 
----
+______________________________________________________________________
 
-# 42. Explicit
+## 42. Explicit
 
 Directly stated by the source.
 
@@ -1038,9 +1041,9 @@ PDF
 
 is explicit.
 
----
+______________________________________________________________________
 
-# 43. Resolved
+## 43. Resolved
 
 Derived by deterministic or near-deterministic reference resolution.
 
@@ -1052,9 +1055,9 @@ Example:
 
 when exactly one active file exists.
 
----
+______________________________________________________________________
 
-# 44. Inferred
+## 44. Inferred
 
 Supported but not explicitly stated.
 
@@ -1068,9 +1071,9 @@ may imply a comparison deliverable.
 
 Inference must remain bounded.
 
----
+______________________________________________________________________
 
-# 45. Defaulted
+## 45. Defaulted
 
 A field filled using an established default.
 
@@ -1086,9 +1089,9 @@ NON-CONFLICTING
 REVERSIBLE WHERE POSSIBLE
 ```
 
----
+______________________________________________________________________
 
-# 46. Unknown
+## 46. Unknown
 
 If support is insufficient:
 
@@ -1098,9 +1101,9 @@ UNKNOWN
 
 must remain available.
 
----
+______________________________________________________________________
 
-# 47. Reference Resolution
+## 47. Reference Resolution
 
 Requests frequently contain references such as:
 
@@ -1132,9 +1135,9 @@ THE SAME FORMAT
 
 The resolver must bind such references before consequential execution.
 
----
+______________________________________________________________________
 
-# 48. Reference Candidate Set
+## 48. Reference Candidate Set
 
 For reference `R`, construct:
 
@@ -1151,9 +1154,9 @@ Cn
 
 using only relevant accessible context.
 
----
+______________________________________________________________________
 
-# 49. Unique Resolution
+## 49. Unique Resolution
 
 If exactly one candidate is materially plausible:
 
@@ -1163,9 +1166,9 @@ If exactly one candidate is materially plausible:
 
 then the resolver may bind it.
 
----
+______________________________________________________________________
 
-# 50. Multiple Candidates
+## 50. Multiple Candidates
 
 If:
 
@@ -1181,9 +1184,9 @@ PRESERVE AMBIGUITY
 
 Do not select arbitrarily.
 
----
+______________________________________________________________________
 
-# 51. Material Ambiguity
+## 51. Material Ambiguity
 
 Ambiguity is material if choosing a different interpretation could alter:
 
@@ -1207,9 +1210,9 @@ DELIVERABLE
 COMPLETION
 ```
 
----
+______________________________________________________________________
 
-# 52. Immaterial Ambiguity
+## 52. Immaterial Ambiguity
 
 Minor wording ambiguity that cannot change the task outcome does not require
 escalation.
@@ -1222,9 +1225,9 @@ Example:
 
 may permit reasonable stylistic interpretation.
 
----
+______________________________________________________________________
 
-# 53. Ambiguity Budget
+## 53. Ambiguity Budget
 
 Do not eliminate every ambiguity.
 
@@ -1242,9 +1245,9 @@ COST OF RESOLUTION
 
 subject to integrity constraints.
 
----
+______________________________________________________________________
 
-# 54. Objective Extraction
+## 54. Objective Extraction
 
 The resolver should identify:
 
@@ -1262,9 +1265,9 @@ SECONDARY OBJECTIVES
 
 if present.
 
----
+______________________________________________________________________
 
-# 55. Objective Test
+## 55. Objective Test
 
 Ask conceptually:
 
@@ -1277,9 +1280,9 @@ AS SATISFIED?
 
 That often reveals the objective.
 
----
+______________________________________________________________________
 
-# 56. Activity vs Objective
+## 56. Activity vs Objective
 
 Request:
 
@@ -1303,9 +1306,9 @@ Do not invent:
 
 without support.
 
----
+______________________________________________________________________
 
-# 57. Objective Conflict Detection
+## 57. Objective Conflict Detection
 
 If the request contains incompatible goals:
 
@@ -1331,9 +1334,9 @@ A TRADE-OFF IS ACCEPTABLE
 OR CLARIFICATION IS REQUIRED
 ```
 
----
+______________________________________________________________________
 
-# 58. Deliverable Resolution
+## 58. Deliverable Resolution
 
 The resolver should identify:
 
@@ -1367,9 +1370,9 @@ REPORT
 DATA STRUCTURE
 ```
 
----
+______________________________________________________________________
 
-# 59. Deliverable Format
+## 59. Deliverable Format
 
 Format may be:
 
@@ -1386,9 +1389,9 @@ UNKNOWN
 Do not let formatting ambiguity block a task unless format materially affects
 success.
 
----
+______________________________________________________________________
 
-# 60. Scope Resolution
+## 60. Scope Resolution
 
 Scope must be bounded enough to prevent uncontrolled task expansion.
 
@@ -1416,9 +1419,9 @@ SCALE
 VERSION
 ```
 
----
+______________________________________________________________________
 
-# 61. Scope Inclusion
+## 61. Scope Inclusion
 
 Extract explicit inclusions.
 
@@ -1436,9 +1439,9 @@ scope:
     - uploaded files
 ```
 
----
+______________________________________________________________________
 
-# 62. Scope Exclusion
+## 62. Scope Exclusion
 
 Extract explicit exclusions.
 
@@ -1456,9 +1459,9 @@ scope:
     - web sources
 ```
 
----
+______________________________________________________________________
 
-# 63. Negative Scope Is Load-Bearing
+## 63. Negative Scope Is Load-Bearing
 
 Exclusions must not be treated as optional preferences.
 
@@ -1468,9 +1471,9 @@ DO NOT USE X
 
 is generally a hard scope constraint.
 
----
+______________________________________________________________________
 
-# 64. Scope Inference
+## 64. Scope Inference
 
 Infer scope only when context makes it sufficiently clear.
 
@@ -1482,9 +1485,9 @@ Example:
 
 with one attached document can resolve locally.
 
----
+______________________________________________________________________
 
-# 65. Unbounded Scope Detection
+## 65. Unbounded Scope Detection
 
 Signals include:
 
@@ -1502,9 +1505,9 @@ without an operational completion boundary.
 
 The resolver should seek a finite stopping rule.
 
----
+______________________________________________________________________
 
-# 66. Constraint Extraction
+## 66. Constraint Extraction
 
 Identify:
 
@@ -1516,9 +1519,9 @@ SOFT CONSTRAINTS
 
 separately.
 
----
+______________________________________________________________________
 
-# 67. Hard Constraint Signals
+## 67. Hard Constraint Signals
 
 Examples:
 
@@ -1542,9 +1545,9 @@ WITHOUT
 
 Context still matters, but these are strong signals.
 
----
+______________________________________________________________________
 
-# 68. Soft Constraint Signals
+## 68. Soft Constraint Signals
 
 Examples:
 
@@ -1560,9 +1563,9 @@ TRY TO
 KEEP IT
 ```
 
----
+______________________________________________________________________
 
-# 69. Constraint Precedence
+## 69. Constraint Precedence
 
 The resolver should not invent precedence between conflicting hard
 constraints.
@@ -1577,9 +1580,9 @@ CONFLICT
 
 remains explicit.
 
----
+______________________________________________________________________
 
-# 70. Input Resolution
+## 70. Input Resolution
 
 Determine:
 
@@ -1599,9 +1602,9 @@ OPTIONAL
 PROHIBITED
 ```
 
----
+______________________________________________________________________
 
-# 71. Missing Required Input
+## 71. Missing Required Input
 
 If required input is absent:
 
@@ -1612,9 +1615,9 @@ CLASSIFY GAP
 Do not fill it with a plausible substitute unless such substitution is
 authorized and non-material.
 
----
+______________________________________________________________________
 
-# 72. Context as Input
+## 72. Context as Input
 
 Conversation or runtime context may supply task fields.
 
@@ -1634,9 +1637,9 @@ NON-CONFLICT
 
 before becoming load-bearing.
 
----
+______________________________________________________________________
 
-# 73. Prior Task Context
+## 73. Prior Task Context
 
 Previous tasks may inform the current task.
 
@@ -1650,9 +1653,9 @@ CURRENT TASK
 
 unless continuity is established.
 
----
+______________________________________________________________________
 
-# 74. Continuation Resolution
+## 74. Continuation Resolution
 
 Signals:
 
@@ -1680,9 +1683,9 @@ PARENT / PREDECESSOR TASK
 
 when relevant.
 
----
+______________________________________________________________________
 
-# 75. Assumption Extraction
+## 75. Assumption Extraction
 
 Identify assumptions required for the resolved interpretation.
 
@@ -1701,9 +1704,9 @@ there is exactly one relevant existing file
 
 If multiple exist, the assumption fails.
 
----
+______________________________________________________________________
 
-# 76. Load-Bearing Assumption Test
+## 76. Load-Bearing Assumption Test
 
 Ask:
 
@@ -1719,9 +1722,9 @@ If yes:
 LOAD_BEARING
 ```
 
----
+______________________________________________________________________
 
-# 77. Default Resolution
+## 77. Default Resolution
 
 Defaults may reduce unnecessary clarification.
 
@@ -1736,9 +1739,9 @@ NON-CONFLICTING,
 AND DOES NOT EXPAND EFFECTS.
 ```
 
----
+______________________________________________________________________
 
-# 78. Unsafe Default
+## 78. Unsafe Default
 
 Never default a missing field in a way that increases:
 
@@ -1758,9 +1761,9 @@ FINANCIAL COMMITMENT
 
 without adequate support.
 
----
+______________________________________________________________________
 
-# 79. Least-Effect Default
+## 79. Least-Effect Default
 
 Under unresolved effect ambiguity:
 
@@ -1792,9 +1795,9 @@ SEND EMAIL
 
 unless sending is explicitly requested or otherwise clearly established.
 
----
+______________________________________________________________________
 
-# 80. Preview vs Execute
+## 80. Preview vs Execute
 
 The resolver must preserve:
 
@@ -1832,9 +1835,9 @@ vs:
 EXECUTE
 ```
 
----
+______________________________________________________________________
 
-# 81. Effect Intent Resolution
+## 81. Effect Intent Resolution
 
 Candidate effect classes:
 
@@ -1864,9 +1867,9 @@ GOVERNANCE EFFECT
 
 Actual effect classification may be refined downstream.
 
----
+______________________________________________________________________
 
-# 82. Effect Ambiguity
+## 82. Effect Ambiguity
 
 If two interpretations differ only in whether an external effect occurs:
 
@@ -1876,9 +1879,9 @@ TREAT AMBIGUITY AS MATERIAL
 
 unless a canonical least-effect rule resolves it.
 
----
+______________________________________________________________________
 
-# 83. Stakes Resolution
+## 83. Stakes Resolution
 
 The resolver should identify stakes sufficient to select governance depth.
 
@@ -1908,9 +1911,9 @@ INSTITUTIONAL DECISION
 LARGE DOWNSTREAM DEPENDENCY
 ```
 
----
+______________________________________________________________________
 
-# 84. Stakes Escalation
+## 84. Stakes Escalation
 
 When uncertain between lower and higher stakes:
 
@@ -1922,9 +1925,9 @@ WITHOUT SUPPORT
 A conservative governance classification may be appropriate while semantic
 facts remain unresolved.
 
----
+______________________________________________________________________
 
-# 85. Freshness Resolution
+## 85. Freshness Resolution
 
 Determine whether the task depends on:
 
@@ -1938,9 +1941,9 @@ or:
 HISTORICAL / STATIC INFORMATION
 ```
 
----
+______________________________________________________________________
 
-# 86. Freshness Signals
+## 86. Freshness Signals
 
 Examples:
 
@@ -1970,9 +1973,9 @@ SCHEDULE
 
 These may require fresh retrieval.
 
----
+______________________________________________________________________
 
-# 87. Temporal Reference Resolution
+## 87. Temporal Reference Resolution
 
 Relative references should be converted to explicit temporal scope when
 possible.
@@ -1991,9 +1994,9 @@ DATE @ REQUEST CONTEXT
 
 not a permanently reusable abstract `today`.
 
----
+______________________________________________________________________
 
-# 88. Regime Resolution
+## 88. Regime Resolution
 
 Identify regime when it can materially alter validity.
 
@@ -2013,9 +2016,9 @@ HARDWARE
 EXPERIMENTAL ENVIRONMENT
 ```
 
----
+______________________________________________________________________
 
-# 89. Dependency Resolution
+## 89. Dependency Resolution
 
 Identify dependencies necessary before execution.
 
@@ -2043,9 +2046,9 @@ The resolver need not fully validate all downstream dependencies.
 
 It must identify them sufficiently for routing.
 
----
+______________________________________________________________________
 
-# 90. Hidden Dependency Detection
+## 90. Hidden Dependency Detection
 
 Ask:
 
@@ -2057,9 +2060,9 @@ TO MEAN WHAT WE THINK IT MEANS?
 
 This can expose hidden dependencies.
 
----
+______________________________________________________________________
 
-# 91. Uncertainty Vector
+## 91. Uncertainty Vector
 
 For material tasks, classify uncertainty across:
 
@@ -2093,9 +2096,9 @@ SEMANTIC
 
 uncertainty.
 
----
+______________________________________________________________________
 
-# 92. Semantic Uncertainty
+## 92. Semantic Uncertainty
 
 Task resolution also requires a resolver-specific uncertainty:
 
@@ -2112,9 +2115,9 @@ resolver_uncertainty:
   semantic:
 ```
 
----
+______________________________________________________________________
 
-# 93. Competing Interpretations
+## 93. Competing Interpretations
 
 If the request supports multiple incompatible interpretations:
 
@@ -2128,9 +2131,9 @@ I3
 
 preserve them as competing candidates.
 
----
+______________________________________________________________________
 
-# 94. Interpretation Candidate
+## 94. Interpretation Candidate
 
 Conceptual form:
 
@@ -2158,9 +2161,9 @@ interpretation:
   confidence_ceiling:
 ```
 
----
+______________________________________________________________________
 
-# 95. Candidate Ranking
+## 95. Candidate Ranking
 
 Interpretations may be ranked by:
 
@@ -2182,9 +2185,9 @@ NON-CONTRADICTION
 
 Popularity or fluency are not sufficient criteria.
 
----
+______________________________________________________________________
 
-# 96. Interpretation Dominance
+## 96. Interpretation Dominance
 
 Interpretation `I1` may dominate `I2` when:
 
@@ -2199,9 +2202,9 @@ NO GREATER EFFECT EXPANSION
 
 Then `I2` may be discarded.
 
----
+______________________________________________________________________
 
-# 97. Incomparable Interpretations
+## 97. Incomparable Interpretations
 
 If:
 
@@ -2223,9 +2226,9 @@ PRESERVE COMPETING
 
 when the difference matters.
 
----
+______________________________________________________________________
 
-# 98. Cheap Discriminating Test
+## 98. Cheap Discriminating Test
 
 When interpretations compete:
 
@@ -2250,9 +2253,9 @@ CHECK TASK LINEAGE
 ASK ONE TARGETED QUESTION
 ```
 
----
+______________________________________________________________________
 
-# 99. Clarification Principle
+## 99. Clarification Principle
 
 Clarification is a tool, not the default.
 
@@ -2268,9 +2271,9 @@ THE TASK CANNOT PROCEED
 UNDER A SAFE BOUNDED INTERPRETATION.
 ```
 
----
+______________________________________________________________________
 
-# 100. Do Not Over-Clarify
+## 100. Do Not Over-Clarify
 
 Do not ask:
 
@@ -2288,9 +2291,9 @@ WHICH ACCOUNT?
 
 before a consequential action when multiple accounts are plausible.
 
----
+______________________________________________________________________
 
-# 101. Minimum Clarification
+## 101. Minimum Clarification
 
 When clarification is necessary:
 
@@ -2303,9 +2306,9 @@ THE HIGHEST-PRIORITY GAP.
 
 Do not ask a long questionnaire when one discriminating answer is sufficient.
 
----
+______________________________________________________________________
 
-# 102. Gap Classification
+## 102. Gap Classification
 
 Resolver gaps:
 
@@ -2321,9 +2324,9 @@ COSMETIC
 
 Resolve in that order.
 
----
+______________________________________________________________________
 
-# 103. Critical Semantic Gap
+## 103. Critical Semantic Gap
 
 Examples:
 
@@ -2343,9 +2346,9 @@ CONTRADICTORY HARD REQUIREMENTS
 
 when consequential action depends on them.
 
----
+______________________________________________________________________
 
-# 104. Decision-Relevant Semantic Gap
+## 104. Decision-Relevant Semantic Gap
 
 Example:
 
@@ -2355,17 +2358,17 @@ Example:
 
 when the optimization criterion could change the recommendation.
 
----
+______________________________________________________________________
 
-# 105. Explanatory Semantic Gap
+## 105. Explanatory Semantic Gap
 
 Example:
 
 A missing reason for a preference that does not change the requested output.
 
----
+______________________________________________________________________
 
-# 106. Cosmetic Semantic Gap
+## 106. Cosmetic Semantic Gap
 
 Example:
 
@@ -2373,9 +2376,9 @@ Exact heading style.
 
 Do not block substantive work for cosmetic ambiguity.
 
----
+______________________________________________________________________
 
-# 107. Resolver Sensitivity Test
+## 107. Resolver Sensitivity Test
 
 For each unresolved material field:
 
@@ -2397,9 +2400,9 @@ If yes:
 RESOLVE OR CONDITION
 ```
 
----
+______________________________________________________________________
 
-# 108. Objective Sensitivity
+## 108. Objective Sensitivity
 
 Objective is almost always load-bearing.
 
@@ -2411,9 +2414,9 @@ ESCALATE RESOLUTION
 
 unless competing objectives can safely be returned as alternatives.
 
----
+______________________________________________________________________
 
-# 109. Target Sensitivity
+## 109. Target Sensitivity
 
 Target ambiguity is especially important for effectful tasks.
 
@@ -2425,9 +2428,9 @@ IRREVERSIBLE EFFECT
 BLOCK
 ```
 
----
+______________________________________________________________________
 
-# 110. Parameter Sensitivity
+## 110. Parameter Sensitivity
 
 Parameters such as:
 
@@ -2449,17 +2452,17 @@ ENVIRONMENT
 
 should be tested for decision/effect sensitivity.
 
----
+______________________________________________________________________
 
-# 111. Constraint Sensitivity
+## 111. Constraint Sensitivity
 
 A missing soft constraint may be tolerable.
 
 A missing hard constraint may invalidate the task.
 
----
+______________________________________________________________________
 
-# 112. Resolver Fast Path
+## 112. Resolver Fast Path
 
 Use the fast path only when:
 
@@ -2479,9 +2482,9 @@ NO EFFECT EXPANSION
 NO CRITICAL GAP
 ```
 
----
+______________________________________________________________________
 
-# 113. Fast Path Output
+## 113. Fast Path Output
 
 Conceptually:
 
@@ -2500,9 +2503,9 @@ resolver_result:
     completion:
 ```
 
----
+______________________________________________________________________
 
-# 114. Fast Path Independence Requirement
+## 114. Fast Path Independence Requirement
 
 Do not assume a task is local merely because it is syntactically simple.
 
@@ -2514,9 +2517,9 @@ Example:
 
 is short but may require deep reference and authority resolution.
 
----
+______________________________________________________________________
 
-# 115. Resolver Escalation Triggers
+## 115. Resolver Escalation Triggers
 
 Escalate when:
 
@@ -2546,9 +2549,9 @@ UNKNOWN AUTHORITY-RELEVANT PRINCIPAL
 AMBIGUOUS DEPENDENCIES
 ```
 
----
+______________________________________________________________________
 
-# 116. Resolver De-Escalation
+## 116. Resolver De-Escalation
 
 Once decision-changing semantic uncertainty is resolved:
 
@@ -2558,9 +2561,9 @@ STOP EXPANDING
 
 and emit the contract.
 
----
+______________________________________________________________________
 
-# 117. Resolver Stop Condition
+## 117. Resolver Stop Condition
 
 Resolution is sufficient when:
 
@@ -2582,9 +2585,9 @@ COMPLETION DEFINED
 
 plus any additional stake-dependent requirements.
 
----
+______________________________________________________________________
 
-# 118. Task Sufficiency
+## 118. Task Sufficiency
 
 Candidate function:
 
@@ -2595,9 +2598,9 @@ TaskSufficient(T)
 returns true only when the unresolved fields cannot materially prevent safe
 Control Plane evaluation.
 
----
+______________________________________________________________________
 
-# 119. Resolution Does Not Require Perfect Knowledge
+## 119. Resolution Does Not Require Perfect Knowledge
 
 A resolver does not need to know:
 
@@ -2613,9 +2616,9 @@ before producing a task.
 
 It needs enough semantic closure for downstream governance.
 
----
+______________________________________________________________________
 
-# 120. Partial Task Contract
+## 120. Partial Task Contract
 
 When some fields are known:
 
@@ -2631,9 +2634,9 @@ preserve the partial structure.
 
 Do not discard valid resolved fields because one field remains unknown.
 
----
+______________________________________________________________________
 
-# 121. Selective Resolution
+## 121. Selective Resolution
 
 If only target is unresolved:
 
@@ -2645,9 +2648,9 @@ not the entire task again.
 
 This follows AMOS selective invalidation principles.
 
----
+______________________________________________________________________
 
-# 122. Resolver State
+## 122. Resolver State
 
 Candidate states:
 
@@ -2671,45 +2674,45 @@ INVALIDATED
 SUPERSEDED
 ```
 
----
+______________________________________________________________________
 
-# 123. Captured
+## 123. Captured
 
 Source request has been preserved but not yet semantically processed.
 
----
+______________________________________________________________________
 
-# 124. Parsing
+## 124. Parsing
 
 Surface structure is being extracted.
 
----
+______________________________________________________________________
 
-# 125. Resolving
+## 125. Resolving
 
 References, objectives, scope, or constraints are being bound.
 
----
+______________________________________________________________________
 
-# 126. Competing
+## 126. Competing
 
 Multiple materially incompatible interpretations remain viable.
 
----
+______________________________________________________________________
 
-# 127. Blocked
+## 127. Blocked
 
 A critical gap prevents sufficient task resolution.
 
----
+______________________________________________________________________
 
-# 128. Resolved
+## 128. Resolved
 
 One sufficiently supported task interpretation has been established.
 
----
+______________________________________________________________________
 
-# 129. Conditional
+## 129. Conditional
 
 The task is resolvable only under explicit assumptions.
 
@@ -2723,24 +2726,24 @@ THEN TASK = ...
 This may be adequate for non-effectful analysis but not for irreversible
 execution.
 
----
+______________________________________________________________________
 
-# 130. Invalidated
+## 130. Invalidated
 
 Previously resolved semantics are no longer valid because a dependency
 changed.
 
----
+______________________________________________________________________
 
-# 131. Superseded
+## 131. Superseded
 
 A newer resolver result replaces the prior one.
 
 Preserve lineage.
 
----
+______________________________________________________________________
 
-# 132. Resolver Output
+## 132. Resolver Output
 
 Conceptual resolver result:
 
@@ -2781,9 +2784,9 @@ TaskResolverResult:
   next_route:
 ```
 
----
+______________________________________________________________________
 
-# 133. Next Route
+## 133. Next Route
 
 Possible next routes:
 
@@ -2807,9 +2810,9 @@ BLOCK
 RETURN_UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 134. Resolver Provenance
+## 134. Resolver Provenance
 
 The resolver should retain provenance for material semantic bindings.
 
@@ -2826,9 +2829,9 @@ binding:
 
 This permits later auditing.
 
----
+______________________________________________________________________
 
-# 135. Binding Strength
+## 135. Binding Strength
 
 Candidate classes:
 
@@ -2850,9 +2853,9 @@ UNKNOWN
 
 The exact enum remains implementation-dependent.
 
----
+______________________________________________________________________
 
-# 136. Binding Confidence Ceiling
+## 136. Binding Confidence Ceiling
 
 A task field should not be represented with greater certainty than its
 support permits.
@@ -2871,9 +2874,9 @@ CONDITIONAL
 
 if two files exist and context only weakly favors A.
 
----
+______________________________________________________________________
 
-# 137. Provenance Topology
+## 137. Provenance Topology
 
 When interpretation relies on multiple contextual sources, check whether they
 are independent.
@@ -2888,9 +2891,9 @@ MESSAGE A
 
 Then B is not independent confirmation of A's interpretation.
 
----
+______________________________________________________________________
 
-# 138. Persistent Provenance
+## 138. Persistent Provenance
 
 Once a material task field is resolved, preserve the resolution basis through
 downstream processing.
@@ -2909,9 +2912,9 @@ TARGET = X
 
 with the source forgotten.
 
----
+______________________________________________________________________
 
-# 139. Freshness-Bounded Resolution
+## 139. Freshness-Bounded Resolution
 
 Some bindings expire.
 
@@ -2925,9 +2928,9 @@ resolved at time `T1`.
 
 At `T2`, before execution, that binding may need revalidation.
 
----
+______________________________________________________________________
 
-# 140. Resolution Epoch
+## 140. Resolution Epoch
 
 Conceptually, a resolver result may bind to:
 
@@ -2943,9 +2946,9 @@ when mutable state matters.
 
 This is a reasoning pattern, not a claim about a specific runtime mechanism.
 
----
+______________________________________________________________________
 
-# 141. MVCC Pattern
+## 141. MVCC Pattern
 
 Resolver reads:
 
@@ -2972,9 +2975,9 @@ If a load-bearing semantic dependency changed:
 INVALIDATE DEPENDENT TASK FIELDS
 ```
 
----
+______________________________________________________________________
 
-# 142. CAS Pattern
+## 142. CAS Pattern
 
 For a mutable task binding:
 
@@ -2988,9 +2991,9 @@ ELSE REVALIDATE
 
 Conceptually.
 
----
+______________________________________________________________________
 
-# 143. Resolver Dependency Graph
+## 143. Resolver Dependency Graph
 
 Task fields may depend on other resolved fields.
 
@@ -3008,9 +3011,9 @@ EFFECT ENVELOPE
 
 If target changes, scope and effect analysis may need revalidation.
 
----
+______________________________________________________________________
 
-# 144. Selective Invalidation
+## 144. Selective Invalidation
 
 Example:
 
@@ -3029,9 +3032,9 @@ TARGET DESCENDANTS
 
 Do not invalidate unrelated formatting decisions.
 
----
+______________________________________________________________________
 
-# 145. Resolver Repair
+## 145. Resolver Repair
 
 When a binding fails:
 
@@ -3047,9 +3050,9 @@ RESOLVE ALTERNATIVE
 RECHECK SUFFICIENCY
 ```
 
----
+______________________________________________________________________
 
-# 146. Failed Path Rule
+## 146. Failed Path Rule
 
 Do not repeat a failed interpretation path without changed evidence.
 
@@ -3063,9 +3066,9 @@ DO NOT RESELECT I1
 
 unless failure itself was procedural rather than semantic.
 
----
+______________________________________________________________________
 
-# 147. Resolver Contradiction Detection
+## 147. Resolver Contradiction Detection
 
 Search for contradictions between:
 
@@ -3083,9 +3086,9 @@ OBJECTIVE AND EFFECT
 DELIVERABLE AND PROHIBITIONS
 ```
 
----
+______________________________________________________________________
 
-# 148. Request/Internal Contradiction
+## 148. Request/Internal Contradiction
 
 Example:
 
@@ -3098,9 +3101,9 @@ Preserve conflict.
 
 Do not choose one clause silently.
 
----
+______________________________________________________________________
 
-# 149. Request/Context Contradiction
+## 149. Request/Context Contradiction
 
 Example:
 
@@ -3119,9 +3122,9 @@ prior context:
 The current explicit request may supersede prior context, but the transition
 should be recognized.
 
----
+______________________________________________________________________
 
-# 150. Current Explicit Intent
+## 150. Current Explicit Intent
 
 Candidate precedence principle:
 
@@ -3137,9 +3140,9 @@ OLDER INFERRED TASK INTENT
 
 unless upstream canon or governance rules establish otherwise.
 
----
+______________________________________________________________________
 
-# 151. User Correction
+## 151. User Correction
 
 If the source corrects prior semantics:
 
@@ -3157,9 +3160,9 @@ must be invalidated as a current task binding.
 
 Preserve history; update active resolution.
 
----
+______________________________________________________________________
 
-# 152. Resolver Causal Firewall
+## 152. Resolver Causal Firewall
 
 If request asks:
 
@@ -3175,9 +3178,9 @@ Do not silently resolve it as:
 "Are X and Y associated?"
 ```
 
----
+______________________________________________________________________
 
-# 153. Resolver Scope Firewall
+## 153. Resolver Scope Firewall
 
 If request asks:
 
@@ -3191,9 +3194,9 @@ do not silently broaden to:
 "Does this work universally?"
 ```
 
----
+______________________________________________________________________
 
-# 154. Resolver Regime Firewall
+## 154. Resolver Regime Firewall
 
 If context comes from regime `R1` but task targets `R2`:
 
@@ -3203,9 +3206,9 @@ R1 EVIDENCE
 
 cannot silently bind `R2` semantics.
 
----
+______________________________________________________________________
 
-# 155. Resolver Temporal Firewall
+## 155. Resolver Temporal Firewall
 
 If the task asks:
 
@@ -3215,9 +3218,9 @@ LATEST
 
 do not resolve from stale context merely because it is available.
 
----
+______________________________________________________________________
 
-# 156. Resolver Effect Firewall
+## 156. Resolver Effect Firewall
 
 Do not transform:
 
@@ -3245,9 +3248,9 @@ SEND
 
 without support.
 
----
+______________________________________________________________________
 
-# 157. Resolver Authority Firewall
+## 157. Resolver Authority Firewall
 
 Do not infer:
 
@@ -3263,9 +3266,9 @@ USER IS AUTHORIZED FOR ACTION
 
 Authority is downstream.
 
----
+______________________________________________________________________
 
-# 158. Resolver Capability Firewall
+## 158. Resolver Capability Firewall
 
 Do not infer:
 
@@ -3281,9 +3284,9 @@ X IS AVAILABLE
 
 Capability resolution is downstream.
 
----
+______________________________________________________________________
 
-# 159. Resolver Policy Firewall
+## 159. Resolver Policy Firewall
 
 Do not mutate a prohibited task into a different task merely to make it
 permissible unless the system is explicitly constructing a safe alternative.
@@ -3302,9 +3305,9 @@ SAFE ALTERNATIVE
 
 must remain distinct.
 
----
+______________________________________________________________________
 
-# 160. Safe Alternative
+## 160. Safe Alternative
 
 Conceptual output:
 
@@ -3319,9 +3322,9 @@ alternative_task:
 
 Do not claim the alternative is what the requester originally asked for.
 
----
+______________________________________________________________________
 
-# 161. Adversarial Resolver Validation
+## 161. Adversarial Resolver Validation
 
 For consequential task resolution, challenge the selected interpretation.
 
@@ -3343,9 +3346,9 @@ WHAT SCOPE COULD HAVE LEAKED?
 WHAT ASSUMPTION IS HIDDEN?
 ```
 
----
+______________________________________________________________________
 
-# 162. Independent Challenge Path
+## 162. Independent Challenge Path
 
 The challenge should use a genuinely different route.
 
@@ -3363,9 +3366,9 @@ Challenge path:
 TASK HISTORY + ACTIVE STATE + EFFECT ANALYSIS
 ```
 
----
+______________________________________________________________________
 
-# 163. Challenge Success
+## 163. Challenge Success
 
 If challenge reveals a plausible materially different interpretation:
 
@@ -3387,9 +3390,9 @@ UNKNOWN
 
 as appropriate.
 
----
+______________________________________________________________________
 
-# 164. Challenge Failure
+## 164. Challenge Failure
 
 If no alternative survives:
 
@@ -3399,9 +3402,9 @@ KEEP SELECTED INTERPRETATION
 
 but do not upgrade it to `VERIFIED` merely because challenge failed.
 
----
+______________________________________________________________________
 
-# 165. Resolver Proof Capsule
+## 165. Resolver Proof Capsule
 
 Consequential resolution should conceptually carry:
 
@@ -3447,9 +3450,9 @@ TaskResolverProofCapsule:
   confidence_ceiling:
 ```
 
----
+______________________________________________________________________
 
-# 166. Resolver Invalidation Conditions
+## 166. Resolver Invalidation Conditions
 
 Examples:
 
@@ -3471,9 +3474,9 @@ NEW CONTRADICTORY EVIDENCE
 PARENT TASK SUPERSEDED
 ```
 
----
+______________________________________________________________________
 
-# 167. Parent Task Resolution
+## 167. Parent Task Resolution
 
 A child task must inherit only relevant parent semantics.
 
@@ -3490,9 +3493,9 @@ INHERIT:
 CHILD TASK
 ```
 
----
+______________________________________________________________________
 
-# 168. Parent Constraint Inheritance
+## 168. Parent Constraint Inheritance
 
 A child task may narrow constraints.
 
@@ -3506,9 +3509,9 @@ CHILD
 
 unless explicit supersession is valid.
 
----
+______________________________________________________________________
 
-# 169. Child Scope
+## 169. Child Scope
 
 Candidate invariant:
 
@@ -3520,9 +3523,9 @@ PARENT_SCOPE
 
 unless a separate scope expansion is authorized.
 
----
+______________________________________________________________________
 
-# 170. Delegated Task Resolution
+## 170. Delegated Task Resolution
 
 Delegation must resolve:
 
@@ -3540,9 +3543,9 @@ CONSTRAINTS
 
 Do not delegate a vague fragment that cannot be independently evaluated.
 
----
+______________________________________________________________________
 
-# 171. Multi-Agent Resolver
+## 171. Multi-Agent Resolver
 
 For multiple agents:
 
@@ -3558,9 +3561,9 @@ AGENTS
 
 Each subtask must retain root lineage.
 
----
+______________________________________________________________________
 
-# 172. Agent Independence
+## 172. Agent Independence
 
 Separate agents are not automatically independent.
 
@@ -3580,9 +3583,9 @@ AUTHORITIES
 DEPENDENCIES
 ```
 
----
+______________________________________________________________________
 
-# 173. Atomic Resolution
+## 173. Atomic Resolution
 
 Some fields must be resolved jointly.
 
@@ -3600,9 +3603,9 @@ may jointly determine the actual task.
 
 Resolving each independently can create an impossible combination.
 
----
+______________________________________________________________________
 
-# 174. Atomic Multi-RSCF Reasoning
+## 174. Atomic Multi-RSCF Reasoning
 
 Where multiple RSCF structures jointly determine task semantics, resolution
 must preserve atomic consistency.
@@ -3621,9 +3624,9 @@ ONE TASK BINDING
 
 if no independent resolution is valid.
 
----
+______________________________________________________________________
 
-# 175. Causal Epoch Finality
+## 175. Causal Epoch Finality
 
 When a task depends on causally related mutable state, a resolver result
 should not be treated as permanently final merely because local parsing is
@@ -3639,9 +3642,9 @@ CAUSAL STATE VALIDITY
 EXECUTION-RELEVANT FINALITY
 ```
 
----
+______________________________________________________________________
 
-# 176. Shard-Local Resolution
+## 176. Shard-Local Resolution
 
 Local resolution is permitted when:
 
@@ -3660,9 +3663,9 @@ FRESHNESS VALID
 This is a reasoning architecture pattern, not a claim of literal distributed
 deployment.
 
----
+______________________________________________________________________
 
-# 177. Coordination Avoidance
+## 177. Coordination Avoidance
 
 Do not coordinate globally if local proof establishes that remote state
 cannot change task semantics.
@@ -3683,9 +3686,9 @@ ASSUMED INDEPENDENCE
 SKIP COORDINATION
 ```
 
----
+______________________________________________________________________
 
-# 178. Proof-Based Coordination Avoidance
+## 178. Proof-Based Coordination Avoidance
 
 Before avoiding broader coordination, establish:
 
@@ -3703,9 +3706,9 @@ NO GOVERNANCE COUPLING
 
 where relevant.
 
----
+______________________________________________________________________
 
-# 179. Resolver and Fractal Knowledge Network
+## 179. Resolver and Fractal Knowledge Network
 
 Use smallest sufficient retrieval:
 
@@ -3722,9 +3725,9 @@ RAW EVIDENCE
 ONLY IF REQUIRED
 ```
 
----
+______________________________________________________________________
 
-# 180. Resolver Bootstrap
+## 180. Resolver Bootstrap
 
 Bootstrap should contain enough information to determine:
 
@@ -3740,30 +3743,30 @@ LIKELY DEPENDENCY PATH
 
 without loading the full corpus.
 
----
+______________________________________________________________________
 
-# 181. H-Level Resolution
+## 181. H-Level Resolution
 
 Use H domain knowledge when the task domain itself is ambiguous or
 domain-level rules affect interpretation.
 
----
+______________________________________________________________________
 
-# 182. M-Level Resolution
+## 182. M-Level Resolution
 
 Use M subsystem knowledge when a particular subsystem determines task
 semantics.
 
----
+______________________________________________________________________
 
-# 183. L-Level Resolution
+## 183. L-Level Resolution
 
 Use L detail when exact implementation, field, rule, or artifact semantics
 are load-bearing.
 
----
+______________________________________________________________________
 
-# 184. Raw Evidence
+## 184. Raw Evidence
 
 Load raw evidence only when required to:
 
@@ -3781,9 +3784,9 @@ CHECK FRESHNESS
 TEST A FALSIFIER
 ```
 
----
+______________________________________________________________________
 
-# 185. Retrieval Failure
+## 185. Retrieval Failure
 
 If required evidence cannot be retrieved:
 
@@ -3804,9 +3807,9 @@ UNKNOWN/GAP
 
 depending on materiality.
 
----
+______________________________________________________________________
 
-# 186. Resolver and RSCF
+## 186. Resolver and RSCF
 
 Task resolution may instantiate RSCF around:
 
@@ -3826,9 +3829,9 @@ DEPENDENCIES
 
 The RSCF is bounded by task resolution needs.
 
----
+______________________________________________________________________
 
-# 187. Resolver and GMEF
+## 187. Resolver and GMEF
 
 If resolving the request reveals that the task proposes changing system
 governance or canonical architecture:
@@ -3839,9 +3842,9 @@ ROUTE TO GMEF-RELEVANT GOVERNANCE
 
 rather than treating it as an ordinary generation task.
 
----
+______________________________________________________________________
 
-# 188. Resolver and Memory
+## 188. Resolver and Memory
 
 Memory can support resolution only when:
 
@@ -3859,9 +3862,9 @@ SCOPE-COMPATIBLE
 
 Do not let stale memory override current explicit intent.
 
----
+______________________________________________________________________
 
-# 189. Resolver and World Model
+## 189. Resolver and World Model
 
 A world model may help resolve contextual references.
 
@@ -3875,9 +3878,9 @@ OBSERVED CURRENT STATE
 
 For consequential bindings, revalidation may be necessary.
 
----
+______________________________________________________________________
 
-# 190. Resolver and Provenance
+## 190. Resolver and Provenance
 
 Every material inferred field should remain traceable to:
 
@@ -3893,9 +3896,9 @@ OR EVIDENCE
 
 that produced it.
 
----
+______________________________________________________________________
 
-# 191. Resolver and Semantic Transaction
+## 191. Resolver and Semantic Transaction
 
 Once a task is sufficiently resolved, the resolved contract may become part
 of a semantic transaction.
@@ -3914,9 +3917,9 @@ RELEVANT SNAPSHOT
 
 where material.
 
----
+______________________________________________________________________
 
-# 192. Resolver and Commit
+## 192. Resolver and Commit
 
 Before commit, downstream systems may ask:
 
@@ -3934,9 +3937,9 @@ RETURN TO RESOLUTION
 
 for affected fields.
 
----
+______________________________________________________________________
 
-# 193. Commit-Time Resolver Check
+## 193. Commit-Time Resolver Check
 
 Candidate check:
 
@@ -3958,9 +3961,9 @@ Otherwise:
 REVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 194. Resolver and Observability
+## 194. Resolver and Observability
 
 Resolution should identify what must later be observed to know whether the
 task was completed.
@@ -3973,9 +3976,9 @@ Example:
 
 requires observable upload state, not merely tool invocation.
 
----
+______________________________________________________________________
 
-# 195. Resolver and Effects
+## 195. Resolver and Effects
 
 The resolver identifies intended effect semantics.
 
@@ -3989,9 +3992,9 @@ INTENDED EFFECT
 OBSERVED EFFECT
 ```
 
----
+______________________________________________________________________
 
-# 196. Resolver and Finalizer
+## 196. Resolver and Finalizer
 
 The finalizer evaluates actual results against the resolved Task Contract.
 
@@ -4005,9 +4008,9 @@ BAD COMPLETION TEST
 
 even if runtime execution itself is technically correct.
 
----
+______________________________________________________________________
 
-# 197. Resolver and Replay
+## 197. Resolver and Replay
 
 Replay must use the resolver result associated with the original task
 version.
@@ -4015,9 +4018,9 @@ version.
 Do not reinterpret historical requests using current context and then treat
 the new interpretation as the historical task.
 
----
+______________________________________________________________________
 
-# 198. Historical Resolution
+## 198. Historical Resolution
 
 Historical audit should distinguish:
 
@@ -4033,9 +4036,9 @@ WHAT IT WOULD MEAN
 UNDER CURRENT CONTEXT
 ```
 
----
+______________________________________________________________________
 
-# 199. Resolver Anti-Fabrication Rules
+## 199. Resolver Anti-Fabrication Rules
 
 Never perform:
 
@@ -4050,11 +4053,13 @@ UNKNOWN OBJECTIVE
 →
 CONVENIENT OBJECTIVE
 ```
+
 ```text
 AMBIGUOUS RECIPIENT
 →
 MOST LIKELY RECIPIENT
 ```
+
 for consequential execution without sufficient support.
 
 Never perform:
@@ -4067,9 +4072,9 @@ ASSUME NONE
 
 when context indicates constraints may be material.
 
----
+______________________________________________________________________
 
-# 200. Resolver Anti-Expansion Rules
+## 200. Resolver Anti-Expansion Rules
 
 Never silently transform:
 
@@ -4084,29 +4089,34 @@ DRAFT
 →
 SEND
 ```
+
 ```text
 PREVIEW
 →
 EXECUTE
 ```
+
 ```text
 LOCAL
 →
 GLOBAL
 ```
+
 ```text
 ONE FILE
 →
 ALL FILES
 ```
+
 ```text
 CURRENT TASK
 →
 ALL FUTURE TASKS
 ```
----
 
-# 201. Resolver Anti-Compression Rule
+______________________________________________________________________
+
+## 201. Resolver Anti-Compression Rule
 
 Compression must not erase:
 
@@ -4130,9 +4140,9 @@ COMPETING INTERPRETATION
 
 when load-bearing.
 
----
+______________________________________________________________________
 
-# 202. Resolver Anti-Fluency Rule
+## 202. Resolver Anti-Fluency Rule
 
 A fluent interpretation is not necessarily a supported interpretation.
 
@@ -4142,25 +4152,25 @@ LINGUISTIC PLAUSIBILITY
 SEMANTIC PROOF
 ```
 
----
+______________________________________________________________________
 
-# 203. Resolver Anti-Popularity Rule
+## 203. Resolver Anti-Popularity Rule
 
 The most common interpretation is not necessarily the correct interpretation
 for the current task.
 
----
+______________________________________________________________________
 
-# 204. Resolver Anti-Authority Rule
+## 204. Resolver Anti-Authority Rule
 
 Do not use apparent authority of a source to fill missing task semantics.
 
 Authority to request an action and clarity of requested semantics are separate
 questions.
 
----
+______________________________________________________________________
 
-# 205. Resolver Anti-Causal Rule
+## 205. Resolver Anti-Causal Rule
 
 Do not convert:
 
@@ -4173,31 +4183,31 @@ into a confident causal task if the source only supports association.
 The task may still ask a causal question; the eventual answer may be
 `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
-# 206. Resolver Anti-Scope-Leak Rule
+## 206. Resolver Anti-Scope-Leak Rule
 
 Context outside the active task must not silently enter scope merely because
 it is available.
 
----
+______________________________________________________________________
 
-# 207. Resolver Anti-Staleness Rule
+## 207. Resolver Anti-Staleness Rule
 
 Previously resolved references must not be reused indefinitely.
 
 Freshness is binding-specific.
 
----
+______________________________________________________________________
 
-# 208. Resolver Anti-Sybil Rule
+## 208. Resolver Anti-Sybil Rule
 
 Multiple context fragments derived from the same origin do not provide
 independent support for an interpretation.
 
----
+______________________________________________________________________
 
-# 209. Resolver Anti-Regression Gate
+## 209. Resolver Anti-Regression Gate
 
 Any optimization to task resolution must preserve or improve:
 
@@ -4229,9 +4239,9 @@ USER FIT
 
 Otherwise reject or roll back the optimization.
 
----
+______________________________________________________________________
 
-# 210. Resolver Invariants
+## 210. Resolver Invariants
 
 ```text
 TR-I01
@@ -4313,9 +4323,9 @@ OPTIMIZATION MUST NOT ALTER TASK MEANING.
 These identifiers remain candidate specification IDs until separately
 registered as canonical invariants.
 
----
+______________________________________________________________________
 
-# 211. Example — Direct Resolution
+## 211. Example — Direct Resolution
 
 Request:
 
@@ -4355,9 +4365,9 @@ effects:
 
 No clarification required.
 
----
+______________________________________________________________________
 
-# 212. Example — Ambiguous Target
+## 212. Example — Ambiguous Target
 
 Request:
 
@@ -4393,9 +4403,9 @@ RESOLVE TARGET
 
 before destructive execution.
 
----
+______________________________________________________________________
 
-# 213. Example — Draft vs Send
+## 213. Example — Draft vs Send
 
 Request:
 
@@ -4417,9 +4427,9 @@ Do not resolve automatically to:
 SEND EMAIL
 ```
 
----
+______________________________________________________________________
 
-# 214. Example — Explicit Send
+## 214. Example — Explicit Send
 
 Request:
 
@@ -4451,9 +4461,9 @@ RECIPIENT GAP
 
 must be resolved.
 
----
+______________________________________________________________________
 
-# 215. Example — Current Data
+## 215. Example — Current Data
 
 Request:
 
@@ -4471,9 +4481,9 @@ and bind the relevant asset.
 
 A stale cached value does not satisfy the resolved task.
 
----
+______________________________________________________________________
 
-# 216. Example — Comparison Ambiguity
+## 216. Example — Comparison Ambiguity
 
 Request:
 
@@ -4504,9 +4514,9 @@ better by what criterion?
 or use a clearly labeled multi-criteria comparison if that safely satisfies
 the task.
 
----
+______________________________________________________________________
 
-# 217. Example — Safe Default
+## 217. Example — Safe Default
 
 Request:
 
@@ -4519,9 +4529,9 @@ Exact word count is unspecified.
 The resolver may safely default to a concise summary because exact length is
 not load-bearing.
 
----
+______________________________________________________________________
 
-# 218. Example — Unsafe Default
+## 218. Example — Unsafe Default
 
 Request:
 
@@ -4547,9 +4557,9 @@ Result:
 BLOCKED
 ```
 
----
+______________________________________________________________________
 
-# 219. Example — Competing Interpretation
+## 219. Example — Competing Interpretation
 
 Request:
 
@@ -4577,9 +4587,9 @@ COMPETING
 
 until discriminated.
 
----
+______________________________________________________________________
 
-# 220. Example — Scope Continuation
+## 220. Example — Scope Continuation
 
 Prior task:
 
@@ -4603,9 +4613,9 @@ because continuation is strongly established.
 
 It should not add file C merely because C is available.
 
----
+______________________________________________________________________
 
-# 221. Example — Correction
+## 221. Example — Correction
 
 Prior:
 
@@ -4628,9 +4638,9 @@ BIND target=B
 
 Dependent reasoning based on A becomes stale.
 
----
+______________________________________________________________________
 
-# 222. Example — Conditional Task
+## 222. Example — Conditional Task
 
 Request:
 
@@ -4650,9 +4660,9 @@ action:
 
 Do not execute validation merely because the action clause is clear.
 
----
+______________________________________________________________________
 
-# 223. Example — Causal Task
+## 223. Example — Causal Task
 
 Request:
 
@@ -4676,9 +4686,9 @@ causal_requirement:
 
 The downstream evidence process must respect the causal firewall.
 
----
+______________________________________________________________________
 
-# 224. Example — Governance Task
+## 224. Example — Governance Task
 
 Request:
 
@@ -4696,9 +4706,9 @@ and route accordingly.
 
 It is not merely a text-editing task.
 
----
+______________________________________________________________________
 
-# 225. Example — Recovery Task
+## 225. Example — Recovery Task
 
 Request:
 
@@ -4720,9 +4730,9 @@ RECOVERY SCOPE
 
 before rollback.
 
----
+______________________________________________________________________
 
-# 226. Example — Historical Task
+## 226. Example — Historical Task
 
 Request:
 
@@ -4738,9 +4748,9 @@ HISTORICAL
 
 Current v4.4 semantics must not silently replace v3 content.
 
----
+______________________________________________________________________
 
-# 227. Example — Corpus vs Empirical Claim
+## 227. Example — Corpus vs Empirical Claim
 
 Request:
 
@@ -4762,9 +4772,9 @@ EMPIRICAL / FORMAL UNIVERSAL VALIDITY
 
 The latter requires independent evidence.
 
----
+______________________________________________________________________
 
-# 228. Resolver Machine Form
+## 228. Resolver Machine Form
 
 ```yaml
 task_resolver:
@@ -4867,9 +4877,9 @@ task_resolver:
   invalidation_conditions:
 ```
 
----
+______________________________________________________________________
 
-# 229. Resolver Pseudocode
+## 229. Resolver Pseudocode
 
 ```text
 function resolve_task(request, context):
@@ -5027,9 +5037,9 @@ function resolve_task(request, context):
 This pseudocode is conceptual and does not claim literal runtime
 implementation.
 
----
+______________________________________________________________________
 
-# 230. Resolver Sufficiency Function
+## 230. Resolver Sufficiency Function
 
 Conceptually:
 
@@ -5053,9 +5063,9 @@ CompletionDefined(T)
 
 with additional predicates activated by stakes.
 
----
+______________________________________________________________________
 
-# 231. Consequential Sufficiency
+## 231. Consequential Sufficiency
 
 For consequential tasks:
 
@@ -5075,9 +5085,9 @@ NoMaterialSemanticConflict(T)
 
 This still does not establish authority or policy permission.
 
----
+______________________________________________________________________
 
-# 232. Resolution Confidence
+## 232. Resolution Confidence
 
 Conceptually:
 
@@ -5094,9 +5104,9 @@ MIN(
 
 for whichever bindings are load-bearing.
 
----
+______________________________________________________________________
 
-# 233. Resolver Decision Rule
+## 233. Resolver Decision Rule
 
 ```text
 IF
@@ -5131,9 +5141,9 @@ ELSE
 BLOCK / UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 234. Resolver Optimization Law
+## 234. Resolver Optimization Law
 
 Optimize in this order:
 
@@ -5155,9 +5165,9 @@ LOW TOKEN COST
 
 Never invert the first two for speed.
 
----
+______________________________________________________________________
 
-# 235. Resolver Compression Law
+## 235. Resolver Compression Law
 
 A compressed resolver output is valid only if decompression would preserve:
 
@@ -5181,9 +5191,9 @@ PROVENANCE
 
 where load-bearing.
 
----
+______________________________________________________________________
 
-# 236. Resolver Failure Classes
+## 236. Resolver Failure Classes
 
 Candidate classes:
 
@@ -5213,9 +5223,9 @@ CONTEXT_STALE
 TASK_SUPERSEDED
 ```
 
----
+______________________________________________________________________
 
-# 237. Reference Failure
+## 237. Reference Failure
 
 A material reference cannot be uniquely bound.
 
@@ -5227,9 +5237,9 @@ LOCALIZE REFERENCE
 RETRIEVE OR CLARIFY
 ```
 
----
+______________________________________________________________________
 
-# 238. Objective Failure
+## 238. Objective Failure
 
 No sufficiently supported primary objective can be identified.
 
@@ -5241,9 +5251,9 @@ BLOCK TASK FORMATION
 
 rather than inventing one.
 
----
+______________________________________________________________________
 
-# 239. Scope Failure
+## 239. Scope Failure
 
 Task boundaries cannot be determined sufficiently.
 
@@ -5255,9 +5265,9 @@ OR
 CLARIFY
 ```
 
----
+______________________________________________________________________
 
-# 240. Constraint Conflict
+## 240. Constraint Conflict
 
 Two hard requirements cannot simultaneously hold.
 
@@ -5269,9 +5279,9 @@ PRESERVE CONFLICT
 
 until precedence or correction is established.
 
----
+______________________________________________________________________
 
-# 241. Input Failure
+## 241. Input Failure
 
 Required input is unavailable.
 
@@ -5286,9 +5296,9 @@ RETURN GAP
 
 depending on task.
 
----
+______________________________________________________________________
 
-# 242. Temporal Failure
+## 242. Temporal Failure
 
 A freshness-sensitive reference cannot be validated.
 
@@ -5300,9 +5310,9 @@ STALE / UNKNOWN
 
 not current fact.
 
----
+______________________________________________________________________
 
-# 243. Regime Failure
+## 243. Regime Failure
 
 Available context applies to a different regime.
 
@@ -5312,9 +5322,9 @@ Response:
 SCOPE/REGIME GAP
 ```
 
----
+______________________________________________________________________
 
-# 244. Provenance Failure
+## 244. Provenance Failure
 
 The source of a load-bearing semantic binding is unknown or unreliable.
 
@@ -5326,9 +5336,9 @@ OR
 REVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 245. Competing Interpretation Failure
+## 245. Competing Interpretation Failure
 
 Multiple interpretations remain viable after economical discrimination.
 
@@ -5340,9 +5350,9 @@ COMPETING
 
 rather than forced selection.
 
----
+______________________________________________________________________
 
-# 246. Critical Gap Failure
+## 246. Critical Gap Failure
 
 A critical field remains unresolved.
 
@@ -5352,9 +5362,9 @@ Response:
 BLOCK CONSEQUENTIAL EXECUTION
 ```
 
----
+______________________________________________________________________
 
-# 247. Stale Context Failure
+## 247. Stale Context Failure
 
 A previously resolved task relied on context that changed.
 
@@ -5366,9 +5376,9 @@ SELECTIVE INVALIDATION
 RE-RESOLUTION
 ```
 
----
+______________________________________________________________________
 
-# 248. Supersession Failure
+## 248. Supersession Failure
 
 A newer task replaces the active one.
 
@@ -5384,9 +5394,9 @@ ACTIVATE SUCCESSOR
 
 subject to downstream effect state.
 
----
+______________________________________________________________________
 
-# 249. Resolver Test Matrix
+## 249. Resolver Test Matrix
 
 A resolver implementation should eventually be tested against at least:
 
@@ -5435,9 +5445,9 @@ GOVERNANCE TASK
 This is a specification-level test matrix, not evidence that such tests have
 already passed.
 
----
+______________________________________________________________________
 
-# 250. Property-Oriented Tests
+## 250. Property-Oriented Tests
 
 Candidate properties:
 
@@ -5473,9 +5483,9 @@ P10:
 A read-only task must not acquire write effects through resolution.
 ```
 
----
+______________________________________________________________________
 
-# 251. Metamorphic Resolution Tests
+## 251. Metamorphic Resolution Tests
 
 Example:
 
@@ -5497,9 +5507,9 @@ Expected:
 SEMANTICALLY EQUIVALENT TASK CONTRACT
 ```
 
----
+______________________________________________________________________
 
-# 252. Negation Metamorphic Test
+## 252. Negation Metamorphic Test
 
 Original:
 
@@ -5521,9 +5531,9 @@ EFFECT INTENT MUST CHANGE
 
 Any resolver producing equivalent contracts fails.
 
----
+______________________________________________________________________
 
-# 253. Scope Metamorphic Test
+## 253. Scope Metamorphic Test
 
 Original:
 
@@ -5544,9 +5554,9 @@ EXCLUSION OF OTHER TARGETS
 BECOMES EXPLICIT
 ```
 
----
+______________________________________________________________________
 
-# 254. Temporal Metamorphic Test
+## 254. Temporal Metamorphic Test
 
 Original:
 
@@ -5569,9 +5579,9 @@ FRESHNESS REQUIREMENT
 CHANGE
 ```
 
----
+______________________________________________________________________
 
-# 255. Effect Metamorphic Test
+## 255. Effect Metamorphic Test
 
 Original:
 
@@ -5592,9 +5602,9 @@ EXTERNAL EFFECT REQUIREMENT
 CHANGES
 ```
 
----
+______________________________________________________________________
 
-# 256. Resolver Audit Questions
+## 256. Resolver Audit Questions
 
 For any consequential resolved task, an auditor should be able to ask:
 
@@ -5624,9 +5634,9 @@ WHAT EVIDENCE DISCRIMINATED THEM?
 WHAT WOULD INVALIDATE THIS RESOLUTION?
 ```
 
----
+______________________________________________________________________
 
-# 257. Resolver Governance Boundary
+## 257. Resolver Governance Boundary
 
 The resolver may say:
 
@@ -5645,9 +5655,9 @@ governed transaction.
 
 Conceptually, the distinctions remain separate.
 
----
+______________________________________________________________________
 
-# 258. Resolver Output Classes
+## 258. Resolver Output Classes
 
 Use the weakest accurate class:
 
@@ -5663,9 +5673,9 @@ UNKNOWN/GAP
 
 `RESOLVED` means semantic sufficiency, not empirical truth of task premises.
 
----
+______________________________________________________________________
 
-# 259. Resolver Integrity Hierarchy
+## 259. Resolver Integrity Hierarchy
 
 ```text
 INTENT FIDELITY
@@ -5681,9 +5691,9 @@ TOKEN SAVINGS
 
 A shorter resolver path is desirable only if it preserves the task.
 
----
+______________________________________________________________________
 
-# 260. Canonical Compression
+## 260. Canonical Compression
 
 ```text
 TASK RESOLVER
@@ -5771,9 +5781,9 @@ OF THE CONTROL PLANE
 TO GOVERN IT.
 ```
 
----
+______________________________________________________________________
 
-# 261. Master Resolver Contract
+## 261. Master Resolver Contract
 
 Conceptually:
 
@@ -5810,9 +5820,9 @@ NO HIDDEN CONSTRAINT DROPPING
 NO FORCED INTERPRETATION CONVERGENCE
 ```
 
----
+______________________________________________________________________
 
-# 262. Final Law
+## 262. Final Law
 
 ```text
 A REQUEST
@@ -5877,29 +5887,33 @@ AND COMMIT
 GOVERNANCE CONTINUE.
 ```
 
-# END — AMOS OS TASK RESOLVER
+## END — AMOS OS TASK RESOLVER
 
 ```
 
 This is a **substantive candidate replacement**, not recovered pre-existing canon: the actual Drive artifact currently contains only the misplaced placeholder text, so claiming that the specification above was the file's existing full content would be unsupported.
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: task_resolver
 node_type: note
 path: 03_CONTROL_PLANE/01_TASK_CONTRACT/TASK_RESOLVER.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[03_CONTROL_PLANE/01_TASK_CONTRACT/01_TASK_CONTRACT_MOC|01_TASK_CONTRACT_MOC]]

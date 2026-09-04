@@ -4,30 +4,22 @@ title: SKILL — Amos Emotion Cognition Decision Bridge Governor
 type: skill
 source: 07_SKILLS/amos-emotion-cognition-decision-bridge-governor
 name: amos-emotion-cognition-decision-bridge-governor
-description: Emotion-Cognition-Decision Bridge Governor — mind and behavior capability.
-  Bridges C05 emotion/personality/behavior engines with C01 meta-logic decision gates
-  and C10 technical decision-making. Enforces the emotion influence gating invariant
-  (emotion may bias prioritization and tone, NEVER facts or logic), connects C05's
-  5-axis emotion state to C01's reasoning mode selection, and unifies C05's decision
-  style ordering with C10's diagnose-before-edit principle. Use when a decision requires
-  both emotional state awareness and cognitive/technical rigor. Use when amos-c05-mind-behavior-master
-  routes to this specialized capability. Do not use for pure emotional analysis without
-  cognitive/technical decision context, or tasks outside the bridge governance scope.
+description: Emotion-Cognition-Decision Bridge Governor — mind and behavior capability. Bridges C05 emotion/personality/behavior engines with C01 meta-logic decision gates and C10 technical decision-making. Enforces the emotion influence gating invariant (emotion may bias prioritization and tone, NEVER facts or logic), connects C05's 5-axis emotion state to C01's reasoning mode selection, and unifies C05's decision style ordering with C10's diagnose-before-edit principle. Use when a decision requires both emotional state awareness and cognitive/technical rigor. Use when amos-c05-mind-behavior-master routes to this specialized capability. Do not use for pure emotional analysis without cognitive/technical decision context, or tasks outside the bridge governance scope.
 parent_skill: amos-c05-mind-behavior-master
 domain: cross-domain (C05→C01→C10)
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
 tags:
-- type/skill
-- type/skill
-- domain/cross-domain
-- epistemic/source_claim
-- hml/m
-- epistemic/source_claim
-- amos-os
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/cross-domain
+  - epistemic/source_claim
+  - hml/m
+  - epistemic/source_claim
+  - amos-os
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -37,23 +29,23 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: M
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
-- L7_authority
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
+  - L7_authority
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L7
-- L16
-- L17
-- L18
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L7
+  - L16
+  - L17
+  - L18
 license: MIT
 steward: Trang Phan
 ---
@@ -63,14 +55,15 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: cross-domain (C05→C01→C10). Parent: amos-c05-mind-behavior-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
 ## The Problem This Skill Solves
 
 C05 defines a rich emotion-personality-behavior system with a critical invariant: *"Emotional axes may bias prioritization and tone, never facts or logic."* C01 defines meta-logic decision gates and reasoning mode governance. C10 defines technical decision-making with diagnose-before-edit. However, these three systems operate independently:
 
 1. **C05's emotion state has no bridge to C01's reasoning mode selection** — high `risk_alert` should force conservative routing in C01, but no mechanism connects them
-2. **C05's decision style ordering (integrity > correctness > completeness > fluency > speed) has no bridge to C10's technical decisions** — the ordering should govern technical trade-off resolution, but no pipeline carries it
-3. **C01's uncertainty/risk assessment has no input from C05's emotional state** — `confidence_level` and `risk_alert` from C05 should inform C01's uncertainty budgeting
-4. **No unified decision pipeline** combines emotional state + cognitive mode + technical constraints into a single auditable decision trace
+1. **C05's decision style ordering (integrity > correctness > completeness > fluency > speed) has no bridge to C10's technical decisions** — the ordering should govern technical trade-off resolution, but no pipeline carries it
+1. **C01's uncertainty/risk assessment has no input from C05's emotional state** — `confidence_level` and `risk_alert` from C05 should inform C01's uncertainty budgeting
+1. **No unified decision pipeline** combines emotional state + cognitive mode + technical constraints into a single auditable decision trace
 
 The `_00_Cosmo brain` exploration explicitly identified this gap: *"Emotion ↔ Cognition ↔ Decision: Emotion rules exist but lack direct integration with cognitive engines and decision-making pipelines."*
 
@@ -94,15 +87,16 @@ The `_00_Cosmo brain` exploration explicitly identified this gap: *"Emotion ↔ 
 - **ecd_bridge.unify_decision_style**: Unify C05's decision style ordering (integrity > correctness > completeness > fluency > speed) with C10's technical trade-off resolution and C01's meta-logic decision gates. Produces a single ordered preference list applicable across all three domains.
 - **ecd_bridge.assess_risk_combined**: Combine C
 
----
+______________________________________________________________________
+
 **Links:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 ## Operations
 
-1. **ecd_bridge.route_by_emotion**: Route a reasoning task to the appropriate C01 cognitive mode based on C05's 5-axis emotion state. High `risk_alert` → conservative/defensive mode; high `curiosity_focus` → exploratory mode; high `confiden...
-2. **ecd_bridge.gate_emotion_influence**: Gate emotion influence when crossing from C05 into C01/C10. Enforces the invariant: emotion may bias prioritization and tone, NEVER facts or logic. Returns PERMITTED_INFLUENCE list (pacing, verbosit...
-3. **ecd_bridge.unify_decision_style**: Unify C05's decision style ordering (integrity > correctness > completeness > fluency > speed) with C10's technical trade-off resolution and C01's meta-logic decision gates. Produces a single ordered...
-4. **ecd_bridge.assess_risk_combined**: Combine C
+1. **ecd_bridge.route_by_emotion**: Route a reasoning task to the appropriate C01 cognitive mode based on C05's 5-axis emotion state. High `risk_alert` → conservative/defensive mode; high `curiosity_focus` → exploratory mode; high \`confiden...
+1. **ecd_bridge.gate_emotion_influence**: Gate emotion influence when crossing from C05 into C01/C10. Enforces the invariant: emotion may bias prioritization and tone, NEVER facts or logic. Returns PERMITTED_INFLUENCE list (pacing, verbosit...
+1. **ecd_bridge.unify_decision_style**: Unify C05's decision style ordering (integrity > correctness > completeness > fluency > speed) with C10's technical trade-off resolution and C01's meta-logic decision gates. Produces a single ordered...
+1. **ecd_bridge.assess_risk_combined**: Combine C
 
 ## Related
 
@@ -111,17 +105,19 @@ The `_00_Cosmo brain` exploration explicitly identified this gap: *"Emotion ↔ 
 ## Examples
 
 - **Scenario**: When a decision requires both emotional state awareness (C05) and cognitive/technical rigor (C01/C10)
+
   - **Input**: A query matching this skill's domain (cross-domain (C05→C01→C10))
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When routing a query based on emotional state (e.g., high risk_alert → conservative mode)
+
   - **Input**: A query matching this skill's domain (cross-domain (C05→C01→C10))
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When resolving a technical trade-off using C05's decision style ordering
+
   - **Input**: A query matching this skill's domain (cross-domain (C05→C01→C10))
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Validation Gates
 
@@ -138,7 +134,6 @@ The `_00_Cosmo brain` exploration explicitly identified this gap: *"Emotion ↔ 
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `amos-c05-mind-behavior-master` — routes to this skill when cross-domain (C05→C01→C10) specialization is needed
@@ -146,7 +141,6 @@ The `_00_Cosmo brain` exploration explicitly identified this gap: *"Emotion ↔ 
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -165,7 +159,6 @@ The `_00_Cosmo brain` exploration explicitly identified this gap: *"Emotion ↔ 
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -173,7 +166,6 @@ The `_00_Cosmo brain` exploration explicitly identified this gap: *"Emotion ↔ 
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -186,11 +178,12 @@ The `_00_Cosmo brain` exploration explicitly identified this gap: *"Emotion ↔ 
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `amos-c05-mind-behavior-master` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `amos-emotion-cognition-decision-bridge-governor-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -198,12 +191,14 @@ The `_00_Cosmo brain` exploration explicitly identified this gap: *"Emotion ↔ 
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-emotion-cognition-decision-bridge-governor
 node_type: skill
 path: 07_SKILLS/amos-emotion-cognition-decision-bridge-governor/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

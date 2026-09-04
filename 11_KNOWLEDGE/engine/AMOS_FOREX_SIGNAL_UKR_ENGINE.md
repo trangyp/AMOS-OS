@@ -1,14 +1,17 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: AMOS FOREX SIGNAL UKR ENGINE
 tags:
-- engine
-- processing
-- runtime
-- canon/knowledge
-- system-scan-agent
-- automation-profiles
-- amos-simulation-kernel-v0-math-foundations
-- trang-framework-recursive-ontology-dynamics
+  - engine
+  - processing
+  - runtime
+  - canon/knowledge
+  - system-scan-agent
+  - automation-profiles
+  - amos-simulation-kernel-v0-math-foundations
+  - trang-framework-recursive-ontology-dynamics
 type: note
 source: 11_KNOWLEDGE/engine
 rscf:
@@ -24,34 +27,37 @@ rscf:
 // Deterministic UKR‑engine stub – applies a simple rule set on features.
 // In a full implementation this would evaluate the ULK meta‑laws, MURK primitives
 // and the 19×19 interaction matrix. Here we provide a deterministic example:
-//   * If SMA20 > SMA50 and volatility < 0.0005 → BUY
-//   * If SMA20 < SMA50 and volatility < 0.0005 → SELL
-//   * Otherwise → NO ACTION
+// * If SMA20 > SMA50 and volatility < 0.0005 → BUY
+// * If SMA20 < SMA50 and volatility < 0.0005 → SELL
+// * Otherwise → NO ACTION
 
 const EventBus = require('../event_bus');
 
 class UKREngine {
-  evaluate({ instrument, time, features }) {
-    const { sma20, sma50, volatility } = features;
-    if (sma20 && sma50 && volatility !== null) {
-      if (sma20 > sma50 && volatility < 0.0005) {
-        return { instrument, time, side: 'BUY', reason: 'sma20> sma50 low vol' };
-      }
-      if (sma20 < sma50 && volatility < 0.0005) {
-        return { instrument, time, side: 'SELL', reason: 'sma20< sma50 low vol' };
-      }
-    }
-    return null; // no signal
-  }
+evaluate({ instrument, time, features }) {
+const { sma20, sma50, volatility } = features;
+if (sma20 && sma50 && volatility !== null) {
+if (sma20 > sma50 && volatility < 0.0005) {
+return { instrument, time, side: 'BUY', reason: 'sma20> sma50 low vol' };
+}
+if (sma20 < sma50 && volatility < 0.0005) {
+return { instrument, time, side: 'SELL', reason: 'sma20< sma50 low vol' };
+}
+}
+return null; // no signal
+}
 }
 
 module.exports = new UKREngine();
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS · SYSTEM_SCAN_AGENT · AUTOMATION_PROFILES
 
----
+______________________________________________________________________
+
 **MOC:** [[11_KNOWLEDGE/engine/ENGINE_MOC|ENGINE_MOC]]
 
----
+______________________________________________________________________
+
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

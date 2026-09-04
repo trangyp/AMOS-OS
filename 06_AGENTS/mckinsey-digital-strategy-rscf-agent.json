@@ -89,7 +89,7 @@
     "mckinsey-digital-strategy-rscf"
   ],
   "depends_on_workflows": [
-    "mckinsey-digital-strategy-rscf-workflow.md"
+    "amos-mckinsey-digital-strategy-rscf-workflow.md"
   ],
   "epistemic_class": "AMOS_MODEL",
   "claim_ceiling": 0.95,

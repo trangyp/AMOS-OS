@@ -12,23 +12,23 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: BINDING
 path: 11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_TO_AMOS_BINDING.md
 tags:
-- amos-os
-- knowledge
-- vault
-- 05_frameworks
-- heritage_amos_binding
-- amos-os
-- heritage
-- decision_governance
-- control-plane
-- rscf
-- canon_candidate
-- canon/knowledge
-- heritage-intelligence-master
-- amos-full-brain-os-architecture
-- amos-x-heritage
-- amos-x-heritage-matrix
-- heritage-handbook
+  - amos-os
+  - knowledge
+  - vault
+  - 05_frameworks
+  - heritage_amos_binding
+  - amos-os
+  - heritage
+  - decision_governance
+  - control-plane
+  - rscf
+  - canon_candidate
+  - canon/knowledge
+  - heritage-intelligence-master
+  - amos-full-brain-os-architecture
+  - amos-x-heritage
+  - amos-x-heritage-matrix
+  - heritage-handbook
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -43,25 +43,25 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - HERITAGE_INTELLIGENCE_CANON
-  - AMOS_CORPUS
+    - HERITAGE_INTELLIGENCE_CANON
+    - AMOS_CORPUS
   scope:
-  - KNOWLEDGE_FRAMEWORKS
-  - OS_BINDINGS
-  - SOURCE_DEFINED_MODEL
+    - KNOWLEDGE_FRAMEWORKS
+    - OS_BINDINGS
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   source_framework:
     artifact:
-    - - HERITAGE_INTELLIGENCE_MASTER
+      -   - HERITAGE_INTELLIGENCE_MASTER
   target_os:
     name: AMOS OS Core Architecture
     artifact:
-    - - AMOS_FULL_BRAIN_OS_ARCHITECTURE
+      -   - AMOS_FULL_BRAIN_OS_ARCHITECTURE
   cognitive_matrix_binding:
     artifact:
-    - - AMOS_X_HERITAGE
+      -   - AMOS_X_HERITAGE
     matrix:
-    - - AMOS_X_HERITAGE_MATRIX
+      -   - AMOS_X_HERITAGE_MATRIX
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   binding_structure: VERIFIED_SOURCE_STRUCTURE
@@ -73,9 +73,9 @@ epistemic_boundary:
 
 `HERITAGE_TO_AMOS_BINDING.md` is the canonical Knowledge Plane reference artifact specifying the integration of **Heritage Decision Intelligence™** into the core operating kernel and control plane of **AMOS OS** within `11_KNOWLEDGE/05_FRAMEWORKS`.
 
----
+______________________________________________________________________
 
-# 1. Control Plane Governance Binding
+## 1. Control Plane Governance Binding
 
 ```text
                ┌────────────────────────────────────────────────────────┐
@@ -90,18 +90,18 @@ DECISION GOVERNANCE ENVELOPE       MUTATION & EVOLUTION GATES         AUDIT TRAI
 • Mandates rollback pre-conditions • Validates epistemic ceilings     • Replay verification
 ```
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Master Framework:** [[11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_INTELLIGENCE_MASTER|HERITAGE_INTELLIGENCE_MASTER]]
 - **Handbook:** [[11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_HANDBOOK|HERITAGE_HANDBOOK]]
 - **Full Brain OS Architecture:** [[11_KNOWLEDGE/AMOS_FULL_BRAIN_OS_ARCHITECTURE|AMOS_FULL_BRAIN_OS_ARCHITECTURE]]
 - **Cognitive Matrix:** [[25_COGNITIVE_MATRIX/AMOS_X_HERITAGE|AMOS_X_HERITAGE]] and [[25_COGNITIVE_MATRIX/AMOS_X_HERITAGE_MATRIX|AMOS_X_HERITAGE_MATRIX]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -119,9 +119,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_INTELLIGENCE_MASTER|HERITAGE_INTELLIGENCE_MASTER]] · [[11_KNOWLEDGE/AMOS_FULL_BRAIN_OS_ARCHITECTURE|AMOS_FULL_BRAIN_OS_ARCHITECTURE]] · [[25_COGNITIVE_MATRIX/AMOS_X_HERITAGE|AMOS_X_HERITAGE]]
 
----
+______________________________________________________________________
+
 **MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]

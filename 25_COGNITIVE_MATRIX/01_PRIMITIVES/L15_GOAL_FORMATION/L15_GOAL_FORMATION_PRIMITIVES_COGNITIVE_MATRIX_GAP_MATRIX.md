@@ -1,12 +1,15 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: L15 GOAL FORMATION PRIMITIVES COGNITIVE MATRIX GAP MATRIX
 type: note
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L15_GOAL_FORMATION
 tags:
-- note
-- matrix/l15-goal-formation
-- domain/cognitive-matrix
-- trang-framework-recursive-ontology-dynamics
+  - note
+  - matrix/l15-goal-formation
+  - domain/cognitive-matrix
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -28,13 +31,13 @@ Covers goal decomposition, priority ordering, and goal-conflict detection.
 
 ## Gap matrix
 
-| Surface | Status |
-|---|---|
-| Definition/contract | FILLED (this pass) |
-| Executable implementation | UNKNOWN/GAP |
-| Validation evidence | UNKNOWN/GAP |
-| Authority binding | UNKNOWN/GAP |
-| Runtime integration | UNKNOWN/GAP |
+| Surface                   | Status             |
+| ------------------------- | ------------------ |
+| Definition/contract       | FILLED (this pass) |
+| Executable implementation | UNKNOWN/GAP        |
+| Validation evidence       | UNKNOWN/GAP        |
+| Authority binding         | UNKNOWN/GAP        |
+| Runtime integration       | UNKNOWN/GAP        |
 
 ## Hard boundaries
 
@@ -45,21 +48,23 @@ MODEL != VERIFIED
 UNKNOWN/GAP != PASS
 ```
 
----
+______________________________________________________________________
 
 [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: l15_primitives_gap_matrix
 node_type: note
 path: 01_PRIMITIVES/L15_GOAL_FORMATION/L15_GOAL_FORMATION_PRIMITIVES_COGNITIVE_MATRIX_GAP_MATRIX.md
 claim_class: DERIVED
-node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/01_PRIMITIVES/L15_GOAL_FORMATION/L15_GOAL_FORMATION_PRIMITIVES_COGNITIVE_MATRIX_GAP_MATRIX.md
+node_path_note: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L15_GOAL_FORMATION/L15_GOAL_FORMATION_PRIMITIVES_COGNITIVE_MATRIX_GAP_MATRIX.md
 
----
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L15_GOAL_FORMATION/L15_GOAL_FORMATION_MOC|L15_GOAL_FORMATION_MOC]]
 
----
-**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+______________________________________________________________________
 
+**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

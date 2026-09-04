@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Vault Domain Knowledge — Mckinsey Designops Agile Transformation Rscf
 type: reference
 source: 07_SKILLS/mckinsey-designops-agile-transformation-rscf/references
 tags:
-- reference
-- mckinsey-designops-agile-transformation-rscf
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - mckinsey-designops-agile-transformation-rscf
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -27,14 +30,16 @@ rscf:
 
 > Path: `misc/N/NEW PROCESS Transformation Framework.md` | Size: 2521 chars | Match score: 10 | content_hash: 423504c964de816c
 
-# NEW PROCESS — 7-Way Transformation Framework
+## NEW PROCESS — 7-Way Transformation Framework
 
 ## Overview
+
 Transforming Customer Journeys (TCJ) Playbook — living document for journey team transformation.
 
 ## Phases
 
 ### 1. Planning (2 months)
+
 - Initial insight analysis (internal + external)
 - Process diagnostic
 - Revenue/cost baselining
@@ -45,6 +50,7 @@ Transforming Customer Journeys (TCJ) Playbook — living document for journey te
 - To-be journeys definition
 
 ### 2. Incubation (2 months)
+
 - Collective understanding of current journey (customer perspective)
 - Zero-based design (leadership choice)
 - Validate change levers
@@ -55,133 +61,140 @@ Transforming Customer Journeys (TCJ) Playbook — living document for journey te
 - Validation through customer insight/research
 
 ### 3. Build & Pilot
+
 - Minimum Viable Product (MVR) — tech or non-tech
 - Test and learn with customers
 - Iterate MVP
 - Prepare for scale
 
 ### 4. Waves MVP (4 waves × 3 months each)
+
 - Roll in volume and people into Lab
 - Deploy, test, learn, iterate
 - New features released regularly
 
 ### 5. Roll-in and Scale
+
 - IT industrialization
 - Roll out to BAU volume
 - Ops model transition
 - Performance and value assurance
 
 ### 6. People
+
 - 6a: Recruiting targets
 - 6b: Onboarding
 - 6c: Capability building
 - 6d: Retention and performance management
 
 ### 7. Culture
+
 - Culture transformation
 - Change management
 - Communication strategy
 
 ## Cross-Journey Elements
+
 - **Transformation Strategy**: 5-year roadmap, economics, org blueprint
 - **Technology**: Target architecture, DevOps
 - **Enablement**: Tech execution plan
 - **Transformation Management**: Org structure, talent, governance, decision-making
 
 ## Key Outputs
+
 Map of sub-journeys, target architecture, business case, roadmap, validated learning, metrics/tracking, aligned leadership purpose.
 
----
+______________________________________________________________________
 
+______________________________________________________________________
 
----
-
----
+______________________________________________________________________
 
 ### Source 2: AMOS_Agile_Delivery_Kernel_v0_Tech7_3
 
 > Path: `kernel/A/AMOS_Agile_Delivery_Kernel_v0_Tech7_3.md` | Size: 2475 chars | Match score: 10 | content_hash: 09618db261985c98
 
 {
- "meta": {
- "name": "Agile_Delivery_Kernel",
- "version": "1.0.0",
- "description": "Kernel for agile delivery: Scrum, Kanban, sprint planning, retrospectives, and agile metrics."
- },
- "kernel": {
- "description": "Supports agile delivery practices: Scrum framework, Kanban flow, sprint planning, daily standups, retrospectives, and agile metrics tracking.",
- "functions": {
- "scrum_planning": {
- "description": "Plan sprints using Scrum framework.",
- "inputs": [
- "product_backlog",
- "team_capacity",
- "sprint_goal",
- "past_velocity"
- ],
- "outputs": [
- "sprint_backlog",
- "sprint_plan",
- "commitment_estimate"
- ]
- },
- "kanban_flow": {
- "description": "Manage work using Kanban flow.",
- "inputs": [
- "work_items",
- "wip_limits",
- "cycle_time_data",
- "flow_diagrams"
- ],
- "outputs": [
- "kanban_board",
- "flow_metrics",
- "bottleneck_identification"
- ]
- },
- "retrospective": {
- "description": "Facilitate team retrospectives.",
- "inputs": [
- "sprint_data",
- "team_feedback",
- "metrics_trends",
- "incident_history"
- ],
- "outputs": [
- "retrospective_insights",
- "action_items",
- "process_improvements"
- ]
- },
- "agile_metrics": {
- "description": "Track and report agile metrics.",
- "inputs": [
- "sprint_data",
- "flow_data",
- "team_velocity",
- "quality_metrics"
- ],
- "outputs": [
- "metrics_dashboard",
- "trend_analysis",
- "predictive_estimates"
- ]
- }
- },
- "capabilities": {
- "scrum_framework": "Sprint planning, daily scrum, sprint review, retrospective.",
- "kanban": "Visual board, WIP limits, flow metrics, continuous delivery.",
- "hybrid_approaches": "Scrumban, agile-waterfall hybrid, tailored agile.",
- "metrics": "Velocity, cycle time, lead time, throughput, WIP, cumulative flow."
- }
- }
+"meta": {
+"name": "Agile_Delivery_Kernel",
+"version": "1.0.0",
+"description": "Kernel for agile delivery: Scrum, Kanban, sprint planning, retrospectives, and agile metrics."
+},
+"kernel": {
+"description": "Supports agile delivery practices: Scrum framework, Kanban flow, sprint planning, daily standups, retrospectives, and agile metrics tracking.",
+"functions": {
+"scrum_planning": {
+"description": "Plan sprints using Scrum framework.",
+"inputs": \[
+"product_backlog",
+"team_capacity",
+"sprint_goal",
+"past_velocity"
+\],
+"outputs": \[
+"sprint_backlog",
+"sprint_plan",
+"commitment_estimate"
+\]
+},
+"kanban_flow": {
+"description": "Manage work using Kanban flow.",
+"inputs": \[
+"work_items",
+"wip_limits",
+"cycle_time_data",
+"flow_diagrams"
+\],
+"outputs": \[
+"kanban_board",
+"flow_metrics",
+"bottleneck_identification"
+\]
+},
+"retrospective": {
+"description": "Facilitate team retrospectives.",
+"inputs": \[
+"sprint_data",
+"team_feedback",
+"metrics_trends",
+"incident_history"
+\],
+"outputs": \[
+"retrospective_insights",
+"action_items",
+"process_improvements"
+\]
+},
+"agile_metrics": {
+"description": "Track and report agile metrics.",
+"inputs": \[
+"sprint_data",
+"flow_data",
+"team_velocity",
+"quality_metrics"
+\],
+"outputs": \[
+"metrics_dashboard",
+"trend_analysis",
+"predictive_estimates"
+\]
+}
+},
+"capabilities": {
+"scrum_framework": "Sprint planning, daily scrum, sprint review, retrospective.",
+"kanban": "Visual board, WIP limits, flow metrics, continuous delivery.",
+"hybrid_approaches": "Scrumban, agile-waterfall hybrid, tailored agile.",
+"metrics": "Velocity, cycle time, lead time, throughput, WIP, cumulative flow."
+}
+}
 }
 
----
+______________________________________________________________________
 
----
+______________________________________________________________________
 
 ### Source 3: 3b. Governance
+
 - process v8
 
 > Path: `governance/3b. Governance - process v8.md` | Size: 44077 chars | Match score: 5 | content_hash: eba092d319d1f032
@@ -192,10 +205,11 @@ About TCJ
 Governance
 Thisplaybookcontainsallthepieces andpartsthat
 makeupourapproachtotransforming customer
-| journeys.Thisis | | alivingdocumentandthelatest |
-| --------------- | -------- | ----------------------------- |
-| versioncan | be found | onTCJ’sConfluencesite. |
-Last updated in May 2019
+
+| journeys.Thisis          |          | alivingdocumentandthelatest |
+| ------------------------ | -------- | --------------------------- |
+| versioncan               | be found | onTCJ’sConfluencesite.      |
+| Last updated in May 2019 |          |                             |
 
 How this module fits into overall TCJ Playbook
 Transformation
@@ -261,21 +275,24 @@ McKinsey & Company
 
 TCJ governance bodies
 With wider Bank Within TCJ
-| Scope | Committee | Purpose | Attendees | Frequency |
-| ----- | --------- | ------- | --------- | --------- |
-Program-level TCJ Business Budget allocation based on drawdown approved by DEXCO Chief Strategy and Design (Chair) Monthly
-Review Drawdown for all OPEX and CAPEX expenditures below RM1m (within Group Chief Technology Officer
-budget) Group Technology Leads (e.g. EAS, IT Security, App)
-| | | Overall TCJ program delivery plan (Benefits and timeline by Journey) | Head of TCJ | |
-| --- | --- | -------------------------------------------
 
----
+| Scope                                                                                                                      | Committee | Purpose                                                              | Attendees   | Frequency |
+| -------------------------------------------------------------------------------------------------------------------------- | --------- | -------------------------------------------------------------------- | ----------- | --------- |
+| Program-level TCJ Business Budget allocation based on drawdown approved by DEXCO Chief Strategy and Design (Chair) Monthly |           |                                                                      |             |           |
+| Review Drawdown for all OPEX and CAPEX expenditures below RM1m (within Group Chief Technology Officer                      |           |                                                                      |             |           |
+| budget) Group Technology Leads (e.g. EAS, IT Security, App)                                                                |           |                                                                      |             |           |
+|                                                                                                                            |           | Overall TCJ program delivery plan (Benefits and timeline by Journey) | Head of TCJ |           |
+| ---                                                                                                                        | ---       | -------------------------------------------                          |             |           |
+
+______________________________________________________________________
+
 **MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -283,12 +300,14 @@ budget) Group Technology Leads (e.g. EAS, IT Security, App)
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: mckinsey-designops-agile-transformation-rscf-vault-domain-knowledge
 node_type: reference
 path: 07_SKILLS/mckinsey-designops-agile-transformation-rscf/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

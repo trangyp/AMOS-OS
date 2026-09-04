@@ -1,14 +1,17 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: L00_REALITY_ENVIRONMENT — H/M/L Architecture
 type: cognitive
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT
 tags:
-- cognitive-matrix
-- primitives
-- matrix/l00-reality-environment
-- note
-- domain/cognitive-matrix
-- amos-simulation-kernel-v0-math-foundations
+  - cognitive-matrix
+  - primitives
+  - matrix/l00-reality-environment
+  - note
+  - domain/cognitive-matrix
+  - amos-simulation-kernel-v0-math-foundations
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -22,9 +25,9 @@ rscf:
 **Origin architect / steward:** Trang Phan
 **Status:** `ARCHITECTURE CONTRACT / IMPLEMENTATION-DEPENDENT`
 
----
+______________________________________________________________________
 
-# 1. Purpose
+## 1. Purpose
 
 `L00_REALITY_ENVIRONMENT / HML` defines how AMOS represents, reasons across, validates, and governs reality-related state at three coupled resolutions:
 
@@ -46,21 +49,21 @@ into a single undifferentiated representation.
 
 Its governing principle is:
 
-[
-\boxed{
+\[
+\\boxed{
 LocalEvidence
-\neq
+\\neq
 SubsystemState
-\neq
+\\neq
 SystemState
 }
-]
+\]
 
 while allowing explicitly typed transformations between them.
 
----
+______________________________________________________________________
 
-# 2. H/M/L Is a Resolution Architecture
+## 2. H/M/L Is a Resolution Architecture
 
 H/M/L does not mean that reality literally contains exactly three ontological layers.
 
@@ -76,19 +79,19 @@ H/M/L != UNIVERSAL ONTOLOGICAL PROOF
 
 The same object may occupy different H/M/L roles depending on the declared analysis boundary.
 
----
+______________________________________________________________________
 
-# 3. Relative Scale Principle
+## 3. Relative Scale Principle
 
 Scale is relational.
 
-For system \(S\):
+For system (S):
 
-[
-\boxed{
+\[
+\\boxed{
 H(S),M(S),L(S)
 }
-]
+\]
 
 must be defined relative to the current system boundary.
 
@@ -120,17 +123,17 @@ L:
 
 A subsystem that is `M` in one analysis may become `H` when analyzed independently.
 
----
+______________________________________________________________________
 
-# 4. Core H/M/L State Tensor
+## 4. Core H/M/L State Tensor
 
 The L00 reality state is represented conceptually as:
 
-[
-\boxed{
+\[
+\\boxed{
 X[h,m,l,t,r,o,f]
 }
-]
+\]
 
 where:
 
@@ -146,11 +149,11 @@ f = state field
 
 For provenance-sensitive reasoning:
 
-[
-\boxed{
+\[
+\\boxed{
 X[h,m,l,t,r,o,f,p]
 }
-]
+\]
 
 where:
 
@@ -158,18 +161,15 @@ where:
 p = provenance / evidence lineage
 ```
 
----
+______________________________________________________________________
 
-# 5. Extended Reality H/M/L Tensor
+## 5. Extended Reality H/M/L Tensor
 
 For L00:
 
-[
-\boxed{
-T_{HML}^{Reality}
-=================
+## \[ \\boxed{ T\_{HML}^{Reality}
 
-T[
+T\[
 object,
 H_state,
 M_state,
@@ -184,13 +184,13 @@ confidence,
 uncertainty,
 boundary,
 consequence
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 6. Representation Classes
+## 6. Representation Classes
 
 Every reality-bearing H/M/L state should distinguish where applicable:
 
@@ -215,9 +215,9 @@ REPRESENTATION CLASS MUST SURVIVE SCALE TRANSFORMATION
 
 A simulation at `L` cannot become observed reality merely because it is aggregated into `H`.
 
----
+______________________________________________________________________
 
-# 7. H — High Scale
+## 7. H — High Scale
 
 `H` represents the governing or system-scale state.
 
@@ -253,16 +253,13 @@ What system-level conclusion is justified?
 What system-wide consequences matter?
 ```
 
----
+______________________________________________________________________
 
-# 8. H-State Tensor
+## 8. H-State Tensor
 
-[
-\boxed{
-T_H
-===
+## \[ \\boxed{ T_H
 
-T[
+T\[
 system,
 environment,
 boundary,
@@ -276,13 +273,13 @@ aggregate_evidence,
 provenance,
 uncertainty,
 consequence
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 9. M — Middle Scale
+## 9. M — Middle Scale
 
 `M` represents subsystem organization, interactions, mechanisms, interfaces, and relational structure.
 
@@ -317,16 +314,13 @@ Which transformations are operating?
 Where can evidence, state, authority, or uncertainty propagate?
 ```
 
----
+______________________________________________________________________
 
-# 10. M-State Tensor
+## 10. M-State Tensor
 
-[
-\boxed{
-T_M
-===
+## \[ \\boxed{ T_M
 
-T[
+T\[
 subsystem,
 components,
 relations,
@@ -341,13 +335,13 @@ time,
 provenance,
 uncertainty,
 failure_state
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 11. L — Low Scale
+## 11. L — Low Scale
 
 `L` represents local observations, measurements, events, variables, claims, state transitions, and evidence objects.
 
@@ -386,16 +380,13 @@ What representation class does it belong to?
 What uncertainty attaches to it?
 ```
 
----
+______________________________________________________________________
 
-# 12. L-State Tensor
+## 12. L-State Tensor
 
-[
-\boxed{
-T_L
-===
+## \[ \\boxed{ T_L
 
-T[
+T\[
 observation,
 variable,
 value,
@@ -410,13 +401,13 @@ regime,
 provenance,
 confidence,
 uncertainty
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 13. Core Cross-Scale Architecture
+## 13. Core Cross-Scale Architecture
 
 ```text
              H
@@ -453,45 +444,39 @@ Downward:
 
 These two directions must remain typed separately.
 
----
+______________________________________________________________________
 
-# 14. Upward Aggregation
+## 14. Upward Aggregation
 
 Low-scale state may be aggregated into middle-scale state:
 
-[
-\boxed{
-X_M
-===
+## \[ \\boxed{ X_M
 
-A_{L\rightarrow M}\(X_L\)
+A\_{L\\rightarrow M}(X_L)
 }
-]
+\]
 
 Middle-scale state may be aggregated into high-scale state:
 
-[
-\boxed{
-X_H
-===
+## \[ \\boxed{ X_H
 
-A_{M\rightarrow H}\(X_M\)
+A\_{M\\rightarrow H}(X_M)
 }
-]
+\]
 
-where \(A\) is an explicitly declared aggregation operator.
+where (A) is an explicitly declared aggregation operator.
 
----
+______________________________________________________________________
 
-# 15. Aggregation Invariant
+## 15. Aggregation Invariant
 
-[
-\boxed{
+\[
+\\boxed{
 Aggregate(X)
-\neq
+\\neq
 X
 }
-]
+\]
 
 Aggregation creates a derived representation.
 
@@ -503,21 +488,21 @@ LOCAL OBSERVATION != AGGREGATE STATE
 AGGREGATE STATE != SOURCE OBSERVATION
 ```
 
----
+______________________________________________________________________
 
-# 16. Aggregation Does Not Prove Identity
+## 16. Aggregation Does Not Prove Identity
 
 Even when:
 
-[
-X_H=A_{M\rightarrow H}\(X_M\)
-]
+\[
+X_H=A\_{M\\rightarrow H}(X_M)
+\]
 
 it does not follow that:
 
-[
-X_H \equiv X_M
-]
+\[
+X_H \\equiv X_M
+\]
 
 Hard invariant:
 
@@ -525,31 +510,25 @@ Hard invariant:
 AGGREGATION != IDENTITY
 ```
 
----
+______________________________________________________________________
 
-# 17. Downward Constraint
+## 17. Downward Constraint
 
 High-scale state may constrain middle-scale admissible state:
 
-[
-\boxed{
-X'_M
-====
+## \[ \\boxed{ X'\_M
 
-C_{H\rightarrow M}(X_H,X_M)
+C\_{H\\rightarrow M}(X_H,X_M)
 }
-]
+\]
 
 Middle-scale state may constrain low-scale admissible state:
 
-[
-\boxed{
-X'_L
-====
+## \[ \\boxed{ X'\_L
 
-C_{M\rightarrow L}(X'_M,X_L)
+C\_{M\\rightarrow L}(X'\_M,X_L)
 }
-]
+\]
 
 Examples:
 
@@ -560,43 +539,35 @@ deployment regime → observation requirements
 subsystem schema → admissible local state
 ```
 
----
+______________________________________________________________________
 
-# 18. Constraint Is Not Causation
+## 18. Constraint Is Not Causation
 
 Hard invariant:
 
-[
-\boxed{
+\[
+\\boxed{
 DownwardConstraint
-\neq
+\\neq
 DownwardCausalEffect
 }
-]
+\]
 
 A system rule restricting admissible subsystem states does not by itself prove a physical or empirical downward causal mechanism.
 
----
+______________________________________________________________________
 
-# 19. General Cross-Scale Update
+## 19. General Cross-Scale Update
 
 A conceptual AMOS state update is:
 
-[
-\boxed{
-\Delta X_s(t+1)
-===============
+## \[ \\boxed{ \\Delta X_s(t+1)
 
-\sum_q
-T_{q\rightarrow s}
-\Delta X_q(t)
-+
-u_s
----
+## \\sum_q T\_{q\\rightarrow s} \\Delta X_q(t) + u_s
 
 d_s
 }
-]
+\]
 
 where:
 
@@ -610,16 +581,13 @@ d_s = degradation, loss, invalidation, or removal
 
 This equation is an AMOS MODEL unless independently instantiated and validated in a domain.
 
----
+______________________________________________________________________
 
-# 20. Cross-Scale Transformation Tensor
+## 20. Cross-Scale Transformation Tensor
 
-[
-\boxed{
-T_{XScale}
-==========
+## \[ \\boxed{ T\_{XScale}
 
-T[
+T\[
 source_scale,
 target_scale,
 operator,
@@ -634,13 +602,13 @@ information_loss,
 provenance,
 validation,
 confidence
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 21. Transformation Classes
+## 21. Transformation Classes
 
 Permitted cross-scale transformation classes include:
 
@@ -664,56 +632,49 @@ REPAIR
 
 Each transformation must declare its semantics.
 
----
+______________________________________________________________________
 
-# 22. Typed Transformation Rule
+## 22. Typed Transformation Rule
 
 A transformation is admissible only if:
 
-[
-\boxed{
-Compatible(
-Type_{source},
-Operator,
-Type_{target}
-)
-=
+## \[ \\boxed{ Compatible( Type\_{source}, Operator, Type\_{target} )
 
 TRUE
 }
-]
+\]
 
 Same field names do not prove semantic compatibility.
 
----
+______________________________________________________________________
 
-# 23. Cross-Scale Composition Gate
+## 23. Cross-Scale Composition Gate
 
 For:
 
-[
+\[
 X_L
-\rightarrow
+\\rightarrow
 X_M
-\rightarrow
+\\rightarrow
 X_H
-]
+\]
 
 composition requires:
 
-[
-\boxed{
+\[
+\\boxed{
 TypeCompatible
-\land
+\\land
 ScopeCompatible
-\land
+\\land
 RegimeCompatible
-\land
+\\land
 TemporalCompatible
-\land
+\\land
 ProvenancePreserved
 }
-]
+\]
 
 Otherwise:
 
@@ -721,23 +682,23 @@ Otherwise:
 CROSS_SCALE_COMPOSITION = BLOCKED
 ```
 
----
+______________________________________________________________________
 
-# 24. Evidence Propagation
+## 24. Evidence Propagation
 
 Evidence may support claims across scales only through explicit dependency paths.
 
-[
-\boxed{
+\[
+\\boxed{
 E_L
-\rightarrow
+\\rightarrow
 C_L
-\rightarrow
+\\rightarrow
 C_M
-\rightarrow
+\\rightarrow
 C_H
 }
-]
+\]
 
 Each transition must carry:
 
@@ -751,16 +712,13 @@ confidence
 falsifier
 ```
 
----
+______________________________________________________________________
 
-# 25. RSCF H/M/L Node
+## 25. RSCF H/M/L Node
 
 Each material state used in a conclusion should bind to an RSCF node:
 
-[
-\boxed{
-N
-=
+## \[ \\boxed{ N
 
 (
 id,
@@ -777,7 +735,7 @@ falsifier,
 status
 )
 }
-]
+\]
 
 Node classes:
 
@@ -790,14 +748,11 @@ DECISION
 UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 26. RSCF Cross-Scale Edge
+## 26. RSCF Cross-Scale Edge
 
-[
-\boxed{
-E
-=
+## \[ \\boxed{ E
 
 (
 parent,
@@ -808,20 +763,17 @@ independence,
 condition
 )
 }
-]
+\]
 
 Cross-scale edges must never be inferred merely because two nodes appear structurally similar.
 
----
+______________________________________________________________________
 
-# 27. Claim Tensor with H/M/L
+## 27. Claim Tensor with H/M/L
 
-[
-\boxed{
-T_C
-===
+## \[ \\boxed{ T_C
 
-T[
+T\[
 claim_id,
 text,
 class,
@@ -837,20 +789,17 @@ provenance,
 competing,
 falsifiers,
 confidence_ceiling
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 28. Evidence Tensor with H/M/L
+## 28. Evidence Tensor with H/M/L
 
-[
-\boxed{
-T_E
-===
+## \[ \\boxed{ T_E
 
-T[
+T\[
 evidence_id,
 source,
 source_type,
@@ -866,20 +815,17 @@ quality,
 freshness,
 provenance,
 revocation
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 29. Relation Tensor with H/M/L
+## 29. Relation Tensor with H/M/L
 
-[
-\boxed{
-R_{ij}
-======
+## \[ \\boxed{ R\_{ij}
 
-T[
+T\[
 source_scale,
 target_scale,
 type,
@@ -891,9 +837,9 @@ causal_status,
 lag,
 conflict,
 provenance
-]
+\]
 }
-]
+\]
 
 Relation classes may include:
 
@@ -911,52 +857,49 @@ analogy
 contradiction
 ```
 
----
+______________________________________________________________________
 
-# 30. H/M/L Scope Envelope
+## 30. H/M/L Scope Envelope
 
 Every cross-scale conclusion inherits an applicability envelope:
 
-[
-\boxed{
-Envelope
-========
+## \[ \\boxed{ Envelope
 
 System
-\times
+\\times
 Environment
-\times
+\\times
 Scale
-\times
+\\times
 Time
-\times
+\\times
 Regime
-\times
+\\times
 Observer
-\times
+\\times
 Measurement
 }
-]
+\]
 
 Cross-scale reasoning outside this envelope requires revalidation.
 
----
+______________________________________________________________________
 
-# 31. Scale Translation Does Not Expand Scope Automatically
+## 31. Scale Translation Does Not Expand Scope Automatically
 
 If:
 
-[
+\[
 Scope(C_L)=S_L
-]
+\]
 
 then:
 
-[
+\[
 Scope(C_H)
-\not\supseteq
+\\not\\supseteq
 S_L
-]
+\]
 
 without a valid aggregation/generalization rule.
 
@@ -966,49 +909,49 @@ Hard invariant:
 UPWARD SCALE != AUTOMATIC SCOPE EXPANSION
 ```
 
----
+______________________________________________________________________
 
-# 32. Local Observation Firewall
+## 32. Local Observation Firewall
 
 A single local observation does not automatically establish a system-level state.
 
-[
-\boxed{
+\[
+\\boxed{
 Observation_L
-\not\Rightarrow
+\\not\\Rightarrow
 Conclusion_H
 }
-]
+\]
 
 unless a validated dependency and aggregation path exists.
 
----
+______________________________________________________________________
 
-# 33. Local Correlation Firewall
+## 33. Local Correlation Firewall
 
-[
-\boxed{
+\[
+\\boxed{
 Correlation_L
-\not\Rightarrow
+\\not\\Rightarrow
 Causation_H
 }
-]
+\]
 
 Local association cannot independently establish system-level causal structure.
 
----
+______________________________________________________________________
 
-# 34. Macro Stability / Local Collapse
+## 34. Macro Stability / Local Collapse
 
 A system may appear stable at H while a local component collapses at L.
 
-[
-\boxed{
+\[
+\\boxed{
 Stable_H
-\land
+\\land
 Collapsed_L
 }
-]
+\]
 
 is admissible.
 
@@ -1018,19 +961,19 @@ Therefore:
 MACRO STABILITY != UNIVERSAL LOCAL HEALTH
 ```
 
----
+______________________________________________________________________
 
-# 35. Local Stability / Macro Collapse
+## 35. Local Stability / Macro Collapse
 
 Likewise:
 
-[
-\boxed{
+\[
+\\boxed{
 Stable_L
-\land
+\\land
 Collapsed_H
 }
-]
+\]
 
 may occur when failure arises from interactions, coordination, topology, or aggregate constraints.
 
@@ -1040,35 +983,35 @@ Therefore:
 LOCAL SUCCESS != SYSTEM SUCCESS
 ```
 
----
+______________________________________________________________________
 
-# 36. Heterogeneity Preservation
+## 36. Heterogeneity Preservation
 
 If local variation is decision-relevant:
 
-[
-\boxed{
+\[
+\\boxed{
 DecisionRelevant(Heterogeneity_L)
-\Rightarrow
+\\Rightarrow
 Preserve(Heterogeneity)
 }
-]
+\]
 
 Aggregation must not erase meaningful variation merely to simplify the system state.
 
----
+______________________________________________________________________
 
-# 37. Compression Invariant
+## 37. Compression Invariant
 
 For cross-scale compression:
 
-[
-\boxed{
+\[
+\\boxed{
 Compress(X_L)
-\rightarrow
+\\rightarrow
 X_M
 }
-]
+\]
 
 must preserve all load-bearing distinctions required downstream.
 
@@ -1081,67 +1024,67 @@ COMPRESSION MAY NOT REMOVE
 DECISION-RELEVANT DISTINCTIONS
 ```
 
----
+______________________________________________________________________
 
-# 38. Provenance Preservation
+## 38. Provenance Preservation
 
 For every valid transformation:
 
-[
-\boxed{
-Prov(X_{target})
-\supseteq
-Reference(Prov(X_{source}))
+\[
+\\boxed{
+Prov(X\_{target})
+\\supseteq
+Reference(Prov(X\_{source}))
 }
-]
+\]
 
 The transformed state must retain recoverable lineage to its source state.
 
----
+______________________________________________________________________
 
-# 39. Provenance Independence
+## 39. Provenance Independence
 
 Multiple local observations must not automatically count as independent evidence.
 
 If:
 
-[
+\[
 E_1,E_2,E_3
-]
+\]
 
-share the same ancestor \(A\), then:
+share the same ancestor (A), then:
 
-[
-\boxed{
+\[
+\\boxed{
 IndependentCount(E_1,E_2,E_3)
-\neq 3
+\\neq 3
 }
-]
+\]
 
 unless independence is separately established.
 
----
+______________________________________________________________________
 
-# 40. Confidence Ceiling
+## 40. Confidence Ceiling
 
 For a conclusion (c):
 
-[
-\boxed{
+\[
+\\boxed{
 Conf(c)
-\leq
-\min_{p\in P_c}
+\\leq
+\\min\_{p\\in P_c}
 Conf(p)
 }
-]
+\]
 
 for unresolved load-bearing premises unless independently revalidated.
 
 Cross-scale aggregation cannot manufacture confidence.
 
----
+______________________________________________________________________
 
-# 41. Confidence Propagation
+## 41. Confidence Propagation
 
 If:
 
@@ -1159,16 +1102,13 @@ H confidence
 
 cannot exceed the weakest unresolved load-bearing dependency merely because the information crossed more processing stages.
 
----
+______________________________________________________________________
 
-# 42. Uncertainty Tensor
+## 42. Uncertainty Tensor
 
-[
-\boxed{
-U_{HML}
-=======
+## \[ \\boxed{ U\_{HML}
 
-T[
+T\[
 scale,
 evidence,
 model,
@@ -1177,15 +1117,15 @@ temporal,
 causal,
 execution,
 provenance_independence
-]
+\]
 }
-]
+\]
 
 Uncertainty dimensions should remain separate when materially different.
 
----
+______________________________________________________________________
 
-# 43. Cross-Scale Uncertainty
+## 43. Cross-Scale Uncertainty
 
 A high-level uncertainty may arise from:
 
@@ -1202,55 +1142,46 @@ unresolved competing models
 
 Therefore:
 
-[
-\boxed{
-U_H
-===
+## \[ \\boxed{ U_H
 
 f(
 U_L,
 U_M,
-U_{transform},
-U_{scope},
-U_{regime}
+U\_{transform},
+U\_{scope},
+U\_{regime}
 )
 }
-]
+\]
 
 as a conceptual AMOS model.
 
----
+______________________________________________________________________
 
-# 44. Sensitivity Flip Set
+## 44. Sensitivity Flip Set
 
 For conclusion (c):
 
-[
-\boxed{
-F_c
-===
+## \[ \\boxed{ F_c
 
 {
 p
-\mid
-plausible\ change\ in\ p
-\ flips\ c
+\\mid
+plausible\\ change\\ in\\ p
+\\ flips\\ c
 }
 }
-]
+\]
 
 The smallest high-impact premise should be tested first.
 
----
+______________________________________________________________________
 
-# 45. H/M/L Gap Tensor
+## 45. H/M/L Gap Tensor
 
-[
-\boxed{
-T_{Gap}^{HML}
-=============
+## \[ \\boxed{ T\_{Gap}^{HML}
 
-T[
+T\[
 gap,
 scale,
 source_scale,
@@ -1262,13 +1193,13 @@ regime,
 consequence,
 blocking,
 repairability
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 46. H-Level Gaps
+## 46. H-Level Gaps
 
 Typical H gaps:
 
@@ -1282,9 +1213,9 @@ missing system-level validation
 missing reality-contact contract
 ```
 
----
+______________________________________________________________________
 
-# 47. M-Level Gaps
+## 47. M-Level Gaps
 
 Typical M gaps:
 
@@ -1298,9 +1229,9 @@ missing control-plane mechanism
 missing repair path
 ```
 
----
+______________________________________________________________________
 
-# 48. L-Level Gaps
+## 48. L-Level Gaps
 
 Typical L gaps:
 
@@ -1314,20 +1245,17 @@ missing local validator
 unknown representation class
 ```
 
----
+______________________________________________________________________
 
-# 49. Cross-Scale Gap
+## 49. Cross-Scale Gap
 
-[
-\boxed{
-CrossScaleGap
-=============
+## \[ \\boxed{ CrossScaleGap
 
 RequiredTransfer
-\land
-\neg ValidTransfer
+\\land
+\\neg ValidTransfer
 }
-]
+\]
 
 Examples:
 
@@ -1342,37 +1270,37 @@ global policy exists
 but no enforceable local translation exists
 ```
 
----
+______________________________________________________________________
 
-# 50. Upward Failure Propagation
+## 50. Upward Failure Propagation
 
 Local failure propagates upward only when dependency structure permits it.
 
-[
-\boxed{
+\[
+\\boxed{
 Failure_L
-\rightarrow
+\\rightarrow
 Failure_M
-\iff
+\\iff
 MaterialDependency(M,L)
 }
-]
+\]
 
 and:
 
-[
-\boxed{
+\[
+\\boxed{
 Failure_M
-\rightarrow
+\\rightarrow
 Failure_H
-\iff
+\\iff
 MaterialDependency(H,M)
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 51. Downward Constraint Failure
+## 51. Downward Constraint Failure
 
 A high-level constraint failure may invalidate downstream admissibility.
 
@@ -1391,20 +1319,17 @@ ACTION_L = BLOCKED
 
 without implying that the local action implementation itself is technically defective.
 
----
+______________________________________________________________________
 
-# 52. Selective Invalidation
+## 52. Selective Invalidation
 
 For failed premise (p):
 
-[
-\boxed{
-Invalidate(p)
-=============
+## \[ \\boxed{ Invalidate(p)
 
-Desc_{LB}(p)
+Desc\_{LB}(p)
 }
-]
+\]
 
 where:
 
@@ -1414,9 +1339,9 @@ Desc_LB = load-bearing descendants
 
 Unrelated branches remain valid.
 
----
+______________________________________________________________________
 
-# 53. Scale-Local Repair
+## 53. Scale-Local Repair
 
 A local defect should be repaired at the lowest sufficient scale.
 
@@ -1436,9 +1361,9 @@ or:
 H governing failure
 ```
 
----
+______________________________________________________________________
 
-# 54. Repair Escalation
+## 54. Repair Escalation
 
 Canonical repair escalation:
 
@@ -1464,43 +1389,43 @@ Hard invariant:
 DO NOT ESCALATE SCALE WITHOUT EVIDENCE
 ```
 
----
+______________________________________________________________________
 
-# 55. Downward Repair Validation
+## 55. Downward Repair Validation
 
 A repair made at H must be validated at affected M and L scales.
 
-[
-\boxed{
+\[
+\\boxed{
 Repair_H
-\Rightarrow
-Validate(M_{affected})
-\land
-Validate(L_{affected})
+\\Rightarrow
+Validate(M\_{affected})
+\\land
+Validate(L\_{affected})
 }
-]
+\]
 
 A policy-level fix is not sufficient evidence of local behavioral correction.
 
----
+______________________________________________________________________
 
-# 56. Upward Repair Validation
+## 56. Upward Repair Validation
 
 A local repair does not automatically prove system recovery.
 
-[
-\boxed{
+\[
+\\boxed{
 Repair_L
-\not\Rightarrow
+\\not\\Rightarrow
 Recovered_H
 }
-]
+\]
 
 System recovery requires appropriate aggregate validation.
 
----
+______________________________________________________________________
 
-# 57. Reality Contact Across H/M/L
+## 57. Reality Contact Across H/M/L
 
 Reality contact begins from observation-bearing states.
 
@@ -1527,78 +1452,69 @@ what was modeled
 what was decided
 ```
 
----
+______________________________________________________________________
 
-# 58. Reality Contact Gate
+## 58. Reality Contact Gate
 
 Where external observation is required:
 
-[
-\boxed{
-RealityContact
-==============
+## \[ \\boxed{ RealityContact
 
 ExternalObservationPresent
-\land
+\\land
 MeasurementMethodKnown
-\land
+\\land
 ProvenanceRecoverable
-\land
+\\land
 RegimeCompatible
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 59. Reality Contact Does Not Automatically Transfer
+## 59. Reality Contact Does Not Automatically Transfer
 
 If one local state has reality contact:
 
-[
+\[
 RealityContact(L_1)=TRUE
-]
+\]
 
 this does not imply:
 
-[
+\[
 RealityContact(H)=TRUE
-]
+\]
 
 for every high-level claim.
 
 The aggregation path must support the claimed system-level conclusion.
 
----
+______________________________________________________________________
 
-# 60. Fidelity Envelope
+## 60. Fidelity Envelope
 
-[
-\boxed{
-Fidelity
-========
+## \[ \\boxed{ Fidelity
 
 ValidatedVariables
-\cap
+\\cap
 ValidatedRegimes
-\cap
+\\cap
 ValidatedTimeWindow
-\cap
+\\cap
 ValidatedMeasurementMethods
 }
-]
+\]
 
 Cross-scale conclusions outside this envelope remain conditional or unknown.
 
----
+______________________________________________________________________
 
-# 61. Observer Tensor
+## 61. Observer Tensor
 
-[
-\boxed{
-T_O
-===
+## \[ \\boxed{ T_O
 
-T[
+T\[
 observer,
 scale,
 access,
@@ -1609,21 +1525,21 @@ scope,
 time,
 regime,
 provenance
-]
+\]
 }
-]
+\]
 
 Observer differences must not be silently erased during aggregation.
 
----
+______________________________________________________________________
 
-# 62. Observer Variance
+## 62. Observer Variance
 
 For observations:
 
-[
-O_1(X)\neq O_2(X)
-]
+\[
+O_1(X)\\neq O_2(X)
+\]
 
 may arise because of:
 
@@ -1638,27 +1554,27 @@ different perspective
 
 Disagreement does not automatically imply one observer is wrong.
 
----
+______________________________________________________________________
 
-# 63. Temporal H/M/L Architecture
+## 63. Temporal H/M/L Architecture
 
 Different scales may evolve at different rates.
 
-[
-\boxed{
-\tau_L
-\neq
-\tau_M
-\neq
-\tau_H
+\[
+\\boxed{
+\\tau_L
+\\neq
+\\tau_M
+\\neq
+\\tau_H
 }
-]
+\]
 
-where (\tau_s) represents characteristic update time at scale (s).
+where (\\tau_s) represents characteristic update time at scale (s).
 
----
+______________________________________________________________________
 
-# 64. Temporal Aggregation Invariant
+## 64. Temporal Aggregation Invariant
 
 A fast local change does not automatically establish a durable high-level regime shift.
 
@@ -1670,29 +1586,29 @@ SYSTEM REGIME CHANGE
 
 unless persistence and aggregation criteria pass.
 
----
+______________________________________________________________________
 
-# 65. Regime Propagation
+## 65. Regime Propagation
 
 Each state carries regime:
 
-[
+\[
 X_s[r]
-]
+\]
 
 Cross-scale inference requires:
 
-[
-\boxed{
-Compatible(r_{source},r_{target})
+\[
+\\boxed{
+Compatible(r\_{source},r\_{target})
 }
-]
+\]
 
 or an explicitly validated regime translation.
 
----
+______________________________________________________________________
 
-# 66. Regime Shift
+## 66. Regime Shift
 
 When regime changes:
 
@@ -1702,13 +1618,13 @@ r₁ → r₂
 
 all affected cross-scale transformations must be revalidated.
 
-[
-\boxed{
+\[
+\\boxed{
 RegimeShift
-\Rightarrow
+\\Rightarrow
 Revalidate(A,C,T)
 }
-]
+\]
 
 where:
 
@@ -1718,17 +1634,17 @@ C = constraint
 T = transformation
 ```
 
----
+______________________________________________________________________
 
-# 67. H/M/L Boundary Architecture
+## 67. H/M/L Boundary Architecture
 
 Each scale has a boundary:
 
-[
-\boxed{
+\[
+\\boxed{
 B_H,B_M,B_L
 }
-]
+\]
 
 These boundaries determine:
 
@@ -1741,16 +1657,13 @@ what may be exposed
 what may be controlled
 ```
 
----
+______________________________________________________________________
 
-# 68. Boundary Crossing Tensor
+## 68. Boundary Crossing Tensor
 
-[
-\boxed{
-T_B
-===
+## \[ \\boxed{ T_B
 
-T[
+T\[
 source,
 target,
 source_scale,
@@ -1761,47 +1674,41 @@ constraint,
 transformation,
 provenance,
 validation
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 69. Boundary Crossing Gate
+## 69. Boundary Crossing Gate
 
-[
-\boxed{
-CrossBoundary
-=============
+## \[ \\boxed{ CrossBoundary
 
 TypeCompatible
-\land
+\\land
 AdmissionAllowed
-\land
+\\land
 AuthorityValid
-\land
+\\land
 ProvenancePreserved
-\land
+\\land
 ConstraintPass
 }
-]
+\]
 
 for governed transfers.
 
----
+______________________________________________________________________
 
-# 70. H/M/L Dependency Graph
+## 70. H/M/L Dependency Graph
 
 Define:
 
-[
-\boxed{
-G_{HML}
-=======
+## \[ \\boxed{ G\_{HML}
 
-(V_H\cup V_M\cup V_L,E)
+(V_H\\cup V_M\\cup V_L,E)
 }
-]
+\]
 
 where:
 
@@ -1812,9 +1719,9 @@ V_L = low-scale nodes
 E   = typed intra-scale and cross-scale relations
 ```
 
----
+______________________________________________________________________
 
-# 71. Edge Types
+## 71. Edge Types
 
 ```text
 AGGREGATES_TO
@@ -1834,9 +1741,9 @@ REPAIRS
 GOVERNS
 ```
 
----
+______________________________________________________________________
 
-# 72. Causal Firewall Across Scale
+## 72. Causal Firewall Across Scale
 
 The following transitions are prohibited without suitable evidence:
 
@@ -1852,15 +1759,15 @@ AGGREGATION → CAUSATION
 CONSTRAINT → CAUSATION
 ```
 
----
+______________________________________________________________________
 
-# 73. Competing Cross-Scale Models
+## 73. Competing Cross-Scale Models
 
 If multiple transformations explain the same observations:
 
-[
-M_1,M_2,\ldots,M_n
-]
+\[
+M_1,M_2,\\ldots,M_n
+\]
 
 and available evidence does not discriminate them:
 
@@ -1870,31 +1777,28 @@ status: COMPETING
 
 AMOS must not force convergence.
 
----
+______________________________________________________________________
 
-# 74. Cheapest Discriminating Test
+## 74. Cheapest Discriminating Test
 
 For competing cross-scale models:
 
-[
-\boxed{
-Test^*
-======
+## \[ \\boxed{ Test^\*
 
-\arg\max_t
-\frac{
+\\arg\\max_t
+\\frac{
 ExpectedDiscrimination(t)
 }{
 Cost(t)+Risk(t)
 }
 }
-]
+\]
 
 subject to hard safety and governance constraints.
 
----
+______________________________________________________________________
 
-# 75. AI Application — H/M/L Cognitive Architecture
+## 75. AI Application — H/M/L Cognitive Architecture
 
 For AI systems:
 
@@ -1942,45 +1846,45 @@ LOCAL EVENTS
 └── validator result
 ```
 
----
+______________________________________________________________________
 
-# 76. AI Perception Path
+## 76. AI Perception Path
 
-[
-\boxed{
+\[
+\\boxed{
 Environment
-\rightarrow
+\\rightarrow
 Observation_L
-\rightarrow
+\\rightarrow
 Perception_M
-\rightarrow
+\\rightarrow
 WorldState_H
 }
-]
+\]
 
 Each arrow is a transformation, not an identity.
 
----
+______________________________________________________________________
 
-# 77. AI Evidence Path
+## 77. AI Evidence Path
 
-[
-\boxed{
+\[
+\\boxed{
 Source_L
-\rightarrow
+\\rightarrow
 Evidence_L
-\rightarrow
+\\rightarrow
 EvidenceModel_M
-\rightarrow
+\\rightarrow
 Claim_H
 }
-]
+\]
 
 A source does not become a system-level conclusion without intermediate reasoning and validation.
 
----
+______________________________________________________________________
 
-# 78. AI Retrieval Path
+## 78. AI Retrieval Path
 
 ```text
 EXTERNAL CORPUS
@@ -2002,9 +1906,9 @@ RETRIEVED != TRUE
 NOT RETRIEVED != ABSENT
 ```
 
----
+______________________________________________________________________
 
-# 79. AI Memory Path
+## 79. AI Memory Path
 
 ```text
 L:
@@ -2027,9 +1931,9 @@ contradiction checks
 retention policy
 ```
 
----
+______________________________________________________________________
 
-# 80. AI Tool Path
+## 80. AI Tool Path
 
 ```text
 H:
@@ -2061,9 +1965,9 @@ H:
 updated system state
 ```
 
----
+______________________________________________________________________
 
-# 81. AI Tool Invariants
+## 81. AI Tool Invariants
 
 ```text
 TOOL CALL != EFFECT
@@ -2077,37 +1981,37 @@ PROPOSAL != COMMIT
 LOCAL SUCCESS != SYSTEM SUCCESS
 ```
 
----
+______________________________________________________________________
 
-# 82. AI Planning Path
+## 82. AI Planning Path
 
-[
-\boxed{
+\[
+\\boxed{
 Goal_H
-\rightarrow
+\\rightarrow
 Plan_M
-\rightarrow
+\\rightarrow
 Action_L
 }
-]
+\]
 
 Execution feedback returns:
 
-[
-\boxed{
+\[
+\\boxed{
 Outcome_L
-\rightarrow
+\\rightarrow
 Evaluation_M
-\rightarrow
+\\rightarrow
 StateUpdate_H
 }
-]
+\]
 
 This forms a governed closed loop.
 
----
+______________________________________________________________________
 
-# 83. AI Closed-Loop H/M/L Architecture
+## 83. AI Closed-Loop H/M/L Architecture
 
 ```text
              H
@@ -2134,28 +2038,28 @@ ACTION → OUTCOME → OBSERVATION
 
 the system is open-loop.
 
----
+______________________________________________________________________
 
-# 84. AI Confidence Path
+## 84. AI Confidence Path
 
 AI confidence must be tied to evidence dependencies across scale.
 
-[
-\boxed{
+\[
+\\boxed{
 Conf_H
-\leq
-\min(
-Conf_{M,load-bearing},
-Conf_{L,load-bearing}
+\\leq
+\\min(
+Conf\_{M,load-bearing},
+Conf\_{L,load-bearing}
 )
 }
-]
+\]
 
 unless weak premises are independently revalidated.
 
----
+______________________________________________________________________
 
-# 85. AI Hallucination as Cross-Scale Failure
+## 85. AI Hallucination as Cross-Scale Failure
 
 One AMOS interpretation of hallucination risk is:
 
@@ -2171,9 +2075,9 @@ The architectural failure is not merely incorrect text.
 
 It is an unsupported dependency transition.
 
----
+______________________________________________________________________
 
-# 86. AI Grounding Failure
+## 86. AI Grounding Failure
 
 ```text
 MODEL STATE_H
@@ -2196,37 +2100,37 @@ measurement changes
 regime shifts
 ```
 
----
+______________________________________________________________________
 
-# 87. AI Governance Path
+## 87. AI Governance Path
 
-[
-\boxed{
+\[
+\\boxed{
 Authority_H
-\rightarrow
+\\rightarrow
 Policy_M
-\rightarrow
+\\rightarrow
 Permission_L
 }
-]
+\]
 
 Execution requires:
 
-[
-\boxed{
+\[
+\\boxed{
 Capability_L
-\land
+\\land
 Permission_L
-\land
+\\land
 ConstraintPass_L
 }
-]
+\]
 
 not capability alone.
 
----
+______________________________________________________________________
 
-# 88. AI Repair Path
+## 88. AI Repair Path
 
 ```text
 FAILURE DETECTED
@@ -2247,9 +2151,9 @@ validate affected descendants
 resume
 ```
 
----
+______________________________________________________________________
 
-# 89. Control Plane Requirements
+## 89. Control Plane Requirements
 
 The L00 H/M/L control plane must support:
 
@@ -2272,16 +2176,13 @@ repair routing
 cross-scale validation
 ```
 
----
+______________________________________________________________________
 
-# 90. Control Plane Tensor
+## 90. Control Plane Tensor
 
-[
-\boxed{
-T_{CP}^{HML}
-============
+## \[ \\boxed{ T\_{CP}^{HML}
 
-T[
+T\[
 operation,
 source_scale,
 target_scale,
@@ -2293,13 +2194,13 @@ dependencies,
 provenance,
 validation,
 rollback
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 91. Agent Contract
+## 91. Agent Contract
 
 Agents may:
 
@@ -2326,9 +2227,9 @@ erase provenance during compression
 self-authorize cross-scale execution
 ```
 
----
+______________________________________________________________________
 
-# 92. Skill Contract
+## 92. Skill Contract
 
 Every H/M/L-aware AMOS skill should declare:
 
@@ -2358,9 +2259,9 @@ hml_contract:
   falsifiers: []
 ```
 
----
+______________________________________________________________________
 
-# 93. Cross-Scale Workflow
+## 93. Cross-Scale Workflow
 
 ```text
 1. Define system boundary.
@@ -2404,9 +2305,9 @@ hml_contract:
 20. Record invalidation and reuse conditions.
 ```
 
----
+______________________________________________________________________
 
-# 94. H/M/L Protocol
+## 94. H/M/L Protocol
 
 ```yaml
 hml_transition:
@@ -2459,9 +2360,9 @@ hml_transition:
     - UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 95. H/M/L Validation Matrix
+## 95. H/M/L Validation Matrix
 
 | Test               | Requirement                                 |
 | ------------------ | ------------------------------------------- |
@@ -2481,9 +2382,9 @@ hml_transition:
 | Gap                | Missing cross-scale transforms exposed      |
 | Repair             | Repair validated at affected scales         |
 
----
+______________________________________________________________________
 
-# 96. Validator Registry
+## 96. Validator Registry
 
 ```text
 L00-HML-T01 System-boundary validator
@@ -2513,9 +2414,9 @@ L00-HML-T24 Feedback-loop validator
 L00-HML-T25 Authority-propagation validator
 ```
 
----
+______________________________________________________________________
 
-# 97. Failure Modes
+## 97. Failure Modes
 
 ## HML-F01 — Scale Collapse
 
@@ -2527,7 +2428,7 @@ without explicit equivalence proof.
 
 **Effect:** local and global claims become indistinguishable.
 
----
+______________________________________________________________________
 
 ## HML-F02 — Local-to-Global Overreach
 
@@ -2539,105 +2440,105 @@ Conclusion_H
 
 without a valid aggregation path.
 
----
+______________________________________________________________________
 
 ## HML-F03 — Global-to-Local Overreach
 
 System-level statistics or policies are treated as direct descriptions of every local state.
 
----
+______________________________________________________________________
 
 ## HML-F04 — Aggregation-as-Causation
 
 Derived aggregate structure is incorrectly promoted into causal explanation.
 
----
+______________________________________________________________________
 
 ## HML-F05 — Constraint-as-Causation
 
 Downward governance or admissibility constraints are treated as empirical causal mechanisms.
 
----
+______________________________________________________________________
 
 ## HML-F06 — Heterogeneity Destruction
 
 Aggregation removes local differences required for correct decisions.
 
----
+______________________________________________________________________
 
 ## HML-F07 — Scope Expansion
 
 A local claim is generalized beyond its validated population or environment.
 
----
+______________________________________________________________________
 
 ## HML-F08 — Regime Leakage
 
 Evidence from one regime is reused in another without validation.
 
----
+______________________________________________________________________
 
 ## HML-F09 — Temporal Misalignment
 
 Fast and slow scale states are combined as if simultaneous.
 
----
+______________________________________________________________________
 
 ## HML-F10 — Observer Collapse
 
 Different observation contexts are merged without preserving their differences.
 
----
+______________________________________________________________________
 
 ## HML-F11 — Provenance Loss
 
 Cross-scale transformation removes source ancestry.
 
----
+______________________________________________________________________
 
 ## HML-F12 — Confidence Inflation
 
 Derived H-level confidence exceeds unresolved load-bearing L/M premises.
 
----
+______________________________________________________________________
 
 ## HML-F13 — Correlated Evidence Inflation
 
 Multiple descendants of one source are treated as independent cross-scale confirmation.
 
----
+______________________________________________________________________
 
 ## HML-F14 — Cross-Scale Gap Suppression
 
 Missing transformation logic is silently filled by fluent inference.
 
----
+______________________________________________________________________
 
 ## HML-F15 — Repair at Wrong Scale
 
 A local symptom is repaired while the governing failure exists at M or H.
 
----
+______________________________________________________________________
 
 ## HML-F16 — Global Repair Without Local Validation
 
 A policy or architecture change is assumed to have repaired actual downstream behavior.
 
----
+______________________________________________________________________
 
 ## HML-F17 — Local Repair Promoted to System Recovery
 
 A successful local fix is treated as proof of global recovery.
 
----
+______________________________________________________________________
 
 ## HML-F18 — Reality/Model Collapse
 
 Model or simulation state is promoted into observed reality during aggregation.
 
----
+______________________________________________________________________
 
-# 98. Repair / Recovery
+## 98. Repair / Recovery
 
 Canonical recovery sequence:
 
@@ -2669,9 +2570,9 @@ REVALIDATE
 PROPAGATE AGAIN
 ```
 
----
+______________________________________________________________________
 
-# 99. Hard Invariants
+## 99. Hard Invariants
 
 ## L00-HML-INV-01
 
@@ -2795,36 +2696,36 @@ PROPOSAL != COMMIT
 UNKNOWN/GAP != PASS
 ```
 
----
+______________________________________________________________________
 
-# 100. Falsifiers
+## 100. Falsifiers
 
 This architecture is falsified as a claimed implementation if:
 
 1. H/M/L scales are not explicitly defined;
-2. local evidence is promoted directly into global truth without a valid path;
-3. cross-scale transforms lack semantic types;
-4. aggregation is treated as identity;
-5. aggregation is treated as causal proof;
-6. downward constraint is treated as causal proof;
-7. scope disappears during scale transformation;
-8. regime disappears during scale transformation;
-9. observer context disappears when decision-relevant;
-10. provenance is lost;
-11. confidence increases without independent evidence;
-12. correlated sources are treated as independent;
-13. decision-relevant heterogeneity is erased;
-14. model state becomes observed reality through aggregation;
-15. local repair automatically counts as global recovery;
-16. high-level repair requires no downstream validation;
-17. invalid local state causes unrelated branches to be invalidated;
-18. cross-scale gaps are silently filled;
-19. authority is inferred from capability;
-20. unresolved H/M/L dependencies can still return unconditional `PASS`.
+1. local evidence is promoted directly into global truth without a valid path;
+1. cross-scale transforms lack semantic types;
+1. aggregation is treated as identity;
+1. aggregation is treated as causal proof;
+1. downward constraint is treated as causal proof;
+1. scope disappears during scale transformation;
+1. regime disappears during scale transformation;
+1. observer context disappears when decision-relevant;
+1. provenance is lost;
+1. confidence increases without independent evidence;
+1. correlated sources are treated as independent;
+1. decision-relevant heterogeneity is erased;
+1. model state becomes observed reality through aggregation;
+1. local repair automatically counts as global recovery;
+1. high-level repair requires no downstream validation;
+1. invalid local state causes unrelated branches to be invalidated;
+1. cross-scale gaps are silently filled;
+1. authority is inferred from capability;
+1. unresolved H/M/L dependencies can still return unconditional `PASS`.
 
----
+______________________________________________________________________
 
-# 101. RSCF Completion State
+## 101. RSCF Completion State
 
 ```yaml
 claim_class: MODEL
@@ -2907,9 +2808,9 @@ confidence_ceiling:
   ontological_universality: unverified
 ```
 
----
+______________________________________________________________________
 
-# 102. Hard Boundaries
+## 102. Hard Boundaries
 
 ```text
 H/M/L MODEL != UNIVERSAL ONTOLOGY
@@ -2947,9 +2848,9 @@ PROPOSAL != COMMIT
 UNKNOWN/GAP != PASS
 ```
 
----
+______________________________________________________________________
 
-# 103. Canonical L00 H/M/L Loop
+## 103. Canonical L00 H/M/L Loop
 
 ```text
 EXTERNAL REALITY
@@ -3012,104 +2913,98 @@ EXTERNAL ENVIRONMENT
            └──────────────→ L
 ```
 
----
+______________________________________________________________________
 
-# 104. Final H/M/L Law
+## 104. Final H/M/L Law
 
 The governing L00 cross-scale principle is:
 
-[
-\boxed{
-ValidCrossScaleReasoning
-========================
+## \[ \\boxed{ ValidCrossScaleReasoning
 
 TypedTransformation
-\land
+\\land
 DependencyClosure
-\land
+\\land
 ScopeCompatibility
-\land
+\\land
 RegimeCompatibility
-\land
+\\land
 TemporalCompatibility
-\land
+\\land
 ProvenancePreservation
-\land
+\\land
 InvariantPreservation
 }
-]
+\]
 
 For reality-bearing conclusions:
 
-[
-\boxed{
+\[
+\\boxed{
 RealityGrounded_H
-\Rightarrow
+\\Rightarrow
 ValidRealityContact_L
-\land
-ValidPath_{L\rightarrow M\rightarrow H}
+\\land
+ValidPath\_{L\\rightarrow M\\rightarrow H}
 }
-]
+\]
 
 For governed action:
 
-[
-\boxed{
-Action_L
-========
+## \[ \\boxed{ Action_L
 
 Decision_H
-\land
+\\land
 Plan_M
-\land
+\\land
 Capability_L
-\land
+\\land
 Authority
-\land
+\\land
 ConstraintPass
 }
-]
+\]
 
 For recovery:
 
-[
-\boxed{
-Recovery
-========
+## \[ \\boxed{ Recovery
 
 LocateFailureScale
-\rightarrow
+\\rightarrow
 RepairLowestSufficientScale
-\rightarrow
+\\rightarrow
 RevalidateAffectedDependencies
 }
-]
+\]
 
 The central architectural rule is:
 
 > **AMOS may move information, constraints, evidence, and decisions across H/M/L scales only through explicit typed transformations. A local observation does not become a system truth by aggregation, a system constraint does not become a causal mechanism by propagation, and cross-scale reasoning may never erase provenance, scope, regime, uncertainty, or decision-relevant heterogeneity.**
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · 06-Knowledge-Base-MOC · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · AMOS_Typed_Tensor_Contracts · AMOS_Evidence_Tensor_Architecture · Cosmo_Brain_BRIDGE_INDEX · AMOS_Relation_Tensor_Architecture · AMOS_Cross_Scale_RSCF_Tensor_Engine · AMOS_Reality_Simulation_Distinction · AMOS_Constraint_Propagation · AMOS_Provenance_Topology · AMOS_Infrastructure_Control_Plane · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations|AMOS_Simulation_Kernel_v0_Math_Foundations]] · system_scan_agent · automation_profiles
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: l00_reality_environment_primitives_cognitive_matrix_hml
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_HML.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_MOC|L00_REALITY_ENVIRONMENT_MOC]]
-

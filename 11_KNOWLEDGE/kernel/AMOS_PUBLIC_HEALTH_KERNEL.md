@@ -1,4 +1,7 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: AMOS PUBLIC HEALTH KERNEL V0 SCIENCE HEALTH2
 type: kernel
 source: 11_KNOWLEDGE/kernel
@@ -7,13 +10,13 @@ canon-type: framework
 rscf-state: source-claim
 topic: amos-public-health-kernel-v0
 tags:
-- canon-group/biology
-- canon/framework
-- rscf/claim
-- rscf/provenance
-- rscf/state/source-claim
-- topic/amos-public-health-kernel-v0
-- kernel
+  - canon-group/biology
+  - canon/framework
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - topic/amos-public-health-kernel-v0
+  - kernel
 created: 2026-08-22
 rscf:
   state: SOURCE_CLAIM
@@ -24,11 +27,12 @@ rscf:
 
 # AMOS_Public_Health_Kernel_v0
 
-> [!info] Populated Stub
+> [!INFO] Populated Stub
 > Source: `AMOS_Public_Health_Kernel_v0_Biology_Cognition.md` (vault-sourced, content_hash verified).
 > Canon group: biology
 
 ## Status
+
 - **Type**: Kernel spec
 - **Content**: Vault-sourced from Biology_Cognition reference
 - **Action**: Populated 2026-08-26 from source kernel
@@ -78,6 +82,7 @@ rscf:
 ```
 
 ## Related
+
 - [[11_KNOWLEDGE/kernel/AMOS_SECURITY_ARCHITECTURE_KERNEL_V0_TECH|AMOS_SECURITY_ARCHITECTURE_KERNEL_V0_TECH]]
 - [[11_KNOWLEDGE/kernel/AMOS_TECH_AMOS_CORE_KERNEL_V1_TECH4|AMOS_TECH_AMOS_CORE_KERNEL_V1_TECH4]]
 - [[11_KNOWLEDGE/kernel/AMOS_QA_TESTING_KERNEL_V0_TECH|AMOS_QA_TESTING_KERNEL_V0_TECH]]
@@ -86,6 +91,6 @@ rscf:
 - [[00_ROOT/00_COSMO_BRAIN_MOC|00_COSMO_BRAIN_MOC]]
 - AMOS_Public_Health_Kernel_v0_Biology_Cognition (source)
 
----
-**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]
+______________________________________________________________________
 
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]

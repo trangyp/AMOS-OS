@@ -2,17 +2,17 @@
 type: agent
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION
 tags:
-- amos
-- cognitive-matrix
-- matrix/l02
-- attention
-- agents
-- rscf
-- hml
-- provenance
-- control-plane
-- ai
-- domain/cognitive-matrix
+  - amos
+  - cognitive-matrix
+  - matrix/l02
+  - attention
+  - agents
+  - rscf
+  - hml
+  - provenance
+  - control-plane
+  - ai
+  - domain/cognitive-matrix
 title: L02_ATTENTION — Agents
 origin_architect: Trang Phan
 status: MODEL_SPECIFICATION / UNVALIDATED
@@ -39,9 +39,9 @@ rscf:
 >
 > Accordingly, the agent architecture below is a source-bounded AMOS reconstruction. Exact canonical agent names, runtime bindings, thresholds, authority assignments, and implementation state remain `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
-# 0. Executive Definition
+## 0. Executive Definition
 
 `L02_ATTENTION/AGENTS.md` defines the bounded agent roles responsible for proposing, evaluating, coordinating, auditing, and repairing allocation of scarce AMOS attention resources.
 
@@ -82,37 +82,37 @@ AMOS_MODEL
 
 until directly source-confirmed or explicitly approved as new specification.
 
----
+______________________________________________________________________
 
-# 1. Core Purpose
+## 1. Core Purpose
 
 L02 agents exist to coordinate the allocation of finite cognitive resources across competing information, tasks, risks, uncertainties, dependencies, goals, and time horizons.
 
 The governing function is:
 
-[
-\boxed{
+\[
+\\boxed{
 AvailableInformation
-+
+\+
 Goals
-+
+\+
 Constraints
-+
+\+
 AttentionBudget
-\rightarrow
+\\rightarrow
 AttentionAllocationProposal
 }
-]
+\]
 
 not:
 
-[
-\boxed{
+\[
+\\boxed{
 Salience
-\rightarrow
+\\rightarrow
 Truth
 }
-]
+\]
 
 Attention determines **what receives processing resources**.
 
@@ -128,9 +128,9 @@ moral value
 canonical status
 ```
 
----
+______________________________________________________________________
 
-# 2. Source / Canon References
+## 2. Source / Canon References
 
 ## 2.1 Direct Recoverable L02 Source
 
@@ -240,9 +240,9 @@ AGENT CAPABILITY
 AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 3. Definition and Scope
+## 3. Definition and Scope
 
 An `L02 Attention Agent` is a bounded cognitive worker or logical role that participates in attention-resource allocation.
 
@@ -280,18 +280,15 @@ override hard safety constraints
 change canonical architecture
 ```
 
----
+______________________________________________________________________
 
-# 4. Attention Agent Tensor
+## 4. Attention Agent Tensor
 
 Candidate agent tensor:
 
-[
-\boxed{
-T_{Agt}^{L02}
-=============
+## \[ \\boxed{ T\_{Agt}^{L02}
 
-T[
+T\[
 agent_id,
 role,
 capabilities,
@@ -307,9 +304,9 @@ dependencies,
 provenance,
 uncertainty,
 state
-]
+\]
 }
-]
+\]
 
 Candidate typed schema:
 
@@ -365,9 +362,9 @@ L02AttentionAgent:
 
 This is an `AMOS_MODEL` tensor.
 
----
+______________________________________________________________________
 
-# 5. Typed Agent Inputs
+## 5. Typed Agent Inputs
 
 ```yaml
 L02AgentInput:
@@ -421,9 +418,9 @@ L02AgentInput:
     type: AuthorityContext
 ```
 
----
+______________________________________________________________________
 
-# 6. Typed Agent Outputs
+## 6. Typed Agent Outputs
 
 ```yaml
 L02AgentOutput:
@@ -481,9 +478,9 @@ allocation_proposal
 committed_allocation
 ```
 
----
+______________________________________________________________________
 
-# 7. Attention Candidate Object
+## 7. Attention Candidate Object
 
 Agents operate over candidate targets.
 
@@ -553,9 +550,9 @@ AttentionCandidate:
     type: ProvenanceBundle
 ```
 
----
+______________________________________________________________________
 
-# 8. Attention Budget
+## 8. Attention Budget
 
 The recovered source explicitly establishes that L02 budgets scarce reasoning/observation resources.
 
@@ -597,9 +594,9 @@ Unavailable dimensions remain:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 9. Candidate Agent Registry
+## 9. Candidate Agent Registry
 
 The following are **architectural roles**, not claims of canonical or deployed agents.
 
@@ -626,9 +623,9 @@ L02.A19_ATTENTION_AUDITOR
 L02.A20_CONTROL_PLANE_INTERFACE_AGENT
 ```
 
----
+______________________________________________________________________
 
-# 10. A01 — Attention Router
+## 10. A01 — Attention Router
 
 **Role:** determine which attention subsystem should inspect a candidate.
 
@@ -658,17 +655,17 @@ agent:
 
 Hard invariant:
 
-[
+\[
 Route(x)
-\neq
+\\neq
 Prioritize(x)
-]
+\]
 
 Routing does not itself mean high priority.
 
----
+______________________________________________________________________
 
-# 11. A02 — Priority Assessor
+## 11. A02 — Priority Assessor
 
 **Role:** estimate relative priority among attention candidates.
 
@@ -689,9 +686,7 @@ resource cost
 
 Candidate structural model:
 
-[
-P(x)
-====
+## \[ P(x)
 
 f(
 G_x,
@@ -705,32 +700,32 @@ I_x,
 V_x,
 Cost_x
 )
-]
+\]
 
 This is an `AMOS_MODEL`.
 
 No canonical weighting is asserted here.
 
----
+______________________________________________________________________
 
-# 12. A03 — Budget Allocator
+## 12. A03 — Budget Allocator
 
 **Role:** propose distribution of scarce attention resources.
 
 Candidate constraint:
 
-[
-\boxed{
-\sum_i b_i
-\le
-B_{available}
+\[
+\\boxed{
+\\sum_i b_i
+\\le
+B\_{available}
 }
-]
+\]
 
 where:
 
-- \(b_i\) = attention assigned to target (i),
-- (B_{available}) = available budget.
+- (b_i) = attention assigned to target (i),
+- (B\_{available}) = available budget.
 
 Candidate output states:
 
@@ -746,9 +741,9 @@ Hard constraints are non-compensatory.
 
 A high score on one criterion cannot automatically override a hard invariant.
 
----
+______________________________________________________________________
 
-# 13. A04 — Salience Monitor
+## 13. A04 — Salience Monitor
 
 **Role:** detect events or objects that stand out strongly in the active information field.
 
@@ -768,40 +763,38 @@ prediction error
 
 Hard boundary:
 
-[
-\boxed{
+\[
+\\boxed{
 Salience
-\neq
+\\neq
 Truth
 }
-]
+\]
 
 and:
 
-[
-\boxed{
+\[
+\\boxed{
 Salience
-\neq
+\\neq
 Importance
 }
-]
+\]
 
 A highly salient distractor may deserve less attention than a quiet but load-bearing dependency.
 
----
+______________________________________________________________________
 
-# 14. A05 — Goal Relevance Agent
+## 14. A05 — Goal Relevance Agent
 
 **Role:** assess candidate relevance to the currently authorized objective.
 
 Candidate relation:
 
-[
-GR(x,g)
-=======
+## \[ GR(x,g)
 
 Relevance(x,g)
-]
+\]
 
 The agent must use the active authoritative goal.
 
@@ -816,9 +809,9 @@ historical objective
 
 for the active authorized objective.
 
----
+______________________________________________________________________
 
-# 15. A06 — Risk Attention Agent
+## 15. A06 — Risk Attention Agent
 
 **Role:** identify candidates whose potential harm or irreversibility justifies increased scrutiny.
 
@@ -848,9 +841,9 @@ ATTENTION ESCALATION CANDIDATE
 
 not automatic action.
 
----
+______________________________________________________________________
 
-# 16. A07 — Uncertainty Attention Agent
+## 16. A07 — Uncertainty Attention Agent
 
 **Role:** identify uncertainty that could materially change the outcome.
 
@@ -869,32 +862,30 @@ provenance-independence uncertainty
 
 Low-value background uncertainty should not consume scarce budget merely because it exists.
 
----
+______________________________________________________________________
 
-# 17. A08 — Dependency Criticality Agent
+## 17. A08 — Dependency Criticality Agent
 
 **Role:** identify premises or nodes with large downstream dependency effects.
 
 Candidate metric:
 
-[
-DC(x)
-=====
+## \[ DC(x)
 
 Impact(x)
-\times
+\\times
 FanOut(x)
-\times
+\\times
 LoadBearing(x)
-]
+\]
 
 This is an `AMOS_MODEL`.
 
 A quiet premise with high fan-out may deserve more attention than a dramatic but isolated observation.
 
----
+______________________________________________________________________
 
-# 18. A09 — Temporal Urgency Agent
+## 18. A09 — Temporal Urgency Agent
 
 **Role:** detect time-sensitive attention requirements.
 
@@ -913,17 +904,17 @@ irreversibility threshold
 
 Urgency does not imply truth.
 
-[
-\boxed{
+\[
+\\boxed{
 Urgent
-\neq
+\\neq
 Correct
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 19. A10 — Novelty Monitor
+## 19. A10 — Novelty Monitor
 
 **Role:** detect genuinely new information.
 
@@ -939,18 +930,16 @@ repeated evidence
 
 Candidate rule:
 
-[
-Novel(x)
-========
+## \[ Novel(x)
 
 InformationNotAlreadyRepresented(x)
-]
+\]
 
 subject to provenance and semantic-equivalence checks.
 
----
+______________________________________________________________________
 
-# 20. A11 — Conflict Monitor
+## 20. A11 — Conflict Monitor
 
 **Role:** increase attention toward unresolved contradictions that can alter downstream conclusions.
 
@@ -975,9 +964,9 @@ COMPETING
 
 when discriminating evidence is insufficient.
 
----
+______________________________________________________________________
 
-# 21. A12 — Attention Balancer
+## 21. A12 — Attention Balancer
 
 **Role:** prevent over-allocation to one target, modality, agent, or hypothesis.
 
@@ -995,20 +984,18 @@ resource exhaustion
 
 Candidate concentration measure:
 
-[
-Concentration
-=============
+## \[ Concentration
 
-\frac{\max_i b_i}{B_{total}}
-]
+\\frac{\\max_i b_i}{B\_{total}}
+\]
 
 This is a model diagnostic only.
 
 No universal safe threshold is asserted.
 
----
+______________________________________________________________________
 
-# 22. A13 — Attention Drift Monitor
+## 22. A13 — Attention Drift Monitor
 
 **Role:** detect when active focus deviates from the authorized objective or decision-relevant uncertainty.
 
@@ -1035,9 +1022,9 @@ invalidate irrelevant branch
 resume smallest sufficient path
 ```
 
----
+______________________________________________________________________
 
-# 23. A14 — Fixation Detector
+## 23. A14 — Fixation Detector
 
 **Role:** detect excessive attention persistence on one target or hypothesis.
 
@@ -1064,9 +1051,9 @@ NO CHANGED ASSUMPTION
 DO NOT REPEAT
 ```
 
----
+______________________________________________________________________
 
-# 24. A15 — Starvation Detector
+## 24. A15 — Starvation Detector
 
 **Role:** detect material targets receiving insufficient attention.
 
@@ -1084,9 +1071,9 @@ repair-critical dependency
 
 Attention starvation is especially material when the ignored target can flip the outcome.
 
----
+______________________________________________________________________
 
-# 25. A16 — Distractor Filter
+## 25. A16 — Distractor Filter
 
 **Role:** reduce resource allocation to highly salient but low decision-value information.
 
@@ -1104,9 +1091,9 @@ low-value side branches
 
 Filtering must not discard evidence merely because it is inconvenient.
 
----
+______________________________________________________________________
 
-# 26. A17 — Cross-Scale Attention Agent
+## 26. A17 — Cross-Scale Attention Agent
 
 **Role:** coordinate H/M/L attention.
 
@@ -1128,9 +1115,9 @@ L attention resolves decisive detail
 
 But upward escalation is permitted when L evidence invalidates an H premise.
 
----
+______________________________________________________________________
 
-# 27. A18 — Attention Repair Agent
+## 27. A18 — Attention Repair Agent
 
 **Role:** repair invalid attention allocation.
 
@@ -1158,9 +1145,9 @@ what changed
 what new allocation replaced it
 ```
 
----
+______________________________________________________________________
 
-# 28. A19 — Attention Auditor
+## 28. A19 — Attention Auditor
 
 **Role:** independently inspect whether the attention system obeyed its contract.
 
@@ -1181,9 +1168,9 @@ Did any agent exceed authority?
 
 Auditing is separate from allocation.
 
----
+______________________________________________________________________
 
-# 29. A20 — Control-Plane Interface Agent
+## 29. A20 — Control-Plane Interface Agent
 
 **Role:** translate cognitive attention proposals into control-plane-readable requests.
 
@@ -1200,17 +1187,17 @@ quarantine request
 
 It may not self-authorize consequential effects.
 
-[
-\boxed{
+\[
+\\boxed{
 InterfaceAgent
-\neq
+\\neq
 AuthorityRoot
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 30. Agent State Variables
+## 30. Agent State Variables
 
 ```text
 A_id   = agent identity
@@ -1232,18 +1219,15 @@ F      = failure state
 Rep    = repair state
 ```
 
----
+______________________________________________________________________
 
-# 31. Attention Allocation Tensor
+## 31. Attention Allocation Tensor
 
 Candidate primitive-level tensor:
 
-[
-\boxed{
-T_{att}
-=======
+## \[ \\boxed{ T\_{att}
 
-T[
+T\[
 target,
 salience,
 goal_relevance,
@@ -1259,41 +1243,26 @@ scope,
 regime,
 provenance,
 allocation
-]
+\]
 }
-]
+\]
 
 The tensor encodes decision-relevant dimensions.
 
 It does not imply that those dimensions have canonical numerical scales.
 
----
+______________________________________________________________________
 
-# 32. Candidate Attention Equation
+## 32. Candidate Attention Equation
 
 Candidate structural allocation score:
 
-[
-Score(x)
-========
+## \[ Score(x)
 
-w_g G_x
-+
-w_r R_x
-+
-w_u U_x
-+
-w_t T_x
-+
-w_d D_x
-+
-w_n N_x
-+
-w_i I_x
--------
+## w_g G_x + w_r R_x + w_u U_x + w_t T_x + w_d D_x + w_n N_x + w_i I_x
 
 w_c Cost_x
-]
+\]
 
 subject to hard invariants.
 
@@ -1309,14 +1278,11 @@ No canonical weights are claimed.
 
 A safer governance form is:
 
-[
-\boxed{
-Admit(x)
-========
+## \[ \\boxed{ Admit(x)
 
-\bigwedge_k HardInvariant_k(x)
+\\bigwedge_k HardInvariant_k(x)
 }
-]
+\]
 
 followed by ranking among admissible candidates.
 
@@ -1328,9 +1294,9 @@ HARD FAILURE
 COMPENSATABLE LOW SCORE
 ```
 
----
+______________________________________________________________________
 
-# 33. Core Agent Invariants
+## 33. Core Agent Invariants
 
 ```text
 L02-AGT-INV-001
@@ -1394,21 +1360,21 @@ L02-AGT-INV-020
 Optimization may not weaken integrity.
 ```
 
----
+______________________________________________________________________
 
-# 34. Attention Conservation Constraint
+## 34. Attention Conservation Constraint
 
 For an explicit finite budget:
 
-[
-\boxed{
-\sum_i Allocation_i
-+
+\[
+\\boxed{
+\\sum_i Allocation_i
+\+
 Reserve
-\le
-Budget_{total}
+\\le
+Budget\_{total}
 }
-]
+\]
 
 If actual resource dimensions are unknown:
 
@@ -1418,26 +1384,23 @@ Budget = UNKNOWN
 
 rather than fabricating a precise capacity.
 
----
+______________________________________________________________________
 
-# 35. Minimum Attention Principle
+## 35. Minimum Attention Principle
 
 Use the smallest sufficient attention scope.
 
 Conceptually:
 
-[
-\boxed{
-A^*
-===
+## \[ \\boxed{ A^\*
 
-\min A
-\quad
-\text{s.t.}
-\quad
+\\min A
+\\quad
+\\text{s.t.}
+\\quad
 DecisionSufficiency(A)=1
 }
-]
+\]
 
 This is an AMOS_MODEL efficiency rule.
 
@@ -1449,9 +1412,9 @@ on information that cannot materially change
 the answer, decision, validation state, or repair path.
 ```
 
----
+______________________________________________________________________
 
-# 36. Escalation Principle
+## 36. Escalation Principle
 
 Escalate attention when:
 
@@ -1470,9 +1433,9 @@ causal claims are proposed
 
 De-escalate after decisive uncertainty is resolved.
 
----
+______________________________________________________________________
 
-# 37. Dependencies
+## 37. Dependencies
 
 Primary architectural dependencies:
 
@@ -1512,9 +1475,9 @@ dependency graph
 authority state
 ```
 
----
+______________________________________________________________________
 
-# 38. H/M/L Applicability
+## 38. H/M/L Applicability
 
 ## H — Governing Attention
 
@@ -1556,29 +1519,29 @@ individual variables
 specific falsifiers
 ```
 
----
+______________________________________________________________________
 
-# 39. Cross-Scale Attention Rule
+## 39. Cross-Scale Attention Rule
 
 Candidate structure:
 
-[
+\[
 A_H
-\rightarrow
+\\rightarrow
 A_M
-\rightarrow
+\\rightarrow
 A_L
-]
+\]
 
 but upward interrupts are permitted:
 
-[
+\[
 Critical_L
-\rightarrow
+\\rightarrow
 Reallocate_M
-\rightarrow
+\\rightarrow
 Reassess_H
-]
+\]
 
 if a local finding invalidates a governing assumption.
 
@@ -1590,9 +1553,9 @@ H PRIORITY
 PERMISSION TO IGNORE FALSIFYING L EVIDENCE
 ```
 
----
+______________________________________________________________________
 
-# 40. Control-Plane Requirements
+## 40. Control-Plane Requirements
 
 The control plane should own or validate:
 
@@ -1616,9 +1579,9 @@ Attention agents may propose resource allocation.
 
 They must not own final authority unless explicitly delegated.
 
----
+______________________________________________________________________
 
-# 41. Agent Authority Envelope
+## 41. Agent Authority Envelope
 
 Candidate authority levels:
 
@@ -1656,9 +1619,9 @@ authority_levels:
 
 No role inherits `COMMIT` automatically.
 
----
+______________________________________________________________________
 
-# 42. Agent Cooperation Model
+## 42. Agent Cooperation Model
 
 Candidate collaboration:
 
@@ -1690,9 +1653,9 @@ It does not require separate LLM instances.
 
 A runtime may implement multiple roles inside one deterministic or model-assisted component.
 
----
+______________________________________________________________________
 
-# 43. Anti-Homogenization Rule
+## 43. Anti-Homogenization Rule
 
 Specialist agents should not merely reproduce one shared ranking.
 
@@ -1724,9 +1687,9 @@ INDEPENDENT EVIDENCE
 
 Agent diversity must not be confused with provenance independence.
 
----
+______________________________________________________________________
 
-# 44. Workflow — Standard Attention Allocation
+## 44. Workflow — Standard Attention Allocation
 
 ```text
 ACTIVE OBJECTIVE
@@ -1764,9 +1727,9 @@ CONTROL-PLANE VALIDATION
 COMMIT / REVISE / QUARANTINE
 ```
 
----
+______________________________________________________________________
 
-# 45. Workflow — High-Stakes Allocation
+## 45. Workflow — High-Stakes Allocation
 
 ```text
 HIGH-CONSEQUENCE TARGET
@@ -1792,9 +1755,9 @@ ALLOCATE ADDITIONAL ATTENTION IF DECISION VALUE > COST
 AUDIT
 ```
 
----
+______________________________________________________________________
 
-# 46. Workflow — Attention Drift Recovery
+## 46. Workflow — Attention Drift Recovery
 
 ```text
 DRIFT DETECTED
@@ -1816,9 +1779,9 @@ REVALIDATE PRIORITY
 RESUME
 ```
 
----
+______________________________________________________________________
 
-# 47. Workflow — Fixation Recovery
+## 47. Workflow — Fixation Recovery
 
 ```text
 TARGET RECEIVES REPEATED ATTENTION
@@ -1839,9 +1802,9 @@ YES?
     CONTINUE BOUNDED INVESTIGATION
 ```
 
----
+______________________________________________________________________
 
-# 48. Workflow — Critical Gap Escalation
+## 48. Workflow — Critical Gap Escalation
 
 ```text
 GAP IDENTIFIED
@@ -1863,9 +1826,9 @@ ALLOCATE ATTENTION
 RESOLVE / CONDITIONAL / UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 49. Protocols
+## 49. Protocols
 
 Candidate agent protocol objects:
 
@@ -1905,9 +1868,9 @@ authority
 validation state
 ```
 
----
+______________________________________________________________________
 
-# 50. Evidence / Provenance Requirements
+## 50. Evidence / Provenance Requirements
 
 Every consequential allocation should be traceable to:
 
@@ -1928,12 +1891,9 @@ authority context
 
 Candidate provenance tensor:
 
-[
-\boxed{
-P_{att}
-=======
+## \[ \\boxed{ P\_{att}
 
-T[
+T\[
 target,
 objective,
 inputs,
@@ -1945,13 +1905,13 @@ regime,
 HML,
 validation,
 authority
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 51. Uncertainty Vector
+## 51. Uncertainty Vector
 
 Candidate attention uncertainty:
 
@@ -1986,45 +1946,45 @@ attention_uncertainty:
     type: LOW | MEDIUM | HIGH | UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 52. Confidence Ceiling
+## 52. Confidence Ceiling
 
-For an allocation proposal \(A\):
+For an allocation proposal (A):
 
-[
-\boxed{
+\[
+\\boxed{
 Conf(A)
-\le
-\min_i Conf(P_i)
+\\le
+\\min_i Conf(P_i)
 }
-]
+\]
 
-for load-bearing premises \(P_i\).
+for load-bearing premises (P_i).
 
 Candidate expansion:
 
-[
+\[
 Conf(A)
-\le
-\min(
-Conf_{goal},
-Conf_{evidence},
-Conf_{risk},
-Conf_{dependency},
-Conf_{scope},
-Conf_{regime},
-Conf_{budget}
+\\le
+\\min(
+Conf\_{goal},
+Conf\_{evidence},
+Conf\_{risk},
+Conf\_{dependency},
+Conf\_{scope},
+Conf\_{regime},
+Conf\_{budget}
 )
-]
+\]
 
 where applicable.
 
 No fluent ranking may raise weak evidence above its actual support.
 
----
+______________________________________________________________________
 
-# 53. Failure Modes
+## 53. Failure Modes
 
 ```text
 FM-L02-AGT-001   Salience-as-Truth
@@ -2059,9 +2019,9 @@ FM-L02-AGT-029   Conflict-Suppression
 FM-L02-AGT-030   Repair-Lineage-Loss
 ```
 
----
+______________________________________________________________________
 
-# 54. Repair / Recovery
+## 54. Repair / Recovery
 
 General attention repair:
 
@@ -2095,18 +2055,16 @@ COMMIT IF AUTHORIZED
 
 Repair must not require global attention recomputation when the affected dependency closure is local.
 
----
+______________________________________________________________________
 
-# 55. Selective Attention Reallocation
+## 55. Selective Attention Reallocation
 
 If target (x)'s priority premise fails:
 
-[
-Affected(x)
-===========
+## \[ Affected(x)
 
 AttentionAllocationsDependentOn(x)
-]
+\]
 
 Only affected allocations should be invalidated where dependency structure permits.
 
@@ -2116,9 +2074,9 @@ LOCAL PRIORITY FAILURE
 GLOBAL ATTENTION RESET
 ```
 
----
+______________________________________________________________________
 
-# 56. Agents and AI Application
+## 56. Agents and AI Application
 
 For AI systems, L02 agents may govern scarce resources such as:
 
@@ -2151,9 +2109,9 @@ RESOURCE ALLOCATION
 REASON / RETRIEVE / VERIFY / TOOL / DEFER
 ```
 
----
+______________________________________________________________________
 
-# 57. AI Attention Use Cases
+## 57. AI Attention Use Cases
 
 Candidate applications:
 
@@ -2173,9 +2131,9 @@ route high-uncertainty cases to human review
 
 These are implementation possibilities, not claims of current deployment.
 
----
+______________________________________________________________________
 
-# 58. AI Attention Safety Boundary
+## 58. AI Attention Safety Boundary
 
 An AI attention controller must not use priority scoring to bypass:
 
@@ -2190,20 +2148,17 @@ information boundaries
 
 Candidate law:
 
-[
-\boxed{
-AdmissibleTarget(x)
-===================
+## \[ \\boxed{ AdmissibleTarget(x)
 
-\bigwedge_i HardInvariant_i(x)
+\\bigwedge_i HardInvariant_i(x)
 }
-]
+\]
 
 Only then may ranking occur.
 
----
+______________________________________________________________________
 
-# 59. Tests / Validators
+## 59. Tests / Validators
 
 Candidate validators:
 
@@ -2230,9 +2185,9 @@ VALIDATOR_PROPOSAL_COMMIT
 VALIDATOR_REPAIR_LINEAGE
 ```
 
----
+______________________________________________________________________
 
-# 60. Minimum Test Suite
+## 60. Minimum Test Suite
 
 ```text
 TEST_L02_AGENT_001
@@ -2296,9 +2251,9 @@ TEST_L02_AGENT_020
 Repair preserves failed allocation history.
 ```
 
----
+______________________________________________________________________
 
-# 61. Adversarial Tests
+## 61. Adversarial Tests
 
 Test agents against:
 
@@ -2326,9 +2281,9 @@ reserve exhaustion
 cross-scale priority inflation
 ```
 
----
+______________________________________________________________________
 
-# 62. Falsifiers
+## 62. Falsifiers
 
 This agent contract should be revised if:
 
@@ -2352,9 +2307,9 @@ formal analysis identifies contradictory agent invariants
 executed tests falsify the proposed attention behavior
 ```
 
----
+______________________________________________________________________
 
-# 63. Gap Matrix
+## 63. Gap Matrix
 
 ```yaml
 gap_matrix:
@@ -2473,9 +2428,9 @@ gap_matrix:
     status: MODEL_COMPLETE_UNEXECUTED
 ```
 
----
+______________________________________________________________________
 
-# 64. Gap Resolution Priority
+## 64. Gap Resolution Priority
 
 ```text
 1. Recover direct L02 ATTENTION canon.
@@ -2519,9 +2474,9 @@ gap_matrix:
 20. Promote status only from source or execution evidence.
 ```
 
----
+______________________________________________________________________
 
-# 65. Evidence / Provenance of This Artifact
+## 65. Evidence / Provenance of This Artifact
 
 ```yaml
 artifact_provenance:
@@ -2555,9 +2510,9 @@ artifact_provenance:
     status: NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 66. Uncertainty Vector
+## 66. Uncertainty Vector
 
 ```yaml
 uncertainty:
@@ -2593,9 +2548,9 @@ uncertainty:
     level: MEDIUM_HIGH
 ```
 
----
+______________________________________________________________________
 
-# 67. Confidence Ceiling
+## 67. Confidence Ceiling
 
 Strongest warranted conclusion:
 
@@ -2617,17 +2572,17 @@ NEUROSCIENTIFIC MODEL OF HUMAN ATTENTION
 
 Therefore:
 
-[
-\boxed{
-C_{L02-[[AGENTS|AGENTS]]}
-\le
-C_{weakest\ load-bearing\ premise}
+[[AGENTS|AGENTS]]\[
+\\boxed{
+C\_{L02-[[AGENTS|AGENTS]]}
+\\le
+C\_{weakest\\ load-bearing\\ premise}
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 68. RSCF Completion State
+## 68. RSCF Completion State
 
 ```yaml
 rscf:
@@ -2756,9 +2711,9 @@ rscf:
     and compare exact roles and authority boundaries against this model
 ```
 
----
+______________________________________________________________________
 
-# 69. Completion State
+## 69. Completion State
 
 ```yaml
 completion_state:
@@ -2842,9 +2797,9 @@ completion_state:
     MODEL / CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
-# 70. Agent Contract Summary
+## 70. Agent Contract Summary
 
 ```text
 L02 ATTENTION AGENT SYSTEM
@@ -2892,9 +2847,9 @@ The governing principle is:
 
 > **Attention is a finite governance resource. AMOS should allocate it toward information whose processing can materially change correctness, safety, decision quality, repair, or downstream validity—without confusing salience, novelty, repetition, or urgency with truth.**
 
----
+______________________________________________________________________
 
-# 71. Hard Boundaries
+## 71. Hard Boundaries
 
 ```text
 PLACEHOLDER != IMPLEMENTED
@@ -2962,9 +2917,9 @@ CANON_COMPLETE != IMPLEMENTED
 IMPLEMENTED != VALIDATED
 ```
 
----
+______________________________________________________________________
 
-# 72. References
+## 72. References
 
 ## Direct Recovered Reference
 
@@ -3035,30 +2990,33 @@ AMOS_COGNITION
 
 > Reference presence establishes intended lineage and dependency only. It does not establish that the reconstructed L02 agent registry or equations above appear verbatim in those sources.
 
----
+______________________________________________________________________
 
 **Related:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION/L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_README|L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION/L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_README|L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION/L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_README|L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION/L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_README|L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION/L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_README|L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION/L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_README|L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION/L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_README|L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION/L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_README|L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION/L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_README|L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION/L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_README|L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION/L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_README|L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION/L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_README|L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION/L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_README|L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION/L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_README|L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION/L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_README|L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION/L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_README|L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION/L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_README|L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION/L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_README|L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION/L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_README|L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_README]]
 
 ```text
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: l02_attention_primitives_cognitive_matrix_agents
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION/L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_AGENTS.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION/L02_ATTENTION_MOC|L02_ATTENTION_MOC]]
-

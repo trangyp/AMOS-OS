@@ -4,25 +4,22 @@ title: SKILL — Amos Target Of Repair Intelligence
 type: skill
 source: 07_SKILLS/amos-target-of-repair-intelligence
 name: amos-target-of-repair-intelligence
-description: Target Of Repair Intelligence — audit and repair capability. Use when
-  auditing, failure analysis, gap discovery, or repair allocation. Use when amos-audit-repair-master
-  routes to this specialized capability. Do not use for generic tasks outside audit
-  domain.
+description: Target Of Repair Intelligence — audit and repair capability. Use when auditing, failure analysis, gap discovery, or repair allocation. Use when amos-audit-repair-master routes to this specialized capability. Do not use for generic tasks outside audit domain.
 parent_skill: amos-audit-repair-master
 domain: audit
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
 tags:
-- type/skill
-- type/skill
-- domain/audit-repair
-- epistemic/source_claim
-- hml/m
-- epistemic/source_claim
-- amos-os
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/audit-repair
+  - epistemic/source_claim
+  - hml/m
+  - epistemic/source_claim
+  - amos-os
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -32,25 +29,25 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: M
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
-- L7_authority
-- L22_replayability
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
+  - L7_authority
+  - L22_replayability
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L7
-- L16
-- L17
-- L18
-- L22
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L7
+  - L16
+  - L17
+  - L18
+  - L22
 license: MIT
 steward: Trang Phan
 ---
@@ -60,6 +57,7 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: audit. Parent: amos-audit-repair-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
 ## When to Use
 
 - When auditing claims against evidence and provenance
@@ -80,6 +78,7 @@ Origin architect: **Trang Phan**. Domain: audit. Parent: amos-audit-repair-maste
 - **target_of.benchmark_forensics**: Benchmark forensic analysis: trace performance regressions to root causes
 
 > **Reference**: See `references/vault_domain_knowledge.md` (content_hash: e390ceb1dc8f0a41) for the full vault-sourced domain knowledge (9031 chars).
+
 - **target_of.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
 - **target_of.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **target_of.validate_outputs**: Validate outputs against domain constraints and epistemic class.
@@ -87,13 +86,13 @@ Origin architect: **Trang Phan**. Domain: audit. Parent: amos-audit-repair-maste
 ## Operations
 
 1. **target_of.audit_claim**: Audit claims against evidence, provenance, and epistemic class
-2. **target_of.detect_gap**: Detect gaps: missing capabilities, missing evidence, missing tests, missing monitors
-3. **target_of.allocate_repair**: Allocate repair resources to highest-leverage gaps and failure modes
-4. **target_of.verify_closure**: Verify gap closure: requirement → capability → component → test → evidence
-5. **target_of.benchmark_forensics**: Benchmark forensic analysis: trace performance regressions to root causes
-6. **target_of.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-7. **target_of.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
-8. **target_of.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+1. **target_of.detect_gap**: Detect gaps: missing capabilities, missing evidence, missing tests, missing monitors
+1. **target_of.allocate_repair**: Allocate repair resources to highest-leverage gaps and failure modes
+1. **target_of.verify_closure**: Verify gap closure: requirement → capability → component → test → evidence
+1. **target_of.benchmark_forensics**: Benchmark forensic analysis: trace performance regressions to root causes
+1. **target_of.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+1. **target_of.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+1. **target_of.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## 11_KNOWLEDGE Vault Content
 
@@ -104,13 +103,15 @@ Origin architect: **Trang Phan**. Domain: audit. Parent: amos-audit-repair-maste
 The Cognitive Organism OS defines target-of-repair intelligence for identifying what needs to be repaired and why.
 
 **Target identification**:
+
 1. **Detect failure**: identify the failure symptom
-2. **Trace cause**: trace the failure to its root cause
-3. **Identify target**: identify the specific component that needs repair
-4. **Classify repair**: classify the repair type (patch, replace, refactor, rebuild)
-5. **Estimate impact**: estimate the impact of the repair on the system
+1. **Trace cause**: trace the failure to its root cause
+1. **Identify target**: identify the specific component that needs repair
+1. **Classify repair**: classify the repair type (patch, replace, refactor, rebuild)
+1. **Estimate impact**: estimate the impact of the repair on the system
 
 **Target types**:
+
 - **Capability target**: a capability that is not functioning correctly
 - **Binding target**: a 1:1:1 binding that is broken
 - **Provenance target**: a provenance chain that is broken
@@ -142,9 +143,10 @@ Target-of-repair intelligence is a diagnostic construct. It does not prove all f
 
 ## Provenance
 
-- **Skill**: `amos-target-of
+- **Skill**: \`amos-target-of
 
----
+______________________________________________________________________
+
 **Links:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 ## Related
@@ -154,17 +156,19 @@ Target-of-repair intelligence is a diagnostic construct. It does not prove all f
 ## Examples
 
 - **Scenario**: When auditing claims against evidence and provenance
+
   - **Input**: A query matching this skill's domain (audit)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When detecting gaps in capabilities, evidence, tests, or monitors
+
   - **Input**: A query matching this skill's domain (audit)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When allocating repair resources to highest-leverage gaps
+
   - **Input**: A query matching this skill's domain (audit)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Anti-Patterns
 
@@ -174,7 +178,6 @@ Target-of-repair intelligence is a diagnostic construct. It does not prove all f
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `amos-audit-repair-master` — routes to this skill when audit specialization is needed
@@ -182,7 +185,6 @@ Target-of-repair intelligence is a diagnostic construct. It does not prove all f
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -201,7 +203,6 @@ Target-of-repair intelligence is a diagnostic construct. It does not prove all f
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -209,7 +210,6 @@ Target-of-repair intelligence is a diagnostic construct. It does not prove all f
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -222,11 +222,12 @@ Target-of-repair intelligence is a diagnostic construct. It does not prove all f
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `amos-audit-repair-master` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `amos-target-of-repair-intelligence-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -234,12 +235,14 @@ Target-of-repair intelligence is a diagnostic construct. It does not prove all f
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-target-of-repair-intelligence
 node_type: skill
 path: 07_SKILLS/amos-target-of-repair-intelligence/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

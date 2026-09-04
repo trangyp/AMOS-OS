@@ -10,11 +10,11 @@ primitive: L04_OBJECT_ENTITY_FORMATION
 artifact: STATE.md
 runtime_alignment: AMOS Full Brain OS / AMOS_CORE v4.4 lineage
 tags:
-- cognitive-matrix
-- primitives
-- matrix/l04-object-entity-formation
-- note
-- domain/cognitive-matrix
+  - cognitive-matrix
+  - primitives
+  - matrix/l04-object-entity-formation
+  - note
+  - domain/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -78,9 +78,9 @@ IDENTITY HYPOTHESIS != IDENTITY FACT
 STATE TRANSITION PROPOSAL != COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 1. Source / Canon References
+## 1. Source / Canon References
 
 ## 1.1 AMOS kernel alignment
 
@@ -139,9 +139,9 @@ canonical_L04_commit_semantics:
 
 All L04-specific structures below are consequently classified `AMOS_MODEL`.
 
----
+______________________________________________________________________
 
-# 2. Definition and Scope
+## 2. Definition and Scope
 
 ## 2.1 Definition
 
@@ -224,9 +224,9 @@ control-plane ownership
 empirical consciousness claims
 ```
 
----
+______________________________________________________________________
 
-# 3. Primary State Type
+## 3. Primary State Type
 
 ```yaml
 L04State:
@@ -331,9 +331,9 @@ L04State:
     type: RevisionID | null
 ```
 
----
+______________________________________________________________________
 
-# 4. Typed Inputs
+## 4. Typed Inputs
 
 ```yaml
 L04StateInput:
@@ -393,9 +393,9 @@ CRITICAL INPUT GAP
 
 rather than inferred completion.
 
----
+______________________________________________________________________
 
-# 5. Typed Outputs
+## 5. Typed Outputs
 
 ```yaml
 L04StateOutput:
@@ -443,9 +443,9 @@ L04StateOutput:
     type: GapRecord[]
 ```
 
----
+______________________________________________________________________
 
-# 6. Lifecycle State
+## 6. Lifecycle State
 
 Candidate lifecycle:
 
@@ -492,9 +492,9 @@ UNKNOWN_GAP
 
 No lifecycle progression is automatic.
 
----
+______________________________________________________________________
 
-# 7. State Variables
+## 7. State Variables
 
 ```text
 P_t      admitted percept state
@@ -558,19 +558,19 @@ Rev_t    state revision
 
 Candidate composite state:
 
-[
+\[
 X_t =
 (P_t,D_t,F_t,R_t,B_t,Bind_t,O_t,C_t,I_t,E_t,
 PW_t,Obs_t,Sc_t,Rg_t,Tm_t,Fr_t,
 Prov_t,Dep_t,RSCF_t,Contra_t,Comp_t,Gap_t,
 U_t,Conf_t,Auth_t,Prop_t,Commit_t,Epoch_t,Rev_t)
-]
+\]
 
 `AMOS_MODEL`.
 
----
+______________________________________________________________________
 
-# 8. Candidate Subtypes
+## 8. Candidate Subtypes
 
 ## 8.1 Object Candidate
 
@@ -665,9 +665,9 @@ EntityCandidate:
     type: ConfidenceBound
 ```
 
----
+______________________________________________________________________
 
-# 9. Operators
+## 9. Operators
 
 Candidate state operators:
 
@@ -726,18 +726,16 @@ REQUEST_COMMIT
 ROLLBACK_PROPOSAL
 ```
 
----
+______________________________________________________________________
 
-# 10. Candidate Transition Function
+## 10. Candidate Transition Function
 
 Conceptually:
 
-[
-X_{t+1}^{proposal}
-==================
+## \[ X\_{t+1}^{proposal}
 
-T_{L04}(X_t,;P_{t+1},;C_t,;A_t)
-]
+T\_{L04}(X_t,;P\_{t+1},;C_t,;A_t)
+\]
 
 where:
 
@@ -750,19 +748,19 @@ A_t       authority context
 
 But:
 
-[
-X_{t+1}^{proposal}
-\neq
-X_{t+1}^{committed}
-]
+\[
+X\_{t+1}^{proposal}
+\\neq
+X\_{t+1}^{committed}
+\]
 
 until the relevant control-plane gates succeed.
 
 This is an `AMOS_MODEL`, not an established cognitive equation.
 
----
+______________________________________________________________________
 
-# 11. Invariants
+## 11. Invariants
 
 ```text
 STATE-L04-001
@@ -857,9 +855,9 @@ ROLLBACK MUST NOT ERASE FAILURE PROVENANCE.
 
 These align with the kernel requirements that hard-gate failure blocks transitions, confidence remain bounded by load-bearing premises, correlated descendants not count as independent confirmation, capability not imply authority, and rollback preserve failure memory.
 
----
+______________________________________________________________________
 
-# 12. Dependencies
+## 12. Dependencies
 
 Candidate dependency graph:
 
@@ -910,9 +908,9 @@ L04_CONTROL_PLANES
 
 Exact canonical dependency closure remains `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
-# 13. H/M/L Applicability
+## 13. H/M/L Applicability
 
 ## H — Entity / Persistent Identity State
 
@@ -998,9 +996,9 @@ M object identity
 H entity identity
 ```
 
----
+______________________________________________________________________
 
-# 14. Control-Plane Requirements
+## 14. Control-Plane Requirements
 
 The authoritative control plane must remain outside the cognitive worker's unsupported conclusions.
 
@@ -1047,9 +1045,9 @@ fail closed on unresolved critical gaps
 
 The kernel explicitly treats typed state, provenance, authority, transactions, replay, and finalization as control-plane concerns rather than free-form worker cognition.
 
----
+______________________________________________________________________
 
-# 15. Agents
+## 15. Agents
 
 Candidate logical roles:
 
@@ -1070,9 +1068,9 @@ These are logical `MODEL` roles only.
 
 Their existence as implemented autonomous agents is not established.
 
----
+______________________________________________________________________
 
-# 16. Skills
+## 16. Skills
 
 Candidate capability dependencies:
 
@@ -1112,9 +1110,9 @@ Hard boundary:
 SKILL ADDRESSABILITY != L04 CANON MEMBERSHIP
 ```
 
----
+______________________________________________________________________
 
-# 17. Workflows
+## 17. Workflows
 
 ## 17.1 State formation
 
@@ -1182,9 +1180,9 @@ RECOMPUTE AFFECTED CONFIDENCE
 PROPOSE REVISION
 ```
 
----
+______________________________________________________________________
 
-# 18. Protocols
+## 18. Protocols
 
 Candidate protocols:
 
@@ -1218,9 +1216,9 @@ L04_STATE_REPLAY
 
 Canonical protocol names remain `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
-# 19. Evidence / Provenance
+## 19. Evidence / Provenance
 
 Every material state node should carry:
 
@@ -1269,9 +1267,9 @@ StateNodeProvenance:
 
 A derived object/entity state must never erase the evidence topology from which it was formed.
 
----
+______________________________________________________________________
 
-# 20. Uncertainty Vector
+## 20. Uncertainty Vector
 
 ```yaml
 L04UncertaintyVector:
@@ -1330,19 +1328,19 @@ L04UncertaintyVector:
 
 Candidate confidence rule:
 
-[
+\[
 C(X_i)
-\le
-\min_{p \in LB(X_i)} C(p)
-]
+\\le
+\\min\_{p \\in LB(X_i)} C(p)
+\]
 
 where `LB(X_i)` is the set of unresolved load-bearing premises supporting state node `X_i`.
 
 This expresses the AMOS confidence-ceiling rule as a `MODEL` equation.
 
----
+______________________________________________________________________
 
-# 21. Competing State
+## 21. Competing State
 
 L04 must support simultaneous incompatible representations.
 
@@ -1383,9 +1381,9 @@ forced merge
 silent arbitrary selection
 ```
 
----
+______________________________________________________________________
 
-# 22. Failure Modes
+## 22. Failure Modes
 
 ```yaml
 failure_modes:
@@ -1454,9 +1452,9 @@ failure_modes:
     response: fail_closed
 ```
 
----
+______________________________________________________________________
 
-# 23. Repair / Recovery
+## 23. Repair / Recovery
 
 Candidate recovery process:
 
@@ -1499,9 +1497,9 @@ ROLLBACK != ERASURE
 
 The kernel explicitly requires selective invalidation and preservation of failure memory.
 
----
+______________________________________________________________________
 
-# 24. Tests / Validators
+## 24. Tests / Validators
 
 ```text
 STATE-T01
@@ -1631,9 +1629,9 @@ formal_verification: false
 empirical_validation: false
 ```
 
----
+______________________________________________________________________
 
-# 25. Falsifiers
+## 25. Falsifiers
 
 This state contract must be revised if authoritative L04 canon establishes:
 
@@ -1677,9 +1675,9 @@ competing_state_models:
     status: UNKNOWN_GAP
 ```
 
----
+______________________________________________________________________
 
-# 26. Gap Status
+## 26. Gap Status
 
 ```yaml
 gap_status:
@@ -1763,9 +1761,9 @@ identifier conventions
 serialization format
 ```
 
----
+______________________________________________________________________
 
-# 27. Primary RSCF Capsule
+## 27. Primary RSCF Capsule
 
 ```yaml
 rscf:
@@ -1861,9 +1859,9 @@ rscf:
     canonical_L04_state_contract: UNKNOWN_GAP
 ```
 
----
+______________________________________________________________________
 
-# 28. Completion State
+## 28. Completion State
 
 ```yaml
 completion_state:
@@ -1941,9 +1939,9 @@ completion_state:
     MODEL
 ```
 
----
+______________________________________________________________________
 
-# 29. Hard Boundaries
+## 29. Hard Boundaries
 
 ```text
 PLACEHOLDER != IMPLEMENTED
@@ -1999,15 +1997,15 @@ ROLLBACK != FAILURE ERASURE
 VALIDATED_FOR_SCOPE != UNIVERSALLY VALIDATED
 ```
 
----
+______________________________________________________________________
 
-# 30. Governing State Contract
+## 30. Governing State Contract
 
 > **`L04_OBJECT_ENTITY_FORMATION` SHALL maintain object/entity formation as typed, provenance-preserving, scope-bound, regime-aware, freshness-aware, contradiction-visible and selectively invalidatable state. Every material object candidate SHALL remain traceable to admitted perceptual or derived support; every entity candidate SHALL retain explicit continuity and identity dependencies; and every merge, split, binding, boundary, continuity, or identity operation SHALL preserve lineage. Object candidates SHALL NOT be promoted to verified objects merely because they are coherent, and entity candidates SHALL NOT be promoted to verified identities from labels, similarity, continuity, repetition, or structural resemblance alone. Genuine competing object partitions or identity hypotheses SHALL remain `COMPETING` until discriminating evidence resolves them. Confidence SHALL NOT exceed the weakest unresolved load-bearing premise. State mutation SHALL remain distinct from authority, and state-transition proposals SHALL remain distinct from durable commit. Failed validation, stale evidence, provenance loss, revision conflict, unauthorized mutation, or critical unresolved gaps SHALL block the affected transition and resolve to rejection, quarantine, conditional status, `COMPETING`, repair, or `UNKNOWN/GAP`, never synthetic `PASS`.**
 
----
+______________________________________________________________________
 
-# 31. Canon Boundary
+## 31. Canon Boundary
 
 ```text
 SOURCE-ALIGNED:
@@ -2108,22 +2106,27 @@ NOT ESTABLISHED
 
 ```
 ```
----
+
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: l04_object_entity_formation_primitives_cognitive_matrix_state
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L04_OBJECT_ENTITY_FORMATION/L04_OBJECT_ENTITY_FORMATION_PRIMITIVES_COGNITIVE_MATRIX_STATE.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L04_OBJECT_ENTITY_FORMATION/L04_OBJECT_ENTITY_FORMATION_MOC|L04_OBJECT_ENTITY_FORMATION_MOC]]

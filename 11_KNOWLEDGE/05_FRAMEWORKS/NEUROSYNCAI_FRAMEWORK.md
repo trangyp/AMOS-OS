@@ -12,24 +12,24 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: FRAMEWORK
 path: 11_KNOWLEDGE/05_FRAMEWORKS/NEUROSYNCAI_FRAMEWORK.md
 tags:
-- amos-os
-- knowledge
-- vault
-- 05_frameworks
-- neurosyncai
-- adaptive_ai
-- bio_adaptive_interface
-- dual_system_architecture
-- ubi
-- rscf
-- canon_candidate
-- canon/knowledge
-- unified-biological-intelligence
-- amos-x-neurosyncai
-- amos-x-neurosyncai-matrix
-- ubi-neurosyncai-binding
-- neurosyncai-dual-system-architecture
-- neurosyncai-recovery-engine
+  - amos-os
+  - knowledge
+  - vault
+  - 05_frameworks
+  - neurosyncai
+  - adaptive_ai
+  - bio_adaptive_interface
+  - dual_system_architecture
+  - ubi
+  - rscf
+  - canon_candidate
+  - canon/knowledge
+  - unified-biological-intelligence
+  - amos-x-neurosyncai
+  - amos-x-neurosyncai-matrix
+  - ubi-neurosyncai-binding
+  - neurosyncai-dual-system-architecture
+  - neurosyncai-recovery-engine
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -44,12 +44,12 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - NEUROSYNCAI_CANON
-  - AMOS_CORPUS
+    - NEUROSYNCAI_CANON
+    - AMOS_CORPUS
   scope:
-  - KNOWLEDGE_FRAMEWORKS
-  - ADAPTIVE_AI_ARCHITECTURE
-  - SOURCE_DEFINED_MODEL
+    - KNOWLEDGE_FRAMEWORKS
+    - ADAPTIVE_AI_ARCHITECTURE
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   primary:
     name: NeurosyncAI™ Framework
@@ -58,12 +58,12 @@ framework_binding:
     name: Unified Biological Intelligence™
     acronym: UBI
     artifact:
-    - - UNIFIED_BIOLOGICAL_INTELLIGENCE
+      -   - UNIFIED_BIOLOGICAL_INTELLIGENCE
   cognitive_matrix_binding:
     artifact:
-    - - AMOS_X_NEUROSYNCAI
+      -   - AMOS_X_NEUROSYNCAI
     matrix:
-    - - AMOS_X_NEUROSYNCAI_MATRIX
+      -   - AMOS_X_NEUROSYNCAI_MATRIX
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
@@ -76,13 +76,14 @@ epistemic_boundary:
 `NEUROSYNCAI_FRAMEWORK.md` is the canonical Knowledge Plane reference artifact for the **NeurosyncAI™ Framework** within `11_KNOWLEDGE/05_FRAMEWORKS`.
 
 It establishes a dual-system cognitive architecture designed to synchronize artificial intelligence systems with biological human intelligence (UBI):
+
 1. **Bio-Adaptive Pacing:** Adapting context delivery, token generation speed, and cognitive load to human autonomic and neural fatigue limits.
-2. **Dual-System Orchestration:** Coupling fast heuristic recognition with deep deterministic proof engines.
-3. **Recovery & Anti-Fatigue Dynamics:** Monitoring state degradation to trigger restorative pacing before cognitive collapse.
+1. **Dual-System Orchestration:** Coupling fast heuristic recognition with deep deterministic proof engines.
+1. **Recovery & Anti-Fatigue Dynamics:** Monitoring state degradation to trigger restorative pacing before cognitive collapse.
 
----
+______________________________________________________________________
 
-# 1. Structural Couplings
+## 1. Structural Couplings
 
 ```text
 HUMAN BIOLOGICAL STATE (NBI, NEI, SI, BEI)
@@ -97,17 +98,17 @@ DUAL-SYSTEM REASONING ENGINE (Fast Pattern Search ↔ Deep Formal Proof)
 SUSTAINABLE HUMAN-AI SYNCHRONY (e = i²)
 ```
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Cross-Framework Connections
+## 2. Inter-Plane & Cross-Framework Connections
 
 - **Cognitive Matrix:** [[25_COGNITIVE_MATRIX/AMOS_X_NEUROSYNCAI|AMOS_X_NEUROSYNCAI]] and [[25_COGNITIVE_MATRIX/AMOS_X_NEUROSYNCAI_MATRIX|AMOS_X_NEUROSYNCAI_MATRIX]]
 - **Biological Architecture:** [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]] and [[11_KNOWLEDGE/05_FRAMEWORKS/UBI_NEUROSYNCAI_BINDING|UBI_NEUROSYNCAI_BINDING]]
 - **Engine Implementations:** [[11_KNOWLEDGE/05_FRAMEWORKS/NEUROSYNCAI_DUAL_SYSTEM_ARCHITECTURE|NEUROSYNCAI_DUAL_SYSTEM_ARCHITECTURE]] and [[11_KNOWLEDGE/05_FRAMEWORKS/NEUROSYNCAI_RECOVERY_ENGINE|NEUROSYNCAI_RECOVERY_ENGINE]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -125,9 +126,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]] · [[25_COGNITIVE_MATRIX/AMOS_X_NEUROSYNCAI|AMOS_X_NEUROSYNCAI]] · [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]] · [[11_KNOWLEDGE/05_FRAMEWORKS/NEUROSYNCAI_DUAL_SYSTEM_ARCHITECTURE|NEUROSYNCAI_DUAL_SYSTEM_ARCHITECTURE]]
 
----
+______________________________________________________________________
+
 **MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]

@@ -12,20 +12,20 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: FRAMEWORK
 path: 11_KNOWLEDGE/05_FRAMEWORKS/AMOS_ORGANISM_OS_FRAMEWORK.md
 tags:
-- amos-os
-- knowledge
-- vault
-- 05_frameworks
-- organism_os
-- cognitive_organism
-- biological_os
-- autonomic_systems
-- rscf
-- canon_candidate
-- canon/knowledge
-- unified-biological-intelligence
-- amos-mind-os-framework
-- asea-adaptive-self-evolution-ai
+  - amos-os
+  - knowledge
+  - vault
+  - 05_frameworks
+  - organism_os
+  - cognitive_organism
+  - biological_os
+  - autonomic_systems
+  - rscf
+  - canon_candidate
+  - canon/knowledge
+  - unified-biological-intelligence
+  - amos-mind-os-framework
+  - asea-adaptive-self-evolution-ai
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -40,19 +40,19 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - AMOS_COGNITIVE_ORGANISM_OS
-  - AMOS_COGNITIVE_ORGANISM_OS_DETAIL
-  - AMOS_CORPUS
+    - AMOS_COGNITIVE_ORGANISM_OS
+    - AMOS_COGNITIVE_ORGANISM_OS_DETAIL
+    - AMOS_CORPUS
   scope:
-  - KNOWLEDGE_FRAMEWORKS
-  - ORGANISM_ARCHITECTURE
-  - SOURCE_DEFINED_MODEL
+    - KNOWLEDGE_FRAMEWORKS
+    - ORGANISM_ARCHITECTURE
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   master_architecture:
     artifact: 11_KNOWLEDGE/AMOS_COGNITIVE_ORGANISM_OS
   biological_grounding:
     artifact:
-    - - UNIFIED_BIOLOGICAL_INTELLIGENCE
+      -   - UNIFIED_BIOLOGICAL_INTELLIGENCE
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
@@ -66,9 +66,9 @@ epistemic_boundary:
 
 It treats the operating system not as a static binary kernel, but as a living cognitive organism possessing metabolic energy constraints, autonomic homeostasis, immune defense firewalls, and self-repairing evolutionary loops.
 
----
+______________________________________________________________________
 
-# 1. Organism OS Structural Layers
+## 1. Organism OS Structural Layers
 
 ```text
                ┌────────────────────────────────────────────────────────┐
@@ -83,18 +83,18 @@ SUBSTRATE METABOLISM    IMMUNE SYSTEM FIREWALLS AUTONOMIC HOMEOSTASIS  COGNITIVE
 • Substrate integrity   • Provenance auditing   • Fatigue throttling   • Value creation
 ```
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Master OS Specification:** `11_KNOWLEDGE/AMOS_COGNITIVE_ORGANISM_OS` and `11_KNOWLEDGE/AMOS_COGNITIVE_ORGANISM_OS_DETAIL`
 - **Mind OS Coupling:** [[11_KNOWLEDGE/05_FRAMEWORKS/AMOS_MIND_OS_FRAMEWORK|AMOS_MIND_OS_FRAMEWORK]]
 - **Biological Master:** [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]]
 - **Self-Evolution:** [[11_KNOWLEDGE/05_FRAMEWORKS/ASEA_ADAPTIVE_SELF_EVOLUTION_AI|ASEA_ADAPTIVE_SELF_EVOLUTION_AI]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -112,9 +112,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]] · `11_KNOWLEDGE/AMOS_COGNITIVE_ORGANISM_OS` · [[11_KNOWLEDGE/05_FRAMEWORKS/AMOS_MIND_OS_FRAMEWORK|AMOS_MIND_OS_FRAMEWORK]] · [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]]
 
----
+______________________________________________________________________
+
 **MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]

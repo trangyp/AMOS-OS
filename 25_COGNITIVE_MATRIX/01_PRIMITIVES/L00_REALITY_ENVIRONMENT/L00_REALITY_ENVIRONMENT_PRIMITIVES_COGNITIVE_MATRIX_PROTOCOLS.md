@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: L00_REALITY_ENVIRONMENT — Protocols
 type: protocol
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT
 tags:
-- cognitive-matrix
-- primitives
-- matrix/l00-reality-environment
-- note
-- domain/cognitive-matrix
+  - cognitive-matrix
+  - primitives
+  - matrix/l00-reality-environment
+  - note
+  - domain/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -21,9 +24,9 @@ rscf:
 **Origin architect / steward:** Trang Phan
 **Status:** `ARCHITECTURE CONTRACT / IMPLEMENTATION-DEPENDENT`
 
----
+______________________________________________________________________
 
-# 1. Purpose
+## 1. Purpose
 
 `L00_REALITY_ENVIRONMENT / PROTOCOLS` defines the governed interaction contracts by which AMOS components exchange observations, evidence, state, claims, proposals, authority, effects, acknowledgements, failures, and recovery information while interacting with a reality/environment boundary.
 
@@ -31,14 +34,14 @@ A protocol is not merely a message format.
 
 An AMOS protocol is a typed state-transition contract:
 
-[
-\boxed{
+\[
+\\boxed{
 P:
 (Sender,Receiver,Message,State,Context,Authority)
-\rightarrow
+\\rightarrow
 (State',Receipt,Provenance)
 }
-]
+\]
 
 A valid protocol must specify:
 
@@ -66,9 +69,9 @@ A valid protocol must specify:
 - auditability;
 - falsifiers.
 
----
+______________________________________________________________________
 
-# 2. Protocol Architecture
+## 2. Protocol Architecture
 
 ```text
 REALITY / ENVIRONMENT
@@ -135,14 +138,14 @@ No arrow implies automatic promotion.
 
 Every transition requires its own admissibility conditions.
 
----
+______________________________________________________________________
 
-# 3. Universal Protocol Tensor
+## 3. Universal Protocol Tensor
 
-[
-\boxed{
+\[
+\\boxed{
 T_P =
-T[
+T\[
 protocol_id,
 protocol_class,
 sender,
@@ -166,13 +169,13 @@ receipt,
 rollback,
 failure_state,
 confidence
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 4. Protocol Contract
+## 4. Protocol Contract
 
 Every consequential protocol should expose:
 
@@ -228,14 +231,14 @@ protocol_contract:
   falsifiers: []
 ```
 
----
+______________________________________________________________________
 
-# 5. Protocol State Machine
+## 5. Protocol State Machine
 
 Let protocol state be:
 
-[
-Q_t \in
+\[
+Q_t \\in
 {
 INIT,
 OBSERVED,
@@ -253,16 +256,13 @@ QUARANTINED,
 ROLLED_BACK,
 UNKNOWN
 }
-]
+\]
 
 Transition:
 
-[
-\boxed{
-Q_{t+1}
-=======
+## \[ \\boxed{ Q\_{t+1}
 
-\delta(
+\\delta(
 Q_t,
 M_t,
 C_t,
@@ -270,26 +270,26 @@ A_t,
 E_t
 )
 }
-]
+\]
 
 where:
 
-- \(M_t\) = received message;
-- \(C_t\) = constraints/context;
-- \(A_t\) = authority state;
-- \(E_t\) = evidence state.
+- (M_t) = received message;
+- (C_t) = constraints/context;
+- (A_t) = authority state;
+- (E_t) = evidence state.
 
----
+______________________________________________________________________
 
-# 6. Protocol Transition Invariant
+## 6. Protocol Transition Invariant
 
-[
-\boxed{
+\[
+\\boxed{
 Transition(Q_i,Q_j)
-\Rightarrow
+\\Rightarrow
 Preconditions(Q_j)=PASS
 }
-]
+\]
 
 No protocol state may be promoted merely because the previous state completed technically.
 
@@ -303,9 +303,9 @@ AUTHORIZED != COMMITTED
 COMMITTED != RECEIVER-CONFIRMED
 ```
 
----
+______________________________________________________________________
 
-# 7. Reality Observation Protocol
+## 7. Reality Observation Protocol
 
 Purpose:
 
@@ -338,11 +338,9 @@ OBSERVATION RECORD
 
 Observation tensor:
 
-[
-T_{obs}
-=======
+## \[ T\_{obs}
 
-T[
+T\[
 target,
 observer,
 method,
@@ -353,8 +351,8 @@ resolution,
 observation,
 uncertainty,
 provenance
-]
-]
+\]
+\]
 
 Hard boundary:
 
@@ -362,18 +360,18 @@ Hard boundary:
 OBSERVATION != REALITY
 ```
 
----
+______________________________________________________________________
 
-# 8. Evidence Acquisition Protocol
+## 8. Evidence Acquisition Protocol
 
-[
-\boxed{
-P_{EA}:
+\[
+\\boxed{
+P\_{EA}:
 Observation
-\rightarrow
+\\rightarrow
 CandidateEvidence
 }
-]
+\]
 
 Required checks:
 
@@ -393,14 +391,14 @@ revocation state
 
 Candidate evidence is not automatically admitted evidence.
 
----
+______________________________________________________________________
 
-# 9. Evidence Tensor
+## 9. Evidence Tensor
 
-[
-\boxed{
+\[
+\\boxed{
 T_E =
-T[
+T\[
 evidence_id,
 source,
 source_type,
@@ -417,13 +415,13 @@ quality,
 freshness,
 revocation,
 license
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 10. Evidence Admission Protocol
+## 10. Evidence Admission Protocol
 
 ```text
 CANDIDATE EVIDENCE
@@ -469,18 +467,18 @@ REJECT
 UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 11. Provenance Resolution Protocol
+## 11. Provenance Resolution Protocol
 
-[
-\boxed{
-P_{prov}:
+\[
+\\boxed{
+P\_{prov}:
 EvidenceSet
-\rightarrow
+\\rightarrow
 ProvenanceGraph
 }
-]
+\]
 
 Required operations:
 
@@ -499,16 +497,13 @@ Hard invariant:
 MULTIPLE RECORDS != MULTIPLE INDEPENDENT SOURCES
 ```
 
----
+______________________________________________________________________
 
-# 12. Evidence Independence Protocol
+## 12. Evidence Independence Protocol
 
 For evidence (E_i,E_j):
 
-[
-\boxed{
-Independence(E_i,E_j)
-=====================
+## \[ \\boxed{ Independence(E_i,E_j)
 
 f(
 ancestry,
@@ -519,7 +514,7 @@ shared_model,
 shared_validator
 )
 }
-]
+\]
 
 Possible states:
 
@@ -533,9 +528,9 @@ UNKNOWN
 
 Independence must be demonstrated when independent confirmation is claimed.
 
----
+______________________________________________________________________
 
-# 13. Claim Formation Protocol
+## 13. Claim Formation Protocol
 
 ```text
 EVIDENCE
@@ -565,14 +560,14 @@ CONFIDENCE CEILING
 CLAIM
 ```
 
----
+______________________________________________________________________
 
-# 14. Claim Tensor
+## 14. Claim Tensor
 
-[
-\boxed{
+\[
+\\boxed{
 T_C =
-T[
+T\[
 claim_id,
 text,
 epistemic_class,
@@ -588,26 +583,26 @@ falsifiers,
 sensitivity,
 confidence_ceiling,
 consequence
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 15. Claim Validation Protocol
+## 15. Claim Validation Protocol
 
-[
-\boxed{
-P_{CV}:
+\[
+\\boxed{
+P\_{CV}:
 Claim
-\times
+\\times
 Evidence
-\times
+\\times
 Dependencies
-\rightarrow
+\\rightarrow
 ConclusionClass
 }
-]
+\]
 
 Allowed classes:
 
@@ -623,19 +618,19 @@ FALSIFIED
 
 Hard invariant:
 
-[
-\boxed{
+\[
+\\boxed{
 Confidence(C)
-\leq
-\min Confidence(P_i)
+\\leq
+\\min Confidence(P_i)
 }
-]
+\]
 
 for unresolved load-bearing premises unless independently revalidated evidence justifies otherwise.
 
----
+______________________________________________________________________
 
-# 16. Causal Claim Protocol
+## 16. Causal Claim Protocol
 
 Causal promotion requires a separate gate.
 
@@ -678,66 +673,63 @@ STRUCTURAL SIMILARITY != CAUSATION
 DEPENDENCY != CAUSATION
 ```
 
----
+______________________________________________________________________
 
-# 17. Competing-Hypothesis Protocol
+## 17. Competing-Hypothesis Protocol
 
 Let:
 
-[
+\[
 H =
-{H_1,H_2,\ldots,H_n}
-]
+{H_1,H_2,\\ldots,H_n}
+\]
 
 AMOS preserves hypotheses as `COMPETING` when available evidence does not discriminate them.
 
-[
-\boxed{
+\[
+\\boxed{
 InsufficientDiscrimination(H)
-\Rightarrow
+\\Rightarrow
 Preserve(H)
 }
-]
+\]
 
 Do not force convergence for narrative simplicity.
 
----
+______________________________________________________________________
 
-# 18. Discriminating Evidence Protocol
+## 18. Discriminating Evidence Protocol
 
 Choose the smallest useful test:
 
-[
-\boxed{
-T^*
-===
+## \[ \\boxed{ T^\*
 
-\arg\max_T
-\frac{
+\\arg\\max_T
+\\frac{
 ExpectedInformationGain(T)
 }{
 Cost(T)+Risk(T)+Delay(T)
 }
 }
-]
+\]
 
 This is an AMOS decision model.
 
 It is not asserted as a universal empirical law.
 
----
+______________________________________________________________________
 
-# 19. Scope Compatibility Protocol
+## 19. Scope Compatibility Protocol
 
 Before transferring a claim:
 
-[
-\boxed{
+\[
+\\boxed{
 Reusable(C,S')
-\Rightarrow
+\\Rightarrow
 Compatible(S_C,S')
 }
-]
+\]
 
 Scope may include:
 
@@ -752,17 +744,17 @@ observer
 assumptions
 ```
 
----
+______________________________________________________________________
 
-# 20. Regime Compatibility Protocol
+## 20. Regime Compatibility Protocol
 
-[
-\boxed{
+\[
+\\boxed{
 Reusable(C,R')
-\Rightarrow
+\\Rightarrow
 Compatible(R_C,R')
 }
-]
+\]
 
 A regime change triggers revalidation of regime-dependent conclusions.
 
@@ -770,22 +762,19 @@ A regime change triggers revalidation of regime-dependent conclusions.
 PAST VALIDITY != CURRENT VALIDITY
 ```
 
----
+______________________________________________________________________
 
-# 21. Freshness Protocol
+## 21. Freshness Protocol
 
 For state-dependent evidence:
 
-[
-\boxed{
-Fresh(E,t)
-==========
+## \[ \\boxed{ Fresh(E,t)
 
 Age(E,t)
-\leq
+\\leq
 TTL(E,Claim,Regime)
 }
-]
+\]
 
 where a TTL is defined.
 
@@ -793,9 +782,9 @@ Freshness is claim-relative.
 
 The same evidence may remain valid for one claim while becoming stale for another.
 
----
+______________________________________________________________________
 
-# 22. H/M/L Protocol
+## 22. H/M/L Protocol
 
 ## H — Governing Protocols
 
@@ -831,16 +820,13 @@ L-level protocols govern:
 - local transformations;
 - local validations.
 
----
+______________________________________________________________________
 
-# 23. H/M/L Protocol Tensor
+## 23. H/M/L Protocol Tensor
 
-[
-\boxed{
-T_{HML-P}
-=========
+## \[ \\boxed{ T\_{HML-P}
 
-T[
+T\[
 protocol,
 scale,
 parent,
@@ -852,13 +838,13 @@ downward_constraints,
 scope,
 regime,
 provenance
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 24. Cross-Scale Protocol Invariant
+## 24. Cross-Scale Protocol Invariant
 
 ```text
 LOCAL SUCCESS != GLOBAL VALIDITY
@@ -872,26 +858,24 @@ Applicable H-level constraints propagate downward.
 
 L-level evidence propagates upward only through an explicit aggregation or evidence protocol.
 
----
+______________________________________________________________________
 
-# 25. Agent-to-Agent Protocol
+## 25. Agent-to-Agent Protocol
 
-[
-\boxed{
-P_{AA}:
+\[
+\\boxed{
+P\_{AA}:
 Agent_i
-\xrightarrow{Message}
+\\xrightarrow{Message}
 Agent_j
 }
-]
+\]
 
 Message tensor:
 
-[
-T_{msg}
-=======
+## \[ T\_{msg}
 
-T[
+T\[
 message_id,
 sender,
 receiver,
@@ -904,14 +888,14 @@ authority,
 provenance,
 dependencies,
 expiry
-]
-]
+\]
+\]
 
 Receiver must not infer authority merely from sender identity.
 
----
+______________________________________________________________________
 
-# 26. Agent-to-Skill Protocol
+## 26. Agent-to-Skill Protocol
 
 ```text
 AGENT
@@ -938,9 +922,9 @@ TYPED RESULT
 EVIDENCE / PROVENANCE
 ```
 
----
+______________________________________________________________________
 
-# 27. Skill Capability Manifest Protocol
+## 27. Skill Capability Manifest Protocol
 
 Each domain skill should expose a capability manifest.
 
@@ -981,9 +965,9 @@ Infrastructure resolves capability requirements.
 
 It should not embed domain-specific logic unnecessarily.
 
----
+______________________________________________________________________
 
-# 28. Task Contract Protocol
+## 28. Task Contract Protocol
 
 Before substantial execution:
 
@@ -1023,29 +1007,26 @@ Hard invariant:
 AMBIGUOUS HIGH-CONSEQUENCE TASK != EXECUTABLE TASK
 ```
 
----
+______________________________________________________________________
 
-# 29. Capability Resolution Protocol
+## 29. Capability Resolution Protocol
 
-[
-\boxed{
-P_{CR}:
+\[
+\\boxed{
+P\_{CR}:
 TaskContract
-\times
+\\times
 CapabilityManifest
-\rightarrow
+\\rightarrow
 ResolvedCapabilityContract
 }
-]
+\]
 
 The resolved capability contract should be frozen or otherwise identity-bound before consequential execution.
 
 Conceptually:
 
-[
-\boxed{
-CapabilityIdentity
-==================
+## \[ \\boxed{ CapabilityIdentity
 
 Hash(
 CapabilityDefinition,
@@ -1053,11 +1034,11 @@ Version,
 Requirements
 )
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 30. Domain Evidence Protocol
+## 30. Domain Evidence Protocol
 
 Domain skills return evidence rather than infrastructure authority.
 
@@ -1095,22 +1076,19 @@ Hard boundary:
 DOMAIN RESULT != COMMIT AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 31. Read-Set Protocol
+## 31. Read-Set Protocol
 
 A consequential decision should retain the state actually used.
 
-[
-\boxed{
-ReadSet
-=======
+## \[ \\boxed{ ReadSet
 
 {
 (object_i,version_i,hash_i)
 }
 }
-]
+\]
 
 The authoritative read set should be based on observed runtime/tool accesses where available.
 
@@ -1120,24 +1098,19 @@ Hard invariant:
 UNREAD STATE CHANGE != AUTOMATIC DECISION INVALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 32. Fine-Grained Freshness Protocol
+## 32. Fine-Grained Freshness Protocol
 
 At commit:
 
-[
-\boxed{
-Fresh(ReadSet)
-==============
+## \[ \\boxed{ Fresh(ReadSet)
 
-\bigwedge_i
-CurrentIdentity(object_i)
-=========================
+## \\bigwedge_i CurrentIdentity(object_i)
 
 ObservedIdentity(object_i)
 }
-]
+\]
 
 If one read object changed:
 
@@ -1151,16 +1124,16 @@ not automatically:
 RECOMPUTE EVERYTHING
 ```
 
----
+______________________________________________________________________
 
-# 33. Semantic Transaction Protocol
+## 33. Semantic Transaction Protocol
 
 Semantically coupled reasoning and effects should be represented as a transaction.
 
-[
-\boxed{
+\[
+\\boxed{
 TX =
-T[
+T\[
 transaction_id,
 claims,
 read_set,
@@ -1170,37 +1143,34 @@ constraints,
 authority,
 provenance,
 commit_state
-]
+\]
 }
-]
+\]
 
 Transaction invariant:
 
-[
-\boxed{
-SemanticAtomicity
-=================
+## \[ \\boxed{ SemanticAtomicity
 
 ALL
-\lor
+\\lor
 NONE
 }
-]
+\]
 
 when partial completion would violate the task semantics.
 
----
+______________________________________________________________________
 
-# 34. Proposal Protocol
+## 34. Proposal Protocol
 
-[
-\boxed{
-P_{proposal}:
+\[
+\\boxed{
+P\_{proposal}:
 ReasoningState
-\rightarrow
+\\rightarrow
 EffectIntent
 }
-]
+\]
 
 Effect intent must specify:
 
@@ -1222,22 +1192,22 @@ Hard boundary:
 PROPOSAL != COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 35. Authorization Protocol
+## 35. Authorization Protocol
 
-[
-\boxed{
-P_{auth}:
+\[
+\\boxed{
+P\_{auth}:
 EffectIntent
-\times
+\\times
 AuthorizationSpec
-\times
+\\times
 AuthorityWitness
-\rightarrow
+\\rightarrow
 AuthorizationState
 }
-]
+\]
 
 Possible states:
 
@@ -1250,17 +1220,15 @@ REVOKED
 UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 36. Authority Witness
+## 36. Authority Witness
 
 Authority should be externally inspectable rather than inferred from capability.
 
-[
-T_A
-===
+## \[ T_A
 
-T[
+T\[
 authority_id,
 principal,
 operation,
@@ -1271,8 +1239,8 @@ expires_at,
 revocation,
 scope,
 provenance
-]
-]
+\]
+\]
 
 Hard invariant:
 
@@ -1280,34 +1248,31 @@ Hard invariant:
 CAPABILITY != AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 37. Authority Freshness Protocol
+## 37. Authority Freshness Protocol
 
 Before durable effect:
 
-[
-\boxed{
-AuthorityValid_{commit}
-=======================
+## \[ \\boxed{ AuthorityValid\_{commit}
 
 AuthorityExists
-\land
+\\land
 NotExpired
-\land
+\\land
 NotRevoked
-\land
+\\land
 ScopeCompatible
-\land
+\\land
 OperationCompatible
 }
-]
+\]
 
 Authorization validated earlier does not guarantee authorization remains valid at commit.
 
----
+______________________________________________________________________
 
-# 38. Prepare Protocol
+## 38. Prepare Protocol
 
 Before commit, create a prepared effect state.
 
@@ -1329,16 +1294,13 @@ PREPARE EFFECT
    └── bind provenance
 ```
 
----
+______________________________________________________________________
 
-# 39. Effect Intent Tensor
+## 39. Effect Intent Tensor
 
-[
-\boxed{
-T_{EI}
-======
+## \[ \\boxed{ T\_{EI}
 
-T[
+T\[
 effect_id,
 transaction_id,
 principal,
@@ -1351,40 +1313,37 @@ read_set,
 idempotency_key,
 reversibility,
 provenance
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 40. Commit-Time Validation Protocol
+## 40. Commit-Time Validation Protocol
 
 A proposal must be revalidated at the durable-effect boundary.
 
-[
-\boxed{
-CommitAllowed
-=============
+## \[ \\boxed{ CommitAllowed
 
 EvidenceValid
-\land
+\\land
 ReadSetFresh
-\land
+\\land
 ConstraintsFresh
-\land
+\\land
 AuthorityFresh
-\land
+\\land
 EffectLineageValid
-\land
+\\land
 TransactionValid
 }
-]
+\]
 
 where each condition applies.
 
----
+______________________________________________________________________
 
-# 41. Proposal / Commit Firewall
+## 41. Proposal / Commit Firewall
 
 ```text
 MODEL OUTPUT
@@ -1409,18 +1368,15 @@ CONTROL PLANE
            COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 42. Effect Release Protocol
+## 42. Effect Release Protocol
 
 Durable effects require an authoritative release state.
 
 Conceptual identity:
 
-[
-\boxed{
-ReleaseIdentity
-===============
+## \[ \\boxed{ ReleaseIdentity
 
 (
 ledger_id,
@@ -1429,13 +1385,13 @@ version,
 content_hash
 )
 }
-]
+\]
 
 A scalar version is insufficient when authoritative content could change independently.
 
----
+______________________________________________________________________
 
-# 43. Effect Release States
+## 43. Effect Release States
 
 ```text
 PREPARED
@@ -1449,16 +1405,13 @@ ROLLED_BACK
 BLOCKED
 ```
 
----
+______________________________________________________________________
 
-# 44. Idempotency Protocol
+## 44. Idempotency Protocol
 
 Every retryable durable effect should have a stable idempotency identity.
 
-[
-\boxed{
-I_K
-===
+## \[ \\boxed{ I_K
 
 Hash(
 principal,
@@ -1467,7 +1420,7 @@ target,
 semantic_effect
 )
 }
-]
+\]
 
 Conceptually, identical retries should not create duplicate durable effects.
 
@@ -1477,9 +1430,9 @@ RETRY != NEW EFFECT
 
 when semantic identity is unchanged.
 
----
+______________________________________________________________________
 
-# 45. Crash-Ambiguity Protocol
+## 45. Crash-Ambiguity Protocol
 
 If execution state becomes uncertain:
 
@@ -1493,26 +1446,26 @@ ENTER RECONCILE
 
 State:
 
-[
-\boxed{
+\[
+\\boxed{
 Q = RECONCILE
 }
-]
+\]
 
 until external or authoritative evidence determines effect status.
 
----
+______________________________________________________________________
 
-# 46. Receiver Receipt Protocol
+## 46. Receiver Receipt Protocol
 
 A receiver acknowledgement must bind to the effect it claims to confirm.
 
 Receipt tensor:
 
-[
-\boxed{
+\[
+\\boxed{
 T_R =
-T[
+T\[
 receipt_id,
 receiver,
 service_identity,
@@ -1525,13 +1478,13 @@ operation,
 timestamp,
 signature,
 verification
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 47. Receipt Integrity Invariant
+## 47. Receipt Integrity Invariant
 
 ```text
 NONEMPTY RECEIPT ID != VERIFIED COMPLETION
@@ -1539,17 +1492,15 @@ NONEMPTY RECEIPT ID != VERIFIED COMPLETION
 
 A completion receipt must be validated against an appropriate trust mechanism before it is treated as evidence of committed external effect.
 
----
+______________________________________________________________________
 
-# 48. Receiver Trust Protocol
+## 48. Receiver Trust Protocol
 
 Receiver trust should include temporal validity.
 
-[
-T_{RT}
-======
+## \[ T\_{RT}
 
-T[
+T\[
 receiver,
 identity,
 key,
@@ -1559,35 +1510,32 @@ revoked_at,
 trust_source,
 freshness,
 provenance
-]
-]
+\]
+\]
 
 A cryptographically valid signature does not establish current trust after revocation or expiry.
 
----
+______________________________________________________________________
 
-# 49. External Effect Finality Protocol
+## 49. External Effect Finality Protocol
 
-[
-\boxed{
-EffectFinal
-===========
+## \[ \\boxed{ EffectFinal
 
 CommittedReleaseState
-\land
+\\land
 VerifiedEffectIdentity
-\land
+\\land
 VerifiedReceiverEvidence
 }
-]
+\]
 
 when receiver-attested completion is required.
 
 Absence of a receipt does not prove absence of an effect.
 
----
+______________________________________________________________________
 
-# 50. Reconciliation Protocol
+## 50. Reconciliation Protocol
 
 ```text
 AMBIGUOUS EFFECT
@@ -1612,17 +1560,15 @@ CONFIRMED          NOT CONFIRMED
 FINALIZE         SAFE RETRY / ESCALATE
 ```
 
----
+______________________________________________________________________
 
-# 51. Observability Protocol
+## 51. Observability Protocol
 
 Consequential effects require an observability envelope.
 
-[
-T_O
-===
+## \[ T_O
 
-T[
+T\[
 effect,
 required_signals,
 logs,
@@ -1633,14 +1579,14 @@ audit_events,
 retention,
 access,
 provenance
-]
-]
+\]
+\]
 
 Observability requirements should be compatible with both infrastructure governance and domain capability requirements.
 
----
+______________________________________________________________________
 
-# 52. Observability Invariant
+## 52. Observability Invariant
 
 ```text
 UNOBSERVABLE DURABLE EFFECT
@@ -1650,9 +1596,9 @@ VERIFIABLY COMPLETED EFFECT
 
 unless another valid finality mechanism exists.
 
----
+______________________________________________________________________
 
-# 53. Memory Write Protocol
+## 53. Memory Write Protocol
 
 Persistent memory requires admission.
 
@@ -1681,14 +1627,14 @@ RETENTION CLASS
 ADMIT / QUARANTINE / REJECT
 ```
 
----
+______________________________________________________________________
 
-# 54. Memory Tensor
+## 54. Memory Tensor
 
-[
-\boxed{
+\[
+\\boxed{
 T_M =
-T[
+T\[
 item_id,
 content_class,
 state,
@@ -1698,13 +1644,13 @@ freshness,
 contradiction_state,
 retention_class,
 revalidation_epoch
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 55. Memory Read Protocol
+## 55. Memory Read Protocol
 
 ```text
 QUERY
@@ -1737,22 +1683,22 @@ Hard invariant:
 RETRIEVED MEMORY != CURRENT TRUTH
 ```
 
----
+______________________________________________________________________
 
-# 56. Memory Mutation Protocol
+## 56. Memory Mutation Protocol
 
 A persistent memory modification is a governed mutation.
 
-[
-\boxed{
-P_{\mu M}:
+\[
+\\boxed{
+P\_{\\mu M}:
 Memory_t
-\times
+\\times
 CandidateChange
-\rightarrow
-Memory_{t+1}
+\\rightarrow
+Memory\_{t+1}
 }
-]
+\]
 
 Mutation must preserve:
 
@@ -1765,9 +1711,9 @@ Mutation must preserve:
 - affected descendants;
 - rollback reference.
 
----
+______________________________________________________________________
 
-# 57. Model Worker Protocol
+## 57. Model Worker Protocol
 
 Model workers may:
 
@@ -1796,9 +1742,9 @@ trust roots
 release ledger
 ```
 
----
+______________________________________________________________________
 
-# 58. Cognition / Control Protocol
+## 58. Cognition / Control Protocol
 
 ```text
 COGNITIVE WORKER
@@ -1827,9 +1773,9 @@ Hard invariant:
 COGNITION != CONTROL
 ```
 
----
+______________________________________________________________________
 
-# 59. Control-Plane Protocol Objects
+## 59. Control-Plane Protocol Objects
 
 L00 may interact with control-plane structures conceptually equivalent to:
 
@@ -1869,9 +1815,9 @@ These are architectural protocol objects.
 
 Their existence in documentation does not prove runtime implementation.
 
----
+______________________________________________________________________
 
-# 60. Control-Plane Result States
+## 60. Control-Plane Result States
 
 A governed control plane should preserve explicit non-success states.
 
@@ -1923,20 +1869,20 @@ REVALIDATE != PASS
 UNKNOWN_GAP != PASS
 ```
 
----
+______________________________________________________________________
 
-# 61. Constraint Propagation Protocol
+## 61. Constraint Propagation Protocol
 
-[
-\boxed{
+\[
+\\boxed{
 P_C:
 Constraint
-\times
+\\times
 DependencyGraph
-\rightarrow
+\\rightarrow
 AffectedNodes
 }
-]
+\]
 
 Constraints propagate only through applicable dependency paths.
 
@@ -1944,35 +1890,35 @@ A lower-level component may tighten a constraint where authorized.
 
 It may not silently weaken an applicable higher-level hard constraint.
 
----
+______________________________________________________________________
 
-# 62. Dependency Invalidation Protocol
+## 62. Dependency Invalidation Protocol
 
-If premise \(P\) fails:
+If premise (P) fails:
 
-[
-\boxed{
+\[
+\\boxed{
 Invalidate(P)
-\Rightarrow
+\\Rightarrow
 Invalidate(Descendants(P))
 }
-]
+\]
 
 but:
 
-[
-\boxed{
+\[
+\\boxed{
 Independent(X,P)
-\Rightarrow
+\\Rightarrow
 Preserve(X)
 }
-]
+\]
 
 This is selective invalidation.
 
----
+______________________________________________________________________
 
-# 63. Contradiction Protocol
+## 63. Contradiction Protocol
 
 ```text
 NEW EVIDENCE
@@ -1996,16 +1942,16 @@ DISCRIMINATING TEST
 
 Contradictions must not disappear through summarization.
 
----
+______________________________________________________________________
 
-# 64. Uncertainty Protocol
+## 64. Uncertainty Protocol
 
 AMOS tracks material uncertainty dimensions separately:
 
-[
-\boxed{
+\[
+\\boxed{
 U =
-[
+\[
 U_E,
 U_M,
 U_S,
@@ -2013,23 +1959,23 @@ U_T,
 U_C,
 U_X,
 U_P
-]
+\]
 }
-]
+\]
 
 where:
 
-- \(U_E\) = evidence uncertainty;
-- \(U_M\) = model uncertainty;
-- \(U_S\) = scope uncertainty;
-- \(U_T\) = temporal uncertainty;
-- \(U_C\) = causal uncertainty;
-- \(U_X\) = execution uncertainty;
-- \(U_P\) = provenance-independence uncertainty.
+- (U_E) = evidence uncertainty;
+- (U_M) = model uncertainty;
+- (U_S) = scope uncertainty;
+- (U_T) = temporal uncertainty;
+- (U_C) = causal uncertainty;
+- (U_X) = execution uncertainty;
+- (U_P) = provenance-independence uncertainty.
 
----
+______________________________________________________________________
 
-# 65. Escalation Protocol
+## 65. Escalation Protocol
 
 Escalate when:
 
@@ -2057,9 +2003,9 @@ consequence radius exceeds local authority
 irreversible stakes are high
 ```
 
----
+______________________________________________________________________
 
-# 66. Recovery Protocol
+## 66. Recovery Protocol
 
 When a protocol fails:
 
@@ -2091,68 +2037,62 @@ When a protocol fails:
 13. restore normal operation
 ```
 
----
+______________________________________________________________________
 
-# 67. Recovery Equation
+## 67. Recovery Equation
 
 Let:
 
-- \(S_V\) = unaffected valid state;
-- \(S_F\) = failed state;
-- \(D_F\) = dependent state;
-- \(R_F\) = repaired state.
+- (S_V) = unaffected valid state;
+- (S_F) = failed state;
+- (D_F) = dependent state;
+- (R_F) = repaired state.
 
 Then:
 
-[
-\boxed{
-S_{recovered}
-=============
+## \[ \\boxed{ S\_{recovered}
 
 S_V
-\cup
+\\cup
 R_F
-\cup
+\\cup
 Revalidated(D_F)
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 68. Retry Protocol
+## 68. Retry Protocol
 
 Retry is permitted only when:
 
-[
-\boxed{
-RetryAllowed
-============
+## \[ \\boxed{ RetryAllowed
 
 FailureUnderstood
-\land
+\\land
 RetrySafe
-\land
+\\land
 AuthorityValid
-\land
+\\land
 StateCompatible
 }
-]
+\]
 
 For durable effects:
 
-[
-\boxed{
+\[
+\\boxed{
 RetryAllowed
-\Rightarrow
+\\Rightarrow
 IdempotencyProtected
-\lor
+\\lor
 ConfirmedNoPriorEffect
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 69. Timeout Protocol
+## 69. Timeout Protocol
 
 Timeout does not establish failure.
 
@@ -2172,20 +2112,20 @@ Hard boundary:
 NO RESPONSE != NO EFFECT
 ```
 
----
+______________________________________________________________________
 
-# 70. Rollback Protocol
+## 70. Rollback Protocol
 
-[
-\boxed{
-P_{RB}:
+\[
+\\boxed{
+P\_{RB}:
 FailedState
-\times
+\\times
 RecoveryReference
-\rightarrow
+\\rightarrow
 CandidateRecoveredState
 }
-]
+\]
 
 Rollback must verify:
 
@@ -2198,9 +2138,9 @@ current environment
 post-rollback invariants
 ```
 
----
+______________________________________________________________________
 
-# 71. Audit Protocol
+## 71. Audit Protocol
 
 Every consequential protocol exchange should support reconstruction of:
 
@@ -2232,18 +2172,15 @@ what was retried
 what was repaired
 ```
 
----
+______________________________________________________________________
 
-# 72. Replay Protocol
+## 72. Replay Protocol
 
 A replayable protocol record should preserve:
 
-[
-\boxed{
-ReplayRecord
-============
+## \[ \\boxed{ ReplayRecord
 
-[
+\[
 protocol,
 version,
 inputs,
@@ -2255,23 +2192,23 @@ constraints,
 outputs,
 timestamps,
 provenance
-]
+\]
 }
-]
+\]
 
 Replay equivalence must not be assumed when the environment or dependencies changed.
 
----
+______________________________________________________________________
 
-# 73. Protocol Versioning
+## 73. Protocol Versioning
 
-[
-\boxed{
+\[
+\\boxed{
 P^{v_n}
-\neq
-P^{v_{n+1}}
+\\neq
+P^{v\_{n+1}}
 }
-]
+\]
 
 unless semantic equivalence is demonstrated.
 
@@ -2286,60 +2223,51 @@ deprecated behavior
 affected dependencies
 ```
 
----
+______________________________________________________________________
 
-# 74. Protocol Compatibility
+## 74. Protocol Compatibility
 
-[
-\boxed{
-Compatible(P_i,P_j)
-===================
+## \[ \\boxed{ Compatible(P_i,P_j)
 
 TypeCompatible
-\land
+\\land
 SemanticCompatible
-\land
+\\land
 ScopeCompatible
-\land
+\\land
 RegimeCompatible
-\land
+\\land
 VersionCompatible
 }
-]
+\]
 
 Same field names do not prove semantic compatibility.
 
----
+______________________________________________________________________
 
-# 75. Protocol Composition
+## 75. Protocol Composition
 
-[
-\boxed{
-P_{chain}
-=========
+## \[ \\boxed{ P\_{chain}
 
 P_n
-\circ
-P_{n-1}
-\circ
+\\circ
+P\_{n-1}
+\\circ
 ...
-\circ
+\\circ
 P_1
 }
-]
+\]
 
 Composition is allowed only when adjacent protocol contracts are compatible.
 
----
+______________________________________________________________________
 
-# 76. Protocol Composition Tensor
+## 76. Protocol Composition Tensor
 
-[
-\boxed{
-T_{PC}
-======
+## \[ \\boxed{ T\_{PC}
 
-T[
+T\[
 protocol_chain,
 participants,
 message_types,
@@ -2350,42 +2278,39 @@ dependencies,
 authority_path,
 provenance_path,
 failure_edges
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 77. Atomic Protocol
+## 77. Atomic Protocol
 
 When multiple operations form one semantic action:
 
-[
-\boxed{
-Atomic(P_1,\ldots,P_n)
-======================
+## \[ \\boxed{ Atomic(P_1,\\ldots,P_n)
 
 ALL
-\lor
+\\lor
 NONE
 }
-]
+\]
 
 Partial completion must enter recovery or reconciliation rather than being silently accepted.
 
----
+______________________________________________________________________
 
-# 78. Protocol Ordering
+## 78. Protocol Ordering
 
 Protocol operations are not assumed commutative.
 
-[
-\boxed{
+\[
+\\boxed{
 P_A(P_B(x))
-\neq
+\\neq
 P_B(P_A(x))
 }
-]
+\]
 
 Examples:
 
@@ -2403,9 +2328,9 @@ OBSERVE → INFER
 INFER → OBSERVE
 ```
 
----
+______________________________________________________________________
 
-# 79. AI Reality-Contact Protocol
+## 79. AI Reality-Contact Protocol
 
 For AI systems:
 
@@ -2437,9 +2362,9 @@ REPRESENTATION
 MODEL INTERPRETATION
 ```
 
----
+______________________________________________________________________
 
-# 80. AI Retrieval Protocol
+## 80. AI Retrieval Protocol
 
 ```text
 QUERY
@@ -2472,15 +2397,13 @@ Hard boundary:
 RETRIEVAL SCORE != TRUTH SCORE
 ```
 
----
+______________________________________________________________________
 
-# 81. AI Tool Protocol
+## 81. AI Tool Protocol
 
-[
-T_{tool}
-========
+## \[ T\_{tool}
 
-T[
+T\[
 tool,
 operation,
 arguments,
@@ -2493,16 +2416,16 @@ result,
 post_state,
 execution_status,
 provenance
-]
-]
+\]
+\]
 
 Tool access is capability.
 
 It is not automatically authority.
 
----
+______________________________________________________________________
 
-# 82. AI Action Protocol
+## 82. AI Action Protocol
 
 ```text
 MODEL
@@ -2532,9 +2455,9 @@ RECEIPT / OBSERVATION
 RECONCILE
 ```
 
----
+______________________________________________________________________
 
-# 83. AI Self-Modification Protocol
+## 83. AI Self-Modification Protocol
 
 Any persistent modification to:
 
@@ -2552,14 +2475,14 @@ persistent reasoning state
 
 is treated as mutation.
 
-[
-\boxed{
-P_{\mu}:
+\[
+\\boxed{
+P\_{\\mu}:
 System_t
-\rightarrow
-System_{t+1}
+\\rightarrow
+System\_{t+1}
 }
-]
+\]
 
 Required:
 
@@ -2575,20 +2498,20 @@ provenance
 post-change monitoring
 ```
 
----
+______________________________________________________________________
 
-# 84. AI Learning Protocol
+## 84. AI Learning Protocol
 
-[
-\boxed{
+\[
+\\boxed{
 P_L:
 Feedback
-\times
+\\times
 CurrentSystem
-\rightarrow
+\\rightarrow
 CandidateUpdatedSystem
 }
-]
+\]
 
 Hard boundaries:
 
@@ -2602,9 +2525,9 @@ OPTIMIZATION != ALIGNMENT
 LOWER LOSS != HIGHER INTEGRITY
 ```
 
----
+______________________________________________________________________
 
-# 85. Recursive Contamination Protocol
+## 85. Recursive Contamination Protocol
 
 AI-generated outputs must not become independent evidence merely by re-entering the evidence environment.
 
@@ -2631,9 +2554,9 @@ SELF-DERIVED EVIDENCE
 INDEPENDENT CONFIRMATION
 ```
 
----
+______________________________________________________________________
 
-# 86. Protocol Failure Modes
+## 86. Protocol Failure Modes
 
 ## PR-F01 — Type Mismatch
 
@@ -2715,151 +2638,136 @@ Version changes alter semantics without compatibility control.
 
 `UNKNOWN/GAP` becomes successful state.
 
----
+______________________________________________________________________
 
-# 87. Protocol Integrity Equation
+## 87. Protocol Integrity Equation
 
-[
-\boxed{
-Integrity(P)
-============
+## \[ \\boxed{ Integrity(P)
 
 TypeSafety
-\land
+\\land
 StateSafety
-\land
+\\land
 ScopeSafety
-\land
+\\land
 RegimeSafety
-\land
+\\land
 ProvenanceSafety
-\land
+\\land
 ConstraintSafety
-\land
+\\land
 AuthoritySafety
 }
-]
+\]
 
 for all dimensions applicable to the protocol.
 
----
+______________________________________________________________________
 
-# 88. Protocol Validity Equation
+## 88. Protocol Validity Equation
 
-[
-\boxed{
-Valid(P)
-========
+## \[ \\boxed{ Valid(P)
 
 InputsValid
-\land
+\\land
 PreconditionsPass
-\land
+\\land
 DependenciesValid
-\land
+\\land
 ScopeCompatible
-\land
+\\land
 RegimeCompatible
-\land
+\\land
 RequiredEvidenceValid
 }
-]
+\]
 
 For effectful protocols:
 
-[
-\boxed{
-ValidEffect(P)
-==============
+## \[ \\boxed{ ValidEffect(P)
 
 Valid(P)
-\land
+\\land
 AuthorityValid
-\land
+\\land
 ConstraintsValid
-\land
+\\land
 CommitStateFresh
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 89. Commit Equation
+## 89. Commit Equation
 
-[
-\boxed{
-CommitAllowed
-=============
+## \[ \\boxed{ CommitAllowed
 
 ProposalValid
-\land
+\\land
 EvidenceValid
-\land
+\\land
 ReadSetFresh
-\land
+\\land
 ConstraintsFresh
-\land
+\\land
 AuthorityFresh
-\land
+\\land
 TransactionValid
-\land
+\\land
 EffectIdentityValid
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 90. Finality Equation
+## 90. Finality Equation
 
 For effects requiring receiver confirmation:
 
-[
-\boxed{
-Finality
-========
+## \[ \\boxed{ Finality
 
 ReleaseCommitted
-\land
+\\land
 ReceiptVerified
-\land
+\\land
 EffectBindingVerified
 }
-]
+\]
 
 This does not imply every external system must use this exact finality mechanism.
 
----
+______________________________________________________________________
 
-# 91. Selective Revalidation Equation
+## 91. Selective Revalidation Equation
 
 Let (D(x)) denote descendants dependent on state (x).
 
 If (x) changes:
 
-[
-\boxed{
+\[
+\\boxed{
 RevalidateSet(x)=D(x)
 }
-]
+\]
 
 not:
 
-[
-\boxed{
+\[
+\\boxed{
 RevalidateSet(x)=EntireSystem
 }
-]
+\]
 
 unless dependency structure makes the whole system dependent on (x).
 
----
+______________________________________________________________________
 
-# 92. Protocol Governance Tensor
+## 92. Protocol Governance Tensor
 
-[
-\boxed{
+\[
+\\boxed{
 T_G =
-T[
+T\[
 protocol,
 capability,
 authority,
@@ -2872,13 +2780,13 @@ commit_boundary,
 rollback,
 evidence_threshold,
 validation_epoch
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 93. Core Protocol Invariants
+## 93. Core Protocol Invariants
 
 ## PR-I01 — Typed Messaging
 
@@ -2960,9 +2868,9 @@ Repair must preserve unaffected valid state where possible.
 
 Unknown state cannot silently become successful state.
 
----
+______________________________________________________________________
 
-# 94. Validators
+## 94. Validators
 
 ```text
 L00-PR-T01 protocol schema validation
@@ -2997,36 +2905,36 @@ L00-PR-T29 protocol version compatibility
 L00-PR-T30 UNKNOWN/GAP preservation
 ```
 
----
+______________________________________________________________________
 
-# 95. Falsifiers
+## 95. Falsifiers
 
 This architecture is falsified as an implemented L00 protocol system if:
 
 1. protocol messages have no stable semantic types;
-2. protocol states cannot be reconstructed;
-3. provenance disappears across handoffs;
-4. scope constraints disappear during transfer;
-5. regime constraints disappear during transfer;
-6. model output can silently become observation;
-7. correlation can silently become causal evidence;
-8. retrieved evidence can bypass admission;
-9. shared-origin evidence becomes independent confirmation;
-10. capability automatically grants authority;
-11. proposal automatically produces durable effect;
-12. stale state can commit without required revalidation;
-13. revoked authority can still commit;
-14. semantic transactions can partially commit where atomicity is required;
-15. retries can silently duplicate effects;
-16. timeout is treated as proof that no effect occurred;
-17. unverified receipt IDs prove completion;
-18. protocol failures erase independent valid state;
-19. AI-generated evidence can recursively validate itself as independent evidence;
-20. `UNKNOWN/GAP` can become `PASS` without supporting evidence.
+1. protocol states cannot be reconstructed;
+1. provenance disappears across handoffs;
+1. scope constraints disappear during transfer;
+1. regime constraints disappear during transfer;
+1. model output can silently become observation;
+1. correlation can silently become causal evidence;
+1. retrieved evidence can bypass admission;
+1. shared-origin evidence becomes independent confirmation;
+1. capability automatically grants authority;
+1. proposal automatically produces durable effect;
+1. stale state can commit without required revalidation;
+1. revoked authority can still commit;
+1. semantic transactions can partially commit where atomicity is required;
+1. retries can silently duplicate effects;
+1. timeout is treated as proof that no effect occurred;
+1. unverified receipt IDs prove completion;
+1. protocol failures erase independent valid state;
+1. AI-generated evidence can recursively validate itself as independent evidence;
+1. `UNKNOWN/GAP` can become `PASS` without supporting evidence.
 
----
+______________________________________________________________________
 
-# 96. Gap Matrix
+## 96. Gap Matrix
 
 | Area               | Required capability              | Status                   |
 | ------------------ | -------------------------------- | ------------------------ |
@@ -3051,37 +2959,37 @@ This architecture is falsified as an implemented L00 protocol system if:
 | Recovery           | selective repair                 | implementation-dependent |
 | Replay             | reconstructable protocol history | implementation-dependent |
 
----
+______________________________________________________________________
 
-# 97. Canonical Reality Interaction Protocol
+## 97. Canonical Reality Interaction Protocol
 
-[
-\boxed{
+\[
+\\boxed{
 Reality_t
-\xrightarrow{Observe}
+\\xrightarrow{Observe}
 Observation
-\xrightarrow{Acquire}
+\\xrightarrow{Acquire}
 Evidence
-\xrightarrow{Validate}
+\\xrightarrow{Validate}
 AdmittedEvidence
-\xrightarrow{Infer}
+\\xrightarrow{Infer}
 Claim
-\xrightarrow{Decide}
+\\xrightarrow{Decide}
 Proposal
-\xrightarrow{Authorize}
+\\xrightarrow{Authorize}
 PreparedEffect
-\xrightarrow{Commit}
+\\xrightarrow{Commit}
 Effect
-\xrightarrow{Observe}
+\\xrightarrow{Observe}
 Outcome
 }
-]
+\]
 
 The chain preserves distinctions between epistemic and effectful states.
 
----
+______________________________________________________________________
 
-# 98. Canonical AI Protocol
+## 98. Canonical AI Protocol
 
 ```text
 INPUT / ENVIRONMENT
@@ -3136,9 +3044,9 @@ CONTROL PLANE
               MEMORY UPDATE
 ```
 
----
+______________________________________________________________________
 
-# 99. RSCF Completion State
+## 99. RSCF Completion State
 
 ```yaml
 claim_class: MODEL
@@ -3235,9 +3143,9 @@ confidence_ceiling:
   ontological_universality: unverified
 ```
 
----
+______________________________________________________________________
 
-# 100. Hard Boundaries
+## 100. Hard Boundaries
 
 ```text
 PROTOCOL != IMPLEMENTATION
@@ -3305,81 +3213,72 @@ ADDRESSABLE != VALIDATED
 UNKNOWN/GAP != PASS
 ```
 
----
+______________________________________________________________________
 
-# 101. Canonical Protocol Law
+## 101. Canonical Protocol Law
 
-[
-\boxed{
-ValidProtocolTransition
-=======================
+## \[ \\boxed{ ValidProtocolTransition
 
 TypedMessage
-\land
+\\land
 ValidPreState
-\land
+\\land
 PreconditionsPass
-\land
+\\land
 DependencyValidity
-\land
+\\land
 ScopeCompatibility
-\land
+\\land
 RegimeCompatibility
-\land
+\\land
 ProvenanceIntegrity
 }
-]
+\]
 
 For governed effects:
 
-[
-\boxed{
-EffectProtocol
-==============
+## \[ \\boxed{ EffectProtocol
 
 Proposal
-\rightarrow
+\\rightarrow
 Validation
-\rightarrow
+\\rightarrow
 Authorization
-\rightarrow
+\\rightarrow
 Prepare
-\rightarrow
+\\rightarrow
 CommitValidation
-\rightarrow
+\\rightarrow
 Commit
-\rightarrow
+\\rightarrow
 ReceiptOrObservation
-\rightarrow
+\\rightarrow
 Reconciliation
 }
-]
+\]
 
 For evidence:
 
-[
-\boxed{
-EvidenceProtocol
-================
+## \[ \\boxed{ EvidenceProtocol
 
 Observation
-\rightarrow
+\\rightarrow
 Acquisition
-\rightarrow
+\\rightarrow
 ProvenanceResolution
-\rightarrow
+\\rightarrow
 Admission
-\rightarrow
+\\rightarrow
 ClaimUse
 }
-]
+\]
 
 For mutable state:
 
-[
-\boxed{
+\[
+\\boxed{
 Commit
-\Rightarrow
+\\Rightarrow
 Revalidate(
 ObservedReadSet,
 Constraints,
@@ -3387,53 +3286,56 @@ Authority,
 EffectIdentity
 )
 }
-]
+\]
 
 when those dependencies can change.
 
 For failure:
 
-[
-\boxed{
+\[
+\\boxed{
 Failure
-\Rightarrow
+\\Rightarrow
 FreezeUnsafeProgression
-+
+\+
 PreserveIndependentState
-+
+\+
 InvalidateDependentState
-+
+\+
 ReconcileAmbiguousEffects
-+
+\+
 RepairSmallestCausalFailure
 }
-]
+\]
 
 The central architectural rule is:
 
 > **AMOS protocols must preserve the semantic identity, state, provenance, scope, regime, temporal validity, dependency structure, authority, uncertainty, and failure status of information and effects as they cross system boundaries. Communication may transfer information or proposals; it may never silently manufacture truth, causality, authority, finality, independence, or successful external effect.**
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · 06-Knowledge-Base-MOC · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · AMOS_Typed_Tensor_Contracts · AMOS_Evidence_Tensor_Architecture · Cosmo_Brain_BRIDGE_INDEX · AMOS_Relation_Tensor_Architecture · AMOS_Infrastructure_Control_Plane · AMOS_Commit_Time_Authorization · AMOS_Constraint_Propagation
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: l00_reality_environment_primitives_cognitive_matrix_protocols
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_PROTOCOLS.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_MOC|L00_REALITY_ENVIRONMENT_MOC]]
-

@@ -12,20 +12,20 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: FRAMEWORK
 path: 11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_VIETNAMESE_HISTORY.md
 tags:
-- amos-os
-- knowledge
-- vault
-- 05_frameworks
-- heritage_vietnamese_history
-- dong_son
-- vietnamese_civilization
-- resilience_archetypes
-- rscf
-- canon_candidate
-- canon/knowledge
-- heritage-intelligence-master
-- heritage-civilization-system
-- heritage-music-acoustic-intelligence
+  - amos-os
+  - knowledge
+  - vault
+  - 05_frameworks
+  - heritage_vietnamese_history
+  - dong_son
+  - vietnamese_civilization
+  - resilience_archetypes
+  - rscf
+  - canon_candidate
+  - canon/knowledge
+  - heritage-intelligence-master
+  - heritage-civilization-system
+  - heritage-music-acoustic-intelligence
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -40,19 +40,19 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - HERITAGE_INTELLIGENCE_CANON
-  - AMOS_CORPUS
+    - HERITAGE_INTELLIGENCE_CANON
+    - AMOS_CORPUS
   scope:
-  - KNOWLEDGE_FRAMEWORKS
-  - REGIONAL_CIVILIZATION_HISTORY
-  - SOURCE_DEFINED_MODEL
+    - KNOWLEDGE_FRAMEWORKS
+    - REGIONAL_CIVILIZATION_HISTORY
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   master_framework:
     artifact:
-    - - HERITAGE_INTELLIGENCE_MASTER
+      -   - HERITAGE_INTELLIGENCE_MASTER
   civilization_system:
     artifact:
-    - - HERITAGE_CIVILIZATION_SYSTEM
+      -   - HERITAGE_CIVILIZATION_SYSTEM
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
@@ -66,26 +66,26 @@ epistemic_boundary:
 
 It extracts deep resilience principles from Vietnamese history: surviving thousand-year assimilative pressures, maintaining cultural identity through decentralized village tensegrity, and executing dynamic strategic defense against overwhelming external forces.
 
----
+______________________________________________________________________
 
-# 1. Historical Invariant Archetypes
+## 1. Historical Invariant Archetypes
 
 1. **Village Tensegrity (*Lũy Tre Làng*):** Decentralized, semi-autonomous social cells that maintain internal governance and culture even when centralized state structures are occupied or fragmented.
-2. **Asymmetric Defense Dynamics:** Using terrain, fluid maneuver, and time-arbitrage to exhaust rigid, resource-heavy occupying forces.
-3. **Cultural Memory Continuity:** Preserving cosmological and mathematical knowledge in physical artifacts (Đông Sơn drums, oral poetry, language phonetics).
+1. **Asymmetric Defense Dynamics:** Using terrain, fluid maneuver, and time-arbitrage to exhaust rigid, resource-heavy occupying forces.
+1. **Cultural Memory Continuity:** Preserving cosmological and mathematical knowledge in physical artifacts (Đông Sơn drums, oral poetry, language phonetics).
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Civilization System:** [[11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_CIVILIZATION_SYSTEM|HERITAGE_CIVILIZATION_SYSTEM]]
 - **Master Framework:** [[11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_INTELLIGENCE_MASTER|HERITAGE_INTELLIGENCE_MASTER]]
 - **Vietnamese Sub-Plane:** vietnamese_MOC
 - **Acoustic Roots:** [[11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_MUSIC_ACOUSTIC_INTELLIGENCE|HERITAGE_MUSIC_ACOUSTIC_INTELLIGENCE]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -103,10 +103,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_CIVILIZATION_SYSTEM|HERITAGE_CIVILIZATION_SYSTEM]] · [[11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_INTELLIGENCE_MASTER|HERITAGE_INTELLIGENCE_MASTER]]
 
----
-**MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]
+______________________________________________________________________
 
+**MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]

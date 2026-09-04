@@ -12,56 +12,56 @@ segment: 25_COGNITIVE_MATRIX
 artifact_kind: MATRIX_TABLE
 path: 25_COGNITIVE_MATRIX/HERITAGE_X_TRANG_ZERO_MATRIX.md
 tags:
-- amos-os
-- cognitive-matrix
-- vault
-- heritage_x_trang_zero_matrix
-- heritage
-- trang_zero
-- matrix_table
-- cross_plane_routing
-- crisis_routing
-- zero_reset
-- null_state
-- null_state_invariant
-- reset_basin
-- epistemic_null
-- modular_null
-- substrate_ground
-- anti_autopoisoning
-- reconstruction
-- historical_false_consensus
-- village_autonomy_decoupling
-- asymmetric_defense_reset
-- polycentric_reconstruction
-- primary_source_reanchoring
-- core_metabolic_baseline
-- provenance
-- scope
-- regime
-- threshold_semantics
-- failure_recovery
-- reversibility
-- rscf
-- canon_candidate
-- canon/matrix
-- heritage-x-trang-zero
-- heritage-zero-framework
-- trang-zero-framework
-- memory
-- validation
-- k-rscf
-- k-hml
-- k-gmef
-- k-provenance
-- k-provenance-topology
-- k-failure-recovery
-- k-causal-epoch
-- k-mvcc
-- k-cas
-- k-atomic-multi-rscf
-- amos-core-v4-4
-- canon
+  - amos-os
+  - cognitive-matrix
+  - vault
+  - heritage_x_trang_zero_matrix
+  - heritage
+  - trang_zero
+  - matrix_table
+  - cross_plane_routing
+  - crisis_routing
+  - zero_reset
+  - null_state
+  - null_state_invariant
+  - reset_basin
+  - epistemic_null
+  - modular_null
+  - substrate_ground
+  - anti_autopoisoning
+  - reconstruction
+  - historical_false_consensus
+  - village_autonomy_decoupling
+  - asymmetric_defense_reset
+  - polycentric_reconstruction
+  - primary_source_reanchoring
+  - core_metabolic_baseline
+  - provenance
+  - scope
+  - regime
+  - threshold_semantics
+  - failure_recovery
+  - reversibility
+  - rscf
+  - canon_candidate
+  - canon/matrix
+  - heritage-x-trang-zero
+  - heritage-zero-framework
+  - trang-zero-framework
+  - memory
+  - validation
+  - k-rscf
+  - k-hml
+  - k-gmef
+  - k-provenance
+  - k-provenance-topology
+  - k-failure-recovery
+  - k-causal-epoch
+  - k-mvcc
+  - k-cas
+  - k-atomic-multi-rscf
+  - amos-core-v4-4
+  - canon
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -78,26 +78,26 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - 25_COGNITIVE_MATRIX/HERITAGE_X_TRANG_ZERO
-  - 11_KNOWLEDGE/05_FRAMEWORKS/TRANG_ZERO_FRAMEWORK
-  - AMOS_CORPUS
+    - 25_COGNITIVE_MATRIX/HERITAGE_X_TRANG_ZERO
+    - 11_KNOWLEDGE/05_FRAMEWORKS/TRANG_ZERO_FRAMEWORK
+    - AMOS_CORPUS
   scope:
-  - COGNITIVE_MATRIX
-  - CROSS_PLANE_MATRIX_TABLE
-  - HERITAGE_ZERO_ROUTING
-  - SOURCE_DEFINED_MODEL
+    - COGNITIVE_MATRIX
+    - CROSS_PLANE_MATRIX_TABLE
+    - HERITAGE_ZERO_ROUTING
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   matrix_spec:
     artifact:
-    - - HERITAGE_X_TRANG_ZERO
+      -   - HERITAGE_X_TRANG_ZERO
   zero_master:
     artifact: 11_KNOWLEDGE/05_FRAMEWORKS/TRANG_ZERO_FRAMEWORK
   heritage_zero:
     artifact:
-    - - HERITAGE_ZERO_FRAMEWORK
+      -   - HERITAGE_ZERO_FRAMEWORK
   cognitive_matrix:
     artifact:
-    - - 25_COGNITIVE_MATRIX_MOC
+      -   - 25_COGNITIVE_MATRIX_MOC
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   matrix_structure: VERIFIED_SOURCE_STRUCTURE
@@ -117,37 +117,37 @@ epistemic_boundary:
 
 # Heritage x Trang Zero Cross-Plane Routing Matrix Table
 
-`HERITAGE_X_TRANG_ZERO_MATRIX.md` is the source-defined AMOS Cognitive Matrix routing table connecting historical survival and decision-intelligence archetypes to the **Trang ∅ Null-State Invariant Anchor \(\(S_0\)\)**.
+`HERITAGE_X_TRANG_ZERO_MATRIX.md` is the source-defined AMOS Cognitive Matrix routing table connecting historical survival and decision-intelligence archetypes to the **Trang ∅ Null-State Invariant Anchor ((S_0))**.
 
 The source defines three explicit crisis-routing rows:
 
 \[
-\boxed{
+\\boxed{
 EpistemicHallucination
-\rightarrow
+\\rightarrow
 E_0
 }
 \]
 
 \[
-\boxed{
+\\boxed{
 SystemicFragmentation(F>0.8)
-\rightarrow
+\\rightarrow
 M_0
 }
 \]
 
 \[
-\boxed{
+\\boxed{
 SevereShocks(S>0.9)
-\rightarrow
+\\rightarrow
 S_0
 }
 \]
 
 Each route additionally associates:
 
-```text
+````text
 CRISIS STATE
     ↓
 HERITAGE ARCHETYPE
@@ -164,7 +164,7 @@ It does not, by itself, establish that the thresholds, historical mappings, rese
 
 ---
 
-# 0. Epistemic Boundary
+## 0. Epistemic Boundary
 
 The supplied source directly establishes the following matrix structure:
 
@@ -178,7 +178,7 @@ These rows are classified as:
 
 ```text
 SOURCE_DEFINED_MODEL
-```
+````
 
 The artifact does **not** independently establish:
 
@@ -240,23 +240,23 @@ HistoricalArchetype
 HistoricalCausalProof
 $$
 
----
+______________________________________________________________________
 
-# 1. Zero-Point Reset Routing Grid
+## 1. Zero-Point Reset Routing Grid
 
 The canonical source-defined routing grid is:
 
-| System Crisis State                      | Heritage Archetype          | Zero Reset Basin \((S_0)\) | Anti-Autopoisoning Action        | Post-Reset Reconstruction        |
-| :--------------------------------------- | :-------------------------- | :------------------------- | :------------------------------- | :------------------------------- |
-| **Epistemic Hallucination**              | Historical False Consensus  | Epistemic Null \((E_0)\)   | Purges ungrounded prompt context | Re-anchors to primary sources    |
-| **Systemic Fragmentation \((F > 0.8)\)** | Village Autonomy Decoupling | Modular Null \((M_0)\)     | Isolates failing subsystems      | Rebuilds along polycentric nodes |
-| **Severe Shocks \((S > 0.9)\)**          | Asymmetric Defense Reset    | Substrate Ground \((S_0)\) | Suspends non-essential services  | Restores core metabolic baseline |
+| System Crisis State                    | Heritage Archetype          | Zero Reset Basin ((S_0)) | Anti-Autopoisoning Action        | Post-Reset Reconstruction        |
+| :------------------------------------- | :-------------------------- | :----------------------- | :------------------------------- | :------------------------------- |
+| **Epistemic Hallucination**            | Historical False Consensus  | Epistemic Null ((E_0))   | Purges ungrounded prompt context | Re-anchors to primary sources    |
+| **Systemic Fragmentation ((F > 0.8))** | Village Autonomy Decoupling | Modular Null ((M_0))     | Isolates failing subsystems      | Rebuilds along polycentric nodes |
+| **Severe Shocks ((S > 0.9))**          | Asymmetric Defense Reset    | Substrate Ground ((S_0)) | Suspends non-essential services  | Restores core metabolic baseline |
 
 The exact wording of these source rows should be preserved.
 
----
+______________________________________________________________________
 
-# 2. Matrix Row Primitive
+## 2. Matrix Row Primitive
 
 Each routing row can be normalized as:
 
@@ -296,9 +296,9 @@ $$
 
 This tuple representation is a derived normalization of the source matrix.
 
----
+______________________________________________________________________
 
-# 3. Master Routing Function
+## 3. Master Routing Function
 
 Conceptually:
 
@@ -318,9 +318,9 @@ The source provides three concrete rows of this conceptual function.
 
 It does not establish a complete crisis-state taxonomy.
 
----
+______________________________________________________________________
 
-# 4. Route One — Epistemic Hallucination
+## 4. Route One — Epistemic Hallucination
 
 The first source-defined route is:
 
@@ -350,9 +350,9 @@ ReanchorPrimarySources
 \rangle
 $$
 
----
+______________________________________________________________________
 
-# 5. Epistemic Hallucination Boundary
+## 5. Epistemic Hallucination Boundary
 
 The source names:
 
@@ -392,9 +392,9 @@ EXECUTABLE_DETECTION:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 6. Historical False Consensus
+## 6. Historical False Consensus
 
 The source maps Epistemic Hallucination to:
 
@@ -422,9 +422,9 @@ ModernEpistemicHallucination
 HistoricalFalseConsensus
 $$
 
----
+______________________________________________________________________
 
-# 7. Historical Archetype Firewall
+## 7. Historical Archetype Firewall
 
 The Heritage Archetype column should be interpreted as a source-defined model mapping unless separately supported by historical evidence.
 
@@ -444,9 +444,9 @@ HistoricalAnalogy
 EmpiricalValidation
 $$
 
----
+______________________________________________________________________
 
-# 8. Epistemic Null
+## 8. Epistemic Null
 
 The source assigns:
 
@@ -478,9 +478,9 @@ EXECUTABLE TRANSITION:
 NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 9. Epistemic Null Is Not Knowledge Erasure
+## 9. Epistemic Null Is Not Knowledge Erasure
 
 The phrase:
 
@@ -516,9 +516,9 @@ Re-anchors to primary sources
 
 Any broader erasure semantics require authoritative framework evidence.
 
----
+______________________________________________________________________
 
-# 10. Ungrounded Prompt Context
+## 10. Ungrounded Prompt Context
 
 The source explicitly states:
 
@@ -542,9 +542,9 @@ means operationally.
 
 Possible implementations must not be invented.
 
----
+______________________________________________________________________
 
-# 11. Purge Boundary
+## 11. Purge Boundary
 
 Without executable semantics, `purges` could represent several distinct operations:
 
@@ -569,9 +569,9 @@ PURGE_SEMANTICS:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 12. Provenance Preservation During Epistemic Reset
+## 12. Provenance Preservation During Epistemic Reset
 
 A v4.4-compatible derived integrity rule is:
 
@@ -599,9 +599,9 @@ remain auditable.
 
 This is a derived provenance requirement, not an explicit source statement.
 
----
+______________________________________________________________________
 
-# 13. Primary-Source Reanchoring
+## 13. Primary-Source Reanchoring
 
 The source specifies:
 
@@ -639,9 +639,9 @@ STALE INFORMATION
 MEASUREMENT FAILURE
 ```
 
----
+______________________________________________________________________
 
-# 14. Epistemic Reconstruction Principle
+## 14. Epistemic Reconstruction Principle
 
 A compatible derived reconstruction model is:
 
@@ -659,9 +659,9 @@ REBUILD ONLY SUPPORTED DERIVATIONS
 
 This preserves local invalidation rather than indiscriminate knowledge destruction.
 
----
+______________________________________________________________________
 
-# 15. Epistemic Route RSCF
+## 15. Epistemic Route RSCF
 
 ```yaml
 RSCF:
@@ -703,9 +703,9 @@ RSCF:
       UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 16. Epistemic Route Proof Capsule
+## 16. Epistemic Route Proof Capsule
 
 ```yaml
 Proof_Capsule:
@@ -740,9 +740,9 @@ Proof_Capsule:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 17. Route Two — Systemic Fragmentation
+## 17. Route Two — Systemic Fragmentation
 
 The second source-defined route is:
 
@@ -772,9 +772,9 @@ RebuildPolycentricNodes
 \rangle
 $$
 
----
+______________________________________________________________________
 
-# 18. Fragmentation Variable
+## 18. Fragmentation Variable
 
 The source explicitly uses:
 
@@ -819,9 +819,9 @@ MEASUREMENT_BINDING:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 19. Threshold Firewall — Fragmentation
+## 19. Threshold Firewall — Fragmentation
 
 The source-defined threshold:
 
@@ -839,9 +839,9 @@ $$
 
 is source-bound until its measurement model, scope, and regime are established.
 
----
+______________________________________________________________________
 
-# 20. Threshold Equality Gap
+## 20. Threshold Equality Gap
 
 The source specifies:
 
@@ -865,9 +865,9 @@ is not established by this artifact.
 
 Do not silently rewrite the predicate.
 
----
+______________________________________________________________________
 
-# 21. Fragmentation Measurement Uncertainty
+## 21. Fragmentation Measurement Uncertainty
 
 If an eventual measurement reports:
 
@@ -894,9 +894,9 @@ ROUTE STATUS = CONDITIONAL
 
 unless the governing framework specifies another rule.
 
----
+______________________________________________________________________
 
-# 22. Village Autonomy Decoupling
+## 22. Village Autonomy Decoupling
 
 The source maps systemic fragmentation to:
 
@@ -910,9 +910,9 @@ This is a source-defined archetypal mapping.
 
 It does not establish a universal historical mechanism.
 
----
+______________________________________________________________________
 
-# 23. Decoupling Causal Firewall
+## 23. Decoupling Causal Firewall
 
 The matrix does not independently establish:
 
@@ -932,9 +932,9 @@ $$
 
 The historical term remains a model/archetype unless validated for a specific claim.
 
----
+______________________________________________________________________
 
-# 24. Modular Null
+## 24. Modular Null
 
 The source assigns:
 
@@ -966,9 +966,9 @@ EXECUTABLE TRANSITION:
 NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 25. Modular Null Is Not Total Shutdown
+## 25. Modular Null Is Not Total Shutdown
 
 The phrase:
 
@@ -998,9 +998,9 @@ This indicates a source-defined modular isolation orientation.
 
 The exact mechanics remain unknown.
 
----
+______________________________________________________________________
 
-# 26. Isolation Boundary
+## 26. Isolation Boundary
 
 The source explicitly states:
 
@@ -1042,9 +1042,9 @@ EXECUTABLE_ISOLATION_PROTOCOL:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 27. Dependency-Aware Isolation
+## 27. Dependency-Aware Isolation
 
 A derived v4.4-compatible rule is:
 
@@ -1052,7 +1052,7 @@ $$
 Isolate(X)
 $$
 
-only after checking whether non-failing components depend on \(X\) in ways capable of causing cascading failure.
+only after checking whether non-failing components depend on (X) in ways capable of causing cascading failure.
 
 Conceptually:
 
@@ -1070,9 +1070,9 @@ PRESERVE UNAFFECTED NODES
 
 This is a derived failure-recovery pattern.
 
----
+______________________________________________________________________
 
-# 28. Local Invalidation Principle
+## 28. Local Invalidation Principle
 
 For systemic fragmentation:
 
@@ -1086,9 +1086,9 @@ when independent unaffected modules remain valid.
 
 This aligns with local repair and modular recovery but is not a literal implementation claim.
 
----
+______________________________________________________________________
 
-# 29. Polycentric Reconstruction
+## 29. Polycentric Reconstruction
 
 The source defines:
 
@@ -1120,9 +1120,9 @@ NETWORK PROTOCOL
 GOVERNANCE PROTOCOL
 ```
 
----
+______________________________________________________________________
 
-# 30. Polycentricity Firewall
+## 30. Polycentricity Firewall
 
 The source does not establish:
 
@@ -1142,9 +1142,9 @@ $$
 
 The reconstruction strategy remains source-defined and context-dependent until independently validated.
 
----
+______________________________________________________________________
 
-# 31. Fragmentation Route RSCF
+## 31. Fragmentation Route RSCF
 
 ```yaml
 RSCF:
@@ -1189,9 +1189,9 @@ RSCF:
       UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 32. Fragmentation Route Proof Capsule
+## 32. Fragmentation Route Proof Capsule
 
 ```yaml
 Proof_Capsule:
@@ -1228,9 +1228,9 @@ Proof_Capsule:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 33. Route Three — Severe Shocks
+## 33. Route Three — Severe Shocks
 
 The third source-defined route is:
 
@@ -1260,9 +1260,9 @@ RestoreCoreMetabolicBaseline
 \rangle
 $$
 
----
+______________________________________________________________________
 
-# 34. Shock Variable
+## 34. Shock Variable
 
 The source explicitly uses:
 
@@ -1307,9 +1307,9 @@ MEASUREMENT_BINDING:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 35. Symbol Collision Boundary
+## 35. Symbol Collision Boundary
 
 The source uses:
 
@@ -1337,9 +1337,9 @@ $$
 
 must not be assumed to represent a formally defined scalar reset operation merely from symbol similarity.
 
----
+______________________________________________________________________
 
-# 36. Threshold Firewall — Severe Shock
+## 36. Threshold Firewall — Severe Shock
 
 The source-defined predicate:
 
@@ -1357,9 +1357,9 @@ $$
 
 as a universal severe-shock threshold across systems, populations, scales, environments, or measurement methods.
 
----
+______________________________________________________________________
 
-# 37. Threshold Equality Gap — Severe Shock
+## 37. Threshold Equality Gap — Severe Shock
 
 The source specifies:
 
@@ -1381,9 +1381,9 @@ $$
 
 remains unspecified in this artifact.
 
----
+______________________________________________________________________
 
-# 38. Asymmetric Defense Reset
+## 38. Asymmetric Defense Reset
 
 The source maps Severe Shocks to:
 
@@ -1397,9 +1397,9 @@ This is a source-defined archetypal relationship.
 
 It does not establish a military, geopolitical, or historical causal doctrine.
 
----
+______________________________________________________________________
 
-# 39. Defense-Term Boundary
+## 39. Defense-Term Boundary
 
 The word:
 
@@ -1413,9 +1413,9 @@ Within this artifact it appears as the name of a Heritage Archetype associated w
 
 Any operational security or physical-defense interpretation requires separate authoritative scope.
 
----
+______________________________________________________________________
 
-# 40. Substrate Ground
+## 40. Substrate Ground
 
 The source assigns:
 
@@ -1435,11 +1435,11 @@ and identifies the broader matrix as routing to the:
 Trang ∅ Null-State Invariant Anchor \(S_0\)
 ```
 
-The exact relationship between the general invariant anchor \(S_0\) and this row's Substrate Ground \(S_0\) should be resolved through the Trang Zero framework.
+The exact relationship between the general invariant anchor (S_0) and this row's Substrate Ground (S_0) should be resolved through the Trang Zero framework.
 
----
+______________________________________________________________________
 
-# 41. S₀ Identity Boundary
+## 41. S₀ Identity Boundary
 
 The source strongly associates:
 
@@ -1467,9 +1467,9 @@ However, complete formal semantics remain dependent on:
 [[01_CANON/02_UNIVERSE_CANON/TRANG_ZERO_FRAMEWORK|TRANG_ZERO_FRAMEWORK]]
 ```
 
----
+______________________________________________________________________
 
-# 42. Substrate Ground Is Not Necessarily Zero Everything
+## 42. Substrate Ground Is Not Necessarily Zero Everything
 
 The term:
 
@@ -1503,9 +1503,9 @@ Restores core metabolic baseline
 
 which indicates preservation of a source-defined essential substrate.
 
----
+______________________________________________________________________
 
-# 43. Non-Essential Service Boundary
+## 43. Non-Essential Service Boundary
 
 The source does not define:
 
@@ -1530,9 +1530,9 @@ NON_ESSENTIAL_SERVICE_CLASSIFICATION:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 44. Suspension Boundary
+## 44. Suspension Boundary
 
 The source uses:
 
@@ -1564,9 +1564,9 @@ $$
 
 unless another authoritative artifact defines otherwise.
 
----
+______________________________________________________________________
 
-# 45. Core Metabolic Baseline
+## 45. Core Metabolic Baseline
 
 The source specifies:
 
@@ -1588,9 +1588,9 @@ FORMAL COMPONENT SET:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 46. Metabolic-Term Boundary
+## 46. Metabolic-Term Boundary
 
 The word:
 
@@ -1604,9 +1604,9 @@ This artifact alone does not establish a literal biological interpretation.
 
 Therefore no medical, physiological, or biological mechanism should be inferred without separate evidence.
 
----
+______________________________________________________________________
 
-# 47. Severe-Shock Route RSCF
+## 47. Severe-Shock Route RSCF
 
 ```yaml
 RSCF:
@@ -1651,9 +1651,9 @@ RSCF:
       UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 48. Severe-Shock Route Proof Capsule
+## 48. Severe-Shock Route Proof Capsule
 
 ```yaml
 Proof_Capsule:
@@ -1691,9 +1691,9 @@ Proof_Capsule:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 49. Three-Basin Reset Structure
+## 49. Three-Basin Reset Structure
 
 The source defines three reset basins:
 
@@ -1729,9 +1729,9 @@ $$
 
 This set representation is derived from the explicit source rows.
 
----
+______________________________________________________________________
 
-# 50. Basin Scope Separation
+## 50. Basin Scope Separation
 
 The source associates each basin with a distinct crisis class:
 
@@ -1750,9 +1750,9 @@ This supports scope differentiation.
 
 It does not establish a complete formal hierarchy among the basins.
 
----
+______________________________________________________________________
 
-# 51. No Automatic Basin Ordering
+## 51. No Automatic Basin Ordering
 
 The artifact does not establish:
 
@@ -1772,13 +1772,13 @@ $$
 S_0
 $$
 
-as mathematically deeper than every possible \(M_0\) or \(E_0\) state.
+as mathematically deeper than every possible (M_0) or (E_0) state.
 
 Such relationships require the Trang Zero framework.
 
----
+______________________________________________________________________
 
-# 52. Null-State Invariant Anchor
+## 52. Null-State Invariant Anchor
 
 The artifact explicitly identifies:
 
@@ -1792,9 +1792,9 @@ This establishes the source-defined association between Heritage routing and Tra
 
 It does not independently define the invariant.
 
----
+______________________________________________________________________
 
-# 53. Null-State Firewall
+## 53. Null-State Firewall
 
 A null state should not be interpreted as:
 
@@ -1814,9 +1814,9 @@ unless the governing framework explicitly defines those semantics.
 
 In this matrix, each null basin is paired with a reconstruction path, suggesting a reset/recovery role rather than an undefined claim of absolute nothingness.
 
----
+______________________________________________________________________
 
-# 54. Reset vs Erasure
+## 54. Reset vs Erasure
 
 The source consistently uses recovery-oriented actions:
 
@@ -1844,9 +1844,9 @@ $$
 
 as the safest source-compatible interpretation.
 
----
+______________________________________________________________________
 
-# 55. Anti-Autopoisoning Layer
+## 55. Anti-Autopoisoning Layer
 
 The source explicitly describes the reset actions as:
 
@@ -1886,9 +1886,9 @@ A_S
 SuspendNonEssentialServices
 $$
 
----
+______________________________________________________________________
 
-# 56. Autopoisoning Boundary
+## 56. Autopoisoning Boundary
 
 The source uses:
 
@@ -1922,9 +1922,9 @@ FORMAL MECHANISM:
 DEPENDENCY / UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 57. Anti-Autopoisoning as Containment
+## 57. Anti-Autopoisoning as Containment
 
 Across all three routes, the source actions share a structural pattern:
 
@@ -1948,9 +1948,9 @@ Substrate:
 suspend non-essential services
 ```
 
----
+______________________________________________________________________
 
-# 58. Containment Firewall
+## 58. Containment Firewall
 
 Containment does not itself establish recovery.
 
@@ -1964,9 +1964,9 @@ $$
 
 The source explicitly provides separate post-reset reconstruction actions.
 
----
+______________________________________________________________________
 
-# 59. Reconstruction Layer
+## 59. Reconstruction Layer
 
 The three source-defined reconstruction actions are:
 
@@ -2000,9 +2000,9 @@ P_S
 RestoreCoreMetabolicBaseline
 $$
 
----
+______________________________________________________________________
 
-# 60. Reconstruction Separation
+## 60. Reconstruction Separation
 
 The matrix structurally distinguishes:
 
@@ -2028,9 +2028,9 @@ $$
 
 is a derived linearization of the source columns.
 
----
+______________________________________________________________________
 
-# 61. Scheduling Boundary
+## 61. Scheduling Boundary
 
 The table column order suggests a conceptual progression:
 
@@ -2046,9 +2046,9 @@ but the artifact does not formally establish exact execution scheduling, concurr
 
 Therefore literal runtime sequencing remains unestablished.
 
----
+______________________________________________________________________
 
-# 62. Crisis-to-Recovery Normalization
+## 62. Crisis-to-Recovery Normalization
 
 The matrix can be normalized as:
 
@@ -2066,17 +2066,17 @@ $$
 
 where:
 
-* \(C\) = crisis state
-* \(H\) = Heritage archetype
-* \(Z\) = Zero reset basin
-* \(A\) = anti-autopoisoning action
-* \(P\) = post-reset reconstruction
+- (C) = crisis state
+- (H) = Heritage archetype
+- (Z) = Zero reset basin
+- (A) = anti-autopoisoning action
+- (P) = post-reset reconstruction
 
 This is a derived structural abstraction.
 
----
+______________________________________________________________________
 
-# 63. Heritage Layer Role
+## 63. Heritage Layer Role
 
 The Heritage column functions as a cross-plane bridge between:
 
@@ -2094,9 +2094,9 @@ in the source table.
 
 This establishes routing structure, not causal proof.
 
----
+______________________________________________________________________
 
-# 64. Heritage Evidence Boundary
+## 64. Heritage Evidence Boundary
 
 Historical material may contribute:
 
@@ -2122,9 +2122,9 @@ Heritage Archetype
 
 does not itself promote the underlying historical interpretation to `VERIFIED`.
 
----
+______________________________________________________________________
 
-# 65. Cross-Plane Architecture
+## 65. Cross-Plane Architecture
 
 The source establishes the following conceptual bridge:
 
@@ -2140,9 +2140,9 @@ HERITAGE / HISTORICAL SURVIVAL INTELLIGENCE
 
 This is a source-defined cross-plane model.
 
----
+______________________________________________________________________
 
-# 66. Framework Connections
+## 66. Framework Connections
 
 The artifact explicitly references:
 
@@ -2165,9 +2165,9 @@ DO_NOT_LOAD_UNLESS_REQUIRED
 
 they should be loaded only when their details can materially alter the conclusion.
 
----
+______________________________________________________________________
 
-# 67. Matrix Specification Counterpart
+## 67. Matrix Specification Counterpart
 
 The source explicitly identifies:
 
@@ -2187,9 +2187,9 @@ $$
 
 The specification and routing table are related but non-identical artifacts.
 
----
+______________________________________________________________________
 
-# 68. Specification vs Matrix Table
+## 68. Specification vs Matrix Table
 
 Conceptually:
 
@@ -2207,9 +2207,9 @@ CRISIS → ZERO RESET ROUTES
 
 Do not assume every detail in the specification is repeated in the matrix table or vice versa.
 
----
+______________________________________________________________________
 
-# 69. Trang Zero Framework Binding
+## 69. Trang Zero Framework Binding
 
 The artifact references:
 
@@ -2235,9 +2235,9 @@ RESET INVARIANTS
 ZERO-POINT DEFINITIONS
 ```
 
----
+______________________________________________________________________
 
-# 70. Heritage Zero Framework Binding
+## 70. Heritage Zero Framework Binding
 
 The artifact references:
 
@@ -2249,9 +2249,9 @@ The matrix itself does not establish the complete semantics of that framework.
 
 Therefore any deeper Heritage-Zero claims require that dependency.
 
----
+______________________________________________________________________
 
-# 71. Cross-Artifact Identity Firewall
+## 71. Cross-Artifact Identity Firewall
 
 Do not automatically assume:
 
@@ -2271,9 +2271,9 @@ $$
 
 They are distinct referenced artifacts unless authoritative canon states otherwise.
 
----
+______________________________________________________________________
 
-# 72. Threshold Semantics
+## 72. Threshold Semantics
 
 Two source rows contain explicit predicates:
 
@@ -2297,9 +2297,9 @@ Epistemic Hallucination
 
 Therefore one must not be invented.
 
----
+______________________________________________________________________
 
-# 73. Asymmetric Threshold Structure
+## 73. Asymmetric Threshold Structure
 
 The routing table therefore contains:
 
@@ -2316,9 +2316,9 @@ SEVERE SHOCKS
 
 This asymmetry should be preserved.
 
----
+______________________________________________________________________
 
-# 74. No Invented Epistemic Threshold
+## 74. No Invented Epistemic Threshold
 
 Do not create:
 
@@ -2335,9 +2335,9 @@ EPISTEMIC_TRIGGER:
 SOURCE_DEFINED_CATEGORICAL CONDITION
 ```
 
----
+______________________________________________________________________
 
-# 75. Threshold Calibration Gap
+## 75. Threshold Calibration Gap
 
 The matrix does not explain why:
 
@@ -2362,9 +2362,9 @@ UNKNOWN/GAP
 
 These values must not be represented as empirically optimized without evidence.
 
----
+______________________________________________________________________
 
-# 76. Threshold Portability Firewall
+## 76. Threshold Portability Firewall
 
 Even if a threshold is validated in one environment:
 
@@ -2376,9 +2376,9 @@ $$
 
 unless measurement semantics and regime compatibility are established.
 
----
+______________________________________________________________________
 
-# 77. Scope Envelope
+## 77. Scope Envelope
 
 Important reset claims inherit an applicability envelope that may include:
 
@@ -2408,9 +2408,9 @@ The matrix does not fully specify this envelope.
 
 Therefore broad generalization is not licensed.
 
----
+______________________________________________________________________
 
-# 78. Regime Firewall
+## 78. Regime Firewall
 
 A route validated for one AMOS regime does not automatically remain valid after changes to:
 
@@ -2432,9 +2432,9 @@ GOVERNANCE
 
 Revalidation is required when load-bearing regime assumptions change.
 
----
+______________________________________________________________________
 
-# 79. Freshness Boundary
+## 79. Freshness Boundary
 
 The artifact declares:
 
@@ -2459,9 +2459,9 @@ CRISIS METRICS
 THRESHOLD CALIBRATION
 ```
 
----
+______________________________________________________________________
 
-# 80. Provenance Topology
+## 80. Provenance Topology
 
 The matrix lists provenance from:
 
@@ -2485,9 +2485,9 @@ $$
 
 unless independence is demonstrated.
 
----
+______________________________________________________________________
 
-# 81. Heritage Source Independence
+## 81. Heritage Source Independence
 
 Multiple historical narratives repeating the same archetype do not constitute independent evidence if they descend from the same original account.
 
@@ -2499,9 +2499,9 @@ RepeatedHistoricalClaim
 IndependentHistoricalConfirmation
 $$
 
----
+______________________________________________________________________
 
-# 82. Provenance Preservation
+## 82. Provenance Preservation
 
 A governed reset should preserve enough provenance to reconstruct:
 
@@ -2527,9 +2527,9 @@ HOW RECONSTRUCTION OCCURRED
 
 This is a derived v4.4 provenance requirement.
 
----
+______________________________________________________________________
 
-# 83. Reset Receipt Candidate
+## 83. Reset Receipt Candidate
 
 ```yaml
 Reset_Receipt:
@@ -2573,9 +2573,9 @@ Reset_Receipt:
 
 Derived schema.
 
----
+______________________________________________________________________
 
-# 84. Epistemic Reset Receipt Candidate
+## 84. Epistemic Reset Receipt Candidate
 
 ```yaml
 Epistemic_Reset_Receipt:
@@ -2605,9 +2605,9 @@ Epistemic_Reset_Receipt:
 
 Derived schema.
 
----
+______________________________________________________________________
 
-# 85. Modular Reset Receipt Candidate
+## 85. Modular Reset Receipt Candidate
 
 ```yaml
 Modular_Reset_Receipt:
@@ -2640,9 +2640,9 @@ Modular_Reset_Receipt:
 
 Derived schema.
 
----
+______________________________________________________________________
 
-# 86. Substrate Reset Receipt Candidate
+## 86. Substrate Reset Receipt Candidate
 
 ```yaml
 Substrate_Reset_Receipt:
@@ -2675,9 +2675,9 @@ Substrate_Reset_Receipt:
 
 Derived schema.
 
----
+______________________________________________________________________
 
-# 87. Reset Decision Function
+## 87. Reset Decision Function
 
 A derived routing decision can be represented:
 
@@ -2704,9 +2704,9 @@ $$
 
 The source does not define this executable function.
 
----
+______________________________________________________________________
 
-# 88. Unknown Route
+## 88. Unknown Route
 
 The table defines only three crisis classes.
 
@@ -2722,9 +2722,9 @@ $$
 
 unless the governing specification defines fallback behavior.
 
----
+______________________________________________________________________
 
-# 89. Multi-Crisis Gap
+## 89. Multi-Crisis Gap
 
 The artifact does not specify behavior when multiple crisis conditions hold simultaneously.
 
@@ -2746,9 +2746,9 @@ $$
 
 No precedence rule is supplied.
 
----
+______________________________________________________________________
 
-# 90. Multi-Crisis Competing Models
+## 90. Multi-Crisis Competing Models
 
 Until authoritative semantics exist, possible models include:
 
@@ -2777,9 +2777,9 @@ Therefore, when materially relevant:
 COMPETING
 ```
 
----
+______________________________________________________________________
 
-# 91. No Invented Basin Precedence
+## 91. No Invented Basin Precedence
 
 Do not assume:
 
@@ -2791,9 +2791,9 @@ as an execution precedence rule.
 
 Symbolic or conceptual depth does not prove routing priority.
 
----
+______________________________________________________________________
 
-# 92. Crisis Classification Conflict
+## 92. Crisis Classification Conflict
 
 If evidence supports incompatible crisis classifications:
 
@@ -2805,9 +2805,9 @@ until discriminating evidence exists.
 
 Do not force convergence merely because one route appears more severe.
 
----
+______________________________________________________________________
 
-# 93. Cheapest Discriminating Test
+## 93. Cheapest Discriminating Test
 
 For route selection, the cheapest high-information test is the one that most directly distinguishes the candidate crisis classes.
 
@@ -2823,9 +2823,9 @@ SHOCK METRIC VALIDATION
 
 Exact tests require framework definitions.
 
----
+______________________________________________________________________
 
-# 94. Sensitivity — Epistemic Route
+## 94. Sensitivity — Epistemic Route
 
 The smallest premises capable of flipping the Epistemic Null route may include:
 
@@ -2841,9 +2841,9 @@ WHETHER THE CLAIM IS STALE
 WHETHER APPARENT CONTRADICTION IS A REGIME DIFFERENCE
 ```
 
----
+______________________________________________________________________
 
-# 95. Sensitivity — Fragmentation Route
+## 95. Sensitivity — Fragmentation Route
 
 Potential result-flipping factors include:
 
@@ -2869,9 +2869,9 @@ CONDITIONAL
 
 is the appropriate conclusion class.
 
----
+______________________________________________________________________
 
-# 96. Sensitivity — Severe-Shock Route
+## 96. Sensitivity — Severe-Shock Route
 
 Potential result-flipping factors include:
 
@@ -2889,9 +2889,9 @@ SUBSTRATE DEFINITION
 REVERSIBILITY OF SUSPENSION
 ```
 
----
+______________________________________________________________________
 
-# 97. Adversarial Validation — Epistemic Route
+## 97. Adversarial Validation — Epistemic Route
 
 Challenge the route by asking:
 
@@ -2913,9 +2913,9 @@ IS THE CONFLICT CAUSED BY A REGIME SHIFT?
 IS THE RESET SCOPE TOO BROAD?
 ```
 
----
+______________________________________________________________________
 
-# 98. Adversarial Validation — Fragmentation Route
+## 98. Adversarial Validation — Fragmentation Route
 
 Challenge:
 
@@ -2937,9 +2937,9 @@ ARE POLYCENTRIC NODES ACTUALLY INDEPENDENT?
 IS THE HISTORICAL ANALOGY DOING UNSUPPORTED CAUSAL WORK?
 ```
 
----
+______________________________________________________________________
 
-# 99. Adversarial Validation — Severe-Shock Route
+## 99. Adversarial Validation — Severe-Shock Route
 
 Challenge:
 
@@ -2961,9 +2961,9 @@ CAN THE CORE BASELINE ACTUALLY BE RESTORED?
 IS THE ASYMMETRIC DEFENSE ANALOGY CAUSAL OR ONLY STRUCTURAL?
 ```
 
----
+______________________________________________________________________
 
-# 100. Local Reset Principle
+## 100. Local Reset Principle
 
 A compatible derived rule is:
 
@@ -2977,9 +2977,9 @@ when safety and governing canon permit.
 
 This prevents an epistemic failure from automatically triggering a whole-system reset.
 
----
+______________________________________________________________________
 
-# 101. Escalation Principle
+## 101. Escalation Principle
 
 Escalate reset scope only when:
 
@@ -2997,9 +2997,9 @@ RECOVERY BASELINE CANNOT BE ESTABLISHED LOCALLY
 
 This is a derived governance pattern.
 
----
+______________________________________________________________________
 
-# 102. Epistemic-to-Modular Escalation Gap
+## 102. Epistemic-to-Modular Escalation Gap
 
 The source does not state that:
 
@@ -3010,9 +3010,9 @@ E_0 FAILURE
 
 Therefore this escalation path must not be invented.
 
----
+______________________________________________________________________
 
-# 103. Modular-to-Substrate Escalation Gap
+## 103. Modular-to-Substrate Escalation Gap
 
 Likewise, the source does not state:
 
@@ -3023,9 +3023,9 @@ M_0 FAILURE
 
 No automatic escalation ladder is established.
 
----
+______________________________________________________________________
 
-# 104. Basin Transition Gap
+## 104. Basin Transition Gap
 
 The artifact does not specify transitions among:
 
@@ -3042,9 +3042,9 @@ BASIN_TO_BASIN_TRANSITION_GRAPH:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 105. Failure Recovery Principle
+## 105. Failure Recovery Principle
 
 A v4.4-compatible derived recovery rule is:
 
@@ -3062,9 +3062,9 @@ RECONSTRUCT FROM VALID SUBSTRATE
 
 This should not be confused with an established executable implementation.
 
----
+______________________________________________________________________
 
-# 106. No Repeated Failed Path
+## 106. No Repeated Failed Path
 
 After a reset route fails, repeating the same route without changed evidence, changed state, or changed assumptions should not be presumed useful.
 
@@ -3078,9 +3078,9 @@ NoChangedEvidence
 DoNotBlindlyRepeat
 $$
 
----
+______________________________________________________________________
 
-# 107. Reversibility Principle
+## 107. Reversibility Principle
 
 Because reset actions can destroy or suspend useful state, reversible containment should be preferred where consistent with the governing source.
 
@@ -3096,9 +3096,9 @@ SUSPEND BEFORE REMOVE
 
 The source explicitly uses `isolates` and `suspends`, supporting a containment-oriented reading for those rows.
 
----
+______________________________________________________________________
 
-# 108. Irreversibility Firewall
+## 108. Irreversibility Firewall
 
 The word:
 
@@ -3120,9 +3120,9 @@ suspends
 
 Because exact purge semantics are undefined, persistent deletion must not be inferred.
 
----
+______________________________________________________________________
 
-# 109. Governance Escalation
+## 109. Governance Escalation
 
 Validation burden should increase when a reset can affect:
 
@@ -3142,9 +3142,9 @@ IRREVERSIBLE STATE
 
 This is a derived action-governance rule.
 
----
+______________________________________________________________________
 
-# 110. Reset Authority Firewall
+## 110. Reset Authority Firewall
 
 A system being classified into a reset basin does not automatically imply authority to execute the corresponding action.
 
@@ -3156,9 +3156,9 @@ RouteSelected
 ResetAuthorized
 $$
 
----
+______________________________________________________________________
 
-# 111. Decision vs Action
+## 111. Decision vs Action
 
 Preserve:
 
@@ -3172,9 +3172,9 @@ The reset is actually executed.
 
 These are distinct epistemic and governance objects.
 
----
+______________________________________________________________________
 
-# 112. Model vs Runtime
+## 112. Model vs Runtime
 
 The matrix currently has:
 
@@ -3194,9 +3194,9 @@ MatrixRoute
 RuntimeAction
 $$
 
----
+______________________________________________________________________
 
-# 113. Runtime Enforcement Boundary
+## 113. Runtime Enforcement Boundary
 
 The source metadata explicitly states:
 
@@ -3231,32 +3231,32 @@ RECONSTRUCTS STATE
 
 without runtime evidence.
 
----
+______________________________________________________________________
 
-# 114. Validation Matrix
+## 114. Validation Matrix
 
 | Source Element                      | Source Presence       | Source Structure             | Runtime | Independent Validation      | Formal Verification |
 | ----------------------------------- | --------------------- | ---------------------------- | ------- | --------------------------- | ------------------- |
 | Heritage × Trang Zero routing table | Verified              | Verified                     | Unknown | Not established             | Not established     |
 | Epistemic Hallucination route       | Verified              | Verified                     | Unknown | Not established             | Not established     |
 | Historical False Consensus          | Verified as archetype | Mapping verified             | Unknown | Not established             | Not established     |
-| Epistemic Null \(E_0\)              | Verified as term      | Basin role verified          | Unknown | Not established             | Not established     |
+| Epistemic Null (E_0)                | Verified as term      | Basin role verified          | Unknown | Not established             | Not established     |
 | Purge ungrounded prompt context     | Verified              | Action role verified         | Unknown | Not established             | Not established     |
 | Re-anchor to primary sources        | Verified              | Reconstruction role verified | Unknown | Not established             | Not established     |
-| \(F>0.8\)                           | Verified              | Predicate verified           | Unknown | Calibration not established | Not established     |
+| (F>0.8)                             | Verified              | Predicate verified           | Unknown | Calibration not established | Not established     |
 | Village Autonomy Decoupling         | Verified as archetype | Mapping verified             | Unknown | Not established             | Not established     |
-| Modular Null \(M_0\)                | Verified as term      | Basin role verified          | Unknown | Not established             | Not established     |
+| Modular Null (M_0)                  | Verified as term      | Basin role verified          | Unknown | Not established             | Not established     |
 | Isolate failing subsystems          | Verified              | Action role verified         | Unknown | Not established             | Not established     |
 | Polycentric reconstruction          | Verified              | Reconstruction role verified | Unknown | Not established             | Not established     |
-| \(S>0.9\)                           | Verified              | Predicate verified           | Unknown | Calibration not established | Not established     |
+| (S>0.9)                             | Verified              | Predicate verified           | Unknown | Calibration not established | Not established     |
 | Asymmetric Defense Reset            | Verified as archetype | Mapping verified             | Unknown | Not established             | Not established     |
-| Substrate Ground \(S_0\)            | Verified as term      | Basin role verified          | Unknown | Not established             | Not established     |
+| Substrate Ground (S_0)              | Verified as term      | Basin role verified          | Unknown | Not established             | Not established     |
 | Suspend non-essential services      | Verified              | Action role verified         | Unknown | Not established             | Not established     |
 | Restore core metabolic baseline     | Verified              | Reconstruction role verified | Unknown | Not established             | Not established     |
 
----
+______________________________________________________________________
 
-# 115. Runtime Validation Requirements
+## 115. Runtime Validation Requirements
 
 Before promoting runtime status, establish:
 
@@ -3298,9 +3298,9 @@ PROVENANCE
 NEGATIVE TESTS
 ```
 
----
+______________________________________________________________________
 
-# 116. Historical Validation Requirements
+## 116. Historical Validation Requirements
 
 Before promoting archetypal mappings into empirical historical claims, establish:
 
@@ -3330,9 +3330,9 @@ REGIME
 FALSIFIERS
 ```
 
----
+______________________________________________________________________
 
-# 117. Causal Firewall
+## 117. Causal Firewall
 
 The matrix connects:
 
@@ -3356,9 +3356,9 @@ $$
 
 without appropriately typed evidence.
 
----
+______________________________________________________________________
 
-# 118. Enabling vs Causal Condition
+## 118. Enabling vs Causal Condition
 
 A historical organizational structure might have enabled survival without being sufficient or necessary for it.
 
@@ -3380,9 +3380,9 @@ CAUSAL EFFECT
 
 The matrix itself does not resolve these types.
 
----
+______________________________________________________________________
 
-# 119. Polycentric Causality Boundary
+## 119. Polycentric Causality Boundary
 
 Even if historical cases show polycentric structures during successful recovery:
 
@@ -3396,9 +3396,9 @@ $$
 
 Confounders and selection effects remain possible.
 
----
+______________________________________________________________________
 
-# 120. Primary-Source Causality Boundary
+## 120. Primary-Source Causality Boundary
 
 Re-anchoring to primary sources may improve grounding under some epistemic conditions.
 
@@ -3412,9 +3412,9 @@ $$
 
 because primary evidence still requires interpretation and validation.
 
----
+______________________________________________________________________
 
-# 121. Substrate-Recovery Causality Boundary
+## 121. Substrate-Recovery Causality Boundary
 
 Likewise:
 
@@ -3426,9 +3426,9 @@ $$
 
 is a source-defined recovery route, not an independently established universal causal law.
 
----
+______________________________________________________________________
 
-# 122. Competing Hypotheses — Epistemic Crisis
+## 122. Competing Hypotheses — Epistemic Crisis
 
 If epistemic degradation is observed, plausible competing explanations may include:
 
@@ -3460,9 +3460,9 @@ MEASUREMENT ERROR
 
 Do not automatically assume H1 merely because the matrix's anti-autopoisoning action targets ungrounded context.
 
----
+______________________________________________________________________
 
-# 123. Competing Hypotheses — Fragmentation
+## 123. Competing Hypotheses — Fragmentation
 
 Observed fragmentation may arise from:
 
@@ -3491,9 +3491,9 @@ GLOBAL SUBSTRATE FAILURE
 
 The cheapest discriminating evidence should be preferred over immediate broad reset.
 
----
+______________________________________________________________________
 
-# 124. Competing Hypotheses — Severe Shock
+## 124. Competing Hypotheses — Severe Shock
 
 A high shock score, once defined, could reflect:
 
@@ -3522,9 +3522,9 @@ CORRELATED INPUT FAILURE
 
 These alternatives matter before irreversible action.
 
----
+______________________________________________________________________
 
-# 125. Threshold Sensitivity Contract
+## 125. Threshold Sensitivity Contract
 
 ```yaml
 Threshold_Sensitivity:
@@ -3553,9 +3553,9 @@ Threshold_Sensitivity:
 
 Derived schema.
 
----
+______________________________________________________________________
 
-# 126. Reset Scope Contract
+## 126. Reset Scope Contract
 
 ```yaml
 Reset_Scope:
@@ -3585,9 +3585,9 @@ Reset_Scope:
 
 Derived schema.
 
----
+______________________________________________________________________
 
-# 127. Reconstruction Proof Capsule
+## 127. Reconstruction Proof Capsule
 
 ```yaml
 Reconstruction_Proof_Capsule:
@@ -3617,9 +3617,9 @@ Reconstruction_Proof_Capsule:
 
 Derived schema.
 
----
+______________________________________________________________________
 
-# 128. Post-Reset Validation
+## 128. Post-Reset Validation
 
 A reset should not be considered successful merely because the reset action completed.
 
@@ -3633,11 +3633,11 @@ $$
 
 Post-reset reconstruction requires separate validation against its success criteria.
 
----
+______________________________________________________________________
 
-# 129. Epistemic Recovery Validation
+## 129. Epistemic Recovery Validation
 
-For the \(E_0\) route, candidate validation questions include:
+For the (E_0) route, candidate validation questions include:
 
 ```text
 ARE LOAD-BEARING CLAIMS NOW GROUNDED?
@@ -3655,11 +3655,11 @@ HAS SCOPE BEEN RESTORED?
 
 Exact criteria require the governing framework.
 
----
+______________________________________________________________________
 
-# 130. Modular Recovery Validation
+## 130. Modular Recovery Validation
 
-For the \(M_0\) route:
+For the (M_0) route:
 
 ```text
 ARE FAILING SUBSYSTEMS CONTAINED?
@@ -3675,11 +3675,11 @@ ARE SHARED FAILURE MODES IDENTIFIED?
 CAN ISOLATED COMPONENTS BE REINTEGRATED?
 ```
 
----
+______________________________________________________________________
 
-# 131. Substrate Recovery Validation
+## 131. Substrate Recovery Validation
 
-For the \(S_0\) route:
+For the (S_0) route:
 
 ```text
 IS THE CORE SUBSTRATE STABLE?
@@ -3695,9 +3695,9 @@ HAS THE SHOCK CONDITION CLEARED?
 IS THE CORE METABOLIC BASELINE ACTUALLY RESTORED?
 ```
 
----
+______________________________________________________________________
 
-# 132. Reconstruction Re-entry Gap
+## 132. Reconstruction Re-entry Gap
 
 The source does not specify how the system exits:
 
@@ -3724,9 +3724,9 @@ RESET_EXIT_CONDITIONS:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 133. Service Restoration Gap
+## 133. Service Restoration Gap
 
 The Severe Shock route states:
 
@@ -3743,9 +3743,9 @@ NON_ESSENTIAL_SERVICE_REACTIVATION:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 134. Subsystem Reintegration Gap
+## 134. Subsystem Reintegration Gap
 
 The Fragmentation route states:
 
@@ -3762,9 +3762,9 @@ SUBSYSTEM_REINTEGRATION:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 135. Epistemic Context Reintroduction Gap
+## 135. Epistemic Context Reintroduction Gap
 
 The Epistemic route does not specify whether previously purged context can later be restored after validation.
 
@@ -3775,9 +3775,9 @@ PURGED_CONTEXT_REINTRODUCTION:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 136. Persistence Boundary
+## 136. Persistence Boundary
 
 The artifact does not specify whether reset operations affect:
 
@@ -3797,9 +3797,9 @@ EXTERNAL STORAGE
 
 This is a critical executable-binding gap.
 
----
+______________________________________________________________________
 
-# 137. MVCC-Compatible Reset Interpretation
+## 137. MVCC-Compatible Reset Interpretation
 
 A v4.4-compatible conceptual implementation may treat a reset as versioned state transition:
 
@@ -3813,9 +3813,9 @@ with commit only after validating that load-bearing state has not changed.
 
 This is not evidence that the source-defined framework literally implements MVCC.
 
----
+______________________________________________________________________
 
-# 138. CAS-Compatible Reset Guard
+## 138. CAS-Compatible Reset Guard
 
 Conceptually:
 
@@ -3831,9 +3831,9 @@ could prevent a stale reset from executing after conditions change.
 
 This is a derived implementation pattern only.
 
----
+______________________________________________________________________
 
-# 139. Reset Staleness
+## 139. Reset Staleness
 
 If:
 
@@ -3841,7 +3841,7 @@ If:
 F > 0.8
 ```
 
-was observed at time \(t_0\), but fragmentation resolves before reset execution at \(t_1\), the original trigger may be stale.
+was observed at time (t_0), but fragmentation resolves before reset execution at (t_1), the original trigger may be stale.
 
 Derived rule:
 
@@ -3851,9 +3851,9 @@ TriggerValid@t_0
 TriggerValid@t_1
 $$
 
----
+______________________________________________________________________
 
-# 140. Commit-Time Crisis Revalidation
+## 140. Commit-Time Crisis Revalidation
 
 Before a consequential reset, revalidate the smallest premise capable of invalidating the route.
 
@@ -3871,9 +3871,9 @@ $$
 
 where measurement semantics are established.
 
----
+______________________________________________________________________
 
-# 141. Causal Epoch Compatibility
+## 141. Causal Epoch Compatibility
 
 A reset decision can conceptually be bound to a causal epoch:
 
@@ -3891,9 +3891,9 @@ the route may require revalidation.
 
 No literal causal-epoch runtime is established.
 
----
+______________________________________________________________________
 
-# 142. Atomic Multi-RSCF Crisis Reasoning
+## 142. Atomic Multi-RSCF Crisis Reasoning
 
 A compound crisis may involve multiple RSCFs:
 
@@ -3907,9 +3907,9 @@ RSCF_SHOCK
 
 These should remain locally evaluable unless dependencies establish that joint reasoning is required.
 
----
+______________________________________________________________________
 
-# 143. Proof-Based Coordination Avoidance
+## 143. Proof-Based Coordination Avoidance
 
 If the epistemic route is demonstrably independent of modular and substrate conditions:
 
@@ -3924,9 +3924,9 @@ If independence is not established, escalation is required.
 
 This is a reasoning pattern, not an implementation claim.
 
----
+______________________________________________________________________
 
-# 144. Independence Must Be Demonstrated
+## 144. Independence Must Be Demonstrated
 
 For example:
 
@@ -3946,9 +3946,9 @@ SYSTEMIC ROUTING FAILURE
 
 Therefore local reset eligibility depends on demonstrated dependency closure.
 
----
+______________________________________________________________________
 
-# 145. Provenance Correlation Risk
+## 145. Provenance Correlation Risk
 
 Multiple crisis indicators derived from the same failing source may falsely appear independent.
 
@@ -3970,9 +3970,9 @@ MultipleAlerts
 IndependentConfirmation
 $$
 
----
+______________________________________________________________________
 
-# 146. Sybil-Hardening Principle
+## 146. Sybil-Hardening Principle
 
 Repeated claims, alerts, or historical examples that share ancestry should not gain artificial confidence merely through repetition.
 
@@ -3986,9 +3986,9 @@ $$
 
 when ancestry is shared.
 
----
+______________________________________________________________________
 
-# 147. Reset Confidence Ceiling
+## 147. Reset Confidence Ceiling
 
 For any route:
 
@@ -4002,9 +4002,9 @@ unless that premise is independently revalidated.
 
 A source-defined threshold does not override weak measurement evidence.
 
----
+______________________________________________________________________
 
-# 148. Historical Confidence Ceiling
+## 148. Historical Confidence Ceiling
 
 Likewise:
 
@@ -4016,9 +4016,9 @@ $$
 
 The matrix's archetype labels do not remove this constraint.
 
----
+______________________________________________________________________
 
-# 149. Cross-Domain Mapping Firewall
+## 149. Cross-Domain Mapping Firewall
 
 Heritage-to-system mappings are cross-domain models.
 
@@ -4038,9 +4038,9 @@ Similarity
 ValidatedEquivalence
 $$
 
----
+______________________________________________________________________
 
-# 150. Scale Firewall
+## 150. Scale Firewall
 
 A pattern observed at:
 
@@ -4062,9 +4062,9 @@ GLOBAL SCALE
 
 without independent validation.
 
----
+______________________________________________________________________
 
-# 151. Environment Firewall
+## 151. Environment Firewall
 
 A reset strategy effective under one environment may fail under another because of:
 
@@ -4086,9 +4086,9 @@ ADVERSARIAL CONDITIONS
 
 Therefore scope must remain explicit.
 
----
+______________________________________________________________________
 
-# 152. Historical Selection Bias
+## 152. Historical Selection Bias
 
 Successful historical examples may be disproportionately preserved or emphasized.
 
@@ -4108,9 +4108,9 @@ when used as empirical evidence.
 
 The matrix itself does not resolve these.
 
----
+______________________________________________________________________
 
-# 153. Anti-Autopoisoning Causal Boundary
+## 153. Anti-Autopoisoning Causal Boundary
 
 The matrix labels specific actions as anti-autopoisoning.
 
@@ -4126,9 +4126,9 @@ $$
 
 in every environment.
 
----
+______________________________________________________________________
 
-# 154. Null-State Safety Boundary
+## 154. Null-State Safety Boundary
 
 Entering a reset basin may itself carry risk.
 
@@ -4150,9 +4150,9 @@ FAILED RECONSTRUCTION
 
 These must be considered for executable implementations.
 
----
+______________________________________________________________________
 
-# 155. Action Governance
+## 155. Action Governance
 
 Validation burden increases with:
 
@@ -4174,9 +4174,9 @@ INSTITUTIONAL IMPACT
 
 A model route alone is insufficient authorization for high-stakes action.
 
----
+______________________________________________________________________
 
-# 156. Safe Action Under Uncertainty
+## 156. Safe Action Under Uncertainty
 
 When a crisis route is plausible but not established, prefer actions that are:
 
@@ -4196,9 +4196,9 @@ LOW-BLAST-RADIUS
 
 unless governing canon requires stronger containment.
 
----
+______________________________________________________________________
 
-# 157. Epistemic Safe Action
+## 157. Epistemic Safe Action
 
 Under uncertain epistemic degradation, a safer derived action may be:
 
@@ -4216,9 +4216,9 @@ rather than irreversible deletion.
 
 This is a derived governance interpretation of the source route.
 
----
+______________________________________________________________________
 
-# 158. Modular Safe Action
+## 158. Modular Safe Action
 
 Under uncertain fragmentation:
 
@@ -4236,9 +4236,9 @@ may reduce blast radius.
 
 Again, this is derived, not source-prescribed runtime behavior.
 
----
+______________________________________________________________________
 
-# 159. Substrate Safe Action
+## 159. Substrate Safe Action
 
 Under uncertain severe shock:
 
@@ -4256,9 +4256,9 @@ REASSESS
 
 before irreversible changes where feasible.
 
----
+______________________________________________________________________
 
-# 160. Gap Priority
+## 160. Gap Priority
 
 ## CRITICAL
 
@@ -4312,9 +4312,9 @@ NON-LOAD-BEARING ANALOGICAL CONTEXT
 
 Formatting differences that do not alter routing semantics.
 
----
+______________________________________________________________________
 
-# 161. RSCF Master Frame
+## 161. RSCF Master Frame
 
 ```yaml
 RSCF:
@@ -4405,9 +4405,9 @@ RSCF:
       UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 162. H/M/L Retrieval Contract
+## 162. H/M/L Retrieval Contract
 
 ```yaml
 HML:
@@ -4449,9 +4449,9 @@ HML:
       - formal_proofs
 ```
 
----
+______________________________________________________________________
 
-# 163. Fast-Path Eligibility
+## 163. Fast-Path Eligibility
 
 A local route may be evaluated without full framework expansion only when:
 
@@ -4475,9 +4475,9 @@ RESET IS WITHIN AUTHORITY
 NO HIDDEN DEPENDENCY CAN EXPAND BLAST RADIUS
 ```
 
----
+______________________________________________________________________
 
-# 164. Escalation Conditions
+## 164. Escalation Conditions
 
 Escalate when:
 
@@ -4509,9 +4509,9 @@ REGIME CHANGED
 PROVENANCE IS CORRELATED
 ```
 
----
+______________________________________________________________________
 
-# 165. Conclusion Classes
+## 165. Conclusion Classes
 
 Use:
 
@@ -4561,43 +4561,43 @@ UNKNOWN/GAP
 
 for missing definitions, runtime bindings, or unsupported historical mechanisms.
 
----
+______________________________________________________________________
 
-# 166. Anti-Fabrication Rules
+## 166. Anti-Fabrication Rules
 
 This artifact MUST NOT by itself be used to claim:
 
 1. that `Epistemic Hallucination` has a numerical threshold;
-2. that \(F\) has a known definition or measurement procedure;
-3. that \(S\) has a known definition or measurement procedure;
-4. that \(0.8\) or \(0.9\) are empirically optimized universal thresholds;
-5. that \(F=0.8\) triggers the fragmentation route;
-6. that \(S=0.9\) triggers the severe-shock route;
-7. that \(E_0\), \(M_0\), or \(S_0\) have invented formal semantics;
-8. that the three reset basins form an ordered hierarchy;
-9. that \(E_0\rightarrow M_0\rightarrow S_0\) is an escalation ladder;
-10. that reset means deletion of all state;
-11. that `purges` necessarily means persistent deletion;
-12. that `Modular Null` means total system shutdown;
-13. that `Substrate Ground` means zeroing every state variable;
-14. that `metabolic` necessarily means biological metabolism;
-15. that `Asymmetric Defense Reset` is a physical-conflict prescription;
-16. that historical archetypes establish causation;
-17. that Village Autonomy Decoupling universally causes resilience;
-18. that polycentric reconstruction is universally optimal;
-19. that primary sources are automatically truthful;
-20. that anti-autopoisoning actions are empirically validated;
-21. that multiple crisis routes have a known precedence order;
-22. that AMOS automatically executes these resets;
-23. that the matrix establishes reset authority;
-24. that runtime enforcement exists;
-25. that MVCC, CAS, causal epochs, or atomic multi-RSCF reset transactions are literally implemented;
-26. that the architecture is empirically validated;
-27. that the architecture is formally verified.
+1. that (F) has a known definition or measurement procedure;
+1. that (S) has a known definition or measurement procedure;
+1. that (0.8) or (0.9) are empirically optimized universal thresholds;
+1. that (F=0.8) triggers the fragmentation route;
+1. that (S=0.9) triggers the severe-shock route;
+1. that (E_0), (M_0), or (S_0) have invented formal semantics;
+1. that the three reset basins form an ordered hierarchy;
+1. that (E_0\\rightarrow M_0\\rightarrow S_0) is an escalation ladder;
+1. that reset means deletion of all state;
+1. that `purges` necessarily means persistent deletion;
+1. that `Modular Null` means total system shutdown;
+1. that `Substrate Ground` means zeroing every state variable;
+1. that `metabolic` necessarily means biological metabolism;
+1. that `Asymmetric Defense Reset` is a physical-conflict prescription;
+1. that historical archetypes establish causation;
+1. that Village Autonomy Decoupling universally causes resilience;
+1. that polycentric reconstruction is universally optimal;
+1. that primary sources are automatically truthful;
+1. that anti-autopoisoning actions are empirically validated;
+1. that multiple crisis routes have a known precedence order;
+1. that AMOS automatically executes these resets;
+1. that the matrix establishes reset authority;
+1. that runtime enforcement exists;
+1. that MVCC, CAS, causal epochs, or atomic multi-RSCF reset transactions are literally implemented;
+1. that the architecture is empirically validated;
+1. that the architecture is formally verified.
 
----
+______________________________________________________________________
 
-# 167. Anti-Regression Rules
+## 167. Anti-Regression Rules
 
 Any revision should preserve or improve:
 
@@ -4647,9 +4647,9 @@ REVERSIBILITY
 GAP VISIBILITY
 ```
 
----
+______________________________________________________________________
 
-# 168. Invalidation Conditions
+## 168. Invalidation Conditions
 
 Revalidate this artifact when:
 
@@ -4687,9 +4687,9 @@ NEW HISTORICAL EVIDENCE CHANGES AN ARCHETYPE
 VALIDATION EVIDENCE FALSIFIES A ROUTE
 ```
 
----
+______________________________________________________________________
 
-# 169. Local Invalidation — Threshold
+## 169. Local Invalidation — Threshold
 
 If authoritative evidence changes:
 
@@ -4701,9 +4701,9 @@ to another predicate, invalidate only claims depending on the old fragmentation 
 
 Preserve unrelated Epistemic and Severe Shock routes unless their dependencies also changed.
 
----
+______________________________________________________________________
 
-# 170. Local Invalidation — Historical Archetype
+## 170. Local Invalidation — Historical Archetype
 
 If historical evidence undermines:
 
@@ -4715,11 +4715,11 @@ as a valid archetype, invalidate the archetypal interpretation and dependent cau
 
 Do not automatically invalidate the source fact that this version of the matrix contains that row.
 
----
+______________________________________________________________________
 
-# 171. Local Invalidation — Runtime Failure
+## 171. Local Invalidation — Runtime Failure
 
-If an executable \(M_0\) implementation fails testing:
+If an executable (M_0) implementation fails testing:
 
 ```text
 INVALIDATE:
@@ -4737,9 +4737,9 @@ THE MATRIX DEFINES MODULAR NULL M_0
 
 unless the source is superseded.
 
----
+______________________________________________________________________
 
-# 172. Source-Presence vs Runtime Non-Conformance
+## 172. Source-Presence vs Runtime Non-Conformance
 
 The following can coexist:
 
@@ -4755,9 +4755,9 @@ IMPLEMENT S_0.
 
 This indicates implementation non-conformance, not source disappearance.
 
----
+______________________________________________________________________
 
-# 173. Conformance Model
+## 173. Conformance Model
 
 Conceptually:
 
@@ -4773,9 +4773,9 @@ for the properties actually required by the governing regime.
 
 Exact criteria require executable bindings.
 
----
+______________________________________________________________________
 
-# 174. Conformance Receipt Candidate
+## 174. Conformance Receipt Candidate
 
 ```yaml
 Heritage_Zero_Conformance_Receipt:
@@ -4815,9 +4815,9 @@ Heritage_Zero_Conformance_Receipt:
 
 Derived schema.
 
----
+______________________________________________________________________
 
-# 175. Canon Candidate Boundary
+## 175. Canon Candidate Boundary
 
 Current status:
 
@@ -4835,9 +4835,9 @@ $$
 
 Promotion remains governed by applicable AMOS canon authority.
 
----
+______________________________________________________________________
 
-# 176. Canon Promotion Requirements
+## 176. Canon Promotion Requirements
 
 Before promotion, verify:
 
@@ -4871,9 +4871,9 @@ REGIME
 
 Executable validation remains a separate dimension.
 
----
+______________________________________________________________________
 
-# 177. Runtime Promotion Gate
+## 177. Runtime Promotion Gate
 
 Before strengthening:
 
@@ -4910,9 +4910,9 @@ PROVENANCE
 TEST EVIDENCE
 ```
 
----
+______________________________________________________________________
 
-# 178. Formal Verification Gate
+## 178. Formal Verification Gate
 
 Before changing:
 
@@ -4925,9 +4925,9 @@ require actual formal artifacts establishing the specific claimed properties.
 
 Source-defined mathematical symbols and thresholds are not themselves formal verification.
 
----
+______________________________________________________________________
 
-# 179. Machine-Readable Routing Matrix
+## 179. Machine-Readable Routing Matrix
 
 ```yaml
 Heritage_X_Trang_Zero_Matrix:
@@ -5007,9 +5007,9 @@ Heritage_X_Trang_Zero_Matrix:
     NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 180. Routing Integrity Contract
+## 180. Routing Integrity Contract
 
 ```yaml
 Routing_Integrity:
@@ -5054,9 +5054,9 @@ Routing_Integrity:
     - runtime_enforcement
 ```
 
----
+______________________________________________________________________
 
-# 181. Cross-Plane Audit
+## 181. Cross-Plane Audit
 
 ```yaml
 Cross_Plane_Audit:
@@ -5105,9 +5105,9 @@ Cross_Plane_Audit:
   result:
 ```
 
----
+______________________________________________________________________
 
-# 182. Audit Questions
+## 182. Audit Questions
 
 A complete audit should answer:
 
@@ -5173,9 +5173,9 @@ A complete audit should answer:
 30. WHAT IS THE SMALLEST PREMISE THAT COULD FLIP THE ROUTE?
 ```
 
----
+______________________________________________________________________
 
-# 183. RSCF Contract
+## 183. RSCF Contract
 
 ```yaml
 RSCF:
@@ -5262,9 +5262,9 @@ RSCF:
       UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 184. RSCF Relations
+## 184. RSCF Relations
 
 ```yaml
 RSCF_RELATIONS:
@@ -5315,9 +5315,9 @@ RSCF_RELATIONS:
       "[[00_ROOT/AMOS_CORE_v4_4|AMOS_CORE_v4_4]]"
 ```
 
----
+______________________________________________________________________
 
-# 185. Ingestion Rule
+## 185. Ingestion Rule
 
 ```yaml
 HERITAGE_X_TRANG_ZERO_MATRIX_INGESTION:
@@ -5387,73 +5387,73 @@ HERITAGE_X_TRANG_ZERO_MATRIX_INGESTION:
       - NEVER_INVENT
 ```
 
----
+______________________________________________________________________
 
-# 186. Canon Promotion Checklist
+## 186. Canon Promotion Checklist
 
-* [ ] artifact identity preserved
-* [ ] artifact path preserved
-* [ ] version preserved
-* [ ] origin architect preserved
-* [ ] provenance preserved
-* [ ] Matrix Specification binding resolved
-* [ ] Trang Zero Framework binding resolved
-* [ ] Heritage Zero Framework binding resolved
-* [ ] Epistemic Hallucination row preserved
-* [ ] Historical False Consensus preserved
-* [ ] \(E_0\) preserved
-* [ ] purge wording preserved
-* [ ] primary-source reconstruction preserved
-* [ ] Systemic Fragmentation row preserved
-* [ ] strict \(F>0.8\) predicate preserved
-* [ ] Village Autonomy Decoupling preserved
-* [ ] \(M_0\) preserved
-* [ ] subsystem-isolation wording preserved
-* [ ] polycentric reconstruction preserved
-* [ ] Severe Shocks row preserved
-* [ ] strict \(S>0.9\) predicate preserved
-* [ ] Asymmetric Defense Reset preserved
-* [ ] \(S_0\) preserved
-* [ ] service-suspension wording preserved
-* [ ] core metabolic baseline preserved
-* [ ] no epistemic numerical threshold invented
-* [ ] no metric semantics invented
-* [ ] no basin precedence invented
-* [ ] no historical causation invented
-* [ ] source/derived boundary preserved
-* [ ] runtime claims not overstated
-* [ ] contradictions preserved
-* [ ] gaps preserved
-* [ ] supersession authority established
+- [ ] artifact identity preserved
+- [ ] artifact path preserved
+- [ ] version preserved
+- [ ] origin architect preserved
+- [ ] provenance preserved
+- [ ] Matrix Specification binding resolved
+- [ ] Trang Zero Framework binding resolved
+- [ ] Heritage Zero Framework binding resolved
+- [ ] Epistemic Hallucination row preserved
+- [ ] Historical False Consensus preserved
+- [ ] (E_0) preserved
+- [ ] purge wording preserved
+- [ ] primary-source reconstruction preserved
+- [ ] Systemic Fragmentation row preserved
+- [ ] strict (F>0.8) predicate preserved
+- [ ] Village Autonomy Decoupling preserved
+- [ ] (M_0) preserved
+- [ ] subsystem-isolation wording preserved
+- [ ] polycentric reconstruction preserved
+- [ ] Severe Shocks row preserved
+- [ ] strict (S>0.9) predicate preserved
+- [ ] Asymmetric Defense Reset preserved
+- [ ] (S_0) preserved
+- [ ] service-suspension wording preserved
+- [ ] core metabolic baseline preserved
+- [ ] no epistemic numerical threshold invented
+- [ ] no metric semantics invented
+- [ ] no basin precedence invented
+- [ ] no historical causation invented
+- [ ] source/derived boundary preserved
+- [ ] runtime claims not overstated
+- [ ] contradictions preserved
+- [ ] gaps preserved
+- [ ] supersession authority established
 
----
+______________________________________________________________________
 
-# 187. Runtime Validation Checklist
+## 187. Runtime Validation Checklist
 
-* [ ] executable router identified
-* [ ] Epistemic Hallucination detector defined
-* [ ] \(F\) defined
-* [ ] \(F\) measurement established
-* [ ] \(F>0.8\) implementation verified
-* [ ] \(S\) defined
-* [ ] \(S\) measurement established
-* [ ] \(S>0.9\) implementation verified
-* [ ] \(E_0\) executable semantics established
-* [ ] \(M_0\) executable semantics established
-* [ ] \(S_0\) executable semantics established
-* [ ] purge semantics established
-* [ ] subsystem isolation semantics established
-* [ ] service suspension semantics established
-* [ ] primary-source reconstruction implemented
-* [ ] polycentric reconstruction implemented
-* [ ] core baseline reconstruction implemented
-* [ ] multi-crisis policy established
-* [ ] reset authority established
-* [ ] persistence effects established
-* [ ] rollback/recovery behavior established
-* [ ] reset exit conditions established
-* [ ] negative cases tested
-* [ ] provenance persistence tested
+- [ ] executable router identified
+- [ ] Epistemic Hallucination detector defined
+- [ ] (F) defined
+- [ ] (F) measurement established
+- [ ] (F>0.8) implementation verified
+- [ ] (S) defined
+- [ ] (S) measurement established
+- [ ] (S>0.9) implementation verified
+- [ ] (E_0) executable semantics established
+- [ ] (M_0) executable semantics established
+- [ ] (S_0) executable semantics established
+- [ ] purge semantics established
+- [ ] subsystem isolation semantics established
+- [ ] service suspension semantics established
+- [ ] primary-source reconstruction implemented
+- [ ] polycentric reconstruction implemented
+- [ ] core baseline reconstruction implemented
+- [ ] multi-crisis policy established
+- [ ] reset authority established
+- [ ] persistence effects established
+- [ ] rollback/recovery behavior established
+- [ ] reset exit conditions established
+- [ ] negative cases tested
+- [ ] provenance persistence tested
 
 Until then:
 
@@ -5462,9 +5462,9 @@ implementation_status:
 CONCEPTUAL_SOURCE_DEFINED
 ```
 
----
+______________________________________________________________________
 
-# 188. Master Matrix Invariants
+## 188. Master Matrix Invariants
 
 ## HZ-I1 — Source Routes Are Models
 
@@ -5566,9 +5566,9 @@ SourceDefinedResetMatrix
 VerifiedExecutableResetSystem
 $$
 
----
+______________________________________________________________________
 
-# 189. Master Zero-Reset Mesh
+## 189. Master Zero-Reset Mesh
 
 ```text
 ┌──────────────────────────────────────────────────────────────────────┐
@@ -5609,9 +5609,9 @@ RE-ANCHOR TO                 REBUILD ALONG               RESTORE CORE
 PRIMARY SOURCES              POLYCENTRIC NODES           METABOLIC BASELINE
 ```
 
----
+______________________________________________________________________
 
-# 190. Master Routing Law
+## 190. Master Routing Law
 
 The source can be normalized as:
 
@@ -5661,9 +5661,9 @@ S_0
 }
 $$
 
----
+______________________________________________________________________
 
-# 191. Master Reset Integrity Law
+## 191. Master Reset Integrity Law
 
 $$
 \boxed{
@@ -5677,9 +5677,9 @@ as a derived v4.4-compatible integrity preference when governing safety constrai
 
 This supports local repair over unnecessary global destruction.
 
----
+______________________________________________________________________
 
-# 192. Master Provenance Law
+## 192. Master Provenance Law
 
 $$
 \boxed{
@@ -5697,9 +5697,9 @@ $$
 
 as a derived provenance requirement.
 
----
+______________________________________________________________________
 
-# 193. Master Epistemic Reset Law
+## 193. Master Epistemic Reset Law
 
 $$
 \boxed{
@@ -5715,9 +5715,9 @@ as a derived normalization of the first source row.
 
 It does not establish persistent deletion semantics.
 
----
+______________________________________________________________________
 
-# 194. Master Modular Reset Law
+## 194. Master Modular Reset Law
 
 $$
 \boxed{
@@ -5735,9 +5735,9 @@ This is source-grounded as a routing model.
 
 Its executable semantics remain unknown.
 
----
+______________________________________________________________________
 
-# 195. Master Substrate Reset Law
+## 195. Master Substrate Reset Law
 
 $$
 \boxed{
@@ -5755,9 +5755,9 @@ This is source-grounded as a routing model.
 
 Its executable semantics remain unknown.
 
----
+______________________________________________________________________
 
-# 196. Master Historical Firewall
+## 196. Master Historical Firewall
 
 $$
 \boxed{
@@ -5769,9 +5769,9 @@ $$
 
 Historical correspondence may guide model construction but cannot independently license causal inference.
 
----
+______________________________________________________________________
 
-# 197. Master Threshold Firewall
+## 197. Master Threshold Firewall
 
 $$
 \boxed{
@@ -5783,9 +5783,9 @@ $$
 
 until measurement, calibration, scope, regime, and empirical validation are established.
 
----
+______________________________________________________________________
 
-# 198. Master Null-State Firewall
+## 198. Master Null-State Firewall
 
 $$
 \boxed{
@@ -5797,9 +5797,9 @@ $$
 
 The source-defined basins must retain their framework-specific meanings.
 
----
+______________________________________________________________________
 
-# 199. Master Action Firewall
+## 199. Master Action Firewall
 
 $$
 \boxed{
@@ -5811,9 +5811,9 @@ $$
 
 Decision and action remain separately governed.
 
----
+______________________________________________________________________
 
-# 200. Source-to-Derived Boundary
+## 200. Source-to-Derived Boundary
 
 ## Directly source-defined
 
@@ -5931,9 +5931,9 @@ EMPIRICAL VALIDATION
 FORMAL VERIFICATION
 ```
 
----
+______________________________________________________________________
 
-# 201. Final RSCF Contract
+## 201. Final RSCF Contract
 
 ```yaml
 RSCF:
@@ -6046,9 +6046,9 @@ RSCF:
       UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 202. Final Proof Capsule
+## 202. Final Proof Capsule
 
 ```yaml
 PROOF_CAPSULE:
@@ -6136,9 +6136,9 @@ PROOF_CAPSULE:
       UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 203. Final Canonical Candidate Statement
+## 203. Final Canonical Candidate Statement
 
 The **Heritage × Trang Zero Cross-Plane Matrix** source-defines a three-route crisis-reset architecture:
 
@@ -6443,7 +6443,7 @@ UNKNOWN/GAP.
 
 ---
 
-**Related:**  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·
+**Related:**
 
 ---
 
@@ -6516,7 +6516,3 @@ RSCF-RELATIONS:
 ---
 
 **END OF `HERITAGE_X_TRANG_ZERO_MATRIX.md`**
-
-
-```
-```

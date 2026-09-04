@@ -1,15 +1,18 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: INDEX COGNITIVE MATRIX README
 type: index
 source: 25_COGNITIVE_MATRIX/00_INDEX
 tags:
-- cognitive-matrix
-- index
-- readme
-- domain/cognitive-matrix
-- skill
-- workflow
-- canon
+  - cognitive-matrix
+  - index
+  - readme
+  - domain/cognitive-matrix
+  - skill
+  - workflow
+  - canon
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -47,23 +50,26 @@ CANON != KERNEL != PRIMITIVE != AGENT != SKILL != [[08_WORKFLOWS/law-stack-enfor
 A cell does not claim implementation merely because a candidate kernel/agent/skill/workflow can be routed to it.
 Each binding is `UNVALIDATED_BINDING` until validated by tests and provenance.
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: index_cognitive_matrix_readme
 node_type: note
 path: 25_COGNITIVE_MATRIX/00_INDEX/INDEX_COGNITIVE_MATRIX_README.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
 
 **MOC:** [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_HOME|00_HOME]]

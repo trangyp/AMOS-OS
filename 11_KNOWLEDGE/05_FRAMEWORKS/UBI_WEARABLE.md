@@ -12,21 +12,21 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: INTERFACE
 path: 11_KNOWLEDGE/05_FRAMEWORKS/UBI_WEARABLE.md
 tags:
-- amos-os
-- knowledge
-- vault
-- 05_frameworks
-- ubi_wearable
-- wearable_devices
-- real_time_telemetry
-- biosensing
-- rscf
-- canon_candidate
-- canon/knowledge
-- ubi-wearable-framework
-- unified-biological-intelligence
-- ubi-score
-- amos-ubi-super-engine
+  - amos-os
+  - knowledge
+  - vault
+  - 05_frameworks
+  - ubi_wearable
+  - wearable_devices
+  - real_time_telemetry
+  - biosensing
+  - rscf
+  - canon_candidate
+  - canon/knowledge
+  - ubi-wearable-framework
+  - unified-biological-intelligence
+  - ubi-score
+  - amos-ubi-super-engine
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -41,20 +41,20 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - UBI_WEARABLE_FRAMEWORK
-  - UBI_OFFICIAL_MANUAL
-  - AMOS_CORPUS
+    - UBI_WEARABLE_FRAMEWORK
+    - UBI_OFFICIAL_MANUAL
+    - AMOS_CORPUS
   scope:
-  - KNOWLEDGE_FRAMEWORKS
-  - WEARABLE_TELEMETRY
-  - SOURCE_DEFINED_MODEL
+    - KNOWLEDGE_FRAMEWORKS
+    - WEARABLE_TELEMETRY
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   framework:
     artifact:
-    - - UBI_WEARABLE_FRAMEWORK
+      -   - UBI_WEARABLE_FRAMEWORK
   biological_master:
     artifact:
-    - - UNIFIED_BIOLOGICAL_INTELLIGENCE
+      -   - UNIFIED_BIOLOGICAL_INTELLIGENCE
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
@@ -68,25 +68,25 @@ epistemic_boundary:
 
 It specifies non-invasive sensor integration protocols (PPG, ECG, EMG, EDA, EEG) capturing continuous biological telemetry across the 4 UBI domains.
 
----
+______________________________________________________________________
 
-# 1. Biosensing Stream Invariants
+## 1. Biosensing Stream Invariants
 
 1. **PPG & ECG:** Continuous HRV metrics (RMSSD, LF/HF ratio) providing real-time NEI autonomic state tracking.
-2. **EMG & IMU:** Postural alignment, tension symmetry, and gait biomechanics capturing SI somatic state.
-3. **Continuous Sampling & Local Filtering:** Edge filtering rejecting motion artifacts before streaming encrypted vectors to the UBI Super Engine.
+1. **EMG & IMU:** Postural alignment, tension symmetry, and gait biomechanics capturing SI somatic state.
+1. **Continuous Sampling & Local Filtering:** Edge filtering rejecting motion artifacts before streaming encrypted vectors to the UBI Super Engine.
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Parent Framework:** [[11_KNOWLEDGE/05_FRAMEWORKS/UBI_WEARABLE_FRAMEWORK|UBI_WEARABLE_FRAMEWORK]]
 - **Biological Master:** [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]]
 - **Scoring Engine:** [[11_KNOWLEDGE/05_FRAMEWORKS/UBI_SCORE|UBI_SCORE]] and [[11_KNOWLEDGE/05_FRAMEWORKS/AMOS_UBI_SUPER_ENGINE|AMOS_UBI_SUPER_ENGINE]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -104,10 +104,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/UBI_WEARABLE_FRAMEWORK|UBI_WEARABLE_FRAMEWORK]] · [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]] · [[11_KNOWLEDGE/05_FRAMEWORKS/AMOS_UBI_SUPER_ENGINE|AMOS_UBI_SUPER_ENGINE]]
 
----
-**MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]
+______________________________________________________________________
 
+**MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]

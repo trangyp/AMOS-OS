@@ -12,20 +12,20 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: FRAMEWORK
 path: 11_KNOWLEDGE/05_FRAMEWORKS/UBI_OMNIS.md
 tags:
-- amos-os
-- knowledge
-- vault
-- 05_frameworks
-- ubi_omnis
-- omniverse_biological_intelligence
-- planetary_coherence
-- multi_scale_biology
-- rscf
-- canon_candidate
-- canon/knowledge
-- unified-biological-intelligence
-- amos-ubi-super-engine
-- ubi-fractal-architecture
+  - amos-os
+  - knowledge
+  - vault
+  - 05_frameworks
+  - ubi_omnis
+  - omniverse_biological_intelligence
+  - planetary_coherence
+  - multi_scale_biology
+  - rscf
+  - canon_candidate
+  - canon/knowledge
+  - unified-biological-intelligence
+  - amos-ubi-super-engine
+  - ubi-fractal-architecture
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -40,20 +40,20 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - AMOS_UBI_OMNIS_USE_CASES
-  - UBI_OFFICIAL_MANUAL
-  - AMOS_CORPUS
+    - AMOS_UBI_OMNIS_USE_CASES
+    - UBI_OFFICIAL_MANUAL
+    - AMOS_CORPUS
   scope:
-  - KNOWLEDGE_FRAMEWORKS
-  - OMNIVERSE_BIOLOGY
-  - SOURCE_DEFINED_MODEL
+    - KNOWLEDGE_FRAMEWORKS
+    - OMNIVERSE_BIOLOGY
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   biological_master:
     artifact:
-    - - UNIFIED_BIOLOGICAL_INTELLIGENCE
+      -   - UNIFIED_BIOLOGICAL_INTELLIGENCE
   super_engine:
     artifact:
-    - - AMOS_UBI_SUPER_ENGINE
+      -   - AMOS_UBI_SUPER_ENGINE
   use_cases:
     artifact: 11_KNOWLEDGE/AMOS_UBI_OMNIS_USE_CASES
 epistemic_boundary:
@@ -69,9 +69,9 @@ epistemic_boundary:
 
 It scales Unified Biological Intelligence principles from individual human physiology to multi-agent swarms, organizational ecosystems, and planetary bio-electromagnetic networks.
 
----
+______________________________________________________________________
 
-# 1. Multi-Scale Scaling Grid
+## 1. Multi-Scale Scaling Grid
 
 ```text
 CELLULAR / PHYSIOLOGICAL LAYER (HRV, EMG, Cortical Waves)
@@ -83,18 +83,18 @@ ORGANIZATIONAL & COLLECTIVE MESH (Group Coherence, Stress Contagion)
 PLANETARY & ECOLOGICAL NETWORK (Schumann Resonances, Biosphere Invariants)
 ```
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Biological Master:** [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]]
 - **Super Engine:** [[11_KNOWLEDGE/05_FRAMEWORKS/AMOS_UBI_SUPER_ENGINE|AMOS_UBI_SUPER_ENGINE]]
 - **Native Use Cases:** `11_KNOWLEDGE/AMOS_UBI_OMNIS_USE_CASES`
 - **Fractal Biology:** [[11_KNOWLEDGE/05_FRAMEWORKS/UBI_FRACTAL_ARCHITECTURE|UBI_FRACTAL_ARCHITECTURE]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -112,9 +112,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]] · [[11_KNOWLEDGE/05_FRAMEWORKS/AMOS_UBI_SUPER_ENGINE|AMOS_UBI_SUPER_ENGINE]] · `11_KNOWLEDGE/AMOS_UBI_OMNIS_USE_CASES`
 
----
+______________________________________________________________________
+
 **MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]

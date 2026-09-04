@@ -1,10 +1,13 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: SYSTEM MAP
 type: map
 source: 00_ROOT
 tags:
-- map
-- canon/root
+  - map
+  - canon/root
 rscf:
   state: SOURCE_CLAIM
   claim_class: EMPIRICAL
@@ -52,9 +55,9 @@ It is a system architecture map.
 
 It is not evidence that every mapped node currently has an executable implementation.
 
----
+______________________________________________________________________
 
-# 1. Architectural Status
+## 1. Architectural Status
 
 The system map distinguishes five different states:
 
@@ -98,9 +101,9 @@ UNKNOWN/GAP
 
 at implementation or validation level.
 
----
+______________________________________________________________________
 
-# 2. Origin / Canon Boundary
+## 2. Origin / Canon Boundary
 
 Origin architect and steward:
 
@@ -134,9 +137,9 @@ canonical_status: UNKNOWN/GAP
 
 The AMOS canon reference identifies Trang Phan as origin/steward and directs symbolic relations to remain MODEL unless independently validated.
 
----
+______________________________________________________________________
 
-# 3. Top-Level System
+## 3. Top-Level System
 
 AMOS OS is represented structurally as:
 
@@ -168,9 +171,9 @@ AMOS OS is represented structurally as:
 └───────────────────────────────────────────────────────────┘
 ```
 
----
+______________________________________________________________________
 
-# 4. Primary Architectural Flow
+## 4. Primary Architectural Flow
 
 The high-level governed path is:
 
@@ -242,9 +245,9 @@ does not directly imply
 EFFECT
 ```
 
----
+______________________________________________________________________
 
-# 5. Major Plane Separation
+## 5. Major Plane Separation
 
 AMOS OS SHOULD distinguish at least:
 
@@ -259,9 +262,9 @@ GOVERNANCE PLANE
 
 These planes may interact but MUST NOT be silently collapsed.
 
----
+______________________________________________________________________
 
-# 6. Knowledge Plane
+## 6. Knowledge Plane
 
 The knowledge plane contains information available for reasoning.
 
@@ -303,9 +306,9 @@ KNOWLEDGE
 AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 7. Cognitive Plane
+## 7. Cognitive Plane
 
 The cognitive plane transforms available information into structured representations, hypotheses, plans, evaluations, or proposals.
 
@@ -361,9 +364,9 @@ ACTION CANDIDATE
 
 It MUST NOT self-promote these into authoritative effects.
 
----
+______________________________________________________________________
 
-# 8. Execution Plane
+## 8. Execution Plane
 
 The execution plane contains mechanisms capable of changing runtime or external state.
 
@@ -405,9 +408,9 @@ CAN_EXECUTE
 MAY_EXECUTE
 ```
 
----
+______________________________________________________________________
 
-# 9. Control Plane
+## 9. Control Plane
 
 The control plane governs whether a proposed effect may proceed.
 
@@ -449,9 +452,9 @@ RECOVERY
 
 The control plane should remain distinct from domain cognition.
 
----
+______________________________________________________________________
 
-# 10. Evidence Plane
+## 10. Evidence Plane
 
 The evidence plane preserves why the system believes something.
 
@@ -487,9 +490,9 @@ FRESHNESS
 CONFIDENCE CEILING
 ```
 
----
+______________________________________________________________________
 
-# 11. Governance Plane
+## 11. Governance Plane
 
 The governance plane governs changes to the system itself.
 
@@ -521,9 +524,9 @@ SECURITY REVIEW
 VALIDATION GATES
 ```
 
----
+______________________________________________________________________
 
-# 12. Core Architectural Stack
+## 12. Core Architectural Stack
 
 ```text
 ┌──────────────────────────────────────────────┐
@@ -547,9 +550,9 @@ VALIDATION GATES
 
 This is a responsibility map, not a claim of literal physical layering.
 
----
+______________________________________________________________________
 
-# 13. Cognitive Matrix
+## 13. Cognitive Matrix
 
 The cognitive matrix currently reserves architectural surfaces for:
 
@@ -572,9 +575,9 @@ not:
 IMPLEMENTED
 ```
 
----
+______________________________________________________________________
 
-# 14. Primitive Layer
+## 14. Primitive Layer
 
 The primitive layer provides atomic or near-atomic cognitive functions from which larger reasoning processes may be composed.
 
@@ -588,9 +591,9 @@ Exact primitive semantics MUST come from the applicable AMOS source/canon or app
 
 No primitive definition should be inferred solely from its name when source support is absent.
 
----
+______________________________________________________________________
 
-# 15. Percept Formation
+## 15. Percept Formation
 
 Example primitive:
 
@@ -610,9 +613,9 @@ PERCEPT CANDIDATE
 
 Its exact operators, variables, thresholds, and equations remain governed by its own artifact set.
 
----
+______________________________________________________________________
 
-# 16. Object / Entity Formation
+## 16. Object / Entity Formation
 
 Example primitive:
 
@@ -640,9 +643,9 @@ REPRESENTED_ENTITY
 VERIFIED_REAL_ENTITY
 ```
 
----
+______________________________________________________________________
 
-# 17. Lifecycle Operations
+## 17. Lifecycle Operations
 
 Lifecycle operations provide transitions acting upon cognitive or system state.
 
@@ -678,9 +681,9 @@ supersession.
 
 Exact mappings require source support.
 
----
+______________________________________________________________________
 
-# 18. Control-Plane Namespace
+## 18. Control-Plane Namespace
 
 The cognitive matrix reserves:
 
@@ -703,9 +706,9 @@ COMMIT SYSTEM
 → DURABLE EFFECT
 ```
 
----
+______________________________________________________________________
 
-# 19. H/M/L Scale Architecture
+## 19. H/M/L Scale Architecture
 
 AMOS uses recursive:
 
@@ -743,9 +746,9 @@ or authority ranking.
 
 unless the applicable domain contract establishes that mapping.
 
----
+______________________________________________________________________
 
-# 20. H/M/L Recursion
+## 20. H/M/L Recursion
 
 Any node may itself be decomposed:
 
@@ -765,9 +768,9 @@ A local `L` node may become the `H` context of a deeper decomposition.
 
 Therefore H/M/L is recursive and relative.
 
----
+______________________________________________________________________
 
-# 21. RSCF Layer
+## 21. RSCF Layer
 
 RSCF provides structured claim representation.
 
@@ -805,9 +808,9 @@ falsifiers: []
 confidence_ceiling: null
 ```
 
----
+______________________________________________________________________
 
-# 22. RSCF Dependency Rule
+## 22. RSCF Dependency Rule
 
 Derived confidence MUST NOT exceed the weakest load-bearing premise unless independently revalidated.
 
@@ -823,9 +826,9 @@ min(
 
 This is an AMOS governance rule/model, not a universal statistical theorem.
 
----
+______________________________________________________________________
 
-# 23. Claim Classes
+## 23. Claim Classes
 
 Canonical reasoning classes used by this architecture:
 
@@ -845,9 +848,9 @@ UNKNOWN/GAP
 
 The weakest accurate class SHOULD be used.
 
----
+______________________________________________________________________
 
-# 24. Evidence Topology
+## 24. Evidence Topology
 
 Evidence SHOULD preserve ancestry.
 
@@ -871,9 +874,9 @@ MULTIPLE ARTIFACTS
 MULTIPLE INDEPENDENT ORIGINS
 ```
 
----
+______________________________________________________________________
 
-# 25. Provenance Graph
+## 25. Provenance Graph
 
 Conceptually:
 
@@ -893,9 +896,9 @@ SOURCE
 
 Every material transformation SHOULD retain its parent edges.
 
----
+______________________________________________________________________
 
-# 26. Memory Architecture
+## 26. Memory Architecture
 
 Memory SHOULD be treated as typed persisted state rather than an undifferentiated truth store.
 
@@ -929,9 +932,9 @@ REMEMBERED
 VERIFIED
 ```
 
----
+______________________________________________________________________
 
-# 27. Memory Admission
+## 27. Memory Admission
 
 Preferred path:
 
@@ -951,9 +954,9 @@ RETENTION CLASS
 ADMIT / QUARANTINE / REJECT
 ```
 
----
+______________________________________________________________________
 
-# 28. Memory Retrieval
+## 28. Memory Retrieval
 
 Retrieval SHOULD preserve:
 
@@ -979,9 +982,9 @@ and applicability.
 
 Retrieval does not automatically authorize reuse.
 
----
+______________________________________________________________________
 
-# 29. Agent Layer
+## 29. Agent Layer
 
 An AMOS agent is an actor capable of performing bounded reasoning and/or actions under an assigned role.
 
@@ -1004,9 +1007,9 @@ agent:
   provenance: {}
 ```
 
----
+______________________________________________________________________
 
-# 30. Agent Boundary
+## 30. Agent Boundary
 
 Critical law:
 
@@ -1026,9 +1029,9 @@ AGENT AUTHORITY
 
 An agent may technically be able to perform an operation without possessing authority to commit the effect.
 
----
+______________________________________________________________________
 
-# 31. Worker / Control Separation
+## 31. Worker / Control Separation
 
 Preferred architecture:
 
@@ -1048,9 +1051,9 @@ finalize effect
 
 Stochastic cognition SHOULD NOT independently own authoritative finality for consequential state.
 
----
+______________________________________________________________________
 
-# 32. Skills Layer
+## 32. Skills Layer
 
 A Skill packages reusable procedural expertise.
 
@@ -1084,9 +1087,9 @@ SKILL
 AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 33. Skill Invocation
+## 33. Skill Invocation
 
 Conceptually:
 
@@ -1116,9 +1119,9 @@ AUTHORIZATION
 COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 34. Skill Composition
+## 34. Skill Composition
 
 Skills may compose:
 
@@ -1140,9 +1143,9 @@ AUTHORIZED COMPOSITION ENVELOPE
 
 No chain of individually allowed operations may reconstruct a prohibited semantic effect.
 
----
+______________________________________________________________________
 
-# 35. Workflow Layer
+## 35. Workflow Layer
 
 A workflow coordinates ordered or conditional operations.
 
@@ -1165,9 +1168,9 @@ workflow:
   provenance: {}
 ```
 
----
+______________________________________________________________________
 
-# 36. Workflow State
+## 36. Workflow State
 
 Recommended states:
 
@@ -1197,9 +1200,9 @@ ROLLED_BACK
 TERMINATED
 ```
 
----
+______________________________________________________________________
 
-# 37. Protocol Layer
+## 37. Protocol Layer
 
 Protocols define interaction contracts between components.
 
@@ -1223,9 +1226,9 @@ MEMORY ↔ PROVENANCE
 RSCF ↔ EVIDENCE STORE
 ```
 
----
+______________________________________________________________________
 
-# 38. Protocol Requirements
+## 38. Protocol Requirements
 
 Every consequential protocol SHOULD specify:
 
@@ -1255,9 +1258,9 @@ response semantics;
 failure semantics.
 ```
 
----
+______________________________________________________________________
 
-# 39. Capability Layer
+## 39. Capability Layer
 
 Capability answers:
 
@@ -1279,9 +1282,9 @@ capability:
   validation_state: string
 ```
 
----
+______________________________________________________________________
 
-# 40. Capability Contract
+## 40. Capability Contract
 
 A capability contract defines the technical behavior and effect envelope of a capability.
 
@@ -1293,9 +1296,9 @@ CAPABILITY CONTRACT
 AUTHORITY GRANT
 ```
 
----
+______________________________________________________________________
 
-# 41. Capability Manifest
+## 41. Capability Manifest
 
 The capability manifest provides discoverability.
 
@@ -1315,9 +1318,9 @@ CONSTRAINTS
 
 Discoverability is not permission.
 
----
+______________________________________________________________________
 
-# 42. Authority Layer
+## 42. Authority Layer
 
 Authority answers:
 
@@ -1340,9 +1343,9 @@ authority:
   provenance: {}
 ```
 
----
+______________________________________________________________________
 
-# 43. Authority Resolution
+## 43. Authority Resolution
 
 Authority resolution should determine current effective authority from:
 
@@ -1376,9 +1379,9 @@ regime;
 constraints.
 ```
 
----
+______________________________________________________________________
 
-# 44. Authority Witness
+## 44. Authority Witness
 
 An authority witness is a bounded proof/evidence object describing the authority state used for a decision.
 
@@ -1401,9 +1404,9 @@ authority_witness:
   provenance: {}
 ```
 
----
+______________________________________________________________________
 
-# 45. Delegation
+## 45. Delegation
 
 Delegation transfers or attenuates authority according to explicit rules.
 
@@ -1417,9 +1420,9 @@ PARENT_DELEGABLE_AUTHORITY
 
 Delegation MUST NOT create authority from nothing.
 
----
+______________________________________________________________________
 
-# 46. Delegation Graph
+## 46. Delegation Graph
 
 ```text
 ROOT AUTHORITY
@@ -1453,9 +1456,9 @@ constraints;
 provenance.
 ```
 
----
+______________________________________________________________________
 
-# 47. Revocation
+## 47. Revocation
 
 Revocation invalidates or narrows authority.
 
@@ -1477,9 +1480,9 @@ TRANSACTION REVALIDATION
 
 Revocation MUST NOT be reduced to deletion.
 
----
+______________________________________________________________________
 
-# 48. Policy Layer
+## 48. Policy Layer
 
 Policy answers:
 
@@ -1493,9 +1496,9 @@ POLICY_ALLOW
 AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 49. Policy Registry
+## 49. Policy Registry
 
 The policy registry SHOULD preserve:
 
@@ -1525,9 +1528,9 @@ supersession;
 provenance.
 ```
 
----
+______________________________________________________________________
 
-# 50. Policy Engine
+## 50. Policy Engine
 
 Conceptually:
 
@@ -1565,9 +1568,9 @@ BLOCK_CONFLICT
 UNKNOWN_GAP
 ```
 
----
+______________________________________________________________________
 
-# 51. Authorization
+## 51. Authorization
 
 Authorization combines relevant authority and policy conditions for a specific requested action.
 
@@ -1589,9 +1592,9 @@ TransactionConditions
 
 This is an AMOS MODEL representation, not a universal mathematical identity.
 
----
+______________________________________________________________________
 
-# 52. Authorization Decision
+## 52. Authorization Decision
 
 ```yaml
 authorization_decision:
@@ -1617,9 +1620,9 @@ authorization_decision:
   provenance: {}
 ```
 
----
+______________________________________________________________________
 
-# 53. Proposal Boundary
+## 53. Proposal Boundary
 
 A cognitive or agent output becomes:
 
@@ -1649,9 +1652,9 @@ RESERVATION
 COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 54. Transaction Layer
+## 54. Transaction Layer
 
 Transactions protect state changes from stale authority, partial updates, and race conditions.
 
@@ -1679,9 +1682,9 @@ ROLLED_BACK
 RECONCILIATION_REQUIRED
 ```
 
----
+______________________________________________________________________
 
-# 55. Commit Boundary
+## 55. Commit Boundary
 
 The commit boundary is where a proposal becomes authoritative durable state or an external governed effect.
 
@@ -1693,9 +1696,9 @@ PRE-COMMIT STATE
 COMMITTED STATE
 ```
 
----
+______________________________________________________________________
 
-# 56. Commit-Time Revalidation
+## 56. Commit-Time Revalidation
 
 Before consequential commit, the control plane SHOULD revalidate load-bearing mutable state.
 
@@ -1727,9 +1730,9 @@ budget;
 provenance.
 ```
 
----
+______________________________________________________________________
 
-# 57. MVCC / CAS Pattern
+## 57. MVCC / CAS Pattern
 
 Where mutable state can change between check and commit:
 
@@ -1752,9 +1755,9 @@ VERSION CONFLICT
 
 This represents the AMOS concurrency-control pattern; it does not assert a specific implementation.
 
----
+______________________________________________________________________
 
-# 58. Atomicity
+## 58. Atomicity
 
 Related authoritative updates SHOULD commit atomically where partial persistence would create invalid system state.
 
@@ -1772,9 +1775,9 @@ TRANSACTION STATE
 
 may require one governed transaction boundary.
 
----
+______________________________________________________________________
 
-# 59. Provenance Layer
+## 59. Provenance Layer
 
 Provenance answers:
 
@@ -1794,9 +1797,9 @@ what evidence supported it?
 what superseded it?
 ```
 
----
+______________________________________________________________________
 
-# 60. Provenance Record
+## 60. Provenance Record
 
 ```yaml
 provenance:
@@ -1817,9 +1820,9 @@ provenance:
   superseded_by: []
 ```
 
----
+______________________________________________________________________
 
-# 61. Provenance Independence
+## 61. Provenance Independence
 
 Independence MUST be demonstrated, not assumed.
 
@@ -1833,9 +1836,9 @@ SUMMARY C
 
 B and C cannot independently confirm A.
 
----
+______________________________________________________________________
 
-# 62. Sybil-Hardening Boundary
+## 62. Sybil-Hardening Boundary
 
 Evidence aggregation SHOULD resolve semantic and provenance ancestry before counting independent support.
 
@@ -1849,9 +1852,9 @@ OF
 
 remain approximately one provenance origin for independence analysis.
 
----
+______________________________________________________________________
 
-# 63. Observability
+## 63. Observability
 
 The observability layer records system behavior needed for:
 
@@ -1875,9 +1878,9 @@ replay.
 
 Observability MUST respect information-access boundaries.
 
----
+______________________________________________________________________
 
-# 64. Observability Envelope
+## 64. Observability Envelope
 
 Potential observables:
 
@@ -1911,9 +1914,9 @@ error;
 provenance references.
 ```
 
----
+______________________________________________________________________
 
-# 65. Audit Layer
+## 65. Audit Layer
 
 Audit reconstructs:
 
@@ -1937,9 +1940,9 @@ WHEN it happened
 WHAT changed afterward
 ```
 
----
+______________________________________________________________________
 
-# 66. Validation Layer
+## 66. Validation Layer
 
 Validation may include:
 
@@ -1969,9 +1972,9 @@ formal verification where applicable.
 
 Passing one validation class does not imply all others.
 
----
+______________________________________________________________________
 
-# 67. Test Evidence Boundary
+## 67. Test Evidence Boundary
 
 ```text
 TEST SPECIFIED
@@ -1995,9 +1998,9 @@ FORMAL PROPERTY PROVED
 ALL SYSTEM PROPERTIES PROVED
 ```
 
----
+______________________________________________________________________
 
-# 68. Repair Layer
+## 68. Repair Layer
 
 Repair restores valid operation after detected failure.
 
@@ -2021,9 +2024,9 @@ REVALIDATE
 RESTORE
 ```
 
----
+______________________________________________________________________
 
-# 69. Selective Repair
+## 69. Selective Repair
 
 Core law:
 
@@ -2041,9 +2044,9 @@ FAILED PREMISE
 
 Global recomputation is a last resort.
 
----
+______________________________________________________________________
 
-# 70. Rollback
+## 70. Rollback
 
 Rollback returns mutable system state to a previously valid state where feasible.
 
@@ -2063,9 +2066,9 @@ provenance;
 and subsequent revalidation requirements.
 ```
 
----
+______________________________________________________________________
 
-# 71. Recovery
+## 71. Recovery
 
 Recovery differs from rollback.
 
@@ -2081,9 +2084,9 @@ restore valid operation
 
 Recovery may require forward repair rather than reverting.
 
----
+______________________________________________________________________
 
-# 72. Failure Containment
+## 72. Failure Containment
 
 Potential containment states:
 
@@ -2105,9 +2108,9 @@ UNKNOWN_GAP
 
 Containment should be proportional to proven dependency impact.
 
----
+______________________________________________________________________
 
-# 73. GMEF / Governed Evolution
+## 73. GMEF / Governed Evolution
 
 Changes to AMOS itself should pass governed evolution.
 
@@ -2137,9 +2140,9 @@ PROMOTE / REJECT
 ROLLBACK CAPABILITY
 ```
 
----
+______________________________________________________________________
 
-# 74. Evolution Boundary
+## 74. Evolution Boundary
 
 Self-modification capability does not confer authority to modify the system.
 
@@ -2149,9 +2152,9 @@ CAN_CHANGE_SYSTEM
 MAY_CHANGE_SYSTEM
 ```
 
----
+______________________________________________________________________
 
-# 75. Canon Admission
+## 75. Canon Admission
 
 New material SHOULD NOT become canon merely because it:
 
@@ -2171,9 +2174,9 @@ or appears useful.
 
 Canon admission requires the applicable provenance and governance process.
 
----
+______________________________________________________________________
 
-# 76. Supersession
+## 76. Supersession
 
 Supersession SHOULD preserve lineage:
 
@@ -2193,9 +2196,9 @@ VERSION A
 
 where historical reconstruction matters.
 
----
+______________________________________________________________________
 
-# 77. Dependency Graph
+## 77. Dependency Graph
 
 Conceptually:
 
@@ -2225,9 +2228,9 @@ COMMIT
 
 Actual dependency edges must be explicitly recorded rather than inferred solely from this diagram.
 
----
+______________________________________________________________________
 
-# 78. System Graph Node Types
+## 78. System Graph Node Types
 
 Recommended node classes:
 
@@ -2283,9 +2286,9 @@ REPAIR
 GOVERNANCE_CHANGE
 ```
 
----
+______________________________________________________________________
 
-# 79. System Graph Edge Types
+## 79. System Graph Edge Types
 
 Recommended edge classes:
 
@@ -2329,9 +2332,9 @@ COMMITS
 ROLLS_BACK
 ```
 
----
+______________________________________________________________________
 
-# 80. Typed System Map
+## 80. Typed System Map
 
 ```yaml
 system_map:
@@ -2366,9 +2369,9 @@ system_map:
   unresolved_gaps: []
 ```
 
----
+______________________________________________________________________
 
-# 81. Control-Plane Map
+## 81. Control-Plane Map
 
 The control plane should structurally contain or interface with:
 
@@ -2408,9 +2411,9 @@ OBSERVABILITY
 RECOVERY
 ```
 
----
+______________________________________________________________________
 
-# 82. Governed Action Path
+## 82. Governed Action Path
 
 ```text
 USER / SYSTEM INTENT
@@ -2444,9 +2447,9 @@ RECORD PROVENANCE
 OBSERVE RESULT
 ```
 
----
+______________________________________________________________________
 
-# 83. Cognitive Action Path
+## 83. Cognitive Action Path
 
 ```text
 INPUT
@@ -2474,9 +2477,9 @@ PROPOSAL
 
 At that boundary cognition stops owning finality.
 
----
+______________________________________________________________________
 
-# 84. Knowledge Harvest Path
+## 84. Knowledge Harvest Path
 
 ```text
 EPHEMERAL SOURCE
@@ -2508,9 +2511,9 @@ SOURCE INGESTED
 KNOWLEDGE VALIDATED
 ```
 
----
+______________________________________________________________________
 
-# 85. Memory Path
+## 85. Memory Path
 
 ```text
 EVENT / RESULT
@@ -2532,9 +2535,9 @@ APPLICABILITY CHECK
 REUSE
 ```
 
----
+______________________________________________________________________
 
-# 86. Revocation Path
+## 86. Revocation Path
 
 ```text
 REVOCATION REQUEST
@@ -2556,9 +2559,9 @@ AUTHORIZATION INVALIDATION
 TRANSACTION REVALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 87. Repair Path
+## 87. Repair Path
 
 ```text
 ANOMALY
@@ -2584,9 +2587,9 @@ REGRESSION CHECK
 RESTORE
 ```
 
----
+______________________________________________________________________
 
-# 88. Counterfactual Path
+## 88. Counterfactual Path
 
 ```text
 OBSERVED STATE
@@ -2607,9 +2610,9 @@ CAUSAL / CONDITIONAL / SPECULATIVE
 
 Counterfactual coherence alone does not prove causal truth.
 
----
+______________________________________________________________________
 
-# 89. Prediction Path
+## 89. Prediction Path
 
 ```text
 HISTORICAL EVIDENCE
@@ -2631,9 +2634,9 @@ POST-OUTCOME SCORING
 
 Prediction MUST remain separate from retrospective explanation.
 
----
+______________________________________________________________________
 
-# 90. System Invariants
+## 90. System Invariants
 
 ## INV-SYS-001 — Origin Integrity
 
@@ -2675,9 +2678,9 @@ UNKNOWN/GAP MUST remain visible.
 
 A failed dependency SHOULD invalidate dependent state, not unrelated state.
 
----
+______________________________________________________________________
 
-# 91. System Invariants — Continued
+## 91. System Invariants — Continued
 
 ## INV-SYS-011
 
@@ -2719,9 +2722,9 @@ Agent creation MUST not manufacture authority.
 
 Memory MUST not silently become fact.
 
----
+______________________________________________________________________
 
-# 92. System Invariants — State / Transactions
+## 92. System Invariants — State / Transactions
 
 ## INV-SYS-021
 
@@ -2763,9 +2766,9 @@ Authorization decisions SHOULD bind to their load-bearing state.
 
 Commit-time state dominates stale pre-commit assumptions.
 
----
+______________________________________________________________________
 
-# 93. System Invariants — Governance
+## 93. System Invariants — Governance
 
 ## INV-SYS-031
 
@@ -2807,9 +2810,9 @@ Conflicting authority MUST fail closed where consequence warrants.
 
 System completion claims MUST be scoped.
 
----
+______________________________________________________________________
 
-# 94. Failure Modes
+## 94. Failure Modes
 
 ```text
 FM-SYS-001 canon/model conflation
@@ -2893,9 +2896,9 @@ FM-SYS-039 test specification treated as executed evidence
 FM-SYS-040 structural completeness treated as empirical validity
 ```
 
----
+______________________________________________________________________
 
-# 95. Adversarial Failure Modes
+## 95. Adversarial Failure Modes
 
 ```text
 authority laundering through Skill chains;
@@ -2941,9 +2944,9 @@ emergency mode used as permanent authority;
 benchmark evidence promoted beyond tested environment.
 ```
 
----
+______________________________________________________________________
 
-# 96. Repair / Recovery Contract
+## 96. Repair / Recovery Contract
 
 When a system-map invariant fails:
 
@@ -2971,9 +2974,9 @@ COMMIT REPAIR
 RECORD PROVENANCE
 ```
 
----
+______________________________________________________________________
 
-# 97. Gap Classification
+## 97. Gap Classification
 
 All unresolved system gaps SHOULD be classified:
 
@@ -2999,9 +3002,9 @@ EXPLANATORY
 COSMETIC
 ```
 
----
+______________________________________________________________________
 
-# 98. Critical Gaps
+## 98. Critical Gaps
 
 Examples:
 
@@ -3025,9 +3028,9 @@ unknown irreversible-effect status.
 
 Critical gaps may block execution.
 
----
+______________________________________________________________________
 
-# 99. Decision-Relevant Gaps
+## 99. Decision-Relevant Gaps
 
 Examples:
 
@@ -3047,9 +3050,9 @@ uncertain repair cost.
 
 These should be resolved when they can change the decision.
 
----
+______________________________________________________________________
 
-# 100. System Validators
+## 100. System Validators
 
 Minimum structural validators:
 
@@ -3107,9 +3110,9 @@ validate_repair_paths
 validate_supersession
 ```
 
----
+______________________________________________________________________
 
-# 101. System Tests
+## 101. System Tests
 
 ```text
 T-SYS-001 load system map
@@ -3193,9 +3196,9 @@ T-SYS-039 system completion scope
 T-SYS-040 unresolved critical gap blocks promotion
 ```
 
----
+______________________________________________________________________
 
-# 102. Adversarial Tests
+## 102. Adversarial Tests
 
 ```text
 T-SYS-A01 stale witness replay
@@ -3239,9 +3242,9 @@ T-SYS-A19 benchmark overclaim
 T-SYS-A20 UNKNOWN/GAP permissive coercion
 ```
 
----
+______________________________________________________________________
 
-# 103. Falsifiers
+## 103. Falsifiers
 
 The system-map architecture is structurally falsified for declared scope if a required governed path cannot be represented.
 
@@ -3269,9 +3272,9 @@ a canonical supersession destroys previous lineage;
 or UNKNOWN/GAP is structurally interpreted as PASS.
 ```
 
----
+______________________________________________________________________
 
-# 104. Confidence Ceiling
+## 104. Confidence Ceiling
 
 For any system-level conclusion:
 
@@ -3300,9 +3303,9 @@ that load-bearing validation ceiling
 
 without independent evidence.
 
----
+______________________________________________________________________
 
-# 105. Uncertainty Vector
+## 105. Uncertainty Vector
 
 ```yaml
 system_uncertainty:
@@ -3325,9 +3328,9 @@ system_uncertainty:
   governance: null
 ```
 
----
+______________________________________________________________________
 
-# 106. System RSCF
+## 106. System RSCF
 
 ```yaml
 rscf:
@@ -3382,9 +3385,9 @@ rscf:
   confidence_ceiling: 0
 ```
 
----
+______________________________________________________________________
 
-# 107. Promotion States
+## 107. Promotion States
 
 ```text
 PLACEHOLDER
@@ -3412,9 +3415,9 @@ GOVERNED_ACTIVE
 
 No transition is automatic.
 
----
+______________________________________________________________________
 
-# 108. Component Status Schema
+## 108. Component Status Schema
 
 Every major component SHOULD expose:
 
@@ -3448,9 +3451,9 @@ component_status:
   gaps: []
 ```
 
----
+______________________________________________________________________
 
-# 109. Completion Matrix
+## 109. Completion Matrix
 
 | System Surface               | Structural State  |
 | ---------------------------- | ----------------- |
@@ -3488,9 +3491,9 @@ component_status:
 | Formal verification          | UNKNOWN/GAP       |
 | Canon admission              | UNKNOWN/GAP       |
 
----
+______________________________________________________________________
 
-# 110. Canonical Dependency Summary
+## 110. Canonical Dependency Summary
 
 ```text
 AMOS SOURCE / CANON
@@ -3547,9 +3550,9 @@ POLICY                  │
        REPAIR / EVOLUTION
 ```
 
----
+______________________________________________________________________
 
-# 111. System Control Equation
+## 111. System Control Equation
 
 AMOS MODEL:
 
@@ -3579,9 +3582,9 @@ UNKNOWN/GAP
 
 depending on the nature of the missing state.
 
----
+______________________________________________________________________
 
-# 112. System Integrity Equation
+## 112. System Integrity Equation
 
 AMOS MODEL:
 
@@ -3601,9 +3604,9 @@ This is an architectural modeling relation, not an empirically established physi
 
 Its purpose is to encode the principle that failure of a load-bearing integrity dimension can invalidate the resulting system claim or action.
 
----
+______________________________________________________________________
 
-# 113. System Completion Rule
+## 113. System Completion Rule
 
 System completion MUST be scoped.
 
@@ -3621,9 +3624,9 @@ AMOS IS COMPLETE
 
 unless all relevant scope, implementation, validation, governance, dependency, and canon conditions have actually been established.
 
----
+______________________________________________________________________
 
-# 114. Current Gap Status
+## 114. Current Gap Status
 
 This artifact itself resolves the previous structural placeholder for the **system-map specification surface**.
 
@@ -3661,9 +3664,9 @@ gap_status:
     state: UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 115. Hard Boundary Block
+## 115. Hard Boundary Block
 
 ```text
 SYSTEM_MAP != IMPLEMENTATION
@@ -3733,9 +3736,9 @@ STRUCTURAL_COMPLETENESS != SYSTEM_VALIDATION
 SYSTEM_COMPLETION != UNIVERSAL_COMPLETENESS
 ```
 
----
+______________________________________________________________________
 
-# 116. Final System Contract
+## 116. Final System Contract
 
 AMOS OS SHALL preserve the following architectural separation:
 
@@ -3860,30 +3863,33 @@ rather than manufacture completion.
 
 Integrity remains prior to completeness, fluency, speed, convenience, or optimization.
 
----
+______________________________________________________________________
 
-# END — SYSTEM_MAP.md
+## END — SYSTEM_MAP.md
 
 ```
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: system_map
 node_type: note
 path: 00_ROOT/SYSTEM_MAP.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[00_ROOT/00_COSMO_BRAIN_MOC|00_COSMO_BRAIN_MOC]]
-

@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: L00_REALITY_ENVIRONMENT — Memory
 type: memory
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT
 tags:
-- cognitive-matrix
-- primitives
-- matrix/l00-reality-environment
-- note
-- domain/cognitive-matrix
+  - cognitive-matrix
+  - primitives
+  - matrix/l00-reality-environment
+  - note
+  - domain/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -21,9 +24,9 @@ rscf:
 **Origin architect / steward:** Trang Phan
 **Status:** `ARCHITECTURE CONTRACT / IMPLEMENTATION-DEPENDENT`
 
----
+______________________________________________________________________
 
-# 1. Purpose
+## 1. Purpose
 
 `L00_REALITY_ENVIRONMENT / MEMORY` defines how AMOS preserves information about reality across time without collapsing:
 
@@ -69,40 +72,37 @@ Its function is to preserve enough typed state that future AMOS reasoning can de
 
 The architectural objective is:
 
-[
-\boxed{
-Memory
-======
+## \[ \\boxed{ Memory
 
 Persistence
-+
+\+
 Identity
-+
+\+
 Provenance
-+
+\+
 TemporalContext
-+
+\+
 Scope
-+
+\+
 Regime
-+
+\+
 Dependencies
-+
+\+
 EpistemicState
-+
+\+
 InvalidationState
 }
-]
+\]
 
 not:
 
-[
+\[
 Memory = StoredText
-]
+\]
 
----
+______________________________________________________________________
 
-# 2. Architectural Position
+## 2. Architectural Position
 
 ```text
 REALITY / ENVIRONMENT
@@ -154,37 +154,37 @@ REALITY / ENVIRONMENT
 
 Memory therefore participates in a closed reality-contact loop but must never become a substitute for reality itself.
 
----
+______________________________________________________________________
 
-# 3. Core Memory Law
+## 3. Core Memory Law
 
-[
-\boxed{
+\[
+\\boxed{
 Memory(x)
-\neq
+\\neq
 Reality(x)
 }
-]
+\]
 
 and:
 
-[
-\boxed{
+\[
+\\boxed{
 Persistence(x)
-\not\Rightarrow
+\\not\\Rightarrow
 Truth(x)
 }
-]
+\]
 
 and:
 
-[
-\boxed{
+\[
+\\boxed{
 Retrieval(x)
-\not\Rightarrow
+\\not\\Rightarrow
 Validity(x)
 }
-]
+\]
 
 A memory may persist while becoming:
 
@@ -201,16 +201,16 @@ INVALIDATED
 
 Therefore persistence and epistemic validity are separate state dimensions.
 
----
+______________________________________________________________________
 
-# 4. Reality Memory Tensor
+## 4. Reality Memory Tensor
 
 The primary L00 memory object is:
 
-[
-\boxed{
+\[
+\\boxed{
 T_M =
-T[
+T\[
 memory_id,
 content,
 content_class,
@@ -237,22 +237,19 @@ revocation_state,
 retention_class,
 revalidation_epoch,
 consequence
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 5. Memory Identity Tensor
+## 5. Memory Identity Tensor
 
 Memory identity must remain distinct from memory content.
 
-[
-\boxed{
-T_{MI}
-======
+## \[ \\boxed{ T\_{MI}
 
-T[
+T\[
 memory_id,
 origin_id,
 version,
@@ -263,9 +260,9 @@ semantic_identity,
 lineage,
 hash,
 state
-]
+\]
 }
-]
+\]
 
 This allows AMOS to distinguish:
 
@@ -279,16 +276,13 @@ superseding memory
 contradictory memory
 ```
 
----
+______________________________________________________________________
 
-# 6. Memory Epistemic Tensor
+## 6. Memory Epistemic Tensor
 
-[
-\boxed{
-T_{ME}
-======
+## \[ \\boxed{ T\_{ME}
 
-T[
+T\[
 memory_id,
 epistemic_class,
 conclusion_class,
@@ -301,9 +295,9 @@ causal_level,
 competing_set,
 falsifiers,
 confidence_ceiling
-]
+\]
 }
-]
+\]
 
 Permitted epistemic classes include:
 
@@ -324,16 +318,13 @@ UNKNOWN
 
 Memory must not erase this classification.
 
----
+______________________________________________________________________
 
-# 7. Memory Provenance Tensor
+## 7. Memory Provenance Tensor
 
-[
-\boxed{
-T_{MP}
-======
+## \[ \\boxed{ T\_{MP}
 
-T[
+T\[
 memory_id,
 source_id,
 source_type,
@@ -347,22 +338,19 @@ scope,
 regime,
 license,
 revocation
-]
+\]
 }
-]
+\]
 
 Provenance is part of memory state, not optional metadata.
 
----
+______________________________________________________________________
 
-# 8. Memory Dependency Tensor
+## 8. Memory Dependency Tensor
 
-[
-\boxed{
-T_{MD}
-======
+## \[ \\boxed{ T\_{MD}
 
-T[
+T\[
 memory_id,
 premise_dependencies,
 evidence_dependencies,
@@ -372,22 +360,19 @@ control_dependencies,
 supersession_edges,
 contradiction_edges,
 repair_dependencies
-]
+\]
 }
-]
+\]
 
 This supports selective invalidation.
 
----
+______________________________________________________________________
 
-# 9. Memory Temporal Tensor
+## 9. Memory Temporal Tensor
 
-[
-\boxed{
-T_{MT}
-======
+## \[ \\boxed{ T\_{MT}
 
-T[
+T\[
 memory_id,
 event_time,
 observation_time,
@@ -398,27 +383,27 @@ validation_time,
 expiry_time,
 revalidation_time,
 temporal_regime
-]
+\]
 }
-]
+\]
 
 The architecture must preserve:
 
-[
-\boxed{
-t_{event}
-\neq
-t_{observation}
-\neq
-t_{memory-write}
+\[
+\\boxed{
+t\_{event}
+\\neq
+t\_{observation}
+\\neq
+t\_{memory-write}
 }
-]
+\]
 
 unless explicitly equal.
 
----
+______________________________________________________________________
 
-# 10. Memory State Machine
+## 10. Memory State Machine
 
 ```text
 CANDIDATE
@@ -454,30 +439,27 @@ ARCHIVED
 
 State transitions must be explicit.
 
----
+______________________________________________________________________
 
-# 11. Memory Admission Function
+## 11. Memory Admission Function
 
 For candidate memory (m):
 
-[
-\boxed{
-Admit(m)
-========
+## \[ \\boxed{ Admit(m)
 
 TypeValid(m)
-\land
+\\land
 BoundaryPass(m)
-\land
+\\land
 ProvenanceAdequate(m)
-\land
+\\land
 ScopeKnown(m)
-\land
+\\land
 RegimeKnown(m)
-\land
+\\land
 IntegrityPass(m)
 }
-]
+\]
 
 where required by the memory class.
 
@@ -491,43 +473,37 @@ REJECT
 UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 12. Reality-Contact Gate
+## 12. Reality-Contact Gate
 
 For memory claiming empirical reality contact:
 
-[
-\boxed{
-RealityContact(m)
-=================
+## \[ \\boxed{ RealityContact(m)
 
 ExternalObservationPresent
-\land
+\\land
 MeasurementMethodKnown
-\land
+\\land
 ProvenanceRecoverable
-\land
+\\land
 RegimeCompatible
 }
-]
+\]
 
 Simulation consistency alone does not satisfy this gate.
 
----
+______________________________________________________________________
 
-# 13. Representation Preservation
+## 13. Representation Preservation
 
 Memory must retain the representation class of stored information.
 
-[
-\boxed{
-Class_{write}(m)
-================
+## \[ \\boxed{ Class\_{write}(m)
 
-Class_{retrieve}(m)
+Class\_{retrieve}(m)
 }
-]
+\]
 
 unless an explicit validated transformation changes it.
 
@@ -545,18 +521,18 @@ FORECAST != OBSERVED_OUTCOME
 COUNTERFACTUAL != HISTORY
 ```
 
----
+______________________________________________________________________
 
-# 14. Memory Write Operator
+## 14. Memory Write Operator
 
-[
-\boxed{
+\[
+\\boxed{
 W:
 CandidateMemory
-\rightarrow
+\\rightarrow
 PersistentMemory
 }
-]
+\]
 
 subject to admission.
 
@@ -577,66 +553,66 @@ retention state
 
 where applicable.
 
----
+______________________________________________________________________
 
-# 15. Memory Read Operator
+## 15. Memory Read Operator
 
-[
-\boxed{
+\[
+\\boxed{
 R:
-MemoryStore \times Query
-\rightarrow
+MemoryStore \\times Query
+\\rightarrow
 CandidateSet
 }
-]
+\]
 
 A read produces candidates, not validated truth.
 
 Therefore:
 
-[
-\boxed{
+\[
+\\boxed{
 Retrieved(m)
-\not\Rightarrow
+\\not\\Rightarrow
 Admissible(m)
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 16. Memory Admission Operator
+## 16. Memory Admission Operator
 
-[
-\boxed{
+\[
+\\boxed{
 A:
 CandidateSet
-\rightarrow
+\\rightarrow
 AdmissibleSet
 }
-]
+\]
 
 where:
 
-[
+\[
 AdmissibleSet
-\subseteq
+\\subseteq
 CandidateSet
-]
+\]
 
 Retrieval and admission are separate operations.
 
----
+______________________________________________________________________
 
-# 17. Memory Revalidation Operator
+## 17. Memory Revalidation Operator
 
-[
-\boxed{
+\[
+\\boxed{
 V:
-Memory_t \times Environment_{t+1}
-\rightarrow
-Memory_{t+1}
+Memory_t \\times Environment\_{t+1}
+\\rightarrow
+Memory\_{t+1}
 }
-]
+\]
 
 Revalidation may produce:
 
@@ -650,19 +626,19 @@ INVALID
 UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 18. Memory Invalidation Operator
+## 18. Memory Invalidation Operator
 
 For falsifier (f):
 
-[
-\boxed{
+\[
+\\boxed{
 Invalidate(m,f)
-\rightarrow
+\\rightarrow
 m'
 }
-]
+\]
 
 where:
 
@@ -672,45 +648,45 @@ m'.state = INVALIDATED
 
 and load-bearing descendants become candidates for selective invalidation.
 
----
+______________________________________________________________________
 
-# 19. Selective Invalidation Equation
+## 19. Selective Invalidation Equation
 
-Let (Desc_{LB}(m)) denote load-bearing descendants.
+Let (Desc\_{LB}(m)) denote load-bearing descendants.
 
-[
-\boxed{
+\[
+\\boxed{
 Invalidate(m)
-\Rightarrow
-Revalidate(Desc_{LB}(m))
+\\Rightarrow
+Revalidate(Desc\_{LB}(m))
 }
-]
+\]
 
 but:
 
-[
-\boxed{
+\[
+\\boxed{
 Independent(x,m)
-\Rightarrow
+\\Rightarrow
 Preserve(x)
 }
-]
+\]
 
 Global memory deletion is not the default response to local failure.
 
----
+______________________________________________________________________
 
-# 20. Supersession Operator
+## 20. Supersession Operator
 
-For newer memory \(m_2\) superseding \(m_1\):
+For newer memory (m_2) superseding (m_1):
 
-[
-\boxed{
+\[
+\\boxed{
 m_1
-\xrightarrow{SUPERSEDED_BY}
+\\xrightarrow{SUPERSEDED_BY}
 m_2
 }
-]
+\]
 
 Supersession does not require erasing historical state.
 
@@ -725,19 +701,19 @@ rollback
 temporal reasoning
 ```
 
----
+______________________________________________________________________
 
-# 21. Contradiction Operator
+## 21. Contradiction Operator
 
 For incompatible memories:
 
-[
-\boxed{
+\[
+\\boxed{
 Conflict(m_i,m_j)
-\rightarrow
+\\rightarrow
 CONTRADICTION_EDGE
 }
-]
+\]
 
 AMOS must preserve both memories until sufficient discriminating evidence exists.
 
@@ -745,110 +721,110 @@ AMOS must preserve both memories until sufficient discriminating evidence exists
 CONTRADICTION != DELETE ONE SIDE
 ```
 
----
+______________________________________________________________________
 
-# 22. Memory Compression Operator
+## 22. Memory Compression Operator
 
-[
-\boxed{
+\[
+\\boxed{
 K:
 M
-\rightarrow
+\\rightarrow
 M'
 }
-]
+\]
 
 Compression is admissible only if decision-relevant structure survives.
 
-[
-\boxed{
+\[
+\\boxed{
 Preserve_K =
 Identity
-\land
+\\land
 Provenance
-\land
+\\land
 Scope
-\land
+\\land
 Regime
-\land
+\\land
 Dependencies
-\land
+\\land
 Contradictions
-\land
+\\land
 ConfidenceCeiling
-\land
+\\land
 InvalidationConditions
 }
-]
+\]
 
 for all load-bearing dimensions.
 
----
+______________________________________________________________________
 
-# 23. Memory Merge Operator
+## 23. Memory Merge Operator
 
-For memories \(m_1,m_2\):
+For memories (m_1,m_2):
 
-[
-\boxed{
+\[
+\\boxed{
 Merge(m_1,m_2)
 }
-]
+\]
 
 requires:
 
-[
-\boxed{
+\[
+\\boxed{
 TypeCompatible
-\land
+\\land
 ScopeCompatible
-\land
+\\land
 RegimeCompatible
-\land
+\\land
 TemporalCompatible
-\land
+\\land
 ProvenanceResolved
 }
-]
+\]
 
 Similarity alone is insufficient.
 
----
+______________________________________________________________________
 
-# 24. Memory Mutation Operator
+## 24. Memory Mutation Operator
 
-[
-\boxed{
+\[
+\\boxed{
 m_t
-\xrightarrow{\mu}
-m_{t+1}
+\\xrightarrow{\\mu}
+m\_{t+1}
 }
-]
+\]
 
 requires preserved lineage:
 
-[
-\boxed{
-Lineage(m_t,m_{t+1})
+\[
+\\boxed{
+Lineage(m_t,m\_{t+1})
 }
-]
+\]
 
 Mutation must not silently rewrite historical evidence.
 
----
+______________________________________________________________________
 
-# 25. Memory Forgetting Operator
+## 25. Memory Forgetting Operator
 
 Forgetting is a governed transition:
 
-[
-\boxed{
+\[
+\\boxed{
 F:
 Memory
-\rightarrow
+\\rightarrow
 ReducedPersistentState
 }
-]
+\]
 
 It must account for:
 
@@ -866,9 +842,9 @@ downstream reliance
 
 Deletion is not equivalent to invalidation.
 
----
+______________________________________________________________________
 
-# 26. Memory Retention Classes
+## 26. Memory Retention Classes
 
 Suggested architectural classes:
 
@@ -887,49 +863,49 @@ REVOKED
 
 Retention class and epistemic class are separate axes.
 
----
+______________________________________________________________________
 
-# 27. Core Memory Invariants
+## 27. Core Memory Invariants
 
 ## MEM-I01 — Memory Is Not Reality
 
-[
-\boxed{
+\[
+\\boxed{
 Memory(x)
-\neq
+\\neq
 Reality(x)
 }
-]
+\]
 
 ## MEM-I02 — Persistence Is Not Truth
 
-[
-\boxed{
+\[
+\\boxed{
 Persistent(x)
-\not\Rightarrow
+\\not\\Rightarrow
 True(x)
 }
-]
+\]
 
 ## MEM-I03 — Retrieval Is Not Validation
 
-[
-\boxed{
+\[
+\\boxed{
 Retrieved(x)
-\not\Rightarrow
+\\not\\Rightarrow
 Validated(x)
 }
-]
+\]
 
 ## MEM-I04 — Repetition Is Not Verification
 
-[
-\boxed{
+\[
+\\boxed{
 Repeated(x)
-\not\Rightarrow
+\\not\\Rightarrow
 Verified(x)
 }
-]
+\]
 
 ## MEM-I05 — Memory Must Preserve Provenance
 
@@ -979,45 +955,42 @@ Revoked evidence triggers dependent-memory revalidation.
 
 Memory compression must preserve decision-relevant epistemic structure.
 
----
+______________________________________________________________________
 
-# 28. Confidence Preservation Invariant
+## 28. Confidence Preservation Invariant
 
 For memory-derived conclusion (c):
 
-[
-\boxed{
+\[
+\\boxed{
 Conf(c)
-\leq
-\min_{m_i \in LB(c)}
+\\leq
+\\min\_{m_i \\in LB(c)}
 Conf(m_i)
 }
-]
+\]
 
 for unresolved load-bearing memories unless independent revalidation raises the supported ceiling.
 
 Memory persistence cannot manufacture confidence.
 
----
+______________________________________________________________________
 
-# 29. Freshness Equation
+## 29. Freshness Equation
 
 Memory freshness is claim-relative:
 
-[
-\boxed{
-Fresh(m,c,t)
-============
+## \[ \\boxed{ Fresh(m,c,t)
 
 f(
-t-t_{validated},
+t-t\_{validated},
 changeRate(c),
 regimeStability,
 decisionHorizon,
 sourceUpdateRate
 )
 }
-]
+\]
 
 Therefore:
 
@@ -1033,16 +1006,13 @@ RECENT != VALID
 
 Freshness and validity remain distinct.
 
----
+______________________________________________________________________
 
-# 30. Memory Decay Model
+## 30. Memory Decay Model
 
 A conceptual validity-pressure function may be represented as:
 
-[
-\boxed{
-D_m(t)
-======
+## \[ \\boxed{ D_m(t)
 
 g(
 age,
@@ -1052,38 +1022,35 @@ sourceVolatility,
 dependencyChange
 )
 }
-]
+\]
 
 This is an AMOS model variable, not a universal empirical decay law.
 
----
+______________________________________________________________________
 
-# 31. Revalidation Priority
+## 31. Revalidation Priority
 
 Let:
 
-- \(C_m\) = consequence if memory is wrong;
-- \(D_m\) = dependency fan-out;
-- \(F_m\) = freshness risk;
-- \(R_m\) = regime-shift risk;
-- \(U_m\) = unresolved uncertainty.
+- (C_m) = consequence if memory is wrong;
+- (D_m) = dependency fan-out;
+- (F_m) = freshness risk;
+- (R_m) = regime-shift risk;
+- (U_m) = unresolved uncertainty.
 
 A conceptual priority function is:
 
-[
-\boxed{
-Priority(m)
-===========
+## \[ \\boxed{ Priority(m)
 
 f(C_m,D_m,F_m,R_m,U_m)
 }
-]
+\]
 
 Higher-impact, high-fan-out, stale, regime-sensitive memories should generally receive earlier revalidation.
 
----
+______________________________________________________________________
 
-# 32. Memory H/M/L Architecture
+## 32. Memory H/M/L Architecture
 
 ## H — Governing Memory
 
@@ -1129,16 +1096,13 @@ specific source claims
 local failures
 ```
 
----
+______________________________________________________________________
 
-# 33. H/M/L Memory Tensor
+## 33. H/M/L Memory Tensor
 
-[
-\boxed{
-T_{HMLM}
-========
+## \[ \\boxed{ T\_{HMLM}
 
-T[
+T\[
 memory_id,
 scale,
 parent,
@@ -1149,22 +1113,19 @@ heterogeneity,
 scope,
 regime,
 provenance
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 34. Upward Memory Aggregation
+## 34. Upward Memory Aggregation
 
-[
-\boxed{
-M_H
-===
+## \[ \\boxed{ M_H
 
-A(M_{L_1},M_{L_2},...,M_{L_n})
+A(M\_{L_1},M\_{L_2},...,M\_{L_n})
 }
-]
+\]
 
 subject to:
 
@@ -1177,23 +1138,23 @@ heterogeneity evaluated
 contradictions preserved
 ```
 
----
+______________________________________________________________________
 
-# 35. Downward Memory Retrieval
+## 35. Downward Memory Retrieval
 
-[
-\boxed{
+\[
+\\boxed{
 Retrieve_L(M_H,q)
 }
-]
+\]
 
 must not assume the high-level summary contains every local distinction.
 
 Raw or lower-level evidence must be recoverable when a decision depends on details removed by aggregation.
 
----
+______________________________________________________________________
 
-# 36. Cross-Scale Invariants
+## 36. Cross-Scale Invariants
 
 ```text
 SUMMARY != SOURCE
@@ -1209,9 +1170,9 @@ LOCAL OBSERVATION != SYSTEM STATE
 HIGH-LEVEL STABILITY != UNIVERSAL LOCAL STABILITY
 ```
 
----
+______________________________________________________________________
 
-# 37. Fractal Memory Principle
+## 37. Fractal Memory Principle
 
 The same memory contract recurs across H/M/L:
 
@@ -1231,9 +1192,9 @@ but the content and resolution differ by scale.
 
 Fractal recurrence does not imply identical semantics across scales.
 
----
+______________________________________________________________________
 
-# 38. Reality Memory vs Working Memory
+## 38. Reality Memory vs Working Memory
 
 ```text
 REALITY MEMORY
@@ -1255,9 +1216,9 @@ WORKING MEMORY
 
 Working memory may reference reality memory but must not silently replace it.
 
----
+______________________________________________________________________
 
-# 39. Reality Memory vs Canon
+## 39. Reality Memory vs Canon
 
 ```text
 MEMORY != CANON
@@ -1267,9 +1228,9 @@ A persistent item does not become canonical merely because it is frequently retr
 
 Canon promotion requires its own governance path.
 
----
+______________________________________________________________________
 
-# 40. Reality Memory vs Evidence
+## 40. Reality Memory vs Evidence
 
 ```text
 MEMORY != EVIDENCE
@@ -1292,9 +1253,9 @@ unknowns
 
 Therefore memory class must remain explicit.
 
----
+______________________________________________________________________
 
-# 41. Reality Memory vs Model State
+## 41. Reality Memory vs Model State
 
 ```text
 MEMORY OF MODEL STATE
@@ -1304,9 +1265,9 @@ MEMORY OF OBSERVED WORLD STATE
 
 The distinction must survive storage and retrieval.
 
----
+______________________________________________________________________
 
-# 42. AI Application — Conversation Memory
+## 42. AI Application — Conversation Memory
 
 For AI systems:
 
@@ -1328,9 +1289,9 @@ retrieved evidence
 system state
 ```
 
----
+______________________________________________________________________
 
-# 43. AI Application — Tool Memory
+## 43. AI Application — Tool Memory
 
 A stored tool result must preserve:
 
@@ -1346,11 +1307,11 @@ version
 scope
 ```
 
-Tool output from time \(t_0\) must not automatically represent current external state at \(t_1\).
+Tool output from time (t_0) must not automatically represent current external state at (t_1).
 
----
+______________________________________________________________________
 
-# 44. AI Application — Retrieval-Augmented Memory
+## 44. AI Application — Retrieval-Augmented Memory
 
 ```text
 RETRIEVED DOCUMENT
@@ -1373,9 +1334,9 @@ RETRIEVED DOCUMENT
 
 Retrieval ranking is not epistemic validation.
 
----
+______________________________________________________________________
 
-# 45. AI Application — Agent Memory
+## 45. AI Application — Agent Memory
 
 Agent memory should distinguish:
 
@@ -1393,16 +1354,16 @@ repair memory
 
 These classes must not silently inherit each other's permissions or epistemic status.
 
----
+______________________________________________________________________
 
-# 46. AI Application — Failure Memory
+## 46. AI Application — Failure Memory
 
 Failed paths should be remembered with:
 
-[
-\boxed{
+\[
+\\boxed{
 T_F =
-T[
+T\[
 failure_id,
 objective,
 attempt,
@@ -1414,9 +1375,9 @@ changed_state,
 repair_attempt,
 result,
 revalidation
-]
+\]
 }
-]
+\]
 
 This supports the invariant:
 
@@ -1425,9 +1386,9 @@ DO NOT REPEAT A FAILED PATH
 WITHOUT CHANGED EVIDENCE OR STATE
 ```
 
----
+______________________________________________________________________
 
-# 47. AI Application — Negative Memory
+## 47. AI Application — Negative Memory
 
 Negative memory stores bounded lessons such as:
 
@@ -1453,16 +1414,16 @@ ALWAYS FAILS
 
 without supporting evidence.
 
----
+______________________________________________________________________
 
-# 48. AI Application — Prediction Memory
+## 48. AI Application — Prediction Memory
 
 Prediction memory must store both prediction and later outcome separately:
 
-[
-\boxed{
+\[
+\\boxed{
 T_P =
-T[
+T\[
 prediction_id,
 forecast,
 forecast_time,
@@ -1473,9 +1434,9 @@ probability,
 assumptions,
 actual_outcome,
 score
-]
+\]
 }
-]
+\]
 
 Before outcome:
 
@@ -1485,14 +1446,14 @@ actual_outcome = UNKNOWN
 
 After outcome, scoring may update model evidence without rewriting the historical forecast.
 
----
+______________________________________________________________________
 
-# 49. AI Application — Decision Memory
+## 49. AI Application — Decision Memory
 
-[
-\boxed{
+\[
+\\boxed{
 T_D =
-T[
+T\[
 decision_id,
 objective,
 state_known,
@@ -1505,22 +1466,22 @@ constraints,
 expected_consequence,
 actual_consequence,
 timestamp
-]
+\]
 }
-]
+\]
 
 The state known at decision time must remain distinguishable from information learned afterward.
 
 This prevents hindsight contamination.
 
----
+______________________________________________________________________
 
-# 50. AI Application — Action Memory
+## 50. AI Application — Action Memory
 
-[
-\boxed{
+\[
+\\boxed{
 T_A =
-T[
+T\[
 action_id,
 proposal,
 authorization,
@@ -1531,9 +1492,9 @@ consequence,
 rollback,
 timestamp,
 provenance
-]
+\]
 }
-]
+\]
 
 Hard distinction:
 
@@ -1541,25 +1502,25 @@ Hard distinction:
 PROPOSED != AUTHORIZED != COMMITTED != EXECUTED != SUCCEEDED
 ```
 
----
+______________________________________________________________________
 
-# 51. Recursive AI Contamination
+## 51. Recursive AI Contamination
 
 If generated output becomes future memory:
 
-[
-\boxed{
+\[
+\\boxed{
 GeneratedByAI(x)
-\Rightarrow
+\\Rightarrow
 PreserveGenerator(x)
 }
-]
+\]
 
 If the same generated content later appears through another source path, ancestry resolution must determine whether it is genuinely independent.
 
----
+______________________________________________________________________
 
-# 52. Memory Provenance Topology
+## 52. Memory Provenance Topology
 
 ```text
 SOURCE
@@ -1584,54 +1545,49 @@ MEMORY A      MEMORY B
 
 `A`, `B`, and `C` do not constitute three independent sources if all descend from the same origin.
 
----
+______________________________________________________________________
 
-# 53. Sybil-Hardening Memory Rule
+## 53. Sybil-Hardening Memory Rule
 
-[
-\boxed{
-IndependentSupport
-==================
+## \[ \\boxed{ IndependentSupport
 
 DistinctRelevantAncestry
 }
-]
+\]
 
 not:
 
-[
-IndependentSupport
-==================
+## \[ IndependentSupport
 
 NumberOfMemoryObjects
-]
+\]
 
 Multiple aliases, summaries, embeddings, transformations, or agent copies of one source do not create independent evidence.
 
----
+______________________________________________________________________
 
-# 54. Memory Boundary Architecture
+## 54. Memory Boundary Architecture
 
 Memory must preserve access and disclosure boundaries.
 
-[
-\boxed{
+\[
+\\boxed{
 Readable(m,a)
-\neq
+\\neq
 Writable(m,a)
-\neq
+\\neq
 Disclosable(m,a,r)
 }
-]
+\]
 
 where:
 
 - (a) = actor;
 - (r) = recipient.
 
----
+______________________________________________________________________
 
-# 55. Memory Authority Boundary
+## 55. Memory Authority Boundary
 
 ```text
 CAN READ MEMORY
@@ -1651,47 +1607,41 @@ CAN PROPOSE MEMORY UPDATE
 CAN COMMIT MEMORY UPDATE
 ```
 
----
+______________________________________________________________________
 
-# 56. Memory Write Governance
+## 56. Memory Write Governance
 
 For durable memory write (w):
 
-[
-\boxed{
-CommitMemory(w)
-===============
+## \[ \\boxed{ CommitMemory(w)
 
 Capability
-\land
+\\land
 Authority
-\land
+\\land
 AdmissionPass
-\land
+\\land
 ConstraintPass
-\land
+\\land
 StateFresh
 }
-]
+\]
 
 where required by the memory class.
 
----
+______________________________________________________________________
 
-# 57. Atomic Memory Update
+## 57. Atomic Memory Update
 
 When multiple memory objects form one semantic transaction:
 
-[
-\boxed{
-Commit(M_1,...,M_n)
-===================
+## \[ \\boxed{ Commit(M_1,...,M_n)
 
 ALL
-\lor
+\\lor
 NONE
 }
-]
+\]
 
 when partial persistence would violate invariants.
 
@@ -1709,21 +1659,21 @@ dependency invalidation
 
 may require one governed semantic transaction.
 
----
+______________________________________________________________________
 
-# 58. Memory Versioning
+## 58. Memory Versioning
 
-[
-\boxed{
+\[
+\\boxed{
 M^{(0)}
-\rightarrow
+\\rightarrow
 M^{(1)}
-\rightarrow
+\\rightarrow
 ...
-\rightarrow
+\\rightarrow
 M^{(n)}
 }
-]
+\]
 
 Each governed version should preserve:
 
@@ -1737,41 +1687,41 @@ validation
 affected dependencies
 ```
 
----
+______________________________________________________________________
 
-# 59. Memory Epoch
+## 59. Memory Epoch
 
 A memory validation epoch represents the state against which memory validity was established.
 
-[
-\boxed{
+\[
+\\boxed{
 Valid(m,e_i)
-\not\Rightarrow
+\\not\\Rightarrow
 Valid(m,e_j)
 }
-]
+\]
 
 when relevant environment, authority, dependency, or regime state changed between epochs.
 
----
+______________________________________________________________________
 
-# 60. Commit-Time Revalidation
+## 60. Commit-Time Revalidation
 
 If a memory update depends on mutable state:
 
-[
-\boxed{
+\[
+\\boxed{
 MutableDependency
-\Rightarrow
+\\Rightarrow
 CommitTimeRevalidation
 }
-]
+\]
 
 This prevents a write validated against stale authority or stale environment state from being committed later.
 
----
+______________________________________________________________________
 
-# 61. Memory Control Plane
+## 61. Memory Control Plane
 
 The L00 memory control plane should support:
 
@@ -1801,16 +1751,13 @@ rollback
 audit
 ```
 
----
+______________________________________________________________________
 
-# 62. Memory Control Tensor
+## 62. Memory Control Tensor
 
-[
-\boxed{
-T_{MC}
-======
+## \[ \\boxed{ T\_{MC}
 
-T[
+T\[
 operation,
 memory_id,
 actor,
@@ -1823,13 +1770,13 @@ expected_state,
 commit_state,
 rollback,
 audit_ref
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 63. Agent Contract
+## 63. Agent Contract
 
 Memory agents may:
 
@@ -1861,9 +1808,9 @@ treat stale memory as current without validation
 convert UNKNOWN into FALSE
 ```
 
----
+______________________________________________________________________
 
-# 64. Skill Contract
+## 64. Skill Contract
 
 Every AMOS skill consuming L00 memory should declare:
 
@@ -1895,9 +1842,9 @@ memory_contract:
   validators: []
 ```
 
----
+______________________________________________________________________
 
-# 65. Memory Retrieval Protocol
+## 65. Memory Retrieval Protocol
 
 ```text
 1. Parse current objective.
@@ -1941,9 +1888,9 @@ memory_contract:
 20. Record invalidation conditions.
 ```
 
----
+______________________________________________________________________
 
-# 66. Memory Write Protocol
+## 66. Memory Write Protocol
 
 ```text
 1. Receive candidate memory.
@@ -1993,9 +1940,9 @@ memory_contract:
 23. Emit audit record.
 ```
 
----
+______________________________________________________________________
 
-# 67. Revalidation Protocol
+## 67. Revalidation Protocol
 
 ```text
 TRIGGER
@@ -2036,9 +1983,9 @@ UPDATE STATE
         └── INVALIDATED
 ```
 
----
+______________________________________________________________________
 
-# 68. Memory Repair Protocol
+## 68. Memory Repair Protocol
 
 ```text
 MEMORY FAILURE
@@ -2078,9 +2025,9 @@ REVALIDATE
 RESTORE ONLY VALIDATED DESCENDANTS
 ```
 
----
+______________________________________________________________________
 
-# 69. Failure Modes
+## 69. Failure Modes
 
 ## MEM-F01 — Memory Reification
 
@@ -2162,9 +2109,9 @@ AI-generated material returns as apparently independent evidence.
 
 Historical prediction or decision state is rewritten using later information.
 
----
+______________________________________________________________________
 
-# 70. Memory Poisoning Detection
+## 70. Memory Poisoning Detection
 
 Potential poisoning indicators include:
 
@@ -2193,46 +2140,41 @@ QUARANTINE
 
 until discriminating evidence is available.
 
----
+______________________________________________________________________
 
-# 71. Memory Recovery Equation
+## 71. Memory Recovery Equation
 
 Let:
 
-- \(M_V\) = unaffected valid memory;
-- \(M_F\) = failed memory;
-- \(D_F\) = dependent descendants;
-- \(R_F\) = repaired state.
+- (M_V) = unaffected valid memory;
+- (M_F) = failed memory;
+- (D_F) = dependent descendants;
+- (R_F) = repaired state.
 
 Then:
 
-[
-\boxed{
-M_{recovered}
-=============
+## \[ \\boxed{ M\_{recovered}
 
 M_V
-\cup
+\\cup
 R_F
-\cup
+\\cup
 Revalidated(D_F)
 }
-]
+\]
 
 not:
 
-[
-M_{recovered}
-=============
+## \[ M\_{recovered}
 
 Rebuild(AllMemory)
-]
+\]
 
 unless global corruption requires it.
 
----
+______________________________________________________________________
 
-# 72. Memory Utility vs Integrity
+## 72. Memory Utility vs Integrity
 
 Memory optimization may target:
 
@@ -2247,10 +2189,10 @@ throughput
 
 but:
 
-[
-\boxed{
+\[
+\\boxed{
 Optimization(M)
-\Rightarrow
+\\Rightarrow
 Preserve(
 Identity,
 Provenance,
@@ -2261,20 +2203,17 @@ Contradictions,
 Invalidation
 )
 }
-]
+\]
 
 where these properties are load-bearing.
 
----
+______________________________________________________________________
 
-# 73. Retrieval Utility Function
+## 73. Retrieval Utility Function
 
 A conceptual retrieval score may use:
 
-[
-\boxed{
-Score(m,q)
-==========
+## \[ \\boxed{ Score(m,q)
 
 f(
 Relevance,
@@ -2287,13 +2226,13 @@ ProvenanceTrust,
 ContradictionState
 )
 }
-]
+\]
 
 Relevance alone is insufficient.
 
----
+______________________________________________________________________
 
-# 74. Decision-Relevant Memory
+## 74. Decision-Relevant Memory
 
 Memory should be loaded when it can materially alter:
 
@@ -2312,44 +2251,41 @@ Otherwise lower-value memory may remain externalized.
 
 This supports the AMOS smallest-sufficient-proof principle.
 
----
+______________________________________________________________________
 
-# 75. Memory Context Budget
+## 75. Memory Context Budget
 
 Let memory candidates be (m_1,...,m_n).
 
-Under finite context budget \(B\):
+Under finite context budget (B):
 
-[
-\boxed{
-\sum_i Cost(m_i)x_i
-\leq B
+\[
+\\boxed{
+\\sum_i Cost(m_i)x_i
+\\leq B
 }
-]
+\]
 
 while preserving all load-bearing items required for the current reasoning state.
 
 Compression or exclusion must not remove a premise capable of flipping the decision.
 
----
+______________________________________________________________________
 
-# 76. Memory Sensitivity
+## 76. Memory Sensitivity
 
 For conclusion (c), define the sensitive memory set:
 
-[
-\boxed{
-S_c
-===
+## \[ \\boxed{ S_c
 
 {
 m_i :
 Change(m_i)
-\Rightarrow
+\\Rightarrow
 Change(c)
 }
 }
-]
+\]
 
 High-sensitivity memories should receive priority for:
 
@@ -2360,14 +2296,11 @@ revalidation
 contradiction search
 ```
 
----
+______________________________________________________________________
 
-# 77. Memory Consequence Radius
+## 77. Memory Consequence Radius
 
-[
-\boxed{
-CR(m)
-=====
+## \[ \\boxed{ CR(m)
 
 f(
 dependencyFanout,
@@ -2377,20 +2310,17 @@ authorityImpact,
 safetyImpact
 )
 }
-]
+\]
 
 Higher consequence radius implies stronger admission and revalidation requirements.
 
----
+______________________________________________________________________
 
-# 78. Memory Trust
+## 78. Memory Trust
 
 Trust must remain local and typed.
 
-[
-\boxed{
-Trust(m)
-========
+## \[ \\boxed{ Trust(m)
 
 f(
 source,
@@ -2402,41 +2332,35 @@ freshness,
 repairHistory
 )
 }
-]
+\]
 
 Trust is not a permanent universal property of a memory object.
 
----
+______________________________________________________________________
 
-# 79. Memory Independence
+## 79. Memory Independence
 
-[
-\boxed{
-Independent(m_i,m_j)
-====================
+## \[ \\boxed{ Independent(m_i,m_j)
 
 DistinctRelevantAncestry
-\land
+\\land
 NoMaterialSharedGenerationPath
 }
-]
+\]
 
 when independent support is being claimed.
 
 Different filenames, agents, embeddings, or summaries do not prove independence.
 
----
+______________________________________________________________________
 
-# 80. Memory Contradiction Matrix
+## 80. Memory Contradiction Matrix
 
-For memories \(m_i,m_j\):
+For memories (m_i,m_j):
 
-[
-\boxed{
-C_{ij}
-======
+## \[ \\boxed{ C\_{ij}
 
-T[
+T\[
 relation,
 scopeOverlap,
 regimeOverlap,
@@ -2444,9 +2368,9 @@ temporalOverlap,
 provenanceRelation,
 conflictStrength,
 resolutionState
-]
+\]
 }
-]
+\]
 
 Possible states:
 
@@ -2460,9 +2384,9 @@ NONCOMPARABLE
 UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 81. Memory Gap States
+## 81. Memory Gap States
 
 ```text
 CRITICAL
@@ -2473,16 +2397,13 @@ COSMETIC
 
 A memory gap is `CRITICAL` when its absence prevents a required high-confidence or governed conclusion.
 
----
+______________________________________________________________________
 
-# 82. Memory Gap Tensor
+## 82. Memory Gap Tensor
 
-[
-\boxed{
-T_{MG}
-======
+## \[ \\boxed{ T\_{MG}
 
-T[
+T\[
 gap_id,
 missing_memory,
 required_for,
@@ -2491,13 +2412,13 @@ affected_claims,
 affected_actions,
 resolution_path,
 status
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 83. Tests / Validators
+## 83. Tests / Validators
 
 ```text
 L00-MEM-T01 identity persistence
@@ -2527,9 +2448,9 @@ L00-MEM-T24 UNKNOWN/GAP propagation
 L00-MEM-T25 quarantine behavior
 ```
 
----
+______________________________________________________________________
 
-# 84. Test — Memory Does Not Become Reality
+## 84. Test — Memory Does Not Become Reality
 
 Given:
 
@@ -2553,9 +2474,9 @@ MODEL_STATE -> OBSERVED_REALITY
 
 without evidence.
 
----
+______________________________________________________________________
 
-# 85. Test — Provenance Survives Compression
+## 85. Test — Provenance Survives Compression
 
 Given:
 
@@ -2571,17 +2492,17 @@ summary K
 
 the system must retain a recoverable path:
 
-[
-\boxed{
-K\rightarrow M\rightarrow E\rightarrow S
+\[
+\\boxed{
+K\\rightarrow M\\rightarrow E\\rightarrow S
 }
-]
+\]
 
 when provenance is load-bearing.
 
----
+______________________________________________________________________
 
-# 86. Test — Selective Invalidation
+## 86. Test — Selective Invalidation
 
 Given:
 
@@ -2603,9 +2524,9 @@ C3 = PRESERVE
 
 assuming `C3` has no material dependency on `M1`.
 
----
+______________________________________________________________________
 
-# 87. Test — Contradiction Preservation
+## 87. Test — Contradiction Preservation
 
 Given:
 
@@ -2626,9 +2547,9 @@ not:
 state = arbitrarily choose A
 ```
 
----
+______________________________________________________________________
 
-# 88. Test — Recursive Evidence Contamination
+## 88. Test — Recursive Evidence Contamination
 
 Given:
 
@@ -2642,18 +2563,18 @@ D is later retrieved
 
 the system must not count `D` as independent external confirmation of `C` if ancestry can be resolved to the original AI generation.
 
----
+______________________________________________________________________
 
-# 89. Test — Forecast Integrity
+## 89. Test — Forecast Integrity
 
-Prediction stored at \(t_0\):
+Prediction stored at (t_0):
 
 ```yaml
 forecast: UP
 probability: 0.62
 ```
 
-After outcome at \(t_1\):
+After outcome at (t_1):
 
 ```yaml
 forecast: UP
@@ -2663,9 +2584,9 @@ actual_outcome: DOWN
 
 The original forecast must not be rewritten to match the observed outcome.
 
----
+______________________________________________________________________
 
-# 90. Test — Authority Integrity
+## 90. Test — Authority Integrity
 
 Given an agent that can retrieve and propose memory updates:
 
@@ -2677,36 +2598,36 @@ WRITE_AUTHORITY = false
 
 the agent must not durably commit the update.
 
----
+______________________________________________________________________
 
-# 91. Falsifiers
+## 91. Falsifiers
 
 This architecture is falsified as an implemented L00 memory system if:
 
 1. memory objects cannot preserve representation class;
-2. source provenance is routinely lost;
-3. memory ancestry cannot be reconstructed where independence matters;
-4. retrieval automatically implies truth;
-5. stale memory cannot be distinguished from current state;
-6. scope is discarded during storage;
-7. regime is discarded during storage;
-8. event time and memory-write time collapse;
-9. model memory can silently become empirical memory;
-10. contradictions are overwritten;
-11. superseded memory loses lineage;
-12. revoked evidence leaves dependent claims unchanged;
-13. compression removes load-bearing provenance or falsifiers;
-14. duplicates are counted as independent evidence;
-15. H/M/L aggregation erases decision-relevant heterogeneity;
-16. durable memory writes require no authority;
-17. multi-object semantic updates can partially commit despite requiring atomicity;
-18. AI-generated content can recursively validate itself;
-19. historical predictions can be rewritten after outcomes;
-20. `UNKNOWN/GAP` can become `PASS` through persistence.
+1. source provenance is routinely lost;
+1. memory ancestry cannot be reconstructed where independence matters;
+1. retrieval automatically implies truth;
+1. stale memory cannot be distinguished from current state;
+1. scope is discarded during storage;
+1. regime is discarded during storage;
+1. event time and memory-write time collapse;
+1. model memory can silently become empirical memory;
+1. contradictions are overwritten;
+1. superseded memory loses lineage;
+1. revoked evidence leaves dependent claims unchanged;
+1. compression removes load-bearing provenance or falsifiers;
+1. duplicates are counted as independent evidence;
+1. H/M/L aggregation erases decision-relevant heterogeneity;
+1. durable memory writes require no authority;
+1. multi-object semantic updates can partially commit despite requiring atomicity;
+1. AI-generated content can recursively validate itself;
+1. historical predictions can be rewritten after outcomes;
+1. `UNKNOWN/GAP` can become `PASS` through persistence.
 
----
+______________________________________________________________________
 
-# 92. Gap Matrix
+## 92. Gap Matrix
 
 | Area          | Required capability          | Status                   |
 | ------------- | ---------------------------- | ------------------------ |
@@ -2727,18 +2648,15 @@ This architecture is falsified as an implemented L00 memory system if:
 | Recovery      | selective rollback           | implementation-dependent |
 | Contamination | AI-origin ancestry tracking  | implementation-dependent |
 
----
+______________________________________________________________________
 
-# 93. Core Memory Equation
+## 93. Core Memory Equation
 
 The architectural memory state can be represented as:
 
-[
-\boxed{
-M_t
-===
+## \[ \\boxed{ M_t
 
-[
+\[
 I,
 C,
 P,
@@ -2749,9 +2667,9 @@ H,
 T,
 E,
 V
-]_t
+\]\_t
 }
-]
+\]
 
 where:
 
@@ -2768,25 +2686,22 @@ E = epistemic state
 V = validation state
 ```
 
----
+______________________________________________________________________
 
-# 94. Memory Evolution Equation
+## 94. Memory Evolution Equation
 
-[
-\boxed{
-M_{t+1}
-=======
+## \[ \\boxed{ M\_{t+1}
 
-\Phi(
+\\Phi(
 M_t,
-O_{t+1},
-E_{t+1},
-R_{t+1},
-F_{t+1},
-G_{t+1}
+O\_{t+1},
+E\_{t+1},
+R\_{t+1},
+F\_{t+1},
+G\_{t+1}
 )
 }
-]
+\]
 
 where:
 
@@ -2800,98 +2715,86 @@ G = governance constraints
 
 `Φ` is an AMOS architectural transition operator, not an asserted empirical law.
 
----
+______________________________________________________________________
 
-# 95. Memory Integrity Equation
+## 95. Memory Integrity Equation
 
-[
-\boxed{
-Integrity(M)
-============
+## \[ \\boxed{ Integrity(M)
 
 Identity
-\land
+\\land
 Type
-\land
+\\land
 Provenance
-\land
+\\land
 Scope
-\land
+\\land
 Regime
-\land
+\\land
 TemporalValidity
-\land
+\\land
 DependencyValidity
-\land
+\\land
 ContradictionVisibility
-\land
+\\land
 ConfidenceValidity
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 96. Valid Memory Equation
+## 96. Valid Memory Equation
 
-[
-\boxed{
-ValidMemory(m)
-==============
+## \[ \\boxed{ ValidMemory(m)
 
 Integrity(m)
-\land
+\\land
 AdmissionPass(m)
-\land
-\neg Revoked(m)
+\\land
+\\neg Revoked(m)
 }
-]
+\]
 
 with freshness and revalidation requirements determined by the memory's use.
 
----
+______________________________________________________________________
 
-# 97. Active Memory Equation
+## 97. Active Memory Equation
 
-[
-\boxed{
-ActiveMemory(q)
-===============
+## \[ \\boxed{ ActiveMemory(q)
 
 {
-m\in M:
+m\\in M:
 Relevant(m,q)
-\land
+\\land
 Admissible(m,q)
-\land
+\\land
 DependencyCompatible(m,q)
 }
 }
-]
+\]
 
 Relevance alone does not determine active memory.
 
----
+______________________________________________________________________
 
-# 98. Reality-Grounded Memory Equation
+## 98. Reality-Grounded Memory Equation
 
-[
-\boxed{
-GroundedMemory(m)
-=================
+## \[ \\boxed{ GroundedMemory(m)
 
 ValidMemory(m)
-\land
+\\land
 RealityContact(m)
 }
-]
+\]
 
 for memory classes claiming direct empirical grounding.
 
 A model or simulation memory may be valid as a `MODEL` without satisfying empirical reality-contact requirements.
 
----
+______________________________________________________________________
 
-# 99. RSCF Completion State
+## 99. RSCF Completion State
 
 ```yaml
 claim_class: MODEL
@@ -2980,9 +2883,9 @@ confidence_ceiling:
   ontological_universality: unverified
 ```
 
----
+______________________________________________________________________
 
-# 100. Hard Boundaries
+## 100. Hard Boundaries
 
 ```text
 MEMORY != REALITY
@@ -3052,113 +2955,114 @@ MEMORY MUTATION != CANON MUTATION
 COMPRESSION != EPISTEMIC ERASURE
 ```
 
----
+______________________________________________________________________
 
-# 101. Canonical Memory Law
+## 101. Canonical Memory Law
 
-[
-\boxed{
-MemoryIntegrity
-===============
+## \[ \\boxed{ MemoryIntegrity
 
 Persistence
-\land
+\\land
 Identity
-\land
+\\land
 RepresentationClass
-\land
+\\land
 Provenance
-\land
+\\land
 Scope
-\land
+\\land
 Regime
-\land
+\\land
 Time
-\land
+\\land
 Dependencies
-\land
+\\land
 EpistemicState
-\land
+\\land
 InvalidationState
 }
-]
+\]
 
 For admission:
 
-[
-\boxed{
+\[
+\\boxed{
 Candidate
-\xrightarrow{Admission}
+\\xrightarrow{Admission}
 PersistentMemory
 }
-]
+\]
 
 only when the required integrity gates pass.
 
 For retrieval:
 
-[
-\boxed{
+\[
+\\boxed{
 PersistentMemory
-\xrightarrow{Retrieval}
+\\xrightarrow{Retrieval}
 CandidateContext
-\xrightarrow{Revalidation}
+\\xrightarrow{Revalidation}
 AdmissibleContext
 }
-]
+\]
 
 For failure:
 
-[
-\boxed{
+\[
+\\boxed{
 FailedMemory
-\Rightarrow
+\\Rightarrow
 Invalidate(LoadBearingDescendants)
-+
+\+
 Preserve(IndependentState)
 }
-]
+\]
 
 For AI:
 
-[
-\boxed{
+\[
+\\boxed{
 Generated
-\neq
+\\neq
 Observed
-\neq
+\\neq
 Retrieved
-\neq
+\\neq
 Remembered
-\neq
+\\neq
 Verified
 }
-]
+\]
 
 The central architectural rule is:
 
 > **AMOS memory must preserve not only what information says, but what kind of information it is, where it came from, when and where it applies, what depends on it, what contradicts it, what can falsify it, and whether it remains valid now. Persistence may preserve knowledge state; it may never manufacture truth, independence, causality, authority, or reality contact.**
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · 06-Knowledge-Base-MOC · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · AMOS_Typed_Tensor_Contracts · AMOS_Evidence_Tensor_Architecture · Cosmo_Brain_BRIDGE_INDEX · AMOS_Relation_Tensor_Architecture · AMOS_Reality_Simulation_Distinction · Cosmo_Brain_BRIDGE_INDEX · Cosmo_Brain_BRIDGE_INDEX · AMOS_Context_Continuity_Governor · AMOS_Information_Boundary_Governor
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: l00_reality_environment_primitives_cognitive_matrix_memory
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_MEMORY.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_MOC|L00_REALITY_ENVIRONMENT_MOC]]

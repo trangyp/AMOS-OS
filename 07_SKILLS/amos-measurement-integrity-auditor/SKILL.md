@@ -4,25 +4,22 @@ title: SKILL — Amos Measurement Integrity Auditor
 type: skill
 source: 07_SKILLS/amos-measurement-integrity-auditor
 name: amos-measurement-integrity-auditor
-description: Measurement Integrity Auditor — audit and repair capability. Use when
-  auditing, failure analysis, gap discovery, or repair allocation. Use when amos-audit-repair-master
-  routes to this specialized capability. Do not use for generic tasks outside audit
-  domain.
+description: Measurement Integrity Auditor — audit and repair capability. Use when auditing, failure analysis, gap discovery, or repair allocation. Use when amos-audit-repair-master routes to this specialized capability. Do not use for generic tasks outside audit domain.
 parent_skill: amos-audit-repair-master
 domain: audit
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
 tags:
-- type/skill
-- type/skill
-- domain/audit-repair
-- epistemic/source_claim
-- hml/m
-- epistemic/source_claim
-- amos-os
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/audit-repair
+  - epistemic/source_claim
+  - hml/m
+  - epistemic/source_claim
+  - amos-os
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -32,25 +29,25 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: M
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
-- L7_authority
-- L22_replayability
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
+  - L7_authority
+  - L22_replayability
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L7
-- L16
-- L17
-- L18
-- L22
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L7
+  - L16
+  - L17
+  - L18
+  - L22
 license: MIT
 steward: Trang Phan
 ---
@@ -60,6 +57,7 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: audit. Parent: amos-audit-repair-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
 ## When to Use
 
 - When auditing claims against evidence and provenance
@@ -80,6 +78,7 @@ Origin architect: **Trang Phan**. Domain: audit. Parent: amos-audit-repair-maste
 - **measurement_integrity.benchmark_forensics**: Benchmark forensic analysis: trace performance regressions to root causes
 
 > **Reference**: See `references/vault_domain_knowledge.md` (content_hash: d0d25eb4d17058d9) for the full vault-sourced domain knowledge (9047 chars).
+
 - **measurement_integrity.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
 - **measurement_integrity.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **measurement_integrity.validate_outputs**: Validate outputs against domain constraints and epistemic class.
@@ -87,13 +86,13 @@ Origin architect: **Trang Phan**. Domain: audit. Parent: amos-audit-repair-maste
 ## Operations
 
 1. **measurement_integrity.audit_claim**: Audit claims against evidence, provenance, and epistemic class
-2. **measurement_integrity.detect_gap**: Detect gaps: missing capabilities, missing evidence, missing tests, missing monitors
-3. **measurement_integrity.allocate_repair**: Allocate repair resources to highest-leverage gaps and failure modes
-4. **measurement_integrity.verify_closure**: Verify gap closure: requirement → capability → component → test → evidence
-5. **measurement_integrity.benchmark_forensics**: Benchmark forensic analysis: trace performance regressions to root causes
-6. **measurement_integrity.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-7. **measurement_integrity.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
-8. **measurement_integrity.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+1. **measurement_integrity.detect_gap**: Detect gaps: missing capabilities, missing evidence, missing tests, missing monitors
+1. **measurement_integrity.allocate_repair**: Allocate repair resources to highest-leverage gaps and failure modes
+1. **measurement_integrity.verify_closure**: Verify gap closure: requirement → capability → component → test → evidence
+1. **measurement_integrity.benchmark_forensics**: Benchmark forensic analysis: trace performance regressions to root causes
+1. **measurement_integrity.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+1. **measurement_integrity.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+1. **measurement_integrity.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## 11_KNOWLEDGE Vault Content
 
@@ -106,27 +105,30 @@ Origin architect: **Trang Phan**. Domain: audit. Parent: amos-audit-repair-maste
 From Cosmo Brain Collapse-Space Coverage Audit: Measurement integrity in collapse-space auditing. From Vault Integrity Pass: 7-part canon lens applied to vault integrity.
 
 **Measurement integrity model**:
+
 - **Measurement validity**: measurements must be valid (measure what they claim to measure)
 - **Measurement reliability**: measurements must be reliable (reproducible under same conditions)
 - **Measurement accuracy**: measurements must be accurate (close to true value)
 - **Measurement precision**: measurements must be precise (low variance)
 
 **7-part canon lens for integrity auditing** (from Vault Integrity Pass):
+
 1. **Constraint**: what bounded this audit (scope, limitations)
-2. **Flow**: what was done (steps, actions)
-3. **Structure**: what holds it (canon notes, validators, mappings)
-4. **Enforcement**: what corrects errors (deterministic gates, re-runnable audits)
-5. **Time**: lifecycle considerations (drift, new gaps)
-6. **Adaptation**: how to handle new gaps (add pointer/anchor, never fabricate)
-7. **Termination**: completion state (GREEN/RED, known-state)
+1. **Flow**: what was done (steps, actions)
+1. **Structure**: what holds it (canon notes, validators, mappings)
+1. **Enforcement**: what corrects errors (deterministic gates, re-runnable audits)
+1. **Time**: lifecycle considerations (drift, new gaps)
+1. **Adaptation**: how to handle new gaps (add pointer/anchor, never fabricate)
+1. **Termination**: completion state (GREEN/RED, known-state)
 
 **Integrity audit protocol**:
+
 1. **Baseline**: file health (0 empty, 0 broken symlinks)
-2. **Scan**: scan for broken targets, gaps, orphans
-3. **Classify**: classify issues (drift, genuine gap, known-state)
-4. **Repair**: repair drift links, create anchor notes for gaps
-5. **Validate**: run deterministic validator
-6. **Report**: report with honest status (don't claim zero broken if data-dump orphans exist)
+1. **Scan**: scan for broken targets, gaps, orphans
+1. **Classify**: classify issues (drift, genuine gap, known-state)
+1. **Repair**: repair drift links, create anchor notes for gaps
+1. **Validate**: run deterministic validator
+1. **Report**: report with honest status (don't claim zero broken if data-dump orphans exist)
 
 **Integrity law**: `AUDIT_PASS != PERFECT`. An audit pass means declared checks pass; it does not prove perfection. Known-state issues are documented, not hidden.
 
@@ -139,7 +141,8 @@ Measurement integrity auditing is an operational governance construct. It does n
 - **Insufficient evidence**: If source material is insufficient, mark as UNKNOWN/GAP and fail closed — do not fabricate.
 - **Scope violation**: If the q
 
----
+______________________________________________________________________
+
 **Links:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 ## Related
@@ -149,17 +152,19 @@ Measurement integrity auditing is an operational governance construct. It does n
 ## Examples
 
 - **Scenario**: When auditing claims against evidence and provenance
+
   - **Input**: A query matching this skill's domain (audit)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When detecting gaps in capabilities, evidence, tests, or monitors
+
   - **Input**: A query matching this skill's domain (audit)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When allocating repair resources to highest-leverage gaps
+
   - **Input**: A query matching this skill's domain (audit)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Validation Gates
 
@@ -176,7 +181,6 @@ Measurement integrity auditing is an operational governance construct. It does n
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `amos-audit-repair-master` — routes to this skill when audit specialization is needed
@@ -184,7 +188,6 @@ Measurement integrity auditing is an operational governance construct. It does n
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -203,7 +206,6 @@ Measurement integrity auditing is an operational governance construct. It does n
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -211,7 +213,6 @@ Measurement integrity auditing is an operational governance construct. It does n
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -224,11 +225,12 @@ Measurement integrity auditing is an operational governance construct. It does n
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `amos-audit-repair-master` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `amos-measurement-integrity-auditor-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -236,12 +238,14 @@ Measurement integrity auditing is an operational governance construct. It does n
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-measurement-integrity-auditor
 node_type: skill
 path: 07_SKILLS/amos-measurement-integrity-auditor/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

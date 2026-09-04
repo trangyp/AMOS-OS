@@ -1,40 +1,51 @@
 ---
-title: Templates MOC
-type: moc
+title: Templates Moc — Plane Governance Specification
+type: specification
 source: Templates
-moc: true
-tags:
-  - templates
-  - canon/template
-  - trang-framework-recursive-ontology-dynamics
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
+status: ACTIVE_SPECIFICATION
+epistemic_class: AMOS_MODEL
+conclusion_class: DERIVED
 rscf:
   state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  claim_class: AMOS_MODEL
+  provenance:
+    - 00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE
+    - 00_ROOT/00_ROOT_MOC
+  scope: plane_governance
+tags:
+  - amos-os
+  - templates
+  - specification
+  - templates-moc
 ---
 
-# Templates MOC
+# Templates Moc — Plane Governance Specification
 
-## Overview
-
-This moc file is part of the **Templates** segment of the AMOS OS vault.
-
-## Context
-
-- **Location**: `Templates/Templates_MOC.md`
-- **Type**: moc
-- **Parent directory**: Templates
-
-## RSCF Classification
-
-This file is classified under the AMOS RSCF epistemic framework. See frontmatter for state, claim class, provenance, and scope.
-
-## Related
-
-- [[AMOS_HOME|AMOS_HOME]]
-- [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+> **Origin Architect / Steward:** Trang Phan
+> **AMOS_CORE Target:** `v4.4`
+> **Conclusion Class:** `AMOS_MODEL`
+> **Status:** `ACTIVE_SPECIFICATION`
 
 ---
 
-**MOC:** [[Templates/Templates_MOC|Templates_MOC]]
+## 1. Architectural Scope
+
+`Templates_MOC` defines the typed contracts, invariants, and operational procedures for `Templates` within the AMOS Full OS MECE architecture.
+
+---
+
+## 2. Governing Invariants
+
+- **Axiom Adherence:** Strictly bound by M01–M20 core laws.
+- **Fail-Closed Execution:** Rejects unverified or malformed inputs into the rollback basin.
+- **Immutable Receipts:** Emits auditable trace logs to `17_OBSERVABILITY`.
+
+---
+
+## 3. Navigation & Bindings
+
+- **Master MOC:** [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]
+- **Partition Architecture:** [[00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE|FULL_BRAIN_OS_MECE_ARCHITECTURE]]

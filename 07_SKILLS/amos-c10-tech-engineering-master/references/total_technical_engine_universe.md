@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: total technical engine universe
 type: reference
 source: 07_SKILLS/amos-c10-tech-engineering-master/references
 tags:
-- reference
-- amos-c10-tech-engineering-master
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-c10-tech-engineering-master
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -20,9 +23,9 @@ rscf:
 > Source: `_00_Cosmo brain/engine/A/AMOS Total Technical Engine — Universe OS Master Architecture.md`
 > Epistemic class: SOURCE_DERIVED
 
----
-tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-total-technical-engine, engine]
----
+______________________________________________________________________
+
+## tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-total-technical-engine, engine]
 
 ```
 FILE: Universe_Total_Canon.utc
@@ -32,9 +35,9 @@ AUTHOR: Trang
 ARCHITECTURE: AMOS_CORE / AMOS_UNIVERSE_OS
 DESCRIPTION: Unified Universe OS specification – logic, structure, runtime, multimodal, expression, and canon integration.
 
-# =========================================================
-# 0. CANON METADATA
-# =========================================================
+## =========================================================
+## 0. CANON METADATA
+## =========================================================
 
 [CANON.META]
 id                = UTC-000
@@ -48,7 +51,7 @@ drift_tolerance   = 0.0           # allowed logical drift
 description       = "Single-file universe OS spec: micro→macro, human→animal→AI→planet, logic-first, multimodal-capable."
 
 [CANON.COMPONENTS]
-# 10 canonical parts (MECE)
+## 10 canonical parts (MECE)
 parts = [
   "P1_META",
   "P2_INFORMATION",
@@ -62,9 +65,9 @@ parts = [
   "P10_CANON_INTEGRATION"
 ]
 
-# =========================================================
-# 1. CORE LOGIC KERNEL (ULK INLINE)
-# =========================================================
+## =========================================================
+## 1. CORE LOGIC KERNEL (ULK INLINE)
+## =========================================================
 
 [ULK.CONFIG]
 id          = "ULK-CORE"
@@ -72,7 +75,7 @@ description = "Universe Logic Kernel – minimal laws and primitives from which 
 version     = "1.0.0"
 
 [ULK.PRIMITIVES]
-# U-Atoms: smallest units of the canon
+## U-Atoms: smallest units of the canon
 U_ATOMS = {
   "U-Atom(1)": "ExistenceBit",      # something vs not-something
   "U-Atom(2)": "DifferenceUnit",    # minimal distinguishable contrast
@@ -85,7 +88,7 @@ U_ATOMS = {
 }
 
 [ULK.META_LAWS]
-# Core meta-laws; all other laws are descendants
+## Core meta-laws; all other laws are descendants
 L0_LawOfLaw              = "All laws must be internally non-contradictory and stable through time."
 L2_BinaryLaw             = "Every meaningful structure has at least one dual contrast (Rule of 2)."
 L4_QuadrantLaw           = "Any complete system decomposes into 4 interacting quadrants (Rule of 4)."
@@ -95,7 +98,7 @@ LΩ_LoadCapacityLaw       = "Collapse occurs when load > capacity and feedback c
 Lφ_FeedbackIntegrityLaw  = "Survival requires accurate, timely feedback loops."
 
 [ULK.OPERATORS]
-# Generic logic operators – used across all layers
+## Generic logic operators – used across all layers
 OP_EQUALS        = "A == B"                # identity / exact equivalence
 OP_DIFF          = "A != B"                # difference
 OP_CAUSE         = "A -> B"                # directional cause/effect
@@ -123,10 +126,9 @@ OP_LOGIC_STRENGTH= "L(A) = I(A) * S(A)"    # 0
 -
 ```
 
----
+______________________________________________________________________
 
-**Related:** [[07_SKILLS/amos-c10-tech-engineering-master/amos-c10-tech-engineering-master_MOC|amos-c10-tech-engineering-master_MOC]]
----
+## **Related:** [[07_SKILLS/amos-c10-tech-engineering-master/amos-c10-tech-engineering-master_MOC|amos-c10-tech-engineering-master_MOC]]
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -134,12 +136,14 @@ OP_LOGIC_STRENGTH= "L(A) = I(A) * S(A)"    # 0
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-c10-tech-engineering-master-total-technical-engine-universe
 node_type: reference
 path: 07_SKILLS/amos-c10-tech-engineering-master/references/total_technical_engine_universe.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

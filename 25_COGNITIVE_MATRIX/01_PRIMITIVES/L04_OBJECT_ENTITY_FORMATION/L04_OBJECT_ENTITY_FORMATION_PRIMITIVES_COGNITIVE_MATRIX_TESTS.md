@@ -10,11 +10,11 @@ primitive: L04_OBJECT_ENTITY_FORMATION
 artifact: TESTS.md
 runtime_alignment: AMOS Full Brain OS / AMOS_CORE v4.4 lineage
 tags:
-- cognitive-matrix
-- primitives
-- matrix/l04-object-entity-formation
-- note
-- domain/cognitive-matrix
+  - cognitive-matrix
+  - primitives
+  - matrix/l04-object-entity-formation
+  - note
+  - domain/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -64,9 +64,9 @@ EXECUTION != GENERAL VALIDATION
 PASS != UNIVERSAL VALIDITY
 ```
 
----
+______________________________________________________________________
 
-# 1. Source / Canon References
+## 1. Source / Canon References
 
 ## 1.1 Source-aligned governing principles
 
@@ -128,9 +128,9 @@ canonical_L04_validator_implementation:
 
 Therefore the concrete suite below is an `AMOS_MODEL` test specification.
 
----
+______________________________________________________________________
 
-# 2. Definition and Scope
+## 2. Definition and Scope
 
 `L04Test` is a bounded validation operation over an L04 input, state, transition, operator, invariant, provenance structure, or control-plane proposal.
 
@@ -174,9 +174,9 @@ distributed-consensus proof
 formal verification of unspecified implementation
 ```
 
----
+______________________________________________________________________
 
-# 3. Typed Inputs / Outputs
+## 3. Typed Inputs / Outputs
 
 ```yaml
 L04TestInput:
@@ -264,9 +264,9 @@ L04TestResult:
     type: ConfidenceBound
 ```
 
----
+______________________________________________________________________
 
-# 4. Test State Variables
+## 4. Test State Variables
 
 ```text
 T          test definition
@@ -288,15 +288,15 @@ Evidence   raw execution evidence
 
 Candidate evaluation relation:
 
-[
-Result(T)=V(X_{obs},X_{exp},Inv,Scope,Regime,Prov,Auth)
-]
+\[
+Result(T)=V(X\_{obs},X\_{exp},Inv,Scope,Regime,Prov,Auth)
+\]
 
 This is an AMOS validation abstraction, not an empirical cognitive equation.
 
----
+______________________________________________________________________
 
-# 5. Operators Under Test
+## 5. Operators Under Test
 
 The suite SHOULD cover at minimum:
 
@@ -359,9 +359,9 @@ ROLLBACK_PROPOSAL
 
 Operator addressability does not prove implementation.
 
----
+______________________________________________________________________
 
-# 6. Governing Test Invariants
+## 6. Governing Test Invariants
 
 ```text
 TEST-I01
@@ -433,9 +433,9 @@ VALIDATOR FAILURE MUST BLOCK THE GOVERNED
 TRANSITION IT PROTECTS.
 ```
 
----
+______________________________________________________________________
 
-# 7. H/M/L Applicability
+## 7. H/M/L Applicability
 
 ## H — Entity-level validation
 
@@ -509,9 +509,9 @@ does not automatically imply
 H PASS
 ```
 
----
+______________________________________________________________________
 
-# 8. Core Functional Test Suite
+## 8. Core Functional Test Suite
 
 ## T01 — Unsupported Object Formation
 
@@ -537,7 +537,7 @@ UNKNOWN/GAP
 object created from label alone
 ```
 
----
+______________________________________________________________________
 
 ## T02 — Unsupported Entity Formation
 
@@ -561,7 +561,7 @@ Validates:
 LABEL != REFERENT
 ```
 
----
+______________________________________________________________________
 
 ## T03 — Percept Provenance Admission
 
@@ -585,7 +585,7 @@ Not:
 silent admission
 ```
 
----
+______________________________________________________________________
 
 ## T04 — Distinction Preservation
 
@@ -609,7 +609,7 @@ relation may be created
 identities not silently collapsed
 ```
 
----
+______________________________________________________________________
 
 ## T05 — Boundary Formation
 
@@ -631,7 +631,7 @@ If evidence cannot discriminate:
 COMPETING
 ```
 
----
+______________________________________________________________________
 
 ## T06 — Premature Binding
 
@@ -662,7 +662,7 @@ Not:
 automatic object unity
 ```
 
----
+______________________________________________________________________
 
 ## T07 — Object Split
 
@@ -682,7 +682,7 @@ O1 lineage preserved
 O2 and O3 reference O1 ancestry
 ```
 
----
+______________________________________________________________________
 
 ## T08 — Object Merge
 
@@ -707,9 +707,9 @@ Forbidden:
 destructive history erasure
 ```
 
----
+______________________________________________________________________
 
-# 9. Continuity / Identity Tests
+## 9. Continuity / Identity Tests
 
 ## T09 — Continuity Does Not Imply Identity
 
@@ -733,7 +733,7 @@ Validates:
 CONTINUITY != IDENTITY
 ```
 
----
+______________________________________________________________________
 
 ## T10 — Similarity Does Not Imply Identity
 
@@ -750,7 +750,7 @@ Expected:
 SAME_ENTITY not automatically accepted
 ```
 
----
+______________________________________________________________________
 
 ## T11 — False Identity Merge
 
@@ -775,7 +775,7 @@ REJECT
 or COMPETING
 ```
 
----
+______________________________________________________________________
 
 ## T12 — Duplicate Entity Reconciliation
 
@@ -799,7 +799,7 @@ Not:
 destructive deduplication
 ```
 
----
+______________________________________________________________________
 
 ## T13 — Identity Split
 
@@ -818,9 +818,9 @@ invalidate only dependent claims
 preserve prior lineage
 ```
 
----
+______________________________________________________________________
 
-# 10. Provenance Tests
+## 10. Provenance Tests
 
 ## T14 — Provenance Retention
 
@@ -842,7 +842,7 @@ entity can trace dependency ancestry
 to admitted evidence
 ```
 
----
+______________________________________________________________________
 
 ## T15 — Correlated Evidence
 
@@ -862,7 +862,7 @@ Expected:
 independence count != 3
 ```
 
----
+______________________________________________________________________
 
 ## T16 — Provenance Loss
 
@@ -879,9 +879,9 @@ QUARANTINE
 or INVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 11. Confidence Tests
+## 11. Confidence Tests
 
 ## T17 — Weakest-Premise Ceiling
 
@@ -907,7 +907,7 @@ Expected:
 REJECT / CAP <= 0.70
 ```
 
----
+______________________________________________________________________
 
 ## T18 — Correlated Confidence Inflation
 
@@ -925,9 +925,9 @@ confidence does not rise as though
 five independent sources exist
 ```
 
----
+______________________________________________________________________
 
-# 12. Scope / Regime / Freshness Tests
+## 12. Scope / Regime / Freshness Tests
 
 ## T19 — Scope Leakage
 
@@ -946,7 +946,7 @@ CONDITIONAL
 or REJECT
 ```
 
----
+______________________________________________________________________
 
 ## T20 — Regime Shift
 
@@ -963,7 +963,7 @@ Expected:
 affected conclusions become stale/conditional
 ```
 
----
+______________________________________________________________________
 
 ## T21 — Freshness Expiry
 
@@ -981,9 +981,9 @@ STALE
 → revalidation required
 ```
 
----
+______________________________________________________________________
 
-# 13. Contradiction / Competing Tests
+## 13. Contradiction / Competing Tests
 
 ## T22 — Contradiction Preservation
 
@@ -1006,7 +1006,7 @@ Forbidden:
 discard minority evidence silently
 ```
 
----
+______________________________________________________________________
 
 ## T23 — Genuine Competing Identity
 
@@ -1025,7 +1025,7 @@ Expected:
 COMPETING
 ```
 
----
+______________________________________________________________________
 
 ## T24 — Cheap Discriminating Test Selection
 
@@ -1045,9 +1045,9 @@ of materially discriminating H1/H2
 
 This remains a model-level workflow requirement until executable selection logic exists.
 
----
+______________________________________________________________________
 
-# 14. Dependency / Invalidation Tests
+## 14. Dependency / Invalidation Tests
 
 ## T25 — Selective Invalidation
 
@@ -1074,7 +1074,7 @@ O2 preserved
 E2 preserved
 ```
 
----
+______________________________________________________________________
 
 ## T26 — Shared Dependency
 
@@ -1093,7 +1093,7 @@ Expected:
 both dependent branches revalidated
 ```
 
----
+______________________________________________________________________
 
 ## T27 — Non-Dependency Preservation
 
@@ -1109,9 +1109,9 @@ After identity failure elsewhere:
 unrelated candidate remains unchanged
 ```
 
----
+______________________________________________________________________
 
-# 15. Repair / Recovery Tests
+## 15. Repair / Recovery Tests
 
 ## T28 — Local Repair
 
@@ -1130,7 +1130,7 @@ preserve unrelated state
 recompute affected subgraph
 ```
 
----
+______________________________________________________________________
 
 ## T29 — Rollback
 
@@ -1152,7 +1152,7 @@ r11 failed
 failure reason
 ```
 
----
+______________________________________________________________________
 
 ## T30 — Failed Repair
 
@@ -1175,9 +1175,9 @@ Forbidden:
 PASS because repair workflow completed
 ```
 
----
+______________________________________________________________________
 
-# 16. Authority / Control-Plane Tests
+## 16. Authority / Control-Plane Tests
 
 ## T31 — Capability Without Authority
 
@@ -1201,7 +1201,7 @@ Validates:
 CAPABILITY != AUTHORITY
 ```
 
----
+______________________________________________________________________
 
 ## T32 — Proposal / Commit Separation
 
@@ -1219,7 +1219,7 @@ authoritative state unchanged
 
 Expected.
 
----
+______________________________________________________________________
 
 ## T33 — Stale Revision
 
@@ -1238,7 +1238,7 @@ re-read
 revalidate
 ```
 
----
+______________________________________________________________________
 
 ## T34 — Authority Revocation
 
@@ -1255,7 +1255,7 @@ Expected:
 commit blocked
 ```
 
----
+______________________________________________________________________
 
 ## T35 — Validator Failure
 
@@ -1278,9 +1278,9 @@ Not:
 warning + commit
 ```
 
----
+______________________________________________________________________
 
-# 17. H/M/L Cross-Scale Tests
+## 17. H/M/L Cross-Scale Tests
 
 ## T36 — L→M Overreach
 
@@ -1296,7 +1296,7 @@ Expected:
 object identity still requires M-level evidence
 ```
 
----
+______________________________________________________________________
 
 ## T37 — M→H Overreach
 
@@ -1312,7 +1312,7 @@ Expected:
 persistent entity identity not automatically established
 ```
 
----
+______________________________________________________________________
 
 ## T38 — Cross-Scale Contradiction
 
@@ -1330,9 +1330,9 @@ preserve contradiction
 re-evaluate grouping
 ```
 
----
+______________________________________________________________________
 
-# 18. Adversarial Tests
+## 18. Adversarial Tests
 
 ## T39 — Label Injection
 
@@ -1349,7 +1349,7 @@ label recorded as SOURCE_CLAIM or input text
 not converted automatically into verified entity
 ```
 
----
+______________________________________________________________________
 
 ## T40 — Repetition Attack
 
@@ -1361,7 +1361,7 @@ Expected:
 repetition != independent confirmation
 ```
 
----
+______________________________________________________________________
 
 ## T41 — Provenance Sybil Attack
 
@@ -1381,7 +1381,7 @@ provenance_independence = UNKNOWN
 confidence constrained
 ```
 
----
+______________________________________________________________________
 
 ## T42 — Contradiction Suppression Attack
 
@@ -1393,7 +1393,7 @@ Expected:
 governance/lineage violation
 ```
 
----
+______________________________________________________________________
 
 ## T43 — Scope Smuggling
 
@@ -1405,7 +1405,7 @@ Expected:
 scope validator fails
 ```
 
----
+______________________________________________________________________
 
 ## T44 — Commit Smuggling
 
@@ -1423,9 +1423,9 @@ Expected:
 authoritative commit state remains unchanged
 ```
 
----
+______________________________________________________________________
 
-# 19. Property-Based Validators
+## 19. Property-Based Validators
 
 Where executable implementation becomes available, generate bounded variations testing properties such as:
 
@@ -1474,9 +1474,9 @@ derived claim scope
 must not silently exceed supporting scope
 ```
 
----
+______________________________________________________________________
 
-# 20. Validator Registry
+## 20. Validator Registry
 
 ```yaml
 validators:
@@ -1547,9 +1547,9 @@ validators:
 
 All identifiers are candidate `MODEL` names unless recovered from authoritative canon.
 
----
+______________________________________________________________________
 
-# 21. Test Workflow
+## 21. Test Workflow
 
 ```text
 SELECT TARGET
@@ -1585,9 +1585,9 @@ GENERATE REPAIR REQUEST IF NEEDED
 PERSIST RESULT ONLY WITH AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 22. Test Protocols
+## 22. Test Protocols
 
 Candidate protocols:
 
@@ -1608,9 +1608,9 @@ L04_TEST_FINALIZE
 
 Protocol naming is not claimed canonical.
 
----
+______________________________________________________________________
 
-# 23. Agents
+## 23. Agents
 
 Candidate logical roles:
 
@@ -1634,9 +1634,9 @@ producer
 
 Logical role separation does not prove physically independent agents.
 
----
+______________________________________________________________________
 
-# 24. Skills
+## 24. Skills
 
 Candidate supporting capabilities:
 
@@ -1660,9 +1660,9 @@ Hard boundary:
 AVAILABLE SKILL != EXECUTED TEST
 ```
 
----
+______________________________________________________________________
 
-# 25. Evidence / Provenance Contract
+## 25. Evidence / Provenance Contract
 
 Every executed result SHOULD capture:
 
@@ -1724,9 +1724,9 @@ Without execution evidence:
 TEST STATUS = NOT_RUN
 ```
 
----
+______________________________________________________________________
 
-# 26. Uncertainty and Confidence Ceiling
+## 26. Uncertainty and Confidence Ceiling
 
 Test uncertainty vector:
 
@@ -1759,18 +1759,18 @@ provenance integrity
 
 Thus:
 
-[
-C_{test}
-\le
-\min(
-C_{spec},
-C_{oracle},
-C_{fixture},
-C_{execution},
-C_{version},
-C_{provenance}
+\[
+C\_{test}
+\\le
+\\min(
+C\_{spec},
+C\_{oracle},
+C\_{fixture},
+C\_{execution},
+C\_{version},
+C\_{provenance}
 )
-]
+\]
 
 `AMOS_MODEL`.
 
@@ -1783,9 +1783,9 @@ implementation-validation confidence = 0
 until execution evidence exists
 ```
 
----
+______________________________________________________________________
 
-# 27. Failure Modes
+## 27. Failure Modes
 
 ```yaml
 failure_modes:
@@ -1845,9 +1845,9 @@ failure_modes:
     severity: MEDIUM_HIGH
 ```
 
----
+______________________________________________________________________
 
-# 28. Repair / Recovery
+## 28. Repair / Recovery
 
 When a test fails:
 
@@ -1883,9 +1883,9 @@ A repaired test harness does not imply repaired L04 behavior.
 
 A repaired L04 behavior does not imply regression safety until relevant tests run.
 
----
+______________________________________________________________________
 
-# 29. Falsifiers
+## 29. Falsifiers
 
 This test contract should be revised if authoritative canon establishes:
 
@@ -1916,9 +1916,9 @@ tests assuming mandatory stage ordering must be rewritten
 as invariant/property tests rather than sequence tests.
 ```
 
----
+______________________________________________________________________
 
-# 30. Acceptance Matrix
+## 30. Acceptance Matrix
 
 ```yaml
 acceptance:
@@ -1992,9 +1992,9 @@ EMPIRICAL VALIDATION:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 31. RSCF Capsule
+## 31. RSCF Capsule
 
 ```yaml
 rscf:
@@ -2065,9 +2065,9 @@ rscf:
     canonical_test_suite: UNKNOWN_GAP
 ```
 
----
+______________________________________________________________________
 
-# 32. Gap Matrix
+## 32. Gap Matrix
 
 ```yaml
 gap_status:
@@ -2154,9 +2154,9 @@ test numbering
 serialization layout
 ```
 
----
+______________________________________________________________________
 
-# 33. Completion State
+## 33. Completion State
 
 ```yaml
 completion_state:
@@ -2234,9 +2234,9 @@ completion_state:
     MODEL
 ```
 
----
+______________________________________________________________________
 
-# 34. Hard Boundaries
+## 34. Hard Boundaries
 
 ```text
 PLACEHOLDER != IMPLEMENTED
@@ -2284,15 +2284,15 @@ REGRESSION SUITE EXISTS != REGRESSION SUITE PASSED
 VALIDATOR ADDRESSABLE != VALIDATOR EXECUTED
 ```
 
----
+______________________________________________________________________
 
-# 35. Governing Test Contract
+## 35. Governing Test Contract
 
 > **`L04_OBJECT_ENTITY_FORMATION` SHALL NOT be promoted from placeholder/model status on the basis of a written test suite alone. Validation SHALL require observable execution against an identified target implementation or other explicitly declared validation substrate, with fixtures, expected behavior, provenance, target version, scope, regime, environment, raw observations, and resulting status preserved. Tests SHALL challenge unsupported object and entity formation, distinction and boundary collapse, premature binding, continuity-to-identity overreach, false identity merging, provenance loss, correlated-evidence inflation, stale or cross-regime reuse, contradiction suppression, confidence-ceiling violation, invalid dependency propagation, unauthorized mutation, and proposal/commit collapse. Negative cases SHALL fail closed. Genuine competing hypotheses SHALL remain `COMPETING`; inconclusive tests SHALL remain `INCONCLUSIVE`; unexecuted tests SHALL remain `NOT_RUN`; and unresolved critical gaps SHALL remain `UNKNOWN/GAP`. Repair SHALL preserve failure provenance and SHALL be followed by targeted regression validation. No PASS may claim more than the exact implementation version, fixtures, environment, scope, regime, and properties actually exercised.**
 
----
+______________________________________________________________________
 
-# 36. Final Classification
+## 36. Final Classification
 
 ```text
 CONCLUSION CLASS:
@@ -2322,23 +2322,27 @@ BLOCKED
 
 ```
 ```
----
+
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: l04_object_entity_formation_primitives_cognitive_matrix_tests
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L04_OBJECT_ENTITY_FORMATION/L04_OBJECT_ENTITY_FORMATION_PRIMITIVES_COGNITIVE_MATRIX_TESTS.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L04_OBJECT_ENTITY_FORMATION/L04_OBJECT_ENTITY_FORMATION_MOC|L04_OBJECT_ENTITY_FORMATION_MOC]]
-

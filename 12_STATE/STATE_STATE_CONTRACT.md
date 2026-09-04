@@ -1,12 +1,12 @@
 ---
 title: STATE STATE CONTRACT
 aliases:
-- State State Contract
-- State Contract
-- AMOS State Contract
-- State Plane Contract
-- 12 STATE Contract
-- Authoritative State Contract
+  - State State Contract
+  - State Contract
+  - AMOS State Contract
+  - State Plane Contract
+  - 12 STATE Contract
+  - Authoritative State Contract
 type: state
 artifact_type: contract
 contract_type: state_plane_contract
@@ -15,176 +15,176 @@ plane: 12_STATE
 source: 12_STATE
 path: 12_STATE/STATE_STATE_CONTRACT.md
 tags:
-- amos
-- amos-os
-- amos/state
-- amos/state-plane
-- amos/contract
-- amos/governance
-- amos/runtime
-- amos/architecture
-- state
-- state-plane
-- state-management
-- state-governance
-- authoritative-state
-- authoritative-record
-- authoritative-state-record
-- state-record
-- state-records
-- state-artifact
-- state-artifacts
-- state-version
-- state-versioning
-- versioned-state
-- state-identity
-- state-transition
-- state-mutation
-- mutation
-- mutation-control
-- commit
-- proposal
-- proposal-commit
-- proposal-not-commit
-- transaction
-- transaction-semantics
-- atomicity
-- consistency
-- concurrency
-- conflict
-- stale-write
-- mvcc
-- cas
-- compare-and-swap
-- snapshot
-- snapshot-consistency
-- epoch
-- causal-epoch
-- policy-epoch
-- provenance-epoch
-- epoch-validity
-- local-finality
-- causal-finality
-- shard-local-finality
-- coordination
-- coordination-avoidance
-- proof-based-coordination
-- dependency
-- dependency-closure
-- dependency-graph
-- selective-invalidation
-- descendant-invalidation
-- causal-lineage
-- provenance
-- provenance-lineage
-- provenance-topology
-- provenance-independence
-- provenance-stamp
-- provenance-persistence
-- authority
-- authorization
-- authority-ref
-- capability
-- capability-authority-firewall
-- governance
-- governance-gate
-- control-plane
-- kernel
-- observability
-- operations
-- recovery
-- rollback
-- rollback-basin
-- repair
-- retry
-- receipt
-- effect-receipt
-- validation-receipt
-- execution-receipt
-- validation
-- verification
-- precondition
-- postcondition
-- invariant
-- invariant-preservation
-- fail-closed
-- unknown
-- gap
-- unknown-gap
-- epistemic
-- epistemic-regime
-- epistemic-class
-- source-claim
-- observation
-- derived
-- model
-- confidence
-- confidence-ceiling
-- weakest-premise
-- scope
-- scope-binding
-- scope-firewall
-- regime
-- regime-binding
-- regime-firewall
-- freshness
-- temporal-validity
-- hml
-- h-m-l
-- rscf
-- rscf-node
-- atomic-rscf
-- multi-rscf
-- typed-artifact
-- typed-state
-- schema
-- state-schema
-- contract-discipline
-- negative-case
-- malformed-state
-- missing-state
-- stale-state
-- unauthorized-state
-- contradiction
-- competing-hypotheses
-- competing
-- falsifier
-- sensitivity
-- reversibility
-- reversible-action
-- irreversible-action
-- consequence
-- consequence-radius
-- audit
-- auditability
-- traceability
-- deterministic-logic
-- governed-evolution
-- integrity
-- integrity-first
-- canon
-- canon/state
-- canon/governance
-- runtime/state
-- knowledge/state
-- persistence
-- promotion-gate
-- partial-implementation
-- amos-model
-- obsidian
-- moc/state
-- routing-policy-validation-receipt
-- authz-engine-validation-receipt
-- law-hierarchy
-- readme
-- state-finality
-- proposal-commit-separation
-- capability-authority-separation
-- observed-current-separation
-- test-truth-separation
-- epoch-separation
-- consequential-effect-receipts
-- competing-hypothesis-preservation
+  - amos
+  - amos-os
+  - amos/state
+  - amos/state-plane
+  - amos/contract
+  - amos/governance
+  - amos/runtime
+  - amos/architecture
+  - state
+  - state-plane
+  - state-management
+  - state-governance
+  - authoritative-state
+  - authoritative-record
+  - authoritative-state-record
+  - state-record
+  - state-records
+  - state-artifact
+  - state-artifacts
+  - state-version
+  - state-versioning
+  - versioned-state
+  - state-identity
+  - state-transition
+  - state-mutation
+  - mutation
+  - mutation-control
+  - commit
+  - proposal
+  - proposal-commit
+  - proposal-not-commit
+  - transaction
+  - transaction-semantics
+  - atomicity
+  - consistency
+  - concurrency
+  - conflict
+  - stale-write
+  - mvcc
+  - cas
+  - compare-and-swap
+  - snapshot
+  - snapshot-consistency
+  - epoch
+  - causal-epoch
+  - policy-epoch
+  - provenance-epoch
+  - epoch-validity
+  - local-finality
+  - causal-finality
+  - shard-local-finality
+  - coordination
+  - coordination-avoidance
+  - proof-based-coordination
+  - dependency
+  - dependency-closure
+  - dependency-graph
+  - selective-invalidation
+  - descendant-invalidation
+  - causal-lineage
+  - provenance
+  - provenance-lineage
+  - provenance-topology
+  - provenance-independence
+  - provenance-stamp
+  - provenance-persistence
+  - authority
+  - authorization
+  - authority-ref
+  - capability
+  - capability-authority-firewall
+  - governance
+  - governance-gate
+  - control-plane
+  - kernel
+  - observability
+  - operations
+  - recovery
+  - rollback
+  - rollback-basin
+  - repair
+  - retry
+  - receipt
+  - effect-receipt
+  - validation-receipt
+  - execution-receipt
+  - validation
+  - verification
+  - precondition
+  - postcondition
+  - invariant
+  - invariant-preservation
+  - fail-closed
+  - unknown
+  - gap
+  - unknown-gap
+  - epistemic
+  - epistemic-regime
+  - epistemic-class
+  - source-claim
+  - observation
+  - derived
+  - model
+  - confidence
+  - confidence-ceiling
+  - weakest-premise
+  - scope
+  - scope-binding
+  - scope-firewall
+  - regime
+  - regime-binding
+  - regime-firewall
+  - freshness
+  - temporal-validity
+  - hml
+  - h-m-l
+  - rscf
+  - rscf-node
+  - atomic-rscf
+  - multi-rscf
+  - typed-artifact
+  - typed-state
+  - schema
+  - state-schema
+  - contract-discipline
+  - negative-case
+  - malformed-state
+  - missing-state
+  - stale-state
+  - unauthorized-state
+  - contradiction
+  - competing-hypotheses
+  - competing
+  - falsifier
+  - sensitivity
+  - reversibility
+  - reversible-action
+  - irreversible-action
+  - consequence
+  - consequence-radius
+  - audit
+  - auditability
+  - traceability
+  - deterministic-logic
+  - governed-evolution
+  - integrity
+  - integrity-first
+  - canon
+  - canon/state
+  - canon/governance
+  - runtime/state
+  - knowledge/state
+  - persistence
+  - promotion-gate
+  - partial-implementation
+  - amos-model
+  - obsidian
+  - moc/state
+  - routing-policy-validation-receipt
+  - authz-engine-validation-receipt
+  - law-hierarchy
+  - readme
+  - state-finality
+  - proposal-commit-separation
+  - capability-authority-separation
+  - observed-current-separation
+  - test-truth-separation
+  - epoch-separation
+  - consequential-effect-receipts
+  - competing-hypothesis-preservation
 system: AMOS_OS
 origin_architect: Trang_Phan
 steward: Trang_Phan
@@ -204,21 +204,21 @@ rscf:
   claim_class: DERIVED
   node_claim_class: AMOS_MODEL
   provenance:
-  - AMOS_corpus
-  - 12_STATE/STATE_STATE_CONTRACT.md
+    - AMOS_corpus
+    - 12_STATE/STATE_STATE_CONTRACT.md
   scope:
-  - AMOS_general
-  - AMOS_state
-  - STATE_CONTRACT
-  - 12_STATE
+    - AMOS_general
+    - AMOS_state
+    - STATE_CONTRACT
+    - 12_STATE
   regime: AMOS_MODEL
   confidence_ceiling: 0.95
   implementation: PARTIAL
   canonical_status: CONDITIONAL
   falsifiers:
-  - F1_CANONICAL_SEMANTIC_CONTRADICTION
-  - F2_EXECUTED_INVARIANT_FAILURE
-  - F3_PROTECTED_FIREWALL_COLLAPSE
+    - F1_CANONICAL_SEMANTIC_CONTRADICTION
+    - F2_EXECUTED_INVARIANT_FAILURE
+    - F3_PROTECTED_FIREWALL_COLLAPSE
 gaps:
   runtime_enforcement: OPEN
   persistence_binding: OPEN
@@ -229,7 +229,7 @@ gaps:
 
 # STATE STATE CONTRACT
 
-> [!abstract] Contract
+> [!ABSTRACT] Contract
 > `STATE STATE CONTRACT` defines the State-plane contract governing authoritative state records and state-versioned artifacts as they bear on `STATE CONTRACT`.
 >
 > **Epistemic status:** `AMOS_MODEL`
@@ -238,9 +238,9 @@ gaps:
 >
 > This contract must not be represented as fully executed or empirically validated until its open runtime, persistence, and artifact-specific validation gaps are closed.
 
----
+______________________________________________________________________
 
-# 0. Status
+## 0. Status
 
 ```yaml
 contract:
@@ -253,7 +253,7 @@ contract:
   runtime_enforcement: UNKNOWN/GAP
   persistence_binding: UNKNOWN/GAP
   empirical_validation: UNKNOWN/GAP
-````
+```
 
 This artifact is the State-plane contract for:
 
@@ -282,9 +282,9 @@ EMPIRICALLY VALIDATED
 
 without artifact-specific evidence.
 
----
+______________________________________________________________________
 
-# 1. Purpose
+## 1. Purpose
 
 The purpose of this contract is to define integrity conditions for authoritative State-plane operations.
 
@@ -321,9 +321,9 @@ WITH WHICH DEPENDENCIES
 AND WITH WHICH RECOVERABLE LINEAGE
 ```
 
----
+______________________________________________________________________
 
-# 2. Scope
+## 2. Scope
 
 This contract governs:
 
@@ -349,9 +349,9 @@ $$
 
 for load-bearing premises, subject to the contract ceiling.
 
----
+______________________________________________________________________
 
-# 3. Scope Boundary
+## 3. Scope Boundary
 
 This contract does not automatically govern every object called "state" across every AMOS subsystem.
 
@@ -374,9 +374,9 @@ must hold.
 
 No silent scope expansion is permitted.
 
----
+______________________________________________________________________
 
-# 4. Contract Authority
+## 4. Contract Authority
 
 This artifact is load-bearing within its declared State-plane scope, subject to higher-order canon.
 
@@ -394,9 +394,9 @@ STATE INSTANCE
 
 A lower layer must not silently contradict a higher governing layer.
 
----
+______________________________________________________________________
 
-# 5. Canonical Boundary
+## 5. Canonical Boundary
 
 The contract's status is:
 
@@ -424,23 +424,23 @@ EMPIRICALLY PROVEN
 
 A later authoritative canonical source may supersede or narrow this contract.
 
----
+______________________________________________________________________
 
-# 6. Core Contract Terms
+## 6. Core Contract Terms
 
 The source nucleus establishes five primary contract terms:
 
 1. **Typed artifacts**
-2. **Firewalls preserved**
-3. **Epochs distinct**
-4. **Local finality requires proof**
-5. **Selective invalidation**
+1. **Firewalls preserved**
+1. **Epochs distinct**
+1. **Local finality requires proof**
+1. **Selective invalidation**
 
 These are load-bearing.
 
----
+______________________________________________________________________
 
-# 7. Typed Artifacts
+## 7. Typed Artifacts
 
 Every governed artifact declares:
 
@@ -465,9 +465,9 @@ artifact:
 
 An untyped consequential artifact is incomplete for governed State-plane use.
 
----
+______________________________________________________________________
 
-# 8. Artifact Type
+## 8. Artifact Type
 
 `artifact_type` identifies what kind of object is being governed.
 
@@ -483,9 +483,9 @@ STATE_CONTRACT
 
 These examples are normalized categories, not asserted source-native enums.
 
----
+______________________________________________________________________
 
-# 9. Epistemic Class
+## 9. Epistemic Class
 
 Knowledge attached to state must retain its epistemic type.
 
@@ -500,9 +500,9 @@ MODEL
 
 State persistence does not itself alter epistemic class.
 
----
+______________________________________________________________________
 
-# 10. Persistence ≠ Epistemic Promotion
+## 10. Persistence ≠ Epistemic Promotion
 
 Core firewall:
 
@@ -521,9 +521,9 @@ SOURCE_CLAIM
 
 remains a source claim unless a distinct evidentiary process creates a differently typed knowledge object.
 
----
+______________________________________________________________________
 
-# 11. Scope Declaration
+## 11. Scope Declaration
 
 Every consequential state artifact must declare the scope necessary to interpret it correctly.
 
@@ -543,9 +543,9 @@ authority domain
 
 where relevant.
 
----
+______________________________________________________________________
 
-# 12. Regime Declaration
+## 12. Regime Declaration
 
 State validity may depend on regime.
 
@@ -569,9 +569,9 @@ The contract law is:
 REGIME MUST NOT BE SILENTLY CROSSED
 ```
 
----
+______________________________________________________________________
 
-# 13. Firewall Preservation
+## 13. Firewall Preservation
 
 The source explicitly protects four firewalls:
 
@@ -589,9 +589,9 @@ These are not stylistic distinctions.
 
 They prevent distinct semantic states from being collapsed.
 
----
+______________________________________________________________________
 
-# 14. Firewall I — Capability ≠ Authority
+## 14. Firewall I — Capability ≠ Authority
 
 ```text
 CAPABILITY
@@ -613,9 +613,9 @@ does not imply:
 MAY EXECUTE
 ```
 
----
+______________________________________________________________________
 
-# 15. Capability Definition
+## 15. Capability Definition
 
 Capability answers:
 
@@ -636,9 +636,9 @@ Capability may arise from:
 
 None independently establishes authorization.
 
----
+______________________________________________________________________
 
-# 16. Authority Definition
+## 16. Authority Definition
 
 Authority answers:
 
@@ -653,9 +653,9 @@ AT THIS EPOCH?
 
 Authority is therefore scoped and temporal.
 
----
+______________________________________________________________________
 
-# 17. Authority Predicate
+## 17. Authority Predicate
 
 Normalized representation:
 
@@ -673,9 +673,9 @@ where each term represents the applicable validity requirement.
 
 This is a normalized AMOS semantic expression, not a source-native executable equation.
 
----
+______________________________________________________________________
 
-# 18. Firewall II — Proposal ≠ Commit
+## 18. Firewall II — Proposal ≠ Commit
 
 ```text
 PROPOSAL
@@ -701,9 +701,9 @@ AUTHORITATIVE = S(v7)
 
 not `S'(v8)`.
 
----
+______________________________________________________________________
 
-# 19. Proposal State
+## 19. Proposal State
 
 A proposal represents:
 
@@ -715,9 +715,9 @@ It may be evaluated, rejected, revised, held, or committed.
 
 Proposal generation must never itself imply authoritative mutation.
 
----
+______________________________________________________________________
 
-# 20. Commit State
+## 20. Commit State
 
 A commit is the authoritative transition point.
 
@@ -737,9 +737,9 @@ COMMIT
 
 Only after required gates pass does the candidate become authoritative.
 
----
+______________________________________________________________________
 
-# 21. Firewall III — Observed ≠ Current
+## 21. Firewall III — Observed ≠ Current
 
 ```text
 OBSERVED
@@ -761,9 +761,9 @@ does not automatically prove state at:
 T2
 ```
 
----
+______________________________________________________________________
 
-# 22. Observation Freshness
+## 22. Observation Freshness
 
 A state observation should carry enough temporal context to determine freshness.
 
@@ -787,9 +787,9 @@ CURRENT = UNKNOWN/GAP
 
 where the observation is load-bearing.
 
----
+______________________________________________________________________
 
-# 23. Firewall IV — Test Pass ≠ Truth
+## 23. Firewall IV — Test Pass ≠ Truth
 
 ```text
 TEST_PASS
@@ -809,9 +809,9 @@ It does not establish:
 - every state version,
 - every future regime.
 
----
+______________________________________________________________________
 
-# 24. Test Scope
+## 24. Test Scope
 
 A valid test result must retain:
 
@@ -835,9 +835,9 @@ TIME
 
 where material.
 
----
+______________________________________________________________________
 
-# 25. Epoch Separation
+## 25. Epoch Separation
 
 The source explicitly establishes:
 
@@ -853,9 +853,9 @@ provenance_epoch
 
 unless an explicit mapping licenses equivalence.
 
----
+______________________________________________________________________
 
-# 26. State Version
+## 26. State Version
 
 `state_version` identifies the revision of a state artifact.
 
@@ -869,9 +869,9 @@ S(v3)
 
 It does not automatically encode causal, policy, or provenance ordering.
 
----
+______________________________________________________________________
 
-# 27. Causal Epoch
+## 27. Causal Epoch
 
 `causal_epoch` represents the causal ordering/finality context relevant to the state transition.
 
@@ -882,9 +882,9 @@ IN WHICH CAUSAL ORDERING CONTEXT
 DID THIS STATE TRANSITION OCCUR?
 ```
 
----
+______________________________________________________________________
 
-# 28. Policy Epoch
+## 28. Policy Epoch
 
 `policy_epoch` identifies the policy context under which an operation was evaluated.
 
@@ -902,17 +902,17 @@ P11
 
 if the governing policy changed.
 
----
+______________________________________________________________________
 
-# 29. Provenance Epoch
+## 29. Provenance Epoch
 
 `provenance_epoch` represents the relevant source-lineage or provenance-validation context.
 
 A new state version does not necessarily imply a new independent provenance root.
 
----
+______________________________________________________________________
 
-# 30. Explicit Epoch Mapping
+## 30. Explicit Epoch Mapping
 
 Equivalence between epochs requires explicit mapping.
 
@@ -926,9 +926,9 @@ policy_epoch = 14
 
 unless a governing mapping establishes that relationship.
 
----
+______________________________________________________________________
 
-# 31. Epoch Tuple
+## 31. Epoch Tuple
 
 Normalized state context:
 
@@ -942,9 +942,9 @@ epochs:
 
 These fields remain semantically distinct.
 
----
+______________________________________________________________________
 
-# 32. Local Finality Requires Proof
+## 32. Local Finality Requires Proof
 
 Source law:
 
@@ -952,9 +952,9 @@ Source law:
 
 This is a major State-plane integrity rule.
 
----
+______________________________________________________________________
 
-# 33. Local Finality
+## 33. Local Finality
 
 A state operation may finalize locally only when its dependency closure demonstrates that no external dependency can materially invalidate the result.
 
@@ -966,9 +966,9 @@ requires
 PROVEN LOCAL DEPENDENCY CLOSURE
 ```
 
----
+______________________________________________________________________
 
-# 34. Independence Must Be Demonstrated
+## 34. Independence Must Be Demonstrated
 
 Invalid assumption:
 
@@ -988,9 +988,9 @@ EVIDENCE OF INDEPENDENCE
 
 Absence of detected coupling is not proof of independence.
 
----
+______________________________________________________________________
 
-# 35. Coordination Avoidance
+## 35. Coordination Avoidance
 
 Coordination may be avoided only when the proof scope establishes that coordination cannot change the valid result.
 
@@ -1008,9 +1008,9 @@ $$
 
 This is normalized AMOS semantics.
 
----
+______________________________________________________________________
 
-# 36. Coordination Escalation
+## 36. Coordination Escalation
 
 Escalate when:
 
@@ -1028,9 +1028,9 @@ unknown dependency
 
 can materially change the outcome.
 
----
+______________________________________________________________________
 
-# 37. Shard-Local Finalization
+## 37. Shard-Local Finalization
 
 A shard-local state transition may be finalized without global coordination only when locality is demonstrated.
 
@@ -1042,9 +1042,9 @@ PROVEN LOCALITY
 
 This contract uses shard-local finalization as an architectural reasoning pattern; it does not claim an executed distributed shard runtime exists.
 
----
+______________________________________________________________________
 
-# 38. Selective Invalidation
+## 38. Selective Invalidation
 
 Source law:
 
@@ -1070,9 +1070,9 @@ INVALID(EntireSystem)
 
 unless the dependency graph proves global dependence.
 
----
+______________________________________________________________________
 
-# 39. Dependency Graph
+## 39. Dependency Graph
 
 Conceptually:
 
@@ -1096,9 +1096,9 @@ may require invalidation.
 
 `C3` and `S2` remain intact if independence is established.
 
----
+______________________________________________________________________
 
-# 40. Preservation of Unaffected State
+## 40. Preservation of Unaffected State
 
 Failure recovery must preserve valid unaffected work.
 
@@ -1112,9 +1112,9 @@ LOCAL INVALIDATION
 
 where dependency topology permits.
 
----
+______________________________________________________________________
 
-# 41. Global Recalculation Is Last Resort
+## 41. Global Recalculation Is Last Resort
 
 Do not perform global recomputation merely because a local premise changed.
 
@@ -1132,9 +1132,9 @@ global coupling is established
 
 or another governing rule requires it.
 
----
+______________________________________________________________________
 
-# 42. Core Invariant — Fail Closed
+## 42. Core Invariant — Fail Closed
 
 The contract explicitly requires:
 
@@ -1150,9 +1150,9 @@ It must not be silently promoted to:
 PASS
 ```
 
----
+______________________________________________________________________
 
-# 43. Unknown/GAP
+## 43. Unknown/GAP
 
 `UNKNOWN/GAP` represents insufficiently established state for the required conclusion.
 
@@ -1171,9 +1171,9 @@ STALE
 
 unless evidence establishes the corresponding state.
 
----
+______________________________________________________________________
 
-# 44. Gap Visibility
+## 44. Gap Visibility
 
 A gap should remain machine- and human-visible.
 
@@ -1189,9 +1189,9 @@ gap:
   required_evidence:
 ```
 
----
+______________________________________________________________________
 
-# 45. Confidence Invariant
+## 45. Confidence Invariant
 
 Source law:
 
@@ -1213,9 +1213,9 @@ $$
 
 for load-bearing premises.
 
----
+______________________________________________________________________
 
-# 46. Confidence Ceiling Is Not Automatic Confidence
+## 46. Confidence Ceiling Is Not Automatic Confidence
 
 The value:
 
@@ -1243,9 +1243,9 @@ Conclusion ≤ 0.74
 
 not `0.95`.
 
----
+______________________________________________________________________
 
-# 47. Independent Revalidation
+## 47. Independent Revalidation
 
 A weak premise may be independently revalidated.
 
@@ -1259,9 +1259,9 @@ REPETITION
 INDEPENDENT REVALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 48. Correlated Provenance
+## 48. Correlated Provenance
 
 Multiple claims sharing the same source ancestry must not be counted as independent confirmation.
 
@@ -1282,9 +1282,9 @@ does not automatically equal:
 
 It may equal one provenance root with three descendants.
 
----
+______________________________________________________________________
 
-# 49. Consequential Effects Require Receipts
+## 49. Consequential Effects Require Receipts
 
 Source invariant:
 
@@ -1300,9 +1300,9 @@ RECEIPT
 
 A receipt records the relevant executed effect and its validation context.
 
----
+______________________________________________________________________
 
-# 50. Receipt Minimum Semantics
+## 50. Receipt Minimum Semantics
 
 A receipt may conceptually contain:
 
@@ -1325,9 +1325,9 @@ receipt:
 
 Exact persistence schema remains open.
 
----
+______________________________________________________________________
 
-# 51. Receipt ≠ Universal Proof
+## 51. Receipt ≠ Universal Proof
 
 A receipt supports only what it validly records.
 
@@ -1349,9 +1349,9 @@ environment
 freshness
 ```
 
----
+______________________________________________________________________
 
-# 52. Rollback Basin Before Mutation
+## 52. Rollback Basin Before Mutation
 
 Source invariant:
 
@@ -1367,9 +1367,9 @@ KNOWN RECOVERY / ROLLBACK BASIN
 
 where rollback is required by the operation.
 
----
+______________________________________________________________________
 
-# 53. Rollback Basin
+## 53. Rollback Basin
 
 A rollback basin is a known safe recovery region/state.
 
@@ -1383,9 +1383,9 @@ S0
 └── failure → ROLLBACK → S_safe
 ```
 
----
+______________________________________________________________________
 
-# 54. Rollback Must Be Demonstrated
+## 54. Rollback Must Be Demonstrated
 
 ```text
 WE COULD PROBABLY ROLL BACK
@@ -1399,9 +1399,9 @@ ROLLBACK BASIN DEMONSTRATED
 
 For consequential effects, the promotion gate requires demonstration.
 
----
+______________________________________________________________________
 
-# 55. Irreversible Mutation
+## 55. Irreversible Mutation
 
 If rollback is impossible:
 
@@ -1420,9 +1420,9 @@ ValidationBurden
 Irreversibility \uparrow
 $$
 
----
+______________________________________________________________________
 
-# 56. Competing Hypotheses
+## 56. Competing Hypotheses
 
 Source invariant:
 
@@ -1442,9 +1442,9 @@ must remain:
 COMPETING
 ```
 
----
+______________________________________________________________________
 
-# 57. No Forced Convergence
+## 57. No Forced Convergence
 
 Do not resolve competing hypotheses by:
 
@@ -1458,9 +1458,9 @@ Do not resolve competing hypotheses by:
 
 Resolution requires discriminating evidence.
 
----
+______________________________________________________________________
 
-# 58. Cheapest Discriminating Test
+## 58. Cheapest Discriminating Test
 
 When possible, select the cheapest high-information test where:
 
@@ -1472,9 +1472,9 @@ $$
 
 This is preferable to accumulating redundant evidence that cannot distinguish the hypotheses.
 
----
+______________________________________________________________________
 
-# 59. Authoritative State
+## 59. Authoritative State
 
 A State-plane record becomes authoritative only through the applicable commit process.
 
@@ -1492,9 +1492,9 @@ not merely:
 LATEST GENERATED STATE
 ```
 
----
+______________________________________________________________________
 
-# 60. Authoritative State Predicate
+## 60. Authoritative State Predicate
 
 Normalized predicate:
 
@@ -1512,9 +1512,9 @@ $$
 
 subject to applicable contract terms.
 
----
+______________________________________________________________________
 
-# 61. State Identity
+## 61. State Identity
 
 Consequential state must have resolvable identity.
 
@@ -1530,9 +1530,9 @@ Version
 
 with additional namespace/scope identifiers where required.
 
----
+______________________________________________________________________
 
-# 62. Identity Failure
+## 62. Identity Failure
 
 If:
 
@@ -1552,9 +1552,9 @@ and identity is load-bearing:
 ADMISSION = HOLD
 ```
 
----
+______________________________________________________________________
 
-# 63. Versioned State
+## 63. Versioned State
 
 State must not be treated as timeless.
 
@@ -1570,9 +1570,9 @@ S(v3)
 
 Each transition should preserve sufficient lineage.
 
----
+______________________________________________________________________
 
-# 64. Historical State
+## 64. Historical State
 
 Superseded state remains historical state.
 
@@ -1584,9 +1584,9 @@ ERASED
 
 A later valid state should supersede prior state rather than destroy its causal history.
 
----
+______________________________________________________________________
 
-# 65. State Snapshot
+## 65. State Snapshot
 
 A reasoning operation may bind to:
 
@@ -1602,9 +1602,9 @@ snapshot:
 
 Exact runtime implementation remains unestablished.
 
----
+______________________________________________________________________
 
-# 66. Snapshot Drift
+## 66. Snapshot Drift
 
 If the state changes after reasoning but before commit:
 
@@ -1626,9 +1626,9 @@ REVALIDATE
 
 where the version difference can alter the outcome.
 
----
+______________________________________________________________________
 
-# 67. MVCC-Compatible Semantics
+## 67. MVCC-Compatible Semantics
 
 Conceptually:
 
@@ -1652,9 +1652,9 @@ MVCC-COMPATIBLE MODEL
 VERIFIED MVCC IMPLEMENTATION
 ```
 
----
+______________________________________________________________________
 
-# 68. CAS-Compatible Semantics
+## 68. CAS-Compatible Semantics
 
 Conceptually:
 
@@ -1683,9 +1683,9 @@ CAS-COMPATIBLE MODEL
 EXECUTED CAS BINDING
 ```
 
----
+______________________________________________________________________
 
-# 69. Atomic State Transition
+## 69. Atomic State Transition
 
 A logically atomic operation should not become partially authoritative.
 
@@ -1704,9 +1704,9 @@ NO AUTHORITATIVE MUTATION
 
 within the defined atomic boundary.
 
----
+______________________________________________________________________
 
-# 70. Atomic Multi-RSCF Reasoning
+## 70. Atomic Multi-RSCF Reasoning
 
 A state transition may depend on several RSCF nodes.
 
@@ -1732,9 +1732,9 @@ VALID(C)
 
 must hold within a compatible reasoning snapshot.
 
----
+______________________________________________________________________
 
-# 71. RSCF Join Typing
+## 71. RSCF Join Typing
 
 Joining RSCFs does not erase epistemic type.
 
@@ -1752,9 +1752,9 @@ DERIVED SYNTHESIS
 
 The synthesis does not convert the source claim or model into observations.
 
----
+______________________________________________________________________
 
-# 72. Dependency Closure
+## 72. Dependency Closure
 
 Before consequential mutation:
 
@@ -1766,9 +1766,9 @@ RESULT-CHANGING DEPENDENCIES
 
 This is the smallest sufficient proof scope.
 
----
+______________________________________________________________________
 
-# 73. Dependency Closure Predicate
+## 73. Dependency Closure Predicate
 
 Conceptually:
 
@@ -1782,9 +1782,9 @@ The operational objective is not maximum retrieval.
 
 It is sufficient dependency closure.
 
----
+______________________________________________________________________
 
-# 74. Fast-Path Eligibility
+## 74. Fast-Path Eligibility
 
 Local reasoning may use a fast path only when:
 
@@ -1802,9 +1802,9 @@ FRESHNESS SUFFICIENT
 NO RESULT-CHANGING CONFLICT
 ```
 
----
+______________________________________________________________________
 
-# 75. Fast-Path Escalation
+## 75. Fast-Path Escalation
 
 Escalate when:
 
@@ -1821,9 +1821,9 @@ ambiguous dependencies
 
 are material.
 
----
+______________________________________________________________________
 
-# 76. State Admission
+## 76. State Admission
 
 The source-defined worked semantics begin with:
 
@@ -1837,9 +1837,9 @@ Admission resolves the artifact by:
 ID + VERSION
 ```
 
----
+______________________________________________________________________
 
-# 77. Admission Failure
+## 77. Admission Failure
 
 If the artifact cannot be resolved:
 
@@ -1853,9 +1853,9 @@ For consequential State-plane operations:
 FAIL CLOSED
 ```
 
----
+______________________________________________________________________
 
-# 78. Scope Binding
+## 78. Scope Binding
 
 After admission:
 
@@ -1873,9 +1873,9 @@ H/M/L APPLICABILITY
 
 before mutation.
 
----
+______________________________________________________________________
 
-# 79. H/M/L Applicability
+## 79. H/M/L Applicability
 
 Conceptually:
 
@@ -1887,9 +1887,9 @@ L = local artifact/detail
 
 A conclusion valid at `L` must not silently become an `H`-level conclusion.
 
----
+______________________________________________________________________
 
-# 80. Cross-Scale Firewall
+## 80. Cross-Scale Firewall
 
 ```text
 LOCAL STATE VALID
@@ -1903,9 +1903,9 @@ GLOBAL STATE VALID
 
 Cross-scale promotion requires an explicit supported mapping.
 
----
+______________________________________________________________________
 
-# 81. Authority Check
+## 81. Authority Check
 
 After scope binding:
 
@@ -1921,9 +1921,9 @@ authority_ref
 
 to be epoch-valid.
 
----
+______________________________________________________________________
 
-# 82. Authority Freshness
+## 82. Authority Freshness
 
 An authority valid under:
 
@@ -1939,9 +1939,9 @@ policy_epoch P2
 
 Therefore authority freshness is load-bearing.
 
----
+______________________________________________________________________
 
-# 83. Preconditions
+## 83. Preconditions
 
 Next:
 
@@ -1955,9 +1955,9 @@ The contract requires traversal of dependency closure to:
 THE SMALLEST RESULT-CHANGING SET
 ```
 
----
+______________________________________________________________________
 
-# 84. Precondition Classes
+## 84. Precondition Classes
 
 Normalized classes may include:
 
@@ -1977,9 +1977,9 @@ rollback
 
 The exact executable schema remains open.
 
----
+______________________________________________________________________
 
-# 85. Proposal
+## 85. Proposal
 
 After preconditions:
 
@@ -1995,9 +1995,9 @@ NON-AUTHORITATIVE
 
 until all required gates pass.
 
----
+______________________________________________________________________
 
-# 86. Commit or Hold
+## 86. Commit or Hold
 
 The final source-defined worked step is:
 
@@ -2017,9 +2017,9 @@ Otherwise:
 HOLD
 ```
 
----
+______________________________________________________________________
 
-# 87. Failure Handling
+## 87. Failure Handling
 
 On failed premise:
 
@@ -2039,9 +2039,9 @@ then:
 RECORD RECEIPT
 ```
 
----
+______________________________________________________________________
 
-# 88. Complete Worked Pipeline
+## 88. Complete Worked Pipeline
 
 ```text
 REQUEST
@@ -2083,9 +2083,9 @@ RECEIPT
 
 The extended steps beyond the six source-listed headings are normalized AMOS semantics and do not establish a deployed executor.
 
----
+______________________________________________________________________
 
-# 89. Commit Predicate
+## 89. Commit Predicate
 
 Normalized representation:
 
@@ -2108,9 +2108,9 @@ where:
 - `F` = freshness sufficient,
 - `B` = rollback/governance burden satisfied.
 
----
+______________________________________________________________________
 
-# 90. Hold Predicate
+## 90. Hold Predicate
 
 Conceptually:
 
@@ -2133,9 +2133,9 @@ COMMIT = BLOCKED
 
 unless an explicit higher governing rule establishes a safe alternate path.
 
----
+______________________________________________________________________
 
-# 91. Negative Case — Missing
+## 91. Negative Case — Missing
 
 ```yaml
 artifact:
@@ -2156,9 +2156,9 @@ ADMISSION = FAIL CLOSED
 
 for consequential mutation.
 
----
+______________________________________________________________________
 
-# 92. Negative Case — Malformed
+## 92. Negative Case — Malformed
 
 ```yaml
 artifact:
@@ -2167,9 +2167,9 @@ artifact:
 
 A malformed load-bearing version must not be silently coerced into a valid state.
 
----
+______________________________________________________________________
 
-# 93. Negative Case — Stale
+## 93. Negative Case — Stale
 
 ```yaml
 proposal:
@@ -2195,9 +2195,9 @@ READ v9
 REVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 94. Negative Case — Unauthorized
+## 94. Negative Case — Unauthorized
 
 ```yaml
 capability:
@@ -2213,9 +2213,9 @@ Result:
 WRITE BLOCKED
 ```
 
----
+______________________________________________________________________
 
-# 95. Negative Case — Unknown Authority
+## 95. Negative Case — Unknown Authority
 
 ```yaml
 authority_ref:
@@ -2230,9 +2230,9 @@ FAIL CLOSED
 
 No authority is inferred from capability.
 
----
+______________________________________________________________________
 
-# 96. Negative Case — Policy Epoch Mismatch
+## 96. Negative Case — Policy Epoch Mismatch
 
 ```yaml
 proposal:
@@ -2248,9 +2248,9 @@ If the policy change can affect authorization:
 REVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 97. Negative Case — Regime Mismatch
+## 97. Negative Case — Regime Mismatch
 
 ```text
 VALIDATED IN TEST
@@ -2264,9 +2264,9 @@ VALIDATED IN PRODUCTION
 
 without an explicit bridge.
 
----
+______________________________________________________________________
 
-# 98. Negative Case — Scope Leakage
+## 98. Negative Case — Scope Leakage
 
 ```text
 VALID FOR SUBSYSTEM A
@@ -2278,9 +2278,9 @@ must not be silently applied to:
 SYSTEM-WIDE STATE
 ```
 
----
+______________________________________________________________________
 
-# 99. Negative Case — Correlated Provenance
+## 99. Negative Case — Correlated Provenance
 
 Three claims derived from one source are not three independent state confirmations.
 
@@ -2292,9 +2292,9 @@ Three claims derived from one source are not three independent state confirmatio
 4 INDEPENDENT ROOTS
 ```
 
----
+______________________________________________________________________
 
-# 100. Negative Case — Test Overreach
+## 100. Negative Case — Test Overreach
 
 ```text
 19/19 TESTS PASS
@@ -2308,9 +2308,9 @@ THIS STATE CONTRACT IS VERIFIED
 
 unless those tests specifically validate this contract and its declared invariants.
 
----
+______________________________________________________________________
 
-# 101. Executed Reference
+## 101. Executed Reference
 
 The source identifies existing OS validators:
 
@@ -2334,9 +2334,9 @@ linked at:
 
 - [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]
 
----
+______________________________________________________________________
 
-# 102. Reference Firewall
+## 102. Reference Firewall
 
 Those validators are:
 
@@ -2364,9 +2364,9 @@ does **not** license:
 STATE_STATE_CONTRACT VERIFIED
 ```
 
----
+______________________________________________________________________
 
-# 103. Subsystem-Local Executor Gap
+## 103. Subsystem-Local Executor Gap
 
 Source status:
 
@@ -2383,9 +2383,9 @@ UNKNOWN/GAP
 
 remains visible.
 
----
+______________________________________________________________________
 
-# 104. Runtime Enforcement Gap
+## 104. Runtime Enforcement Gap
 
 It is not established from this contract that every invariant is automatically enforced at runtime.
 
@@ -2397,9 +2397,9 @@ DECLARED INVARIANT
 EXECUTED ENFORCEMENT
 ```
 
----
+______________________________________________________________________
 
-# 105. Persistence Binding Gap
+## 105. Persistence Binding Gap
 
 Persistence binding remains:
 
@@ -2417,9 +2417,9 @@ The contract defines persistence-relevant semantics but does not itself prove:
 - CAS implementation,
 - durable receipt persistence.
 
----
+______________________________________________________________________
 
-# 106. Empirical Validation Gap
+## 106. Empirical Validation Gap
 
 Empirical validation remains:
 
@@ -2429,9 +2429,9 @@ OPEN
 
 No architecture-level coherence statement may silently close this gap.
 
----
+______________________________________________________________________
 
-# 107. Implementation Status
+## 107. Implementation Status
 
 The strongest implementation class is:
 
@@ -2441,9 +2441,9 @@ PARTIAL
 
 This means some surrounding AMOS mechanisms may exist while this specific contract lacks complete executed binding.
 
----
+______________________________________________________________________
 
-# 108. Promotion Requirement
+## 108. Promotion Requirement
 
 Promotion beyond:
 
@@ -2459,17 +2459,17 @@ PROMOTION-GATE CHECKLIST
 EXECUTED RECEIPT SPECIFIC TO THIS CONTRACT
 ```
 
----
+______________________________________________________________________
 
-# 109. Promotion Gate 1 — Typed Schema
+## 109. Promotion Gate 1 — Typed Schema
 
 - [ ] typed schema bound to this artifact
 
 The schema must identify the actual runtime representation governed by this contract.
 
----
+______________________________________________________________________
 
-# 110. Promotion Gate 2 — Identity + Versioning
+## 110. Promotion Gate 2 — Identity + Versioning
 
 - [ ] identity + versioning implemented
 
@@ -2484,9 +2484,9 @@ history preservation
 
 where applicable.
 
----
+______________________________________________________________________
 
-# 111. Promotion Gate 3 — Negative Cases
+## 111. Promotion Gate 3 — Negative Cases
 
 - [ ] negative cases covered
 
@@ -2499,25 +2499,25 @@ stale
 unauthorized
 ```
 
----
+______________________________________________________________________
 
-# 112. Promotion Gate 4 — Provenance Persistence
+## 112. Promotion Gate 4 — Provenance Persistence
 
 - [ ] provenance edges persisted and validated
 
 This must establish actual persistence, not only an intended schema.
 
----
+______________________________________________________________________
 
-# 113. Promotion Gate 5 — Rollback
+## 113. Promotion Gate 5 — Rollback
 
 - [ ] rollback basin demonstrated for consequential effects
 
 Demonstration must be operation-relevant.
 
----
+______________________________________________________________________
 
-# 114. Promotion Gate 6 — Specific Executed Receipt
+## 114. Promotion Gate 6 — Specific Executed Receipt
 
 - [ ] executed validation receipt specific to this artifact
 
@@ -2525,17 +2525,17 @@ This is a critical promotion gate.
 
 A receipt for another subsystem does not satisfy it.
 
----
+______________________________________________________________________
 
-# 115. Promotion Gate 7 — Visible Critical Gaps
+## 115. Promotion Gate 7 — Visible Critical Gaps
 
 - [ ] unresolved critical gaps registered as `UNKNOWN/GAP`
 
 Promotion must not hide unresolved load-bearing gaps.
 
----
+______________________________________________________________________
 
-# 116. Extended Promotion Gate — Firewall Tests
+## 116. Extended Promotion Gate — Firewall Tests
 
 Recommended contract-specific validation should test:
 
@@ -2546,9 +2546,9 @@ Recommended contract-specific validation should test:
 
 A passing implementation must preserve all protected firewalls.
 
----
+______________________________________________________________________
 
-# 117. Extended Promotion Gate — Epoch Tests
+## 117. Extended Promotion Gate — Epoch Tests
 
 Test that:
 
@@ -2561,9 +2561,9 @@ provenance_epoch
 
 remain distinct unless explicit mappings are present.
 
----
+______________________________________________________________________
 
-# 118. Extended Promotion Gate — Local Finality
+## 118. Extended Promotion Gate — Local Finality
 
 Test:
 
@@ -2579,9 +2579,9 @@ UNKNOWN INDEPENDENCE
 → coordination / escalation
 ```
 
----
+______________________________________________________________________
 
-# 119. Extended Promotion Gate — Selective Invalidation
+## 119. Extended Promotion Gate — Selective Invalidation
 
 Test that failure of:
 
@@ -2597,9 +2597,9 @@ Descendants(P1)
 
 while preserving demonstrably independent state.
 
----
+______________________________________________________________________
 
-# 120. Extended Promotion Gate — Confidence
+## 120. Extended Promotion Gate — Confidence
 
 Test that:
 
@@ -2615,15 +2615,15 @@ weakest load-bearing premise
 
 or contract ceiling `0.95`.
 
----
+______________________________________________________________________
 
-# 121. Extended Promotion Gate — Competing Hypotheses
+## 121. Extended Promotion Gate — Competing Hypotheses
 
 Test that unresolved competing explanations remain visible and are not silently collapsed.
 
----
+______________________________________________________________________
 
-# 122. Extended Promotion Gate — Receipt Integrity
+## 122. Extended Promotion Gate — Receipt Integrity
 
 Test:
 
@@ -2641,9 +2641,9 @@ failed consequential proposal
 
 where required.
 
----
+______________________________________________________________________
 
-# 123. Falsifier F1
+## 123. Falsifier F1
 
 Source falsifier:
 
@@ -2661,9 +2661,9 @@ and, where applicable:
 SUPERSEDE / INVALIDATE AFFECTED TERMS
 ```
 
----
+______________________________________________________________________
 
-# 124. Falsifier F2
+## 124. Falsifier F2
 
 Source falsifier:
 
@@ -2677,9 +2677,9 @@ PROPOSAL ≠ COMMIT
 
 for example, the declared contract-to-runtime binding is falsified.
 
----
+______________________________________________________________________
 
-# 125. Falsifier F3
+## 125. Falsifier F3
 
 Source falsifier:
 
@@ -2711,9 +2711,9 @@ TEST_PASS = TRUTH
 
 violates this contract.
 
----
+______________________________________________________________________
 
-# 126. Additional Invalidation Conditions
+## 126. Additional Invalidation Conditions
 
 Normalized invalidation conditions include:
 
@@ -2739,9 +2739,9 @@ runtime contradiction
 persistence contradiction
 ```
 
----
+______________________________________________________________________
 
-# 127. Causal Firewall
+## 127. Causal Firewall
 
 State sequence does not itself prove causality.
 
@@ -2759,9 +2759,9 @@ A caused B
 
 unless the evidence licenses causal inference.
 
----
+______________________________________________________________________
 
-# 128. Causal Claim Types
+## 128. Causal Claim Types
 
 State reasoning should distinguish:
 
@@ -2780,9 +2780,9 @@ causal effect
 
 where material.
 
----
+______________________________________________________________________
 
-# 129. Model Mechanism ≠ Verified Mechanism
+## 129. Model Mechanism ≠ Verified Mechanism
 
 A State-plane model may represent:
 
@@ -2800,9 +2800,9 @@ MODEL
 
 unless independently validated at the required causal level.
 
----
+______________________________________________________________________
 
-# 130. Scope Firewall
+## 130. Scope Firewall
 
 Every conclusion inherits an applicability envelope.
 
@@ -2822,9 +2822,9 @@ applicability:
 
 where relevant.
 
----
+______________________________________________________________________
 
-# 131. Regime Shift
+## 131. Regime Shift
 
 If:
 
@@ -2840,9 +2840,9 @@ Historical validity need not be erased.
 
 Operational applicability may change.
 
----
+______________________________________________________________________
 
-# 132. Freshness
+## 132. Freshness
 
 Freshness is distinct from epistemic type.
 
@@ -2856,9 +2856,9 @@ A valid policy can be superseded.
 
 A valid state snapshot can cease to be current.
 
----
+______________________________________________________________________
 
-# 133. Temporal Validity
+## 133. Temporal Validity
 
 Conceptually:
 
@@ -2874,9 +2874,9 @@ ValidAt(T2)
 
 The required freshness window depends on the operation.
 
----
+______________________________________________________________________
 
-# 134. Provenance Topology
+## 134. Provenance Topology
 
 State evidence should preserve ancestry.
 
@@ -2894,9 +2894,9 @@ ROOT SOURCE B
 
 Independence is assessed at the relevant provenance roots and dependency structure.
 
----
+______________________________________________________________________
 
-# 135. Sybil Hardening
+## 135. Sybil Hardening
 
 Repeated descendants of one origin must not inflate apparent confirmation.
 
@@ -2912,9 +2912,9 @@ COUNT(COPIES)
 
 when independence is required.
 
----
+______________________________________________________________________
 
-# 136. Persistent Provenance
+## 136. Persistent Provenance
 
 State transitions must not silently erase source ancestry.
 
@@ -2936,9 +2936,9 @@ v3 ← v2 ← v1
 
 where the governing persistence model requires it.
 
----
+______________________________________________________________________
 
-# 137. State Transition Receipt
+## 137. State Transition Receipt
 
 Normalized example:
 
@@ -2978,9 +2978,9 @@ state_transition_receipt:
 
 This is a schema candidate, not a verified runtime schema.
 
----
+______________________________________________________________________
 
-# 138. State Contract Proof Capsule
+## 138. State Contract Proof Capsule
 
 ```yaml
 proof_capsule:
@@ -3040,9 +3040,9 @@ proof_capsule:
   gaps: []
 ```
 
----
+______________________________________________________________________
 
-# 139. Proof Capsule Reuse
+## 139. Proof Capsule Reuse
 
 Reuse is valid only while:
 
@@ -3059,9 +3059,9 @@ NON-CONFLICT
 
 remain valid.
 
----
+______________________________________________________________________
 
-# 140. Proof Capsule Failure
+## 140. Proof Capsule Failure
 
 When a premise fails:
 
@@ -3073,9 +3073,9 @@ THE CONCLUSIONS THAT DEPEND ON IT
 
 This is the proof-capsule form of selective invalidation.
 
----
+______________________________________________________________________
 
-# 141. RSCF State Semantics
+## 141. RSCF State Semantics
 
 The contract can be represented conceptually through RSCF.
 
@@ -3096,9 +3096,9 @@ RSCF:
 
 Exact executable RSCF binding remains `UNKNOWN/GAP` unless separately validated.
 
----
+______________________________________________________________________
 
-# 142. H-Level Contract Scope
+## 142. H-Level Contract Scope
 
 At H level, the contract expresses broad State-plane laws:
 
@@ -3110,9 +3110,9 @@ finality
 recovery
 ```
 
----
+______________________________________________________________________
 
-# 143. M-Level Contract Scope
+## 143. M-Level Contract Scope
 
 At M level, the contract may govern subsystem state mechanisms such as:
 
@@ -3126,15 +3126,15 @@ execution state
 
 only where applicability is established.
 
----
+______________________________________________________________________
 
-# 144. L-Level Contract Scope
+## 144. L-Level Contract Scope
 
 At L level, the contract applies to specific state artifacts, transitions, receipts, and versioned records.
 
----
+______________________________________________________________________
 
-# 145. H/M/L Preservation
+## 145. H/M/L Preservation
 
 Compression across H/M/L must not erase:
 
@@ -3148,9 +3148,9 @@ critical dependencies
 falsifiers
 ```
 
----
+______________________________________________________________________
 
-# 146. State Recovery
+## 146. State Recovery
 
 Failure recovery sequence:
 
@@ -3172,9 +3172,9 @@ REPAIR
 REVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 147. Retry Rule
+## 147. Retry Rule
 
 Do not repeat a failed path without changed evidence.
 
@@ -3190,9 +3190,9 @@ resolved conflict
 new rollback capability
 ```
 
----
+______________________________________________________________________
 
-# 148. Recovery ≠ Global Reset
+## 148. Recovery ≠ Global Reset
 
 ```text
 LOCAL FAILURE
@@ -3206,9 +3206,9 @@ GLOBAL RESET
 
 unless dependency topology establishes system-wide invalidity.
 
----
+______________________________________________________________________
 
-# 149. Causal Epoch Finality
+## 149. Causal Epoch Finality
 
 Historical finalized state should not be silently rewritten.
 
@@ -3226,9 +3226,9 @@ with supersession lineage.
 
 Do not rewrite `v1` to make it appear that `v3` always existed.
 
----
+______________________________________________________________________
 
-# 150. Supersession
+## 150. Supersession
 
 ```text
 SUPERSEDED
@@ -3248,9 +3248,9 @@ NEVER EXISTED
 
 Historical provenance remains recoverable.
 
----
+______________________________________________________________________
 
-# 151. Concurrency
+## 151. Concurrency
 
 Two proposals may share one base state:
 
@@ -3263,9 +3263,9 @@ Proposal A  Proposal B
 
 If both mutate overlapping authoritative state, concurrency must be resolved before incompatible commits occur.
 
----
+______________________________________________________________________
 
-# 152. Concurrency Conflict
+## 152. Concurrency Conflict
 
 Example:
 
@@ -3286,9 +3286,9 @@ B = STALE
 
 and requires revalidation.
 
----
+______________________________________________________________________
 
-# 153. Conflict Resolution
+## 153. Conflict Resolution
 
 Potential normalized outcomes:
 
@@ -3303,17 +3303,17 @@ HOLD
 
 Exact authoritative conflict policy remains an implementation/schema gap.
 
----
+______________________________________________________________________
 
-# 154. State Finalization
+## 154. State Finalization
 
 Finalization means the operation has reached the contract-defined authoritative state for its applicable boundary.
 
 Finalization does not imply universal or eternal truth.
 
----
+______________________________________________________________________
 
-# 155. Local vs Global Finality
+## 155. Local vs Global Finality
 
 ```text
 LOCAL FINAL
@@ -3327,9 +3327,9 @@ GLOBAL FINAL
 
 unless the proof demonstrates global dependency closure or the architecture defines the local boundary as sufficient.
 
----
+______________________________________________________________________
 
-# 156. Governance Escalation
+## 156. Governance Escalation
 
 Validation intensity increases with:
 
@@ -3345,9 +3345,9 @@ large downstream dependency
 
 where applicable.
 
----
+______________________________________________________________________
 
-# 157. Reversible Action
+## 157. Reversible Action
 
 Under unresolved uncertainty:
 
@@ -3361,9 +3361,9 @@ REPAIRABLE
 
 action is preferred where it can achieve the objective without weakening integrity.
 
----
+______________________________________________________________________
 
-# 158. Optimization Boundary
+## 158. Optimization Boundary
 
 Optimization may never weaken:
 
@@ -3377,9 +3377,9 @@ safety
 governance
 ```
 
----
+______________________________________________________________________
 
-# 159. Fast Path Boundary
+## 159. Fast Path Boundary
 
 A faster state path is acceptable only if it preserves the same integrity conditions as the slower path.
 
@@ -3395,9 +3395,9 @@ LESS VALIDATED
 
 for load-bearing conditions.
 
----
+______________________________________________________________________
 
-# 160. Anti-Fabrication Rules
+## 160. Anti-Fabrication Rules
 
 This contract prohibits reasoning shortcuts such as:
 
@@ -3427,9 +3427,9 @@ MULTIPLE COPIES
 → therefore INDEPENDENT CONFIRMATION
 ```
 
----
+______________________________________________________________________
 
-# 161. Documentation Status
+## 161. Documentation Status
 
 Documentation claims remain:
 
@@ -3443,9 +3443,9 @@ Documentation is evidence of what the documentation states.
 
 It is not automatically evidence of successful execution.
 
----
+______________________________________________________________________
 
-# 162. State Contract Machine Envelope
+## 162. State Contract Machine Envelope
 
 ```yaml
 STATE_CONTRACT_RECORD:
@@ -3505,9 +3505,9 @@ STATE_CONTRACT_RECORD:
 
 This is a normalized schema candidate only.
 
----
+______________________________________________________________________
 
-# 163. State Contract Decision Table
+## 163. State Contract Decision Table
 
 | Condition                                   | Consequential mutation       |
 | ------------------------------------------- | ---------------------------- |
@@ -3532,9 +3532,9 @@ This is a normalized schema candidate only.
 | Competing hypotheses unresolved             | Preserve `COMPETING`         |
 | Test passes                                 | Record scoped result only    |
 
----
+______________________________________________________________________
 
-# 164. Firewall Matrix
+## 164. Firewall Matrix
 
 | Firewall                  | Invalid collapse         | Required interpretation                                     |
 | ------------------------- | ------------------------ | ----------------------------------------------------------- |
@@ -3547,9 +3547,9 @@ This is a normalized schema candidate only.
 | Storage / Verification    | `STORED = VERIFIED`      | Persistence does not promote epistemic class                |
 | Local / Global            | `LOCAL = GLOBAL`         | Scale applicability must be demonstrated                    |
 
----
+______________________________________________________________________
 
-# 165. Contract Integrity Matrix
+## 165. Contract Integrity Matrix
 
 ```yaml
 STATE_CONTRACT_INTEGRITY:
@@ -3601,9 +3601,9 @@ STATE_CONTRACT_INTEGRITY:
     ancestry_preserved: true
 ```
 
----
+______________________________________________________________________
 
-# 166. Gap Register
+## 166. Gap Register
 
 ```yaml
 STATE_STATE_CONTRACT_GAPS:
@@ -3679,9 +3679,9 @@ STATE_STATE_CONTRACT_GAPS:
     status: NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 167. Gap Resolution Priority
+## 167. Gap Resolution Priority
 
 Resolve in this order:
 
@@ -3697,9 +3697,9 @@ COSMETIC
 
 Do not spend validation resources on cosmetic completeness while critical runtime gaps remain unresolved.
 
----
+______________________________________________________________________
 
-# 168. Promotion Sequence
+## 168. Promotion Sequence
 
 ```text
 AMOS_MODEL
@@ -3725,9 +3725,9 @@ CANONICAL PROMOTION REVIEW
 
 No stage should be silently skipped.
 
----
+______________________________________________________________________
 
-# 169. Anti-Regression Gate
+## 169. Anti-Regression Gate
 
 Any future optimization or implementation change must preserve or improve:
 
@@ -3751,9 +3751,9 @@ Otherwise:
 ROLL BACK OPTIMIZATION
 ```
 
----
+______________________________________________________________________
 
-# 170. Worked Semantics — Valid Commit
+## 170. Worked Semantics — Valid Commit
 
 ```yaml
 operation:
@@ -3801,9 +3801,9 @@ v21 AUTHORITATIVE
 RECEIPT
 ```
 
----
+______________________________________________________________________
 
-# 171. Worked Semantics — Stale Commit
+## 171. Worked Semantics — Stale Commit
 
 ```yaml
 proposal:
@@ -3835,9 +3835,9 @@ REVALIDATE
 REBUILD OR ABORT
 ```
 
----
+______________________________________________________________________
 
-# 172. Worked Semantics — Authority Mismatch
+## 172. Worked Semantics — Authority Mismatch
 
 ```yaml
 capability:
@@ -3856,9 +3856,9 @@ UNAUTHORIZED
 
 The technical capability remains irrelevant to permission.
 
----
+______________________________________________________________________
 
-# 173. Worked Semantics — Unknown Dependency
+## 173. Worked Semantics — Unknown Dependency
 
 ```text
 P1 = VALID
@@ -3878,9 +3878,9 @@ and:
 COMMIT = HOLD
 ```
 
----
+______________________________________________________________________
 
-# 174. Worked Semantics — Selective Failure
+## 174. Worked Semantics — Selective Failure
 
 ```text
 P1
@@ -3919,9 +3919,9 @@ C2
 STATE B
 ```
 
----
+______________________________________________________________________
 
-# 175. Worked Semantics — Competing Hypotheses
+## 175. Worked Semantics — Competing Hypotheses
 
 ```text
 H1:
@@ -3945,9 +3945,9 @@ NORMAL
 
 merely because it is operationally convenient.
 
----
+______________________________________________________________________
 
-# 176. Worked Semantics — Observation Staleness
+## 176. Worked Semantics — Observation Staleness
 
 ```yaml
 observation:
@@ -3964,9 +3964,9 @@ Without a valid freshness bridge:
 CURRENT STATE = UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 177. Worked Semantics — Test Receipt Boundary
+## 177. Worked Semantics — Test Receipt Boundary
 
 Suppose:
 
@@ -3994,9 +3994,9 @@ STATE_STATE_CONTRACT
 IS THEREFORE FULLY VALIDATED
 ```
 
----
+______________________________________________________________________
 
-# 178. Worked Semantics — Local Finality
+## 178. Worked Semantics — Local Finality
 
 Suppose State shard `A` is proposed for mutation.
 
@@ -4018,9 +4018,9 @@ If independence is merely assumed:
 ESCALATE
 ```
 
----
+______________________________________________________________________
 
-# 179. Worked Semantics — Policy Epoch Shift
+## 179. Worked Semantics — Policy Epoch Shift
 
 ```yaml
 proposal:
@@ -4038,9 +4038,9 @@ REVALIDATE AUTHORITY
 
 The state proposal remains non-authoritative.
 
----
+______________________________________________________________________
 
-# 180. Worked Semantics — Rollback Gap
+## 180. Worked Semantics — Rollback Gap
 
 ```yaml
 effect:
@@ -4066,9 +4066,9 @@ HOLD
 
 until the rollback requirement is satisfied or governance explicitly establishes another safe path.
 
----
+______________________________________________________________________
 
-# 181. Cross-Plane Binding — Canon
+## 181. Cross-Plane Binding — Canon
 
 Governed by:
 
@@ -4077,9 +4077,9 @@ Governed by:
 
 State-plane semantics must remain compatible with governing canon.
 
----
+______________________________________________________________________
 
-# 182. Cross-Plane Binding — Kernel
+## 182. Cross-Plane Binding — Kernel
 
 Kernel interaction:
 
@@ -4087,9 +4087,9 @@ Kernel interaction:
 
 Kernel capability does not itself confer State-plane authority.
 
----
+______________________________________________________________________
 
-# 183. Cross-Plane Binding — Control Plane
+## 183. Cross-Plane Binding — Control Plane
 
 Control-plane gates:
 
@@ -4105,9 +4105,9 @@ CONTROL/GOVERNANCE GATES
 COMMIT OR HOLD
 ```
 
----
+______________________________________________________________________
 
-# 184. Cross-Plane Binding — Observability
+## 184. Cross-Plane Binding — Observability
 
 Observed by:
 
@@ -4121,9 +4121,9 @@ OBSERVABILITY
 AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 185. Cross-Plane Binding — Operations
+## 185. Cross-Plane Binding — Operations
 
 Recovery via:
 
@@ -4141,9 +4141,9 @@ revalidation
 
 under applicable authority.
 
----
+______________________________________________________________________
 
-# 186. Relationship to STATE README
+## 186. Relationship to STATE README
 
 Orientation:
 
@@ -4169,9 +4169,9 @@ STATE_STATE_CONTRACT
 STATE-PLANE CONTRACT
 ```
 
----
+______________________________________________________________________
 
-# 187. Contract Precedence
+## 187. Contract Precedence
 
 Where this README-style explanatory expansion conflicts with the source-grounded contract nucleus or stronger canon:
 
@@ -4182,9 +4182,9 @@ WINS
 
 The normalized sections must be corrected, conditioned, or removed.
 
----
+______________________________________________________________________
 
-# 188. Source-Grounded Nucleus
+## 188. Source-Grounded Nucleus
 
 The following is the strongest preserved source nucleus:
 
@@ -4226,9 +4226,9 @@ empirical validation OPEN
 
 Everything beyond that nucleus in this expanded note should be read as normalized AMOS semantics unless independently promoted by source evidence.
 
----
+______________________________________________________________________
 
-# 189. Canonical Contract Compression
+## 189. Canonical Contract Compression
 
 ```text
 TYPE BEFORE USE
@@ -4280,22 +4280,22 @@ UNAFFECTED STATE → PRESERVE
 COMPETING HYPOTHESES → REMAIN VISIBLE
 ```
 
----
+______________________________________________________________________
 
-# 190. Formal Compression
+## 190. Formal Compression
 
 Let:
 
-- \(T\) = artifact typing validity
-- \(I\) = identity validity
-- \(V\) = state-version validity
-- \(S\) = scope compatibility
-- \(R\) = regime compatibility
-- \(A\) = authority validity
-- \(D\) = dependency closure validity
-- \(F\) = freshness validity
-- \(B\) = rollback-basin adequacy
-- \(G\) = governance validity
+- (T) = artifact typing validity
+- (I) = identity validity
+- (V) = state-version validity
+- (S) = scope compatibility
+- (R) = regime compatibility
+- (A) = authority validity
+- (D) = dependency closure validity
+- (F) = freshness validity
+- (B) = rollback-basin adequacy
+- (G) = governance validity
 
 Then the normalized commit predicate is:
 
@@ -4365,9 +4365,9 @@ $$
 
 when independence is demonstrated.
 
----
+______________________________________________________________________
 
-# 191. Contract State Machine
+## 191. Contract State Machine
 
 ```text
 UNRESOLVED
@@ -4404,9 +4404,9 @@ OBSERVED
 
 This state machine is a normalized explanatory model, not proof of an implemented executor.
 
----
+______________________________________________________________________
 
-# 192. Contract Failure State Machine
+## 192. Contract Failure State Machine
 
 ```text
 FAILED PREMISE
@@ -4433,59 +4433,59 @@ RECEIPT
 REPAIR / REVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 193. Contract Audit Questions
+## 193. Contract Audit Questions
 
 For every consequential State-plane mutation, the system should be able to answer:
 
 1. What artifact was touched?
-2. What was its identity?
-3. Which version was read?
-4. Which version was expected at commit?
-5. Which scope applied?
-6. Which regime applied?
-7. Which H/M/L level applied?
-8. Which authority authorized the action?
-9. Under which policy epoch?
-10. Which causal epoch applied?
-11. Which provenance context applied?
-12. Which premises were load-bearing?
-13. Was dependency closure established?
-14. Were provenance roots independent where independence mattered?
-15. Were competing hypotheses present?
-16. What was the confidence ceiling?
-17. What was the rollback basin?
-18. What state was proposed?
-19. What state was committed?
-20. Which receipt records the effect?
+1. What was its identity?
+1. Which version was read?
+1. Which version was expected at commit?
+1. Which scope applied?
+1. Which regime applied?
+1. Which H/M/L level applied?
+1. Which authority authorized the action?
+1. Under which policy epoch?
+1. Which causal epoch applied?
+1. Which provenance context applied?
+1. Which premises were load-bearing?
+1. Was dependency closure established?
+1. Were provenance roots independent where independence mattered?
+1. Were competing hypotheses present?
+1. What was the confidence ceiling?
+1. What was the rollback basin?
+1. What state was proposed?
+1. What state was committed?
+1. Which receipt records the effect?
 
 If these questions cannot be answered where load-bearing, the relevant gap must remain visible.
 
----
+______________________________________________________________________
 
-# 194. Contract Promotion Audit Questions
+## 194. Contract Promotion Audit Questions
 
 Before promoting this artifact beyond `AMOS_MODEL`, ask:
 
 1. Is there an actual subsystem-local executor?
-2. Is this contract bound to an executable schema?
-3. Is state identity implemented?
-4. Is state versioning implemented?
-5. Are stale writes rejected?
-6. Are authority epochs enforced?
-7. Are protected firewalls tested?
-8. Are epoch distinctions persisted?
-9. Is dependency closure executable?
-10. Is local-finality independence demonstrated?
-11. Is selective invalidation executed?
-12. Are unrelated states preserved after local failure?
-13. Are rollback basins demonstrated?
-14. Are consequential effects receipted?
-15. Is provenance persisted?
-16. Are negative cases executed?
-17. Is there a validation receipt specific to this contract?
-18. Do any critical `UNKNOWN/GAP` items remain?
+1. Is this contract bound to an executable schema?
+1. Is state identity implemented?
+1. Is state versioning implemented?
+1. Are stale writes rejected?
+1. Are authority epochs enforced?
+1. Are protected firewalls tested?
+1. Are epoch distinctions persisted?
+1. Is dependency closure executable?
+1. Is local-finality independence demonstrated?
+1. Is selective invalidation executed?
+1. Are unrelated states preserved after local failure?
+1. Are rollback basins demonstrated?
+1. Are consequential effects receipted?
+1. Is provenance persisted?
+1. Are negative cases executed?
+1. Is there a validation receipt specific to this contract?
+1. Do any critical `UNKNOWN/GAP` items remain?
 
 If a critical answer is unknown:
 
@@ -4493,9 +4493,9 @@ If a critical answer is unknown:
 DO NOT PROMOTE
 ```
 
----
+______________________________________________________________________
 
-# 195. Anti-Regression Invariants
+## 195. Anti-Regression Invariants
 
 Any later State-plane version must preserve or strengthen:
 
@@ -4519,9 +4519,9 @@ provenance recoverability
 
 A version that weakens these without explicit higher-order canonical authorization is a regression candidate.
 
----
+______________________________________________________________________
 
-# 196. Contract Summary
+## 196. Contract Summary
 
 `STATE_STATE_CONTRACT` establishes a governed State-plane model in which authoritative state cannot be reduced to "the latest value."
 
@@ -4618,9 +4618,9 @@ EMPIRICAL VALIDATION = UNKNOWN/GAP
 ARTIFACT-SPECIFIC EXECUTED RECEIPT = NOT ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 197. RSCF Node
+## 197. RSCF Node
 
 ```yaml
 RSCF-NODE:
@@ -4669,9 +4669,9 @@ RSCF-NODE:
   status: ACTIVE_REFERENCE
 ```
 
----
+______________________________________________________________________
 
-# 198. RSCF Relations
+## 198. RSCF Relations
 
 ```yaml
 RSCF-RELATIONS:
@@ -4710,7 +4710,7 @@ RSCF-RELATIONS:
   - GOVERNS_CONCEPT: [[11_KNOWLEDGE/stubs/COMPETING_HYPOTHESIS_PRESERVATION|COMPETING_HYPOTHESIS_PRESERVATION]]
 ```
 
----
+______________________________________________________________________
 
 ## Promotion-gate checklist
 
@@ -4722,7 +4722,7 @@ RSCF-RELATIONS:
 - [ ] executed validation receipt specific to this artifact
 - [ ] unresolved critical gaps registered as `UNKNOWN/GAP` and visible
 
----
+______________________________________________________________________
 
 ## Cross-plane bindings
 
@@ -4732,31 +4732,31 @@ RSCF-RELATIONS:
 - **Observed by** — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
 - **Recovered via operations** — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
 
----
+______________________________________________________________________
 
 ## Executed validation references
 
-> [!warning] Pattern references only
+> [!WARNING] Pattern references only
 > The following receipts are cited as existing OS validation patterns. They are **not evidence that `STATE_STATE_CONTRACT` itself has been executed or validated**.
 
 - [[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] — source reports routing-policy validator `19/19`
 - [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]] — source reports authz invariant engine `17/17`
 
----
+______________________________________________________________________
 
 ## Related
 
 [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[12_STATE/STATE_README|STATE_README]] · [[12_STATE/STATE_STATE_CONTRACT|STATE_STATE_CONTRACT]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[02_KERNEL/KERNEL_README|KERNEL_README]] · [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]] · [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]] · [[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]
 
----
+______________________________________________________________________
 
 AMOS MOC
 
----
+______________________________________________________________________
 
 **MOC:** [[12_STATE/12_STATE_MOC|12_STATE_MOC]]
 
----
+______________________________________________________________________
 
 **Origin architect / steward:** **Trang Phan**
 

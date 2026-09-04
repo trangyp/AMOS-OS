@@ -1,9 +1,12 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: AMOS INFRASTRUCTURE CROSS SKILL PROOF COMPOSITION REPORT
 tags:
-- knowledge
-- note
-- canon/knowledge
+  - knowledge
+  - note
+  - canon/knowledge
 type: document
 source: 11_KNOWLEDGE/root
 rscf:
@@ -19,7 +22,7 @@ rscf:
 **Architecture position:** AMOS is treated as an infrastructure/control layer above probabilistic model cognition and domain/specialist Skills.
 **Origin/stewardship:** Trang Phan is treated as origin architect/steward of the cited AMOS/Trang corpus.
 
----
+______________________________________________________________________
 
 ## 1. Executive conclusion
 
@@ -61,7 +64,7 @@ Model proposal
 != external consequence
 ```
 
----
+______________________________________________________________________
 
 ## 2. Architecture boundary
 
@@ -93,7 +96,7 @@ They may not own:
 - durable effect finality;
 - commit/release authority.
 
----
+______________________________________________________________________
 
 ## 3. Failure 1 — local PASS does not compose
 
@@ -122,10 +125,10 @@ This is unsafe if those proofs were produced against different:
 **Seed:** `202608272`
 **Cases:** `300,000`
 
-| Design | Unsafe joint commits | Safe joint commits | Unsafe blocked/revalidated |
-|---|---:|---:|---:|
-| All specialist PASS | 202,333 | 32,232 | 65,435 |
-| Composition epoch barrier | 0 | 32,232 | 267,768 |
+| Design                    | Unsafe joint commits | Safe joint commits | Unsafe blocked/revalidated |
+| ------------------------- | -------------------: | -----------------: | -------------------------: |
+| All specialist PASS       |              202,333 |             32,232 |                     65,435 |
+| Composition epoch barrier |                    0 |             32,232 |                    267,768 |
 
 ### Falsified implication
 
@@ -137,7 +140,7 @@ AllLocalSkillPass ⇒ JointCommitSafe
 
 A specialist proof can remain locally valid while being unusable in the current joint commit.
 
----
+______________________________________________________________________
 
 ## 4. Failure 2 — missing proof treated as optional
 
@@ -161,10 +164,10 @@ A “validate what arrived” implementation can incorrectly continue.
 **Seed:** `202608273`
 **Cases:** `300,000`
 
-| Design | Unsafe effects allowed | Safe effects allowed | Unsafe blocked/revalidated |
-|---|---:|---:|---:|
-| Missing proof treated optional | 80,151 | 158,332 | 51,208 |
-| Capability-derived proof closure | 0 | 168,641 | 131,359 |
+| Design                           | Unsafe effects allowed | Safe effects allowed | Unsafe blocked/revalidated |
+| -------------------------------- | ---------------------: | -------------------: | -------------------------: |
+| Missing proof treated optional   |                 80,151 |              158,332 |                     51,208 |
+| Capability-derived proof closure |                      0 |              168,641 |                    131,359 |
 
 ### Falsified implication
 
@@ -176,7 +179,7 @@ MissingRequiredProof ⇒ OptionalProof
 
 The exact proof requirement must come from the frozen capability contract, not from the proofs that happen to arrive.
 
----
+______________________________________________________________________
 
 ## 5. New control objects
 
@@ -202,7 +205,7 @@ MissingRequiredProof
 
 The closure is capability-derived and must not be inferred from observed messages or available workers.
 
----
+______________________________________________________________________
 
 ### 5.2 MULTI_SKILL_PROOF_JOIN
 
@@ -227,7 +230,7 @@ MULTI_SKILL_PROOF_JOIN[
 
 Every load-bearing proof must bind to one compatible join identity.
 
----
+______________________________________________________________________
 
 ### 5.3 COMPOSITION_EPOCH_BARRIER
 
@@ -258,7 +261,7 @@ Hard rule:
 MixedEpochProofs != OneAuthoritativeSnapshot
 ```
 
----
+______________________________________________________________________
 
 ## 6. Joint proof gate
 
@@ -277,14 +280,14 @@ A joined proof is still **not** commit authority.
 Before release, AMOS infrastructure must independently:
 
 1. re-read current authoritative state;
-2. recompute required-proof closure from the frozen capability contract;
-3. compare current effect, transaction, policy, authority and environment identity;
-4. verify proof hashes;
-5. verify ledger/read-set freshness where required;
-6. reject authority-expanding substitutions;
-7. return commit, revalidation, reconciliation, or block.
+1. recompute required-proof closure from the frozen capability contract;
+1. compare current effect, transaction, policy, authority and environment identity;
+1. verify proof hashes;
+1. verify ledger/read-set freshness where required;
+1. reject authority-expanding substitutions;
+1. return commit, revalidation, reconciliation, or block.
 
----
+______________________________________________________________________
 
 ## 7. Agent architecture enhancement
 
@@ -319,7 +322,7 @@ Forbidden authority:
 - cannot author final authority;
 - cannot commit an external effect.
 
----
+______________________________________________________________________
 
 ## 8. Separation-of-duty law
 
@@ -355,7 +358,7 @@ propose release
 
 under one control root.
 
----
+______________________________________________________________________
 
 ## 9. Information-exposure control integration
 
@@ -386,7 +389,7 @@ SkillPassToken != CommitAuthority
 AllLocalSkillPass != JointProofPass
 ```
 
----
+______________________________________________________________________
 
 ## 10. External/open-source substrate boundaries
 
@@ -464,7 +467,7 @@ Guarantees inherit:
 - covered action interface;
 - declared assumptions.
 
----
+______________________________________________________________________
 
 ## 11. Skill enhancement
 
@@ -490,7 +493,7 @@ New v4 capabilities include:
 - `CompositionAuditor`;
 - commit-time revalidation requirements.
 
----
+______________________________________________________________________
 
 ## 12. Deterministic Skill tests
 
@@ -505,10 +508,12 @@ Complete compatible proof set
 Required authorization proof absent
 → REVALIDATE_MISSING_PROOF
 ```
+
 ```text
 One required proof has different policy hash
 → REVALIDATE_PROOF_JOIN
 ```
+
 Skill contract test:
 
 ```text
@@ -553,7 +558,7 @@ Final Skill ZIP SHA-256:
 83301d01dc29fd95b251a40b912b451d1cab3148d0f00db8d6af131a3a3d4be9
 ```
 
----
+______________________________________________________________________
 
 ## 13. Current conclusion classes
 
@@ -587,7 +592,7 @@ Final Skill ZIP SHA-256:
 - No current test proves all future downstream information reconstruction is observable.
 - Real multi-process race/crash/reorder testing remains the next major validation frontier.
 
----
+______________________________________________________________________
 
 ## 14. Next validation frontier
 
@@ -634,7 +639,7 @@ bind to one compatible authoritative snapshot,
 and survive commit-time revalidation.
 ```
 
----
+______________________________________________________________________
 
 ## 15. Final architecture law
 
@@ -644,22 +649,26 @@ And therefore:
 
 > **Model proposal != Skill output != proof join != authoritative commit != external consequence.**
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos_infrastructure_cross_skill_proof_composition_report
 node_type: note
 path: 11_KNOWLEDGE/AMOS_Infrastructure_Cross_Skill_Proof_Composition_Report.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]]

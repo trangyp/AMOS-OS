@@ -1,54 +1,17 @@
 ---
-title: INDEX LEGACY ARCHIVE README
-type: index
-source: 24_ARCHIVE/00_LEGACY/00_INDEX
+type: legacy_readme
+source: 24_ARCHIVE/00_LEGACY
+aliases:
+  - INDEX_LEGACY_ARCHIVE_README
+amos_core_target: v4.4
+artifact_id: AMOS-INDEX-LEGACY-README
+conclusion_class: DERIVED
+created: 2026-09-04
+origin_architect: Trang Phan
+status: ARCHIVE_PRESERVED
 tags:
-- amos-os
-- canon/archive
-- readme
-- routing-policy-validation-receipt
-- authz-engine-validation-receipt
-rscf:
-  state: DERIVED
-  claim_class: CONDITIONAL
-  provenance: AMOS_corpus
-  scope: index_navigation
+  - amos
+  - legacy
+title: Index Legacy Archive Readme
 ---
-
-# INDEX LEGACY ARCHIVE README
-
-STATUS: PROPOSED_SPECIFICATION
-epistemic_class: AMOS_MODEL
-canonical_status: CONDITIONAL
-updated: 2026-08-26
-
-## Purpose
-Index navigation stub; canonical content in package contract.
-
-## Contract discipline
-Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
-
-## Gaps
-Executable binding PARTIAL unless an executed validation receipt exists for this subsystem (see [[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]], [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]).
-
----
-
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
-
----
-**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-
----
-RSCF-NODE
-node_id: amos_24_archive_00_legacy_00_index_index_legacy_archive_readme_md
-node_type: note
-path: 24_ARCHIVE/00_LEGACY/00_INDEX/INDEX_LEGACY_ARCHIVE_README.md
-claim_class: AMOS_MODEL
-
-## Files
-
-- [[24_ARCHIVE/00_LEGACY/00_INDEX/LEGACY_ARCHIVE_LEGACY_CONTRACT|LEGACY_ARCHIVE_LEGACY_CONTRACT]]
-- [[24_ARCHIVE/00_LEGACY/00_INDEX/LEGACY_MAP|LEGACY_MAP]]
-
----
-**MOC:** [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]]
+# Index Legacy Archive Readme

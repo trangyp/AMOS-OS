@@ -4,25 +4,22 @@ title: SKILL — Amos Risk Constraint Governor
 type: skill
 source: 07_SKILLS/amos-risk-constraint-governor
 name: amos-risk-constraint-governor
-description: Risk Constraint Governor — organization, law and policy capability. Use
-  when governance design, legal analysis, or policy reasoning. Use when amos-c09-org-law-policy-master
-  routes to this specialized capability. Do not use for generic tasks outside c09
-  domain.
+description: Risk Constraint Governor — organization, law and policy capability. Use when governance design, legal analysis, or policy reasoning. Use when amos-c09-org-law-policy-master routes to this specialized capability. Do not use for generic tasks outside c09 domain.
 parent_skill: amos-c09-org-law-policy-master
 domain: c09
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
 tags:
-- type/skill
-- type/skill
-- domain/org-law-policy
-- epistemic/source_claim
-- hml/h
-- epistemic/source_claim
-- amos-os
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/org-law-policy
+  - epistemic/source_claim
+  - hml/h
+  - epistemic/source_claim
+  - amos-os
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -32,23 +29,23 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: H
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
-- L7_authority
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
+  - L7_authority
 collapse_class: fail_closed
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L7
-- L16
-- L17
-- L18
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L7
+  - L16
+  - L17
+  - L18
 license: MIT
 steward: Trang Phan
 ---
@@ -58,6 +55,7 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: c09. Parent: amos-c09-org-law-policy-master. Epistemic class: SOURCE_CLAIM. H/M/L: H.
+
 ## When to Use
 
 - When governing ethical decisions: principles, consequences, procedural fairness
@@ -83,13 +81,13 @@ Origin architect: **Trang Phan**. Domain: c09. Parent: amos-c09-org-law-policy-m
 ## Operations
 
 1. **risk_constraint.govern_ethics**: Govern ethical decisions: principles, consequences, and procedural fairness
-2. **risk_constraint.enforce_risk_constraint**: Enforce risk constraints: acceptable risk, risk budget, and risk escalation
-3. **risk_constraint.assess_trust**: Assess trust formation: evidence, reputation, and accountability mechanisms
-4. **risk_constraint.design_governance**: Design governance structures: role/responsibility clarity, accountability mapping
-5. **risk_constraint.detect_drift**: Detect governance drift: authority decay, accountability erosion, regulatory change
-6. **risk_constraint.escalate_gaps**: Escalate governance gaps: flag constitutional issues, require legal review
-7. **risk_constraint.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-8. **risk_constraint.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+1. **risk_constraint.enforce_risk_constraint**: Enforce risk constraints: acceptable risk, risk budget, and risk escalation
+1. **risk_constraint.assess_trust**: Assess trust formation: evidence, reputation, and accountability mechanisms
+1. **risk_constraint.design_governance**: Design governance structures: role/responsibility clarity, accountability mapping
+1. **risk_constraint.detect_drift**: Detect governance drift: authority decay, accountability erosion, regulatory change
+1. **risk_constraint.escalate_gaps**: Escalate governance gaps: flag constitutional issues, require legal review
+1. **risk_constraint.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+1. **risk_constraint.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## Vault-Sourced Domain Knowledge
 
@@ -145,7 +143,8 @@ Governance design is SOURCE_CLAIM (vault-sourced framework). Legal analysis is N
 - **G5 (Equation firewall)**: Equations carry status tags (ESTABLISHED_MATH / SOURCE_DERIVED / AMOS_MODEL / EMPIRICALLY_CALIBRATED / UNVERIFIED).
 - **G6 (Failure mode)**: On
 
----
+______________________________________________________________________
+
 **Links:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 ## Related
@@ -155,17 +154,19 @@ Governance design is SOURCE_CLAIM (vault-sourced framework). Legal analysis is N
 ## Examples
 
 - **Scenario**: When governing ethical decisions: principles, consequences, procedural fairness
+
   - **Input**: A query matching this skill's domain (c09)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When enforcing risk constraints: acceptable risk, risk budget, escalation thresholds
+
   - **Input**: A query matching this skill's domain (c09)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When assessing trust formation: evidence, reputation, accountability mechanisms
+
   - **Input**: A query matching this skill's domain (c09)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Anti-Patterns
 
@@ -175,7 +176,6 @@ Governance design is SOURCE_CLAIM (vault-sourced framework). Legal analysis is N
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `amos-c09-org-law-policy-master` — routes to this skill when c09 specialization is needed
@@ -183,7 +183,6 @@ Governance design is SOURCE_CLAIM (vault-sourced framework). Legal analysis is N
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -202,7 +201,6 @@ Governance design is SOURCE_CLAIM (vault-sourced framework). Legal analysis is N
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -210,7 +208,6 @@ Governance design is SOURCE_CLAIM (vault-sourced framework). Legal analysis is N
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -223,11 +220,12 @@ Governance design is SOURCE_CLAIM (vault-sourced framework). Legal analysis is N
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `amos-c09-org-law-policy-master` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `amos-risk-constraint-governor-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -235,12 +233,14 @@ Governance design is SOURCE_CLAIM (vault-sourced framework). Legal analysis is N
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-risk-constraint-governor
 node_type: skill
 path: 07_SKILLS/amos-risk-constraint-governor/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

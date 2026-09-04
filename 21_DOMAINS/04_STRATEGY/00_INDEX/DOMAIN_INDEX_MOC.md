@@ -1,0 +1,48 @@
+---
+title: 04_STRATEGY Domain Index & Ontology Map
+type: moc
+plane: 21_DOMAINS
+domain: 04_STRATEGY
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
+status: ACTIVE_SPECIFICATION
+epistemic_class: AMOS_MODEL
+conclusion_class: DERIVED
+rscf:
+  state: DERIVED
+  provenance: authoritative_AMOS_OS_structure
+  scope: active__AMOS_OS
+---
+
+# 04_STRATEGY Domain Index & Structural Map
+
+## 1. Domain Architectural Role & Scope
+The **04_STRATEGY** domain provides specialized epistemological ontologies, invariant models, and execution interfaces within the AMOS v4.4 multi-plane cognitive matrix. It operates under strict coordination-avoidance, MVCC/CAS concurrency, and formal proof verification.
+
+## 2. Structural Lineage & Cross-Plane Interfaces
+- **Upper Plane:** [[21_DOMAINS/21_DOMAINS_MOC|21_DOMAINS Master Index]]
+- **Control Interface:** [[03_CONTROL_PLANE/CONTROL_PLANE_CONTROL_PLANE_CONTRACT|03_CONTROL_PLANE]]
+- **Runtime Execution:** [[04_RUNTIME/RUNTIME_RUNTIME_CONTRACT|04_RUNTIME]]
+- **Verification Plane:** [[19_TESTS/TESTS_TEST_CONTRACT|19_TESTS]]
+- **Mathematical Grounding:** [[22_RESEARCH/01_MATHEMATICS/22_MATHEMATICS_MOC|22_RESEARCH Mathematics]]
+
+## 3. Registered Domain Assets & Specifications
+- [[21_DOMAINS/04_STRATEGY/21_DOMAINS_04_STRATEGY_MOC.md|21_DOMAINS_04_STRATEGY_MOC]]
+- [[21_DOMAINS/04_STRATEGY/DIRECTED_SYSTEMAL_INTELLIGENCE_DOMAIN.md|DIRECTED_SYSTEMAL_INTELLIGENCE_DOMAIN]]
+- [[21_DOMAINS/04_STRATEGY/DOMAINS_STRATEGY_CONTRACT.md|DOMAINS_STRATEGY_CONTRACT]]
+- [[21_DOMAINS/04_STRATEGY/00_INDEX/INDEX_STRATEGY_DOMAINS_README.md|INDEX_STRATEGY_DOMAINS_README]]
+- [[21_DOMAINS/04_STRATEGY/SEVEN_CYCLES_DOMAIN_MODEL.md|SEVEN_CYCLES_DOMAIN_MODEL]]
+- [[21_DOMAINS/04_STRATEGY/STRATEGY_DOMAINS_DOMAIN_SPEC.md|STRATEGY_DOMAINS_DOMAIN_SPEC]]
+- [[21_DOMAINS/04_STRATEGY/STRATEGY_DOMAINS_INTERFACES.md|STRATEGY_DOMAINS_INTERFACES]]
+- [[21_DOMAINS/04_STRATEGY/STRATEGY_DOMAINS_PROVENANCE.md|STRATEGY_DOMAINS_PROVENANCE]]
+- [[21_DOMAINS/04_STRATEGY/STRATEGY_DOMAINS_README.md|STRATEGY_DOMAINS_README]]
+- [[21_DOMAINS/04_STRATEGY/00_INDEX/STRATEGY_DOMAINS_STRATEGY_CONTRACT.md|STRATEGY_DOMAINS_STRATEGY_CONTRACT]]
+- [[21_DOMAINS/04_STRATEGY/00_INDEX/STRATEGY_MAP.md|STRATEGY_MAP]]
+- [[21_DOMAINS/04_STRATEGY/TPE_DOMAIN_MODEL.md|TPE_DOMAIN_MODEL]]
+- [[21_DOMAINS/04_STRATEGY/TSS_DOMAIN_MODEL.md|TSS_DOMAIN_MODEL]]
+
+## 4. Invariant Governance & Epistemic Contracts
+1. **LATEST != AUTHORITATIVE:** All domain representations require explicit RSCF provenance and transaction proofs.
+2. **MODEL != RUNTIME:** Domain models must not be conflated with deployed executable execution boundaries.
+3. **FAIL-CLOSED:** In the event of schema mutation or unverified external telemetry, fail-closed isolation is mandatory.

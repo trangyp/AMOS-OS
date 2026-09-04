@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Vault Domain Knowledge — Amos Boundary Architecture Rscf Calculus
 type: reference
 source: 07_SKILLS/amos-boundary-architecture-rscf-calculus/references
 tags:
-- reference
-- amos-boundary-architecture-rscf-calculus
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-boundary-architecture-rscf-calculus
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -24,6 +27,7 @@ rscf:
 ## Vault-Sourced Content
 
 ### Source 1: 3b. Governance
+
 - process v8
 
 > Path: `governance/3b. Governance - process v8.md` | Size: 44077 chars | Match score: 3
@@ -34,10 +38,11 @@ About TCJ
 Governance
 Thisplaybookcontainsallthepieces andpartsthat
 makeupourapproachtotransforming customer
-| journeys.Thisis | | alivingdocumentandthelatest |
-| --------------- | -------- | ----------------------------- |
-| versioncan | be found | onTCJ’sConfluencesite. |
-Last updated in May 2019
+
+| journeys.Thisis          |          | alivingdocumentandthelatest |
+| ------------------------ | -------- | --------------------------- |
+| versioncan               | be found | onTCJ’sConfluencesite.      |
+| Last updated in May 2019 |          |                             |
 
 How this module fits into overall TCJ Playbook
 Transformation
@@ -103,23 +108,24 @@ McKinsey & Company
 
 TCJ governance bodies
 With wider Bank Within TCJ
-| Scope | Committee | Purpose | Attendees | Frequency |
-| ----- | --------- | ------- | --------- | --------- |
-Program-level TCJ Business Budget allocation based on drawdown approved by DEXCO Chief Strategy and Design (Chair) Monthly
-Review Drawdown for all OPEX and CAPEX expenditures below RM1m (within Group Chief Technology Officer
-budget) Group Technology Leads (e.g. EAS, IT Security, App)
-| | | Overall TCJ program delivery plan (Benefits and timeline by Journey) | Head of TCJ | |
-| --- | --- | -------------------------------------------
 
----
+| Scope                                                                                                                      | Committee | Purpose                                                              | Attendees   | Frequency |
+| -------------------------------------------------------------------------------------------------------------------------- | --------- | -------------------------------------------------------------------- | ----------- | --------- |
+| Program-level TCJ Business Budget allocation based on drawdown approved by DEXCO Chief Strategy and Design (Chair) Monthly |           |                                                                      |             |           |
+| Review Drawdown for all OPEX and CAPEX expenditures below RM1m (within Group Chief Technology Officer                      |           |                                                                      |             |           |
+| budget) Group Technology Leads (e.g. EAS, IT Security, App)                                                                |           |                                                                      |             |           |
+|                                                                                                                            |           | Overall TCJ program delivery plan (Benefits and timeline by Journey) | Head of TCJ |           |
+| ---                                                                                                                        | ---       | -------------------------------------------                          |             |           |
+
+______________________________________________________________________
 
 ### Source 2: The Intelligence OS™
 
 > Path: `architecture/The_Intelligence_OS_Useful_Architecture.md` | Size: 28606 chars | Match score: 3
 
-# The Intelligence OS™
-## 1. Purpose
+## The Intelligence OS™
 
+## 1. Purpose
 
 The architecture separates:
 
@@ -131,9 +137,9 @@ $$\boxed{ CoreEngine \rightarrow DomainProducts \rightarrow CommercialSystems \r
 
 The source frames the system as a reusable intelligence substrate rather than a single application.
 
----
+______________________________________________________________________
 
-# 2. Epistemic Boundary
+## 2. Epistemic Boundary
 
 The source contains at least four different claim classes:
 
@@ -161,9 +167,9 @@ and:
 
 $$\boxed{ Projected\ Revenue \neq Observed\ Revenue }$$
 
----
+______________________________________________________________________
 
-# 3. Master System Architecture
+## 3. Master System Architecture
 
 The source can be represented as:
 
@@ -195,9 +201,9 @@ The system is therefore fundamentally:
 
 $$\boxed{ Platform + Portfolio + Commercialization + Scale }$$
 
----
+______________________________________________________________________
 
-# 4. Three Framing Layers
+## 4. Three Framing Layers
 
 The source describes a three-layer framing structure above the detailed product hierarchy.
 
@@ -218,9 +224,9 @@ These layers must not be collapsed.
 
 $$\boxed{ IntelligenceCapability \neq ProductMarketFit }$$
 
----
+______________________________________________________________________
 
-# 5. Level 0 — Core Intelligence Engine
+## 5. Level 0 — Core Intelligence Engine
 
 Level 0 is the shared engine beneath all commercial domains.
 
@@ -230,7 +236,7 @@ $$\boxed{ L_0 = CoreIntelligence }$$
 
 Its role is to provide reusable primitives such as:
 
-```text
+````text
 reasoning
 memory
 pattern detection
@@ -247,7 +253,7 @@ orchest
 
 > Path: `architecture/Hierarchical AI Architecture Generator v2.md` | Size: 23760 chars | Match score: 3
 
-# Hierarchical AI Architecture Generator v2
+## Hierarchical AI Architecture Generator v2
 
 ## Overview
 
@@ -275,7 +281,7 @@ The generator is intended to produce architectures that are explicit, queryable,
 
 ---
 
-# 1. Core Architecture Model
+## 1. Core Architecture Model
 
 The canonical transition is:
 
@@ -303,15 +309,15 @@ Current Architecture State
  ▼
  Validated Architecture
  S_next
-```
+````
 
 The formula represents an **architecture-generation model**.
 
 It should not be interpreted as a universal law of AI systems.
 
----
+______________________________________________________________________
 
-# 2. Hierarchical Architecture Grammar
+## 2. Hierarchical Architecture Grammar
 
 Each generated entry is positioned within a seven-level architecture hierarchy.
 
@@ -331,7 +337,7 @@ compression / expansion
 
 The meta-equation establishes structural intent rather than implementation detail.
 
----
+______________________________________________________________________
 
 ## Level 2 — Equation Family
 
@@ -349,9 +355,9 @@ Specific architecture relation
 
 Multiple equation families may belong to the same higher-order transformation class while remaining structurally distinct.
 
----
+______________________________________________________________________
 
-# 3. AI Layer
+## 3. AI Layer
 
 `AILayer` identifies where a generated architecture component operates.
 
@@ -386,9 +392,9 @@ local / subsystem / system
 
 is a scale classification.
 
----
+______________________________________________________________________
 
-# 4. Scale
+## 4. Scale
 
 `Scale` defines the architectural level at which an entry operates.
 
@@ -402,19 +408,18 @@ L — module / local operation
 
 A generated structure may therefore be represented conceptually as:
 
-[
+\[
 A = A(H,M,L)
-]
+\]
 
 but H/M/L similarity does not imply identical mechanisms across scales.
 
 Cross-scale mappings should preserve:
 
-
 ```
 ---
 
-# 5. Constraints
+## 5. Constraints
 
 `Constraint` represents conditions that a generated architecture must satisfy.
 
@@ -450,5 +455,8 @@ RSCF-RELATIONS:
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC
 
+```
+
+```
 ```
 ```

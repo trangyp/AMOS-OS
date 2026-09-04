@@ -1,9 +1,6 @@
 ---
 name: copilot-web-fetch
-description: Fetch and read the full contents of a specific web page (URL) as clean
-  Markdown using Copilot Plus. Use when the user shares a link or asks you to open,
-  read, or summarize a particular page — not for an open-ended web search. Requires
-  an active Copilot Plus license; without it, use your own fetch tool instead.
+description: Fetch and read the full contents of a specific web page (URL) as clean Markdown using Copilot Plus. Use when the user shares a link or asks you to open, read, or summarize a particular page — not for an open-ended web search. Requires an active Copilot Plus license; without it, use your own fetch tool instead.
 language: en
 license: Copilot Plus
 metadata:
@@ -11,7 +8,12 @@ metadata:
   copilot-enabled-agents: claude, codex, opencode
   copilot-builtin-version: '6'
 tags:
-- skill
+  - skill
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 # Copilot web fetch
@@ -56,7 +58,6 @@ the script reports that Self-Host mode is active, never use an agent-native web
 fetch tool. Use `copilot-web-search` when search results can answer the request;
 otherwise tell the user that fetching the page is unavailable.
 
-
----
+______________________________________________________________________
 
 **MOC:** [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/00_HOME|00_HOME]]

@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: References MOC — References — Amos Agent Memory Dynamics Rscf Engine
 type: moc
 source: 07_SKILLS/amos-agent-memory-dynamics-rscf-engine/references
 tags:
-- references
-- type/skill
-- law-hierarchy
-- amos-agent-memory-dynamics-rscf-engine-code
-- trang-framework-recursive-ontology-dynamics
+  - references
+  - type/skill
+  - law-hierarchy
+  - amos-agent-memory-dynamics-rscf-engine-code
+  - trang-framework-recursive-ontology-dynamics
 moc: true
 rscf:
   state: SOURCE_CLAIM
@@ -25,9 +28,9 @@ rscf:
 
 - [[07_SKILLS/amos-agent-memory-dynamics-rscf-engine/references/amos-agent-memory-dynamics-rscf-engine_code|amos-agent-memory-dynamics-rscf-engine_code]]
 
----
-**Parent:** [[07_SKILLS/amos-agent-memory-dynamics-rscf-engine/amos-agent-memory-dynamics-rscf-engine_MOC|amos-agent-memory-dynamics-rscf-engine_MOC]]
----
+______________________________________________________________________
+
+## **Parent:** [[07_SKILLS/amos-agent-memory-dynamics-rscf-engine/amos-agent-memory-dynamics-rscf-engine_MOC|amos-agent-memory-dynamics-rscf-engine_MOC]]
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -35,12 +38,14 @@ rscf:
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-agent-memory-dynamics-rscf-engine-references-MOC
 node_type: reference
 path: 07_SKILLS/amos-agent-memory-dynamics-rscf-engine/references/references_MOC.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

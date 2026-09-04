@@ -94,7 +94,7 @@
     "slides"
   ],
   "depends_on_workflows": [
-    "slides-workflow.md"
+    "amos-slides-workflow.md"
   ],
   "epistemic_class": "AMOS_MODEL",
   "claim_ceiling": 0.95,

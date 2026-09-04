@@ -12,20 +12,20 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: ENGINE
 path: 11_KNOWLEDGE/05_FRAMEWORKS/AMOS_UBI_SUPER_ENGINE.md
 tags:
-- amos-os
-- knowledge
-- vault
-- 05_frameworks
-- ubi_super_engine
-- biological_engine
-- alignment_computation
-- super_engine
-- rscf
-- canon_candidate
-- canon/knowledge
-- unified-biological-intelligence
-- ubi-score-framework
-- ubi-wearable-framework
+  - amos-os
+  - knowledge
+  - vault
+  - 05_frameworks
+  - ubi_super_engine
+  - biological_engine
+  - alignment_computation
+  - super_engine
+  - rscf
+  - canon_candidate
+  - canon/knowledge
+  - unified-biological-intelligence
+  - ubi-score-framework
+  - ubi-wearable-framework
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -40,20 +40,20 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - UBI_OFFICIAL_MANUAL
-  - AMOS_UBI_OMNIS_USE_CASES
-  - AMOS_CORPUS
+    - UBI_OFFICIAL_MANUAL
+    - AMOS_UBI_OMNIS_USE_CASES
+    - AMOS_CORPUS
   scope:
-  - KNOWLEDGE_FRAMEWORKS
-  - BIOLOGICAL_ENGINES
-  - SOURCE_DEFINED_MODEL
+    - KNOWLEDGE_FRAMEWORKS
+    - BIOLOGICAL_ENGINES
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   biological_master:
     artifact:
-    - - UNIFIED_BIOLOGICAL_INTELLIGENCE
+      -   - UNIFIED_BIOLOGICAL_INTELLIGENCE
   score_framework:
     artifact:
-    - - UBI_SCORE_FRAMEWORK
+      -   - UBI_SCORE_FRAMEWORK
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
@@ -67,28 +67,28 @@ epistemic_boundary:
 
 It operates as the primary computational engine calculating real-time biological alignment ($i$), effectiveness surfaces ($e = i^2$), and multi-domain homeostatic balancing across the AMOS ecosystem.
 
----
+______________________________________________________________________
 
-# 1. Computational Pipeline
+## 1. Computational Pipeline
 
 $$\vec{X}_{\text{UBI}} = [\text{NBI}(t), \text{NEI}(t), \text{SI}(t), \text{BEI}(t)] \xrightarrow{\text{Alignment Engine}} i(t) = \prod_{k=1}^4 x_k^{1/4} \xrightarrow{\text{Quadratic Transform}} e(t) = i(t)^2$$
 
 1. **Intake & Normalization:** Telemetry streams normalized to $[0, 1]$ bounds with outlier rejection.
-2. **Bottleneck Detection:** Identifies the minimum-value domain $\min(\vec{X}_{\text{UBI}})$ driving down systemic capacity.
-3. **Adaptive Feedback Dispatch:** Generates restorative interventions before irreversible fatigue occurs.
+1. **Bottleneck Detection:** Identifies the minimum-value domain $\min(\vec{X}_{\text{UBI}})$ driving down systemic capacity.
+1. **Adaptive Feedback Dispatch:** Generates restorative interventions before irreversible fatigue occurs.
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Biological Master:** [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]]
 - **Scoring Protocols:** [[11_KNOWLEDGE/05_FRAMEWORKS/UBI_SCORE_FRAMEWORK|UBI_SCORE_FRAMEWORK]]
 - **Use Cases:** `11_KNOWLEDGE/AMOS_UBI_OMNIS_USE_CASES`
 - **Wearable Stream:** [[11_KNOWLEDGE/05_FRAMEWORKS/UBI_WEARABLE_FRAMEWORK|UBI_WEARABLE_FRAMEWORK]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -106,10 +106,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]] · [[11_KNOWLEDGE/05_FRAMEWORKS/UBI_SCORE_FRAMEWORK|UBI_SCORE_FRAMEWORK]] · `11_KNOWLEDGE/AMOS_UBI_OMNIS_USE_CASES`
 
----
-**MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]
+______________________________________________________________________
 
+**MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]

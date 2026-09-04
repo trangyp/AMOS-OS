@@ -1,31 +1,34 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: L27 Multi Agent Cognition MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L27_MULTI_AGENT_COGNITION
 tags:
-- matrix/l27-multi-agent-cognition
-- domain/cognitive-matrix
-- cognitive-matrix-agents
-- cognitive-matrix-control-planes
-- cognitive-matrix-definition
-- cognitive-matrix-dependencies
-- cognitive-matrix-equations
-- cognitive-matrix-failure-modes
-- cognitive-matrix-gap-matrix
-- cognitive-matrix-hml
-- cognitive-matrix-invariants
-- cognitive-matrix-memory
-- cognitive-matrix-operators
-- cognitive-matrix-protocols
-- cognitive-matrix-provenance
-- cognitive-matrix-purpose
-- cognitive-matrix-repair
-- cognitive-matrix-rscf
-- cognitive-matrix-skills
-- cognitive-matrix-state
-- cognitive-matrix-tests
-- cognitive-matrix-variables
-- cognitive-matrix-workflows
+  - matrix/l27-multi-agent-cognition
+  - domain/cognitive-matrix
+  - cognitive-matrix-agents
+  - cognitive-matrix-control-planes
+  - cognitive-matrix-definition
+  - cognitive-matrix-dependencies
+  - cognitive-matrix-equations
+  - cognitive-matrix-failure-modes
+  - cognitive-matrix-gap-matrix
+  - cognitive-matrix-hml
+  - cognitive-matrix-invariants
+  - cognitive-matrix-memory
+  - cognitive-matrix-operators
+  - cognitive-matrix-protocols
+  - cognitive-matrix-provenance
+  - cognitive-matrix-purpose
+  - cognitive-matrix-repair
+  - cognitive-matrix-rscf
+  - cognitive-matrix-skills
+  - cognitive-matrix-state
+  - cognitive-matrix-tests
+  - cognitive-matrix-variables
+  - cognitive-matrix-workflows
 moc: true
 rscf:
   state: DERIVED
@@ -69,5 +72,6 @@ rscf:
 
 - [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]] — 00_INDEX
 
----
+______________________________________________________________________
+
 **Parent:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/01_PRIMITIVES_MOC|01_PRIMITIVES_MOC]]

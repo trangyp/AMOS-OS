@@ -1,24 +1,27 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: 09 Integration MOC
 type: moc
 source: 02_KERNEL/09_INTEGRATION
 tags:
-- 09-integration
-- canon/kernel
-- k-binding
-- k-cil
-- k-constraint-propagation
-- k-dcp
-- k-gmef
-- k-heritage-binding
-- k-hml
-- k-neurosyncai-binding
-- k-rscf
-- k-translation
-- k-tss-tpe-binding
-- k-uba
-- k-ubi-binding
-- k-universe-amos-binding
+  - 09-integration
+  - canon/kernel
+  - k-binding
+  - k-cil
+  - k-constraint-propagation
+  - k-dcp
+  - k-gmef
+  - k-heritage-binding
+  - k-hml
+  - k-neurosyncai-binding
+  - k-rscf
+  - k-translation
+  - k-tss-tpe-binding
+  - k-uba
+  - k-ubi-binding
+  - k-universe-amos-binding
 moc: true
 rscf:
   state: DERIVED
@@ -55,5 +58,6 @@ rscf:
 
 - [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]] — 00_INDEX
 
----
+______________________________________________________________________
+
 **Parent:** [[02_KERNEL/02_KERNEL_MOC|02_KERNEL_MOC]]

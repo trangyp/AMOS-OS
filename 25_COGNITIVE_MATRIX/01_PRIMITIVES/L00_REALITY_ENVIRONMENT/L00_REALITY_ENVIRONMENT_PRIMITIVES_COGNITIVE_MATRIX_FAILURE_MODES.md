@@ -1,14 +1,17 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: L00_REALITY_ENVIRONMENT — Failure Modes
 type: failure-mode
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT
 tags:
-- cognitive-matrix
-- primitives
-- matrix/l00-reality-environment
-- note
-- domain/cognitive-matrix
-- amos-simulation-kernel-v0-math-foundations
+  - cognitive-matrix
+  - primitives
+  - matrix/l00-reality-environment
+  - note
+  - domain/cognitive-matrix
+  - amos-simulation-kernel-v0-math-foundations
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -22,9 +25,9 @@ rscf:
 **Origin architect / steward:** Trang Phan
 **Status:** `ARCHITECTURE CONTRACT / IMPLEMENTATION-DEPENDENT`
 
----
+______________________________________________________________________
 
-# 1. Purpose
+## 1. Purpose
 
 `L00_REALITY_ENVIRONMENT / FAILURE_MODES` defines how AMOS detects, classifies, contains, propagates, repairs, and revalidates failures between external reality and internal reasoning state.
 
@@ -60,77 +63,71 @@ repair
 
 The primary objective is to prevent an internal AMOS state from remaining authoritative after its reality contact, evidence basis, provenance, dependencies, scope, regime, or authority have failed.
 
----
+______________________________________________________________________
 
-# 2. Fundamental Failure Model
+## 2. Fundamental Failure Model
 
 The normal L00 reality loop is:
 
-[
+\[
 Reality
-\rightarrow
+\\rightarrow
 Observation
-\rightarrow
+\\rightarrow
 Evidence
-\rightarrow
+\\rightarrow
 Representation
-\rightarrow
+\\rightarrow
 Reasoning
-\rightarrow
+\\rightarrow
 Decision
-\rightarrow
+\\rightarrow
 Action
-\rightarrow
+\\rightarrow
 Reality'
-]
+\]
 
 Failure can occur at every transition.
 
 Therefore:
 
-[
-\boxed{
-Failure_{L00}
-=============
+## \[ \\boxed{ Failure\_{L00}
 
 F_R
-\cup
+\\cup
 F_O
-\cup
+\\cup
 F_M
-\cup
+\\cup
 F_E
-\cup
+\\cup
 F_X
-\cup
+\\cup
 F_C
-\cup
+\\cup
 F_P
-\cup
+\\cup
 F_G
-\cup
+\\cup
 F_A
-\cup
+\\cup
 F_F
 }
-]
+\]
 
 where the terms represent reality-access, observation, measurement, evidence, representation, claim, provenance, governance, action, and feedback failures.
 
 This is an AMOS architectural decomposition, not a universal empirical law.
 
----
+______________________________________________________________________
 
-# 3. Failure Tensor
+## 3. Failure Tensor
 
 Every material failure should be representable as:
 
-[
-\boxed{
-T_F
-===
+## \[ \\boxed{ T_F
 
-T[
+T\[
 failure_id,
 failure_class,
 target,
@@ -153,9 +150,9 @@ containment,
 repair,
 falsifiers,
 status
-]
+\]
 }
-]
+\]
 
 Required states include:
 
@@ -172,9 +169,9 @@ UNRESOLVED
 IRRECOVERABLE
 ```
 
----
+______________________________________________________________________
 
-# 4. Failure Is Not One State
+## 4. Failure Is Not One State
 
 AMOS distinguishes:
 
@@ -209,9 +206,9 @@ RECOVERY
 
 A detected symptom must not automatically be promoted to root cause.
 
----
+______________________________________________________________________
 
-# 5. Failure Classification
+## 5. Failure Classification
 
 Primary L00 failure classes:
 
@@ -247,22 +244,19 @@ CROSS_SCALE_FAILURE
 SYSTEMIC_FAILURE
 ```
 
----
+______________________________________________________________________
 
-# 6. Reality-Access Failure
+## 6. Reality-Access Failure
 
 Reality-access failure occurs when the system lacks sufficient external contact for a claim requiring external validation.
 
-[
-\boxed{
-F_{access}
-==========
+## \[ \\boxed{ F\_{access}
 
 RequiredObservation
-\land
-\neg ObservationAvailable
+\\land
+\\neg ObservationAvailable
 }
-]
+\]
 
 Correct state:
 
@@ -282,9 +276,9 @@ Hard invariant:
 NO ACCESS != NEGATIVE OBSERVATION
 ```
 
----
+______________________________________________________________________
 
-# 7. Observation Failure
+## 7. Observation Failure
 
 Observation failure occurs when the observation process does not reliably represent its declared target.
 
@@ -305,9 +299,9 @@ incorrect observation target
 
 Observation failure does not prove that the observed object itself failed.
 
----
+______________________________________________________________________
 
-# 8. Measurement Failure
+## 8. Measurement Failure
 
 Measurement failure occurs when:
 
@@ -323,26 +317,23 @@ measurement target is misidentified
 
 Formally:
 
-[
-\boxed{
-ValidMeasurement
-================
+## \[ \\boxed{ ValidMeasurement
 
 MethodValid
-\land
+\\land
 CalibrationValid
-\land
+\\land
 TargetCompatible
-\land
+\\land
 UnitsCompatible
 }
-]
+\]
 
 Failure of any load-bearing component blocks measurement-dependent conclusions.
 
----
+______________________________________________________________________
 
-# 9. Proxy Failure
+## 9. Proxy Failure
 
 A measured proxy can fail while the underlying phenomenon remains unchanged.
 
@@ -352,15 +343,15 @@ PROXY FAILURE != REALITY FAILURE
 
 If:
 
-[
-Proxy(X)\rightarrow Measurement
-]
+\[
+Proxy(X)\\rightarrow Measurement
+\]
 
-fails, AMOS invalidates claims dependent on the proxy rather than asserting failure of \(X\).
+fails, AMOS invalidates claims dependent on the proxy rather than asserting failure of (X).
 
----
+______________________________________________________________________
 
-# 10. Evidence Failure
+## 10. Evidence Failure
 
 Evidence failure occurs when evidence becomes unusable for its intended claim.
 
@@ -380,40 +371,37 @@ evidence misquoted
 evidence incompletely extracted
 ```
 
----
+______________________________________________________________________
 
-# 11. Evidence Revocation
+## 11. Evidence Revocation
 
-For evidence \(E_i\):
+For evidence (E_i):
 
-[
-\boxed{
+\[
+\\boxed{
 Revoked(E_i)
-\Rightarrow
+\\Rightarrow
 Support(E_i)=DISABLED
 }
-]
+\]
 
 Dependent conclusions require revalidation.
 
 Revocation does not automatically prove the opposite conclusion.
 
----
+______________________________________________________________________
 
-# 12. Provenance Failure
+## 12. Provenance Failure
 
 Provenance failure occurs when AMOS cannot reliably determine where a claim, observation, memory, or derived state originated.
 
-[
-\boxed{
-F_P(x)
-======
+## \[ \\boxed{ F_P(x)
 
 RequiredProvenance(x)
-\land
-\neg RecoverableProvenance(x)
+\\land
+\\neg RecoverableProvenance(x)
 }
-]
+\]
 
 Possible response:
 
@@ -426,9 +414,9 @@ REJECT
 
 depending on consequence and dependency role.
 
----
+______________________________________________________________________
 
-# 13. Provenance Ancestry Collapse
+## 13. Provenance Ancestry Collapse
 
 Multiple apparently distinct evidence objects may descend from one source.
 
@@ -444,36 +432,33 @@ Source A
 
 Then:
 
-[
-\boxed{
+\[
+\\boxed{
 Count(B,C,D,E)=4
 }
-]
+\]
 
 does not imply:
 
-[
-\boxed{
+\[
+\\boxed{
 IndependentEvidence=4
 }
-]
+\]
 
 Failure to resolve this ancestry creates false confidence.
 
----
+______________________________________________________________________
 
-# 14. Independence Failure
+## 14. Independence Failure
 
-[
-\boxed{
-F_I
-===
+## \[ \\boxed{ F_I
 
 AssumedIndependent(E_i,E_j)
-\land
+\\land
 SharedLoadBearingOrigin(E_i,E_j)
 }
-]
+\]
 
 Hard invariant:
 
@@ -489,9 +474,9 @@ UNKNOWN_INDEPENDENCE
 
 not independent.
 
----
+______________________________________________________________________
 
-# 15. Representation Failure
+## 15. Representation Failure
 
 Representation failure occurs when the internal state no longer preserves the distinctions required by the represented system.
 
@@ -511,48 +496,45 @@ compression loss
 semantic collapse
 ```
 
----
+______________________________________________________________________
 
-# 16. Reality / Representation Collapse
+## 16. Reality / Representation Collapse
 
 Critical failure:
 
-[
-\boxed{
+\[
+\\boxed{
 Representation
-\equiv
+\\equiv
 Reality
 }
-]
+\]
 
 when the architecture silently treats internal state as the external state itself.
 
 Required invariant:
 
-[
-\boxed{
-Representation \neq Reality
+\[
+\\boxed{
+Representation \\neq Reality
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 17. Grounding Failure
+## 17. Grounding Failure
 
 Grounding failure occurs when a claim requiring external support lacks a valid evidence path.
 
-[
-\boxed{
-GroundingFailure(C)
-===================
+## \[ \\boxed{ GroundingFailure(C)
 
 Asserted(C)
-\land
+\\land
 RequiredExternalSupport(C)
-\land
-\neg ValidEvidencePath(C)
+\\land
+\\neg ValidEvidencePath(C)
 }
-]
+\]
 
 Possible result:
 
@@ -564,39 +546,39 @@ UNKNOWN/GAP
 
 depending on what remains supported.
 
----
+______________________________________________________________________
 
-# 18. AI Hallucination Failure
+## 18. AI Hallucination Failure
 
 Within L00, hallucination is treated structurally as a grounding failure.
 
 A candidate condition is:
 
-[
-\boxed{
+\[
+\\boxed{
 Asserted(C)
-\land
+\\land
 Support(C)=UNKNOWN
 }
-]
+\]
 
 or:
 
-[
-\boxed{
+\[
+\\boxed{
 Asserted(C)
-\land
+\\land
 Support(C)=INCOMPATIBLE
 }
-]
+\]
 
 This establishes insufficient grounding.
 
 It does not by itself establish that the claim is false.
 
----
+______________________________________________________________________
 
-# 19. Source-Claim Promotion Failure
+## 19. Source-Claim Promotion Failure
 
 Failure occurs when:
 
@@ -624,9 +606,9 @@ Hard invariant:
 SOURCE_CLAIM != VERIFIED FACT
 ```
 
----
+______________________________________________________________________
 
-# 20. Model-Reality Confusion
+## 20. Model-Reality Confusion
 
 Failure occurs when:
 
@@ -642,17 +624,17 @@ OBSERVED_REALITY
 
 without external validation.
 
-[
-\boxed{
+\[
+\\boxed{
 ModelState
-\neq
+\\neq
 ObservedReality
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 21. Simulation-Reality Failure
+## 21. Simulation-Reality Failure
 
 Simulation consistency is not real-world confirmation.
 
@@ -662,33 +644,33 @@ SIMULATION PASS != DEPLOYMENT VALIDATION
 
 A simulation may establish behavior inside its modeled environment while remaining unvalidated outside that environment.
 
----
+______________________________________________________________________
 
-# 22. Synthetic Validation Failure
+## 22. Synthetic Validation Failure
 
 Synthetic data generated from assumptions cannot independently validate those same assumptions.
 
 If:
 
-[
+\[
 SyntheticData=Generator(M)
-]
+\]
 
 then:
 
-[
-\boxed{
+\[
+\\boxed{
 SyntheticData
-\not\perp
+\\not\\perp
 M
 }
-]
+\]
 
-with respect to assumptions inherited from \(M\).
+with respect to assumptions inherited from (M).
 
----
+______________________________________________________________________
 
-# 23. Digital-Twin Identity Failure
+## 23. Digital-Twin Identity Failure
 
 A digital twin state must remain distinct from the entity it represents.
 
@@ -698,9 +680,9 @@ TWIN STATE != REAL ENTITY STATE
 
 Twin divergence must remain first-class evidence rather than being overwritten to preserve apparent consistency.
 
----
+______________________________________________________________________
 
-# 24. Forecast-Reality Failure
+## 24. Forecast-Reality Failure
 
 A forecast is a future-state model.
 
@@ -710,15 +692,15 @@ FORECAST != FUTURE OBSERVATION
 
 Failure occurs when predicted outcomes are stored or propagated as if already observed.
 
----
+______________________________________________________________________
 
-# 25. Counterfactual-Reality Failure
+## 25. Counterfactual-Reality Failure
 
 Counterfactual state:
 
-[
+\[
 R^{cf}
-]
+\]
 
 must not be represented as observed historical state.
 
@@ -726,44 +708,41 @@ must not be represented as observed historical state.
 COUNTERFACTUAL != OBSERVATION
 ```
 
----
+______________________________________________________________________
 
-# 26. Fidelity-Envelope Failure
+## 26. Fidelity-Envelope Failure
 
 A model may only inherit validation inside its validated envelope.
 
 Define:
 
-[
-\boxed{
-FidelityEnvelope
-================
+## \[ \\boxed{ FidelityEnvelope
 
 ValidatedVariables
-\cap
+\\cap
 ValidatedRegimes
-\cap
+\\cap
 ValidatedTimeWindow
-\cap
+\\cap
 ValidatedMeasurementMethods
 }
-]
+\]
 
 Failure occurs when claims leave this envelope without revalidation.
 
----
+______________________________________________________________________
 
-# 27. Scope Failure
+## 27. Scope Failure
 
 Scope leakage occurs when:
 
-[
-\boxed{
+\[
+\\boxed{
 Scope(C)
-\nsubseteq
+\\nsubseteq
 Scope(Evidence)
 }
-]
+\]
 
 without independent extension evidence.
 
@@ -778,31 +757,31 @@ one deployment -> universal behavior
 one time window -> permanent validity
 ```
 
----
+______________________________________________________________________
 
-# 28. Regime Failure
+## 28. Regime Failure
 
 A regime-sensitive claim becomes stale when its governing regime changes.
 
-[
-\boxed{
-G_t \neq G_{t+1}
+\[
+\\boxed{
+G_t \\neq G\_{t+1}
 }
-]
+\]
 
 does not automatically invalidate every claim.
 
 It triggers revalidation for:
 
-[
-\boxed{
+\[
+\\boxed{
 {C_i: DependsOn(C_i,G)}
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 29. Temporal Failure
+## 29. Temporal Failure
 
 Temporal failure includes:
 
@@ -823,53 +802,53 @@ Hard invariant:
 PAST VALIDITY != CURRENT VALIDITY
 ```
 
----
+______________________________________________________________________
 
-# 30. Stale-State Failure
+## 30. Stale-State Failure
 
-[
-\boxed{
-StateVersion_{read}
-\neq
-StateVersion_{current}
+\[
+\\boxed{
+StateVersion\_{read}
+\\neq
+StateVersion\_{current}
 }
-]
+\]
 
 If the difference can alter a decision:
 
-[
-\boxed{
+\[
+\\boxed{
 CommitEligible=FALSE
 }
-]
+\]
 
 until revalidation.
 
----
+______________________________________________________________________
 
-# 31. Dependency Failure
+## 31. Dependency Failure
 
 For:
 
-[
-C\leftarrow P_1,P_2,\ldots,P_n
-]
+\[
+C\\leftarrow P_1,P_2,\\ldots,P_n
+\]
 
-if load-bearing premise \(P_k\) fails:
+if load-bearing premise (P_k) fails:
 
-[
-\boxed{
+\[
+\\boxed{
 Validity(P_k)=FALSE
-\Rightarrow
+\\Rightarrow
 Revalidate(C)
 }
-]
+\]
 
 The failure propagates only through material dependency edges.
 
----
+______________________________________________________________________
 
-# 32. Dependency-Closure Failure
+## 32. Dependency-Closure Failure
 
 Failure occurs when a conclusion is finalized without resolving its smallest sufficient dependency closure.
 
@@ -877,31 +856,31 @@ Failure occurs when a conclusion is finalized without resolving its smallest suf
 UNRESOLVED LOAD-BEARING DEPENDENCY != VALID CLOSURE
 ```
 
----
+______________________________________________________________________
 
-# 33. Over-Invalidation Failure
+## 33. Over-Invalidation Failure
 
 A local premise failure must not destroy unrelated state.
 
-[
-\boxed{
+\[
+\\boxed{
 Invalidate(FailedDescendants)
 }
-]
+\]
 
 not:
 
-[
-\boxed{
+\[
+\\boxed{
 Invalidate(All)
 }
-]
+\]
 
 unless dependency analysis establishes system-wide contamination.
 
----
+______________________________________________________________________
 
-# 34. Under-Invalidation Failure
+## 34. Under-Invalidation Failure
 
 The inverse failure occurs when descendants continue to be trusted after a load-bearing premise fails.
 
@@ -913,9 +892,9 @@ DEPENDENT CLAIM REMAINS AUTHORITATIVE
 INVALID STATE PROPAGATION
 ```
 
----
+______________________________________________________________________
 
-# 35. Causal Promotion Failure
+## 35. Causal Promotion Failure
 
 Failure occurs when:
 
@@ -932,15 +911,15 @@ is promoted into causal effect without suitable causal evidence.
 
 Hard firewall:
 
-[
-\boxed{
-Correlation \not\Rightarrow Causation
+\[
+\\boxed{
+Correlation \\not\\Rightarrow Causation
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 36. Causal-Level Confusion
+## 36. Causal-Level Confusion
 
 AMOS distinguishes:
 
@@ -959,31 +938,31 @@ FEEDBACK
 
 Failure occurs when these relation types collapse into one generic `CAUSES` edge.
 
----
+______________________________________________________________________
 
-# 37. Competing-Hypothesis Collapse
+## 37. Competing-Hypothesis Collapse
 
 Failure occurs when one explanation is selected despite unresolved alternatives.
 
 For:
 
-[
-\mathcal H={H_1,H_2,H_3}
-]
+\[
+\\mathcal H={H_1,H_2,H_3}
+\]
 
 if evidence cannot discriminate:
 
-[
-\boxed{
+\[
+\\boxed{
 State=COMPETING
 }
-]
+\]
 
 not arbitrary convergence.
 
----
+______________________________________________________________________
 
-# 38. Confirmation Loop Failure
+## 38. Confirmation Loop Failure
 
 A self-confirming reasoning loop can occur:
 
@@ -1003,9 +982,9 @@ GENERATED CONFIRMATION
 
 This does not create independent evidence.
 
----
+______________________________________________________________________
 
-# 39. Recursive AI Contamination
+## 39. Recursive AI Contamination
 
 AI-generated material may re-enter future reasoning as though externally validated.
 
@@ -1031,9 +1010,9 @@ preserve generator ancestry
 preserve validation status
 ```
 
----
+______________________________________________________________________
 
-# 40. Memory Failure
+## 40. Memory Failure
 
 Memory failure classes include:
 
@@ -1050,9 +1029,9 @@ REGIME_MISMATCHED_MEMORY
 UNAUTHORIZED_MEMORY
 ```
 
----
+______________________________________________________________________
 
-# 41. Memory-Reality Confusion
+## 41. Memory-Reality Confusion
 
 Hard invariant:
 
@@ -1062,30 +1041,27 @@ MEMORY != CURRENT REALITY
 
 Memory must be treated as historical or persistent state whose current applicability may require validation.
 
----
+______________________________________________________________________
 
-# 42. Memory Poisoning
+## 42. Memory Poisoning
 
 Memory poisoning occurs when contaminated or insufficiently validated information enters persistent state and later influences decisions.
 
-[
-\boxed{
-PoisonRisk(m)
-=============
+## \[ \\boxed{ PoisonRisk(m)
 
 Persistent(m)
-\land
+\\land
 UntrustedOrigin(m)
-\land
+\\land
 DownstreamInfluence(m)
 }
-]
+\]
 
 This is a structural risk relation, not a universal numerical metric.
 
----
+______________________________________________________________________
 
-# 43. Retrieval Failure
+## 43. Retrieval Failure
 
 Retrieval failure includes:
 
@@ -1109,9 +1085,9 @@ NOT RETRIEVED != ABSENT
 TOP RESULT != TRUE
 ```
 
----
+______________________________________________________________________
 
-# 44. Context Failure
+## 44. Context Failure
 
 Context failure occurs when the AI reasoning context lacks a load-bearing constraint, premise, provenance anchor, or unresolved contradiction.
 
@@ -1126,18 +1102,15 @@ contradiction loss
 invalid action
 ```
 
----
+______________________________________________________________________
 
-# 45. Compression Failure
+## 45. Compression Failure
 
 Compression fails when it removes decision-relevant structure.
 
 Required preservation set:
 
-[
-\boxed{
-K_{preserve}
-============
+## \[ \\boxed{ K\_{preserve}
 
 {
 premises,
@@ -1149,13 +1122,13 @@ falsifiers,
 dependencies
 }
 }
-]
+\]
 
 where load-bearing.
 
----
+______________________________________________________________________
 
-# 46. Semantic Collapse
+## 46. Semantic Collapse
 
 Semantic collapse occurs when distinct variables or concepts become merged.
 
@@ -1174,9 +1147,9 @@ retrieval = verification
 
 These collapses can create downstream structural corruption.
 
----
+______________________________________________________________________
 
-# 47. Tensor Compatibility Failure
+## 47. Tensor Compatibility Failure
 
 Two tensors may have identical shape while carrying incompatible semantics.
 
@@ -1186,9 +1159,9 @@ SAME SHAPE != SAME TENSOR
 
 Composition is prohibited until shared axes are compatible.
 
----
+______________________________________________________________________
 
-# 48. Variable Collision
+## 48. Variable Collision
 
 Failure occurs when the same symbol or field name represents different quantities.
 
@@ -1210,9 +1183,9 @@ observer
 provenance
 ```
 
----
+______________________________________________________________________
 
-# 49. Cross-Scale Failure
+## 49. Cross-Scale Failure
 
 Cross-scale failure occurs when evidence or conclusions move between H/M/L without a valid transformation.
 
@@ -1227,19 +1200,19 @@ simulation subsystem -> deployed ecosystem
 
 Hard invariant:
 
-[
-\boxed{
+\[
+\\boxed{
 Evidence_L
-\not\Rightarrow
+\\not\\Rightarrow
 Claim_H
 }
-]
+\]
 
 without a validated transformation.
 
----
+______________________________________________________________________
 
-# 50. Boundary Failure
+## 50. Boundary Failure
 
 Boundary failure includes:
 
@@ -1264,25 +1237,25 @@ UNDEFINED
 STALE
 ```
 
----
+______________________________________________________________________
 
-# 51. Constraint Failure
+## 51. Constraint Failure
 
-For hard constraint \(c_h\):
+For hard constraint (c_h):
 
-[
-\boxed{
-\neg Satisfied(c_h)
-\Rightarrow
+\[
+\\boxed{
+\\neg Satisfied(c_h)
+\\Rightarrow
 TransitionBlocked
 }
-]
+\]
 
 Failure occurs when the system proceeds despite the violated constraint.
 
----
+______________________________________________________________________
 
-# 52. Constraint Shadowing
+## 52. Constraint Shadowing
 
 A lower-level optimization may silently override a higher-level constraint.
 
@@ -1302,9 +1275,9 @@ This violates:
 OPTIMIZATION MAY NOT WEAKEN INTEGRITY
 ```
 
----
+______________________________________________________________________
 
-# 53. Authority Failure
+## 53. Authority Failure
 
 Authority failure occurs when an action is executed without valid permission for:
 
@@ -1323,27 +1296,27 @@ Hard boundary:
 CAPABILITY != AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 54. Authority Freshness Failure
+## 54. Authority Freshness Failure
 
 Authority may expire or be revoked after planning but before execution.
 
 Therefore:
 
-[
-\boxed{
-Authority_{proposal}
-\not\Rightarrow
-Authority_{commit}
+\[
+\\boxed{
+Authority\_{proposal}
+\\not\\Rightarrow
+Authority\_{commit}
 }
-]
+\]
 
 Commit-time validation is required for consequential mutable authority.
 
----
+______________________________________________________________________
 
-# 55. Proposal/Commit Collapse
+## 55. Proposal/Commit Collapse
 
 Critical control-plane failure:
 
@@ -1361,9 +1334,9 @@ Hard invariant:
 PROPOSAL != COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 56. Transaction Failure
+## 56. Transaction Failure
 
 Transaction failures include:
 
@@ -1379,15 +1352,15 @@ lost rollback state
 non-atomic dependent effects
 ```
 
----
+______________________________________________________________________
 
-# 57. Partial-Commit Failure
+## 57. Partial-Commit Failure
 
 For coupled effects:
 
-[
+\[
 {W_1,W_2,W_3}
-]
+\]
 
 failure occurs when only a subset commits while the architecture requires atomicity.
 
@@ -1399,9 +1372,9 @@ INCONSISTENT STATE
 
 requiring rollback or compensating repair.
 
----
+______________________________________________________________________
 
-# 58. Action Failure
+## 58. Action Failure
 
 Action failure includes:
 
@@ -1419,21 +1392,21 @@ unexpected external state
 
 Tool invocation success does not prove desired effect success.
 
----
+______________________________________________________________________
 
-# 59. Effect Failure
+## 59. Effect Failure
 
 Expected effect:
 
-[
-\hat E
-]
+\[
+\\hat E
+\]
 
 must remain distinct from observed effect:
 
-[
-E_{obs}
-]
+\[
+E\_{obs}
+\]
 
 Hard invariant:
 
@@ -1441,9 +1414,9 @@ Hard invariant:
 EXPECTED EFFECT != OBSERVED EFFECT
 ```
 
----
+______________________________________________________________________
 
-# 60. Silent-Effect Failure
+## 60. Silent-Effect Failure
 
 A dangerous failure occurs when the system assumes an action succeeded without observing or validating the effect.
 
@@ -1457,9 +1430,9 @@ STATE MARKED COMPLETE
 
 This must be prevented for effects requiring confirmation.
 
----
+______________________________________________________________________
 
-# 61. Feedback Failure
+## 61. Feedback Failure
 
 Feedback failure occurs when observed consequences do not correctly update upstream state.
 
@@ -1474,23 +1447,23 @@ regime change not propagated
 constraint violation hidden
 ```
 
----
+______________________________________________________________________
 
-# 62. Closed-Loop Failure
+## 62. Closed-Loop Failure
 
 A complete reality loop requires:
 
-[
+\[
 Action
-\rightarrow
+\\rightarrow
 Effect
-\rightarrow
+\\rightarrow
 Observation
-\rightarrow
+\\rightarrow
 Evaluation
-\rightarrow
+\\rightarrow
 Update
-]
+\]
 
 Failure occurs when the loop terminates at:
 
@@ -1506,17 +1479,17 @@ Expected Effect
 
 without reality-contact validation.
 
----
+______________________________________________________________________
 
-# 63. Drift Failure
+## 63. Drift Failure
 
 Let:
 
-[
-D_t=d(X_t,X_t^*)
-]
+\[
+D_t=d(X_t,X_t^\*)
+\]
 
-where (X_t^*) is newly grounded state.
+where (X_t^\*) is newly grounded state.
 
 Persistent or increasing divergence may indicate:
 
@@ -1531,9 +1504,9 @@ regime shift
 
 These remain competing hypotheses until discriminated.
 
----
+______________________________________________________________________
 
-# 64. Reality-Contact Failure
+## 64. Reality-Contact Failure
 
 Reality contact requires:
 
@@ -1546,75 +1519,72 @@ regime compatible
 
 Conceptually:
 
-[
-\boxed{
-RealityContact
-==============
+## \[ \\boxed{ RealityContact
 
 ExternalObservationPresent
-\land
+\\land
 MeasurementMethodKnown
-\land
+\\land
 ProvenanceRecoverable
-\land
+\\land
 RegimeCompatible
 }
-]
+\]
 
 Failure of required components lowers the permissible conclusion class.
 
----
+______________________________________________________________________
 
-# 65. Coherence Without Reality Contact
+## 65. Coherence Without Reality Contact
 
 A system may be internally consistent and externally wrong.
 
-[
-\boxed{
+\[
+\\boxed{
 InternalCoherence
-\not\Rightarrow
+\\not\\Rightarrow
 RealityContact
 }
-]
+\]
 
 This is one of the most important L00 failure boundaries.
 
----
+______________________________________________________________________
 
-# 66. Self-Sealing Model Failure
+## 66. Self-Sealing Model Failure
 
 A model becomes epistemically unsafe when no possible observation can lower confidence in its empirical claims.
 
-For empirically falsifiable model \(M\):
+For empirically falsifiable model (M):
 
-[
-\boxed{
-\exists E_f:
+\[
+\\boxed{
+\\exists E_f:
 Observe(E_f)
-\Rightarrow
-Conf(M)\downarrow
+\\Rightarrow
+Conf(M)\\downarrow
 }
-]
+\]
 
 should hold.
 
 If not, the claim must not be treated as ordinary falsifiable empirical knowledge.
 
----
+______________________________________________________________________
 
-# 67. Confidence Inflation
+## 67. Confidence Inflation
 
 Failure occurs when:
 
-[
-\boxed{
+\[
+\\boxed{
 Conf(C)
 
 >
 
-\min_{p\in P_C}Conf(p)
+\\min\_{p\\in P_C}Conf(p)
 }
-]
+\]
 
 without independent revalidation.
 
@@ -1629,18 +1599,18 @@ summary amplification
 hidden premise loss
 ```
 
----
+______________________________________________________________________
 
-# 68. Confidence Scalar Collapse
+## 68. Confidence Scalar Collapse
 
 A single confidence score may hide incompatible uncertainty dimensions.
 
 AMOS preserves, where material:
 
-[
-\boxed{
+\[
+\\boxed{
 U=
-[
+\[
 U_E,
 U_M,
 U_S,
@@ -1648,15 +1618,15 @@ U_T,
 U_C,
 U_X,
 U_P
-]
+\]
 }
-]
+\]
 
 Failure occurs when high confidence in one dimension masks critical uncertainty in another.
 
----
+______________________________________________________________________
 
-# 69. Premature Closure
+## 69. Premature Closure
 
 Premature closure occurs when reasoning stops before decision-changing uncertainty is resolved.
 
@@ -1678,9 +1648,9 @@ COMPETING
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 70. Endless Analysis Failure
+## 70. Endless Analysis Failure
 
 The inverse failure is unnecessary expansion after claim, decision, and action sufficiency have been reached.
 
@@ -1688,16 +1658,13 @@ AMOS should stop when additional evidence has negligible expected decision value
 
 This is an efficiency failure unless continued analysis is required by governance.
 
----
+______________________________________________________________________
 
-# 71. Failure Severity Tensor
+## 71. Failure Severity Tensor
 
-[
-\boxed{
-T_S
-===
+## \[ \\boxed{ T_S
 
-T[
+T\[
 failure,
 impact,
 dependency_fanout,
@@ -1706,22 +1673,19 @@ irreversibility,
 detectability,
 recoverability,
 time_to_harm
-]
+\]
 }
-]
+\]
 
 Severity must not be inferred from surface drama alone.
 
----
+______________________________________________________________________
 
-# 72. Failure Priority
+## 72. Failure Priority
 
 A structural priority relation may use:
 
-[
-\boxed{
-Priority(f)
-===========
+## \[ \\boxed{ Priority(f)
 
 g(
 Impact,
@@ -1731,13 +1695,13 @@ TimeSensitivity,
 Recoverability
 )
 }
-]
+\]
 
 This is a model unless operationalized for a specific implementation.
 
----
+______________________________________________________________________
 
-# 73. H/M/L Failure Mapping
+## 73. H/M/L Failure Mapping
 
 ## H — Governing/System Failures
 
@@ -1774,43 +1738,43 @@ unit mismatch
 broken dependency edge
 ```
 
----
+______________________________________________________________________
 
-# 74. Upward Failure Propagation
+## 74. Upward Failure Propagation
 
 A local failure propagates upward only when it crosses a load-bearing dependency.
 
-[
-\boxed{
+\[
+\\boxed{
 L_f
-\rightarrow
+\\rightarrow
 M_f
 }
-]
+\]
 
 only if:
 
-[
-\boxed{
+\[
+\\boxed{
 MaterialDependency(M,L_f)=TRUE
 }
-]
+\]
 
 Likewise:
 
-[
-\boxed{
+\[
+\\boxed{
 M_f
-\rightarrow
+\\rightarrow
 H_f
 }
-]
+\]
 
 requires system-level dependency.
 
----
+______________________________________________________________________
 
-# 75. Downward Failure Propagation
+## 75. Downward Failure Propagation
 
 Higher-level failure may invalidate lower-level admissibility without proving lower-level observations false.
 
@@ -1824,64 +1788,58 @@ can block an action.
 
 It does not falsify the data that originally motivated the action.
 
----
+______________________________________________________________________
 
-# 76. Failure Propagation Graph
+## 76. Failure Propagation Graph
 
-[
-\boxed{
+\[
+\\boxed{
 G_F=(V_F,E_F)
 }
-]
+\]
 
 where:
 
-- \(V_F\) = states, claims, evidence, models, actions;
-- \(E_F\) = material dependency edges.
+- (V_F) = states, claims, evidence, models, actions;
+- (E_F) = material dependency edges.
 
 Affected state:
 
-[
-\boxed{
-Affected(f)
-===========
+## \[ \\boxed{ Affected(f)
 
-Descendants_{material}(f)
+Descendants\_{material}(f)
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 77. Selective Invalidation Law
+## 77. Selective Invalidation Law
 
-[
-\boxed{
-Invalidate(f)
-=============
+## \[ \\boxed{ Invalidate(f)
 
 Affected(f)
 }
-]
+\]
 
 not the entire knowledge state.
 
 Global invalidation is reserved for failures whose dependency closure is genuinely global.
 
----
+______________________________________________________________________
 
-# 78. Quarantine
+## 78. Quarantine
 
 Quarantine separates suspect state from trusted operational state.
 
-[
-\boxed{
+\[
+\\boxed{
 Q(x)
 :
 ACTIVE
-\rightarrow
+\\rightarrow
 QUARANTINED
 }
-]
+\]
 
 Quarantine preserves:
 
@@ -1895,9 +1853,9 @@ repair history
 
 where possible.
 
----
+______________________________________________________________________
 
-# 79. Quarantine Invariant
+## 79. Quarantine Invariant
 
 ```text
 QUARANTINED != DELETED
@@ -1914,22 +1872,19 @@ falsification
 audit
 ```
 
----
+______________________________________________________________________
 
-# 80. Containment
+## 80. Containment
 
 Containment prevents a detected failure from expanding its consequence radius.
 
-[
-\boxed{
-Contain(f)
-==========
+## \[ \\boxed{ Contain(f)
 
 Block(
 UnsafePropagation(f)
 )
 }
-]
+\]
 
 Potential controls:
 
@@ -1945,9 +1900,9 @@ revoke capability
 require human approval
 ```
 
----
+______________________________________________________________________
 
-# 81. Repair Target Selection
+## 81. Repair Target Selection
 
 Repair should target the earliest load-bearing failure capable of explaining downstream symptoms.
 
@@ -1957,14 +1912,11 @@ SYMPTOM REPAIR
 
 is insufficient when the causal defect remains active.
 
----
+______________________________________________________________________
 
-# 82. Repair Equation
+## 82. Repair Equation
 
-[
-\boxed{
-Repair(f)
-=========
+## \[ \\boxed{ Repair(f)
 
 Restore(
 ValidInputs,
@@ -1974,13 +1926,13 @@ ValidConstraints,
 ValidState
 )
 }
-]
+\]
 
 Repair remains provisional until validated.
 
----
+______________________________________________________________________
 
-# 83. Repair State Machine
+## 83. Repair State Machine
 
 ```text
 VALID
@@ -2010,32 +1962,29 @@ IRRECOVERABLE
 ABANDONED
 ```
 
----
+______________________________________________________________________
 
-# 84. Recovery
+## 84. Recovery
 
 Recovery requires more than disappearance of the visible symptom.
 
-[
-\boxed{
-Recovered
-=========
+## \[ \\boxed{ Recovered
 
 RepairApplied
-\land
+\\land
 InvariantPass
-\land
+\\land
 DependenciesValid
-\land
+\\land
 RealityContactRestored
 }
-]
+\]
 
 where reality contact is required.
 
----
+______________________________________________________________________
 
-# 85. Recovery Without Erasure
+## 85. Recovery Without Erasure
 
 Failure history must remain available when required for future reliability.
 
@@ -2045,30 +1994,27 @@ RECOVERY != HISTORY DELETION
 
 Repair provenance may become evidence for future trust decisions.
 
----
+______________________________________________________________________
 
-# 86. Rollback
+## 86. Rollback
 
 Rollback is valid only when the target state is known and compatible.
 
-[
-\boxed{
-RollbackSafe
-============
+## \[ \\boxed{ RollbackSafe
 
 TargetKnown
-\land
+\\land
 DependenciesCompatible
-\land
+\\land
 AuthorityValid
-\land
+\\land
 ExternalEffectsHandled
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 87. Repair-Harm Failure
+## 87. Repair-Harm Failure
 
 Repair itself may cause new damage.
 
@@ -2086,9 +2032,9 @@ breaking unaffected dependencies
 
 Therefore repair must be validated as a state transition.
 
----
+______________________________________________________________________
 
-# 88. Repeated Failed Path
+## 88. Repeated Failed Path
 
 AMOS should not repeat a failed repair path without changed evidence or assumptions.
 
@@ -2102,9 +2048,9 @@ SAME ASSUMPTIONS
 NO NEW INFORMATION
 ```
 
----
+______________________________________________________________________
 
-# 89. Escalation Conditions
+## 89. Escalation Conditions
 
 Escalation is required when failure involves:
 
@@ -2121,34 +2067,31 @@ unknown rollback
 security boundary breach
 ```
 
----
+______________________________________________________________________
 
-# 90. Deployment Gate Failure
+## 90. Deployment Gate Failure
 
 A deployment should not proceed unless required conditions pass.
 
-[
-\boxed{
-Deploy
-======
+## \[ \\boxed{ Deploy
 
 RealityContactAdequate
-\land
+\\land
 RegimeMatch
-\land
+\\land
 UncertaintyBounded
-\land
+\\land
 RollbackAvailable
-\land
+\\land
 HardConstraintsPass
 }
-]
+\]
 
 Failure of a required gate blocks deployment.
 
----
+______________________________________________________________________
 
-# 91. Control-Plane Requirements
+## 91. Control-Plane Requirements
 
 The L00 failure control plane must be able to:
 
@@ -2170,9 +2113,9 @@ record recovery
 escalate unresolved failures
 ```
 
----
+______________________________________________________________________
 
-# 92. Agent Contract
+## 92. Agent Contract
 
 Agents operating at L00 must not independently redefine failure truth.
 
@@ -2200,9 +2143,9 @@ promote simulation to reality
 promote model agreement to independent evidence
 ```
 
----
+______________________________________________________________________
 
-# 93. Skill Contract
+## 93. Skill Contract
 
 Skills participating in L00 must expose, where material:
 
@@ -2222,9 +2165,9 @@ validation method
 
 A skill result is not automatically an authoritative state transition.
 
----
+______________________________________________________________________
 
-# 94. Workflow Contract
+## 94. Workflow Contract
 
 A failure-aware workflow should follow:
 
@@ -2262,9 +2205,9 @@ DISCRIMINATING TEST
 RECLASSIFY
 ```
 
----
+______________________________________________________________________
 
-# 95. Protocol Requirements
+## 95. Protocol Requirements
 
 Each material failure protocol should specify:
 
@@ -2289,18 +2232,15 @@ falsifiers:
 status:
 ```
 
----
+______________________________________________________________________
 
-# 96. Evidence / Provenance Contract
+## 96. Evidence / Provenance Contract
 
 A failure report should preserve:
 
-[
-\boxed{
-P_F
-===
+## \[ \\boxed{ P_F
 
-T[
+T\[
 observation,
 source,
 method,
@@ -2310,9 +2250,9 @@ version,
 ancestry,
 transformations,
 validator
-]
+\]
 }
-]
+\]
 
 Failure provenance must distinguish:
 
@@ -2324,9 +2264,9 @@ SIMULATED FAILURE
 REPORTED FAILURE
 ```
 
----
+______________________________________________________________________
 
-# 97. Observed vs Predicted Failure
+## 97. Observed vs Predicted Failure
 
 ```text
 PREDICTED FAILURE != OBSERVED FAILURE
@@ -2340,48 +2280,45 @@ Likewise:
 SIMULATED FAILURE != DEPLOYED FAILURE
 ```
 
----
+______________________________________________________________________
 
-# 98. Failure Confidence
+## 98. Failure Confidence
 
 Confidence in a failure diagnosis obeys the same load-bearing premise rule:
 
-[
-\boxed{
+\[
+\\boxed{
 Conf(F)
-\leq
-\min_i Conf(P_i)
+\\leq
+\\min_i Conf(P_i)
 }
-]
+\]
 
 unless independently revalidated.
 
----
+______________________________________________________________________
 
-# 99. Failure Uncertainty Vector
+## 99. Failure Uncertainty Vector
 
-[
-\boxed{
-U_F
-===
+## \[ \\boxed{ U_F
 
-[
-U_{detection},
-U_{cause},
-U_{scope},
-U_{propagation},
-U_{repair},
-U_{recovery},
-U_{provenance}
-]
+\[
+U\_{detection},
+U\_{cause},
+U\_{scope},
+U\_{propagation},
+U\_{repair},
+U\_{recovery},
+U\_{provenance}
+\]
 }
-]
+\]
 
 A failure can be highly certain while its root cause remains uncertain.
 
----
+______________________________________________________________________
 
-# 100. Failure Diagnosis Firewall
+## 100. Failure Diagnosis Firewall
 
 ```text
 FAILURE OBSERVED != CAUSE KNOWN
@@ -2389,67 +2326,58 @@ FAILURE OBSERVED != CAUSE KNOWN
 
 This prevents diagnosis from outrunning evidence.
 
----
+______________________________________________________________________
 
-# 101. Competing Root Causes
+## 101. Competing Root Causes
 
-For observed failure \(F\):
+For observed failure (F):
 
-[
-\boxed{
-H_F
-===
+## \[ \\boxed{ H_F
 
 {
-H_1,H_2,\ldots,H_n
+H_1,H_2,\\ldots,H_n
 }
 }
-]
+\]
 
 AMOS preserves all materially plausible root causes until discriminating evidence exists.
 
----
+______________________________________________________________________
 
-# 102. Discriminating Test
+## 102. Discriminating Test
 
 Preferred diagnostic test:
 
-[
-\boxed{
-Test^*
-======
+## \[ \\boxed{ Test^\*
 
-\arg\max_T
-\frac{
+\\arg\\max_T
+\\frac{
 ExpectedDecisionRelevantInformation(T)
 }{
 Cost(T)+Risk(T)
 }
 }
-]
+\]
 
 This is an architectural optimization principle unless quantitatively operationalized.
 
----
+______________________________________________________________________
 
-# 103. Failure Sensitivity
+## 103. Failure Sensitivity
 
 Identify the smallest condition capable of changing the failure conclusion.
 
-[
-\boxed{
-Sensitivity(F)
-==============
+## \[ \\boxed{ Sensitivity(F)
 
-\min
+\\min
 {
 x:
 Change(x)
-\Rightarrow
-Class(F)\ changes
+\\Rightarrow
+Class(F)\\ changes
 }
 }
-]
+\]
 
 Fragile diagnoses should remain:
 
@@ -2457,9 +2385,9 @@ Fragile diagnoses should remain:
 CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
-# 104. Critical Failure
+## 104. Critical Failure
 
 A failure is critical when it invalidates a load-bearing condition required for safe continuation.
 
@@ -2476,9 +2404,9 @@ rollback unavailable for irreversible effect
 
 Critical failures block finalization.
 
----
+______________________________________________________________________
 
-# 105. Failure Gap Classes
+## 105. Failure Gap Classes
 
 ```text
 CRITICAL
@@ -2489,8 +2417,8 @@ COSMETIC
 
 Priority order:
 
-[
-\boxed{
+\[
+\\boxed{
 CRITICAL
 
 >
@@ -2505,25 +2433,25 @@ EXPLANATORY
 
 COSMETIC
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 106. Gap Blocking Rule
+## 106. Gap Blocking Rule
 
-[
-\boxed{
+\[
+\\boxed{
 CriticalGap
-\land
+\\land
 LoadBearing
-\Rightarrow
+\\Rightarrow
 FinalizationEligible=FALSE
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 107. Hard Invariants
+## 107. Hard Invariants
 
 ## L00-FM-INV-01
 
@@ -2647,9 +2575,9 @@ unless dependency closure establishes global propagation.
 INTERNAL COHERENCE != REALITY CONTACT
 ```
 
----
+______________________________________________________________________
 
-# 108. Canonical Failure Registry
+## 108. Canonical Failure Registry
 
 ```text
 L00-FM-001 REALITY_ACCESS_FAILURE
@@ -2724,9 +2652,9 @@ L00-FM-069 ROLLBACK_FAILURE
 L00-FM-070 DEPLOYMENT_GATE_FAILURE
 ```
 
----
+______________________________________________________________________
 
-# 109. Validators
+## 109. Validators
 
 ```text
 L00-FM-T01 Reality-access validator
@@ -2771,9 +2699,9 @@ L00-FM-T39 Rollback validator
 L00-FM-T40 Deployment-gate validator
 ```
 
----
+______________________________________________________________________
 
-# 110. Validator Output Contract
+## 110. Validator Output Contract
 
 ```yaml
 failure_validation:
@@ -2838,9 +2766,9 @@ failure_validation:
     - UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 111. Failure Proof Capsule
+## 111. Failure Proof Capsule
 
 ```yaml
 failure_proof_capsule:
@@ -2892,9 +2820,9 @@ failure_proof_capsule:
   status:
 ```
 
----
+______________________________________________________________________
 
-# 112. Repair / Recovery Protocol
+## 112. Repair / Recovery Protocol
 
 ```text
 1. Freeze unsafe propagation if necessary.
@@ -2946,84 +2874,78 @@ failure_proof_capsule:
 24. Monitor for recurrence.
 ```
 
----
+______________________________________________________________________
 
-# 113. Recovery Gate
+## 113. Recovery Gate
 
-[
-\boxed{
-Recover(f)
-==========
+## \[ \\boxed{ Recover(f)
 
 RepairApplied
-\land
+\\land
 InvariantPass
-\land
+\\land
 DependencyPass
-\land
+\\land
 ScopePass
-\land
+\\land
 RegimePass
-\land
+\\land
 ProvenancePass
-\land
+\\land
 RealityContactPass
 }
-]
+\]
 
 where each term applies to the failure class.
 
 For effectful systems:
 
-[
-\boxed{
-Recover_{effectful}
-===================
+## \[ \\boxed{ Recover\_{effectful}
 
 Recover(f)
-\land
+\\land
 AuthorityPass
-\land
+\\land
 ExternalEffectValidated
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 114. Failure Falsifiers
+## 114. Failure Falsifiers
 
 This architecture is falsified as a claimed implementation if:
 
 1. unavailable observations are treated as negative observations;
-2. observations are automatically treated as complete reality;
-3. models and simulations are automatically treated as observed reality;
-4. synthetic data independently validates its own generating assumptions;
-5. digital-twin state is treated as identical to real entity state;
-6. shared-model agreement counts automatically as independent evidence;
-7. evidence can lose provenance without confidence impact;
-8. scope can silently expand;
-9. regime changes cannot invalidate dependent claims;
-10. stale mutable state can authorize consequential commits;
-11. failed premises do not invalidate dependent conclusions;
-12. unrelated conclusions are globally invalidated after local failures;
-13. causal relations can be created from semantic similarity alone;
-14. unresolved competing explanations are forced into one conclusion;
-15. AI-generated outputs can recursively become independent evidence of themselves;
-16. persistent memory requires no provenance or freshness;
-17. retrieval ranking is treated as truth;
-18. tensor composition ignores semantic compatibility;
-19. capability creates authority;
-20. proposals automatically become committed effects;
-21. expected effects count as observed effects;
-22. actions require no effect validation;
-23. repair can erase forensic provenance;
-24. repair automatically means recovery;
-25. recovery requires no revalidation;
-26. critical gaps can return `PASS`.
+1. observations are automatically treated as complete reality;
+1. models and simulations are automatically treated as observed reality;
+1. synthetic data independently validates its own generating assumptions;
+1. digital-twin state is treated as identical to real entity state;
+1. shared-model agreement counts automatically as independent evidence;
+1. evidence can lose provenance without confidence impact;
+1. scope can silently expand;
+1. regime changes cannot invalidate dependent claims;
+1. stale mutable state can authorize consequential commits;
+1. failed premises do not invalidate dependent conclusions;
+1. unrelated conclusions are globally invalidated after local failures;
+1. causal relations can be created from semantic similarity alone;
+1. unresolved competing explanations are forced into one conclusion;
+1. AI-generated outputs can recursively become independent evidence of themselves;
+1. persistent memory requires no provenance or freshness;
+1. retrieval ranking is treated as truth;
+1. tensor composition ignores semantic compatibility;
+1. capability creates authority;
+1. proposals automatically become committed effects;
+1. expected effects count as observed effects;
+1. actions require no effect validation;
+1. repair can erase forensic provenance;
+1. repair automatically means recovery;
+1. recovery requires no revalidation;
+1. critical gaps can return `PASS`.
 
----
+______________________________________________________________________
 
-# 115. RSCF Completion State
+## 115. RSCF Completion State
 
 ```yaml
 claim_class: MODEL
@@ -3115,9 +3037,9 @@ confidence_ceiling:
   formal_universality: unverified
 ```
 
----
+______________________________________________________________________
 
-# 116. Hard Boundaries
+## 116. Hard Boundaries
 
 ```text
 PLACEHOLDER != IMPLEMENTED
@@ -3185,9 +3107,9 @@ EXPECTED EFFECT != OBSERVED EFFECT
 UNKNOWN/GAP != PASS
 ```
 
----
+______________________________________________________________________
 
-# 117. Canonical L00 Failure Loop
+## 117. Canonical L00 Failure Loop
 
 ```text
 REALITY
@@ -3241,90 +3163,88 @@ RECOVER
 MONITOR
 ```
 
----
+______________________________________________________________________
 
-# 118. Final L00 Failure Law
+## 118. Final L00 Failure Law
 
 The governing architectural requirement is:
 
-[
-\boxed{
-FailureSafety
-=============
+## \[ \\boxed{ FailureSafety
 
 Detectability
-\land
+\\land
 Traceability
-\land
+\\land
 Containment
-\land
+\\land
 SelectiveInvalidation
-\land
+\\land
 Repairability
-\land
+\\land
 Revalidation
 }
-]
+\]
 
 For reality-sensitive reasoning:
 
-[
-\boxed{
+\[
+\\boxed{
 TrustedState
-\Rightarrow
+\\Rightarrow
 RealityContactAdequate
-\land
+\\land
 EvidenceValid
-\land
+\\land
 ProvenanceRecoverable
-\land
+\\land
 ScopeCompatible
-\land
+\\land
 RegimeCompatible
 }
-]
+\]
 
 For consequential action:
 
-[
-\boxed{
-ExecutableState
-===============
+## \[ \\boxed{ ExecutableState
 
 TrustedState
-\land
+\\land
 ConstraintsPass
-\land
+\\land
 AuthorityValid
-\land
+\\land
 CommitEligible
 }
-]
+\]
 
 The central L00 failure principle is:
 
 > A failure must never gain additional authority merely because it has propagated far enough through memory, models, agents, summaries, simulations, tools, or recursive reasoning to appear internally coherent.
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · 06-Knowledge-Base-MOC · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · AMOS_Typed_Tensor_Contracts · AMOS_Evidence_Tensor_Architecture · Cosmo_Brain_BRIDGE_INDEX · AMOS_Relation_Tensor_Architecture · AMOS_Reality_Simulation_Distinction · AMOS_Provenance_Topology · AMOS_Constraint_Propagation · Cosmo_Brain_BRIDGE_INDEX · AMOS_Repair_Priority_Governor · AMOS_Repair_Harm_Auditor · AMOS_Collapse_Recovery · AMOS_Infrastructure_Control_Plane · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations|AMOS_Simulation_Kernel_v0_Math_Foundations]] · system_scan_agent · automation_profiles
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: l00_reality_environment_primitives_cognitive_matrix_failure_modes
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_FAILURE_MODES.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_MOC|L00_REALITY_ENVIRONMENT_MOC]]

@@ -12,19 +12,19 @@ segment: 21_DOMAINS/06_BIOLOGY
 artifact_kind: DOMAIN_INTEGRATION
 path: 21_DOMAINS/06_BIOLOGY/UBI_CONSENTX_INTEGRATION.md
 tags:
-- amos-os
-- domain
-- vault
-- 06_biology
-- ubi_consentx_integration
-- autonomic_consent
-- pre_verbal_alignment
-- rscf
-- canon_candidate
-- canon/domain
-- consentx
-- ubi-consentx-binding
-- id-exchange
+  - amos-os
+  - domain
+  - vault
+  - 06_biology
+  - ubi_consentx_integration
+  - autonomic_consent
+  - pre_verbal_alignment
+  - rscf
+  - canon_candidate
+  - canon/domain
+  - consentx
+  - ubi-consentx-binding
+  - id-exchange
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -39,13 +39,13 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: SYSTEM_INVARIANT
   provenance:
-  - 11_KNOWLEDGE/05_FRAMEWORKS/CONSENTX
-  - 11_KNOWLEDGE/05_FRAMEWORKS/UBI_CONSENTX_BINDING
-  - AMOS_CORPUS
+    - 11_KNOWLEDGE/05_FRAMEWORKS/CONSENTX
+    - 11_KNOWLEDGE/05_FRAMEWORKS/UBI_CONSENTX_BINDING
+    - AMOS_CORPUS
   scope:
-  - DOMAIN_BIOLOGY
-  - CONSENTX_INTEGRATION
-  - SOURCE_DEFINED_MODEL
+    - DOMAIN_BIOLOGY
+    - CONSENTX_INTEGRATION
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   consentx_framework:
     artifact: 11_KNOWLEDGE/05_FRAMEWORKS/CONSENTX
@@ -62,25 +62,25 @@ epistemic_boundary:
 
 `UBI_CONSENTX_INTEGRATION.md` is the canonical Domain Plane specification governing the real-time autonomic agreement verification, pre-verbal dissonance detection, and non-coercive consent protocols within `21_DOMAINS/06_BIOLOGY`.
 
----
+______________________________________________________________________
 
-# 1. Autonomic Agreement Verification
+## 1. Autonomic Agreement Verification
 
 1. **Pre-Verbal Dissonance Detection:** Monitors micro-stress telemetry (sudden HRV dips, galvanic spikes) when user agreements are made.
-2. **Coercion Veto:** Automatically suspends high-stakes state changes if autonomic telemetry contradicts explicit affirmative clicks.
-3. **Sovereign Opt-In Invariant:** Enforces unpressured, explicit biological alignment prior to authorizing irrevocable mutations.
+1. **Coercion Veto:** Automatically suspends high-stakes state changes if autonomic telemetry contradicts explicit affirmative clicks.
+1. **Sovereign Opt-In Invariant:** Enforces unpressured, explicit biological alignment prior to authorizing irrevocable mutations.
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **ConsentX Framework:** 11_KNOWLEDGE/05_FRAMEWORKS/[[11_KNOWLEDGE/05_FRAMEWORKS/CONSENTX|CONSENTX]]
 - **ConsentX Binding:** 11_KNOWLEDGE/05_FRAMEWORKS/[[11_KNOWLEDGE/05_FRAMEWORKS/UBI_CONSENTX_BINDING|UBI_CONSENTX_BINDING]]
 - **ID Exchange:** 11_KNOWLEDGE/05_FRAMEWORKS/[[11_KNOWLEDGE/05_FRAMEWORKS/ID_EXCHANGE|ID_EXCHANGE]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -98,10 +98,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[21_DOMAINS/21_DOMAINS_MOC|21_DOMAINS_MOC]] · 11_KNOWLEDGE/05_FRAMEWORKS/[[11_KNOWLEDGE/05_FRAMEWORKS/CONSENTX|CONSENTX]] · 11_KNOWLEDGE/05_FRAMEWORKS/[[11_KNOWLEDGE/05_FRAMEWORKS/UBI_CONSENTX_BINDING|UBI_CONSENTX_BINDING]]
 
----
-**MOC:** [[21_DOMAINS/21_DOMAINS_MOC|21_DOMAINS_MOC]]
+______________________________________________________________________
 
+**MOC:** [[21_DOMAINS/21_DOMAINS_MOC|21_DOMAINS_MOC]]

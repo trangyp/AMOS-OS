@@ -2,16 +2,16 @@
 type: gap
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L03_PERCEPT_FORMATION
 tags:
-- amos
-- cognitive-matrix
-- matrix/l03
-- percept-formation
-- gap-matrix
-- rscf
-- hml
-- provenance
-- governance
-- domain/cognitive-matrix
+  - amos
+  - cognitive-matrix
+  - matrix/l03
+  - percept-formation
+  - gap-matrix
+  - rscf
+  - hml
+  - provenance
+  - governance
+  - domain/cognitive-matrix
 title: L03_PERCEPT_FORMATION — Gap Matrix
 origin_architect: Trang Phan
 status: MODEL_GAP_CONTRACT / UNIMPLEMENTED / UNVALIDATED
@@ -54,9 +54,9 @@ VALIDATED_LOCALLY != UNIVERSALLY_VALID
 UNKNOWN/GAP != PASS
 ```
 
----
+______________________________________________________________________
 
-# 1. Source / Canon References
+## 1. Source / Canon References
 
 ## 1.1 Source-aligned architecture requirements
 
@@ -94,9 +94,9 @@ empirical_validation: UNKNOWN_GAP
 
 Therefore this document is a **gap-governance MODEL**, not evidence that those gaps have been closed.
 
----
+______________________________________________________________________
 
-# 2. Definition and Scope
+## 2. Definition and Scope
 
 A gap is a missing, unresolved, insufficiently supported, stale, contradictory, inaccessible, or unvalidated element whose resolution may affect an L03 claim, state transition, percept, implementation, validation result, or governed action.
 
@@ -127,9 +127,9 @@ L03Gap:
   status: GapStatus
 ```
 
----
+______________________________________________________________________
 
-# 3. Gap Classes
+## 3. Gap Classes
 
 Required candidate classes:
 
@@ -177,9 +177,9 @@ dimensions:
   - VALIDATION_GAP
 ```
 
----
+______________________________________________________________________
 
-# 4. Typed Inputs
+## 4. Typed Inputs
 
 ```yaml
 GapMatrixInput:
@@ -248,9 +248,9 @@ GapMatrixInput:
     type: EmpiricalEvidence[]
 ```
 
----
+______________________________________________________________________
 
-# 5. Typed Outputs
+## 5. Typed Outputs
 
 ```yaml
 GapMatrixOutput:
@@ -294,18 +294,18 @@ GapMatrixOutput:
     type: NONE
 ```
 
----
+______________________________________________________________________
 
-# 6. State Variables
+## 6. State Variables
 
 Candidate gap-state tensor:
 
-[
+\[
 G^{L03}*t =
 (g_s,g_c,g_d,g_v,g_o,g_e,g_i,g*{dep},
-g_h,g_p,g_{cp},g_a,g_{sk},g_w,g_{pr},
-g_f,g_r,g_t,g_{impl},g_{emp})
-]
+g_h,g_p,g\_{cp},g_a,g\_{sk},g_w,g\_{pr},
+g_f,g_r,g_t,g\_{impl},g\_{emp})
+\]
 
 where dimensions represent:
 
@@ -359,24 +359,22 @@ RESOLUTION_PROPOSED != RESOLVED
 RESOLVED_PENDING_VALIDATION != CLOSED
 ```
 
----
+______________________________________________________________________
 
-# 7. Gap Priority Function
+## 7. Gap Priority Function
 
 Candidate MODEL:
 
-[
-Priority(g)
-===========
+## \[ Priority(g)
 
 Impact(g)
-\times
+\\times
 DependencyFanout(g)
-\times
+\\times
 Irreversibility(g)
-\times
+\\times
 UncertaintyReductionValue(g)
-]
+\]
 
 subject to hard safety/governance constraints.
 
@@ -393,9 +391,9 @@ Default ordering:
 
 Within one class, prefer the gap whose resolution eliminates the greatest amount of downstream uncertainty or invalidity.
 
----
+______________________________________________________________________
 
-# 8. Core Invariants
+## 8. Core Invariants
 
 ## INV-L03-GAP-001 — Unknown Is Not Pass
 
@@ -457,13 +455,13 @@ unless transfer evidence exists.
 
 ## INV-L03-GAP-010 — Confidence Obeys Load-Bearing Gaps
 
-For conclusion \(C\):
+For conclusion (C):
 
-[
+\[
 Conf(C)
-\le
-\min_{d\in LB(C)} Conf(d)
-]
+\\le
+\\min\_{d\\in LB(C)} Conf(d)
+\]
 
 A critical unresolved load-bearing gap therefore constrains downstream confidence.
 
@@ -479,9 +477,9 @@ GAP CLOSED
 
 Closing one gap does not close siblings or descendants unless the new evidence actually resolves them.
 
----
+______________________________________________________________________
 
-# 9. Dependency Contract
+## 9. Dependency Contract
 
 Gap state depends on at least:
 
@@ -510,9 +508,9 @@ L03_RSCF
 
 Downstream L03 artifacts must inherit unresolved load-bearing gaps rather than silently erase them.
 
----
+______________________________________________________________________
 
-# 10. H/M/L Applicability
+## 10. H/M/L Applicability
 
 ## H — Governing gaps
 
@@ -568,9 +566,9 @@ LOCAL COMPLETENESS
 CROSS-SCALE COMPLETENESS
 ```
 
----
+______________________________________________________________________
 
-# 11. Control-Plane Requirements
+## 11. Control-Plane Requirements
 
 L03 gap processing may:
 
@@ -609,9 +607,9 @@ required_checks:
   - rollback feasibility
 ```
 
----
+______________________________________________________________________
 
-# 12. Agents
+## 12. Agents
 
 Candidate architectural roles:
 
@@ -634,9 +632,9 @@ Status:
 MODEL ROLES / IMPLEMENTATION UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 13. Skills
+## 13. Skills
 
 Potentially relevant AMOS capabilities include:
 
@@ -657,9 +655,9 @@ RSCF Modeler
 
 Skill availability does not establish L03 integration.
 
----
+______________________________________________________________________
 
-# 14. Workflow
+## 14. Workflow
 
 ```text
 INVENTORY REQUIRED CONTRACT
@@ -697,9 +695,9 @@ REVALIDATE
 CLOSE OR RETAIN GAP
 ```
 
----
+______________________________________________________________________
 
-# 15. Protocols
+## 15. Protocols
 
 Candidate protocol surface:
 
@@ -720,9 +718,9 @@ L03_GAP_REPORT
 
 Canonical protocol names remain `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
-# 16. Master Gap Matrix
+## 16. Master Gap Matrix
 
 | ID  | Area                        | Current status             | Severity          | Main missing evidence                     | Blocking?                |
 | --- | --------------------------- | -------------------------- | ----------------- | ----------------------------------------- | ------------------------ |
@@ -767,9 +765,9 @@ Canonical protocol names remain `UNKNOWN/GAP`.
 | G39 | Production readiness        | `NOT_ESTABLISHED`          | CRITICAL          | implementation + validation + governance  | Yes                      |
 | G40 | Universal validity          | `NOT_ESTABLISHED`          | CRITICAL          | impossible to infer from current evidence | Yes                      |
 
----
+______________________________________________________________________
 
-# 17. Required-Field Completion Matrix
+## 17. Required-Field Completion Matrix
 
 ```yaml
 required_completion_fields:
@@ -855,9 +853,9 @@ required_completion_fields:
     gap: SELF_REVALIDATION_REQUIRED
 ```
 
----
+______________________________________________________________________
 
-# 18. Evidence / Provenance Contract
+## 18. Evidence / Provenance Contract
 
 Each gap closure requires an evidence capsule:
 
@@ -905,23 +903,23 @@ A gap cannot be closed merely because prose was added to the repository.
 DOCUMENTED != RESOLVED
 ```
 
----
+______________________________________________________________________
 
-# 19. Uncertainty and Confidence Ceiling
+## 19. Uncertainty and Confidence Ceiling
 
 Gap uncertainty vector:
 
-[
+\[
 U_G =
-(u_{source},
-u_{canon},
-u_{semantic},
-u_{scope},
-u_{temporal},
-u_{provenance},
-u_{implementation},
-u_{validation})
-]
+(u\_{source},
+u\_{canon},
+u\_{semantic},
+u\_{scope},
+u\_{temporal},
+u\_{provenance},
+u\_{implementation},
+u\_{validation})
+\]
 
 The overall confidence ceiling for an L03 conclusion must reflect unresolved load-bearing gaps.
 
@@ -940,9 +938,9 @@ Current ceiling:
 
 > The available structure supports constructing a governed L03 model and identifying its missing components. It does **not** establish that the reconstructed L03 contracts are canonical, implemented, runtime-valid, or empirically validated.
 
----
+______________________________________________________________________
 
-# 20. Failure Modes of Gap Management
+## 20. Failure Modes of Gap Management
 
 ```text
 FM-GAP-001 — UNKNOWN_AS_PASS
@@ -965,9 +963,9 @@ FM-GAP-017 — AUTHORITY_INFERENCE_FROM_CAPABILITY
 FM-GAP-018 — COMMIT_INFERENCE_FROM_PROPOSAL
 ```
 
----
+______________________________________________________________________
 
-# 21. Repair / Recovery
+## 21. Repair / Recovery
 
 Gap repair proceeds:
 
@@ -1018,9 +1016,9 @@ regime-incompatible
 provenance-invalid
 ```
 
----
+______________________________________________________________________
 
-# 22. Tests / Validators
+## 22. Tests / Validators
 
 ```text
 VALIDATE_GAP_SCHEMA
@@ -1095,9 +1093,9 @@ runtime_validation: false
 empirical_validation: false
 ```
 
----
+______________________________________________________________________
 
-# 23. Falsifiers
+## 23. Falsifiers
 
 This Gap Matrix must be revised if:
 
@@ -1121,9 +1119,9 @@ new evidence shows a supposedly closed gap remains load-bearing and unresolved.
 
 The overall completion claim is falsified if any required field is silently missing from the matrix.
 
----
+______________________________________________________________________
 
-# 24. Resolution Priority
+## 24. Resolution Priority
 
 Current candidate resolution order:
 
@@ -1153,9 +1151,9 @@ P9 — Resolve runtime/performance properties.
 P10 — Only then evaluate externally empirical claims where relevant.
 ```
 
----
+______________________________________________________________________
 
-# 25. Cheapest High-Information Next Test
+## 25. Cheapest High-Information Next Test
 
 The highest-value next evidence is not another modeled L03 document.
 
@@ -1165,9 +1163,9 @@ It is:
 
 This test can simultaneously resolve or downgrade many upstream gaps.
 
----
+______________________________________________________________________
 
-# 26. RSCF Completion State
+## 26. RSCF Completion State
 
 ```yaml
 rscf:
@@ -1280,9 +1278,9 @@ rscf:
     field-level delta against every reconstructed L03 artifact.
 ```
 
----
+______________________________________________________________________
 
-# 27. Completion State
+## 27. Completion State
 
 ```yaml
 completion_state:
@@ -1357,9 +1355,9 @@ completion_state:
     MODEL
 ```
 
----
+______________________________________________________________________
 
-# 28. Hard Boundaries
+## 28. Hard Boundaries
 
 ```text
 PLACEHOLDER != IMPLEMENTED
@@ -1399,15 +1397,15 @@ NEW DOCUMENT != NEW EVIDENCE
 FLUENT COMPLETENESS != STRUCTURAL COMPLETENESS
 ```
 
----
+______________________________________________________________________
 
-# 29. Governing Gap Contract
+## 29. Governing Gap Contract
 
 > **`L03_PERCEPT_FORMATION` SHALL explicitly preserve unresolved source, canon, semantic, typing, equation, invariant, dependency, H/M/L, provenance, implementation, validation, empirical, and authority gaps. Every gap SHALL be typed, scoped, provenance-bound, dependency-linked, severity-classified, and assigned an explicit closure condition where possible. Critical and decision-relevant gaps SHALL constrain dependent confidence and SHALL NOT be silently repaired through prose completion or unsupported inference. Gap resolution SHALL require evidence appropriate to the gap class and SHALL trigger selective revalidation of affected descendants. Model-defined structures SHALL remain distinguishable from canonical structures; canonical structures from executable implementations; implementations from validated behavior; and validated behavior from universal or empirical claims. `UNKNOWN/GAP` SHALL never be interpreted as `PASS`.**
 
----
+______________________________________________________________________
 
-# 30. Final Canon Boundary
+## 30. Final Canon Boundary
 
 ```text
 SOURCE-ALIGNED:
@@ -1476,23 +1474,27 @@ NOT ESTABLISHED
 
 ```text
 ```
----
+
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: l03_percept_formation_primitives_cognitive_matrix_gap_matrix
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L03_PERCEPT_FORMATION/L03_PERCEPT_FORMATION_PRIMITIVES_COGNITIVE_MATRIX_GAP_MATRIX.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L03_PERCEPT_FORMATION/L03_PERCEPT_FORMATION_MOC|L03_PERCEPT_FORMATION_MOC]]
-

@@ -89,7 +89,7 @@
     "mckinsey-designops-agile-transformation-rscf"
   ],
   "depends_on_workflows": [
-    "mckinsey-designops-agile-transformation-rscf-workflow.md"
+    "amos-mckinsey-designops-agile-transformation-rscf-workflow.md"
   ],
   "epistemic_class": "AMOS_MODEL",
   "claim_ceiling": 0.95,

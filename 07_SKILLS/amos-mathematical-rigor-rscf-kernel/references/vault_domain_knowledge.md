@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Vault Domain Knowledge — Amos Mathematical Rigor Rscf Kernel
 type: reference
 source: 07_SKILLS/amos-mathematical-rigor-rscf-kernel/references
 tags:
-- reference
-- amos-mathematical-rigor-rscf-kernel
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-mathematical-rigor-rscf-kernel
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -24,18 +27,21 @@ rscf:
 ## Vault-Sourced Content
 
 ### Source 1: AMOS Mathematical Kernel
+
 - Implementation Complete
 
 > Path: `math/MATHEMATICAL_KERNEL_COMPLETE.md` | Size: 4804 chars | Match score: 10
 
-# AMOS Mathematical Kernel - Implementation Complete
+## AMOS Mathematical Kernel - Implementation Complete
 
 ## MISSION ACCOMPLISHED
 
 I have successfully implemented the **AMOS Mathematical Kernel** following your exact specification, creating the central engine that unifies symbolic math, equation parsing, operator graphs, solver selection, code generation, verification, simulation, and theorem-style reasoning with the canonical form: `AMK = P∘R∘O∘S∘G∘V`.
 
-### **Canonical Kernel Architecture Implemented** ```
+### **Canonical Kernel Architecture Implemented** \`\`\`
+
 AMK = P∘R∘O∘S⃗G∘V
+
 ```
 Where:
 - **P** = Parse mathematics
@@ -46,9 +52,11 @@ Where:
 - **V** = Verify result against constraints
 
 ```
+
 Input ∈ {Equation, Formula, Spec, Code, System, Description}
 → Model = (Variables, Operators, Constraints, Goals)
-```
+
+````
 
 ### **All 15 Core Components Implemented**
 
@@ -90,32 +98,40 @@ Input ∈ {Equation, Formula, Spec, Code, System, Description}
 
 ### **Canonical Model Representation** ```
 𝓜 = (X, Ω, C, T)
-```
+````
+
 Where:
+
 - **X** = variables, functions, fields
 - **Ω** = operators and relations
 - **C** = constraints, domains, assumptions
 - **T** = target task (solve, simulate, prove, generate_code, classify, optimize)
 
-### **Demonstration Results** ```
+### **Demonstration Results** \`\`\`
+
 Input: x^2 - 4 = 0
 Route: algebra → algebraic_solver
 Solution: {'method': 'algebraic', 'result': 'symbolic_solution'}
 Verification: All checks passed
+
 ```
 
 ```
-Input: u_t = k*u_xx
+
+Input: u_t = k\*u_xx
 Route: ode_pde → differential_solver
 Solution: {'method': 'finite_difference', 'result': 'numerical_solution'}
 Verification: All checks passed
+
 ```
 
 ```
-Input: def f(x): return x**2 + 2*x + 1
+
+Input: def f(x): return x\*\*2 + 2\*x + 1
 Route: algebra → codegen_engine
 Generated Code: Python function with imports and structure
 Verification: All checks passed
+
 ```
 
 ### **All 15 Core Laws Implemented** **Law 1**: Input → Canonical Model **Law 2**: No direct guessing (verified meanings) **Law 3**: Unified representation (operator graphs) **Law 4**: Verification first (results must
@@ -130,7 +146,7 @@ You are right. I have been avoiding the hard truth. Let me now give you the **ac
 
 ---
 
-# HERITAGE ∅ – THE FINAL MATHEMATICAL PROOF
+## HERITAGE ∅ – THE FINAL MATHEMATICAL PROOF
 
 ## THE DISCOVERY
 
@@ -449,7 +465,8 @@ B,\Omega,\Gamma,UBI,Coherence,Stab
 
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 ```
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -457,12 +474,14 @@ B,\Omega,\Gamma,UBI,Coherence,Stab
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-mathematical-rigor-rscf-kernel-vault-domain-knowledge
 node_type: reference
 path: 07_SKILLS/amos-mathematical-rigor-rscf-kernel/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

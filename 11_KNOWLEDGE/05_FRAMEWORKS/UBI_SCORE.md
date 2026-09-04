@@ -12,21 +12,21 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: METRIC
 path: 11_KNOWLEDGE/05_FRAMEWORKS/UBI_SCORE.md
 tags:
-- amos-os
-- knowledge
-- vault
-- 05_frameworks
-- ubi_score
-- biological_scoring
-- alignment_metric
-- non_compensatory_score
-- rscf
-- canon_candidate
-- canon/knowledge
-- ubi-score-framework
-- unified-biological-intelligence
-- amos-ubi-super-engine
-- amos-x-ubi
+  - amos-os
+  - knowledge
+  - vault
+  - 05_frameworks
+  - ubi_score
+  - biological_scoring
+  - alignment_metric
+  - non_compensatory_score
+  - rscf
+  - canon_candidate
+  - canon/knowledge
+  - ubi-score-framework
+  - unified-biological-intelligence
+  - amos-ubi-super-engine
+  - amos-x-ubi
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -41,20 +41,20 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - UBI_SCORE_FRAMEWORK
-  - UBI_OFFICIAL_MANUAL
-  - AMOS_CORPUS
+    - UBI_SCORE_FRAMEWORK
+    - UBI_OFFICIAL_MANUAL
+    - AMOS_CORPUS
   scope:
-  - KNOWLEDGE_FRAMEWORKS
-  - BIOLOGICAL_METRICS
-  - SOURCE_DEFINED_MODEL
+    - KNOWLEDGE_FRAMEWORKS
+    - BIOLOGICAL_METRICS
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   score_framework:
     artifact:
-    - - UBI_SCORE_FRAMEWORK
+      -   - UBI_SCORE_FRAMEWORK
   biological_master:
     artifact:
-    - - UNIFIED_BIOLOGICAL_INTELLIGENCE
+      -   - UNIFIED_BIOLOGICAL_INTELLIGENCE
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
@@ -72,26 +72,26 @@ $$\text{UBI Score } (i) = (\text{NBI} \cdot \text{NEI} \cdot \text{SI} \cdot \te
 
 Where the emergence factor is calculated as $e = i^2$.
 
----
+______________________________________________________________________
 
-# 1. Measurement Invariants
+## 1. Measurement Invariants
 
 1. **Strict Geometric Multiplicity:** If any single domain drops to zero, the total UBI Score collapses to zero ($\min = 0 \implies i = 0$).
-2. **Bottleneck Identification:** System diagnosis targets $\arg\min_{d \in \{\text{NBI}, \text{NEI}, \text{SI}, \text{BEI}\}} d$ to prevent futile over-optimization of strong domains.
-3. **Quadratic Scaling ($e = i^2$):** Systemic creative throughput and stress resilience grow non-linearly with balanced alignment.
+1. **Bottleneck Identification:** System diagnosis targets $\arg\min_{d \in \{\text{NBI}, \text{NEI}, \text{SI}, \text{BEI}\}} d$ to prevent futile over-optimization of strong domains.
+1. **Quadratic Scaling ($e = i^2$):** Systemic creative throughput and stress resilience grow non-linearly with balanced alignment.
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Parent Scoring Framework:** [[11_KNOWLEDGE/05_FRAMEWORKS/UBI_SCORE_FRAMEWORK|UBI_SCORE_FRAMEWORK]]
 - **Biological Master:** [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]]
 - **Super Engine:** [[11_KNOWLEDGE/05_FRAMEWORKS/AMOS_UBI_SUPER_ENGINE|AMOS_UBI_SUPER_ENGINE]]
 - **Cognitive Matrix:** [[25_COGNITIVE_MATRIX/AMOS_X_UBI|AMOS_X_UBI]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -110,10 +110,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/UBI_SCORE_FRAMEWORK|UBI_SCORE_FRAMEWORK]] · [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]] · [[11_KNOWLEDGE/05_FRAMEWORKS/AMOS_UBI_SUPER_ENGINE|AMOS_UBI_SUPER_ENGINE]]
 
----
-**MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]
+______________________________________________________________________
 
+**MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]

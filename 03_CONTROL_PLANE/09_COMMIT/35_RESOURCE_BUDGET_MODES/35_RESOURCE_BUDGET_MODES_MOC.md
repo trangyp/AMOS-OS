@@ -1,10 +1,13 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: 35 Resource Budget Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/35_RESOURCE_BUDGET_MODES
 tags:
-- 35-resource-budget-modes
-- canon/control-plane
+  - 35-resource-budget-modes
+  - canon/control-plane
 moc: true
 rscf:
   state: DERIVED
@@ -24,5 +27,6 @@ rscf:
 - [[03_CONTROL_PLANE/09_COMMIT/35_RESOURCE_BUDGET_MODES/RESOURCE_BUDGET_MODES_COMMIT_CONTROL_PLANE_MODE_FAMILY_SPEC|RESOURCE_BUDGET_MODES_COMMIT_CONTROL_PLANE_MODE_FAMILY_SPEC]]
 - [[03_CONTROL_PLANE/09_COMMIT/35_RESOURCE_BUDGET_MODES/RESOURCE_BUDGET_MODES_COMMIT_CONTROL_PLANE_README|RESOURCE_BUDGET_MODES_COMMIT_CONTROL_PLANE_README]]
 
----
+______________________________________________________________________
+
 **Parent:** [[03_CONTROL_PLANE/09_COMMIT/09_COMMIT_MOC|09_COMMIT_MOC]]

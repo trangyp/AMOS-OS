@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: evolutionary adaptive systems v2
 type: reference
 source: 07_SKILLS/amos-c04-bio-neuro-master/references
 tags:
-- reference
-- amos-c04-bio-neuro-master
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-c04-bio-neuro-master
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: CONDITIONAL
@@ -20,7 +23,8 @@ rscf:
 > Source: `_00_Cosmo brain/system/AMOS_Evolutionary_Adaptive_Systems_Cancer_to_AI_v2.md`
 > Epistemic class: SOURCE_DERIVED
 
----
+______________________________________________________________________
+
 canon-group: cross-domain-biological-ai
 canon-type: architecture
 rscf-state: model
@@ -29,43 +33,45 @@ status: proposed-cross-domain-amos-architecture
 version: v2.0
 origin-architect: Trang Phan
 source-lineage:
-  - "ĐIỀU TRỊ UNG THƯ THEO TIẾN HÓA"
-  - "AMOS Human Biology Fractal Architecture"
-  - "AMOS_CORE v4.4 reasoning lineage"
-language: en
-epistemic-boundary: "Cancer source model and AI transfer remain distinct; cross-domain recurrence is MODEL, not mechanistic identity."
-tags:
-  - amos
-  - evolutionary-oncology
-  - artificial-intelligence
-  - adaptive-systems
-  - s-o-a
-  - resistance
-  - drift
-  - selection-pressure
-  - model-collapse
-  - provenance
-  - rscf
-  - hml
-  - cross-scale
-  - system
 
----
+- "ĐIỀU TRỊ UNG THƯ THEO TIẾN HÓA"
+- "AMOS Human Biology Fractal Architecture"
+- "AMOS_CORE v4.4 reasoning lineage"
+  language: en
+  epistemic-boundary: "Cancer source model and AI transfer remain distinct; cross-domain recurrence is MODEL, not mechanistic identity."
+  tags:
+- amos
+- evolutionary-oncology
+- artificial-intelligence
+- adaptive-systems
+- s-o-a
+- resistance
+- drift
+- selection-pressure
+- model-collapse
+- provenance
+- rscf
+- hml
+- cross-scale
+- system
 
-# AMOS Evolutionary Adaptive Systems Architecture
+______________________________________________________________________
+
+## AMOS Evolutionary Adaptive Systems Architecture
+
 ## From Cancer Evolution (s–o–a) to AI Evolution, Drift, Resistance, Collapse, and Governed Adaptation
 
 > **Epistemic status:** This document contains three explicitly separated layers:
 >
 > 1. **SOURCE_MODEL** — the source cancer-evolution framing and its s–o–a decomposition.
-> 2. **DOMAIN_SCIENCE** — independently established or testable concepts in evolutionary oncology / AI engineering.
-> 3. **AMOS_MODEL** — Trang Phan / AMOS formal mappings, tensors, invariants, control structures, and cross-domain transfer.
+> 1. **DOMAIN_SCIENCE** — independently established or testable concepts in evolutionary oncology / AI engineering.
+> 1. **AMOS_MODEL** — Trang Phan / AMOS formal mappings, tensors, invariants, control structures, and cross-domain transfer.
 >
 > Structural recurrence between cancer and AI **does not establish shared physical mechanism**.
 
----
+______________________________________________________________________
 
-# 0. Executive Thesis
+## 0. Executive Thesis
 
 The original cancer-evolution model contains a deeper reusable systems insight:
 
@@ -117,9 +123,9 @@ self-modifying systems
 
 without claiming that these phenomena are biologically identical.
 
----
+______________________________________________________________________
 
-# 1. AMOS Epistemic Firewall
+## 1. AMOS Epistemic Firewall
 
 Every important statement must be typed:
 
@@ -151,9 +157,9 @@ $$\boxed{BiologicalFitness\neq RewardScore}$$
 
 Yet AMOS permits a shared **structural coordinate system** when the mapping is explicit.
 
----
+______________________________________________________________________
 
-# 2. Universal s–o–a State
+## 2. Universal s–o–a State
 
 Define:
 
@@ -175,19 +181,21 @@ and AMOS uses membership tensors instead of forcing false normalization.
 
 Interpretation:
 
-| Axis | General system | Cancer model | AI model |
-|---|---|---|---|
-| $s$ | persistence / retained structure | quiescent/persistent tumour state | weights, architecture, stable policy, trusted memory, invariants |
-| $o$ | active operation | proliferative / treatment-sensitive activity | inference, task execution, tool use, serving behavior |
-| $a$ | adaptation / escape / novelty | resistant/adapt
+| Axis | General system                   | Cancer model                                 | AI model                                                         |
+| ---- | -------------------------------- | -------------------------------------------- | ---------------------------------------------------------------- |
+| $s$  | persistence / retained structure | quiescent/persistent tumour state            | weights, architecture, stable policy, trusted memory, invariants |
+| $o$  | active operation                 | proliferative / treatment-sensitive activity | inference, task execution, tool use, serving behavior            |
+| $a$  | adaptation / escape / novelty    | resistant/adapt                              |                                                                  |
 
----
+______________________________________________________________________
+
 **MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -195,12 +203,14 @@ Interpretation:
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-c04-bio-neuro-master-evolutionary-adaptive-systems-v2
 node_type: reference
 path: 07_SKILLS/amos-c04-bio-neuro-master/references/evolutionary_adaptive_systems_v2.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

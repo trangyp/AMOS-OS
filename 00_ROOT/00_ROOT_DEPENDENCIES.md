@@ -1,10 +1,13 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: 00 ROOT DEPENDENCIES
 type: note
 source: 00_ROOT
 tags:
-- note
-- canon/root
+  - note
+  - canon/root
 rscf:
   state: SOURCE_CLAIM
   claim_class: CONDITIONAL
@@ -74,9 +77,9 @@ DEPENDENCY_VALIDATION
 DEPENDENCY_AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 1. Root Dependency Objective
+## 1. Root Dependency Objective
 
 The root dependency layer answers:
 
@@ -116,9 +119,9 @@ What must be revalidated after substitution?
 
 Dependency resolution is therefore a governed state transition, not simple reference lookup.
 
----
+______________________________________________________________________
 
-# 2. Root Dependency Boundary
+## 2. Root Dependency Boundary
 
 This specification applies to dependencies among root-level AMOS objects and their downstream execution surfaces.
 
@@ -175,9 +178,9 @@ CHANGE GOVERNANCE
 
 The exact authoritative root inventory remains subject to repository/canon reconciliation.
 
----
+______________________________________________________________________
 
-# 3. Dependency Primitive
+## 3. Dependency Primitive
 
 The smallest dependency object SHOULD be represented as:
 
@@ -217,9 +220,9 @@ dependency:
   failure_effect: null
 ```
 
----
+______________________________________________________________________
 
-# 4. Dependency Classes
+## 4. Dependency Classes
 
 AMOS SHOULD distinguish dependency classes rather than treating all edges identically.
 
@@ -245,9 +248,9 @@ PROTOCOL
 CANON
 ```
 
----
+______________________________________________________________________
 
-# 5. Structural Dependency
+## 5. Structural Dependency
 
 A structural dependency means:
 
@@ -266,9 +269,9 @@ POLICY_REGISTRY
 
 This relationship alone does not prove implementation.
 
----
+______________________________________________________________________
 
-# 6. Semantic Dependency
+## 6. Semantic Dependency
 
 A semantic dependency exists when interpretation of one artifact requires another artifact's definitions or contract.
 
@@ -282,9 +285,9 @@ POLICY_ENGINE semantics
 
 If the upstream meaning changes, downstream interpretation MAY become stale even when no code changes.
 
----
+______________________________________________________________________
 
-# 7. Data Dependency
+## 7. Data Dependency
 
 A data dependency exists where one component consumes information produced or maintained elsewhere.
 
@@ -314,9 +317,9 @@ validation;
 privacy/access requirements.
 ```
 
----
+______________________________________________________________________
 
-# 8. State Dependency
+## 8. State Dependency
 
 State dependencies exist when behavior depends upon mutable state.
 
@@ -340,9 +343,9 @@ runtime configuration.
 
 Mutable dependency state MUST NOT be treated as permanently valid.
 
----
+______________________________________________________________________
 
-# 9. Control Dependency
+## 9. Control Dependency
 
 A control dependency exists when one component cannot validly proceed without a governing control.
 
@@ -360,9 +363,9 @@ COMMIT GATE
 
 Control dependencies are usually promotion-critical.
 
----
+______________________________________________________________________
 
-# 10. Authority Dependency
+## 10. Authority Dependency
 
 Any operation requiring permission has an authority dependency.
 
@@ -386,9 +389,9 @@ NOT AUTHORIZED
 
 Authority dependency MUST remain distinct from capability dependency.
 
----
+______________________________________________________________________
 
-# 11. Policy Dependency
+## 11. Policy Dependency
 
 Policy-controlled operations depend upon:
 
@@ -412,9 +415,9 @@ ALLOW
 
 unless a governing policy explicitly defines that default.
 
----
+______________________________________________________________________
 
-# 12. Provenance Dependency
+## 12. Provenance Dependency
 
 Claims, decisions, memories, policies, evidence objects, and derived state MAY depend upon provenance.
 
@@ -436,9 +439,9 @@ claim
 
 AMOS MUST preserve enough ancestry to detect correlated evidence.
 
----
+______________________________________________________________________
 
-# 13. Validation Dependency
+## 13. Validation Dependency
 
 A promotion claim may depend on validators.
 
@@ -454,9 +457,9 @@ IMPLEMENTED
 
 Removing or invalidating a validator MAY invalidate the dependent validation claim.
 
----
+______________________________________________________________________
 
-# 14. Transaction Dependency
+## 14. Transaction Dependency
 
 Durable effects MAY depend upon:
 
@@ -478,9 +481,9 @@ finalization.
 
 These dependencies MUST remain visible through commit.
 
----
+______________________________________________________________________
 
-# 15. Temporal Dependency
+## 15. Temporal Dependency
 
 Some dependencies are valid only during a bounded time interval.
 
@@ -502,9 +505,9 @@ STALE / REVALIDATION_REQUIRED
 
 where freshness is load-bearing.
 
----
+______________________________________________________________________
 
-# 16. Regime Dependency
+## 16. Regime Dependency
 
 A dependency MAY be valid only under a particular regime.
 
@@ -544,9 +547,9 @@ DependencyValid(regime_A)
 DependencyValid(regime_B)
 ```
 
----
+______________________________________________________________________
 
-# 17. H/M/L Dependency Structure
+## 17. H/M/L Dependency Structure
 
 Root dependencies SHOULD be traceable across:
 
@@ -571,9 +574,9 @@ Executable authority evaluation and commit-time validation implement the mechani
 
 A dependency resolved at H does not automatically establish its L implementation.
 
----
+______________________________________________________________________
 
-# 18. Dependency Direction
+## 18. Dependency Direction
 
 Dependencies MUST have explicit direction.
 
@@ -602,9 +605,9 @@ B → A
 
 and reviewed for circularity.
 
----
+______________________________________________________________________
 
-# 19. Dependency Graph
+## 19. Dependency Graph
 
 Let:
 
@@ -630,9 +633,9 @@ represents a declared dependency.
 
 This is an AMOS MODEL representation, not a claim of empirical mathematics.
 
----
+______________________________________________________________________
 
-# 20. Dependency Closure
+## 20. Dependency Closure
 
 For object `X`, define conceptual dependency closure:
 
@@ -657,9 +660,9 @@ only when:
     SufficientlyResolved(d)
 ```
 
----
+______________________________________________________________________
 
-# 21. Claim-Specific Closure
+## 21. Claim-Specific Closure
 
 Dependency closure is claim-specific.
 
@@ -701,9 +704,9 @@ Closure(X)
 
 without a declared claim is underspecified.
 
----
+______________________________________________________________________
 
-# 22. Required vs Optional Dependencies
+## 22. Required vs Optional Dependencies
 
 Every dependency SHOULD be classified:
 
@@ -721,9 +724,9 @@ ADVISORY
 
 `OPTIONAL` MUST NOT be used merely because a dependency is inconvenient to resolve.
 
----
+______________________________________________________________________
 
-# 23. Critical Dependency
+## 23. Critical Dependency
 
 A dependency is critical when its absence invalidates a load-bearing system property.
 
@@ -743,9 +746,9 @@ rollback for high-risk mutation.
 
 Criticality is scoped to the claim and operating regime.
 
----
+______________________________________________________________________
 
-# 24. Dependency Criticality Levels
+## 24. Dependency Criticality Levels
 
 ```text
 CRITICAL
@@ -778,9 +781,9 @@ INFORMATIONAL:
 non-operational descriptive relationship.
 ```
 
----
+______________________________________________________________________
 
-# 25. Dependency Resolution States
+## 25. Dependency Resolution States
 
 ```text
 UNKNOWN/GAP
@@ -814,9 +817,9 @@ SUPERSEDED
 
 These states MUST remain distinct.
 
----
+______________________________________________________________________
 
-# 26. Resolution Law
+## 26. Resolution Law
 
 ```text
 DECLARED
@@ -836,9 +839,9 @@ AUTHORIZED
 ACTIVE
 ```
 
----
+______________________________________________________________________
 
-# 27. Type Compatibility
+## 27. Type Compatibility
 
 A resolved provider MUST satisfy the expected dependency contract.
 
@@ -872,9 +875,9 @@ authority class;
 provenance requirements.
 ```
 
----
+______________________________________________________________________
 
-# 28. Version Compatibility
+## 28. Version Compatibility
 
 Dependencies SHOULD carry version constraints.
 
@@ -890,9 +893,9 @@ version_requirement:
 
 A new version MUST NOT automatically be assumed compatible.
 
----
+______________________________________________________________________
 
-# 29. Supersession
+## 29. Supersession
 
 When provider `B1` is superseded by `B2`:
 
@@ -911,9 +914,9 @@ Revalidate(dependents)
 
 when the supersession affects load-bearing semantics.
 
----
+______________________________________________________________________
 
-# 30. Dependency Freshness
+## 30. Dependency Freshness
 
 Dependencies based on mutable information SHOULD carry freshness.
 
@@ -928,9 +931,9 @@ freshness:
 
 A stale dependency SHOULD not silently remain active when freshness is a precondition.
 
----
+______________________________________________________________________
 
-# 31. Dependency Provenance
+## 31. Dependency Provenance
 
 Every consequential dependency SHOULD preserve:
 
@@ -950,9 +953,9 @@ authority source where applicable;
 supersession lineage.
 ```
 
----
+______________________________________________________________________
 
-# 32. Provenance Independence
+## 32. Provenance Independence
 
 Two dependencies are not independent merely because they have different filenames or IDs.
 
@@ -971,9 +974,9 @@ B1 + B2
 
 must not automatically count as two independent confirmations.
 
----
+______________________________________________________________________
 
-# 33. Root Dependency Hierarchy
+## 33. Root Dependency Hierarchy
 
 A proposed root dependency hierarchy is:
 
@@ -1011,9 +1014,9 @@ ROOT CONTRACT
 
 This is a proposed architecture map and MUST NOT be represented as recovered final canon without source confirmation.
 
----
+______________________________________________________________________
 
-# 34. Authorization Dependency Chain
+## 34. Authorization Dependency Chain
 
 A proposed effectful-action dependency chain is:
 
@@ -1041,9 +1044,9 @@ AUDIT / PROVENANCE
 
 Each arrow represents a potential load-bearing dependency.
 
----
+______________________________________________________________________
 
-# 35. Capability Dependencies
+## 35. Capability Dependencies
 
 Capability resolution MAY depend upon:
 
@@ -1077,9 +1080,9 @@ does not imply:
 CapabilityPermitted
 ```
 
----
+______________________________________________________________________
 
-# 36. Policy Dependencies
+## 36. Policy Dependencies
 
 `POLICY_ENGINE` SHOULD conceptually depend upon:
 
@@ -1107,9 +1110,9 @@ fresh state
 
 The exact executable implementation remains `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
-# 37. Policy Decision Dependencies
+## 37. Policy Decision Dependencies
 
 A `POLICY_DECISION` SHOULD bind at least:
 
@@ -1137,9 +1140,9 @@ provenance.
 
 If any load-bearing binding changes before commit, re-evaluation MAY be required.
 
----
+______________________________________________________________________
 
-# 38. Authority Resolver Dependencies
+## 38. Authority Resolver Dependencies
 
 `AUTHORITY_RESOLVER` MAY depend upon:
 
@@ -1165,9 +1168,9 @@ provenance.
 
 A missing revocation dependency is potentially critical.
 
----
+______________________________________________________________________
 
-# 39. Authority Witness Dependencies
+## 39. Authority Witness Dependencies
 
 An `AUTHORITY_WITNESS` SHOULD be bound to:
 
@@ -1197,9 +1200,9 @@ provenance.
 
 A witness detached from these bindings MUST NOT be treated as universal permission.
 
----
+______________________________________________________________________
 
-# 40. Delegation Dependencies
+## 40. Delegation Dependencies
 
 Delegation SHOULD depend upon:
 
@@ -1233,9 +1236,9 @@ Authority(delegate)
 DelegableAuthority(delegator)
 ```
 
----
+______________________________________________________________________
 
-# 41. Revocation Dependencies
+## 41. Revocation Dependencies
 
 Revocation MAY depend upon:
 
@@ -1259,9 +1262,9 @@ audit/provenance.
 
 Revocation SHOULD invalidate dependent authority state according to governing semantics.
 
----
+______________________________________________________________________
 
-# 42. Commit Dependency
+## 42. Commit Dependency
 
 A commit SHOULD NOT depend solely on a previously valid proposal.
 
@@ -1277,9 +1280,9 @@ CommitValid(t1)
 
 if load-bearing dependencies changed between `t0` and `t1`.
 
----
+______________________________________________________________________
 
-# 43. Commit-Time Dependency Revalidation
+## 43. Commit-Time Dependency Revalidation
 
 Before durable effects, AMOS SHOULD revalidate mutable load-bearing dependencies such as:
 
@@ -1315,9 +1318,9 @@ RequiredDependenciesValid(t)
 
 This is a proposed MODEL contract.
 
----
+______________________________________________________________________
 
-# 44. Mutable Dependency Rule
+## 44. Mutable Dependency Rule
 
 Any dependency capable of changing after read time MUST be treated as mutable unless guaranteed otherwise.
 
@@ -1339,9 +1342,9 @@ transaction state;
 environment configuration.
 ```
 
----
+______________________________________________________________________
 
-# 45. Dependency Observation
+## 45. Dependency Observation
 
 A dependency read SHOULD conceptually carry:
 
@@ -1358,9 +1361,9 @@ dependency_observation:
 
 This enables later freshness checks.
 
----
+______________________________________________________________________
 
-# 46. Dependency Epoch
+## 46. Dependency Epoch
 
 Where the architecture uses epochs, dependency validity MAY be tied to an epoch.
 
@@ -1374,9 +1377,9 @@ may require revalidation when the dependency is mutable.
 
 Exact runtime epoch semantics require implementation evidence.
 
----
+______________________________________________________________________
 
-# 47. Circular Dependency
+## 47. Circular Dependency
 
 A cycle exists when:
 
@@ -1402,9 +1405,9 @@ CONTROL_CYCLE
 INVALID_DEFINITIONAL_CYCLE
 ```
 
----
+______________________________________________________________________
 
-# 48. Invalid Circularity
+## 48. Invalid Circularity
 
 Example:
 
@@ -1421,9 +1424,9 @@ CIRCULAR_VALIDATION
 
 and MUST NOT produce `VALIDATED`.
 
----
+______________________________________________________________________
 
-# 49. Bootstrap Dependencies
+## 49. Bootstrap Dependencies
 
 Some root systems may require bootstrap relationships.
 
@@ -1445,9 +1448,9 @@ transition to normal governance.
 
 Undefined bootstrap authority is a root-level gap.
 
----
+______________________________________________________________________
 
-# 50. Dependency Conflict
+## 50. Dependency Conflict
 
 A dependency conflict occurs when:
 
@@ -1479,9 +1482,9 @@ CONFLICTED
 
 not arbitrary precedence unless precedence is governed.
 
----
+______________________________________________________________________
 
-# 51. Dependency Ambiguity
+## 51. Dependency Ambiguity
 
 If multiple providers satisfy the same dependency:
 
@@ -1507,9 +1510,9 @@ or ambiguous duplicates.
 
 Do not choose silently.
 
----
+______________________________________________________________________
 
-# 52. Alternative Dependencies
+## 52. Alternative Dependencies
 
 A dependency MAY allow alternatives:
 
@@ -1525,9 +1528,9 @@ alternative_dependency:
 
 Alternative providers SHOULD satisfy equivalent required contracts, not merely similar names.
 
----
+______________________________________________________________________
 
-# 53. Fallback Dependencies
+## 53. Fallback Dependencies
 
 Fallback behavior MUST be explicit.
 
@@ -1551,9 +1554,9 @@ fallback satisfies policy;
 fallback is validated for the regime.
 ```
 
----
+______________________________________________________________________
 
-# 54. Degraded Dependency Mode
+## 54. Degraded Dependency Mode
 
 Some noncritical dependency failures MAY permit degraded operation.
 
@@ -1569,9 +1572,9 @@ degraded_mode:
 
 Critical dependency failure SHOULD normally fail closed.
 
----
+______________________________________________________________________
 
-# 55. Fail-Closed Rule
+## 55. Fail-Closed Rule
 
 For authority, policy, or safety-critical dependency uncertainty:
 
@@ -1595,9 +1598,9 @@ ESCALATE
 
 according to governing policy.
 
----
+______________________________________________________________________
 
-# 56. Dependency Failure Propagation
+## 56. Dependency Failure Propagation
 
 If:
 
@@ -1621,9 +1624,9 @@ InvalidateEntireSystem
 
 unless B is globally load-bearing.
 
----
+______________________________________________________________________
 
-# 57. Selective Invalidation
+## 57. Selective Invalidation
 
 Each dependency edge SHOULD identify affected claims or state.
 
@@ -1639,9 +1642,9 @@ dependency_effect:
 
 This supports local recovery.
 
----
+______________________________________________________________________
 
-# 58. Dependency Blast Radius
+## 58. Dependency Blast Radius
 
 Conceptually:
 
@@ -1655,9 +1658,9 @@ This MAY be used to prioritize validation and repair.
 
 It is a MODEL diagnostic unless operationalized and tested.
 
----
+______________________________________________________________________
 
-# 59. Dependency Repair Priority
+## 59. Dependency Repair Priority
 
 Repair priority SHOULD increase with:
 
@@ -1679,9 +1682,9 @@ absence of fallback;
 recovery-window pressure.
 ```
 
----
+______________________________________________________________________
 
-# 60. Dependency Failure Modes
+## 60. Dependency Failure Modes
 
 ```text
 RD-FM01
@@ -1745,9 +1748,9 @@ RD-FM20
 superseded provider used as current
 ```
 
----
+______________________________________________________________________
 
-# 61. Additional Failure Modes
+## 61. Additional Failure Modes
 
 ```text
 RD-FM21
@@ -1781,9 +1784,9 @@ RD-FM30
 ambiguous provider silently selected
 ```
 
----
+______________________________________________________________________
 
-# 62. Dependency Recovery
+## 62. Dependency Recovery
 
 Recovery SHOULD follow:
 
@@ -1807,9 +1810,9 @@ REVALIDATE
 RESTORE ELIGIBLE DEPENDENTS
 ```
 
----
+______________________________________________________________________
 
-# 63. Dependency Substitution
+## 63. Dependency Substitution
 
 Substitution MUST NOT occur solely because another provider is available.
 
@@ -1837,9 +1840,9 @@ policy check;
 validation check.
 ```
 
----
+______________________________________________________________________
 
-# 64. Rollback
+## 64. Rollback
 
 If a dependency change causes failure:
 
@@ -1866,9 +1869,9 @@ dependency lineage;
 validation results.
 ```
 
----
+______________________________________________________________________
 
-# 65. Dependency Change Governance
+## 65. Dependency Change Governance
 
 Dependency changes SHOULD be treated as governed changes.
 
@@ -1892,9 +1895,9 @@ criticality change.
 
 Consequential changes SHOULD trigger affected validation.
 
----
+______________________________________________________________________
 
-# 66. Dependency Change Record
+## 66. Dependency Change Record
 
 ```yaml
 dependency_change:
@@ -1920,9 +1923,9 @@ dependency_change:
   status: "PROPOSED"
 ```
 
----
+______________________________________________________________________
 
-# 67. Root Dependency Registry
+## 67. Root Dependency Registry
 
 AMOS SHOULD maintain or derive a registry containing:
 
@@ -1937,9 +1940,9 @@ dependency_registry:
 
 Each entry SHOULD be uniquely identifiable.
 
----
+______________________________________________________________________
 
-# 68. Dependency Registry Law
+## 68. Dependency Registry Law
 
 The registry is descriptive/control metadata.
 
@@ -1957,9 +1960,9 @@ REGISTERED
 AUTHORIZED
 ```
 
----
+______________________________________________________________________
 
-# 69. Dependency Ownership
+## 69. Dependency Ownership
 
 Each load-bearing dependency SHOULD have an accountable owner or governing subsystem.
 
@@ -1975,9 +1978,9 @@ ownership:
 
 Ownership itself does not grant authority.
 
----
+______________________________________________________________________
 
-# 70. Dependency Authority Boundary
+## 70. Dependency Authority Boundary
 
 No component may create authority merely by depending upon another component.
 
@@ -1993,9 +1996,9 @@ A is authorized.
 
 Authorization requires a valid authority result bound to the specific requested effect.
 
----
+______________________________________________________________________
 
-# 71. Dependency and Capability Boundary
+## 71. Dependency and Capability Boundary
 
 ```text
 Dependency available
@@ -2012,9 +2015,9 @@ authorized
 
 This boundary is mandatory.
 
----
+______________________________________________________________________
 
-# 72. Dependency and Proposal Boundary
+## 72. Dependency and Proposal Boundary
 
 A fully resolved dependency graph MAY support a proposal.
 
@@ -2032,9 +2035,9 @@ DependencyClosure
 → commit
 ```
 
----
+______________________________________________________________________
 
-# 73. Dependency and Commit Boundary
+## 73. Dependency and Commit Boundary
 
 Commit eligibility MAY require stronger closure than planning.
 
@@ -2050,9 +2053,9 @@ current policy may be required.
 
 Therefore dependency requirements MAY vary by execution phase.
 
----
+______________________________________________________________________
 
-# 74. Dependency Phase Model
+## 74. Dependency Phase Model
 
 Recommended phases:
 
@@ -2074,9 +2077,9 @@ RECOVERY
 
 Each dependency SHOULD declare the phases where it is load-bearing.
 
----
+______________________________________________________________________
 
-# 75. Root Dependency Validators
+## 75. Root Dependency Validators
 
 Recommended validators:
 
@@ -2120,9 +2123,9 @@ validate_commit_dependencies()
 validate_recovery_dependencies()
 ```
 
----
+______________________________________________________________________
 
-# 76. Dependency Tests
+## 76. Dependency Tests
 
 ```text
 RD-T001
@@ -2156,9 +2159,9 @@ RD-T010
 An unauthorized substitute MUST NOT become active.
 ```
 
----
+______________________________________________________________________
 
-# 77. Additional Tests
+## 77. Additional Tests
 
 ```text
 RD-T011
@@ -2192,9 +2195,9 @@ RD-T020
 Dependency rollback MUST preserve the failed change record.
 ```
 
----
+______________________________________________________________________
 
-# 78. Dependency Falsifiers
+## 78. Dependency Falsifiers
 
 The root dependency contract is violated if:
 
@@ -2224,9 +2227,9 @@ a transitive dependency is omitted from closure;
 a scope-specific dependency is generalized universally.
 ```
 
----
+______________________________________________________________________
 
-# 79. Dependency Coverage
+## 79. Dependency Coverage
 
 Dependency coverage SHOULD be evaluated per claim.
 
@@ -2242,9 +2245,9 @@ dependency_coverage:
 
 A percentage MAY be calculated for diagnostics, but critical gaps override scalar completeness.
 
----
+______________________________________________________________________
 
-# 80. Dependency Gap Classes
+## 80. Dependency Gap Classes
 
 ```text
 CRITICAL
@@ -2269,9 +2272,9 @@ missing explanatory diagram
 → potentially COSMETIC
 ```
 
----
+______________________________________________________________________
 
-# 81. Dependency Gap Matrix
+## 81. Dependency Gap Matrix
 
 ```yaml
 gap_matrix:
@@ -2310,9 +2313,9 @@ gap_matrix:
     state: UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 82. Dependency RSCF
+## 82. Dependency RSCF
 
 ```yaml
 rscf:
@@ -2378,9 +2381,9 @@ rscf:
   confidence_ceiling: 0
 ```
 
----
+______________________________________________________________________
 
-# 83. Root Dependency Invariants
+## 83. Root Dependency Invariants
 
 ```text
 RD-I01:
@@ -2414,9 +2417,9 @@ RD-I10:
 STALE != CURRENT
 ```
 
----
+______________________________________________________________________
 
-# 84. Additional Invariants
+## 84. Additional Invariants
 
 ```text
 RD-I11:
@@ -2450,9 +2453,9 @@ RD-I20:
 A dependency graph cannot self-certify its own correctness.
 ```
 
----
+______________________________________________________________________
 
-# 85. Dependency Decision States
+## 85. Dependency Decision States
 
 Dependency evaluation SHOULD return one of:
 
@@ -2474,17 +2477,17 @@ QUARANTINED
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 86. SATISFIED
+## 86. SATISFIED
 
 Use `SATISFIED` only when all load-bearing requirements for the declared claim have sufficient support.
 
 This does not imply universal validity.
 
----
+______________________________________________________________________
 
-# 87. PARTIALLY_SATISFIED
+## 87. PARTIALLY_SATISFIED
 
 Use when:
 
@@ -2496,9 +2499,9 @@ remaining gaps do not yet justify full closure.
 
 Missing dependencies MUST remain explicit.
 
----
+______________________________________________________________________
 
-# 88. BLOCKED
+## 88. BLOCKED
 
 Use when a critical dependency is:
 
@@ -2516,9 +2519,9 @@ or unresolved.
 
 and operation cannot safely continue.
 
----
+______________________________________________________________________
 
-# 89. STALE
+## 89. STALE
 
 Use when:
 
@@ -2530,17 +2533,17 @@ freshness requirements no longer hold.
 
 `STALE` requires revalidation rather than automatic rejection unless policy specifies otherwise.
 
----
+______________________________________________________________________
 
-# 90. CONFLICTED
+## 90. CONFLICTED
 
 Use when dependency requirements cannot simultaneously be satisfied or multiple providers have incompatible claims.
 
 Preserve the conflict until discriminating evidence or governing precedence resolves it.
 
----
+______________________________________________________________________
 
-# 91. UNKNOWN/GAP
+## 91. UNKNOWN/GAP
 
 Use when available evidence is insufficient to classify dependency validity.
 
@@ -2552,9 +2555,9 @@ is a legitimate governed result.
 
 It MUST NOT be converted to `SATISFIED` merely to complete a workflow.
 
----
+______________________________________________________________________
 
-# 92. Root Dependency Workflow
+## 92. Root Dependency Workflow
 
 ```text
 IDENTIFY CONSUMER
@@ -2590,9 +2593,9 @@ DETERMINE CLOSURE
 SATISFIED / BLOCKED / UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 93. Fast-Path Dependency Resolution
+## 93. Fast-Path Dependency Resolution
 
 A local fast path MAY be used only when:
 
@@ -2618,9 +2621,9 @@ no authority-sensitive mutation occurred.
 
 Otherwise escalate to deeper dependency resolution.
 
----
+______________________________________________________________________
 
-# 94. Dependency Sensitivity
+## 94. Dependency Sensitivity
 
 For consequential decisions, AMOS SHOULD identify:
 
@@ -2638,9 +2641,9 @@ If current authority validity alone determines whether commit is allowed,
 validate authority before inspecting noncritical descriptive dependencies.
 ```
 
----
+______________________________________________________________________
 
-# 95. Dependency Repair Strategy
+## 95. Dependency Repair Strategy
 
 Prefer:
 
@@ -2658,9 +2661,9 @@ selective invalidation.
 
 Avoid global recomputation unless dependency structure actually requires it.
 
----
+______________________________________________________________________
 
-# 96. Dependency Audit Record
+## 96. Dependency Audit Record
 
 ```yaml
 dependency_audit:
@@ -2691,9 +2694,9 @@ dependency_audit:
   timestamp: null
 ```
 
----
+______________________________________________________________________
 
-# 97. Relationship to Root Coverage
+## 97. Relationship to Root Coverage
 
 `00_ROOT_COVERAGE.md` asks:
 
@@ -2723,9 +2726,9 @@ ROOT DEPENDENCY STATE
 
 but neither artifact alone proves runtime implementation.
 
----
+______________________________________________________________________
 
-# 98. Relationship to Root Authorization
+## 98. Relationship to Root Authorization
 
 Authorization depends upon dependency integrity.
 
@@ -2745,9 +2748,9 @@ cannot be assumed valid merely because an authority resolver returned `ALLOW`.
 
 Authorization inherits the integrity of its load-bearing dependencies.
 
----
+______________________________________________________________________
 
-# 99. Relationship to Root Boundaries
+## 99. Relationship to Root Boundaries
 
 Dependencies MUST respect system boundaries.
 
@@ -2767,9 +2770,9 @@ ADMISSION / REJECTION
 
 External availability alone does not grant admission.
 
----
+______________________________________________________________________
 
-# 100. Relationship to Provenance
+## 100. Relationship to Provenance
 
 Dependency graphs and provenance graphs overlap but are not identical.
 
@@ -2785,9 +2788,9 @@ These are different relations.
 
 AMOS MUST NOT silently collapse them.
 
----
+______________________________________________________________________
 
-# 101. Relationship to Causality
+## 101. Relationship to Causality
 
 Dependency is not automatically causation.
 
@@ -2805,9 +2808,9 @@ B empirically causes A.
 
 This preserves the causal firewall.
 
----
+______________________________________________________________________
 
-# 102. Relationship to Memory
+## 102. Relationship to Memory
 
 Persistent memory MAY become a dependency when later reasoning or execution relies upon it.
 
@@ -2831,9 +2834,9 @@ provenance.
 
 A stale or conflicted memory SHOULD not silently remain load-bearing.
 
----
+______________________________________________________________________
 
-# 103. Relationship to Agents
+## 103. Relationship to Agents
 
 Agents MAY consume dependencies but MUST NOT redefine root dependency validity merely through local reasoning.
 
@@ -2853,9 +2856,9 @@ request substitution.
 
 Root governance retains authority over consequential dependency promotion.
 
----
+______________________________________________________________________
 
-# 104. Relationship to Skills
+## 104. Relationship to Skills
 
 Skills MAY declare:
 
@@ -2871,9 +2874,9 @@ skill_dependencies:
 
 A Skill being installed or addressable does not establish that its dependencies are currently satisfied.
 
----
+______________________________________________________________________
 
-# 105. Relationship to Workflows
+## 105. Relationship to Workflows
 
 Workflows SHOULD expose dependencies at each transition.
 
@@ -2890,9 +2893,9 @@ COMMIT
 
 This prevents late-stage hidden dependencies.
 
----
+______________________________________________________________________
 
-# 106. Relationship to Protocols
+## 106. Relationship to Protocols
 
 Protocol dependencies MAY include:
 
@@ -2916,9 +2919,9 @@ recovery mechanism.
 
 A protocol with unresolved load-bearing dependencies remains partially specified or blocked.
 
----
+______________________________________________________________________
 
-# 107. Relationship to Tests
+## 107. Relationship to Tests
 
 Tests SHOULD map directly to dependency requirements.
 
@@ -2940,9 +2943,9 @@ COMMIT_REJECTED.
 
 This tests the dependency edge, not merely isolated components.
 
----
+______________________________________________________________________
 
-# 108. Relationship to Recovery
+## 108. Relationship to Recovery
 
 Recovery depends upon knowing:
 
@@ -2958,9 +2961,9 @@ which valid checkpoint precedes failure.
 
 Therefore dependency provenance materially supports selective recovery.
 
----
+______________________________________________________________________
 
-# 109. Root Dependency Completion Criterion
+## 109. Root Dependency Completion Criterion
 
 This artifact is specification-complete for its declared MODEL scope when it defines:
 
@@ -3004,9 +3007,9 @@ gap state.
 
 It does **not** establish that the actual AMOS OS dependency graph has been implemented or validated.
 
----
+______________________________________________________________________
 
-# 110. Current Completion State
+## 110. Current Completion State
 
 ```yaml
 current_completion_state:
@@ -3059,9 +3062,9 @@ current_completion_state:
   confidence_ceiling: 0
 ```
 
----
+______________________________________________________________________
 
-# 111. Hard Boundaries
+## 111. Hard Boundaries
 
 ```text
 PLACEHOLDER != IMPLEMENTED
@@ -3085,15 +3088,15 @@ STALE != CURRENT
 UNKNOWN/GAP != PASS
 ```
 
----
+______________________________________________________________________
 
-# 112. Final Root Dependency Contract
+## 112. Final Root Dependency Contract
 
 > **AMOS OS shall treat dependencies as typed, directional, scoped, regime-bound, provenance-aware and potentially time-varying relationships. No object, claim, capability, authorization, policy decision, workflow transition, or commit may inherit validity merely because its dependencies are named or structurally present. Load-bearing dependencies must be resolved to the level required by the specific claim or action. Mutable dependencies must satisfy applicable freshness requirements. Dependency failures must propagate only through genuine dependency edges wherever possible, preserving unaffected state. Critical unresolved dependencies block dependent promotion. Substitution requires compatibility and, where applicable, authority. UNKNOWN/GAP remains UNKNOWN/GAP until sufficient evidence exists.**
 
----
+______________________________________________________________________
 
-# END — `00_ROOT_DEPENDENCIES.md`
+## END — `00_ROOT_DEPENDENCIES.md`
 
 **Status:** `PROPOSED_SPECIFICATION`
 **Specification:** `COMPLETE_FOR_DECLARED_MODEL_SCOPE`
@@ -3103,23 +3106,26 @@ UNKNOWN/GAP != PASS
 **Canon alignment:** `UNKNOWN/GAP`
 **Origin architect / steward:** **Trang Phan**
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]]
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: 00_root_dependencies
 node_type: note
 path: 00_ROOT/00_ROOT_DEPENDENCIES.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[00_ROOT/00_COSMO_BRAIN_MOC|00_COSMO_BRAIN_MOC]]
-

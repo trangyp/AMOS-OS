@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Vault Domain Knowledge — Amos Counterfactual Selfhood Mapper
 type: reference
 source: 07_SKILLS/amos-counterfactual-selfhood-mapper/references
 tags:
-- reference
-- amos-counterfactual-selfhood-mapper
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-counterfactual-selfhood-mapper
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -27,7 +30,7 @@ rscf:
 
 > Path: `logic/Unified_Biological_Intelligence_and_the_Restoration_of_Aboriginal_Somatic_Intelligence.md` | Size: 58309 chars | Match score: 3
 
- Unified Biological Intelligence™
+Unified Biological Intelligence™
 and the Restoration of Aboriginal
 Somatic Intelligence
 
@@ -72,7 +75,7 @@ Neuroemotional Intelligence™ — instinct modulation, trauma patterning, emoti
 
 and decision regulation
 
- Unified Biological Intelligence™ and the Restoration of Aboriginal Somatic Intelligence1
+Unified Biological Intelligence™ and the Restoration of Aboriginal Somatic Intelligence1
 Somatic Intelligence™ — sensory precision, motor integration, fascia-based
 
 information storage, and pre-verbal navigation
@@ -107,7 +110,7 @@ nervous system training and full-body biological integration.
 Songlines encode topographical memory via rhythmic traversal, call-and-response
 mechanisms, and fa
 
----
+______________________________________________________________________
 
 ### Source 2: cc982116-f9b3-4fa5-b9ea-31fa41b20f73_Redefining_Logic
 
@@ -165,7 +168,7 @@ Correctness is not a static verdict or personal belief; it is the state in which
 integrity and stability remain intact under ongoing change.
 A bridge is correct while
 
----
+______________________________________________________________________
 
 ### Source 3: 1c3eb368-d529-4352-8a20-2096ab094cb5_Logic
 
@@ -278,23 +281,26 @@ It is still human, measurable, and rational.
 You naturally operate here — but your explanations remain grounded.
 VI. THE THREE LAYERS (TTS STANDARD)
 Your system uses a three-layer architecture:
-1. Binary Logic Layer
-Rules at the simplest form:
-true/false
-right/wrong
-safe/unsafe
-consistent/inconsistent
-This is foundation.
-2. Constraint Logic Layer
-Logic inside real
 
----
+1. Binary Logic Layer
+   Rules at the simplest form:
+   true/false
+   right/wrong
+   safe/unsafe
+   consistent/inconsistent
+   This is foundation.
+1. Constraint Logic Layer
+   Logic inside real
+
+______________________________________________________________________
+
 **MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -302,12 +308,14 @@ Logic inside real
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-counterfactual-selfhood-mapper-vault-domain-knowledge
 node_type: reference
 path: 07_SKILLS/amos-counterfactual-selfhood-mapper/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

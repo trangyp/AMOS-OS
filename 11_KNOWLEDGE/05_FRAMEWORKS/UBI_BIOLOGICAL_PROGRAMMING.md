@@ -12,22 +12,22 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: FRAMEWORK
 path: 11_KNOWLEDGE/05_FRAMEWORKS/UBI_BIOLOGICAL_PROGRAMMING.md
 tags:
-- amos-os
-- knowledge
-- vault
-- 05_frameworks
-- ubi_biological_programming
-- biological_programming
-- bio_computing
-- cellular_automata
-- living_software
-- rscf
-- canon_candidate
-- canon/knowledge
-- unified-biological-intelligence
-- bio-logical-computing
-- bio-logical-architecture
-- domain-canon-programming
+  - amos-os
+  - knowledge
+  - vault
+  - 05_frameworks
+  - ubi_biological_programming
+  - biological_programming
+  - bio_computing
+  - cellular_automata
+  - living_software
+  - rscf
+  - canon_candidate
+  - canon/knowledge
+  - unified-biological-intelligence
+  - bio-logical-computing
+  - bio-logical-architecture
+  - domain-canon-programming
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -42,20 +42,20 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - UBI_OFFICIAL_MANUAL
-  - BIO_LOGICAL_COMPUTING
-  - AMOS_CORPUS
+    - UBI_OFFICIAL_MANUAL
+    - BIO_LOGICAL_COMPUTING
+    - AMOS_CORPUS
   scope:
-  - KNOWLEDGE_FRAMEWORKS
-  - BIOLOGICAL_COMPUTING
-  - SOURCE_DEFINED_MODEL
+    - KNOWLEDGE_FRAMEWORKS
+    - BIOLOGICAL_COMPUTING
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   master_framework:
     artifact:
-    - - UNIFIED_BIOLOGICAL_INTELLIGENCE
+      -   - UNIFIED_BIOLOGICAL_INTELLIGENCE
   bio_computing:
     artifact:
-    - - BIO_LOGICAL_COMPUTING
+      -   - BIO_LOGICAL_COMPUTING
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
@@ -69,25 +69,25 @@ epistemic_boundary:
 
 It treats software engineering and AI systems design through principles derived from living biological systems: self-healing codebases, homeostatic resource throttling, tensegrity data structures, and non-compensatory modular health.
 
----
+______________________________________________________________________
 
-# 1. Living Software Principles
+## 1. Living Software Principles
 
 1. **Homeostatic Memory Management:** Dynamically pruning dead state and reclaiming leaked cognitive cache based on biological apoptosis models.
-2. **Tensegrity Data Meshes:** Distributing query and compute loads dynamically across relational graphs without rigid centralized bottlenecks.
-3. **Biological Fault Tolerance:** Isolating failing subsystems via cellular membrane gating to maintain nominal whole-organism functioning.
+1. **Tensegrity Data Meshes:** Distributing query and compute loads dynamically across relational graphs without rigid centralized bottlenecks.
+1. **Biological Fault Tolerance:** Isolating failing subsystems via cellular membrane gating to maintain nominal whole-organism functioning.
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Master Framework:** [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]]
 - **Bio-Computing:** [[11_KNOWLEDGE/05_FRAMEWORKS/BIO_LOGICAL_COMPUTING|BIO_LOGICAL_COMPUTING]] and [[11_KNOWLEDGE/05_FRAMEWORKS/BIO_LOGICAL_ARCHITECTURE|BIO_LOGICAL_ARCHITECTURE]]
 - **Domain Canon Programming:** [[01_CANON/04_INFRASTRUCTURE_CANON/DOMAIN_CANON_PROGRAMMING|DOMAIN_CANON_PROGRAMMING]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -105,10 +105,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]] · [[11_KNOWLEDGE/05_FRAMEWORKS/BIO_LOGICAL_COMPUTING|BIO_LOGICAL_COMPUTING]] · [[01_CANON/04_INFRASTRUCTURE_CANON/DOMAIN_CANON_PROGRAMMING|DOMAIN_CANON_PROGRAMMING]]
 
----
-**MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]
+______________________________________________________________________
 
+**MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]

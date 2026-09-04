@@ -12,21 +12,21 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: FRAMEWORK
 path: 11_KNOWLEDGE/05_FRAMEWORKS/NBI_NEUROBIOLOGICAL_INTELLIGENCE.md
 tags:
-- amos-os
-- knowledge
-- vault
-- 05_frameworks
-- nbi
-- neurobiological_intelligence
-- cortical_processing
-- cognition
-- ubi
-- rscf
-- canon_candidate
-- canon/knowledge
-- unified-biological-intelligence
-- ubi-cognition-binding
-- amos-x-ubi
+  - amos-os
+  - knowledge
+  - vault
+  - 05_frameworks
+  - nbi
+  - neurobiological_intelligence
+  - cortical_processing
+  - cognition
+  - ubi
+  - rscf
+  - canon_candidate
+  - canon/knowledge
+  - unified-biological-intelligence
+  - ubi-cognition-binding
+  - amos-x-ubi
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -41,17 +41,17 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - UBI_OFFICIAL_MANUAL
-  - UNIFIED_BIOLOGICAL_INTELLIGENCE
-  - AMOS_CORPUS
+    - UBI_OFFICIAL_MANUAL
+    - UNIFIED_BIOLOGICAL_INTELLIGENCE
+    - AMOS_CORPUS
   scope:
-  - KNOWLEDGE_FRAMEWORKS
-  - NEUROBIOLOGY
-  - SOURCE_DEFINED_MODEL
+    - KNOWLEDGE_FRAMEWORKS
+    - NEUROBIOLOGY
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   biological_master:
     artifact:
-    - - UNIFIED_BIOLOGICAL_INTELLIGENCE
+      -   - UNIFIED_BIOLOGICAL_INTELLIGENCE
   domain_knowledge:
     artifact: 11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/UBI_NEUROBIOLOGICAL_INTELLIGENCE
 epistemic_boundary:
@@ -67,26 +67,26 @@ epistemic_boundary:
 
 It formalizes the cortical, central nervous system, and executive cognitive mechanisms governing sensory integration, pattern recognition, working memory, and logical decision loops.
 
----
+______________________________________________________________________
 
-# 1. Core Biological Mechanics
+## 1. Core Biological Mechanics
 
 1. **Cortical Network Processing:** Frontoparietal and default mode network dynamics governing abstract reasoning and long-range planning.
-2. **Cognitive Load & Synaptic Fatigue:** Metabolic glucose and neurotransmitter depletion constraining continuous inference throughput.
-3. **Non-Compensatory Status:** High NBI cannot substitute for collapsed emotional (NEI), somatic (SI), or bioelectromagnetic (BEI) regulation.
+1. **Cognitive Load & Synaptic Fatigue:** Metabolic glucose and neurotransmitter depletion constraining continuous inference throughput.
+1. **Non-Compensatory Status:** High NBI cannot substitute for collapsed emotional (NEI), somatic (SI), or bioelectromagnetic (BEI) regulation.
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Biological Master:** [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]]
 - **Domain Knowledge:** `11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/UBI_NEUROBIOLOGICAL_INTELLIGENCE`
 - **Cognitive Binding:** [[11_KNOWLEDGE/05_FRAMEWORKS/UBI_COGNITION_BINDING|UBI_COGNITION_BINDING]]
 - **Cognitive Matrix:** [[25_COGNITIVE_MATRIX/AMOS_X_UBI|AMOS_X_UBI]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -104,10 +104,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]] · `11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/UBI_NEUROBIOLOGICAL_INTELLIGENCE` · [[11_KNOWLEDGE/05_FRAMEWORKS/UBI_COGNITION_BINDING|UBI_COGNITION_BINDING]]
 
----
-**MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]
+______________________________________________________________________
 
+**MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]

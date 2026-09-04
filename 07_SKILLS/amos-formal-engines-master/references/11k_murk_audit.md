@@ -1,31 +1,34 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: 11k murk audit
 type: reference
 source: 07_SKILLS/amos-formal-engines-master/references
 tags:
-- reference
-- amos-formal-engines-master
-- type/skill
-- agent-onboarding-guide
-- amos-c01-meta-logic-master-knowledge
-- amos-c02-math-compute-master-knowledge
-- amos-c03-physics-cosmos-master-knowledge
-- amos-c04-bio-neuro-master-knowledge
-- amos-c05-mind-behavior-master-knowledge
-- amos-c06-society-culture-master-knowledge
-- amos-c07-econ-finance-master-knowledge
-- amos-c08-strategy-game-master-knowledge
-- amos-c09-org-law-policy-master-knowledge
-- amos-c10-tech-engineering-master-knowledge
-- amos-c11-design-language-master-knowledge
-- amos-c12-earth-ecology-master-knowledge
-- amos-cognitive-organism-os
-- amos-cognitive-organism-os-detail
-- amos-ev-vietnam
-- amos-full-brain-os-architecture
-- amos-runtime-state
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-formal-engines-master
+  - type/skill
+  - agent-onboarding-guide
+  - amos-c01-meta-logic-master-knowledge
+  - amos-c02-math-compute-master-knowledge
+  - amos-c03-physics-cosmos-master-knowledge
+  - amos-c04-bio-neuro-master-knowledge
+  - amos-c05-mind-behavior-master-knowledge
+  - amos-c06-society-culture-master-knowledge
+  - amos-c07-econ-finance-master-knowledge
+  - amos-c08-strategy-game-master-knowledge
+  - amos-c09-org-law-policy-master-knowledge
+  - amos-c10-tech-engineering-master-knowledge
+  - amos-c11-design-language-master-knowledge
+  - amos-c12-earth-ecology-master-knowledge
+  - amos-cognitive-organism-os
+  - amos-cognitive-organism-os-detail
+  - amos-ev-vietnam
+  - amos-full-brain-os-architecture
+  - amos-runtime-state
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -38,13 +41,11 @@ rscf:
 > Source: `/Users/mac/Documents/AMOS_OS/11_KNOWLEDGE/11_KNOWLEDGE_MURK_AUDIT.md`
 > Epistemic class: SOURCE_DERIVED
 
----
-canon-group: reference
-rscf-state: derived
-tags: [audit, murk, knowledge]
----
+______________________________________________________________________
 
-# 11_KNOWLEDGE MURK Cross-Check Audit
+## canon-group: reference rscf-state: derived tags: [audit, murk, knowledge]
+
+## 11_KNOWLEDGE MURK Cross-Check Audit
 
 ## RSCF Proof Capsule
 
@@ -62,9 +63,11 @@ falsifiers: a note lacks canon-group/rscf-state/tags; no root wikilink.
 ## Findings
 
 ### missing_frontmatter
+
 - OK (none found)
 
 ### missing_canon_group
+
 - /Users/mac/Documents/AMOS_OS/11_KNOWLEDGE/[[11_KNOWLEDGE/AGENT_ONBOARDING_GUIDE|AGENT_ONBOARDING_GUIDE]].md
 - /Users/mac/Documents/AMOS_OS/11_KNOWLEDGE/[[11_KNOWLEDGE/AMOS_C01_META_LOGIC_MASTER_KNOWLEDGE|AMOS_C01_META_LOGIC_MASTER_KNOWLEDGE]].md
 - /Users/mac/Documents/AMOS_OS/11_KNOWLEDGE/[[11_KNOWLEDGE/AMOS_C02_MATH_COMPUTE_MASTER_KNOWLEDGE|AMOS_C02_MATH_COMPUTE_MASTER_KNOWLEDGE]].md
@@ -88,6 +91,7 @@ falsifiers: a note lacks canon-group/rscf-state/tags; no root wikilink.
 - ... and 13 more
 
 ### missing_rscf_state
+
 - /Users/mac/Documents/AMOS_OS/11_KNOWLEDGE/[[11_KNOWLEDGE/AGENT_ONBOARDING_GUIDE|AGENT_ONBOARDING_GUIDE]].md
 - /Users/mac/Documents/AMOS_OS/11_KNOWLEDGE/[[11_KNOWLEDGE/AMOS_C01_META_LOGIC_MASTER_KNOWLEDGE|AMOS_C01_META_LOGIC_MASTER_KNOWLEDGE]].md
 - /Users/mac/Documents/AMOS_OS/11_KNOWLEDGE/[[11_KNOWLEDGE/AMOS_C02_MATH_COMPUTE_MASTER_KNOWLEDGE|AMOS_C02_MATH_COMPUTE_MASTER_KNOWLEDGE]].md
@@ -108,13 +112,15 @@ falsifiers: a note lacks canon-group/rscf-state/tags; no root wikilink.
 - /Users/mac/Documents/AMOS_OS/11_KNOWLEDGE/[[11_KNOWLEDGE/AMOS_INFRASTRUCTURE_CROSS_SKILL_PROOF_COMPOSITION_REPORT|AMOS_INFRASTRUCTURE_CROSS_SKILL_PROOF_COMPOSITION_REPORT]].md
 - /Users/mac/Documents/AMOS_OS/11_KNOWLEDGE/AMOS_INFRASTRUC
 
----
+______________________________________________________________________
+
 **MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -122,13 +128,14 @@ falsifiers: a note lacks canon-group/rscf-state/tags; no root wikilink.
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-formal-engines-master-11k-murk-audit
 node_type: reference
 path: 07_SKILLS/amos-formal-engines-master/references/11k_murk_audit.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC
-

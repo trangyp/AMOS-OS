@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: qfm bridge entropy lacunarity
 type: reference
 source: 07_SKILLS/amos-information-theory-master/references
 tags:
-- reference
-- amos-information-theory-master
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-information-theory-master
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -20,24 +23,20 @@ rscf:
 > Source: `_00_Cosmo brain/dated/2026-08-25/2026-08-25 QFM Bridge Governance and Entropy-Lacunarity Skill.md`
 > Epistemic class: SOURCE_DERIVED
 
----
-title: 2026-08-25 QFM Bridge Governance and Entropy-Lacunarity Skill
-type: daily-learning
-date: 2026-08-25
-epistemic: DERIVED/MODEL
-tags: [quantum, fractal, math, bridges, lacunarity, governance, dated, dated/2026-08-25]
----
+______________________________________________________________________
 
-# 2026-08-25 — QFM Bridge Governance + Entropy/Lacunarity Consolidation
+## title: 2026-08-25 QFM Bridge Governance and Entropy-Lacunarity Skill type: daily-learning date: 2026-08-25 epistemic: DERIVED/MODEL tags: [quantum, fractal, math, bridges, lacunarity, governance, dated, dated/2026-08-25]
+
+## 2026-08-25 — QFM Bridge Governance + Entropy/Lacunarity Consolidation
 
 ## Gap analysis that drove this pass
 
-| Gap found in corpus | Evidence | Closure |
-|---|---|---|
-| Vault entropy/lacunarity/viability equations had no dedicated skill | `ENTROPY_LACUNARITY.md` (16 lines, canonical equations) referenced only inside 5 scattered skills | New skill `amos-entropy-lacunarity-viability` |
-| Cross-domain bridges existed as prose with no verification gate | QFM master Part IV listed B1–B4 without any procedure to check a bridge use before conclusion | New workflow `qfm-cross-domain-bridge-verification-workflow.md` |
-| No agent owned bridge auditing | 93 agents, none with mapping/invariant-survival/grounding capabilities | New agent `amos-qfm-bridge-auditor-agent.json` |
-| Unified QFM workflow lacked hardening routing | Phase 6 gates ended at loop detection; no adversarial or bridge gates | Phase 6 extended to 7 gates |
+| Gap found in corpus                                                 | Evidence                                                                                          | Closure                                                         |
+| ------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- | --------------------------------------------------------------- |
+| Vault entropy/lacunarity/viability equations had no dedicated skill | `ENTROPY_LACUNARITY.md` (16 lines, canonical equations) referenced only inside 5 scattered skills | New skill `amos-entropy-lacunarity-viability`                   |
+| Cross-domain bridges existed as prose with no verification gate     | QFM master Part IV listed B1–B4 without any procedure to check a bridge use before conclusion     | New workflow `qfm-cross-domain-bridge-verification-workflow.md` |
+| No agent owned bridge auditing                                      | 93 agents, none with mapping/invariant-survival/grounding capabilities                            | New agent `amos-qfm-bridge-auditor-agent.json`                  |
+| Unified QFM workflow lacked hardening routing                       | Phase 6 gates ended at loop detection; no adversarial or bridge gates                             | Phase 6 extended to 7 gates                                     |
 
 ## Bridge registry now canonical (B1–B5)
 
@@ -51,19 +50,20 @@ B1 RG↔fractals (DERIVED structural) · B2 Rényi S_q ↔ D_q (family, not valu
 
 ## Artifacts
 
-| Channel | Artifact |
-|---|---|
-| Skill | `amos/amos-entropy-lacunarity-viability` (canonical E_X, Λ_X, PV equations + measurement procedure + anti-overreach guards) |
-| Workflow | `.devin/workflows/qfm-cross-domain-bridge-verification-workflow.md` |
-| Agent | `.devin/agents/amos-qfm-bridge-auditor-agent.json` |
-| Patched | QFM master Part IV (bridge IDs + discipline), unified workflow Phase 6 (+2 gates) |
+| Channel  | Artifact                                                                                                                    |
+| -------- | --------------------------------------------------------------------------------------------------------------------------- |
+| Skill    | `amos/amos-entropy-lacunarity-viability` (canonical E_X, Λ_X, PV equations + measurement procedure + anti-overreach guards) |
+| Workflow | `.devin/workflows/qfm-cross-domain-bridge-verification-workflow.md`                                                         |
+| Agent    | `.devin/agents/amos-qfm-bridge-auditor-agent.json`                                                                          |
+| Patched  | QFM master Part IV (bridge IDs + discipline), unified workflow Phase 6 (+2 gates)                                           |
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · AMOS Simulation Kernel v0 Math Foundations · system scan agent · automation profiles
 
----
-**MOC:** references_MOC
----
+______________________________________________________________________
+
+## **MOC:** references_MOC
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -71,12 +71,14 @@ B1 RG↔fractals (DERIVED structural) · B2 Rényi S_q ↔ D_q (family, not valu
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-information-theory-master-qfm-bridge-entropy-lacunarity
 node_type: reference
 path: 07_SKILLS/amos-information-theory-master/references/qfm_bridge_entropy_lacunarity.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

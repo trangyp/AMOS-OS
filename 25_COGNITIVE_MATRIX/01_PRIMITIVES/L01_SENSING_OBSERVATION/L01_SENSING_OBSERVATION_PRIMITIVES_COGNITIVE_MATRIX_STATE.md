@@ -1,20 +1,23 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: L01 SENSING OBSERVATION PRIMITIVES COGNITIVE MATRIX STATE
 type: state
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION
 tags:
-- amos
-- cognitive-matrix
-- matrix/l01
-- sensing-observation
-- state
-- state-machine
-- tensors
-- rscf
-- provenance
-- hml
-- control-plane
-- domain/cognitive-matrix
+  - amos
+  - cognitive-matrix
+  - matrix/l01
+  - sensing-observation
+  - state
+  - state-machine
+  - tensors
+  - rscf
+  - provenance
+  - hml
+  - control-plane
+  - domain/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL
@@ -34,9 +37,9 @@ rscf:
 
 > **Epistemic boundary:** this artifact defines the proposed state architecture for `L01_SENSING_OBSERVATION`. It specifies how sensing and observation state is represented, transitioned, validated, versioned, invalidated, superseded, quarantined, and propagated. Exact canonical L01 state names, transition rules, runtime schemas, synchronization semantics, and implementation remain subject to direct-canon confirmation and executable validation.
 
----
+______________________________________________________________________
 
-# 0. Executive Definition
+## 0. Executive Definition
 
 `L01_SENSING_OBSERVATION/STATE.md` defines the authoritative **logical state model** of the sensing/observation primitive.
 
@@ -87,31 +90,31 @@ FRESH / STALE / COMPETING / QUARANTINED / SUPERSEDED / INVALIDATED
 
 The core state law is:
 
-[
-\boxed{
+\[
+\\boxed{
 StateRepresentation
-\neq
+\\neq
 Reality
 }
-]
+\]
 
 and:
 
-[
-\boxed{
+\[
+\\boxed{
 StateTransition
-\neq
+\\neq
 EmpiricalChange
 }
-]
+\]
 
 A change in AMOS observation state represents a change in the system's governed information state.
 
 It does not necessarily mean the external environment itself changed.
 
----
+______________________________________________________________________
 
-# 1. Purpose
+## 1. Purpose
 
 The L01 state contract exists to ensure that every observation has an explicit lifecycle and validity envelope.
 
@@ -153,9 +156,9 @@ local → global
 
 without explicit evidence and governance.
 
----
+______________________________________________________________________
 
-# 2. Source / Canon References
+## 2. Source / Canon References
 
 ## 2.1 Origin
 
@@ -254,20 +257,17 @@ CORPUS ALIGNED
 DIRECT L01 CANON
 ```
 
----
+______________________________________________________________________
 
-# 3. Definition
+## 3. Definition
 
 `L01 State` is the typed, temporal, provenance-bearing representation of the current governed condition of an observation object or sensing process.
 
 General form:
 
-[
-\boxed{
-S_{L01}(t)
-==========
+## \[ \\boxed{ S\_{L01}(t)
 
-[
+\[
 phase,
 observation,
 epistemic_class,
@@ -281,17 +281,17 @@ uncertainty,
 conflict,
 authority,
 lifecycle
-]
+\]
 }
-]
+\]
 
 This state is a representation of AMOS's knowledge condition at time (t).
 
 It is not identical to external-world state.
 
----
+______________________________________________________________________
 
-# 4. State Domains
+## 4. State Domains
 
 L01 contains several distinct but coupled state domains.
 
@@ -327,16 +327,13 @@ is valid.
 
 One state should not silently imply another.
 
----
+______________________________________________________________________
 
-# 5. Core State Tensor
+## 5. Core State Tensor
 
-[
-\boxed{
-T_{L01-State}
-=============
+## \[ \\boxed{ T\_{L01-State}
 
-T[
+T\[
 observation_id,
 phase,
 epistemic_class,
@@ -356,9 +353,9 @@ authority,
 commit,
 repair,
 version
-]
+\]
 }
-]
+\]
 
 Candidate typed schema:
 
@@ -481,9 +478,9 @@ L01State:
       - UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 6. Typed Inputs
+## 6. Typed Inputs
 
 ```yaml
 L01StateInput:
@@ -528,9 +525,9 @@ L01StateInput:
     type: DependencySet
 ```
 
----
+______________________________________________________________________
 
-# 7. Typed Outputs
+## 7. Typed Outputs
 
 ```yaml
 L01StateOutput:
@@ -564,9 +561,9 @@ L01StateOutput:
     type: GapRecord[]
 ```
 
----
+______________________________________________________________________
 
-# 8. State Variables
+## 8. State Variables
 
 ```text
 S = current state
@@ -610,9 +607,9 @@ D = dependencies
 Ver = state version
 ```
 
----
+______________________________________________________________________
 
-# 9. Observation Phase State
+## 9. Observation Phase State
 
 Candidate observation phases:
 
@@ -650,9 +647,9 @@ does not imply:
 epistemic_class = VERIFIED_TRUTH
 ```
 
----
+______________________________________________________________________
 
-# 10. Epistemic State
+## 10. Epistemic State
 
 Minimum epistemic classes:
 
@@ -683,9 +680,9 @@ MODEL
 
 is prohibited without reality-contact evidence.
 
----
+______________________________________________________________________
 
-# 11. Validation State
+## 11. Validation State
 
 Candidate validation lifecycle:
 
@@ -716,9 +713,9 @@ UNKNOWN
 PASS
 ```
 
----
+______________________________________________________________________
 
-# 12. Freshness State
+## 12. Freshness State
 
 ```text
 FRESH
@@ -734,9 +731,7 @@ Freshness is context-dependent.
 
 Conceptually:
 
-[
-Freshness
-=========
+## \[ Freshness
 
 f(
 current_time,
@@ -745,15 +740,15 @@ change_rate,
 purpose,
 regime
 )
-]
+\]
 
 This is an AMOS MODEL relation.
 
 No universal numerical freshness threshold is defined here.
 
----
+______________________________________________________________________
 
-# 13. Conflict State
+## 13. Conflict State
 
 Candidate conflict lifecycle:
 
@@ -778,9 +773,9 @@ COMPETING
 
 solely because one branch is more convenient.
 
----
+______________________________________________________________________
 
-# 14. Lifecycle State
+## 14. Lifecycle State
 
 Candidate lifecycle:
 
@@ -838,9 +833,9 @@ A source, authority, provenance element, or governing status has been explicitly
 
 Observation is retained for historical/replay/audit purposes but is not active evidence for current use.
 
----
+______________________________________________________________________
 
-# 15. Commit State
+## 15. Commit State
 
 Candidate commit lifecycle:
 
@@ -866,17 +861,17 @@ UNKNOWN
 
 Core boundary:
 
-[
-\boxed{
+\[
+\\boxed{
 ProposedState
-\neq
+\\neq
 CommittedState
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 16. Repair State
+## 16. Repair State
 
 ```text
 NONE
@@ -903,18 +898,15 @@ UNKNOWN
 
 Repair status must not overwrite historical failure state.
 
----
+______________________________________________________________________
 
-# 17. State Transition Function
+## 17. State Transition Function
 
 General state transition:
 
-[
-\boxed{
-S_{t+1}
-=======
+## \[ \\boxed{ S\_{t+1}
 
-\delta(
+\\delta(
 S_t,
 E_t,
 O_t,
@@ -923,7 +915,7 @@ C_t,
 A_t
 )
 }
-]
+\]
 
 where:
 
@@ -938,51 +930,45 @@ A_t = authority context
 
 This is a structural AMOS state-transition model.
 
----
+______________________________________________________________________
 
-# 18. Valid Transition Rule
+## 18. Valid Transition Rule
 
 A transition should be admissible only if:
 
-[
-\boxed{
-ValidTransition
-===============
+## \[ \\boxed{ ValidTransition
 
 TypeCompatible
-\land
+\\land
 InvariantCompatible
-\land
+\\land
 DependencyCompatible
-\land
+\\land
 ScopeCompatible
-\land
+\\land
 RegimeCompatible
-\land
+\\land
 ProvenanceValid
 }
-]
+\]
 
 and where a consequential effect is involved:
 
-[
-\boxed{
-CommitEligible
-==============
+## \[ \\boxed{ CommitEligible
 
 ValidTransition
-\land
+\\land
 AuthorityValid
-\land
+\\land
 FreshEnough
 }
-]
+\]
 
 These are `AMOS_MODEL` governance equations.
 
----
+______________________________________________________________________
 
-# 19. State Transition Record
+## 19. State Transition Record
 
 Every material transition should produce:
 
@@ -1026,9 +1012,9 @@ StateTransitionRecord:
   invalidation_conditions: []
 ```
 
----
+______________________________________________________________________
 
-# 20. State Versioning
+## 20. State Versioning
 
 Every consequential state mutation should be version-addressable.
 
@@ -1053,17 +1039,17 @@ which dependencies were affected
 
 State replacement should not destroy history by default.
 
----
+______________________________________________________________________
 
-# 21. Historical State Invariant
+## 21. Historical State Invariant
 
-[
-\boxed{
+\[
+\\boxed{
 CurrentState
-\neq
+\\neq
 HistoricalState
 }
-]
+\]
 
 Changing the current state does not rewrite what the system previously observed.
 
@@ -1090,9 +1076,9 @@ not:
 rewrite O1 as 25°C
 ```
 
----
+______________________________________________________________________
 
-# 22. State vs Reality
+## 22. State vs Reality
 
 This distinction is foundational.
 
@@ -1118,17 +1104,17 @@ the door is open now
 
 Therefore:
 
-[
-\boxed{
+\[
+\\boxed{
 ObservationState_t
-\not\Rightarrow
-Reality_{now}
+\\not\\Rightarrow
+Reality\_{now}
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 23. State vs Memory
+## 23. State vs Memory
 
 ```text
 L01 STATE
@@ -1144,21 +1130,21 @@ represents retained observation/history state.
 
 Thus:
 
-[
-\boxed{
+\[
+\\boxed{
 ActiveState
-\neq
+\\neq
 StoredState
 }
-]
+\]
 
 A stored observation may represent a prior L01 state.
 
 It does not become the current L01 state merely because it was retrieved.
 
----
+______________________________________________________________________
 
-# 24. State vs RSCF
+## 24. State vs RSCF
 
 `STATE.md` owns:
 
@@ -1177,11 +1163,11 @@ what dependencies/falsifiers apply
 
 Conceptually:
 
-[
+\[
 State
-\xleftarrow{governed\ by}
+\\xleftarrow{governed\\ by}
 RSCF
-]
+\]
 
 for evidence-sensitive transitions.
 
@@ -1193,9 +1179,9 @@ STATE
 RSCF
 ```
 
----
+______________________________________________________________________
 
-# 25. State vs Operator
+## 25. State vs Operator
 
 Operators cause or propose transitions.
 
@@ -1221,9 +1207,9 @@ transition valid
 
 Validation remains separate.
 
----
+______________________________________________________________________
 
-# 26. State vs Protocol
+## 26. State vs Protocol
 
 Protocols transport transition requests and results.
 
@@ -1239,9 +1225,9 @@ StateTransitionCommit
 
 Transporting a state proposal does not make the proposed state authoritative.
 
----
+______________________________________________________________________
 
-# 27. Core State Invariants
+## 27. Core State Invariants
 
 ```text
 L01-STATE-INV-001
@@ -1311,9 +1297,9 @@ L01-STATE-INV-022
 State-machine completeness does not establish runtime implementation.
 ```
 
----
+______________________________________________________________________
 
-# 28. Dependency Structure
+## 28. Dependency Structure
 
 Primary dependencies:
 
@@ -1353,9 +1339,9 @@ CONTROL-PLANE DECISION
 CURRENT GOVERNED L01 STATE
 ```
 
----
+______________________________________________________________________
 
-# 29. H/M/L State
+## 29. H/M/L State
 
 State must remain scale-aware.
 
@@ -1394,16 +1380,13 @@ global sensing availability
 cross-subsystem conflict state
 ```
 
----
+______________________________________________________________________
 
-# 30. Cross-Scale State Tensor
+## 30. Cross-Scale State Tensor
 
-[
-\boxed{
-T_{HML-State}
-=============
+## \[ \\boxed{ T\_{HML-State}
 
-T[
+T\[
 scale,
 state,
 parents,
@@ -1412,37 +1395,37 @@ constraints,
 provenance,
 uncertainty,
 validation
-]
+\]
 }
-]
+\]
 
 Cross-scale transition:
 
-[
+\[
 S_L
-\xrightarrow{\tau_{LM}}
+\\xrightarrow{\\tau\_{LM}}
 S_M
-\xrightarrow{\tau_{MH}}
+\\xrightarrow{\\tau\_{MH}}
 S_H
-]
+\]
 
 requires explicit translation.
 
 Hard rule:
 
-[
-\boxed{
+\[
+\\boxed{
 S_L
-\neq
+\\neq
 S_M
-\neq
+\\neq
 S_H
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 31. Upward Propagation
+## 31. Upward Propagation
 
 A local observation can affect higher-scale state only through valid dependency paths.
 
@@ -1464,9 +1447,9 @@ H system failure
 
 by assumption.
 
----
+______________________________________________________________________
 
-# 32. Downward Constraint
+## 32. Downward Constraint
 
 H-level state may constrain L-level operations.
 
@@ -1486,9 +1469,9 @@ This is constraint propagation.
 
 It does not rewrite the underlying L observation.
 
----
+______________________________________________________________________
 
-# 33. Control-Plane Requirements
+## 33. Control-Plane Requirements
 
 The control plane should govern authoritative changes to:
 
@@ -1516,9 +1499,9 @@ validation state
 
 but the infrastructure/control plane should govern consequential durable transitions.
 
----
+______________________________________________________________________
 
-# 34. Commit-Time Validation
+## 34. Commit-Time Validation
 
 Immediately before durable commit:
 
@@ -1538,19 +1521,19 @@ check applicable constraints
 
 Conceptually:
 
-[
-\boxed{
-Commit(S_{next})
-\Rightarrow
-Revalidate(S_{current},S_{next})
+\[
+\\boxed{
+Commit(S\_{next})
+\\Rightarrow
+Revalidate(S\_{current},S\_{next})
 }
-]
+\]
 
 where consequential state could have changed after proposal.
 
----
+______________________________________________________________________
 
-# 35. Version / Epoch Safety
+## 35. Version / Epoch Safety
 
 Where concurrent or delayed transitions exist:
 
@@ -1569,22 +1552,19 @@ rather than blindly applying the old proposal.
 
 Conceptually:
 
-[
-\boxed{
-proposal.base_version
-=====================
+## \[ \\boxed{ proposal.base_version
 
 current.version
 }
-]
+\]
 
 or an explicit valid reconciliation is required.
 
 This is an AMOS control-plane model, not a claim that a specific runtime primitive already exists.
 
----
+______________________________________________________________________
 
-# 36. Agents
+## 36. Agents
 
 Candidate state-management roles:
 
@@ -1609,9 +1589,9 @@ ROLE
 DEPLOYED AGENT
 ```
 
----
+______________________________________________________________________
 
-# 37. Skills
+## 37. Skills
 
 Candidate supporting skill families:
 
@@ -1633,9 +1613,9 @@ commit-time authorization
 
 Skill availability does not grant state mutation authority.
 
----
+______________________________________________________________________
 
-# 38. Primary Workflow
+## 38. Primary Workflow
 
 ```text
 EVENT / OBSERVATION RECEIVED
@@ -1669,9 +1649,9 @@ COMMIT / REJECT / QUARANTINE
 EMIT STATE TRANSITION EVENT
 ```
 
----
+______________________________________________________________________
 
-# 39. Freshness Workflow
+## 39. Freshness Workflow
 
 ```text
 ACTIVE OBSERVATION
@@ -1697,9 +1677,9 @@ CHECK FRESHNESS
     CONDITIONAL / QUARANTINE depending consequence
 ```
 
----
+______________________________________________________________________
 
-# 40. Conflict Workflow
+## 40. Conflict Workflow
 
 ```text
 ACTIVE STATE A
@@ -1723,9 +1703,9 @@ COMPATIBLE?
     identify discriminating evidence
 ```
 
----
+______________________________________________________________________
 
-# 41. Supersession Workflow
+## 41. Supersession Workflow
 
 ```text
 CURRENT OBSERVATION O1
@@ -1747,9 +1727,9 @@ O2 materially replaces O1?
     retain O1 historical lineage
 ```
 
----
+______________________________________________________________________
 
-# 42. Invalidation Workflow
+## 42. Invalidation Workflow
 
 ```text
 PREMISE / SOURCE / PROVENANCE FAILS
@@ -1767,9 +1747,9 @@ PRESERVE INDEPENDENT STATE
 REPAIR / REOBSERVE / REVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 43. Repair Workflow
+## 43. Repair Workflow
 
 ```text
 STATE FAILURE DETECTED
@@ -1793,9 +1773,9 @@ AUTHORITY CHECK
 COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 44. Protocols
+## 44. Protocols
 
 Candidate state protocol objects:
 
@@ -1843,9 +1823,9 @@ authority
 evidence
 ```
 
----
+______________________________________________________________________
 
-# 45. Evidence / Provenance
+## 45. Evidence / Provenance
 
 Every material L01 state transition should preserve:
 
@@ -1872,10 +1852,10 @@ dependency impact
 
 Candidate state provenance tensor:
 
-[
-\boxed{
+\[
+\\boxed{
 P_S =
-T[
+T\[
 state,
 prior_state,
 event,
@@ -1888,13 +1868,13 @@ regime,
 HML,
 authority,
 evidence
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 46. State Uncertainty
+## 46. State Uncertainty
 
 Candidate state uncertainty:
 
@@ -1931,49 +1911,49 @@ state_uncertainty:
 
 Unknown uncertainty must not silently become zero.
 
----
+______________________________________________________________________
 
-# 47. Confidence Ceiling
+## 47. Confidence Ceiling
 
-For state \(S\):
+For state (S):
 
-[
-\boxed{
+\[
+\\boxed{
 C(S)
-\le
-\min(
-C_{observation},
-C_{provenance},
-C_{validation},
-C_{scope},
-C_{regime},
-C_{freshness}
+\\le
+\\min(
+C\_{observation},
+C\_{provenance},
+C\_{validation},
+C\_{scope},
+C\_{regime},
+C\_{freshness}
 )
 }
-]
+\]
 
 when those terms are load-bearing.
 
 For a transition:
 
-[
-\boxed{
-C(S_{t+1})
-\le
-\min(
+\[
+\\boxed{
+C(S\_{t+1})
+\\le
+\\min(
 C(S_t),
 C(event),
 C(operator),
 C(validation)
 )
 }
-]
+\]
 
 unless independently revalidated evidence supports stronger confidence.
 
----
+______________________________________________________________________
 
-# 48. Failure Modes
+## 48. Failure Modes
 
 ```text
 FM-L01-STATE-001  State/Reality Collapse
@@ -2008,9 +1988,9 @@ FM-L01-STATE-029  State Confidence Inflation
 FM-L01-STATE-030  Runtime Status Inflation
 ```
 
----
+______________________________________________________________________
 
-# 49. Repair / Recovery
+## 49. Repair / Recovery
 
 General recovery:
 
@@ -2044,9 +2024,9 @@ REVALIDATE DEPENDENTS
 
 Repair must not rewrite previous state history to make the system appear consistent.
 
----
+______________________________________________________________________
 
-# 50. Rollback
+## 50. Rollback
 
 Rollback restores a prior valid state representation when appropriate.
 
@@ -2066,9 +2046,9 @@ rather than deleting the existence of `S_v3`.
 
 This preserves audit history.
 
----
+______________________________________________________________________
 
-# 51. Tests / Validators
+## 51. Tests / Validators
 
 Minimum validator registry:
 
@@ -2095,9 +2075,9 @@ VALIDATOR_HISTORICAL_TRACE
 VALIDATOR_COMMIT_FRESHNESS
 ```
 
----
+______________________________________________________________________
 
-# 52. Minimum Tests
+## 52. Minimum Tests
 
 ```text
 TEST_L01_STATE_001
@@ -2191,9 +2171,9 @@ TEST_L01_STATE_030
 complete state machine does not imply runtime implementation
 ```
 
----
+______________________________________________________________________
 
-# 53. Adversarial Tests
+## 53. Adversarial Tests
 
 Test against:
 
@@ -2221,9 +2201,9 @@ repair state overwrite
 transition loop
 ```
 
----
+______________________________________________________________________
 
-# 54. Falsifiers
+## 54. Falsifiers
 
 This contract must be revised if:
 
@@ -2249,9 +2229,9 @@ runtime implementation requires incompatible state semantics
 executed tests falsify transition or selective-invalidation assumptions
 ```
 
----
+______________________________________________________________________
 
-# 55. Gap Matrix
+## 55. Gap Matrix
 
 ```yaml
 gap_matrix:
@@ -2364,9 +2344,9 @@ gap_matrix:
     criticality: CRITICAL
 ```
 
----
+______________________________________________________________________
 
-# 56. Gap Resolution Priority
+## 56. Gap Resolution Priority
 
 ```text
 1. Locate direct canonical L01 STATE material.
@@ -2410,9 +2390,9 @@ gap_matrix:
 20. Promote state status only from executable evidence.
 ```
 
----
+______________________________________________________________________
 
-# 57. Evidence / Provenance of This Artifact
+## 57. Evidence / Provenance of This Artifact
 
 ```yaml
 artifact_provenance:
@@ -2446,9 +2426,9 @@ artifact_provenance:
 
 This artifact must not be treated as independent confirmation of its own reconstructed L01 state semantics.
 
----
+______________________________________________________________________
 
-# 58. Uncertainty Vector
+## 58. Uncertainty Vector
 
 ```yaml
 uncertainty:
@@ -2483,9 +2463,9 @@ uncertainty:
     level: MEDIUM_HIGH
 ```
 
----
+______________________________________________________________________
 
-# 59. Confidence Ceiling
+## 59. Confidence Ceiling
 
 The strongest warranted status is:
 
@@ -2505,19 +2485,19 @@ EMPIRICALLY VALIDATED
 
 Therefore:
 
-[
-\boxed{
-C_{STATE}
-\le
-C_{weakest\ load-bearing\ premise}
+\[
+\\boxed{
+C\_{STATE}
+\\le
+C\_{weakest\\ load-bearing\\ premise}
 }
-]
+\]
 
 unless independently revalidated.
 
----
+______________________________________________________________________
 
-# 60. RSCF Completion State
+## 60. RSCF Completion State
 
 ```yaml
 rscf:
@@ -2643,9 +2623,9 @@ rscf:
     - executable runtime
 ```
 
----
+______________________________________________________________________
 
-# 61. Completion State
+## 61. Completion State
 
 ```yaml
 completion_state:
@@ -2729,9 +2709,9 @@ completion_state:
     MODEL / CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
-# 62. State Contract Summary
+## 62. State Contract Summary
 
 ```text
 L01 STATE
@@ -2779,9 +2759,9 @@ The governing principle is:
 
 > **AMOS must distinguish what it currently believes it has observed from what was previously observed, how that state was produced, whether it remains valid, what may change it, and whether the system has authority to make that change durable.**
 
----
+______________________________________________________________________
 
-# 63. Final Hard Boundaries
+## 63. Final Hard Boundaries
 
 ```text
 PLACEHOLDER != IMPLEMENTED
@@ -2851,9 +2831,9 @@ CANON_COMPLETE != IMPLEMENTED
 IMPLEMENTED != VALIDATED
 ```
 
----
+______________________________________________________________________
 
-# 64. References
+## 64. References
 
 ## Internal AMOS References
 
@@ -2925,29 +2905,33 @@ amos_unified_master_combined_max_detail
 
 > Reference presence identifies intended lineage or architectural dependency. It does not by itself prove that every reconstructed L01 state object in this artifact appears verbatim in the referenced source.
 
----
+______________________________________________________________________
 
 **Related:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]]
 
 ```
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: l01_sensing_observation_primitives_cognitive_matrix_state
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_STATE.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_MOC|L01_SENSING_OBSERVATION_MOC]]

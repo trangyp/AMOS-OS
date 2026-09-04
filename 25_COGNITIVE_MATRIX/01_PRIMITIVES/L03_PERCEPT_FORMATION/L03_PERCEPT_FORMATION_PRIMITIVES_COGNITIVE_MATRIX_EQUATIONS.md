@@ -2,16 +2,16 @@
 type: cognitive
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L03_PERCEPT_FORMATION
 tags:
-- amos
-- cognitive-matrix
-- matrix/l03
-- percept-formation
-- equations
-- mathematical-rigor
-- rscf
-- hml
-- provenance
-- domain/cognitive-matrix
+  - amos
+  - cognitive-matrix
+  - matrix/l03
+  - percept-formation
+  - equations
+  - mathematical-rigor
+  - rscf
+  - hml
+  - provenance
+  - domain/cognitive-matrix
 title: L03_PERCEPT_FORMATION — Equations
 origin_architect: Trang Phan
 status: MODEL_EQUATION_CONTRACT / UNIMPLEMENTED / UNVALIDATED
@@ -34,9 +34,9 @@ rscf:
 
 > **Equation boundary:** The AMOS Mathematical Rigor RSCF Kernel requires equations to carry identity, expression, type, variables, units/types, assumptions, scope, provenance, validation status, falsifier, and implementation mapping. It explicitly requires framework equations to remain `AMOS_MODEL` unless independently established, separates numerical evidence from symbolic proof, blocks proof promotion for undefined variables or type/unit mismatch, and propagates confidence/invalidation through load-bearing dependencies.
 
----
+______________________________________________________________________
 
-# 0. Purpose
+## 0. Purpose
 
 Define the mathematical and formal equation contract for `L03_PERCEPT_FORMATION`.
 
@@ -88,18 +88,18 @@ commit eligibility
 
 unless a specific equation is explicitly classified otherwise.
 
----
+______________________________________________________________________
 
-# 1. Source / Canon References
+## 1. Source / Canon References
 
 ## 1.1 Direct source-aligned mathematical requirements
 
 The AMOS Mathematical Rigor RSCF Kernel defines the equation registry:
 
-[
+\[
 E_q =
-(id,\ expression,\ type,\ variables,\ units_or_types,\ assumptions,\ scope,\ provenance,\ validation_status,\ falsifier,\ implementation_mapping)
-]
+(id,\\ expression,\\ type,\\ variables,\\ units_or_types,\\ assumptions,\\ scope,\\ provenance,\\ validation_status,\\ falsifier,\\ implementation_mapping)
+\]
 
 and recognizes equation classes:
 
@@ -113,18 +113,18 @@ BENCHMARK_FORMULA
 
 It further defines:
 
-[
-Admit(x)=\bigwedge_i I_i(x)
-]
+\[
+Admit(x)=\\bigwedge_i I_i(x)
+\]
 
-[
-X_{t+1}=P_I(F(X_t,U_t,E_t,M_t))
-]
+\[
+X\_{t+1}=P_I(F(X_t,U_t,E_t,M_t))
+\]
 
-[
-Conf(C)\leq
-\min_{p\in LB(C)}Conf(p)
-]
+\[
+Conf(C)\\leq
+\\min\_{p\\in LB(C)}Conf(p)
+\]
 
 unless independently revalidated, together with selective descendant invalidation.
 
@@ -146,18 +146,18 @@ canonical_runtime_mapping: UNKNOWN_GAP
 
 No missing canonical equation is invented below.
 
----
+______________________________________________________________________
 
-# 2. Definition and Scope
+## 2. Definition and Scope
 
 An L03 equation is a typed formal relation used to specify, constrain, score, transform, validate, or govern percept formation.
 
 Candidate generic percept formation operator:
 
-[
+\[
 P_t =
-\Phi(O_t,A_t,F_t,B_t,C_t,\Theta_t)
-]
+\\Phi(O_t,A_t,F_t,B_t,C_t,\\Theta_t)
+\]
 
 where:
 
@@ -179,11 +179,11 @@ type: AMOS_MODEL
 validation_status: UNVALIDATED
 ```
 
-This equation does **not** claim that biological perception literally implements the function (\Phi).
+This equation does **not** claim that biological perception literally implements the function (\\Phi).
 
----
+______________________________________________________________________
 
-# 3. Symbol Registry
+## 3. Symbol Registry
 
 ```text
 O_t      admitted observation state at t
@@ -224,9 +224,9 @@ Mem_t    memory/context state
 
 All symbols require explicit type definitions before implementation.
 
----
+______________________________________________________________________
 
-# 4. Typed Inputs
+## 4. Typed Inputs
 
 ```yaml
 L03EquationInput:
@@ -280,9 +280,9 @@ L03EquationInput:
     type: AuthorityContext
 ```
 
----
+______________________________________________________________________
 
-# 5. Typed Outputs
+## 5. Typed Outputs
 
 ```yaml
 L03EquationOutput:
@@ -331,16 +331,16 @@ L03 equation output
 authority to commit percept state
 ```
 
----
+______________________________________________________________________
 
-# 6. State Variables
+## 6. State Variables
 
 Candidate L03 state:
 
-[
-X^{L03}_t =
-(O_t,A_t,F_t,B_t,C_t,P_t,U_t,Q_t,S_t,R_t,Pr_t,D_t,\Omega_t)
-]
+\[
+X^{L03}\_t =
+(O_t,A_t,F_t,B_t,C_t,P_t,U_t,Q_t,S_t,R_t,Pr_t,D_t,\\Omega_t)
+\]
 
 Classification:
 
@@ -367,22 +367,20 @@ L03State:
   competing_state: CompetingPerceptSet
 ```
 
----
+______________________________________________________________________
 
-# 7. Equation Registry
+## 7. Equation Registry
 
 ## L03-EQ-001 — Observation Admission
 
 Reuse of the AMOS hard-gate structure:
 
-[
-Admit(O_i)
-==========
+## \[ Admit(O_i)
 
-\bigwedge_{j=1}^{n} I_j(O_i)
-]
+\\bigwedge\_{j=1}^{n} I_j(O_i)
+\]
 
-where \(I_j\) are mandatory admission invariants.
+where (I_j) are mandatory admission invariants.
 
 Possible invariants:
 
@@ -404,26 +402,24 @@ L03 specialization: AMOS_MODEL
 
 Hard implication:
 
-[
-\neg Admit(O_i)
-\Rightarrow
-O_i\notin O_t
-]
+\[
+\\neg Admit(O_i)
+\\Rightarrow
+O_i\\notin O_t
+\]
 
 No weighted score may compensate for a failed hard invariant.
 
----
+______________________________________________________________________
 
-# 8. L03-EQ-002 — Attention-Conditioned Observation Set
+## 8. L03-EQ-002 — Attention-Conditioned Observation Set
 
 Candidate:
 
-[
-O^{att}_t
-=========
+## \[ O^{att}\_t
 
 Select(O_t,A_t)
-]
+\]
 
 where:
 
@@ -441,36 +437,34 @@ AMOS_MODEL
 
 Critical invariant:
 
-[
+\[
 Selected(O_i)
-\not\Rightarrow
+\\not\\Rightarrow
 True(O_i)
-]
+\]
 
 Attention modifies processing selection, not epistemic truth.
 
----
+______________________________________________________________________
 
-# 9. L03-EQ-003 — Feature Transformation
+## 9. L03-EQ-003 — Feature Transformation
 
 Candidate:
 
-[
-F_t
-===
+## \[ F_t
 
-\phi(O^{att}_t)
-]
+\\phi(O^{att}\_t)
+\]
 
-where (\phi) is an explicitly typed feature transformation.
+where (\\phi) is an explicitly typed feature transformation.
 
 Required ancestry:
 
-[
+\[
 Prov(F_t)
-\supseteq
-Prov(O^{att}_t)
-]
+\\supseteq
+Prov(O^{att}\_t)
+\]
 
 Meaning:
 
@@ -488,26 +482,24 @@ AMOS_MODEL
 
 Hard boundary:
 
-[
+\[
 F_i
-\neq
+\\neq
 IndependentEvidence(O_i)
-]
+\]
 
-when \(F_i\) is derived solely from \(O_i\).
+when (F_i) is derived solely from (O_i).
 
----
+______________________________________________________________________
 
-# 10. L03-EQ-004 — Binding Function
+## 10. L03-EQ-004 — Binding Function
 
 Candidate:
 
-[
-B_t
-===
+## \[ B_t
 
-\beta(F_t,T_t,X_t,M_t,C_t)
-]
+\\beta(F_t,T_t,X_t,M_t,C_t)
+\]
 
 where:
 
@@ -536,20 +528,18 @@ bound features
 single real-world object
 ```
 
----
+______________________________________________________________________
 
-# 11. L03-EQ-005 — Percept Candidate Formation
+## 11. L03-EQ-005 — Percept Candidate Formation
 
 Core candidate:
 
-[
-P^*_t
-=====
+## \[ P^\*\_t
 
-\Phi(O^{att}_t,F_t,B_t,C_t)
-]
+\\Phi(O^{att}\_t,F_t,B_t,C_t)
+\]
 
-where (P^*_t) is a set of candidate percepts.
+where (P^\*\_t) is a set of candidate percepts.
 
 A set is used rather than a single forced percept because ambiguity may remain.
 
@@ -561,9 +551,9 @@ AMOS_MODEL
 
 Hard rule:
 
-[
-|P^*_t|>1
-]
+\[
+|P^\*\_t|>1
+\]
 
 is permitted.
 
@@ -575,36 +565,34 @@ AMBIGUITY
 FAILURE
 ```
 
----
+______________________________________________________________________
 
-# 12. L03-EQ-006 — Percept Validity Gate
+## 12. L03-EQ-006 — Percept Validity Gate
 
 Candidate:
 
-[
-Valid(P_i)
-==========
+## \[ Valid(P_i)
 
-I_{obs}
-\land
-I_{type}
-\land
-I_{scope}
-\land
-I_{regime}
-\land
-I_{prov}
-\land
-I_{constraint}
-]
+I\_{obs}
+\\land
+I\_{type}
+\\land
+I\_{scope}
+\\land
+I\_{regime}
+\\land
+I\_{prov}
+\\land
+I\_{constraint}
+\]
 
 where each term is Boolean.
 
 If any load-bearing invariant fails:
 
-[
+\[
 Valid(P_i)=0
-]
+\]
 
 Classification:
 
@@ -613,17 +601,17 @@ AMOS_MODEL specialization
 of source-aligned hard-gate logic
 ```
 
----
+______________________________________________________________________
 
-# 13. L03-EQ-007 — Confidence Ceiling
+## 13. L03-EQ-007 — Confidence Ceiling
 
-For percept \(P_i\):
+For percept (P_i):
 
-[
+\[
 Q(P_i)
-\le
-\min_{d\in LB(P_i)}Q(d)
-]
+\\le
+\\min\_{d\\in LB(P_i)}Q(d)
+\]
 
 unless an independently revalidated path supports a higher ceiling.
 
@@ -647,20 +635,18 @@ Important:
 
 here is illustrative, not a canonical AMOS threshold.
 
----
+______________________________________________________________________
 
-# 14. L03-EQ-008 — Uncertainty Vector
+## 14. L03-EQ-008 — Uncertainty Vector
 
 Do not collapse all uncertainty into one scalar by default.
 
 Candidate:
 
-[
-U(P)
-====
+## \[ U(P)
 
-\(u_e,u_m,u_s,u_t,u_c,u_x,u_p\)
-]
+(u_e,u_m,u_s,u_t,u_c,u_x,u_p)
+\]
 
 where:
 
@@ -682,46 +668,44 @@ AMOS_MODEL
 
 Any scalarization:
 
-[
-u^*=g(U)
-]
+\[
+u^\*=g(U)
+\]
 
 must explicitly define (g).
 
 No canonical scalarization is currently established.
 
----
+______________________________________________________________________
 
-# 15. L03-EQ-009 — Provenance Preservation
+## 15. L03-EQ-009 — Provenance Preservation
 
 Candidate invariant:
 
-[
-Anc(P_i)
-========
+## \[ Anc(P_i)
 
-\bigcup_{d\in LB(P_i)} Anc(d)
-]
+\\bigcup\_{d\\in LB(P_i)} Anc(d)
+\]
 
 subject to explicit transformation records.
 
 For a derived chain:
 
-[
+\[
 O
-\rightarrow
+\\rightarrow
 F
-\rightarrow
+\\rightarrow
 B
-\rightarrow
+\\rightarrow
 P
-]
+\]
 
 the provenance relation should preserve:
 
-[
-O\in Anc(P)
-]
+\[
+O\\in Anc(P)
+\]
 
 Classification:
 
@@ -731,25 +715,25 @@ AMOS_MODEL
 
 Hard boundary:
 
-[
-n\text{ descendants from source }s
-\neq
-n\text{ independent sources}
-]
+\[
+n\\text{ descendants from source }s
+\\neq
+n\\text{ independent sources}
+\]
 
----
+______________________________________________________________________
 
-# 16. L03-EQ-010 — Freshness Ceiling
+## 16. L03-EQ-010 — Freshness Ceiling
 
 Candidate:
 
-[
+\[
 Fresh(P_i)
-\preceq
-\min_{d\in LB(P_i)} Fresh(d)
-]
+\\preceq
+\\min\_{d\\in LB(P_i)} Fresh(d)
+\]
 
-where (\preceq) denotes a freshness ordering, not ordinary numeric less-than unless freshness has been numerically defined.
+where (\\preceq) denotes a freshness ordering, not ordinary numeric less-than unless freshness has been numerically defined.
 
 Classification:
 
@@ -759,17 +743,17 @@ AMOS_MODEL
 
 This avoids falsely treating a newly computed percept as fresh when its load-bearing evidence is stale.
 
----
+______________________________________________________________________
 
-# 17. L03-EQ-011 — Scope Intersection
+## 17. L03-EQ-011 — Scope Intersection
 
 Candidate percept scope:
 
-[
+\[
 Scope(P_i)
-\subseteq
-\bigcap_{d\in LB(P_i)} Scope(d)
-]
+\\subseteq
+\\bigcap\_{d\\in LB(P_i)} Scope(d)
+\]
 
 unless a validated scope-transfer operation exists.
 
@@ -781,33 +765,31 @@ AMOS_MODEL
 
 Therefore:
 
-[
+\[
 Valid(P,S_1)
-\not\Rightarrow
+\\not\\Rightarrow
 Valid(P,S_2)
-]
+\]
 
 without transfer evidence.
 
----
+______________________________________________________________________
 
-# 18. L03-EQ-012 — Regime Compatibility
+## 18. L03-EQ-012 — Regime Compatibility
 
 Candidate:
 
-[
-RegimeValid(P_i,r)
-==================
+## \[ RegimeValid(P_i,r)
 
-\bigwedge_{d\in LB(P_i)}
+\\bigwedge\_{d\\in LB(P_i)}
 Compatible(Regime(d),r)
-]
+\]
 
 If:
 
-[
+\[
 RegimeValid(P_i,r)=0
-]
+\]
 
 then:
 
@@ -823,22 +805,20 @@ Classification:
 AMOS_MODEL
 ```
 
----
+______________________________________________________________________
 
-# 19. L03-EQ-013 — Temporal Compatibility
+## 19. L03-EQ-013 — Temporal Compatibility
 
 For two features (F_i,F_j):
 
-[
-C_T(F_i,F_j)
-============
+## \[ C_T(F_i,F_j)
 
-Compat_T(t_i,t_j,\Delta_{ij})
-]
+Compat_T(t_i,t_j,\\Delta\_{ij})
+\]
 
-where (\Delta_{ij}) is an admissible temporal relation.
+where (\\Delta\_{ij}) is an admissible temporal relation.
 
-No universal threshold for (\Delta_{ij}) is asserted.
+No universal threshold for (\\Delta\_{ij}) is asserted.
 
 Classification:
 
@@ -848,24 +828,22 @@ AMOS_MODEL
 
 Hard boundary:
 
-[
-t_i<t_j
-\not\Rightarrow
-F_i\ causes\ F_j
-]
+\[
+t_i\<t_j
+\\not\\Rightarrow
+F_i\\ causes\\ F_j
+\]
 
----
+______________________________________________________________________
 
-# 20. L03-EQ-014 — Spatial Compatibility
+## 20. L03-EQ-014 — Spatial Compatibility
 
 Where spatial data exists:
 
-[
-C_X(F_i,F_j)
-============
+## \[ C_X(F_i,F_j)
 
-Compat_X(x_i,x_j,\mathcal F)
-]
+Compat_X(x_i,x_j,\\mathcal F)
+\]
 
 where:
 
@@ -882,27 +860,27 @@ AMOS_MODEL
 
 If spatial information is unavailable:
 
-[
+\[
 C_X = UNKNOWN
-]
+\]
 
 not automatically `TRUE`.
 
----
+______________________________________________________________________
 
-# 21. L03-EQ-015 — Modality Availability Mask
+## 21. L03-EQ-015 — Modality Availability Mask
 
 Let:
 
-[
+\[
 M_t =
-(m_1,\ldots,m_k)
-]
+(m_1,\\ldots,m_k)
+\]
 
 with:
 
-[
-m_i\in
+\[
+m_i\\in
 {
 AVAILABLE,
 UNAVAILABLE,
@@ -910,28 +888,26 @@ FAILED,
 STALE,
 UNKNOWN
 }
-]
+\]
 
 Candidate modality gate:
 
-[
-Usable(m_i)
-===========
+## \[ Usable(m_i)
 
 1
-\iff
+\\iff
 m_i=AVAILABLE
-]
+\]
 
 unless another state is explicitly permitted.
 
 Hard rule:
 
-[
+\[
 UNAVAILABLE
-\neq
+\\neq
 NEGATIVE_OBSERVATION
-]
+\]
 
 Classification:
 
@@ -939,40 +915,36 @@ Classification:
 AMOS_MODEL
 ```
 
----
+______________________________________________________________________
 
-# 22. L03-EQ-016 — Competing Percept Preservation
+## 22. L03-EQ-016 — Competing Percept Preservation
 
 Let:
 
-[
-\Omega_t
-========
+## \[ \\Omega_t
 
-{P_1,P_2,\ldots,P_n}
-]
+{P_1,P_2,\\ldots,P_n}
+\]
 
 represent percept candidates consistent with currently admitted evidence.
 
 Do not force:
 
-[
-\arg\max_i Q(P_i)
-]
+\[
+\\arg\\max_i Q(P_i)
+\]
 
 to become authoritative merely because it has the largest model score.
 
 Instead:
 
-[
-Resolve(\Omega_t)
-=================
+## \[ Resolve(\\Omega_t)
 
-\begin{cases}
-P_k & \text{if discriminating evidence licenses resolution}\
-COMPETING & \text{otherwise}
-\end{cases}
-]
+\\begin{cases}
+P_k & \\text{if discriminating evidence licenses resolution}\
+COMPETING & \\text{otherwise}
+\\end{cases}
+\]
 
 Classification:
 
@@ -980,39 +952,35 @@ Classification:
 AMOS_MODEL
 ```
 
----
+______________________________________________________________________
 
-# 23. L03-EQ-017 — Evidence Independence
+## 23. L03-EQ-017 — Evidence Independence
 
-Suppose evidence items \(e_i,e_j\) share ancestry.
+Suppose evidence items (e_i,e_j) share ancestry.
 
 Candidate independence indicator:
 
-[
-Ind(e_i,e_j)
-============
+## \[ Ind(e_i,e_j)
 
 0
-\quad
-\text{if load-bearing semantic ancestry overlaps materially}
-]
+\\quad
+\\text{if load-bearing semantic ancestry overlaps materially}
+\]
 
 and:
 
-[
-Ind(e_i,e_j)
-============
+## \[ Ind(e_i,e_j)
 
 UNKNOWN
-]
+\]
 
 when ancestry cannot be established.
 
 Never assume:
 
-[
+\[
 Ind(e_i,e_j)=1
-]
+\]
 
 from different wording, files, agents, or transformations alone.
 
@@ -1022,18 +990,16 @@ Classification:
 AMOS_MODEL
 ```
 
----
+______________________________________________________________________
 
-# 24. L03-EQ-018 — H/M/L Local-to-Middle Aggregation
+## 24. L03-EQ-018 — H/M/L Local-to-Middle Aggregation
 
 Candidate:
 
-[
-M^{HML}_t
-=========
+## \[ M^{HML}\_t
 
-\Gamma_M(L_{1:t},R_{LM},K_t)
-]
+\\Gamma_M(L\_{1:t},R\_{LM},K_t)
+\]
 
 where:
 
@@ -1051,26 +1017,24 @@ AMOS_MODEL
 
 Hard rule:
 
-[
+\[
 L
-\not\Rightarrow
+\\not\\Rightarrow
 M
-]
+\]
 
 without an admissible mapping.
 
----
+______________________________________________________________________
 
-# 25. L03-EQ-019 — H/M/L Middle-to-High Aggregation
+## 25. L03-EQ-019 — H/M/L Middle-to-High Aggregation
 
 Candidate:
 
-[
-H_t
-===
+## \[ H_t
 
-\Gamma_H(M^{HML}*{1:n},R*{MH},K_t)
-]
+\\Gamma_H(M^{HML}*{1:n},R*{MH},K_t)
+\]
 
 Classification:
 
@@ -1082,67 +1046,61 @@ Cross-scale confidence must respect load-bearing lower-level uncertainty.
 
 Candidate ceiling:
 
-[
+\[
 Q(H)
-\le
-\min_{m\in LB(H)}Q(m)
-]
+\\le
+\\min\_{m\\in LB(H)}Q(m)
+\]
 
 unless independently revalidated.
 
----
+______________________________________________________________________
 
-# 26. L03-EQ-020 — Cross-Scale Consistency
+## 26. L03-EQ-020 — Cross-Scale Consistency
 
 Candidate:
 
-[
-Consistent_{HML}
-================
+## \[ Consistent\_{HML}
 
 I(L,M)
-\land
+\\land
 I(M,H)
-\land
+\\land
 I(L,H)
-]
+\]
 
-where \(I\) represents explicit compatibility checks.
+where (I) represents explicit compatibility checks.
 
 A high-level percept inconsistent with its load-bearing lower-level state must not silently overwrite that lower-level evidence.
 
----
+______________________________________________________________________
 
-# 27. L03-EQ-021 — State Transition
+## 27. L03-EQ-021 — State Transition
 
 Source-aligned AMOS transition form:
 
-[
-X_{t+1}
-=======
+## \[ X\_{t+1}
 
 P_I(F(X_t,U_t,E_t,M_t))
-]
+\]
 
 L03 specialization:
 
-[
-X^{L03}_{t+1}
-=============
+## \[ X^{L03}\_{t+1}
 
-P_{I^{L03}}
-\left(
-F_{L03}
+P\_{I^{L03}}
+\\left(
+F\_{L03}
 (
-X^{L03}_t,
+X^{L03}\_t,
 O_t,
 A_t,
 C_t
 )
-\right)
-]
+\\right)
+\]
 
-where (P_{I^{L03}}) projects the candidate next state onto states satisfying L03 invariants.
+where (P\_{I^{L03}}) projects the candidate next state onto states satisfying L03 invariants.
 
 Classification:
 
@@ -1151,38 +1109,38 @@ base form: SOURCE-ALIGNED AMOS
 L03 specialization: AMOS_MODEL
 ```
 
----
+______________________________________________________________________
 
-# 28. L03-EQ-022 — Selective Invalidation
+## 28. L03-EQ-022 — Selective Invalidation
 
 Source-aligned rule:
 
-[
+\[
 Invalid(d)
-\Rightarrow
+\\Rightarrow
 Invalidate(Descendants(d))
-]
+\]
 
 L03 application:
 
-[
+\[
 Invalid(O_i)
-\Rightarrow
+\\Rightarrow
 Invalidate
-\left(
-Desc_{L03}\(O_i\)
-\right)
-]
+\\left(
+Desc\_{L03}(O_i)
+\\right)
+\]
 
 but:
 
-[
+\[
 Invalid(O_i)
-\not\Rightarrow
+\\not\\Rightarrow
 Invalidate(P_j)
-]
+\]
 
-when \(P_j\) has no dependency path from \(O_i\).
+when (P_j) has no dependency path from (O_i).
 
 Classification:
 
@@ -1190,31 +1148,27 @@ Classification:
 source rule + AMOS_MODEL specialization
 ```
 
----
+______________________________________________________________________
 
-# 29. L03-EQ-023 — Dependency Closure
+## 29. L03-EQ-023 — Dependency Closure
 
-For percept \(P\):
+For percept (P):
 
-[
-Closure(P)
-==========
+## \[ Closure(P)
 
-{d\mid d\leadsto P,\ d\text{ load-bearing}}
-]
+{d\\mid d\\leadsto P,\\ d\\text{ load-bearing}}
+\]
 
 The smallest sufficient proof scope is:
 
-[
-Closure^*\(P\)
-============
+## \[ Closure^\*(P)
 
-\min_{\subseteq}
+\\min\_{\\subseteq}
 {
 D:
-D\text{ is sufficient to validate }P
+D\\text{ is sufficient to validate }P
 }
-]
+\]
 
 where such a minimum exists.
 
@@ -1226,28 +1180,28 @@ AMOS_MODEL
 
 This is a formalization of dependency-efficient reasoning, not a claim of universal computational optimality.
 
----
+______________________________________________________________________
 
-# 30. L03-EQ-024 — Percept Repair
+## 30. L03-EQ-024 — Percept Repair
 
 Candidate repair function:
 
-[
+\[
 P' =
-Repair(P,D_{bad},E_{new})
-]
+Repair(P,D\_{bad},E\_{new})
+\]
 
 subject to:
 
-[
-Preserve(P',D_{valid})
-]
+\[
+Preserve(P',D\_{valid})
+\]
 
 and:
 
-[
-RemoveDependency(P',D_{bad})
-]
+\[
+RemoveDependency(P',D\_{bad})
+\]
 
 where possible.
 
@@ -1259,53 +1213,51 @@ Classification:
 AMOS_MODEL
 ```
 
----
+______________________________________________________________________
 
-# 31. L03-EQ-025 — Revalidation
+## 31. L03-EQ-025 — Revalidation
 
 Candidate:
 
-[
-Revalidate(P,t_1)
-=================
+## \[ Revalidate(P,t_1)
 
 Validate
 (
 P,
 Closure(P),
-Scope_{t_1},
-Regime_{t_1},
-Freshness_{t_1}
+Scope\_{t_1},
+Regime\_{t_1},
+Freshness\_{t_1}
 )
-]
+\]
 
-A previous validation at \(t_0\) does not imply validation at \(t_1\).
+A previous validation at (t_0) does not imply validation at (t_1).
 
----
+______________________________________________________________________
 
-# 32. L03-EQ-026 — Gap Propagation
+## 32. L03-EQ-026 — Gap Propagation
 
 For a required unresolved premise (g):
 
-[
+\[
 Required(g,P)
-\land
+\\land
 Status(g)=UNKNOWN
-\Rightarrow
-Status(P)\neq VERIFIED
-]
+\\Rightarrow
+Status(P)\\neq VERIFIED
+\]
 
 If the gap is load-bearing:
 
-[
+\[
 Status(P)
-\in
+\\in
 {
 CONDITIONAL,
 COMPETING,
 UNKNOWN/GAP
 }
-]
+\]
 
 depending on remaining evidence.
 
@@ -1317,46 +1269,44 @@ UNKNOWN/GAP
 PASS
 ```
 
----
+______________________________________________________________________
 
-# 33. L03-EQ-027 — Proposal / Commit Separation
+## 33. L03-EQ-027 — Proposal / Commit Separation
 
 Candidate:
 
-[
+\[
 Propose(P)
-\neq
+\\neq
 Commit(P)
-]
+\]
 
 Commit eligibility:
 
-[
-Eligible_{commit}\(P\)
-====================
+## \[ Eligible\_{commit}(P)
 
 Valid(P)
-\land
+\\land
 Authority(P)
-\land
+\\land
 Fresh(P)
-\land
+\\land
 ConstraintValid(P)
-]
+\]
 
 But:
 
-[
-Eligible_{commit}\(P\)=1
-]
+\[
+Eligible\_{commit}(P)=1
+\]
 
 still represents eligibility, not evidence that commit occurred.
 
 Therefore:
 
-[
+\[
 CommitOccurred(P)
-]
+\]
 
 requires separate control-plane evidence.
 
@@ -1366,34 +1316,32 @@ Classification:
 AMOS_MODEL governance equation
 ```
 
----
+______________________________________________________________________
 
-# 34. L03-EQ-028 — Authority Gate
+## 34. L03-EQ-028 — Authority Gate
 
 Candidate:
 
-[
-Authorized(a,P,e)
-=================
+## \[ Authorized(a,P,e)
 
 Capability(a,e)
-\land
+\\land
 Authority(a,e)
-\land
+\\land
 ScopeValid(a,e)
-\land
+\\land
 FreshAuthority(a,e)
-]
+\]
 
 where (e) is the proposed effect.
 
 Hard boundary:
 
-[
+\[
 Capability(a,e)
-\not\Rightarrow
+\\not\\Rightarrow
 Authority(a,e)
-]
+\]
 
 Classification:
 
@@ -1401,15 +1349,13 @@ Classification:
 AMOS_MODEL
 ```
 
----
+______________________________________________________________________
 
-# 35. L03-EQ-029 — Percept Coherence Metric
+## 35. L03-EQ-029 — Percept Coherence Metric
 
 A coherence score may be useful operationally:
 
-[
-Coh(P)
-======
+## \[ Coh(P)
 
 g(
 C_T,
@@ -1418,7 +1364,7 @@ C_B,
 C_M,
 C_C
 )
-]
+\]
 
 where:
 
@@ -1440,28 +1386,26 @@ DERIVED_METRIC / UNKNOWN_FORM
 
 Hard boundary:
 
-[
-High\ Coh(P)
-\not\Rightarrow
+\[
+High\\ Coh(P)
+\\not\\Rightarrow
 True(P)
-]
+\]
 
----
+______________________________________________________________________
 
-# 36. L03-EQ-030 — Percept Evidence Coverage
+## 36. L03-EQ-030 — Percept Evidence Coverage
 
 Candidate diagnostic metric:
 
-[
-Coverage(P)
-===========
+## \[ Coverage(P)
 
-\frac{
-|\text{resolved load-bearing dependencies}|
+\\frac{
+|\\text{resolved load-bearing dependencies}|
 }{
-|\text{required load-bearing dependencies}|
+|\\text{required load-bearing dependencies}|
 }
-]
+\]
 
 for finite dependency sets.
 
@@ -1473,35 +1417,35 @@ DERIVED_METRIC
 
 Boundary:
 
-[
+\[
 Coverage(P)=1
-\not\Rightarrow
-P\text{ is true}
-]
+\\not\\Rightarrow
+P\\text{ is true}
+\]
 
 It only means required modeled dependencies are resolved.
 
----
+______________________________________________________________________
 
-# 37. L03-EQ-031 — Contradiction State
+## 37. L03-EQ-031 — Contradiction State
 
 Let:
 
-[
+\[
 Contr(P_i,P_j)=1
-]
+\]
 
 when both percepts cannot simultaneously satisfy the current typed constraint set.
 
 Then:
 
-[
+\[
 Contr(P_i,P_j)=1
-\land
-Support(P_i)\approx Support(P_j)
-\Rightarrow
+\\land
+Support(P_i)\\approx Support(P_j)
+\\Rightarrow
 COMPETING
-]
+\]
 
 rather than arbitrary convergence.
 
@@ -1513,32 +1457,28 @@ Classification:
 AMOS_MODEL
 ```
 
----
+______________________________________________________________________
 
-# 38. L03-EQ-032 — Sensitivity
+## 38. L03-EQ-032 — Sensitivity
 
-For conclusion/percept \(P\), define candidate sensitivity to premise \(d_i\):
+For conclusion/percept (P), define candidate sensitivity to premise (d_i):
 
-[
-Sens(P,d_i)
-===========
+## \[ Sens(P,d_i)
 
-\Delta Status(P)
-\mid
+\\Delta Status(P)
+\\mid
 Perturb(d_i)
-]
+\]
 
 This is a structural sensitivity operator, not necessarily a numerical derivative.
 
 Candidate critical dependency:
 
-[
-d^*
-===
+## \[ d^\*
 
-\arg\max_{d_i}
+\\arg\\max\_{d_i}
 Impact(P,d_i)
-]
+\]
 
 Classification:
 
@@ -1548,22 +1488,20 @@ AMOS_MODEL
 
 This identifies the cheapest potentially decision-flipping premise for revalidation.
 
----
+______________________________________________________________________
 
-# 39. L03-EQ-033 — Percept Persistence
+## 39. L03-EQ-033 — Percept Persistence
 
 Candidate:
 
-[
-Persist(P,t_0,t_1)
-==================
+## \[ Persist(P,t_0,t_1)
 
 Valid(P,t_0)
-\land
+\\land
 NoInvalidatingChange(P,[t_0,t_1])
-\land
+\\land
 ValidDependencies(P,t_1)
-]
+\]
 
 Classification:
 
@@ -1573,15 +1511,15 @@ AMOS_MODEL
 
 Repeated representation alone is insufficient:
 
-[
+\[
 Repeated(P)
-\not\Rightarrow
+\\not\\Rightarrow
 PersistValid(P)
-]
+\]
 
----
+______________________________________________________________________
 
-# 40. Equation Type Registry
+## 40. Equation Type Registry
 
 ```yaml
 L03_equation_registry:
@@ -1723,9 +1661,9 @@ L03_equation_registry:
     type: AMOS_MODEL
 ```
 
----
+______________________________________________________________________
 
-# 41. Operators
+## 41. Operators
 
 Candidate mathematical operators:
 
@@ -1756,9 +1694,9 @@ CommitEligible()
 
 None of these operator names imply executable implementation.
 
----
+______________________________________________________________________
 
-# 42. Invariants
+## 42. Invariants
 
 ```text
 L03-EQ-INV-001
@@ -1836,9 +1774,9 @@ A complete modeled dependency set cannot substitute for empirical correctness.
 
 The first eight are directly aligned with the Mathematical Rigor Kernel requirements.
 
----
+______________________________________________________________________
 
-# 43. Dependencies
+## 43. Dependencies
 
 Equation-level dependency graph:
 
@@ -1888,9 +1826,9 @@ EQ-024 repair
 EQ-027/028 authority
 ```
 
----
+______________________________________________________________________
 
-# 44. H/M/L Applicability
+## 44. H/M/L Applicability
 
 ## L — Local
 
@@ -1956,9 +1894,9 @@ EQ-021
 
 Cross-scale promotion requires explicit mapping.
 
----
+______________________________________________________________________
 
-# 45. Control-Plane Requirements
+## 45. Control-Plane Requirements
 
 The L03 equation layer may compute:
 
@@ -1988,13 +1926,13 @@ commit eligibility
 
 Hard equation boundary:
 
-[
-Proposal(P)\neq Commit(P)
-]
+\[
+Proposal(P)\\neq Commit(P)
+\]
 
----
+______________________________________________________________________
 
-# 46. Agents
+## 46. Agents
 
 Candidate equation-related roles:
 
@@ -2012,9 +1950,9 @@ L03_EQUATION_REPAIR_AGENT
 
 Architectural roles only.
 
----
+______________________________________________________________________
 
-# 47. Skills
+## 47. Skills
 
 Relevant supporting capabilities:
 
@@ -2033,9 +1971,9 @@ AMOS Infrastructure Control Plane
 
 Skill presence does not validate L03 equations.
 
----
+______________________________________________________________________
 
-# 48. Workflow
+## 48. Workflow
 
 ```text
 REGISTER EQUATION
@@ -2071,9 +2009,9 @@ MODEL / CONDITIONAL / VERIFIED / GAP
 
 This follows the source-aligned rigor sequence of register → type → domain/unit checks → proof status → counterexample challenge → RSCF capsule.
 
----
+______________________________________________________________________
 
-# 49. Protocols
+## 49. Protocols
 
 Candidate protocols:
 
@@ -2095,9 +2033,9 @@ L03_EQ_RESULT
 
 Canonical names remain `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
-# 50. Evidence / Provenance Contract
+## 50. Evidence / Provenance Contract
 
 Each equation should carry:
 
@@ -2144,9 +2082,9 @@ EquationRecord:
 
 This directly mirrors the AMOS equation-registry requirement.
 
----
+______________________________________________________________________
 
-# 51. Failure Modes
+## 51. Failure Modes
 
 ```text
 FM-L03-EQ-001
@@ -2222,9 +2160,9 @@ FM-L03-EQ-024
 Coherence metric treated as truth metric.
 ```
 
----
+______________________________________________________________________
 
-# 52. Repair / Recovery
+## 52. Repair / Recovery
 
 ```text
 DETECT EQUATION FAILURE
@@ -2265,9 +2203,9 @@ RESTORE ONLY VALID DESCENDANTS
 
 Never repair a mathematical inconsistency by silently changing source evidence.
 
----
+______________________________________________________________________
 
-# 53. Tests / Validators
+## 53. Tests / Validators
 
 Minimum validators:
 
@@ -2352,9 +2290,9 @@ empirical_validation: false
 runtime_validation: false
 ```
 
----
+______________________________________________________________________
 
-# 54. Falsifiers
+## 54. Falsifiers
 
 Revise this contract if direct canon establishes:
 
@@ -2382,9 +2320,9 @@ or executable L03 implementation contradicts these modeled equations.
 
 Any universal mathematical claim is defeated by a valid counterexample inside its claimed domain, consistent with the Mathematical Rigor Kernel.
 
----
+______________________________________________________________________
 
-# 55. Gap Matrix
+## 55. Gap Matrix
 
 ```yaml
 gap_status:
@@ -2456,16 +2394,16 @@ gap_status:
     status: CRITICAL_GAP
 ```
 
----
+______________________________________________________________________
 
-# 56. Competing Equation Architectures
+## 56. Competing Equation Architectures
 
 ## COMPETING-001 — Deterministic Pipeline
 
-[
+\[
 P_t=
-\Phi(\beta(\phi(Select(O_t,A_t))))
-]
+\\Phi(\\beta(\\phi(Select(O_t,A_t))))
+\]
 
 Advantage:
 
@@ -2480,15 +2418,15 @@ Risk:
 can hide ambiguity and feedback
 ```
 
----
+______________________________________________________________________
 
 ## COMPETING-002 — Probabilistic Percept Model
 
 Conceptually:
 
-[
-P(P_i\mid O,A,C)
-]
+\[
+P(P_i\\mid O,A,C)
+\]
 
 Potentially useful if a valid probabilistic semantics is specified.
 
@@ -2500,15 +2438,15 @@ UNKNOWN/GAP
 
 because no canonical L03 probability model or calibration evidence has been established here.
 
----
+______________________________________________________________________
 
 ## COMPETING-003 — Set-Valued Perception
 
-[
-\Phi(O,A,C)
-\rightarrow
-{P_1,\ldots,P_n}
-]
+\[
+\\Phi(O,A,C)
+\\rightarrow
+{P_1,\\ldots,P_n}
+\]
 
 preserving ambiguity until discriminating evidence appears.
 
@@ -2518,25 +2456,23 @@ Status:
 AMOS_MODEL
 ```
 
----
+______________________________________________________________________
 
 ## COMPETING-004 — Governed Dynamic State Model
 
-[
-X^{L03}_{t+1}
-=============
+## \[ X^{L03}\_{t+1}
 
 P_I
-\left(
+\\left(
 F(
-X^{L03}_t,
+X^{L03}\_t,
 O_t,
 A_t,
 C_t,
 Mem_t
 )
-\right)
-]
+\\right)
+\]
 
 with provenance, competing states, confidence ceilings, and control-plane gates.
 
@@ -2550,9 +2486,9 @@ because it preserves state transition and governance without forcing unsupported
 
 It remains `AMOS_MODEL`.
 
----
+______________________________________________________________________
 
-# 57. RSCF Completion State
+## 57. RSCF Completion State
 
 ```yaml
 rscf:
@@ -2662,9 +2598,9 @@ rscf:
     proposal/commit separation.
 ```
 
----
+______________________________________________________________________
 
-# 58. Completion State
+## 58. Completion State
 
 ```yaml
 completion_state:
@@ -2745,9 +2681,9 @@ completion_state:
     MODEL
 ```
 
----
+______________________________________________________________________
 
-# 59. Hard Boundaries
+## 59. Hard Boundaries
 
 ```text
 PLACEHOLDER != IMPLEMENTED
@@ -2799,15 +2735,15 @@ EQUATION REGISTERED != EQUATION IMPLEMENTED
 IMPLEMENTED != VALIDATED
 ```
 
----
+______________________________________________________________________
 
-# 60. Governing Equation Contract
+## 60. Governing Equation Contract
 
 > **`L03_PERCEPT_FORMATION` SHALL represent percept formation only through typed, scoped, provenance-bound equations whose symbols, assumptions, dependencies, H/M/L applicability, validation state, uncertainty, falsifiers, and implementation mappings remain explicit. Hard invariants SHALL gate admissibility non-compensatorily. Derived percept confidence SHALL NOT exceed its weakest load-bearing premise absent independent revalidation. Feature extraction, binding, attention, temporal order, coherence, or repeated derivation SHALL NOT be silently promoted into independent evidence, object identity, causation, calibrated probability, or empirical truth. Multiple admissible percepts SHALL remain `COMPETING` when available evidence cannot discriminate among them. Equation outputs SHALL remain proposals until separately authorized by the control plane.**
 
----
+______________________________________________________________________
 
-# 61. Canon Boundary
+## 61. Canon Boundary
 
 ```text
 SOURCE-ALIGNED:
@@ -2948,22 +2884,27 @@ AUTHORITY TO COMMIT
 
 ```text
 ```
----
+
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: l03_percept_formation_primitives_cognitive_matrix_equations
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L03_PERCEPT_FORMATION/L03_PERCEPT_FORMATION_PRIMITIVES_COGNITIVE_MATRIX_EQUATIONS.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L03_PERCEPT_FORMATION/L03_PERCEPT_FORMATION_MOC|L03_PERCEPT_FORMATION_MOC]]

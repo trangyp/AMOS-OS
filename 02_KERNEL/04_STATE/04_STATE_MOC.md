@@ -1,41 +1,51 @@
 ---
-title: 04 State MOC
-type: moc
-source: 02_KERNEL/04_STATE
-tags:
-- 04-state
-- canon/kernel
-- k-context-state
-- k-event-bus
-- k-identity
-- k-system-state
-- k-world-model
-moc: true
+title: "04 State Moc — Plane Governance Specification"
+type: specification
+source: 02_KERNEL
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
+status: ACTIVE_SPECIFICATION
+epistemic_class: AMOS_MODEL
+conclusion_class: DERIVED
 rscf:
   state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  claim_class: AMOS_MODEL
+  provenance:
+    - 00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE
+    - 00_ROOT/00_ROOT_MOC
+  scope: plane_governance
+tags:
+  - amos-os
+  - 02-kernel
+  - specification
+  - 04-state-moc
 ---
 
-# 04 State — Map of Content
+# 04 State Moc — Plane Governance Specification
 
-**Path:** `02_KERNEL/04_STATE`
-**Files:** 7 | **Subdirectories:** 1
-
-## Files
-
-- [[02_KERNEL/04_STATE/KERNEL_STATE_CONTRACT|KERNEL_STATE_CONTRACT]]
-- [[02_KERNEL/04_STATE/K_CONTEXT_STATE|K_CONTEXT_STATE]]
-- [[02_KERNEL/04_STATE/K_EVENT_BUS|K_EVENT_BUS]]
-- [[02_KERNEL/04_STATE/K_IDENTITY|K_IDENTITY]]
-- [[02_KERNEL/04_STATE/K_SYSTEM_STATE|K_SYSTEM_STATE]]
-- [[02_KERNEL/04_STATE/K_WORLD_MODEL|K_WORLD_MODEL]]
-- [[02_KERNEL/04_STATE/STATE_KERNEL_README|STATE_KERNEL_README]]
-
-## Subdirectories
-
-- [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]] — 00_INDEX
+> **Origin Architect / Steward:** Trang Phan  
+> **AMOS_CORE Target:** `v4.4`  
+> **Conclusion Class:** `AMOS_MODEL`  
+> **Status:** `ACTIVE_SPECIFICATION`
 
 ---
-**Parent:** [[02_KERNEL/02_KERNEL_MOC|02_KERNEL_MOC]]
+
+## 1. Architectural Scope
+
+`04_STATE_MOC` defines the typed contracts, invariants, and operational procedures for `02_KERNEL` within the AMOS Full OS MECE architecture.
+
+---
+
+## 2. Governing Invariants
+
+- **Axiom Adherence:** Strictly bound by M01–M20 core laws.
+- **Fail-Closed Execution:** Rejects unverified or malformed inputs into the rollback basin.
+- **Immutable Receipts:** Emits auditable trace logs to `17_OBSERVABILITY`.
+
+---
+
+## 3. Navigation & Bindings
+
+- **Master MOC:** [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]
+- **Partition Architecture:** [[00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE|FULL_BRAIN_OS_MECE_ARCHITECTURE]]

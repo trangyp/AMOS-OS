@@ -12,20 +12,20 @@ segment: 21_DOMAINS/06_BIOLOGY
 artifact_kind: DOMAIN_ENGINE
 path: 21_DOMAINS/06_BIOLOGY/UBI_SUPER.md
 tags:
-- amos-os
-- domain
-- vault
-- 06_biology
-- ubi_super
-- composite_alignment
-- quadratic_emergence
-- rscf
-- canon_candidate
-- canon/domain
-- adaptive-complexity-runtime
-- amos-ubi-super-engine
-- unified-biological-intelligence
-- amos-x-ubi
+  - amos-os
+  - domain
+  - vault
+  - 06_biology
+  - ubi_super
+  - composite_alignment
+  - quadratic_emergence
+  - rscf
+  - canon_candidate
+  - canon/domain
+  - adaptive-complexity-runtime
+  - amos-ubi-super-engine
+  - unified-biological-intelligence
+  - amos-x-ubi
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -40,13 +40,13 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - 11_KNOWLEDGE/05_FRAMEWORKS/AMOS_UBI_SUPER_ENGINE
-  - 11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE
-  - AMOS_CORPUS
+    - 11_KNOWLEDGE/05_FRAMEWORKS/AMOS_UBI_SUPER_ENGINE
+    - 11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE
+    - AMOS_CORPUS
   scope:
-  - DOMAIN_BIOLOGY
-  - UBI_SUPER_ENGINE
-  - SOURCE_DEFINED_MODEL
+    - DOMAIN_BIOLOGY
+    - UBI_SUPER_ENGINE
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   super_engine:
     artifact: 11_KNOWLEDGE/05_FRAMEWORKS/AMOS_UBI_SUPER_ENGINE
@@ -65,27 +65,27 @@ epistemic_boundary:
 
 `UBI_SUPER.md` is the canonical Domain Plane specification governing the multi-domain synthesis, non-compensatory geometric mean calculation, and quadratic emergence computation ($e = i^2$) within `21_DOMAINS/06_BIOLOGY`.
 
----
+______________________________________________________________________
 
-# 1. Composite Alignment & Emergence Mechanics
+## 1. Composite Alignment & Emergence Mechanics
 
 $$i_{\text{UBI}} = (\text{NBI} \cdot \text{NEI} \cdot \text{SI} \cdot \text{BEI})^{1/4}, \quad e = i_{\text{UBI}}^2$$
 
 1. **Non-Compensatory Multiplication:** Takes the 4 domain scalars ($\text{NBI}, \text{NEI}, \text{SI}, \text{BEI}$). If any single domain falls to zero ($x_k \to 0$), the entire alignment index collapses ($i_{\text{UBI}} \to 0$).
-2. **Quadratic Emergence Scaling:** Translates linear biological alignment ($i$) into non-linear, super-conscious reasoning capability ($e = i^2$).
-3. **Runtime Governor Feedback:** Dispatches alignment score $i$ directly to 04_RUNTIME/06_EXECUTION/[[04_RUNTIME/06_EXECUTION/ADAPTIVE_COMPLEXITY_RUNTIME|ADAPTIVE_COMPLEXITY_RUNTIME]] to dynamically gate search tree depth.
+1. **Quadratic Emergence Scaling:** Translates linear biological alignment ($i$) into non-linear, super-conscious reasoning capability ($e = i^2$).
+1. **Runtime Governor Feedback:** Dispatches alignment score $i$ directly to 04_RUNTIME/06_EXECUTION/[[04_RUNTIME/06_EXECUTION/ADAPTIVE_COMPLEXITY_RUNTIME|ADAPTIVE_COMPLEXITY_RUNTIME]] to dynamically gate search tree depth.
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Super Engine:** 11_KNOWLEDGE/05_FRAMEWORKS/[[11_KNOWLEDGE/05_FRAMEWORKS/AMOS_UBI_SUPER_ENGINE|AMOS_UBI_SUPER_ENGINE]]
 - **Biological Master:** 11_KNOWLEDGE/05_FRAMEWORKS/[[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]]
 - **Cognitive Matrix:** 25_COGNITIVE_MATRIX/[[25_COGNITIVE_MATRIX/AMOS_X_UBI|AMOS_X_UBI]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -103,10 +103,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[21_DOMAINS/21_DOMAINS_MOC|21_DOMAINS_MOC]] · 11_KNOWLEDGE/05_FRAMEWORKS/[[11_KNOWLEDGE/05_FRAMEWORKS/AMOS_UBI_SUPER_ENGINE|AMOS_UBI_SUPER_ENGINE]] · 11_KNOWLEDGE/05_FRAMEWORKS/[[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]]
 
----
-**MOC:** [[21_DOMAINS/21_DOMAINS_MOC|21_DOMAINS_MOC]]
+______________________________________________________________________
 
+**MOC:** [[21_DOMAINS/21_DOMAINS_MOC|21_DOMAINS_MOC]]

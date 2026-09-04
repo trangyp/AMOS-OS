@@ -2,15 +2,15 @@
 type: provenance
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L03_PERCEPT_FORMATION
 tags:
-- amos
-- cognitive-matrix
-- matrix/l03
-- percept-formation
-- provenance
-- rscf
-- hml
-- governance
-- domain/cognitive-matrix
+  - amos
+  - cognitive-matrix
+  - matrix/l03
+  - percept-formation
+  - provenance
+  - rscf
+  - hml
+  - governance
+  - domain/cognitive-matrix
 title: L03_PERCEPT_FORMATION — Provenance
 origin_architect: Trang Phan
 status: MODEL_CONTRACT / UNIMPLEMENTED / UNVALIDATED
@@ -31,9 +31,9 @@ rscf:
 **Artifact:** `PROVENANCE.md`
 **Status:** `AMOS_MODEL / UNIMPLEMENTED / UNVALIDATED`
 
----
+______________________________________________________________________
 
-# 0. Purpose
+## 0. Purpose
 
 Define the provenance contract governing how `L03_PERCEPT_FORMATION` preserves, transforms, audits, and invalidates evidence lineage while constructing percept candidates.
 
@@ -73,9 +73,9 @@ PROPOSAL != COMMIT
 UNKNOWN/GAP != PASS
 ```
 
----
+______________________________________________________________________
 
-# 1. Source / Canon References
+## 1. Source / Canon References
 
 ## 1.1 Architecture-aligned sources
 
@@ -155,9 +155,9 @@ canonical_L03_provenance_runtime: UNKNOWN_GAP
 
 Therefore all L03-specific schemas and identifiers below are `AMOS_MODEL` unless subsequently recovered from direct canon.
 
----
+______________________________________________________________________
 
-# 2. Definition and Scope
+## 2. Definition and Scope
 
 For L03, **provenance** is the recoverable typed lineage describing:
 
@@ -165,9 +165,7 @@ For L03, **provenance** is the recoverable typed lineage describing:
 
 Candidate formalization:
 
-[
-Prov(x)
-=======
+## \[ Prov(x)
 
 {
 Origin(x),
@@ -179,7 +177,7 @@ Scope(x),
 Regime(x),
 Freshness(x)
 }
-]
+\]
 
 `AMOS_MODEL`.
 
@@ -211,9 +209,9 @@ authority
 commit eligibility
 ```
 
----
+______________________________________________________________________
 
-# 3. Provenance Unit
+## 3. Provenance Unit
 
 Candidate base type:
 
@@ -310,9 +308,9 @@ ProvenanceUnit:
     type: ConfidenceBound
 ```
 
----
+______________________________________________________________________
 
-# 4. Typed Inputs
+## 4. Typed Inputs
 
 ```yaml
 ProvenanceInputs:
@@ -363,9 +361,9 @@ ProvenanceInputs:
     type: FreshnessState
 ```
 
----
+______________________________________________________________________
 
-# 5. Typed Outputs
+## 5. Typed Outputs
 
 ```yaml
 ProvenanceOutputs:
@@ -412,9 +410,9 @@ ProvenanceOutputs:
       - UNKNOWN_GAP
 ```
 
----
+______________________________________________________________________
 
-# 6. State Variables
+## 6. State Variables
 
 ```text
 E_t      = evidence units
@@ -446,15 +444,15 @@ Q_t      = quarantine state
 Gap_t    = unresolved provenance gaps
 ```
 
----
+______________________________________________________________________
 
-# 7. Provenance Graph
+## 7. Provenance Graph
 
 Candidate representation:
 
-[
+\[
 G_P = (V_P,E_P)
-]
+\]
 
 where nodes may represent:
 
@@ -497,9 +495,9 @@ DERIVED_FROM
 OBSERVED_FROM
 ```
 
----
+______________________________________________________________________
 
-# 8. Semantic Origin
+## 8. Semantic Origin
 
 Every material L03 state should retain a recoverable semantic origin.
 
@@ -535,9 +533,9 @@ MUST NOT ERASE
 SEMANTIC ORIGIN
 ```
 
----
+______________________________________________________________________
 
-# 9. Observation Provenance
+## 9. Observation Provenance
 
 Observation-derived states must preserve at minimum:
 
@@ -564,9 +562,9 @@ INTERPRETATION
 
 A percept candidate derived from an observation remains a derivation even when its observation ancestry is strong.
 
----
+______________________________________________________________________
 
-# 10. Attention Provenance
+## 10. Attention Provenance
 
 Attention provenance should record:
 
@@ -589,22 +587,20 @@ ATTENTION
 MUST NOT CHANGE SOURCE ORIGIN
 ```
 
----
+______________________________________________________________________
 
-# 11. Feature Provenance
+## 11. Feature Provenance
 
 Every derived feature should link to its parent evidence.
 
 Candidate:
 
-[
-Prov(F_i)
-=========
+## \[ Prov(F_i)
 
 Prov(Input_i)
-+
+\+
 Transform_i
-]
+\]
 
 Hard boundary:
 
@@ -614,9 +610,9 @@ DERIVED FEATURE
 NEW INDEPENDENT SOURCE
 ```
 
----
+______________________________________________________________________
 
-# 12. Binding Provenance
+## 12. Binding Provenance
 
 A binding must preserve:
 
@@ -638,9 +634,9 @@ DO NOT ACQUIRE
 A NEW INDEPENDENT ORIGIN
 ```
 
----
+______________________________________________________________________
 
-# 13. Multimodal Provenance
+## 13. Multimodal Provenance
 
 For multimodal states, provenance must remain modality-aware.
 
@@ -680,9 +676,9 @@ TWO INDEPENDENT SOURCES
 
 if both descend from one upstream origin.
 
----
+______________________________________________________________________
 
-# 14. Memory Provenance
+## 14. Memory Provenance
 
 Memory-derived context must retain:
 
@@ -709,9 +705,9 @@ RETRIEVED MEMORY
 CURRENT OBSERVATION
 ```
 
----
+______________________________________________________________________
 
-# 15. Agent Provenance
+## 15. Agent Provenance
 
 Agent participation must be represented as transformation or validation ancestry where relevant.
 
@@ -738,19 +734,19 @@ AGENT COUNT
 INDEPENDENT SUPPORT COUNT
 ```
 
----
+______________________________________________________________________
 
-# 16. Independence
+## 16. Independence
 
 Independent support must be demonstrated from provenance topology.
 
 Architecture constraint:
 
-[
-N_{eff}
-\le
+\[
+N\_{eff}
+\\le
 Count(DemonstratedIndependentProvenanceFamilies)
-]
+\]
 
 Therefore:
 
@@ -782,9 +778,9 @@ UNPROVEN INDEPENDENCE
 REMAINS UNRESOLVED
 ```
 
----
+______________________________________________________________________
 
-# 17. Provenance Trust
+## 17. Provenance Trust
 
 Trust is local and scoped.
 
@@ -820,21 +816,21 @@ TRUSTED FOR SCOPE A
 TRUSTED FOR ALL SCOPES
 ```
 
----
+______________________________________________________________________
 
-# 18. Promotion Gate
+## 18. Promotion Gate
 
 Candidate provenance promotion condition inherited from the AMOS provenance firewall:
 
-[
+\[
 Promote =
 ProvenancePass
-\land IndependencePass
-\land FreshnessPass
-\land RevocationPass
-\land RegistryConsistencyPass
-\land \neg CriticalCorrelation
-]
+\\land IndependencePass
+\\land FreshnessPass
+\\land RevocationPass
+\\land RegistryConsistencyPass
+\\land \\neg CriticalCorrelation
+\]
 
 For L03 this is a provenance admissibility gate, not automatic percept truth.
 
@@ -846,19 +842,19 @@ PROVENANCE PASS
 PERCEPT VERIFIED
 ```
 
----
+______________________________________________________________________
 
-# 19. Confidence Ceiling
+## 19. Confidence Ceiling
 
-For a percept candidate \(P\):
+For a percept candidate (P):
 
-[
+\[
 Conf(P)
-\le
-\min_i Conf(L_i)
-]
+\\le
+\\min_i Conf(L_i)
+\]
 
-for load-bearing premises \(L_i\), unless independent revalidation changes the evidence state.
+for load-bearing premises (L_i), unless independent revalidation changes the evidence state.
 
 Additional provenance rule:
 
@@ -870,9 +866,7 @@ as though they were independent ancestors
 
 Candidate:
 
-[
-C_{prov}
-========
+## \[ C\_{prov}
 
 f(
 Completeness,
@@ -882,13 +876,13 @@ Revocation,
 Correlation,
 ScopeCompatibility
 )
-]
+\]
 
 `AMOS_MODEL`.
 
----
+______________________________________________________________________
 
-# 20. Provenance Operators
+## 20. Provenance Operators
 
 Candidate operators:
 
@@ -917,9 +911,9 @@ REVALIDATE_PROVENANCE
 
 All are `AMOS_MODEL` unless direct canon establishes identifiers.
 
----
+______________________________________________________________________
 
-# 21. `TRACE_ORIGIN`
+## 21. `TRACE_ORIGIN`
 
 Input:
 
@@ -943,20 +937,18 @@ UNKNOWN_ORIGIN
 
 An unknown origin is not automatically invalid, but it cannot satisfy provenance gates requiring known origin.
 
----
+______________________________________________________________________
 
-# 22. `TRACE_ANCESTRY`
+## 22. `TRACE_ANCESTRY`
 
 Candidate:
 
-[
-Ancestors(x)
-============
+## \[ Ancestors(x)
 
 Parents(x)
-\cup
-\bigcup_{p\in Parents(x)} Ancestors(p)
-]
+\\cup
+\\bigcup\_{p\\in Parents(x)} Ancestors(p)
+\]
 
 Output should distinguish:
 
@@ -967,9 +959,9 @@ shared ancestry
 unresolved ancestry
 ```
 
----
+______________________________________________________________________
 
-# 23. `REGISTER_DERIVATION`
+## 23. `REGISTER_DERIVATION`
 
 Registers:
 
@@ -991,18 +983,16 @@ MUST NOT RECLASSIFY
 DERIVED AS OBSERVATION
 ```
 
----
+______________________________________________________________________
 
-# 24. `MERGE_PROVENANCE`
+## 24. `MERGE_PROVENANCE`
 
 When evidence is combined:
 
-[
-Prov(x \oplus y)
-================
+## \[ Prov(x \\oplus y)
 
 Merge(Prov(x),Prov(y))
-]
+\]
 
 but merge must preserve:
 
@@ -1023,9 +1013,9 @@ MERGE
 FLATTEN
 ```
 
----
+______________________________________________________________________
 
-# 25. `ASSESS_INDEPENDENCE`
+## 25. `ASSESS_INDEPENDENCE`
 
 Inputs:
 
@@ -1062,28 +1052,26 @@ DIFFERENT WORDING
 DIFFERENT ORIGIN
 ```
 
----
+______________________________________________________________________
 
-# 26. `CHECK_FRESHNESS`
+## 26. `CHECK_FRESHNESS`
 
 Freshness should be evaluated relative to intended use.
 
 Candidate:
 
-[
-Fresh(e,u,t)
-============
+## \[ Fresh(e,u,t)
 
-ValidUntil(e,u) \ge t
-]
+ValidUntil(e,u) \\ge t
+\]
 
 where (u) is intended use.
 
 A provenance chain containing a stale load-bearing premise must not silently retain prior validation.
 
----
+______________________________________________________________________
 
-# 27. `CHECK_REVOCATION`
+## 27. `CHECK_REVOCATION`
 
 Revocation state:
 
@@ -1102,9 +1090,9 @@ SILENTLY REGAIN AUTHORITY
 THROUGH REPLAY OR DERIVATION
 ```
 
----
+______________________________________________________________________
 
-# 28. Replay
+## 28. Replay
 
 A repeated evidence unit remains the same ancestry unless genuinely new evidence is introduced.
 
@@ -1118,9 +1106,9 @@ REPLICATION
 
 A replayed source cannot manufacture independent confirmation.
 
----
+______________________________________________________________________
 
-# 29. H/M/L Applicability
+## 29. H/M/L Applicability
 
 ## L — Local provenance
 
@@ -1169,9 +1157,9 @@ to decision-relevant lower-level evidence
 
 unless deliberate lossy compression is explicitly represented.
 
----
+______________________________________________________________________
 
-# 30. Cross-Scale Provenance
+## 30. Cross-Scale Provenance
 
 Candidate:
 
@@ -1202,9 +1190,9 @@ ABSTRACTION
 NEW SOURCE
 ```
 
----
+______________________________________________________________________
 
-# 31. Control-Plane Requirements
+## 31. Control-Plane Requirements
 
 The control plane should own or validate:
 
@@ -1245,9 +1233,9 @@ grant authority
 commit durable provenance state
 ```
 
----
+______________________________________________________________________
 
-# 32. Agents
+## 32. Agents
 
 Candidate roles:
 
@@ -1270,9 +1258,9 @@ AGENT ROLE
 AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 33. Skills
+## 33. Skills
 
 Relevant AMOS capability families include:
 
@@ -1292,9 +1280,9 @@ AMOS Knowledge/Epistemology RSCF Engine
 
 Availability of a skill does not establish an L03 implementation.
 
----
+______________________________________________________________________
 
-# 34. Workflow — Observation to Percept
+## 34. Workflow — Observation to Percept
 
 ```text
 OBSERVATION
@@ -1333,9 +1321,9 @@ CHECK:
 VALIDATE / CONDITIONAL / QUARANTINE / GAP
 ```
 
----
+______________________________________________________________________
 
-# 35. Workflow — Competing Percepts
+## 35. Workflow — Competing Percepts
 
 ```text
 PERCEPT A
@@ -1362,9 +1350,9 @@ OR
 PRESERVE COMPETING
 ```
 
----
+______________________________________________________________________
 
-# 36. Workflow — Memory Contamination
+## 36. Workflow — Memory Contamination
 
 ```text
 PERCEPT FAILURE
@@ -1386,9 +1374,9 @@ REBUILD DEPENDENT PERCEPTS
 REVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 37. Protocols
+## 37. Protocols
 
 Required provenance-bearing L03 protocols include:
 
@@ -1414,9 +1402,9 @@ AUDIT_TRACE_APPEND
 
 Every such protocol should preserve or explicitly update provenance state.
 
----
+______________________________________________________________________
 
-# 38. Core Provenance Invariants
+## 38. Core Provenance Invariants
 
 ```text
 L03-PROV-INV-001
@@ -1510,9 +1498,9 @@ L03-PROV-INV-030
 Proposal does not establish commit.
 ```
 
----
+______________________________________________________________________
 
-# 39. Dependencies
+## 39. Dependencies
 
 Upstream:
 
@@ -1552,9 +1540,9 @@ AMOS memory governance
 AMOS infrastructure control plane
 ```
 
----
+______________________________________________________________________
 
-# 40. Evidence / Provenance of This Contract
+## 40. Evidence / Provenance of This Contract
 
 ```yaml
 ContractProvenance:
@@ -1593,9 +1581,9 @@ ContractProvenance:
     status: NONE_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 41. Uncertainty Vector
+## 41. Uncertainty Vector
 
 ```yaml
 uncertainty:
@@ -1636,9 +1624,9 @@ Confidence ceiling:
 
 > The provenance architecture is a source-aligned AMOS `MODEL`; direct canonical L03 schemas, runtime semantics, retention policies, executed validation, and empirical perceptual validity remain unresolved.
 
----
+______________________________________________________________________
 
-# 42. Failure Modes
+## 42. Failure Modes
 
 ```text
 FM-L03-PROV-001
@@ -1732,9 +1720,9 @@ FM-L03-PROV-030
 Provenance-complete proposal interpreted as committed state.
 ```
 
----
+______________________________________________________________________
 
-# 43. Repair / Recovery
+## 43. Repair / Recovery
 
 ```text
 DETECT PROVENANCE FAILURE
@@ -1796,35 +1784,31 @@ UNKNOWN/GAP
 
 must remain.
 
----
+______________________________________________________________________
 
-# 44. Selective Invalidation
+## 44. Selective Invalidation
 
-Given dependency graph \(G_D\), if provenance premise (p) fails:
+Given dependency graph (G_D), if provenance premise (p) fails:
 
-[
-Invalidate(p)
-=============
+## \[ Invalidate(p)
 
-Descendants_{load-bearing}(p)
-]
+Descendants\_{load-bearing}(p)
+\]
 
 not:
 
-[
-Invalidate(p)
-=============
+## \[ Invalidate(p)
 
 EntireSystem
-]
+\]
 
 unless the failed premise genuinely dominates the entire system.
 
 This preserves unaffected work.
 
----
+______________________________________________________________________
 
-# 45. Tests / Validators
+## 45. Tests / Validators
 
 Minimum validators:
 
@@ -1939,9 +1923,9 @@ runtime_validation: false
 empirical_validation: false
 ```
 
----
+______________________________________________________________________
 
-# 46. Falsifiers
+## 46. Falsifiers
 
 This contract must be revised if direct canon or executable evidence establishes:
 
@@ -1967,9 +1951,9 @@ that provenance state is owned by another architectural layer;
 or executable tests contradict these modeled invariants.
 ```
 
----
+______________________________________________________________________
 
-# 47. Gap Matrix
+## 47. Gap Matrix
 
 ```yaml
 gap_status:
@@ -2023,9 +2007,9 @@ gap_status:
     status: CRITICAL_GAP
 ```
 
----
+______________________________________________________________________
 
-# 48. Competing Provenance Models
+## 48. Competing Provenance Models
 
 ## COMPETING-001 — Flat Source List
 
@@ -2116,9 +2100,9 @@ MODEL PREFERENCE
 DIRECT L03 CANON
 ```
 
----
+______________________________________________________________________
 
-# 49. RSCF Completion State
+## 49. RSCF Completion State
 
 ```yaml
 rscf:
@@ -2231,9 +2215,9 @@ rscf:
     specified.
 ```
 
----
+______________________________________________________________________
 
-# 50. Completion State
+## 50. Completion State
 
 ```yaml
 completion_state:
@@ -2314,15 +2298,15 @@ completion_state:
     MODEL
 ```
 
----
+______________________________________________________________________
 
-# 51. Governing Provenance Contract
+## 51. Governing Provenance Contract
 
 > **`L03_PERCEPT_FORMATION` SHALL preserve recoverable typed provenance from percept candidates to their load-bearing observations, semantic origins, attention context, memory context, features, relations, bindings, multimodal inputs, transformations, operators, agents, dependencies, H/M/L transitions, versions, scope, regime, freshness, and validation state wherever material. Derivation SHALL remain distinguishable from observation; memory SHALL remain distinguishable from current observation; transformation, binding, multimodal fusion, agent handoff, paraphrase, replay, or duplication SHALL NOT manufacture independent evidential support. Independence SHALL be demonstrated from provenance topology rather than inferred from source, file, signature, agent, or message count. Unknown ancestry or independence SHALL remain `UNKNOWN/GAP` where load-bearing. Provenance trust SHALL remain local, scoped, regime-aware, freshness-bounded, revocation-aware, and correlation-aware. Derived confidence SHALL NOT exceed the weakest load-bearing premise unless independently revalidated. Failed provenance dependencies SHALL trigger selective invalidation of dependent states while preserving unaffected branches. Repair SHALL preserve prior evidence, record the new derivation, and require revalidation. Provenance completeness SHALL NOT itself establish percept truth, causal validity, authority, implementation, or commit eligibility.**
 
----
+______________________________________________________________________
 
-# 52. Canon Boundary
+## 52. Canon Boundary
 
 ```text
 SOURCE / ARCHITECTURE-ALIGNED:
@@ -2434,22 +2418,27 @@ NOT ESTABLISHED
 
 ```text
 ```
----
+
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: l03_percept_formation_primitives_cognitive_matrix_provenance
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L03_PERCEPT_FORMATION/L03_PERCEPT_FORMATION_PRIMITIVES_COGNITIVE_MATRIX_PROVENANCE.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L03_PERCEPT_FORMATION/L03_PERCEPT_FORMATION_MOC|L03_PERCEPT_FORMATION_MOC]]

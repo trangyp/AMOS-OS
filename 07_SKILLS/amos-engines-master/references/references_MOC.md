@@ -1,4 +1,7 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 moc: true
 rscf:
   claim_class: SOURCE_CLAIM
@@ -7,39 +10,39 @@ rscf:
   state: SOURCE_CLAIM
 source: 07_SKILLS/amos-engines-master/references
 tags:
-- references
-- type/skill
-- agi-completion-report
-- amos-infinite-complete
-- brain-omega-complete
-- brain-singularity-complete
-- brain-transcendent-complete
-- brain-transcendental-complete
-- brain-ultimate-intelligence-2026
-- brain-ultimate-synthesis
-- brain-ultimate-transcendence
-- domain-engines
-- domains-engines-collection
-- engine-complete
-- engine-final-complete
-- engine-models
-- engine-practical-complete
-- omega-advanced-intelligence
-- omega-maximum-enhancement
-- omega-state-of-the-art
-- super-consciousness-engine
-- super-consciousness-engine-max
-- super-engine-omni-x1000
-- super-engine-v1
-- super-engine-v100
-- super-kernel-engine
-- trang-asea
-- unipower-engines-collection
-- unipower-engines-layer
-- unipower-tech-design-metabrain
-- vault-domain-knowledge
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - references
+  - type/skill
+  - agi-completion-report
+  - amos-infinite-complete
+  - brain-omega-complete
+  - brain-singularity-complete
+  - brain-transcendent-complete
+  - brain-transcendental-complete
+  - brain-ultimate-intelligence-2026
+  - brain-ultimate-synthesis
+  - brain-ultimate-transcendence
+  - domain-engines
+  - domains-engines-collection
+  - engine-complete
+  - engine-final-complete
+  - engine-models
+  - engine-practical-complete
+  - omega-advanced-intelligence
+  - omega-maximum-enhancement
+  - omega-state-of-the-art
+  - super-consciousness-engine
+  - super-consciousness-engine-max
+  - super-engine-omni-x1000
+  - super-engine-v1
+  - super-engine-v100
+  - super-kernel-engine
+  - trang-asea
+  - unipower-engines-collection
+  - unipower-engines-layer
+  - unipower-tech-design-metabrain
+  - vault-domain-knowledge
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 title: References MOC — References — Amos Engines Master
 type: moc
 ---
@@ -83,9 +86,9 @@ type: moc
 - [[07_SKILLS/amos-engines-master/references/unipower_tech_design_metabrain|unipower_tech_design_metabrain]]
 - [vault_domain_knowledge](vault_domain_knowledge.md)
 
----
-**Parent:** [[07_SKILLS/amos-engines-master/amos-engines-master_MOC|amos-engines-master_MOC]]
----
+______________________________________________________________________
+
+## **Parent:** [[07_SKILLS/amos-engines-master/amos-engines-master_MOC|amos-engines-master_MOC]]
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -93,12 +96,14 @@ type: moc
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-engines-master-references-MOC
 node_type: reference
 path: 07_SKILLS/amos-engines-master/references/references_MOC.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

@@ -12,29 +12,29 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: FRAMEWORK
 path: 11_KNOWLEDGE/05_FRAMEWORKS/TSS_SEVEN_CYCLES.md
 tags:
-- amos-os
-- knowledge
-- vault
-- 05_frameworks
-- tss
-- seven_cycles
-- systems_dynamics
-- emergence
-- expansion
-- overreach
-- fragmentation
-- crisis
-- collapse
-- reset
-- rscf
-- canon_candidate
-- canon/knowledge
-- tss-the-trang-system
-- amos-x-tss
-- amos-x-tss-tpe-matrix
-- heritage-to-tss-binding
-- heritage-x-tss
-- tpe-trang-prediction-engine
+  - amos-os
+  - knowledge
+  - vault
+  - 05_frameworks
+  - tss
+  - seven_cycles
+  - systems_dynamics
+  - emergence
+  - expansion
+  - overreach
+  - fragmentation
+  - crisis
+  - collapse
+  - reset
+  - rscf
+  - canon_candidate
+  - canon/knowledge
+  - tss-the-trang-system
+  - amos-x-tss
+  - amos-x-tss-tpe-matrix
+  - heritage-to-tss-binding
+  - heritage-x-tss
+  - tpe-trang-prediction-engine
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -49,24 +49,24 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - THE_SEVEN_CYCLES_OF_THE_TRANG_SYSTEM_OFFICIAL_M
-  - TSS_THE_TRANG_SYSTEM_OFFICIAL_MANUAL
-  - AMOS_CORPUS
+    - THE_SEVEN_CYCLES_OF_THE_TRANG_SYSTEM_OFFICIAL_M
+    - TSS_THE_TRANG_SYSTEM_OFFICIAL_MANUAL
+    - AMOS_CORPUS
   scope:
-  - KNOWLEDGE_FRAMEWORKS
-  - SYSTEMS_DYNAMICS
-  - SOURCE_DEFINED_MODEL
+    - KNOWLEDGE_FRAMEWORKS
+    - SYSTEMS_DYNAMICS
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   parent_framework:
     name: The Trang System™
     acronym: TSS
     artifact:
-    - - TSS_THE_TRANG_SYSTEM
+      -   - TSS_THE_TRANG_SYSTEM
   cognitive_matrix_binding:
     artifact:
-    - - AMOS_X_TSS
+      -   - AMOS_X_TSS
     matrix:
-    - - AMOS_X_TSS_TPE_MATRIX
+      -   - AMOS_X_TSS_TPE_MATRIX
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
@@ -78,9 +78,9 @@ epistemic_boundary:
 
 `TSS_SEVEN_CYCLES.md` is the canonical Knowledge Plane reference artifact detailing the **Seven Evolutionary Cycles ($C_1 \dots C_7$)** of The Trang System™ within `11_KNOWLEDGE/05_FRAMEWORKS`.
 
----
+______________________________________________________________________
 
-# 1. The Seven Cycles of Systems Evolution
+## 1. The Seven Cycles of Systems Evolution
 
 ```text
                C1: Emergence (Birth, High Cohesion H, Low Overload Ω)
@@ -98,32 +98,32 @@ epistemic_boundary:
                C7: Reset & Reconstruction (Genesis Re-anchoring, New Charter)
 ```
 
----
+______________________________________________________________________
 
-# 2. Key Diagnostic Thresholds & Transitions
+## 2. Key Diagnostic Thresholds & Transitions
 
-| Cycle | Primary Risk | Key Structural Indicator | Requisite Strategy |
-|---|---|---|---|
-| **$C_1$** | Premature birth failure | $\Omega \ll 1, H \approx 1, F \approx 0$ | Protect core identity & culture |
-| **$C_2$** | Premature over-leverage | $\frac{d\Omega}{dt} > 0, \text{Reserves } \uparrow$ | Maintain deep reserve buffers |
-| **$C_3$** | Hidden systemic debt | $\Omega \to 1, \frac{dH}{dt} < 0$ | Aggressive pruning of non-essential complexity |
-| **$C_4$** | Tribal factionalism | $F \to 1, \text{Trust } \downarrow$ | Ring-fence core assets; cross-silo diplomacy |
-| **$C_5$** | Systemic lock-up | $S \gg 1, \text{Buffer } \to 0$ | Emergency triage; fallback to minimal viable core |
-| **$C_6$** | Total asset loss | Structural continuity breaks | Preserve seed knowledge, capital, and people |
-| **$C_7$** | Repeating past errors | Clean slate $\emptyset$ | Re-anchor in uncorrupted founding invariants |
+| Cycle     | Primary Risk            | Key Structural Indicator                            | Requisite Strategy                                |
+| --------- | ----------------------- | --------------------------------------------------- | ------------------------------------------------- |
+| **$C_1$** | Premature birth failure | $\Omega \ll 1, H \approx 1, F \approx 0$            | Protect core identity & culture                   |
+| **$C_2$** | Premature over-leverage | $\frac{d\Omega}{dt} > 0, \text{Reserves } \uparrow$ | Maintain deep reserve buffers                     |
+| **$C_3$** | Hidden systemic debt    | $\Omega \to 1, \frac{dH}{dt} < 0$                   | Aggressive pruning of non-essential complexity    |
+| **$C_4$** | Tribal factionalism     | $F \to 1, \text{Trust } \downarrow$                 | Ring-fence core assets; cross-silo diplomacy      |
+| **$C_5$** | Systemic lock-up        | $S \gg 1, \text{Buffer } \to 0$                     | Emergency triage; fallback to minimal viable core |
+| **$C_6$** | Total asset loss        | Structural continuity breaks                        | Preserve seed knowledge, capital, and people      |
+| **$C_7$** | Repeating past errors   | Clean slate $\emptyset$                             | Re-anchor in uncorrupted founding invariants      |
 
----
+______________________________________________________________________
 
-# 3. Inter-Plane & Vault Connections
+## 3. Inter-Plane & Vault Connections
 
 - **Master System:** [[11_KNOWLEDGE/05_FRAMEWORKS/TSS_THE_TRANG_SYSTEM|TSS_THE_TRANG_SYSTEM]]
 - **Decision Governance:** [[11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_TO_TSS_BINDING|HERITAGE_TO_TSS_BINDING]] and [[25_COGNITIVE_MATRIX/HERITAGE_X_TSS|HERITAGE_X_TSS]]
 - **Prediction Modeling:** [[11_KNOWLEDGE/trang/TPE_TRANG_PREDICTION_ENGINE|TPE_TRANG_PREDICTION_ENGINE]] and [[25_COGNITIVE_MATRIX/AMOS_X_TSS_TPE_MATRIX|AMOS_X_TSS_TPE_MATRIX]]
 - **Native Manual:** `11_KNOWLEDGE/trang/THE_SEVEN_CYCLES_OF_THE_TRANG_SYSTEM_OFFICIAL_M`
 
----
+______________________________________________________________________
 
-# 4. RSCF Contract
+## 4. RSCF Contract
 
 ```yaml
 RSCF:
@@ -141,9 +141,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/TSS_THE_TRANG_SYSTEM|TSS_THE_TRANG_SYSTEM]] · [[11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_TO_TSS_BINDING|HERITAGE_TO_TSS_BINDING]] · [[25_COGNITIVE_MATRIX/AMOS_X_TSS|AMOS_X_TSS]]
 
----
+______________________________________________________________________
+
 **MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]

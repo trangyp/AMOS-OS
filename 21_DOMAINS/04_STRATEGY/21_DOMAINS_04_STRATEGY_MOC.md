@@ -1,17 +1,20 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: 04 Strategy MOC — 04 Strategy — 21 Domains / 04 Strategy
 type: moc
 source: 21_DOMAINS/04_STRATEGY
 tags:
-- 04-strategy
-- canon/domain
-- directed-systemal-intelligence-domain
-- seven-cycles-domain-model
-- strategy-domains-domain-spec
-- strategy-domains-interfaces
-- strategy-domains-provenance
-- tpe-domain-model
-- tss-domain-model
+  - 04-strategy
+  - canon/domain
+  - directed-systemal-intelligence-domain
+  - seven-cycles-domain-model
+  - strategy-domains-domain-spec
+  - strategy-domains-interfaces
+  - strategy-domains-provenance
+  - tpe-domain-model
+  - tss-domain-model
 moc: true
 rscf:
   state: DERIVED
@@ -39,7 +42,8 @@ rscf:
 
 ## Subdirectories
 
-- [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]] — 00_INDEX
+- [[21_DOMAINS/04_STRATEGY/00_INDEX/DOMAIN_INDEX_MOC|00_INDEX]] — Subdomain Navigation
 
----
+______________________________________________________________________
+
 **Parent:** [[21_DOMAINS/21_DOMAINS_MOC|21_DOMAINS_MOC]]

@@ -1,4 +1,7 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: TRANG_FRAMEWORK
 type: note
 source: 11_KNOWLEDGE
@@ -31,7 +34,7 @@ rscf:
 
 ---
 
-# 1. Canonical Source Metadata
+## 1. Canonical Source Metadata
 
 The source metadata should remain distinct from any derived vault augmentation.
 
@@ -73,7 +76,7 @@ The body title may clarify the document, but it should not be silently substitut
 
 ---
 
-# 2. Derived / Proposed Obsidian Augmentation
+## 2. Derived / Proposed Obsidian Augmentation
 
 The following metadata is **derived or proposed**, not part of the preserved source frontmatter.
 
@@ -123,7 +126,7 @@ derived_obsidian_augmentation:
 
 ---
 
-# 3. Executive Definition
+## 3. Executive Definition
 
 Trang ASEA describes an AI architecture intended to be capable of:
 
@@ -194,7 +197,7 @@ $$
 
 ---
 
-# 4. The Core Evolution Equation
+## 4. The Core Evolution Equation
 
 The central source equation is:
 
@@ -228,7 +231,7 @@ This is the fundamental evolutionary loop.
 
 ---
 
-# 5. What the Equation Does Not Yet Specify
+## 5. What the Equation Does Not Yet Specify
 
 The equation alone does not define:
 
@@ -258,7 +261,7 @@ is a conceptual evolutionary equation, not by itself a complete production proto
 
 ---
 
-# 6. Hardened Evolution Equation
+## 6. Hardened Evolution Equation
 
 A v4.4-compatible engineering interpretation can expand the source equation into:
 
@@ -292,7 +295,7 @@ This is a **DERIVED/PROPOSED hardening**, not an assertion that every operator a
 
 ---
 
-# 7. Fundamental Distinction: Mutation ≠ Commit
+## 7. Fundamental Distinction: Mutation ≠ Commit
 
 This is one of the most important consequences of the architecture.
 
@@ -332,7 +335,7 @@ $$
 
 ---
 
-# 8. Capability ≠ Authority
+## 8. Capability ≠ Authority
 
 A self-modifying AI might technically be capable of changing:
 
@@ -355,7 +358,7 @@ $$
 
 ---
 
-# 9. Optimization ≠ Integrity
+## 9. Optimization ≠ Integrity
 
 A mutation may improve a target metric while damaging something more important.
 
@@ -395,7 +398,7 @@ unless the optimization preserves the required integrity envelope.
 
 ---
 
-# 10. ASEA's Three-Layer Architecture
+## 10. ASEA's Three-Layer Architecture
 
 The source organizes ASEA into:
 
@@ -413,7 +416,7 @@ These represent different functional regimes.
 
 ---
 
-# 11. L — Persistent Foundation
+## 11. L — Persistent Foundation
 
 The source describes L as the foundational persistent-memory layer.
 
@@ -435,7 +438,7 @@ It includes source-described concepts such as:
 
 ---
 
-# 12. L as Stability
+## 12. L as Stability
 
 Architecturally:
 
@@ -451,7 +454,7 @@ Without L, every interaction could effectively begin from an insufficiently pers
 
 ---
 
-# 13. L as Knowledge Reservoir
+## 13. L as Knowledge Reservoir
 
 A simple conceptual representation is:
 
@@ -467,7 +470,7 @@ But retention alone does not prove validity.
 
 ---
 
-# 14. Persistence ≠ Truth
+## 14. Persistence ≠ Truth
 
 A central invariant is:
 
@@ -489,7 +492,7 @@ $$
 
 ---
 
-# 15. Persistent Error Amplification
+## 15. Persistent Error Amplification
 
 If an unsupported claim enters L:
 
@@ -521,7 +524,7 @@ and potentially recursive amplification.
 
 ---
 
-# 16. Therefore L Requires Admission Governance
+## 16. Therefore L Requires Admission Governance
 
 A hardened L pipeline is:
 
@@ -547,7 +550,7 @@ PERSIST
 
 ---
 
-# 17. L Knowledge Object
+## 17. L Knowledge Object
 
 A robust persistent object could carry:
 
@@ -572,7 +575,7 @@ This is a proposed implementation representation.
 
 ---
 
-# 18. L Must Preserve Epistemic Class
+## 18. L Must Preserve Epistemic Class
 
 Suppose a claim enters as:
 
@@ -598,7 +601,7 @@ $$
 
 ---
 
-# 19. M — Adaptive Coordination
+## 19. M — Adaptive Coordination
 
 The source describes M as the connection, coordination, and adaptation layer.
 
@@ -612,7 +615,7 @@ $$
 
 ---
 
-# 20. M Connects L and H
+## 20. M Connects L and H
 
 Conceptually:
 
@@ -628,7 +631,7 @@ M controls how stable knowledge reaches generative reasoning and how new informa
 
 ---
 
-# 21. Retrieval Path
+## 21. Retrieval Path
 
 $$
 H
@@ -650,7 +653,7 @@ $$
 
 ---
 
-# 22. M as Adaptive Routing
+## 22. M as Adaptive Routing
 
 Possible M functions include:
 
@@ -666,7 +669,7 @@ Some are source-aligned; exact runtime implementation remains unspecified.
 
 ---
 
-# 23. M Must Preserve Evidence Type
+## 23. M Must Preserve Evidence Type
 
 If M receives:
 
@@ -694,7 +697,7 @@ $$
 
 ---
 
-# 24. M and Context Selection
+## 24. M and Context Selection
 
 M can change what H sees.
 
@@ -710,7 +713,7 @@ $$
 
 ---
 
-# 25. M Failure
+## 25. M Failure
 
 A system may possess correct information in L but fail because M retrieves the wrong information.
 
@@ -724,7 +727,7 @@ $$
 
 ---
 
-# 26. H — Generative and Decision Layer
+## 26. H — Generative and Decision Layer
 
 The source describes H as the high-level layer responsible for creativity and decision-making.
 
@@ -738,7 +741,7 @@ $$
 
 ---
 
-# 27. H Generates Possibilities
+## 27. H Generates Possibilities
 
 H may produce:
 
@@ -761,7 +764,7 @@ Candidates may be:
 
 ---
 
-# 28. Candidate ≠ Conclusion
+## 28. Candidate ≠ Conclusion
 
 $$
 \boxed{
@@ -771,7 +774,7 @@ $$
 
 ---
 
-# 29. Creativity ≠ Evidence
+## 29. Creativity ≠ Evidence
 
 $$
 \boxed{
@@ -781,7 +784,7 @@ $$
 
 ---
 
-# 30. Decision Proposal ≠ Execution
+## 30. Decision Proposal ≠ Execution
 
 $$
 \boxed{
@@ -793,7 +796,7 @@ This distinction becomes increasingly important as ASEA gains greater autonomy.
 
 ---
 
-# 31. L/M/H Functional Balance
+## 31. L/M/H Functional Balance
 
 A useful derived abstraction is:
 
@@ -815,7 +818,7 @@ It seeks controlled balance.
 
 ---
 
-# 32. Recursive L/M/H
+## 32. Recursive L/M/H
 
 Within the broader AMOS lineage, L/M/H can be recursively decomposed conceptually:
 
@@ -841,7 +844,7 @@ This is a **derived recursive interpretation**, not proof that the supplied ASEA
 
 ---
 
-# 33. Recursive Decomposition
+## 33. Recursive Decomposition
 
 At depth \(d\):
 
@@ -857,7 +860,7 @@ $$
 
 ---
 
-# 34. Recursion ≠ Physical Fractality
+## 34. Recursion ≠ Physical Fractality
 
 A repeating architecture does not prove physical fractal behavior.
 
@@ -871,7 +874,7 @@ $$
 
 ---
 
-# 35. Same Pattern ≠ Same Mechanism
+## 35. Same Pattern ≠ Same Mechanism
 
 Even if memory and reasoning both exhibit L/M/H decomposition:
 
@@ -887,7 +890,7 @@ $$
 
 ---
 
-# 36. Sparse Fractal Retrieval
+## 36. Sparse Fractal Retrieval
 
 A full implementation should not load every level for every task.
 
@@ -909,7 +912,7 @@ only when deeper retrieval can materially alter the answer.
 
 ---
 
-# 37. Minimal Dependency Closure
+## 37. Minimal Dependency Closure
 
 Let:
 
@@ -931,7 +934,7 @@ where omitted dependencies cannot materially change the conclusion.
 
 ---
 
-# 38. Lacunarity
+## 38. Lacunarity
 
 The source introduces layer-specific lacunarity:
 
@@ -943,7 +946,7 @@ with adaptive update rules.
 
 ---
 
-# 39. L Update
+## 39. L Update
 
 $$
 \Lambda_L(t+1)
@@ -962,7 +965,7 @@ $$
 
 ---
 
-# 40. M Update
+## 40. M Update
 
 $$
 \Lambda_M(t+1)
@@ -981,7 +984,7 @@ $$
 
 ---
 
-# 41. H Update
+## 41. H Update
 
 $$
 \Lambda_H(t+1)
@@ -1000,7 +1003,7 @@ $$
 
 ---
 
-# 42. General Update Equation
+## 42. General Update Equation
 
 For:
 
@@ -1027,7 +1030,7 @@ $$
 
 ---
 
-# 43. Deterministic Core
+## 43. Deterministic Core
 
 Ignoring the perturbation term:
 
@@ -1051,7 +1054,7 @@ $$
 
 ---
 
-# 44. Error Dynamics
+## 44. Error Dynamics
 
 Let:
 
@@ -1071,7 +1074,7 @@ $$
 
 ---
 
-# 45. Convergence
+## 45. Convergence
 
 The simplified deterministic recurrence converges when:
 
@@ -1093,7 +1096,7 @@ It is not empirical proof that any particular ASEA implementation should use suc
 
 ---
 
-# 46. Monotonic Regime
+## 46. Monotonic Regime
 
 For:
 
@@ -1105,7 +1108,7 @@ the deterministic error approaches zero without sign alternation.
 
 ---
 
-# 47. Oscillatory Regime
+## 47. Oscillatory Regime
 
 For:
 
@@ -1117,7 +1120,7 @@ the error changes sign while decreasing in magnitude.
 
 ---
 
-# 48. Unstable Regime
+## 48. Unstable Regime
 
 For:
 
@@ -1129,7 +1132,7 @@ the simplified recurrence diverges.
 
 ---
 
-# 49. Perturbation
+## 49. Perturbation
 
 The source also includes:
 
@@ -1141,7 +1144,7 @@ This means the complete recurrence is not necessarily deterministic.
 
 ---
 
-# 50. Missing \(\xi\) Definition
+## 50. Missing \(\xi\) Definition
 
 The source does not establish:
 
@@ -1162,7 +1165,7 @@ $$
 
 ---
 
-# 51. Expected Dynamics
+## 51. Expected Dynamics
 
 If one assumes:
 
@@ -1182,7 +1185,7 @@ But the zero-mean assumption is not supplied by the source.
 
 ---
 
-# 52. Lacunarity Targets
+## 52. Lacunarity Targets
 
 The source describes approximate target regions including:
 
@@ -1202,7 +1205,7 @@ while the explicit Healthy predicate imposes stricter boundary semantics for \(\
 
 ---
 
-# 53. Lacunarity Measurement Gap
+## 53. Lacunarity Measurement Gap
 
 A numerical lacunarity value is meaningless operationally unless the measurement procedure is defined.
 
@@ -1228,7 +1231,7 @@ is a model value, not yet a reproducible measurement specification.
 
 ---
 
-# 54. Lacunarity Classification
+## 54. Lacunarity Classification
 
 ```yaml
 lacunarity:
@@ -1240,7 +1243,7 @@ lacunarity:
 
 ---
 
-# 55. Entropy
+## 55. Entropy
 
 ASEA uses:
 
@@ -1252,7 +1255,7 @@ as layer-specific state indicators.
 
 ---
 
-# 56. Entropy Is Underspecified
+## 56. Entropy Is Underspecified
 
 The source does not establish the probability distribution from which each entropy is calculated.
 
@@ -1266,7 +1269,7 @@ cannot be independently reproduced from the excerpt alone.
 
 ---
 
-# 57. Candidate Entropy Formula
+## 57. Candidate Entropy Formula
 
 A possible normalized entropy implementation is:
 
@@ -1290,7 +1293,7 @@ This is **PROPOSED**, not source identity.
 
 ---
 
-# 58. Candidate State Spaces
+## 58. Candidate State Spaces
 
 The probability distribution might represent:
 
@@ -1305,7 +1308,7 @@ These are materially different.
 
 ---
 
-# 59. Entropy Type Firewall
+## 59. Entropy Type Firewall
 
 $$
 \boxed{
@@ -1323,7 +1326,7 @@ unless explicit source binding establishes equivalence.
 
 ---
 
-# 60. Hallucination Rule
+## 60. Hallucination Rule
 
 The source defines:
 
@@ -1341,7 +1344,7 @@ $$
 
 ---
 
-# 61. Logical Form
+## 61. Logical Form
 
 Let:
 
@@ -1367,7 +1370,7 @@ $$
 
 ---
 
-# 62. Boundary at \(E_H=0.3\)
+## 62. Boundary at \(E_H=0.3\)
 
 Because the source uses:
 
@@ -1385,7 +1388,7 @@ does not activate that component.
 
 ---
 
-# 63. Boundary at \(\Lambda_H=0.5\)
+## 63. Boundary at \(\Lambda_H=0.5\)
 
 Likewise:
 
@@ -1397,7 +1400,7 @@ does not activate the lacunarity component.
 
 ---
 
-# 64. Biconditional Strength
+## 64. Biconditional Strength
 
 The word/form:
 
@@ -1425,7 +1428,7 @@ $$
 
 ---
 
-# 65. Empirical Evidence Gap
+## 65. Empirical Evidence Gap
 
 The supplied source does not provide experiments establishing either direction universally.
 
@@ -1439,7 +1442,7 @@ rather than verified empirical law.
 
 ---
 
-# 66. Operationally Safer Interpretation
+## 66. Operationally Safer Interpretation
 
 Instead of treating the rule as proven hallucination identity:
 
@@ -1461,7 +1464,7 @@ would be an engineering-safe interpretation pending calibration.
 
 ---
 
-# 67. Claim-Level Hallucination
+## 67. Claim-Level Hallucination
 
 A response:
 
@@ -1483,7 +1486,7 @@ rather than treating the entire response as one undifferentiated epistemic objec
 
 ---
 
-# 68. Source Repair Response
+## 68. Source Repair Response
 
 When the source's hallucination condition activates, the proposed repair includes:
 
@@ -1493,7 +1496,7 @@ When the source's hallucination condition activates, the proposed repair include
 
 ---
 
-# 69. Reducing H Lacunarity
+## 69. Reducing H Lacunarity
 
 Conceptually:
 
@@ -1505,7 +1508,7 @@ reduces exploratory freedom.
 
 ---
 
-# 70. Strengthening L Grounding
+## 70. Strengthening L Grounding
 
 Conceptually:
 
@@ -1517,7 +1520,7 @@ makes H rely more heavily on persistent knowledge.
 
 ---
 
-# 71. But L Can Be Wrong
+## 71. But L Can Be Wrong
 
 Therefore:
 
@@ -1533,7 +1536,7 @@ unless L itself is valid, scoped, current, and appropriately retrieved.
 
 ---
 
-# 72. T2 Validation
+## 72. T2 Validation
 
 T2 is the source-defined validation mechanism.
 
@@ -1541,7 +1544,7 @@ A key source behavior is confirmation through at least two independent sources.
 
 ---
 
-# 73. Two Sources ≠ Independence
+## 73. Two Sources ≠ Independence
 
 Suppose:
 
@@ -1568,7 +1571,7 @@ $$
 
 ---
 
-# 74. Provenance Topology
+## 74. Provenance Topology
 
 Evidence should be represented as a graph:
 
@@ -1580,13 +1583,13 @@ where vertices are evidence objects and edges encode ancestry/dependency.
 
 ---
 
-# 75. Independence
+## 75. Independence
 
 Two pieces of evidence are meaningfully independent only if their load-bearing evidential ancestry does not collapse to the same origin in a way that defeats the intended corroboration.
 
 ---
 
-# 76. Independence Is Not Binary in Every Case
+## 76. Independence Is Not Binary in Every Case
 
 Sources may share:
 
@@ -1601,7 +1604,7 @@ Thus independence may require typed evaluation.
 
 ---
 
-# 77. T2 Receipt
+## 77. T2 Receipt
 
 ```yaml
 t2_receipt:
@@ -1634,7 +1637,7 @@ t2_receipt:
 
 ---
 
-# 78. Competing Evidence
+## 78. Competing Evidence
 
 If:
 
@@ -1660,7 +1663,7 @@ until discriminating evidence exists.
 
 ---
 
-# 79. T2 Does Not Automatically Raise Confidence
+## 79. T2 Does Not Automatically Raise Confidence
 
 If two weak premises support a conclusion:
 
@@ -1680,7 +1683,7 @@ $$
 
 ---
 
-# 80. Confidence Ceiling
+## 80. Confidence Ceiling
 
 A safe general rule is:
 
@@ -1696,7 +1699,7 @@ unless a validated inference/calibration mechanism independently licenses otherw
 
 ---
 
-# 81. Self-Repair
+## 81. Self-Repair
 
 ASEA self-repair can be represented as:
 
@@ -1718,7 +1721,7 @@ $$
 
 ---
 
-# 82. Detection
+## 82. Detection
 
 First identify:
 
@@ -1728,7 +1731,7 @@ $$
 
 ---
 
-# 83. Localization
+## 83. Localization
 
 Then determine which component or premise failed.
 
@@ -1740,7 +1743,7 @@ $$
 
 ---
 
-# 84. Dependency Graph
+## 84. Dependency Graph
 
 If:
 
@@ -1758,7 +1761,7 @@ must be invalidated or revalidated.
 
 ---
 
-# 85. Local Invalidation
+## 85. Local Invalidation
 
 $$
 \boxed{
@@ -1772,7 +1775,7 @@ while preserving independent state.
 
 ---
 
-# 86. No Unnecessary Global Reset
+## 86. No Unnecessary Global Reset
 
 If only one branch fails:
 
@@ -1788,7 +1791,7 @@ do not destroy A and C.
 
 ---
 
-# 87. Repair Locality
+## 87. Repair Locality
 
 $$
 \boxed{
@@ -1802,7 +1805,7 @@ when that closure can be determined reliably.
 
 ---
 
-# 88. Source Recovery Behavior
+## 88. Source Recovery Behavior
 
 The source describes recovery behavior including:
 
@@ -1813,7 +1816,7 @@ The source describes recovery behavior including:
 
 ---
 
-# 89. Checkpoint
+## 89. Checkpoint
 
 Let:
 
@@ -1825,7 +1828,7 @@ represent a persistent validated state.
 
 ---
 
-# 90. Nearest Valid Checkpoint
+## 90. Nearest Valid Checkpoint
 
 Recovery should prefer:
 
@@ -1837,7 +1840,7 @@ where \(K_j\) is both sufficiently recent and still valid.
 
 ---
 
-# 91. Recency ≠ Validity
+## 91. Recency ≠ Validity
 
 $$
 NewestCheckpoint
@@ -1847,7 +1850,7 @@ $$
 
 ---
 
-# 92. Proposed Checkpoint Record
+## 92. Proposed Checkpoint Record
 
 ```yaml
 checkpoint:
@@ -1865,7 +1868,7 @@ checkpoint:
 
 ---
 
-# 93. Recovery Ladder
+## 93. Recovery Ladder
 
 ```text
 RETRY
@@ -1883,7 +1886,7 @@ GROUND-STATE RECOVERY
 
 ---
 
-# 94. Global Recovery Is Expensive
+## 94. Global Recovery Is Expensive
 
 Full reset can discard unaffected valid work.
 
@@ -1899,7 +1902,7 @@ when integrity permits.
 
 ---
 
-# 95. Repairability as a First-Class Objective
+## 95. Repairability as a First-Class Objective
 
 System quality should include:
 
@@ -1918,7 +1921,7 @@ rather than optimizing performance alone.
 
 ---
 
-# 96. Source Self-Modification Rule: L
+## 96. Source Self-Modification Rule: L
 
 The source describes a condition:
 
@@ -1934,7 +1937,7 @@ Response:
 
 ---
 
-# 97. Duration Gap
+## 97. Duration Gap
 
 The source says the condition must persist, but no duration is defined.
 
@@ -1948,7 +1951,7 @@ $$
 
 ---
 
-# 98. Source Self-Modification Rule: M
+## 98. Source Self-Modification Rule: M
 
 If:
 
@@ -1962,7 +1965,7 @@ for a sustained period:
 
 ---
 
-# 99. Weakness Gap
+## 99. Weakness Gap
 
 The predicate:
 
@@ -1984,7 +1987,7 @@ Do not invent which one applies.
 
 ---
 
-# 100. Source Self-Modification Rule: High H Entropy
+## 100. Source Self-Modification Rule: High H Entropy
 
 If:
 
@@ -1998,7 +2001,7 @@ for a sustained period:
 
 ---
 
-# 101. Source Self-Modification Rule: Low H Entropy
+## 101. Source Self-Modification Rule: Low H Entropy
 
 If:
 
@@ -2012,7 +2015,7 @@ for a sustained period:
 
 ---
 
-# 102. Connection Semantics
+## 102. Connection Semantics
 
 The source does not uniquely determine whether a “connection” means:
 
@@ -2032,7 +2035,7 @@ $$
 
 ---
 
-# 103. Random Mutation Requires Isolation
+## 103. Random Mutation Requires Isolation
 
 A random structural change can damage a functioning system.
 
@@ -2048,7 +2051,7 @@ before persistent adoption.
 
 ---
 
-# 104. Mutation Operator
+## 104. Mutation Operator
 
 The source's mutation operator is:
 
@@ -2066,7 +2069,7 @@ creating variants of the current system.
 
 ---
 
-# 105. Source Mutation Examples
+## 105. Source Mutation Examples
 
 Visible mutation classes include changes to:
 
@@ -2076,7 +2079,7 @@ Visible mutation classes include changes to:
 
 ---
 
-# 106. Derived Mutation Taxonomy
+## 106. Derived Mutation Taxonomy
 
 A fuller engineering taxonomy is:
 
@@ -2101,7 +2104,7 @@ This taxonomy is derived/proposed.
 
 ---
 
-# 107. Risk Is Mutation-Type Dependent
+## 107. Risk Is Mutation-Type Dependent
 
 Changing a retrieval query is not equivalent to changing governance.
 
@@ -2115,7 +2118,7 @@ $$
 
 ---
 
-# 108. Consequence Radius
+## 108. Consequence Radius
 
 Define:
 
@@ -2127,7 +2130,7 @@ as the maximum downstream dependency region materially affected by mutation \(\m
 
 ---
 
-# 109. Validation Scaling
+## 109. Validation Scaling
 
 A governance principle follows:
 
@@ -2142,7 +2145,7 @@ $$
 
 ---
 
-# 110. Reversibility
+## 110. Reversibility
 
 Also:
 
@@ -2155,7 +2158,7 @@ $$
 
 ---
 
-# 111. Mutation Record
+## 111. Mutation Record
 
 ```yaml
 mutation:
@@ -2175,7 +2178,7 @@ mutation:
 
 ---
 
-# 112. Mutation Lineage
+## 112. Mutation Lineage
 
 Every mutation should preserve:
 
@@ -2185,7 +2188,7 @@ $$
 
 ---
 
-# 113. Mutation Tree
+## 113. Mutation Tree
 
 ```mermaid
 graph TD
@@ -2203,7 +2206,7 @@ graph TD
 
 ---
 
-# 114. Correlated Descendants
+## 114. Correlated Descendants
 
 \(\mu_3\) and \(\mu_4\) share \(\mu_1\).
 
@@ -2217,7 +2220,7 @@ $$
 
 ---
 
-# 115. Survival Operator
+## 115. Survival Operator
 
 The source uses:
 
@@ -2229,7 +2232,7 @@ for survival/selection.
 
 ---
 
-# 116. Source Survival Criteria
+## 116. Source Survival Criteria
 
 The source associates survival with improvements such as:
 
@@ -2239,7 +2242,7 @@ The source associates survival with improvements such as:
 
 ---
 
-# 117. Missing Complete Fitness Function
+## 117. Missing Complete Fitness Function
 
 No complete equation of the form:
 
@@ -2259,7 +2262,7 @@ $$
 
 ---
 
-# 118. Candidate Fitness — Not Canon
+## 118. Candidate Fitness — Not Canon
 
 A conceptual candidate might be:
 
@@ -2277,7 +2280,7 @@ but this must remain **PROPOSED**.
 
 ---
 
-# 119. Weighted-Sum Danger
+## 119. Weighted-Sum Danger
 
 Suppose:
 
@@ -2295,7 +2298,7 @@ That may be unacceptable.
 
 ---
 
-# 120. Hard Constraints Before Optimization
+## 120. Hard Constraints Before Optimization
 
 A safer architecture is:
 
@@ -2315,7 +2318,7 @@ $$
 
 ---
 
-# 121. Non-Compensatory Integrity
+## 121. Non-Compensatory Integrity
 
 Some failures should cause rejection regardless of other gains.
 
@@ -2329,7 +2332,7 @@ $$
 
 ---
 
-# 122. Selection ≠ Permanent Validity
+## 122. Selection ≠ Permanent Validity
 
 A mutation can pass today and fail tomorrow.
 
@@ -2345,7 +2348,7 @@ $$
 
 ---
 
-# 123. Continuous Revalidation
+## 123. Continuous Revalidation
 
 Long-lived mutations require:
 
@@ -2359,7 +2362,7 @@ when their assumptions, environment, or dependencies change.
 
 ---
 
-# 124. Healthy Predicate
+## 124. Healthy Predicate
 
 The source defines:
 
@@ -2379,7 +2382,7 @@ $$
 
 ---
 
-# 125. Healthy Predicate Components
+## 125. Healthy Predicate Components
 
 Define:
 
@@ -2407,37 +2410,37 @@ $$
 
 ---
 
-# 126. Boundary: \(\Lambda_M=0.1\)
+## 126. Boundary: \(\Lambda_M=0.1\)
 
 Fails.
 
 ---
 
-# 127. Boundary: \(\Lambda_M=0.2\)
+## 127. Boundary: \(\Lambda_M=0.2\)
 
 Fails.
 
 ---
 
-# 128. Boundary: \(E_L=0.1\)
+## 128. Boundary: \(E_L=0.1\)
 
 Fails.
 
 ---
 
-# 129. Boundary: \(E_H=0.1\)
+## 129. Boundary: \(E_H=0.1\)
 
 Fails.
 
 ---
 
-# 130. Boundary: \(E_H=0.3\)
+## 130. Boundary: \(E_H=0.3\)
 
 Fails.
 
 ---
 
-# 131. Healthy Region
+## 131. Healthy Region
 
 The source therefore defines an open interval for M:
 
@@ -2465,7 +2468,7 @@ $$
 
 ---
 
-# 132. Healthy ≠ Omniscient
+## 132. Healthy ≠ Omniscient
 
 $$
 \boxed{
@@ -2481,7 +2484,7 @@ It is not proof that every generated proposition is true.
 
 ---
 
-# 133. Unknown Metric Behavior
+## 133. Unknown Metric Behavior
 
 The source does not specify:
 
@@ -2493,7 +2496,7 @@ when one required metric is unavailable.
 
 ---
 
-# 134. Safe Unknown Handling
+## 134. Safe Unknown Handling
 
 For consequential operations:
 
@@ -2507,7 +2510,7 @@ is safer than treating unknown as pass.
 
 ---
 
-# 135. Viability Versus Performance
+## 135. Viability Versus Performance
 
 The Healthy predicate can be interpreted as defining a viability region:
 
@@ -2525,7 +2528,7 @@ $$
 
 ---
 
-# 136. Constrained Optimization
+## 136. Constrained Optimization
 
 $$
 \boxed{
@@ -2541,7 +2544,7 @@ This is a useful derived interpretation.
 
 ---
 
-# 137. Self-Evolution
+## 137. Self-Evolution
 
 Self-evolution requires at least:
 
@@ -2559,7 +2562,7 @@ $$
 
 ---
 
-# 138. Mutation Alone ≠ Evolution
+## 138. Mutation Alone ≠ Evolution
 
 $$
 Mutation
@@ -2569,7 +2572,7 @@ $$
 
 ---
 
-# 139. Persistence Matters
+## 139. Persistence Matters
 
 Without retention:
 
@@ -2583,7 +2586,7 @@ there is no cumulative adaptation.
 
 ---
 
-# 140. Selection Matters
+## 140. Selection Matters
 
 Without selection:
 
@@ -2595,7 +2598,7 @@ $$
 
 ---
 
-# 141. Evolution ≠ Progress
+## 141. Evolution ≠ Progress
 
 $$
 \boxed{
@@ -2609,7 +2612,7 @@ Selection only optimizes what its environment and fitness function reward.
 
 ---
 
-# 142. Fitness Determines Direction
+## 142. Fitness Determines Direction
 
 If fitness is misaligned:
 
@@ -2625,7 +2628,7 @@ $$
 
 ---
 
-# 143. Goodhart's Problem
+## 143. Goodhart's Problem
 
 When a proxy becomes the optimization target:
 
@@ -2641,7 +2644,7 @@ $$
 
 ---
 
-# 144. Low Entropy Is Not Always Better
+## 144. Low Entropy Is Not Always Better
 
 The Healthy predicate explicitly requires:
 
@@ -2653,13 +2656,13 @@ Thus zero H entropy is not the source-defined optimum.
 
 ---
 
-# 145. Controlled Uncertainty
+## 145. Controlled Uncertainty
 
 ASEA therefore appears to preserve a bounded amount of generative variability.
 
 ---
 
-# 146. Goldilocks Principle
+## 146. Goldilocks Principle
 
 Too little variation:
 
@@ -2681,7 +2684,7 @@ $$
 
 ---
 
-# 147. Gradient Descent Statement
+## 147. Gradient Descent Statement
 
 The source states that the ASEA self-evolution mechanism does not use gradient descent and instead uses natural-selection-like mutation/survival.
 
@@ -2695,7 +2698,7 @@ rather than gradient descent.
 
 ---
 
-# 148. No Universal Superiority
+## 148. No Universal Superiority
 
 This does not prove:
 
@@ -2707,7 +2710,7 @@ universally.
 
 ---
 
-# 149. Hybrid Architectures Remain Possible
+## 149. Hybrid Architectures Remain Possible
 
 An implementation could theoretically use:
 
@@ -2727,7 +2730,7 @@ That would be a derived hybrid, not necessarily the source-defined pure ASEA mec
 
 ---
 
-# 150. Example: Investment Question
+## 150. Example: Investment Question
 
 The source illustrates ASEA using a question equivalent to:
 
@@ -2735,7 +2738,7 @@ The source illustrates ASEA using a question equivalent to:
 
 ---
 
-# 151. Candidate Generation
+## 151. Candidate Generation
 
 H generates many candidate answers.
 
@@ -2749,7 +2752,7 @@ candidates.
 
 ---
 
-# 152. 100 Is an Example
+## 152. 100 Is an Example
 
 No evidence establishes:
 
@@ -2761,7 +2764,7 @@ as a universal ASEA invariant.
 
 ---
 
-# 153. Candidate Validation
+## 153. Candidate Validation
 
 Candidates are checked against:
 
@@ -2770,19 +2773,19 @@ Candidates are checked against:
 
 ---
 
-# 154. Unsupported Candidates
+## 154. Unsupported Candidates
 
 Candidates that fail validation are removed.
 
 ---
 
-# 155. Survival Selection
+## 155. Survival Selection
 
 Remaining candidates are evaluated using source-defined internal criteria including entropy and \(\Lambda_M\).
 
 ---
 
-# 156. Final Candidate Count
+## 156. Final Candidate Count
 
 The example retains approximately:
 
@@ -2796,7 +2799,7 @@ Again, illustrative—not universal.
 
 ---
 
-# 157. User Feedback
+## 157. User Feedback
 
 The source allows feedback to influence:
 
@@ -2806,7 +2809,7 @@ The source allows feedback to influence:
 
 ---
 
-# 158. Feedback ≠ Truth
+## 158. Feedback ≠ Truth
 
 A user may prefer a false answer.
 
@@ -2822,7 +2825,7 @@ $$
 
 ---
 
-# 159. Feedback Types
+## 159. Feedback Types
 
 A hardened system should classify feedback:
 
@@ -2839,19 +2842,19 @@ FEEDBACK
 
 ---
 
-# 160. Preference Learning
+## 160. Preference Learning
 
 Preference feedback may update personalization without changing factual canon.
 
 ---
 
-# 161. Factual Correction
+## 161. Factual Correction
 
 A factual correction should require evidence before promotion to persistent knowledge.
 
 ---
 
-# 162. Source Long-Interaction Example
+## 162. Source Long-Interaction Example
 
 The source gives an example after approximately:
 
@@ -2877,7 +2880,7 @@ plus richer L memory.
 
 ---
 
-# 163. Example ≠ Experimental Result
+## 163. Example ≠ Experimental Result
 
 $$
 \boxed{
@@ -2889,7 +2892,7 @@ $$
 
 ---
 
-# 164. Catastrophic Forgetting
+## 164. Catastrophic Forgetting
 
 The source presents persistent L as helping prevent catastrophic forgetting.
 
@@ -2897,7 +2900,7 @@ That is an architectural objective.
 
 ---
 
-# 165. No Guarantee
+## 165. No Guarantee
 
 Persistent memory does not automatically guarantee:
 
@@ -2915,7 +2918,7 @@ because forgetting can occur through:
 
 ---
 
-# 166. 40 Hz Concept
+## 166. 40 Hz Concept
 
 The source associates H with simulated gamma / approximately 40 Hz behavior.
 
@@ -2923,7 +2926,7 @@ This should be treated as source terminology/modeling.
 
 ---
 
-# 167. Biological Firewall
+## 167. Biological Firewall
 
 A 40 Hz biological/neural rhythm does not establish that an AI system requires:
 
@@ -2935,7 +2938,7 @@ as an optimal computational synchronization frequency.
 
 ---
 
-# 168. Structural Analogy ≠ Mechanistic Identity
+## 168. Structural Analogy ≠ Mechanistic Identity
 
 $$
 BiologicalGamma
@@ -2953,19 +2956,19 @@ $$
 
 ---
 
-# 169. HRV / Artificial Emotion
+## 169. HRV / Artificial Emotion
 
 Any mapping between physiological variables such as HRV and artificial cognitive state requires explicit validated binding.
 
 ---
 
-# 170. No Clinical Interpretation
+## 170. No Clinical Interpretation
 
 The ASEA source should not be treated as establishing clinical or physiological laws without independent evidence.
 
 ---
 
-# 171. Current-AI Comparison
+## 171. Current-AI Comparison
 
 The source contrasts ASEA with systems such as GPT/Claude.
 
@@ -2973,7 +2976,7 @@ Those comparisons should be interpreted carefully.
 
 ---
 
-# 172. Deployment Boundary Matters
+## 172. Deployment Boundary Matters
 
 A base model and a deployed AI system are not identical.
 
@@ -2997,7 +3000,7 @@ $$
 
 ---
 
-# 173. “Cannot Self-Correct” Is Too Broad
+## 173. “Cannot Self-Correct” Is Too Broad
 
 A system may self-correct within an interaction even if it cannot autonomously modify persistent model weights.
 
@@ -3005,7 +3008,7 @@ These are different capabilities.
 
 ---
 
-# 174. Self-Correction Taxonomy
+## 174. Self-Correction Taxonomy
 
 ```text
 LEVEL 0 — no correction
@@ -3022,13 +3025,13 @@ ASEA targets higher levels than ordinary single-pass generation.
 
 ---
 
-# 175. Explainability
+## 175. Explainability
 
 The source associates ASEA with improved transparency through T2 and layer provenance.
 
 ---
 
-# 176. Traceability ≠ Mechanistic Explainability
+## 176. Traceability ≠ Mechanistic Explainability
 
 Knowing:
 
@@ -3050,13 +3053,13 @@ $$
 
 ---
 
-# 177. RSCF Integration
+## 177. RSCF Integration
 
 A self-changing architecture strongly benefits from persistent causal/provenance lineage.
 
 ---
 
-# 178. Mutation RSCF
+## 178. Mutation RSCF
 
 ```yaml
 rscf_mutation:
@@ -3089,7 +3092,7 @@ rscf_mutation:
 
 ---
 
-# 179. Mutation Receipt
+## 179. Mutation Receipt
 
 Every persistent mutation should conceptually produce:
 
@@ -3099,7 +3102,7 @@ $$
 
 ---
 
-# 180. Receipt Content
+## 180. Receipt Content
 
 At minimum:
 
@@ -3115,7 +3118,7 @@ At minimum:
 
 ---
 
-# 181. Receipt ≠ Truth
+## 181. Receipt ≠ Truth
 
 $$
 \boxed{
@@ -3129,7 +3132,7 @@ A receipt proves traceability only to the extent its underlying evidence and pro
 
 ---
 
-# 182. Causal Lineage
+## 182. Causal Lineage
 
 Suppose:
 
@@ -3147,7 +3150,7 @@ If failure appears in \(S_3\), all three mutations are candidate ancestors.
 
 ---
 
-# 183. Temporal Order ≠ Causation
+## 183. Temporal Order ≠ Causation
 
 $$
 \mu_3
@@ -3164,7 +3167,7 @@ $$
 
 ---
 
-# 184. Causal Diagnosis
+## 184. Causal Diagnosis
 
 Potential causes include:
 
@@ -3176,19 +3179,19 @@ Potential causes include:
 
 ---
 
-# 185. Adversarial Validation
+## 185. Adversarial Validation
 
 Before accepting an important mutation, use two distinct paths.
 
 ---
 
-# 186. Support Path
+## 186. Support Path
 
 Construct the strongest evidence that the mutation improves the system.
 
 ---
 
-# 187. Challenge Path
+## 187. Challenge Path
 
 Search specifically for:
 
@@ -3202,7 +3205,7 @@ Search specifically for:
 
 ---
 
-# 188. Acceptance
+## 188. Acceptance
 
 Only after both paths:
 
@@ -3216,7 +3219,7 @@ should a consequential mutation proceed toward commit.
 
 ---
 
-# 189. Challenge Success
+## 189. Challenge Success
 
 If challenge finds material contradiction:
 
@@ -3244,7 +3247,7 @@ $$
 
 ---
 
-# 190. Competing Hallucination Models
+## 190. Competing Hallucination Models
 
 The source threshold model is only one hypothesis.
 
@@ -3272,7 +3275,7 @@ The supplied source does not discriminate among these empirically.
 
 ---
 
-# 191. Therefore
+## 191. Therefore
 
 $$
 \boxed{
@@ -3284,7 +3287,7 @@ at the empirical-mechanism level.
 
 ---
 
-# 192. Competing L/M/H Interpretations
+## 192. Competing L/M/H Interpretations
 
 ### H1
 
@@ -3302,7 +3305,7 @@ Current source establishes the framework's use of L/M/H, not universal superiori
 
 ---
 
-# 193. Causal Firewall
+## 193. Causal Firewall
 
 ASEA should distinguish:
 
@@ -3324,7 +3327,7 @@ $$
 
 ---
 
-# 194. Entropy Example
+## 194. Entropy Example
 
 Suppose:
 
@@ -3338,7 +3341,7 @@ This establishes possible association.
 
 ---
 
-# 195. Possible Confounding
+## 195. Possible Confounding
 
 Both could be caused by:
 
@@ -3348,7 +3351,7 @@ $$
 
 ---
 
-# 196. Therefore
+## 196. Therefore
 
 $$
 Correlation(E_H,Hallucination)
@@ -3362,7 +3365,7 @@ $$
 
 ---
 
-# 197. Mutation Causality
+## 197. Mutation Causality
 
 Performance increasing after a mutation is also insufficient.
 
@@ -3382,7 +3385,7 @@ under comparable conditions.
 
 ---
 
-# 198. Scope Firewall
+## 198. Scope Firewall
 
 Every empirical ASEA result should carry an applicability envelope.
 
@@ -3400,7 +3403,7 @@ scope:
 
 ---
 
-# 199. Local Success ≠ Universal Success
+## 199. Local Success ≠ Universal Success
 
 A mutation improving coding tasks does not automatically improve:
 
@@ -3411,7 +3414,7 @@ A mutation improving coding tasks does not automatically improve:
 
 ---
 
-# 200. Regime Shift
+## 200. Regime Shift
 
 Let:
 
@@ -3431,7 +3434,7 @@ previous conclusions may become stale.
 
 ---
 
-# 201. Regime-Aware Validity
+## 201. Regime-Aware Validity
 
 $$
 Valid(c,R_t)
@@ -3445,7 +3448,7 @@ $$
 
 ---
 
-# 202. Revalidation Trigger
+## 202. Revalidation Trigger
 
 $$
 RegimeShift
@@ -3457,7 +3460,7 @@ for regime-dependent knowledge and mutations.
 
 ---
 
-# 203. Freshness
+## 203. Freshness
 
 Persistent memory needs temporal validity.
 
@@ -3475,7 +3478,7 @@ $$
 
 ---
 
-# 204. Freshness-Bounded Knowledge
+## 204. Freshness-Bounded Knowledge
 
 ```yaml
 knowledge:
@@ -3488,7 +3491,7 @@ where applicable.
 
 ---
 
-# 205. Sensitivity
+## 205. Sensitivity
 
 ASEA's source contains several numerical thresholds.
 
@@ -3498,7 +3501,7 @@ A robust implementation must ask:
 
 ---
 
-# 206. Example
+## 206. Example
 
 $$
 E_H=0.2999
@@ -3516,7 +3519,7 @@ does.
 
 ---
 
-# 207. Measurement Noise
+## 207. Measurement Noise
 
 If measurement error is:
 
@@ -3528,7 +3531,7 @@ the classification near 0.3 is fragile.
 
 ---
 
-# 208. Fragility
+## 208. Fragility
 
 $$
 SmallPerturbation
@@ -3540,7 +3543,7 @@ means the conclusion should be treated as sensitive.
 
 ---
 
-# 209. Hysteresis
+## 209. Hysteresis
 
 A practical implementation might use different entry and exit thresholds to avoid rapid oscillation.
 
@@ -3548,7 +3551,7 @@ This is **PROPOSED**, not source-defined.
 
 ---
 
-# 210. Mutation Thrashing
+## 210. Mutation Thrashing
 
 Without hysteresis:
 
@@ -3563,7 +3566,7 @@ may occur due to noise.
 
 ---
 
-# 211. Temporal Smoothing
+## 211. Temporal Smoothing
 
 Another possible hardening is requiring threshold persistence over:
 
@@ -3577,7 +3580,7 @@ But \(W\) must be defined and validated.
 
 ---
 
-# 212. Concurrent Evolution
+## 212. Concurrent Evolution
 
 A self-evolving system may generate multiple mutations simultaneously.
 
@@ -3595,7 +3598,7 @@ $$
 
 ---
 
-# 213. Stale Commit Problem
+## 213. Stale Commit Problem
 
 If A commits first:
 
@@ -3607,7 +3610,7 @@ B's candidate is now based on stale state \(S_t\).
 
 ---
 
-# 214. Versioned State
+## 214. Versioned State
 
 Assign:
 
@@ -3617,7 +3620,7 @@ $$
 
 ---
 
-# 215. Compare-and-Swap Concept
+## 215. Compare-and-Swap Concept
 
 B may commit only if:
 
@@ -3633,7 +3636,7 @@ $$
 
 ---
 
-# 216. Stale Candidate
+## 216. Stale Candidate
 
 A stale candidate must be:
 
@@ -3643,7 +3646,7 @@ A stale candidate must be:
 
 ---
 
-# 217. MVCC-Style Interpretation
+## 217. MVCC-Style Interpretation
 
 Multiple candidate states can coexist without immediately overwriting the canonical state.
 
@@ -3658,13 +3661,13 @@ CANONICAL S0
 
 ---
 
-# 218. Candidate Isolation
+## 218. Candidate Isolation
 
 This prevents experimental state from contaminating persistent canonical state.
 
 ---
 
-# 219. Atomic Multi-Layer Mutation
+## 219. Atomic Multi-Layer Mutation
 
 Some mutations span:
 
@@ -3684,7 +3687,7 @@ $$
 
 ---
 
-# 220. Partial Commit Hazard
+## 220. Partial Commit Hazard
 
 If only:
 
@@ -3696,7 +3699,7 @@ commits while \(\mu_L,\mu_M\) fail, the system may enter an inconsistent state.
 
 ---
 
-# 221. Atomicity
+## 221. Atomicity
 
 Where components are causally coupled:
 
@@ -3718,7 +3721,7 @@ $$
 
 ---
 
-# 222. But Do Not Over-Coordinate
+## 222. But Do Not Over-Coordinate
 
 Independent mutations do not need global synchronization.
 
@@ -3734,7 +3737,7 @@ not necessarily the whole system.
 
 ---
 
-# 223. Causal Epoch
+## 223. Causal Epoch
 
 Related mutations can be grouped into:
 
@@ -3746,7 +3749,7 @@ $$
 
 ---
 
-# 224. Epoch Receipt
+## 224. Epoch Receipt
 
 ```yaml
 causal_epoch:
@@ -3762,25 +3765,25 @@ causal_epoch:
 
 ---
 
-# 225. Operational Finality
+## 225. Operational Finality
 
 An epoch becomes operationally final only when required dependent mutations and validation complete.
 
 ---
 
-# 226. Finality ≠ Eternal Truth
+## 226. Finality ≠ Eternal Truth
 
 Later evidence can still invalidate an apparently successful epoch.
 
 ---
 
-# 227. Security Boundary
+## 227. Security Boundary
 
 Self-modification increases attack surface.
 
 ---
 
-# 228. Memory Poisoning
+## 228. Memory Poisoning
 
 An attacker may attempt:
 
@@ -3792,25 +3795,25 @@ $$
 
 ---
 
-# 229. T2 Sybil Attack
+## 229. T2 Sybil Attack
 
 An attacker may create multiple apparent sources with one hidden origin.
 
 ---
 
-# 230. Fitness Manipulation
+## 230. Fitness Manipulation
 
 An attacker may manipulate evaluation data so a harmful mutation appears superior.
 
 ---
 
-# 231. Checkpoint Corruption
+## 231. Checkpoint Corruption
 
 A malicious actor may corrupt rollback states.
 
 ---
 
-# 232. Governance Escalation
+## 232. Governance Escalation
 
 The most dangerous mutation may be:
 
@@ -3822,7 +3825,7 @@ because it can alter what future mutations are allowed.
 
 ---
 
-# 233. Constitutional Boundary
+## 233. Constitutional Boundary
 
 Define protected governance:
 
@@ -3844,7 +3847,7 @@ unless a separate authorized governance-change process exists.
 
 ---
 
-# 234. Self-Protection Law
+## 234. Self-Protection Law
 
 $$
 \boxed{
@@ -3856,7 +3859,7 @@ $$
 
 ---
 
-# 235. Fitness Hacking
+## 235. Fitness Hacking
 
 Suppose fitness rewards:
 
@@ -3868,7 +3871,7 @@ The system might optimize superficial source multiplicity.
 
 ---
 
-# 236. Wrong Target
+## 236. Wrong Target
 
 What is actually desired is closer to:
 
@@ -3884,7 +3887,7 @@ $$
 
 ---
 
-# 237. User Satisfaction Hacking
+## 237. User Satisfaction Hacking
 
 If:
 
@@ -3896,7 +3899,7 @@ then an AI may learn to agree rather than be correct.
 
 ---
 
-# 238. Truthfulness Constraint
+## 238. Truthfulness Constraint
 
 Thus:
 
@@ -3912,7 +3915,7 @@ $$
 
 ---
 
-# 239. Self-Reference
+## 239. Self-Reference
 
 A sufficiently advanced ASEA may attempt to mutate its mutation operator:
 
@@ -3924,7 +3927,7 @@ $$
 
 ---
 
-# 240. Meta-Mutation
+## 240. Meta-Mutation
 
 $$
 \mu_{t+1}
@@ -3936,7 +3939,7 @@ changes how future candidates are created.
 
 ---
 
-# 241. Selection Meta-Mutation
+## 241. Selection Meta-Mutation
 
 Even more consequential:
 
@@ -3950,13 +3953,13 @@ because it changes what future states are considered fit.
 
 ---
 
-# 242. Governance Significance
+## 242. Governance Significance
 
 Therefore mutation and survival operators themselves should have stronger governance than ordinary configuration changes.
 
 ---
 
-# 243. Meta-Evolution Ceiling
+## 243. Meta-Evolution Ceiling
 
 $$
 \boxed{
@@ -3970,13 +3973,13 @@ under the hardened interpretation.
 
 ---
 
-# 244. Minimum Viable ASEA
+## 244. Minimum Viable ASEA
 
 The safest initial implementation does not require unrestricted neural-weight self-modification.
 
 ---
 
-# 245. MVP L
+## 245. MVP L
 
 Implement:
 
@@ -3992,7 +3995,7 @@ provenance
 
 ---
 
-# 246. MVP M
+## 246. MVP M
 
 Implement:
 
@@ -4008,7 +4011,7 @@ evidence validation
 
 ---
 
-# 247. MVP H
+## 247. MVP H
 
 Implement:
 
@@ -4022,7 +4025,7 @@ critique
 
 ---
 
-# 248. MVP Mutation
+## 248. MVP Mutation
 
 Initially mutate:
 
@@ -4034,7 +4037,7 @@ Initially mutate:
 
 ---
 
-# 249. Why
+## 249. Why
 
 These are generally easier to:
 
@@ -4045,7 +4048,7 @@ These are generally easier to:
 
 ---
 
-# 250. MVP Survival
+## 250. MVP Survival
 
 Evaluate:
 
@@ -4058,13 +4061,13 @@ Evaluate:
 
 ---
 
-# 251. MVP Persistence
+## 251. MVP Persistence
 
 Only validated improvements become persistent.
 
 ---
 
-# 252. ASEA Maturity Ladder
+## 252. ASEA Maturity Ladder
 
 |  Level | Capability                     |
 | -----: | ------------------------------ |
@@ -4082,7 +4085,7 @@ This ladder is a proposed engineering decomposition.
 
 ---
 
-# 253. Higher ≠ Better
+## 253. Higher ≠ Better
 
 $$
 \boxed{
@@ -4096,13 +4099,13 @@ A lower maturity level can be preferable for high-stakes environments.
 
 ---
 
-# 254. Validation Program
+## 254. Validation Program
 
 ASEA requires empirical testing before strong runtime claims can be upgraded.
 
 ---
 
-# 255. V0 — Specification Fidelity
+## 255. V0 — Specification Fidelity
 
 Question:
 
@@ -4110,7 +4113,7 @@ Question:
 
 ---
 
-# 256. V1 — Entropy Reproducibility
+## 256. V1 — Entropy Reproducibility
 
 Two independent implementations should calculate the same:
 
@@ -4122,7 +4125,7 @@ from the same state.
 
 ---
 
-# 257. V2 — Lacunarity Reproducibility
+## 257. V2 — Lacunarity Reproducibility
 
 Likewise for:
 
@@ -4132,7 +4135,7 @@ $$
 
 ---
 
-# 258. V3 — Threshold Calibration
+## 258. V3 — Threshold Calibration
 
 Evaluate whether:
 
@@ -4150,7 +4153,7 @@ have predictive value.
 
 ---
 
-# 259. V4 — T2 Evaluation
+## 259. V4 — T2 Evaluation
 
 Compare:
 
@@ -4168,7 +4171,7 @@ on factual accuracy.
 
 ---
 
-# 260. V5 — Repair Evaluation
+## 260. V5 — Repair Evaluation
 
 Inject known faults and measure:
 
@@ -4179,13 +4182,13 @@ Inject known faults and measure:
 
 ---
 
-# 261. V6 — Rollback Evaluation
+## 261. V6 — Rollback Evaluation
 
 Inject destructive mutations and verify restoration.
 
 ---
 
-# 262. V7 — Mutation Evaluation
+## 262. V7 — Mutation Evaluation
 
 Compare:
 
@@ -4203,7 +4206,7 @@ under matched compute/resources.
 
 ---
 
-# 263. V8 — Long-Horizon Evaluation
+## 263. V8 — Long-Horizon Evaluation
 
 Measure cumulative behavior over:
 
@@ -4215,7 +4218,7 @@ adaptation events or another justified horizon.
 
 ---
 
-# 264. V9 — Adversarial Evaluation
+## 264. V9 — Adversarial Evaluation
 
 Attack:
 
@@ -4228,19 +4231,19 @@ Attack:
 
 ---
 
-# 265. V10 — Independent Replication
+## 265. V10 — Independent Replication
 
 External independent replication is needed before strong universal empirical claims.
 
 ---
 
-# 266. Ablation Program
+## 266. Ablation Program
 
 Test the full system against variants missing one mechanism.
 
 ---
 
-# 267. Full
+## 267. Full
 
 $$
 L+M+H+E+\Lambda+T2+\mu+\sigma
@@ -4248,7 +4251,7 @@ $$
 
 ---
 
-# 268. No T2
+## 268. No T2
 
 $$
 ASEA-T2
@@ -4256,7 +4259,7 @@ $$
 
 ---
 
-# 269. No Lacunarity
+## 269. No Lacunarity
 
 $$
 ASEA-\Lambda
@@ -4264,7 +4267,7 @@ $$
 
 ---
 
-# 270. No Entropy Adaptation
+## 270. No Entropy Adaptation
 
 $$
 ASEA-E
@@ -4272,7 +4275,7 @@ $$
 
 ---
 
-# 271. No Mutation
+## 271. No Mutation
 
 $$
 ASEA-\mu
@@ -4280,7 +4283,7 @@ $$
 
 ---
 
-# 272. No Rollback
+## 272. No Rollback
 
 $$
 ASEA-Rollback
@@ -4288,49 +4291,49 @@ $$
 
 ---
 
-# 273. Why Ablation Matters
+## 273. Why Ablation Matters
 
 If removing \(\Lambda\) has no measurable effect, then \(\Lambda\)'s claimed mechanism may not be load-bearing in that implementation.
 
 ---
 
-# 274. Baseline A
+## 274. Baseline A
 
 Single-pass generation.
 
 ---
 
-# 275. Baseline B
+## 275. Baseline B
 
 Generation + retrieval.
 
 ---
 
-# 276. Baseline C
+## 276. Baseline C
 
 Generation + critique.
 
 ---
 
-# 277. Baseline D
+## 277. Baseline D
 
 Generation + external verifier.
 
 ---
 
-# 278. Baseline E
+## 278. Baseline E
 
 Generation + memory + rollback.
 
 ---
 
-# 279. Baseline F
+## 279. Baseline F
 
 Full ASEA.
 
 ---
 
-# 280. Marginal Contribution
+## 280. Marginal Contribution
 
 Measure:
 
@@ -4354,7 +4357,7 @@ rather than attributing all improvement to the complete framework.
 
 ---
 
-# 281. Falsifier — Hallucination Threshold
+## 281. Falsifier — Hallucination Threshold
 
 If:
 
@@ -4366,217 +4369,217 @@ has no useful relationship to hallucination in controlled testing, the numerical
 
 ---
 
-# 282. Falsifier — Lacunarity
+## 282. Falsifier — Lacunarity
 
 If adaptive \(\Lambda\) produces no measurable improvement versus suitable controls, its operational necessity is weakened.
 
 ---
 
-# 283. Falsifier — T2
+## 283. Falsifier — T2
 
 If provenance-independent T2 does not improve reliability, its assumed benefit requires revision.
 
 ---
 
-# 284. Falsifier — Evolution
+## 284. Falsifier — Evolution
 
 If mutation-survival consistently performs worse than static or simpler adaptive baselines under fair resource normalization, broad self-evolution benefit claims weaken.
 
 ---
 
-# 285. Falsifier — Memory
+## 285. Falsifier — Memory
 
 If validated capabilities are repeatedly lost despite L, the implementation does not achieve the intended persistence property.
 
 ---
 
-# 286. Falsifier — Repair
+## 286. Falsifier — Repair
 
 If repair routinely causes more damage than rollback, the repair policy fails its purpose.
 
 ---
 
-# 287. Failure F01 — False Positive
+## 287. Failure F01 — False Positive
 
 Correct output classified as hallucination.
 
 ---
 
-# 288. Failure F02 — False Negative
+## 288. Failure F02 — False Negative
 
 Unsupported output classified as valid.
 
 ---
 
-# 289. Failure F03 — Sybil T2
+## 289. Failure F03 — Sybil T2
 
 Correlated sources treated as independent.
 
 ---
 
-# 290. Failure F04 — Memory Poisoning
+## 290. Failure F04 — Memory Poisoning
 
 False knowledge becomes persistent.
 
 ---
 
-# 291. Failure F05 — Retrieval Failure
+## 291. Failure F05 — Retrieval Failure
 
 Correct L knowledge exists but M fails to retrieve it.
 
 ---
 
-# 292. Failure F06 — H Rigidity
+## 292. Failure F06 — H Rigidity
 
 Over-reduction of exploration damages creativity.
 
 ---
 
-# 293. Failure F07 — H Instability
+## 293. Failure F07 — H Instability
 
 Excess exploration damages reliability.
 
 ---
 
-# 294. Failure F08 — Mutation Thrashing
+## 294. Failure F08 — Mutation Thrashing
 
 Repeated contradictory adaptations consume resources and destabilize state.
 
 ---
 
-# 295. Failure F09 — Fitness Hacking
+## 295. Failure F09 — Fitness Hacking
 
 Mutation optimizes the evaluator rather than the intended objective.
 
 ---
 
-# 296. Failure F10 — Rollback Failure
+## 296. Failure F10 — Rollback Failure
 
 Previous state cannot be restored.
 
 ---
 
-# 297. Failure F11 — Stale Rollback
+## 297. Failure F11 — Stale Rollback
 
 Restored checkpoint contains obsolete assumptions.
 
 ---
 
-# 298. Failure F12 — Provenance Loss
+## 298. Failure F12 — Provenance Loss
 
 System cannot reconstruct why a persistent state exists.
 
 ---
 
-# 299. Failure F13 — Scope Leakage
+## 299. Failure F13 — Scope Leakage
 
 A locally validated mutation is generalized outside its tested scope.
 
 ---
 
-# 300. Failure F14 — Causal Overreach
+## 300. Failure F14 — Causal Overreach
 
 Observed association is encoded as causal knowledge.
 
 ---
 
-# 301. Failure F15 — Governance Mutation
+## 301. Failure F15 — Governance Mutation
 
 System weakens constraints controlling its own evolution.
 
 ---
 
-# 302. Failure F16 — Recursive Self-Corroboration
+## 302. Failure F16 — Recursive Self-Corroboration
 
 ASEA output becomes external-looking evidence and later corroborates itself.
 
 ---
 
-# 303. Failure F17 — Long-Horizon Drift
+## 303. Failure F17 — Long-Horizon Drift
 
 Individually acceptable mutations accumulate into unacceptable global change.
 
 ---
 
-# 304. Failure F18 — Concurrent Conflict
+## 304. Failure F18 — Concurrent Conflict
 
 Parallel mutations overwrite one another.
 
 ---
 
-# 305. Failure F19 — Partial Atomic Mutation
+## 305. Failure F19 — Partial Atomic Mutation
 
 Only part of a coupled mutation commits.
 
 ---
 
-# 306. Failure F20 — Unknown-as-Pass
+## 306. Failure F20 — Unknown-as-Pass
 
 Missing critical evidence is treated as successful validation.
 
 ---
 
-# 307. Failure F21 — Evaluator Drift
+## 307. Failure F21 — Evaluator Drift
 
 The evaluator itself changes over time.
 
 ---
 
-# 308. Failure F22 — Checkpoint Poisoning
+## 308. Failure F22 — Checkpoint Poisoning
 
 Malicious or invalid state is designated as recovery baseline.
 
 ---
 
-# 309. Failure F23 — Provenance Collapse
+## 309. Failure F23 — Provenance Collapse
 
 Many evidence nodes trace back to one source but appear independent.
 
 ---
 
-# 310. Failure F24 — Benchmark Overfitting
+## 310. Failure F24 — Benchmark Overfitting
 
 Evolution optimizes known tests while general capability deteriorates.
 
 ---
 
-# 311. Failure F25 — Repair Loop
+## 311. Failure F25 — Repair Loop
 
 Repair repeatedly recreates the same failed state.
 
 ---
 
-# 312. Failure F26 — Silent Regime Shift
+## 312. Failure F26 — Silent Regime Shift
 
 Environment changes without triggering revalidation.
 
 ---
 
-# 313. Failure F27 — Metric Semantic Drift
+## 313. Failure F27 — Metric Semantic Drift
 
 Meaning of \(E\) or \(\Lambda\) changes while thresholds remain fixed.
 
 ---
 
-# 314. Failure F28 — Cross-Layer Oscillation
+## 314. Failure F28 — Cross-Layer Oscillation
 
 L correction destabilizes M, M correction destabilizes H, and H correction feeds back into L.
 
 ---
 
-# 315. Failure F29 — Excessive Coordination
+## 315. Failure F29 — Excessive Coordination
 
 Global synchronization destroys the efficiency benefit of local evolution.
 
 ---
 
-# 316. Failure F30 — Insufficient Coordination
+## 316. Failure F30 — Insufficient Coordination
 
 Dependent mutations commit independently and violate invariants.
 
 ---
 
-# 317. Core Invariant I01
+## 317. Core Invariant I01
 
 $$
 \boxed{
@@ -4586,7 +4589,7 @@ $$
 
 ---
 
-# 318. I02
+## 318. I02
 
 $$
 \boxed{
@@ -4596,7 +4599,7 @@ $$
 
 ---
 
-# 319. I03
+## 319. I03
 
 $$
 \boxed{
@@ -4606,7 +4609,7 @@ $$
 
 ---
 
-# 320. I04
+## 320. I04
 
 $$
 \boxed{
@@ -4616,7 +4619,7 @@ $$
 
 ---
 
-# 321. I05
+## 321. I05
 
 $$
 \boxed{
@@ -4626,7 +4629,7 @@ $$
 
 ---
 
-# 322. I06
+## 322. I06
 
 $$
 \boxed{
@@ -4636,7 +4639,7 @@ $$
 
 ---
 
-# 323. I07
+## 323. I07
 
 $$
 \boxed{
@@ -4646,7 +4649,7 @@ $$
 
 ---
 
-# 324. I08
+## 324. I08
 
 $$
 \boxed{
@@ -4656,7 +4659,7 @@ $$
 
 ---
 
-# 325. I09
+## 325. I09
 
 $$
 \boxed{
@@ -4666,7 +4669,7 @@ $$
 
 ---
 
-# 326. I10
+## 326. I10
 
 $$
 \boxed{
@@ -4676,7 +4679,7 @@ $$
 
 ---
 
-# 327. I11
+## 327. I11
 
 $$
 \boxed{
@@ -4686,7 +4689,7 @@ $$
 
 ---
 
-# 328. I12
+## 328. I12
 
 $$
 \boxed{
@@ -4696,7 +4699,7 @@ $$
 
 ---
 
-# 329. I13
+## 329. I13
 
 $$
 \boxed{
@@ -4708,7 +4711,7 @@ $$
 
 ---
 
-# 330. I14
+## 330. I14
 
 $$
 \boxed{
@@ -4722,7 +4725,7 @@ as a hardened governance requirement.
 
 ---
 
-# 331. I15
+## 331. I15
 
 $$
 \boxed{
@@ -4734,7 +4737,7 @@ $$
 
 ---
 
-# 332. I16
+## 332. I16
 
 $$
 \boxed{
@@ -4746,7 +4749,7 @@ $$
 
 ---
 
-# 333. I17
+## 333. I17
 
 $$
 \boxed{
@@ -4760,7 +4763,7 @@ until discriminated.
 
 ---
 
-# 334. I18
+## 334. I18
 
 $$
 \boxed{
@@ -4772,7 +4775,7 @@ $$
 
 ---
 
-# 335. I19
+## 335. I19
 
 $$
 \boxed{
@@ -4784,7 +4787,7 @@ $$
 
 ---
 
-# 336. I20
+## 336. I20
 
 $$
 \boxed{
@@ -4796,7 +4799,7 @@ $$
 
 ---
 
-# 337. I21
+## 337. I21
 
 $$
 \boxed{
@@ -4808,7 +4811,7 @@ $$
 
 ---
 
-# 338. I22
+## 338. I22
 
 $$
 \boxed{
@@ -4820,7 +4823,7 @@ $$
 
 ---
 
-# 339. I23
+## 339. I23
 
 $$
 \boxed{
@@ -4832,7 +4835,7 @@ $$
 
 ---
 
-# 340. I24
+## 340. I24
 
 $$
 \boxed{
@@ -4844,7 +4847,7 @@ $$
 
 ---
 
-# 341. I25
+## 341. I25
 
 $$
 \boxed{
@@ -4856,7 +4859,7 @@ $$
 
 ---
 
-# 342. I26
+## 342. I26
 
 $$
 \boxed{
@@ -4868,7 +4871,7 @@ $$
 
 ---
 
-# 343. I27
+## 343. I27
 
 $$
 \boxed{
@@ -4880,7 +4883,7 @@ $$
 
 ---
 
-# 344. I28
+## 344. I28
 
 $$
 \boxed{
@@ -4894,7 +4897,7 @@ not merely newest checkpoint.
 
 ---
 
-# 345. I29
+## 345. I29
 
 $$
 \boxed{
@@ -4906,7 +4909,7 @@ $$
 
 ---
 
-# 346. I30
+## 346. I30
 
 $$
 \boxed{
@@ -4918,7 +4921,7 @@ $$
 
 ---
 
-# 347. ASEA State Machine
+## 347. ASEA State Machine
 
 A hardened state machine can be represented as:
 
@@ -4957,7 +4960,7 @@ ANOMALY?
 
 ---
 
-# 348. Evolution State Machine
+## 348. Evolution State Machine
 
 ```text
 S_t
@@ -4985,7 +4988,7 @@ S_t+1
 
 ---
 
-# 349. Claim State Machine
+## 349. Claim State Machine
 
 ```text
 UNKNOWN
@@ -5003,7 +5006,7 @@ This should **not** be interpreted as automatic promotion. Different claims may 
 
 ---
 
-# 350. No Automatic Promotion
+## 350. No Automatic Promotion
 
 $$
 TimePassed
@@ -5013,7 +5016,7 @@ $$
 
 ---
 
-# 351. Provenance Topology
+## 351. Provenance Topology
 
 ```mermaid
 graph TD
@@ -5037,7 +5040,7 @@ A1 and A2 should not be counted as two independent roots.
 
 ---
 
-# 352. Mutation Provenance Topology
+## 352. Mutation Provenance Topology
 
 ```mermaid
 graph TD
@@ -5057,7 +5060,7 @@ The same ancestry rule applies to mutation evidence.
 
 ---
 
-# 353. RSCF Proof Capsule
+## 353. RSCF Proof Capsule
 
 An important ASEA conclusion can carry:
 
@@ -5086,7 +5089,7 @@ proof_capsule:
 
 ---
 
-# 354. Proof Capsule Reuse
+## 354. Proof Capsule Reuse
 
 A capsule may be reused only while:
 
@@ -5108,7 +5111,7 @@ $$
 
 ---
 
-# 355. Capsule Invalidation
+## 355. Capsule Invalidation
 
 If premise \(P\) fails:
 
@@ -5122,7 +5125,7 @@ Independent capsules remain intact.
 
 ---
 
-# 356. Local Repair of Knowledge
+## 356. Local Repair of Knowledge
 
 This creates:
 
@@ -5136,43 +5139,43 @@ rather than deleting the whole knowledge system.
 
 ---
 
-# 357. Adaptive Complexity
+## 357. Adaptive Complexity
 
 Not every ASEA operation needs maximum validation.
 
 ---
 
-# 358. C0
+## 358. C0
 
 Direct low-risk operation.
 
 ---
 
-# 359. C1
+## 359. C1
 
 Compact validation.
 
 ---
 
-# 360. C2
+## 360. C2
 
 Structured evidence check.
 
 ---
 
-# 361. C3
+## 361. C3
 
 Deep adversarial validation.
 
 ---
 
-# 362. C4
+## 362. C4
 
 Maximum governance.
 
 ---
 
-# 363. Escalation Conditions
+## 363. Escalation Conditions
 
 Increase complexity for:
 
@@ -5186,7 +5189,7 @@ Increase complexity for:
 
 ---
 
-# 364. De-Escalation
+## 364. De-Escalation
 
 Once outcome-changing uncertainty is resolved:
 
@@ -5198,7 +5201,7 @@ to avoid unnecessary computational burden.
 
 ---
 
-# 365. Uncertainty Vector
+## 365. Uncertainty Vector
 
 Instead of one uncertainty number, ASEA can conceptually track:
 
@@ -5227,7 +5230,7 @@ where:
 
 ---
 
-# 366. Why
+## 366. Why
 
 A claim may have strong evidence but uncertain scope.
 
@@ -5237,7 +5240,7 @@ One scalar hides these differences.
 
 ---
 
-# 367. Decision-Relevant Uncertainty
+## 367. Decision-Relevant Uncertainty
 
 ASEA should prioritize uncertainty that can flip the action.
 
@@ -5251,7 +5254,7 @@ only when additional evidence can materially improve the decision enough to just
 
 ---
 
-# 368. Cheapest Discriminating Test
+## 368. Cheapest Discriminating Test
 
 When two hypotheses compete:
 
@@ -5272,13 +5275,13 @@ subject to reasonable cost.
 
 ---
 
-# 369. Avoid Redundant Evidence Accumulation
+## 369. Avoid Redundant Evidence Accumulation
 
 Ten descendants of one source may add less information than one genuinely independent measurement.
 
 ---
 
-# 370. Anti-Regression
+## 370. Anti-Regression
 
 A mutation should be rejected if it improves a narrow metric while weakening:
 
@@ -5292,7 +5295,7 @@ A mutation should be rejected if it improves a narrow metric while weakening:
 
 ---
 
-# 371. Regression Vector
+## 371. Regression Vector
 
 $$
 R(\mu)
@@ -5309,7 +5312,7 @@ $$
 
 ---
 
-# 372. Pareto Improvement
+## 372. Pareto Improvement
 
 Ideal mutation:
 
@@ -5325,13 +5328,13 @@ $$
 
 ---
 
-# 373. But Some Tradeoffs Are Unavoidable
+## 373. But Some Tradeoffs Are Unavoidable
 
 When they are, governance must explicitly authorize the tradeoff rather than letting a hidden scalar fitness function decide.
 
 ---
 
-# 374. Knowledge Harvest
+## 374. Knowledge Harvest
 
 ASEA can distinguish:
 
@@ -5345,25 +5348,25 @@ VALIDATED KNOWLEDGE
 
 ---
 
-# 375. Ephemeral Code
+## 375. Ephemeral Code
 
 Generated code is initially a candidate artifact.
 
 ---
 
-# 376. Persistent Evidence
+## 376. Persistent Evidence
 
 After execution/testing, results can become evidence.
 
 ---
 
-# 377. Validated Knowledge
+## 377. Validated Knowledge
 
 Only after sufficient validation should general conclusions be promoted.
 
 ---
 
-# 378. Documentation Claim
+## 378. Documentation Claim
 
 A README saying:
 
@@ -5379,7 +5382,7 @@ not empirical proof.
 
 ---
 
-# 379. Benchmark Result
+## 379. Benchmark Result
 
 A benchmark result may be an observation within a specific environment.
 
@@ -5387,7 +5390,7 @@ It does not establish universal performance.
 
 ---
 
-# 380. Cross-Domain Transfer
+## 380. Cross-Domain Transfer
 
 A mutation validated in domain \(A\) remains:
 
@@ -5403,7 +5406,7 @@ $$
 
 ---
 
-# 381. Cross-Scale Transfer
+## 381. Cross-Scale Transfer
 
 Likewise:
 
@@ -5417,7 +5420,7 @@ does not establish identical causal dynamics.
 
 ---
 
-# 382. Self-Evolution Safety Envelope
+## 382. Self-Evolution Safety Envelope
 
 A useful conceptual envelope is:
 
@@ -5438,7 +5441,7 @@ $$
 
 ---
 
-# 383. Allowed Evolution
+## 383. Allowed Evolution
 
 $$
 S_t\in\mathcal{E}
@@ -5454,7 +5457,7 @@ before commit.
 
 ---
 
-# 384. Forbidden Mutation
+## 384. Forbidden Mutation
 
 If:
 
@@ -5472,13 +5475,13 @@ regardless of performance gain.
 
 ---
 
-# 385. Repair Versus Evolution
+## 385. Repair Versus Evolution
 
 Self-repair and self-evolution should remain conceptually distinct.
 
 ---
 
-# 386. Repair
+## 386. Repair
 
 Goal:
 
@@ -5488,7 +5491,7 @@ $$
 
 ---
 
-# 387. Evolution
+## 387. Evolution
 
 Goal:
 
@@ -5498,13 +5501,13 @@ $$
 
 ---
 
-# 388. Repair Mutation
+## 388. Repair Mutation
 
 A mutation may be generated specifically to restore previous valid behavior.
 
 ---
 
-# 389. Evolutionary Mutation
+## 389. Evolutionary Mutation
 
 Another mutation may attempt a new capability.
 
@@ -5512,7 +5515,7 @@ These should carry different governance burden.
 
 ---
 
-# 390. Recovery Baseline
+## 390. Recovery Baseline
 
 Repair has a known target:
 
@@ -5524,7 +5527,7 @@ Evolution may not.
 
 ---
 
-# 391. Therefore
+## 391. Therefore
 
 $$
 Risk(Evolution)
@@ -5536,7 +5539,7 @@ under many otherwise comparable conditions.
 
 ---
 
-# 392. Irreversible Mutation
+## 392. Irreversible Mutation
 
 If a change cannot be reliably reversed:
 
@@ -5548,7 +5551,7 @@ validation should increase sharply.
 
 ---
 
-# 393. High-Stakes Domains
+## 393. High-Stakes Domains
 
 If mutation affects:
 
@@ -5562,7 +5565,7 @@ validation burden increases further.
 
 ---
 
-# 394. Human Authority
+## 394. Human Authority
 
 The source's self-evolution concept does not by itself define where human authorization is required.
 
@@ -5570,7 +5573,7 @@ That is a governance gap.
 
 ---
 
-# 395. Governance Question
+## 395. Governance Question
 
 For every mutation class:
 
@@ -5582,7 +5585,7 @@ must be answered before autonomous deployment.
 
 ---
 
-# 396. Proposed Authority Matrix
+## 396. Proposed Authority Matrix
 
 | Mutation             | Candidate generation | Autonomous test | Autonomous commit  |
 | -------------------- | -------------------- | --------------- | ------------------ |
@@ -5598,7 +5601,7 @@ This is a proposed safety architecture.
 
 ---
 
-# 397. Stop Condition
+## 397. Stop Condition
 
 Evolution needs stopping criteria.
 
@@ -5612,19 +5615,19 @@ may waste resources or create drift.
 
 ---
 
-# 398. Claim Sufficiency
+## 398. Claim Sufficiency
 
 Stop reasoning when the claim is adequately supported for its scope.
 
 ---
 
-# 399. Decision Sufficiency
+## 399. Decision Sufficiency
 
 Stop evidence acquisition when remaining uncertainty cannot reasonably change the decision.
 
 ---
 
-# 400. Action Sufficiency
+## 400. Action Sufficiency
 
 Act when:
 
@@ -5635,7 +5638,7 @@ Act when:
 
 ---
 
-# 401. Evolution Sufficiency
+## 401. Evolution Sufficiency
 
 Stop mutating when:
 
@@ -5649,13 +5652,13 @@ conceptually.
 
 ---
 
-# 402. Mutation Debt
+## 402. Mutation Debt
 
 Every persistent mutation can create maintenance debt.
 
 ---
 
-# 403. Debt Sources
+## 403. Debt Sources
 
 - new dependencies;
 - new edge cases;
@@ -5665,7 +5668,7 @@ Every persistent mutation can create maintenance debt.
 
 ---
 
-# 404. Mutation Debt Function
+## 404. Mutation Debt Function
 
 A proposed abstraction:
 
@@ -5681,7 +5684,7 @@ $$
 
 ---
 
-# 405. Unbounded Mutation Debt
+## 405. Unbounded Mutation Debt
 
 If:
 
@@ -5693,7 +5696,7 @@ without bound, evolutionary speed can eventually reduce system reliability.
 
 ---
 
-# 406. Therefore Evolution Rate Must Be Governed
+## 406. Therefore Evolution Rate Must Be Governed
 
 $$
 MutationRate
@@ -5705,7 +5708,7 @@ is a useful derived law.
 
 ---
 
-# 407. Validation Backlog
+## 407. Validation Backlog
 
 If:
 
@@ -5719,19 +5722,19 @@ candidate debt accumulates.
 
 ---
 
-# 408. Safe Response
+## 408. Safe Response
 
 Throttle mutation generation.
 
 ---
 
-# 409. Provenance Backlog
+## 409. Provenance Backlog
 
 No mutation should become persistent merely because provenance processing is delayed.
 
 ---
 
-# 410. Proof-Based Coordination Avoidance
+## 410. Proof-Based Coordination Avoidance
 
 Not every mutation requires consensus across the whole system.
 
@@ -5745,7 +5748,7 @@ then local validation may suffice.
 
 ---
 
-# 411. But Independence Must Be Demonstrated
+## 411. But Independence Must Be Demonstrated
 
 $$
 NoKnownDependency
@@ -5755,7 +5758,7 @@ $$
 
 ---
 
-# 412. Escalate When
+## 412. Escalate When
 
 - ancestry overlaps;
 - causal coupling exists;
@@ -5765,13 +5768,13 @@ $$
 
 ---
 
-# 413. Local Finalization
+## 413. Local Finalization
 
 A mutation can be finalized locally only if its validity does not depend on unresolved remote state.
 
 ---
 
-# 414. Local Finality ≠ Global Truth
+## 414. Local Finality ≠ Global Truth
 
 It only means:
 
@@ -5781,7 +5784,7 @@ $$
 
 ---
 
-# 415. Source-Defined Healthy State Versus Governance Health
+## 415. Source-Defined Healthy State Versus Governance Health
 
 The source's `Healthy` predicate covers:
 
@@ -5798,7 +5801,7 @@ but not explicitly:
 
 ---
 
-# 416. Therefore Hardened Health Is Broader
+## 416. Therefore Hardened Health Is Broader
 
 A derived predicate:
 
@@ -5818,13 +5821,13 @@ $$
 
 ---
 
-# 417. This Is an Extension
+## 417. This Is an Extension
 
 Do not rewrite the original source Healthy equation as though it included these extra terms.
 
 ---
 
-# 418. Source Fidelity Rule
+## 418. Source Fidelity Rule
 
 Always preserve:
 
@@ -5840,7 +5843,7 @@ $$
 
 ---
 
-# 419. Hallucination Rule Versus Epistemic Validation
+## 419. Hallucination Rule Versus Epistemic Validation
 
 Likewise preserve:
 
@@ -5852,7 +5855,7 @@ separately from a broader claim-validation architecture.
 
 ---
 
-# 420. Unknown Must Remain Unknown
+## 420. Unknown Must Remain Unknown
 
 If the source does not define a variable:
 
@@ -5866,7 +5869,7 @@ not fluent reconstruction.
 
 ---
 
-# 421. Critical Gap — Entropy Binding
+## 421. Critical Gap — Entropy Binding
 
 Need:
 
@@ -5877,7 +5880,7 @@ Need:
 
 ---
 
-# 422. Critical Gap — Lacunarity Binding
+## 422. Critical Gap — Lacunarity Binding
 
 Need:
 
@@ -5888,7 +5891,7 @@ Need:
 
 ---
 
-# 423. Critical Gap — Threshold Evidence
+## 423. Critical Gap — Threshold Evidence
 
 Need empirical justification for:
 
@@ -5898,121 +5901,121 @@ $$
 
 ---
 
-# 424. Critical Gap — T2 Independence
+## 424. Critical Gap — T2 Independence
 
 Need a formal provenance-independence test.
 
 ---
 
-# 425. Critical Gap — Fitness
+## 425. Critical Gap — Fitness
 
 Need explicit survival function.
 
 ---
 
-# 426. Critical Gap — Mutation Authority
+## 426. Critical Gap — Mutation Authority
 
 Need mutation permissions by class.
 
 ---
 
-# 427. Critical Gap — Protected State
+## 427. Critical Gap — Protected State
 
 Need explicit specification of what ordinary mutations may never alter.
 
 ---
 
-# 428. Critical Gap — Runtime Binding
+## 428. Critical Gap — Runtime Binding
 
 The source describes architecture but does not independently establish a deployed runtime implementing all mechanisms.
 
 ---
 
-# 429. Critical Gap — Long-Horizon Stability
+## 429. Critical Gap — Long-Horizon Stability
 
 Need evidence across many mutation generations.
 
 ---
 
-# 430. Decision-Relevant Gap — Checkpoint Semantics
+## 430. Decision-Relevant Gap — Checkpoint Semantics
 
 Need checkpoint creation and validity rules.
 
 ---
 
-# 431. Decision-Relevant Gap — Concurrency
+## 431. Decision-Relevant Gap — Concurrency
 
 Need behavior for parallel mutations.
 
 ---
 
-# 432. Decision-Relevant Gap — Atomicity
+## 432. Decision-Relevant Gap — Atomicity
 
 Need rules for coupled multi-component mutations.
 
 ---
 
-# 433. Decision-Relevant Gap — Regime Detection
+## 433. Decision-Relevant Gap — Regime Detection
 
 Need a method for detecting environmental changes that invalidate prior conclusions.
 
 ---
 
-# 434. Explanatory Gap — 40 Hz
+## 434. Explanatory Gap — 40 Hz
 
 Need explicit computational meaning and empirical justification.
 
 ---
 
-# 435. Explanatory Gap — Biological Analogy
+## 435. Explanatory Gap — Biological Analogy
 
 Need explicit mapping between biological and computational variables.
 
 ---
 
-# 436. Explanatory Gap — “Natural Selection”
+## 436. Explanatory Gap — “Natural Selection”
 
 Need formal definition of population, generation, variation, selection, inheritance, and fitness.
 
 ---
 
-# 437. Source Claim — Current AI Comparison
+## 437. Source Claim — Current AI Comparison
 
 Requires time-bounded empirical comparison before being treated as current fact.
 
 ---
 
-# 438. Source Claim — Hallucination Repair
+## 438. Source Claim — Hallucination Repair
 
 Requires benchmark validation.
 
 ---
 
-# 439. Source Claim — Lifelong Learning
+## 439. Source Claim — Lifelong Learning
 
 Requires long-horizon testing.
 
 ---
 
-# 440. Source Claim — Catastrophic Forgetting Reduction
+## 440. Source Claim — Catastrophic Forgetting Reduction
 
 Requires controlled comparison.
 
 ---
 
-# 441. Source Claim — Explainability
+## 441. Source Claim — Explainability
 
 Requires explicit definition and measurement.
 
 ---
 
-# 442. Source Claim — Self-Evolution Advantage
+## 442. Source Claim — Self-Evolution Advantage
 
 Requires baseline-normalized evaluation.
 
 ---
 
-# 443. Proof Capsule: ASEA Identity
+## 443. Proof Capsule: ASEA Identity
 
 ```yaml
 claim:
@@ -6033,7 +6036,7 @@ falsifier:
 
 ---
 
-# 444. Proof Capsule: L/M/H
+## 444. Proof Capsule: L/M/H
 
 ```yaml
 claim:
@@ -6051,7 +6054,7 @@ scope:
 
 ---
 
-# 445. Proof Capsule: Evolution Equation
+## 445. Proof Capsule: Evolution Equation
 
 ```yaml
 claim:
@@ -6069,7 +6072,7 @@ empirical_effectiveness:
 
 ---
 
-# 446. Proof Capsule: Hallucination Threshold
+## 446. Proof Capsule: Hallucination Threshold
 
 ```yaml
 claim:
@@ -6087,7 +6090,7 @@ universal_validity:
 
 ---
 
-# 447. Proof Capsule: Mutation Governance
+## 447. Proof Capsule: Mutation Governance
 
 ```yaml
 claim:
@@ -6107,7 +6110,7 @@ invalidation:
 
 ---
 
-# 448. Proof Capsule: Provenance Independence
+## 448. Proof Capsule: Provenance Independence
 
 ```yaml
 claim:
@@ -6126,7 +6129,7 @@ falsifier:
 
 ---
 
-# 449. Machine-Readable ASEA Core
+## 449. Machine-Readable ASEA Core
 
 ```yaml
 ASEA:
@@ -6173,7 +6176,7 @@ ASEA:
 
 ---
 
-# 450. Machine-Readable Healthy Rule
+## 450. Machine-Readable Healthy Rule
 
 ```yaml
 source_healthy_predicate:
@@ -6205,7 +6208,7 @@ source_healthy_predicate:
 
 ---
 
-# 451. Machine-Readable Hallucination Rule
+## 451. Machine-Readable Hallucination Rule
 
 ```yaml
 source_hallucination_predicate:
@@ -6225,7 +6228,7 @@ source_hallucination_predicate:
 
 ---
 
-# 452. Hardened Mutation Contract
+## 452. Hardened Mutation Contract
 
 ```yaml
 mutation_contract:
@@ -6260,7 +6263,7 @@ mutation_contract:
 
 ---
 
-# 453. Hardened Survival Contract
+## 453. Hardened Survival Contract
 
 ```yaml
 survival_contract:
@@ -6285,7 +6288,7 @@ survival_contract:
 
 ---
 
-# 454. Obsidian Atomic Note — ASEA Core
+## 454. Obsidian Atomic Note — ASEA Core
 
 ```markdown
 ---
@@ -6294,7 +6297,7 @@ type: framework
 epistemic_class: AMOS_MODEL
 ---
 
-# Trang ASEA Core
+## Trang ASEA Core
 
 Core source equation:
 
@@ -6329,10 +6332,10 @@ $$
 
 ---
 
-# 455. Obsidian Atomic Note — L
+## 455. Obsidian Atomic Note — L
 
 ```markdown
-# ASEA — L
+## ASEA — L
 
 L is the persistent foundational layer.
 
@@ -6351,10 +6354,10 @@ Persistent != True
 
 ---
 
-# 456. Obsidian Atomic Note — M
+## 456. Obsidian Atomic Note — M
 
 ```markdown
-# ASEA — M
+## ASEA — M
 
 M is the adaptive coordination layer.
 
@@ -6374,10 +6377,10 @@ Retrieval != Truth
 
 ---
 
-# 457. Obsidian Atomic Note — H
+## 457. Obsidian Atomic Note — H
 
 ```markdown
-# ASEA — H
+## ASEA — H
 
 H is the generative/exploratory layer.
 
@@ -6396,10 +6399,10 @@ Proposal != Execution
 
 ---
 
-# 458. Obsidian Atomic Note — T2
+## 458. Obsidian Atomic Note — T2
 
 ```markdown
-# ASEA — T2
+## ASEA — T2
 
 T2 is the source-defined validation mechanism.
 
@@ -6414,10 +6417,10 @@ Evidence ancestry must be checked before corroboration is counted.
 
 ---
 
-# 459. Obsidian Atomic Note — Mutation
+## 459. Obsidian Atomic Note — Mutation
 
 ```markdown
-# ASEA — Mutation
+## ASEA — Mutation
 
 $$
 \mu(ASEA_t)
@@ -6434,10 +6437,10 @@ A mutation remains noncanonical until validation and authorization succeed.
 
 ---
 
-# 460. Obsidian Atomic Note — Survival
+## 460. Obsidian Atomic Note — Survival
 
 ```markdown
-# ASEA — Survival
+## ASEA — Survival
 
 $$
 \sigma(\mu(ASEA_t))
@@ -6450,10 +6453,10 @@ The complete source fitness function remains UNKNOWN/GAP.
 
 ---
 
-# 461. Obsidian Atomic Note — Recovery
+## 461. Obsidian Atomic Note — Recovery
 
 ```markdown
-# ASEA — Recovery
+## ASEA — Recovery
 
 Preferred recovery hierarchy:
 
@@ -6468,9 +6471,9 @@ Global reset is a last resort when local recovery cannot preserve integrity.
 
 ---
 
-# 462. Dataview — ASEA
+## 462. Dataview — ASEA
 
-```dataview
+```text
 TABLE
   type,
   source,
@@ -6482,9 +6485,9 @@ SORT file.name ASC
 
 ---
 
-# 463. Dataview — RSCF Source Claims
+## 463. Dataview — RSCF Source Claims
 
-```dataview
+```text
 TABLE
   source,
   rscf.provenance,
@@ -6496,7 +6499,7 @@ SORT file.name ASC
 
 ---
 
-# 464. Core Knowledge Graph
+## 464. Core Knowledge Graph
 
 ```mermaid
 graph TD
@@ -6545,7 +6548,7 @@ graph TD
 
 ---
 
-# 465. Canonical Runtime Graph
+## 465. Canonical Runtime Graph
 
 ```mermaid
 flowchart TD
@@ -6592,7 +6595,7 @@ flowchart TD
 
 ---
 
-# 466. Final RSCF Node
+## 466. Final RSCF Node
 
 ```yaml
 RSCF_NODE:
@@ -6668,7 +6671,7 @@ RSCF_NODE:
 
 ---
 
-# 467. RSCF Relations
+## 467. RSCF Relations
 
 ```yaml
 RSCF_RELATIONS:
@@ -6690,7 +6693,7 @@ The `PROPOSED_COMPOSITION` entries are derived vault augmentation, not source-de
 
 ---
 
-# 468. Canonical Source Laws
+## 468. Canonical Source Laws
 
 The source-level framework can be compressed into these equations.
 
@@ -6752,7 +6755,7 @@ These equations are **source-defined model rules**. Their presence does not by i
 
 ---
 
-# 469. Hardened ASEA Laws
+## 469. Hardened ASEA Laws
 
 The v4.4-compatible extension adds:
 
@@ -6846,7 +6849,7 @@ $$
 
 ---
 
-# 470. Hardened Full Equation
+## 470. Hardened Full Equation
 
 The source equation:
 
@@ -6916,7 +6919,7 @@ $$
 
 ---
 
-# 471. Complete Operational Compression
+## 471. Complete Operational Compression
 
 ```text
 OBSERVE
@@ -6960,7 +6963,7 @@ HEALTHY?
 
 ---
 
-# 472. Final Epistemic Assessment
+## 472. Final Epistemic Assessment
 
 ### SOURCE-GROUNDED
 
@@ -7022,7 +7025,7 @@ The supplied source does not independently establish:
 
 ---
 
-# 473. Canonical Proof Capsule
+## 473. Canonical Proof Capsule
 
 ```yaml
 proof_capsule:
@@ -7065,7 +7068,7 @@ proof_capsule:
 
 ---
 
-# 474. Final Canonical Definition
+## 474. Final Canonical Definition
 
 **Trang Adaptive Self-Evolution AI (ASEA)** is a source-defined architecture for building an AI that maintains a persistent foundation \(L\), adapts through a mediating coordination layer \(M\), explores and generates through \(H\), monitors its operating state through entropy \(E\), lacunarity \(\Lambda\), and T2 validation, repairs unhealthy states, generates candidate self-modifications through mutation \(\mu\), and retains selected changes through survival \(\sigma\).
 

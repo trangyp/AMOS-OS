@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: 10 Routing MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/10_ROUTING
 tags:
-- 10-routing
-- domain/cognitive-matrix
-- binding-rules
-- routing-audit
-- routing-policy
+  - 10-routing
+  - domain/cognitive-matrix
+  - binding-rules
+  - routing-audit
+  - routing-policy
 moc: true
 rscf:
   state: DERIVED
@@ -33,5 +36,6 @@ rscf:
 
 - [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]] — 00_INDEX
 
----
+______________________________________________________________________
+
 **Parent:** [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]

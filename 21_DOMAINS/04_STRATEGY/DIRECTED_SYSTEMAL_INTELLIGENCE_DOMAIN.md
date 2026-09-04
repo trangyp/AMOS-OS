@@ -12,18 +12,18 @@ segment: 21_DOMAINS/04_STRATEGY
 artifact_kind: DOMAIN_ENGINE
 path: 21_DOMAINS/04_STRATEGY/DIRECTED_SYSTEMAL_INTELLIGENCE_DOMAIN.md
 tags:
-- amos-os
-- domain
-- vault
-- 04_strategy
-- directed_systemal_intelligence_domain
-- teleological_navigation
-- dynamic_trajectory_steering
-- rscf
-- canon_candidate
-- canon/domain
-- directed-systemal-intelligence
-- tss-domain-model
+  - amos-os
+  - domain
+  - vault
+  - 04_strategy
+  - directed_systemal_intelligence_domain
+  - teleological_navigation
+  - dynamic_trajectory_steering
+  - rscf
+  - canon_candidate
+  - canon/domain
+  - directed-systemal-intelligence
+  - tss-domain-model
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -38,20 +38,20 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - 11_KNOWLEDGE/05_FRAMEWORKS/DIRECTED_SYSTEMAL_INTELLIGENCE
-  - 21_DOMAINS/04_STRATEGY/04_STRATEGY_MOC
-  - AMOS_CORPUS
+    - 11_KNOWLEDGE/05_FRAMEWORKS/DIRECTED_SYSTEMAL_INTELLIGENCE
+    - 21_DOMAINS/04_STRATEGY/04_STRATEGY_MOC
+    - AMOS_CORPUS
   scope:
-  - DOMAIN_STRATEGY
-  - DSI_ENGINE
-  - SOURCE_DEFINED_MODEL
+    - DOMAIN_STRATEGY
+    - DSI_ENGINE
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   dsi_framework:
     artifact:
-    - - DIRECTED_SYSTEMAL_INTELLIGENCE
+      -   - DIRECTED_SYSTEMAL_INTELLIGENCE
   strategy_moc:
     artifact:
-    - - 04_STRATEGY_MOC
+      -   - 04_STRATEGY_MOC
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   domain_structure: VERIFIED_SOURCE_STRUCTURE
@@ -63,25 +63,25 @@ epistemic_boundary:
 
 `DIRECTED_SYSTEMAL_INTELLIGENCE_DOMAIN.md` is the canonical Domain Plane specification governing the teleological steering, dynamic path optimization, and multi-objective trajectory alignment within `21_DOMAINS/04_STRATEGY`.
 
----
+______________________________________________________________________
 
-# 1. DSI Steering Mechanics
+## 1. DSI Steering Mechanics
 
 1. **Teleological Vector Field ($\vec{T}$):** Defines systemic attractor basins representing desired long-term macro equilibrium states.
-2. **Dynamic Resistance Compensation:** Evaluates environmental drag ($S$) and internal friction ($F$), computing optimal steering vectors.
-3. **Decoupled Strategic Trajectories:** Re-routes agent populations around structural collapse hazards without compromising overarching mission goals.
+1. **Dynamic Resistance Compensation:** Evaluates environmental drag ($S$) and internal friction ($F$), computing optimal steering vectors.
+1. **Decoupled Strategic Trajectories:** Re-routes agent populations around structural collapse hazards without compromising overarching mission goals.
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **DSI Framework:** [[11_KNOWLEDGE/05_FRAMEWORKS/DIRECTED_SYSTEMAL_INTELLIGENCE|DIRECTED_SYSTEMAL_INTELLIGENCE]]
 - **Strategy MOC:** 04_STRATEGY_MOC
 - **TSS Domain:** [[21_DOMAINS/04_STRATEGY/TSS_DOMAIN_MODEL|TSS_DOMAIN_MODEL]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -99,10 +99,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[21_DOMAINS/21_DOMAINS_MOC|21_DOMAINS_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/DIRECTED_SYSTEMAL_INTELLIGENCE|DIRECTED_SYSTEMAL_INTELLIGENCE]] · [[21_DOMAINS/04_STRATEGY/TSS_DOMAIN_MODEL|TSS_DOMAIN_MODEL]]
 
----
-**MOC:** 04_STRATEGY_MOC
+______________________________________________________________________
 
+**MOC:** 04_STRATEGY_MOC

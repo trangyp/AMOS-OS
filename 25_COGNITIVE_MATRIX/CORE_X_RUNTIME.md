@@ -12,50 +12,50 @@ segment: 25_COGNITIVE_MATRIX
 artifact_kind: MATRIX
 path: 25_COGNITIVE_MATRIX/CORE_X_RUNTIME.md
 tags:
-- amos-os
-- cognitive-matrix
-- vault
-- core_x_runtime
-- runtime_execution
-- deterministic_loop
-- deterministic_reasoning_cycle
-- input_telemetry_ingestion
-- verified_commit_dispatch
-- reality_gate
-- canonical_laws
-- runtime_integration
-- state_transition
-- proof_capsule
-- provenance
-- dependency_closure
-- scope
-- regime
-- freshness
-- causal_epoch
-- mvcc
-- cas
-- atomic_multi_rscf
-- local_finalization
-- proof_based_coordination_avoidance
-- failure_recovery
-- rscf
-- canon_candidate
-- canon/matrix
-- core-x-runtime-matrix
-- integration
-- validation
-- canon
-- k-rscf
-- k-hml
-- k-gmef
-- k-provenance
-- k-provenance-topology
-- k-failure-recovery
-- k-causal-epoch
-- k-mvcc
-- k-cas
-- k-atomic-multi-rscf
-- amos-core-v4-4
+  - amos-os
+  - cognitive-matrix
+  - vault
+  - core_x_runtime
+  - runtime_execution
+  - deterministic_loop
+  - deterministic_reasoning_cycle
+  - input_telemetry_ingestion
+  - verified_commit_dispatch
+  - reality_gate
+  - canonical_laws
+  - runtime_integration
+  - state_transition
+  - proof_capsule
+  - provenance
+  - dependency_closure
+  - scope
+  - regime
+  - freshness
+  - causal_epoch
+  - mvcc
+  - cas
+  - atomic_multi_rscf
+  - local_finalization
+  - proof_based_coordination_avoidance
+  - failure_recovery
+  - rscf
+  - canon_candidate
+  - canon/matrix
+  - core-x-runtime-matrix
+  - integration
+  - validation
+  - canon
+  - k-rscf
+  - k-hml
+  - k-gmef
+  - k-provenance
+  - k-provenance-topology
+  - k-failure-recovery
+  - k-causal-epoch
+  - k-mvcc
+  - k-cas
+  - k-atomic-multi-rscf
+  - amos-core-v4-4
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -72,25 +72,25 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - 01_CANON/01_CANON_MOC
-  - 04_RUNTIME/04_RUNTIME_MOC
-  - AMOS_CORPUS
+    - 01_CANON/01_CANON_MOC
+    - 04_RUNTIME/04_RUNTIME_MOC
+    - AMOS_CORPUS
   scope:
-  - COGNITIVE_MATRIX
-  - RUNTIME_INTEGRATION
-  - CORE_RUNTIME_INTERFACE
-  - SOURCE_DEFINED_MODEL
+    - COGNITIVE_MATRIX
+    - RUNTIME_INTEGRATION
+    - CORE_RUNTIME_INTERFACE
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   matrix_counterpart:
     artifact:
-    - - CORE_X_RUNTIME_MATRIX
+      -   - CORE_X_RUNTIME_MATRIX
   runtime_moc:
     artifact: 04_RUNTIME/04_RUNTIME_MOC
   canon_moc:
     artifact: 01_CANON/01_CANON_MOC
   cognitive_matrix:
     artifact:
-    - - 25_COGNITIVE_MATRIX_MOC
+      -   - 25_COGNITIVE_MATRIX_MOC
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   matrix_structure: VERIFIED_SOURCE_STRUCTURE
@@ -110,7 +110,7 @@ epistemic_boundary:
 
 `CORE_X_RUNTIME.md` is the source-defined AMOS Cognitive Matrix specification governing the interface between:
 
-```text
+````text
 01_CANON
 Foundational Laws
 
@@ -119,7 +119,7 @@ and:
 ```text
 04_RUNTIME
 Deterministic Execution Engine
-```
+````
 
 The source defines a three-part execution mesh:
 
@@ -152,9 +152,9 @@ The artifact therefore specifies a conceptual Core-to-Runtime execution interfac
 
 It does **not**, by itself, establish that the corresponding runtime pipeline, Reality Gate, seven-phase loop, signature mechanism, or state-transition machinery is executable, deployed, empirically validated, or formally verified.
 
----
+______________________________________________________________________
 
-# 0. Epistemic Boundary
+## 0. Epistemic Boundary
 
 The supplied source directly establishes:
 
@@ -244,9 +244,9 @@ NamedVerifiedCommit
 IndependentlyVerifiedCommit
 $$
 
----
+______________________________________________________________________
 
-# 1. Source-Defined Execution Mesh
+## 1. Source-Defined Execution Mesh
 
 ```text
                ┌────────────────────────────────────────────────────────┐
@@ -264,9 +264,9 @@ INPUT TELEMETRY INGESTION          DETERMINISTIC REASONING CYCLE      VERIFIED C
 
 This structure is directly source-grounded.
 
----
+______________________________________________________________________
 
-# 2. Execution Mesh Primitives
+## 2. Execution Mesh Primitives
 
 The source explicitly establishes three primitives:
 
@@ -302,9 +302,9 @@ $$
 
 This set notation is a derived normalization of the source.
 
----
+______________________________________________________________________
 
-# 3. Primitive Contract
+## 3. Primitive Contract
 
 Each primitive can be represented conceptually as:
 
@@ -324,9 +324,9 @@ The source does not provide complete values for every tuple field.
 
 Therefore missing fields remain unresolved rather than inferred as canon.
 
----
+______________________________________________________________________
 
-# 4. Core-to-Runtime Interface
+## 4. Core-to-Runtime Interface
 
 The source states that the matrix governs the interface between:
 
@@ -358,9 +358,9 @@ This establishes architectural linkage.
 
 It does not establish literal executable invocation semantics.
 
----
+______________________________________________________________________
 
-# 5. Canon-to-Execution Boundary
+## 5. Canon-to-Execution Boundary
 
 The artifact describes the role of the matrix as governing:
 
@@ -381,9 +381,9 @@ $$
 
 because runtime correctness additionally depends on implementation, inputs, state, scope, and applicable validation.
 
----
+______________________________________________________________________
 
-# 6. Canon Preservation Principle
+## 6. Canon Preservation Principle
 
 A compatible derived constraint is:
 
@@ -397,9 +397,9 @@ Runtime execution should remain subordinate to applicable canonical constraints.
 
 This is an AMOS-compatible derived interpretation of the Core-to-Runtime interface, not a new source quotation.
 
----
+______________________________________________________________________
 
-# 7. Input Telemetry Ingestion
+## 7. Input Telemetry Ingestion
 
 The first source-defined primitive is:
 
@@ -427,9 +427,9 @@ RealityGateValidation
 \rangle
 $$
 
----
+______________________________________________________________________
 
-# 8. Telemetry Boundary
+## 8. Telemetry Boundary
 
 The source explicitly names:
 
@@ -469,9 +469,9 @@ PHYSICAL SENSOR IMPLEMENTATION:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 9. Prompt Boundary
+## 9. Prompt Boundary
 
 The source explicitly names:
 
@@ -501,9 +501,9 @@ PROMPT CONFLICT RESOLUTION
 
 These remain dependencies of any executable interpretation.
 
----
+______________________________________________________________________
 
-# 10. Input-Type Separation
+## 10. Input-Type Separation
 
 A sensor reading and a prompt are not necessarily the same epistemic type.
 
@@ -527,9 +527,9 @@ Input
 AutomaticallyVerifiedEvidence
 $$
 
----
+______________________________________________________________________
 
-# 11. Reality Gate Validation
+## 11. Reality Gate Validation
 
 The source explicitly associates ingestion with:
 
@@ -541,9 +541,9 @@ This establishes the Reality Gate as a source-defined validation element.
 
 It does not establish its algorithm or empirical reliability.
 
----
+______________________________________________________________________
 
-# 12. Reality Gate Boundary
+## 12. Reality Gate Boundary
 
 Current classification:
 
@@ -567,9 +567,9 @@ FORMAL SOUNDNESS:
 NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 13. Reality Gate Epistemic Firewall
+## 13. Reality Gate Epistemic Firewall
 
 A value passing a source-defined Reality Gate should not automatically be reclassified as universally verified.
 
@@ -583,9 +583,9 @@ $$
 
 unless the applicable validation semantics establish the exact claim.
 
----
+______________________________________________________________________
 
-# 14. Ingestion Provenance
+## 14. Ingestion Provenance
 
 A derived robust ingestion contract should preserve:
 
@@ -613,9 +613,9 @@ CORRELATION / ANCESTRY
 
 where these materially affect downstream conclusions.
 
----
+______________________________________________________________________
 
-# 15. Ingestion RSCF
+## 15. Ingestion RSCF
 
 ```yaml
 RSCF:
@@ -655,9 +655,9 @@ RSCF:
       UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 16. Ingestion Proof Capsule
+## 16. Ingestion Proof Capsule
 
 ```yaml
 Proof_Capsule:
@@ -692,9 +692,9 @@ Proof_Capsule:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 17. Deterministic Reasoning Cycle
+## 17. Deterministic Reasoning Cycle
 
 The second primitive is:
 
@@ -721,9 +721,9 @@ Intake\rightarrow Reflect
 \rangle
 $$
 
----
+______________________________________________________________________
 
-# 18. Seven-Phase Loop Boundary
+## 18. Seven-Phase Loop Boundary
 
 The source establishes:
 
@@ -752,9 +752,9 @@ COMPLETE PHASE LIST:
 UNKNOWN FROM THIS ARTIFACT ALONE
 ```
 
----
+______________________________________________________________________
 
-# 19. No Invented Phase Names
+## 19. No Invented Phase Names
 
 The artifact must not be expanded into an invented sequence such as:
 
@@ -772,9 +772,9 @@ unless the authoritative Runtime source provides those intermediate phases.
 
 This is a critical anti-fabrication constraint.
 
----
+______________________________________________________________________
 
-# 20. Intake Boundary
+## 20. Intake Boundary
 
 The source names:
 
@@ -796,9 +796,9 @@ FORMAL SEMANTICS:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 21. Reflect Boundary
+## 21. Reflect Boundary
 
 The source names:
 
@@ -820,9 +820,9 @@ FORMAL SEMANTICS:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 22. Determinism Scope Firewall
+## 22. Determinism Scope Firewall
 
 The term:
 
@@ -860,9 +860,9 @@ ENVIRONMENTAL STATE
 
 unless independently validated.
 
----
+______________________________________________________________________
 
-# 23. Determinism vs Correctness
+## 23. Determinism vs Correctness
 
 Even a perfectly deterministic function:
 
@@ -894,9 +894,9 @@ Repeatability
 EpistemicValidity
 $$
 
----
+______________________________________________________________________
 
-# 24. Deterministic Cycle Contract
+## 24. Deterministic Cycle Contract
 
 ```yaml
 Deterministic_Reasoning_Cycle:
@@ -920,9 +920,9 @@ Deterministic_Reasoning_Cycle:
     NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 25. Reasoning-Cycle RSCF
+## 25. Reasoning-Cycle RSCF
 
 ```yaml
 RSCF:
@@ -961,9 +961,9 @@ RSCF:
       UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 26. Reasoning-Cycle Proof Capsule
+## 26. Reasoning-Cycle Proof Capsule
 
 ```yaml
 Proof_Capsule:
@@ -997,9 +997,9 @@ Proof_Capsule:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 27. Verified Commit Dispatch
+## 27. Verified Commit Dispatch
 
 The third primitive is:
 
@@ -1025,9 +1025,9 @@ S_{t+1}
 \rangle
 $$
 
----
+______________________________________________________________________
 
-# 28. Verified Label Boundary
+## 28. Verified Label Boundary
 
 The word:
 
@@ -1049,9 +1049,9 @@ validation_status:
 NOT_INDEPENDENTLY_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 29. Commit Boundary
+## 29. Commit Boundary
 
 The source uses:
 
@@ -1081,9 +1081,9 @@ EXTERNAL EFFECT BOUNDARY
 
 Therefore exact commit semantics remain unresolved.
 
----
+______________________________________________________________________
 
-# 30. Dispatch Boundary
+## 30. Dispatch Boundary
 
 The source uses:
 
@@ -1102,9 +1102,9 @@ DISPATCH TARGET:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 31. Signed State Transition
+## 31. Signed State Transition
 
 The source explicitly states:
 
@@ -1116,9 +1116,9 @@ This establishes the term and symbol.
 
 It does not establish the signature mechanism.
 
----
+______________________________________________________________________
 
-# 32. Signature Boundary
+## 32. Signature Boundary
 
 The word:
 
@@ -1152,9 +1152,9 @@ SIGNATURE VERIFICATION
 
 Therefore no specific cryptographic mechanism should be inferred.
 
----
+______________________________________________________________________
 
-# 33. State Transition Boundary
+## 33. State Transition Boundary
 
 The source explicitly identifies:
 
@@ -1186,9 +1186,9 @@ $$
 
 not source-verbatim formalism.
 
----
+______________________________________________________________________
 
-# 34. State Identity Gap
+## 34. State Identity Gap
 
 The artifact does not specify whether:
 
@@ -1221,9 +1221,9 @@ S_t SEMANTICS:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 35. Commit Dispatch Contract
+## 35. Commit Dispatch Contract
 
 ```yaml
 Verified_Commit_Dispatch:
@@ -1250,9 +1250,9 @@ Verified_Commit_Dispatch:
     NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 36. Commit RSCF
+## 36. Commit RSCF
 
 ```yaml
 RSCF:
@@ -1288,9 +1288,9 @@ RSCF:
       UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 37. Commit Proof Capsule
+## 37. Commit Proof Capsule
 
 ```yaml
 Proof_Capsule:
@@ -1325,9 +1325,9 @@ Proof_Capsule:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 38. Execution Mesh Normalization
+## 38. Execution Mesh Normalization
 
 The source can be normalized conceptually as:
 
@@ -1359,9 +1359,9 @@ $$
 
 This sequence is a derived linearization of the three source primitives.
 
----
+______________________________________________________________________
 
-# 39. Parallel-Diagram Boundary
+## 39. Parallel-Diagram Boundary
 
 The source diagram visually places the three primitives beneath a shared execution mesh.
 
@@ -1381,9 +1381,9 @@ CONCURRENTLY
 
 Therefore the exact scheduling semantics remain unknown.
 
----
+______________________________________________________________________
 
-# 40. Pipeline Interpretation
+## 40. Pipeline Interpretation
 
 A sequential:
 
@@ -1403,9 +1403,9 @@ DERIVED
 
 rather than source-verified scheduling semantics.
 
----
+______________________________________________________________________
 
-# 41. Matrix Counterpart
+## 41. Matrix Counterpart
 
 The source explicitly links:
 
@@ -1431,9 +1431,9 @@ SELECTED RUNTIME STAGE ROUTES
 
 The two artifacts are complementary but non-identical.
 
----
+______________________________________________________________________
 
-# 42. Specification vs Matrix Table
+## 42. Specification vs Matrix Table
 
 `CORE_X_RUNTIME.md` defines the execution-mesh specification.
 
@@ -1455,9 +1455,9 @@ CORE\_X\_RUNTIME
 CORE\_X\_RUNTIME\_MATRIX
 $$
 
----
+______________________________________________________________________
 
-# 43. Cross-Artifact Binding
+## 43. Cross-Artifact Binding
 
 Using the supplied counterpart matrix, the two artifacts can be aligned conceptually:
 
@@ -1481,9 +1481,9 @@ No one-to-one mapping between the three primitives and four stages is explicitly
 
 Therefore such a mapping must not be invented.
 
----
+______________________________________________________________________
 
-# 44. Primitive-to-Stage Mapping Gap
+## 44. Primitive-to-Stage Mapping Gap
 
 The source does **not** explicitly establish:
 
@@ -1503,9 +1503,9 @@ VERIFIED COMMIT DISPATCH
 
 Some associations may be architecturally plausible, but they remain unverified without the governing Runtime source.
 
----
+______________________________________________________________________
 
-# 45. Deterministic Engine Relationship
+## 45. Deterministic Engine Relationship
 
 The counterpart matrix identifies:
 
@@ -1539,9 +1539,9 @@ Therefore the relationship remains:
 DERIVED / REQUIRES BINDING
 ```
 
----
+______________________________________________________________________
 
-# 46. Finalizer / Commit Relationship
+## 46. Finalizer / Commit Relationship
 
 The counterpart matrix identifies:
 
@@ -1571,9 +1571,9 @@ is not explicitly established.
 
 Preserve the distinction until a binding source resolves it.
 
----
+______________________________________________________________________
 
-# 47. Reality Gate / Router Relationship
+## 47. Reality Gate / Router Relationship
 
 The specification names:
 
@@ -1598,9 +1598,9 @@ REALITY_GATE ↔ ROUTER
 
 remains an unresolved architectural relationship.
 
----
+______________________________________________________________________
 
-# 48. Boot Relationship
+## 48. Boot Relationship
 
 The counterpart matrix names:
 
@@ -1613,9 +1613,9 @@ This specification does not explicitly mention Boot.
 
 Therefore the execution mesh should not be rewritten to claim that Input Telemetry Ingestion is the Boot stage.
 
----
+______________________________________________________________________
 
-# 49. Cross-Artifact Proof Capsule
+## 49. Cross-Artifact Proof Capsule
 
 ```yaml
 Proof_Capsule:
@@ -1652,9 +1652,9 @@ Proof_Capsule:
     exact_mapping: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 50. Runtime Plane Connection
+## 50. Runtime Plane Connection
 
 The source explicitly references:
 
@@ -1673,9 +1673,9 @@ DO_NOT_LOAD_UNLESS_REQUIRED
 
 the deeper Runtime corpus should not be loaded merely to decorate this specification.
 
----
+______________________________________________________________________
 
-# 51. Canon Plane Connection
+## 51. Canon Plane Connection
 
 The source explicitly references:
 
@@ -1689,9 +1689,9 @@ However, it does not enumerate which individual canonical laws bind which execut
 
 That mapping remains dependent on the Canon and Runtime sources.
 
----
+______________________________________________________________________
 
-# 52. Canon Law Mapping Gap
+## 52. Canon Law Mapping Gap
 
 The source says the matrix governs:
 
@@ -1715,9 +1715,9 @@ Therefore exact law-to-primitive routing remains:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 53. RSCF Master Frame
+## 53. RSCF Master Frame
 
 ```yaml
 RSCF:
@@ -1759,9 +1759,9 @@ RSCF:
       UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 54. Atomic Multi-RSCF Representation
+## 54. Atomic Multi-RSCF Representation
 
 The three primitives can be modeled as separate RSCF frames:
 
@@ -1789,9 +1789,9 @@ is a useful derived pipeline representation.
 
 It must not be mistaken for evidence of literal distributed atomic transactions.
 
----
+______________________________________________________________________
 
-# 55. Dependency Closure
+## 55. Dependency Closure
 
 For a Runtime conclusion, the smallest relevant dependency set may include:
 
@@ -1817,9 +1817,9 @@ OUTPUT PROVENANCE
 
 Only dependencies capable of altering the conclusion should be loaded.
 
----
+______________________________________________________________________
 
-# 56. Smallest Sufficient Proof Scope
+## 56. Smallest Sufficient Proof Scope
 
 For a question solely about whether the source contains a seven-phase loop, the source statement is sufficient.
 
@@ -1837,9 +1837,9 @@ DISTRIBUTED FINALIZATION
 
 unless the question requires them.
 
----
+______________________________________________________________________
 
-# 57. Fast-Path Eligibility
+## 57. Fast-Path Eligibility
 
 A local Runtime fast path is conceptually eligible only when:
 
@@ -1861,9 +1861,9 @@ NO MATERIAL CONFLICT
 NO CROSS-PRIMITIVE DEPENDENCY CAN FLIP RESULT
 ```
 
----
+______________________________________________________________________
 
-# 58. Fast-Path Escalation
+## 58. Fast-Path Escalation
 
 Escalate when:
 
@@ -1891,9 +1891,9 @@ IRREVERSIBLE EFFECTS EXIST
 FINALIZATION DEPENDS ON EXTERNAL STATE
 ```
 
----
+______________________________________________________________________
 
-# 59. Provenance Topology
+## 59. Provenance Topology
 
 A claim repeated in:
 
@@ -1915,9 +1915,9 @@ DocumentCount
 IndependentEvidenceCount
 $$
 
----
+______________________________________________________________________
 
-# 60. Persistent Provenance
+## 60. Persistent Provenance
 
 A robust derived Runtime flow should preserve provenance across:
 
@@ -1935,9 +1935,9 @@ STATE TRANSITION
 
 so that downstream conclusions remain traceable to load-bearing inputs.
 
----
+______________________________________________________________________
 
-# 61. Epistemic Type Preservation
+## 61. Epistemic Type Preservation
 
 Inputs and derived states should preserve distinctions among:
 
@@ -1957,9 +1957,9 @@ UNKNOWN
 
 Passing through the deterministic cycle must not silently promote a claim to verified status.
 
----
+______________________________________________________________________
 
-# 62. Confidence Ceiling
+## 62. Confidence Ceiling
 
 If a runtime conclusion depends on an unresolved or weak premise:
 
@@ -1973,9 +1973,9 @@ unless that premise is independently revalidated.
 
 Deterministic execution does not remove this ceiling.
 
----
+______________________________________________________________________
 
-# 63. Reality-Gate Confidence Boundary
+## 63. Reality-Gate Confidence Boundary
 
 Even if the Reality Gate is source-defined as validation:
 
@@ -1987,9 +1987,9 @@ $$
 
 without independent evidence supporting a stronger classification.
 
----
+______________________________________________________________________
 
-# 64. Commit Confidence Boundary
+## 64. Commit Confidence Boundary
 
 A committed state does not automatically receive a higher epistemic class.
 
@@ -2001,9 +2001,9 @@ COMMITTED SOURCE_CLAIM
 
 remains a source claim unless new evidence supports promotion.
 
----
+______________________________________________________________________
 
-# 65. State Transition Epistemic Contract
+## 65. State Transition Epistemic Contract
 
 Conceptually:
 
@@ -2035,9 +2035,9 @@ State_Transition:
 
 Derived schema.
 
----
+______________________________________________________________________
 
-# 66. State Mutation Firewall
+## 66. State Mutation Firewall
 
 A state transition should not erase the epistemic classification of its components.
 
@@ -2057,9 +2057,9 @@ Commit(SourceClaim)
 Observation
 $$
 
----
+______________________________________________________________________
 
-# 67. Causal Firewall
+## 67. Causal Firewall
 
 The execution mesh establishes architectural flow, not causal proof about the external world.
 
@@ -2075,9 +2075,9 @@ does not establish that the sensor-observed condition caused the resulting exter
 
 Causal inference requires appropriately typed evidence.
 
----
+______________________________________________________________________
 
-# 68. Sequence Firewall
+## 68. Sequence Firewall
 
 Even if Runtime stage A precedes Runtime stage B:
 
@@ -2089,9 +2089,9 @@ $$
 
 This applies to telemetry, reasoning, commit, and external actions.
 
----
+______________________________________________________________________
 
-# 69. Structural Similarity Firewall
+## 69. Structural Similarity Firewall
 
 Similarity between the AMOS execution mesh and another architecture does not prove:
 
@@ -2109,9 +2109,9 @@ EQUIVALENT PERFORMANCE
 
 Cross-system mappings remain models until independently validated.
 
----
+______________________________________________________________________
 
-# 70. Scope Firewall
+## 70. Scope Firewall
 
 A conclusion established for one Runtime primitive does not automatically apply to the others.
 
@@ -2133,9 +2133,9 @@ $$
 
 Each load-bearing boundary remains separately evaluable.
 
----
+______________________________________________________________________
 
-# 71. Regime Firewall
+## 71. Regime Firewall
 
 A Runtime conclusion valid under:
 
@@ -2151,9 +2151,9 @@ RUNTIME VERSION B
 
 if the execution mesh, Reality Gate, reasoning cycle, commit mechanism, or Canon bindings changed.
 
----
+______________________________________________________________________
 
-# 72. Freshness Boundary
+## 72. Freshness Boundary
 
 The artifact declares:
 
@@ -2166,9 +2166,9 @@ This establishes the artifact's declared update date.
 
 It does not establish the version or freshness of a deployed Runtime implementation.
 
----
+______________________________________________________________________
 
-# 73. State Freshness
+## 73. State Freshness
 
 A reasoning result based on:
 
@@ -2192,9 +2192,9 @@ COMMIT OR INVALIDATE
 
 This extension is not explicitly specified by the supplied source.
 
----
+______________________________________________________________________
 
-# 74. MVCC-Compatible Interpretation
+## 74. MVCC-Compatible Interpretation
 
 Conceptually:
 
@@ -2212,9 +2212,9 @@ This is compatible with AMOS MVCC reasoning.
 
 It is not evidence that the Runtime implementation literally uses MVCC.
 
----
+______________________________________________________________________
 
-# 75. CAS-Compatible Commit
+## 75. CAS-Compatible Commit
 
 Conceptually:
 
@@ -2240,9 +2240,9 @@ the transition should not silently finalize against stale assumptions.
 
 This is a derived v4.4 reasoning model, not a source-established implementation detail.
 
----
+______________________________________________________________________
 
-# 76. CAS Epistemic Boundary
+## 76. CAS Epistemic Boundary
 
 Even a successful CAS-like operation establishes only state compatibility for the checked predicate.
 
@@ -2258,9 +2258,9 @@ GLOBAL SAFETY
 FORMAL VALIDITY OF ALL PREMISES
 ```
 
----
+______________________________________________________________________
 
-# 77. Causal Epoch Binding
+## 77. Causal Epoch Binding
 
 A derived runtime state may conceptually be bound to an epoch:
 
@@ -2278,9 +2278,9 @@ then stale conclusions may require revalidation.
 
 No literal causal-epoch implementation is established here.
 
----
+______________________________________________________________________
 
-# 78. Causal Epoch Finality
+## 78. Causal Epoch Finality
 
 A v4.4-compatible finality condition is:
 
@@ -2300,9 +2300,9 @@ $$
 
 This is a reasoning discipline, not a claim of implemented distributed finality.
 
----
+______________________________________________________________________
 
-# 79. Atomic Multi-RSCF Reasoning
+## 79. Atomic Multi-RSCF Reasoning
 
 A state transition spanning ingestion, reasoning, and commit may be represented as:
 
@@ -2318,9 +2318,9 @@ with shared finalization only when the dependency closure requires it.
 
 This preserves local proof boundaries.
 
----
+______________________________________________________________________
 
-# 80. Local Proof Principle
+## 80. Local Proof Principle
 
 If a conclusion depends only on the reasoning primitive and has no load-bearing dependency on commit semantics:
 
@@ -2333,9 +2333,9 @@ may be sufficient.
 
 Do not load commit internals merely because they exist elsewhere in the architecture.
 
----
+______________________________________________________________________
 
-# 81. Proof-Based Coordination Avoidance
+## 81. Proof-Based Coordination Avoidance
 
 Conceptually:
 
@@ -2351,9 +2351,9 @@ where independence is demonstrated rather than assumed.
 
 This is an AMOS v4.4 reasoning pattern, not evidence of a literal Runtime coordination protocol.
 
----
+______________________________________________________________________
 
-# 82. Local Finalization Compatibility
+## 82. Local Finalization Compatibility
 
 The counterpart matrix's:
 
@@ -2381,9 +2381,9 @@ CROSS-SHARD COMMIT
 
 Therefore those remain outside the source claim.
 
----
+______________________________________________________________________
 
-# 83. Failure Recovery
+## 83. Failure Recovery
 
 A derived governed Runtime recovery model is:
 
@@ -2402,9 +2402,9 @@ AS GOVERNING SOURCE REQUIRES
 
 The exact stage-specific failure actions are defined by the counterpart matrix, not this specification alone.
 
----
+______________________________________________________________________
 
-# 84. Counterpart Failure Actions
+## 84. Counterpart Failure Actions
 
 The supplied `CORE_X_RUNTIME_MATRIX` source defines:
 
@@ -2426,9 +2426,9 @@ These remain counterpart matrix claims.
 
 They should not be rewritten as if they were explicitly present in the execution-mesh diagram.
 
----
+______________________________________________________________________
 
-# 85. Specification/Matrix Provenance Separation
+## 85. Specification/Matrix Provenance Separation
 
 Preserve:
 
@@ -2442,9 +2442,9 @@ CORE_X_RUNTIME.md
 
 Cross-artifact synthesis may combine them, but provenance must remain recoverable.
 
----
+______________________________________________________________________
 
-# 86. Input Failure Gap
+## 86. Input Failure Gap
 
 This specification does not state what happens if:
 
@@ -2472,9 +2472,9 @@ ERROR CAPSULE
 
 must not be invented.
 
----
+______________________________________________________________________
 
-# 87. Reality Gate Failure Gap
+## 87. Reality Gate Failure Gap
 
 The source does not state what happens when:
 
@@ -2491,17 +2491,17 @@ REALITY_GATE_FAILURE_ACTION:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 88. Reasoning-Cycle Failure Gap
+## 88. Reasoning-Cycle Failure Gap
 
 The specification does not independently define the failure action for the seven-phase reasoning cycle.
 
 The counterpart matrix's `06_EXECUTION` Error Proof Capsule may be relevant, but exact binding remains unestablished.
 
----
+______________________________________________________________________
 
-# 89. Commit Failure Gap
+## 89. Commit Failure Gap
 
 The specification does not explicitly define what happens when:
 
@@ -2513,9 +2513,9 @@ fails.
 
 The counterpart matrix's `09_FINALIZATION → Automatic Rollback` is potentially relevant, but exact primitive-to-stage binding remains unresolved.
 
----
+______________________________________________________________________
 
-# 90. Signature Failure Gap
+## 90. Signature Failure Gap
 
 The source does not define behavior when a state transition cannot be signed.
 
@@ -2526,9 +2526,9 @@ SIGNATURE_FAILURE_POLICY:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 91. State Conflict Gap
+## 91. State Conflict Gap
 
 The source does not explicitly define behavior when:
 
@@ -2547,9 +2547,9 @@ UNKNOWN/GAP
 
 MVCC/CAS handling is only a derived compatible extension unless separately established.
 
----
+______________________________________________________________________
 
-# 92. Commit Durability Gap
+## 92. Commit Durability Gap
 
 The source says:
 
@@ -2578,9 +2578,9 @@ COMMIT_DURABILITY:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 93. External Dispatch Gap
+## 93. External Dispatch Gap
 
 The source does not identify what receives the dispatched state transition.
 
@@ -2593,9 +2593,9 @@ UNKNOWN/GAP
 
 This prevents unsupported claims about external systems or actuators.
 
----
+______________________________________________________________________
 
-# 94. Gap Priority
+## 94. Gap Priority
 
 ## CRITICAL
 
@@ -2641,9 +2641,9 @@ NON-LOAD-BEARING INTERNAL MODULE DETAIL
 
 Formatting and naming variations without semantic effect.
 
----
+______________________________________________________________________
 
-# 95. Adversarial Validation — Ingestion
+## 95. Adversarial Validation — Ingestion
 
 Challenge:
 
@@ -2675,9 +2675,9 @@ IS VALIDATION SCOPE-BOUND?
 
 Until these are established, runtime behavior remains unknown.
 
----
+______________________________________________________________________
 
-# 96. Adversarial Validation — Reasoning
+## 96. Adversarial Validation — Reasoning
 
 Challenge:
 
@@ -2707,9 +2707,9 @@ WHAT ARE THE TERMINATION CONDITIONS?
 CAN THE LOOP RECUR?
 ```
 
----
+______________________________________________________________________
 
-# 97. Adversarial Validation — Commit
+## 97. Adversarial Validation — Commit
 
 Challenge:
 
@@ -2747,9 +2747,9 @@ WHAT HAPPENS ON CONFLICT?
 WHAT HAPPENS ON SIGNATURE FAILURE?
 ```
 
----
+______________________________________________________________________
 
-# 98. Sensitivity — Ingestion
+## 98. Sensitivity — Ingestion
 
 Potential result-flipping premises include:
 
@@ -2767,9 +2767,9 @@ SOURCE CORRELATION
 
 If any is load-bearing and unresolved, downstream conclusions become conditional.
 
----
+______________________________________________________________________
 
-# 99. Sensitivity — Reasoning
+## 99. Sensitivity — Reasoning
 
 Potential result-flipping premises include:
 
@@ -2787,9 +2787,9 @@ STATE VERSION
 DEPENDENCY CLOSURE
 ```
 
----
+______________________________________________________________________
 
-# 100. Sensitivity — Commit
+## 100. Sensitivity — Commit
 
 Potential result-flipping premises include:
 
@@ -2809,9 +2809,9 @@ AUTHORITY
 EXTERNAL EFFECT REVERSIBILITY
 ```
 
----
+______________________________________________________________________
 
-# 101. Runtime Decision Function
+## 101. Runtime Decision Function
 
 A derived execution decision can be represented:
 
@@ -2843,9 +2843,9 @@ $$
 
 The exact function is not source-defined.
 
----
+______________________________________________________________________
 
-# 102. Proposed vs Committed State
+## 102. Proposed vs Committed State
 
 For clarity, a derived implementation model may distinguish:
 
@@ -2863,9 +2863,9 @@ as a committed transition.
 
 This distinction is useful for reasoning about rollback and CAS, but it is not explicit in the source.
 
----
+______________________________________________________________________
 
-# 103. Commit-Time Revalidation
+## 103. Commit-Time Revalidation
 
 A v4.4-compatible model:
 
@@ -2885,9 +2885,9 @@ COMMIT / REJECT / ROLLBACK
 
 The final three behaviors require authoritative Runtime semantics.
 
----
+______________________________________________________________________
 
-# 104. Revalidation Boundary
+## 104. Revalidation Boundary
 
 Revalidation is required conceptually when a premise capable of flipping the result may have changed between:
 
@@ -2917,9 +2917,9 @@ CONCURRENT STATE
 REGIME
 ```
 
----
+______________________________________________________________________
 
-# 105. Runtime Proof Capsule Schema
+## 105. Runtime Proof Capsule Schema
 
 ```yaml
 Runtime_Proof_Capsule:
@@ -2961,9 +2961,9 @@ Runtime_Proof_Capsule:
 
 Derived schema.
 
----
+______________________________________________________________________
 
-# 106. State Transition Receipt Candidate
+## 106. State Transition Receipt Candidate
 
 ```yaml
 State_Transition_Receipt:
@@ -3001,9 +3001,9 @@ State_Transition_Receipt:
 
 Derived schema.
 
----
+______________________________________________________________________
 
-# 107. Reality Gate Receipt Candidate
+## 107. Reality Gate Receipt Candidate
 
 ```yaml
 Reality_Gate_Receipt:
@@ -3033,9 +3033,9 @@ Reality_Gate_Receipt:
 
 Derived schema.
 
----
+______________________________________________________________________
 
-# 108. Reasoning Cycle Receipt Candidate
+## 108. Reasoning Cycle Receipt Candidate
 
 ```yaml
 Reasoning_Cycle_Receipt:
@@ -3073,9 +3073,9 @@ Reasoning_Cycle_Receipt:
 
 Derived schema.
 
----
+______________________________________________________________________
 
-# 109. Commit Receipt Candidate
+## 109. Commit Receipt Candidate
 
 ```yaml
 Commit_Receipt:
@@ -3105,9 +3105,9 @@ Commit_Receipt:
 
 Derived schema.
 
----
+______________________________________________________________________
 
-# 110. Runtime Validation Matrix
+## 110. Runtime Validation Matrix
 
 | Source Element                | Source Presence          | Source Structure             | Runtime | Independent Validation | Formal Verification |
 | ----------------------------- | ------------------------ | ---------------------------- | ------- | ---------------------- | ------------------- |
@@ -3122,11 +3122,11 @@ Derived schema.
 | Reflect                       | Verified as term         | Boundary role verified       | Unknown | Not established        | Not established     |
 | Verified Commit Dispatch      | Verified                 | Verified                     | Unknown | Not established        | Not established     |
 | Signed state transition       | Verified as source claim | Role verified                | Unknown | Not established        | Not established     |
-| \(S_{t+1}\)                   | Verified as symbol       | Full semantics unknown       | Unknown | Not established        | Not established     |
+| (S\_{t+1})                    | Verified as symbol       | Full semantics unknown       | Unknown | Not established        | Not established     |
 
----
+______________________________________________________________________
 
-# 111. Runtime Validation Requirements
+## 111. Runtime Validation Requirements
 
 Before promoting runtime status, establish:
 
@@ -3162,9 +3162,9 @@ PROVENANCE
 NEGATIVE TESTS
 ```
 
----
+______________________________________________________________________
 
-# 112. Ingestion Validation Requirements
+## 112. Ingestion Validation Requirements
 
 To validate Input Telemetry Ingestion:
 
@@ -3190,9 +3190,9 @@ FRESHNESS HANDLING
 SCOPE HANDLING
 ```
 
----
+______________________________________________________________________
 
-# 113. Reasoning Validation Requirements
+## 113. Reasoning Validation Requirements
 
 To validate the Deterministic Reasoning Cycle:
 
@@ -3218,9 +3218,9 @@ CONFLICT TESTS
 FAILURE TESTS
 ```
 
----
+______________________________________________________________________
 
-# 114. Commit Validation Requirements
+## 114. Commit Validation Requirements
 
 To validate Verified Commit Dispatch:
 
@@ -3252,9 +3252,9 @@ CONFLICT BEHAVIOR
 ROLLBACK BINDING
 ```
 
----
+______________________________________________________________________
 
-# 115. Negative Runtime Tests
+## 115. Negative Runtime Tests
 
 Candidate negative tests:
 
@@ -3292,9 +3292,9 @@ FAILED ROLLBACK
 
 Expected behavior must come from the executable Runtime specification rather than assumptions.
 
----
+______________________________________________________________________
 
-# 116. Determinism Test Boundary
+## 116. Determinism Test Boundary
 
 A valid determinism test must specify:
 
@@ -3328,9 +3328,9 @@ $$
 
 as a universal claim.
 
----
+______________________________________________________________________
 
-# 117. Commit Test Boundary
+## 117. Commit Test Boundary
 
 A successful state-transition test should establish only the properties actually measured.
 
@@ -3352,9 +3352,9 @@ TRANSITION CRYPTOGRAPHICALLY VALID
 TRANSITION CAUSALLY CORRECT
 ```
 
----
+______________________________________________________________________
 
-# 118. Runtime Observation Class
+## 118. Runtime Observation Class
 
 Actual runtime traces, logs, state snapshots, and test results should be classified as:
 
@@ -3372,9 +3372,9 @@ SOURCE_CLAIM / AMOS_MODEL
 
 This distinction must survive ingestion.
 
----
+______________________________________________________________________
 
-# 119. Documentation Boundary
+## 119. Documentation Boundary
 
 A Runtime README saying:
 
@@ -3392,9 +3392,9 @@ until independently validated.
 
 Documentation is not automatically runtime observation.
 
----
+______________________________________________________________________
 
-# 120. Benchmark Boundary
+## 120. Benchmark Boundary
 
 If the seven-phase loop is benchmarked under one environment:
 
@@ -3406,9 +3406,9 @@ $$
 
 Results remain scoped to the tested environment and workload.
 
----
+______________________________________________________________________
 
-# 121. Latency Boundary
+## 121. Latency Boundary
 
 A reported Runtime latency is not hardware-independent.
 
@@ -3422,9 +3422,9 @@ $$
 
 without hardware, workload, concurrency, and environment scope.
 
----
+______________________________________________________________________
 
-# 122. Formal Verification Boundary
+## 122. Formal Verification Boundary
 
 Tests, documentation, deterministic output, or signed state transitions do not themselves establish formal verification.
 
@@ -3444,9 +3444,9 @@ SignedTransition
 FormalCorrectnessProof
 $$
 
----
+______________________________________________________________________
 
-# 123. Signature Truth Firewall
+## 123. Signature Truth Firewall
 
 Even a cryptographically valid signature—if cryptographic signing is eventually established—would attest only to whatever the signing scheme binds.
 
@@ -3464,9 +3464,9 @@ CAUSAL VALIDITY
 GLOBAL CONSISTENCY
 ```
 
----
+______________________________________________________________________
 
-# 124. Verified-Name Firewall
+## 124. Verified-Name Firewall
 
 The component name:
 
@@ -3483,9 +3483,9 @@ validation_status:
 NOT_INDEPENDENTLY_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 125. Runtime Authority Firewall
+## 125. Runtime Authority Firewall
 
 A Runtime capability does not automatically imply authority to execute it.
 
@@ -3499,17 +3499,17 @@ $$
 
 Authority remains a separate governance dimension.
 
----
+______________________________________________________________________
 
-# 126. Irreversible Action Firewall
+## 126. Irreversible Action Firewall
 
 If a committed state transition causes irreversible external effects, the validation burden increases.
 
 A source-defined commit pipeline does not itself guarantee safe reversibility.
 
----
+______________________________________________________________________
 
-# 127. External Effect Gap
+## 127. External Effect Gap
 
 The artifact does not specify whether:
 
@@ -3528,9 +3528,9 @@ UNKNOWN/GAP
 
 This is critical for high-stakes runtime interpretation.
 
----
+______________________________________________________________________
 
-# 128. Reversibility Contract
+## 128. Reversibility Contract
 
 A governed implementation should distinguish:
 
@@ -3548,9 +3548,9 @@ before claiming rollback sufficiency.
 
 This is a derived governance requirement.
 
----
+______________________________________________________________________
 
-# 129. Failure Recovery Contract
+## 129. Failure Recovery Contract
 
 ```yaml
 Failure_Recovery:
@@ -3578,9 +3578,9 @@ Failure_Recovery:
 
 Derived schema.
 
----
+______________________________________________________________________
 
-# 130. No Blind Retry
+## 130. No Blind Retry
 
 A failed reasoning or commit path should not be repeated without changed evidence, changed state, or an explicit retry policy.
 
@@ -3594,9 +3594,9 @@ may merely reproduce the same failure.
 
 This is a derived v4.4 failure-recovery rule.
 
----
+______________________________________________________________________
 
-# 131. Cross-Plane Conflict Handling
+## 131. Cross-Plane Conflict Handling
 
 If:
 
@@ -3636,9 +3636,9 @@ If unresolved:
 COMPETING
 ```
 
----
+______________________________________________________________________
 
-# 132. Runtime-MOC Conflict Handling
+## 132. Runtime-MOC Conflict Handling
 
 If:
 
@@ -3650,17 +3650,17 @@ defines the Runtime differently, preserve the conflict until authority and super
 
 Recency alone is insufficient.
 
----
+______________________________________________________________________
 
-# 133. Canon Conflict Handling
+## 133. Canon Conflict Handling
 
 If the Runtime specification conflicts with a non-negotiable Canon constraint, Runtime execution cannot silently redefine the Canon rule.
 
 The exact governance response must be determined by the applicable Canon authority.
 
----
+______________________________________________________________________
 
-# 134. Counterpart Matrix Conflict Handling
+## 134. Counterpart Matrix Conflict Handling
 
 If the matrix counterpart binds a stage in a way incompatible with the three execution primitives:
 
@@ -3674,9 +3674,9 @@ CHECK VERSION / AUTHORITY
 DO NOT INVENT A BRIDGE
 ```
 
----
+______________________________________________________________________
 
-# 135. Primitive Mapping Competing Hypotheses
+## 135. Primitive Mapping Competing Hypotheses
 
 Until explicit binding evidence exists, possible models include:
 
@@ -3702,17 +3702,17 @@ COMPETING
 
 if the exact mapping becomes decision-relevant and no discriminating evidence is available.
 
----
+______________________________________________________________________
 
-# 136. Cheapest Discriminating Evidence
+## 136. Cheapest Discriminating Evidence
 
 The cheapest high-information source for resolving primitive-stage mappings is likely an authoritative Runtime stage specification or MOC containing explicit bindings.
 
 Do not accumulate redundant documentation if one authoritative binding artifact can resolve the question.
 
----
+______________________________________________________________________
 
-# 137. Scope Contract
+## 137. Scope Contract
 
 ```yaml
 Scope:
@@ -3747,9 +3747,9 @@ Scope:
     - formal_verification
 ```
 
----
+______________________________________________________________________
 
-# 138. Regime Contract
+## 138. Regime Contract
 
 ```yaml
 Regime:
@@ -3779,9 +3779,9 @@ Regime:
     - signature_model_change
 ```
 
----
+______________________________________________________________________
 
-# 139. Uncertainty Vector
+## 139. Uncertainty Vector
 
 ```yaml
 Uncertainty:
@@ -3809,9 +3809,9 @@ Uncertainty:
     NOT_ESTABLISHED_FOR_CORPUS_REPETITIONS
 ```
 
----
+______________________________________________________________________
 
-# 140. Conclusion Classes
+## 140. Conclusion Classes
 
 Use:
 
@@ -3851,40 +3851,40 @@ UNKNOWN/GAP
 
 for absent definitions or evidence.
 
----
+______________________________________________________________________
 
-# 141. Anti-Fabrication Rules
+## 141. Anti-Fabrication Rules
 
 This artifact MUST NOT by itself be used to claim:
 
 1. that the Runtime engine is deployed;
-2. that physical sensors are connected;
-3. that the Reality Gate has a particular algorithm;
-4. that Reality Gate validation proves truth;
-5. that all AMOS reasoning is deterministic;
-6. that all seven phase names are known from this source;
-7. that unlisted phase names can be invented;
-8. that `Intake` and `Reflect` have invented formal semantics;
-9. that `Verified Commit Dispatch` is independently verified;
-10. that `signed` necessarily means cryptographically signed;
-11. that a cryptographic signature algorithm exists;
-12. that \(S_t\) or \(S_{t+1}\) has an invented state meaning;
-13. that commit is atomic or durable;
-14. that MVCC is literally implemented;
-15. that CAS is literally implemented;
-16. that causal epochs are literally implemented;
-17. that the three primitives map one-to-one onto the four matrix stages;
-18. that Local Proof Finalizer equals Verified Commit Dispatch;
-19. that Deterministic Engine equals Deterministic Reasoning Cycle;
-20. that Runtime capability implies execution authority;
-21. that a committed state is epistemically verified;
-22. that rollback can reverse external effects;
-23. that the architecture is empirically validated;
-24. that the architecture is formally verified.
+1. that physical sensors are connected;
+1. that the Reality Gate has a particular algorithm;
+1. that Reality Gate validation proves truth;
+1. that all AMOS reasoning is deterministic;
+1. that all seven phase names are known from this source;
+1. that unlisted phase names can be invented;
+1. that `Intake` and `Reflect` have invented formal semantics;
+1. that `Verified Commit Dispatch` is independently verified;
+1. that `signed` necessarily means cryptographically signed;
+1. that a cryptographic signature algorithm exists;
+1. that (S_t) or (S\_{t+1}) has an invented state meaning;
+1. that commit is atomic or durable;
+1. that MVCC is literally implemented;
+1. that CAS is literally implemented;
+1. that causal epochs are literally implemented;
+1. that the three primitives map one-to-one onto the four matrix stages;
+1. that Local Proof Finalizer equals Verified Commit Dispatch;
+1. that Deterministic Engine equals Deterministic Reasoning Cycle;
+1. that Runtime capability implies execution authority;
+1. that a committed state is epistemically verified;
+1. that rollback can reverse external effects;
+1. that the architecture is empirically validated;
+1. that the architecture is formally verified.
 
----
+______________________________________________________________________
 
-# 142. Anti-Regression Rules
+## 142. Anti-Regression Rules
 
 Any revision should preserve or improve:
 
@@ -3924,9 +3924,9 @@ LOCAL INVALIDATION
 FAILURE RECOVERABILITY
 ```
 
----
+______________________________________________________________________
 
-# 143. Invalidation Conditions
+## 143. Invalidation Conditions
 
 Revalidate this specification when:
 
@@ -3956,9 +3956,9 @@ RUNTIME REGIME CHANGES
 AUTHORITATIVE BINDING ARTIFACT APPEARS
 ```
 
----
+______________________________________________________________________
 
-# 144. Local Invalidation Example — Reality Gate
+## 144. Local Invalidation Example — Reality Gate
 
 If later evidence disproves a specific Reality Gate implementation:
 
@@ -3978,9 +3978,9 @@ CORE_X_RUNTIME NAMES REALITY GATE VALIDATION
 
 unless the source itself is superseded.
 
----
+______________________________________________________________________
 
-# 145. Local Invalidation Example — Seven-Phase Loop
+## 145. Local Invalidation Example — Seven-Phase Loop
 
 If a newer authoritative Runtime version uses eight phases:
 
@@ -3994,9 +3994,9 @@ but preserve the historical source claim for the regime in which this artifact a
 
 This is a regime change, not retroactive source erasure.
 
----
+______________________________________________________________________
 
-# 146. Local Invalidation Example — Signature
+## 146. Local Invalidation Example — Signature
 
 If runtime inspection shows no cryptographic signature mechanism:
 
@@ -4014,9 +4014,9 @@ SOURCE TERM:
 
 until authoritative semantics resolve what `signed` means.
 
----
+______________________________________________________________________
 
-# 147. Source-Presence vs Runtime Non-Conformance
+## 147. Source-Presence vs Runtime Non-Conformance
 
 Two claims may coexist:
 
@@ -4036,9 +4036,9 @@ IMPLEMENTATION NON-CONFORMANCE
 
 not disappearance of the source specification.
 
----
+______________________________________________________________________
 
-# 148. Runtime Conformance Model
+## 148. Runtime Conformance Model
 
 Conceptually:
 
@@ -4054,9 +4054,9 @@ for the properties actually required by the governing Runtime regime.
 
 Exact conformance criteria require executable bindings.
 
----
+______________________________________________________________________
 
-# 149. Conformance Receipt
+## 149. Conformance Receipt
 
 ```yaml
 Runtime_Conformance_Receipt:
@@ -4096,9 +4096,9 @@ Runtime_Conformance_Receipt:
 
 Derived schema.
 
----
+______________________________________________________________________
 
-# 150. Canon Candidate Boundary
+## 150. Canon Candidate Boundary
 
 Current status:
 
@@ -4116,9 +4116,9 @@ $$
 
 Promotion requires applicable AMOS governance.
 
----
+______________________________________________________________________
 
-# 151. Canon Promotion Requirements
+## 151. Canon Promotion Requirements
 
 Before promotion, verify:
 
@@ -4150,9 +4150,9 @@ REGIME
 
 Executable validation remains a separate dimension.
 
----
+______________________________________________________________________
 
-# 152. Runtime Promotion Gate
+## 152. Runtime Promotion Gate
 
 Before strengthening:
 
@@ -4185,9 +4185,9 @@ PROVENANCE
 TEST EVIDENCE
 ```
 
----
+______________________________________________________________________
 
-# 153. Formal Verification Gate
+## 153. Formal Verification Gate
 
 Before changing:
 
@@ -4206,9 +4206,9 @@ VERIFIED
 
 does not satisfy this gate.
 
----
+______________________________________________________________________
 
-# 154. Machine-Readable Execution Mesh
+## 154. Machine-Readable Execution Mesh
 
 ```yaml
 Core_X_Runtime:
@@ -4280,9 +4280,9 @@ Core_X_Runtime:
     NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 155. Execution Mesh Integrity Contract
+## 155. Execution Mesh Integrity Contract
 
 ```yaml
 Execution_Mesh_Integrity:
@@ -4313,9 +4313,9 @@ Execution_Mesh_Integrity:
     - runtime_implementation
 ```
 
----
+______________________________________________________________________
 
-# 156. Cross-Plane Audit
+## 156. Cross-Plane Audit
 
 ```yaml
 Cross_Plane_Audit:
@@ -4354,9 +4354,9 @@ Cross_Plane_Audit:
   result:
 ```
 
----
+______________________________________________________________________
 
-# 157. Audit Questions
+## 157. Audit Questions
 
 A complete audit should answer:
 
@@ -4412,9 +4412,9 @@ A complete audit should answer:
 25. WHAT EVIDENCE WOULD FALSIFY THE CURRENT MODEL?
 ```
 
----
+______________________________________________________________________
 
-# 158. RSCF Contract
+## 158. RSCF Contract
 
 ```yaml
 RSCF:
@@ -4511,9 +4511,9 @@ RSCF:
       UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 159. RSCF Relations
+## 159. RSCF Relations
 
 ```yaml
 RSCF_RELATIONS:
@@ -4557,9 +4557,9 @@ RSCF_RELATIONS:
       "[[00_ROOT/AMOS_CORE_v4_4|AMOS_CORE_v4_4]]"
 ```
 
----
+______________________________________________________________________
 
-# 160. Ingestion Rule
+## 160. Ingestion Rule
 
 ```yaml
 CORE_X_RUNTIME_INGESTION:
@@ -4612,66 +4612,66 @@ CORE_X_RUNTIME_INGESTION:
       - NEVER_INVENT
 ```
 
----
+______________________________________________________________________
 
-# 161. Canon Promotion Checklist
+## 161. Canon Promotion Checklist
 
-* [ ] artifact identity preserved
-* [ ] artifact path preserved
-* [ ] version preserved
-* [ ] origin architect preserved
-* [ ] provenance preserved
-* [ ] Canon MOC dependency resolved
-* [ ] Runtime MOC dependency resolved
-* [ ] Matrix counterpart resolved
-* [ ] Input Telemetry Ingestion preserved
-* [ ] Sensor readings preserved as source term
-* [ ] Prompts preserved as source term
-* [ ] Reality Gate validation preserved
-* [ ] Deterministic Reasoning Cycle preserved
-* [ ] seven-phase count preserved
-* [ ] Intake boundary preserved
-* [ ] Reflect boundary preserved
-* [ ] missing phase names not invented
-* [ ] Verified Commit Dispatch preserved
-* [ ] signed state transition preserved
-* [ ] \(S_{t+1}\) preserved
-* [ ] signature semantics not invented
-* [ ] state semantics not invented
-* [ ] primitive-stage mapping not invented
-* [ ] source/derived boundary preserved
-* [ ] runtime claims not overstated
-* [ ] contradictions preserved
-* [ ] gaps preserved
-* [ ] supersession authority established
+- [ ] artifact identity preserved
+- [ ] artifact path preserved
+- [ ] version preserved
+- [ ] origin architect preserved
+- [ ] provenance preserved
+- [ ] Canon MOC dependency resolved
+- [ ] Runtime MOC dependency resolved
+- [ ] Matrix counterpart resolved
+- [ ] Input Telemetry Ingestion preserved
+- [ ] Sensor readings preserved as source term
+- [ ] Prompts preserved as source term
+- [ ] Reality Gate validation preserved
+- [ ] Deterministic Reasoning Cycle preserved
+- [ ] seven-phase count preserved
+- [ ] Intake boundary preserved
+- [ ] Reflect boundary preserved
+- [ ] missing phase names not invented
+- [ ] Verified Commit Dispatch preserved
+- [ ] signed state transition preserved
+- [ ] (S\_{t+1}) preserved
+- [ ] signature semantics not invented
+- [ ] state semantics not invented
+- [ ] primitive-stage mapping not invented
+- [ ] source/derived boundary preserved
+- [ ] runtime claims not overstated
+- [ ] contradictions preserved
+- [ ] gaps preserved
+- [ ] supersession authority established
 
----
+______________________________________________________________________
 
-# 162. Runtime Validation Checklist
+## 162. Runtime Validation Checklist
 
-* [ ] runtime version identified
-* [ ] executable binding identified
-* [ ] input schema established
-* [ ] sensor bindings established
-* [ ] prompt bindings established
-* [ ] Reality Gate definition established
-* [ ] Reality Gate implementation located
-* [ ] all seven reasoning phases established
-* [ ] phase order established
-* [ ] deterministic boundary established
-* [ ] reasoning implementation located
-* [ ] state model established
-* [ ] \(S_t\) semantics established
-* [ ] \(S_{t+1}\) semantics established
-* [ ] commit predicate established
-* [ ] signature semantics established
-* [ ] commit implementation located
-* [ ] dispatch target established
-* [ ] state conflict behavior established
-* [ ] failure behavior established
-* [ ] negative cases tested
-* [ ] provenance persistence tested
-* [ ] external side effects characterized
+- [ ] runtime version identified
+- [ ] executable binding identified
+- [ ] input schema established
+- [ ] sensor bindings established
+- [ ] prompt bindings established
+- [ ] Reality Gate definition established
+- [ ] Reality Gate implementation located
+- [ ] all seven reasoning phases established
+- [ ] phase order established
+- [ ] deterministic boundary established
+- [ ] reasoning implementation located
+- [ ] state model established
+- [ ] (S_t) semantics established
+- [ ] (S\_{t+1}) semantics established
+- [ ] commit predicate established
+- [ ] signature semantics established
+- [ ] commit implementation located
+- [ ] dispatch target established
+- [ ] state conflict behavior established
+- [ ] failure behavior established
+- [ ] negative cases tested
+- [ ] provenance persistence tested
+- [ ] external side effects characterized
 
 Until then:
 
@@ -4680,9 +4680,9 @@ implementation_status:
 CONCEPTUAL_SOURCE_DEFINED
 ```
 
----
+______________________________________________________________________
 
-# 163. Master Runtime Invariants
+## 163. Master Runtime Invariants
 
 ## CR-I1 — Inputs Are Not Automatically Facts
 
@@ -4768,9 +4768,9 @@ SourceDefinedRuntimeModel
 VerifiedRuntimeImplementation
 $$
 
----
+______________________________________________________________________
 
-# 164. Master Execution Mesh
+## 164. Master Execution Mesh
 
 ```text
 ┌─────────────────────────────────────────────────────────────────────┐
@@ -4794,9 +4794,9 @@ runtime binding             runtime binding            runtime binding
 UNKNOWN                     UNKNOWN                    UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 165. Master Core-to-Runtime Law
+## 165. Master Core-to-Runtime Law
 
 The source can be normalized as:
 
@@ -4822,9 +4822,9 @@ VerifiedCommitDispatch
 }
 $$
 
----
+______________________________________________________________________
 
-# 166. Master Epistemic Law
+## 166. Master Epistemic Law
 
 $$
 \boxed{
@@ -4836,9 +4836,9 @@ $$
 
 A claim's epistemic class changes only when the evidence supports that change.
 
----
+______________________________________________________________________
 
-# 167. Master State Law
+## 167. Master State Law
 
 $$
 \boxed{
@@ -4858,9 +4858,9 @@ $$
 
 does not itself establish that the resulting state represents external reality correctly.
 
----
+______________________________________________________________________
 
-# 168. Master Determinism Law
+## 168. Master Determinism Law
 
 $$
 \boxed{
@@ -4874,9 +4874,9 @@ $$
 
 Input integrity remains load-bearing.
 
----
+______________________________________________________________________
 
-# 169. Master Commit Law
+## 169. Master Commit Law
 
 $$
 \boxed{
@@ -4890,9 +4890,9 @@ as a derived v4.4-compatible integrity condition.
 
 If a load-bearing dependency has changed, commit should be revalidated rather than silently relying on stale state.
 
----
+______________________________________________________________________
 
-# 170. Master Provenance Law
+## 170. Master Provenance Law
 
 $$
 \boxed{
@@ -4911,9 +4911,9 @@ as a derived provenance requirement.
 
 This does not claim that the source-defined Runtime currently implements such persistence.
 
----
+______________________________________________________________________
 
-# 171. Master Counterpart Law
+## 171. Master Counterpart Law
 
 $$
 \boxed{
@@ -4933,9 +4933,9 @@ OneToOneMappingToFourStages
 }
 $$
 
----
+______________________________________________________________________
 
-# 172. Source-to-Derived Boundary
+## 172. Source-to-Derived Boundary
 
 ## Directly source-defined
 
@@ -5030,9 +5030,9 @@ EMPIRICAL VALIDATION
 FORMAL VERIFICATION
 ```
 
----
+______________________________________________________________________
 
-# 173. Final RSCF Contract
+## 173. Final RSCF Contract
 
 ```yaml
 RSCF:
@@ -5125,9 +5125,9 @@ RSCF:
       UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 174. Final Proof Capsule
+## 174. Final Proof Capsule
 
 ```yaml
 PROOF_CAPSULE:
@@ -5199,9 +5199,9 @@ PROOF_CAPSULE:
       UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 175. Final Canonical Candidate Statement
+## 175. Final Canonical Candidate Statement
 
 The **Core × Runtime Cognitive Matrix** source-defines an AMOS execution interface connecting:
 
@@ -5448,7 +5448,7 @@ UNKNOWN/GAP.
 
 ---
 
-**Related:**  ·  ·  · `04_RUNTIME/04_RUNTIME_MOC` · `01_CANON/01_CANON_MOC` ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·
+**Related:**  `04_RUNTIME/04_RUNTIME_MOC` · `01_CANON/01_CANON_MOC`
 
 ---
 
@@ -5515,7 +5515,3 @@ RSCF-RELATIONS:
 ---
 
 **END OF `CORE_X_RUNTIME.md`**
-
-
-```
-```

@@ -12,18 +12,18 @@ segment: 21_DOMAINS/09_FINANCE
 artifact_kind: DOMAIN_OS
 path: 21_DOMAINS/09_FINANCE/OMEGA_FX_STRUCTURAL_OS.md
 tags:
-- amos-os
-- domain
-- vault
-- 09_finance
-- omega_fx_structural_os
-- currency_architecture
-- fx_execution_platform
-- rscf
-- canon_candidate
-- canon/domain
-- trang-zero-forex
-- macro-economy-kernel
+  - amos-os
+  - domain
+  - vault
+  - 09_finance
+  - omega_fx_structural_os
+  - currency_architecture
+  - fx_execution_platform
+  - rscf
+  - canon_candidate
+  - canon/domain
+  - trang-zero-forex
+  - macro-economy-kernel
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -38,20 +38,20 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - 21_DOMAINS/09_FINANCE/TRANG_ZERO_FOREX
-  - 21_DOMAINS/09_FINANCE/09_FINANCE_MOC
-  - AMOS_CORPUS
+    - 21_DOMAINS/09_FINANCE/TRANG_ZERO_FOREX
+    - 21_DOMAINS/09_FINANCE/09_FINANCE_MOC
+    - AMOS_CORPUS
   scope:
-  - DOMAIN_FINANCE
-  - FX_OS
-  - SOURCE_DEFINED_MODEL
+    - DOMAIN_FINANCE
+    - FX_OS
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   forex_engine:
     artifact:
-    - - TRANG_ZERO_FOREX
+      -   - TRANG_ZERO_FOREX
   finance_moc:
     artifact:
-    - - 09_FINANCE_MOC
+      -   - 09_FINANCE_MOC
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   domain_structure: VERIFIED_SOURCE_STRUCTURE
@@ -63,25 +63,25 @@ epistemic_boundary:
 
 `OMEGA_FX_STRUCTURAL_OS.md` is the canonical Domain Plane specification governing the high-frequency currency execution platform, cross-border liquidity routing, and automated risk settlement infrastructure within `21_DOMAINS/09_FINANCE`.
 
----
+______________________________________________________________________
 
-# 1. Omega FX Platform Architecture
+## 1. Omega FX Platform Architecture
 
 1. **Order Routing & Execution Engine:** Routes multi-currency liquidity orders with sub-millisecond execution latencies.
-2. **Dynamic Fragility Risk Governor:** Dynamically throttles leverage and position sizing based on real-time macro vulnerability metrics ($\Omega$).
-3. **Cryptographic Settlement Invariant:** Emits signed transaction receipts and verified proof capsules for every executed balance adjustment.
+1. **Dynamic Fragility Risk Governor:** Dynamically throttles leverage and position sizing based on real-time macro vulnerability metrics ($\Omega$).
+1. **Cryptographic Settlement Invariant:** Emits signed transaction receipts and verified proof capsules for every executed balance adjustment.
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Trang Zero Forex:** [[21_DOMAINS/09_FINANCE/TRANG_ZERO_FOREX|TRANG_ZERO_FOREX]]
 - **Macro Economy:** [[21_DOMAINS/09_FINANCE/MACRO_ECONOMY_KERNEL|MACRO_ECONOMY_KERNEL]]
 - **Finance MOC:** [[21_DOMAINS/09_FINANCE/09_FINANCE_MOC|09_FINANCE_MOC]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -99,10 +99,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[21_DOMAINS/21_DOMAINS_MOC|21_DOMAINS_MOC]] · [[21_DOMAINS/09_FINANCE/TRANG_ZERO_FOREX|TRANG_ZERO_FOREX]] · [[21_DOMAINS/09_FINANCE/09_FINANCE_MOC|09_FINANCE_MOC]]
 
----
-**MOC:** [[21_DOMAINS/09_FINANCE/09_FINANCE_MOC|09_FINANCE_MOC]]
+______________________________________________________________________
 
+**MOC:** [[21_DOMAINS/09_FINANCE/09_FINANCE_MOC|09_FINANCE_MOC]]

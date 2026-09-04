@@ -12,21 +12,21 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: FRAMEWORK
 path: 11_KNOWLEDGE/05_FRAMEWORKS/TRANG_GRAND_SYSTEM_LOGIC_SPECIFICATION.md
 tags:
-- amos-os
-- knowledge
-- vault
-- 05_frameworks
-- trang_grand_system_logic_spec
-- formal_logic
-- logic_specification
-- formal_axiomatization
-- rscf
-- canon_candidate
-- canon/knowledge
-- trang-grand-system
-- trang-grand-system-codex
-- ldai-logically-deterministic-ai
-- qls-framework
+  - amos-os
+  - knowledge
+  - vault
+  - 05_frameworks
+  - trang_grand_system_logic_spec
+  - formal_logic
+  - logic_specification
+  - formal_axiomatization
+  - rscf
+  - canon_candidate
+  - canon/knowledge
+  - trang-grand-system
+  - trang-grand-system-codex
+  - ldai-logically-deterministic-ai
+  - qls-framework
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -41,23 +41,23 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - TRANG_GRAND_SYSTEM_LOGIC_SPECIFICATION
-  - TRANG_FRAMEWORK_FORMALIZATION
-  - AMOS_CORPUS
+    - TRANG_GRAND_SYSTEM_LOGIC_SPECIFICATION
+    - TRANG_FRAMEWORK_FORMALIZATION
+    - AMOS_CORPUS
   scope:
-  - KNOWLEDGE_FRAMEWORKS
-  - LOGICAL_SPECIFICATIONS
-  - SOURCE_DEFINED_MODEL
+    - KNOWLEDGE_FRAMEWORKS
+    - LOGICAL_SPECIFICATIONS
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   grand_system:
     artifact:
-    - - TRANG_GRAND_SYSTEM
+      -   - TRANG_GRAND_SYSTEM
   codex:
     artifact:
-    - - TRANG_GRAND_SYSTEM_CODEX
+      -   - TRANG_GRAND_SYSTEM_CODEX
   deterministic_engine:
     artifact:
-    - - LDAI_LOGICALLY_DETERMINISTIC_AI
+      -   - LDAI_LOGICALLY_DETERMINISTIC_AI
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
@@ -69,31 +69,31 @@ epistemic_boundary:
 
 `TRANG_GRAND_SYSTEM_LOGIC_SPECIFICATION.md` is the canonical Knowledge Plane reference artifact specifying the formal mathematical logic, algebraic types, and inference rules underpinning the **Trang Grand System** within `11_KNOWLEDGE/05_FRAMEWORKS`.
 
----
+______________________________________________________________________
 
-# 1. Formal Logical Operators & Inference Rules
+## 1. Formal Logical Operators & Inference Rules
 
 1. **Distinction Operator ($\mathcal{D}_\Omega$):**
    $$\mathcal{D}_\Omega(P) \to (S_1 \mid S_2), \quad S_1 \cap S_2 = \emptyset$$
-2. **Relational Coupling ($\mathcal{R}_\mu$):**
+1. **Relational Coupling ($\mathcal{R}_\mu$):**
    $$\mathcal{R}_\mu(S_1, S_2) \to \text{Tensor } \mathcal{T}_{1,2}$$
-3. **Constraint Function ($\mathcal{C}_\kappa$):**
+1. **Constraint Function ($\mathcal{C}_\kappa$):**
    $$\mathcal{C}_\kappa(\mathcal{T}) \to \mathcal{T}_{\text{admissible}}$$
-4. **State Transition Mapping:**
+1. **State Transition Mapping:**
    $$S_{t+1} = \mathcal{C}_\kappa\left( \mathcal{F}(\mathcal{D}_\Omega, \mathcal{R}_\mu, S_t) \right)$$
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Grand System Master:** [[11_KNOWLEDGE/05_FRAMEWORKS/TRANG_GRAND_SYSTEM|TRANG_GRAND_SYSTEM]]
 - **Grand Codex:** [[11_KNOWLEDGE/05_FRAMEWORKS/TRANG_GRAND_SYSTEM_CODEX|TRANG_GRAND_SYSTEM_CODEX]]
 - **Deterministic Logic:** [[11_KNOWLEDGE/05_FRAMEWORKS/LDAI_LOGICALLY_DETERMINISTIC_AI|LDAI_LOGICALLY_DETERMINISTIC_AI]] and [[11_KNOWLEDGE/05_FRAMEWORKS/QLS_FRAMEWORK|QLS_FRAMEWORK]]
 - **Native Source:** `TRANG_GRAND_SYSTEM_LOGIC_SPECIFICATION`
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -111,10 +111,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/TRANG_GRAND_SYSTEM|TRANG_GRAND_SYSTEM]] · [[11_KNOWLEDGE/05_FRAMEWORKS/TRANG_GRAND_SYSTEM_CODEX|TRANG_GRAND_SYSTEM_CODEX]] · [[11_KNOWLEDGE/05_FRAMEWORKS/LDAI_LOGICALLY_DETERMINISTIC_AI|LDAI_LOGICALLY_DETERMINISTIC_AI]]
 
----
-**MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]
+______________________________________________________________________
 
+**MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]

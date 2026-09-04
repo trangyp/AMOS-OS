@@ -1,12 +1,15 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: INDEX COGNITIVE MATRIX COGNITIVE MATRIX CONTRACT
 type: index
 source: 25_COGNITIVE_MATRIX/00_INDEX
 tags:
-- cognitive-matrix
-- index
-- contract
-- domain/cognitive-matrix
+  - cognitive-matrix
+  - index
+  - contract
+  - domain/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -25,26 +28,24 @@ rscf:
 **Epistemic class:** `AMOS_MODEL + SOURCE_CANON_BINDING`
 **Status:** `ACTIVE STRUCTURAL CONTRACT`
 
----
+______________________________________________________________________
 
-# 0. Contract Purpose
+## 0. Contract Purpose
 
 This document defines the authoritative structural contract for the **AMOS Cognitive Matrix**.
 
 The Cognitive Matrix is the coordinate system that maps cognitive function across four orthogonal axes:
 
-[
-\mathcal{M}
-===========
+## \[ \\mathcal{M}
 
 P
-\times
+\\times
 O
-\times
+\\times
 C
-\times
+\\times
 S
-]
+\]
 
 where:
 
@@ -109,9 +110,9 @@ Validator
 Authority
 ```
 
----
+______________________________________________________________________
 
-# 1. Architectural Position
+## 1. Architectural Position
 
 The Cognitive Matrix is a cross-cutting addressing layer inside AMOS OS.
 
@@ -188,9 +189,9 @@ a Runtime
 
 It coordinates them.
 
----
+______________________________________________________________________
 
-# 2. Fundamental Separation Laws
+## 2. Fundamental Separation Laws
 
 ```text
 CANON != MATRIX
@@ -242,9 +243,9 @@ STRUCTURALLY_INVALID
 
 until repaired.
 
----
+______________________________________________________________________
 
-# 3. Axis P — Cognitive Primitive
+## 3. Axis P — Cognitive Primitive
 
 The Primitive axis defines **what cognitive function exists**.
 
@@ -311,9 +312,9 @@ PRIMITIVE_SEMANTICS
 IMPLEMENTATION_MECHANISM
 ```
 
----
+______________________________________________________________________
 
-# 4. Axis O — Lifecycle Operation
+## 4. Axis O — Lifecycle Operation
 
 The Lifecycle Operation axis describes **what transformation is currently being performed**.
 
@@ -359,9 +360,9 @@ It does not mean:
 
 > Memory is the same thing as World Modeling.
 
----
+______________________________________________________________________
 
-# 5. Axis C — Control Plane
+## 5. Axis C — Control Plane
 
 The Control Plane axis specifies **which cognitive-control field governs or constrains the current cell**.
 
@@ -403,9 +404,9 @@ C01_GOVERNANCE
 AMOS_COMMIT_GOVERNOR
 ```
 
----
+______________________________________________________________________
 
-# 6. Axis S — H/M/L Scale
+## 6. Axis S — H/M/L Scale
 
 Every cell exists at a declared scale.
 
@@ -458,9 +459,9 @@ M_PASS != H_PASS
 LOCAL_VALIDITY != CROSS_SCALE_VALIDITY
 ```
 
----
+______________________________________________________________________
 
-# 7. Canonical Cell Address
+## 7. Canonical Cell Address
 
 Every Matrix cell has a deterministic identity.
 
@@ -496,18 +497,16 @@ The address identifies a structural coordinate.
 
 It does not imply implementation.
 
----
+______________________________________________________________________
 
-# 8. Cell Identity Invariant
+## 8. Cell Identity Invariant
 
 For every cell:
 
-[
-CellID
-======
+## \[ CellID
 
 f(P,O,C,S)
-]
+\]
 
 and:
 
@@ -526,9 +525,9 @@ tuple.
 
 Aliases must resolve to the canonical CellID.
 
----
+______________________________________________________________________
 
-# 9. Cell Contract Object
+## 9. Cell Contract Object
 
 Every cell conceptually conforms to:
 
@@ -608,9 +607,9 @@ cell:
     gap_priority:
 ```
 
----
+______________________________________________________________________
 
-# 10. Cell Status Model
+## 10. Cell Status Model
 
 Cell state must be multidimensional.
 
@@ -625,9 +624,9 @@ ValidationStatus
 GovernanceStatus
 ```
 
----
+______________________________________________________________________
 
-# 11. Structural Status
+## 11. Structural Status
 
 Allowed structural states:
 
@@ -667,9 +666,9 @@ STRUCTURALLY_COMPLETE
 EMPIRICALLY_VALIDATED
 ```
 
----
+______________________________________________________________________
 
-# 12. Implementation Status
+## 12. Implementation Status
 
 ```text
 NOT_IMPLEMENTED
@@ -705,9 +704,9 @@ Hard law:
 SCAFFOLDED != IMPLEMENTED
 ```
 
----
+______________________________________________________________________
 
-# 13. Validation Status
+## 13. Validation Status
 
 ```text
 UNVALIDATED
@@ -729,9 +728,9 @@ Validation is scoped.
 
 A cell validated at `L` scale is not automatically validated at `H`.
 
----
+______________________________________________________________________
 
-# 14. Governance Status
+## 14. Governance Status
 
 ```text
 NOT_APPLICABLE
@@ -751,9 +750,9 @@ QUARANTINED
 
 A cell may be cognitively valid but governance-blocked.
 
----
+______________________________________________________________________
 
-# 15. Source Coverage Classes
+## 15. Source Coverage Classes
 
 The source Matrix may classify cell coverage using:
 
@@ -774,9 +773,9 @@ SOURCE_EXISTING
 RUNTIME_IMPLEMENTED
 ```
 
----
+______________________________________________________________________
 
-# 16. Primitive Package Contract
+## 16. Primitive Package Contract
 
 Every Primitive folder must eventually contain:
 
@@ -811,9 +810,9 @@ They do not need equal size.
 
 Only decision-relevant content should be loaded at runtime.
 
----
+______________________________________________________________________
 
-# 17. Primitive Completion Criterion
+## 17. Primitive Completion Criterion
 
 A primitive is `COMPLETE_FOR_SCOPE` only if its declared scope has:
 
@@ -839,9 +838,9 @@ provenance
 
 and no unresolved critical gap remains.
 
----
+______________________________________________________________________
 
-# 18. Lifecycle Operation Package Contract
+## 18. Lifecycle Operation Package Contract
 
 Every operation must define:
 
@@ -868,9 +867,9 @@ GAP_MATRIX
 
 Operations must define transformation semantics.
 
----
+______________________________________________________________________
 
-# 19. Control Plane Package Contract
+## 19. Control Plane Package Contract
 
 Every Matrix control plane must define:
 
@@ -896,9 +895,9 @@ GAP MATRIX
 PROVENANCE
 ```
 
----
+______________________________________________________________________
 
-# 20. Scale Package Contract
+## 20. Scale Package Contract
 
 Each H/M/L scale must define:
 
@@ -917,9 +916,9 @@ GAP MATRIX
 
 Cross-scale translation is explicit.
 
----
+______________________________________________________________________
 
-# 21. Cell Binding Contract
+## 21. Cell Binding Contract
 
 A cell may bind to multiple infrastructure components.
 
@@ -963,9 +962,9 @@ CANDIDATE
 
 and require validation before promotion.
 
----
+______________________________________________________________________
 
-# 22. Binding States
+## 22. Binding States
 
 ```text
 UNMAPPED
@@ -991,9 +990,9 @@ Hard law:
 CANDIDATE_BINDING != VALIDATED_BINDING
 ```
 
----
+______________________________________________________________________
 
-# 23. Kernel Binding
+## 23. Kernel Binding
 
 A Kernel provides deterministic or strongly governed logic.
 
@@ -1010,9 +1009,9 @@ L11 CAUSAL_MODELING
 
 A Kernel must not silently inherit authority because a cell uses it.
 
----
+______________________________________________________________________
 
-# 24. Organ Binding
+## 24. Organ Binding
 
 An Organ represents a functional subsystem.
 
@@ -1031,9 +1030,9 @@ PRIMITIVE != ORGAN
 
 because a primitive is conceptual/function-level while an organ is an implementation architecture.
 
----
+______________________________________________________________________
 
-# 25. Agent Binding
+## 25. Agent Binding
 
 Agents are role executors.
 
@@ -1055,9 +1054,9 @@ AGENT_ROLE
 COGNITIVE_FUNCTION
 ```
 
----
+______________________________________________________________________
 
-# 26. Skill Binding
+## 26. Skill Binding
 
 Skills provide reusable procedures.
 
@@ -1072,9 +1071,9 @@ A Skill provides capability.
 
 It does not authorize execution.
 
----
+______________________________________________________________________
 
-# 27. Workflow Binding
+## 27. Workflow Binding
 
 Workflows coordinate sequences of:
 
@@ -1095,9 +1094,9 @@ Workflow binding must declare:
 - rollback;
 - authority boundaries.
 
----
+______________________________________________________________________
 
-# 28. Protocol Binding
+## 28. Protocol Binding
 
 Protocols define component interaction.
 
@@ -1123,9 +1122,9 @@ P_REPLAY_LEDGER
 
 Protocols are not implementations.
 
----
+______________________________________________________________________
 
-# 29. Memory Binding
+## 29. Memory Binding
 
 A cell may consume or produce memory.
 
@@ -1162,9 +1161,9 @@ dependencies
 retention class
 ```
 
----
+______________________________________________________________________
 
-# 30. State Binding
+## 30. State Binding
 
 Cells may interact with:
 
@@ -1187,9 +1186,9 @@ WORKING_STATE
 AUTHORITATIVE_STATE
 ```
 
----
+______________________________________________________________________
 
-# 31. Knowledge Binding
+## 31. Knowledge Binding
 
 Cells may read:
 
@@ -1204,9 +1203,9 @@ domain knowledge
 
 Knowledge binding must retain semantic origin.
 
----
+______________________________________________________________________
 
-# 32. Model Binding
+## 32. Model Binding
 
 Models may implement cell capabilities.
 
@@ -1224,9 +1223,9 @@ Hard law:
 MODEL_OUTPUT != AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 33. Tool Binding
+## 33. Tool Binding
 
 Tools provide external capabilities.
 
@@ -1242,15 +1241,13 @@ observability
 failure semantics
 ```
 
----
+______________________________________________________________________
 
-# 34. Routing Function
+## 34. Routing Function
 
 AMOS runtime resolves:
 
-[
-Route
-=====
+## \[ Route
 
 f(
 P,O,C,S,
@@ -1261,7 +1258,7 @@ Authority,
 Capability,
 Dependencies
 )
-]
+\]
 
 Output:
 
@@ -1277,9 +1274,9 @@ ValidationRequirements
 AuthorityRequirements
 ```
 
----
+______________________________________________________________________
 
-# 35. Smallest Sufficient Cell Set
+## 35. Smallest Sufficient Cell Set
 
 AMOS must not activate all 13,770 cells for every task.
 
@@ -1299,9 +1296,9 @@ DecisionRelevantCoverageSatisfied
 
 This is the Matrix fast-path principle.
 
----
+______________________________________________________________________
 
-# 36. Dependency Graph
+## 36. Dependency Graph
 
 Dependencies include:
 
@@ -1335,16 +1332,14 @@ effect dependency
 
 Represent as:
 
-[
-G_M
-===
+## \[ G_M
 
-(V_{cells}, E_{dependencies})
-]
+(V\_{cells}, E\_{dependencies})
+\]
 
----
+______________________________________________________________________
 
-# 37. Dependency Types
+## 37. Dependency Types
 
 ```text
 REQUIRES
@@ -1368,9 +1363,9 @@ RECOVERS
 SUPERCEDES
 ```
 
----
+______________________________________________________________________
 
-# 38. Selective Invalidation
+## 38. Selective Invalidation
 
 If a dependency fails:
 
@@ -1386,17 +1381,17 @@ invalidate the entire Matrix
 
 Formally:
 
-[
+\[
 Invalid(D)
-\Rightarrow
+\\Rightarrow
 Invalidate(Descendants(D))
-]
+\]
 
 within the affected dependency graph.
 
----
+______________________________________________________________________
 
-# 39. Cross-Scale Translation
+## 39. Cross-Scale Translation
 
 Scale transitions require explicit translation.
 
@@ -1424,15 +1419,15 @@ does not establish:
 system-level predictive validity
 ```
 
----
+______________________________________________________________________
 
-# 40. Upward Composition
+## 40. Upward Composition
 
 For:
 
-[
-L \rightarrow M \rightarrow H
-]
+\[
+L \\rightarrow M \\rightarrow H
+\]
 
 AMOS checks:
 
@@ -1443,15 +1438,15 @@ AMOS checks:
 - regime consistency;
 - causal compatibility.
 
----
+______________________________________________________________________
 
-# 41. Downward Constraint
+## 41. Downward Constraint
 
 For:
 
-[
-H \rightarrow M \rightarrow L
-]
+\[
+H \\rightarrow M \\rightarrow L
+\]
 
 high-level constraints may restrict lower-level action.
 
@@ -1463,9 +1458,9 @@ H-level governance rule
 → blocks L-level tool call
 ```
 
----
+______________________________________________________________________
 
-# 42. RSCF Requirement
+## 42. RSCF Requirement
 
 Every consequential Matrix conclusion must be representable as:
 
@@ -1486,21 +1481,21 @@ rscf:
   confidence_ceiling:
 ```
 
----
+______________________________________________________________________
 
-# 43. Confidence Rule
+## 43. Confidence Rule
 
-[
+\[
 Conf(C)
-\leq
-\min_i Conf(P_i)
-]
+\\leq
+\\min_i Conf(P_i)
+\]
 
 unless independent revalidation raises the relevant premise confidence.
 
----
+______________________________________________________________________
 
-# 44. Evidence Classes
+## 44. Evidence Classes
 
 Allowed evidence typing:
 
@@ -1524,9 +1519,9 @@ COMPETING
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 45. Provenance Contract
+## 45. Provenance Contract
 
 Every load-bearing Matrix object should retain:
 
@@ -1544,9 +1539,9 @@ trust class
 
 Multiple descendants of one source do not constitute independent confirmation.
 
----
+______________________________________________________________________
 
-# 46. Freshness Contract
+## 46. Freshness Contract
 
 A Matrix conclusion is valid only within its freshness envelope.
 
@@ -1560,9 +1555,9 @@ valid_until(C)
 
 or explicit revalidation must occur.
 
----
+______________________________________________________________________
 
-# 47. Regime Contract
+## 47. Regime Contract
 
 Every consequential claim should specify:
 
@@ -1576,9 +1571,9 @@ assumptions
 
 A regime shift may selectively invalidate dependent cells.
 
----
+______________________________________________________________________
 
-# 48. Control-Plane Requirements
+## 48. Control-Plane Requirements
 
 A cell may require one or more of:
 
@@ -1604,9 +1599,9 @@ Kernel Control
 
 The Matrix control-plane mapping must not bypass infrastructure governance.
 
----
+______________________________________________________________________
 
-# 49. Infrastructure Authority Boundary
+## 49. Infrastructure Authority Boundary
 
 Durable action remains owned by AMOS infrastructure.
 
@@ -1623,9 +1618,9 @@ Cell
 → Commit
 ```
 
----
+______________________________________________________________________
 
-# 50. Effect Classes
+## 50. Effect Classes
 
 ```text
 PURE
@@ -1643,9 +1638,9 @@ INFORMATION_RELEASE
 
 Only bounded pure/reversible work may use the local fast path.
 
----
+______________________________________________________________________
 
-# 51. Prepare / Commit Boundary
+## 51. Prepare / Commit Boundary
 
 ```text
 PREPARE_PASS
@@ -1665,9 +1660,9 @@ risk
 effect manifest
 ```
 
----
+______________________________________________________________________
 
-# 52. Gap Taxonomy
+## 52. Gap Taxonomy
 
 Every incomplete Matrix coordinate uses one of:
 
@@ -1681,9 +1676,9 @@ EXPLANATORY_GAP
 COSMETIC_GAP
 ```
 
----
+______________________________________________________________________
 
-# 53. Structural Gap
+## 53. Structural Gap
 
 A `STRUCTURAL_GAP` means:
 
@@ -1695,9 +1690,9 @@ It does not automatically mean:
 - runtime bug;
 - scientific unknown.
 
----
+______________________________________________________________________
 
-# 54. Gap Object
+## 54. Gap Object
 
 ```yaml
 gap:
@@ -1714,9 +1709,9 @@ gap:
   status:
 ```
 
----
+______________________________________________________________________
 
-# 55. Gap Promotion
+## 55. Gap Promotion
 
 Gap lifecycle:
 
@@ -1738,9 +1733,9 @@ VALIDATING
 CLOSED_FOR_SCOPE
 ```
 
----
+______________________________________________________________________
 
-# 56. No False Gap Closure
+## 56. No False Gap Closure
 
 ```text
 FILE_EXISTS
@@ -1758,9 +1753,9 @@ GAP_CLOSED
 
 A gap closes only when its completion criterion is satisfied.
 
----
+______________________________________________________________________
 
-# 57. Validation Ladder
+## 57. Validation Ladder
 
 ```text
 V0 UNDEFINED
@@ -1780,9 +1775,9 @@ V6 SYSTEM_VALIDATED
 V7 OPERATIONALLY_MONITORED
 ```
 
----
+______________________________________________________________________
 
-# 58. Cell Promotion
+## 58. Cell Promotion
 
 Canonical promotion:
 
@@ -1805,9 +1800,9 @@ QUARANTINED
 STRUCTURAL_GAP
 ```
 
----
+______________________________________________________________________
 
-# 59. Testing Requirements
+## 59. Testing Requirements
 
 Cell tests may include:
 
@@ -1839,9 +1834,9 @@ replay tests
 recovery tests
 ```
 
----
+______________________________________________________________________
 
-# 60. Falsification Requirement
+## 60. Falsification Requirement
 
 Every important Matrix claim should state:
 
@@ -1851,9 +1846,9 @@ What observation would make this false?
 
 No architectural claim is protected from falsification merely because it is canonical AMOS terminology.
 
----
+______________________________________________________________________
 
-# 61. Failure Classes
+## 61. Failure Classes
 
 Matrix-level failures include:
 
@@ -1891,9 +1886,9 @@ regime mismatch
 semantic drift
 ```
 
----
+______________________________________________________________________
 
-# 62. Repair Model
+## 62. Repair Model
 
 Repair pipeline:
 
@@ -1909,9 +1904,9 @@ DETECT
 → SELECTIVELY REINTRODUCE
 ```
 
----
+______________________________________________________________________
 
-# 63. Recovery Invariant
+## 63. Recovery Invariant
 
 Repair must preserve unaffected Matrix state.
 
@@ -1923,9 +1918,9 @@ GLOBAL_RECOMPUTATION_REQUIREMENT
 
 Global recomputation is the last resort.
 
----
+______________________________________________________________________
 
-# 64. Coverage Model
+## 64. Coverage Model
 
 Coverage is measured separately for:
 
@@ -1943,84 +1938,74 @@ operational coverage
 
 A single coverage percentage must state which one it represents.
 
----
+______________________________________________________________________
 
-# 65. Structural Coverage
+## 65. Structural Coverage
 
-[
-Coverage_{struct}
-=================
+## \[ Coverage\_{struct}
 
-\frac
+\\frac
 {DefinedCells}
 {13770}
-]
+\]
 
 This does not measure runtime capability.
 
----
+______________________________________________________________________
 
-# 66. Implementation Coverage
+## 66. Implementation Coverage
 
-[
-Coverage_{impl}
-===============
+## \[ Coverage\_{impl}
 
-\frac
+\\frac
 {ImplementedCells}
 {13770}
-]
+\]
 
----
+______________________________________________________________________
 
-# 67. Validation Coverage
+## 67. Validation Coverage
 
-[
-Coverage_{valid}
-================
+## \[ Coverage\_{valid}
 
-\frac
+\\frac
 {ValidatedCells}
 {13770}
-]
+\]
 
----
+______________________________________________________________________
 
-# 68. Operational Coverage
+## 68. Operational Coverage
 
-[
-Coverage_{operational}
-======================
+## \[ Coverage\_{operational}
 
-\frac
+\\frac
 {OperationalCells}
 {13770}
-]
+\]
 
----
+______________________________________________________________________
 
-# 69. Weighted Coverage
+## 69. Weighted Coverage
 
 Not all cells carry equal consequence.
 
 A weighted model may be:
 
-[
-Coverage_w
-==========
+## \[ Coverage_w
 
-\frac
-{\sum_i w_i Valid_i}
-{\sum_i w_i}
-]
+\\frac
+{\\sum_i w_i Valid_i}
+{\\sum_i w_i}
+\]
 
 where `w_i` reflects declared decision relevance.
 
 Weights must be explicit.
 
----
+______________________________________________________________________
 
-# 70. Coverage Anti-Gaming
+## 70. Coverage Anti-Gaming
 
 Do not increase coverage merely by:
 
@@ -2030,9 +2015,9 @@ Do not increase coverage merely by:
 - marking cells existing;
 - duplicating one capability across many cells.
 
----
+______________________________________________________________________
 
-# 71. Generator Contract
+## 71. Generator Contract
 
 Matrix generators may create:
 
@@ -2044,9 +2029,9 @@ Matrix generators may create:
 
 Generators may not automatically mark cells implemented or validated.
 
----
+______________________________________________________________________
 
-# 72. Generator Invariant
+## 72. Generator Invariant
 
 ```text
 GENERATED
@@ -2054,9 +2039,9 @@ GENERATED
 VERIFIED
 ```
 
----
+______________________________________________________________________
 
-# 73. Machine-Readable Registry
+## 73. Machine-Readable Registry
 
 The canonical machine-readable cell registry should support:
 
@@ -2078,9 +2063,9 @@ The canonical machine-readable cell registry should support:
 }
 ```
 
----
+______________________________________________________________________
 
-# 74. Routing Audit
+## 74. Routing Audit
 
 Every runtime routing decision should be auditable as:
 
@@ -2095,9 +2080,9 @@ Task
 → Runtime Execution
 ```
 
----
+______________________________________________________________________
 
-# 75. Cognitive Matrix Runtime Function
+## 75. Cognitive Matrix Runtime Function
 
 Conceptual runtime:
 
@@ -2129,9 +2114,9 @@ observe_outcome()
 update_learning_cells()
 ```
 
----
+______________________________________________________________________
 
-# 76. Closed-Loop Requirement
+## 76. Closed-Loop Requirement
 
 The Matrix must not stop at action.
 
@@ -2150,9 +2135,9 @@ Prediction
 → Updated World Model
 ```
 
----
+______________________________________________________________________
 
-# 77. Outcome Observation Boundary
+## 77. Outcome Observation Boundary
 
 ```text
 ACTION_EXECUTED
@@ -2162,9 +2147,9 @@ OUTCOME_KNOWN
 
 Outcome requires observation.
 
----
+______________________________________________________________________
 
-# 78. Credit Assignment Boundary
+## 78. Credit Assignment Boundary
 
 ```text
 OUTCOME_OCCURRED
@@ -2174,9 +2159,9 @@ CAUSE_IDENTIFIED
 
 Credit assignment must remain probabilistic or `UNKNOWN` where causal attribution is insufficient.
 
----
+______________________________________________________________________
 
-# 79. Learning Boundary
+## 79. Learning Boundary
 
 ```text
 ONE_OUTCOME
@@ -2186,25 +2171,25 @@ GENERAL_RULE
 
 Learning updates require evidence appropriate to impact.
 
----
+______________________________________________________________________
 
-# 80. Consolidation Boundary
+## 80. Consolidation Boundary
 
 Consolidation decides what becomes persistent.
 
 Learning does not automatically become canonical memory.
 
----
+______________________________________________________________________
 
-# 81. Metacognitive Boundary
+## 81. Metacognitive Boundary
 
 Metacognition audits cognition.
 
 It does not create truth through self-reflection.
 
----
+______________________________________________________________________
 
-# 82. Self-Regulation Boundary
+## 82. Self-Regulation Boundary
 
 Self-regulation may:
 
@@ -2216,9 +2201,9 @@ Self-regulation may:
 
 It may not grant itself new authority.
 
----
+______________________________________________________________________
 
-# 83. Identity Continuity
+## 83. Identity Continuity
 
 Identity continuity must track:
 
@@ -2232,9 +2217,9 @@ authority continuity
 
 Identity is not simply a stored name.
 
----
+______________________________________________________________________
 
-# 84. Social Cognition
+## 84. Social Cognition
 
 Social cognition models:
 
@@ -2248,9 +2233,9 @@ Social cognition models:
 
 It must not silently infer subjective mental states.
 
----
+______________________________________________________________________
 
-# 85. Multi-Agent Cognition
+## 85. Multi-Agent Cognition
 
 Multi-agent Matrix cells require explicit:
 
@@ -2264,17 +2249,17 @@ conflict handling
 collective failure modes
 ```
 
----
+______________________________________________________________________
 
-# 86. Governance Primitive
+## 86. Governance Primitive
 
 `L28_GOVERNANCE` represents cognition about governance.
 
 It does not replace infrastructure governance.
 
----
+______________________________________________________________________
 
-# 87. Evolution Primitive
+## 87. Evolution Primitive
 
 `L29_EVOLUTION` covers governed changes to:
 
@@ -2288,9 +2273,9 @@ It does not replace infrastructure governance.
 
 Evolution requires GMEF-style promotion and rollback.
 
----
+______________________________________________________________________
 
-# 88. Matrix Change Governance
+## 88. Matrix Change Governance
 
 Changes to the Matrix contract follow:
 
@@ -2307,9 +2292,9 @@ PROPOSE
 → ROLLBACK IF REQUIRED
 ```
 
----
+______________________________________________________________________
 
-# 89. Canon Relationship
+## 89. Canon Relationship
 
 Canon defines authoritative meaning.
 
@@ -2332,9 +2317,9 @@ CONTROL PLANE
 → governs effects
 ```
 
----
+______________________________________________________________________
 
-# 90. Source/Model Firewall
+## 90. Source/Model Firewall
 
 Any Matrix equation or structural mapping must identify whether it is:
 
@@ -2354,9 +2339,9 @@ VERIFIED
 
 Do not present AMOS structural equations as established scientific laws without independent evidence.
 
----
+______________________________________________________________________
 
-# 91. Completion Criterion — Matrix Infrastructure
+## 91. Completion Criterion — Matrix Infrastructure
 
 The Matrix infrastructure is `COMPLETE_FOR_SCOPE` only when:
 
@@ -2376,9 +2361,9 @@ The Matrix infrastructure is `COMPLETE_FOR_SCOPE` only when:
 - generator behavior is deterministic;
 - structural completeness is not confused with empirical validity.
 
----
+______________________________________________________________________
 
-# 92. Matrix Global Completion Is Not Required
+## 92. Matrix Global Completion Is Not Required
 
 The existence of 13,770 cells does not mean all 13,770 cells must be fully implemented.
 
@@ -2396,9 +2381,9 @@ UNIVERSAL COMPLETENESS
 
 A task is sufficiently covered when its required dependency-closed cell set is validated for the relevant scope.
 
----
+______________________________________________________________________
 
-# 93. Completion States
+## 93. Completion States
 
 Use:
 
@@ -2414,9 +2399,9 @@ CONTRADICTORY
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 94. Matrix RSCF
+## 94. Matrix RSCF
 
 ```yaml
 matrix_rscf:
@@ -2464,9 +2449,9 @@ matrix_rscf:
     bounded by canonical registry integrity
 ```
 
----
+______________________________________________________________________
 
-# 95. Matrix Hard Invariant Registry
+## 95. Matrix Hard Invariant Registry
 
 ```text
 M01 MATRIX != IMPLEMENTATION
@@ -2550,9 +2535,9 @@ M39 NEWER != BETTER
 M40 INTEGRITY > COMPLETENESS > FLUENCY > SPEED
 ```
 
----
+______________________________________________________________________
 
-# 96. Matrix Failure Stop Codes
+## 96. Matrix Failure Stop Codes
 
 ```text
 MATRIX_OK
@@ -2588,9 +2573,9 @@ REPAIR_REQUIRED
 QUARANTINE_REQUIRED
 ```
 
----
+______________________________________________________________________
 
-# 97. Final Contract
+## 97. Final Contract
 
 The Cognitive Matrix exists to answer four questions for every meaningful AMOS cognitive operation:
 
@@ -2653,24 +2638,26 @@ MAKE EVERY EFFECT AUTHORITY-GOVERNED.
 NEVER CONFUSE STRUCTURAL COMPLETENESS WITH TRUTH.
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: index_cognitive_matrix_cognitive_matrix_contract
 node_type: note
 path: 25_COGNITIVE_MATRIX/00_INDEX/INDEX_COGNITIVE_MATRIX_COGNITIVE_MATRIX_CONTRACT.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
 
 **MOC:** [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_HOME|00_HOME]]
-

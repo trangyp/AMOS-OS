@@ -4,24 +4,22 @@ title: SKILL — Skill Creator
 type: skill
 source: 07_SKILLS/skill-creator
 name: skill-creator
-description: Skill Creator — agent systems capability. Use when agent design, delegation
-  reasoning, or multi-agent governance. Use when amos-agent-systems-master routes
-  to this specialized capability. Do not use for generic tasks outside agent domain.
+description: Skill Creator — agent systems capability. Use when agent design, delegation reasoning, or multi-agent governance. Use when amos-agent-systems-master routes to this specialized capability. Do not use for generic tasks outside agent domain.
 parent_skill: amos-agent-systems-master
 domain: agent
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
 tags:
-- type/skill
-- type/skill
-- domain/agent-systems
-- epistemic/source_claim
-- hml/m
-- epistemic/source_claim
-- amos-os
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/agent-systems
+  - epistemic/source_claim
+  - hml/m
+  - epistemic/source_claim
+  - amos-os
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -31,23 +29,23 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: M
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
-- L7_authority
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
+  - L7_authority
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L7
-- L16
-- L17
-- L18
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L7
+  - L16
+  - L17
+  - L18
 license: MIT
 steward: Trang Phan
 ---
@@ -57,6 +55,7 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: agent. Parent: amos-agent-systems-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
 ## When to Use
 
 - When creating new AMOS skills with proper structure and provenance
@@ -77,6 +76,7 @@ Origin architect: **Trang Phan**. Domain: agent. Parent: amos-agent-systems-mast
 - **skill_creator.verify_agentic**: Verify agentic skill-lie algebroid: structural consistency of agent capabilities
 
 > **Reference**: See `references/vault_domain_knowledge.md` (content_hash: f1ec52500d2df100) for the full vault-sourced domain knowledge (9459 chars).
+
 - **skill_creator.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
 - **skill_creator.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **skill_creator.validate_outputs**: Validate outputs against domain constraints and epistemic class.
@@ -84,12 +84,12 @@ Origin architect: **Trang Phan**. Domain: agent. Parent: amos-agent-systems-mast
 ## Operations
 
 1. **skill_creator.govern_agency**: Govern agency: who acts, under what authority, with what consequences
-2. **skill_creator.design_externalization**: Design agent externalization: what is delegated, to whom, with what controls
-3. **skill_creator.attribute_ownership**: Attribute agent ownership: who is responsible for each agent action
-4. **skill_creator.verify_agentic**: Verify agentic skill-lie algebroid: structural consistency of agent capabilities
-5. **skill_creator.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-6. **skill_creator.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
-7. **skill_creator.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+1. **skill_creator.design_externalization**: Design agent externalization: what is delegated, to whom, with what controls
+1. **skill_creator.attribute_ownership**: Attribute agent ownership: who is responsible for each agent action
+1. **skill_creator.verify_agentic**: Verify agentic skill-lie algebroid: structural consistency of agent capabilities
+1. **skill_creator.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+1. **skill_creator.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+1. **skill_creator.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## 11_KNOWLEDGE Vault Content
 
@@ -102,16 +102,17 @@ The Cognitive Organism OS defines skill creation through a structured pipeline:
 **Pipeline**: ORIENT -> GAP -> SOURCE -> ARCHITECT -> BUILD -> INTEGRATE -> CHALLENGE -> VALIDATE -> PACKAGE
 
 1. **ORIENT**: understand the problem space and identify the capability gap
-2. **GAP**: declare the specific gap the skill will fill
-3. **SOURCE**: find vault sources for the skill content
-4. **ARCHITECT**: design the skill architecture (capabilities, gates, failure modes)
-5. **BUILD**: build the skill content with provenance
-6. **INTEGRATE**: integrate with parent skill and domain master
-7. **CHALLENGE**: challenge the skill with adversarial review
-8. **VALIDATE**: validate against all 10 validation gates
-9. **PACKAGE**: package with 1:1:1 binding (skill + agent + workflow)
+1. **GAP**: declare the specific gap the skill will fill
+1. **SOURCE**: find vault sources for the skill content
+1. **ARCHITECT**: design the skill architecture (capabilities, gates, failure modes)
+1. **BUILD**: build the skill content with provenance
+1. **INTEGRATE**: integrate with parent skill and domain master
+1. **CHALLENGE**: challenge the skill with adversarial review
+1. **VALIDATE**: validate against all 10 validation gates
+1. **PACKAGE**: package with 1:1:1 binding (skill + agent + workflow)
 
 **Skill laws**:
+
 - `SKILL != ONTOLOGY`: a skill is a deployment artifact, not an ontological definition
 - `CAPABILITY != AUTHORITY`: having a capability does not authorize its use
 - `BUILD != COMPLETE`: building a skill is not completing it; completion requires validation and binding
@@ -137,7 +138,8 @@ The skill creator is an operational process. It does not prove skills are always
 - **G5 (Equation firewall)**: Equations carry status tags (ESTABLISHED_MATH / SOURCE_DERIVED / AMOS_MODEL / EMPIRICALLY_CALIBRATED / UNVERIFIED).
 - **G6 (Failure mode)**: On validation failure, downgrade confidence, flag the gap, escala
 
----
+______________________________________________________________________
+
 **Links:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 ## Related
@@ -147,17 +149,19 @@ The skill creator is an operational process. It does not prove skills are always
 ## Examples
 
 - **Scenario**: When creating new AMOS skills with proper structure and provenance
+
   - **Input**: A query matching this skill's domain (agent)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When designing agent systems with delegation reasoning and multi-agent governance
+
   - **Input**: A query matching this skill's domain (agent)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When governing agency: who acts, under what authority, with what consequences
+
   - **Input**: A query matching this skill's domain (agent)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Anti-Patterns
 
@@ -167,7 +171,6 @@ The skill creator is an operational process. It does not prove skills are always
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `amos-agent-systems-master` — routes to this skill when agent specialization is needed
@@ -175,7 +178,6 @@ The skill creator is an operational process. It does not prove skills are always
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -194,7 +196,6 @@ The skill creator is an operational process. It does not prove skills are always
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -202,7 +203,6 @@ The skill creator is an operational process. It does not prove skills are always
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -215,11 +215,12 @@ The skill creator is an operational process. It does not prove skills are always
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `amos-agent-systems-master` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `skill-creator-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -227,12 +228,14 @@ The skill creator is an operational process. It does not prove skills are always
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: skill-creator
 node_type: skill
 path: 07_SKILLS/skill-creator/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

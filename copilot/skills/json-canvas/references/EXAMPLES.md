@@ -1,8 +1,21 @@
+---
+title: Examples
+type: note
+source: .
+tags:
+  - note
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+---
+
 # JSON Canvas examples
 
 ## Connected notes
 
-~~~json
+```json
 {
   "nodes": [
     {
@@ -36,11 +49,11 @@
     }
   ]
 }
-~~~
+```
 
 ## Grouped board
 
-~~~json
+```json
 {
   "nodes": [
     {
@@ -65,8 +78,8 @@
   ],
   "edges": []
 }
-~~~
+```
 
----
+______________________________________________________________________
 
 **MOC:** [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/00_HOME|00_HOME]]

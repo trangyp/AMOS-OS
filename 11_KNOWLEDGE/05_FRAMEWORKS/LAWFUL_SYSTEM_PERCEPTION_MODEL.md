@@ -12,21 +12,21 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: MODEL
 path: 11_KNOWLEDGE/05_FRAMEWORKS/LAWFUL_SYSTEM_PERCEPTION_MODEL.md
 tags:
-- amos-os
-- knowledge
-- vault
-- 05_frameworks
-- lawful_system_perception
-- perception_model
-- invariant_perception
-- structural_sensing
-- rscf
-- canon_candidate
-- canon/knowledge
-- absolute-structural-integrity
-- cognitive-systems-architecture
-- psi-framework
-- first-principles-articulation
+  - amos-os
+  - knowledge
+  - vault
+  - 05_frameworks
+  - lawful_system_perception
+  - perception_model
+  - invariant_perception
+  - structural_sensing
+  - rscf
+  - canon_candidate
+  - canon/knowledge
+  - absolute-structural-integrity
+  - cognitive-systems-architecture
+  - psi-framework
+  - first-principles-articulation
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -41,23 +41,23 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - THE_ARCHITECTURE_OF_INTELLIGENCE_AND_PERCEPTION
-  - ABSOLUTE_INTEGRITY_ARCHITECTURE_CANONICAL_ROOT
-  - AMOS_CORPUS
+    - THE_ARCHITECTURE_OF_INTELLIGENCE_AND_PERCEPTION
+    - ABSOLUTE_INTEGRITY_ARCHITECTURE_CANONICAL_ROOT
+    - AMOS_CORPUS
   scope:
-  - KNOWLEDGE_FRAMEWORKS
-  - PERCEPTION_MODELS
-  - SOURCE_DEFINED_MODEL
+    - KNOWLEDGE_FRAMEWORKS
+    - PERCEPTION_MODELS
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   structural_integrity:
     artifact:
-    - - ABSOLUTE_STRUCTURAL_INTEGRITY
+      -   - ABSOLUTE_STRUCTURAL_INTEGRITY
   cognitive_systems:
     artifact:
-    - - COGNITIVE_SYSTEMS_ARCHITECTURE
+      -   - COGNITIVE_SYSTEMS_ARCHITECTURE
   psi_framework:
     artifact:
-    - - PSI_FRAMEWORK
+      -   - PSI_FRAMEWORK
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
@@ -71,9 +71,9 @@ epistemic_boundary:
 
 It defines how cognitive agents perceive systems through the lens of **explicit governing laws and constraints**, rather than through noisy descriptive surface features.
 
----
+______________________________________________________________________
 
-# 1. Structural Perception Dimensions
+## 1. Structural Perception Dimensions
 
 ```text
 RAW ENVIRONMENTAL SIGNAL
@@ -89,18 +89,18 @@ LAWFUL PERCEPTION FILTER:
 LAWFUL SYSTEM STATE REPRESENTATION
 ```
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Root Integrity:** [[11_KNOWLEDGE/05_FRAMEWORKS/ABSOLUTE_STRUCTURAL_INTEGRITY|ABSOLUTE_STRUCTURAL_INTEGRITY]]
 - **Cognitive Systems:** [[11_KNOWLEDGE/05_FRAMEWORKS/COGNITIVE_SYSTEMS_ARCHITECTURE|COGNITIVE_SYSTEMS_ARCHITECTURE]]
 - **PSI Framework:** [[11_KNOWLEDGE/05_FRAMEWORKS/PSI_FRAMEWORK|PSI_FRAMEWORK]]
 - **First Principles:** [[11_KNOWLEDGE/05_FRAMEWORKS/FIRST_PRINCIPLES_ARTICULATION|FIRST_PRINCIPLES_ARTICULATION]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -118,9 +118,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/ABSOLUTE_STRUCTURAL_INTEGRITY|ABSOLUTE_STRUCTURAL_INTEGRITY]] · [[11_KNOWLEDGE/05_FRAMEWORKS/COGNITIVE_SYSTEMS_ARCHITECTURE|COGNITIVE_SYSTEMS_ARCHITECTURE]] · [[11_KNOWLEDGE/05_FRAMEWORKS/PSI_FRAMEWORK|PSI_FRAMEWORK]]
 
----
+______________________________________________________________________
+
 **MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]

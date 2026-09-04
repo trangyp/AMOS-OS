@@ -1,15 +1,18 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: LLM Wiki MOC
 type: moc
 source: 11_KNOWLEDGE/LLM_WIKI
 tags:
-- llm-wiki
-- 11-knowledge
-- canon/knowledge
-- amos-llm-wiki
-- llm-wiki-log
-- amos-llm-wiki-tool
-- karpathy-llm-wiki-summary
+  - llm-wiki
+  - 11-knowledge
+  - canon/knowledge
+  - amos-llm-wiki
+  - llm-wiki-log
+  - amos-llm-wiki-tool
+  - karpathy-llm-wiki-summary
 moc: true
 rscf:
   state: DERIVED
@@ -23,19 +26,26 @@ rscf:
 **Path:** `11_KNOWLEDGE/LLM_WIKI`
 
 ## Schema
+
 - [[00_ROOT/AMOS_LLM_WIKI|AMOS_LLM_WIKI]] — Wiki schema and operations
 
 ## Special files
+
 - [[11_KNOWLEDGE/LLM_WIKI/wiki/LLM_WIKI_INDEX|LLM_WIKI_INDEX]] — Content catalog
 - [[11_KNOWLEDGE/LLM_WIKI/wiki/LLM_WIKI_LOG|LLM_WIKI_LOG]] — Activity log
 - [[11_KNOWLEDGE/LLM_WIKI/raw/LLM_WIKI_RAW_README|LLM_WIKI_RAW_README]] — Raw collection instructions
 - [[14_TOOLS/AMOS_LLM_WIKI_TOOL|AMOS_LLM_WIKI_TOOL]] — Tooling guide
 
 ## Wiki pages
+
+- [[11_KNOWLEDGE/LLM_WIKI/wiki/amos_llm_wiki_operations|amos_llm_wiki_operations]] — AMOS LLM wiki operations
+
 - [[11_KNOWLEDGE/LLM_WIKI/wiki/karpathy_llm_wiki_summary|karpathy_llm_wiki_summary]] — Karpathy LLM Wiki pattern summary
 - [[11_KNOWLEDGE/LLM_WIKI/wiki/SOTA_AGENT_SKILL_WORKFLOW_REPOS|SOTA_AGENT_SKILL_WORKFLOW_REPOS]] — Synthesized SOTA agent/skill/workflow repo guide
+- [[11_KNOWLEDGE/LLM_WIKI/wiki/llm_wiki_pattern|llm_wiki_pattern]] — Common LLM wiki pattern reference
 
 ## Raw sources
+
 - `11_KNOWLEDGE/LLM_WIKI/raw/` — Immutable source documents
 - [[11_KNOWLEDGE/LLM_WIKI/raw/ADDYOSMANI_AGENT_SKILLS_README_2026_08_30|ADDYOSMANI_AGENT_SKILLS_README_2026_08_30]]
 - [[11_KNOWLEDGE/LLM_WIKI/raw/AGENTFACTORY_README_2026_08_29|AGENTFACTORY_README_2026_08_29]]
@@ -85,21 +95,24 @@ rscf:
 - [[11_KNOWLEDGE/LLM_WIKI/raw/karpathy_llm_wiki_gist|karpathy_llm_wiki_gist]]
 
 ## Related MOCs
+
 - [[11_KNOWLEDGE/11_KNOWLEDGE_MOC|11_KNOWLEDGE_MOC]]
 - [[_MOC|_MOC]]
 - [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: llm_wiki_moc
 node_type: moc
 path: 11_KNOWLEDGE/LLM_WIKI/LLM_WIKI_MOC.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[11_KNOWLEDGE/11_KNOWLEDGE_MOC|11_KNOWLEDGE_MOC]]
-  - INDEXED_BY: [[_MOC|_MOC]]
-  - INDEXED_BY: [[00_ROOT/AMOS_LLM_WIKI|AMOS_LLM_WIKI]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[11_KNOWLEDGE/11_KNOWLEDGE_MOC|11_KNOWLEDGE_MOC]]
+- INDEXED_BY: [[_MOC|_MOC]]
+- INDEXED_BY: [[00_ROOT/AMOS_LLM_WIKI|AMOS_LLM_WIKI]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **Parent:** [[00_ROOT/AMOS_LLM_WIKI|AMOS_LLM_WIKI]]
-

@@ -1,12 +1,15 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Index MOC — Cognitive Matrix / Index
 type: moc
 source: 25_COGNITIVE_MATRIX/00_INDEX
 tags:
-- domain/cognitive-matrix
-- cognitive-matrix-architecture
-- cognitive-matrix-naming-standard
-- status-legend
+  - domain/cognitive-matrix
+  - cognitive-matrix-architecture
+  - cognitive-matrix-naming-standard
+  - status-legend
 moc: true
 rscf:
   state: DERIVED
@@ -33,5 +36,6 @@ rscf:
 - [[25_COGNITIVE_MATRIX/00_INDEX/SCALE_REGISTRY|SCALE_REGISTRY]]
 - [[25_COGNITIVE_MATRIX/00_INDEX/STATUS_LEGEND|STATUS_LEGEND]]
 
----
+______________________________________________________________________
+
 **Parent:** [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]

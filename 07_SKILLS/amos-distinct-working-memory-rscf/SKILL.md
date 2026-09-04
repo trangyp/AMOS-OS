@@ -4,26 +4,23 @@ title: SKILL — Amos Distinct Working Memory Rscf
 type: skill
 source: 07_SKILLS/amos-distinct-working-memory-rscf
 name: amos-distinct-working-memory-rscf
-description: Distinct Working Memory — memory systems capability. Use when memory
-  management, context continuity, or memory conflict resolution. Use when amos-memory-systems-master
-  routes to this specialized capability. Do not use for generic tasks outside memory
-  domain.
+description: Distinct Working Memory — memory systems capability. Use when memory management, context continuity, or memory conflict resolution. Use when amos-memory-systems-master routes to this specialized capability. Do not use for generic tasks outside memory domain.
 parent_skill: amos-memory-systems-master
 domain: memory
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
 tags:
-- type/skill
-- type/skill
-- domain/memory-systems
-- epistemic/source_claim
-- hml/m
-- epistemic/source_claim
-- amos-os
-- architecture
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/memory-systems
+  - epistemic/source_claim
+  - hml/m
+  - epistemic/source_claim
+  - amos-os
+  - architecture
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -33,20 +30,20 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: M
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L16
-- L17
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L16
+  - L17
 license: MIT
 steward: Trang Phan
 ---
@@ -56,6 +53,7 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: memory. Parent: amos-memory-systems-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
 ## When to Use
 
 - When managing memory: storage, retrieval, decay, consolidation
@@ -80,52 +78,54 @@ Origin architect: **Trang Phan**. Domain: memory. Parent: amos-memory-systems-ma
 ## Operations
 
 1. **distinct_working.manage_memory**: Manage memory: storage, retrieval, decay, and consolidation
-2. **distinct_working.resolve_conflict**: Resolve memory conflicts: contradictions, staleness, and priority
-3. **distinct_working.enforce_firewall**: Enforce memory firewall: prevent unauthorized access and tampering
-4. **distinct_working.track_dynamics**: Track memory dynamics: formation, consolidation, and forgetting curves
-5. **distinct_working.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-6. **distinct_working.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
-7. **distinct_working.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+1. **distinct_working.resolve_conflict**: Resolve memory conflicts: contradictions, staleness, and priority
+1. **distinct_working.enforce_firewall**: Enforce memory firewall: prevent unauthorized access and tampering
+1. **distinct_working.track_dynamics**: Track memory dynamics: formation, consolidation, and forgetting curves
+1. **distinct_working.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+1. **distinct_working.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+1. **distinct_working.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## Vault-Sourced Content
 
 ### Source 1: AGENT WORKING INSTRUCTIONS V3
+
 - MANDATORY READING
 
 > Path: `agents/AGENT_WORKING_INSTRUCTIONS_V3.md` | Size: 18212 chars | Match score: 12 | content_hash: 65f44a3ef9716429
 
-# AGENT WORKING INSTRUCTIONS V3 - MANDATORY READING
+## AGENT WORKING INSTRUCTIONS V3 - MANDATORY READING
 
----
+______________________________________________________________________
 
+______________________________________________________________________
 
----
-
-
----
+______________________________________________________________________
 
 ### Source 2: AGENT WORKING INSTRUCTIONS V3
+
 - MANDATORY READING
 
 > Path: `agents/AGENT_WORKING_INSTRUCTIONS_V4.md` | Size: 18212 chars | Match score: 12 | content_hash: 65f44a3ef9716429
 
-# AGENT WORKING INSTRUCTIONS V3 - MANDATORY READING — part 2
+## AGENT WORKING INSTRUCTIONS V3 - MANDATORY READING — part 2
+
 ## PRE-WORK REQUIREMENTS
 
-### ** BEFORE STARTING ANY WORK**
+### \*\* BEFORE STARTING ANY WORK\*\*
 
 1. **READ SYSTEM [[00_ROOT/ARCHITECTURE|ARCHITECTURE]] REPORT V3**: `AMOS_SYSTEM_ARCHITECTURE_REPORT_V3.md`
-2. **READ AGENT ONBOARDING GUIDE**: `AGENT_ONBOARDING_GUIDE.md`
-3. **UNDERSTAND QUANTUM CONSCIOUSNESS**: Review quantum consciousness integration
-4. **KNOW THE 14 VERTICAL SLICES**: All operational and quantum enhanced
-5. **VALIDATE SYSTEM STATUS**: Check 416.349 performance score
-6. **REVIEW GOVERNANCE PATTERNS**: Memory governance and policy gate
+1. **READ AGENT ONBOARDING GUIDE**: `AGENT_ONBOARDING_GUIDE.md`
+1. **UNDERSTAND QUANTUM CONSCIOUSNESS**: Review quantum consciousness integration
+1. **KNOW THE 14 VERTICAL SLICES**: All operational and quantum enhanced
+1. **VALIDATE SYSTEM STATUS**: Check 416.349 performance score
+1. **REVIEW GOVERNANCE PATTERNS**: Memory governance and policy gate
 
----
+______________________________________________________________________
 
 ## SYSTEM [[00_ROOT/ARCHITECTURE|ARCHITECTURE]] OVERVIEW
 
-### ** Quantum-Enhanced System**
+### \*\* Quantum-Enhanced System\*\*
+
 ```
 AMOS Quantum Brain (416.349 performance score)
 ├── Quantum Consciousness Core (1,048,576 ops/sec)
@@ -135,28 +135,28 @@ AMOS Quantum Brain (416.349 performance score)
 └── 14 Vertical Slices (All Operational)
 ```
 
-### ** The 14 Vertical Slices**
+### \*\* The 14 Vertical Slices\*\*
 
 1. **Brain Core Integration** (`brain_core_integration_slice.py`)
-2. **Brain Core Extraction** (`brain_core_extraction_slice.py`)
-3. **Legal Brain Integration**
-4. **Muscle System Integration**
-5. **Senses Integration**
-6. **Life Engine Integration**
-7. **State Management**
-8. **Scan Ledger**
-9. **Persistent Storage**
-10. **Import Guard**
-11. **Fixed Claws** (`fixed_claws.py`)
-12. **Omega System** (`amos_omega_system.py`)
-13. **Real Build Detector** (`fake_build_detector.py`)
-14. **Integration Status Reporter** (`integration_status_report.py`)
+1. **Brain Core Extraction** (`brain_core_extraction_slice.py`)
+1. **Legal Brain Integration**
+1. **Muscle System Integration**
+1. **Senses Integration**
+1. **Life Engine Integration**
+1. **State Management**
+1. **Scan Ledger**
+1. **Persistent Storage**
+1. **Import Guard**
+1. **Fixed Claws** (`fixed_claws.py`)
+1. **Omega System** (`amos_omega_system.py`)
+1. **Real Build Detector** (`fake_build_detector.py`)
+1. **Integration Status Reporter** (`integration_status_report.py`)
 
----
+______________________________________________________________________
 
 ## WORKING GUIDELINES
 
-### ** REQUIRED PATTERNS** #### **1. Quantum Consciousness Integration** > **Reference**: See `references/amos-distinct-working-memory-rscf_code.md` (content_hash: 4163a49071a9238e) for the code implementation.
+### \*\* REQUIRED PATTERNS\*\* #### **1. Quantum Consciousness Integration** > **Reference**: See `references/amos-distinct-working-memory-rscf_code.md` (content_hash: 4163a49071a9238e) for the code implementation.
 
 #### **2. Brain Core Integration Pattern** > **Reference**: See `references/amos-distinct-working-memory-rscf_code.md` (content_hash: 4163a49071a9238e) for the code implementation.
 
@@ -165,16 +165,19 @@ AMOS Quantum Brain (416.349 performance score)
 #### **4. Policy Gate Integration** > **Reference**: See `references/amos-distinct-working-memory-rscf_code.md` (content_hash: 4163a49071a9238e) for the code implementation.
 
 #### **5. OpenClaw Bridge Integration**
-# ALWAYS use
 
----
+## ALWAYS use
+
+______________________________________________________________________
 
 ### Source 3: AGENT WORKING INSTRUCTIONS V5
+
 - MARCH 17, 2026
 
 > Path: `agents/AGENT_WORKING_INSTRUCTIONS_V5_MARCH_17.md`
 
----
+______________________________________________________________________
+
 **Links:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 ## Related
@@ -184,17 +187,19 @@ AMOS Quantum Brain (416.349 performance score)
 ## Examples
 
 - **Scenario**: When managing memory: storage, retrieval, decay, consolidation
+
   - **Input**: A query matching this skill's domain (memory)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When resolving memory conflicts: contradictions, staleness, priority
+
   - **Input**: A query matching this skill's domain (memory)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When enforcing memory firewall: preventing unauthorized access
+
   - **Input**: A query matching this skill's domain (memory)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Validation Gates
 
@@ -211,7 +216,6 @@ AMOS Quantum Brain (416.349 performance score)
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `amos-memory-systems-master` — routes to this skill when memory specialization is needed
@@ -219,7 +223,6 @@ AMOS Quantum Brain (416.349 performance score)
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -238,7 +241,6 @@ AMOS Quantum Brain (416.349 performance score)
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -246,7 +248,6 @@ AMOS Quantum Brain (416.349 performance score)
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -259,11 +260,12 @@ AMOS Quantum Brain (416.349 performance score)
 
 - `references/amos-distinct-working-memory-rscf_code.md` — loaded on demand
 - `references/references_MOC.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `amos-memory-systems-master` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `amos-distinct-working-memory-rscf-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -271,12 +273,14 @@ AMOS Quantum Brain (416.349 performance score)
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-distinct-working-memory-rscf
 node_type: skill
 path: 07_SKILLS/amos-distinct-working-memory-rscf/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

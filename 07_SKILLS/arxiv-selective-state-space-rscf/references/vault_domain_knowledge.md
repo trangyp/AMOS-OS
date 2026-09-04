@@ -1,14 +1,17 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Vault Domain Knowledge — Arxiv Selective State Space Rscf
 type: reference
 source: 07_SKILLS/arxiv-selective-state-space-rscf/references
 tags:
-- reference
-- arxiv-selective-state-space-rscf
-- type/skill
-- ratpak
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - arxiv-selective-state-space-rscf
+  - type/skill
+  - ratpak
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -28,47 +31,52 @@ rscf:
 
 > Path: `rscf/RSCF_STATE.md` | Size: 1820 chars | Match score: 13 | content_hash: fa4bf5095c73060c
 
-# RSCF State Architecture
+## RSCF State Architecture
 
 ## 15-layer anatomy
+
 1. Distinction
-2. Boundary
-3. Internal Topology
-4. Relation Gradient
-5. Constraint
-6. State
-7. Memory
-8. Entropy
-9. Mutation
-10. Selection
-11. Repair
-12. Observer Projection
-13. Symbolic Compression
-14. Cross-Scale Embedding
-15. Collapse/Regeneration
+1. Boundary
+1. Internal Topology
+1. Relation Gradient
+1. Constraint
+1. State
+1. Memory
+1. Entropy
+1. Mutation
+1. Selection
+1. Repair
+1. Observer Projection
+1. Symbolic Compression
+1. Cross-Scale Embedding
+1. Collapse/Regeneration
 
 ## 12 functional types
+
 Evidence, Concept, Model, Process, Agent, System, Symbol, Contradiction, Failure, Repair, Market, Civilization
 
 ## Lifecycle
+
 PreFormation → DistinctionFormation → RelationFormation → ConstraintStabilization → MemoryFormation → SymbolicCompression → Mutation → Selection → Repair → Recursion → Integration → Collapse/Regeneration
 
 ## Formal state representation
+
 `R_i(t) = <D,B,T,G,C,S,M,E,μ,Σ,P,O,K,X,Z>_i^t`
 
 This formal vector is a formalization of the source anatomy.
 
 ## Expanded state vector
+
 `S_i(t) = [Coh, Ent, Rep, Mut, BI, MC, RD, CD, OV, SCE, ES, Trust, IC, CR, RP, CSS, SF, TP, SDR, OD, CCS]_t`
 
 Interpretations:
 coherence, entropy load, repair capacity, mutation potential, boundary integrity, memory continuity, relation density, contradiction density, observer variance, symbolic compression efficiency, evidence strength, trust, integration capacity, collapse risk, regeneration potential, cross-scale stability, selection fitness, temporal persistence, semantic drift, ontology dependency, civilization consequence.
 
----
+______________________________________________________________________
 
----
+______________________________________________________________________
 
-### Source 2: B The Living State Monetisation Thesis_ A New Economic Paradigm
+### Source 2: B The Living State Monetisation Thesis\_ A New Economic Paradigm
 
 > Path: `economy/B The Living State Monetisation Thesis_ A New Economic Paradigm.md` | Size: 81300 chars | Match score: 12 | content_hash: 9ecae48402aa98be
 
@@ -134,7 +142,6 @@ effectively collaborate with AI systems in maintaining optimal states. It's the 
 
 potential and machine capability.
 
-
 Twenty-One Domains of Living State Monetisation
 
 1. Energy Infrastructure: The Frequency Guarantee
@@ -151,9 +158,9 @@ call for corrective action, precious seconds—sometimes minutes—have been los
 
 Technical Integration: The Symphony of Stability [[11_KNOWLEDGE/05_FRAMEWORKS/RATPAK|RATPAK]] orchestrates a dist
 
----
+______________________________________________________________________
 
-### Source 3: A The Living State Monetisation Thesis_ A New Economic Paradigm
+### Source 3: A The Living State Monetisation Thesis\_ A New Economic Paradigm
 
 > Path: `economy/A The Living State Monetisation Thesis_ A New Economic Paradigm.md` | Size: 42816 chars | Match score: 12 | content_hash: 77a90b69f4b15e2b
 
@@ -219,7 +226,6 @@ effectively collaborate with AI systems in maintaining optimal states. It's the 
 
 potential and machine capability.
 
-
 Twenty-One Domains of Living State Monetisation
 
 1. Energy Infrastructure: The Frequency Guarantee
@@ -236,13 +242,15 @@ call for corrective action, precious seconds—sometimes minutes—have been los
 
 Technical Integration: The Symphony of Stability [[11_KNOWLEDGE/05_FRAMEWORKS/RATPAK|RATPAK]] orchestrates a dist
 
----
+______________________________________________________________________
+
 **MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -250,12 +258,14 @@ Technical Integration: The Symphony of Stability [[11_KNOWLEDGE/05_FRAMEWORKS/RA
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: arxiv-selective-state-space-rscf-vault-domain-knowledge
 node_type: reference
 path: 07_SKILLS/arxiv-selective-state-space-rscf/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

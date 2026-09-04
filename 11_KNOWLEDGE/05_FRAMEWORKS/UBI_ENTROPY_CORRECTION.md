@@ -12,20 +12,20 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: FRAMEWORK
 path: 11_KNOWLEDGE/05_FRAMEWORKS/UBI_ENTROPY_CORRECTION.md
 tags:
-- amos-os
-- knowledge
-- vault
-- 05_frameworks
-- ubi_entropy_correction
-- biological_entropy
-- non_equilibrium_thermodynamics
-- homeostasis_recovery
-- rscf
-- canon_candidate
-- canon/knowledge
-- unified-biological-intelligence
-- ubi-homeostasis
-- ubi-fractal-architecture
+  - amos-os
+  - knowledge
+  - vault
+  - 05_frameworks
+  - ubi_entropy_correction
+  - biological_entropy
+  - non_equilibrium_thermodynamics
+  - homeostasis_recovery
+  - rscf
+  - canon_candidate
+  - canon/knowledge
+  - unified-biological-intelligence
+  - ubi-homeostasis
+  - ubi-fractal-architecture
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -40,22 +40,22 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - UBI_OFFICIAL_MANUAL
-  - AMOS_CORPUS
+    - UBI_OFFICIAL_MANUAL
+    - AMOS_CORPUS
   scope:
-  - KNOWLEDGE_FRAMEWORKS
-  - BIOLOGICAL_ENTROPY
-  - SOURCE_DEFINED_MODEL
+    - KNOWLEDGE_FRAMEWORKS
+    - BIOLOGICAL_ENTROPY
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   biological_master:
     artifact:
-    - - UNIFIED_BIOLOGICAL_INTELLIGENCE
+      -   - UNIFIED_BIOLOGICAL_INTELLIGENCE
   homeostasis:
     artifact:
-    - - UBI_HOMEOSTASIS
+      -   - UBI_HOMEOSTASIS
   fractal_architecture:
     artifact:
-    - - UBI_FRACTAL_ARCHITECTURE
+      -   - UBI_FRACTAL_ARCHITECTURE
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
@@ -69,28 +69,28 @@ epistemic_boundary:
 
 It models biological systems as non-equilibrium dissipative structures that actively export internal disorder ($\Delta S_i$) through metabolic channels, coherent autonomic oscillations, and somatic posture alignment.
 
----
+______________________________________________________________________
 
-# 1. Biological Entropy Balance
+## 1. Biological Entropy Balance
 
 $$\frac{dS}{dt} = \frac{d_e S}{dt} + \frac{d_i S}{dt}, \quad \text{where } \frac{d_e S}{dt} < 0 \text{ (Entropy Export)}$$
 
 1. **Metabolic Dissipation (NBI/SI):** Active energy transformation converting food/oxygen into ordered neural and muscular states while expelling heat.
-2. **Autonomic Phase Reset (NEI/BEI):** Vagal nerve stimulation and coherent cardiac pacing exporting emotional dissonance and reducing system entropy.
-3. **Fascial Tensegrity Restoration (SI):** Structural realignment eliminating mechanical friction and localized tissue inflammation.
+1. **Autonomic Phase Reset (NEI/BEI):** Vagal nerve stimulation and coherent cardiac pacing exporting emotional dissonance and reducing system entropy.
+1. **Fascial Tensegrity Restoration (SI):** Structural realignment eliminating mechanical friction and localized tissue inflammation.
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Biological Master:** [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]]
 - **Homeostasis Model:** [[05_COGNITIVE_ORGANISM/15_HOMEOSTASIS/UBI_HOMEOSTASIS|UBI_HOMEOSTASIS]]
 - **Fractal Biology:** [[11_KNOWLEDGE/05_FRAMEWORKS/UBI_FRACTAL_ARCHITECTURE|UBI_FRACTAL_ARCHITECTURE]]
 - **Native Manual:** `11_KNOWLEDGE/biology-ubi/UBI_OFFICIAL_MANUAL`
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -108,10 +108,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]] · [[05_COGNITIVE_ORGANISM/15_HOMEOSTASIS/UBI_HOMEOSTASIS|UBI_HOMEOSTASIS]] · [[11_KNOWLEDGE/05_FRAMEWORKS/UBI_FRACTAL_ARCHITECTURE|UBI_FRACTAL_ARCHITECTURE]]
 
----
-**MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]
+______________________________________________________________________
 
+**MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]

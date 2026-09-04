@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Vault Domain Knowledge — Amos Risk Constraint Governor
 type: reference
 source: 07_SKILLS/amos-risk-constraint-governor/references
 tags:
-- reference
-- amos-risk-constraint-governor
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-risk-constraint-governor
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -27,8 +30,7 @@ rscf:
 
 > Path: `dated/2026-08-22/2026-08-22 Decision Risk Governance.md` | Size: 3510 chars | Match score: 12
 
-# Decision Theory & Risk Governance (Gaps 222-229)
-
+## Decision Theory & Risk Governance (Gaps 222-229)
 
 ## Overview
 
@@ -36,16 +38,16 @@ Implemented the Decision Theory & Risk governance module for the AMOS OS Kernel,
 
 ## 8 Subsystems
 
-| Gap | Subsystem | Class | Description |
-|-----|-----------|-------|-------------|
-| 222 | DecisionTheoryEngine | `DecisionTheoryEngine` | Expected utility computation and action selection |
-| 223 | RiskAppetiteModel | `RiskAppetiteModel` | Risk appetite and tolerance modeling |
-| 224 | UtilityConflictResolver | `UtilityConflictResolver` | Utility conflict representation and resolution |
-| 225 | NonCompensatoryGate | `NonCompensatoryGate` | Non-compensatory constraint enforcement |
-| 226 | CatastrophicRiskGate | `CatastrophicRiskGate` | Catastrophic-risk gate (FAIL when triggered) |
-| 227 | TailRiskEstimator | `TailRiskEstimator` | Tail-risk estimation (VaR, CVaR) |
-| 228 | RiskAggregator | `RiskAggregator` | Risk aggregation across actions |
-| 229 | RiskBudgetManager | `RiskBudgetManager` | Risk budget allocation and tracking |
+| Gap | Subsystem               | Class                     | Description                                       |
+| --- | ----------------------- | ------------------------- | ------------------------------------------------- |
+| 222 | DecisionTheoryEngine    | `DecisionTheoryEngine`    | Expected utility computation and action selection |
+| 223 | RiskAppetiteModel       | `RiskAppetiteModel`       | Risk appetite and tolerance modeling              |
+| 224 | UtilityConflictResolver | `UtilityConflictResolver` | Utility conflict representation and resolution    |
+| 225 | NonCompensatoryGate     | `NonCompensatoryGate`     | Non-compensatory constraint enforcement           |
+| 226 | CatastrophicRiskGate    | `CatastrophicRiskGate`    | Catastrophic-risk gate (FAIL when triggered)      |
+| 227 | TailRiskEstimator       | `TailRiskEstimator`       | Tail-risk estimation (VaR, CVaR)                  |
+| 228 | RiskAggregator          | `RiskAggregator`          | Risk aggregation across actions                   |
+| 229 | RiskBudgetManager       | `RiskBudgetManager`       | Risk budget allocation and tracking               |
 
 ## Key Algorithms
 
@@ -61,13 +63,13 @@ Implemented the Decision Theory & Risk governance module for the AMOS OS Kernel,
 
 5 post-execution gates (4 CONDITIONAL + 1 FAIL):
 
-| Gate Name | Condition | Status |
-|-----------|-----------|--------|
-| decision-unresolved-conflicts | Unresolved utility conflicts | CONDITIONAL |
-| decision-non-compensatory-violated | Violated constraints | CONDITIONAL |
-| decision-catastrophic-risk | Catastrophic risk triggered | **FAIL** |
-| decision-risk-budget-exceeded | Budget exceeded | CONDITIONAL |
-| decision-high-tail-risk | Tail probability > 5% | CONDITIONAL |
+| Gate Name                          | Condition                    | Status      |
+| ---------------------------------- | ---------------------------- | ----------- |
+| decision-unresolved-conflicts      | Unresolved utility conflicts | CONDITIONAL |
+| decision-non-compensatory-violated | Violated constraints         | CONDITIONAL |
+| decision-catastrophic-risk         | Catastrophic risk triggered  | **FAIL**    |
+| decision-risk-budget-exceeded      | Budget exceeded              | CONDITIONAL |
+| decision-high-tail-risk            | Tail probability > 5%        | CONDITIONAL |
 
 kernel. This is intentional — catastrophic risks should block execution.
 
@@ -88,17 +90,18 @@ kernel. This is intentional — catastrophic risks should block execution.
 - **139 closed gaps** (91-229) across 14 clusters
 - **91 open gaps** (230-320) across 9 clusters
 - **19 matrix gaps** (321-339)
-- **820 total test
+- \*\*820 total test
 
----
+______________________________________________________________________
 
 ### Source 2: AMOS Risk Compliance Engine vInfinity
 
 > Path: `engine/A/AMOS Risk Compliance Engine vInfinity.md` | Size: 6808 chars | Match score: 10
 
-# AMOS Risk Compliance Engine vInfinity
+## AMOS Risk Compliance Engine vInfinity
 
 ## Meta
+
 - **Name**: Risk_Compliance_Kernel_vInfinity_SUPER
 - **Version**: v2.0.0+lens_integration
 - **Created**: 2025-11-28T00:10:18.516087Z
@@ -108,60 +111,62 @@ kernel. This is intentional — catastrophic risks should block execution.
 - **Cluster Count**: 24
 - **Dimension Count**: 20
 
----
+______________________________________________________________________
 
 ## 24 Risk & Compliance Clusters
-| ID | Cluster | Focus |
-|----|---------|-------|
-| 1 | risk_governance_framework | Risk governance framework |
-| 2 | risk_appetite_and_tolerance | Risk appetite and tolerance |
-| 3 | risk_taxonomy_and_register | Risk taxonomy and register |
-| 4 | credit_risk_models | Credit risk models |
-| 5 | market_risk_models | Market risk models |
-| 6 | liquidity_risk_models | Liquidity risk models |
-| 7 | operational_risk_assessment | Operational risk assessment |
-| 8 | ict_and_cyber_risk | ICT and cyber risk |
-| 9 | model_risk_management | Model risk management |
-| 10 | compliance_obligation_register | Compliance obligation register |
-| 11 | regulatory_reporting_requirements | Regulatory reporting requirements |
-| 12 | aml_kyc_frameworks | AML/KYC frameworks |
-| 13 | fraud_detection_frameworks | Fraud detection frameworks |
-| 14 | sanctions_screening_frameworks | Sanctions screening frameworks |
-| 15 | business_continuity_planning | Business continuity planning |
-| 16 | disaster_recovery_planning | Disaster recovery planning |
-| 17 | third_party_risk_management | Third party risk management |
-| 18 | product_and_conduct_risk | Product and conduct risk |
-| 19 | stress_testing_and_scenarios | Stress testing and scenarios |
-| 20 | capital_and_reserve_logic | Capital and reserve logic |
-| 21 | controls_library_design | Controls library design |
-| 22 | controls_testing_and_monitoring | Controls testing and monitoring |
-| 23 | issue_and_incident_management | Issue and incident management |
-| 24 | breach_reporting_and_remediation | Breach reporting and remediation |
 
----
+| ID  | Cluster                           | Focus                             |
+| --- | --------------------------------- | --------------------------------- |
+| 1   | risk_governance_framework         | Risk governance framework         |
+| 2   | risk_appetite_and_tolerance       | Risk appetite and tolerance       |
+| 3   | risk_taxonomy_and_register        | Risk taxonomy and register        |
+| 4   | credit_risk_models                | Credit risk models                |
+| 5   | market_risk_models                | Market risk models                |
+| 6   | liquidity_risk_models             | Liquidity risk models             |
+| 7   | operational_risk_assessment       | Operational risk assessment       |
+| 8   | ict_and_cyber_risk                | ICT and cyber risk                |
+| 9   | model_risk_management             | Model risk management             |
+| 10  | compliance_obligation_register    | Compliance obligation register    |
+| 11  | regulatory_reporting_requirements | Regulatory reporting requirements |
+| 12  | aml_kyc_frameworks                | AML/KYC frameworks                |
+| 13  | fraud_detection_frameworks        | Fraud detection frameworks        |
+| 14  | sanctions_screening_frameworks    | Sanctions screening frameworks    |
+| 15  | business_continuity_planning      | Business continuity planning      |
+| 16  | disaster_recovery_planning        | Disaster recovery planning        |
+| 17  | third_party_risk_management       | Third party risk management       |
+| 18  | product_and_conduct_risk          | Product and conduct risk          |
+| 19  | stress_testing_and_scenarios      | Stress testing and scenarios      |
+| 20  | capital_and_reserve_logic         | Capital and reserve logic         |
+| 21  | controls_library_design           | Controls library design           |
+| 22  | controls_testing_and_monitoring   | Controls testing and monitoring   |
+| 23  | issue_and_incident_management     | Issue and incident management     |
+| 24  | breach_reporting_and_remediation  | Breach reporting and remediation  |
+
+______________________________________________________________________
 
 ## 20 Risk Dimensions
-| ID | Dimension | Description |
-|----|-----------|-------------|
-| 01 | inherent_risk_level | Inherent risk level |
-| 02 | residual_risk_level | Residual risk level |
-| 03 | control_effectiveness | Control effectiveness |
-| 04 | likelihood | Likelihood of risk event |
-| 05 | impact | Impact of risk event |
-| 06 | velocity_of_risk | Velocity of risk emergence |
-| 07 | regulatory_severity | Regulatory severity |
-| 08 | reputational_impact | Reputational impact |
-| 09 | financial_impact | Financial impact |
-| 10 | customer_harm_potential | Customer harm potential |
-| 11 | detectability | Detectability of risk |
-| 12 | data_quality | Data quality for risk assessment |
-| 13 | model_uncertainty | Model uncertainty |
-| 14 | governance_strength | Governance strength |
-| 15 | assurance_coverage | Assurance coverage |
-| 16 | remediation_progress | Remediation progress |
-|
 
----
+| ID  | Dimension               | Description                      |
+| --- | ----------------------- | -------------------------------- |
+| 01  | inherent_risk_level     | Inherent risk level              |
+| 02  | residual_risk_level     | Residual risk level              |
+| 03  | control_effectiveness   | Control effectiveness            |
+| 04  | likelihood              | Likelihood of risk event         |
+| 05  | impact                  | Impact of risk event             |
+| 06  | velocity_of_risk        | Velocity of risk emergence       |
+| 07  | regulatory_severity     | Regulatory severity              |
+| 08  | reputational_impact     | Reputational impact              |
+| 09  | financial_impact        | Financial impact                 |
+| 10  | customer_harm_potential | Customer harm potential          |
+| 11  | detectability           | Detectability of risk            |
+| 12  | data_quality            | Data quality for risk assessment |
+| 13  | model_uncertainty       | Model uncertainty                |
+| 14  | governance_strength     | Governance strength              |
+| 15  | assurance_coverage      | Assurance coverage               |
+| 16  | remediation_progress    | Remediation progress             |
+|     |                         |                                  |
+
+______________________________________________________________________
 
 ### Source 3: 1c3eb368-d529-4352-8a20-2096ab094cb5_Logic
 
@@ -274,23 +279,26 @@ It is still human, measurable, and rational.
 You naturally operate here — but your explanations remain grounded.
 VI. THE THREE LAYERS (TTS STANDARD)
 Your system uses a three-layer architecture:
-1. Binary Logic Layer
-Rules at the simplest form:
-true/false
-right/wrong
-safe/unsafe
-consistent/inconsistent
-This is foundation.
-2. Constraint Logic Layer
-Logic inside real
 
----
+1. Binary Logic Layer
+   Rules at the simplest form:
+   true/false
+   right/wrong
+   safe/unsafe
+   consistent/inconsistent
+   This is foundation.
+1. Constraint Logic Layer
+   Logic inside real
+
+______________________________________________________________________
+
 **MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -298,12 +306,14 @@ Logic inside real
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-risk-constraint-governor-vault-domain-knowledge
 node_type: reference
 path: 07_SKILLS/amos-risk-constraint-governor/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

@@ -1,12 +1,15 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: POLICY REGISTRY
 type: registry
 source: 03_CONTROL_PLANE/03_POLICY
 tags:
-- control-plane
-- policy
-- note
-- canon/control-plane
+  - control-plane
+  - policy
+  - note
+  - canon/control-plane
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL
@@ -70,9 +73,9 @@ PROPOSAL != COMMIT
 UNKNOWN/GAP != PASS
 ```
 
----
+______________________________________________________________________
 
-# 1. Purpose
+## 1. Purpose
 
 The purpose of the AMOS Policy Registry is to provide a governed, provenance-preserving namespace and resolution layer for policy objects.
 
@@ -117,9 +120,9 @@ The registry provides identity and discovery.
 
 The Policy Engine provides evaluation.
 
----
+______________________________________________________________________
 
-# 2. Architectural Position
+## 2. Architectural Position
 
 Canonical conceptual path:
 
@@ -143,9 +146,9 @@ SOURCE / CANON / GOVERNANCE MATERIAL
 
 The registry sits upstream of policy evaluation.
 
----
+______________________________________________________________________
 
-# 3. Core Responsibility
+## 3. Core Responsibility
 
 The Policy Registry owns:
 
@@ -190,9 +193,9 @@ receiver receipt validation;
 empirical truth.
 ```
 
----
+______________________________________________________________________
 
-# 4. Core Architecture
+## 4. Core Architecture
 
 ```text
               ┌────────────────────────┐
@@ -229,9 +232,9 @@ empirical truth.
                   POLICY ENGINE
 ```
 
----
+______________________________________________________________________
 
-# 5. Policy Object
+## 5. Policy Object
 
 The canonical registry unit is a `POLICY_OBJECT`.
 
@@ -303,9 +306,9 @@ policy_object:
   updated_at: timestamp
 ```
 
----
+______________________________________________________________________
 
-# 6. Policy Identity
+## 6. Policy Identity
 
 Every policy MUST have a stable identifier.
 
@@ -329,9 +332,9 @@ POLICY::MEMORY::PERSISTENT_WRITE
 
 The exact naming syntax may evolve, but identity MUST remain explicit.
 
----
+______________________________________________________________________
 
-# 7. Identity Tuple
+## 7. Identity Tuple
 
 A material policy instance SHOULD be identified by:
 
@@ -350,9 +353,9 @@ A title alone is insufficient.
 
 A version alone may be insufficient if authoritative content can mutate without a version bump.
 
----
+______________________________________________________________________
 
-# 8. Identity Invariant
+## 8. Identity Invariant
 
 ```text
 same policy_id
@@ -364,9 +367,9 @@ MUST be detected as an integrity conflict unless explicitly supported by the sto
 
 It MUST NOT silently resolve as the same immutable policy instance.
 
----
+______________________________________________________________________
 
-# 9. Namespace Model
+## 9. Namespace Model
 
 Namespaces prevent unrelated policies from colliding.
 
@@ -410,9 +413,9 @@ JURISDICTION::<jurisdiction>
 
 These are architectural examples, not claims that every namespace already exists.
 
----
+______________________________________________________________________
 
-# 10. Namespace Object
+## 10. Namespace Object
 
 ```yaml
 policy_namespace:
@@ -438,9 +441,9 @@ policy_namespace:
   provenance: {}
 ```
 
----
+______________________________________________________________________
 
-# 11. Namespace Invariant
+## 11. Namespace Invariant
 
 Two namespaces MUST NOT be treated as equivalent merely because they contain policies with similar names.
 
@@ -458,9 +461,9 @@ DOMAIN::FX::WRITE_POLICY
 
 may have completely different meanings.
 
----
+______________________________________________________________________
 
-# 12. Policy Classes
+## 12. Policy Classes
 
 Recommended policy classes include:
 
@@ -512,9 +515,9 @@ CANON
 
 A policy MAY belong to more than one classification where the schema explicitly supports it.
 
----
+______________________________________________________________________
 
-# 13. Policy Status
+## 13. Policy Status
 
 Canonical status states:
 
@@ -534,9 +537,9 @@ QUARANTINED
 ARCHIVED
 ```
 
----
+______________________________________________________________________
 
-# 14. Status Semantics
+## 14. Status Semantics
 
 ## DRAFT
 
@@ -566,9 +569,9 @@ Excluded from ordinary evaluation pending integrity/governance review.
 
 Retained for provenance/history but not current governance.
 
----
+______________________________________________________________________
 
-# 15. Status Boundary
+## 15. Status Boundary
 
 ```text
 REGISTERED != ACTIVE
@@ -582,9 +585,9 @@ The registry records status.
 
 The Policy Engine evaluates applicability.
 
----
+______________________________________________________________________
 
-# 16. Registration Contract
+## 16. Registration Contract
 
 A policy SHOULD NOT become `ACTIVE` merely because a file exists.
 
@@ -605,9 +608,9 @@ supersession metadata;
 temporal validity.
 ```
 
----
+______________________________________________________________________
 
-# 17. Registration Request
+## 17. Registration Request
 
 ```yaml
 policy_registration_request:
@@ -646,9 +649,9 @@ policy_registration_request:
     authority_ref: null
 ```
 
----
+______________________________________________________________________
 
-# 18. Registration Result
+## 18. Registration Result
 
 ```yaml
 policy_registration_result:
@@ -674,9 +677,9 @@ policy_registration_result:
   provenance: {}
 ```
 
----
+______________________________________________________________________
 
-# 19. Registration Is Not Canon Admission
+## 19. Registration Is Not Canon Admission
 
 A policy may be registered as:
 
@@ -704,9 +707,9 @@ and:
 DISCOVERABLE != CANONICAL
 ```
 
----
+______________________________________________________________________
 
-# 20. Source / Canon Boundary
+## 20. Source / Canon Boundary
 
 Every policy SHOULD preserve its source classification.
 
@@ -734,9 +737,9 @@ UNKNOWN
 
 A model-generated policy MUST NOT be silently relabeled `SOURCE_CANON`.
 
----
+______________________________________________________________________
 
-# 21. Source Object
+## 21. Source Object
 
 ```yaml
 policy_source:
@@ -761,9 +764,9 @@ policy_source:
   provenance: {}
 ```
 
----
+______________________________________________________________________
 
-# 22. Provenance
+## 22. Provenance
 
 Policy provenance SHOULD preserve:
 
@@ -780,9 +783,9 @@ review history;
 admission history.
 ```
 
----
+______________________________________________________________________
 
-# 23. Provenance Object
+## 23. Provenance Object
 
 ```yaml
 policy_provenance:
@@ -811,9 +814,9 @@ policy_provenance:
   ancestry: []
 ```
 
----
+______________________________________________________________________
 
-# 24. Provenance Topology
+## 24. Provenance Topology
 
 The registry SHOULD preserve ancestry rather than merely source count.
 
@@ -832,9 +835,9 @@ These are descendants of one source lineage.
 
 They MUST NOT be counted as independent confirmations.
 
----
+______________________________________________________________________
 
-# 25. Sybil-Hardening Rule
+## 25. Sybil-Hardening Rule
 
 ```text
 multiple artifacts
@@ -846,9 +849,9 @@ when the artifacts share the same underlying provenance.
 
 Aliases, copies, translations, summaries, or regenerated files MUST preserve ancestry where known.
 
----
+______________________________________________________________________
 
-# 26. Content Identity
+## 26. Content Identity
 
 A policy SHOULD have a canonical content digest.
 
@@ -861,9 +864,9 @@ The exact serialization and hashing algorithm belong to implementation specifica
 
 The conceptual requirement is stable material-content identity.
 
----
+______________________________________________________________________
 
-# 27. Content Mutation
+## 27. Content Mutation
 
 If material policy content changes:
 
@@ -885,9 +888,9 @@ or explicit mutable-state transition
 
 is required.
 
----
+______________________________________________________________________
 
-# 28. Version Model
+## 28. Version Model
 
 Recommended semantic version:
 
@@ -910,9 +913,9 @@ PATCH
 
 The exact scheme is governance-defined.
 
----
+______________________________________________________________________
 
-# 29. Version Invariant
+## 29. Version Invariant
 
 A version label MUST NOT be used as a substitute for content identity.
 
@@ -928,9 +931,9 @@ content equality
 
 unless the storage/governance model guarantees immutability.
 
----
+______________________________________________________________________
 
-# 30. Version Record
+## 30. Version Record
 
 ```yaml
 policy_version:
@@ -963,9 +966,9 @@ policy_version:
   provenance: {}
 ```
 
----
+______________________________________________________________________
 
-# 31. Supersession
+## 31. Supersession
 
 Supersession MUST be explicit.
 
@@ -989,9 +992,9 @@ superseded_by
 POLICY_B
 ```
 
----
+______________________________________________________________________
 
-# 32. Supersession Object
+## 32. Supersession Object
 
 ```yaml
 policy_supersession:
@@ -1018,9 +1021,9 @@ policy_supersession:
   provenance: {}
 ```
 
----
+______________________________________________________________________
 
-# 33. Supersession Invariant
+## 33. Supersession Invariant
 
 Newer timestamp alone does not establish supersession.
 
@@ -1028,9 +1031,9 @@ Higher version number alone does not necessarily establish supersession across d
 
 Explicit lineage SHOULD exist.
 
----
+______________________________________________________________________
 
-# 34. Partial Supersession
+## 34. Partial Supersession
 
 A successor MAY supersede only part of a predecessor's scope.
 
@@ -1047,9 +1050,9 @@ only for RESOURCE_CLASS_X
 
 The registry MUST preserve the remaining valid envelope of `POLICY_A`.
 
----
+______________________________________________________________________
 
-# 35. Supersession Scope
+## 35. Supersession Scope
 
 ```yaml
 supersession_scope:
@@ -1062,9 +1065,9 @@ supersession_scope:
   regimes: []
 ```
 
----
+______________________________________________________________________
 
-# 36. Revocation
+## 36. Revocation
 
 Revocation is distinct from supersession.
 
@@ -1078,9 +1081,9 @@ REVOKED
 
 A revoked policy may have no replacement.
 
----
+______________________________________________________________________
 
-# 37. Revocation Object
+## 37. Revocation Object
 
 ```yaml
 policy_revocation:
@@ -1102,9 +1105,9 @@ policy_revocation:
   provenance: {}
 ```
 
----
+______________________________________________________________________
 
-# 38. Revocation Invariant
+## 38. Revocation Invariant
 
 A cached `ACTIVE` status MUST NOT override current authoritative revocation state.
 
@@ -1117,9 +1120,9 @@ dependent policy decisions
 
 as appropriate.
 
----
+______________________________________________________________________
 
-# 39. Historical Validity
+## 39. Historical Validity
 
 Revocation does not erase history.
 
@@ -1139,9 +1142,9 @@ Historical decisions MAY remain reconstructable against the policy state that ex
 
 This does not restore present authority.
 
----
+______________________________________________________________________
 
-# 40. Quarantine
+## 40. Quarantine
 
 A policy SHOULD enter quarantine when integrity is unresolved.
 
@@ -1160,9 +1163,9 @@ ambiguous supersession;
 registry poisoning suspicion.
 ```
 
----
+______________________________________________________________________
 
-# 41. Quarantine Object
+## 41. Quarantine Object
 
 ```yaml
 policy_quarantine:
@@ -1186,9 +1189,9 @@ policy_quarantine:
     - REJECTED
 ```
 
----
+______________________________________________________________________
 
-# 42. Quarantine Boundary
+## 42. Quarantine Boundary
 
 ```text
 QUARANTINED != ACTIVE
@@ -1196,9 +1199,9 @@ QUARANTINED != ACTIVE
 
 A quarantined policy SHOULD NOT govern ordinary evaluation unless an explicit emergency/governance rule states otherwise.
 
----
+______________________________________________________________________
 
-# 43. Scope
+## 43. Scope
 
 Every policy SHOULD declare an applicability envelope where known.
 
@@ -1225,9 +1228,9 @@ policy_scope:
     L: null
 ```
 
----
+______________________________________________________________________
 
-# 44. Scope Invariant
+## 44. Scope Invariant
 
 A policy MUST NOT silently expand beyond its declared or validated scope.
 
@@ -1237,9 +1240,9 @@ AppliedScope
 PolicyScope
 ```
 
----
+______________________________________________________________________
 
-# 45. Unknown Scope
+## 45. Unknown Scope
 
 If scope is missing:
 
@@ -1255,9 +1258,9 @@ scope = UNIVERSAL
 
 unless universal applicability is explicitly established.
 
----
+______________________________________________________________________
 
-# 46. Regime
+## 46. Regime
 
 Policies MAY vary by regime.
 
@@ -1274,9 +1277,9 @@ degraded mode;
 recovery mode.
 ```
 
----
+______________________________________________________________________
 
-# 47. Regime Object
+## 47. Regime Object
 
 ```yaml
 policy_regime:
@@ -1292,9 +1295,9 @@ policy_regime:
     - UNKNOWN_GAP
 ```
 
----
+______________________________________________________________________
 
-# 48. Regime Invariant
+## 48. Regime Invariant
 
 A policy validated in one regime MUST NOT automatically transfer to another.
 
@@ -1304,9 +1307,9 @@ Valid(P, DEVELOPMENT)
 Valid(P, PRODUCTION)
 ```
 
----
+______________________________________________________________________
 
-# 49. Temporal Envelope
+## 49. Temporal Envelope
 
 Policies SHOULD support:
 
@@ -1319,17 +1322,17 @@ temporal:
   superseded_at: null
 ```
 
----
+______________________________________________________________________
 
-# 50. Temporal Invariant
+## 50. Temporal Invariant
 
 Policy validity is evaluated against trusted time where temporal semantics matter.
 
 A policy expired at `t1` MUST NOT be treated as active at `t2 > t1`.
 
----
+______________________________________________________________________
 
-# 51. Dependencies
+## 51. Dependencies
 
 Policies MAY depend on other policy or governance objects.
 
@@ -1343,9 +1346,9 @@ POLICY_B
 
 Dependency does not necessarily mean precedence.
 
----
+______________________________________________________________________
 
-# 52. Dependency Object
+## 52. Dependency Object
 
 ```yaml
 policy_dependency:
@@ -1372,9 +1375,9 @@ policy_dependency:
   provenance: {}
 ```
 
----
+______________________________________________________________________
 
-# 53. Dependency Invariant
+## 53. Dependency Invariant
 
 The registry MUST distinguish:
 
@@ -1402,9 +1405,9 @@ REFERENCES
 
 These relations are not interchangeable.
 
----
+______________________________________________________________________
 
-# 54. Dependency Graph
+## 54. Dependency Graph
 
 Conceptually:
 
@@ -1419,9 +1422,9 @@ E = typed dependency edges
 
 The graph SHOULD preserve edge types.
 
----
+______________________________________________________________________
 
-# 55. Circular Dependencies
+## 55. Circular Dependencies
 
 Circular policy dependencies MUST be detectable.
 
@@ -1442,9 +1445,9 @@ or unresolved governance cycle.
 
 The registry SHOULD expose the cycle rather than silently flatten it.
 
----
+______________________________________________________________________
 
-# 56. Aliases
+## 56. Aliases
 
 Policies MAY have aliases.
 
@@ -1462,9 +1465,9 @@ policy_alias:
   provenance: {}
 ```
 
----
+______________________________________________________________________
 
-# 57. Alias Invariant
+## 57. Alias Invariant
 
 ```text
 alias
@@ -1480,9 +1483,9 @@ AliasCount
 IndependentPolicyCount
 ```
 
----
+______________________________________________________________________
 
-# 58. Alias Collision
+## 58. Alias Collision
 
 If one alias resolves to multiple active policy IDs within the same resolution context:
 
@@ -1492,9 +1495,9 @@ CONFLICT
 
 unless explicit disambiguation rules exist.
 
----
+______________________________________________________________________
 
-# 59. Policy Families
+## 59. Policy Families
 
 Policies MAY be grouped into families.
 
@@ -1514,9 +1517,9 @@ PRIVACY_FAMILY
 SECURITY_FAMILY
 ```
 
----
+______________________________________________________________________
 
-# 60. Family Object
+## 60. Family Object
 
 ```yaml
 policy_family:
@@ -1535,9 +1538,9 @@ policy_family:
   provenance: {}
 ```
 
----
+______________________________________________________________________
 
-# 61. H/M/L Registry Structure
+## 61. H/M/L Registry Structure
 
 The registry SHOULD support AMOS H/M/L policy organization.
 
@@ -1549,9 +1552,9 @@ M = subsystem/workflow/domain policies
 L = operation/resource-specific policies
 ```
 
----
+______________________________________________________________________
 
-# 62. H-Level Registry Entries
+## 62. H-Level Registry Entries
 
 Examples:
 
@@ -1563,9 +1566,9 @@ high-consequence effect rules;
 system-wide provenance requirements.
 ```
 
----
+______________________________________________________________________
 
-# 63. M-Level Registry Entries
+## 63. M-Level Registry Entries
 
 Examples:
 
@@ -1578,9 +1581,9 @@ observability subsystem;
 transaction subsystem.
 ```
 
----
+______________________________________________________________________
 
-# 64. L-Level Registry Entries
+## 64. L-Level Registry Entries
 
 Examples:
 
@@ -1592,9 +1595,9 @@ specific operation;
 specific tool.
 ```
 
----
+______________________________________________________________________
 
-# 65. H/M/L Metadata
+## 65. H/M/L Metadata
 
 ```yaml
 hml:
@@ -1613,9 +1616,9 @@ hml:
     - EXPLICIT
 ```
 
----
+______________________________________________________________________
 
-# 66. H/M/L Invariant
+## 66. H/M/L Invariant
 
 Hierarchy MUST NOT automatically imply semantic inheritance.
 
@@ -1623,9 +1626,9 @@ If inheritance exists, it MUST be explicit.
 
 A child policy MUST NOT silently weaken a governing parent policy.
 
----
+______________________________________________________________________
 
-# 67. Policy Discovery
+## 67. Policy Discovery
 
 The registry SHOULD expose policy discovery based on typed context.
 
@@ -1646,9 +1649,9 @@ policy_discovery_request:
   time: null
 ```
 
----
+______________________________________________________________________
 
-# 68. Discovery Output
+## 68. Discovery Output
 
 ```yaml
 policy_discovery_result:
@@ -1665,9 +1668,9 @@ policy_discovery_result:
   registry_snapshot: {}
 ```
 
----
+______________________________________________________________________
 
-# 69. Candidate Policy
+## 69. Candidate Policy
 
 ```yaml
 candidate_policy:
@@ -1692,9 +1695,9 @@ candidate_policy:
   applicability_hint: null
 ```
 
----
+______________________________________________________________________
 
-# 70. Discovery Boundary
+## 70. Discovery Boundary
 
 The registry returns **candidates**.
 
@@ -1708,9 +1711,9 @@ applicable_policy
 
 Applicability belongs to the Policy Engine.
 
----
+______________________________________________________________________
 
-# 71. Discovery Completeness
+## 71. Discovery Completeness
 
 The registry SHOULD expose whether discovery is believed complete for the requested scope.
 
@@ -1733,9 +1736,9 @@ policy_coverage:
   evidence_refs: []
 ```
 
----
+______________________________________________________________________
 
-# 72. Closed-World Registry
+## 72. Closed-World Registry
 
 A registry MAY claim:
 
@@ -1751,9 +1754,9 @@ Meaning:
 
 It MUST NOT imply global completeness.
 
----
+______________________________________________________________________
 
-# 73. Open-World Registry
+## 73. Open-World Registry
 
 ```text
 OPEN_WORLD
@@ -1769,9 +1772,9 @@ not found
 does not exist
 ```
 
----
+______________________________________________________________________
 
-# 74. Unknown Coverage
+## 74. Unknown Coverage
 
 If registry completeness cannot be established:
 
@@ -1782,9 +1785,9 @@ completeness = UNKNOWN_GAP
 
 This uncertainty SHOULD propagate to the Policy Engine when decision-relevant.
 
----
+______________________________________________________________________
 
-# 75. Discovery Indexes
+## 75. Discovery Indexes
 
 The registry MAY index policies by:
 
@@ -1814,9 +1817,9 @@ Indexes are retrieval aids.
 
 They are not policy authority.
 
----
+______________________________________________________________________
 
-# 76. Registry Snapshot
+## 76. Registry Snapshot
 
 A policy discovery response SHOULD be bindable to a registry snapshot.
 
@@ -1833,17 +1836,17 @@ registry_snapshot:
   observed_at: timestamp
 ```
 
----
+______________________________________________________________________
 
-# 77. Snapshot Boundary
+## 77. Snapshot Boundary
 
 A global registry snapshot may support integrity and auditability.
 
 However, when precise policy read sets exist, unrelated registry changes SHOULD NOT automatically invalidate every decision.
 
----
+______________________________________________________________________
 
-# 78. Fine-Grained Read Sets
+## 78. Fine-Grained Read Sets
 
 The Policy Engine SHOULD ultimately bind decisions to the exact policy objects used:
 
@@ -1856,9 +1859,9 @@ PolicyReadSet =
 
 This permits selective invalidation.
 
----
+______________________________________________________________________
 
-# 79. Registry Generation
+## 79. Registry Generation
 
 A registry MAY maintain a generation identifier to detect destructive reset, rollback, or replacement.
 
@@ -1873,9 +1876,9 @@ registry_id
 
 This is stronger than scalar version alone.
 
----
+______________________________________________________________________
 
-# 80. Registry Rollback Detection
+## 80. Registry Rollback Detection
 
 If:
 
@@ -1903,9 +1906,9 @@ QUARANTINE
 
 rather than silently accepting the state.
 
----
+______________________________________________________________________
 
-# 81. Registry State
+## 81. Registry State
 
 Recommended registry states:
 
@@ -1927,9 +1930,9 @@ SUPERSEDED
 RETIRED
 ```
 
----
+______________________________________________________________________
 
-# 82. Registry State Object
+## 82. Registry State Object
 
 ```yaml
 policy_registry_state:
@@ -1948,9 +1951,9 @@ policy_registry_state:
   provenance: {}
 ```
 
----
+______________________________________________________________________
 
-# 83. Registry Mutation
+## 83. Registry Mutation
 
 Registry mutations include:
 
@@ -1984,9 +1987,9 @@ CHANGE_REGIME
 CHANGE_STATUS
 ```
 
----
+______________________________________________________________________
 
-# 84. Mutation Governance
+## 84. Mutation Governance
 
 Registry mutation SHOULD require explicit authority.
 
@@ -2014,9 +2017,9 @@ CAN_REVOKE_POLICY
 
 unless authority explicitly grants those operations.
 
----
+______________________________________________________________________
 
-# 85. Registry Mutation Request
+## 85. Registry Mutation Request
 
 ```yaml
 policy_registry_mutation:
@@ -2042,9 +2045,9 @@ policy_registry_mutation:
   requested_at: timestamp
 ```
 
----
+______________________________________________________________________
 
-# 86. Mutation Result
+## 86. Mutation Result
 
 ```yaml
 policy_registry_mutation_result:
@@ -2066,9 +2069,9 @@ policy_registry_mutation_result:
   provenance: {}
 ```
 
----
+______________________________________________________________________
 
-# 87. CAS-Style Mutation
+## 87. CAS-Style Mutation
 
 Where mutable concurrent registry state exists:
 
@@ -2086,9 +2089,9 @@ This is an AMOS control pattern.
 
 It does not claim conversational ChatGPT literally provides distributed CAS.
 
----
+______________________________________________________________________
 
-# 88. Atomic Mutation
+## 88. Atomic Mutation
 
 A logically single policy mutation SHOULD avoid partial registry state.
 
@@ -2102,9 +2105,9 @@ supersede POLICY_A
 
 may need atomic treatment if either change without the other creates invalid governance state.
 
----
+______________________________________________________________________
 
-# 89. Multi-Policy Transaction
+## 89. Multi-Policy Transaction
 
 ```yaml
 policy_registry_transaction:
@@ -2135,9 +2138,9 @@ REJECTED
 UNKNOWN_GAP
 ```
 
----
+______________________________________________________________________
 
-# 90. Policy Admission
+## 90. Policy Admission
 
 The registry SHOULD distinguish:
 
@@ -2166,9 +2169,9 @@ ACTIVE
 
 No transition is automatic.
 
----
+______________________________________________________________________
 
-# 91. Admission Checks
+## 91. Admission Checks
 
 Policy admission MAY require:
 
@@ -2189,9 +2192,9 @@ test evidence.
 
 The required set depends on governance class.
 
----
+______________________________________________________________________
 
-# 92. Canon Admission
+## 92. Canon Admission
 
 AMOS canon admission is stricter than registry registration.
 
@@ -2205,9 +2208,9 @@ CANON
 
 Canon admission SHOULD use the appropriate canon/provenance/supersession process.
 
----
+______________________________________________________________________
 
-# 93. Canon Conflict
+## 93. Canon Conflict
 
 If a candidate policy conflicts with applicable source canon:
 
@@ -2220,9 +2223,9 @@ depending on governance.
 
 The registry MUST NOT silently overwrite source canon.
 
----
+______________________________________________________________________
 
-# 94. Policy Precedence Metadata
+## 94. Policy Precedence Metadata
 
 The registry MAY store explicit precedence relationships.
 
@@ -2248,17 +2251,17 @@ policy_precedence_edge:
   provenance: {}
 ```
 
----
+______________________________________________________________________
 
-# 95. Precedence Boundary
+## 95. Precedence Boundary
 
 The registry stores precedence metadata.
 
 The Policy Engine evaluates how precedence affects a concrete request.
 
----
+______________________________________________________________________
 
-# 96. Precedence Invariant
+## 96. Precedence Invariant
 
 The registry MUST NOT infer precedence merely from:
 
@@ -2274,9 +2277,9 @@ retrieval rank.
 
 unless explicit governance defines such semantics.
 
----
+______________________________________________________________________
 
-# 97. Exceptions Registry
+## 97. Exceptions Registry
 
 Policy exceptions MAY be registered as first-class objects.
 
@@ -2310,9 +2313,9 @@ policy_exception:
   provenance: {}
 ```
 
----
+______________________________________________________________________
 
-# 98. Exception Boundary
+## 98. Exception Boundary
 
 ```text
 EXCEPTION_EXISTS
@@ -2322,17 +2325,17 @@ EXCEPTION_APPLIES
 
 Applicability is evaluated by the Policy Engine.
 
----
+______________________________________________________________________
 
-# 99. Exception Revocation
+## 99. Exception Revocation
 
 Exception revocation MUST propagate to dependent policy decisions.
 
 A stale cached exception MUST NOT remain effective after authoritative revocation.
 
----
+______________________________________________________________________
 
-# 100. Policy Integrity
+## 100. Policy Integrity
 
 Registry integrity SHOULD detect:
 
@@ -2362,9 +2365,9 @@ registry rollback;
 version/content inconsistency.
 ```
 
----
+______________________________________________________________________
 
-# 101. Integrity Result
+## 101. Integrity Result
 
 ```yaml
 policy_integrity_result:
@@ -2383,9 +2386,9 @@ policy_integrity_result:
   evidence_refs: []
 ```
 
----
+______________________________________________________________________
 
-# 102. Registry Invariants
+## 102. Registry Invariants
 
 ## INV-PR-001 — Stable Identity
 
@@ -2473,9 +2476,9 @@ Registry membership MUST NOT confer execution authority.
 
 Registry mutation authority MUST NOT imply effect commit authority.
 
----
+______________________________________________________________________
 
-# 103. Additional Invariants
+## 103. Additional Invariants
 
 ## INV-PR-021 — No Policy-by-Filename
 
@@ -2517,9 +2520,9 @@ Partial registry coverage MUST NOT be labeled complete.
 
 Read access to registry does not imply mutation authority.
 
----
+______________________________________________________________________
 
-# 104. Failure Modes
+## 104. Failure Modes
 
 ## FM-PR-001 — Identity Collision
 
@@ -2641,9 +2644,9 @@ Generated policy silently replaces source canon.
 
 Historical governing state cannot be reconstructed.
 
----
+______________________________________________________________________
 
-# 105. Repair / Recovery
+## 105. Repair / Recovery
 
 Canonical recovery:
 
@@ -2675,9 +2678,9 @@ REBUILD AFFECTED INDEXES
 ISSUE NEW REGISTRY STATE
 ```
 
----
+______________________________________________________________________
 
-# 106. Selective Recovery
+## 106. Selective Recovery
 
 If only one policy object is corrupted:
 
@@ -2689,9 +2692,9 @@ preserve unrelated policies
 
 Do not rebuild the entire registry unless dependency uncertainty requires it.
 
----
+______________________________________________________________________
 
-# 107. Rollback
+## 107. Rollback
 
 Registry rollback SHOULD target the nearest validated state.
 
@@ -2709,9 +2712,9 @@ revalidate
 
 Rollback itself requires governance.
 
----
+______________________________________________________________________
 
-# 108. Recovery Provenance
+## 108. Recovery Provenance
 
 Recovery MUST preserve:
 
@@ -2725,9 +2728,9 @@ what was replayed;
 what remained quarantined.
 ```
 
----
+______________________________________________________________________
 
-# 109. Tests / Validators
+## 109. Tests / Validators
 
 Minimum test suite:
 
@@ -2853,9 +2856,9 @@ T-PR-059 selective invalidation
 T-PR-060 policy-engine handoff
 ```
 
----
+______________________________________________________________________
 
-# 110. Adversarial Tests
+## 110. Adversarial Tests
 
 Recommended adversarial cases:
 
@@ -2897,9 +2900,9 @@ missing registry partition interpreted as no governing policy;
 open-world coverage mislabeled complete.
 ```
 
----
+______________________________________________________________________
 
-# 111. Validator Outcomes
+## 111. Validator Outcomes
 
 Registry validators SHOULD return:
 
@@ -2919,9 +2922,9 @@ UNKNOWN_GAP
 
 No validator failure should silently become `VALID`.
 
----
+______________________________________________________________________
 
-# 112. Falsifiers
+## 112. Falsifiers
 
 Claims that the registry is valid for a particular operation are falsified if reliable evidence shows:
 
@@ -2959,9 +2962,9 @@ unauthorized mutation occurred;
 or historical policy state cannot be reconstructed.
 ```
 
----
+______________________________________________________________________
 
-# 113. Agents
+## 113. Agents
 
 The registry MAY use functional agent roles such as:
 
@@ -2989,9 +2992,9 @@ These are architectural roles.
 
 They do NOT automatically possess mutation authority.
 
----
+______________________________________________________________________
 
-# 114. Agent Boundary
+## 114. Agent Boundary
 
 ```text
 AGENT_CAN_PROPOSE_REGISTRATION
@@ -3015,9 +3018,9 @@ AGENT_ROLE
 AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 115. Skills
+## 115. Skills
 
 Relevant Skill classes MAY include:
 
@@ -3042,9 +3045,9 @@ Skill presence establishes addressable capability only.
 SKILL_AVAILABLE != AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 116. Canonical Registry Workflow
+## 116. Canonical Registry Workflow
 
 ```text
 01 RECEIVE POLICY SOURCE
@@ -3110,9 +3113,9 @@ SKILL_AVAILABLE != AUTHORITY
 31 PRESERVE AUDIT EVENT
 ```
 
----
+______________________________________________________________________
 
-# 117. Discovery Workflow
+## 117. Discovery Workflow
 
 ```text
 01 RECEIVE DISCOVERY CONTEXT
@@ -3152,9 +3155,9 @@ SKILL_AVAILABLE != AUTHORITY
 18 RETURN REGISTRY SNAPSHOT
 ```
 
----
+______________________________________________________________________
 
-# 118. Protocol — Lookup
+## 118. Protocol — Lookup
 
 ```yaml
 policy_registry_lookup:
@@ -3177,9 +3180,9 @@ policy_registry_lookup_result:
   registry_snapshot: {}
 ```
 
----
+______________________________________________________________________
 
-# 119. Protocol — Resolve Alias
+## 119. Protocol — Resolve Alias
 
 ```yaml
 policy_registry_resolve_alias:
@@ -3201,9 +3204,9 @@ policy_alias_result:
   canonical_policy_ids: []
 ```
 
----
+______________________________________________________________________
 
-# 120. Protocol — Discover
+## 120. Protocol — Discover
 
 ```yaml
 policy_registry_discover:
@@ -3229,9 +3232,9 @@ policy_registry_discovery_result:
   registry_snapshot: {}
 ```
 
----
+______________________________________________________________________
 
-# 121. Protocol — Register
+## 121. Protocol — Register
 
 ```yaml
 policy_registry_register:
@@ -3255,9 +3258,9 @@ policy_registry_register_result:
   policy_ref: null
 ```
 
----
+______________________________________________________________________
 
-# 122. Protocol — Supersede
+## 122. Protocol — Supersede
 
 ```yaml
 policy_registry_supersede:
@@ -3273,9 +3276,9 @@ policy_registry_supersede:
   provenance: {}
 ```
 
----
+______________________________________________________________________
 
-# 123. Protocol — Revoke
+## 123. Protocol — Revoke
 
 ```yaml
 policy_registry_revoke:
@@ -3291,9 +3294,9 @@ policy_registry_revoke:
   provenance: {}
 ```
 
----
+______________________________________________________________________
 
-# 124. Protocol — Quarantine
+## 124. Protocol — Quarantine
 
 ```yaml
 policy_registry_quarantine:
@@ -3307,9 +3310,9 @@ policy_registry_quarantine:
   authority_ref: null
 ```
 
----
+______________________________________________________________________
 
-# 125. Policy Engine Handoff
+## 125. Policy Engine Handoff
 
 The registry SHOULD hand the Policy Engine:
 
@@ -3334,9 +3337,9 @@ policy_engine_registry_bundle:
   coverage: {}
 ```
 
----
+______________________________________________________________________
 
-# 126. Handoff Boundary
+## 126. Handoff Boundary
 
 The registry MUST NOT send:
 
@@ -3348,9 +3351,9 @@ as a registry conclusion.
 
 The Policy Engine determines concrete policy decisions.
 
----
+______________________________________________________________________
 
-# 127. Policy Read-Set Support
+## 127. Policy Read-Set Support
 
 The registry SHOULD support exact retrieval identity:
 
@@ -3363,9 +3366,9 @@ policy_read_identity:
 
 This enables the control plane and Policy Engine to revalidate only decision-forming policy objects.
 
----
+______________________________________________________________________
 
-# 128. Fine-Grained Freshness
+## 128. Fine-Grained Freshness
 
 Suppose:
 
@@ -3389,9 +3392,9 @@ D2 → unchanged
 
 unless a dependency graph proves `D2` is indirectly affected.
 
----
+______________________________________________________________________
 
-# 129. Registry-to-Control-Plane Boundary
+## 129. Registry-to-Control-Plane Boundary
 
 The control plane MAY inspect registry state for freshness or provenance.
 
@@ -3403,9 +3406,9 @@ REGISTERED POLICY
 AUTHORITY WITNESS
 ```
 
----
+______________________________________________________________________
 
-# 130. Authority
+## 130. Authority
 
 Registry mutations SHOULD bind to explicit authority where required.
 
@@ -3429,17 +3432,17 @@ mutation_authority:
   provenance: {}
 ```
 
----
+______________________________________________________________________
 
-# 131. Authority Freshness
+## 131. Authority Freshness
 
 Authority used for policy mutation SHOULD be checked at mutation commit time when authority can change.
 
 A valid historical authorization does not automatically establish present mutation authority.
 
----
+______________________________________________________________________
 
-# 132. Registry Observability
+## 132. Registry Observability
 
 Recommended registry events:
 
@@ -3481,17 +3484,17 @@ REGISTRY_ROLLBACK_DETECTED
 REGISTRY_REBUILT
 ```
 
----
+______________________________________________________________________
 
-# 133. Observability Boundary
+## 133. Observability Boundary
 
 Registry logs MUST remain inside the infrastructure-owned observability envelope.
 
 Sensitive policy material MUST NOT be exposed merely for convenience.
 
----
+______________________________________________________________________
 
-# 134. Audit Record
+## 134. Audit Record
 
 ```yaml
 policy_registry_audit_event:
@@ -3514,9 +3517,9 @@ policy_registry_audit_event:
   provenance: {}
 ```
 
----
+______________________________________________________________________
 
-# 135. Registry Performance
+## 135. Registry Performance
 
 Optimization MAY use:
 
@@ -3544,9 +3547,9 @@ coverage honesty;
 auditability.
 ```
 
----
+______________________________________________________________________
 
-# 136. Cache Model
+## 136. Cache Model
 
 Registry cache entries SHOULD bind to authoritative object identity.
 
@@ -3563,9 +3566,9 @@ registry_cache_entry:
   expires_at: null
 ```
 
----
+______________________________________________________________________
 
-# 137. Cache Invariant
+## 137. Cache Invariant
 
 Cached state MUST NOT override authoritative:
 
@@ -3577,9 +3580,9 @@ generation change;
 content-hash mismatch.
 ```
 
----
+______________________________________________________________________
 
-# 138. Security Model
+## 138. Security Model
 
 The registry SHOULD defend against:
 
@@ -3625,9 +3628,9 @@ unauthorized mutation;
 registry snapshot rollback.
 ```
 
----
+______________________________________________________________________
 
-# 139. Trust Model
+## 139. Trust Model
 
 Trust is:
 
@@ -3643,9 +3646,9 @@ freshness-bounded.
 
 The registry MUST NOT establish universal trust merely from inclusion.
 
----
+______________________________________________________________________
 
-# 140. Uncertainty
+## 140. Uncertainty
 
 Registry uncertainty SHOULD be explicit.
 
@@ -3663,9 +3666,9 @@ registry_uncertainty:
   coverage: null
 ```
 
----
+______________________________________________________________________
 
-# 141. Confidence Ceiling
+## 141. Confidence Ceiling
 
 For a registry-derived identity claim:
 
@@ -3683,9 +3686,9 @@ C_registry ≤ min(
 
 This is an AMOS MODEL confidence constraint.
 
----
+______________________________________________________________________
 
-# 142. RSCF Registry Capsule
+## 142. RSCF Registry Capsule
 
 ```yaml
 rscf:
@@ -3719,9 +3722,9 @@ rscf:
   confidence_ceiling: null
 ```
 
----
+______________________________________________________________________
 
-# 143. RSCF Selective Invalidation
+## 143. RSCF Selective Invalidation
 
 If:
 
@@ -3733,9 +3736,9 @@ invalidate claims dependent on that provenance.
 
 Do not erase unrelated policy objects.
 
----
+______________________________________________________________________
 
-# 144. GMEF Integration
+## 144. GMEF Integration
 
 Changes to registry semantics SHOULD be governed when they affect:
 
@@ -3755,9 +3758,9 @@ authority;
 mutation semantics.
 ```
 
----
+______________________________________________________________________
 
-# 145. Registry Change Manifest
+## 145. Registry Change Manifest
 
 ```yaml
 policy_registry_change:
@@ -3786,9 +3789,9 @@ policy_registry_change:
   approval_state: PROPOSED
 ```
 
----
+______________________________________________________________________
 
-# 146. Promotion Model
+## 146. Promotion Model
 
 ```text
 STRUCTURAL_MODEL
@@ -3816,9 +3819,9 @@ GOVERNED_ACTIVE
 
 No transition is automatic.
 
----
+______________________________________________________________________
 
-# 147. Implementation Requirements
+## 147. Implementation Requirements
 
 An executable registry SHOULD eventually provide:
 
@@ -3860,9 +3863,9 @@ rollback/recovery.
 
 This document does not claim those components currently exist.
 
----
+______________________________________________________________________
 
-# 148. Example Policy Object
+## 148. Example Policy Object
 
 ```yaml
 policy_object:
@@ -3923,9 +3926,9 @@ policy_object:
 
 The example is an architectural illustration, not evidence that this exact policy is already canonically registered.
 
----
+______________________________________________________________________
 
-# 149. Example Supersession
+## 149. Example Supersession
 
 ```yaml
 policy_supersession:
@@ -3949,9 +3952,9 @@ policy_supersession:
   provenance: {}
 ```
 
----
+______________________________________________________________________
 
-# 150. Example Revocation
+## 150. Example Revocation
 
 ```yaml
 policy_revocation:
@@ -3975,9 +3978,9 @@ policy_revocation:
   provenance: {}
 ```
 
----
+______________________________________________________________________
 
-# 151. Example Discovery
+## 151. Example Discovery
 
 Request:
 
@@ -4035,9 +4038,9 @@ The response identifies candidates.
 
 It does not issue `ALLOW`.
 
----
+______________________________________________________________________
 
-# 152. Example Open-World Discovery
+## 152. Example Open-World Discovery
 
 ```yaml
 policy_registry_discovery_result:
@@ -4055,9 +4058,9 @@ policy_registry_discovery_result:
 
 The Policy Engine MUST preserve the unresolved coverage if it could change the decision.
 
----
+______________________________________________________________________
 
-# 153. Example Identity Conflict
+## 153. Example Identity Conflict
 
 Observed:
 
@@ -4095,9 +4098,9 @@ QUARANTINE
 
 until authoritative identity is resolved.
 
----
+______________________________________________________________________
 
-# 154. Example Provenance Sybil
+## 154. Example Provenance Sybil
 
 Suppose:
 
@@ -4121,9 +4124,9 @@ IndependentSourceCount = 1
 
 unless additional independent authority exists.
 
----
+______________________________________________________________________
 
-# 155. Example Selective Invalidation
+## 155. Example Selective Invalidation
 
 ```text
 D1 ← P1 + P2
@@ -4147,46 +4150,46 @@ D2 → PRESERVE
 
 subject to hidden dependency checks.
 
----
+______________________________________________________________________
 
-# 156. Audit Surface
+## 156. Audit Surface
 
 An auditor SHOULD be able to answer:
 
 1. What policy IDs exist?
-2. In which namespaces?
-3. Which versions exist?
-4. What content hash belongs to each version?
-5. What source produced each policy?
-6. What source class does it have?
-7. Who registered it?
-8. Under what authority?
-9. What is its current status?
-10. When did that status change?
-11. What is its scope?
-12. What is its regime?
-13. What is its temporal validity?
-14. What dependencies does it have?
-15. What aliases resolve to it?
-16. What policies does it supersede?
-17. What supersedes it?
-18. Has it been revoked?
-19. Has it been quarantined?
-20. What policy family contains it?
-21. What H/M/L level does it occupy?
-22. What registry coverage claims exist?
-23. Is coverage closed-world or open-world?
-24. What registry snapshot exposed it?
-25. What mutations affected it?
-26. Can historical state be reconstructed?
-27. Are its provenance sources independent?
-28. What decisions depend on it?
-29. What invalidation events affect those decisions?
-30. What unresolved gaps remain?
+1. In which namespaces?
+1. Which versions exist?
+1. What content hash belongs to each version?
+1. What source produced each policy?
+1. What source class does it have?
+1. Who registered it?
+1. Under what authority?
+1. What is its current status?
+1. When did that status change?
+1. What is its scope?
+1. What is its regime?
+1. What is its temporal validity?
+1. What dependencies does it have?
+1. What aliases resolve to it?
+1. What policies does it supersede?
+1. What supersedes it?
+1. Has it been revoked?
+1. Has it been quarantined?
+1. What policy family contains it?
+1. What H/M/L level does it occupy?
+1. What registry coverage claims exist?
+1. Is coverage closed-world or open-world?
+1. What registry snapshot exposed it?
+1. What mutations affected it?
+1. Can historical state be reconstructed?
+1. Are its provenance sources independent?
+1. What decisions depend on it?
+1. What invalidation events affect those decisions?
+1. What unresolved gaps remain?
 
----
+______________________________________________________________________
 
-# 157. Completion Matrix
+## 157. Completion Matrix
 
 | Surface                | Specification State |
 | ---------------------- | ------------------- |
@@ -4241,9 +4244,9 @@ An auditor SHOULD be able to answer:
 | Formal verification    | UNKNOWN/GAP         |
 | Canon admission        | UNKNOWN/GAP         |
 
----
+______________________________________________________________________
 
-# 158. RSCF Completion State
+## 158. RSCF Completion State
 
 ```yaml
 rscf_completion:
@@ -4302,9 +4305,9 @@ rscf_completion:
 
 It does not mean the architecture is empty.
 
----
+______________________________________________________________________
 
-# 159. Hard Boundary Block
+## 159. Hard Boundary Block
 
 ```text
 POLICY_REGISTRY != POLICY_ENGINE
@@ -4384,9 +4387,9 @@ TESTED != FORMALLY_VERIFIED
 MODEL != EMPIRICAL_FACT
 ```
 
----
+______________________________________________________________________
 
-# 160. Canon Boundary
+## 160. Canon Boundary
 
 Trang Phan remains the origin architect and steward of AMOS.
 
@@ -4435,9 +4438,9 @@ supersession;
 and dependency compatibility.
 ```
 
----
+______________________________________________________________________
 
-# 161. Final Policy Registry Contract
+## 161. Final Policy Registry Contract
 
 AMOS SHALL preserve the following conceptual registry chain:
 
@@ -4553,29 +4556,33 @@ state.
 
 Integrity remains prior to completeness, fluency, speed, and optimization.
 
----
+______________________________________________________________________
 
-# END — POLICY_REGISTRY.md
+## END — POLICY_REGISTRY.md
 
 ```
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: policy_registry
 node_type: note
 path: 03_CONTROL_PLANE/03_POLICY/POLICY_REGISTRY.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[03_CONTROL_PLANE/03_POLICY/03_POLICY_MOC|03_POLICY_MOC]]

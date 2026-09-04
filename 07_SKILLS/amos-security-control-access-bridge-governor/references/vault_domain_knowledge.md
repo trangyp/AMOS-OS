@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Vault Domain Knowledge — Amos Security Control Access Bridge Governor
 type: reference
 source: 07_SKILLS/amos-security-control-access-bridge-governor/references
 tags:
-- reference
-- amos-security-control-access-bridge-governor
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-security-control-access-bridge-governor
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -92,16 +95,16 @@ Capability != Reachability != Identity != Authorization != Delegation != Observa
 
 ## 4. The Pipeline Gap
 
-From _00_Cosmo brain exploration:
+From \_00_Cosmo brain exploration:
 
 > "Security ↔ Control ↔ Access: Security policies, access control mechanisms, and runtime enforcement are separate layers without unified policy-to-enforcement pipelines."
 
 Specifically:
 
 1. C09 defines security policy but has no bridge to C10's technical access control implementation
-2. C10 has access control mechanisms but has no bridge back to C09's policy definitions
-3. Runtime enforcement enforces decisions but has no bridge to verify enforcement matches policy and mechanism
-4. No unified pipeline connects all three layers
+1. C10 has access control mechanisms but has no bridge back to C09's policy definitions
+1. Runtime enforcement enforces decisions but has no bridge to verify enforcement matches policy and mechanism
+1. No unified pipeline connects all three layers
 
 ## 5. Pipeline Transition Rules
 
@@ -187,13 +190,15 @@ The risk compliance model defines:
 
 This skill should be used in conjunction with `amos-cross-domain-tensor-composition-governor` when the cross-domain composition involves C09/C10/Runtime tensors. The composition governor validates axis compatibility; this bridge governor provides the domain-specific pipeline logic.
 
----
+______________________________________________________________________
+
 **MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -201,12 +206,14 @@ This skill should be used in conjunction with `amos-cross-domain-tensor-composit
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-security-control-access-bridge-governor-vault-domain-knowledge
 node_type: reference
 path: 07_SKILLS/amos-security-control-access-bridge-governor/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

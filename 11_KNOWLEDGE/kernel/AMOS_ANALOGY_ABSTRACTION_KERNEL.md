@@ -1,4 +1,7 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: AMOS_ANALOGY_ABSTRACTION_KERNEL
 type: note
 source: 11_KNOWLEDGE
@@ -54,7 +57,7 @@ rscf:
 
 ---
 
-# 1. Normalized Source Frontmatter
+## 1. Normalized Source Frontmatter
 
 The following preserves the supplied frontmatter values. Escaping has been normalized only for Markdown/YAML readability.
 
@@ -86,7 +89,7 @@ No aliases, implementation status, validation status, artifact ID, additional ta
 
 ---
 
-# 2. Raw Source Integrity Notice
+## 2. Raw Source Integrity Notice
 
 The supplied body is JSON-like but is **not valid JSON as written** because this fragment appears inside `evaluate_analogy_quality`:
 
@@ -127,7 +130,7 @@ The repair is safe for interpretation but should remain distinguishable from the
 
 ---
 
-# 3. Source-Preserved Kernel Identity
+## 3. Source-Preserved Kernel Identity
 
 The body explicitly supplies:
 
@@ -145,7 +148,7 @@ These are **SOURCE_CLAIM** fields.
 
 ---
 
-# 4. Naming Layers
+## 4. Naming Layers
 
 At least four naming/version signals coexist:
 
@@ -185,7 +188,7 @@ Do not silently convert these into one canonical version scheme.
 
 ---
 
-# 5. Embedded Provenance Chain
+## 5. Embedded Provenance Chain
 
 The source body itself declares:
 
@@ -222,7 +225,7 @@ The relationship between the two provenance paths is source-described, not indep
 
 ---
 
-# 6. Epistemic Boundary
+## 6. Epistemic Boundary
 
 The artifact declares:
 
@@ -254,7 +257,7 @@ formal proof of cross-domain equivalence
 
 ---
 
-# 7. `canon-group/biology` Firewall
+## 7. `canon-group/biology` Firewall
 
 The frontmatter includes:
 
@@ -289,7 +292,7 @@ $$
 
 ---
 
-# 8. Core Description
+## 8. Core Description
 
 Source:
 
@@ -313,7 +316,7 @@ where \(K_{AA}\) denotes the source-defined Analogy Abstraction Kernel.
 
 ---
 
-# 9. Purpose
+## 9. Purpose
 
 Source purpose:
 
@@ -328,7 +331,7 @@ This establishes four explicit responsibilities:
 
 ---
 
-# 10. Core Epistemic Architecture
+## 10. Core Epistemic Architecture
 
 The artifact does not treat analogy as unrestricted similarity matching.
 
@@ -358,7 +361,7 @@ This is one of the strongest source-grounded conclusions.
 
 ---
 
-# 11. Domains
+## 11. Domains
 
 The source lists six domains:
 
@@ -380,7 +383,7 @@ $$
 
 ---
 
-# 12. Domain — Analogy
+## 12. Domain — Analogy
 
 `analogy` is the primary reasoning operation.
 
@@ -388,7 +391,7 @@ The source later gives it an explicit five-part structure.
 
 ---
 
-# 13. Domain — Abstraction
+## 13. Domain — Abstraction
 
 `abstraction` is not merely a synonym for analogy.
 
@@ -404,7 +407,7 @@ within this source.
 
 ---
 
-# 14. Domain — Pattern Matching
+## 14. Domain — Pattern Matching
 
 `pattern_matching` is listed as a domain, but no independent function named `pattern_matching` exists.
 
@@ -412,7 +415,7 @@ Therefore its implementation semantics remain unresolved.
 
 ---
 
-# 15. Domain — Cross-Domain
+## 15. Domain — Cross-Domain
 
 `cross_domain` is explicit.
 
@@ -422,7 +425,7 @@ It does not license unrestricted transfer.
 
 ---
 
-# 16. Domain — Metaphor
+## 16. Domain — Metaphor
 
 `metaphor` appears in the domain list.
 
@@ -436,7 +439,7 @@ MetaphorHandling = INCLUDED_DOMAIN / UNDERSPECIFIED
 
 ---
 
-# 17. Domain — Structural Similarity
+## 17. Domain — Structural Similarity
 
 Structural similarity is central, but the kernel itself explicitly prevents it from becoming proof.
 
@@ -458,7 +461,7 @@ $$
 
 ---
 
-# 18. Priority
+## 18. Priority
 
 The body declares:
 
@@ -487,7 +490,7 @@ PrioritySemantics = UNKNOWN/GAP
 
 ---
 
-# 19. Required
+## 19. Required
 
 The body declares:
 
@@ -514,7 +517,7 @@ RequiredScope = UNKNOWN/GAP
 
 ---
 
-# 20. Dependencies
+## 20. Dependencies
 
 The source declares:
 
@@ -529,7 +532,7 @@ Thus there are exactly three explicit dependency names.
 
 ---
 
-# 21. Dependency Graph
+## 21. Dependency Graph
 
 ```mermaid
 flowchart LR
@@ -544,7 +547,7 @@ It does not establish runtime call order.
 
 ---
 
-# 22. Meta Logic Dependency
+## 22. Meta Logic Dependency
 
 A plausible interpretation is that analogy evaluation depends on logical integrity.
 
@@ -558,7 +561,7 @@ MetaLogicDependencySemantics = UNKNOWN/GAP
 
 ---
 
-# 23. Meta Ontology Dependency
+## 23. Meta Ontology Dependency
 
 This dependency is structurally relevant to:
 
@@ -580,7 +583,7 @@ is a **DERIVED candidate dependency edge**, not explicitly stated.
 
 ---
 
-# 24. Cognitive Compression Dependency
+## 24. Cognitive Compression Dependency
 
 Abstraction and compression are structurally related because abstraction removes domain-specific detail while preserving selected structure.
 
@@ -596,7 +599,7 @@ The kernel also `provides_to` `Cognitive_Compression_Kernel`, creating a bidirec
 
 ---
 
-# 25. Dependency/Provision Reciprocity
+## 25. Dependency/Provision Reciprocity
 
 Source says:
 
@@ -626,7 +629,7 @@ Exact runtime semantics remain unresolved.
 
 ---
 
-# 26. Meta Role
+## 26. Meta Role
 
 Source:
 
@@ -641,7 +644,7 @@ No internal naming contradiction is visible here.
 
 ---
 
-# 27. Creator Attribution
+## 27. Creator Attribution
 
 Source:
 
@@ -653,7 +656,7 @@ This is source attribution and should be preserved as such.
 
 ---
 
-# 28. Status
+## 28. Status
 
 Source:
 
@@ -679,7 +682,7 @@ $$
 
 ---
 
-# 29. Binding Rules
+## 29. Binding Rules
 
 Four binding rules are named:
 
@@ -699,7 +702,7 @@ $$
 
 ---
 
-# 30. Binding Rule Definitions Are Absent
+## 30. Binding Rule Definitions Are Absent
 
 The artifact does not define:
 
@@ -714,7 +717,7 @@ Therefore their exact semantics cannot be reverse-engineered from this artifact 
 
 ---
 
-# 31. Rule-of-2 Firewall
+## 31. Rule-of-2 Firewall
 
 Do not infer that because analogy has source and target domains, this is what `Rule_of_2` means.
 
@@ -722,7 +725,7 @@ That would be reverse-engineering from numerical coincidence.
 
 ---
 
-# 32. Rule-of-4 Firewall
+## 32. Rule-of-4 Firewall
 
 Do not infer `Rule_of_4` from:
 
@@ -735,7 +738,7 @@ Exact definition remains a dependency gap.
 
 ---
 
-# 33. Law-of-Law
+## 33. Law-of-Law
 
 The artifact names `Law_of_Law` but provides no semantics.
 
@@ -747,7 +750,7 @@ SOURCE_TERM / DEFINITION_GAP
 
 ---
 
-# 34. Absolute Integrity
+## 34. Absolute Integrity
 
 `Absolute_Integrity` is source-named but not locally formalized.
 
@@ -755,7 +758,7 @@ The artifact's explicit anti-false-analogy constraints are consistent with an in
 
 ---
 
-# 35. Omni Category
+## 35. Omni Category
 
 Source:
 
@@ -774,7 +777,7 @@ Case/style differences do not appear semantically problematic, but exact taxonom
 
 ---
 
-# 36. Position
+## 36. Position
 
 Source:
 
@@ -794,7 +797,7 @@ Do not infer execution order 5.
 
 ---
 
-# 37. Analogy Structure
+## 37. Analogy Structure
 
 The source defines five components:
 
@@ -819,7 +822,7 @@ is a useful derived representation.
 
 ---
 
-# 38. Source Domain
+## 38. Source Domain
 
 Source definition:
 
@@ -835,7 +838,7 @@ It functions as the knowledge donor in the analogy.
 
 ---
 
-# 39. Target Domain
+## 39. Target Domain
 
 Source:
 
@@ -851,7 +854,7 @@ The source explicitly distinguishes donor and recipient domains.
 
 ---
 
-# 40. Directionality
+## 40. Directionality
 
 Analogy is therefore directionally represented:
 
@@ -865,7 +868,7 @@ An analogy from \(S\) to \(T\) does not automatically establish that the reverse
 
 ---
 
-# 41. Mapper
+## 41. Mapper
 
 Source:
 
@@ -877,7 +880,7 @@ It is explicitly structural.
 
 ---
 
-# 42. Alignment
+## 42. Alignment
 
 Source:
 
@@ -896,7 +899,7 @@ subject to structural constraints.
 
 ---
 
-# 43. Inferences
+## 43. Inferences
 
 Source:
 
@@ -906,7 +909,7 @@ This is the most epistemically dangerous stage, and the source addresses that da
 
 ---
 
-# 44. Analogy Pipeline
+## 44. Analogy Pipeline
 
 A source-faithful derived pipeline is:
 
@@ -926,7 +929,7 @@ Bounded Useful Analogy
 
 ---
 
-# 45. Analogy Is Not Identity
+## 45. Analogy Is Not Identity
 
 The source never says source and target become equivalent.
 
@@ -942,7 +945,7 @@ A mapping connects selected structure; it does not collapse domain identity.
 
 ---
 
-# 46. Mapping Is Partial by Default
+## 46. Mapping Is Partial by Default
 
 Because the source explicitly requires bounded scope and acknowledgment of critical differences, a safe interpretation is:
 
@@ -968,7 +971,7 @@ rather than assuming a total mapping of all source properties to all target prop
 
 ---
 
-# 47. Analogy Quality Depends on Purpose
+## 47. Analogy Quality Depends on Purpose
 
 The kernel repeatedly references relevance and productivity “for the purpose.”
 
@@ -992,7 +995,7 @@ This is DERIVED from explicit source wording.
 
 ---
 
-# 48. Valid Analogy Criteria
+## 48. Valid Analogy Criteria
 
 Five criteria are supplied:
 
@@ -1010,7 +1013,7 @@ $$
 
 ---
 
-# 49. Criterion — Structural Similarity
+## 49. Criterion — Structural Similarity
 
 Source:
 
@@ -1032,7 +1035,7 @@ $$
 
 ---
 
-# 50. Surface Similarity Is Insufficient
+## 50. Surface Similarity Is Insufficient
 
 The kernel explicitly rejects analogy based only on:
 
@@ -1053,7 +1056,7 @@ $$
 
 ---
 
-# 51. Structural Similarity Is Necessary-Looking, Not Sufficiently Formalized
+## 51. Structural Similarity Is Necessary-Looking, Not Sufficiently Formalized
 
 The source says valid mapping “must preserve structural relationships.”
 
@@ -1065,7 +1068,7 @@ Do not over-formalize beyond the text.
 
 ---
 
-# 52. Criterion — Relevant Properties Mapped
+## 52. Criterion — Relevant Properties Mapped
 
 Source:
 
@@ -1081,7 +1084,7 @@ matters more than arbitrary property overlap.
 
 ---
 
-# 53. Irrelevant Similarity
+## 53. Irrelevant Similarity
 
 Two domains may share many properties irrelevant to the current reasoning task.
 
@@ -1089,7 +1092,7 @@ Such overlap does not automatically strengthen the analogy.
 
 ---
 
-# 54. Criterion — No Critical Differences Ignored
+## 54. Criterion — No Critical Differences Ignored
 
 Source:
 
@@ -1115,7 +1118,7 @@ provided those differences are acknowledged and do not invalidate the intended i
 
 ---
 
-# 55. Difference Visibility Law
+## 55. Difference Visibility Law
 
 A source-grounded rule:
 
@@ -1129,7 +1132,7 @@ Hiding it violates the kernel.
 
 ---
 
-# 56. Criterion — Bounded Scope
+## 56. Criterion — Bounded Scope
 
 Source:
 
@@ -1145,7 +1148,7 @@ conceptually.
 
 ---
 
-# 57. Scope Firewall
+## 57. Scope Firewall
 
 If analogy \(A\) supports inference within scope \(S_A\):
 
@@ -1159,7 +1162,7 @@ This is a derived formalization of the explicit rule.
 
 ---
 
-# 58. Criterion — Productive
+## 58. Criterion — Productive
 
 Source:
 
@@ -1171,7 +1174,7 @@ But “useful” is not numerically defined.
 
 ---
 
-# 59. Decorative Analogy
+## 59. Decorative Analogy
 
 An analogy may be rhetorically appealing yet nonproductive.
 
@@ -1187,7 +1190,7 @@ $$
 
 ---
 
-# 60. Validity Versus Productivity
+## 60. Validity Versus Productivity
 
 The source treats validity and productivity as related but distinguishable concepts.
 
@@ -1203,7 +1206,7 @@ $$
 
 ---
 
-# 61. False Analogy Detection
+## 61. False Analogy Detection
 
 Five failure patterns are supplied:
 
@@ -1221,7 +1224,7 @@ $$
 
 ---
 
-# 62. False Analogy — Surface Only
+## 62. False Analogy — Surface Only
 
 Source:
 
@@ -1237,7 +1240,7 @@ $$
 
 ---
 
-# 63. False Analogy — Ignoring Critical Differences
+## 63. False Analogy — Ignoring Critical Differences
 
 This failure occurs when a difference breaks the mapping for the current purpose but is hidden or ignored.
 
@@ -1249,7 +1252,7 @@ Only differences material to the intended mapping/inference are critical.
 
 ---
 
-# 64. Criticality Is Purpose-Dependent
+## 64. Criticality Is Purpose-Dependent
 
 A difference may be irrelevant under one purpose but fatal under another.
 
@@ -1263,7 +1266,7 @@ is a useful derived formulation.
 
 ---
 
-# 65. False Analogy — Over-Extension
+## 65. False Analogy — Over-Extension
 
 Source:
 
@@ -1279,7 +1282,7 @@ $$
 
 ---
 
-# 66. False Analogy — Category Error
+## 66. False Analogy — Category Error
 
 Source:
 
@@ -1291,7 +1294,7 @@ The problem is false equivalence across ontological type.
 
 ---
 
-# 67. Ontological Category Firewall
+## 67. Ontological Category Firewall
 
 $$
 DifferentCategory(x,y)
@@ -1313,7 +1316,7 @@ This distinction is essential.
 
 ---
 
-# 68. Cross-Category Analogy Can Still Be Useful
+## 68. Cross-Category Analogy Can Still Be Useful
 
 The source targets cross-domain reasoning, so different categories cannot automatically invalidate all analogies.
 
@@ -1323,7 +1326,7 @@ This is a DERIVED interpretation supported by the broader source structure.
 
 ---
 
-# 69. False Analogy — False Precision
+## 69. False Analogy — False Precision
 
 Source:
 
@@ -1345,7 +1348,7 @@ unless separate evidence independently establishes the stronger relation.
 
 ---
 
-# 70. Precision Ceiling
+## 70. Precision Ceiling
 
 An analogy's inferential precision cannot safely exceed the precision of its mapping and scope.
 
@@ -1361,7 +1364,7 @@ $$
 
 ---
 
-# 71. Core Rules
+## 71. Core Rules
 
 Four rules are explicitly supplied:
 
@@ -1382,7 +1385,7 @@ This does not prove relation to `Rule_of_4`.
 
 ---
 
-# 72. Rule — Analogy Illustrates, Not Proves
+## 72. Rule — Analogy Illustrates, Not Proves
 
 Exact source meaning:
 
@@ -1392,7 +1395,7 @@ This is the kernel's strongest epistemic invariant.
 
 ---
 
-# 73. Evidence Firewall
+## 73. Evidence Firewall
 
 Therefore:
 
@@ -1432,7 +1435,7 @@ is explicitly prohibited.
 
 ---
 
-# 74. Analogy Can Motivate Evidence Collection
+## 74. Analogy Can Motivate Evidence Collection
 
 A useful analogy may suggest what to test.
 
@@ -1460,7 +1463,7 @@ This is DERIVED governance.
 
 ---
 
-# 75. Rule — Scope Must Be Explicit
+## 75. Rule — Scope Must Be Explicit
 
 Source:
 
@@ -1477,7 +1480,7 @@ not merely a mapping.
 
 ---
 
-# 76. Positive and Negative Scope
+## 76. Positive and Negative Scope
 
 A proposed scope contract:
 
@@ -1493,7 +1496,7 @@ This is stronger than a vague scope label because it explicitly communicates inv
 
 ---
 
-# 77. Rule — Differences Must Be Acknowledged
+## 77. Rule — Differences Must Be Acknowledged
 
 Source:
 
@@ -1507,7 +1510,7 @@ It is also a **difference-preservation system**.
 
 ---
 
-# 78. Analogy Quality Requires Dissimilarity Awareness
+## 78. Analogy Quality Requires Dissimilarity Awareness
 
 A high-quality analogy therefore requires both:
 
@@ -1525,7 +1528,7 @@ This is a strong DERIVED architectural conclusion.
 
 ---
 
-# 79. Rule — Abstraction Level Match
+## 79. Rule — Abstraction Level Match
 
 Source:
 
@@ -1535,7 +1538,7 @@ Thus the kernel recognizes level mismatch as an explicit hazard.
 
 ---
 
-# 80. Abstraction-Level Firewall
+## 80. Abstraction-Level Firewall
 
 Let:
 
@@ -1561,7 +1564,7 @@ so no threshold should be invented.
 
 ---
 
-# 81. Concrete-to-Abstract Mapping Is Not Absolutely Forbidden
+## 81. Concrete-to-Abstract Mapping Is Not Absolutely Forbidden
 
 The wording says:
 
@@ -1575,7 +1578,7 @@ Therefore clarification can potentially make such a mapping acceptable.
 
 ---
 
-# 82. Abstraction Procedure
+## 82. Abstraction Procedure
 
 Seven explicit steps are supplied.
 
@@ -1587,7 +1590,7 @@ $$
 
 ---
 
-# 83. Step 1 — Identify Concrete Instance or Domain
+## 83. Step 1 — Identify Concrete Instance or Domain
 
 Source:
 
@@ -1599,7 +1602,7 @@ Abstraction begins from something more concrete.
 
 ---
 
-# 84. Step 2 — Extract Objects/Entities and Properties
+## 84. Step 2 — Extract Objects/Entities and Properties
 
 The source distinguishes:
 
@@ -1612,7 +1615,7 @@ This gives the abstraction process a proto-ontological representation.
 
 ---
 
-# 85. Step 3 — Extract Relations
+## 85. Step 3 — Extract Relations
 
 Relations are treated separately from entities and properties.
 
@@ -1620,7 +1623,7 @@ Thus the abstraction process is not merely feature averaging.
 
 ---
 
-# 86. Relational Structure
+## 86. Relational Structure
 
 A concrete instance can be represented conceptually as:
 
@@ -1639,7 +1642,7 @@ This notation is DERIVED.
 
 ---
 
-# 87. Step 4 — Identify Recurring Pattern
+## 87. Step 4 — Identify Recurring Pattern
 
 Source:
 
@@ -1651,7 +1654,7 @@ However, the source does not state a minimum number of instances.
 
 ---
 
-# 88. Recurrence Does Not Prove Universality
+## 88. Recurrence Does Not Prove Universality
 
 $$
 RepeatedPattern
@@ -1663,7 +1666,7 @@ A recurring structure supports abstraction candidate generation, not universal v
 
 ---
 
-# 89. Step 5 — Formulate Abstract Schema
+## 89. Step 5 — Formulate Abstract Schema
 
 Source:
 
@@ -1681,7 +1684,7 @@ $$
 
 ---
 
-# 90. Abstraction Does Not Mean Content Destruction
+## 90. Abstraction Does Not Mean Content Destruction
 
 The schema removes domain-specific content while preserving selected entities/relations structurally.
 
@@ -1689,7 +1692,7 @@ Thus abstraction is selective conservation, not arbitrary deletion.
 
 ---
 
-# 91. Step 6 — Test Against Other Instances
+## 91. Step 6 — Test Against Other Instances
 
 This is a built-in anti-overfitting step.
 
@@ -1697,7 +1700,7 @@ The source does not allow the first extracted pattern to automatically become ac
 
 ---
 
-# 92. Out-of-Sample Analogy
+## 92. Out-of-Sample Analogy
 
 Conceptually:
 
@@ -1717,7 +1720,7 @@ Do not import machine-learning validation semantics automatically.
 
 ---
 
-# 93. Step 7 — Refine Constraints
+## 93. Step 7 — Refine Constraints
 
 Source:
 
@@ -1727,7 +1730,7 @@ This makes boundary conditions part of the abstraction itself.
 
 ---
 
-# 94. Abstraction Is Constraint-Bearing
+## 94. Abstraction Is Constraint-Bearing
 
 A mature abstraction is therefore not merely:
 
@@ -1743,7 +1746,7 @@ pattern + applicability constraints
 
 ---
 
-# 95. Abstraction Pipeline
+## 95. Abstraction Pipeline
 
 ```mermaid
 flowchart TD
@@ -1759,7 +1762,7 @@ This directly mirrors the seven source steps.
 
 ---
 
-# 96. Abstraction Candidate Formalization
+## 96. Abstraction Candidate Formalization
 
 For instances:
 
@@ -1785,7 +1788,7 @@ This is a DERIVED formalization, not source mathematics.
 
 ---
 
-# 97. Over-Abstraction Hazard
+## 97. Over-Abstraction Hazard
 
 If too many details are removed, the schema may become trivially applicable.
 
@@ -1801,7 +1804,7 @@ The source's productivity and constraint requirements implicitly resist this fai
 
 ---
 
-# 98. Under-Abstraction Hazard
+## 98. Under-Abstraction Hazard
 
 If domain-specific details remain, the schema may fail to generalize.
 
@@ -1817,7 +1820,7 @@ The source gives refinement/testing as the control mechanism, not an optimizatio
 
 ---
 
-# 99. Abstraction Validity Is Bounded
+## 99. Abstraction Validity Is Bounded
 
 An abstract schema's applicability should be limited to cases satisfying its constraints.
 
@@ -1829,7 +1832,7 @@ cannot be inferred merely because \(x\) superficially resembles training instanc
 
 ---
 
-# 100. Non-Examples Are First-Class
+## 100. Non-Examples Are First-Class
 
 The `extract_abstraction` function explicitly outputs:
 
@@ -1845,7 +1848,7 @@ It explicitly preserves cases where the abstraction does not apply.
 
 ---
 
-# 101. Positive/Negative Boundary Learning
+## 101. Positive/Negative Boundary Learning
 
 Function outputs:
 
@@ -1864,7 +1867,7 @@ This is a powerful anti-overgeneralization feature.
 
 ---
 
-# 102. Functions
+## 102. Functions
 
 Three functions are supplied:
 
@@ -1882,7 +1885,7 @@ $$
 
 ---
 
-# 103. Function 1 — `find_analogy`
+## 103. Function 1 — `find_analogy`
 
 Source description:
 
@@ -1910,7 +1913,7 @@ false_analogy_warnings
 
 ---
 
-# 104. `find_analogy` Interface
+## 104. `find_analogy` Interface
 
 Derived notation:
 
@@ -1936,7 +1939,7 @@ where:
 
 ---
 
-# 105. Purpose Is Explicit Input
+## 105. Purpose Is Explicit Input
 
 This is structurally significant.
 
@@ -1954,7 +1957,7 @@ with \(f\) unspecified.
 
 ---
 
-# 106. Available Source Domains
+## 106. Available Source Domains
 
 The function does not claim unrestricted access to all possible source domains.
 
@@ -1968,7 +1971,7 @@ Thus source selection is bounded by available candidates.
 
 ---
 
-# 107. Candidate-Set Dependence
+## 107. Candidate-Set Dependence
 
 If the best possible source domain is absent from the candidate set, the function may return the best available analogy rather than the globally best analogy.
 
@@ -1976,7 +1979,7 @@ The source does not define optimization semantics, but this limitation follows s
 
 ---
 
-# 108. Mapping Table
+## 108. Mapping Table
 
 `mapping_table` is explicit output.
 
@@ -1991,7 +1994,7 @@ But confidence and limitation columns are **PROPOSED**, not source fields.
 
 ---
 
-# 109. Generated Inferences
+## 109. Generated Inferences
 
 The function explicitly outputs inferences.
 
@@ -2015,7 +2018,7 @@ depending on context.
 
 ---
 
-# 110. Critical Differences Output
+## 110. Critical Differences Output
 
 The function itself outputs:
 
@@ -2027,7 +2030,7 @@ This operationalizes the source rule that differences must be acknowledged.
 
 ---
 
-# 111. Scope Boundaries Output
+## 111. Scope Boundaries Output
 
 Likewise:
 
@@ -2041,7 +2044,7 @@ This means scope is not merely documentation metadata; it is a first-class funct
 
 ---
 
-# 112. False Analogy Warnings
+## 112. False Analogy Warnings
 
 The function outputs:
 
@@ -2055,7 +2058,7 @@ A useful analogy may still carry warnings.
 
 ---
 
-# 113. Function 2 — `extract_abstraction`
+## 113. Function 2 — `extract_abstraction`
 
 Inputs:
 
@@ -2076,7 +2079,7 @@ non_example_instances
 
 ---
 
-# 114. Abstraction Function Interface
+## 114. Abstraction Function Interface
 
 $$
 F_X:
@@ -2099,7 +2102,7 @@ where:
 
 ---
 
-# 115. Input/Procedure Tension
+## 115. Input/Procedure Tension
 
 The seven-step procedure says the kernel itself should:
 
@@ -2128,7 +2131,7 @@ Status: **COMPETING**.
 
 ---
 
-# 116. No Forced Reconciliation
+## 116. No Forced Reconciliation
 
 Do not silently rewrite the function to accept raw instances only.
 
@@ -2136,7 +2139,7 @@ The source explicitly lists all three inputs.
 
 ---
 
-# 117. Example Instances Output
+## 117. Example Instances Output
 
 The function may identify instances supporting the schema.
 
@@ -2144,7 +2147,7 @@ This can provide traceability from abstraction back to concrete evidence.
 
 ---
 
-# 118. Non-Example Instances Output
+## 118. Non-Example Instances Output
 
 Non-examples provide falsification/boundary evidence.
 
@@ -2152,7 +2155,7 @@ This is one of the artifact's strongest anti-overgeneralization structures.
 
 ---
 
-# 119. Function 3 — `evaluate_analogy_quality`
+## 119. Function 3 — `evaluate_analogy_quality`
 
 Raw source corruption occurs here.
 
@@ -2179,7 +2182,7 @@ recommended_scope
 
 ---
 
-# 120. Repair Boundary
+## 120. Repair Boundary
 
 Canonical preservation should retain both:
 
@@ -2196,7 +2199,7 @@ Do not erase the source defect from provenance.
 
 ---
 
-# 121. Evaluation Interface
+## 121. Evaluation Interface
 
 $$
 F_Q:
@@ -2219,7 +2222,7 @@ where:
 
 ---
 
-# 122. Validity Score
+## 122. Validity Score
 
 The source names:
 
@@ -2247,7 +2250,7 @@ ValidityScoreSemantics = UNKNOWN/GAP
 
 ---
 
-# 123. Do Not Invent 0–1
+## 123. Do Not Invent 0–1
 
 Nothing establishes:
 
@@ -2261,7 +2264,7 @@ Do not assign a numeric range without another source.
 
 ---
 
-# 124. Quality Assessment
+## 124. Quality Assessment
 
 The tests later mention:
 
@@ -2278,7 +2281,7 @@ For example, `medium` is plausible but not source-grounded.
 
 ---
 
-# 125. Productive for Purpose
+## 125. Productive for Purpose
 
 This output reinforces task-relative quality.
 
@@ -2286,7 +2289,7 @@ An analogy may be structurally reasonable yet unproductive for the current expla
 
 ---
 
-# 126. Recommended Scope
+## 126. Recommended Scope
 
 The evaluation function does not merely accept a scope; it can output a `recommended_scope`.
 
@@ -2294,7 +2297,7 @@ Thus scope may be adjusted after evaluation.
 
 ---
 
-# 127. Function Coupling
+## 127. Function Coupling
 
 A plausible workflow:
 
@@ -2310,7 +2313,7 @@ This is strongly DERIVED but not explicitly declared as runtime order.
 
 ---
 
-# 128. Candidate Dataflow
+## 128. Candidate Dataflow
 
 ```mermaid
 flowchart LR
@@ -2331,7 +2334,7 @@ The source does not explicitly bind output field names one-to-one (`mapping_tabl
 
 ---
 
-# 129. Field-Name Non-Identity
+## 129. Field-Name Non-Identity
 
 Do not automatically assert:
 
@@ -2355,7 +2358,7 @@ They are semantically compatible candidates, but exact identity is not source-de
 
 ---
 
-# 130. Possible Adapter Layer
+## 130. Possible Adapter Layer
 
 A plausible integration may transform:
 
@@ -2371,7 +2374,7 @@ Status: **DERIVED candidate**.
 
 ---
 
-# 131. Abstraction and Analogy Coupling
+## 131. Abstraction and Analogy Coupling
 
 The kernel contains both operations, but no explicit function edge says:
 
@@ -2385,7 +2388,7 @@ Several architectures remain possible.
 
 ---
 
-# 132. Competing Architecture A
+## 132. Competing Architecture A
 
 Abstraction first:
 
@@ -2401,7 +2404,7 @@ This is plausible because abstract structure may facilitate analogy.
 
 ---
 
-# 133. Competing Architecture B
+## 133. Competing Architecture B
 
 Analogy first:
 
@@ -2417,7 +2420,7 @@ Also plausible.
 
 ---
 
-# 134. Competing Architecture C
+## 134. Competing Architecture C
 
 Parallel services:
 
@@ -2433,7 +2436,7 @@ Also plausible.
 
 ---
 
-# 135. Do Not Force Pipeline
+## 135. Do Not Force Pipeline
 
 Without explicit orchestration:
 
@@ -2443,7 +2446,7 @@ FunctionExecutionOrder = UNKNOWN/GAP
 
 ---
 
-# 136. Integration — Provides To
+## 136. Integration — Provides To
 
 The source declares:
 
@@ -2459,7 +2462,7 @@ Thus four explicit recipients exist.
 
 ---
 
-# 137. Integration Reciprocity With Meta Logic
+## 137. Integration Reciprocity With Meta Logic
 
 The kernel both:
 
@@ -2479,7 +2482,7 @@ Exact feedback semantics remain unknown.
 
 ---
 
-# 138. Structural Reasoning
+## 138. Structural Reasoning
 
 `Structural_Reasoning` receives from the kernel.
 
@@ -2489,7 +2492,7 @@ Therefore this is an integration claim, not evidence of a specific module API.
 
 ---
 
-# 139. Multi-Domain Thinking
+## 139. Multi-Domain Thinking
 
 `Multi_Domain_Thinking` receives from the kernel.
 
@@ -2499,7 +2502,7 @@ Again, implementation is not established.
 
 ---
 
-# 140. Used By
+## 140. Used By
 
 Source:
 
@@ -2514,7 +2517,7 @@ These are three declared use cases/consumers.
 
 ---
 
-# 141. Explanation Generation Boundary
+## 141. Explanation Generation Boundary
 
 Analogy can improve explanation without proving the explained proposition.
 
@@ -2530,7 +2533,7 @@ This distinction is explicitly supported by `analogy_illustrates_not_proves`.
 
 ---
 
-# 142. Concept Learning Boundary
+## 142. Concept Learning Boundary
 
 A useful analogy may support learning while remaining imperfect.
 
@@ -2538,7 +2541,7 @@ Pedagogical usefulness does not make every mapped property true.
 
 ---
 
-# 143. Cross-Domain Reasoning Boundary
+## 143. Cross-Domain Reasoning Boundary
 
 Cross-domain reasoning must preserve domain-specific differences.
 
@@ -2546,7 +2549,7 @@ The source is explicitly anti-universalizing.
 
 ---
 
-# 144. Routes
+## 144. Routes
 
 Source:
 
@@ -2565,7 +2568,7 @@ ROUTE_PSYCH when mapping psychological concepts
 
 ---
 
-# 145. Route Selection
+## 145. Route Selection
 
 At minimum, the source suggests:
 
@@ -2587,7 +2590,7 @@ But exact precedence is not formalized.
 
 ---
 
-# 146. Mixed-Domain Routing Gap
+## 146. Mixed-Domain Routing Gap
 
 Suppose an analogy maps:
 
@@ -2607,13 +2610,13 @@ MixedRouteArbitration = UNKNOWN/GAP
 
 ---
 
-# 147. Route Names Are Not Runtime Proof
+## 147. Route Names Are Not Runtime Proof
 
 The presence of route labels does not establish that a routing engine exists or executes them.
 
 ---
 
-# 148. Psychological Route Firewall
+## 148. Psychological Route Firewall
 
 `ROUTE_PSYCH` does not license unsupported clinical or psychological claims.
 
@@ -2621,13 +2624,13 @@ Analogy remains analogy.
 
 ---
 
-# 149. Technology Route Firewall
+## 149. Technology Route Firewall
 
 Mapping a biological or social structure onto a technical architecture does not establish that the technical system literally implements the source-domain mechanism.
 
 ---
 
-# 150. Safety Constraints
+## 150. Safety Constraints
 
 Five explicit safety constraints are supplied:
 
@@ -2647,7 +2650,7 @@ $$
 
 ---
 
-# 151. Constraint 1 — Never Use Analogy as Proof
+## 151. Constraint 1 — Never Use Analogy as Proof
 
 This is absolute in the source.
 
@@ -2655,7 +2658,7 @@ No exception is supplied.
 
 ---
 
-# 152. Important Nuance
+## 152. Important Nuance
 
 Independent evidence may prove a proposition that was initially suggested by analogy.
 
@@ -2670,7 +2673,7 @@ The analogy itself still did not become proof.
 
 ---
 
-# 153. Constraint 2 — Never Hide Critical Differences
+## 153. Constraint 2 — Never Hide Critical Differences
 
 This is also absolute in the source.
 
@@ -2678,7 +2681,7 @@ It establishes transparency as part of analogy quality.
 
 ---
 
-# 154. Constraint 3 — Never Over-Extend Scope
+## 154. Constraint 3 — Never Over-Extend Scope
 
 A mapping may be valid locally and invalid globally.
 
@@ -2686,13 +2689,13 @@ The kernel requires local validity to remain local.
 
 ---
 
-# 155. Constraint 4 — Always State Scope Boundaries
+## 155. Constraint 4 — Always State Scope Boundaries
 
 Scope disclosure is mandatory, not optional, under the source.
 
 ---
 
-# 156. Constraint 5 — Warn When Analogy Is Weak
+## 156. Constraint 5 — Warn When Analogy Is Weak
 
 The source does not define `weak`.
 
@@ -2706,7 +2709,7 @@ The obligation is explicit; the trigger algorithm is not.
 
 ---
 
-# 157. Safety Constraint Consistency
+## 157. Safety Constraint Consistency
 
 The five constraints are mutually coherent with the validity criteria and false-analogy detection rules.
 
@@ -2714,7 +2717,7 @@ No direct contradiction is visible.
 
 ---
 
-# 158. Evaluation Unit Tests
+## 158. Evaluation Unit Tests
 
 Four unit-test descriptions are supplied.
 
@@ -2724,7 +2727,7 @@ This distinction is critical.
 
 ---
 
-# 159. Unit Test 1
+## 159. Unit Test 1
 
 Source expectation:
 
@@ -2738,7 +2741,7 @@ This is not necessarily contradictory; the test description may be abbreviated.
 
 ---
 
-# 160. Unit Test 2
+## 160. Unit Test 2
 
 Source:
 
@@ -2756,7 +2759,7 @@ It does **not** establish that abstraction always requires exactly three instanc
 
 ---
 
-# 161. Three-Instance Firewall
+## 161. Three-Instance Firewall
 
 Do not infer:
 
@@ -2770,7 +2773,7 @@ The procedure itself gives no minimum.
 
 ---
 
-# 162. Unit Test 3
+## 162. Unit Test 3
 
 Source:
 
@@ -2796,7 +2799,7 @@ This is a real source-level interface inconsistency.
 
 ---
 
-# 163. `false_analogy_detected` Gap
+## 163. `false_analogy_detected` Gap
 
 Possible explanations:
 
@@ -2816,7 +2819,7 @@ Do not silently add the field to the function outputs.
 
 ---
 
-# 164. Unit Test 4
+## 164. Unit Test 4
 
 Source:
 
@@ -2826,7 +2829,7 @@ This confirms expected `high` quality label and the relevance of productivity.
 
 ---
 
-# 165. Unit Tests Are Not Test Results
+## 165. Unit Tests Are Not Test Results
 
 The source does not say:
 
@@ -2846,7 +2849,7 @@ TestsPassed = UNKNOWN
 
 ---
 
-# 166. Failure Modes
+## 166. Failure Modes
 
 Four failure modes are explicitly supplied:
 
@@ -2857,7 +2860,7 @@ Four failure modes are explicitly supplied:
 
 ---
 
-# 167. Failure-Mode Coverage
+## 167. Failure-Mode Coverage
 
 These map strongly to existing rules:
 
@@ -2872,7 +2875,7 @@ This is strong structural consistency.
 
 ---
 
-# 168. Missing Failure Mode — Category Error
+## 168. Missing Failure Mode — Category Error
 
 Interestingly, `category_error_in_mapping` appears under false-analogy detection but not in the shorter `failure_modes` list.
 
@@ -2882,7 +2885,7 @@ The two lists operate at different levels of completeness.
 
 ---
 
-# 169. Missing Failure Mode — Surface Only
+## 169. Missing Failure Mode — Surface Only
 
 Likewise `surface_only` is not repeated in the final failure-mode list.
 
@@ -2890,7 +2893,7 @@ It remains source-defined in the dedicated detector.
 
 ---
 
-# 170. Source Architecture Layers
+## 170. Source Architecture Layers
 
 A useful derived decomposition is:
 
@@ -2911,7 +2914,7 @@ This layer numbering is **PROPOSED**, not source numbering.
 
 ---
 
-# 171. Structural Similarity Firewall
+## 171. Structural Similarity Firewall
 
 The most important AMOS-wide law derivable from this artifact is:
 
@@ -2925,7 +2928,7 @@ $$
 
 ---
 
-# 172. Causal Firewall
+## 172. Causal Firewall
 
 Even stronger:
 
@@ -2943,7 +2946,7 @@ No analogical mapping alone can license a causal claim.
 
 ---
 
-# 173. Mechanism Firewall
+## 173. Mechanism Firewall
 
 $$
 SimilarStructure
@@ -2955,7 +2958,7 @@ Two systems may exhibit structurally analogous behavior through different mechan
 
 ---
 
-# 174. Ontology Firewall
+## 174. Ontology Firewall
 
 $$
 MappedRole(A,B)
@@ -2967,7 +2970,7 @@ This directly protects against category errors.
 
 ---
 
-# 175. Scale Firewall
+## 175. Scale Firewall
 
 $$
 SimilarPatternAtScale_1
@@ -2979,7 +2982,7 @@ This is especially important for cross-scale AMOS models.
 
 ---
 
-# 176. Domain Firewall
+## 176. Domain Firewall
 
 $$
 ValidMapping(D_1,D_2,P)
@@ -2995,7 +2998,7 @@ for a different purpose.
 
 ---
 
-# 177. Temporal Firewall
+## 177. Temporal Firewall
 
 An analogy valid under one regime may become invalid after target-domain change.
 
@@ -3005,7 +3008,7 @@ The source does not explicitly mention time, but bounded applicability logically
 
 ---
 
-# 178. Scope Inheritance
+## 178. Scope Inheritance
 
 An inference generated by analogy cannot safely have broader scope than the analogy that generated it.
 
@@ -3019,7 +3022,7 @@ $$
 
 ---
 
-# 179. Confidence Ceiling
+## 179. Confidence Ceiling
 
 A derived AMOS v4.4 hardening:
 
@@ -3041,7 +3044,7 @@ unless independently revalidated.
 
 ---
 
-# 180. Analogy Cannot Self-Upgrade
+## 180. Analogy Cannot Self-Upgrade
 
 Repeated restatement of the same analogy does not increase its evidential class.
 
@@ -3053,7 +3056,7 @@ $$
 
 ---
 
-# 181. Multiple Analogies Are Not Automatically Independent
+## 181. Multiple Analogies Are Not Automatically Independent
 
 Suppose three analogies derive from the same underlying structural assumption.
 
@@ -3067,7 +3070,7 @@ $$
 
 ---
 
-# 182. Analogy Ensemble
+## 182. Analogy Ensemble
 
 Multiple genuinely different analogies may improve exploration.
 
@@ -3075,7 +3078,7 @@ But they still generate hypotheses rather than proof.
 
 ---
 
-# 183. Competing Analogies
+## 183. Competing Analogies
 
 Two analogies can support incompatible interpretations of the same target.
 
@@ -3091,7 +3094,7 @@ until discriminating evidence exists.
 
 ---
 
-# 184. Analogy Selection Bias
+## 184. Analogy Selection Bias
 
 Selecting only source domains that support a preferred conclusion can create confirmation bias.
 
@@ -3101,7 +3104,7 @@ This is a derived gap.
 
 ---
 
-# 185. Source-Domain Availability Bias
+## 185. Source-Domain Availability Bias
 
 Because `available_source_domains` is an explicit input:
 
@@ -3115,7 +3118,7 @@ Thus absence of a better analogy from the candidate set does not prove none exis
 
 ---
 
-# 186. Best-Available Versus Best-Possible
+## 186. Best-Available Versus Best-Possible
 
 $$
 BestAvailableAnalogy
@@ -3127,7 +3130,7 @@ unless candidate-set completeness is established.
 
 ---
 
-# 187. Abstraction and Induction
+## 187. Abstraction and Induction
 
 The abstraction procedure generalizes recurring patterns across instances.
 
@@ -3145,7 +3148,7 @@ would be too strong.
 
 ---
 
-# 188. Abstraction and Ontology
+## 188. Abstraction and Ontology
 
 Extracting entities, properties, and relations has ontological structure.
 
@@ -3153,7 +3156,7 @@ But the artifact does not define a formal ontology language.
 
 ---
 
-# 189. Abstraction and Graphs
+## 189. Abstraction and Graphs
 
 Entity–relation schemas can be represented as graphs.
 
@@ -3163,7 +3166,7 @@ A graph model is a useful DERIVED representation only.
 
 ---
 
-# 190. Proposed Graph Formalization
+## 190. Proposed Graph Formalization
 
 Let concrete instance:
 
@@ -3183,7 +3186,7 @@ This is a MODEL representation, not source mathematics.
 
 ---
 
-# 191. Graph Isomorphism Is Not Source-Defined
+## 191. Graph Isomorphism Is Not Source-Defined
 
 The kernel never says analogy requires:
 
@@ -3198,7 +3201,7 @@ Do not impose one.
 
 ---
 
-# 192. Structural Similarity Metric Missing
+## 192. Structural Similarity Metric Missing
 
 No formula exists for:
 
@@ -3210,7 +3213,7 @@ Therefore no numeric structural similarity score is canonical.
 
 ---
 
-# 193. Mapping Optimization Missing
+## 193. Mapping Optimization Missing
 
 No objective such as:
 
@@ -3222,7 +3225,7 @@ is supplied.
 
 ---
 
-# 194. Validity Score Algorithm Missing
+## 194. Validity Score Algorithm Missing
 
 No equation such as:
 
@@ -3237,7 +3240,7 @@ Any such formula would be invented.
 
 ---
 
-# 195. No Weighting System
+## 195. No Weighting System
 
 No weights exist for:
 
@@ -3251,7 +3254,7 @@ productivity
 
 ---
 
-# 196. Criteria May Not Be Compensatory
+## 196. Criteria May Not Be Compensatory
 
 Without weights, one cannot assume that very high structural similarity compensates for a fatal critical difference.
 
@@ -3259,7 +3262,7 @@ Indeed, the source wording suggests some differences may break the mapping entir
 
 ---
 
-# 197. Hard-Veto Candidate
+## 197. Hard-Veto Candidate
 
 A critical difference that invalidates the intended inference may function conceptually as a veto.
 
@@ -3273,7 +3276,7 @@ CriticalDifferenceVeto = DERIVED candidate
 
 ---
 
-# 198. Category Error as Hard Failure Candidate
+## 198. Category Error as Hard Failure Candidate
 
 Likewise, category error may invalidate a specific mapping.
 
@@ -3281,7 +3284,7 @@ No runtime behavior is supplied.
 
 ---
 
-# 199. Weak Analogy Warning Threshold
+## 199. Weak Analogy Warning Threshold
 
 Missing.
 
@@ -3299,13 +3302,13 @@ No choice is canonical yet.
 
 ---
 
-# 200. Productive Analogy Metric Missing
+## 200. Productive Analogy Metric Missing
 
 No formula defines productivity.
 
 ---
 
-# 201. Decorative Versus Productive Test
+## 201. Decorative Versus Productive Test
 
 A proposed test:
 
@@ -3315,7 +3318,7 @@ This is useful but **PROPOSED**, not source text.
 
 ---
 
-# 202. Explanation Versus Prediction
+## 202. Explanation Versus Prediction
 
 An analogy may explain without predicting.
 
@@ -3325,7 +3328,7 @@ These should remain separate functions epistemically.
 
 ---
 
-# 203. Metaphor Boundary
+## 203. Metaphor Boundary
 
 Because metaphor is a listed domain, a metaphor may be useful for explanation.
 
@@ -3343,7 +3346,7 @@ unless evaluated.
 
 ---
 
-# 204. Linguistic Similarity Firewall
+## 204. Linguistic Similarity Firewall
 
 Shared terminology does not establish structural equivalence.
 
@@ -3357,7 +3360,7 @@ This follows directly from `surface_only`.
 
 ---
 
-# 205. Visual Similarity Firewall
+## 205. Visual Similarity Firewall
 
 Shared appearance does not establish functional or structural equivalence.
 
@@ -3365,7 +3368,7 @@ Again directly source-supported.
 
 ---
 
-# 206. Mathematical-Form Similarity Firewall
+## 206. Mathematical-Form Similarity Firewall
 
 Two equations with similar syntax may represent different semantics, units, regimes, or causal mechanisms.
 
@@ -3373,7 +3376,7 @@ The source's structural criteria require more than superficial form.
 
 ---
 
-# 207. Equation Analogy
+## 207. Equation Analogy
 
 Even exact algebraic form does not necessarily establish physical equivalence.
 
@@ -3385,7 +3388,7 @@ appearing in two domains does not prove the underlying mechanisms are identical.
 
 ---
 
-# 208. Biological Analogy Firewall
+## 208. Biological Analogy Firewall
 
 Because the artifact carries a biology taxonomy tag, this deserves explicit protection:
 
@@ -3402,7 +3405,7 @@ They do **not** establish literal mechanistic identity.
 
 ---
 
-# 209. Quantum Analogy Firewall
+## 209. Quantum Analogy Firewall
 
 Likewise:
 
@@ -3416,7 +3419,7 @@ cannot establish physical quantum computation merely through structural analogy.
 
 ---
 
-# 210. Psychological Analogy Firewall
+## 210. Psychological Analogy Firewall
 
 Technical architectures mapped to psychological constructs remain MODEL unless independently validated.
 
@@ -3424,13 +3427,13 @@ Technical architectures mapped to psychological constructs remain MODEL unless i
 
 ---
 
-# 211. Social Analogy Firewall
+## 211. Social Analogy Firewall
 
 Organizational systems and biological systems may share network patterns without sharing mechanisms.
 
 ---
 
-# 212. Fractal Analogy Firewall
+## 212. Fractal Analogy Firewall
 
 Repeated structure across H/M/L levels may support a fractal-like model.
 
@@ -3438,7 +3441,7 @@ It does not prove a mathematically measured fractal dimension or identical cross
 
 ---
 
-# 213. Entropy Analogy Firewall
+## 213. Entropy Analogy Firewall
 
 An “entropy” proxy in an information or organizational model should not automatically be interpreted as thermodynamic entropy.
 
@@ -3446,7 +3449,7 @@ This is exactly the kind of category/scope error the kernel is designed to preve
 
 ---
 
-# 214. Cross-Domain Tensor Compatibility
+## 214. Cross-Domain Tensor Compatibility
 
 If this kernel is later combined with AMOS cross-domain tensor composition, analogy should remain a weaker bridge than identity or causal equivalence unless stronger evidence exists.
 
@@ -3454,7 +3457,7 @@ That is a DERIVED integration principle, not a direct source binding.
 
 ---
 
-# 215. Analogy Versus Isomorphism
+## 215. Analogy Versus Isomorphism
 
 $$
 Analogy \neq Isomorphism
@@ -3464,7 +3467,7 @@ An analogy may preserve selected relations without full structural equivalence.
 
 ---
 
-# 216. Isomorphism Versus Causation
+## 216. Isomorphism Versus Causation
 
 Even a genuine structural isomorphism would not itself establish shared causal mechanism.
 
@@ -3476,7 +3479,7 @@ $$
 
 ---
 
-# 217. Abstraction Versus Universal Law
+## 217. Abstraction Versus Universal Law
 
 $$
 AbstractSchema
@@ -3488,7 +3491,7 @@ A schema remains bounded by applicability constraints and tested instances.
 
 ---
 
-# 218. Schema Versus Reality
+## 218. Schema Versus Reality
 
 $$
 ModelOfStructure
@@ -3500,7 +3503,7 @@ The abstraction is a representation.
 
 ---
 
-# 219. Non-Example Importance
+## 219. Non-Example Importance
 
 A single valid non-example may reveal a missing constraint.
 
@@ -3508,7 +3511,7 @@ Therefore non-examples can have high information value.
 
 ---
 
-# 220. Cheapest Discriminating Test
+## 220. Cheapest Discriminating Test
 
 When two candidate abstractions compete, the highest-value next test is often an instance on which their predictions/applicability differ.
 
@@ -3516,7 +3519,7 @@ This is DERIVED v4.4 reasoning.
 
 ---
 
-# 221. Competing Schemas
+## 221. Competing Schemas
 
 If:
 
@@ -3540,7 +3543,7 @@ not forced convergence.
 
 ---
 
-# 222. Overfitting Abstraction
+## 222. Overfitting Abstraction
 
 A schema that memorizes every concrete detail may fit all known instances while failing abstraction.
 
@@ -3548,13 +3551,13 @@ The source's domain-content removal step protects against this conceptually.
 
 ---
 
-# 223. Underfitting Abstraction
+## 223. Underfitting Abstraction
 
 A schema too broad to distinguish examples from non-examples fails the step-7 constraint requirement.
 
 ---
 
-# 224. Abstraction Sensitivity
+## 224. Abstraction Sensitivity
 
 The load-bearing choice may be:
 
@@ -3568,7 +3571,7 @@ Changing one may alter the abstract schema.
 
 ---
 
-# 225. Analogy Sensitivity
+## 225. Analogy Sensitivity
 
 The load-bearing choice may be:
 
@@ -3583,7 +3586,7 @@ A different purpose can legitimately change the best analogy.
 
 ---
 
-# 226. Purpose Shift
+## 226. Purpose Shift
 
 Therefore:
 
@@ -3599,7 +3602,7 @@ No contradiction exists if purpose differs.
 
 ---
 
-# 227. Scope Shift
+## 227. Scope Shift
 
 An analogy valid for explaining one subsystem may fail for predicting another.
 
@@ -3607,7 +3610,7 @@ Scope must travel with the analogy.
 
 ---
 
-# 228. Proof Capsule for an Analogy
+## 228. Proof Capsule for an Analogy
 
 A proposed RSCF-compatible capsule:
 
@@ -3654,7 +3657,7 @@ This is PROPOSED.
 
 ---
 
-# 229. Proof Capsule for an Abstraction
+## 229. Proof Capsule for an Abstraction
 
 ```yaml
 claim:
@@ -3693,7 +3696,7 @@ PROPOSED.
 
 ---
 
-# 230. RSCF Node — Proposed
+## 230. RSCF Node — Proposed
 
 ```yaml
 RSCF_NODE:
@@ -3728,7 +3731,7 @@ RSCF_NODE:
 
 ---
 
-# 231. RSCF Relations — Proposed
+## 231. RSCF Relations — Proposed
 
 ```yaml
 RSCF_RELATIONS:
@@ -3769,7 +3772,7 @@ The dependency/provision relations are source-grounded; the RSCF serialization i
 
 ---
 
-# 232. H/M/L Retrieval Structure
+## 232. H/M/L Retrieval Structure
 
 ## H — Domain
 
@@ -3807,7 +3810,7 @@ The H/M/L decomposition is DERIVED.
 
 ---
 
-# 233. Smallest Sufficient Proof Scope
+## 233. Smallest Sufficient Proof Scope
 
 For a simple explanatory analogy, the minimum relevant closure may be:
 
@@ -3824,7 +3827,7 @@ There is no need to load unrelated abstraction details unless they can alter the
 
 ---
 
-# 234. Escalation Conditions
+## 234. Escalation Conditions
 
 Escalate analogy validation when:
 
@@ -3843,7 +3846,7 @@ This is DERIVED governance.
 
 ---
 
-# 235. Adversarial Validation Path
+## 235. Adversarial Validation Path
 
 For consequential analogy \(A\):
 
@@ -3861,7 +3864,7 @@ This is a v4.4 hardening of the source's own safety rules.
 
 ---
 
-# 236. Analogy Validation Matrix
+## 236. Analogy Validation Matrix
 
 | Question                              | Required              |
 | ------------------------------------- | --------------------- |
@@ -3880,7 +3883,7 @@ This is a v4.4 hardening of the source's own safety rules.
 
 ---
 
-# 237. Proposed Analogy State Machine
+## 237. Proposed Analogy State Machine
 
 ```mermaid
 stateDiagram-v2
@@ -3902,7 +3905,7 @@ This is PROPOSED, not source runtime.
 
 ---
 
-# 238. Proposed Abstraction State Machine
+## 238. Proposed Abstraction State Machine
 
 ```mermaid
 stateDiagram-v2
@@ -3922,7 +3925,7 @@ This closely mirrors the source procedure but the state-machine form is derived.
 
 ---
 
-# 239. Source/Target Mapping Table Template
+## 239. Source/Target Mapping Table Template
 
 ```markdown
 | Source | Source relation | Target | Target relation | Mapping status |
@@ -3934,7 +3937,7 @@ PROPOSED.
 
 ---
 
-# 240. Critical Difference Table Template
+## 240. Critical Difference Table Template
 
 ```markdown
 | Difference | Relevant to purpose? | Breaks inference? | Scope effect |
@@ -3946,7 +3949,7 @@ PROPOSED.
 
 ---
 
-# 241. Inference Ledger Template
+## 241. Inference Ledger Template
 
 ```markdown
 | Inference | Basis | Class | Independent evidence | Status |
@@ -3958,7 +3961,7 @@ This prevents analogical inference from being silently promoted.
 
 ---
 
-# 242. Abstraction Boundary Table
+## 242. Abstraction Boundary Table
 
 ```markdown
 | Instance | Fits schema? | Violated constraint | Classification |
@@ -3971,7 +3974,7 @@ PROPOSED.
 
 ---
 
-# 243. Quality Score Firewall
+## 243. Quality Score Firewall
 
 Until the scoring system is supplied, output should prefer:
 
@@ -3985,7 +3988,7 @@ over fabricated numeric precision.
 
 ---
 
-# 244. Safe Evaluation Example
+## 244. Safe Evaluation Example
 
 Permissible:
 
@@ -4003,7 +4006,7 @@ Validity score: 0.8734
 
 ---
 
-# 245. High Quality Does Not Mean Proof
+## 245. High Quality Does Not Mean Proof
 
 The unit test establishes a `high` assessment label.
 
@@ -4019,7 +4022,7 @@ The source's proof firewall still applies.
 
 ---
 
-# 246. Weak Analogy Can Still Be Useful
+## 246. Weak Analogy Can Still Be Useful
 
 The safety constraint says weak analogies require warning, not necessarily automatic rejection.
 
@@ -4037,7 +4040,7 @@ Weak → Reject
 
 ---
 
-# 247. Fatal Versus Nonfatal Difference
+## 247. Fatal Versus Nonfatal Difference
 
 The source distinguishes critical differences but does not classify severity.
 
@@ -4053,7 +4056,7 @@ but this taxonomy is PROPOSED.
 
 ---
 
-# 248. Scope Narrowing as Repair
+## 248. Scope Narrowing as Repair
 
 If an analogy fails globally but remains structurally valid locally, the appropriate repair may be to narrow scope rather than discard the entire analogy.
 
@@ -4061,7 +4064,7 @@ This follows the source's bounded-scope logic.
 
 ---
 
-# 249. Local Invalidation
+## 249. Local Invalidation
 
 If one mapped correspondence fails:
 
@@ -4077,7 +4080,7 @@ This is DERIVED AMOS local-repair reasoning.
 
 ---
 
-# 250. Dependency-Aware Analogy
+## 250. Dependency-Aware Analogy
 
 Suppose:
 
@@ -4095,7 +4098,7 @@ If \(m_1\) fails, invalidate \(I_1\) but not automatically \(I_2\).
 
 ---
 
-# 251. Analogy Proof Graph
+## 251. Analogy Proof Graph
 
 ```mermaid
 flowchart TD
@@ -4110,7 +4113,7 @@ This is a PROPOSED provenance graph.
 
 ---
 
-# 252. Abstraction Dependency-Aware Repair
+## 252. Abstraction Dependency-Aware Repair
 
 If one instance is discovered to have been misclassified, only schema constraints depending on it need immediate revalidation.
 
@@ -4118,7 +4121,7 @@ Global recomputation is unnecessary unless the instance was load-bearing for the
 
 ---
 
-# 253. Failure Recovery
+## 253. Failure Recovery
 
 The source lists failures but does not specify recovery behavior.
 
@@ -4143,7 +4146,7 @@ False precision
 
 ---
 
-# 254. Do Not Repeat Failed Path
+## 254. Do Not Repeat Failed Path
 
 If a source domain repeatedly produces a fatal mismatch, searching the same mapping again without changed evidence adds little value.
 
@@ -4151,7 +4154,7 @@ A different source domain or purpose decomposition is preferable.
 
 ---
 
-# 255. Competing Hypothesis — Kernel Nature
+## 255. Competing Hypothesis — Kernel Nature
 
 ### H1 — Conceptual reasoning specification
 
@@ -4175,7 +4178,7 @@ Not supported.
 
 ---
 
-# 256. Competing Hypothesis — Validity Score
+## 256. Competing Hypothesis — Validity Score
 
 Possible implementations:
 
@@ -4194,7 +4197,7 @@ Status: **COMPETING**.
 
 ---
 
-# 257. Competing Hypothesis — Structural Similarity
+## 257. Competing Hypothesis — Structural Similarity
 
 Possible meanings:
 
@@ -4211,7 +4214,7 @@ No exact algorithm supplied.
 
 ---
 
-# 258. Competing Hypothesis — Abstraction Representation
+## 258. Competing Hypothesis — Abstraction Representation
 
 Possible representations:
 
@@ -4230,7 +4233,7 @@ No binding exists.
 
 ---
 
-# 259. Competing Hypothesis — Runtime Order
+## 259. Competing Hypothesis — Runtime Order
 
 Possible:
 
@@ -4245,7 +4248,7 @@ Remain competing.
 
 ---
 
-# 260. Critical Gaps
+## 260. Critical Gaps
 
 ## CRITICAL if executable implementation is required
 
@@ -4259,7 +4262,7 @@ function input/output schemas
 
 ---
 
-# 261. Decision-Relevant Gaps
+## 261. Decision-Relevant Gaps
 
 ```text
 weak-analogy threshold
@@ -4274,7 +4277,7 @@ false_analogy_detected interface mismatch
 
 ---
 
-# 262. Explanatory Gaps
+## 262. Explanatory Gaps
 
 ```text
 V0 ↔ 1.0.0 relationship
@@ -4290,7 +4293,7 @@ Law_of_Law definition
 
 ---
 
-# 263. Cosmetic/Formatting Gap
+## 263. Cosmetic/Formatting Gap
 
 The source contains one malformed JSON key:
 
@@ -4304,7 +4307,7 @@ It should be repaired for machine ingestion only with provenance preserved.
 
 ---
 
-# 264. Related Field
+## 264. Related Field
 
 The source contains:
 
@@ -4324,7 +4327,7 @@ Do not guess missing relations.
 
 ---
 
-# 265. MOC
+## 265. MOC
 
 The explicit MOC is:
 
@@ -4336,7 +4339,7 @@ This is source-grounded.
 
 ---
 
-# 266. Proposed Obsidian Augmentation
+## 266. Proposed Obsidian Augmentation
 
 > [!warning] DERIVED / PROPOSED
 > The following is vault augmentation, not original source metadata.
@@ -4383,10 +4386,10 @@ critical_firewall:
 
 ---
 
-# 267. Proposed Obsidian Atomic Note — Kernel
+## 267. Proposed Obsidian Atomic Note — Kernel
 
 ```markdown
-# Analogy Abstraction Kernel
+## Analogy Abstraction Kernel
 
 > [!important]
 > Analogy illustrates; analogy does not prove.
@@ -4410,10 +4413,10 @@ Only `` is an explicit source wikilink; the others are proposed vault links.
 
 ---
 
-# 268. Proposed Atomic Note — Analogy
+## 268. Proposed Atomic Note — Analogy
 
 ```markdown
-# Analogy Mapping
+## Analogy Mapping
 
 ## Structure
 - Source Domain
@@ -4435,10 +4438,10 @@ Analogy illustrates; it does not prove.
 
 ---
 
-# 269. Proposed Atomic Note — False Analogy
+## 269. Proposed Atomic Note — False Analogy
 
 ```markdown
-# False Analogy Detection
+## False Analogy Detection
 
 ## Failure Classes
 - Surface-only mapping
@@ -4453,10 +4456,10 @@ A detected analogy failure must not be hidden by fluent explanation.
 
 ---
 
-# 270. Proposed Atomic Note — Abstraction
+## 270. Proposed Atomic Note — Abstraction
 
 ```markdown
-# Abstraction Extraction
+## Abstraction Extraction
 
 1. Identify concrete instance/domain.
 2. Extract entities and properties.
@@ -4473,9 +4476,9 @@ A detected analogy failure must not be hidden by fluent explanation.
 
 ---
 
-# 271. Proposed Dataview — Kernel Index
+## 271. Proposed Dataview — Kernel Index
 
-```dataview
+```text
 TABLE
   source,
   rscf.state AS "RSCF State",
@@ -4486,9 +4489,9 @@ WHERE contains(file.name, "ANALOGY") OR contains(file.name, "ABSTRACTION")
 
 ---
 
-# 272. Proposed Dataview — Source Claims
+## 272. Proposed Dataview — Source Claims
 
-```dataview
+```text
 TABLE
   source,
   rscf.scope AS "Scope"
@@ -4498,7 +4501,7 @@ WHERE contains(file.path, "11_KNOWLEDGE/kernel")
 
 ---
 
-# 273. Proposed Navigation Footer
+## 273. Proposed Navigation Footer
 
 ```markdown
 ---
@@ -4525,7 +4528,7 @@ All links except `` are proposed.
 
 ---
 
-# 274. Validation Test — Surface Similarity
+## 274. Validation Test — Surface Similarity
 
 Input:
 
@@ -4543,7 +4546,7 @@ analogy downgraded/rejected for intended inference
 
 ---
 
-# 275. Validation Test — Critical Difference
+## 275. Validation Test — Critical Difference
 
 Input:
 
@@ -4562,7 +4565,7 @@ scope narrowed or analogy rejected
 
 ---
 
-# 276. Validation Test — Over-Extension
+## 276. Validation Test — Over-Extension
 
 Input:
 
@@ -4580,7 +4583,7 @@ causal conclusion rejected
 
 ---
 
-# 277. Validation Test — Category Error
+## 277. Validation Test — Category Error
 
 Input:
 
@@ -4596,7 +4599,7 @@ category_error_in_mapping
 
 ---
 
-# 278. Validation Test — False Precision
+## 278. Validation Test — False Precision
 
 Input:
 
@@ -4614,7 +4617,7 @@ unless a separately defined scoring system actually licenses the number.
 
 ---
 
-# 279. Validation Test — Valid Structural Analogy
+## 279. Validation Test — Valid Structural Analogy
 
 Input has:
 
@@ -4637,7 +4640,7 @@ Exact type of `productive_for_purpose` is not defined.
 
 ---
 
-# 280. Validation Test — Concrete/Abstract Level Mismatch
+## 280. Validation Test — Concrete/Abstract Level Mismatch
 
 Input:
 
@@ -4656,7 +4659,7 @@ abstraction-level warning
 
 ---
 
-# 281. Validation Test — Same Mapping, Different Purpose
+## 281. Validation Test — Same Mapping, Different Purpose
 
 An analogy valid for explanation may be invalid for prediction.
 
@@ -4670,7 +4673,7 @@ not reuse validity blindly.
 
 ---
 
-# 282. Validation Test — New Critical Difference
+## 282. Validation Test — New Critical Difference
 
 If a previously unknown difference is discovered:
 
@@ -4682,7 +4685,7 @@ This local invalidation behavior is DERIVED hardening.
 
 ---
 
-# 283. Validation Test — Competing Analogies
+## 283. Validation Test — Competing Analogies
 
 Two structurally defensible analogies generate incompatible predictions.
 
@@ -4696,7 +4699,7 @@ until a discriminating test resolves them.
 
 ---
 
-# 284. Validation Test — Abstraction Overfit
+## 284. Validation Test — Abstraction Overfit
 
 Schema fits original instances but fails new examples.
 
@@ -4710,7 +4713,7 @@ matching steps 6–7.
 
 ---
 
-# 285. Validation Test — Abstraction Too Broad
+## 285. Validation Test — Abstraction Too Broad
 
 Schema includes known non-examples.
 
@@ -4722,7 +4725,7 @@ refine applicability constraints
 
 ---
 
-# 286. Validation Test — Three Instances
+## 286. Validation Test — Three Instances
 
 The source's explicit unit-test case:
 
@@ -4741,7 +4744,7 @@ Do not infer three is universal minimum.
 
 ---
 
-# 287. Validation Test — `false_analogy_detected`
+## 287. Validation Test — `false_analogy_detected`
 
 Because the unit test expects a field/state not present in declared outputs, implementation validation should flag:
 
@@ -4753,7 +4756,7 @@ rather than silently adding a new output.
 
 ---
 
-# 288. Validation Test — JSON Parsing
+## 288. Validation Test — JSON Parsing
 
 Raw artifact as supplied:
 
@@ -4772,7 +4775,7 @@ The latter is conditional because this analysis does not claim to have executed 
 
 ---
 
-# 289. Anti-Fabrication Rules
+## 289. Anti-Fabrication Rules
 
 Never invent:
 
@@ -4804,7 +4807,7 @@ Never invent:
 
 ---
 
-# 290. Anti-Regression Rules
+## 290. Anti-Regression Rules
 
 Future canonicalization must preserve:
 
@@ -4837,7 +4840,7 @@ unless authoritative newer source supersedes them.
 
 ---
 
-# 291. Canonical Integrity Laws
+## 291. Canonical Integrity Laws
 
 ```text
 Analogy ≠ Proof
@@ -4889,7 +4892,7 @@ Source Claim ≠ Empirical Verification
 
 ---
 
-# 292. Source Structure Count
+## 292. Source Structure Count
 
 Source-explicit counts:
 
@@ -4915,7 +4918,7 @@ These counts are verified against the supplied text structure, not runtime behav
 
 ---
 
-# 293. Function Contract — `find_analogy`
+## 293. Function Contract — `find_analogy`
 
 ```yaml
 function: find_analogy
@@ -4945,7 +4948,7 @@ failure_behavior: UNKNOWN
 
 ---
 
-# 294. Function Contract — `extract_abstraction`
+## 294. Function Contract — `extract_abstraction`
 
 ```yaml
 function: extract_abstraction
@@ -4972,7 +4975,7 @@ failure_behavior: UNKNOWN
 
 ---
 
-# 295. Function Contract — `evaluate_analogy_quality`
+## 295. Function Contract — `evaluate_analogy_quality`
 
 ```yaml
 function: evaluate_analogy_quality
@@ -5001,7 +5004,7 @@ false_analogy_detected_output: NOT_DECLARED_IN_FUNCTION_OUTPUTS
 
 ---
 
-# 296. Proposed Fail-Closed Contract
+## 296. Proposed Fail-Closed Contract
 
 ```text
 IF mapping is surface-only
@@ -5037,7 +5040,7 @@ THEN preserve raw form + label any repair.
 
 ---
 
-# 297. Proposed Machine-Readable Canonical Projection
+## 297. Proposed Machine-Readable Canonical Projection
 
 ```json
 {
@@ -5079,7 +5082,7 @@ This is a **DERIVED normalized projection**, not the original source JSON.
 
 ---
 
-# 298. Proof Capsule — Kernel Identity
+## 298. Proof Capsule — Kernel Identity
 
 ```yaml
 CLAIM:
@@ -5102,7 +5105,7 @@ FALSIFIER:
 
 ---
 
-# 299. Proof Capsule — Analogy Is Not Proof
+## 299. Proof Capsule — Analogy Is Not Proof
 
 ```yaml
 CLAIM:
@@ -5127,7 +5130,7 @@ CONFIDENCE:
 
 ---
 
-# 300. Proof Capsule — Structural Similarity Does Not Establish Causation
+## 300. Proof Capsule — Structural Similarity Does Not Establish Causation
 
 ```yaml
 CLAIM:
@@ -5153,7 +5156,7 @@ INVALIDATION:
 
 ---
 
-# 301. Proof Capsule — Runtime
+## 301. Proof Capsule — Runtime
 
 ```yaml
 CLAIM:
@@ -5180,7 +5183,7 @@ CONFIDENCE_CEILING:
 
 ---
 
-# 302. Proof Capsule — Validity Score
+## 302. Proof Capsule — Validity Score
 
 ```yaml
 CLAIM:
@@ -5206,7 +5209,7 @@ MISSING:
 
 ---
 
-# 303. Proof Capsule — Abstraction Generalization
+## 303. Proof Capsule — Abstraction Generalization
 
 ```yaml
 CLAIM:
@@ -5228,7 +5231,7 @@ LIMIT:
 
 ---
 
-# 304. Proof Capsule — Source Syntax
+## 304. Proof Capsule — Source Syntax
 
 ```yaml
 CLAIM:
@@ -5255,7 +5258,7 @@ CONFIDENCE:
 
 ---
 
-# 305. Source-Level Truth Table
+## 305. Source-Level Truth Table
 
 | Claim                                          | Class                         |
 | ---------------------------------------------- | ----------------------------- |
@@ -5280,7 +5283,7 @@ CONFIDENCE:
 
 ---
 
-# 306. Adversarial Challenge — “Structural Similarity Proves Same Mechanism”
+## 306. Adversarial Challenge — “Structural Similarity Proves Same Mechanism”
 
 Source says analogy cannot serve as proof.
 
@@ -5298,7 +5301,7 @@ MODEL / candidate structural correspondence
 
 ---
 
-# 307. Adversarial Challenge — “High-Quality Analogy Proves Target Property”
+## 307. Adversarial Challenge — “High-Quality Analogy Proves Target Property”
 
 Even `quality_assessment=high` does not bypass the proof firewall.
 
@@ -5310,7 +5313,7 @@ REJECT
 
 ---
 
-# 308. Adversarial Challenge — “Five Matching Features Make Analogy Valid”
+## 308. Adversarial Challenge — “Five Matching Features Make Analogy Valid”
 
 The source does not define feature-count voting.
 
@@ -5324,7 +5327,7 @@ REJECT simplistic count rule
 
 ---
 
-# 309. Adversarial Challenge — “Different Ontological Categories Cannot Be Compared”
+## 309. Adversarial Challenge — “Different Ontological Categories Cannot Be Compared”
 
 Too strong.
 
@@ -5342,7 +5345,7 @@ Cross-category analogy may be valid with explicit scope and non-equivalence.
 
 ---
 
-# 310. Adversarial Challenge — “Abstraction From Three Examples Is Valid”
+## 310. Adversarial Challenge — “Abstraction From Three Examples Is Valid”
 
 The unit test uses three instances, but no universal minimum or sufficiency guarantee exists.
 
@@ -5354,7 +5357,7 @@ REJECT universal sufficiency
 
 ---
 
-# 311. Adversarial Challenge — “Recurring Pattern Means Universal Pattern”
+## 311. Adversarial Challenge — “Recurring Pattern Means Universal Pattern”
 
 Result:
 
@@ -5366,7 +5369,7 @@ Step 6 and step 7 explicitly require testing/refinement.
 
 ---
 
-# 312. Adversarial Challenge — “Required=true Means Every AMOS Request Must Run This Kernel”
+## 312. Adversarial Challenge — “Required=true Means Every AMOS Request Must Run This Kernel”
 
 No requiredness scope exists.
 
@@ -5378,7 +5381,7 @@ UNKNOWN/GAP
 
 ---
 
-# 313. Adversarial Challenge — “Priority 9 Means Ninth Execution Stage”
+## 313. Adversarial Challenge — “Priority 9 Means Ninth Execution Stage”
 
 No priority semantics.
 
@@ -5390,7 +5393,7 @@ UNKNOWN/GAP
 
 ---
 
-# 314. Adversarial Challenge — “Position 5 Means It Executes Fifth”
+## 314. Adversarial Challenge — “Position 5 Means It Executes Fifth”
 
 No ordering semantics.
 
@@ -5402,7 +5405,7 @@ UNKNOWN/GAP
 
 ---
 
-# 315. Adversarial Challenge — “Unit Tests Prove Kernel Works”
+## 315. Adversarial Challenge — “Unit Tests Prove Kernel Works”
 
 They are test descriptions, not execution receipts.
 
@@ -5414,7 +5417,7 @@ REJECT
 
 ---
 
-# 316. Adversarial Challenge — “Biology Tag Proves Biological Mechanism”
+## 316. Adversarial Challenge — “Biology Tag Proves Biological Mechanism”
 
 Result:
 
@@ -5426,7 +5429,7 @@ Taxonomy is not mechanism evidence.
 
 ---
 
-# 317. Canonical Source Consistency
+## 317. Canonical Source Consistency
 
 Strongly mutually reinforcing source elements include:
 
@@ -5450,7 +5453,7 @@ It is not independent empirical corroboration because all elements share one sou
 
 ---
 
-# 318. Internal Source Tensions
+## 318. Internal Source Tensions
 
 Three notable tensions/gaps remain.
 
@@ -5472,13 +5475,13 @@ None should be silently erased.
 
 ---
 
-# 319. T1 Resolution
+## 319. T1 Resolution
 
 High-confidence syntax repair is permissible for normalized machine representation, with raw provenance retained.
 
 ---
 
-# 320. T2 Resolution
+## 320. T2 Resolution
 
 Preserve as unresolved schema mismatch.
 
@@ -5492,7 +5495,7 @@ to canonical outputs without a source revision.
 
 ---
 
-# 321. T3 Resolution
+## 321. T3 Resolution
 
 Preserve multiple hypotheses:
 
@@ -5511,7 +5514,7 @@ COMPETING
 
 ---
 
-# 322. Runtime Implementation Gap
+## 322. Runtime Implementation Gap
 
 The source provides no:
 
@@ -5536,7 +5539,7 @@ $$
 
 ---
 
-# 323. Formal Verification Gap
+## 323. Formal Verification Gap
 
 Despite dependence on Meta Logic, no formal proof system is defined here.
 
@@ -5550,7 +5553,7 @@ and the kernel explicitly says analogy itself cannot be proof.
 
 ---
 
-# 324. Empirical Validation Gap
+## 324. Empirical Validation Gap
 
 No benchmark is supplied for:
 
@@ -5566,19 +5569,19 @@ Therefore empirical effectiveness remains unknown.
 
 ---
 
-# 325. Psychological Validity Gap
+## 325. Psychological Validity Gap
 
 The kernel may route psychological mappings through `ROUTE_PSYCH`, but no clinical or psychological validation is provided.
 
 ---
 
-# 326. Biological Validity Gap
+## 326. Biological Validity Gap
 
 No biological experiment, neural mechanism, physiological measurement, or neuroscience source appears.
 
 ---
 
-# 327. Freshness Gap
+## 327. Freshness Gap
 
 The frontmatter/body supplied here contain no:
 
@@ -5597,13 +5600,13 @@ Freshness = UNKNOWN/GAP
 
 ---
 
-# 328. Version Freshness
+## 328. Version Freshness
 
 `version: 1.0.0` establishes a version label, not recency.
 
 ---
 
-# 329. Provenance Independence
+## 329. Provenance Independence
 
 All supplied claims descend from:
 
@@ -5617,7 +5620,7 @@ Without independently retrieved upstream artifacts, independence is not establis
 
 ---
 
-# 330. Source Multiplicity Firewall
+## 330. Source Multiplicity Firewall
 
 The same rule appearing under:
 
@@ -5632,7 +5635,7 @@ increases internal coherence but not independent-source count.
 
 ---
 
-# 331. Knowledge Harvest Classification
+## 331. Knowledge Harvest Classification
 
 A source-safe harvest state:
 
@@ -5650,7 +5653,7 @@ The current artifact is primarily in the first two/three stages.
 
 ---
 
-# 332. Canonical Promotion Policy
+## 332. Canonical Promotion Policy
 
 Do not promote:
 
@@ -5662,7 +5665,7 @@ merely because the artifact is internally detailed.
 
 ---
 
-# 333. Analogy Inference Class
+## 333. Analogy Inference Class
 
 Default analogical inference should remain:
 
@@ -5682,7 +5685,7 @@ It should not become VERIFIED solely through analogy.
 
 ---
 
-# 334. Abstraction Class
+## 334. Abstraction Class
 
 An abstract schema extracted from actual supplied instances may be:
 
@@ -5702,7 +5705,7 @@ until tested.
 
 ---
 
-# 335. Scope Transfer Rule
+## 335. Scope Transfer Rule
 
 $$
 Validated(\Sigma,S_1)
@@ -5714,7 +5717,7 @@ without scope compatibility.
 
 ---
 
-# 336. Regime Transfer Rule
+## 336. Regime Transfer Rule
 
 $$
 Validated(A,R_1)
@@ -5726,7 +5729,7 @@ if the relevant structural relationships changed.
 
 ---
 
-# 337. Cross-Domain Transfer Rule
+## 337. Cross-Domain Transfer Rule
 
 $$
 SourceEvidence
@@ -5738,7 +5741,7 @@ This is fundamental.
 
 ---
 
-# 338. Evidence Conservation
+## 338. Evidence Conservation
 
 A source fact remains a source-domain fact.
 
@@ -5752,13 +5755,13 @@ not copied evidence.
 
 ---
 
-# 339. Confidence Conservation
+## 339. Confidence Conservation
 
 A target inference cannot safely be more certain than its load-bearing mappings absent independent target evidence.
 
 ---
 
-# 340. Causal Conservation
+## 340. Causal Conservation
 
 A causal relation in the source domain does not automatically transfer to the target.
 
@@ -5778,13 +5781,13 @@ without target-domain causal evidence.
 
 ---
 
-# 341. Mechanism Conservation
+## 341. Mechanism Conservation
 
 Mechanistic details are especially nontransferable unless explicitly mapped and independently supported.
 
 ---
 
-# 342. Unit Conservation
+## 342. Unit Conservation
 
 If source and target use quantitative variables, units and measurement semantics must be compatible before numerical analogy.
 
@@ -5792,7 +5795,7 @@ The source does not explicitly discuss units, so this is derived hardening.
 
 ---
 
-# 343. Precision Conservation
+## 343. Precision Conservation
 
 A qualitative analogy cannot justify quantitative target precision.
 
@@ -5804,7 +5807,7 @@ $$
 
 ---
 
-# 344. Analogy as Search Heuristic
+## 344. Analogy as Search Heuristic
 
 The safest high-value role is:
 
@@ -5828,7 +5831,7 @@ This is DERIVED.
 
 ---
 
-# 345. Abstraction as Compression
+## 345. Abstraction as Compression
 
 A safe relation is:
 
@@ -5842,7 +5845,7 @@ but identity with `Cognitive_Compression_Kernel` is not established.
 
 ---
 
-# 346. Compression Loss
+## 346. Compression Loss
 
 Abstraction necessarily omits some domain-specific content by source definition.
 
@@ -5850,7 +5853,7 @@ Therefore every abstraction has potential information loss.
 
 ---
 
-# 347. Loss Must Be Task-Aware
+## 347. Loss Must Be Task-Aware
 
 Omitted detail is safe only if irrelevant to the abstraction's intended use.
 
@@ -5858,25 +5861,25 @@ A detail irrelevant for explanation may be crucial for causal prediction.
 
 ---
 
-# 348. Scope as Loss Boundary
+## 348. Scope as Loss Boundary
 
 Applicability constraints communicate where omitted information becomes material.
 
 ---
 
-# 349. Non-Example as Compression Check
+## 349. Non-Example as Compression Check
 
 A non-example reveals whether the abstraction removed too much discriminating information.
 
 ---
 
-# 350. Critical Difference as Analogy Check
+## 350. Critical Difference as Analogy Check
 
 Likewise a critical difference reveals where analogical compression hides a material distinction.
 
 ---
 
-# 351. Unified Kernel Principle
+## 351. Unified Kernel Principle
 
 Analogy and abstraction share a deep source-consistent architecture:
 
@@ -5892,7 +5895,7 @@ This is **DERIVED synthesis**, not an explicit source sentence.
 
 ---
 
-# 352. Unified Formal Model — DERIVED
+## 352. Unified Formal Model — DERIVED
 
 Let:
 
@@ -5950,7 +5953,7 @@ Again, this is a formal compression of source semantics, not source mathematics.
 
 ---
 
-# 353. Strongest Constitutional Formula
+## 353. Strongest Constitutional Formula
 
 $$
 \boxed{
@@ -5978,7 +5981,7 @@ $$
 
 ---
 
-# 354. False Analogy Formula — Conceptual
+## 354. False Analogy Formula — Conceptual
 
 $$
 A_{false}
@@ -6000,7 +6003,7 @@ The source does not explicitly say the five conditions are exhaustive.
 
 ---
 
-# 355. Abstraction Formula — Conceptual
+## 355. Abstraction Formula — Conceptual
 
 $$
 \{I_1,\dots,I_n\}
@@ -6018,7 +6021,7 @@ $$
 
 ---
 
-# 356. Complete Integrity Envelope
+## 356. Complete Integrity Envelope
 
 A target inference from analogy should conceptually carry:
 
@@ -6045,7 +6048,7 @@ PROPOSED v4.4 proof-capsule form.
 
 ---
 
-# 357. Full Source-to-Decision Architecture
+## 357. Full Source-to-Decision Architecture
 
 ```mermaid
 flowchart TD
@@ -6078,7 +6081,7 @@ The first half closely reflects source semantics; the independent-evidence promo
 
 ---
 
-# 358. Full Abstraction Architecture
+## 358. Full Abstraction Architecture
 
 ```mermaid
 flowchart TD
@@ -6097,7 +6100,7 @@ flowchart TD
 
 ---
 
-# 359. Final Normalized Canonical State
+## 359. Final Normalized Canonical State
 
 ```yaml
 artifact:
@@ -6207,7 +6210,7 @@ navigation:
 
 ---
 
-# 360. Final Proof Capsule
+## 360. Final Proof Capsule
 
 ```yaml
 CLAIM:
@@ -6297,7 +6300,7 @@ CONFIDENCE_CEILING:
 
 ---
 
-# 361. Canonical Compression
+## 361. Canonical Compression
 
 The complete artifact can be compressed to four laws.
 
@@ -6353,7 +6356,7 @@ More precisely, an analogy may organize existing evidence, illustrate a structur
 
 ---
 
-# 362. Final Canonical Conclusion
+## 362. Final Canonical Conclusion
 
 **`AMOS ANALOGY ABSTRACTION KERNEL V0 META COGNITION4 2` is a source-defined AMOS meta-cognition framework for disciplined structural transfer and abstraction.** It is substantially more than a similarity matcher: its architecture explicitly requires structural correspondence, task-relevant mapping, disclosure of critical differences, bounded scope, productive inference, false-analogy detection, abstraction testing, and refinement through examples and non-examples.
 

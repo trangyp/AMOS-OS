@@ -12,18 +12,18 @@ segment: 21_DOMAINS/07_HEALTHCARE
 artifact_kind: DOMAIN_MODEL
 path: 21_DOMAINS/07_HEALTHCARE/BIOLOGICAL_INTEGRITY_HEALTH_MODEL.md
 tags:
-- amos-os
-- domain
-- vault
-- 07_healthcare
-- biological_integrity_health_model
-- homeostatic_resilience
-- allostatic_load
-- rscf
-- canon_candidate
-- canon/domain
-- absolute-biological-integrity-framework
-- ubi-health-application
+  - amos-os
+  - domain
+  - vault
+  - 07_healthcare
+  - biological_integrity_health_model
+  - homeostatic_resilience
+  - allostatic_load
+  - rscf
+  - canon_candidate
+  - canon/domain
+  - absolute-biological-integrity-framework
+  - ubi-health-application
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -38,20 +38,20 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - 11_KNOWLEDGE/05_FRAMEWORKS/ABSOLUTE_BIOLOGICAL_INTEGRITY_FRAMEWORK
-  - 21_DOMAINS/07_HEALTHCARE/07_HEALTHCARE_MOC
-  - AMOS_CORPUS
+    - 11_KNOWLEDGE/05_FRAMEWORKS/ABSOLUTE_BIOLOGICAL_INTEGRITY_FRAMEWORK
+    - 21_DOMAINS/07_HEALTHCARE/07_HEALTHCARE_MOC
+    - AMOS_CORPUS
   scope:
-  - DOMAIN_HEALTHCARE
-  - HEALTH_INTEGRITY_MODEL
-  - SOURCE_DEFINED_MODEL
+    - DOMAIN_HEALTHCARE
+    - HEALTH_INTEGRITY_MODEL
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   firewall_framework:
     artifact:
-    - - ABSOLUTE_BIOLOGICAL_INTEGRITY_FRAMEWORK
+      -   - ABSOLUTE_BIOLOGICAL_INTEGRITY_FRAMEWORK
   healthcare_moc:
     artifact:
-    - - 07_HEALTHCARE_MOC
+      -   - 07_HEALTHCARE_MOC
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   domain_structure: VERIFIED_SOURCE_STRUCTURE
@@ -63,27 +63,27 @@ epistemic_boundary:
 
 `BIOLOGICAL_INTEGRITY_HEALTH_MODEL.md` is the canonical Domain Plane specification governing the quantitative modeling of allostatic load, homeostatic recovery dynamics, and irreversible physiological boundary tracking within `21_DOMAINS/07_HEALTHCARE`.
 
----
+______________________________________________________________________
 
-# 1. Allostatic Load & Homeostatic Recovery Mechanics
+## 1. Allostatic Load & Homeostatic Recovery Mechanics
 
 $$\text{Allostatic Index} = \sum_{k=1}^4 w_k (1 - x_k)^2, \quad \text{where } x_k \in \{\text{NBI}, \text{NEI}, \text{SI}, \text{BEI}\}$$
 
 1. **Cumulative Stress Accumulation:** Quantifies non-linear wear-and-tear across bodily organ networks.
-2. **Dynamic Restitution Rate:** Calculates the required restorative rest duration to return the organism to ground state ($S_0$).
-3. **Threshold Distress Gating:** Flags imminent physiological breakdown before symptomatic clinical manifestations occur.
+1. **Dynamic Restitution Rate:** Calculates the required restorative rest duration to return the organism to ground state ($S_0$).
+1. **Threshold Distress Gating:** Flags imminent physiological breakdown before symptomatic clinical manifestations occur.
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Firewall Framework:** [[11_KNOWLEDGE/05_FRAMEWORKS/ABSOLUTE_BIOLOGICAL_INTEGRITY_FRAMEWORK|ABSOLUTE_BIOLOGICAL_INTEGRITY_FRAMEWORK]]
 - **Healthcare MOC:** [[21_DOMAINS/07_HEALTHCARE/07_HEALTHCARE_MOC|07_HEALTHCARE_MOC]]
 - **UBI Health:** [[21_DOMAINS/07_HEALTHCARE/UBI_HEALTH_APPLICATION|UBI_HEALTH_APPLICATION]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -101,10 +101,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[21_DOMAINS/21_DOMAINS_MOC|21_DOMAINS_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/ABSOLUTE_BIOLOGICAL_INTEGRITY_FRAMEWORK|ABSOLUTE_BIOLOGICAL_INTEGRITY_FRAMEWORK]] · [[21_DOMAINS/07_HEALTHCARE/UBI_HEALTH_APPLICATION|UBI_HEALTH_APPLICATION]]
 
----
-**MOC:** [[21_DOMAINS/07_HEALTHCARE/07_HEALTHCARE_MOC|07_HEALTHCARE_MOC]]
+______________________________________________________________________
 
+**MOC:** [[21_DOMAINS/07_HEALTHCARE/07_HEALTHCARE_MOC|07_HEALTHCARE_MOC]]

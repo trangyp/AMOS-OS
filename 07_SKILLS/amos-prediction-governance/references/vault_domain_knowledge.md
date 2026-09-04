@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Vault Domain Knowledge — Amos Prediction Governance
 type: reference
 source: 07_SKILLS/amos-prediction-governance/references
 tags:
-- reference
-- amos-prediction-governance
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-prediction-governance
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -27,12 +30,11 @@ rscf:
 
 > Path: `kernel/A/AMOS_Governance_Risk_Policy_Kernel_v0.md` | Size: 16583 chars | Match score: 13
 
-# AMOS_Governance_Risk_Policy_Kernel_v0.md
+## AMOS_Governance_Risk_Policy_Kernel_v0.md
 
 ## 1. Overview
 
 The AMOS Governance, Risk, and Policy Kernel is a governance, risk management, and policy analysis capability within the AMOS brain architecture. It operates as part of the Governance_Risk kernel cluster in the Omni Kernel, and is activated by the `ROUTE_POLICY` routing rule when the task involves governance frameworks, risk assessment, policy design, compliance, or risk management.
-
 
 - Governance frameworks and principles
 - Risk identification, assessment, and management
@@ -42,14 +44,14 @@ The AMOS Governance, Risk, and Policy Kernel is a governance, risk management, a
 - Institutional and organizational governance
 - Crisis and resilience governance
 
-
----
+______________________________________________________________________
 
 ## 2. Sub-Kernels
 
 The Governance_Risk kernel integrates multiple sub-kernels, each addressing a distinct facet of governance, risk, and policy. The sub-kernels are:
 
 ### 2.1 Change Management Kernel
+
 - Change management models (Kotter 8-step, ADKAR, McKinsey 7-S, Lewin's 3-stage, Agile change)
 - Stakeholder impact analysis
 - Resistance management
@@ -58,17 +60,17 @@ The Governance_Risk kernel integrates multiple sub-kernels, each addressing a di
 - Change measurement and reinforcement
 
 1. Current state analysis
-2. Change objectives and scope
-3. Stakeholder mapping and impact analysis
-4. Change strategy selection and adaptation
-5. Implementation roadmap with milestones
-6. Risk and resistance mitigation plan
-7. Success metrics and reinforcement plan
+1. Change objectives and scope
+1. Stakeholder mapping and impact analysis
+1. Change strategy selection and adaptation
+1. Implementation roadmap with milestones
+1. Risk and resistance mitigation plan
+1. Success metrics and reinforcement plan
 
-
----
+______________________________________________________________________
 
 ### 2.2 Crisis Management Kernel
+
 - Crisis typology and severity classification
 - Crisis response frameworks and activation triggers
 - Crisis communication planning
@@ -78,17 +80,17 @@ The Governance_Risk kernel integrates multiple sub-kernels, each addressing a di
 - Crisis preparedness and planning
 
 1. Crisis classification and severity assessment
-2. Immediate response priorities and actions
-3. Stakeholder impact and notification matrix
-4. Crisis communication plan
-5. Resource and coordination requirements
-6. Recovery pathway
-7. Post-crisis learning and improvement
+1. Immediate response priorities and actions
+1. Stakeholder impact and notification matrix
+1. Crisis communication plan
+1. Resource and coordination requirements
+1. Recovery pathway
+1. Post-crisis learning and improvement
 
-
----
+______________________________________________________________________
 
 ### 2.3 Governance Economy Kernel
+
 - Governance economy mapping: value creation, capture, and distribution
 - Incentive structure analysis
 - Power dynamics and governance
@@ -97,16 +99,16 @@ The Governance_Risk kernel integrates multiple sub-kernels, each addressing a di
 - Governance reform economic analysis
 
 1. Governance system mapping (institutions, actors, rules, incentives)
-2. Value and incentive flow analysis
-3. Power and incentive alignment assessment
-4. Economic efficiency and equity analysis
-5. Governance reform options with economic implications
-6. Trade-off analysis
+1. Value and incentive flow analysis
+1. Power and incentive alignment assessment
+1. Economic efficiency and equity analysis
+1. Governance reform options with economic implications
+1. Trade-off analysis
 
-
----
+______________________________________________________________________
 
 ### 2.4 Legal Kernel
+
 - Legal framework analysis
 - Regulatory analysis
 - Legal reasoning and interpretation
@@ -115,11 +117,11 @@ The Governance_Risk kernel integrates multiple sub-kernels, each addressing a di
 - Legal structure and compliance frameworks
 
 1. Legal issue identification
-2. Applicable legal framework identification
-3. Legal analysis and interpretation
-4. Cross-jurisdictio
+1. Applicable legal framework identification
+1. Legal analysis and interpretation
+1. Cross-jurisdictio
 
----
+______________________________________________________________________
 
 ### Source 2: Org_Governance_Kernel
 
@@ -353,10 +355,9 @@ The Governance_Risk kernel integrates multiple sub-kernels, each addressing a di
 -
 ```
 
----
+______________________________________________________________________
 
-**Related:** [[07_SKILLS/amos-prediction-governance/amos-prediction-governance_MOC|amos-prediction-governance_MOC]]
----
+## **Related:** [[07_SKILLS/amos-prediction-governance/amos-prediction-governance_MOC|amos-prediction-governance_MOC]]
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -364,13 +365,14 @@ The Governance_Risk kernel integrates multiple sub-kernels, each addressing a di
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-prediction-governance-vault-domain-knowledge
 node_type: reference
 path: 07_SKILLS/amos-prediction-governance/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC
-

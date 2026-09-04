@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: AMOS_LEARNING_MEMORY_KNOWLEDGE_FEEDBACK_GOVERNOR
 tags:
-- knowledge
-- learning
-- memory
-- feedback
-- governor
-- amos-cross-domain-tensor-composition-governor
-- amos-emotion-cognition-decision-bridge-governor
+  - knowledge
+  - learning
+  - memory
+  - feedback
+  - governor
+  - amos-cross-domain-tensor-composition-governor
+  - amos-emotion-cognition-decision-bridge-governor
 type: note
 source: 11_KNOWLEDGE
 rscf:
@@ -21,7 +24,7 @@ rscf:
 
 ## Full Canonical Content + Tags + RSCF + Obsidian Integration
 
-> [!abstract] Canonical Boundary
+> [!ABSTRACT] Canonical Boundary
 > **Artifact:** `AMOS LEARNING MEMORY KNOWLEDGE FEEDBACK GOVERNOR`
 > **Type:** `memory`
 > **RSCF node type:** `skill`
@@ -33,9 +36,9 @@ rscf:
 > **Status declared by source:** `production_ready`
 > **Important boundary:** “PRODUCTION_READY,” “all 10 QA gates pass,” the 10 capabilities, and the artifact bindings are source/corpus claims in this note. They are not independently verified runtime facts by this artifact alone.
 
----
+______________________________________________________________________
 
-# 0. Normalized Source Frontmatter — SOURCE
+## 0. Normalized Source Frontmatter — SOURCE
 
 ```yaml
 ---
@@ -68,15 +71,15 @@ rscf:
 ---
 ```
 
-> [!important] Metadata preservation
+> [!IMPORTANT] Metadata preservation
 > The block above preserves the supplied source fields. Additional aliases, tags, lifecycle fields, proof-capsule fields, relation normalization, Dataview properties, or implementation metadata below are explicitly **DERIVED / PROPOSED** and are not silently inserted into the source frontmatter.
 
----
+______________________________________________________________________
 
-# 1. Derived / Proposed Obsidian Augmentation
+## 1. Derived / Proposed Obsidian Augmentation
 
 ```yaml
-# DERIVED / PROPOSED — NOT ORIGINAL SOURCE FRONTMATTER
+## DERIVED / PROPOSED — NOT ORIGINAL SOURCE FRONTMATTER
 
 aliases:
   - AMOS Learning Memory Knowledge Feedback Governor
@@ -196,19 +199,19 @@ raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
 ingestion_action: INDEX_AS_SOURCE_CLAIM
 ```
 
----
+______________________________________________________________________
 
-# 2. Artifact Identity
+## 2. Artifact Identity
 
-# AMOS Learning-Memory-Knowledge Feedback Governor
+## AMOS Learning-Memory-Knowledge Feedback Governor
 
 > **RSCF-NODE** · `skill` · cross-domain (`C05 → Memory → Knowledge → C05`)
 
 The artifact defines a cross-domain governance model intended to connect three previously separated functional domains:
 
 1. **C05 Mind and Behavior / inference**
-2. **Memory Systems**
-3. **Knowledge Research**
+1. **Memory Systems**
+1. **Knowledge Research**
 
 The source presents the governor as the bridge completing a feedback cycle between inference-generated learning, memory encoding/consolidation, indexed knowledge, retrieval, and subsequent inference.
 
@@ -235,9 +238,9 @@ C05 INFERENCE
 
 The existence and intended semantics of the four named transitions are source-defined. The diagram is a normalized representation.
 
----
+______________________________________________________________________
 
-# 3. Identity — SOURCE
+## 3. Identity — SOURCE
 
 - **Origin architect and steward:** Trang Phan
 - **Parent skill:** `amos-knowledge-research-master`
@@ -249,9 +252,9 @@ The existence and intended semantics of the four named transitions are source-de
 
 The final two items are source declarations, not an independent execution audit.
 
----
+______________________________________________________________________
 
-# 4. Core Problem
+## 4. Core Problem
 
 The source identifies a fragmentation problem:
 
@@ -260,15 +263,15 @@ The source identifies a fragmentation problem:
 It then decomposes the gap into four missing bridges:
 
 1. C05 inference generates learning but lacks a bridge into memory encoding.
-2. Memory Systems supports encoding/consolidation/retrieval but lacks a bridge into knowledge indexing.
-3. Knowledge Research supports ingestion/indexing/curation but lacks a bridge back into C05 inference.
-4. No unified feedback loop connects all three.
+1. Memory Systems supports encoding/consolidation/retrieval but lacks a bridge into knowledge indexing.
+1. Knowledge Research supports ingestion/indexing/curation but lacks a bridge back into C05 inference.
+1. No unified feedback loop connects all three.
 
 The artifact therefore addresses **integration**, not merely storage.
 
----
+______________________________________________________________________
 
-# 5. Problem Topology
+## 5. Problem Topology
 
 Before the governor:
 
@@ -310,9 +313,9 @@ C05
 NEW INFERENCE
 ```
 
----
+______________________________________________________________________
 
-# 6. Governing Objective
+## 6. Governing Objective
 
 The artifact's central objective can be normalized as:
 
@@ -342,9 +345,9 @@ Its source-defined validation gates require:
 - freshness;
 - consent/risk control.
 
----
+______________________________________________________________________
 
-# 7. Canonical Feedback Loop — SOURCE
+## 7. Canonical Feedback Loop — SOURCE
 
 ```text
 C05 Inference
@@ -373,9 +376,9 @@ RETRIEVE
 APPLY
 ```
 
----
+______________________________________________________________________
 
-# 8. Transition T1 — ENCODE
+## 8. Transition T1 — ENCODE
 
 Source definition:
 
@@ -403,9 +406,9 @@ $$
 
 This is a confidence ceiling, not a claim that confidence must decrease.
 
----
+______________________________________________________________________
 
-# 9. ENCODE Preservation Invariant
+## 9. ENCODE Preservation Invariant
 
 A safe formalization of the supplied rule is:
 
@@ -427,9 +430,9 @@ unless a separately evidenced transformation explicitly authorizes a class chang
 
 The first relationship is directly supported by the transition table. The exact function notation is **DERIVED**.
 
----
+______________________________________________________________________
 
-# 10. Encoding Does Not Validate
+## 10. Encoding Does Not Validate
 
 A critical epistemic firewall follows:
 
@@ -453,9 +456,9 @@ $$
 Stored(x) \not\Rightarrow Verified(x)
 $$
 
----
+______________________________________________________________________
 
-# 11. Memory Persistence Firewall
+## 11. Memory Persistence Firewall
 
 Similarly:
 
@@ -479,9 +482,9 @@ current
 
 This is essential because otherwise the feedback loop could amplify stale or unsupported beliefs merely through repetition.
 
----
+______________________________________________________________________
 
-# 12. Transition T2 — CONSOLIDATE
+## 12. Transition T2 — CONSOLIDATE
 
 Source definition:
 
@@ -509,9 +512,9 @@ C_{knowledge}
 \min(C_{corroborating})
 $$
 
----
+______________________________________________________________________
 
-# 13. Corroboration Rule
+## 13. Corroboration Rule
 
 The source explicitly requires:
 
@@ -542,9 +545,9 @@ The artifact does not specify whether corroborating entries must be:
 - different domains;
 - or some combination.
 
----
+______________________________________________________________________
 
-# 14. Corroboration ≠ Independence
+## 14. Corroboration ≠ Independence
 
 Therefore:
 
@@ -570,9 +573,9 @@ There are two entries, but only one ancestry root.
 
 Under provenance-aware reasoning, this may constitute repetition rather than independent confirmation.
 
----
+______________________________________________________________________
 
-# 15. Consolidation Confidence Ceiling
+## 15. Consolidation Confidence Ceiling
 
 Source:
 
@@ -596,9 +599,9 @@ $$
 
 This prevents consolidation from manufacturing confidence above the weakest load-bearing corroborating premise.
 
----
+______________________________________________________________________
 
-# 16. Corroboration Count Firewall
+## 16. Corroboration Count Firewall
 
 The rule should not be silently strengthened into:
 
@@ -620,9 +623,9 @@ $$
 
 without additional rules.
 
----
+______________________________________________________________________
 
-# 17. Transition T3 — RETRIEVE
+## 17. Transition T3 — RETRIEVE
 
 Source definition:
 
@@ -648,9 +651,9 @@ Source confidence rule:
 confidence <= freshness factor
 ```
 
----
+______________________________________________________________________
 
-# 18. Retrieval Does Not Reclassify
+## 18. Retrieval Does Not Reclassify
 
 Retrieval should preserve source epistemic identity.
 
@@ -682,9 +685,9 @@ OBSERVATION
 
 through retrieval.
 
----
+______________________________________________________________________
 
-# 19. Freshness Rule
+## 19. Freshness Rule
 
 The source explicitly requires freshness validation before application.
 
@@ -696,7 +699,7 @@ C_{retrieved}
 F_{freshness}
 $$
 
-where the source does **not** define the exact range or function of \(F_{freshness}\).
+where the source does **not** define the exact range or function of (F\_{freshness}).
 
 Therefore:
 
@@ -714,9 +717,9 @@ exact freshness function
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 20. Freshness Is Typed
+## 20. Freshness Is Typed
 
 Different knowledge may age differently.
 
@@ -743,9 +746,9 @@ historical record
 
 The source does not define a universal freshness decay function.
 
----
+______________________________________________________________________
 
-# 21. Transition T4 — APPLY
+## 21. Transition T4 — APPLY
 
 Source definition:
 
@@ -771,11 +774,11 @@ Source confidence rule:
 confidence <= min(applied, new)
 ```
 
----
+______________________________________________________________________
 
-# 22. Scope Firewall
+## 22. Scope Firewall
 
-A knowledge item valid in scope \(S_1\) cannot silently be generalized into \(S_2\).
+A knowledge item valid in scope (S_1) cannot silently be generalized into (S_2).
 
 Therefore:
 
@@ -793,9 +796,9 @@ $$
 
 or separate evidence establishes transferability.
 
----
+______________________________________________________________________
 
-# 23. Regime Firewall
+## 23. Regime Firewall
 
 Likewise:
 
@@ -809,9 +812,9 @@ when the regime has materially changed.
 
 This is directly aligned with source gate G4 and freshness gate G9.
 
----
+______________________________________________________________________
 
-# 24. Full Transition Matrix — SOURCE
+## 24. Full Transition Matrix — SOURCE
 
 | Transition               | From → To          | Epistemic Rule              | Confidence Rule                      |
 | ------------------------ | ------------------ | --------------------------- | ------------------------------------ |
@@ -820,9 +823,9 @@ This is directly aligned with source gate G4 and freshness gate G9.
 | Retrieve for Inference   | Knowledge → C05    | Source class tagged         | `confidence <= freshness factor`     |
 | Apply to New Inference   | C05 → C05          | Cannot exceed scope/regime  | `confidence <= min(applied, new)`    |
 
----
+______________________________________________________________________
 
-# 25. Unified Confidence Envelope
+## 25. Unified Confidence Envelope
 
 The transition rules jointly suggest the derived envelope:
 
@@ -848,9 +851,9 @@ where applicable.
 
 This unified formula is **DERIVED**, not explicitly supplied as one source equation.
 
----
+______________________________________________________________________
 
-# 26. Artifact Claim Ceiling
+## 26. Artifact Claim Ceiling
 
 The frontmatter states:
 
@@ -883,9 +886,9 @@ COMPETING
 
 until the parent skill or implementation defines its semantics.
 
----
+______________________________________________________________________
 
-# 27. Ten Capabilities — SOURCE
+## 27. Ten Capabilities — SOURCE
 
 The artifact declares ten capabilities:
 
@@ -902,9 +905,9 @@ The artifact declares ten capabilities:
 10. lmk_feedback.validate_outputs
 ```
 
----
+______________________________________________________________________
 
-# 28. Capability 1 — `encode_learning`
+## 28. Capability 1 — `encode_learning`
 
 ```text
 lmk_feedback.encode_learning
@@ -929,9 +932,9 @@ Unknown details include:
 - confidence serialization;
 - class serialization.
 
----
+______________________________________________________________________
 
-# 29. Capability 2 — `consolidate_to_knowledge`
+## 29. Capability 2 — `consolidate_to_knowledge`
 
 ```text
 lmk_feedback.consolidate_to_knowledge
@@ -958,9 +961,9 @@ conflict handling
 duplicate handling
 ```
 
----
+______________________________________________________________________
 
-# 30. Capability 3 — `retrieve_for_inference`
+## 30. Capability 3 — `retrieve_for_inference`
 
 ```text
 lmk_feedback.retrieve_for_inference
@@ -985,9 +988,9 @@ It does not define:
 - relevance threshold;
 - provenance weighting.
 
----
+______________________________________________________________________
 
-# 31. Capability 4 — `govern_loop`
+## 31. Capability 4 — `govern_loop`
 
 ```text
 lmk_feedback.govern_loop
@@ -1003,9 +1006,9 @@ LOOP_CONDITIONAL
 
 This is a three-state governance decision model.
 
----
+______________________________________________________________________
 
-# 32. Three-State Governance
+## 32. Three-State Governance
 
 Normalized:
 
@@ -1021,9 +1024,9 @@ LOOP_PERMITTED  LOOP_CONDITIONAL  LOOP_BLOCKED
 
 The exact decision predicate is not supplied.
 
----
+______________________________________________________________________
 
-# 33. `LOOP_PERMITTED`
+## 33. `LOOP_PERMITTED`
 
 Safe semantic interpretation:
 
@@ -1041,9 +1044,9 @@ all knowledge is true
 all future applications are valid
 ```
 
----
+______________________________________________________________________
 
-# 34. `LOOP_BLOCKED`
+## 34. `LOOP_BLOCKED`
 
 Likely corresponds to a material validation failure.
 
@@ -1062,9 +1065,9 @@ is not explicitly supplied for every gate.
 
 Preserve that distinction.
 
----
+______________________________________________________________________
 
-# 35. `LOOP_CONDITIONAL`
+## 35. `LOOP_CONDITIONAL`
 
 This state naturally accommodates unresolved but bounded uncertainty.
 
@@ -1085,9 +1088,9 @@ such as:
 
 The source does not enumerate these exact conditions.
 
----
+______________________________________________________________________
 
-# 36. Capability 5 — `detect_knowledge_drift`
+## 36. Capability 5 — `detect_knowledge_drift`
 
 ```text
 lmk_feedback.detect_knowledge_drift
@@ -1103,9 +1106,9 @@ class erosion
 
 These define at least three drift families.
 
----
+______________________________________________________________________
 
-# 37. Drift D1 — Staleness
+## 37. Drift D1 — Staleness
 
 ```text
 knowledge was valid or usable
@@ -1114,9 +1117,9 @@ but freshness requirements are no longer satisfied
 
 This is temporal drift.
 
----
+______________________________________________________________________
 
-# 38. Drift D2 — Broken Provenance
+## 38. Drift D2 — Broken Provenance
 
 A provenance edge or source path becomes:
 
@@ -1130,9 +1133,9 @@ or otherwise unusable
 
 The exact source implementation is unspecified.
 
----
+______________________________________________________________________
 
-# 39. Drift D3 — Class Erosion
+## 39. Drift D3 — Class Erosion
 
 This is particularly important.
 
@@ -1152,9 +1155,9 @@ The final promotion is invalid unless new evidence licenses it.
 
 Thus class erosion means the epistemic identity becomes weaker, lost, or silently promoted during repeated transformations.
 
----
+______________________________________________________________________
 
-# 40. Epistemic Class Preservation
+## 40. Epistemic Class Preservation
 
 Source G2:
 
@@ -1174,9 +1177,9 @@ by default.
 
 A class change requires evidence.
 
----
+______________________________________________________________________
 
-# 41. Promotion Firewall
+## 41. Promotion Firewall
 
 ```text
 SOURCE_CLAIM
@@ -1201,9 +1204,9 @@ SOURCE_CLAIM
 → VERIFIED
 ```
 
----
+______________________________________________________________________
 
-# 42. Capability 6 — `validate_epistemic_preservation`
+## 42. Capability 6 — `validate_epistemic_preservation`
 
 ```text
 lmk_feedback.validate_epistemic_preservation
@@ -1223,9 +1226,9 @@ $$
 
 unless a provenance-bearing validation event explicitly licenses transition.
 
----
+______________________________________________________________________
 
-# 43. Capability 7 — `trace_loop_provenance`
+## 43. Capability 7 — `trace_loop_provenance`
 
 ```text
 lmk_feedback.trace_loop_provenance
@@ -1251,9 +1254,9 @@ RETRIEVAL
 NEW INFERENCE
 ```
 
----
+______________________________________________________________________
 
-# 44. Provenance Must Survive Transformation
+## 44. Provenance Must Survive Transformation
 
 A useful derived invariant:
 
@@ -1267,9 +1270,9 @@ in the sense that transformations should preserve recoverability of the load-bea
 
 This does not mean every representation must duplicate the entire raw source.
 
----
+______________________________________________________________________
 
-# 45. Provenance Compression
+## 45. Provenance Compression
 
 The system can preserve lineage using identifiers/hashes/references rather than duplicating all evidence.
 
@@ -1286,9 +1289,9 @@ Knowledge Node
 
 This is **DERIVED / PROPOSED**.
 
----
+______________________________________________________________________
 
-# 46. Provenance Topology Firewall
+## 46. Provenance Topology Firewall
 
 Multiple downstream artifacts from one source are not independent.
 
@@ -1310,9 +1313,9 @@ unless another independent ancestry exists.
 
 This matters directly to the source's `2+ corroborating` rule.
 
----
+______________________________________________________________________
 
-# 47. Capability 8 — `manage_lifecycle`
+## 47. Capability 8 — `manage_lifecycle`
 
 ```text
 lmk_feedback.manage_lifecycle
@@ -1330,9 +1333,9 @@ detect
 
 No exact state machine is supplied.
 
----
+______________________________________________________________________
 
-# 48. Derived Lifecycle Model
+## 48. Derived Lifecycle Model
 
 A safe proposed lifecycle is:
 
@@ -1362,9 +1365,9 @@ MONITOR / DETECT DRIFT
 
 This is **DERIVED / PROPOSED**, not an exact runtime sequence.
 
----
+______________________________________________________________________
 
-# 49. Capability 9 — `detect_drift`
+## 49. Capability 9 — `detect_drift`
 
 ```text
 lmk_feedback.detect_drift
@@ -1382,9 +1385,9 @@ detect_knowledge_drift
 
 The source does not define their exact separation.
 
----
+______________________________________________________________________
 
-# 50. Competing Interpretation — Drift Capabilities
+## 50. Competing Interpretation — Drift Capabilities
 
 ### H1 — Scope Separation
 
@@ -1412,9 +1415,9 @@ COMPETING
 
 No source evidence resolves exact implementation semantics.
 
----
+______________________________________________________________________
 
-# 51. Capability 10 — `validate_outputs`
+## 51. Capability 10 — `validate_outputs`
 
 ```text
 lmk_feedback.validate_outputs
@@ -1436,9 +1439,9 @@ must remain compatible.
 
 Exact output schema is not supplied.
 
----
+______________________________________________________________________
 
-# 52. Validation Gates — Overview
+## 52. Validation Gates — Overview
 
 The artifact declares ten gates:
 
@@ -1455,9 +1458,9 @@ G9  Knowledge freshness
 G10 Consent and risk
 ```
 
----
+______________________________________________________________________
 
-# 53. G1 — Law of Law
+## 53. G1 — Law of Law
 
 Source:
 
@@ -1476,7 +1479,7 @@ A key ambiguity exists.
 Does “no unresolved contradictions” mean:
 
 1. contradictions must literally be eliminated; or
-2. contradictions may be preserved as explicitly unresolved competing claims but may not be silently ignored?
+1. contradictions may be preserved as explicitly unresolved competing claims but may not be silently ignored?
 
 AMOS integrity principles favor preserving genuine contradictions rather than forcing false convergence.
 
@@ -1492,9 +1495,9 @@ rather than:
 all disagreement must disappear
 ```
 
----
+______________________________________________________________________
 
-# 54. Contradiction Preservation
+## 54. Contradiction Preservation
 
 Suppose:
 
@@ -1521,9 +1524,9 @@ Contradiction
 ForcedResolution
 $$
 
----
+______________________________________________________________________
 
-# 55. G2 — Epistemic Class
+## 55. G2 — Epistemic Class
 
 Source:
 
@@ -1539,9 +1542,9 @@ UNSUPPORTED CLASS PROMOTION
 → gate failure
 ```
 
----
+______________________________________________________________________
 
-# 56. G3 — Provenance
+## 56. G3 — Provenance
 
 Source:
 
@@ -1557,9 +1560,9 @@ origin domain
 
 Additional ancestry fields are proposed, not source-required.
 
----
+______________________________________________________________________
 
-# 57. G4 — Anti-Overreach
+## 57. G4 — Anti-Overreach
 
 Source:
 
@@ -1575,9 +1578,9 @@ $$
 
 or an explicit transfer/revalidation step is needed.
 
----
+______________________________________________________________________
 
-# 58. G5 — Equation Firewall
+## 58. G5 — Equation Firewall
 
 Source:
 
@@ -1603,9 +1606,9 @@ DERIVED
 
 They must not be presented as universal cognitive-science laws or empirical biological mechanisms merely because the architecture uses terms such as learning and memory.
 
----
+______________________________________________________________________
 
-# 59. Model Firewall
+## 59. Model Firewall
 
 ```text
 AMOS_MODEL
@@ -1627,9 +1630,9 @@ HUMAN COGNITION BY DEFAULT
 
 The artifact operates within AMOS architecture.
 
----
+______________________________________________________________________
 
-# 60. G6 — Failure Mode
+## 60. G6 — Failure Mode
 
 Source:
 
@@ -1645,9 +1648,9 @@ ESCALATE
 
 The source does not specify whether all three always occur or are conditional alternatives.
 
----
+______________________________________________________________________
 
-# 61. Failure Response
+## 61. Failure Response
 
 A safe normalization is:
 
@@ -1665,9 +1668,9 @@ escalate when necessary
 
 The exact sequence is **DERIVED**.
 
----
+______________________________________________________________________
 
-# 62. Local Failure Recovery
+## 62. Local Failure Recovery
 
 A failed premise should ideally invalidate dependent outputs, not unrelated knowledge.
 
@@ -1689,9 +1692,9 @@ delete entire knowledge system
 
 This follows AMOS failure-localization principles but is not explicitly specified by this source artifact.
 
----
+______________________________________________________________________
 
-# 63. G7 — Epistemic Preservation
+## 63. G7 — Epistemic Preservation
 
 Source:
 
@@ -1709,9 +1712,9 @@ while `APPLY` is the subsequent C05→C05 inference operation.
 
 This interpretation is **DERIVED** but strongly supported by the three-domain architecture.
 
----
+______________________________________________________________________
 
-# 64. G8 — Provenance Chain
+## 64. G8 — Provenance Chain
 
 Source:
 
@@ -1730,9 +1733,9 @@ SOURCE
 
 must remain traceable at the model level.
 
----
+______________________________________________________________________
 
-# 65. Provenance Break
+## 65. Provenance Break
 
 Examples of a conceptual provenance break:
 
@@ -1745,9 +1748,9 @@ retrieved claim stripped of epistemic class
 
 These examples are **DERIVED**.
 
----
+______________________________________________________________________
 
-# 66. G9 — Knowledge Freshness
+## 66. G9 — Knowledge Freshness
 
 Source:
 
@@ -1773,9 +1776,9 @@ APPLY
 CHECK LATER
 ```
 
----
+______________________________________________________________________
 
-# 67. Freshness Gate
+## 67. Freshness Gate
 
 A derived fail-closed representation:
 
@@ -1788,9 +1791,9 @@ else:
 
 Possible alternative handling could include downgrade/revalidation, but the exact policy is not supplied.
 
----
+______________________________________________________________________
 
-# 68. G10 — Consent and Risk
+## 68. G10 — Consent and Risk
 
 Source:
 
@@ -1812,9 +1815,9 @@ REASONING INFLUENCE
 
 A claim can therefore be epistemically usable but still governance-blocked.
 
----
+______________________________________________________________________
 
-# 69. Truth/Use Separation
+## 69. Truth/Use Separation
 
 Derived:
 
@@ -1834,9 +1837,9 @@ permitted to influence reasoning
 
 This is an important governance distinction.
 
----
+______________________________________________________________________
 
-# 70. Full Gate Matrix
+## 70. Full Gate Matrix
 
 | Gate | Source Requirement                             | Primary Failure Risk           |
 | ---- | ---------------------------------------------- | ------------------------------ |
@@ -1851,9 +1854,9 @@ This is an important governance distinction.
 | G9   | freshness checked before application           | stale knowledge                |
 | G10  | consent/risk before influence                  | unauthorized/risky application |
 
----
+______________________________________________________________________
 
-# 71. Gate Dependency Topology — DERIVED
+## 71. Gate Dependency Topology — DERIVED
 
 ```mermaid
 flowchart TD
@@ -1879,9 +1882,9 @@ flowchart TD
 
 The source supplies gates, not this exact serial execution order.
 
----
+______________________________________________________________________
 
-# 72. Gate Order Is Not Proven
+## 72. Gate Order Is Not Proven
 
 The numbered list:
 
@@ -1903,9 +1906,9 @@ Some gates may be:
 
 Exact orchestration remains an implementation gap.
 
----
+______________________________________________________________________
 
-# 73. Full LMK State Model — DERIVED
+## 73. Full LMK State Model — DERIVED
 
 ```text
 S0 — INFERENCE_RESULT
@@ -1930,9 +1933,9 @@ S6 --APPLY--> S8
 
 This state machine is **PROPOSED / DERIVED**, not supplied runtime code.
 
----
+______________________________________________________________________
 
-# 74. Fail-Closed State
+## 74. Fail-Closed State
 
 A generic derived guard:
 
@@ -1951,9 +1954,9 @@ ESCALATE
 
 according to source G6.
 
----
+______________________________________________________________________
 
-# 75. No Infinite Self-Validation
+## 75. No Infinite Self-Validation
 
 The loop is recursive:
 
@@ -1979,9 +1982,9 @@ This would be circular reinforcement.
 
 The source does not explicitly define this failure mode, but provenance gates G3/G8 make it materially relevant.
 
----
+______________________________________________________________________
 
-# 76. Circular Corroboration Firewall
+## 76. Circular Corroboration Firewall
 
 Derived invariant:
 
@@ -2005,9 +2008,9 @@ must not create four independent confirmations.
 
 All remain ancestry-linked.
 
----
+______________________________________________________________________
 
-# 77. Sybil-Like Memory Amplification
+## 77. Sybil-Like Memory Amplification
 
 A single source could generate multiple memories:
 
@@ -2023,9 +2026,9 @@ Counting these as four corroborating sources would inflate confidence.
 
 Thus provenance topology is load-bearing for consolidation.
 
----
+______________________________________________________________________
 
-# 78. Stronger Consolidation Rule — PROPOSED
+## 78. Stronger Consolidation Rule — PROPOSED
 
 The source only says:
 
@@ -2042,9 +2045,9 @@ AND sufficient provenance independence
 
 This is **PROPOSED**, not a source replacement.
 
----
+______________________________________________________________________
 
-# 79. Corroboration States — PROPOSED
+## 79. Corroboration States — PROPOSED
 
 ```yaml
 corroboration:
@@ -2057,9 +2060,9 @@ corroboration:
 
 This would prevent quantity from silently substituting for independence.
 
----
+______________________________________________________________________
 
-# 80. Knowledge Drift Taxonomy — DERIVED
+## 80. Knowledge Drift Taxonomy — DERIVED
 
 ```text
 D1 Temporal Drift
@@ -2076,9 +2079,9 @@ D10 Retrieval Drift
 
 Only stale, broken provenance, class erosion, evidence-chain drift, and provenance freshness are explicitly named by the source. The broader taxonomy is derived.
 
----
+______________________________________________________________________
 
-# 81. Temporal Drift
+## 81. Temporal Drift
 
 Knowledge becomes too old for its intended use.
 
@@ -2089,73 +2092,73 @@ stale at t1
 
 The exact expiration function is unknown.
 
----
+______________________________________________________________________
 
-# 82. Provenance Drift
+## 82. Provenance Drift
 
 A once-valid provenance chain becomes incomplete or nonrecoverable.
 
----
+______________________________________________________________________
 
-# 83. Epistemic-Class Drift
+## 83. Epistemic-Class Drift
 
 A claim is silently upgraded or stripped of its class metadata.
 
----
+______________________________________________________________________
 
-# 84. Scope Drift
+## 84. Scope Drift
 
 Knowledge validated in one scope is applied in a broader scope.
 
----
+______________________________________________________________________
 
-# 85. Regime Drift
+## 85. Regime Drift
 
 Environmental or institutional conditions change sufficiently to invalidate prior applicability.
 
----
+______________________________________________________________________
 
-# 86. Semantic Drift
+## 86. Semantic Drift
 
 The meaning of a concept, field, identifier, or relation changes over time.
 
 Not explicitly named in source; **DERIVED**.
 
----
+______________________________________________________________________
 
-# 87. Dependency Drift
+## 87. Dependency Drift
 
 A knowledge claim depends on another claim that becomes invalidated or superseded.
 
 **DERIVED**.
 
----
+______________________________________________________________________
 
-# 88. Corroboration Drift
+## 88. Corroboration Drift
 
 Evidence previously treated as independent is later discovered to share ancestry.
 
 **DERIVED**, but highly relevant to source corroboration requirements.
 
----
+______________________________________________________________________
 
-# 89. Consent/Risk Drift
+## 89. Consent/Risk Drift
 
 Authorization or risk conditions change after knowledge was originally learned.
 
 This is a derived consequence of G10.
 
----
+______________________________________________________________________
 
-# 90. Retrieval Drift
+## 90. Retrieval Drift
 
 Retrieval mechanisms preferentially surface repeated/popular material, potentially causing repeated reuse independent of epistemic quality.
 
 **DERIVED**.
 
----
+______________________________________________________________________
 
-# 91. Knowledge Feedback Hazard
+## 91. Knowledge Feedback Hazard
 
 The architecture can become self-reinforcing if retrieval frequency influences future encoding.
 
@@ -2175,9 +2178,9 @@ $$
 
 Without provenance controls, this can produce apparent corroboration from a single lineage.
 
----
+______________________________________________________________________
 
-# 92. Provenance-Closed Loop
+## 92. Provenance-Closed Loop
 
 A safer architecture maintains lineage through every cycle:
 
@@ -2201,9 +2204,9 @@ Memory M2
 
 It must not appear as a fresh independent root merely because it was generated in a later loop epoch.
 
----
+______________________________________________________________________
 
-# 93. Loop Epoch — PROPOSED
+## 93. Loop Epoch — PROPOSED
 
 A useful derived field:
 
@@ -2224,9 +2227,9 @@ This would help distinguish repeated descendants from new evidence.
 
 It is not source-defined.
 
----
+______________________________________________________________________
 
-# 94. Confidence Cannot Self-Amplify
+## 94. Confidence Cannot Self-Amplify
 
 A core derived invariant:
 
@@ -2240,9 +2243,9 @@ merely because the same lineage completed another feedback cycle.
 
 Independent evidence may alter confidence, but recursion alone does not.
 
----
+______________________________________________________________________
 
-# 95. Knowledge Promotion Firewall
+## 95. Knowledge Promotion Firewall
 
 ```text
 MEMORY
@@ -2260,9 +2263,9 @@ UNCERTAIN
 
 The epistemic class must remain preserved under G2/G7.
 
----
+______________________________________________________________________
 
-# 96. Memory-to-Knowledge Meaning
+## 96. Memory-to-Knowledge Meaning
 
 Within this source, “Knowledge” should therefore be understood as an indexed/curated knowledge-plane representation, not necessarily as philosophical certainty.
 
@@ -2276,9 +2279,9 @@ verified reality
 
 which the source does not license.
 
----
+______________________________________________________________________
 
-# 97. Retrieval Firewall
+## 97. Retrieval Firewall
 
 Retrieved knowledge is context.
 
@@ -2298,9 +2301,9 @@ RETRIEVED
 
 G4, G9, and G10 all impose conditions before application.
 
----
+______________________________________________________________________
 
-# 98. Application Firewall
+## 98. Application Firewall
 
 Before retrieved knowledge influences new reasoning:
 
@@ -2325,9 +2328,9 @@ $$
 
 The exact `Eligible` function is not supplied.
 
----
+______________________________________________________________________
 
-# 99. Full Governance Vector — DERIVED
+## 99. Full Governance Vector — DERIVED
 
 A knowledge candidate can be represented conceptually as:
 
@@ -2348,11 +2351,11 @@ $$
 
 This vector is **DERIVED**, but every component is motivated by source gates/rules.
 
----
+______________________________________________________________________
 
-# 100. Transition Preservation Vector
+## 100. Transition Preservation Vector
 
-For transition \(T\):
+For transition (T):
 
 $$
 T(K_t)\rightarrow K_{t+1}
@@ -2372,9 +2375,9 @@ consent/risk acceptable
 
 Again, this is a derived synthesis of the supplied gates.
 
----
+______________________________________________________________________
 
-# 101. Ten Capabilities × Ten Gates
+## 101. Ten Capabilities × Ten Gates
 
 A useful conceptual distinction:
 
@@ -2392,9 +2395,9 @@ Do not assume a one-to-one capability-to-gate mapping.
 
 The source does not provide such a mapping.
 
----
+______________________________________________________________________
 
-# 102. Capability/Gate Matrix — DERIVED
+## 102. Capability/Gate Matrix — DERIVED
 
 | Capability                        | Most Directly Relevant Gates |
 | --------------------------------- | ---------------------------- |
@@ -2411,9 +2414,9 @@ The source does not provide such a mapping.
 
 This mapping is **DERIVED**, not source-specified.
 
----
+______________________________________________________________________
 
-# 103. Artifact Bindings — SOURCE
+## 103. Artifact Bindings — SOURCE
 
 The artifact declares a 1:1:1 binding:
 
@@ -2441,9 +2444,9 @@ The artifact declares a 1:1:1 binding:
 .devin/skills/amos-learning-memory-knowledge-feedback-governor/references/vault_domain_knowledge.md
 ```
 
----
+______________________________________________________________________
 
-# 104. Binding Claim Boundary
+## 104. Binding Claim Boundary
 
 The note calls these artifacts a:
 
@@ -2475,9 +2478,9 @@ SOURCE_CLAIM
 
 unless artifacts are independently inspected.
 
----
+______________________________________________________________________
 
-# 105. Production-Ready Boundary
+## 105. Production-Ready Boundary
 
 The source states:
 
@@ -2496,9 +2499,9 @@ production_ready:
 
 This preserves the claim without over-promoting it.
 
----
+______________________________________________________________________
 
-# 106. Provenance Sources — SOURCE
+## 106. Provenance Sources — SOURCE
 
 The artifact names five vault sources.
 
@@ -2562,9 +2565,9 @@ Declared role:
 Tensor compatibility invariant
 ```
 
----
+______________________________________________________________________
 
-# 107. Source Count Boundary
+## 107. Source Count Boundary
 
 The statement:
 
@@ -2586,9 +2589,9 @@ SOURCE_CLAIM
 
 not independently verified corpus state.
 
----
+______________________________________________________________________
 
-# 108. Gap Evidence — SOURCE
+## 108. Gap Evidence — SOURCE
 
 The artifact identifies:
 
@@ -2602,9 +2605,9 @@ This means the skill is presented as a response to a previously identified archi
 
 The underlying exploration artifact is not included here, so its complete evidence chain is not independently reconstructed.
 
----
+______________________________________________________________________
 
-# 109. Build Method — SOURCE
+## 109. Build Method — SOURCE
 
 The artifact states:
 
@@ -2622,9 +2625,9 @@ This is provenance/build metadata.
 
 It does not independently prove runtime quality.
 
----
+______________________________________________________________________
 
-# 110. RSCF Relations — SOURCE
+## 110. RSCF Relations — SOURCE
 
 The artifact declares:
 
@@ -2635,9 +2638,9 @@ BRIDGES: C05 Mind and Behavior, Memory Systems, Knowledge Research
 INDEXED_BY: 11_KNOWLEDGE_MOC
 ```
 
----
+______________________________________________________________________
 
-# 111. Parent Relation Ambiguity
+## 111. Parent Relation Ambiguity
 
 There is a notable metadata tension.
 
@@ -2679,9 +2682,9 @@ But the supplied RSCF block literally states the reverse.
 
 This must be preserved as an unresolved source inconsistency.
 
----
+______________________________________________________________________
 
-# 112. Parent Relation — COMPETING
+## 112. Parent Relation — COMPETING
 
 ### H1 — Frontmatter is authoritative
 
@@ -2711,9 +2714,9 @@ COMPETING / DECISION-RELEVANT GAP
 
 Do not silently “fix” the source relation.
 
----
+______________________________________________________________________
 
-# 113. COMPOSES_WITH Relation
+## 113. COMPOSES_WITH Relation
 
 Source:
 
@@ -2735,9 +2738,9 @@ Do not infer:
 - atomicity;
 - dependency direction.
 
----
+______________________________________________________________________
 
-# 114. BRIDGES Relation
+## 114. BRIDGES Relation
 
 Source:
 
@@ -2762,9 +2765,9 @@ flowchart LR
     K --- G
 ```
 
----
+______________________________________________________________________
 
-# 115. INDEXED_BY Relation
+## 115. INDEXED_BY Relation
 
 Source:
 
@@ -2795,9 +2798,9 @@ are exact aliases for the same note.
 
 Likely correspondence should remain **DERIVED** unless vault alias metadata confirms it.
 
----
+______________________________________________________________________
 
-# 116. Related — SOURCE
+## 116. Related — SOURCE
 
 ```markdown
 
@@ -2812,9 +2815,9 @@ MOC:
 
 ```
 
----
+______________________________________________________________________
 
-# 117. Cross-Governor Neighborhood
+## 117. Cross-Governor Neighborhood
 
 The supplied related links place this artifact near at least:
 
@@ -2827,9 +2830,9 @@ This supports a broader governor ecosystem structurally.
 
 It does not establish the execution semantics among governors.
 
----
+______________________________________________________________________
 
-# 118. RSCF H-Level — Intent
+## 118. RSCF H-Level — Intent
 
 ```yaml
 H:
@@ -2843,9 +2846,9 @@ H:
 
 **DERIVED synthesis** from the source.
 
----
+______________________________________________________________________
 
-# 119. RSCF M-Level — Mechanism
+## 119. RSCF M-Level — Mechanism
 
 ```yaml
 M:
@@ -2877,9 +2880,9 @@ M:
 
 This is a normalized representation of source transition rules.
 
----
+______________________________________________________________________
 
-# 120. RSCF L-Level — Required Detail
+## 120. RSCF L-Level — Required Detail
 
 ```yaml
 L:
@@ -2902,9 +2905,9 @@ L:
     - claim_ceiling_operational_scope
 ```
 
----
+______________________________________________________________________
 
-# 121. Raw Evidence Retrieval Order
+## 121. Raw Evidence Retrieval Order
 
 Smallest useful retrieval path:
 
@@ -2926,23 +2929,23 @@ Full Brain architecture
 
 But only dependencies capable of changing the answer should be loaded.
 
----
+______________________________________________________________________
 
-# 122. Critical Dependencies
+## 122. Critical Dependencies
 
 The most decision-changing missing evidence is likely:
 
 1. actual `SKILL.md`;
-2. parent skill relation semantics;
-3. corroboration/independence definition;
-4. freshness function;
-5. exact schemas across C05/Memory/Knowledge;
-6. gate orchestration;
-7. implementation of `LOOP_PERMITTED/BLOCKED/CONDITIONAL`.
+1. parent skill relation semantics;
+1. corroboration/independence definition;
+1. freshness function;
+1. exact schemas across C05/Memory/Knowledge;
+1. gate orchestration;
+1. implementation of `LOOP_PERMITTED/BLOCKED/CONDITIONAL`.
 
----
+______________________________________________________________________
 
-# 123. Proof Capsule — Core Gap
+## 123. Proof Capsule — Core Gap
 
 ```yaml
 proof_capsule:
@@ -2968,9 +2971,9 @@ proof_capsule:
   confidence_ceiling: 0.90
 ```
 
----
+______________________________________________________________________
 
-# 124. Proof Capsule — ENCODE
+## 124. Proof Capsule — ENCODE
 
 ```yaml
 proof_capsule:
@@ -2993,9 +2996,9 @@ proof_capsule:
     - implementation defines different transition semantics
 ```
 
----
+______________________________________________________________________
 
-# 125. Proof Capsule — CONSOLIDATE
+## 125. Proof Capsule — CONSOLIDATE
 
 ```yaml
 proof_capsule:
@@ -3016,9 +3019,9 @@ proof_capsule:
     - independence requirement
 ```
 
----
+______________________________________________________________________
 
-# 126. Proof Capsule — RETRIEVE
+## 126. Proof Capsule — RETRIEVE
 
 ```yaml
 proof_capsule:
@@ -3037,9 +3040,9 @@ proof_capsule:
     - freshness function
 ```
 
----
+______________________________________________________________________
 
-# 127. Proof Capsule — APPLY
+## 127. Proof Capsule — APPLY
 
 ```yaml
 proof_capsule:
@@ -3058,9 +3061,9 @@ proof_capsule:
     - explicit revalidation expands scope/regime
 ```
 
----
+______________________________________________________________________
 
-# 128. Proof Capsule — Epistemic Preservation
+## 128. Proof Capsule — Epistemic Preservation
 
 ```yaml
 proof_capsule:
@@ -3080,9 +3083,9 @@ proof_capsule:
   confidence_ceiling: 0.90
 ```
 
----
+______________________________________________________________________
 
-# 129. Proof Capsule — Provenance
+## 129. Proof Capsule — Provenance
 
 ```yaml
 proof_capsule:
@@ -3099,9 +3102,9 @@ proof_capsule:
     - capability 7
 ```
 
----
+______________________________________________________________________
 
-# 130. Proof Capsule — Production Readiness
+## 130. Proof Capsule — Production Readiness
 
 ```yaml
 proof_capsule:
@@ -3120,9 +3123,9 @@ proof_capsule:
     UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 131. Adversarial Validation
+## 131. Adversarial Validation
 
 The strongest supported conclusion is:
 
@@ -3178,9 +3181,9 @@ Does `0.90` cap every runtime output?
 
 Therefore the architecture remains strongly source-grounded as an **AMOS_MODEL/SOURCE_CLAIM**, while runtime and several detailed semantics remain unresolved.
 
----
+______________________________________________________________________
 
-# 132. Causal Firewall
+## 132. Causal Firewall
 
 The feedback loop is an AMOS architecture.
 
@@ -3203,9 +3206,9 @@ ArchitecturalTransition
 EmpiricalCausalEffect
 $$
 
----
+______________________________________________________________________
 
-# 133. Scope Firewall
+## 133. Scope Firewall
 
 Validated scope:
 
@@ -3228,9 +3231,9 @@ all knowledge-management systems
 
 without additional evidence.
 
----
+______________________________________________________________________
 
-# 134. Regime Firewall
+## 134. Regime Firewall
 
 A knowledge item can only be reused while its relevant regime remains compatible.
 
@@ -3247,9 +3250,9 @@ system architecture
 
 These examples are derived.
 
----
+______________________________________________________________________
 
-# 135. Confidence Firewall
+## 135. Confidence Firewall
 
 Source transition rules repeatedly use:
 
@@ -3277,9 +3280,9 @@ $$
 C_{memory}=C_{inference}
 $$
 
----
+______________________________________________________________________
 
-# 136. Weakest-Premise Principle
+## 136. Weakest-Premise Principle
 
 The consolidation rule explicitly uses:
 
@@ -3297,9 +3300,9 @@ C_{derived}
 \min(C_{load-bearing\ premises})
 $$
 
----
+______________________________________________________________________
 
-# 137. Confidence Cannot Be Created by Storage
+## 137. Confidence Cannot Be Created by Storage
 
 ```text
 encode
@@ -3322,9 +3325,9 @@ $$
 
 unless the transformation includes an independently evidentiary event.
 
----
+______________________________________________________________________
 
-# 138. Knowledge Indexing Is Not Evidence
+## 138. Knowledge Indexing Is Not Evidence
 
 ```text
 indexed 100 times
@@ -3344,9 +3347,9 @@ retrieved frequently
 
 does not justify confidence inflation.
 
----
+______________________________________________________________________
 
-# 139. Feedback ≠ Confirmation
+## 139. Feedback ≠ Confirmation
 
 A feedback loop can improve system behavior, but repeated self-reference can also amplify errors.
 
@@ -3360,56 +3363,56 @@ $$
 
 The governor's epistemic/provenance gates are precisely what prevent the loop from being treated as self-validating.
 
----
+______________________________________________________________________
 
-# 140. Anti-Fabrication Contract
+## 140. Anti-Fabrication Contract
 
 Do not infer from this artifact alone that:
 
 1. the skill file currently exists;
-2. the agent file currently exists;
-3. the workflow currently exists;
-4. the vault reference currently exists;
-5. the 1:1:1 binding is runtime-enforced;
-6. all ten capabilities are implemented;
-7. all ten capabilities execute successfully;
-8. all ten QA gates were independently tested;
-9. `production_ready` has been externally verified;
-10. corroboration means independent provenance;
-11. two memories always suffice for knowledge promotion;
-12. multiple descendants count as independent corroboration;
-13. the freshness factor has a known formula;
-14. the claim ceiling applies identically to every output;
-15. the ten gates execute serially;
-16. `LOOP_PERMITTED` means every underlying claim is true;
-17. `LOOP_BLOCKED` always means permanent rejection;
-18. `LOOP_CONDITIONAL` has a specific unstated implementation;
-19. memory storage validates inference;
-20. consolidation converts uncertainty into fact;
-21. retrieval upgrades epistemic class;
-22. repeated application increases confidence;
-23. Knowledge Research is an empirical truth oracle;
-24. C05 is equivalent to human cognition;
-25. Memory Systems is equivalent to biological human memory;
-26. the loop is an empirical neuroscience model;
-27. Full Brain OS implements this exact loop;
-28. Tensor Contracts define this exact transition schema;
-29. the parent skill relation direction is resolved;
-30. `11_KNOWLEDGE_MOC` and `` are definitely identical;
-31. drift capabilities 5 and 9 are semantically identical;
-32. the loop cannot self-reinforce;
-33. provenance automatically guarantees independence;
-34. source count guarantees evidentiary diversity;
-35. consent is permanently valid;
-36. risk status is permanently valid;
-37. freshness is universal across domains;
-38. scope transfer is automatic;
-39. absence of contradiction proves truth;
-40. source-declared QA success constitutes independent proof.
+1. the agent file currently exists;
+1. the workflow currently exists;
+1. the vault reference currently exists;
+1. the 1:1:1 binding is runtime-enforced;
+1. all ten capabilities are implemented;
+1. all ten capabilities execute successfully;
+1. all ten QA gates were independently tested;
+1. `production_ready` has been externally verified;
+1. corroboration means independent provenance;
+1. two memories always suffice for knowledge promotion;
+1. multiple descendants count as independent corroboration;
+1. the freshness factor has a known formula;
+1. the claim ceiling applies identically to every output;
+1. the ten gates execute serially;
+1. `LOOP_PERMITTED` means every underlying claim is true;
+1. `LOOP_BLOCKED` always means permanent rejection;
+1. `LOOP_CONDITIONAL` has a specific unstated implementation;
+1. memory storage validates inference;
+1. consolidation converts uncertainty into fact;
+1. retrieval upgrades epistemic class;
+1. repeated application increases confidence;
+1. Knowledge Research is an empirical truth oracle;
+1. C05 is equivalent to human cognition;
+1. Memory Systems is equivalent to biological human memory;
+1. the loop is an empirical neuroscience model;
+1. Full Brain OS implements this exact loop;
+1. Tensor Contracts define this exact transition schema;
+1. the parent skill relation direction is resolved;
+1. `11_KNOWLEDGE_MOC` and \`\` are definitely identical;
+1. drift capabilities 5 and 9 are semantically identical;
+1. the loop cannot self-reinforce;
+1. provenance automatically guarantees independence;
+1. source count guarantees evidentiary diversity;
+1. consent is permanently valid;
+1. risk status is permanently valid;
+1. freshness is universal across domains;
+1. scope transfer is automatic;
+1. absence of contradiction proves truth;
+1. source-declared QA success constitutes independent proof.
 
----
+______________________________________________________________________
 
-# 141. Anti-Regression Contract
+## 141. Anti-Regression Contract
 
 ```yaml
 anti_regression:
@@ -3445,9 +3448,9 @@ anti_regression:
     - AMOS_MODEL_to_empirical_law promotion
 ```
 
----
+______________________________________________________________________
 
-# 142. Critical Gaps
+## 142. Critical Gaps
 
 ```yaml
 gaps:
@@ -3484,9 +3487,9 @@ gaps:
     - display-name normalization
 ```
 
----
+______________________________________________________________________
 
-# 143. Cheapest High-Information Tests
+## 143. Cheapest High-Information Tests
 
 To resolve the largest uncertainties with minimum retrieval:
 
@@ -3502,9 +3505,9 @@ To resolve the largest uncertainties with minimum retrieval:
 
 Only then expand into broader C05/Memory/Knowledge sources if still required.
 
----
+______________________________________________________________________
 
-# 144. Sensitivity Boundaries
+## 144. Sensitivity Boundaries
 
 The conclusion changes materially if any of these are false:
 
@@ -3519,9 +3522,9 @@ consent/risk gate exists before influence
 
 These are load-bearing premises of the source architecture.
 
----
+______________________________________________________________________
 
-# 145. Highest-Risk Sensitivity Point
+## 145. Highest-Risk Sensitivity Point
 
 The most structurally fragile rule is:
 
@@ -3541,9 +3544,9 @@ Current source:
 independence requirement = UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 146. Proposed Provenance-Safe Consolidation Predicate
+## 146. Proposed Provenance-Safe Consolidation Predicate
 
 **PROPOSED only:**
 
@@ -3569,9 +3572,9 @@ $$
 
 This is not a replacement for source canon until explicitly adopted.
 
----
+______________________________________________________________________
 
-# 147. Proposed Loop Governance Predicate
+## 147. Proposed Loop Governance Predicate
 
 **DERIVED / PROPOSED:**
 
@@ -3597,9 +3600,9 @@ if:
 
 The source only explicitly supplies the three governance outputs and ten gates, not this exact predicate.
 
----
+______________________________________________________________________
 
-# 148. Proposed Knowledge Record
+## 148. Proposed Knowledge Record
 
 ```yaml
 knowledge_record:
@@ -3639,9 +3642,9 @@ knowledge_record:
 
 **PROPOSED.**
 
----
+______________________________________________________________________
 
-# 149. Proposed Memory Record
+## 149. Proposed Memory Record
 
 ```yaml
 memory_entry:
@@ -3668,9 +3671,9 @@ memory_entry:
 
 **PROPOSED.**
 
----
+______________________________________________________________________
 
-# 150. Proposed Transition Receipt
+## 150. Proposed Transition Receipt
 
 ```yaml
 transition_receipt:
@@ -3704,9 +3707,9 @@ transition_receipt:
 
 **PROPOSED.**
 
----
+______________________________________________________________________
 
-# 151. Proposed Drift Receipt
+## 151. Proposed Drift Receipt
 
 ```yaml
 drift_receipt:
@@ -3733,9 +3736,9 @@ drift_receipt:
 
 **PROPOSED.**
 
----
+______________________________________________________________________
 
-# 152. Mermaid — Full Feedback Loop
+## 152. Mermaid — Full Feedback Loop
 
 ```mermaid
 flowchart LR
@@ -3760,9 +3763,9 @@ flowchart LR
     C2 -. new learning .-> E
 ```
 
----
+______________________________________________________________________
 
-# 153. Mermaid — Epistemic Preservation
+## 153. Mermaid — Epistemic Preservation
 
 ```mermaid
 flowchart LR
@@ -3780,9 +3783,9 @@ flowchart LR
 
 No unsupported promotion is implied.
 
----
+______________________________________________________________________
 
-# 154. Mermaid — Provenance Chain
+## 154. Mermaid — Provenance Chain
 
 ```mermaid
 flowchart LR
@@ -3804,9 +3807,9 @@ flowchart LR
     S -. ancestry retained .-> M2
 ```
 
----
+______________________________________________________________________
 
-# 155. Mermaid — Correlated Evidence Hazard
+## 155. Mermaid — Correlated Evidence Hazard
 
 ```mermaid
 flowchart TD
@@ -3829,9 +3832,9 @@ flowchart TD
     C --> W
 ```
 
----
+______________________________________________________________________
 
-# 156. Mermaid — Governance States
+## 156. Mermaid — Governance States
 
 ```mermaid
 stateDiagram-v2
@@ -3848,9 +3851,9 @@ stateDiagram-v2
 
 State semantics beyond the names are **DERIVED / PROPOSED**.
 
----
+______________________________________________________________________
 
-# 157. Mermaid — Cross-Domain Architecture
+## 157. Mermaid — Cross-Domain Architecture
 
 ```mermaid
 flowchart TD
@@ -3872,11 +3875,11 @@ flowchart TD
     C05 -->|APPLY| C05
 ```
 
----
+______________________________________________________________________
 
-# 158. Obsidian Dataview — LMK Nodes
+## 158. Obsidian Dataview — LMK Nodes
 
-```dataview
+```text
 TABLE
   type,
   domain,
@@ -3887,11 +3890,11 @@ FROM #topic/learning-memory-knowledge
 SORT file.name ASC
 ```
 
----
+______________________________________________________________________
 
-# 159. Dataview — Feedback Loop Notes
+## 159. Dataview — Feedback Loop Notes
 
-```dataview
+```text
 TABLE
   source,
   domain,
@@ -3901,11 +3904,11 @@ FROM #topic/feedback-loop
 SORT file.name ASC
 ```
 
----
+______________________________________________________________________
 
-# 160. Dataview — Epistemic Preservation
+## 160. Dataview — Epistemic Preservation
 
-```dataview
+```text
 TABLE
   epistemic_class,
   claim_ceiling,
@@ -3915,11 +3918,11 @@ FROM #topic/epistemic-preservation
 SORT file.name ASC
 ```
 
----
+______________________________________________________________________
 
-# 161. Dataview — Cross-Domain Governors
+## 161. Dataview — Cross-Domain Governors
 
-```dataview
+```text
 TABLE
   domain,
   rscf_node_type,
@@ -3929,11 +3932,11 @@ FROM #canon-group/cross-domain
 SORT file.name ASC
 ```
 
----
+______________________________________________________________________
 
-# 162. Dataview — Knowledge Canon
+## 162. Dataview — Knowledge Canon
 
-```dataview
+```text
 TABLE
   type,
   source,
@@ -3943,9 +3946,9 @@ FROM #canon/knowledge
 SORT file.name ASC
 ```
 
----
+______________________________________________________________________
 
-# 163. Suggested Obsidian Callout — Governance
+## 163. Suggested Obsidian Callout — Governance
 
 ```markdown
 > [!warning] LMK Epistemic Firewall
@@ -3956,9 +3959,9 @@ SORT file.name ASC
 > Application must remain inside validated scope/regime.
 ```
 
----
+______________________________________________________________________
 
-# 164. Suggested Obsidian Callout — Provenance
+## 164. Suggested Obsidian Callout — Provenance
 
 ```markdown
 > [!important] Provenance Invariant
@@ -3966,9 +3969,9 @@ SORT file.name ASC
 > origin domain through C05 → Memory → Knowledge → C05.
 ```
 
----
+______________________________________________________________________
 
-# 165. Suggested Obsidian Callout — Freshness
+## 165. Suggested Obsidian Callout — Freshness
 
 ```markdown
 > [!check] Freshness Gate
@@ -3976,9 +3979,9 @@ SORT file.name ASC
 > is permitted to influence a new inference.
 ```
 
----
+______________________________________________________________________
 
-# 166. Suggested Obsidian Callout — Corroboration
+## 166. Suggested Obsidian Callout — Corroboration
 
 ```markdown
 > [!caution] Corroboration Gap
@@ -3988,9 +3991,9 @@ SORT file.name ASC
 > silently treated as independent evidence.
 ```
 
----
+______________________________________________________________________
 
-# 167. Machine-Readable Source Model
+## 167. Machine-Readable Source Model
 
 ```yaml
 AMOS_LMK_FEEDBACK_GOVERNOR:
@@ -4048,9 +4051,9 @@ AMOS_LMK_FEEDBACK_GOVERNOR:
 
 This representation reorganizes but does not add runtime semantics to the supplied model.
 
----
+______________________________________________________________________
 
-# 168. RSCF Node — Normalized
+## 168. RSCF Node — Normalized
 
 ```yaml
 RSCF-NODE:
@@ -4103,9 +4106,9 @@ RSCF-NODE:
       relation semantics are retrieved.
 ```
 
----
+______________________________________________________________________
 
-# 169. Full RSCF Proof Capsule
+## 169. Full RSCF Proof Capsule
 
 ```yaml
 RSCF_PROOF_CAPSULE:
@@ -4162,9 +4165,9 @@ RSCF_PROOF_CAPSULE:
       - runtime_verification
 ```
 
----
+______________________________________________________________________
 
-# 170. Final Canonical Compression
+## 170. Final Canonical Compression
 
 The source architecture can be reduced to:
 
@@ -4234,9 +4237,9 @@ $$
 
 whose exact runtime scope remains unresolved.
 
----
+______________________________________________________________________
 
-# 171. Core LMK Invariants
+## 171. Core LMK Invariants
 
 ```text
 LEARNING
@@ -4292,9 +4295,9 @@ PRODUCTION_READY
 INDEPENDENTLY VERIFIED RUNTIME
 ```
 
----
+______________________________________________________________________
 
-# 172. Principal AMOS Law of This Artifact
+## 172. Principal AMOS Law of This Artifact
 
 The deepest integrity rule represented by the source is:
 
@@ -4328,9 +4331,9 @@ consent/risk
 
 rather than allowing repeated circulation to manufacture certainty.
 
----
+______________________________________________________________________
 
-# 173. Final Conclusion
+## 173. Final Conclusion
 
 **AMOS Learning-Memory-Knowledge Feedback Governor** is a source-defined cross-domain AMOS governor intended to close the architectural gap between **C05 inference**, **Memory Systems**, and **Knowledge Research**.
 
@@ -4422,9 +4425,9 @@ $$
 
 This makes the governor, at the source-model level, not simply a memory bridge but an **epistemically governed knowledge circulation architecture**.
 
----
+______________________________________________________________________
 
-# 174. Source Tags
+## 174. Source Tags
 
 ```text
 #rscf/node
@@ -4437,7 +4440,7 @@ This makes the governor, at the source-model level, not simply a memory bridge b
 #canon/knowledge
 ```
 
-# 175. Extended Tags — PROPOSED
+## 175. Extended Tags — PROPOSED
 
 ```text
 #amos
@@ -4510,9 +4513,9 @@ This makes the governor, at the source-model level, not simply a memory bridge b
 #topic/knowledge-drift
 ```
 
----
+______________________________________________________________________
 
-# 176. Navigation
+## 176. Navigation
 
 **Related — SOURCE**
 
@@ -4537,7 +4540,7 @@ This makes the governor, at the source-model level, not simply a memory bridge b
 - `.devin/workflows/amos-learning-memory-knowledge-feedback-governor-workflow.md`
 - `.devin/skills/amos-learning-memory-knowledge-feedback-governor/references/vault_domain_knowledge.md`
 
----
+______________________________________________________________________
 
 **MOC:** [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]]
 

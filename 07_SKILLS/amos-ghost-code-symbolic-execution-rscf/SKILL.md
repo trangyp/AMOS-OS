@@ -4,25 +4,22 @@ title: SKILL — Amos Ghost Code Symbolic Execution Rscf
 type: skill
 source: 07_SKILLS/amos-ghost-code-symbolic-execution-rscf
 name: amos-ghost-code-symbolic-execution-rscf
-description: Ghost Code Symbolic Execution — formal verification capability. Use when
-  formal verification, symbolic execution, proof checking, or mathematical reasoning.
-  Use when amos-formal-engines-master routes to this specialized capability. Do not
-  use for generic tasks outside formal domain.
+description: Ghost Code Symbolic Execution — formal verification capability. Use when formal verification, symbolic execution, proof checking, or mathematical reasoning. Use when amos-formal-engines-master routes to this specialized capability. Do not use for generic tasks outside formal domain.
 parent_skill: amos-formal-engines-master
 domain: formal
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
 tags:
-- type/skill
-- type/skill
-- domain/formal-engines
-- epistemic/source_claim
-- hml/h
-- epistemic/source_claim
-- amos-os
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/formal-engines
+  - epistemic/source_claim
+  - hml/h
+  - epistemic/source_claim
+  - amos-os
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -32,28 +29,28 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: H
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L3_dependency
-- L5_scope
-- L7_authority
-- L22_replayability
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L3_dependency
+  - L5_scope
+  - L7_authority
+  - L22_replayability
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L3
-- L4
-- L5
-- L7
-- L16
-- L17
-- L18
-- L19
-- L22
+  - L0
+  - L1
+  - L2
+  - L3
+  - L4
+  - L5
+  - L7
+  - L16
+  - L17
+  - L18
+  - L19
+  - L22
 license: MIT
 steward: Trang Phan
 ---
@@ -63,6 +60,7 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: formal. Parent: amos-formal-engines-master. Epistemic class: SOURCE_CLAIM. H/M/L: H.
+
 ## When to Use
 
 - When verifying formal proofs against axioms and inference rules
@@ -88,13 +86,13 @@ Origin architect: **Trang Phan**. Domain: formal. Parent: amos-formal-engines-ma
 ## Operations
 
 1. **ghost_code.verify_proof**: Verify formal proofs against axioms, inference rules, and consistency constraints
-2. **ghost_code.check_soundness**: Check soundness and completeness of formal systems under test
-3. **ghost_code.propagate_constraints**: Propagate constraints through the formal system and detect unsatisfiable cores
-4. **ghost_code.validate_invariant**: Validate invariants hold under all specified operating conditions
-5. **ghost_code.detect_contradiction**: Detect contradictions and derive minimal conflict explanations
-6. **ghost_code.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-7. **ghost_code.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
-8. **ghost_code.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+1. **ghost_code.check_soundness**: Check soundness and completeness of formal systems under test
+1. **ghost_code.propagate_constraints**: Propagate constraints through the formal system and detect unsatisfiable cores
+1. **ghost_code.validate_invariant**: Validate invariants hold under all specified operating conditions
+1. **ghost_code.detect_contradiction**: Detect contradictions and derive minimal conflict explanations
+1. **ghost_code.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+1. **ghost_code.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+1. **ghost_code.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## 11_KNOWLEDGE Vault Content
 
@@ -106,14 +104,16 @@ Origin architect: **Trang Phan**. Domain: formal. Parent: amos-formal-engines-ma
 From Cosmo Brain Real Code Verification System: Code verification with 6 canonical formulas and 8 code levels.
 
 **6 Canonical Formulas** (SOURCE_DERIVED):
+
 1. `RealCode(c) = Compiles(c) ∧ Runs(c) ∧ BindsAllSymbols(c) ∧ ExposesIO(c) ∧ PassesTests(c)`
-2. `RealFeature(f) = Spec(f) ∧ Interface(f) ∧ Logic(f) ∧ Output(f) ∧ Verify(f)`
-3. `RealSoftware(s) = State(s) ∧ Interfaces(s) ∧ Execution(s) ∧ Persistence(s) ∧ Verification(s) ∧ Recovery(s)`
-4. `Understand(c) = Parse(c) + Type(c) + Semantics(c) + Runtime(c) + SpecMatch(c)`
-5. `ClaimedCapability <= VerifiedCapability` (no fake claims invariant)
-6. `NOT Verified -> NOT Complete` (no completion without proof invariant)
+1. `RealFeature(f) = Spec(f) ∧ Interface(f) ∧ Logic(f) ∧ Output(f) ∧ Verify(f)`
+1. `RealSoftware(s) = State(s) ∧ Interfaces(s) ∧ Execution(s) ∧ Persistence(s) ∧ Verification(s) ∧ Recovery(s)`
+1. `Understand(c) = Parse(c) + Type(c) + Semantics(c) + Runtime(c) + SpecMatch(c)`
+1. `ClaimedCapability <= VerifiedCapability` (no fake claims invariant)
+1. `NOT Verified -> NOT Complete` (no completion without proof invariant)
 
 **8 Code Levels**:
+
 - L0 Text: code-shaped text
 - L1 Parseable: syntax
 - L2 Executable: syntax + runtime
@@ -125,11 +125,13 @@ From Cosmo Brain Real Code Verification System: Code verification with 6 canonic
 **Production Ready Threshold**: `RealityScore(f) >= 0.875`
 
 **3 Final Laws**:
+
 1. Code is real only when it becomes verified behavior in a runtime
-2. A feature is real only when it transforms input, state, and output under test
-3. Software is real only when it executes, persists, verifies, and recovers
+1. A feature is real only when it transforms input, state, and output under test
+1. Software is real only when it executes, persists, verifies, and recovers
 
 **RSCF laws**:
+
 - `SYMBOLIC != CONCRETE`: symbolic execution explores paths; it does not prove runtime behavior
 - `GHOST != REAL`: ghost code is for verification; it is not production code
 - `VERIFIED != CORRECT`: verification proves properties hold; it does not prove the code is correct
@@ -146,7 +148,8 @@ Ghost code symbolic execution is a formal verification method. It does not prove
 - **Validation failure**: If validation gates fail, downgrade confidence, flag the gap, and escalate — do not force-fit.
 - **Epistemic overreach**
 
----
+______________________________________________________________________
+
 **Links:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 ## Related
@@ -156,17 +159,19 @@ Ghost code symbolic execution is a formal verification method. It does not prove
 ## Examples
 
 - **Scenario**: When verifying formal proofs against axioms and inference rules
+
   - **Input**: A query matching this skill's domain (formal)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When checking soundness and completeness of formal systems
+
   - **Input**: A query matching this skill's domain (formal)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When propagating constraints and detecting unsatisfiable cores
+
   - **Input**: A query matching this skill's domain (formal)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Validation Gates
 
@@ -183,7 +188,6 @@ Ghost code symbolic execution is a formal verification method. It does not prove
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `amos-formal-engines-master` — routes to this skill when formal specialization is needed
@@ -191,7 +195,6 @@ Ghost code symbolic execution is a formal verification method. It does not prove
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -210,7 +213,6 @@ Ghost code symbolic execution is a formal verification method. It does not prove
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -218,7 +220,6 @@ Ghost code symbolic execution is a formal verification method. It does not prove
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -231,11 +232,12 @@ Ghost code symbolic execution is a formal verification method. It does not prove
 
 - `references/references_MOC.md` — loaded on demand
 - `references/unified_coding_engine_spec.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `amos-formal-engines-master` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `amos-ghost-code-symbolic-execution-rscf-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -243,12 +245,14 @@ Ghost code symbolic execution is a formal verification method. It does not prove
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-ghost-code-symbolic-execution-rscf
 node_type: skill
 path: 07_SKILLS/amos-ghost-code-symbolic-execution-rscf/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

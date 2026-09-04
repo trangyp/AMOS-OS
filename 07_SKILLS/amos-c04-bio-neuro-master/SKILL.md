@@ -4,26 +4,23 @@ title: SKILL — Amos C04 Bio Neuro Master
 type: skill
 source: 07_SKILLS/amos-c04-bio-neuro-master
 name: amos-c04-bio-neuro-master
-description: AMOS C04 Bio & Neuro — NBI (Neurobiological Intelligence), NEI, BEI,
-  SI, cell intelligence, genetics, molecular biology. Biological logic translation
-  for cognitive architecture. Use when biological . Do not use for generic tasks outside
-  c04 domain.
+description: AMOS C04 Bio & Neuro — NBI (Neurobiological Intelligence), NEI, BEI, SI, cell intelligence, genetics, molecular biology. Biological logic translation for cognitive architecture. Use when biological . Do not use for generic tasks outside c04 domain.
 parent_skill: none
 domain: c04
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CANON
 tags:
-- type/skill
-- type/skill
-- domain/bio-neuro
-- epistemic/source_claim
-- hml/m
-- epistemic/source_canon
-- amos-os
-- agent-template
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/bio-neuro
+  - epistemic/source_claim
+  - hml/m
+  - epistemic/source_canon
+  - amos-os
+  - agent-template
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -33,23 +30,23 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: M
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
-- L7_authority
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
+  - L7_authority
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L7
-- L16
-- L17
-- L18
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L7
+  - L16
+  - L17
+  - L18
 license: MIT
 steward: Trang Phan
 ---
@@ -59,6 +56,7 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: c04. Parent: none. Epistemic class: SOURCE_CANON. H/M/L: M.
+
 ## When to Use
 
 AMOS C04 Bio & Neuro — NBI (Neurobiological Intelligence), NEI, BEI, SI, cell intelligence, genetics, molecular biology. Biological logic translation for cognitive architecture. Use for biological ...
@@ -84,16 +82,16 @@ AMOS C04 Bio & Neuro — NBI (Neurobiological Intelligence), NEI, BEI, SI, cell 
 ## Operations
 
 1. **c04_bio_neuro.apply_bio_model**: Apply AMOS C04 Bio & Neuro biological models: NBI, NEI, BEI, SI for cognitive architecture and fractal biology.
-2. **c04_bio_neuro.validate_bio**: Validate AMOS C04 Bio & Neuro bio claims for epistemic class, biological analogy vs empirical finding, and scope.
-3. **c04_bio_neuro.analyze_biological**: Analyze AMOS C04 Bio & Neuro biological systems: cell intelligence, genetics, neural networks, homeostasis.
-4. **c04_bio_neuro.trace_bio_provenance**: Trace AMOS C04 Bio & Neuro bio findings to vault sources, biological models, and neurobiological evidence.
-5. **c04_bio_neuro.assess_bio_claim**: Assess AMOS C04 Bio & Neuro bio claims for analogy vs empirical, evidence strength, and overclaim risk.
-6. **c04_bio_neuro.manage_bio_lifecycle**: Manage AMOS C04 Bio & Neuro bio lifecycle: model, analogize, validate, bridge to cognitive, and finalize.
-7. **c04_bio_neuro.detect_bio_drift**: Detect bio drift: analogy overclaim, scope creep, model-reality conflation, and evidence decay.
-8. **c04_bio_neuro.escalate_bio_gaps**: Escalate AMOS C04 Bio & Neuro bio gaps: flag overclaim, require empirical evidence, trigger scope correction.
-9. **c04_bio_neuro.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-10. **c04_bio_neuro.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
-11. **c04_bio_neuro.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+1. **c04_bio_neuro.validate_bio**: Validate AMOS C04 Bio & Neuro bio claims for epistemic class, biological analogy vs empirical finding, and scope.
+1. **c04_bio_neuro.analyze_biological**: Analyze AMOS C04 Bio & Neuro biological systems: cell intelligence, genetics, neural networks, homeostasis.
+1. **c04_bio_neuro.trace_bio_provenance**: Trace AMOS C04 Bio & Neuro bio findings to vault sources, biological models, and neurobiological evidence.
+1. **c04_bio_neuro.assess_bio_claim**: Assess AMOS C04 Bio & Neuro bio claims for analogy vs empirical, evidence strength, and overclaim risk.
+1. **c04_bio_neuro.manage_bio_lifecycle**: Manage AMOS C04 Bio & Neuro bio lifecycle: model, analogize, validate, bridge to cognitive, and finalize.
+1. **c04_bio_neuro.detect_bio_drift**: Detect bio drift: analogy overclaim, scope creep, model-reality conflation, and evidence decay.
+1. **c04_bio_neuro.escalate_bio_gaps**: Escalate AMOS C04 Bio & Neuro bio gaps: flag overclaim, require empirical evidence, trigger scope correction.
+1. **c04_bio_neuro.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+1. **c04_bio_neuro.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+1. **c04_bio_neuro.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## Consolidated Sub-Skills (44)
 
@@ -142,27 +140,30 @@ The domain is organized into source families:
 
 Hard anti-overclaim: quantum effects in brain, quantum consciousness, macroscopic biological coherence beyond established regimes are CONTESTED or MODEL. Biological metaphors (programs as organisms, companies as bodies) typed MODEL/METAPHOR. C04 is not a medical authority, consciousness oracle, or license for biological speculation.
 
-
 > **Reference**:
+
 - AGENT_TEMPLATE
 
----
+______________________________________________________________________
+
 **MOC:** [[07_SKILLS/amos-c04-bio-neuro-master/amos-c04-bio-neuro-master_MOC|amos-c04-bio-neuro-master_MOC]]
 
 ## Examples
 
 - **Scenario**: When managing lifecycle operations across classify, validate, trace, assess, and detect
+
   - **Input**: A query matching this skill's domain (c04)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When detecting drift in evidence chains, provenance freshness, or confidence calibration
+
   - **Input**: A query matching this skill's domain (c04)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When validating outputs against domain constraints and epistemic class
+
   - **Input**: A query matching this skill's domain (c04)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Validation Gates
 
@@ -179,7 +180,6 @@ Hard anti-overclaim: quantum effects in brain, quantum consciousness, macroscopi
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `none` — routes to this skill when c04 specialization is needed
@@ -187,7 +187,6 @@ Hard anti-overclaim: quantum effects in brain, quantum consciousness, macroscopi
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -206,7 +205,6 @@ Hard anti-overclaim: quantum effects in brain, quantum consciousness, macroscopi
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -214,7 +212,6 @@ Hard anti-overclaim: quantum effects in brain, quantum consciousness, macroscopi
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -259,11 +256,12 @@ Hard anti-overclaim: quantum effects in brain, quantum consciousness, macroscopi
 - `references/ubi_operators.md` — loaded on demand
 - `references/unified_biological_governance.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `none` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `amos-c04-bio-neuro-master-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -271,12 +269,14 @@ Hard anti-overclaim: quantum effects in brain, quantum consciousness, macroscopi
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-c04-bio-neuro-master
 node_type: skill
 path: 07_SKILLS/amos-c04-bio-neuro-master/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

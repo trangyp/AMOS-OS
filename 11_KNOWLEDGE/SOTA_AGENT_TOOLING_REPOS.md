@@ -1,11 +1,14 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 Type: Reference
 title: SOTA Agent/Skill/Workflow Tooling Repos (2025-2026)
 tags:
-- type/reference
-- domain/agent-systems
-- sota
-- amos-os
+  - type/reference
+  - domain/agent-systems
+  - sota
+  - amos-os
 type: note
 source: 11_KNOWLEDGE
 rscf:
@@ -140,11 +143,11 @@ The following SOTA patterns have been applied to all 345 AMOS agents:
 ## Recommended Pipeline
 
 1. **Author** with `vercel-labs/skills init` + `agentskills/agentskills` layout
-2. **Lint/score** with `thedaviddias/skill-check` in CI
-3. **Evaluate** with `NVIDIA/SkillEvaluator` before release
-4. **Package** with `vercel-labs/skills` or `skilld-dev/skilld`
-5. **Discover** with `SkillRouter` embeddings or `AgentSkillOS` retrieval
-6. **Execute** by composing skills with `AgentSkillOS` DAGs
+1. **Lint/score** with `thedaviddias/skill-check` in CI
+1. **Evaluate** with `NVIDIA/SkillEvaluator` before release
+1. **Package** with `vercel-labs/skills` or `skilld-dev/skilld`
+1. **Discover** with `SkillRouter` embeddings or `AgentSkillOS` retrieval
+1. **Execute** by composing skills with `AgentSkillOS` DAGs
 
 ## Agent Evaluation & Safety Repos (2025-2026, Round 3)
 
@@ -191,11 +194,11 @@ The following SOTA patterns have been applied to all 345 AMOS agents:
 ## Recommended Integration Pipeline (Full)
 
 1. **MCP-ize skills** — expose SKILL.md files through MCP Python SDK
-2. **A2A-wrap agents** — publish JSON agents as A2A servers
-3. **Gate skill safety** — wire SkillSpector into CI
-4. **Add traces** — instrument with OpenLLMetry
-5. **Enable memory** — load skill/workflow corpus into agentmemory
-6. **Run eval + red-team** — use AgentBench + Crucible
+1. **A2A-wrap agents** — publish JSON agents as A2A servers
+1. **Gate skill safety** — wire SkillSpector into CI
+1. **Add traces** — instrument with OpenLLMetry
+1. **Enable memory** — load skill/workflow corpus into agentmemory
+1. **Run eval + red-team** — use AgentBench + Crucible
 
 ## Workflow Orchestration & Agent Composition Repos (2025-2026, Round 4)
 
@@ -227,14 +230,14 @@ The following SOTA patterns have been applied to all 345 AMOS agents:
 ## Full Integration Roadmap
 
 1. **Normalize Schema A parsing** — one frontmatter parser for all downstream engines
-2. **Layer 1: package + version** — Vercel Skills (skills.json/skill-lock.json)
-3. **Layer 2: orchestration** — Conductor or Kestra for durable DAGs; LangGraph for prompt chaining
-4. **Layer 3: agents + handoffs** — OpenAI Agents (handoff) or Agency Swarm (send_message)
-5. **Layer 4: runtime resilience** — Dapr Agents for K8s-native scaling
-6. **Layer 5: safety** — SkillSpector + Crucible for CI gates
-7. **Layer 6: observability** — OpenLLMetry for correlated traces
-8. **Layer 7: memory** — agentmemory or TencentDB for context reuse
-9. **Layer 8: evaluation** — AgentBench for capability benchmarking
+1. **Layer 1: package + version** — Vercel Skills (skills.json/skill-lock.json)
+1. **Layer 2: orchestration** — Conductor or Kestra for durable DAGs; LangGraph for prompt chaining
+1. **Layer 3: agents + handoffs** — OpenAI Agents (handoff) or Agency Swarm (send_message)
+1. **Layer 4: runtime resilience** — Dapr Agents for K8s-native scaling
+1. **Layer 5: safety** — SkillSpector + Crucible for CI gates
+1. **Layer 6: observability** — OpenLLMetry for correlated traces
+1. **Layer 7: memory** — agentmemory or TencentDB for context reuse
+1. **Layer 8: evaluation** — AgentBench for capability benchmarking
 
 ## Gap Management & Epistemic Integrity Repos (2025-2026, Round 5)
 
@@ -271,11 +274,11 @@ The following SOTA patterns have been applied to all 345 AMOS agents:
 ## L27-Aligned Composite Pipeline
 
 1. **SENATOR** — map domain knowledge gaps before generation
-2. **MetaFaith** — generate with calibrated, gap-aware language
-3. **HaMI** — detect hallucinated tokens/entities in draft
-4. **Dokis + IBM FactReasoner** — verify each claim against sources with calibrated scores
-5. **styxx** — final CI gate: every claim must match receipt or be registered as gap
-6. **Output** — every artifact ships with proof capsule listing load-bearing gaps (GAP-3)
+1. **MetaFaith** — generate with calibrated, gap-aware language
+1. **HaMI** — detect hallucinated tokens/entities in draft
+1. **Dokis + IBM FactReasoner** — verify each claim against sources with calibrated scores
+1. **styxx** — final CI gate: every claim must match receipt or be registered as gap
+1. **Output** — every artifact ships with proof capsule listing load-bearing gaps (GAP-3)
 
 ## Agent Registry & Discovery Repos (2025-2026, Round 6)
 
@@ -312,10 +315,10 @@ The following SOTA patterns have been applied to all 345 AMOS agents:
 ## Registry & Discovery Integration Pipeline
 
 1. **Register** agents in mcp-gateway-registry + agntcy/dir
-2. **Index** SKILL.md files with SkillCorpus for semantic retrieval
-3. **Route** tasks to agents with agent-router using routing_confidence
-4. **Version** agents with gitagent for lifecycle management
-5. **Execute** workflows as DAGs with OpenCode-GraphAgent
+1. **Index** SKILL.md files with SkillCorpus for semantic retrieval
+1. **Route** tasks to agents with agent-router using routing_confidence
+1. **Version** agents with gitagent for lifecycle management
+1. **Execute** workflows as DAGs with OpenCode-GraphAgent
 
 ## Cognitive Architecture & Intelligence Modeling Repos (2025-2026, Round 7)
 
@@ -354,12 +357,12 @@ The following SOTA patterns have been applied to all 345 AMOS agents:
 ### Phase 1: Measure & Route
 
 1. AgentCompass on 449 agents — capability registry keyed by agent_id × factor_id
-2. agent-router on 448 skills — weighted strategy with capabilityMatch, currentLoad, successRate
+1. agent-router on 448 skills — weighted strategy with capabilityMatch, currentLoad, successRate
 
 ### Phase 2: Cognitive Architecture & Metacognition
 
 3. Soar as reasoning kernel — compile skill chains into Soar productions
-4. AgentEvolver to evolve skill set — self-questioning against capability gaps
+1. AgentEvolver to evolve skill set — self-questioning against capability gaps
 
 ### Phase 3: Multimodal & Embodied
 
@@ -388,7 +391,7 @@ The following SOTA patterns have been applied to all 345 AMOS agents:
 
 ### 53. xaidr — delphisecurity/xaidr (~26 stars)
 
-- **Key feature**: In-process runtime security sensor for input/output/tool/A2A boundaries. Prompt injection, jailbreak, secret leak detection. <1ms latency.
+- **Key feature**: In-process runtime security sensor for input/output/tool/A2A boundaries. Prompt injection, jailbreak, secret leak detection. \<1ms latency.
 - **AMOS integration**: Insert Sensor scans before every LLM input/output/tool invocation. Enforce safety_constraints, QFM v43 gates, law_compliance. OTel export to AMOS observability.
 
 ### 54. Invarium — invarium-ai/invarium (~22 stars)
@@ -404,11 +407,11 @@ The following SOTA patterns have been applied to all 345 AMOS agents:
 ## Evaluation & Observability Integration Sequence
 
 1. **Phase 0 — Baseline**: Invarium bless on all workflows to lock current behavior
-2. **Phase 1 — Observe**: Add observra to AMOS runner for structured telemetry
-3. **Phase 2 — Secure**: Wrap runner with xaidr sensors at all boundaries
-4. **Phase 3 — Memorize**: Index skills/workflows in SimpleMem for compressed retrieval
-5. **Phase 4 — Evaluate**: Run Harbor benchmarks + OpenJudge graders on all skills
-6. **Phase 5 — Gate**: CI jobs with Invarium test + OpenJudge + xaidr monitor on every PR
+1. **Phase 1 — Observe**: Add observra to AMOS runner for structured telemetry
+1. **Phase 2 — Secure**: Wrap runner with xaidr sensors at all boundaries
+1. **Phase 3 — Memorize**: Index skills/workflows in SimpleMem for compressed retrieval
+1. **Phase 4 — Evaluate**: Run Harbor benchmarks + OpenJudge graders on all skills
+1. **Phase 5 — Gate**: CI jobs with Invarium test + OpenJudge + xaidr monitor on every PR
 
 ## Agent Orchestration & Multi-Agent Coordination Repos (2025-2026, Round 9)
 
@@ -445,9 +448,9 @@ The following SOTA patterns have been applied to all 345 AMOS agents:
 ## Orchestration Integration Priority
 
 1. **Immediate wins**: LangGraph or CrewAI for workflow execution — directly consume workflow MD and SKILL.md
-2. **Interoperability**: A2A for external agent communication
-3. **Safety/governance**: Council for voting/conflict-resolution (aligns with MURK reasoning)
-4. **Hierarchical delegation**: OpenAI Agents SDK for handoff, AutoGen for group-chat/hierarchical
+1. **Interoperability**: A2A for external agent communication
+1. **Safety/governance**: Council for voting/conflict-resolution (aligns with MURK reasoning)
+1. **Hierarchical delegation**: OpenAI Agents SDK for handoff, AutoGen for group-chat/hierarchical
 
 ## Additional Finds (Round 3 — 2026-08-28)
 
@@ -511,11 +514,11 @@ The following SOTA patterns have been applied to all 345 AMOS agents:
 ## Identity Integration Roadmap
 
 1. **Identity baseline**: ZeroID assigns stable URI + short-lived credential to every agent
-2. **Policy layer**: OpenFGA authorization model with agent/skill/human/artifact/system object types
-3. **Entity canonicalization**: GoldenMatch produces master entity_id table for equivalence and continuity
-4. **Runtime enforcement**: Warden brokers every agent-to-skill and agent-to-enterprise call
-5. **Decentralized keys**: Alien Agent ID for agent self-identity and credential vaulting
-6. **Hardware trust**: Fraunhofer CMC attestation as pre-condition for agent scheduling
+1. **Policy layer**: OpenFGA authorization model with agent/skill/human/artifact/system object types
+1. **Entity canonicalization**: GoldenMatch produces master entity_id table for equivalence and continuity
+1. **Runtime enforcement**: Warden brokers every agent-to-skill and agent-to-enterprise call
+1. **Decentralized keys**: Alien Agent ID for agent self-identity and credential vaulting
+1. **Hardware trust**: Fraunhofer CMC attestation as pre-condition for agent scheduling
 
 ## Agent Safety & Adversarial Robustness Repos (2025-2026, Round 11)
 
@@ -560,9 +563,9 @@ User/Tool Input -> [prompt-guard] -> [NeMo input rail] -> [AMOS Router]
 ## Safety Integration Sequence
 
 1. **Start with guardrails and sandboxing**: NeMo-Guardrails + OpenSandbox for immediate runtime containment
-2. **Add input defense**: prompt-guard in input path, severity scores populate input_guardrails
-3. **Automate red-teaming**: DeepTeam against 529 agents nightly, results feed safety_constraints
-4. **Close the loop with alignment**: LLaMA-Factory for SFT/DPO/KTO, verl for large-scale RL, export LoRA adapters
+1. **Add input defense**: prompt-guard in input path, severity scores populate input_guardrails
+1. **Automate red-teaming**: DeepTeam against 529 agents nightly, results feed safety_constraints
+1. **Close the loop with alignment**: LLaMA-Factory for SFT/DPO/KTO, verl for large-scale RL, export LoRA adapters
 
 ## Agent Tooling & MCP Server Repos (2025-2026, Round 12)
 
@@ -599,10 +602,10 @@ User/Tool Input -> [prompt-guard] -> [NeMo input rail] -> [AMOS Router]
 ## Tooling Integration Order
 
 1. **Catalog first**: Import SKILL.md → SkillHub, generate MCP server manifests → MCP Registry
-2. **Runtime second**: Generate OpenAI Agents SDK agents and workflows from JSON + workflow MD
-3. **Deploy third**: Convert to Docker Agent YAML, push to OCI registry
-4. **Connect fourth**: Add ANP identities and discovery for agent-to-agent messaging
-5. **Bundle fifth**: Wrap in OpenPackage for distribution and version control
+1. **Runtime second**: Generate OpenAI Agents SDK agents and workflows from JSON + workflow MD
+1. **Deploy third**: Convert to Docker Agent YAML, push to OCI registry
+1. **Connect fourth**: Add ANP identities and discovery for agent-to-agent messaging
+1. **Bundle fifth**: Wrap in OpenPackage for distribution and version control
 
 ## Honorable Mentions
 
@@ -644,11 +647,11 @@ User/Tool Input -> [prompt-guard] -> [NeMo input rail] -> [AMOS Router]
 ## Knowledge/RAG Integration Stack
 
 1. **Ingest**: Docling normalizes entire Obsidian vault + SKILL.md/workflow files
-2. **Structure**: OpenViking exposes corpus as virtual context filesystem
-3. **Graph**: Graphiti builds temporal knowledge graph from notes and links
-4. **Retrieve**: Haystack powers RAG and skill-routing for 569 agents
-5. **Reason**: DSPy compiles chain-of-thought and tool-use reasoning
-6. **Remember**: agentmemory persists episodic learnings across sessions
+1. **Structure**: OpenViking exposes corpus as virtual context filesystem
+1. **Graph**: Graphiti builds temporal knowledge graph from notes and links
+1. **Retrieve**: Haystack powers RAG and skill-routing for 569 agents
+1. **Reason**: DSPy compiles chain-of-thought and tool-use reasoning
+1. **Remember**: agentmemory persists episodic learnings across sessions
 
 ## Agent Deployment & CI/CD Repos (2025-2026, Round 14)
 
@@ -685,119 +688,144 @@ User/Tool Input -> [prompt-guard] -> [NeMo input rail] -> [AMOS Router]
 ## Deployment/CI Integration Order
 
 1. **Deploy**: Nixopus turns repo into auto-deployed agent fleet
-2. **Pipeline**: Langship adds gated multi-environment promotion
-3. **Version**: Agentver locks skill versions for reproducibility
-4. **Monitor**: Agent Health for production health/alerting with Golden Paths
-5. **Budget**: AgentBudget as cost-gate in front of every LLM call
-6. **Debug**: AgentTrace for dev-stage step debugging and profiling
+1. **Pipeline**: Langship adds gated multi-environment promotion
+1. **Version**: Agentver locks skill versions for reproducibility
+1. **Monitor**: Agent Health for production health/alerting with Golden Paths
+1. **Budget**: AgentBudget as cost-gate in front of every LLM call
+1. **Debug**: AgentTrace for dev-stage step debugging and profiling
 
 ## Additional Finds (Round 9 — 2026-08-28)
 
 ### 92. MCP Catalog — `reaatech/mcp-catalog` (new/niche)
+
 - **Key feature**: Registry server for MCP server discovery with registration, search, health checks, schema aggregation, and access control.
 - **AMOS integration**: Register AMOS tools/capabilities as MCP servers and let agents discover them dynamically via the catalog.
 
 ### 93. MCP Gateway & Registry — `agentic-community/mcp-gateway-registry` (~882 stars)
+
 - **Key feature**: Enterprise MCP/AI asset registry and gateway with OAuth, unified agent/tool access, Kubernetes/ECS support, and audit trails.
 - **AMOS integration**: Use as the enterprise control plane for AMOS agents, skills, and MCP servers with governed discovery and call logging.
 
 ### 94. MCP Registry — `modelcontextprotocol/registry` (community registry)
+
 - **Key feature**: Community-driven registry service for MCP servers; app-store-like discovery and publishing for MCP clients.
 - **AMOS integration**: Publish AMOS custom MCP servers to the community registry and consume third-party MCP servers from it.
 
 ### 95. agentregistry — `agentregistry-dev/agentregistry` (~466 stars)
+
 - **Key feature**: One registry for MCP servers, AI agents, skills, and prompts with CLI, web UI, curation, and Kubernetes deployment.
 - **AMOS integration**: Package and publish AMOS agents/skills/MCP servers as artifacts in a governed, searchable registry.
 
 ### 96. agent-discover — `keshrath/agent-discover` (new/niche)
+
 - **Key feature**: MCP server registry and marketplace with dynamic proxy, single-call tool discovery, and on-demand activation without session restart.
 - **AMOS integration**: Let AMOS agents discover and activate MCP tools at runtime without restarting sessions, extending capability on demand.
 
 ## Additional Finds (Round 8 — 2026-08-28)
 
 ### 87. AgentTelemetry — `Krishnachaitanyakc/AgentTelemetry` (~3 stars)
+
 - **Key feature**: OpenTelemetry-based observability for AI agents with 9 agent-specific span kinds, 7 framework adapters, privacy levels, and fault-detection analysis.
 - **AMOS integration**: Instrument AMOS workflow steps with OpenTelemetry spans; tag each step with RSCF state and AMOS domain for traceable reasoning.
 
 ### 88. Observra — `open-agent-ai-security/observra` (~21 stars)
+
 - **Key feature**: Framework-agnostic telemetry for AI agents capturing LLM calls, tool calls, delegation, cost, and errors via the Common Information Model.
 - **AMOS integration**: Stream AMOS agent runs into Observra to answer "what happened, how much did it cost, and was it normal?" across skills.
 
 ### 89. Agent Observatory — `rakeshguptak/agent-observatory` (new/niche)
+
 - **Key feature**: Self-hosted observability and debugging platform with traces, execution DAGs, cost/latency analytics, hallucination risk, and reasoning drift.
 - **AMOS integration**: Host a local alternative to LangSmith for AMOS; capture execution DAGs of multi-step workflows and detect reasoning drift.
 
 ### 90. agenttrail — `sodiumsun/agenttrail` (~194 stars)
+
 - **Key feature**: Local observability map for AI coding agents; file watcher, run cards, plans, tool calls, and progress for Claude/Codex/Cursor.
 - **AMOS integration**: Use agenttrail to maintain a live `PLAN.md` and `CLAUDE.md`/`.agents` map for AMOS development sessions without cloud dependencies.
 
 ### 91. AgentLens — `agentkitai/agentlens` (~17 stars)
+
 - **Key feature**: Tamper-evident, SHA-256 hash-chained audit trail for AI agents with real-time dashboard, MCP-native, EU AI Act friendly.
 - **AMOS integration**: Record every AMOS agent tool call, approval, and mutation as a verifiable audit trail for compliance and provenance.
 
 ## Additional Finds (Round 7 — 2026-08-28)
 
 ### 82. Snyk Agent Scan — `snyk/agent-scan` (new/niche)
+
 - **Key feature**: Security scanner for AI agents, MCP servers, and skills; discovers installed agent components and scans for prompt injection, sensitive data handling, and malware.
 - **AMOS integration**: Add to the AMOS validation pipeline to scan every new `SKILL.md` and agent JSON for prompt-injection and vulnerability risks before merge.
 
 ### 83. SkillSpector — `NVIDIA/SkillSpector` (~14.7k stars)
+
 - **Key feature**: Security scanner for AI agent skills with 69 vulnerability patterns across 17 categories: prompt injection, data exfiltration, privilege escalation, supply chain, excessive agency, MCP least privilege.
 - **AMOS integration**: Gate AMOS skill publication through SkillSpector; require a passing scan before any skill is promoted from PROPOSED to CONDITIONAL/FINAL.
 
 ### 84. Agent Audit — `headyzhang/agent-audit` (~224 stars)
+
 - **Key feature**: Static security scanner for LLM agents with 72 rules mapped to the OWASP Agentic Top 10 (2026); prompt injection, secret leak, taint analysis, MCP config auditing.
 - **AMOS integration**: Run `agent-audit` in CI on AMOS agents and workflows; map findings to the OWASP Agentic Top 10 and create repair tickets.
 
 ### 85. AgentScan — `thesfb/agentscan` (new/niche)
+
 - **Key feature**: Deterministic, offline, zero-dependency security scanner for AI agent skills; detects shell, exfiltration, secrets, network calls, malware patterns, and supply-chain risks without executing the skill.
 - **AMOS integration**: Use as a pre-install scanner in the AMOS skill store; local offline scanning for air-gapped or high-trust deployments.
 
 ### 86. agent-security — `empowered-humanity/agent-security` (new/niche)
+
 - **Key feature**: 176 detection patterns with taint analysis, auto-classification, context flow tracing, runtime guard modules (SSRF, path traversal, exec allowlisting, webhook verification).
 - **AMOS integration**: Add static + runtime security gates to AMOS; export SARIF to GitHub Code Scanning and enforce guards in the AMOS execution kernel.
 
 ## Additional Finds (Round 6 — 2026-08-28)
 
 ### 77. Claw-Eval — `claw-eval/claw-eval` (~752 stars)
+
 - **Key feature**: Human-verified LLM-as-agent evaluation harness with 300 tasks, 2,159 rubrics, Pass^3 methodology, and 9 categories (Completion · Safety · Robustness).
 - **AMOS integration**: Run AMOS agents through Claw-Eval tasks to score skill/workflow success, safety, and robustness with reproducible 3-trial passes.
 
 ### 78. GauntletBench — `gauntlet-benchmark/evaluation-harness` (new/niche)
+
 - **Key feature**: Web-based agent generalization benchmark with 100 vision-intensive professional tasks across Circuit Designer, Flight Analyser, Video Editor, 3D Modeller, Workflow Builder.
 - **AMOS integration**: Benchmark AMOS vision-grounded and tool-use capabilities on less-covered professional apps and report domain-specific scores.
 
 ### 79. reaatech Agent-Eval-Harness — `reaatech/agent-eval-harness` (new/niche)
+
 - **Key feature**: Production TypeScript evaluation harness with trajectory, tool-use, cost, latency, LLM-as-judge, golden trajectories, and CI/CD regression gates.
 - **AMOS integration**: Add AMOS skill execution tests to the harness; enforce cost/latency budgets and regression gates on workflow runs.
 
 ### 80. OmniaBench — `scuuy/OmniaBench` (~12 stars)
+
 - **Key feature**: Broad diagnostic benchmark with 1,431 tasks across 90 level-1 / 354 level-2 domains, 10 capability and 8 atomic difficulty dimensions.
 - **AMOS integration**: Map AMOS C01-C12 domains to OmniaBench taxonomy and run domain-specific evaluation subsets.
 
 ### 81. AgencyBench — `GAIR-NLP/AgencyBench` (~94 stars)
+
 - **Key feature**: Benchmark for autonomous agents in 1M-token real-world contexts; long-horizon multi-step agency across extended scenarios.
 - **AMOS integration**: Stress-test AMOS agents on long-context, multi-step real-world agency tasks and measure end-to-end task completion.
 
 ## Additional Finds (Round 5 — 2026-08-28)
 
 ### 72. agentmemory — `rohitg00/agentmemory` (~27.6k stars)
+
 - **Key feature**: Persistent memory for coding agents (Claude Code, Cursor, Codex, Gemini, Copilot) with confidence scoring, lifecycle, knowledge graphs, hybrid search, and MCP.
 - **AMOS integration**: Use as the memory substrate for AMOS agents; wire `SKILL.md` ingestion to the memory server and surface context through the MCP server.
 
 ### 73. TencentDB Agent Memory — `Tencent/TencentDB-Agent-Memory` (~24.6k stars)
+
 - **Key feature**: Team-level memory hub turning conversations, docs, and code into governed, shared memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph).
 - **AMOS integration**: Map the AMOS Obsidian vault to the team memory hub, exposing skills and LLM-Wiki as shared assets across agents.
 
 ### 74. Memoria — `matrixorigin/Memoria` (~551 stars)
+
 - **Key feature**: Git-like version control for AI agent memory: snapshots, branches, merges, rollback, semantic search, contradiction detection, and quarantine.
 - **AMOS integration**: Treat every AMOS skill/workflow edit as a memory commit; use Memoria for audit, rollback, and provenance of agent knowledge.
 
 ### 75. agent-memory — `ivanzwb/agent-memory` (new/niche)
+
 - **Key feature**: TypeScript persistent memory for agents with working, conversation, and long-term memory, vector + keyword retrieval, SQLite/HNSW, and token budgeting.
 - **AMOS integration**: Embed `agent-memory` as a local-first memory layer for AMOS agent sessions and RAG over the vault.
 
 ### 76. agentic-memory — `Verace-Pvt-Ltd/agentic-memory` (new/niche)
+
 - **Key feature**: 6-layer persistent memory (sensory, working, episodic, semantic, long-term, procedural), non-destructive belief revision, and MCP server.
 - **AMOS integration**: Integrate with AMOS C05 Mind & Behavior and Memory Systems as an MCP server; use the 6-layer model to ground RSCF/H-M-L memory claims.
 
@@ -831,26 +859,32 @@ User/Tool Input -> [prompt-guard] -> [NeMo input rail] -> [AMOS Router]
 ## Agent Framework & Runtime Repos (2025-2026, Round 15)
 
 ### 98. LangGraph — langchain-ai/langgraph (~40,600 stars)
+
 - **Key feature**: Stateful, cyclic/conditional agent graphs with durable execution and built-in checkpointing.
 - **AMOS integration**: Parse 592 workflow MD files into StateGraph definitions (nodes=steps, edges=transitions). Map 590 JSON agents to node functions. SKILL.md as system_prompt. PostgresSaver/SqliteSaver checkpointer for long-running runs.
 
 ### 99. Pydantic AI — pydantic/pydantic-ai (~19,500 stars)
+
 - **Key feature**: Type-safe agent runtime with Pydantic-validated structured outputs, durable execution, graph support.
 - **AMOS integration**: Factory loads each JSON agent as pydantic_ai.Agent. BaseModel output schemas from agent JSON config. Graph/DurableExecution for workflow MD as typed resumable pipelines.
 
 ### 100. Agno — agno-agi/agno (~41,900 stars)
+
 - **Key feature**: AgentOS runtime: turn agents into multi-tenant FastAPI services with sessions, tracing, scheduling, RBAC.
 - **AMOS integration**: Convert JSON agents to Agno.Agent. SKILL.md as instructions. Register workflows as Agno Team/Workflow. Run AgentOS with Postgres + tracing for FastAPI service with 50+ endpoints.
 
 ### 101. OpenAI Agents SDK — openai/openai-agents-python (~28,900 stars)
+
 - **Key feature**: Lightweight multi-agent SDK built around agents-as-tools, handoffs, guardrails, tracing.
 - **AMOS integration**: Top-level triage/router agent picks best JSON agent by capability tags. Hierarchical routing for 590 agents. SKILL.md as instructions, workflow MD as handoff chains. Guardrails for I/O validation.
 
 ### 102. Dapr Agents — dapr/dapr-agents (~740 stars)
+
 - **Key feature**: Kubernetes-native, durable workflow engine designed to run thousands of agents with built-in state and observability.
 - **AMOS integration**: Package each JSON agent as DaprAgent/WorkflowActivity. SKILL.md as activity prompt. Workflow MD as Dapr Workflow definitions. Fan-out parallel branches. State store + pub/sub for checkpointing.
 
 ### 103. CrewAI — crewAIinc/crewAI (~57,700 stars)
+
 - **Key feature**: Role-playing multi-agent crews with tasks, tools, and event-driven flows.
 - **AMOS integration**: Map JSON agents to crewai.Agent with role/goal/backstory. SKILL.md to tools/tasks. Workflow MD to Crew/Flow with ordered Task chain. Process.hierarchical for manager-led delegation.
 
@@ -878,129 +912,151 @@ Role-based crews: CrewAI (collaborative agent teams)
 ## Agent Evaluation & Benchmarking Repos (2025-2026, Round 16)
 
 ### 104. OpenAI Evals — openai/evals (~19,205 stars)
+
 - **Key feature**: Mature framework and registry for evaluating LLMs and LLM systems; supports custom evals, prompt-chain evals, Completion Function Protocol for tool-using agents.
 - **AMOS integration**: Convert 613 JSON agent definitions into custom evals. Use 615 workflow MD files as scenario inputs. Run registry in CI for per-agent, per-workflow pass/fail baselines. Detect capability drift across model updates.
 
 ### 105. OpenRLHF — OpenRLHF/OpenRLHF (~9,950 stars)
+
 - **Key feature**: High-performance, production-ready RLHF/RL infrastructure using Ray + vLLM; supports PPO, REINFORCE++, DAPO, async RL, multi-turn VLM agents.
 - **AMOS integration**: Collect trajectory-level rewards from 615 workflow executions. Fine-tune underlying LLM powering 613 agents. Use async agent RL path to scale RL across full agent fleet without rebuilding orchestrator.
 
 ### 106. Laminar — lmnr-ai/lmnr (~3,191 stars)
+
 - **Key feature**: OpenTelemetry-native observability platform for AI agents; auto-traces Vercel AI SDK, LangChain, OpenAI, Anthropic, Gemini; SQL over traces, real-time signals, 20x trace compression.
 - **AMOS integration**: One-line instrumentation around AMOS runner. Every execution of 613 agents and 615 workflows becomes a trace with spans, tool calls, costs, latencies. SQL/signals to detect loops, cost spikes, failed handoffs.
 
 ### 107. Prompt Ops — meta-llama/llama-prompt-ops (~853 stars)
+
 - **Key feature**: Automated prompt optimization for Llama models; transforms prompts tuned for other LLMs into Llama-optimized variants using query-response dataset and configurable metrics.
 - **AMOS integration**: Treat 613 SKILL.md files as system prompts and 615 workflow MD files as query/trajectory corpora. Run prompt-ops per skill to generate optimized SKILL.md variants. A/B test against original, batch-merge winners.
 
 ### 108. OpenJudge — agentscope-ai/OpenJudge (~798 stars)
+
 - **Key feature**: Holistic evaluation framework for AI agents with 50+ production graders, skill graders (threat analysis, declaration alignment, completeness, relevance, design quality), PawBench, continuous optimization loops.
 - **AMOS integration**: Use skill graders directly against each SKILL.md to check alignment, completeness, relevance. Run PawBench-style harnesses over 615 workflow MD files. Store scores in leaderboard for continuous improvement.
 
 ### 109. Eval View — hidai25/eval-view (~129 stars)
+
 - **Key feature**: Snapshot/regression testing for AI agents; records full trajectories (tool calls, parameters, order) and diffs against baselines offline, with optional LLM judge for output quality.
 - **AMOS integration**: Snapshot each of 613 agents' behavior on 615 workflows. Add evalview check to CI so any edit to SKILL.md, JSON agent schema, or workflow file that changes tool-calling behavior is flagged before merge.
 
 ## Eval/Benchmark Integration Stack
 
 1. **Baseline**: openai/evals + OpenJudge — convert agents + workflows into test cases and skill graders
-2. **Watch**: Laminar — instrument AMOS runner to capture traces, costs, anomalies
-3. **Optimize**: prompt-ops — per-skill optimization over 613 SKILL.md files
-4. **Gate**: eval-view — snapshot regression tests in CI for every file change
-5. **Improve**: OpenRLHF — use 615 workflow traces as preference data for distributed RLHF
+1. **Watch**: Laminar — instrument AMOS runner to capture traces, costs, anomalies
+1. **Optimize**: prompt-ops — per-skill optimization over 613 SKILL.md files
+1. **Gate**: eval-view — snapshot regression tests in CI for every file change
+1. **Improve**: OpenRLHF — use 615 workflow traces as preference data for distributed RLHF
 
 ## Agent UI/UX & Human Interaction Repos (2025-2026, Round 17)
 
 ### 110. Mission Control — builderz-labs/mission-control (~6,105 stars)
+
 - **Key feature**: Self-hosted AI-agent control plane with task inbox, agent registration, runtime adapters, multi-agent missions, spend tracking, Aegis quality gates, operations dashboard.
 - **AMOS integration**: Deploy via Docker Compose. Bulk-import 633 JSON agents as registrations. Link SKILL.md as capability docs. Convert workflow MD into mission templates. AMOS runtime adapter for start/stop/stream.
 
 ### 111. Agent Chat UI — langchain-ai/agent-chat-ui (~3,080 stars)
+
 - **Key feature**: Next.js chat app for any LangGraph agent with streaming, tool-call rendering, reasoning steps, references, multi-modality, one-click Vercel deploy.
 - **AMOS integration**: Build AMOS-LangGraph bridge exposing each agent as graph/assistant ID. SKILL.md as system prompt. Chat UI lists all 633 agents for streaming conversation with tool calls and reasoning.
 
 ### 112. Open Agent Builder — firecrawl/open-agent-builder (~2,605 stars)
+
 - **Key feature**: No-code drag-and-drop workflow builder with 8 node types (Agent, MCP Tools, Transform, If/Else, While, User Approval, Start/End), real-time execution, template library.
 - **AMOS integration**: Parse 635 workflow MD into visual pipeline JSON. Map agents to Agent nodes using 633 JSON definitions. SKILL.md as node instructions. User Approval nodes at risky steps. Export validated workflows back.
 
 ### 113. Agent Flow — patoles/agent-flow (~1,461 stars)
+
 - **Key feature**: Interactive node-graph visualization of live agent sessions with tool calls, branching, JSONL replay, multi-session tabs, VS Code extension.
 - **AMOS integration**: AMOS executor emits JSONL events. Agent Flow visualizes which of 633 agents are active in 635 workflows. Spot stuck, looping, or failing agents in real time.
 
 ### 114. Approving — cocofhu/approving (~74 stars)
+
 - **Key feature**: Self-hostable HITL platform with FSM workflows, Docker sandboxes, MCP artifacts, visual human approval gates before critical actions.
 - **AMOS integration**: Run AMOS workflow executor in Approving's Docker sandbox. Translate workflow MD into FSM with human-gate nodes at critical points. Reviewers approve/reject/revise. Persist decisions as audit trail.
 
 ### 115. Skills Marketplace — dukelyuu/skills-marketplace (~25 stars)
+
 - **Key feature**: Marketplace UI for SKILL.md files with full-text search, filtering, one-click import, built-in skill editor, source sync.
 - **AMOS integration**: Add AMOS repo as source. 633 SKILL.md auto-indexed into skill cards with tags. Users search/filter and one-click import. Edits write back to SKILL.md and sync to Git.
 
 ## UI/UX Integration Stack
 
 1. **Control panel**: Mission Control — central AMOS operations cockpit
-2. **Chat interface**: Agent Chat UI — streaming chat with any of 633 agents
-3. **Visual builder**: Open Agent Builder — drag-and-drop workflow testing
-4. **Flow visualization**: Agent Flow — live agent session node-graph
-5. **Human approval**: Approving — HITL gates at critical workflow steps
-6. **Skill marketplace**: Skills Marketplace — searchable catalog of 633 skills
+1. **Chat interface**: Agent Chat UI — streaming chat with any of 633 agents
+1. **Visual builder**: Open Agent Builder — drag-and-drop workflow testing
+1. **Flow visualization**: Agent Flow — live agent session node-graph
+1. **Human approval**: Approving — HITL gates at critical workflow steps
+1. **Skill marketplace**: Skills Marketplace — searchable catalog of 633 skills
 
 ## Agent Memory & Context Management Repos (2025-2026, Round 18)
 
 ### 116. Mem0 — mem0ai/mem0 (~64,000 stars)
+
 - **Key feature**: Single-pass ADD-only memory extraction, entity linking, hybrid recall (semantic + BM25 + entity matching). Self-hostable memory server with per-user/per-agent scopes.
 - **AMOS integration**: Attach stable agent_id from each of 653 JSON agents. Index 653 SKILL.md as reference docs. After workflow run, call m.add() with distilled facts. At new workflow start, call m.search() for top-k relevant memories per agent_id.
 
 ### 117. Khoj — khoj-ai/khoj (~36,700 stars)
+
 - **Key feature**: Semantic search over heterogeneous documents (PDF, .md, .org, Notion), custom agents with knowledge, scheduled automation, long-term memory support.
 - **AMOS integration**: Entire 1,961-file corpus (653 SKILL.md + 655 workflow .md + 653 agent JSONs) becomes searchable knowledge base. Create one custom Khoj agent per JSON agent. Use /query or api/chat endpoint inside each AMOS agent step.
 
 ### 118. OpenViking — volcengine/OpenViking (~34,000 stars)
+
 - **Key feature**: viking:// virtual filesystem where memories, resources, and skills are URI-addressable; three-tier context loading (L0 abstract → L1 overview → L2 detail); session-to-memory distillation.
 - **AMOS integration**: Mount amos/skills/ and amos/workflows/ under viking://. Let OpenViking build L0/L1/L2 summaries. In each agent step, call viking.find(query) for tiered context. After workflow completes, commit session for memory distillation.
 
 ### 119. AgentMemory — rohitg00/agentmemory (~27,600 stars)
+
 - **Key feature**: Persistent memory with confidence scoring, lifecycle management, knowledge-graph construction, hybrid search, MCP server. Works across Claude Code, Cursor, Codex.
 - **AMOS integration**: Install agentmemory MCP server. Map 653 JSON agents to agentmemory identities. Ingest 653 SKILL.md as skills and 655 workflow files as sessions. Auto-extract entities and link in knowledge graph. Use agentmemory.search() at session start.
 
 ### 120. Letta — letta-ai/letta (~24,400 stars)
+
 - **Key feature**: MemGPT-style core vs. archival memory, memory blocks, sleep-time consolidation ("dreaming"), skill learning, MemFS (git-backed context storage).
 - **AMOS integration**: Define one Letta agent per JSON agent. Use memory_blocks for each skill/workflow split between core_memory (active) and archival_memory (long-term). Schedule sleeptime/dreaming consolidation runs to compress 1,961-file corpus. Track all context in Git via MemFS.
 
 ### 121. Neo4j Agent Memory — neo4j-labs/agent-memory (~489 stars)
+
 - **Key feature**: POLE+O memory model with short-term (conversations), long-term (entities/facts/preferences), and reasoning (tool-usage traces) layers; entity/relationship extraction; 16-tool MCP server.
 - **AMOS integration**: Spin up Neo4j + agent-memory MCP server. Import 653 SKILL.md and 655 workflow files as Skill and Workflow nodes. Link to 653 Agent nodes with HAS_SKILL, USES_WORKFLOW, PRODUCED_OUTPUT edges. Expose MCP tools in AMOS for runtime graph queries.
 
 ## Memory/Context Integration Phases
 
 1. **Phase 1 — Retrieval baseline**: Index all SKILL.md + workflow .md in Khoj or OpenViking
-2. **Phase 2 — Agent memory**: Add mem0 or agentmemory per agent_id for fact retention
-3. **Phase 3 — Graph reasoning**: Import skill/workflow/agent relationships into neo4j-labs/agent-memory
-4. **Phase 4 — Long-horizon compression**: Wrap long workflows in Letta for context paging and sleep-time consolidation
-5. **Phase 5 — Self-evolving skills**: Use OpenViking or agentmemory to distill successful workflow runs back into updated SKILL.md files
+1. **Phase 2 — Agent memory**: Add mem0 or agentmemory per agent_id for fact retention
+1. **Phase 3 — Graph reasoning**: Import skill/workflow/agent relationships into neo4j-labs/agent-memory
+1. **Phase 4 — Long-horizon compression**: Wrap long workflows in Letta for context paging and sleep-time consolidation
+1. **Phase 5 — Self-evolving skills**: Use OpenViking or agentmemory to distill successful workflow runs back into updated SKILL.md files
 
 ### 122. Aegis — Justin0504/Aegis (~332 stars)
+
 - **Key feature**: Pre-execution firewall for AI agents. Intercepts, classifies, and blocks tool calls in real time. RFC 6962 transparency log (append-only Merkle tree), human-in-the-loop approvals, kill switch. Agent Threat Ontology v1 (10 tactics × 40 techniques). LLM egress proxy for OpenAI/Anthropic. Zero agent code changes.
-- **AMOS integration**: Wrap every AMOS agent tool call through Aegis gateway. Map AAT-T* threat taxonomy to AMOS security-safety-master skills. Use transparency log as external attestation for AMOS enforcement_root_attestation (ERA) and enforcement_trust_contract (ETC). Deploy as MCP server alongside AMOS agents.
+- **AMOS integration**: Wrap every AMOS agent tool call through Aegis gateway. Map AAT-T\* threat taxonomy to AMOS security-safety-master skills. Use transparency log as external attestation for AMOS enforcement_root_attestation (ERA) and enforcement_trust_contract (ETC). Deploy as MCP server alongside AMOS agents.
 
 ### 123. Agent Safehouse — eugene1g/agent-safehouse (~2,035 stars)
+
 - **Key feature**: macOS sandbox for LLM coding agents using `sandbox-exec` with composable deny-first policy profiles. Least-privilege file/integration access. Profiles for major coding agents. Hardening layer, not perfect boundary.
 - **AMOS integration**: Use as the macOS execution substrate for AMOS executor-agent and code-agent-harness. Map AMOS capability grants to safehouse policy profiles. Enforce AMOS M0-M5 mutation classification through sandbox-exec deny rules. Deploy AMOS agents inside safehouse profiles keyed to their capability envelope.
 
 ### 124. OpenSandbox — alibaba/OpenSandbox (~14,596 stars)
+
 - **Key feature**: General-purpose sandbox platform for AI applications. Multi-language SDKs, CLI, MCP server. Docker/Kubernetes runtimes. gVisor/Kata/Firecracker microVM isolation. Credential vault, network policy, ingress gateway. Supports coding agents, GUI agents, evaluation, RL training.
 - **AMOS integration**: Deploy AMOS agents as OpenSandbox workloads. Use credential vault for AMOS agent identity (SPIFFE-style). Map AMOS delegation-witness to OpenSandbox lifecycle management. Use Kubernetes runtime for large-scale AMOS multi-agent orchestration. MCP server integration for AMOS workflow-runner.
 
 ### 125. Agent-Sandbox — agent-sandbox/agent-sandbox (~202 stars)
+
 - **Key feature**: Enterprise-grade sandbox wrapping kubernetes-sigs/agent-sandbox behind RESTful API + MCP server. Multi-tenant isolation for untrusted LLM-generated code, browser use, computer use, website deployment. E2B-compatible API.
 - **AMOS integration**: Use as the REST/MCP front-end for AMOS agent execution. Map AMOS agent-skill-workflow triads to Agent-Sandbox REST endpoints. Deploy AMOS code-agent-harness inside Agent-Sandbox containers. Use MCP server for AMOS workflow-runner remote execution. Multi-tenant isolation maps to AMOS shard-local (L25) law enforcement.
 
 ## Security/Safety Integration Phases
 
 1. **Phase 1 — Local sandboxing**: Wrap AMOS executor-agent in Agent Safehouse on macOS dev machines
-2. **Phase 2 — Tool-call firewall**: Deploy Aegis gateway as MCP server intercepting all AMOS agent tool calls
-3. **Phase 3 — Container isolation**: Migrate AMOS agents to OpenSandbox Docker/Kubernetes runtime with gVisor
-4. **Phase 4 — Multi-tenant execution**: Use Agent-Sandbox REST API for remote AMOS workflow execution
-5. **Phase 5 — Transparency attestation**: Feed Aegis RFC 6962 transparency log into AMOS ERA/ETC attestation chain
+1. **Phase 2 — Tool-call firewall**: Deploy Aegis gateway as MCP server intercepting all AMOS agent tool calls
+1. **Phase 3 — Container isolation**: Migrate AMOS agents to OpenSandbox Docker/Kubernetes runtime with gVisor
+1. **Phase 4 — Multi-tenant execution**: Use Agent-Sandbox REST API for remote AMOS workflow execution
+1. **Phase 5 — Transparency attestation**: Feed Aegis RFC 6962 transparency log into AMOS ERA/ETC attestation chain
 
 ## Agent Security, Evaluation & Tooling Repos (2025-2026, Round 14)
 
@@ -1042,9 +1098,9 @@ Role-based crews: CrewAI (collaborative agent teams)
 ## Round 14 Integration Priority
 
 1. **Security**: Adopt `garak` for red-teaming skills and `guardrails-ai/guardrails` for input/output policy enforcement.
-2. **Evaluation**: Use `SWE-bench` for coding skills and `promptfoo` for prompt-level regression tests.
-3. **Memory**: Integrate `mem0` for lightweight user memory across AMOS agent sessions.
-4. **Observability**: Instrument AMOS with `AgentOps` and `Phoenix` to trace, debug, and evaluate agent runs in production.
+1. **Evaluation**: Use `SWE-bench` for coding skills and `promptfoo` for prompt-level regression tests.
+1. **Memory**: Integrate `mem0` for lightweight user memory across AMOS agent sessions.
+1. **Observability**: Instrument AMOS with `AgentOps` and `Phoenix` to trace, debug, and evaluate agent runs in production.
 
 ## Provenance (Round 14)
 
@@ -1056,101 +1112,119 @@ Role-based crews: CrewAI (collaborative agent teams)
 ## Additional Finds (Round 19 — 2026-09-08)
 
 ### 133. Microsoft Agent Framework (MAF) — microsoft/agent-framework (~12,590 stars)
+
 - **Key feature**: Open, multi-language (Python + .NET) framework for production-grade AI agents and multi-agent workflows. Graph-based orchestration (sequential, concurrent, handoff, group collaboration), checkpointing, streaming, human-in-the-loop, time-travel, durability, restartability, observability, governance. Foundry-hosted agents, Azure OpenAI, OpenAI, GitHub Copilot SDK support.
 - **AMOS integration**: Map 590 JSON agents to MAF Agent definitions (Python). SKILL.md as agent instructions. 592 workflow MD files → MAF Workflows with graph-based patterns (sequential/concurrent/handoff/group). Checkpointing for long-running AMOS runs. Human-in-the-loop gates at M0-M2 mutation boundaries. Time-travel for debugging failed workflows. Foundry hosting for cloud-scale AMOS deployment.
 
 ### 134. Open Multi-Agent (OMA) — JackChen-me/open-multi-agent (~6,836 stars)
+
 - **Key feature**: TypeScript AI agent orchestration framework with dynamic workflows. "Describe the goal, not the graph" — coordinator plans task DAG at runtime, deterministic scheduler executes across team. Runs on any LLM (Claude, ChatGPT, Gemini, DeepSeek, local models). Built-in offline Run Viewer for replay. MCP support. Inspectable, approvable, replayable runs.
 - **AMOS integration**: TypeScript backend alternative to LangGraph. Each AMOS goal → OMA `runTeam()` with coordinator planning DAG from 590 agents. SKILL.md as agent instructions. Workflow MD → `runTasks()` explicit pipelines. Run Viewer for AMOS workflow replay and audit. Local model support for air-gapped AMOS deployments. MCP integration for AMOS tool discovery.
 
 ### 135. Hecate — xueyufish/hecate (new/niche)
+
 - **Key feature**: Enterprise-grade, multi-tenant, model-agnostic, MCP-first Agent platform. Self-developed Pregel execution runtime. MCP and A2A native. 100+ LLM integrations. OpenAI-compatible API. Multi-agent orchestration with persistence, graph-based state, durable checkpoints, human-in-the-loop. Organization → Workspace → RBAC. Docker-isolated sandbox execution. Engine-level guardrails. Visual canvas for drag-and-drop workflow design.
 - **AMOS integration**: Deploy AMOS as Hecate workspaces with RBAC mapping to AMOS authority canon (L7). Pregel runtime for AMOS workflow graph execution. MCP-native tool discovery. A2A protocol for cross-agent orchestration. Docker sandbox isolation maps to AMOS capability-bound governance. Visual canvas for AMOS workflow design. OpenAI-compatible API for drop-in integration.
 
 ### 136. OxyGent — jd-opensource/OxyGent (ACL 2026)
+
 - **Key feature**: Open-source modular multi-agent framework unifying tools, models, and agents into standardized "Oxy" components. LEGO-brick assembly with hot-swapping and cross-scenario reuse. Dynamic planning paradigms where agents decompose tasks, negotiate solutions, adapt in real-time. Elastic architecture supporting any topology (ReAct to complex hybrid). Full auditability of every decision. ACL 2026 paper.
 - **AMOS integration**: Map AMOS skills/agents/workflows to Oxy components for hot-swapping without downtime. Dynamic planning for AMOS workflow adaptation. Elastic topology for AMOS C01-C12 domain agents. Auditability feeds AMOS enforcement_root_attestation (ERA) chain. Cross-scenario reuse of AMOS skills across different agent configurations.
 
 ### 137. OpenAgentBench — generalaimodels/OpenAgentBench (new/niche)
+
 - **Key feature**: Research-grade evaluation & verification platform for LLM agents, RAG pipelines, and tool-using workflows. Evaluates agents as stateful control systems, not transcript generators. Scores: final outcomes, environment-state correctness, tool-selection optimality, privilege safety, memory hygiene, grounding faithfulness, recovery behavior, multi-agent coordination quality, efficiency under failure and adversarial conditions. Chaos engineering and red-teaming for agents.
 - **AMOS integration**: Evaluate AMOS agents on privilege safety (maps to L7 authority canon), memory hygiene (maps to memory systems), recovery behavior (maps to L10 failure recovery), multi-agent coordination (maps to agent systems). Chaos engineering for AMOS runtime stability testing. Provenance-based verification aligns with RSCF epistemic framework.
 
 ### 138. AgentCompass — open-compass/AgentCompass (new/niche)
+
 - **Key feature**: Unified open-source evaluation framework for agents. Decouples Model, Benchmark, Harness, and Environment. 20+ public benchmarks, 10+ agent harnesses (Claude Code, Codex, OpenHands, OpenClaw). Local execution, Docker, remote sandboxes. Concurrent scheduling, incremental persistence, retry-on-failure, resumable evaluations. Trajectory recording with tool calls, usage, latency. Pluggable analyzers for failure detection.
 - **AMOS integration**: Register AMOS agents as harnesses in AgentCompass. Run 20+ benchmarks against AMOS agent fleet. Map AMOS C01-C12 domains to benchmark categories. Resumable evaluations for long-running AMOS workflows. Trajectory analysis to detect AMOS agent failures, loops, and abnormal behavior. Docker/remote sandbox execution for isolated AMOS eval.
 
 ### 139. AgentEval — agentkitai/agenteval (new/niche)
+
 - **Key feature**: Testing and evaluation framework for AI agents. YAML-based test suites, 11 pluggable graders (exact, contains, regex, tool-check, trajectory, LLM-judge, custom, JSON-schema, semantic, latency, cost). Statistical regression detection via Welch's t-test across multiple runs. AgentLens integration for production session import. Cost & latency tracking. SQLite result storage for historical comparison.
 - **AMOS integration**: Define YAML test suites per AMOS skill (590 SKILL.md files). Trajectory grader for AMOS workflow step ordering. JSON-schema grader for AMOS agent output validation. Statistical regression detection for AMOS skill versioning. AgentLens integration for tamper-evident audit evidence (maps to ERA/ETC). Cost/latency tracking for AMOS token-budget governance.
 
 ### 140. MemoryAgentBench — felipetruman/MemoryAgentBench (ICLR 2026)
+
 - **Key feature**: Open-source benchmark for evaluating memory in LLM agents via incremental multi-turn interactions. Four core competencies: Accurate Retrieval (AR), Test-Time Learning (TTL), Long-Range Understanding (LRU), Conflict Resolution (CR). "Inject once, query multiple times" design. EventQA and FactConsolidation datasets. ICLR 2026 accepted.
 - **AMOS integration**: Benchmark AMOS memory systems (3 memory types, context compaction, conflict resolution, immune system). Map AR/TTL/LRU/CR to AMOS memory retrieval, learning, long-context, and conflict governor skills. Evaluate AMOS agent memory across multi-turn interactions. Conflict Resolution competency maps directly to AMOS memory-conflict-governor.
 
 ### 141. EvalAgentLab — Cap-alfaMike/eval-agent-lab (new/niche)
+
 - **Key feature**: Production-grade evaluation platform for LLM outputs, agent execution traces, and tool-augmented workflows. 11 metrics spanning accuracy, semantics, hallucination, tool use, strategy compliance, and reasoning. Formal rubric system with JSON-configurable weights. Evaluates "how agents arrive at the answer" not just final output. HuggingFace dataset integration. 117 passing tests.
 - **AMOS integration**: 11 metrics for AMOS agent evaluation. Hallucination metric for RSCF epistemic validation. Tool-use metric for AMOS capability-bound governance. Strategy compliance for AMOS workflow adherence. Formal rubric system for AMOS promotion gates. HuggingFace dataset for AMOS benchmark publishing.
 
 ## Round 22 — New SOTA Repos (2026-09-08)
 
 ### 142. Microsoft Agent Framework (MAF) — `microsoft/agent-framework` (~13,169 stars)
+
 - **Key feature**: Open, multi-language framework (Python, .NET, Go) for production-grade AI agents and multi-agent workflows. Graph-based orchestration (sequential, concurrent, handoff, group collaboration), checkpointing, streaming, human-in-the-loop, time-travel. Native Agent Skills support following agentskills.io spec.
 - **AMOS integration**: Map AMOS agents to MAF Agent definitions; compile AMOS Markdown workflows into MAF graph nodes/edges. Use MAF's durable execution for AMOS runtime pipeline persistence. MAF's native skills support aligns directly with AMOS SKILL.md format.
 
 ### 143. DeerFlow 2.0 — `bytedance/deer-flow` (~78,953 stars)
+
 - **Key feature**: Open-source super-agent harness with sub-agents, memory, sandboxes, and extensible skills. Built on LangGraph/LangChain. Skills are structured Markdown capability modules. #1 on GitHub Trending (2026-08-28). Filesystem, memory, sandbox-aware execution, sub-agent spawning.
 - **AMOS integration**: Adopt DeerFlow's skill-as-markdown pattern (matches AMOS SKILL.md). Use sub-agent spawning for AMOS delegation lifecycle. Sandbox-aware execution maps to AMOS capability-bound governance. Memory system parallels AMOS 3-memory-type architecture.
 
 ### 144. Dapr Agents — `dapr/dapr-agents` (~743 stars)
+
 - **Key feature**: Production-grade resilient AI agent systems on Dapr runtime. Durable-execution workflow engine with automatic retries. Kubernetes-native. Thousands of agents per core. Vendor-neutral, observable by default. Multi-agent systems secure and observable.
 - **AMOS integration**: Dapr's durable workflow engine for AMOS runtime pipeline. Kubernetes-native deployment for AMOS production. Automatic retries map to AMOS L10 failure recovery. Observability by default for AMOS audit trail. Multi-agent security for AMOS agent-to-agent protocols.
 
 ### 145. Agent Skills Specification — `agentskills.io/agentskills` (specification)
-- **Key feature**: Open format for packaging specialized knowledge, workflows, and code into portable skill directories. Progressive disclosure: metadata (~100 tokens) → instructions (<5000 tokens) → resources (as needed). SKILL.md with YAML frontmatter (name, description, license, compatibility, metadata, allowed-tools). Discovery paths: `.agents/skills/` (cross-client standard).
+
+- **Key feature**: Open format for packaging specialized knowledge, workflows, and code into portable skill directories. Progressive disclosure: metadata (~100 tokens) → instructions (\<5000 tokens) → resources (as needed). SKILL.md with YAML frontmatter (name, description, license, compatibility, metadata, allowed-tools). Discovery paths: `.agents/skills/` (cross-client standard).
 - **AMOS integration**: AMOS SKILL.md files already follow this spec closely. Formalize alignment: ensure `name` matches parent directory, `description` < 1024 chars with trigger keywords, `allowed-tools` field for capability bounds. Adopt `.agents/skills/` as secondary discovery path.
 
 ### 146. MCP Skills Extension (SEP-2640) — `modelcontextprotocol/modelcontextprotocol`
+
 - **Key feature**: Convention for serving Agent Skills over MCP using existing Resources primitive. Skills exposed as `skill://` URI resources. `skill://index.json` enumerates skills and templates. Transport binding only — skill format delegated to agentskills.io spec.
 - **AMOS integration**: Expose AMOS skills via MCP `skill://` URIs. Generate `skill://index.json` from AMOS skill registry. Enables external MCP-compatible clients to discover and load AMOS skills on demand.
 
 ### 147. MCP Gateway Registry (Agent Skills) — `agentic-community/mcp-gateway-registry`
+
 - **Key feature**: Agent Skills architecture with SkillCard entity (path, name, description, URLs, metadata, requirements, target_agents, ToolReference, visibility, owner). Progressive disclosure tiers. Federated skills with inline content. Pydantic models following agentskills.io spec.
 - **AMOS integration**: SkillCard model for AMOS skill registry entries. ToolReference for AMOS allowed-tools linking. Visibility field for AMOS public/private skill governance. Federated skills for cross-vault AMOS skill sharing.
 
 ### 148. SWE-bench-Live — `microsoft/SWE-bench-Live` (NeurIPS 2025)
+
 - **Key feature**: First automatically-updating, multi-language, multi-OS SWE task set for agentic benchmarking. 1,077+ MultiLang tasks (6 languages, 381 repos). Windows split (61 tasks, 6 languages). Docker sandbox per task. RepoLaunch automated build/test.
 - **AMOS integration**: Benchmark AMOS C10 tech-engineering agents on real-world SWE tasks. Multi-language coverage for AMOS cross-domain agents. Docker sandbox isolation maps to AMOS capability-bound governance. Contamination-free evaluation for AMOS agent regression testing.
 
 ### 149. SWE-bench Pro — enterprise benchmark (arxiv 2509.16941)
+
 - **Key feature**: 1,865 problems from 41 actively maintained repos (business apps, B2B services, dev tools). Long-horizon tasks (hours to days). Multi-file patches, substantial code modifications. GPT-5 SOTA at 23.3% Pass@1. Contamination-resistant.
 - **AMOS integration**: Enterprise-grade benchmark for AMOS complex reasoning agents. Long-horizon task evaluation for AMOS workflow runner. Multi-file patch assessment for AMOS formal engines. Failure mode clustering for AMOS audit-repair master.
 
 ### 150. SWE-rebench — continuous decontaminated benchmark (NeurIPS 2025)
+
 - **Key feature**: 21,000+ interactive Python-based SWE tasks for RL training. Automated pipeline for continuous fresh task extraction. Decontaminated leaderboard. Suitable for reinforcement learning at scale.
 - **AMOS integration**: Large-scale RL training data for AMOS agent evolution. Continuous fresh tasks prevent benchmark contamination in AMOS evaluation cycles. Interactive task format matches AMOS runtime pipeline (perceive→execute→observe).
 
 ## Round 22 Integration Priority
 
 1. **Production orchestration**: Microsoft Agent Framework (MAF) — Python/.NET/Go, durable execution, native skills support
-2. **Super-agent harness**: DeerFlow 2.0 — skill-as-markdown, sub-agents, sandbox, memory (78k stars, #1 trending)
-3. **K8s-native runtime**: Dapr Agents — durable workflows, auto-retry, observable multi-agent at scale
-4. **Spec alignment**: Agent Skills Specification (agentskills.io) — formalize AMOS SKILL.md compliance
-5. **MCP skill serving**: SEP-2640 — expose AMOS skills via `skill://` URIs over MCP
-6. **Skill registry**: MCP Gateway Registry — SkillCard model, ToolReference, federated skills
-7. **Enterprise eval**: SWE-bench-Live + SWE-bench Pro — multi-language, long-horizon, contamination-resistant
-8. **RL training data**: SWE-rebench — 21k+ interactive tasks for AMOS agent evolution
+1. **Super-agent harness**: DeerFlow 2.0 — skill-as-markdown, sub-agents, sandbox, memory (78k stars, #1 trending)
+1. **K8s-native runtime**: Dapr Agents — durable workflows, auto-retry, observable multi-agent at scale
+1. **Spec alignment**: Agent Skills Specification (agentskills.io) — formalize AMOS SKILL.md compliance
+1. **MCP skill serving**: SEP-2640 — expose AMOS skills via `skill://` URIs over MCP
+1. **Skill registry**: MCP Gateway Registry — SkillCard model, ToolReference, federated skills
+1. **Enterprise eval**: SWE-bench-Live + SWE-bench Pro — multi-language, long-horizon, contamination-resistant
+1. **RL training data**: SWE-rebench — 21k+ interactive tasks for AMOS agent evolution
 
 ## Round 19 Integration Priority
 
 1. **Production orchestration**: Microsoft Agent Framework (MAF) for Python/.NET production AMOS deployment with durability and governance
-2. **TypeScript alternative**: Open Multi-Agent (OMA) for Node.js-based AMOS with dynamic DAG planning
-3. **Enterprise platform**: Hecate for multi-tenant AMOS with RBAC, Pregel runtime, and visual canvas
-4. **Modular composition**: OxyGent for hot-swappable Oxy components with ACL 2026 backing
-5. **Control-plane eval**: OpenAgentBench for privilege-safety and recovery-behavior verification
-6. **Unified eval**: AgentCompass for 20+ benchmarks across AMOS agent fleet
-7. **Regression testing**: AgentEval for YAML test suites with statistical regression detection
-8. **Memory benchmarking**: MemoryAgentBench for AMOS memory system evaluation (ICLR 2026)
-9. **Trace evaluation**: EvalAgentLab for execution-trace metrics and rubric-based scoring
+1. **TypeScript alternative**: Open Multi-Agent (OMA) for Node.js-based AMOS with dynamic DAG planning
+1. **Enterprise platform**: Hecate for multi-tenant AMOS with RBAC, Pregel runtime, and visual canvas
+1. **Modular composition**: OxyGent for hot-swappable Oxy components with ACL 2026 backing
+1. **Control-plane eval**: OpenAgentBench for privilege-safety and recovery-behavior verification
+1. **Unified eval**: AgentCompass for 20+ benchmarks across AMOS agent fleet
+1. **Regression testing**: AgentEval for YAML test suites with statistical regression detection
+1. **Memory benchmarking**: MemoryAgentBench for AMOS memory system evaluation (ICLR 2026)
+1. **Trace evaluation**: EvalAgentLab for execution-trace metrics and rubric-based scoring
 
 ## Provenance (Round 19)
 
@@ -1164,107 +1238,127 @@ Role-based crews: CrewAI (collaborative agent teams)
 > All repos below are new (created or released 2025-2026) and are NOT in the existing 150+ AMOS SOTA set. Star counts approximate as of search date.
 
 ### 151. skillimage — `redhat-et/skillimage` (~8 stars)
+
 - **Key feature**: Packages AI agent skills as signed, lifecycle-managed OCI images distributed through any standard OCI registry.
 - **AMOS integration**: Publish AMOS skill packs as OCI artifacts so they can be pulled, versioned, and mounted into agent pods just like container images.
 
 ### 152. Pydantic AI — `pydantic/pydantic-ai` (~19.5k stars)
+
 - **Key feature**: Type-safe, model-agnostic Python agent SDK with built-in structured outputs, sub-agents, memory, and durable execution.
 - **AMOS integration**: Use Pydantic AI for type-validated AMOS skill runners that swap models with a single string change.
 
 ### 153. Google ADK — `google/adk-python` (~21.2k stars)
+
 - **Key feature**: Code-first, modular toolkit for building, evaluating, and deploying multi-agent workflows; optimized for Gemini but framework-agnostic.
 - **AMOS integration**: Evaluate ADK's tool-use/orchestration primitives as a runtime backend for AMOS agent pipelines.
 
 ### 154. smolagents — `huggingface/smolagents` (~28.9k stars)
+
 - **Key feature**: Minimal library for agents that think and act in Python code rather than JSON tool-call blobs.
 - **AMOS integration**: Wrap smolagents code-execution agents as AMOS skills for math, coding, and data-science workflows.
 
 ### 155. Agno — `agno-agi/agno` (~41.9k stars)
+
 - **Key feature**: Lightweight, multi-modal agent framework with memory, tools, reasoning, and multi-agent teams.
 - **AMOS integration**: Embed Agno as a fast, framework-agnostic execution engine for individual AMOS skills.
 
 ### 156. AgentScope — `agentscope-ai/agentscope` (~29.7k stars)
+
 - **Key feature**: Production-ready multi-agent framework with ReAct loops, MCP support, and rich building blocks.
 - **AMOS integration**: Port AMOS skills into AgentScope toolkits and leverage its ReAct/multi-agent runtime.
 
 ### 157. Dapr Agents — `dapr/dapr-agents` (~743 stars)
+
 - **Key feature**: Durable, Kubernetes-native multi-agent framework built on the Dapr actor/workflow runtime.
 - **AMOS integration**: Deploy AMOS agent swarms on Dapr to get resilient execution, state, and observability out of the box.
 
 ### 158. Mastra — `mastra-ai/mastra` (~27.3k stars)
+
 - **Key feature**: Graph-based TypeScript workflow engine for AI apps with `.then()`, `.branch()`, and `.parallel()` control flow.
 - **AMOS integration**: Orchestrate AMOS skill chains using Mastra's explicit workflow semantics and tracing.
 
 ### 159. Trigger.dev — `triggerdotdev/trigger.dev` (~16.1k stars)
+
 - **Key feature**: Open-source TypeScript platform for durable, long-running AI workflows with retries, queues, and elastic scaling.
 - **AMOS integration**: Schedule long-running AMOS agent jobs with built-in retries and observability.
 
 ### 160. Inngest — `inngest/inngest` (~5.7k stars)
+
 - **Key feature**: Durable, event-driven step-function engine for serverless and self-hosted workflows.
 - **AMOS integration**: Trigger AMOS skill runs from events and fan out multi-agent workflows.
 
 ### 161. Letta — `letta-ai/letta` (~24.4k stars)
+
 - **Key feature**: Stateful agent framework where agents rewrite and evolve core/archival memory over time.
 - **AMOS integration**: Persist AMOS agent sessions with Letta's self-improving memory blocks.
 
 ### 162. Mem0 — `mem0ai/mem0` (~62.5k stars)
+
 - **Key feature**: Drop-in, model-agnostic memory layer for agents and assistants with user/session/agent scoped recall.
 - **AMOS integration**: Add cross-session user and agent memory to AMOS without pipeline changes.
 
 ### 163. Aegis — `Justin0504/Aegis` (~332 stars)
+
 - **Key feature**: Pre-execution firewall for AI agents: classifies tool calls, enforces runtime policy, and writes tamper-evident audit trails.
 - **AMOS integration**: Gate every AMOS tool call through Aegis with policy checks and cryptographically signed logs.
 
 ### 164. Agent Governance Toolkit — `microsoft/agent-governance-toolkit` (~6.1k stars)
+
 - **Key feature**: OWASP Top 10 for Agentic AI coverage, zero-trust identity, sandboxing, and deterministic policy enforcement.
 - **AMOS integration**: Apply Microsoft's OWASP-mapped governance controls and SRE primitives to AMOS deployments.
 
 ### 165. AgentDoG — `AI45Lab/AgentDoG` (~634 stars)
+
 - **Key feature**: Diagnostic guardrail and scalable safety-alignment framework for modern agentic systems, with the ATBench trajectory family.
 - **AMOS integration**: Use AgentDoG to diagnose and align AMOS agent trajectories against its safety taxonomy.
 
 ### 166. Inspect — `UKGovernmentBEIS/inspect_ai` (~2.6k stars)
+
 - **Key feature**: UK AISI framework for building and running LLM/agent evaluations with solvers, scorers, and 200+ built-in evals.
 - **AMOS integration**: Run AMOS skill and agent benchmarks inside Inspect's reproducible evaluation harness.
 
 ### 167. FastMCP — `PrefectHQ/fastmcp` (~27.4k stars)
+
 - **Key feature**: Fast, Pythonic framework for building MCP servers, clients, and interactive apps.
 - **AMOS integration**: Expose AMOS tools as MCP servers with auto-generated schemas and validation.
 
 ### 168. mcp-use — `mcp-use/mcp-use` (~10.5k stars)
+
 - **Key feature**: Full-stack TypeScript MCP framework for building ChatGPT/Claude apps and MCP servers.
 - **AMOS integration**: Let AMOS agents consume remote mcp-use servers with typed tool-to-UI contracts.
 
 ### 169. mcp-go — `mark3labs/mcp-go` (~9k stars)
+
 - **Key feature**: Go implementation of the Model Context Protocol for servers and clients.
 - **AMOS integration**: Use mcp-go in Go-based AMOS services to provide and consume MCP tools.
 
 ### 170. Agent Identity Protocol — `openagentidentityprotocol/agentidentityprotocol` (~36 stars)
+
 - **Key feature**: Zero-trust identity, authentication, and policy-enforcement layer for MCP and autonomous agents.
 - **AMOS integration**: Issue AIP-backed agent credentials and enforce tool-call authorization across AMOS agents.
 
 ## Round 23 Integration Priority
 
 1. **Memory layer**: Mem0 (62.5k stars) — drop-in cross-session memory for AMOS agents
-2. **Agent framework**: Agno (41.9k stars) — lightweight multi-modal execution engine
-3. **Code agents**: smolagents (28.9k stars) — Python-native code-execution agents
-4. **MCP servers**: FastMCP (27.4k stars) — Pythonic MCP server framework
-5. **Workflow engine**: Mastra (27.3k stars) — graph-based TypeScript workflow orchestration
-6. **Stateful memory**: Letta (24.4k stars) — self-evolving core/archival memory blocks
-7. **Multi-agent**: AgentScope (29.7k stars) — production ReAct + MCP runtime
-8. **Google ADK** (21.2k stars) — code-first multi-agent evaluation toolkit
-9. **Type-safe agents**: Pydantic AI (19.5k stars) — model-agnostic structured-output SDK
-10. **Durable jobs**: Trigger.dev (16.1k stars) — long-running AI workflow scheduling
-11. **MCP TypeScript**: mcp-use (10.5k stars) — typed MCP tool-to-UI contracts
-12. **MCP Go**: mcp-go (9k stars) — Go MCP server/client implementation
-13. **Governance**: Microsoft Agent Governance Toolkit (6.1k stars) — OWASP agentic AI controls
-14. **Event workflows**: Inngest (5.7k stars) — event-driven step-function engine
-15. **Eval harness**: Inspect (2.6k stars) — UK AISI reproducible agent evaluations
-16. **Safety**: Aegis (332 stars) — pre-execution tool-call firewall
-17. **Safety diagnostics**: AgentDoG (634 stars) — trajectory safety alignment + ATBench
-18. **K8s agents**: Dapr Agents (743 stars) — durable K8s-native multi-agent runtime
-19. **Skill OCI**: skillimage (8 stars) — signed OCI skill image packaging
-20. **Agent identity**: Agent Identity Protocol (36 stars) — zero-trust agent auth layer
+1. **Agent framework**: Agno (41.9k stars) — lightweight multi-modal execution engine
+1. **Code agents**: smolagents (28.9k stars) — Python-native code-execution agents
+1. **MCP servers**: FastMCP (27.4k stars) — Pythonic MCP server framework
+1. **Workflow engine**: Mastra (27.3k stars) — graph-based TypeScript workflow orchestration
+1. **Stateful memory**: Letta (24.4k stars) — self-evolving core/archival memory blocks
+1. **Multi-agent**: AgentScope (29.7k stars) — production ReAct + MCP runtime
+1. **Google ADK** (21.2k stars) — code-first multi-agent evaluation toolkit
+1. **Type-safe agents**: Pydantic AI (19.5k stars) — model-agnostic structured-output SDK
+1. **Durable jobs**: Trigger.dev (16.1k stars) — long-running AI workflow scheduling
+1. **MCP TypeScript**: mcp-use (10.5k stars) — typed MCP tool-to-UI contracts
+1. **MCP Go**: mcp-go (9k stars) — Go MCP server/client implementation
+1. **Governance**: Microsoft Agent Governance Toolkit (6.1k stars) — OWASP agentic AI controls
+1. **Event workflows**: Inngest (5.7k stars) — event-driven step-function engine
+1. **Eval harness**: Inspect (2.6k stars) — UK AISI reproducible agent evaluations
+1. **Safety**: Aegis (332 stars) — pre-execution tool-call firewall
+1. **Safety diagnostics**: AgentDoG (634 stars) — trajectory safety alignment + ATBench
+1. **K8s agents**: Dapr Agents (743 stars) — durable K8s-native multi-agent runtime
+1. **Skill OCI**: skillimage (8 stars) — signed OCI skill image packaging
+1. **Agent identity**: Agent Identity Protocol (36 stars) — zero-trust agent auth layer
 
 ## Provenance (Round 23)
 
@@ -1308,7 +1402,7 @@ Three additional SOTA repositories were identified for agent tooling, skill fram
 
 - **Category**: Skill packaging, linting, quality gates
 - **Key feature**: Provides `skill-check`, a linter and quality scorer for agent skill files (SKILL.md). Validates frontmatter, description quality, body size limits, link integrity, and formatting. Outputs JSON or SARIF for CI integration. Supports `--fix` for safe deterministic auto-fixes and `split-body` for oversized skills.
-- **Relevance to AMOS**: Directly maps to the AMOS `skill-check` skill and `skill-check-workflow.md`. Quality weights (Frontmatter 30%, Description 30%, Body 20%, Links 10%, File 10%) were incorporated into the enhanced workflow's validation gates.
+- **Relevance to AMOS**: Directly maps to the AMOS `skill-check` skill and `amos-skill-check-workflow.md`. Quality weights (Frontmatter 30%, Description 30%, Body 20%, Links 10%, File 10%) were incorporated into the enhanced workflow's validation gates.
 - **AMOS integration**: `npx skill-check <path>` — run over `.devin/skills/` corpus for CI quality gate.
 
 ### 2. `anthropics/skills` — Anthropic Skill Authoring Patterns
@@ -1322,7 +1416,7 @@ Three additional SOTA repositories were identified for agent tooling, skill fram
 
 - **Category**: Workflow engine, skill-to-workflow composition, multi-step orchestration
 - **Key feature**: Orchestrates multi-step workflows composed from individual skills. Defines a workflow specification format with steps, validation gates, error handling, and composition rules. Supports conditional branching, parallel steps, and provenance tracking per step.
-- **Relevance to AMOS**: Directly informs the AMOS workflow format (`.devin/workflows/*.md`). The step/gate/error-handling/composition structure maps cleanly to the AMOS workflow template used in `a2a-protocol-workflow.md`, `agent-network-protocol-workflow.md`, `agents-json-workflow.md`, and `skill-check-workflow.md`.
+- **Relevance to AMOS**: Directly informs the AMOS workflow format (`.devin/workflows/*.md`). The step/gate/error-handling/composition structure maps cleanly to the AMOS workflow template used in `amos-a2a-protocol-workflow.md`, `amos-agent-network-protocol-workflow.md`, `amos-agents-json-workflow.md`, and `amos-skill-check-workflow.md`.
 - **AMOS integration**: Use as reference for workflow step ordering, gate enforcement, and composition delegation patterns.
 
 ## Provenance (Round 26)
@@ -1444,11 +1538,11 @@ Two genuinely new SOTA repositories were identified for skill-based agent orches
 ## Round 28 Integration Priority
 
 1. **Immediate wins**: LangGraph v0.3 or CrewAI v1.0 for workflow execution — directly consume workflow MD and SKILL.md
-2. **Interoperability**: A2A v0.3 for external agent communication
-3. **Type safety**: PydanticAI for enforcing agent I/O contracts
-4. **Hierarchical delegation**: OpenAI Agents SDK v1.0 for handoff, AutoGen v0.5 for group-chat
-5. **RAG-native**: LlamaIndex Agents for knowledge-research workflows
-6. **Minimalist**: Smolagents for sandboxed execution, Atomic Agents for composable testing
+1. **Interoperability**: A2A v0.3 for external agent communication
+1. **Type safety**: PydanticAI for enforcing agent I/O contracts
+1. **Hierarchical delegation**: OpenAI Agents SDK v1.0 for handoff, AutoGen v0.5 for group-chat
+1. **RAG-native**: LlamaIndex Agents for knowledge-research workflows
+1. **Minimalist**: Smolagents for sandboxed execution, Atomic Agents for composable testing
 
 ## Round 28 Provenance
 
@@ -1480,7 +1574,7 @@ One genuinely new repository identified in this scan; four prior entries re-veri
 ## Round 29 Integration Priority
 
 1. **Meta-harness experiment**: Wire AMOS agents into `omnigent-ai/omnigent` YAML harness while keeping AMOS governance as the source of truth.
-2. **Re-verify quarterly**: Refresh star counts and deprecation status for the top 20 SOTA tooling repos.
+1. **Re-verify quarterly**: Refresh star counts and deprecation status for the top 20 SOTA tooling repos.
 
 ## Round 29 Provenance
 
@@ -1679,7 +1773,6 @@ Added new open-source AI agent frameworks, skill-linting tooling, and agent eval
 - **Categories covered**: agent frameworks, skill linters, eval/benchmark harnesses, multimodal document agents, computer-use agents, evolutionary agents
 - **Total new repos**: 12 (Microsoft Agent Framework, AutoAgent, Youtu-Agent, ii-agent, EvoAgentX, Agent-S, SkillDoctor, skill-linter, agent-skills-lint, skillscheck, AgentCompass, AgentBench)
 - **Cumulative SOTA catalog**: 85 repos
-
 
 ## Round 50: New agent frameworks, skill linters, and SWE-bench agents (2026-09-14)
 

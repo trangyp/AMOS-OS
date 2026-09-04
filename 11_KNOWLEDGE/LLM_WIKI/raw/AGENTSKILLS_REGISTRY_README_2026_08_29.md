@@ -1,4 +1,7 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 date: 2026-08-29
 epistemic_class: OBSERVATION
 provenance: GitHub README, not independently verified
@@ -10,11 +13,12 @@ rscf:
 source: https://raw.githubusercontent.com/kai98k/agent-skills-registry/main/README.md
 title: AgentSkills Registry README — Raw Capture
 ---
+
 # AgentSkills Registry README — Raw Capture
 
 Source: `https://github.com/kai98k/agent-skills-registry`
 
-# AgentSkills Registry
+## AgentSkills Registry
 
 **English** | [中文](./README.zh-TW.md)
 
@@ -82,25 +86,25 @@ go build -o bin/agentskills .
 ### Verify
 
 ```bash
-# CLI usage
+## CLI usage
 ./cli/bin/agentskills --help
 
-# Search for skills
+## Search for skills
 ./cli/bin/agentskills search test
 ```
 
 ## CLI Commands
 
-| Command | Description |
-|---------|-------------|
-| `agentskills init <name>` | Create a new skill skeleton directory |
-| `agentskills login` | Save API token to local config |
-| `agentskills push <path>` | Pack and upload a skill bundle |
-| `agentskills pull <name>[@version]` | Download and extract a skill bundle |
-| `agentskills search <keyword>` | Search for skills on the registry |
-| `agentskills vendor <name>[@version]` | Vendor a skill locally with checksum lock |
-| `agentskills vendor` | Restore all vendored skills from lock file |
-| `agentskills vendor --remove <name>` | Remove a vendored skill |
+| Command                               | Description                                |
+| ------------------------------------- | ------------------------------------------ |
+| `agentskills init <name>`             | Create a new skill skeleton directory      |
+| `agentskills login`                   | Save API token to local config             |
+| `agentskills push <path>`             | Pack and upload a skill bundle             |
+| `agentskills pull <name>[@version]`   | Download and extract a skill bundle        |
+| `agentskills search <keyword>`        | Search for skills on the registry          |
+| `agentskills vendor <name>[@version]` | Vendor a skill locally with checksum lock  |
+| `agentskills vendor`                  | Restore all vendored skills from lock file |
+| `agentskills vendor --remove <name>`  | Remove a vendored skill                    |
 
 ## Project Structure
 
@@ -124,19 +128,20 @@ go build -o bin/agentskills .
 AgentSkills takes supply chain security seriously. Instead of blindly trusting external skills, you can **vendor** them into your repository with cryptographic verification:
 
 ```bash
-# Vendor a skill — downloads to vendor/skills/ and locks the checksum
+## Vendor a skill — downloads to vendor/skills/ and locks the checksum
 agentskills vendor code-review@1.2.0
 
-# Restore all vendored skills on a new machine (verifies checksums)
+## Restore all vendored skills on a new machine (verifies checksums)
 agentskills vendor
 
-# Remove a vendored skill
+## Remove a vendored skill
 agentskills vendor --remove code-review
 ```
 
 The `agentskills.lock` file records the exact version, SHA-256 checksum, and source server for every vendored skill. Commit this file to your repo to ensure reproducible, tamper-proof builds across your team.
 
 **Security measures:**
+
 - SHA-256 checksum verification on every download
 - Path traversal protection in bundle extraction
 - Per-file size limits (200 MB) to prevent zip bombs
@@ -157,7 +162,7 @@ Yes. The entire workflow — from scaffolding `SKILL.md` to pushing bundles — 
 Yes. The server is a standalone Go binary — deploy it with a single Docker command. Point your CLI to it with `--api-url` and you have a fully private registry, just like self-hosting GitLab. Ideal for enterprise or air-gapped environments.
 
 ```bash
-# Self-hosted example
+## Self-hosted example
 docker run -p 8000:8000 -v my-data:/data agentskills-server
 agentskills search test --api-url http://my-server:8000
 ```
@@ -186,4 +191,3 @@ We welcome contributions from both humans and AI agents. See [CONTRIBUTING.md](.
 ## License
 
 See [LICENSE](./LICENSE).
-

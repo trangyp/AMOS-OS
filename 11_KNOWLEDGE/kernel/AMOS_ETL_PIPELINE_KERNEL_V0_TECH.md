@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: AMOS ETL PIPELINE KERNEL V0 TECH
 tags:
-- canon-group/tech-ai
-- canon/framework
-- rscf/claim
-- rscf/provenance
-- rscf/state/source-claim
-- topic/amos-etl-pipeline-kernel-v0
-- kernel
+  - canon-group/tech-ai
+  - canon/framework
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - topic/amos-etl-pipeline-kernel-v0
+  - kernel
 type: data
 source: 11_KNOWLEDGE/kernel
 rscf:
@@ -99,6 +102,6 @@ rscf:
 **Related:** [[11_KNOWLEDGE/kernel/FINANCE_SENSOR_KERNEL|FINANCE_SENSOR_KERNEL]] · [[11_KNOWLEDGE/kernel/AMOS_BIZFIN_KERNEL_V0|AMOS_BIZFIN_KERNEL_V0]] · [[11_KNOWLEDGE/kernel/AMOS_TECH_COGNITION_KERNEL_V1_TECH4|AMOS_TECH_COGNITION_KERNEL_V1_TECH4]] · [[11_KNOWLEDGE/kernel/COMPLIANCE_KERNEL|COMPLIANCE_KERNEL]]
 ```
 
----
-**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]
+______________________________________________________________________
 
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]

@@ -4,25 +4,22 @@ title: SKILL — Obsidian Plugin Auto Tag
 type: skill
 source: 07_SKILLS/obsidian-plugin-auto-tag
 name: obsidian-plugin-auto-tag
-description: Auto Tag — AMOS knowledge-management utility. Use when automatically
-  generating, normalizing, or reconciling tags and frontmatter metadata in the Obsidian
-  vault. Use when amos-knowledge-research-master routes to this tool capability. Do
-  not use for for generic tasks outside the declared amos domain.
+description: Auto Tag — AMOS knowledge-management utility. Use when automatically generating, normalizing, or reconciling tags and frontmatter metadata in the Obsidian vault. Use when amos-knowledge-research-master routes to this tool capability. Do not use for for generic tasks outside the declared amos domain.
 parent_skill: amos-knowledge-research-master
 domain: knowledge
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
 tags:
-- type/skill
-- type/skill
-- domain/knowledge-research
-- epistemic/source_claim
-- hml/m
-- epistemic/source_claim
-- amos-os
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/knowledge-research
+  - epistemic/source_claim
+  - hml/m
+  - epistemic/source_claim
+  - amos-os
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -32,20 +29,20 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: M
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L16
-- L17
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L16
+  - L17
 license: MIT
 steward: Trang Phan
 ---
@@ -55,6 +52,7 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: knowledge. Parent: amos-knowledge-research-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
 ## When to Use
 
 - When a note's `tags` frontmatter is missing, empty, or inconsistent with its content
@@ -78,12 +76,12 @@ Origin architect: **Trang Phan**. Domain: knowledge. Parent: amos-knowledge-rese
 ## Operations
 
 1. **auto_tag.generate_tags**: Generate relevant tags for a note or selected text using the Auto Tag plugin
-2. **auto_tag.update_frontmatter**: Insert generated tags into the note's YAML frontmatter `tags` list
-3. **auto_tag.normalize_format**: Normalize tag format (kebab-case, snake_case, camelCase, PascalCase)
-4. **auto_tag.detect_language**: Return tags in the detected language of the note
-5. **auto_tag.preview**: Preview suggested tags before committing them to the note
-6. **auto_tag.validate_scope**: Ensure suggested tags are within the note's declared canon/knowledge scope
-7. **auto_tag.fix_formatting**: Co-fixer for common formatting issues that accompany tagging (fence markers, whitespace)
+1. **auto_tag.update_frontmatter**: Insert generated tags into the note's YAML frontmatter `tags` list
+1. **auto_tag.normalize_format**: Normalize tag format (kebab-case, snake_case, camelCase, PascalCase)
+1. **auto_tag.detect_language**: Return tags in the detected language of the note
+1. **auto_tag.preview**: Preview suggested tags before committing them to the note
+1. **auto_tag.validate_scope**: Ensure suggested tags are within the note's declared canon/knowledge scope
+1. **auto_tag.fix_formatting**: Co-fixer for common formatting issues that accompany tagging (fence markers, whitespace)
 
 ## Vault-Sourced Domain Knowledge
 
@@ -94,6 +92,7 @@ Origin architect: **Trang Phan**. Domain: knowledge. Parent: amos-knowledge-rese
 The Auto Tag plugin for Obsidian uses OpenAI to suggest relevant tags for a note. It can operate on the full note or a selected portion, supports multiple tag formats, and can create `tags` frontmatter automatically.
 
 **Key features**:
+
 - Automatic tag generation from note content
 - Frontmatter integration (creates `tags` if missing)
 - Multiple tag formats: kebab-case, snake_case, camelCase, PascalCase
@@ -102,17 +101,19 @@ The Auto Tag plugin for Obsidian uses OpenAI to suggest relevant tags for a note
 - Demo mode (no API key required for testing)
 
 **Cost controls**:
+
 - Demo mode enabled by default
 - OpenAI API key and billing required for full mode
 - Use GPT-3.5 for low cost; set a monthly spending limit
 
 **Integration protocol**:
+
 1. **Receive**: target note path and optional scope hints
-2. **Generate**: query the plugin/OpenAI for tag candidates
-3. **Preview**: present candidates with provenance (source terms, confidence)
-4. **Filter**: remove tags outside the note's declared regime/scope
-5. **Insert**: add to frontmatter `tags` preserving existing order
-6. **Validate**: confirm no duplicate or contradictory tags
+1. **Generate**: query the plugin/OpenAI for tag candidates
+1. **Preview**: present candidates with provenance (source terms, confidence)
+1. **Filter**: remove tags outside the note's declared regime/scope
+1. **Insert**: add to frontmatter `tags` preserving existing order
+1. **Validate**: confirm no duplicate or contradictory tags
 
 ### Epistemic Boundary
 
@@ -142,22 +143,23 @@ This is an operational tool. Generated tags are `SOURCE_DERIVED` or `AMOS_MODEL`
 - **Origin architect**: Trang Phan
 - **External source**: https://github.com/CtrlAltFocus/obsidian-plugin-auto-tag
 
-
 ## Do not use
 
 - For generic tasks outside the declared AMOS domain
 - As a substitute for domain-specific analysis
 - For empirical claims without evidence
 - Outside the AMOS canon law hierarchy
+
 ## References
 
 - `references/vault_domain_knowledge.md` — full plugin documentation and integration notes
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `amos-knowledge-research-master` — parent skill
-- `obsidian-plugin-auto-tag-workflow` — corresponding workflow
+- `amos-obsidian-plugin-auto-tag-workflow` — corresponding workflow
 - `obsidian-plugin-auto-tag-agent` — corresponding agent
 
----
+______________________________________________________________________
+
 **Links:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 ## Related
@@ -167,10 +169,12 @@ This is an operational tool. Generated tags are `SOURCE_DERIVED` or `AMOS_MODEL`
 ## Examples
 
 - **Scenario**: When a canon note is missing `tags` frontmatter
+
   - **Input**: Note path + target tag format (kebab-case)
   - **Output**: Updated note with validated `tags` list and provenance
 
 - **Scenario**: When bulk normalizing tags across the vault
+
   - **Input**: Folder path + target format + scope filter
   - **Output**: Diff of tag changes with confidence ceiling
 
@@ -186,7 +190,7 @@ This is an operational tool. Generated tags are `SOURCE_DERIVED` or `AMOS_MODEL`
 - **Parent**: `amos-knowledge-research-master` — routes to this skill when tag/metadata work is needed
 - **Peers**: Other knowledge/obsidian utility skills
 - **Orchestrator**: `AMOS_HOME` orchestrates routing
-- **Workflow**: `08_WORKFLOWS/obsidian-plugin-auto-tag-workflow.md`
+- **Workflow**: `08_WORKFLOWS/amos-obsidian-plugin-auto-tag-workflow.md`
 - **Agent**: `06_AGENTS/obsidian-plugin-auto-tag-agent.json`
 
 ## Evaluation
@@ -214,7 +218,7 @@ This is an operational tool. Generated tags are `SOURCE_DERIVED` or `AMOS_MODEL`
 - **On API failure**: Preserve state, mark tags as UNKNOWN, and escalate
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -222,12 +226,14 @@ This is an operational tool. Generated tags are `SOURCE_DERIVED` or `AMOS_MODEL`
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: obsidian-plugin-auto-tag
 node_type: skill
 path: 07_SKILLS/obsidian-plugin-auto-tag/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

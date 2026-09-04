@@ -1,16 +1,19 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: 07 Healthcare MOC
 type: moc
 source: 21_DOMAINS/07_HEALTHCARE
 tags:
-- 07-healthcare
-- canon/domain
-- amos-medical-clinical-kernel
-- biological-integrity-health-model
-- healthcare-domains-domain-spec
-- healthcare-domains-interfaces
-- healthcare-domains-provenance
-- ubi-health-application
+  - 07-healthcare
+  - canon/domain
+  - amos-medical-clinical-kernel
+  - biological-integrity-health-model
+  - healthcare-domains-domain-spec
+  - healthcare-domains-interfaces
+  - healthcare-domains-provenance
+  - ubi-health-application
 moc: true
 rscf:
   state: DERIVED
@@ -37,7 +40,8 @@ rscf:
 
 ## Subdirectories
 
-- [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]] — 00_INDEX
+- [[21_DOMAINS/07_HEALTHCARE/00_INDEX/DOMAIN_INDEX_MOC|00_INDEX]] — Subdomain Navigation
 
----
+______________________________________________________________________
+
 **Parent:** [[21_DOMAINS/21_DOMAINS_MOC|21_DOMAINS_MOC]]

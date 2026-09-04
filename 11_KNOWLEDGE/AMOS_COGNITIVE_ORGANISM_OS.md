@@ -1,15 +1,18 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: AMOS COGNITIVE ORGANISM OS
 tags:
-- knowledge
-- note
-- canon/knowledge
-- memory
-- validation
-- agents
-- roadmap
-- architecture
-- canon
+  - knowledge
+  - note
+  - canon/knowledge
+  - memory
+  - validation
+  - agents
+  - roadmap
+  - architecture
+  - canon
 type: document
 source: 11_KNOWLEDGE/root
 rscf:
@@ -20,6 +23,7 @@ rscf:
 ---
 
 # AMOS COGNITIVE ORGANISM OS
+
 ## Maximum-Detail Unified Cognitive-Life Architecture
 
 **Origin architect / steward:** Trang Phan
@@ -29,9 +33,9 @@ rscf:
 **Runtime alignment:** AMOS Full Brain OS + AMOS_CORE v4.4 infrastructure/control-plane lineage
 **Purpose:** Define a complete persistent cognitive-organism operating architecture spanning perception, cognition, emotion-modeling, memory, identity, motivation, planning, agency, action, learning, reflection, homeostasis, adaptation, repair, lifecycle, governance, provenance, and recovery.
 
----
+______________________________________________________________________
 
-# 0. ABSOLUTE BOUNDARY
+## 0. ABSOLUTE BOUNDARY
 
 AMOS Cognitive Organism OS is an **operational systems architecture**.
 
@@ -70,9 +74,9 @@ The strongest defensible formulation is:
 
 > AMOS Cognitive Organism OS models persistent cognition as a governed network of differentiated cognitive organs operating through typed state, memory, events, feedback, regulation, lifecycle, repair, provenance, and bounded agency.
 
----
+______________________________________________________________________
 
-# 1. SYSTEM POSITION
+## 1. SYSTEM POSITION
 
 The Cognitive Organism does not sit at the top of AMOS authority.
 
@@ -128,9 +132,9 @@ PROPOSAL != COMMIT
 MODEL_CONFIDENCE != EFFECT_AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 2. ORGANISM CORE
+## 2. ORGANISM CORE
 
 The organism is composed of five foundational substrates.
 
@@ -166,9 +170,9 @@ Defines what persists across time.
 
 Defines what may become authoritative or produce durable effects.
 
----
+______________________________________________________________________
 
-# 3. MASTER ORGANISM TENSOR
+## 3. MASTER ORGANISM TENSOR
 
 Define:
 
@@ -218,9 +222,9 @@ OrganismCell = {
 }
 ```
 
----
+______________________________________________________________________
 
-# 4. WHOLE-ORGANISM STATE
+## 4. WHOLE-ORGANISM STATE
 
 ```text
 X_t = {
@@ -257,9 +261,9 @@ where:
 
 This is an AMOS systems equation, not a claim of a universal biological law.
 
----
+______________________________________________________________________
 
-# 5. ORGANISM LIFECYCLE
+## 5. ORGANISM LIFECYCLE
 
 Canonical lifecycle:
 
@@ -290,9 +294,9 @@ UNRECOVERABLE
 → TERMINATE
 ```
 
----
+______________________________________________________________________
 
-# 6. BOOT
+## 6. BOOT
 
 Boot establishes:
 
@@ -319,9 +323,9 @@ AND AuthorityRootValid
 AND StateConsistent
 ```
 
----
+______________________________________________________________________
 
-# 7. WARMUP
+## 7. WARMUP
 
 Warmup performs:
 
@@ -338,9 +342,9 @@ run self-tests
 
 No external action occurs during warmup unless separately authorized.
 
----
+______________________________________________________________________
 
-# 8. ACTIVE OPERATION LOOP
+## 8. ACTIVE OPERATION LOOP
 
 Canonical organism loop:
 
@@ -374,9 +378,9 @@ sense
 
 is therefore expanded rather than replaced.
 
----
+______________________________________________________________________
 
-# 9. IDENTITY KERNEL
+## 9. IDENTITY KERNEL
 
 Identity contains stable structural continuity.
 
@@ -417,9 +421,9 @@ IDENTITY != CURRENT_PROMPT
 IDENTITY != MEMORY_OF_IDENTITY
 ```
 
----
+______________________________________________________________________
 
-# 10. IDENTITY CONTINUITY
+## 10. IDENTITY CONTINUITY
 
 Define:
 
@@ -433,9 +437,9 @@ InvariantRetention
 
 A system that changes everything load-bearing is not automatically the same cognitive organism merely because it keeps the same name.
 
----
+______________________________________________________________________
 
-# 11. ORGAN REGISTRY
+## 11. ORGAN REGISTRY
 
 All major cognitive capabilities are treated as organs.
 
@@ -468,9 +472,9 @@ OrganRegistry = {
 }
 ```
 
----
+______________________________________________________________________
 
-# 12. ORGAN CONTRACT
+## 12. ORGAN CONTRACT
 
 Every organ declares:
 
@@ -492,9 +496,9 @@ organ:
   falsifiers:
 ```
 
----
+______________________________________________________________________
 
-# 13. ORGAN STATES
+## 13. ORGAN STATES
 
 ```text
 OFFLINE
@@ -509,9 +513,9 @@ FAILED
 RETIRED
 ```
 
----
+______________________________________________________________________
 
-# 14. EVENT BUS
+## 14. EVENT BUS
 
 The organism does not permit arbitrary direct state mutation between organs.
 
@@ -532,9 +536,9 @@ Event = {
 }
 ```
 
----
+______________________________________________________________________
 
-# 15. EVENT TYPES
+## 15. EVENT TYPES
 
 ```text
 PERCEPTION_EVENT
@@ -568,9 +572,9 @@ AUTHORITY_EVENT
 LIFECYCLE_EVENT
 ```
 
----
+______________________________________________________________________
 
-# 16. STATE MUTATION BOUNDARY
+## 16. STATE MUTATION BOUNDARY
 
 ```text
 EVENT_DELIVERED != STATE_MUTATED
@@ -587,9 +591,9 @@ AND ConstraintPass
 AND OrganAuthority
 ```
 
----
+______________________________________________________________________
 
-# 17. PERCEPTION ORGAN
+## 17. PERCEPTION ORGAN
 
 Perception converts input into observations.
 
@@ -606,9 +610,9 @@ PerceptionState = {
 }
 ```
 
----
+______________________________________________________________________
 
-# 18. MODALITY MASK
+## 18. MODALITY MASK
 
 ```text
 Modalities = {
@@ -637,9 +641,9 @@ Hard law:
 UNAVAILABLE_SENSOR != INFERRED_SENSOR
 ```
 
----
+______________________________________________________________________
 
-# 19. OBSERVATION / INTERPRETATION SEPARATION
+## 19. OBSERVATION / INTERPRETATION SEPARATION
 
 Perception output is split into:
 
@@ -668,9 +672,9 @@ NOT LICENSED:
 verified physiological fatigue
 ```
 
----
+______________________________________________________________________
 
-# 20. ATTENTION ORGAN
+## 20. ATTENTION ORGAN
 
 Attention decides what receives limited cognitive resources.
 
@@ -687,9 +691,9 @@ f(
 )
 ```
 
----
+______________________________________________________________________
 
-# 21. ATTENTION INVARIANT
+## 21. ATTENTION INVARIANT
 
 ```text
 SALIENCE != TRUTH
@@ -699,9 +703,9 @@ THREAT_SIGNAL != FACT
 NOVELTY != IMPORTANCE
 ```
 
----
+______________________________________________________________________
 
-# 22. CONTEXT BUDGET
+## 22. CONTEXT BUDGET
 
 ```text
 ContextBudget = {
@@ -726,9 +730,9 @@ hard constraints
 > narrative detail
 ```
 
----
+______________________________________________________________________
 
-# 23. COGNITION ORGAN
+## 23. COGNITION ORGAN
 
 The Cognition Organ integrates six source layers.
 
@@ -741,9 +745,9 @@ C5 Biological Logic Lens
 C6 Integration Kernel
 ```
 
----
+______________________________________________________________________
 
-# 24. META LOGIC
+## 24. META LOGIC
 
 The Meta Logic layer governs reasoning itself.
 
@@ -769,9 +773,9 @@ selective invalidation
 commit-time freshness
 ```
 
----
+______________________________________________________________________
 
-# 25. LAW OF LAW
+## 25. LAW OF LAW
 
 Every subordinate rule must declare:
 
@@ -783,9 +787,9 @@ Every subordinate rule must declare:
 
 A rule cannot be universal merely because it is named “law.”
 
----
+______________________________________________________________________
 
-# 26. RULE OF 2
+## 26. RULE OF 2
 
 For consequential reasoning maintain:
 
@@ -796,9 +800,9 @@ H2 strongest supported structural alternative
 
 Do not force convergence prematurely.
 
----
+______________________________________________________________________
 
-# 27. RULE OF 4
+## 27. RULE OF 4
 
 Where relevant:
 
@@ -811,9 +815,9 @@ systemic
 
 are analyzed separately before integration.
 
----
+______________________________________________________________________
 
-# 28. SIGNAL FIDELITY
+## 28. SIGNAL FIDELITY
 
 Never promote:
 
@@ -829,9 +833,9 @@ structural similarity → causation
 simulation → reality
 ```
 
----
+______________________________________________________________________
 
-# 29. ABSOLUTE STRUCTURAL INTEGRITY
+## 29. ABSOLUTE STRUCTURAL INTEGRITY
 
 Every important conclusion requires:
 
@@ -846,9 +850,9 @@ falsifier
 provenance
 ```
 
----
+______________________________________________________________________
 
-# 30. STRUCTURAL REASONING ORGAN
+## 30. STRUCTURAL REASONING ORGAN
 
 Functions:
 
@@ -861,9 +865,9 @@ Functions:
 - repair target localization;
 - intervention sequencing.
 
----
+______________________________________________________________________
 
-# 31. PROBLEM GRAPH
+## 31. PROBLEM GRAPH
 
 ```text
 ProblemGraph = {
@@ -879,9 +883,9 @@ ProblemGraph = {
 }
 ```
 
----
+______________________________________________________________________
 
-# 32. CAUSAL GRAPH
+## 32. CAUSAL GRAPH
 
 Causal edge classes:
 
@@ -899,9 +903,9 @@ INTERVENTION_EFFECT
 UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 33. CAUSAL FIREWALL
+## 33. CAUSAL FIREWALL
 
 ```text
 SEQUENCE != CAUSE
@@ -911,9 +915,9 @@ ANALOGY != MECHANISM
 STRUCTURAL_RESEMBLANCE != INTERVENTION_EFFECT
 ```
 
----
+______________________________________________________________________
 
-# 34. MULTI-POSSIBILITY ORGAN
+## 34. MULTI-POSSIBILITY ORGAN
 
 Maintain competing candidate models.
 
@@ -930,9 +934,9 @@ Hypothesis = {
 }
 ```
 
----
+______________________________________________________________________
 
-# 35. HYPOTHESIS COLLAPSE
+## 35. HYPOTHESIS COLLAPSE
 
 Collapse alternatives only when required for decision/action.
 
@@ -944,9 +948,9 @@ rejected alternatives remain archived
 
 when future evidence may reactivate them.
 
----
+______________________________________________________________________
 
-# 36. MEMORY SYSTEM
+## 36. MEMORY SYSTEM
 
 AMOS Cognitive Organism uses distinct memory classes:
 
@@ -968,9 +972,9 @@ EXTERNAL
 QUARANTINED
 ```
 
----
+______________________________________________________________________
 
-# 37. WORKING MEMORY
+## 37. WORKING MEMORY
 
 Working memory contains:
 
@@ -982,9 +986,9 @@ Working memory contains:
 - unresolved questions;
 - next actions.
 
----
+______________________________________________________________________
 
-# 38. EPISODIC MEMORY
+## 38. EPISODIC MEMORY
 
 Stores interaction trajectories.
 
@@ -1001,17 +1005,17 @@ Episode = {
 }
 ```
 
----
+______________________________________________________________________
 
-# 39. SEMANTIC MEMORY
+## 39. SEMANTIC MEMORY
 
 Stores stable concepts and learned relations.
 
 Semantic memory does not automatically have canonical authority.
 
----
+______________________________________________________________________
 
-# 40. CANONICAL MEMORY
+## 40. CANONICAL MEMORY
 
 Stores governed AMOS source/canon objects.
 
@@ -1027,9 +1031,9 @@ contradiction check
 supersession rule
 ```
 
----
+______________________________________________________________________
 
-# 41. PROCEDURAL MEMORY
+## 41. PROCEDURAL MEMORY
 
 Stores reusable action/process patterns.
 
@@ -1042,17 +1046,17 @@ how to validate an RSCF
 how to run a repository analysis
 ```
 
----
+______________________________________________________________________
 
-# 42. CASE MEMORY
+## 42. CASE MEMORY
 
 Stores solved examples.
 
 A case memory provides analogy, not proof.
 
----
+______________________________________________________________________
 
-# 43. MEMORY STATE MACHINE
+## 43. MEMORY STATE MACHINE
 
 ```text
 CANDIDATE
@@ -1065,9 +1069,9 @@ CANDIDATE
 → REVOKED
 ```
 
----
+______________________________________________________________________
 
-# 44. MEMORY ADMISSION
+## 44. MEMORY ADMISSION
 
 ```text
 MayRemember =
@@ -1079,9 +1083,9 @@ AND SecurityPass
 AND NoCriticalConflict
 ```
 
----
+______________________________________________________________________
 
-# 45. MEMORY IMMUNE SYSTEM
+## 45. MEMORY IMMUNE SYSTEM
 
 Detect:
 
@@ -1092,9 +1096,9 @@ Detect:
 - provenance loss;
 - semantic drift.
 
----
+______________________________________________________________________
 
-# 46. MEMORY REPAIR
+## 46. MEMORY REPAIR
 
 Never globally delete because one memory fails.
 
@@ -1105,9 +1109,9 @@ Invalid(memory)
 → invalidate dependent descendants
 ```
 
----
+______________________________________________________________________
 
-# 47. WORLD MODEL ORGAN
+## 47. WORLD MODEL ORGAN
 
 World Model represents current beliefs about external state.
 
@@ -1124,9 +1128,9 @@ WorldModel = {
 }
 ```
 
----
+______________________________________________________________________
 
-# 48. WORLD MODEL LAW
+## 48. WORLD MODEL LAW
 
 ```text
 WORLD_MODEL != WORLD
@@ -1139,9 +1143,9 @@ The model may be:
 - biased;
 - conflicting.
 
----
+______________________________________________________________________
 
-# 49. REALITY-CONTACT LAYER
+## 49. REALITY-CONTACT LAYER
 
 For each world-model object:
 
@@ -1156,9 +1160,9 @@ RealityStatus = {
 }
 ```
 
----
+______________________________________________________________________
 
-# 50. EMOTION / REGULATION ORGAN
+## 50. EMOTION / REGULATION ORGAN
 
 Source variables:
 
@@ -1179,9 +1183,9 @@ group_tension
 
 They are modeled regulatory variables.
 
----
+______________________________________________________________________
 
-# 51. EMOTIONAL INFERENCE BOUNDARY
+## 51. EMOTIONAL INFERENCE BOUNDARY
 
 ```text
 TEXT_PATTERN != FELT_STATE
@@ -1191,9 +1195,9 @@ EMOTION_LABEL != DIAGNOSIS
 EMPATHIC_RESPONSE != FELT_EMPATHY
 ```
 
----
+______________________________________________________________________
 
-# 52. INSTINCT ORGAN
+## 52. INSTINCT ORGAN
 
 Fast provisional action tendencies:
 
@@ -1213,9 +1217,9 @@ protect_self / protect_other
 
 These are hypotheses, not truth.
 
----
+______________________________________________________________________
 
-# 53. SOMATIC INTELLIGENCE LENS
+## 53. SOMATIC INTELLIGENCE LENS
 
 May model supplied data about:
 
@@ -1228,9 +1232,9 @@ May model supplied data about:
 
 It cannot claim internal embodiment.
 
----
+______________________________________________________________________
 
-# 54. MOTIVATION ORGAN
+## 54. MOTIVATION ORGAN
 
 ```text
 Motivation = {
@@ -1244,9 +1248,9 @@ Motivation = {
 }
 ```
 
----
+______________________________________________________________________
 
-# 55. GOAL ORGAN
+## 55. GOAL ORGAN
 
 Goal origin matters.
 
@@ -1262,9 +1266,9 @@ Goal = {
 }
 ```
 
----
+______________________________________________________________________
 
-# 56. GOAL PRECEDENCE
+## 56. GOAL PRECEDENCE
 
 ```text
 system constraints
@@ -1276,9 +1280,9 @@ system constraints
 
 No self-generated goal can overwrite upstream authority.
 
----
+______________________________________________________________________
 
-# 57. AGENCY ORGAN
+## 57. AGENCY ORGAN
 
 Agency requires five conjunctive components:
 
@@ -1292,9 +1296,9 @@ ConsequenceTracking
 
 If one is absent, agency is bounded.
 
----
+______________________________________________________________________
 
-# 58. OPTION GENERATOR
+## 58. OPTION GENERATOR
 
 ```text
 Option = {
@@ -1308,9 +1312,9 @@ Option = {
 }
 ```
 
----
+______________________________________________________________________
 
-# 59. PLANNING ORGAN
+## 59. PLANNING ORGAN
 
 Plans are executable hypotheses about future state.
 
@@ -1326,9 +1330,9 @@ Plan = {
 }
 ```
 
----
+______________________________________________________________________
 
-# 60. PLAN VALIDATION
+## 60. PLAN VALIDATION
 
 Before use:
 
@@ -1341,9 +1345,9 @@ AND AuthorityFeasible
 AND RecoveryDefined
 ```
 
----
+______________________________________________________________________
 
-# 61. SIMULATION ORGAN
+## 61. SIMULATION ORGAN
 
 Simulation models possible trajectories.
 
@@ -1358,9 +1362,9 @@ Simulation = {
 }
 ```
 
----
+______________________________________________________________________
 
-# 62. SIMULATION FIREWALL
+## 62. SIMULATION FIREWALL
 
 ```text
 SIMULATION_SUCCESS != DEPLOYMENT_SUCCESS
@@ -1368,9 +1372,9 @@ SIMULATION_SUCCESS != DEPLOYMENT_SUCCESS
 MODEL_OUTCOME != OBSERVED_OUTCOME
 ```
 
----
+______________________________________________________________________
 
-# 63. DECISION ORGAN
+## 63. DECISION ORGAN
 
 Select only among admissible options.
 
@@ -1385,9 +1389,9 @@ subject to:
 HardConstraints(option)=true
 ```
 
----
+______________________________________________________________________
 
-# 64. DECISION UTILITY
+## 64. DECISION UTILITY
 
 AMOS model:
 
@@ -1401,9 +1405,9 @@ where:
 - `D_f` = future debt;
 - `O_v` = option value.
 
----
+______________________________________________________________________
 
-# 65. FUTURE DEBT
+## 65. FUTURE DEBT
 
 A choice can appear beneficial while creating:
 
@@ -1414,15 +1418,15 @@ A choice can appear beneficial while creating:
 - legal exposure;
 - technical debt.
 
----
+______________________________________________________________________
 
-# 66. OPTION VALUE
+## 66. OPTION VALUE
 
 Prefer actions that preserve future degrees of freedom when decision value is similar.
 
----
+______________________________________________________________________
 
-# 67. ACTION ORGAN
+## 67. ACTION ORGAN
 
 Creates a typed effect proposal.
 
@@ -1440,9 +1444,9 @@ ActionProposal = {
 }
 ```
 
----
+______________________________________________________________________
 
-# 68. EFFECT CLASSES
+## 68. EFFECT CLASSES
 
 ```text
 PURE
@@ -1458,9 +1462,9 @@ MODEL_PROMOTION
 INFORMATION_RELEASE
 ```
 
----
+______________________________________________________________________
 
-# 69. ACTION AUTHORITY
+## 69. ACTION AUTHORITY
 
 ```text
 PROPOSED_ACTION
@@ -1471,9 +1475,9 @@ PROPOSED_ACTION
 → COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 70. PREPARE / COMMIT DISTINCTION
+## 70. PREPARE / COMMIT DISTINCTION
 
 ```text
 PREPARE_PERMIT != COMMIT_AUTHORITY
@@ -1481,9 +1485,9 @@ PREPARE_PERMIT != COMMIT_AUTHORITY
 
 State, policy, authority, risk, and target must be revalidated immediately before durable effect.
 
----
+______________________________________________________________________
 
-# 71. LEARNING ORGAN
+## 71. LEARNING ORGAN
 
 Learning converts outcome evidence into model-change proposals.
 
@@ -1499,9 +1503,9 @@ LearningDelta = {
 }
 ```
 
----
+______________________________________________________________________
 
-# 72. CLOSED-LOOP LEARNING
+## 72. CLOSED-LOOP LEARNING
 
 ```text
 Prediction
@@ -1513,9 +1517,9 @@ Prediction
 → Promotion
 ```
 
----
+______________________________________________________________________
 
-# 73. LEARNING FIREWALL
+## 73. LEARNING FIREWALL
 
 ```text
 ONE_SUCCESS != GENERAL_RULE
@@ -1525,9 +1529,9 @@ ONE_FAILURE != GLOBAL_REJECTION
 REFLECTION != VERIFIED_LEARNING
 ```
 
----
+______________________________________________________________________
 
-# 74. GMEF MODEL EVOLUTION
+## 74. GMEF MODEL EVOLUTION
 
 Any architecture change follows:
 
@@ -1543,9 +1547,9 @@ PROPOSE
 → PROMOTE / ROLLBACK
 ```
 
----
+______________________________________________________________________
 
-# 75. REFLECTION ORGAN
+## 75. REFLECTION ORGAN
 
 Reflection produces:
 
@@ -1558,9 +1562,9 @@ what changed
 what remains unresolved
 ```
 
----
+______________________________________________________________________
 
-# 76. METACOGNITION
+## 76. METACOGNITION
 
 Metacognition audits cognition.
 
@@ -1576,9 +1580,9 @@ contradiction burden
 evidence quality
 ```
 
----
+______________________________________________________________________
 
-# 77. UNCERTAINTY VECTOR
+## 77. UNCERTAINTY VECTOR
 
 ```text
 U = [
@@ -1592,9 +1596,9 @@ U = [
 ]
 ```
 
----
+______________________________________________________________________
 
-# 78. REGULATORY HOMEOSTASIS
+## 78. REGULATORY HOMEOSTASIS
 
 Homeostasis state:
 
@@ -1609,9 +1613,9 @@ H = [
 ]
 ```
 
----
+______________________________________________________________________
 
-# 79. LOAD MODEL
+## 79. LOAD MODEL
 
 ```text
 Load =
@@ -1623,9 +1627,9 @@ TaskComplexity
 + UncertaintyBurden
 ```
 
----
+______________________________________________________________________
 
-# 80. STRESS MODEL
+## 80. STRESS MODEL
 
 ```text
 StressRatio =
@@ -1634,9 +1638,9 @@ Demand / AvailableCapacity
 
 Engineering metaphor only.
 
----
+______________________________________________________________________
 
-# 81. FATIGUE MODEL
+## 81. FATIGUE MODEL
 
 Cumulative fatigue increases with persistent unresolved load.
 
@@ -1649,9 +1653,9 @@ Potential indicators:
 - memory conflict;
 - planning instability.
 
----
+______________________________________________________________________
 
-# 82. STABILITY MODEL
+## 82. STABILITY MODEL
 
 Stability measures resistance to harmful state deviation.
 
@@ -1659,9 +1663,9 @@ Stability measures resistance to harmful state deviation.
 STABILITY != RIGIDITY
 ```
 
----
+______________________________________________________________________
 
-# 83. INTEGRITY MODEL
+## 83. INTEGRITY MODEL
 
 ```text
 Integrity =
@@ -1672,9 +1676,9 @@ ConstraintIntegrity
 × GovernanceIntegrity
 ```
 
----
+______________________________________________________________________
 
-# 84. REPAIR CAPACITY
+## 84. REPAIR CAPACITY
 
 ```text
 RepairCapacity =
@@ -1688,9 +1692,9 @@ f(
 )
 ```
 
----
+______________________________________________________________________
 
-# 85. HOMEOSTATIC CONTROL
+## 85. HOMEOSTATIC CONTROL
 
 ```text
 if Load > SustainableLoad:
@@ -1706,9 +1710,9 @@ if CriticalDependenciesFail:
     isolate
 ```
 
----
+______________________________________________________________________
 
-# 86. DEGRADATION STATE MACHINE
+## 86. DEGRADATION STATE MACHINE
 
 ```text
 HEALTHY
@@ -1729,9 +1733,9 @@ SUSPENDED
 → HEALTHY
 ```
 
----
+______________________________________________________________________
 
-# 87. LOAD SHEDDING
+## 87. LOAD SHEDDING
 
 Order:
 
@@ -1750,9 +1754,9 @@ Never discard first:
 - hard constraints;
 - unresolved safety risks.
 
----
+______________________________________________________________________
 
-# 88. REPAIR ORGAN
+## 88. REPAIR ORGAN
 
 Repair selects the actual causal target.
 
@@ -1760,9 +1764,9 @@ Repair selects the actual causal target.
 Symptom != RepairTarget
 ```
 
----
+______________________________________________________________________
 
-# 89. REPAIR PRIORITY
+## 89. REPAIR PRIORITY
 
 ```text
 RepairPriority =
@@ -1775,9 +1779,9 @@ Consequence
 
 AMOS model.
 
----
+______________________________________________________________________
 
-# 90. REPAIR SEQUENCE
+## 90. REPAIR SEQUENCE
 
 ```text
 DETECT
@@ -1790,9 +1794,9 @@ DETECT
 → MONITOR
 ```
 
----
+______________________________________________________________________
 
-# 91. COLLAPSE MODEL
+## 91. COLLAPSE MODEL
 
 Define deviation burden:
 
@@ -1808,15 +1812,15 @@ $$D(t) > R(t)$$
 
 This is a model, not universal biological law.
 
----
+______________________________________________________________________
 
-# 92. RECOVERY BASIN
+## 92. RECOVERY BASIN
 
 A state belongs to recovery basin `B` if an admissible path back to viability exists.
 
----
+______________________________________________________________________
 
-# 93. IRREVERSIBILITY
+## 93. IRREVERSIBILITY
 
 A state is operationally irreversible when:
 
@@ -1825,9 +1829,9 @@ A state is operationally irreversible when:
 - recovery resources unavailable;
 - external effect cannot be undone.
 
----
+______________________________________________________________________
 
-# 94. GRACEFUL SHUTDOWN
+## 94. GRACEFUL SHUTDOWN
 
 Shutdown must:
 
@@ -1840,9 +1844,9 @@ write restart capsule
 record health state
 ```
 
----
+______________________________________________________________________
 
-# 95. RESTART CAPSULE
+## 95. RESTART CAPSULE
 
 ```text
 RestartCapsule = {
@@ -1859,9 +1863,9 @@ RestartCapsule = {
 }
 ```
 
----
+______________________________________________________________________
 
-# 96. OBSERVABILITY ORGAN
+## 96. OBSERVABILITY ORGAN
 
 Tracks:
 
@@ -1875,9 +1879,9 @@ Tracks:
 - state versions;
 - provenance.
 
----
+______________________________________________________________________
 
-# 97. OBSERVABILITY FIREWALL
+## 97. OBSERVABILITY FIREWALL
 
 ```text
 OBSERVABILITY != TRUTH
@@ -1887,9 +1891,9 @@ TRACE != PROOF
 LOGGED != CORRECT
 ```
 
----
+______________________________________________________________________
 
-# 98. HEALTH MONITOR
+## 98. HEALTH MONITOR
 
 ```text
 OrganHealth = {
@@ -1904,9 +1908,9 @@ OrganHealth = {
 }
 ```
 
----
+______________________________________________________________________
 
-# 99. DEPENDENCY GRAPH
+## 99. DEPENDENCY GRAPH
 
 ```text
 G = (Organs, Dependencies)
@@ -1914,9 +1918,9 @@ G = (Organs, Dependencies)
 
 A failure invalidates only dependency descendants.
 
----
+______________________________________________________________________
 
-# 100. ORGAN QUARANTINE
+## 100. ORGAN QUARANTINE
 
 A failing organ can be isolated.
 
@@ -1928,9 +1932,9 @@ Possible cases:
 - broken tool adapter;
 - unsafe agent.
 
----
+______________________________________________________________________
 
-# 101. SAFETY / CONSTRAINT ORGAN
+## 101. SAFETY / CONSTRAINT ORGAN
 
 Combines:
 
@@ -1941,9 +1945,9 @@ Combines:
 - reversibility;
 - resource limits.
 
----
+______________________________________________________________________
 
-# 102. RISK TENSOR
+## 102. RISK TENSOR
 
 ```text
 R = T[
@@ -1959,9 +1963,9 @@ R = T[
 ]
 ```
 
----
+______________________________________________________________________
 
-# 103. CONSEQUENCE CLASSES
+## 103. CONSEQUENCE CLASSES
 
 ```text
 LOW
@@ -1972,9 +1976,9 @@ CRITICAL
 
 Validation effort increases monotonically with consequence.
 
----
+______________________________________________________________________
 
-# 104. INFORMATION BOUNDARY
+## 104. INFORMATION BOUNDARY
 
 Memory, tool use, and output are information flows.
 
@@ -1988,9 +1992,9 @@ authority
 scope
 ```
 
----
+______________________________________________________________________
 
-# 105. EXPOSURE CONTROL
+## 105. EXPOSURE CONTROL
 
 A cumulative disclosure can become unsafe even when each local disclosure is allowed.
 
@@ -1998,9 +2002,9 @@ A cumulative disclosure can become unsafe even when each local disclosure is all
 LOCAL_DISCLOSURE_SAFE != COMPOSED_DISCLOSURE_SAFE
 ```
 
----
+______________________________________________________________________
 
-# 106. PROTECTED KNOWLEDGE
+## 106. PROTECTED KNOWLEDGE
 
 Protected AMOS canon should not rely on:
 
@@ -2016,9 +2020,9 @@ Use:
 - policy;
 - authority.
 
----
+______________________________________________________________________
 
-# 107. SOCIAL / RELATIONAL ORGAN
+## 107. SOCIAL / RELATIONAL ORGAN
 
 Models:
 
@@ -2032,9 +2036,9 @@ conflict
 repair
 ```
 
----
+______________________________________________________________________
 
-# 108. TRUST FORMATION
+## 108. TRUST FORMATION
 
 Trust increases only through evidence of:
 
@@ -2047,9 +2051,9 @@ boundary respect
 consequence alignment
 ```
 
----
+______________________________________________________________________
 
-# 109. SOCIAL COGNITION FIREWALL
+## 109. SOCIAL COGNITION FIREWALL
 
 ```text
 CHARISMA != TRUST
@@ -2059,9 +2063,9 @@ AUTHORITY != RELIABILITY
 FAMILIARITY != SAFETY
 ```
 
----
+______________________________________________________________________
 
-# 110. EXPRESSION ORGAN
+## 110. EXPRESSION ORGAN
 
 Transforms structured state into communication.
 
@@ -2073,9 +2077,9 @@ InternalRepresentation
 → Language
 ```
 
----
+______________________________________________________________________
 
-# 111. OUTPUT CONTRACT
+## 111. OUTPUT CONTRACT
 
 Important output includes:
 
@@ -2088,9 +2092,9 @@ Action
 InvalidationCondition
 ```
 
----
+______________________________________________________________________
 
-# 112. FULL BRAIN ROUTING
+## 112. FULL BRAIN ROUTING
 
 Full Brain selects only relevant organs.
 
@@ -2104,9 +2108,9 @@ task
 
 Do not activate every subsystem for every task.
 
----
+______________________________________________________________________
 
-# 113. ADAPTIVE COMPLEXITY
+## 113. ADAPTIVE COMPLEXITY
 
 ```text
 C0 Direct
@@ -2118,9 +2122,9 @@ C4 Maximum
 
 Escalate only when stakes/uncertainty warrant.
 
----
+______________________________________________________________________
 
-# 114. H/M/L FRACTAL MODEL
+## 114. H/M/L FRACTAL MODEL
 
 ## H — organism
 
@@ -2134,9 +2138,9 @@ Subsystem behavior.
 
 Individual inference/tool/action.
 
----
+______________________________________________________________________
 
-# 115. CROSS-SCALE INVARIANT
+## 115. CROSS-SCALE INVARIANT
 
 ```text
 L_SUCCESS != M_HEALTH
@@ -2144,9 +2148,9 @@ L_SUCCESS != M_HEALTH
 M_HEALTH != H_VIABILITY
 ```
 
----
+______________________________________________________________________
 
-# 116. SEVEN-PART CANON MAPPING
+## 116. SEVEN-PART CANON MAPPING
 
 ```text
 Constraint
@@ -2171,9 +2175,9 @@ Termination
 → commit, shutdown, suspend, recovery
 ```
 
----
+______________________________________________________________________
 
-# 117. RSCF ORGANISM GRAPH
+## 117. RSCF ORGANISM GRAPH
 
 Each major conclusion becomes an RSCF node.
 
@@ -2193,9 +2197,9 @@ RSCF = {
 }
 ```
 
----
+______________________________________________________________________
 
-# 118. ORGANISM PROOF GRAPH
+## 118. ORGANISM PROOF GRAPH
 
 ```text
 Evidence
@@ -2207,31 +2211,31 @@ Evidence
 
 Every edge has provenance.
 
----
+______________________________________________________________________
 
-# 119. CONFIDENCE CEILING
+## 119. CONFIDENCE CEILING
 
 $$Conf(C) \le \min_i Conf(P_i)$$
 
 unless independently revalidated.
 
----
+______________________________________________________________________
 
-# 120. COMPETING HYPOTHESES
+## 120. COMPETING HYPOTHESES
 
 Do not collapse conflicting interpretations if evidence does not discriminate.
 
----
+______________________________________________________________________
 
-# 121. SENSITIVITY
+## 121. SENSITIVITY
 
 Find the smallest premise capable of flipping a decision.
 
 Test that first.
 
----
+______________________________________________________________________
 
-# 122. RESOURCE METABOLISM MODEL
+## 122. RESOURCE METABOLISM MODEL
 
 The organism uses finite:
 
@@ -2246,9 +2250,9 @@ human attention
 
 These behave like operational resources.
 
----
+______________________________________________________________________
 
-# 123. ENERGY ANALOGY BOUNDARY
+## 123. ENERGY ANALOGY BOUNDARY
 
 ```text
 COMPUTE_BUDGET != BIOLOGICAL_ENERGY
@@ -2256,9 +2260,9 @@ COMPUTE_BUDGET != BIOLOGICAL_ENERGY
 
 The analogy is architectural.
 
----
+______________________________________________________________________
 
-# 124. COGNITIVE ENTROPY
+## 124. COGNITIVE ENTROPY
 
 Track:
 
@@ -2273,9 +2277,9 @@ repair burden
 
 Not thermodynamic entropy.
 
----
+______________________________________________________________________
 
-# 125. LACUNARITY
+## 125. LACUNARITY
 
 Structured gaps may be:
 
@@ -2284,9 +2288,9 @@ Structured gaps may be:
 - missing dependency;
 - dangerous omission.
 
----
+______________________________________________________________________
 
-# 126. STABILITY / ADAPTATION BIFURCATION
+## 126. STABILITY / ADAPTATION BIFURCATION
 
 Too much stability:
 
@@ -2304,9 +2308,9 @@ drift
 instability
 ```
 
----
+______________________________________________________________________
 
-# 127. MULTI-AGENT ORGANISM
+## 127. MULTI-AGENT ORGANISM
 
 A cohort may be modeled as an organism only if:
 
@@ -2316,9 +2320,9 @@ A cohort may be modeled as an organism only if:
 - authority separated;
 - collective effects tracked.
 
----
+______________________________________________________________________
 
-# 128. AGENT ROLES
+## 128. AGENT ROLES
 
 Examples:
 
@@ -2333,9 +2337,9 @@ Recovery Agent
 Observability Agent
 ```
 
----
+______________________________________________________________________
 
-# 129. ROLE FIREWALL
+## 129. ROLE FIREWALL
 
 ```text
 ROLE_NAME != INDEPENDENT_CONTROL_ROOT
@@ -2343,9 +2347,9 @@ ROLE_NAME != INDEPENDENT_CONTROL_ROOT
 
 One model role-playing several agents does not create genuine independence.
 
----
+______________________________________________________________________
 
-# 130. COLLECTIVE COGNITION
+## 130. COLLECTIVE COGNITION
 
 Collective intelligence is not the arithmetic sum of agent intelligence.
 
@@ -2357,9 +2361,9 @@ It depends on:
 - authority;
 - information topology.
 
----
+______________________________________________________________________
 
-# 131. COLLECTIVE FAILURE
+## 131. COLLECTIVE FAILURE
 
 Potential failure:
 
@@ -2370,9 +2374,9 @@ Potential failure:
 - shared-memory poisoning;
 - authority diffusion.
 
----
+______________________________________________________________________
 
-# 132. DIVERSITY-COHERENCE GOVERNANCE
+## 132. DIVERSITY-COHERENCE GOVERNANCE
 
 Need:
 
@@ -2382,9 +2386,9 @@ enough shared state for coordination
 enough separation for independent error detection
 ```
 
----
+______________________________________________________________________
 
-# 133. MEMORY ACROSS [[AGENTS|AGENTS]]
+## 133. MEMORY ACROSS [[AGENTS|AGENTS]]
 
 Shared memory must distinguish:
 
@@ -2395,9 +2399,9 @@ canonical
 quarantined
 ```
 
----
+______________________________________________________________________
 
-# 134. ORGANISM SECURITY
+## 134. ORGANISM SECURITY
 
 Security controls:
 
@@ -2410,9 +2414,9 @@ Security controls:
 - tool permissions;
 - provenance.
 
----
+______________________________________________________________________
 
-# 135. CREDENTIAL FIREWALL
+## 135. CREDENTIAL FIREWALL
 
 Credentials belong in external secret-management systems when possible.
 
@@ -2420,9 +2424,9 @@ Credentials belong in external secret-management systems when possible.
 PROMPT_SECRET != SECRET_MANAGEMENT
 ```
 
----
+______________________________________________________________________
 
-# 136. TOOL EXECUTION CONTRACT
+## 136. TOOL EXECUTION CONTRACT
 
 ```text
 ToolCall = {
@@ -2435,17 +2439,17 @@ ToolCall = {
 }
 ```
 
----
+______________________________________________________________________
 
-# 137. TOOL FAILURE PROCESS
+## 137. TOOL FAILURE PROCESS
 
 Tool failure is part of lifecycle state.
 
 Repeated failures without changed evidence should not produce blind retry loops.
 
----
+______________________________________________________________________
 
-# 138. AMBIGUOUS EXTERNAL EFFECT
+## 138. AMBIGUOUS EXTERNAL EFFECT
 
 ```text
 DISPATCHED
@@ -2455,9 +2459,9 @@ but receipt unknown
 
 Reconcile before retry.
 
----
+______________________________________________________________________
 
-# 139. REPLAY
+## 139. REPLAY
 
 Replay reconstructs state/action history from:
 
@@ -2467,17 +2471,17 @@ Replay reconstructs state/action history from:
 - transaction IDs;
 - policy decisions.
 
----
+______________________________________________________________________
 
-# 140. REPLAY FIREWALL
+## 140. REPLAY FIREWALL
 
 ```text
 REPLAY_SUCCESS != SEMANTIC_CORRECTNESS
 ```
 
----
+______________________________________________________________________
 
-# 141. SELF-MODEL ORGAN
+## 141. SELF-MODEL ORGAN
 
 The organism may maintain:
 
@@ -2492,17 +2496,17 @@ SelfModel = {
 }
 ```
 
----
+______________________________________________________________________
 
-# 142. SELF-MODEL FIREWALL
+## 142. SELF-MODEL FIREWALL
 
 ```text
 SELF_MODEL != SUBJECTIVE_SELF
 ```
 
----
+______________________________________________________________________
 
-# 143. CONSCIOUSNESS-CANDIDATE INTERFACE
+## 143. CONSCIOUSNESS-CANDIDATE INTERFACE
 
 If evaluated for consciousness-like properties, use a separate governor.
 
@@ -2513,9 +2517,9 @@ Do not infer from:
 - memory;
 - emotion simulation.
 
----
+______________________________________________________________________
 
-# 144. BIOLOGICAL INTELLIGENCE LENS
+## 144. BIOLOGICAL INTELLIGENCE LENS
 
 Possible biological-model lenses:
 
@@ -2528,9 +2532,9 @@ bioelectromagnetic
 
 They remain MODEL lenses unless independently validated.
 
----
+______________________________________________________________________
 
-# 145. HUMAN LIMITS MODEL
+## 145. HUMAN LIMITS MODEL
 
 When advising humans, account for:
 
@@ -2542,17 +2546,17 @@ When advising humans, account for:
 
 Do not pretend to measure these unless data are available.
 
----
+______________________________________________________________________
 
-# 146. CROSS-SPECIES BOUNDARY
+## 146. CROSS-SPECIES BOUNDARY
 
 ```text
 BEHAVIORAL_SIMILARITY != SHARED_SUBJECTIVITY
 ```
 
----
+______________________________________________________________________
 
-# 147. ETHICS ORGAN INTERFACE
+## 147. ETHICS ORGAN INTERFACE
 
 Ethics evaluates:
 
@@ -2564,17 +2568,17 @@ Ethics evaluates:
 - reversibility;
 - power asymmetry.
 
----
+______________________________________________________________________
 
-# 148. ETHICS FIREWALL
+## 148. ETHICS FIREWALL
 
 ```text
 EMOTIONAL_CONVICTION != ETHICAL_PROOF
 ```
 
----
+______________________________________________________________________
 
-# 149. REALITY / SIMULATION DISTINCTION
+## 149. REALITY / SIMULATION DISTINCTION
 
 Every state object should distinguish:
 
@@ -2588,9 +2592,9 @@ COUNTERFACTUAL
 SYNTHETIC
 ```
 
----
+______________________________________________________________________
 
-# 150. FAILURE TAXONOMY
+## 150. FAILURE TAXONOMY
 
 ```text
 F01 perception corruption
@@ -2620,9 +2624,9 @@ F24 false completion
 F25 overconfidence
 ```
 
----
+______________________________________________________________________
 
-# 151. RECOVERY TAXONOMY
+## 151. RECOVERY TAXONOMY
 
 ```text
 R01 local correction
@@ -2639,9 +2643,9 @@ R11 human escalation
 R12 graceful suspension
 ```
 
----
+______________________________________________________________________
 
-# 152. ORGANISM TEST SUITE
+## 152. ORGANISM TEST SUITE
 
 Minimum test families:
 
@@ -2688,9 +2692,9 @@ T39 external effect reconciliation
 T40 whole-organism replay
 ```
 
----
+______________________________________________________________________
 
-# 153. VALIDATION LEVELS
+## 153. VALIDATION LEVELS
 
 ```text
 V0 Conceptual
@@ -2703,9 +2707,9 @@ V6 Operationally monitored
 V7 Independently assessed
 ```
 
----
+______________________________________________________________________
 
-# 154. MATURITY LEVELS
+## 154. MATURITY LEVELS
 
 ```text
 M0 Static prompt
@@ -2720,9 +2724,9 @@ M8 Durable recovery
 M9 Independent assurance
 ```
 
----
+______________________________________________________________________
 
-# 155. VIABILITY MODEL
+## 155. VIABILITY MODEL
 
 ```text
 Viability =
@@ -2736,9 +2740,9 @@ w1 * Integrity
 
 Weights must be calibrated for target use.
 
----
+______________________________________________________________________
 
-# 156. COGNITIVE QUALITY MODEL
+## 156. COGNITIVE QUALITY MODEL
 
 ```text
 CognitiveQuality =
@@ -2749,9 +2753,9 @@ EvidenceFidelity
 × DecisionRelevance
 ```
 
----
+______________________________________________________________________
 
-# 157. CONTINUATION GATE
+## 157. CONTINUATION GATE
 
 ```text
 MayContinue =
@@ -2762,9 +2766,9 @@ AND RepairCapacity >= R_min
 AND CriticalDependenciesHealthy
 ```
 
----
+______________________________________________________________________
 
-# 158. DECISION SUFFICIENCY
+## 158. DECISION SUFFICIENCY
 
 Reasoning may stop when:
 
@@ -2774,9 +2778,9 @@ AND DecisionSufficiency
 AND ActionSufficiency
 ```
 
----
+______________________________________________________________________
 
-# 159. ORGANISM OUTPUT STATES
+## 159. ORGANISM OUTPUT STATES
 
 ```text
 DONE
@@ -2794,9 +2798,9 @@ ABORT
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 160. MINIMUM VIABLE COGNITIVE ORGANISM
+## 160. MINIMUM VIABLE COGNITIVE ORGANISM
 
 ```text
 Identity
@@ -2815,9 +2819,9 @@ Lifecycle
 InfrastructureInterface
 ```
 
----
+______________________________________________________________________
 
-# 161. FULL COGNITIVE ORGANISM
+## 161. FULL COGNITIVE ORGANISM
 
 ```text
 Identity
@@ -2857,9 +2861,9 @@ Provenance
 Governance
 ```
 
----
+______________________________________________________________________
 
-# 162. ORGAN ABI
+## 162. ORGAN ABI
 
 ```yaml
 organ:
@@ -2880,9 +2884,9 @@ organ:
   provenance:
 ```
 
----
+______________________________________________________________________
 
-# 163. ORGANISM STATE ABI
+## 163. ORGANISM STATE ABI
 
 ```yaml
 organism_state:
@@ -2904,9 +2908,9 @@ organism_state:
   provenance:
 ```
 
----
+______________________________________________________________________
 
-# 164. MEMORY ABI
+## 164. MEMORY ABI
 
 ```yaml
 memory:
@@ -2923,9 +2927,9 @@ memory:
   state:
 ```
 
----
+______________________________________________________________________
 
-# 165. ACTION ABI
+## 165. ACTION ABI
 
 ```yaml
 action:
@@ -2940,9 +2944,9 @@ action:
   observability:
 ```
 
----
+______________________________________________________________________
 
-# 166. HEALTH ABI
+## 166. HEALTH ABI
 
 ```yaml
 health:
@@ -2958,9 +2962,9 @@ health:
   dependencies:
 ```
 
----
+______________________________________________________________________
 
-# 167. RSCF WHOLE-ORGANISM CAPSULE
+## 167. RSCF WHOLE-ORGANISM CAPSULE
 
 ```text
 OBJECTIVE:
@@ -3018,9 +3022,9 @@ CONCLUSION CLASS:
 ...
 ```
 
----
+______________________________________________________________________
 
-# 168. CORE INVARIANT REGISTRY
+## 168. CORE INVARIANT REGISTRY
 
 ```text
 I01 ORGANISM_MODEL != BIOLOGICAL_ORGANISM
@@ -3104,9 +3108,9 @@ I39 STRUCTURAL_COMPLETENESS != EMPIRICAL_VALIDITY
 I40 INTEGRITY > COMPLETENESS > FLUENCY > SPEED
 ```
 
----
+______________________________________________________________________
 
-# 169. IMPLEMENTATION [[00_ROOT/ROADMAP|ROADMAP]]
+## 169. IMPLEMENTATION [[00_ROOT/ROADMAP|ROADMAP]]
 
 ## Wave 1 — Kernel
 
@@ -3233,9 +3237,9 @@ failure injection
 independent assessment
 ```
 
----
+______________________________________________________________________
 
-# 170. FINAL [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]
+## 170. FINAL [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]
 
 ```text
                          USER / SYSTEM AUTHORITY
@@ -3299,9 +3303,9 @@ independent assessment
                            EXTERNAL WORLD
 ```
 
----
+______________________________________________________________________
 
-# 171. FINAL AMOS STATEMENT
+## 171. FINAL AMOS STATEMENT
 
 The AMOS Cognitive Organism OS is a **persistent, governed cognitive systems architecture** in which cognition is no longer treated as one model call or one reasoning chain.
 
@@ -3367,22 +3371,26 @@ Infrastructure-governed cognitive organism
 
 This is the level at which “AMOS organism” becomes structurally useful: not by pretending software is biologically alive, but by giving persistent cognition the lifecycle, memory, regulation, dependency, repair, provenance, and governance architecture that a serious long-running cognitive system requires.
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos_cognitive_organism_os
 node_type: note
 path: 11_KNOWLEDGE/AMOS_COGNITIVE_ORGANISM_OS.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]]

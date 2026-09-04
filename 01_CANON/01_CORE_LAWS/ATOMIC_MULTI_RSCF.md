@@ -1,4 +1,7 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: ATOMIC_MULTI_RSCF Law (Redirect)
 aliases:
   - ATOMIC_MULTI_RSCF
@@ -32,7 +35,7 @@ rscf:
 
 # ATOMIC_MULTI_RSCF Law
 
-> [!abstract] Canonical Redirect
+> [!ABSTRACT] Canonical Redirect
 > This node is the stable canonical entry point for **Atomic Multi-RSCF**.
 >
 > The substantive kernel is:
@@ -45,9 +48,9 @@ See canonical kernel:
 
 ## [[02_KERNEL/K_ATOMIC_MULTI_RSCF|K_ATOMIC_MULTI_RSCF]]
 
----
+______________________________________________________________________
 
-# 0. Canonical Purpose
+## 0. Canonical Purpose
 
 `ATOMIC_MULTI_RSCF` provides a stable canonical namespace for reasoning operations whose validity depends on multiple RSCF capsules being treated as one coordinated transaction.
 
@@ -62,6 +65,7 @@ The redirect relationship is:
 ```
 
 ### Formal Transaction Invariant
+
 An atomic multi-RSCF transaction commits if and only if all constituent verification capsules $p \in \mathcal{P}$ pass and all invariants $\text{inv} \in \mathcal{I}$ hold:
 
 $$\text{Commit}(\mathbb{T}) = 1 \iff \left(\bigwedge_{p \in \mathcal{P}} \text{Verify}(p) = 1\right) \land \left(\bigwedge_{\text{inv} \in \mathcal{I}} \text{Check}(\text{inv}) = 1\right) \land \text{CAS}(\mathcal{W}_{\text{write}}, \text{Epoch}_{\text{current}})$$
@@ -81,9 +85,9 @@ The redirect exists to preserve:
 
 It does **not** create a second authoritative definition.
 
----
+______________________________________________________________________
 
-# 1. Source Boundary
+## 1. Source Boundary
 
 The source-level redirect establishes:
 
@@ -100,12 +104,12 @@ The substantive semantics of the kernel must therefore be resolved through:
 
 rather than independently invented inside this redirect.
 
-> [!important] Integrity Boundary
+> [!IMPORTANT] Integrity Boundary
 > Content below that explains transactional semantics, validation mechanics, rollback, provenance, confidence, MVCC/CAS, epochs, replayability, shard locality, or coordination avoidance is an **integration model** governed by [[01_CANON/01_CORE_LAWS/L0_INTEGRITY|L0_INTEGRITY]], unless separately established by authoritative kernel or canon sources.
 
----
+______________________________________________________________________
 
-# 2. Corpus Lineage Evidence
+## 2. Corpus Lineage Evidence
 
 The AMOS corpus contains a historical node titled:
 
@@ -138,9 +142,9 @@ ATOMIC MULTI-RSCF
 PROOF OF UNIVERSAL DISTRIBUTED FINALITY
 ```
 
----
+______________________________________________________________________
 
-# 3. Historical v4.1 Spine
+## 3. Historical v4.1 Spine
 
 The source-supported v4.1 transactional spine is:
 
@@ -165,9 +169,9 @@ ALL-OR-NOTHING ROLLBACK
 
 This spine is source-supported as historical AMOS architecture.
 
----
+______________________________________________________________________
 
-# 4. Core Atomicity Principle
+## 4. Core Atomicity Principle
 
 For an RSCF transaction:
 
@@ -206,9 +210,9 @@ $$
 
 This equation is a normalized representation of the all-or-nothing architecture, not a quoted source equation.
 
----
+______________________________________________________________________
 
-# 5. Atomic Publication
+## 5. Atomic Publication
 
 The v4.1 source explicitly includes:
 
@@ -274,9 +278,9 @@ C1
 
 unless that mixed state is independently authorized by a different transaction contract.
 
----
+______________________________________________________________________
 
-# 6. Transaction Identity
+## 6. Transaction Identity
 
 The historical source explicitly includes:
 
@@ -299,9 +303,9 @@ TRANSACTION ID REQUIRED BY HISTORICAL MODEL
 CANONICAL TRANSACTION-ID SCHEMA ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 7. Read Sets
+## 7. Read Sets
 
 The historical source explicitly names:
 
@@ -327,9 +331,9 @@ read_set:
 
 Illustrative only.
 
----
+______________________________________________________________________
 
-# 8. Write Sets
+## 8. Write Sets
 
 Similarly:
 
@@ -347,9 +351,9 @@ write_set:
 
 The exact schema remains kernel-dependent.
 
----
+______________________________________________________________________
 
-# 9. Hidden Dependency Hazard
+## 9. Hidden Dependency Hazard
 
 A transaction can appear atomic while remaining epistemically unsafe if an outcome-changing dependency is omitted from its declared read set.
 
@@ -378,9 +382,9 @@ ACTUAL DEPENDENCY CLOSURE
 
 This is a derived integrity requirement governed by [[01_CANON/01_CORE_LAWS/L3_DEPENDENCY|L3_DEPENDENCY]].
 
----
+______________________________________________________________________
 
-# 10. Cross-RSCF Invariants
+## 10. Cross-RSCF Invariants
 
 The historical v4.1 source explicitly includes:
 
@@ -426,9 +430,9 @@ TransactionValidity
 }
 $$
 
----
+______________________________________________________________________
 
-# 11. Local Validity Firewall
+## 11. Local Validity Firewall
 
 ```text
 EVERY CAPSULE VALID
@@ -451,9 +455,9 @@ A multi-RSCF transaction may additionally require:
 
 These dimensions are integration requirements, not all directly specified by the v4.1 source.
 
----
+______________________________________________________________________
 
-# 12. Transaction-Level CAS
+## 12. Transaction-Level CAS
 
 The v4.1 source explicitly names:
 
@@ -487,9 +491,9 @@ $$
 
 This aligns naturally with [[01_CANON/01_CORE_LAWS/L23_MVCC_CAS|L23_MVCC_CAS]], but the exact coupling must remain governed by its authoritative law.
 
----
+______________________________________________________________________
 
-# 13. CAS Firewall
+## 13. CAS Firewall
 
 ```text
 CAS SUCCESS
@@ -513,9 +517,9 @@ CAS establishes state-transition compatibility against an expected state.
 
 It does not independently establish that the proposed state is epistemically correct.
 
----
+______________________________________________________________________
 
-# 14. Atomicity and MVCC
+## 14. Atomicity and MVCC
 
 A derived integration pattern is:
 
@@ -547,9 +551,9 @@ The historical v4.1 source supports read/write sets, transaction-level CAS, atom
 
 Exact snapshot semantics remain governed elsewhere.
 
----
+______________________________________________________________________
 
-# 15. All-or-Nothing Rollback
+## 15. All-or-Nothing Rollback
 
 The historical source explicitly includes:
 
@@ -567,9 +571,9 @@ $$
 
 subject to the transaction's valid rollback boundary and [[01_CANON/01_CORE_LAWS/L10_FAILURE_RECOVERY|L10_FAILURE_RECOVERY]] / [[01_CANON/01_CORE_LAWS/ROLLBACK_AND_RECOVERY_BASINS|ROLLBACK_AND_RECOVERY_BASINS]].
 
----
+______________________________________________________________________
 
-# 16. Rollback Firewall
+## 16. Rollback Firewall
 
 ```text
 ROLLBACK
@@ -585,9 +589,9 @@ This becomes particularly important when integrated with:
 
 because later state transitions should not silently rewrite earlier historical verdicts.
 
----
+______________________________________________________________________
 
-# 17. Selective Rollback
+## 17. Selective Rollback
 
 Atomic rollback should apply to the transaction's dependency closure.
 
@@ -612,9 +616,9 @@ ATOMIC ROLLBACK
 GLOBAL RESET
 ```
 
----
+______________________________________________________________________
 
-# 18. Atomicity and Causal Epochs
+## 18. Atomicity and Causal Epochs
 
 A derived integration model is:
 
@@ -636,9 +640,9 @@ CAUSAL EPOCH LAW
 
 The two concepts remain distinct.
 
----
+______________________________________________________________________
 
-# 19. Atomicity and Replayability
+## 19. Atomicity and Replayability
 
 A transaction can be atomic but not replayable if its outcome depends on uncaptured nondeterministic inputs.
 
@@ -666,9 +670,9 @@ $$
 
 but neither property subsumes the other.
 
----
+______________________________________________________________________
 
-# 20. Atomicity and Proof Coordination
+## 20. Atomicity and Proof Coordination
 
 A multi-RSCF transaction naturally creates a proof-composition problem.
 
@@ -696,9 +700,9 @@ TRANSACTION PROOF
 
 This aligns with [[01_CANON/01_CORE_LAWS/L26_PROOF_COORDINATION|L26_PROOF_COORDINATION]].
 
----
+______________________________________________________________________
 
-# 21. Part-Wise Validation
+## 21. Part-Wise Validation
 
 For:
 
@@ -741,9 +745,9 @@ $$
 
 Normalized model only.
 
----
+______________________________________________________________________
 
-# 22. Interface Validation
+## 22. Interface Validation
 
 Potential interface checks include:
 
@@ -763,9 +767,9 @@ This schema is illustrative.
 
 No exact canonical interface schema has been established by the redirect or retrieved v4.1 source.
 
----
+______________________________________________________________________
 
-# 23. Confidence Propagation
+## 23. Confidence Propagation
 
 Atomic publication must not manufacture epistemic confidence.
 
@@ -779,7 +783,7 @@ $$
 C(R_2)=0.80
 $$
 
-and \(R_2\) is load-bearing, the transaction cannot simply claim:
+and (R_2) is load-bearing, the transaction cannot simply claim:
 
 $$
 C(T)=0.95
@@ -798,9 +802,9 @@ $$
 
 unless the weak premise is independently revalidated.
 
----
+______________________________________________________________________
 
-# 24. Confidence Firewall
+## 24. Confidence Firewall
 
 ```text
 MORE CAPSULES
@@ -820,9 +824,9 @@ Atomicity is a state-consistency property.
 
 It is not an epistemic-strength multiplier.
 
----
+______________________________________________________________________
 
-# 25. Provenance Independence
+## 25. Provenance Independence
 
 Suppose:
 
@@ -852,9 +856,9 @@ IndependentRoots = 1
 
 where material.
 
----
+______________________________________________________________________
 
-# 26. Sybil-Hardening
+## 26. Sybil-Hardening
 
 A dangerous pattern is:
 
@@ -878,9 +882,9 @@ That is invalid if all five descend from the same origin.
 
 Atomic multi-RSCF coordination must not turn provenance multiplication into fabricated evidence strength.
 
----
+______________________________________________________________________
 
-# 27. Competing Hypotheses
+## 27. Competing Hypotheses
 
 Atomicity does not require forced convergence.
 
@@ -917,9 +921,9 @@ ATOMICITY
 FORCED CONVERGENCE
 ```
 
----
+______________________________________________________________________
 
-# 28. Contradiction Preservation
+## 28. Contradiction Preservation
 
 A transaction containing unresolved contradiction should not silently erase the contradiction merely to produce a single state.
 
@@ -945,9 +949,9 @@ transaction_result:
 
 when no valid discriminator exists.
 
----
+______________________________________________________________________
 
-# 29. Scope Firewall
+## 29. Scope Firewall
 
 Two individually valid capsules may still be incompatible:
 
@@ -975,9 +979,9 @@ Valid(R_1)\land Valid(R_2)
 Valid(Generalize(R_1,R_2))
 $$
 
----
+______________________________________________________________________
 
-# 30. Regime Firewall
+## 30. Regime Firewall
 
 Likewise:
 
@@ -993,9 +997,9 @@ does not authorize silent collapse into one undifferentiated evidence class.
 
 Atomic transactions must preserve regime boundaries.
 
----
+______________________________________________________________________
 
-# 31. Freshness Firewall
+## 31. Freshness Firewall
 
 An RSCF may be structurally valid yet stale.
 
@@ -1013,9 +1017,9 @@ CURRENTLY APPLICABLE
 
 A stale load-bearing capsule can invalidate current transaction applicability even if its historical contents remain intact.
 
----
+______________________________________________________________________
 
-# 32. Causal Firewall
+## 32. Causal Firewall
 
 Atomicity cannot establish causation.
 
@@ -1043,9 +1047,9 @@ A causes B
 
 Causal claims require appropriately typed causal support.
 
----
+______________________________________________________________________
 
-# 33. Governance Firewall
+## 33. Governance Firewall
 
 A technically valid atomic transaction may still lack authority to execute a consequential mutation.
 
@@ -1067,9 +1071,9 @@ EMPIRICALLY TRUE
 
 For consequential actions, governance validation remains a separate gate.
 
----
+______________________________________________________________________
 
-# 34. Proposed Transaction Lifecycle
+## 34. Proposed Transaction Lifecycle
 
 ```text
 BEGIN
@@ -1126,9 +1130,9 @@ RECEIPT
 
 This is a derived operational model.
 
----
+______________________________________________________________________
 
-# 35. Minimal Transaction Schema
+## 35. Minimal Transaction Schema
 
 ```yaml
 atomic_multi_rscf_transaction:
@@ -1154,9 +1158,9 @@ atomic_multi_rscf_transaction:
 
 Illustrative only.
 
----
+______________________________________________________________________
 
-# 36. Extended Transaction Schema
+## 36. Extended Transaction Schema
 
 ```yaml
 atomic_multi_rscf_transaction:
@@ -1232,9 +1236,9 @@ atomic_multi_rscf_transaction:
 
 Again: MODEL, not authoritative kernel schema.
 
----
+______________________________________________________________________
 
-# 37. Transaction States
+## 37. Transaction States
 
 A useful model state machine is:
 
@@ -1263,9 +1267,9 @@ COMMITTING
 COMMITTED
 ```
 
----
+______________________________________________________________________
 
-# 38. Failure States
+## 38. Failure States
 
 Potential failure classes:
 
@@ -1289,9 +1293,9 @@ failure_modes:
 
 These are model-level classifications.
 
----
+______________________________________________________________________
 
-# 39. Fail-Closed Rule
+## 39. Fail-Closed Rule
 
 For consequential state mutation:
 
@@ -1306,9 +1310,9 @@ unless the governing policy explicitly permits the uncertainty.
 
 This prevents transaction mechanics from laundering unresolved critical gaps into authoritative state.
 
----
+______________________________________________________________________
 
-# 40. Retry Discipline
+## 40. Retry Discipline
 
 A failed transaction should not be retried blindly against the same invalid assumptions.
 
@@ -1339,9 +1343,9 @@ Examples of meaningful changed conditions:
 - repaired interface
 - changed governance authorization
 
----
+______________________________________________________________________
 
-# 41. Retry Firewall
+## 41. Retry Firewall
 
 ```text
 RETRY
@@ -1351,9 +1355,9 @@ REPEAT IDENTICAL FAILED PATH
 
 Repeated execution without changed relevant state does not constitute recovery.
 
----
+______________________________________________________________________
 
-# 42. Atomic Validation Receipt
+## 42. Atomic Validation Receipt
 
 The associated validation receipt node is:
 
@@ -1377,9 +1381,9 @@ The receipt records validation outcome.
 
 It does not create the validity it records.
 
----
+______________________________________________________________________
 
-# 43. Receipt Firewall
+## 43. Receipt Firewall
 
 ```text
 RECEIPT EXISTS
@@ -1412,9 +1416,9 @@ A receipt must remain tied to:
 
 where those dimensions are material.
 
----
+______________________________________________________________________
 
-# 44. Replay Receipt Integration
+## 44. Replay Receipt Integration
 
 A transaction receipt may also support [[01_CANON/01_CORE_LAWS/L22_REPLAYABILITY|L22_REPLAYABILITY]] if it contains all outcome-changing information required for deterministic replay.
 
@@ -1428,9 +1432,9 @@ SUFFICIENT REPLAY RECEIPT
 
 unless replay sufficiency has been established.
 
----
+______________________________________________________________________
 
-# 45. Historical Benchmark Evidence
+## 45. Historical Benchmark Evidence
 
 The retrieved v4.1 source preserves a benchmark result with:
 
@@ -1457,9 +1461,9 @@ The retrieved v4.1 source preserves a benchmark result with:
 
 These values are source-reported benchmark results.
 
----
+______________________________________________________________________
 
-# 46. Benchmark Epistemic Boundary
+## 46. Benchmark Epistemic Boundary
 
 The source itself explicitly warns:
 
@@ -1491,9 +1495,9 @@ UNIVERSAL DISTRIBUTED FINALITY
 
 This boundary is load-bearing.
 
----
+______________________________________________________________________
 
-# 47. Benchmark Claim Typing
+## 47. Benchmark Claim Typing
 
 The benchmark block should be typed as:
 
@@ -1506,9 +1510,9 @@ benchmark_evidence:
 
 Unless the executable artifacts and environment are independently inspected and reproduced, the benchmark remains a corpus-reported result rather than an independently verified observation in this conversation.
 
----
+______________________________________________________________________
 
-# 48. Schedule Independence
+## 48. Schedule Independence
 
 The source reports:
 
@@ -1528,9 +1532,9 @@ WITHIN THAT TEST OPERATIONALIZATION
 
 It does not establish universal schedule independence.
 
----
+______________________________________________________________________
 
-# 49. Partial Mixed States
+## 49. Partial Mixed States
 
 The source reports:
 
@@ -1550,9 +1554,9 @@ ZERO REPORTED MIXED STATES IN TEST
 FORMAL IMPOSSIBILITY OF MIXED STATES
 ```
 
----
+______________________________________________________________________
 
-# 50. Write Skew Boundary
+## 50. Write Skew Boundary
 
 The source reports:
 
@@ -1570,9 +1574,9 @@ NO ACCEPTED WRITE-SKEW VIOLATIONS IN TEST
 FORMAL SERIALIZABILITY THEOREM
 ```
 
----
+______________________________________________________________________
 
-# 51. Rollback Benchmark
+## 51. Rollback Benchmark
 
 The source reports:
 
@@ -1593,9 +1597,9 @@ It does not prove:
 
 unless separately tested.
 
----
+______________________________________________________________________
 
-# 52. Transaction Size Boundary
+## 52. Transaction Size Boundary
 
 The source reports passing transaction sizes:
 
@@ -1619,9 +1623,9 @@ planetary-scale n
 cross-datacenter n
 ```
 
----
+______________________________________________________________________
 
-# 53. Historical Snapshot Readers
+## 53. Historical Snapshot Readers
 
 The source reports:
 
@@ -1633,9 +1637,9 @@ within the benchmark.
 
 This is compatible with the broader MVCC lineage, but the source does not by itself define the complete snapshot isolation contract.
 
----
+______________________________________________________________________
 
-# 54. Distributed Finality Gap
+## 54. Distributed Finality Gap
 
 The v4.1 source explicitly preserves:
 
@@ -1651,9 +1655,9 @@ LOCAL / TESTED ATOMICITY
 DISTRIBUTED FINALITY UNDER PARTITION
 ```
 
----
+______________________________________________________________________
 
-# 55. Partition Boundary
+## 55. Partition Boundary
 
 Atomic transaction semantics become materially harder when:
 
@@ -1673,9 +1677,9 @@ Therefore the correct state is:
 
 **UNKNOWN/GAP** at that historical layer.
 
----
+______________________________________________________________________
 
-# 56. Competing Certified Transactions
+## 56. Competing Certified Transactions
 
 Consider:
 
@@ -1704,9 +1708,9 @@ Do not invent:
 
 without source canon.
 
----
+______________________________________________________________________
 
-# 57. Shard-Local Fast Path
+## 57. Shard-Local Fast Path
 
 A derived integration with [[01_CANON/01_CORE_LAWS/L25_SHARD_LOCAL|L25_SHARD_LOCAL]] is:
 
@@ -1723,9 +1727,9 @@ LOCAL FINALIZATION MAY BE SUFFICIENT
 
 But locality must be demonstrated.
 
----
+______________________________________________________________________
 
-# 58. Locality Firewall
+## 58. Locality Firewall
 
 ```text
 DATA STORED LOCALLY
@@ -1743,9 +1747,9 @@ LOCAL PROOF
 
 This distinction is essential for proof-based coordination avoidance.
 
----
+______________________________________________________________________
 
-# 59. Proof-Based Coordination Avoidance
+## 59. Proof-Based Coordination Avoidance
 
 A strong AMOS v4.4 integration principle is:
 
@@ -1764,9 +1768,9 @@ is allowed only when sufficient proof establishes that transaction validity does
 
 This is a reasoning architecture principle, not a claim that ChatGPT literally implements distributed transaction finality.
 
----
+______________________________________________________________________
 
-# 60. Coordination Escalation
+## 60. Coordination Escalation
 
 Escalate beyond the local path when any material condition includes:
 
@@ -1782,9 +1786,9 @@ Escalate beyond the local path when any material condition includes:
 - competing certified transaction
 - uncertain finality
 
----
+______________________________________________________________________
 
-# 61. Atomicity vs Consensus
+## 61. Atomicity vs Consensus
 
 ```text
 ATOMICITY
@@ -1802,9 +1806,9 @@ Consensus answers a different class of question:
 
 One does not automatically establish the other.
 
----
+______________________________________________________________________
 
-# 62. Atomicity vs Serializability
+## 62. Atomicity vs Serializability
 
 ```text
 ATOMICITY
@@ -1816,9 +1820,9 @@ A transaction may be all-or-nothing while the global execution history still fai
 
 Do not collapse these properties.
 
----
+______________________________________________________________________
 
-# 63. Atomicity vs Durability
+## 63. Atomicity vs Durability
 
 ```text
 ATOMICITY
@@ -1836,9 +1840,9 @@ Atomic publication does not by itself prove that committed state survives:
 
 Durability requires separate evidence.
 
----
+______________________________________________________________________
 
-# 64. Atomicity vs Isolation
+## 64. Atomicity vs Isolation
 
 ```text
 ATOMICITY
@@ -1848,9 +1852,9 @@ ISOLATION
 
 All-or-nothing commit does not automatically establish the visibility rules governing concurrent transactions.
 
----
+______________________________________________________________________
 
-# 65. Atomicity vs Truth
+## 65. Atomicity vs Truth
 
 ```text
 ATOMICITY
@@ -1864,9 +1868,9 @@ Atomicity protects state consistency.
 
 It does not replace epistemic validation.
 
----
+______________________________________________________________________
 
-# 66. Atomicity vs Safety
+## 66. Atomicity vs Safety
 
 ```text
 ATOMIC
@@ -1878,9 +1882,9 @@ A transaction may be technically consistent while causing unsafe downstream effe
 
 Safety requires its own validation and governance layer.
 
----
+______________________________________________________________________
 
-# 67. Atomicity vs Authorization
+## 67. Atomicity vs Authorization
 
 ```text
 ATOMIC
@@ -1890,9 +1894,9 @@ AUTHORIZED
 
 A transaction cannot derive authority merely from being internally consistent.
 
----
+______________________________________________________________________
 
-# 68. Atomicity vs Causal Proof
+## 68. Atomicity vs Causal Proof
 
 ```text
 ATOMIC COMMIT
@@ -1902,9 +1906,9 @@ CAUSAL PROOF
 
 Publishing multiple related state changes together does not prove that one caused another.
 
----
+______________________________________________________________________
 
-# 69. Atomicity vs Evidence Independence
+## 69. Atomicity vs Evidence Independence
 
 ```text
 ATOMIC CAPSULE SET
@@ -1914,9 +1918,9 @@ INDEPENDENT EVIDENCE SET
 
 Transaction membership and provenance topology are separate dimensions.
 
----
+______________________________________________________________________
 
-# 70. Atomicity vs Completeness
+## 70. Atomicity vs Completeness
 
 ```text
 TRANSACTION VALID
@@ -1928,11 +1932,11 @@ The transaction can only validate against the dependencies it correctly identifi
 
 Unknown hidden dependencies remain a risk.
 
----
+______________________________________________________________________
 
-# 71. Dependency Closure
+## 71. Dependency Closure
 
-For transaction \(T\), define the materially relevant dependency closure:
+For transaction (T), define the materially relevant dependency closure:
 
 $$
 D^*(T)
@@ -1953,9 +1957,9 @@ Then a fast path is only justified when relevant closure is sufficiently establi
 
 This is normalized model notation.
 
----
+______________________________________________________________________
 
-# 72. Dependency Closure Firewall
+## 72. Dependency Closure Firewall
 
 ```text
 ALL DECLARED DEPENDENCIES CHECKED
@@ -1965,11 +1969,11 @@ ALL ACTUAL DEPENDENCIES KNOWN
 
 The distinction between declared and actual dependency closure is a central failure mode.
 
----
+______________________________________________________________________
 
-# 73. Read-Set Completeness
+## 73. Read-Set Completeness
 
-A transaction whose outcome depends on \(X\) should not omit \(X\) from its effective validation basis.
+A transaction whose outcome depends on (X) should not omit (X) from its effective validation basis.
 
 Conceptually:
 
@@ -1981,9 +1985,9 @@ $$
 
 The exact implementation need not literally place every dependency into a database read set; the invariant is semantic.
 
----
+______________________________________________________________________
 
-# 74. Write-Set Completeness
+## 74. Write-Set Completeness
 
 Likewise, all authoritative mutations belonging to the transaction should fall inside the atomic publication boundary.
 
@@ -1997,9 +2001,9 @@ ACTUAL SIDE EFFECT SET
 
 and all-or-nothing semantics can fail.
 
----
+______________________________________________________________________
 
-# 75. External Side Effects
+## 75. External Side Effects
 
 External irreversible effects create a special boundary.
 
@@ -2023,9 +2027,9 @@ Such actions require staged governance, idempotency, compensation, or another ex
 
 No such protocol is established by the redirect.
 
----
+______________________________________________________________________
 
-# 76. Reversibility Preference
+## 76. Reversibility Preference
 
 Under uncertainty, prefer:
 
@@ -2043,9 +2047,9 @@ IRREVERSIBLE ACTION
 
 rather than combining uncertain irreversible effects into an inadequately validated transaction.
 
----
+______________________________________________________________________
 
-# 77. Transaction Proof Capsule
+## 77. Transaction Proof Capsule
 
 A model proof capsule may be:
 
@@ -2084,9 +2088,9 @@ proof_capsule:
 
 Illustrative only.
 
----
+______________________________________________________________________
 
-# 78. Transaction Proof Ceiling
+## 78. Transaction Proof Ceiling
 
 If any load-bearing premise is conditional:
 
@@ -2111,9 +2115,9 @@ T = at most CONDITIONAL
 
 unless `P3` is independently strengthened.
 
----
+______________________________________________________________________
 
-# 79. Transaction Conflict Model
+## 79. Transaction Conflict Model
 
 A conflict can be represented as:
 
@@ -2128,9 +2132,9 @@ conflict:
 
 The exact canonical conflict schema is not established.
 
----
+______________________________________________________________________
 
-# 80. Conflict Outcomes
+## 80. Conflict Outcomes
 
 Potential outcomes include:
 
@@ -2146,9 +2150,9 @@ The correct outcome depends on conflict type.
 
 No universal "last writer wins" rule should be assumed.
 
----
+______________________________________________________________________
 
-# 81. Last-Writer-Wins Firewall
+## 81. Last-Writer-Wins Firewall
 
 ```text
 LATEST WRITE
@@ -2166,9 +2170,9 @@ AUTHORIZED WINNER
 
 A timestamp alone cannot resolve epistemic or governance conflicts.
 
----
+______________________________________________________________________
 
-# 82. Concurrent Transactions
+## 82. Concurrent Transactions
 
 Consider:
 
@@ -2200,9 +2204,9 @@ coordination or conflict handling may be required.
 
 The exact concurrency algorithm remains kernel-dependent.
 
----
+______________________________________________________________________
 
-# 83. Non-Overlapping Transactions
+## 83. Non-Overlapping Transactions
 
 If two transactions have demonstrably independent dependency closures:
 
@@ -2214,9 +2218,9 @@ they may admit independent processing.
 
 But independence must be established rather than assumed from superficial non-overlap.
 
----
+______________________________________________________________________
 
-# 84. Semantic Coupling
+## 84. Semantic Coupling
 
 Two transactions may touch different explicit objects while sharing a global invariant.
 
@@ -2243,9 +2247,9 @@ DISJOINT WRITE SETS
 INDEPENDENT TRANSACTIONS
 ```
 
----
+______________________________________________________________________
 
-# 85. Cross-RSCF Invariant Example
+## 85. Cross-RSCF Invariant Example
 
 Suppose:
 
@@ -2273,9 +2277,9 @@ Therefore the transaction fails the cross-RSCF invariant.
 
 This is an illustrative example, not source canon.
 
----
+______________________________________________________________________
 
-# 86. Epistemic Cross-Invariant Example
+## 86. Epistemic Cross-Invariant Example
 
 Suppose:
 
@@ -2293,9 +2297,9 @@ If `R1`'s VERIFIED state depends solely on `R2`, the combined transaction contai
 
 Atomic validation should detect the interface failure.
 
----
+______________________________________________________________________
 
-# 87. Provenance Cross-Invariant Example
+## 87. Provenance Cross-Invariant Example
 
 Suppose:
 
@@ -2311,9 +2315,9 @@ The individual capsules may each be structurally valid.
 
 The combined independence claim is not.
 
----
+______________________________________________________________________
 
-# 88. Scope Cross-Invariant Example
+## 88. Scope Cross-Invariant Example
 
 ```text
 R1:
@@ -2328,9 +2332,9 @@ scope = universal
 
 The universal conclusion does not follow merely from atomic combination.
 
----
+______________________________________________________________________
 
-# 89. Regime Cross-Invariant Example
+## 89. Regime Cross-Invariant Example
 
 ```text
 R1:
@@ -2345,9 +2349,9 @@ regime = "verified reality"
 
 Invalid unless an explicit bridge licenses the transformation.
 
----
+______________________________________________________________________
 
-# 90. Temporal Cross-Invariant Example
+## 90. Temporal Cross-Invariant Example
 
 ```text
 R1:
@@ -2362,9 +2366,9 @@ assumes simultaneous current state
 
 The transaction may fail if the states cannot legitimately coexist under the relevant epoch semantics.
 
----
+______________________________________________________________________
 
-# 91. Model Cross-Invariant Example
+## 91. Model Cross-Invariant Example
 
 Two capsules can each contain valid models under different assumptions:
 
@@ -2384,9 +2388,9 @@ COMPETING
 
 rather than a merged model.
 
----
+______________________________________________________________________
 
-# 92. Transaction Materiality
+## 92. Transaction Materiality
 
 Not every relation requires atomic multi-RSCF treatment.
 
@@ -2402,9 +2406,9 @@ Use atomic scope only when partial publication could alter:
 
 Otherwise unnecessary atomic coupling can increase complexity without integrity benefit.
 
----
+______________________________________________________________________
 
-# 93. Smallest Sufficient Transaction Scope
+## 93. Smallest Sufficient Transaction Scope
 
 A useful design objective is:
 
@@ -2426,9 +2430,9 @@ Meaning:
 
 This is a normalized design principle, not source equation.
 
----
+______________________________________________________________________
 
-# 94. Over-Broad Transaction Failure
+## 94. Over-Broad Transaction Failure
 
 A transaction can become unnecessarily fragile if unrelated state is included.
 
@@ -2450,9 +2454,9 @@ SHOULD FOLLOW
 MATERIAL DEPENDENCY SCOPE
 ```
 
----
+______________________________________________________________________
 
-# 95. Under-Broad Transaction Failure
+## 95. Under-Broad Transaction Failure
 
 The opposite failure:
 
@@ -2468,9 +2472,9 @@ can expose mixed authoritative state.
 
 Thus transaction scope must be neither arbitrarily broad nor arbitrarily narrow.
 
----
+______________________________________________________________________
 
-# 96. Atomic Scope Sensitivity
+## 96. Atomic Scope Sensitivity
 
 The most important sensitivity question is:
 
@@ -2480,9 +2484,9 @@ Test that first.
 
 If one hidden dependency can flip the result, the transaction is fragile.
 
----
+______________________________________________________________________
 
-# 97. Fragile Transaction
+## 97. Fragile Transaction
 
 Mark a transaction `CONDITIONAL` when validity depends on:
 
@@ -2494,17 +2498,17 @@ Mark a transaction `CONDITIONAL` when validity depends on:
 - uncertain external effect
 - unresolved competing transaction
 
----
+______________________________________________________________________
 
-# 98. Robust Transaction
+## 98. Robust Transaction
 
 A transaction is comparatively robust when its conclusion survives plausible perturbations of noncritical assumptions and its load-bearing dependency closure is stable.
 
 Robustness does not imply universal correctness.
 
----
+______________________________________________________________________
 
-# 99. Failure Recovery
+## 99. Failure Recovery
 
 A model recovery path is:
 
@@ -2530,9 +2534,9 @@ REFRESH REQUIRED STATE
 REVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 100. Local Repair
+## 100. Local Repair
 
 ```text
 FAILED EDGE
@@ -2545,9 +2549,9 @@ should be repaired before attempting global recomputation.
 
 This preserves unaffected validated work.
 
----
+______________________________________________________________________
 
-# 101. Global Recompute Boundary
+## 101. Global Recompute Boundary
 
 ```text
 LOCAL FAILURE
@@ -2557,9 +2561,9 @@ AUTOMATIC GLOBAL RECOMPUTATION
 
 Global recomputation becomes justified only when dependency closure cannot be bounded sufficiently.
 
----
+______________________________________________________________________
 
-# 102. Multi-Epoch Recovery
+## 102. Multi-Epoch Recovery
 
 Atomic transactions may interact with recovery across epochs.
 
@@ -2575,9 +2579,9 @@ DMER concerns recovery architecture; atomic multi-RSCF concerns coordinated tran
 
 They may compose without being identical.
 
----
+______________________________________________________________________
 
-# 103. Atomicity and Persistent Provenance
+## 103. Atomicity and Persistent Provenance
 
 After commit, provenance should remain recoverable.
 
@@ -2592,9 +2596,9 @@ A compact committed state should not destroy the ability to determine:
 
 where those fields are material.
 
----
+______________________________________________________________________
 
-# 104. Compression Firewall
+## 104. Compression Firewall
 
 ```text
 COMPRESSED TRANSACTION RECORD
@@ -2604,9 +2608,9 @@ PROVENANCE-FREE TRANSACTION RECORD
 
 Compression must not erase outcome-changing epistemic information.
 
----
+______________________________________________________________________
 
-# 105. Supersession
+## 105. Supersession
 
 A later transaction may supersede an earlier state.
 
@@ -2628,9 +2632,9 @@ rewrite Tx-001 as if e10 never existed
 
 when historical lineage is required.
 
----
+______________________________________________________________________
 
-# 106. No-Time-Travel Boundary
+## 106. No-Time-Travel Boundary
 
 Atomic rollback and causal no-time-travel must be distinguished.
 
@@ -2638,9 +2642,9 @@ Rollback of an uncommitted or failed transaction does not require pretending tha
 
 Exact semantics depend on the governing epoch law.
 
----
+______________________________________________________________________
 
-# 107. Validation Receipt Model
+## 107. Validation Receipt Model
 
 ```yaml
 atomic_multi_rscf_validation_receipt:
@@ -2675,9 +2679,9 @@ atomic_multi_rscf_validation_receipt:
 
 Illustrative only.
 
----
+______________________________________________________________________
 
-# 108. PASS Semantics
+## 108. PASS Semantics
 
 A receipt with:
 
@@ -2698,9 +2702,9 @@ It must not silently mean:
 - future-proof
 - independent of all hidden assumptions
 
----
+______________________________________________________________________
 
-# 109. Historical Benchmark vs Validation Receipt
+## 109. Historical Benchmark vs Validation Receipt
 
 The v4.1 benchmark is evidence about a tested operationalization.
 
@@ -2714,9 +2718,9 @@ BENCHMARK
 TRANSACTION RECEIPT
 ```
 
----
+______________________________________________________________________
 
-# 110. Formal Proof Boundary
+## 110. Formal Proof Boundary
 
 Nothing in the retrieved v4.1 benchmark alone establishes a universal formal proof of atomicity.
 
@@ -2730,9 +2734,9 @@ FORMAL THEOREM
 
 If a formal proof artifact exists elsewhere, it must be separately retrieved and validated.
 
----
+______________________________________________________________________
 
-# 111. Runtime Boundary
+## 111. Runtime Boundary
 
 The corpus describes a transactional multi-RSCF runtime model.
 
@@ -2746,9 +2750,9 @@ This does **not** establish that ChatGPT's underlying physical runtime literally
 
 AMOS uses these as reasoning and architectural patterns unless implementation evidence independently establishes otherwise.
 
----
+______________________________________________________________________
 
-# 112. Redirect Authority
+## 112. Redirect Authority
 
 The redirect's authority is narrow:
 
@@ -2761,9 +2765,9 @@ K_ATOMIC_MULTI_RSCF
 
 It should not become a shadow kernel.
 
----
+______________________________________________________________________
 
-# 113. One Home Principle
+## 113. One Home Principle
 
 Substantive kernel law should have one authoritative home.
 
@@ -2777,9 +2781,9 @@ $$
 
 The redirect is a pointer.
 
----
+______________________________________________________________________
 
-# 114. Duplicate Firewall
+## 114. Duplicate Firewall
 
 ```text
 COPY OF KERNEL CONTENT
@@ -2791,9 +2795,9 @@ Copies may exist for caching, backup, historical preservation, or documentation.
 
 Authority should remain explicit.
 
----
+______________________________________________________________________
 
-# 115. Redirect Drift
+## 115. Redirect Drift
 
 A redirect becomes dangerous if it contains substantive rules that diverge from the kernel.
 
@@ -2815,9 +2819,9 @@ REDIRECT REPAIR
 
 unless a later authoritative supersession explicitly changes the hierarchy.
 
----
+______________________________________________________________________
 
-# 116. Circular Redirect Failure
+## 116. Circular Redirect Failure
 
 Invalid:
 
@@ -2835,9 +2839,9 @@ if neither node contains substantive authority.
 
 A redirect graph must terminate at an authoritative definition.
 
----
+______________________________________________________________________
 
-# 117. Broken Target Failure
+## 117. Broken Target Failure
 
 If:
 
@@ -2853,9 +2857,9 @@ Do not fabricate kernel contents from the redirect name alone.
 
 Historical sources may support partial reconstruction, but they do not automatically replace the missing authoritative kernel.
 
----
+______________________________________________________________________
 
-# 118. Kernel Availability State
+## 118. Kernel Availability State
 
 From the material retrieved here:
 
@@ -2871,9 +2875,9 @@ NOT ESTABLISHED IN THIS RESPONSE
 
 Therefore the expanded mechanics remain bounded by historical source evidence plus clearly marked integration derivations.
 
----
+______________________________________________________________________
 
-# 119. Canonical Claim Classes
+## 119. Canonical Claim Classes
 
 For this node:
 
@@ -2904,9 +2908,9 @@ full current authoritative kernel semantics
 where not independently retrieved
 ```
 
----
+______________________________________________________________________
 
-# 120. Source-Established Historical Claims
+## 120. Source-Established Historical Claims
 
 The retrieved v4.1 source establishes the following corpus claims:
 
@@ -2932,9 +2936,9 @@ The retrieved v4.1 source establishes the following corpus claims:
 | AMR-SC018 | Historical snapshot readers are reported as passed                    | `SOURCE_CLAIM` |
 | AMR-SC019 | Benchmark results are explicitly bounded to tested operationalization | `SOURCE_CLAIM` |
 
----
+______________________________________________________________________
 
-# 121. Not Established
+## 121. Not Established
 
 The available redirect and historical source do **not** establish:
 
@@ -2963,31 +2967,31 @@ The available redirect and historical source do **not** establish:
 - hardware-independent determinism
 - literal ChatGPT runtime implementation
 
----
+______________________________________________________________________
 
-# 122. Critical Gap Register
+## 122. Critical Gap Register
 
-| ID       | Priority            | Gap                                                |
-| -------- | ------------------- | -------------------------------------------------- |
-| AMR-G001 | `CRITICAL`          | Full authoritative body of [[02_KERNEL/K_ATOMIC_MULTI_RSCF|K_ATOMIC_MULTI_RSCF]] |
-| AMR-G002 | `CRITICAL`          | Current transaction schema                         |
-| AMR-G003 | `CRITICAL`          | Current atomic commit/finalization semantics       |
-| AMR-G004 | `CRITICAL`          | Distributed finality under partition               |
-| AMR-G005 | `CRITICAL`          | Competing certified transaction resolution         |
-| AMR-G006 | `DECISION-RELEVANT` | Exact dependency closure requirements              |
-| AMR-G007 | `DECISION-RELEVANT` | Exact cross-RSCF invariant registry                |
-| AMR-G008 | `DECISION-RELEVANT` | Exact rollback boundary                            |
-| AMR-G009 | `DECISION-RELEVANT` | Exact CAS granularity                              |
-| AMR-G010 | `DECISION-RELEVANT` | Cross-shard locality proof requirements            |
-| AMR-G011 | `EXPLANATORY`       | Validation receipt schema                          |
-| AMR-G012 | `EXPLANATORY`       | Persistence and durability model                   |
-| AMR-G013 | `EXPLANATORY`       | Replay integration                                 |
-| AMR-G014 | `EXPLANATORY`       | Recovery integration                               |
-| AMR-G015 | `EXPLANATORY`       | Formal verification artifacts                      |
+| ID       | Priority            | Gap                                                          |
+| -------- | ------------------- | ------------------------------------------------------------ |
+| AMR-G001 | `CRITICAL`          | Full authoritative body of \[\[02_KERNEL/K_ATOMIC_MULTI_RSCF |
+| AMR-G002 | `CRITICAL`          | Current transaction schema                                   |
+| AMR-G003 | `CRITICAL`          | Current atomic commit/finalization semantics                 |
+| AMR-G004 | `CRITICAL`          | Distributed finality under partition                         |
+| AMR-G005 | `CRITICAL`          | Competing certified transaction resolution                   |
+| AMR-G006 | `DECISION-RELEVANT` | Exact dependency closure requirements                        |
+| AMR-G007 | `DECISION-RELEVANT` | Exact cross-RSCF invariant registry                          |
+| AMR-G008 | `DECISION-RELEVANT` | Exact rollback boundary                                      |
+| AMR-G009 | `DECISION-RELEVANT` | Exact CAS granularity                                        |
+| AMR-G010 | `DECISION-RELEVANT` | Cross-shard locality proof requirements                      |
+| AMR-G011 | `EXPLANATORY`       | Validation receipt schema                                    |
+| AMR-G012 | `EXPLANATORY`       | Persistence and durability model                             |
+| AMR-G013 | `EXPLANATORY`       | Replay integration                                           |
+| AMR-G014 | `EXPLANATORY`       | Recovery integration                                         |
+| AMR-G015 | `EXPLANATORY`       | Formal verification artifacts                                |
 
----
+______________________________________________________________________
 
-# 123. Historical Gap Preservation
+## 123. Historical Gap Preservation
 
 The most important source-declared unresolved item is:
 
@@ -3003,9 +3007,9 @@ This must not be silently converted into a solved property merely because later 
 
 A later authoritative source is required to establish that supersession.
 
----
+______________________________________________________________________
 
-# 124. Falsifiers
+## 124. Falsifiers
 
 The expanded model should be revised if:
 
@@ -3032,9 +3036,9 @@ with semantics incompatible with this integration model.
 
 Only authoritative evidence can trigger those changes.
 
----
+______________________________________________________________________
 
-# 125. Anti-Pattern Register
+## 125. Anti-Pattern Register
 
 | ID        | Anti-pattern                                            |
 | --------- | ------------------------------------------------------- |
@@ -3069,9 +3073,9 @@ Only authoritative evidence can trigger those changes.
 | AMR-AP029 | External irreversible action assumed rollback-safe      |
 | AMR-AP030 | Historical distributed-finality gap silently erased     |
 
----
+______________________________________________________________________
 
-# 126. Validation Decision Matrix
+## 126. Validation Decision Matrix
 
 | Condition                                               | Action                                |
 | ------------------------------------------------------- | ------------------------------------- |
@@ -3090,9 +3094,9 @@ Only authoritative evidence can trigger those changes.
 | Partial publication detected                            | Rollback / recovery                   |
 | Partition finality unresolved                           | Escalate / `UNKNOWN/GAP`              |
 
----
+______________________________________________________________________
 
-# 127. Compact Validation Algorithm
+## 127. Compact Validation Algorithm
 
 ```python
 def validate_atomic_multi_rscf(tx):
@@ -3113,12 +3117,12 @@ def validate_atomic_multi_rscf(tx):
     return ATOMIC_COMMIT
 ```
 
-> [!warning]
+> [!WARNING]
 > Illustrative pseudocode only. This is not claimed to be the actual AMOS implementation.
 
----
+______________________________________________________________________
 
-# 128. Stronger Commit Predicate
+## 128. Stronger Commit Predicate
 
 A conceptual commit predicate is:
 
@@ -3139,22 +3143,22 @@ $$
 
 where:
 
-- \(M\) = member validity
-- \(I\) = interface validity
-- \(X\) = cross-RSCF invariant validity
-- \(D\) = dependency closure sufficiency
-- \(P\) = provenance validity
-- \(S\) = scope compatibility
-- \(R\) = regime compatibility
-- \(F\) = freshness validity
-- \(G\) = governance validity where required
-- \(C\) = concurrency/CAS validity
+- (M) = member validity
+- (I) = interface validity
+- (X) = cross-RSCF invariant validity
+- (D) = dependency closure sufficiency
+- (P) = provenance validity
+- (S) = scope compatibility
+- (R) = regime compatibility
+- (F) = freshness validity
+- (G) = governance validity where required
+- (C) = concurrency/CAS validity
 
 This is a normalized integration model, not source equation.
 
----
+______________________________________________________________________
 
-# 129. Atomic Publication Predicate
+## 129. Atomic Publication Predicate
 
 $$
 Published(T)
@@ -3170,11 +3174,11 @@ $$
 \exists W'\subset WriteSet(T)
 $$
 
-such that only \(W'\) publishes, atomicity is violated unless the transaction contract explicitly defines that subset as a separate valid transaction.
+such that only (W') publishes, atomicity is violated unless the transaction contract explicitly defines that subset as a separate valid transaction.
 
----
+______________________________________________________________________
 
-# 130. Abort Predicate
+## 130. Abort Predicate
 
 $$
 CriticalFailure(T)
@@ -3184,11 +3188,11 @@ $$
 
 This is the essential fail-closed form.
 
----
+______________________________________________________________________
 
-# 131. Rollback Predicate
+## 131. Rollback Predicate
 
-For transaction-created provisional state \(P(T)\):
+For transaction-created provisional state (P(T)):
 
 $$
 Abort(T)
@@ -3206,9 +3210,9 @@ $$
 
 where possible.
 
----
+______________________________________________________________________
 
-# 132. Transaction Provenance Graph
+## 132. Transaction Provenance Graph
 
 ```text
 SOURCE S1 ----> R1 ----\
@@ -3227,9 +3231,9 @@ share ancestry
 
 so the transaction must not count them as independent roots.
 
----
+______________________________________________________________________
 
-# 133. Transaction Dependency Graph
+## 133. Transaction Dependency Graph
 
 ```text
 D1 ---> R1 ---\
@@ -3253,9 +3257,9 @@ T invalid
 
 while unrelated graph branches remain intact.
 
----
+______________________________________________________________________
 
-# 134. Transaction Causal Graph
+## 134. Transaction Causal Graph
 
 ```text
 OBSERVATION
@@ -3274,9 +3278,9 @@ This graph represents dependency.
 
 It does not automatically prove physical causation.
 
----
+______________________________________________________________________
 
-# 135. Transaction Epoch Graph
+## 135. Transaction Epoch Graph
 
 ```text
 e_k
@@ -3293,9 +3297,9 @@ e_(k+1)
 
 Exact epoch binding remains governed by [[01_CANON/01_CORE_LAWS/L24_CAUSAL_EPOCH|L24_CAUSAL_EPOCH]].
 
----
+______________________________________________________________________
 
-# 136. RSCF Membership Roles
+## 136. RSCF Membership Roles
 
 A model transaction may distinguish:
 
@@ -3315,9 +3319,9 @@ Role semantics are not established by the source.
 
 They can be useful for selective invalidation and sensitivity analysis.
 
----
+______________________________________________________________________
 
-# 137. Load-Bearing Member
+## 137. Load-Bearing Member
 
 A member is load-bearing when changing its relevant state can change transaction validity or outcome.
 
@@ -3337,29 +3341,29 @@ $$
 
 This provides a useful sensitivity criterion.
 
----
+______________________________________________________________________
 
-# 138. Noncritical Member
+## 138. Noncritical Member
 
 A member whose plausible perturbation cannot change transaction validity may not belong inside the atomic scope at all.
 
 This supports minimizing transaction width.
 
----
+______________________________________________________________________
 
-# 139. Sensitivity-First Validation
+## 139. Sensitivity-First Validation
 
 For consequential transactions:
 
 1. identify the premise most capable of flipping the commit decision;
-2. validate it first;
-3. then spend effort on lower-impact dependencies.
+1. validate it first;
+1. then spend effort on lower-impact dependencies.
 
 This reduces unnecessary reasoning while preserving integrity.
 
----
+______________________________________________________________________
 
-# 140. Transaction Uncertainty Vector
+## 140. Transaction Uncertainty Vector
 
 A model uncertainty vector is:
 
@@ -3379,20 +3383,20 @@ $$
 
 where:
 
-- \(U_E\) = evidence uncertainty
-- \(U_M\) = model uncertainty
-- \(U_S\) = scope uncertainty
-- \(U_R\) = regime uncertainty
-- \(U_\tau\) = temporal uncertainty
-- \(U_C\) = causal uncertainty
-- \(U_X\) = execution/concurrency uncertainty
-- \(U_P\) = provenance-independence uncertainty
+- (U_E) = evidence uncertainty
+- (U_M) = model uncertainty
+- (U_S) = scope uncertainty
+- (U_R) = regime uncertainty
+- (U\_\\tau) = temporal uncertainty
+- (U_C) = causal uncertainty
+- (U_X) = execution/concurrency uncertainty
+- (U_P) = provenance-independence uncertainty
 
 Spend validation effort where reducing uncertainty can change the transaction decision.
 
----
+______________________________________________________________________
 
-# 141. Atomic Fast Path
+## 141. Atomic Fast Path
 
 A local fast path may be modeled as available only when:
 
@@ -3415,9 +3419,9 @@ If any load-bearing condition fails:
 ESCALATE
 ```
 
----
+______________________________________________________________________
 
-# 142. Fast Path Firewall
+## 142. Fast Path Firewall
 
 ```text
 FAST PATH
@@ -3429,9 +3433,9 @@ The fast path means validation has established that broader coordination is unne
 
 It does not mean validation is omitted.
 
----
+______________________________________________________________________
 
-# 143. Coordination Avoidance Proof
+## 143. Coordination Avoidance Proof
 
 Conceptually:
 
@@ -3455,9 +3459,9 @@ $$
 
 The exact proof format is not established here.
 
----
+______________________________________________________________________
 
-# 144. Global Coordination Trigger
+## 144. Global Coordination Trigger
 
 Global coordination becomes necessary when transaction validity depends on global facts.
 
@@ -3471,9 +3475,9 @@ GLOBAL INVARIANT
 
 This is compatible with the shard-local law family.
 
----
+______________________________________________________________________
 
-# 145. Partition Safety
+## 145. Partition Safety
 
 Because v4.1 explicitly leaves distributed finality under partition unresolved, any partition-sensitive commit should preserve:
 
@@ -3483,9 +3487,9 @@ UNKNOWN/GAP
 
 unless later canon supplies a valid finalization proof.
 
----
+______________________________________________________________________
 
-# 146. Competing Transaction Preservation
+## 146. Competing Transaction Preservation
 
 If:
 
@@ -3504,9 +3508,9 @@ may be more truthful than inventing a winner.
 
 Atomicity does not justify arbitrary conflict resolution.
 
----
+______________________________________________________________________
 
-# 147. No Popularity Resolution
+## 147. No Popularity Resolution
 
 ```text
 MORE AGENTS SUPPORT Tx-A
@@ -3524,9 +3528,9 @@ MORE INDEPENDENT SUPPORT
 
 Transaction authority must derive from governing validation, not vote-like repetition unless a canonical consensus law explicitly says otherwise.
 
----
+______________________________________________________________________
 
-# 148. Determinism Boundary
+## 148. Determinism Boundary
 
 The historical benchmark reports zero schedule-dependent final states within its tested operationalization.
 
@@ -3544,9 +3548,9 @@ ALL TRANSACTION SIZES
 
 as deterministic.
 
----
+______________________________________________________________________
 
-# 149. Replay Boundary
+## 149. Replay Boundary
 
 To make a committed transaction strictly replayable, a replay system may need to pin:
 
@@ -3563,9 +3567,9 @@ where those can affect output.
 
 Those requirements come from replayability reasoning and are not all source-defined Atomic Multi-RSCF fields.
 
----
+______________________________________________________________________
 
-# 150. Historical Evidence Preservation
+## 150. Historical Evidence Preservation
 
 The v4.1 benchmark should remain preserved as historical evidence even if later kernels supersede the implementation.
 
@@ -3586,9 +3590,9 @@ therefore v4.1 benchmark never happened
 
 Supersession changes current authority, not historical provenance.
 
----
+______________________________________________________________________
 
-# 151. Version Boundary
+## 151. Version Boundary
 
 The historical source is explicitly:
 
@@ -3610,9 +3614,9 @@ current K_ATOMIC_MULTI_RSCF semantics
 REQUIRES CURRENT KERNEL
 ```
 
----
+______________________________________________________________________
 
-# 152. Redirect Resolution Algorithm
+## 152. Redirect Resolution Algorithm
 
 A consumer encountering:
 
@@ -3633,9 +3637,9 @@ for substantive current law.
 
 Historical lineage may then be consulted only when required.
 
----
+______________________________________________________________________
 
-# 153. Obsidian Graph Role
+## 153. Obsidian Graph Role
 
 Within an Obsidian vault, this redirect can function as:
 
@@ -3648,9 +3652,9 @@ CANONICAL ROUTER
 
 without duplicating the kernel.
 
----
+______________________________________________________________________
 
-# 154. Obsidian Link Integrity
+## 154. Obsidian Link Integrity
 
 Required core link:
 
@@ -3684,9 +3688,9 @@ Framework:
 
 [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
 
-# 155. RSCF Node
+## 155. RSCF Node
 
 ```yaml
 RSCF-NODE:
@@ -3697,9 +3701,9 @@ RSCF-NODE:
 
 The exact path is inferred from the supplied source family unless separately confirmed.
 
----
+______________________________________________________________________
 
-# 156. RSCF Relations
+## 156. RSCF Relations
 
 ```yaml
 RSCF-RELATIONS:
@@ -3713,12 +3717,12 @@ RSCF-RELATIONS:
   - FRAMEWORK_CONTEXT: [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 ```
 
-> [!warning]
+> [!WARNING]
 > Relations beyond the source-supplied redirect/related links are graph-integration modeling unless independently present in authoritative RSCF canon.
 
----
+______________________________________________________________________
 
-# 157. Redirect Contract
+## 157. Redirect Contract
 
 ```yaml
 redirect_contract:
@@ -3742,9 +3746,9 @@ redirect_contract:
     - missing_target_fabrication
 ```
 
----
+______________________________________________________________________
 
-# 158. Redirect Validation
+## 158. Redirect Validation
 
 ```yaml
 redirect_validation:
@@ -3764,9 +3768,9 @@ redirect_validation:
 
 Illustrative validation schema.
 
----
+______________________________________________________________________
 
-# 159. Proof Capsule — Redirect
+## 159. Proof Capsule — Redirect
 
 ```yaml
 proof_capsule:
@@ -3802,9 +3806,9 @@ proof_capsule:
     kernel_mechanics: REQUIRES_KERNEL
 ```
 
----
+______________________________________________________________________
 
-# 160. Proof Capsule — Historical Atomicity
+## 160. Proof Capsule — Historical Atomicity
 
 ```yaml
 proof_capsule:
@@ -3835,9 +3839,9 @@ proof_capsule:
     - universal distributed finality
 ```
 
----
+______________________________________________________________________
 
-# 161. Proof Capsule — Benchmark
+## 161. Proof Capsule — Benchmark
 
 ```yaml
 proof_capsule:
@@ -3877,9 +3881,9 @@ proof_capsule:
 
 The benchmark values and their scope boundary come directly from the retrieved v4.1 source.
 
----
+______________________________________________________________________
 
-# 162. Atomicity Invariants
+## 162. Atomicity Invariants
 
 ## AMR-I1 — All-or-Nothing
 
@@ -3964,12 +3968,11 @@ MUST REMAIN VISIBLE
 UNTIL AUTHORITATIVELY RESOLVED.
 ```
 
----
+______________________________________________________________________
 
-# 163. Strong Firewall
+## 163. Strong Firewall
 
-> [!danger] Atomic Multi-RSCF Integrity Firewall
->
+> [!DANGER] Atomic Multi-RSCF Integrity Firewall
 > ```text
 > ATOMIC
 > !=
@@ -4044,9 +4047,9 @@ UNTIL AUTHORITATIVELY RESOLVED.
 > CURRENT KERNEL
 > ```
 
----
+______________________________________________________________________
 
-# 164. Compact Operational Contract
+## 164. Compact Operational Contract
 
 ```text
 ATOMIC_MULTI_RSCF
@@ -4144,9 +4147,9 @@ FLUENCY
 SPEED.
 ```
 
----
+______________________________________________________________________
 
-# 165. Canonical Resolution Map
+## 165. Canonical Resolution Map
 
 ```text
                     [[00_ROOT/00_HOME|00_HOME]]
@@ -4172,9 +4175,9 @@ SPEED.
 
 This graph is an integration representation of the supplied relations and known node roles; it is not itself a source diagram.
 
----
+______________________________________________________________________
 
-# 166. Historical Lineage Map
+## 166. Historical Lineage Map
 
 ```text
 v4.1
@@ -4202,9 +4205,9 @@ CERTIFIED TRANSACTIONS
 
 This map is directly normalized from the retrieved historical source.
 
----
+______________________________________________________________________
 
-# 167. Current Canon Boundary
+## 167. Current Canon Boundary
 
 The current redirect tells consumers where to obtain substantive authority:
 
@@ -4228,24 +4231,24 @@ SUFFICIENT TO INVENT
 THE MISSING CURRENT KERNEL BODY
 ```
 
----
+______________________________________________________________________
 
-# 168. Final Source Boundary
+## 168. Final Source Boundary
 
-> [!important] Source-Established
+> [!IMPORTANT] Source-Established
 > The historical AMOS v4.1 material explicitly establishes a **Transactional Multi-RSCF Runtime** focus containing transaction IDs, read/write sets, transaction-level CAS, atomic publication, cross-RSCF invariants, and all-or-nothing rollback. It also explicitly states that cross-RSCF update sets are treated atomically—**all-or-nothing**.
 
-> [!warning] Historical Gap
+> [!WARNING] Historical Gap
 > The same source explicitly leaves **distributed transaction finality under partition and competing certified transactions** unresolved at that layer.
 
-> [!note] Benchmark Boundary
+> [!NOTE] Benchmark Boundary
 > The v4.1 source reports 2,000 overlapping transaction trials, zero partial mixed states, zero schedule-dependent final states, zero atomicity violations, zero accepted write-skew violations, successful forced partial-failure rollback, transaction sizes through 1,000, and historical snapshot readers passing. The source itself limits those results to their tested operationalization and states that they are **not universal guarantees**.
 
----
+______________________________________________________________________
 
-# 169. Final Canon Boundary
+## 169. Final Canon Boundary
 
-> [!important]
+> [!IMPORTANT]
 > `ATOMIC_MULTI_RSCF` is a **redirect**, not an independent substantive kernel.
 >
 > Its canonical target is:
@@ -4262,11 +4265,12 @@ THE MISSING CURRENT KERNEL BODY
 >
 > The historical partition/finality gap must remain visible until an authoritative later kernel or law resolves it.
 
----
+______________________________________________________________________
 
-# 170. Related & Cross-Plane Navigation
+## 170. Related & Cross-Plane Navigation
 
 ### Upward & Canonical Hierarchy
+
 - [[00_ROOT/00_HOME|00_HOME]]
 - [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]
 - [[01_CANON/01_CORE_LAWS/01_CORE_LAWS_MOC|01_CORE_LAWS_MOC]]
@@ -4274,11 +4278,13 @@ THE MISSING CURRENT KERNEL BODY
 - [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
 ### Substantive Kernel & Validation
+
 - [[02_KERNEL/K_ATOMIC_MULTI_RSCF|K_ATOMIC_MULTI_RSCF]]
 - [[01_CANON/01_CORE_LAWS/ATOMIC_MULTI_RSCF_REASONING|ATOMIC_MULTI_RSCF_REASONING]]
 - [[01_CANON/01_CORE_LAWS/ATOMIC_MULTI_RSCF_VALIDATION_RECEIPT|ATOMIC_MULTI_RSCF_VALIDATION_RECEIPT]]
 
 ### Direct Core Law Foundations
+
 - [[01_CANON/01_CORE_LAWS/L0_INTEGRITY|L0_INTEGRITY]] — Base reality gate and anti-autopoisoning
 - [[01_CANON/01_CORE_LAWS/L1_EPISTEMIC|L1_EPISTEMIC]] — Epistemic boundaries and claim classification
 - [[01_CANON/01_CORE_LAWS/L2_PROVENANCE|L2_PROVENANCE]] — Ancestry and independent evidence verification
@@ -4297,6 +4303,7 @@ THE MISSING CURRENT KERNEL BODY
 - [[01_CANON/01_CORE_LAWS/ROLLBACK_AND_RECOVERY_BASINS|ROLLBACK_AND_RECOVERY_BASINS]] — Controlled rollback isolation
 
 ### Universe Canon Layers
+
 - [[01_CANON/02_UNIVERSE_CANON/P3_KNOWLEDGE_MEMORY|P3_KNOWLEDGE_MEMORY]] — Holographic memory & interference patterns
 - [[01_CANON/02_UNIVERSE_CANON/P4_COGNITION_MODELS|P4_COGNITION_MODELS]] — Multi-scale reasoning & scenario lattices
 - [[01_CANON/02_UNIVERSE_CANON/P5_GOVERNANCE_AUTHORITY|P5_GOVERNANCE_AUTHORITY]] — Governance validation & authority gates
@@ -4304,42 +4311,57 @@ THE MISSING CURRENT KERNEL BODY
 - [[01_CANON/02_UNIVERSE_CANON/P7_EVOLUTION_LEARNING|P7_EVOLUTION_LEARNING]] — Governed learning & mutation limits
 
 ### Cognitive Matrix & Registries
+
 - [[02_KERNEL/K_ATOMIC_MULTI_RSCF|K_ATOMIC_MULTI_RSCF]] — Computational Kernel ALU for Atomic Multi-RSCF
+
 - [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]] — 25 Cognitive Matrix Map of Content
+
 - [[25_COGNITIVE_MATRIX/COGNITIVE_MATRIX_README|COGNITIVE_MATRIX_README]] — Multi-dimensional conceptual routing
+
 - [[25_COGNITIVE_MATRIX/RSCF_X_GMEF|RSCF_X_GMEF]] — Non-compensatory evolutionary debt matrix
+
 - [[25_COGNITIVE_MATRIX/REALITY_X_RSCF_MATRIX|REALITY_X_RSCF_MATRIX]] — Reality to RSCF projection matrix
+
 - [[03_CONTROL_PLANE/09_COMMIT/09_COMMIT_MOC|09_COMMIT_MOC]] — Strategy & Commit Control Plane
+
 - [[11_KNOWLEDGE/03_RSCF/AMOS_RSCF_INDEX|AMOS_RSCF_INDEX]] — Master index of RSCF nodes
+
 - [[11_KNOWLEDGE/03_RSCF/CANON_RSCF_INDEX|CANON_RSCF_INDEX]] — Canon Law RSCF Index
+
 - [[11_KNOWLEDGE/03_RSCF/03_RSCF_MOC|03_RSCF_MOC]] — 03_RSCF Sub-plane Map of Content
+
 - [[11_KNOWLEDGE/03_RSCF/TSS_TPE_RSCF_INDEX|TSS_TPE_RSCF_INDEX]] — TSS & TPE RSCF Claim and Proof Index
+
 - [[11_KNOWLEDGE/03_RSCF/QLS_QCLA_RSCF_INDEX|QLS_QCLA_RSCF_INDEX]] — Quantum Logic Scaffold & Causality RSCF Index
+
 - [[11_KNOWLEDGE/03_RSCF/HERITAGE_RSCF_INDEX|HERITAGE_RSCF_INDEX]] — Heritage Intelligence RSCF Index
+
 - [[11_KNOWLEDGE/03_RSCF/TRANG_REALITY_RSCF_INDEX|TRANG_REALITY_RSCF_INDEX]] — Trang Reality Architecture RSCF Index
+
 - [[11_KNOWLEDGE/03_RSCF/UBI_RSCF_INDEX|UBI_RSCF_INDEX]] — Unified Biological Intelligence RSCF Index
+
 - [[11_KNOWLEDGE/03_RSCF/UNIVERSE_RSCF_INDEX|UNIVERSE_RSCF_INDEX]] — Universe Total Canon RSCF Index
 
-
 - [[11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/06_DOMAIN_KNOWLEDGE_MOC|06_DOMAIN_KNOWLEDGE_MOC]] — Domain Knowledge Map of Content
+
 - [[11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/HERITAGE_PATTERN_SYSTEMS|HERITAGE_PATTERN_SYSTEMS]] — Heritage Pattern & Cultural Invariant Systems
+
 - [[11_KNOWLEDGE/02_CLAIMS/CANON_CLAIM_REGISTRY|CANON_CLAIM_REGISTRY]] — Canonical claim ledger
+
 - [[11_KNOWLEDGE/02_CLAIMS/FRAMEWORK_CLAIM_REGISTRY|FRAMEWORK_CLAIM_REGISTRY]] — Framework equation and claim registry
+
 - [[11_KNOWLEDGE/02_CLAIMS/HERITAGE_CLAIM_REGISTRY|HERITAGE_CLAIM_REGISTRY]] — Heritage claim and invariant ledger
+
 - [[11_KNOWLEDGE/02_CLAIMS/UBI_CLAIM_REGISTRY|UBI_CLAIM_REGISTRY]] — Biological intelligence claims
 
-
-
 ### Framework & Ontology
+
 - [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
 
 **MOC:** [[01_CANON/01_CORE_LAWS/01_CORE_LAWS_MOC|01_CORE_LAWS_MOC]]
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] | [[00_ROOT/AMOS MOC|AMOS MOC]]
-
-
-

@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Amos-Engines-Master MOC
 type: moc
 source: 07_SKILLS/amos-engines-master
 tags:
-- amos-engines-master
-- type/skill
-- agent-template
-- skill
-- moc
+  - amos-engines-master
+  - type/skill
+  - agent-template
+  - skill
+  - moc
 moc: true
 rscf:
   state: DERIVED
@@ -19,17 +22,17 @@ updated: 2026-08-30
 
 # Amos-Engines-Master — Map of Content
 
-**Path:** `07_SKILLS/amos-engines-master`  
+**Path:** `07_SKILLS/amos-engines-master`\
 **Files:** 35 | **Subdirectories:** 2
 
----
+______________________________________________________________________
 
 ## Core Skill & Agent Template
 
 - [AGENT_TEMPLATE](AGENT_TEMPLATE.md) — Agent template for the amos-engines-master skill.
 - [SKILL](SKILL.md) — AMOS COGNITIVE ORGANISM OS skill definition.
 
----
+______________________________________________________________________
 
 ## References MOC
 
@@ -39,7 +42,7 @@ updated: 2026-08-30
 - [[07_SKILLS/amos-engines-master/references/index_unipower|index_unipower]] — Index Unipower.
 - [[07_SKILLS/amos-engines-master/references/meta_engines_index|meta_engines_index]] — AMOS Meta Engines Index vInfinity.
 
----
+______________________________________________________________________
 
 ## Engines & Capabilities
 
@@ -56,7 +59,7 @@ updated: 2026-08-30
 - [[07_SKILLS/amos-engines-master/references/unipower_tech_design_metabrain|unipower_tech_design_metabrain]] — UniPower Tech Design MetaBrain.
 - [vault_domain_knowledge](vault_domain_knowledge.md) — amos-engines-master — Vault-Sourced Domain Knowledge.
 
----
+______________________________________________________________________
 
 ## Brain & Consciousness Engine Notes
 
@@ -68,11 +71,11 @@ updated: 2026-08-30
 - [[07_SKILLS/amos-engines-master/references/brain_ultimate_intelligence_2026|brain_ultimate_intelligence_2026]] — AMOS Brain Ultimate Intelligence 2026 Complete.
 - [[07_SKILLS/amos-engines-master/references/brain_ultimate_synthesis|brain_ultimate_synthesis]] — AMOS Brain Ultimate Synthesis Complete.
 - [[07_SKILLS/amos-engines-master/references/brain_ultimate_transcendence|brain_ultimate_transcendence]] — AMOS Brain Ultimate Transcendence Complete.
-- [[05_COGNITIVE_ORGANISM/SUPER_CONSCIOUSNESS_ENGINE|super_consciousness_engine]] — AMOS SUPER Consciousness Engine.
+- [[05_COGNITIVE_ORGANISM/SUPER_CONSCIOUSNESS_ENGINE|super_consciousness_engine]] — AMOS SUPER Consciousness Engine.\n- [[07_SKILLS/amos-engines-master/references/super_consciousness_engine|super_consciousness_engine]] — AMOS SUPER Consciousness Engine (skill reference).
 - [[07_SKILLS/amos-engines-master/references/super_consciousness_engine_max|super_consciousness_engine_max]] — AMOS SUPER Consciousness Engine MAX H3.
 - [[07_SKILLS/amos-engines-master/references/super_kernel_engine|super_kernel_engine]] — AMOS SUPER Kernel and Engine.
 
----
+______________________________________________________________________
 
 ## Historical "Super Engine" Spec Notes
 
@@ -81,19 +84,21 @@ updated: 2026-08-30
 - [[07_SKILLS/amos-engines-master/references/super_engine_v1|super_engine_v1]] — AMOS Super Engine v1.0.0.
 - [[07_SKILLS/amos-engines-master/references/super_engine_v100|super_engine_v100]] — AMOS Super Engine v1.0.0 (v100 alias).
 
----
+______________________________________________________________________
 
 ## Supporting Files
 
 - `agents/openai.yaml` — OpenAI agent definition (non-markdown).
 - [references_MOC](references_MOC.md) — References Map of Content.
 
----
+______________________________________________________________________
 
----
-**References MOC:** [[07_SKILLS/spreadsheets/references/references_MOC|references_MOC]]
+______________________________________________________________________
 
----
+**References MOC:** [[07_SKILLS/amos-engines-master/references/references_MOC|references_MOC]]
+
+______________________________________________________________________
+
 **Skill:** [[07_SKILLS/amos-engines-master/SKILL|SKILL]]
 
 **Agent Template:** [[07_SKILLS/amos-engines-master/AGENT_TEMPLATE|AGENT_TEMPLATE]]

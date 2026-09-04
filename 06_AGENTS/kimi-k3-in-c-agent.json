@@ -62,7 +62,7 @@
     "kimi-k3-in-c"
   ],
   "depends_on_workflows": [
-    "kimi-k3-in-c-workflow.md"
+    "amos-kimi-k3-in-c-workflow.md"
   ],
   "epistemic_class": "AMOS_MODEL",
   "claim_ceiling": 0.95,

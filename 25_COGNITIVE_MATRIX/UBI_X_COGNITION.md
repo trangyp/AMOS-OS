@@ -12,32 +12,32 @@ segment: 25_COGNITIVE_MATRIX
 artifact_kind: MATRIX_SPEC
 path: 25_COGNITIVE_MATRIX/UBI_X_COGNITION.md
 tags:
-- amos-os
-- cognitive-matrix
-- vault
-- ubi_x_cognition
-- cognitive_pacing
-- working_memory_governance
-- biological_cognitive_coupling
-- reasoning_depth
-- distress_veto
-- emergency_state
-- 40hz
-- rscf
-- canon_candidate
-- ubi-x-cognition-matrix
-- ubi-cognition-binding
-- unified-biological-intelligence
-- amos-mind-os-framework
-- total-framework-matrix
-- total-kernel-matrix
-- total-canon-matrix
-- k-rscf
-- k-hml
-- k-provenance
-- k-fail-closed
-- k-governed-evolution
-- amos-core-v4-4
+  - amos-os
+  - cognitive-matrix
+  - vault
+  - ubi_x_cognition
+  - cognitive_pacing
+  - working_memory_governance
+  - biological_cognitive_coupling
+  - reasoning_depth
+  - distress_veto
+  - emergency_state
+  - 40hz
+  - rscf
+  - canon_candidate
+  - ubi-x-cognition-matrix
+  - ubi-cognition-binding
+  - unified-biological-intelligence
+  - amos-mind-os-framework
+  - total-framework-matrix
+  - total-kernel-matrix
+  - total-canon-matrix
+  - k-rscf
+  - k-hml
+  - k-provenance
+  - k-fail-closed
+  - k-governed-evolution
+  - amos-core-v4-4
 version: 2.0.0
 updated: '2026-08-28'
 status: ACTIVE_REFERENCE
@@ -50,23 +50,23 @@ rscf:
   state: CANON_SPEC
   claim_class: AMOS_MODEL
   provenance:
-  - 11_KNOWLEDGE/05_FRAMEWORKS/UBI_COGNITION_BINDING
-  - 11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE
-  - AMOS_CORPUS
+    - 11_KNOWLEDGE/05_FRAMEWORKS/UBI_COGNITION_BINDING
+    - 11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE
+    - AMOS_CORPUS
   scope:
-  - COGNITIVE_MATRIX
-  - COGNITIVE_INTEGRATION
-  - SOURCE_DEFINED_MODEL
+    - COGNITIVE_MATRIX
+    - COGNITIVE_INTEGRATION
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   matrix_counterpart:
     artifact:
-    - - UBI_X_COGNITION_MATRIX
+      -   - UBI_X_COGNITION_MATRIX
   knowledge_binding:
     artifact:
-    - - UBI_COGNITION_BINDING
+      -   - UBI_COGNITION_BINDING
   biological_master:
     artifact:
-    - - UNIFIED_BIOLOGICAL_INTELLIGENCE
+      -   - UNIFIED_BIOLOGICAL_INTELLIGENCE
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   specification_structure: VERIFIED_SOURCE_STRUCTURE
@@ -127,9 +127,9 @@ $$
 
 The known mathematical relations can be preserved structurally while unresolved identifiers remain explicit gaps.
 
----
+______________________________________________________________________
 
-# 2. Biological-Cognitive Invariant Coupling
+## 2. Biological-Cognitive Invariant Coupling
 
 The supplied source defines four elements:
 
@@ -140,9 +140,9 @@ The supplied source defines four elements:
 
 Together they form the specification's biological-cognitive coupling layer.
 
----
+______________________________________________________________________
 
-# 3. Four-Domain Index
+## 3. Four-Domain Index
 
 The visible source structure is:
 
@@ -169,9 +169,9 @@ $$
 
 where (I\_{4D}) is a **DERIVED placeholder notation**, not asserted as the source's exact variable name.
 
----
+______________________________________________________________________
 
-# 4. Geometric-Mean Structure
+## 4. Geometric-Mean Structure
 
 Mathematically:
 
@@ -185,9 +185,9 @@ Therefore the index has a multiplicative rather than additive structure.
 
 This is a **DERIVED mathematical characterization**.
 
----
+______________________________________________________________________
 
-# 5. Multiplicative Coupling
+## 5. Multiplicative Coupling
 
 The index structure means no component is represented merely as an additive contribution:
 
@@ -198,9 +198,9 @@ $$
 
 The source uses a product followed by a fourth root.
 
----
+______________________________________________________________________
 
-# 6. Domain Assumption Gap
+## 6. Domain Assumption Gap
 
 A real-valued geometric mean normally requires suitable input-domain assumptions.
 
@@ -214,9 +214,9 @@ or define their numeric ranges.
 
 Therefore the valid numerical domain remains **UNKNOWN/GAP**.
 
----
+______________________________________________________________________
 
-# 7. Zero-Sensitivity
+## 7. Zero-Sensitivity
 
 Under the visible formula, if the inputs are nonnegative and any one component equals zero:
 
@@ -232,9 +232,9 @@ $$
 
 This is a mathematical consequence of the displayed structure, not an empirical biological claim.
 
----
+______________________________________________________________________
 
-# 8. Weak-Domain Sensitivity
+## 8. Weak-Domain Sensitivity
 
 A multiplicative index is sensitive to low component values.
 
@@ -242,9 +242,9 @@ Thus a sufficiently low component can substantially reduce the aggregate even wh
 
 This is a **DERIVED property** of the source-defined formula.
 
----
+______________________________________________________________________
 
-# 9. Compensability Is Limited
+## 9. Compensability Is Limited
 
 Unlike an arithmetic sum, extremely high values in other domains do not linearly compensate for a near-zero component.
 
@@ -252,9 +252,9 @@ That behavior is structurally consistent with a model in which degradation of on
 
 The interpretation is **MODEL/DERIVED**, not independently validated physiology.
 
----
+______________________________________________________________________
 
-# 10. Scale Compatibility Requirement
+## 10. Scale Compatibility Requirement
 
 Multiplication of the four domains is only semantically meaningful if their source-defined scales are compatible with that operation.
 
@@ -268,15 +268,15 @@ The artifact does not independently provide:
 
 Therefore those details must be retrieved from:
 
-``
+\`\`
 
 or:
 
-``.
+\`\`.
 
----
+______________________________________________________________________
 
-# 11. Quadratic Emergence Law
+## 11. Quadratic Emergence Law
 
 The visible source relation is structurally:
 
@@ -294,11 +294,11 @@ E=I^2
 }
 $$
 
-where \(E\) and \(I\) are **placeholder normalization symbols** until the authoritative source confirms the original notation.
+where (E) and (I) are **placeholder normalization symbols** until the authoritative source confirms the original notation.
 
----
+______________________________________________________________________
 
-# 12. Quadratic Transform
+## 12. Quadratic Transform
 
 The source-defined law applies a square transform to the preceding index:
 
@@ -314,9 +314,9 @@ $$
 
 This is a mathematical consequence, not a biological validation claim.
 
----
+______________________________________________________________________
 
-# 13. Quadratic Emergence ≠ Empirical Emergence Law
+## 13. Quadratic Emergence ≠ Empirical Emergence Law
 
 The phrase `Quadratic Emergence Law` is source terminology.
 
@@ -334,9 +334,9 @@ SourceDefinedLaw
 EmpiricallyUniversalLaw
 $$
 
----
+______________________________________________________________________
 
-# 14. Emergence Semantic Gap
+## 14. Emergence Semantic Gap
 
 The artifact does not define what the resulting emergence variable measures.
 
@@ -351,9 +351,9 @@ Required authoritative details include:
 - calibration;
 - role in cognitive-tier selection.
 
----
+______________________________________________________________________
 
-# 15. Substrate Distress Veto
+## 15. Substrate Distress Veto
 
 The source explicitly supplies the predicate:
 
@@ -373,9 +373,9 @@ $$
 
 The surrounding delimiter corruption does not obscure the central threshold and actions.
 
----
+______________________________________________________________________
 
-# 16. Distress Control Relation
+## 16. Distress Control Relation
 
 A normalized representation is:
 
@@ -391,9 +391,9 @@ $$
 
 This preserves the visible source relation.
 
----
+______________________________________________________________________
 
-# 17. Strict Distress Boundary
+## 17. Strict Distress Boundary
 
 The source uses:
 
@@ -409,9 +409,9 @@ $$
 
 Therefore equality at exactly `0.20` does not satisfy this displayed predicate.
 
----
+______________________________________________________________________
 
-# 18. Distress Threshold ≠ Clinical Threshold
+## 18. Distress Threshold ≠ Clinical Threshold
 
 The value:
 
@@ -423,9 +423,9 @@ is a source-defined AMOS model threshold.
 
 Nothing in this artifact independently establishes it as a clinical biological cutoff.
 
----
+______________________________________________________________________
 
-# 19. Veto Semantic Boundary
+## 19. Veto Semantic Boundary
 
 The source names:
 
@@ -443,9 +443,9 @@ Do not automatically equate it with:
 
 The exact semantics require the framework binding.
 
----
+______________________________________________________________________
 
-# 20. ThrottleReasoningDepth
+## 20. ThrottleReasoningDepth
 
 The source additionally specifies:
 
@@ -461,9 +461,9 @@ It does not independently specify:
 - hysteresis;
 - recovery condition.
 
----
+______________________________________________________________________
 
-# 21. Veto + Throttle
+## 21. Veto + Throttle
 
 The conjunction:
 
@@ -477,17 +477,17 @@ indicates both source-defined controls are associated with the distress conditio
 
 But conjunction does not by itself establish transactional atomicity.
 
----
+______________________________________________________________________
 
-# 22. Distress Veto ≠ Emergency State
+## 22. Distress Veto ≠ Emergency State
 
 The cognitive state machine separately defines an Emergency tier.
 
 Therefore the general distress veto should not automatically be assumed identical to Emergency-state activation unless the biological preconditions coincide according to the authoritative state variables.
 
----
+______________________________________________________________________
 
-# 23. 40Hz Multi-Agent Clock Pacing
+## 23. 40Hz Multi-Agent Clock Pacing
 
 The source states:
 
@@ -505,17 +505,17 @@ MultiAgentReasoning
 DesynchronizationControl
 $$
 
----
+______________________________________________________________________
 
-# 24. 40Hz Claim Boundary
+## 24. 40Hz Claim Boundary
 
 The source-defined statement must not be silently promoted into a verified physical claim that AMOS literally implements a biological gamma oscillator.
 
 The artifact establishes the model specification, not independent hardware or neurophysiological evidence.
 
----
+______________________________________________________________________
 
-# 25. "Preventing" Is Strong Causal Language
+## 25. "Preventing" Is Strong Causal Language
 
 The phrase:
 
@@ -540,9 +540,9 @@ Therefore:
     NOT_ESTABLISHED_HERE
 ```
 
----
+______________________________________________________________________
 
-# 26. 40Hz Relation to Matrix Counterpart
+## 26. 40Hz Relation to Matrix Counterpart
 
 The counterpart matrix routes:
 
@@ -554,9 +554,9 @@ The two artifacts are structurally compatible.
 
 However, structural compatibility alone does not independently verify the mechanism.
 
----
+______________________________________________________________________
 
-# 27. Cognitive State Machine
+## 27. Cognitive State Machine
 
 The source defines three cognitive tiers:
 
@@ -575,9 +575,9 @@ Each row governs four dimensions:
 1. verification stance;
 1. action on substrate distress.
 
----
+______________________________________________________________________
 
-# 28. Cognitive State Schema
+## 28. Cognitive State Schema
 
 ```yaml
 COGNITIVE_STATE:
@@ -595,9 +595,9 @@ COGNITIVE_STATE:
 
 This schema is **DERIVED from the table columns**.
 
----
+______________________________________________________________________
 
-# 29. System 1 — Fast
+## 29. System 1 — Fast
 
 The source row establishes:
 
@@ -627,9 +627,9 @@ SYSTEM_1:
     FALLBACK_TO_SAFE_MODE
 ```
 
----
+______________________________________________________________________
 
-# 30. System 1 Missing Variable
+## 30. System 1 Missing Variable
 
 The supplied row visibly contains:
 
@@ -649,9 +649,9 @@ $$
 
 with (X\_{S1}) explicitly marked as a placeholder, not canonical notation.
 
----
+______________________________________________________________________
 
-# 31. System 1 Reasoning Budget
+## 31. System 1 Reasoning Budget
 
 The source specifies:
 
@@ -665,9 +665,9 @@ This is a source-defined reasoning-depth ceiling.
 
 It should not be confused with a claim that ChatGPT literally exposes or counts hidden internal reasoning steps in this manner.
 
----
+______________________________________________________________________
 
-# 32. System 1 Verification Stance
+## 32. System 1 Verification Stance
 
 The source specifies:
 
@@ -679,9 +679,9 @@ It does not authorize unsupported conclusions.
 
 AMOS integrity constraints remain load-bearing.
 
----
+______________________________________________________________________
 
-# 33. System 1 Distress Action
+## 33. System 1 Distress Action
 
 When:
 
@@ -697,9 +697,9 @@ The artifact does not define the exact Safe Mode state.
 
 That remains a dependency.
 
----
+______________________________________________________________________
 
-# 34. System 2 — Deep
+## 34. System 2 — Deep
 
 The source row establishes:
 
@@ -729,9 +729,9 @@ SYSTEM_2:
     SUSPEND_PROOF_AND_EMIT_CHECKPOINT
 ```
 
----
+______________________________________________________________________
 
-# 35. System 2 Missing Variable
+## 35. System 2 Missing Variable
 
 The visible source condition is:
 
@@ -758,9 +758,9 @@ Do not silently infer whether (X\_{S2}) is:
 - coherence;
 - another UBI variable.
 
----
+______________________________________________________________________
 
-# 36. System 2 Reasoning Budget
+## 36. System 2 Reasoning Budget
 
 The source specifies:
 
@@ -772,9 +772,9 @@ for System 2.
 
 Again, this is an AMOS model abstraction, not a literal disclosure of this assistant's hidden reasoning process.
 
----
+______________________________________________________________________
 
-# 37. Formal Theorem Prover
+## 37. Formal Theorem Prover
 
 The source names System 2's verification stance:
 
@@ -792,9 +792,9 @@ The artifact does not independently establish:
 
 Those require executable artifacts.
 
----
+______________________________________________________________________
 
-# 38. System 2 Distress Action
+## 38. System 2 Distress Action
 
 Under:
 
@@ -808,9 +808,9 @@ the table specifies:
 
 This is distinct from immediate rollback.
 
----
+______________________________________________________________________
 
-# 39. Checkpoint Semantics
+## 39. Checkpoint Semantics
 
 The artifact does not specify:
 
@@ -823,9 +823,9 @@ The artifact does not specify:
 
 These remain lower-level implementation dependencies.
 
----
+______________________________________________________________________
 
-# 40. Emergency Tier
+## 40. Emergency Tier
 
 The source establishes an Emergency tier with:
 
@@ -835,9 +835,9 @@ The source establishes an Emergency tier with:
 - `Halt & Null-State Reset`;
 - `Full Rollback to [missing state symbol]`.
 
----
+______________________________________________________________________
 
-# 41. Emergency Predicate
+## 41. Emergency Predicate
 
 Because the first variable is corrupted, the safe representation is:
 
@@ -849,11 +849,11 @@ X_E<0.30
 }
 $$
 
-where \(X_E\) is explicitly **UNRESOLVED**.
+where (X_E) is explicitly **UNRESOLVED**.
 
----
+______________________________________________________________________
 
-# 42. Emergency OR Semantics
+## 42. Emergency OR Semantics
 
 The source uses logical OR:
 
@@ -865,9 +865,9 @@ Therefore either source-defined condition is sufficient to satisfy the displayed
 
 This is load-bearing.
 
----
+______________________________________________________________________
 
-# 43. Emergency Reasoning Depth
+## 43. Emergency Reasoning Depth
 
 The source specifies:
 
@@ -879,9 +879,9 @@ for Emergency.
 
 Within the model, this means no further ordinary reasoning depth is allocated in that tier.
 
----
+______________________________________________________________________
 
-# 44. Emergency Verification Stance
+## 44. Emergency Verification Stance
 
 The source states:
 
@@ -889,9 +889,9 @@ The source states:
 
 This is stronger than the System 1 and System 2 distress responses.
 
----
+______________________________________________________________________
 
-# 45. Emergency Rollback
+## 45. Emergency Rollback
 
 The source states:
 
@@ -914,11 +914,11 @@ EMERGENCY_ROLLBACK:
     PROHIBITED_WITHOUT_AUTHORITATIVE_SOURCE
 ```
 
----
+______________________________________________________________________
 
-# 46. Do Not Invent S0
+## 46. Do Not Invent S0
 
-It may be tempting to infer that the missing rollback target is \(S_0\), especially given broader AMOS ground-state terminology.
+It may be tempting to infer that the missing rollback target is (S_0), especially given broader AMOS ground-state terminology.
 
 The supplied artifact does not preserve that symbol.
 
@@ -934,9 +934,9 @@ $$
 
 Retrieve the authoritative source before canonicalizing the target.
 
----
+______________________________________________________________________
 
-# 47. State-Machine Table
+## 47. State-Machine Table
 
 | Cognitive Tier      | Biological Precondition                 | Max Reasoning Depth | Verification Stance       | Action on (\\tau\_{bio}\<0.20)               |
 | ------------------- | --------------------------------------- | ------------------: | ------------------------- | -------------------------------------------- |
@@ -946,9 +946,9 @@ Retrieve the authoritative source before canonicalizing the target.
 
 `X_S1`, `X_S2`, and `X_E` are placeholders for missing source symbols and MUST NOT be promoted to canonical variable names.
 
----
+______________________________________________________________________
 
-# 48. Tier Ordering
+## 48. Tier Ordering
 
 The labels imply an operational distinction:
 
@@ -965,9 +965,9 @@ HALTED / RESET
 
 The source does not explicitly define a total numeric ordering between all tier states beyond their supplied conditions and depth limits.
 
----
+______________________________________________________________________
 
-# 49. System 1 vs System 2
+## 49. System 1 vs System 2
 
 The source assigns:
 
@@ -979,9 +979,9 @@ maximum reasoning steps.
 
 Therefore System 2 has the larger source-defined reasoning-depth budget.
 
----
+______________________________________________________________________
 
-# 50. System 2 Has Stricter Biological Preconditions
+## 50. System 2 Has Stricter Biological Preconditions
 
 The visible thresholds are:
 
@@ -1009,9 +1009,9 @@ If the missing first variables are the same metric, System 2's thresholds are st
 
 But because that identity is not preserved in the supplied source, the comparison is **CONDITIONAL**.
 
----
+______________________________________________________________________
 
-# 51. Gap Between System 1 and Emergency
+## 51. Gap Between System 1 and Emergency
 
 The visible first-metric thresholds include:
 
@@ -1037,9 +1037,9 @@ has no explicit tier assignment in the supplied table.
 
 But because variable identity is unresolved, this is a **CONDITIONAL potential gap**, not a confirmed state-machine hole.
 
----
+______________________________________________________________________
 
-# 52. Tau-Bio Intermediate Regions
+## 52. Tau-Bio Intermediate Regions
 
 Visible (\\tau\_{bio}) thresholds are:
 
@@ -1059,9 +1059,9 @@ No explicit state is provided for that region in this excerpt.
 
 This is a **DECISION-RELEVANT GAP**.
 
----
+______________________________________________________________________
 
-# 53. Tau-Bio 0.40–0.60 Region
+## 53. Tau-Bio 0.40–0.60 Region
 
 For:
 
@@ -1073,9 +1073,9 @@ the tau condition can satisfy System 1 but not System 2.
 
 Actual tier still depends on the missing first metric.
 
----
+______________________________________________________________________
 
-# 54. Tau-Bio ≥ 0.60
+## 54. Tau-Bio ≥ 0.60
 
 For:
 
@@ -1087,9 +1087,9 @@ the tau condition is compatible with both System 1 and System 2.
 
 Therefore tier selection requires the other biological precondition and potentially a precedence rule.
 
----
+______________________________________________________________________
 
-# 55. Tier Overlap Possibility
+## 55. Tier Overlap Possibility
 
 If System 1 and System 2 use the same first metric, then a sufficiently high value could satisfy both rows simultaneously.
 
@@ -1121,9 +1121,9 @@ Therefore a precedence rule such as "select highest eligible tier" would be nece
 
 The source excerpt does **not** explicitly provide that rule.
 
----
+______________________________________________________________________
 
-# 56. Do Not Invent Highest-Tier Wins
+## 56. Do Not Invent Highest-Tier Wins
 
 Although "highest eligible tier" is a plausible state-machine policy:
 
@@ -1135,9 +1135,9 @@ $$
 
 without authoritative binding.
 
----
+______________________________________________________________________
 
-# 57. Emergency Dominance
+## 57. Emergency Dominance
 
 Because Emergency explicitly contains halt/reset/rollback semantics, it plausibly overrides ordinary tiers.
 
@@ -1145,9 +1145,9 @@ However, explicit priority semantics are not included in the supplied excerpt.
 
 Therefore emergency dominance is architecturally plausible but should remain **MODEL/CONDITIONAL** until binding evidence is retrieved.
 
----
+______________________________________________________________________
 
-# 58. Distress Action vs Tier Preconditions
+## 58. Distress Action vs Tier Preconditions
 
 The table has both:
 
@@ -1176,9 +1176,9 @@ Therefore the distress action describes what occurs when biological state degrad
 
 This is a **DERIVED state-transition interpretation**.
 
----
+______________________________________________________________________
 
-# 59. Transition Model
+## 59. Transition Model
 
 A source-compatible conceptual state transition is:
 
@@ -1213,9 +1213,9 @@ TIER ELIGIBILITY
 
 This is **DERIVED**, not a verbatim source diagram.
 
----
+______________________________________________________________________
 
-# 60. Bi-Directional Coupling
+## 60. Bi-Directional Coupling
 
 The artifact explicitly describes the coupling as:
 
@@ -1240,9 +1240,9 @@ $$
 Cognition\rightarrow UBI
 $$
 
----
+______________________________________________________________________
 
-# 61. Reverse-Path Gap
+## 61. Reverse-Path Gap
 
 The reverse coupling is not mathematically specified in the supplied excerpt.
 
@@ -1264,9 +1264,9 @@ COGNITION_TO_UBI_PATH:
     ""
 ```
 
----
+______________________________________________________________________
 
-# 62. Cognitive Pacing
+## 62. Cognitive Pacing
 
 The specification directly governs reasoning depth:
 
@@ -1280,9 +1280,9 @@ EMERGENCY → 0
 
 Thus biological state is source-defined as a governor of cognitive pacing.
 
----
+______________________________________________________________________
 
-# 63. Cognitive Pacing ≠ Factual Confidence
+## 63. Cognitive Pacing ≠ Factual Confidence
 
 A deeper reasoning budget does not automatically produce higher factual confidence.
 
@@ -1294,9 +1294,9 @@ MoreReasoningDepth
 MoreEvidence
 $$
 
----
+______________________________________________________________________
 
-# 64. Cognitive Pacing ≠ Truth
+## 64. Cognitive Pacing ≠ Truth
 
 Likewise:
 
@@ -1316,9 +1316,9 @@ $$
 
 The depth value is a source-defined computational/governance budget, not epistemic proof by itself.
 
----
+______________________________________________________________________
 
-# 65. Formal Verification ≠ Formal Proof Without Certificate
+## 65. Formal Verification ≠ Formal Proof Without Certificate
 
 The label:
 
@@ -1328,17 +1328,17 @@ does not independently establish that every System 2 output is formally proven.
 
 Proof status requires an actual proof object or authoritative verification evidence.
 
----
+______________________________________________________________________
 
-# 66. Heuristic ≠ Unsupported Guessing
+## 66. Heuristic ≠ Unsupported Guessing
 
 System 1's `Heuristic / Pattern Match` stance does not waive provenance, scope, causal, or uncertainty constraints.
 
 It describes the source-defined verification mode, not permission to fabricate.
 
----
+______________________________________________________________________
 
-# 67. Emergency ≠ Universal Failure
+## 67. Emergency ≠ Universal Failure
 
 The Emergency tier is a model state triggered by source-defined biological predicates.
 
@@ -1346,9 +1346,9 @@ It does not establish that the underlying system is irrecoverably failed.
 
 The source explicitly provides rollback/reset behavior, implying a recovery-oriented control state.
 
----
+______________________________________________________________________
 
-# 68. Null-State Reset Semantic Gap
+## 68. Null-State Reset Semantic Gap
 
 `Null-State Reset` is source terminology.
 
@@ -1362,17 +1362,17 @@ The artifact does not define whether this means:
 
 Do not generalize beyond the source phrase.
 
----
+______________________________________________________________________
 
-# 69. Full Rollback Semantic Gap
+## 69. Full Rollback Semantic Gap
 
 Likewise, `Full Rollback` does not establish the rollback mechanism.
 
 Possible MVCC/CAS analogies remain models until explicitly bound.
 
----
+______________________________________________________________________
 
-# 70. Rollback ≠ MVCC by Default
+## 70. Rollback ≠ MVCC by Default
 
 AMOS CORE contains MVCC/CAS concepts in its lineage, but this artifact does not explicitly say the emergency rollback is implemented through them.
 
@@ -1386,9 +1386,9 @@ $$
 
 by default.
 
----
+______________________________________________________________________
 
-# 71. Null-State Reset ≠ Ground State by Default
+## 71. Null-State Reset ≠ Ground State by Default
 
 Similarly:
 
@@ -1400,9 +1400,9 @@ $$
 
 unless the authoritative binding establishes that equivalence.
 
----
+______________________________________________________________________
 
-# 72. 40Hz Clock ≠ Causal Epoch by Default
+## 72. 40Hz Clock ≠ Causal Epoch by Default
 
 The broader AMOS lineage contains causal epoch concepts.
 
@@ -1416,9 +1416,9 @@ $$
 
 unless explicitly bound.
 
----
+______________________________________________________________________
 
-# 73. Cognitive Depth ≠ H/M/L Depth
+## 73. Cognitive Depth ≠ H/M/L Depth
 
 The source's `Max Reasoning Depth` values must not automatically be equated with H/M/L retrieval levels.
 
@@ -1428,9 +1428,9 @@ Reasoning depth describes the source-defined cognitive tier budget.
 
 They are distinct dimensions unless another source binds them.
 
----
+______________________________________________________________________
 
-# 74. Cognitive Tier ≠ Adaptive Complexity Class
+## 74. Cognitive Tier ≠ Adaptive Complexity Class
 
 Likewise:
 
@@ -1446,13 +1446,13 @@ C0 / C1 / C2 / C3 / C4
 
 They can interact conceptually, but equivalence is not source-established here.
 
----
+______________________________________________________________________
 
-# 75. UBI Matrix Counterpart
+## 75. UBI Matrix Counterpart
 
 The artifact explicitly identifies:
 
-``
+\`\`
 
 as its matrix counterpart.
 
@@ -1465,9 +1465,9 @@ That artifact provides per-signal threshold routing:
 
 This specification provides higher-order aggregate cognitive governance.
 
----
+______________________________________________________________________
 
-# 76. Two-Level Control Architecture
+## 76. Two-Level Control Architecture
 
 Together, the supplied matrix counterpart and this specification support a two-level model:
 
@@ -1497,25 +1497,25 @@ REASONING DEPTH
 
 This is a **DERIVED cross-artifact synthesis**.
 
----
+______________________________________________________________________
 
-# 77. Local Trigger ≠ Global Emergency
+## 77. Local Trigger ≠ Global Emergency
 
 A local threshold crossing in `UBI_X_COGNITION_MATRIX` does not automatically imply Emergency state under this specification.
 
 The local and aggregate trigger systems use different predicates.
 
----
+______________________________________________________________________
 
-# 78. Global Emergency ≠ All Local Triggers
+## 78. Global Emergency ≠ All Local Triggers
 
 Likewise, Emergency does not require all four matrix-table triggers to fire unless the authoritative binding says so.
 
 No such equivalence is present here.
 
----
+______________________________________________________________________
 
-# 79. Aggregate Index vs Local Metrics
+## 79. Aggregate Index vs Local Metrics
 
 The source therefore appears to distinguish:
 
@@ -1536,9 +1536,9 @@ emergence quantity
 
 The exact mathematical relationship between these two sets is not fully supplied.
 
----
+______________________________________________________________________
 
-# 80. Tau-Bio Definition Gap
+## 80. Tau-Bio Definition Gap
 
 The artifact uses:
 
@@ -1562,9 +1562,9 @@ $$
 
 without authoritative evidence.
 
----
+______________________________________________________________________
 
-# 81. Critical Non-Equivalence
+## 81. Critical Non-Equivalence
 
 $$
 \boxed{
@@ -1590,9 +1590,9 @@ by assumption.
 
 This is a **CRITICAL GAP** because tier transitions depend on (\\tau\_{bio}).
 
----
+______________________________________________________________________
 
-# 82. Missing First-Tier Variable May Be Index — But Unknown
+## 82. Missing First-Tier Variable May Be Index — But Unknown
 
 The missing first variable in the state table could plausibly correspond to the index or emergence quantity introduced immediately before it.
 
@@ -1602,9 +1602,9 @@ Therefore preserve:
 
 `UNRESOLVED_SOURCE_SYMBOL`.
 
----
+______________________________________________________________________
 
-# 83. Source Topology
+## 83. Source Topology
 
 ```text
 UNIFIED_BIOLOGICAL_INTELLIGENCE
@@ -1624,9 +1624,9 @@ UNIFIED_BIOLOGICAL_INTELLIGENCE
 
 This topology is derived directly from the declared framework bindings and provenance.
 
----
+______________________________________________________________________
 
-# 84. Provenance Classes
+## 84. Provenance Classes
 
 The RSCF provenance explicitly names:
 
@@ -1644,17 +1644,17 @@ These are source-declared provenance anchors.
 
 Their presence does not independently prove the claims they contain.
 
----
+______________________________________________________________________
 
-# 85. Provenance Independence
+## 85. Provenance Independence
 
 `UBI_COGNITION_BINDING`, `UNIFIED_BIOLOGICAL_INTELLIGENCE`, and the current specification may share common ancestry in the AMOS corpus.
 
 Therefore they should not automatically be counted as three independent confirmations.
 
----
+______________________________________________________________________
 
-# 86. Canonical Status
+## 86. Canonical Status
 
 The artifact is:
 
@@ -1664,9 +1664,9 @@ It is not labeled final immutable canon.
 
 Therefore future authoritative promotion, supersession, or revision remains possible.
 
----
+______________________________________________________________________
 
-# 87. CANON_SPEC State
+## 87. CANON_SPEC State
 
 The RSCF state is:
 
@@ -1676,9 +1676,9 @@ This identifies the artifact's role in the source-defined RSCF topology.
 
 It does not independently upgrade empirical claims to `VERIFIED`.
 
----
+______________________________________________________________________
 
-# 88. Validation Status Boundary
+## 88. Validation Status Boundary
 
 The source states:
 
@@ -1696,9 +1696,9 @@ $$
 
 without the test suite/results.
 
----
+______________________________________________________________________
 
-# 89. Executable Binding Boundary
+## 89. Executable Binding Boundary
 
 The source states:
 
@@ -1716,9 +1716,9 @@ $$
 
 without executable artifacts and traces.
 
----
+______________________________________________________________________
 
-# 90. Runtime Observation Schema
+## 90. Runtime Observation Schema
 
 A robust implementation would need observations carrying at least:
 
@@ -1768,9 +1768,9 @@ UBI_COGNITIVE_OBSERVATION:
 
 This is a **DERIVED evidence schema**, not source text.
 
----
+______________________________________________________________________
 
-# 91. Freshness Requirement
+## 91. Freshness Requirement
 
 Because the model uses telemetry to govern current cognition, stale biological state can invalidate current tier selection.
 
@@ -1778,9 +1778,9 @@ The artifact does not specify a freshness bound.
 
 Therefore freshness policy remains a binding-level gap.
 
----
+______________________________________________________________________
 
-# 92. Temporal Ordering Gap
+## 92. Temporal Ordering Gap
 
 The artifact does not specify whether:
 
@@ -1791,9 +1791,9 @@ The artifact does not specify whether:
 
 This is material to runtime semantics.
 
----
+______________________________________________________________________
 
-# 93. Sampling Gap
+## 93. Sampling Gap
 
 The artifact does not state how frequently:
 
@@ -1809,9 +1809,9 @@ are recomputed.
 
 The 40Hz clock statement does not by itself answer this.
 
----
+______________________________________________________________________
 
-# 94. Do Not Infer 40Hz Sampling
+## 94. Do Not Infer 40Hz Sampling
 
 $$
 40Hz\ MultiAgentClock
@@ -1821,9 +1821,9 @@ $$
 
 unless explicitly bound.
 
----
+______________________________________________________________________
 
-# 95. Hysteresis Gap
+## 95. Hysteresis Gap
 
 No activation/deactivation hysteresis is supplied for cognitive tiers.
 
@@ -1831,17 +1831,17 @@ Without it, near-boundary telemetry could theoretically cause tier switching.
 
 Whether the executable binding solves this is unknown here.
 
----
+______________________________________________________________________
 
-# 96. Debounce Gap
+## 96. Debounce Gap
 
 No persistence window is supplied.
 
 The artifact does not state whether one low sample is enough to activate distress or Emergency.
 
----
+______________________________________________________________________
 
-# 97. Emergency Trigger Sensitivity
+## 97. Emergency Trigger Sensitivity
 
 The strict threshold:
 
@@ -1853,9 +1853,9 @@ means values near `0.20` are decision-critical.
 
 If measurement uncertainty crosses the threshold, Emergency classification becomes fragile.
 
----
+______________________________________________________________________
 
-# 98. Conditional Emergency
+## 98. Conditional Emergency
 
 If:
 
@@ -1869,9 +1869,9 @@ Without a measurement-error policy, Emergency classification should be treated a
 
 This is an illustrative sensitivity example.
 
----
+______________________________________________________________________
 
-# 99. System 2 Sensitivity
+## 99. System 2 Sensitivity
 
 Likewise, if:
 
@@ -1889,9 +1889,9 @@ $$
 
 so equality is eligible for this component of the System 2 predicate.
 
----
+______________________________________________________________________
 
-# 100. System 1 Boundary
+## 100. System 1 Boundary
 
 The source uses:
 
@@ -1907,9 +1907,9 @@ $$
 
 satisfies that component of System 1 eligibility.
 
----
+______________________________________________________________________
 
-# 101. Emergency Boundary
+## 101. Emergency Boundary
 
 The source uses:
 
@@ -1925,9 +1925,9 @@ $$
 
 does **not** satisfy the displayed emergency tau predicate.
 
----
+______________________________________________________________________
 
-# 102. Boundary Asymmetry
+## 102. Boundary Asymmetry
 
 Therefore the tau thresholds leave explicitly different boundary behavior:
 
@@ -1947,9 +1947,9 @@ tau_bio >= 0.60
 
 The region from `0.20` through values below `0.40` remains unresolved by these displayed tau conditions.
 
----
+______________________________________________________________________
 
-# 103. Safe Mode Gap
+## 103. Safe Mode Gap
 
 `Fallback to Safe Mode` is source-defined.
 
@@ -1957,15 +1957,15 @@ But `Safe Mode` itself is not defined here.
 
 Required retrieval target:
 
-``
+\`\`
 
 and potentially:
 
-``.
+\`\`.
 
----
+______________________________________________________________________
 
-# 104. Checkpoint Gap
+## 104. Checkpoint Gap
 
 `Emit Checkpoint` is source-defined.
 
@@ -1973,9 +1973,9 @@ But checkpoint semantics are not defined here.
 
 Do not silently map it to MVCC snapshots or RSCF persistence without binding evidence.
 
----
+______________________________________________________________________
 
-# 105. Halt Gap
+## 105. Halt Gap
 
 `Halt` is explicit in Emergency.
 
@@ -1990,9 +1990,9 @@ It may mean:
 
 Only the first three are plausible interpretations; none should be canonized without source support.
 
----
+______________________________________________________________________
 
-# 106. Reset Gap
+## 106. Reset Gap
 
 `Null-State Reset` is explicit.
 
@@ -2008,9 +2008,9 @@ $$
 
 by assumption.
 
----
+______________________________________________________________________
 
-# 107. Rollback Gap
+## 107. Rollback Gap
 
 `Full Rollback` is explicit.
 
@@ -2018,9 +2018,9 @@ The rollback target symbol is corrupted.
 
 This is a **CRITICAL source-recovery gap** because exact emergency final state is load-bearing.
 
----
+______________________________________________________________________
 
-# 108. Source Recovery Priority
+## 108. Source Recovery Priority
 
 The highest-value source recovery targets are:
 
@@ -2042,9 +2042,9 @@ The highest-value source recovery targets are:
 
 These can materially alter interpretation and should be recovered before cosmetic formatting.
 
----
+______________________________________________________________________
 
-# 109. Cognitive Governance Principle
+## 109. Cognitive Governance Principle
 
 The source structurally establishes:
 
@@ -2060,9 +2060,9 @@ This is one of the specification's strongest architectural conclusions.
 
 It remains a model relation, not a universal biological law.
 
----
+______________________________________________________________________
 
-# 110. Resource-Constrained Cognition
+## 110. Resource-Constrained Cognition
 
 The tier table implements a source-defined principle that cognitive work is constrained by biological/substrate state.
 
@@ -2070,9 +2070,9 @@ Higher-capacity state permits deeper reasoning; distress causes throttling, susp
 
 This is **DERIVED architectural synthesis**.
 
----
+______________________________________________________________________
 
-# 111. Integrity Before Cognitive Depth
+## 111. Integrity Before Cognitive Depth
 
 The specification does not license deeper reasoning when substrate distress vetoes it.
 
@@ -2086,9 +2086,9 @@ $$
 
 as a control priority.
 
----
+______________________________________________________________________
 
-# 112. Reasoning Depth Is Governed
+## 112. Reasoning Depth Is Governed
 
 The model does not treat reasoning depth as unbounded.
 
@@ -2112,9 +2112,9 @@ $$
 D_{max}(Emergency)=0
 $$
 
----
+______________________________________________________________________
 
-# 113. Dynamic Throttling
+## 113. Dynamic Throttling
 
 Because the allowed depth depends on biological state, the specification defines dynamic rather than fixed cognitive pacing.
 
@@ -2126,9 +2126,9 @@ $$
 
 This is **DERIVED**.
 
----
+______________________________________________________________________
 
-# 114. Verification Is State-Dependent
+## 114. Verification Is State-Dependent
 
 The source also changes verification stance with tier:
 
@@ -2152,9 +2152,9 @@ $$
 
 Therefore the model couples biological state not only to computational depth but also to epistemic/verification mode.
 
----
+______________________________________________________________________
 
-# 115. Verification Mode ≠ Epistemic Class
+## 115. Verification Mode ≠ Epistemic Class
 
 The runtime verification stance must not be confused with conclusion classes such as:
 
@@ -2167,9 +2167,9 @@ The runtime verification stance must not be confused with conclusion classes suc
 
 A System 2 computation does not automatically make its conclusion VERIFIED.
 
----
+______________________________________________________________________
 
-# 116. Cognitive Tier ≠ Confidence Level
+## 116. Cognitive Tier ≠ Confidence Level
 
 Likewise:
 
@@ -2189,9 +2189,9 @@ $$
 
 Confidence depends on evidence and premises.
 
----
+______________________________________________________________________
 
-# 117. Cognitive Tier ≠ Stakes
+## 117. Cognitive Tier ≠ Stakes
 
 A high-stakes decision should not automatically use System 2 merely because it is high stakes if biological preconditions prohibit it within the source model.
 
@@ -2199,9 +2199,9 @@ Conversely, low stakes do not prove System 1 is sufficient.
 
 Tier eligibility and decision governance are distinct dimensions.
 
----
+______________________________________________________________________
 
-# 118. Causal Firewall
+## 118. Causal Firewall
 
 The specification contains biological-to-cognitive routing.
 
@@ -2217,25 +2217,25 @@ as a universally verified causal effect.
 
 Operational control logic can be source-defined without the underlying causal interpretation being empirically proven.
 
----
+______________________________________________________________________
 
-# 119. Structural Similarity Firewall
+## 119. Structural Similarity Firewall
 
 The specification resembles adaptive-computation and physiological-control architectures.
 
 That similarity does not prove lineage from or equivalence to any external theory.
 
----
+______________________________________________________________________
 
-# 120. Gamma Analogy Firewall
+## 120. Gamma Analogy Firewall
 
 The use of `40Hz gamma-coherent` terminology resembles neurophysiological gamma-band language.
 
 Similarity of terminology does not establish that AMOS's mechanism is literally neural gamma synchronization.
 
----
+______________________________________________________________________
 
-# 121. System 1/System 2 Terminology Firewall
+## 121. System 1/System 2 Terminology Firewall
 
 The labels `System 1` and `System 2` resemble established dual-process terminology.
 
@@ -2243,17 +2243,17 @@ This artifact does not by itself establish exact equivalence to any external psy
 
 Preserve AMOS-local semantics unless the source explicitly establishes lineage.
 
----
+______________________________________________________________________
 
-# 122. Biological Terminology Firewall
+## 122. Biological Terminology Firewall
 
 `Neurobiological`, `Neuroemotional`, `Somatic`, and `Bioelectromagnetic` are source-defined UBI classes.
 
 Do not automatically infer validated physiological measurement channels.
 
----
+______________________________________________________________________
 
-# 123. Human-Health Firewall
+## 123. Human-Health Firewall
 
 Nothing in this specification alone supports diagnosing a person's:
 
@@ -2265,9 +2265,9 @@ Nothing in this specification alone supports diagnosing a person's:
 
 Human-health use requires independently validated measurement and governance.
 
----
+______________________________________________________________________
 
-# 124. Scale Firewall
+## 124. Scale Firewall
 
 The visible thresholds:
 
@@ -2284,9 +2284,9 @@ suggest normalized quantities but do not prove a `[0,1]` scale.
 
 Do not silently canonize the scale.
 
----
+______________________________________________________________________
 
-# 125. Threshold Hierarchy
+## 125. Threshold Hierarchy
 
 The visible thresholds form the numeric ordering:
 
@@ -2298,17 +2298,17 @@ This is mathematically verified from the supplied numbers.
 
 Their semantic relationship depends on the unresolved variables.
 
----
+______________________________________________________________________
 
-# 126. No Universal Monotonicity Proof
+## 126. No Universal Monotonicity Proof
 
 Although the thresholds suggest increasing biological requirements for deeper cognition, exact monotonicity across all state variables cannot be proven while the first table variable is missing.
 
 Therefore the strongest classification is **CONDITIONAL**.
 
----
+______________________________________________________________________
 
-# 127. Competing Interpretations of Missing Variable
+## 127. Competing Interpretations of Missing Variable
 
 At least three plausible interpretations remain:
 
@@ -2331,9 +2331,9 @@ COMPETING:
 
 No hypothesis should be selected solely from textual proximity.
 
----
+______________________________________________________________________
 
-# 128. Cheapest Discriminating Test
+## 128. Cheapest Discriminating Test
 
 The cheapest high-information test is:
 
@@ -2341,9 +2341,9 @@ The cheapest high-information test is:
 
 That single retrieval could resolve several critical gaps simultaneously.
 
----
+______________________________________________________________________
 
-# 129. Competing Interpretation of Tau-Bio
+## 129. Competing Interpretation of Tau-Bio
 
 Possible interpretations include:
 
@@ -2369,9 +2369,9 @@ TAU_BIO_COMPETING:
 
 The supplied artifact does not discriminate among them.
 
----
+______________________________________________________________________
 
-# 130. Tau-Bio Must Remain Independent Symbol
+## 130. Tau-Bio Must Remain Independent Symbol
 
 Until resolved:
 
@@ -2383,9 +2383,9 @@ must remain its own source symbol.
 
 Do not algebraically substitute the four-domain index or emergence quantity.
 
----
+______________________________________________________________________
 
-# 131. Local/Global Interaction Gap
+## 131. Local/Global Interaction Gap
 
 The counterpart matrix supplies local triggers while this specification supplies global tier controls.
 
@@ -2398,9 +2398,9 @@ The binding must determine whether:
 
 This is a decision-relevant runtime gap.
 
----
+______________________________________________________________________
 
-# 132. Emergency vs Local Throttling
+## 132. Emergency vs Local Throttling
 
 For example, the counterpart SI row can invoke:
 
@@ -2414,17 +2414,17 @@ If both predicates are active, the source excerpt does not specify precedence.
 
 Do not assume throttling precedes halt or vice versa.
 
----
+______________________________________________________________________
 
-# 133. Emergency vs NBI Compaction
+## 133. Emergency vs NBI Compaction
 
 Likewise, Emergency rollback may conflict with ongoing context compaction/cache eviction.
 
 Joint semantics require authoritative binding.
 
----
+______________________________________________________________________
 
-# 134. Emergency vs BEI Resynchronization
+## 134. Emergency vs BEI Resynchronization
 
 A resynchronization pulse during a halt/reset state may be:
 
@@ -2434,19 +2434,19 @@ A resynchronization pulse during a halt/reset state may be:
 
 The source excerpt does not resolve this.
 
----
+______________________________________________________________________
 
-# 135. Multi-RSCF Analogy Firewall
+## 135. Multi-RSCF Analogy Firewall
 
 Because multiple cognitive/biological states may interact, atomic multi-RSCF reasoning concepts may become relevant at the AMOS architectural level.
 
-But this specification does not explicitly bind its state transitions to ``.
+But this specification does not explicitly bind its state transitions to \`\`.
 
 Therefore no such implementation claim should be made.
 
----
+______________________________________________________________________
 
-# 136. Persistent-Provenance Requirement
+## 136. Persistent-Provenance Requirement
 
 For consequential tier transitions, provenance should conceptually preserve:
 
@@ -2461,9 +2461,9 @@ For consequential tier transitions, provenance should conceptually preserve:
 
 This is a **DERIVED governance requirement**.
 
----
+______________________________________________________________________
 
-# 137. Causal Epoch Analogy Firewall
+## 137. Causal Epoch Analogy Firewall
 
 The 40Hz clock may appear analogous to causal-epoch coordination.
 
@@ -2471,9 +2471,9 @@ Do not identify them without source binding.
 
 Shared timing concepts do not establish shared semantics.
 
----
+______________________________________________________________________
 
-# 138. Failure-Recovery Model
+## 138. Failure-Recovery Model
 
 The three tier responses imply progressively stronger control:
 
@@ -2493,9 +2493,9 @@ HALT + RESET + FULL ROLLBACK
 
 This is a **DERIVED recovery hierarchy**.
 
----
+______________________________________________________________________
 
-# 139. Progressive Intervention
+## 139. Progressive Intervention
 
 The source therefore supports a conceptual progression from:
 
@@ -2511,9 +2511,9 @@ depending on cognitive tier and biological distress.
 
 Exact transition ordering remains binding-dependent.
 
----
+______________________________________________________________________
 
-# 140. Reversibility
+## 140. Reversibility
 
 `Fallback`, `Suspend`, `Checkpoint`, and `Rollback` all suggest recovery-oriented operations.
 
@@ -2521,25 +2521,25 @@ However, their reversibility properties are not formally specified.
 
 Do not assume all actions are lossless.
 
----
+______________________________________________________________________
 
-# 141. Checkpoint Before Rollback?
+## 141. Checkpoint Before Rollback?
 
 The source specifies checkpoint emission for System 2 distress but does not state whether Emergency always has a usable checkpoint.
 
 Therefore rollback recoverability cannot be assumed.
 
----
+______________________________________________________________________
 
-# 142. Rollback Target Freshness
+## 142. Rollback Target Freshness
 
 If rollback depends on a prior state, that state's validity and freshness become load-bearing.
 
 The artifact does not define checkpoint retention or rollback-target selection.
 
----
+______________________________________________________________________
 
-# 143. State Transition Provenance
+## 143. State Transition Provenance
 
 A runtime transition record should conceptually carry:
 
@@ -2575,9 +2575,9 @@ COGNITIVE_TRANSITION:
 
 This is **DERIVED**.
 
----
+______________________________________________________________________
 
-# 144. Adversarial Validation — Strongest Supported Conclusion
+## 144. Adversarial Validation — Strongest Supported Conclusion
 
 The strongest supported architectural conclusion is:
 
@@ -2585,9 +2585,9 @@ The strongest supported architectural conclusion is:
 
 This is strongly supported by the supplied structure.
 
----
+______________________________________________________________________
 
-# 145. Adversarial Challenge
+## 145. Adversarial Challenge
 
 That conclusion must be bounded because:
 
@@ -2601,9 +2601,9 @@ That conclusion must be bounded because:
 
 Therefore the architecture is source-grounded, but several exact runtime semantics remain unresolved.
 
----
+______________________________________________________________________
 
-# 146. Confidence Ceiling
+## 146. Confidence Ceiling
 
 A conclusion about tier eligibility cannot exceed confidence in:
 
@@ -2623,17 +2623,17 @@ $$
 
 This is a **DERIVED confidence ceiling**.
 
----
+______________________________________________________________________
 
-# 147. Emergency Confidence Ceiling
+## 147. Emergency Confidence Ceiling
 
 Because Emergency can cause halt/reset/rollback, its validation threshold should be higher than a reversible pacing adjustment.
 
 The missing variable and rollback target are therefore **CRITICAL**, not cosmetic, gaps.
 
----
+______________________________________________________________________
 
-# 148. Gap Classification
+## 148. Gap Classification
 
 ```yaml
 GAPS:
@@ -2670,9 +2670,9 @@ GAPS:
       where meaning is otherwise recoverable
 ```
 
----
+______________________________________________________________________
 
-# 149. Fast Path
+## 149. Fast Path
 
 A local cognitive-tier decision is safe only when:
 
@@ -2698,9 +2698,9 @@ NO LOCAL UBI ACTION CONFLICTS
 ACTION IS WITHIN SOURCE-DEFINED SCOPE
 ```
 
----
+______________________________________________________________________
 
-# 150. Escalation Conditions
+## 150. Escalation Conditions
 
 Escalate when:
 
@@ -2734,9 +2734,9 @@ CONSTITUTIONAL TEST STATUS IS AUDITED
 EXECUTABLE BINDING IS AUDITED
 ```
 
----
+______________________________________________________________________
 
-# 151. Minimum Runtime Algorithm
+## 151. Minimum Runtime Algorithm
 
 A source-compatible high-level algorithm is:
 
@@ -2776,9 +2776,9 @@ RE-EVALUATE ON FRESH TELEMETRY
 
 This is **DERIVED**, not claimed as the executable implementation.
 
----
+______________________________________________________________________
 
-# 152. H Capsule
+## 152. H Capsule
 
 ```yaml
 H:
@@ -2809,9 +2809,9 @@ H:
     2.0.0
 ```
 
----
+______________________________________________________________________
 
-# 153. M Capsule
+## 153. M Capsule
 
 ```yaml
 M:
@@ -2892,9 +2892,9 @@ M:
         UNRESOLVED
 ```
 
----
+______________________________________________________________________
 
-# 154. L Retrieval Capsule
+## 154. L Retrieval Capsule
 
 ```yaml
 L:
@@ -2960,9 +2960,9 @@ L:
       - empirical_biological_validation
 ```
 
----
+______________________________________________________________________
 
-# 155. Master Machine Representation
+## 155. Master Machine Representation
 
 ```yaml
 UBI_X_COGNITION_SPEC:
@@ -3110,9 +3110,9 @@ UBI_X_COGNITION_SPEC:
       ""
 ```
 
----
+______________________________________________________________________
 
-# 156. RSCF Master Contract
+## 156. RSCF Master Contract
 
 ```yaml
 RSCF:
@@ -3188,9 +3188,9 @@ RSCF:
       UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 157. Proof Capsule
+## 157. Proof Capsule
 
 ```yaml
 PROOF_CAPSULE:
@@ -3290,9 +3290,9 @@ PROOF_CAPSULE:
       UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 158. Minimum Constitutional Tests
+## 158. Minimum Constitutional Tests
 
 A source-compatible test suite should include at least:
 
@@ -3326,9 +3326,9 @@ TAU_BIO_TESTS:
 
 These tests follow directly from the visible strict/non-strict inequalities.
 
----
+______________________________________________________________________
 
-# 159. Missing-Metric Tests
+## 159. Missing-Metric Tests
 
 Once the first biological variable is recovered, tests should cover:
 
@@ -3350,9 +3350,9 @@ ABOVE SYSTEM 2 THRESHOLD
 
 with cross-products against (\\tau\_{bio}).
 
----
+______________________________________________________________________
 
-# 160. Tier-Overlap Tests
+## 160. Tier-Overlap Tests
 
 If System 1 and System 2 share the same first variable, tests must explicitly establish precedence when both predicates are true.
 
@@ -3364,9 +3364,9 @@ Eligibility
 UniqueStateSelection
 $$
 
----
+______________________________________________________________________
 
-# 161. Distress-Transition Tests
+## 161. Distress-Transition Tests
 
 Test transitions such as:
 
@@ -3386,9 +3386,9 @@ AUTHORITATIVE EMERGENCY TRANSITION
 
 The exact ordering between row-specific distress behavior and Emergency activation requires binding clarification.
 
----
+______________________________________________________________________
 
-# 162. 40Hz Validation Tests
+## 162. 40Hz Validation Tests
 
 Runtime validation of the source-defined clock claim would require evidence that:
 
@@ -3401,9 +3401,9 @@ Runtime validation of the source-defined clock claim would require evidence that
 
 The current artifact supplies none of those traces.
 
----
+______________________________________________________________________
 
-# 163. Anti-Fabrication Contract
+## 163. Anti-Fabrication Contract
 
 This artifact MUST NOT by itself be used to claim:
 
@@ -3413,7 +3413,7 @@ This artifact MUST NOT by itself be used to claim:
 1. the first System 1 metric is known;
 1. the first System 2 metric is known;
 1. the first Emergency metric is known;
-1. the emergency rollback target is \(S_0\);
+1. the emergency rollback target is (S_0);
 1. (\\tau\_{bio}) equals the four-domain index;
 1. (\\tau\_{bio}) equals emergence;
 1. the missing tier variable equals the four-domain index;
@@ -3442,7 +3442,7 @@ This artifact MUST NOT by itself be used to claim:
 1. System 2 always has priority over System 1;
 1. Emergency priority semantics are fully defined here;
 1. Safe Mode is defined here;
-1. Null-State Reset means \(S_0\);
+1. Null-State Reset means (S_0);
 1. Null-State Reset means global AMOS reset;
 1. Full Rollback uses MVCC;
 1. Full Rollback uses CAS;
@@ -3478,9 +3478,9 @@ This artifact MUST NOT by itself be used to claim:
 1. stale telemetry can safely govern current cognition;
 1. precise telemetry values imply precise biological truth.
 
----
+______________________________________________________________________
 
-# 164. Anti-Regression Contract
+## 164. Anti-Regression Contract
 
 Future revisions should preserve or explicitly supersede:
 
@@ -3606,9 +3606,9 @@ PROVENANCE-INDEPENDENCE FIREWALL
 SCOPE / REGIME FIREWALL
 ```
 
----
+______________________________________________________________________
 
-# 165. Invalidation Conditions
+## 165. Invalidation Conditions
 
 Revalidate when:
 
@@ -3678,9 +3678,9 @@ PROVENANCE TOPOLOGY CHANGES
 ENVIRONMENT OR REGIME CHANGES
 ```
 
----
+______________________________________________________________________
 
-# 166. RSCF Relations
+## 166. RSCF Relations
 
 ```yaml
 RSCF_RELATIONS:
@@ -3742,9 +3742,9 @@ RSCF_RELATIONS:
       ""
 ```
 
----
+______________________________________________________________________
 
-# 167. Native Canon Ingestion
+## 167. Native Canon Ingestion
 
 ```yaml
 UBI_X_COGNITION_INGESTION:
@@ -3912,9 +3912,9 @@ UBI_X_COGNITION_INGESTION:
       - PRESERVE_UNKNOWN_WHEN_CANON_IS_MISSING
 ```
 
----
+______________________________________________________________________
 
-# 168. Canonical Compression
+## 168. Canonical Compression
 
 ```text
                     UBI
@@ -4012,9 +4012,9 @@ EMPIRICAL BIOLOGICAL VALIDITY
 NOT ESTABLISHED HERE
 ```
 
----
+______________________________________________________________________
 
-# 169. Final Canonical Candidate Statement
+## 169. Final Canonical Candidate Statement
 
 **UBI × Cognition Cognitive Matrix Specification v2.0.0** is the source-defined AMOS specification governing the coupling between Unified Biological Intelligence telemetry and high-order cognitive operation.
 
@@ -4131,7 +4131,7 @@ The decisive integrity boundaries are:
 
 **THE FIRST BIOLOGICAL VARIABLE IN THE SYSTEM 1, SYSTEM 2, AND EMERGENCY PRECONDITIONS IS MISSING FROM THE SUPPLIED TEXT.**
 
-**THE EMERGENCY ROLLBACK TARGET SYMBOL IS MISSING. IT MUST NOT BE SILENTLY RECONSTRUCTED AS \(S_0\).**
+**THE EMERGENCY ROLLBACK TARGET SYMBOL IS MISSING. IT MUST NOT BE SILENTLY RECONSTRUCTED AS (S_0).**
 
 **(\\tau\_{bio}) IS SOURCE-DEFINED BUT NOT SEMANTICALLY DEFINED IN THIS EXCERPT. IT MUST NOT BE ASSUMED EQUAL TO THE FOUR-DOMAIN INDEX OR EMERGENCE QUANTITY.**
 
@@ -4153,7 +4153,7 @@ The decisive integrity boundaries are:
 
 **40HZ MULTI-AGENT PACING MUST NOT BE SILENTLY IDENTIFIED WITH AMOS CAUSAL-EPOCH FINALITY.**
 
-**NULL-STATE RESET MUST NOT BE SILENTLY IDENTIFIED WITH \(S_0\).**
+**NULL-STATE RESET MUST NOT BE SILENTLY IDENTIFIED WITH (S_0).**
 
 **FULL ROLLBACK MUST NOT BE SILENTLY IDENTIFIED WITH MVCC/CAS IMPLEMENTATION.**
 
@@ -4169,7 +4169,7 @@ The decisive integrity boundaries are:
 
 **THE SOURCE DECLARES `executable_binding: ESTABLISHED`; INDEPENDENT RUNTIME VERIFICATION REQUIRES THE EXECUTABLE BINDING AND TRACES.**
 
-**THE CHEAPEST HIGH-INFORMATION NEXT RETRIEVAL IS THE INTACT `` / `` SOURCE PATH, BECAUSE IT CAN RESOLVE THE MISSING TIER VARIABLE, (\\tau\_{bio}), AND EMERGENCY ROLLBACK SEMANTICS WITHOUT SPECULATIVE RECONSTRUCTION.**
+**THE CHEAPEST HIGH-INFORMATION NEXT RETRIEVAL IS THE INTACT `/` SOURCE PATH, BECAUSE IT CAN RESOLVE THE MISSING TIER VARIABLE, (\\tau\_{bio}), AND EMERGENCY ROLLBACK SEMANTICS WITHOUT SPECULATIVE RECONSTRUCTION.**
 
 Operational compression:
 
@@ -4275,15 +4275,15 @@ $$
 
 The specification can therefore function canonically as the **AMOS UBI-to-cognitive-governance contract**, while the corrupted source symbols, (\\tau\_{bio}) semantics, tier precedence, emergency rollback target, reverse coupling, and executable/empirical verification remain explicit dependencies rather than being filled with invented canon.
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|AMOS MOC]]
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]] · [[25_COGNITIVE_MATRIX/UBI_X_COGNITION_MATRIX|UBI_X_COGNITION_MATRIX]] · [[11_KNOWLEDGE/05_FRAMEWORKS/UBI_COGNITION_BINDING|UBI_COGNITION_BINDING]] · [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]] · [[11_KNOWLEDGE/05_FRAMEWORKS/AMOS_MIND_OS_FRAMEWORK|AMOS_MIND_OS_FRAMEWORK]] · [[25_COGNITIVE_MATRIX/TOTAL_FRAMEWORK_MATRIX|TOTAL_FRAMEWORK_MATRIX]] · [[25_COGNITIVE_MATRIX/TOTAL_KERNEL_MATRIX|TOTAL_KERNEL_MATRIX]] · [[25_COGNITIVE_MATRIX/TOTAL_CANON_MATRIX|TOTAL_CANON_MATRIX]] · [[02_KERNEL/09_INTEGRATION/K_RSCF|K_RSCF]] · [[02_KERNEL/09_INTEGRATION/K_HML|K_HML]] · [[02_KERNEL/08_PROVENANCE/K_PROVENANCE|K_PROVENANCE]] · K_CAUSAL_FIREWALL · [[02_KERNEL/K_FAIL_CLOSED|K_FAIL_CLOSED]] · [[02_KERNEL/K_GOVERNED_EVOLUTION|K_GOVERNED_EVOLUTION]]
 
----
+______________________________________________________________________
 
 RSCF-NODE
 
@@ -4357,10 +4357,10 @@ RSCF-RELATIONS:
 
 - LINEAGE_TARGET: [[00_ROOT/AMOS_CORE_v4_4|AMOS_CORE_v4_4]]
 
----
+______________________________________________________________________
 
 **MOC:** [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]
 
----
+______________________________________________________________________
 
 **END OF `UBI_X_COGNITION.md`**

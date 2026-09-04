@@ -17,62 +17,71 @@ scope: AMOS_OS
 created: 2026-08-25
 updated: 2026-08-25
 tags:
-- amos-os
-- kernel
-- core
-- canon-group/tech-ai
-- canon/model
-- kernel/causal
-- kernel/causal-closure
-- kernel/dependency
-- kernel/provenance
-- kernel/epistemic
-- kernel/scope
-- kernel/regime
-- kernel/freshness
-- kernel/rscf
-- kernel/counterfactual
-- kernel/multi-hypothesis
-- kernel/validation
-- kernel/recovery
-- provenance/topology
-- provenance/independence
-- causal/firewall
-- causal/lineage
-- causal/finality
-- rscf/claim
-- rscf/provenance
-- rscf/state/model
-- topic/causal-closure
-- topic/causal-lineage
-- topic/causal-dependency
-- k-structural-reasoning
-- k-counterfactual
-- k-multi-hypothesis
-- k-metacognition
-- readme
-- architecture
-- amos-core-laws
-- law-hierarchy
-- canon-provenance
-- source-lineage
-- k-core19-logic
-- k-distinction-relation-constraint
-- k-meta-logic
-- authoritative-state
+  - amos-os
+  - kernel
+  - core
+  - canon-group/tech-ai
+  - canon/model
+  - kernel/causal
+  - kernel/causal-closure
+  - kernel/dependency
+  - kernel/provenance
+  - kernel/epistemic
+  - kernel/scope
+  - kernel/regime
+  - kernel/freshness
+  - kernel/rscf
+  - kernel/counterfactual
+  - kernel/multi-hypothesis
+  - kernel/validation
+  - kernel/recovery
+  - provenance/topology
+  - provenance/independence
+  - causal/firewall
+  - causal/lineage
+  - causal/finality
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/model
+  - topic/causal-closure
+  - topic/causal-lineage
+  - topic/causal-dependency
+  - k-structural-reasoning
+  - k-counterfactual
+  - k-multi-hypothesis
+  - k-metacognition
+  - readme
+  - architecture
+  - amos-core-laws
+  - law-hierarchy
+  - canon-provenance
+  - source-lineage
+  - k-core19-logic
+  - k-distinction-relation-constraint
+  - k-meta-logic
+  - authoritative-state
 aliases:
-- AMOS Causal Closure Kernel - Causal Closure Kernel - K Causal Closure - K_CAUSAL_CLOSURE
+  - AMOS Causal Closure Kernel - Causal Closure Kernel - K Causal Closure - K_CAUSAL_CLOSURE
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 # K CAUSAL CLOSURE
+
 > **AMOS Core target:** `v4.4`
 > **Origin architect / steward:** Trang Phan
 > **Plane:** `02_KERNEL`
 > **Status:** `AMOS_MODEL`
 > **Conclusion class:** `AMOS_MODEL`
+
 ## Purpose
+
 `K_CAUSAL_CLOSURE` defines the AMOS kernel contract for determining the **smallest sufficient causal subgraph** required to support, challenge, invalidate, or update a causal conclusion.
 Its central question is:
+
 ```text
 FOR CLAIM C,
 WHICH CAUSAL NODES,
@@ -84,31 +93,32 @@ AND PROVENANCE ROOTS
 MUST BE VALID
 FOR C TO REMAIN VALID?
 ```
+
 The kernel exists to prevent both:
+
 ```text
 UNDER-CLOSURE
 =
 MISSING LOAD-BEARING CAUSAL DEPENDENCIES
 ```
+
 and:
+
 ```text
 OVER-CLOSURE
 =
 DRAGGING THE ENTIRE SYSTEM INTO EVERY CAUSAL QUERY
 ```
+
 The target is:
+
 ```text
 SMALLEST SUFFICIENT CAUSAL CLOSURE
 ```
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
----
 
+## rscf: state: DERIVED claim_class: DERIVED provenance: AMOS_corpus scope: AMOS_general
 
-# 1. Core Law
+## 1. Core Law
 
 For causal conclusion `C`:
 
@@ -141,9 +151,9 @@ BIND PROVENANCE
 STOP WHEN FURTHER EXPANSION CANNOT CHANGE C
 ```
 
----
+______________________________________________________________________
 
-# 2. Hard Boundary
+## 2. Hard Boundary
 
 ```text
 CAUSAL CLOSURE
@@ -187,9 +197,9 @@ UNKNOWN/GAP
 PASS
 ```
 
----
+______________________________________________________________________
 
-# 3. Causal Graph Primitive
+## 3. Causal Graph Primitive
 
 Conceptually:
 
@@ -219,9 +229,9 @@ CC(T) ⊆ G_c
 
 contains only the causally material subgraph required to evaluate `T`.
 
----
+______________________________________________________________________
 
-# 4. Causal Edge Types
+## 4. Causal Edge Types
 
 AMOS must preserve typed causal relations such as:
 
@@ -244,9 +254,9 @@ COMMON_CAUSE
 
 These are not interchangeable.
 
----
+______________________________________________________________________
 
-# 5. Causal Edge Contract
+## 5. Causal Edge Contract
 
 Conceptually:
 
@@ -283,9 +293,9 @@ causal_edge:
 
 Only material fields need to be instantiated.
 
----
+______________________________________________________________________
 
-# 6. Causal Node Contract
+## 6. Causal Node Contract
 
 ```yaml
 causal_node:
@@ -305,9 +315,9 @@ causal_node:
 
 Node identity must remain stable across causal reasoning.
 
----
+______________________________________________________________________
 
-# 7. Targeted Closure
+## 7. Targeted Closure
 
 For target effect `Y`:
 
@@ -333,9 +343,9 @@ D → E
 
 does not belong in `CC(Y)`.
 
----
+______________________________________________________________________
 
-# 8. Minimality Rule
+## 8. Minimality Rule
 
 A causal closure is too large if removing a node or edge:
 
@@ -355,9 +365,9 @@ IFF
 X CAN MATERIALLY ALTER C
 ```
 
----
+______________________________________________________________________
 
-# 9. Sufficiency Rule
+## 9. Sufficiency Rule
 
 A causal closure is insufficient if it omits any element whose failure could change the causal conclusion.
 
@@ -371,9 +381,9 @@ SUFFICIENT
 
 must both hold.
 
----
+______________________________________________________________________
 
-# 10. Ancestral Closure
+## 10. Ancestral Closure
 
 For causal target `Y`, trace materially relevant upstream causes:
 
@@ -390,9 +400,9 @@ Potential closure:
 
 subject to confounder, regime, provenance, and scope checks.
 
----
+______________________________________________________________________
 
-# 11. Descendant Boundary
+## 11. Descendant Boundary
 
 Downstream effects are not automatically part of causal closure for an upstream causal query.
 
@@ -410,9 +420,9 @@ DOES X CAUSE Y?
 
 `Z` may be unnecessary unless it provides discriminating evidence or validates mechanism.
 
----
+______________________________________________________________________
 
-# 12. Confounder Closure
+## 12. Confounder Closure
 
 For:
 
@@ -432,9 +442,9 @@ must include `C` if `C` is a plausible material confounder.
 
 Otherwise the closure is causally under-specified.
 
----
+______________________________________________________________________
 
-# 13. Common-Cause Firewall
+## 13. Common-Cause Firewall
 
 Observed:
 
@@ -453,9 +463,9 @@ when such a common cause is plausible and decision-relevant.
 
 Do not promote association to causation without this check.
 
----
+______________________________________________________________________
 
-# 14. Mediator Closure
+## 14. Mediator Closure
 
 For:
 
@@ -487,9 +497,9 @@ DEPENDS ON
 THE CAUSAL QUESTION
 ```
 
----
+______________________________________________________________________
 
-# 15. Moderator Closure
+## 15. Moderator Closure
 
 If causal effect varies with `Z`:
 
@@ -503,9 +513,9 @@ then `Z` belongs in closure when the target claim depends on effect heterogeneit
 
 This prevents silent generalization across conditions.
 
----
+______________________________________________________________________
 
-# 16. Necessary-Condition Closure
+## 16. Necessary-Condition Closure
 
 For claim:
 
@@ -524,9 +534,9 @@ Z → Y
 
 If `Z` independently produces `Y`, then `X` may not be necessary.
 
----
+______________________________________________________________________
 
-# 17. Sufficient-Condition Closure
+## 17. Sufficient-Condition Closure
 
 For claim:
 
@@ -544,9 +554,9 @@ X + E → Y
 
 then `X` alone is not sufficient unless `E` is guaranteed within scope.
 
----
+______________________________________________________________________
 
-# 18. Multi-Path Closure
+## 18. Multi-Path Closure
 
 For:
 
@@ -568,9 +578,9 @@ C
 
 into one causal chain if they are structurally distinct.
 
----
+______________________________________________________________________
 
-# 19. Overdetermination
+## 19. Overdetermination
 
 When:
 
@@ -597,9 +607,9 @@ BUT-FOR CAUSE
 
 Causal closure must preserve alternative sufficient pathways.
 
----
+______________________________________________________________________
 
-# 20. Feedback Closure
+## 20. Feedback Closure
 
 For:
 
@@ -619,9 +629,9 @@ TEMPORAL ORDER
 STABILITY CONDITIONS
 ```
 
----
+______________________________________________________________________
 
-# 21. Cycle Firewall
+## 21. Cycle Firewall
 
 A causal cycle is not automatically invalid.
 
@@ -645,9 +655,9 @@ from:
 INVALID CIRCULAR JUSTIFICATION
 ```
 
----
+______________________________________________________________________
 
-# 22. Circular Evidence Firewall
+## 22. Circular Evidence Firewall
 
 Invalid:
 
@@ -661,9 +671,9 @@ when no independent support exists.
 
 Causal support must not be self-referential through circular provenance.
 
----
+______________________________________________________________________
 
-# 23. Causal vs Logical Circularity
+## 23. Causal vs Logical Circularity
 
 A real-world feedback loop may be legitimate.
 
@@ -675,9 +685,9 @@ FEEDBACK LOOP
 CIRCULAR PROOF
 ```
 
----
+______________________________________________________________________
 
-# 24. Temporal Closure
+## 24. Temporal Closure
 
 Causal closure should preserve ordering where material.
 
@@ -698,9 +708,9 @@ PRECEDES
 CAUSES
 ```
 
----
+______________________________________________________________________
 
-# 25. Time-Lag Structure
+## 25. Time-Lag Structure
 
 Causal effects may involve lag:
 
@@ -712,9 +722,9 @@ Y(t0 + Δ)
 
 Closure must include relevant lag assumptions where timing affects causal interpretation.
 
----
+______________________________________________________________________
 
-# 26. Regime Closure
+## 26. Regime Closure
 
 If causal effect changes across regimes:
 
@@ -738,9 +748,9 @@ CC(X → Y)
 
 for any general claim spanning those regimes.
 
----
+______________________________________________________________________
 
-# 27. Scope Closure
+## 27. Scope Closure
 
 A causal conclusion inherits the intersection of load-bearing scopes.
 
@@ -759,9 +769,9 @@ INTERSECTION(
 
 Cross-scope transfer requires validation.
 
----
+______________________________________________________________________
 
-# 28. Measurement Closure
+## 28. Measurement Closure
 
 If causal inference depends on a measured variable:
 
@@ -781,9 +791,9 @@ MEASUREMENT MODEL
 
 belongs in closure when it can change interpretation.
 
----
+______________________________________________________________________
 
-# 29. Provenance Closure
+## 29. Provenance Closure
 
 A causal conclusion requires not only causal nodes and edges, but evidence lineage.
 
@@ -809,9 +819,9 @@ CAUSAL SUPPORT
 CONDITIONAL / UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 30. Provenance Independence
+## 30. Provenance Independence
 
 Multiple supporting reports do not necessarily increase causal confidence.
 
@@ -832,9 +842,9 @@ REPORT COUNT
 INDEPENDENT CAUSAL CONFIRMATION
 ```
 
----
+______________________________________________________________________
 
-# 31. Sybil-Hardened Causal Closure
+## 31. Sybil-Hardened Causal Closure
 
 Causal closure must include provenance roots when evidence independence is load-bearing.
 
@@ -846,9 +856,9 @@ ONE ROOT
 → FALSE CONFIDENCE
 ```
 
----
+______________________________________________________________________
 
-# 32. Epistemic Closure
+## 32. Epistemic Closure
 
 Every causal edge must retain its epistemic type.
 
@@ -865,9 +875,9 @@ UNKNOWN
 
 A causal graph composed mostly of modeled edges is not equivalent to one supported by independent intervention evidence.
 
----
+______________________________________________________________________
 
-# 33. Causal Conclusion Classes
+## 33. Causal Conclusion Classes
 
 Use:
 
@@ -884,9 +894,9 @@ The weakest accurate class applies.
 
 Strong graph coherence does not itself justify `VERIFIED`.
 
----
+______________________________________________________________________
 
-# 34. Confidence Ceiling
+## 34. Confidence Ceiling
 
 For causal conclusion `C`:
 
@@ -903,9 +913,9 @@ MIN(
 
 unless independently revalidated.
 
----
+______________________________________________________________________
 
-# 35. Multi-Hypothesis Causal Closure
+## 35. Multi-Hypothesis Causal Closure
 
 For observed outcome `Y`, preserve viable causal hypotheses:
 
@@ -928,9 +938,9 @@ MEASUREMENT ARTIFACT
 
 Each hypothesis may have a different causal closure.
 
----
+______________________________________________________________________
 
-# 36. Competing Closures
+## 36. Competing Closures
 
 Conceptually:
 
@@ -944,9 +954,9 @@ must remain distinct until evidence discriminates them.
 
 Do not merge incompatible causal structures merely because they explain the same observation.
 
----
+______________________________________________________________________
 
-# 37. Discriminating Closure Test
+## 37. Discriminating Closure Test
 
 Seek the smallest test that distinguishes causal closures.
 
@@ -965,9 +975,9 @@ INTERVENTION(X)
 
 may have high discriminating value.
 
----
+______________________________________________________________________
 
-# 38. Counterfactual Integration
+## 38. Counterfactual Integration
 
 Counterfactual reasoning relies on causal closure.
 
@@ -980,9 +990,9 @@ WOULD Y CHANGE?
 
 the counterfactual engine should not propagate beyond established causal closure unless expansion is required.
 
----
+______________________________________________________________________
 
-# 39. Counterfactual Firewall
+## 39. Counterfactual Firewall
 
 ```text
 COUNTERFACTUAL PREDICTION
@@ -1000,9 +1010,9 @@ REAL INTERVENTION
 
 Counterfactual output inherits the causal closure's assumptions.
 
----
+______________________________________________________________________
 
-# 40. Intervention Closure
+## 40. Intervention Closure
 
 For intervention:
 
@@ -1014,9 +1024,9 @@ closure must include all downstream nodes that materially change the target conc
 
 It should not automatically include unrelated graph branches.
 
----
+______________________________________________________________________
 
-# 41. Ceteris Paribus Firewall
+## 41. Ceteris Paribus Firewall
 
 Holding variables constant is only valid when structurally admissible.
 
@@ -1036,9 +1046,9 @@ HELD CONSTANT
 
 must be explicit.
 
----
+______________________________________________________________________
 
-# 42. Structural Reasoning Integration
+## 42. Structural Reasoning Integration
 
 `K_STRUCTURAL_REASONING` identifies:
 
@@ -1063,9 +1073,9 @@ STRUCTURAL CLOSURE
 CAUSAL CLOSURE
 ```
 
----
+______________________________________________________________________
 
-# 43. Dependency Kernel Integration
+## 43. Dependency Kernel Integration
 
 Dependency closure may include:
 
@@ -1083,9 +1093,9 @@ Causal closure focuses on causal support for a causal claim.
 
 Both closures may overlap but are not identical.
 
----
+______________________________________________________________________
 
-# 44. Metacognition Integration
+## 44. Metacognition Integration
 
 `K_METACOGNITION` should challenge causal closure for:
 
@@ -1100,9 +1110,9 @@ CAUSAL OVERREACH
 HIDDEN ALTERNATIVE PATH
 ```
 
----
+______________________________________________________________________
 
-# 45. Causal Closure Fast Path
+## 45. Causal Closure Fast Path
 
 Local causal reasoning may proceed when:
 
@@ -1130,9 +1140,9 @@ LOCAL CAUSAL REASONING
 
 may avoid global graph traversal.
 
----
+______________________________________________________________________
 
-# 46. Escalation Conditions
+## 46. Escalation Conditions
 
 Escalate causal closure when:
 
@@ -1149,9 +1159,9 @@ HIGH-STAKES ACTION DEPENDS ON CAUSAL CLAIM
 DEPENDENCY CLOSURE IS AMBIGUOUS
 ```
 
----
+______________________________________________________________________
 
-# 47. Causal Frontier
+## 47. Causal Frontier
 
 Define the causal frontier as the boundary beyond which additional graph expansion cannot materially alter the current conclusion.
 
@@ -1165,9 +1175,9 @@ boundary of CC(C)
 
 Nodes outside the frontier remain unloaded unless needed.
 
----
+______________________________________________________________________
 
-# 48. Frontier Expansion Rule
+## 48. Frontier Expansion Rule
 
 Expand closure only when a newly detected factor can change:
 
@@ -1184,9 +1194,9 @@ DECISION
 
 Otherwise stop.
 
----
+______________________________________________________________________
 
-# 49. H/M/L Causal Retrieval
+## 49. H/M/L Causal Retrieval
 
 Causal retrieval follows:
 
@@ -1205,9 +1215,9 @@ RAW EVIDENCE
 
 Load deeper layers only when necessary to alter the causal conclusion.
 
----
+______________________________________________________________________
 
-# 50. Raw Evidence Trigger
+## 50. Raw Evidence Trigger
 
 Load raw causal evidence when required to resolve:
 
@@ -1222,9 +1232,9 @@ REGIME CONDITION
 CONTRADICTION
 ```
 
----
+______________________________________________________________________
 
-# 51. Causal RSCF
+## 51. Causal RSCF
 
 A causal claim may be represented as:
 
@@ -1258,9 +1268,9 @@ causal_rscf:
   conclusion_class:
 ```
 
----
+______________________________________________________________________
 
-# 52. Atomic Multi-RSCF Causal Reasoning
+## 52. Atomic Multi-RSCF Causal Reasoning
 
 A causal conclusion may depend jointly on multiple RSCFs:
 
@@ -1284,9 +1294,9 @@ CAUSAL CLAIM
 PASS
 ```
 
----
+______________________________________________________________________
 
-# 53. Selective Causal Invalidation
+## 53. Selective Causal Invalidation
 
 Suppose:
 
@@ -1305,9 +1315,9 @@ is invalidated, only dependent claims on that path should be downgraded.
 
 The `C → Y` path remains unaffected if independently supported.
 
----
+______________________________________________________________________
 
-# 54. Alternative Path Preservation
+## 54. Alternative Path Preservation
 
 If one causal path fails but another valid independent path remains:
 
@@ -1326,9 +1336,9 @@ B → Y
 
 Invalidating `A → Y` does not invalidate `B → Y`.
 
----
+______________________________________________________________________
 
-# 55. Causal Recovery
+## 55. Causal Recovery
 
 Recovery follows:
 
@@ -1348,9 +1358,9 @@ REVALIDATE
 
 Global causal recomputation is last resort.
 
----
+______________________________________________________________________
 
-# 56. No Blind Retry
+## 56. No Blind Retry
 
 ```text
 FAILED CAUSAL PATH
@@ -1372,9 +1382,9 @@ MODEL
 PROVENANCE
 ```
 
----
+______________________________________________________________________
 
-# 57. Causal Sensitivity
+## 57. Causal Sensitivity
 
 Identify the smallest causal premise that can flip the conclusion.
 
@@ -1395,9 +1405,9 @@ P2 = HIGH-SENSITIVITY PREMISE
 
 Test it first.
 
----
+______________________________________________________________________
 
-# 58. Fragility
+## 58. Fragility
 
 A causal conclusion is fragile when small plausible changes in assumptions alter:
 
@@ -1415,9 +1425,9 @@ Such conclusions should usually remain:
 CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
-# 59. Robustness
+## 59. Robustness
 
 A causal conclusion is comparatively robust when it survives plausible perturbations of noncritical assumptions and alternative causal structures.
 
@@ -1427,9 +1437,9 @@ ROBUST
 CERTAIN
 ```
 
----
+______________________________________________________________________
 
-# 60. Closure Under Regime Shift
+## 60. Closure Under Regime Shift
 
 If:
 
@@ -1453,9 +1463,9 @@ The closure itself may change.
 
 Therefore regime shifts can require graph reconstruction, not just confidence adjustment.
 
----
+______________________________________________________________________
 
-# 61. Closure Under Scope Expansion
+## 61. Closure Under Scope Expansion
 
 If claim expands from:
 
@@ -1481,9 +1491,9 @@ CC(C | P1 + P2)
 
 unless invariance is demonstrated.
 
----
+______________________________________________________________________
 
-# 62. Closure Under Temporal Change
+## 62. Closure Under Temporal Change
 
 A previously sufficient closure may become incomplete if new causal paths emerge over time.
 
@@ -1495,9 +1505,9 @@ CAUSAL CLOSURE EVOLUTION
 
 Persistent reuse therefore requires freshness checks.
 
----
+______________________________________________________________________
 
-# 63. Causal Finality
+## 63. Causal Finality
 
 Causal finality should be interpreted narrowly.
 
@@ -1518,9 +1528,9 @@ FINALIZED_FOR_EPOCH
 ETERNALLY TRUE
 ```
 
----
+______________________________________________________________________
 
-# 64. Causal Epoch Finality
+## 64. Causal Epoch Finality
 
 Where AMOS uses causal epoch reasoning, a finalized causal state should preserve:
 
@@ -1535,9 +1545,9 @@ VALIDATION STATE
 
 Later evidence may supersede the conclusion through governed lineage rather than silent mutation.
 
----
+______________________________________________________________________
 
-# 65. Proof-Based Coordination Avoidance
+## 65. Proof-Based Coordination Avoidance
 
 Where causal closure is demonstrably local:
 
@@ -1557,9 +1567,9 @@ LOCAL FINALIZATION ELIGIBLE
 
 This is an AMOS architectural principle, not a claim of universal distributed-system proof.
 
----
+______________________________________________________________________
 
-# 66. Cross-Shard Causal Coupling
+## 66. Cross-Shard Causal Coupling
 
 If:
 
@@ -1573,9 +1583,9 @@ then causal independence is false.
 
 Local finalization in `A` may be insufficient for claims involving `Y`.
 
----
+______________________________________________________________________
 
-# 67. Causal Closure State
+## 67. Causal Closure State
 
 Recommended states:
 
@@ -1591,9 +1601,9 @@ INVALIDATED
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 68. CLOSED_FOR_SCOPE
+## 68. CLOSED_FOR_SCOPE
 
 `CLOSED_FOR_SCOPE` means:
 
@@ -1604,39 +1614,39 @@ for the declared scope/regime/time
 
 It does not mean the global causal graph is complete.
 
----
+______________________________________________________________________
 
-# 69. OPEN
+## 69. OPEN
 
 `OPEN` means unresolved causal structure remains capable of changing the target conclusion.
 
 Further targeted retrieval is justified.
 
----
+______________________________________________________________________
 
-# 70. PARTIAL
+## 70. PARTIAL
 
 `PARTIAL` means some load-bearing causal structure is known but closure is incomplete.
 
 Do not promote to causal certainty.
 
----
+______________________________________________________________________
 
-# 71. COMPETING
+## 71. COMPETING
 
 `COMPETING` means multiple incompatible causal closures remain materially viable.
 
 Preserve all active closures until discriminating evidence exists.
 
----
+______________________________________________________________________
 
-# 72. STALE
+## 72. STALE
 
 `STALE` means the causal closure was once usable but freshness, scope, regime, or dependency assumptions may no longer hold.
 
----
+______________________________________________________________________
 
-# 73. Invalidation Conditions
+## 73. Invalidation Conditions
 
 A causal closure should be reopened when:
 
@@ -1652,9 +1662,9 @@ MEASUREMENT MODEL CHANGES
 FALSIFIER TRIGGERS
 ```
 
----
+______________________________________________________________________
 
-# 74. Causal Closure Registry Shape
+## 74. Causal Closure Registry Shape
 
 Conceptually:
 
@@ -1688,9 +1698,9 @@ causal_closure:
   conclusion_class:
 ```
 
----
+______________________________________________________________________
 
-# 75. Causal Closure Invariants
+## 75. Causal Closure Invariants
 
 ```text
 CC-01
@@ -1766,9 +1776,9 @@ CC-24
 UNKNOWN/GAP MUST NOT BECOME CAUSAL PASS
 ```
 
----
+______________________________________________________________________
 
-# 76. Failure Modes
+## 76. Failure Modes
 
 ```text
 UNDER_CLOSURE
@@ -1794,9 +1804,9 @@ BLIND_RETRY
 CAUSAL_FINALITY_OVERREACH
 ```
 
----
+______________________________________________________________________
 
-# 77. Conceptual Closure Algorithm
+## 77. Conceptual Closure Algorithm
 
 ```python
 def build_causal_closure(target_claim, context):
@@ -1829,9 +1839,9 @@ def build_causal_closure(target_claim, context):
 
 This is architectural pseudocode, not a claim of deployed runtime implementation.
 
----
+______________________________________________________________________
 
-# 78. Conceptual Invalidation Algorithm
+## 78. Conceptual Invalidation Algorithm
 
 ```python
 def invalidate_causal_edge(edge):
@@ -1846,9 +1856,9 @@ def invalidate_causal_edge(edge):
 
 The core rule is selective causal invalidation.
 
----
+______________________________________________________________________
 
-# 79. Conceptual Revalidation Algorithm
+## 79. Conceptual Revalidation Algorithm
 
 ```python
 def revalidate_causal_closure(closure, new_context):
@@ -1868,9 +1878,9 @@ def revalidate_causal_closure(closure, new_context):
     return weakest_accurate_state(closure)
 ```
 
----
+______________________________________________________________________
 
-# 80. Relationship to [[02_KERNEL/02_COGNITION/K_STRUCTURAL_REASONING|K_STRUCTURAL_REASONING]]
+## 80. Relationship to [[02_KERNEL/02_COGNITION/K_STRUCTURAL_REASONING|K_STRUCTURAL_REASONING]]
 
 ```text
 K_STRUCTURAL_REASONING
@@ -1894,9 +1904,9 @@ CAUSAL FILTERING
 CAUSAL CLOSURE
 ```
 
----
+______________________________________________________________________
 
-# 81. Relationship to [[02_KERNEL/02_COGNITION/K_COUNTERFACTUAL|K_COUNTERFACTUAL]]
+## 81. Relationship to [[02_KERNEL/02_COGNITION/K_COUNTERFACTUAL|K_COUNTERFACTUAL]]
 
 ```text
 K_CAUSAL_CLOSURE
@@ -1911,9 +1921,9 @@ THROUGH THAT SUBGRAPH
 
 Counterfactual analysis without sufficient causal closure should remain `MODEL` or `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
-# 82. Relationship to [[02_KERNEL/02_COGNITION/K_MULTI_HYPOTHESIS|K_MULTI_HYPOTHESIS]]
+## 82. Relationship to [[02_KERNEL/02_COGNITION/K_MULTI_HYPOTHESIS|K_MULTI_HYPOTHESIS]]
 
 Multiple hypotheses may produce multiple closures:
 
@@ -1927,9 +1937,9 @@ H3 → CC3
 
 `K_CAUSAL_CLOSURE` defines the causal support boundary for each.
 
----
+______________________________________________________________________
 
-# 83. Relationship to [[02_KERNEL/02_COGNITION/K_METACOGNITION|K_METACOGNITION]]
+## 83. Relationship to [[02_KERNEL/02_COGNITION/K_METACOGNITION|K_METACOGNITION]]
 
 `K_METACOGNITION` evaluates whether the causal closure is:
 
@@ -1945,9 +1955,9 @@ CAUSALLY OVERCLAIMED
 
 and may trigger escalation.
 
----
+______________________________________________________________________
 
-# 84. Relationship to Dependency Map
+## 84. Relationship to Dependency Map
 
 `DEPENDENCY_MAP` records broad system dependencies.
 
@@ -1961,9 +1971,9 @@ CAUSAL EDGE
 
 requires separate validation.
 
----
+______________________________________________________________________
 
-# 85. Required Tests
+## 85. Required Tests
 
 Future implementation verification should include:
 
@@ -1990,9 +2000,9 @@ REOPENING TEST
 FINALITY-BOUNDARY TEST
 ```
 
----
+______________________________________________________________________
 
-# 86. Negative Tests
+## 86. Negative Tests
 
 ```text
 CORRELATION
@@ -2046,9 +2056,9 @@ UNCONDITIONAL CAUSAL PASS
 MUST FAIL
 ```
 
----
+______________________________________________________________________
 
-# 87. Lifecycle
+## 87. Lifecycle
 
 ```text
 PLACEHOLDER
@@ -2074,9 +2084,9 @@ IMPLEMENTATION != VALIDATION
 VALIDATION != AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 88. Promotion Gate
+## 88. Promotion Gate
 
 Before promotion beyond `AMOS_MODEL`:
 
@@ -2111,9 +2121,9 @@ Until these gates are evidenced:
 IMPLEMENTATION_STATUS = UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 89. Integrity Note
+## 89. Integrity Note
 
 This artifact replaces an empty repository placeholder with a structured AMOS v4.4-aligned causal-closure model.
 
@@ -2131,9 +2141,9 @@ FORMAL_VERIFICATION = UNKNOWN/GAP
 RUNTIME_AUTHORITY = NONE
 ```
 
----
+______________________________________________________________________
 
-# 90. RSCF Node
+## 90. RSCF Node
 
 ```RSCF-NODE
 node_id: AMOS-OS-K-CAUSAL-CLOSURE
@@ -2182,9 +2192,9 @@ RSCF-RELATIONS:
   - VERIFIED_BY: README
 ```
 
----
+______________________________________________________________________
 
-# 91. Canonical Summary
+## 91. Canonical Summary
 
 ```text
 CAUSAL QUESTION
@@ -2313,12 +2323,14 @@ README
 ```text
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 **MOC:** [[02_KERNEL/03_CAUSAL/03_CAUSAL_MOC|03_CAUSAL_MOC]]

@@ -1,12 +1,15 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: AUTHORITY RESOLVER
 type: authority
 source: 03_CONTROL_PLANE/04_AUTHORITY
 tags:
-- control-plane
-- authority
-- note
-- canon/control-plane
+  - control-plane
+  - authority
+  - note
+  - canon/control-plane
 rscf:
   state: SOURCE_CLAIM
   claim_class: CONDITIONAL
@@ -16,22 +19,11 @@ rscf:
 
 # AUTHORITY_RESOLVER.md
 
----
-title: AMOS Authority Resolver
-artifact: "AUTHORITY_RESOLVER.md"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-artifact_class: "GOVERNED_AUTHORITY_RESOLUTION_CONTROL_COMPONENT"
-status: "PROPOSED / STRUCTURALLY_COMPLETE / IMPLEMENTATION-UNVALIDATED"
-epistemic_class: "MODEL"
-version: "1.0.0"
-updated: "2026-08-26"
-default_authority: "NONE"
-default_resolution: "UNRESOLVED"
----
+______________________________________________________________________
 
-# AMOS Authority Resolver
+## title: AMOS Authority Resolver artifact: "AUTHORITY_RESOLVER.md" origin_architect: "Trang Phan" steward: "Trang Phan" system: "AMOS OS" artifact_class: "GOVERNED_AUTHORITY_RESOLUTION_CONTROL_COMPONENT" status: "PROPOSED / STRUCTURALLY_COMPLETE / IMPLEMENTATION-UNVALIDATED" epistemic_class: "MODEL" version: "1.0.0" updated: "2026-08-26" default_authority: "NONE" default_resolution: "UNRESOLVED"
+
+## AMOS Authority Resolver
 
 ## 0. Status
 
@@ -77,9 +69,9 @@ CAPABILITY
 AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 1. Purpose
+## 1. Purpose
 
 The Authority Resolver exists to prevent AMOS from confusing:
 
@@ -126,9 +118,9 @@ POLICY / CONTROL-PLANE VALIDATION
 COMMIT-TIME REVALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 2. Core Laws
+## 2. Core Laws
 
 ```text
 IDENTITY != AUTHORITY
@@ -188,9 +180,9 @@ REVOKED != AUTHORIZED
 PROPOSAL != COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 3. Architectural Position
+## 3. Architectural Position
 
 ```text
 IDENTITY / PRINCIPAL REGISTRY
@@ -218,9 +210,9 @@ The Authority Resolver is an infrastructure governance component.
 
 It sits between raw authority evidence and effectful execution.
 
----
+______________________________________________________________________
 
-# 4. Responsibilities
+## 4. Responsibilities
 
 The Authority Resolver owns the resolution of:
 
@@ -306,9 +298,9 @@ release-ledger finality;
 domain-specific business logic.
 ```
 
----
+______________________________________________________________________
 
-# 5. Authority Resolution Function
+## 5. Authority Resolution Function
 
 Conceptually:
 
@@ -332,9 +324,9 @@ ResolveAuthority(
 
 The resolver MUST evaluate authority against the requested operation, not merely against the principal.
 
----
+______________________________________________________________________
 
-# 6. Authority Request
+## 6. Authority Request
 
 ```yaml
 authority_resolution_request:
@@ -398,9 +390,9 @@ authority_resolution_request:
   provenance: {}
 ```
 
----
+______________________________________________________________________
 
-# 7. Authority Resolution Result
+## 7. Authority Resolution Result
 
 ```yaml
 authority_resolution:
@@ -460,9 +452,9 @@ authority_resolution:
   commit_revalidation_required: true
 ```
 
----
+______________________________________________________________________
 
-# 8. Resolution States
+## 8. Resolution States
 
 ## AUTHORIZED
 
@@ -502,9 +494,9 @@ Resolution requires a higher authority or governance process.
 
 Evidence is insufficient to establish authority.
 
----
+______________________________________________________________________
 
-# 9. Fail-Closed Rule
+## 9. Fail-Closed Rule
 
 For effectful operations:
 
@@ -528,9 +520,9 @@ IF authority cannot be established
 THEN do not perform authority-dependent effect.
 ```
 
----
+______________________________________________________________________
 
-# 10. Authority Object
+## 10. Authority Object
 
 ```yaml
 authority_object:
@@ -603,9 +595,9 @@ authority_object:
     - QUARANTINED
 ```
 
----
+______________________________________________________________________
 
-# 11. Authority Identity
+## 11. Authority Identity
 
 Material authority SHOULD bind:
 
@@ -620,9 +612,9 @@ AuthorityIdentity =
 
 A textual authority ID alone is insufficient where authority state is mutable or versioned.
 
----
+______________________________________________________________________
 
-# 12. Authority Digest
+## 12. Authority Digest
 
 Conceptually:
 
@@ -642,9 +634,9 @@ H(
 
 Exact serialization and cryptographic algorithms belong to implementation specifications.
 
----
+______________________________________________________________________
 
-# 13. Principal Binding
+## 13. Principal Binding
 
 Authority MUST bind to the actual principal requesting the action.
 
@@ -656,9 +648,9 @@ Request.principal
 
 or a validated delegation/impersonation mechanism MUST explain the difference.
 
----
+______________________________________________________________________
 
-# 14. Principal Invariant
+## 14. Principal Invariant
 
 ```text
 similar name
@@ -682,9 +674,9 @@ same agent class
 same authority
 ```
 
----
+______________________________________________________________________
 
-# 15. Authentication Boundary
+## 15. Authentication Boundary
 
 Authentication answers:
 
@@ -704,9 +696,9 @@ AUTHORIZED
 
 Authentication may be necessary but is not sufficient.
 
----
+______________________________________________________________________
 
-# 16. Authority Sources
+## 16. Authority Sources
 
 Potential authority sources MAY include:
 
@@ -736,9 +728,9 @@ external platform authorization.
 
 Their existence does not automatically establish applicability.
 
----
+______________________________________________________________________
 
-# 17. Authority Candidate
+## 17. Authority Candidate
 
 ```yaml
 authority_candidate:
@@ -765,9 +757,9 @@ authority_candidate:
   provenance: {}
 ```
 
----
+______________________________________________________________________
 
-# 18. Candidate Discovery
+## 18. Candidate Discovery
 
 Authority candidates MAY be discovered by:
 
@@ -792,9 +784,9 @@ DISCOVERED_AUTHORITY
 VALID_AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 19. Authority Applicability
+## 19. Authority Applicability
 
 For candidate authority `A` and request `R`:
 
@@ -820,9 +812,9 @@ This is an AMOS MODEL expression.
 
 Implementations may represent the predicate differently.
 
----
+______________________________________________________________________
 
-# 20. Scope Resolution
+## 20. Scope Resolution
 
 Authority SHOULD be resolved across typed dimensions.
 
@@ -854,9 +846,9 @@ authority_scope:
     L: null
 ```
 
----
+______________________________________________________________________
 
-# 21. Scope Containment
+## 21. Scope Containment
 
 Required:
 
@@ -880,9 +872,9 @@ ESCALATE
 
 depending on governance.
 
----
+______________________________________________________________________
 
-# 22. Unknown Scope
+## 22. Unknown Scope
 
 Unknown authority scope MUST NOT become universal authority.
 
@@ -902,9 +894,9 @@ not:
 GLOBAL
 ```
 
----
+______________________________________________________________________
 
-# 23. Operation Binding
+## 23. Operation Binding
 
 Authority SHOULD name or structurally bind the allowed operation class.
 
@@ -938,9 +930,9 @@ REVOKE
 ADMINISTER
 ```
 
----
+______________________________________________________________________
 
-# 24. Operation Non-Equivalence
+## 24. Operation Non-Equivalence
 
 ```text
 READ != WRITE
@@ -958,9 +950,9 @@ RELEASE != ADMINISTER
 
 Authority for one MUST NOT silently imply another.
 
----
+______________________________________________________________________
 
-# 25. Capability Binding
+## 25. Capability Binding
 
 An authority MAY constrain which capability may exercise it.
 
@@ -974,9 +966,9 @@ capability_binding:
 
 This prevents generic authority from being silently exercised through an incompatible capability.
 
----
+______________________________________________________________________
 
-# 26. Capability Boundary
+## 26. Capability Boundary
 
 ```text
 CAPABILITY_AVAILABLE
@@ -998,9 +990,9 @@ Capability(R)
 → NO_EFFECT
 ```
 
----
+______________________________________________________________________
 
-# 27. Resource Binding
+## 27. Resource Binding
 
 Authority SHOULD bind resources sufficiently to prevent scope substitution.
 
@@ -1022,9 +1014,9 @@ project;
 organization.
 ```
 
----
+______________________________________________________________________
 
-# 28. Resource Ownership
+## 28. Resource Ownership
 
 Ownership MAY contribute to authority where governance explicitly recognizes ownership.
 
@@ -1042,9 +1034,9 @@ UNLIMITED_AUTHORITY
 
 because external policies, organizational controls, privacy rules, or platform constraints may still apply.
 
----
+______________________________________________________________________
 
-# 29. Effect Binding
+## 29. Effect Binding
 
 Authority SHOULD distinguish effect classes.
 
@@ -1066,9 +1058,9 @@ MODEL_PROMOTION
 
 Higher-consequence effects SHOULD require stronger authority evidence.
 
----
+______________________________________________________________________
 
-# 30. Effect Escalation
+## 30. Effect Escalation
 
 Conceptually:
 
@@ -1088,9 +1080,9 @@ Consequence
 
 This is a governance model, not an empirical law.
 
----
+______________________________________________________________________
 
-# 31. Recipient Binding
+## 31. Recipient Binding
 
 For disclosure or transfer operations, authority SHOULD bind allowed recipients.
 
@@ -1104,9 +1096,9 @@ recipient_scope:
 
 Authority to access information does not necessarily imply authority to disclose it.
 
----
+______________________________________________________________________
 
-# 32. Disclosure Boundary
+## 32. Disclosure Boundary
 
 ```text
 CAN_READ
@@ -1122,9 +1114,9 @@ CAN_DISCLOSE_TO_A
 CAN_DISCLOSE_TO_B
 ```
 
----
+______________________________________________________________________
 
-# 33. Environment Binding
+## 33. Environment Binding
 
 Authority MAY differ across:
 
@@ -1144,9 +1136,9 @@ INCIDENT
 RECOVERY
 ```
 
----
+______________________________________________________________________
 
-# 34. Environment Invariant
+## 34. Environment Invariant
 
 ```text
 AUTHORIZED(TEST)
@@ -1156,9 +1148,9 @@ AUTHORIZED(PRODUCTION)
 
 unless explicitly granted.
 
----
+______________________________________________________________________
 
-# 35. Jurisdiction Binding
+## 35. Jurisdiction Binding
 
 Authority MAY depend on jurisdiction.
 
@@ -1166,9 +1158,9 @@ The resolver SHOULD preserve jurisdictional scope where relevant.
 
 Unknown jurisdiction must not silently become unrestricted jurisdiction.
 
----
+______________________________________________________________________
 
-# 36. Temporal Validity
+## 36. Temporal Validity
 
 Every time-bounded authority SHOULD expose:
 
@@ -1194,17 +1186,17 @@ valid_until
 
 where `valid_until` exists.
 
----
+______________________________________________________________________
 
-# 37. Trusted Time
+## 37. Trusted Time
 
 When authority validity depends materially on time, evaluation SHOULD use an infrastructure-trusted time source.
 
 A principal's self-asserted timestamp is insufficient for high-consequence authority validation.
 
----
+______________________________________________________________________
 
-# 38. Expiry
+## 38. Expiry
 
 If:
 
@@ -1220,9 +1212,9 @@ EXPIRED
 
 unless a valid successor authority independently applies.
 
----
+______________________________________________________________________
 
-# 39. Revocation
+## 39. Revocation
 
 If authoritative revocation establishes:
 
@@ -1238,9 +1230,9 @@ Result:
 REVOKED
 ```
 
----
+______________________________________________________________________
 
-# 40. Historical Authority
+## 40. Historical Authority
 
 Historical validity MAY remain reconstructable.
 
@@ -1261,17 +1253,17 @@ may be auditable as authorized at that time.
 
 That does not restore current authority.
 
----
+______________________________________________________________________
 
-# 41. Revocation Freshness
+## 41. Revocation Freshness
 
 A previously validated authority MUST NOT remain trusted indefinitely if revocation state is mutable.
 
 High-consequence effects SHOULD re-check current authority state before commit.
 
----
+______________________________________________________________________
 
-# 42. Authority Freshness
+## 42. Authority Freshness
 
 Authority freshness MAY depend on:
 
@@ -1295,9 +1287,9 @@ resource ownership;
 transaction state.
 ```
 
----
+______________________________________________________________________
 
-# 43. Freshness Result
+## 43. Freshness Result
 
 ```yaml
 authority_freshness:
@@ -1316,9 +1308,9 @@ authority_freshness:
   dependencies: []
 ```
 
----
+______________________________________________________________________
 
-# 44. Commit-Time Revalidation
+## 44. Commit-Time Revalidation
 
 For durable, external, irreversible, or promotion effects:
 
@@ -1334,9 +1326,9 @@ COMMIT
 
 Authority must remain valid at the commit boundary.
 
----
+______________________________________________________________________
 
-# 45. Commit-Time Invariant
+## 45. Commit-Time Invariant
 
 ```text
 Authorized(t_plan)
@@ -1350,9 +1342,9 @@ Authorized(t_commit)
 
 when mutable authority state exists.
 
----
+______________________________________________________________________
 
-# 46. Authority Witness
+## 46. Authority Witness
 
 Downstream control-plane components SHOULD receive an explicit authority witness.
 
@@ -1395,9 +1387,9 @@ authority_witness:
   resolver_version: string
 ```
 
----
+______________________________________________________________________
 
-# 47. Witness Binding
+## 47. Witness Binding
 
 The authority witness SHOULD bind to the actual proposed operation.
 
@@ -1414,9 +1406,9 @@ AuthorityWitness
 
 where those dimensions are material.
 
----
+______________________________________________________________________
 
-# 48. Witness Replay Prevention
+## 48. Witness Replay Prevention
 
 An authority witness valid for:
 
@@ -1442,9 +1434,9 @@ must not silently become:
 target B
 ```
 
----
+______________________________________________________________________
 
-# 49. Effect Digest Binding
+## 49. Effect Digest Binding
 
 For durable effects, authority MAY bind:
 
@@ -1464,9 +1456,9 @@ CommitEffectDigest
 
 must hold where effect-bound authority is required.
 
----
+______________________________________________________________________
 
-# 50. Transaction Binding
+## 50. Transaction Binding
 
 Authority MAY be transaction-specific.
 
@@ -1478,9 +1470,9 @@ transaction_binding:
 
 A transaction-bound authority MUST NOT silently migrate to another transaction.
 
----
+______________________________________________________________________
 
-# 51. Delegated Authority
+## 51. Delegated Authority
 
 Authority MAY be delegated only if the upstream authority permits delegation.
 
@@ -1497,9 +1489,9 @@ A_parent.delegable = true
 
 plus all applicable governance conditions.
 
----
+______________________________________________________________________
 
-# 52. Delegation Attenuation
+## 52. Delegation Attenuation
 
 Delegation MUST NOT widen authority.
 
@@ -1525,9 +1517,9 @@ Validity(child)
 Validity(parent)
 ```
 
----
+______________________________________________________________________
 
-# 53. Delegation Law
+## 53. Delegation Law
 
 Canonical law:
 
@@ -1539,9 +1531,9 @@ DELEGATING_AUTHORITY
 
 No delegation step may create authority absent from its parent.
 
----
+______________________________________________________________________
 
-# 54. Delegation Chain
+## 54. Delegation Chain
 
 ```yaml
 delegation_chain:
@@ -1558,9 +1550,9 @@ delegation_chain:
   depth: integer
 ```
 
----
+______________________________________________________________________
 
-# 55. Delegation Depth
+## 55. Delegation Depth
 
 Authority MAY specify:
 
@@ -1576,9 +1568,9 @@ actual_depth > max_delegation_depth
 
 resolution fails.
 
----
+______________________________________________________________________
 
-# 56. Delegation Chain Validation
+## 56. Delegation Chain Validation
 
 Every hop SHOULD validate:
 
@@ -1604,9 +1596,9 @@ provenance.
 
 One invalid load-bearing hop invalidates descendant authority dependent upon it.
 
----
+______________________________________________________________________
 
-# 57. Delegation Chain Failure
+## 57. Delegation Chain Failure
 
 ```text
 A0 → A1 → A2 → A3
@@ -1628,9 +1620,9 @@ must be re-evaluated.
 
 Do not automatically invalidate unrelated independent authority paths.
 
----
+______________________________________________________________________
 
-# 58. Multiple Authority Paths
+## 58. Multiple Authority Paths
 
 A principal MAY have multiple authority paths.
 
@@ -1646,9 +1638,9 @@ DELEGATED AUTHORITY
 
 The resolver MUST preserve them separately until their applicability and provenance are understood.
 
----
+______________________________________________________________________
 
-# 59. Independent Authority
+## 59. Independent Authority
 
 Two authority paths are independent only if their load-bearing authority ancestry is independent.
 
@@ -1664,9 +1656,9 @@ two independent authority sources
 
 if both derive from one grant.
 
----
+______________________________________________________________________
 
-# 60. Authority Provenance
+## 60. Authority Provenance
 
 Authority provenance SHOULD preserve:
 
@@ -1692,9 +1684,9 @@ transformation history;
 resolution event.
 ```
 
----
+______________________________________________________________________
 
-# 61. Provenance Topology
+## 61. Provenance Topology
 
 Example:
 
@@ -1708,9 +1700,9 @@ DELEGATION_A
 
 `COPY_A` and `SUMMARY_A` do not create independent authority.
 
----
+______________________________________________________________________
 
-# 62. Authority Sybil Hardening
+## 62. Authority Sybil Hardening
 
 ```text
 multiple authority artifacts
@@ -1722,9 +1714,9 @@ when they share authority ancestry.
 
 The resolver SHOULD reason over ancestry, not document count.
 
----
+______________________________________________________________________
 
-# 63. Authority Constraints
+## 63. Authority Constraints
 
 Authority MAY carry constraints such as:
 
@@ -1760,9 +1752,9 @@ required observability;
 required audit event.
 ```
 
----
+______________________________________________________________________
 
-# 64. Constraint Object
+## 64. Constraint Object
 
 ```yaml
 authority_constraint:
@@ -1781,9 +1773,9 @@ authority_constraint:
   provenance: {}
 ```
 
----
+______________________________________________________________________
 
-# 65. Constraint Composition
+## 65. Constraint Composition
 
 When multiple applicable authority constraints exist, the effective authority SHOULD preserve the most restrictive compatible envelope unless explicit governance defines otherwise.
 
@@ -1799,9 +1791,9 @@ Intersection(
 
 where intersection semantics are well-defined.
 
----
+______________________________________________________________________
 
-# 66. Only-Tighten Rule
+## 66. Only-Tighten Rule
 
 Delegation and authority composition MUST NOT silently weaken upstream restrictions.
 
@@ -1813,9 +1805,9 @@ parent restriction
 
 in strictness, where the constraint domain permits ordering.
 
----
+______________________________________________________________________
 
-# 67. Incompatible Constraints
+## 67. Incompatible Constraints
 
 If two load-bearing authority sources impose incompatible requirements:
 
@@ -1825,9 +1817,9 @@ CONFLICT
 
 unless a valid precedence rule resolves them.
 
----
+______________________________________________________________________
 
-# 68. Cumulative Authority Limits
+## 68. Cumulative Authority Limits
 
 Authority MAY include cumulative budgets.
 
@@ -1845,9 +1837,9 @@ maximum resource mutations;
 maximum external calls.
 ```
 
----
+______________________________________________________________________
 
-# 69. Cumulative Limit State
+## 69. Cumulative Limit State
 
 ```yaml
 authority_budget:
@@ -1866,9 +1858,9 @@ authority_budget:
   state_version: string
 ```
 
----
+______________________________________________________________________
 
-# 70. Reservation
+## 70. Reservation
 
 Where concurrent actions can consume the same authority budget:
 
@@ -1890,9 +1882,9 @@ ACT
 
 because concurrent actions may otherwise oversubscribe authority.
 
----
+______________________________________________________________________
 
-# 71. Budget Invariant
+## 71. Budget Invariant
 
 ```text
 consumed
@@ -1904,9 +1896,9 @@ limit
 
 for valid authority budget state.
 
----
+______________________________________________________________________
 
-# 72. Authority Registry
+## 72. Authority Registry
 
 The resolver MAY consume an infrastructure-owned authority registry.
 
@@ -1919,9 +1911,9 @@ authority_registry_snapshot:
   observed_at: timestamp
 ```
 
----
+______________________________________________________________________
 
-# 73. Registry Identity
+## 73. Registry Identity
 
 Where mutable authority state matters, resolution SHOULD preserve:
 
@@ -1937,9 +1929,9 @@ snapshot_hash
 
 rather than relying on a scalar version alone.
 
----
+______________________________________________________________________
 
-# 74. Registry Rollback
+## 74. Registry Rollback
 
 Unexpected authority-registry rollback SHOULD trigger:
 
@@ -1955,9 +1947,9 @@ CONFLICT
 
 rather than silently restoring old authority.
 
----
+______________________________________________________________________
 
-# 75. Fine-Grained Authority Read Set
+## 75. Fine-Grained Authority Read Set
 
 Resolution SHOULD preserve exact authority objects consulted:
 
@@ -1974,9 +1966,9 @@ AuthorityReadSet =
 
 This supports selective invalidation.
 
----
+______________________________________________________________________
 
-# 76. Selective Invalidation
+## 76. Selective Invalidation
 
 Suppose:
 
@@ -2001,9 +1993,9 @@ R2 → PRESERVE
 
 unless hidden dependency closure proves otherwise.
 
----
+______________________________________________________________________
 
-# 77. Policy Relationship
+## 77. Policy Relationship
 
 Authority and policy are separate.
 
@@ -2025,9 +2017,9 @@ answers:
 
 Both may be required.
 
----
+______________________________________________________________________
 
-# 78. Policy/Authority Matrix
+## 78. Policy/Authority Matrix
 
 ```text
 POLICY ALLOW + AUTHORITY VALID
@@ -2048,9 +2040,9 @@ POLICY CONFLICT + AUTHORITY VALID
 
 Authority cannot override policy merely by existing unless explicit higher-order governance says so.
 
----
+______________________________________________________________________
 
-# 79. Capability Relationship
+## 79. Capability Relationship
 
 Three distinct questions:
 
@@ -2067,9 +2059,9 @@ SHOULD governing rules permit it?
 
 These MUST remain separate.
 
----
+______________________________________________________________________
 
-# 80. Three-Gate Model
+## 80. Three-Gate Model
 
 ```text
 CAPABILITY GATE
@@ -2083,9 +2075,9 @@ CONTROL-PLANE ELIGIBILITY
 
 Passing these gates still does not equal commit.
 
----
+______________________________________________________________________
 
-# 81. Commit Relationship
+## 81. Commit Relationship
 
 ```text
 AUTHORIZED
@@ -2103,9 +2095,9 @@ EFFECT_COMMITTED
 
 Commit remains downstream.
 
----
+______________________________________________________________________
 
-# 82. Release Relationship
+## 82. Release Relationship
 
 For durable/external effects:
 
@@ -2127,9 +2119,9 @@ RECEIVER-ATTESTED COMPLETION
 
 The Authority Resolver owns only its part of this chain.
 
----
+______________________________________________________________________
 
-# 83. Emergency Authority
+## 83. Emergency Authority
 
 Emergency authority MUST be explicit.
 
@@ -2155,9 +2147,9 @@ termination conditions;
 post-event review.
 ```
 
----
+______________________________________________________________________
 
-# 84. Emergency Boundary
+## 84. Emergency Boundary
 
 ```text
 EMERGENCY
@@ -2171,9 +2163,9 @@ UNLIMITED AUTHORITY
 
 Emergency authority SHOULD normally be narrower and more observable, not less governed.
 
----
+______________________________________________________________________
 
-# 85. Break-Glass Authority
+## 85. Break-Glass Authority
 
 A break-glass authority object MAY contain:
 
@@ -2200,15 +2192,15 @@ break_glass_authority:
   delegable: false
 ```
 
----
+______________________________________________________________________
 
-# 86. Break-Glass Invariant
+## 86. Break-Glass Invariant
 
 Break-glass authority MUST NOT bypass provenance, logging, expiry, or post-action review requirements unless explicit higher-order governance says otherwise.
 
----
+______________________________________________________________________
 
-# 87. Human Authority
+## 87. Human Authority
 
 Human instruction MAY constitute authority where:
 
@@ -2221,9 +2213,9 @@ no higher-order constraint blocks it.
 
 The resolver MUST NOT assume all user requests imply universal authority over external resources.
 
----
+______________________________________________________________________
 
-# 88. Agent Authority
+## 88. Agent Authority
 
 Agents possess only authority explicitly delegated or otherwise established by governance.
 
@@ -2235,17 +2227,17 @@ AGENT AUTHORITY
 
 An agent cannot manufacture its own authority by reasoning that an action is useful.
 
----
+______________________________________________________________________
 
-# 89. Service Authority
+## 89. Service Authority
 
 Service credentials may establish authenticated service identity.
 
 They do not automatically establish authorization for every operation exposed by that service.
 
----
+______________________________________________________________________
 
-# 90. Organizational Authority
+## 90. Organizational Authority
 
 Organizational roles MAY contribute authority, but role membership SHOULD resolve through explicit governance.
 
@@ -2263,9 +2255,9 @@ for what period;
 under which constraints.
 ```
 
----
+______________________________________________________________________
 
-# 91. Authority Conflict Classes
+## 91. Authority Conflict Classes
 
 ```text
 SUBJECT_CONFLICT
@@ -2297,9 +2289,9 @@ PROVENANCE_CONFLICT
 REGISTRY_CONFLICT
 ```
 
----
+______________________________________________________________________
 
-# 92. Conflict Resolution
+## 92. Conflict Resolution
 
 Authority conflicts SHOULD use explicit precedence/governance rules.
 
@@ -2319,9 +2311,9 @@ agent preference;
 retrieval rank.
 ```
 
----
+______________________________________________________________________
 
-# 93. Strongest Supported Resolution
+## 93. Strongest Supported Resolution
 
 The resolver SHOULD return the narrowest authority envelope actually supported.
 
@@ -2337,9 +2329,9 @@ do not return:
 MANAGE resource X
 ```
 
----
+______________________________________________________________________
 
-# 94. Least-Authority Principle
+## 94. Least-Authority Principle
 
 Where multiple resolutions are possible:
 
@@ -2353,9 +2345,9 @@ for the requested operation.
 
 This reduces unintended privilege expansion.
 
----
+______________________________________________________________________
 
-# 95. Authority Intersection
+## 95. Authority Intersection
 
 Suppose:
 
@@ -2375,17 +2367,17 @@ EffectiveScope = {Y}
 
 where governance defines intersection semantics.
 
----
+______________________________________________________________________
 
-# 96. Authority Union
+## 96. Authority Union
 
 Authority SHOULD NOT be unioned automatically.
 
 Union is allowed only when multiple grants independently and validly contribute distinct permissions under applicable governance.
 
----
+______________________________________________________________________
 
-# 97. No Authority Laundering
+## 97. No Authority Laundering
 
 The resolver MUST prevent authority laundering such as:
 
@@ -2399,9 +2391,9 @@ B claims permission to publish X
 
 unless publishing was inside the delegable upstream authority.
 
----
+______________________________________________________________________
 
-# 98. No Capability Laundering
+## 98. No Capability Laundering
 
 A more powerful capability MUST NOT expand a principal's authority.
 
@@ -2419,9 +2411,9 @@ READ
 
 not `DELETE`.
 
----
+______________________________________________________________________
 
-# 99. No Policy Laundering
+## 99. No Policy Laundering
 
 A policy saying:
 
@@ -2431,9 +2423,9 @@ operation is allowed
 
 does not create a principal-specific grant.
 
----
+______________________________________________________________________
 
-# 100. No Success Laundering
+## 100. No Success Laundering
 
 Successful historical execution does not prove valid authority.
 
@@ -2443,9 +2435,9 @@ ACTION_SUCCEEDED
 ACTION_AUTHORIZED
 ```
 
----
+______________________________________________________________________
 
-# 101. No Memory Laundering
+## 101. No Memory Laundering
 
 Stored memory saying:
 
@@ -2457,9 +2449,9 @@ does not establish current authority for consequential actions.
 
 Authority-dependent actions require appropriate current evidence.
 
----
+______________________________________________________________________
 
-# 102. Authority and Memory
+## 102. Authority and Memory
 
 Persistent memory MAY provide:
 
@@ -2472,9 +2464,9 @@ historical preference.
 
 It MUST NOT silently manufacture current authorization.
 
----
+______________________________________________________________________
 
-# 103. Authority and Consent
+## 103. Authority and Consent
 
 Where user consent is part of the authority model, consent SHOULD be:
 
@@ -2486,9 +2478,9 @@ within the user's own authority;
 revocable where relevant.
 ```
 
----
+______________________________________________________________________
 
-# 104. Authority Resolution Pipeline
+## 104. Authority Resolution Pipeline
 
 ```text
 01 RECEIVE REQUEST
@@ -2564,9 +2556,9 @@ revocable where relevant.
 36 MARK COMMIT-TIME REVALIDATION REQUIREMENTS
 ```
 
----
+______________________________________________________________________
 
-# 105. Fast Path
+## 105. Fast Path
 
 A fast authority path MAY be used only when:
 
@@ -2592,9 +2584,9 @@ no relevant mutable dependency is unresolved.
 
 Otherwise escalate to full resolution.
 
----
+______________________________________________________________________
 
-# 106. Fast-Path Boundary
+## 106. Fast-Path Boundary
 
 Optimization MUST NOT remove:
 
@@ -2612,9 +2604,9 @@ effect binding;
 commit-time revalidation where required.
 ```
 
----
+______________________________________________________________________
 
-# 107. Authority Cache
+## 107. Authority Cache
 
 Resolved authority MAY be cached only with its validity envelope.
 
@@ -2641,9 +2633,9 @@ authority_cache_entry:
   cached_at: timestamp
 ```
 
----
+______________________________________________________________________
 
-# 108. Cache Invalidation
+## 108. Cache Invalidation
 
 Authority cache MUST invalidate or revalidate on relevant:
 
@@ -2671,9 +2663,9 @@ scope change;
 regime change.
 ```
 
----
+______________________________________________________________________
 
-# 109. Cache Boundary
+## 109. Cache Boundary
 
 ```text
 CACHED_AUTHORITY
@@ -2683,9 +2675,9 @@ CURRENT_AUTHORITY
 
 unless freshness conditions remain valid.
 
----
+______________________________________________________________________
 
-# 110. Resolution Provenance
+## 110. Resolution Provenance
 
 Every consequential authority resolution SHOULD preserve:
 
@@ -2713,9 +2705,9 @@ resolver version;
 evaluation time.
 ```
 
----
+______________________________________________________________________
 
-# 111. Audit Record
+## 111. Audit Record
 
 ```yaml
 authority_resolution_audit:
@@ -2748,9 +2740,9 @@ authority_resolution_audit:
   provenance: {}
 ```
 
----
+______________________________________________________________________
 
-# 112. Observability Events
+## 112. Observability Events
 
 Recommended events:
 
@@ -2784,9 +2776,9 @@ AUTHORITY_WITNESS_ISSUED
 AUTHORITY_RESOLUTION_ESCALATED
 ```
 
----
+______________________________________________________________________
 
-# 113. Privacy Boundary
+## 113. Privacy Boundary
 
 Authority evidence may contain sensitive:
 
@@ -2812,9 +2804,9 @@ information.
 
 Observability MUST expose only the minimum necessary information.
 
----
+______________________________________________________________________
 
-# 114. Core Invariants
+## 114. Core Invariants
 
 ## INV-AR-001 — Identity/Authority Separation
 
@@ -2866,9 +2858,9 @@ Expired authority MUST NOT authorize current actions.
 
 Revoked authority MUST NOT authorize current actions.
 
----
+______________________________________________________________________
 
-# 115. Additional Invariants
+## 115. Additional Invariants
 
 ## INV-AR-011 — Delegation Attenuation
 
@@ -2910,9 +2902,9 @@ Cumulative authority limits MUST NOT be exceeded.
 
 Mutable authority MUST be revalidated when freshness assumptions expire.
 
----
+______________________________________________________________________
 
-# 116. Commit Invariants
+## 116. Commit Invariants
 
 ## INV-AR-021 — Plan/Commit Separation
 
@@ -2940,9 +2932,9 @@ A witness MUST NOT authorize a broader action than the one evaluated.
 
 An agent MUST NOT create authority for itself absent an authorized authority-issuance mechanism.
 
----
+______________________________________________________________________
 
-# 117. Governance Invariants
+## 117. Governance Invariants
 
 ## INV-AR-026 — Unknown Is Not Authority
 
@@ -2972,9 +2964,9 @@ Historical execution does not establish current authority.
 AUTHORIZED != COMMITTED
 ```
 
----
+______________________________________________________________________
 
-# 118. Failure Modes
+## 118. Failure Modes
 
 ```text
 FM-AR-001 principal mismatch
@@ -3058,9 +3050,9 @@ FM-AR-039 authority widened during normalization
 FM-AR-040 unknown treated as authorized
 ```
 
----
+______________________________________________________________________
 
-# 119. Recovery
+## 119. Recovery
 
 Canonical recovery:
 
@@ -3090,9 +3082,9 @@ RECOMPUTE EFFECTIVE AUTHORITY
 ISSUE NEW RESOLUTION OR DENY
 ```
 
----
+______________________________________________________________________
 
-# 120. Selective Recovery
+## 120. Selective Recovery
 
 If one authority path fails:
 
@@ -3105,9 +3097,9 @@ do not automatically discard `A2`.
 
 Revalidate only affected dependency closure.
 
----
+______________________________________________________________________
 
-# 121. Revocation Recovery
+## 121. Revocation Recovery
 
 If authority is revoked after planning but before commit:
 
@@ -3123,9 +3115,9 @@ BLOCK EFFECT
 
 The prepared action does not preserve expired authority.
 
----
+______________________________________________________________________
 
-# 122. Conflict Recovery
+## 122. Conflict Recovery
 
 For unresolved conflict:
 
@@ -3141,9 +3133,9 @@ RE-EVALUATE
 
 Do not accumulate redundant copies of the same authority source.
 
----
+______________________________________________________________________
 
-# 123. Tests
+## 123. Tests
 
 Minimum validator suite:
 
@@ -3269,9 +3261,9 @@ T-AR-059 selective invalidation
 T-AR-060 audit reconstruction
 ```
 
----
+______________________________________________________________________
 
-# 124. Adversarial Tests
+## 124. Adversarial Tests
 
 ```text
 authenticated admin with no resource authority;
@@ -3315,9 +3307,9 @@ unknown jurisdiction treated as global authority;
 missing scope treated as wildcard.
 ```
 
----
+______________________________________________________________________
 
-# 125. Validator Outcomes
+## 125. Validator Outcomes
 
 Authority validators SHOULD return:
 
@@ -3341,9 +3333,9 @@ UNKNOWN_GAP
 
 No failed validator becomes `VALID` by default.
 
----
+______________________________________________________________________
 
-# 126. Falsifiers
+## 126. Falsifiers
 
 A claim of valid authority is falsified if reliable evidence establishes any load-bearing failure such as:
 
@@ -3391,9 +3383,9 @@ registry rollback;
 or unresolved authority conflict.
 ```
 
----
+______________________________________________________________________
 
-# 127. Agents
+## 127. Agents
 
 Functional agent roles MAY include:
 
@@ -3417,9 +3409,9 @@ AUTHORITY_REPAIR_AGENT
 
 These roles do not themselves confer authority.
 
----
+______________________________________________________________________
 
-# 128. Agent Boundary
+## 128. Agent Boundary
 
 ```text
 AUTHORITY_RESOLVER_AGENT
@@ -3429,9 +3421,9 @@ AUTHORITY_ISSUER
 
 unless an independently governed authority-issuance capability explicitly grants that role.
 
----
+______________________________________________________________________
 
-# 129. Skills
+## 129. Skills
 
 Relevant Skills MAY include:
 
@@ -3459,9 +3451,9 @@ repair/recovery.
 
 Skill availability does not grant action authority.
 
----
+______________________________________________________________________
 
-# 130. Protocol — Resolve Authority
+## 130. Protocol — Resolve Authority
 
 ```yaml
 resolve_authority:
@@ -3477,9 +3469,9 @@ resolve_authority_result:
   gaps: []
 ```
 
----
+______________________________________________________________________
 
-# 131. Protocol — Validate Authority
+## 131. Protocol — Validate Authority
 
 ```yaml
 validate_authority:
@@ -3494,9 +3486,9 @@ validate_authority:
   context: {}
 ```
 
----
+______________________________________________________________________
 
-# 132. Protocol — Revalidate Authority
+## 132. Protocol — Revalidate Authority
 
 ```yaml
 revalidate_authority:
@@ -3529,9 +3521,9 @@ DENIED
 UNKNOWN_GAP
 ```
 
----
+______________________________________________________________________
 
-# 133. Protocol — Validate Delegation
+## 133. Protocol — Validate Delegation
 
 ```yaml
 validate_delegation:
@@ -3546,9 +3538,9 @@ validate_delegation:
   evaluation_time: timestamp
 ```
 
----
+______________________________________________________________________
 
-# 134. Protocol — Check Revocation
+## 134. Protocol — Check Revocation
 
 ```yaml
 check_authority_revocation:
@@ -3559,9 +3551,9 @@ check_authority_revocation:
   evaluation_time: timestamp
 ```
 
----
+______________________________________________________________________
 
-# 135. Protocol — Reserve Authority Budget
+## 135. Protocol — Reserve Authority Budget
 
 ```yaml
 reserve_authority_budget:
@@ -3590,9 +3582,9 @@ REVALIDATE
 UNKNOWN_GAP
 ```
 
----
+______________________________________________________________________
 
-# 136. Protocol — Release Reservation
+## 136. Protocol — Release Reservation
 
 ```yaml
 release_authority_reservation:
@@ -3603,9 +3595,9 @@ release_authority_reservation:
   transaction_id: string
 ```
 
----
+______________________________________________________________________
 
-# 137. Protocol — Consume Reservation
+## 137. Protocol — Consume Reservation
 
 ```yaml
 consume_authority_reservation:
@@ -3618,9 +3610,9 @@ consume_authority_reservation:
   committed_effect_ref: string
 ```
 
----
+______________________________________________________________________
 
-# 138. Authority Resolver / Policy Engine Interface
+## 138. Authority Resolver / Policy Engine Interface
 
 ```yaml
 authority_policy_interface:
@@ -3645,9 +3637,9 @@ The Policy Engine may use the authority state as an input.
 
 It MUST NOT rewrite authority evidence.
 
----
+______________________________________________________________________
 
-# 139. Authority Resolver / Capability Interface
+## 139. Authority Resolver / Capability Interface
 
 ```yaml
 authority_capability_interface:
@@ -3664,9 +3656,9 @@ Capability providers may declare authority requirements.
 
 They do not self-certify that those requirements are satisfied.
 
----
+______________________________________________________________________
 
-# 140. Authority Resolver / Control Plane Interface
+## 140. Authority Resolver / Control Plane Interface
 
 ```yaml
 authority_control_plane_bundle:
@@ -3683,9 +3675,9 @@ authority_control_plane_bundle:
   unresolved_conditions: []
 ```
 
----
+______________________________________________________________________
 
-# 141. Commit-Time Resolver Input
+## 141. Commit-Time Resolver Input
 
 ```yaml
 commit_authority_check:
@@ -3708,9 +3700,9 @@ commit_authority_check:
   current_authority_registry: {}
 ```
 
----
+______________________________________________________________________
 
-# 142. Commit-Time Resolver Output
+## 142. Commit-Time Resolver Output
 
 ```yaml
 commit_authority_result:
@@ -3732,9 +3724,9 @@ commit_authority_result:
   reason_codes: []
 ```
 
----
+______________________________________________________________________
 
-# 143. Commit Gate
+## 143. Commit Gate
 
 Effect release MAY proceed only if required authority checks resolve successfully.
 
@@ -3752,9 +3744,9 @@ AuthorityCurrent
 
 Additional gates may exist.
 
----
+______________________________________________________________________
 
-# 144. Authority Resolution Confidence
+## 144. Authority Resolution Confidence
 
 For an authority conclusion:
 
@@ -3778,9 +3770,9 @@ AMOS MODEL constraint.
 
 Derived authority confidence cannot exceed its weakest load-bearing premise.
 
----
+______________________________________________________________________
 
-# 145. Uncertainty Vector
+## 145. Uncertainty Vector
 
 ```yaml
 authority_uncertainty:
@@ -3807,9 +3799,9 @@ authority_uncertainty:
 
 Material uncertainty SHOULD remain visible.
 
----
+______________________________________________________________________
 
-# 146. Sensitivity
+## 146. Sensitivity
 
 For consequential authority decisions, identify the smallest premise capable of changing:
 
@@ -3841,9 +3833,9 @@ transaction identity.
 
 Check these before low-value contextual details.
 
----
+______________________________________________________________________
 
-# 147. Adversarial Validation
+## 147. Adversarial Validation
 
 For consequential authority resolutions, challenge the strongest supported authority conclusion by asking:
 
@@ -3875,9 +3867,9 @@ Did a cached witness survive a relevant state change?
 
 If a challenge succeeds, downgrade the resolution.
 
----
+______________________________________________________________________
 
-# 148. RSCF Authority Capsule
+## 148. RSCF Authority Capsule
 
 ```yaml
 rscf:
@@ -3921,9 +3913,9 @@ rscf:
   confidence_ceiling: null
 ```
 
----
+______________________________________________________________________
 
-# 149. RSCF Invalidation
+## 149. RSCF Invalidation
 
 If:
 
@@ -3942,9 +3934,9 @@ and dependent commit eligibility must be re-evaluated.
 
 Unrelated resolutions remain intact where dependency closure is known.
 
----
+______________________________________________________________________
 
-# 150. GMEF Integration
+## 150. GMEF Integration
 
 Changes affecting:
 
@@ -3970,9 +3962,9 @@ conflict resolution
 
 SHOULD be governed changes.
 
----
+______________________________________________________________________
 
-# 151. Change Manifest
+## 151. Change Manifest
 
 ```yaml
 authority_resolver_change:
@@ -4004,9 +3996,9 @@ authority_resolver_change:
   approval_state: PROPOSED
 ```
 
----
+______________________________________________________________________
 
-# 152. Promotion Model
+## 152. Promotion Model
 
 ```text
 STRUCTURAL_MODEL
@@ -4036,9 +4028,9 @@ GOVERNED_ACTIVE
 
 No transition is automatic.
 
----
+______________________________________________________________________
 
-# 153. Implementation Requirements
+## 153. Implementation Requirements
 
 An executable Authority Resolver SHOULD eventually provide:
 
@@ -4090,9 +4082,9 @@ selective invalidation.
 
 This document does not claim those components are currently implemented.
 
----
+______________________________________________________________________
 
-# 154. Example — Direct Authority
+## 154. Example — Direct Authority
 
 ```yaml
 authority_object:
@@ -4134,9 +4126,9 @@ authority_object:
 
 This is an architectural example, not evidence that this grant exists.
 
----
+______________________________________________________________________
 
-# 155. Example — Delegated Authority
+## 155. Example — Delegated Authority
 
 ```text
 HUMAN_OWNER
@@ -4164,9 +4156,9 @@ AGENT_A operation ∈ B permissions;
 neither A nor B revoked.
 ```
 
----
+______________________________________________________________________
 
-# 156. Example — Scope Failure
+## 156. Example — Scope Failure
 
 Authority:
 
@@ -4189,9 +4181,9 @@ reason_codes:
   - OPERATION_OUT_OF_SCOPE
 ```
 
----
+______________________________________________________________________
 
-# 157. Example — Resource Failure
+## 157. Example — Resource Failure
 
 Authority:
 
@@ -4213,9 +4205,9 @@ DENIED
 
 unless another valid authority independently covers `PROJECT_B`.
 
----
+______________________________________________________________________
 
-# 158. Example — Expired Authority
+## 158. Example — Expired Authority
 
 ```text
 valid_until = 2026-08-25T00:00:00Z
@@ -4231,9 +4223,9 @@ EXPIRED
 
 A valid historical signature does not restore current authority.
 
----
+______________________________________________________________________
 
-# 159. Example — Revocation Between Plan and Commit
+## 159. Example — Revocation Between Plan and Commit
 
 At planning:
 
@@ -4261,9 +4253,9 @@ Effect:
 BLOCK
 ```
 
----
+______________________________________________________________________
 
-# 160. Example — Capability Without Authority
+## 160. Example — Capability Without Authority
 
 ```text
 CAPABILITY:
@@ -4281,9 +4273,9 @@ NO AUTHORIZED DELETE
 
 The capability remains addressable but unusable for this principal/request.
 
----
+______________________________________________________________________
 
-# 161. Example — Policy Without Authority
+## 161. Example — Policy Without Authority
 
 ```text
 POLICY:
@@ -4309,9 +4301,9 @@ depending on the governing policy semantics.
 
 Never infer authority from the policy statement alone.
 
----
+______________________________________________________________________
 
-# 162. Example — Authority Without Policy Permission
+## 162. Example — Authority Without Policy Permission
 
 ```text
 AUTHORITY:
@@ -4329,9 +4321,9 @@ POLICY DENY
 
 Authority does not erase the policy gate.
 
----
+______________________________________________________________________
 
-# 163. Example — Authority Sybil
+## 163. Example — Authority Sybil
 
 Three records:
 
@@ -4357,9 +4349,9 @@ IndependentAuthorityRoots = 1
 
 not `3`.
 
----
+______________________________________________________________________
 
-# 164. Example — Selective Invalidation
+## 164. Example — Selective Invalidation
 
 ```text
 R1 ← AUTH_A + AUTH_B
@@ -4387,9 +4379,9 @@ R2 → PRESERVE
 
 subject to dependency closure.
 
----
+______________________________________________________________________
 
-# 165. Example — Cumulative Authority
+## 165. Example — Cumulative Authority
 
 Authority:
 
@@ -4411,9 +4403,9 @@ Only one may succeed if reservation is atomic.
 
 Otherwise both may incorrectly observe available capacity.
 
----
+______________________________________________________________________
 
-# 166. Authority Resolution Decision Table
+## 166. Authority Resolution Decision Table
 
 | Condition                   | Resolution             |
 | --------------------------- | ---------------------- |
@@ -4430,9 +4422,9 @@ Otherwise both may incorrectly observe available capacity.
 | Higher authority required   | ESCALATE               |
 | Evidence insufficient       | UNKNOWN_GAP            |
 
----
+______________________________________________________________________
 
-# 167. Control-Plane Decision Table
+## 167. Control-Plane Decision Table
 
 | Authority | Policy  | Capability  | Result                      |
 | --------- | ------- | ----------- | --------------------------- |
@@ -4446,52 +4438,52 @@ Otherwise both may incorrectly observe available capacity.
 | VALID     | ALLOW   | UNAVAILABLE | NO_EXECUTION                |
 | VALID     | ALLOW   | UNKNOWN     | REVALIDATE                  |
 
----
+______________________________________________________________________
 
-# 168. Audit Questions
+## 168. Audit Questions
 
 An auditor SHOULD be able to answer:
 
 1. Who requested the operation?
-2. How was principal identity established?
-3. What operation was requested?
-4. What capability would perform it?
-5. What target would be affected?
-6. What effect class applies?
-7. Who would receive information/effects?
-8. What environment applies?
-9. What jurisdiction applies?
-10. What authority candidates were discovered?
-11. What authority object was selected?
-12. Who issued it?
-13. Did the issuer possess authority to issue/delegate it?
-14. What delegation chain exists?
-15. Did every delegation attenuate authority?
-16. Is the operation within scope?
-17. Is the resource within scope?
-18. Is the capability within scope?
-19. Is the effect within scope?
-20. Is the recipient within scope?
-21. Is the environment within scope?
-22. Is the jurisdiction within scope?
-23. Is the authority temporally valid?
-24. Has it been revoked?
-25. What authority registry state was observed?
-26. What exact authority objects formed the read set?
-27. What constraints apply?
-28. What cumulative limits apply?
-29. Were limits reserved atomically where necessary?
-30. Were competing authority paths preserved?
-31. Were correlated authority artifacts deduplicated by ancestry?
-32. What authority witness was issued?
-33. What action identity does the witness bind?
-34. Is commit-time revalidation required?
-35. Was authority still current at commit?
-36. What unresolved gaps remain?
+1. How was principal identity established?
+1. What operation was requested?
+1. What capability would perform it?
+1. What target would be affected?
+1. What effect class applies?
+1. Who would receive information/effects?
+1. What environment applies?
+1. What jurisdiction applies?
+1. What authority candidates were discovered?
+1. What authority object was selected?
+1. Who issued it?
+1. Did the issuer possess authority to issue/delegate it?
+1. What delegation chain exists?
+1. Did every delegation attenuate authority?
+1. Is the operation within scope?
+1. Is the resource within scope?
+1. Is the capability within scope?
+1. Is the effect within scope?
+1. Is the recipient within scope?
+1. Is the environment within scope?
+1. Is the jurisdiction within scope?
+1. Is the authority temporally valid?
+1. Has it been revoked?
+1. What authority registry state was observed?
+1. What exact authority objects formed the read set?
+1. What constraints apply?
+1. What cumulative limits apply?
+1. Were limits reserved atomically where necessary?
+1. Were competing authority paths preserved?
+1. Were correlated authority artifacts deduplicated by ancestry?
+1. What authority witness was issued?
+1. What action identity does the witness bind?
+1. Is commit-time revalidation required?
+1. Was authority still current at commit?
+1. What unresolved gaps remain?
 
----
+______________________________________________________________________
 
-# 169. Completion Matrix
+## 169. Completion Matrix
 
 | Surface                                  | Specification State |
 | ---------------------------------------- | ------------------- |
@@ -4548,9 +4540,9 @@ An auditor SHOULD be able to answer:
 | Formal verification                      | UNKNOWN/GAP         |
 | Canon admission                          | UNKNOWN/GAP         |
 
----
+______________________________________________________________________
 
-# 170. RSCF Completion State
+## 170. RSCF Completion State
 
 ```yaml
 rscf_completion:
@@ -4609,9 +4601,9 @@ rscf_completion:
 
 `confidence_ceiling: 0` indicates that runtime implementation and validation are not being claimed by this architecture document.
 
----
+______________________________________________________________________
 
-# 171. Hard Boundary Block
+## 171. Hard Boundary Block
 
 ```text
 IDENTITY != AUTHORITY
@@ -4699,9 +4691,9 @@ TESTED != FORMALLY_VERIFIED
 MODEL != EMPIRICAL_FACT
 ```
 
----
+______________________________________________________________________
 
-# 172. Canon Boundary
+## 172. Canon Boundary
 
 Trang Phan remains the origin architect and steward of AMOS.
 
@@ -4752,9 +4744,9 @@ supersession;
 and dependency compatibility.
 ```
 
----
+______________________________________________________________________
 
-# 173. Final Authority Resolver Contract
+## 173. Final Authority Resolver Contract
 
 AMOS SHALL preserve the conceptual authority chain:
 
@@ -4912,30 +4904,33 @@ REVOKED
 
 Integrity remains prior to completeness, fluency, speed, convenience, and optimization.
 
----
+______________________________________________________________________
 
-# END — AUTHORITY_RESOLVER.md
+## END — AUTHORITY_RESOLVER.md
 
 ```
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: authority_resolver
 node_type: note
 path: 03_CONTROL_PLANE/04_AUTHORITY/AUTHORITY_RESOLVER.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[03_CONTROL_PLANE/04_AUTHORITY/04_AUTHORITY_MOC|04_AUTHORITY_MOC]]
-

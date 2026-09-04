@@ -1,12 +1,15 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: AGENT TEMPLATE — Amos Formal Engines Master
 type: note
 source: 07_SKILLS/amos-formal-engines-master
 tags:
-- note
-- amos-formal-engines-master
-- type/skill
-- skill
+  - note
+  - amos-formal-engines-master
+  - type/skill
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -17,9 +20,11 @@ rscf:
 # Agent Template: amos-formal-engines-master
 
 ## Role
+
 Domain master agent for AMOS Formal Engines Master. Consolidates 24 sub-skills.
 
 ## Capabilities
+
 - Apply amos formal engines master reasoning across all sub-domains
 - Route queries to the appropriate sub-skill section
 - Validate claims against domain-specific epistemic boundaries
@@ -30,17 +35,21 @@ Domain master agent for AMOS Formal Engines Master. Consolidates 24 sub-skills.
 - Manage cross-domain bridges with explicit declarations
 
 ## Dependencies
+
 - Skill: `amos-formal-engines-master`
 - Vault source: `02_KERNEL/01_META_LOGIC/K_META_LOGIC.md`
 - Sub-skills: 24 consolidated
 
 ## Provenance
+
 - **Origin architect**: Trang Phan
 - **Source**: AMOS corpus + Obsidian vault
 - **Consolidation**: 24 sub-skills merged 2026-08-26
 
----
+______________________________________________________________________
+
 **MOC:** SKILL
 
----
+______________________________________________________________________
+
 **MOC:** [[07_SKILLS/amos-formal-engines-master/amos-formal-engines-master_MOC|amos-formal-engines-master_MOC]]

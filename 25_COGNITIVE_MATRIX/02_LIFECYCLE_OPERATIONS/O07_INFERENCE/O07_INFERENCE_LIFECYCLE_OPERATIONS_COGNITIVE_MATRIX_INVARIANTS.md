@@ -1,12 +1,15 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: O07 INFERENCE LIFECYCLE OPERATIONS COGNITIVE MATRIX INVARIANTS
 type: note
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O07_INFERENCE
 tags:
-- note
-- o07-inference
-- domain/cognitive-matrix
-- trang-framework-recursive-ontology-dynamics
+  - note
+  - o07-inference
+  - domain/cognitive-matrix
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -40,21 +43,23 @@ MODEL != VERIFIED
 UNKNOWN/GAP != PASS
 ```
 
----
+______________________________________________________________________
 
 [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: o07_operations_invariants
 node_type: note
 path: 02_LIFECYCLE_OPERATIONS/O07_INFERENCE/O07_INFERENCE_LIFECYCLE_OPERATIONS_COGNITIVE_MATRIX_INVARIANTS.md
 claim_class: DERIVED
-node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O07_INFERENCE/O07_INFERENCE_LIFECYCLE_OPERATIONS_COGNITIVE_MATRIX_INVARIANTS.md
+node_path_note: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O07_INFERENCE/O07_INFERENCE_LIFECYCLE_OPERATIONS_COGNITIVE_MATRIX_INVARIANTS.md
 
----
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O07_INFERENCE/O07_INFERENCE_MOC|O07_INFERENCE_MOC]]
 
----
-**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+______________________________________________________________________
 
+**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

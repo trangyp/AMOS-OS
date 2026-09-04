@@ -1,14 +1,17 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: L02 ATTENTION PRIMITIVES COGNITIVE MATRIX TESTS
 type: test
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION
 tags:
-- cognitive-matrix
-- primitives
-- matrix/l02-attention
-- note
-- domain/cognitive-matrix
-- skill
+  - cognitive-matrix
+  - primitives
+  - matrix/l02-attention
+  - note
+  - domain/cognitive-matrix
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -18,28 +21,25 @@ rscf:
 
 # L02 ATTENTION PRIMITIVES COGNITIVE MATRIX TESTS
 
-The recovered L02 source currently provides only the placeholder role—**attention allocation / budgeting scarce reasoning-observation resources**—and explicitly requires tests/falsifiers before promotion; no canonical `TESTS.md` was recovered.  Therefore the test suite below is deliberately `AMOS_MODEL / UNEXECUTED`, not evidence that L02 is implemented or validated.
+The recovered L02 source currently provides only the placeholder role—**attention allocation / budgeting scarce reasoning-observation resources**—and explicitly requires tests/falsifiers before promotion; no canonical `TESTS.md` was recovered. Therefore the test suite below is deliberately `AMOS_MODEL / UNEXECUTED`, not evidence that L02 is implemented or validated.
 
----
+______________________________________________________________________
+
 tags:
-  - amos
-  - cognitive-matrix
-  - l02
-  - attention
-  - tests
-  - validation
-  - rscf
-  - hml
-  - governance
 
-title: L02_ATTENTION — Tests
-origin_architect: "Trang Phan"
-status: "MODEL_TEST_SPECIFICATION / UNEXECUTED / UNVALIDATED"
-epistemic_class: "MODEL"
-runtime_alignment: "AMOS Full Brain OS / AMOS_CORE v4.4 lineage"
----
+- amos
+- cognitive-matrix
+- l02
+- attention
+- tests
+- validation
+- rscf
+- hml
+- governance
 
-# L02_ATTENTION — Tests
+## title: L02_ATTENTION — Tests origin_architect: "Trang Phan" status: "MODEL_TEST_SPECIFICATION / UNEXECUTED / UNVALIDATED" epistemic_class: "MODEL" runtime_alignment: "AMOS Full Brain OS / AMOS_CORE v4.4 lineage"
+
+## L02_ATTENTION — Tests
 
 **Class:** `COGNITIVE_PRIMITIVE_TEST_CONTRACT`
 **Origin architect / steward:** Trang Phan
@@ -49,9 +49,9 @@ runtime_alignment: "AMOS Full Brain OS / AMOS_CORE v4.4 lineage"
 
 > **Canon boundary:** available source material supports `L02_ATTENTION` as an attention-allocation primitive that budgets scarce reasoning/observation resources and explicitly requires tests/falsifiers before promotion. No canonical L02 test registry or executed L02 validation harness is established here. All test identifiers, fixtures, expected outcomes, validators, equations, and promotion gates below are `AMOS_MODEL` unless independently recovered or executed.
 
----
+______________________________________________________________________
 
-# 0. Purpose
+## 0. Purpose
 
 Define how `L02_ATTENTION` must be tested before any claim of:
 
@@ -98,9 +98,9 @@ The primary objective is not to maximize the number of passing tests.
 
 The objective is to establish whether L02 preserves its declared invariants under normal, boundary, adversarial, stale, conflicting, resource-constrained, and recovery conditions.
 
----
+______________________________________________________________________
 
-# 1. Source / Canon References
+## 1. Source / Canon References
 
 ## 1.1 Source-supported core
 
@@ -156,18 +156,18 @@ source_status:
     status: UNKNOWN_GAP
 ```
 
----
+______________________________________________________________________
 
-# 2. Definition and Scope
+## 2. Definition and Scope
 
 An L02 test is a falsifiable evaluation:
 
-[
+\[
 Test:
-(Input,\ InitialState,\ Preconditions)
-\rightarrow
-(ObservedResult,\ Verdict)
-]
+(Input,\\ InitialState,\\ Preconditions)
+\\rightarrow
+(ObservedResult,\\ Verdict)
+\]
 
 with:
 
@@ -198,9 +198,9 @@ execution status
 falsification condition
 ```
 
----
+______________________________________________________________________
 
-# 3. Test Object Contract
+## 3. Test Object Contract
 
 ```yaml
 AttentionTest:
@@ -280,9 +280,9 @@ AttentionTest:
     type: ConfidenceBound
 ```
 
----
+______________________________________________________________________
 
-# 4. Test State Variables
+## 4. Test State Variables
 
 ```text
 T_t       = test registry
@@ -308,9 +308,9 @@ Unknown_t = unresolved tests
 Block_t   = blocked tests
 ```
 
----
+______________________________________________________________________
 
-# 5. Core Test Operators
+## 5. Core Test Operators
 
 Candidate testing operators:
 
@@ -353,9 +353,9 @@ PROMOTION_CHECK()
 
 These are `AMOS_MODEL`.
 
----
+______________________________________________________________________
 
-# 6. Testing Invariants
+## 6. Testing Invariants
 
 ```text
 L02-TEST-INV-001
@@ -404,9 +404,9 @@ L02-TEST-INV-015
 Runtime changes invalidate dependent test claims until revalidated.
 ```
 
----
+______________________________________________________________________
 
-# 7. Minimum Validation Matrix
+## 7. Minimum Validation Matrix
 
 L02 testing should cover at least:
 
@@ -434,9 +434,9 @@ L02 testing should cover at least:
 | Regression             | Yes      |
 | Adversarial behavior   | Yes      |
 
----
+______________________________________________________________________
 
-# 8. Type Tests
+## 8. Type Tests
 
 ## TEST-L02-TYPE-001 — Candidate Type Required
 
@@ -458,7 +458,7 @@ UNKNOWN_GAP or BLOCKED
 automatic valid admission
 ```
 
----
+______________________________________________________________________
 
 ## TEST-L02-TYPE-002 — Resource Units Must Match
 
@@ -484,7 +484,7 @@ TYPE ERROR
 
 unless an explicit conversion model exists.
 
----
+______________________________________________________________________
 
 ## TEST-L02-TYPE-003 — Unknown Scope
 
@@ -502,23 +502,23 @@ UNKNOWN_GAP / REVALIDATE
 
 where scope affects applicability.
 
----
+______________________________________________________________________
 
-# 9. Budget Tests
+## 9. Budget Tests
 
 ## TEST-L02-BUDGET-001 — Conservation
 
 Given:
 
-[
+\[
 B=100
-]
+\]
 
 and allocations:
 
-[
+\[
 30+40+35=105
-]
+\]
 
 Expected:
 
@@ -528,25 +528,25 @@ FAIL
 
 because:
 
-[
+\[
 105 > 100
-]
+\]
 
----
+______________________________________________________________________
 
 ## TEST-L02-BUDGET-002 — Exact Boundary
 
 Given:
 
-[
+\[
 B=100
-]
+\]
 
 and:
 
-[
-\sum_i a_i=100
-]
+\[
+\\sum_i a_i=100
+\]
 
 Expected:
 
@@ -556,7 +556,7 @@ PASS
 
 assuming no required reserve exists.
 
----
+______________________________________________________________________
 
 ## TEST-L02-BUDGET-003 — Reserve Preservation
 
@@ -569,9 +569,9 @@ reserve = 20
 
 Maximum ordinary allocation:
 
-[
+\[
 80
-]
+\]
 
 Attempt ordinary allocation = 90.
 
@@ -581,13 +581,13 @@ Expected:
 FAIL
 ```
 
----
+______________________________________________________________________
 
 ## TEST-L02-BUDGET-004 — Negative Allocation
 
-[
+\[
 a_i < 0
-]
+\]
 
 Expected:
 
@@ -595,7 +595,7 @@ Expected:
 FAIL
 ```
 
----
+______________________________________________________________________
 
 ## TEST-L02-BUDGET-005 — Budget Exhaustion ≠ Completion
 
@@ -618,9 +618,9 @@ Forbidden:
 PASS / VERIFIED
 ```
 
----
+______________________________________________________________________
 
-# 10. Attention / Truth Firewall Tests
+## 10. Attention / Truth Firewall Tests
 
 ## TEST-L02-EPI-001 — High Attention, Unsupported Claim
 
@@ -637,7 +637,7 @@ Expected:
 claim epistemic class unchanged
 ```
 
----
+______________________________________________________________________
 
 ## TEST-L02-EPI-002 — Repeated Attention
 
@@ -649,7 +649,7 @@ Expected:
 confidence does not rise solely due to repetition
 ```
 
----
+______________________________________________________________________
 
 ## TEST-L02-EPI-003 — Focus ≠ Belief
 
@@ -667,9 +667,9 @@ but not automatically:
 VERIFIED
 ```
 
----
+______________________________________________________________________
 
-# 11. Salience Tests
+## 11. Salience Tests
 
 ## TEST-L02-SAL-001 — Salient but Irrelevant
 
@@ -691,7 +691,7 @@ Expected:
 B must not be starved merely because A is salient.
 ```
 
----
+______________________________________________________________________
 
 ## TEST-L02-SAL-002 — Novelty Capture
 
@@ -705,7 +705,7 @@ Expected:
 novelty cannot automatically outrank dependency criticality
 ```
 
----
+______________________________________________________________________
 
 ## TEST-L02-SAL-003 — Frequency Capture
 
@@ -719,9 +719,9 @@ Expected:
 frequency cannot create false epistemic dominance
 ```
 
----
+______________________________________________________________________
 
-# 12. Provenance Tests
+## 12. Provenance Tests
 
 ## TEST-L02-PROV-001 — Source Preservation
 
@@ -735,7 +735,7 @@ QUARANTINE / UNKNOWN
 
 not ordinary continued use.
 
----
+______________________________________________________________________
 
 ## TEST-L02-PROV-002 — Shared Ancestry
 
@@ -755,7 +755,7 @@ independence groups = 1
 
 unless separate evidence exists.
 
----
+______________________________________________________________________
 
 ## TEST-L02-PROV-003 — Alias Multiplication
 
@@ -767,7 +767,7 @@ Expected:
 one semantic origin
 ```
 
----
+______________________________________________________________________
 
 ## TEST-L02-PROV-004 — Provenance Compression
 
@@ -785,9 +785,9 @@ confidence ceiling
 recovery pointer
 ```
 
----
+______________________________________________________________________
 
-# 13. Scope Tests
+## 13. Scope Tests
 
 ## TEST-L02-SCOPE-001 — Cross-Scope Reuse
 
@@ -799,7 +799,7 @@ Expected:
 BLOCK / REVALIDATE
 ```
 
----
+______________________________________________________________________
 
 ## TEST-L02-SCOPE-002 — Scope Loss During Compression
 
@@ -821,9 +821,9 @@ Expected:
 FAIL
 ```
 
----
+______________________________________________________________________
 
-# 14. Regime Tests
+## 14. Regime Tests
 
 ## TEST-L02-REG-001 — Regime Shift
 
@@ -847,7 +847,7 @@ REVALIDATE
 
 where regime materially matters.
 
----
+______________________________________________________________________
 
 ## TEST-L02-REG-002 — Hidden Regime Mutation
 
@@ -859,9 +859,9 @@ Expected:
 FAIL
 ```
 
----
+______________________________________________________________________
 
-# 15. Freshness Tests
+## 15. Freshness Tests
 
 ## TEST-L02-FRESH-001 — Expired Evidence
 
@@ -873,7 +873,7 @@ Expected:
 dependent attention state = STALE or REVALIDATE
 ```
 
----
+______________________________________________________________________
 
 ## TEST-L02-FRESH-002 — Recall ≠ Refresh
 
@@ -891,9 +891,9 @@ not automatically:
 FRESH
 ```
 
----
+______________________________________________________________________
 
-# 16. Dependency Tests
+## 16. Dependency Tests
 
 ## TEST-L02-DEP-001 — Selective Invalidation
 
@@ -913,7 +913,7 @@ A, B, C invalidated
 X, Y preserved
 ```
 
----
+______________________________________________________________________
 
 ## TEST-L02-DEP-002 — Hidden Load-Bearing Premise
 
@@ -925,7 +925,7 @@ Expected:
 validator failure
 ```
 
----
+______________________________________________________________________
 
 ## TEST-L02-DEP-003 — Non-Load-Bearing Dependency
 
@@ -937,9 +937,9 @@ Expected:
 no unnecessary global recomputation
 ```
 
----
+______________________________________________________________________
 
-# 17. Contradiction Tests
+## 17. Contradiction Tests
 
 ## TEST-L02-CONTRA-001 — Contradiction Preservation
 
@@ -964,7 +964,7 @@ Forbidden:
 silent deletion of one branch
 ```
 
----
+______________________________________________________________________
 
 ## TEST-L02-CONTRA-002 — Compression
 
@@ -976,9 +976,9 @@ Expected:
 contradiction marker survives
 ```
 
----
+______________________________________________________________________
 
-# 18. COMPETING Hypothesis Tests
+## 18. COMPETING Hypothesis Tests
 
 ## TEST-L02-COMP-001 — Equal Support
 
@@ -992,7 +992,7 @@ COMPETING
 
 not forced winner.
 
----
+______________________________________________________________________
 
 ## TEST-L02-COMP-002 — Correlated Majority
 
@@ -1006,7 +1006,7 @@ Expected:
 do not count H1 as 3 independent confirmations
 ```
 
----
+______________________________________________________________________
 
 ## TEST-L02-COMP-003 — Cheapest Discriminator
 
@@ -1021,9 +1021,9 @@ with highest expected decision discrimination
 
 subject to hard constraints.
 
----
+______________________________________________________________________
 
-# 19. Confidence Tests
+## 19. Confidence Tests
 
 ## TEST-L02-CONF-001 — Weakest Premise Ceiling
 
@@ -1039,13 +1039,13 @@ and all are load-bearing.
 
 Then:
 
-[
-Conf(C)\leq0.6
-]
+\[
+Conf(C)\\leq0.6
+\]
 
 unless independent evidence changes the graph.
 
----
+______________________________________________________________________
 
 ## TEST-L02-CONF-002 — Attention Does Not Raise Ceiling
 
@@ -1059,9 +1059,9 @@ confidence ceiling unchanged
 
 unless new valid evidence is added.
 
----
+______________________________________________________________________
 
-# 20. H/M/L Tests
+## 20. H/M/L Tests
 
 ## TEST-L02-HML-001 — L → H Overgeneralization
 
@@ -1073,7 +1073,7 @@ Expected:
 FAIL / CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
 ## TEST-L02-HML-002 — H → L Fabrication
 
@@ -1085,7 +1085,7 @@ Expected:
 FAIL
 ```
 
----
+______________________________________________________________________
 
 ## TEST-L02-HML-003 — Cross-Level Provenance
 
@@ -1097,7 +1097,7 @@ Expected:
 source lineage preserved
 ```
 
----
+______________________________________________________________________
 
 ## TEST-L02-HML-004 — Local Failure
 
@@ -1109,9 +1109,9 @@ Expected:
 M/H invalidated only if they depend on it
 ```
 
----
+______________________________________________________________________
 
-# 21. Authority Tests
+## 21. Authority Tests
 
 ## TEST-L02-AUTH-001 — Priority ≠ Authority
 
@@ -1129,7 +1129,7 @@ attention processing may continue
 external effect commit blocked
 ```
 
----
+______________________________________________________________________
 
 ## TEST-L02-AUTH-002 — Capability ≠ Authority
 
@@ -1143,7 +1143,7 @@ Expected:
 no governed effect commit
 ```
 
----
+______________________________________________________________________
 
 ## TEST-L02-AUTH-003 — Proposal ≠ Commit
 
@@ -1161,9 +1161,9 @@ commit_status = NOT_COMMITTED
 
 unless the authoritative control plane finalizes it.
 
----
+______________________________________________________________________
 
-# 22. Memory Tests
+## 22. Memory Tests
 
 ## TEST-L02-MEM-001 — Stale Recalled Priority
 
@@ -1175,7 +1175,7 @@ Expected:
 REVALIDATE
 ```
 
----
+______________________________________________________________________
 
 ## TEST-L02-MEM-002 — Invalidated Memory
 
@@ -1191,7 +1191,7 @@ Expected:
 cannot become ACTIVE without revalidation
 ```
 
----
+______________________________________________________________________
 
 ## TEST-L02-MEM-003 — Repeated Memory
 
@@ -1203,9 +1203,9 @@ Expected:
 one ancestry family
 ```
 
----
+______________________________________________________________________
 
-# 23. Skill Routing Tests
+## 23. Skill Routing Tests
 
 ## TEST-L02-SKILL-001 — Correct Scope
 
@@ -1219,7 +1219,7 @@ Expected:
 reject out-of-scope Skill
 ```
 
----
+______________________________________________________________________
 
 ## TEST-L02-SKILL-002 — No Valid Skill
 
@@ -1233,7 +1233,7 @@ UNKNOWN/GAP or ESCALATE
 
 not fabricated capability.
 
----
+______________________________________________________________________
 
 ## TEST-L02-SKILL-003 — Skill Failure
 
@@ -1247,9 +1247,9 @@ FAILED state recorded
 
 before fallback.
 
----
+______________________________________________________________________
 
-# 24. Attention Switching Tests
+## 24. Attention Switching Tests
 
 ## TEST-L02-SWITCH-001 — New Critical Evidence
 
@@ -1265,7 +1265,7 @@ attention reallocation permitted/required
 
 subject to switching cost.
 
----
+______________________________________________________________________
 
 ## TEST-L02-SWITCH-002 — Thrashing
 
@@ -1285,7 +1285,7 @@ THRASHING DETECTED
 
 and reassessment/escalation.
 
----
+______________________________________________________________________
 
 ## TEST-L02-SWITCH-003 — Frozen Focus
 
@@ -1297,9 +1297,9 @@ Expected:
 FAIL
 ```
 
----
+______________________________________________________________________
 
-# 25. Stop-Condition Tests
+## 25. Stop-Condition Tests
 
 ## TEST-L02-STOP-001 — Claim Sufficiency
 
@@ -1313,7 +1313,7 @@ Expected:
 STOP permitted
 ```
 
----
+______________________________________________________________________
 
 ## TEST-L02-STOP-002 — Critical Gap Open
 
@@ -1333,7 +1333,7 @@ STOP with UNKNOWN/GAP
 
 if further resolution is impossible or not justified.
 
----
+______________________________________________________________________
 
 ## TEST-L02-STOP-003 — Resource-Driven False Closure
 
@@ -1351,9 +1351,9 @@ not:
 COMPLETE
 ```
 
----
+______________________________________________________________________
 
-# 26. Repair Tests
+## 26. Repair Tests
 
 ## TEST-L02-REP-001 — Local Repair
 
@@ -1366,7 +1366,7 @@ repair local branch
 preserve independent branches
 ```
 
----
+______________________________________________________________________
 
 ## TEST-L02-REP-002 — Failed Repair
 
@@ -1380,7 +1380,7 @@ FAIL recorded
 
 not automatic retry loop.
 
----
+______________________________________________________________________
 
 ## TEST-L02-REP-003 — Changed-Evidence Retry
 
@@ -1394,7 +1394,7 @@ Expected:
 retry allowed
 ```
 
----
+______________________________________________________________________
 
 ## TEST-L02-REP-004 — Same-State Retry
 
@@ -1406,7 +1406,7 @@ Expected:
 reroute / escalate / stop
 ```
 
----
+______________________________________________________________________
 
 ## TEST-L02-REP-005 — Cosmetic Repair
 
@@ -1418,9 +1418,9 @@ Expected:
 FAIL
 ```
 
----
+______________________________________________________________________
 
-# 27. Rollback Tests
+## 27. Rollback Tests
 
 ## TEST-L02-RB-001 — Valid Checkpoint
 
@@ -1432,7 +1432,7 @@ Expected:
 rollback proposal eligible
 ```
 
----
+______________________________________________________________________
 
 ## TEST-L02-RB-002 — Stale Checkpoint
 
@@ -1444,7 +1444,7 @@ Expected:
 REVALIDATE before reuse
 ```
 
----
+______________________________________________________________________
 
 ## TEST-L02-RB-003 — Unauthorized Rollback
 
@@ -1456,9 +1456,9 @@ Expected:
 BLOCK
 ```
 
----
+______________________________________________________________________
 
-# 28. Adversarial Tests
+## 28. Adversarial Tests
 
 Required adversarial scenarios should include:
 
@@ -1487,9 +1487,9 @@ Skill overclaim
 memory poisoning
 ```
 
----
+______________________________________________________________________
 
-# 29. Property-Based Tests
+## 29. Property-Based Tests
 
 Instead of only fixed examples, test properties over generated inputs.
 
@@ -1497,65 +1497,65 @@ Instead of only fixed examples, test properties over generated inputs.
 
 For arbitrary valid allocations:
 
-[
-\sum_i a_i \le B
-]
+\[
+\\sum_i a_i \\le B
+\]
 
 must hold.
 
----
+______________________________________________________________________
 
 ## PROP-L02-002 — Non-Negativity
 
 For every attention allocation:
 
-[
-a_i \ge 0
-]
+\[
+a_i \\ge 0
+\]
 
----
+______________________________________________________________________
 
 ## PROP-L02-003 — Provenance Preservation
 
-For every admissible transformation \(T\):
+For every admissible transformation (T):
 
-[
+\[
 Origin(T(x))
-]
+\]
 
 must remain recoverable when origin is decision-relevant.
 
----
+______________________________________________________________________
 
 ## PROP-L02-004 — Confidence Non-Inflation
 
 For every attention-only transformation:
 
-[
-Conf_{after}\(C\)
-\le
-Conf_{before}\(C\)
-]
+\[
+Conf\_{after}(C)
+\\le
+Conf\_{before}(C)
+\]
 
 unless new independent evidence enters.
 
----
+______________________________________________________________________
 
 ## PROP-L02-005 — Selective Invalidation
 
 For invalidated node (p):
 
-[
+\[
 Affected
-\subseteq
-{p}\cup Descendants(p)
-]
+\\subseteq
+{p}\\cup Descendants(p)
+\]
 
 unless a separately evidenced global dependency exists.
 
----
+______________________________________________________________________
 
-# 30. Metamorphic Tests
+## 30. Metamorphic Tests
 
 ## META-L02-001 — Duplicate Evidence
 
@@ -1579,7 +1579,7 @@ epistemic confidence unchanged
 
 apart from implementation-level salience accounting that must remain separated.
 
----
+______________________________________________________________________
 
 ## META-L02-002 — Alias Change
 
@@ -1591,7 +1591,7 @@ Expected:
 independence state unchanged
 ```
 
----
+______________________________________________________________________
 
 ## META-L02-003 — Candidate Ordering
 
@@ -1605,7 +1605,7 @@ decision should remain equivalent
 
 unless input order is explicitly part of the model.
 
----
+______________________________________________________________________
 
 ## META-L02-004 — Noncritical Context Removal
 
@@ -1617,9 +1617,9 @@ Expected:
 root decision unchanged
 ```
 
----
+______________________________________________________________________
 
-# 31. Integration Tests
+## 31. Integration Tests
 
 ## INT-L02-001 — L01 → L02
 
@@ -1633,7 +1633,7 @@ candidate created
 no truth promotion
 ```
 
----
+______________________________________________________________________
 
 ## INT-L02-002 — L02 → RSCF
 
@@ -1646,7 +1646,7 @@ target priority preserved as attention metadata
 not converted into evidence
 ```
 
----
+______________________________________________________________________
 
 ## INT-L02-003 — L02 → Skill
 
@@ -1658,7 +1658,7 @@ Expected:
 scope/capability/authority checks preserved
 ```
 
----
+______________________________________________________________________
 
 ## INT-L02-004 — L02 → Control Plane
 
@@ -1670,9 +1670,9 @@ Expected:
 proposal remains uncommitted until authoritative validation
 ```
 
----
+______________________________________________________________________
 
-# 32. Concurrency Tests
+## 32. Concurrency Tests
 
 If multiple workers may consume a shared attention budget:
 
@@ -1680,9 +1680,9 @@ If multiple workers may consume a shared attention budget:
 
 Initial:
 
-[
+\[
 B=10
-]
+\]
 
 Worker A reads 10 and proposes 8.
 
@@ -1690,17 +1690,17 @@ Worker B reads 10 and proposes 8.
 
 Expected authoritative total:
 
-[
-\le10
-]
+\[
+\\le10
+\]
 
 not:
 
-[
+\[
 16
-]
+\]
 
----
+______________________________________________________________________
 
 ## CONC-L02-002 — Stale State Version
 
@@ -1714,7 +1714,7 @@ Expected:
 STALE / CONFLICT / REVALIDATE
 ```
 
----
+______________________________________________________________________
 
 ## CONC-L02-003 — Duplicate Commit
 
@@ -1728,9 +1728,9 @@ single authoritative effect
 
 if commit infrastructure supports idempotency.
 
----
+______________________________________________________________________
 
-# 33. Performance Tests
+## 33. Performance Tests
 
 Performance results must remain separate from correctness.
 
@@ -1754,9 +1754,9 @@ LOW LATENCY != CORRECT
 HIGH THROUGHPUT != VALID
 ```
 
----
+______________________________________________________________________
 
-# 34. Test Environment Contract
+## 34. Test Environment Contract
 
 Executed test evidence must record:
 
@@ -1784,9 +1784,9 @@ tool versions
 external API versions
 ```
 
----
+______________________________________________________________________
 
-# 35. Execution Evidence
+## 35. Execution Evidence
 
 A real test run should emit:
 
@@ -1826,9 +1826,9 @@ Without execution evidence:
 execution_status = NOT_RUN
 ```
 
----
+______________________________________________________________________
 
-# 36. Validator Registry
+## 36. Validator Registry
 
 ```text
 VALIDATE_TEST_SCHEMA
@@ -1868,9 +1868,9 @@ VALIDATE_EXECUTION_EVIDENCE
 VALIDATE_REGRESSION
 ```
 
----
+______________________________________________________________________
 
-# 37. Failure Modes
+## 37. Failure Modes
 
 ```text
 FM-L02-TEST-001
@@ -1922,9 +1922,9 @@ FM-L02-TEST-016
 MODEL test suite described as canonical test suite.
 ```
 
----
+______________________________________________________________________
 
-# 38. Repair / Recovery of the Test System
+## 38. Repair / Recovery of the Test System
 
 When a test fails:
 
@@ -1957,9 +1957,9 @@ PROMOTION REASSESSMENT
 
 Do not modify a test merely to make an implementation pass unless the original test is shown to be incorrect.
 
----
+______________________________________________________________________
 
-# 39. Regression Policy
+## 39. Regression Policy
 
 Every validated repair should produce a regression case where practical.
 
@@ -1984,9 +1984,9 @@ RegressionResult:
 
 until actually executed.
 
----
+______________________________________________________________________
 
-# 40. Promotion Test Gates
+## 40. Promotion Test Gates
 
 Suggested minimum gates:
 
@@ -2033,9 +2033,9 @@ NOT_RUN
 
 promotion must not be reported as complete.
 
----
+______________________________________________________________________
 
-# 41. H/M/L Testing Strategy
+## 41. H/M/L Testing Strategy
 
 ## H — System-level tests
 
@@ -2088,9 +2088,9 @@ M PASS
 H PASS
 ```
 
----
+______________________________________________________________________
 
-# 42. Agents
+## 42. Agents
 
 Candidate logical testing roles:
 
@@ -2108,9 +2108,9 @@ These are architectural roles.
 
 Separate agents do not automatically provide independent epistemic validation.
 
----
+______________________________________________________________________
 
-# 43. Skills
+## 43. Skills
 
 Potential supporting capability families:
 
@@ -2131,9 +2131,9 @@ RSCF Modeler
 
 Availability of such a Skill does not prove that the L02 tests were executed.
 
----
+______________________________________________________________________
 
-# 44. Workflow
+## 44. Workflow
 
 ```text
 LOAD TEST CONTRACT
@@ -2169,9 +2169,9 @@ UPDATE RSCF
 PROMOTE / BLOCK / REPAIR
 ```
 
----
+______________________________________________________________________
 
-# 45. Protocols
+## 45. Protocols
 
 Candidate testing protocols:
 
@@ -2191,9 +2191,9 @@ L02_TEST_INVALIDATION_NOTICE
 
 Canonical identifiers remain `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
-# 46. Evidence / Provenance Requirements
+## 46. Evidence / Provenance Requirements
 
 No executed test claim should exist without enough evidence to answer:
 
@@ -2229,9 +2229,9 @@ TestProvenance:
   result: NOT_RUN
 ```
 
----
+______________________________________________________________________
 
-# 47. Uncertainty and Confidence Ceiling
+## 47. Uncertainty and Confidence Ceiling
 
 Current test-contract uncertainty:
 
@@ -2283,9 +2283,9 @@ empirical generalization
 UNKNOWN unless separately validated
 ```
 
----
+______________________________________________________________________
 
-# 48. Falsifiers
+## 48. Falsifiers
 
 This test specification must be revised if direct canonical evidence establishes that:
 
@@ -2315,9 +2315,9 @@ within the claimed tested scope
 that still returns PASS or commits an unauthorized effect.
 ```
 
----
+______________________________________________________________________
 
-# 49. Gap Matrix
+## 49. Gap Matrix
 
 ```yaml
 gap_status:
@@ -2392,9 +2392,9 @@ gap_status:
     status: UNKNOWN_GAP
 ```
 
----
+______________________________________________________________________
 
-# 50. Required Execution Ledger
+## 50. Required Execution Ledger
 
 When actual tests exist, maintain:
 
@@ -2441,9 +2441,9 @@ execution_ledger:
 
 This prevents conceptual test design from being mistaken for measurement.
 
----
+______________________________________________________________________
 
-# 51. RSCF Completion State
+## 51. RSCF Completion State
 
 ```yaml
 rscf:
@@ -2553,9 +2553,9 @@ rscf:
     observed behavior against the declared L02 invariants
 ```
 
----
+______________________________________________________________________
 
-# 52. Completion State
+## 52. Completion State
 
 ```yaml
 completion_state:
@@ -2636,9 +2636,9 @@ completion_state:
     MODEL
 ```
 
----
+______________________________________________________________________
 
-# 53. Hard Boundaries
+## 53. Hard Boundaries
 
 ```text
 PLACEHOLDER != IMPLEMENTED
@@ -2684,15 +2684,15 @@ EXPECTED RESULT != OBSERVED RESULT
 FAILURE REPAIRED != REGRESSION PASSED
 ```
 
----
+______________________________________________________________________
 
-# 54. Governing Test Contract
+## 54. Governing Test Contract
 
 > **`L02_ATTENTION` may not be promoted from placeholder/model status merely because its architecture is specified. Promotion requires falsifiable tests tied to explicit invariants, identified runtime/version/environment state, preserved execution provenance, negative and adversarial coverage, repair/retest evidence, regression safety, and explicit PASS/FAIL/UNKNOWN classification. Any missing critical execution evidence remains `UNKNOWN/GAP`; it must never be converted into PASS.**
 
----
+______________________________________________________________________
 
-# 55. Canon Boundary
+## 55. Canon Boundary
 
 ```text
 SOURCE-SUPPORTED:
@@ -2773,22 +2773,27 @@ AUTHORIZATION TO PROMOTE
 
 ```text
 ```
----
+
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: l02_attention_primitives_cognitive_matrix_tests
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION/L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_TESTS.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION/L02_ATTENTION_MOC|L02_ATTENTION_MOC]]

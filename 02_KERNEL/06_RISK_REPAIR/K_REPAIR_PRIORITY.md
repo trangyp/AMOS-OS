@@ -15,40 +15,40 @@ kernel_family: RECOVERY
 scope: AMOS_OS
 updated: 2026-08-26
 tags:
-- amos-os
-- kernel
-- core
-- kernel/repair
-- kernel/priority
-- kernel/recovery
-- kernel/invariants
-- kernel/causal
-- kernel/provenance
-- kernel/homeostasis
-- kernel/repair-harm
-- rscf
-- topic/triage
-- topic/repair-order
-- topic/failure-containment
-- topic/reversibility
-- canon/kernel
-- readme
-- amos-core-laws
-- law-hierarchy
-- canon-provenance
-- k-core19-logic
-- k-meta-logic
-- k-structural-reasoning
-- k-causal-closure
-- k-causal-epoch
-- k-system-state
-- k-homeostasis
-- k-repair-harm
-- k-collapse-recovery
-- k-memory-admission
-- k-memory-conflict
-- k-memory-immune
-- k-memory-retrieval
+  - amos-os
+  - kernel
+  - core
+  - kernel/repair
+  - kernel/priority
+  - kernel/recovery
+  - kernel/invariants
+  - kernel/causal
+  - kernel/provenance
+  - kernel/homeostasis
+  - kernel/repair-harm
+  - rscf
+  - topic/triage
+  - topic/repair-order
+  - topic/failure-containment
+  - topic/reversibility
+  - canon/kernel
+  - readme
+  - amos-core-laws
+  - law-hierarchy
+  - canon-provenance
+  - k-core19-logic
+  - k-meta-logic
+  - k-structural-reasoning
+  - k-causal-closure
+  - k-causal-epoch
+  - k-system-state
+  - k-homeostasis
+  - k-repair-harm
+  - k-collapse-recovery
+  - k-memory-admission
+  - k-memory-conflict
+  - k-memory-immune
+  - k-memory-retrieval
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -91,7 +91,7 @@ FAULT SET
 → NEXT PRIORITY
 ```
 
----
+______________________________________________________________________
 
 ## 1. Hard Boundaries
 
@@ -119,7 +119,7 @@ A severe fault may require containment before repair.
 
 A root cause may be known while an immediately dangerous downstream effect must be contained first.
 
----
+______________________________________________________________________
 
 ## 2. Core Priority Law
 
@@ -167,7 +167,7 @@ This is a decision model.
 
 It does **not** assert that these dimensions can always be reduced to a universal scalar score.
 
----
+______________________________________________________________________
 
 ## 3. Integrity-First Ordering
 
@@ -188,7 +188,7 @@ This ordering is conditional on scope, regime, authority, and repair-harm constr
 
 No lower-order optimization may silently weaken higher-order integrity.
 
----
+______________________________________________________________________
 
 ## 4. Gap Priority Integration
 
@@ -214,7 +214,7 @@ But classification must be based on decision effect, not file location or naming
 
 A missing cosmetic description does not outrank an uncertain rollback path.
 
----
+______________________________________________________________________
 
 ## 5. Fault Object
 
@@ -248,7 +248,7 @@ Missing load-bearing fields remain:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
 ## 6. Repair Candidate Object
 
@@ -273,7 +273,7 @@ repair_candidate:
 
 Priority belongs to the fault/action relationship, not merely to the fault in isolation.
 
----
+______________________________________________________________________
 
 ## 7. Priority Classes
 
@@ -295,7 +295,7 @@ These classes describe priority semantics.
 
 They do not independently grant execution authority.
 
----
+______________________________________________________________________
 
 ## 8. RP0 — Emergency Containment
 
@@ -323,7 +323,7 @@ CONTAIN
 
 Containment may precede root-cause repair.
 
----
+______________________________________________________________________
 
 ## 9. RP1 — Critical Integrity Repair
 
@@ -350,7 +350,7 @@ ENTER GOVERNED DEGRADED MODE
 
 until integrity is restored.
 
----
+______________________________________________________________________
 
 ## 10. RP2 — Load-Bearing Repair
 
@@ -382,7 +382,7 @@ REPAIR / REVALIDATE P
 
 when `P` is genuinely causal or dependency-load-bearing.
 
----
+______________________________________________________________________
 
 ## 11. RP3 — Decision-Relevant Repair
 
@@ -402,7 +402,7 @@ Then `P` has high repair priority even if it is not globally severe.
 
 This is the repair analogue of sensitivity-first reasoning.
 
----
+______________________________________________________________________
 
 ## 12. RP4 — Functional Recovery
 
@@ -420,7 +420,7 @@ INTERFACE FAILURE
 
 A function must not be restored by violating kernel, security, authority, or provenance invariants.
 
----
+______________________________________________________________________
 
 ## 13. RP5 — Degradation Repair
 
@@ -442,7 +442,7 @@ FAST + INVALID
 SLOW + VALID
 ```
 
----
+______________________________________________________________________
 
 ## 14. RP6 — Explanatory / Maintenance
 
@@ -458,7 +458,7 @@ NONCRITICAL REFACTORING
 
 These should not displace unresolved decision-critical faults.
 
----
+______________________________________________________________________
 
 ## 15. RP7 — Cosmetic
 
@@ -473,7 +473,7 @@ GRAPH AESTHETICS
 
 Cosmetic repair is last unless cosmetic structure itself carries semantic or operational meaning.
 
----
+______________________________________________________________________
 
 ## 16. RPX — Unknown Priority
 
@@ -492,7 +492,7 @@ UNKNOWN
 
 Unknown blast radius can itself justify escalation.
 
----
+______________________________________________________________________
 
 ## 17. Containment vs Repair
 
@@ -526,7 +526,7 @@ REPAIR F
 → HOPE H STOPS
 ```
 
----
+______________________________________________________________________
 
 ## 18. Root Cause vs First Action
 
@@ -557,7 +557,7 @@ CONTAIN DOWNSTREAM HARM FIRST
 
 The causal model and action order must remain distinct.
 
----
+______________________________________________________________________
 
 ## 19. Ancestor-First Rule
 
@@ -591,7 +591,7 @@ A
 
 provided no downstream containment requirement overrides this order.
 
----
+______________________________________________________________________
 
 ## 20. Selective Invalidation Rule
 
@@ -623,7 +623,7 @@ P1 + P2 + P3 + ALL SYSTEM STATE
 
 Priority should minimize unnecessary invalidation.
 
----
+______________________________________________________________________
 
 ## 21. Shared-Dependency Priority
 
@@ -657,7 +657,7 @@ SHARED CAUSE
 
 The parent hypothesis must be validated.
 
----
+______________________________________________________________________
 
 ## 22. Causal Priority
 
@@ -682,7 +682,7 @@ COMMON CAUSE
 
 Causal repair priority requires causally appropriate evidence.
 
----
+______________________________________________________________________
 
 ## 23. Causal Epoch Priority
 
@@ -706,7 +706,7 @@ INVALIDATE
 
 A stale causal conclusion can become more important than a visible runtime symptom.
 
----
+______________________________________________________________________
 
 ## 24. Propagation Priority
 
@@ -732,7 +732,7 @@ RECURSIVE FALSE PREMISE
 UNBOUNDED RETRY CASCADE
 ```
 
----
+______________________________________________________________________
 
 ## 25. Irreversibility Priority
 
@@ -753,7 +753,7 @@ when evidence supports the classification.
 
 Irreversible loss reduces future option space.
 
----
+______________________________________________________________________
 
 ## 26. Recovery-Option Priority
 
@@ -771,7 +771,7 @@ RECOVERY KEY LOSS
 
 A repair that preserves current functionality while destroying all recovery paths may be unacceptable.
 
----
+______________________________________________________________________
 
 ## 27. Authority Priority
 
@@ -788,7 +788,7 @@ CAPABILITY / PERMISSION CONFUSION
 
 Do not repair downstream effects while leaving an active authority violation capable of reproducing them.
 
----
+______________________________________________________________________
 
 ## 28. Provenance Priority
 
@@ -809,7 +809,7 @@ SNAPSHOT
 → REPAIR
 ```
 
----
+______________________________________________________________________
 
 ## 29. Evidence Preservation Priority
 
@@ -823,7 +823,7 @@ should precede destructive repair unless doing so would allow greater immediate 
 
 This is a governed tradeoff, not an absolute rule.
 
----
+______________________________________________________________________
 
 ## 30. Security Priority
 
@@ -839,7 +839,7 @@ depending on active harm and integrity impact.
 
 Functional availability does not justify silently preserving a compromised trust boundary.
 
----
+______________________________________________________________________
 
 ## 31. Memory Priority
 
@@ -862,7 +862,7 @@ UNUSED STALE NON-LOAD-BEARING MEMORY
 
 provided it cannot reactivate unexpectedly.
 
----
+______________________________________________________________________
 
 ## 32. Repair-Harm Integration
 
@@ -890,7 +890,7 @@ CONTAIN F1
 
 Repair priority is action-aware.
 
----
+______________________________________________________________________
 
 ## 33. Reversibility Bias
 
@@ -906,7 +906,7 @@ as a default preference.
 
 This preference may be overridden by active irreversible harm.
 
----
+______________________________________________________________________
 
 ## 34. Information-Value Priority
 
@@ -933,7 +933,7 @@ LOW-CONFIDENCE INTERVENTION
 
 when expected decision value is positive.
 
----
+______________________________________________________________________
 
 ## 35. Sensitivity-First Repair
 
@@ -957,7 +957,7 @@ VALIDATE P FIRST
 
 may be the highest-value action.
 
----
+______________________________________________________________________
 
 ## 36. Freshness Priority
 
@@ -975,7 +975,7 @@ VALID @ T1
 
 Priority computed from stale topology, authority, or state can be invalid.
 
----
+______________________________________________________________________
 
 ## 37. Regime Priority
 
@@ -1003,7 +1003,7 @@ SINGLE-SHARD → CROSS-SHARD
 
 Priority must inherit the active applicability envelope.
 
----
+______________________________________________________________________
 
 ## 38. Scope Firewall
 
@@ -1023,7 +1023,7 @@ ASSUMPTIONS
 
 Priority is scoped.
 
----
+______________________________________________________________________
 
 ## 39. Local Priority
 
@@ -1047,7 +1047,7 @@ LOCAL REPAIR
 
 may outrank expensive global recomputation.
 
----
+______________________________________________________________________
 
 ## 40. Global Escalation
 
@@ -1066,7 +1066,7 @@ RECOVERY PATH UNCERTAIN
 MULTIPLE RSCFs SHARE LOAD-BEARING PREMISES
 ```
 
----
+______________________________________________________________________
 
 ## 41. Multi-RSCF Priority
 
@@ -1093,7 +1093,7 @@ INVALIDATE ONLY
 DEPENDENT DESCENDANTS
 ```
 
----
+______________________________________________________________________
 
 ## 42. Atomic Repair Priority
 
@@ -1107,7 +1107,7 @@ priority should target the smallest invalid subset capable of restoring decision
 
 Do not independently commit partially repaired atomic reasoning when atomic validity is required.
 
----
+______________________________________________________________________
 
 ## 43. MVCC / CAS Priority
 
@@ -1137,7 +1137,7 @@ COMMIT STALE REPAIR
 
 Stale repair execution is never prioritized merely because computation has already been spent.
 
----
+______________________________________________________________________
 
 ## 44. Priority Stability
 
@@ -1162,7 +1162,7 @@ Therefore:
 PRIORITY = STATE-DEPENDENT
 ```
 
----
+______________________________________________________________________
 
 ## 45. Priority Inheritance
 
@@ -1174,7 +1174,7 @@ This inheritance must be dependency-aware.
 
 Simple counting is insufficient.
 
----
+______________________________________________________________________
 
 ## 46. Priority Ceiling from Evidence
 
@@ -1203,7 +1203,7 @@ or
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
 ## 47. Competing Priorities
 
@@ -1228,7 +1228,7 @@ COMPETING
 
 Then seek a discriminating fact or parallel containment path.
 
----
+______________________________________________________________________
 
 ## 48. Parallel Repair
 
@@ -1247,7 +1247,7 @@ NO REPAIR-HARM INTERACTION
 
 Independence must not be assumed from separate filenames, agents, or modules.
 
----
+______________________________________________________________________
 
 ## 49. Repair Queue
 
@@ -1276,7 +1276,7 @@ repair_queue:
 
 Queue order must be recomputable from evidence.
 
----
+______________________________________________________________________
 
 ## 50. Priority Decision Gate
 
@@ -1326,7 +1326,7 @@ RP7 / RPX
 
 Every branch remains subject to repair-harm and authority checks.
 
----
+______________________________________________________________________
 
 ## 51. Priority vs Cost
 
@@ -1352,7 +1352,7 @@ may be preferred.
 
 Optimization occurs only after integrity constraints are satisfied.
 
----
+______________________________________________________________________
 
 ## 52. Priority vs Speed
 
@@ -1372,7 +1372,7 @@ FAST SAFE CONTAINMENT
 
 may outrank complete diagnosis during active harm.
 
----
+______________________________________________________________________
 
 ## 53. Priority vs Completeness
 
@@ -1394,7 +1394,7 @@ REPAIR SAFETY
 AUTHORITY
 ```
 
----
+______________________________________________________________________
 
 ## 54. Failed Repair Reprioritization
 
@@ -1414,7 +1414,7 @@ RECOMPUTE PRIORITY
 
 Do not automatically keep `R1` at the top of the queue.
 
----
+______________________________________________________________________
 
 ## 55. Repair Cascade Priority
 
@@ -1436,7 +1436,7 @@ STOP CASCADE
 
 rather than continuing downstream patching.
 
----
+______________________________________________________________________
 
 ## 56. Repair Thrashing Priority
 
@@ -1457,7 +1457,7 @@ ROOT-CAUSE REASSESSMENT
 
 above another identical retry.
 
----
+______________________________________________________________________
 
 ## 57. Homeostasis Interaction
 
@@ -1476,7 +1476,7 @@ K_REPAIR_HARM
 → IS THE PROPOSED CORRECTION SAFE ENOUGH?
 ```
 
----
+______________________________________________________________________
 
 ## 58. Collapse Recovery Interaction
 
@@ -1501,7 +1501,7 @@ COLLAPSE
 → REVALIDATE
 ```
 
----
+______________________________________________________________________
 
 ## 59. Repair-Harm Interaction
 
@@ -1519,7 +1519,7 @@ Neither replaces the other.
 
 A high-priority fault may require delayed repair if all known repair paths currently create greater unacceptable harm.
 
----
+______________________________________________________________________
 
 ## 60. Authority Boundary
 
@@ -1544,7 +1544,7 @@ EXTERNAL SIDE-EFFECT PERMISSION
 SECURITY EXCEPTION
 ```
 
----
+______________________________________________________________________
 
 ## 61. Runtime Boundary
 
@@ -1588,7 +1588,7 @@ COMMIT
 PROVENANCE GOVERNANCE
 ```
 
----
+______________________________________________________________________
 
 ## 62. Priority Proof Capsule
 
@@ -1619,7 +1619,7 @@ repair_priority_proof:
   confidence_ceiling:
 ```
 
----
+______________________________________________________________________
 
 ## 63. Adversarial Priority Validation
 
@@ -1657,7 +1657,7 @@ OR
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
 ## 64. Priority Invariants
 
@@ -1764,7 +1764,7 @@ KRP-30
 UNKNOWN/GAP MUST NOT PASS AS A VALID PRIORITY PROOF
 ```
 
----
+______________________________________________________________________
 
 ## 65. Required Tests
 
@@ -1804,7 +1804,7 @@ REPAIR-THRASHING TEST
 UNKNOWN-GAP TEST
 ```
 
----
+______________________________________________________________________
 
 ## 66. Negative Tests
 
@@ -1886,7 +1886,7 @@ UNKNOWN/GAP
 MUST FAIL
 ```
 
----
+______________________________________________________________________
 
 ## 67. Failure Modes
 
@@ -1917,7 +1917,7 @@ UNKNOWN-AS-LOW-PRIORITY
 PREMATURE TOTAL ORDERING
 ```
 
----
+______________________________________________________________________
 
 ## 68. Recovery Semantics
 
@@ -1945,7 +1945,7 @@ RESUME THROUGH AUTHORIZED PATH
 
 Do not globally undo successful independent repairs unless their validity depends on the failed priority premise.
 
----
+______________________________________________________________________
 
 ## 69. Promotion Gate
 
@@ -1993,7 +1993,7 @@ FORMAL_PRIORITY_OPTIMALITY_PROOF = UNKNOWN/GAP
 EMPIRICAL_VALIDATION = UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
 ## 70. RSCF Node
 
@@ -2039,7 +2039,7 @@ RSCF-RELATIONS:
   - OPERATED_BY: README
 ```
 
----
+______________________________________________________________________
 
 ## 71. Canonical Repair-Priority Summary
 
@@ -2320,12 +2320,14 @@ README
 **Classification note:** this replaces the placeholder with a substantive **AMOS_MODEL** kernel contract; it does not establish that `K_REPAIR_PRIORITY` is implemented, empirically validated, formally proven, or promoted into final canon. Those remain `UNKNOWN/GAP` until the stated promotion evidence exists.
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 **MOC:** [[02_KERNEL/06_RISK_REPAIR/06_RISK_REPAIR_MOC|06_RISK_REPAIR_MOC]]

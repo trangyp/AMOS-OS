@@ -1,12 +1,15 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: 02 Capability MOC
 type: moc
 source: 03_CONTROL_PLANE/02_CAPABILITY
 tags:
-- 02-capability
-- canon/control-plane
-- capability-manifest
-- capability-resolver
+  - 02-capability
+  - canon/control-plane
+  - capability-manifest
+  - capability-resolver
 moc: true
 rscf:
   state: DERIVED
@@ -31,5 +34,6 @@ rscf:
 
 - [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]] — 00_INDEX
 
----
+______________________________________________________________________
+
 **Parent:** [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE_MOC]]

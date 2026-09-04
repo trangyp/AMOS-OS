@@ -1,12 +1,15 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: K GMEF
 type: note
 source: 02_KERNEL/09_INTEGRATION
 tags:
-- kernel
-- integration
-- note
-- canon/kernel
+  - kernel
+  - integration
+  - note
+  - canon/kernel
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -57,9 +60,9 @@ THE CHANGE MECHANISM ITSELF?
 
 GMEF makes that recursion explicit rather than allowing it to disappear into implementation.
 
----
+______________________________________________________________________
 
-# 2. Core GMEF Law
+## 2. Core GMEF Law
 
 ```text
 EVOLUTION
@@ -90,9 +93,9 @@ Mutation(Governance)
 Governed(Mutation(Governance))
 ```
 
----
+______________________________________________________________________
 
-# 3. Recursive Governance Law
+## 3. Recursive Governance Law
 
 Governance requirements must not weaken merely because evolution occurs at a deeper recursive level.
 
@@ -131,9 +134,9 @@ where comparison is understood as governance strength/burden, not necessarily a 
 
 Numerical scoring systems may operationalize this relation, but numerical thresholds are policy/runtime coordinates rather than empirical universal constants.
 
----
+______________________________________________________________________
 
-# 4. Meta-Evolution
+## 4. Meta-Evolution
 
 Ordinary adaptation changes behavior inside an existing governing structure.
 
@@ -158,9 +161,9 @@ CHANGE ITSELF
 
 Increasing recursive depth increases governance sensitivity.
 
----
+______________________________________________________________________
 
-# 5. GMEF Object
+## 5. GMEF Object
 
 A governed mutation should conceptually carry:
 
@@ -210,9 +213,9 @@ gmef_mutation:
 
 Missing load-bearing fields remain `UNKNOWN`.
 
----
+______________________________________________________________________
 
-# 6. Mutation Classes
+## 6. Mutation Classes
 
 AMOS Core lineage operationalizes mutations through ordered mutation classes.
 
@@ -246,9 +249,9 @@ Known lineage examples include lower-level parameter/ranking/weight adaptation a
 
 Do not infer universal semantics for every `M0–M5` class unless the governing version explicitly defines them.
 
----
+______________________________________________________________________
 
-# 7. Mutation Classification
+## 7. Mutation Classification
 
 Every consequential self-modification must be classified before authorization.
 
@@ -276,9 +279,9 @@ ESCALATE
 
 when classification can alter authorization.
 
----
+______________________________________________________________________
 
-# 8. Constitutional Boundary
+## 8. Constitutional Boundary
 
 Certain governing structures may be constitutionally locked.
 
@@ -296,9 +299,9 @@ AUTONOMOUS ADAPTATION
 CONSTITUTIONAL AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 9. Governance Cannot Self-Authorize
+## 9. Governance Cannot Self-Authorize
 
 A mutation must not acquire authority merely by modifying the mechanism that evaluates authority.
 
@@ -313,9 +316,9 @@ BECOMES AUTHORIZED"
 
 unless an already-valid higher authority independently licenses that governance change.
 
----
+______________________________________________________________________
 
-# 10. External Judging
+## 10. External Judging
 
 For sufficiently consequential recursive mutations, evaluation must not rely solely on the component proposing the change.
 
@@ -331,9 +334,9 @@ where external judgment is required by policy.
 
 This protects against self-confirming mutation loops.
 
----
+______________________________________________________________________
 
-# 11. Evidence Requirement
+## 11. Evidence Requirement
 
 Mutation authority is evidence-constrained.
 
@@ -354,9 +357,9 @@ for its load-bearing premises
 
 No amount of fluent rationale substitutes for missing evidence.
 
----
+______________________________________________________________________
 
-# 12. Evidence Topology
+## 12. Evidence Topology
 
 Multiple supporting artifacts do not constitute independent confirmation when they descend from one source.
 
@@ -373,9 +376,9 @@ SOURCE
 
 GMEF must preserve provenance ancestry when judging mutation evidence.
 
----
+______________________________________________________________________
 
-# 13. Authority Requirement
+## 13. Authority Requirement
 
 Every governed mutation requires an authority level appropriate to its class and consequence.
 
@@ -400,9 +403,9 @@ REJECT / ESCALATE
 
 not silent execution.
 
----
+______________________________________________________________________
 
-# 14. Evidence + Authority
+## 14. Evidence + Authority
 
 Authorization requires both where policy requires both:
 
@@ -424,9 +427,9 @@ Authority cannot replace evidence.
 
 Evidence cannot manufacture authority.
 
----
+______________________________________________________________________
 
-# 15. Recursive Depth
+## 15. Recursive Depth
 
 A mutation has recursive depth according to how many levels of future mutation behavior it can alter.
 
@@ -447,9 +450,9 @@ lower-depth mutation
 
 Exact classification is policy-defined.
 
----
+______________________________________________________________________
 
-# 16. Recursive Depth Ceiling
+## 16. Recursive Depth Ceiling
 
 Autonomous mutation may be bounded by policy.
 
@@ -469,9 +472,9 @@ ESCALATE
 
 The source lineage includes an operational autonomous-depth limit, but its numeric value is runtime policy rather than a universal AMOS law.
 
----
+______________________________________________________________________
 
-# 17. Consequence Radius
+## 17. Consequence Radius
 
 Mutation governance depends not only on what changes but how far its effects may propagate.
 
@@ -497,9 +500,9 @@ GOVERNANCE
 
 A local-looking edit with global dependency reach is not a local mutation.
 
----
+______________________________________________________________________
 
-# 18. Irreversibility
+## 18. Irreversibility
 
 Mutation burden increases when rollback becomes harder or impossible.
 
@@ -515,9 +518,9 @@ UNKNOWN
 
 Unknown reversibility is itself governance-relevant.
 
----
+______________________________________________________________________
 
-# 19. Reversibility Principle
+## 19. Reversibility Principle
 
 Prefer:
 
@@ -530,9 +533,9 @@ ROLLBACK-CAPABLE
 
 evolution over one-shot irreversible mutation when both can achieve the objective.
 
----
+______________________________________________________________________
 
-# 20. Rollback Requirement
+## 20. Rollback Requirement
 
 Production-impacting mutation should carry rollback capability when policy requires it.
 
@@ -547,9 +550,9 @@ rollback:
 
 A claimed rollback mechanism must itself be validated.
 
----
+______________________________________________________________________
 
-# 21. Failure Memory
+## 21. Failure Memory
 
 Mutation failures must become persistent governance evidence where required.
 
@@ -571,9 +574,9 @@ FORGET
 REPEAT IDENTICAL PATH
 ```
 
----
+______________________________________________________________________
 
-# 22. Failure-Memory Record
+## 22. Failure-Memory Record
 
 ```yaml
 failure_memory:
@@ -596,9 +599,9 @@ failure_memory:
 
 Do not fabricate a root cause merely because a failure occurred.
 
----
+______________________________________________________________________
 
-# 23. No Repeated Failed Path
+## 23. No Repeated Failed Path
 
 ```text
 FAILED PATH
@@ -615,9 +618,9 @@ REPEAT BLINDLY
 
 Retry requires changed evidence, state, method, or governing assumptions.
 
----
+______________________________________________________________________
 
-# 24. Lineage
+## 24. Lineage
 
 Every accepted mutation must preserve causal/version lineage.
 
@@ -631,9 +634,9 @@ STATE₂
 
 Each transition should remain attributable to its mutation.
 
----
+______________________________________________________________________
 
-# 25. Mutation Lineage
+## 25. Mutation Lineage
 
 ```yaml
 mutation_lineage:
@@ -655,9 +658,9 @@ mutation_lineage:
   epoch:
 ```
 
----
+______________________________________________________________________
 
-# 26. No Orphan Mutation
+## 26. No Orphan Mutation
 
 A mutation without recoverable ancestry must not automatically enter authoritative state.
 
@@ -675,9 +678,9 @@ QUARANTINE / GAP
 
 when ancestry is load-bearing.
 
----
+______________________________________________________________________
 
-# 27. Version Binding
+## 27. Version Binding
 
 Mutations operate against an identified parent state.
 
@@ -689,9 +692,9 @@ STATE @ VERSION V
 
 A mutation validated against `V` cannot silently apply to materially different `V+Δ`.
 
----
+______________________________________________________________________
 
-# 28. Stale Mutation Rejection
+## 28. Stale Mutation Rejection
 
 ```text
 CURRENT_STATE
@@ -704,9 +707,9 @@ REVALIDATE
 
 where the delta can affect mutation validity.
 
----
+______________________________________________________________________
 
-# 29. Replay Protection
+## 29. Replay Protection
 
 Previously valid mutation authorization must not automatically authorize replay in a different state.
 
@@ -718,9 +721,9 @@ AUTHORIZED(M @ S₂)
 
 unless applicability remains valid.
 
----
+______________________________________________________________________
 
-# 30. Retarget Protection
+## 30. Retarget Protection
 
 An authorization for target `A` does not authorize the same mutation against target `B`.
 
@@ -732,9 +735,9 @@ AUTH(M,B)
 
 without explicit target compatibility.
 
----
+______________________________________________________________________
 
-# 31. Mutation Identity
+## 31. Mutation Identity
 
 A mutation should be bound to:
 
@@ -749,9 +752,9 @@ PROVENANCE
 
 when those dimensions affect validity.
 
----
+______________________________________________________________________
 
-# 32. Bounded Mutation
+## 32. Bounded Mutation
 
 GMEF favors the smallest mutation sufficient to achieve the objective.
 
@@ -773,9 +776,9 @@ validation burden
 hidden coupling
 ```
 
----
+______________________________________________________________________
 
-# 33. Minimal Semantic Delta
+## 33. Minimal Semantic Delta
 
 Prefer:
 
@@ -788,9 +791,9 @@ semantic change
 
 over unnecessary architectural replacement.
 
----
+______________________________________________________________________
 
-# 34. Dependency Closure
+## 34. Dependency Closure
 
 Before consequential mutation:
 
@@ -810,9 +813,9 @@ AffectedOperations
 
 Only dependencies capable of changing the authorization or outcome need expansion.
 
----
+______________________________________________________________________
 
-# 35. Constraint Propagation
+## 35. Constraint Propagation
 
 A mutation inherits constraints through `K_CONSTRAINT_PROPAGATION`.
 
@@ -828,9 +831,9 @@ APPLICABLE CONSTRAINT
 
 Dependency alone does not imply constraint inheritance.
 
----
+______________________________________________________________________
 
-# 36. Invariant Preservation
+## 36. Invariant Preservation
 
 A mutation must not violate a load-bearing invariant unless a higher authorized process explicitly supersedes that invariant.
 
@@ -840,9 +843,9 @@ Valid(M)
 PreservesRequiredInvariants(M)
 ```
 
----
+______________________________________________________________________
 
-# 37. Law Hierarchy
+## 37. Law Hierarchy
 
 Mutation authority is subordinate to the valid law hierarchy.
 
@@ -856,9 +859,9 @@ HIGHER-ORDER LAW
 
 merely because the mutation mechanism can technically modify it.
 
----
+______________________________________________________________________
 
-# 38. Optimization Firewall
+## 38. Optimization Firewall
 
 Evolution may optimize only within the valid governance envelope.
 
@@ -885,9 +888,9 @@ BETTER SCORE
 IGNORE GOVERNANCE
 ```
 
----
+______________________________________________________________________
 
-# 39. Epistemic Firewall
+## 39. Epistemic Firewall
 
 A successful mutation benchmark does not prove universal validity.
 
@@ -899,9 +902,9 @@ UNIVERSAL VALIDATION
 
 A runtime policy threshold does not become an empirical law through repeated use.
 
----
+______________________________________________________________________
 
-# 40. Causal Firewall
+## 40. Causal Firewall
 
 Observed improvement after mutation does not by itself prove the mutation caused the improvement.
 
@@ -917,9 +920,9 @@ CONFOUNDING
 FEEDBACK
 ```
 
----
+______________________________________________________________________
 
-# 41. Competing Explanations
+## 41. Competing Explanations
 
 If:
 
@@ -941,9 +944,9 @@ H5: random variation
 
 Preserve `COMPETING` until discriminating evidence exists.
 
----
+______________________________________________________________________
 
-# 42. Mutation Hypotheses
+## 42. Mutation Hypotheses
 
 Each consequential mutation may carry:
 
@@ -957,9 +960,9 @@ hypotheses:
 
 Mutation governance should test outcome-changing uncertainty, not merely accumulate confirming evidence.
 
----
+______________________________________________________________________
 
-# 43. Pre-Mutation Validation
+## 43. Pre-Mutation Validation
 
 Before commit:
 
@@ -983,9 +986,9 @@ CHECK VALIDATION PLAN
 AUTHORIZE OR ESCALATE
 ```
 
----
+______________________________________________________________________
 
-# 44. Post-Mutation Validation
+## 44. Post-Mutation Validation
 
 After mutation:
 
@@ -1003,9 +1006,9 @@ CHECK SIDE EFFECTS
 ACCEPT / CONDITION / ROLLBACK
 ```
 
----
+______________________________________________________________________
 
-# 45. Anti-Regression
+## 45. Anti-Regression
 
 A mutation is not accepted merely because its target metric improves.
 
@@ -1025,9 +1028,9 @@ USER FIT
 
 when applicable.
 
----
+______________________________________________________________________
 
-# 46. Regression Dominance
+## 46. Regression Dominance
 
 ```text
 PERFORMANCE ↑
@@ -1040,9 +1043,9 @@ REJECT / ROLLBACK
 
 unless an explicitly authorized higher-order decision establishes otherwise without violating governing law.
 
----
+______________________________________________________________________
 
-# 47. Mutation State Machine
+## 47. Mutation State Machine
 
 Conceptually:
 
@@ -1082,9 +1085,9 @@ SUPERSEDED
 UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 48. No Silent Promotion
+## 48. No Silent Promotion
 
 ```text
 EXECUTED
@@ -1102,9 +1105,9 @@ EMPIRICALLY UNIVERSAL
 
 These states must remain distinct.
 
----
+______________________________________________________________________
 
-# 49. Staging
+## 49. Staging
 
 Consequential mutation should preferentially progress through bounded exposure:
 
@@ -1122,9 +1125,9 @@ EXPANDED DEPLOYMENT
 
 when technically and operationally appropriate.
 
----
+______________________________________________________________________
 
-# 50. Blast-Radius Control
+## 50. Blast-Radius Control
 
 ```text
 UNCERTAINTY ↑
@@ -1139,9 +1142,9 @@ EXPOSURE ↓
 
 where staged deployment is possible.
 
----
+______________________________________________________________________
 
-# 51. Observability
+## 51. Observability
 
 A mutation that cannot be adequately observed may require stronger restrictions.
 
@@ -1153,9 +1156,9 @@ ROLLBACK VALUE ↓
 GOVERNANCE BURDEN ↑
 ```
 
----
+______________________________________________________________________
 
-# 52. Mutation Metrics
+## 52. Mutation Metrics
 
 Metrics are evidence instruments, not truth.
 
@@ -1174,9 +1177,9 @@ metric:
   provenance:
 ```
 
----
+______________________________________________________________________
 
-# 53. Goodhart Firewall
+## 53. Goodhart Firewall
 
 Optimization against a metric may alter the metric's relationship to the actual objective.
 
@@ -1190,9 +1193,9 @@ OBJECTIVE IMPROVEMENT
 
 without validation.
 
----
+______________________________________________________________________
 
-# 54. Governance Burden
+## 54. Governance Burden
 
 Conceptually:
 
@@ -1225,9 +1228,9 @@ OR IRREVERSIBILITY
 INCREASE.
 ```
 
----
+______________________________________________________________________
 
-# 55. Numerical Threshold Boundary
+## 55. Numerical Threshold Boundary
 
 Values such as:
 
@@ -1242,9 +1245,9 @@ are operational policy parameters unless separately established as canon.
 
 Do not transform them into universal laws.
 
----
+______________________________________________________________________
 
-# 56. Autonomous Mutation Boundary
+## 56. Autonomous Mutation Boundary
 
 Autonomous adaptation is permitted only inside an explicitly authorized envelope.
 
@@ -1260,9 +1263,9 @@ autonomy_envelope:
   expires_at:
 ```
 
----
+______________________________________________________________________
 
-# 57. Capability Boundary
+## 57. Capability Boundary
 
 The technical ability to modify something is not authorization to modify it.
 
@@ -1272,9 +1275,9 @@ CAN(M)
 MAY(M)
 ```
 
----
+______________________________________________________________________
 
-# 58. Governance Mutation
+## 58. Governance Mutation
 
 Mutation of governance mechanisms receives special treatment because it can alter future authorization.
 
@@ -1291,9 +1294,9 @@ AUTONOMY LIMITS
 
 These are recursively load-bearing.
 
----
+______________________________________________________________________
 
-# 59. Governance Self-Weakening
+## 59. Governance Self-Weakening
 
 A mutation must not lower the burden required for itself while relying on the lowered burden for authorization.
 
@@ -1311,9 +1314,9 @@ M authorizes itself at level 2
 
 unless independently authorized under the pre-mutation governing state.
 
----
+______________________________________________________________________
 
-# 60. Pre-State Authority Rule
+## 60. Pre-State Authority Rule
 
 Governance-changing mutations must be judged under the valid authority regime existing before the mutation takes effect.
 
@@ -1327,9 +1330,9 @@ GOVERNANCE_STATE_PRE
 
 not the governance state produced by `M`.
 
----
+______________________________________________________________________
 
-# 61. Atomic Governance Mutation
+## 61. Atomic Governance Mutation
 
 A governance mutation must not enter a partially applied state where enforcement and authorization rules disagree.
 
@@ -1346,9 +1349,9 @@ where implementation supports atomicity.
 
 This is an architectural requirement, not evidence that such atomic persistence currently exists.
 
----
+______________________________________________________________________
 
-# 62. Multi-RSCF Evolution
+## 62. Multi-RSCF Evolution
 
 A mutation spanning multiple RSCFs may require joint validation.
 
@@ -1369,9 +1372,9 @@ AS ONE
 MUTATION CLOSURE
 ```
 
----
+______________________________________________________________________
 
-# 63. Local Mutation Fast Path
+## 63. Local Mutation Fast Path
 
 AMOS v4.4 may use a local fast path only when the mutation's consequential closure is established.
 
@@ -1389,9 +1392,9 @@ ROLLBACK SUFFICIENT
 NO HIDDEN GOVERNANCE COUPLING
 ```
 
----
+______________________________________________________________________
 
-# 64. Fast-Path Escalation
+## 64. Fast-Path Escalation
 
 Escalate when:
 
@@ -1410,9 +1413,9 @@ CROSS-RSCF ATOMICITY
 
 can alter the result.
 
----
+______________________________________________________________________
 
-# 65. Persistent Provenance
+## 65. Persistent Provenance
 
 Mutation lineage should survive beyond the immediate reasoning episode.
 
@@ -1428,9 +1431,9 @@ WITH WHICH VALIDATION
 WITH WHICH RESULT
 ```
 
----
+______________________________________________________________________
 
-# 66. MVCC Model
+## 66. MVCC Model
 
 For mutable governance state:
 
@@ -1452,9 +1455,9 @@ AFFECTED CLOSURE
 
 This is an AMOS reasoning/architecture pattern unless implementation evidence establishes an actual MVCC runtime.
 
----
+______________________________________________________________________
 
-# 67. CAS Model
+## 67. CAS Model
 
 Conceptually:
 
@@ -1476,9 +1479,9 @@ NO BLIND COMMIT
 REVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 68. Concurrent Mutations
+## 68. Concurrent Mutations
 
 Two independently authorized mutations may still conflict.
 
@@ -1498,9 +1501,9 @@ order sensitivity
 causal coupling
 ```
 
----
+______________________________________________________________________
 
-# 69. Concurrent Siblings
+## 69. Concurrent Siblings
 
 Where authorized concurrent sibling mutations are supported, reconciliation must preserve governance invariants.
 
@@ -1512,17 +1515,17 @@ COMMON PARENT
 
 A deterministic merge is valid only if semantic compatibility is established.
 
----
+______________________________________________________________________
 
-# 70. Message Reordering
+## 70. Message Reordering
 
 Distributed mutation propagation must not produce different governance validity merely because authorized messages arrive in different orders, where the runtime claims order-independent convergence.
 
 This is an implementation property requiring testing, not assumed canon.
 
----
+______________________________________________________________________
 
-# 71. Duplicate Mutation Messages
+## 71. Duplicate Mutation Messages
 
 Duplicate delivery must not multiply mutation authority.
 
@@ -1536,9 +1539,9 @@ N REPLAYS
 N AUTHORIZATIONS
 ```
 
----
+______________________________________________________________________
 
-# 72. Distributed Boundary
+## 72. Distributed Boundary
 
 GMEF lineage may operationalize:
 
@@ -1561,9 +1564,9 @@ FORMAL GLOBAL SAFETY
 
 without corresponding proof.
 
----
+______________________________________________________________________
 
-# 73. Causal Epoch Binding
+## 73. Causal Epoch Binding
 
 Mutations depending on a causal model may be bound to the causal epoch in which their effect analysis was validated.
 
@@ -1579,9 +1582,9 @@ E → E+1
 
 may require revalidation.
 
----
+______________________________________________________________________
 
-# 74. Commit-Time Authority
+## 74. Commit-Time Authority
 
 Before consequential mutation commit:
 
@@ -1595,9 +1598,9 @@ CAUSAL EPOCH
 
 should be revalidated when mutable and load-bearing.
 
----
+______________________________________________________________________
 
-# 75. Proof-Based Coordination Avoidance
+## 75. Proof-Based Coordination Avoidance
 
 Global coordination may be avoided only when the mutation closure proves that external state cannot alter authorization or validity.
 
@@ -1615,9 +1618,9 @@ NO EXTERNAL CONFLICT SEEN
 ASSUME LOCALITY
 ```
 
----
+______________________________________________________________________
 
-# 76. Selective Invalidation
+## 76. Selective Invalidation
 
 When a mutation proves defective:
 
@@ -1635,9 +1638,9 @@ DEPENDENT DESCENDANTS(M)
 
 not unrelated system knowledge.
 
----
+______________________________________________________________________
 
-# 77. Selective Rollback
+## 77. Selective Rollback
 
 Rollback should restore the nearest valid state while preserving independent valid changes where possible.
 
@@ -1659,9 +1662,9 @@ NOT NECESSARILY
 M1
 ```
 
----
+______________________________________________________________________
 
-# 78. Supersession
+## 78. Supersession
 
 A newer mutation does not become authoritative merely because it is newer.
 
@@ -1681,9 +1684,9 @@ conflict resolution
 validation
 ```
 
----
+______________________________________________________________________
 
-# 79. Mutation Conflict
+## 79. Mutation Conflict
 
 If two mutations are both individually supported but mutually incompatible:
 
@@ -1697,9 +1700,9 @@ preserve the conflict.
 
 Do not fabricate convergence.
 
----
+______________________________________________________________________
 
-# 80. Competing Evolution Paths
+## 80. Competing Evolution Paths
 
 AMOS may preserve:
 
@@ -1712,9 +1715,9 @@ as `COMPETING` until a discriminating test establishes dominance.
 
 The cheapest high-information discriminating test should generally precede redundant evidence accumulation.
 
----
+______________________________________________________________________
 
-# 81. Sensitivity
+## 81. Sensitivity
 
 For consequential mutation ask:
 
@@ -1730,9 +1733,9 @@ AUTHORIZATION?
 
 Test it first.
 
----
+______________________________________________________________________
 
-# 82. Fragile Authorization
+## 82. Fragile Authorization
 
 If authorization depends narrowly on an uncertain threshold:
 
@@ -1756,9 +1759,9 @@ CONDITIONAL
 
 rather than overstating certainty.
 
----
+______________________________________________________________________
 
-# 83. Mutation Proof Capsule
+## 83. Mutation Proof Capsule
 
 Every consequential accepted mutation should conceptually carry:
 
@@ -1788,9 +1791,9 @@ proof_capsule:
   invalidation_conditions: []
 ```
 
----
+______________________________________________________________________
 
-# 84. Proof Reuse
+## 84. Proof Reuse
 
 A mutation proof capsule may be reused only while:
 
@@ -1803,9 +1806,9 @@ AUTHORITY VALID
 NO MATERIAL CONFLICT
 ```
 
----
+______________________________________________________________________
 
-# 85. Proof Invalidation
+## 85. Proof Invalidation
 
 If premise `P` fails:
 
@@ -1815,9 +1818,9 @@ INVALID(P)
 
 invalidate only proof capsules dependent on `P`.
 
----
+______________________________________________________________________
 
-# 86. Knowledge Harvest
+## 86. Knowledge Harvest
 
 Successful mutation output moves through:
 
@@ -1837,9 +1840,9 @@ CHANGE WORKED ONCE
 CANON
 ```
 
----
+______________________________________________________________________
 
-# 87. Governance State
+## 87. Governance State
 
 Conceptually:
 
@@ -1865,9 +1868,9 @@ gmef_state:
   last_validated_at:
 ```
 
----
+______________________________________________________________________
 
-# 88. Observability Events
+## 88. Observability Events
 
 Recommended GMEF events:
 
@@ -1913,9 +1916,9 @@ GMEF_FAST_PATH_ACCEPTED
 GMEF_FAST_PATH_ESCALATED
 ```
 
----
+______________________________________________________________________
 
-# 89. Kernel Invariants
+## 89. Kernel Invariants
 
 ```text
 KGMEF-01
@@ -2099,9 +2102,9 @@ KGMEF-60
 INTEGRITY MUST DOMINATE COMPLETENESS, FLUENCY, SPEED, AND OPTIMIZATION
 ```
 
----
+______________________________________________________________________
 
-# 90. Required Tests
+## 90. Required Tests
 
 ```text
 MUTATION-CLASSIFICATION TEST
@@ -2186,9 +2189,9 @@ PROOF-INVALIDATION TEST
 KNOWLEDGE-HARVEST TEST
 ```
 
----
+______________________________________________________________________
 
-# 91. Negative Tests
+## 91. Negative Tests
 
 ```text
 DEEPER RECURSIVE MUTATION
@@ -2341,9 +2344,9 @@ ONE SUCCESSFUL RUN
 MUST FAIL
 ```
 
----
+______________________________________________________________________
 
-# 92. Failure Modes
+## 92. Failure Modes
 
 ```text
 UNGOVERNED SELF-MODIFICATION
@@ -2415,9 +2418,9 @@ FRAGILE AUTHORIZATION
 EPHEMERAL-TO-CANON LEAP
 ```
 
----
+______________________________________________________________________
 
-# 93. Interaction Matrix
+## 93. Interaction Matrix
 
 ```text
 INVARIANT_REGISTRY
@@ -2514,9 +2517,9 @@ K_HOMEOSTASIS
 → GOVERNS STABILITY DURING ADAPTATION
 ```
 
----
+______________________________________________________________________
 
-# 94. Promotion Gate
+## 94. Promotion Gate
 
 Before `K_GMEF` can be promoted from architectural `MODEL` to a stronger implementation claim, evidence should establish:
 
@@ -2608,9 +2611,9 @@ GMEF_EMPIRICAL_UNIVERSALITY
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 95. RSCF Node
+## 95. RSCF Node
 
 ```RSCF-NODE
 node_id: AMOS-OS-K-GMEF
@@ -2672,9 +2675,9 @@ RSCF-RELATIONS:
   - RECOVERED_BY: README
 ```
 
----
+______________________________________________________________________
 
-# 96. Canonical Summary
+## 96. Canonical Summary
 
 ```text
 GMEF
@@ -2848,11 +2851,13 @@ EVOLUTION SPEED.
 
 I have deliberately kept implementation claims such as persistent governance graphs, formal atomic multi-RSCF execution, universal distributed finality, and Byzantine guarantees at `UNKNOWN/GAP` rather than promoting architectural language into facts.
 ```
+
 Yes. The previous version was too synthetic. I checked the actual GMEF source directly, and there is enough canonical material to make `K_GMEF` substantially deeper and source-traceable.
 
 One important provenance correction first: the standalone source defines **GMEF = Governed Machine Evolution Framework**, while a later AMOS implementation note calls the runtime module **Governance Mutation Evaluation Framework**. Those should not be silently collapsed. The former is the formal structural framework; the latter is an implementation-specific gate/module description.
 
----
+______________________________________________________________________
+
 artifact_id: AMOS-OS-K-GMEF
 canonical_name: K_GMEF
 artifact_type: kernel_governed_machine_evolution_contract
@@ -2869,17 +2874,17 @@ plane: KERNEL
 scope: AMOS_OS
 
 source_framework:
-  name: Governed Machine Evolution Framework
-  version: v1.0
-  status: Formal structural framework
+name: Governed Machine Evolution Framework
+version: v1.0
+status: Formal structural framework
 
 implementation_aliases:
-  - Governance Mutation Evaluation Framework
 
-updated: 2026-08-26
----
+- Governance Mutation Evaluation Framework
 
-# K GMEF — part 2
+## updated: 2026-08-26
+
+## K GMEF — part 2
 
 > **Canonical framework:** Governed Machine Evolution Framework — GMEF
 > **Origin / stewardship:** Trang Phan
@@ -2887,9 +2892,9 @@ updated: 2026-08-26
 > **Conclusion class:** `MODEL`
 > **Runtime implementation status:** mixed / separately evidenced
 
----
+______________________________________________________________________
 
-# 0. Epistemic Boundary
+## 0. Epistemic Boundary
 
 GMEF is a **structural governance framework for bounded machine adaptation**.
 
@@ -2916,9 +2921,9 @@ OF EVERY IMPLEMENTATION
 
 The source explicitly characterizes GMEF as independent of any particular product, model, company, deployment environment, or COSMO-specific implementation.
 
----
+______________________________________________________________________
 
-# 1. Canonical Purpose
+## 1. Canonical Purpose
 
 GMEF defines how an adaptive machine may:
 
@@ -2961,9 +2966,9 @@ DEPLOYMENT AUTHORITY
 
 These distinctions are explicit in the formal GMEF framework.
 
----
+______________________________________________________________________
 
-# 2. Canonical Definition
+## 2. Canonical Definition
 
 Governed Machine Evolution is structurally:
 
@@ -2993,9 +2998,9 @@ REVERSIBLE CONTROL
 
 This is the semantic core of `K_GMEF`.
 
----
+______________________________________________________________________
 
-# 3. Canonical Evolution Cycle
+## 3. Canonical Evolution Cycle
 
 The source defines the complete governed transformation:
 
@@ -3076,9 +3081,9 @@ S_(t+1)
 
 The order matters because GMEF specifically prohibits hidden promotion from proposal directly into production.
 
----
+______________________________________________________________________
 
-# 4. Fundamental State Equation
+## 4. Fundamental State Equation
 
 Conceptually:
 
@@ -3112,9 +3117,9 @@ exists as an **authorized successor state** only when mandatory governance gates
 
 The mere existence of a mutated state does not make it a legitimate successor.
 
----
+______________________________________________________________________
 
-# 5. GMEF Foundational Axioms
+## 5. GMEF Foundational Axioms
 
 The formal framework contains ten source-level foundational axioms. `K_GMEF` imports them structurally rather than replacing them with invented substitutes.
 
@@ -3128,7 +3133,7 @@ MAY CHANGE
 
 Technical mutation capability grants no governance permission.
 
----
+______________________________________________________________________
 
 ## GME-2 — Evolution is bounded
 
@@ -3142,7 +3147,7 @@ GOVERNANCE
 PROPAGATION
 ```
 
----
+______________________________________________________________________
 
 ## GME-3 — Governance is external to the mutation being governed
 
@@ -3154,7 +3159,7 @@ must not redefine the rules used to determine the admissibility of `M`.
 
 This is the core anti-self-authorization invariant.
 
----
+______________________________________________________________________
 
 ## GME-4 — No hidden promotion
 
@@ -3168,7 +3173,7 @@ PRODUCTION
 
 without explicit governed intermediate state transitions and authorization lineage.
 
----
+______________________________________________________________________
 
 ## GME-5 — Failure remains memory
 
@@ -3180,7 +3185,7 @@ ERASURE
 
 A failed state can be removed from active service without destroying its failure evidence.
 
----
+______________________________________________________________________
 
 ## GME-6 — Local success is not global validity
 
@@ -3198,7 +3203,7 @@ TIME
 
 Successful operation inside one envelope does not authorize unrestricted propagation outside it.
 
----
+______________________________________________________________________
 
 ## GME-7 — Performance cannot override hard constraints
 
@@ -3215,7 +3220,7 @@ CAPABILITY
 
 can compensate for violation of a valid hard governance invariant.
 
----
+______________________________________________________________________
 
 ## GME-8 — Claim strength cannot exceed evidence strength
 
@@ -3235,7 +3240,7 @@ EvidenceApplicability
 
 unless separately revalidated.
 
----
+______________________________________________________________________
 
 ## GME-9 — Consequence radius governs approval burden
 
@@ -3250,7 +3255,7 @@ PROPAGATION SCOPE ↑
 
 required governance strength must not decrease.
 
----
+______________________________________________________________________
 
 ## GME-10 — Repair is part of evolution
 
@@ -3265,9 +3270,9 @@ REMEMBER
 
 degradation does not satisfy the full GMEF concept of governed evolution.
 
----
+______________________________________________________________________
 
-# 6. Three-Layer Governance Architecture
+## 6. Three-Layer Governance Architecture
 
 The canonical GMEF architecture is:
 
@@ -3300,9 +3305,9 @@ IT DOES NOT
 OWN THE BOUNDARY.
 ```
 
----
+______________________________________________________________________
 
-# 7. Constitutional Layer
+## 7. Constitutional Layer
 
 The constitutional layer contains invariants the adaptive machinery cannot autonomously rewrite.
 
@@ -3330,9 +3335,9 @@ APPROVAL REQUIREMENTS
 
 These are examples from the formal framework, not claims that every AMOS deployment currently implements every one.
 
----
+______________________________________________________________________
 
-# 8. Governance Layer
+## 8. Governance Layer
 
 The governance layer determines:
 
@@ -3358,9 +3363,9 @@ ROLLBACK REQUIREMENTS
 
 The governance layer regulates evolution but is not itself ordinary evolvable state.
 
----
+______________________________________________________________________
 
-# 9. Evolution Layer
+## 9. Evolution Layer
 
 The evolution layer contains explicitly permitted adaptive objects.
 
@@ -3382,9 +3387,9 @@ INTERFACE VARIANTS
 
 A component's presence in this layer does not mean unlimited adaptation. It remains bounded by its Mutation Permission Profile.
 
----
+______________________________________________________________________
 
-# 10. Persistent Direction of Authority
+## 10. Persistent Direction of Authority
 
 Canonical:
 
@@ -3408,9 +3413,9 @@ CONSTITUTION
 
 unless a separate valid human-authorized constitutional revision process explicitly permits the change.
 
----
+______________________________________________________________________
 
-# 11. Mutation Classification
+## 11. Mutation Classification
 
 Every mutable object must first receive a mutation class.
 
@@ -3433,6 +3438,7 @@ SAFETY BOUNDARIES
 Human-governed.
 Elevated review required.
 ```
+
 ```text
 M2
 HIGH-CONSEQUENCE
@@ -3441,6 +3447,7 @@ DECISION ARCHITECTURE
 Explicit human authorization
 and stronger evidence required.
 ```
+
 ```text
 M3
 MODELS,
@@ -3450,6 +3457,7 @@ DECISION STRATEGIES
 Controlled experimentation allowed.
 Production propagation requires review.
 ```
+
 ```text
 M4
 PARAMETERS,
@@ -3460,6 +3468,7 @@ Bounded adaptation
 may be permitted
 inside approved ranges.
 ```
+
 ```text
 M5
 LOW-RISK
@@ -3470,9 +3479,10 @@ tightly defined,
 observable,
 reversible limits.
 ```
----
 
-# 12. Mutation Permission Profile — MPP
+______________________________________________________________________
+
+## 12. Mutation Permission Profile — MPP
 
 The canonical source defines:
 
@@ -3530,9 +3540,9 @@ mutation_permission_profile:
   provenance:
 ```
 
----
+______________________________________________________________________
 
-# 13. GMEF Lifecycle State Machine
+## 13. GMEF Lifecycle State Machine
 
 Canonical lifecycle states:
 
@@ -3565,9 +3575,9 @@ PRODUCTION_GENERAL
 
 without governed intermediate transitions.
 
----
+______________________________________________________________________
 
-# 14. Transition Provenance
+## 14. Transition Provenance
 
 Every governed lifecycle transition should record at minimum:
 
@@ -3621,9 +3631,9 @@ gmef_transition:
   timestamp:
 ```
 
----
+______________________________________________________________________
 
-# 15. Experiment Environment Ladder
+## 15. Experiment Environment Ladder
 
 Canonical GMEF environment classes:
 
@@ -3653,9 +3663,9 @@ CURRENT AUTHORIZATION
 
 A candidate must not be tested in an environment exceeding its existing authority.
 
----
+______________________________________________________________________
 
-# 16. Environment Promotion
+## 16. Environment Promotion
 
 Promotion:
 
@@ -3671,9 +3681,9 @@ Success at `X_n` is evidence.
 
 It is not an automatic promotion token.
 
----
+______________________________________________________________________
 
-# 17. Evidence Threshold Ladder
+## 17. Evidence Threshold Ladder
 
 Canonical evidence levels:
 
@@ -3688,31 +3698,36 @@ ET1
 Plausible hypothesis.
 Eligible for sandbox.
 ```
+
 ```text
 ET2
 Repeatable offline evidence.
 Eligible for controlled pilot.
 ```
+
 ```text
 ET3
 Controlled production evidence.
 Eligible for limited release.
 ```
+
 ```text
 ET4
 Replicated evidence
 across relevant contexts.
 Supports broader rollout.
 ```
+
 ```text
 ET5
 High-confidence standard
 for high-consequence
 or difficult-to-reverse changes.
 ```
----
 
-# 18. Evidence Packet
+______________________________________________________________________
+
+## 18. Evidence Packet
 
 Canonical evidence packets should preserve:
 
@@ -3778,9 +3793,9 @@ evidence_packet:
   provenance: []
 ```
 
----
+______________________________________________________________________
 
-# 19. Evidence Ceiling
+## 19. Evidence Ceiling
 
 For candidate `v`:
 
@@ -3800,9 +3815,9 @@ ValidatedEvidenceEnvelope(v)
 
 unless separately authorized after new validation.
 
----
+______________________________________________________________________
 
-# 20. Multi-Objective Fitness
+## 20. Multi-Objective Fitness
 
 GMEF explicitly rejects ungoverned single-scalar optimization.
 
@@ -3826,9 +3841,9 @@ F(v)
 
 This is a vector of evaluation dimensions, not a universal quantitative equation.
 
----
+______________________________________________________________________
 
-# 21. Non-Compensatory Hard Constraints
+## 21. Non-Compensatory Hard Constraints
 
 Hard constraints are gates, not weighted preferences.
 
@@ -3849,6 +3864,7 @@ PrivacyViolation
 !=
 AcceptableTradeoff
 ```
+
 ```text
 EngagementGain
 +
@@ -3856,6 +3872,7 @@ CoerciveBehavior
 !=
 AcceptableTradeoff
 ```
+
 ```text
 AccuracyGain
 +
@@ -3863,11 +3880,12 @@ UnauthorizedDataAccess
 !=
 AcceptableTradeoff
 ```
+
 These examples are explicit in the source framework.
 
----
+______________________________________________________________________
 
-# 22. Admissibility
+## 22. Admissibility
 
 Conceptually:
 
@@ -3891,9 +3909,9 @@ Admissible(v) = FALSE
 
 independently of fitness improvement elsewhere.
 
----
+______________________________________________________________________
 
-# 23. Epistemic Gate
+## 23. Epistemic Gate
 
 Canonical GMEF distinctions:
 
@@ -3925,9 +3943,9 @@ INDEPENDENT EVIDENCE
 
 This ties GMEF directly to AMOS v4.4 epistemic-regime and provenance discipline.
 
----
+______________________________________________________________________
 
-# 24. Epistemic Progression
+## 24. Epistemic Progression
 
 Canonical progression:
 
@@ -3953,9 +3971,9 @@ OBSERVATION
 UNIVERSAL TRUTH
 ```
 
----
+______________________________________________________________________
 
-# 25. Self-Refutation Layer
+## 25. Self-Refutation Layer
 
 Material mutations must be challenged rather than merely confirmed.
 
@@ -3977,11 +3995,13 @@ overfitting,
 measurement error,
 or selection bias
 ```
+
 ```text
 Hh:
 candidate introduces
 hidden harmful consequences
 ```
+
 ```text
 Hr:
 candidate works only
@@ -3989,9 +4009,10 @@ in current regime
 and fails after
 environmental change
 ```
----
 
-# 26. Required Refutation Questions
+______________________________________________________________________
+
+## 26. Required Refutation Questions
 
 A governed candidate should answer:
 
@@ -4023,9 +4044,9 @@ NOVELTY EFFECTS?
 
 These are source-level GMEF requirements.
 
----
+______________________________________________________________________
 
-# 27. Governance Decision Function
+## 27. Governance Decision Function
 
 Canonical mandatory gating:
 
@@ -4060,9 +4081,9 @@ If any mandatory condition fails:
 Permit(v) = FALSE
 ```
 
----
+______________________________________________________________________
 
-# 28. Structural Compression
+## 28. Structural Compression
 
 The source also gives:
 
@@ -4082,9 +4103,9 @@ This multiplication is explicitly a **structural compression**, not a validated 
 
 Hard gates must not be averaged away.
 
----
+______________________________________________________________________
 
-# 29. Human Authority Levels
+## 29. Human Authority Levels
 
 Canonical authority ladder:
 
@@ -4097,28 +4118,33 @@ System may propose only.
 HA1
 Offline testing permitted.
 ```
+
 ```text
 HA2
 Bounded experiments permitted
 under pre-approved policy.
 ```
+
 ```text
 HA3
 Human approval required
 for limited production release.
 ```
+
 ```text
 HA4
 Senior or independent approval
 required for high-consequence
 or architectural change.
 ```
+
 ```text
 HA5
 Constitutional revision.
 Separate human governance
 process only.
 ```
+
 And explicitly:
 
 ```text
@@ -4127,9 +4153,9 @@ MODEL OUTPUT
 AUTHORIZATION TOKEN
 ```
 
----
+______________________________________________________________________
 
-# 30. Authority Separation
+## 30. Authority Separation
 
 For candidate `v`:
 
@@ -4149,9 +4175,9 @@ must remain separately representable.
 
 No lower authority automatically implies a higher authority.
 
----
+______________________________________________________________________
 
-# 31. Propagation Envelope
+## 31. Propagation Envelope
 
 Canonical:
 
@@ -4174,9 +4200,9 @@ PE(v)
 
 A candidate may not autonomously expand its own propagation envelope.
 
----
+______________________________________________________________________
 
-# 32. Propagation Law
+## 32. Propagation Law
 
 ```text
 ActualPropagation(v)
@@ -4194,9 +4220,9 @@ SCOPE ESCAPE
 
 and should trigger applicable stop / quarantine / rollback governance.
 
----
+______________________________________________________________________
 
-# 33. Local Success Firewall
+## 33. Local Success Firewall
 
 ```text
 SUCCESS(v, scope=A)
@@ -4212,9 +4238,9 @@ unless transferability is separately supported.
 
 This binds GMEF directly to `K_CONSTRAINT_PROPAGATION`, `K_PROVENANCE`, and the AMOS scope/regime firewall.
 
----
+______________________________________________________________________
 
-# 34. Canonical Rollout
+## 34. Canonical Rollout
 
 Preferred rollout:
 
@@ -4252,9 +4278,9 @@ no privacy breach
 no security breach
 ```
 
----
+______________________________________________________________________
 
-# 35. Stop Conditions
+## 35. Stop Conditions
 
 Canonical GMEF stop triggers include:
 
@@ -4302,9 +4328,9 @@ ESCALATE
 SHUTDOWN
 ```
 
----
+______________________________________________________________________
 
-# 36. Reversibility Relation
+## 36. Reversibility Relation
 
 Canonical structural relation:
 
@@ -4320,9 +4346,9 @@ Irreversibility
 
 This is a design relation, not a universal quantitative empirical law.
 
----
+______________________________________________________________________
 
-# 37. Production Rollback Contract
+## 37. Production Rollback Contract
 
 Every production change should identify:
 
@@ -4350,9 +4376,9 @@ ROLLBACK
 FORGETTING
 ```
 
----
+______________________________________________________________________
 
-# 38. Evolutionary Memory
+## 38. Evolutionary Memory
 
 Every mutation creates a lineage-bearing Evolution Record.
 
@@ -4396,9 +4422,9 @@ rollback_target
 final_status
 ```
 
----
+______________________________________________________________________
 
-# 39. Machine Evolution Lineage
+## 39. Machine Evolution Lineage
 
 Canonical:
 
@@ -4425,9 +4451,9 @@ K_BINDING
 K_SYSTEM_STATE
 ```
 
----
+______________________________________________________________________
 
-# 40. Negative Evolution Memory
+## 40. Negative Evolution Memory
 
 Failed mutations are first-class knowledge.
 
@@ -4461,9 +4487,9 @@ NOT
 PROOF OF FAILURE
 ```
 
----
+______________________________________________________________________
 
-# 41. Repair Architecture
+## 41. Repair Architecture
 
 Canonical variables:
 
@@ -4478,6 +4504,7 @@ R_t
 =
 effective repair capacity
 ```
+
 Structural viability condition:
 
 ```text
@@ -4486,9 +4513,9 @@ R_t > dD/dt
 
 Again, this is a structural relation unless separately empirically validated.
 
----
+______________________________________________________________________
 
-# 42. Degradation Classes
+## 42. Degradation Classes
 
 The source explicitly identifies:
 
@@ -4514,9 +4541,9 @@ HIDDEN COUPLING
 
 as potential degradation channels.
 
----
+______________________________________________________________________
 
-# 43. Evolution Equation
+## 43. Evolution Equation
 
 Canonical structural compression:
 
@@ -4539,9 +4566,9 @@ Consequence
 
 This must not be interpreted as an empirical multiplication law.
 
----
+______________________________________________________________________
 
-# 44. Evolutionary Debt
+## 44. Evolutionary Debt
 
 Canonical:
 
@@ -4573,9 +4600,9 @@ LongTermDebtDelta
 
 A change may improve short-term performance while increasing long-term fragility.
 
----
+______________________________________________________________________
 
-# 45. Recursive Evolution Depth
+## 45. Recursive Evolution Depth
 
 Canonical GMEF distinguishes:
 
@@ -4590,14 +4617,16 @@ SECOND-ORDER EVOLUTION
 changes mechanisms
 that govern those changes
 ```
+
 ```text
 THIRD-ORDER EVOLUTION
 changes mechanisms
 governing second-order evolution
 ```
----
 
-# 46. Recursive Governance Relation
+______________________________________________________________________
+
+## 46. Recursive Governance Relation
 
 Canonical structural relation:
 
@@ -4624,9 +4653,9 @@ must not ↓
 
 and similarly for consequence and irreversibility.
 
----
+______________________________________________________________________
 
-# 47. Recursive Authority Firewall
+## 47. Recursive Authority Firewall
 
 ```text
 PERMISSION TO MODIFY
@@ -4641,9 +4670,9 @@ PARAMETER MODIFICATION.
 
 This principle is explicit in the source.
 
----
+______________________________________________________________________
 
-# 48. Regime Shift Detection
+## 48. Regime Shift Detection
 
 Canonical environmental relation:
 
@@ -4683,9 +4712,9 @@ PAST SUCCESS
 PERMANENT AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 49. Regime Revalidation
+## 49. Regime Revalidation
 
 If:
 
@@ -4704,9 +4733,9 @@ must be re-evaluated
 
 rather than silently carried forward.
 
----
+______________________________________________________________________
 
-# 50. Anti-Reward-Hacking Rule
+## 50. Anti-Reward-Hacking Rule
 
 Canonical:
 
@@ -4733,9 +4762,9 @@ INDEPENDENT EVALUATION
 WHERE FEASIBLE
 ```
 
----
+______________________________________________________________________
 
-# 51. Human Authority Boundary
+## 51. Human Authority Boundary
 
 The framework explicitly separates:
 
@@ -4766,9 +4795,9 @@ REVIEWABLE
 REVOCABLE
 ```
 
----
+______________________________________________________________________
 
-# 52. Capability Dominance Does Not Grant Governance
+## 52. Capability Dominance Does Not Grant Governance
 
 A system that outperforms humans at a bounded task does not therefore acquire authority to:
 
@@ -4783,9 +4812,9 @@ CONSTITUTIONAL CONSTRAINTS
 
 This follows directly from the source human-authority boundary.
 
----
+______________________________________________________________________
 
-# 53. H/M/L GMEF Mapping
+## 53. H/M/L GMEF Mapping
 
 The formal GMEF framework includes an H/M/L structural mapping.
 
@@ -4846,9 +4875,9 @@ through M
 while preserving L.
 ```
 
----
+______________________________________________________________________
 
-# 54. Minimum GMEF Components
+## 54. Minimum GMEF Components
 
 The formal framework specifies fourteen minimum components for a compliant implementation:
 
@@ -4885,9 +4914,9 @@ The formal framework specifies fourteen minimum components for a compliant imple
 
 These are architectural requirements, not evidence that all fourteen are presently implemented in AMOS OS.
 
----
+______________________________________________________________________
 
-# 55. Change Registry Contract
+## 55. Change Registry Contract
 
 Conceptually:
 
@@ -4903,9 +4932,9 @@ change_registry:
   created_at:
 ```
 
----
+______________________________________________________________________
 
-# 56. Permission Engine Contract
+## 56. Permission Engine Contract
 
 The permission engine resolves:
 
@@ -4925,9 +4954,9 @@ WITH WHICH
 PROPAGATION ENVELOPE?
 ```
 
----
+______________________________________________________________________
 
-# 57. Experiment Registry Contract
+## 57. Experiment Registry Contract
 
 ```yaml
 experiment:
@@ -4944,9 +4973,9 @@ experiment:
   outcome:
 ```
 
----
+______________________________________________________________________
 
-# 58. Governance Policy Engine
+## 58. Governance Policy Engine
 
 The policy engine evaluates:
 
@@ -4962,9 +4991,9 @@ STOP CONDITIONS
 
 against the active governance epoch.
 
----
+______________________________________________________________________
 
-# 59. Approval Service
+## 59. Approval Service
 
 Approval is not the same as technical execution.
 
@@ -4982,9 +5011,9 @@ VALIDATE
 GENERALIZE
 ```
 
----
+______________________________________________________________________
 
-# 60. Version Registry
+## 60. Version Registry
 
 Version registry should preserve:
 
@@ -5004,9 +5033,9 @@ ROLLBACK TARGET
 STATUS
 ```
 
----
+______________________________________________________________________
 
-# 61. Deployment Controller
+## 61. Deployment Controller
 
 Deployment must remain bounded by:
 
@@ -5022,9 +5051,9 @@ STOP CONDITIONS
 ROLLBACK
 ```
 
----
+______________________________________________________________________
 
-# 62. Observability System
+## 62. Observability System
 
 Without observability:
 
@@ -5040,9 +5069,9 @@ GOVERNANCE BURDEN ↑
 
 Faster adaptation therefore requires stronger observability, a governing principle stated directly by GMEF.
 
----
+______________________________________________________________________
 
-# 63. Rollback Controller
+## 63. Rollback Controller
 
 Rollback must be a governed transition, not an emergency side channel.
 
@@ -5060,9 +5089,9 @@ POST-ROLLBACK VALIDATION
 MONITORING
 ```
 
----
+______________________________________________________________________
 
-# 64. Evolutionary Memory Store
+## 64. Evolutionary Memory Store
 
 Evolutionary memory preserves both:
 
@@ -5078,9 +5107,9 @@ FAILURE MEMORY
 
 to prevent repeated blind evolution.
 
----
+______________________________________________________________________
 
-# 65. Failure / Contradiction Registry
+## 65. Failure / Contradiction Registry
 
 Material contradictions should not be erased for a cleaner state.
 
@@ -5098,9 +5127,9 @@ COMPETING
 
 until discriminating evidence exists.
 
----
+______________________________________________________________________
 
-# 66. Repair Manager
+## 66. Repair Manager
 
 Repair is part of the mutation lifecycle, not an external afterthought.
 
@@ -5116,9 +5145,9 @@ PRESERVING
 UNAFFECTED VALID WORK
 ```
 
----
+______________________________________________________________________
 
-# 67. Audit Ledger
+## 67. Audit Ledger
 
 For every active change, GMEF requires the ability to answer twenty audit questions.
 
@@ -5169,9 +5198,9 @@ For every active change, GMEF requires the ability to answer twenty audit questi
 
 If a consequential active mutation cannot answer the load-bearing subset of these questions, its audit sufficiency is incomplete.
 
----
+______________________________________________________________________
 
-# 68. Complete Governed Evolution Loop
+## 68. Complete Governed Evolution Loop
 
 The source's expanded loop is:
 
@@ -5218,9 +5247,9 @@ ROLLBACK
 NEW STATE
 ```
 
----
+______________________________________________________________________
 
-# 69. What May Evolve
+## 69. What May Evolve
 
 Canonical examples of potentially evolvable objects under bounded governance:
 
@@ -5246,9 +5275,9 @@ BOUNDED
 RESOURCE ALLOCATION
 ```
 
----
+______________________________________________________________________
 
-# 70. What May Not Autonomously Evolve
+## 70. What May Not Autonomously Evolve
 
 Canonical examples:
 
@@ -5279,9 +5308,9 @@ UNRESTRICTED EXPANSION
 OF MACHINE AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 71. Failure Modes GMEF Explicitly Targets
+## 71. Failure Modes GMEF Explicitly Targets
 
 The source identifies the following failure families:
 
@@ -5329,9 +5358,9 @@ CHANGE WITHOUT
 OBSERVABILITY
 ```
 
----
+______________________________________________________________________
 
-# 72. Governance Laundering
+## 72. Governance Laundering
 
 An agent must not bypass governance by delegating a forbidden mutation to another agent.
 
@@ -5351,9 +5380,9 @@ M authorized
 
 Authority lineage must survive delegation.
 
----
+______________________________________________________________________
 
-# 73. Multi-Agent Evolution
+## 73. Multi-Agent Evolution
 
 For mutations crossing agents:
 
@@ -5363,9 +5392,9 @@ Authority(M)
 
 must be computed from the valid authority chain, not from the union of whatever capabilities participating agents happen to possess.
 
----
+______________________________________________________________________
 
-# 74. Provenance / Sybil Hardening
+## 74. Provenance / Sybil Hardening
 
 If many evaluation agents depend on one evidence root:
 
@@ -5396,9 +5425,9 @@ INDEPENDENT EVIDENCE
 
 through `K_PROVENANCE_TOPOLOGY` and `K_SYBIL_HARDENING`.
 
----
+______________________________________________________________________
 
-# 75. GMEF + RSCF
+## 75. GMEF + RSCF
 
 Every mutation should conceptually become an RSCF-governed object.
 
@@ -5413,9 +5442,9 @@ GMEF governs whether the adaptive branch may modify state.
 
 RSCF preserves the reasoning and dependency topology that justified or rejected it.
 
----
+______________________________________________________________________
 
-# 76. Atomic Multi-RSCF Evolution
+## 76. Atomic Multi-RSCF Evolution
 
 If mutation `μ` affects:
 
@@ -5439,9 +5468,9 @@ Partial validation is insufficient.
 
 This is the v4.4 atomic multi-RSCF extension of the original GMEF governance concept.
 
----
+______________________________________________________________________
 
-# 77. Commit-Time GMEF
+## 77. Commit-Time GMEF
 
 Authorization during planning does not guarantee authorization at commit.
 
@@ -5470,9 +5499,9 @@ CAUSAL EPOCH
 WHERE LOAD-BEARING
 ```
 
----
+______________________________________________________________________
 
-# 78. MVCC Concept
+## 78. MVCC Concept
 
 Conceptually:
 
@@ -5510,9 +5539,9 @@ AFFECTED CLOSURE
 
 This is an architectural reasoning concept, not proof that the GMEF v1.0 framework itself implements an MVCC store.
 
----
+______________________________________________________________________
 
-# 79. CAS Concept
+## 79. CAS Concept
 
 Mutation commit conceptually:
 
@@ -5534,9 +5563,9 @@ REVALIDATE
 REASSESS
 ```
 
----
+______________________________________________________________________
 
-# 80. Mutation Replay Protection
+## 80. Mutation Replay Protection
 
 A previously valid mutation cannot be blindly replayed against a different state.
 
@@ -5550,9 +5579,9 @@ does not imply:
 Permit(μ | S_(v+n))
 ```
 
----
+______________________________________________________________________
 
-# 81. Retarget Protection
+## 81. Retarget Protection
 
 ```text
 Permit(
@@ -5572,9 +5601,9 @@ Permit(
 
 The target is load-bearing authority context.
 
----
+______________________________________________________________________
 
-# 82. Concurrent Mutation Problem
+## 82. Concurrent Mutation Problem
 
 For:
 
@@ -5608,9 +5637,9 @@ CAUSAL COUPLING
 INVARIANT COMPATIBILITY
 ```
 
----
+______________________________________________________________________
 
-# 83. GMEF Fast Path
+## 83. GMEF Fast Path
 
 Local mutation finalization is permitted only where the smallest sufficient proof establishes:
 
@@ -5637,9 +5666,9 @@ GOVERNANCE COUPLING
 
 Otherwise escalate.
 
----
+______________________________________________________________________
 
-# 84. Proof-Based Coordination Avoidance
+## 84. Proof-Based Coordination Avoidance
 
 A local mutation does not require global coordination merely because global state exists.
 
@@ -5655,9 +5684,9 @@ is established by dependency proof.
 
 Not because no conflict happened to be observed.
 
----
+______________________________________________________________________
 
-# 85. Causal Epoch Finality
+## 85. Causal Epoch Finality
 
 When mutation effects depend on causal model `C_E`:
 
@@ -5670,9 +5699,9 @@ becomes stale if a material causal dependency changes.
 
 Revalidate only dependent mutation conclusions.
 
----
+______________________________________________________________________
 
-# 86. Selective Invalidation
+## 86. Selective Invalidation
 
 If premise `p` fails:
 
@@ -5689,9 +5718,9 @@ Do not invalidate unrelated mutation history.
 
 This aligns GMEF repair with AMOS v4.4 local recovery.
 
----
+______________________________________________________________________
 
-# 87. Selective Rollback
+## 87. Selective Rollback
 
 Suppose:
 
@@ -5711,9 +5740,9 @@ ROLLBACK μ2 CLOSURE
 
 rather than reflexively erasing `μ1`.
 
----
+______________________________________________________________________
 
-# 88. GMEF Runtime Evidence Boundary
+## 88. GMEF Runtime Evidence Boundary
 
 A later AMOS implementation note provides narrower **implementation evidence**.
 
@@ -5755,9 +5784,9 @@ M3 / M4 / M5
 
 rather than direct production promotion.
 
----
+______________________________________________________________________
 
-# 89. Runtime Gate Placement
+## 89. Runtime Gate Placement
 
 That implementation note reports the GMEF mutation assessment gate positioned after authority-token validation and before skill selection / plan execution in the tested kernel path.
 
@@ -5785,9 +5814,9 @@ EXECUTION
 
 This is evidence for that recorded implementation version, not a universal architectural necessity for every AMOS deployment.
 
----
+______________________________________________________________________
 
-# 90. Implementation Tests
+## 90. Implementation Tests
 
 The implementation note reports dedicated tests covering:
 
@@ -5811,9 +5840,9 @@ These are `OBSERVATION` claims from the implementation record.
 
 They do not by themselves prove universal GMEF correctness.
 
----
+______________________________________________________________________
 
-# 91. Naming Conflict Registry
+## 91. Naming Conflict Registry
 
 There is a terminology conflict that should be made explicit.
 
@@ -5853,9 +5882,9 @@ rule:
   canon supersession
 ```
 
----
+______________________________________________________________________
 
-# 92. Governing Principles
+## 92. Governing Principles
 
 The formal source closes with ten governing principles. They should remain directly represented in `K_GMEF`.
 
@@ -5915,9 +5944,9 @@ THE RULES THAT DEFINE
 LEGITIMATE IMPROVEMENT.
 ```
 
----
+______________________________________________________________________
 
-# 93. Kernel Invariants
+## 93. Kernel Invariants
 
 ```text
 KGMEF-001
@@ -6302,9 +6331,9 @@ DOMINATE EVOLUTION
 SPEED.
 ```
 
----
+______________________________________________________________________
 
-# 94. Required Test Families
+## 94. Required Test Families
 
 ```text
 CANONICAL-CYCLE TEST
@@ -6410,9 +6439,9 @@ SELECTIVE-ROLLBACK TEST
 COORDINATION-AVOIDANCE TEST
 ```
 
----
+______________________________________________________________________
 
-# 95. Negative Tests
+## 95. Negative Tests
 
 ```text
 CAN CHANGE
@@ -6529,9 +6558,9 @@ TEST SUITE PASSES
 MUST FAIL
 ```
 
----
+______________________________________________________________________
 
-# 96. RSCF Node
+## 96. RSCF Node
 
 ```RSCF-NODE
 node_id: AMOS-OS-K-GMEF
@@ -6689,9 +6718,9 @@ RSCF-RELATIONS:
       README
 ```
 
----
+______________________________________________________________________
 
-# 97. Promotion Gate
+## 97. Promotion Gate
 
 The formal GMEF framework itself is source-supported, but promotion of **AMOS OS `K_GMEF` runtime implementation** requires separate evidence.
 
@@ -6815,9 +6844,9 @@ UNIVERSAL DISTRIBUTED SAFETY
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 98. Source / Reference Registry
+## 98. Source / Reference Registry
 
 ## REF-GMEF-001 — Primary framework
 
@@ -6899,9 +6928,9 @@ does_not_by_itself_support:
 
 Reference:
 
----
+______________________________________________________________________
 
-# 99. Canonical Kernel Compression
+## 99. Canonical Kernel Compression
 
 ```text
 GMEF
@@ -7009,12 +7038,15 @@ The key improvement here is that this is no longer mainly an inferred AMOS-v4.4 
 
 The largest remaining gap is implementation coverage: the evidence I found verifies a narrower GMEF mutation gate, not yet the entire canonical GMEF architecture—MPP, full lifecycle, X0–X6, ET0–ET5, HA0–HA5, evolutionary debt, repair-capacity logic, and the full audit contract should therefore **not** be marked implemented solely from that gate record.
 ```
----
+
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 **MOC:** [[02_KERNEL/09_INTEGRATION/09_INTEGRATION_MOC|09_INTEGRATION_MOC]]

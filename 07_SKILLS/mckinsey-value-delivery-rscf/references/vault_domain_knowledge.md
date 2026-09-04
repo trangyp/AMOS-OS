@@ -1,15 +1,18 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Vault Domain Knowledge — Mckinsey Value Delivery Rscf
 type: reference
 source: 07_SKILLS/mckinsey-value-delivery-rscf/references
 tags:
-- reference
-- mckinsey-value-delivery-rscf
-- type/skill
-- architecture
-- ratpak
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - mckinsey-value-delivery-rscf
+  - type/skill
+  - architecture
+  - ratpak
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -26,6 +29,7 @@ rscf:
 ## Vault-Sourced Content
 
 ### Source 1: 3c. Governance
+
 - Delivery and value mgmt v6
 
 > Path: `governance/3c. Governance - Delivery and value mgmt v6.md` | Size: 132726 chars | Match score: 21
@@ -98,44 +102,45 @@ as expected?
 McKinsey & Company
 
 1. WHAT ARE OKRS?
-Key principles of OKRs
-Objectives Key Results
- What we want to achieve How to achieve objective
-(in the form of metrics and deliverables)
- Qualitative Measurable and quantifiable, indicating if advances have
- Actionable by the team been made
- Simple / One sentence Make the objective achievable
- As independent as possible Clear method for grading
- Combine opposing forces / trade-off if possible
-OKR overall characteristics
- Inspirational / Motivational
- Time bound and in Short cycles (quarterly)
- Simplicity
- Transparency
- Defined both top-down and bottom-up (~ 60% defined bottom-up)
- Leverage Stretch goals (~ 0.6 to 0.7 achievement rate – “difficult, not impossible”)
- Organization-wide: 3-5 Objectives and 3- 5 Key Results per Objective
- OKRs are shared by all members in TCJ and the Journey Team
-McKinsey & Company 4
+   Key principles of OKRs
+   Objectives Key Results
+   What we want to achieve How to achieve objective
+   (in the form of metrics and deliverables)
+   Qualitative Measurable and quantifiable, indicating if advances have
+   Actionable by the team been made
+   Simple / One sentence Make the objective achievable
+   As independent as possible Clear method for grading
+   Combine opposing forces / trade-off if possible
+   OKR overall characteristics
+   Inspirational / Motivational
+   Time bound and in Short cycles (quarterly)
+   Simplicity
+   Transparency
+   Defined both top-down and bottom-up (~ 60% defined bottom-up)
+   Leverage Stretch goals (~ 0.6 to 0.7 achievement rate – “difficult, not impossible”)
+   Organization-wide: 3-5 Objectives and 3- 5 Key Results per Objective
+   OKRs are shared by all members in TCJ and the Journey Team
+   McKinsey & Company 4
 
 1. WHAT ARE OKRS?
-Benefits – Why use OKR
-Description
-Short cycles allows quick adjustments and better adaptation to changes, reducing risks
-Agility
-Transparency allows that the team understand organization’s goals and priorities, as
-Clear communication
-each one’s role
-Shared success criteria enhance cooperation among teams
-Cooperation enhanceme
+   Benefits – Why use OKR
+   Description
+   Short cycles allows quick adjustments and better adaptation to changes, reducing risks
+   Agility
+   Transparency allows that the team understand organization’s goals and priorities, as
+   Clear communication
+   each one’s role
+   Shared success criteria enhance cooperation among teams
+   Cooperation enhanceme
 
----
+______________________________________________________________________
 
 ### Source 2: AMOS GIANT VALUE CREATION OS
 
 > Path: `amos-general/A/Giant/AMOS_Giant_Value_Creation_OS_Deep_2026-08-25.md` | Size: 32072 chars | Match score: 7
 
-# AMOS GIANT VALUE CREATION OS
+## AMOS GIANT VALUE CREATION OS
+
 ## Hệ điều hành tạo giá trị quy mô lớn — bản kiến trúc thương mại cấp hệ thống
 
 > **Origin architect / steward:** Trang Phan
@@ -145,9 +150,9 @@ Cooperation enhanceme
 > **Authority law:** Full Brain OS, Skills và Agents có thể phân tích / dự báo / đề xuất; **AMOS Infrastructure** sở hữu admission, authority, durable state, commit, release và rollback.
 > **Prediction firewall:** TSS/TPE/UBI/QLS/AMOS là `AMOS_MODEL / SOURCE_CLAIM` trừ khi phần cụ thể có external validation độc lập.
 
----
+______________________________________________________________________
 
-# 0. EXECUTIVE THESIS
+## 0. EXECUTIVE THESIS
 
 ## 0.1 Mục tiêu thật sự
 
@@ -156,11 +161,11 @@ Mục tiêu không phải chỉ “kiếm rất nhiều tiền”.
 Mục tiêu là xây dựng một **value-creation system** có khả năng biến kiến trúc AMOS thành:
 
 1. **Decision Advantage** — ra quyết định tốt hơn dưới uncertainty.
-2. **Risk Compression** — phát hiện, định lượng và quản trị rủi ro sớm hơn.
-3. **Coordination Advantage** — giảm fragmentation giữa người, dữ liệu, mô hình và quyết định.
-4. **Governance Advantage** — làm cho quyết định, evidence, authority và execution có provenance.
-5. **Platform Advantage** — biến know-how thành reusable infrastructure thay vì chỉ founder-dependent advisory.
-6. **Capital Advantage** — tạo recurring economics mà không cần scale headcount theo doanh thu.
+1. **Risk Compression** — phát hiện, định lượng và quản trị rủi ro sớm hơn.
+1. **Coordination Advantage** — giảm fragmentation giữa người, dữ liệu, mô hình và quyết định.
+1. **Governance Advantage** — làm cho quyết định, evidence, authority và execution có provenance.
+1. **Platform Advantage** — biến know-how thành reusable infrastructure thay vì chỉ founder-dependent advisory.
+1. **Capital Advantage** — tạo recurring economics mà không cần scale headcount theo doanh thu.
 
 ## 0.2 Luận điểm trung tâm
 
@@ -180,9 +185,11 @@ THEN
 ```
 
 ### Conclusion class
+
 `CONDITIONAL`
 
 ### Load-bearing unknowns
+
 - Market willingness-to-pay.
 - Repeatability beyond founder cognition.
 - Predictive edge of TPE/TSS where prediction is claimed.
@@ -193,9 +200,9 @@ THEN
 - Trust transfer from Trang → institution/product.
 - Defensibility against consulting firms, data platforms, AI copilots and internal teams.
 
----
+______________________________________________________________________
 
-# 1. AMOS COMMERCIAL STACK
+## 1. AMOS COMMERCIAL STACK
 
 ```text
 P0 SOURCE / CANON
@@ -231,21 +238,20 @@ AND FalsifiersSurvived(x)
 AND EconomicsPositive(x)
 ```
 
----
+______________________________________________________________________
 
-# 2. H / M / L COMMERCIAL [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]
+## 2. H / M / L COMMERCIAL [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]
 
 ## H — Governing mission
-
 
 H invariants:
 
 - Do not sell unsupported certainty.
 - Do not use framewo
 
----
+______________________________________________________________________
 
-### Source 3: B The Living State Monetisation Thesis_ A New Economic Paradigm
+### Source 3: B The Living State Monetisation Thesis\_ A New Economic Paradigm
 
 > Path: `economy/B The Living State Monetisation Thesis_ A New Economic Paradigm.md` | Size: 81300 chars | Match score: 5
 
@@ -311,7 +317,6 @@ effectively collaborate with AI systems in maintaining optimal states. It's the 
 
 potential and machine capability.
 
-
 Twenty-One Domains of Living State Monetisation
 
 1. Energy Infrastructure: The Frequency Guarantee
@@ -328,13 +333,15 @@ call for corrective action, precious seconds—sometimes minutes—have been los
 
 Technical Integration: The Symphony of Stability [[11_KNOWLEDGE/05_FRAMEWORKS/RATPAK|RATPAK]] orchestrates a dist
 
----
+______________________________________________________________________
+
 **MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -342,13 +349,14 @@ Technical Integration: The Symphony of Stability [[11_KNOWLEDGE/05_FRAMEWORKS/RA
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: mckinsey-value-delivery-rscf-vault-domain-knowledge
 node_type: reference
 path: 07_SKILLS/mckinsey-value-delivery-rscf/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC
-

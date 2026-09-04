@@ -18,58 +18,66 @@ authority_level: deterministic_kernel_contract
 created: 2026-08-25
 updated: 2026-08-25
 tags:
-- amos-os
-- kernel
-- core
-- canon-group/tech-ai
-- canon/model
-- kernel/reasoning
-- kernel/structural-reasoning
-- reasoning
-- reasoning/structure
-- reasoning/decomposition
-- reasoning/dependency
-- reasoning/constraint
-- reasoning/invariant
-- reasoning/hml
-- reasoning/rscf
-- dependency/closure
-- provenance
-- provenance/independence
-- epistemic-regime
-- competing-hypotheses
-- causal-firewall
-- scope-firewall
-- validation
-- recovery
-- rscf/state/model
-- topic/structural-reasoning
-- readme
-- architecture
-- amos-core-laws
-- law-hierarchy
-- canon-provenance
-- source-lineage
-- k-core19-logic
-- k-distinction-relation-constraint
-- k-law-hierarchy
-- k-meta-logic
-- k-counterfactual
-- k-metacognition
-- k-multi-hypothesis
+  - amos-os
+  - kernel
+  - core
+  - canon-group/tech-ai
+  - canon/model
+  - kernel/reasoning
+  - kernel/structural-reasoning
+  - reasoning
+  - reasoning/structure
+  - reasoning/decomposition
+  - reasoning/dependency
+  - reasoning/constraint
+  - reasoning/invariant
+  - reasoning/hml
+  - reasoning/rscf
+  - dependency/closure
+  - provenance
+  - provenance/independence
+  - epistemic-regime
+  - competing-hypotheses
+  - causal-firewall
+  - scope-firewall
+  - validation
+  - recovery
+  - rscf/state/model
+  - topic/structural-reasoning
+  - readme
+  - architecture
+  - amos-core-laws
+  - law-hierarchy
+  - canon-provenance
+  - source-lineage
+  - k-core19-logic
+  - k-distinction-relation-constraint
+  - k-law-hierarchy
+  - k-meta-logic
+  - k-counterfactual
+  - k-metacognition
+  - k-multi-hypothesis
 aliases:
-- K Structural Reasoning - Structural Reasoning Kernel - AMOS Structural Reasoning
-  - K_STRUCTU
+  - K Structural Reasoning - Structural Reasoning Kernel - AMOS Structural Reasoning - K_STRUCTU
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 # K STRUCTURAL REASONING
+
 > **AMOS Core target:** `v4.4`
 > **Origin architect / steward:** Trang Phan
 > **Status:** `AMOS_MODEL`
 > **Conclusion class:** `AMOS_MODEL`
+
 ## Purpose
+
 `K_STRUCTURAL_REASONING` defines the kernel-level contract for reasoning about the structure of a problem before attempting substantive resolution.
 Structural reasoning asks:
+
 ```text
 WHAT EXISTS?
 WHAT IS DISTINCT?
@@ -80,20 +88,16 @@ WHAT IS INSIDE OR OUTSIDE SCOPE?
 WHAT IS LOAD-BEARING?
 WHAT IS UNKNOWN?
 ```
+
 before asking:
+
 ```text
 WHAT SHOULD WE CONCLUDE?
 ```
-Its purpose is to prevent fluent reasoning from silently crossing missing distinctions, dependencies, scopes, regimes, or evidence boundaries.
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
----
 
+## Its purpose is to prevent fluent reasoning from silently crossing missing distinctions, dependencies, scopes, regimes, or evidence boundaries. rscf: state: DERIVED claim_class: DERIVED provenance: AMOS_corpus scope: AMOS_general
 
-# 1. Core Structural Law
+## 1. Core Structural Law
 
 ```text
 STRUCTURE BEFORE INFERENCE
@@ -125,9 +129,9 @@ INFERENCE
 
 Structural analysis does not itself prove the final conclusion.
 
----
+______________________________________________________________________
 
-# 2. Structural Reasoning Is Not Causal Reasoning
+## 2. Structural Reasoning Is Not Causal Reasoning
 
 ```text
 STRUCTURAL RELATION
@@ -153,9 +157,9 @@ A causes B
 
 Causal claims require independently appropriate causal evidence.
 
----
+______________________________________________________________________
 
-# 3. Structural Primitive
+## 3. Structural Primitive
 
 A minimal structural object can be represented as:
 
@@ -192,9 +196,9 @@ Unknown fields remain:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 4. Primary Structural Objects
+## 4. Primary Structural Objects
 
 Structural reasoning may operate over:
 
@@ -222,9 +226,9 @@ GMEF
 
 Object type must remain explicit when material.
 
----
+______________________________________________________________________
 
-# 5. Primary Structural Relations
+## 5. Primary Structural Relations
 
 At minimum, distinguish:
 
@@ -257,9 +261,9 @@ AUTHORIZED_BY
 
 These relations are not interchangeable.
 
----
+______________________________________________________________________
 
-# 6. Distinction Firewall
+## 6. Distinction Firewall
 
 Structural reasoning begins by preventing category collapse.
 
@@ -297,9 +301,9 @@ DERIVED != VERIFIED
 UNKNOWN/GAP != PASS
 ```
 
----
+______________________________________________________________________
 
-# 7. Identity Firewall
+## 7. Identity Firewall
 
 Structural identity must not be inferred from labels alone.
 
@@ -321,9 +325,9 @@ Two similarly named artifacts may represent different objects.
 
 Identity requires explicit resolution.
 
----
+______________________________________________________________________
 
-# 8. Decomposition
+## 8. Decomposition
 
 Complex structures should be decomposed only as far as required to expose decision-changing dependencies.
 
@@ -353,9 +357,9 @@ RAW EVIDENCE
 DO_NOT_LOAD_UNLESS_REQUIRED
 ```
 
----
+______________________________________________________________________
 
-# 9. H/M/L Rule
+## 9. H/M/L Rule
 
 `H`, `M`, and `L` represent resolution levels.
 
@@ -387,9 +391,9 @@ QUERY
 → LOAD EVERYTHING
 ```
 
----
+______________________________________________________________________
 
-# 10. MECE as a Structural Tool
+## 10. MECE as a Structural Tool
 
 Where appropriate, decomposition should seek:
 
@@ -411,9 +415,9 @@ EXPLICIT GAP
 
 is preferable to invented completeness.
 
----
+______________________________________________________________________
 
-# 11. Relation Typing
+## 11. Relation Typing
 
 Every decision-relevant edge should have a type.
 
@@ -441,9 +445,9 @@ AUTHORIZED_BY
 
 Untyped edges are structurally ambiguous.
 
----
+______________________________________________________________________
 
-# 12. Directionality
+## 12. Directionality
 
 Relations must preserve direction.
 
@@ -476,9 +480,9 @@ relation_type:
 direction:
 ```
 
----
+______________________________________________________________________
 
-# 13. Dependency Structure
+## 13. Dependency Structure
 
 For conclusion `C`:
 
@@ -503,9 +507,9 @@ material ancestors required to support C
 
 This closure should be minimized without losing correctness.
 
----
+______________________________________________________________________
 
-# 14. Load-Bearing Structure
+## 14. Load-Bearing Structure
 
 A structural element is load-bearing when changing or removing it can change:
 
@@ -533,9 +537,9 @@ therefore:
 X = LOAD_BEARING
 ```
 
----
+______________________________________________________________________
 
-# 15. Minimal Sufficient Structure
+## 15. Minimal Sufficient Structure
 
 AMOS v4.4 favors:
 
@@ -557,9 +561,9 @@ VALID LOCAL SUBGRAPH
 
 is sufficient.
 
----
+______________________________________________________________________
 
-# 16. Local Structural Fast Path
+## 16. Local Structural Fast Path
 
 Local reasoning may proceed when:
 
@@ -575,9 +579,9 @@ NO HIDDEN LOAD-BEARING COUPLING
 
 Independence must be demonstrated rather than assumed.
 
----
+______________________________________________________________________
 
-# 17. Escalation Conditions
+## 17. Escalation Conditions
 
 Escalate structural analysis when:
 
@@ -594,9 +598,9 @@ SECURITY BOUNDARIES ARE CROSSED
 IRREVERSIBLE CONSEQUENCES EXIST
 ```
 
----
+______________________________________________________________________
 
-# 18. Scope Structure
+## 18. Scope Structure
 
 Every important structural conclusion inherits an applicability envelope.
 
@@ -620,9 +624,9 @@ SAME STRUCTURE
 SAME VALIDITY
 ```
 
----
+______________________________________________________________________
 
-# 19. Regime Structure
+## 19. Regime Structure
 
 A structural relation can be regime-dependent.
 
@@ -650,9 +654,9 @@ REGIME_2
 
 A regime shift requires revalidation of affected structural relations.
 
----
+______________________________________________________________________
 
-# 20. Temporal Structure
+## 20. Temporal Structure
 
 Relationships may change over time.
 
@@ -667,9 +671,9 @@ temporal_validity:
 
 A stale structural map must not silently govern current reasoning.
 
----
+______________________________________________________________________
 
-# 21. Provenance Structure
+## 21. Provenance Structure
 
 Every important claim or relation should preserve provenance ancestry.
 
@@ -691,9 +695,9 @@ REPETITION
 INDEPENDENT CONFIRMATION
 ```
 
----
+______________________________________________________________________
 
-# 22. Provenance Topology
+## 22. Provenance Topology
 
 Example:
 
@@ -717,9 +721,9 @@ INDEPENDENT PATHS
 
 until ancestry is checked.
 
----
+______________________________________________________________________
 
-# 23. RSCF Structural Role
+## 23. RSCF Structural Role
 
 RSCF is treated as a first-class reasoning structure.
 
@@ -744,9 +748,9 @@ Structural reasoning determines how these elements relate.
 
 It does not silently upgrade their epistemic class.
 
----
+______________________________________________________________________
 
-# 24. GMEF Structural Role
+## 24. GMEF Structural Role
 
 GMEF may represent a graph-like organization of models, evidence, or framework relations where defined by AMOS canon.
 
@@ -763,9 +767,9 @@ CONFLICT STATE
 
 Missing GMEF details remain `UNKNOWN/GAP` rather than being invented.
 
----
+______________________________________________________________________
 
-# 25. Epistemic Structure
+## 25. Epistemic Structure
 
 Structural reasoning must preserve evidence type.
 
@@ -793,9 +797,9 @@ but does not automatically become:
 VERIFIED OBSERVATION
 ```
 
----
+______________________________________________________________________
 
-# 26. Competing Hypothesis Structure
+## 26. Competing Hypothesis Structure
 
 When multiple hypotheses remain viable:
 
@@ -815,9 +819,9 @@ H3 ─┘
 
 Do not collapse branches merely for narrative simplicity.
 
----
+______________________________________________________________________
 
-# 27. COMPETING State
+## 27. COMPETING State
 
 Use:
 
@@ -838,9 +842,9 @@ The objective is not forced convergence.
 
 The objective is identification of discriminating evidence.
 
----
+______________________________________________________________________
 
-# 28. Discriminating Test
+## 28. Discriminating Test
 
 Given:
 
@@ -858,9 +862,9 @@ T
 
 Prefer this over accumulating redundant evidence that cannot distinguish the hypotheses.
 
----
+______________________________________________________________________
 
-# 29. Constraint Structure
+## 29. Constraint Structure
 
 Constraints should be explicitly typed.
 
@@ -882,9 +886,9 @@ REGIME
 
 A constraint can limit possible actions without causing observed outcomes.
 
----
+______________________________________________________________________
 
-# 30. Hard and Soft Constraints
+## 30. Hard and Soft Constraints
 
 ```text
 HARD CONSTRAINT
@@ -900,9 +904,9 @@ means violation changes preference, cost, or quality without necessarily invalid
 
 These must not be conflated.
 
----
+______________________________________________________________________
 
-# 31. Invariant Structure
+## 31. Invariant Structure
 
 An invariant represents a condition expected to remain true across a defined transition or scope.
 
@@ -920,9 +924,9 @@ I(T(S_t)) = TRUE
 
 If the invariant's applicability scope is unknown, its enforcement scope is also unknown.
 
----
+______________________________________________________________________
 
-# 32. Structural Consistency
+## 32. Structural Consistency
 
 A structure is internally consistent only if no load-bearing relations produce an unresolved contradiction within the same scope and regime.
 
@@ -944,9 +948,9 @@ CONFLICT
 
 must remain visible.
 
----
+______________________________________________________________________
 
-# 33. Contradiction Preservation
+## 33. Contradiction Preservation
 
 Structural reasoning must not erase contradiction through wording.
 
@@ -971,9 +975,9 @@ A probably true
 
 unless discriminating evidence justifies that downgrade.
 
----
+______________________________________________________________________
 
-# 34. Causal Firewall
+## 34. Causal Firewall
 
 Structural reasoning may identify:
 
@@ -1000,9 +1004,9 @@ STRUCTURAL SIMILARITY
 CAUSATION
 ```
 
----
+______________________________________________________________________
 
-# 35. Necessary and Sufficient Conditions
+## 35. Necessary and Sufficient Conditions
 
 Distinguish:
 
@@ -1024,9 +1028,9 @@ A NECESSARY AND SUFFICIENT FOR B
 
 These have different structural implications.
 
----
+______________________________________________________________________
 
-# 36. Enabling Condition
+## 36. Enabling Condition
 
 An enabling condition makes an outcome possible but does not establish that it caused the outcome.
 
@@ -1036,9 +1040,9 @@ ENABLES
 CAUSES
 ```
 
----
+______________________________________________________________________
 
-# 37. Confounding Structure
+## 37. Confounding Structure
 
 If:
 
@@ -1057,9 +1061,9 @@ may arise from shared dependence on `C`.
 
 Structural reasoning should expose the possible common ancestor before causal interpretation.
 
----
+______________________________________________________________________
 
-# 38. Feedback Structure
+## 38. Feedback Structure
 
 Feedback requires cyclic representation.
 
@@ -1082,9 +1086,9 @@ CONTROL LOOP
 
 depending on relation type.
 
----
+______________________________________________________________________
 
-# 39. Invalid Cycles
+## 39. Invalid Cycles
 
 Some dependency classes must remain acyclic.
 
@@ -1104,9 +1108,9 @@ without an external root of authority, the structure may be invalid or unresolve
 
 Cycle validity is relation-type dependent.
 
----
+______________________________________________________________________
 
-# 40. Recursive Structural Reasoning
+## 40. Recursive Structural Reasoning
 
 AMOS permits recursive decomposition.
 
@@ -1132,9 +1136,9 @@ CONFLICTS
 
 Recursion terminates when additional decomposition cannot materially alter the answer or when required evidence is unavailable.
 
----
+______________________________________________________________________
 
-# 41. Structural Stop Rule
+## 41. Structural Stop Rule
 
 Stop decomposition when:
 
@@ -1150,9 +1154,9 @@ are achieved.
 
 Do not continue decomposition merely because more structure exists.
 
----
+______________________________________________________________________
 
-# 42. Sensitivity Structure
+## 42. Sensitivity Structure
 
 Identify the smallest premise, threshold, assumption, or observation capable of flipping the result.
 
@@ -1180,9 +1184,9 @@ P2 = HIGH-SENSITIVITY PREMISE
 
 Validate `P2` first.
 
----
+______________________________________________________________________
 
-# 43. Robustness
+## 43. Robustness
 
 A conclusion is structurally robust when plausible perturbations of noncritical assumptions do not change it.
 
@@ -1200,9 +1204,9 @@ CONDITIONAL
 
 when appropriate.
 
----
+______________________________________________________________________
 
-# 44. Structural Confidence Ceiling
+## 44. Structural Confidence Ceiling
 
 For load-bearing premises:
 
@@ -1220,9 +1224,9 @@ weakest load-bearing premise
 
 unless independent revalidation supplies stronger support.
 
----
+______________________________________________________________________
 
-# 45. Atomic Structural Reasoning
+## 45. Atomic Structural Reasoning
 
 Some conclusions require a complete set:
 
@@ -1250,9 +1254,9 @@ when all three are necessary.
 
 Partial completeness must not become a pass.
 
----
+______________________________________________________________________
 
-# 46. Structural Equivalence
+## 46. Structural Equivalence
 
 Two structures may be treated as equivalent only if relevant semantics are preserved.
 
@@ -1277,9 +1281,9 @@ PROVENANCE
 
 where material.
 
----
+______________________________________________________________________
 
-# 47. Structural Analogy
+## 47. Structural Analogy
 
 Analogy may generate hypotheses.
 
@@ -1303,9 +1307,9 @@ VERIFIED TRANSFER
 
 without independent validation.
 
----
+______________________________________________________________________
 
-# 48. Structural Generalization
+## 48. Structural Generalization
 
 Before generalizing:
 
@@ -1329,9 +1333,9 @@ ASSUMPTIONS
 
 Failure to establish transferability keeps the result scoped.
 
----
+______________________________________________________________________
 
-# 49. Structural Compression
+## 49. Structural Compression
 
 A complex graph may be compressed into a higher-level node when the compression preserves all decision-relevant properties.
 
@@ -1345,9 +1349,9 @@ is valid only when omitted detail cannot alter the current conclusion.
 
 Compression is reversible when deeper inspection becomes necessary.
 
----
+______________________________________________________________________
 
-# 50. Lossy Compression Firewall
+## 50. Lossy Compression Firewall
 
 Do not compress away:
 
@@ -1363,9 +1367,9 @@ CAUSAL AMBIGUITY
 
 for the sake of fluency.
 
----
+______________________________________________________________________
 
-# 51. Structural Invalidity
+## 51. Structural Invalidity
 
 A structure may be invalid because of:
 
@@ -1386,9 +1390,9 @@ SCHEMA VIOLATION
 
 The failure class should be preserved.
 
----
+______________________________________________________________________
 
-# 52. Selective Invalidation
+## 52. Selective Invalidation
 
 Given:
 
@@ -1425,9 +1429,9 @@ Invalid(p)
 invalidate only dependent descendants(p)
 ```
 
----
+______________________________________________________________________
 
-# 53. Structural Recovery
+## 53. Structural Recovery
 
 Recovery follows:
 
@@ -1451,9 +1455,9 @@ RESUME
 
 Global reconstruction is a last resort.
 
----
+______________________________________________________________________
 
-# 54. No Blind Repetition
+## 54. No Blind Repetition
 
 ```text
 FAILED STRUCTURAL PATH
@@ -1477,9 +1481,9 @@ REGIME
 
 or another materially different path.
 
----
+______________________________________________________________________
 
-# 55. Adversarial Structural Validation
+## 55. Adversarial Structural Validation
 
 For consequential conclusions, challenge the proposed structure through a genuinely different path.
 
@@ -1507,9 +1511,9 @@ OR
 RETURN UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 56. Structural Gap Classification
+## 56. Structural Gap Classification
 
 Gaps should be classified:
 
@@ -1524,9 +1528,9 @@ Resolve in that order.
 
 A critical structural gap blocks dependent conclusions.
 
----
+______________________________________________________________________
 
-# 57. Minimal Missing Information
+## 57. Minimal Missing Information
 
 If a critical gap cannot be closed, report the minimum information required.
 
@@ -1543,9 +1547,9 @@ or validated execution/provenance evidence
 
 Do not bridge the gap with narrative inference.
 
----
+______________________________________________________________________
 
-# 58. Structural Reasoning Pipeline
+## 58. Structural Reasoning Pipeline
 
 Conceptually:
 
@@ -1585,9 +1589,9 @@ ADVERSARIAL VALIDATION
 CONCLUDE
 ```
 
----
+______________________________________________________________________
 
-# 59. Conceptual Kernel Interface
+## 59. Conceptual Kernel Interface
 
 ```python
 def structural_reason(
@@ -1621,9 +1625,9 @@ def structural_reason(
 
 This is architectural pseudocode, not a claim of deployed implementation.
 
----
+______________________________________________________________________
 
-# 60. Structural Validation Interface
+## 60. Structural Validation Interface
 
 Conceptually:
 
@@ -1646,9 +1650,9 @@ def validate_structure(graph):
     return [check(graph) for check in checks]
 ```
 
----
+______________________________________________________________________
 
-# 61. Structural Invariants
+## 61. Structural Invariants
 
 ```text
 KSR-01
@@ -1742,9 +1746,9 @@ KSR-30
 UNKNOWN/GAP != PASS
 ```
 
----
+______________________________________________________________________
 
-# 62. Relationship to Other Kernel Components
+## 62. Relationship to Other Kernel Components
 
 `K_STRUCTURAL_REASONING` should interoperate with, but remain distinct from:
 
@@ -1776,9 +1780,9 @@ with `K_CORE19_LOGIC`, `K_LAW_HIERARCHY`, and `K_META_LOGIC` providing additiona
 
 This diagram is an architectural model, not proof of implemented runtime wiring.
 
----
+______________________________________________________________________
 
-# 63. Relationship to RSCF
+## 63. Relationship to RSCF
 
 Structural reasoning provides topology for RSCF reasoning.
 
@@ -1799,9 +1803,9 @@ RSCF
 
 It does not determine empirical truth merely from graph shape.
 
----
+______________________________________________________________________
 
-# 64. Relationship to Dependency Kernel
+## 64. Relationship to Dependency Kernel
 
 ```text
 K_STRUCTURAL_REASONING
@@ -1819,9 +1823,9 @@ STRUCTURE
 DEPENDENCY
 ```
 
----
+______________________________________________________________________
 
-# 65. Relationship to Metacognition
+## 65. Relationship to Metacognition
 
 Structural reasoning builds the reasoning topology.
 
@@ -1835,9 +1839,9 @@ METACOGNITION
 → IS OUR REASONING ABOUT THAT STRUCTURE RELIABLE?
 ```
 
----
+______________________________________________________________________
 
-# 66. Relationship to Counterfactual Reasoning
+## 66. Relationship to Counterfactual Reasoning
 
 Structural reasoning establishes which dependencies could be changed.
 
@@ -1850,9 +1854,9 @@ WHAT WOULD FOLLOW?
 
 Counterfactual validity depends on preserving the relevant structural constraints.
 
----
+______________________________________________________________________
 
-# 67. Relationship to Multi-Hypothesis Reasoning
+## 67. Relationship to Multi-Hypothesis Reasoning
 
 Structural reasoning defines hypothesis branches.
 
@@ -1866,9 +1870,9 @@ MULTI-HYPOTHESIS
 → SUPPORT / CONFLICT / DISCRIMINATION
 ```
 
----
+______________________________________________________________________
 
-# 68. Conclusion Classes
+## 68. Conclusion Classes
 
 Structural reasoning should return the weakest accurate class:
 
@@ -1883,9 +1887,9 @@ UNKNOWN/GAP
 
 Structural coherence alone normally supports at most a structural/model conclusion unless empirical evidence independently validates the claim.
 
----
+______________________________________________________________________
 
-# 69. Current Status
+## 69. Current Status
 
 This artifact defines the intended structural reasoning contract for AMOS OS.
 
@@ -1915,9 +1919,9 @@ EMPIRICAL_VALIDATION
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 70. Promotion Requirements
+## 70. Promotion Requirements
 
 Before promotion beyond architectural/model status:
 
@@ -1946,9 +1950,9 @@ Before promotion beyond architectural/model status:
 [ ] formal implementation binding recorded
 ```
 
----
+______________________________________________________________________
 
-# 71. RSCF Node
+## 71. RSCF Node
 
 ```RSCF-NODE
 node_id: AMOS-OS-K-STRUCTURAL-REASONING
@@ -1981,9 +1985,9 @@ RSCF-RELATIONS:
   - VALIDATED_BY: README
 ```
 
----
+______________________________________________________________________
 
-# 72. Canonical Summary
+## 72. Canonical Summary
 
 ```text
 QUESTION
@@ -2103,12 +2107,14 @@ README
 ```text
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 **MOC:** [[02_KERNEL/02_COGNITION/02_COGNITION_MOC|02_COGNITION_MOC]]

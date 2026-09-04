@@ -1,4 +1,7 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: AMOS EMOTION ENGINE V0 CORE7
 type: emotion
 source: 11_KNOWLEDGE/engine
@@ -7,13 +10,13 @@ canon-type: framework
 rscf-state: source-claim
 topic: amos-emotion-engine-v0
 tags:
-- canon-group/biology
-- canon/framework
-- rscf/claim
-- rscf/provenance
-- rscf/state/observation
-- topic/amos-emotion-engine-v0
-- engine
+  - canon-group/biology
+  - canon/framework
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/observation
+  - topic/amos-emotion-engine-v0
+  - engine
 created: 2026-08-22
 rscf:
   state: AMOS_MODEL
@@ -470,6 +473,6 @@ rscf:
 **Related:**  ·  ·  ·  ·
 ```
 
----
-**MOC:** [[11_KNOWLEDGE/engine/ENGINE_MOC|ENGINE_MOC]]
+______________________________________________________________________
 
+**MOC:** [[11_KNOWLEDGE/engine/ENGINE_MOC|ENGINE_MOC]]

@@ -12,38 +12,38 @@ segment: 01_CANON/01_CORE_LAWS
 artifact_kind: CANON
 path: 01_CANON/01_CORE_LAWS/ABSOLUTE_STRUCTURAL_INTEGRITY_CANON.md
 tags:
-- amos-os
-- canon
-- core_law
-- structural_integrity
-- absolute_integrity
-- integrity
-- law_of_law
-- coherence
-- contradiction
-- traceability
-- provenance
-- structural_validity
-- epistemic_integrity
-- causal_integrity
-- scope_integrity
-- governance_integrity
-- execution_integrity
-- recursive_integrity
-- rscf
-- canon_candidate
-- canon/core-laws
-- law-hierarchy
-- amos-x-qls
-- amos-x-qcla
-- amos-x-ubi
-- amos-x-neurosyncai
-- amos-x-trang-reality
-- readme
-- validation
-- absolute-structural-integrity
-- quantum-integrity-stack
-- architecture
+  - amos-os
+  - canon
+  - core_law
+  - structural_integrity
+  - absolute_integrity
+  - integrity
+  - law_of_law
+  - coherence
+  - contradiction
+  - traceability
+  - provenance
+  - structural_validity
+  - epistemic_integrity
+  - causal_integrity
+  - scope_integrity
+  - governance_integrity
+  - execution_integrity
+  - recursive_integrity
+  - rscf
+  - canon_candidate
+  - canon/core-laws
+  - law-hierarchy
+  - amos-x-qls
+  - amos-x-qcla
+  - amos-x-ubi
+  - amos-x-neurosyncai
+  - amos-x-trang-reality
+  - readme
+  - validation
+  - absolute-structural-integrity
+  - quantum-integrity-stack
+  - architecture
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -58,19 +58,19 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - AMOS_OS_ABSOLUTE
-  - QUANTUM_INTEGRITY_STACK_LAW_OF_LAW
-  - AMOS_CORE_LINEAGE
-  - AMOS_CORPUS
+    - AMOS_OS_ABSOLUTE
+    - QUANTUM_INTEGRITY_STACK_LAW_OF_LAW
+    - AMOS_CORE_LINEAGE
+    - AMOS_CORPUS
   scope:
-  - CORE_LAWS
-  - STRUCTURAL_INTEGRITY
-  - REASONING_INTEGRITY
-  - EPISTEMIC_INTEGRITY
-  - PROVENANCE_INTEGRITY
-  - GOVERNANCE_INTEGRITY
-  - EXECUTION_INTEGRITY
-  - EVOLUTION_INTEGRITY
+    - CORE_LAWS
+    - STRUCTURAL_INTEGRITY
+    - REASONING_INTEGRITY
+    - EPISTEMIC_INTEGRITY
+    - PROVENANCE_INTEGRITY
+    - GOVERNANCE_INTEGRITY
+    - EXECUTION_INTEGRITY
+    - EVOLUTION_INTEGRITY
 framework_binding:
   primary_law:
     name: Absolute Structural Integrity
@@ -78,13 +78,13 @@ framework_binding:
   parent_principle:
     name: Law of Law
     artifact:
-    - - LAW_HIERARCHY
+      -   - LAW_HIERARCHY
   related_frameworks:
-  - '[[25_COGNITIVE_MATRIX/AMOS_X_QLS|AMOS_X_QLS]]'
-  - '[[25_COGNITIVE_MATRIX/AMOS_X_QCLA|AMOS_X_QCLA]]'
-  - '[[25_COGNITIVE_MATRIX/AMOS_X_UBI|AMOS_X_UBI]]'
-  - '[[25_COGNITIVE_MATRIX/AMOS_X_NEUROSYNCAI|AMOS_X_NEUROSYNCAI]]'
-  - '[[25_COGNITIVE_MATRIX/AMOS_X_TRANG_REALITY|AMOS_X_TRANG_REALITY]]'
+    - '[[25_COGNITIVE_MATRIX/AMOS_X_QLS|AMOS_X_QLS]]'
+    - '[[25_COGNITIVE_MATRIX/AMOS_X_QCLA|AMOS_X_QCLA]]'
+    - '[[25_COGNITIVE_MATRIX/AMOS_X_UBI|AMOS_X_UBI]]'
+    - '[[25_COGNITIVE_MATRIX/AMOS_X_NEUROSYNCAI|AMOS_X_NEUROSYNCAI]]'
+    - '[[25_COGNITIVE_MATRIX/AMOS_X_TRANG_REALITY|AMOS_X_TRANG_REALITY]]'
 epistemic_boundary:
   law_of_law_presence: VERIFIED_SOURCE_PRESENCE
   integrity_framework_presence: VERIFIED_SOURCE_PRESENCE
@@ -106,7 +106,7 @@ structure supporting it.
 
 The canon normalizes a recurrent source principle across AMOS:
 
-```text
+````text
 INTEGRITY
 >
 COMPLETENESS
@@ -128,7 +128,7 @@ EXECUTABLE,
 POPULAR,
 REPEATED,
 OR ADDRESSABLE.
-```
+````
 
 A result is structurally admissible only when its load-bearing
 relationships remain sufficiently intact for the claim class being
@@ -138,9 +138,9 @@ Origin architect / steward:
 
 **Trang Phan**
 
----
+______________________________________________________________________
 
-# 1. Canonical Law
+## 1. Canonical Law
 
 The Absolute Structural Integrity law is:
 
@@ -165,8 +165,8 @@ $$
 
 where:
 
-* \(V(X)\) represents the admissible validity status of object \(X\);
-* \(I_{\text{support}}(X)\) represents the integrity of its
+- (V(X)) represents the admissible validity status of object (X);
+- (I\_{\\text{support}}(X)) represents the integrity of its
   load-bearing premises, provenance, scope, regime, dependencies,
   authority, and validation state.
 
@@ -174,9 +174,9 @@ This equation is an **AMOS structural notation**.
 
 It is not asserted as a physical equation.
 
----
+______________________________________________________________________
 
-# 2. Integrity Before Completion
+## 2. Integrity Before Completion
 
 Canonical ordering:
 
@@ -204,9 +204,9 @@ INVENTED BRIDGE
 
 when evidence is missing.
 
----
+______________________________________________________________________
 
-# 3. Integrity Before Fluency
+## 3. Integrity Before Fluency
 
 ```text
 FLUENT
@@ -225,9 +225,9 @@ HIGH CONFIDENCE
 AMOS MUST preserve a visible gap rather than hide structural failure
 behind polished language.
 
----
+______________________________________________________________________
 
-# 4. Integrity Before Speed
+## 4. Integrity Before Speed
 
 ```text
 FAST
@@ -246,9 +246,9 @@ SAFE LOCAL ANSWER
 The fast path is permitted only when sufficient structural closure is
 established.
 
----
+______________________________________________________________________
 
-# 5. Integrity Before Optimization
+## 5. Integrity Before Optimization
 
 No optimization may weaken:
 
@@ -281,9 +281,9 @@ THAT WEAKENS INTEGRITY
 REGRESSION
 ```
 
----
+______________________________________________________________________
 
-# 6. Structural Integrity Definition
+## 6. Structural Integrity Definition
 
 Within AMOS, structural integrity is the condition in which the
 load-bearing components of an object remain:
@@ -312,9 +312,9 @@ RECOVERABLE
 NON-FABRICATED
 ```
 
----
+______________________________________________________________________
 
-# 7. Integrity Is Multi-Dimensional
+## 7. Integrity Is Multi-Dimensional
 
 Absolute Structural Integrity is not a single scalar property.
 
@@ -348,9 +348,9 @@ RECOVERY INTEGRITY
 
 A system may be strong in one dimension and weak in another.
 
----
+______________________________________________________________________
 
-# 8. No Compensatory Integrity
+## 8. No Compensatory Integrity
 
 A severe failure in one load-bearing integrity dimension cannot be
 silently compensated by excellence elsewhere.
@@ -389,11 +389,11 @@ FAILED EXECUTION
 NO SUCCESSFUL EFFECT
 ```
 
----
+______________________________________________________________________
 
-# 9. Weakest Load-Bearing Premise
+## 9. Weakest Load-Bearing Premise
 
-For a conclusion \(C\):
+For a conclusion (C):
 
 $$
 Conf(C)
@@ -414,9 +414,9 @@ LOAD-BEARING PREMISES OF C
 
 This is an AMOS epistemic constraint.
 
----
+______________________________________________________________________
 
-# 10. Structural Integrity Vector
+## 10. Structural Integrity Vector
 
 A consequential object MAY be represented as:
 
@@ -449,9 +449,9 @@ Structural_Integrity_Vector:
 A single composite score SHOULD NOT replace the vector if individual
 dimensions can change the decision.
 
----
+______________________________________________________________________
 
-# 11. Absolute Does Not Mean Empirically Universal
+## 11. Absolute Does Not Mean Empirically Universal
 
 The word:
 
@@ -481,9 +481,9 @@ COSMOLOGICAL THEOREM
 MATHEMATICAL AXIOM OUTSIDE A DECLARED SYSTEM
 ```
 
----
+______________________________________________________________________
 
-# 12. Law of Law Binding
+## 12. Law of Law Binding
 
 The source lineage defines a Law of Law around internally consistent,
 explicit, traceable reasoning.
@@ -504,9 +504,9 @@ UNTRACEABLE LOAD-BEARING PREMISE
 INTEGRITY GAP
 ```
 
----
+______________________________________________________________________
 
-# 13. Explicitness Law
+## 13. Explicitness Law
 
 Important structural assumptions MUST be exposable as explicit
 premises.
@@ -523,9 +523,9 @@ AMOS may omit irrelevant detail from output.
 
 It may not rely on an invented hidden premise.
 
----
+______________________________________________________________________
 
-# 14. Traceability Law
+## 14. Traceability Law
 
 For important conclusions:
 
@@ -543,9 +543,9 @@ PROVENANCE
 
 must remain recoverable where required.
 
----
+______________________________________________________________________
 
-# 15. Typed Claim Law
+## 15. Typed Claim Law
 
 Every important knowledge object SHOULD resolve to the weakest accurate
 class:
@@ -580,9 +580,9 @@ DECISION
 UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 16. Type Inflation Prohibition
+## 16. Type Inflation Prohibition
 
 The following transitions are forbidden without a validating edge:
 
@@ -620,9 +620,9 @@ CURRENTLY TRUE
 UNIVERSALLY TRUE
 ```
 
----
+______________________________________________________________________
 
-# 17. Evidence Integrity
+## 17. Evidence Integrity
 
 Evidence integrity requires distinguishing:
 
@@ -654,9 +654,9 @@ MODEL OUTPUT
 EVIDENCE OF OUTCOME
 ```
 
----
+______________________________________________________________________
 
-# 18. Provenance Integrity
+## 18. Provenance Integrity
 
 Every load-bearing evidence object SHOULD preserve material provenance:
 
@@ -686,9 +686,9 @@ Provenance:
 
 where applicable.
 
----
+______________________________________________________________________
 
-# 19. Provenance Topology Law
+## 19. Provenance Topology Law
 
 Independent confirmation must be demonstrated, not inferred from
 document count.
@@ -715,9 +715,9 @@ DESCENDANT COUNT
 CONFIRMATION COUNT
 ```
 
----
+______________________________________________________________________
 
-# 20. Sybil Resistance
+## 20. Sybil Resistance
 
 Evidence topology MUST resist apparent multiplicity created by copied,
 repackaged, quoted, or recursively generated claims.
@@ -732,9 +732,9 @@ COPIED 100 TIMES
 Authority, popularity, and repetition do not independently establish
 truth.
 
----
+______________________________________________________________________
 
-# 21. Dependency Integrity
+## 21. Dependency Integrity
 
 Every important conclusion has a dependency closure.
 
@@ -753,9 +753,9 @@ CONCLUSION
 Only dependencies capable of materially changing the conclusion need
 be traversed on the fast path.
 
----
+______________________________________________________________________
 
-# 22. Dependency Closure Rule
+## 22. Dependency Closure Rule
 
 Before local finalization, AMOS SHOULD establish the smallest
 result-changing dependency closure.
@@ -768,9 +768,9 @@ GLOBAL RECOMPUTATION
 
 when the smaller scope is demonstrably sufficient.
 
----
+______________________________________________________________________
 
-# 23. Hidden Dependency Prohibition
+## 23. Hidden Dependency Prohibition
 
 A local conclusion MUST escalate if a hidden or ambiguous dependency
 could alter:
@@ -789,9 +789,9 @@ CAUSAL INTERPRETATION
 ACTION
 ```
 
----
+______________________________________________________________________
 
-# 24. Atomic Multi-RSCF Integrity
+## 24. Atomic Multi-RSCF Integrity
 
 When a conclusion depends on multiple RSCFs, their relevant conditions
 must remain jointly satisfiable.
@@ -824,9 +824,9 @@ NON-CONFLICT
 FRESHNESS
 ```
 
----
+______________________________________________________________________
 
-# 25. Contradiction Integrity
+## 25. Contradiction Integrity
 
 AMOS MUST NOT erase a material contradiction merely to produce one
 answer.
@@ -843,9 +843,9 @@ COMPETING
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 26. Contradiction Classes
+## 26. Contradiction Classes
 
 ```yaml
 Contradiction:
@@ -870,9 +870,9 @@ Contradiction:
   status:
 ```
 
----
+______________________________________________________________________
 
-# 27. Competing Hypothesis Integrity
+## 27. Competing Hypothesis Integrity
 
 AMOS MUST preserve genuine competing hypotheses when support is:
 
@@ -888,9 +888,9 @@ INSUFFICIENT
 
 Do not average contradictions into false consensus.
 
----
+______________________________________________________________________
 
-# 28. Cheapest Discriminating Test
+## 28. Cheapest Discriminating Test
 
 When hypotheses compete, prefer the test with the highest expected
 decision information per cost.
@@ -910,9 +910,9 @@ $$
 
 This is a decision heuristic, not a universal mathematical law.
 
----
+______________________________________________________________________
 
-# 29. Logical Integrity
+## 29. Logical Integrity
 
 Logical integrity requires:
 
@@ -930,9 +930,9 @@ NO INVALID INFERENCE
 NO CATEGORY COLLAPSE
 ```
 
----
+______________________________________________________________________
 
-# 30. Logical Consistency Boundary
+## 30. Logical Consistency Boundary
 
 Internal consistency is necessary for many AMOS conclusions.
 
@@ -946,9 +946,9 @@ TRUE MODEL
 
 A perfectly coherent system may still begin from false premises.
 
----
+______________________________________________________________________
 
-# 31. Causal Integrity
+## 31. Causal Integrity
 
 AMOS MUST distinguish:
 
@@ -974,9 +974,9 @@ FEEDBACK
 CAUSAL EFFECT
 ```
 
----
+______________________________________________________________________
 
-# 32. Causal Firewall
+## 32. Causal Firewall
 
 ```text
 SEQUENCE
@@ -1002,9 +1002,9 @@ MECHANISTIC PROOF
 
 Only appropriately typed evidence licenses stronger causal claims.
 
----
+______________________________________________________________________
 
-# 33. Scope Integrity
+## 33. Scope Integrity
 
 Every important claim inherits an applicability envelope.
 
@@ -1028,9 +1028,9 @@ Scope:
   exclusions:
 ```
 
----
+______________________________________________________________________
 
-# 34. No Silent Generalization
+## 34. No Silent Generalization
 
 ```text
 VALID HERE
@@ -1050,9 +1050,9 @@ VALID IN ONE REGIME
 VALID IN ALL REGIMES
 ```
 
----
+______________________________________________________________________
 
-# 35. Regime Integrity
+## 35. Regime Integrity
 
 If material operating conditions change:
 
@@ -1064,9 +1064,9 @@ REGIME(t1)
 
 then conclusions depending upon the old regime require revalidation.
 
----
+______________________________________________________________________
 
-# 36. Temporal Integrity
+## 36. Temporal Integrity
 
 Every time-sensitive claim has a freshness envelope.
 
@@ -1079,9 +1079,9 @@ CURRENT VALIDITY
 Stale evidence MAY remain historically valid while becoming
 decision-invalid for the current state.
 
----
+______________________________________________________________________
 
-# 37. Freshness Contract
+## 37. Freshness Contract
 
 ```yaml
 Freshness:
@@ -1100,9 +1100,9 @@ Freshness:
     - UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 38. Measurement Integrity
+## 38. Measurement Integrity
 
 Measurement objects MUST distinguish:
 
@@ -1120,9 +1120,9 @@ MODEL SCORE
 
 These are not interchangeable.
 
----
+______________________________________________________________________
 
-# 39. Measurement Firewall
+## 39. Measurement Firewall
 
 ```text
 MEASUREMENT
@@ -1142,9 +1142,9 @@ SCORE
 REALITY
 ```
 
----
+______________________________________________________________________
 
-# 40. Model Integrity
+## 40. Model Integrity
 
 A model MUST retain:
 
@@ -1174,9 +1174,9 @@ Model:
 
 where relevant.
 
----
+______________________________________________________________________
 
-# 41. Model / Reality Boundary
+## 41. Model / Reality Boundary
 
 ```text
 MODEL
@@ -1196,9 +1196,9 @@ DIGITAL TWIN
 PHYSICAL SYSTEM
 ```
 
----
+______________________________________________________________________
 
-# 42. Governance Integrity
+## 42. Governance Integrity
 
 Governance integrity separates:
 
@@ -1216,9 +1216,9 @@ COMMIT
 FINALITY
 ```
 
----
+______________________________________________________________________
 
-# 43. Capability / Authority Law
+## 43. Capability / Authority Law
 
 ```text
 CAPABILITY
@@ -1229,9 +1229,9 @@ AUTHORITY
 An actor being technically capable of an action does not authorize the
 action.
 
----
+______________________________________________________________________
 
-# 44. Authorization / Commit Law
+## 44. Authorization / Commit Law
 
 ```text
 AUTHORIZATION
@@ -1245,9 +1245,9 @@ Commit represents the accepted state transition.
 
 These MUST remain separately representable when material.
 
----
+______________________________________________________________________
 
-# 45. Proposal / Commit Law
+## 45. Proposal / Commit Law
 
 ```text
 PROPOSAL
@@ -1258,9 +1258,9 @@ COMMIT
 No candidate state becomes authoritative merely because it was
 generated.
 
----
+______________________________________________________________________
 
-# 46. Governance Epoch Integrity
+## 46. Governance Epoch Integrity
 
 Authority SHOULD be bounded by an epoch or equivalent validity period.
 
@@ -1286,9 +1286,9 @@ Authority:
 
 A stale authority object cannot silently authorize a current action.
 
----
+______________________________________________________________________
 
-# 47. Execution Integrity
+## 47. Execution Integrity
 
 Execution integrity requires preserving the distinction:
 
@@ -1306,9 +1306,9 @@ OBSERVED EFFECT
 VALIDATED EFFECT
 ```
 
----
+______________________________________________________________________
 
-# 48. Execution Firewall
+## 48. Execution Firewall
 
 ```text
 EXECUTED
@@ -1328,9 +1328,9 @@ LOGGED
 APPROVED
 ```
 
----
+______________________________________________________________________
 
-# 49. Consequential Action Integrity
+## 49. Consequential Action Integrity
 
 For irreversible or high-stakes actions, validation strength SHOULD
 increase with:
@@ -1349,9 +1349,9 @@ INSTITUTIONAL IMPACT
 DOWNSTREAM DEPENDENCY
 ```
 
----
+______________________________________________________________________
 
-# 50. Reversibility Preference
+## 50. Reversibility Preference
 
 Under unresolved uncertainty:
 
@@ -1377,9 +1377,9 @@ ROLLBACK-CAPABLE
 
 actions.
 
----
+______________________________________________________________________
 
-# 51. Rollback Integrity
+## 51. Rollback Integrity
 
 Before consequential mutation, define a rollback basin where feasible.
 
@@ -1399,9 +1399,9 @@ Rollback:
   irreversible_components:
 ```
 
----
+______________________________________________________________________
 
-# 52. Failure Locality
+## 52. Failure Locality
 
 When a premise fails:
 
@@ -1413,9 +1413,9 @@ DEPENDENT DESCENDANTS
 
 unless the failure is genuinely global.
 
----
+______________________________________________________________________
 
-# 53. Local Recovery
+## 53. Local Recovery
 
 Canonical recovery sequence:
 
@@ -1431,9 +1431,9 @@ ROLL BACK TO NEAREST VALID STATE
 REROUTE LOCALLY
 ```
 
----
+______________________________________________________________________
 
-# 54. No Blind Retry
+## 54. No Blind Retry
 
 ```text
 FAILED PATH
@@ -1461,9 +1461,9 @@ ENVIRONMENT
 
 or another relevant condition.
 
----
+______________________________________________________________________
 
-# 55. Evolution Integrity
+## 55. Evolution Integrity
 
 A system may evolve only through governed transitions.
 
@@ -1481,9 +1481,9 @@ LATEST
 CANONICAL
 ```
 
----
+______________________________________________________________________
 
-# 56. Anti-Regression Law
+## 56. Anti-Regression Law
 
 An evolution is admissible only if it preserves or improves:
 
@@ -1511,9 +1511,9 @@ Otherwise:
 ROLL BACK
 ```
 
----
+______________________________________________________________________
 
-# 57. Knowledge Harvest Integrity
+## 57. Knowledge Harvest Integrity
 
 Canonical knowledge progression:
 
@@ -1527,9 +1527,9 @@ VALIDATED KNOWLEDGE
 
 No stage automatically implies the next.
 
----
+______________________________________________________________________
 
-# 58. Documentation Boundary
+## 58. Documentation Boundary
 
 ```text
 DOCUMENTED
@@ -1549,9 +1549,9 @@ BENCHMARKED
 UNIVERSALLY VALID
 ```
 
----
+______________________________________________________________________
 
-# 59. Canon Boundary
+## 59. Canon Boundary
 
 ```text
 CANON_CANDIDATE
@@ -1567,9 +1567,9 @@ Canon denotes governed AMOS status.
 
 It does not itself establish external empirical truth.
 
----
+______________________________________________________________________
 
-# 60. Absolute Structural Invariant Set
+## 60. Absolute Structural Invariant Set
 
 ```text
 INTEGRITY > COMPLETENESS
@@ -1601,9 +1601,9 @@ FAILURE SHOULD INVALIDATE LOCALLY
 UNKNOWN/GAP DOES NOT EQUAL PASS
 ```
 
----
+______________________________________________________________________
 
-# 61. Integrity Admission Gate
+## 61. Integrity Admission Gate
 
 Before a consequential conclusion is admitted:
 
@@ -1649,9 +1649,9 @@ UNKNOWN/GAP
 
 rather than PASS.
 
----
+______________________________________________________________________
 
-# 62. Integrity Finalization Gate
+## 62. Integrity Finalization Gate
 
 Finalization requires:
 
@@ -1668,9 +1668,9 @@ as applicable.
 More evidence SHOULD NOT be collected merely because more evidence is
 available if the decision is already structurally sufficient.
 
----
+______________________________________________________________________
 
-# 63. Claim Sufficiency
+## 63. Claim Sufficiency
 
 Claim Sufficiency is reached when:
 
@@ -1686,17 +1686,17 @@ SCOPE IS DECLARED
 CONFIDENCE IS BOUNDED
 ```
 
----
+______________________________________________________________________
 
-# 64. Decision Sufficiency
+## 64. Decision Sufficiency
 
 Decision Sufficiency is reached when unresolved uncertainty is no
 longer capable of changing the decision materially, within the stated
 risk tolerance.
 
----
+______________________________________________________________________
 
-# 65. Action Sufficiency
+## 65. Action Sufficiency
 
 Action Sufficiency is reached when:
 
@@ -1714,9 +1714,9 @@ RISKS ARE ACCEPTABLE
 ROLLBACK EXISTS WHERE REQUIRED
 ```
 
----
+______________________________________________________________________
 
-# 66. Fast-Path Structural Integrity
+## 66. Fast-Path Structural Integrity
 
 Fast-path reasoning is admissible only when:
 
@@ -1738,9 +1738,9 @@ NO HIDDEN CAUSAL COUPLING
 STAKES WITHIN LOCAL AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 67. Fast-Path Escalation Triggers
+## 67. Fast-Path Escalation Triggers
 
 Escalate when:
 
@@ -1764,9 +1764,9 @@ IRREVERSIBLE STAKES EXIST
 DEPENDENCIES ARE AMBIGUOUS
 ```
 
----
+______________________________________________________________________
 
-# 68. RSCF Binding
+## 68. RSCF Binding
 
 Absolute Structural Integrity treats RSCF as a principal structured
 reasoning object.
@@ -1801,9 +1801,9 @@ RSCF:
   invalidation_conditions:
 ```
 
----
+______________________________________________________________________
 
-# 69. Proof Capsule
+## 69. Proof Capsule
 
 Important conclusions SHOULD conceptually carry:
 
@@ -1837,9 +1837,9 @@ Proof_Capsule:
   invalidation_conditions:
 ```
 
----
+______________________________________________________________________
 
-# 70. Proof Capsule Reuse
+## 70. Proof Capsule Reuse
 
 A proof capsule may be reused only while:
 
@@ -1855,11 +1855,11 @@ FRESHNESS REMAINS SUFFICIENT
 NO MATERIAL CONFLICT APPEARS
 ```
 
----
+______________________________________________________________________
 
-# 71. Structural Invalidation
+## 71. Structural Invalidation
 
-If premise \(P\) fails:
+If premise (P) fails:
 
 $$
 Invalidate(P)
@@ -1875,11 +1875,11 @@ Invalidate(P)
 Invalidate(All)
 $$
 
-unless all state truly depends upon \(P\).
+unless all state truly depends upon (P).
 
----
+______________________________________________________________________
 
-# 72. Sensitivity Integrity
+## 72. Sensitivity Integrity
 
 For consequential conclusions, identify the smallest change capable of
 flipping the result.
@@ -1903,9 +1903,9 @@ Sensitivity:
     - CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
-# 73. Fragility Rule
+## 73. Fragility Rule
 
 If a plausible small perturbation changes the conclusion:
 
@@ -1917,9 +1917,9 @@ CONDITIONAL
 
 unless governance explicitly accepts the fragility.
 
----
+______________________________________________________________________
 
-# 74. Uncertainty Integrity
+## 74. Uncertainty Integrity
 
 Uncertainty SHOULD remain vectorized when material.
 
@@ -1943,9 +1943,9 @@ Uncertainty:
 
 One low scalar confidence score may hide the source of uncertainty.
 
----
+______________________________________________________________________
 
-# 75. Gap Integrity
+## 75. Gap Integrity
 
 Gaps SHOULD be classified:
 
@@ -1961,9 +1961,9 @@ COSMETIC
 
 Resolve them in that order.
 
----
+______________________________________________________________________
 
-# 76. Critical Gap Rule
+## 76. Critical Gap Rule
 
 If a critical gap cannot be closed:
 
@@ -1974,9 +1974,9 @@ MINIMUM MISSING INFORMATION
 
 rather than inventing the missing structure.
 
----
+______________________________________________________________________
 
-# 77. Structural Identity Integrity
+## 77. Structural Identity Integrity
 
 Names, IDs, versions, and paths MUST not be silently conflated.
 
@@ -1994,9 +1994,9 @@ NEWER FILE
 SUPERSEDING AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 78. Version Integrity
+## 78. Version Integrity
 
 ```yaml
 Versioned_Object:
@@ -2018,9 +2018,9 @@ Versioned_Object:
   semantic_delta:
 ```
 
----
+______________________________________________________________________
 
-# 79. Supersession Integrity
+## 79. Supersession Integrity
 
 A newer artifact supersedes an older artifact only when a valid lineage
 or governance relation establishes:
@@ -2031,9 +2031,9 @@ SUPERSEDES
 
 Do not infer supersession from timestamps alone.
 
----
+______________________________________________________________________
 
-# 80. Canon Promotion Integrity
+## 80. Canon Promotion Integrity
 
 Canon promotion requires:
 
@@ -2059,9 +2059,9 @@ VALIDATION STATE
 
 to be sufficiently resolved.
 
----
+______________________________________________________________________
 
-# 81. Source Claim vs Empirical Claim
+## 81. Source Claim vs Empirical Claim
 
 The integrity corpus contains source claims such as:
 
@@ -2084,9 +2084,9 @@ SOURCE_CLAIM / AMOS_MODEL
 
 unless independently validated.
 
----
+______________________________________________________________________
 
-# 82. `E = I²` Source Binding
+## 82. `E = I²` Source Binding
 
 The source integrity framework defines:
 
@@ -2118,9 +2118,9 @@ E = I²
 
 is preserved as a **native integrity-framework equation**.
 
----
+______________________________________________________________________
 
-# 83. `E = I²` Epistemic Firewall
+## 83. `E = I²` Epistemic Firewall
 
 It MUST NOT be silently represented as:
 
@@ -2160,9 +2160,9 @@ E_I2:
     NOT_INDEPENDENTLY_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 84. Rule of Four Binding
+## 84. Rule of Four Binding
 
 A source lineage describes a fourfold integrity pattern using constructs
 such as:
@@ -2188,9 +2188,9 @@ RULE OF FOUR
 is preserved as a source framework family requiring source-version
 reconciliation.
 
----
+______________________________________________________________________
 
-# 85. Rule of Four Boundary
+## 85. Rule of Four Boundary
 
 Claims that the Rule of Four governs:
 
@@ -2216,9 +2216,9 @@ SOURCE_CLAIM
 
 not independently established universal science.
 
----
+______________________________________________________________________
 
-# 86. Three-State Integrity Architecture
+## 86. Three-State Integrity Architecture
 
 A source lineage defines:
 
@@ -2241,9 +2241,9 @@ SOURCE_DEFINED_MODEL
 It MUST NOT be treated as established physical ontology without
 independent evidence.
 
----
+______________________________________________________________________
 
-# 87. Cross-Domain Integrity Claims
+## 87. Cross-Domain Integrity Claims
 
 The corpus maps integrity across:
 
@@ -2265,9 +2265,9 @@ These mappings are native framework claims.
 
 Cross-domain validity must be assessed independently.
 
----
+______________________________________________________________________
 
-# 88. Cross-Domain Firewall
+## 88. Cross-Domain Firewall
 
 ```text
 SAME WORD "INTEGRITY"
@@ -2284,9 +2284,9 @@ STRUCTURAL MAPPING
 CAUSAL TRANSFER
 ```
 
----
+______________________________________________________________________
 
-# 89. QLS Binding
+## 89. QLS Binding
 
 The integrity corpus associates:
 
@@ -2301,9 +2301,9 @@ framework level.
 
 Exact QLS scientific claims require QLS-specific provenance.
 
----
+______________________________________________________________________
 
-# 90. UBI Binding
+## 90. UBI Binding
 
 The integrity corpus associates UBI with biological coherence and
 alignment.
@@ -2321,9 +2321,9 @@ ALL CHRONIC ILLNESS
 or equivalent universal medical claims are not independently
 established.
 
----
+______________________________________________________________________
 
-# 91. QCLA Binding
+## 91. QCLA Binding
 
 The integrity corpus links QCLA with coherent technological /
 quantum-computing architectures.
@@ -2337,9 +2337,9 @@ SOURCE_GROUNDED
 Claims of room-temperature molecular quantum-computing performance or
 specific superiority require separate empirical validation.
 
----
+______________________________________________________________________
 
-# 92. NeuroSyncAI Binding
+## 92. NeuroSyncAI Binding
 
 The integrity corpus associates NeuroSyncAI with signal fidelity,
 self-correction, and integrity-preserving AI operation.
@@ -2348,9 +2348,9 @@ These are framework-level source claims.
 
 Runtime implementations require separate executable evidence.
 
----
+______________________________________________________________________
 
-# 93. AMOS OS Binding
+## 93. AMOS OS Binding
 
 The AMOS OS lineage establishes a practical governance expression of
 integrity:
@@ -2367,9 +2367,9 @@ OR USER-PROVIDED MATERIAL
 Absolute Structural Integrity treats this as a primary operational
 anchor.
 
----
+______________________________________________________________________
 
-# 94. Operational Integrity Kernel
+## 94. Operational Integrity Kernel
 
 Canonical operational normalization:
 
@@ -2401,9 +2401,9 @@ EVOLVE
 
 No stage inherits the authority of another automatically.
 
----
+______________________________________________________________________
 
-# 95. Integrity State Machine
+## 95. Integrity State Machine
 
 ```text
 UNKNOWN
@@ -2435,9 +2435,9 @@ COMMITTED
 
 These tracks MUST not be collapsed.
 
----
+______________________________________________________________________
 
-# 96. Integrity Failure Classes
+## 96. Integrity Failure Classes
 
 ```yaml
 Integrity_Failure:
@@ -2476,9 +2476,9 @@ Integrity_Failure:
     description: rollback_or_invalidation_failure
 ```
 
----
+______________________________________________________________________
 
-# 97. Integrity Response Classes
+## 97. Integrity Response Classes
 
 ```text
 PASS
@@ -2500,9 +2500,9 @@ REJECT
 
 A binary PASS/FAIL model is insufficient for all epistemic cases.
 
----
+______________________________________________________________________
 
-# 98. Fail-Closed Rule
+## 98. Fail-Closed Rule
 
 For critical unresolved structural conditions:
 
@@ -2522,9 +2522,9 @@ HOLD / ESCALATE
 
 unless an explicit safe policy defines otherwise.
 
----
+______________________________________________________________________
 
-# 99. Fail-Open Prohibition
+## 99. Fail-Open Prohibition
 
 AMOS MUST NOT fail open simply because:
 
@@ -2540,9 +2540,9 @@ NO SOURCE DISAGREED
 
 Absence of detected failure is not proof of validity.
 
----
+______________________________________________________________________
 
-# 100. Adversarial Structural Validation
+## 100. Adversarial Structural Validation
 
 For consequential conclusions, construct the strongest supported result
 and challenge it through a genuinely different path.
@@ -2567,9 +2567,9 @@ AUTHORITY LEAKAGE
 STRONGER ALTERNATIVE
 ```
 
----
+______________________________________________________________________
 
-# 101. Independent Challenge Requirement
+## 101. Independent Challenge Requirement
 
 A challenge using the same assumptions, same source ancestry, and same
 reasoning path is not meaningfully independent.
@@ -2580,9 +2580,9 @@ REPHRASING
 INDEPENDENT VALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 102. Structural Coherence vs Truth
+## 102. Structural Coherence vs Truth
 
 The integrity source lineage strongly emphasizes coherence.
 
@@ -2598,9 +2598,9 @@ COHERENCE ALONE
 DOES NOT PROVE EXTERNAL TRUTH
 ```
 
----
+______________________________________________________________________
 
-# 103. Integrity vs Morality
+## 103. Integrity vs Morality
 
 The corpus sometimes links integrity with ethics.
 
@@ -2617,9 +2617,9 @@ incorrect objective.
 
 Governance and safety remain separate load-bearing dimensions.
 
----
+______________________________________________________________________
 
-# 104. Integrity vs Energy
+## 104. Integrity vs Energy
 
 The corpus links integrity and energy through `E = I²`.
 
@@ -2634,9 +2634,9 @@ PHYSICAL ENERGY
 unless a defined measurement model and independent evidence establish
 that equivalence in a specific scope.
 
----
+______________________________________________________________________
 
-# 105. Integrity vs Intelligence
+## 105. Integrity vs Intelligence
 
 The corpus frequently relates integrity to intelligence.
 
@@ -2660,9 +2660,9 @@ INTELLIGENCE
 
 as a universal empirical identity.
 
----
+______________________________________________________________________
 
-# 106. Integrity vs Sustainability
+## 106. Integrity vs Sustainability
 
 A structurally inconsistent system may be less stable under some
 conditions.
@@ -2679,9 +2679,9 @@ is not independently established.
 
 Specific sustainability claims require domain evidence.
 
----
+______________________________________________________________________
 
-# 107. Integrity Across Scale
+## 107. Integrity Across Scale
 
 Cross-scale mappings MUST remain:
 
@@ -2708,9 +2708,9 @@ PLANET
 is not a causal chain merely because analogous integrity language can
 be applied.
 
----
+______________________________________________________________________
 
-# 108. H/M/L Canon Representation
+## 108. H/M/L Canon Representation
 
 ```yaml
 H:
@@ -2752,9 +2752,9 @@ L:
     - exact_validation
 ```
 
----
+______________________________________________________________________
 
-# 109. Fractal Integrity
+## 109. Fractal Integrity
 
 Absolute Structural Integrity applies recursively.
 
@@ -2775,9 +2775,9 @@ EVIDENCE
 Integrity at a higher level depends upon relevant lower-level
 load-bearing structures.
 
----
+______________________________________________________________________
 
-# 110. Fractal Non-Reduction
+## 110. Fractal Non-Reduction
 
 The full system need not inherit every weakness of every component.
 
@@ -2797,9 +2797,9 @@ ONE IRRELEVANT LOW-CONFIDENCE DETAIL
 GLOBAL FAILURE
 ```
 
----
+______________________________________________________________________
 
-# 111. Structural Composition
+## 111. Structural Composition
 
 For composed object:
 
@@ -2819,9 +2819,9 @@ AVERAGE COMPONENT QUALITY
 
 is insufficient as a universal structural integrity measure.
 
----
+______________________________________________________________________
 
-# 112. Integrity Receipt
+## 112. Integrity Receipt
 
 Consequential integrity checks SHOULD be recordable as:
 
@@ -2865,9 +2865,9 @@ Integrity_Receipt:
   rollback_target:
 ```
 
----
+______________________________________________________________________
 
-# 113. Canon Mutation Rule
+## 113. Canon Mutation Rule
 
 A proposed mutation to canon MUST preserve:
 
@@ -2891,9 +2891,9 @@ AUTHORITY
 ROLLBACK
 ```
 
----
+______________________________________________________________________
 
-# 114. Canon Mutation Sequence
+## 114. Canon Mutation Sequence
 
 ```text
 PROPOSE
@@ -2915,9 +2915,9 @@ REVALIDATE
 
 Skipping a required stage is a structural integrity violation.
 
----
+______________________________________________________________________
 
-# 115. Supersession Rule
+## 115. Supersession Rule
 
 Supersession SHOULD be explicit:
 
@@ -2941,9 +2941,9 @@ Supersession:
   rollback:
 ```
 
----
+______________________________________________________________________
 
-# 116. No Destructive Canon Merge
+## 116. No Destructive Canon Merge
 
 When two source variants conflict:
 
@@ -2968,9 +2968,9 @@ COMPETING STATUS
 DISCRIMINATING TEST
 ```
 
----
+______________________________________________________________________
 
-# 117. Source-Lineage Register
+## 117. Source-Lineage Register
 
 Presently relevant source lineage includes:
 
@@ -2996,9 +2996,9 @@ NEUROSYNCAI FAMILY
 
 Exact lineage authority remains artifact-specific.
 
----
+______________________________________________________________________
 
-# 118. Native Source Claims Registry
+## 118. Native Source Claims Registry
 
 Source-grounded as corpus claims include:
 
@@ -3023,9 +3023,9 @@ QLS / UBI / QCLA / NEUROSYNCAI
 INTEGRITY STACK RELATIONSHIPS
 ```
 
----
+______________________________________________________________________
 
-# 119. AMOS-Derived Canon Registry
+## 119. AMOS-Derived Canon Registry
 
 Derived by normalization into the present canon:
 
@@ -3057,9 +3057,9 @@ ANTI-REGRESSION GATE
 
 unless an exact native source establishes the specific formulation.
 
----
+______________________________________________________________________
 
-# 120. External Empirical Validation Registry
+## 120. External Empirical Validation Registry
 
 Not independently established by the current source corpus:
 
@@ -3084,9 +3084,9 @@ ACROSS PHYSICS, BIOLOGY,
 COGNITION, AND GOVERNANCE
 ```
 
----
+______________________________________________________________________
 
-# 121. Canonical Assertion Envelope
+## 121. Canonical Assertion Envelope
 
 Within AMOS, the strongest justified canonical assertion is:
 
@@ -3101,9 +3101,9 @@ TO REMAIN WITHIN THE VALIDITY
 OF THEIR LOAD-BEARING STRUCTURE.
 ```
 
----
+______________________________________________________________________
 
-# 122. Non-Purpose
+## 122. Non-Purpose
 
 This canon MUST NOT be used by itself to claim:
 
@@ -3125,9 +3125,9 @@ A GUARANTEE OF SYSTEM SUCCESS
 A GUARANTEE OF AI ALIGNMENT
 ```
 
----
+______________________________________________________________________
 
-# 123. Operational Canon
+## 123. Operational Canon
 
 For AMOS operations:
 
@@ -3158,66 +3158,66 @@ FAILS
 INVALIDATE DEPENDENT STATE
 ```
 
----
+______________________________________________________________________
 
-# 124. Promotion Gate — Canon
+## 124. Promotion Gate — Canon
 
-* [x] integrity framework source lineage located
-* [x] Law of Law source lineage located
-* [x] internal consistency requirement located
-* [x] explicitness requirement located
-* [x] source-traceability requirement located
-* [x] `E = I²` source lineage located
-* [x] Rule-of-Four source lineage located
-* [x] QLS / UBI / QCLA / NeuroSyncAI relationship located
-* [x] empirical/source-claim boundary made explicit
-* [ ] exact historical version hierarchy fully reconciled
-* [ ] exact relationship to `LAW_HIERARCHY` reconciled
-* [ ] duplicate source descendants fully lineage-mapped
-* [ ] artifact-specific canon promotion receipt
+- [x] integrity framework source lineage located
+- [x] Law of Law source lineage located
+- [x] internal consistency requirement located
+- [x] explicitness requirement located
+- [x] source-traceability requirement located
+- [x] `E = I²` source lineage located
+- [x] Rule-of-Four source lineage located
+- [x] QLS / UBI / QCLA / NeuroSyncAI relationship located
+- [x] empirical/source-claim boundary made explicit
+- [ ] exact historical version hierarchy fully reconciled
+- [ ] exact relationship to `LAW_HIERARCHY` reconciled
+- [ ] duplicate source descendants fully lineage-mapped
+- [ ] artifact-specific canon promotion receipt
 
----
+______________________________________________________________________
 
-# 125. Promotion Gate — Runtime
+## 125. Promotion Gate — Runtime
 
-* [ ] single executable `ABSOLUTE_STRUCTURAL_INTEGRITY` binding
-* [ ] typed claim enforcement
-* [ ] provenance graph persistence
-* [ ] dependency closure enforcement
-* [ ] contradiction preservation
-* [ ] causal type enforcement
-* [ ] scope enforcement
-* [ ] regime enforcement
-* [ ] freshness enforcement
-* [ ] authority enforcement
-* [ ] local invalidation
-* [ ] rollback
-* [ ] integrity receipts
-* [ ] adversarial validation test suite
-* [ ] artifact-specific runtime validation receipt
+- [ ] single executable `ABSOLUTE_STRUCTURAL_INTEGRITY` binding
+- [ ] typed claim enforcement
+- [ ] provenance graph persistence
+- [ ] dependency closure enforcement
+- [ ] contradiction preservation
+- [ ] causal type enforcement
+- [ ] scope enforcement
+- [ ] regime enforcement
+- [ ] freshness enforcement
+- [ ] authority enforcement
+- [ ] local invalidation
+- [ ] rollback
+- [ ] integrity receipts
+- [ ] adversarial validation test suite
+- [ ] artifact-specific runtime validation receipt
 
----
+______________________________________________________________________
 
-# 126. Promotion Gate — Empirical Claims
+## 126. Promotion Gate — Empirical Claims
 
 For any claim promoted from AMOS model to empirical law:
 
-* [ ] operational variables defined
-* [ ] measurement units defined
-* [ ] falsifiable prediction defined
-* [ ] appropriate experimental design
-* [ ] independent evidence
-* [ ] independent replication
-* [ ] alternative explanations tested
-* [ ] scope established
-* [ ] regime bounds established
-* [ ] causal claims separately validated
-* [ ] negative evidence preserved
-* [ ] external validation receipt
+- [ ] operational variables defined
+- [ ] measurement units defined
+- [ ] falsifiable prediction defined
+- [ ] appropriate experimental design
+- [ ] independent evidence
+- [ ] independent replication
+- [ ] alternative explanations tested
+- [ ] scope established
+- [ ] regime bounds established
+- [ ] causal claims separately validated
+- [ ] negative evidence preserved
+- [ ] external validation receipt
 
----
+______________________________________________________________________
 
-# 127. Critical Gap Register
+## 127. Critical Gap Register
 
 ```yaml
 gaps:
@@ -3251,9 +3251,9 @@ gaps:
     state: NOT_ESTABLISHED_AS_SINGLE_ENFORCER
 ```
 
----
+______________________________________________________________________
 
-# 128. Invalidation Conditions
+## 128. Invalidation Conditions
 
 Revalidate this canon if:
 
@@ -3283,9 +3283,9 @@ AMOS CORE VERSION
 CHANGES LOAD-BEARING SEMANTICS
 ```
 
----
+______________________________________________________________________
 
-# 129. Canon Ingestion Rule
+## 129. Canon Ingestion Rule
 
 ```yaml
 AMOS_CANON_INGESTION_RULE:
@@ -3337,9 +3337,9 @@ AMOS_CANON_INGESTION_RULE:
       - NEVER_INVENT_CANON
 ```
 
----
+______________________________________________________________________
 
-# 130. Contract Discipline
+## 130. Contract Discipline
 
 ```text
 typed artifacts
@@ -3361,9 +3361,9 @@ typed artifacts
 · fail closed on critical UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 131. Cross-Plane Bindings
+## 131. Cross-Plane Bindings
 
 Governed within:
 
@@ -3405,9 +3405,9 @@ Operations / recovery:
 [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
 ```
 
----
+______________________________________________________________________
 
-# 132. Framework Bindings
+## 132. Framework Bindings
 
 ```text
 [[25_COGNITIVE_MATRIX/AMOS_X_QLS|AMOS_X_QLS]]
@@ -3424,9 +3424,9 @@ Operations / recovery:
 These relationships do not imply empirical equivalence between their
 domain claims.
 
----
+______________________________________________________________________
 
-# 133. RSCF Contract
+## 133. RSCF Contract
 
 ```yaml
 RSCF:
@@ -3511,9 +3511,9 @@ RSCF:
       NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 134. Proof Capsule
+## 134. Proof Capsule
 
 ```yaml
 PROOF_CAPSULE:
@@ -3581,9 +3581,9 @@ PROOF_CAPSULE:
       UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 135. Final Canonical Statement
+## 135. Final Canonical Statement
 
 Absolute Structural Integrity is the AMOS core constraint that:
 
@@ -3721,15 +3721,13 @@ binding.
 Empirical promotion of cross-domain integrity claims requires
 independent domain-specific evidence.
 
----
+______________________________________________________________________
 
-
-
----
+______________________________________________________________________
 
 **Related:** [[25_COGNITIVE_MATRIX/COGNITIVE_MATRIX_README|COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]] · [[01_CANON/01_CORE_LAWS/01_CORE_LAWS_MOC|01_CORE_LAWS_MOC]] · [[01_CANON/02_UNIVERSE_CANON/02_UNIVERSE_CANON_MOC|02_UNIVERSE_CANON_MOC]] · [[01_CANON/01_CORE_LAWS/ABSOLUTE_STRUCTURAL_INTEGRITY_CANON|ABSOLUTE_STRUCTURAL_INTEGRITY_CANON]] · [[01_CANON/01_CORE_LAWS/L0_INTEGRITY|L0_INTEGRITY]] · [[01_CANON/01_CORE_LAWS/L3_DEPENDENCY|L3_DEPENDENCY]] · [[01_CANON/01_CORE_LAWS/L18_GMEF|L18_GMEF]] · [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
 
 RSCF-NODE
 
@@ -3747,21 +3745,20 @@ canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
 
 RSCF-RELATIONS:
 
-* INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-* INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-* INDEXED_BY: [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]
-* GOVERNED_BY: [[01_CANON/01_CORE_LAWS/ABSOLUTE_STRUCTURAL_INTEGRITY_CANON|ABSOLUTE_STRUCTURAL_INTEGRITY_CANON]]
-* RELATED_TO: [[25_COGNITIVE_MATRIX/COGNITIVE_MATRIX_README|COGNITIVE_MATRIX_README]]
-* RELATED_TO: [[01_CANON/01_CORE_LAWS/01_CORE_LAWS_MOC|01_CORE_LAWS_MOC]]
-* RELATED_TO: [[01_CANON/02_UNIVERSE_CANON/02_UNIVERSE_CANON_MOC|02_UNIVERSE_CANON_MOC]]
-* RELATED_TO: [[01_CANON/01_CORE_LAWS/L0_INTEGRITY|L0_INTEGRITY]]
-* RELATED_TO: [[01_CANON/01_CORE_LAWS/L3_DEPENDENCY|L3_DEPENDENCY]]
-* RELATED_TO: [[01_CANON/01_CORE_LAWS/L18_GMEF|L18_GMEF]]
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+- INDEXED_BY: [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]
+- GOVERNED_BY: [[01_CANON/01_CORE_LAWS/ABSOLUTE_STRUCTURAL_INTEGRITY_CANON|ABSOLUTE_STRUCTURAL_INTEGRITY_CANON]]
+- RELATED_TO: [[25_COGNITIVE_MATRIX/COGNITIVE_MATRIX_README|COGNITIVE_MATRIX_README]]
+- RELATED_TO: [[01_CANON/01_CORE_LAWS/01_CORE_LAWS_MOC|01_CORE_LAWS_MOC]]
+- RELATED_TO: [[01_CANON/02_UNIVERSE_CANON/02_UNIVERSE_CANON_MOC|02_UNIVERSE_CANON_MOC]]
+- RELATED_TO: [[01_CANON/01_CORE_LAWS/L0_INTEGRITY|L0_INTEGRITY]]
+- RELATED_TO: [[01_CANON/01_CORE_LAWS/L3_DEPENDENCY|L3_DEPENDENCY]]
+- RELATED_TO: [[01_CANON/01_CORE_LAWS/L18_GMEF|L18_GMEF]]
 
----
+______________________________________________________________________
 
 **MOC:** [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]] | [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]
-
 
 The key canon boundary is:
 
@@ -3781,4 +3778,5 @@ or identical integrity mechanics across physics,
 biology, cognition, and civilization
 ```
 
-That separation is necessary because the native integrity document itself explicitly presents `E = I²` as measurable and universal and makes cross-scale claims from atoms through civilization, while those statements remain claims of that source rather than independent empirical verification.  The AMOS OS source gives a much firmer operational anchor for the actual core-law layer: internal consistency, explicit reasoning, traceability, governance hierarchy, and explicit uncertainty rather than fabricated confidence.
+That separation is necessary because the native integrity document itself explicitly presents `E = I²` as measurable and universal and makes cross-scale claims from atoms through civilization, while those statements remain claims of that source rather than independent empirical verification. The AMOS OS source gives a much firmer operational anchor for the actual core-law layer: internal consistency, explicit reasoning, traceability, governance hierarchy, and explicit uncertainty rather than fabricated confidence.
+```

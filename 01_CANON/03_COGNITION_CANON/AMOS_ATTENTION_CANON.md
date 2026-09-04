@@ -56,30 +56,30 @@ status: PLACEHOLDER_EXPANDED
 steward: Trang Phan
 system: AMOS OS
 tags:
-- amos-os
-- canon
-- cognition
-- attention
-- 03_cognition_canon
-- canon_placeholder
-- rscf
-- rscf/C-constraint
-- rscf/D-distinction
-- rscf/S-state
-- rscf/type-model
-- provenance
-- salience
-- selection
-- focus
-- prioritization
-- allocation
-- filtering
-- scope
-- regime
-- validation
-- law-hierarchy
-- routing-policy-validation-receipt
-- authz-engine-validation-receipt
+  - amos-os
+  - canon
+  - cognition
+  - attention
+  - 03_cognition_canon
+  - canon_placeholder
+  - rscf
+  - rscf/C-constraint
+  - rscf/D-distinction
+  - rscf/S-state
+  - rscf/type-model
+  - provenance
+  - salience
+  - selection
+  - focus
+  - prioritization
+  - allocation
+  - filtering
+  - scope
+  - regime
+  - validation
+  - law-hierarchy
+  - routing-policy-validation-receipt
+  - authz-engine-validation-receipt
 title: AMOS Attention Canon
 type: canon
 updated: 2026-08-27
@@ -179,9 +179,9 @@ System:
 
 **AMOS OS**
 
----
+______________________________________________________________________
 
-# 1. Governing Integrity Boundary
+## 1. Governing Integrity Boundary
 
 The supplied artifact explicitly establishes:
 
@@ -241,9 +241,9 @@ The first governance distinctions are source-supported.
 
 The attention-specific distinctions are conservative integrity constraints pending native-canon ingestion.
 
----
+______________________________________________________________________
 
-# 2. Current Strongest Supported Claim
+## 2. Current Strongest Supported Claim
 
 The strongest supported artifact-level conclusion is:
 
@@ -277,9 +277,9 @@ The substantive native definition of AMOS attention remains:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 3. Artifact Identity
+## 3. Artifact Identity
 
 ```yaml
 amos_attention_canon_identity:
@@ -324,9 +324,9 @@ amos_attention_canon_identity:
     UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 4. Identifier Consistency
+## 4. Identifier Consistency
 
 The supplied artifact gives the same textual identifier for:
 
@@ -375,9 +375,9 @@ IDENTIFIER MATCH
 VALIDATED ATTENTION CANON
 ```
 
----
+______________________________________________________________________
 
-# 5. Attention-Term Firewall
+## 5. Attention-Term Firewall
 
 The title:
 
@@ -429,9 +429,9 @@ Native semantics remain:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 6. Human-Attention Firewall
+## 6. Human-Attention Firewall
 
 Nothing in the placeholder establishes claims about:
 
@@ -461,9 +461,9 @@ AMOS ATTENTION MODEL
 EMPIRICAL THEORY OF HUMAN ATTENTION
 ```
 
----
+______________________________________________________________________
 
-# 7. Machine-Attention Firewall
+## 7. Machine-Attention Firewall
 
 Nothing in the placeholder establishes that AMOS Attention Canon means:
 
@@ -493,9 +493,9 @@ TRANSFORMER ATTENTION
 
 unless native AMOS canon explicitly establishes such a mapping.
 
----
+______________________________________________________________________
 
-# 8. Consciousness Firewall
+## 8. Consciousness Firewall
 
 Do not infer:
 
@@ -523,9 +523,9 @@ AWARENESS
 
 No native relationship between attention and consciousness is established by this placeholder.
 
----
+______________________________________________________________________
 
-# 9. Perception Firewall
+## 9. Perception Firewall
 
 Do not assume:
 
@@ -557,9 +557,9 @@ The native attention-perception relation remains:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 10. Memory Firewall
+## 10. Memory Firewall
 
 Do not assume:
 
@@ -591,9 +591,9 @@ Native attention-memory binding remains:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 11. Agency Firewall
+## 11. Agency Firewall
 
 Do not assume:
 
@@ -629,9 +629,9 @@ AUTHORIZED ACTION
 
 Attention and agency must remain separately typed unless native canon explicitly binds them.
 
----
+______________________________________________________________________
 
-# 12. Contract Discipline
+## 12. Contract Discipline
 
 The supplied artifact establishes:
 
@@ -674,9 +674,9 @@ attention_contract_discipline:
 
 This does not establish an executable attention runtime.
 
----
+______________________________________________________________________
 
-# 13. Purpose
+## 13. Purpose
 
 This artifact reserves the canonical location for future verified native AMOS Attention Canon content.
 
@@ -722,9 +722,9 @@ VALIDATION
 CANON PROMOTION
 ```
 
----
+______________________________________________________________________
 
-# 14. Non-Purpose
+## 14. Non-Purpose
 
 This artifact MUST NOT be used to claim:
 
@@ -745,9 +745,9 @@ This artifact MUST NOT be used to claim:
 - validated cognitive architecture;
 - or empirical truth.
 
----
+______________________________________________________________________
 
-# 15. Canon-Ingestion Rule
+## 15. Canon-Ingestion Rule
 
 ```yaml
 AMOS_CANON_INGESTION_RULE:
@@ -795,9 +795,9 @@ AMOS_CANON_INGESTION_RULE:
       - NEVER_INVENT_CANON
 ```
 
----
+______________________________________________________________________
 
-# 16. Native-Source Admission Contract
+## 16. Native-Source Admission Contract
 
 A candidate source MUST NOT populate Attention Canon merely because it contains:
 
@@ -841,9 +841,9 @@ CURRENT OR HISTORICAL?
 ADMIT / COMPETE / HOLD
 ```
 
----
+______________________________________________________________________
 
-# 17. Candidate Source Classes
+## 17. Candidate Source Classes
 
 ```text
 NATIVE_CANON_SOURCE
@@ -863,9 +863,9 @@ UNKNOWN_SOURCE
 
 These classes MUST remain distinct.
 
----
+______________________________________________________________________
 
-# 18. Native Attention Definition Schema
+## 18. Native Attention Definition Schema
 
 ```yaml
 amos_attention_definition:
@@ -965,9 +965,9 @@ Current:
 native_statement = UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 19. Attention Object Slot
+## 19. Attention Object Slot
 
 ```yaml
 attention_object:
@@ -1000,9 +1000,9 @@ attention_object:
     required
 ```
 
----
+______________________________________________________________________
 
-# 20. Attention-State Slot
+## 20. Attention-State Slot
 
 ```yaml
 attention_state:
@@ -1044,9 +1044,9 @@ attention_state:
     required
 ```
 
----
+______________________________________________________________________
 
-# 21. Attention-State Firewall
+## 21. Attention-State Firewall
 
 Do not assume:
 
@@ -1082,9 +1082,9 @@ LOW TRUTH
 
 Attention state and epistemic status are distinct.
 
----
+______________________________________________________________________
 
-# 22. Selection Slot
+## 22. Selection Slot
 
 ```yaml
 attention_selection:
@@ -1117,9 +1117,9 @@ attention_selection:
     required
 ```
 
----
+______________________________________________________________________
 
-# 23. Selection Firewall
+## 23. Selection Firewall
 
 ```text
 SELECTED
@@ -1153,9 +1153,9 @@ IRRELEVANT
 
 Selection is not epistemic verification.
 
----
+______________________________________________________________________
 
-# 24. Salience Slot
+## 24. Salience Slot
 
 ```yaml
 attention_salience:
@@ -1188,9 +1188,9 @@ attention_salience:
     required
 ```
 
----
+______________________________________________________________________
 
-# 25. Salience Firewall
+## 25. Salience Firewall
 
 ```text
 SALIENT
@@ -1203,21 +1203,24 @@ SALIENT
 !=
 IMPORTANT
 ```
+
 ```text
 SALIENT
 !=
 AUTHORIZED
 ```
+
 ```text
 SALIENT
 !=
 CAUSALLY IMPORTANT
 ```
+
 unless independently established.
 
----
+______________________________________________________________________
 
-# 26. Priority Slot
+## 26. Priority Slot
 
 ```yaml
 attention_priority:
@@ -1250,9 +1253,9 @@ attention_priority:
     required
 ```
 
----
+______________________________________________________________________
 
-# 27. Priority Firewall
+## 27. Priority Firewall
 
 ```text
 HIGH PRIORITY
@@ -1286,9 +1289,9 @@ COMMIT
 
 Priority is a distinct typed relation.
 
----
+______________________________________________________________________
 
-# 28. Focus Slot
+## 28. Focus Slot
 
 ```yaml
 attention_focus:
@@ -1321,9 +1324,9 @@ attention_focus:
     required
 ```
 
----
+______________________________________________________________________
 
-# 29. Focus Firewall
+## 29. Focus Firewall
 
 Do not infer:
 
@@ -1351,9 +1354,9 @@ DEPENDENCIES OF X MAY BE IGNORED
 
 Attention optimization may never weaken integrity.
 
----
+______________________________________________________________________
 
-# 30. Filtering Slot
+## 30. Filtering Slot
 
 ```yaml
 attention_filter:
@@ -1383,9 +1386,9 @@ attention_filter:
     required
 ```
 
----
+______________________________________________________________________
 
-# 31. Filtering Firewall
+## 31. Filtering Firewall
 
 ```text
 FILTERED OUT
@@ -1403,9 +1406,9 @@ IRRELEVANT FOREVER
 
 A filtered dependency must be recoverable if circumstances make it result-changing.
 
----
+______________________________________________________________________
 
-# 32. Allocation Slot
+## 32. Allocation Slot
 
 ```yaml
 attention_allocation:
@@ -1435,9 +1438,9 @@ attention_allocation:
     required
 ```
 
----
+______________________________________________________________________
 
-# 33. Capacity Slot
+## 33. Capacity Slot
 
 ```yaml
 attention_capacity:
@@ -1470,9 +1473,9 @@ attention_capacity:
     required
 ```
 
----
+______________________________________________________________________
 
-# 34. Capacity Firewall
+## 34. Capacity Firewall
 
 No source establishes that AMOS attention is:
 
@@ -1498,9 +1501,9 @@ Those remain:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 35. Competition Slot
+## 35. Competition Slot
 
 ```yaml
 attention_competition:
@@ -1527,9 +1530,9 @@ attention_competition:
     required
 ```
 
----
+______________________________________________________________________
 
-# 36. Competition Firewall
+## 36. Competition Firewall
 
 Do not assume:
 
@@ -1555,9 +1558,9 @@ ALWAYS WINS
 
 No native competition mechanism is established.
 
----
+______________________________________________________________________
 
-# 37. Switching Slot
+## 37. Switching Slot
 
 ```yaml
 attention_switch:
@@ -1587,9 +1590,9 @@ attention_switch:
     required
 ```
 
----
+______________________________________________________________________
 
-# 38. Switching Firewall
+## 38. Switching Firewall
 
 No native source establishes:
 
@@ -1611,9 +1614,9 @@ These remain:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 39. Persistence Slot
+## 39. Persistence Slot
 
 ```yaml
 attention_persistence:
@@ -1640,9 +1643,9 @@ attention_persistence:
     required
 ```
 
----
+______________________________________________________________________
 
-# 40. Inhibition Slot
+## 40. Inhibition Slot
 
 ```yaml
 attention_inhibition:
@@ -1674,9 +1677,9 @@ attention_inhibition:
 
 No native inhibition mechanism is established.
 
----
+______________________________________________________________________
 
-# 41. Attention Transition Slot
+## 41. Attention Transition Slot
 
 ```yaml
 attention_transition:
@@ -1709,9 +1712,9 @@ attention_transition:
     UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 42. Canon-Level Worked Transition
+## 42. Canon-Level Worked Transition
 
 The supplied placeholder supports the following **canon-operation target**, not an attention algorithm:
 
@@ -1737,9 +1740,9 @@ It MUST NOT be misread as:
 THE NATIVE AMOS ATTENTION ALGORITHM
 ```
 
----
+______________________________________________________________________
 
-# 43. Admit Stage
+## 43. Admit Stage
 
 Target semantics:
 
@@ -1757,9 +1760,9 @@ FAIL CLOSED
 
 This is source-supported target behavior.
 
----
+______________________________________________________________________
 
-# 44. Scope-Binding Stage
+## 44. Scope-Binding Stage
 
 Target semantics requires declaration of:
 
@@ -1779,9 +1782,9 @@ Exact Attention Canon scope semantics remain:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 45. Authority-Check Stage
+## 45. Authority-Check Stage
 
 The supplied target semantics establishes:
 
@@ -1799,9 +1802,9 @@ This governs canon mutation.
 
 It does not define attentional priority or selection.
 
----
+______________________________________________________________________
 
-# 46. Preconditions Stage
+## 46. Preconditions Stage
 
 The source requires:
 
@@ -1824,9 +1827,9 @@ IGNORE LOW-SALIENCE BUT RESULT-CHANGING DEPENDENCIES
 
 Integrity remains dominant over attention compression.
 
----
+______________________________________________________________________
 
-# 47. Proposal Stage
+## 47. Proposal Stage
 
 Target semantics:
 
@@ -1843,9 +1846,9 @@ ATTENTION CANON UPDATE PROPOSAL
 CANONICAL ATTENTION STATE
 ```
 
----
+______________________________________________________________________
 
-# 48. Commit-or-Hold Stage
+## 48. Commit-or-Hold Stage
 
 On failed premise:
 
@@ -1859,9 +1862,9 @@ RECORD RECEIPT
 
 This is source-supported target behavior.
 
----
+______________________________________________________________________
 
-# 49. Epistemic Attention Firewall
+## 49. Epistemic Attention Firewall
 
 Attention must remain separate from epistemic status.
 
@@ -1889,9 +1892,9 @@ INDEPENDENTLY CONFIRMED CLAIM
 
 This prevents attentional prominence from becoming epistemic authority.
 
----
+______________________________________________________________________
 
-# 50. Provenance Attention Firewall
+## 50. Provenance Attention Firewall
 
 A source receiving more attention does not gain provenance independence.
 
@@ -1910,9 +1913,9 @@ OF ONE ROOT
 MULTIPLE INDEPENDENT ROOTS
 ```
 
----
+______________________________________________________________________
 
-# 51. Attention / Truth Firewall
+## 51. Attention / Truth Firewall
 
 ```text
 ATTENTION WEIGHT
@@ -1924,9 +1927,9 @@ unless a native validated model explicitly establishes a typed relationship.
 
 No such model is established here.
 
----
+______________________________________________________________________
 
-# 52. Attention / Confidence Firewall
+## 52. Attention / Confidence Firewall
 
 ```text
 ATTENTION ALLOCATION
@@ -1936,9 +1939,9 @@ CONFIDENCE ALLOCATION
 
 A claim can deserve high attention because it is uncertain, dangerous, contradictory, or decision-critical.
 
----
+______________________________________________________________________
 
-# 53. Attention / Importance Firewall
+## 53. Attention / Importance Firewall
 
 ```text
 SALIENCE
@@ -1950,9 +1953,9 @@ A low-salience dependency may be load-bearing.
 
 A high-salience feature may be irrelevant to the decision.
 
----
+______________________________________________________________________
 
-# 54. Attention / Frequency Firewall
+## 54. Attention / Frequency Firewall
 
 ```text
 FREQUENCY
@@ -1978,9 +1981,9 @@ TRUTH
 
 unless a native model explicitly binds these quantities.
 
----
+______________________________________________________________________
 
-# 55. Attention / Novelty Firewall
+## 55. Attention / Novelty Firewall
 
 ```text
 NOVEL
@@ -2006,9 +2009,9 @@ IRRELEVANT
 
 No novelty-based attention law is established.
 
----
+______________________________________________________________________
 
-# 56. Attention / Causation Firewall
+## 56. Attention / Causation Firewall
 
 Distinguish:
 
@@ -2032,9 +2035,9 @@ These are different claim types.
 
 Attention alone does not establish causation.
 
----
+______________________________________________________________________
 
-# 57. Selection / Causation Firewall
+## 57. Selection / Causation Firewall
 
 ```text
 SELECTED X
@@ -2050,9 +2053,9 @@ NOT SELECTED X
 X HAD NO CAUSAL EFFECT
 ```
 
----
+______________________________________________________________________
 
-# 58. Salience / Causation Firewall
+## 58. Salience / Causation Firewall
 
 ```text
 HIGH SALIENCE
@@ -2062,9 +2065,9 @@ HIGH CAUSAL EFFECT
 
 No causal magnitude may be inferred from attentional prominence alone.
 
----
+______________________________________________________________________
 
-# 59. Attention Provenance Topology
+## 59. Attention Provenance Topology
 
 Future substantive Attention Canon SHOULD preserve:
 
@@ -2092,9 +2095,9 @@ ATTENTION DEFINITION
 └── SCOPE / REGIME
 ```
 
----
+______________________________________________________________________
 
-# 60. Duplicate-Source Firewall
+## 60. Duplicate-Source Firewall
 
 If multiple documents descend from one attention definition:
 
@@ -2106,9 +2109,9 @@ MANY INDEPENDENT DEFINITIONS
 
 Preserve root ancestry.
 
----
+______________________________________________________________________
 
-# 61. Provenance-Independence Slot
+## 61. Provenance-Independence Slot
 
 ```yaml
 attention_provenance_independence:
@@ -2126,9 +2129,9 @@ attention_provenance_independence:
     false
 ```
 
----
+______________________________________________________________________
 
-# 62. Competing Attention Interpretations
+## 62. Competing Attention Interpretations
 
 Until native canon resolves the term, preserve possible interpretations as competing models:
 
@@ -2161,9 +2164,9 @@ COMPETING / UNKNOWN/GAP
 
 None may be promoted merely because it resembles standard cognitive or AI terminology.
 
----
+______________________________________________________________________
 
-# 63. Discriminating Evidence
+## 63. Discriminating Evidence
 
 The highest-information missing evidence is:
 
@@ -2197,9 +2200,9 @@ NATIVE ATTENTION DIAGRAM OR EQUATIONS
 NATIVE EXECUTABLE BINDING
 ```
 
----
+______________________________________________________________________
 
-# 64. Attention Proof Capsule
+## 64. Attention Proof Capsule
 
 ```yaml
 attention_proof_capsule:
@@ -2262,9 +2265,9 @@ attention_proof_capsule:
     required
 ```
 
----
+______________________________________________________________________
 
-# 65. Confidence Ceiling
+## 65. Confidence Ceiling
 
 For an attention-derived conclusion:
 
@@ -2290,9 +2293,9 @@ CLAIM = VERIFIED
 
 Attention cannot elevate epistemic class.
 
----
+______________________________________________________________________
 
-# 66. Uncertainty Vector
+## 66. Uncertainty Vector
 
 When material, track separately:
 
@@ -2330,9 +2333,9 @@ PROVENANCE UNCERTAINTY
 PROVENANCE-INDEPENDENCE UNCERTAINTY
 ```
 
----
+______________________________________________________________________
 
-# 67. Sensitivity
+## 67. Sensitivity
 
 For consequential attention decisions, high-sensitivity premises include:
 
@@ -2358,9 +2361,9 @@ IS A HIGH-SALIENCE FEATURE ACTUALLY NONCRITICAL?
 
 The smallest premise capable of changing the outcome should receive validation priority.
 
----
+______________________________________________________________________
 
-# 68. Fragility
+## 68. Fragility
 
 An attention-derived result is fragile if a small change in:
 
@@ -2390,9 +2393,9 @@ CONDITIONAL
 
 until the sensitive premise is resolved.
 
----
+______________________________________________________________________
 
-# 69. Scope Slot
+## 69. Scope Slot
 
 ```yaml
 attention_scope:
@@ -2428,9 +2431,9 @@ attention_scope:
     UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 70. Scope Firewall
+## 70. Scope Firewall
 
 ```text
 ATTENTION MODEL VALID IN DOMAIN A
@@ -2448,9 +2451,9 @@ SELECTION RULE VALID AT SCALE S2
 
 No universal applicability is established.
 
----
+______________________________________________________________________
 
-# 71. Regime Slot
+## 71. Regime Slot
 
 ```yaml
 attention_regime:
@@ -2483,9 +2486,9 @@ attention_regime:
     UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 72. Regime Firewall
+## 72. Regime Firewall
 
 ```text
 ATTENTION RULE @ R1
@@ -2495,9 +2498,9 @@ ATTENTION RULE @ R2
 
 unless cross-regime validity is independently established.
 
----
+______________________________________________________________________
 
-# 73. Temporal Slot
+## 73. Temporal Slot
 
 ```yaml
 attention_temporal_semantics:
@@ -2524,9 +2527,9 @@ attention_temporal_semantics:
     UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 74. Freshness Firewall
+## 74. Freshness Firewall
 
 ```text
 HIGH PRIORITY @ t1
@@ -2544,9 +2547,9 @@ SALIENT @ t2
 
 unless temporal validity includes `t2`.
 
----
+______________________________________________________________________
 
-# 75. Dependency Slot
+## 75. Dependency Slot
 
 ```yaml
 attention_dependencies:
@@ -2585,9 +2588,9 @@ attention_dependencies:
     UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 76. Dependency Firewall
+## 76. Dependency Firewall
 
 ```text
 REFERENCED_BY
@@ -2611,9 +2614,9 @@ STRUCTURAL SIMILARITY
 SEMANTIC IDENTITY
 ```
 
----
+______________________________________________________________________
 
-# 77. Dependency Closure
+## 77. Dependency Closure
 
 For a future attention decision:
 
@@ -2643,9 +2646,9 @@ NOT CURRENTLY LOADED
 NOT RELEVANT
 ```
 
----
+______________________________________________________________________
 
-# 78. Fractal Runtime Binding Target
+## 78. Fractal Runtime Binding Target
 
 A future native Attention Canon may bind attention to the AMOS fractal retrieval pattern:
 
@@ -2675,9 +2678,9 @@ Current relation:
 MODEL / UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 79. Raw-Evidence Firewall
+## 79. Raw-Evidence Firewall
 
 A future attention mechanism may defer raw evidence until required.
 
@@ -2691,9 +2694,9 @@ DO_NOT_VALIDATE WHEN REQUIRED
 
 When raw evidence can change the result, it becomes load-bearing.
 
----
+______________________________________________________________________
 
-# 80. Attention and Adaptive Complexity
+## 80. Attention and Adaptive Complexity
 
 Conceptually, attention could interact with:
 
@@ -2725,9 +2728,9 @@ is:
 NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 81. Local Invalidation
+## 81. Local Invalidation
 
 Suppose a conclusion depends on:
 
@@ -2752,9 +2755,9 @@ Attention should then be reallocated toward the failed dependency and its repair
 
 This final attentional allocation step is conceptual, not recovered native canon.
 
----
+______________________________________________________________________
 
-# 82. Failure Recovery
+## 82. Failure Recovery
 
 ```text
 FAILED PREMISE / EDGE
@@ -2776,9 +2779,9 @@ The selective invalidation and rollback portions are source-supported target dis
 
 The attention-allocation interpretation remains MODEL.
 
----
+______________________________________________________________________
 
-# 83. Attention Repair Principle
+## 83. Attention Repair Principle
 
 Conceptually:
 
@@ -2812,9 +2815,9 @@ REGIME REVALIDATION
 
 This is a governance model, not established native Attention Canon.
 
----
+______________________________________________________________________
 
-# 84. Global-Recompute Firewall
+## 84. Global-Recompute Firewall
 
 ```text
 ONE ATTENDED PREMISE FAILS
@@ -2832,9 +2835,9 @@ ALL ATTENTION STATE MUST BE REBUILT
 
 unless dependencies establish global coupling.
 
----
+______________________________________________________________________
 
-# 85. Persistent Provenance
+## 85. Persistent Provenance
 
 ```yaml
 persistent_attention_provenance:
@@ -2876,9 +2879,9 @@ persistent_attention_provenance:
     required
 ```
 
----
+______________________________________________________________________
 
-# 86. Version Slot
+## 86. Version Slot
 
 ```yaml
 attention_canon_version:
@@ -2905,9 +2908,9 @@ attention_canon_version:
     required
 ```
 
----
+______________________________________________________________________
 
-# 87. Version Firewall
+## 87. Version Firewall
 
 ```text
 ATTENTION CANON v2
@@ -2925,9 +2928,9 @@ AUTOMATICALLY VALID @ v2
 
 Supersession and compatibility require evidence.
 
----
+______________________________________________________________________
 
-# 88. MVCC Concept
+## 88. MVCC Concept
 
 A future implementation may conceptually perform:
 
@@ -2957,9 +2960,9 @@ Implementation:
 NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 89. CAS Concept
+## 89. CAS Concept
 
 Conceptually:
 
@@ -2974,9 +2977,9 @@ NO STALE COMMIT
 
 This is an architectural reasoning model only.
 
----
+______________________________________________________________________
 
-# 90. Atomic Multi-RSCF Attention Concept
+## 90. Atomic Multi-RSCF Attention Concept
 
 A future attention update may conceptually touch:
 
@@ -3006,9 +3009,9 @@ COMPLETE SUCCESS
 
 No literal runtime mechanism is asserted.
 
----
+______________________________________________________________________
 
-# 91. Causal Epoch Concept
+## 91. Causal Epoch Concept
 
 Conceptually:
 
@@ -3028,9 +3031,9 @@ ATTENTION STATE@E+1
 
 The placeholder does not establish causal finality or distributed implementation.
 
----
+______________________________________________________________________
 
-# 92. Proof-Based Coordination Avoidance
+## 92. Proof-Based Coordination Avoidance
 
 A future local attention update may remain local only where dependency closure establishes:
 
@@ -3049,9 +3052,9 @@ REQUIRING REVALIDATION
 
 This is conceptual governance, not an implemented protocol claim.
 
----
+______________________________________________________________________
 
-# 93. Attention Optimization Firewall
+## 93. Attention Optimization Firewall
 
 Optimization MUST NOT weaken:
 
@@ -3079,9 +3082,9 @@ FASTER ATTENTION
 
 is not an acceptable optimization if it hides result-changing evidence.
 
----
+______________________________________________________________________
 
-# 94. Attention Compression Firewall
+## 94. Attention Compression Firewall
 
 ```text
 LESS INFORMATION LOADED
@@ -3097,9 +3100,9 @@ COMPRESSION
 PERMISSION TO DROP LOAD-BEARING PREMISES
 ```
 
----
+______________________________________________________________________
 
-# 95. Attention and Contradiction
+## 95. Attention and Contradiction
 
 A contradiction capable of changing the conclusion must not be suppressed merely because:
 
@@ -3117,9 +3120,9 @@ ONE CLAIM IS LESS FLUENT
 
 Contradiction visibility has integrity priority.
 
----
+______________________________________________________________________
 
-# 96. Attention and Competing Hypotheses
+## 96. Attention and Competing Hypotheses
 
 When incompatible hypotheses have:
 
@@ -3143,9 +3146,9 @@ COMPETING
 
 until discriminating evidence exists.
 
----
+______________________________________________________________________
 
-# 97. Discriminating-Test Principle
+## 97. Discriminating-Test Principle
 
 Conceptually, when attention must choose between gathering more redundant evidence and testing a decisive uncertainty:
 
@@ -3159,9 +3162,9 @@ when the test can materially change the outcome.
 
 This is a reasoning-governance pattern, not recovered native Attention Canon.
 
----
+______________________________________________________________________
 
-# 98. Observability Boundary
+## 98. Observability Boundary
 
 A future observability layer may expose:
 
@@ -3191,9 +3194,9 @@ LOGGED != APPROVED
 
 Therefore observability cannot silently become authority.
 
----
+______________________________________________________________________
 
-# 99. Kernel Boundary
+## 99. Kernel Boundary
 
 ```text
 ATTENTION CANON ARTIFACT EXISTS
@@ -3207,9 +3210,9 @@ Current kernel binding:
 NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 100. Control-Plane Boundary
+## 100. Control-Plane Boundary
 
 The target cross-plane binding references:
 
@@ -3231,9 +3234,9 @@ Current implementation:
 NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 101. Routing Boundary
+## 101. Routing Boundary
 
 The placeholder requires validation receipt reference:
 
@@ -3255,9 +3258,9 @@ or:
 ROUTING POLICY VALIDATED
 ```
 
----
+______________________________________________________________________
 
-# 102. Authorization-Engine Boundary
+## 102. Authorization-Engine Boundary
 
 The placeholder references:
 
@@ -3269,9 +3272,9 @@ Therefore authorization-engine validation is a target promotion dependency.
 
 But neither implementation nor successful validation is established by this placeholder alone.
 
----
+______________________________________________________________________
 
-# 103. Validation Contract
+## 103. Validation Contract
 
 Promotion SHOULD validate:
 
@@ -3333,9 +3336,9 @@ RECEIPTS
 EXECUTABLE BINDING
 ```
 
----
+______________________________________________________________________
 
-# 104. Negative Validation Matrix
+## 104. Negative Validation Matrix
 
 ```text
 MISSING ARTIFACT
@@ -3417,9 +3420,9 @@ MISSING RECEIPT
 COMPETING ATTENTION INTERPRETATION HIDDEN
 ```
 
----
+______________________________________________________________________
 
-# 105. Validation Receipt Target
+## 105. Validation Receipt Target
 
 ```yaml
 amos_attention_canon_validation_receipt:
@@ -3533,9 +3536,9 @@ Current:
 NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 106. Critical Gap — Native Attention Definition
+## 106. Critical Gap — Native Attention Definition
 
 ```yaml
 gap:
@@ -3560,9 +3563,9 @@ gap:
     - native_attention_definition
 ```
 
----
+______________________________________________________________________
 
-# 107. Critical Gap — Attention Object / State
+## 107. Critical Gap — Attention Object / State
 
 ```yaml
 gap:
@@ -3581,9 +3584,9 @@ gap:
     native AMOS attention applies are not established.
 ```
 
----
+______________________________________________________________________
 
-# 108. Critical Gap — Selection
+## 108. Critical Gap — Selection
 
 ```yaml
 gap:
@@ -3602,9 +3605,9 @@ gap:
     performs selection, or how such selection operates.
 ```
 
----
+______________________________________________________________________
 
-# 109. Critical Gap — Salience / Priority
+## 109. Critical Gap — Salience / Priority
 
 ```yaml
 gap:
@@ -3623,9 +3626,9 @@ gap:
     established by the placeholder.
 ```
 
----
+______________________________________________________________________
 
-# 110. Critical Gap — Capacity / Allocation
+## 110. Critical Gap — Capacity / Allocation
 
 ```yaml
 gap:
@@ -3644,9 +3647,9 @@ gap:
     allocation function is established.
 ```
 
----
+______________________________________________________________________
 
-# 111. Critical Gap — Cognition Binding
+## 111. Critical Gap — Cognition Binding
 
 ```yaml
 gap:
@@ -3666,9 +3669,9 @@ gap:
     attention and other AMOS cognition frameworks.
 ```
 
----
+______________________________________________________________________
 
-# 112. Critical Gap — Scope
+## 112. Critical Gap — Scope
 
 ```yaml
 gap:
@@ -3687,9 +3690,9 @@ gap:
     Canon is not established.
 ```
 
----
+______________________________________________________________________
 
-# 113. Critical Gap — Executable Binding
+## 113. Critical Gap — Executable Binding
 
 ```yaml
 gap:
@@ -3708,9 +3711,9 @@ gap:
     mechanism is established.
 ```
 
----
+______________________________________________________________________
 
-# 114. Critical Gap — Validation
+## 114. Critical Gap — Validation
 
 ```yaml
 gap:
@@ -3729,9 +3732,9 @@ gap:
     establishes substantive Attention Canon.
 ```
 
----
+______________________________________________________________________
 
-# 115. Worked Semantics — Salience
+## 115. Worked Semantics — Salience
 
 Suppose information item `X` is highly salient.
 
@@ -3749,9 +3752,9 @@ SALIENCE(X) = HIGH
 
 with epistemic status separately evaluated.
 
----
+______________________________________________________________________
 
-# 116. Worked Semantics — Selection
+## 116. Worked Semantics — Selection
 
 Suppose `X` is selected and `Y` is not.
 
@@ -3771,9 +3774,9 @@ Y = NOT SELECTED
 
 until relevance is independently established.
 
----
+______________________________________________________________________
 
-# 117. Worked Semantics — Low-Salience Dependency
+## 117. Worked Semantics — Low-Salience Dependency
 
 Suppose:
 
@@ -3791,9 +3794,9 @@ P IS LOAD-BEARING
 
 and cannot be discarded merely because it is low-salience.
 
----
+______________________________________________________________________
 
-# 118. Worked Semantics — High-Salience Noise
+## 118. Worked Semantics — High-Salience Noise
 
 Suppose evidence `E1` is highly salient but noncritical.
 
@@ -3809,9 +3812,9 @@ if `E2` is the smallest result-changing uncertainty.
 
 This is an AMOS reasoning-pattern application, not recovered native Attention Canon.
 
----
+______________________________________________________________________
 
-# 119. Worked Semantics — Correlated Sources
+## 119. Worked Semantics — Correlated Sources
 
 Suppose five salient documents all descend from source `S`.
 
@@ -3831,9 +3834,9 @@ FIVE DESCENDANTS
 
 until provenance independence is demonstrated.
 
----
+______________________________________________________________________
 
-# 120. Worked Semantics — Contradiction
+## 120. Worked Semantics — Contradiction
 
 Suppose dominant evidence supports `H1`.
 
@@ -3855,9 +3858,9 @@ ASSESS PROVENANCE
 SEEK DISCRIMINATING EVIDENCE
 ```
 
----
+______________________________________________________________________
 
-# 121. Worked Semantics — Attention vs Authority
+## 121. Worked Semantics — Attention vs Authority
 
 Suppose operation `A` receives highest processing priority.
 
@@ -3882,9 +3885,9 @@ CAPABILITY != AUTHORITY
 
 and attention priority itself grants no authority.
 
----
+______________________________________________________________________
 
-# 122. Worked Semantics — Proposal
+## 122. Worked Semantics — Proposal
 
 Suppose an attention-related canon update produces candidate state `S'`.
 
@@ -3902,9 +3905,9 @@ S'
 
 remains non-authoritative until gates pass.
 
----
+______________________________________________________________________
 
-# 123. Worked Semantics — Unknown Definition
+## 123. Worked Semantics — Unknown Definition
 
 Suppose a downstream artifact says:
 
@@ -3934,9 +3937,9 @@ Not:
 VERIFIED CANON
 ```
 
----
+______________________________________________________________________
 
-# 124. Worked Semantics — Transformer Analogy
+## 124. Worked Semantics — Transformer Analogy
 
 Suppose an AMOS diagram resembles transformer attention.
 
@@ -3958,9 +3961,9 @@ with semantic identity:
 NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 125. Worked Semantics — Human Analogy
+## 125. Worked Semantics — Human Analogy
 
 Suppose AMOS attention resembles selective human attention.
 
@@ -3978,9 +3981,9 @@ CROSS-DOMAIN ANALOGY
 
 unless independently validated.
 
----
+______________________________________________________________________
 
-# 126. Worked Semantics — Regime Shift
+## 126. Worked Semantics — Regime Shift
 
 Suppose an attention rule is valid under regime `R1`.
 
@@ -3994,9 +3997,9 @@ REVALIDATE
 
 rather than silently reusing the rule.
 
----
+______________________________________________________________________
 
-# 127. Worked Semantics — Stale Priority
+## 127. Worked Semantics — Stale Priority
 
 Suppose:
 
@@ -4014,9 +4017,9 @@ PRIORITY(X) = HIGH @ t2
 
 without revalidation.
 
----
+______________________________________________________________________
 
-# 128. Worked Semantics — Adversarial Challenge
+## 128. Worked Semantics — Adversarial Challenge
 
 Primary conclusion:
 
@@ -4056,9 +4059,9 @@ REALLOCATE / DOWNGRADE / PRESERVE COMPETING / UNKNOWN/GAP
 
 as appropriate.
 
----
+______________________________________________________________________
 
-# 129. Cross-Plane Bindings
+## 129. Cross-Plane Bindings
 
 Source-supported governance relation:
 
@@ -4094,9 +4097,9 @@ Target integration points:
 
 These target references do not establish executable bindings.
 
----
+______________________________________________________________________
 
-# 130. Promotion Gate
+## 130. Promotion Gate
 
 Before promotion:
 
@@ -4146,9 +4149,9 @@ Before promotion:
 - [ ] artifact-specific validation receipt executed;
 - [ ] unresolved critical gaps remain visible.
 
----
+______________________________________________________________________
 
-# 131. Current Proof Capsule
+## 131. Current Proof Capsule
 
 ```yaml
 proof_capsule:
@@ -4255,9 +4258,9 @@ proof_capsule:
     false
 ```
 
----
+______________________________________________________________________
 
-# 132. Canonical Knowledge Capsule
+## 132. Canonical Knowledge Capsule
 
 **Class: DERIVED / AMOS_MODEL**
 
@@ -4342,79 +4345,94 @@ NATIVE ATTENTION OBJECT / STATE ONTOLOGY
 =
 UNKNOWN/GAP
 ```
+
 ```text
 NATIVE SELECTION SEMANTICS
 =
 UNKNOWN/GAP
 ```
+
 ```text
 NATIVE SALIENCE SEMANTICS
 =
 UNKNOWN/GAP
 ```
+
 ```text
 NATIVE PRIORITY SEMANTICS
 =
 UNKNOWN/GAP
 ```
+
 ```text
 NATIVE FOCUS / FILTERING SEMANTICS
 =
 UNKNOWN/GAP
 ```
+
 ```text
 NATIVE ALLOCATION / CAPACITY MODEL
 =
 UNKNOWN/GAP
 ```
+
 ```text
 NATIVE COMPETITION / SWITCHING MODEL
 =
 UNKNOWN/GAP
 ```
+
 ```text
 ATTENTION ↔ MEMORY BINDING
 =
 UNKNOWN/GAP
 ```
+
 ```text
 ATTENTION ↔ PERCEPTION BINDING
 =
 UNKNOWN/GAP
 ```
+
 ```text
 ATTENTION ↔ AGENCY BINDING
 =
 UNKNOWN/GAP
 ```
+
 ```text
 ATTENTION ↔ REASONING BINDING
 =
 UNKNOWN/GAP
 ```
+
 ```text
 COGNITION BINDING
 =
 UNKNOWN/GAP
 ```
+
 ```text
 SCOPE / REGIME
 =
 UNKNOWN/GAP
 ```
+
 ```text
 EXECUTABLE BINDING
 =
 NOT_ESTABLISHED
 ```
+
 ```text
 VALIDATION
 =
 NOT_ESTABLISHED
 ```
----
 
-# 133. Final Integrity Rule
+______________________________________________________________________
+
+## 133. Final Integrity Rule
 
 Until verified native content is recovered:
 
@@ -4556,9 +4574,9 @@ EXECUTE RECEIPTS
 PROMOTE ONLY AFTER VALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 134. Canonical Invariants
+## 134. Canonical Invariants
 
 ```text
 INTEGRITY > COMPLETENESS > FLUENCY > SPEED > TOKEN SAVINGS
@@ -4660,9 +4678,9 @@ SALIENCE @ t1 != SALIENCE @ t2
 ONE FAILED ATTENTION PREMISE != ALL KNOWLEDGE INVALID
 ```
 
----
+______________________________________________________________________
 
-# 135. Status Matrix
+## 135. Status Matrix
 
 | Dimension                         | Current status             | Promotion requirement            |
 | --------------------------------- | -------------------------- | -------------------------------- |
@@ -4708,9 +4726,9 @@ ONE FAILED ATTENTION PREMISE != ALL KNOWLEDGE INVALID
 | Artifact validation               | NOT_ESTABLISHED            | executed artifact receipt        |
 | Empirical validity                | NOT_ESTABLISHED            | appropriately typed evidence     |
 
----
+______________________________________________________________________
 
-# 136. Minimum Missing Information
+## 136. Minimum Missing Information
 
 The minimum evidence required to replace the central `UNKNOWN/GAP` is:
 
@@ -4802,15 +4820,15 @@ Without that evidence, substantive completion would violate:
 NEVER_INVENT_CANON
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
 
----
+______________________________________________________________________
 
 RSCF-NODE
 
@@ -4914,11 +4932,11 @@ RSCF-RELATIONS:
 
 - TARGET_VALIDATED_BY: [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]
 
----
+______________________________________________________________________
 
 **MOC:** [[01_CANON/03_COGNITION_CANON/03_COGNITION_CANON_MOC|03_COGNITION_CANON_MOC]]
 
----
+______________________________________________________________________
 
 **Origin Architect / Steward:** Trang Phan
 

@@ -1,10 +1,13 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: AMOS_FULL_BRAIN_OS_ARCHITECTURE
 tags:
-- knowledge
-- full
-- brain
-- architecture
+  - knowledge
+  - full
+  - brain
+  - architecture
 type: note
 source: 11_KNOWLEDGE
 rscf:
@@ -18,7 +21,7 @@ rscf:
 
 ## Full Canonical Content + Extended Tags + RSCF + Obsidian Integration
 
-> [!abstract] Canonical Boundary
+> [!ABSTRACT] Canonical Boundary
 > **Artifact:** `AMOS FULL BRAIN OS ARCHITECTURE`
 > **Type:** `document`
 > **Source plane:** `11_KNOWLEDGE/root`
@@ -29,9 +32,9 @@ rscf:
 > **Primary correction:** the universal linear chain `Kernel → Engine → Agent → Control Plane` is explicitly rejected by the supplied source.
 > **Source boundary:** structures described below are preserved as AMOS corpus architecture. Runtime implementation, cross-artifact containment, exact version precedence, and some bindings remain unresolved unless separately validated.
 
----
+______________________________________________________________________
 
-# 0. Normalized Source Frontmatter — SOURCE
+## 0. Normalized Source Frontmatter — SOURCE
 
 ```yaml
 ---
@@ -54,12 +57,12 @@ rscf:
 ---
 ```
 
-> [!important] Source preservation
+> [!IMPORTANT] Source preservation
 > The source frontmatter above is preserved. Additional tags, aliases, machine-readable architecture fields, equations, proof capsules, Dataview blocks, diagrams, and normalized relation models below are **DERIVED / PROPOSED** unless explicitly present in the supplied corpus.
 
----
+______________________________________________________________________
 
-# 1. Extended Obsidian Frontmatter — DERIVED / PROPOSED
+## 1. Extended Obsidian Frontmatter — DERIVED / PROPOSED
 
 ```yaml
 aliases:
@@ -211,13 +214,13 @@ proposed_metadata:
   ingestion_action: NATIVE_CANON_REFERENCE
 ```
 
----
+______________________________________________________________________
 
-# 2. Artifact Identity
+## 2. Artifact Identity
 
-# AMOS Full Brain OS — Rebuilt Architecture
+## AMOS Full Brain OS — Rebuilt Architecture
 
-> [!info] RSCF-NODE
+> [!INFO] RSCF-NODE
 > **Node ID:** `amos_full_brain_os_architecture`
 > **Node type:** `note`
 > **Path:** `11_KNOWLEDGE/AMOS_Full_Brain_OS_Architecture.md`
@@ -226,9 +229,9 @@ proposed_metadata:
 > **Primary architectural state:** multi-dimensional cognitive operating architecture
 > **Superseded model:** universal linear `Kernel → Engine → Agent → Control Plane`
 
----
+______________________________________________________________________
 
-# 3. Canon Class
+## 3. Canon Class
 
 The source explicitly classifies the architecture as:
 
@@ -260,9 +263,9 @@ UNIVERSAL LINEAR HIERARCHY
 REJECTED
 ```
 
----
+______________________________________________________________________
 
-# 4. Primary Correction
+## 4. Primary Correction
 
 The earlier architecture:
 
@@ -293,9 +296,9 @@ Kernel → Engine → Agent → Control Plane
 Universal AMOS hierarchy
 ```
 
----
+______________________________________________________________________
 
-# 5. The One Picture to Remember — SOURCE
+## 5. The One Picture to Remember — SOURCE
 
 ```text
 HUMAN / ENVIRONMENT
@@ -361,9 +364,9 @@ GAP/INTEGRITY  EXPRESSION GATEWAY  PERSONALITY
               WORLD EFFECT
 ```
 
----
+______________________________________________________________________
 
-# 6. Architecture as Fields, Not a Single Chain
+## 6. Architecture as Fields, Not a Single Chain
 
 The system is better represented as interacting architectural fields:
 
@@ -394,9 +397,9 @@ DEPLOYMENT FIELD
 
 This normalization is **DERIVED** from the supplied architecture.
 
----
+______________________________________________________________________
 
-# 7. Three Large Systems
+## 7. Three Large Systems
 
 The source groups the architecture into three large systems.
 
@@ -422,7 +425,7 @@ routing
 capability
 ```
 
----
+______________________________________________________________________
 
 ## 7.2 AMOS RUNTIME
 
@@ -449,7 +452,7 @@ repairability
 auditability
 ```
 
----
+______________________________________________________________________
 
 ## 7.3 AMOS CONTROL / BODY
 
@@ -473,9 +476,9 @@ transaction control
 world-facing execution
 ```
 
----
+______________________________________________________________________
 
-# 8. Three-System Separation Invariant
+## 8. Three-System Separation Invariant
 
 ```text
 BRAIN
@@ -497,9 +500,9 @@ AUTHORITY
 
 These distinctions are load-bearing.
 
----
+______________________________________________________________________
 
-# 9. Full Brain OS Component Set
+## 9. Full Brain OS Component Set
 
 The source states:
 
@@ -519,9 +522,9 @@ Despite the phrase “five primary components,” the explicit mathematical set 
 
 This is an internal source inconsistency that should remain visible.
 
----
+______________________________________________________________________
 
-# 10. Component-Count Gap
+## 10. Component-Count Gap
 
 Source heading:
 
@@ -566,9 +569,9 @@ SOURCE INCONSISTENCY / DECISION-RELEVANT GAP
 
 Do not silently reduce the set to five.
 
----
+______________________________________________________________________
 
-# 11. Competing Interpretations — Component Count
+## 11. Competing Interpretations — Component Count
 
 ### H1 — `gap_management` is a boundary condition, not counted as a primary component.
 
@@ -586,9 +589,9 @@ COMPETING
 
 No supplied evidence resolves it.
 
----
+______________________________________________________________________
 
-# 12. Brain Core
+## 12. Brain Core
 
 Source definition:
 
@@ -610,9 +613,9 @@ not:
 ONE ENGINE
 ```
 
----
+______________________________________________________________________
 
-# 13. Brain Core Registry
+## 13. Brain Core Registry
 
 The source says Brain Core contains:
 
@@ -663,9 +666,9 @@ The source explicitly instructs:
 preserve variants as distinct
 ```
 
----
+______________________________________________________________________
 
-# 14. Engine Registry Count Boundary
+## 14. Engine Registry Count Boundary
 
 The source calls this a:
 
@@ -687,9 +690,9 @@ COMPLETE ENUMERATION
 NOT PRESENT IN THIS NOTE
 ```
 
----
+______________________________________________________________________
 
-# 15. Brain Core Firewall
+## 15. Brain Core Firewall
 
 ```text
 BRAIN CORE
@@ -709,9 +712,9 @@ ENGINE VARIANT
 SAME OBJECT BY DEFAULT
 ```
 
----
+______________________________________________________________________
 
-# 16. Omni Kernel
+## 16. Omni Kernel
 
 The source emphasizes:
 
@@ -751,9 +754,9 @@ integration_matrix
 evaluation
 ```
 
----
+______________________________________________________________________
 
-# 17. Omni Kernel Runtime Principle
+## 17. Omni Kernel Runtime Principle
 
 Source:
 
@@ -779,9 +782,9 @@ followed by integration.
 
 This aligns with adaptive complexity and smallest sufficient proof scope.
 
----
+______________________________________________________________________
 
-# 18. Omni Kernel Topology
+## 18. Omni Kernel Topology
 
 The source says its integration graph is:
 
@@ -803,9 +806,9 @@ OMNI KERNEL
 PURE LINEAR PIPELINE
 ```
 
----
+______________________________________________________________________
 
-# 19. Omni Kernel — Derived Representation
+## 19. Omni Kernel — Derived Representation
 
 ```mermaid
 flowchart TD
@@ -832,9 +835,9 @@ flowchart TD
 
 This is a visualization, not a claim that the actual internal graph is a simple star topology.
 
----
+______________________________________________________________________
 
-# 20. Omniverse Brain
+## 20. Omniverse Brain
 
 The source defines:
 
@@ -862,9 +865,9 @@ AGENT
 universal structural parent
 ```
 
----
+______________________________________________________________________
 
-# 21. Omniverse Brain — Ten Layers
+## 21. Omniverse Brain — Ten Layers
 
 ## Layer 1 — Foundational Law
 
@@ -876,19 +879,19 @@ QCLS_CORE
 METRIC_OF_INTEGRITY
 ```
 
----
+______________________________________________________________________
 
 ## Layer 2 — Physical & Quantum
 
 Represents physical and quantum substrate/state structures.
 
----
+______________________________________________________________________
 
 ## Layer 3 — Information & Complexity
 
 Represents information, complexity, structural organization.
 
----
+______________________________________________________________________
 
 ## Layer 4 — Biological & Consciousness
 
@@ -901,7 +904,7 @@ EMOTION
 C04
 ```
 
----
+______________________________________________________________________
 
 ## Layer 5 — Social & Institutional
 
@@ -913,7 +916,7 @@ CRISIS
 GOVERNANCE_AND_POLICY
 ```
 
----
+______________________________________________________________________
 
 ## Layer 6 — Planetary & Ecological
 
@@ -925,33 +928,33 @@ TSS_TPE
 RESOURCE / INFRA
 ```
 
----
+______________________________________________________________________
 
 ## Layer 7 — Temporal & Scenario
 
 Represents time, trajectory, scenarios, futures.
 
----
+______________________________________________________________________
 
 ## Layer 8 — Multiverse & Modality
 
 Represents alternative possibility spaces / modalities.
 
----
+______________________________________________________________________
 
 ## Layer 9 — Observer & Perspective
 
 Represents observer-dependent framing/perspective.
 
----
+______________________________________________________________________
 
 ## Layer 10 — Agent & Fabrication
 
 Represents goal-owning agents and fabrication/action structures.
 
----
+______________________________________________________________________
 
-# 22. Multi-Relation Identity
+## 22. Multi-Relation Identity
 
 Source states:
 
@@ -967,9 +970,9 @@ MULTIPLE RELATION TYPES
 
 without duplicating ontology.
 
----
+______________________________________________________________________
 
-# 23. Relation Multiplicity Invariant
+## 23. Relation Multiplicity Invariant
 
 ```text
 CAPABILITY RELATION
@@ -985,9 +988,9 @@ ONE OBJECT
 ONE EDGE
 ```
 
----
+______________________________________________________________________
 
-# 24. Personality
+## 24. Personality
 
 Source:
 
@@ -1011,9 +1014,9 @@ PERSONALITY
 BRAIN CORE DOMAIN ENGINE
 ```
 
----
+______________________________________________________________________
 
-# 25. Expression Translation
+## 25. Expression Translation
 
 The source calls Expression Translation:
 
@@ -1049,9 +1052,9 @@ Expression_Normalise
 LOGIC-READY AMOS INPUT
 ```
 
----
+______________________________________________________________________
 
-# 26. Structural Logic Map Fields
+## 26. Structural Logic Map Fields
 
 The source explicitly names:
 
@@ -1066,9 +1069,9 @@ direction
 
 Thus the expression pipeline maps human-facing expression into a logic-ready internal structure.
 
----
+______________________________________________________________________
 
-# 27. Representation Boundary
+## 27. Representation Boundary
 
 Source:
 
@@ -1080,9 +1083,9 @@ Internal reasoning representation
 
 This is one of the architecture's strongest interface invariants.
 
----
+______________________________________________________________________
 
-# 28. Expression Firewall
+## 28. Expression Firewall
 
 ```text
 RAW LANGUAGE
@@ -1104,9 +1107,9 @@ AUTHORIZED STATE MUTATION
 
 The final rule is consistent with downstream governance separation.
 
----
+______________________________________________________________________
 
-# 29. Gap Management
+## 29. Gap Management
 
 Source:
 
@@ -1120,9 +1123,9 @@ Thus gaps are not merely annotations.
 
 They are an architectural boundary condition.
 
----
+______________________________________________________________________
 
-# 30. Gap Management Invariant
+## 30. Gap Management Invariant
 
 ```text
 KNOWN GAP
@@ -1138,9 +1141,9 @@ MISSING EDGE
 IMPLICIT RELATION
 ```
 
----
+______________________________________________________________________
 
-# 31. Super Mind OS
+## 31. Super Mind OS
 
 The source explicitly says:
 
@@ -1164,9 +1167,9 @@ Emotion
 Consciousness
 ```
 
----
+______________________________________________________________________
 
-# 32. Super Mind Components
+## 32. Super Mind Components
 
 ### Cognition
 
@@ -1186,9 +1189,9 @@ MEGA_HUMAN_ENGINE
 SUPER_CONSCIOUSNESS_Engine_vInfinity
 ```
 
----
+______________________________________________________________________
 
-# 33. Cognition Layers
+## 33. Cognition Layers
 
 The source describes cognition layers:
 
@@ -1201,9 +1204,9 @@ Biological Logic
 Integration
 ```
 
----
+______________________________________________________________________
 
-# 34. Full Brain ↔ Super Mind Relation
+## 34. Full Brain ↔ Super Mind Relation
 
 Source classification:
 
@@ -1231,9 +1234,9 @@ CONTAINMENT
 UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 35. Omega Infinity Stack
+## 35. Omega Infinity Stack
 
 The source defines a separate meta-orchestration plane with five layers:
 
@@ -1257,9 +1260,9 @@ audit
 
 are distinct architectural dimensions.
 
----
+______________________________________________________________________
 
-# 36. Omega Firewall
+## 36. Omega Firewall
 
 ```text
 SYSTEM KERNEL
@@ -1279,9 +1282,9 @@ EXECUTION
 AUDIT
 ```
 
----
+______________________________________________________________________
 
-# 37. AMOS OS Kernel v4.4
+## 37. AMOS OS Kernel v4.4
 
 The source explicitly defines v4.4 as:
 
@@ -1297,9 +1300,9 @@ does NOT overwrite Full Brain OS
 
 This distinction is critical.
 
----
+______________________________________________________________________
 
-# 38. Runtime Loop — SOURCE
+## 38. Runtime Loop — SOURCE
 
 ```text
 Perceive
@@ -1323,9 +1326,9 @@ Audit
 Finalize
 ```
 
----
+______________________________________________________________________
 
-# 39. Kernel v4.4 Ownership
+## 39. Kernel v4.4 Ownership
 
 The source says v4.4 owns:
 
@@ -1341,9 +1344,9 @@ replay
 finalization
 ```
 
----
+______________________________________________________________________
 
-# 40. Runtime / Architecture Firewall
+## 40. Runtime / Architecture Firewall
 
 ```text
 Full Brain OS
@@ -1359,9 +1362,9 @@ RUNTIME IMPLEMENTATION
 ONTOLOGY REPLACEMENT
 ```
 
----
+______________________________________________________________________
 
-# 41. RSCF
+## 41. RSCF
 
 Source:
 
@@ -1377,9 +1380,9 @@ and explicitly:
 not prose
 ```
 
----
+______________________________________________________________________
 
-# 42. RSCF Object Fields
+## 42. RSCF Object Fields
 
 The source lists:
 
@@ -1398,9 +1401,9 @@ falsifiers
 confidence ceiling
 ```
 
----
+______________________________________________________________________
 
-# 43. RSCF State Kinds
+## 43. RSCF State Kinds
 
 Source states:
 
@@ -1415,9 +1418,9 @@ UNKNOWN
 
 These are epistemic object classes/states in the supplied architecture.
 
----
+______________________________________________________________________
 
-# 44. RSCF Invariant
+## 44. RSCF Invariant
 
 ```text
 TEXT DOCUMENT
@@ -1441,9 +1444,9 @@ UNKNOWN
 PASS
 ```
 
----
+______________________________________________________________________
 
-# 45. Infrastructure Control Plane
+## 45. Infrastructure Control Plane
 
 The source places it:
 
@@ -1458,9 +1461,9 @@ and warns:
 do NOT replace Omni Kernel governance
 ```
 
----
+______________________________________________________________________
 
-# 46. Control Plane Responsibilities
+## 46. Control Plane Responsibilities
 
 Source lists:
 
@@ -1475,9 +1478,9 @@ commit
 rollback
 ```
 
----
+______________________________________________________________________
 
-# 47. Omni Governance vs Control Plane
+## 47. Omni Governance vs Control Plane
 
 Source distinction:
 
@@ -1509,9 +1512,9 @@ COGNITIVE GOVERNANCE
 EFFECT GOVERNANCE
 ```
 
----
+______________________________________________________________________
 
-# 48. Authority Gate — SOURCE
+## 48. Authority Gate — SOURCE
 
 The source defines:
 
@@ -1539,9 +1542,9 @@ EffectBound
 EligibleAtCommit
 $$
 
----
+______________________________________________________________________
 
-# 49. Authority Principle
+## 49. Authority Principle
 
 Source:
 
@@ -1559,9 +1562,9 @@ CAPABILITY
 AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 50. Authority Timing
+## 50. Authority Timing
 
 The gate includes:
 
@@ -1573,9 +1576,9 @@ which means authorization cannot safely be inferred only at proposal time.
 
 Eligibility is commit-time relevant.
 
----
+______________________________________________________________________
 
-# 51. Skills Are Deployment Artifacts
+## 51. Skills Are Deployment Artifacts
 
 The source explicitly states:
 
@@ -1584,9 +1587,9 @@ Skills are deployment artifacts,
 not the AMOS ontology
 ```
 
----
+______________________________________________________________________
 
-# 52. Deployment Mapping Boundaries
+## 52. Deployment Mapping Boundaries
 
 ```text
 AMOS Engine
@@ -1604,9 +1607,9 @@ host Agent only partially
 
 This is one of the strongest anti-category-error rules in the architecture.
 
----
+______________________________________________________________________
 
-# 53. Deployment Relation
+## 53. Deployment Relation
 
 ```text
 AMOS OBJECT
@@ -1626,9 +1629,9 @@ not:
 DEFINITION
 ```
 
----
+______________________________________________________________________
 
-# 54. Eight Independent Axes
+## 54. Eight Independent Axes
 
 The source gives eight axes.
 
@@ -1643,7 +1646,7 @@ Brain Core
 Omniverse Brain
 ```
 
----
+______________________________________________________________________
 
 ## Axis 2 — Capability Granularity
 
@@ -1657,7 +1660,7 @@ composite capability
 agent
 ```
 
----
+______________________________________________________________________
 
 ## Axis 3 — Cognitive Mode
 
@@ -1671,7 +1674,7 @@ AUDIT
 MEASURE
 ```
 
----
+______________________________________________________________________
 
 ## Axis 4 — Scale
 
@@ -1681,7 +1684,7 @@ M
 L
 ```
 
----
+______________________________________________________________________
 
 ## Axis 5 — Epistemic State
 
@@ -1696,27 +1699,27 @@ DECISION
 UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 ## Axis 6 — Execution
 
 Concerns execution/runtime location.
 
----
+______________________________________________________________________
 
 ## Axis 7 — Governance
 
 Concerns authority, eligibility, commit, control.
 
----
+______________________________________________________________________
 
 ## Axis 8 — Deployment
 
 Concerns skills, workflows, agents, tools, code, host bindings.
 
----
+______________________________________________________________________
 
-# 55. Axis Independence Principle
+## 55. Axis Independence Principle
 
 ```text
 COGNITIVE ORGANIZATION
@@ -1738,9 +1741,9 @@ COGNITIVE MODE
 
 An object may occupy positions on all axes simultaneously.
 
----
+______________________________________________________________________
 
-# 56. Kernel / Engine / Agent Placement
+## 56. Kernel / Engine / Agent Placement
 
 Source model:
 
@@ -1758,9 +1761,9 @@ Agents
 when goal-ownership / authority / planning / independence required
 ```
 
----
+______________________________________________________________________
 
-# 57. Primitive → Composite → Agent
+## 57. Primitive → Composite → Agent
 
 The source permits a local progression:
 
@@ -1778,9 +1781,9 @@ NOT a universal linear hierarchy
 
 Thus this progression is contextual, not global ontology.
 
----
+______________________________________________________________________
 
-# 58. Agent Activation Condition
+## 58. Agent Activation Condition
 
 Source names conditions:
 
@@ -1793,9 +1796,9 @@ independence
 
 Therefore agents are not necessary for every reasoning operation.
 
----
+______________________________________________________________________
 
-# 59. Agent Firewall
+## 59. Agent Firewall
 
 ```text
 CAPABILITY
@@ -1815,9 +1818,9 @@ AGENT PRESENCE
 REQUIRED FOR ALL TASKS
 ```
 
----
+______________________________________________________________________
 
-# 60. Canon Classification Table — SOURCE
+## 60. Canon Classification Table — SOURCE
 
 | Component                                                     | Status                                 |
 | ------------------------------------------------------------- | -------------------------------------- |
@@ -1832,9 +1835,9 @@ REQUIRED FOR ALL TASKS
 | LLM deployment adapter                                        | Compatible operational extension       |
 | `Kernel → Engine → Agent → Control Plane` universal hierarchy | **REJECTED as inaccurate**             |
 
----
+______________________________________________________________________
 
-# 61. Canonical Status Nuance
+## 61. Canonical Status Nuance
 
 The table calls the Full Brain OS:
 
@@ -1858,9 +1861,9 @@ component count label
 CONFLICTING SOURCE TEXT
 ```
 
----
+______________________________________________________________________
 
-# 62. Unresolved Boundaries — SOURCE
+## 62. Unresolved Boundaries — SOURCE
 
 The note explicitly leaves unresolved:
 
@@ -1874,9 +1877,9 @@ variant engine identities
 canonical supersession across vInfinity and v4.4
 ```
 
----
+______________________________________________________________________
 
-# 63. Boundary Rule
+## 63. Boundary Rule
 
 ```text
 UNRESOLVED EDGE
@@ -1892,9 +1895,9 @@ UNKNOWN / COMPETING / CONDITIONAL
 
 until discriminating source evidence exists.
 
----
+______________________________________________________________________
 
-# 64. Full Brain ↔ Super Mind
+## 64. Full Brain ↔ Super Mind
 
 Known:
 
@@ -1910,9 +1913,9 @@ parent-child direction
 runtime ownership
 ```
 
----
+______________________________________________________________________
 
-# 65. Full Brain ↔ Omega
+## 65. Full Brain ↔ Omega
 
 Known:
 
@@ -1928,17 +1931,17 @@ containment
 supersession
 ```
 
----
+______________________________________________________________________
 
-# 66. Personality ↔ Super Consciousness
+## 66. Personality ↔ Super Consciousness
 
 No canonical edge should be invented.
 
 Possible relation classes remain unresolved.
 
----
+______________________________________________________________________
 
-# 67. Brain Core ↔ v4.4 Kernel
+## 67. Brain Core ↔ v4.4 Kernel
 
 Known:
 
@@ -1956,9 +1959,9 @@ state interface
 ownership precedence
 ```
 
----
+______________________________________________________________________
 
-# 68. Omni Kernel ↔ Control Plane
+## 68. Omni Kernel ↔ Control Plane
 
 Known separation:
 
@@ -1973,9 +1976,9 @@ Unresolved:
 precedence during conflicting decisions
 ```
 
----
+______________________________________________________________________
 
-# 69. Variant Engine Identity
+## 69. Variant Engine Identity
 
 Source explicitly says variants must remain distinct.
 
@@ -1989,9 +1992,9 @@ same canonical identity
 
 until lineage/supersession data establishes equivalence.
 
----
+______________________________________________________________________
 
-# 70. vInfinity ↔ v4.4
+## 70. vInfinity ↔ v4.4
 
 The source warns of unresolved:
 
@@ -2009,9 +2012,9 @@ AUTOMATIC FULL REPLACEMENT
 
 without explicit lineage rules.
 
----
+______________________________________________________________________
 
-# 71. Source Files — SOURCE
+## 71. Source Files — SOURCE
 
 The note names:
 
@@ -2034,9 +2037,9 @@ within the source.
 
 This note itself does not independently verify their current existence or hashes.
 
----
+______________________________________________________________________
 
-# 72. Source File Boundary
+## 72. Source File Boundary
 
 ```text
 PATH LISTED
@@ -2052,9 +2055,9 @@ PATH CONTENT MATCHES SUMMARY
 NOT INDEPENDENTLY CHECKED HERE
 ```
 
----
+______________________________________________________________________
 
-# 73. Supersession Statement — SOURCE
+## 73. Supersession Statement — SOURCE
 
 The note states:
 
@@ -2062,9 +2065,9 @@ The note states:
 
 Therefore this artifact carries a source-defined correction/supersession edge over prior linear framings.
 
----
+______________________________________________________________________
 
-# 74. Supersession Scope
+## 74. Supersession Scope
 
 The source specifically supersedes:
 
@@ -2076,9 +2079,9 @@ It does not necessarily supersede every historical artifact containing the words
 
 Thus supersession scope is targeted.
 
----
+______________________________________________________________________
 
-# 75. Proposed Canonical Supersession Record
+## 75. Proposed Canonical Supersession Record
 
 ```yaml
 supersession:
@@ -2099,9 +2102,9 @@ supersession:
 
 **DERIVED normalization.**
 
----
+______________________________________________________________________
 
-# 76. Architecture Topology — Derived Graph
+## 76. Architecture Topology — Derived Graph
 
 ```mermaid
 flowchart TD
@@ -2146,9 +2149,9 @@ flowchart TD
 
 This reproduces the source's memorable architecture, not every internal relation.
 
----
+______________________________________________________________________
 
-# 77. Structural Tensor — DERIVED
+## 77. Structural Tensor — DERIVED
 
 The architecture can be represented as:
 
@@ -2170,9 +2173,9 @@ reflecting the source's eight independent axes.
 
 This is a derived tensor representation.
 
----
+______________________________________________________________________
 
-# 78. Component Tuple
+## 78. Component Tuple
 
 A useful normalized tuple:
 
@@ -2191,9 +2194,9 @@ $$
 
 Source support: explicit set equation.
 
----
+______________________________________________________________________
 
-# 79. Runtime Tuple
+## 79. Runtime Tuple
 
 Derived from source responsibilities:
 
@@ -2215,9 +2218,9 @@ Finalization
 \rangle
 $$
 
----
+______________________________________________________________________
 
-# 80. Control Tuple
+## 80. Control Tuple
 
 Derived:
 
@@ -2235,9 +2238,9 @@ Rollback
 \rangle
 $$
 
----
+______________________________________________________________________
 
-# 81. Full System Separation
+## 81. Full System Separation
 
 A compact source-grounded architecture:
 
@@ -2255,9 +2258,9 @@ $$
 
 where `⊕` here is a **DERIVED notation** for distinct but integrated architectural planes, not a formal source operator.
 
----
+______________________________________________________________________
 
-# 82. Dynamic Routing Invariant
+## 82. Dynamic Routing Invariant
 
 Source:
 
@@ -2285,9 +2288,9 @@ $$
 
 This formula is **DERIVED**, not source mathematics.
 
----
+______________________________________________________________________
 
-# 83. Minimum Region ≠ Minimal Correctness
+## 83. Minimum Region ≠ Minimal Correctness
 
 The routing objective is not “activate as little as possible regardless of risk.”
 
@@ -2311,9 +2314,9 @@ must not weaken
 INTEGRITY
 ```
 
----
+______________________________________________________________________
 
-# 84. Expression-to-Runtime Path
+## 84. Expression-to-Runtime Path
 
 ```text
 Human expression
@@ -2337,9 +2340,9 @@ Deployment binding
 Effect
 ```
 
----
+______________________________________________________________________
 
-# 85. Cognitive vs Deployment Boundary
+## 85. Cognitive vs Deployment Boundary
 
 The source draws a hard distinction:
 
@@ -2352,9 +2355,9 @@ Host/LLM artifacts
 
 Thus a skill should be treated as a deployment representation of an AMOS object, not the object itself.
 
----
+______________________________________________________________________
 
-# 86. Deployment Examples
+## 86. Deployment Examples
 
 Source lists:
 
@@ -2369,9 +2372,9 @@ memory
 
 These belong to the host/deployment layer.
 
----
+______________________________________________________________________
 
-# 87. Memory Placement Nuance
+## 87. Memory Placement Nuance
 
 The source mentions memory in both:
 
@@ -2395,9 +2398,9 @@ deployment memory substrate
 
 But exact correspondence is not specified.
 
----
+______________________________________________________________________
 
-# 88. Memory Boundary — COMPETING
+## 88. Memory Boundary — COMPETING
 
 ### H1
 
@@ -2417,9 +2420,9 @@ Current status:
 COMPETING / EXPLANATORY GAP
 ```
 
----
+______________________________________________________________________
 
-# 89. Provenance Placement
+## 89. Provenance Placement
 
 Provenance appears in:
 
@@ -2446,9 +2449,9 @@ Control Plane
 
 This separation is **DERIVED**, not explicitly mapped by the source.
 
----
+______________________________________________________________________
 
-# 90. Authority Placement Nuance
+## 90. Authority Placement Nuance
 
 Authority appears both under:
 
@@ -2468,9 +2471,9 @@ Therefore authority is clearly multi-layered.
 
 Exact precedence remains an unresolved boundary.
 
----
+______________________________________________________________________
 
-# 91. Three Governance Domains — DERIVED
+## 91. Three Governance Domains — DERIVED
 
 ```text
 COGNITIVE GOVERNANCE
@@ -2485,9 +2488,9 @@ EFFECT / MUTATION AUTHORIZATION
 
 This is a derived clarification consistent with source descriptions.
 
----
+______________________________________________________________________
 
-# 92. Governance Conflict
+## 92. Governance Conflict
 
 If:
 
@@ -2517,9 +2520,9 @@ KNOWING HOW ≠ BEING PERMITTED
 
 The exact conflict-resolution protocol is still not supplied.
 
----
+______________________________________________________________________
 
-# 93. Proposal vs Commit
+## 93. Proposal vs Commit
 
 Derived from control-plane semantics:
 
@@ -2529,9 +2532,9 @@ COGNITIVE PROPOSAL
 COMMITTED EFFECT
 ```
 
----
+______________________________________________________________________
 
-# 94. Semantic Transaction Boundary
+## 94. Semantic Transaction Boundary
 
 The source names:
 
@@ -2552,9 +2555,9 @@ rollback
 
 Exact implementation is unresolved.
 
----
+______________________________________________________________________
 
-# 95. Read Sets
+## 95. Read Sets
 
 The control/body layer includes:
 
@@ -2566,9 +2569,9 @@ This implies explicit dependency/state observation tracking in effectful operati
 
 Exact semantics are not supplied.
 
----
+______________________________________________________________________
 
-# 96. Commit Eligibility
+## 96. Commit Eligibility
 
 The source gate requires:
 
@@ -2586,9 +2589,9 @@ VALID AT PLAN TIME
 VALID AT COMMIT TIME
 ```
 
----
+______________________________________________________________________
 
-# 97. Fresh Authority
+## 97. Fresh Authority
 
 `FreshAuthority` implies authority has temporal validity.
 
@@ -2600,9 +2603,9 @@ AUTHORIZATION ONCE
 AUTHORIZATION FOREVER
 ```
 
----
+______________________________________________________________________
 
-# 98. Causally Prior Authority
+## 98. Causally Prior Authority
 
 `CausallyPrior` prevents an effect from retroactively authorizing itself.
 
@@ -2614,9 +2617,9 @@ cannot create
 its own prior authority
 ```
 
----
+______________________________________________________________________
 
-# 99. EffectBound
+## 99. EffectBound
 
 Authority must be scoped to the effect.
 
@@ -2630,9 +2633,9 @@ AUTHORITY FOR Y
 
 unless the authority envelope explicitly covers both.
 
----
+______________________________________________________________________
 
-# 100. Full Authority Invariant
+## 100. Full Authority Invariant
 
 $$
 CommitAllowed
@@ -2648,9 +2651,9 @@ $$
 
 Source-defined expression normalized mathematically.
 
----
+______________________________________________________________________
 
-# 101. RSCF Proof Capsule — Architecture
+## 101. RSCF Proof Capsule — Architecture
 
 ```yaml
 proof_capsule:
@@ -2681,9 +2684,9 @@ proof_capsule:
     architecture: CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
-# 102. Proof Capsule — Full Brain Component Set
+## 102. Proof Capsule — Full Brain Component Set
 
 ```yaml
 proof_capsule:
@@ -2706,9 +2709,9 @@ proof_capsule:
     COMPETING_SOURCE_TEXT
 ```
 
----
+______________________________________________________________________
 
-# 103. Proof Capsule — Omni Kernel
+## 103. Proof Capsule — Omni Kernel
 
 ```yaml
 proof_capsule:
@@ -2727,9 +2730,9 @@ proof_capsule:
     - "not run whole brain by default"
 ```
 
----
+______________________________________________________________________
 
-# 104. Proof Capsule — Brain Core
+## 104. Proof Capsule — Brain Core
 
 ```yaml
 proof_capsule:
@@ -2749,9 +2752,9 @@ proof_capsule:
     false
 ```
 
----
+______________________________________________________________________
 
-# 105. Proof Capsule — Omniverse Brain
+## 105. Proof Capsule — Omniverse Brain
 
 ```yaml
 proof_capsule:
@@ -2766,9 +2769,9 @@ proof_capsule:
     - Omniverse Brain section
 ```
 
----
+______________________________________________________________________
 
-# 106. Proof Capsule — Super Mind
+## 106. Proof Capsule — Super Mind
 
 ```yaml
 proof_capsule:
@@ -2785,9 +2788,9 @@ proof_capsule:
     UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 107. Proof Capsule — v4.4 Runtime
+## 107. Proof Capsule — v4.4 Runtime
 
 ```yaml
 proof_capsule:
@@ -2805,9 +2808,9 @@ proof_capsule:
     reasoning_runtime
 ```
 
----
+______________________________________________________________________
 
-# 108. Proof Capsule — Control Plane
+## 108. Proof Capsule — Control Plane
 
 ```yaml
 proof_capsule:
@@ -2823,9 +2826,9 @@ proof_capsule:
     - Infrastructure Control Plane section
 ```
 
----
+______________________________________________________________________
 
-# 109. Proof Capsule — Deployment
+## 109. Proof Capsule — Deployment
 
 ```yaml
 proof_capsule:
@@ -2840,9 +2843,9 @@ proof_capsule:
     - Skills are deployment artifacts section
 ```
 
----
+______________________________________________________________________
 
-# 110. Adversarial Validation
+## 110. Adversarial Validation
 
 Strongest supported conclusion:
 
@@ -2890,9 +2893,9 @@ CONDITIONAL
 
 rather than globally `VERIFIED`.
 
----
+______________________________________________________________________
 
-# 111. Causal Firewall
+## 111. Causal Firewall
 
 The architecture describes functional relationships.
 
@@ -2914,9 +2917,9 @@ ARCHITECTURAL RELATION
 EMPIRICAL CAUSAL LAW
 ```
 
----
+______________________________________________________________________
 
-# 112. Biological Firewall
+## 112. Biological Firewall
 
 Terms such as:
 
@@ -2935,17 +2938,17 @@ occur as AMOS architecture/model constructs.
 
 Their presence does not establish clinical or biological truth.
 
----
+______________________________________________________________________
 
-# 113. “Omniverse” Firewall
+## 113. “Omniverse” Firewall
 
 `Omniverse Brain` is the corpus name of a world/system model.
 
 It should not automatically be read as an empirical claim that AMOS models literally all possible universes.
 
----
+______________________________________________________________________
 
-# 114. “Full Brain” Firewall
+## 114. “Full Brain” Firewall
 
 `Full Brain OS` is an architectural identifier.
 
@@ -2958,9 +2961,9 @@ complete consciousness
 perfect intelligence
 ```
 
----
+______________________________________________________________________
 
-# 115. “Consciousness” Firewall
+## 115. “Consciousness” Firewall
 
 The presence of:
 
@@ -2972,56 +2975,56 @@ is a source-defined module name.
 
 It does not independently establish machine consciousness.
 
----
+______________________________________________________________________
 
-# 116. Anti-Fabrication Contract
+## 116. Anti-Fabrication Contract
 
 Do not claim from this artifact alone that:
 
 1. Full Brain OS has exactly five components without addressing the six-element set.
-2. Full Brain OS has exactly six canonical components without resolving the five-component label.
-3. all 26 Brain Core engines are fully enumerated here.
-4. all 26 engines currently exist in runtime.
-5. every listed source file currently exists.
-6. every listed file has been inspected.
-7. Omni Kernel literally runs as a single executable kernel.
-8. the whole brain is always activated.
-9. Super Mind is contained by Full Brain.
-10. Full Brain is contained by Super Mind.
-11. Omega inherits from Full Brain.
-12. Full Brain inherits from Omega.
-13. Personality is the same as Super Consciousness.
-14. Brain Core is identical to v4.4 OS Kernel.
-15. Omni governance overrides Control Plane.
-16. Control Plane always overrides Omni governance in every semantic domain.
-17. v4.4 supersedes all vInfinity artifacts.
-18. vInfinity supersedes v4.4.
-19. all similarly named engine variants are equivalent.
-20. all agents sit above all engines.
-21. every engine must become an agent.
-22. every kernel must become an engine.
-23. every action necessarily traverses one fixed linear pipeline.
-24. a host skill is an AMOS engine.
-25. a host tool is an AMOS kernel.
-26. a host agent is exactly an AMOS agent.
-27. deployment bindings define AMOS ontology.
-28. graph placement proves containment.
-29. semantic function proves ownership.
-30. source-defined architecture equals runtime implementation.
-31. `CANONICAL` means empirically true.
-32. `SOURCE_CLAIM` means independently verified.
-33. architecture names imply scientific validation.
-34. UBI terms establish clinical truth.
-35. Omniverse implies literal universal completeness.
-36. Super Consciousness proves consciousness.
-37. memory appearing in multiple layers proves duplication.
-38. authority appearing in runtime and control proves contradiction.
-39. gap management authorizes gap filling.
-40. rejected linear hierarchy may continue to be used as canonical simplification.
+1. Full Brain OS has exactly six canonical components without resolving the five-component label.
+1. all 26 Brain Core engines are fully enumerated here.
+1. all 26 engines currently exist in runtime.
+1. every listed source file currently exists.
+1. every listed file has been inspected.
+1. Omni Kernel literally runs as a single executable kernel.
+1. the whole brain is always activated.
+1. Super Mind is contained by Full Brain.
+1. Full Brain is contained by Super Mind.
+1. Omega inherits from Full Brain.
+1. Full Brain inherits from Omega.
+1. Personality is the same as Super Consciousness.
+1. Brain Core is identical to v4.4 OS Kernel.
+1. Omni governance overrides Control Plane.
+1. Control Plane always overrides Omni governance in every semantic domain.
+1. v4.4 supersedes all vInfinity artifacts.
+1. vInfinity supersedes v4.4.
+1. all similarly named engine variants are equivalent.
+1. all agents sit above all engines.
+1. every engine must become an agent.
+1. every kernel must become an engine.
+1. every action necessarily traverses one fixed linear pipeline.
+1. a host skill is an AMOS engine.
+1. a host tool is an AMOS kernel.
+1. a host agent is exactly an AMOS agent.
+1. deployment bindings define AMOS ontology.
+1. graph placement proves containment.
+1. semantic function proves ownership.
+1. source-defined architecture equals runtime implementation.
+1. `CANONICAL` means empirically true.
+1. `SOURCE_CLAIM` means independently verified.
+1. architecture names imply scientific validation.
+1. UBI terms establish clinical truth.
+1. Omniverse implies literal universal completeness.
+1. Super Consciousness proves consciousness.
+1. memory appearing in multiple layers proves duplication.
+1. authority appearing in runtime and control proves contradiction.
+1. gap management authorizes gap filling.
+1. rejected linear hierarchy may continue to be used as canonical simplification.
 
----
+______________________________________________________________________
 
-# 117. Anti-Regression Contract
+## 117. Anti-Regression Contract
 
 ```yaml
 anti_regression:
@@ -3058,9 +3061,9 @@ anti_regression:
     - silently_treating_host_artifacts_as_ontology
 ```
 
----
+______________________________________________________________________
 
-# 118. Critical Gaps
+## 118. Critical Gaps
 
 ```yaml
 gaps:
@@ -3093,9 +3096,9 @@ gaps:
     - diagram styling
 ```
 
----
+______________________________________________________________________
 
-# 119. Cheapest High-Information Validation Path
+## 119. Cheapest High-Information Validation Path
 
 To resolve the most consequential gaps:
 
@@ -3112,9 +3115,9 @@ To resolve the most consequential gaps:
 
 Raw source should only be loaded where the unresolved edge can materially change architecture.
 
----
+______________________________________________________________________
 
-# 120. Sensitivity Analysis
+## 120. Sensitivity Analysis
 
 The architecture changes materially if any of these claims fail:
 
@@ -3129,9 +3132,9 @@ deployment bindings are not ontology definitions.
 
 These are load-bearing.
 
----
+______________________________________________________________________
 
-# 121. Most Important Corrective Invariant
+## 121. Most Important Corrective Invariant
 
 $$
 \boxed{
@@ -3160,9 +3163,9 @@ $$
 
 The second expression is **DERIVED** but accurately captures the supplied correction.
 
----
+______________________________________________________________________
 
-# 122. Source-to-Runtime Stack
+## 122. Source-to-Runtime Stack
 
 ```text
 HUMAN / ENVIRONMENT
@@ -3186,9 +3189,9 @@ WORLD EFFECT
 
 This is a routing picture, not a universal object hierarchy.
 
----
+______________________________________________________________________
 
-# 123. Hierarchy vs Flow
+## 123. Hierarchy vs Flow
 
 A key distinction:
 
@@ -3202,9 +3205,9 @@ The memorable diagram shows a processing/effect path.
 
 It should not be interpreted as proving every upstream object ontologically contains every downstream object.
 
----
+______________________________________________________________________
 
-# 124. Graph Relation Types — PROPOSED
+## 124. Graph Relation Types — PROPOSED
 
 For Obsidian/RSCF modeling:
 
@@ -3226,9 +3229,9 @@ UNKNOWN_RELATION
 
 These relation types are proposed normalization aids.
 
----
+______________________________________________________________________
 
-# 125. Example Typed Relations — DERIVED
+## 125. Example Typed Relations — DERIVED
 
 ```yaml
 relations:
@@ -3265,11 +3268,11 @@ relations:
 
 Not source-native relation syntax.
 
----
+______________________________________________________________________
 
-# 126. Obsidian Dataview — Full Brain Notes
+## 126. Obsidian Dataview — Full Brain Notes
 
-```dataview
+```text
 TABLE
   type,
   source,
@@ -3279,11 +3282,11 @@ FROM #topic/amos-full-brain-os
 SORT file.name ASC
 ```
 
----
+______________________________________________________________________
 
-# 127. Dataview — OS Modules
+## 127. Dataview — OS Modules
 
-```dataview
+```text
 TABLE
   file.mtime AS Updated,
   type,
@@ -3293,11 +3296,11 @@ FROM #canon/os-module
 SORT file.name ASC
 ```
 
----
+______________________________________________________________________
 
-# 128. Dataview — RSCF Source Claims
+## 128. Dataview — RSCF Source Claims
 
-```dataview
+```text
 TABLE
   file.mtime AS Updated,
   source,
@@ -3307,11 +3310,11 @@ FROM #rscf/state/source-claim
 SORT file.name ASC
 ```
 
----
+______________________________________________________________________
 
-# 129. Dataview — Tech-AI Canon
+## 129. Dataview — Tech-AI Canon
 
-```dataview
+```text
 TABLE
   type,
   source,
@@ -3320,9 +3323,9 @@ FROM #canon-group/tech-ai
 SORT file.name ASC
 ```
 
----
+______________________________________________________________________
 
-# 130. Suggested Obsidian Callout — Architecture
+## 130. Suggested Obsidian Callout — Architecture
 
 ```markdown
 > [!important] Architecture Correction
@@ -3331,9 +3334,9 @@ SORT file.name ASC
 > runtime, governance, and deployment axes.
 ```
 
----
+______________________________________________________________________
 
-# 131. Suggested Callout — Deployment
+## 131. Suggested Callout — Deployment
 
 ```markdown
 > [!warning] Deployment Firewall
@@ -3343,9 +3346,9 @@ SORT file.name ASC
 > Deployment bindings are implementations, not ontology definitions.
 ```
 
----
+______________________________________________________________________
 
-# 132. Suggested Callout — Authority
+## 132. Suggested Callout — Authority
 
 ```markdown
 > [!danger] Authority Gate
@@ -3354,9 +3357,9 @@ SORT file.name ASC
 > FreshAuthority ∧ CausallyPrior ∧ EffectBound ∧ EligibleAtCommit.
 ```
 
----
+______________________________________________________________________
 
-# 133. Suggested Callout — Gaps
+## 133. Suggested Callout — Gaps
 
 ```markdown
 > [!caution] Unresolved Architecture Boundaries
@@ -3364,9 +3367,9 @@ SORT file.name ASC
 > supersession edges where the source explicitly leaves them unresolved.
 ```
 
----
+______________________________________________________________________
 
-# 134. Machine-Readable Architecture
+## 134. Machine-Readable Architecture
 
 ```yaml
 AMOS_FULL_BRAIN_OS_ARCHITECTURE:
@@ -3450,9 +3453,9 @@ AMOS_FULL_BRAIN_OS_ARCHITECTURE:
     - deployment
 ```
 
----
+______________________________________________________________________
 
-# 135. Machine-Readable Unresolved Edges
+## 135. Machine-Readable Unresolved Edges
 
 ```yaml
 UNRESOLVED_RELATIONS:
@@ -3480,9 +3483,9 @@ UNRESOLVED_RELATIONS:
     canonical_supersession: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 136. RSCF Contract — DERIVED NORMALIZATION
+## 136. RSCF Contract — DERIVED NORMALIZATION
 
 ```yaml
 RSCF:
@@ -3548,9 +3551,9 @@ RSCF:
     runtime_implementation: NOT_ESTABLISHED_BY_THIS_NOTE
 ```
 
----
+______________________________________________________________________
 
-# 137. RSCF Relations — SOURCE
+## 137. RSCF Relations — SOURCE
 
 ```text
 INDEXED_BY:
@@ -3583,9 +3586,9 @@ AMOS_MODEL
 
 This is a derived reconciliation, not a silent overwrite.
 
----
+______________________________________________________________________
 
-# 138. Epistemic Dual-Layer Normalization
+## 138. Epistemic Dual-Layer Normalization
 
 ```yaml
 epistemic_layers:
@@ -3600,9 +3603,9 @@ epistemic_layers:
     canon_class: CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
-# 139. Source Provenance Graph
+## 139. Source Provenance Graph
 
 ```mermaid
 flowchart TD
@@ -3626,9 +3629,9 @@ flowchart TD
 
 This represents declared source lineage, not independent verification.
 
----
+______________________________________________________________________
 
-# 140. Canon Navigation
+## 140. Canon Navigation
 
 Source:
 
@@ -3649,9 +3652,9 @@ MOC:
 
 ```
 
----
+______________________________________________________________________
 
-# 141. Proposed Related Links
+## 141. Proposed Related Links
 
 For Obsidian integration, likely high-value links include:
 
@@ -3670,9 +3673,9 @@ For Obsidian integration, likely high-value links include:
 
 These are **PROPOSED** unless the exact vault note identities are confirmed.
 
----
+______________________________________________________________________
 
-# 142. Canonical Compression
+## 142. Canonical Compression
 
 The architecture can be compressed as:
 
@@ -3708,9 +3711,9 @@ UniversalHierarchy
 }
 $$
 
----
+______________________________________________________________________
 
-# 143. Full Brain Structural Equation
+## 143. Full Brain Structural Equation
 
 Using source symbols:
 
@@ -3735,9 +3738,9 @@ source heading says "five"
 explicit set contains six
 ```
 
----
+______________________________________________________________________
 
-# 144. Runtime Equation
+## 144. Runtime Equation
 
 Derived from source runtime semantics:
 
@@ -3759,9 +3762,9 @@ $$
 
 This is a **DERIVED composition**, not a supplied runtime equation.
 
----
+______________________________________________________________________
 
-# 145. Commit Equation
+## 145. Commit Equation
 
 Source-grounded authorization predicate:
 
@@ -3779,9 +3782,9 @@ EligibleAtCommit
 }
 $$
 
----
+______________________________________________________________________
 
-# 146. Deployment Equation
+## 146. Deployment Equation
 
 Derived:
 
@@ -3799,9 +3802,9 @@ HostArtifact
 AMOSObject
 $$
 
----
+______________________________________________________________________
 
-# 147. Final Architecture Invariants
+## 147. Final Architecture Invariants
 
 ```text
 FULL BRAIN OS
@@ -3865,9 +3868,9 @@ UNKNOWN EDGE
 PERMISSION TO INVENT
 ```
 
----
+______________________________________________________________________
 
-# 148. Final Canonical Conclusion
+## 148. Final Canonical Conclusion
 
 **AMOS Full Brain OS Architecture** is a source-grounded, **CONDITIONAL** AMOS architecture describing a multi-dimensional cognitive operating system rather than a universal linear `Kernel → Engine → Agent → Control Plane` hierarchy.
 
@@ -4012,9 +4015,9 @@ into\ one\ hierarchy.
 }
 $$
 
----
+______________________________________________________________________
 
-# 149. Source Tags
+## 149. Source Tags
 
 ```text
 #canon-group/tech-ai
@@ -4025,7 +4028,7 @@ $$
 #topic/00-amos-full-brain-os-architecture
 ```
 
-# 150. Extended Tags — PROPOSED
+## 150. Extended Tags — PROPOSED
 
 ```text
 #amos
@@ -4113,9 +4116,9 @@ $$
 #topic/deployment-boundary
 ```
 
----
+______________________________________________________________________
 
-# 151. RSCF-NODE
+## 151. RSCF-NODE
 
 ```text
 RSCF-NODE
@@ -4153,11 +4156,11 @@ RSCF-RELATIONS:
 
 The last five relations are normalized/derived except where directly stated by the source.
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]]
 
----
+______________________________________________________________________
 
 **MOC:** [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]]
 

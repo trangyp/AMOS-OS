@@ -12,16 +12,16 @@ segment: 11_KNOWLEDGE/02_CLAIMS
 artifact_kind: REGISTRY
 path: 11_KNOWLEDGE/02_CLAIMS/CANON_CLAIM_REGISTRY.md
 tags:
-- amos-os
-- knowledge
-- vault
-- 02_claims
-- canon_claim_registry
-- epistemic_claims
-- claim_verification
-- rscf
-- canon_candidate
-- canon/knowledge
+  - amos-os
+  - knowledge
+  - vault
+  - 02_claims
+  - canon_claim_registry
+  - epistemic_claims
+  - claim_verification
+  - rscf
+  - canon_candidate
+  - canon/knowledge
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -36,16 +36,16 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - 01_CANON/01_CORE_LAWS/L0_INTEGRITY
-  - AMOS_CORPUS
+    - 01_CANON/01_CORE_LAWS/L0_INTEGRITY
+    - AMOS_CORPUS
   scope:
-  - KNOWLEDGE_CLAIMS
-  - CANON_CLAIMS
-  - SOURCE_DEFINED_MODEL
+    - KNOWLEDGE_CLAIMS
+    - CANON_CLAIMS
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   claims_moc:
     artifact:
-    - - 02_CLAIMS_MOC
+      -   - 02_CLAIMS_MOC
   rscf_index:
     artifact: 11_KNOWLEDGE/03_RSCF/CANON_RSCF_INDEX
   core_laws:
@@ -63,29 +63,29 @@ epistemic_boundary:
 
 It registers and classifies all formal assertions made across the 01_CANON plane, indexing their epistemic boundaries, proof status, and validation dependencies.
 
----
+______________________________________________________________________
 
-# 1. Registered Canon Claims
+## 1. Registered Canon Claims
 
-| Claim ID | Source Artifact | Claim Statement | Epistemic Class | Status |
-| :--- | :--- | :--- | :--- | :--- |
-| `CLM-CANON-001` | `01_CANON/01_CORE_LAWS/L0_INTEGRITY` | Law of Law: Stability $\iff$ Admissibility under ($\mathcal{C}, \mathcal{E}, \mathcal{F}$) | `AMOS_MODEL` | Grounded |
-| `CLM-CANON-002` | `01_CANON/01_CORE_LAWS/L1_REALITY` | Reality Grounding: Physical substrate invariants cannot be overridden | `OBSERVATION_GROUNDED` | Grounded |
-| `CLM-CANON-003` | `01_CANON/01_CORE_LAWS/L2_COGNITION` | Cognitive Conservatism: Inference must preserve null-state invariants ($S_0$) | `AMOS_MODEL` | Grounded |
-| `CLM-CANON-004` | `01_CANON/01_CORE_LAWS/L3_GOVERNANCE` | Authority Separation: $\text{Capability} \neq \text{Authority}$ | `SYSTEM_INVARIANT` | Grounded |
+| Claim ID        | Source Artifact                       | Claim Statement                                                                            | Epistemic Class        | Status   |
+| :-------------- | :------------------------------------ | :----------------------------------------------------------------------------------------- | :--------------------- | :------- |
+| `CLM-CANON-001` | `01_CANON/01_CORE_LAWS/L0_INTEGRITY`  | Law of Law: Stability $\iff$ Admissibility under ($\mathcal{C}, \mathcal{E}, \mathcal{F}$) | `AMOS_MODEL`           | Grounded |
+| `CLM-CANON-002` | `01_CANON/01_CORE_LAWS/L1_REALITY`    | Reality Grounding: Physical substrate invariants cannot be overridden                      | `OBSERVATION_GROUNDED` | Grounded |
+| `CLM-CANON-003` | `01_CANON/01_CORE_LAWS/L2_COGNITION`  | Cognitive Conservatism: Inference must preserve null-state invariants ($S_0$)              | `AMOS_MODEL`           | Grounded |
+| `CLM-CANON-004` | `01_CANON/01_CORE_LAWS/L3_GOVERNANCE` | Authority Separation: $\text{Capability} \neq \text{Authority}$                            | `SYSTEM_INVARIANT`     | Grounded |
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Claims MOC:** [[11_KNOWLEDGE/02_CLAIMS/02_CLAIMS_MOC|02_CLAIMS_MOC]]
 - **RSCF Proof Index:** `11_KNOWLEDGE/03_RSCF/CANON_RSCF_INDEX`
 - **Canon Plane:** `01_CANON/01_CANON_MOC`
 - **Core Laws:** `01_CANON/01_CORE_LAWS/01_CORE_LAWS_MOC`
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -103,10 +103,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/02_CLAIMS/02_CLAIMS_MOC|02_CLAIMS_MOC]] · `11_KNOWLEDGE/03_RSCF/CANON_RSCF_INDEX` · `01_CANON/01_CANON_MOC`
 
----
-**MOC:** [[11_KNOWLEDGE/02_CLAIMS/02_CLAIMS_MOC|02_CLAIMS_MOC]]
+______________________________________________________________________
 
+**MOC:** [[11_KNOWLEDGE/02_CLAIMS/02_CLAIMS_MOC|02_CLAIMS_MOC]]

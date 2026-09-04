@@ -12,21 +12,21 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: FRAMEWORK
 path: 11_KNOWLEDGE/05_FRAMEWORKS/AMOS_MIND_OS_FRAMEWORK.md
 tags:
-- amos-os
-- knowledge
-- vault
-- 05_frameworks
-- mind_os
-- cognitive_architecture
-- mental_models
-- metacognition
-- rscf
-- canon_candidate
-- canon/knowledge
-- amos-organism-os-framework
-- metacognitive-loop
-- qls-framework
-- ldai-logically-deterministic-ai
+  - amos-os
+  - knowledge
+  - vault
+  - 05_frameworks
+  - mind_os
+  - cognitive_architecture
+  - mental_models
+  - metacognition
+  - rscf
+  - canon_candidate
+  - canon/knowledge
+  - amos-organism-os-framework
+  - metacognitive-loop
+  - qls-framework
+  - ldai-logically-deterministic-ai
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -41,20 +41,20 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - BOOK_THE_99_PCT_MIND_FROM_BRAIN_MYTHS_TO_META_INTEL
-  - AMOS_FULL_BRAIN_OS_ARCHITECTURE
-  - AMOS_CORPUS
+    - BOOK_THE_99_PCT_MIND_FROM_BRAIN_MYTHS_TO_META_INTEL
+    - AMOS_FULL_BRAIN_OS_ARCHITECTURE
+    - AMOS_CORPUS
   scope:
-  - KNOWLEDGE_FRAMEWORKS
-  - COGNITIVE_ARCHITECTURE
-  - SOURCE_DEFINED_MODEL
+    - KNOWLEDGE_FRAMEWORKS
+    - COGNITIVE_ARCHITECTURE
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   organism_os:
     artifact:
-    - - AMOS_ORGANISM_OS_FRAMEWORK
+      -   - AMOS_ORGANISM_OS_FRAMEWORK
   metacognitive_loop:
     artifact:
-    - - METACOGNITIVE_LOOP
+      -   - METACOGNITIVE_LOOP
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
@@ -68,9 +68,9 @@ epistemic_boundary:
 
 It articulates the higher-order cognitive, metacognitive, and reflective architecture of AMOS, governing how the system self-monitors, corrects reasoning errors, and maintains epistemic integrity across long inference tasks.
 
----
+______________________________________________________________________
 
-# 1. Cognitive Architecture
+## 1. Cognitive Architecture
 
 ```text
                ┌────────────────────────────────────────────────────────┐
@@ -84,18 +84,18 @@ METACOGNITIVE MONITORING           HYPOTHESIS MANAGEMENT              EPISTEMIC 
 • Loop detection & interrupt       • Competing hypothesis testing     • Blocks overclaiming
 ```
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Organism OS:** [[11_KNOWLEDGE/05_FRAMEWORKS/AMOS_ORGANISM_OS_FRAMEWORK|AMOS_ORGANISM_OS_FRAMEWORK]]
 - **Metacognitive Loop:** [[11_KNOWLEDGE/05_FRAMEWORKS/METACOGNITIVE_LOOP|METACOGNITIVE_LOOP]]
 - **Full Brain Specs:** `11_KNOWLEDGE/AMOS_FULL_BRAIN_OS_ARCHITECTURE`
 - **Logic Kernel:** [[11_KNOWLEDGE/05_FRAMEWORKS/QLS_FRAMEWORK|QLS_FRAMEWORK]] and [[11_KNOWLEDGE/05_FRAMEWORKS/LDAI_LOGICALLY_DETERMINISTIC_AI|LDAI_LOGICALLY_DETERMINISTIC_AI]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -113,9 +113,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/AMOS_ORGANISM_OS_FRAMEWORK|AMOS_ORGANISM_OS_FRAMEWORK]] · [[11_KNOWLEDGE/05_FRAMEWORKS/METACOGNITIVE_LOOP|METACOGNITIVE_LOOP]] · [[11_KNOWLEDGE/05_FRAMEWORKS/QLS_FRAMEWORK|QLS_FRAMEWORK]]
 
----
+______________________________________________________________________
+
 **MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]

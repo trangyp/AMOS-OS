@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: rscf contract
 type: reference
 source: 07_SKILLS/amos-rscf-epistemic-master/references
 tags:
-- reference
-- amos-rscf-epistemic-master
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-rscf-epistemic-master
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -55,12 +58,12 @@ decision_relevance: low | medium | high
 ## RSCF Invariants
 
 1. Confidence cannot exceed the weakest load-bearing premise without independent revalidation.
-2. Descendants of one source are correlated provenance, not independent confirmation.
-3. Scope, regime, and freshness propagate to dependent claims.
-4. Structural similarity never proves causation.
-5. Equal/incomparable support remains COMPETING.
-6. Failed premises invalidate only dependent descendants.
-7. Framework equations remain MODEL unless independently validated.
+1. Descendants of one source are correlated provenance, not independent confirmation.
+1. Scope, regime, and freshness propagate to dependent claims.
+1. Structural similarity never proves causation.
+1. Equal/incomparable support remains COMPETING.
+1. Failed premises invalidate only dependent descendants.
+1. Framework equations remain MODEL unless independently validated.
 
 ## 6 State Kinds
 
@@ -72,13 +75,15 @@ decision_relevance: low | medium | high
 - **COMPETING**: Equal/incomparable support, no dominant hypothesis.
 - **UNKNOWN/GAP**: Insufficient evidence to classify.
 
----
+______________________________________________________________________
+
 **MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -86,13 +91,14 @@ decision_relevance: low | medium | high
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-rscf-epistemic-master-rscf-contract
 node_type: reference
 path: 07_SKILLS/amos-rscf-epistemic-master/references/rscf_contract.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC
-

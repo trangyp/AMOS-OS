@@ -4,25 +4,23 @@ title: SKILL — Amos Rscf Epistemic Master
 type: skill
 source: 07_SKILLS/amos-rscf-epistemic-master
 name: amos-rscf-epistemic-master
-description: AMOS RSCF Epistemic — claim/class/premises/evidence/provenance/scope/regime/freshness/falsifiers/confidence
-  ceiling. 6 state kinds. Use when epistemic classification, claim assessment, or
-  evidence validation. Do not use for generic tasks outside rscf domain.
+description: AMOS RSCF Epistemic — claim/class/premises/evidence/provenance/scope/regime/freshness/falsifiers/confidence ceiling. 6 state kinds. Use when epistemic classification, claim assessment, or evidence validation. Do not use for generic tasks outside rscf domain.
 parent_skill: none
 domain: rscf
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CANON
 tags:
-- type/skill
-- type/skill
-- domain/rscf-epistemic
-- epistemic/source_claim
-- hml/h
-- epistemic/source_canon
-- amos-os
-- agent-template
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/rscf-epistemic
+  - epistemic/source_claim
+  - hml/h
+  - epistemic/source_canon
+  - amos-os
+  - agent-template
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -32,24 +30,24 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: H
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
-- L7_authority
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
+  - L7_authority
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L7
-- L16
-- L17
-- L18
-- L19
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L7
+  - L16
+  - L17
+  - L18
+  - L19
 license: MIT
 steward: Trang Phan
 ---
@@ -59,9 +57,11 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: rscf. Parent: none. Epistemic class: SOURCE_CANON. H/M/L: H.
+
 ## When to Use
 
 AMOS RSCF Epistemic — claim/class/premises/evidence/provenance/scope/regime/freshness/dependencies/competing hypotheses/falsifiers/confidence ceiling. 6 state kinds: OBSERVATION, SOURCE_CLAIM, DERI...
+
 - When validating outputs against domain constraints and epistemic class
 
 ## Capabilities
@@ -79,14 +79,14 @@ AMOS RSCF Epistemic — claim/class/premises/evidence/provenance/scope/regime/fr
 ## Operations
 
 1. **rscf_episte.classify_claim**: Classify claims using AMOS RSCF Epistemic RSCF state kinds: OBSERVATION, SOURCE_CLAIM, DERIVED, MODEL, DECISION, UNKNOWN.
-2. **rscf_episte.validate_epistemic**: Validate AMOS RSCF Epistemic outputs against epistemic class labels, claim ceiling, falsifier availability, and scope regime.
-3. **rscf_episte.analyze_evidence**: Analyze AMOS RSCF Epistemic evidence: source independence, contradiction status, freshness, and dependency chain.
-4. **rscf_episte.trace_provenance**: Trace AMOS RSCF Epistemic claims to source evidence, derivation chain, epistemic class, and RSCF proof capsule.
-5. **rscf_episte.assess_claim**: Assess AMOS RSCF Epistemic claims for epistemic class, confidence ceiling, competing hypotheses, and falsifier strength.
-6. **rscf_episte.manage_lifecycle**: Manage AMOS RSCF Epistemic RSCF lifecycle: classify, validate, trace, assess, label, and finalize with proof capsule.
-7. **rscf_episte.detect_drift**: Detect epistemic drift: class inflation, ceiling erosion, falsifier neglect, and provenance decay.
-8. **rscf_episte.escalate_gaps**: Escalate AMOS RSCF Epistemic RSCF gaps: flag UNKNOWN/GAP class, downgrade confidence, trigger evidence gathering.
-9. **rscf_episte.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+1. **rscf_episte.validate_epistemic**: Validate AMOS RSCF Epistemic outputs against epistemic class labels, claim ceiling, falsifier availability, and scope regime.
+1. **rscf_episte.analyze_evidence**: Analyze AMOS RSCF Epistemic evidence: source independence, contradiction status, freshness, and dependency chain.
+1. **rscf_episte.trace_provenance**: Trace AMOS RSCF Epistemic claims to source evidence, derivation chain, epistemic class, and RSCF proof capsule.
+1. **rscf_episte.assess_claim**: Assess AMOS RSCF Epistemic claims for epistemic class, confidence ceiling, competing hypotheses, and falsifier strength.
+1. **rscf_episte.manage_lifecycle**: Manage AMOS RSCF Epistemic RSCF lifecycle: classify, validate, trace, assess, label, and finalize with proof capsule.
+1. **rscf_episte.detect_drift**: Detect epistemic drift: class inflation, ceiling erosion, falsifier neglect, and provenance decay.
+1. **rscf_episte.escalate_gaps**: Escalate AMOS RSCF Epistemic RSCF gaps: flag UNKNOWN/GAP class, downgrade confidence, trigger evidence gathering.
+1. **rscf_episte.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## Consolidated Sub-Skills (61)
 
@@ -108,15 +108,17 @@ From C01 Meta Logic: 5 meta-laws, RSCF epistemic substrate. From Cognitive Organ
 **RSCF state kinds**: OBSERVATION, SOURCE_CLAIM, DERIVED, MODEL, DECISION, UNKNOWN.
 
 **5 Meta-laws**:
+
 1. **Law of Law**: no unresolved contradictions within the system
-2. **Rule of 2**: at least 2 independent supports for any claim
-3. **Rule of 4**: check 4 dimensions: scope, regime, evidence, falsifier
-4. **Signal Fidelity Preservation**: no loss of signal fidelity through processing
-5. **Structural Integrity**: system structure must be maintained under stress
+1. **Rule of 2**: at least 2 independent supports for any claim
+1. **Rule of 4**: check 4 dimensions: scope, regime, evidence, falsifier
+1. **Signal Fidelity Preservation**: no loss of signal fidelity through processing
+1. **Structural Integrity**: system structure must be maintained under stress
 
 **RSCF functions**: `compile_claim`, `confidence_ceiling`, `selective_invalidate`
 
 **ProofChecker validation**:
+
 - Scope check: claim is within declared scope
 - Regime check: claim is valid under declared conditions
 - Confidence ceiling: claim confidence does not exceed evidence support
@@ -124,6 +126,7 @@ From C01 Meta Logic: 5 meta-laws, RSCF epistemic substrate. From Cognitive Organ
 - Falsifier check: claim has declared falsifiers
 
 **RSCF laws**:
+
 - `CLAIM != FACT`: a claim is not a fact; it must be labeled with epistemic class
 - `CONFIDENCE <= EVIDENCE`: confidence cannot exceed evidence support
 - `FALSIFIER_REQUIRED`: every claim must declare its falsifier
@@ -133,15 +136,18 @@ From C01 Meta Logic: 5 meta-laws, RSCF epistemic substrate. From Cognitive Organ
 RSCF epistemic master is an epistemic governance framework. It does not prove claims are true, that all falsifiers are known, or that the RSCF framework is complete.
 
 ## 0. Status
+
 Proposed specification replacing placeholder. AMOS_MODEL. Canonical status: CONDITIONAL.
 
 ## 2. Laws
+
 - **KM-1 Typed Storage**: knowledge entries carry type, provenance, confidence, epoch — no untyped dumps as authority.
 - **KM-2 Provenance Preservation**: source ancestry survives every transformation; repeated descendants do not increase independence.
 - **KM-3 Staleness Visibility**: stale entries are marked, not sile
 - AGENT_TEMPLATE
 
----
+______________________________________________________________________
+
 **MOC:** [[07_SKILLS/amos-rscf-epistemic-master/amos-rscf-epistemic-master_MOC|amos-rscf-epistemic-master_MOC]]
 
 ## Examples
@@ -149,7 +155,6 @@ Proposed specification replacing placeholder. AMOS_MODEL. Canonical status: COND
 - **Scenario**: When validating outputs against domain constraints and epistemic class
   - **Input**: A query matching this skill's domain (rscf)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Validation Gates
 
@@ -166,7 +171,6 @@ Proposed specification replacing placeholder. AMOS_MODEL. Canonical status: COND
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `none` — routes to this skill when rscf specialization is needed
@@ -174,7 +178,6 @@ Proposed specification replacing placeholder. AMOS_MODEL. Canonical status: COND
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -193,7 +196,6 @@ Proposed specification replacing placeholder. AMOS_MODEL. Canonical status: COND
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -201,7 +203,6 @@ Proposed specification replacing placeholder. AMOS_MODEL. Canonical status: COND
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -223,11 +224,12 @@ Proposed specification replacing placeholder. AMOS_MODEL. Canonical status: COND
 - `references/rscf_proof_capsule.md` — loaded on demand
 - `references/rscf_state_architecture.md` — loaded on demand
 - `references/validate_rscf.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `none` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `amos-rscf-epistemic-master-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -235,12 +237,14 @@ Proposed specification replacing placeholder. AMOS_MODEL. Canonical status: COND
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-rscf-epistemic-master
 node_type: skill
 path: 07_SKILLS/amos-rscf-epistemic-master/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

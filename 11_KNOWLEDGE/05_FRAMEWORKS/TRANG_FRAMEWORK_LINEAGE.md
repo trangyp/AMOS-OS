@@ -12,20 +12,20 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: LINEAGE
 path: 11_KNOWLEDGE/05_FRAMEWORKS/TRANG_FRAMEWORK_LINEAGE.md
 tags:
-- amos-os
-- knowledge
-- vault
-- 05_frameworks
-- trang_framework_lineage
-- conceptual_lineage
-- ontology_to_engineering
-- rscf
-- canon_candidate
-- canon/knowledge
-- trang-grand-system
-- trang-reality-architecture
-- trang-zero-framework
-- trang-grand-system-codex
+  - amos-os
+  - knowledge
+  - vault
+  - 05_frameworks
+  - trang_framework_lineage
+  - conceptual_lineage
+  - ontology_to_engineering
+  - rscf
+  - canon_candidate
+  - canon/knowledge
+  - trang-grand-system
+  - trang-reality-architecture
+  - trang-zero-framework
+  - trang-grand-system-codex
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -40,23 +40,23 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - TRANG_GRAND_SYSTEM
-  - TRANG_GRAND_SYSTEM_CODEX
-  - AMOS_CORPUS
+    - TRANG_GRAND_SYSTEM
+    - TRANG_GRAND_SYSTEM_CODEX
+    - AMOS_CORPUS
   scope:
-  - KNOWLEDGE_FRAMEWORKS
-  - FRAMEWORK_LINEAGE
-  - SOURCE_DEFINED_MODEL
+    - KNOWLEDGE_FRAMEWORKS
+    - FRAMEWORK_LINEAGE
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   grand_system:
     artifact:
-    - - TRANG_GRAND_SYSTEM
+      -   - TRANG_GRAND_SYSTEM
   reality_architecture:
     artifact:
-    - - TRANG_REALITY_ARCHITECTURE
+      -   - TRANG_REALITY_ARCHITECTURE
   zero_framework:
     artifact:
-    - - TRANG_ZERO_FRAMEWORK
+      -   - TRANG_ZERO_FRAMEWORK
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
@@ -70,9 +70,9 @@ epistemic_boundary:
 
 It maps the systematic transmission of concepts from pre-symbolic ontology ($P \to D \to R \to C \to F \to M$) through structural dynamics (Khung Trang, Cascade, Lacunarity) to computational AI engines (FRAI, LDAI, ASEA) and operating systems (AMOS OS).
 
----
+______________________________________________________________________
 
-# 1. Transmission Graph
+## 1. Transmission Graph
 
 ```text
 PRE-SYMBOLIC ONTOLOGY (Trang Reality, Trang ∅, Null Invariants S_0)
@@ -90,18 +90,18 @@ COMPUTATIONAL ENGINES & COMPILERS (FRAI, LDAI, ASEA, Domain Canon Programming)
 TOTAL ARCHITECTURAL CONVERGENCE (Trang Grand System, AMOS Organism OS)
 ```
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Grand System:** [[11_KNOWLEDGE/05_FRAMEWORKS/TRANG_GRAND_SYSTEM|TRANG_GRAND_SYSTEM]] and [[11_KNOWLEDGE/05_FRAMEWORKS/TRANG_GRAND_SYSTEM_CODEX|TRANG_GRAND_SYSTEM_CODEX]]
 - **Reality Architecture:** [[11_KNOWLEDGE/trang/TRANG_REALITY_ARCHITECTURE|TRANG_REALITY_ARCHITECTURE]]
 - **Zero Framework:** [[01_CANON/02_UNIVERSE_CANON/TRANG_ZERO_FRAMEWORK|TRANG_ZERO_FRAMEWORK]]
 - **Master Registry:** [[11_KNOWLEDGE/05_FRAMEWORKS/TRANG_EQUATION_REGISTRY|TRANG_EQUATION_REGISTRY]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -119,9 +119,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/TRANG_GRAND_SYSTEM|TRANG_GRAND_SYSTEM]] · [[11_KNOWLEDGE/trang/TRANG_REALITY_ARCHITECTURE|TRANG_REALITY_ARCHITECTURE]] · [[01_CANON/02_UNIVERSE_CANON/TRANG_ZERO_FRAMEWORK|TRANG_ZERO_FRAMEWORK]]
 
----
+______________________________________________________________________
+
 **MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]

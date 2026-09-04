@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: adversarial robustness governance
 type: reference
 source: 07_SKILLS/amos-security-safety-master/references
 tags:
-- reference
-- amos-security-safety-master
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-security-safety-master
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -20,10 +23,11 @@ rscf:
 > Source: `_00_Cosmo brain/dated/2026-08-22/2026-08-22 Adversarial Robustness Governance.md`
 > Epistemic class: SOURCE_DERIVED
 
----
-tags: [dated, dated/2026-08-22]
----
-# Adversarial Robustness Governance (Gaps 210-216)
+______________________________________________________________________
+
+## tags: [dated, dated/2026-08-22]
+
+## Adversarial Robustness Governance (Gaps 210-216)
 
 **Date**: 2026-08-22
 **Cluster**: `adversarial_robustness`
@@ -36,15 +40,15 @@ Implemented the Adversarial Robustness governance module for the AMOS OS Kernel,
 
 ## 7 Subsystems
 
-| Gap | Subsystem | Class | Description |
-|-----|-----------|-------|-------------|
-| 210 | AttackSurfaceRegistry | `AttackSurfaceRegistry` | Attack surface registration + exposure scoring |
-| 211 | PerturbationBoundManager | `PerturbationBoundManager` | Perturbation bounds + certification check |
-| 212 | AdversarialTestRunner | `AdversarialTestRunner` | Adversarial test execution + recording |
-| 213 | RobustnessCertifier | `RobustnessCertifier` | Robustness certification + revocation |
-| 214 | DefenseDeployer | `DefenseDeployer` | Defense deployment + tracking |
-| 215 | DistributionalShiftDetector | `DistributionalShiftDetector` | Distributional shift detection |
-| 216 | ModelRobustnessReporter | `ModelRobustnessReporter` | Aggregate robustness reporting |
+| Gap | Subsystem                   | Class                         | Description                                    |
+| --- | --------------------------- | ----------------------------- | ---------------------------------------------- |
+| 210 | AttackSurfaceRegistry       | `AttackSurfaceRegistry`       | Attack surface registration + exposure scoring |
+| 211 | PerturbationBoundManager    | `PerturbationBoundManager`    | Perturbation bounds + certification check      |
+| 212 | AdversarialTestRunner       | `AdversarialTestRunner`       | Adversarial test execution + recording         |
+| 213 | RobustnessCertifier         | `RobustnessCertifier`         | Robustness certification + revocation          |
+| 214 | DefenseDeployer             | `DefenseDeployer`             | Defense deployment + tracking                  |
+| 215 | DistributionalShiftDetector | `DistributionalShiftDetector` | Distributional shift detection                 |
+| 216 | ModelRobustnessReporter     | `ModelRobustnessReporter`     | Aggregate robustness reporting                 |
 
 ## Key Algorithms
 
@@ -61,13 +65,13 @@ Implemented the Adversarial Robustness governance module for the AMOS OS Kernel,
 
 5 advisory post-execution gates (CONDITIONAL, not FAIL):
 
-| Gate Name | Condition for CONDITIONAL |
-|-----------|--------------------------|
-| adv-robustness-unmitigated-surfaces | Unmitigated surfaces with exposure > 0.7 |
+| Gate Name                            | Condition for CONDITIONAL                |
+| ------------------------------------ | ---------------------------------------- |
+| adv-robustness-unmitigated-surfaces  | Unmitigated surfaces with exposure > 0.7 |
 | adv-robustness-perturbation-failures | Any perturbation bound that doesn't hold |
-| adv-robustness-high-attack-success | Attack success rate > 30% |
-| adv-robustness-distributional-shift | Detected distributional shifts exist |
-| adv-robustness-low-robustness | Any model with overall_robustness < 0.5 |
+| adv-robustness-high-attack-success   | Attack success rate > 30%                |
+| adv-robustness-distributional-shift  | Detected distributional shifts exist     |
+| adv-robustness-low-robustness        | Any model with overall_robustness < 0.5  |
 
 ## Files Modified
 
@@ -95,9 +99,9 @@ Implemented the Adversarial Robustness governance module for the AMOS OS Kernel,
 
 #adversarial-robustness #governance #gaps-210-216 #closed #amos-os-kernel
 
----
-**MOC:** references_MOC
----
+______________________________________________________________________
+
+## **MOC:** references_MOC
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -105,12 +109,14 @@ Implemented the Adversarial Robustness governance module for the AMOS OS Kernel,
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-security-safety-master-adversarial-robustness-governance
 node_type: reference
 path: 07_SKILLS/amos-security-safety-master/references/adversarial_robustness_governance.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

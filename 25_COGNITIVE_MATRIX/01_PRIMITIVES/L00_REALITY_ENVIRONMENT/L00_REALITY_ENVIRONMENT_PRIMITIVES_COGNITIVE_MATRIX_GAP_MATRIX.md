@@ -1,14 +1,17 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: L00_REALITY_ENVIRONMENT — Gap Matrix
 type: gap
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT
 tags:
-- cognitive-matrix
-- primitives
-- matrix/l00-reality-environment
-- note
-- domain/cognitive-matrix
-- amos-simulation-kernel-v0-math-foundations
+  - cognitive-matrix
+  - primitives
+  - matrix/l00-reality-environment
+  - note
+  - domain/cognitive-matrix
+  - amos-simulation-kernel-v0-math-foundations
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -22,9 +25,9 @@ rscf:
 **Origin architect / steward:** Trang Phan
 **Status:** `ARCHITECTURE CONTRACT / IMPLEMENTATION-DEPENDENT`
 
----
+______________________________________________________________________
 
-# 1. Purpose
+## 1. Purpose
 
 `L00_REALITY_ENVIRONMENT / GAP_MATRIX` defines the AMOS architecture for detecting, representing, ranking, propagating, resolving, validating, and preserving unresolved gaps in the Reality Environment layer.
 
@@ -64,22 +67,19 @@ The Gap Matrix is not a checklist that converts unknown states into apparent com
 
 Its purpose is to make incompleteness explicit, typed, dependency-aware, provenance-aware, and actionable.
 
----
+______________________________________________________________________
 
-# 2. Fundamental Gap Principle
+## 2. Fundamental Gap Principle
 
 A gap exists whenever required structure exceeds established structure.
 
-[
-\boxed{
-Gap
-===
+## \[ \\boxed{ Gap
 
 ## Required
 
 Established
 }
-]
+\]
 
 where `Established` means supported at the required epistemic and implementation level.
 
@@ -95,18 +95,15 @@ IMPLEMENTED != VALIDATED
 VALIDATED LOCALLY != VALIDATED GLOBALLY
 ```
 
----
+______________________________________________________________________
 
-# 3. Gap Tensor
+## 3. Gap Tensor
 
 Every material gap should be representable as:
 
-[
-\boxed{
-T_{Gap}
-=======
+## \[ \\boxed{ T\_{Gap}
 
-T[
+T\[
 gap_id,
 target,
 requirement,
@@ -129,13 +126,13 @@ repairability,
 closure_criteria,
 validator,
 status
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 4. Gap State Machine
+## 4. Gap State Machine
 
 Canonical states:
 
@@ -174,9 +171,9 @@ IRRECOVERABLE
 NOT_APPLICABLE
 ```
 
----
+______________________________________________________________________
 
-# 5. Gap Classes
+## 5. Gap Classes
 
 AMOS uses four primary decision classes:
 
@@ -189,8 +186,8 @@ COSMETIC
 
 Priority relation:
 
-[
-\boxed{
+\[
+\\boxed{
 CRITICAL
 
 >
@@ -205,13 +202,13 @@ EXPLANATORY
 
 COSMETIC
 }
-]
+\]
 
 This is a governance ordering, not a claim that every gap can be represented by one universal scalar.
 
----
+______________________________________________________________________
 
-# 6. Critical Gap
+## 6. Critical Gap
 
 A `CRITICAL` gap removes a load-bearing condition required for safe or valid continuation.
 
@@ -230,19 +227,19 @@ unresolved identity of action target
 
 Hard rule:
 
-[
-\boxed{
+\[
+\\boxed{
 CriticalGap
-\land
+\\land
 LoadBearing
-\Rightarrow
+\\Rightarrow
 FinalizationEligible=FALSE
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 7. Decision-Relevant Gap
+## 7. Decision-Relevant Gap
 
 A `DECISION_RELEVANT` gap can change:
 
@@ -259,19 +256,19 @@ governance state
 
 Formally:
 
-[
-\boxed{
+\[
+\\boxed{
 DecisionRelevant(g)
-\iff
+\\iff
 Resolve(g)
-\text{ may change }
+\\text{ may change }
 Decision
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 8. Explanatory Gap
+## 8. Explanatory Gap
 
 An `EXPLANATORY` gap affects understanding but does not currently change the decision.
 
@@ -286,9 +283,9 @@ incomplete descriptive metadata
 
 It remains visible but need not block action.
 
----
+______________________________________________________________________
 
-# 9. Cosmetic Gap
+## 9. Cosmetic Gap
 
 A `COSMETIC` gap affects presentation or organization without changing meaning, validity, governance, or action.
 
@@ -304,9 +301,9 @@ optional cross-link
 
 Cosmetic gaps must never consume resources ahead of critical gaps.
 
----
+______________________________________________________________________
 
-# 10. Gap Type Registry
+## 10. Gap Type Registry
 
 Gap type is separate from gap priority.
 
@@ -351,9 +348,9 @@ GOVERNANCE_GAP
 DOCUMENTATION_GAP
 ```
 
----
+______________________________________________________________________
 
-# 11. Priority and Type Must Remain Distinct
+## 11. Priority and Type Must Remain Distinct
 
 Example:
 
@@ -375,18 +372,15 @@ Therefore:
 GAP TYPE != GAP PRIORITY
 ```
 
----
+______________________________________________________________________
 
-# 12. Gap Matrix Tensor
+## 12. Gap Matrix Tensor
 
 The complete matrix can be represented as:
 
-[
-\boxed{
-M_G
-===
+## \[ \\boxed{ M_G
 
-T[
+T\[
 component,
 requirement,
 declared,
@@ -403,22 +397,19 @@ gap_type,
 gap_priority,
 closure_criteria,
 status
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 13. Architectural Completion Vector
+## 13. Architectural Completion Vector
 
 For component (x):
 
-[
-\boxed{
-C_x
-===
+## \[ \\boxed{ C_x
 
-[
+\[
 D,
 S,
 I,
@@ -436,9 +427,9 @@ E,
 Pr,
 F,
 R
-]
+\]
 }
-]
+\]
 
 where:
 
@@ -464,48 +455,42 @@ R   = repair/recovery
 
 A component is structurally incomplete when required coordinates are unresolved.
 
----
+______________________________________________________________________
 
-# 14. Completion Is Multi-Dimensional
+## 14. Completion Is Multi-Dimensional
 
 AMOS does not define completeness as:
 
-[
+\[
 Complete(x)=Exists(x)
-]
+\]
 
 Instead:
 
-[
-\boxed{
-Complete(x)
-===========
+## \[ \\boxed{ Complete(x)
 
 StructuralClosure
-\land
+\\land
 DependencyClosure
-\land
+\\land
 EpistemicClosure
-\land
+\\land
 ValidationClosure
 }
-]
+\]
 
 for the declared scope.
 
----
+______________________________________________________________________
 
-# 15. Structural Closure
+## 15. Structural Closure
 
-[
-\boxed{
-StructuralClosure(x)
-====================
+## \[ \\boxed{ StructuralClosure(x)
 
-\bigwedge_{r\in RequiredStructure(x)}
+\\bigwedge\_{r\\in RequiredStructure(x)}
 Resolved(r)
 }
-]
+\]
 
 Required structure may include:
 
@@ -520,67 +505,58 @@ interfaces
 failure handling
 ```
 
----
+______________________________________________________________________
 
-# 16. Dependency Closure
+## 16. Dependency Closure
 
-[
-\boxed{
-DependencyClosure(x)
-====================
+## \[ \\boxed{ DependencyClosure(x)
 
-\forall d\in LoadBearingDependencies(x):
+\\forall d\\in LoadBearingDependencies(x):
 Valid(d)
 }
-]
+\]
 
 A component cannot become more valid than unresolved load-bearing dependencies permit.
 
----
+______________________________________________________________________
 
-# 17. Epistemic Closure
+## 17. Epistemic Closure
 
-[
-\boxed{
-EpistemicClosure(x)
-===================
+## \[ \\boxed{ EpistemicClosure(x)
 
 ClaimsTyped
-\land
+\\land
 EvidenceBound
-\land
+\\land
 ProvenanceRecoverable
-\land
+\\land
 ScopeKnown
-\land
+\\land
 RegimeKnown
 }
-]
+\]
 
 where required.
 
----
+______________________________________________________________________
 
-# 18. Validation Closure
+## 18. Validation Closure
 
-[
-\boxed{
-ValidationClosure(x)
-====================
+## \[ \\boxed{ ValidationClosure(x)
 
 RequiredTestsExecuted
-\land
+\\land
 HardInvariantsPass
-\land
+\\land
 CriticalFalsifiersChecked
 }
-]
+\]
 
 A design document cannot satisfy runtime validation closure by declaration.
 
----
+______________________________________________________________________
 
-# 19. Completion Levels
+## 19. Completion Levels
 
 AMOS should distinguish:
 
@@ -599,41 +575,41 @@ L9 GOVERNED_OPERATIONAL
 
 These states must not be collapsed.
 
----
+______________________________________________________________________
 
-# 20. Completion Ordering
+## 20. Completion Ordering
 
 Conceptually:
 
-[
-\boxed{
+\[
+\\boxed{
 ABSENT
-<
+\<
 PLACEHOLDER
-<
+\<
 DECLARED
-<
+\<
 SPECIFIED
-<
+\<
 ADDRESSABLE
-<
+\<
 IMPLEMENTED
-<
+\<
 TESTED
-<
+\<
 VALIDATED
-<
+\<
 DEPLOYMENT_VALIDATED
-<
+\<
 GOVERNED_OPERATIONAL
 }
-]
+\]
 
 Higher states require evidence appropriate to that state.
 
----
+______________________________________________________________________
 
-# 21. Placeholder Gap
+## 21. Placeholder Gap
 
 A placeholder establishes addressability but not completion.
 
@@ -655,9 +631,9 @@ authority
 deployment readiness
 ```
 
----
+______________________________________________________________________
 
-# 22. Addressability Gap
+## 22. Addressability Gap
 
 A component may be addressable by:
 
@@ -677,37 +653,31 @@ Hard invariant:
 ADDRESSABLE != IMPLEMENTED
 ```
 
----
+______________________________________________________________________
 
-# 23. Implementation Gap
+## 23. Implementation Gap
 
-[
-\boxed{
-ImplementationGap(x)
-====================
+## \[ \\boxed{ ImplementationGap(x)
 
 Specified(x)
-\land
-\neg ExecutableImplementationEvidence(x)
+\\land
+\\neg ExecutableImplementationEvidence(x)
 }
-]
+\]
 
 Documentation claiming implementation is not sufficient runtime evidence.
 
----
+______________________________________________________________________
 
-# 24. Validation Gap
+## 24. Validation Gap
 
-[
-\boxed{
-ValidationGap(x)
-================
+## \[ \\boxed{ ValidationGap(x)
 
 Implemented(x)
-\land
-\neg RequiredValidation(x)
+\\land
+\\neg RequiredValidation(x)
 }
-]
+\]
 
 Hard invariant:
 
@@ -715,60 +685,51 @@ Hard invariant:
 IMPLEMENTED != VALIDATED
 ```
 
----
+______________________________________________________________________
 
-# 25. Deployment Gap
+## 25. Deployment Gap
 
-[
-\boxed{
-DeploymentGap(x)
-================
+## \[ \\boxed{ DeploymentGap(x)
 
 Validated(x)
-\land
-\neg DeploymentEvidence(x)
+\\land
+\\neg DeploymentEvidence(x)
 }
-]
+\]
 
 Simulation-only validation cannot independently close a deployed-behavior gap.
 
----
+______________________________________________________________________
 
-# 26. Reality-Contact Gap
+## 26. Reality-Contact Gap
 
 For claims requiring external observation:
 
-[
-\boxed{
-RealityContactGap
-=================
+## \[ \\boxed{ RealityContactGap
 
 RequiredExternalObservation
-\land
-\neg RealityContact
+\\land
+\\neg RealityContact
 }
-]
+\]
 
 with:
 
-[
-\boxed{
-RealityContact
-==============
+## \[ \\boxed{ RealityContact
 
 ExternalObservationPresent
-\land
+\\land
 MeasurementMethodKnown
-\land
+\\land
 ProvenanceRecoverable
-\land
+\\land
 RegimeCompatible
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 27. Representation Gap
+## 27. Representation Gap
 
 Representation gap exists when internal state cannot adequately encode a required external distinction.
 
@@ -784,43 +745,37 @@ missing representation class
 missing validation state
 ```
 
----
+______________________________________________________________________
 
-# 28. Fidelity Gap
+## 28. Fidelity Gap
 
 Define:
 
-[
-\boxed{
-Fidelity
-========
+## \[ \\boxed{ Fidelity
 
 ValidatedVariables
-\cap
+\\cap
 ValidatedRegimes
-\cap
+\\cap
 ValidatedTimeWindow
-\cap
+\\cap
 ValidatedMeasurementMethods
 }
-]
+\]
 
 A fidelity gap exists when a required claim lies outside this validated envelope.
 
----
+______________________________________________________________________
 
-# 29. Evidence Gap
+## 29. Evidence Gap
 
-[
-\boxed{
-EvidenceGap(C)
-==============
+## \[ \\boxed{ EvidenceGap(C)
 
 ## RequiredEvidence(C)
 
 AvailableValidEvidence(C)
 }
-]
+\]
 
 Evidence quantity alone does not close this gap.
 
@@ -838,20 +793,17 @@ independence
 
 requirements.
 
----
+______________________________________________________________________
 
-# 30. Provenance Gap
+## 30. Provenance Gap
 
-[
-\boxed{
-ProvenanceGap(E)
-================
+## \[ \\boxed{ ProvenanceGap(E)
 
 RequiredAncestry(E)
-\land
-\neg RecoverableAncestry(E)
+\\land
+\\neg RecoverableAncestry(E)
 }
-]
+\]
 
 Unknown provenance may require:
 
@@ -864,9 +816,9 @@ REJECT
 
 depending on consequence.
 
----
+______________________________________________________________________
 
-# 31. Independence Gap
+## 31. Independence Gap
 
 If multiple evidence objects exist but their ancestry relationship is unresolved:
 
@@ -886,20 +838,17 @@ Hard invariant:
 UNKNOWN ANCESTRY != INDEPENDENCE
 ```
 
----
+______________________________________________________________________
 
-# 32. Scope Gap
+## 32. Scope Gap
 
-[
-\boxed{
-ScopeGap(C)
-===========
+## \[ \\boxed{ ScopeGap(C)
 
 ## RequiredScope(C)
 
 ValidatedScope(C)
 }
-]
+\]
 
 Examples:
 
@@ -910,45 +859,39 @@ one environment -> all environments
 one runtime -> all runtimes
 ```
 
----
+______________________________________________________________________
 
-# 33. Regime Gap
+## 33. Regime Gap
 
-[
-\boxed{
-RegimeGap(C)
-============
+## \[ \\boxed{ RegimeGap(C)
 
 ## RequiredRegime(C)
 
 ValidatedRegime(C)
 }
-]
+\]
 
 A conclusion valid in one operating regime does not automatically transfer to another.
 
----
+______________________________________________________________________
 
-# 34. Freshness Gap
+## 34. Freshness Gap
 
-[
-\boxed{
-FreshnessGap(C)
-===============
+## \[ \\boxed{ FreshnessGap(C)
 
 RequiredCurrentState(C)
-\land
+\\land
 Stale(Evidence(C))
 }
-]
+\]
 
 Freshness is claim-relative.
 
 A historical fact and mutable authorization state have different freshness requirements.
 
----
+______________________________________________________________________
 
-# 35. Temporal Gap
+## 35. Temporal Gap
 
 Temporal gaps include:
 
@@ -962,9 +905,9 @@ missing expiration
 missing version epoch
 ```
 
----
+______________________________________________________________________
 
-# 36. Causal Gap
+## 36. Causal Gap
 
 A causal gap exists when a causal conclusion exceeds the available evidence class.
 
@@ -984,26 +927,23 @@ Hard invariant:
 STRUCTURAL SIMILARITY != CAUSAL EVIDENCE
 ```
 
----
+______________________________________________________________________
 
-# 37. Dependency Gap
+## 37. Dependency Gap
 
-[
-\boxed{
-DependencyGap(x)
-================
+## \[ \\boxed{ DependencyGap(x)
 
 ## RequiredDependencies(x)
 
 ResolvedDependencies(x)
 }
-]
+\]
 
 A hidden dependency is still a gap even when no failure has yet occurred.
 
----
+______________________________________________________________________
 
-# 38. Boundary Gap
+## 38. Boundary Gap
 
 Boundary gaps include missing definitions for:
 
@@ -1018,20 +958,17 @@ what may cross authority
 what may cross tenant
 ```
 
----
+______________________________________________________________________
 
-# 39. Authority Gap
+## 39. Authority Gap
 
-[
-\boxed{
-AuthorityGap(a)
-===============
+## \[ \\boxed{ AuthorityGap(a)
 
 RequiredAuthority(a)
-\land
-\neg ValidAuthorityWitness(a)
+\\land
+\\neg ValidAuthorityWitness(a)
 }
-]
+\]
 
 Hard invariant:
 
@@ -1041,22 +978,19 @@ CAPABILITY != AUTHORITY
 
 An agent capable of performing an action does not thereby have permission.
 
----
+______________________________________________________________________
 
-# 40. Commit Gap
+## 40. Commit Gap
 
 A proposal may be valid while commit eligibility remains unresolved.
 
-[
-\boxed{
-CommitGap
-=========
+## \[ \\boxed{ CommitGap
 
 ProposalReady
-\land
-\neg CommitEligible
+\\land
+\\neg CommitEligible
 }
-]
+\]
 
 Hard invariant:
 
@@ -1064,9 +998,9 @@ Hard invariant:
 PROPOSAL != COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 41. Observability Gap
+## 41. Observability Gap
 
 A component has an observability gap when required internal or external state cannot be inspected sufficiently to validate behavior.
 
@@ -1081,20 +1015,17 @@ missing external effect observation
 missing provenance
 ```
 
----
+______________________________________________________________________
 
-# 42. Effect-Validation Gap
+## 42. Effect-Validation Gap
 
-[
-\boxed{
-EffectGap
-=========
+## \[ \\boxed{ EffectGap
 
 ActionExecuted
-\land
-\neg RequiredEffectObserved
+\\land
+\\neg RequiredEffectObserved
 }
-]
+\]
 
 Hard invariant:
 
@@ -1102,9 +1033,9 @@ Hard invariant:
 ACTION SUCCESS != EFFECT SUCCESS
 ```
 
----
+______________________________________________________________________
 
-# 43. Feedback Gap
+## 43. Feedback Gap
 
 A feedback gap exists when observed outcomes cannot update the state that generated them.
 
@@ -1118,45 +1049,39 @@ OUTCOME
 
 This creates an open-loop architecture.
 
----
+______________________________________________________________________
 
-# 44. Repair Gap
+## 44. Repair Gap
 
-[
-\boxed{
-RepairGap(f)
-============
+## \[ \\boxed{ RepairGap(f)
 
 FailureKnown
-\land
-\neg ValidRepairPath(f)
+\\land
+\\neg ValidRepairPath(f)
 }
-]
+\]
 
 A known failure without a bounded repair or escalation path remains structurally incomplete.
 
----
+______________________________________________________________________
 
-# 45. Rollback Gap
+## 45. Rollback Gap
 
 For reversible-action requirements:
 
-[
-\boxed{
-RollbackGap
-===========
+## \[ \\boxed{ RollbackGap
 
 RollbackRequired
-\land
-\neg ValidRollback
+\\land
+\\neg ValidRollback
 }
-]
+\]
 
 This may become critical for high-consequence actions.
 
----
+______________________________________________________________________
 
-# 46. Falsifier Gap
+## 46. Falsifier Gap
 
 A claim that requires empirical falsifiability but has no defined invalidation condition carries a falsifier gap.
 
@@ -1168,20 +1093,17 @@ NO POSSIBLE INVALIDATION CONDITION
 
 must not automatically be treated as ordinary empirical knowledge.
 
----
+______________________________________________________________________
 
-# 47. Test Gap
+## 47. Test Gap
 
-[
-\boxed{
-TestGap(x)
-==========
+## \[ \\boxed{ TestGap(x)
 
 ## RequiredTests(x)
 
 ExecutedValidTests(x)
 }
-]
+\]
 
 Test existence is distinct from test execution.
 
@@ -1189,9 +1111,9 @@ Test existence is distinct from test execution.
 TEST DEFINED != TEST EXECUTED
 ```
 
----
+______________________________________________________________________
 
-# 48. Validator Gap
+## 48. Validator Gap
 
 A validator gap occurs when a required pass/fail condition exists but no trusted validator is available.
 
@@ -1205,16 +1127,13 @@ validator shares invalid assumptions
 validator lacks authority
 ```
 
----
+______________________________________________________________________
 
-# 49. H/M/L Gap Tensor
+## 49. H/M/L Gap Tensor
 
-[
-\boxed{
-T_{HMLGap}
-==========
+## \[ \\boxed{ T\_{HMLGap}
 
-T[
+T\[
 gap,
 H_state,
 M_state,
@@ -1223,13 +1142,13 @@ upward_dependency,
 downward_constraint,
 cross_scale_transform,
 propagation_risk
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 50. H-Level Gaps
+## 50. H-Level Gaps
 
 System-level gaps include:
 
@@ -1243,9 +1162,9 @@ missing recovery architecture
 missing regime model
 ```
 
----
+______________________________________________________________________
 
-# 51. M-Level Gaps
+## 51. M-Level Gaps
 
 Subsystem gaps include:
 
@@ -1258,9 +1177,9 @@ missing model validation
 missing feedback subsystem
 ```
 
----
+______________________________________________________________________
 
-# 52. L-Level Gaps
+## 52. L-Level Gaps
 
 Local gaps include:
 
@@ -1274,69 +1193,63 @@ missing validator assertion
 missing test case
 ```
 
----
+______________________________________________________________________
 
-# 53. Cross-Scale Gap
+## 53. Cross-Scale Gap
 
 A cross-scale gap exists when evidence or state must move between H/M/L but the transformation is undefined or unvalidated.
 
-[
-\boxed{
-CrossScaleGap
-=============
+## \[ \\boxed{ CrossScaleGap
 
 RequiredTransfer
-\land
-\neg ValidScaleTransform
+\\land
+\\neg ValidScaleTransform
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 54. Gap Propagation
+## 54. Gap Propagation
 
 A gap propagates only through material dependencies.
 
 For gap (g):
 
-[
-\boxed{
-Affected(g)
-===========
+## \[ \\boxed{ Affected(g)
 
-Descendants_{material}(g)
+Descendants\_{material}(g)
 }
-]
+\]
 
 This prevents local incompleteness from automatically becoming global incompleteness.
 
----
+______________________________________________________________________
 
-# 55. Upward Gap Propagation
+## 55. Upward Gap Propagation
 
-[
-L_{gap}\rightarrow M_{gap}
-]
+\[
+L\_{gap}\\rightarrow M\_{gap}
+\]
 
 only if:
 
-[
-\boxed{
-MaterialDependency(M,L_{gap})=TRUE
+\[
+\\boxed{
+MaterialDependency(M,L\_{gap})=TRUE
 }
-]
+\]
 
 Likewise:
 
-[
-M_{gap}\rightarrow H_{gap}
-]
+\[
+M\_{gap}\\rightarrow H\_{gap}
+\]
 
 requires a governing dependency.
 
----
+______________________________________________________________________
 
-# 56. Downward Gap Constraint
+## 56. Downward Gap Constraint
 
 A high-level gap may block lower-level use without proving the lower-level component itself invalid.
 
@@ -1348,18 +1261,15 @@ GLOBAL AUTHORITY GAP
 
 may block a valid local action implementation from execution.
 
----
+______________________________________________________________________
 
-# 57. Gap Dependency Graph
+## 57. Gap Dependency Graph
 
-[
-\boxed{
-G_{Gap}
-=======
+## \[ \\boxed{ G\_{Gap}
 
 (V_G,E_G)
 }
-]
+\]
 
 where:
 
@@ -1370,28 +1280,25 @@ E_G = dependency/blocking/repair relationships
 
 This enables selective gap closure.
 
----
+______________________________________________________________________
 
-# 58. Gap Closure
+## 58. Gap Closure
 
 A gap is not closed because text has been added.
 
-[
-\boxed{
-Closed(g)
-=========
+## \[ \\boxed{ Closed(g)
 
 RequirementSatisfied(g)
-\land
+\\land
 RequiredEvidencePresent(g)
-\land
+\\land
 RequiredValidationPass(g)
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 59. Candidate Closure
+## 59. Candidate Closure
 
 Before validation:
 
@@ -1411,16 +1318,13 @@ Hard invariant:
 REPAIR APPLIED != GAP CLOSED
 ```
 
----
+______________________________________________________________________
 
-# 60. Closure Evidence Tensor
+## 60. Closure Evidence Tensor
 
-[
-\boxed{
-T_{Closure}
-===========
+## \[ \\boxed{ T\_{Closure}
 
-T[
+T\[
 gap_id,
 repair,
 artifact,
@@ -1433,13 +1337,13 @@ scope,
 regime,
 provenance,
 confidence
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 61. Gap Reopening
+## 61. Gap Reopening
 
 A closed gap may reopen when:
 
@@ -1456,41 +1360,35 @@ environment changes
 
 Therefore:
 
-[
-\boxed{
+\[
+\\boxed{
 Closed_t
-\not\Rightarrow
-Closed_{t+1}
+\\not\\Rightarrow
+Closed\_{t+1}
 }
-]
+\]
 
 for mutable conditions.
 
----
+______________________________________________________________________
 
-# 62. Selective Reopening
+## 62. Selective Reopening
 
-[
-\boxed{
-Reopen(g)
-=========
+## \[ \\boxed{ Reopen(g)
 
 DependencyAffected(g)
 }
-]
+\]
 
 Global reopening is prohibited unless the changed dependency has global fanout.
 
----
+______________________________________________________________________
 
-# 63. Gap Priority Tensor
+## 63. Gap Priority Tensor
 
-[
-\boxed{
-T_P
-===
+## \[ \\boxed{ T_P
 
-T[
+T\[
 gap,
 decision_impact,
 safety_impact,
@@ -1500,20 +1398,17 @@ time_sensitivity,
 repair_cost,
 information_value,
 recoverability
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 64. Gap Priority Function
+## 64. Gap Priority Function
 
 A conceptual priority function is:
 
-[
-\boxed{
-Priority(g)
-===========
+## \[ \\boxed{ Priority(g)
 
 f(
 DecisionImpact,
@@ -1524,77 +1419,71 @@ TimeSensitivity,
 Recoverability
 )
 }
-]
+\]
 
 This remains an AMOS model until operationalized with validated domain-specific scales.
 
----
+______________________________________________________________________
 
-# 65. Smallest Decision-Changing Gap
+## 65. Smallest Decision-Changing Gap
 
 AMOS should prioritize:
 
-[
-\boxed{
-g^*
-===
+## \[ \\boxed{ g^\*
 
-\arg\max_g
-\frac{
+\\arg\\max_g
+\\frac{
 ExpectedDecisionRelevantInformation(g)
 }{
 ResolutionCost(g)+ResolutionRisk(g)
 }
 }
-]
+\]
 
 subject to critical-gap precedence.
 
----
+______________________________________________________________________
 
-# 66. Gap Sensitivity
+## 66. Gap Sensitivity
 
-[
-\boxed{
-Sensitivity(g)
-==============
+## \[ \\boxed{ Sensitivity(g)
 
-\Delta Decision
-\mid
+\\Delta Decision
+\\mid
 Resolve(g)
 }
-]
+\]
 
 High-sensitivity gaps deserve earlier investigation.
 
----
+______________________________________________________________________
 
-# 67. Gap Budget
+## 67. Gap Budget
 
 Not every gap should be resolved immediately.
 
 Let:
 
-[
+\[
 B_G
-]
+\]
 
 be available repair resources.
 
 Then:
 
-[
-\boxed{
-\sum_i Cost(resolve(g_i))
-\leq B_G
+\[
+\\boxed{
+\\sum_i Cost(resolve(g_i))
+\\leq B_G
 }
-]
+\]
 
 subject to hard safety and governance constraints.
 
----
+______________________________________________________________________
 
-# 68. Intentional Gap
+## 68. Intentional Gap
 
 Some gaps are intentionally preserved.
 
@@ -1618,19 +1507,19 @@ blocking: false
 revalidation_trigger:
 ```
 
----
+______________________________________________________________________
 
-# 69. Unknown Is a Valid State
+## 69. Unknown Is a Valid State
 
 AMOS does not require artificial closure.
 
-[
-\boxed{
+\[
+\\boxed{
 UNKNOWN
-\in
+\\in
 ValidEpistemicStates
 }
-]
+\]
 
 Therefore:
 
@@ -1640,9 +1529,9 @@ UNKNOWN/GAP
 
 is preferable to fabricated completion.
 
----
+______________________________________________________________________
 
-# 70. Gap Compression Invariant
+## 70. Gap Compression Invariant
 
 When a Gap Matrix is summarized, it must preserve all load-bearing:
 
@@ -1663,9 +1552,9 @@ Hard invariant:
 COMPRESSION MUST NOT HIDE BLOCKERS
 ```
 
----
+______________________________________________________________________
 
-# 71. AI-Specific Gap Architecture
+## 71. AI-Specific Gap Architecture
 
 For AI systems, the Gap Matrix should explicitly test:
 
@@ -1688,9 +1577,9 @@ alignment gap
 runtime-validation gap
 ```
 
----
+______________________________________________________________________
 
-# 72. AI Knowledge Gap
+## 72. AI Knowledge Gap
 
 An AI knowledge gap exists when the model lacks sufficient reliable information for the requested conclusion.
 
@@ -1708,9 +1597,9 @@ Incorrect response:
 fabricated bridge
 ```
 
----
+______________________________________________________________________
 
-# 73. AI Context Gap
+## 73. AI Context Gap
 
 The information may exist externally while remaining unavailable in active context.
 
@@ -1726,20 +1615,17 @@ is distinct from:
 KNOWLEDGE DOES NOT EXIST
 ```
 
----
+______________________________________________________________________
 
-# 74. AI Retrieval Gap
+## 74. AI Retrieval Gap
 
-[
-\boxed{
-RetrievalGap
-============
+## \[ \\boxed{ RetrievalGap
 
 ## RequiredEvidence
 
 RetrievedRelevantEvidence
 }
-]
+\]
 
 But:
 
@@ -1747,9 +1633,9 @@ But:
 NOT RETRIEVED != ABSENT
 ```
 
----
+______________________________________________________________________
 
-# 75. AI Tool Gap
+## 75. AI Tool Gap
 
 A tool gap exists when required external capability is unavailable or lacks sufficient authority.
 
@@ -1761,9 +1647,9 @@ TOOL AUTHORIZED != TOOL SUCCEEDED
 TOOL SUCCEEDED != DESIRED EFFECT VERIFIED
 ```
 
----
+______________________________________________________________________
 
-# 76. AI Memory Gap
+## 76. AI Memory Gap
 
 A memory gap may mean:
 
@@ -1778,28 +1664,25 @@ unrecoverable provenance
 
 These states must not collapse into one generic "no memory" condition.
 
----
+______________________________________________________________________
 
-# 77. AI Reasoning Gap
+## 77. AI Reasoning Gap
 
 A reasoning gap exists when the conclusion lacks a valid dependency path.
 
-[
-\boxed{
-ReasoningGap(C)
-===============
+## \[ \\boxed{ ReasoningGap(C)
 
 ## RequiredPremise(C)
 
 ResolvedPremise(C)
 }
-]
+\]
 
 Fluent completion must not substitute for missing premises.
 
----
+______________________________________________________________________
 
-# 78. AI Confidence Gap
+## 78. AI Confidence Gap
 
 A confidence gap exists when the system produces a confidence value without adequate evidence for calibration.
 
@@ -1809,9 +1692,9 @@ Hard invariant:
 CONFIDENCE != EVIDENCE
 ```
 
----
+______________________________________________________________________
 
-# 79. AI Authority Gap
+## 79. AI Authority Gap
 
 AI may have:
 
@@ -1830,17 +1713,17 @@ authority
 
 Therefore:
 
-[
-\boxed{
+\[
+\\boxed{
 Capability(AI)
-\not\Rightarrow
+\\not\\Rightarrow
 Authority(AI)
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 80. AI Feedback Gap
+## 80. AI Feedback Gap
 
 An AI system that acts but cannot observe consequences cannot establish closed-loop action validity.
 
@@ -1854,9 +1737,9 @@ ACTION
 
 The missing observation path is a feedback gap.
 
----
+______________________________________________________________________
 
-# 81. Gap Matrix Control Plane
+## 81. Gap Matrix Control Plane
 
 The L00 control plane must support:
 
@@ -1878,9 +1761,9 @@ gap reopening
 escalation
 ```
 
----
+______________________________________________________________________
 
-# 82. Control-Plane Invariant
+## 82. Control-Plane Invariant
 
 The reasoning worker must not silently close its own critical gaps merely by generating plausible missing content.
 
@@ -1890,9 +1773,9 @@ GENERATED CONTENT
 VALIDATED GAP CLOSURE
 ```
 
----
+______________________________________________________________________
 
-# 83. Agent Contract
+## 83. Agent Contract
 
 Agents may:
 
@@ -1917,9 +1800,9 @@ promote placeholder to implementation
 promote implementation to validation
 ```
 
----
+______________________________________________________________________
 
-# 84. Skill Contract
+## 84. Skill Contract
 
 Every L00-compatible skill should expose, where relevant:
 
@@ -1936,9 +1819,9 @@ validation method
 known gaps
 ```
 
----
+______________________________________________________________________
 
-# 85. Workflow Contract
+## 85. Workflow Contract
 
 Canonical gap workflow:
 
@@ -1966,9 +1849,9 @@ CLOSE
 MONITOR
 ```
 
----
+______________________________________________________________________
 
-# 86. Gap Resolution Protocol
+## 86. Gap Resolution Protocol
 
 ```text
 1. Identify the required state.
@@ -2020,9 +1903,9 @@ MONITOR
 22. Define reopening conditions.
 ```
 
----
+______________________________________________________________________
 
-# 87. Gap Matrix Core Schema
+## 87. Gap Matrix Core Schema
 
 ```yaml
 gap:
@@ -2086,9 +1969,9 @@ gap:
   status:
 ```
 
----
+______________________________________________________________________
 
-# 88. L00 Reality Environment Gap Matrix
+## 88. L00 Reality Environment Gap Matrix
 
 | Domain          | Requirement                   | Gap if Missing        | Default Priority                 |
 | --------------- | ----------------------------- | --------------------- | -------------------------------- |
@@ -2127,9 +2010,9 @@ gap:
 | Falsifiers      | Invalidation conditions       | `FALSIFIER_GAP`       | Decision-relevant                |
 | Deployment      | Real-environment evidence     | `DEPLOYMENT_GAP`      | Critical before deployment       |
 
----
+______________________________________________________________________
 
-# 89. L00 File-Level Gap Matrix
+## 89. L00 File-Level Gap Matrix
 
 | Component           | Definition |  Tensors |  Equations | Invariants | Dependencies |    Control |    Failure |    Tests |
 | ------------------- | ---------: | -------: | ---------: | ---------: | -----------: | ---------: | ---------: | -------: |
@@ -2140,51 +2023,45 @@ gap:
 | `FAILURE_MODES.md`  |   Required | Required |   Required |    Primary |     Required |   Required |    Primary | Required |
 | `GAP_MATRIX.md`     |   Required |  Primary |   Required |    Primary |      Primary |   Required |   Required |  Primary |
 
----
+______________________________________________________________________
 
-# 90. Architecture Completeness Gate
+## 90. Architecture Completeness Gate
 
-For declared scope \(S\):
+For declared scope (S):
 
-[
-\boxed{
-ArchitectureComplete(S)
-=======================
+## \[ \\boxed{ ArchitectureComplete(S)
 
 DefinitionPass
-\land
+\\land
 TypePass
-\land
+\\land
 InvariantPass
-\land
+\\land
 DependencyPass
-\land
+\\land
 FailurePass
-\land
+\\land
 ValidationPass
 }
-]
+\]
 
 For effectful architecture:
 
-[
-\boxed{
-ArchitectureComplete_{effectful}
-================================
+## \[ \\boxed{ ArchitectureComplete\_{effectful}
 
 ArchitectureComplete
-\land
+\\land
 AuthorityPass
-\land
+\\land
 RollbackPass
-\land
+\\land
 EffectValidationPass
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 91. Gap-Free Does Not Mean True
+## 91. Gap-Free Does Not Mean True
 
 A structurally complete architecture may still be empirically wrong.
 
@@ -2204,32 +2081,29 @@ NO DETECTED GAPS
 NO GAPS EXIST
 ```
 
----
+______________________________________________________________________
 
-# 92. Gap Detection Confidence
+## 92. Gap Detection Confidence
 
-[
-\boxed{
+\[
+\\boxed{
 Conf(GapAssessment)
-\leq
+\\leq
 Coverage(Inspection)
 }
-]
+\]
 
 conceptually.
 
 A partial inspection cannot justify a universal no-gap conclusion.
 
----
+______________________________________________________________________
 
-# 93. Gap Scan Coverage Tensor
+## 93. Gap Scan Coverage Tensor
 
-[
-\boxed{
-T_{Coverage}
-============
+## \[ \\boxed{ T\_{Coverage}
 
-T[
+T\[
 components_expected,
 components_inspected,
 dependencies_inspected,
@@ -2237,13 +2111,13 @@ tests_inspected,
 runtime_inspected,
 external_evidence_inspected,
 coverage_limitations
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 94. Gap Matrix Validators
+## 94. Gap Matrix Validators
 
 ```text
 L00-GAP-T01 Definition completeness validator
@@ -2283,9 +2157,9 @@ L00-GAP-T34 Reopening-condition validator
 L00-GAP-T35 Deployment-readiness validator
 ```
 
----
+______________________________________________________________________
 
-# 95. Validator Output
+## 95. Validator Output
 
 ```yaml
 gap_validation:
@@ -2340,9 +2214,9 @@ gap_validation:
     - UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 96. Gap Closure Proof Capsule
+## 96. Gap Closure Proof Capsule
 
 ```yaml
 gap_closure_proof:
@@ -2390,9 +2264,9 @@ gap_closure_proof:
     - UNRESOLVED
 ```
 
----
+______________________________________________________________________
 
-# 97. Hard Invariants
+## 97. Hard Invariants
 
 ## L00-GAP-INV-01
 
@@ -2516,38 +2390,38 @@ GENERATED CONTENT != VALIDATED CLOSURE
 COMPRESSION MUST NOT HIDE BLOCKING GAPS
 ```
 
----
+______________________________________________________________________
 
-# 98. Falsifiers
+## 98. Falsifiers
 
 This architecture is falsified as a claimed implementation if:
 
 1. placeholders automatically count as implemented components;
-2. addressable components automatically count as validated;
-3. unresolved gaps are silently converted to `PASS`;
-4. critical gaps do not block affected finalization;
-5. gap type and priority cannot be distinguished;
-6. gaps cannot be traced to requirements;
-7. gaps cannot be mapped to dependencies;
-8. local gaps automatically invalidate unrelated components;
-9. evidence gaps can be closed by unsupported generated text;
-10. provenance gaps do not affect evidence status;
-11. unknown ancestry automatically counts as independent evidence;
-12. scope and regime gaps cannot invalidate claims;
-13. implementation claims require no executable evidence;
-14. test existence counts as test execution;
-15. candidate repair automatically closes the gap;
-16. closure requires no validator;
-17. closed gaps cannot reopen after dependency invalidation;
-18. deployment readiness can be established from simulation alone;
-19. capability automatically establishes authority;
-20. effectful actions require no effect validation;
-21. architecture completeness is treated as empirical truth;
-22. no-gap claims can be made without inspection coverage.
+1. addressable components automatically count as validated;
+1. unresolved gaps are silently converted to `PASS`;
+1. critical gaps do not block affected finalization;
+1. gap type and priority cannot be distinguished;
+1. gaps cannot be traced to requirements;
+1. gaps cannot be mapped to dependencies;
+1. local gaps automatically invalidate unrelated components;
+1. evidence gaps can be closed by unsupported generated text;
+1. provenance gaps do not affect evidence status;
+1. unknown ancestry automatically counts as independent evidence;
+1. scope and regime gaps cannot invalidate claims;
+1. implementation claims require no executable evidence;
+1. test existence counts as test execution;
+1. candidate repair automatically closes the gap;
+1. closure requires no validator;
+1. closed gaps cannot reopen after dependency invalidation;
+1. deployment readiness can be established from simulation alone;
+1. capability automatically establishes authority;
+1. effectful actions require no effect validation;
+1. architecture completeness is treated as empirical truth;
+1. no-gap claims can be made without inspection coverage.
 
----
+______________________________________________________________________
 
-# 99. Canonical Gap Registry
+## 99. Canonical Gap Registry
 
 ```text
 L00-GAP-001 DEFINITION_GAP
@@ -2592,9 +2466,9 @@ L00-GAP-039 DOCUMENTATION_GAP
 L00-GAP-040 GOVERNANCE_GAP
 ```
 
----
+______________________________________________________________________
 
-# 100. RSCF Completion State
+## 100. RSCF Completion State
 
 ```yaml
 claim_class: MODEL
@@ -2682,9 +2556,9 @@ confidence_ceiling:
   formal_universality: unverified
 ```
 
----
+______________________________________________________________________
 
-# 101. Hard Boundaries
+## 101. Hard Boundaries
 
 ```text
 PLACEHOLDER != IMPLEMENTED
@@ -2728,9 +2602,9 @@ LOCAL GAP != GLOBAL GAP
 UNKNOWN/GAP != PASS
 ```
 
----
+______________________________________________________________________
 
-# 102. Canonical L00 Gap Loop
+## 102. Canonical L00 Gap Loop
 
 ```text
 REQUIREMENT
@@ -2772,89 +2646,86 @@ MONITOR
 REOPEN IF INVALIDATED
 ```
 
----
+______________________________________________________________________
 
-# 103. Final Gap Law
+## 103. Final Gap Law
 
 The governing architectural principle is:
 
-[
-\boxed{
-GapIntegrity
-============
+## \[ \\boxed{ GapIntegrity
 
 Visibility
-\land
+\\land
 Typing
-\land
+\\land
 DependencyTraceability
-\land
+\\land
 Priority
-\land
+\\land
 ClosureEvidence
-\land
+\\land
 Revalidation
 }
-]
+\]
 
 A valid completion claim requires:
 
-[
-\boxed{
+\[
+\\boxed{
 CompletionClaim
-\Rightarrow
+\\Rightarrow
 RequiredStructureResolved
-\land
+\\land
 LoadBearingDependenciesValid
-\land
+\\land
 RequiredEvidencePresent
-\land
+\\land
 RequiredValidatorsPass
 }
-]
+\]
 
 For consequential execution:
 
-[
-\boxed{
-Executable
-==========
+## \[ \\boxed{ Executable
 
 CompletionAdequate
-\land
+\\land
 NoCriticalBlockingGap
-\land
+\\land
 ConstraintsPass
-\land
+\\land
 AuthorityValid
 }
-]
+\]
 
 The central L00 gap principle is:
 
 > AMOS must preserve incompleteness as explicit state. A missing dependency, observation, provenance path, authority witness, validator, or reality-contact path does not become complete because the system can generate a plausible replacement.
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · 06-Knowledge-Base-MOC · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · AMOS_Typed_Tensor_Contracts · AMOS_Evidence_Tensor_Architecture · Cosmo_Brain_BRIDGE_INDEX · AMOS_Relation_Tensor_Architecture · AMOS_Reality_Simulation_Distinction · AMOS_Provenance_Topology · AMOS_System_Completion_Auditor · AMOS_Constraint_Propagation · AMOS_Repair_Priority_Governor · AMOS_Repair_Harm_Auditor · AMOS_Collapse_Recovery · AMOS_Infrastructure_Control_Plane · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations|AMOS_Simulation_Kernel_v0_Math_Foundations]] · system_scan_agent · automation_profiles
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: l00_reality_environment_primitives_cognitive_matrix_gap_matrix
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_GAP_MATRIX.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_MOC|L00_REALITY_ENVIRONMENT_MOC]]
-

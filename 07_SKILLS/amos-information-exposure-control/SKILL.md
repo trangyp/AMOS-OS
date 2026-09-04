@@ -4,24 +4,22 @@ title: SKILL — Amos Information Exposure Control
 type: skill
 source: 07_SKILLS/amos-information-exposure-control
 name: amos-information-exposure-control
-description: Information Exposure Control — info capability. Use when executing the
-  core capability within this domain. Use when amos-information-theory-master routes
-  to this specialized capability. Do not use for generic tasks outside info domain.
+description: Information Exposure Control — info capability. Use when executing the core capability within this domain. Use when amos-information-theory-master routes to this specialized capability. Do not use for generic tasks outside info domain.
 parent_skill: amos-information-theory-master
 domain: info
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
 tags:
-- type/skill
-- type/skill
-- domain/information-theory
-- epistemic/source_claim
-- hml/m
-- epistemic/source_claim
-- amos-os
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/information-theory
+  - epistemic/source_claim
+  - hml/m
+  - epistemic/source_claim
+  - amos-os
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -31,20 +29,20 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: M
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L16
-- L17
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L16
+  - L17
 license: MIT
 steward: Trang Phan
 ---
@@ -54,6 +52,7 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: info. Parent: amos-information-theory-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
 ## When to Use
 
 - When measuring entropy and lacunarity: information content and gaps
@@ -73,6 +72,7 @@ Origin architect: **Trang Phan**. Domain: info. Parent: amos-information-theory-
 - **information_exposure.map_geometry**: Map information geometry: manifolds, distances, and projections in information space
 
 > **Reference**: See `references/vault_domain_knowledge.md` (content_hash: e5b0b8a7a7332c2e) for the full vault-sourced domain knowledge (8923 chars).
+
 - **information_exposure.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
 - **information_exposure.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **information_exposure.validate_outputs**: Validate outputs against domain constraints and epistemic class.
@@ -80,12 +80,12 @@ Origin architect: **Trang Phan**. Domain: info. Parent: amos-information-theory-
 ## Operations
 
 1. **information_exposure.measure_entropy**: Measure entropy and lacunarity: information content, gaps, and structure
-2. **information_exposure.analyze_topology**: Analyze information collapse topology: how information condenses and structures
-3. **information_exposure.control_exposure**: Control information exposure: what is revealed, to whom, and under what conditions
-4. **information_exposure.map_geometry**: Map information geometry: manifolds, distances, and projections in information space
-5. **information_exposure.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-6. **information_exposure.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
-7. **information_exposure.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+1. **information_exposure.analyze_topology**: Analyze information collapse topology: how information condenses and structures
+1. **information_exposure.control_exposure**: Control information exposure: what is revealed, to whom, and under what conditions
+1. **information_exposure.map_geometry**: Map information geometry: manifolds, distances, and projections in information space
+1. **information_exposure.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+1. **information_exposure.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+1. **information_exposure.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## 11_KNOWLEDGE Vault Content
 
@@ -97,6 +97,7 @@ Origin architect: **Trang Phan**. Domain: info. Parent: amos-information-theory-
 From Cosmo Brain Protected Knowledge Training Control Architecture: Governed knowledge-exposure system with typed knowledge objects and semantic-origin lineage. From BIS: Bounded Intelligence Security.
 
 **Exposure control architecture**:
+
 - **Typed knowledge objects**: all knowledge is typed with exposure classification
 - **Semantic-origin lineage**: every knowledge object has a semantic origin lineage
 - **Origin equivalence classes**: knowledge objects grouped by origin equivalence
@@ -105,16 +106,19 @@ From Cosmo Brain Protected Knowledge Training Control Architecture: Governed kno
 - **Capability attenuation**: capabilities attenuated by exposure rules
 
 **Exposure control laws**:
+
 - `INTERNAL != EXTERNAL`: internal information is not external information; exposure rules differ
 - `DECLARED != UNDECLARED`: only declared information can be exposed; undeclared exposure is a violation
 - `SCOPE_BOUND`: exposure is valid only within declared scope and audience
 
 **Anti-exfiltration**:
+
 - **Output-only behavioral definition**: the system is defined by its outputs, not its internal state
 - **Human-embedded final enforcement**: humans are the final enforcement layer
 - **Ephemeral enforcement**: some enforcement is ephemeral (not persisted)
 
 **Exposure accounting**:
+
 - **Semantic transaction validation**: validate that transactions don't expose undeclared information
 - **Multi-origin atomic reservations**: atomic reservations for multi-origin knowledge
 - **Commit-time revalidation**: revalidate exposure at commit time
@@ -131,7 +135,8 @@ Information exposure control is a security construct. It does not prove all expo
 - **Scope violation**: If the query falls outside the skill's declared scope, escalate to the parent skill or steward.
 - **Binding broken**: If 1:1:1 binding (skill→agent→workflow) is broken, flag rout
 
----
+______________________________________________________________________
+
 **Links:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 ## Related
@@ -141,17 +146,19 @@ Information exposure control is a security construct. It does not prove all expo
 ## Examples
 
 - **Scenario**: When measuring entropy and lacunarity: information content and gaps
+
   - **Input**: A query matching this skill's domain (info)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When analyzing information collapse topology and structure
+
   - **Input**: A query matching this skill's domain (info)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When controlling information exposure and disclosure
+
   - **Input**: A query matching this skill's domain (info)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Validation Gates
 
@@ -168,7 +175,6 @@ Information exposure control is a security construct. It does not prove all expo
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `amos-information-theory-master` — routes to this skill when info specialization is needed
@@ -176,7 +182,6 @@ Information exposure control is a security construct. It does not prove all expo
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -195,7 +200,6 @@ Information exposure control is a security construct. It does not prove all expo
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -203,7 +207,6 @@ Information exposure control is a security construct. It does not prove all expo
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -216,11 +219,12 @@ Information exposure control is a security construct. It does not prove all expo
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `amos-information-theory-master` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `amos-information-exposure-control-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -228,12 +232,14 @@ Information exposure control is a security construct. It does not prove all expo
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-information-exposure-control
 node_type: skill
 path: 07_SKILLS/amos-information-exposure-control/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

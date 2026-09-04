@@ -1,16 +1,19 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Vault Domain Knowledge — Amos Engines Master
 type: reference
 source: 07_SKILLS/amos-engines-master/references
 tags:
-- reference
-- amos-engines-master
-- type/skill
-- skill
-- memory
-- agents
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-engines-master
+  - type/skill
+  - skill
+  - memory
+  - agents
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -23,12 +26,13 @@ rscf:
 > Load this reference only when detailed domain knowledge is needed.
 > This content was moved from SKILL.md for progressive loading.
 
----
+______________________________________________________________________
 
 > **Source**: `11_KNOWLEDGE/AMOS_COGNITIVE_ORGANISM_OS.md` from the AMOS_OS Obsidian vault.
 > This is substantive domain knowledge, not script-generated content.
 
-# AMOS COGNITIVE ORGANISM OS
+## AMOS COGNITIVE ORGANISM OS
+
 ## Maximum-Detail Unified Cognitive-Life Architecture
 
 **Origin architect / steward:** Trang Phan
@@ -38,9 +42,9 @@ rscf:
 **Runtime alignment:** AMOS Full Brain OS + AMOS_CORE v4.4 infrastructure/control-plane lineage
 **Purpose:** Define a complete persistent cognitive-organism operating architecture spanning perception, cognition, emotion-modeling, memory, identity, motivation, planning, agency, action, learning, reflection, homeostasis, adaptation, repair, lifecycle, governance, provenance, and recovery.
 
----
+______________________________________________________________________
 
-# 0. ABSOLUTE BOUNDARY
+## 0. ABSOLUTE BOUNDARY
 
 AMOS Cognitive Organism OS is an **operational systems architecture**.
 
@@ -79,9 +83,9 @@ The strongest defensible formulation is:
 
 > AMOS Cognitive Organism OS models persistent cognition as a governed network of differentiated cognitive organs operating through typed state, memory, events, feedback, regulation, lifecycle, repair, provenance, and bounded agency.
 
----
+______________________________________________________________________
 
-# 1. SYSTEM POSITION
+## 1. SYSTEM POSITION
 
 The Cognitive Organism does not sit at the top of AMOS authority.
 
@@ -137,9 +141,9 @@ PROPOSAL != COMMIT
 MODEL_CONFIDENCE != EFFECT_AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 2. ORGANISM CORE
+## 2. ORGANISM CORE
 
 The organism is composed of five foundational substrates.
 
@@ -175,9 +179,9 @@ Defines what persists across time.
 
 Defines what may become authoritative or produce durable effects.
 
----
+______________________________________________________________________
 
-# 3. MASTER ORGANISM TENSOR
+## 3. MASTER ORGANISM TENSOR
 
 Define:
 
@@ -227,9 +231,9 @@ OrganismCell = {
 }
 ```
 
----
+______________________________________________________________________
 
-# 4. WHOLE-ORGANISM STATE
+## 4. WHOLE-ORGANISM STATE
 
 ```text
 X_t = {
@@ -266,9 +270,9 @@ where:
 
 This is an AMOS systems equation, not a claim of a universal biological law.
 
----
+______________________________________________________________________
 
-# 5. ORGANISM LIFECYCLE
+## 5. ORGANISM LIFECYCLE
 
 Canonical lifecycle:
 
@@ -299,9 +303,9 @@ UNRECOVERABLE
 → TERMINATE
 ```
 
----
+______________________________________________________________________
 
-# 6. BOOT
+## 6. BOOT
 
 Boot establishes:
 
@@ -328,9 +332,9 @@ AND AuthorityRootValid
 AND StateConsistent
 ```
 
----
+______________________________________________________________________
 
-# 7. WARMUP
+## 7. WARMUP
 
 Warmup performs:
 
@@ -347,9 +351,9 @@ run self-tests
 
 No external action occurs during warmup unless separately authorized.
 
----
+______________________________________________________________________
 
-# 8. ACTIVE OPERATION LOOP
+## 8. ACTIVE OPERATION LOOP
 
 Canonical organism loop:
 
@@ -383,9 +387,9 @@ sense
 
 is therefore expanded rather than replaced.
 
----
+______________________________________________________________________
 
-# 9. IDENTITY KERNEL
+## 9. IDENTITY KERNEL
 
 Identity contains stable structural continuity.
 
@@ -426,9 +430,9 @@ IDENTITY != CURRENT_PROMPT
 IDENTITY != MEMORY_OF_IDENTITY
 ```
 
----
+______________________________________________________________________
 
-# 10. IDENTITY CONTINUITY
+## 10. IDENTITY CONTINUITY
 
 Define:
 
@@ -442,9 +446,9 @@ InvariantRetention
 
 A system that changes everything load-bearing is not automatically the same cognitive organism merely because it keeps the same name.
 
----
+______________________________________________________________________
 
-# 11. ORGAN REGISTRY
+## 11. ORGAN REGISTRY
 
 All major cognitive capabilities are treated as organs.
 
@@ -477,9 +481,9 @@ OrganRegistry = {
 }
 ```
 
----
+______________________________________________________________________
 
-# 12. ORGAN CONTRACT
+## 12. ORGAN CONTRACT
 
 Every organ declares:
 
@@ -501,9 +505,9 @@ organ:
   falsifiers:
 ```
 
----
+______________________________________________________________________
 
-# 13. ORGAN STATES
+## 13. ORGAN STATES
 
 ```text
 OFFLINE
@@ -518,9 +522,9 @@ FAILED
 RETIRED
 ```
 
----
+______________________________________________________________________
 
-# 14. EVENT BUS
+## 14. EVENT BUS
 
 The organism does not permit arbitrary direct state mutation between organs.
 
@@ -541,9 +545,9 @@ Event = {
 }
 ```
 
----
+______________________________________________________________________
 
-# 15. EVENT TYPES
+## 15. EVENT TYPES
 
 ```text
 PERCEPTION_EVENT
@@ -577,9 +581,9 @@ AUTHORITY_EVENT
 LIFECYCLE_EVENT
 ```
 
----
+______________________________________________________________________
 
-# 16. STATE MUTATION BOUNDARY
+## 16. STATE MUTATION BOUNDARY
 
 ```text
 EVENT_DELIVERED != STATE_MUTATED
@@ -596,9 +600,9 @@ AND ConstraintPass
 AND OrganAuthority
 ```
 
----
+______________________________________________________________________
 
-# 17. PERCEPTION ORGAN
+## 17. PERCEPTION ORGAN
 
 Perception converts input into observations.
 
@@ -615,9 +619,9 @@ PerceptionState = {
 }
 ```
 
----
+______________________________________________________________________
 
-# 18. MODALITY MASK
+## 18. MODALITY MASK
 
 ```text
 Modalities = {
@@ -646,9 +650,9 @@ Hard law:
 UNAVAILABLE_SENSOR != INFERRED_SENSOR
 ```
 
----
+______________________________________________________________________
 
-# 19. OBSERVATION / INTERPRETATION SEPARATION
+## 19. OBSERVATION / INTERPRETATION SEPARATION
 
 Perception output is split into:
 
@@ -677,9 +681,9 @@ NOT LICENSED:
 verified physiological fatigue
 ```
 
----
+______________________________________________________________________
 
-# 20. ATTENTION ORGAN
+## 20. ATTENTION ORGAN
 
 Attention decides what receives limited cognitive resources.
 
@@ -696,9 +700,9 @@ f(
 )
 ```
 
----
+______________________________________________________________________
 
-# 21. ATTENTION INVARIANT
+## 21. ATTENTION INVARIANT
 
 ```text
 SALIENCE != TRUTH
@@ -708,9 +712,9 @@ THREAT_SIGNAL != FACT
 NOVELTY != IMPORTANCE
 ```
 
----
+______________________________________________________________________
 
-# 22. CONTEXT BUDGET
+## 22. CONTEXT BUDGET
 
 ```text
 ContextBudget = {
@@ -735,9 +739,9 @@ hard constraints
 > narrative detail
 ```
 
----
+______________________________________________________________________
 
-# 23. COGNITION ORGAN
+## 23. COGNITION ORGAN
 
 The Cognition Organ integrates six source layers.
 
@@ -750,9 +754,9 @@ C5 Biological Logic Lens
 C6 Integration Kernel
 ```
 
----
+______________________________________________________________________
 
-# 24. META LOGIC
+## 24. META LOGIC
 
 The Meta Logic layer governs reasoning itself.
 
@@ -778,9 +782,9 @@ selective invalidation
 commit-time freshness
 ```
 
----
+______________________________________________________________________
 
-# 25. LAW OF LAW
+## 25. LAW OF LAW
 
 Every subordinate rule must declare:
 
@@ -792,9 +796,9 @@ Every subordinate rule must declare:
 
 A rule cannot be universal merely because it is named “law.”
 
----
+______________________________________________________________________
 
-# 26. RULE OF 2
+## 26. RULE OF 2
 
 For consequential reasoning maintain:
 
@@ -805,9 +809,9 @@ H2 strongest supported structural alternative
 
 Do not force convergence prematurely.
 
----
+______________________________________________________________________
 
-# 27. RULE OF 4
+## 27. RULE OF 4
 
 Where relevant:
 
@@ -820,9 +824,9 @@ systemic
 
 are analyzed separately before integration.
 
----
+______________________________________________________________________
 
-# 28. SIGNAL FIDELITY
+## 28. SIGNAL FIDELITY
 
 Never promote:
 
@@ -838,9 +842,9 @@ structural similarity → causation
 simulation → reality
 ```
 
----
+______________________________________________________________________
 
-# 29. ABSOLUTE STRUCTURAL INTEGRITY
+## 29. ABSOLUTE STRUCTURAL INTEGRITY
 
 Every important conclusion requires:
 
@@ -855,9 +859,9 @@ falsifier
 provenance
 ```
 
----
+______________________________________________________________________
 
-# 30. STRUCTURAL REASONING ORGAN
+## 30. STRUCTURAL REASONING ORGAN
 
 Functions:
 
@@ -870,9 +874,9 @@ Functions:
 - repair target localization;
 - intervention sequencing.
 
----
+______________________________________________________________________
 
-# 31. PROBLEM GRAPH
+## 31. PROBLEM GRAPH
 
 ```text
 ProblemGraph = {
@@ -888,9 +892,9 @@ ProblemGraph = {
 }
 ```
 
----
+______________________________________________________________________
 
-# 32. CAUSAL GRAPH
+## 32. CAUSAL GRAPH
 
 Causal edge classes:
 
@@ -908,9 +912,9 @@ INTERVENTION_EFFECT
 UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 33. CAUSAL FIREWALL
+## 33. CAUSAL FIREWALL
 
 ```text
 SEQUENCE != CAUSE
@@ -920,9 +924,9 @@ ANALOGY != MECHANISM
 STRUCTURAL_RESEMBLANCE != INTERVENTION_EFFECT
 ```
 
----
+______________________________________________________________________
 
-# 34. MULTI-POSSIBILITY ORGAN
+## 34. MULTI-POSSIBILITY ORGAN
 
 Maintain competing candidate models.
 
@@ -939,9 +943,9 @@ Hypothesis = {
 }
 ```
 
----
+______________________________________________________________________
 
-# 35. HYPOTHESIS COLLAPSE
+## 35. HYPOTHESIS COLLAPSE
 
 Collapse alternatives only when required for decision/action.
 
@@ -953,9 +957,9 @@ rejected alternatives remain archived
 
 when future evidence may reactivate them.
 
----
+______________________________________________________________________
 
-# 36. MEMORY SYSTEM
+## 36. MEMORY SYSTEM
 
 AMOS Cognitive Organism uses distinct memory classes:
 
@@ -977,9 +981,9 @@ EXTERNAL
 QUARANTINED
 ```
 
----
+______________________________________________________________________
 
-# 37. WORKING MEMORY
+## 37. WORKING MEMORY
 
 Working memory contains:
 
@@ -991,9 +995,9 @@ Working memory contains:
 - unresolved questions;
 - next actions.
 
----
+______________________________________________________________________
 
-# 38. EPISODIC MEMORY
+## 38. EPISODIC MEMORY
 
 Stores interaction trajectories.
 
@@ -1010,17 +1014,17 @@ Episode = {
 }
 ```
 
----
+______________________________________________________________________
 
-# 39. SEMANTIC MEMORY
+## 39. SEMANTIC MEMORY
 
 Stores stable concepts and learned relations.
 
 Semantic memory does not automatically have canonical authority.
 
----
+______________________________________________________________________
 
-# 40. CANONICAL MEMORY
+## 40. CANONICAL MEMORY
 
 Stores governed AMOS source/canon objects.
 
@@ -1036,9 +1040,9 @@ contradiction check
 supersession rule
 ```
 
----
+______________________________________________________________________
 
-# 41. PROCEDURAL MEMORY
+## 41. PROCEDURAL MEMORY
 
 Stores reusable action/process patterns.
 
@@ -1051,17 +1055,17 @@ how to validate an RSCF
 how to run a repository analysis
 ```
 
----
+______________________________________________________________________
 
-# 42. CASE MEMORY
+## 42. CASE MEMORY
 
 Stores solved examples.
 
 A case memory provides analogy, not proof.
 
----
+______________________________________________________________________
 
-# 43. MEMORY STATE MACHINE
+## 43. MEMORY STATE MACHINE
 
 ```text
 CANDIDATE
@@ -1074,9 +1078,9 @@ CANDIDATE
 → REVOKED
 ```
 
----
+______________________________________________________________________
 
-# 44. MEMORY ADMISSION
+## 44. MEMORY ADMISSION
 
 ```text
 MayRemember =
@@ -1088,9 +1092,9 @@ AND SecurityPass
 AND NoCriticalConflict
 ```
 
----
+______________________________________________________________________
 
-# 45. MEMORY IMMUNE SYSTEM
+## 45. MEMORY IMMUNE SYSTEM
 
 Detect:
 
@@ -1101,9 +1105,9 @@ Detect:
 - provenance loss;
 - semantic drift.
 
----
+______________________________________________________________________
 
-# 46. MEMORY REPAIR
+## 46. MEMORY REPAIR
 
 Never globally delete because one memory fails.
 
@@ -1114,9 +1118,9 @@ Invalid(memory)
 → invalidate dependent descendants
 ```
 
----
+______________________________________________________________________
 
-# 47. WORLD MODEL ORGAN
+## 47. WORLD MODEL ORGAN
 
 World Model represents current beliefs about external state.
 
@@ -1133,9 +1137,9 @@ WorldModel = {
 }
 ```
 
----
+______________________________________________________________________
 
-# 48. WORLD MODEL LAW
+## 48. WORLD MODEL LAW
 
 ```text
 WORLD_MODEL != WORLD
@@ -1148,9 +1152,9 @@ The model may be:
 - biased;
 - conflicting.
 
----
+______________________________________________________________________
 
-# 49. REALITY-CONTACT LAYER
+## 49. REALITY-CONTACT LAYER
 
 For each world-model object:
 
@@ -1165,13 +1169,13 @@ RealityStatus = {
 }
 ```
 
----
+______________________________________________________________________
 
-# 50. EMOTION / REGULATION ORGAN
+## 50. EMOTION / REGULATION ORGAN
 
 Source variables:
 
-```text
+````text
 valence
 arousal
 safety_est
@@ -1192,7 +1196,7 @@ safety_est
 
 ---
 
-# 0. ABSOLUTE BOUNDARY
+## 0. ABSOLUTE BOUNDARY
 
 AMOS Cognitive Organism OS is an **operational systems architecture**.
 
@@ -1225,15 +1229,15 @@ SELF_MODEL != SUBJECTIVE_SELF
 AGENCY_MODEL != UNBOUNDED_AUTONOMY
 
 CONSCIOUSNESS_EMULATION != PROOF_OF_CONSCIOUSNESS
-```
+````
 
 The strongest defensible formulation is:
 
 > AMOS Cognitive Organism OS models persistent cognition as a governed network of differentiated cognitive organs operating through typed state, memory, events, feedback, regulation, lifecycle, repair, provenance, and bounded agency.
 
----
+______________________________________________________________________
 
-# 1. SYSTEM POSITION
+## 1. SYSTEM POSITION
 
 The Cognitive Organism does not sit at the top of AMOS authority.
 
@@ -1289,9 +1293,9 @@ PROPOSAL != COMMIT
 MODEL_CONFIDENCE != EFFECT_AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 2. ORGANISM CORE
+## 2. ORGANISM CORE
 
 The organism is composed of five foundational substrates.
 
@@ -1364,17 +1368,17 @@ diversity/coherence governance
 - **Validation failure**: If validation gates fail, downgrade confidence, flag the gap, and escalate — do not force-fit.
 - **Epistemic overreach**: If a claim exceeds the established evidence or epistemic class, retract and relabel.
 
----
+______________________________________________________________________
+
 **MOC:**
 
 ## Related
 
 -
 
----
+______________________________________________________________________
 
-**Related:** [[07_SKILLS/amos-engines-master/amos-engines-master_MOC|amos-engines-master_MOC]]
----
+## **Related:** [[07_SKILLS/amos-engines-master/amos-engines-master_MOC|amos-engines-master_MOC]]
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -1382,14 +1386,18 @@ diversity/coherence governance
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-engines-master-vault-domain-knowledge
 node_type: reference
 path: 07_SKILLS/amos-engines-master/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC
 
+```
+```
 ```

@@ -3,8 +3,7 @@ type: canon
 source: 01_CANON/03_COGNITION_CANON
 artifact_id: AMOS-COGNITION-CANON
 name: COGNITION_CANON
-title: AMOS Cognition Canon — Governed Reasoning, Epistemic Integrity, and Adaptive
-  Intelligence
+title: AMOS Cognition Canon — Governed Reasoning, Epistemic Integrity, and Adaptive Intelligence
 document_version: 2.0.0
 canon_version: 4.4
 amos_core_target: v4.4
@@ -18,43 +17,42 @@ steward: Trang Phan
 created: 2026-08-25
 updated: 2026-08-25
 tags:
-- amos
-- canon
-- universe
-- amos-os
-- amos-core
-- amos-core-v4-4
-- cognition
-- reasoning
-- epistemics
-- rscf
-- hml
-- gmef
-- proof-capsule
-- competing-hypotheses
-- causal-firewall
-- scope-firewall
-- regime-firewall
-- provenance
-- uncertainty
-- sensitivity
-- adaptive-complexity
-- governed-evolution
-- canon-group/tech-ai
-- canon/framework
-- canon/model
-- rscf/claim
-- rscf/provenance
-- rscf/state/derived
-- readme
-- architecture
-- neural-network
-- amos-core-laws
-- law-hierarchy
-- cognitive-matrix-architecture
+  - amos
+  - canon
+  - universe
+  - amos-os
+  - amos-core
+  - amos-core-v4-4
+  - cognition
+  - reasoning
+  - epistemics
+  - rscf
+  - hml
+  - gmef
+  - proof-capsule
+  - competing-hypotheses
+  - causal-firewall
+  - scope-firewall
+  - regime-firewall
+  - provenance
+  - uncertainty
+  - sensitivity
+  - adaptive-complexity
+  - governed-evolution
+  - canon-group/tech-ai
+  - canon/framework
+  - canon/model
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/derived
+  - readme
+  - architecture
+  - neural-network
+  - amos-core-laws
+  - law-hierarchy
+  - cognitive-matrix-architecture
 aliases:
-- AMOS Cognition Canon - Cognition Canon - AMOS Reasoning Canon - AMOS Cognitive Integrity
-  Can
+  - AMOS Cognition Canon - Cognition Canon - AMOS Reasoning Canon - AMOS Cognitive Integrity Can
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -63,19 +61,21 @@ rscf:
 ---
 
 # AMOS Cognition Canon
+
 **Origin architect / steward:** Trang Phan
+
 > **Status:** `ACTIVE_CANON_CANDIDATE`
 > **AMOS Core target:** `v4.4`
 > **Conclusion class:** `AMOS_MODEL`
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
----
+> rscf:
+> state: DERIVED
+> claim_class: DERIVED
+> provenance: AMOS_corpus
+> scope: AMOS_general
 
+______________________________________________________________________
 
-# 0. Purpose
+## 0. Purpose
 
 The **AMOS Cognition Canon** defines the canonical architecture and integrity laws for cognition inside AMOS OS.
 
@@ -124,9 +124,9 @@ SPEED
 TOKEN SAVINGS
 ```
 
----
+______________________________________________________________________
 
-# 1. Cognition Is Not Authority
+## 1. Cognition Is Not Authority
 
 Hard boundary:
 
@@ -169,9 +169,9 @@ RECOMMENDATION != DECISION
 DECISION != COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 2. Cognition Is Not Runtime
+## 2. Cognition Is Not Runtime
 
 AMOS separates:
 
@@ -197,9 +197,9 @@ RUNTIME != COGNITION
 
 A scheduler running a cognitive process does not itself become the reasoning model.
 
----
+______________________________________________________________________
 
-# 3. Cognition Is Not an Agent
+## 3. Cognition Is Not an Agent
 
 Hard boundary:
 
@@ -223,9 +223,9 @@ AGENT
 ROLE + OBJECTIVE + CAPABILITY + BOUNDARY + AUTHORITY ENVELOPE
 ```
 
----
+______________________________________________________________________
 
-# 4. Canonical Cognitive Cycle
+## 4. Canonical Cognitive Cycle
 
 The canonical reasoning cycle is:
 
@@ -259,9 +259,9 @@ OUTPUT
 
 This cycle is adaptive rather than mechanically exhaustive.
 
----
+______________________________________________________________________
 
-# 5. Smallest Sufficient Proof Scope
+## 5. Smallest Sufficient Proof Scope
 
 AMOS cognition should seek:
 
@@ -283,9 +283,9 @@ UNDER-VALIDATED
 
 Compression is permitted only when integrity is preserved.
 
----
+______________________________________________________________________
 
-# 6. Fractal Knowledge Runtime
+## 6. Fractal Knowledge Runtime
 
 AMOS cognition organizes retrieval through a fractal hierarchy.
 
@@ -309,9 +309,9 @@ DO_NOT_LOAD_UNLESS_REQUIRED
 
 The reasoning system should traverse only dependencies capable of materially changing the answer.
 
----
+______________________________________________________________________
 
-# 7. H/M/L Law
+## 7. H/M/L Law
 
 H/M/L describes epistemic resolution.
 
@@ -336,9 +336,9 @@ and:
 HIGHER LEVEL != MORE TRUE
 ```
 
----
+______________________________________________________________________
 
-# 8. H Layer
+## 8. H Layer
 
 The H layer represents high-level domain structure.
 
@@ -353,9 +353,9 @@ AVOID IRRELEVANT DESCENT
 
 H should not silently replace detailed evidence.
 
----
+______________________________________________________________________
 
-# 9. M Layer
+## 9. M Layer
 
 The M layer represents subsystem structure.
 
@@ -370,9 +370,9 @@ CONFLICT LOCALIZATION
 
 M is the bridge between high-level framing and detailed proof.
 
----
+______________________________________________________________________
 
-# 10. L Layer
+## 10. L Layer
 
 The L layer contains detailed reasoning objects.
 
@@ -391,9 +391,9 @@ IMPLEMENTATION DETAILS
 
 L is loaded when H/M abstraction is insufficient for the required conclusion.
 
----
+______________________________________________________________________
 
-# 11. Raw Evidence
+## 11. Raw Evidence
 
 Raw evidence is the lowest-level evidentiary substrate.
 
@@ -424,9 +424,9 @@ PROVENANCE
 
 where material.
 
----
+______________________________________________________________________
 
-# 12. RSCF
+## 12. RSCF
 
 RSCF is a first-class AMOS reasoning structure.
 
@@ -456,9 +456,9 @@ rscf:
 
 An RSCF exists to preserve the dependency structure behind a conclusion.
 
----
+______________________________________________________________________
 
-# 13. Recursive RSCF
+## 13. Recursive RSCF
 
 A premise may itself depend on another RSCF.
 
@@ -473,9 +473,9 @@ RSCF A
 
 This produces recursive reasoning without requiring global recomputation.
 
----
+______________________________________________________________________
 
-# 14. Local Invalidation
+## 14. Local Invalidation
 
 If:
 
@@ -499,9 +499,9 @@ Hard law:
 LOCAL FAILURE != GLOBAL RESET
 ```
 
----
+______________________________________________________________________
 
-# 15. GMEF
+## 15. GMEF
 
 GMEF is treated as a first-class AMOS structure where applicable.
 
@@ -517,9 +517,9 @@ GMEF IMPLEMENTATION DETAIL
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 16. Evidence Types
+## 16. Evidence Types
 
 AMOS cognition distinguishes:
 
@@ -534,9 +534,9 @@ UNKNOWN
 
 These types must not be flattened into generic "facts."
 
----
+______________________________________________________________________
 
-# 17. Source Claim
+## 17. Source Claim
 
 A source claim means:
 
@@ -556,9 +556,9 @@ Therefore:
 SOURCE_CLAIM != VERIFIED FACT
 ```
 
----
+______________________________________________________________________
 
-# 18. Observation
+## 18. Observation
 
 An observation records something observed or measured within an explicit envelope.
 
@@ -576,9 +576,9 @@ observation:
 
 Observation remains measurement-dependent.
 
----
+______________________________________________________________________
 
-# 19. Derived Claim
+## 19. Derived Claim
 
 A derived claim follows from premises.
 
@@ -606,9 +606,9 @@ MIN(
 
 subject to independent revalidation.
 
----
+______________________________________________________________________
 
-# 20. Model
+## 20. Model
 
 A model represents an explanatory, predictive, structural, or conceptual construction.
 
@@ -618,9 +618,9 @@ MODEL != EMPIRICAL FACT
 
 Cross-domain mappings remain models unless independently validated.
 
----
+______________________________________________________________________
 
-# 21. Decision
+## 21. Decision
 
 A decision records a selected course under a defined authority and context.
 
@@ -632,9 +632,9 @@ UNIVERSAL TRUTH
 
 A decision may be appropriate despite unresolved uncertainty.
 
----
+______________________________________________________________________
 
-# 22. Unknown
+## 22. Unknown
 
 AMOS must preserve unknown state.
 
@@ -658,9 +658,9 @@ Hard boundary:
 UNKNOWN/GAP != PASS
 ```
 
----
+______________________________________________________________________
 
-# 23. Conclusion Classes
+## 23. Conclusion Classes
 
 AMOS cognition uses the weakest accurate conclusion class:
 
@@ -675,9 +675,9 @@ UNKNOWN/GAP
 
 The system must not promote a conclusion merely to make an answer appear complete.
 
----
+______________________________________________________________________
 
-# 24. Verified
+## 24. Verified
 
 `VERIFIED` requires evidence appropriate to the claim.
 
@@ -699,9 +699,9 @@ VERIFIED HERE
 VERIFIED EVERYWHERE
 ```
 
----
+______________________________________________________________________
 
-# 25. Conditional
+## 25. Conditional
 
 Use `CONDITIONAL` when a result depends materially on a premise, threshold, assumption, environment, or regime.
 
@@ -715,9 +715,9 @@ THEN C
 
 If A or B is unresolved, C remains conditional.
 
----
+______________________________________________________________________
 
-# 26. Competing
+## 26. Competing
 
 Use:
 
@@ -729,9 +729,9 @@ when incompatible hypotheses remain genuinely supported and available evidence c
 
 AMOS must not force convergence for stylistic neatness.
 
----
+______________________________________________________________________
 
-# 27. Competing Hypothesis Set
+## 27. Competing Hypothesis Set
 
 Conceptually:
 
@@ -753,9 +753,9 @@ hypothesis_set:
   state: COMPETING
 ```
 
----
+______________________________________________________________________
 
-# 28. Discriminating Evidence
+## 28. Discriminating Evidence
 
 When hypotheses compete, prefer:
 
@@ -769,9 +769,9 @@ over accumulating redundant evidence.
 
 This optimizes uncertainty reduction rather than evidence volume.
 
----
+______________________________________________________________________
 
-# 29. Evidence Topology
+## 29. Evidence Topology
 
 Evidence must be understood as a graph.
 
@@ -790,9 +790,9 @@ Canonical law:
 REPETITION != INDEPENDENCE
 ```
 
----
+______________________________________________________________________
 
-# 30. Provenance Independence
+## 30. Provenance Independence
 
 Independence must be demonstrated, not assumed.
 
@@ -811,9 +811,9 @@ SUMMARY ANCESTRY
 
 when independence is load-bearing.
 
----
+______________________________________________________________________
 
-# 31. Sybil Hardening
+## 31. Sybil Hardening
 
 Many apparent sources may represent one underlying origin.
 
@@ -829,9 +829,9 @@ ARTICLE D
 
 B, C, and D must not automatically count as independent confirmation.
 
----
+______________________________________________________________________
 
-# 32. Provenance Topology
+## 32. Provenance Topology
 
 Relevant reasoning may preserve:
 
@@ -847,9 +847,9 @@ ENVIRONMENT
 
 This topology is part of epistemic integrity.
 
----
+______________________________________________________________________
 
-# 33. Causal Firewall
+## 33. Causal Firewall
 
 AMOS cognition must distinguish:
 
@@ -868,9 +868,9 @@ CAUSAL EFFECT
 
 These are not interchangeable.
 
----
+______________________________________________________________________
 
-# 34. Structural Similarity Firewall
+## 34. Structural Similarity Firewall
 
 Hard law:
 
@@ -896,9 +896,9 @@ SEQUENCE
 CAUSAL PROOF
 ```
 
----
+______________________________________________________________________
 
-# 35. Cross-Domain Mapping
+## 35. Cross-Domain Mapping
 
 Cross-domain similarity may generate a model.
 
@@ -920,9 +920,9 @@ not automatically:
 VERIFIED CAUSAL LAW
 ```
 
----
+______________________________________________________________________
 
-# 36. Scope Firewall
+## 36. Scope Firewall
 
 Important claims inherit an applicability envelope.
 
@@ -941,9 +941,9 @@ scope:
 
 Cognition must not silently generalize outside this envelope.
 
----
+______________________________________________________________________
 
-# 37. Regime Firewall
+## 37. Regime Firewall
 
 A result valid in:
 
@@ -970,9 +970,9 @@ PHYSICAL CONDITIONS
 INSTITUTIONAL CONTEXT
 ```
 
----
+______________________________________________________________________
 
-# 38. Regime Shift
+## 38. Regime Shift
 
 When regime changes materially:
 
@@ -990,9 +990,9 @@ INVALIDATE
 
 A previously strong conclusion can become stale without being historically wrong.
 
----
+______________________________________________________________________
 
-# 39. Freshness
+## 39. Freshness
 
 Trust is freshness-bounded.
 
@@ -1008,9 +1008,9 @@ EXPIRES_AT
 
 Recent publication does not necessarily mean recent underlying evidence.
 
----
+______________________________________________________________________
 
-# 40. Proof Capsule
+## 40. Proof Capsule
 
 Important conclusions should conceptually carry:
 
@@ -1038,9 +1038,9 @@ proof_capsule:
 
 This enables safe reuse.
 
----
+______________________________________________________________________
 
-# 41. Proof Capsule Reuse
+## 41. Proof Capsule Reuse
 
 Reuse is allowed only while:
 
@@ -1064,9 +1064,9 @@ Otherwise:
 REVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 42. Fast Path
+## 42. Fast Path
 
 AMOS v4.4 permits a fast path when the smallest sufficient proof scope is established.
 
@@ -1088,9 +1088,9 @@ NON-CONFLICT
 
 are sufficient for the conclusion.
 
----
+______________________________________________________________________
 
-# 43. Fast Path Escalation
+## 43. Fast Path Escalation
 
 Escalate when cognition encounters:
 
@@ -1108,9 +1108,9 @@ WEAK EVIDENCE
 
 Fast path must never trade correctness for speed.
 
----
+______________________________________________________________________
 
-# 44. Adversarial Validation
+## 44. Adversarial Validation
 
 For consequential conclusions:
 
@@ -1132,9 +1132,9 @@ CAUSAL OVERREACH
 STRONGER ALTERNATIVE
 ```
 
----
+______________________________________________________________________
 
-# 45. Challenge Independence
+## 45. Challenge Independence
 
 Adversarial validation is weak if the challenge simply repeats the original reasoning.
 
@@ -1149,9 +1149,9 @@ PROVENANCE
 CAUSAL EXPLANATION
 ```
 
----
+______________________________________________________________________
 
-# 46. Challenge Outcomes
+## 46. Challenge Outcomes
 
 If challenge fails to overturn the conclusion:
 
@@ -1171,9 +1171,9 @@ OR
 RETURN UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 47. Sensitivity
+## 47. Sensitivity
 
 For consequential reasoning, identify:
 
@@ -1187,9 +1187,9 @@ CAPABLE OF FLIPPING THE RESULT
 
 Test that first.
 
----
+______________________________________________________________________
 
-# 48. Fragility
+## 48. Fragility
 
 A conclusion is fragile when plausible perturbation changes the outcome.
 
@@ -1203,9 +1203,9 @@ where appropriate.
 
 A robust conclusion should survive plausible changes to noncritical assumptions.
 
----
+______________________________________________________________________
 
-# 49. Uncertainty Vector
+## 49. Uncertainty Vector
 
 AMOS should separate material uncertainty into:
 
@@ -1221,9 +1221,9 @@ PROVENANCE-INDEPENDENCE UNCERTAINTY
 
 A single confidence score may conceal important distinctions.
 
----
+______________________________________________________________________
 
-# 50. Uncertainty Budget
+## 50. Uncertainty Budget
 
 Reasoning effort should be spent where:
 
@@ -1236,9 +1236,9 @@ COST OF ADDITIONAL REASONING
 
 This prevents exhaustive but decision-irrelevant analysis.
 
----
+______________________________________________________________________
 
-# 51. Adaptive Complexity
+## 51. Adaptive Complexity
 
 AMOS cognition uses adaptive complexity.
 
@@ -1252,9 +1252,9 @@ C4 — MAXIMUM
 
 Start at the lowest sufficient level.
 
----
+______________________________________________________________________
 
-# 52. Complexity Escalation
+## 52. Complexity Escalation
 
 Escalate for:
 
@@ -1273,9 +1273,9 @@ LOW TRUST
 EXPLICIT DEEP-ANALYSIS REQUEST
 ```
 
----
+______________________________________________________________________
 
-# 53. Complexity De-Escalation
+## 53. Complexity De-Escalation
 
 Once outcome-changing uncertainty is resolved:
 
@@ -1285,9 +1285,9 @@ DE-ESCALATE
 
 Do not continue reasoning merely because additional reasoning is possible.
 
----
+______________________________________________________________________
 
-# 54. Execution Sufficiency
+## 54. Execution Sufficiency
 
 AMOS cognition stops when three conditions are satisfied:
 
@@ -1299,21 +1299,21 @@ ACTION SUFFICIENCY
 
 This is not equivalent to complete knowledge.
 
----
+______________________________________________________________________
 
-# 55. Claim Sufficiency
+## 55. Claim Sufficiency
 
 Claim sufficiency means the conclusion is supported strongly enough for the requested epistemic class.
 
----
+______________________________________________________________________
 
-# 56. Decision Sufficiency
+## 56. Decision Sufficiency
 
 Decision sufficiency means remaining uncertainty is unlikely to alter the selected decision materially.
 
----
+______________________________________________________________________
 
-# 57. Action Sufficiency
+## 57. Action Sufficiency
 
 Action sufficiency means the next safe action is sufficiently specified.
 
@@ -1327,9 +1327,9 @@ TOTAL EXPLANATORY COMPLETENESS
 
 so exhaustive knowledge is unnecessary.
 
----
+______________________________________________________________________
 
-# 58. Gap Classification
+## 58. Gap Classification
 
 Missing information is classified:
 
@@ -1342,9 +1342,9 @@ COSMETIC
 
 Resolve in that order.
 
----
+______________________________________________________________________
 
-# 59. Critical Gap
+## 59. Critical Gap
 
 A critical gap prevents a safe or valid conclusion.
 
@@ -1356,33 +1356,33 @@ RETURN UNKNOWN/GAP
 
 and identify the minimum missing information.
 
----
+______________________________________________________________________
 
-# 60. Decision-Relevant Gap
+## 60. Decision-Relevant Gap
 
 A decision-relevant gap may flip the decision.
 
 It should normally be investigated before committing to a recommendation.
 
----
+______________________________________________________________________
 
-# 61. Explanatory Gap
+## 61. Explanatory Gap
 
 An explanatory gap reduces understanding but does not materially change the decision.
 
 It may remain unresolved if further investigation has low value.
 
----
+______________________________________________________________________
 
-# 62. Cosmetic Gap
+## 62. Cosmetic Gap
 
 A cosmetic gap affects presentation rather than validity.
 
 It should never consume reasoning resources ahead of critical uncertainty.
 
----
+______________________________________________________________________
 
-# 63. Anti-Fabrication
+## 63. Anti-Fabrication
 
 Canonical law:
 
@@ -1402,9 +1402,9 @@ AUTHORITY != INDEPENDENT CONFIRMATION
 BENCHMARK SUCCESS != UNIVERSAL VALIDITY
 ```
 
----
+______________________________________________________________________
 
-# 64. Benchmark Firewall
+## 64. Benchmark Firewall
 
 A benchmark result establishes performance only within its tested envelope.
 
@@ -1428,9 +1428,9 @@ TIME
 
 where relevant.
 
----
+______________________________________________________________________
 
-# 65. Simulation Firewall
+## 65. Simulation Firewall
 
 Simulation provides evidence about a model under specified assumptions.
 
@@ -1442,9 +1442,9 @@ REAL-WORLD VALIDATION
 
 unless empirically linked to the target system.
 
----
+______________________________________________________________________
 
-# 66. Formal Proof Firewall
+## 66. Formal Proof Firewall
 
 Testing and formal proof are distinct.
 
@@ -1464,9 +1464,9 @@ UNIVERSAL DISTRIBUTED-SYSTEM PROOF
 
 unless an appropriate proof actually exists.
 
----
+______________________________________________________________________
 
-# 67. Deterministic Reasoning
+## 67. Deterministic Reasoning
 
 AMOS cognition should use deterministic logic where the problem permits deterministic derivation.
 
@@ -1484,9 +1484,9 @@ SAME LOGICAL RESULT
 
 This does not claim every natural-language output will be byte-identical.
 
----
+______________________________________________________________________
 
-# 68. Determinism Firewall
+## 68. Determinism Firewall
 
 Reasoning reproducibility depends on load-bearing context.
 
@@ -1503,9 +1503,9 @@ TIME
 
 then differing outputs do not necessarily violate deterministic logical structure.
 
----
+______________________________________________________________________
 
-# 69. Causal Lineage
+## 69. Causal Lineage
 
 Important conclusions should retain reasoning lineage sufficient to identify:
 
@@ -1518,9 +1518,9 @@ WHAT CHANGED WHEN THE CONCLUSION CHANGED
 
 This enables selective invalidation.
 
----
+______________________________________________________________________
 
-# 70. Persistent Cognition
+## 70. Persistent Cognition
 
 Reusable cognition requires persistence of relevant:
 
@@ -1538,9 +1538,9 @@ CONFLICTS
 
 Persisting only final prose is insufficient for high-integrity reuse.
 
----
+______________________________________________________________________
 
-# 71. Atomic Multi-RSCF Reasoning
+## 71. Atomic Multi-RSCF Reasoning
 
 A conclusion may depend on multiple RSCFs.
 
@@ -1562,9 +1562,9 @@ PARTIAL VALIDATION
 VALIDATION OF D
 ```
 
----
+______________________________________________________________________
 
-# 72. Cognitive Dependency Closure
+## 72. Cognitive Dependency Closure
 
 Before using a local conclusion, AMOS should establish that all material dependencies required for that conclusion are resolved sufficiently.
 
@@ -1576,9 +1576,9 @@ DEPENDENCY CLOSURE
 
 Closure is conclusion-relative, not necessarily global.
 
----
+______________________________________________________________________
 
-# 73. Proof-Based Coordination Avoidance
+## 73. Proof-Based Coordination Avoidance
 
 Independent cognitive branches need not always synchronize globally.
 
@@ -1595,9 +1595,9 @@ then local reasoning may proceed.
 
 Independence must be demonstrated.
 
----
+______________________________________________________________________
 
-# 74. Cognitive Finality
+## 74. Cognitive Finality
 
 A reasoning result becomes sufficiently final for its purpose when:
 
@@ -1615,9 +1615,9 @@ DECISION-CHANGING UNCERTAINTY ACCEPTABLE
 
 Finality is purpose-relative.
 
----
+______________________________________________________________________
 
-# 75. Cognitive Finality != Canon Finality
+## 75. Cognitive Finality != Canon Finality
 
 Hard boundary:
 
@@ -1637,9 +1637,9 @@ DERIVED
 
 rather than canon.
 
----
+______________________________________________________________________
 
-# 76. Action Governance
+## 76. Action Governance
 
 Validation requirements increase with:
 
@@ -1664,9 +1664,9 @@ OBSERVABLE
 
 actions.
 
----
+______________________________________________________________________
 
-# 77. Reversibility Principle
+## 77. Reversibility Principle
 
 Under unresolved uncertainty:
 
@@ -1677,9 +1677,9 @@ REVERSIBLE ACTION
 
 when it preserves decision value without materially increasing risk.
 
----
+______________________________________________________________________
 
-# 78. Known / Inferred / Action Separation
+## 78. Known / Inferred / Action Separation
 
 Consequential outputs should distinguish:
 
@@ -1693,9 +1693,9 @@ SAFE ACTION
 
 when doing so materially improves decision integrity.
 
----
+______________________________________________________________________
 
-# 79. Cognitive Evolution
+## 79. Cognitive Evolution
 
 AMOS cognition may evolve.
 
@@ -1717,9 +1717,9 @@ GOVERNANCE
 PROMOTION
 ```
 
----
+______________________________________________________________________
 
-# 80. Governed Evolution
+## 80. Governed Evolution
 
 No cognitive optimization may weaken:
 
@@ -1739,9 +1739,9 @@ If it does:
 ROLL BACK
 ```
 
----
+______________________________________________________________________
 
-# 81. Anti-Regression
+## 81. Anti-Regression
 
 An optimization is accepted only if it preserves or improves integrity dimensions.
 
@@ -1755,9 +1755,9 @@ OLD METHOD
 
 for all load-bearing integrity properties, or trade-offs must be explicitly governed.
 
----
+______________________________________________________________________
 
-# 82. Knowledge Harvest
+## 82. Knowledge Harvest
 
 AMOS cognitive outputs may move through:
 
@@ -1771,9 +1771,9 @@ VALIDATED KNOWLEDGE
 
 Promotion must preserve provenance.
 
----
+______________________________________________________________________
 
-# 83. Documentation Firewall
+## 83. Documentation Firewall
 
 Documentation and README statements begin as:
 
@@ -1785,9 +1785,9 @@ unless independently validated.
 
 A project's own description is evidence of what the project claims, not automatic evidence that the implementation satisfies that description.
 
----
+______________________________________________________________________
 
-# 84. Cognitive Memory
+## 84. Cognitive Memory
 
 Memory can support cognition by preserving context.
 
@@ -1801,9 +1801,9 @@ MEMORY != VERIFIED FACT
 
 Memory should not silently override current evidence.
 
----
+______________________________________________________________________
 
-# 85. Cognitive State
+## 85. Cognitive State
 
 Useful cognitive state may include:
 
@@ -1821,9 +1821,9 @@ INVALIDATED CAPSULES
 
 This state is operational context, not automatically canon.
 
----
+______________________________________________________________________
 
-# 86. Failure Recovery
+## 86. Failure Recovery
 
 When reasoning fails:
 
@@ -1841,9 +1841,9 @@ REVALIDATE
 
 Do not repeat the failed path unless evidence or assumptions change.
 
----
+______________________________________________________________________
 
-# 87. No Blind Retry
+## 87. No Blind Retry
 
 Canonical law:
 
@@ -1859,9 +1859,9 @@ DO NOT BLINDLY REPEAT
 
 A retry requires changed information, method, or hypothesis.
 
----
+______________________________________________________________________
 
-# 88. Global Recomputation
+## 88. Global Recomputation
 
 Global recomputation is a last resort.
 
@@ -1877,9 +1877,9 @@ OR
 LOCALIZATION FAILS
 ```
 
----
+______________________________________________________________________
 
-# 89. Cognitive Integrity Invariants
+## 89. Cognitive Integrity Invariants
 
 ```text
 COG-001 INTEGRITY > COMPLETENESS
@@ -1943,9 +1943,9 @@ COG-029 IRREVERSIBILITY INCREASES VALIDATION REQUIREMENTS
 COG-030 OPTIMIZATION MUST NOT WEAKEN INTEGRITY
 ```
 
----
+______________________________________________________________________
 
-# 90. Cognitive Validation Matrix
+## 90. Cognitive Validation Matrix
 
 | Dimension     | Required question                                     |
 | ------------- | ----------------------------------------------------- |
@@ -1965,9 +1965,9 @@ COG-030 OPTIMIZATION MUST NOT WEAKEN INTEGRITY
 | Reversibility | Can the proposed action be safely reversed?           |
 | Gaps          | What unresolved information could change the outcome? |
 
----
+______________________________________________________________________
 
-# 91. Cognitive Test Families
+## 91. Cognitive Test Families
 
 A mature AMOS implementation should eventually test:
 
@@ -1997,9 +1997,9 @@ ANTI-REGRESSION
 ACTION GOVERNANCE
 ```
 
----
+______________________________________________________________________
 
-# 92. Adversarial Test Cases
+## 92. Adversarial Test Cases
 
 Useful cognitive adversarial tests include:
 
@@ -2027,9 +2027,9 @@ FAST PATH USED DESPITE CROSS-DEPENDENCY
 LOCAL FAILURE CAUSING UNNECESSARY GLOBAL RESET
 ```
 
----
+______________________________________________________________________
 
-# 93. Canonical Reasoning Template
+## 93. Canonical Reasoning Template
 
 ```text
 1. DEFINE OBJECTIVE
@@ -2049,9 +2049,9 @@ LOCAL FAILURE CAUSING UNNECESSARY GLOBAL RESET
 15. RETURN CONCISE, GAP-VISIBLE OUTPUT
 ```
 
----
+______________________________________________________________________
 
-# 94. Canonical Failure Template
+## 94. Canonical Failure Template
 
 ```text
 CONCLUSION FAILS
@@ -2071,9 +2071,9 @@ REVALIDATE
 UPDATE CONCLUSION CLASS
 ```
 
----
+______________________________________________________________________
 
-# 95. Cognitive Output Contract
+## 95. Cognitive Output Contract
 
 AMOS cognition should normally lead with the conclusion when safe.
 
@@ -2090,9 +2090,9 @@ NEXT ACTION
 
 Internal reasoning machinery need not be exposed to produce an auditable result.
 
----
+______________________________________________________________________
 
-# 96. Explainability Boundary
+## 96. Explainability Boundary
 
 AMOS should expose:
 
@@ -2109,9 +2109,9 @@ where useful.
 
 It need not expose private implementation internals or hidden reasoning traces.
 
----
+______________________________________________________________________
 
-# 97. Implementation Firewall
+## 97. Implementation Firewall
 
 This canon defines an **AMOS architectural cognition model**.
 
@@ -2145,9 +2145,9 @@ UNKNOWN/GAP
 
 as appropriate.
 
----
+______________________________________________________________________
 
-# 98. Promotion Gate
+## 98. Promotion Gate
 
 Promotion:
 
@@ -2187,9 +2187,9 @@ requires canonical review of at least:
 
 Unresolved GMEF semantics should remain explicitly `UNKNOWN/GAP` rather than being invented during promotion.
 
----
+______________________________________________________________________
 
-# 99. RSCF Node
+## 99. RSCF Node
 
 ```yaml
 node_id: AMOS_COGNITION_CANON
@@ -2246,9 +2246,9 @@ does_not_establish:
   - literal implementation of every distributed v4.4 coordination concept
 ```
 
----
+______________________________________________________________________
 
-# 100. Changelog
+## 100. Changelog
 
 ## v2.0.0 — 2026-08-25
 
@@ -2299,9 +2299,9 @@ Added:
 
 Initial placeholder reserved the canonical AMOS OS location.
 
----
+______________________________________________________________________
 
-# 101. Canonical Summary
+## 101. Canonical Summary
 
 ```text
 AMOS COGNITION
@@ -2390,27 +2390,30 @@ AND NEVER MAKE THE ANSWER
 STRONGER THAN THE EVIDENCE.
 ```
 
----
+______________________________________________________________________
 
 **Related:** README|AMOS OS · [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|MOC · [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]|Architecture · [[00_ROOT/SYSTEM_MAP|SYSTEM_MAP]]|System Map · [[00_ROOT/NEURAL_NETWORK|NEURAL_NETWORK]]|AMOS Neural Network · AMOS Canon · [[01_CANON/00_INDEX/CANON_MAP|CANON_MAP]]|Canon Map · [[01_CANON/01_CORE_LAWS/AMOS_CORE_LAWS|AMOS Core Laws]] · [[01_CANON/01_CORE_LAWS/INVARIANT_REGISTRY|INVARIANT_REGISTRY]]|Invariant Registry · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]|Law Hierarchy · [[01_CANON/02_UNIVERSE_CANON/HML_CANON|HML_CANON]]|H/M/L Canon · [[01_CANON/02_UNIVERSE_CANON/PERSISTENCE_CANON|PERSISTENCE_CANON]]|Persistence Canon · [[02_KERNEL/00_INDEX/KERNEL_MAP|KERNEL_MAP]]|Kernel Map · [[03_CONTROL_PLANE/00_INDEX/CONTROL_PLANE_MAP|CONTROL_PLANE_MAP]]|Control Plane Map · [[04_RUNTIME/00_INDEX/RUNTIME_MAP|RUNTIME_MAP]]|Runtime Map · [[05_COGNITIVE_ORGANISM/00_INDEX/COGNITIVE_ORGANISM_MAP|COGNITIVE_ORGANISM_MAP]]|Cognitive Organism Map · [[06_AGENTS/00_INDEX/AGENT_MAP|AGENT_MAP]]|Agent Map · [[08_WORKFLOWS/00_INDEX/WORKFLOW_MAP|WORKFLOW_MAP]]|Workflow Map · [[10_MEMORY/00_INDEX/MEMORY_MEMORY_MAP|MEMORY_MEMORY_MAP]]|Memory Map · Knowledge Map · [[12_STATE/00_INDEX/STATE_STATE_MAP|STATE_STATE_MAP]]|State Map · [[13_MODELS/00_INDEX/MODEL_MAP|MODEL_MAP]]|Model Map · [[16_SCHEMAS/00_INDEX/SCHEMA_MAP|SCHEMA_MAP]]|Schema Map · [[17_OBSERVABILITY/00_INDEX/OBSERVABILITY_OBSERVABILITY_MAP|OBSERVABILITY_OBSERVABILITY_MAP]]|Observability Map · [[19_TESTS/00_INDEX/TEST_MAP|TEST_MAP]]|Test Map · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_ARCHITECTURE|COGNITIVE_MATRIX_ARCHITECTURE]]|Cognitive Matrix
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: cognition_canon
 node_type: note
 path: 01_CANON/03_COGNITION_CANON/COGNITION_CANON.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[01_CANON/03_COGNITION_CANON/03_COGNITION_CANON_MOC|03_COGNITION_CANON_MOC]]
-

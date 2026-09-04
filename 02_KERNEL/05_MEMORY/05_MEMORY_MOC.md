@@ -1,15 +1,18 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: 05 Memory MOC
 type: moc
 source: 02_KERNEL/05_MEMORY
 tags:
-- 05-memory
-- canon/kernel
-- k-context-compaction
-- k-memory-admission
-- k-memory-conflict
-- k-memory-immune
-- k-memory-retrieval
+  - 05-memory
+  - canon/kernel
+  - k-context-compaction
+  - k-memory-admission
+  - k-memory-conflict
+  - k-memory-immune
+  - k-memory-retrieval
 moc: true
 rscf:
   state: DERIVED
@@ -37,5 +40,6 @@ rscf:
 
 - [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]] — 00_INDEX
 
----
+______________________________________________________________________
+
 **Parent:** [[02_KERNEL/02_KERNEL_MOC|02_KERNEL_MOC]]

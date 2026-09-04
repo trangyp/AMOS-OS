@@ -1,19 +1,22 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: L01 SENSING OBSERVATION PRIMITIVES COGNITIVE MATRIX VARIABLES
 type: variable
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION
 tags:
-- amos
-- cognitive-matrix
-- matrix/l01
-- sensing-observation
-- variables
-- typed-state
-- rscf
-- provenance
-- hml
-- control-plane
-- domain/cognitive-matrix
+  - amos
+  - cognitive-matrix
+  - matrix/l01
+  - sensing-observation
+  - variables
+  - typed-state
+  - rscf
+  - provenance
+  - hml
+  - control-plane
+  - domain/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL
@@ -33,9 +36,9 @@ rscf:
 
 > **Epistemic boundary:** this artifact defines a proposed typed variable contract for `L01_SENSING_OBSERVATION`. Variable definition does not establish runtime implementation, sensor availability, empirical validity, canonical adoption, or deployment authority.
 
----
+______________________________________________________________________
 
-# 0. Executive Definition
+## 0. Executive Definition
 
 `L01_SENSING_OBSERVATION/VARIABLES.md` defines the typed variables through which AMOS represents an observation before that observation may participate in interpretation, memory, inference, prediction, decision, or action.
 
@@ -63,25 +66,25 @@ DOWNSTREAM INTERPRETATION
 
 The central boundary is:
 
-[
-\boxed{
+\[
+\\boxed{
 Reality
-\neq
+\\neq
 Signal
-\neq
+\\neq
 Observation
-\neq
+\\neq
 Interpretation
-\neq
+\\neq
 Claim
 }
-]
+\]
 
 An observation is therefore not identical to the underlying reality it attempts to represent.
 
----
+______________________________________________________________________
 
-# 1. Purpose
+## 1. Purpose
 
 The variable contract exists to ensure that every material L01 state is:
 
@@ -116,9 +119,9 @@ stale evidence → current state
 
 The variable layer exists to prevent those collapses.
 
----
+______________________________________________________________________
 
-# 2. Source / Canon References
+## 2. Source / Canon References
 
 ## 2.1 Origin
 
@@ -217,20 +220,17 @@ VARIABLE DEFINED
 VARIABLE IMPLEMENTED
 ```
 
----
+______________________________________________________________________
 
-# 3. Definition and Scope
+## 3. Definition and Scope
 
 An `L01Variable` is a typed state element used to represent some aspect of sensing or observation.
 
 Candidate general form:
 
-[
-\boxed{
-V_{L01}
-=======
+## \[ \\boxed{ V\_{L01}
 
-[
+\[
 id,
 type,
 value,
@@ -245,9 +245,9 @@ HML,
 provenance,
 uncertainty,
 status
-]
+\]
 }
-]
+\]
 
 The variable contract governs:
 
@@ -286,9 +286,9 @@ action
 authority
 ```
 
----
+______________________________________________________________________
 
-# 4. Variable Namespace
+## 4. Variable Namespace
 
 Recommended namespace:
 
@@ -313,9 +313,9 @@ L01.state.status
 
 This namespace is a model convention unless directly confirmed by canonical source material.
 
----
+______________________________________________________________________
 
-# 5. Core Variable Families
+## 5. Core Variable Families
 
 ```yaml
 variable_families:
@@ -372,9 +372,9 @@ variable_families:
     purpose: preserve admission/quarantine/authority state
 ```
 
----
+______________________________________________________________________
 
-# 6. Identity Variables
+## 6. Identity Variables
 
 ```yaml
 identity:
@@ -405,25 +405,25 @@ identity:
 
 Invariant:
 
-[
-\boxed{
-observation_id \neq source_id
+\[
+\\boxed{
+observation_id \\neq source_id
 }
-]
+\]
 
 and:
 
-[
-\boxed{
+\[
+\\boxed{
 NewRepresentation
-\not\Rightarrow
+\\not\\Rightarrow
 NewRealityEvent
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 7. Source Variables
+## 7. Source Variables
 
 ```yaml
 source:
@@ -480,9 +480,9 @@ must not silently become:
 SOURCE_TYPE = SENSOR
 ```
 
----
+______________________________________________________________________
 
-# 8. Observer Variables
+## 8. Observer Variables
 
 ```yaml
 observer:
@@ -515,17 +515,17 @@ observer:
 
 Observer variables must not imply that an observer's representation equals observer-independent reality.
 
-[
-\boxed{
+\[
+\\boxed{
 Observation(o,x)
-\neq
+\\neq
 x
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 9. Modality Variables
+## 9. Modality Variables
 
 ```yaml
 modality:
@@ -562,9 +562,9 @@ modality:
 
 Modality conversion must preserve lineage.
 
----
+______________________________________________________________________
 
-# 10. Raw Signal Variables
+## 10. Raw Signal Variables
 
 ```yaml
 signal:
@@ -610,9 +610,9 @@ RAW
 UNPROCESSED BY HARDWARE
 ```
 
----
+______________________________________________________________________
 
-# 11. Observation Variables
+## 11. Observation Variables
 
 ```yaml
 observation:
@@ -655,9 +655,9 @@ DIRECT
 
 does not automatically mean empirically correct.
 
----
+______________________________________________________________________
 
-# 12. Temporal Variables
+## 12. Temporal Variables
 
 At minimum distinguish:
 
@@ -696,21 +696,21 @@ temporal:
 
 Invariant:
 
-[
-\boxed{
-t_{event},
-t_{observe},
-t_{ingest},
-t_{process},
-t_{decision}
+\[
+\\boxed{
+t\_{event},
+t\_{observe},
+t\_{ingest},
+t\_{process},
+t\_{decision}
 }
-]
+\]
 
 must remain distinguishable whenever materially relevant.
 
----
+______________________________________________________________________
 
-# 13. Spatial Variables
+## 13. Spatial Variables
 
 Where spatial context exists:
 
@@ -732,9 +732,9 @@ spatial:
 
 A coordinate without its reference frame may be invalid or ambiguous.
 
----
+______________________________________________________________________
 
-# 14. Scope Variables
+## 14. Scope Variables
 
 ```yaml
 scope:
@@ -760,19 +760,19 @@ scope:
 
 Scope cannot silently widen downstream.
 
-[
-\boxed{
+\[
+\\boxed{
 Scope(Derived)
-\subseteq
+\\subseteq
 Scope(LoadBearingInputs)
 }
-]
+\]
 
 unless independently justified.
 
----
+______________________________________________________________________
 
-# 15. Regime Variables
+## 15. Regime Variables
 
 ```yaml
 regime:
@@ -798,9 +798,9 @@ regime:
 
 A result valid in one regime cannot silently migrate into another.
 
----
+______________________________________________________________________
 
-# 16. H/M/L Variables
+## 16. H/M/L Variables
 
 ```yaml
 HML:
@@ -834,19 +834,19 @@ H = governing/system-level state
 
 Hard boundary:
 
-[
-\boxed{
+\[
+\\boxed{
 Observation_L
-\not\Rightarrow
+\\not\\Rightarrow
 State_H
 }
-]
+\]
 
 without a valid translation/dependency path.
 
----
+______________________________________________________________________
 
-# 17. Quality Variables
+## 17. Quality Variables
 
 ```yaml
 quality:
@@ -878,9 +878,9 @@ quality:
 
 These are distinct constructs and must not be merged into one generic confidence number without an explicit mapping.
 
----
+______________________________________________________________________
 
-# 18. Uncertainty Variables
+## 18. Uncertainty Variables
 
 ```yaml
 uncertainty:
@@ -912,10 +912,10 @@ uncertainty:
 
 Recommended vector:
 
-[
-\boxed{
+\[
+\\boxed{
 U =
-[
+\[
 U_e,
 U_m,
 U_s,
@@ -923,15 +923,15 @@ U_t,
 U_c,
 U_p,
 U_i
-]
+\]
 }
-]
+\]
 
 Do not collapse this vector prematurely into one scalar.
 
----
+______________________________________________________________________
 
-# 19. Confidence Variables
+## 19. Confidence Variables
 
 ```yaml
 confidence:
@@ -951,20 +951,20 @@ confidence:
 
 Governing rule:
 
-[
-\boxed{
-C_{derived}
-\le
-\min_{i \in LB}
+\[
+\\boxed{
+C\_{derived}
+\\le
+\\min\_{i \\in LB}
 C_i
 }
-]
+\]
 
 for load-bearing premises unless independent revalidation licenses a higher ceiling.
 
----
+______________________________________________________________________
 
-# 20. Freshness Variables
+## 20. Freshness Variables
 
 ```yaml
 freshness:
@@ -1002,9 +1002,9 @@ RECENT
 VALID
 ```
 
----
+______________________________________________________________________
 
-# 21. Provenance Variables
+## 21. Provenance Variables
 
 ```yaml
 provenance:
@@ -1045,17 +1045,17 @@ provenance:
 
 Multiple descendants of one origin remain provenance-correlated.
 
-[
-\boxed{
+\[
+\\boxed{
 n;descendants(source_x)
-\neq
+\\neq
 n;independent;sources
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 22. Dependency Variables
+## 22. Dependency Variables
 
 ```yaml
 dependency:
@@ -1080,9 +1080,9 @@ Dependencies support selective invalidation.
 
 A failed premise should invalidate dependent conclusions rather than unrelated state.
 
----
+______________________________________________________________________
 
-# 23. Lifecycle State Variables
+## 23. Lifecycle State Variables
 
 ```yaml
 state:
@@ -1144,9 +1144,9 @@ ANY
 → REVOKED
 ```
 
----
+______________________________________________________________________
 
-# 24. Governance Variables
+## 24. Governance Variables
 
 ```yaml
 governance:
@@ -1185,24 +1185,24 @@ governance:
 
 Hard boundary:
 
-[
-\boxed{
+\[
+\\boxed{
 commit_eligibility
-\neq
+\\neq
 commit_authority
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 25. Canonical Candidate Observation Tensor
+## 25. Canonical Candidate Observation Tensor
 
 A compact candidate state representation is:
 
-[
-\boxed{
+\[
+\\boxed{
 O =
-T[
+T\[
 I,
 S,
 B,
@@ -1218,9 +1218,9 @@ U,
 P,
 D,
 G
-]
+\]
 }
-]
+\]
 
 where:
 
@@ -1244,9 +1244,9 @@ G  = governance/lifecycle state
 
 This tensor is an `AMOS_MODEL` representation, not an asserted canonical equation unless independently source-confirmed.
 
----
+______________________________________________________________________
 
-# 26. Typed Input Contract
+## 26. Typed Input Contract
 
 ```yaml
 L01Input:
@@ -1288,9 +1288,9 @@ L01Input:
     type: AuthorityContext | UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 27. Typed Output Contract
+## 27. Typed Output Contract
 
 ```yaml
 L01Output:
@@ -1329,9 +1329,9 @@ L01Output:
     type: GapRecord[]
 ```
 
----
+______________________________________________________________________
 
-# 28. Operators
+## 28. Operators
 
 Variables may be acted upon only through typed operators.
 
@@ -1371,9 +1371,9 @@ ARCHIVE
 
 Operators must not silently destroy variable dimensions required by downstream integrity.
 
----
+______________________________________________________________________
 
-# 29. Variable Invariants
+## 29. Variable Invariants
 
 ```text
 L01-VAR-INV-001
@@ -1452,9 +1452,9 @@ L01-VAR-INV-025
 Missing required variables produce GAP/UNKNOWN rather than fabricated defaults.
 ```
 
----
+______________________________________________________________________
 
-# 30. Dependencies
+## 30. Dependencies
 
 Primary architectural dependencies:
 
@@ -1484,9 +1484,9 @@ L01_TESTS
 
 Variable interpretation must not outrun those contracts.
 
----
+______________________________________________________________________
 
-# 31. H/M/L Applicability
+## 31. H/M/L Applicability
 
 ## L — Local
 
@@ -1528,19 +1528,19 @@ governance state
 
 Rule:
 
-[
-\boxed{
-V_L \rightarrow V_M \rightarrow V_H
+\[
+\\boxed{
+V_L \\rightarrow V_M \\rightarrow V_H
 }
-]
+\]
 
 requires explicit transformation operators.
 
 Scale promotion is not automatic.
 
----
+______________________________________________________________________
 
-# 32. Control-Plane Requirements
+## 32. Control-Plane Requirements
 
 The infrastructure/control plane should own or enforce, where applicable:
 
@@ -1572,9 +1572,9 @@ repair
 
 but proposal does not equal durable state mutation.
 
----
+______________________________________________________________________
 
-# 33. Agents
+## 33. Agents
 
 Candidate architectural roles:
 
@@ -1598,9 +1598,9 @@ DEFINED AGENT
 DEPLOYED AGENT
 ```
 
----
+______________________________________________________________________
 
-# 34. Skills
+## 34. Skills
 
 Candidate supporting skill families:
 
@@ -1621,9 +1621,9 @@ repair/recovery
 
 Skill availability does not establish runtime execution.
 
----
+______________________________________________________________________
 
-# 35. Workflow
+## 35. Workflow
 
 ```text
 RECEIVE INPUT
@@ -1667,9 +1667,9 @@ ADMIT / QUARANTINE / REJECT
 EMIT OBSERVATION RECORD
 ```
 
----
+______________________________________________________________________
 
-# 36. Protocols
+## 36. Protocols
 
 Candidate protocol objects:
 
@@ -1694,9 +1694,9 @@ ObservationInvalidationEvent
 ObservationRepairProposal
 ```
 
----
+______________________________________________________________________
 
-# 37. Evidence / Provenance
+## 37. Evidence / Provenance
 
 Each material variable should carry sufficient provenance to answer:
 
@@ -1716,12 +1716,9 @@ What claims depend on it?
 
 Candidate provenance binding:
 
-[
-\boxed{
-P(V)
-====
+## \[ \\boxed{ P(V)
 
-[
+\[
 origin,
 ancestry,
 transformations,
@@ -1730,13 +1727,13 @@ scope,
 regime,
 HML,
 evidence
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 38. Uncertainty and Confidence Ceiling
+## 38. Uncertainty and Confidence Ceiling
 
 A variable may be syntactically valid while epistemically weak.
 
@@ -1754,26 +1751,26 @@ REALITY_VALID
 
 Candidate confidence ceiling:
 
-[
-\boxed{
+\[
+\\boxed{
 C(V)
-\le
-\min(
-C_{source},
-C_{measurement},
-C_{provenance},
-C_{scope},
-C_{regime},
-C_{freshness}
+\\le
+\\min(
+C\_{source},
+C\_{measurement},
+C\_{provenance},
+C\_{scope},
+C\_{regime},
+C\_{freshness}
 )
 }
-]
+\]
 
 where these are load-bearing.
 
----
+______________________________________________________________________
 
-# 39. Failure Modes
+## 39. Failure Modes
 
 ```text
 FM-L01-VAR-001   Missing-Identity
@@ -1808,9 +1805,9 @@ FM-L01-VAR-029   Under-Invalidation
 FM-L01-VAR-030   Cross-Scale-Semantic-Loss
 ```
 
----
+______________________________________________________________________
 
-# 40. Repair / Recovery
+## 40. Repair / Recovery
 
 When variable integrity fails:
 
@@ -1846,9 +1843,9 @@ RESTORE / RETAIN QUARANTINE
 
 Repair must preserve failure history.
 
----
+______________________________________________________________________
 
-# 41. Tests / Validators
+## 41. Tests / Validators
 
 Minimum candidate validator registry:
 
@@ -1941,9 +1938,9 @@ TEST_L01_VAR_020
 Repair requires revalidation.
 ```
 
----
+______________________________________________________________________
 
-# 42. Falsifiers
+## 42. Falsifiers
 
 This contract must be revised if:
 
@@ -1967,9 +1964,9 @@ formal validation identifies contradictory invariants
 empirical implementation evidence falsifies assumed variable behavior
 ```
 
----
+______________________________________________________________________
 
-# 43. Gap Matrix
+## 43. Gap Matrix
 
 ```yaml
 gap_matrix:
@@ -2069,9 +2066,9 @@ gap_matrix:
     status: MODEL_COMPLETE
 ```
 
----
+______________________________________________________________________
 
-# 44. Gap Resolution Priority
+## 44. Gap Resolution Priority
 
 ```text
 1. Locate direct canonical L01 VARIABLES material.
@@ -2115,9 +2112,9 @@ gap_matrix:
 20. Promote only from observed evidence.
 ```
 
----
+______________________________________________________________________
 
-# 45. Evidence / Provenance of This Artifact
+## 45. Evidence / Provenance of This Artifact
 
 ```yaml
 artifact_provenance:
@@ -2153,9 +2150,9 @@ artifact_provenance:
     status: NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 46. Uncertainty Vector
+## 46. Uncertainty Vector
 
 ```yaml
 uncertainty:
@@ -2190,9 +2187,9 @@ uncertainty:
     level: MEDIUM_HIGH
 ```
 
----
+______________________________________________________________________
 
-# 47. Confidence Ceiling
+## 47. Confidence Ceiling
 
 Strongest warranted conclusion:
 
@@ -2212,9 +2209,9 @@ FORMALLY VERIFIED
 DEPLOYMENT READY
 ```
 
----
+______________________________________________________________________
 
-# 48. RSCF Completion State
+## 48. RSCF Completion State
 
 ```yaml
 rscf:
@@ -2342,9 +2339,9 @@ rscf:
     - executed validation
 ```
 
----
+______________________________________________________________________
 
-# 49. Completion State
+## 49. Completion State
 
 ```yaml
 completion_state:
@@ -2425,9 +2422,9 @@ completion_state:
     MODEL / CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
-# 50. Variable Contract Summary
+## 50. Variable Contract Summary
 
 ```text
 L01 OBSERVATION VARIABLE
@@ -2477,9 +2474,9 @@ The governing principle is:
 
 > **AMOS must preserve enough typed structure around an observation that downstream reasoning can distinguish what was observed, where it came from, when and under what conditions it applied, how it was transformed, what uncertainty remains, and what conclusions must be invalidated if it fails.**
 
----
+______________________________________________________________________
 
-# 51. Final Hard Boundaries
+## 51. Final Hard Boundaries
 
 ```text
 PLACEHOLDER != IMPLEMENTED
@@ -2563,9 +2560,9 @@ CANON_COMPLETE != IMPLEMENTED
 IMPLEMENTED != VALIDATED
 ```
 
----
+______________________________________________________________________
 
-# 52. References
+## 52. References
 
 ## Internal L00/L01 References
 
@@ -2636,30 +2633,33 @@ KHUNG_TRANG_FULL_MAX_DETAIL_ARCHITECTURE_EQUATIONS
 
 > Reference presence establishes intended lineage and dependency only. It does not establish that the reconstructed L01 variable registry above appears verbatim in those sources. Exact source-to-variable mapping remains `UNKNOWN/GAP` until directly verified.
 
----
+______________________________________________________________________
 
 **Related:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]]
 
 ```text
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: l01_sensing_observation_primitives_cognitive_matrix_variables
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_VARIABLES.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_MOC|L01_SENSING_OBSERVATION_MOC]]
-

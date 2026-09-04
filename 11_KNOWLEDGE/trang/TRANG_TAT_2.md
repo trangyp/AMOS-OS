@@ -30,47 +30,47 @@ aliases:
   - "Independent Cross-Validation Principle"
 
 tags:
-- amos-os
-- knowledge
-- vault
-- trang
-- trang_zero
-- tat_2
-- t2
-- cross_validation
-- independent_sources
-- source_independence
-- provenance
-- epistemic_validation
-- evidence
-- confidence
-- decision_governance
-- anti_hallucination
-- anti_autopoisoning
-- lmh
-- fractal
-- temporal_validation
-- spatial_validation
-- social_validation
-- science
-- medicine
-- law
-- finance
-- ai
-- asea
-- governance
-- rscf
-- canon_candidate
-- canon/knowledge
-- canon/framework
-- canon-group/epistemology
-- topic/source-independence
-- topic/cross-validation
-- topic/evidence-topology
-- topic/decision-gate
-- rscf/claim
-- rscf/provenance
-- rscf/state/source-claim
+  - amos-os
+  - knowledge
+  - vault
+  - trang
+  - trang_zero
+  - tat_2
+  - t2
+  - cross_validation
+  - independent_sources
+  - source_independence
+  - provenance
+  - epistemic_validation
+  - evidence
+  - confidence
+  - decision_governance
+  - anti_hallucination
+  - anti_autopoisoning
+  - lmh
+  - fractal
+  - temporal_validation
+  - spatial_validation
+  - social_validation
+  - science
+  - medicine
+  - law
+  - finance
+  - ai
+  - asea
+  - governance
+  - rscf
+  - canon_candidate
+  - canon/knowledge
+  - canon/framework
+  - canon-group/epistemology
+  - topic/source-independence
+  - topic/cross-validation
+  - topic/evidence-topology
+  - topic/decision-gate
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
 
 version: "1.0.0"
 
@@ -245,9 +245,9 @@ $$
 }
 $$
 
----
+______________________________________________________________________
 
-# 1. Canonical Purpose
+## 1. Canonical Purpose
 
 Trang Tát 2 exists to reduce failure caused by:
 
@@ -284,9 +284,9 @@ $$
 }
 $$
 
----
+______________________________________________________________________
 
-# 2. Core Definition
+## 2. Core Definition
 
 Let:
 
@@ -327,9 +327,9 @@ Independent(S_i,S_j)=True
 }
 $$
 
----
+______________________________________________________________________
 
-# 3. Independence Is the Critical Variable
+## 3. Independence Is the Critical Variable
 
 The number two is not sufficient by itself.
 
@@ -365,9 +365,9 @@ $$
 }
 $$
 
----
+______________________________________________________________________
 
-# 4. Source Independence
+## 4. Source Independence
 
 A strong independence assessment should examine whether sources share:
 
@@ -399,9 +399,9 @@ $$
 
 not merely a source-count property.
 
----
+______________________________________________________________________
 
-# 5. Provenance Topology
+## 5. Provenance Topology
 
 Suppose:
 
@@ -449,15 +449,15 @@ $$
 
 unless independent evidence is added elsewhere.
 
----
+______________________________________________________________________
 
-# 6. T2 Is Not Re-Checking
+## 6. T2 Is Not Re-Checking
 
 Canonical firewall:
 
 ```text
 RECHECK != T2
-````
+```
 
 Two measurements performed:
 
@@ -479,9 +479,9 @@ Independence
 }
 $$
 
----
+______________________________________________________________________
 
-# 7. Four Independence Dimensions in the Source
+## 7. Four Independence Dimensions in the Source
 
 The source identifies four desirable forms of variation.
 
@@ -503,7 +503,7 @@ $$
 Method(S_1)\neq Method(S_2)
 $$
 
----
+______________________________________________________________________
 
 ## 7.2 L/M/H Layer Independence
 
@@ -521,7 +521,7 @@ where:
 
 The purpose is to avoid verifying a claim only from one structural layer.
 
----
+______________________________________________________________________
 
 ## 7.3 Temporal Independence
 
@@ -535,7 +535,7 @@ with adequate separation.
 
 Time separation alone does not prove source independence.
 
----
+______________________________________________________________________
 
 ## 7.4 Observer Independence
 
@@ -552,9 +552,9 @@ may provide stronger independence when they do not share relevant error ancestry
 
 Observer difference alone is insufficient if both observers depend on one original source.
 
----
+______________________________________________________________________
 
-# 8. Three T2 Layers — L / M / H
+## 8. Three T2 Layers — L / M / H
 
 The source defines three validation layers.
 
@@ -564,9 +564,9 @@ The source defines three validation layers.
 | **M — Mediator**   | Analytical connection           | logic, mathematics, model, simulation, peer review, system feedback               | model agreement is not independent observation                                |
 | **H — Peak**       | synthesis / principles / values | first principles, philosophy, ethical values, expert intuition                    | cannot substitute for empirical evidence where empirical evidence is required |
 
----
+______________________________________________________________________
 
-# 9. L — Foundation Validation
+## 9. L — Foundation Validation
 
 The L layer corresponds in the source to relatively direct grounding.
 
@@ -590,9 +590,9 @@ $$
 
 means that $C$ receives support at the foundational evidence layer.
 
----
+______________________________________________________________________
 
-# 10. L Is Not Automatically Infallible
+## 10. L Is Not Automatically Infallible
 
 Direct evidence can still fail through:
 
@@ -614,9 +614,9 @@ L\neq AbsoluteTruth
 }
 $$
 
----
+______________________________________________________________________
 
-# 11. M — Mediator Validation
+## 11. M — Mediator Validation
 
 The M layer includes:
 
@@ -635,9 +635,9 @@ Confirm_M(C)
 }
 $$
 
----
+______________________________________________________________________
 
-# 12. M Does Not Replace L
+## 12. M Does Not Replace L
 
 A model can internally validate coherence without establishing empirical truth.
 
@@ -661,9 +661,9 @@ Confirm_L(C)
 }
 $$
 
----
+______________________________________________________________________
 
-# 13. H — Peak Validation
+## 13. H — Peak Validation
 
 The H layer includes source-defined high-level synthesis such as:
 
@@ -681,9 +681,9 @@ Confirm_H(C)
 }
 $$
 
----
+______________________________________________________________________
 
-# 14. H Epistemic Firewall
+## 14. H Epistemic Firewall
 
 For empirical claims:
 
@@ -704,9 +704,9 @@ Intuition, philosophy, or values may affect:
 
 but cannot by themselves serve as empirical measurement.
 
----
+______________________________________________________________________
 
-# 15. Ideal Three-Layer T2
+## 15. Ideal Three-Layer T2
 
 The source defines an ideal form:
 
@@ -724,9 +724,9 @@ $$
 
 This should be interpreted as a **source-defined high-strength validation architecture**, not a universal scientific truth criterion.
 
----
+______________________________________________________________________
 
-# 16. T2 Strength Classes
+## 16. T2 Strength Classes
 
 The source defines four classes.
 
@@ -737,9 +737,9 @@ The source defines four classes.
 | Strong T2  | $T2_3$ | two different layers with at least L or H represented |
 | Perfect T2 | $T2^*$ | L, M and H all independently support the claim        |
 
----
+______________________________________________________________________
 
-# 17. Weak T2
+## 17. Weak T2
 
 Source form:
 
@@ -761,9 +761,9 @@ within one broad epistemic layer.
 
 This may improve robustness against method-specific error.
 
----
+______________________________________________________________________
 
-# 18. Medium T2
+## 18. Medium T2
 
 Source form:
 
@@ -787,9 +787,9 @@ CROSS-SUPPORT
 
 This can be valuable when the model and empirical stream are genuinely non-circular.
 
----
+______________________________________________________________________
 
-# 19. Strong T2
+## 19. Strong T2
 
 Source form:
 
@@ -811,9 +811,9 @@ Its actual strength depends on:
 
 not layer count alone.
 
----
+______________________________________________________________________
 
-# 20. Perfect T2
+## 20. Perfect T2
 
 Source-defined:
 
@@ -834,9 +834,9 @@ T2* = SOURCE-DEFINED MAXIMAL CROSS-LAYER VALIDATION
 T2* != GUARANTEED TRUTH
 ```
 
----
+______________________________________________________________________
 
-# 21. Numerical Reliability Percentages
+## 21. Numerical Reliability Percentages
 
 The source provides approximate confidence bands such as:
 
@@ -854,9 +854,9 @@ validation_status: NOT_INDEPENDENTLY_ESTABLISHED
 
 because no calibration dataset, estimator, sampling model, or domain-specific validation is supplied.
 
----
+______________________________________________________________________
 
-# 22. Source Probability Formula
+## 22. Source Probability Formula
 
 The source gives:
 
@@ -868,9 +868,9 @@ $$
 
 This formula is preserved as a source-defined expression.
 
----
+______________________________________________________________________
 
-# 23. Probability Firewall
+## 23. Probability Firewall
 
 The expression:
 
@@ -904,9 +904,9 @@ formula:
   use_as_calibrated_truth_probability: PROHIBITED_WITHOUT_MODEL
 ```
 
----
+______________________________________________________________________
 
-# 24. Strong T2 Probability Formula
+## 24. Strong T2 Probability Formula
 
 Source-defined:
 
@@ -926,9 +926,9 @@ claim_class: AMOS_MODEL
 
 not as a universally valid reliability equation.
 
----
+______________________________________________________________________
 
-# 25. Perfect T2 Probability Formula
+## 25. Perfect T2 Probability Formula
 
 Source-defined:
 
@@ -949,9 +949,9 @@ $$
 }
 $$
 
----
+______________________________________________________________________
 
-# 26. Confidence Is Not Multiplicity
+## 26. Confidence Is Not Multiplicity
 
 A critical AMOS extension consistent with the source is:
 
@@ -978,9 +978,9 @@ RegimeFit
 )
 $$
 
----
+______________________________________________________________________
 
-# 27. Weakest Load-Bearing Premise
+## 27. Weakest Load-Bearing Premise
 
 If conclusion $C$ depends on premises:
 
@@ -1000,9 +1000,9 @@ $$
 
 This prevents corroboration from laundering weak premises into stronger conclusions.
 
----
+______________________________________________________________________
 
-# 28. T2 vs Confidence Ceiling
+## 28. T2 vs Confidence Ceiling
 
 T2 can improve support.
 
@@ -1024,9 +1024,9 @@ UnlimitedConfidence
 }
 $$
 
----
+______________________________________________________________________
 
-# 29. Mandatory T2
+## 29. Mandatory T2
 
 The source declares T2 mandatory for:
 
@@ -1049,9 +1049,9 @@ Within AMOS this should be treated as:
 policy_class: SOURCE_DEFINED_GOVERNANCE_RULE
 ```
 
----
+______________________________________________________________________
 
-# 30. Stakes-Scaled T2
+## 30. Stakes-Scaled T2
 
 A hardened AMOS interpretation is:
 
@@ -1075,9 +1075,9 @@ Thus validation intensity should rise with:
 - institutional impact
 - dependency radius
 
----
+______________________________________________________________________
 
-# 31. T2 Decision Gate
+## 31. T2 Decision Gate
 
 Canonical flow:
 
@@ -1099,9 +1099,9 @@ T2 PASS / CONDITIONAL / FAIL
 ACTION GOVERNANCE
 ```
 
----
+______________________________________________________________________
 
-# 32. T2 States
+## 32. T2 States
 
 A runtime representation can use:
 
@@ -1118,9 +1118,9 @@ rather than only Boolean `True/False`.
 
 This preserves uncertainty more accurately.
 
----
+______________________________________________________________________
 
-# 33. PASS
+## 33. PASS
 
 Use when:
 
@@ -1130,9 +1130,9 @@ Use when:
 - evidence is fresh enough
 - no unresolved contradiction invalidates the support
 
----
+______________________________________________________________________
 
-# 34. CONDITIONAL
+## 34. CONDITIONAL
 
 Use when support exists but depends on:
 
@@ -1143,9 +1143,9 @@ Use when support exists but depends on:
 - measurement method
 - incomplete independence
 
----
+______________________________________________________________________
 
-# 35. FAIL
+## 35. FAIL
 
 Use when:
 
@@ -1154,9 +1154,9 @@ Use when:
 - support fails
 - known falsifier fires
 
----
+______________________________________________________________________
 
-# 36. UNKNOWN
+## 36. UNKNOWN
 
 Use when:
 
@@ -1175,9 +1175,9 @@ PASS
 }
 $$
 
----
+______________________________________________________________________
 
-# 37. COMPETING
+## 37. COMPETING
 
 When:
 
@@ -1201,9 +1201,9 @@ state: COMPETING
 
 until discriminating evidence appears.
 
----
+______________________________________________________________________
 
-# 38. T2 and Contradictions
+## 38. T2 and Contradictions
 
 Independent contradiction is highly informative.
 
@@ -1221,9 +1221,9 @@ SECOND PATH SEEKING FALSIFICATION
 
 This hardens T2 from confirmation checking into adversarial validation.
 
----
+______________________________________________________________________
 
-# 39. Adversarial T2
+## 39. Adversarial T2
 
 Canonical strengthened form:
 
@@ -1247,9 +1247,9 @@ The second path actively searches for:
 - stronger alternatives
 - causal overreach
 
----
+______________________________________________________________________
 
-# 40. T2 in Experimental Science
+## 40. T2 in Experimental Science
 
 The source proposes independent experimental replication as a gold-standard example.
 
@@ -1270,9 +1270,9 @@ where:
 - analysis pipelines should ideally differ
 - shared systemic assumptions remain visible
 
----
+______________________________________________________________________
 
-# 41. Scientific Replication Firewall
+## 41. Scientific Replication Firewall
 
 Two laboratories can still share:
 
@@ -1293,9 +1293,9 @@ PerfectIndependence
 }
 $$
 
----
+______________________________________________________________________
 
-# 42. LIGO / Virgo Example
+## 42. LIGO / Virgo Example
 
 The source cites gravitational-wave observations as an illustration of independent confirmation.
 
@@ -1308,9 +1308,9 @@ historical_details: REQUIRE_EXTERNAL_VERIFICATION_IF_USED_FACTUALLY
 
 It should not be used to infer the source's numerical T2 confidence classes.
 
----
+______________________________________________________________________
 
-# 43. T2 in Medicine
+## 43. T2 in Medicine
 
 The source proposes multiple diagnostic methods before major treatment decisions.
 
@@ -1335,9 +1335,9 @@ Actual clinical requirements depend on:
 - urgency
 - patient context
 
----
+______________________________________________________________________
 
-# 44. Clinical Trial Claim Boundary
+## 44. Clinical Trial Claim Boundary
 
 The source states that treatment safety may require multiple independent Phase III trials.
 
@@ -1350,9 +1350,9 @@ universal_medical_rule: NOT_ESTABLISHED
 
 because regulatory and evidentiary standards vary.
 
----
+______________________________________________________________________
 
-# 45. T2 in AI
+## 45. T2 in AI
 
 The source maps T2 into Trang ASEA.
 
@@ -1368,9 +1368,9 @@ M VALIDATES
 OUTPUT OR HOLD
 ```
 
----
+______________________________________________________________________
 
-# 46. Source AI Output Rule
+## 46. Source AI Output Rule
 
 The source defines:
 
@@ -1389,9 +1389,9 @@ $$
 
 This is a conceptual gating rule.
 
----
+______________________________________________________________________
 
-# 47. AI Epistemic Firewall
+## 47. AI Epistemic Firewall
 
 An AI subsystem checking another AI subsystem does not create independent evidence if both share:
 
@@ -1414,9 +1414,9 @@ $$
 
 unless independence is demonstrated.
 
----
+______________________________________________________________________
 
-# 48. Model Ensemble != Provenance Independence
+## 48. Model Ensemble != Provenance Independence
 
 Likewise:
 
@@ -1432,9 +1432,9 @@ when both depend on the same upstream evidence.
 
 T2 must be assessed at the **evidence ancestry** level, not only at the model level.
 
----
+______________________________________________________________________
 
-# 49. T2 and Hallucination
+## 49. T2 and Hallucination
 
 T2 can reduce hallucination risk when the validating path contains genuinely grounded evidence.
 
@@ -1450,9 +1450,9 @@ $$
 
 Two models can independently produce the same unsupported answer.
 
----
+______________________________________________________________________
 
-# 50. T2 in Law
+## 50. T2 in Law
 
 The source proposes independent evidence in legal judgment.
 
@@ -1470,9 +1470,9 @@ TRANG T2 != UNIVERSAL LEGAL STANDARD
 
 Legal evidentiary standards vary across jurisdictions and case types.
 
----
+______________________________________________________________________
 
-# 51. Appeal as Temporal T2
+## 51. Appeal as Temporal T2
 
 The source interprets appeal as a temporal/institutional form of second review.
 
@@ -1480,9 +1480,9 @@ This is a **structural analogy**.
 
 It does not mean every appellate system satisfies strict provenance independence.
 
----
+______________________________________________________________________
 
-# 52. T2 in Investment
+## 52. T2 in Investment
 
 Source guidance:
 
@@ -1499,9 +1499,9 @@ Possible source examples:
 - market data
 - separate analysts
 
----
+______________________________________________________________________
 
-# 53. Investment Firewall
+## 53. Investment Firewall
 
 Different analytical techniques applied to the same dataset are not necessarily independent evidence.
 
@@ -1519,9 +1519,9 @@ $$
 
 unless the evidentiary ancestry is independently grounded.
 
----
+______________________________________________________________________
 
-# 54. T2 in News
+## 54. T2 in News
 
 The source recommends cross-checking reports across independently originated sources.
 
@@ -1537,9 +1537,9 @@ $$
 
 Ten outlets repeating one wire-service claim may represent one root.
 
----
+______________________________________________________________________
 
-# 55. T2 in Social Commitments
+## 55. T2 in Social Commitments
 
 The source uses:
 
@@ -1551,9 +1551,9 @@ as examples of redundancy.
 
 These should be distinguished from epistemic independence because written and spoken records from the same person may share one origin.
 
----
+______________________________________________________________________
 
-# 56. Temporal T2
+## 56. Temporal T2
 
 Source-defined:
 
@@ -1573,9 +1573,9 @@ Confirm(C,t_1)
 Confirm(C,t_2)
 $$
 
----
+______________________________________________________________________
 
-# 57. Temporal Independence Firewall
+## 57. Temporal Independence Firewall
 
 Time separation can detect:
 
@@ -1595,9 +1595,9 @@ $$
 
 if the same error persists.
 
----
+______________________________________________________________________
 
-# 58. Spatial T2
+## 58. Spatial T2
 
 Source-defined:
 
@@ -1609,9 +1609,9 @@ $$
 
 when a phenomenon is independently observed from geographically separated locations.
 
----
+______________________________________________________________________
 
-# 59. Spatial Independence Firewall
+## 59. Spatial Independence Firewall
 
 Geographic separation can improve independence.
 
@@ -1633,9 +1633,9 @@ GuaranteedIndependence
 }
 $$
 
----
+______________________________________________________________________
 
-# 60. Social T2
+## 60. Social T2
 
 Source-defined:
 
@@ -1649,9 +1649,9 @@ when claims are independently recorded by groups with distinct or opposing inter
 
 This can reduce some incentive-correlated error.
 
----
+______________________________________________________________________
 
-# 61. Adversarial Source Value
+## 61. Adversarial Source Value
 
 If two genuinely adversarial parties independently agree on observation $C$, that convergence can be informationally valuable.
 
@@ -1672,9 +1672,9 @@ because both may share:
 - common assumptions
 - strategic incentives
 
----
+______________________________________________________________________
 
-# 62. Independence Tensor
+## 62. Independence Tensor
 
 An AMOS-compatible independence representation can be:
 
@@ -1698,9 +1698,9 @@ $$
 
 Two sources become more independent as fewer load-bearing axes share ancestry.
 
----
+______________________________________________________________________
 
-# 63. Evidence Tensor Binding
+## 63. Evidence Tensor Binding
 
 Using [[11_KNOWLEDGE/TENSOR_CONTRACTS|TENSOR_CONTRACTS]]:
 
@@ -1724,9 +1724,9 @@ $$
 
 T2 should operate on this topology rather than raw source counts.
 
----
+______________________________________________________________________
 
-# 64. Claim Tensor Binding
+## 64. Claim Tensor Binding
 
 $$
 T_C=
@@ -1757,9 +1757,9 @@ It must not silently modify:
 
 without justification.
 
----
+______________________________________________________________________
 
-# 65. Governance Tensor Binding
+## 65. Governance Tensor Binding
 
 $$
 T_G=
@@ -1778,9 +1778,9 @@ $$
 
 Thus required T2 strength can depend on action stakes.
 
----
+______________________________________________________________________
 
-# 66. Memory Tensor Binding
+## 66. Memory Tensor Binding
 
 $$
 T_M=
@@ -1799,9 +1799,9 @@ $$
 
 A claim should not be permanently promoted solely because it once passed T2 if its evidence later becomes stale or revoked.
 
----
+______________________________________________________________________
 
-# 67. T2 Is Freshness-Bounded
+## 67. T2 Is Freshness-Bounded
 
 Canonical invariant:
 
@@ -1821,9 +1821,9 @@ when:
 - dependency fails
 - context changes
 
----
+______________________________________________________________________
 
-# 68. T2 Revalidation
+## 68. T2 Revalidation
 
 A proof capsule should therefore carry:
 
@@ -1842,9 +1842,9 @@ t2_receipt:
   revalidate_after:
 ```
 
----
+______________________________________________________________________
 
-# 69. Revocation
+## 69. Revocation
 
 If a supporting source is revoked:
 
@@ -1862,9 +1862,9 @@ InvalidateOnlyDependentReceipts
 }
 $$
 
----
+______________________________________________________________________
 
-# 70. T2 and Persistent Provenance
+## 70. T2 and Persistent Provenance
 
 A T2 pass must retain source ancestry.
 
@@ -1886,9 +1886,9 @@ PersistentProvenance
 }
 $$
 
----
+______________________________________________________________________
 
-# 71. Source-Defined Reliability Equation
+## 71. Source-Defined Reliability Equation
 
 The source proposes system reliability:
 
@@ -1903,9 +1903,9 @@ $$
 
 This is preserved as a source-defined heuristic.
 
----
+______________________________________________________________________
 
-# 72. Reliability Equation Boundary
+## 72. Reliability Equation Boundary
 
 Without normalization and definitions for:
 
@@ -1924,9 +1924,9 @@ claim_class: AMOS_MODEL
 validation_status: NOT_ESTABLISHED_AS_PROBABILITY_LAW
 ```
 
----
+______________________________________________________________________
 
-# 73. Cost of T2
+## 73. Cost of T2
 
 Source expression:
 
@@ -1947,9 +1947,9 @@ $$
 
 This is a useful structural cost decomposition.
 
----
+______________________________________________________________________
 
-# 74. Decision Value of T2
+## 74. Decision Value of T2
 
 A hardened decision-theoretic representation is:
 
@@ -1965,9 +1965,9 @@ $$
 
 This extension is `DERIVED/PROPOSED`, not verbatim source canon.
 
----
+______________________________________________________________________
 
-# 75. Source Universal Cost Claim
+## 75. Source Universal Cost Claim
 
 The source asserts:
 
@@ -1982,9 +1982,9 @@ validation_status: NOT_INDEPENDENTLY_ESTABLISHED
 
 because low-stakes decisions can have validation costs larger than expected error costs.
 
----
+______________________________________________________________________
 
-# 76. Proportional T2
+## 76. Proportional T2
 
 A safer operational formulation is:
 
@@ -1998,9 +1998,9 @@ $$
 
 This preserves the source's integrity objective while avoiding unnecessary validation overhead on trivial reversible decisions.
 
----
+______________________________________________________________________
 
-# 77. Failure Consequences — Source Table
+## 77. Failure Consequences — Source Table
 
 The source lists potential consequences of missing T2 in:
 
@@ -2013,9 +2013,9 @@ The source lists potential consequences of missing T2 in:
 
 The associated percentages are **source estimates** and should not be promoted as empirically verified rates.
 
----
+______________________________________________________________________
 
-# 78. Source Percentage Firewall
+## 78. Source Percentage Firewall
 
 Values such as:
 
@@ -2031,9 +2031,9 @@ data_status: UNSOURCED_SOURCE_ESTIMATE
 
 unless a supporting dataset is supplied.
 
----
+______________________________________________________________________
 
-# 79. T2 in Trang ∅ Framework
+## 79. T2 in Trang ∅ Framework
 
 Within Trang ∅, T2 functions as a mandatory epistemic safety gate before consequential state commitment.
 
@@ -2051,9 +2051,9 @@ COMMIT
 HOLD / REJECT
 ```
 
----
+______________________________________________________________________
 
-# 80. T2 and ASEA Mutation
+## 80. T2 and ASEA Mutation
 
 The source defines T2 as a prerequisite before an ASEA mutation enters persistent memory.
 
@@ -2073,9 +2073,9 @@ SURVIVE / REJECT
 PERSIST
 ```
 
----
+______________________________________________________________________
 
-# 81. Mutation Firewall
+## 81. Mutation Firewall
 
 Canonical rule:
 
@@ -2099,9 +2099,9 @@ $$
 
 T2 functions as one validation layer between the two.
 
----
+______________________________________________________________________
 
-# 82. Self-Generated Evidence Firewall
+## 82. Self-Generated Evidence Firewall
 
 ASEA must not validate a mutation solely using descendants of the mutation itself.
 
@@ -2115,9 +2115,9 @@ $$
 
 not T2.
 
----
+______________________________________________________________________
 
-# 83. T2 and Historical Claims
+## 83. T2 and Historical Claims
 
 The source proposes that historical events require at least two independent evidentiary paths.
 
@@ -2129,9 +2129,9 @@ Examples:
 
 This is a source-defined evidence heuristic.
 
----
+______________________________________________________________________
 
-# 84. Historical Evidence Boundary
+## 84. Historical Evidence Boundary
 
 Historical method often relies on:
 
@@ -2151,9 +2151,9 @@ T2 = AMOS HISTORICAL VALIDATION HEURISTIC
 T2 != UNIVERSAL HISTORIOGRAPHIC LAW
 ```
 
----
+______________________________________________________________________
 
-# 85. T2 in Personal Reasoning
+## 85. T2 in Personal Reasoning
 
 The source proposes:
 
@@ -2169,9 +2169,9 @@ ACT
 
 This guards against acting solely from intuition.
 
----
+______________________________________________________________________
 
-# 86. Intuition Firewall
+## 86. Intuition Firewall
 
 Canonical rule:
 
@@ -2190,9 +2190,9 @@ Expert intuition may be useful evidence within scope, but its confidence depends
 - calibration
 - regime stability
 
----
+______________________________________________________________________
 
-# 87. T2 Is Not Democracy
+## 87. T2 Is Not Democracy
 
 Source FAQ principle:
 
@@ -2206,9 +2206,9 @@ $$
 
 One hundred mutually copying claims can be weaker than two genuinely independent high-quality sources.
 
----
+______________________________________________________________________
 
-# 88. Popularity Firewall
+## 88. Popularity Firewall
 
 Canonical:
 
@@ -2232,9 +2232,9 @@ $$
 
 Consensus can still matter when it reflects genuinely distributed independent evidence.
 
----
+______________________________________________________________________
 
-# 89. Independence Is the Hardest Part
+## 89. Independence Is the Hardest Part
 
 The source identifies source independence as the most difficult operational problem.
 
@@ -2248,9 +2248,9 @@ but:
 
 > Are the load-bearing evidence roots meaningfully independent?
 
----
+______________________________________________________________________
 
-# 90. Relative Independence
+## 90. Relative Independence
 
 Perfect independence may be impossible.
 
@@ -2268,9 +2268,9 @@ independence:
 
 rather than relying on a binary field only.
 
----
+______________________________________________________________________
 
-# 91. Independence Score — Proposed
+## 91. Independence Score — Proposed
 
 A conceptual score may use:
 
@@ -2283,9 +2283,9 @@ $$
 
 This is `PROPOSED`, not source canon and not a calibrated measure.
 
----
+______________________________________________________________________
 
-# 92. Emergency Exceptions
+## 92. Emergency Exceptions
 
 The source permits rare exceptions when:
 
@@ -2295,9 +2295,9 @@ The source permits rare exceptions when:
 
 Examples include emergency medicine and aviation.
 
----
+______________________________________________________________________
 
-# 93. Emergency Governance
+## 93. Emergency Governance
 
 Canonical emergency path:
 
@@ -2315,9 +2315,9 @@ POST-ACTION T2
 LEARNING / CORRECTION
 ```
 
----
+______________________________________________________________________
 
-# 94. Emergency Exception != Normal Bypass
+## 94. Emergency Exception != Normal Bypass
 
 Canonical invariant:
 
@@ -2331,9 +2331,9 @@ $$
 
 After emergency action, retrospective validation is required under the source model.
 
----
+______________________________________________________________________
 
-# 95. Reversibility Principle
+## 95. Reversibility Principle
 
 Where T2 cannot be completed before action:
 
@@ -2347,9 +2347,9 @@ when possible.
 
 This minimizes downside while evidence remains incomplete.
 
----
+______________________________________________________________________
 
-# 96. T2 and Religious / Ethical Beliefs
+## 96. T2 and Religious / Ethical Beliefs
 
 The source places non-empirical beliefs primarily in H.
 
@@ -2359,9 +2359,9 @@ It argues that such beliefs themselves may not be empirically T2-testable, but a
 - social consequences
 - personal conscience/value layer
 
----
+______________________________________________________________________
 
-# 97. Ethical Firewall
+## 97. Ethical Firewall
 
 This should not be interpreted as proving moral truth through majority agreement.
 
@@ -2377,9 +2377,9 @@ $$
 
 within the source model.
 
----
+______________________________________________________________________
 
-# 98. Capability != Authority
+## 98. Capability != Authority
 
 Passing T2 does not grant authority to act.
 
@@ -2395,9 +2395,9 @@ $$
 
 A decision may be well supported but still outside the actor's mandate.
 
----
+______________________________________________________________________
 
-# 99. T2 + Governance
+## 99. T2 + Governance
 
 Therefore:
 
@@ -2421,9 +2421,9 @@ T2 PASS
 AUTOMATIC ACTION
 ```
 
----
+______________________________________________________________________
 
-# 100. T2 + Scope
+## 100. T2 + Scope
 
 A claim can pass T2 within one scope but fail outside it.
 
@@ -2447,9 +2447,9 @@ T2\text{ inherits scope}
 }
 $$
 
----
+______________________________________________________________________
 
-# 101. T2 + Regime
+## 101. T2 + Regime
 
 Likewise:
 
@@ -2469,9 +2469,9 @@ Examples:
 - hardware environments
 - social conditions
 
----
+______________________________________________________________________
 
-# 102. T2 + Freshness
+## 102. T2 + Freshness
 
 Old independent confirmations may not remain relevant indefinitely.
 
@@ -2487,9 +2487,9 @@ $$
 
 where temporal validity matters to the domain.
 
----
+______________________________________________________________________
 
-# 103. T2 + Causality
+## 103. T2 + Causality
 
 Two independent observations of association do not prove causation.
 
@@ -2505,9 +2505,9 @@ $$
 
 unless the evidence type licenses causal inference.
 
----
+______________________________________________________________________
 
-# 104. Causal T2
+## 104. Causal T2
 
 A stronger causal validation may require independent paths such as:
 
@@ -2518,9 +2518,9 @@ A stronger causal validation may require independent paths such as:
 
 The required evidence type depends on the causal claim.
 
----
+______________________________________________________________________
 
-# 105. T2 + Structural Analogy
+## 105. T2 + Structural Analogy
 
 Two domains showing the same pattern do not provide independent evidence for a common mechanism.
 
@@ -2534,9 +2534,9 @@ IndependentMechanisticConfirmation
 }
 $$
 
----
+______________________________________________________________________
 
-# 106. T2 + Model Ensembles
+## 106. T2 + Model Ensembles
 
 Multiple models may improve robustness.
 
@@ -2550,9 +2550,9 @@ SOURCE DIVERSITY
 PROVENANCE INDEPENDENCE
 ```
 
----
+______________________________________________________________________
 
-# 107. T2 + Sybil Resistance
+## 107. T2 + Sybil Resistance
 
 A provenance system must resist artificial multiplication of one root into many apparent sources.
 
@@ -2574,9 +2574,9 @@ $$
 
 unless another lineage appears.
 
----
+______________________________________________________________________
 
-# 108. Sybil-Hardened T2
+## 108. Sybil-Hardened T2
 
 A hardened rule is:
 
@@ -2590,9 +2590,9 @@ $$
 
 subject to sufficient evidence quality and domain compatibility.
 
----
+______________________________________________________________________
 
-# 109. Independence Graph
+## 109. Independence Graph
 
 Let:
 
@@ -2616,9 +2616,9 @@ ProvenanceTopology
 }
 $$
 
----
+______________________________________________________________________
 
-# 110. Proof Capsule Representation
+## 110. Proof Capsule Representation
 
 ```yaml
 T2_PROOF_CAPSULE:
@@ -2665,9 +2665,9 @@ T2_PROOF_CAPSULE:
   confidence_ceiling:
 ```
 
----
+______________________________________________________________________
 
-# 111. T2 Pass Invariant
+## 111. T2 Pass Invariant
 
 A conservative AMOS rule:
 
@@ -2711,9 +2711,9 @@ FreshEnough
 }
 $$
 
----
+______________________________________________________________________
 
-# 112. T2 Conditional Invariant
+## 112. T2 Conditional Invariant
 
 Use:
 
@@ -2729,9 +2729,9 @@ when:
 - scope is narrow
 - measurement uncertainty remains material
 
----
+______________________________________________________________________
 
-# 113. T2 Fail-Closed Invariant
+## 113. T2 Fail-Closed Invariant
 
 For consequential decisions:
 
@@ -2747,9 +2747,9 @@ unless emergency governance applies.
 
 This aligns T2 with the larger AMOS fail-closed stance.
 
----
+______________________________________________________________________
 
-# 114. T2 and UNKNOWN
+## 114. T2 and UNKNOWN
 
 Absence of contradiction is not confirmation.
 
@@ -2763,9 +2763,9 @@ T2(C)
 }
 $$
 
----
+______________________________________________________________________
 
-# 115. T2 and Evidence Quantity
+## 115. T2 and Evidence Quantity
 
 Canonical:
 
@@ -2781,9 +2781,9 @@ as a qualitative provenance principle.
 
 Not as a universal numerical law.
 
----
+______________________________________________________________________
 
-# 116. T2 and Evidence Quality
+## 116. T2 and Evidence Quality
 
 Two low-quality independent sources do not automatically establish a strong conclusion.
 
@@ -2799,9 +2799,9 @@ $$
 
 Both dimensions matter.
 
----
+______________________________________________________________________
 
-# 117. T2 and Measurement Quality
+## 117. T2 and Measurement Quality
 
 If:
 
@@ -2835,9 +2835,9 @@ $$
 
 conceptually.
 
----
+______________________________________________________________________
 
-# 118. T2 and Negative Evidence
+## 118. T2 and Negative Evidence
 
 Independent failure to reproduce a claim can be more decision-relevant than additional confirmations.
 
@@ -2848,9 +2848,9 @@ Therefore T2 should preserve:
 - null results
 - contradiction evidence
 
----
+______________________________________________________________________
 
-# 119. T2 and Falsifiers
+## 119. T2 and Falsifiers
 
 Each consequential claim should ideally specify:
 
@@ -2862,9 +2862,9 @@ $$
 
 where any valid falsifier may downgrade or invalidate the T2 state.
 
----
+______________________________________________________________________
 
-# 120. T2 Revalidation Trigger
+## 120. T2 Revalidation Trigger
 
 Revalidate when:
 
@@ -2877,9 +2877,9 @@ Revalidate when:
 - provenance correlation discovered
 - decision consequence increased
 
----
+______________________________________________________________________
 
-# 121. T2 in RSCF
+## 121. T2 in RSCF
 
 T2 integrates naturally with RSCF.
 
@@ -2900,9 +2900,9 @@ RSCF:
   t2_status:
 ```
 
----
+______________________________________________________________________
 
-# 122. T2 Is Not a Claim-Class Promotion Rule
+## 122. T2 Is Not a Claim-Class Promotion Rule
 
 Passing T2 does not automatically transform:
 
@@ -2928,9 +2928,9 @@ AutomaticEpistemicPromotion
 }
 $$
 
----
+______________________________________________________________________
 
-# 123. Source-Class Preservation
+## 123. Source-Class Preservation
 
 If both sources are:
 
@@ -2956,9 +2956,9 @@ or:
 VERIFIED EMPIRICAL FACT
 ```
 
----
+______________________________________________________________________
 
-# 124. Observation vs Source Claim
+## 124. Observation vs Source Claim
 
 Canonical distinction:
 
@@ -2978,9 +2978,9 @@ OBSERVATION
 
 with its own measurement uncertainty.
 
----
+______________________________________________________________________
 
-# 125. T2 and Competing Hypotheses
+## 125. T2 and Competing Hypotheses
 
 Suppose:
 
@@ -3010,9 +3010,9 @@ can coexist.
 
 T2 does not force one hypothesis to win.
 
----
+______________________________________________________________________
 
-# 126. Discriminating Test
+## 126. Discriminating Test
 
 The next step is to identify observation:
 
@@ -3044,9 +3044,9 @@ HighInformationDiscriminator
 }
 $$
 
----
+______________________________________________________________________
 
-# 127. T2 and Decision Sufficiency
+## 127. T2 and Decision Sufficiency
 
 The purpose of validation is not infinite evidence accumulation.
 
@@ -3058,9 +3058,9 @@ Stop when:
 
 are achieved for the stakes involved.
 
----
+______________________________________________________________________
 
-# 128. Overvalidation Failure Mode
+## 128. Overvalidation Failure Mode
 
 Excessive T2 can create:
 
@@ -3090,9 +3090,9 @@ InfiniteRechecking
 }
 $$
 
----
+______________________________________________________________________
 
-# 129. Adaptive T2 Depth
+## 129. Adaptive T2 Depth
 
 A useful AMOS implementation concept:
 
@@ -3105,9 +3105,9 @@ A useful AMOS implementation concept:
 
 This is a `PROPOSED` implementation refinement.
 
----
+______________________________________________________________________
 
-# 130. T2 in C0–C4 Complexity
+## 130. T2 in C0–C4 Complexity
 
 Conceptual mapping:
 
@@ -3135,9 +3135,9 @@ MAXIMUM
 
 This is an AMOS runtime mapping rather than original source text.
 
----
+______________________________________________________________________
 
-# 131. T2 and Anti-Autopoisoning
+## 131. T2 and Anti-Autopoisoning
 
 A recursive system can poison itself when its own output becomes future evidence.
 
@@ -3165,9 +3165,9 @@ IndependentSource
 }
 $$
 
----
+______________________________________________________________________
 
-# 132. Anti-Echo Rule
+## 132. Anti-Echo Rule
 
 If:
 
@@ -3187,9 +3187,9 @@ $$
 
 unless $S_2$ adds genuinely independent grounding.
 
----
+______________________________________________________________________
 
-# 133. Independent Revalidation
+## 133. Independent Revalidation
 
 A derived conclusion may regain stronger confidence only through independent external evidence.
 
@@ -3201,9 +3201,9 @@ IndependentObservation(C)
 Revalidation
 $$
 
----
+______________________________________________________________________
 
-# 134. T2 and Memory Consolidation
+## 134. T2 and Memory Consolidation
 
 Before a claim moves from transient memory into durable knowledge:
 
@@ -3219,9 +3219,9 @@ PERSISTENT KNOWLEDGE
 
 within the source/AMOS learning model.
 
----
+______________________________________________________________________
 
-# 135. T2 and Knowledge Harvest
+## 135. T2 and Knowledge Harvest
 
 Compatible pipeline:
 
@@ -3237,9 +3237,9 @@ $$
 
 T2 can function as one of the promotion gates between stages.
 
----
+______________________________________________________________________
 
-# 136. T2 and Canon Ingestion
+## 136. T2 and Canon Ingestion
 
 A source artifact should not become universal canon merely because it is present twice.
 
@@ -3253,9 +3253,9 @@ INDEPENDENT VALIDATION
 
 Two AMOS notes copied from the same root remain one provenance family.
 
----
+______________________________________________________________________
 
-# 137. T2 and Obsidian
+## 137. T2 and Obsidian
 
 Within an Obsidian vault, backlinks are not independent confirmation.
 
@@ -3279,9 +3279,9 @@ Confidence
 }
 $$
 
----
+______________________________________________________________________
 
-# 138. T2 Vault Metadata
+## 138. T2 Vault Metadata
 
 A note may include:
 
@@ -3307,9 +3307,9 @@ t2:
   next_revalidation:
 ```
 
----
+______________________________________________________________________
 
-# 139. T2 Source Registry
+## 139. T2 Source Registry
 
 ```yaml
 T2_SOURCE_REGISTRY:
@@ -3329,9 +3329,9 @@ T2_SOURCE_REGISTRY:
   independence_class:
 ```
 
----
+______________________________________________________________________
 
-# 140. T2 Decision Receipt
+## 140. T2 Decision Receipt
 
 ```yaml
 T2_DECISION_RECEIPT:
@@ -3366,9 +3366,9 @@ T2_DECISION_RECEIPT:
   rollback:
 ```
 
----
+______________________________________________________________________
 
-# 141. Core T2 Firewalls
+## 141. Core T2 Firewalls
 
 ```text
 RECHECK != T2
@@ -3408,9 +3408,9 @@ NO CONTRADICTION != CONFIRMATION
 SELF-DERIVED EVIDENCE != INDEPENDENT EVIDENCE
 ```
 
----
+______________________________________________________________________
 
-# 142. Source-Defined Special Forms
+## 142. Source-Defined Special Forms
 
 ```yaml
 T2_VARIANTS:
@@ -3454,9 +3454,9 @@ T2_VARIANTS:
       independent groups.
 ```
 
----
+______________________________________________________________________
 
-# 143. Source Applications Registry
+## 143. Source Applications Registry
 
 ```yaml
 T2_APPLICATIONS:
@@ -3491,9 +3491,9 @@ T2_APPLICATIONS:
     role: reality_and_social_cross_check
 ```
 
----
+______________________________________________________________________
 
-# 144. Risk-Adaptive T2
+## 144. Risk-Adaptive T2
 
 A more complete governance equation is conceptually:
 
@@ -3511,9 +3511,9 @@ $$
 
 This is `PROPOSED`, not part of the original source equations.
 
----
+______________________________________________________________________
 
-# 145. T2 Sensitivity Test
+## 145. T2 Sensitivity Test
 
 For consequential conclusions ask:
 
@@ -3527,9 +3527,9 @@ robustness: FRAGILE
 
 Even if T2 technically passed.
 
----
+______________________________________________________________________
 
-# 146. Robust T2
+## 146. Robust T2
 
 A stronger result survives failure of noncritical support:
 
@@ -3543,9 +3543,9 @@ for some non-load-bearing $S_k$.
 
 This measures structural robustness rather than simple source count.
 
----
+______________________________________________________________________
 
-# 147. Correlated Error
+## 147. Correlated Error
 
 Two sources may be individually credible but share one hidden failure mode:
 
@@ -3567,9 +3567,9 @@ T2Risk
 }
 $$
 
----
+______________________________________________________________________
 
-# 148. Common-Mode Failure
+## 148. Common-Mode Failure
 
 Examples include:
 
@@ -3582,26 +3582,26 @@ Examples include:
 
 Therefore T2 should explicitly inspect **common-mode failure**.
 
----
+______________________________________________________________________
 
-# 149. Independence Audit Questions
+## 149. Independence Audit Questions
 
 Before declaring T2:
 
 1. Do the sources share a root?
-2. Do they use the same dataset?
-3. Do they use the same method?
-4. Do they use the same model?
-5. Do they share funding or incentives?
-6. Can one source have copied the other?
-7. Could one systematic error affect both?
-8. Are scopes compatible?
-9. Are regimes compatible?
-10. Are both sources still fresh?
+1. Do they use the same dataset?
+1. Do they use the same method?
+1. Do they use the same model?
+1. Do they share funding or incentives?
+1. Can one source have copied the other?
+1. Could one systematic error affect both?
+1. Are scopes compatible?
+1. Are regimes compatible?
+1. Are both sources still fresh?
 
----
+______________________________________________________________________
 
-# 150. Minimum T2 Contract
+## 150. Minimum T2 Contract
 
 ```yaml
 T2_MINIMUM_CONTRACT:
@@ -3638,9 +3638,9 @@ T2_MINIMUM_CONTRACT:
     - COMPETING
 ```
 
----
+______________________________________________________________________
 
-# 151. T2 Strong Contract
+## 151. T2 Strong Contract
 
 ```yaml
 T2_STRONG_CONTRACT:
@@ -3669,9 +3669,9 @@ T2_STRONG_CONTRACT:
     required_for_action: true
 ```
 
----
+______________________________________________________________________
 
-# 152. T2* Contract
+## 152. T2\* Contract
 
 ```yaml
 T2_STAR_CONTRACT:
@@ -3704,9 +3704,9 @@ T2_STAR_CONTRACT:
     independently_checked: true
 ```
 
----
+______________________________________________________________________
 
-# 153. T2 in the AMOS Core Law
+## 153. T2 in the AMOS Core Law
 
 The principle aligns structurally with:
 
@@ -3732,9 +3732,9 @@ $$
 
 subject to emergency-action governance.
 
----
+______________________________________________________________________
 
-# 154. T2 and Confidence Ceiling Law
+## 154. T2 and Confidence Ceiling Law
 
 Compatible formulation:
 
@@ -3757,9 +3757,9 @@ Confidence
 f(SourceCount)
 $$
 
----
+______________________________________________________________________
 
-# 155. T2 and Sybil Quarantine
+## 155. T2 and Sybil Quarantine
 
 If many apparent sources collapse to one ancestry:
 
@@ -3780,9 +3780,9 @@ t2_status: FAIL
 
 until another independent root is found.
 
----
+______________________________________________________________________
 
-# 156. T2 and Proof Continuity
+## 156. T2 and Proof Continuity
 
 When a validated claim is used downstream:
 
@@ -3798,9 +3798,9 @@ its T2 provenance should remain attached.
 
 Otherwise downstream conclusions may overstate certainty.
 
----
+______________________________________________________________________
 
-# 157. T2 Dependency Invalidation
+## 157. T2 Dependency Invalidation
 
 If:
 
@@ -3828,9 +3828,9 @@ $$
 
 unless dependency topology requires it.
 
----
+______________________________________________________________________
 
-# 158. T2 and Persistent Memory
+## 158. T2 and Persistent Memory
 
 Persistent memory should store:
 
@@ -3849,9 +3849,9 @@ PASS
 
 becomes detached from evidence.
 
----
+______________________________________________________________________
 
-# 159. T2 Reuse Rule
+## 159. T2 Reuse Rule
 
 A prior T2 receipt can be reused only if:
 
@@ -3883,9 +3883,9 @@ $$
 NoNewConflict
 $$
 
----
+______________________________________________________________________
 
-# 160. T2 Cache Invalidation
+## 160. T2 Cache Invalidation
 
 Invalidate cached T2 when:
 
@@ -3903,9 +3903,9 @@ OR
 CONTRADICTION APPEARS
 ```
 
----
+______________________________________________________________________
 
-# 161. T2 and Decision Receipts
+## 161. T2 and Decision Receipts
 
 A consequential action should retain:
 
@@ -3923,9 +3923,9 @@ decision_receipt:
   rollback:
 ```
 
----
+______________________________________________________________________
 
-# 162. T2 and Ethical Refusal
+## 162. T2 and Ethical Refusal
 
 If a critical validation gap remains:
 
@@ -3949,9 +3949,9 @@ REFUSE
 
 may remain correct even when T2 passes.
 
----
+______________________________________________________________________
 
-# 163. T2 and Action Classes
+## 163. T2 and Action Classes
 
 ```yaml
 ACTION_GATE:
@@ -3984,9 +3984,9 @@ ACTION_GATE:
       - mandatory_posthoc_validation
 ```
 
----
+______________________________________________________________________
 
-# 164. T2 and Calibration
+## 164. T2 and Calibration
 
 Confidence estimates should be empirically calibrated when possible.
 
@@ -4000,9 +4000,9 @@ $$
 
 should demonstrate approximately corresponding empirical calibration before that percentage is trusted.
 
----
+______________________________________________________________________
 
-# 165. Calibration Firewall
+## 165. Calibration Firewall
 
 Therefore:
 
@@ -4014,9 +4014,9 @@ MeasuredCalibration
 }
 $$
 
----
+______________________________________________________________________
 
-# 166. T2 and Bayesian Updating
+## 166. T2 and Bayesian Updating
 
 T2 can conceptually provide independent likelihood information.
 
@@ -4036,9 +4036,9 @@ not simply source-count addition.
 
 This is why independence topology is mathematically important.
 
----
+______________________________________________________________________
 
-# 167. Conditional Independence
+## 167. Conditional Independence
 
 A useful requirement can be written:
 
@@ -4052,9 +4052,9 @@ and similarly under competing hypotheses if the independence approximation is be
 
 Without this, multiplicative evidence formulas may overcount evidence.
 
----
+______________________________________________________________________
 
-# 168. T2 Does Not Eliminate Systemic Bias
+## 168. T2 Does Not Eliminate Systemic Bias
 
 If all sources share a hidden assumption:
 
@@ -4080,9 +4080,9 @@ FreedomFromUnknownCommonAssumptions
 }
 $$
 
----
+______________________________________________________________________
 
-# 169. T2 and Paradigm Error
+## 169. T2 and Paradigm Error
 
 Entire fields can share:
 
@@ -4092,9 +4092,9 @@ Entire fields can share:
 
 Therefore T2 improves reliability but cannot guarantee escape from paradigm-wide failure.
 
----
+______________________________________________________________________
 
-# 170. T2 and First Principles
+## 170. T2 and First Principles
 
 H-layer first principles can challenge shared paradigms.
 
@@ -4110,9 +4110,9 @@ $$
 
 until relevant claims are tested appropriately.
 
----
+______________________________________________________________________
 
-# 171. T2 and Creativity
+## 171. T2 and Creativity
 
 T2 should not block generation.
 
@@ -4136,9 +4136,9 @@ GENERATE BROADLY
 VALIDATE BEFORE COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 172. Exploration vs Commit
+## 172. Exploration vs Commit
 
 Canonical:
 
@@ -4152,9 +4152,9 @@ $$
 
 T2 belongs at the transition boundary.
 
----
+______________________________________________________________________
 
-# 173. T2 and Innovation
+## 173. T2 and Innovation
 
 Requiring two prior confirmations for every novel hypothesis would prevent novelty.
 
@@ -4170,9 +4170,9 @@ not:
 T2 REQUIRED BEFORE A NEW IDEA MAY EXIST
 ```
 
----
+______________________________________________________________________
 
-# 174. Hypothesis State
+## 174. Hypothesis State
 
 A novel idea without T2 can remain:
 
@@ -4185,9 +4185,9 @@ rather than being rejected.
 
 This preserves exploration without promoting unsupported claims.
 
----
+______________________________________________________________________
 
-# 175. T2 and Research Lifecycle
+## 175. T2 and Research Lifecycle
 
 ```text
 IDEA
@@ -4205,9 +4205,9 @@ STRONGER KNOWLEDGE STATE
 REVALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 176. T2 and Negative Replication
+## 176. T2 and Negative Replication
 
 If independent replication fails:
 
@@ -4225,9 +4225,9 @@ depending on evidence.
 
 The correct response is not to discard the negative result merely because prior evidence passed.
 
----
+______________________________________________________________________
 
-# 177. T2 as Dynamic State
+## 177. T2 as Dynamic State
 
 T2 is therefore better represented as:
 
@@ -4245,9 +4245,9 @@ $$
 
 alone.
 
----
+______________________________________________________________________
 
-# 178. Full Formal Signature
+## 178. Full Formal Signature
 
 A hardened conceptual signature is:
 
@@ -4271,9 +4271,9 @@ where:
 - $R$ = regime
 - $T$ = temporal validity
 
----
+______________________________________________________________________
 
-# 179. T2 Validity Envelope
+## 179. T2 Validity Envelope
 
 $$
 \boxed{
@@ -4293,21 +4293,21 @@ $$
 
 A pass is valid only inside its envelope.
 
----
+______________________________________________________________________
 
-# 180. Source-Defined Executive Summary
+## 180. Source-Defined Executive Summary
 
 Trang Tát 2 is source-defined as:
 
 1. a mandatory cross-validation principle;
-2. the “second eye of truth”;
-3. a three-layer L/M/H framework;
-4. an AI anti-hallucination / repair mechanism;
-5. a decision rule for individuals and institutions.
+1. the “second eye of truth”;
+1. a three-layer L/M/H framework;
+1. an AI anti-hallucination / repair mechanism;
+1. a decision rule for individuals and institutions.
 
----
+______________________________________________________________________
 
-# 181. Canonical AMOS Restatement
+## 181. Canonical AMOS Restatement
 
 A hardened AMOS-compatible restatement is:
 
@@ -4335,9 +4335,9 @@ ProvenanceIndependence
 }
 $$
 
----
+______________________________________________________________________
 
-# 182. Strongest Safe Claim
+## 182. Strongest Safe Claim
 
 The strongest safe claim supported by the source architecture is:
 
@@ -4349,9 +4349,9 @@ Independent corroboration can reduce dependence on a single failure path and is 
 }
 $$
 
----
+______________________________________________________________________
 
-# 183. Claims That Remain Source-Defined
+## 183. Claims That Remain Source-Defined
 
 The following remain `AMOS_MODEL / SOURCE_CLAIM` rather than independently verified:
 
@@ -4360,14 +4360,14 @@ The following remain `AMOS_MODEL / SOURCE_CLAIM` rather than independently verif
 - universal long-run cost superiority
 - exact T2 reliability equations
 - specific cross-domain legal/medical rules
-- T2* as a universal truth criterion
+- T2\* as a universal truth criterion
 - ASEA runtime enforcement
 - cell-to-civilization universality
 - historical priority claim
 
----
+______________________________________________________________________
 
-# 184. Historical Priority Boundary
+## 184. Historical Priority Boundary
 
 The source states that Trang Phan is the first to name and systematically define this principle across all systems.
 
@@ -4381,9 +4381,9 @@ historical_priority:
 
 No historical-priority claim is promoted to verified canon without independent evidence.
 
----
+______________________________________________________________________
 
-# 185. Origin Attribution
+## 185. Origin Attribution
 
 Within AMOS corpus attribution:
 
@@ -4397,9 +4397,9 @@ This identifies authorship/stewardship of the **AMOS framework artifact**.
 
 It is separate from any claim about being first in human history to formulate independent corroboration generally.
 
----
+______________________________________________________________________
 
-# 186. Final Canonical Definition
+## 186. Final Canonical Definition
 
 $$
 \boxed{
@@ -4409,9 +4409,9 @@ Trang Tát 2 is an AMOS source-defined epistemic governance principle requiring 
 }
 $$
 
----
+______________________________________________________________________
 
-# 187. Final Independence Law
+## 187. Final Independence Law
 
 $$
 \boxed{
@@ -4421,9 +4421,9 @@ Two confirmations count as T2 only to the extent that their load-bearing provena
 }
 $$
 
----
+______________________________________________________________________
 
-# 188. Final Confidence Law
+## 188. Final Confidence Law
 
 $$
 \boxed{
@@ -4433,9 +4433,9 @@ Repetition, popularity, authority, or multiple descendants of one source do not 
 }
 $$
 
----
+______________________________________________________________________
 
-# 189. Final Action Law
+## 189. Final Action Law
 
 $$
 \boxed{
@@ -4445,9 +4445,9 @@ T2 PASS does not itself authorize action; evidence, authority, scope, consequenc
 }
 $$
 
----
+______________________________________________________________________
 
-# 190. Final Failure Law
+## 190. Final Failure Law
 
 $$
 \boxed{
@@ -4457,9 +4457,9 @@ When independence cannot be demonstrated, the correct epistemic state is UNKNOWN
 }
 $$
 
----
+______________________________________________________________________
 
-# 191. Final Recursive Law
+## 191. Final Recursive Law
 
 $$
 \boxed{
@@ -4481,9 +4481,9 @@ T2 is not a one-time badge.
 
 It is a revisable epistemic state.
 
----
+______________________________________________________________________
 
-# 192. Full T2 Runtime Topology
+## 192. Full T2 Runtime Topology
 
 ```text
                          CLAIM C
@@ -4536,9 +4536,9 @@ It is a revisable epistemic state.
     REVALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 193. Machine-Readable T2 Model
+## 193. Machine-Readable T2 Model
 
 ```yaml
 TRANG_TAT_2:
@@ -4622,9 +4622,9 @@ TRANG_TAT_2:
     asea_runtime: NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 194. RSCF Contract
+## 194. RSCF Contract
 
 ```yaml
 RSCF:
@@ -4705,9 +4705,9 @@ RSCF:
     runtime_enforcement: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 195. RSCF Relations
+## 195. RSCF Relations
 
 ```yaml
 RSCF-RELATIONS:
@@ -4739,9 +4739,9 @@ RSCF-RELATIONS:
   - INFORMS: [[11_KNOWLEDGE/AMOS_EMOTION_COGNITION_DECISION_BRIDGE_GOVERNOR|AMOS_EMOTION_COGNITION_DECISION_BRIDGE_GOVERNOR]]
 ```
 
----
+______________________________________________________________________
 
-# 196. Epistemic Receipt
+## 196. Epistemic Receipt
 
 ```yaml
 EPISTEMIC_RECEIPT:
@@ -4784,9 +4784,9 @@ EPISTEMIC_RECEIPT:
     implemented: unknown
 ```
 
----
+______________________________________________________________________
 
-# 197. Canonical Compression
+## 197. Canonical Compression
 
 The complete architecture compresses to:
 
@@ -4848,9 +4848,9 @@ or independently authorize consequential action.
 }
 $$
 
----
+______________________________________________________________________
 
-# 198. Final Canonical Statement
+## 198. Final Canonical Statement
 
 > **Trang Tát 2 is the AMOS source-defined “Second Eye of Truth”: a provenance-aware cross-validation gate requiring sufficiently independent evidentiary paths before consequential belief is converted into persistent knowledge, commitment, or action.**
 
@@ -4894,11 +4894,10 @@ When independence cannot be demonstrated, preserve the gap.
 }
 $$
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/trang/trang_MOC|trang_MOC]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/02_UNIVERSE_CANON/TRANG_ZERO_FRAMEWORK|TRANG_ZERO_FRAMEWORK]] · [[01_CANON/07_PROVENANCE/HERITAGE_PROVENANCE|HERITAGE_PROVENANCE]] · [[25_COGNITIVE_MATRIX/PROVENANCE_X_CONFIDENCE|PROVENANCE_X_CONFIDENCE]] · [[11_KNOWLEDGE/TENSOR_CONTRACTS|TENSOR_CONTRACTS]] · [[11_KNOWLEDGE/AMOS_CROSS_DOMAIN_TENSOR_COMPOSITION_GOVERNOR|AMOS_CROSS_DOMAIN_TENSOR_COMPOSITION_GOVERNOR]] · [[11_KNOWLEDGE/05_FRAMEWORKS/ASEA_ADAPTIVE_SELF_EVOLUTION_AI|ASEA_ADAPTIVE_SELF_EVOLUTION_AI]] · [[25_COGNITIVE_MATRIX/RSCF_X_GMEF|RSCF_X_GMEF]]
 
----
+______________________________________________________________________
 
 **MOC:** [[11_KNOWLEDGE/trang/trang_MOC|trang_MOC]]
-

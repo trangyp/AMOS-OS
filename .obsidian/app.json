@@ -25,7 +25,11 @@
     "cosmo-brain/__pycache__/",
     "00_ROOT/AMOS_RSCF_NODES.md",
     "00_ROOT/00_HOME.md",
-    "11_KNOWLEDGE/AMOS_RUNTIME_STATE.md"
+    "11_KNOWLEDGE/AMOS_RUNTIME_STATE.md",
+    "24_ARCHIVE/03_CONTROL_PLANE_drive_conflict_2026-08-27/",
+    "scripts/.tagmigrate-backup-*/",
+    "scripts/.tagmigrate*-backup-*/",
+    "scripts/legacy/"
   ],
   "newFileLocation": "root",
   "alwaysUpdateLinks": true,

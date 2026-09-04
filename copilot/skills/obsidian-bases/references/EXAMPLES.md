@@ -1,8 +1,21 @@
+---
+title: Examples
+type: note
+source: .
+tags:
+  - note
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+---
+
 # Bases examples
 
 ## Task tracker
 
-~~~yaml
+```yaml
 filters:
   and:
     - file.hasTag("task")
@@ -30,11 +43,11 @@ views:
     groupBy:
       property: status
       direction: ASC
-~~~
+```
 
 ## Daily notes index
 
-~~~yaml
+```yaml
 filters:
   and:
     - file.inFolder("Daily Notes")
@@ -53,8 +66,8 @@ views:
       - formula.day_of_week
       - formula.word_estimate
       - file.mtime
-~~~
+```
 
----
+______________________________________________________________________
 
 **MOC:** [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/00_HOME|00_HOME]]

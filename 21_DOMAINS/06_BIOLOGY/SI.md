@@ -12,19 +12,19 @@ segment: 21_DOMAINS/06_BIOLOGY
 artifact_kind: DOMAIN_ENGINE
 path: 21_DOMAINS/06_BIOLOGY/SI.md
 tags:
-- amos-os
-- domain
-- vault
-- 06_biology
-- si
-- somatic_intelligence
-- biotensegrity_proprioception
-- rscf
-- canon_candidate
-- canon/domain
-- ubi-somatic-intelligence
-- unified-biological-intelligence
-- uba-framework
+  - amos-os
+  - domain
+  - vault
+  - 06_biology
+  - si
+  - somatic_intelligence
+  - biotensegrity_proprioception
+  - rscf
+  - canon_candidate
+  - canon/domain
+  - ubi-somatic-intelligence
+  - unified-biological-intelligence
+  - uba-framework
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -39,13 +39,13 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - 11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/UBI_SOMATIC_INTELLIGENCE
-  - 11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE
-  - AMOS_CORPUS
+    - 11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/UBI_SOMATIC_INTELLIGENCE
+    - 11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE
+    - AMOS_CORPUS
   scope:
-  - DOMAIN_BIOLOGY
-  - SI_ENGINE
-  - SOURCE_DEFINED_MODEL
+    - DOMAIN_BIOLOGY
+    - SI_ENGINE
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   domain_knowledge:
     artifact: 11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/UBI_SOMATIC_INTELLIGENCE
@@ -64,25 +64,25 @@ epistemic_boundary:
 
 `SI.md` is the canonical Domain Plane specification governing proprioceptive posture feedback, fascial biotensegrity monitoring, and somatic physical grounding within `21_DOMAINS/06_BIOLOGY`.
 
----
+______________________________________________________________________
 
-# 1. SI Operational Mechanics
+## 1. SI Operational Mechanics
 
 1. **Biotensegrity Telemetry Ingestion:** Monitors muscular tone, postural symmetry, and physical kinetic load.
-2. **Proprioceptive Ground Invariant:** Re-anchors cognitive reasoning to baseline somatic stability ($S_0$).
-3. **Non-Compensatory Vector:** Emits scalar $\text{SI} \in [0, 1]$ into the UBI composite alignment formula.
+1. **Proprioceptive Ground Invariant:** Re-anchors cognitive reasoning to baseline somatic stability ($S_0$).
+1. **Non-Compensatory Vector:** Emits scalar $\text{SI} \in [0, 1]$ into the UBI composite alignment formula.
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Knowledge Domain:** 11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/[[11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/UBI_SOMATIC_INTELLIGENCE|UBI_SOMATIC_INTELLIGENCE]]
 - **Biological Master:** 11_KNOWLEDGE/05_FRAMEWORKS/[[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]]
 - **UBA Framework:** 11_KNOWLEDGE/05_FRAMEWORKS/[[11_KNOWLEDGE/05_FRAMEWORKS/UBA_FRAMEWORK|UBA_FRAMEWORK]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -100,10 +100,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[21_DOMAINS/21_DOMAINS_MOC|21_DOMAINS_MOC]] · 11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/[[11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/UBI_SOMATIC_INTELLIGENCE|UBI_SOMATIC_INTELLIGENCE]] · 11_KNOWLEDGE/05_FRAMEWORKS/[[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]]
 
----
-**MOC:** [[21_DOMAINS/21_DOMAINS_MOC|21_DOMAINS_MOC]]
+______________________________________________________________________
 
+**MOC:** [[21_DOMAINS/21_DOMAINS_MOC|21_DOMAINS_MOC]]

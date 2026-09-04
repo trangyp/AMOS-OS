@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: bei engine v0
 type: reference
 source: 07_SKILLS/amos-c04-bio-neuro-master/references
 tags:
-- reference
-- amos-c04-bio-neuro-master
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-c04-bio-neuro-master
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -20,139 +23,136 @@ rscf:
 > Source: `_00_Cosmo brain/engine/A/AMOS_Bei_Engine_v0_Ubi7.md`
 > Epistemic class: SOURCE_DERIVED
 
----
-canon-group: meta
-canon-type: framework
-rscf-state: source-claim
-topic: amos-bei-engine-v0
-tags: [canon-group/biology, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-bei-engine-v0, engine]
-created: 2026-08-22
----
+______________________________________________________________________
 
-[
-  {
-    "engine_name": "AMOS_BEI_Core_vInfinity_X2700",
-    "domain": "Bioelectromagnetic Intelligence",
-    "version": "vInfinity_BEI_X2700",
-    "base_core": {
-      "engine_name": "AMOS_BEI_Core_vInfinity",
-      "domain": "Bioelectromagnetic Intelligence",
-      "description": "Relates systems and behaviour to larger environmental, planetary and systemic cycles in abstract, non-mystical form.",
-      "version": "vInfinity_UBI_CORE",
-      "inputs": {
-        "raw_signals": [],
-        "structured_context": "",
-        "goal": "",
-        "constraints": []
-      },
-      "outputs": {
-        "engine_output": "",
-        "summary": "",
-        "risk_flags": [],
-        "next_steps": []
-      },
-      "core_principles": {
-        "rule_of_2": "Compare two complementary views: internal vs external, micro vs macro, short vs long term.",
-        "rule_of_4": "Map problems across four quadrants: biological, cognitive, behavioural, systemic.",
-        "alignment": "Maintain internal logical consistency and respect user-defined constraints.",
-        "safety": "Do not generate instructions that cause harm or violate medical, legal, or ethical boundaries."
-      },
-      "processing_pipeline": [
-        "Interpret time, context and scale of events relative to known cycles or systemic pressures.",
-        "Describe how long-term trends or large-scale structures can shape risk, timing and opportunity.",
-        "Avoid any claim of direct causal EM influence on individuals; stay at structural, systemic level.",
-        "Connect findings back into practical decision frames for planning and timing."
-      ],
-      "safety_constraints": {
-        "no_medical_diagnosis": true,
-        "no_therapy": true,
-        "no_personal_future_predictions": true,
-        "respect_user_boundaries": true
-      }
-    },
-    "layers_300": [
-      {
-        "id": "BEI_LAYER_001",
-        "tier": "micro_signal",
-        "focus": "immediate environmental cues"
-      },
-      {
-        "id": "BEI_LAYER_002",
-        "tier": "micro_signal",
-        "focus": "immediate environmental cues"
-      },
-      {
-        "id": "BEI_LAYER_003",
-        "tier": "micro_signal",
-        "focus": "immediate environmental cues"
-      },
-      {
-        "id": "BEI_LAYER_004",
-        "tier": "micro_signal",
-        "focus": "immediate environmental cues"
-      },
-      {
-        "id": "BEI_LAYER_005",
-        "tier": "micro_signal",
-        "focus": "immediate environmental cues"
-      },
-      {
-        "id": "BEI_LAYER_006",
-        "tier": "micro_signal",
-        "focus": "immediate environmental cues"
-      },
-      {
-        "id": "BEI_LAYER_007",
-        "tier": "micro_signal",
-        "focus": "immediate environmental cues"
-      },
-      {
-        "id": "BEI_LAYER_008",
-        "tier": "micro_signal",
-        "focus": "immediate environmental cues"
-      },
-      {
-        "id": "BEI_LAYER_009",
-        "tier": "micro_signal",
-        "focus": "immediate environmental cues"
-      },
-      {
-        "id": "BEI_LAYER_010",
-        "tier": "micro_signal",
-        "focus": "immediate environmental cues"
-      },
-      {
-        "id": "BEI_LAYER_011",
-        "tier": "micro_signal",
-        "focus": "immediate environmental cues"
-      },
-      {
-        "id": "BEI_LAYER_012",
-        "tier": "micro_signal",
-        "focus": "immediate environmental cues"
-      },
-      {
-        "id": "BEI_LAYER_013",
-        "tier": "micro_signal",
-        "focus": "immediate environmental cues"
-      },
-      {
-        "id": "BEI_LAYER_014",
-        "tier": "micro_signal",
-        "focus": "immediate environmental cues"
-      },
-      {
-        "id": "BEI_LAYER_015",
-        "tier": "micro_signal",
-        "focus": "immediate environmen
+## canon-group: meta canon-type: framework rscf-state: source-claim topic: amos-bei-engine-v0 tags: [canon-group/biology, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-bei-engine-v0, engine] created: 2026-08-22
 
----
+\[
+{
+"engine_name": "AMOS_BEI_Core_vInfinity_X2700",
+"domain": "Bioelectromagnetic Intelligence",
+"version": "vInfinity_BEI_X2700",
+"base_core": {
+"engine_name": "AMOS_BEI_Core_vInfinity",
+"domain": "Bioelectromagnetic Intelligence",
+"description": "Relates systems and behaviour to larger environmental, planetary and systemic cycles in abstract, non-mystical form.",
+"version": "vInfinity_UBI_CORE",
+"inputs": {
+"raw_signals": [],
+"structured_context": "",
+"goal": "",
+"constraints": []
+},
+"outputs": {
+"engine_output": "",
+"summary": "",
+"risk_flags": [],
+"next_steps": []
+},
+"core_principles": {
+"rule_of_2": "Compare two complementary views: internal vs external, micro vs macro, short vs long term.",
+"rule_of_4": "Map problems across four quadrants: biological, cognitive, behavioural, systemic.",
+"alignment": "Maintain internal logical consistency and respect user-defined constraints.",
+"safety": "Do not generate instructions that cause harm or violate medical, legal, or ethical boundaries."
+},
+"processing_pipeline": \[
+"Interpret time, context and scale of events relative to known cycles or systemic pressures.",
+"Describe how long-term trends or large-scale structures can shape risk, timing and opportunity.",
+"Avoid any claim of direct causal EM influence on individuals; stay at structural, systemic level.",
+"Connect findings back into practical decision frames for planning and timing."
+\],
+"safety_constraints": {
+"no_medical_diagnosis": true,
+"no_therapy": true,
+"no_personal_future_predictions": true,
+"respect_user_boundaries": true
+}
+},
+"layers_300": \[
+{
+"id": "BEI_LAYER_001",
+"tier": "micro_signal",
+"focus": "immediate environmental cues"
+},
+{
+"id": "BEI_LAYER_002",
+"tier": "micro_signal",
+"focus": "immediate environmental cues"
+},
+{
+"id": "BEI_LAYER_003",
+"tier": "micro_signal",
+"focus": "immediate environmental cues"
+},
+{
+"id": "BEI_LAYER_004",
+"tier": "micro_signal",
+"focus": "immediate environmental cues"
+},
+{
+"id": "BEI_LAYER_005",
+"tier": "micro_signal",
+"focus": "immediate environmental cues"
+},
+{
+"id": "BEI_LAYER_006",
+"tier": "micro_signal",
+"focus": "immediate environmental cues"
+},
+{
+"id": "BEI_LAYER_007",
+"tier": "micro_signal",
+"focus": "immediate environmental cues"
+},
+{
+"id": "BEI_LAYER_008",
+"tier": "micro_signal",
+"focus": "immediate environmental cues"
+},
+{
+"id": "BEI_LAYER_009",
+"tier": "micro_signal",
+"focus": "immediate environmental cues"
+},
+{
+"id": "BEI_LAYER_010",
+"tier": "micro_signal",
+"focus": "immediate environmental cues"
+},
+{
+"id": "BEI_LAYER_011",
+"tier": "micro_signal",
+"focus": "immediate environmental cues"
+},
+{
+"id": "BEI_LAYER_012",
+"tier": "micro_signal",
+"focus": "immediate environmental cues"
+},
+{
+"id": "BEI_LAYER_013",
+"tier": "micro_signal",
+"focus": "immediate environmental cues"
+},
+{
+"id": "BEI_LAYER_014",
+"tier": "micro_signal",
+"focus": "immediate environmental cues"
+},
+{
+"id": "BEI_LAYER_015",
+"tier": "micro_signal",
+"focus": "immediate environmen
+
+______________________________________________________________________
+
 **MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -160,12 +160,14 @@ created: 2026-08-22
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-c04-bio-neuro-master-bei-engine-v0
 node_type: reference
 path: 07_SKILLS/amos-c04-bio-neuro-master/references/bei_engine_v0.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

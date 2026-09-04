@@ -2,15 +2,15 @@
 type: workflow
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L03_PERCEPT_FORMATION
 tags:
-- amos
-- cognitive-matrix
-- matrix/l03
-- percept-formation
-- workflows
-- execution-graph
-- rscf
-- governance
-- domain/cognitive-matrix
+  - amos
+  - cognitive-matrix
+  - matrix/l03
+  - percept-formation
+  - workflows
+  - execution-graph
+  - rscf
+  - governance
+  - domain/cognitive-matrix
 title: L03_PERCEPT_FORMATION — Workflows
 origin_architect: Trang Phan
 status: MODEL_CONTRACT / UNVALIDATED
@@ -85,9 +85,9 @@ ADDRESSABLE != VALIDATED
 UNKNOWN/GAP != PASS
 ```
 
----
+______________________________________________________________________
 
-# 1. Source / Canon References
+## 1. Source / Canon References
 
 ## 1.1 Source-aligned execution-graph structure
 
@@ -235,9 +235,9 @@ canonical_L03_commit_protocol: UNKNOWN_GAP
 
 Therefore all L03-specific node names and workflow graphs below remain `AMOS_MODEL`.
 
----
+______________________________________________________________________
 
-# 2. Definition and Scope
+## 2. Definition and Scope
 
 `L03_PERCEPT_FORMATION_WORKFLOW` is the proposed governed process that transforms admitted perceptual inputs into one or more provenance-bound percept candidates without silently collapsing observation, interpretation, memory, attention, inference, or competing explanations.
 
@@ -285,9 +285,9 @@ COMMIT / REJECT / QUARANTINE
 
 This is a workflow model, not a verified neuroscientific sequence.
 
----
+______________________________________________________________________
 
-# 3. Workflow Object
+## 3. Workflow Object
 
 ```yaml
 L03Workflow:
@@ -361,9 +361,9 @@ L03Workflow:
       - UNKNOWN_GAP
 ```
 
----
+______________________________________________________________________
 
-# 4. Typed Inputs
+## 4. Typed Inputs
 
 ```yaml
 L03WorkflowInput:
@@ -411,9 +411,9 @@ L02_ATTENTION
 
 Candidate L03 processing MUST NOT silently manufacture missing upstream observations.
 
----
+______________________________________________________________________
 
-# 5. Typed Outputs
+## 5. Typed Outputs
 
 ```yaml
 L03WorkflowOutput:
@@ -467,9 +467,9 @@ Hard boundary:
 selected_proposal != committed_percept_state
 ```
 
----
+______________________________________________________________________
 
-# 6. Workflow State Variables
+## 6. Workflow State Variables
 
 Candidate state:
 
@@ -522,9 +522,9 @@ Auth_t  = authority state
 
 All L03-specific symbols remain `AMOS_MODEL`.
 
----
+______________________________________________________________________
 
-# 7. Execution Graph
+## 7. Execution Graph
 
 Candidate graph:
 
@@ -603,9 +603,9 @@ W20_TERMINATE
 
 This graph is proposed, not canonical.
 
----
+______________________________________________________________________
 
-# 8. Node Contract
+## 8. Node Contract
 
 Every node SHOULD satisfy:
 
@@ -643,9 +643,9 @@ WorkflowNode:
 
 This specializes the source execution node tensor.
 
----
+______________________________________________________________________
 
-# 9. Primary Workflow
+## 9. Primary Workflow
 
 ## W00 — Initialize
 
@@ -669,7 +669,7 @@ OUTPUT:
 
 Must not infer absent authority.
 
----
+______________________________________________________________________
 
 ## W01 — Admit Inputs
 
@@ -697,7 +697,7 @@ OUTPUT:
 
 Invalid state blocks execution rather than being silently coerced, consistent with the execution-graph invariant.
 
----
+______________________________________________________________________
 
 ## W02 — Normalize
 
@@ -726,7 +726,7 @@ Hard boundary:
 NORMALIZATION != SEMANTIC REWRITING
 ```
 
----
+______________________________________________________________________
 
 ## W03 — Apply Attention Context
 
@@ -752,7 +752,7 @@ attention priority != evidence strength
 
 Attention controls allocation, not truth.
 
----
+______________________________________________________________________
 
 ## W04 — Form Features
 
@@ -776,7 +776,7 @@ Output:
 FeatureState[]
 ```
 
----
+______________________________________________________________________
 
 ## W05 — Form Relations
 
@@ -801,7 +801,7 @@ Hard boundary:
 RELATION != CAUSAL EFFECT
 ```
 
----
+______________________________________________________________________
 
 ## W06 — Form Bindings
 
@@ -820,7 +820,7 @@ BindingState[]
 
 Alternative bindings SHOULD remain available where support is unresolved.
 
----
+______________________________________________________________________
 
 ## W07 — Generate Percept Candidates
 
@@ -842,7 +842,7 @@ PerceptCandidate[]
 
 No candidate is automatically promoted to observation.
 
----
+______________________________________________________________________
 
 ## W08 — Compare Competing Percepts
 
@@ -877,7 +877,7 @@ P1 || P2 || ... || Pn
 
 not forced convergence.
 
----
+______________________________________________________________________
 
 ## W08C — Preserve Competing
 
@@ -900,7 +900,7 @@ or
 ESCALATE
 ```
 
----
+______________________________________________________________________
 
 ## W09 — Context / Memory Check
 
@@ -924,7 +924,7 @@ UNKNOWN
 
 Contradiction is preserved.
 
----
+______________________________________________________________________
 
 ## W10 — H/M/L Check
 
@@ -950,7 +950,7 @@ Does H depend on missing M state?
 Does local evidence actually license global interpretation?
 ```
 
----
+______________________________________________________________________
 
 ## W11 — Provenance Check
 
@@ -969,7 +969,7 @@ validation epoch
 
 Repeated descendants of one origin MUST NOT be treated as independent confirmation.
 
----
+______________________________________________________________________
 
 ## W12 — Scope / Regime / Freshness Check
 
@@ -994,7 +994,7 @@ PRESERVE_COMPETING
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
 ## W13 — Uncertainty Propagation
 
@@ -1015,7 +1015,7 @@ U =
 
 Do not collapse material dimensions into false precision.
 
----
+______________________________________________________________________
 
 ## W14 — Confidence Ceiling
 
@@ -1048,7 +1048,7 @@ min(
 
 `AMOS_MODEL`.
 
----
+______________________________________________________________________
 
 ## W15 — Validate
 
@@ -1083,7 +1083,7 @@ UNKNOWN/GAP → PASS
 
 transition.
 
----
+______________________________________________________________________
 
 ## W16 — Propose Percept State
 
@@ -1107,7 +1107,7 @@ Hard boundary:
 PROPOSAL != COMMIT
 ```
 
----
+______________________________________________________________________
 
 ## W17 — Commit-Time Revalidation
 
@@ -1127,7 +1127,7 @@ commit eligibility
 
 The cognitive workflow cannot self-authorize durable effects.
 
----
+______________________________________________________________________
 
 ## W18 — Commit
 
@@ -1150,7 +1150,7 @@ authority witness
 commit epoch
 ```
 
----
+______________________________________________________________________
 
 ## W19 — Reject / Repair
 
@@ -1166,7 +1166,7 @@ RETURN TO EARLIEST INVALID NODE
 
 No automatic override.
 
----
+______________________________________________________________________
 
 ## W20 — Terminate
 
@@ -1185,9 +1185,9 @@ CANCELLED
 
 `COMPETING` and `UNKNOWN/GAP` are valid terminal epistemic states, not failures that must be hidden.
 
----
+______________________________________________________________________
 
-# 10. Secondary Diagnostic Workflow
+## 10. Secondary Diagnostic Workflow
 
 Where percept formation fails or contradictions appear:
 
@@ -1223,9 +1223,9 @@ Invalid(p)
 Invalidate(descendants(p))
 ```
 
----
+______________________________________________________________________
 
-# 11. Cognitive Mode Workflow
+## 11. Cognitive Mode Workflow
 
 When L03 invokes broader reasoning assistance, the Cognitive Process Orchestrator constrains mode selection.
 
@@ -1260,9 +1260,9 @@ quantitative validation
 
 This mapping is `AMOS_MODEL`.
 
----
+______________________________________________________________________
 
-# 12. Branching Rules
+## 12. Branching Rules
 
 Branch only where alternatives can materially alter outcome.
 
@@ -1285,9 +1285,9 @@ IF branch has no decision relevance
 THEN do not expand
 ```
 
----
+______________________________________________________________________
 
-# 13. Merge Rules
+## 13. Merge Rules
 
 Branches MAY merge only where:
 
@@ -1308,9 +1308,9 @@ P1 + P2 → P*
 
 solely because convergence is convenient.
 
----
+______________________________________________________________________
 
-# 14. Cyclic Workflows
+## 14. Cyclic Workflows
 
 The source execution-graph contract requires explicit termination conditions for cycles.
 
@@ -1343,9 +1343,9 @@ unless evidence, state, assumptions,
 or repair target materially changed.
 ```
 
----
+______________________________________________________________________
 
-# 15. Workflow Invariants
+## 15. Workflow Invariants
 
 ```text
 WF-L03-001
@@ -1439,9 +1439,9 @@ WF-L03-030
 CANONICAL WORKFLOW MUST NOT BE INVENTED TO CLOSE A CORPUS GAP.
 ```
 
----
+______________________________________________________________________
 
-# 16. Dependencies
+## 16. Dependencies
 
 ## Upstream
 
@@ -1489,9 +1489,9 @@ AMOS Infrastructure Control Plane
 AMOS Session / Context Governance
 ```
 
----
+______________________________________________________________________
 
-# 17. H/M/L Applicability
+## 17. H/M/L Applicability
 
 ## L — Local workflow
 
@@ -1528,9 +1528,9 @@ termination
 
 Cross-scale transitions MUST be explicit.
 
----
+______________________________________________________________________
 
-# 18. Control-Plane Requirements
+## 18. Control-Plane Requirements
 
 The L03 workflow may:
 
@@ -1577,9 +1577,9 @@ AND NOT FalsifierTriggered
 
 `AMOS_MODEL`.
 
----
+______________________________________________________________________
 
-# 19. Agents
+## 19. Agents
 
 Candidate workflow roles:
 
@@ -1600,9 +1600,9 @@ L03_AUDITOR_AGENT
 
 Agent outputs remain proposals unless separately authorized.
 
----
+______________________________________________________________________
 
-# 20. Skills
+## 20. Skills
 
 Relevant capability families:
 
@@ -1623,9 +1623,9 @@ AMOS Infrastructure Control Plane
 
 Skill availability does not establish canonical L03 implementation.
 
----
+______________________________________________________________________
 
-# 21. Protocols
+## 21. Protocols
 
 Candidate protocol family:
 
@@ -1654,9 +1654,9 @@ L03_WF_TERMINATE
 
 Canonical names remain `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
-# 22. Evidence / Provenance
+## 22. Evidence / Provenance
 
 Every workflow execution SHOULD retain:
 
@@ -1704,9 +1704,9 @@ WorkflowProvenance:
 
 Persistent state retaining producer/version/provenance is source-aligned with the execution-graph contract.
 
----
+______________________________________________________________________
 
-# 23. Uncertainty and Confidence Ceiling
+## 23. Uncertainty and Confidence Ceiling
 
 Workflow uncertainty:
 
@@ -1736,9 +1736,9 @@ unless independently revalidated.
 
 Workflow completion cannot increase confidence merely because more nodes executed.
 
----
+______________________________________________________________________
 
-# 24. Failure Modes
+## 24. Failure Modes
 
 ```text
 WFM-001
@@ -1835,9 +1835,9 @@ WFM-031
 Canonical workflow invented from architectural analogy.
 ```
 
----
+______________________________________________________________________
 
-# 25. Repair / Recovery
+## 25. Repair / Recovery
 
 Primary recovery workflow:
 
@@ -1890,9 +1890,9 @@ UNKNOWN
 
 No failed path should be retried unchanged.
 
----
+______________________________________________________________________
 
-# 26. Checkpointing
+## 26. Checkpointing
 
 Candidate checkpoint object:
 
@@ -1932,9 +1932,9 @@ WorkflowCheckpoint:
 
 Checkpoint does not itself certify validity.
 
----
+______________________________________________________________________
 
-# 27. Tests / Validators
+## 27. Tests / Validators
 
 Minimum test suite:
 
@@ -2030,9 +2030,9 @@ TEST DEFINITIONS = MODEL
 L03 TEST EXECUTION = NOT ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 28. Falsifiers
+## 28. Falsifiers
 
 Revise this workflow if direct canonical evidence establishes:
 
@@ -2066,9 +2066,9 @@ different termination conditions
 
 Executable canonical counterexamples should invalidate only affected nodes, edges, or assumptions.
 
----
+______________________________________________________________________
 
-# 29. Gap Matrix
+## 29. Gap Matrix
 
 ```yaml
 gap_status:
@@ -2143,9 +2143,9 @@ gap_status:
     status: CRITICAL_GAP
 ```
 
----
+______________________________________________________________________
 
-# 30. RSCF Completion State
+## 30. RSCF Completion State
 
 ```yaml
 rscf:
@@ -2266,9 +2266,9 @@ rscf:
     proposed workflow before canon promotion.
 ```
 
----
+______________________________________________________________________
 
-# 31. Completion State
+## 31. Completion State
 
 ```yaml
 completion_state:
@@ -2349,9 +2349,9 @@ completion_state:
     MODEL
 ```
 
----
+______________________________________________________________________
 
-# 32. Hard Boundaries
+## 32. Hard Boundaries
 
 ```text
 PLACEHOLDER != IMPLEMENTED
@@ -2403,15 +2403,15 @@ COMMITTABLE != COMMITTED
 IMPLEMENTED != EMPIRICALLY VALIDATED
 ```
 
----
+______________________________________________________________________
 
-# 33. Governing Workflow Contract
+## 33. Governing Workflow Contract
 
 > **`L03_PERCEPT_FORMATION` SHALL operate, when represented as an AMOS workflow, through typed state and schema-compatible transitions whose preconditions, postconditions, dependencies, provenance, scope, regime, freshness, uncertainty, and authority remain explicit. Invalid state SHALL block execution rather than be silently coerced. Observation, attention, memory, feature, relation, binding, and percept state SHALL remain epistemically distinct. Competing percept candidates SHALL remain `COMPETING` where discriminating evidence is insufficient. Cross-scale transitions SHALL require explicit transforms. Persistent workflow state SHALL retain producer, version, and provenance. Cyclic repair paths SHALL have explicit termination conditions and SHALL NOT repeat failed paths without materially changed evidence or state. Failure SHALL trigger selective invalidation and local recovery where dependency closure permits. Workflow completion SHALL NOT establish semantic, empirical, or causal validity. L03 MAY generate percept-state proposals, but durable mutation SHALL remain subject to separate control-plane authority and commit-time revalidation. `UNKNOWN/GAP` SHALL remain explicit and SHALL NOT be converted into a passing state.**
 
----
+______________________________________________________________________
 
-# 34. Canon Boundary
+## 34. Canon Boundary
 
 ```text
 SOURCE / ARCHITECTURE-ALIGNED:
@@ -2552,22 +2552,26 @@ EMPIRICAL PERCEPTUAL VALIDITY:
 NOT ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: l03_percept_formation_primitives_cognitive_matrix_workflows
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L03_PERCEPT_FORMATION/L03_PERCEPT_FORMATION_PRIMITIVES_COGNITIVE_MATRIX_WORKFLOWS.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L03_PERCEPT_FORMATION/L03_PERCEPT_FORMATION_MOC|L03_PERCEPT_FORMATION_MOC]]

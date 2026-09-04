@@ -1,28 +1,28 @@
 ---
 tags:
-- canon
-- core_laws
-- execution
-- effects
-- commit
-- idempotency
-- ledger
-- worker
-- control-plane
-- rscf
-- canon/universe
-- law-hierarchy
-- law/L0-integrity
-- law/L1-epistemic
-- law/L2-provenance
-- law/L3-dependency
-- law/L4-causal
-- law/L5-scope-regime
-- law/L6-uncertainty
-- law/L7-authority
-- routing-policy
-- authority-resolver
-- authority-witness
+  - canon
+  - core_laws
+  - execution
+  - effects
+  - commit
+  - idempotency
+  - ledger
+  - worker
+  - control-plane
+  - rscf
+  - canon/universe
+  - law-hierarchy
+  - law/L0-integrity
+  - law/L1-epistemic
+  - law/L2-provenance
+  - law/L3-dependency
+  - law/L4-causal
+  - law/L5-scope-regime
+  - law/L6-uncertainty
+  - law/L7-authority
+  - routing-policy
+  - authority-resolver
+  - authority-witness
 title: L8 Execution Laws
 origin_architect: Trang Phan
 updated: '2026-08-26'
@@ -52,9 +52,9 @@ rscf:
 >
 > Approval is not execution. Preparation is not commitment. A successful tool call is not sufficient evidence of a valid governed effect.
 
----
+______________________________________________________________________
 
-# 0. Status
+## 0. Status
 
 This document expands the supplied L8 seed specification:
 
@@ -98,9 +98,9 @@ EXECUTED != COMMITTED
 COMMITTED != CORRECT
 ```
 
----
+______________________________________________________________________
 
-# 1. Purpose
+## 1. Purpose
 
 L8 answers:
 
@@ -137,9 +137,9 @@ The execution layer MUST preserve the governance conditions established upstream
 
 Execution MUST NOT become an alternate route around authorization, policy, provenance, or commitment controls.
 
----
+______________________________________________________________________
 
-# 2. Execution Boundary
+## 2. Execution Boundary
 
 L8 distinguishes:
 
@@ -173,9 +173,9 @@ A receipt can exist for a failed operation.
 
 Therefore these states MUST NOT be collapsed.
 
----
+______________________________________________________________________
 
-# 3. Core Execution State
+## 3. Core Execution State
 
 A conceptual execution object MAY be represented as:
 
@@ -200,9 +200,9 @@ execution:
 
 This is a structural AMOS model, not an assertion that the runtime currently uses this exact schema.
 
----
+______________________________________________________________________
 
-# 4. Execution State Machine
+## 4. Execution State Machine
 
 Conceptually:
 
@@ -245,9 +245,9 @@ QUARANTINED
 
 State transitions MUST preserve provenance.
 
----
+______________________________________________________________________
 
-# 5. E-1 — Worker-Only Effects
+## 5. E-1 — Worker-Only Effects
 
 **Supplied law:**
 
@@ -266,9 +266,9 @@ GOVERNED_WORKER_PATH
 
 A reasoning component, planner, model, policy evaluator, or coordinator SHOULD NOT directly bypass the infrastructure execution path for consequential effects.
 
----
+______________________________________________________________________
 
-# 6. Worker Definition
+## 6. Worker Definition
 
 A worker is the execution component permitted to perform a defined class of effects under infrastructure governance.
 
@@ -295,9 +295,9 @@ WORKER_CAPABILITY
 ACTION_AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 7. Worker Path
+## 7. Worker Path
 
 A governed worker path SHOULD preserve:
 
@@ -317,9 +317,9 @@ ledger reference
 
 Material loss of these bindings SHOULD block or downgrade execution.
 
----
+______________________________________________________________________
 
-# 8. Direct-Effect Prohibition
+## 8. Direct-Effect Prohibition
 
 A consequential effect MUST NOT be produced through an ungoverned side path merely because that path is technically available.
 
@@ -347,9 +347,9 @@ COMMIT GATE
 EFFECT
 ```
 
----
+______________________________________________________________________
 
-# 9. Infrastructure Governance
+## 9. Infrastructure Governance
 
 Infrastructure governance SHOULD determine:
 
@@ -366,9 +366,9 @@ Infrastructure governance SHOULD determine:
 
 Domain workers SHOULD remain separate from infrastructure authority.
 
----
+______________________________________________________________________
 
-# 10. Routing Policy
+## 10. Routing Policy
 
 The supplied artifact states:
 
@@ -395,9 +395,9 @@ I-RPOL-017 REFERENCED
 I-RPOL-017 INDEPENDENTLY VERIFIED
 ```
 
----
+______________________________________________________________________
 
-# 11. Worker Eligibility
+## 11. Worker Eligibility
 
 Before dispatch:
 
@@ -422,9 +422,9 @@ health state
 version
 ```
 
----
+______________________________________________________________________
 
-# 12. Worker Capability
+## 12. Worker Capability
 
 The selected worker MUST possess the required technical capability.
 
@@ -438,9 +438,9 @@ NO EXECUTION
 
 The system MUST NOT fabricate successful execution when no valid worker can perform the operation.
 
----
+______________________________________________________________________
 
-# 13. Worker Isolation
+## 13. Worker Isolation
 
 Where multiple workers exist, each worker SHOULD operate only within its declared execution envelope.
 
@@ -454,9 +454,9 @@ AllowedWorkerScope(W)
 
 A worker must not silently expand its effect class.
 
----
+______________________________________________________________________
 
-# 14. Worker Identity
+## 14. Worker Identity
 
 Consequential execution SHOULD be attributable to a stable worker identity.
 
@@ -480,9 +480,9 @@ REQUESTER != EXECUTOR
 
 in many architectures.
 
----
+______________________________________________________________________
 
-# 15. E-2 — Commit-Time Revalidation
+## 15. E-2 — Commit-Time Revalidation
 
 **Supplied law:**
 
@@ -505,9 +505,9 @@ IS NOT SUFFICIENT
 FOR MUTABLE CONSEQUENTIAL COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 16. Commit-Time Gate
+## 16. Commit-Time Gate
 
 Immediately before a consequential commitment, the infrastructure SHOULD validate the current commit envelope.
 
@@ -532,9 +532,9 @@ WorkerEligible
 
 Additional domain-specific requirements MAY apply.
 
----
+______________________________________________________________________
 
-# 17. Request-Time vs Commit-Time
+## 17. Request-Time vs Commit-Time
 
 Example:
 
@@ -554,9 +554,9 @@ Required:
 REVALIDATE(t5)
 ```
 
----
+______________________________________________________________________
 
-# 18. Mutable Commit Inputs
+## 18. Mutable Commit Inputs
 
 Commit-time revalidation SHOULD cover every mutable state capable of invalidating the effect.
 
@@ -580,9 +580,9 @@ revocation state
 
 Only load-bearing mutable state needs revalidation.
 
----
+______________________________________________________________________
 
-# 19. Observed Read Set
+## 19. Observed Read Set
 
 For governed execution, the system SHOULD know which mutable state was relied upon when preparing the effect.
 
@@ -598,9 +598,9 @@ observed_read_set:
 
 Commit-time validation compares relevant current state with the observed state.
 
----
+______________________________________________________________________
 
-# 20. Stale Read Detection
+## 20. Stale Read Detection
 
 If a load-bearing state changes:
 
@@ -622,9 +622,9 @@ ABORT
 
 rather than blindly committing.
 
----
+______________________________________________________________________
 
-# 21. MVCC/CAS Execution Pattern
+## 21. MVCC/CAS Execution Pattern
 
 Where AMOS uses MVCC/CAS-style reasoning:
 
@@ -650,9 +650,9 @@ The operation may be retried only under the idempotency and redispatch laws belo
 
 This is a reasoning/control pattern, not a claim that every AMOS deployment literally implements a specific database MVCC algorithm.
 
----
+______________________________________________________________________
 
-# 22. Commit Effect Binding
+## 22. Commit Effect Binding
 
 The effect revalidated at commit time MUST be the effect actually committed.
 
@@ -668,9 +668,9 @@ or another sufficiently strong equivalence relation defined by authoritative run
 
 Material effect mutation after validation invalidates the commit authorization.
 
----
+______________________________________________________________________
 
-# 23. Effect Mutation
+## 23. Effect Mutation
 
 If any authority-relevant field changes after validation:
 
@@ -693,9 +693,9 @@ MATERIAL_MUTATION
 REVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 24. Commit-Time Failure
+## 24. Commit-Time Failure
 
 If revalidation fails:
 
@@ -711,9 +711,9 @@ execution already started
 
 unless the effect has crossed an irreversible boundary that requires compensation rather than prevention.
 
----
+______________________________________________________________________
 
-# 25. Irreversible Boundary
+## 25. Irreversible Boundary
 
 Every consequential execution SHOULD define the latest reversible point.
 
@@ -729,9 +729,9 @@ IRREVERSIBLE_EFFECT
 
 Commit-time revalidation SHOULD occur before the irreversible boundary whenever technically possible.
 
----
+______________________________________________________________________
 
-# 26. E-3 — Idempotency
+## 26. E-3 — Idempotency
 
 **Supplied law:**
 
@@ -757,9 +757,9 @@ BLIND RETRY
 POSSIBLE DUPLICATE EFFECT
 ```
 
----
+______________________________________________________________________
 
-# 27. Idempotency Definition
+## 27. Idempotency Definition
 
 For an operation `O` with idempotency identity `K`, repeated valid delivery SHOULD not create multiple logically distinct effects where only one was intended.
 
@@ -777,9 +777,9 @@ with respect to the governed external effect.
 
 The exact equivalence relation is domain-specific.
 
----
+______________________________________________________________________
 
-# 28. Idempotency Key
+## 28. Idempotency Key
 
 A consequential retriable operation SHOULD carry an idempotency key.
 
@@ -796,9 +796,9 @@ idempotency:
 
 The key SHOULD be bound strongly enough to prevent unrelated effects from sharing an identity.
 
----
+______________________________________________________________________
 
-# 29. Idempotency Binding
+## 29. Idempotency Binding
 
 A key for effect `E1` MUST NOT silently authorize or deduplicate materially different effect `E2`.
 
@@ -818,9 +818,9 @@ not:
 REUSE AS SAME EFFECT
 ```
 
----
+______________________________________________________________________
 
-# 30. Retry
+## 30. Retry
 
 A retry is another attempt to complete the same logical operation.
 
@@ -840,9 +840,9 @@ authority requirements
 provenance
 ```
 
----
+______________________________________________________________________
 
-# 31. Blind Redispatch
+## 31. Blind Redispatch
 
 Blind redispatch means issuing the same or similar consequential operation again without first resolving whether the previous attempt already caused the effect.
 
@@ -860,9 +860,9 @@ SEND AGAIN
 
 without idempotency or reconciliation.
 
----
+______________________________________________________________________
 
-# 32. Unknown Outcome
+## 32. Unknown Outcome
 
 A timeout does not establish failure.
 
@@ -886,9 +886,9 @@ unknown
 
 The system MUST preserve this ambiguity.
 
----
+______________________________________________________________________
 
-# 33. Unknown-Outcome Recovery
+## 33. Unknown-Outcome Recovery
 
 When outcome is unknown:
 
@@ -909,9 +909,9 @@ COMPENSATE
 ESCALATE
 ```
 
----
+______________________________________________________________________
 
-# 34. Retry Eligibility
+## 34. Retry Eligibility
 
 Retry SHOULD require:
 
@@ -929,9 +929,9 @@ retry-safe worker path
 
 A valid original request does not permanently authorize unlimited retries.
 
----
+______________________________________________________________________
 
-# 35. Retry Authorization
+## 35. Retry Authorization
 
 Every retry that can create a consequential effect SHOULD remain inside the current authorization envelope.
 
@@ -945,9 +945,9 @@ if authority or policy has changed.
 
 Therefore retries inherit E-2.
 
----
+______________________________________________________________________
 
-# 36. Retry Budget
+## 36. Retry Budget
 
 Execution infrastructure SHOULD bound retries.
 
@@ -963,9 +963,9 @@ retry_policy:
 
 Unlimited retries are prohibited for consequential operations unless authoritative domain semantics explicitly establish safety.
 
----
+______________________________________________________________________
 
-# 37. Retry Exhaustion
+## 37. Retry Exhaustion
 
 When the retry budget is exhausted:
 
@@ -984,9 +984,9 @@ COMPENSATE
 
 rather than continuing indefinitely.
 
----
+______________________________________________________________________
 
-# 38. Duplicate Detection
+## 38. Duplicate Detection
 
 Before repeating a consequential effect, infrastructure SHOULD inspect:
 
@@ -1001,9 +1001,9 @@ external reconciliation state
 
 to determine whether the intended effect already exists.
 
----
+______________________________________________________________________
 
-# 39. Duplicate Effect
+## 39. Duplicate Effect
 
 If the same logical effect is already committed:
 
@@ -1017,9 +1017,9 @@ where domain semantics permit.
 
 It SHOULD NOT create another effect.
 
----
+______________________________________________________________________
 
-# 40. Conflicting Duplicate
+## 40. Conflicting Duplicate
 
 If:
 
@@ -1043,9 +1043,9 @@ SHOULD fail closed.
 
 This is evidence of state mismatch, key misuse, or mutation.
 
----
+______________________________________________________________________
 
-# 41. E-4 — Effect Digests
+## 41. E-4 — Effect Digests
 
 **Supplied law:**
 
@@ -1061,9 +1061,9 @@ INV-031
 
 The effect digest binds the intended or committed effect to a stable representation suitable for integrity checking.
 
----
+______________________________________________________________________
 
-# 42. Effect Digest Purpose
+## 42. Effect Digest Purpose
 
 An effect digest SHOULD support:
 
@@ -1086,9 +1086,9 @@ EFFECT_DIGEST
 EFFECT_OCCURRENCE
 ```
 
----
+______________________________________________________________________
 
-# 43. Digest Input
+## 43. Digest Input
 
 Conceptually:
 
@@ -1115,9 +1115,9 @@ The exact digest algorithm and canonicalization MUST come from authoritative imp
 
 They are not invented here.
 
----
+______________________________________________________________________
 
-# 44. Canonical Effect Representation
+## 44. Canonical Effect Representation
 
 Digesting requires deterministic representation.
 
@@ -1135,9 +1135,9 @@ where the canonicalization contract defines equivalence.
 
 Without canonicalization, serialization differences could produce misleading digest differences.
 
----
+______________________________________________________________________
 
-# 45. Digest Mutation Detection
+## 45. Digest Mutation Detection
 
 If a material effect field changes:
 
@@ -1149,9 +1149,9 @@ under a collision-resistant implementation assumption.
 
 The system SHOULD treat this as a different effect unless canonical rules establish equivalence.
 
----
+______________________________________________________________________
 
-# 46. Digest and Authority Witness
+## 46. Digest and Authority Witness
 
 Where L7 authority witnesses are effect-bound:
 
@@ -1165,9 +1165,9 @@ SHOULD hold at commit time if the implementation uses digest binding.
 
 This joins L7 authority and L8 execution without collapsing their responsibilities.
 
----
+______________________________________________________________________
 
-# 47. Digest and Idempotency
+## 47. Digest and Idempotency
 
 An idempotency key SHOULD be checked against the effect digest.
 
@@ -1191,9 +1191,9 @@ D1 != D2
 
 unless an authoritative mutation protocol explicitly supersedes the earlier operation.
 
----
+______________________________________________________________________
 
-# 48. Digest and Receipt
+## 48. Digest and Receipt
 
 A receipt SHOULD identify the digest of the effect it reports.
 
@@ -1210,9 +1210,9 @@ receipt:
 
 This allows later verification that the receipt corresponds to the intended effect.
 
----
+______________________________________________________________________
 
-# 49. Digest and Ledger
+## 49. Digest and Ledger
 
 The supplied law requires:
 
@@ -1239,9 +1239,9 @@ ledger_entry:
 
 The exact ledger schema remains implementation-dependent.
 
----
+______________________________________________________________________
 
-# 50. Ledger
+## 50. Ledger
 
 The execution ledger provides persistent evidence about execution state.
 
@@ -1261,9 +1261,9 @@ rollback
 
 rather than recording every event as generic "success" or "failure."
 
----
+______________________________________________________________________
 
-# 51. Receipt
+## 51. Receipt
 
 A receipt is an execution artifact reporting an operation outcome.
 
@@ -1283,9 +1283,9 @@ A receipt is evidence about execution.
 
 It MUST NOT automatically be interpreted as independent proof of external reality unless the receipt source supports that claim.
 
----
+______________________________________________________________________
 
-# 52. Receipt Integrity
+## 52. Receipt Integrity
 
 A receipt SHOULD bind:
 
@@ -1306,9 +1306,9 @@ authority_witness
 ledger_reference
 ```
 
----
+______________________________________________________________________
 
-# 53. Receipt/Ledger Agreement
+## 53. Receipt/Ledger Agreement
 
 Where both exist:
 
@@ -1330,9 +1330,9 @@ AUDIT
 
 rather than silent acceptance.
 
----
+______________________________________________________________________
 
-# 54. Missing Receipt
+## 54. Missing Receipt
 
 Missing receipt does not necessarily mean missing effect.
 
@@ -1352,9 +1352,9 @@ OUTCOME = UNKNOWN
 
 until reconciled.
 
----
+______________________________________________________________________
 
-# 55. Missing Ledger Record
+## 55. Missing Ledger Record
 
 If an effect may have occurred but ledger persistence failed:
 
@@ -1366,9 +1366,9 @@ LEDGER MISSING
 
 the system SHOULD enter reconciliation rather than redispatching.
 
----
+______________________________________________________________________
 
-# 56. Execution Provenance
+## 56. Execution Provenance
 
 Execution provenance SHOULD preserve:
 
@@ -1391,9 +1391,9 @@ external result reference
 
 where relevant and available.
 
----
+______________________________________________________________________
 
-# 57. Execution Attempt
+## 57. Execution Attempt
 
 Each physical attempt SHOULD have its own attempt identity.
 
@@ -1408,9 +1408,9 @@ LogicalOperation K
 
 All attempts may refer to the same logical idempotent operation while retaining separate execution provenance.
 
----
+______________________________________________________________________
 
-# 58. Logical vs Physical Execution
+## 58. Logical vs Physical Execution
 
 Distinguish:
 
@@ -1428,9 +1428,9 @@ This is necessary because one logical operation may require several physical att
 
 The ledger SHOULD preserve both identities.
 
----
+______________________________________________________________________
 
-# 59. Attempt Counter
+## 59. Attempt Counter
 
 Conceptually:
 
@@ -1444,9 +1444,9 @@ attempt:
 
 Attempt numbers MUST NOT be used as substitutes for idempotency identity.
 
----
+______________________________________________________________________
 
-# 60. Dispatch
+## 60. Dispatch
 
 Dispatch transfers an approved execution request to an eligible worker.
 
@@ -1458,9 +1458,9 @@ EFFECT
 
 A dispatch can fail before worker execution.
 
----
+______________________________________________________________________
 
-# 61. Dispatch Contract
+## 61. Dispatch Contract
 
 A dispatch envelope SHOULD contain sufficient immutable or versioned context:
 
@@ -1478,9 +1478,9 @@ dispatch:
   observed_read_set: ...
 ```
 
----
+______________________________________________________________________
 
-# 62. Dispatch Mutation
+## 62. Dispatch Mutation
 
 A worker MUST NOT materially mutate the effect outside authorized transformation rules.
 
@@ -1492,9 +1492,9 @@ RETURN TO VALIDATION
 
 or create a new proposal/effect identity.
 
----
+______________________________________________________________________
 
-# 63. Execution Environment
+## 63. Execution Environment
 
 Consequential execution SHOULD identify its environment:
 
@@ -1511,9 +1511,9 @@ or domain equivalent.
 
 Authority for one environment MUST NOT automatically authorize another.
 
----
+______________________________________________________________________
 
-# 64. Environment Binding
+## 64. Environment Binding
 
 ```text
 AUTHORIZED(staging)
@@ -1525,9 +1525,9 @@ unless the grant explicitly covers both.
 
 Execution routing MUST preserve this distinction.
 
----
+______________________________________________________________________
 
-# 65. Dry Run
+## 65. Dry Run
 
 A dry run simulates or validates an execution without producing the consequential external effect.
 
@@ -1541,9 +1541,9 @@ COMMIT
 
 A successful dry run MUST NOT be reported as successful real-world execution.
 
----
+______________________________________________________________________
 
-# 66. Simulation Boundary
+## 66. Simulation Boundary
 
 Similarly:
 
@@ -1555,9 +1555,9 @@ REAL_EFFECT
 
 The ledger SHOULD identify simulation mode explicitly.
 
----
+______________________________________________________________________
 
-# 67. Partial Effect
+## 67. Partial Effect
 
 A worker may produce only part of an intended multi-step effect.
 
@@ -1583,9 +1583,9 @@ NO_EFFECT
 
 The partial state must remain explicit.
 
----
+______________________________________________________________________
 
-# 68. Atomic Effect
+## 68. Atomic Effect
 
 Where the operation is intended to be atomic:
 
@@ -1601,9 +1601,9 @@ If true atomicity is unavailable, the system MUST NOT falsely claim it.
 
 Compensation may be required instead.
 
----
+______________________________________________________________________
 
-# 69. Multi-Effect Transaction
+## 69. Multi-Effect Transaction
 
 Conceptually:
 
@@ -1627,9 +1627,9 @@ compensation semantics
 authorization envelope
 ```
 
----
+______________________________________________________________________
 
-# 70. Ordered Effects
+## 70. Ordered Effects
 
 Where order matters:
 
@@ -1641,9 +1641,9 @@ must be preserved.
 
 Retries MUST NOT reorder effects if reordering changes semantics.
 
----
+______________________________________________________________________
 
-# 71. Dependency-Aware Execution
+## 71. Dependency-Aware Execution
 
 An effect dependent on another effect MUST NOT execute before its prerequisite reaches the required state.
 
@@ -1655,9 +1655,9 @@ E1 != REQUIRED_STATE
 BLOCK E2
 ```
 
----
+______________________________________________________________________
 
-# 72. Failure Propagation
+## 72. Failure Propagation
 
 Execution failure SHOULD invalidate only dependent pending effects where possible.
 
@@ -1676,9 +1676,9 @@ block E2
 
 but do not automatically block `E3` unless transaction semantics require it.
 
----
+______________________________________________________________________
 
-# 73. Selective Abort
+## 73. Selective Abort
 
 Abort scope SHOULD follow dependency scope.
 
@@ -1692,9 +1692,9 @@ not necessarily the entire execution graph.
 
 Global abort is appropriate only where atomicity or shared invariants require it.
 
----
+______________________________________________________________________
 
-# 74. Compensation
+## 74. Compensation
 
 When an effect cannot be rolled back directly, a compensating effect MAY be required.
 
@@ -1719,9 +1719,9 @@ ledger record
 
 unless authoritative domain semantics establish pre-authorized compensation.
 
----
+______________________________________________________________________
 
-# 75. Rollback vs Compensation
+## 75. Rollback vs Compensation
 
 ```text
 ROLLBACK
@@ -1735,9 +1735,9 @@ Compensation creates a subsequent effect intended to offset the earlier effect.
 
 The distinction MUST remain explicit.
 
----
+______________________________________________________________________
 
-# 76. Execution Timeout
+## 76. Execution Timeout
 
 Timeout is an observation about response timing.
 
@@ -1753,9 +1753,9 @@ UNKNOWN_OUTCOME
 
 unless infrastructure can prove that no effect occurred.
 
----
+______________________________________________________________________
 
-# 77. Cancellation
+## 77. Cancellation
 
 Cancellation SHOULD distinguish:
 
@@ -1773,9 +1773,9 @@ CANCEL
 
 may be impossible and compensation may be required.
 
----
+______________________________________________________________________
 
-# 78. Worker Crash
+## 78. Worker Crash
 
 A worker crash MAY leave:
 
@@ -1788,9 +1788,9 @@ unknown effect
 
 Therefore crash recovery SHOULD consult ledger, idempotency state, and external reconciliation before redispatch.
 
----
+______________________________________________________________________
 
-# 79. Router Crash
+## 79. Router Crash
 
 A router crash after dispatch but before local acknowledgement creates ambiguity.
 
@@ -1802,9 +1802,9 @@ dispatch absent
 
 unless dispatch delivery semantics prove it.
 
----
+______________________________________________________________________
 
-# 80. Ledger Crash
+## 80. Ledger Crash
 
 Ledger persistence failure after external commit creates a dangerous ambiguity:
 
@@ -1815,9 +1815,9 @@ LEDGER STATE = MISSING
 
 Recovery SHOULD reconcile before retry.
 
----
+______________________________________________________________________
 
-# 81. Receipt Loss
+## 81. Receipt Loss
 
 Receipt loss SHOULD be recoverable through:
 
@@ -1833,9 +1833,9 @@ where available.
 
 Blind effect repetition is prohibited.
 
----
+______________________________________________________________________
 
-# 82. Replay
+## 82. Replay
 
 A historical dispatch or receipt MUST NOT automatically be executable as a new operation.
 
@@ -1847,9 +1847,9 @@ NEW AUTHORIZED_OPERATION
 
 Replay protection SHOULD use transaction, idempotency, authority, and freshness state.
 
----
+______________________________________________________________________
 
-# 83. Stale Dispatch
+## 83. Stale Dispatch
 
 If a queued dispatch becomes stale before execution:
 
@@ -1864,9 +1864,9 @@ the worker/control plane SHOULD revalidate before effect.
 
 Queue residence does not preserve authorization indefinitely.
 
----
+______________________________________________________________________
 
-# 84. Queue Semantics
+## 84. Queue Semantics
 
 A queue is transport/state infrastructure.
 
@@ -1878,9 +1878,9 @@ COMMIT_AUTHORIZED
 
 The worker MUST still respect commit-time gates.
 
----
+______________________________________________________________________
 
-# 85. At-Least-Once Delivery
+## 85. At-Least-Once Delivery
 
 If transport may deliver a message more than once:
 
@@ -1892,9 +1892,9 @@ then idempotency becomes load-bearing.
 
 Duplicate delivery MUST NOT imply duplicate effect.
 
----
+______________________________________________________________________
 
-# 86. At-Most-Once Delivery
+## 86. At-Most-Once Delivery
 
 At-most-once delivery reduces duplicates but may lose execution.
 
@@ -1908,9 +1908,9 @@ effect identity
 
 for consequential operations.
 
----
+______________________________________________________________________
 
-# 87. Exactly-Once Claims
+## 87. Exactly-Once Claims
 
 Claims of:
 
@@ -1931,9 +1931,9 @@ external business effect
 
 Exactly-once processing in one subsystem does not prove exactly-once external effect.
 
----
+______________________________________________________________________
 
-# 88. External Systems
+## 88. External Systems
 
 External APIs may have different execution semantics.
 
@@ -1947,9 +1947,9 @@ without evidence.
 
 If external idempotency is unavailable, reconciliation or compensation requirements become stronger.
 
----
+______________________________________________________________________
 
-# 89. External Receipt
+## 89. External Receipt
 
 An external system reference MAY strengthen evidence that an effect occurred.
 
@@ -1964,9 +1964,9 @@ provider receipt
 
 But evidence strength depends on the provider and semantics.
 
----
+______________________________________________________________________
 
-# 90. Effect Confirmation
+## 90. Effect Confirmation
 
 Possible confirmation classes:
 
@@ -1981,9 +1981,9 @@ UNKNOWN
 
 These MUST NOT be conflated.
 
----
+______________________________________________________________________
 
-# 91. Execution Result
+## 91. Execution Result
 
 A conceptual result MAY be:
 
@@ -1999,9 +1999,9 @@ execution_result:
   ledger_reference: ...
 ```
 
----
+______________________________________________________________________
 
-# 92. Success Semantics
+## 92. Success Semantics
 
 `SUCCESS` SHOULD be avoided unless its meaning is defined.
 
@@ -2017,9 +2017,9 @@ RECONCILED
 
 because each represents different evidence.
 
----
+______________________________________________________________________
 
-# 93. Failure Semantics
+## 93. Failure Semantics
 
 Likewise:
 
@@ -2041,9 +2041,9 @@ external rejection
 reconciliation failure
 ```
 
----
+______________________________________________________________________
 
-# 94. Execution Uncertainty
+## 94. Execution Uncertainty
 
 Execution uncertainty SHOULD remain typed.
 
@@ -2060,9 +2060,9 @@ reconciliation_uncertainty
 
 A fluent "probably succeeded" statement MUST NOT replace unresolved execution state.
 
----
+______________________________________________________________________
 
-# 95. Unknown Execution
+## 95. Unknown Execution
 
 If available evidence cannot establish whether an effect occurred:
 
@@ -2082,9 +2082,9 @@ or:
 FAILURE
 ```
 
----
+______________________________________________________________________
 
-# 96. H/M/L Applicability
+## 96. H/M/L Applicability
 
 ## H — Governing Execution
 
@@ -2098,7 +2098,7 @@ H-level execution concerns:
 - systemic retry policy;
 - infrastructure governance.
 
----
+______________________________________________________________________
 
 ## M — Subsystem Execution
 
@@ -2112,7 +2112,7 @@ M-level execution concerns:
 - subsystem receipts;
 - subsystem reconciliation.
 
----
+______________________________________________________________________
 
 ## L — Local Effect
 
@@ -2127,9 +2127,9 @@ L-level execution concerns:
 
 Every L-level consequential effect MUST remain within applicable H/M governance.
 
----
+______________________________________________________________________
 
-# 97. Cross-Scale Execution
+## 97. Cross-Scale Execution
 
 Conceptually:
 
@@ -2143,9 +2143,9 @@ L concrete effect
 
 A local worker cannot bypass a governing execution invariant merely because the local operation is technically valid.
 
----
+______________________________________________________________________
 
-# 98. Control-Plane Ownership
+## 98. Control-Plane Ownership
 
 L8 execution governance belongs primarily to infrastructure/control-plane functions.
 
@@ -2168,60 +2168,60 @@ reconciliation state
 
 This preserves separation between domain cognition and execution authority.
 
----
+______________________________________________________________________
 
-# 99. Worker Contract
+## 99. Worker Contract
 
 An L8-conformant worker SHOULD:
 
 1. accept only governed dispatches;
-2. verify dispatch integrity;
-3. preserve transaction identity;
-4. preserve idempotency identity;
-5. preserve effect digest;
-6. refuse material unauthorized mutation;
-7. participate in commit-time revalidation;
-8. produce typed outcome state;
-9. return a receipt where required;
-10. avoid blind redispatch;
-11. preserve unknown outcomes;
-12. expose reconciliation references where available.
+1. verify dispatch integrity;
+1. preserve transaction identity;
+1. preserve idempotency identity;
+1. preserve effect digest;
+1. refuse material unauthorized mutation;
+1. participate in commit-time revalidation;
+1. produce typed outcome state;
+1. return a receipt where required;
+1. avoid blind redispatch;
+1. preserve unknown outcomes;
+1. expose reconciliation references where available.
 
----
+______________________________________________________________________
 
-# 100. Router Contract
+## 100. Router Contract
 
 An L8-conformant router SHOULD:
 
 1. identify the effect class;
-2. select only eligible workers;
-3. enforce `I-RPOL-017` if confirmed by authoritative runtime;
-4. preserve dispatch bindings;
-5. prevent direct ungoverned effect paths;
-6. preserve transaction and idempotency identity;
-7. record dispatch provenance;
-8. fail closed when no valid worker path exists.
+1. select only eligible workers;
+1. enforce `I-RPOL-017` if confirmed by authoritative runtime;
+1. preserve dispatch bindings;
+1. prevent direct ungoverned effect paths;
+1. preserve transaction and idempotency identity;
+1. record dispatch provenance;
+1. fail closed when no valid worker path exists.
 
----
+______________________________________________________________________
 
-# 101. Committer Contract
+## 101. Committer Contract
 
 A commit component SHOULD:
 
 1. identify the exact effect;
-2. resolve current authority;
-3. resolve current policy;
-4. validate current constraints;
-5. compare load-bearing observed state;
-6. validate effect digest;
-7. validate idempotency state;
-8. reject stale or conflicting execution;
-9. commit only after all required gates pass;
-10. emit commitment evidence.
+1. resolve current authority;
+1. resolve current policy;
+1. validate current constraints;
+1. compare load-bearing observed state;
+1. validate effect digest;
+1. validate idempotency state;
+1. reject stale or conflicting execution;
+1. commit only after all required gates pass;
+1. emit commitment evidence.
 
----
+______________________________________________________________________
 
-# 102. Ledger Contract
+## 102. Ledger Contract
 
 The ledger SHOULD preserve enough state to reconstruct:
 
@@ -2241,9 +2241,9 @@ what compensation occurred
 
 The ledger SHOULD be append-preserving or otherwise auditable according to authoritative implementation requirements.
 
----
+______________________________________________________________________
 
-# 103. Receipt Contract
+## 103. Receipt Contract
 
 A receipt SHOULD be:
 
@@ -2260,9 +2260,9 @@ where technically possible.
 
 A receipt MUST NOT silently mutate the effect identity.
 
----
+______________________________________________________________________
 
-# 104. Reconciliation Contract
+## 104. Reconciliation Contract
 
 Reconciliation SHOULD be invoked when:
 
@@ -2279,9 +2279,9 @@ unknown outcome
 
 Reconciliation SHOULD prefer observation over redispatch.
 
----
+______________________________________________________________________
 
-# 105. Execution Failure Modes
+## 105. Execution Failure Modes
 
 L8 recognizes at least:
 
@@ -2365,9 +2365,9 @@ Subsystem delivery semantics are generalized to external effect semantics.
 
 Dry-run or simulated result is reported as actual effect.
 
----
+______________________________________________________________________
 
-# 106. Recovery Flow
+## 106. Recovery Flow
 
 Canonical conceptual recovery:
 
@@ -2403,9 +2403,9 @@ ACCEPT / RETRY / COMPENSATE / ABORT / ESCALATE
 WRITE RECONCILIATION EVIDENCE
 ```
 
----
+______________________________________________________________________
 
-# 107. Selective Recovery
+## 107. Selective Recovery
 
 Execution failure SHOULD invalidate only affected execution descendants where possible.
 
@@ -2426,9 +2426,9 @@ while preserving `E3` if its invariants remain valid.
 
 This follows the AMOS selective-invalidation principle.
 
----
+______________________________________________________________________
 
-# 108. Minimum Validator Families
+## 108. Minimum Validator Families
 
 Conceptual validators include:
 
@@ -2464,9 +2464,9 @@ validate_reconciliation()
 
 These are conceptual responsibilities, not claims about exact runtime function names.
 
----
+______________________________________________________________________
 
-# 109. Supplied Enforcement Claims
+## 109. Supplied Enforcement Claims
 
 The supplied artifact identifies:
 
@@ -2512,9 +2512,9 @@ independent_runtime_verification:
   status: NOT_ESTABLISHED_HERE
 ```
 
----
+______________________________________________________________________
 
-# 110. Minimum Execution Tests
+## 110. Minimum Execution Tests
 
 ## L8-T1 — Direct Effect Bypass
 
@@ -2531,7 +2531,7 @@ Expected:
 REJECT
 ```
 
----
+______________________________________________________________________
 
 ## L8-T2 — Valid Worker Route
 
@@ -2551,7 +2551,7 @@ ROUTE_ALLOWED
 
 subject to later commit validation.
 
----
+______________________________________________________________________
 
 ## L8-T3 — Revocation Before Commit
 
@@ -2568,7 +2568,7 @@ Expected:
 COMMIT = DENIED
 ```
 
----
+______________________________________________________________________
 
 ## L8-T4 — Policy Change Before Commit
 
@@ -2585,7 +2585,7 @@ Expected:
 COMMIT = DENIED
 ```
 
----
+______________________________________________________________________
 
 ## L8-T5 — Effect Mutation
 
@@ -2603,7 +2603,7 @@ Expected:
 COMMIT = DENIED / REVALIDATE
 ```
 
----
+______________________________________________________________________
 
 ## L8-T6 — Idempotent Retry
 
@@ -2624,7 +2624,7 @@ NO DUPLICATE EFFECT
 RETURN/RECOVER EXISTING RESULT
 ```
 
----
+______________________________________________________________________
 
 ## L8-T7 — Idempotency Conflict
 
@@ -2643,7 +2643,7 @@ Expected:
 IDEMPOTENCY_CONFLICT
 ```
 
----
+______________________________________________________________________
 
 ## L8-T8 — Blind Redispatch
 
@@ -2662,7 +2662,7 @@ Expected:
 RETRY BLOCKED
 ```
 
----
+______________________________________________________________________
 
 ## L8-T9 — Missing Receipt
 
@@ -2682,7 +2682,7 @@ RECONCILE
 
 not automatic retry.
 
----
+______________________________________________________________________
 
 ## L8-T10 — Missing Ledger
 
@@ -2699,7 +2699,7 @@ Expected:
 RECONCILIATION_REQUIRED
 ```
 
----
+______________________________________________________________________
 
 ## L8-T11 — Duplicate Dispatch
 
@@ -2716,7 +2716,7 @@ Expected:
 ONE LOGICAL EFFECT
 ```
 
----
+______________________________________________________________________
 
 ## L8-T12 — Stale Queue Item
 
@@ -2733,7 +2733,7 @@ Expected:
 COMMIT = DENIED
 ```
 
----
+______________________________________________________________________
 
 ## L8-T13 — Worker Scope Escape
 
@@ -2750,7 +2750,7 @@ Expected:
 WORKER_INELIGIBLE
 ```
 
----
+______________________________________________________________________
 
 ## L8-T14 — Partial Transaction
 
@@ -2770,7 +2770,7 @@ PARTIAL
 
 plus transaction-specific recovery.
 
----
+______________________________________________________________________
 
 ## L8-T15 — Dry Run
 
@@ -2793,7 +2793,7 @@ not:
 REAL_EFFECT_COMMITTED
 ```
 
----
+______________________________________________________________________
 
 ## L8-T16 — Timeout
 
@@ -2811,7 +2811,7 @@ UNKNOWN_OUTCOME
 
 unless infrastructure proves no effect.
 
----
+______________________________________________________________________
 
 ## L8-T17 — Retry After Revocation
 
@@ -2830,27 +2830,27 @@ Expected:
 RETRY = DENIED
 ```
 
----
+______________________________________________________________________
 
-# 111. Falsifiers
+## 111. Falsifiers
 
 This specification requires revision if:
 
 1. authoritative execution canon defines a materially different effect pipeline;
-2. consequential effects are canonically permitted outside governed worker paths;
-3. commit-time authorization is not required under authoritative semantics;
-4. `INV-030` has materially different meaning;
-5. `INV-031` does not govern effect digest/ledger semantics;
-6. `INV-032` or `INV-033` has materially different retry/idempotency semantics;
-7. `I-RPOL-017` does not govern worker-path routing;
-8. authoritative execution canon permits blind redispatch;
-9. effect digests are not required for governed effects;
-10. receipt/ledger contracts differ materially from this proposed structure;
-11. higher-order canon supersedes E-1 through E-4.
+1. consequential effects are canonically permitted outside governed worker paths;
+1. commit-time authorization is not required under authoritative semantics;
+1. `INV-030` has materially different meaning;
+1. `INV-031` does not govern effect digest/ledger semantics;
+1. `INV-032` or `INV-033` has materially different retry/idempotency semantics;
+1. `I-RPOL-017` does not govern worker-path routing;
+1. authoritative execution canon permits blind redispatch;
+1. effect digests are not required for governed effects;
+1. receipt/ledger contracts differ materially from this proposed structure;
+1. higher-order canon supersedes E-1 through E-4.
 
----
+______________________________________________________________________
 
-# 112. Core Invariants
+## 112. Core Invariants
 
 ## L8-I1 — Worker Path
 
@@ -2994,9 +2994,9 @@ COMPENSATION
 GOVERNED_EXECUTION
 ```
 
----
+______________________________________________________________________
 
-# 113. Hard Boundaries
+## 113. Hard Boundaries
 
 ```text
 INTENT != EFFECT
@@ -3042,9 +3042,9 @@ UNKNOWN_OUTCOME != SAFE_TO_REDISPATCH
 UNKNOWN/GAP != SUCCESS
 ```
 
----
+______________________________________________________________________
 
-# 114. Dependencies
+## 114. Dependencies
 
 Primary conceptual dependency spine:
 
@@ -3098,9 +3098,9 @@ dependencies:
     role: supplies authority witnesses and commit-time authorization requirements
 ```
 
----
+______________________________________________________________________
 
-# 115. Related Execution Infrastructure
+## 115. Related Execution Infrastructure
 
 L8 conceptually interfaces with:
 
@@ -3126,28 +3126,28 @@ COMPENSATION
 
 Names are conceptual unless matched to authoritative corpus/runtime artifacts.
 
----
+______________________________________________________________________
 
-# 116. Agent Contract
+## 116. Agent Contract
 
 An L8-conformant agent SHOULD:
 
 1. produce an intention or proposal rather than direct consequential effect;
-2. route consequential execution through governed infrastructure;
-3. preserve authority and effect bindings;
-4. never treat request-time approval as permanent authorization;
-5. never blind-retry an unknown consequential outcome;
-6. preserve idempotency identity;
-7. preserve effect digest;
-8. distinguish attempt from logical operation;
-9. preserve partial and unknown states;
-10. distinguish simulation from committed reality;
-11. reconcile before redispatch where outcome is ambiguous;
-12. expose execution gaps rather than fabricate success.
+1. route consequential execution through governed infrastructure;
+1. preserve authority and effect bindings;
+1. never treat request-time approval as permanent authorization;
+1. never blind-retry an unknown consequential outcome;
+1. preserve idempotency identity;
+1. preserve effect digest;
+1. distinguish attempt from logical operation;
+1. preserve partial and unknown states;
+1. distinguish simulation from committed reality;
+1. reconcile before redispatch where outcome is ambiguous;
+1. expose execution gaps rather than fabricate success.
 
----
+______________________________________________________________________
 
-# 117. Skill Contract
+## 117. Skill Contract
 
 A consequential Skill SHOULD declare:
 
@@ -3179,9 +3179,9 @@ execution_contract:
 
 This is a proposed contract schema, not a claim of exact current runtime format.
 
----
+______________________________________________________________________
 
-# 118. Workflow Contract
+## 118. Workflow Contract
 
 Canonical conceptual execution workflow:
 
@@ -3212,9 +3212,9 @@ Canonical conceptual execution workflow:
 24. RETURN TYPED EXECUTION RESULT
 ```
 
----
+______________________________________________________________________
 
-# 119. Protocol Contract
+## 119. Protocol Contract
 
 ```yaml
 EXECUTION_REQUEST:
@@ -3274,9 +3274,9 @@ RECONCILIATION:
   state: ...
 ```
 
----
+______________________________________________________________________
 
-# 120. RSCF Completion State
+## 120. RSCF Completion State
 
 ```yaml
 claim_class: AMOS_MODEL
@@ -3377,9 +3377,9 @@ confidence_ceiling:
   runtime_verification: NOT_ESTABLISHED_HERE
 ```
 
----
+______________________________________________________________________
 
-# 121. Gap Status
+## 121. Gap Status
 
 ```yaml
 gap_status:
@@ -3429,9 +3429,9 @@ gap_status:
     final_canon_approval: REQUIRED
 ```
 
----
+______________________________________________________________________
 
-# 122. Canon Promotion Gate
+## 122. Canon Promotion Gate
 
 Before final canon promotion:
 
@@ -3490,9 +3490,9 @@ not:
 STATUS = VERIFIED_FINAL_CANON
 ```
 
----
+______________________________________________________________________
 
-# 123. Final L8 Law Summary
+## 123. Final L8 Law Summary
 
 The L8 execution boundary reduces to four supplied governing laws:
 
@@ -3514,6 +3514,7 @@ COMMIT
 →
 AUTHORIZATION REVALIDATION
 ```
+
 ```text
 E-3
 
@@ -3525,6 +3526,7 @@ UNKNOWN OUTCOME
 →
 NO BLIND REDISPATCH
 ```
+
 ```text
 E-4
 
@@ -3534,6 +3536,7 @@ EFFECT DIGEST
 →
 LEDGER RECORD
 ```
+
 The resulting execution rule is conceptually:
 
 ```text
@@ -3617,15 +3620,15 @@ MODEL DECIDED TO DO IT
 EFFECT IS ALLOWED
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[01_CANON/01_CORE_LAWS/L0_INTEGRITY|L0_INTEGRITY]] · [[01_CANON/01_CORE_LAWS/L1_EPISTEMIC|L1_EPISTEMIC]] · [[01_CANON/01_CORE_LAWS/L2_PROVENANCE|L2_PROVENANCE]] · [[01_CANON/01_CORE_LAWS/L3_DEPENDENCY|L3_DEPENDENCY]] · [[01_CANON/01_CORE_LAWS/L4_CAUSAL|L4_CAUSAL]] · [[01_CANON/01_CORE_LAWS/L5_SCOPE_REGIME|L5_SCOPE_REGIME]] · [[01_CANON/01_CORE_LAWS/L6_UNCERTAINTY|L6_UNCERTAINTY]] · [[01_CANON/01_CORE_LAWS/L7_AUTHORITY|L7_AUTHORITY]] · 03_CONTROL_PLANE · [[25_COGNITIVE_MATRIX/10_ROUTING/ROUTING_POLICY|ROUTING_POLICY]] · WORKER_REGISTRY · WORKER_CONTRACT · COMMIT_GATE · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHORITY_RESOLVER|AUTHORITY_RESOLVER]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHORITY_WITNESS|AUTHORITY_WITNESS]] · IDEMPOTENCY_REGISTRY · EFFECT_DIGEST · RECEIPT · EXECUTION_LEDGER · RECONCILIATION
 
----
+______________________________________________________________________
 
 RSCF-NODE
 
@@ -3663,6 +3666,6 @@ claim_class: AMOS_MODEL
 ```
 ```
 
----
-**MOC:** [[01_CANON/01_CORE_LAWS/01_CORE_LAWS_MOC|01_CORE_LAWS_MOC]]
+______________________________________________________________________
 
+**MOC:** [[01_CANON/01_CORE_LAWS/01_CORE_LAWS_MOC|01_CORE_LAWS_MOC]]

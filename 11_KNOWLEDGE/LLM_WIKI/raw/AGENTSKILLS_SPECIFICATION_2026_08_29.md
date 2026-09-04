@@ -1,4 +1,7 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 date: 2026-08-29
 epistemic_class: OBSERVATION
 provenance: https://agentskills.io/specification, not independently verified
@@ -41,5 +44,5 @@ skill-name/
 ### Progressive Disclosure Protocol
 
 1. **Discovery**: Agent inspects available skill names and descriptions.
-2. **Activation**: Agent views `SKILL.md` when intent matches description.
-3. **Execution**: Agent follows instructions and executes bundled scripts as required.
+1. **Activation**: Agent views `SKILL.md` when intent matches description.
+1. **Execution**: Agent follows instructions and executes bundled scripts as required.

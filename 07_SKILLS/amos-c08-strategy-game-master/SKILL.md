@@ -4,25 +4,23 @@ title: SKILL — Amos C08 Strategy Game Master
 type: skill
 source: 07_SKILLS/amos-c08-strategy-game-master
 name: amos-c08-strategy-game-master
-description: AMOS C08 Strategy & Game — MECE decomposition, hypothesis-first investigation,
-  Nash equilibria, game theory, consulting discipline, McKinsey frameworks, Bluebook
-  strategy. Use when strategic analysi. Do not use for generic tasks outside c08 domain.
+description: AMOS C08 Strategy & Game — MECE decomposition, hypothesis-first investigation, Nash equilibria, game theory, consulting discipline, McKinsey frameworks, Bluebook strategy. Use when strategic analysi. Do not use for generic tasks outside c08 domain.
 parent_skill: none
 domain: c08
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CANON
 tags:
-- type/skill
-- type/skill
-- domain/strategy-game
-- epistemic/source_claim
-- hml/m
-- epistemic/source_canon
-- amos-os
-- agent-template
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/strategy-game
+  - epistemic/source_claim
+  - hml/m
+  - epistemic/source_canon
+  - amos-os
+  - agent-template
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -32,23 +30,23 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: M
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
-- L7_authority
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
+  - L7_authority
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L7
-- L16
-- L17
-- L18
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L7
+  - L16
+  - L17
+  - L18
 license: MIT
 steward: Trang Phan
 ---
@@ -58,6 +56,7 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: c08. Parent: none. Epistemic class: SOURCE_CANON. H/M/L: M.
+
 ## When to Use
 
 AMOS C08 Strategy & Game — MECE decomposition, hypothesis-first investigation, Nash equilibria, game theory, consulting discipline, McKinsey frameworks, Bluebook strategy. Use for strategic analysi...
@@ -83,16 +82,16 @@ AMOS C08 Strategy & Game — MECE decomposition, hypothesis-first investigation,
 ## Operations
 
 1. **c08_strategy_game.decompose_strategy**: Decompose AMOS C08 Strategy & Game strategic problems using MECE and hypothesis-first investigation.
-2. **c08_strategy_game.validate_strategy**: Validate AMOS C08 Strategy & Game strategic assumptions for hidden dependencies, circular reasoning, and RSCF compliance.
-3. **c08_strategy_game.analyze_game**: Analyze AMOS C08 Strategy & Game game equilibria: Nash solutions, coalition formation, and bargaining outcomes.
-4. **c08_strategy_game.trace_strategy_provenance**: Trace AMOS C08 Strategy & Game strategic findings to game models, equilibrium analysis, and vault sources.
-5. **c08_strategy_game.assess_strategy_claim**: Assess AMOS C08 Strategy & Game strategic claims for assumption validity, evidence strength, and scope.
-6. **c08_strategy_game.manage_strategy_lifecycle**: Manage AMOS C08 Strategy & Game strategy lifecycle: frame, decompose, analyze, validate, and finalize.
-7. **c08_strategy_game.detect_strategy_drift**: Detect strategy drift: assumption invalidation, regime change, equilibrium shift, and evidence decay.
-8. **c08_strategy_game.escalate_strategy_gaps**: Escalate AMOS C08 Strategy & Game strategy gaps: flag invalid assumptions, require new analysis, trigger repair.
-9. **c08_strategy_game.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-10. **c08_strategy_game.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
-11. **c08_strategy_game.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+1. **c08_strategy_game.validate_strategy**: Validate AMOS C08 Strategy & Game strategic assumptions for hidden dependencies, circular reasoning, and RSCF compliance.
+1. **c08_strategy_game.analyze_game**: Analyze AMOS C08 Strategy & Game game equilibria: Nash solutions, coalition formation, and bargaining outcomes.
+1. **c08_strategy_game.trace_strategy_provenance**: Trace AMOS C08 Strategy & Game strategic findings to game models, equilibrium analysis, and vault sources.
+1. **c08_strategy_game.assess_strategy_claim**: Assess AMOS C08 Strategy & Game strategic claims for assumption validity, evidence strength, and scope.
+1. **c08_strategy_game.manage_strategy_lifecycle**: Manage AMOS C08 Strategy & Game strategy lifecycle: frame, decompose, analyze, validate, and finalize.
+1. **c08_strategy_game.detect_strategy_drift**: Detect strategy drift: assumption invalidation, regime change, equilibrium shift, and evidence decay.
+1. **c08_strategy_game.escalate_strategy_gaps**: Escalate AMOS C08 Strategy & Game strategy gaps: flag invalid assumptions, require new analysis, trigger repair.
+1. **c08_strategy_game.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+1. **c08_strategy_game.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+1. **c08_strategy_game.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## Consolidated Sub-Skills (31)
 
@@ -131,26 +130,29 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 - **Conclusion class**: MIXED (established game theory + AMOS MODEL extensions)
 - **Evidence policy**: typed_per_node
 - **Canon status**: DOMAIN_KNOWLEDGE_WITH_RESEARCH_BRIDGES
-- **Archit
+- \*\*Archit
 - AGENT_TEMPLATE
 
----
+______________________________________________________________________
+
 **MOC:** [[07_SKILLS/amos-c08-strategy-game-master/amos-c08-strategy-game-master_MOC|amos-c08-strategy-game-master_MOC]]
 
 ## Examples
 
 - **Scenario**: When managing lifecycle operations across classify, validate, trace, assess, and detect
+
   - **Input**: A query matching this skill's domain (c08)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When detecting drift in evidence chains, provenance freshness, or confidence calibration
+
   - **Input**: A query matching this skill's domain (c08)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When validating outputs against domain constraints and epistemic class
+
   - **Input**: A query matching this skill's domain (c08)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Validation Gates
 
@@ -167,7 +169,6 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `none` — routes to this skill when c08 specialization is needed
@@ -175,7 +176,6 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -194,7 +194,6 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -202,7 +201,6 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -235,11 +233,12 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 - `references/strategic_partners_list.md` — loaded on demand
 - `references/strategy_game_engine_cognitive.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `none` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `amos-c08-strategy-game-master-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -247,12 +246,14 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-c08-strategy-game-master
 node_type: skill
 path: 07_SKILLS/amos-c08-strategy-game-master/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

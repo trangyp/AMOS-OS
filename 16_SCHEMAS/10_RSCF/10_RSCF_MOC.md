@@ -1,16 +1,19 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: 10 Rscf MOC
 type: moc
 source: 16_SCHEMAS/10_RSCF
 tags:
-- 10-rscf
-- canon/schema
-- causal-epochschema
-- competing-hypothesisschema
-- framework-nodeschema
-- proof-capsuleschema
-- provenance-topologyschema
-- rscf-transactionschema
+  - 10-rscf
+  - canon/schema
+  - causal-epochschema
+  - competing-hypothesisschema
+  - framework-nodeschema
+  - proof-capsuleschema
+  - provenance-topologyschema
+  - rscf-transactionschema
 moc: true
 rscf:
   state: DERIVED
@@ -33,5 +36,6 @@ rscf:
 - [[16_SCHEMAS/10_RSCF/provenance_topology.schema|provenance_topology.schema]]
 - [[16_SCHEMAS/10_RSCF/rscf_transaction.schema|rscf_transaction.schema]]
 
----
+______________________________________________________________________
+
 **Parent:** [[16_SCHEMAS/16_SCHEMAS_MOC|16_SCHEMAS_MOC]]

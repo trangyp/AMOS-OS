@@ -1,4 +1,7 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: GENERATOR TEMPLATES
 type: note
 source: 25_COGNITIVE_MATRIX/12_GENERATORS
@@ -6,39 +9,35 @@ rscf:
   state: SOURCE_CLAIM
   class: STRUCTURAL
   provenance:
-  - internal
+    - internal
   freshness: EVERGREEN
   falsifiers: []
 tags:
-- note
-- 12-generators
-- generator-seed
-- generator-output
-- generator-promotion
-- generator-falsification
-- generator-supersession
-- task-resolver
-- capability-resolver
-- mode-admission-queue
-- mode-coverage-matrix
-- mode-dependency-graph
-- k-provenance
-- k-sybil-hardening
-- k-binding
-- k-constraint-propagation
-- k-gmef
-- k-hml
-- k-rscf
-- k-counterfactual
-- k-translation
+  - note
+  - 12-generators
+  - generator-seed
+  - generator-output
+  - generator-promotion
+  - generator-falsification
+  - generator-supersession
+  - task-resolver
+  - capability-resolver
+  - mode-admission-queue
+  - mode-coverage-matrix
+  - mode-dependency-graph
+  - k-provenance
+  - k-sybil-hardening
+  - k-binding
+  - k-constraint-propagation
+  - k-gmef
+  - k-hml
+  - k-rscf
+  - k-counterfactual
+  - k-translation
 canon-group: canon/cognitive-matrix
 ---
 
----title: "GENERATOR TEMPLATES"
-type: document
-tags: [note]
----
-
+## ---title: "GENERATOR TEMPLATES" type: document tags: [note]
 
 # Generator Templates
 
@@ -53,9 +52,9 @@ tags: [note]
 **Empirical Validation Status:** NOT ESTABLISHED BY THIS DOCUMENT
 **Final Canon Status:** NOT ESTABLISHED BY THIS DOCUMENT
 
----
+______________________________________________________________________
 
-# 0. Template Declaration
+## 0. Template Declaration
 
 Generator Templates define canonical structural patterns for constructing, declaring, validating, registering, executing, promoting, versioning, falsifying, and superseding AMOS generator artifacts.
 
@@ -81,9 +80,9 @@ $$\boxed{ Conformance \neq Validation }$$
 
 A generator can structurally conform to a template while still being incorrect, unsafe, unsupported, incompatible, stale, or inappropriate for a particular scope or regime.
 
----
+______________________________________________________________________
 
-# 1. Purpose
+## 1. Purpose
 
 `GENERATOR_TEMPLATES.md` exists to provide reusable structural contracts for generator artifacts while preserving AMOS requirements for:
 
@@ -113,9 +112,9 @@ A generator can structurally conform to a template while still being incorrect, 
 
 Templates exist to reduce accidental structural variance without erasing meaningful semantic differences between generators.
 
----
+______________________________________________________________________
 
-# 2. Core Template Law
+## 2. Core Template Law
 
 Let:
 
@@ -155,9 +154,9 @@ $$\boxed{ Conforms(G,T) \not\Rightarrow Validated(G) }$$
 
 $$\boxed{ Conforms(G,T) \not\Rightarrow Promoted(G) }$$
 
----
+______________________________________________________________________
 
-# 3. Template Roles
+## 3. Template Roles
 
 Generator templates MAY serve several roles:
 
@@ -181,9 +180,9 @@ COMPOSITION_TEMPLATE
 
 These roles SHOULD remain distinguishable.
 
----
+______________________________________________________________________
 
-# 4. Template Classes
+## 4. Template Classes
 
 AMOS generator templates are divided conceptually into:
 
@@ -200,9 +199,9 @@ COMPOSITION
 
 A single concrete template MAY combine multiple classes.
 
----
+______________________________________________________________________
 
-# 5. Structural Template
+## 5. Structural Template
 
 A structural template defines required fields and relationships.
 
@@ -220,9 +219,9 @@ generator:
 
 Structural validity does not prove semantic validity.
 
----
+______________________________________________________________________
 
-# 6. Semantic Template
+## 6. Semantic Template
 
 A semantic template specifies what fields mean.
 
@@ -243,9 +242,9 @@ The field must not merely exist.
 
 Its value must satisfy its semantic contract.
 
----
+______________________________________________________________________
 
-# 7. Execution Template
+## 7. Execution Template
 
 An execution template defines the conceptual generator execution lifecycle:
 
@@ -269,9 +268,9 @@ RETURN
 
 This document does not establish that a literal runtime executes these stages.
 
----
+______________________________________________________________________
 
-# 8. Epistemic Template
+## 8. Epistemic Template
 
 An epistemic template governs:
 
@@ -290,9 +289,9 @@ uncertainty
 
 It exists to prevent fluent generator output from being mistaken for stronger knowledge than its evidence supports.
 
----
+______________________________________________________________________
 
-# 9. Governance Template
+## 9. Governance Template
 
 A governance template governs transitions such as:
 
@@ -314,9 +313,9 @@ SUPERSEDED
 
 Lifecycle names are models unless established by applicable canon or implementation evidence.
 
----
+______________________________________________________________________
 
-# 10. Lineage Template
+## 10. Lineage Template
 
 A lineage template preserves:
 
@@ -334,9 +333,9 @@ supersession history
 
 so later artifacts can reconstruct how an output was produced.
 
----
+______________________________________________________________________
 
-# 11. Recovery Template
+## 11. Recovery Template
 
 Recovery templates define behavior when generation fails.
 
@@ -348,9 +347,9 @@ not:
 
 $$Failure(P) \Rightarrow Invalidate(All)$$
 
----
+______________________________________________________________________
 
-# 12. Composition Template
+## 12. Composition Template
 
 Composition templates define how multiple generators MAY cooperate without losing individual identity.
 
@@ -365,9 +364,9 @@ G2
 
 Composition does not automatically merge provenance or confidence.
 
----
+______________________________________________________________________
 
-# 13. Canonical Generator Skeleton
+## 13. Canonical Generator Skeleton
 
 The baseline generator declaration SHOULD conceptually contain:
 
@@ -427,9 +426,9 @@ Not every generator requires every optional field.
 
 The smallest sufficient structure SHOULD be preferred while retaining all decision-relevant information.
 
----
+______________________________________________________________________
 
-# 14. Template Identity
+## 14. Template Identity
 
 Every governed generator template SHOULD possess stable identity.
 
@@ -443,9 +442,9 @@ template_identity:
 
 Where hashing is unavailable, the field SHOULD remain absent or unknown rather than fabricated.
 
----
+______________________________________________________________________
 
-# 15. Generator Identity Template
+## 15. Generator Identity Template
 
 ```yaml
 identity:
@@ -465,9 +464,9 @@ identity:
 
 Identity fields SHOULD distinguish human-readable labels from stable machine-oriented identity.
 
----
+______________________________________________________________________
 
-# 16. Identity Invariant
+## 16. Identity Invariant
 
 Generator identity must not depend exclusively on mutable aliases.
 
@@ -485,9 +484,9 @@ version: 4.2
 alias: recommended
 ```
 
----
+______________________________________________________________________
 
-# 17. Metadata Template
+## 17. Metadata Template
 
 ```yaml
 metadata:
@@ -508,9 +507,9 @@ metadata:
 
 Unknown metadata MUST NOT be invented merely to complete the template.
 
----
+______________________________________________________________________
 
-# 18. Purpose Template
+## 18. Purpose Template
 
 ```yaml
 purpose:
@@ -532,9 +531,9 @@ purpose:
 
 Explicit non-goals help prevent scope leakage.
 
----
+______________________________________________________________________
 
-# 19. Task Contract Template
+## 19. Task Contract Template
 
 ```yaml
 task_contract:
@@ -556,9 +555,9 @@ task_contract:
 
 Task binding SHOULD be resolved through the applicable task-resolution architecture.
 
----
+______________________________________________________________________
 
-# 20. Capability Requirement Template
+## 20. Capability Requirement Template
 
 ```yaml
 capability_requirements:
@@ -577,9 +576,9 @@ capability_requirements:
 
 A generator MUST NOT silently assume unavailable capabilities.
 
----
+______________________________________________________________________
 
-# 21. Mode Requirement Template
+## 21. Mode Requirement Template
 
 ```yaml
 mode_requirements:
@@ -599,9 +598,9 @@ mode_requirements:
 
 Applicable mode constraints SHOULD be resolved against the mode registries.
 
----
+______________________________________________________________________
 
-# 22. Input Contract Template
+## 22. Input Contract Template
 
 ```yaml
 input_contract:
@@ -625,9 +624,9 @@ input_contract:
   unknown_input_policy: null
 ```
 
----
+______________________________________________________________________
 
-# 23. Input Integrity Law
+## 23. Input Integrity Law
 
 Input normalization MUST NOT silently change decision-relevant semantics.
 
@@ -637,9 +636,9 @@ $$Normalize(x)=x'$$
 
 and $x'$ changes the task meaning, the transformation must be surfaced or rejected.
 
----
+______________________________________________________________________
 
-# 24. Seed Contract Template
+## 24. Seed Contract Template
 
 ```yaml
 seed_contract:
@@ -665,9 +664,9 @@ See:
 
 for the dedicated seed specification.
 
----
+______________________________________________________________________
 
-# 25. Deterministic Generator Template
+## 25. Deterministic Generator Template
 
 Where determinism is required:
 
@@ -689,9 +688,9 @@ determinism:
     expected_equivalence: EXACT
 ```
 
----
+______________________________________________________________________
 
-# 26. Controlled-Stochastic Generator Template
+## 26. Controlled-Stochastic Generator Template
 
 Where stochastic behavior is legitimate:
 
@@ -711,9 +710,9 @@ determinism:
 
 A stochastic generator MUST NOT be represented as deterministic merely because one execution happened to reproduce another.
 
----
+______________________________________________________________________
 
-# 27. Output Contract Template
+## 27. Output Contract Template
 
 ```yaml
 output_contract:
@@ -737,9 +736,9 @@ output_contract:
   serialization: null
 ```
 
----
+______________________________________________________________________
 
-# 28. Generator Output Envelope
+## 28. Generator Output Envelope
 
 Recommended conceptual envelope:
 
@@ -779,9 +778,9 @@ generator_output:
   generated_at: null
 ```
 
----
+______________________________________________________________________
 
-# 29. Claim-Class Template
+## 29. Claim-Class Template
 
 Important generator conclusions SHOULD use the weakest accurate class:
 
@@ -796,9 +795,9 @@ UNKNOWN/GAP
 
 A template MUST NOT force a stronger classification merely because a field requires a value.
 
----
+______________________________________________________________________
 
-# 30. Evidence-Type Template
+## 30. Evidence-Type Template
 
 Evidence SHOULD distinguish:
 
@@ -821,9 +820,9 @@ evidence:
     content_ref: null
 ```
 
----
+______________________________________________________________________
 
-# 31. Provenance Template
+## 31. Provenance Template
 
 ```yaml
 provenance:
@@ -847,9 +846,9 @@ provenance:
   freshness: {}
 ```
 
----
+______________________________________________________________________
 
-# 32. Provenance Independence Rule
+## 32. Provenance Independence Rule
 
 Multiple references do not imply multiple independent origins.
 
@@ -857,9 +856,9 @@ $$ReferenceCount \neq IndependentEvidenceCount$$
 
 Independence must be demonstrated when it materially affects confidence.
 
----
+______________________________________________________________________
 
-# 33. Sybil-Hardening Template
+## 33. Sybil-Hardening Template
 
 ```yaml
 sybil_hardening:
@@ -879,9 +878,9 @@ sybil_hardening:
 
 Repeated descendants of one source MUST NOT be counted as independent confirmation.
 
----
+______________________________________________________________________
 
-# 34. Scope Template
+## 34. Scope Template
 
 ```yaml
 scope:
@@ -903,9 +902,9 @@ scope:
   assumptions: []
 ```
 
----
+______________________________________________________________________
 
-# 35. Scope Firewall
+## 35. Scope Firewall
 
 Generator conclusions inherit their applicability envelope.
 
@@ -925,9 +924,9 @@ environment E2
 scale S2
 ```
 
----
+______________________________________________________________________
 
-# 36. Regime Template
+## 36. Regime Template
 
 ```yaml
 regime:
@@ -945,9 +944,9 @@ regime:
   transition_indicators: []
 ```
 
----
+______________________________________________________________________
 
-# 37. Regime Shift Template
+## 37. Regime Shift Template
 
 ```yaml
 regime_shift:
@@ -964,9 +963,9 @@ regime_shift:
   revalidation_required: []
 ```
 
----
+______________________________________________________________________
 
-# 38. Temporal Validity Template
+## 38. Temporal Validity Template
 
 ```yaml
 temporal_validity:
@@ -984,9 +983,9 @@ temporal_validity:
 
 Freshness requirements SHOULD reflect how quickly the underlying fact or dependency can change.
 
----
+______________________________________________________________________
 
-# 39. Dependency Template
+## 39. Dependency Template
 
 ```yaml
 dependencies:
@@ -1003,9 +1002,9 @@ dependencies:
   unresolved: []
 ```
 
----
+______________________________________________________________________
 
-# 40. Dependency Entry Template
+## 40. Dependency Entry Template
 
 ```yaml
 dependency:
@@ -1027,17 +1026,17 @@ dependency:
   provenance_ref: null
 ```
 
----
+______________________________________________________________________
 
-# 41. Dependency Closure Law
+## 41. Dependency Closure Law
 
 A generator cannot safely be reasoned about locally when unknown transitive dependencies could alter the conclusion.
 
 Fast-path local execution requires sufficient dependency closure.
 
----
+______________________________________________________________________
 
-# 42. Constraint Template
+## 42. Constraint Template
 
 ```yaml
 constraints:
@@ -1057,9 +1056,9 @@ constraints:
   propagation_state: null
 ```
 
----
+______________________________________________________________________
 
-# 43. Constraint Inheritance
+## 43. Constraint Inheritance
 
 A child generator cannot silently weaken inherited hard constraints.
 
@@ -1069,9 +1068,9 @@ $$C_{parent} \Rightarrow C_{child}$$
 
 unless an authorized governance transition explicitly changes the governing contract.
 
----
+______________________________________________________________________
 
-# 44. Binding Template
+## 44. Binding Template
 
 ```yaml
 binding:
@@ -1095,9 +1094,9 @@ binding:
   status: null
 ```
 
----
+______________________________________________________________________
 
-# 45. Execution Context Template
+## 45. Execution Context Template
 
 ```yaml
 execution_context:
@@ -1125,9 +1124,9 @@ execution_context:
   modes: []
 ```
 
----
+______________________________________________________________________
 
-# 46. Generator Execution Template
+## 46. Generator Execution Template
 
 ```text
 1. ACCEPT TASK
@@ -1150,9 +1149,9 @@ execution_context:
 
 The exact runtime sequence may differ if later canon establishes another implementation.
 
----
+______________________________________________________________________
 
-# 47. Minimal Generator Template
+## 47. Minimal Generator Template
 
 For low-complexity generators:
 
@@ -1180,9 +1179,9 @@ generator:
 
 Use only where omitted fields cannot materially alter integrity.
 
----
+______________________________________________________________________
 
-# 48. Standard Generator Template
+## 48. Standard Generator Template
 
 ```yaml
 generator:
@@ -1221,9 +1220,9 @@ generator:
   governance: {}
 ```
 
----
+______________________________________________________________________
 
-# 49. Maximum Generator Template
+## 49. Maximum Generator Template
 
 ```yaml
 amos_generator:
@@ -1419,9 +1418,9 @@ amos_generator:
     bindings: []
 ```
 
----
+______________________________________________________________________
 
-# 50. Proof Capsule Template
+## 50. Proof Capsule Template
 
 Important generator conclusions SHOULD conceptually support:
 
@@ -1466,9 +1465,9 @@ proof_capsule:
   confidence_ceiling: null
 ```
 
----
+______________________________________________________________________
 
-# 51. Proof Capsule Reuse Rule
+## 51. Proof Capsule Reuse Rule
 
 A proof capsule may be reused only while its:
 
@@ -1483,9 +1482,9 @@ provenance requirements
 
 remain valid.
 
----
+______________________________________________________________________
 
-# 52. Proof Capsule Invalidation
+## 52. Proof Capsule Invalidation
 
 If premise $P$ fails:
 
@@ -1504,9 +1503,9 @@ C2
 
 not unrelated conclusions.
 
----
+______________________________________________________________________
 
-# 53. Confidence Template
+## 53. Confidence Template
 
 ```yaml
 confidence:
@@ -1524,9 +1523,9 @@ confidence:
 
 Derived confidence MUST NOT exceed the weakest load-bearing premise unless the dependency has been independently revalidated under the applicable confidence model.
 
----
+______________________________________________________________________
 
-# 54. Competing Hypothesis Template
+## 54. Competing Hypothesis Template
 
 ```yaml
 competing_hypotheses:
@@ -1547,9 +1546,9 @@ competing_hypotheses:
   state: COMPETING
 ```
 
----
+______________________________________________________________________
 
-# 55. Competition Law
+## 55. Competition Law
 
 When incompatible hypotheses have:
 
@@ -1570,9 +1569,9 @@ COMPETING
 
 until discriminating evidence exists.
 
----
+______________________________________________________________________
 
-# 56. Causal Generator Template
+## 56. Causal Generator Template
 
 For generators permitted to produce causal reasoning:
 
@@ -1605,9 +1604,9 @@ causal_contract:
   counterfactual_support: []
 ```
 
----
+______________________________________________________________________
 
-# 57. Causal Firewall
+## 57. Causal Firewall
 
 The following alone do not establish causation:
 
@@ -1621,9 +1620,9 @@ structural resemblance
 
 A generator MUST preserve this distinction.
 
----
+______________________________________________________________________
 
-# 58. Counterfactual Generator Template
+## 58. Counterfactual Generator Template
 
 ```yaml
 counterfactual:
@@ -1652,9 +1651,9 @@ counterfactual:
 
 Counterfactual conclusions cannot exceed the causal support of the underlying model.
 
----
+______________________________________________________________________
 
-# 59. Translation Generator Template
+## 59. Translation Generator Template
 
 ```yaml
 translation:
@@ -1682,9 +1681,9 @@ translation:
 
 Structural similarity between representations does not establish semantic equivalence.
 
----
+______________________________________________________________________
 
-# 60. Synthesis Generator Template
+## 60. Synthesis Generator Template
 
 ```yaml
 synthesis:
@@ -1708,9 +1707,9 @@ synthesis:
 
 Contradictions MUST NOT be silently averaged away.
 
----
+______________________________________________________________________
 
-# 61. Evidence Synthesis Template
+## 61. Evidence Synthesis Template
 
 ```text
 SOURCE CLAIMS
@@ -1728,9 +1727,9 @@ SYNTHESIS
 CLAIM CLASSIFICATION
 ```
 
----
+______________________________________________________________________
 
-# 62. Retrieval Generator Template
+## 62. Retrieval Generator Template
 
 ```yaml
 retrieval:
@@ -1753,9 +1752,9 @@ retrieval:
   provenance_required: true
 ```
 
----
+______________________________________________________________________
 
-# 63. H/M/L Retrieval Law
+## 63. H/M/L Retrieval Law
 
 Default traversal:
 
@@ -1779,9 +1778,9 @@ DO_NOT_LOAD_UNLESS_REQUIRED
 
 until required by decision-changing uncertainty.
 
----
+______________________________________________________________________
 
-# 64. RSCF Generator Template
+## 64. RSCF Generator Template
 
 ```yaml
 rscf_generator:
@@ -1808,9 +1807,9 @@ rscf_generator:
     supersedes: []
 ```
 
----
+______________________________________________________________________
 
-# 65. Recursive RSCF Template
+## 65. Recursive RSCF Template
 
 A generator MAY recursively resolve:
 
@@ -1828,9 +1827,9 @@ only to the depth needed to establish sufficient dependency closure.
 
 Unnecessary traversal SHOULD be avoided.
 
----
+______________________________________________________________________
 
-# 66. GMEF Binding Template
+## 66. GMEF Binding Template
 
 Where a generator participates in GMEF:
 
@@ -1856,9 +1855,9 @@ gmef_binding:
 
 This document does not establish GMEF implementation beyond the applicable AMOS corpus.
 
----
+______________________________________________________________________
 
-# 67. Atomic Multi-RSCF Template
+## 67. Atomic Multi-RSCF Template
 
 ```yaml
 atomic_multi_rscf:
@@ -1880,9 +1879,9 @@ atomic_multi_rscf:
 
 Use when partial reasoning-state transition would create an invalid intermediate state.
 
----
+______________________________________________________________________
 
-# 68. MVCC-Style Template
+## 68. MVCC-Style Template
 
 Where AMOS reasoning uses MVCC concepts:
 
@@ -1904,9 +1903,9 @@ mvcc:
 
 This is an architectural reasoning pattern and does not claim literal database MVCC implementation.
 
----
+______________________________________________________________________
 
-# 69. CAS-Style Template
+## 69. CAS-Style Template
 
 ```yaml
 compare_and_swap:
@@ -1924,9 +1923,9 @@ compare_and_swap:
 
 Again, this describes an AMOS coordination concept, not necessarily a literal machine CAS primitive.
 
----
+______________________________________________________________________
 
-# 70. Causal Epoch Template
+## 70. Causal Epoch Template
 
 ```yaml
 causal_epoch:
@@ -1944,9 +1943,9 @@ causal_epoch:
   invalidation_conditions: []
 ```
 
----
+______________________________________________________________________
 
-# 71. Fast-Path Template
+## 71. Fast-Path Template
 
 ```yaml
 fast_path:
@@ -1970,17 +1969,17 @@ fast_path:
   admitted: false
 ```
 
----
+______________________________________________________________________
 
-# 72. Fast-Path Admission Law
+## 72. Fast-Path Admission Law
 
 Fast path is admitted only if all load-bearing admission conditions are established.
 
 Unknown is not equivalent to true.
 
----
+______________________________________________________________________
 
-# 73. Escalation Template
+## 73. Escalation Template
 
 ```yaml
 escalation:
@@ -1998,9 +1997,9 @@ escalation:
   destination: null
 ```
 
----
+______________________________________________________________________
 
-# 74. Validation Template
+## 74. Validation Template
 
 ```yaml
 validation:
@@ -2030,9 +2029,9 @@ validation:
   failures: []
 ```
 
----
+______________________________________________________________________
 
-# 75. Validation Result Classes
+## 75. Validation Result Classes
 
 ```text
 PASS
@@ -2045,9 +2044,9 @@ UNKNOWN/GAP
 
 `INCONCLUSIVE` MUST NOT be silently converted to `PASS`.
 
----
+______________________________________________________________________
 
-# 76. Falsification Template
+## 76. Falsification Template
 
 ```yaml
 falsification:
@@ -2077,9 +2076,9 @@ falsification:
   result: null
 ```
 
----
+______________________________________________________________________
 
-# 77. Adversarial Validation Template
+## 77. Adversarial Validation Template
 
 For consequential generator conclusions:
 
@@ -2100,9 +2099,9 @@ BUILD STRONGEST SUPPORTED CONCLUSION
                   UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 78. Sensitivity Template
+## 78. Sensitivity Template
 
 ```yaml
 sensitivity:
@@ -2123,9 +2122,9 @@ sensitivity:
     robustness: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 79. Fragility Rule
+## 79. Fragility Rule
 
 If a small plausible perturbation flips the output:
 
@@ -2135,9 +2134,9 @@ CONDITIONAL
 
 is preferred over an unconditional conclusion.
 
----
+______________________________________________________________________
 
-# 80. Failure Template
+## 80. Failure Template
 
 ```yaml
 generator_failure:
@@ -2165,9 +2164,9 @@ generator_failure:
   provenance: []
 ```
 
----
+______________________________________________________________________
 
-# 81. Failure Classes
+## 81. Failure Classes
 
 Candidate classes:
 
@@ -2191,9 +2190,9 @@ GOVERNANCE_BLOCK
 UNKNOWN_FAILURE
 ```
 
----
+______________________________________________________________________
 
-# 82. Failure Recovery Template
+## 82. Failure Recovery Template
 
 ```text
 FAILURE
@@ -2211,9 +2210,9 @@ REROUTE / REPAIR
 REVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 83. Retry Template
+## 83. Retry Template
 
 ```yaml
 retry:
@@ -2233,9 +2232,9 @@ retry:
 
 A failed path SHOULD NOT be repeated without a material change.
 
----
+______________________________________________________________________
 
-# 84. Registry Entry Template
+## 84. Registry Entry Template
 
 ```yaml
 generator_registry_entry:
@@ -2270,9 +2269,9 @@ generator_registry_entry:
   supersession_ref: null
 ```
 
----
+______________________________________________________________________
 
-# 85. Promotion Template
+## 85. Promotion Template
 
 ```yaml
 promotion:
@@ -2297,17 +2296,17 @@ promotion:
   decision: null
 ```
 
----
+______________________________________________________________________
 
-# 86. Promotion Law
+## 86. Promotion Law
 
 Template completeness does not license promotion.
 
 Promotion requires the evidence and governance demanded by the applicable Generator Promotion contract.
 
----
+______________________________________________________________________
 
-# 87. Version Template
+## 87. Version Template
 
 ```yaml
 generator_version:
@@ -2333,9 +2332,9 @@ generator_version:
   released_at: null
 ```
 
----
+______________________________________________________________________
 
-# 88. Version Change Classes
+## 88. Version Change Classes
 
 Candidate classes:
 
@@ -2354,9 +2353,9 @@ EXPERIMENTAL
 
 The labels do not themselves establish compatibility.
 
----
+______________________________________________________________________
 
-# 89. Supersession Template
+## 89. Supersession Template
 
 ```yaml
 generator_supersession:
@@ -2389,17 +2388,17 @@ generator_supersession:
   governance: {}
 ```
 
----
+______________________________________________________________________
 
-# 90. Supersession Law
+## 90. Supersession Law
 
 $$Superseded \neq Erased$$
 
 Historical outputs retain the identity of the generator that actually produced them.
 
----
+______________________________________________________________________
 
-# 91. Migration Template
+## 91. Migration Template
 
 ```yaml
 migration:
@@ -2423,9 +2422,9 @@ migration:
   rollback_supported: null
 ```
 
----
+______________________________________________________________________
 
-# 92. Rollback Template
+## 92. Rollback Template
 
 ```yaml
 rollback:
@@ -2447,9 +2446,9 @@ rollback:
   validation_required: true
 ```
 
----
+______________________________________________________________________
 
-# 93. Audit Template
+## 93. Audit Template
 
 ```yaml
 audit:
@@ -2479,9 +2478,9 @@ audit:
   governance_refs: []
 ```
 
----
+______________________________________________________________________
 
-# 94. Generator Composition Template
+## 94. Generator Composition Template
 
 ```yaml
 composition:
@@ -2507,9 +2506,9 @@ composition:
   atomicity_required: null
 ```
 
----
+______________________________________________________________________
 
-# 95. Sequential Composition
+## 95. Sequential Composition
 
 ```text
 G1
@@ -2525,9 +2524,9 @@ G2's output depends on G1.
 
 Therefore the dependency must remain explicit.
 
----
+______________________________________________________________________
 
-# 96. Parallel Composition
+## 96. Parallel Composition
 
 ```text
       TASK
@@ -2541,9 +2540,9 @@ Therefore the dependency must remain explicit.
 
 Parallel execution does not imply evidence independence.
 
----
+______________________________________________________________________
 
-# 97. Competitive Composition
+## 97. Competitive Composition
 
 ```text
 TASK
@@ -2553,9 +2552,9 @@ TASK
 
 If H1 and H2 conflict, preserve the conflict until discriminating evidence exists.
 
----
+______________________________________________________________________
 
-# 98. Generator-of-Generators Template
+## 98. Generator-of-Generators Template
 
 A generator MAY produce candidate generator specifications.
 
@@ -2579,17 +2578,17 @@ Generated generators are candidates.
 
 They are not automatically trusted.
 
----
+______________________________________________________________________
 
-# 99. Recursive Generation Firewall
+## 99. Recursive Generation Firewall
 
 A generator that produces another generator cannot grant the child more epistemic authority than its evidence and governance support.
 
 $$Authority(G_{child}) \not> AuthorizedSupport(G_{child})$$
 
----
+______________________________________________________________________
 
-# 100. Self-Modification Template
+## 100. Self-Modification Template
 
 Where generator evolution is modeled:
 
@@ -2615,9 +2614,9 @@ self_modification:
 
 Self-proposed modification does not self-authorize.
 
----
+______________________________________________________________________
 
-# 101. Governance Firewall
+## 101. Governance Firewall
 
 A generator MAY:
 
@@ -2633,9 +2632,9 @@ a governance transition.
 
 It MUST NOT be treated as having governance authority unless such authority is independently established.
 
----
+______________________________________________________________________
 
-# 102. Anti-Fabrication Template
+## 102. Anti-Fabrication Template
 
 Every generator SHOULD preserve:
 
@@ -2655,9 +2654,9 @@ anti_fabrication:
   missing_canon_policy: DO_NOT_INVENT
 ```
 
----
+______________________________________________________________________
 
-# 103. Missing-Field Rule
+## 103. Missing-Field Rule
 
 A template field with unknown value should be:
 
@@ -2675,9 +2674,9 @@ or omitted where optional.
 
 It MUST NOT be populated with plausible-sounding fabricated content.
 
----
+______________________________________________________________________
 
-# 104. Gap Template
+## 104. Gap Template
 
 ```yaml
 gap:
@@ -2695,9 +2694,9 @@ gap:
   status: OPEN
 ```
 
----
+______________________________________________________________________
 
-# 105. Gap Classes
+## 105. Gap Classes
 
 ```text
 CRITICAL
@@ -2708,9 +2707,9 @@ COSMETIC
 
 Resolve in that order unless governance requires otherwise.
 
----
+______________________________________________________________________
 
-# 106. Critical Gap Law
+## 106. Critical Gap Law
 
 If a critical gap blocks generator correctness:
 
@@ -2720,9 +2719,9 @@ UNKNOWN/GAP
 
 is preferable to fabricated completion.
 
----
+______________________________________________________________________
 
-# 107. Decision Sufficiency Template
+## 107. Decision Sufficiency Template
 
 ```yaml
 sufficiency:
@@ -2736,9 +2735,9 @@ sufficiency:
 
 Generation SHOULD stop when the required sufficiency level is reached.
 
----
+______________________________________________________________________
 
-# 108. Adaptive Complexity Template
+## 108. Adaptive Complexity Template
 
 ```yaml
 complexity:
@@ -2757,9 +2756,9 @@ complexity:
   deescalation_conditions: []
 ```
 
----
+______________________________________________________________________
 
-# 109. Complexity Escalation
+## 109. Complexity Escalation
 
 Escalate for material:
 
@@ -2778,17 +2777,17 @@ low trust
 explicit depth requirement
 ```
 
----
+______________________________________________________________________
 
-# 110. Smallest Sufficient Proof Scope
+## 110. Smallest Sufficient Proof Scope
 
 Generators SHOULD use the smallest proof scope that can safely establish the requested conclusion.
 
 Do not expand the dependency graph merely because additional material exists.
 
----
+______________________________________________________________________
 
-# 111. Template Specialization
+## 111. Template Specialization
 
 A specialized template MAY inherit from a general template.
 
@@ -2804,9 +2803,9 @@ COUNTERFACTUAL_GENERATOR
 
 Inherited constraints remain active unless explicitly superseded through governance.
 
----
+______________________________________________________________________
 
-# 112. Template Inheritance Object
+## 112. Template Inheritance Object
 
 ```yaml
 template_inheritance:
@@ -2826,9 +2825,9 @@ template_inheritance:
   removal_authorization: []
 ```
 
----
+______________________________________________________________________
 
-# 113. Multiple Template Inheritance
+## 113. Multiple Template Inheritance
 
 Where multiple templates are composed:
 
@@ -2840,9 +2839,9 @@ T2 ─┘
 
 conflicting requirements MUST be resolved explicitly.
 
----
+______________________________________________________________________
 
-# 114. Template Conflict
+## 114. Template Conflict
 
 Example:
 
@@ -2862,9 +2861,9 @@ TEMPLATE_CONFLICT
 
 unless a higher-level rule resolves the scope.
 
----
+______________________________________________________________________
 
-# 115. Template Compatibility Classes
+## 115. Template Compatibility Classes
 
 ```text
 COMPATIBLE
@@ -2875,9 +2874,9 @@ INCOMPATIBLE
 UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 116. Template Versioning
+## 116. Template Versioning
 
 Templates themselves require version identity when used for governed generator construction.
 
@@ -2889,9 +2888,9 @@ template_version:
   changes: []
 ```
 
----
+______________________________________________________________________
 
-# 117. Template Supersession
+## 117. Template Supersession
 
 A new template version does not retroactively change historical generators.
 
@@ -2903,9 +2902,9 @@ T1 → T2
 
 a generator built under T1 remains historically associated with T1.
 
----
+______________________________________________________________________
 
-# 118. Template Migration
+## 118. Template Migration
 
 A generator MAY be migrated from template T1 to T2.
 
@@ -2919,9 +2918,9 @@ G'@T2
 
 The original lineage must remain recoverable.
 
----
+______________________________________________________________________
 
-# 119. Template Validation
+## 119. Template Validation
 
 A template SHOULD itself be checked for:
 
@@ -2935,9 +2934,9 @@ unresolvable dependencies
 governance conflicts
 ```
 
----
+______________________________________________________________________
 
-# 120. Template Falsification
+## 120. Template Falsification
 
 A template may be falsified as adequate for a use case if it systematically permits:
 
@@ -2951,9 +2950,9 @@ unrecoverable lineage
 unsafe promotion
 ```
 
----
+______________________________________________________________________
 
-# 121. Generator Template Invariants
+## 121. Generator Template Invariants
 
 ```text
 GTPL-I01
@@ -3032,9 +3031,9 @@ GTPL-I25
 Canonical status requires the applicable canon process.
 ```
 
----
+______________________________________________________________________
 
-# 122. Generator Definition Template — Copy/Paste
+## 122. Generator Definition Template — Copy/Paste
 
 ```yaml
 ---
@@ -3166,9 +3165,9 @@ generator:
     relations: []
 ```
 
----
+______________________________________________________________________
 
-# 123. Generator Output Template — Copy/Paste
+## 123. Generator Output Template — Copy/Paste
 
 ```yaml
 generator_output:
@@ -3222,9 +3221,9 @@ generator_output:
   generated_at:
 ```
 
----
+______________________________________________________________________
 
-# 124. Generator Proof Capsule — Copy/Paste
+## 124. Generator Proof Capsule — Copy/Paste
 
 ```yaml
 generator_proof_capsule:
@@ -3273,9 +3272,9 @@ generator_proof_capsule:
     limiting_premise:
 ```
 
----
+______________________________________________________________________
 
-# 125. Generator Validation Template — Copy/Paste
+## 125. Generator Validation Template — Copy/Paste
 
 ```yaml
 generator_validation:
@@ -3313,9 +3312,9 @@ generator_validation:
   result: NOT_RUN
 ```
 
----
+______________________________________________________________________
 
-# 126. Generator Falsification Template — Copy/Paste
+## 126. Generator Falsification Template — Copy/Paste
 
 ```yaml
 generator_falsification:
@@ -3349,9 +3348,9 @@ generator_falsification:
   result: NOT_RUN
 ```
 
----
+______________________________________________________________________
 
-# 127. Generator Promotion Template — Copy/Paste
+## 127. Generator Promotion Template — Copy/Paste
 
 ```yaml
 generator_promotion:
@@ -3388,9 +3387,9 @@ generator_promotion:
   result:
 ```
 
----
+______________________________________________________________________
 
-# 128. Generator Supersession Template — Copy/Paste
+## 128. Generator Supersession Template — Copy/Paste
 
 ```yaml
 generator_supersession:
@@ -3445,9 +3444,9 @@ generator_supersession:
   state: PROPOSED
 ```
 
----
+______________________________________________________________________
 
-# 129. Generator Failure Template — Copy/Paste
+## 129. Generator Failure Template — Copy/Paste
 
 ```yaml
 generator_failure:
@@ -3482,9 +3481,9 @@ generator_failure:
   provenance: []
 ```
 
----
+______________________________________________________________________
 
-# 130. RSCF Node Template — Copy/Paste
+## 130. RSCF Node Template — Copy/Paste
 
 ```text
 RSCF-NODE
@@ -3517,9 +3516,9 @@ RSCF-RELATIONS:
   - SUPERSEDED_BY_PROCESS:
 ```
 
----
+______________________________________________________________________
 
-# 131. Template Selection Matrix
+## 131. Template Selection Matrix
 
 | Need                            | Template             |
 | ------------------------------- | -------------------- |
@@ -3541,9 +3540,9 @@ RSCF-RELATIONS:
 | Bind graph semantics            | RSCF                 |
 | Bind environment/model/evidence | GMEF                 |
 
----
+______________________________________________________________________
 
-# 132. Template Selection Rule
+## 132. Template Selection Rule
 
 Use the smallest template set sufficient to preserve integrity.
 
@@ -3551,9 +3550,9 @@ Do not require maximum-detail envelopes for trivial generators if the omitted st
 
 Do not use minimal templates when omitted structure could conceal material risk.
 
----
+______________________________________________________________________
 
-# 133. Template Composition Example
+## 133. Template Composition Example
 
 A consequential causal generator may require:
 
@@ -3583,9 +3582,9 @@ PROMOTION
 
 A simple deterministic formatter may require substantially less.
 
----
+______________________________________________________________________
 
-# 134. Template Validation Pipeline
+## 134. Template Validation Pipeline
 
 ```text
 TEMPLATE SELECTED
@@ -3609,9 +3608,9 @@ READY AS CANDIDATE
 
 `READY AS CANDIDATE` is not equivalent to `PROMOTED`.
 
----
+______________________________________________________________________
 
-# 135. Generator Construction Pipeline
+## 135. Generator Construction Pipeline
 
 ```text
 TASK CLASS
@@ -3639,9 +3638,9 @@ REGISTRY
 PROMOTION
 ```
 
----
+______________________________________________________________________
 
-# 136. Template Anti-Patterns
+## 136. Template Anti-Patterns
 
 The following SHOULD be rejected or surfaced:
 
@@ -3683,9 +3682,9 @@ UNBOUNDED RECURSION
 generator traversal expands without decision value
 ```
 
----
+______________________________________________________________________
 
-# 137. Template Quality Criteria
+## 137. Template Quality Criteria
 
 A high-quality generator template SHOULD maximize:
 
@@ -3697,9 +3696,9 @@ $$Integrity$$
 
 being non-negotiable relative to optimization.
 
----
+______________________________________________________________________
 
-# 138. Template Compression Rule
+## 138. Template Compression Rule
 
 A template MAY be compressed only if compression preserves:
 
@@ -3714,9 +3713,9 @@ governance state
 repairability
 ```
 
----
+______________________________________________________________________
 
-# 139. Template Extension Rule
+## 139. Template Extension Rule
 
 Extensions SHOULD be additive where possible.
 
@@ -3730,17 +3729,17 @@ extensions:
 
 rather than redefining core field semantics without explicit versioning.
 
----
+______________________________________________________________________
 
-# 140. Unknown Extension Rule
+## 140. Unknown Extension Rule
 
 Unknown extensions MAY be preserved without execution if safe.
 
 They MUST NOT silently alter core generator semantics.
 
----
+______________________________________________________________________
 
-# 141. Template Namespace
+## 141. Template Namespace
 
 Recommended conceptual namespace:
 
@@ -3764,9 +3763,9 @@ AMOS.GENERATOR.TEMPLATE.COMPOSITE
 
 These names are specification-level unless separately established in implementation.
 
----
+______________________________________________________________________
 
-# 142. Template Registry Model
+## 142. Template Registry Model
 
 A future or external registry MAY represent:
 
@@ -3787,9 +3786,9 @@ template_registry:
 
 This document does not claim such a registry currently exists.
 
----
+______________________________________________________________________
 
-# 143. Template Provenance
+## 143. Template Provenance
 
 Each substantive template SHOULD preserve:
 
@@ -3804,17 +3803,17 @@ supersession history
 
 where available.
 
----
+______________________________________________________________________
 
-# 144. Template Provenance Firewall
+## 144. Template Provenance Firewall
 
 A template copied, translated, summarized, or generated from another template remains a descendant of that source.
 
 Multiple descendants do not constitute independent architectural validation.
 
----
+______________________________________________________________________
 
-# 145. Template Governance
+## 145. Template Governance
 
 Changes to load-bearing template semantics SHOULD use the applicable:
 
@@ -3829,9 +3828,9 @@ canon
 
 process.
 
----
+______________________________________________________________________
 
-# 146. Canon Boundary
+## 146. Canon Boundary
 
 This file defines candidate AMOS generator template structures.
 
@@ -3854,9 +3853,9 @@ this artifact is final canon.
 
 Those claims require independent evidence.
 
----
+______________________________________________________________________
 
-# 147. Artifact Declaration
+## 147. Artifact Declaration
 
 ```yaml
 artifact:
@@ -3896,9 +3895,9 @@ artifact:
     established: false
 ```
 
----
+______________________________________________________________________
 
-# 148. Final Generator Template Law
+## 148. Final Generator Template Law
 
 Generator templates exist to create structural discipline without manufacturing epistemic authority.
 
@@ -3982,15 +3981,15 @@ subject always to:
 
 $$\boxed{ Integrity > Completeness > Fluency > Speed > TokenSavings }$$
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[25_COGNITIVE_MATRIX/12_GENERATORS/00_INDEX/GENERATORS_MAP|GENERATORS_MAP]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · 12_GENERATORS_CONTRACT · 12_GENERATORS_VERSIONING · [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_REGISTRY|GENERATOR_REGISTRY]] · [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_SEED|GENERATOR_SEED]] · [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_OUTPUT|GENERATOR_OUTPUT]] · [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_PROMOTION|GENERATOR_PROMOTION]] · [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_FALSIFICATION|GENERATOR_FALSIFICATION]] · [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_SUPERSESSION|GENERATOR_SUPERSESSION]] · [[03_CONTROL_PLANE/01_TASK_CONTRACT/TASK_CONTRACT|TASK_CONTRACT]] · [[03_CONTROL_PLANE/01_TASK_CONTRACT/TASK_RESOLVER|TASK_RESOLVER]] · [[03_CONTROL_PLANE/02_CAPABILITY/CAPABILITY_RESOLVER|CAPABILITY_RESOLVER]] · [[03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX/MODE_ADMISSION_QUEUE|MODE_ADMISSION_QUEUE]] · [[03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX/MODE_COMPOSITION_REGISTRY|MODE_COMPOSITION_REGISTRY]] · [[03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX/MODE_CONFLICT_REGISTRY|MODE_CONFLICT_REGISTRY]] · [[03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX/MODE_COVERAGE_MATRIX|MODE_COVERAGE_MATRIX]] · [[03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX/MODE_DEPENDENCY_GRAPH|MODE_DEPENDENCY_GRAPH]]
 
----
+______________________________________________________________________
 
 RSCF-NODE
 
@@ -4086,3 +4085,4 @@ This replaces the placeholder with a **full generator-template layer**, includin
 
 **MOC:** [[25_COGNITIVE_MATRIX/12_GENERATORS/12_GENERATORS_MOC|12_GENERATORS_MOC]]
 
+```

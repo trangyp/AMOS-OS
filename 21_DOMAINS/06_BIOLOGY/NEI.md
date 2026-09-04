@@ -12,20 +12,20 @@ segment: 21_DOMAINS/06_BIOLOGY
 artifact_kind: DOMAIN_ENGINE
 path: 21_DOMAINS/06_BIOLOGY/NEI.md
 tags:
-- amos-os
-- domain
-- vault
-- 06_biology
-- nei
-- neuroemotional_intelligence
-- vagal_tone_regulation
-- rscf
-- canon_candidate
-- canon/domain
-- phuong-phap-trang
-- ubi-neuroemotional-intelligence
-- unified-biological-intelligence
-- ubi-x-emotion
+  - amos-os
+  - domain
+  - vault
+  - 06_biology
+  - nei
+  - neuroemotional_intelligence
+  - vagal_tone_regulation
+  - rscf
+  - canon_candidate
+  - canon/domain
+  - phuong-phap-trang
+  - ubi-neuroemotional-intelligence
+  - unified-biological-intelligence
+  - ubi-x-emotion
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -40,13 +40,13 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - 11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/UBI_NEUROEMOTIONAL_INTELLIGENCE
-  - 11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE
-  - AMOS_CORPUS
+    - 11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/UBI_NEUROEMOTIONAL_INTELLIGENCE
+    - 11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE
+    - AMOS_CORPUS
   scope:
-  - DOMAIN_BIOLOGY
-  - NEI_ENGINE
-  - SOURCE_DEFINED_MODEL
+    - DOMAIN_BIOLOGY
+    - NEI_ENGINE
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   domain_knowledge:
     artifact: 11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/UBI_NEUROEMOTIONAL_INTELLIGENCE
@@ -65,25 +65,25 @@ epistemic_boundary:
 
 `NEI.md` is the canonical Domain Plane specification governing real-time autonomic vagal tone tracking, stress regulation, and emotional loop closure within `21_DOMAINS/06_BIOLOGY`.
 
----
+______________________________________________________________________
 
-# 1. NEI Operational Mechanics
+## 1. NEI Operational Mechanics
 
 1. **Autonomic Telemetry Sampling:** Continuous ingestion of heart-rate variability (HRV RMSSD) and galvanic skin conductance (EDA).
-2. **Affective Loop Closure:** Detects escalating autonomic dissonance and injects [[11_KNOWLEDGE/05_FRAMEWORKS/PHUONG_PHAP_TRANG|PHUONG_PHAP_TRANG]] precise semantic labeling to de-escalate anxiety.
-3. **Non-Compensatory Vector:** Emits scalar $\text{NEI} \in [0, 1]$ into the UBI master composite equation.
+1. **Affective Loop Closure:** Detects escalating autonomic dissonance and injects [[11_KNOWLEDGE/05_FRAMEWORKS/PHUONG_PHAP_TRANG|PHUONG_PHAP_TRANG]] precise semantic labeling to de-escalate anxiety.
+1. **Non-Compensatory Vector:** Emits scalar $\text{NEI} \in [0, 1]$ into the UBI master composite equation.
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Knowledge Domain:** 11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/[[11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/UBI_NEUROEMOTIONAL_INTELLIGENCE|UBI_NEUROEMOTIONAL_INTELLIGENCE]]
 - **Biological Master:** 11_KNOWLEDGE/05_FRAMEWORKS/[[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]]
 - **Cognitive Matrix:** 25_COGNITIVE_MATRIX/[[25_COGNITIVE_MATRIX/UBI_X_EMOTION|UBI_X_EMOTION]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -101,10 +101,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[21_DOMAINS/21_DOMAINS_MOC|21_DOMAINS_MOC]] · 11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/[[11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/UBI_NEUROEMOTIONAL_INTELLIGENCE|UBI_NEUROEMOTIONAL_INTELLIGENCE]] · 11_KNOWLEDGE/05_FRAMEWORKS/[[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]]
 
----
-**MOC:** [[21_DOMAINS/21_DOMAINS_MOC|21_DOMAINS_MOC]]
+______________________________________________________________________
 
+**MOC:** [[21_DOMAINS/21_DOMAINS_MOC|21_DOMAINS_MOC]]

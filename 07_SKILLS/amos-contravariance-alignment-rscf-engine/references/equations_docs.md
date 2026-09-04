@@ -1,16 +1,19 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: equations docs
 type: reference
 source: 07_SKILLS/amos-contravariance-alignment-rscf-engine/references
 tags:
-- reference
-- amos-contravariance-alignment-rscf-engine
-- type/skill
-- system-scan-agent
-- automation-profiles
-- amos-simulation-kernel-v0-math-foundations
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-contravariance-alignment-rscf-engine
+  - type/skill
+  - system-scan-agent
+  - automation-profiles
+  - amos-simulation-kernel-v0-math-foundations
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -23,10 +26,11 @@ rscf:
 > Source: `_00_Cosmo brain/misc/E/EQUATIONS (docs).md`
 > Epistemic class: SOURCE_DERIVED
 
----
-tags: [misc]
----
-# Kernel Equations
+______________________________________________________________________
+
+## tags: [misc]
+
+## Kernel Equations
 
 These are operational AMOS control equations unless otherwise noted.
 
@@ -46,12 +50,13 @@ These are operational AMOS control equations unless otherwise noted.
 
 `MayAct = Capability ∧ Authority ∧ ScopeFit ∧ EvidenceGate ∧ ConstraintPass`
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS · SYSTEM_SCAN_AGENT · AUTOMATION_PROFILES
 
----
-**MOC:** references_MOC
----
+______________________________________________________________________
+
+## **MOC:** references_MOC
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -59,12 +64,14 @@ These are operational AMOS control equations unless otherwise noted.
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-contravariance-alignment-rscf-engine-equations-docs
 node_type: reference
 path: 07_SKILLS/amos-contravariance-alignment-rscf-engine/references/equations_docs.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

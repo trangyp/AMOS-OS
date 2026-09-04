@@ -12,20 +12,20 @@ segment: 11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE
 artifact_kind: DOMAIN_KNOWLEDGE
 path: 11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/HERITAGE_MUSIC_ACOUSTIC_RULES.md
 tags:
-- amos-os
-- knowledge
-- vault
-- 06_domain_knowledge
-- heritage_music_acoustic_rules
-- harmonic_ratios
-- acoustic_entrainment
-- resonance
-- rscf
-- canon_candidate
-- canon/knowledge
-- heritage-intelligence-master
-- bei-bioelectromagnetic-intelligence
-- unified-biological-intelligence
+  - amos-os
+  - knowledge
+  - vault
+  - 06_domain_knowledge
+  - heritage_music_acoustic_rules
+  - harmonic_ratios
+  - acoustic_entrainment
+  - resonance
+  - rscf
+  - canon_candidate
+  - canon/knowledge
+  - heritage-intelligence-master
+  - bei-bioelectromagnetic-intelligence
+  - unified-biological-intelligence
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -40,16 +40,16 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - HERITAGE_INTELLIGENCE_CANON
-  - AMOS_CORPUS
+    - HERITAGE_INTELLIGENCE_CANON
+    - AMOS_CORPUS
   scope:
-  - DOMAIN_KNOWLEDGE
-  - ACOUSTIC_RULES
-  - SOURCE_DEFINED_MODEL
+    - DOMAIN_KNOWLEDGE
+    - ACOUSTIC_RULES
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   master_framework:
     artifact:
-    - - HERITAGE_INTELLIGENCE_MASTER
+      -   - HERITAGE_INTELLIGENCE_MASTER
   framework_counterpart:
     artifact: 11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_MUSIC_ACOUSTIC_INTELLIGENCE
 epistemic_boundary:
@@ -65,25 +65,25 @@ epistemic_boundary:
 
 It details the harmonic ratios, pentatonic scale invariants, and low-frequency sonic entrainment principles embedded in ancient Vietnamese bronze percussion instruments (e.g. Đông Sơn drums, Lithophones).
 
----
+______________________________________________________________________
 
-# 1. Harmonic Invariants
+## 1. Harmonic Invariants
 
 1. **Sub-Harmonic Resonance:** Drum cavity acoustics engineered to emit low-frequency waves (4–8 Hz theta and 8–12 Hz alpha bands) inducing collective brainwave entrainment.
-2. **Pentatonic Modal Invariance:** Five-tone scales maintaining harmonic stability and non-dissonant relational interval structures.
-3. **Acoustic Tensegrity:** Bronze metallurgy and variable surface thickness creating multi-modal acoustic dispersion without phase cancellation.
+1. **Pentatonic Modal Invariance:** Five-tone scales maintaining harmonic stability and non-dissonant relational interval structures.
+1. **Acoustic Tensegrity:** Bronze metallurgy and variable surface thickness creating multi-modal acoustic dispersion without phase cancellation.
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Framework Specification:** [[11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_MUSIC_ACOUSTIC_INTELLIGENCE|HERITAGE_MUSIC_ACOUSTIC_INTELLIGENCE]]
 - **Bioelectromagnetic Intelligence:** [[11_KNOWLEDGE/05_FRAMEWORKS/BEI_BIOELECTROMAGNETIC_INTELLIGENCE|BEI_BIOELECTROMAGNETIC_INTELLIGENCE]]
 - **Biological Master:** [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -101,11 +101,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[01_CANON/01_CORE_LAWS/ATOMIC_MULTI_RSCF|ATOMIC_MULTI_RSCF]] · [[02_KERNEL/K_ATOMIC_MULTI_RSCF|K_ATOMIC_MULTI_RSCF]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/06_DOMAIN_KNOWLEDGE_MOC|06_DOMAIN_KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_MUSIC_ACOUSTIC_INTELLIGENCE|HERITAGE_MUSIC_ACOUSTIC_INTELLIGENCE]] · [[11_KNOWLEDGE/05_FRAMEWORKS/BEI_BIOELECTROMAGNETIC_INTELLIGENCE|BEI_BIOELECTROMAGNETIC_INTELLIGENCE]] · [[25_COGNITIVE_MATRIX/HERITAGE_X_TSS_MATRIX|HERITAGE_X_TSS_MATRIX]]
 
----
+______________________________________________________________________
+
 **MOC:** [[11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/06_DOMAIN_KNOWLEDGE_MOC|06_DOMAIN_KNOWLEDGE_MOC]]
-
-

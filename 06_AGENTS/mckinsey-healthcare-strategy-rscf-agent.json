@@ -89,7 +89,7 @@
     "mckinsey-healthcare-strategy-rscf"
   ],
   "depends_on_workflows": [
-    "mckinsey-healthcare-strategy-rscf-workflow.md"
+    "amos-mckinsey-healthcare-strategy-rscf-workflow.md"
   ],
   "epistemic_class": "AMOS_MODEL",
   "claim_ceiling": 0.95,

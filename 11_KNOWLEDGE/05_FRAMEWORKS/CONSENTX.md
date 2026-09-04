@@ -12,23 +12,23 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: FRAMEWORK
 path: 11_KNOWLEDGE/05_FRAMEWORKS/CONSENTX.md
 tags:
-- amos-os
-- knowledge
-- vault
-- 05_frameworks
-- consentx
-- biological_consent
-- autonomic_agreement
-- anti_coercion
-- ubi
-- neurosyncai
-- rscf
-- canon_candidate
-- canon/knowledge
-- unified-biological-intelligence
-- neurosyncai-framework
-- ubi-consentx-binding
-- id-exchange
+  - amos-os
+  - knowledge
+  - vault
+  - 05_frameworks
+  - consentx
+  - biological_consent
+  - autonomic_agreement
+  - anti_coercion
+  - ubi
+  - neurosyncai
+  - rscf
+  - canon_candidate
+  - canon/knowledge
+  - unified-biological-intelligence
+  - neurosyncai-framework
+  - ubi-consentx-binding
+  - id-exchange
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -43,22 +43,22 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - UBI_PLUS_NEUROSYNCAI_INTEGRATION_WITH_CONSENTX
-  - AMOS_CORPUS
+    - UBI_PLUS_NEUROSYNCAI_INTEGRATION_WITH_CONSENTX
+    - AMOS_CORPUS
   scope:
-  - KNOWLEDGE_FRAMEWORKS
-  - BIOLOGICAL_CONSENT
-  - SOURCE_DEFINED_MODEL
+    - KNOWLEDGE_FRAMEWORKS
+    - BIOLOGICAL_CONSENT
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   primary:
     name: ConsentX — Biological Consent Arbitration
     role: BIOLOGICAL_AND_AUTONOMIC_CONSENT_ENGINE
   biological_grounding:
     artifact:
-    - - UNIFIED_BIOLOGICAL_INTELLIGENCE
+      -   - UNIFIED_BIOLOGICAL_INTELLIGENCE
   adaptive_interface:
     artifact:
-    - - NEUROSYNCAI_FRAMEWORK
+      -   - NEUROSYNCAI_FRAMEWORK
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
@@ -73,9 +73,9 @@ epistemic_boundary:
 
 ConsentX arbitrates human and agent consent rooted in **biological law and autonomic alignment**, rather than superficial check-box proxies or coercive behavioral nudges.
 
----
+______________________________________________________________________
 
-# 1. Biological Consent Architecture
+## 1. Biological Consent Architecture
 
 ```text
                ┌────────────────────────────────────────────────────────┐
@@ -90,22 +90,23 @@ PRE-COGNITIVE DISSONANCE          NERVOUS SYSTEM READINESS           CRYPTOGRAPH
 ```
 
 ### 1.1 Key Principles
+
 1. **Pre-Verbal Dissonance Detection:** Somatic tension (SI) and autonomic arousal (NEI) reveal underlying coercion even when surface verbal approval is given.
-2. **Dynamic Consent Verification:** Consent is not a static one-time click, but a continuous biological agreement state.
-3. **Anti-Coercion Gating:** Blocks AI interfaces from exploiting cognitive fatigue or dopamine hacking to force user assent.
+1. **Dynamic Consent Verification:** Consent is not a static one-time click, but a continuous biological agreement state.
+1. **Anti-Coercion Gating:** Blocks AI interfaces from exploiting cognitive fatigue or dopamine hacking to force user assent.
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Biological Master:** [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]]
 - **Adaptive AI:** [[11_KNOWLEDGE/05_FRAMEWORKS/NEUROSYNCAI_FRAMEWORK|NEUROSYNCAI_FRAMEWORK]] and [[11_KNOWLEDGE/05_FRAMEWORKS/UBI_CONSENTX_BINDING|UBI_CONSENTX_BINDING]]
 - **Identity Exchange:** [[11_KNOWLEDGE/05_FRAMEWORKS/ID_EXCHANGE|ID_EXCHANGE]]
 - **Native Vault Source:** `UBI_PLUS_NEUROSYNCAI_INTEGRATION_WITH_CONSENTX`
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -124,9 +125,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]] · [[11_KNOWLEDGE/05_FRAMEWORKS/NEUROSYNCAI_FRAMEWORK|NEUROSYNCAI_FRAMEWORK]] · [[11_KNOWLEDGE/05_FRAMEWORKS/ID_EXCHANGE|ID_EXCHANGE]]
 
----
+______________________________________________________________________
+
 **MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]

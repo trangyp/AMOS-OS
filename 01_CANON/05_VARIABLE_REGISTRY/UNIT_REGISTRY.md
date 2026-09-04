@@ -3,8 +3,7 @@ type: registry
 source: 01_CANON/05_VARIABLE_REGISTRY
 artifact_id: AMOS-UNIT-REGISTRY
 name: UNIT_REGISTRY
-title: AMOS Unit Registry — Canonical Dimensions, Units, Scales, Conversion, and Measurement
-  Semantics
+title: AMOS Unit Registry — Canonical Dimensions, Units, Scales, Conversion, and Measurement Semantics
 document_version: 1.0.0
 canon_version: 4.4
 amos_core_target: v4.4
@@ -18,42 +17,41 @@ steward: Trang Phan
 created: 2026-08-25
 updated: 2026-08-25
 tags:
-- amos
-- canon
-- universe
-- amos-os
-- amos-core
-- amos-core-v4-4
-- registry
-- units
-- dimensions
-- measurement
-- quantities
-- scales
-- normalization
-- conversion
-- dimensional-analysis
-- uncertainty
-- provenance
-- precision
-- computational-units
-- physical-units
-- semantic-units
-- rscf
-- canon-group/meta
-- canon/registry
-- rscf/claim
-- rscf/provenance
-- rscf/state/derived
-- readme
-- architecture
-- placement-rules
-- amos-core-laws
-- law-hierarchy
-- cognitive-matrix-architecture
+  - amos
+  - canon
+  - universe
+  - amos-os
+  - amos-core
+  - amos-core-v4-4
+  - registry
+  - units
+  - dimensions
+  - measurement
+  - quantities
+  - scales
+  - normalization
+  - conversion
+  - dimensional-analysis
+  - uncertainty
+  - provenance
+  - precision
+  - computational-units
+  - physical-units
+  - semantic-units
+  - rscf
+  - canon-group/meta
+  - canon/registry
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/derived
+  - readme
+  - architecture
+  - placement-rules
+  - amos-core-laws
+  - law-hierarchy
+  - cognitive-matrix-architecture
 aliases:
-- AMOS Unit Registry - Unit Registry - AMOS Measurement Registry - AMOS Quantity and
-  Dimension
+  - AMOS Unit Registry - Unit Registry - AMOS Measurement Registry - AMOS Quantity and Dimension
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -62,19 +60,21 @@ rscf:
 ---
 
 # AMOS Unit Registry
+
 **Origin architect / steward:** Trang Phan
+
 > **Status:** `ACTIVE_CANON_CANDIDATE`
 > **AMOS Core target:** `v4.4`
 > **Conclusion class:** `AMOS_MODEL`
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
----
+> rscf:
+> state: DERIVED
+> claim_class: DERIVED
+> provenance: AMOS_corpus
+> scope: AMOS_general
 
+______________________________________________________________________
 
-# 0. Purpose
+## 0. Purpose
 
 The **AMOS Unit Registry** defines the canonical semantic layer for quantities, dimensions, units, scales, normalized values, computational measures, rates, ratios, and conversions used throughout AMOS OS.
 
@@ -142,9 +142,9 @@ UNCERTAINTY
 
 where applicable.
 
----
+______________________________________________________________________
 
-# 1. Registry Boundary
+## 1. Registry Boundary
 
 The Unit Registry defines measurement semantics.
 
@@ -180,9 +180,9 @@ UNIT
 AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 2. Core Identity Law
+## 2. Core Identity Law
 
 AMOS distinguishes:
 
@@ -216,9 +216,9 @@ display: "100 m"
 
 These fields interact but remain distinct.
 
----
+______________________________________________________________________
 
-# 3. Canonical Quantity Object
+## 3. Canonical Quantity Object
 
 A consequential measured quantity should conceptually support:
 
@@ -252,9 +252,9 @@ Not every subsystem must serialize this exact schema.
 
 The semantics are load-bearing.
 
----
+______________________________________________________________________
 
-# 4. Unit Record
+## 4. Unit Record
 
 A registered unit should eventually support:
 
@@ -291,9 +291,9 @@ unit:
   supersedes:
 ```
 
----
+______________________________________________________________________
 
-# 5. Unit Classes
+## 5. Unit Classes
 
 AMOS recognizes these high-level unit classes:
 
@@ -316,9 +316,9 @@ DIMENSIONLESS
 
 These classes must not be silently conflated.
 
----
+______________________________________________________________________
 
-# 6. Physical Standard Units
+## 6. Physical Standard Units
 
 Physical quantities should use established physical units when applicable rather than inventing AMOS-specific replacements.
 
@@ -344,9 +344,9 @@ UNNECESSARY PROPRIETARY UNIT
 
 unless a domain-local unit has a justified and explicitly scoped purpose.
 
----
+______________________________________________________________________
 
-# 7. Base Physical Units
+## 7. Base Physical Units
 
 Registry reference set:
 
@@ -362,9 +362,9 @@ Registry reference set:
 
 These are standard external measurement units referenced by AMOS, not inventions of AMOS.
 
----
+______________________________________________________________________
 
-# 8. Dimension Vectors
+## 8. Dimension Vectors
 
 Physical dimensions may be represented as exponent vectors.
 
@@ -404,9 +404,9 @@ Force:
 M · L · T^-2
 ```
 
----
+______________________________________________________________________
 
-# 9. Dimensional Equality
+## 9. Dimensional Equality
 
 Two quantities may be directly added or subtracted only when their dimensions are compatible.
 
@@ -430,9 +430,9 @@ A - B
 
 after valid conversion into compatible units.
 
----
+______________________________________________________________________
 
-# 10. Dimensional Firewall
+## 10. Dimensional Firewall
 
 Canonical laws:
 
@@ -447,11 +447,13 @@ SAME UNIT SYMBOL
 !=
 SAME SEMANTIC MEANING
 ```
+
 ```text
 SAME DIMENSION
 !=
 SAME QUANTITY TYPE
 ```
+
 Example:
 
 ```text
@@ -468,9 +470,9 @@ can share dimensional form while representing different semantic quantities.
 
 Therefore dimensional equivalence alone does not prove semantic equivalence.
 
----
+______________________________________________________________________
 
-# 11. B3-Style Isomorphism Discipline
+## 11. B3-Style Isomorphism Discipline
 
 AMOS applies the same discipline used elsewhere for structurally similar spaces:
 
@@ -494,9 +496,9 @@ SAME PHYSICAL ROLE
 
 This prevents semantic conflation.
 
----
+______________________________________________________________________
 
-# 12. Derived Physical Units
+## 12. Derived Physical Units
 
 Common derived reference units include:
 
@@ -513,9 +515,9 @@ Common derived reference units include:
 
 These remain standard external units.
 
----
+______________________________________________________________________
 
-# 13. Prefixes
+## 13. Prefixes
 
 Metric prefixes may modify compatible units.
 
@@ -535,9 +537,9 @@ A prefix changes scale.
 
 It does not change the underlying dimension.
 
----
+______________________________________________________________________
 
-# 14. Prefix Firewall
+## 14. Prefix Firewall
 
 ```text
 1 km
@@ -561,9 +563,9 @@ Both share:
 DIMENSION = LENGTH
 ```
 
----
+______________________________________________________________________
 
-# 15. Exact Conversion
+## 15. Exact Conversion
 
 A conversion is `EXACT` where its relationship is definitionally exact within the applicable standard.
 
@@ -580,9 +582,9 @@ conversion:
 
 Exact conversion does not remove source measurement uncertainty.
 
----
+______________________________________________________________________
 
-# 16. Approximate Conversion
+## 16. Approximate Conversion
 
 A conversion is approximate when approximation is introduced by:
 
@@ -603,9 +605,9 @@ APPROXIMATE
 EXACT
 ```
 
----
+______________________________________________________________________
 
-# 17. Conversion Provenance
+## 17. Conversion Provenance
 
 For consequential conversions, preserve:
 
@@ -627,9 +629,9 @@ ORIGINAL VALUE
 
 Never destroy the original quantity merely because a converted representation is more convenient.
 
----
+______________________________________________________________________
 
-# 18. Conversion Chain
+## 18. Conversion Chain
 
 Conceptually:
 
@@ -647,9 +649,9 @@ TARGET UNIT
 
 A converted result should remain traceable to the original where required.
 
----
+______________________________________________________________________
 
-# 19. Affine Units
+## 19. Affine Units
 
 Not all conversions are pure multiplication.
 
@@ -673,9 +675,9 @@ UNIT CONVERSION
 ALWAYS MULTIPLICATIVE
 ```
 
----
+______________________________________________________________________
 
-# 20. Temperature Firewall
+## 20. Temperature Firewall
 
 Differences and absolute temperatures must be distinguished.
 
@@ -687,9 +689,9 @@ TEMPERATURE DIFFERENCE
 
 An affine-scale absolute temperature cannot always be manipulated as though its scale had an absolute zero at numeric zero.
 
----
+______________________________________________________________________
 
-# 21. Logarithmic Units
+## 21. Logarithmic Units
 
 Some domain quantities may use logarithmic scales.
 
@@ -711,9 +713,9 @@ LOGARITHMIC SCALE
 LINEAR SCALE
 ```
 
----
+______________________________________________________________________
 
-# 22. Scale Types
+## 22. Scale Types
 
 AMOS recognizes at least:
 
@@ -730,9 +732,9 @@ PROBABILISTIC
 
 Operations allowed on a value depend on scale type.
 
----
+______________________________________________________________________
 
-# 23. Nominal Scale
+## 23. Nominal Scale
 
 Nominal values classify.
 
@@ -760,9 +762,9 @@ CATEGORY LABEL
 NUMERICAL QUANTITY
 ```
 
----
+______________________________________________________________________
 
-# 24. Ordinal Scale
+## 24. Ordinal Scale
 
 Ordinal values support ordering but not necessarily meaningful interval arithmetic.
 
@@ -788,9 +790,9 @@ HIGH - MEDIUM
 MEDIUM - LOW
 ```
 
----
+______________________________________________________________________
 
-# 25. Interval Scale
+## 25. Interval Scale
 
 Interval scales support meaningful differences.
 
@@ -804,9 +806,9 @@ DIFFERENCE VALID
 RATIO VALID
 ```
 
----
+______________________________________________________________________
 
-# 26. Ratio Scale
+## 26. Ratio Scale
 
 Ratio scales have meaningful zero and permit ratio interpretation when the underlying measurement semantics support it.
 
@@ -818,9 +820,9 @@ Conceptually:
 
 has a meaningful interpretation only where the scale supports ratios.
 
----
+______________________________________________________________________
 
-# 27. Count Units
+## 27. Count Units
 
 Discrete counts should be typed as counts.
 
@@ -851,9 +853,9 @@ Therefore:
 
 even though both contain the numeric value `10`.
 
----
+______________________________________________________________________
 
-# 28. Typed Counts
+## 28. Typed Counts
 
 Preferred pattern:
 
@@ -872,9 +874,9 @@ value: 361
 
 when the count's meaning is load-bearing.
 
----
+______________________________________________________________________
 
-# 29. Ratio
+## 29. Ratio
 
 A ratio compares compatible or explicitly related quantities.
 
@@ -908,9 +910,9 @@ DIMENSIONLESS
 SEMANTICALLY UNDEFINED
 ```
 
----
+______________________________________________________________________
 
-# 30. Percentage
+## 30. Percentage
 
 Percentage is a presentation of a ratio.
 
@@ -932,9 +934,9 @@ Therefore:
 
 only where both represent the same normalized quantity.
 
----
+______________________________________________________________________
 
-# 31. Percentage Firewall
+## 31. Percentage Firewall
 
 Do not confuse:
 
@@ -968,9 +970,9 @@ and:
 
 These are different quantities.
 
----
+______________________________________________________________________
 
-# 32. Probability
+## 32. Probability
 
 Probability values normally satisfy:
 
@@ -988,9 +990,9 @@ P = 0.8
 
 must not automatically be interpreted as AMOS confidence unless the relevant model explicitly defines that relationship.
 
----
+______________________________________________________________________
 
-# 33. Confidence
+## 33. Confidence
 
 AMOS confidence is an epistemic quantity.
 
@@ -1014,9 +1016,9 @@ CONFIDENCE
 AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 34. Confidence Scale
+## 34. Confidence Scale
 
 Where normalized confidence is used:
 
@@ -1038,9 +1040,9 @@ DERIVED_CONFIDENCE
 
 These are not interchangeable.
 
----
+______________________________________________________________________
 
-# 35. Normalized Values
+## 35. Normalized Values
 
 A normalized quantity should declare its normalization.
 
@@ -1058,9 +1060,9 @@ normalized_quantity:
 
 Without the mapping, normalized values may not be interpretable.
 
----
+______________________________________________________________________
 
-# 36. Normalization Firewall
+## 36. Normalization Firewall
 
 ```text
 0.8
@@ -1088,9 +1090,9 @@ NORMALIZED NUMBER
 SEMANTIC IDENTITY
 ```
 
----
+______________________________________________________________________
 
-# 37. AMOS Activation
+## 37. AMOS Activation
 
 Where AMOS cognitive field components use activation values, the preferred semantic type is:
 
@@ -1108,9 +1110,9 @@ If current implementation uses:
 
 that is an implementation contract, not a universal law unless canonically bound.
 
----
+______________________________________________________________________
 
-# 38. Attention Priority
+## 38. Attention Priority
 
 Attention priority is a model-derived ranking quantity.
 
@@ -1128,9 +1130,9 @@ ATTENTION_PRIORITY
 
 It must not automatically be compared to confidence, risk, or probability merely because all use numeric values.
 
----
+______________________________________________________________________
 
-# 39. Risk Scores
+## 39. Risk Scores
 
 Risk may be represented through:
 
@@ -1160,9 +1162,9 @@ RISK_CLASS
 EXPECTED LOSS
 ```
 
----
+______________________________________________________________________
 
-# 40. Composite Scores
+## 40. Composite Scores
 
 A composite score should preserve its equation or mapping.
 
@@ -1182,9 +1184,9 @@ wn·xn
 
 If component quantities use incompatible scales, normalization or transformation must be justified.
 
----
+______________________________________________________________________
 
-# 41. Composite Score Firewall
+## 41. Composite Score Firewall
 
 ```text
 NUMERICALLY COMBINABLE
@@ -1196,9 +1198,9 @@ A formula can execute while remaining conceptually invalid.
 
 Dimensional and semantic checks precede fluency of computation.
 
----
+______________________________________________________________________
 
-# 42. Rates
+## 42. Rates
 
 A rate is:
 
@@ -1221,9 +1223,9 @@ events / epoch
 
 Rate denominator must remain explicit.
 
----
+______________________________________________________________________
 
-# 43. Throughput
+## 43. Throughput
 
 Throughput is a constrained rate of successful flow.
 
@@ -1238,9 +1240,9 @@ items/min
 
 Within AMOS 7-Part persistence reasoning, throughput may be relevant to `Flow`, but the numerical unit remains domain-specific.
 
----
+______________________________________________________________________
 
-# 44. Latency
+## 44. Latency
 
 Latency should use temporal units.
 
@@ -1272,9 +1274,9 @@ PERCENTILE
 SAMPLE WINDOW
 ```
 
----
+______________________________________________________________________
 
-# 45. Percentile Latency
+## 45. Percentile Latency
 
 Distinguish:
 
@@ -1300,9 +1302,9 @@ A value such as:
 
 is incomplete when the aggregation statistic materially affects interpretation.
 
----
+______________________________________________________________________
 
-# 46. Time Units
+## 46. Time Units
 
 Reference temporal units include:
 
@@ -1324,9 +1326,9 @@ DURATION
 TIMESTAMP
 ```
 
----
+______________________________________________________________________
 
-# 47. Timestamp
+## 47. Timestamp
 
 A timestamp requires a time reference.
 
@@ -1348,9 +1350,9 @@ WITHOUT TIME REFERENCE
 MAY BE AMBIGUOUS
 ```
 
----
+______________________________________________________________________
 
-# 48. Duration
+## 48. Duration
 
 Duration measures elapsed time.
 
@@ -1364,9 +1366,9 @@ DURATION
 CALENDAR DATE
 ```
 
----
+______________________________________________________________________
 
-# 49. Epoch
+## 49. Epoch
 
 `epoch` may be a count/order marker rather than physical time.
 
@@ -1388,9 +1390,9 @@ SECOND
 
 unless a specific mapping exists.
 
----
+______________________________________________________________________
 
-# 50. Step
+## 50. Step
 
 `step` is a discrete progression count.
 
@@ -1413,9 +1415,9 @@ ELAPSED TIME
 
 unless step duration is explicitly defined.
 
----
+______________________________________________________________________
 
-# 51. Sequence Number
+## 51. Sequence Number
 
 A sequence number identifies ordering.
 
@@ -1437,9 +1439,9 @@ epoch 100
 
 Order and physical time are different dimensions.
 
----
+______________________________________________________________________
 
-# 52. Computational Information Units
+## 52. Computational Information Units
 
 AMOS should distinguish decimal and binary information units.
 
@@ -1468,9 +1470,9 @@ GiB = 2^30 bytes
 TiB = 2^40 bytes
 ```
 
----
+______________________________________________________________________
 
-# 53. Byte Firewall
+## 53. Byte Firewall
 
 Canonical law:
 
@@ -1486,9 +1488,9 @@ GB != GiB
 
 unless a local system explicitly abuses notation, in which case the ambiguity should be documented rather than silently normalized.
 
----
+______________________________________________________________________
 
-# 54. Bit / Byte Firewall
+## 54. Bit / Byte Firewall
 
 ```text
 8 bits
@@ -1508,9 +1510,9 @@ MB
 
 Case matters.
 
----
+______________________________________________________________________
 
-# 55. Token
+## 55. Token
 
 `token` is a model/runtime-specific count unit.
 
@@ -1534,9 +1536,9 @@ Conversions between these depend on tokenizer/model/content.
 
 Therefore no universal token-to-word conversion should be canonized.
 
----
+______________________________________________________________________
 
-# 56. Context Length
+## 56. Context Length
 
 Context capacity should be typed as:
 
@@ -1548,9 +1550,9 @@ or another explicit implementation unit.
 
 A context-length value must inherit the relevant tokenizer/model version when necessary.
 
----
+______________________________________________________________________
 
-# 57. Operations
+## 57. Operations
 
 Computational operations may be counted as:
 
@@ -1565,9 +1567,9 @@ evaluation
 
 These units are not interchangeable.
 
----
+______________________________________________________________________
 
-# 58. FLOP Firewall
+## 58. FLOP Firewall
 
 A FLOP count measures floating-point operation quantity under a defined convention.
 
@@ -1585,9 +1587,9 @@ COST
 
 without additional evidence.
 
----
+______________________________________________________________________
 
-# 59. Memory Capacity
+## 59. Memory Capacity
 
 Computational memory/storage capacity should preserve whether a value refers to:
 
@@ -1607,9 +1609,9 @@ PERSISTED SIZE
 
 These may differ significantly.
 
----
+______________________________________________________________________
 
-# 60. Board Coordinate Units
+## 60. Board Coordinate Units
 
 For 19×19 strategic/cognitive grids:
 
@@ -1640,9 +1642,9 @@ These counts are derived from geometry:
 
 The meaning of each cell remains subsystem-specific.
 
----
+______________________________________________________________________
 
-# 61. 19×19 Semantic Firewall
+## 61. 19×19 Semantic Firewall
 
 AMOS may have multiple 19×19 systems.
 
@@ -1670,9 +1672,9 @@ A-MATRIX ELEMENT
 
 unless a specific mapping is explicitly defined.
 
----
+______________________________________________________________________
 
-# 62. Coordinate Representation
+## 62. Coordinate Representation
 
 A coordinate should preserve:
 
@@ -1700,9 +1702,9 @@ Canonical law:
 
 is ambiguous without indexing convention.
 
----
+______________________________________________________________________
 
-# 63. Sparse Field Metrics
+## 63. Sparse Field Metrics
 
 For a sparse field:
 
@@ -1724,9 +1726,9 @@ active_cells / total_cells
 
 If `sparsity_ratio` is used to mean that quantity, its local convention must remain explicit because mathematical literature may use "sparsity" differently.
 
----
+______________________________________________________________________
 
-# 64. Density vs Sparsity
+## 64. Density vs Sparsity
 
 Possible definitions:
 
@@ -1741,6 +1743,7 @@ sparsity
 =
 1 - density
 ```
+
 But if an implementation defines:
 
 ```text
@@ -1753,9 +1756,9 @@ the registry must preserve the implementation contract rather than silently chan
 
 Semantic mismatch should be documented.
 
----
+______________________________________________________________________
 
-# 65. Graph Counts
+## 65. Graph Counts
 
 Graph quantities may include:
 
@@ -1786,9 +1789,9 @@ EDGE SEMANTICS
 
 without additional definitions.
 
----
+______________________________________________________________________
 
-# 66. Probability vs Frequency
+## 66. Probability vs Frequency
 
 Empirical frequency:
 
@@ -1808,9 +1811,9 @@ TRUE PROBABILITY
 
 unless the inferential model justifies that interpretation.
 
----
+______________________________________________________________________
 
-# 67. Score vs Measurement
+## 67. Score vs Measurement
 
 A score is often model-derived.
 
@@ -1824,9 +1827,9 @@ MEASUREMENT
 
 A score may be useful without having a physical unit.
 
----
+______________________________________________________________________
 
-# 68. Index
+## 68. Index
 
 An index combines or transforms values into a reference number.
 
@@ -1851,9 +1854,9 @@ VERSION
 
 when load-bearing.
 
----
+______________________________________________________________________
 
-# 69. Index Versioning
+## 69. Index Versioning
 
 Changing an index formula creates a new semantic version of the index.
 
@@ -1869,9 +1872,9 @@ DIFFERENT VERSIONED METRIC
 
 Historical values should not be compared without compatibility analysis.
 
----
+______________________________________________________________________
 
-# 70. Unit Versioning
+## 70. Unit Versioning
 
 Units based on stable external standards normally do not need AMOS-specific semantic versioning.
 
@@ -1889,9 +1892,9 @@ amos_unit:
   superseded_by:
 ```
 
----
+______________________________________________________________________
 
-# 71. Unit Aliases
+## 71. Unit Aliases
 
 Aliases must resolve to one semantic unit identity.
 
@@ -1903,9 +1906,9 @@ CANONICAL UNIT
 
 Aliases must not silently create alternate conversion semantics.
 
----
+______________________________________________________________________
 
-# 72. Namespace Collision
+## 72. Namespace Collision
 
 The same symbol can mean different things in different domains.
 
@@ -1933,9 +1936,9 @@ UNIT IDENTITY
 
 Use context or namespace qualification where ambiguity matters.
 
----
+______________________________________________________________________
 
-# 73. Qualified Unit Identity
+## 73. Qualified Unit Identity
 
 Preferred machine-readable pattern:
 
@@ -1954,9 +1957,9 @@ The exact namespace syntax is an implementation choice.
 
 Semantic qualification is the requirement.
 
----
+______________________________________________________________________
 
-# 74. Measurement Method
+## 74. Measurement Method
 
 A measurement result inherits its method.
 
@@ -1984,9 +1987,9 @@ WITHOUT METHOD
 
 for consequential measurement claims.
 
----
+______________________________________________________________________
 
-# 75. Instrument
+## 75. Instrument
 
 Measurements may depend on an instrument or computational procedure.
 
@@ -2004,9 +2007,9 @@ algorithm
 
 Instrument identity should be preserved when it can materially alter the value.
 
----
+______________________________________________________________________
 
-# 76. Calibration
+## 76. Calibration
 
 Calibration establishes mapping between instrument output and a reference.
 
@@ -2028,9 +2031,9 @@ CALIBRATED QUANTITY
 
 unless calibration is established.
 
----
+______________________________________________________________________
 
-# 77. Precision
+## 77. Precision
 
 Precision describes resolution or repeatability properties.
 
@@ -2042,9 +2045,9 @@ PRECISION
 ACCURACY
 ```
 
----
+______________________________________________________________________
 
-# 78. Accuracy
+## 78. Accuracy
 
 Accuracy concerns closeness to an applicable reference or true value under a declared framework.
 
@@ -2056,9 +2059,9 @@ HIGH PRECISION
 HIGH ACCURACY
 ```
 
----
+______________________________________________________________________
 
-# 79. Resolution
+## 79. Resolution
 
 Resolution is the smallest distinguishable increment under a measurement system.
 
@@ -2070,9 +2073,9 @@ UNCERTAINTY
 
 although they may interact.
 
----
+______________________________________________________________________
 
-# 80. Significant Figures
+## 80. Significant Figures
 
 Reported significant figures should not exceed justified precision.
 
@@ -2086,9 +2089,9 @@ MORE INFORMATION
 
 False precision must not be introduced during conversion.
 
----
+______________________________________________________________________
 
-# 81. Rounding
+## 81. Rounding
 
 Rounding should preserve:
 
@@ -2101,9 +2104,9 @@ where materially relevant.
 
 Repeated conversion should preferably use the highest available internal precision and round only at presentation boundaries.
 
----
+______________________________________________________________________
 
-# 82. Uncertainty
+## 82. Uncertainty
 
 Measurement uncertainty should remain attached to the quantity where consequential.
 
@@ -2125,9 +2128,9 @@ EXACT VALUE
 
 unless exactness is justified.
 
----
+______________________________________________________________________
 
-# 83. Interval
+## 83. Interval
 
 An uncertainty interval must declare semantics.
 
@@ -2143,9 +2146,9 @@ MIN/MAX BOUNDS
 
 These are not interchangeable.
 
----
+______________________________________________________________________
 
-# 84. Error
+## 84. Error
 
 `error` may mean:
 
@@ -2160,9 +2163,9 @@ SYSTEM FAILURE
 
 The term must be typed.
 
----
+______________________________________________________________________
 
-# 85. Absolute Error
+## 85. Absolute Error
 
 Conceptually:
 
@@ -2174,9 +2177,9 @@ E_abs
 
 with the same unit as the quantity.
 
----
+______________________________________________________________________
 
-# 86. Relative Error
+## 86. Relative Error
 
 Conceptually:
 
@@ -2190,9 +2193,9 @@ when the denominator is valid.
 
 Relative error is dimensionless.
 
----
+______________________________________________________________________
 
-# 87. Zero-Denominator Firewall
+## 87. Zero-Denominator Firewall
 
 Ratios are undefined when the required denominator is zero.
 
@@ -2222,9 +2225,9 @@ UNDEFINED
 ZERO
 ```
 
----
+______________________________________________________________________
 
-# 88. Missing Value Firewall
+## 88. Missing Value Firewall
 
 Distinguish:
 
@@ -2255,9 +2258,9 @@ UNKNOWN/GAP
 ZERO
 ```
 
----
+______________________________________________________________________
 
-# 89. Infinite Values
+## 89. Infinite Values
 
 Infinity is not an ordinary finite measurement.
 
@@ -2278,9 +2281,9 @@ UNBOUNDED OBSERVATION
 
 unless explicitly modeled.
 
----
+______________________________________________________________________
 
-# 90. Bounds
+## 90. Bounds
 
 Quantities may carry:
 
@@ -2305,9 +2308,9 @@ OBSERVATION
 
 The source of the bound matters.
 
----
+______________________________________________________________________
 
-# 91. Valid Range
+## 91. Valid Range
 
 A schema-valid range is not necessarily a physically valid range.
 
@@ -2325,9 +2328,9 @@ Example:
 
 may be structurally valid while semantically invalid for a specific observation.
 
----
+______________________________________________________________________
 
-# 92. Canonical Dimensional Validation
+## 92. Canonical Dimensional Validation
 
 Before applying an equation:
 
@@ -2341,9 +2344,9 @@ should hold for physical equations unless the formulation explicitly uses normal
 
 Dimensional mismatch is a structural warning.
 
----
+______________________________________________________________________
 
-# 93. Abstract AMOS Equations
+## 93. Abstract AMOS Equations
 
 Many AMOS model equations use normalized or abstract quantities.
 
@@ -2367,9 +2370,9 @@ may be dimensionless model quantities.
 
 The registry must not reinterpret abstract model variables as SI physical quantities without canonical evidence.
 
----
+______________________________________________________________________
 
-# 94. Model Quantity Firewall
+## 94. Model Quantity Firewall
 
 ```text
 MODEL SCORE
@@ -2387,9 +2390,9 @@ EMPIRICAL PROBABILITY
 
 unless validation establishes the mapping.
 
----
+______________________________________________________________________
 
-# 95. Unit Safety in APIs
+## 95. Unit Safety in APIs
 
 Interfaces carrying quantities should prefer explicit unit fields.
 
@@ -2412,9 +2415,9 @@ over:
 
 when unit ambiguity is possible.
 
----
+______________________________________________________________________
 
-# 96. Unit Safety in Schemas
+## 96. Unit Safety in Schemas
 
 Typed schemas should constrain:
 
@@ -2430,9 +2433,9 @@ where materially necessary.
 
 Schema validation cannot prove empirical correctness.
 
----
+______________________________________________________________________
 
-# 97. Unit Safety in Storage
+## 97. Unit Safety in Storage
 
 Persistent values should not lose unit identity.
 
@@ -2452,9 +2455,9 @@ unit: ms
 quantity_type: LATENCY
 ```
 
----
+______________________________________________________________________
 
-# 98. Unit Safety in Logs
+## 98. Unit Safety in Logs
 
 Operational logs should preserve units for numerical telemetry.
 
@@ -2472,9 +2475,9 @@ latency=42
 
 when field schemas are not otherwise available.
 
----
+______________________________________________________________________
 
-# 99. Unit Safety in Metrics
+## 99. Unit Safety in Metrics
 
 Metric names or metadata should distinguish:
 
@@ -2492,9 +2495,9 @@ Prometheus-style naming or another implementation convention may be adopted sepa
 
 This canon does not mandate a specific telemetry platform.
 
----
+______________________________________________________________________
 
-# 100. Unit Safety in Models
+## 100. Unit Safety in Models
 
 Model inputs should preserve expected scale.
 
@@ -2512,9 +2515,9 @@ temperature_celsius
 
 even though both represent temperature.
 
----
+______________________________________________________________________
 
-# 101. Unit Safety in Workflows
+## 101. Unit Safety in Workflows
 
 Workflow edges passing numerical values should preserve quantity metadata where ambiguity can alter behavior.
 
@@ -2530,9 +2533,9 @@ STEP B
 
 requires conversion before consumption.
 
----
+______________________________________________________________________
 
-# 102. Unit Safety in Agents
+## 102. Unit Safety in Agents
 
 Agents should not infer missing load-bearing units from numeric values when multiple interpretations are plausible.
 
@@ -2552,9 +2555,9 @@ may require clarification or schema lookup if it could mean:
 100%
 ```
 
----
+______________________________________________________________________
 
-# 103. Unit Safety in Cognition
+## 103. Unit Safety in Cognition
 
 Cognition must preserve scale when comparing values.
 
@@ -2566,9 +2569,9 @@ WITHOUT SEMANTIC NORMALIZATION
 CANNOT JUSTIFY COMPARISON
 ```
 
----
+______________________________________________________________________
 
-# 104. Unit Safety in RSCF
+## 104. Unit Safety in RSCF
 
 A load-bearing quantitative premise should conceptually carry:
 
@@ -2587,9 +2590,9 @@ where applicable.
 
 This allows later revalidation.
 
----
+______________________________________________________________________
 
-# 105. Unit Conversion as Derived Claim
+## 105. Unit Conversion as Derived Claim
 
 A conversion result is:
 
@@ -2607,9 +2610,9 @@ CONVERSION RULE
 
 If either changes, the converted result may require recomputation.
 
----
+______________________________________________________________________
 
-# 106. Conversion Dependency
+## 106. Conversion Dependency
 
 Conceptually:
 
@@ -2629,9 +2632,9 @@ Q_target
 
 must be invalidated or recomputed where load-bearing.
 
----
+______________________________________________________________________
 
-# 107. Currency Units
+## 107. Currency Units
 
 Currency quantities require explicit currency identity.
 
@@ -2654,9 +2657,9 @@ Canonical firewall:
 
 Conversion requires an exchange rate and time context.
 
----
+______________________________________________________________________
 
-# 108. Currency Conversion
+## 108. Currency Conversion
 
 Currency conversion is time-sensitive.
 
@@ -2685,9 +2688,9 @@ MARKET / PROVIDER
 
 It is not a timeless exact conversion.
 
----
+______________________________________________________________________
 
-# 109. Monetary Scale
+## 109. Monetary Scale
 
 Money should distinguish:
 
@@ -2702,9 +2705,9 @@ when financial reasoning requires it.
 
 These are not interchangeable merely because the currency symbol is identical.
 
----
+______________________________________________________________________
 
-# 110. Cost Units
+## 110. Cost Units
 
 Operational cost should preserve:
 
@@ -2724,9 +2727,9 @@ USD / request
 USD / GPU-hour
 ```
 
----
+______________________________________________________________________
 
-# 111. Energy Units
+## 111. Energy Units
 
 Energy should use explicit units such as:
 
@@ -2754,9 +2757,9 @@ POWER
 ENERGY
 ```
 
----
+______________________________________________________________________
 
-# 112. Data Rate vs Data Quantity
+## 112. Data Rate vs Data Quantity
 
 Distinguish:
 
@@ -2778,9 +2781,9 @@ DATA SIZE
 DATA RATE
 ```
 
----
+______________________________________________________________________
 
-# 113. Frequency
+## 113. Frequency
 
 Frequency has units such as:
 
@@ -2802,9 +2805,9 @@ period
 
 when the reciprocal relationship applies.
 
----
+______________________________________________________________________
 
-# 114. Throughput vs Latency
+## 114. Throughput vs Latency
 
 These are different system properties.
 
@@ -2826,9 +2829,9 @@ THROUGHPUT
 LATENCY
 ```
 
----
+______________________________________________________________________
 
-# 115. Capacity vs Utilization
+## 115. Capacity vs Utilization
 
 Capacity is available maximum/resource envelope.
 
@@ -2850,9 +2853,9 @@ UTILIZATION
 CAPACITY
 ```
 
----
+______________________________________________________________________
 
-# 116. Availability Measures
+## 116. Availability Measures
 
 Availability may be represented as a ratio:
 
@@ -2878,9 +2881,9 @@ SERVICE DEFINITION
 FAILURE CRITERIA
 ```
 
----
+______________________________________________________________________
 
-# 117. Reliability Measures
+## 117. Reliability Measures
 
 Reliability may be modeled through different quantities.
 
@@ -2895,9 +2898,9 @@ survival function
 
 No single universal AMOS reliability unit is asserted here.
 
----
+______________________________________________________________________
 
-# 118. MTTR
+## 118. MTTR
 
 Mean time to recovery/repair uses a time unit.
 
@@ -2911,9 +2914,9 @@ ACRONYM
 UNAMBIGUOUS SEMANTICS
 ```
 
----
+______________________________________________________________________
 
-# 119. Domain-Local Units
+## 119. Domain-Local Units
 
 A domain may define specialized units if:
 
@@ -2927,9 +2930,9 @@ CONVERSION / INTERPRETATION IS DOCUMENTED
 
 Domain-local units must not silently escape their scope.
 
----
+______________________________________________________________________
 
-# 120. AMOS-Derived Units
+## 120. AMOS-Derived Units
 
 AMOS may define derived internal semantic units such as:
 
@@ -2945,9 +2948,9 @@ proof_capsule_count
 
 These are structural/operational units, not SI physical units.
 
----
+______________________________________________________________________
 
-# 121. No Fake Physicalization
+## 121. No Fake Physicalization
 
 Canonical law:
 
@@ -2959,9 +2962,9 @@ PHYSICAL LAW
 
 A model variable should not be given physical interpretation merely because it is written mathematically.
 
----
+______________________________________________________________________
 
-# 122. No Fake Quantification
+## 122. No Fake Quantification
 
 If a concept is not operationally measured:
 
@@ -2985,9 +2988,9 @@ FORMULA AVAILABLE
 MEASUREMENT AVAILABLE
 ```
 
----
+______________________________________________________________________
 
-# 123. Measurement Provenance
+## 123. Measurement Provenance
 
 Consequential quantitative claims should preserve:
 
@@ -3009,9 +3012,9 @@ IN WHICH UNIT
 WITH WHAT UNCERTAINTY
 ```
 
----
+______________________________________________________________________
 
-# 124. Evidence Class
+## 124. Evidence Class
 
 Measured quantities may be classified:
 
@@ -3039,9 +3042,9 @@ SOURCE_CLAIM
 
 until verified.
 
----
+______________________________________________________________________
 
-# 125. Freshness
+## 125. Freshness
 
 Many quantities are freshness-bound.
 
@@ -3067,9 +3070,9 @@ CURRENT QUANTITY AT t2
 
 when the underlying system can change.
 
----
+______________________________________________________________________
 
-# 126. Regime Dependence
+## 126. Regime Dependence
 
 Measurements can depend on regime.
 
@@ -3089,9 +3092,9 @@ MEASUREMENT
 
 should inherit regime where material.
 
----
+______________________________________________________________________
 
-# 127. Scope Dependence
+## 127. Scope Dependence
 
 Measurements should preserve scope.
 
@@ -3112,9 +3115,9 @@ one cluster
 
 Without scope the same numeric value may mean different things.
 
----
+______________________________________________________________________
 
-# 128. Aggregation
+## 128. Aggregation
 
 Aggregation functions include:
 
@@ -3143,9 +3146,9 @@ remains in:
 ms
 ```
 
----
+______________________________________________________________________
 
-# 129. Invalid Aggregation
+## 129. Invalid Aggregation
 
 Not every scale permits every aggregation.
 
@@ -3163,9 +3166,9 @@ MEAN(ordinal class)
 
 may be semantically questionable unless the scale defines interval meaning.
 
----
+______________________________________________________________________
 
-# 130. Weighted Aggregation
+## 130. Weighted Aggregation
 
 Weighted quantities require weight semantics.
 
@@ -3187,9 +3190,9 @@ where normalized weighting is intended.
 
 Weights themselves require provenance when decision-relevant.
 
----
+______________________________________________________________________
 
-# 131. Unit Cancellation
+## 131. Unit Cancellation
 
 For physical or mathematically typed quantities:
 
@@ -3213,9 +3216,9 @@ is dimensionless but means:
 SUCCESS_RATE
 ```
 
----
+______________________________________________________________________
 
-# 132. Dimensional Analysis Gate
+## 132. Dimensional Analysis Gate
 
 Before accepting a quantitative equation, test:
 
@@ -3237,9 +3240,9 @@ Before accepting a quantitative equation, test:
 8. ARE CONVERSIONS TRACEABLE?
 ```
 
----
+______________________________________________________________________
 
-# 133. Quantity Comparison Gate
+## 133. Quantity Comparison Gate
 
 Before comparing:
 
@@ -3265,9 +3268,9 @@ SUFFICIENT FRESHNESS
 
 where relevant.
 
----
+______________________________________________________________________
 
-# 134. Unit Conversion Gate
+## 134. Unit Conversion Gate
 
 Before converting:
 
@@ -3293,9 +3296,9 @@ PRECISION PRESERVED
 CONTEXT SUFFICIENT
 ```
 
----
+______________________________________________________________________
 
-# 135. Registry Statuses
+## 135. Registry Statuses
 
 Unit lifecycle states may include:
 
@@ -3317,9 +3320,9 @@ ARCHIVED
 
 Unit lifecycle state must not be confused with epistemic conclusion class.
 
----
+______________________________________________________________________
 
-# 136. Deprecated Unit
+## 136. Deprecated Unit
 
 A deprecated AMOS-local unit should preserve:
 
@@ -3336,9 +3339,9 @@ deprecated_unit:
 
 Historical interpretation must remain possible.
 
----
+______________________________________________________________________
 
-# 137. Unit Supersession
+## 137. Unit Supersession
 
 ```text
 UNIT DEFINITION A
@@ -3352,9 +3355,9 @@ does not erase historical values expressed under A.
 
 Migration requires explicit conversion or compatibility analysis.
 
----
+______________________________________________________________________
 
-# 138. Unit Schema Version
+## 138. Unit Schema Version
 
 The registry schema version is separate from unit definition versions.
 
@@ -3372,9 +3375,9 @@ UNIT_VERSION
 AMOS_CORE_VERSION
 ```
 
----
+______________________________________________________________________
 
-# 139. Machine-Readable Registry Example
+## 139. Machine-Readable Registry Example
 
 ```yaml
 units:
@@ -3419,9 +3422,9 @@ units:
     status: CANDIDATE
 ```
 
----
+______________________________________________________________________
 
-# 140. Required Registry Invariants
+## 140. Required Registry Invariants
 
 ```text
 UNIT-001 VALUE != QUANTITY
@@ -3505,9 +3508,9 @@ UNIT-039 QUANTIFICATION MUST NOT BE FABRICATED
 UNIT-040 OPTIMIZATION MUST NOT REMOVE LOAD-BEARING UNIT SEMANTICS
 ```
 
----
+______________________________________________________________________
 
-# 141. Validation Matrix
+## 141. Validation Matrix
 
 | Dimension   | Required question                                   |
 | ----------- | --------------------------------------------------- |
@@ -3526,9 +3529,9 @@ UNIT-040 OPTIMIZATION MUST NOT REMOVE LOAD-BEARING UNIT SEMANTICS
 | Conversion  | Was it transformed from another unit?               |
 | Version     | Which metric/unit definition applies?               |
 
----
+______________________________________________________________________
 
-# 142. Unit Test Families
+## 142. Unit Test Families
 
 A mature implementation should test:
 
@@ -3578,9 +3581,9 @@ DEPRECATED UNIT RESOLUTION
 PROVENANCE PRESERVATION
 ```
 
----
+______________________________________________________________________
 
-# 143. Adversarial Unit Tests
+## 143. Adversarial Unit Tests
 
 High-value cases include:
 
@@ -3618,9 +3621,9 @@ CONVERSION HISTORY LOST
 METRIC FORMULA CHANGED WITHOUT VERSION CHANGE
 ```
 
----
+______________________________________________________________________
 
-# 144. Anti-Fabrication Rules
+## 144. Anti-Fabrication Rules
 
 Do not invent:
 
@@ -3652,9 +3655,9 @@ UNIT = UNKNOWN/GAP
 
 is preferable to guessing.
 
----
+______________________________________________________________________
 
-# 145. Gap Classification
+## 145. Gap Classification
 
 Unit-related gaps may be:
 
@@ -3684,9 +3687,9 @@ when only presentation formatting is absent.
 
 Resolve in that order.
 
----
+______________________________________________________________________
 
-# 146. RSCF Node
+## 146. RSCF Node
 
 ```yaml
 node_id: AMOS_UNIT_REGISTRY
@@ -3757,9 +3760,9 @@ does_not_establish:
   - implementation completeness
 ```
 
----
+______________________________________________________________________
 
-# 147. Promotion Gate
+## 147. Promotion Gate
 
 Promotion:
 
@@ -3797,9 +3800,9 @@ CANON REVIEW
 
 Unknown unit semantics must remain unresolved rather than being invented during promotion.
 
----
+______________________________________________________________________
 
-# 148. Changelog
+## 148. Changelog
 
 ## v1.0.0 — 2026-08-25
 
@@ -3843,9 +3846,9 @@ Added:
 - anti-fabrication rules;
 - promotion gate.
 
----
+______________________________________________________________________
 
-# 149. Canonical Summary
+## 149. Canonical Summary
 
 A complete quantity is not merely:
 
@@ -4014,29 +4017,33 @@ IS LOAD-BEARING AND UNKNOWN,
 KEEP IT UNKNOWN/GAP.
 ```
 
----
+______________________________________________________________________
 
 **Related:** README|AMOS OS · [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]|Architecture · [[00_ROOT/00_ROOT_NAMING_STANDARD|00_ROOT_NAMING_STANDARD]]|Naming Standard · [[00_ROOT/PLACEMENT_RULES|PLACEMENT_RULES]]|Placement Rules · [[01_CANON/00_INDEX/CANON_MAP|CANON_MAP]]|Canon Map · [[01_CANON/01_CORE_LAWS/AMOS_CORE_LAWS|AMOS Core Laws]] · [[01_CANON/01_CORE_LAWS/INVARIANT_REGISTRY|INVARIANT_REGISTRY]]|Invariant Registry · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]|Law Hierarchy · [[01_CANON/05_VARIABLE_REGISTRY/SYMBOL_REGISTRY|SYMBOL_REGISTRY]]|Symbol Registry · [[01_CANON/02_UNIVERSE_CANON/HML_CANON|HML_CANON]]|H/M/L Canon · [[01_CANON/02_UNIVERSE_CANON/PERSISTENCE_CANON|PERSISTENCE_CANON]]|Persistence Canon · [[01_CANON/03_COGNITION_CANON/COGNITION_CANON|COGNITION_CANON]]|Cognition Canon · [[01_CANON/04_INFRASTRUCTURE_CANON/INFRASTRUCTURE_CANON|INFRASTRUCTURE_CANON]]|Infrastructure Canon · [[02_KERNEL/00_INDEX/KERNEL_MAP|KERNEL_MAP]]|Kernel Map · [[04_RUNTIME/00_INDEX/RUNTIME_MAP|RUNTIME_MAP]]|Runtime Map · [[05_COGNITIVE_ORGANISM/00_INDEX/COGNITIVE_ORGANISM_MAP|COGNITIVE_ORGANISM_MAP]]|Cognitive Organism Map · Knowledge Map · [[12_STATE/00_INDEX/STATE_STATE_MAP|STATE_STATE_MAP]]|State Map · [[13_MODELS/00_INDEX/MODEL_MAP|MODEL_MAP]]|Model Map · [[16_SCHEMAS/00_INDEX/SCHEMA_MAP|SCHEMA_MAP]]|Schema Map · [[17_OBSERVABILITY/00_INDEX/OBSERVABILITY_OBSERVABILITY_MAP|OBSERVABILITY_OBSERVABILITY_MAP]]|Observability Map · [[19_TESTS/00_INDEX/TEST_MAP|TEST_MAP]]|Test Map · [[22_RESEARCH/00_INDEX/INDEX_RESEARCH_README|INDEX_RESEARCH_README]]|Research · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_ARCHITECTURE|COGNITIVE_MATRIX_ARCHITECTURE]]|Cognitive Matrix
 
 ```text
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: unit_registry
 node_type: note
 path: 01_CANON/05_VARIABLE_REGISTRY/UNIT_REGISTRY.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[01_CANON/05_VARIABLE_REGISTRY/05_VARIABLE_REGISTRY_MOC|05_VARIABLE_REGISTRY_MOC]]

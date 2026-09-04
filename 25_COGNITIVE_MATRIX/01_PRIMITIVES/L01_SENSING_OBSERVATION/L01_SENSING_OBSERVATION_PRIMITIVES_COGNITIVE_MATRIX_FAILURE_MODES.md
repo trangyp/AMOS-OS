@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: L01 SENSING OBSERVATION PRIMITIVES COGNITIVE MATRIX FAILURE MODES
 type: failure-mode
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION
 tags:
-- cognitive-matrix
-- primitives
-- matrix/l01-sensing-observation
-- note
-- domain/cognitive-matrix
+  - cognitive-matrix
+  - primitives
+  - matrix/l01-sensing-observation
+  - note
+  - domain/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: EMPIRICAL
@@ -28,9 +31,9 @@ rscf:
 
 > **Epistemic boundary:** this document defines a governed AMOS failure taxonomy for `L01_SENSING_OBSERVATION`. It does not establish that every listed failure has an executable detector, validated runtime implementation, calibrated probability model, or universal empirical applicability.
 
----
+______________________________________________________________________
 
-# 0. Purpose
+## 0. Purpose
 
 `L01_SENSING_OBSERVATION/FAILURE_MODES.md` defines how AMOS identifies, classifies, contains, propagates, repairs, and revalidates failures occurring between an addressable environment and a trusted observation.
 
@@ -104,9 +107,9 @@ NONEXISTENCE
 
 The failure layer therefore prevents sensing defects from being silently converted into claims about reality.
 
----
+______________________________________________________________________
 
-# 1. Source / Canon References
+## 1. Source / Canon References
 
 Current structural source classes include:
 
@@ -181,9 +184,9 @@ THIS FAILURE TAXONOMY
 EMPIRICALLY EXHAUSTIVE FAILURE LAW
 ```
 
----
+______________________________________________________________________
 
-# 2. Definition
+## 2. Definition
 
 An `L01` failure is any condition that prevents an observation from safely satisfying its declared sensing, semantic, provenance, temporal, scope, regime, quality, authority, validation, or downstream-use contract.
 
@@ -207,9 +210,9 @@ Violation(
 
 This is an `AMOS_MODEL` relation.
 
----
+______________________________________________________________________
 
-# 3. Failure Is Not Necessarily Falsity
+## 3. Failure Is Not Necessarily Falsity
 
 A failed observation process does not necessarily mean that the observation value is false.
 
@@ -243,9 +246,9 @@ scope validity
 authority validity
 ```
 
----
+______________________________________________________________________
 
-# 4. Scope
+## 4. Scope
 
 This failure contract covers:
 
@@ -315,9 +318,9 @@ selective invalidation
 
 It does not by itself define domain-specific failure physics for every sensor, scientific instrument, biological sense, API, database, multimodal model, or external environment.
 
----
+______________________________________________________________________
 
-# 5. Typed Inputs
+## 5. Typed Inputs
 
 ```yaml
 L01FailureInput:
@@ -383,9 +386,9 @@ L01FailureInput:
     type: DependencyGraph | null
 ```
 
----
+______________________________________________________________________
 
-# 6. Typed Outputs
+## 6. Typed Outputs
 
 ```yaml
 L01FailureOutput:
@@ -460,9 +463,9 @@ L01FailureOutput:
     type: list[Falsifier]
 ```
 
----
+______________________________________________________________________
 
-# 7. Failure State Variables
+## 7. Failure State Variables
 
 ```text
 F_id
@@ -510,9 +513,9 @@ T_F[
 ]
 ```
 
----
+______________________________________________________________________
 
-# 8. Failure Lifecycle
+## 8. Failure Lifecycle
 
 ```text
 NORMAL
@@ -554,9 +557,9 @@ IRRECOVERABLE_CURRENTLY
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 9. Failure Detection Operator
+## 9. Failure Detection Operator
 
 ```text
 DetectFailure(
@@ -576,9 +579,9 @@ DETECTED_ANOMALY
 ROOT_CAUSE
 ```
 
----
+______________________________________________________________________
 
-# 10. Failure Classification Operator
+## 10. Failure Classification Operator
 
 ```text
 ClassifyFailure(
@@ -598,9 +601,9 @@ CONDITIONAL
 
 when discriminating evidence is insufficient.
 
----
+______________________________________________________________________
 
-# 11. Failure Localization Operator
+## 11. Failure Localization Operator
 
 ```text
 LocalizeFailure(F)
@@ -621,9 +624,9 @@ FIRST_VISIBLE_FAILURE
 ROOT_CAUSE
 ```
 
----
+______________________________________________________________________
 
-# 12. Failure Containment Operator
+## 12. Failure Containment Operator
 
 ```text
 Contain(F)
@@ -639,9 +642,9 @@ Contain(F)
 
 Containment should minimize unnecessary invalidation.
 
----
+______________________________________________________________________
 
-# 13. Dependency Trace Operator
+## 13. Dependency Trace Operator
 
 ```text
 TraceDependents(F)
@@ -661,9 +664,9 @@ FAILED_PREMISE
 INVALIDATE_EVERYTHING
 ```
 
----
+______________________________________________________________________
 
-# 14. Reobservation Operator
+## 14. Reobservation Operator
 
 ```text
 Reobserve(
@@ -680,9 +683,9 @@ Reobservation creates a new observation state.
 
 It does not rewrite the historical observation.
 
----
+______________________________________________________________________
 
-# 15. Repair Operator
+## 15. Repair Operator
 
 ```text
 Repair(F)
@@ -698,9 +701,9 @@ REPAIR_PROPOSAL
 REPAIR_COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 16. Revalidation Operator
+## 16. Revalidation Operator
 
 ```text
 Revalidate(
@@ -719,9 +722,9 @@ REPAIR_SUCCESS
 REVALIDATION_SUCCESS
 ```
 
----
+______________________________________________________________________
 
-# 17. Core Failure Invariants
+## 17. Core Failure Invariants
 
 ## INV-F01 — Observation Failure Is Not Absence
 
@@ -843,9 +846,9 @@ MODEL_CONFIDENCE
 EVIDENCE_STRENGTH
 ```
 
----
+______________________________________________________________________
 
-# 18. Top-Level Failure Taxonomy
+## 18. Top-Level Failure Taxonomy
 
 ```text
 F01  TARGET / ENVIRONMENT FAILURE
@@ -929,9 +932,9 @@ F39  ADVERSARIAL / DECEPTIVE INPUT FAILURE
 F40  UNKNOWN / UNCLASSIFIED FAILURE
 ```
 
----
+______________________________________________________________________
 
-# 19. F01 — Target / Environment Failure
+## 19. F01 — Target / Environment Failure
 
 Occurs when the target environment itself cannot satisfy the assumed observation contract.
 
@@ -975,9 +978,9 @@ REOBSERVE
 QUARANTINE PRIOR OBSERVATION
 ```
 
----
+______________________________________________________________________
 
-# 20. F02 — Access / Addressability Failure
+## 20. F02 — Access / Addressability Failure
 
 Examples:
 
@@ -1015,9 +1018,9 @@ ESCALATE
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 21. F03 — Sensor / Tool Failure
+## 21. F03 — Sensor / Tool Failure
 
 Examples:
 
@@ -1047,9 +1050,9 @@ TOOL_FAILURE
 NEGATIVE_OBSERVATION
 ```
 
----
+______________________________________________________________________
 
-# 22. F04 — Channel / Modality Failure
+## 22. F04 — Channel / Modality Failure
 
 Examples:
 
@@ -1079,9 +1082,9 @@ reduce claim scope
 mark UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 23. F05 — Acquisition Failure
+## 23. F05 — Acquisition Failure
 
 Examples:
 
@@ -1113,9 +1116,9 @@ must remain distinguishable from:
 COMPLETE
 ```
 
----
+______________________________________________________________________
 
-# 24. F06 — Sampling / Coverage Failure
+## 24. F06 — Sampling / Coverage Failure
 
 Examples:
 
@@ -1145,9 +1148,9 @@ OBSERVED ABSENT
 
 A negative conclusion requires adequate coverage.
 
----
+______________________________________________________________________
 
-# 25. F07 — Measurement Failure
+## 25. F07 — Measurement Failure
 
 Examples:
 
@@ -1173,9 +1176,9 @@ MEASUREMENT
 UNDERLYING REALITY
 ```
 
----
+______________________________________________________________________
 
-# 26. F08 — Calibration Failure
+## 26. F08 — Calibration Failure
 
 Examples:
 
@@ -1203,9 +1206,9 @@ REOBSERVE
 QUARANTINE affected measurements
 ```
 
----
+______________________________________________________________________
 
-# 27. F09 — Typing / Schema Failure
+## 27. F09 — Typing / Schema Failure
 
 Examples:
 
@@ -1233,9 +1236,9 @@ TYPE_MISMATCH
 NO TRUSTED PROMOTION
 ```
 
----
+______________________________________________________________________
 
-# 28. F10 — Unit / Scale Failure
+## 28. F10 — Unit / Scale Failure
 
 Examples:
 
@@ -1261,9 +1264,9 @@ FAIL
 
 unless valid conversion occurs.
 
----
+______________________________________________________________________
 
-# 29. F11 — Normalization / Transformation Failure
+## 29. F11 — Normalization / Transformation Failure
 
 Examples:
 
@@ -1297,9 +1300,9 @@ reprocess
 compare transformed/raw representations
 ```
 
----
+______________________________________________________________________
 
-# 30. F12 — Temporal Failure
+## 30. F12 — Temporal Failure
 
 Examples:
 
@@ -1329,9 +1332,9 @@ RETRIEVAL_TIME
 
 unless explicitly established.
 
----
+______________________________________________________________________
 
-# 31. F13 — Freshness Failure
+## 31. F13 — Freshness Failure
 
 Examples:
 
@@ -1359,9 +1362,9 @@ UNKNOWN/GAP
 
 depending on decision relevance.
 
----
+______________________________________________________________________
 
-# 32. F14 — Scope Failure
+## 32. F14 — Scope Failure
 
 Examples:
 
@@ -1387,9 +1390,9 @@ VALID_IN_SCOPE_B
 
 without evidence supporting transfer.
 
----
+______________________________________________________________________
 
-# 33. F15 — Regime Failure
+## 33. F15 — Regime Failure
 
 Examples:
 
@@ -1413,9 +1416,9 @@ INVALIDATE REGIME-DEPENDENT DESCENDANTS
 REOBSERVE / REVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 34. F16 — Resolution Failure
+## 34. F16 — Resolution Failure
 
 Examples:
 
@@ -1439,9 +1442,9 @@ SUPPORTED_OBSERVATION_RESOLUTION
 
 unless a separately validated model supplies additional resolution.
 
----
+______________________________________________________________________
 
-# 35. F17 — Provenance Failure
+## 35. F17 — Provenance Failure
 
 Examples:
 
@@ -1471,9 +1474,9 @@ QUARANTINE
 
 when provenance is load-bearing.
 
----
+______________________________________________________________________
 
-# 36. F18 — Source Identity Failure
+## 36. F18 — Source Identity Failure
 
 Examples:
 
@@ -1503,9 +1506,9 @@ REBUILD ANCESTRY
 RECALCULATE DEPENDENT CONFIDENCE
 ```
 
----
+______________________________________________________________________
 
-# 37. F19 — Independence / Sybil Failure
+## 37. F19 — Independence / Sybil Failure
 
 Occurs when apparently distinct evidence sources share hidden ancestry.
 
@@ -1541,9 +1544,9 @@ recompute independent support count
 downgrade confidence where required
 ```
 
----
+______________________________________________________________________
 
-# 38. F20 — Quality Failure
+## 38. F20 — Quality Failure
 
 Dimensions may include:
 
@@ -1577,9 +1580,9 @@ HIGH QUALITY
 TRUE
 ```
 
----
+______________________________________________________________________
 
-# 39. F21 — Uncertainty Failure
+## 39. F21 — Uncertainty Failure
 
 Examples:
 
@@ -1613,9 +1616,9 @@ U[
 ]
 ```
 
----
+______________________________________________________________________
 
-# 40. F22 — Fusion Failure
+## 40. F22 — Fusion Failure
 
 Examples:
 
@@ -1643,9 +1646,9 @@ SEPARATE OBSERVATIONS
 TRANSLATE only with validated mapping
 ```
 
----
+______________________________________________________________________
 
-# 41. F23 — Conflict Failure
+## 41. F23 — Conflict Failure
 
 A conflict becomes a failure when the system:
 
@@ -1669,9 +1672,9 @@ Correct state may be:
 COMPETING
 ```
 
----
+______________________________________________________________________
 
-# 42. F24 — Epistemic Classification Failure
+## 42. F24 — Epistemic Classification Failure
 
 Examples:
 
@@ -1696,9 +1699,9 @@ EPISTEMIC CLASS
 MUST REMAIN EXPLICIT
 ```
 
----
+______________________________________________________________________
 
-# 43. F25 — Causal Overreach Failure
+## 43. F25 — Causal Overreach Failure
 
 Examples:
 
@@ -1720,9 +1723,9 @@ OBSERVATION
 CAUSAL PROOF
 ```
 
----
+______________________________________________________________________
 
-# 44. F26 — Agent Failure
+## 44. F26 — Agent Failure
 
 Examples:
 
@@ -1760,9 +1763,9 @@ PROVENANCE
 COMMUNICATION
 ```
 
----
+______________________________________________________________________
 
-# 45. F27 — Skill Failure
+## 45. F27 — Skill Failure
 
 Examples:
 
@@ -1788,9 +1791,9 @@ SKILL CAPABILITY
 CONTROL-PLANE AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 46. F28 — Workflow Failure
+## 46. F28 — Workflow Failure
 
 Examples:
 
@@ -1812,9 +1815,9 @@ commit occurs before validation
 
 Workflow state should fail closed on unresolved hard gates.
 
----
+______________________________________________________________________
 
-# 47. F29 — Protocol Failure
+## 47. F29 — Protocol Failure
 
 Examples:
 
@@ -1838,9 +1841,9 @@ provenance dropped in handoff
 
 Protocol failure must not silently mutate observation semantics.
 
----
+______________________________________________________________________
 
-# 48. F30 — Control-Plane Failure
+## 48. F30 — Control-Plane Failure
 
 Examples:
 
@@ -1860,9 +1863,9 @@ constraint enforcement missing
 
 This is a high-severity class because local cognition may appear correct while governance is invalid.
 
----
+______________________________________________________________________
 
-# 49. F31 — Authority Failure
+## 49. F31 — Authority Failure
 
 Examples:
 
@@ -1888,9 +1891,9 @@ CAPABILITY
 AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 50. F32 — Transaction / Commit Failure
+## 50. F32 — Transaction / Commit Failure
 
 Examples:
 
@@ -1920,9 +1923,9 @@ REVALIDATE
 REPROPOSE
 ```
 
----
+______________________________________________________________________
 
-# 51. F33 — Memory / Persistence Failure
+## 51. F33 — Memory / Persistence Failure
 
 Examples:
 
@@ -1948,9 +1951,9 @@ MEMORY RETRIEVAL
 NEW OBSERVATION
 ```
 
----
+______________________________________________________________________
 
-# 52. F34 — H/M/L Scale Failure
+## 52. F34 — H/M/L Scale Failure
 
 Examples:
 
@@ -1984,9 +1987,9 @@ L → H
 
 requires explicit aggregation evidence.
 
----
+______________________________________________________________________
 
-# 53. F35 — Dependency / Invalidation Failure
+## 53. F35 — Dependency / Invalidation Failure
 
 Two major forms:
 
@@ -2008,9 +2011,9 @@ INVALIDATE(load-bearing descendants(p))
 
 while preserving independent state.
 
----
+______________________________________________________________________
 
-# 54. F36 — Repair Failure
+## 54. F36 — Repair Failure
 
 Examples:
 
@@ -2036,9 +2039,9 @@ REPAIR
 MAKE TEST GREEN AT ANY COST
 ```
 
----
+______________________________________________________________________
 
-# 55. F37 — Revalidation Failure
+## 55. F37 — Revalidation Failure
 
 Examples:
 
@@ -2056,9 +2059,9 @@ cross-scale effects ignored
 
 Repair remains incomplete until required revalidation succeeds.
 
----
+______________________________________________________________________
 
-# 56. F38 — Observability Failure
+## 56. F38 — Observability Failure
 
 Some failures may exist but be undetectable with current instrumentation.
 
@@ -2078,9 +2081,9 @@ NO DETECTED FAILURE
 NO FAILURE
 ```
 
----
+______________________________________________________________________
 
-# 57. F39 — Adversarial / Deceptive Input Failure
+## 57. F39 — Adversarial / Deceptive Input Failure
 
 Examples:
 
@@ -2116,9 +2119,9 @@ PROVENANCE ROOT CHECK
 AUTHORITY ESCALATION
 ```
 
----
+______________________________________________________________________
 
-# 58. F40 — Unknown / Unclassified Failure
+## 58. F40 — Unknown / Unclassified Failure
 
 When evidence establishes that something is wrong but the class is unresolved:
 
@@ -2135,9 +2138,9 @@ UNKNOWN ROOT CAUSE
 NO ROOT CAUSE
 ```
 
----
+______________________________________________________________________
 
-# 59. Severity Model
+## 59. Severity Model
 
 ```yaml
 severity:
@@ -2172,9 +2175,9 @@ Severity must be evidence-based.
 
 It must not be inferred solely from dramatic appearance.
 
----
+______________________________________________________________________
 
-# 60. Failure Impact Tensor
+## 60. Failure Impact Tensor
 
 ```text
 T_Impact[
@@ -2191,9 +2194,9 @@ T_Impact[
 ]
 ```
 
----
+______________________________________________________________________
 
-# 61. Recoverability Tensor
+## 61. Recoverability Tensor
 
 ```text
 T_Recovery[
@@ -2210,9 +2213,9 @@ T_Recovery[
 ]
 ```
 
----
+______________________________________________________________________
 
-# 62. H/M/L Applicability
+## 62. H/M/L Applicability
 
 ## L — Local
 
@@ -2264,9 +2267,9 @@ cross-agent sensing state
 governed cognitive state
 ```
 
----
+______________________________________________________________________
 
-# 63. H/M/L Propagation Rule
+## 63. H/M/L Propagation Rule
 
 A local failure propagates upward only through demonstrated dependencies.
 
@@ -2296,9 +2299,9 @@ LOCAL FAILURE
 SYSTEM FAILURE
 ```
 
----
+______________________________________________________________________
 
-# 64. Cross-Scale Failure Tensor
+## 64. Cross-Scale Failure Tensor
 
 ```text
 T_HML_F[
@@ -2313,9 +2316,9 @@ T_HML_F[
 ]
 ```
 
----
+______________________________________________________________________
 
-# 65. Control-Plane Requirements
+## 65. Control-Plane Requirements
 
 The control plane must be able to represent:
 
@@ -2369,9 +2372,9 @@ restore
 preserve history
 ```
 
----
+______________________________________________________________________
 
-# 66. Fail-Closed Conditions
+## 66. Fail-Closed Conditions
 
 Trusted use should fail closed when any load-bearing field is unresolved:
 
@@ -2407,9 +2410,9 @@ or:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 67. Agents
+## 67. Agents
 
 Candidate logical roles:
 
@@ -2439,9 +2442,9 @@ These are architectural roles.
 
 They are not claims that corresponding executable autonomous agents currently exist.
 
----
+______________________________________________________________________
 
-# 68. Agent Failure Contract
+## 68. Agent Failure Contract
 
 Each agent should expose:
 
@@ -2471,9 +2474,9 @@ agent_failure_contract:
   rollback_support:
 ```
 
----
+______________________________________________________________________
 
-# 69. Skills
+## 69. Skills
 
 Candidate relevant capability classes include:
 
@@ -2521,9 +2524,9 @@ SKILL OUTPUT
 COMMITTED STATE
 ```
 
----
+______________________________________________________________________
 
-# 70. Workflows
+## 70. Workflows
 
 Canonical failure workflow:
 
@@ -2557,9 +2560,9 @@ REVALIDATE
 RESTORE / QUARANTINE
 ```
 
----
+______________________________________________________________________
 
-# 71. Cheap Discriminating Evidence First
+## 71. Cheap Discriminating Evidence First
 
 When several failure hypotheses compete:
 
@@ -2591,9 +2594,9 @@ argmax(
 
 This is an `AMOS_MODEL` decision heuristic.
 
----
+______________________________________________________________________
 
-# 72. Protocols
+## 72. Protocols
 
 Failure protocol payload:
 
@@ -2635,9 +2638,9 @@ L01FailureMessage:
   falsifiers: []
 ```
 
----
+______________________________________________________________________
 
-# 73. Protocol Invariants
+## 73. Protocol Invariants
 
 ```text
 failure messages preserve provenance
@@ -2657,9 +2660,9 @@ version mismatches are surfaced
 UNKNOWN fields remain UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 74. Evidence / Provenance
+## 74. Evidence / Provenance
 
 Every material failure claim should carry:
 
@@ -2701,9 +2704,9 @@ FailureEvidence:
   confidence_ceiling:
 ```
 
----
+______________________________________________________________________
 
-# 75. Failure Provenance Graph
+## 75. Failure Provenance Graph
 
 ```text
 Observation
@@ -2727,9 +2730,9 @@ Revalidation
 
 Each edge should remain traceable.
 
----
+______________________________________________________________________
 
-# 76. Competing Failure Hypotheses
+## 76. Competing Failure Hypotheses
 
 Example:
 
@@ -2755,9 +2758,9 @@ competing:
 
 Do not force convergence until discriminating evidence exists.
 
----
+______________________________________________________________________
 
-# 77. Confidence Ceiling
+## 77. Confidence Ceiling
 
 For failure conclusion `F`:
 
@@ -2788,9 +2791,9 @@ Conf(root_cause = sensor) = low
 
 These must remain separate.
 
----
+______________________________________________________________________
 
-# 78. Uncertainty Vector
+## 78. Uncertainty Vector
 
 Material failure analysis should distinguish:
 
@@ -2814,9 +2817,9 @@ U_repair
 
 Do not collapse these dimensions unless a justified aggregation model exists.
 
----
+______________________________________________________________________
 
-# 79. Premature Closure Failure
+## 79. Premature Closure Failure
 
 A special metacognitive failure occurs when:
 
@@ -2852,9 +2855,9 @@ ESCALATE
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 80. Hidden-Assumption Failure
+## 80. Hidden-Assumption Failure
 
 Examples:
 
@@ -2884,9 +2887,9 @@ made explicit
 or converted to uncertainty
 ```
 
----
+______________________________________________________________________
 
-# 81. Contradiction Suppression Failure
+## 81. Contradiction Suppression Failure
 
 Occurs when conflicting observations are silently reconciled.
 
@@ -2908,9 +2911,9 @@ CHECK METHOD
 SEEK DISCRIMINATING EVIDENCE
 ```
 
----
+______________________________________________________________________
 
-# 82. Failure Propagation
+## 82. Failure Propagation
 
 Let:
 
@@ -2936,9 +2939,9 @@ Invalidate(Affected(p))
 
 Independent branches remain valid.
 
----
+______________________________________________________________________
 
-# 83. Selective Invalidation
+## 83. Selective Invalidation
 
 Example:
 
@@ -2952,9 +2955,9 @@ Observation O1 fails
 
 This prevents both contamination and unnecessary recomputation.
 
----
+______________________________________________________________________
 
-# 84. Failure Containment States
+## 84. Failure Containment States
 
 ```text
 NONE
@@ -2978,9 +2981,9 @@ ESCALATE
 
 Containment strength should track actual risk and dependency impact.
 
----
+______________________________________________________________________
 
-# 85. Repair / Recovery
+## 85. Repair / Recovery
 
 Canonical recovery sequence:
 
@@ -3012,9 +3015,9 @@ CHECK REGRESSION
 RESTORE TRUSTED USE
 ```
 
----
+______________________________________________________________________
 
-# 86. Minimal Repair Principle
+## 86. Minimal Repair Principle
 
 Repair should target the smallest causal component supported by evidence.
 
@@ -3028,9 +3031,9 @@ when local repair is sufficient.
 
 This preserves unaffected valid state.
 
----
+______________________________________________________________________
 
-# 87. Repair Must Not Hide Evidence
+## 87. Repair Must Not Hide Evidence
 
 Prohibited repair:
 
@@ -3050,9 +3053,9 @@ change expected result to match output
 
 Repair should preserve failure history.
 
----
+______________________________________________________________________
 
-# 88. Reobservation After Repair
+## 88. Reobservation After Repair
 
 Where the failure affected acquisition:
 
@@ -3064,9 +3067,9 @@ REOBSERVE
 
 A repaired sensor does not retroactively validate its prior measurements.
 
----
+______________________________________________________________________
 
-# 89. Revalidation After Repair
+## 89. Revalidation After Repair
 
 Required checks may include:
 
@@ -3096,9 +3099,9 @@ confidence ceiling
 authority
 ```
 
----
+______________________________________________________________________
 
-# 90. Rollback
+## 90. Rollback
 
 If repair worsens the state:
 
@@ -3120,9 +3123,9 @@ version lineage
 affected outputs
 ```
 
----
+______________________________________________________________________
 
-# 91. Failed Repair
+## 91. Failed Repair
 
 If repair does not restore validity:
 
@@ -3150,9 +3153,9 @@ QUARANTINE
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 92. Recovery Without Root Cause
+## 92. Recovery Without Root Cause
 
 Some failures may be operationally recoverable without definitive root-cause identification.
 
@@ -3172,9 +3175,9 @@ UNKNOWN
 
 Do not falsely promote operational recovery to causal explanation.
 
----
+______________________________________________________________________
 
-# 93. Tests / Validators
+## 93. Tests / Validators
 
 Minimum validator set:
 
@@ -3236,9 +3239,9 @@ VALIDATOR_REPAIR
 VALIDATOR_REVALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 94. Minimum Failure Tests
+## 94. Minimum Failure Tests
 
 ```text
 TEST_F001
@@ -3332,9 +3335,9 @@ TEST_F030
 failure detector itself can return UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 95. Validator Output
+## 95. Validator Output
 
 ```yaml
 FailureValidationResult:
@@ -3363,9 +3366,9 @@ FailureValidationResult:
   confidence_ceiling:
 ```
 
----
+______________________________________________________________________
 
-# 96. Meta-Validation
+## 96. Meta-Validation
 
 Failure detectors themselves may fail.
 
@@ -3397,9 +3400,9 @@ coverage
 calibration where applicable
 ```
 
----
+______________________________________________________________________
 
-# 97. Falsifiers
+## 97. Falsifiers
 
 This failure architecture is materially falsified or requires revision if authoritative canon or validated implementation establishes that:
 
@@ -3427,9 +3430,9 @@ selective invalidation cannot preserve integrity
 the proposed failure lifecycle is incompatible with runtime semantics
 ```
 
----
+______________________________________________________________________
 
-# 98. Runtime Falsifiers
+## 98. Runtime Falsifiers
 
 An implementation violates this contract if it:
 
@@ -3475,9 +3478,9 @@ repeats failed repair without changed evidence
 claims causal root cause from anomaly alone
 ```
 
----
+______________________________________________________________________
 
-# 99. Gap Status
+## 99. Gap Status
 
 ```yaml
 gap_status:
@@ -3531,9 +3534,9 @@ gap_status:
     - diagram formatting
 ```
 
----
+______________________________________________________________________
 
-# 100. Failure Registry
+## 100. Failure Registry
 
 ```yaml
 failure_registry:
@@ -3659,9 +3662,9 @@ failure_registry:
     name: UNKNOWN_UNCLASSIFIED_FAILURE
 ```
 
----
+______________________________________________________________________
 
-# 101. RSCF Completion State
+## 101. RSCF Completion State
 
 ```yaml
 rscf:
@@ -3764,9 +3767,9 @@ rscf:
     and operational recovery evidence remain unresolved
 ```
 
----
+______________________________________________________________________
 
-# 102. Completion State
+## 102. Completion State
 
 ```yaml
 completion_state:
@@ -3847,9 +3850,9 @@ completion_state:
     AMOS_MODEL / CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
-# 103. Hard Boundaries
+## 103. Hard Boundaries
 
 ```text
 PLACEHOLDER
@@ -3941,9 +3944,9 @@ NO_DETECTED_FAILURE
 NO_FAILURE
 ```
 
----
+______________________________________________________________________
 
-# 104. Final Failure Contract
+## 104. Final Failure Contract
 
 The core L01 failure relation is:
 
@@ -4079,29 +4082,33 @@ Until direct authoritative L01 failure canon, executable failure detectors, empi
 AMOS_MODEL / CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · L01_SENSING_OBSERVATION — HML · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · L01_SENSING_OBSERVATION — RSCF · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[00_ROOT/00_HOME|00_HOME]] · 06-Knowledge-Base-MOC
 
 ```
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: l01_sensing_observation_primitives_cognitive_matrix_failure_modes
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_FAILURE_MODES.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_MOC|L01_SENSING_OBSERVATION_MOC]]

@@ -74,7 +74,7 @@
     "mckinsey-technology-product-governance-rscf"
   ],
   "depends_on_workflows": [
-    "mckinsey-technology-product-governance-rscf-workflow.md"
+    "amos-mckinsey-technology-product-governance-rscf-workflow.md"
   ],
   "epistemic_class": "AMOS_MODEL",
   "claim_ceiling": 0.95,

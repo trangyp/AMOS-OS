@@ -94,7 +94,7 @@
     "pdfs"
   ],
   "depends_on_workflows": [
-    "pdfs-workflow.md"
+    "amos-pdfs-workflow.md"
   ],
   "epistemic_class": "AMOS_MODEL",
   "claim_ceiling": 0.95,

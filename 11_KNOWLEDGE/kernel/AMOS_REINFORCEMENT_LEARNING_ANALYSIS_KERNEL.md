@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: AMOS REINFORCEMENT LEARNING ANALYSIS KERNEL V0 MACHINE ARCHITECTURE4 2
 tags:
-- canon-group/biology
-- canon/framework
-- rscf/claim
-- rscf/provenance
-- rscf/state/source-claim
-- topic/amos-reinforcement-learning-analysis-ker
-- kernel
+  - canon-group/biology
+  - canon/framework
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - topic/amos-reinforcement-learning-analysis-ker
+  - kernel
 type: data
 source: 11_KNOWLEDGE/kernel
 rscf:
@@ -74,6 +77,6 @@ rscf:
 **Related:** [[11_KNOWLEDGE/kernel/AMOS_MEDICAL_CLINICAL_KERNEL|AMOS_MEDICAL_CLINICAL_KERNEL]] · [[11_KNOWLEDGE/kernel/AMOS_CLINICAL_RESEARCH_KERNEL|AMOS_CLINICAL_RESEARCH_KERNEL]] · [[11_KNOWLEDGE/kernel/TECH_SYSTEMS_PRODUCT_MANAGEMENT_KERNEL|TECH_SYSTEMS_PRODUCT_MANAGEMENT_KERNEL]] · [[11_KNOWLEDGE/kernel/AMOS_PSYCHOLOGY_DECISION_KERNEL|AMOS_PSYCHOLOGY_DECISION_KERNEL]]
 ```
 
----
-**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]
+______________________________________________________________________
 
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]

@@ -12,26 +12,26 @@ segment: 25_COGNITIVE_MATRIX/10_ROUTING
 artifact_kind: RULE
 path: 25_COGNITIVE_MATRIX/10_ROUTING/BINDING_RULES.md
 tags:
-- 10_routing
-- AMOS
-- AMOS_CORE
-- AMOS_CORE_v4_4
-- AMOS_OS
-- BINDING_RULES
-- COGNITIVE_MATRIX
-- ROUTING
-- amos-os
-- binding
-- domain/cognitive-matrix
-- canon/universe
-- cognitive-matrix
-- matrix
-- routing
-- rscf
-- rule
-- rules
-- identity: -None
-- placeholder_expanded
+  - 10_routing
+  - AMOS
+  - AMOS_CORE
+  - AMOS_CORE_v4_4
+  - AMOS_OS
+  - BINDING_RULES
+  - COGNITIVE_MATRIX
+  - ROUTING
+  - amos-os
+  - binding
+  - domain/cognitive-matrix
+  - canon/universe
+  - cognitive-matrix
+  - matrix
+  - routing
+  - rscf
+  - rule
+  - rules
+  - identity: -None
+  - placeholder_expanded
 version: 0.2.0
 updated: '2026-08-27'
 status: PLACEHOLDER_EXPANDED
@@ -108,7 +108,7 @@ Origin architect / steward: **Trang Phan**
 
 System: **AMOS OS**
 
----
+______________________________________________________________________
 
 # 10_ROUTING — Binding Rules
 
@@ -121,15 +121,15 @@ System: **AMOS OS**
 > **Conclusion class:** `UNKNOWN/GAP`
 >
 > **AMOS_CORE target:** `v4.4`
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
----
+> rscf:
+> state: DERIVED
+> claim_class: DERIVED
+> provenance: AMOS_corpus
+> scope: AMOS_general
 
+______________________________________________________________________
 
-# 0. Purpose
+## 0. Purpose
 
 `BINDING_RULES.md` defines the AMOS contract for determining **what may bind to what, under which scope, version, mode, regime, authority, provenance, capability, and dependency conditions** inside `10_ROUTING`.
 
@@ -156,9 +156,9 @@ EXECUTION_AUTHORIZED
 
 The routing layer must not silently transform selection into authority.
 
----
+______________________________________________________________________
 
-# 1. Core routing law
+## 1. Core routing law
 
 The primary routing law is:
 
@@ -189,46 +189,46 @@ ACTIVE
 != AUTHORIZED_FOR_THIS_REQUEST
 ```
 
----
+______________________________________________________________________
 
-# 2. Routing versus binding
+## 2. Routing versus binding
 
 Define routing:
 
-[
+\[
 R(q,C)
-\rightarrow
-{c_1,c_2,\dots,c_n}
-]
+\\rightarrow
+{c_1,c_2,\\dots,c_n}
+\]
 
 where:
 
 - (q) = request/query/task;
-- \(C\) = candidate component set.
+- (C) = candidate component set.
 
 Define binding:
 
-[
-B(q,c^*,ctx)
-\rightarrow
+\[
+B(q,c^\*,ctx)
+\\rightarrow
 BindingRecord
-]
+\]
 
-where (c^*) is the selected candidate after compatibility checks.
+where (c^\*) is the selected candidate after compatibility checks.
 
 Routing may return multiple candidates.
 
 Binding must bind one exact identity or explicitly preserve ambiguity.
 
----
+______________________________________________________________________
 
-# 3. Binding object
+## 3. Binding object
 
 A binding is modeled as:
 
-[
+\[
 B=
-\langle
+\\langle
 Request,
 Target,
 Role,
@@ -243,8 +243,8 @@ Dependencies,
 Provenance,
 Freshness,
 State
-\rangle
-]
+\\rangle
+\]
 
 A valid binding must be explicit enough to answer:
 
@@ -263,9 +263,9 @@ Can the route be replayed?
 What invalidates it?
 ```
 
----
+______________________________________________________________________
 
-# 4. Binding targets
+## 4. Binding targets
 
 Routing may bind requests to:
 
@@ -294,9 +294,9 @@ Fallback path
 
 Presence in this list does not assert that all these bindings are implemented.
 
----
+______________________________________________________________________
 
-# 5. Binding classes
+## 5. Binding classes
 
 ```yaml
 binding_classes:
@@ -345,9 +345,9 @@ binding_classes:
       routing_cannot_create_authority: true
 ```
 
----
+______________________________________________________________________
 
-# 6. Routing lifecycle
+## 6. Routing lifecycle
 
 ```text
 REQUEST_RECEIVED
@@ -390,9 +390,9 @@ AUTHORITY_REQUIRED
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 7. Binding lifecycle
+## 7. Binding lifecycle
 
 ```text
 UNBOUND
@@ -423,9 +423,9 @@ AUTHORITY_BOUND
 → EXECUTION_ELIGIBLE
 ```
 
----
+______________________________________________________________________
 
-# 8. Typed routing request
+## 8. Typed routing request
 
 ```yaml
 routing_request:
@@ -476,9 +476,9 @@ routing_request:
     allowed: true
 ```
 
----
+______________________________________________________________________
 
-# 9. Typed routing output
+## 9. Typed routing output
 
 ```yaml
 routing_decision:
@@ -522,9 +522,9 @@ routing_decision:
   confidence_ceiling: 0
 ```
 
----
+______________________________________________________________________
 
-# 10. Binding record
+## 10. Binding record
 
 ```yaml
 binding_record:
@@ -586,9 +586,9 @@ binding_record:
     UNVALIDATED_BINDING
 ```
 
----
+______________________________________________________________________
 
-# 11. Binding state variables
+## 11. Binding state variables
 
 ```yaml
 routing_state:
@@ -632,9 +632,9 @@ routing_state:
     fallback_available: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 12. Routing operators
+## 12. Routing operators
 
 Candidate operators:
 
@@ -669,9 +669,9 @@ resolve_fallback()
 
 These are contract-level placeholders until actual implementation is recovered.
 
----
+______________________________________________________________________
 
-# 13. Core binding invariants
+## 13. Core binding invariants
 
 ## I-BIND-001 — Exact identity
 
@@ -774,9 +774,9 @@ UNKNOWN/GAP != PASS
 
 Every binding should define what state changes invalidate it.
 
----
+______________________________________________________________________
 
-# 14. Route ranking law
+## 14. Route ranking law
 
 Ranking must only occur after hard compatibility filtering.
 
@@ -801,15 +801,13 @@ RANK EVERYTHING
 
 Hard gates override scores.
 
----
+______________________________________________________________________
 
-# 15. Candidate score
+## 15. Candidate score
 
 A provisional score may be:
 
-[
-Score(c)
-========
+## \[ Score(c)
 
 w_1 Specificity
 +w_2 CapabilityFit
@@ -818,7 +816,7 @@ w_1 Specificity
 +w_5 Validity
 +w_6 DependencyFit
 -w_7 Risk
-]
+\]
 
 But:
 
@@ -830,9 +828,9 @@ hard invariant failure
 
 Weights are `UNKNOWN/GAP` until authoritative routing canon exists.
 
----
+______________________________________________________________________
 
-# 16. Specificity precedence
+## 16. Specificity precedence
 
 Candidate preference may follow:
 
@@ -850,9 +848,9 @@ provided every candidate is valid.
 
 This prevents default capture.
 
----
+______________________________________________________________________
 
-# 17. Explicit binding
+## 17. Explicit binding
 
 If a request says:
 
@@ -875,9 +873,9 @@ not:
 
 unless the request explicitly permits fallback.
 
----
+______________________________________________________________________
 
-# 18. Implicit binding
+## 18. Implicit binding
 
 If no explicit candidate is requested, router may select among compatible candidates.
 
@@ -891,9 +889,9 @@ why others were rejected
 
 for audit/replay.
 
----
+______________________________________________________________________
 
-# 19. Default fallback rule
+## 19. Default fallback rule
 
 Default fallback may only be used when:
 
@@ -906,9 +904,9 @@ AND fallback scope is valid
 
 Default is not a universal handler.
 
----
+______________________________________________________________________
 
-# 20. Ambiguity rule
+## 20. Ambiguity rule
 
 If:
 
@@ -935,9 +933,9 @@ apply explicit policy tie-breaker
 
 Registration order is not a valid tie-breaker unless canon explicitly says so.
 
----
+______________________________________________________________________
 
-# 21. H/M/L routing applicability
+## 21. H/M/L routing applicability
 
 ## H — Governance / strategic routing
 
@@ -977,9 +975,9 @@ specific handlers
 local state shards
 ```
 
----
+______________________________________________________________________
 
-# 22. Recursive routing
+## 22. Recursive routing
 
 Each level may route recursively.
 
@@ -993,9 +991,9 @@ L capability router
 
 AMOS should retrieve/select only the dependency path needed to materially change the outcome.
 
----
+______________________________________________________________________
 
-# 23. Scope routing
+## 23. Scope routing
 
 A route must bind its applicability envelope.
 
@@ -1011,9 +1009,9 @@ binding_scope:
 
 No silent cross-domain routing.
 
----
+______________________________________________________________________
 
-# 24. Regime routing
+## 24. Regime routing
 
 Mode/component selection may depend on regime.
 
@@ -1027,9 +1025,9 @@ regime shift
 
 A route itself inherits regime validity.
 
----
+______________________________________________________________________
 
-# 25. Freshness routing
+## 25. Freshness routing
 
 Candidates may have different freshness requirements.
 
@@ -1043,9 +1041,9 @@ freshness:
 
 No universal freshness threshold should be invented.
 
----
+______________________________________________________________________
 
-# 26. Policy binding
+## 26. Policy binding
 
 Every governed route should bind the policy epoch used for selection.
 
@@ -1058,9 +1056,9 @@ policy_binding:
 
 If the policy epoch changes, dependent bindings may become stale.
 
----
+______________________________________________________________________
 
-# 27. Authority binding
+## 27. Authority binding
 
 Routing may identify that authority is required.
 
@@ -1076,9 +1074,9 @@ Control plane
 
 Binding record may reference an authority grant only after that grant exists.
 
----
+______________________________________________________________________
 
-# 28. Authority specificity
+## 28. Authority specificity
 
 Authority must bind:
 
@@ -1093,9 +1091,9 @@ delegate
 
 A generic capability token should not authorize unrelated routes.
 
----
+______________________________________________________________________
 
-# 29. Agent binding
+## 29. Agent binding
 
 An Agent binding should include:
 
@@ -1114,9 +1112,9 @@ agent_binding:
 
 Agent selection is cognition routing, not effect authority.
 
----
+______________________________________________________________________
 
-# 30. Skill binding
+## 30. Skill binding
 
 ```yaml
 skill_binding:
@@ -1132,22 +1130,20 @@ Skill binding must not weaken worker requirements.
 
 Required invariant composition should be monotonic:
 
-[
-I_{effective}
-=============
+## \[ I\_{effective}
 
-I_{skill}
-\cup
-I_{worker}
-\cup
-I_{policy}
-]
+I\_{skill}
+\\cup
+I\_{worker}
+\\cup
+I\_{policy}
+\]
 
 not replacement.
 
----
+______________________________________________________________________
 
-# 31. Engine binding
+## 31. Engine binding
 
 Engine binding should identify:
 
@@ -1163,9 +1159,9 @@ input/output contract
 
 An engine may compute but does not receive world-effect authority automatically.
 
----
+______________________________________________________________________
 
-# 32. Kernel binding
+## 32. Kernel binding
 
 Kernel routing should prefer exact deterministic contracts.
 
@@ -1179,9 +1175,9 @@ invariant set
 
 Kernel binding should minimize ambiguity.
 
----
+______________________________________________________________________
 
-# 33. Worker binding
+## 33. Worker binding
 
 Worker binding has higher burden.
 
@@ -1198,9 +1194,9 @@ worker_binding:
 
 A Worker may execute only when infrastructure grants the appropriate authority.
 
----
+______________________________________________________________________
 
-# 34. Validator binding
+## 34. Validator binding
 
 Validator selection must bind:
 
@@ -1215,9 +1211,9 @@ contract hash
 
 A validator that cannot handle the target must not be selected by convenience.
 
----
+______________________________________________________________________
 
-# 35. Generator binding
+## 35. Generator binding
 
 Generator selection must bind:
 
@@ -1232,9 +1228,9 @@ policy
 
 Generator availability does not permit self-promotion.
 
----
+______________________________________________________________________
 
-# 36. Mode binding
+## 36. Mode binding
 
 Mode binding should answer:
 
@@ -1260,9 +1256,9 @@ mode_binding:
   valid_until: null
 ```
 
----
+______________________________________________________________________
 
-# 37. Mode-family conflicts
+## 37. Mode-family conflicts
 
 If two mutually exclusive modes both match:
 
@@ -1272,9 +1268,9 @@ COMPETING_MODE_BINDING
 
 unless policy explicitly resolves precedence.
 
----
+______________________________________________________________________
 
-# 38. Workflow binding
+## 38. Workflow binding
 
 Workflow routing should distinguish:
 
@@ -1300,9 +1296,9 @@ governed per consequential event
 
 Do not force all agent plans into canonical workflow bindings.
 
----
+______________________________________________________________________
 
-# 39. Event-handler binding
+## 39. Event-handler binding
 
 Event routing must match:
 
@@ -1317,9 +1313,9 @@ idempotency semantics
 
 Receiving an event does not create authority.
 
----
+______________________________________________________________________
 
-# 40. Evidence binding
+## 40. Evidence binding
 
 Evidence routing must preserve source type.
 
@@ -1334,9 +1330,9 @@ UNKNOWN
 
 Binding multiple descendants from one ancestry must not create false independence.
 
----
+______________________________________________________________________
 
-# 41. Provenance binding
+## 41. Provenance binding
 
 For each bound source:
 
@@ -1349,9 +1345,9 @@ provenance_binding:
   freshness: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 42. Data binding
+## 42. Data binding
 
 Data sources should bind:
 
@@ -1367,9 +1363,9 @@ privacy/access constraints
 
 A route cannot assume data access merely because a source is relevant.
 
----
+______________________________________________________________________
 
-# 43. Schema binding
+## 43. Schema binding
 
 Schema binding should be exact.
 
@@ -1382,9 +1378,9 @@ schema_binding:
 
 Silent schema substitution is prohibited.
 
----
+______________________________________________________________________
 
-# 44. Protocol binding
+## 44. Protocol binding
 
 Protocol selection may depend on:
 
@@ -1400,9 +1396,9 @@ idempotency
 
 Protocol availability is not authority.
 
----
+______________________________________________________________________
 
-# 45. Control-plane requirements
+## 45. Control-plane requirements
 
 The routing layer should remain below infrastructure authority.
 
@@ -1424,9 +1420,9 @@ Worker/effect
 
 Routing must not short-circuit this path.
 
----
+______________________________________________________________________
 
-# 46. Routing fast path
+## 46. Routing fast path
 
 AMOS v4.4-style fast path may be used only when:
 
@@ -1444,9 +1440,9 @@ no authority-sensitive change
 
 Then the existing binding may be reused.
 
----
+______________________________________________________________________
 
-# 47. Fast-path invalidation
+## 47. Fast-path invalidation
 
 Rebind when:
 
@@ -1462,9 +1458,9 @@ authority requirement changed
 conflict introduced
 ```
 
----
+______________________________________________________________________
 
-# 48. MVCC binding model
+## 48. MVCC binding model
 
 Conceptually:
 
@@ -1481,9 +1477,9 @@ If registry state changed:
 STALE_BINDING
 ```
 
----
+______________________________________________________________________
 
-# 49. Binding read set
+## 49. Binding read set
 
 ```yaml
 binding_read_set:
@@ -1509,26 +1505,22 @@ binding_read_set:
     load_bearing: true
 ```
 
----
+______________________________________________________________________
 
-# 50. Binding CAS rule
+## 50. Binding CAS rule
 
-[
-BindingCommitAllowed
-\Rightarrow
-CurrentReadSet
-==============
+## \[ BindingCommitAllowed \\Rightarrow CurrentReadSet
 
 ObservedReadSet
-]
+\]
 
 where applicable.
 
 This is a conceptual AMOS_CORE-style state discipline, not proof that the current routing implementation has MVCC.
 
----
+______________________________________________________________________
 
-# 51. Route cache
+## 51. Route cache
 
 Cached routes may be reused only within their declared validity envelope.
 
@@ -1543,9 +1535,9 @@ route_cache:
 
 A cached route that outlives one load-bearing dependency becomes stale.
 
----
+______________________________________________________________________
 
-# 52. Dependency binding
+## 52. Dependency binding
 
 Dependencies should be typed:
 
@@ -1560,9 +1552,9 @@ GOVERNED_BY
 VALIDATED_BY
 ```
 
----
+______________________________________________________________________
 
-# 53. Dependency compatibility
+## 53. Dependency compatibility
 
 A candidate with incompatible load-bearing dependencies is not routable.
 
@@ -1576,9 +1568,9 @@ Runtime only supports schema v2
 
 No silent downgrade.
 
----
+______________________________________________________________________
 
-# 54. Optional dependency semantics
+## 54. Optional dependency semantics
 
 Optional does not mean invisible.
 
@@ -1591,9 +1583,9 @@ effect on output?
 fallback behavior?
 ```
 
----
+______________________________________________________________________
 
-# 55. Fallback binding
+## 55. Fallback binding
 
 A fallback route should declare:
 
@@ -1608,9 +1600,9 @@ fallback:
 
 A fallback that changes semantics must be explicit.
 
----
+______________________________________________________________________
 
-# 56. Degraded mode
+## 56. Degraded mode
 
 If the ideal route is unavailable, route may enter:
 
@@ -1622,9 +1614,9 @@ only when policy permits and user/system requirements still remain valid.
 
 Degraded mode should expose lost guarantees.
 
----
+______________________________________________________________________
 
-# 57. No-route semantics
+## 57. No-route semantics
 
 If no valid route exists:
 
@@ -1636,9 +1628,9 @@ is a legitimate result.
 
 Do not invent a generic route merely to preserve fluency.
 
----
+______________________________________________________________________
 
-# 58. Conflict semantics
+## 58. Conflict semantics
 
 Potential conflicts:
 
@@ -1655,9 +1647,9 @@ worker effect mismatch
 
 Conflict must remain visible.
 
----
+______________________________________________________________________
 
-# 59. Tie-breakers
+## 59. Tie-breakers
 
 Allowed tie-breakers require explicit governance.
 
@@ -1682,30 +1674,30 @@ random first result
 
 unless explicitly designed.
 
----
+______________________________________________________________________
 
-# 60. Routing confidence
+## 60. Routing confidence
 
 Route confidence should represent routing evidence only.
 
-[
-C_{route}
-\le
-\min(
-C_{identity},
-C_{capability},
-C_{scope},
-C_{dependency},
-C_{policy},
-C_{freshness}
+\[
+C\_{route}
+\\le
+\\min(
+C\_{identity},
+C\_{capability},
+C\_{scope},
+C\_{dependency},
+C\_{policy},
+C\_{freshness}
 )
-]
+\]
 
 It must not be confused with truth confidence of the target component's output.
 
----
+______________________________________________________________________
 
-# 61. Routing uncertainty vector
+## 61. Routing uncertainty vector
 
 ```yaml
 routing_uncertainty:
@@ -1722,9 +1714,9 @@ routing_uncertainty:
 
 Spend additional routing effort only where uncertainty can change the selected path.
 
----
+______________________________________________________________________
 
-# 62. Routing agents
+## 62. Routing agents
 
 Possible roles:
 
@@ -1760,9 +1752,9 @@ Proposes safe fallback.
 
 No routing agent can authorize world effects.
 
----
+______________________________________________________________________
 
-# 63. Routing Skills
+## 63. Routing Skills
 
 Possible Skills:
 
@@ -1785,9 +1777,9 @@ resolve-fallback
 invalidate-binding
 ```
 
----
+______________________________________________________________________
 
-# 64. Routing Engine
+## 64. Routing Engine
 
 Possible routing engines:
 
@@ -1802,9 +1794,9 @@ Conflict Routing Engine
 
 These are provisional architectural roles.
 
----
+______________________________________________________________________
 
-# 65. Routing kernels
+## 65. Routing kernels
 
 Candidate deterministic primitives:
 
@@ -1823,9 +1815,9 @@ detect_ambiguity()
 validate_binding_hash()
 ```
 
----
+______________________________________________________________________
 
-# 66. Worker routing
+## 66. Worker routing
 
 Effect-producing worker selection should happen only after capability and governance checks.
 
@@ -1838,9 +1830,9 @@ proposal
 → worker binding
 ```
 
----
+______________________________________________________________________
 
-# 67. Agent/Worker separation
+## 67. Agent/Worker separation
 
 Hard boundary:
 
@@ -1852,28 +1844,26 @@ Infrastructure authorizes
 
 No routing rule may collapse these roles.
 
----
+______________________________________________________________________
 
-# 68. Skill/Worker composition
+## 68. Skill/Worker composition
 
 Effective requirements:
 
-[
-Req_{effective}
-===============
+## \[ Req\_{effective}
 
-Req_{skill}
-\cup
-Req_{worker}
-\cup
-Req_{policy}
-]
+Req\_{skill}
+\\cup
+Req\_{worker}
+\\cup
+Req\_{policy}
+\]
 
 Routing must never replace stricter worker requirements with weaker Skill requirements.
 
----
+______________________________________________________________________
 
-# 69. Event routing
+## 69. Event routing
 
 Event routing should use typed event identity.
 
@@ -1888,9 +1878,9 @@ event_route:
 
 An unknown event type should fail closed or quarantine.
 
----
+______________________________________________________________________
 
-# 70. Routing event taxonomy
+## 70. Routing event taxonomy
 
 ```text
 ROUTING_REQUESTED
@@ -1909,9 +1899,9 @@ BINDING_REPLACED
 FALLBACK_SELECTED
 ```
 
----
+______________________________________________________________________
 
-# 71. Routing event envelope
+## 71. Routing event envelope
 
 ```yaml
 routing_event:
@@ -1938,9 +1928,9 @@ routing_event:
   timestamp: null
 ```
 
----
+______________________________________________________________________
 
-# 72. Binding protocols
+## 72. Binding protocols
 
 Potential protocols:
 
@@ -1958,9 +1948,9 @@ binding invalidation
 
 Exact protocols remain `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
-# 73. Validation of bindings
+## 73. Validation of bindings
 
 A binding should pass:
 
@@ -1984,9 +1974,9 @@ worker invariant compatibility
 effect classification
 ```
 
----
+______________________________________________________________________
 
-# 74. Binding validator result
+## 74. Binding validator result
 
 ```yaml
 binding_validation:
@@ -2006,9 +1996,9 @@ binding_validation:
     UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 75. Validation versus binding
+## 75. Validation versus binding
 
 ```text
 Binding
@@ -2021,9 +2011,9 @@ Promotion/Activation
 = separate governance
 ```
 
----
+______________________________________________________________________
 
-# 76. Routing and promotion gates
+## 76. Routing and promotion gates
 
 Relationship:
 
@@ -2041,9 +2031,9 @@ CONTROL PLANE
 → authorizes consequential activation/effect
 ```
 
----
+______________________________________________________________________
 
-# 77. Routing and generator
+## 77. Routing and generator
 
 Generator routing must select:
 
@@ -2057,9 +2047,9 @@ scope
 
 Generator output remains candidate.
 
----
+______________________________________________________________________
 
-# 78. Routing and validator
+## 78. Routing and validator
 
 Validator routing must bind the correct validation class.
 
@@ -2071,9 +2061,9 @@ cannot substitute for
 provenance validator
 ```
 
----
+______________________________________________________________________
 
-# 79. Routing and modes
+## 79. Routing and modes
 
 A route may depend on active modes.
 
@@ -2089,9 +2079,9 @@ EXECUTION mode
 
 Modes influence routing but do not create authority.
 
----
+______________________________________________________________________
 
-# 80. Routing and cognitive cells
+## 80. Routing and cognitive cells
 
 For Cognitive Matrix cells:
 
@@ -2112,9 +2102,9 @@ UNVALIDATED_BINDING
 
 must not be silently treated as validated.
 
----
+______________________________________________________________________
 
-# 81. Cell routing status
+## 81. Cell routing status
 
 ```yaml
 cell_route:
@@ -2126,9 +2116,9 @@ cell_route:
   mode_status: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 82. RSCF routing
+## 82. RSCF routing
 
 RSCF routing should select only nodes/dependencies that can materially affect the answer.
 
@@ -2142,9 +2132,9 @@ bootstrap
 
 Do not load every branch by default.
 
----
+______________________________________________________________________
 
-# 83. GMEF routing
+## 83. GMEF routing
 
 Governance-sensitive operations should route into GMEF/control paths when:
 
@@ -2155,9 +2145,9 @@ mutation consequential
 finality relevant
 ```
 
----
+______________________________________________________________________
 
-# 84. Causal routing
+## 84. Causal routing
 
 Causal questions may require routing to causal-validation capabilities.
 
@@ -2171,9 +2161,9 @@ causal effect question
 
 Do not route both as equivalent.
 
----
+______________________________________________________________________
 
-# 85. Scope firewall
+## 85. Scope firewall
 
 If a candidate is valid only for:
 
@@ -2193,9 +2183,9 @@ scale H
 
 requires explicit compatibility evidence.
 
----
+______________________________________________________________________
 
-# 86. Provenance firewall
+## 86. Provenance firewall
 
 Routing must not select evidence solely by repeated presence.
 
@@ -2206,9 +2196,9 @@ from one origin
 
 may still represent one evidence root.
 
----
+______________________________________________________________________
 
-# 87. Security routing
+## 87. Security routing
 
 Security-sensitive capabilities should bind:
 
@@ -2222,9 +2212,9 @@ network access policy
 
 Routing must never infer permission from capability.
 
----
+______________________________________________________________________
 
-# 88. Data-access routing
+## 88. Data-access routing
 
 A request may identify a useful source but still lack access.
 
@@ -2236,9 +2226,9 @@ relevant source
 
 The route should expose access gap.
 
----
+______________________________________________________________________
 
-# 89. Cost/resource routing
+## 89. Cost/resource routing
 
 Routing may consider:
 
@@ -2254,9 +2244,9 @@ only after integrity requirements pass.
 
 Optimization must never weaken correctness.
 
----
+______________________________________________________________________
 
-# 90. Adaptive complexity routing
+## 90. Adaptive complexity routing
 
 Possible route depth:
 
@@ -2279,9 +2269,9 @@ governance-critical multi-layer route
 
 Escalate when stakes or uncertainty require it.
 
----
+______________________________________________________________________
 
-# 91. Stop condition
+## 91. Stop condition
 
 Routing stops when the selected path is sufficient for:
 
@@ -2293,9 +2283,9 @@ Action Sufficiency
 
 Do not continue routing to redundant agents/skills once no outcome-changing uncertainty remains.
 
----
+______________________________________________________________________
 
-# 92. Failure modes
+## 92. Failure modes
 
 ```yaml
 failure_modes:
@@ -2373,9 +2363,9 @@ failure_modes:
     description: evidence route drops ancestry information
 ```
 
----
+______________________________________________________________________
 
-# 93. Recovery
+## 93. Recovery
 
 ```text
 ROUTING FAILURE
@@ -2395,9 +2385,9 @@ RE-BIND
 
 Avoid global rerouting unless dependency closure requires it.
 
----
+______________________________________________________________________
 
-# 94. Rebind triggers
+## 94. Rebind triggers
 
 ```text
 component superseded
@@ -2411,9 +2401,9 @@ dependency failed
 validator status changed
 ```
 
----
+______________________________________________________________________
 
-# 95. Retry rule
+## 95. Retry rule
 
 ```text
 RetryRoute
@@ -2428,9 +2418,9 @@ OR TransientFailureResolved
 
 Identical failed routes should not be retried indefinitely.
 
----
+______________________________________________________________________
 
-# 96. Tests
+## 96. Tests
 
 Required categories:
 
@@ -2459,9 +2449,9 @@ replay
 security
 ```
 
----
+______________________________________________________________________
 
-# 97. Constitutional routing tests
+## 97. Constitutional routing tests
 
 ```text
 T-ROUTE-001
@@ -2522,9 +2512,9 @@ mode folder exists but mode unvalidated
 → cannot bind as ACTIVE mode
 ```
 
----
+______________________________________________________________________
 
-# 98. Adversarial tests
+## 98. Adversarial tests
 
 Challenge routing with:
 
@@ -2544,9 +2534,9 @@ route-cache poisoning
 
 Routing should fail closed or preserve ambiguity.
 
----
+______________________________________________________________________
 
-# 99. Falsifiers
+## 99. Falsifiers
 
 This placeholder is provisional.
 
@@ -2569,9 +2559,9 @@ Higher-order policy allows a behavior currently marked forbidden.
 
 Successful falsifier requires update/supersession.
 
----
+______________________________________________________________________
 
-# 100. RSCF completion state
+## 100. RSCF completion state
 
 ```yaml
 rscf:
@@ -2637,9 +2627,9 @@ rscf:
     PLACEHOLDER
 ```
 
----
+______________________________________________________________________
 
-# 101. GMEF completion state
+## 101. GMEF completion state
 
 ```yaml
 gmef:
@@ -2686,9 +2676,9 @@ gmef:
     UNFINALIZED
 ```
 
----
+______________________________________________________________________
 
-# 102. Binding proof capsule
+## 102. Binding proof capsule
 
 ```yaml
 proof_capsule:
@@ -2726,9 +2716,9 @@ proof_capsule:
     - dependency invalidated
 ```
 
----
+______________________________________________________________________
 
-# 103. Related artifacts
+## 103. Related artifacts
 
 ```yaml
 related:
@@ -2778,9 +2768,9 @@ related:
     UNVERIFIED
 ```
 
----
+______________________________________________________________________
 
-# 104. Relation ontology
+## 104. Relation ontology
 
 ```text
 ROUTES_TO
@@ -2799,9 +2789,9 @@ SUPERSEDES
 SUPERSEDED_BY
 ```
 
----
+______________________________________________________________________
 
-# 105. Dependency hierarchy
+## 105. Dependency hierarchy
 
 ```text
 TIER 0
@@ -2822,9 +2812,9 @@ fallbacks / explanatory metadata
 
 A lower-priority convenience route cannot override a Tier-0 or Tier-1 incompatibility.
 
----
+______________________________________________________________________
 
-# 106. Required completion status
+## 106. Required completion status
 
 ```yaml
 completion_status:
@@ -2922,9 +2912,9 @@ completion_status:
     status: UNBOUND
 ```
 
----
+______________________________________________________________________
 
-# 107. Gap registry
+## 107. Gap registry
 
 ```yaml
 gaps:
@@ -2957,9 +2947,9 @@ gaps:
     - formatting
 ```
 
----
+______________________________________________________________________
 
-# 108. Hard boundaries
+## 108. Hard boundaries
 
 ```text
 PLACEHOLDER != IMPLEMENTED
@@ -3001,9 +2991,9 @@ AMBIGUOUS != RESOLVED
 STALE_BINDING != CURRENT_BINDING
 ```
 
----
+______________________________________________________________________
 
-# 109. Current decision
+## 109. Current decision
 
 ```yaml
 decision:
@@ -3037,9 +3027,9 @@ decision:
     - silently select ambiguous candidates
 ```
 
----
+______________________________________________________________________
 
-# 110. Final proof capsule
+## 110. Final proof capsule
 
 **Claim**
 
@@ -3129,23 +3119,27 @@ UNBOUND
 
 This contract keeps routing aligned with the AMOS Full Brain OS integrity boundary: route only what is materially needed, preserve provenance/scope/regime constraints, expose ambiguity instead of forcing a fluent selection, and never let capability selection become authority.
 ```
----
+
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: binding_rules
 node_type: note
 path: 25_COGNITIVE_MATRIX/10_ROUTING/BINDING_RULES.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/10_ROUTING/10_ROUTING_MOC|10_ROUTING_MOC]]
-

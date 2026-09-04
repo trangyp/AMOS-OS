@@ -4,24 +4,22 @@ title: SKILL — Amos Core19 Logic Kernel
 type: skill
 source: 07_SKILLS/amos-core19-logic-kernel
 name: amos-core19-logic-kernel
-description: Core19 Logic Kernel — runtime and OS capability. Use when runtime reasoning,
-  OS kernel operations, or adaptive stability. Use when amos-os-runtime-master routes
-  to this specialized capability. Do not use for generic tasks outside runtime domain.
+description: Core19 Logic Kernel — runtime and OS capability. Use when runtime reasoning, OS kernel operations, or adaptive stability. Use when amos-os-runtime-master routes to this specialized capability. Do not use for generic tasks outside runtime domain.
 parent_skill: amos-os-runtime-master
 domain: runtime
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
 tags:
-- type/skill
-- type/skill
-- domain/os-runtime
-- epistemic/source_claim
-- hml/m
-- epistemic/source_claim
-- amos-os
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/os-runtime
+  - epistemic/source_claim
+  - hml/m
+  - epistemic/source_claim
+  - amos-os
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -31,25 +29,25 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: M
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
-- L7_authority
-- L8_execution
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
+  - L7_authority
+  - L8_execution
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L7
-- L8
-- L16
-- L17
-- L18
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L7
+  - L8
+  - L16
+  - L17
+  - L18
 license: MIT
 steward: Trang Phan
 ---
@@ -59,6 +57,7 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: runtime. Parent: amos-os-runtime-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
 ## When to Use
 
 - When monitoring runtime stability: drift, oscillation, divergence
@@ -86,13 +85,13 @@ Origin architect: **Trang Phan**. Domain: runtime. Parent: amos-os-runtime-maste
 ## Operations
 
 1. **core19_logic.monitor_stability**: Monitor runtime stability: drift, oscillation, divergence, and regime transitions
-2. **core19_logic.calibrate_feedback**: Calibrate feedback control loops to maintain stable operating conditions
-3. **core19_logic.decompose_primitive**: Decompose complex operations into primitive, atomic, verifiable steps
-4. **core19_logic.align_drift**: Align AI drift back to authorized operating envelope when deviation is detected
-5. **core19_logic.enforce_closed_loop**: Enforce closed-loop learning: every output feeds back into the next iteration
-6. **core19_logic.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-7. **core19_logic.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
-8. **core19_logic.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+1. **core19_logic.calibrate_feedback**: Calibrate feedback control loops to maintain stable operating conditions
+1. **core19_logic.decompose_primitive**: Decompose complex operations into primitive, atomic, verifiable steps
+1. **core19_logic.align_drift**: Align AI drift back to authorized operating envelope when deviation is detected
+1. **core19_logic.enforce_closed_loop**: Enforce closed-loop learning: every output feeds back into the next iteration
+1. **core19_logic.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+1. **core19_logic.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+1. **core19_logic.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## 11_KNOWLEDGE Vault Content
 
@@ -104,11 +103,13 @@ Origin architect: **Trang Phan**. Domain: runtime. Parent: amos-os-runtime-maste
 From Cosmo Brain AMOS Absolute Logic Core-19 Full: 19 primitive symbolic states with 19x19 relation field.
 
 **19 Primitives**:
+
 1. existence, 2. distinction, 3. relation, 4. causality, 5. temporality, 6. information, 7. topology, 8. identity, 9. convergence, 10. divergence, 11. contradiction, 12. positive logic, 13. negative logic, 14. zero logic, 15. dual logic, 16. multi-logic, 17. meta-logic, 18. supra-meta-logic, 19. anti/null meta-logic
 
 **Relation field**: 19x19 = 361 cells, each representing a typed relation between two primitives.
 
 **3 Core invariants**:
+
 - **C19-I1 (Primitive Identity)**: `P_i != P_j for i != j` (unless explicit equivalence established)
 - **C19-I2 (Type Preservation)**: `type(T(x)) = declared_output_type(T)` (no silent semantic mutation)
 - **C19-I3 (Symbolic/Empirical Separation)**: `symbolic_implication != empirical_causation` (IMPLIES(X,Y) does not establish causation)
@@ -137,7 +138,8 @@ Core-19 is a source-defined AMOS symbolic substrate. It does not prove reality i
 - **G2 (Epistemic class)**: All claims labeled SOURCE / DERIVED / AMOS_MODEL / EMPIRICAL — never claim beyond evidence.
 -
 
----
+______________________________________________________________________
+
 **Links:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 ## Related
@@ -147,17 +149,19 @@ Core-19 is a source-defined AMOS symbolic substrate. It does not prove reality i
 ## Examples
 
 - **Scenario**: When monitoring runtime stability: drift, oscillation, divergence
+
   - **Input**: A query matching this skill's domain (runtime)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When calibrating feedback control loops for stable operation
+
   - **Input**: A query matching this skill's domain (runtime)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When decomposing complex operations into primitive steps
+
   - **Input**: A query matching this skill's domain (runtime)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Anti-Patterns
 
@@ -167,7 +171,6 @@ Core-19 is a source-defined AMOS symbolic substrate. It does not prove reality i
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `amos-os-runtime-master` — routes to this skill when runtime specialization is needed
@@ -175,7 +178,6 @@ Core-19 is a source-defined AMOS symbolic substrate. It does not prove reality i
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -194,7 +196,6 @@ Core-19 is a source-defined AMOS symbolic substrate. It does not prove reality i
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -202,7 +203,6 @@ Core-19 is a source-defined AMOS symbolic substrate. It does not prove reality i
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -215,11 +215,12 @@ Core-19 is a source-defined AMOS symbolic substrate. It does not prove reality i
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `amos-os-runtime-master` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `amos-core19-logic-kernel-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -227,12 +228,14 @@ Core-19 is a source-defined AMOS symbolic substrate. It does not prove reality i
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-core19-logic-kernel
 node_type: skill
 path: 07_SKILLS/amos-core19-logic-kernel/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

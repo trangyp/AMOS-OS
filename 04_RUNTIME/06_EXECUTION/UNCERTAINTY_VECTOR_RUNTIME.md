@@ -12,17 +12,17 @@ segment: 04_RUNTIME/06_EXECUTION
 artifact_kind: RUNTIME_SPEC
 path: 04_RUNTIME/06_EXECUTION/UNCERTAINTY_VECTOR_RUNTIME.md
 tags:
-- amos-os
-- runtime
-- vault
-- 06_execution
-- uncertainty_vector_runtime
-- epistemic_confidence
-- multidimensional_uncertainty
-- rscf
-- canon_candidate
-- canon/runtime
-- provenance-x-confidence
+  - amos-os
+  - runtime
+  - vault
+  - 06_execution
+  - uncertainty_vector_runtime
+  - epistemic_confidence
+  - multidimensional_uncertainty
+  - rscf
+  - canon_candidate
+  - canon/runtime
+  - provenance-x-confidence
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -37,13 +37,13 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - 04_RUNTIME/06_EXECUTION/06_EXECUTION_MOC
-  - 11_KNOWLEDGE/02_CLAIMS/02_CLAIMS_MOC
-  - AMOS_CORPUS
+    - 04_RUNTIME/06_EXECUTION/06_EXECUTION_MOC
+    - 11_KNOWLEDGE/02_CLAIMS/02_CLAIMS_MOC
+    - AMOS_CORPUS
   scope:
-  - RUNTIME_EXECUTION
-  - UNCERTAINTY_QUANTIFICATION
-  - SOURCE_DEFINED_MODEL
+    - RUNTIME_EXECUTION
+    - UNCERTAINTY_QUANTIFICATION
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   execution_moc:
     artifact: 04_RUNTIME/06_EXECUTION/06_EXECUTION_MOC
@@ -60,28 +60,28 @@ epistemic_boundary:
 
 `UNCERTAINTY_VECTOR_RUNTIME.md` is the canonical Runtime Plane specification governing multi-dimensional uncertainty decomposition and propagation across AMOS OS reasoning graphs within `04_RUNTIME/06_EXECUTION`.
 
----
+______________________________________________________________________
 
-# 1. Multi-Dimensional Uncertainty Vector Formulation
+## 1. Multi-Dimensional Uncertainty Vector Formulation
 
 $$\vec{U} = \langle u_{\text{epistemic}}, u_{\text{aleatoric}}, u_{\text{model}}, u_{\text{sensor}} \rangle$$
 
 1. **Epistemic Uncertainty ($u_{\text{epistemic}}$):** Measures reducible gaps in knowledge or ungrounded premises.
-2. **Aleatoric Uncertainty ($u_{\text{aleatoric}}$):** Inherent physical / biological system stochasticity.
-3. **Model Uncertainty ($u_{\text{model}}$):** Structural abstraction limits ($\text{Model} \neq \text{Observation}$).
-4. **Sensor Uncertainty ($u_{\text{sensor}}$):** Physical telemetry noise and calibration drift.
+1. **Aleatoric Uncertainty ($u_{\text{aleatoric}}$):** Inherent physical / biological system stochasticity.
+1. **Model Uncertainty ($u_{\text{model}}$):** Structural abstraction limits ($\text{Model} \neq \text{Observation}$).
+1. **Sensor Uncertainty ($u_{\text{sensor}}$):** Physical telemetry noise and calibration drift.
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Execution MOC:** 04_RUNTIME/06_EXECUTION/[[04_RUNTIME/06_EXECUTION/06_EXECUTION_MOC|06_EXECUTION_MOC]]
 - **Claims MOC:** 11_KNOWLEDGE/02_CLAIMS/[[11_KNOWLEDGE/02_CLAIMS/02_CLAIMS_MOC|02_CLAIMS_MOC]]
 - **Confidence Matrix:** 25_COGNITIVE_MATRIX/[[25_COGNITIVE_MATRIX/PROVENANCE_X_CONFIDENCE|PROVENANCE_X_CONFIDENCE]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -99,10 +99,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME_MOC]] · 04_RUNTIME/06_EXECUTION/[[04_RUNTIME/06_EXECUTION/06_EXECUTION_MOC|06_EXECUTION_MOC]] · 11_KNOWLEDGE/02_CLAIMS/[[11_KNOWLEDGE/02_CLAIMS/02_CLAIMS_MOC|02_CLAIMS_MOC]]
 
----
-**MOC:** 04_RUNTIME/06_EXECUTION/[[04_RUNTIME/06_EXECUTION/06_EXECUTION_MOC|06_EXECUTION_MOC]]
+______________________________________________________________________
 
+**MOC:** 04_RUNTIME/06_EXECUTION/[[04_RUNTIME/06_EXECUTION/06_EXECUTION_MOC|06_EXECUTION_MOC]]

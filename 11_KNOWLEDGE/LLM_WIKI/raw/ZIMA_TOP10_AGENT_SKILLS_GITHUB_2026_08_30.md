@@ -1,3 +1,19 @@
+---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
+title: Zima Top10 Agent Skills Github 2026 08 30
+type: note
+source: .
+tags:
+  - note
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+---
+
 # Web Content from https://shop.zimaspace.com/blogs/tech-ai-hub/top-10-open-source-ai-agent-skills-github?srsltid=AfmBOorIJuM9I1aaG-FQCe1mPTYLieZfjDhZ2NcagDrz-J-YrpGg734g
 
 Top 10 GitHub Agent Skills Trending This Week (July 21–26, 2026) – Zima Store Online [Skip to
@@ -8,275 +24,275 @@ content][1]
 [Back to Lab: Save more when you build with more nodes. → Build Your Lab][5]
 [Back to Lab: Save more when you build with more nodes. → Build Your Lab][6]
 [Back to Lab: Save more when you build with more nodes. → Build Your Lab][7]
-* [Home][8]
-* [Products][9]
-* [New Release][10]
-[ Login ][11]
-[United States] United States (USD $)
-* [Afghanistan]Afghanistan (USD $)
-* [Albania]Albania (USD $)
-* [Algeria]Algeria (USD $)
-* [Andorra]Andorra (USD $)
-* [Angola]Angola (USD $)
-* [Anguilla]Anguilla (USD $)
-* [Antigua &amp; Barbuda]Antigua & Barbuda (USD $)
-* [Argentina]Argentina (USD $)
-* [Armenia]Armenia (USD $)
-* [Aruba]Aruba (USD $)
-* [Australia]Australia (USD $)
-* [Austria]Austria (USD $)
-* [Azerbaijan]Azerbaijan (USD $)
-* [Bahamas]Bahamas (USD $)
-* [Bahrain]Bahrain (USD $)
-* [Bangladesh]Bangladesh (USD $)
-* [Barbados]Barbados (USD $)
-* [Belarus]Belarus (USD $)
-* [Belgium]Belgium (USD $)
-* [Belize]Belize (USD $)
-* [Benin]Benin (USD $)
-* [Bermuda]Bermuda (USD $)
-* [Bhutan]Bhutan (USD $)
-* [Bolivia]Bolivia (USD $)
-* [Bosnia &amp; Herzegovina]Bosnia & Herzegovina (USD $)
-* [Botswana]Botswana (USD $)
-* [Brazil]Brazil (USD $)
-* [British Indian Ocean Territory]British Indian Ocean Territory (USD $)
-* [British Virgin Islands]British Virgin Islands (USD $)
-* [Brunei]Brunei (USD $)
-* [Bulgaria]Bulgaria (USD $)
-* [Burkina Faso]Burkina Faso (USD $)
-* [Burundi]Burundi (USD $)
-* [Cambodia]Cambodia (USD $)
-* [Cameroon]Cameroon (USD $)
-* [Canada]Canada (USD $)
-* [Cape Verde]Cape Verde (USD $)
-* [Caribbean Netherlands]Caribbean Netherlands (USD $)
-* [Cayman Islands]Cayman Islands (USD $)
-* [Central African Republic]Central African Republic (USD $)
-* [Chad]Chad (USD $)
-* [Chile]Chile (USD $)
-* [China]China (USD $)
-* [Christmas Island]Christmas Island (USD $)
-* [Cocos (Keeling) Islands]Cocos (Keeling) Islands (USD $)
-* [Colombia]Colombia (USD $)
-* [Comoros]Comoros (USD $)
-* [Congo - Brazzaville]Congo - Brazzaville (USD $)
-* [Congo - Kinshasa]Congo - Kinshasa (USD $)
-* [Cook Islands]Cook Islands (USD $)
-* [Costa Rica]Costa Rica (USD $)
-* [Côte d’Ivoire]Côte d’Ivoire (USD $)
-* [Croatia]Croatia (USD $)
-* [Curaçao]Curaçao (USD $)
-* [Cyprus]Cyprus (USD $)
-* [Czechia]Czechia (USD $)
-* [Denmark]Denmark (USD $)
-* [Djibouti]Djibouti (USD $)
-* [Dominica]Dominica (USD $)
-* [Dominican Republic]Dominican Republic (USD $)
-* [Ecuador]Ecuador (USD $)
-* [Egypt]Egypt (USD $)
-* [El Salvador]El Salvador (USD $)
-* [Equatorial Guinea]Equatorial Guinea (USD $)
-* [Eritrea]Eritrea (USD $)
-* [Estonia]Estonia (USD $)
-* [Eswatini]Eswatini (USD $)
-* [Ethiopia]Ethiopia (USD $)
-* [Falkland Islands]Falkland Islands (USD $)
-* [Faroe Islands]Faroe Islands (USD $)
-* [Fiji]Fiji (USD $)
-* [Finland]Finland (USD $)
-* [France]France (USD $)
-* [French Guiana]French Guiana (USD $)
-* [French Polynesia]French Polynesia (USD $)
-* [French Southern Territories]French Southern Territories (USD $)
-* [Gabon]Gabon (USD $)
-* [Gambia]Gambia (USD $)
-* [Georgia]Georgia (USD $)
-* [Germany]Germany (USD $)
-* [Ghana]Ghana (USD $)
-* [Gibraltar]Gibraltar (USD $)
-* [Greece]Greece (USD $)
-* [Greenland]Greenland (USD $)
-* [Grenada]Grenada (USD $)
-* [Guadeloupe]Guadeloupe (USD $)
-* [Guatemala]Guatemala (USD $)
-* [Guernsey]Guernsey (USD $)
-* [Guinea]Guinea (USD $)
-* [Guinea-Bissau]Guinea-Bissau (USD $)
-* [Guyana]Guyana (USD $)
-* [Haiti]Haiti (USD $)
-* [Honduras]Honduras (USD $)
-* [Hong Kong SAR]Hong Kong SAR (USD $)
-* [Hungary]Hungary (USD $)
-* [Iceland]Iceland (USD $)
-* [India]India (USD $)
-* [Indonesia]Indonesia (USD $)
-* [Iraq]Iraq (USD $)
-* [Ireland]Ireland (USD $)
-* [Isle of Man]Isle of Man (USD $)
-* [Israel]Israel (USD $)
-* [Italy]Italy (USD $)
-* [Jamaica]Jamaica (USD $)
-* [Japan]Japan (USD $)
-* [Jersey]Jersey (USD $)
-* [Jordan]Jordan (USD $)
-* [Kazakhstan]Kazakhstan (USD $)
-* [Kenya]Kenya (USD $)
-* [Kiribati]Kiribati (USD $)
-* [Kosovo]Kosovo (USD $)
-* [Kuwait]Kuwait (USD $)
-* [Kyrgyzstan]Kyrgyzstan (USD $)
-* [Laos]Laos (USD $)
-* [Latvia]Latvia (USD $)
-* [Lebanon]Lebanon (USD $)
-* [Lesotho]Lesotho (USD $)
-* [Liberia]Liberia (USD $)
-* [Libya]Libya (USD $)
-* [Liechtenstein]Liechtenstein (USD $)
-* [Lithuania]Lithuania (USD $)
-* [Luxembourg]Luxembourg (USD $)
-* [Macao SAR]Macao SAR (USD $)
-* [Madagascar]Madagascar (USD $)
-* [Malawi]Malawi (USD $)
-* [Malaysia]Malaysia (USD $)
-* [Maldives]Maldives (USD $)
-* [Mali]Mali (USD $)
-* [Malta]Malta (USD $)
-* [Martinique]Martinique (USD $)
-* [Mauritania]Mauritania (USD $)
-* [Mauritius]Mauritius (USD $)
-* [Mayotte]Mayotte (USD $)
-* [Mexico]Mexico (USD $)
-* [Moldova]Moldova (USD $)
-* [Monaco]Monaco (USD $)
-* [Mongolia]Mongolia (USD $)
-* [Montenegro]Montenegro (USD $)
-* [Montserrat]Montserrat (USD $)
-* [Morocco]Morocco (USD $)
-* [Mozambique]Mozambique (USD $)
-* [Myanmar (Burma)]Myanmar (Burma) (USD $)
-* [Namibia]Namibia (USD $)
-* [Nauru]Nauru (USD $)
-* [Nepal]Nepal (USD $)
-* [Netherlands]Netherlands (USD $)
-* [New Caledonia]New Caledonia (USD $)
-* [New Zealand]New Zealand (USD $)
-* [Nicaragua]Nicaragua (USD $)
-* [Niger]Niger (USD $)
-* [Nigeria]Nigeria (USD $)
-* [Niue]Niue (USD $)
-* [Norfolk Island]Norfolk Island (USD $)
-* [North Macedonia]North Macedonia (USD $)
-* [Norway]Norway (USD $)
-* [Oman]Oman (USD $)
-* [Pakistan]Pakistan (USD $)
-* [Panama]Panama (USD $)
-* [Papua New Guinea]Papua New Guinea (USD $)
-* [Paraguay]Paraguay (USD $)
-* [Peru]Peru (USD $)
-* [Philippines]Philippines (USD $)
-* [Pitcairn Islands]Pitcairn Islands (USD $)
-* [Poland]Poland (USD $)
-* [Portugal]Portugal (USD $)
-* [Qatar]Qatar (USD $)
-* [Réunion]Réunion (USD $)
-* [Romania]Romania (USD $)
-* [Russia]Russia (USD $)
-* [Rwanda]Rwanda (USD $)
-* [Samoa]Samoa (USD $)
-* [San Marino]San Marino (USD $)
-* [São Tomé &amp; Príncipe]São Tomé & Príncipe (USD $)
-* [Saudi Arabia]Saudi Arabia (USD $)
-* [Senegal]Senegal (USD $)
-* [Serbia]Serbia (USD $)
-* [Seychelles]Seychelles (USD $)
-* [Sierra Leone]Sierra Leone (USD $)
-* [Singapore]Singapore (USD $)
-* [Sint Maarten]Sint Maarten (USD $)
-* [Slovakia]Slovakia (USD $)
-* [Slovenia]Slovenia (USD $)
-* [Solomon Islands]Solomon Islands (USD $)
-* [Somalia]Somalia (USD $)
-* [South Africa]South Africa (USD $)
-* [South Georgia &amp; South Sandwich Islands]South Georgia & South Sandwich Islands (USD $)
-* [South Korea]South Korea (USD $)
-* [South Sudan]South Sudan (USD $)
-* [Spain]Spain (USD $)
-* [Sri Lanka]Sri Lanka (USD $)
-* [St. Barthélemy]St. Barthélemy (USD $)
-* [St. Helena]St. Helena (USD $)
-* [St. Kitts &amp; Nevis]St. Kitts & Nevis (USD $)
-* [St. Lucia]St. Lucia (USD $)
-* [St. Martin]St. Martin (USD $)
-* [St. Pierre &amp; Miquelon]St. Pierre & Miquelon (USD $)
-* [St. Vincent &amp; Grenadines]St. Vincent & Grenadines (USD $)
-* [Sudan]Sudan (USD $)
-* [Suriname]Suriname (USD $)
-* [Svalbard &amp; Jan Mayen]Svalbard & Jan Mayen (USD $)
-* [Sweden]Sweden (USD $)
-* [Switzerland]Switzerland (USD $)
-* [Taiwan]Taiwan (USD $)
-* [Tajikistan]Tajikistan (USD $)
-* [Tanzania]Tanzania (USD $)
-* [Thailand]Thailand (USD $)
-* [Timor-Leste]Timor-Leste (USD $)
-* [Togo]Togo (USD $)
-* [Tokelau]Tokelau (USD $)
-* [Tonga]Tonga (USD $)
-* [Trinidad &amp; Tobago]Trinidad & Tobago (USD $)
-* [Tunisia]Tunisia (USD $)
-* [Türkiye]Türkiye (USD $)
-* [Turkmenistan]Turkmenistan (USD $)
-* [Turks &amp; Caicos Islands]Turks & Caicos Islands (USD $)
-* [Tuvalu]Tuvalu (USD $)
-* [U.S. Outlying Islands]U.S. Outlying Islands (USD $)
-* [Uganda]Uganda (USD $)
-* [Ukraine]Ukraine (USD $)
-* [United Arab Emirates]United Arab Emirates (USD $)
-* [United Kingdom]United Kingdom (USD $)
-* [United States]United States (USD $)
-* [Uruguay]Uruguay (USD $)
-* [Uzbekistan]Uzbekistan (USD $)
-* [Vanuatu]Vanuatu (USD $)
-* [Vatican City]Vatican City (USD $)
-* [Venezuela]Venezuela (USD $)
-* [Vietnam]Vietnam (USD $)
-* [Wallis &amp; Futuna]Wallis & Futuna (USD $)
-* [Western Sahara]Western Sahara (USD $)
-* [Yemen]Yemen (USD $)
-* [Zambia]Zambia (USD $)
-* [Zimbabwe]Zimbabwe (USD $)
-Update country/region
-[ [Zima Store Online][Zima Store Online] ][12]
-* [Home][13]
-* [Products][14]
-* [New Release][15]
-[
-0
-][16]
-* [Home][17]
-* [Products][18]
-* [New Release][19]
-[Home][20] / [Tech & AI HUB][21] / Top 10 GitHub Agent Skills Trending This Week (July 21–26, 2026)
-Jun 21, 2026 Author:[Eva Wong][22] Reviewer:[Kristian Sundet][23]
 
-# Top 10 GitHub Agent Skills Trending This Week (July 21–26, 2026)
+- [Home][8]
+- [Products][9]
+- [New Release][10]
+  [ Login ][11]
+  [United States] United States (USD $)
+- [Afghanistan]Afghanistan (USD $)
+- [Albania]Albania (USD $)
+- [Algeria]Algeria (USD $)
+- [Andorra]Andorra (USD $)
+- [Angola]Angola (USD $)
+- [Anguilla]Anguilla (USD $)
+- [Antigua & Barbuda]Antigua & Barbuda (USD $)
+- [Argentina]Argentina (USD $)
+- [Armenia]Armenia (USD $)
+- [Aruba]Aruba (USD $)
+- [Australia]Australia (USD $)
+- [Austria]Austria (USD $)
+- [Azerbaijan]Azerbaijan (USD $)
+- [Bahamas]Bahamas (USD $)
+- [Bahrain]Bahrain (USD $)
+- [Bangladesh]Bangladesh (USD $)
+- [Barbados]Barbados (USD $)
+- [Belarus]Belarus (USD $)
+- [Belgium]Belgium (USD $)
+- [Belize]Belize (USD $)
+- [Benin]Benin (USD $)
+- [Bermuda]Bermuda (USD $)
+- [Bhutan]Bhutan (USD $)
+- [Bolivia]Bolivia (USD $)
+- [Bosnia & Herzegovina]Bosnia & Herzegovina (USD $)
+- [Botswana]Botswana (USD $)
+- [Brazil]Brazil (USD $)
+- [British Indian Ocean Territory]British Indian Ocean Territory (USD $)
+- [British Virgin Islands]British Virgin Islands (USD $)
+- [Brunei]Brunei (USD $)
+- [Bulgaria]Bulgaria (USD $)
+- [Burkina Faso]Burkina Faso (USD $)
+- [Burundi]Burundi (USD $)
+- [Cambodia]Cambodia (USD $)
+- [Cameroon]Cameroon (USD $)
+- [Canada]Canada (USD $)
+- [Cape Verde]Cape Verde (USD $)
+- [Caribbean Netherlands]Caribbean Netherlands (USD $)
+- [Cayman Islands]Cayman Islands (USD $)
+- [Central African Republic]Central African Republic (USD $)
+- [Chad]Chad (USD $)
+- [Chile]Chile (USD $)
+- [China]China (USD $)
+- [Christmas Island]Christmas Island (USD $)
+- [Cocos (Keeling) Islands]Cocos (Keeling) Islands (USD $)
+- [Colombia]Colombia (USD $)
+- [Comoros]Comoros (USD $)
+- [Congo - Brazzaville]Congo - Brazzaville (USD $)
+- [Congo - Kinshasa]Congo - Kinshasa (USD $)
+- [Cook Islands]Cook Islands (USD $)
+- [Costa Rica]Costa Rica (USD $)
+- [Côte d’Ivoire]Côte d’Ivoire (USD $)
+- [Croatia]Croatia (USD $)
+- [Curaçao]Curaçao (USD $)
+- [Cyprus]Cyprus (USD $)
+- [Czechia]Czechia (USD $)
+- [Denmark]Denmark (USD $)
+- [Djibouti]Djibouti (USD $)
+- [Dominica]Dominica (USD $)
+- [Dominican Republic]Dominican Republic (USD $)
+- [Ecuador]Ecuador (USD $)
+- [Egypt]Egypt (USD $)
+- [El Salvador]El Salvador (USD $)
+- [Equatorial Guinea]Equatorial Guinea (USD $)
+- [Eritrea]Eritrea (USD $)
+- [Estonia]Estonia (USD $)
+- [Eswatini]Eswatini (USD $)
+- [Ethiopia]Ethiopia (USD $)
+- [Falkland Islands]Falkland Islands (USD $)
+- [Faroe Islands]Faroe Islands (USD $)
+- [Fiji]Fiji (USD $)
+- [Finland]Finland (USD $)
+- [France]France (USD $)
+- [French Guiana]French Guiana (USD $)
+- [French Polynesia]French Polynesia (USD $)
+- [French Southern Territories]French Southern Territories (USD $)
+- [Gabon]Gabon (USD $)
+- [Gambia]Gambia (USD $)
+- [Georgia]Georgia (USD $)
+- [Germany]Germany (USD $)
+- [Ghana]Ghana (USD $)
+- [Gibraltar]Gibraltar (USD $)
+- [Greece]Greece (USD $)
+- [Greenland]Greenland (USD $)
+- [Grenada]Grenada (USD $)
+- [Guadeloupe]Guadeloupe (USD $)
+- [Guatemala]Guatemala (USD $)
+- [Guernsey]Guernsey (USD $)
+- [Guinea]Guinea (USD $)
+- [Guinea-Bissau]Guinea-Bissau (USD $)
+- [Guyana]Guyana (USD $)
+- [Haiti]Haiti (USD $)
+- [Honduras]Honduras (USD $)
+- [Hong Kong SAR]Hong Kong SAR (USD $)
+- [Hungary]Hungary (USD $)
+- [Iceland]Iceland (USD $)
+- [India]India (USD $)
+- [Indonesia]Indonesia (USD $)
+- [Iraq]Iraq (USD $)
+- [Ireland]Ireland (USD $)
+- [Isle of Man]Isle of Man (USD $)
+- [Israel]Israel (USD $)
+- [Italy]Italy (USD $)
+- [Jamaica]Jamaica (USD $)
+- [Japan]Japan (USD $)
+- [Jersey]Jersey (USD $)
+- [Jordan]Jordan (USD $)
+- [Kazakhstan]Kazakhstan (USD $)
+- [Kenya]Kenya (USD $)
+- [Kiribati]Kiribati (USD $)
+- [Kosovo]Kosovo (USD $)
+- [Kuwait]Kuwait (USD $)
+- [Kyrgyzstan]Kyrgyzstan (USD $)
+- [Laos]Laos (USD $)
+- [Latvia]Latvia (USD $)
+- [Lebanon]Lebanon (USD $)
+- [Lesotho]Lesotho (USD $)
+- [Liberia]Liberia (USD $)
+- [Libya]Libya (USD $)
+- [Liechtenstein]Liechtenstein (USD $)
+- [Lithuania]Lithuania (USD $)
+- [Luxembourg]Luxembourg (USD $)
+- [Macao SAR]Macao SAR (USD $)
+- [Madagascar]Madagascar (USD $)
+- [Malawi]Malawi (USD $)
+- [Malaysia]Malaysia (USD $)
+- [Maldives]Maldives (USD $)
+- [Mali]Mali (USD $)
+- [Malta]Malta (USD $)
+- [Martinique]Martinique (USD $)
+- [Mauritania]Mauritania (USD $)
+- [Mauritius]Mauritius (USD $)
+- [Mayotte]Mayotte (USD $)
+- [Mexico]Mexico (USD $)
+- [Moldova]Moldova (USD $)
+- [Monaco]Monaco (USD $)
+- [Mongolia]Mongolia (USD $)
+- [Montenegro]Montenegro (USD $)
+- [Montserrat]Montserrat (USD $)
+- [Morocco]Morocco (USD $)
+- [Mozambique]Mozambique (USD $)
+- [Myanmar (Burma)]Myanmar (Burma) (USD $)
+- [Namibia]Namibia (USD $)
+- [Nauru]Nauru (USD $)
+- [Nepal]Nepal (USD $)
+- [Netherlands]Netherlands (USD $)
+- [New Caledonia]New Caledonia (USD $)
+- [New Zealand]New Zealand (USD $)
+- [Nicaragua]Nicaragua (USD $)
+- [Niger]Niger (USD $)
+- [Nigeria]Nigeria (USD $)
+- [Niue]Niue (USD $)
+- [Norfolk Island]Norfolk Island (USD $)
+- [North Macedonia]North Macedonia (USD $)
+- [Norway]Norway (USD $)
+- [Oman]Oman (USD $)
+- [Pakistan]Pakistan (USD $)
+- [Panama]Panama (USD $)
+- [Papua New Guinea]Papua New Guinea (USD $)
+- [Paraguay]Paraguay (USD $)
+- [Peru]Peru (USD $)
+- [Philippines]Philippines (USD $)
+- [Pitcairn Islands]Pitcairn Islands (USD $)
+- [Poland]Poland (USD $)
+- [Portugal]Portugal (USD $)
+- [Qatar]Qatar (USD $)
+- [Réunion]Réunion (USD $)
+- [Romania]Romania (USD $)
+- [Russia]Russia (USD $)
+- [Rwanda]Rwanda (USD $)
+- [Samoa]Samoa (USD $)
+- [San Marino]San Marino (USD $)
+- [São Tomé & Príncipe]São Tomé & Príncipe (USD $)
+- [Saudi Arabia]Saudi Arabia (USD $)
+- [Senegal]Senegal (USD $)
+- [Serbia]Serbia (USD $)
+- [Seychelles]Seychelles (USD $)
+- [Sierra Leone]Sierra Leone (USD $)
+- [Singapore]Singapore (USD $)
+- [Sint Maarten]Sint Maarten (USD $)
+- [Slovakia]Slovakia (USD $)
+- [Slovenia]Slovenia (USD $)
+- [Solomon Islands]Solomon Islands (USD $)
+- [Somalia]Somalia (USD $)
+- [South Africa]South Africa (USD $)
+- [South Georgia & South Sandwich Islands]South Georgia & South Sandwich Islands (USD $)
+- [South Korea]South Korea (USD $)
+- [South Sudan]South Sudan (USD $)
+- [Spain]Spain (USD $)
+- [Sri Lanka]Sri Lanka (USD $)
+- [St. Barthélemy]St. Barthélemy (USD $)
+- [St. Helena]St. Helena (USD $)
+- [St. Kitts & Nevis]St. Kitts & Nevis (USD $)
+- [St. Lucia]St. Lucia (USD $)
+- [St. Martin]St. Martin (USD $)
+- [St. Pierre & Miquelon]St. Pierre & Miquelon (USD $)
+- [St. Vincent & Grenadines]St. Vincent & Grenadines (USD $)
+- [Sudan]Sudan (USD $)
+- [Suriname]Suriname (USD $)
+- [Svalbard & Jan Mayen]Svalbard & Jan Mayen (USD $)
+- [Sweden]Sweden (USD $)
+- [Switzerland]Switzerland (USD $)
+- [Taiwan]Taiwan (USD $)
+- [Tajikistan]Tajikistan (USD $)
+- [Tanzania]Tanzania (USD $)
+- [Thailand]Thailand (USD $)
+- [Timor-Leste]Timor-Leste (USD $)
+- [Togo]Togo (USD $)
+- [Tokelau]Tokelau (USD $)
+- [Tonga]Tonga (USD $)
+- [Trinidad & Tobago]Trinidad & Tobago (USD $)
+- [Tunisia]Tunisia (USD $)
+- [Türkiye]Türkiye (USD $)
+- [Turkmenistan]Turkmenistan (USD $)
+- [Turks & Caicos Islands]Turks & Caicos Islands (USD $)
+- [Tuvalu]Tuvalu (USD $)
+- [U.S. Outlying Islands]U.S. Outlying Islands (USD $)
+- [Uganda]Uganda (USD $)
+- [Ukraine]Ukraine (USD $)
+- [United Arab Emirates]United Arab Emirates (USD $)
+- [United Kingdom]United Kingdom (USD $)
+- [United States]United States (USD $)
+- [Uruguay]Uruguay (USD $)
+- [Uzbekistan]Uzbekistan (USD $)
+- [Vanuatu]Vanuatu (USD $)
+- [Vatican City]Vatican City (USD $)
+- [Venezuela]Venezuela (USD $)
+- [Vietnam]Vietnam (USD $)
+- [Wallis & Futuna]Wallis & Futuna (USD $)
+- [Western Sahara]Western Sahara (USD $)
+- [Yemen]Yemen (USD $)
+- [Zambia]Zambia (USD $)
+- [Zimbabwe]Zimbabwe (USD $)
+  Update country/region
+  [ [Zima Store Online][Zima Store Online] ][12]
+- [Home][13]
+- [Products][14]
+- [New Release][15]
+  [
+  0
+  ][16]
+- [Home][17]
+- [Products][18]
+- [New Release][19]
+  [Home][20] / [Tech & AI HUB][21] / Top 10 GitHub Agent Skills Trending This Week (July 21–26, 2026)
+  Jun 21, 2026 Author:[Eva Wong][22] Reviewer:[Kristian Sundet][23]
 
-[
+## Top 10 GitHub Agent Skills Trending This Week (July 21–26, 2026)
+
+\[
 [Eva Wong]
 
 Eva Wong
 
 IceWhale author
 
-][24]
+\][24]
 
 **Eva Wong** is the **Technical Writer** and **resident tinkerer** at ZimaSpace. A lifelong geek
 with a passion for **homelabs and open-source software**, she specializes in translating complex
 technical concepts into accessible, **hands-on guides**. Eva believes that self-hosting should be
 fun, not intimidating. Through her tutorials, she empowers the community to **demystify hardware
 setups**, from building their first NAS to mastering Docker containers.
-
 
 Share: Copied to clipboard
 [Top 10 GitHub Agent Skills Trending This Week (July 21–26, 2026) - Zima Store Online]
@@ -299,30 +315,30 @@ for AI agents. The projects retain their relative order from the source ranking,
 [numbered from 1 to 10 within this agent-focused list.][26]
 
 ─────────┬─────────────────┬────────────────┬─────────────────┬─────────────────────────────────────
-Agent    │GitHub Weekly    │Project         │Weekly Star      │Agent Capability                     
-Rank     │Rank             │                │Growth           │                                     
+Agent │GitHub Weekly │Project │Weekly Star │Agent Capability\
+Rank │Rank │ │Growth │\
 ─────────┼─────────────────┼────────────────┼─────────────────┼─────────────────────────────────────
-1        │1                │OmniRoute       │11,190           │Multi-provider model routing         
+1 │1 │OmniRoute │11,190 │Multi-provider model routing\
 ─────────┼─────────────────┼────────────────┼─────────────────┼─────────────────────────────────────
-2        │2                │Orca            │7,205            │Parallel coding-agent management     
+2 │2 │Orca │7,205 │Parallel coding-agent management\
 ─────────┼─────────────────┼────────────────┼─────────────────┼─────────────────────────────────────
-3        │3                │code-review-grap│6,281            │Local-first code context             
-         │                 │h               │                 │                                     
+3 │3 │code-review-grap│6,281 │Local-first code context\
+│ │h │ │\
 ─────────┼─────────────────┼────────────────┼─────────────────┼─────────────────────────────────────
-4        │7                │Graphify        │4,906            │Queryable repository knowledge graphs
+4 │7 │Graphify │4,906 │Queryable repository knowledge graphs
 ─────────┼─────────────────┼────────────────┼─────────────────┼─────────────────────────────────────
-5        │8                │Hallmark        │4,810            │Design review for coding agents      
+5 │8 │Hallmark │4,810 │Design review for coding agents\
 ─────────┼─────────────────┼────────────────┼─────────────────┼─────────────────────────────────────
-6        │9                │Pi              │4,756            │Extensible agent runtime and CLI     
+6 │9 │Pi │4,756 │Extensible agent runtime and CLI\
 ─────────┼─────────────────┼────────────────┼─────────────────┼─────────────────────────────────────
-7        │11               │Grok Build      │3,989            │Terminal-based coding agent          
+7 │11 │Grok Build │3,989 │Terminal-based coding agent\
 ─────────┼─────────────────┼────────────────┼─────────────────┼─────────────────────────────────────
-8        │16               │i-have-adhd     │3,270            │Concise, ADHD-friendly agent output  
+8 │16 │i-have-adhd │3,270 │Concise, ADHD-friendly agent output\
 ─────────┼─────────────────┼────────────────┼─────────────────┼─────────────────────────────────────
-9        │17               │Agent-Reach     │3,083            │Cross-platform web research          
+9 │17 │Agent-Reach │3,083 │Cross-platform web research\
 ─────────┼─────────────────┼────────────────┼─────────────────┼─────────────────────────────────────
-10       │19               │OfficeCLI       │2,873            │Word, Excel, and PowerPoint          
-         │                 │                │                 │automation                           
+10 │19 │OfficeCLI │2,873 │Word, Excel, and PowerPoint\
+│ │ │ │automation\
 ─────────┴─────────────────┴────────────────┴─────────────────┴─────────────────────────────────────
 
 Weekly Star growth shows where GitHub attention is moving, but it does not prove that a repository
@@ -493,33 +509,33 @@ password-protected documents, temporary files, and validation of the final rende
 ## Which Trending GitHub Agent Skill Should You Try?
 
 ─────────────────────────────────────┬────────────────┬─────────────────────────────────────────────
-Your Main Need                       │Project to      │Reason                                       
-                                     │Evaluate        │                                             
+Your Main Need │Project to │Reason\
+│Evaluate │\
 ─────────────────────────────────────┼────────────────┼─────────────────────────────────────────────
-Switch between AI providers          │OmniRoute       │Centralizes provider routing and fallback    
+Switch between AI providers │OmniRoute │Centralizes provider routing and fallback\
 ─────────────────────────────────────┼────────────────┼─────────────────────────────────────────────
-Manage several coding agents         │Orca            │Focuses on parallel agent coordination       
+Manage several coding agents │Orca │Focuses on parallel agent coordination\
 ─────────────────────────────────────┼────────────────┼─────────────────────────────────────────────
-Improve code-review context          │code-review-grap│Builds a persistent local code graph         
-                                     │h               │                                             
+Improve code-review context │code-review-grap│Builds a persistent local code graph\
+│h │\
 ─────────────────────────────────────┼────────────────┼─────────────────────────────────────────────
-Map code, schemas, and documentation │Graphify        │Creates a broader repository knowledge graph 
+Map code, schemas, and documentation │Graphify │Creates a broader repository knowledge graph
 ─────────────────────────────────────┼────────────────┼─────────────────────────────────────────────
-Improve AI-generated interfaces      │Hallmark        │Adds a focused design-review skill           
+Improve AI-generated interfaces │Hallmark │Adds a focused design-review skill\
 ─────────────────────────────────────┼────────────────┼─────────────────────────────────────────────
-Build a custom agent environment     │Pi              │Provides an extensible runtime and CLI       
+Build a custom agent environment │Pi │Provides an extensible runtime and CLI\
 ─────────────────────────────────────┼────────────────┼─────────────────────────────────────────────
-Use a terminal coding agent          │Grok Build      │Combines code editing, commands, search, and 
-                                     │                │long tasks                                   
+Use a terminal coding agent │Grok Build │Combines code editing, commands, search, and
+│ │long tasks\
 ─────────────────────────────────────┼────────────────┼─────────────────────────────────────────────
-Make agent responses more concise    │i-have-adhd     │Changes output structure instead of adding   
-                                     │                │tools                                        
+Make agent responses more concise │i-have-adhd │Changes output structure instead of adding\
+│ │tools\
 ─────────────────────────────────────┼────────────────┼─────────────────────────────────────────────
-Research across social and content   │Agent-Reach     │Adds cross-platform reading and search       
-platforms                            │                │                                             
+Research across social and content │Agent-Reach │Adds cross-platform reading and search\
+platforms │ │\
 ─────────────────────────────────────┼────────────────┼─────────────────────────────────────────────
-Automate Word, Excel, and PowerPoint │OfficeCLI       │Provides agent-oriented Office file          
-                                     │                │operations                                   
+Automate Word, Excel, and PowerPoint │OfficeCLI │Provides agent-oriented Office file\
+│ │operations\
 ─────────────────────────────────────┴────────────────┴─────────────────────────────────────────────
 
 If you want to compare other agent skills by platform and task, the [AI Agent Skill Finder][37]
@@ -638,7 +654,6 @@ technical concepts into accessible, **hands-on guides**. Eva believes that self-
 fun, not intimidating. Through her tutorials, she empowers the community to **demystify hardware
 setups**, from building their first NAS to mastering Docker containers.
 
-
 [View author profile][41]
 
 ## Recommended products
@@ -649,36 +664,37 @@ $2,499.00][42]
 Share a Host With Other Heavy Services? ][43]
 
 ## In this article
+
 1. [How This GitHub Agent Skills Ranking Was Built][44]
-2. [Top 10 GitHub Agent Skills Trending This Week][45]
-   1.  [1. OmniRoute: Route Coding Agents Across AI Providers][46]
-   2.  [2. Orca: Manage a Fleet of Parallel Coding Agents][47]
-   3.  [3. code-review-graph: Give Agents Persistent Code Context][48]
-   4.  [4. Graphify: Turn Repositories Into Queryable Knowledge Graphs][49]
-   5.  [5. Hallmark: Reduce Generic AI-Generated Interface Design][50]
-   6.  [6. Pi: Build on an Extensible Agent Harness][51]
-   7.  [7. Grok Build: Run a Coding Agent From the Terminal][52]
-   8.  [8. i-have-adhd: Make Agent Answers Easier to Scan][53]
-   9.  [9. Agent-Reach: Add Cross-Platform Research Capabilities][54]
-   10. [10. OfficeCLI: Let Agents Work With Office Files][55]
-3. [Which Trending GitHub Agent Skill Should You Try?][56]
-4. [How to Audit a Trending GitHub Agent Skill][57]
+1. [Top 10 GitHub Agent Skills Trending This Week][45]
+   1. [1. OmniRoute: Route Coding Agents Across AI Providers][46]
+   1. [2. Orca: Manage a Fleet of Parallel Coding Agents][47]
+   1. [3. code-review-graph: Give Agents Persistent Code Context][48]
+   1. [4. Graphify: Turn Repositories Into Queryable Knowledge Graphs][49]
+   1. [5. Hallmark: Reduce Generic AI-Generated Interface Design][50]
+   1. [6. Pi: Build on an Extensible Agent Harness][51]
+   1. [7. Grok Build: Run a Coding Agent From the Terminal][52]
+   1. [8. i-have-adhd: Make Agent Answers Easier to Scan][53]
+   1. [9. Agent-Reach: Add Cross-Platform Research Capabilities][54]
+   1. [10. OfficeCLI: Let Agents Work With Office Files][55]
+1. [Which Trending GitHub Agent Skill Should You Try?][56]
+1. [How to Audit a Trending GitHub Agent Skill][57]
    1. [Confirm What the Repository Actually Is][58]
-   2. [Inspect Installation Commands][59]
-   3. [Review Credentials and Data Paths][60]
-   4. [Check Permission Boundaries][61]
-   5. [Validate the Output][62]
-   6. [Look Beyond Weekly Star Growth][63]
-5. [Conclusion][64]
-6. [FAQ][65]
+   1. [Inspect Installation Commands][59]
+   1. [Review Credentials and Data Paths][60]
+   1. [Check Permission Boundaries][61]
+   1. [Validate the Output][62]
+   1. [Look Beyond Weekly Star Growth][63]
+1. [Conclusion][64]
+1. [FAQ][65]
    1. [What are the top 10 GitHub agent skills trending this week?][66]
-   2. [Is this ranking based on total GitHub Stars?][67]
-   3. [Are all ten repositories installable agent skills?][68]
-   4. [Which project is best for AI coding-agent context?][69]
-   5. [Which trending project is best for multiple AI providers?][70]
-   6. [Which project is best for managing multiple coding agents?][71]
-   7. [Does fast GitHub Star growth mean a project is safe?][72]
-   8. [How often should this weekly ranking be updated?][73]
+   1. [Is this ranking based on total GitHub Stars?][67]
+   1. [Are all ten repositories installable agent skills?][68]
+   1. [Which project is best for AI coding-agent context?][69]
+   1. [Which trending project is best for multiple AI providers?][70]
+   1. [Which project is best for managing multiple coding agents?][71]
+   1. [Does fast GitHub Star growth mean a project is safe?][72]
+   1. [How often should this weekly ranking be updated?][73]
 
 ## Recommended products
 
@@ -715,7 +731,7 @@ rate, then cap it at downstream-safe capacity.
 
 ## Get More Builds Like This
 
-Email Address *
+Email Address \*
 
 Stay in the Loop
 
@@ -726,25 +742,26 @@ Stay in the Loop preferences Product News Deals & Offers Community Builds & Tips
 We respect your inbox. Unsubscribe anytime.
 
 Products
-* [Smart NAS & Personal Cloud][81]
-* [Home Server & Power Setup][82]
-* [DIY NAS & Cyber Builds][83]
-* [Network & Security][84]
-* [DIY & Expand][85]
-Resources
-* [Docs][86]
-* [Blog][87]
-* [Shopping FAQ][88]
-* [Affiliate Program][89]
-Support
-* [Shipping Policy][90]
-* [Refund policy][91]
-* [Warranty Policy][92]
-* [Privacy Policy][93]
-* [Terms of Service][94]
-* [EU Right of Withdrawal][95]
-* [Contact Us][96]
-Join Us
+
+- [Smart NAS & Personal Cloud][81]
+- [Home Server & Power Setup][82]
+- [DIY NAS & Cyber Builds][83]
+- [Network & Security][84]
+- [DIY & Expand][85]
+  Resources
+- [Docs][86]
+- [Blog][87]
+- [Shopping FAQ][88]
+- [Affiliate Program][89]
+  Support
+- [Shipping Policy][90]
+- [Refund policy][91]
+- [Warranty Policy][92]
+- [Privacy Policy][93]
+- [Terms of Service][94]
+- [EU Right of Withdrawal][95]
+- [Contact Us][96]
+  Join Us
 
 Be the first to get the latest news, updates and special offers.
 
@@ -752,19 +769,20 @@ Email
 I agree to receiving marketing emails and special deals
 [american_express] [apple_pay] [paypal] [master] [maestro] [visa] [visa] [visa] [klarna]
 English
-* English
-* Deutsch
-* Français
-* Italiano
-* Português (portugal)
-* Svenska
-* Polski
-* Nederlands
-* Español
-* العربية
-* 日本語
-* 한국어
-Update country/region
+
+- English
+- Deutsch
+- Français
+- Italiano
+- Português (portugal)
+- Svenska
+- Polski
+- Nederlands
+- Español
+- العربية
+- 日本語
+- 한국어
+  Update country/region
 
 © 2026 Zima Store Online, All rights reserved.
 
@@ -775,24 +793,25 @@ Your cart is currently empty.
 [Start Shopping][97]
 Search
 Trending Gear
-* [ [ZimaCube 2 Personal Cloud Home NAS - Zima Store Online] [ZimaCube 2 Personal Cloud Home NAS -
-  Zima Store Online] [ZimaCube 2 NAS silver desktop home server with front grille and USB ports]
+
+- [ [ZimaCube 2 Personal Cloud Home NAS - Zima Store Online] \[ZimaCube 2 Personal Cloud Home NAS -
+  Zima Store Online\] [ZimaCube 2 NAS silver desktop home server with front grille and USB ports]
   [ZimaCube 2 NAS silver desktop home server with front grille and USB ports] ][98]
   [ZimaCube 2 Personal Cloud Home NAS][99] From $799.00 USD /
   5.0
   Add to cart
-* Save 15% [ [ZimaBoard 2 compact single board home server back view, ZIMA logo, side interface.]
-  [ZimaBoard 2 compact single board home server back view, ZIMA logo, side interface.] [ZimaBoard 2
-  single board home server, compact aluminum chassis. Features 'Home Server' text.] [ZimaBoard 2
-  single board home server, compact aluminum chassis. Features 'Home Server' text.] ][100]
+- Save 15% [ [ZimaBoard 2 compact single board home server back view, ZIMA logo, side interface.]
+  [ZimaBoard 2 compact single board home server back view, ZIMA logo, side interface.] \[ZimaBoard 2
+  single board home server, compact aluminum chassis. Features 'Home Server' text.\] \[ZimaBoard 2
+  single board home server, compact aluminum chassis. Features 'Home Server' text.\] ][100]
   [ZimaBoard 2 - Mini Home Server for Your Big Idea][101] $̶3̶9̶9̶.̶0̶0̶ ̶U̶S̶D̶ From $339.00 USD /
   4.82
   Add to cart
-* Save 47% [ [ZimaBlade personal server, compact x86 board with visible motherboard in transparent
-  enclosure.] [ZimaBlade personal server, compact x86 board with visible motherboard in transparent
-  enclosure.] [ZimaBlade x86 personal server: compact single board computer with motherboard and
-  installed RAM.] [ZimaBlade x86 personal server: compact single board computer with motherboard and
-  installed RAM.] ][102]
+- Save 47% [ \[ZimaBlade personal server, compact x86 board with visible motherboard in transparent
+  enclosure.\] \[ZimaBlade personal server, compact x86 board with visible motherboard in transparent
+  enclosure.\] \[ZimaBlade x86 personal server: compact single board computer with motherboard and
+  installed RAM.\] \[ZimaBlade x86 personal server: compact single board computer with motherboard and
+  installed RAM.\] ][102]
   [ZimaBlade - Single Board Server for Cyber Native][103] $̶1̶2̶9̶.̶0̶0̶ ̶U̶S̶D̶ From $69.00 USD /
   4.73
   Add to cart

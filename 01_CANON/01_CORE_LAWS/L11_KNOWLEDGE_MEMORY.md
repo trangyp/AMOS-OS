@@ -1,34 +1,37 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: L11 KNOWLEDGE MEMORY
 type: memory
 source: 01_CANON/01_CORE_LAWS
 tags:
-- canon
-- core_laws
-- knowledge
-- memory
-- provenance
-- durability
-- staleness
-- validation
-- epistemic_governance
-- canon/universe
-- readme
-- skill
-- workflow
-- workflows
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- provenance-topology
-- persistent-provenance
-- epistemic-regimes
-- knowledge-harvest
-- law/L10-failure-recovery
-- rscf
-- gmef
-- mvcc-cas
-- causal-epoch-finality
-- fractal-knowledge-network
+  - canon
+  - core_laws
+  - knowledge
+  - memory
+  - provenance
+  - durability
+  - staleness
+  - validation
+  - epistemic_governance
+  - canon/universe
+  - readme
+  - skill
+  - workflow
+  - workflows
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - provenance-topology
+  - persistent-provenance
+  - epistemic-regimes
+  - knowledge-harvest
+  - law/L10-failure-recovery
+  - rscf
+  - gmef
+  - mvcc-cas
+  - causal-epoch-finality
+  - fractal-knowledge-network
 rscf:
   state: SOURCE_CLAIM
   claim_class: CONDITIONAL
@@ -47,9 +50,9 @@ rscf:
 **canonical_status:** CONDITIONAL
 **updated:** 2026-08-26
 
----
+______________________________________________________________________
 
-# 0. Status
+## 0. Status
 
 L11 defines the proposed AMOS knowledge-and-memory governance layer.
 
@@ -75,7 +78,7 @@ It replaces the prior placeholder with a structured specification governing:
 
 L11 remains an **AMOS_MODEL** with **CONDITIONAL** canonical status until promoted, superseded, or invalidated by authoritative memory canon.
 
-```text
+````text
 CURRENT STATE
 
 PROPOSED_SPECIFICATION
@@ -105,7 +108,7 @@ Validation establishes whether that information may still support a conclusion.
 
 ---
 
-# 1. Governing Objective
+## 1. Governing Objective
 
 L11 seeks to preserve useful knowledge without converting historical storage into unjustified authority.
 
@@ -120,7 +123,7 @@ INFORMATION
 × SCOPE FIT
 × FRESHNESS
 × RETRIEVABILITY
-```
+````
 
 This is an AMOS conceptual model, not an empirical equation.
 
@@ -158,9 +161,9 @@ WHAT could invalidate it?
 HAS it been revalidated?
 ```
 
----
+______________________________________________________________________
 
-# 2. Core Knowledge & Memory Laws
+## 2. Core Knowledge & Memory Laws
 
 ```text
 KM-1
@@ -192,18 +195,18 @@ PERSIST DURABLE LEARNING
 REVALIDATE BEFORE AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 3. KM-1 — Typed Storage
+## 3. KM-1 — Typed Storage
 
 **Law**
 
 Knowledge entries carry:
 
-* type,
-* provenance,
-* confidence,
-* epoch.
+- type,
+- provenance,
+- confidence,
+- epoch.
 
 Untyped dumps do not become authoritative knowledge.
 
@@ -264,9 +267,9 @@ claim:
   epoch: E42
 ```
 
----
+______________________________________________________________________
 
-# 4. Knowledge Type System
+## 4. Knowledge Type System
 
 L11 inherits the AMOS evidence topology:
 
@@ -321,9 +324,9 @@ confidence: VERIFIED
 
 unless independent validation establishes that upgrade.
 
----
+______________________________________________________________________
 
-# 5. Epistemic Type Preservation
+## 5. Epistemic Type Preservation
 
 Transformation may change representation without changing epistemic status.
 
@@ -363,9 +366,9 @@ SOURCE_CLAIM S
 
 All four may remain descendants of `S`.
 
----
+______________________________________________________________________
 
-# 6. Typed Authority Rule
+## 6. Typed Authority Rule
 
 Authority is determined by the evidence and governance state, not storage location.
 
@@ -391,9 +394,9 @@ AUTHORITATIVE
 
 A knowledge object should retain its epistemic class across storage channels unless a governed validation event changes that class.
 
----
+______________________________________________________________________
 
-# 7. KM-2 — Provenance Preservation
+## 7. KM-2 — Provenance Preservation
 
 **Law**
 
@@ -442,9 +445,9 @@ DESCENDANT COUNT
 INDEPENDENT EVIDENCE COUNT
 ```
 
----
+______________________________________________________________________
 
-# 8. Provenance Graph
+## 8. Provenance Graph
 
 Conceptually:
 
@@ -498,9 +501,9 @@ ANCESTRY
 ORIGINAL SOURCE
 ```
 
----
+______________________________________________________________________
 
-# 9. Provenance Must Survive Compression
+## 9. Provenance Must Survive Compression
 
 Compression may reduce representation size but must not destroy load-bearing provenance.
 
@@ -514,13 +517,13 @@ BOOTSTRAP CAPSULE
 
 The compressed representation SHOULD retain enough information to recover:
 
-* source identity,
-* claim class,
-* dependency identity,
-* epoch,
-* scope,
-* invalidation conditions,
-* confidence ceiling.
+- source identity,
+- claim class,
+- dependency identity,
+- epoch,
+- scope,
+- invalidation conditions,
+- confidence ceiling.
 
 Thus:
 
@@ -530,9 +533,9 @@ COMPRESSION
 PROVENANCE ERASURE
 ```
 
----
+______________________________________________________________________
 
-# 10. Independence Accounting
+## 10. Independence Accounting
 
 Evidence independence must be demonstrated.
 
@@ -578,9 +581,9 @@ independence:
 
 The exact numerical independence model remains subsystem-dependent.
 
----
+______________________________________________________________________
 
-# 11. Provenance Correlation Risk
+## 11. Provenance Correlation Risk
 
 Knowledge entries SHOULD expose material correlation risk:
 
@@ -604,9 +607,9 @@ provenance_correlation:
 
 Unknown provenance independence must not be treated as verified independence.
 
----
+______________________________________________________________________
 
-# 12. Sybil Resistance in Knowledge Memory
+## 12. Sybil Resistance in Knowledge Memory
 
 A single claim copied through many identities can create false apparent consensus.
 
@@ -638,9 +641,9 @@ Therefore:
 
 > **Repetition, popularity, or multiplicity of descendants cannot substitute for independent provenance.**
 
----
+______________________________________________________________________
 
-# 13. KM-3 — Staleness Visibility
+## 13. KM-3 — Staleness Visibility
 
 **Law**
 
@@ -672,9 +675,9 @@ STORED
 CURRENT
 ```
 
----
+______________________________________________________________________
 
-# 14. Freshness Metadata
+## 14. Freshness Metadata
 
 Knowledge entries SHOULD conceptually carry:
 
@@ -725,9 +728,9 @@ AMOS canon
 → validity depends on canonical version / lineage
 ```
 
----
+______________________________________________________________________
 
-# 15. Staleness Function
+## 15. Staleness Function
 
 Conceptually:
 
@@ -756,9 +759,9 @@ TEMPORAL_VALID
 
 Therefore an entry can become stale even without much elapsed time if its operating environment changes.
 
----
+______________________________________________________________________
 
-# 16. Epoch Binding
+## 16. Epoch Binding
 
 Every consequential memory entry SHOULD be associated with an epoch where relevant.
 
@@ -807,9 +810,9 @@ C@E2
 
 without validation.
 
----
+______________________________________________________________________
 
-# 17. Memory Revalidation
+## 17. Memory Revalidation
 
 A stale memory entry is not automatically false.
 
@@ -847,9 +850,9 @@ VALIDATOR
         UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 18. Memory as MODEL
+## 18. Memory as MODEL
 
 The statement:
 
@@ -879,9 +882,9 @@ YES     NO/UNKNOWN
 USE     REVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 19. Staleness Must Be Visible
+## 19. Staleness Must Be Visible
 
 A system must not silently present stale memory as current verified fact.
 
@@ -905,9 +908,9 @@ memory_result:
 
 when validation is outdated.
 
----
+______________________________________________________________________
 
-# 20. KM-4 — Four-Channel Durability
+## 20. KM-4 — Four-Channel Durability
 
 **Law**
 
@@ -936,9 +939,9 @@ LEARNING
 
 The four channels serve different functions and SHOULD not be treated as redundant copies.
 
----
+______________________________________________________________________
 
-# 21. Channel 1 — Vault
+## 21. Channel 1 — Vault
 
 The **vault** preserves durable knowledge artifacts.
 
@@ -966,9 +969,9 @@ The vault answers:
 WHAT KNOWLEDGE WAS PRESERVED?
 ```
 
----
+______________________________________________________________________
 
-# 22. Channel 2 — Skills
+## 22. Channel 2 — Skills
 
 **Skills** preserve reusable capability or governed procedure.
 
@@ -991,9 +994,9 @@ HOW SHOULD THIS KNOWLEDGE BE APPLIED?
 
 Persistence to skills does not itself validate the underlying claim.
 
----
+______________________________________________________________________
 
-# 23. Channel 3 — Workflows
+## 23. Channel 3 — Workflows
 
 **Workflows** preserve repeatable execution paths.
 
@@ -1016,9 +1019,9 @@ Workflows answer:
 WHEN AND IN WHAT ORDER SHOULD ACTION OCCUR?
 ```
 
----
+______________________________________________________________________
 
-# 24. Channel 4 — Memory
+## 24. Channel 4 — Memory
 
 **Memory** preserves context needed for future retrieval and adaptation.
 
@@ -1050,9 +1053,9 @@ CANON
 
 unless canon provenance and validation explicitly support that status.
 
----
+______________________________________________________________________
 
-# 25. Four-Channel Persistence Matrix
+## 25. Four-Channel Persistence Matrix
 
 | Channel   | Primary Function               | Main Failure if Missing                    |
 | --------- | ------------------------------ | ------------------------------------------ |
@@ -1074,9 +1077,9 @@ VAULT
 
 This intersection represents the proposed L11 persistence contract, not a universal law of information systems.
 
----
+______________________________________________________________________
 
-# 26. Four-Channel Atomicity
+## 26. Four-Channel Atomicity
 
 A persistence event may partially fail.
 
@@ -1101,9 +1104,9 @@ The system SHOULD expose this state rather than report:
 LEARNING FULLY PERSISTED
 ```
 
----
+______________________________________________________________________
 
-# 27. Persistence Receipt
+## 27. Persistence Receipt
 
 Durable learning SHOULD conceptually produce:
 
@@ -1151,9 +1154,9 @@ knowledge_persistence_receipt:
     status: PASS|FAIL|CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
-# 28. Knowledge Harvest Pipeline
+## 28. Knowledge Harvest Pipeline
 
 L11 binds naturally to:
 
@@ -1198,9 +1201,9 @@ requires validation.
 
 Storage alone cannot perform this promotion.
 
----
+______________________________________________________________________
 
-# 29. Knowledge Promotion State Machine
+## 29. Knowledge Promotion State Machine
 
 ```text
 RAW
@@ -1228,9 +1231,9 @@ STALE / CONDITIONAL / INVALID
 
 Knowledge states are therefore not monotonically increasing in authority.
 
----
+______________________________________________________________________
 
-# 30. Confidence Ceiling
+## 30. Confidence Ceiling
 
 Derived memory confidence cannot exceed the weakest load-bearing premise unless independently revalidated.
 
@@ -1266,9 +1269,9 @@ VERIFIED
 
 without revalidation.
 
----
+______________________________________________________________________
 
-# 31. Transformation Law
+## 31. Transformation Law
 
 For transformation:
 
@@ -1303,9 +1306,9 @@ MORE PROCESSING
 MORE TRUTH
 ```
 
----
+______________________________________________________________________
 
-# 32. Lossy Transformation
+## 32. Lossy Transformation
 
 If transformation discards information needed to validate a claim:
 
@@ -1347,9 +1350,9 @@ where raw evidence defaults to:
 DO_NOT_LOAD_UNLESS_REQUIRED
 ```
 
----
+______________________________________________________________________
 
-# 33. Memory Retrieval Law
+## 33. Memory Retrieval Law
 
 Retrieval should use the smallest sufficient proof scope.
 
@@ -1375,15 +1378,15 @@ Memory retrieval should not indiscriminately load all stored information.
 
 This reduces:
 
-* irrelevant context,
-* provenance confusion,
-* stale contamination,
-* unnecessary computational cost,
-* contradiction masking.
+- irrelevant context,
+- provenance confusion,
+- stale contamination,
+- unnecessary computational cost,
+- contradiction masking.
 
----
+______________________________________________________________________
 
-# 34. Retrieval Authority Filter
+## 34. Retrieval Authority Filter
 
 Retrieved entries SHOULD be filtered by:
 
@@ -1418,9 +1421,9 @@ def admissible(entry, query):
 
 This pseudocode represents L11 semantics rather than literal runtime implementation.
 
----
+______________________________________________________________________
 
-# 35. Scope-Bound Memory
+## 35. Scope-Bound Memory
 
 A memory entry inherits an applicability envelope.
 
@@ -1460,9 +1463,9 @@ REGIME R2
 VERSION V2
 ```
 
----
+______________________________________________________________________
 
-# 36. Regime Shift
+## 36. Regime Shift
 
 ```text
 ENTRY K
@@ -1489,9 +1492,9 @@ unless independently validated.
 
 This prevents historical memory from becoming a hidden source of scope leakage.
 
----
+______________________________________________________________________
 
-# 37. Dependency-Aware Memory
+## 37. Dependency-Aware Memory
 
 Derived entries SHOULD retain dependency edges.
 
@@ -1531,9 +1534,9 @@ DEPENDENCY-AWARE
 
 rather than global.
 
----
+______________________________________________________________________
 
-# 38. Persistent Provenance
+## 38. Persistent Provenance
 
 Knowledge persistence SHOULD preserve provenance across sessions and transformations.
 
@@ -1567,9 +1570,9 @@ persistent_provenance:
 
 Without persistent provenance, future retrieval may know **what** was stored but not **why it was trusted**.
 
----
+______________________________________________________________________
 
-# 39. Memory Versioning
+## 39. Memory Versioning
 
 Knowledge SHOULD be version-aware where mutation matters.
 
@@ -1599,9 +1602,9 @@ knowledge_versions:
 
 This permits historical reconstruction.
 
----
+______________________________________________________________________
 
-# 40. MVCC-Style Knowledge Semantics
+## 40. MVCC-Style Knowledge Semantics
 
 Conceptually:
 
@@ -1618,9 +1621,9 @@ This prevents silent mutation of premises during consequential reasoning.
 
 It is an architectural reasoning pattern, not a claim that all AMOS or ChatGPT memory literally implements MVCC.
 
----
+______________________________________________________________________
 
-# 41. CAS-Style Memory Mutation
+## 41. CAS-Style Memory Mutation
 
 Before replacing a knowledge entry:
 
@@ -1645,9 +1648,9 @@ REFRESH
 
 not blind overwrite.
 
----
+______________________________________________________________________
 
-# 42. Atomic Multi-Knowledge Updates
+## 42. Atomic Multi-Knowledge Updates
 
 Some knowledge changes span multiple dependent entries.
 
@@ -1669,9 +1672,9 @@ update while `K2` remains incompatible, the knowledge graph may enter an inconsi
 
 Therefore atomic or explicitly coordinated updates are preferred where dependency closure requires consistency.
 
----
+______________________________________________________________________
 
-# 43. Memory Contradictions
+## 43. Memory Contradictions
 
 Memory must preserve unresolved contradictions.
 
@@ -1685,10 +1688,10 @@ A = false
 
 Do not silently choose one because:
 
-* it is newer,
-* it appears more often,
-* it is phrased more confidently,
-* it comes from more descendants.
+- it is newer,
+- it appears more often,
+- it is phrased more confidently,
+- it comes from more descendants.
 
 Instead evaluate:
 
@@ -1707,9 +1710,9 @@ If no discriminating evidence exists:
 STATE = COMPETING
 ```
 
----
+______________________________________________________________________
 
-# 44. Contradiction Record
+## 44. Contradiction Record
 
 ```yaml
 memory_conflict:
@@ -1750,9 +1753,9 @@ memory_conflict:
     string|null
 ```
 
----
+______________________________________________________________________
 
-# 45. Competing Memory Hypotheses
+## 45. Competing Memory Hypotheses
 
 When multiple explanations remain plausible:
 
@@ -1784,9 +1787,9 @@ HIGH-INFORMATION
 DISCRIMINATING TEST
 ```
 
----
+______________________________________________________________________
 
-# 46. Memory Invalidation
+## 46. Memory Invalidation
 
 Invalidation should be selective.
 
@@ -1800,10 +1803,10 @@ INVALIDATE DESCENDANTS
 
 Do not erase:
 
-* independent evidence,
-* unrelated models,
-* unaffected epochs,
-* historical provenance.
+- independent evidence,
+- unrelated models,
+- unaffected epochs,
+- historical provenance.
 
 Conceptually:
 
@@ -1815,9 +1818,9 @@ def invalidate(node):
         child.state = REVALIDATION_REQUIRED
 ```
 
----
+______________________________________________________________________
 
-# 47. Memory Recovery
+## 47. Memory Recovery
 
 Memory recovery follows L10-style recovery principles.
 
@@ -1841,9 +1844,9 @@ RETURN TO SERVICE
 
 A restored memory entry is not trusted solely because the bytes were recovered.
 
----
+______________________________________________________________________
 
-# 48. Memory Quarantine
+## 48. Memory Quarantine
 
 Suspect entries SHOULD support quarantine:
 
@@ -1875,9 +1878,9 @@ memory_quarantine:
 
 Quarantine preserves evidence without allowing contaminated knowledge to propagate.
 
----
+______________________________________________________________________
 
-# 49. Forgetting Law
+## 49. Forgetting Law
 
 Forgetting may be intentional and governed.
 
@@ -1911,9 +1914,9 @@ are not necessarily equivalent.
 
 Retention and deletion semantics depend on governance and system requirements.
 
----
+______________________________________________________________________
 
-# 50. Canon vs Memory
+## 50. Canon vs Memory
 
 Critical distinction:
 
@@ -1953,9 +1956,9 @@ GOVERNANCE
 CANONICAL PROMOTION
 ```
 
----
+______________________________________________________________________
 
-# 51. Canonical Promotion Receipt
+## 51. Canonical Promotion Receipt
 
 ```yaml
 canonical_promotion:
@@ -1990,9 +1993,9 @@ canonical_promotion:
     REJECTED
 ```
 
----
+______________________________________________________________________
 
-# 52. Memory Demotion
+## 52. Memory Demotion
 
 Knowledge can move downward in authority.
 
@@ -2026,9 +2029,9 @@ SUPERSEDED
 
 Demotion preserves lineage rather than rewriting history.
 
----
+______________________________________________________________________
 
-# 53. Knowledge Lifecycle
+## 53. Knowledge Lifecycle
 
 ```text
 CAPTURE
@@ -2060,9 +2063,9 @@ PROVENANCE SURVIVES
 
 unless governance explicitly requires deletion.
 
----
+______________________________________________________________________
 
-# 54. Memory State Machine
+## 54. Memory State Machine
 
 ```text
 NEW
@@ -2088,9 +2091,9 @@ REVALIDATE         │
  └── UNKNOWN → CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
-# 55. Knowledge Integrity Invariants
+## 55. Knowledge Integrity Invariants
 
 ```yaml
 knowledge_memory_invariants:
@@ -2136,9 +2139,9 @@ knowledge_memory_invariants:
       storage_does_not_imply_truth
 ```
 
----
+______________________________________________________________________
 
-# 56. Anti-Patterns
+## 56. Anti-Patterns
 
 ## KM-A1 — Untyped Dump
 
@@ -2151,7 +2154,7 @@ then later treating it as authoritative knowledge.
 
 Prohibited.
 
----
+______________________________________________________________________
 
 ## KM-A2 — Provenance Collapse
 
@@ -2165,7 +2168,7 @@ source identity deleted
 
 destroys recoverability and independence analysis.
 
----
+______________________________________________________________________
 
 ## KM-A3 — Echo Inflation
 
@@ -2177,13 +2180,13 @@ destroys recoverability and independence analysis.
 
 prohibited.
 
----
+______________________________________________________________________
 
 ## KM-A4 — Silent Staleness
 
 Using old memory as current truth without freshness validation.
 
----
+______________________________________________________________________
 
 ## KM-A5 — Storage Equals Validation
 
@@ -2194,7 +2197,7 @@ therefore it is true
 
 invalid.
 
----
+______________________________________________________________________
 
 ## KM-A6 — Memory Equals Canon
 
@@ -2205,13 +2208,13 @@ therefore canonical
 
 invalid.
 
----
+______________________________________________________________________
 
 ## KM-A7 — Forced Contradiction Resolution
 
 Choosing one incompatible memory because it is more fluent or more frequent.
 
----
+______________________________________________________________________
 
 ## KM-A8 — Global Memory Reset
 
@@ -2219,7 +2222,7 @@ One corrupted entry causes deletion of unrelated valid memory.
 
 Prefer dependency-local invalidation.
 
----
+______________________________________________________________________
 
 ## KM-A9 — Partial Durability Hidden as Success
 
@@ -2238,7 +2241,7 @@ fully learned
 
 violates KM-4.
 
----
+______________________________________________________________________
 
 ## KM-A10 — Confidence Laundering
 
@@ -2253,9 +2256,9 @@ without independent validation.
 
 Transformation cannot launder confidence.
 
----
+______________________________________________________________________
 
-# 57. Durable Learning Transaction
+## 57. Durable Learning Transaction
 
 Conceptually:
 
@@ -2291,9 +2294,9 @@ def persist_learning(learning):
 
 This is semantic pseudocode only.
 
----
+______________________________________________________________________
 
-# 58. Four-Channel Recovery
+## 58. Four-Channel Recovery
 
 If one durability channel fails:
 
@@ -2322,9 +2325,9 @@ VERIFY CROSS-CHANNEL CONSISTENCY
 COMPLETE DURABILITY
 ```
 
----
+______________________________________________________________________
 
-# 59. Cross-Channel Consistency
+## 59. Cross-Channel Consistency
 
 The four channels may hold different representations of the same learning.
 
@@ -2358,9 +2361,9 @@ memory = V3
 
 which should trigger reconciliation.
 
----
+______________________________________________________________________
 
-# 60. Cross-Channel Authority
+## 60. Cross-Channel Authority
 
 The channels do not have equal epistemic roles.
 
@@ -2386,9 +2389,9 @@ A workflow does not override evidence simply because it is executable.
 
 A memory entry does not override canon simply because it is recent.
 
----
+______________________________________________________________________
 
-# 61. Retrieval Proof Capsule
+## 61. Retrieval Proof Capsule
 
 Consequential memory retrieval SHOULD conceptually carry:
 
@@ -2437,9 +2440,9 @@ retrieval_proof_capsule:
     UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 62. Memory Write Proof Capsule
+## 62. Memory Write Proof Capsule
 
 ```yaml
 memory_write_proof_capsule:
@@ -2489,9 +2492,9 @@ memory_write_proof_capsule:
   invalidation_conditions: []
 ```
 
----
+______________________________________________________________________
 
-# 63. Knowledge Graph Model
+## 63. Knowledge Graph Model
 
 ```text
              ┌─────────────┐
@@ -2518,9 +2521,9 @@ memory_write_proof_capsule:
 
 Every edge should remain provenance-aware.
 
----
+______________________________________________________________________
 
-# 64. RSCF Memory Node Model
+## 64. RSCF Memory Node Model
 
 ```yaml
 RSCF_MEMORY_NODE:
@@ -2569,9 +2572,9 @@ RSCF_MEMORY_NODE:
     string
 ```
 
----
+______________________________________________________________________
 
-# 65. Knowledge Memory and RSCF
+## 65. Knowledge Memory and RSCF
 
 RSCF allows knowledge to remain structurally contextualized.
 
@@ -2595,9 +2598,9 @@ Exact canonical RSCF semantics must follow authoritative AMOS RSCF canon where a
 
 L11 must not invent incompatible RSCF definitions if the authoritative source differs.
 
----
+______________________________________________________________________
 
-# 66. GMEF Integration
+## 66. GMEF Integration
 
 Where GMEF governs broader epistemic or memory flow, L11 knowledge objects SHOULD preserve sufficient metadata for GMEF-compatible reasoning.
 
@@ -2613,9 +2616,9 @@ GMEF_dependency:
 
 No missing GMEF canon should be fabricated.
 
----
+______________________________________________________________________
 
-# 67. Memory Sensitivity
+## 67. Memory Sensitivity
 
 For consequential retrieval, identify the smallest memory premise capable of flipping the conclusion.
 
@@ -2639,9 +2642,9 @@ rather than revalidating every memory object.
 
 This minimizes unnecessary retrieval and validation.
 
----
+______________________________________________________________________
 
-# 68. Adaptive Memory Validation
+## 68. Adaptive Memory Validation
 
 Validation depth SHOULD scale with:
 
@@ -2671,9 +2674,9 @@ HIGH STAKES + STALE + CONFLICTED
 → deep revalidation
 ```
 
----
+______________________________________________________________________
 
-# 69. Memory Uncertainty Vector
+## 69. Memory Uncertainty Vector
 
 ```yaml
 memory_uncertainty:
@@ -2709,9 +2712,9 @@ memory_uncertainty:
 
 Do not collapse these into one opaque confidence score when the distinction matters.
 
----
+______________________________________________________________________
 
-# 70. Causal Memory Firewall
+## 70. Causal Memory Firewall
 
 Memory must preserve evidence type strongly enough to prevent historical correlation from becoming remembered causation.
 
@@ -2737,9 +2740,9 @@ causal_effect:
 
 unless causal evidence licenses that inference.
 
----
+______________________________________________________________________
 
-# 71. Structural Similarity Firewall
+## 71. Structural Similarity Firewall
 
 If memory stores:
 
@@ -2757,9 +2760,9 @@ unless independently validated.
 
 Repeated retrieval of the analogy does not convert it into causal or empirical proof.
 
----
+______________________________________________________________________
 
-# 72. Knowledge Repair
+## 72. Knowledge Repair
 
 If a stored conclusion is invalidated:
 
@@ -2804,9 +2807,9 @@ revalidate
 
 This is local knowledge repair.
 
----
+______________________________________________________________________
 
-# 73. Knowledge Merge
+## 73. Knowledge Merge
 
 Two entries should merge only if their:
 
@@ -2837,9 +2840,9 @@ threshold = 6
 
 unless a model explicitly licenses that aggregation.
 
----
+______________________________________________________________________
 
-# 74. Duplicate Detection
+## 74. Duplicate Detection
 
 Duplicate content can be:
 
@@ -2868,9 +2871,9 @@ duplicate_relation:
     independence_gain: POSSIBLE
 ```
 
----
+______________________________________________________________________
 
-# 75. Memory Garbage Collection
+## 75. Memory Garbage Collection
 
 Garbage collection must distinguish:
 
@@ -2911,9 +2914,9 @@ gc_policy:
     delete: governed
 ```
 
----
+______________________________________________________________________
 
-# 76. Memory Compression
+## 76. Memory Compression
 
 Compression SHOULD preserve decision-relevant structure.
 
@@ -2945,9 +2948,9 @@ memory_capsule:
 
 Raw details remain retrievable only if required.
 
----
+______________________________________________________________________
 
-# 77. Bootstrap Memory Capsule
+## 77. Bootstrap Memory Capsule
 
 The smallest reusable retrieval unit SHOULD answer:
 
@@ -2996,9 +2999,9 @@ bootstrap_capsule:
     CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
-# 78. Memory Access Levels
+## 78. Memory Access Levels
 
 Conceptually:
 
@@ -3018,9 +3021,9 @@ This hierarchy is an AMOS_MODEL extension for fractal retrieval.
 
 It does not assert a literal storage implementation.
 
----
+______________________________________________________________________
 
-# 79. Durable Learning Test
+## 79. Durable Learning Test
 
 A learning event is fully durable under KM-4 when:
 
@@ -3044,9 +3047,9 @@ CONDITIONAL
 
 because the supplied specification gives the four-channel rule but does not define all exception semantics.
 
----
+______________________________________________________________________
 
-# 80. Memory Integrity Equation
+## 80. Memory Integrity Equation
 
 Conceptual:
 
@@ -3080,9 +3083,9 @@ AUTOMATICALLY VALID TODAY
 
 where temporal validity matters.
 
----
+______________________________________________________________________
 
-# 81. Knowledge Durability Equation
+## 81. Knowledge Durability Equation
 
 Conceptual:
 
@@ -3109,9 +3112,9 @@ DURABILITY = PARTIAL
 
 This is a representation of KM-4, not an empirical formula.
 
----
+______________________________________________________________________
 
-# 82. Memory Trust Equation
+## 82. Memory Trust Equation
 
 Conceptually:
 
@@ -3141,9 +3144,9 @@ wrong regime
 not valid for current use
 ```
 
----
+______________________________________________________________________
 
-# 83. Failure Modes
+## 83. Failure Modes
 
 ```yaml
 memory_failure_modes:
@@ -3197,9 +3200,9 @@ memory_failure_modes:
       transformation falsely upgrades epistemic authority
 ```
 
----
+______________________________________________________________________
 
-# 84. Recovery Mapping
+## 84. Recovery Mapping
 
 ```yaml
 memory_recovery_mapping:
@@ -3253,9 +3256,9 @@ memory_recovery_mapping:
       downgrade_to_supported_class
 ```
 
----
+______________________________________________________________________
 
-# 85. Memory Read Algorithm
+## 85. Memory Read Algorithm
 
 ```python
 def read_memory(query):
@@ -3289,9 +3292,9 @@ def read_memory(query):
 
 Semantic pseudocode only.
 
----
+______________________________________________________________________
 
-# 86. Memory Write Algorithm
+## 86. Memory Write Algorithm
 
 ```python
 def write_memory(entry):
@@ -3321,9 +3324,9 @@ def write_memory(entry):
     return memory_write_receipt(version)
 ```
 
----
+______________________________________________________________________
 
-# 87. Durable Learning Algorithm
+## 87. Durable Learning Algorithm
 
 ```python
 def durable_learning(knowledge):
@@ -3344,9 +3347,9 @@ def durable_learning(knowledge):
 
 The representations may differ while retaining common lineage.
 
----
+______________________________________________________________________
 
-# 88. Revalidation Algorithm
+## 88. Revalidation Algorithm
 
 ```python
 def revalidate(entry, current_context):
@@ -3372,9 +3375,9 @@ def revalidate(entry, current_context):
     return VALIDATED
 ```
 
----
+______________________________________________________________________
 
-# 89. Adversarial Memory Validation
+## 89. Adversarial Memory Validation
 
 For consequential memory:
 
@@ -3415,9 +3418,9 @@ VERIFIED
 
 as appropriate.
 
----
+______________________________________________________________________
 
-# 90. Falsifiers
+## 90. Falsifiers
 
 ## F1 — Authoritative Persistence Contract Conflict
 
@@ -3440,33 +3443,33 @@ invalidate affected KM-4 claims
 and descendants
 ```
 
----
+______________________________________________________________________
 
 ## F2 — Typed Storage Counterexample
 
 KM-1 requires revision if authoritative canon explicitly permits untyped storage to function as authoritative knowledge without equivalent epistemic metadata elsewhere.
 
----
+______________________________________________________________________
 
 ## F3 — Provenance Semantics Conflict
 
 KM-2 requires revision if authoritative canon defines transformations under which source ancestry may legitimately be discarded while preserving equivalent independence guarantees.
 
----
+______________________________________________________________________
 
 ## F4 — Staleness Semantics Conflict
 
 KM-3 requires revision if authoritative canon defines memory as inherently current under specified conditions that eliminate the need for revalidation.
 
----
+______________________________________________________________________
 
 ## F5 — Four-Channel Exception
 
 KM-4 requires scope refinement if authoritative canon establishes valid durable-learning cases requiring fewer or different persistence channels.
 
----
+______________________________________________________________________
 
-# 91. Known Gaps
+## 91. Known Gaps
 
 ```yaml
 gaps:
@@ -3514,22 +3517,22 @@ gaps:
 
 Missing canon must remain a visible gap rather than being filled by invention.
 
----
+______________________________________________________________________
 
-# 92. Canonical Safety Boundary
+## 92. Canonical Safety Boundary
 
 L11 is a reasoning and architecture specification.
 
 It must not be interpreted as asserting that ChatGPT or any current AMOS deployment literally provides:
 
-* a four-channel transactional persistence engine,
-* persistent MVCC memory,
-* CAS-governed memory writes,
-* distributed knowledge transactions,
-* automatic cross-session provenance graphs,
-* atomic skill/workflow/vault/memory commits,
-* causal-epoch storage,
-* formal Sybil-proof provenance.
+- a four-channel transactional persistence engine,
+- persistent MVCC memory,
+- CAS-governed memory writes,
+- distributed knowledge transactions,
+- automatic cross-session provenance graphs,
+- atomic skill/workflow/vault/memory commits,
+- causal-epoch storage,
+- formal Sybil-proof provenance.
 
 Those require implementation evidence.
 
@@ -3541,9 +3544,9 @@ AMOS_MODEL
 
 unless separately verified.
 
----
+______________________________________________________________________
 
-# 93. RSCF Claim Graph
+## 93. RSCF Claim Graph
 
 ```yaml
 claim_graph:
@@ -3599,9 +3602,9 @@ claim_graph:
       Memory and canon are distinct governance classes.
 ```
 
----
+______________________________________________________________________
 
-# 94. Dependency Graph
+## 94. Dependency Graph
 
 ```yaml
 dependency_graph:
@@ -3645,9 +3648,9 @@ dependency_graph:
       - dependency_validity
 ```
 
----
+______________________________________________________________________
 
-# 95. Unified KM-1 → KM-4 Architecture
+## 95. Unified KM-1 → KM-4 Architecture
 
 ```text
                  KNOWLEDGE INPUT
@@ -3689,9 +3692,9 @@ dependency_graph:
                    REVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 96. Minimal Knowledge Contract
+## 96. Minimal Knowledge Contract
 
 Every consequential stored knowledge object SHOULD conceptually provide:
 
@@ -3750,9 +3753,9 @@ knowledge_contract:
     string
 ```
 
----
+______________________________________________________________________
 
-# 97. Minimal Retrieval Contract
+## 97. Minimal Retrieval Contract
 
 Before a consequential memory entry supports a conclusion:
 
@@ -3782,9 +3785,9 @@ Any critical unknown:
 
 rather than silent trust.
 
----
+______________________________________________________________________
 
-# 98. Core Compression
+## 98. Core Compression
 
 ```text
 KM-1
@@ -3826,15 +3829,15 @@ RETRIEVE
 REVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 99. Canonical One-Line Law
+## 99. Canonical One-Line Law
 
 > **Knowledge becomes durable only when it remains typed, provenance-preserving, freshness-visible, and persistently integrated across the required learning channels; memory alone never upgrades a claim into truth.**
 
----
+______________________________________________________________________
 
-# 100. Canonical Equations
+## 100. Canonical Equations
 
 Conceptual AMOS model:
 
@@ -3891,9 +3894,9 @@ REPETITION WITHOUT INDEPENDENCE
 CONFIRMATION
 ```
 
----
+______________________________________________________________________
 
-# 101. Final Proof Capsule
+## 101. Final Proof Capsule
 
 ```yaml
 proof_capsule:
@@ -3960,9 +3963,9 @@ proof_capsule:
     PROPOSED_SPECIFICATION
 ```
 
----
+______________________________________________________________________
 
-# 102. RSCF Node
+## 102. RSCF Node
 
 ```yaml
 RSCF-NODE:
@@ -4021,19 +4024,19 @@ RSCF-RELATIONS:
   - RELATED_TO: [[01_CANON/01_CORE_LAWS/FRACTAL_KNOWLEDGE_NETWORK|FRACTAL_KNOWLEDGE_NETWORK]]
 ```
 
----
+______________________________________________________________________
 
 **00_ROOT_MOC:**
 
-**Related:**  ·  ·
+**Related:** · ·
 
 **MOC:**
 
 **Trang Framework:**
 
----
+______________________________________________________________________
 
-# L11 Final Invariant
+## L11 Final Invariant
 
 ```text
 KNOWLEDGE
@@ -4075,6 +4078,6 @@ CAPTURE
 
 **Conclusion class: CONDITIONAL / AMOS_MODEL.**
 
-
-
+```
+```
 ```

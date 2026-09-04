@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Vault Domain Knowledge — Amos Bounded Code Facts Rscf
 type: reference
 source: 07_SKILLS/amos-bounded-code-facts-rscf/references
 tags:
-- reference
-- amos-bounded-code-facts-rscf
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-bounded-code-facts-rscf
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -239,10 +242,9 @@ Authorization code grant type
 -
 ```
 
----
+______________________________________________________________________
 
-**Related:** [[07_SKILLS/amos-bounded-code-facts-rscf/amos-bounded-code-facts-rscf_MOC|amos-bounded-code-facts-rscf_MOC]]
----
+## **Related:** [[07_SKILLS/amos-bounded-code-facts-rscf/amos-bounded-code-facts-rscf_MOC|amos-bounded-code-facts-rscf_MOC]]
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -250,13 +252,14 @@ Authorization code grant type
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-bounded-code-facts-rscf-vault-domain-knowledge
 node_type: reference
 path: 07_SKILLS/amos-bounded-code-facts-rscf/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC
-

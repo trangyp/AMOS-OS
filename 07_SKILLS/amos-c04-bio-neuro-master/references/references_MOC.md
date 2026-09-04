@@ -1,45 +1,48 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: References MOC — References — Amos C04 Bio Neuro Master
 type: moc
 source: 07_SKILLS/amos-c04-bio-neuro-master/references
 tags:
-- references
-- type/skill
-- bci-intelligence-biological
-- bei-engine-v0
-- biocurrency-monetary-architecture
-- biological-computing
-- biology-cognition-engine
-- biometrics-to-bio-intelligence
-- biometrics-to-bio-intelligence-v2
-- brain-superxc-ubi-cognitive-max
-- domain-config
-- evolutionary-adaptive-systems-v2
-- id-exchange-ubi-neurosyncai
-- kernels-biology-cognition
-- nbi-engine
-- nei-engine
-- nervous-system-framework
-- nervous-system-states
-- neuroplasticity-unified-biological
-- neurosync-quantum-aligned
-- omega-biology-implementation
-- quantum-chemical-logic-qcla
-- si-engine
-- species-interaction-engine
-- ubi-baseline-rule
-- ubi-core-engine-biology
-- ubi-engine-v0
-- ubi-equations
-- ubi-neurosyncai-consentx
-- ubi-neurosyncai-integration
-- ubi-neurosyncai-ratpak
-- ubi-official-manual
-- ubi-operators
-- unified-biological-governance
-- vault-domain-knowledge
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - references
+  - type/skill
+  - bci-intelligence-biological
+  - bei-engine-v0
+  - biocurrency-monetary-architecture
+  - biological-computing
+  - biology-cognition-engine
+  - biometrics-to-bio-intelligence
+  - biometrics-to-bio-intelligence-v2
+  - brain-superxc-ubi-cognitive-max
+  - domain-config
+  - evolutionary-adaptive-systems-v2
+  - id-exchange-ubi-neurosyncai
+  - kernels-biology-cognition
+  - nbi-engine
+  - nei-engine
+  - nervous-system-framework
+  - nervous-system-states
+  - neuroplasticity-unified-biological
+  - neurosync-quantum-aligned
+  - omega-biology-implementation
+  - quantum-chemical-logic-qcla
+  - si-engine
+  - species-interaction-engine
+  - ubi-baseline-rule
+  - ubi-core-engine-biology
+  - ubi-engine-v0
+  - ubi-equations
+  - ubi-neurosyncai-consentx
+  - ubi-neurosyncai-integration
+  - ubi-neurosyncai-ratpak
+  - ubi-official-manual
+  - ubi-operators
+  - unified-biological-governance
+  - vault-domain-knowledge
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 moc: true
 rscf:
   state: SOURCE_CLAIM
@@ -89,9 +92,9 @@ rscf:
 - [[07_SKILLS/amos-c04-bio-neuro-master/references/unified_biological_governance|unified_biological_governance]]
 - [[07_SKILLS/amos-c04-bio-neuro-master/references/vault_domain_knowledge|vault_domain_knowledge]]
 
----
-**Parent:** [[07_SKILLS/amos-c04-bio-neuro-master/amos-c04-bio-neuro-master_MOC|amos-c04-bio-neuro-master_MOC]]
----
+______________________________________________________________________
+
+## **Parent:** [[07_SKILLS/amos-c04-bio-neuro-master/amos-c04-bio-neuro-master_MOC|amos-c04-bio-neuro-master_MOC]]
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -99,12 +102,14 @@ rscf:
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-c04-bio-neuro-master-references-MOC
 node_type: reference
 path: 07_SKILLS/amos-c04-bio-neuro-master/references/references_MOC.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

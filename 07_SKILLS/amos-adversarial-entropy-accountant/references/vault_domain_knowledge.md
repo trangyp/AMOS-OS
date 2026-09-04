@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Vault Domain Knowledge — Amos Adversarial Entropy Accountant
 type: reference
 source: 07_SKILLS/amos-adversarial-entropy-accountant/references
 tags:
-- reference
-- amos-adversarial-entropy-accountant
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-adversarial-entropy-accountant
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -27,16 +30,16 @@ rscf:
 
 > Path: `dated/2026-08-25/2026-08-25 QFM Bridge Governance and Entropy-Lacunarity Skill.md` | Size: 2637 chars | Match score: 12
 
-# 2026-08-25 — QFM Bridge Governance + Entropy/Lacunarity Consolidation
+## 2026-08-25 — QFM Bridge Governance + Entropy/Lacunarity Consolidation
 
 ## Gap analysis that drove this pass
 
-| Gap found in corpus | Evidence | Closure |
-|---|---|---|
-| Vault entropy/lacunarity/viability equations had no dedicated skill | `ENTROPY_LACUNARITY.md` (16 lines, canonical equations) referenced only inside 5 scattered skills | New skill `amos-entropy-lacunarity-viability` |
-| Cross-domain bridges existed as prose with no verification gate | QFM master Part IV listed B1–B4 without any procedure to check a bridge use before conclusion | New workflow `amos-fractal-systems-master-workflow.md` |
-| No agent owned bridge auditing | 93 agents, none with mapping/invariant-survival/grounding capabilities | New agent `amos-fractal-systems-master` |
-| Unified QFM workflow lacked hardening routing | Phase 6 gates ended at loop detection; no adversarial or bridge gates | Phase 6 extended to 7 gates |
+| Gap found in corpus                                                 | Evidence                                                                                          | Closure                                                |
+| ------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- | ------------------------------------------------------ |
+| Vault entropy/lacunarity/viability equations had no dedicated skill | `ENTROPY_LACUNARITY.md` (16 lines, canonical equations) referenced only inside 5 scattered skills | New skill `amos-entropy-lacunarity-viability`          |
+| Cross-domain bridges existed as prose with no verification gate     | QFM master Part IV listed B1–B4 without any procedure to check a bridge use before conclusion     | New workflow `amos-fractal-systems-master-workflow.md` |
+| No agent owned bridge auditing                                      | 93 agents, none with mapping/invariant-survival/grounding capabilities                            | New agent `amos-fractal-systems-master`                |
+| Unified QFM workflow lacked hardening routing                       | Phase 6 gates ended at loop detection; no adversarial or bridge gates                             | Phase 6 extended to 7 gates                            |
 
 ## Bridge registry now canonical (B1–B5)
 
@@ -50,16 +53,16 @@ B1 RG↔fractals (DERIVED structural) · B2 Rényi S_q ↔ D_q (family, not valu
 
 ## Artifacts
 
-| Channel | Artifact |
-|---|---|
-| Skill | `amos/amos-entropy-lacunarity-viability` (canonical E_X, Λ_X, PV equations + measurement procedure + anti-overreach guards) |
-| Workflow | `amos-fractal-systems-master-workflow.md` (path may vary) |
-| Agent | `amos-fractal-systems-master` (path may vary) |
-| Patched | QFM master Part IV (bridge IDs + discipline), unified workflow Phase 6 (+2 gates) |
+| Channel  | Artifact                                                                                                                    |
+| -------- | --------------------------------------------------------------------------------------------------------------------------- |
+| Skill    | `amos/amos-entropy-lacunarity-viability` (canonical E_X, Λ_X, PV equations + measurement procedure + anti-overreach guards) |
+| Workflow | `amos-fractal-systems-master-workflow.md` (path may vary)                                                                   |
+| Agent    | `amos-fractal-systems-master` (path may vary)                                                                               |
+| Patched  | QFM master Part IV (bridge IDs + discipline), unified workflow Phase 6 (+2 gates)                                           |
 
----
+______________________________________________________________________
 
----
+______________________________________________________________________
 
 ### Source 2: Distinction–Mutation–Entropy–Repair
 
@@ -101,11 +104,11 @@ The conversion preserves the source's strongest reusable structural ideas while 
 
 The retained core is:
 
-[
-\boxed{
-D \rightarrow M \rightarrow E \rightarrow R
+\[
+\\boxed{
+D \\rightarrow M \\rightarrow E \\rightarrow R
 }
-]
+\]
 
 where:
 
@@ -119,19 +122,19 @@ R — Repair: restore valid distinctions, provenance, consistency, capability, a
 
 For AI operation, persistence is not modeled as a universal physical law. It is a control objective:
 
-[
-\boxed{
-Viability_{AI}(t)
-\propto
+\[
+\\boxed{
+Viability\_{AI}(t)
+\\propto
 RepairCapacity(t)-EntropyGrowth(t)
 }
-]
+\]
 
 with the operational condition:
 
-[
+\[
 R_t > E_t
-]
+\]
 
 meaning only:
 
@@ -180,10 +183,10 @@ are not treated as biological human types, genes, diagnoses, or fixed personalit
 
 They become four AI operating modes:
 
-HUNTER      exploration / anomaly search / novelty / sparse action
-FARMER      stabilization / memory / repetition / maintenance
-WARRIOR     intervention / containment / decisive execution
-DIPLOMAT    coordination / translation / negotiation / consensus
+HUNTER exploration / anomaly search / novelty / sparse action
+FARMER stabilization / memory / repetition / maintenance
+WARRIOR intervention / containment / decisive execution
+DIPLOMAT coordination / translation / negotiation / consensus
 
 1.3 Quarantined from runtime authority
 
@@ -194,127 +197,129 @@ medical or psychiatric diagnoses mapped to archetypes
 diet prescriptions tied to archetype
 claims of inheren
 
----
+______________________________________________________________________
 
 ### Source 3: ai_entropy_architecture 2
 
 > Path: `architecture/ai_entropy_architecture 2.md` | Size: 7965 chars | Match score: 10
 
 {
-  "metadata": {
-    "title": "AI Entropy Fractal Architecture 500000",
-    "version": "1.0",
-    "created_utc": "2026-05-06T08:45:24+00:00",
-    "entry_count": 500000
-  },
-  "core": "AI = Intent + Context + Memory + Reasoning + Tooling + Entropy + Validation + Permission + Output",
-  "L_M_H": {
-    "L": "low integrity: unclear intent, missing context, high hallucination risk",
-    "M": "fluent but uncertain: plausible output, weak grounding, hidden entropy",
-    "H": "high integrity: grounded, scoped, validated, calibrated output"
-  },
-  "fractal_scales": [
-    "token",
-    "sentence",
-    "answer",
-    "conversation",
-    "memory",
-    "tool_call",
-    "agent_loop",
-    "system"
-  ],
-  "main_law": "AI output is not trusted because it is fluent. It is trusted only when intent, grounding, validation, calibration, and permission align.",
-  "templates": [
-    {
-      "id": "AIE001",
-      "name": "intent_alignment",
-      "formula": "IA=match(user_intent,model_interpretation)",
-      "layer": "intent"
-    },
-    {
-      "id": "AIE002",
-      "name": "context_completeness",
-      "formula": "CC=available_context/required_context",
-      "layer": "context"
-    },
-    {
-      "id": "AIE003",
-      "name": "memory_relevance",
-      "formula": "MR=relevant_memory/used_memory",
-      "layer": "memory"
-    },
-    {
-      "id": "AIE004",
-      "name": "memory_conflict",
-      "formula": "MC=conflicting_memory/total_memory",
-      "layer": "memory_entropy"
-    },
-    {
-      "id": "AIE005",
-      "name": "retrieval_grounding",
-      "formula": "RG=grounded_claims/total_claims",
-      "layer": "grounding"
-    },
-    {
-      "id": "AIE006",
-      "name": "hallucination_risk",
-      "formula": "HR=unsupported_specifics+fake_citations+unknown_entities",
-      "layer": "risk"
-    },
-    {
-      "id": "AIE007",
-      "name": "claim_support",
-      "formula": "CS=supported_claims/total_claims",
-      "layer": "truth"
-    },
-    {
-      "id": "AIE008",
-      "name": "uncertainty_score",
-      "formula": "U=missing_info+conflict+ambiguity+tool_gap",
-      "layer": "entropy"
-    },
-    {
-      "id": "AIE009",
-      "name": "reasoning_entropy",
-      "formula": "RE=branch_count*branch_conflict*low_evidence",
-      "layer": "reasoning"
-    },
-    {
-      "id": "AIE010",
-      "name": "answer_entropy",
-      "formula": "AE=ambiguity+overclaim+unsupported_detail",
-      "layer": "output_entropy"
-    },
-    {
-      "id": "AIE011",
-      "name": "tool_risk",
-      "formula": "TR=unverified_tool_output+tool_failure+schema_mismatch",
-      "layer": "tool"
-    },
-    {
-      "id": "AIE012",
-      "name": "tool_permission",
-      "formula": "TP=tool_needed*tool_available*tool_safe*schema_valid",
-      "layer": "tool"
-    },
-    {
-      "id": "AIE013",
-      "name": "fake_capability_risk",
-      "formula": "FCR=claimed_capability_without_execution_path",
-      "layer": "risk"
-    },
-    {
-      "id": "AIE014",
-      "name": "overconfidence_risk",
-      "formula": "OCR=confiden
+"metadata": {
+"title": "AI Entropy Fractal Architecture 500000",
+"version": "1.0",
+"created_utc": "2026-05-06T08:45:24+00:00",
+"entry_count": 500000
+},
+"core": "AI = Intent + Context + Memory + Reasoning + Tooling + Entropy + Validation + Permission + Output",
+"L_M_H": {
+"L": "low integrity: unclear intent, missing context, high hallucination risk",
+"M": "fluent but uncertain: plausible output, weak grounding, hidden entropy",
+"H": "high integrity: grounded, scoped, validated, calibrated output"
+},
+"fractal_scales": \[
+"token",
+"sentence",
+"answer",
+"conversation",
+"memory",
+"tool_call",
+"agent_loop",
+"system"
+\],
+"main_law": "AI output is not trusted because it is fluent. It is trusted only when intent, grounding, validation, calibration, and permission align.",
+"templates": \[
+{
+"id": "AIE001",
+"name": "intent_alignment",
+"formula": "IA=match(user_intent,model_interpretation)",
+"layer": "intent"
+},
+{
+"id": "AIE002",
+"name": "context_completeness",
+"formula": "CC=available_context/required_context",
+"layer": "context"
+},
+{
+"id": "AIE003",
+"name": "memory_relevance",
+"formula": "MR=relevant_memory/used_memory",
+"layer": "memory"
+},
+{
+"id": "AIE004",
+"name": "memory_conflict",
+"formula": "MC=conflicting_memory/total_memory",
+"layer": "memory_entropy"
+},
+{
+"id": "AIE005",
+"name": "retrieval_grounding",
+"formula": "RG=grounded_claims/total_claims",
+"layer": "grounding"
+},
+{
+"id": "AIE006",
+"name": "hallucination_risk",
+"formula": "HR=unsupported_specifics+fake_citations+unknown_entities",
+"layer": "risk"
+},
+{
+"id": "AIE007",
+"name": "claim_support",
+"formula": "CS=supported_claims/total_claims",
+"layer": "truth"
+},
+{
+"id": "AIE008",
+"name": "uncertainty_score",
+"formula": "U=missing_info+conflict+ambiguity+tool_gap",
+"layer": "entropy"
+},
+{
+"id": "AIE009",
+"name": "reasoning_entropy",
+"formula": "RE=branch_count*branch_conflict*low_evidence",
+"layer": "reasoning"
+},
+{
+"id": "AIE010",
+"name": "answer_entropy",
+"formula": "AE=ambiguity+overclaim+unsupported_detail",
+"layer": "output_entropy"
+},
+{
+"id": "AIE011",
+"name": "tool_risk",
+"formula": "TR=unverified_tool_output+tool_failure+schema_mismatch",
+"layer": "tool"
+},
+{
+"id": "AIE012",
+"name": "tool_permission",
+"formula": "TP=tool_needed*tool_available*tool_safe\*schema_valid",
+"layer": "tool"
+},
+{
+"id": "AIE013",
+"name": "fake_capability_risk",
+"formula": "FCR=claimed_capability_without_execution_path",
+"layer": "risk"
+},
+{
+"id": "AIE014",
+"name": "overconfidence_risk",
+"formula": "OCR=confiden
 
----
+______________________________________________________________________
+
 **MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -322,12 +327,14 @@ claims of inheren
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-adversarial-entropy-accountant-vault-domain-knowledge
 node_type: reference
 path: 07_SKILLS/amos-adversarial-entropy-accountant/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

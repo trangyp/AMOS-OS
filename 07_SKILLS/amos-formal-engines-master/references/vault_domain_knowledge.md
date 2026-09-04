@@ -1,12 +1,15 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Vault Domain Knowledge — Amos Formal Engines Master
 type: reference
 source: 07_SKILLS/amos-formal-engines-master/references
 tags:
-- reference
-- amos-formal-engines-master
-- type/skill
-- skill
+  - reference
+  - amos-formal-engines-master
+  - type/skill
+  - skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -19,12 +22,12 @@ rscf:
 > Load this reference only when detailed domain knowledge is needed.
 > This content was moved from SKILL.md for progressive loading.
 
----
+______________________________________________________________________
 
 > **Source**: `02_KERNEL/01_META_LOGIC/K_META_LOGIC.md` from the AMOS_OS Obsidian vault.
 > This is substantive domain knowledge, not script-generated content.
 
-# L02_ATTENTION — Purpose
+## L02_ATTENTION — Purpose
 
 **Class:** `COGNITIVE_PRIMITIVE_PURPOSE_CONTRACT`
 **Origin architect / steward:** Trang Phan
@@ -34,9 +37,9 @@ rscf:
 
 > **Canon boundary:** available source material identifies `L02_ATTENTION` as the primitive concerned with **attention allocation and budgeting scarce reasoning/observation resources**. The expanded architectural purpose, AI application model, interfaces, operators, governance rules, H/M/L mapping, and runtime behavior below are `AMOS_MODEL` unless independently supported by direct canon or executable evidence.
 
----
+______________________________________________________________________
 
-# 0. Purpose Statement
+## 0. Purpose Statement
 
 `L02_ATTENTION` exists to govern **what receives finite cognitive processing resources, when, at what depth, for how long, and under which constraints**.
 
@@ -69,9 +72,9 @@ The central purpose is therefore:
 
 > **Allocate scarce reasoning and observation capacity toward the smallest set of targets whose processing can materially improve epistemic integrity, decision quality, safety, recovery, or task completion.**
 
----
+______________________________________________________________________
 
-# 1. Source / Canon Basis
+## 1. Source / Canon Basis
 
 ## 1.1 Source-supported semantic core
 
@@ -108,22 +111,20 @@ canonical neural mechanism
 canonical AI implementation
 ```
 
----
+______________________________________________________________________
 
-# 2. Definition
+## 2. Definition
 
 Within this AMOS model:
 
-[
-Attention
-=========
+## \[ Attention
 
 GovernedAllocation(
 ProcessingResources,
 CandidateTargets,
 Context
 )
-]
+\]
 
 where `Context` includes, where material:
 
@@ -155,9 +156,9 @@ what is ignored for now
 when focus should stop
 ```
 
----
+______________________________________________________________________
 
-# 3. What L02 Is Not
+## 3. What L02 Is Not
 
 L02 must remain distinct from adjacent epistemic and governance functions.
 
@@ -199,9 +200,9 @@ An action receiving high priority
 does not authorize the action.
 ```
 
----
+______________________________________________________________________
 
-# 4. Primary System Role
+## 4. Primary System Role
 
 L02 sits conceptually between a broad field of available information and deeper cognitive processing.
 
@@ -225,17 +226,17 @@ The exact canonical downstream primitive remains `UNKNOWN/GAP` unless independen
 
 The source-supported neighboring relationship should therefore be treated conservatively.
 
----
+______________________________________________________________________
 
-# 5. Why L02 Exists
+## 5. Why L02 Exists
 
 A cognitive system cannot process every potentially available object with maximum depth.
 
 If candidate set size is:
 
-[
-|X| \gg Capacity
-]
+\[
+|X| \\gg Capacity
+\]
 
 then some selection function is unavoidable.
 
@@ -258,19 +259,19 @@ endless exploration
 
 L02 provides the architecture for controlling this bottleneck.
 
----
+______________________________________________________________________
 
-# 6. Core Objectives
+## 6. Core Objectives
 
 The purpose of L02 can be decomposed into the following objectives.
 
 ## 6.1 Preserve finite resources
 
-[
-\sum_i Allocation_i
-\le
+\[
+\\sum_i Allocation_i
+\\le
 AvailableBudget
-]
+\]
 
 for compatible resource units.
 
@@ -288,7 +289,7 @@ agent calls
 human-review capacity
 ```
 
----
+______________________________________________________________________
 
 ## 6.2 Protect load-bearing reasoning
 
@@ -306,7 +307,7 @@ critical gaps
 repair
 ```
 
----
+______________________________________________________________________
 
 ## 6.3 Reduce decision-relevant uncertainty
 
@@ -323,7 +324,7 @@ repair path
 confidence ceiling
 ```
 
----
+______________________________________________________________________
 
 ## 6.4 Prevent salience capture
 
@@ -345,7 +346,7 @@ SALIENCE
 PRIORITY
 ```
 
----
+______________________________________________________________________
 
 ## 6.5 Preserve competing hypotheses
 
@@ -359,7 +360,7 @@ must remain visible.
 
 Attention should seek discriminating evidence rather than forcing premature convergence.
 
----
+______________________________________________________________________
 
 ## 6.6 Enable adaptive depth
 
@@ -375,7 +376,7 @@ C4 Maximum
 
 according to decision-relevant uncertainty, stakes, contradiction, novelty, provenance weakness, and irreversibility.
 
----
+______________________________________________________________________
 
 ## 6.7 Stop when sufficient
 
@@ -385,22 +386,20 @@ It should stop when relevant sufficiency conditions are met.
 
 Conceptually:
 
-[
-Stop
-====
+## \[ Stop
 
 ClaimSufficiency
-\land
+\\land
 DecisionSufficiency
-\land
+\\land
 ActionSufficiency
-]
+\]
 
 where non-applicable components are excluded.
 
----
+______________________________________________________________________
 
-# 7. Application to AI
+## 7. Application to AI
 
 `L02_ATTENTION` can be applied to AI systems as a governed **reasoning-resource allocation layer**.
 
@@ -418,9 +417,9 @@ Transformer attention is an internal model computation.
 
 AMOS L02 attention is a higher-level architecture for deciding what an AI system should process, retrieve, inspect, verify, revisit, escalate, or ignore.
 
----
+______________________________________________________________________
 
-# 8. AI Use Cases
+## 8. AI Use Cases
 
 For AI agents, L02 may govern:
 
@@ -456,18 +455,18 @@ when to ask another specialist skill
 when a task should be blocked because authority is absent
 ```
 
----
+______________________________________________________________________
 
-# 9. AI Attention Candidate Space
+## 9. AI Attention Candidate Space
 
 For an AI system:
 
-[
+\[
 X_t =
 {
-user\ requirements,
+user\\ requirements,
 observations,
-retrieved\ evidence,
+retrieved\\ evidence,
 memory,
 hypotheses,
 constraints,
@@ -477,16 +476,14 @@ tasks,
 risks,
 gaps
 }
-]
+\]
 
 L02 then proposes allocation:
 
-[
-A_t
-===
+## \[ A_t
 
 Allocate(X_t,B_t,C_t)
-]
+\]
 
 where:
 
@@ -495,9 +492,9 @@ B_t = available resource budget
 C_t = governing context
 ```
 
----
+______________________________________________________________________
 
-# 10. AI-Specific Resource Dimensions
+## 10. AI-Specific Resource Dimensions
 
 AI attention resources may include:
 
@@ -533,9 +530,9 @@ These resource dimensions must remain typed.
 
 They cannot be blindly summed.
 
----
+______________________________________________________________________
 
-# 11. AI Attention Priority Factors
+## 11. AI Attention Priority Factors
 
 A candidate AI attention model may consider:
 
@@ -557,9 +554,7 @@ resource cost
 
 Generic model:
 
-[
-Priority_i
-==========
+## \[ Priority_i
 
 F(
 Goal_i,
@@ -571,15 +566,15 @@ Freshness_i,
 InformationValue_i,
 Cost_i
 )
-]
+\]
 
 This is `AMOS_MODEL`.
 
 No canonical coefficient set is claimed.
 
----
+______________________________________________________________________
 
-# 12. Typed Inputs
+## 12. Typed Inputs
 
 ```yaml
 AttentionPurposeInput:
@@ -627,9 +622,9 @@ AttentionPurposeInput:
     type: AuthorityContext
 ```
 
----
+______________________________________________________________________
 
-# 13. Typed Outputs
+## 13. Typed Outputs
 
 ```yaml
 AttentionPurposeOutput:
@@ -676,9 +671,9 @@ AttentionPurposeOutput:
       - UNKNOWN_GAP
 ```
 
----
+______________________________________________________________________
 
-# 14. State Variables
+## 14. State Variables
 
 ```text
 X_t       = candidate attention space
@@ -702,9 +697,9 @@ Gap_t     = unresolved gaps
 Auth_t    = authority context
 ```
 
----
+______________________________________________________________________
 
-# 15. Operators
+## 15. Operators
 
 Purpose-level L02 capabilities may include:
 
@@ -753,9 +748,9 @@ EMIT_PROPOSAL()
 
 These operator names remain `AMOS_MODEL`.
 
----
+______________________________________________________________________
 
-# 16. Core Invariants
+## 16. Core Invariants
 
 ```text
 L02-PURPOSE-INV-001
@@ -825,9 +820,9 @@ L02-PURPOSE-INV-022
 Proposal cannot silently become commit.
 ```
 
----
+______________________________________________________________________
 
-# 17. Dependencies
+## 17. Dependencies
 
 Source-bounded dependency model:
 
@@ -888,9 +883,9 @@ dependencies:
 
 The exact canonical downstream dependency graph remains unresolved.
 
----
+______________________________________________________________________
 
-# 18. H/M/L Applicability
+## 18. H/M/L Applicability
 
 ## H — Governing Attention
 
@@ -915,7 +910,7 @@ Question:
 What is important enough to shape the whole reasoning process?
 ```
 
----
+______________________________________________________________________
 
 ## M — Allocation Attention
 
@@ -939,10 +934,9 @@ Question:
 Which reasoning path should receive resources next?
 ```
 
----
+______________________________________________________________________
 
 ## L — Local Attention
-
 
 ## Vault-Sourced Domain Content
 
@@ -978,7 +972,7 @@ They may not own:
 - durable effect finality;
 - commit/release authority.
 
----
+______________________________________________________________________
 
 ### Weak Architecture
 
@@ -1039,7 +1033,7 @@ MissingRequiredProof
 
 The closure is capability-derived and must not be inferred from observed messages or available workers.
 
----
+______________________________________________________________________
 
 ### 5.2 Multi_Skill_Proof_Join
 
@@ -1064,7 +1058,7 @@ MULTI_SKILL_PROOF_JOIN[
 
 Every load-bearing proof must bind to one compatible join identity.
 
----
+______________________________________________________________________
 
 ### 6. Joint Proof Gate
 
@@ -1083,14 +1077,14 @@ A joined proof is still **not** commit authority.
 Before release, AMOS infrastructure must independently:
 
 1. re-read current authoritative state;
-2. recompute required-proof closure from the frozen capability contract;
-3. compare current effect, transaction, policy, authority and environment identity;
-4. verify proof hashes;
-5. verify ledger/read-set freshness where required;
-6. reject authority-expanding substitutions;
-7. return commit, revalidation, reconciliation, or block.
+1. recompute required-proof closure from the frozen capability contract;
+1. compare current effect, transaction, policy, authority and environment identity;
+1. verify proof hashes;
+1. verify ledger/read-set freshness where required;
+1. reject authority-expanding substitutions;
+1. return commit, revalidation, reconciliation, or block.
 
----
+______________________________________________________________________
 
 ### 7. Agent Architecture Enhancement
 
@@ -1141,7 +1135,7 @@ propose release
 
 under one control root.
 
----
+______________________________________________________________________
 
 ### 9. Information-Exposure Control Integration
 
@@ -1172,7 +1166,7 @@ SkillPassToken != CommitAuthority
 AllLocalSkillPass != JointProofPass
 ```
 
----
+______________________________________________________________________
 
 ### Open Policy Agent
 
@@ -1230,7 +1224,7 @@ Guarantees inherit:
 - covered action interface;
 - declared assumptions.
 
----
+______________________________________________________________________
 
 ### 15. Final Architecture Law
 
@@ -1240,22 +1234,25 @@ And therefore:
 
 > **Model proposal != Skill output != proof join != authoritative commit != external consequence.**
 
----
+______________________________________________________________________
 
 [[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos_infrastructure_cross_skill_proof_composition_report
 node_type: note
 path: 11_KNOWLEDGE/AMOS_Infrastructure_Cross_Skill_Proof_Composition_Report.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
+
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
 
 ## Failure Modes
 
@@ -1265,6 +1262,6 @@ claim_class: AMOS_MODEL
 - **Validation failure**: If validation gates fail, downgrade confidence, flag the gap, and escalate — do not force-fit.
 - **Epistemic overreach**: If a claim exceeds the established evidence or epistemic class, retract and relabel.
 
----
-**MOC:** references_MOC
+______________________________________________________________________
 
+**MOC:** references_MOC

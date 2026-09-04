@@ -1,16 +1,19 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: AMOS TECH KERNEL EXPANSION
 tags:
-- canon-group/biology
-- canon/framework
-- rscf/claim
-- rscf/provenance
-- rscf/state/source-claim
-- topic/amos-tech-kernel-expansion
-- kernel
-- system-scan-agent
-- automation-profiles
-- amos-simulation-kernel-v0-math-foundations
+  - canon-group/biology
+  - canon/framework
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - topic/amos-tech-kernel-expansion
+  - kernel
+  - system-scan-agent
+  - automation-profiles
+  - amos-simulation-kernel-v0-math-foundations
 type: note
 source: 11_KNOWLEDGE/kernel
 rscf:
@@ -25,6 +28,7 @@ rscf:
 AMOS Tech Kernel Expansion Complete (2026-08-22)
 
 18 new Tech kernel files created in md/Kernels/Tech/:
+
 - AMOS_Memory_Optimization_Kernel_v0.md — memory profiling, knowledge compression, retention, retrieval optimization
 - AMOS_Toolchain_Integration_Kernel_v0.md — tool discovery, connection management, tool composition, error handling
 - AMOS_Observability_Monitoring_Kernel_v0.md — metrics, log aggregation, distributed tracing, alerting, dashboards
@@ -54,8 +58,10 @@ New workflow written to brain vault: AMOS_Tech_Kernel_Integration_Workflow.md �
 
 Tech kernel coverage: 20 files covering software architecture, infrastructure, security, data engineering, data science, ML engineering, DevOps, QA/testing, product management, agile delivery, business analysis, API design, automation, ETL, integration platform, observability, toolchain integration, memory optimization, and unified tech engine.
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS · SYSTEM_SCAN_AGENT · AUTOMATION_PROFILES · [[11_KNOWLEDGE/kernel/FINANCE_SENSOR_KERNEL|FINANCE_SENSOR_KERNEL]] · [[11_KNOWLEDGE/kernel/AMOS_MEDICAL_CLINICAL_KERNEL|AMOS_MEDICAL_CLINICAL_KERNEL]] · [[11_KNOWLEDGE/kernel/AMOS_PARTNERSHIPS_CHANNELS_KERNEL|AMOS_PARTNERSHIPS_CHANNELS_KERNEL]] · [[11_KNOWLEDGE/kernel/ORG_GOVERNANCE_KERNEL|ORG_GOVERNANCE_KERNEL]]
 
----
+______________________________________________________________________
+
 **MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]

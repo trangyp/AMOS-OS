@@ -1,14 +1,17 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: L00_REALITY_ENVIRONMENT — Equations
 type: cognitive
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT
 tags:
-- cognitive-matrix
-- primitives
-- matrix/l00-reality-environment
-- note
-- domain/cognitive-matrix
-- amos-simulation-kernel-v0-math-foundations
+  - cognitive-matrix
+  - primitives
+  - matrix/l00-reality-environment
+  - note
+  - domain/cognitive-matrix
+  - amos-simulation-kernel-v0-math-foundations
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -22,9 +25,9 @@ rscf:
 **Origin architect / steward:** Trang Phan
 **Status:** `ARCHITECTURE CONTRACT / IMPLEMENTATION-DEPENDENT`
 
----
+______________________________________________________________________
 
-# 1. Purpose
+## 1. Purpose
 
 `L00_REALITY_ENVIRONMENT / EQUATIONS` defines the formal AMOS equation layer governing the relationship between:
 
@@ -54,31 +57,31 @@ The equations define AMOS architectural contracts for maintaining reality contac
 
 The fundamental architecture is:
 
-[
-\boxed{
+\[
+\\boxed{
 Reality
-\rightarrow
+\\rightarrow
 Observation
-\rightarrow
+\\rightarrow
 Evidence
-\rightarrow
+\\rightarrow
 Representation
-\rightarrow
+\\rightarrow
 Reasoning
-\rightarrow
+\\rightarrow
 Decision
-\rightarrow
+\\rightarrow
 Action
-\rightarrow
+\\rightarrow
 Reality'
 }
-]
+\]
 
 with continuous validation against subsequent observations.
 
----
+______________________________________________________________________
 
-# 2. Equation Classes
+## 2. Equation Classes
 
 Every equation in this architecture must be typed.
 
@@ -111,18 +114,15 @@ Equation type is part of equation semantics.
 
 A symbolic resemblance between equations does not imply equivalent meaning.
 
----
+______________________________________________________________________
 
-# 3. Universal Equation Contract
+## 3. Universal Equation Contract
 
 Every material AMOS equation should be representable as:
 
-[
-\boxed{
-\mathcal{E}
-===========
+## \[ \\boxed{ \\mathcal{E}
 
-T[
+T\[
 id,
 class,
 inputs,
@@ -138,22 +138,19 @@ provenance,
 assumptions,
 validity,
 falsifiers
-]
+\]
 }
-]
+\]
 
 This prevents equations from becoming detached mathematical notation.
 
----
+______________________________________________________________________
 
-# 4. Equation Tensor
+## 4. Equation Tensor
 
-[
-\boxed{
-T_{EQ}
-======
+## \[ \\boxed{ T\_{EQ}
 
-T[
+T\[
 equation_id,
 equation_class,
 variables,
@@ -171,9 +168,9 @@ provenance,
 assumptions,
 confidence,
 falsifiers
-]
+\]
 }
-]
+\]
 
 Hard invariant:
 
@@ -181,44 +178,41 @@ Hard invariant:
 EQUATION WITHOUT SEMANTIC TYPES != COMPLETE AMOS EQUATION
 ```
 
----
+______________________________________________________________________
 
-# 5. Reality State
+## 5. Reality State
 
 Let the environment at time (t) be represented by:
 
-[
-\boxed{
+\[
+\\boxed{
 R_t
 }
-]
+\]
 
-where \(R_t\) denotes the relevant external state within a declared scope.
+where (R_t) denotes the relevant external state within a declared scope.
 
 AMOS does not assume that the complete state of reality is observable.
 
 Therefore:
 
-[
-\boxed{
+\[
+\\boxed{
 R_t^{known}
-\subseteq
+\\subseteq
 R_t^{relevant}
 }
-]
+\]
 
 conceptually, where the left side represents the portion currently represented by the system.
 
----
+______________________________________________________________________
 
-# 6. Reality State Tensor
+## 6. Reality State Tensor
 
-[
-\boxed{
-T_R
-===
+## \[ \\boxed{ T_R
 
-T[
+T\[
 state_id,
 environment,
 entities,
@@ -229,9 +223,9 @@ regime,
 scope,
 observer_access,
 uncertainty
-]
+\]
 }
-]
+\]
 
 This is an architectural representation.
 
@@ -241,77 +235,68 @@ It is not equivalent to reality itself.
 REALITY_STATE_MODEL != REALITY
 ```
 
----
+______________________________________________________________________
 
-# 7. Environment State Transition
+## 7. Environment State Transition
 
 External state evolution is represented abstractly as:
 
-[
-\boxed{
-R_{t+1}
-=======
+## \[ \\boxed{ R\_{t+1}
 
 F_R(
 R_t,
 U_t,
 X_t,
-\epsilon_t
+\\epsilon_t
 )
 }
-]
+\]
 
 where:
 
-- \(R_t\) = prior environment state;
-- \(U_t\) = system actions/interventions;
-- \(X_t\) = relevant exogenous conditions;
-- (\epsilon_t) = unresolved or unmodeled influences;
-- \(F_R\) = domain-specific transition operator.
+- (R_t) = prior environment state;
+- (U_t) = system actions/interventions;
+- (X_t) = relevant exogenous conditions;
+- (\\epsilon_t) = unresolved or unmodeled influences;
+- (F_R) = domain-specific transition operator.
 
-AMOS does not assume \(F_R\) is fully known.
+AMOS does not assume (F_R) is fully known.
 
----
+______________________________________________________________________
 
-# 8. Partial-Knowledge State Transition
+## 8. Partial-Knowledge State Transition
 
 The system's internal prediction is:
 
-[
-\boxed{
-\hat{R}_{t+1}
-=============
+## \[ \\boxed{ \\hat{R}\_{t+1}
 
-\hat{F}_R(
-\hat{R}_t,
+\\hat{F}\_R(
+\\hat{R}\_t,
 U_t,
 X_t
 )
 }
-]
+\]
 
 Hard distinction:
 
-[
-\boxed{
-\hat{R}*{t+1}
-\neq
+\[
+\\boxed{
+\\hat{R}*{t+1}
+\\neq
 R*{t+1}
 }
-]
+\]
 
 unless equality is independently established for the declared representation and scope.
 
----
+______________________________________________________________________
 
-# 9. Observation Equation
+## 9. Observation Equation
 
 Observation is represented by:
 
-[
-\boxed{
-O_t
-===
+## \[ \\boxed{ O_t
 
 H(
 R_t,
@@ -319,32 +304,32 @@ A_t,
 M_t,
 C_t
 )
-+
-\epsilon_t^{obs}
+\+
+\\epsilon_t^{obs}
 }
-]
+\]
 
 where:
 
-- \(R_t\) = environment state;
-- \(A_t\) = observer/access configuration;
-- \(M_t\) = measurement method;
-- \(C_t\) = observation context;
-- (\epsilon_t^{obs}) = observation uncertainty/error.
+- (R_t) = environment state;
+- (A_t) = observer/access configuration;
+- (M_t) = measurement method;
+- (C_t) = observation context;
+- (\\epsilon_t^{obs}) = observation uncertainty/error.
 
 This equation encodes partial access.
 
----
+______________________________________________________________________
 
-# 10. Observation Firewall
+## 10. Observation Firewall
 
-[
-\boxed{
+\[
+\\boxed{
 O_t
-\neq
+\\neq
 R_t
 }
-]
+\]
 
 Observation is evidence about reality.
 
@@ -358,16 +343,13 @@ MEASUREMENT != OBJECT
 REPRESENTATION != REFERENT
 ```
 
----
+______________________________________________________________________
 
-# 11. Measurement Equation
+## 11. Measurement Equation
 
 A measured value is:
 
-[
-\boxed{
-Y_t
-===
+## \[ \\boxed{ Y_t
 
 M(
 Q_t,
@@ -375,28 +357,25 @@ I_t,
 K_t,
 E_t
 )
-+
-\epsilon_t^{m}
+\+
+\\epsilon_t^{m}
 }
-]
+\]
 
 where:
 
-- \(Q_t\) = target quantity;
-- \(I_t\) = instrument;
-- \(K_t\) = calibration/method state;
-- \(E_t\) = relevant environmental conditions.
+- (Q_t) = target quantity;
+- (I_t) = instrument;
+- (K_t) = calibration/method state;
+- (E_t) = relevant environmental conditions.
 
----
+______________________________________________________________________
 
-# 12. Measurement Validity
+## 12. Measurement Validity
 
 Define measurement validity:
 
-[
-\boxed{
-V_M
-===
+## \[ \\boxed{ V_M
 
 f(
 Calibration,
@@ -407,21 +386,21 @@ Time,
 Scope
 )
 }
-]
+\]
 
 A measurement may be syntactically valid while semantically unusable.
 
----
+______________________________________________________________________
 
-# 13. Observation Availability
+## 13. Observation Availability
 
 For information source (i):
 
-[
-\boxed{
-A_i(t)\in{0,1}
+\[
+\\boxed{
+A_i(t)\\in{0,1}
 }
-]
+\]
 
 where:
 
@@ -430,34 +409,28 @@ where:
 
 Then:
 
-[
-\boxed{
-O_i^{usable}
-============
+## \[ \\boxed{ O_i^{usable}
 
-A_i\cdot O_i
+A_i\\cdot O_i
 }
-]
+\]
 
 conceptually.
 
 Unavailable observations must not be fabricated.
 
----
+______________________________________________________________________
 
-# 14. Observation Coverage
+## 14. Observation Coverage
 
-For relevant reality dimensions \(D_R\):
+For relevant reality dimensions (D_R):
 
-[
-\boxed{
-Coverage_O
-==========
+## \[ \\boxed{ Coverage_O
 
-\frac{|D_O\cap D_R|}
+\\frac{|D_O\\cap D_R|}
 {|D_R|}
 }
-]
+\]
 
 only when the relevant dimensions are explicitly enumerable.
 
@@ -469,18 +442,15 @@ Hard boundary:
 UNOBSERVED != ABSENT
 ```
 
----
+______________________________________________________________________
 
-# 15. Evidence Formation Equation
+## 15. Evidence Formation Equation
 
 Evidence is constructed from observations plus provenance and validity metadata:
 
-[
-\boxed{
-E_t
-===
+## \[ \\boxed{ E_t
 
-\Phi_E(
+\\Phi_E(
 O_t,
 P_t,
 S_t,
@@ -488,25 +458,22 @@ G_t,
 F_t
 )
 }
-]
+\]
 
 where:
 
-- \(P_t\) = provenance;
-- \(S_t\) = scope;
-- \(G_t\) = regime;
-- \(F_t\) = freshness.
+- (P_t) = provenance;
+- (S_t) = scope;
+- (G_t) = regime;
+- (F_t) = freshness.
 
----
+______________________________________________________________________
 
-# 16. Evidence Tensor Equation
+## 16. Evidence Tensor Equation
 
-[
-\boxed{
-T_E
-===
+## \[ \\boxed{ T_E
 
-T[
+T\[
 evidence_id,
 source,
 source_type,
@@ -521,30 +488,27 @@ independence,
 quality,
 freshness,
 revocation
-]
+\]
 }
-]
+\]
 
 Evidence state is therefore multidimensional.
 
----
+______________________________________________________________________
 
-# 17. Evidence Admission Equation
+## 17. Evidence Admission Equation
 
-[
-\boxed{
-Admit(E)
-========
+## \[ \\boxed{ Admit(E)
 
 ValidSource(E)
-\land
+\\land
 ScopeKnown(E)
-\land
+\\land
 ProvenanceSufficient(E)
-\land
-\neg Revoked(E)
+\\land
+\\neg Revoked(E)
 }
-]
+\]
 
 Additional domain-specific gates may apply.
 
@@ -558,114 +522,102 @@ QUARANTINE
 
 instead.
 
----
+______________________________________________________________________
 
-# 18. Evidence Freshness
+## 18. Evidence Freshness
 
-For evidence \(E_i\):
+For evidence (E_i):
 
-[
-\boxed{
-Age(E_i,t)
-==========
+## \[ \\boxed{ Age(E_i,t)
 
 t-t_i
 }
-]
+\]
 
 and:
 
-[
-\boxed{
-Fresh(E_i,c,t)
-==============
+## \[ \\boxed{ Fresh(E_i,c,t)
 
 Age(E_i,t)
-\leq
-\tau_c
+\\leq
+\\tau_c
 }
-]
+\]
 
-where (\tau_c) is the maximum acceptable age for consuming claim or decision (c).
+where (\\tau_c) is the maximum acceptable age for consuming claim or decision (c).
 
----
+______________________________________________________________________
 
-# 19. Evidence Independence
+## 19. Evidence Independence
 
 For two evidence objects:
 
-[
-\boxed{
-Independent(E_i,E_j)
-====================
+## \[ \\boxed{ Independent(E_i,E_j)
 
-\neg SharedLoadBearingOrigin(E_i,E_j)
+\\neg SharedLoadBearingOrigin(E_i,E_j)
 }
-]
+\]
 
 This is an architectural test.
 
 Unknown ancestry yields:
 
-[
-\boxed{
+\[
+\\boxed{
 UnknownIndependence
-\neq
+\\neq
 Independent
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 20. Evidence Multiplicity Firewall
+## 20. Evidence Multiplicity Firewall
 
 If:
 
-[
-E_1\leftarrow S
-]
+\[
+E_1\\leftarrow S
+\]
 
 and:
 
-[
-E_2\leftarrow S
-]
+\[
+E_2\\leftarrow S
+\]
 
 then:
 
-[
-\boxed{
+\[
+\\boxed{
 Count(E_1,E_2)=2
 }
-]
+\]
 
 does not imply:
 
-[
-\boxed{
+\[
+\\boxed{
 IndependentCount(E_1,E_2)=2
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 21. Representation Equation
+## 21. Representation Equation
 
 Internal representation is:
 
-[
-\boxed{
-X_t
-===
+## \[ \\boxed{ X_t
 
-\Phi_R(
-O_{\leq t},
-E_{\leq t},
-M_{\leq t},
+\\Phi_R(
+O\_{\\leq t},
+E\_{\\leq t},
+M\_{\\leq t},
 C_t
 )
 }
-]
+\]
 
 where:
 
@@ -676,24 +628,21 @@ where:
 
 are transformed into internal state.
 
----
+______________________________________________________________________
 
-# 22. Representation Loss
+## 22. Representation Loss
 
 Every transformation may lose information.
 
 Define:
 
-[
-\boxed{
-L_{\Phi}
-========
+## \[ \\boxed{ L\_{\\Phi}
 
 ## InformationRequired(source)
 
 InformationPreserved(target)
 }
-]
+\]
 
 This is an AMOS structural quantity unless a domain supplies a formal information measure.
 
@@ -703,23 +652,20 @@ Hard invariant:
 COMPRESSION != LOSSLESS BY DEFAULT
 ```
 
----
+______________________________________________________________________
 
-# 23. Representation Fidelity
+## 23. Representation Fidelity
 
 Define:
 
-[
-\boxed{
-F_R
-===
+## \[ \\boxed{ F_R
 
 CompatibleStructure(
 Representation,
 ReferencedState
 )
 }
-]
+\]
 
 where fidelity must be evaluated relative to:
 
@@ -735,16 +681,13 @@ purpose
 
 No universal scalar fidelity is assumed.
 
----
+______________________________________________________________________
 
-# 24. Reality Contact Equation
+## 24. Reality Contact Equation
 
 AMOS reality contact may be represented structurally as:
 
-[
-\boxed{
-RC
-==
+## \[ \\boxed{ RC
 
 f(
 ObservationAccess,
@@ -754,142 +697,133 @@ Freshness,
 ScopeCompatibility
 )
 }
-]
+\]
 
 This is a framework equation.
 
 It is not a validated universal metric unless operationalized for a specific implementation.
 
----
+______________________________________________________________________
 
-# 25. Claim Formation
+## 25. Claim Formation
 
 A claim is derived from premises and evidence:
 
-[
-\boxed{
-C_j
-===
+## \[ \\boxed{ C_j
 
-\Psi(
+\\Psi(
 P_j,
 E_j,
 A_j
 )
 }
-]
+\]
 
 where:
 
-- \(P_j\) = premises;
-- \(E_j\) = supporting evidence;
-- \(A_j\) = assumptions.
+- (P_j) = premises;
+- (E_j) = supporting evidence;
+- (A_j) = assumptions.
 
----
+______________________________________________________________________
 
-# 26. Claim Validity
+## 26. Claim Validity
 
-[
-\boxed{
+\[
+\\boxed{
 Valid(C_j)
-\Rightarrow
-\bigwedge_{p\in P_j}
+\\Rightarrow
+\\bigwedge\_{p\\in P_j}
 Valid(p)
 }
-]
+\]
 
 for load-bearing premises.
 
 This expresses dependency inheritance.
 
----
+______________________________________________________________________
 
-# 27. Claim Confidence Ceiling
+## 27. Claim Confidence Ceiling
 
 For load-bearing premises:
 
-[
-\boxed{
+\[
+\\boxed{
 Conf(C)
-\leq
-\min_{p\in P_C}Conf(p)
+\\leq
+\\min\_{p\\in P_C}Conf(p)
 }
-]
+\]
 
 unless independent evidence directly revalidates the conclusion.
 
----
+______________________________________________________________________
 
-# 28. Claim Scope Equation
+## 28. Claim Scope Equation
 
-[
-\boxed{
+\[
+\\boxed{
 Scope(C)
-\subseteq
+\\subseteq
 CompatibleScope(
 P_C,
 E_C
 )
 }
-]
+\]
 
 A conclusion may narrow scope.
 
 It may not silently expand beyond supporting evidence.
 
----
+______________________________________________________________________
 
-# 29. Claim Regime Equation
+## 29. Claim Regime Equation
 
-[
-\boxed{
-Valid(C\mid G)
+\[
+\\boxed{
+Valid(C\\mid G)
 }
-]
+\]
 
-means claim \(C\) is valid only under regime \(G\).
+means claim (C) is valid only under regime (G).
 
 If:
 
-[
-G_t\neq G_{t+1}
-]
+\[
+G_t\\neq G\_{t+1}
+\]
 
 then:
 
-[
-\boxed{
+\[
+\\boxed{
 Revalidate(C)
 }
-]
+\]
 
-when \(C\) depends materially on that regime.
+when (C) depends materially on that regime.
 
----
+______________________________________________________________________
 
-# 30. Claim Temporal Validity
+## 30. Claim Temporal Validity
 
-[
-\boxed{
-Valid(C,t)
-==========
+## \[ \\boxed{ Valid(C,t)
 
-t\in[t_{start},t_{expiry}]
+t\\in[t\_{start},t\_{expiry}]
 }
-]
+\]
 
 when the claim has bounded temporal validity.
 
----
+______________________________________________________________________
 
-# 31. Conclusion Classification Function
+## 31. Conclusion Classification Function
 
-[
-\boxed{
-Class(C)
-========
+## \[ \\boxed{ Class(C)
 
-\Gamma(
+\\Gamma(
 Evidence,
 Dependencies,
 Scope,
@@ -899,7 +833,7 @@ Conflict,
 Gaps
 )
 }
-]
+\]
 
 with output:
 
@@ -914,105 +848,90 @@ UNKNOWN/GAP
 
 The weakest accurate class governs.
 
----
+______________________________________________________________________
 
-# 32. Dependency Equation
+## 32. Dependency Equation
 
 For object (x):
 
-[
-\boxed{
-Dep(x)
-======
+## \[ \\boxed{ Dep(x)
 
-{d_1,d_2,\ldots,d_n}
+{d_1,d_2,\\ldots,d_n}
 }
-]
+\]
 
 and:
 
-[
-\boxed{
+\[
+\\boxed{
 Validity(x)
-\Rightarrow
+\\Rightarrow
 Validity(
 LoadBearingDep(x)
 )
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 33. Dependency Closure
+## 33. Dependency Closure
 
-[
-\boxed{
-Closure(x)
-==========
+## \[ \\boxed{ Closure(x)
 
 Dep^{-}(x)
 }
-]
+\]
 
 where `Closure(x)` contains upstream dependencies relevant to validity.
 
 The operational target is:
 
-[
-\boxed{
-SDC(x)
-======
+## \[ \\boxed{ SDC(x)
 
 SmallestSufficientDependencyClosure(x)
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 34. Selective Invalidation
+## 34. Selective Invalidation
 
 If dependency (d) fails:
 
-[
-\boxed{
-Affected(d)
-===========
+## \[ \\boxed{ Affected(d)
 
 {
-x\mid
-d\leadsto x
-\land
+x\\mid
+d\\leadsto x
+\\land
 MaterialDependency(x,d)
 }
 }
-]
+\]
 
 Then:
 
-[
-\boxed{
+\[
+\\boxed{
 Invalidate(Affected(d))
 }
-]
+\]
 
 not:
 
-[
+\[
 Invalidate(AllState)
-]
+\]
 
----
+______________________________________________________________________
 
-# 35. Relation Equation
+## 35. Relation Equation
 
 For objects (i,j):
 
-[
-\boxed{
-R_{ij}
-======
+## \[ \\boxed{ R\_{ij}
 
-T[
+T\[
 type,
 direction,
 strength,
@@ -1023,56 +942,53 @@ trust,
 conflict,
 lag,
 provenance
-]
+\]
 }
-]
+\]
 
 Relation type is explicit.
 
----
+______________________________________________________________________
 
-# 36. Causal Firewall
+## 36. Causal Firewall
 
-[
-\boxed{
+\[
+\\boxed{
 Relation(i,j)
-\not\Rightarrow
+\\not\\Rightarrow
 Cause(i,j)
 }
-]
+\]
 
 and:
 
-[
-\boxed{
+\[
+\\boxed{
 Correlation(i,j)
-\not\Rightarrow
+\\not\\Rightarrow
 Cause(i,j)
 }
-]
+\]
 
 and:
 
-[
-\boxed{
+\[
+\\boxed{
 TemporalOrder(i,j)
-\not\Rightarrow
+\\not\\Rightarrow
 Cause(i,j)
 }
-]
+\]
 
 Causal promotion requires suitable causal evidence.
 
----
+______________________________________________________________________
 
-# 37. Causal State Transition
+## 37. Causal State Transition
 
 Where causal intervention evidence is valid:
 
-[
-\boxed{
-R_{t+1}
-=======
+## \[ \\boxed{ R\_{t+1}
 
 F_R(
 R_t,
@@ -1080,86 +996,75 @@ do(U_t),
 X_t
 )
 }
-]
+\]
 
 may represent an intervention model.
 
 The `do` notation must not be used merely because an action occurred before an outcome.
 
----
+______________________________________________________________________
 
-# 38. Competing Hypothesis Equation
+## 38. Competing Hypothesis Equation
 
 Let:
 
-[
-\mathcal{H}
-===========
+## \[ \\mathcal{H}
 
 {
-H_1,H_2,\ldots,H_n
+H_1,H_2,\\ldots,H_n
 }
-]
+\]
 
 be competing explanations.
 
 AMOS preserves:
 
-[
-\boxed{
-\mathcal{H}_{active}
-====================
+## \[ \\boxed{ \\mathcal{H}\_{active}
 
 {
-H_i\mid
-H_i\ not\ falsified
+H_i\\mid
+H_i\\ not\\ falsified
 }
 }
-]
+\]
 
 until discriminating evidence justifies removal or promotion.
 
----
+______________________________________________________________________
 
-# 39. Discriminating Evidence
+## 39. Discriminating Evidence
 
 For candidate evidence (e):
 
-[
-\boxed{
-IG(e)
-=====
+## \[ \\boxed{ IG(e)
 
 ExpectedReduction(
 DecisionRelevantUncertainty
 )
 }
-]
+\]
 
 This is an architectural information-value concept unless quantitatively operationalized.
 
 Preferred evidence acquisition seeks high:
 
-[
-\boxed{
-\frac{IG(e)}{Cost(e)}
+\[
+\\boxed{
+\\frac{IG(e)}{Cost(e)}
 }
-]
+\]
 
 subject to integrity and safety constraints.
 
----
+______________________________________________________________________
 
-# 40. Uncertainty Vector
+## 40. Uncertainty Vector
 
 AMOS uncertainty is multidimensional:
 
-[
-\boxed{
-U
-=
+## \[ \\boxed{ U
 
-[
+\[
 U_E,
 U_M,
 U_S,
@@ -1167,32 +1072,32 @@ U_T,
 U_C,
 U_X,
 U_P
-]
+\]
 }
-]
+\]
 
 where:
 
-- \(U_E\) = evidence uncertainty;
-- \(U_M\) = model uncertainty;
-- \(U_S\) = scope uncertainty;
-- \(U_T\) = temporal uncertainty;
-- \(U_C\) = causal uncertainty;
-- \(U_X\) = execution uncertainty;
-- \(U_P\) = provenance-independence uncertainty.
+- (U_E) = evidence uncertainty;
+- (U_M) = model uncertainty;
+- (U_S) = scope uncertainty;
+- (U_T) = temporal uncertainty;
+- (U_C) = causal uncertainty;
+- (U_X) = execution uncertainty;
+- (U_P) = provenance-independence uncertainty.
 
 These dimensions should not automatically collapse into one scalar.
 
----
+______________________________________________________________________
 
-# 41. Confidence Equation
+## 41. Confidence Equation
 
 A generic AMOS confidence ceiling is:
 
-[
-\boxed{
+\[
+\\boxed{
 Conf(C)
-\leq
+\\leq
 f(
 Evidence,
 Dependencies,
@@ -1203,22 +1108,19 @@ Provenance,
 Conflict
 )
 }
-]
+\]
 
 The exact aggregation function is domain-specific.
 
 No universal numerical confidence formula is asserted.
 
----
+______________________________________________________________________
 
-# 42. Contradiction State
+## 42. Contradiction State
 
 For claims (C_i,C_j):
 
-[
-\boxed{
-Conflict(C_i,C_j)
-=================
+## \[ \\boxed{ Conflict(C_i,C_j)
 
 Incompatible(
 Propositions,
@@ -1227,107 +1129,101 @@ Regime,
 Time
 )
 }
-]
+\]
 
 Contradiction should only be declared after compatibility of scope and semantics is established.
 
----
+______________________________________________________________________
 
-# 43. Apparent Contradiction
+## 43. Apparent Contradiction
 
 If:
 
-[
-Scope(C_i)\neq Scope(C_j)
-]
+\[
+Scope(C_i)\\neq Scope(C_j)
+\]
 
 or:
 
-[
-Regime(C_i)\neq Regime(C_j)
-]
+\[
+Regime(C_i)\\neq Regime(C_j)
+\]
 
 then conflicting surface text may not represent a genuine logical contradiction.
 
 Therefore:
 
-[
-\boxed{
+\[
+\\boxed{
 TextConflict
-\not\Rightarrow
+\\not\\Rightarrow
 LogicalConflict
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 44. Boundary Equation
+## 44. Boundary Equation
 
-Let system boundary \(B\) partition:
+Let system boundary (B) partition:
 
-[
-\boxed{
-\Omega
-======
+## \[ \\boxed{ \\Omega
 
 Inside(B)
-\cup
+\\cup
 Outside(B)
 }
-]
+\]
 
 with:
 
-[
-Inside(B)\cap Outside(B)=\varnothing
-]
+\[
+Inside(B)\\cap Outside(B)=\\varnothing
+\]
 
 for the declared distinction.
 
 Boundary crossing is represented by:
 
-[
-\boxed{
-Flow_{B}
+\[
+\\boxed{
+Flow\_{B}
 :
 Outside
-\rightarrow
+\\rightarrow
 Inside
 }
-]
+\]
 
 or:
 
-[
-\boxed{
-Flow_{B}
+\[
+\\boxed{
+Flow\_{B}
 :
 Inside
-\rightarrow
+\\rightarrow
 Outside
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 45. Admission Equation
+## 45. Admission Equation
 
 For incoming object (x):
 
-[
-\boxed{
-Admit(x)
-========
+## \[ \\boxed{ Admit(x)
 
 Allowed(x)
-\land
+\\land
 Typed(x)
-\land
+\\land
 ProvenanceSufficient(x)
-\land
+\\land
 ConstraintCompatible(x)
 }
-]
+\]
 
 Possible outputs:
 
@@ -1339,179 +1235,155 @@ SANDBOX
 ADMIT
 ```
 
----
+______________________________________________________________________
 
-# 46. Constraint Equation
+## 46. Constraint Equation
 
 For candidate state/action (x):
 
-[
-\boxed{
-Admissible(x)
-=============
+## \[ \\boxed{ Admissible(x)
 
-\bigwedge_{c\in C_x}
+\\bigwedge\_{c\\in C_x}
 Satisfied(c)
 }
-]
+\]
 
 For hard constraints:
 
-[
-\boxed{
-\exists c_h:
-\neg Satisfied(c_h)
-\Rightarrow
+\[
+\\boxed{
+\\exists c_h:
+\\neg Satisfied(c_h)
+\\Rightarrow
 Admissible(x)=FALSE
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 47. Constraint Propagation
+## 47. Constraint Propagation
 
-If higher-level constraint \(C_H\) applies to lower-level object \(L\):
+If higher-level constraint (C_H) applies to lower-level object (L):
 
-[
-\boxed{
-Allowed(L)
-==========
+## \[ \\boxed{ Allowed(L)
 
 LocalAllowed(L)
-\cap
+\\cap
 Constraint(C_H)
 }
-]
+\]
 
 where compatibility and scope are established.
 
----
+______________________________________________________________________
 
-# 48. H/M/L State Equation
+## 48. H/M/L State Equation
 
 AMOS state may be represented across scales:
 
-[
-\boxed{
-S_t
-===
+## \[ \\boxed{ S_t
 
-[
+\[
 H_t,
 M_t,
 L_t
-]
+\]
 }
-]
+\]
 
 where:
 
-- \(H_t\) = governing/system state;
-- \(M_t\) = subsystem state;
-- \(L_t\) = local/detail state.
+- (H_t) = governing/system state;
+- (M_t) = subsystem state;
+- (L_t) = local/detail state.
 
----
+______________________________________________________________________
 
-# 49. Upward Scale Transformation
+## 49. Upward Scale Transformation
 
-[
-\boxed{
-M_t
-===
+## \[ \\boxed{ M_t
 
-\Phi_{L\rightarrow M}
+\\Phi\_{L\\rightarrow M}
 (
-L_{1,t},\ldots,L_{n,t}
+L\_{1,t},\\ldots,L\_{n,t}
 )
 }
-]
+\]
 
 and:
 
-[
-\boxed{
-H_t
-===
+## \[ \\boxed{ H_t
 
-\Phi_{M\rightarrow H}
+\\Phi\_{M\\rightarrow H}
 (
-M_{1,t},\ldots,M_{k,t}
+M\_{1,t},\\ldots,M\_{k,t}
 )
 }
-]
+\]
 
 Transformation rules must specify information loss and aggregation semantics.
 
----
+______________________________________________________________________
 
-# 50. Downward Constraint Transformation
+## 50. Downward Constraint Transformation
 
-[
-\boxed{
-M_t^{allowed}
-=============
+## \[ \\boxed{ M_t^{allowed}
 
 M_t
-\cap
+\\cap
 C_H
 }
-]
+\]
 
 and:
 
-[
-\boxed{
-L_t^{allowed}
-=============
+## \[ \\boxed{ L_t^{allowed}
 
 L_t
-\cap
+\\cap
 C_M
-\cap
+\\cap
 C_H
 }
-]
+\]
 
 where the constraints apply.
 
----
+______________________________________________________________________
 
-# 51. Cross-Scale Firewall
+## 51. Cross-Scale Firewall
 
-[
-\boxed{
+\[
+\\boxed{
 Evidence_L
-\not\Rightarrow
+\\not\\Rightarrow
 Claim_H
 }
-]
+\]
 
 without a validated cross-scale transformation.
 
 Similarly:
 
-[
-\boxed{
+\[
+\\boxed{
 Constraint_H
-\not\Rightarrow
+\\not\\Rightarrow
 Observation_L
 }
-]
+\]
 
 Higher-level constraints restrict admissibility; they do not manufacture lower-level evidence.
 
----
+______________________________________________________________________
 
-# 52. Memory State Equation
+## 52. Memory State Equation
 
 Persistent memory state:
 
-[
-\boxed{
-M_{t+1}
-=======
+## \[ \\boxed{ M\_{t+1}
 
-\Phi_M(
+\\Phi_M(
 M_t,
 W_t,
 I_t,
@@ -1519,54 +1391,48 @@ Q_t,
 R_t
 )
 }
-]
+\]
 
 where:
 
-- \(W_t\) = candidate writes;
-- \(I_t\) = invalidations;
-- \(Q_t\) = quarantines;
-- \(R_t\) = revalidations.
+- (W_t) = candidate writes;
+- (I_t) = invalidations;
+- (Q_t) = quarantines;
+- (R_t) = revalidations.
 
----
+______________________________________________________________________
 
-# 53. Memory Admission
+## 53. Memory Admission
 
-[
-\boxed{
-AdmitMemory(m)
-==============
+## \[ \\boxed{ AdmitMemory(m)
 
 Typed(m)
-\land
+\\land
 ProvenanceKnown(m)
-\land
+\\land
 ScopeKnown(m)
-\land
+\\land
 RetentionAllowed(m)
 }
-]
+\]
 
 where required by the memory class.
 
----
+______________________________________________________________________
 
-# 54. Memory Validity
+## 54. Memory Validity
 
-[
-\boxed{
-ValidMemory(m,t)
-================
+## \[ \\boxed{ ValidMemory(m,t)
 
 Admitted(m)
-\land
+\\land
 Fresh(m,t)
-\land
-\neg Revoked(m)
-\land
-\neg Invalidated(m)
+\\land
+\\neg Revoked(m)
+\\land
+\\neg Invalidated(m)
 }
-]
+\]
 
 Hard boundary:
 
@@ -1574,49 +1440,43 @@ Hard boundary:
 MEMORY != CURRENT REALITY
 ```
 
----
+______________________________________________________________________
 
-# 55. Memory Influence Equation
+## 55. Memory Influence Equation
 
-For reasoning state \(X_t\):
+For reasoning state (X_t):
 
-[
-\boxed{
-X_t
-===
+## \[ \\boxed{ X_t
 
-\Psi(
+\\Psi(
 CurrentEvidence_t,
 ValidMemory_t,
 Context_t
 )
 }
-]
+\]
 
 Memory influence must remain distinguishable from current observation.
 
----
+______________________________________________________________________
 
-# 56. Model Prediction Equation
+## 56. Model Prediction Equation
 
-For predictive model (M_\theta):
+For predictive model (M\_\\theta):
 
-[
-\boxed{
-\hat{Y}_{t+h}
-=============
+## \[ \\boxed{ \\hat{Y}\_{t+h}
 
-M_\theta(
-X_{\leq t},
+M\_\\theta(
+X\_{\\leq t},
 G_t
 )
 }
-]
+\]
 
 where:
 
 - (h) = prediction horizon;
-- \(G_t\) = regime/context.
+- (G_t) = regime/context.
 
 Prediction remains:
 
@@ -1626,56 +1486,50 @@ MODEL OUTPUT
 
 until compared with realized outcomes.
 
----
+______________________________________________________________________
 
-# 57. Prediction Error
+## 57. Prediction Error
 
-When outcome (Y_{t+h}) becomes observable:
+When outcome (Y\_{t+h}) becomes observable:
 
-[
-\boxed{
-e_{t+h}
-=======
+## \[ \\boxed{ e\_{t+h}
 
-## Y_{t+h}
+## Y\_{t+h}
 
-\hat{Y}_{t+h}
+\\hat{Y}\_{t+h}
 }
-]
+\]
 
 where subtraction is meaningful only for compatible numerical variables.
 
 For categorical predictions, a domain-appropriate loss function is required.
 
----
+______________________________________________________________________
 
-# 58. Calibration Equation
+## 58. Calibration Equation
 
 For probabilistic prediction:
 
-[
-\boxed{
-P(Y\in A\mid \hat{p}=p)
-\approx p
+\[
+\\boxed{
+P(Y\\in A\\mid \\hat{p}=p)
+\\approx p
 }
-]
+\]
 
 is the target calibration relation under the evaluated regime.
 
 Calibration claims require empirical evaluation.
 
----
+______________________________________________________________________
 
-# 59. Decision Equation
+## 59. Decision Equation
 
 A decision is:
 
-[
-\boxed{
-D_t
-===
+## \[ \\boxed{ D_t
 
-\Pi(
+\\Pi(
 Objective,
 Evidence,
 State,
@@ -1685,62 +1539,53 @@ Uncertainty,
 Authority
 )
 }
-]
+\]
 
 Decision generation does not imply execution permission.
 
----
+______________________________________________________________________
 
-# 60. Decision Admissibility
+## 60. Decision Admissibility
 
-[
-\boxed{
-Admissible(D)
-=============
+## \[ \\boxed{ Admissible(D)
 
 EvidenceSufficient
-\land
+\\land
 ConstraintsSatisfied
-\land
+\\land
 RiskAcceptable
-\land
+\\land
 ScopeValid
 }
-]
+\]
 
 For executable decisions, authority is separately required.
 
----
+______________________________________________________________________
 
-# 61. Capability Equation
+## 61. Capability Equation
 
-[
-\boxed{
-CanExecute(a)
-=============
+## \[ \\boxed{ CanExecute(a)
 
 CapabilityAvailable(a)
 }
-]
+\]
 
 But:
 
-[
-\boxed{
+\[
+\\boxed{
 CanExecute(a)
-\not\Rightarrow
+\\not\\Rightarrow
 MayExecute(a)
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 62. Authority Equation
+## 62. Authority Equation
 
-[
-\boxed{
-MayExecute(a,t)
-===============
+## \[ \\boxed{ MayExecute(a,t)
 
 AuthorityValid(
 principal,
@@ -1750,31 +1595,25 @@ scope,
 time
 )
 }
-]
+\]
 
 Thus:
 
-[
-\boxed{
-Executable(a)
-=============
+## \[ \\boxed{ Executable(a)
 
 CanExecute(a)
-\land
+\\land
 MayExecute(a)
 }
-]
+\]
 
 for governed effects.
 
----
+______________________________________________________________________
 
-# 63. Proposal Equation
+## 63. Proposal Equation
 
-[
-\boxed{
-P_a
-===
+## \[ \\boxed{ P_a
 
 Propose(
 Objective,
@@ -1783,7 +1622,7 @@ Evidence,
 Constraints
 )
 }
-]
+\]
 
 A proposal is non-final.
 
@@ -1791,96 +1630,87 @@ A proposal is non-final.
 PROPOSAL != COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 64. Commit Eligibility Equation
+## 64. Commit Eligibility Equation
 
-[
-\boxed{
-EligibleCommit(a)
-=================
+## \[ \\boxed{ EligibleCommit(a)
 
 ProposalValid(a)
-\land
+\\land
 EvidenceValid(a)
-\land
+\\land
 ConstraintsSatisfied(a)
-\land
+\\land
 AuthorityValid(a)
-\land
+\\land
 ReadSetFresh(a)
-\land
+\\land
 EffectBound(a)
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 65. Read-Set Equation
+## 65. Read-Set Equation
 
 Let:
 
-[
-\boxed{
-RS_a
-====
+## \[ \\boxed{ RS_a
 
 {
-\(x_i,v_i\)
-}_{i=1}^{n}
+(x_i,v_i)
+}\_{i=1}^{n}
 }
-]
+\]
 
 represent objects and versions observed while deriving action (a).
 
 At commit:
 
-[
-\boxed{
+\[
+\\boxed{
 RS_a^{read}
-\stackrel{?}{=}
+\\stackrel{?}{=}
 RS_a^{current}
 }
-]
+\]
 
 for decision-relevant mutable state.
 
----
+______________________________________________________________________
 
-# 66. Stale-Read Equation
+## 66. Stale-Read Equation
 
 If:
 
-[
-\boxed{
+\[
+\\boxed{
 RS_a^{read}
-\neq
+\\neq
 RS_a^{current}
 }
-]
+\]
 
 and the difference can alter admissibility:
 
-[
-\boxed{
+\[
+\\boxed{
 Commit(a)=BLOCKED
 }
-]
+\]
 
 until revalidation.
 
----
+______________________________________________________________________
 
-# 67. Transaction State
+## 67. Transaction State
 
 A transaction may be represented as:
 
-[
-\boxed{
-TX
-==
+## \[ \\boxed{ TX
 
-T[
+T\[
 id,
 read_set,
 write_set,
@@ -1888,9 +1718,9 @@ constraints,
 authority,
 epoch,
 state
-]
+\]
 }
-]
+\]
 
 with states such as:
 
@@ -1903,36 +1733,33 @@ ABORTED
 ROLLED_BACK
 ```
 
----
+______________________________________________________________________
 
-# 68. Transaction Commit
+## 68. Transaction Commit
 
-[
-\boxed{
+\[
+\\boxed{
 Commit(TX)
-\iff
+\\iff
 ReadSetValid
-\land
+\\land
 ConstraintsValid
-\land
+\\land
 AuthorityValid
-\land
+\\land
 WriteSetCompatible
 }
-]
+\]
 
 This is an AMOS control-plane contract.
 
 It is not a claim that a conversational model literally implements database serializability.
 
----
+______________________________________________________________________
 
-# 69. Action Equation
+## 69. Action Equation
 
-[
-\boxed{
-A_t
-===
+## \[ \\boxed{ A_t
 
 Execute(
 D_t,
@@ -1941,87 +1768,75 @@ Authority_t,
 Environment_t
 )
 }
-]
+\]
 
 Action state should carry an effect identity when consequences matter.
 
----
+______________________________________________________________________
 
-# 70. Effect Equation
+## 70. Effect Equation
 
-[
-\boxed{
-R_{t+1}
-=======
+## \[ \\boxed{ R\_{t+1}
 
 F_R(
 R_t,
 A_t,
 X_t,
-\epsilon_t
+\\epsilon_t
 )
 }
-]
+\]
 
 The observed result is:
 
-[
-\boxed{
-O_{t+1}
-=======
+## \[ \\boxed{ O\_{t+1}
 
 H(
-R_{t+1}
+R\_{t+1}
 )
-+
-\epsilon_{t+1}^{obs}
+\+
+\\epsilon\_{t+1}^{obs}
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 71. Expected vs Observed Effect
+## 71. Expected vs Observed Effect
 
-[
-\boxed{
-\hat{E}*{action}
-\neq
+\[
+\\boxed{
+\\hat{E}*{action}
+\\neq
 E*{observed}
 }
-]
+\]
 
 by default.
 
 After execution:
 
-[
-\boxed{
-\Delta_E
-========
+## \[ \\boxed{ \\Delta_E
 
 Compare(
 ExpectedEffect,
 ObservedEffect
 )
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 72. Feedback Equation
+## 72. Feedback Equation
 
-[
-\boxed{
-Feedback_t
-==========
+## \[ \\boxed{ Feedback_t
 
-\Phi_F(
+\\Phi_F(
 Expected_t,
 Observed_t,
 Difference_t
 )
 }
-]
+\]
 
 Feedback may update:
 
@@ -2036,49 +1851,46 @@ repair state
 
 depending on authority and evidence.
 
----
+______________________________________________________________________
 
-# 73. Closed-Loop Reality Contact
+## 73. Closed-Loop Reality Contact
 
 The AMOS reality loop is:
 
-[
-\boxed{
+\[
+\\boxed{
 R_t
-\xrightarrow{observe}
+\\xrightarrow{observe}
 O_t
-\xrightarrow{reason}
+\\xrightarrow{reason}
 D_t
-\xrightarrow{act}
-R_{t+1}
-\xrightarrow{observe}
-O_{t+1}
+\\xrightarrow{act}
+R\_{t+1}
+\\xrightarrow{observe}
+O\_{t+1}
 }
-]
+\]
 
 This is the foundational feedback structure.
 
----
+______________________________________________________________________
 
-# 74. Reality-Contact Error
+## 74. Reality-Contact Error
 
 Define:
 
-[
-\boxed{
-E_{RC}
-======
+## \[ \\boxed{ E\_{RC}
 
 Difference(
 PredictedObservation,
 ObservedObservation
 )
 }
-]
+\]
 
 The difference function must be domain appropriate.
 
-A persistent increase in (E_{RC}) may indicate:
+A persistent increase in (E\_{RC}) may indicate:
 
 ```text
 model drift
@@ -2091,155 +1903,138 @@ state corruption
 
 These remain competing hypotheses until discriminated.
 
----
+______________________________________________________________________
 
-# 75. Drift Equation
+## 75. Drift Equation
 
-For internal representation \(X_t\) and newly grounded state (X_t^*):
+For internal representation (X_t) and newly grounded state (X_t^\*):
 
-[
-\boxed{
-Drift_t
-=======
+## \[ \\boxed{ Drift_t
 
 d(
 X_t,
-X_t^*
+X_t^\*
 )
 }
-]
+\]
 
 where (d) must be explicitly defined.
 
 No universal semantic distance is assumed.
 
----
+______________________________________________________________________
 
-# 76. Regime Shift Equation
+## 76. Regime Shift Equation
 
 Let regime be:
 
-[
-\boxed{
-G_t
-===
+## \[ \\boxed{ G_t
 
-\Gamma(
+\\Gamma(
 R_t,
 O_t,
 Context_t
 )
 }
-]
+\]
 
 A regime shift is:
 
-[
-\boxed{
-G_t\rightarrow G_{t+1}
+\[
+\\boxed{
+G_t\\rightarrow G\_{t+1}
 }
-]
+\]
 
 where the change crosses a domain-defined regime boundary.
 
----
+______________________________________________________________________
 
-# 77. Regime Revalidation
+## 77. Regime Revalidation
 
 For claim set:
 
-[
-\mathcal{C}_G
-=============
+## \[ \\mathcal{C}\_G
 
 {
 C_i:
 DependsOn(C_i,G)
 }
-]
+\]
 
 if regime changes:
 
-[
-\boxed{
+\[
+\\boxed{
 Revalidate(
-\mathcal{C}_G
+\\mathcal{C}\_G
 )
 }
-]
+\]
 
 Only regime-dependent descendants require invalidation.
 
----
+______________________________________________________________________
 
-# 78. Repair Trigger Equation
+## 78. Repair Trigger Equation
 
 Repair is triggered when:
 
-[
-\boxed{
-RepairRequired
-==============
+## \[ \\boxed{ RepairRequired
 
 HardInvariantFail
-\lor
+\\lor
 CriticalDependencyFail
-\lor
+\\lor
 GroundingFailure
-\lor
+\\lor
 AuthorityFailure
-\lor
+\\lor
 StateConflict
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 79. Repair Scope
+## 79. Repair Scope
 
-[
-\boxed{
-RepairScope(f)
-==============
+## \[ \\boxed{ RepairScope(f)
 
 SmallestSafeAffectedClosure(f)
 }
-]
+\]
 
 This is preferred over global recomputation.
 
----
+______________________________________________________________________
 
-# 80. Repair Transition
+## 80. Repair Transition
 
-[
-\boxed{
-S_{damaged}
-\xrightarrow{
+\[
+\\boxed{
+S\_{damaged}
+\\xrightarrow{
 detect
 }
-S_{quarantined}
-\xrightarrow{
+S\_{quarantined}
+\\xrightarrow{
 repair
 }
-S_{candidate}
-\xrightarrow{
+S\_{candidate}
+\\xrightarrow{
 validate
 }
-S_{restored}
+S\_{restored}
 }
-]
+\]
 
 Validation is required before restored state becomes authoritative.
 
----
+______________________________________________________________________
 
-# 81. Recovery Equation
+## 81. Recovery Equation
 
-[
-\boxed{
-Recovery
-========
+## \[ \\boxed{ Recovery
 
 Restore(
 ValidState,
@@ -2249,7 +2044,7 @@ Constraints,
 Authority
 )
 }
-]
+\]
 
 Recovery is not equivalent to hiding the failure.
 
@@ -2257,39 +2052,36 @@ Recovery is not equivalent to hiding the failure.
 RECOVERY != FAILURE ERASURE
 ```
 
----
+______________________________________________________________________
 
-# 82. Rollback Equation
+## 82. Rollback Equation
 
-[
-\boxed{
+\[
+\\boxed{
 Rollback(
 S_t,
-S_{t-1}
+S\_{t-1}
 )
 }
-]
+\]
 
 is admissible only when:
 
-[
-\boxed{
-Known(S_{t-1})
-\land
-Compatible(S_{t-1})
-\land
+\[
+\\boxed{
+Known(S\_{t-1})
+\\land
+Compatible(S\_{t-1})
+\\land
 RollbackAuthorized
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 83. Replay Equation
+## 83. Replay Equation
 
-[
-\boxed{
-ReplayResult
-============
+## \[ \\boxed{ ReplayResult
 
 Execute(
 Inputs,
@@ -2300,40 +2092,34 @@ Commands,
 State
 )
 }
-]
+\]
 
 Replay equivalence requires compatible load-bearing conditions.
 
----
+______________________________________________________________________
 
-# 84. Replay Divergence
+## 84. Replay Divergence
 
-[
-\boxed{
-D_{replay}
-==========
+## \[ \\boxed{ D\_{replay}
 
 Compare(
 OriginalResult,
 ReplayResult
 )
 }
-]
+\]
 
 A nonzero divergence does not identify the cause by itself.
 
 Potential causes remain typed hypotheses.
 
----
+______________________________________________________________________
 
-# 85. Provenance Equation
+## 85. Provenance Equation
 
 For derived object (x):
 
-[
-\boxed{
-P(x)
-====
+## \[ \\boxed{ P(x)
 
 {
 origin,
@@ -2343,38 +2129,35 @@ versions,
 timestamps
 }
 }
-]
+\]
 
 For transformation:
 
-[
+\[
 x=f(a,b)
-]
+\]
 
 provenance must preserve:
 
-[
-\boxed{
+\[
+\\boxed{
 P(x)
-\supseteq
-P(a)\cup P(b)
+\\supseteq
+P(a)\\cup P(b)
 }
-]
+\]
 
 plus the transformation identity.
 
----
+______________________________________________________________________
 
-# 86. Provenance Closure
+## 86. Provenance Closure
 
-[
-\boxed{
-P^*(x)
-======
+## \[ \\boxed{ P^\*(x)
 
 TransitiveAncestry(x)
 }
-]
+\]
 
 This supports:
 
@@ -2387,36 +2170,33 @@ replay
 audit
 ```
 
----
+______________________________________________________________________
 
-# 87. Revocation Propagation
+## 87. Revocation Propagation
 
 If source (s) is revoked:
 
-[
-\boxed{
+\[
+\\boxed{
 Revoked(s)
-\Rightarrow
+\\Rightarrow
 Revalidate(
 DependentClaims(s)
 )
 }
-]
+\]
 
 Revocation does not automatically falsify every descendant.
 
 It removes or weakens a support path.
 
----
+______________________________________________________________________
 
-# 88. Source Trust Equation
+## 88. Source Trust Equation
 
 Trust is local and typed:
 
-[
-\boxed{
-Trust(s,c)
-==========
+## \[ \\boxed{ Trust(s,c)
 
 f(
 Identity,
@@ -2428,7 +2208,7 @@ Freshness,
 Independence
 )
 }
-]
+\]
 
 Trust is claim-relative.
 
@@ -2436,116 +2216,107 @@ Trust is claim-relative.
 TRUSTED_SOURCE != UNIVERSALLY_TRUE_SOURCE
 ```
 
----
+______________________________________________________________________
 
-# 89. Evidence Quality Equation
+## 89. Evidence Quality Equation
 
 A structural evidence quality vector may be:
 
-[
-\boxed{
-Q_E
-===
+## \[ \\boxed{ Q_E
 
-[
-q_{method},
-q_{provenance},
-q_{scope},
-q_{freshness},
-q_{independence},
-q_{measurement}
-]
+\[
+q\_{method},
+q\_{provenance},
+q\_{scope},
+q\_{freshness},
+q\_{independence},
+q\_{measurement}
+\]
 }
-]
+\]
 
 AMOS should preserve this vector when scalar collapse would hide decision-relevant weaknesses.
 
----
+______________________________________________________________________
 
-# 90. Weakest-Premise Law
+## 90. Weakest-Premise Law
 
-For conclusion \(C\):
+For conclusion (C):
 
-[
-\boxed{
+\[
+\\boxed{
 Ceiling(C)
-\leq
+\\leq
 WeakestLoadBearingPremise(C)
 }
-]
+\]
 
 unless the conclusion receives independent direct validation.
 
 This is one of the governing AMOS epistemic constraints.
 
----
+______________________________________________________________________
 
-# 91. Consequence Equation
+## 91. Consequence Equation
 
 For action (a):
 
-[
-\boxed{
-Consequence(a)
-==============
+## \[ \\boxed{ Consequence(a)
 
-T[
+T\[
 magnitude,
 radius,
 duration,
 reversibility,
 stakeholders,
 dependencies
-]
+\]
 }
-]
+\]
 
 Validation requirements increase with consequence and irreversibility.
 
----
+______________________________________________________________________
 
-# 92. Validation Requirement
+## 92. Validation Requirement
 
 Conceptually:
 
-[
-\boxed{
+\[
+\\boxed{
 ValidationDepth
-\uparrow
-\quad
+\\uparrow
+\\quad
 as
-\quad
+\\quad
 Consequence
-\uparrow
+\\uparrow
 }
-]
+\]
 
 and:
 
-[
-\boxed{
+\[
+\\boxed{
 ValidationDepth
-\uparrow
-\quad
+\\uparrow
+\\quad
 as
-\quad
+\\quad
 Irreversibility
-\uparrow
+\\uparrow
 }
-]
+\]
 
 No universal numerical function is asserted.
 
----
+______________________________________________________________________
 
-# 93. Reversibility Equation
+## 93. Reversibility Equation
 
 Define action reversibility structurally:
 
-[
-\boxed{
-Rev(a)
-======
+## \[ \\boxed{ Rev(a)
 
 f(
 RollbackAvailability,
@@ -2554,95 +2325,83 @@ StateLoss,
 ExternalEffects
 )
 }
-]
+\]
 
 AMOS prefers more reversible paths when expected value is otherwise comparable under material uncertainty.
 
----
+______________________________________________________________________
 
-# 94. Optionality Equation
+## 94. Optionality Equation
 
 A structural future-option measure may be represented:
 
-[
-\boxed{
-O_{future}(a)
-=============
+## \[ \\boxed{ O\_{future}(a)
 
-|\mathcal{A}_{future}(a)|
+|\\mathcal{A}\_{future}(a)|
 }
-]
+\]
 
 only when future admissible actions are meaningfully enumerable.
 
 Otherwise optionality remains qualitative.
 
----
+______________________________________________________________________
 
-# 95. Reality–Simulation Separation
+## 95. Reality–Simulation Separation
 
 For simulated state:
 
-[
-\boxed{
-S_t^{sim}
-=========
+## \[ \\boxed{ S_t^{sim}
 
-F_{sim}(
-S_{t-1}^{sim},
+F\_{sim}(
+S\_{t-1}^{sim},
 parameters
 )
 }
-]
+\]
 
 and real environment state:
 
-[
+\[
 R_t
-]
+\]
 
 Hard invariant:
 
-[
-\boxed{
+\[
+\\boxed{
 S_t^{sim}
-\neq
+\\neq
 R_t
 }
-]
+\]
 
 unless a validated mapping for the declared scope is established.
 
----
+______________________________________________________________________
 
-# 96. Simulation Fidelity
+## 96. Simulation Fidelity
 
-[
-\boxed{
-F_{sim}
-=======
+## \[ \\boxed{ F\_{sim}
 
 Compare(
 SimulationOutputs,
 ObservedReality
 )
 }
-]
+\]
 
 under a declared metric and validation dataset.
 
 Simulation coherence alone does not establish fidelity.
 
----
+______________________________________________________________________
 
-# 97. Counterfactual Equation
+## 97. Counterfactual Equation
 
 For intervention (a'):
 
-[
-\boxed{
-R_{t+1}^{cf}
-============
+## \[ \\boxed{ R\_{t+1}^{cf}
 
 F_R(
 R_t,
@@ -2650,7 +2409,7 @@ a',
 X_t
 )
 }
-]
+\]
 
 This remains:
 
@@ -2660,18 +2419,15 @@ COUNTERFACTUAL / MODEL
 
 unless causal identification conditions support stronger interpretation.
 
----
+______________________________________________________________________
 
-# 98. AI Context Equation
+## 98. AI Context Equation
 
 For AI worker state:
 
-[
-\boxed{
-X_t^{AI}
-========
+## \[ \\boxed{ X_t^{AI}
 
-\Phi(
+\\Phi(
 Prompt,
 Instructions,
 RetrievedEvidence,
@@ -2680,29 +2436,26 @@ ToolResults,
 CurrentContext
 )
 }
-]
+\]
 
 This state is a representation available to the model.
 
 It is not the authoritative environment state.
 
----
+______________________________________________________________________
 
-# 99. AI Output Equation
+## 99. AI Output Equation
 
-[
-\boxed{
-Y_t^{AI}
-========
+## \[ \\boxed{ Y_t^{AI}
 
 LM(
 X_t^{AI};
-\theta
+\\theta
 )
 }
-]
+\]
 
-where (\theta) denotes model parameters abstractly.
+where (\\theta) denotes model parameters abstractly.
 
 Output generation alone provides no truth guarantee.
 
@@ -2710,66 +2463,60 @@ Output generation alone provides no truth guarantee.
 GENERATED != VERIFIED
 ```
 
----
+______________________________________________________________________
 
-# 100. AI Grounding Equation
+## 100. AI Grounding Equation
 
-For AI claim \(C\):
+For AI claim (C):
 
-[
-\boxed{
-Grounded(C)
-===========
+## \[ \\boxed{ Grounded(C)
 
 Exists(
 ValidEvidencePath:
 C
-\rightarrow
+\\rightarrow
 E
-\rightarrow
+\\rightarrow
 O/S
 )
 }
-]
+\]
 
 where (O/S) denotes observation or appropriately typed source evidence.
 
----
+______________________________________________________________________
 
-# 101. AI Hallucination Risk
+## 101. AI Hallucination Risk
 
 A structural hallucination-risk condition is:
 
-[
-\boxed{
+\[
+\\boxed{
 Asserted(C)
-\land
+\\land
 RequiredSupport(C)=UNKNOWN
 }
-]
+\]
 
 or:
 
-[
-\boxed{
+\[
+\\boxed{
 Asserted(C)
-\land
+\\land
 Support(C)=Incompatible
 }
-]
+\]
 
 This identifies insufficient grounding.
 
-It does not independently establish that \(C\) is false.
+It does not independently establish that (C) is false.
 
----
+______________________________________________________________________
 
-# 102. AI Tool Equation
+## 102. AI Tool Equation
 
-[
-\boxed{
-ToolResult
-==========
+## \[ \\boxed{ ToolResult
 
 Tool(
 Arguments,
@@ -2779,18 +2526,15 @@ State,
 Time
 )
 }
-]
+\]
 
 Tool output must inherit these dependencies.
 
----
+______________________________________________________________________
 
-# 103. AI Retrieval Equation
+## 103. AI Retrieval Equation
 
-[
-\boxed{
-RetrievedSet
-============
+## \[ \\boxed{ RetrievedSet
 
 Retrieve(
 Query,
@@ -2801,7 +2545,7 @@ Permissions,
 Time
 )
 }
-]
+\]
 
 Therefore:
 
@@ -2813,157 +2557,142 @@ NOT RETRIEVED != ABSENT
 TOP RESULT != TRUE
 ```
 
----
+______________________________________________________________________
 
-# 104. AI Memory Equation
+## 104. AI Memory Equation
 
-[
-\boxed{
-Context_t
-=========
+## \[ \\boxed{ Context_t
 
 CurrentInput_t
-\oplus
+\\oplus
 RetrievedMemory_t
-\oplus
+\\oplus
 ToolEvidence_t
 }
-]
+\]
 
-where (\oplus) means typed composition, not naive concatenation.
+where (\\oplus) means typed composition, not naive concatenation.
 
 Composition requires compatibility checks.
 
----
+______________________________________________________________________
 
-# 105. AI Decision Equation
+## 105. AI Decision Equation
 
-[
-\boxed{
-Proposal_t^{AI}
-===============
+## \[ \\boxed{ Proposal_t^{AI}
 
-\Pi_{AI}(
+\\Pi\_{AI}(
 Objective,
 Context,
 Evidence,
 Constraints
 )
 }
-]
+\]
 
 The result is a proposal.
 
 For consequential actions:
 
-[
-\boxed{
+\[
+\\boxed{
 Proposal_t^{AI}
-\neq
+\\neq
 Commit_t
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 106. Control-Plane Finalization
+## 106. Control-Plane Finalization
 
-[
-\boxed{
-Finalize(x)
-===========
+## \[ \\boxed{ Finalize(x)
 
 ValidDependencies
-\land
+\\land
 ValidProvenance
-\land
+\\land
 ScopeCompatible
-\land
+\\land
 RegimeCompatible
-\land
+\\land
 Fresh
-\land
+\\land
 NoBlockingConflict
 }
-]
+\]
 
 For effects:
 
-[
-\boxed{
-FinalizeAction(a)
-=================
+## \[ \\boxed{ FinalizeAction(a)
 
 Finalize(a)
-\land
+\\land
 AuthorityValid
-\land
+\\land
 ConstraintsSatisfied
-\land
+\\land
 CommitEligible
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 107. Fast-Path Equation
+## 107. Fast-Path Equation
 
 Let (L(x)) denote local reasoning eligibility.
 
-[
-\boxed{
-L(x)
-====
+## \[ \\boxed{ L(x)
 
 D
-\land
+\\land
 P
-\land
+\\land
 S
-\land
+\\land
 G
-\land
+\\land
 F
-\land
+\\land
 N
-\land
+\\land
 I
 }
-]
+\]
 
 where:
 
-- \(D\) = dependency closure sufficient;
-- \(P\) = provenance sufficient;
-- \(S\) = scope compatible;
-- \(G\) = regime compatible;
-- \(F\) = freshness adequate;
-- \(N\) = no blocking conflict;
-- \(I\) = required independence demonstrated.
+- (D) = dependency closure sufficient;
+- (P) = provenance sufficient;
+- (S) = scope compatible;
+- (G) = regime compatible;
+- (F) = freshness adequate;
+- (N) = no blocking conflict;
+- (I) = required independence demonstrated.
 
 If:
 
-[
+\[
 L(x)=FALSE
-]
+\]
 
 the reasoning path escalates.
 
----
+______________________________________________________________________
 
-# 108. Integrity Equation
+## 108. Integrity Equation
 
 AMOS optimization is constrained by:
 
-[
-\boxed{
+\[
+\\boxed{
 Optimize(x)
-\quad
-subject\ to
-\quad
-Integrity(x)\geq Integrity_{baseline}
+\\quad
+subject\\ to
+\\quad
+Integrity(x)\\geq Integrity\_{baseline}
 }
-]
+\]
 
 Optimization may improve:
 
@@ -2978,63 +2707,57 @@ execution
 
 but may not weaken integrity requirements.
 
----
+______________________________________________________________________
 
-# 109. Compression Equation
+## 109. Compression Equation
 
-For compression operator \(K\):
+For compression operator (K):
 
-[
-\boxed{
-X'
-==
+## \[ \\boxed{ X'
 
 K(X)
 }
-]
+\]
 
 valid compression requires:
 
-[
-\boxed{
+\[
+\\boxed{
 LoadBearing(X)
-\subseteq
+\\subseteq
 Recoverable(X')
 }
-]
+\]
 
 and:
 
-[
-\boxed{
+\[
+\\boxed{
 Falsifiers(X)
-\subseteq
+\\subseteq
 Recoverable(X')
 }
-]
+\]
 
 and:
 
-[
-\boxed{
+\[
+\\boxed{
 Provenance(X)
-\subseteq
+\\subseteq
 Recoverable(X')
 }
-]
+\]
 
 where those elements are decision-relevant.
 
----
+______________________________________________________________________
 
-# 110. Entropy / Coherence Placeholder
+## 110. Entropy / Coherence Placeholder
 
 AMOS may represent structural reasoning degradation using:
 
-[
-\boxed{
-E_{sys}
-=======
+## \[ \\boxed{ E\_{sys}
 
 f(
 Contradictions,
@@ -3044,22 +2767,19 @@ ProvenanceLoss,
 UnresolvedGaps
 )
 }
-]
+\]
 
 This is an AMOS MODEL construct.
 
 It must not be presented as thermodynamic entropy unless a valid physical mapping is established.
 
----
+______________________________________________________________________
 
-# 111. Lacunarity / Gap Placeholder
+## 111. Lacunarity / Gap Placeholder
 
 Structured missingness may be represented:
 
-[
-\boxed{
-Lac
-===
+## \[ \\boxed{ Lac
 
 f(
 GapDistribution,
@@ -3068,225 +2788,203 @@ GapCriticality,
 Connectivity
 )
 }
-]
+\]
 
 This is an AMOS structural model unless a domain-specific mathematical lacunarity measure is explicitly used.
 
----
+______________________________________________________________________
 
-# 112. Reality Contact vs Internal Coherence
+## 112. Reality Contact vs Internal Coherence
 
 Let:
 
-[
-Coh
-===
+## \[ Coh
 
 InternalConsistency(System)
-]
+\]
 
 and:
 
-[
-RC
-==
+## \[ RC
 
 RealityContact(System)
-]
+\]
 
 Then:
 
-[
-\boxed{
+\[
+\\boxed{
 Coh
-\not\Rightarrow
+\\not\\Rightarrow
 RC
 }
-]
+\]
 
 A system may be internally coherent while externally wrong.
 
 This is a core L00 boundary.
 
----
+______________________________________________________________________
 
-# 113. Reality-Grounded Validity
+## 113. Reality-Grounded Validity
 
 A consequential conclusion should satisfy:
 
-[
-\boxed{
-V_{grounded}
-============
+## \[ \\boxed{ V\_{grounded}
 
 InternalConsistency
-\land
+\\land
 EvidenceSupport
-\land
+\\land
 ProvenanceIntegrity
-\land
+\\land
 ScopeValidity
-\land
+\\land
 RegimeValidity
-\land
+\\land
 Freshness
 }
-]
+\]
 
 Causal conclusions additionally require suitable causal support.
 
----
+______________________________________________________________________
 
-# 114. Full Reality Loop Equation
+## 114. Full Reality Loop Equation
 
 The complete L00 architectural loop is:
 
-[
-\boxed{
+\[
+\\boxed{
 R_t
-\xrightarrow{observe}
+\\xrightarrow{observe}
 O_t
-\xrightarrow{evidence}
+\\xrightarrow{evidence}
 E_t
-\xrightarrow{represent}
+\\xrightarrow{represent}
 X_t
-\xrightarrow{reason}
+\\xrightarrow{reason}
 C_t
-\xrightarrow{decide}
+\\xrightarrow{decide}
 D_t
-\xrightarrow{govern}
+\\xrightarrow{govern}
 G_t
-\xrightarrow{act}
+\\xrightarrow{act}
 A_t
-\xrightarrow{effect}
-R_{t+1}
-\xrightarrow{observe}
-O_{t+1}
+\\xrightarrow{effect}
+R\_{t+1}
+\\xrightarrow{observe}
+O\_{t+1}
 }
-]
+\]
 
 This is the central L00 equation family.
 
----
+______________________________________________________________________
 
-# 115. Error-Correction Loop
+## 115. Error-Correction Loop
 
-[
-\boxed{
-\hat{O}_{t+1}
-=============
+## \[ \\boxed{ \\hat{O}\_{t+1}
 
 Predict(X_t,A_t)
 }
-]
+\]
 
-[
-\boxed{
-e_{t+1}
-=======
+## \[ \\boxed{ e\_{t+1}
 
 Compare(
-O_{t+1},
-\hat{O}_{t+1}
+O\_{t+1},
+\\hat{O}\_{t+1}
 )
 }
-]
+\]
 
-[
-\boxed{
-X_{t+1}
-=======
+## \[ \\boxed{ X\_{t+1}
 
 Update(
 X_t,
-O_{t+1},
-e_{t+1}
+O\_{t+1},
+e\_{t+1}
 )
 }
-]
+\]
 
 subject to evidence admission, provenance, and governance constraints.
 
----
+______________________________________________________________________
 
-# 116. No-Self-Sealing Equation
+## 116. No-Self-Sealing Equation
 
 A model must permit evidence capable of lowering its own confidence.
 
-For model \(M\):
+For model (M):
 
-[
-\boxed{
-\exists E_f:
+\[
+\\boxed{
+\\exists E_f:
 Observe(E_f)
-\Rightarrow
-Conf(M)\downarrow
+\\Rightarrow
+Conf(M)\\downarrow
 }
-]
+\]
 
 for any empirically falsifiable claim class.
 
 If no conceivable observation can reduce confidence, the claim is not functioning as a falsifiable empirical claim.
 
----
+______________________________________________________________________
 
-# 117. Falsifier Equation
+## 117. Falsifier Equation
 
-For claim \(C\):
+For claim (C):
 
-[
-\boxed{
-F(C)
-====
+## \[ \\boxed{ F(C)
 
 {
 e:
-e\ would\ materially\ weaken\ or\ invalidate\ C
+e\\ would\\ materially\\ weaken\\ or\\ invalidate\\ C
 }
 }
-]
+\]
 
-Important claims should preserve \(F(C)\) where meaningful.
+Important claims should preserve (F(C)) where meaningful.
 
----
+______________________________________________________________________
 
-# 118. Gap Equation
+## 118. Gap Equation
 
 For unresolved requirement (g):
 
-[
-\boxed{
-Gap(g)
-======
+## \[ \\boxed{ Gap(g)
 
-T[
+T\[
 missing,
 required_by,
 criticality,
 resolution,
 consequence
-]
+\]
 }
-]
+\]
 
 Critical unresolved gap:
 
-[
-\boxed{
-Gap_{critical}
-\Rightarrow
+\[
+\\boxed{
+Gap\_{critical}
+\\Rightarrow
 FinalizationEligible=FALSE
 }
-]
+\]
 
 where the missing element is load-bearing.
 
----
+______________________________________________________________________
 
-# 119. Gap Priority
+## 119. Gap Priority
 
-[
-\boxed{
+\[
+\\boxed{
 CRITICAL
 
 >
@@ -3301,29 +2999,26 @@ EXPLANATORY
 
 COSMETIC
 }
-]
+\]
 
 Reasoning resources should be allocated accordingly.
 
----
+______________________________________________________________________
 
-# 120. Equation Dependency Graph
+## 120. Equation Dependency Graph
 
 Equations themselves have dependencies:
 
-[
-\boxed{
-G_{EQ}
-======
+## \[ \\boxed{ G\_{EQ}
 
-(V_{EQ},E_{EQ})
+(V\_{EQ},E\_{EQ})
 }
-]
+\]
 
 where:
 
-- (V_{EQ}) = equation contracts;
-- (E_{EQ}) = prerequisite relationships.
+- (V\_{EQ}) = equation contracts;
+- (E\_{EQ}) = prerequisite relationships.
 
 Example:
 
@@ -3349,19 +3044,19 @@ EFFECT EQUATION
 FEEDBACK EQUATION
 ```
 
----
+______________________________________________________________________
 
-# 121. Equation Dependency Invariant
+## 121. Equation Dependency Invariant
 
-If equation \(E_j\) requires output of \(E_i\):
+If equation (E_j) requires output of (E_i):
 
-[
-\boxed{
+\[
+\\boxed{
 Valid(E_j)
-\Rightarrow
+\\Rightarrow
 CompatibleOutput(E_i,E_j)
 }
-]
+\]
 
 Variable compatibility includes:
 
@@ -3377,18 +3072,15 @@ observer
 provenance
 ```
 
----
+______________________________________________________________________
 
-# 122. Variable Registry Contract
+## 122. Variable Registry Contract
 
 Every load-bearing variable should define:
 
-[
-\boxed{
-V
-=
+## \[ \\boxed{ V
 
-T[
+T\[
 symbol,
 name,
 type,
@@ -3400,76 +3092,73 @@ scope,
 regime,
 observer,
 provenance
-]
+\]
 }
-]
+\]
 
 Same symbol does not prove same variable.
 
----
+______________________________________________________________________
 
-# 123. Variable Compatibility
+## 123. Variable Compatibility
 
-[
-\boxed{
-Compatible(V_i,V_j)
-===================
+## \[ \\boxed{ Compatible(V_i,V_j)
 
 Semantic
-\land
+\\land
 Type
-\land
+\\land
 Unit
-\land
+\\land
 Scope
-\land
+\\land
 Scale
-\land
+\\land
 Temporal
-\land
+\\land
 Regime
 }
-]
+\]
 
 where each dimension is applicable.
 
----
+______________________________________________________________________
 
-# 124. Equation Composition
+## 124. Equation Composition
 
 For:
 
-[
+\[
 y=f(x)
-]
+\]
 
 and:
 
-[
+\[
 z=g(y)
-]
+\]
 
 composition:
 
-[
-\boxed{
+\[
+\\boxed{
 z=g(f(x))
 }
-]
+\]
 
 is permitted only when:
 
-[
-\boxed{
+\[
+\\boxed{
 OutputContract(f)
-\sim
+\\sim
 InputContract(g)
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 125. Equation Composition Firewall
+## 125. Equation Composition Firewall
 
 ```text
 SAME SYMBOL != SAME VARIABLE
@@ -3481,103 +3170,103 @@ SAME SHAPE != SAME TENSOR
 SAME EQUATION FORM != SAME MECHANISM
 ```
 
----
+______________________________________________________________________
 
-# 126. Hard Invariants
+## 126. Hard Invariants
 
 ## L00-EQ-INV-01 — Reality / Representation
 
-[
-\boxed{
+\[
+\\boxed{
 Representation
-\neq
+\\neq
 Reality
 }
-]
+\]
 
----
+______________________________________________________________________
 
 ## L00-EQ-INV-02 — Observation / Reality
 
-[
-\boxed{
+\[
+\\boxed{
 Observation
-\neq
+\\neq
 Reality
 }
-]
+\]
 
----
+______________________________________________________________________
 
 ## L00-EQ-INV-03 — Prediction / Outcome
 
-[
-\boxed{
+\[
+\\boxed{
 Prediction
-\neq
+\\neq
 ObservedOutcome
 }
-]
+\]
 
----
+______________________________________________________________________
 
 ## L00-EQ-INV-04 — Simulation / Reality
 
-[
-\boxed{
+\[
+\\boxed{
 Simulation
-\neq
+\\neq
 Reality
 }
-]
+\]
 
----
+______________________________________________________________________
 
 ## L00-EQ-INV-05 — Relation / Causation
 
-[
-\boxed{
+\[
+\\boxed{
 Relation
-\not\Rightarrow
+\\not\\Rightarrow
 Causation
 }
-]
+\]
 
----
+______________________________________________________________________
 
 ## L00-EQ-INV-06 — Scope
 
-[
-\boxed{
-Scope_{conclusion}
-\subseteq
-Scope_{support}
+\[
+\\boxed{
+Scope\_{conclusion}
+\\subseteq
+Scope\_{support}
 }
-]
+\]
 
 unless independently extended.
 
----
+______________________________________________________________________
 
 ## L00-EQ-INV-07 — Confidence
 
-[
-\boxed{
-Confidence_{derived}
-\leq
+\[
+\\boxed{
+Confidence\_{derived}
+\\leq
 WeakestLoadBearingPremise
 }
-]
+\]
 
 unless independently revalidated.
 
----
+______________________________________________________________________
 
 ## L00-EQ-INV-08 — Provenance
 
 Every consequential derivation preserves its evidence ancestry.
 
----
+______________________________________________________________________
 
 ## L00-EQ-INV-09 — Independence
 
@@ -3585,7 +3274,7 @@ Every consequential derivation preserves its evidence ancestry.
 CORRELATED DESCENDANTS != INDEPENDENT EVIDENCE
 ```
 
----
+______________________________________________________________________
 
 ## L00-EQ-INV-10 — Authority
 
@@ -3593,7 +3282,7 @@ CORRELATED DESCENDANTS != INDEPENDENT EVIDENCE
 CAPABILITY != AUTHORITY
 ```
 
----
+______________________________________________________________________
 
 ## L00-EQ-INV-11 — Commit
 
@@ -3601,7 +3290,7 @@ CAPABILITY != AUTHORITY
 PROPOSAL != COMMIT
 ```
 
----
+______________________________________________________________________
 
 ## L00-EQ-INV-12 — Unknown
 
@@ -3609,33 +3298,33 @@ PROPOSAL != COMMIT
 UNKNOWN/GAP != PASS
 ```
 
----
+______________________________________________________________________
 
 ## L00-EQ-INV-13 — Hard Constraint
 
-[
-\boxed{
+\[
+\\boxed{
 HardConstraintFail
-\Rightarrow
+\\Rightarrow
 TransitionBlocked
 }
-]
+\]
 
----
+______________________________________________________________________
 
 ## L00-EQ-INV-14 — Selective Invalidation
 
 Failure propagates only through material dependency edges.
 
----
+______________________________________________________________________
 
 ## L00-EQ-INV-15 — Compression
 
 Compression preserves load-bearing premises, provenance, scope, and falsifiers.
 
----
+______________________________________________________________________
 
-# 127. Failure Modes
+## 127. Failure Modes
 
 ```text
 L00-EQ-FM-01
@@ -3714,9 +3403,9 @@ L00-EQ-FM-25
 AI GENERATED CLAIM TREATED AS SELF-VALIDATING
 ```
 
----
+______________________________________________________________________
 
-# 128. Repair Protocol
+## 128. Repair Protocol
 
 ```text
 1. Identify failed equation or variable.
@@ -3752,14 +3441,11 @@ AI GENERATED CLAIM TREATED AS SELF-VALIDATING
 16. Preserve failure and repair provenance.
 ```
 
----
+______________________________________________________________________
 
-# 129. Equation Repair Function
+## 129. Equation Repair Function
 
-[
-\boxed{
-Repair(E_i)
-===========
+## \[ \\boxed{ Repair(E_i)
 
 Reconstruct(
 Variables,
@@ -3770,21 +3456,21 @@ Scope,
 Regime
 )
 }
-]
+\]
 
 subject to:
 
-[
-\boxed{
+\[
+\\boxed{
 Integrity(E_i^{repaired})
-\geq
+\\geq
 Integrity(E_i^{required})
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 130. Validators
+## 130. Validators
 
 ```text
 L00-EQ-T01 Equation type validation
@@ -3819,9 +3505,9 @@ L00-EQ-T29 Replay compatibility
 L00-EQ-T30 Finalization eligibility
 ```
 
----
+______________________________________________________________________
 
-# 131. Validator Contract
+## 131. Validator Contract
 
 ```yaml
 equation_validator:
@@ -3867,36 +3553,36 @@ equation_validator:
   confidence_ceiling:
 ```
 
----
+______________________________________________________________________
 
-# 132. Falsifiers
+## 132. Falsifiers
 
 This architecture is falsified as a claimed implementation if:
 
 1. equations execute without typed variable contracts;
-2. incompatible units compose silently;
-3. observations and reality are represented as identical by default;
-4. simulation output automatically becomes empirical evidence;
-5. causal claims require no causal evidence;
-6. equation scope can expand without support;
-7. regime-sensitive equations survive regime shifts without revalidation;
-8. provenance is lost through transformations;
-9. correlated evidence is counted as independent;
-10. derived confidence can exceed unresolved load-bearing premises without new evidence;
-11. mutable reads need no commit-time freshness check;
-12. capability automatically creates authority;
-13. proposal automatically creates durable effect;
-14. expected effects count as observed effects;
-15. dependency failure cannot selectively invalidate descendants;
-16. cross-scale equations require no transformation contract;
-17. compression can remove falsifiers;
-18. unknown inputs silently become known values;
-19. failed equations can be repaired without revalidation;
-20. AI-generated equations are treated as validated merely because they are syntactically coherent.
+1. incompatible units compose silently;
+1. observations and reality are represented as identical by default;
+1. simulation output automatically becomes empirical evidence;
+1. causal claims require no causal evidence;
+1. equation scope can expand without support;
+1. regime-sensitive equations survive regime shifts without revalidation;
+1. provenance is lost through transformations;
+1. correlated evidence is counted as independent;
+1. derived confidence can exceed unresolved load-bearing premises without new evidence;
+1. mutable reads need no commit-time freshness check;
+1. capability automatically creates authority;
+1. proposal automatically creates durable effect;
+1. expected effects count as observed effects;
+1. dependency failure cannot selectively invalidate descendants;
+1. cross-scale equations require no transformation contract;
+1. compression can remove falsifiers;
+1. unknown inputs silently become known values;
+1. failed equations can be repaired without revalidation;
+1. AI-generated equations are treated as validated merely because they are syntactically coherent.
 
----
+______________________________________________________________________
 
-# 133. Gap Status
+## 133. Gap Status
 
 Equation gaps are classified:
 
@@ -3909,24 +3595,21 @@ COSMETIC
 
 Critical missing variables or equations block dependent finalization.
 
-[
-\boxed{
+\[
+\\boxed{
 CriticalGap(E)
-\Rightarrow
+\\Rightarrow
 Finalize(E)=FALSE
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 134. Equation Gap Tensor
+## 134. Equation Gap Tensor
 
-[
-\boxed{
-T_{EG}
-======
+## \[ \\boxed{ T\_{EG}
 
-T[
+T\[
 equation,
 missing_variable,
 missing_operator,
@@ -3935,13 +3618,13 @@ criticality,
 affected_claims,
 resolution,
 status
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 135. Equation Proof Capsule
+## 135. Equation Proof Capsule
 
 ```yaml
 equation_proof_capsule:
@@ -3997,9 +3680,9 @@ equation_proof_capsule:
   conclusion_class:
 ```
 
----
+______________________________________________________________________
 
-# 136. RSCF Completion State
+## 136. RSCF Completion State
 
 ```yaml
 claim_class: MODEL
@@ -4088,9 +3771,9 @@ confidence_ceiling:
   executable_implementation: unknown_without_runtime_evidence
 ```
 
----
+______________________________________________________________________
 
-# 137. Hard Boundaries
+## 137. Hard Boundaries
 
 ```text
 REALITY_MODEL != REALITY
@@ -4150,105 +3833,96 @@ ADDRESSABLE != VALIDATED
 UNKNOWN/GAP != PASS
 ```
 
----
+______________________________________________________________________
 
-# 138. Canonical L00 Equation Stack
+## 138. Canonical L00 Equation Stack
 
 The complete architectural stack is:
 
-[
-\boxed{
+\[
+\\boxed{
 R_t
-\xrightarrow{H}
+\\xrightarrow{H}
 O_t
-\xrightarrow{\Phi_E}
+\\xrightarrow{\\Phi_E}
 E_t
-\xrightarrow{\Phi_R}
+\\xrightarrow{\\Phi_R}
 X_t
-\xrightarrow{\Psi}
+\\xrightarrow{\\Psi}
 C_t
-\xrightarrow{\Pi}
+\\xrightarrow{\\Pi}
 D_t
-\xrightarrow{\Gamma}
+\\xrightarrow{\\Gamma}
 G_t
-\xrightarrow{Execute}
+\\xrightarrow{Execute}
 A_t
-\xrightarrow{F_R}
-R_{t+1}
+\\xrightarrow{F_R}
+R\_{t+1}
 }
-]
+\]
 
 with observation feedback:
 
-[
-\boxed{
-R_{t+1}
-\xrightarrow{H}
-O_{t+1}
+\[
+\\boxed{
+R\_{t+1}
+\\xrightarrow{H}
+O\_{t+1}
 }
-]
+\]
 
 prediction comparison:
 
-[
-\boxed{
-e_{t+1}
-=======
+## \[ \\boxed{ e\_{t+1}
 
 Compare(
-O_{t+1},
-\hat{O}_{t+1}
+O\_{t+1},
+\\hat{O}\_{t+1}
 )
 }
-]
+\]
 
 and governed update:
 
-[
-\boxed{
-X_{t+1}
-=======
+## \[ \\boxed{ X\_{t+1}
 
 Update(
 X_t,
-E_{t+1},
-e_{t+1}
+E\_{t+1},
+e\_{t+1}
 )
 }
-]
+\]
 
 subject to:
 
-[
-\boxed{
+\[
+\\boxed{
 Constraints
-\land
+\\land
 Provenance
-\land
+\\land
 Scope
-\land
+\\land
 Regime
-\land
+\\land
 Freshness
-\land
+\\land
 Authority
 }
-]
+\]
 
 where applicable.
 
----
+______________________________________________________________________
 
-# 139. Governing Reality Equation
+## 139. Governing Reality Equation
 
 At the highest architectural level:
 
-[
-\boxed{
-AMOS_{t+1}
-==========
+## \[ \\boxed{ AMOS\_{t+1}
 
-\mathcal{U}
+\\mathcal{U}
 (
 AMOS_t,
 Observe(R_t),
@@ -4256,15 +3930,15 @@ Evidence_t,
 Memory_t,
 Constraints_t,
 Actions_t,
-Feedback_{t+1}
+Feedback\_{t+1}
 )
 }
-]
+\]
 
 subject to:
 
-[
-\boxed{
+\[
+\\boxed{
 Integrity
 
 >
@@ -4283,101 +3957,98 @@ Speed
 
 TokenSavings
 }
-]
+\]
 
 This is an AMOS architectural state equation.
 
 It is **not** asserted as a physical, neurological, cosmological, or universally empirical law.
 
----
+______________________________________________________________________
 
-# 140. Final L00 Formal Law
+## 140. Final L00 Formal Law
 
 The L00 equation layer is governed by:
 
-[
-\boxed{
-ValidAMOSState
-==============
+## \[ \\boxed{ ValidAMOSState
 
 RealityContact
-\land
+\\land
 TypedRepresentation
-\land
+\\land
 EvidenceIntegrity
-\land
+\\land
 DependencyIntegrity
-\land
+\\land
 ProvenanceIntegrity
-\land
+\\land
 ScopeValidity
-\land
+\\land
 RegimeValidity
-\land
+\\land
 TemporalValidity
-\land
+\\land
 ConstraintSatisfaction
 }
-]
+\]
 
 For governed effects:
 
-[
-\boxed{
-ValidAMOSAction
-===============
+## \[ \\boxed{ ValidAMOSAction
 
 ValidAMOSState
-\land
+\\land
 Capability
-\land
+\\land
 Authority
-\land
+\\land
 CommitEligibility
 }
-]
+\]
 
 And after action:
 
-[
-\boxed{
+\[
+\\boxed{
 Action
-\rightarrow
+\\rightarrow
 Effect
-\rightarrow
+\\rightarrow
 Observation
-\rightarrow
+\\rightarrow
 Validation
-\rightarrow
+\\rightarrow
 Update
 }
-]
+\]
 
 The central requirement is therefore:
 
 > AMOS equations must never allow an internal representation, model, prediction, memory, simulation, or generated claim to silently acquire the epistemic status of the external reality it represents.
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · 06-Knowledge-Base-MOC · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · AMOS_Typed_Tensor_Contracts · AMOS_Evidence_Tensor_Architecture · Cosmo_Brain_BRIDGE_INDEX · AMOS_Relation_Tensor_Architecture · AMOS_Universal_Variable_Registry · AMOS_Mathematical_Rigor_RSCF_Kernel · AMOS_Provenance_Topology · AMOS_Constraint_Propagation · AMOS_Execution_Provenance_Replay · AMOS_Infrastructure_Control_Plane · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations|AMOS_Simulation_Kernel_v0_Math_Foundations]] · system_scan_agent · automation_profiles
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: l00_reality_environment_primitives_cognitive_matrix_equations
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_EQUATIONS.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_MOC|L00_REALITY_ENVIRONMENT_MOC]]
-

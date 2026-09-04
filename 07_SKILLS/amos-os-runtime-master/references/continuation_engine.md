@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: continuation engine
 type: reference
 source: 07_SKILLS/amos-os-runtime-master/references
 tags:
-- reference
-- amos-os-runtime-master
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-os-runtime-master
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -20,10 +23,11 @@ rscf:
 > Source: `_00_Cosmo brain/engine/A/amos_continuation_engine.md`
 > Epistemic class: SOURCE_DERIVED
 
----
-tags: [engine]
----
-# amos_continuation_engine
+______________________________________________________________________
+
+## tags: [engine]
+
+## amos_continuation_engine
 
 ```python
 #!/usr/bin/env python3
@@ -45,7 +49,7 @@ from pathlib import Path
 from typing import Dict, List, Any, Set
 from datetime import datetime
 
-# Configure deterministic logging
+## Configure deterministic logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
@@ -137,10 +141,9 @@ class AMOSContinuationEngine:
 **MOC:**
 ```
 
----
+______________________________________________________________________
 
-**Related:** [[07_SKILLS/amos-os-runtime-master/amos-os-runtime-master_MOC|amos-os-runtime-master_MOC]]
----
+## **Related:** [[07_SKILLS/amos-os-runtime-master/amos-os-runtime-master_MOC|amos-os-runtime-master_MOC]]
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -148,13 +151,14 @@ class AMOSContinuationEngine:
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-os-runtime-master-continuation-engine
 node_type: reference
 path: 07_SKILLS/amos-os-runtime-master/references/continuation_engine.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC
-

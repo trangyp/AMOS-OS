@@ -17,30 +17,30 @@ schema_family: RSCF
 schema_role: AGENCY_CANON_RSCF
 schema_version: AMOS_CORE_v4.4-compatible-conceptual
 tags:
-- amos-os
-- canon
-- cognition
-- agency
-- 03_cognition_canon
-- canon_placeholder
-- rscf
-- provenance
-- authority
-- authorization
-- capability
-- action
-- decision
-- governance
-- scope
-- regime
-- validation
-- canon/universe
-- placeholder_expanded
-- delegation
-- architecture
-- law-hierarchy
-- routing-policy-validation-receipt
-- authz-engine-validation-receipt
+  - amos-os
+  - canon
+  - cognition
+  - agency
+  - 03_cognition_canon
+  - canon_placeholder
+  - rscf
+  - provenance
+  - authority
+  - authorization
+  - capability
+  - action
+  - decision
+  - governance
+  - scope
+  - regime
+  - validation
+  - canon/universe
+  - placeholder_expanded
+  - delegation
+  - architecture
+  - law-hierarchy
+  - routing-policy-validation-receipt
+  - authz-engine-validation-receipt
 version: 0.2.0
 updated: '2026-08-27'
 status: PLACEHOLDER_EXPANDED
@@ -92,14 +92,14 @@ rscf:
 
 `AMOS_AGENCY_CANON.md` is an **ADD-ONLY placeholder-expanded canon artifact** for:
 
-```text
+````text
 01_CANON/03_COGNITION_CANON
 
 It reserves the canonical slot for the framework family named:
 
 ```text
 AMOS Agency Canon
-```
+````
 
 The supplied artifact establishes:
 
@@ -175,9 +175,9 @@ System:
 
 **AMOS OS**
 
----
+______________________________________________________________________
 
-# 1. Governing Integrity Boundary
+## 1. Governing Integrity Boundary
 
 The supplied artifact explicitly establishes:
 
@@ -239,9 +239,9 @@ These three distinctions are directly supported by the supplied placeholder's go
 
 They do **not** establish a complete native AMOS theory of agency.
 
----
+______________________________________________________________________
 
-# 2. Current Strongest Supported Claim
+## 2. Current Strongest Supported Claim
 
 The strongest supported artifact-level conclusion is:
 
@@ -275,9 +275,9 @@ The substantive native definition of AMOS agency remains:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 3. Source-Supported Agency Boundaries
+## 3. Source-Supported Agency Boundaries
 
 The source directly supports these distinctions:
 
@@ -315,9 +315,9 @@ Classification:
 DERIVED
 ```
 
----
+______________________________________________________________________
 
-# 4. Contract Discipline
+## 4. Contract Discipline
 
 The supplied artifact establishes:
 
@@ -360,9 +360,9 @@ agency_contract_discipline:
 
 This does not establish executable enforcement.
 
----
+______________________________________________________________________
 
-# 5. Canonical Artifact Identity
+## 5. Canonical Artifact Identity
 
 ```yaml
 amos_agency_canon_identity:
@@ -407,9 +407,9 @@ amos_agency_canon_identity:
     UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 6. Identifier Consistency
+## 6. Identifier Consistency
 
 The supplied artifact gives the same textual identifier for:
 
@@ -458,9 +458,9 @@ IDENTIFIER MATCH
 VALIDATED AGENCY CANON
 ```
 
----
+______________________________________________________________________
 
-# 7. Agency-Term Firewall
+## 7. Agency-Term Firewall
 
 The title:
 
@@ -500,9 +500,9 @@ Native semantics remain:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 8. Agent-Term Firewall
+## 8. Agent-Term Firewall
 
 ```text
 AGENCY CANON
@@ -518,9 +518,9 @@ UNKNOWN/GAP
 
 unless recovered from native sources.
 
----
+______________________________________________________________________
 
-# 9. Human-Agency Firewall
+## 9. Human-Agency Firewall
 
 Nothing in the placeholder establishes claims about:
 
@@ -544,9 +544,9 @@ AMOS AGENCY MODEL
 EMPIRICAL THEORY OF HUMAN AGENCY
 ```
 
----
+______________________________________________________________________
 
-# 10. AI-Agency Firewall
+## 10. AI-Agency Firewall
 
 The title does not establish:
 
@@ -564,9 +564,9 @@ AI MORAL AGENCY
 
 Nor does it establish that AMOS itself is an independently acting agent.
 
----
+______________________________________________________________________
 
-# 11. Capability Boundary
+## 11. Capability Boundary
 
 The supplied artifact explicitly states:
 
@@ -596,9 +596,9 @@ PERMISSION
 
 This distinction is source-supported.
 
----
+______________________________________________________________________
 
-# 12. Authority Boundary
+## 12. Authority Boundary
 
 The worked semantics explicitly requires:
 
@@ -626,9 +626,9 @@ AUTHORITY ENGINE IMPLEMENTATION
 NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 13. Authorization Boundary
+## 13. Authorization Boundary
 
 The supplied artifact explicitly establishes:
 
@@ -646,9 +646,9 @@ AUTHORIZED
 THEREFORE EXECUTED
 ```
 
----
+______________________________________________________________________
 
-# 14. Proposal Boundary
+## 14. Proposal Boundary
 
 The source explicitly establishes:
 
@@ -670,9 +670,9 @@ PROPOSED STATE
 AUTHORITATIVE STATE
 ```
 
----
+______________________________________________________________________
 
-# 15. Commit Boundary
+## 15. Commit Boundary
 
 A commit is a consequential state transition in the target semantics.
 
@@ -704,9 +704,9 @@ or, where implementation is concerned:
 NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 16. Purpose
+## 16. Purpose
 
 This artifact reserves the canonical location for future verified native AMOS Agency Canon content.
 
@@ -746,33 +746,33 @@ VALIDATION
 CANON PROMOTION
 ```
 
----
+______________________________________________________________________
 
-# 17. Non-Purpose
+## 17. Non-Purpose
 
 This artifact MUST NOT be used to claim:
 
-* universal laws of agency;
-* philosophical proof of free will;
-* philosophical proof of determinism;
-* biological mechanisms of volition;
-* neuroscience of decision-making;
-* moral responsibility;
-* legal responsibility;
-* machine consciousness;
-* machine sentience;
-* autonomous authority;
-* unrestricted AI action;
-* inherent permission from capability;
-* successful execution from authorization;
-* committed state from proposal;
-* runtime enforcement;
-* validated agency architecture;
-* or empirical truth.
+- universal laws of agency;
+- philosophical proof of free will;
+- philosophical proof of determinism;
+- biological mechanisms of volition;
+- neuroscience of decision-making;
+- moral responsibility;
+- legal responsibility;
+- machine consciousness;
+- machine sentience;
+- autonomous authority;
+- unrestricted AI action;
+- inherent permission from capability;
+- successful execution from authorization;
+- committed state from proposal;
+- runtime enforcement;
+- validated agency architecture;
+- or empirical truth.
 
----
+______________________________________________________________________
 
-# 18. Canon-Ingestion Rule
+## 18. Canon-Ingestion Rule
 
 ```yaml
 AMOS_CANON_INGESTION_RULE:
@@ -820,9 +820,9 @@ AMOS_CANON_INGESTION_RULE:
       - NEVER_INVENT_CANON
 ```
 
----
+______________________________________________________________________
 
-# 19. Native-Source Admission Contract
+## 19. Native-Source Admission Contract
 
 A candidate source MUST NOT populate Agency Canon merely because it contains:
 
@@ -870,9 +870,9 @@ CURRENT OR HISTORICAL?
 ADMIT / COMPETE / HOLD
 ```
 
----
+______________________________________________________________________
 
-# 20. Candidate Source Classes
+## 20. Candidate Source Classes
 
 ```text
 NATIVE_CANON_SOURCE
@@ -892,9 +892,9 @@ UNKNOWN_SOURCE
 
 These classes MUST remain distinct.
 
----
+______________________________________________________________________
 
-# 21. Native Agency Definition Schema
+## 21. Native Agency Definition Schema
 
 ```yaml
 amos_agency_definition:
@@ -988,9 +988,9 @@ Current:
 native_statement = UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 22. Agency Entity Slot
+## 22. Agency Entity Slot
 
 ```yaml
 agency_entity:
@@ -1026,9 +1026,9 @@ agency_entity:
     required
 ```
 
----
+______________________________________________________________________
 
-# 23. Agent Ontology Slot
+## 23. Agent Ontology Slot
 
 ```yaml
 agent:
@@ -1066,9 +1066,9 @@ agent:
 
 No native agent ontology is currently established.
 
----
+______________________________________________________________________
 
-# 24. Actor / Agent Firewall
+## 24. Actor / Agent Firewall
 
 Do not assume:
 
@@ -1096,9 +1096,9 @@ AMOS = AGENT
 
 unless native canon explicitly establishes those identity relations.
 
----
+______________________________________________________________________
 
-# 25. Agency-State Slot
+## 25. Agency-State Slot
 
 ```yaml
 agency_state:
@@ -1137,9 +1137,9 @@ agency_state:
     UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 26. Action Slot
+## 26. Action Slot
 
 ```yaml
 agency_action:
@@ -1187,9 +1187,9 @@ agency_action:
     required
 ```
 
----
+______________________________________________________________________
 
-# 27. Action Firewall
+## 27. Action Firewall
 
 ```text
 ACTION PROPOSED
@@ -1215,9 +1215,9 @@ ACTION APPROVED
 
 Only the distinctions directly present in source should be treated as source-supported canon statements; the others are conservative normalization constraints pending native ingestion.
 
----
+______________________________________________________________________
 
-# 28. Intent Slot
+## 28. Intent Slot
 
 ```yaml
 agency_intent:
@@ -1244,9 +1244,9 @@ agency_intent:
     required
 ```
 
----
+______________________________________________________________________
 
-# 29. Intent Firewall
+## 29. Intent Firewall
 
 ```text
 INTENT
@@ -1272,9 +1272,9 @@ OUTCOME
 
 These are safe conceptual distinctions but are not yet established as native AMOS Agency Canon definitions.
 
----
+______________________________________________________________________
 
-# 30. Goal Slot
+## 30. Goal Slot
 
 ```yaml
 agency_goal:
@@ -1304,9 +1304,9 @@ agency_goal:
     required
 ```
 
----
+______________________________________________________________________
 
-# 31. Goal Firewall
+## 31. Goal Firewall
 
 ```text
 GOAL
@@ -1316,9 +1316,9 @@ AUTHORITY
 
 Possessing or representing a goal cannot by itself license action.
 
----
+______________________________________________________________________
 
-# 32. Choice Slot
+## 32. Choice Slot
 
 ```yaml
 agency_choice:
@@ -1345,9 +1345,9 @@ agency_choice:
     required
 ```
 
----
+______________________________________________________________________
 
-# 33. Choice Firewall
+## 33. Choice Firewall
 
 Do not infer philosophical free will merely from a model containing alternatives and selection.
 
@@ -1357,9 +1357,9 @@ MODELLED CHOICE
 METAPHYSICAL FREE WILL
 ```
 
----
+______________________________________________________________________
 
-# 34. Decision Slot
+## 34. Decision Slot
 
 ```yaml
 agency_decision:
@@ -1392,9 +1392,9 @@ agency_decision:
     required
 ```
 
----
+______________________________________________________________________
 
-# 35. Decision Firewall
+## 35. Decision Firewall
 
 ```text
 DECISION
@@ -1406,9 +1406,9 @@ unless native canon defines decision and commit as identical.
 
 No such identity is established.
 
----
+______________________________________________________________________
 
-# 36. Capability Slot
+## 36. Capability Slot
 
 ```yaml
 agency_capability:
@@ -1438,9 +1438,9 @@ agency_capability:
     required
 ```
 
----
+______________________________________________________________________
 
-# 37. Capability Firewall
+## 37. Capability Firewall
 
 Source-supported:
 
@@ -1460,9 +1460,9 @@ must not imply:
 HAS_AUTHORITY(X)
 ```
 
----
+______________________________________________________________________
 
-# 38. Authority Slot
+## 38. Authority Slot
 
 ```yaml
 agency_authority:
@@ -1507,9 +1507,9 @@ agency_authority:
     required
 ```
 
----
+______________________________________________________________________
 
-# 39. Epoch-Validity Boundary
+## 39. Epoch-Validity Boundary
 
 The supplied target semantics explicitly says:
 
@@ -1539,9 +1539,9 @@ The exact native epoch model remains:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 40. Authorization Slot
+## 40. Authorization Slot
 
 ```yaml
 agency_authorization:
@@ -1580,9 +1580,9 @@ agency_authorization:
     required
 ```
 
----
+______________________________________________________________________
 
-# 41. Authorization Firewall
+## 41. Authorization Firewall
 
 Source-supported:
 
@@ -1602,9 +1602,9 @@ remains distinct from:
 COMMITTED EFFECT
 ```
 
----
+______________________________________________________________________
 
-# 42. Proposal Slot
+## 42. Proposal Slot
 
 ```yaml
 agency_proposal:
@@ -1640,9 +1640,9 @@ agency_proposal:
     required
 ```
 
----
+______________________________________________________________________
 
-# 43. Proposal Firewall
+## 43. Proposal Firewall
 
 Source-supported:
 
@@ -1668,9 +1668,9 @@ COMMIT OR HOLD
 
 is a source-supported target pattern.
 
----
+______________________________________________________________________
 
-# 44. Commit Slot
+## 44. Commit Slot
 
 ```yaml
 agency_commit:
@@ -1706,9 +1706,9 @@ agency_commit:
     UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 45. Commit-Finality Firewall
+## 45. Commit-Finality Firewall
 
 No source establishes whether a commit is:
 
@@ -1734,9 +1734,9 @@ Those semantics remain:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 46. Constraint Slot
+## 46. Constraint Slot
 
 ```yaml
 agency_constraint:
@@ -1766,9 +1766,9 @@ agency_constraint:
     required
 ```
 
----
+______________________________________________________________________
 
-# 47. Constraint Firewall
+## 47. Constraint Firewall
 
 ```text
 CAN
@@ -1794,9 +1794,9 @@ DID
 
 The first distinction is directly supported by `CAPABILITY != AUTHORITY`; the remainder are conceptual safeguards pending native canon.
 
----
+______________________________________________________________________
 
-# 48. Autonomy Slot
+## 48. Autonomy Slot
 
 ```yaml
 agency_autonomy:
@@ -1823,9 +1823,9 @@ agency_autonomy:
     UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 49. Autonomy Firewall
+## 49. Autonomy Firewall
 
 ```text
 AGENCY
@@ -1843,9 +1843,9 @@ AUTHORITY
 
 No native AMOS autonomy doctrine is established.
 
----
+______________________________________________________________________
 
-# 50. Delegation Slot
+## 50. Delegation Slot
 
 ```yaml
 agency_delegation:
@@ -1881,9 +1881,9 @@ agency_delegation:
     required
 ```
 
----
+______________________________________________________________________
 
-# 51. Delegation Firewall
+## 51. Delegation Firewall
 
 Do not infer:
 
@@ -1903,9 +1903,9 @@ DELEGATED AUTHORITY
 
 Native delegation semantics are not established.
 
----
+______________________________________________________________________
 
-# 52. Responsibility Slot
+## 52. Responsibility Slot
 
 ```yaml
 agency_responsibility:
@@ -1932,9 +1932,9 @@ agency_responsibility:
     required
 ```
 
----
+______________________________________________________________________
 
-# 53. Responsibility Firewall
+## 53. Responsibility Firewall
 
 The existence of an action does not itself establish:
 
@@ -1950,9 +1950,9 @@ OPERATIONAL RESPONSIBILITY
 
 These are distinct claim types.
 
----
+______________________________________________________________________
 
-# 54. Accountability Slot
+## 54. Accountability Slot
 
 ```yaml
 agency_accountability:
@@ -1982,9 +1982,9 @@ agency_accountability:
     required
 ```
 
----
+______________________________________________________________________
 
-# 55. Accountability Firewall
+## 55. Accountability Firewall
 
 ```text
 LOGGED
@@ -1996,9 +1996,9 @@ is source-supported.
 
 Likewise, logging alone cannot establish responsibility or accountability.
 
----
+______________________________________________________________________
 
-# 56. Receipt Slot
+## 56. Receipt Slot
 
 ```yaml
 agency_receipt:
@@ -2034,9 +2034,9 @@ agency_receipt:
     required
 ```
 
----
+______________________________________________________________________
 
-# 57. Receipt Firewall
+## 57. Receipt Firewall
 
 ```text
 RECEIPT
@@ -2054,9 +2054,9 @@ EMPIRICAL VALIDATION
 
 unless the receipt explicitly records the relevant validation procedure.
 
----
+______________________________________________________________________
 
-# 58. Rollback Slot
+## 58. Rollback Slot
 
 ```yaml
 agency_rollback:
@@ -2083,9 +2083,9 @@ agency_rollback:
     UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 59. Rollback Boundary
+## 59. Rollback Boundary
 
 The source explicitly requires:
 
@@ -2107,9 +2107,9 @@ where required by the governing contract.
 
 Exact native rollback semantics remain unestablished.
 
----
+______________________________________________________________________
 
-# 60. Agency Transition Slot
+## 60. Agency Transition Slot
 
 ```yaml
 agency_transition:
@@ -2145,9 +2145,9 @@ agency_transition:
     UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 61. Minimal Target Transition
+## 61. Minimal Target Transition
 
 The supplied worked semantics supports:
 
@@ -2179,9 +2179,9 @@ IMPLEMENTED RUNTIME
 
 without evidence.
 
----
+______________________________________________________________________
 
-# 62. Admit Stage
+## 62. Admit Stage
 
 Target semantics:
 
@@ -2199,9 +2199,9 @@ FAIL CLOSED
 
 This is source-supported target behavior.
 
----
+______________________________________________________________________
 
-# 63. Scope-Binding Stage
+## 63. Scope-Binding Stage
 
 Target semantics requires declaration of:
 
@@ -2221,9 +2221,9 @@ Exact native scope schema remains:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 64. Authority-Check Stage
+## 64. Authority-Check Stage
 
 Target semantics:
 
@@ -2239,9 +2239,9 @@ capability alone never authorizes
 
 This is one of the strongest substantive governance statements available in the placeholder.
 
----
+______________________________________________________________________
 
-# 65. Preconditions Stage
+## 65. Preconditions Stage
 
 Target semantics requires:
 
@@ -2258,9 +2258,9 @@ Implementation:
 NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 66. Proposal Stage
+## 66. Proposal Stage
 
 Target semantics:
 
@@ -2277,9 +2277,9 @@ PROPOSAL
 AUTHORITATIVE STATE
 ```
 
----
+______________________________________________________________________
 
-# 67. Commit-or-Hold Stage
+## 67. Commit-or-Hold Stage
 
 On failed premise:
 
@@ -2293,9 +2293,9 @@ RECORD RECEIPT
 
 This is explicitly stated in the source's target semantics.
 
----
+______________________________________________________________________
 
-# 68. Causal Agency Firewall
+## 68. Causal Agency Firewall
 
 Agency language does not by itself establish causation.
 
@@ -2323,9 +2323,9 @@ ACTOR COMMITTED EFFECT
 
 These are not interchangeable.
 
----
+______________________________________________________________________
 
-# 69. Intent/Causation Firewall
+## 69. Intent/Causation Firewall
 
 ```text
 INTENDED OUTCOME
@@ -2343,9 +2343,9 @@ INTENDED OUTCOME
 
 No native causal-agency model is currently established.
 
----
+______________________________________________________________________
 
-# 70. Authorization/Causation Firewall
+## 70. Authorization/Causation Firewall
 
 ```text
 AUTHORIZED ACTION
@@ -2355,9 +2355,9 @@ CAUSE OF RESULT
 
 Authorization is a governance relation, not by itself causal evidence.
 
----
+______________________________________________________________________
 
-# 71. Capability/Causation Firewall
+## 71. Capability/Causation Firewall
 
 ```text
 CAPABLE OF X
@@ -2367,9 +2367,9 @@ CAUSED X
 
 Capability establishes, at most, a possibility under some conditions—not actual causation.
 
----
+______________________________________________________________________
 
-# 72. Agency Provenance Topology
+## 72. Agency Provenance Topology
 
 Future substantive Agency Canon definitions SHOULD preserve:
 
@@ -2393,9 +2393,9 @@ AGENCY DEFINITION
 └── SCOPE / REGIME
 ```
 
----
+______________________________________________________________________
 
-# 73. Duplicate-Source Firewall
+## 73. Duplicate-Source Firewall
 
 If multiple documents descend from one agency definition:
 
@@ -2407,9 +2407,9 @@ MANY INDEPENDENT DEFINITIONS
 
 Preserve root ancestry.
 
----
+______________________________________________________________________
 
-# 74. Provenance-Independence Slot
+## 74. Provenance-Independence Slot
 
 ```yaml
 agency_provenance_independence:
@@ -2427,9 +2427,9 @@ agency_provenance_independence:
     false
 ```
 
----
+______________________________________________________________________
 
-# 75. Competing Agency Interpretations
+## 75. Competing Agency Interpretations
 
 Until native canon resolves the term, preserve possible interpretations as competing models:
 
@@ -2459,9 +2459,9 @@ COMPETING / UNKNOWN/GAP
 
 None may be promoted merely from ordinary-language plausibility.
 
----
+______________________________________________________________________
 
-# 76. Discriminating Evidence
+## 76. Discriminating Evidence
 
 The highest-information missing evidence is:
 
@@ -2489,9 +2489,9 @@ NATIVE AGENCY DIAGRAM OR EQUATIONS
 NATIVE EXECUTABLE BINDING
 ```
 
----
+______________________________________________________________________
 
-# 77. Agency Proof Capsule
+## 77. Agency Proof Capsule
 
 ```yaml
 agency_proof_capsule:
@@ -2557,9 +2557,9 @@ agency_proof_capsule:
     required
 ```
 
----
+______________________________________________________________________
 
-# 78. Confidence Ceiling
+## 78. Confidence Ceiling
 
 For an agency conclusion:
 
@@ -2585,9 +2585,9 @@ AUTHORIZED ACTION = VERIFIED
 
 The conclusion ceiling is constrained by the unresolved authority premise.
 
----
+______________________________________________________________________
 
-# 79. Uncertainty Vector
+## 79. Uncertainty Vector
 
 When material, track separately:
 
@@ -2623,9 +2623,9 @@ PROVENANCE UNCERTAINTY
 PROVENANCE-INDEPENDENCE UNCERTAINTY
 ```
 
----
+______________________________________________________________________
 
-# 80. Sensitivity
+## 80. Sensitivity
 
 For consequential agency conclusions, high-sensitivity premises include:
 
@@ -2653,9 +2653,9 @@ WHAT EVIDENCE WOULD INVALIDATE THE ACTION?
 
 Resolve the smallest premise capable of changing the action decision first.
 
----
+______________________________________________________________________
 
-# 81. Fragility
+## 81. Fragility
 
 An action conclusion is fragile if a small change in:
 
@@ -2693,9 +2693,9 @@ CONDITIONAL
 
 until the sensitive premise is resolved.
 
----
+______________________________________________________________________
 
-# 82. Scope Slot
+## 82. Scope Slot
 
 ```yaml
 agency_scope:
@@ -2731,9 +2731,9 @@ agency_scope:
     UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 83. Scope Firewall
+## 83. Scope Firewall
 
 ```text
 AUTHORIZED FOR DOMAIN A
@@ -2759,9 +2759,9 @@ AUTHORIZED FOR TARGET T2
 
 unless the authority envelope explicitly covers both.
 
----
+______________________________________________________________________
 
-# 84. Regime Slot
+## 84. Regime Slot
 
 ```yaml
 agency_regime:
@@ -2788,9 +2788,9 @@ agency_regime:
     UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 85. Regime Firewall
+## 85. Regime Firewall
 
 ```text
 AUTHORIZED @ R1
@@ -2802,9 +2802,9 @@ if authority semantics are regime-dependent.
 
 No cross-regime invariance is established.
 
----
+______________________________________________________________________
 
-# 86. Temporal Slot
+## 86. Temporal Slot
 
 ```yaml
 agency_temporal_semantics:
@@ -2831,9 +2831,9 @@ agency_temporal_semantics:
     UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 87. Freshness Firewall
+## 87. Freshness Firewall
 
 Authority or authorization evidence may become stale.
 
@@ -2851,9 +2851,9 @@ VALID AUTHORITY@t2
 
 unless temporal validity includes `t2`.
 
----
+______________________________________________________________________
 
-# 88. Dependency Slot
+## 88. Dependency Slot
 
 ```yaml
 agency_dependencies:
@@ -2883,9 +2883,9 @@ agency_dependencies:
     UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 89. Dependency Firewall
+## 89. Dependency Firewall
 
 ```text
 REFERENCED_BY
@@ -2905,9 +2905,9 @@ CO-LOCATED_WITH
 DEPENDENT_ON
 ```
 
----
+______________________________________________________________________
 
-# 90. Dependency Closure
+## 90. Dependency Closure
 
 For an agency decision:
 
@@ -2935,9 +2935,9 @@ COMMIT OR HOLD
 
 Only dependencies capable of changing the result need escalation.
 
----
+______________________________________________________________________
 
-# 91. Local Invalidation
+## 91. Local Invalidation
 
 Suppose:
 
@@ -2970,9 +2970,9 @@ AUTHORITY FAILURE
 CAPABILITY FAILURE
 ```
 
----
+______________________________________________________________________
 
-# 92. Failure Recovery
+## 92. Failure Recovery
 
 ```text
 FAILED PREMISE / EDGE
@@ -2988,9 +2988,9 @@ PRESERVE UNAFFECTED KNOWLEDGE
 REROUTE WITH CHANGED EVIDENCE
 ```
 
----
+______________________________________________________________________
 
-# 93. Global-Recompute Firewall
+## 93. Global-Recompute Firewall
 
 ```text
 ONE AUTHORIZATION FAILS
@@ -3014,9 +3014,9 @@ ONE ACTOR FAILS
 AGENCY CANON INVALID
 ```
 
----
+______________________________________________________________________
 
-# 94. Persistent Provenance
+## 94. Persistent Provenance
 
 ```yaml
 persistent_agency_provenance:
@@ -3064,9 +3064,9 @@ persistent_agency_provenance:
     required
 ```
 
----
+______________________________________________________________________
 
-# 95. Version Slot
+## 95. Version Slot
 
 ```yaml
 agency_canon_version:
@@ -3093,9 +3093,9 @@ agency_canon_version:
     required
 ```
 
----
+______________________________________________________________________
 
-# 96. Version Firewall
+## 96. Version Firewall
 
 ```text
 AGENCY CANON v2
@@ -3113,9 +3113,9 @@ AUTOMATICALLY VALID @ v2
 
 Supersession and compatibility require evidence.
 
----
+______________________________________________________________________
 
-# 97. MVCC Concept
+## 97. MVCC Concept
 
 A future implementation may conceptually perform:
 
@@ -3147,9 +3147,9 @@ Implementation:
 NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 98. CAS Concept
+## 98. CAS Concept
 
 Conceptually:
 
@@ -3164,9 +3164,9 @@ NO STALE COMMIT
 
 This is an architectural reasoning model only.
 
----
+______________________________________________________________________
 
-# 99. Atomic Multi-RSCF Agency Concept
+## 99. Atomic Multi-RSCF Agency Concept
 
 A consequential action may conceptually touch:
 
@@ -3198,9 +3198,9 @@ COMPLETE SUCCESS
 
 No literal runtime mechanism is asserted.
 
----
+______________________________________________________________________
 
-# 100. Causal Epoch Concept
+## 100. Causal Epoch Concept
 
 Conceptually:
 
@@ -3218,9 +3218,9 @@ AGENCY STATE@E+1
 
 The placeholder does not establish distributed implementation or causal finality.
 
----
+______________________________________________________________________
 
-# 101. Proof-Based Coordination Avoidance
+## 101. Proof-Based Coordination Avoidance
 
 A local agency action may remain local only where dependency closure establishes:
 
@@ -3238,9 +3238,9 @@ NO CAUSALLY COUPLED EXTERNAL EFFECT REQUIRING VALIDATION
 
 This is conceptual governance, not evidence of an implemented protocol.
 
----
+______________________________________________________________________
 
-# 102. Reversibility Governance
+## 102. Reversibility Governance
 
 For consequential actions, target discipline favors:
 
@@ -3254,9 +3254,9 @@ when outcomes are otherwise sufficient under uncertainty.
 
 However, the supplied placeholder itself establishes only the requirement for a rollback basin before mutation, not a complete native reversibility doctrine.
 
----
+______________________________________________________________________
 
-# 103. Irreversibility Escalation
+## 103. Irreversibility Escalation
 
 A future Agency Canon may require stronger validation when:
 
@@ -3274,9 +3274,9 @@ ACTION HAS SAFETY / LEGAL / FINANCIAL CONSEQUENCES
 
 These are governance targets, not recovered native Agency Canon.
 
----
+______________________________________________________________________
 
-# 104. Observability Boundary
+## 104. Observability Boundary
 
 A future observability layer may expose:
 
@@ -3304,9 +3304,9 @@ LOGGED != APPROVED
 
 Therefore observability cannot silently become authority.
 
----
+______________________________________________________________________
 
-# 105. Kernel Boundary
+## 105. Kernel Boundary
 
 ```text
 AGENCY CANON ARTIFACT EXISTS
@@ -3320,9 +3320,9 @@ Current kernel binding:
 NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 106. Control-Plane Boundary
+## 106. Control-Plane Boundary
 
 The target cross-plane binding references:
 
@@ -3344,9 +3344,9 @@ Current implementation:
 NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 107. Routing Boundary
+## 107. Routing Boundary
 
 The placeholder requires validation receipt references including:
 
@@ -3368,9 +3368,9 @@ or:
 ROUTING POLICY VALIDATED
 ```
 
----
+______________________________________________________________________
 
-# 108. Authorization-Engine Boundary
+## 108. Authorization-Engine Boundary
 
 The placeholder references:
 
@@ -3394,9 +3394,9 @@ AUTHZ ENGINE PASSED VALIDATION
 
 are not established by this placeholder alone.
 
----
+______________________________________________________________________
 
-# 109. Validation Contract
+## 109. Validation Contract
 
 Promotion SHOULD validate:
 
@@ -3458,9 +3458,9 @@ RECEIPTS
 EXECUTABLE BINDING
 ```
 
----
+______________________________________________________________________
 
-# 110. Negative Validation Matrix
+## 110. Negative Validation Matrix
 
 ```text
 MISSING ARTIFACT
@@ -3540,9 +3540,9 @@ MISSING RECEIPT
 COMPETING AGENCY INTERPRETATION HIDDEN
 ```
 
----
+______________________________________________________________________
 
-# 111. Validation Receipt Target
+## 111. Validation Receipt Target
 
 ```yaml
 amos_agency_canon_validation_receipt:
@@ -3647,9 +3647,9 @@ Current:
 NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 112. Critical Gap — Native Agency Definition
+## 112. Critical Gap — Native Agency Definition
 
 ```yaml
 gap:
@@ -3674,9 +3674,9 @@ gap:
     - native_agency_definition
 ```
 
----
+______________________________________________________________________
 
-# 113. Critical Gap — Actor / Agent Ontology
+## 113. Critical Gap — Actor / Agent Ontology
 
 ```yaml
 gap:
@@ -3695,9 +3695,9 @@ gap:
     of entities may possess or exercise agency.
 ```
 
----
+______________________________________________________________________
 
-# 114. Critical Gap — Action Semantics
+## 114. Critical Gap — Action Semantics
 
 ```yaml
 gap:
@@ -3716,9 +3716,9 @@ gap:
     semantics, and effect semantics remain unestablished.
 ```
 
----
+______________________________________________________________________
 
-# 115. Critical Gap — Authority Semantics
+## 115. Critical Gap — Authority Semantics
 
 ```yaml
 gap:
@@ -3738,9 +3738,9 @@ gap:
     but no complete native authority schema is provided.
 ```
 
----
+______________________________________________________________________
 
-# 116. Critical Gap — Authorization Semantics
+## 116. Critical Gap — Authorization Semantics
 
 ```yaml
 gap:
@@ -3760,9 +3760,9 @@ gap:
     unestablished.
 ```
 
----
+______________________________________________________________________
 
-# 117. Critical Gap — Scope
+## 117. Critical Gap — Scope
 
 ```yaml
 gap:
@@ -3781,9 +3781,9 @@ gap:
     is not established.
 ```
 
----
+______________________________________________________________________
 
-# 118. Critical Gap — Executable Binding
+## 118. Critical Gap — Executable Binding
 
 ```yaml
 gap:
@@ -3802,9 +3802,9 @@ gap:
     mechanism is established.
 ```
 
----
+______________________________________________________________________
 
-# 119. Critical Gap — Validation
+## 119. Critical Gap — Validation
 
 ```yaml
 gap:
@@ -3823,9 +3823,9 @@ gap:
     establishes the substantive Agency Canon.
 ```
 
----
+______________________________________________________________________
 
-# 120. Worked Semantics — Capability
+## 120. Worked Semantics — Capability
 
 Input:
 
@@ -3853,9 +3853,9 @@ Source-supported boundary:
 CAPABILITY != AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 121. Worked Semantics — Stale Authority
+## 121. Worked Semantics — Stale Authority
 
 Given:
 
@@ -3879,9 +3879,9 @@ HOLD / FAIL CLOSED
 
 under the supplied target semantics.
 
----
+______________________________________________________________________
 
-# 122. Worked Semantics — Authorization
+## 122. Worked Semantics — Authorization
 
 Given:
 
@@ -3903,9 +3903,9 @@ AUTHORIZATION ESTABLISHED
 COMMIT STATE REMAINS SEPARATE
 ```
 
----
+______________________________________________________________________
 
-# 123. Worked Semantics — Proposal
+## 123. Worked Semantics — Proposal
 
 Given:
 
@@ -3933,9 +3933,9 @@ Source-supported:
 PROPOSAL != COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 124. Worked Semantics — Failed Premise
+## 124. Worked Semantics — Failed Premise
 
 Suppose:
 
@@ -3957,9 +3957,9 @@ INVALIDATE DEPENDENT DESCENDANTS ONLY
 RECORD RECEIPT
 ```
 
----
+______________________________________________________________________
 
-# 125. Worked Semantics — Unknown Authority
+## 125. Worked Semantics — Unknown Authority
 
 Suppose:
 
@@ -3986,9 +3986,9 @@ because:
 UNKNOWN/GAP != PASS
 ```
 
----
+______________________________________________________________________
 
-# 126. Worked Semantics — Intent
+## 126. Worked Semantics — Intent
 
 Suppose an actor expresses an intention to perform action `A`.
 
@@ -4001,9 +4001,9 @@ AUTHORIZATION = UNKNOWN/GAP
 COMMIT = NOT ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 127. Worked Semantics — Goal
+## 127. Worked Semantics — Goal
 
 An entity has goal `G`.
 
@@ -4021,9 +4021,9 @@ GOAL
 AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 128. Worked Semantics — Logging
+## 128. Worked Semantics — Logging
 
 An action appears in an observability log.
 
@@ -4035,9 +4035,9 @@ LOGGED != APPROVED
 
 Therefore the log cannot independently establish authorization.
 
----
+______________________________________________________________________
 
-# 129. Worked Semantics — Causation
+## 129. Worked Semantics — Causation
 
 Actor `A` was authorized to perform `X`.
 
@@ -4059,9 +4059,9 @@ TEMPORAL SEQUENCE
 
 are insufficient by themselves to establish causal effect.
 
----
+______________________________________________________________________
 
-# 130. Worked Semantics — Responsibility
+## 130. Worked Semantics — Responsibility
 
 An actor's identifier appears in a receipt.
 
@@ -4079,9 +4079,9 @@ IDENTIFIER ASSOCIATION
 
 until the relevant responsibility class and causal evidence are established.
 
----
+______________________________________________________________________
 
-# 131. Worked Semantics — Competing Definitions
+## 131. Worked Semantics — Competing Definitions
 
 Native source A defines agency one way.
 
@@ -4095,9 +4095,9 @@ COMPETING
 
 Do not silently merge.
 
----
+______________________________________________________________________
 
-# 132. Worked Semantics — Historical Agency Model
+## 132. Worked Semantics — Historical Agency Model
 
 A historical AMOS source defines agency.
 
@@ -4115,9 +4115,9 @@ UNKNOWN/GAP
 
 until lineage resolves the relationship.
 
----
+______________________________________________________________________
 
-# 133. Worked Semantics — Local Invalidation
+## 133. Worked Semantics — Local Invalidation
 
 Suppose an action depends on:
 
@@ -4141,9 +4141,9 @@ Do not invalidate independently supported:
 C
 ```
 
----
+______________________________________________________________________
 
-# 134. Worked Semantics — Scope Leakage
+## 134. Worked Semantics — Scope Leakage
 
 Suppose authority permits:
 
@@ -4167,9 +4167,9 @@ WRITE AUTHORITY
 
 unless scope explicitly covers both.
 
----
+______________________________________________________________________
 
-# 135. Worked Semantics — Regime Shift
+## 135. Worked Semantics — Regime Shift
 
 Suppose authority is valid under regime `R1`.
 
@@ -4183,9 +4183,9 @@ REVALIDATE AUTHORITY
 
 rather than silently reusing it.
 
----
+______________________________________________________________________
 
-# 136. Worked Semantics — Adversarial Challenge
+## 136. Worked Semantics — Adversarial Challenge
 
 Primary conclusion:
 
@@ -4221,9 +4221,9 @@ DOWNGRADE / HOLD / UNKNOWN/GAP
 
 as appropriate.
 
----
+______________________________________________________________________
 
-# 137. Cross-Plane Bindings
+## 137. Cross-Plane Bindings
 
 Source-supported governance relation:
 
@@ -4259,55 +4259,55 @@ Target integration points:
 
 These target references do not establish executable bindings.
 
----
+______________________________________________________________________
 
-# 138. Promotion Gate
+## 138. Promotion Gate
 
 Before promotion:
 
-* [ ] verified native Agency Canon source recovered;
-* [ ] framework identity matched;
-* [ ] source version resolved;
-* [ ] provenance ancestry resolved;
-* [ ] historical/current standing resolved;
-* [ ] native agency definition extracted;
-* [ ] actor/agent ontology established;
-* [ ] action semantics established;
-* [ ] intent semantics established if native;
-* [ ] goal semantics established if native;
-* [ ] choice semantics established if native;
-* [ ] decision semantics established if native;
-* [ ] capability semantics established;
-* [ ] authority semantics established;
-* [ ] authorization semantics established;
-* [ ] proposal semantics established;
-* [ ] commit semantics established;
-* [ ] constraint semantics established;
-* [ ] delegation semantics established if native;
-* [ ] responsibility semantics established if native;
-* [ ] accountability semantics established if native;
-* [ ] causal-agency claims typed correctly;
-* [ ] scope envelope established;
-* [ ] regime envelope established;
-* [ ] temporal validity established;
-* [ ] freshness semantics established;
-* [ ] dependency topology established;
-* [ ] provenance independence assessed;
-* [ ] negative cases executed;
-* [ ] stale authority rejected;
-* [ ] unauthorized mutation rejected;
-* [ ] proposal/commit separation validated;
-* [ ] rollback basin demonstrated;
-* [ ] receipts persisted;
-* [ ] executable binding established if enforcement is claimed;
-* [ ] `ROUTING_POLICY_VALIDATION_RECEIPT` resolved;
-* [ ] `AUTHZ_ENGINE_VALIDATION_RECEIPT` resolved;
-* [ ] artifact-specific validation receipt executed;
-* [ ] unresolved critical gaps remain visible.
+- [ ] verified native Agency Canon source recovered;
+- [ ] framework identity matched;
+- [ ] source version resolved;
+- [ ] provenance ancestry resolved;
+- [ ] historical/current standing resolved;
+- [ ] native agency definition extracted;
+- [ ] actor/agent ontology established;
+- [ ] action semantics established;
+- [ ] intent semantics established if native;
+- [ ] goal semantics established if native;
+- [ ] choice semantics established if native;
+- [ ] decision semantics established if native;
+- [ ] capability semantics established;
+- [ ] authority semantics established;
+- [ ] authorization semantics established;
+- [ ] proposal semantics established;
+- [ ] commit semantics established;
+- [ ] constraint semantics established;
+- [ ] delegation semantics established if native;
+- [ ] responsibility semantics established if native;
+- [ ] accountability semantics established if native;
+- [ ] causal-agency claims typed correctly;
+- [ ] scope envelope established;
+- [ ] regime envelope established;
+- [ ] temporal validity established;
+- [ ] freshness semantics established;
+- [ ] dependency topology established;
+- [ ] provenance independence assessed;
+- [ ] negative cases executed;
+- [ ] stale authority rejected;
+- [ ] unauthorized mutation rejected;
+- [ ] proposal/commit separation validated;
+- [ ] rollback basin demonstrated;
+- [ ] receipts persisted;
+- [ ] executable binding established if enforcement is claimed;
+- [ ] `ROUTING_POLICY_VALIDATION_RECEIPT` resolved;
+- [ ] `AUTHZ_ENGINE_VALIDATION_RECEIPT` resolved;
+- [ ] artifact-specific validation receipt executed;
+- [ ] unresolved critical gaps remain visible.
 
----
+______________________________________________________________________
 
-# 139. Current Proof Capsule
+## 139. Current Proof Capsule
 
 ```yaml
 proof_capsule:
@@ -4419,9 +4419,9 @@ proof_capsule:
     false
 ```
 
----
+______________________________________________________________________
 
-# 140. Canonical Knowledge Capsule
+## 140. Canonical Knowledge Capsule
 
 **Class: DERIVED / AMOS_MODEL**
 
@@ -4565,9 +4565,9 @@ VALIDATION
 NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 141. Final Integrity Rule
+## 141. Final Integrity Rule
 
 Until verified native content is recovered:
 
@@ -4680,9 +4680,9 @@ EXECUTE RECEIPTS
 PROMOTE ONLY AFTER VALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 142. Canonical Invariants
+## 142. Canonical Invariants
 
 ```text
 INTEGRITY > COMPLETENESS > FLUENCY > SPEED > TOKEN SAVINGS
@@ -4778,9 +4778,9 @@ ONE FAILED AUTHORIZATION != ALL AGENCY INVALID
 ONE FAILED ACTION != ALL ACTOR CAPABILITY INVALID
 ```
 
----
+______________________________________________________________________
 
-# 143. Status Matrix
+## 143. Status Matrix
 
 | Dimension                                | Current status             | Promotion requirement            |
 | ---------------------------------------- | -------------------------- | -------------------------------- |
@@ -4829,9 +4829,9 @@ ONE FAILED ACTION != ALL ACTOR CAPABILITY INVALID
 | Artifact validation                      | NOT_ESTABLISHED            | executed artifact receipt        |
 | Empirical validity                       | NOT_ESTABLISHED            | appropriately typed evidence     |
 
----
+______________________________________________________________________
 
-# 144. Minimum Missing Information
+## 144. Minimum Missing Information
 
 The minimum evidence required to replace the central `UNKNOWN/GAP` is:
 
@@ -4925,15 +4925,15 @@ Without that evidence, substantive completion would violate:
 NEVER_INVENT_CANON
 ```
 
----
+______________________________________________________________________
 
 00_ROOT_MOC|AMOS MOC
 
----
+______________________________________________________________________
 
-**Related:**  ·  ·
+**Related:** · ·
 
----
+______________________________________________________________________
 
 RSCF-NODE
 
@@ -5017,29 +5017,29 @@ native_dependencies_status: NOT_ESTABLISHED
 
 RSCF-RELATIONS:
 
-* INDEXED_BY:
+- INDEXED_BY:
 
-* INDEXED_BY:
+- INDEXED_BY:
 
-* GOVERNED_BY:
+- GOVERNED_BY:
 
-* TARGET_INTERACTS_WITH:
+- TARGET_INTERACTS_WITH:
 
-* TARGET_CONTROLLED_BY:
+- TARGET_CONTROLLED_BY:
 
-* TARGET_OBSERVED_BY:
+- TARGET_OBSERVED_BY:
 
-* TARGET_RECOVERED_BY:
+- TARGET_RECOVERED_BY:
 
-* TARGET_VALIDATED_BY:
+- TARGET_VALIDATED_BY:
 
-* TARGET_VALIDATED_BY:
+- TARGET_VALIDATED_BY:
 
----
+______________________________________________________________________
 
 **MOC:**
 
----
+______________________________________________________________________
 
 **Origin Architect / Steward:** Trang Phan
 
@@ -5121,7 +5121,8 @@ RSCF-RELATIONS:
 
 **Validation:** NOT_ESTABLISHED
 
-
 The decisive distinction in this placeholder is stronger than in a purely empty canon slot: it already provides a **source-supported governance spine**—`CAPABILITY ≠ AUTHORITY`, `AUTHORIZATION ≠ COMMIT`, `PROPOSAL ≠ COMMIT`, epoch-valid authority, fail-closed uncertainty, selective invalidation, receipts, and rollback discipline. What remains unavailable is the native definition that turns those boundaries into a complete **AMOS Agency ontology and executable contract**.
 
+```
+```
 ```

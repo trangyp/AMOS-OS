@@ -4,25 +4,22 @@ title: SKILL — Amos Collapse Recovery
 type: skill
 source: 07_SKILLS/amos-collapse-recovery
 name: amos-collapse-recovery
-description: Collapse Recovery — Trang framework capability. Use when Trang framework
-  reasoning, cascade analysis, or reality architecture. Use when amos-trang-framework-master
-  routes to this specialized capability. Do not use for generic tasks outside trang
-  domain.
+description: Collapse Recovery — Trang framework capability. Use when Trang framework reasoning, cascade analysis, or reality architecture. Use when amos-trang-framework-master routes to this specialized capability. Do not use for generic tasks outside trang domain.
 parent_skill: amos-trang-framework-master
 domain: trang
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
 tags:
-- type/skill
-- type/skill
-- domain/trang-framework
-- epistemic/source_claim
-- hml/h
-- epistemic/source_claim
-- amos-os
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/trang-framework
+  - epistemic/source_claim
+  - hml/h
+  - epistemic/source_claim
+  - amos-os
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: EMPIRICAL
@@ -32,33 +29,33 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: H
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
-- L7_authority
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
+  - L7_authority
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L7
-- L16
-- L17
-- L18
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L7
+  - L16
+  - L17
+  - L18
 license: MIT
 steward: Trang Phan
 ---
 
 # Collapse Recovery
 
-
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: trang. Parent: amos-trang-framework-master. Epistemic class: SOURCE_CLAIM. H/M/L: H.
+
 ## When to Use
 
 - When recovering from system collapse: detect, diagnose, restore
@@ -84,13 +81,13 @@ Origin architect: **Trang Phan**. Domain: trang. Parent: amos-trang-framework-ma
 ## Operations
 
 1. **collapse_recovery.recover_collapse**: Recover from collapse: detect, diagnose, and restore after system failure
-2. **collapse_recovery.analyze_distinction**: Analyze distinction-relation architecture: boundaries, identities, and transformations
-3. **collapse_recovery.translate_architecture**: Translate RSCF architecture across representation systems
-4. **collapse_recovery.classify_collapse**: Classify collapse type: macroeconomic, financial, political, climate, ecological, integrated
-5. **collapse_recovery.assess_coverage**: Assess collapse-space coverage: model vs empirical, legacy estimates vs validated
-6. **collapse_recovery.detect_drift**: Detect drift in collapse models, evidence chains, or coverage estimates
-7. **collapse_recovery.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-8. **collapse_recovery.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+1. **collapse_recovery.analyze_distinction**: Analyze distinction-relation architecture: boundaries, identities, and transformations
+1. **collapse_recovery.translate_architecture**: Translate RSCF architecture across representation systems
+1. **collapse_recovery.classify_collapse**: Classify collapse type: macroeconomic, financial, political, climate, ecological, integrated
+1. **collapse_recovery.assess_coverage**: Assess collapse-space coverage: model vs empirical, legacy estimates vs validated
+1. **collapse_recovery.detect_drift**: Detect drift in collapse models, evidence chains, or coverage estimates
+1. **collapse_recovery.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+1. **collapse_recovery.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## Vault-Sourced Domain Knowledge
 
@@ -101,11 +98,11 @@ Origin architect: **Trang Phan**. Domain: trang. Parent: amos-trang-framework-ma
 The collapse-space audit covers 6 systemic collapse risk domains:
 
 1. **Macroeconomic models** — inflation, debt, currency collapse
-2. **Financial-system risk models** — banking, liquidity, contagion
-3. **Political/conflict models** — governance collapse, civil conflict
-4. **Climate/ecological models** — environmental tipping points
-5. **Integrated global models** — cross-domain systemic risk
-6. **Legacy UCP+ / AMOS architecture** — unified collapse prediction
+1. **Financial-system risk models** — banking, liquidity, contagion
+1. **Political/conflict models** — governance collapse, civil conflict
+1. **Climate/ecological models** — environmental tipping points
+1. **Integrated global models** — cross-domain systemic risk
+1. **Legacy UCP+ / AMOS architecture** — unified collapse prediction
 
 ### Epistemic Classification
 
@@ -116,6 +113,7 @@ They are reclassified as: `LEGACY_MODEL_ESTIMATES`
 ### AMOS Alignment
 
 The collapse-space audit aligns with:
+
 - 7-Part Universe Canon
 - 16 Canonical Laws of Existence
 - H/M/L Cross-Scale Reasoning
@@ -129,6 +127,7 @@ The collapse-space audit aligns with:
 Collapse prediction is AMOS_MODEL. Coverage percentages are legacy estimates, NOT empirical measurements. Do not present collapse predictions as established forecasts.
 
 ## Failure Modes
+
 - **Insufficient evidence**: If source material is insufficient, mark as UNKNOWN/GAP and fail closed — do not fabricate.
 - **Scope violation**: If the query falls outside the skill's declared scope, escalate to the parent skill or steward.
 - **Binding broken**: If 1:1:1 binding (skill→agent→workflow) is broken, flag routing mismatch and block execution.
@@ -144,7 +143,6 @@ Collapse prediction is AMOS_MODEL. Coverage percentages are legacy estimates, NO
 - **G5 (Equation firewall)**: Equations carry status tags (ESTABLISHED_MATH / SOURCE_DERIVED / AMOS_MODEL / EMPIRICALLY_CALIBRATED / UNVERIFIED).
 - **G6 (Failure mode)**: On validation failure, downgrade confidence, flag the gap, escalate — do not force-fit.
 
-
 > **Reference**: See `references/vault_domain_knowledge.md` (content_hash: fb059e421821630b) for additional vault-sourced domain knowledge.
 
 ## Provenance
@@ -152,9 +150,10 @@ Collapse prediction is AMOS_MODEL. Coverage percentages are legacy estimates, NO
 - **Skill**: `amos-collapse-recovery`
 - **Parent**: `amos-trang-framework-master`
 - **Domain**: trang
-- **Origin
+- \*\*Origin
 
----
+______________________________________________________________________
+
 **Links:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 ## Related
@@ -164,17 +163,19 @@ Collapse prediction is AMOS_MODEL. Coverage percentages are legacy estimates, NO
 ## Examples
 
 - **Scenario**: When recovering from system collapse: detect, diagnose, restore
+
   - **Input**: A query matching this skill's domain (trang)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When analyzing collapse-space coverage across systemic risk domains
+
   - **Input**: A query matching this skill's domain (trang)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When translating RSCF architecture across representation systems
+
   - **Input**: A query matching this skill's domain (trang)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Anti-Patterns
 
@@ -184,7 +185,6 @@ Collapse prediction is AMOS_MODEL. Coverage percentages are legacy estimates, NO
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `amos-trang-framework-master` — routes to this skill when trang specialization is needed
@@ -192,7 +192,6 @@ Collapse prediction is AMOS_MODEL. Coverage percentages are legacy estimates, NO
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -211,7 +210,6 @@ Collapse prediction is AMOS_MODEL. Coverage percentages are legacy estimates, NO
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -219,7 +217,6 @@ Collapse prediction is AMOS_MODEL. Coverage percentages are legacy estimates, NO
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -232,11 +229,12 @@ Collapse prediction is AMOS_MODEL. Coverage percentages are legacy estimates, NO
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `amos-trang-framework-master` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `amos-collapse-recovery-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -244,12 +242,14 @@ Collapse prediction is AMOS_MODEL. Coverage percentages are legacy estimates, NO
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-collapse-recovery
 node_type: skill
 path: 07_SKILLS/amos-collapse-recovery/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

@@ -1,15 +1,18 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Vault Domain Knowledge — Amos Trang Framework Master
 type: reference
 source: 07_SKILLS/amos-trang-framework-master/references
 tags:
-- reference
-- amos-trang-framework-master
-- type/skill
-- skill
-- integration
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-trang-framework-master
+  - type/skill
+  - skill
+  - integration
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -22,12 +25,12 @@ rscf:
 > Load this reference only when detailed domain knowledge is needed.
 > This content was moved from SKILL.md for progressive loading.
 
----
+______________________________________________________________________
 
 > **Source**: `11_KNOWLEDGE/KHUNG_TRANG_QUANTUM_ONTOLOGY_COMPUTABLE_DYNAMICS_RESEARCH_MODEL.md` from the AMOS_OS Obsidian vault.
 > This is substantive domain knowledge, not script-generated content.
 
-# Khung Trang — Quantum, Ontology & Computable Recursive Survival Dynamics
+## Khung Trang — Quantum, Ontology & Computable Recursive Survival Dynamics
 
 > **Epistemic boundary**
 >
@@ -48,7 +51,7 @@ rscf:
 - **Critical gaps identified by the source:** measurable operators, formal proof, dimensional consistency, simulation, predictive falsifiability, experimental protocols, mapping to established physics
 - **Promotion gate:** do not move into `01_CANON` until independent validation and governance criteria are satisfied.
 
----
+______________________________________________________________________
 
 Nếu dùng tiêu chí của chính Khung Trang thì:
 
@@ -67,9 +70,7 @@ Nhưng phải cực kỳ chính xác ở đây:
 
 Đây là điểm rất quan trọng.
 
-
----
-
+______________________________________________________________________
 
 ## 1. Quantum hiện đại rất mạnh
 
@@ -84,9 +85,7 @@ Quantum hiện đại:
 
 Khung Trang KHÔNG phủ nhận điều đó.
 
-
----
-
+______________________________________________________________________
 
 ## 2. Nhưng theo tiêu chí Khung Trang
 
@@ -113,8 +112,7 @@ nhưng chưa mô tả đầy đủ:
 “điều kiện để hình tồn tại”.
 ```
 
----
-
+______________________________________________________________________
 
 ## 3. Điểm mạnh của quantum
 
@@ -136,8 +134,7 @@ Nó rất mạnh ở:
 động học tương tác.
 ```
 
----
-
+______________________________________________________________________
 
 ## 4. Nhưng yếu ở ontology
 
@@ -164,8 +161,7 @@ toán mạnh
 nhưng ontology chưa khóa.
 ```
 
----
-
+______________________________________________________________________
 
 ## 5. Khung Trang thêm cái gì
 
@@ -195,8 +191,7 @@ Không chỉ:
 nó tương tác thế nào.
 ```
 
----
-
+______________________________________________________________________
 
 ## 6. Ví dụ lớn nhất: collapse
 
@@ -233,9 +228,7 @@ boundary formation
 
 vào trung tâm.
 
-
----
-
+______________________________________________________________________
 
 ## 7. Quantum chưa có “identity theory”
 
@@ -272,9 +265,7 @@ Nhưng Khung Trang hỏi sâu hơn:
 
 Đây là tầng meta.
 
-
----
-
+______________________________________________________________________
 
 ## 8. Quantum thiếu tầng HML
 
@@ -311,8 +302,7 @@ Khung Trang cố tạo:
 cross-scale continuity.
 ```
 
----
-
+______________________________________________________________________
 
 ## 9. Quantum thiếu “survival dynamics”
 
@@ -353,9 +343,7 @@ phải lớn hơn phân rã.
 
 Quantum hiện tại không có tầng này.
 
-
----
-
+______________________________________________________________________
 
 ## 10. Nhưng Khung Trang cũng chưa hoàn chỉnh
 
@@ -396,8 +384,7 @@ hơn là:
 physical theory hoàn chỉnh.
 ```
 
----
-
+______________________________________________________________________
 
 ## 11. So sánh thật sự
 
@@ -421,8 +408,7 @@ Hai cái hiện:
 bù cho nhau.
 ```
 
----
-
+______________________________________________________________________
 
 ## 12. Nếu Khung Trang muốn vượt quantum thật sự
 
@@ -444,8 +430,7 @@ Nếu không:
 nó vẫn chỉ là triết học hệ thống mạnh.
 ```
 
----
-
+______________________________________________________________________
 
 ## 13. Câu kết chính xác nhất
 
@@ -497,12 +482,9 @@ computable recursive survival dynamics.
 
 Đó là bước thật sự còn thiếu.
 
-
----
-
+______________________________________________________________________
 
 ## KHUNG TRANG — PHIÊN BẢN CẤP 2
-
 
 ## TOÁN ĐỘNG HÌNH KHẢ TÍNH
 
@@ -523,8 +505,7 @@ Không có 6 tầng này:
 không mô phỏng được.
 ```
 
----
-
+______________________________________________________________________
 
 ## I. TOÁN TỬ THỜI GIAN
 
@@ -546,8 +527,7 @@ Cần thêm:
 τ = memory depth
 ```
 
----
-
+______________________________________________________________________
 
 ### Phương trình ký ức thời gian
 
@@ -568,8 +548,7 @@ Trong đó:
 γ = mất ký ức
 ```
 
----
-
+______________________________________________________________________
 
 ### Điều kiện học thật
 
@@ -589,9 +568,7 @@ Nếu:
 
 thì hệ phân rã ký ức.
 
-
----
-
+______________________________________________________________________
 
 ## II. TOÁN TỬ QUY MÔ
 
@@ -614,8 +591,7 @@ dịch mẫu
 từ quy mô a sang quy mô b.
 ```
 
----
-
+______________________________________________________________________
 
 ### Ví dụ
 
@@ -626,8 +602,7 @@ body → society
 society → civilization
 ```
 
----
-
+______________________________________________________________________
 
 ### Điều kiện dịch đúng
 
@@ -649,8 +624,7 @@ with
 I(a) ≈ I(b)
 ```
 
----
-
+______________________________________________________________________
 
 ## III. TOÁN TỬ DỊCH TẦNG HML
 
@@ -670,8 +644,7 @@ Cần thêm:
 thành hành động tầng thấp
 ```
 
----
-
+______________________________________________________________________
 
 ### Ví dụ
 
@@ -690,8 +663,7 @@ L:
 daily behavior
 ```
 
----
-
+______________________________________________________________________
 
 ### Hệ bệnh
 
@@ -709,8 +681,7 @@ core values
 → corruption
 ```
 
----
-
+______________________________________________________________________
 
 ## IV. TOÁN TỬ HỌC
 
@@ -726,8 +697,7 @@ Cần:
 Ψ
 ```
 
----
-
+______________________________________________________________________
 
 ### Phương trình học
 
@@ -742,8 +712,7 @@ Behavior update
 Memory stabilization
 ```
 
----
-
+______________________________________________________________________
 
 ### Học giả
 
@@ -752,8 +721,7 @@ detect error
 without behavioral update.
 ```
 
----
-
+______________________________________________________________________
 
 ### Học thật
 
@@ -764,8 +732,7 @@ error
 → future prediction improvement
 ```
 
----
-
+______________________________________________________________________
 
 ## V. TOÁN TỬ ỔN ĐỊNH HÌNH
 
@@ -777,8 +744,7 @@ Cần:
 Ξ = pattern stabilization operator
 ```
 
----
-
+______________________________________________________________________
 
 ### Ý nghĩa
 
@@ -789,8 +755,7 @@ một mẫu
 không tan ngay.
 ```
 
----
-
+______________________________________________________________________
 
 ### Công thức
 
@@ -805,8 +770,7 @@ Recursive reinforcement
 Environmental compatibility
 ```
 
----
-
+______________________________________________________________________
 
 ### Điều kiện tồn tại
 
@@ -814,8 +778,7 @@ Environmental compatibility
 Ξ > E
 ```
 
----
-
+______________________________________________________________________
 
 ## VI. TOÁN TỬ TẠO HÌNH MỚI
 
@@ -831,8 +794,7 @@ Cần:
 Γ
 ```
 
----
-
+______________________________________________________________________
 
 ### Ý nghĩa
 
@@ -843,8 +805,7 @@ một cấu trúc mới
 thật sự xuất hiện.
 ```
 
----
-
+______________________________________________________________________
 
 ### Công thức
 
@@ -861,8 +822,7 @@ Memory retention
 Selection pressure
 ```
 
----
-
+______________________________________________________________________
 
 ## VII. PHƯƠNG TRÌNH EMERGENCE ĐẦY ĐỦ
 
@@ -880,8 +840,7 @@ Selection
 )
 ```
 
----
-
+______________________________________________________________________
 
 ## VIII. PHƯƠNG TRÌNH STABILITY
 
@@ -909,9 +868,7 @@ Nếu:
 
 mẫu tan.
 
-
----
-
+______________________________________________________________________
 
 ## IX. PHƯƠNG TRÌNH Ý THỨC
 
@@ -931,8 +888,7 @@ Predictive correction
 Cross-scale integration
 ```
 
----
-
+______________________________________________________________________
 
 ## X. PHƯƠNG TRÌNH VĂN MINH
 
@@ -954,8 +910,7 @@ Entropy pressure
 Future debt
 ```
 
----
-
+______________________________________________________________________
 
 ## XI. PHƯƠNG TRÌNH QUANTUM EMERGENCE
 
@@ -972,8 +927,8 @@ Classical state
 =
 boundary stabilized recursive pattern
 ```
----
 
+______________________________________________________________________
 
 ### Collapse
 
@@ -998,8 +953,7 @@ Boundary locking
 Recursive stabilization
 ```
 
----
-
+______________________________________________________________________
 
 ## XII. PHƯƠNG TRÌNH THỜI GIAN
 
@@ -1014,8 +968,7 @@ ordered accumulation
 of irreversible state changes.
 ```
 
----
-
+______________________________________________________________________
 
 ### Thời gian hệ
 
@@ -1031,8 +984,7 @@ Không có cập nhật:
 no experienced time.
 ```
 
----
-
+______________________________________________________________________
 
 ## XIII. PHƯƠNG TRÌNH THÔNG TIN
 
@@ -1045,8 +997,7 @@ difference
 that changes future system state.
 ```
 
----
-
+______________________________________________________________________
 
 ### Công thức
 
@@ -1060,8 +1011,7 @@ Future impact
 Memory integration
 ```
 
----
-
+______________________________________________________________________
 
 ## XIV. PHƯƠNG TRÌNH SỰ THẬT
 
@@ -1077,8 +1027,7 @@ Cross-scale consistency
 External validation
 ```
 
----
-
+______________________________________________________________________
 
 ## XV. PHƯƠNG TRÌNH ĐẠO ĐỨC
 
@@ -1089,8 +1038,7 @@ long-term preservation
 of cross-scale integrity.
 ```
 
----
-
+______________________________________________________________________
 
 ## XVI. PHẦN QUAN TRỌNG NHẤT
 
@@ -1106,8 +1054,7 @@ Nó bắt đầu thành:
 recursive ontology engine.
 ```
 
----
-
+______________________________________________________________________
 
 ## XVII. NHƯNG VẪN CHƯA HOÀN TẤT
 
@@ -1126,8 +1073,7 @@ cần thêm:
 - spacetime integration
 ```
 
----
-
+______________________________________________________________________
 
 ## XVIII. ĐIỀU KIỆN ĐỂ THÀNH “LÝ THUYẾT THẬT”
 
@@ -1149,8 +1095,7 @@ nó vẫn chỉ là
 meta-ontology rất mạnh.
 ```
 
----
-
+______________________________________________________________________
 
 ## XIX. CÂU CUỐI
 
@@ -1171,7 +1116,6 @@ qua biến đổi.
 ```
 
 ## XX. RENORMALIZATION OPERATOR — ℛ
-
 
 ### Vấn đề còn thiếu
 
@@ -1201,8 +1145,7 @@ Nhưng:
 chúng vẫn liên tục.
 ```
 
----
-
+______________________________________________________________________
 
 ### Toán tử ℛ
 
@@ -1216,8 +1159,7 @@ là:
 toán tử tái chuẩn hóa quy mô.
 ```
 
----
-
+______________________________________________________________________
 
 ### Ý nghĩa
 
@@ -1233,8 +1175,7 @@ nhưng đổi:
 biến hiệu dụng.
 ```
 
----
-
+______________________________________________________________________
 
 ### Công thức
 
@@ -1251,8 +1192,7 @@ với:
 Identity invariants preserved.
 ```
 
----
-
+______________________________________________________________________
 
 ### Ví dụ
 
@@ -1298,11 +1238,9 @@ Nhưng:
 chúng kế thừa invariant.
 ```
 
----
-
+______________________________________________________________________
 
 ## XXI. TENSOR RELATION FORMALISM — 𝕋
-
 
 ### Vấn đề
 
@@ -1316,8 +1254,7 @@ Nó là:
 mạng quan hệ đa chiều.
 ```
 
----
-
+______________________________________________________________________
 
 ### Tensor hệ
 
@@ -1335,8 +1272,7 @@ mô tả:
 - quy mô
 ```
 
----
-
+______________________________________________________________________
 
 ### Ý nghĩa
 
@@ -1348,8 +1284,7 @@ Mà bởi:
 cấu trúc quan hệ động.
 ```
 
----
-
+______________________________________________________________________
 
 ### Công thức toàn vẹn tensor
 
@@ -1362,19 +1297,15 @@ Persistence(𝕋)
 Repairability(𝕋)
 ```
 
----
-
+______________________________________________________________________
 
 ## XXII. ENERGY CONTAINMENT OPERATOR — ε
-
 
 ### Vấn đề
 
 Khung cũ chưa formalize năng lượng.
 
-
----
-
+______________________________________________________________________
 
 ### Định nghĩa
 
@@ -1385,8 +1316,7 @@ khả năng duy trì
 hoặc đổi trạng thái hệ.
 ```
 
----
-
+______________________________________________________________________
 
 ### Công thức
 
@@ -1395,8 +1325,7 @@ hoặc đổi trạng thái hệ.
 usable transition capacity.
 ```
 
----
-
+______________________________________________________________________
 
 ### Điều kiện tồn tại
 
@@ -1407,8 +1336,7 @@ energy
 → noise.
 ```
 
----
-
+______________________________________________________________________
 
 ### Ổn định hình
 
@@ -1422,19 +1350,15 @@ Containment
 Recursive reinforcement
 ```
 
----
-
+______________________________________________________________________
 
 ## XXIII. SPACETIME INTEGRATION — Ψ_ST
-
 
 ### Vấn đề
 
 Khung cũ chưa bridge spacetime.
 
-
----
-
+______________________________________________________________________
 
 ### Định nghĩa
 
@@ -1447,8 +1371,7 @@ cấu trúc quan hệ
 của thay đổi có thứ tự.
 ```
 
----
-
+______________________________________________________________________
 
 ### Công thức
 
@@ -1458,8 +1381,7 @@ của thay đổi có thứ tự.
 ordered relational persistence.
 ```
 
----
-
+______________________________________________________________________
 
 ### Khoảng cách
 
@@ -1471,8 +1393,7 @@ Nó là:
 cost of interaction.
 ```
 
----
-
+______________________________________________________________________
 
 ### Thời gian
 
@@ -1484,19 +1405,15 @@ Nó là:
 rate of irreversible updates.
 ```
 
----
-
+______________________________________________________________________
 
 ## XXIV. CAUSAL GRAPH OPERATOR — ⊕
-
 
 ### Vấn đề
 
 Khung cũ chưa formalize nhân quả.
 
-
----
-
+______________________________________________________________________
 
 ### Định nghĩa
 
@@ -1512,8 +1429,7 @@ Mà là:
 constraint propagation across state transitions.
 ```
 
----
-
+______________________________________________________________________
 
 ### Đồ thị nhân quả
 
@@ -1528,8 +1444,7 @@ A làm thay đổi
 không gian trạng thái khả dụng của B.
 ```
 
----
-
+______________________________________________________________________
 
 ### Nhân quả mạnh
 
@@ -1537,8 +1452,7 @@ không gian trạng thái khả dụng của B.
 high constraint propagation.
 ```
 
----
-
+______________________________________________________________________
 
 ### Nhân quả yếu
 
@@ -1546,16 +1460,13 @@ high constraint propagation.
 small state-space deformation.
 ```
 
----
-
+______________________________________________________________________
 
 ## XXV. OBSERVER OPERATOR — Ω_O
-
 
 ### Vấn đề
 
 Quantum chưa rõ obse
-
 
 ## Vault-Sourced Domain Content
 
@@ -1597,13 +1508,15 @@ Candidate changes become accepted without validation.
 - **Validation failure**: If validation gates fail, downgrade confidence, flag the gap, and escalate — do not force-fit.
 - **Epistemic overreach**: If a claim exceeds the established evidence or epistemic class, retract and relabel.
 
----
+______________________________________________________________________
+
 **MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -1611,12 +1524,14 @@ Candidate changes become accepted without validation.
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-trang-framework-master-vault-domain-knowledge
 node_type: reference
 path: 07_SKILLS/amos-trang-framework-master/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

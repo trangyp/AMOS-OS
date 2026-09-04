@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: AMOS META EPISTEMOLOGY KERNEL V0 META COGNITION4 2
 tags:
-- canon-group/biology
-- canon/framework
-- rscf/claim
-- rscf/provenance
-- rscf/state/observation
-- topic/amos-meta-epistemology-kernel-v0
-- kernel
+  - canon-group/biology
+  - canon/framework
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/observation
+  - topic/amos-meta-epistemology-kernel-v0
+  - kernel
 type: data
 source: 11_KNOWLEDGE/kernel
 rscf:
@@ -133,6 +136,6 @@ rscf:
 **Related:** [[11_KNOWLEDGE/kernel/AMOS_BIZFIN_KERNEL_V0|AMOS_BIZFIN_KERNEL_V0]] · [[11_KNOWLEDGE/kernel/AMOS_DEVOPS_INFRA_KERNEL_V0_TECH|AMOS_DEVOPS_INFRA_KERNEL_V0_TECH]] · [[11_KNOWLEDGE/kernel/AMOS_BEHAVIORAL_ECONOMICS_KERNEL|AMOS_BEHAVIORAL_ECONOMICS_KERNEL]] · [[11_KNOWLEDGE/kernel/AMOS_RISK_COMPLIANCE_KERNEL_V0|AMOS_RISK_COMPLIANCE_KERNEL_V0]]
 ```
 
----
-**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]
+______________________________________________________________________
 
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]

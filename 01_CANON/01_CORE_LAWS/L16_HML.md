@@ -1,32 +1,35 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: L16 HML
 type: note
 source: 01_CANON/01_CORE_LAWS
 tags:
-- canon
-- core_laws
-- hml
-- three_speed_lens
-- governance
-- domain_policy
-- mechanical_checks
-- strictness_inheritance
-- level_assignment
-- no_level_skipping
-- epistemic_governance
-- canon/universe
-- validation
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- amos-core-all-versions-fractal-knowledge-network
-- rscf
-- gmef
-- provenance-topology
-- competing-hypotheses
-- scope-regime-firewall
-- law/L10-failure-recovery
-- law/L11-knowledge-memory
-- law/L15-fractal-knowledge
+  - canon
+  - core_laws
+  - hml
+  - three_speed_lens
+  - governance
+  - domain_policy
+  - mechanical_checks
+  - strictness_inheritance
+  - level_assignment
+  - no_level_skipping
+  - epistemic_governance
+  - canon/universe
+  - validation
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - amos-core-all-versions-fractal-knowledge-network
+  - rscf
+  - gmef
+  - provenance-topology
+  - competing-hypotheses
+  - scope-regime-firewall
+  - law/L10-failure-recovery
+  - law/L11-knowledge-memory
+  - law/L15-fractal-knowledge
 rscf:
   state: SOURCE_CLAIM
   claim_class: CONDITIONAL
@@ -45,9 +48,9 @@ rscf:
 **canonical_status:** CONDITIONAL
 **updated:** 2026-08-26
 
----
+______________________________________________________________________
 
-# 0. Status
+## 0. Status
 
 L16 defines the proposed AMOS **H/M/L Three-Speed Lens** for assigning validation rigor to claims, artifacts, transformations, decisions, and execution paths.
 
@@ -74,7 +77,7 @@ It replaces the prior placeholder with a structured specification governing:
 
 L16 remains:
 
-```text
+````text
 PROPOSED_SPECIFICATION
         │
         ▼
@@ -92,7 +95,7 @@ HML-1 THREE-SPEED LENS
 HML-2 STRICTNESS INHERITANCE
 HML-3 NO LEVEL SKIPPING
 HML-4 EXPLICIT ASSIGNMENT
-```
+````
 
 The central invariant is:
 
@@ -103,9 +106,9 @@ THAN THE STRICTEST LOAD-BEARING REQUIREMENT
 OF ITS VALIDATION PATH.
 ```
 
----
+______________________________________________________________________
 
-# 1. Governing Objective
+## 1. Governing Objective
 
 H/M/L exists to prevent a common reasoning failure:
 
@@ -136,18 +139,18 @@ These levels represent **rigor/applicability classes**, not literal processor sp
 
 They determine:
 
-* what must be validated,
-* how much evidence is required,
-* what dependencies must be traversed,
-* what authority is necessary,
-* what provenance must be preserved,
-* what conflicts trigger escalation,
-* what shortcuts are permitted,
-* what conclusion classes are available.
+- what must be validated,
+- how much evidence is required,
+- what dependencies must be traversed,
+- what authority is necessary,
+- what provenance must be preserved,
+- what conflicts trigger escalation,
+- what shortcuts are permitted,
+- what conclusion classes are available.
 
----
+______________________________________________________________________
 
-# 2. Core H/M/L Laws
+## 2. Core H/M/L Laws
 
 ```text
 HML-1
@@ -181,9 +184,9 @@ CHECK FOR LEVEL SKIPPING
 CLASSIFY RESULT
 ```
 
----
+______________________________________________________________________
 
-# 3. HML-1 — Three-Speed Lens
+## 3. HML-1 — Three-Speed Lens
 
 **Law**
 
@@ -199,9 +202,9 @@ L = mechanical checks
 
 These descriptions establish the canonical semantic anchors of the proposed specification.
 
----
+______________________________________________________________________
 
-# 4. High Level — H
+## 4. High Level — H
 
 High is the governance/constitutional lens.
 
@@ -216,19 +219,19 @@ H applies when a claim or artifact can determine or modify system-level authorit
 
 Typical conceptual examples include:
 
-* core laws,
-* authority hierarchy,
-* governance rules,
-* canonical invariants,
-* epistemic constitutions,
-* irreversible governance changes,
-* cross-domain rules with broad downstream impact.
+- core laws,
+- authority hierarchy,
+- governance rules,
+- canonical invariants,
+- epistemic constitutions,
+- irreversible governance changes,
+- cross-domain rules with broad downstream impact.
 
 These examples are extensions of the source semantic anchor and remain `AMOS_MODEL` unless separately canonicalized.
 
----
+______________________________________________________________________
 
-# 5. H-Level Character
+## 5. H-Level Character
 
 Conceptually:
 
@@ -261,9 +264,9 @@ H ERROR
 
 This justifies stronger validation before H-level mutation or acceptance.
 
----
+______________________________________________________________________
 
-# 6. Medium Level — M
+## 6. Medium Level — M
 
 Medium is the domain-policy lens.
 
@@ -287,17 +290,17 @@ L MECHANICAL EXECUTION
 
 Examples may include:
 
-* domain-specific validation rules,
-* subsystem policies,
-* application-specific constraints,
-* domain operating procedures,
-* bounded model-selection policies.
+- domain-specific validation rules,
+- subsystem policies,
+- application-specific constraints,
+- domain operating procedures,
+- bounded model-selection policies.
 
 These examples remain extensions rather than recovered authoritative canon.
 
----
+______________________________________________________________________
 
-# 7. M-Level Character
+## 7. M-Level Character
 
 Conceptually:
 
@@ -331,9 +334,9 @@ M CONTRADICTION
 
 requires escalation rather than silent acceptance.
 
----
+______________________________________________________________________
 
-# 8. Low Level — L
+## 8. Low Level — L
 
 Low is the mechanical-check lens.
 
@@ -347,20 +350,20 @@ L applies to deterministic, local, bounded checks whose result does not by itsel
 
 Examples may include:
 
-* schema validation,
-* hash equality,
-* type checks,
-* syntax checks,
-* deterministic arithmetic,
-* local constraint verification,
-* exact-format validation,
-* mechanical consistency checks.
+- schema validation,
+- hash equality,
+- type checks,
+- syntax checks,
+- deterministic arithmetic,
+- local constraint verification,
+- exact-format validation,
+- mechanical consistency checks.
 
 These are representative extensions, not an exhaustive recovered L taxonomy.
 
----
+______________________________________________________________________
 
-# 9. L-Level Character
+## 9. L-Level Character
 
 Conceptually:
 
@@ -400,9 +403,9 @@ H GOVERNANCE VALIDITY
 
 This is enforced by HML-3.
 
----
+______________________________________________________________________
 
-# 10. H/M/L Are Not Truth Classes
+## 10. H/M/L Are Not Truth Classes
 
 H, M, and L do not directly mean:
 
@@ -442,9 +445,9 @@ H/M/L
 CLAIM CLASS
 ```
 
----
+______________________________________________________________________
 
-# 11. H/M/L Are Not Confidence Scores
+## 11. H/M/L Are Not Confidence Scores
 
 Do not interpret:
 
@@ -464,9 +467,9 @@ An H constitutional model may remain conditional.
 
 The levels concern required rigor and applicability, not numerical confidence.
 
----
+______________________________________________________________________
 
-# 12. H/M/L Are Not Importance Labels
+## 12. H/M/L Are Not Importance Labels
 
 An L-level check can be operationally critical.
 
@@ -494,9 +497,9 @@ HIGH LEVEL
 AUTOMATICALLY HIGHER TRUTH
 ```
 
----
+______________________________________________________________________
 
-# 13. H/M/L Are Not Organizational Rank
+## 13. H/M/L Are Not Organizational Rank
 
 The levels should not automatically be interpreted as:
 
@@ -518,9 +521,9 @@ L → mechanical checks
 
 No social hierarchy is implied.
 
----
+______________________________________________________________________
 
-# 14. HML-2 — Strictness Inheritance
+## 14. HML-2 — Strictness Inheritance
 
 **Law**
 
@@ -546,9 +549,9 @@ H
 
 because H is the strictest applicable level.
 
----
+______________________________________________________________________
 
-# 15. Strictness Function
+## 15. Strictness Function
 
 Conceptually define:
 
@@ -572,9 +575,9 @@ max(
 
 This is an AMOS conceptual model, not recovered source code.
 
----
+______________________________________________________________________
 
-# 16. Load-Bearing Qualification
+## 16. Load-Bearing Qualification
 
 Strictness inheritance applies to **applicable load-bearing inputs**, not every artifact merely present in context.
 
@@ -606,9 +609,9 @@ MAX LEVEL
 OVER LOAD-BEARING DEPENDENCY CLOSURE
 ```
 
----
+______________________________________________________________________
 
-# 17. Dependency-Aware Inheritance
+## 17. Dependency-Aware Inheritance
 
 ```text
 A(H) ───────┐
@@ -638,9 +641,9 @@ A
 
 does not affect C's level.
 
----
+______________________________________________________________________
 
-# 18. Strictness Inheritance Schema
+## 18. Strictness Inheritance Schema
 
 ```yaml
 strictness_inheritance:
@@ -665,9 +668,9 @@ strictness_inheritance:
     H
 ```
 
----
+______________________________________________________________________
 
-# 19. Strictest Applicable Level
+## 19. Strictest Applicable Level
 
 The word **applicable** is essential.
 
@@ -687,9 +690,9 @@ TO THE LOAD-BEARING PATH
 
 This preserves efficiency without weakening integrity.
 
----
+______________________________________________________________________
 
-# 20. No Downward Laundering
+## 20. No Downward Laundering
 
 A high-rigor premise cannot be transformed into a lower-rigor output merely by passing through an L-level operation.
 
@@ -715,9 +718,9 @@ H-SCOPED OUTPUT
 
 The formatter may itself be L, but it does not erase the H requirement of the content.
 
----
+______________________________________________________________________
 
-# 21. Transformation Invariance
+## 21. Transformation Invariance
 
 If transformation `T` changes representation but not semantic authority:
 
@@ -739,9 +742,9 @@ artifact:
   inherited_level: H
 ```
 
----
+______________________________________________________________________
 
-# 22. Mixed-Level Artifacts
+## 22. Mixed-Level Artifacts
 
 An artifact may contain components with different H/M/L applicability.
 
@@ -775,9 +778,9 @@ artifact:
 
 The aggregate becomes H when an operation depends on the H component.
 
----
+______________________________________________________________________
 
-# 23. Atomic Multi-Level Reasoning
+## 23. Atomic Multi-Level Reasoning
 
 A conclusion may require simultaneous validation across multiple levels.
 
@@ -797,9 +800,9 @@ But each premise remains typed at its native level.
 
 This preserves diagnostic resolution.
 
----
+______________________________________________________________________
 
-# 24. HML-3 — No Level Skipping
+## 24. HML-3 — No Level Skipping
 
 **Law**
 
@@ -815,9 +818,9 @@ L CHECK
 
 when the L check is treated as sufficient proof.
 
----
+______________________________________________________________________
 
-# 25. Level-Skipping Firewall
+## 25. Level-Skipping Firewall
 
 Invalid:
 
@@ -831,9 +834,9 @@ unless an independently established H-level rule explicitly proves that the L re
 
 Even then, the authority comes from the H-level bridge rule, not from L alone.
 
----
+______________________________________________________________________
 
-# 26. L → H Prohibition
+## 26. L → H Prohibition
 
 Suppose an artifact:
 
@@ -879,9 +882,9 @@ GOVERNANCE COMPLIANCE
 
 unless the required higher-level proof is separately satisfied.
 
----
+______________________________________________________________________
 
-# 27. L → M Prohibition
+## 27. L → M Prohibition
 
 An L check also cannot automatically validate M policy.
 
@@ -905,9 +908,9 @@ MECHANICAL VALIDITY
 POLICY VALIDITY
 ```
 
----
+______________________________________________________________________
 
-# 28. M → H Prohibition
+## 28. M → H Prohibition
 
 Likewise:
 
@@ -931,9 +934,9 @@ M VALID
 H VALID
 ```
 
----
+______________________________________________________________________
 
-# 29. Upward Evidence vs Upward Validation
+## 29. Upward Evidence vs Upward Validation
 
 Lower-level evidence may contribute to a higher-level conclusion.
 
@@ -968,9 +971,9 @@ BUT CANNOT REPLACE
 HIGH-LEVEL VALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 30. Downward Execution
+## 30. Downward Execution
 
 Higher-level decisions may authorize lower-level execution.
 
@@ -986,9 +989,9 @@ This is not level skipping because authority flows downward through compatible c
 
 However, the L action must remain within the authorized scope.
 
----
+______________________________________________________________________
 
-# 31. Downward Specialization
+## 31. Downward Specialization
 
 Valid:
 
@@ -1023,9 +1026,9 @@ H governance
 
 But success of the SHA comparison does not by itself prove every aspect of provenance governance.
 
----
+______________________________________________________________________
 
-# 32. Explicit Bridge Rule
+## 32. Explicit Bridge Rule
 
 Cross-level validation may occur only when a governed bridge establishes sufficiency.
 
@@ -1064,9 +1067,9 @@ VALIDATION
 BLOCKED
 ```
 
----
+______________________________________________________________________
 
-# 33. Bridge Strictness
+## 33. Bridge Strictness
 
 A bridge that licenses a transition to H must itself satisfy H-level governance.
 
@@ -1090,9 +1093,9 @@ L BRIDGE
 H CONCLUSION
 ```
 
----
+______________________________________________________________________
 
-# 34. HML-4 — Explicit Assignment
+## 34. HML-4 — Explicit Assignment
 
 **Law**
 
@@ -1129,9 +1132,9 @@ artifact:
       - L
 ```
 
----
+______________________________________________________________________
 
-# 35. Applicability vs Single Level
+## 35. Applicability vs Single Level
 
 The source says:
 
@@ -1161,9 +1164,9 @@ hml:
 
 The exact canonical schema is not supplied, so these remain AMOS_MODEL representations.
 
----
+______________________________________________________________________
 
-# 36. Explicit Assignment Record
+## 36. Explicit Assignment Record
 
 ```yaml
 hml_assignment:
@@ -1198,9 +1201,9 @@ hml_assignment:
     string|null
 ```
 
----
+______________________________________________________________________
 
-# 37. Unknown Assignment
+## 37. Unknown Assignment
 
 If the correct level cannot be established:
 
@@ -1223,9 +1226,9 @@ CONSEQUENTIAL ACTION?
 
 This follows the broader AMOS fail-closed principle for critical unknowns.
 
----
+______________________________________________________________________
 
-# 38. Ambiguous Assignment
+## 38. Ambiguous Assignment
 
 An artifact may plausibly belong to multiple levels.
 
@@ -1248,19 +1251,19 @@ hml_assignment:
 
 Until discriminated, use the strictest decision-relevant interpretation for consequential execution.
 
----
+______________________________________________________________________
 
-# 39. Assignment Is Falsifiable
+## 39. Assignment Is Falsifiable
 
 An H/M/L assignment is itself a claim.
 
 Therefore it should have:
 
-* provenance,
-* scope,
-* assumptions,
-* falsifiers,
-* epoch/freshness where relevant.
+- provenance,
+- scope,
+- assumptions,
+- falsifiers,
+- epoch/freshness where relevant.
 
 ```yaml
 assignment_claim:
@@ -1271,9 +1274,9 @@ assignment_claim:
 
 It is not automatically authoritative merely because metadata contains `level: M`.
 
----
+______________________________________________________________________
 
-# 40. Assignment Provenance
+## 40. Assignment Provenance
 
 ```yaml
 hml_assignment_provenance:
@@ -1307,9 +1310,9 @@ hml_assignment_provenance:
     []
 ```
 
----
+______________________________________________________________________
 
-# 41. H-Level Validation Profile
+## 41. H-Level Validation Profile
 
 A proposed H-level validation profile may require checking:
 
@@ -1335,9 +1338,9 @@ DOWNSTREAM IMPACT
 
 The exact checklist is not supplied by the source and therefore remains an AMOS_MODEL extension.
 
----
+______________________________________________________________________
 
-# 42. M-Level Validation Profile
+## 42. M-Level Validation Profile
 
 A proposed M-level profile may require:
 
@@ -1359,9 +1362,9 @@ PROVENANCE
 
 M-level validation must remain compatible with governing H-level constraints.
 
----
+______________________________________________________________________
 
-# 43. L-Level Validation Profile
+## 43. L-Level Validation Profile
 
 A proposed L-level profile may focus on:
 
@@ -1387,9 +1390,9 @@ FORMAT VALID?
 
 L may use fast-path validation when dependency closure is genuinely local.
 
----
+______________________________________________________________________
 
-# 44. Three-Speed Comparison
+## 44. Three-Speed Comparison
 
 | Property                                        | H                         | M                | L                 |
 | ----------------------------------------------- | ------------------------- | ---------------- | ----------------- |
@@ -1404,9 +1407,9 @@ L may use fast-path validation when dependency closure is genuinely local.
 
 Rows beyond the source semantic anchors are proposed model extensions.
 
----
+______________________________________________________________________
 
-# 45. H/M/L Dependency Graph
+## 45. H/M/L Dependency Graph
 
 ```text
            H1
@@ -1429,9 +1432,9 @@ H2 ─────┘      \
 
 Strictness follows actual dependency closure.
 
----
+______________________________________________________________________
 
-# 46. H/M/L and RSCF
+## 46. H/M/L and RSCF
 
 RSCF nodes may carry H/M/L applicability.
 
@@ -1455,9 +1458,9 @@ PROVENANCE
 SCOPE
 ```
 
----
+______________________________________________________________________
 
-# 47. Orthogonality of Typing
+## 47. Orthogonality of Typing
 
 A node can simultaneously have:
 
@@ -1489,9 +1492,9 @@ SCOPE
 → where does it apply?
 ```
 
----
+______________________________________________________________________
 
-# 48. H/M/L and Proof Capsules
+## 48. H/M/L and Proof Capsules
 
 An important conclusion's proof capsule should preserve the effective H/M/L level.
 
@@ -1522,9 +1525,9 @@ proof_capsule:
 
 The effective level is H because of P1.
 
----
+______________________________________________________________________
 
-# 49. H/M/L and Confidence Ceiling
+## 49. H/M/L and Confidence Ceiling
 
 Strictness level and confidence ceiling are distinct but interact.
 
@@ -1556,9 +1559,9 @@ STRICTEST APPLICABLE LEVEL
 
 These are different axes.
 
----
+______________________________________________________________________
 
-# 50. Dual Constraint
+## 50. Dual Constraint
 
 Conceptually:
 
@@ -1589,9 +1592,9 @@ and:
 OVER-CLAIMING
 ```
 
----
+______________________________________________________________________
 
-# 51. H/M/L and Provenance
+## 51. H/M/L and Provenance
 
 A mechanical check does not repair weak provenance.
 
@@ -1613,9 +1616,9 @@ L INTEGRITY CHECK
 H/M PROVENANCE VALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 52. H/M/L and Source Ancestry
+## 52. H/M/L and Source Ancestry
 
 Suppose multiple M-level domain reports depend on one H-level source claim.
 
@@ -1631,9 +1634,9 @@ The three M descendants do not create independent H confirmation.
 
 H/M/L does not override provenance topology.
 
----
+______________________________________________________________________
 
-# 53. H/M/L and Competing Hypotheses
+## 53. H/M/L and Competing Hypotheses
 
 If two H-level interpretations remain viable:
 
@@ -1653,9 +1656,9 @@ T(H1) ≠ T(H2)
 
 not merely one that both predict.
 
----
+______________________________________________________________________
 
-# 54. H/M/L and Causal Claims
+## 54. H/M/L and Causal Claims
 
 A mechanical correlation check may be L-level.
 
@@ -1675,9 +1678,9 @@ HIGHER-LEVEL CAUSAL CLAIM VERIFIED
 
 HML-3 blocks the level skip.
 
----
+______________________________________________________________________
 
-# 55. H/M/L and Scope
+## 55. H/M/L and Scope
 
 Level assignment does not erase scope.
 
@@ -1698,9 +1701,9 @@ M POLICY FOR ALL DOMAINS
 
 The applicability envelope remains load-bearing.
 
----
+______________________________________________________________________
 
-# 56. H/M/L and Regime
+## 56. H/M/L and Regime
 
 A domain policy may be M-level in regime `R1` but invalid in `R2`.
 
@@ -1716,9 +1719,9 @@ Likewise an H-level constitutional rule may have declared regime boundaries.
 
 Level alone does not guarantee regime invariance.
 
----
+______________________________________________________________________
 
-# 57. H/M/L and Freshness
+## 57. H/M/L and Freshness
 
 An H assignment may become stale if governance changes.
 
@@ -1726,10 +1729,10 @@ An M assignment may become stale if domain policy changes.
 
 An L check may become stale if:
 
-* schema changes,
-* algorithm changes,
-* expected values change,
-* artifact version changes.
+- schema changes,
+- algorithm changes,
+- expected values change,
+- artifact version changes.
 
 Thus:
 
@@ -1748,9 +1751,9 @@ freshness: STALE
 
 requiring revalidation.
 
----
+______________________________________________________________________
 
-# 58. Epoch-Bound Assignment
+## 58. Epoch-Bound Assignment
 
 Conceptually:
 
@@ -1768,9 +1771,9 @@ if governing semantics changed.
 
 Therefore reusable proof capsules should preserve assignment epoch where material.
 
----
+______________________________________________________________________
 
-# 59. H/M/L and Fractal Retrieval
+## 59. H/M/L and Fractal Retrieval
 
 Within the AMOS Fractal Knowledge Network:
 
@@ -1794,9 +1797,9 @@ L mechanical checks
 
 Therefore retrieval depth and rigor level must not be silently conflated unless authoritative canon defines them as identical.
 
----
+______________________________________________________________________
 
-# 60. Retrieval-Level Firewall
+## 60. Retrieval-Level Firewall
 
 Possible AMOS architecture may use:
 
@@ -1828,9 +1831,9 @@ hml_semantic_relation:
 
 This is an important anti-fabrication boundary.
 
----
+______________________________________________________________________
 
-# 61. Recursive H/M/L
+## 61. Recursive H/M/L
 
 H/M/L may recur inside domains.
 
@@ -1850,9 +1853,9 @@ But recursive reuse does not erase the absolute governance relation.
 
 A local "high" within a subsystem must not automatically be treated as global H.
 
----
+______________________________________________________________________
 
-# 62. Relative vs Absolute Level
+## 62. Relative vs Absolute Level
 
 To avoid ambiguity, a future canonical schema may distinguish:
 
@@ -1866,9 +1869,9 @@ For example, a subsystem's highest policy might be locally high while globally M
 
 The supplied source does not define this distinction, so this remains a proposed extension.
 
----
+______________________________________________________________________
 
-# 63. Strictness Across Recursion
+## 63. Strictness Across Recursion
 
 Suppose:
 
@@ -1884,18 +1887,18 @@ If `LOCAL-H` remains subordinate to global M/H governance, its effective strictn
 
 Therefore local naming must not manufacture constitutional authority.
 
----
+______________________________________________________________________
 
-# 64. H/M/L Fast Path
+## 64. H/M/L Fast Path
 
 AMOS may use the smallest sufficient proof scope when:
 
-* dependency closure is known,
-* no higher-level dependency is load-bearing,
-* provenance is adequate,
-* scope/regime are compatible,
-* evidence is fresh,
-* no unresolved conflict exists.
+- dependency closure is known,
+- no higher-level dependency is load-bearing,
+- provenance is adequate,
+- scope/regime are compatible,
+- evidence is fresh,
+- no unresolved conflict exists.
 
 Then:
 
@@ -1909,9 +1912,9 @@ may be sufficient.
 
 No escalation is required merely because H exists somewhere in the system.
 
----
+______________________________________________________________________
 
-# 65. Fast-Path Safety Condition
+## 65. Fast-Path Safety Condition
 
 Conceptually:
 
@@ -1929,9 +1932,9 @@ def local_fast_path_allowed(task):
 
 Semantic pseudocode only.
 
----
+______________________________________________________________________
 
-# 66. Escalation Conditions
+## 66. Escalation Conditions
 
 Escalate from L toward M/H when:
 
@@ -1957,9 +1960,9 @@ AUTHORITY IS UNKNOWN
 
 The exact escalation matrix is not supplied by the source.
 
----
+______________________________________________________________________
 
-# 67. L → M Escalation
+## 67. L → M Escalation
 
 ```text
 L CHECK
@@ -1985,9 +1988,9 @@ is this field permitted under domain policy?
 
 may require M.
 
----
+______________________________________________________________________
 
-# 68. M → H Escalation
+## 68. M → H Escalation
 
 ```text
 M POLICY ANALYSIS
@@ -2011,9 +2014,9 @@ core governance appears to prohibit X
 
 requires H resolution.
 
----
+______________________________________________________________________
 
-# 69. Direct L → H Escalation
+## 69. Direct L → H Escalation
 
 Escalation does not always need to pass through M sequentially.
 
@@ -2029,9 +2032,9 @@ ESCALATE H
 
 The "no level skipping" law prohibits **validation shortcuts**, not efficient escalation.
 
----
+______________________________________________________________________
 
-# 70. De-Escalation
+## 70. De-Escalation
 
 Once higher-level uncertainty is resolved, execution may return to lower levels.
 
@@ -2047,9 +2050,9 @@ This is valid.
 
 De-escalation means the remaining task is lower-level, not that prior H constraints disappear.
 
----
+______________________________________________________________________
 
-# 71. H/M/L Validation State Machine
+## 71. H/M/L Validation State Machine
 
 ```text
 ARTIFACT
@@ -2078,9 +2081,9 @@ LEVEL SKIP?
 CLASSIFY
 ```
 
----
+______________________________________________________________________
 
-# 72. H-Level State Machine
+## 72. H-Level State Machine
 
 ```text
 H CLAIM
@@ -2106,9 +2109,9 @@ CLAIM CLASS
 
 This is proposed operational semantics, not recovered source code.
 
----
+______________________________________________________________________
 
-# 73. M-Level State Machine
+## 73. M-Level State Machine
 
 ```text
 M CLAIM
@@ -2130,9 +2133,9 @@ SCOPE / PROVENANCE / CONFLICT CHECK
 CLAIM CLASS
 ```
 
----
+______________________________________________________________________
 
-# 74. L-Level State Machine
+## 74. L-Level State Machine
 
 ```text
 L TASK
@@ -2152,9 +2155,9 @@ PASS / FAIL
 DO NOT GENERALIZE ABOVE L
 ```
 
----
+______________________________________________________________________
 
-# 75. H/M/L Assignment Algorithm
+## 75. H/M/L Assignment Algorithm
 
 ```python
 def assign_hml(artifact):
@@ -2175,9 +2178,9 @@ This is semantic pseudocode.
 
 Real assignment may require contextual dependencies and authoritative taxonomy.
 
----
+______________________________________________________________________
 
-# 76. Effective-Level Algorithm
+## 76. Effective-Level Algorithm
 
 ```python
 def effective_level(output, inputs, context):
@@ -2198,9 +2201,9 @@ def effective_level(output, inputs, context):
     return strictest(levels)
 ```
 
----
+______________________________________________________________________
 
-# 77. Level-Skip Detector
+## 77. Level-Skip Detector
 
 ```python
 def detect_level_skip(
@@ -2222,9 +2225,9 @@ def detect_level_skip(
 
 This simplified model assumes no separately governed bridge.
 
----
+______________________________________________________________________
 
-# 78. Bridge-Aware Level-Skip Detector
+## 78. Bridge-Aware Level-Skip Detector
 
 ```python
 def validate_cross_level_path(
@@ -2248,9 +2251,9 @@ def validate_cross_level_path(
     return PASS
 ```
 
----
+______________________________________________________________________
 
-# 79. Strictness Inheritance Algorithm
+## 79. Strictness Inheritance Algorithm
 
 ```python
 LEVEL_ORDER = {
@@ -2275,9 +2278,9 @@ def inherit_strictness(load_bearing_inputs):
 
 Semantic pseudocode only.
 
----
+______________________________________________________________________
 
-# 80. H/M/L Proof Sufficiency
+## 80. H/M/L Proof Sufficiency
 
 For a claim `C`:
 
@@ -2299,9 +2302,9 @@ NO UNGOVERNED LEVEL SKIP
 
 This does not mean every claim needs H-level analysis.
 
----
+______________________________________________________________________
 
-# 81. Action Sufficiency
+## 81. Action Sufficiency
 
 A conclusion may be epistemically adequate but still insufficient for action if action stakes demand higher governance.
 
@@ -2323,17 +2326,17 @@ even if the underlying descriptive claim remains M.
 
 This distinction is a proposed extension consistent with AMOS action governance.
 
----
+______________________________________________________________________
 
-# 82. Irreversibility Escalation
+## 82. Irreversibility Escalation
 
 When an action has:
 
-* irreversible cost,
-* broad institutional impact,
-* legal exposure,
-* safety impact,
-* major downstream dependency,
+- irreversible cost,
+- broad institutional impact,
+- legal exposure,
+- safety impact,
+- major downstream dependency,
 
 the required validation may escalate.
 
@@ -2349,9 +2352,9 @@ EFFECTIVE H
 
 This is an AMOS_MODEL extension rather than an explicit L16 source law.
 
----
+______________________________________________________________________
 
-# 83. Reversible Action Preference
+## 83. Reversible Action Preference
 
 Under uncertainty:
 
@@ -2375,9 +2378,9 @@ action while preserving the unresolved H question.
 
 But no reversible action may violate known H constraints.
 
----
+______________________________________________________________________
 
-# 84. H/M/L and Failure Recovery
+## 84. H/M/L and Failure Recovery
 
 When a validation premise fails, invalidate only dependent conclusions.
 
@@ -2414,9 +2417,9 @@ M2
 
 unless they depend on M1 through another edge.
 
----
+______________________________________________________________________
 
-# 85. H-Level Failure
+## 85. H-Level Failure
 
 If an H premise fails:
 
@@ -2437,9 +2440,9 @@ H1 ✕
 
 Independent branches remain intact.
 
----
+______________________________________________________________________
 
-# 86. M-Level Failure
+## 86. M-Level Failure
 
 ```text
 H1
@@ -2464,9 +2467,9 @@ H1
 M2
 ```
 
----
+______________________________________________________________________
 
-# 87. L-Level Failure
+## 87. L-Level Failure
 
 An L failure normally invalidates only the mechanical result and conclusions dependent on it.
 
@@ -2484,9 +2487,9 @@ unless that policy conclusion depended on L1.
 
 Again, dependency edges govern recovery.
 
----
+______________________________________________________________________
 
-# 88. H/M/L and Atomic Reasoning
+## 88. H/M/L and Atomic Reasoning
 
 A decision may require:
 
@@ -2518,9 +2521,9 @@ ALL LOAD-BEARING LEVELS VALID
 
 within the relevant proof scope.
 
----
+______________________________________________________________________
 
-# 89. Partial Success
+## 89. Partial Success
 
 If:
 
@@ -2542,9 +2545,9 @@ not verified.
 
 The successful lower-level work should be preserved for reuse after H resolution.
 
----
+______________________________________________________________________
 
-# 90. H/M/L and Contradiction
+## 90. H/M/L and Contradiction
 
 Suppose:
 
@@ -2565,9 +2568,9 @@ CONFLICT
 
 until authority and scope resolve it.
 
----
+______________________________________________________________________
 
-# 91. Apparent Contradiction Across Scope
+## 91. Apparent Contradiction Across Scope
 
 Not every H/M conflict is real.
 
@@ -2585,9 +2588,9 @@ This may be compatible.
 
 Therefore contradiction analysis must preserve scope and exception semantics.
 
----
+______________________________________________________________________
 
-# 92. H/M/L and Authority
+## 92. H/M/L and Authority
 
 Conceptually:
 
@@ -2605,9 +2608,9 @@ But H/M/L itself does not establish who or what possesses authority.
 
 Authority provenance must be separately known.
 
----
+______________________________________________________________________
 
-# 93. Authority Firewall
+## 93. Authority Firewall
 
 Do not infer:
 
@@ -2625,9 +2628,9 @@ The H label indicates applicability/rigor, not authenticity or canonical authori
 
 Authority still requires provenance.
 
----
+______________________________________________________________________
 
-# 94. Self-Declared H
+## 94. Self-Declared H
 
 An artifact cannot manufacture authority merely by declaring:
 
@@ -2646,9 +2649,9 @@ SELF-LABEL
 GOVERNANCE AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 95. H/M/L and Canonical Status
+## 95. H/M/L and Canonical Status
 
 A proposed specification can be H-level while remaining conditional.
 
@@ -2669,9 +2672,9 @@ BUT IS NOT YET AUTHORITATIVE CANON
 
 This distinction is especially important for L16 itself.
 
----
+______________________________________________________________________
 
-# 96. L16 Self-Application
+## 96. L16 Self-Application
 
 L16 defines a governance-like rule system for H/M/L.
 
@@ -2688,9 +2691,9 @@ L16:
 
 This is a derived model interpretation, not an authoritative self-certification.
 
----
+______________________________________________________________________
 
-# 97. No Circular Self-Validation
+## 97. No Circular Self-Validation
 
 L16 cannot prove itself valid by applying L16.
 
@@ -2708,9 +2711,9 @@ This is circular.
 
 Authoritative validation must come from independent canonical authority or evidence.
 
----
+______________________________________________________________________
 
-# 98. H/M/L and Canon Hierarchy
+## 98. H/M/L and Canon Hierarchy
 
 Conceptually:
 
@@ -2733,9 +2736,9 @@ law_hierarchy_hml_mapping:
 
 until authoritative canon defines it.
 
----
+______________________________________________________________________
 
-# 99. H/M/L Artifact Schema
+## 99. H/M/L Artifact Schema
 
 ```yaml
 hml_artifact:
@@ -2785,9 +2788,9 @@ hml_artifact:
     state: string|null
 ```
 
----
+______________________________________________________________________
 
-# 100. H/M/L Decision Schema
+## 100. H/M/L Decision Schema
 
 ```yaml
 hml_decision:
@@ -2830,9 +2833,9 @@ hml_decision:
   falsifiers: []
 ```
 
----
+______________________________________________________________________
 
-# 101. H/M/L Proof Capsule
+## 101. H/M/L Proof Capsule
 
 ```yaml
 hml_proof_capsule:
@@ -2887,9 +2890,9 @@ hml_proof_capsule:
     string
 ```
 
----
+______________________________________________________________________
 
-# 102. H-Level Proof Capsule
+## 102. H-Level Proof Capsule
 
 ```yaml
 H_proof_capsule:
@@ -2926,9 +2929,9 @@ H_proof_capsule:
     class: string
 ```
 
----
+______________________________________________________________________
 
-# 103. M-Level Proof Capsule
+## 103. M-Level Proof Capsule
 
 ```yaml
 M_proof_capsule:
@@ -2957,9 +2960,9 @@ M_proof_capsule:
     class: string
 ```
 
----
+______________________________________________________________________
 
-# 104. L-Level Proof Capsule
+## 104. L-Level Proof Capsule
 
 ```yaml
 L_proof_capsule:
@@ -2987,9 +2990,9 @@ L_proof_capsule:
     roots: []
 ```
 
----
+______________________________________________________________________
 
-# 105. H/M/L Validation Contract
+## 105. H/M/L Validation Contract
 
 ```yaml
 hml_validation_contract:
@@ -3032,9 +3035,9 @@ hml_validation_contract:
     UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 106. H/M/L Integrity Invariants
+## 106. H/M/L Integrity Invariants
 
 ```yaml
 hml_integrity_invariants:
@@ -3088,9 +3091,9 @@ hml_integrity_invariants:
       self_declared_H_does_not_create_canonical_authority
 ```
 
----
+______________________________________________________________________
 
-# 107. Anti-Patterns
+## 107. Anti-Patterns
 
 ## HML-A1 — L Validates H
 
@@ -3101,7 +3104,7 @@ L CHECK PASSED
 
 Rejected.
 
----
+______________________________________________________________________
 
 ## HML-A2 — M Overrides H
 
@@ -3112,7 +3115,7 @@ M POLICY SAYS X
 
 Rejected unless authoritative scope/exception semantics establish compatibility.
 
----
+______________________________________________________________________
 
 ## HML-A3 — Hidden Level
 
@@ -3124,7 +3127,7 @@ LEVEL = IMPLICIT
 
 Rejected for consequential reasoning.
 
----
+______________________________________________________________________
 
 ## HML-A4 — Lowest-Level Wins
 
@@ -3144,7 +3147,7 @@ H + M + L
 
 when all are load-bearing.
 
----
+______________________________________________________________________
 
 ## HML-A5 — Highest-Level Everywhere
 
@@ -3159,7 +3162,7 @@ This destroys the purpose of adaptive rigor.
 
 Use the strictest **applicable** level.
 
----
+______________________________________________________________________
 
 ## HML-A6 — H Label Equals Truth
 
@@ -3170,7 +3173,7 @@ LEVEL = H
 
 Rejected.
 
----
+______________________________________________________________________
 
 ## HML-A7 — L Label Equals Unimportant
 
@@ -3181,7 +3184,7 @@ LEVEL = L
 
 Rejected.
 
----
+______________________________________________________________________
 
 ## HML-A8 — Formatting Downgrade
 
@@ -3193,7 +3196,7 @@ H CONTENT
 
 Rejected when semantic authority is preserved.
 
----
+______________________________________________________________________
 
 ## HML-A9 — Context Contamination
 
@@ -3203,7 +3206,7 @@ Rejected.
 
 Inheritance follows dependency edges.
 
----
+______________________________________________________________________
 
 ## HML-A10 — Retrieval/Rigor Conflation
 
@@ -3217,7 +3220,7 @@ without canonical mapping.
 
 Rejected.
 
----
+______________________________________________________________________
 
 ## HML-A11 — Circular Self-Validation
 
@@ -3228,7 +3231,7 @@ HML validates HML
 
 Rejected.
 
----
+______________________________________________________________________
 
 ## HML-A12 — Authority Laundering
 
@@ -3239,9 +3242,9 @@ artifact declares level H
 
 Rejected.
 
----
+______________________________________________________________________
 
-# 108. Adversarial Validation
+## 108. Adversarial Validation
 
 For consequential H/M/L assignment, challenge:
 
@@ -3280,9 +3283,9 @@ RETURN UNKNOWN
 
 as appropriate.
 
----
+______________________________________________________________________
 
-# 109. Sensitivity
+## 109. Sensitivity
 
 For consequential decisions, identify the smallest change that would alter effective H/M/L.
 
@@ -3305,9 +3308,9 @@ L → H
 
 That hidden dependency is the sensitivity pivot.
 
----
+______________________________________________________________________
 
-# 110. H/M/L Uncertainty Vector
+## 110. H/M/L Uncertainty Vector
 
 ```yaml
 hml_uncertainty:
@@ -3345,9 +3348,9 @@ hml_uncertainty:
       Is the assignment ancestry trustworthy?
 ```
 
----
+______________________________________________________________________
 
-# 111. H/M/L and Knowledge Memory
+## 111. H/M/L and Knowledge Memory
 
 Durable H/M/L knowledge should preserve:
 
@@ -3388,9 +3391,9 @@ hml_memory:
 
 A remembered level assignment should not be silently treated as permanently valid.
 
----
+______________________________________________________________________
 
-# 112. H/M/L Knowledge Harvest
+## 112. H/M/L Knowledge Harvest
 
 ```text
 ARTIFACT
@@ -3416,9 +3419,9 @@ UNVALIDATED LEVEL GUESS
 
 as authoritative H/M/L knowledge.
 
----
+______________________________________________________________________
 
-# 113. H/M/L Retrieval Strategy
+## 113. H/M/L Retrieval Strategy
 
 When answering a question:
 
@@ -3438,9 +3441,9 @@ VALIDATE AT THAT LEVEL
 
 This supports the AMOS smallest-sufficient-proof principle.
 
----
+______________________________________________________________________
 
-# 114. H/M/L and Adaptive Complexity
+## 114. H/M/L and Adaptive Complexity
 
 A possible alignment is:
 
@@ -3467,9 +3470,9 @@ unless authoritative canon explicitly maps them.
 
 H/M/L concerns validation applicability; adaptive complexity concerns reasoning effort.
 
----
+______________________________________________________________________
 
-# 115. Complexity Firewall
+## 115. Complexity Firewall
 
 An H claim may sometimes be simple.
 
@@ -3489,9 +3492,9 @@ COMPUTATIONALLY CHEAP
 
 The "three-speed" metaphor refers to rigor classes in this specification, not guaranteed runtime cost.
 
----
+______________________________________________________________________
 
-# 116. H/M/L and Action Governance
+## 116. H/M/L and Action Governance
 
 Conceptually:
 
@@ -3518,24 +3521,24 @@ max(
 
 This is a proposed AMOS model.
 
----
+______________________________________________________________________
 
-# 117. H/M/L and Reversibility
+## 117. H/M/L and Reversibility
 
 A reversible L action may proceed under lower validation when:
 
-* no H/M rule is violated,
-* uncertainty is bounded,
-* rollback exists,
-* no hidden higher-level dependency is known.
+- no H/M rule is violated,
+- uncertainty is bounded,
+- rollback exists,
+- no hidden higher-level dependency is known.
 
 An irreversible action may require escalation.
 
 Therefore H/M/L can govern not only belief formation but execution rigor.
 
----
+______________________________________________________________________
 
-# 118. H/M/L and Failure Recovery Basins
+## 118. H/M/L and Failure Recovery Basins
 
 Before consequential mutation, recovery targets should match effective level.
 
@@ -3554,9 +3557,9 @@ L MUTATION
 
 Exact recovery mechanisms are subsystem-specific.
 
----
+______________________________________________________________________
 
-# 119. Strictness Monotonicity
+## 119. Strictness Monotonicity
 
 For a fixed dependency set:
 
@@ -3578,9 +3581,9 @@ where `R` is required H/M/L strictness and `x` is load-bearing.
 
 This is a derived invariant of HML-2.
 
----
+______________________________________________________________________
 
-# 120. Irrelevant-Premise Stability
+## 120. Irrelevant-Premise Stability
 
 Adding a non-load-bearing artifact should not alter effective level.
 
@@ -3598,9 +3601,9 @@ R(C | S)
 
 This prevents needless H escalation from irrelevant context.
 
----
+______________________________________________________________________
 
-# 121. Representation Stability
+## 121. Representation Stability
 
 Changing representation should not change effective level unless semantics or dependencies change.
 
@@ -3616,9 +3619,9 @@ The conversion operation may be L.
 
 The claim's applicability remains H.
 
----
+______________________________________________________________________
 
-# 122. Copy Stability
+## 122. Copy Stability
 
 Copying an H artifact does not downgrade it.
 
@@ -3636,9 +3639,9 @@ A → A'
 
 A copied artifact does not become an independent authority source.
 
----
+______________________________________________________________________
 
-# 123. Aggregation Rule
+## 123. Aggregation Rule
 
 Suppose a report aggregates:
 
@@ -3671,9 +3674,9 @@ REPORT = H
 
 for conclusions dependent on D.
 
----
+______________________________________________________________________
 
-# 124. Decomposition Rule
+## 124. Decomposition Rule
 
 An H artifact may be decomposed into local L operations without downgrading the H semantic claim.
 
@@ -3690,9 +3693,9 @@ These operations establish local properties only.
 
 The overall governance meaning remains H-sensitive.
 
----
+______________________________________________________________________
 
-# 125. Verification Composition
+## 125. Verification Composition
 
 Suppose:
 
@@ -3722,9 +3725,9 @@ H PASS
 
 unless a higher-level rule explicitly defines those L conditions as jointly sufficient.
 
----
+______________________________________________________________________
 
-# 126. Higher-Level Sufficiency Rule
+## 126. Higher-Level Sufficiency Rule
 
 A legitimate composition may be:
 
@@ -3747,9 +3750,9 @@ H SUFFICIENCY RULE
 
 The proof remains H-governed because the sufficiency relation itself is H.
 
----
+______________________________________________________________________
 
-# 127. H/M/L Finalization
+## 127. H/M/L Finalization
 
 A consequential conclusion may finalize only when:
 
@@ -3786,9 +3789,9 @@ BLOCKED / CONDITIONAL
 
 depending on stakes.
 
----
+______________________________________________________________________
 
-# 128. H/M/L Concurrency
+## 128. H/M/L Concurrency
 
 Different independent branches may be validated at different levels simultaneously.
 
@@ -3802,9 +3805,9 @@ No need to promote all branches to H merely because one branch is H.
 
 Only merged conclusions inherit the strictest applicable branch.
 
----
+______________________________________________________________________
 
-# 129. Merge Rule
+## 129. Merge Rule
 
 ```text
 A(H) ──┐
@@ -3835,9 +3838,9 @@ C2 = L
 
 until a later merge requires inheritance.
 
----
+______________________________________________________________________
 
-# 130. Atomic Merge
+## 130. Atomic Merge
 
 When a conclusion depends jointly on multiple levels:
 
@@ -3863,9 +3866,9 @@ even though L is the least strict level.
 
 Strictness does not mean lower-level premises are optional.
 
----
+______________________________________________________________________
 
-# 131. H/M/L Provenance Topology
+## 131. H/M/L Provenance Topology
 
 ```text
 H SOURCE
@@ -3892,9 +3895,9 @@ L CHECK B
 
 and unrelated branches remain valid.
 
----
+______________________________________________________________________
 
-# 132. H/M/L Sybil Hardening
+## 132. H/M/L Sybil Hardening
 
 Ten M policies copied from one H authority do not constitute ten independent H confirmations.
 
@@ -3906,17 +3909,17 @@ DESCENDANT MULTIPLICITY
 ANCESTRAL INDEPENDENCE
 ```
 
----
+______________________________________________________________________
 
-# 133. H/M/L Governance Mutation
+## 133. H/M/L Governance Mutation
 
 Changing an H-level law may alter:
 
-* M policies,
-* L validators,
-* stored proof capsules,
-* effective-level assignments,
-* action permissions.
+- M policies,
+- L validators,
+- stored proof capsules,
+- effective-level assignments,
+- action permissions.
 
 Therefore H mutation should expose its dependency graph before finalization where consequential.
 
@@ -3932,9 +3935,9 @@ DEPENDENT L NODES
 IMPACT SET
 ```
 
----
+______________________________________________________________________
 
-# 134. M Policy Mutation
+## 134. M Policy Mutation
 
 Changing M policy requires revalidation of:
 
@@ -3950,17 +3953,17 @@ M changes
 L descendants revalidate
 ```
 
----
+______________________________________________________________________
 
-# 135. L Mechanism Mutation
+## 135. L Mechanism Mutation
 
 Changing an L mechanism may require revalidation of mechanical results.
 
 It does not automatically alter M/H semantics unless those higher conclusions depend on the changed mechanism.
 
----
+______________________________________________________________________
 
-# 136. H/M/L Versioning
+## 136. H/M/L Versioning
 
 A useful representation:
 
@@ -3987,9 +3990,9 @@ This supports freshness and revalidation.
 
 Exact version semantics are not supplied by the source.
 
----
+______________________________________________________________________
 
-# 137. H/M/L Revalidation Triggers
+## 137. H/M/L Revalidation Triggers
 
 Possible triggers:
 
@@ -4008,9 +4011,9 @@ NEW HIGHER-LEVEL CONSTRAINT
 
 Only dependent conclusions need revalidation.
 
----
+______________________________________________________________________
 
-# 138. H/M/L Stop Condition
+## 138. H/M/L Stop Condition
 
 Reasoning may stop when:
 
@@ -4026,9 +4029,9 @@ are achieved at the strictest applicable level.
 
 Do not continue escalating merely for completeness when no unresolved uncertainty can change the outcome.
 
----
+______________________________________________________________________
 
-# 139. H/M/L Minimal Proof Scope
+## 139. H/M/L Minimal Proof Scope
 
 ```text
 TASK
@@ -4052,32 +4055,32 @@ UNNECESSARY COMPLEXITY
 
 without weakening HML-2 or HML-3.
 
----
+______________________________________________________________________
 
-# 140. H/M/L Canonical Safety Boundary
+## 140. H/M/L Canonical Safety Boundary
 
 L16 does **not** establish:
 
-* that H always requires maximal reasoning complexity,
-* that L always means trivial,
-* that H artifacts are automatically true,
-* that M artifacts are less important than H artifacts,
-* that L checks are optional,
-* that every H claim requires every available source,
-* that H/M/L equals H/M/L retrieval depth,
-* that H/M/L equals organizational rank,
-* that H/M/L equals confidence,
-* that H/M/L equals epistemic class,
-* that an artifact can self-certify its authority by declaring H,
-* that every domain policy is M under all scopes,
-* that every mechanical operation is L under all contexts,
-* that lower-level evidence is irrelevant to higher-level reasoning.
+- that H always requires maximal reasoning complexity,
+- that L always means trivial,
+- that H artifacts are automatically true,
+- that M artifacts are less important than H artifacts,
+- that L checks are optional,
+- that every H claim requires every available source,
+- that H/M/L equals H/M/L retrieval depth,
+- that H/M/L equals organizational rank,
+- that H/M/L equals confidence,
+- that H/M/L equals epistemic class,
+- that an artifact can self-certify its authority by declaring H,
+- that every domain policy is M under all scopes,
+- that every mechanical operation is L under all contexts,
+- that lower-level evidence is irrelevant to higher-level reasoning.
 
 These remain unsupported unless separately established.
 
----
+______________________________________________________________________
 
-# 141. Falsifiers
+## 141. Falsifiers
 
 ## F1 — Authoritative HML Canon Defines Different Level Semantics
 
@@ -4111,25 +4114,25 @@ invalidate affected L16 rules
 recompute dependent H/M/L assignments
 ```
 
----
+______________________________________________________________________
 
-# 142. Additional Invalidation Conditions
+## 142. Additional Invalidation Conditions
 
 Proposed extensions should also be reconsidered if authoritative canon defines:
 
-* a different strictness order,
-* non-monotonic inheritance,
-* permitted level skipping,
-* a mandatory single-level assignment schema,
-* explicit equivalence between retrieval H/M/L and rigor H/M/L,
-* a different bridge model,
-* different cross-level authority semantics.
+- a different strictness order,
+- non-monotonic inheritance,
+- permitted level skipping,
+- a mandatory single-level assignment schema,
+- explicit equivalence between retrieval H/M/L and rigor H/M/L,
+- a different bridge model,
+- different cross-level authority semantics.
 
 These are not additional source falsifiers; they are derived invalidation conditions for the expanded specification.
 
----
+______________________________________________________________________
 
-# 143. Known Gaps
+## 143. Known Gaps
 
 ```yaml
 gaps:
@@ -4187,9 +4190,9 @@ gaps:
 
 These gaps must remain explicit rather than being silently filled.
 
----
+______________________________________________________________________
 
-# 144. RSCF Claim Graph
+## 144. RSCF Claim Graph
 
 ```yaml
 claim_graph:
@@ -4265,9 +4268,9 @@ claim_graph:
       L16 itself is plausibly H-applicable but cannot self-certify canonical authority.
 ```
 
----
+______________________________________________________________________
 
-# 145. Dependency Graph
+## 145. Dependency Graph
 
 ```yaml
 dependency_graph:
@@ -4300,9 +4303,9 @@ dependency_graph:
       - scope
 ```
 
----
+______________________________________________________________________
 
-# 146. Unified H/M/L Architecture
+## 146. Unified H/M/L Architecture
 
 ```text
                     ARTIFACT
@@ -4336,9 +4339,9 @@ dependency_graph:
                 CLAIM CLASS
 ```
 
----
+______________________________________________________________________
 
-# 147. Three-Speed Operational Contract
+## 147. Three-Speed Operational Contract
 
 ```yaml
 three_speed_contract:
@@ -4378,9 +4381,9 @@ three_speed_contract:
 
 "Highest of three" refers to the strictness ordering proposed by HML-2 semantics, not truth value.
 
----
+______________________________________________________________________
 
-# 148. Canonical Compression
+## 148. Canonical Compression
 
 ```text
 H
@@ -4422,15 +4425,15 @@ EVERY LOAD-BEARING ARTIFACT
 DECLARES ITS H/M/L APPLICABILITY.
 ```
 
----
+______________________________________________________________________
 
-# 149. Canonical One-Line Law
+## 149. Canonical One-Line Law
 
 > **AMOS H/M/L assigns distinct rigor to governance, domain policy, and mechanical validation; every load-bearing artifact declares its applicability, every output inherits the strictest applicable load-bearing level, and no lower-level shortcut may independently validate a higher-level claim.**
 
----
+______________________________________________________________________
 
-# 150. Canonical Equations
+## 150. Canonical Equations
 
 Conceptual AMOS model:
 
@@ -4487,9 +4490,9 @@ determines
 CONFIDENCE CEILING
 ```
 
----
+______________________________________________________________________
 
-# 151. Final Proof Capsule
+## 151. Final Proof Capsule
 
 ```yaml
 proof_capsule:
@@ -4556,9 +4559,9 @@ proof_capsule:
     PROPOSED_SPECIFICATION
 ```
 
----
+______________________________________________________________________
 
-# 152. RSCF Node
+## 152. RSCF Node
 
 ```yaml
 RSCF-NODE:
@@ -4615,19 +4618,19 @@ RSCF-RELATIONS:
   - RELATED_TO: [[01_CANON/01_CORE_LAWS/L15_FRACTAL_KNOWLEDGE|L15_FRACTAL_KNOWLEDGE]]
 ```
 
----
+______________________________________________________________________
 
 **00_ROOT_MOC:**
 
-**Related:**  ·  ·
+**Related:** · ·
 
 **MOC:**
 
 **Trang Framework:**
 
----
+______________________________________________________________________
 
-# 153. L16 Final Invariant
+## 153. L16 Final Invariant
 
 ```text
 EVERY LOAD-BEARING ARTIFACT
@@ -4707,6 +4710,6 @@ UNLESS CANONICALLY MAPPED
 
 **Conclusion class: CONDITIONAL / AMOS_MODEL.**
 
-
-
+```
+```
 ```

@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: scaling law diagnostics
 type: reference
 source: 07_SKILLS/amos-fractal-systems-master/references
 tags:
-- reference
-- amos-fractal-systems-master
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-fractal-systems-master
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -20,15 +23,11 @@ rscf:
 > Source: `_00_Cosmo brain/dated/2026-08-25/2026-08-25 Scaling-Law Diagnostics Layer.md`
 > Epistemic class: SOURCE_DERIVED
 
----
-title: 2026-08-25 Scaling-Law Diagnostics Layer
-type: daily-learning
-date: 2026-08-25
-epistemic: SOURCE/DERIVED
-tags: [math, fractal, statistics, power-law, zipf, dated, dated/2026-08-25]
----
+______________________________________________________________________
 
-# 2026-08-25 — Scaling-Law Diagnostics (FR012–FR014 Deep)
+## title: 2026-08-25 Scaling-Law Diagnostics Layer type: daily-learning date: 2026-08-25 epistemic: SOURCE/DERIVED tags: [math, fractal, statistics, power-law, zipf, dated, dated/2026-08-25]
+
+## 2026-08-25 — Scaling-Law Diagnostics (FR012–FR014 Deep)
 
 ## Gap found
 
@@ -36,31 +35,33 @@ The corpus names power laws, Zipf rankings, and fBm everywhere (FR012–FR014 in
 
 ## Closure (4 channels)
 
-| Channel | Artifact |
-|---|---|
-| Skill | `amos/amos-scaling-law-diagnostics` — MLE α estimation with CI, x_min declaration rule, alternative-model duel (log-normal/stretch-exponential via likelihood ratio/Vuong), KS reporting, mechanism tagging, Benford companion check |
-| Agent | `.devin/agents/amos-scaling-fit-auditor-agent.json` — 6 capabilities incl. exponent gate for RG |
-| Workflow | `scaling-law-audit-pipeline-workflow.md` — 9-step pipeline ending at the exponent gate |
-| Memory + vault note | recorded |
+| Channel             | Artifact                                                                                                                                                                                                                             |
+| ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Skill               | `amos/amos-scaling-law-diagnostics` — MLE α estimation with CI, x_min declaration rule, alternative-model duel (log-normal/stretch-exponential via likelihood ratio/Vuong), KS reporting, mechanism tagging, Benford companion check |
+| Agent               | `.devin/agents/amos-scaling-fit-auditor-agent.json` — 6 capabilities incl. exponent gate for RG                                                                                                                                      |
+| Workflow            | `scaling-law-audit-pipeline-workflow.md` — 9-step pipeline ending at the exponent gate                                                                                                                                               |
+| Memory + vault note | recorded                                                                                                                                                                                                                             |
 
 ## Key rules now enforced
 
 1. **Log-log regression alone is rejected** as evidence for α (systematic bias); MLE with CI required
-2. **No x_min → incomplete claim** — scaling rarely holds across full range
-3. **Alternative-model duel licenses the claim**: lose to log-normal → downgrade to "heavy-tailed", never "power law"
-4. **Mechanism tag separates DERIVED-explanatory from curve-fitting**: preferential attachment / multiplicative growth / self-organization
-5. **Benford audit** (P(d)=log₁₀(1+1/d): d=1→30.1% … d=9→4.6%) available for order-of-magnitude datasets — fabrication/regime-mixture detector
-6. **Exponent gate**: only fully-audited fits feed the RG universality matcher
+1. **No x_min → incomplete claim** — scaling rarely holds across full range
+1. **Alternative-model duel licenses the claim**: lose to log-normal → downgrade to "heavy-tailed", never "power law"
+1. **Mechanism tag separates DERIVED-explanatory from curve-fitting**: preferential attachment / multiplicative growth / self-organization
+1. **Benford audit** (P(d)=log₁₀(1+1/d): d=1→30.1% … d=9→4.6%) available for order-of-magnitude datasets — fabrication/regime-mixture detector
+1. **Exponent gate**: only fully-audited fits feed the RG universality matcher
 
 ## Integration payoff
+
 A-matrix cascade magnitudes, UCP historical-collapse frequencies, vault file-size distributions, and agent-count claims all become auditable under one pipeline — and the RG bridge's exponent tables now have a quality floor.
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · AMOS Simulation Kernel v0 Math Foundations · system scan agent · automation profiles
 
----
-**MOC:** references_MOC
----
+______________________________________________________________________
+
+## **MOC:** references_MOC
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -68,12 +69,14 @@ A-matrix cascade magnitudes, UCP historical-collapse frequencies, vault file-siz
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-fractal-systems-master-scaling-law-diagnostics
 node_type: reference
 path: 07_SKILLS/amos-fractal-systems-master/references/scaling_law_diagnostics.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

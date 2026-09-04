@@ -1,12 +1,15 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: DEPENDENCY AUDIT
 type: note
 source: 25_COGNITIVE_MATRIX/09_DEPENDENCY_GRAPH
 tags:
-- note
-- 09-dependency-graph
-- domain/cognitive-matrix
-- trang-framework-recursive-ontology-dynamics
+  - note
+  - 09-dependency-graph
+  - domain/cognitive-matrix
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -41,21 +44,23 @@ MODEL != VERIFIED
 UNKNOWN/GAP != PASS
 ```
 
----
+______________________________________________________________________
 
 [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: dependency_audit_graph_definition
 node_type: note
-path: 09_DEPENDENCY_GRAPH/DEPENDENCY_AUDIT_/DEPENDENCY_AUDIT.md
+path: 09_DEPENDENCY_GRAPH/DEPENDENCY_AUDIT\_/DEPENDENCY_AUDIT.md
 claim_class: DERIVED
-node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/09_DEPENDENCY_GRAPH/DEPENDENCY_AUDIT.md
+node_path_note: 25_COGNITIVE_MATRIX/09_DEPENDENCY_GRAPH/DEPENDENCY_AUDIT.md
 
----
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/09_DEPENDENCY_GRAPH/09_DEPENDENCY_GRAPH_MOC|09_DEPENDENCY_GRAPH_MOC]]
 
----
-**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+______________________________________________________________________
 
+**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

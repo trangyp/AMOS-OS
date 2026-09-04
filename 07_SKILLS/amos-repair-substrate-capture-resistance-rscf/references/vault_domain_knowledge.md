@@ -1,14 +1,17 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Vault Domain Knowledge — Amos Repair Substrate Capture Resistance Rscf
 type: reference
 source: 07_SKILLS/amos-repair-substrate-capture-resistance-rscf/references
 tags:
-- reference
-- amos-repair-substrate-capture-resistance-rscf
-- type/skill
-- law-hierarchy
-- 2026-08-22-cognitive-substrate-reality-gate
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-repair-substrate-capture-resistance-rscf
+  - type/skill
+  - law-hierarchy
+  - 2026-08-22-cognitive-substrate-reality-gate
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -28,7 +31,7 @@ rscf:
 
 > Path: `dated/2026-08-22/2026-08-22 Cognitive Substrate Reasoning Graph.md` | Size: 4567 chars | Match score: 12
 
-# Cognitive Substrate Reasoning Execution Graph
+## Cognitive Substrate Reasoning Execution Graph
 
 > Slice 2 of the AMOS Cognitive Substrate Layer. Implements the reasoning side of
 > `R_t = (N_t, E_t, O_t, Pi_t, U_t)` with typed inference operators, transition
@@ -52,13 +55,13 @@ looked wrong.
 R_t = (N_t, E_t, O_t, Pi_t, U_t)
 ```
 
-| Component | Meaning | Gaps addressed |
-|-----------|---------|----------------|
-| N_t | Cognitive objects (nodes) | 701–704 |
-| E_t | Bindings / dependencies (edges) | 705–708 |
-| O_t | Operations performed (execution history) | 724 |
-| Pi_t | Active reasoning policy | 737–740 |
-| U_t | Localized uncertainty | 781–784 |
+| Component | Meaning                                  | Gaps addressed |
+| --------- | ---------------------------------------- | -------------- |
+| N_t       | Cognitive objects (nodes)                | 701–704        |
+| E_t       | Bindings / dependencies (edges)          | 705–708        |
+| O_t       | Operations performed (execution history) | 724            |
+| Pi_t      | Active reasoning policy                  | 737–740        |
+| U_t       | Localized uncertainty                    | 781–784        |
 
 Transition: `R_{t+1} = T_{o_t}(R_t, e_t, c_t)` with typed operator `o_t`.
 
@@ -73,6 +76,7 @@ Transition: `R_{t+1} = T_{o_t}(R_t, e_t, c_t)` with typed operator `o_t`.
 ## 4. State-transition legality (gap 717)
 
 Forbidden transitions:
+
 - `MODEL → VERIFIED` (without evidence)
 - `MODEL → DERIVED` (without evidence)
 - `UNKNOWN → VERIFIED`
@@ -85,6 +89,7 @@ and finds the **first** illegal or contradicted operation — the root cause. Th
 wrong output is merely the **symptom**.
 
 Additional outputs:
+
 - **Minimal causal cut-set**: smallest set of ops whose correction rescues the outcome.
 - **Failure lock-in point**: first op after which recovery became unlikely.
 - **Recovery opportunities**: ops that had enough info to correct but didn't.
@@ -96,13 +101,13 @@ Additional outputs:
 Uncertainty is attached to specific nodes, not whole-answer vague confidence.
 Multiple uncertainty sources compound nonline
 
----
+______________________________________________________________________
 
 ### Source 2: AMOS Cognitive Substrate v2.0 — Implementation Notes
 
 > Path: `cognitive/AMOS_Cognitive_Substrate_v2_Implementation_Notes.md` | Size: 11609 chars | Match score: 10
 
-# AMOS Cognitive Substrate v2.0 — Implementation Notes
+## AMOS Cognitive Substrate v2.0 — Implementation Notes
 
 > Consolidated execution substrate for the AMOS Cognitive Substrate Layer (gaps 701–900).
 > Unifies all 4 Obsidian brain slices into a single integrity-checked cognitive system.
@@ -114,24 +119,25 @@ Multiple uncertainty sources compound nonline
 
 ## 1. Module structure (12 sections, 4298 lines) (2)
 
-| # | Section | Gaps | Key classes |
-|---|---------|------|-------------|
-| 1 | Cognitive object identity & equivalence | 701–714 | `CognitiveObject`, `SemanticSignature`, `OBJECT_TYPE_MAP`, `EPISTEMIC_CLASS_KEYWORDS` |
-| 2 | Bindings and context | 705–714 | `CognitiveBinding`, `BindingType`, `ContextRegion`, `ContextLocalityGraph` |
-| 3 | Operator registry | 715–723 | `OperatorSpec`, `OperatorRegistry`, 20 typed operators (`DEDUCE`…`FORGET`) — 11 reasoning + 9 memory/structural |
-| 4 | Execution graph with attribution | 724–730 | `ReasoningNode`, `ReasoningEdge`, `ReasoningExecutionGraph`, `ReasoningAttribution` |
-| 5 | Belief state | 731–740 | `BeliefState`, `ConfirmationBiasMonitor`, `DisconfirmationBudget` |
-| 6 | Uncertainty decomposition | 741–773 | `UncertaintyState`, `UncertaintyComponent`, `localize_evidence()` |
-| 7 | Search state and mode management | 774–777 | `SearchState`, `ReasoningModeState`, `MetaCognitiveState` |
-| 8 | Memory operational substrate | 793–800 | `MemoryObject`, `MemoryOperationType`, `MemoryOperationRecord`, `MemoryTrustState` |
-| 9 | Field lineage and epistemic preservation | 796–799 | `FieldLineage`, `FieldPreservationRecord`, `check_epistemic_preservation()` |
-| 10 | Memory retrieval governance | 873–880 | `MemoryOperationGraph.retrieve()`, `query()`, `retrieve_by_tag()`, `get_dependents()`, `dependency_safe_forget()` |
-| 11 | Meta-cognitive state and persistence | 778–780 | `MetaCognitiveState`, `MetaCognitiveEvent`, `save()`/`load()` |
-| 12 | Interface coupling (CognitiveIntegrityGate) | all | `CognitiveIntegrityGate`, `propose_cognitive_object()`, `execute_operator()`, `admit_to_memory()` |
+| #   | Section                                     | Gaps    | Key classes                                                                                                       |
+| --- | ------------------------------------------- | ------- | ----------------------------------------------------------------------------------------------------------------- |
+| 1   | Cognitive object identity & equivalence     | 701–714 | `CognitiveObject`, `SemanticSignature`, `OBJECT_TYPE_MAP`, `EPISTEMIC_CLASS_KEYWORDS`                             |
+| 2   | Bindings and context                        | 705–714 | `CognitiveBinding`, `BindingType`, `ContextRegion`, `ContextLocalityGraph`                                        |
+| 3   | Operator registry                           | 715–723 | `OperatorSpec`, `OperatorRegistry`, 20 typed operators (`DEDUCE`…`FORGET`) — 11 reasoning + 9 memory/structural   |
+| 4   | Execution graph with attribution            | 724–730 | `ReasoningNode`, `ReasoningEdge`, `ReasoningExecutionGraph`, `ReasoningAttribution`                               |
+| 5   | Belief state                                | 731–740 | `BeliefState`, `ConfirmationBiasMonitor`, `DisconfirmationBudget`                                                 |
+| 6   | Uncertainty decomposition                   | 741–773 | `UncertaintyState`, `UncertaintyComponent`, `localize_evidence()`                                                 |
+| 7   | Search state and mode management            | 774–777 | `SearchState`, `ReasoningModeState`, `MetaCognitiveState`                                                         |
+| 8   | Memory operational substrate                | 793–800 | `MemoryObject`, `MemoryOperationType`, `MemoryOperationRecord`, `MemoryTrustState`                                |
+| 9   | Field lineage and epistemic preservation    | 796–799 | `FieldLineage`, `FieldPreservationRecord`, `check_epistemic_preservation()`                                       |
+| 10  | Memory retrieval governance                 | 873–880 | `MemoryOperationGraph.retrieve()`, `query()`, `retrieve_by_tag()`, `get_dependents()`, `dependency_safe_forget()` |
+| 11  | Meta-cognitive state and persistence        | 778–780 | `MetaCognitiveState`, `MetaCognitiveEvent`, `save()`/`load()`                                                     |
+| 12  | Interface coupling (CognitiveIntegrityGate) | all     | `CognitiveIntegrityGate`, `propose_cognitive_object()`, `execute_operator()`, `admit_to_memory()`                 |
 
 ## 2. The 4-slice architecture (consolidated) (2)
 
 ### Slice 1: Reality Gate (RC/IR)
+
 - **`Promote(X) => RC(X) >= theta_RC AND IR(X) <= theta_IR`**
 - Prevents epistemic autopoisoning: LLM-generated X → stored → retrieved → treated as evidence → strengthened → stored again
 - Admission pipeline: Propose → Type → CheckEvidence → CheckScope → CheckProvenance → Admit
@@ -139,16 +145,17 @@ Multiple uncertainty sources compound nonline
 - **Implemented**: Wired into `CognitiveIntegrityGate` via `RealityGate` import from `AMOS_COGNITIVE_SUBSTRATE_REALITY_GATE.py`
 
 ### Slice 2: Reasoning Execution Graph (`R_t = (N_t, E_t, O_t, Pi_t, U_t)`)
+
 - 11 typed reasoning operators with declared postconditions: DEDUCE, ABDUCE, GENERALIZE, SPECIALIZE, NEGATE, CONTRAST, AGGREGATE, PROJECT, SIMULATE, RETRIEVE, REVISE
 - 9 memory/structural operato
 
----
+______________________________________________________________________
 
 ### Source 3: AMOS Cognitive Substrate v2.0 — Implementation Notes
 
 > Path: `cognitive/AMOS_Cognitive_Substrate_v2_Implementation_Notes_2.md` | Size: 9825 chars | Match score: 10
 
-# AMOS Cognitive Substrate v2.0 — Implementation Notes — part 2
+## AMOS Cognitive Substrate v2.0 — Implementation Notes — part 2
 
 > Consolidated execution substrate for the AMOS Cognitive Substrate Layer (gaps 701–900).
 > Unifies all 4 Obsidian brain slices into a single integrity-checked cognitive system.
@@ -160,24 +167,25 @@ Multiple uncertainty sources compound nonline
 
 ## 1. Module structure (12 sections, 4298 lines)
 
-| # | Section | Gaps | Key classes |
-|---|---------|------|-------------|
-| 1 | Cognitive object identity & equivalence | 701–714 | `CognitiveObject`, `SemanticSignature`, `OBJECT_TYPE_MAP`, `EPISTEMIC_CLASS_KEYWORDS` |
-| 2 | Bindings and context | 705–714 | `CognitiveBinding`, `BindingType`, `ContextRegion`, `ContextLocalityGraph` |
-|| 3 | Operator registry | 715–723 | `OperatorSpec`, `OperatorRegistry`, 20 typed operators (`DEDUCE`…`FORGET`) — 11 reasoning + 9 memory/structural |
-| 4 | Execution graph with attribution | 724–730 | `ReasoningNode`, `ReasoningEdge`, `ReasoningExecutionGraph`, `ReasoningAttribution` |
-| 5 | Belief state | 731–740 | `BeliefState`, `ConfirmationBiasMonitor`, `DisconfirmationBudget` |
-| 6 | Uncertainty decomposition | 741–773 | `UncertaintyState`, `UncertaintyComponent`, `localize_evidence()` |
-| 7 | Search state and mode management | 774–777 | `SearchState`, `ReasoningModeState`, `MetaCognitiveState` |
-| 8 | Memory operational substrate | 793–800 | `MemoryObject`, `MemoryOperationType`, `MemoryOperationRecord`, `MemoryTrustState` |
-| 9 | Field lineage and epistemic preservation | 796–799 | `FieldLineage`, `FieldPreservationRecord`, `check_epistemic_preservation()` |
-| 10 | Memory retrieval governance | 873–880 | `MemoryOperationGraph.retrieve()`, `query()`, `retrieve_by_tag()`, `get_dependents()`, `dependency_safe_forget()` |
-| 11 | Meta-cognitive state and persistence | 778–780 | `MetaCognitiveState`, `MetaCognitiveEvent`, `save()`/`load()` |
-| 12 | Interface coupling (CognitiveIntegrityGate) | all | `CognitiveIntegrityGate`, `propose_cognitive_object()`, `execute_operator()`, `admit_to_memory()` |
+| #   | Section                                     | Gaps              | Key classes                                                                                                       |
+| --- | ------------------------------------------- | ----------------- | ----------------------------------------------------------------------------------------------------------------- |
+| 1   | Cognitive object identity & equivalence     | 701–714           | `CognitiveObject`, `SemanticSignature`, `OBJECT_TYPE_MAP`, `EPISTEMIC_CLASS_KEYWORDS`                             |
+| 2   | Bindings and context                        | 705–714           | `CognitiveBinding`, `BindingType`, `ContextRegion`, `ContextLocalityGraph`                                        |
+|     | 3                                           | Operator registry | 715–723                                                                                                           |
+| 4   | Execution graph with attribution            | 724–730           | `ReasoningNode`, `ReasoningEdge`, `ReasoningExecutionGraph`, `ReasoningAttribution`                               |
+| 5   | Belief state                                | 731–740           | `BeliefState`, `ConfirmationBiasMonitor`, `DisconfirmationBudget`                                                 |
+| 6   | Uncertainty decomposition                   | 741–773           | `UncertaintyState`, `UncertaintyComponent`, `localize_evidence()`                                                 |
+| 7   | Search state and mode management            | 774–777           | `SearchState`, `ReasoningModeState`, `MetaCognitiveState`                                                         |
+| 8   | Memory operational substrate                | 793–800           | `MemoryObject`, `MemoryOperationType`, `MemoryOperationRecord`, `MemoryTrustState`                                |
+| 9   | Field lineage and epistemic preservation    | 796–799           | `FieldLineage`, `FieldPreservationRecord`, `check_epistemic_preservation()`                                       |
+| 10  | Memory retrieval governance                 | 873–880           | `MemoryOperationGraph.retrieve()`, `query()`, `retrieve_by_tag()`, `get_dependents()`, `dependency_safe_forget()` |
+| 11  | Meta-cognitive state and persistence        | 778–780           | `MetaCognitiveState`, `MetaCognitiveEvent`, `save()`/`load()`                                                     |
+| 12  | Interface coupling (CognitiveIntegrityGate) | all               | `CognitiveIntegrityGate`, `propose_cognitive_object()`, `execute_operator()`, `admit_to_memory()`                 |
 
 ## 2. The 4-slice architecture (consolidated)
 
 ### Slice 1: Reality Gate (RC/IR)
+
 - **`Promote(X) => RC(X) >= theta_RC AND IR(X) <= theta_IR`**
 - Prevents epistemic autopoisoning: LLM-generated X → stored → retrieved → treated as evidence → strengthened → stored again
 - Admission pipeline: Propose → Type → CheckEvidence → CheckScope → CheckProvenance → Admit
@@ -185,12 +193,13 @@ Multiple uncertainty sources compound nonline
 - **Implemented**: Wired into `CognitiveIntegrityGate` via `RealityGate` import from `AMOS_COGNITIVE_SUBSTRATE_REALITY_GATE.py`
 
 ### Slice 2: Reasoning Execution Graph (`R_t = (N_t, E_t, O_t, Pi_t, U_t)`)
+
 - 11 typed reasoning operators with declared postconditions (DEDUCE, ABDUCE, GENERALIZE, SPECIALIZE, NEGATE, CONTRAST, AGGREGATE, PROJECT, SIMULATE, RETRIEVE, REVISE)
 - State-transition legality (forbidden: M
 
----
-**MOC:** references_MOC
----
+______________________________________________________________________
+
+## **MOC:** references_MOC
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -198,12 +207,14 @@ Multiple uncertainty sources compound nonline
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-repair-substrate-capture-resistance-rscf-vault-domain-knowledge
 node_type: reference
 path: 07_SKILLS/amos-repair-substrate-capture-resistance-rscf/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

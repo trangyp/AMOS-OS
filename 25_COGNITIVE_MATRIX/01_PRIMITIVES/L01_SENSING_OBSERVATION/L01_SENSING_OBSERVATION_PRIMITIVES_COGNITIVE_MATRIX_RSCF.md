@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: L01 SENSING OBSERVATION PRIMITIVES COGNITIVE MATRIX RSCF
 type: cognitive
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION
 tags:
-- cognitive-matrix
-- primitives
-- matrix/l01-sensing-observation
-- note
-- domain/cognitive-matrix
+  - cognitive-matrix
+  - primitives
+  - matrix/l01-sensing-observation
+  - note
+  - domain/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -27,9 +30,9 @@ rscf:
 
 > **Epistemic boundary:** this artifact defines the proposed RSCF contract for `L01_SENSING_OBSERVATION`. RSCF organizes what is observed, supported, derived, modeled, competing, or unknown. Structural completion of an RSCF does not make an observation or proposition empirically true.
 
----
+______________________________________________________________________
 
-# 0. Executive Definition
+## 0. Executive Definition
 
 `L01_SENSING_OBSERVATION/RSCF.md` defines how sensing and observation state is represented as governed Recursive Structured Claim Framework state.
 
@@ -65,29 +68,29 @@ GOVERNED DOWNSTREAM USE
 
 The core rule is:
 
-[
-\boxed{
+\[
+\\boxed{
 Observation
-\neq
+\\neq
 Truth
 }
-]
+\]
 
 and:
 
-[
-\boxed{
+\[
+\\boxed{
 RSCFCompleteness
-\neq
+\\neq
 EmpiricalValidation
 }
-]
+\]
 
 RSCF exists to preserve the structure required to determine what an observation can and cannot support.
 
----
+______________________________________________________________________
 
-# 1. Purpose
+## 1. Purpose
 
 The purpose of the L01 RSCF layer is to prevent sensing outputs from becoming untyped facts.
 
@@ -133,9 +136,9 @@ DECISION
 
 without collapsing these states into one another.
 
----
+______________________________________________________________________
 
-# 2. Source / Canon References
+## 2. Source / Canon References
 
 ## 2.1 Origin
 
@@ -267,9 +270,9 @@ IMPLEMENTED
 VALIDATED
 ```
 
----
+______________________________________________________________________
 
-# 3. Definition and Scope
+## 3. Definition and Scope
 
 An L01 RSCF is a governed evidence capsule representing the epistemic state surrounding one or more sensing/observation objects.
 
@@ -305,20 +308,17 @@ The RSCF does not replace the underlying observation.
 
 Instead:
 
-[
-\boxed{
-RSCF(O)
-=======
+## \[ \\boxed{ RSCF(O)
 
 GovernedEpistemicEnvelope(O)
 }
-]
+\]
 
 This is an `AMOS_MODEL` expression.
 
----
+______________________________________________________________________
 
-# 4. Out of Scope
+## 4. Out of Scope
 
 L01 RSCF does not independently establish:
 
@@ -340,9 +340,9 @@ Those require appropriate evidence, validation, or downstream governance.
 
 RSCF records their status rather than assuming them.
 
----
+______________________________________________________________________
 
-# 5. Primary RSCF Object
+## 5. Primary RSCF Object
 
 ```yaml
 L01ObservationRSCF:
@@ -444,9 +444,9 @@ L01ObservationRSCF:
       - UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 6. Typed Inputs
+## 6. Typed Inputs
 
 ```yaml
 L01RSCFInput:
@@ -497,9 +497,9 @@ L01RSCFInput:
     type: UncertaintyVector | UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 7. Typed Outputs
+## 7. Typed Outputs
 
 ```yaml
 L01RSCFOutput:
@@ -548,9 +548,9 @@ L01RSCFOutput:
     type: RevalidationCondition[]
 ```
 
----
+______________________________________________________________________
 
-# 8. State Variables
+## 8. State Variables
 
 Minimum L01 RSCF variables:
 
@@ -579,11 +579,9 @@ V = validation state
 
 Candidate tensor:
 
-[
-T_{L01-RSCF}
-============
+## \[ T\_{L01-RSCF}
 
-T[
+T\[
 O,
 K,
 C,
@@ -601,14 +599,14 @@ F,
 I,
 CC,
 V
-]
-]
+\]
+\]
 
 This tensor is an `AMOS_MODEL`, not established empirical mathematics.
 
----
+______________________________________________________________________
 
-# 9. Epistemic Typing
+## 9. Epistemic Typing
 
 ## 9.1 SOURCE_CLAIM
 
@@ -622,7 +620,7 @@ Example:
 
 This is not automatically an observation merely because a source reports it.
 
----
+______________________________________________________________________
 
 ## 9.2 OBSERVATION
 
@@ -638,7 +636,7 @@ Observation means the system recorded the measurement event.
 
 It does not automatically establish that the environment's true temperature was exactly 23.4°C.
 
----
+______________________________________________________________________
 
 ## 9.3 DERIVED
 
@@ -657,7 +655,7 @@ rate of change
 
 Derived state inherits dependency weaknesses.
 
----
+______________________________________________________________________
 
 ## 9.4 MODEL
 
@@ -665,7 +663,7 @@ A representation, hypothesis, abstraction, forecast, simulation, or structural i
 
 A model must not masquerade as direct observation.
 
----
+______________________________________________________________________
 
 ## 9.5 DECISION
 
@@ -673,7 +671,7 @@ A governed choice or action conclusion derived from evidence/model state.
 
 Decision is not observation.
 
----
+______________________________________________________________________
 
 ## 9.6 UNKNOWN
 
@@ -685,9 +683,9 @@ UNKNOWN
 OBSERVATION
 ```
 
----
+______________________________________________________________________
 
-# 10. Conclusion Classes
+## 10. Conclusion Classes
 
 L01 RSCFs use the weakest accurate conclusion class:
 
@@ -724,9 +722,9 @@ Use when incompatible explanations or observations remain materially viable.
 
 Use when evidence is insufficient to support a stronger class.
 
----
+______________________________________________________________________
 
-# 11. RSCF Operators
+## 11. RSCF Operators
 
 Candidate L01 operators:
 
@@ -777,9 +775,9 @@ not:
 IMPLEMENTED
 ```
 
----
+______________________________________________________________________
 
-# 12. Core RSCF Invariants
+## 12. Core RSCF Invariants
 
 ```text
 L01-RSCF-INV-001
@@ -849,47 +847,47 @@ L01-RSCF-INV-022
 UNKNOWN/GAP cannot be converted into PASS by structural completion alone.
 ```
 
----
+______________________________________________________________________
 
-# 13. Confidence Ceiling
+## 13. Confidence Ceiling
 
-For load-bearing premises (p_1,\ldots,p_n):
+For load-bearing premises (p_1,\\ldots,p_n):
 
-[
-\boxed{
-C_{derived}
-\le
-\min_i C(p_i)
+\[
+\\boxed{
+C\_{derived}
+\\le
+\\min_i C(p_i)
 }
-]
+\]
 
 unless a weak premise has been independently revalidated.
 
 For an L01 observation RSCF:
 
-[
-\boxed{
-C_{L01}
-\le
-\min(
-C_{observation},
-C_{source},
-C_{measurement},
-C_{provenance},
-C_{scope},
-C_{regime},
-C_{freshness}
+\[
+\\boxed{
+C\_{L01}
+\\le
+\\min(
+C\_{observation},
+C\_{source},
+C\_{measurement},
+C\_{provenance},
+C\_{scope},
+C\_{regime},
+C\_{freshness}
 )
 }
-]
+\]
 
 where those dimensions are load-bearing.
 
 This is a governance rule, not a universal statistical confidence equation.
 
----
+______________________________________________________________________
 
-# 14. Provenance Independence
+## 14. Provenance Independence
 
 Suppose:
 
@@ -907,11 +905,11 @@ B, C, and D do not automatically provide three independent confirmations.
 
 Conceptually:
 
-[
+\[
 IndependentEvidence
-\neq
+\\neq
 NumberOfDocuments
-]
+\]
 
 Instead independence requires examination of ancestry.
 
@@ -935,9 +933,9 @@ provenance_topology:
 
 The support chain remains ancestry-correlated.
 
----
+______________________________________________________________________
 
-# 15. Dependency Graph
+## 15. Dependency Graph
 
 Every derived consequential node should expose its load-bearing dependencies.
 
@@ -972,20 +970,17 @@ O2 remains valid if independent and unaffected.
 
 Thus:
 
-[
-\boxed{
-Invalidation(F)
-===============
+## \[ \\boxed{ Invalidation(F)
 
 DependentDescendants(F)
 }
-]
+\]
 
 not automatically the entire knowledge graph.
 
----
+______________________________________________________________________
 
-# 16. Scope Envelope
+## 16. Scope Envelope
 
 A consequential RSCF should record applicable scope where relevant.
 
@@ -1018,9 +1013,9 @@ scope:
 
 A claim cannot silently migrate outside its supported scope.
 
----
+______________________________________________________________________
 
-# 17. Regime Envelope
+## 17. Regime Envelope
 
 Candidate regime dimensions:
 
@@ -1056,9 +1051,9 @@ STALE / REGIME-BOUNDED
 REVALIDATION REQUIRED
 ```
 
----
+______________________________________________________________________
 
-# 18. Temporal Validity
+## 18. Temporal Validity
 
 L01 RSCF must distinguish where applicable:
 
@@ -1091,9 +1086,9 @@ freshness:
     - UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 19. H/M/L Applicability
+## 19. H/M/L Applicability
 
 RSCF applies recursively.
 
@@ -1133,9 +1128,9 @@ single source claim
 single timestamped measurement
 ```
 
----
+______________________________________________________________________
 
-# 20. H/M/L Propagation
+## 20. H/M/L Propagation
 
 A local observation may support a higher-scale claim only through explicit transformation.
 
@@ -1155,31 +1150,31 @@ Each transition creates a dependency edge.
 
 Therefore:
 
-[
-\boxed{
+\[
+\\boxed{
 L
-\neq
+\\neq
 M
-\neq
+\\neq
 H
 }
-]
+\]
 
 and:
 
-[
-\boxed{
+\[
+\\boxed{
 LocalEvidence
-\not\Rightarrow
+\\not\\Rightarrow
 GlobalClaim
 }
-]
+\]
 
 without a supported translation.
 
----
+______________________________________________________________________
 
-# 21. Fractal Retrieval
+## 21. Fractal Retrieval
 
 Default retrieval path:
 
@@ -1215,9 +1210,9 @@ Default:
 RAW_EVIDENCE = DO_NOT_LOAD_UNLESS_REQUIRED
 ```
 
----
+______________________________________________________________________
 
-# 22. Competing Hypotheses
+## 22. Competing Hypotheses
 
 If evidence permits incompatible explanations:
 
@@ -1251,9 +1246,9 @@ COMPETING
 
 until discriminating evidence exists.
 
----
+______________________________________________________________________
 
-# 23. Discriminating Evidence
+## 23. Discriminating Evidence
 
 When hypotheses compete, prefer:
 
@@ -1273,25 +1268,23 @@ Do not accumulate redundant evidence merely to increase apparent confidence.
 
 Conceptually:
 
-[
-Test^*
-======
+## \[ Test^\*
 
-\arg\max_T
-\frac{
+\\arg\\max_T
+\\frac{
 ExpectedDiscrimination(T)
 }{
 Cost(T)+Risk(T)
 }
-]
+\]
 
 subject to integrity and authority constraints.
 
 This is an `AMOS_MODEL`.
 
----
+______________________________________________________________________
 
-# 24. Causal Firewall
+## 24. Causal Firewall
 
 L01 observations may support different causal statuses.
 
@@ -1316,13 +1309,13 @@ Observation alone does not automatically establish causation.
 
 Hard rule:
 
-[
-\boxed{
+\[
+\\boxed{
 Observation(A,B)
-\not\Rightarrow
-A \rightarrow B
+\\not\\Rightarrow
+A \\rightarrow B
 }
-]
+\]
 
 Likewise:
 
@@ -1340,9 +1333,9 @@ STRUCTURAL SIMILARITY
 CAUSATION
 ```
 
----
+______________________________________________________________________
 
-# 25. Falsifiers
+## 25. Falsifiers
 
 Every consequential reusable RSCF should state what would materially weaken or invalidate it.
 
@@ -1377,9 +1370,9 @@ falsifiers:
   - source provenance cannot be authenticated
 ```
 
----
+______________________________________________________________________
 
-# 26. Invalidation Conditions
+## 26. Invalidation Conditions
 
 Falsification and invalidation are related but not identical.
 
@@ -1399,9 +1392,9 @@ measurement method was invalidated
 
 Invalidation should propagate selectively through dependency edges.
 
----
+______________________________________________________________________
 
-# 27. Reuse Conditions
+## 27. Reuse Conditions
 
 An RSCF may be reused only while relevant conditions remain valid.
 
@@ -1421,18 +1414,16 @@ confidence ceiling sufficient
 
 Conceptually:
 
-[
-Reuse(R)
-========
+## \[ Reuse(R)
 
-D \land S \land G \land F \land P \land \neg Conflict
-]
+D \\land S \\land G \\land F \\land P \\land \\neg Conflict
+\]
 
 where each term represents a required validity condition.
 
----
+______________________________________________________________________
 
-# 28. Uncertainty Vector
+## 28. Uncertainty Vector
 
 L01 RSCF should avoid compressing all uncertainty into one number.
 
@@ -1478,9 +1469,9 @@ HIGH
 UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 29. Gap Classification
+## 29. Gap Classification
 
 Unresolved gaps are classified:
 
@@ -1511,9 +1502,9 @@ UNKNOWN/GAP
 
 even if the remainder of the RSCF is structurally complete.
 
----
+______________________________________________________________________
 
-# 30. Control-Plane Requirements
+## 30. Control-Plane Requirements
 
 The L01 RSCF layer may construct, evaluate, or propose epistemic state.
 
@@ -1546,9 +1537,9 @@ conflict
 
 where material.
 
----
+______________________________________________________________________
 
-# 31. Capability / Authority Separation
+## 31. Capability / Authority Separation
 
 An agent may have the capability to:
 
@@ -1574,17 +1565,17 @@ act
 
 Therefore:
 
-[
-\boxed{
+\[
+\\boxed{
 Capability
-\neq
+\\neq
 Authority
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 32. Proposal / Commit Separation
+## 32. Proposal / Commit Separation
 
 RSCF processing may produce:
 
@@ -1610,9 +1601,9 @@ COMMIT-TIME REVALIDATION
 COMMIT / REJECT
 ```
 
----
+______________________________________________________________________
 
-# 33. Agents
+## 33. Agents
 
 Candidate L01 RSCF roles:
 
@@ -1641,9 +1632,9 @@ ROLE
 DEPLOYED AGENT
 ```
 
----
+______________________________________________________________________
 
-# 34. Skills
+## 34. Skills
 
 Candidate supporting skill families:
 
@@ -1666,9 +1657,9 @@ control-plane authorization
 
 Skill availability does not establish implementation or authority.
 
----
+______________________________________________________________________
 
-# 35. Primary Workflow
+## 35. Primary Workflow
 
 ```text
 OBSERVATION RECEIVED
@@ -1714,9 +1705,9 @@ VALIDATE
 ADMIT / CONDITION / QUARANTINE / REJECT
 ```
 
----
+______________________________________________________________________
 
-# 36. Adversarial Validation Workflow
+## 36. Adversarial Validation Workflow
 
 For consequential observations:
 
@@ -1746,9 +1737,9 @@ IF CHALLENGE SUCCEEDS:
   or mark UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 37. Memory Workflow
+## 37. Memory Workflow
 
 Before persistent memory admission:
 
@@ -1776,9 +1767,9 @@ ADMIT / CONDITIONAL / QUARANTINE / REJECT
 
 Memory admission must preserve the RSCF lineage required for later invalidation.
 
----
+______________________________________________________________________
 
-# 38. Protocols
+## 38. Protocols
 
 Candidate protocol objects:
 
@@ -1821,9 +1812,9 @@ authority context
 
 where applicable.
 
----
+______________________________________________________________________
 
-# 39. Evidence / Provenance Contract
+## 39. Evidence / Provenance Contract
 
 Every evidence object should preserve enough information to reconstruct:
 
@@ -1884,9 +1875,9 @@ EvidenceRef:
       - UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 40. Failure Modes
+## 40. Failure Modes
 
 ```text
 FM-L01-RSCF-001  Observation/Truth Collapse
@@ -1916,9 +1907,9 @@ FM-L01-RSCF-024  Supersession Without Lineage
 FM-L01-RSCF-025  Structural Completeness Presented as Truth
 ```
 
----
+______________________________________________________________________
 
-# 41. Repair / Recovery
+## 41. Repair / Recovery
 
 When an RSCF fails:
 
@@ -1962,35 +1953,30 @@ INVALIDATE
 REOBSERVE
 ```
 
----
+______________________________________________________________________
 
-# 42. Selective Invalidation
+## 42. Selective Invalidation
 
-If premise \(P\) fails:
+If premise (P) fails:
 
-[
-\boxed{
-Invalidate(P)
-=============
+## \[ \\boxed{ Invalidate(P)
 
-Descendants_{dependent}\(P\)
+Descendants\_{dependent}(P)
 }
-]
+\]
 
 not:
 
-[
-Invalidate(P)
-=============
+## \[ Invalidate(P)
 
 EntireRSCFNetwork
-]
+\]
 
 unless dependency closure genuinely spans the whole network.
 
----
+______________________________________________________________________
 
-# 43. Tests / Validators
+## 43. Tests / Validators
 
 Minimum validators:
 
@@ -2018,9 +2004,9 @@ VALIDATOR_AUTHORITY
 VALIDATOR_PROPOSAL_COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 44. Minimum Test Suite
+## 44. Minimum Test Suite
 
 ```text
 TEST_L01_RSCF_001
@@ -2099,9 +2085,9 @@ TEST_L01_RSCF_025
 UNKNOWN/GAP remains non-PASS until resolved
 ```
 
----
+______________________________________________________________________
 
-# 45. Adversarial Tests
+## 45. Adversarial Tests
 
 Future validation should include:
 
@@ -2128,9 +2114,9 @@ quarantine bypass
 unauthorized commit
 ```
 
----
+______________________________________________________________________
 
-# 46. Falsifiers of This Contract
+## 46. Falsifiers of This Contract
 
 This L01 RSCF contract should be revised if:
 
@@ -2154,9 +2140,9 @@ runtime implementation demonstrates incompatible requirements
 executed tests falsify dependency or invalidation assumptions
 ```
 
----
+______________________________________________________________________
 
-# 47. Gap Matrix
+## 47. Gap Matrix
 
 ```yaml
 gap_matrix:
@@ -2278,9 +2264,9 @@ gap_matrix:
     criticality: CRITICAL
 ```
 
----
+______________________________________________________________________
 
-# 48. Gap Resolution Priority
+## 48. Gap Resolution Priority
 
 ```text
 1. Locate direct canonical L01 RSCF material.
@@ -2324,9 +2310,9 @@ gap_matrix:
 20. Promote status only from actual evidence.
 ```
 
----
+______________________________________________________________________
 
-# 49. Evidence / Provenance of This Artifact
+## 49. Evidence / Provenance of This Artifact
 
 ```yaml
 artifact_provenance:
@@ -2357,9 +2343,9 @@ artifact_provenance:
 
 This document must not be used as independent evidence for its own reconstructed L01-specific claims.
 
----
+______________________________________________________________________
 
-# 50. Uncertainty Vector
+## 50. Uncertainty Vector
 
 ```yaml
 uncertainty:
@@ -2391,9 +2377,9 @@ uncertainty:
     reason: exact ancestry of all L01 reconstruction sources has not been independently demonstrated
 ```
 
----
+______________________________________________________________________
 
-# 51. Confidence Ceiling
+## 51. Confidence Ceiling
 
 The strongest warranted conclusion for this artifact is:
 
@@ -2414,19 +2400,19 @@ EMPIRICALLY VALIDATED
 
 Therefore:
 
-[
-\boxed{
-C_{artifact}
-\le
-C_{weakest\ load-bearing\ premise}
+\[
+\\boxed{
+C\_{artifact}
+\\le
+C\_{weakest\\ load-bearing\\ premise}
 }
-]
+\]
 
 unless independently revalidated.
 
----
+______________________________________________________________________
 
-# 52. Canonical RSCF Capsule for L01
+## 52. Canonical RSCF Capsule for L01
 
 ```yaml
 rscf:
@@ -2642,9 +2628,9 @@ rscf:
     - direct canon has not superseded the reconstruction
 ```
 
----
+______________________________________________________________________
 
-# 53. Completion State
+## 53. Completion State
 
 ```yaml
 completion_state:
@@ -2728,9 +2714,9 @@ completion_state:
     MODEL / CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
-# 54. RSCF Contract Summary
+## 54. RSCF Contract Summary
 
 ```text
 L01 RSCF
@@ -2784,9 +2770,9 @@ The governing principle is:
 
 > **An observation becomes safely reusable knowledge only to the extent that its identity, provenance, dependencies, applicability, uncertainty, competing explanations, falsifiers, and confidence boundary remain visible and valid.**
 
----
+______________________________________________________________________
 
-# 55. Final Hard Boundaries
+## 55. Final Hard Boundaries
 
 ```text
 PLACEHOLDER
@@ -2906,30 +2892,33 @@ IMPLEMENTED
 VALIDATED
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]]
 
 ```
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: l01_sensing_observation_primitives_cognitive_matrix_rscf
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_RSCF.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_MOC|L01_SENSING_OBSERVATION_MOC]]
-

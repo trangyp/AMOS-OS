@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: index root misc
 type: reference
 source: 07_SKILLS/amos-knowledge-research-master/references
 tags:
-- reference
-- amos-knowledge-research-master
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-knowledge-research-master
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -20,73 +23,72 @@ rscf:
 > Source: `_00_Cosmo brain/indexes/INDEX_root-misc-04.md`
 > Epistemic class: SOURCE_DERIVED
 
----
-title: INDEX_root-misc-04.md
-type: auto-index
-generated: 2026-08-23
-tags: [indexes]
----
+______________________________________________________________________
 
-# Root misc index batch 4 (non-curated)
+## title: INDEX_root-misc-04.md type: auto-index generated: 2026-08-23 tags: [indexes]
 
-- AMOS-Consulting__AMOS-Invest__tradingview_clone__src__app__risk-management__page
-- MAIN__SYSTEMS__CORE__AMOS_CORE_SYSTEMS__ARCHITECTURE__40_PRODUCTION_REPO__UNIFIED_EQUATION_FRAMEWORK_COMPLETE
-- AMOS-Consulting__AMOS-Invest__amos__amos_geo_storage_real
+## Root misc index batch 4 (non-curated)
+
+- AMOS-Consulting\_\_AMOS-Invest\_\_tradingview_clone\_\_src\_\_app\_\_risk-management\_\_page
+- MAIN\_\_SYSTEMS\_\_CORE\_\_AMOS_CORE_SYSTEMS\_\_ARCHITECTURE\_\_40_PRODUCTION_REPO\_\_UNIFIED_EQUATION_FRAMEWORK_COMPLETE
+- AMOS-Consulting\_\_AMOS-Invest\_\_amos\_\_amos_geo_storage_real
 - AMOS Agent Orchestration Workflow
-- openclaw-main__src__memory-systems__index
-- AMOS-Consulting__AMOS-Invest__AMOS-Claws__openclaw-main__scripts__pr-lib__push
-- openclaw-main__src__universal-memory-synthesis__universal-memory-synthesis
-- AMOS-Consulting__AMOS-Invest__docs__AMOS_ULTIMATE_DEEP_SCAN_COMPLETE
-- openclaw-main__extensions__codex__src__app-server__protocol-generated__typescript__v2__HookScope
-- AMOS-Consulting__AMOS-Invest__docs__reports__AMOS_DEEP_COMPREHENSIVE_AUDIT_2025
-- AMOS-Consulting__AMOS-Invest__amos-stack__dyad__dyad__.claude__hooks__tests__python_good_commands
-- MAIN__SYSTEMS__PROD__AMOS_PRODUCTION__config__config__amos_feature_config
-- openclaw-main__extensions__codex__src__app-server__protocol-generated__typescript__v2__ThreadSortKey
-- openclaw-main__src__emergence__contained-emergence
+- openclaw-main\_\_src\_\_memory-systems\_\_index
+- AMOS-Consulting\_\_AMOS-Invest\_\_AMOS-Claws\_\_openclaw-main\_\_scripts\_\_pr-lib\_\_push
+- openclaw-main\_\_src\_\_universal-memory-synthesis\_\_universal-memory-synthesis
+- AMOS-Consulting\_\_AMOS-Invest\_\_docs\_\_AMOS_ULTIMATE_DEEP_SCAN_COMPLETE
+- openclaw-main\_\_extensions\_\_codex\_\_src\_\_app-server\_\_protocol-generated\_\_typescript\_\_v2\_\_HookScope
+- AMOS-Consulting\_\_AMOS-Invest\_\_docs\_\_reports\_\_AMOS_DEEP_COMPREHENSIVE_AUDIT_2025
+- AMOS-Consulting\_\_AMOS-Invest\_\_amos-stack\_\_dyad\_\_dyad\_\_.claude\_\_hooks\_\_tests\_\_python_good_commands
+- MAIN\_\_SYSTEMS\_\_PROD\_\_AMOS_PRODUCTION\_\_config\_\_config\_\_amos_feature_config
+- openclaw-main\_\_extensions\_\_codex\_\_src\_\_app-server\_\_protocol-generated\_\_typescript\_\_v2\_\_ThreadSortKey
+- openclaw-main\_\_src\_\_emergence\_\_contained-emergence
 - SSRF--Targeting auxiliary systems
-- AMOS-Consulting__AMOS-Invest___learn__Read
-- MAIN__SYSTEMS__PROD__AMOS_PRODUCTION__docs__AMOS_L_COMPLETE_SPECIFICATION
-- AMOS-Consulting__AMOS-Invest__AMOS-SYSTEM__src__amos_system__kernels__integrity__audit_log
+- AMOS-Consulting\_\_AMOS-Invest\_\_\_learn\_\_Read
+- MAIN\_\_SYSTEMS\_\_PROD\_\_AMOS_PRODUCTION\_\_docs\_\_AMOS_L_COMPLETE_SPECIFICATION
+- AMOS-Consulting\_\_AMOS-Invest\_\_AMOS-SYSTEM\_\_src\_\_amos_system\_\_kernels\_\_integrity\_\_audit_log
 - Universal Reasoning Framework™ (URF™)
-- AMOS-Consulting__AMOS-Invest__rtk-ai-rtk__.claude__commands__tech__clean-worktree
-- AMOS-Consulting__AMOS-Invest__amos__amos_carbon_credits
+- AMOS-Consulting\_\_AMOS-Invest\_\_rtk-ai-rtk\_\_.claude\_\_commands\_\_tech\_\_clean-worktree
+- AMOS-Consulting\_\_AMOS-Invest\_\_amos\_\_amos_carbon_credits
 - Untitled b48c-7a41 (Export-964e18f0-f757-4d5c-ae82-64742b44639a 2)
 - AMOS Optimization Kernel v0 Math Foundations
-- MAIN__SYSTEMS__CORE__AMOS_CORE_SYSTEMS__ARCHITECTURE__40_PRODUCTION_REPO__amos__master_operating_formula
-- MAIN__SYSTEMS__CORE__AMOS_CORE_SYSTEMS__CONSCIOUSNESS__17_OS__perfect_health_generator
-- openclaw-main__extensions__qqbot__src__engine__utils__text-parsing
-- AMOS-Consulting__AMOS-Invest__repo_doctor__constitutional__emergency_constitution
-- AMOS-Consulting__AMOS-Invest__quantum_omega_intelligence__master_equations
-- MAIN__SYSTEMS__DEV__AMOS_DEVELOPMENT__MISPLACED_RUNTIME_COMPONENTS__01_KERNEL__capability_graph
-- MAIN__SYSTEMS__CORE__AMOS_CORE_SYSTEMS__ARCHITECTURE__40_PRODUCTION_REPO__app__tools__filesystem
-- AMOS-Consulting__AMOS-Invest__amos-stack__comfyui__ComfyUI__.github__workflows__release-webhook
-- MAIN__SYSTEMS__CORE__AMOS_CORE_SYSTEMS__BIOLOGICAL__03_IMMUNE__acceptance_test_autonomous_build_repair
-- AMOS-Consulting__AMOS-Invest___learn__🚗 CHIẾN LƯỢC PHÁT TRIỂN UNITAXI – UNILOGISTIC
+- MAIN\_\_SYSTEMS\_\_CORE\_\_AMOS_CORE_SYSTEMS\_\_ARCHITECTURE\_\_40_PRODUCTION_REPO\_\_amos\_\_master_operating_formula
+- MAIN\_\_SYSTEMS\_\_CORE\_\_AMOS_CORE_SYSTEMS\_\_CONSCIOUSNESS\_\_17_OS\_\_perfect_health_generator
+- openclaw-main\_\_extensions\_\_qqbot\_\_src\_\_engine\_\_utils\_\_text-parsing
+- AMOS-Consulting\_\_AMOS-Invest\_\_repo_doctor\_\_constitutional\_\_emergency_constitution
+- AMOS-Consulting\_\_AMOS-Invest\_\_quantum_omega_intelligence\_\_master_equations
+- MAIN\_\_SYSTEMS\_\_DEV\_\_AMOS_DEVELOPMENT\_\_MISPLACED_RUNTIME_COMPONENTS\_\_01_KERNEL\_\_capability_graph
+- MAIN\_\_SYSTEMS\_\_CORE\_\_AMOS_CORE_SYSTEMS\_\_ARCHITECTURE\_\_40_PRODUCTION_REPO\_\_app\_\_tools\_\_filesystem
+- AMOS-Consulting\_\_AMOS-Invest\_\_amos-stack\_\_comfyui\_\_ComfyUI\_\_.github\_\_workflows\_\_release-webhook
+- MAIN\_\_SYSTEMS\_\_CORE\_\_AMOS_CORE_SYSTEMS\_\_BIOLOGICAL\_\_03_IMMUNE\_\_acceptance_test_autonomous_build_repair
+- AMOS-Consulting\_\_AMOS-Invest\_\_\_learn\_\_🚗 CHIẾN LƯỢC PHÁT TRIỂN UNITAXI – UNILOGISTIC
 - AMOS Mind Os v0 Core7
-- openclaw-main__src__gateway__openresponses-parity.test
-- openclaw-main__src__digital-biological-integration__advanced-learning-evolution__index
-- AMOS-Consulting__AMOS-Invest__web__dashboards__amos_economic_dashboard
-- AMOS-Consulting__AMOS-Invest__reports__.amos_6repo_index
-- AMOS-Consulting__AMOS-Invest__.amos_proposals__BRAIN_DECISION_CYCLE332_DATA_VALIDATION
-- AMOS-Consulting__AMOS-Invest__amos_financial_platform__frontend__app__components__tradingview__NewsFeed
-- MAIN__SYSTEMS__CORE__AMOS_CORE_SYSTEMS__FOUNDATION__00_ROOT__amos_advanced_integration
-- AMOS-Consulting__AMOS-Invest__.amos_proposals__iter62_post_api
-- AMOS-Consulting__AMOS-Invest__bolt.diy__icons__nativescript
-- AMOS-Consulting__AMOS-Invest__amos__amos_message_broker_real
-- openclaw-main__src__quantum-divine-integration__index
-- MAIN__BRAIN__test_mathematical_framework_integration
-- MAIN__SYSTEMS__PROD__AMOS_PRODUCTION__src__autonomous_evolution_integration_slice
-- AMOS-Consulting__AMOS-SYSTEM-main___00_AMOS_CANON:___LEGACY_BRAIN2__Core__Canonical_Laws__AMOS_LawStack_Knowledge_Archive
-- AMOS-Consulting__AMOS-Invest__AMOS-Claws__openclaw-main__src__config__schema.base.generated
-- AMOS-Consulting__AMOS-Invest__AMOS-Claws
+- openclaw-main\_\_src\_\_gateway\_\_openresponses-parity.test
+- openclaw-main\_\_src\_\_digital-biological-integration\_\_advanced-learning-evolution\_\_index
+- AMOS-Consulting\_\_AMOS-Invest\_\_web\_\_dashboards\_\_amos_economic_dashboard
+- AMOS-Consulting\_\_AMOS-Invest\_\_reports\_\_.amos_6repo_index
+- AMOS-Consulting\_\_AMOS-Invest\_\_.amos_proposals\_\_BRAIN_DECISION_CYCLE332_DATA_VALIDATION
+- AMOS-Consulting\_\_AMOS-Invest\_\_amos_financial_platform\_\_frontend\_\_app\_\_components\_\_tradingview\_\_NewsFeed
+- MAIN\_\_SYSTEMS\_\_CORE\_\_AMOS_CORE_SYSTEMS\_\_FOUNDATION\_\_00_ROOT\_\_amos_advanced_integration
+- AMOS-Consulting\_\_AMOS-Invest\_\_.amos_proposals\_\_iter62_post_api
+- AMOS-Consulting\_\_AMOS-Invest\_\_bolt.diy\_\_icons\_\_nativescript
+- AMOS-Consulting\_\_AMOS-Invest\_\_amos\_\_amos_message_broker_real
+- openclaw-main\_\_src\_\_quantum-divine-integration\_\_index
+- MAIN\_\_BRAIN\_\_test_mathematical_framework_integration
+- MAIN\_\_SYSTEMS\_\_PROD\_\_AMOS_PRODUCTION\_\_src\_\_autonomous_evolution_integration_slice
+- AMOS-Consulting\_\_AMOS-SYSTEM-main\_\_\_00_AMOS_CANON:\_\_\_LEGACY_BRAIN2\_\_Core\_\_Canonical_Laws\_\_AMOS_LawStack_Knowledge_Archive
+- AMOS-Consulting\_\_AMOS-Invest\_\_AMOS-Claws\_\_openclaw-main\_\_src\_\_config\_\_schema.base.generated
+- AMOS-Consulting\_\_AMOS-Invest\_\_AMOS-Claws
 
----
+______________________________________________________________________
+
 **MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -94,12 +96,14 @@ tags: [indexes]
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-knowledge-research-master-index-root-misc
 node_type: reference
 path: 07_SKILLS/amos-knowledge-research-master/references/index_root_misc.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

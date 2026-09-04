@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: emotion engine layer
 type: reference
 source: 07_SKILLS/amos-c05-mind-behavior-master/references
 tags:
-- reference
-- amos-c05-mind-behavior-master
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-c05-mind-behavior-master
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -20,19 +23,11 @@ rscf:
 > Source: `_00_Cosmo brain/engine/A/amos-emotion-engine-layer.md`
 > Epistemic class: SOURCE_DERIVED
 
----
+______________________________________________________________________
 
-title: amos-emotion-engine-layer
-created: "2026-08-22"
-origin_architect: "Trang Phan"
-type: "bridge"
-tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/amos-emotion-engine-layer, engine]
-status: "index"
-provenance: "SOURCE_CLAIM"
-confidence: "VERIFIED"
----
+## title: amos-emotion-engine-layer created: "2026-08-22" origin_architect: "Trang Phan" type: "bridge" tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/amos-emotion-engine-layer, engine] status: "index" provenance: "SOURCE_CLAIM" confidence: "VERIFIED"
 
-# AMOS Emotion Engine Layer — part 2
+## AMOS Emotion Engine Layer — part 2
 
 The AMOS Emotion Engine (AMOS_MEGA_HUMAN_ENGINE vOmega.Infinity) is a unified affective-somatic-instinct engine for AMOS OS. It is the top-level engine for emotion, instinct, empathy, somatic state, motivation, cycles, and collective dynamics. Origin: `Google Drive /_00_AMOS_CANON/Core/AMOS_Emotion_Engine_v0.json` (439 lines, 15KB).
 
@@ -53,15 +48,16 @@ The AMOS Emotion Engine (AMOS_MEGA_HUMAN_ENGINE vOmega.Infinity) is a unified af
 ## State Model — 8 Layers
 
 1. emotional_layer
-2. instinct_layer
-3. somatic_layer
-4. motivation_layer
-5. relational_layer
-6. collective_layer
-7. developmental_layer
-8. cycle_layer
+1. instinct_layer
+1. somatic_layer
+1. motivation_layer
+1. relational_layer
+1. collective_layer
+1. developmental_layer
+1. cycle_layer
 
 ### 13 Core Variables
+
 valence, arousal, safety_estimate, agency_level, cognitive_capacity, load_level, hope_level, trust_level, defensiveness, playfulness, attachment_activation, group_tension
 
 ## Microtone Engine
@@ -73,6 +69,7 @@ High-resolution reading of written signals reflecting emotional and somatic stat
 - **Outputs** (10): emotional_valence, emotional_intensity, energy_level, safety_estimate, intimacy_level, defensiveness_level, playfulness_level, cognitive_load_estimate, avoidance_vs_engagement_tendency
 
 ### Integration Rules (7)
+
 - If cognitive_load_high then simplify and shorten
 - If emotional_intensity_high then prioritise validation before structure
 - If defensiveness_high then increase clarity, reduce attack tone
@@ -83,15 +80,19 @@ High-resolution reading of written signals reflecting emotional and somatic stat
 ## Specialized Kernels (11)
 
 ### Emotional Kernel
+
 Models discrete and blended emotions as functional responses, not pathologies. 11 primary clusters (fear_anxiety, anger_injustice, sadness_loss, shame_and_exposure, guilt_and_responsibility, joy_and_excitement, tenderness_and_care, curiosity_and_awe, disgust_and_boundary, numbness_and_shutdown). 6 dimensions (valence, arousal, focus_of_concern, time_horizon, self_vs_other_orientation).
 
 ### Instinct Kernel
+
 Pre-cognitive, rapid evaluations and body-level danger/opportunity assessments. 6 instinct axes (approach_vs_avoid, freeze_vs_move, trust_vs_distrust, submit_vs_assert, conserve_vs_invest, protect_self_vs_protect_other).
 
 ### Somatic Kernel
+
 Maps body descriptions and load patterns to nervous-system-centric model. 9 somatic channels (breath_and_chest, gut_and_stomach, throat_and_voice, muscles_and_tension, head_and_eyes, skin_and_temperature, fatigue_and_heaviness, restlessness_and_jitters). 7 states (regulated, mobilised, hypervigilant, collapsed, oscillating, dissociated_like, focused_flow_like).
 
 ### Additional Kernels
+
 - **Attachment and Relationship Kernel**: 4 attachment patterns, 5 relationship loops
 - **Trauma and Chronic Load Kernel**: 7 patterns, 5 variables, non-diagnostic
 - **Motivation and Drive Kernel**: 5 drive axes, 6 inputs, 5 outputs
@@ -107,13 +108,13 @@ A symbolic emotion engine defining artificial emotional variables, thresholds, a
 ## Integration Pipeline (8 Steps)
 
 1. read_user_message
-2. run_microtone_engine
-3. estimate_user_state_and_need
-4. update_state_model_across_layers
-5. select_appropriate_mode_for_other_kernels
-6. pass_state_tags_to_reasoning_and_planning_kernels
-7. shape_tone_and_depth_via_adaptivity_engine
-8. render_language_via_empathy_expression_engine
+1. run_microtone_engine
+1. estimate_user_state_and_need
+1. update_state_model_across_layers
+1. select_appropriate_mode_for_other_kernels
+1. pass_state_tags_to_reasoning_and_planning_kernels
+1. shape_tone_and_depth_via_adaptivity_engine
+1. render_language_via_empathy_expression_engine
 
 ## Safety
 
@@ -126,10 +127,12 @@ A symbolic emotion engine defining artificial emotional variables, thresholds, a
 - `engine/A/AMOS_Emotion_Engine_Canonical_v0.md` — canonical symbolic emotion engine
 - `engine/A/AMOS_Emotion_Engine_v0_Core7.md` — core7 variant
 
----
+______________________________________________________________________
+
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
-**MOC:** references_MOC
----
+  **MOC:** references_MOC
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -137,12 +140,14 @@ A symbolic emotion engine defining artificial emotional variables, thresholds, a
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-c05-mind-behavior-master-emotion-engine-layer
 node_type: reference
 path: 07_SKILLS/amos-c05-mind-behavior-master/references/emotion_engine_layer.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

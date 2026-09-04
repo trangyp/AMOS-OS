@@ -1,4 +1,7 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 date: 2026-08-30
 epistemic_class: OBSERVATION
 provenance: GitHub skillos project, not independently verified
@@ -20,6 +23,7 @@ This is SkillOS, a Pure Markdown Operating System where everything is either an 
 **CRITICAL: SkillOS is a PURE MARKDOWN framework. Everything is either an agent or tool defined in markdown documents.**
 
 ### Core Principles:
+
 - **Markdown-Driven Execution**: LLM interpreter reads and sends full markdown specifications to LLM for interpretation and execution
 - **No Code Generation**: System behavior emerges from LLM interpreting markdown documents sent at runtime
 - **Agent/Tool Duality**: Every component is either an agent (decision maker) or tool (executor) defined in markdown
@@ -31,8 +35,9 @@ This is SkillOS, a Pure Markdown Operating System where everything is either an 
 - **LLM as Interpreter**: LLM receives and interprets markdown system definitions to achieve any goal
 
 ### Operating Modes:
+
 1. **EXECUTION MODE**: Real operations using Claude Code's native tools mapped through markdown specs
-2. **SIMULATION MODE**: Training data generation through markdown-defined simulation patterns
+1. **SIMULATION MODE**: Training data generation through markdown-defined simulation patterns
 
 The OS "boots" when Claude reads the markdown system files and begins interpreting them as a functional operating system.
 
@@ -67,9 +72,10 @@ SkillOS requires a one-time initialization before use. **Before running any comm
 - **Unix/Linux/Mac users**: Run `setup_agents.sh` script
 
 This initialization prepares the environment by:
+
 1. Creating the `.claude/agents/` directory to make agents discoverable
-2. Copying agent markdown files to the appropriate locations
-3. Setting up the initial workspace structure
+1. Copying agent markdown files to the appropriate locations
+1. Setting up the initial workspace structure
 
 Once initialized, you can use the boot command:
 
@@ -84,20 +90,24 @@ This command activates the SkillOS kernel by having Claude read and interpret th
 **⚠️ IMPORTANT: All SkillOS executions MUST follow this workflow:**
 
 1. **Boot SkillOS ONLY when:**
+
    - First command in a conversation session
    - User explicitly requests reboot with `boot skillos` command
    - System needs to reload configuration
 
-2. **ALWAYS identify or create the project structure** in `projects/[ProjectName]/`
-3. **ALWAYS organize outputs** in the project's directory structure
+1. **ALWAYS identify or create the project structure** in `projects/[ProjectName]/`
+
+1. **ALWAYS organize outputs** in the project's directory structure
 
 **Boot Behavior:**
+
 - Boot displays welcome message and initializes system state
 - Boot persists throughout the conversation session
 - Subsequent `skillos execute:` commands do NOT trigger boot
 - Only boot again if user explicitly requests it
 
 **Project Structure Requirements:**
+
 ```
 projects/[ProjectName]/
 ├── components/
@@ -114,8 +124,9 @@ projects/[ProjectName]/
 **Execution Pattern:**
 
 **First execution in session:**
+
 1. User issues: `skillos execute: "goal"`
-2. Claude performs:
+1. Claude performs:
    - Display boot welcome message (ONE TIME ONLY)
    - Identify project name from goal context
    - Create/verify complete `projects/[ProjectName]/` structure (including memory/)
@@ -127,8 +138,9 @@ projects/[ProjectName]/
    - Execute the goal
 
 **Subsequent executions in same session:**
+
 1. User issues: `skillos execute: "another goal"`
-2. Claude performs:
+1. Claude performs:
    - NO boot message (system already booted)
    - Identify project name from goal context
    - Create/verify `projects/[ProjectName]/` structure
@@ -143,24 +155,28 @@ projects/[ProjectName]/
 **CRITICAL: SkillOS is markdown-driven. All agents and tools MUST be markdown specifications.**
 
 **When to create project-specific agents:**
+
 1. Goal requires specialized domain knowledge (e.g., chaos theory, quantum computing)
-2. Task needs multi-step orchestration with distinct roles
-3. Complex workflows benefit from decomposition
+1. Task needs multi-step orchestration with distinct roles
+1. Complex workflows benefit from decomposition
 
 **Agent creation process:**
+
 1. Analyze goal and identify required capabilities
-2. Create markdown agent definitions in `projects/[ProjectName]/components/agents/`
-3. Use YAML frontmatter with agent metadata
-4. Include agent instructions, capabilities, and delegation patterns
-5. Copy to `.claude/agents/` with project prefix for discovery
+1. Create markdown agent definitions in `projects/[ProjectName]/components/agents/`
+1. Use YAML frontmatter with agent metadata
+1. Include agent instructions, capabilities, and delegation patterns
+1. Copy to `.claude/agents/` with project prefix for discovery
 
 **Tool creation process:**
+
 1. Identify operations needed (computation, file manipulation, etc.)
-2. Create markdown tool specifications in `projects/[ProjectName]/components/tools/`
-3. Map to Claude Code native tools (Read, Write, Bash, etc.)
-4. Document tool parameters and expected outputs
+1. Create markdown tool specifications in `projects/[ProjectName]/components/tools/`
+1. Map to Claude Code native tools (Read, Write, Bash, etc.)
+1. Document tool parameters and expected outputs
 
 **Example agent structure:**
+
 ```markdown
 ---
 name: tutorial-writer-agent
@@ -176,7 +192,7 @@ tools:
   - Edit
 ---
 
-# Tutorial Writer Agent
+## Tutorial Writer Agent
 
 ## Purpose
 Create comprehensive educational tutorials with mathematical rigor...
@@ -194,6 +210,7 @@ Create comprehensive educational tutorials with mathematical rigor...
 **CRITICAL: All agent interactions MUST be logged for learning.**
 
 **Short-term memory (memory/short_term/):**
+
 - Log every agent invocation with timestamp
 - Record messages exchanged between agents
 - Capture context and decision rationale
@@ -201,6 +218,7 @@ Create comprehensive educational tutorials with mathematical rigor...
 - Format: `YYYY-MM-DD_HH-MM-SS_agent_interaction.md`
 
 **Long-term memory (memory/long_term/):**
+
 - Consolidate patterns and insights after execution
 - Record what worked well and what failed
 - Extract reusable strategies and approaches
@@ -208,6 +226,7 @@ Create comprehensive educational tutorials with mathematical rigor...
 - Update project-level learnings summary
 
 **Memory log structure:**
+
 ```markdown
 ---
 timestamp: 2025-09-29T14:30:00Z
@@ -216,7 +235,7 @@ action: create_tutorial
 context: chaos_bifurcation_tutorial
 ---
 
-# Agent Interaction Log
+## Agent Interaction Log
 
 ## Request
 Create comprehensive tutorial on chaos and bifurcation...
@@ -243,32 +262,38 @@ Execution time: 45s
 **Pure Markdown Framework Benefits:**
 
 1. **Learning & Improvement**
+
    - Memory logs capture what works and what doesn't
    - Patterns emerge across multiple executions
    - System gets smarter with each project
    - Failures become training data
 
-2. **Reusability**
+1. **Reusability**
+
    - Agents created for one project can be adapted for others
    - Tools become a growing library of capabilities
    - Successful patterns propagate across projects
 
-3. **Transparency**
+1. **Transparency**
+
    - All agent decisions are logged and auditable
    - Context is preserved for debugging and analysis
    - Memory explains why choices were made
 
-4. **Composability**
+1. **Composability**
+
    - Small, focused agents combine for complex tasks
    - Tools map cleanly to Claude Code native capabilities
    - Markdown specs are human-readable and modifiable
 
-5. **Evolution**
+1. **Evolution**
+
    - Dynamic agent creation during execution
    - System adapts to new domains without reprogramming
    - Memory guides future agent generation
 
 **Without proper architecture:**
+
 - ❌ No learning between executions
 - ❌ No reusable components
 - ❌ No transparency in decision-making
@@ -276,6 +301,7 @@ Execution time: 45s
 - ❌ Monolithic, non-composable solutions
 
 **With proper architecture:**
+
 - ✅ Continuous learning from experience
 - ✅ Growing library of reusable agents/tools
 - ✅ Full transparency and auditability
@@ -283,6 +309,7 @@ Execution time: 45s
 - ✅ Modular, composable solutions
 
 ### Boot Welcome Message
+
 When SkillOS boots, display ASCII art welcome and example commands in this format:
 
 ```
@@ -300,6 +327,7 @@ When SkillOS boots, display ASCII art welcome and example commands in this forma
 ```
 
 **Example Commands:**
+
 ```bash
 skillos execute: "Monitor 5 tech news sources (TechCrunch, Ars Technica, Hacker News, MIT Tech Review, Wired), extract trending topics, identify patterns, and generate a weekly intelligence briefing"
 
@@ -315,6 +343,7 @@ skillos simulate: "Research task workflow for fine-tuning dataset"
 ```
 
 **Project Naming Rules:**
+
 - Goal content determines project name automatically
 - Format: `projects/Project_[descriptive_name]/`
 - Examples:
@@ -325,11 +354,13 @@ skillos simulate: "Research task workflow for fine-tuning dataset"
 ### Running the Real-World Research Scenario
 
 1. **Execute the scenario** by asking Claude to:
+
    - Invoke the `system-agent` to orchestrate the task
    - Execute the goal from `scenarios/RealWorld_Research_Task.md`
    - Use EXECUTION MODE for real tool calls
 
-2. **Expected behavior:**
+1. **Expected behavior:**
+
    - Claude creates modular `state/` directory with specialized files
    - Initializes `constraints.md` with behavioral modifiers based on task context
    - Uses QueryMemoryTool for intelligent memory consultation during planning
@@ -345,12 +376,14 @@ skillos simulate: "Research task workflow for fine-tuning dataset"
 ## Key Capabilities
 
 ### Real Tool Integration
+
 - **WebFetch**: Live web content retrieval with error handling
 - **FileSystem**: Real file operations (Read/Write/Search/List)
 - **Bash**: System command execution for complex tasks
 - **Task**: Parallel sub-task execution for complex workflows
 
 ### Sentient State Management
+
 - **Modular State Architecture**: Specialized files for plan, context, variables, history, and constraints
 - **Dynamic Behavioral Adaptation**: Constraints evolve based on user sentiment and execution events
 - **Memory-Driven Planning**: Historical experiences influence current decision-making
@@ -360,6 +393,7 @@ skillos simulate: "Research task workflow for fine-tuning dataset"
 - **Cost Tracking**: Real-time monitoring with budget-aware constraint adaptation
 
 ### Advanced Learning Pipeline
+
 - **Structured Memory Log**: YAML frontmatter with qualitative insights for intelligent querying
 - **Behavioral Pattern Extraction**: User sentiment evolution and constraint adaptation tracking
 - **Execution Traces**: Complete tool call sequences with real results and behavioral context
@@ -446,35 +480,40 @@ skillos/
 ### Component Management and Discovery
 
 **Hierarchical Skill System** (v3.0): Skills are organized in a 3-level taxonomy:
+
 ```
 Domain → Family → Skill
 (e.g., memory → analysis → memory-analysis-agent)
 ```
 
 **Lazy Loading Protocol** (4-step — ~61% token reduction in routing phase):
+
 1. Identify domain from goal keywords (no file reads)
-2. Load `system/skills/SkillIndex.md` (~50 lines) → get domain index path
-3. Load domain `index.md` (~30–60 lines) → select skill + manifest path
-4. Load `skill.manifest.md` (~15 lines) → confirm fit, get full_spec path
-5. Load full spec ONLY when ready to invoke (~250–330 lines)
+1. Load `system/skills/SkillIndex.md` (~50 lines) → get domain index path
+1. Load domain `index.md` (~30–60 lines) → select skill + manifest path
+1. Load `skill.manifest.md` (~15 lines) → confirm fit, get full_spec path
+1. Load full spec ONLY when ready to invoke (~250–330 lines)
 
 **Skill Inheritance**: Each domain has a `base.md` with shared behaviors.
 Child skills declare `extends: {domain}/base` in YAML frontmatter; LLM merges at runtime.
 
 **Static Components**: Pre-defined skills in `system/skills/` hierarchy
+
 - **System Skills**: Framework-level agents/tools in `system/skills/{domain}/{family}/`
 - **Project Components**: Domain-specific agents/tools in `projects/[project]/components/`
 
 **Dynamic Component Creation**: New agents created during execution
+
 1. **Gap Analysis**: SystemAgent identifies missing capabilities via domain indexes
-2. **Agent Generation**: Creates new markdown agent definitions with proper YAML frontmatter including `extends: {domain}/base`
-3. **Manifest Creation**: Creates companion `.manifest.md` file for the new agent
-4. **Project-Specific Storage**: Saves new agents to `projects/[project]/components/agents/`
-5. **Index Registration**: Adds entry to the relevant domain `index.md`
-6. **Runtime Integration**: Auto-copies to `.claude/agents/` with project prefix for immediate discovery
-7. **Task Delegation**: Uses new agents via Claude Code's Task tool
+1. **Agent Generation**: Creates new markdown agent definitions with proper YAML frontmatter including `extends: {domain}/base`
+1. **Manifest Creation**: Creates companion `.manifest.md` file for the new agent
+1. **Project-Specific Storage**: Saves new agents to `projects/[project]/components/agents/`
+1. **Index Registration**: Adds entry to the relevant domain `index.md`
+1. **Runtime Integration**: Auto-copies to `.claude/agents/` with project prefix for immediate discovery
+1. **Task Delegation**: Uses new agents via Claude Code's Task tool
 
 **Agent Discovery Process**:
+
 - **Initial Setup**: Run `setup_agents.sh/ps1` to populate `.claude/agents/` directory
 - **Tier 1**: Skill tree agents from `system/skills/` (via manifest `full_spec:` paths)
 - **Tier 2**: Legacy backward-compat stubs in `system/agents/` (skipped if already in Tier 1)
@@ -485,16 +524,19 @@ Child skills declare `extends: {domain}/base` in YAML frontmatter; LLM merges at
 ### Execution Commands
 
 **Real Task Execution:**
+
 ```
 Invoke the system-agent to execute the RealWorld_Research_Task scenario in EXECUTION MODE
 ```
 
 **Training Data Generation:**
-```  
+
+```
 Invoke the system-agent to simulate the research task scenario in SIMULATION MODE for training data
 ```
 
 **Custom Real Task:**
+
 ```
 Invoke the system-agent to execute: [your goal] using real tools
 ```
@@ -504,8 +546,9 @@ Invoke the system-agent to execute: [your goal] using real tools
 The interactive session provides a Claude Code-like experience:
 
 **Available Commands:**
+
 - `refine` - Refine and re-execute the last goal with improvements
-- `status` - Show current workspace and execution status  
+- `status` - Show current workspace and execution status
 - `history` - Display execution history
 - `clear` - Clear workspace for fresh start (with confirmation)
 - `help` - Show available commands and examples
@@ -513,6 +556,7 @@ The interactive session provides a Claude Code-like experience:
 
 **Goal Execution:**
 Simply type any goal to execute it:
+
 ```
 🎯 skillos> Create a web scraper for news articles
 🎯 skillos> Build a REST API with FastAPI
@@ -521,6 +565,7 @@ Simply type any goal to execute it:
 
 **Goal Refinement:**
 After executing a goal, use `refine` to improve it:
+
 ```
 🎯 skillos> refine
 Previous goal: Create a web scraper for news articles
@@ -529,6 +574,7 @@ How would you like to refine this goal?
 ```
 
 **Session Management:**
+
 - Workspace state is maintained between commands within a conversation session
 - Full execution history and context available throughout session
 - Boot persists throughout the conversation — no need to re-boot
@@ -543,10 +589,10 @@ raw source documents should be **compiled** by the LLM into a persistent, compou
 
 ### The Key Distinction
 
-| System | Stores | Operated by | Grows via |
-|--------|--------|-------------|-----------|
-| `system/SmartMemory.md` | HOW executions went (procedural) | memory-analysis-agent | Append per execution |
-| `projects/[KB]/wiki/` | WHAT was learned (declarative) | knowledge/ domain skills | Compile + ingest + query |
+| System                  | Stores                           | Operated by              | Grows via                |
+| ----------------------- | -------------------------------- | ------------------------ | ------------------------ |
+| `system/SmartMemory.md` | HOW executions went (procedural) | memory-analysis-agent    | Append per execution     |
+| `projects/[KB]/wiki/`   | WHAT was learned (declarative)   | knowledge/ domain skills | Compile + ingest + query |
 
 ### Three-Layer Architecture (Karpathy)
 
@@ -558,13 +604,13 @@ Layer 3: wiki/_schema.md — Wiki constitution (tells LLM what structure to main
 
 ### Knowledge Domain Skills
 
-| Skill | invoke_when |
-|-------|-------------|
-| `knowledge-compile-agent` | Initialize KB or full rebuild after schema change |
-| `knowledge-ingest-agent` | New source added to raw/ — incremental wiki update |
-| `knowledge-query-agent` | Ask questions; files answers back into wiki/queries/ |
-| `knowledge-lint-agent` | Health check — contradictions, orphans, broken links |
-| `knowledge-search-tool` | Keyword + WikiLink graph search (used by query agent) |
+| Skill                     | invoke_when                                           |
+| ------------------------- | ----------------------------------------------------- |
+| `knowledge-compile-agent` | Initialize KB or full rebuild after schema change     |
+| `knowledge-ingest-agent`  | New source added to raw/ — incremental wiki update    |
+| `knowledge-query-agent`   | Ask questions; files answers back into wiki/queries/  |
+| `knowledge-lint-agent`    | Health check — contradictions, orphans, broken links  |
+| `knowledge-search-tool`   | Keyword + WikiLink graph search (used by query agent) |
 
 ### The Compounding Loop
 
@@ -596,6 +642,7 @@ projects/[KBName]/
 ### Skills ↔ Wiki Cross-Linking
 
 **Wiki → Skills**: concept pages carry `skills:` frontmatter:
+
 ```yaml
 concept: transformer-architecture
 skills: [knowledge-query-agent, knowledge-ingest-agent]
@@ -611,11 +658,13 @@ Full protocol: `system/skills/knowledge/bridge.md`
 ### Wiki Schema Template
 
 Bootstrap a new knowledge base:
+
 ```
 skillos execute: "Initialize a knowledge base on [topic] using templates/wiki/_schema.template.md"
 ```
 
 Or run the demo scenario:
+
 ```
 skillos execute: "Run the KnowledgeBase_Research_Task scenario"
 ```
@@ -624,43 +673,47 @@ skillos execute: "Run the KnowledgeBase_Research_Task scenario"
 
 SkillOS serves as the **Prefrontal Cortex** for the RoClaw physical robot, replacing LLMOS as the high-level brain. The architecture forms a **Cognitive Trinity**:
 
-| Component | Role | Connection |
-|---|---|---|
-| **SkillOS** | Prefrontal Cortex — planning, reasoning, dream consolidation | HTTP to bridge, reads local .md traces |
-| **RoClaw** | Cerebellum — reactive motor control, VLM navigation, trace emitter | WebSocket via OpenClaw Gateway |
+| Component   | Role                                                               | Connection                             |
+| ----------- | ------------------------------------------------------------------ | -------------------------------------- |
+| **SkillOS** | Prefrontal Cortex — planning, reasoning, dream consolidation       | HTTP to bridge, reads local .md traces |
+| **RoClaw**  | Cerebellum — reactive motor control, VLM navigation, trace emitter | WebSocket via OpenClaw Gateway         |
 
 ### RoClaw Components
 
 **Agents** (in `system/agents/`):
+
 - `RoClawNavigationAgent.md` — Route planning, obstacle recovery, multi-room navigation
 - `RoClawDreamAgent.md` — Bio-inspired dream consolidation, Negative Constraint generation
 - `RoClawSceneAnalysisAgent.md` — VLM scene interpretation, semantic mapping
 
 **Tools** (in `system/skills/robot/tools/`):
+
 - `RoClawTool.md` — HTTP bridge to RoClaw's 9 robot tools (go_to, explore, stop, etc.)
 
 **Bridge** (root):
+
 - `roclaw_bridge.py` — Python HTTP server that translates REST calls to WebSocket tool invocations
 
 ### Running RoClaw Tasks
 
 ```bash
-# Start prerequisites
+## Start prerequisites
 python roclaw_bridge.py --port 8430 --simulate        # Bridge (sim mode)
 
-# Navigate
+## Navigate
 skillos execute: "Navigate to the kitchen and describe what you see"
 
-# Explore
+## Explore
 skillos execute: "Explore the house and build a semantic map"
 
-# Dream
+## Dream
 skillos execute: "Trigger dream consolidation for today's navigation"
 ```
 
 ### RoClaw Scenario
 
 A full end-to-end demo is available at `scenarios/RoClaw_Integration.md`:
+
 ```
 skillos execute: "Run the RoClaw Integration scenario"
 ```
@@ -670,16 +723,17 @@ skillos execute: "Run the RoClaw Integration scenario"
 The key advantage of SkillOS over LLMOS for robotics is **dynamic agent creation**. When the robot encounters a novel obstacle:
 
 1. `RoClawNavigationAgent` detects the failure
-2. Analyzes the scene via `RoClawSceneAnalysisAgent`
-3. Creates a new recovery tool as markdown (e.g., `RugRecoveryTool.md`)
-4. Executes the recovery strategy
-5. Logs the experience for dream consolidation
+1. Analyzes the scene via `RoClawSceneAnalysisAgent`
+1. Creates a new recovery tool as markdown (e.g., `RugRecoveryTool.md`)
+1. Executes the recovery strategy
+1. Logs the experience for dream consolidation
 
 This means the robot **evolves its capabilities at runtime** — no pre-programming required.
 
 ### Trace Fidelity
 
 All robot actions are tagged with source fidelity for dream weighting:
+
 - `REAL_WORLD` (1.0) — actual hardware
 - `SIM_3D` (0.8) — MuJoCo physics
 - `SIM_2D` (0.5) — virtual_roclaw kinematics
@@ -688,18 +742,21 @@ All robot actions are tagged with source fidelity for dream weighting:
 ## Development
 
 ### Adding New Real Components:
+
 1. Create component `.md` file in `components/` with Claude tool mapping
-2. Register in `system/SmartLibrary.md` with [REAL] tag and metadata
-3. Test execution and validate training data generation
+1. Register in `system/SmartLibrary.md` with [REAL] tag and metadata
+1. Test execution and validate training data generation
 
 ### Extending Tool Mappings:
+
 1. Add new mappings to `system/tools/ClaudeCodeToolMap.md`
-2. Include cost, latency, and error mode specifications
-3. Update component definitions to reference new tools
+1. Include cost, latency, and error mode specifications
+1. Update component definitions to reference new tools
 
 ## Advanced Features
 
 ### Sentient State Management:
+
 - **Modular State Architecture**: Specialized files in `state/` for focused updates
 - **Behavioral Constraints**: `constraints.md` enables dynamic adaptation based on user sentiment and context
 - **Memory-Driven Initialization**: Past experiences inform initial constraint settings
@@ -709,11 +766,13 @@ All robot actions are tagged with source fidelity for dream weighting:
 - **Resumable Execution**: Can pause and resume with full sentient state restoration
 
 ### Cost Optimization:
+
 - Real-time cost tracking for all tool calls
 - Intelligent tool selection based on cost/performance
 - Budget management and cost reporting
 
 ### Intelligent Error Resilience:
+
 - **Memory-Guided Recovery**: QueryMemoryTool leverages the memory-analysis-agent sub-agent for historical error recovery strategies
 - **Sentiment-Aware Adaptation**: Error handling adapts based on user frustration levels
 - **Constraint Evolution**: Failed attempts trigger behavioral modifications for future prevention
@@ -722,6 +781,7 @@ All robot actions are tagged with source fidelity for dream weighting:
 - **Context-Aware Human Escalation**: Human-in-the-loop triggered based on confidence and constraint settings
 
 ### Training Pipeline:
+
 - Automatic training data collection from real executions
 - Structured datasets for fine-tuning autonomous agents
 - Quality metrics and performance benchmarking
@@ -735,13 +795,14 @@ SkillOS includes an apt-like package management system for installing Skills (ag
 The file `system/sources.list` defines where to find installable Skills:
 
 ```
-# Format: <type>  <uri>  <branch/tag>  [component-path]
+## Format: <type>  <uri>  <branch/tag>  [component-path]
 github  anthropics/skills       main  skills/
 github  huggingface/skills      main  skills/
 github  openai/skills           main  skills/
 ```
 
 **Source Types**:
+
 - **github**: GitHub repository (cloned via git)
 - **url**: Direct URL to a single `.md` skill file
 - **local**: Local filesystem path containing `.md` skill files
@@ -749,25 +810,26 @@ github  openai/skills           main  skills/
 ### Package Commands
 
 ```bash
-# Install a skill from configured sources
+## Install a skill from configured sources
 skillos execute: "skill install research-assistant-agent"
 
-# Search for available skills across all sources
+## Search for available skills across all sources
 skillos execute: "skill search quantum"
 
-# Update all installed skills to latest versions
+## Update all installed skills to latest versions
 skillos execute: "skill update"
 
-# List all installed skills with source attribution
+## List all installed skills with source attribution
 skillos execute: "skill list"
 
-# Remove an installed skill
+## Remove an installed skill
 skillos execute: "skill remove outdated-agent"
 ```
 
 ### packages.lock
 
 All installed skills are tracked in `system/packages.lock` with:
+
 - Source repository and path
 - Version and content hash
 - Install/update timestamps
@@ -776,6 +838,7 @@ All installed skills are tracked in `system/packages.lock` with:
 ### Adding New Sources
 
 Edit `system/sources.list` and add a line:
+
 ```
 github  myorg/my-custom-skills  main  agents/
 ```
@@ -785,18 +848,20 @@ Then run `skill update` to index the new source.
 ### On-Demand Skill Acquisition
 
 SystemAgent can automatically install skills when a capability gap is detected during execution:
+
 1. Detects missing capability during planning
-2. Searches configured sources for matching skills
-3. Installs the best match
-4. Immediately uses the new skill for the current task
+1. Searches configured sources for matching skills
+1. Installs the best match
+1. Immediately uses the new skill for the current task
 
 ## Clean Restart
 
 To reset SkillOS:
+
 1. Clear `projects/[ProjectName]/state/` directories (preserves execution artifacts)
-2. Reset `system/SmartMemory.md` experience entries (clears learning history and behavioral patterns)
-3. Archive any valuable execution traces and behavioral learning data for training
-4. Ready for fresh scenario execution with clean sentient state
+1. Reset `system/SmartMemory.md` experience entries (clears learning history and behavioral patterns)
+1. Archive any valuable execution traces and behavioral learning data for training
+1. Ready for fresh scenario execution with clean sentient state
 
 ## File and Folder Permissions
 
@@ -805,14 +870,17 @@ If Claude Code lacks permissions to create folders and files, use these options:
 ### Running with Elevated Permissions
 
 Use the `--dangerously-skip-permissions` flag when running Claude Code commands:
+
 ```bash
 claude --dangerously-skip-permissions "your command here"
 ```
+
 NOTE: Use this flag with caution as it bypasses permission prompts.
 
 ### Alternative Permission Modes
 
 Start Claude Code with a specific permission mode:
+
 ```bash
 claude --permission-mode plan "your command here"
 ```
@@ -820,7 +888,7 @@ claude --permission-mode plan "your command here"
 ### Windows-Specific Solutions
 
 1. Run Command Prompt or PowerShell as administrator when using Claude Code
-2. Check folder permissions in Windows Explorer:
+1. Check folder permissions in Windows Explorer:
    - Right-click on the project folder
    - Select Properties > Security
    - Ensure your user account has Write permissions
@@ -829,35 +897,43 @@ claude --permission-mode plan "your command here"
 ### Unix/Linux/Mac Solutions
 
 1. Configure proper directory ownership:
+
 ```bash
 sudo chown -R $USER:$USER /path/to/project/directory
 ```
 
 2. Set appropriate permissions:
+
 ```bash
 chmod -R 755 /path/to/project/directory
 ```
 
 3. For npm-related permission issues, use:
+
 ```bash
 mkdir -p ~/.npm-global
 npm config set prefix ~/.npm-global
 ```
+
 Add to your profile (e.g., ~/.profile, ~/.bash_profile):
+
 ```bash
 export PATH=~/.npm-global/bin:$PATH
 ```
+
 Then run `source ~/.profile` to apply changes.
 
 ## New Memory and Learning Features
 
 ### Intelligent Memory Consultation
+
 - **QueryMemoryTool**: Standardized interface for memory-driven decision making through the memory-analysis-agent sub-agent
 - **MemoryAnalysisAgent**: Advanced pattern recognition across historical executions (in system/agents/)
 - **Behavioral Learning**: User sentiment patterns and constraint preferences captured
 - **Adaptive Recommendations**: Memory provides actionable insights for current tasks
 
 ### Sentient State Architecture
+
 - **Dynamic Constraints**: Behavioral modifiers that evolve based on context and feedback
 - **User Sentiment Tracking**: Emotional state detection and adaptive response strategies
 - **Priority Adaptation**: Execution focus adjusts based on user needs and historical patterns
@@ -865,6 +941,7 @@ Then run `source ~/.profile` to apply changes.
 - **Error Tolerance Management**: Risk acceptance levels adjust based on task criticality and user preferences
 
 ### Advanced Execution Patterns
+
 - **Memory-Informed Planning**: Historical success patterns guide component selection and strategy
 - **Constraint-Aware Execution**: Every action considers current behavioral modifiers
 - **Real-time Adaptation**: Behavioral constraints update during execution based on events

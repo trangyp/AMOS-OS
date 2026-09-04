@@ -14,42 +14,42 @@ plane: KERNEL
 scope: AMOS_OS
 updated: 2026-08-26
 tags:
-- kernel
-- integration
-- note
-- canon/kernel
-- readme
-- amos-core-laws
-- law-hierarchy
-- canon-provenance
-- source-lineage
-- supersession-log
-- k-distinction-relation-constraint
-- k-binding
-- k-identity
-- k-law-hierarchy
-- k-provenance
-- k-provenance-topology
-- k-sybil-hardening
-- k-context-state
-- k-system-state
-- k-world-model
-- k-memory-admission
-- k-memory-conflict
-- k-memory-retrieval
-- k-context-compaction
-- k-capability-authorization
-- k-risk-constraint
-- k-effect-classification
-- k-information-exposure
-- k-causal-closure
-- k-causal-epoch
-- k-multi-hypothesis
-- k-metacognition
-- k-commit-time-authority
-- k-collapse-recovery
-- k-repair-priority
-- k-repair-harm
+  - kernel
+  - integration
+  - note
+  - canon/kernel
+  - readme
+  - amos-core-laws
+  - law-hierarchy
+  - canon-provenance
+  - source-lineage
+  - supersession-log
+  - k-distinction-relation-constraint
+  - k-binding
+  - k-identity
+  - k-law-hierarchy
+  - k-provenance
+  - k-provenance-topology
+  - k-sybil-hardening
+  - k-context-state
+  - k-system-state
+  - k-world-model
+  - k-memory-admission
+  - k-memory-conflict
+  - k-memory-retrieval
+  - k-context-compaction
+  - k-capability-authorization
+  - k-risk-constraint
+  - k-effect-classification
+  - k-information-exposure
+  - k-causal-closure
+  - k-causal-epoch
+  - k-multi-hypothesis
+  - k-metacognition
+  - k-commit-time-authority
+  - k-collapse-recovery
+  - k-repair-priority
+  - k-repair-harm
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -91,9 +91,9 @@ It is typed, directional, scope-bounded, provenance-aware, regime-aware, depende
 
 This artifact specifies an AMOS architectural model. It does **not** establish that a constraint solver, propagation runtime, persistent dependency graph, MVCC/CAS implementation, distributed finalizer, or formal verification system exists.
 
----
+______________________________________________________________________
 
-# 1. Core Law
+## 1. Core Law
 
 ```text
 A CONSTRAINT
@@ -130,9 +130,9 @@ AUTOMATICALLY IMPLY
 CONSTRAINT INHERITANCE.
 ```
 
----
+______________________________________________________________________
 
-# 2. Constraint Definition
+## 2. Constraint Definition
 
 Conceptually:
 
@@ -160,9 +160,9 @@ Allowed(X | C)
 Allowed(X)
 ```
 
----
+______________________________________________________________________
 
-# 3. Propagation Definition
+## 3. Propagation Definition
 
 Constraint propagation is the derivation of an applicable downstream constraint from an upstream constraint through a licensed relation.
 
@@ -184,9 +184,9 @@ C₁
 C₀
 ```
 
----
+______________________________________________________________________
 
-# 4. Canonical Constraint Record
+## 4. Canonical Constraint Record
 
 ```yaml
 constraint:
@@ -228,9 +228,9 @@ constraint:
 
 Unknown fields remain explicitly `UNKNOWN`.
 
----
+______________________________________________________________________
 
-# 5. Canonical Propagation Record
+## 5. Canonical Propagation Record
 
 ```yaml
 constraint_propagation:
@@ -263,9 +263,9 @@ constraint_propagation:
   invalidation_conditions: []
 ```
 
----
+______________________________________________________________________
 
-# 6. Constraint Classes
+## 6. Constraint Classes
 
 AMOS may distinguish:
 
@@ -295,9 +295,9 @@ REPAIR_CONSTRAINT
 
 These classes may have different propagation semantics.
 
----
+______________________________________________________________________
 
-# 7. Hard and Soft Constraints
+## 7. Hard and Soft Constraints
 
 Conceptually:
 
@@ -324,9 +324,9 @@ HIGHER-ORDER
 HARD CONSTRAINT.
 ```
 
----
+______________________________________________________________________
 
-# 8. Propagation Permission
+## 8. Propagation Permission
 
 A constraint propagates only if a rule licenses the relevant edge.
 
@@ -350,9 +350,9 @@ FRESHNESS_OK
 NO_BLOCKING_CONFLICT
 ```
 
----
+______________________________________________________________________
 
-# 9. No Automatic Inheritance
+## 9. No Automatic Inheritance
 
 Given:
 
@@ -382,9 +382,9 @@ Constraint(A)
 
 does not automatically constrain `B`.
 
----
+______________________________________________________________________
 
-# 10. Directionality
+## 10. Directionality
 
 Propagation may be:
 
@@ -419,9 +419,9 @@ may propagate upward through dependency validity instead.
 
 These are different relations.
 
----
+______________________________________________________________________
 
-# 11. Constraint Scope
+## 11. Constraint Scope
 
 Every material constraint has an applicability envelope.
 
@@ -441,9 +441,9 @@ constraint_scope:
 
 Propagation must not widen this envelope without independent authority.
 
----
+______________________________________________________________________
 
-# 12. Scope Intersection
+## 12. Scope Intersection
 
 For propagation from source scope `S₁` into target scope `S₂`:
 
@@ -464,9 +464,9 @@ SILENTLY EXPAND
 SCOPE.
 ```
 
----
+______________________________________________________________________
 
-# 13. Scope Extinction
+## 13. Scope Extinction
 
 If:
 
@@ -482,9 +482,9 @@ NO SCOPE OVERLAP
 NO PROPAGATION
 ```
 
----
+______________________________________________________________________
 
-# 14. Regime Firewall
+## 14. Regime Firewall
 
 A constraint valid in regime `R1` does not automatically propagate into `R2`.
 
@@ -496,9 +496,9 @@ VALID(C @ R2)
 
 Cross-regime propagation requires compatibility or revalidation.
 
----
+______________________________________________________________________
 
-# 15. Temporal Firewall
+## 15. Temporal Firewall
 
 A stale constraint must not continue propagating merely because descendants still reference it.
 
@@ -512,9 +512,9 @@ PROPAGATION
 
 when freshness is load-bearing.
 
----
+______________________________________________________________________
 
-# 16. Version Firewall
+## 16. Version Firewall
 
 A constraint tied to version `V1` cannot automatically govern `V2`.
 
@@ -526,9 +526,9 @@ C @ V2
 
 unless compatibility is established.
 
----
+______________________________________________________________________
 
-# 17. Epoch Firewall
+## 17. Epoch Firewall
 
 Epoch-sensitive constraints must preserve their governing epoch.
 
@@ -553,9 +553,9 @@ CAUSAL STATE
 COMMIT AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 18. Authority Propagation
+## 18. Authority Propagation
 
 Constraint propagation cannot create authority.
 
@@ -567,9 +567,9 @@ AUTHORITY(C_SOURCE)
 
 unless a valid delegation or higher-order authority explicitly establishes otherwise.
 
----
+______________________________________________________________________
 
-# 19. Authority Boundary
+## 19. Authority Boundary
 
 A constraint cannot cross an authority boundary solely because a dependency edge crosses it.
 
@@ -579,9 +579,9 @@ DEPENDENCY CROSSING
 AUTHORITY TO GOVERN
 ```
 
----
+______________________________________________________________________
 
-# 20. Provenance Preservation
+## 20. Provenance Preservation
 
 Every load-bearing propagated constraint should retain enough provenance to recover:
 
@@ -606,9 +606,9 @@ C₂
 
 must remain traceable to `C₀`.
 
----
+______________________________________________________________________
 
-# 21. Provenance Ceiling
+## 21. Provenance Ceiling
 
 A derived constraint cannot acquire stronger epistemic status merely through propagation.
 
@@ -621,9 +621,9 @@ PREMISE
 
 unless independently revalidated.
 
----
+______________________________________________________________________
 
-# 22. Propagation Through Binding
+## 22. Propagation Through Binding
 
 `K_BINDING` determines whether a relation exists and is valid.
 
@@ -639,9 +639,9 @@ POSSIBLE PROPAGATION
 
 A valid binding alone is insufficient.
 
----
+______________________________________________________________________
 
-# 23. Propagation Through Dependency
+## 23. Propagation Through Dependency
 
 For:
 
@@ -664,9 +664,9 @@ VALIDITY CONDITION
 
 but only when the dependency type licenses inheritance.
 
----
+______________________________________________________________________
 
-# 24. Load-Bearing Propagation
+## 24. Load-Bearing Propagation
 
 A propagated constraint is load-bearing if removing it can change:
 
@@ -681,9 +681,9 @@ FINALITY
 
 Load-bearing propagation requires stronger validation and provenance retention.
 
----
+______________________________________________________________________
 
-# 25. Constraint Transformation
+## 25. Constraint Transformation
 
 A constraint may change representation during propagation without changing meaning.
 
@@ -695,9 +695,9 @@ C_TARGET
 
 Transformation must preserve semantic equivalence or explicitly record semantic narrowing.
 
----
+______________________________________________________________________
 
-# 26. Constraint Narrowing
+## 26. Constraint Narrowing
 
 Propagation may legitimately narrow a constraint.
 
@@ -715,9 +715,9 @@ if the local bound is validly derived.
 
 Narrowing must remain compatible with the source constraint.
 
----
+______________________________________________________________________
 
-# 27. Constraint Widening
+## 27. Constraint Widening
 
 A propagated constraint must not become less restrictive unless a valid exception or higher authority permits it.
 
@@ -731,9 +731,9 @@ x ≤ 20
 
 is not valid propagation by default.
 
----
+______________________________________________________________________
 
-# 28. Constraint Strength
+## 28. Constraint Strength
 
 Conceptually:
 
@@ -745,9 +745,9 @@ when every state allowed by `C1` is also allowed by `C2`.
 
 Propagation should not silently invert strength relationships.
 
----
+______________________________________________________________________
 
-# 29. Constraint Composition
+## 29. Constraint Composition
 
 Multiple applicable constraints may compose.
 
@@ -759,9 +759,9 @@ C1 ∩ C2 ∩ ... ∩ Cn
 
 when jointly satisfiable and semantically compatible.
 
----
+______________________________________________________________________
 
-# 30. Constraint Conflict
+## 30. Constraint Conflict
 
 If:
 
@@ -777,9 +777,9 @@ under the same applicability envelope, a conflict exists.
 
 AMOS must not silently choose one unless precedence is established.
 
----
+______________________________________________________________________
 
-# 31. False Conflict Prevention
+## 31. False Conflict Prevention
 
 Constraints applying to different:
 
@@ -794,9 +794,9 @@ OPERATIONS
 
 must not be classified as conflicting merely because their predicates differ.
 
----
+______________________________________________________________________
 
-# 32. Precedence
+## 32. Precedence
 
 Constraint precedence may derive from:
 
@@ -818,9 +818,9 @@ NEWEST WINS
 
 rule is valid.
 
----
+______________________________________________________________________
 
-# 33. Invariant Propagation
+## 33. Invariant Propagation
 
 A valid system invariant generally constrains all states within its declared jurisdiction.
 
@@ -839,17 +839,17 @@ UNIVERSAL ACROSS
 ALL POSSIBLE SYSTEMS
 ```
 
----
+______________________________________________________________________
 
-# 34. Law Propagation
+## 34. Law Propagation
 
 Law-level constraints propagate according to `K_LAW_HIERARCHY`.
 
 Lower layers may refine a law but must not contradict it unless the hierarchy explicitly permits an exception.
 
----
+______________________________________________________________________
 
-# 35. Policy Propagation
+## 35. Policy Propagation
 
 Policy constraints propagate only to subjects and operations within policy jurisdiction.
 
@@ -859,9 +859,9 @@ POLICY EXISTS
 POLICY APPLIES EVERYWHERE
 ```
 
----
+______________________________________________________________________
 
-# 36. Capability Constraint Propagation
+## 36. Capability Constraint Propagation
 
 A capability may inherit constraints from:
 
@@ -889,9 +889,9 @@ RESOURCE_POLICY
 EFFECT_POLICY
 ```
 
----
+______________________________________________________________________
 
-# 37. Risk Constraint Propagation
+## 37. Risk Constraint Propagation
 
 Risk constraints may propagate toward operations capable of producing the relevant harm.
 
@@ -907,9 +907,9 @@ ACTION
 
 Propagation should stop when the causal/effect path is not established.
 
----
+______________________________________________________________________
 
-# 38. Information Exposure Propagation
+## 38. Information Exposure Propagation
 
 Information exposure constraints follow the information object and its authorized transformations.
 
@@ -923,9 +923,9 @@ does not automatically lose its exposure constraint.
 
 Whether a transformation sufficiently removes sensitivity requires independent validation.
 
----
+______________________________________________________________________
 
-# 39. Memory Constraint Propagation
+## 39. Memory Constraint Propagation
 
 A memory's:
 
@@ -941,9 +941,9 @@ must propagate with the memory when those properties affect interpretation.
 
 Retrieving only the proposition while dropping its constraints is invalid.
 
----
+______________________________________________________________________
 
-# 40. Context Constraint Propagation
+## 40. Context Constraint Propagation
 
 Context-local constraints may propagate within the relevant reasoning episode.
 
@@ -955,9 +955,9 @@ SESSION CONSTRAINT
 GLOBAL CANON
 ```
 
----
+______________________________________________________________________
 
-# 41. State Constraint Propagation
+## 41. State Constraint Propagation
 
 State validity constraints follow state-derived conclusions.
 
@@ -970,9 +970,9 @@ VALID ONLY @ VERSION V
 
 then a conclusion derived from `S` inherits that dependency unless independently revalidated.
 
----
+______________________________________________________________________
 
-# 42. Evidence Constraint Propagation
+## 42. Evidence Constraint Propagation
 
 Evidence limitations propagate to dependent claims.
 
@@ -992,9 +992,9 @@ status.
 
 If evidence scope is narrow, dependent claims inherit the narrow scope unless independently validated.
 
----
+______________________________________________________________________
 
-# 43. Epistemic Constraint Propagation
+## 43. Epistemic Constraint Propagation
 
 Conclusion class is constrained by load-bearing premises.
 
@@ -1017,9 +1017,9 @@ WITHOUT
 INDEPENDENT REVALIDATION.
 ```
 
----
+______________________________________________________________________
 
-# 44. Causal Constraint Propagation
+## 44. Causal Constraint Propagation
 
 Causal constraints may propagate only through appropriately typed causal relationships.
 
@@ -1037,9 +1037,9 @@ STRUCTURAL SIMILARITY
 CAUSAL PATH
 ```
 
----
+______________________________________________________________________
 
-# 45. Causal Closure Boundary
+## 45. Causal Closure Boundary
 
 If a constraint depends on causal reachability:
 
@@ -1055,9 +1055,9 @@ then `K_CAUSAL_CLOSURE` determines the valid causal boundary.
 
 Do not substitute generic dependency reachability.
 
----
+______________________________________________________________________
 
-# 46. Causal Epoch Propagation
+## 46. Causal Epoch Propagation
 
 Causal constraints must retain the causal epoch under which their path was validated.
 
@@ -1067,9 +1067,9 @@ C @ CAUSAL_EPOCH E
 
 A material causal graph change requires affected propagation paths to be revalidated.
 
----
+______________________________________________________________________
 
-# 47. Multi-Hypothesis Constraint Propagation
+## 47. Multi-Hypothesis Constraint Propagation
 
 When competing hypotheses imply different constraints:
 
@@ -1086,9 +1086,9 @@ COMPETING
 
 Do not collapse to one propagated constraint without discriminating evidence.
 
----
+______________________________________________________________________
 
-# 48. Conditional Constraint
+## 48. Conditional Constraint
 
 If a constraint applies only if premise `P` holds:
 
@@ -1102,9 +1102,9 @@ then descendants inherit the conditional dependency.
 
 Do not drop `P` and represent `C` as unconditional.
 
----
+______________________________________________________________________
 
-# 49. Negative Constraints
+## 49. Negative Constraints
 
 AMOS must support constraints such as:
 
@@ -1118,9 +1118,9 @@ NOT_APPLICABLE
 
 Negative constraints require the same scope and authority discipline as positive constraints.
 
----
+______________________________________________________________________
 
-# 50. Exception Handling
+## 50. Exception Handling
 
 An exception is not deletion of the parent constraint.
 
@@ -1144,9 +1144,9 @@ VALIDITY
 PROVENANCE
 ```
 
----
+______________________________________________________________________
 
-# 51. Exception Scope
+## 51. Exception Scope
 
 An exception propagates no farther than its own authorized envelope.
 
@@ -1156,9 +1156,9 @@ LOCAL EXCEPTION
 GLOBAL WAIVER
 ```
 
----
+______________________________________________________________________
 
-# 52. Exception Precedence
+## 52. Exception Precedence
 
 An exception is valid only if the governing hierarchy allows the issuing authority to create it.
 
@@ -1171,9 +1171,9 @@ WITHOUT
 AUTHORIZED BASIS.
 ```
 
----
+______________________________________________________________________
 
-# 53. Constraint Graph
+## 53. Constraint Graph
 
 Conceptually:
 
@@ -1189,9 +1189,9 @@ NODE A
 
 Propagation is evaluated per edge, not by graph proximity alone.
 
----
+______________________________________________________________________
 
-# 54. Propagation Path
+## 54. Propagation Path
 
 A propagation path is:
 
@@ -1209,9 +1209,9 @@ VALID(P)
 VALID_PROPAGATION_STEP(e)
 ```
 
----
+______________________________________________________________________
 
-# 55. Weakest-Step Law
+## 55. Weakest-Step Law
 
 If one load-bearing propagation step is invalid:
 
@@ -1230,9 +1230,9 @@ INVALID(
 
 while unaffected paths remain valid.
 
----
+______________________________________________________________________
 
-# 56. Path Independence
+## 56. Path Independence
 
 Two propagation paths do not constitute independent support merely because their intermediate nodes differ.
 
@@ -1248,9 +1248,9 @@ share ancestry at `C0`.
 
 Provenance topology must preserve this correlation.
 
----
+______________________________________________________________________
 
-# 57. Sybil Hardening
+## 57. Sybil Hardening
 
 Duplicating a constraint through many descendants must not amplify its authority or evidential strength.
 
@@ -1263,9 +1263,9 @@ Duplicating a constraint through many descendants must not amplify its authority
 CONSTRAINT SOURCES
 ```
 
----
+______________________________________________________________________
 
-# 58. Propagation Cycles
+## 58. Propagation Cycles
 
 Constraint graphs may contain cycles.
 
@@ -1275,9 +1275,9 @@ A → B → C → A
 
 The runtime model must prevent uncontrolled recursive amplification.
 
----
+______________________________________________________________________
 
-# 59. Cycle Stability
+## 59. Cycle Stability
 
 A cycle is acceptable only when repeated propagation converges to a stable valid state or is otherwise explicitly governed.
 
@@ -1289,9 +1289,9 @@ Cₙ₊₁ = F(Cₙ)
 
 requires a valid termination/stability condition where iterative propagation is used.
 
----
+______________________________________________________________________
 
-# 60. No Constraint Amplification by Cycle
+## 60. No Constraint Amplification by Cycle
 
 A cycle must not increase:
 
@@ -1304,9 +1304,9 @@ SCOPE
 
 merely because a constraint traverses the cycle repeatedly.
 
----
+______________________________________________________________________
 
-# 61. Fixed-Point Model
+## 61. Fixed-Point Model
 
 For systems using iterative propagation, conceptual convergence may be expressed as:
 
@@ -1316,9 +1316,9 @@ C* = F(C*)
 
 This is a model pattern, not a claim that AMOS currently implements a fixed-point solver.
 
----
+______________________________________________________________________
 
-# 62. Termination
+## 62. Termination
 
 Propagation must terminate through one or more of:
 
@@ -1333,9 +1333,9 @@ AUTHORITY BOUNDARY
 REGIME BOUNDARY
 ```
 
----
+______________________________________________________________________
 
-# 63. Propagation Depth
+## 63. Propagation Depth
 
 Some constraints may permit bounded propagation:
 
@@ -1346,9 +1346,9 @@ propagation_policy:
 
 Depth is semantic policy, not a substitute for dependency analysis.
 
----
+______________________________________________________________________
 
-# 64. Local Constraint Closure
+## 64. Local Constraint Closure
 
 For a decision `D`, AMOS may compute the smallest set of constraints capable of changing `D`.
 
@@ -1360,9 +1360,9 @@ Closure_C(D)
 
 This is the constraint dependency closure.
 
----
+______________________________________________________________________
 
-# 65. Smallest Sufficient Constraint Closure
+## 65. Smallest Sufficient Constraint Closure
 
 AMOS v4.4 fast-path principle:
 
@@ -1376,9 +1376,9 @@ LOCAL CLOSURE
 IS SUFFICIENT.
 ```
 
----
+______________________________________________________________________
 
-# 66. Constraint Fast Path
+## 66. Constraint Fast Path
 
 Local constraint evaluation is permitted when:
 
@@ -1395,9 +1395,9 @@ AUTHORITY VALID
 
 for all load-bearing constraints.
 
----
+______________________________________________________________________
 
-# 67. Fast-Path Rejection
+## 67. Fast-Path Rejection
 
 Escalate when:
 
@@ -1417,9 +1417,9 @@ IRREVERSIBLE EFFECT
 
 can change the result.
 
----
+______________________________________________________________________
 
-# 68. Constraint Sensitivity
+## 68. Constraint Sensitivity
 
 For consequential decisions ask:
 
@@ -1434,9 +1434,9 @@ FLIP THE RESULT?
 
 Validate it first.
 
----
+______________________________________________________________________
 
-# 69. Threshold Constraints
+## 69. Threshold Constraints
 
 For:
 
@@ -1454,9 +1454,9 @@ HIGH SENSITIVITY
 
 Measurement uncertainty and threshold provenance become load-bearing.
 
----
+______________________________________________________________________
 
-# 70. Robustness
+## 70. Robustness
 
 A decision is more robust when it remains valid under plausible perturbation of noncritical constraint parameters.
 
@@ -1468,9 +1468,9 @@ CONDITIONAL
 
 when appropriate.
 
----
+______________________________________________________________________
 
-# 71. Constraint Invalidation
+## 71. Constraint Invalidation
 
 If source constraint `C` becomes invalid:
 
@@ -1487,9 +1487,9 @@ INVALIDATE
 DEPENDENT DESCENDANTS(C)
 ```
 
----
+______________________________________________________________________
 
-# 72. Selective Retraction
+## 72. Selective Retraction
 
 Constraint retraction must not erase independent constraints reaching the same target.
 
@@ -1506,9 +1506,9 @@ C2
 
 remains if independently valid.
 
----
+______________________________________________________________________
 
-# 73. Supersession
+## 73. Supersession
 
 A constraint may be superseded by a valid successor.
 
@@ -1529,9 +1529,9 @@ OR CONFLICTS WITH
 
 their effective restrictions.
 
----
+______________________________________________________________________
 
-# 74. Constraint Delta Propagation
+## 74. Constraint Delta Propagation
 
 When only part of a constraint changes, propagate the smallest decision-relevant delta.
 
@@ -1541,9 +1541,9 @@ When only part of a constraint changes, propagate the smallest decision-relevant
 
 rather than recomputing unrelated graph regions.
 
----
+______________________________________________________________________
 
-# 75. Incremental Repair
+## 75. Incremental Repair
 
 Conceptually:
 
@@ -1562,9 +1562,9 @@ REVALIDATE
 
 Global recomputation is a last resort.
 
----
+______________________________________________________________________
 
-# 76. Failure Recovery
+## 76. Failure Recovery
 
 When propagation fails:
 
@@ -1586,9 +1586,9 @@ EXISTS
 
 Do not repeat the same failed propagation without changed evidence.
 
----
+______________________________________________________________________
 
-# 77. Alternative Paths
+## 77. Alternative Paths
 
 If one propagation path fails but another independently valid path exists:
 
@@ -1601,9 +1601,9 @@ the target constraint may remain valid through `P2`.
 
 Independence must be demonstrated, not assumed.
 
----
+______________________________________________________________________
 
-# 78. Constraint Repair Priority
+## 78. Constraint Repair Priority
 
 Repair priority should increase with:
 
@@ -1618,9 +1618,9 @@ GOVERNANCE IMPACT
 
 subject to `K_REPAIR_PRIORITY` and `K_REPAIR_HARM`.
 
----
+______________________________________________________________________
 
-# 79. Atomic Multi-Constraint Reasoning
+## 79. Atomic Multi-Constraint Reasoning
 
 Some decisions require a set of constraints to be evaluated together.
 
@@ -1642,9 +1642,9 @@ FEASIBLE REGION
 DECIDE
 ```
 
----
+______________________________________________________________________
 
-# 80. Atomic Multi-RSCF Constraint Reasoning
+## 80. Atomic Multi-RSCF Constraint Reasoning
 
 Constraints spanning multiple RSCFs require atomic reasoning when independent partial resolution can change the result.
 
@@ -1663,9 +1663,9 @@ AS ONE
 DECISION BOUNDARY
 ```
 
----
+______________________________________________________________________
 
-# 81. Partial Constraint Commit Hazard
+## 81. Partial Constraint Commit Hazard
 
 If an action requires:
 
@@ -1675,9 +1675,9 @@ C1 ∧ C2
 
 then validating `C1` while leaving `C2` unresolved must not be treated as authorization to commit.
 
----
+______________________________________________________________________
 
-# 82. Commit-Time Constraint Revalidation
+## 82. Commit-Time Constraint Revalidation
 
 Mutable constraints may change between reasoning and action.
 
@@ -1700,9 +1700,9 @@ COMMIT
 
 where stakes require.
 
----
+______________________________________________________________________
 
-# 83. MVCC Constraint Model
+## 83. MVCC Constraint Model
 
 Conceptually:
 
@@ -1723,9 +1723,9 @@ AFFECTED CONSTRAINT
 CLOSURE
 ```
 
----
+______________________________________________________________________
 
-# 84. CAS Constraint Model
+## 84. CAS Constraint Model
 
 For constraint mutation:
 
@@ -1741,9 +1741,9 @@ CAS failure should trigger local revalidation rather than blind overwrite.
 
 This remains an architectural model unless implementation evidence exists.
 
----
+______________________________________________________________________
 
-# 85. Causal Epoch Finality
+## 85. Causal Epoch Finality
 
 A decision depending on causal constraints may finalize locally only while the relevant causal epoch remains valid.
 
@@ -1754,9 +1754,9 @@ DECISION D
 
 A material change to the causal closure invalidates affected finality.
 
----
+______________________________________________________________________
 
-# 86. Shard-Local Constraint Finalization
+## 86. Shard-Local Constraint Finalization
 
 A shard-local decision may finalize without global coordination only when the relevant constraint closure is proven shard-local.
 
@@ -1772,9 +1772,9 @@ ARE LOCAL
 
 within the required finality envelope.
 
----
+______________________________________________________________________
 
-# 87. Proof-Based Coordination Avoidance
+## 87. Proof-Based Coordination Avoidance
 
 AMOS may avoid coordination only when a proof establishes that external constraint state cannot change the local result.
 
@@ -1794,9 +1794,9 @@ CONSTRAINT OBSERVED
 ASSUME NONE EXISTS
 ```
 
----
+______________________________________________________________________
 
-# 88. Constraint Finality
+## 88. Constraint Finality
 
 Constraint finality is bounded.
 
@@ -1810,9 +1810,9 @@ FINAL
 
 does not mean permanently universal.
 
----
+______________________________________________________________________
 
-# 89. Decision Feasibility
+## 89. Decision Feasibility
 
 Given constraints:
 
@@ -1836,9 +1836,9 @@ F = ∅
 
 the system has a constraint conflict or impossible objective under the current model.
 
----
+______________________________________________________________________
 
-# 90. Impossible Objective
+## 90. Impossible Objective
 
 AMOS must not fabricate a feasible action when valid hard constraints make the objective impossible.
 
@@ -1850,9 +1850,9 @@ UNKNOWN/GAP
 
 if feasibility depends on missing information, or expose the constraint conflict when established.
 
----
+______________________________________________________________________
 
-# 91. Optimization Firewall
+## 91. Optimization Firewall
 
 Optimization occurs only inside the valid feasible region.
 
@@ -1873,9 +1873,9 @@ LOAD-BEARING
 INTEGRITY CONSTRAINTS.
 ```
 
----
+______________________________________________________________________
 
-# 92. Action Governance
+## 92. Action Governance
 
 Constraint validation intensity increases with:
 
@@ -1890,9 +1890,9 @@ LARGE DOWNSTREAM DEPENDENCY
 
 Favor reversible actions when constraint uncertainty remains material.
 
----
+______________________________________________________________________
 
-# 93. Adversarial Validation
+## 93. Adversarial Validation
 
 For consequential propagated constraints, challenge:
 
@@ -1923,9 +1923,9 @@ PRESERVE COMPETING
 OR RETURN UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 94. Gap Classification
+## 94. Gap Classification
 
 Constraint-propagation gaps are:
 
@@ -1955,9 +1955,9 @@ MISSING DISPLAY LABEL
 → COSMETIC
 ```
 
----
+______________________________________________________________________
 
-# 95. Observability Events
+## 95. Observability Events
 
 Recommended events:
 
@@ -2006,9 +2006,9 @@ CONSTRAINT_REPAIR_COMPLETED
 CONSTRAINT_REPAIR_FAILED
 ```
 
----
+______________________________________________________________________
 
-# 96. Kernel Invariants
+## 96. Kernel Invariants
 
 ```text
 KCP-01
@@ -2204,9 +2204,9 @@ KCP-64
 INTEGRITY MUST DOMINATE COMPLETENESS, FLUENCY, SPEED, AND OPTIMIZATION
 ```
 
----
+______________________________________________________________________
 
-# 97. Required Tests
+## 97. Required Tests
 
 ```text
 TYPED-CONSTRAINT TEST
@@ -2304,9 +2304,9 @@ ADVERSARIAL-VALIDATION TEST
 CRITICAL-GAP TEST
 ```
 
----
+______________________________________________________________________
 
-# 98. Negative Tests
+## 98. Negative Tests
 
 ```text
 A DEPENDS_ON B
@@ -2401,9 +2401,9 @@ HIGHER UTILITY
 MUST FAIL
 ```
 
----
+______________________________________________________________________
 
-# 99. Failure Modes
+## 99. Failure Modes
 
 ```text
 UNDER-PROPAGATION
@@ -2470,9 +2470,9 @@ FABRICATED FEASIBILITY
 OPTIMIZATION-OVER-INTEGRITY
 ```
 
----
+______________________________________________________________________
 
-# 100. Interaction Matrix
+## 100. Interaction Matrix
 
 ```text
 K_DISTINCTION_RELATION_CONSTRAINT
@@ -2572,9 +2572,9 @@ SUPERSESSION_LOG
 → RECORDS CONSTRAINT REPLACEMENT LINEAGE
 ```
 
----
+______________________________________________________________________
 
-# 101. Promotion Gate
+## 101. Promotion Gate
 
 Before promotion beyond `AMOS_MODEL`, evidence should establish:
 
@@ -2678,9 +2678,9 @@ FORMAL_VERIFICATION
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 102. RSCF Node
+## 102. RSCF Node
 
 ```RSCF-NODE
 node_id: AMOS-OS-K-CONSTRAINT-PROPAGATION
@@ -2746,9 +2746,9 @@ RSCF-RELATIONS:
   - RECOVERED_BY: README
 ```
 
----
+______________________________________________________________________
 
-# 103. Canonical Summary
+## 103. Canonical Summary
 
 ```text
 K_CONSTRAINT_PROPAGATION
@@ -2923,13 +2923,14 @@ README
 **Classification:** `MODEL`. This supplies substantive content for the reserved `K_CONSTRAINT_PROPAGATION` location while preserving the placeholder's epistemic restriction: it is not evidence of implemented runtime logic, empirical validation, formal verification, or final canon. Promotion requires the AMOS canon/provenance/conflict/supersession process.
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
-**MOC:** [[02_KERNEL/09_INTEGRATION/09_INTEGRATION_MOC|09_INTEGRATION_MOC]]
+______________________________________________________________________
 
+**MOC:** [[02_KERNEL/09_INTEGRATION/09_INTEGRATION_MOC|09_INTEGRATION_MOC]]

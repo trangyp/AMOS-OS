@@ -1,16 +1,19 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: org engine
 type: reference
 source: 07_SKILLS/amos-c09-org-law-policy-master/references
 tags:
-- reference
-- amos-c09-org-law-policy-master
-- type/skill
-- system-scan-agent
-- automation-profiles
-- amos-simulation-kernel-v0-math-foundations
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-c09-org-law-policy-master
+  - type/skill
+  - system-scan-agent
+  - automation-profiles
+  - amos-simulation-kernel-v0-math-foundations
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -23,23 +26,19 @@ rscf:
 > Source: `_00_Cosmo brain/engine/O/Org_Engine.md`
 > Epistemic class: SOURCE_DERIVED
 
----
-canon-group: meta
-canon-type: framework
-rscf-state: source-claim
-topic: org-engine
-tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/org-engine, engine]
-created: 2026-08-22
----
+______________________________________________________________________
 
-# Org Engine — part 2
+## canon-group: meta canon-type: framework rscf-state: source-claim topic: org-engine tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/org-engine, engine] created: 2026-08-22
 
-> [!info] Populated Stub
+## Org Engine — part 2
+
+> [!INFO] Populated Stub
 > Source: `engine/O/Org_Governance_Engine_vInfinity_v2.0.0.md` (full engine spec, 163 lines).
 > **Epistemic class**: SOURCE_CLAIM (vault-sourced)
 > **Audit**: Populated 2026-08-26 from Org_Governance_Engine_vInfinity_v2.0.0 source.
 
 ## Status
+
 - **Type**: Engine spec (reference to full source)
 - **Content**: Vault-sourced from Org_Governance_Engine_vInfinity_v2.0.0
 - **Action**: Populated 2026-08-26
@@ -77,6 +76,7 @@ created: 2026-08-22
 ## Board System
 
 Board design includes:
+
 - skill_based_selection
 - conflict_of_interest_filtering
 - independence_ratio
@@ -92,12 +92,13 @@ See `engine/O/Org_Governance_Engine_vInfinity_v2.0.0.md` for the complete 163-li
 - `engine/A/AMOS Org Governance Engine vInfinity.md`
 - `engine/G/Governance_Super_Engine_v3.md`
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS · SYSTEM_SCAN_AGENT · AUTOMATION_PROFILES
 
----
-**MOC:** references_MOC
----
+______________________________________________________________________
+
+## **MOC:** references_MOC
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -105,13 +106,14 @@ See `engine/O/Org_Governance_Engine_vInfinity_v2.0.0.md` for the complete 163-li
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-c09-org-law-policy-master-org-engine
 node_type: reference
 path: 07_SKILLS/amos-c09-org-law-policy-master/references/org_engine.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC
-

@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Vault Domain Knowledge — Amos Direct Corpus Search Rscf
 type: reference
 source: 07_SKILLS/amos-direct-corpus-search-rscf/references
 tags:
-- reference
-- amos-direct-corpus-search-rscf
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-direct-corpus-search-rscf
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -39,7 +42,7 @@ Objective: To develop and validate the AI Sweet Spot Model—a framework mapping
 involvement levels across five distinct cognitive populations to maximize effectiveness while
 minimizing workload.
 Methods: Systematic evidence synthesis across PubMed, PsycINFO, IEEE Xplore, and arXiv (2020-
-2025) examining AI assistance, cognitive load, and performance. We analyzed neurotypical (N=54),
+2025\) examining AI assistance, cognitive load, and performance. We analyzed neurotypical (N=54),
 ADHD (N=633), autism spectrum (N=240), dyslexic (N=200), twice-exceptional (N=50), and elderly
 (N=400,000+) populations using dual-axis measurement of cognitive effectiveness and workload
 against AI involvement percentage.
@@ -54,10 +57,11 @@ neurotypical users. These findings necessitate differentiated AI policies in edu
 optimization for neurodivergent talent, and culturally responsive AI design.
 Keywords: artificial intelligence, cognitive diversity, neurodivergence, human-computer interaction,
 cognitive load theory, differential optimization
+
 1. Introduction
-1.1 The Cognitive Debt Problem
-The proliferation of large language models (LLMs) has created unprecedented opportunities to study
-human-AI cognitive interaction at scale. Recent neurophysiological research from MIT provides a
+   1.1 The Cognitive Debt Problem
+   The proliferation of large language models (LLMs) has created unprecedented opportunities to study
+   human-AI cognitive interaction at scale. Recent neurophysiological research from MIT provides a
 
 concerning baseline: when neurotypical adults used ChatGPT for essay writing, EEG measurements
 revealed:
@@ -71,13 +75,13 @@ These "cognitive debt" effects suggest adaptive neural changes toward reduced ef
 Current interpretations of cognitive debt assume all brains respond identically to technological
 scaffolding. This assumption contradicts substan
 
----
+______________________________________________________________________
 
 ### Source 2: Cosmo Brain Vault — Full Directory Map (Post-Flatten)
 
 > Path: `brain/M/md__2026-08-23 Cosmo Brain Vault Full Directory Map.md` | Size: 9501 chars | Match score: 10
 
-# Cosmo Brain Vault — Full Directory Map (Post-Flatten)
+## Cosmo Brain Vault — Full Directory Map (Post-Flatten)
 
 > **Path**: `/Users/mac/Downloads/stitch_project_cosmo/_00_Cosmo brain/`
 > **Date**: 2026-08-23
@@ -90,25 +94,25 @@ All source files from 7 subdirectories were moved to the vault root with flatten
 
 ### Original Subdirectories (now flattened)
 
-| Directory | Total Files | Non-Dep Files | Description |
-|-----------|-------------|---------------|-------------|
-| **AMOS-Consulting/** | 354,927 | ~100K | Massive repo with AMOS-Invest, AMOS-Mai Linh Connect, AMOS-SYSTEM-main |
-| **AMOS-SYSTEM-main/** | 5,623 | ~4,600 | AMOS biological-computational OS (40+ AMOS_* modules) |
-| **AMOS forex/** | 7,255 | ~50 | Forex trading system (mostly node_modules) |
-| **openclaw-main/** | 80,115 | ~8K | OpenClaw AI platform (mostly node_modules/dist) |
-| **MAIN/** | 7,628 | 7,628 | Main brain/systems/data directory (no deps) |
-| **amos-copilot-fullpack/** | 8 | 8 | 8 AMOS skill zip files |
-| **amos-copilot-fullpack 2/** | 8 | 8 | Exact duplicate — deleted |
+| Directory                    | Total Files | Non-Dep Files | Description                                                            |
+| ---------------------------- | ----------- | ------------- | ---------------------------------------------------------------------- |
+| **AMOS-Consulting/**         | 354,927     | ~100K         | Massive repo with AMOS-Invest, AMOS-Mai Linh Connect, AMOS-SYSTEM-main |
+| **AMOS-SYSTEM-main/**        | 5,623       | ~4,600        | AMOS biological-computational OS (40+ AMOS\_\* modules)                |
+| **AMOS forex/**              | 7,255       | ~50           | Forex trading system (mostly node_modules)                             |
+| **openclaw-main/**           | 80,115      | ~8K           | OpenClaw AI platform (mostly node_modules/dist)                        |
+| **MAIN/**                    | 7,628       | 7,628         | Main brain/systems/data directory (no deps)                            |
+| **amos-copilot-fullpack/**   | 8           | 8             | 8 AMOS skill zip files                                                 |
+| **amos-copilot-fullpack 2/** | 8           | 8             | Exact duplicate — deleted                                              |
 
----
+______________________________________________________________________
 
 ## 1. AMOS-Consulting (largest repo)
 
-
 ### AMOS-Invest/
+
 - **AMOS-Claws/** — OpenClaw fork with copilot proxy, GitHub copilot integration
 - **AMOS-Code/** — Code generation/analysis tools
-- **_AMOS_CANON/** — Canon specifications (already flattened in previous session)
+- **\_AMOS_CANON/** — Canon specifications (already flattened in previous session)
 - **amos/** — Core AMOS Python package
 - **amos-stack/** — Full-stack deployment
 - **amos-ui/** — UI components
@@ -124,32 +128,34 @@ All source files from 7 subdirectories were moved to the vault root with flatten
 - **tests/** — Test suite
 
 ### AMOS-Mai Linh Connect/
+
 - **config/env/** — Environment configs (7 .env files with placeholder values)
 - **docs/** — Documentation
 - **webhook-receiver/** — Webhook receiver service
 - **mailinh-backend/** — Mai Linh Connect backend
-- **_AMOS-SYSTEM-main/** — Nested AMOS-SYSTEM copy (with third_party deps)
+- **\_AMOS-SYSTEM-main/** — Nested AMOS-SYSTEM copy (with third_party deps)
 
 ### File types (AMOS-Consulting overall)
+
 - 106,888 JSON, 66,769 JS, 41,815 TS, 36,359 PY, 34,065 MAP, 9,545 MJS, 6,790 MD
 
----
+______________________________________________________________________
 
 ## 2. AMOS-SYSTEM-main (AMOS Biological-Computational OS)
 
-
 ### 7-System Organism Architecture
-1. **BRAIN_SYSTEM** — Reasoning, planning, architecture, decomposition, prediction, strategy
-2. **WORLD_MODEL_SYSTEM** — World scanning, geo/macro/sector analysis, market signals, trends
-3. **SENSE_SYSTEM** — Context, emotional sensors, environment/file/sy
 
----
+1. **BRAIN_SYSTEM** — Reasoning, planning, architecture, decomposition, prediction, strategy
+1. **WORLD_MODEL_SYSTEM** — World scanning, geo/macro/sector analysis, market signals, trends
+1. **SENSE_SYSTEM** — Context, emotional sensors, environment/file/sy
+
+______________________________________________________________________
 
 ### Source 3: Cosmo Brain Project Directory Map
 
 > Path: `brain/M/md__2026-08-23 Cosmo Brain Project Directory Map.md` | Size: 3214 chars | Match score: 10
 
-# Cosmo Brain Project Directory Map
+## Cosmo Brain Project Directory Map
 
 > **Source**: `/Users/mac/Downloads/stitch_project_cosmo/cosmo-brain/` — root of the Cosmo Brain TypeScript/AMOS implementation.
 > **Architect**: Trang Phan.
@@ -182,7 +188,7 @@ cosmo-brain/
 
 ## Key Relationships
 
-- `core/` implements the AMOS reasoning contract; detailed in md  2026-08-23 Cosmo Brain Core Architecture.
+- `core/` implements the AMOS reasoning contract; detailed in md 2026-08-23 Cosmo Brain Core Architecture.
 - `algorithms/` consumes `schemas/` and is routed by `registry/`.
 - `governance/` enforces consent, safety, provenance, and epistemic standards across all other modules.
 - `knowledge/` is the approved corpus that feeds `domains/` and `reasoning`.
@@ -194,13 +200,15 @@ cosmo-brain/
 - node_modules, .pytest_cache, .turbo, and .devin are excluded from the map as generated/dependency directories.
 - All substantive modules credit Trang Phan as origin architect and carry the AMOS IP rules (no overwrite, no reattribution).
 
----
+______________________________________________________________________
+
 **MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -208,12 +216,14 @@ cosmo-brain/
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-direct-corpus-search-rscf-vault-domain-knowledge
 node_type: reference
 path: 07_SKILLS/amos-direct-corpus-search-rscf/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

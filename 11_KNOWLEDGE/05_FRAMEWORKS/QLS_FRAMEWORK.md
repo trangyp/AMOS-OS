@@ -12,23 +12,23 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: FRAMEWORK
 path: 11_KNOWLEDGE/05_FRAMEWORKS/QLS_FRAMEWORK.md
 tags:
-- amos-os
-- knowledge
-- vault
-- 05_frameworks
-- qls
-- quantum_logic_scaffold
-- non_contradiction
-- multi_state_reasoning
-- collapse_conditions
-- constraint_integrity
-- rscf
-- canon_candidate
-- canon/knowledge
-- amos-x-qls
-- amos-x-qls-qcla-matrix
-- qcla-master
-- trang-reality-architecture
+  - amos-os
+  - knowledge
+  - vault
+  - 05_frameworks
+  - qls
+  - quantum_logic_scaffold
+  - non_contradiction
+  - multi_state_reasoning
+  - collapse_conditions
+  - constraint_integrity
+  - rscf
+  - canon_candidate
+  - canon/knowledge
+  - amos-x-qls
+  - amos-x-qls-qcla-matrix
+  - qcla-master
+  - trang-reality-architecture
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -43,13 +43,13 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - QUANTUM_LOGIC_SCAFFOLD_QLS_OFFICIAL_MANUAL
-  - QUANTUM_LOGIC_SYSTEM_QLS_SYSTEM_OFFICIAL_MANU
-  - AMOS_CORPUS
+    - QUANTUM_LOGIC_SCAFFOLD_QLS_OFFICIAL_MANUAL
+    - QUANTUM_LOGIC_SYSTEM_QLS_SYSTEM_OFFICIAL_MANU
+    - AMOS_CORPUS
   scope:
-  - KNOWLEDGE_FRAMEWORKS
-  - LOGIC_SCAFFOLD
-  - SOURCE_DEFINED_QLS_MODEL
+    - KNOWLEDGE_FRAMEWORKS
+    - LOGIC_SCAFFOLD
+    - SOURCE_DEFINED_QLS_MODEL
 framework_binding:
   primary:
     name: Quantum Logic Scaffold™
@@ -57,9 +57,9 @@ framework_binding:
     role: STRUCTURAL_LOGIC_VALIDATION
   cognitive_matrix_binding:
     artifact:
-    - - AMOS_X_QLS
+      -   - AMOS_X_QLS
     matrix:
-    - - AMOS_X_QLS_QCLA_MATRIX
+      -   - AMOS_X_QLS_QCLA_MATRIX
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
@@ -72,14 +72,15 @@ epistemic_boundary:
 `QLS_FRAMEWORK.md` is the canonical Knowledge Plane reference artifact for the **Quantum Logic Scaffold™ (QLS)** within `11_KNOWLEDGE/05_FRAMEWORKS`.
 
 It establishes the 4 pillars of structural logic required to maintain coherent reasoning across complex human and artificial cognitive systems:
+
 1. **Pillar I — Non-Contradiction:** Strict identification and preservation of true vs. apparent contradictions across entity, predicate, time, and scope.
-2. **Pillar II — Multi-State Reasoning:** Maintaining competing state hypotheses ($\Sigma = \{p_1 x_1, \dots, p_n x_n\}$) under uncertainty rather than premature convergence.
-3. **Pillar III — Collapse Conditions:** Controlled resolution ($\kappa(\Sigma) \to x^*$) governed by evidence sufficiency, provenance independence, and calibrated thresholds.
-4. **Pillar IV — Constraint Integrity:** Enforcing system boundaries and preventing scope leakage across domains and scales.
+1. **Pillar II — Multi-State Reasoning:** Maintaining competing state hypotheses ($\Sigma = \{p_1 x_1, \dots, p_n x_n\}$) under uncertainty rather than premature convergence.
+1. **Pillar III — Collapse Conditions:** Controlled resolution ($\kappa(\Sigma) \to x^*$) governed by evidence sufficiency, provenance independence, and calibrated thresholds.
+1. **Pillar IV — Constraint Integrity:** Enforcing system boundaries and preventing scope leakage across domains and scales.
 
----
+______________________________________________________________________
 
-# 1. Epistemic Firewalls
+## 1. Epistemic Firewalls
 
 ```text
 QLS LOGICAL VALIDITY != EMPIRICAL FACTUAL TRUTH
@@ -89,18 +90,18 @@ QLS TERMINOLOGY != QUANTUM PHYSICS
 UNKNOWN/GAP != PASS
 ```
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Cross-Framework Connections
+## 2. Inter-Plane & Cross-Framework Connections
 
 - **Cognitive Matrix:** [[25_COGNITIVE_MATRIX/AMOS_X_QLS|AMOS_X_QLS]] and [[25_COGNITIVE_MATRIX/AMOS_X_QLS_QCLA_MATRIX|AMOS_X_QLS_QCLA_MATRIX]]
 - **Causality Coupling:** [[11_KNOWLEDGE/05_FRAMEWORKS/QCLA_MASTER|QCLA_MASTER]] (Dual-gate validation: $VALID(x) = L(x) \land C(x) \land E(x)$)
 - **Ontological Grounding:** [[11_KNOWLEDGE/trang/TRANG_REALITY_ARCHITECTURE|TRANG_REALITY_ARCHITECTURE]]
 - **Native Sources:** `11_KNOWLEDGE/quantum/QUANTUM_LOGIC_SCAFFOLD_QLS_OFFICIAL_MANUAL`
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -118,9 +119,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]] · [[25_COGNITIVE_MATRIX/AMOS_X_QLS|AMOS_X_QLS]] · [[25_COGNITIVE_MATRIX/AMOS_X_QLS_QCLA_MATRIX|AMOS_X_QLS_QCLA_MATRIX]] · [[11_KNOWLEDGE/05_FRAMEWORKS/QCLA_MASTER|QCLA_MASTER]]
 
----
+______________________________________________________________________
+
 **MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]

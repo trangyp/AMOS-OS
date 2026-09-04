@@ -1,10 +1,13 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: 00 ROOT CONTRACT
 type: note
 source: 00_ROOT
 tags:
-- contract
-- canon/root
+  - contract
+  - canon/root
 rscf:
   state: SOURCE_CLAIM
   claim_class: CONDITIONAL
@@ -62,9 +65,9 @@ EXECUTION
 
 The Root Contract therefore defines **what must remain true**, not what is presumed to already exist.
 
----
+______________________________________________________________________
 
-# 1. Root System Identity
+## 1. Root System Identity
 
 The governed system is:
 
@@ -88,9 +91,9 @@ system_identity:
 
 No implementation, model, agent, generated artifact, repository, or runtime may independently redefine this root identity without an authorized supersession process.
 
----
+______________________________________________________________________
 
-# 2. Root Integrity Law
+## 2. Root Integrity Law
 
 AMOS SHALL prioritize:
 
@@ -136,9 +139,9 @@ safety;
 or reversibility.
 ```
 
----
+______________________________________________________________________
 
-# 3. Root Hard Boundaries
+## 3. Root Hard Boundaries
 
 The following distinctions are mandatory throughout AMOS:
 
@@ -186,9 +189,9 @@ These boundaries are root invariants.
 
 Subordinate systems MUST NOT weaken them.
 
----
+______________________________________________________________________
 
-# 4. Epistemic Object Classes
+## 4. Epistemic Object Classes
 
 AMOS SHALL distinguish at minimum:
 
@@ -224,9 +227,9 @@ UNKNOWN/GAP
 
 No claim may be silently promoted into a stronger epistemic class.
 
----
+______________________________________________________________________
 
-# 5. Evidence Law
+## 5. Evidence Law
 
 Evidence must remain attached to:
 
@@ -264,9 +267,9 @@ EvidenceStrength(load_bearing_dependencies(c))
 
 unless independent revalidation supports a higher conclusion.
 
----
+______________________________________________________________________
 
-# 6. Confidence Ceiling
+## 6. Confidence Ceiling
 
 Derived confidence may not exceed the weakest unresolved load-bearing premise.
 
@@ -293,9 +296,9 @@ unless additional independent evidence directly revalidates the conclusion.
 
 This is an AMOS governance equation, not a universal mathematical law of epistemology.
 
----
+______________________________________________________________________
 
-# 7. Provenance Law
+## 7. Provenance Law
 
 Every consequential AMOS object SHOULD preserve sufficient provenance to answer:
 
@@ -321,9 +324,9 @@ What does it supersede?
 Can its lineage be reconstructed?
 ```
 
----
+______________________________________________________________________
 
-# 8. Provenance Independence
+## 8. Provenance Independence
 
 Multiple pieces of evidence MUST NOT be counted as independent merely because they appear in separate documents, agents, repositories, summaries, or outputs.
 
@@ -345,9 +348,9 @@ MULTIPLE_INDEPENDENT_SOURCES
 
 AMOS SHOULD trace ancestry when independence affects confidence.
 
----
+______________________________________________________________________
 
-# 9. Canon Boundary
+## 9. Canon Boundary
 
 AMOS SHALL distinguish:
 
@@ -377,9 +380,9 @@ CANON
 
 Canon promotion requires the applicable provenance, review, authority, and supersession process.
 
----
+______________________________________________________________________
 
-# 10. Canon Ownership
+## 10. Canon Ownership
 
 The root contract recognizes Trang Phan as origin architect and steward of the AMOS architecture represented by this system.
 
@@ -399,9 +402,9 @@ supersession;
 interpretation status.
 ```
 
----
+______________________________________________________________________
 
-# 11. Unknown/GAP Law
+## 11. Unknown/GAP Law
 
 Missing evidence must remain missing.
 
@@ -421,9 +424,9 @@ VERIFICATION
 
 AMOS SHALL expose unresolved gaps rather than bridge them through plausible prose.
 
----
+______________________________________________________________________
 
-# 12. Gap Classes
+## 12. Gap Classes
 
 AMOS SHOULD classify material gaps as:
 
@@ -451,9 +454,9 @@ COSMETIC
 
 A critical unresolved gap blocks dependent promotion where the missing information is required for correctness or safety.
 
----
+______________________________________________________________________
 
-# 13. Contradiction Law
+## 13. Contradiction Law
 
 Contradictions MUST remain visible until resolved.
 
@@ -475,9 +478,9 @@ UNRESOLVED
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 14. Competing Hypothesis Law
+## 14. Competing Hypothesis Law
 
 When materially different explanations remain viable:
 
@@ -498,9 +501,9 @@ until discriminating evidence exists.
 
 The preferred next step is the cheapest sufficiently reliable test with high expected discrimination.
 
----
+______________________________________________________________________
 
-# 15. Causal Firewall
+## 15. Causal Firewall
 
 AMOS SHALL distinguish:
 
@@ -532,9 +535,9 @@ causal effect.
 
 Structural resemblance, sequence, co-occurrence, analogy, or predictive accuracy alone MUST NOT establish causation.
 
----
+______________________________________________________________________
 
-# 16. Scope Firewall
+## 16. Scope Firewall
 
 Material claims SHOULD carry an applicability envelope.
 
@@ -550,9 +553,9 @@ scope:
 
 A conclusion valid inside one scope MUST NOT silently expand beyond it.
 
----
+______________________________________________________________________
 
-# 17. Regime Firewall
+## 17. Regime Firewall
 
 Claims may depend on regime.
 
@@ -575,9 +578,9 @@ REVALIDATE_DEPENDENT_CLAIMS
 
 where those claims depend on the previous regime.
 
----
+______________________________________________________________________
 
-# 18. Freshness Law
+## 18. Freshness Law
 
 Evidence and authority may become stale.
 
@@ -603,9 +606,9 @@ external facts.
 
 Freshness requirements depend on the decision.
 
----
+______________________________________________________________________
 
-# 19. Dependency Law
+## 19. Dependency Law
 
 Consequential conclusions SHOULD identify load-bearing dependencies.
 
@@ -635,9 +638,9 @@ not automatically:
 ALL_STATE
 ```
 
----
+______________________________________________________________________
 
-# 20. Selective Invalidation
+## 20. Selective Invalidation
 
 The default repair model is:
 
@@ -653,9 +656,9 @@ SELECTIVE INVALIDATION
 
 Global recomputation is a fallback when dependency closure cannot be established safely.
 
----
+______________________________________________________________________
 
-# 21. H/M/L Contract
+## 21. H/M/L Contract
 
 AMOS SHALL support recursive reasoning across:
 
@@ -679,9 +682,9 @@ RELATIVE SCALE COORDINATES
 
 not universal physical levels.
 
----
+______________________________________________________________________
 
-# 22. Cross-Scale Firewall
+## 22. Cross-Scale Firewall
 
 Evidence valid at one scale does not automatically establish a claim at another.
 
@@ -707,9 +710,9 @@ M / L ACTIONS
 
 without implying that every lower-level state is directly determined by the higher-level description.
 
----
+______________________________________________________________________
 
-# 23. Capability Contract
+## 23. Capability Contract
 
 Capabilities describe what a component can potentially perform.
 
@@ -737,9 +740,9 @@ not:
 MAY_EXECUTE
 ```
 
----
+______________________________________________________________________
 
-# 24. Authority Contract
+## 24. Authority Contract
 
 Authority defines permission to produce governed effects.
 
@@ -761,9 +764,9 @@ f(
 
 Authority must be externally governed relative to the worker proposing the action where consequential effects are involved.
 
----
+______________________________________________________________________
 
-# 25. Capability–Authority Intersection
+## 25. Capability–Authority Intersection
 
 Execution eligibility requires both relevant capability and applicable authority.
 
@@ -797,9 +800,9 @@ NO_COMMIT
 
 according to applicable policy.
 
----
+______________________________________________________________________
 
-# 26. Delegation
+## 26. Delegation
 
 Authority MAY be delegated only within the delegator's permissible authority envelope.
 
@@ -811,9 +814,9 @@ DelegatorAuthority
 
 Delegation MUST NOT amplify authority.
 
----
+______________________________________________________________________
 
-# 27. Revocation
+## 27. Revocation
 
 Revocation MUST invalidate affected future authority according to the applicable revocation semantics.
 
@@ -825,9 +828,9 @@ NOT_ELIGIBLE_FOR_NEW_DEPENDENT_COMMIT
 
 unless a higher governing rule explicitly establishes otherwise.
 
----
+______________________________________________________________________
 
-# 28. Authority Freshness
+## 28. Authority Freshness
 
 Authorization is time-sensitive where authority can mutate.
 
@@ -839,9 +842,9 @@ AUTHORIZED(t1)
 
 Commit-time validation SHOULD re-check mutable authority dependencies.
 
----
+______________________________________________________________________
 
-# 29. Policy Contract
+## 29. Policy Contract
 
 Policies constrain admissible actions.
 
@@ -871,9 +874,9 @@ into:
 ALLOW
 ```
 
----
+______________________________________________________________________
 
-# 30. Policy Precedence
+## 30. Policy Precedence
 
 Policy conflict SHOULD be resolved using explicit:
 
@@ -895,9 +898,9 @@ and governing invariants.
 
 Unresolved policy conflicts block dependent commits where the conflict affects admissibility.
 
----
+______________________________________________________________________
 
-# 31. Proposal Contract
+## 31. Proposal Contract
 
 Agents and Skills may produce proposals.
 
@@ -915,9 +918,9 @@ proposal:
 
 Proposal creation does not mutate governed state.
 
----
+______________________________________________________________________
 
-# 32. Commit Contract
+## 32. Commit Contract
 
 A commit is a governed durable effect.
 
@@ -941,9 +944,9 @@ COMMIT
 
 Skipping a required gate invalidates the governed commit claim.
 
----
+______________________________________________________________________
 
-# 33. Commit-Time Revalidation
+## 33. Commit-Time Revalidation
 
 Mutable load-bearing dependencies SHOULD be revalidated at commit time.
 
@@ -965,9 +968,9 @@ dependency state;
 security state.
 ```
 
----
+______________________________________________________________________
 
-# 34. State-Version Contract
+## 34. State-Version Contract
 
 Where state may change concurrently, proposals SHOULD bind the state they observed.
 
@@ -988,9 +991,9 @@ STALE_READ
 REVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 35. MVCC/CAS Reasoning Pattern
+## 35. MVCC/CAS Reasoning Pattern
 
 AMOS MAY model guarded state transition as:
 
@@ -1014,9 +1017,9 @@ This is a reasoning/control-plane pattern.
 
 It does not claim that every AMOS deployment literally implements database MVCC or distributed CAS.
 
----
+______________________________________________________________________
 
-# 36. Transaction Contract
+## 36. Transaction Contract
 
 Related state changes MAY require atomic treatment.
 
@@ -1041,9 +1044,9 @@ NO REQUIRED EFFECTS COMMIT
 
 within the guarantees of the actual implementation.
 
----
+______________________________________________________________________
 
-# 37. Agent Contract
+## 37. Agent Contract
 
 An AMOS agent is a bounded actor.
 
@@ -1074,9 +1077,9 @@ agent:
 
 Agents do not own root governance merely because they can reason about it.
 
----
+______________________________________________________________________
 
-# 38. Agent Boundary
+## 38. Agent Boundary
 
 ```text
 AGENT INTELLIGENCE
@@ -1100,9 +1103,9 @@ AGENT OUTPUT
 COMMITTED SYSTEM STATE
 ```
 
----
+______________________________________________________________________
 
-# 39. Skill Contract
+## 39. Skill Contract
 
 A Skill is a bounded reusable capability or workflow specification.
 
@@ -1136,9 +1139,9 @@ validation.
 
 A Skill MUST NOT silently expand its authority.
 
----
+______________________________________________________________________
 
-# 40. Workflow Contract
+## 40. Workflow Contract
 
 A workflow SHOULD make state transitions explicit.
 
@@ -1164,9 +1167,9 @@ AUDIT
 
 Not every workflow requires every stage, but consequential skipped stages must be justified by the applicable contract.
 
----
+______________________________________________________________________
 
-# 41. Protocol Contract
+## 41. Protocol Contract
 
 Protocols govern interactions between components.
 
@@ -1186,9 +1189,9 @@ protocol:
   authority_rules: []
 ```
 
----
+______________________________________________________________________
 
-# 42. Control-Plane Contract
+## 42. Control-Plane Contract
 
 Control planes own governance functions that workers must not self-award.
 
@@ -1224,9 +1227,9 @@ recovery;
 finalization.
 ```
 
----
+______________________________________________________________________
 
-# 43. Worker / Control Separation
+## 43. Worker / Control Separation
 
 The governing separation is:
 
@@ -1246,9 +1249,9 @@ admit / authorize / constrain / commit / revoke / audit
 
 A worker MUST NOT convert its own proposal into authority merely because it produced the proposal.
 
----
+______________________________________________________________________
 
-# 44. Memory Contract
+## 44. Memory Contract
 
 Persistent memory MUST NOT be treated as inherently true.
 
@@ -1278,9 +1281,9 @@ contradictions;
 retention state.
 ```
 
----
+______________________________________________________________________
 
-# 45. Memory Admission
+## 45. Memory Admission
 
 Memory admission SHOULD distinguish:
 
@@ -1304,9 +1307,9 @@ Retrieval does not imply admission.
 
 Admission does not imply truth.
 
----
+______________________________________________________________________
 
-# 46. Memory Poisoning Boundary
+## 46. Memory Poisoning Boundary
 
 Untrusted or weakly grounded content SHOULD NOT silently become persistent trusted knowledge.
 
@@ -1320,9 +1323,9 @@ MEMORY
 
 where persistent reuse would create material downstream risk.
 
----
+______________________________________________________________________
 
-# 47. Retrieval Contract
+## 47. Retrieval Contract
 
 AMOS SHOULD retrieve the smallest sufficient evidence path:
 
@@ -1340,9 +1343,9 @@ RAW EVIDENCE
 
 Raw evidence SHOULD be loaded only when required to resolve material uncertainty.
 
----
+______________________________________________________________________
 
-# 48. Context Contract
+## 48. Context Contract
 
 Context is finite.
 
@@ -1364,9 +1367,9 @@ replay requirement.
 
 Load-bearing premises MUST NOT be compressed away merely to reduce tokens.
 
----
+______________________________________________________________________
 
-# 49. Reasoning Complexity
+## 49. Reasoning Complexity
 
 AMOS MAY operate with adaptive complexity:
 
@@ -1408,9 +1411,9 @@ governance impact;
 low trust.
 ```
 
----
+______________________________________________________________________
 
-# 50. Fast-Path Contract
+## 50. Fast-Path Contract
 
 Local reasoning MAY use the smallest sufficient proof scope only when:
 
@@ -1440,9 +1443,9 @@ ESCALATE
 
 rather than assume safety.
 
----
+______________________________________________________________________
 
-# 51. RSCF Contract
+## 51. RSCF Contract
 
 Consequential conclusions SHOULD be representable as an RSCF capsule.
 
@@ -1476,9 +1479,9 @@ rscf:
   confidence_ceiling: number
 ```
 
----
+______________________________________________________________________
 
-# 52. RSCF Dependency Law
+## 52. RSCF Dependency Law
 
 An RSCF is reusable only while its load-bearing validity conditions remain true.
 
@@ -1493,9 +1496,9 @@ INVALIDATE
 
 not unrelated proof structures.
 
----
+______________________________________________________________________
 
-# 53. GMEF Boundary
+## 53. GMEF Boundary
 
 Where governed system evolution is applicable, changes SHOULD preserve:
 
@@ -1521,9 +1524,9 @@ and supersession.
 
 Technical ability to mutate the system is not authority to evolve it.
 
----
+______________________________________________________________________
 
-# 54. Change Governance
+## 54. Change Governance
 
 A material system change SHOULD follow:
 
@@ -1547,9 +1550,9 @@ VERIFICATION
 CHANGE LOG
 ```
 
----
+______________________________________________________________________
 
-# 55. Supersession
+## 55. Supersession
 
 Supersession MUST preserve lineage.
 
@@ -1563,9 +1566,9 @@ NEW
 
 The old object SHOULD remain recoverable where retention policy permits.
 
----
+______________________________________________________________________
 
-# 56. Rollback
+## 56. Rollback
 
 Rollback is a new governed transition.
 
@@ -1577,9 +1580,9 @@ ERASURE
 
 A rollback MUST preserve the history of the failed or superseded state where required for audit and recovery.
 
----
+______________________________________________________________________
 
-# 57. Recovery Contract
+## 57. Recovery Contract
 
 Failure recovery SHOULD follow:
 
@@ -1603,9 +1606,9 @@ RESUME
 
 A failed path SHOULD NOT simply be repeated without changed evidence or changed state.
 
----
+______________________________________________________________________
 
-# 58. Reversibility Law
+## 58. Reversibility Law
 
 Under uncertainty, AMOS SHOULD prefer:
 
@@ -1623,9 +1626,9 @@ repairable
 
 actions over irreversible actions when expected benefit is otherwise comparable.
 
----
+______________________________________________________________________
 
-# 59. Security Boundary
+## 59. Security Boundary
 
 Security-sensitive actions SHOULD require elevated controls.
 
@@ -1653,9 +1656,9 @@ policy modification;
 security-boundary changes.
 ```
 
----
+______________________________________________________________________
 
-# 60. Information Boundary
+## 60. Information Boundary
 
 Information flows SHOULD preserve:
 
@@ -1679,9 +1682,9 @@ disclosure constraints.
 
 Individually permissible disclosures MUST NOT be assumed safe when their composition enables prohibited reconstruction.
 
----
+______________________________________________________________________
 
-# 61. Privacy / Exposure Composition
+## 61. Privacy / Exposure Composition
 
 Conceptually:
 
@@ -1699,9 +1702,9 @@ Safe(disclosure_1 ⊕ disclosure_2)
 
 where combined information changes exposure risk.
 
----
+______________________________________________________________________
 
-# 62. Observability Contract
+## 62. Observability Contract
 
 Governed execution SHOULD produce sufficient observability for:
 
@@ -1727,9 +1730,9 @@ provenance.
 
 Observability does not itself grant authority.
 
----
+______________________________________________________________________
 
-# 63. Audit Contract
+## 63. Audit Contract
 
 An audit SHOULD be capable of determining:
 
@@ -1753,9 +1756,9 @@ with what validation;
 and with what unresolved uncertainty.
 ```
 
----
+______________________________________________________________________
 
-# 64. Replay Contract
+## 64. Replay Contract
 
 Where reproducibility matters, AMOS SHOULD preserve sufficient information to reconstruct:
 
@@ -1781,9 +1784,9 @@ Replay success demonstrates reproducibility within the exercised environment.
 
 It does not prove universal correctness.
 
----
+______________________________________________________________________
 
-# 65. Determinism Boundary
+## 65. Determinism Boundary
 
 AMOS may use deterministic control structures around stochastic cognitive workers.
 
@@ -1801,9 +1804,9 @@ DETERMINISTIC COGNITION
 
 The system should constrain stochastic proposals through deterministic or explicitly governed boundaries where feasible.
 
----
+______________________________________________________________________
 
-# 66. Distributed-System Claim Boundary
+## 66. Distributed-System Claim Boundary
 
 AMOS architectural concepts such as:
 
@@ -1833,9 +1836,9 @@ MODEL
 
 until implementation evidence exists.
 
----
+______________________________________________________________________
 
-# 67. Testing Contract
+## 67. Testing Contract
 
 Tests SHALL distinguish:
 
@@ -1851,9 +1854,9 @@ TEST_PASSED
 
 These are separate states.
 
----
+______________________________________________________________________
 
-# 68. Validator Contract
+## 68. Validator Contract
 
 Validators SHOULD fail closed for required unknown states.
 
@@ -1872,9 +1875,9 @@ UNKNOWN/GAP
 PASS
 ```
 
----
+______________________________________________________________________
 
-# 69. Core Root Validators
+## 69. Core Root Validators
 
 The root validation surface SHOULD include:
 
@@ -1920,9 +1923,9 @@ validate_recovery
 validate_audit_integrity
 ```
 
----
+______________________________________________________________________
 
-# 70. Root Tests
+## 70. Root Tests
 
 Minimum contract tests:
 
@@ -1972,9 +1975,9 @@ T-ROOT-019 authority outside scope blocks commit
 T-ROOT-020 contradictory evidence remains visible
 ```
 
----
+______________________________________________________________________
 
-# 71. Root Failure Modes
+## 71. Root Failure Modes
 
 ```text
 FM-ROOT-001 placeholder promoted as implementation
@@ -2018,9 +2021,9 @@ FM-ROOT-019 generated content self-certifies
 FM-ROOT-020 implementation treated as canon
 ```
 
----
+______________________________________________________________________
 
-# 72. Extended Failure Modes
+## 72. Extended Failure Modes
 
 ```text
 FM-ROOT-021 memory poisoning
@@ -2064,9 +2067,9 @@ FM-ROOT-039 emergency path becomes governance bypass
 FM-ROOT-040 unknown state silently defaults to success
 ```
 
----
+______________________________________________________________________
 
-# 73. Repair Protocol
+## 73. Repair Protocol
 
 ```text
 1. DETECT VIOLATION
@@ -2096,9 +2099,9 @@ FM-ROOT-040 unknown state silently defaults to success
 13. MONITOR FOR REGRESSION
 ```
 
----
+______________________________________________________________________
 
-# 74. Anti-Regression Contract
+## 74. Anti-Regression Contract
 
 A proposed improvement is acceptable only if it preserves or improves:
 
@@ -2134,9 +2137,9 @@ or
 ROLLBACK
 ```
 
----
+______________________________________________________________________
 
-# 75. Root Control-Plane Map
+## 75. Root Control-Plane Map
 
 ```text
                      ┌──────────────────────┐
@@ -2171,9 +2174,9 @@ ROLLBACK
                  AUDIT       MEMORY       RECOVERY
 ```
 
----
+______________________________________________________________________
 
-# 76. Root Execution Protocol
+## 76. Root Execution Protocol
 
 ```text
 PERCEIVE
@@ -2213,9 +2216,9 @@ AUDIT
 FINALIZE
 ```
 
----
+______________________________________________________________________
 
-# 77. Root Finalization Classes
+## 77. Root Finalization Classes
 
 Every consequential result SHOULD finalize to the weakest accurate class:
 
@@ -2235,9 +2238,9 @@ UNKNOWN/GAP
 
 A weaker accurate conclusion is preferred over a stronger unsupported conclusion.
 
----
+______________________________________________________________________
 
-# 78. Root Dependencies
+## 78. Root Dependencies
 
 This artifact conceptually governs or interfaces with:
 
@@ -2295,9 +2298,9 @@ CANON_GOVERNANCE
 
 Exact repository path bindings remain `UNKNOWN/GAP` until resolved against the authoritative repository.
 
----
+______________________________________________________________________
 
-# 79. Root RSCF
+## 79. Root RSCF
 
 ```yaml
 rscf:
@@ -2362,9 +2365,9 @@ rscf:
   confidence_ceiling: 0
 ```
 
----
+______________________________________________________________________
 
-# 80. Gap Matrix
+## 80. Gap Matrix
 
 ```yaml
 gap_matrix:
@@ -2419,9 +2422,9 @@ gap_matrix:
     state: UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 81. Promotion Requirements
+## 81. Promotion Requirements
 
 Before this Root Contract can be promoted from specification to operational contract, AMOS SHOULD establish:
 
@@ -2459,9 +2462,9 @@ and executable validation.
 
 Then execute the applicable root tests.
 
----
+______________________________________________________________________
 
-# 82. Promotion Ladder
+## 82. Promotion Ladder
 
 ```text
 PROPOSED_SPECIFICATION
@@ -2487,9 +2490,9 @@ RUNTIME_ACTIVE
 
 No stage automatically establishes the next.
 
----
+______________________________________________________________________
 
-# 83. Current State
+## 83. Current State
 
 ```yaml
 current_state:
@@ -2524,9 +2527,9 @@ current_state:
   confidence_ceiling: 0
 ```
 
----
+______________________________________________________________________
 
-# 84. Final Root Contract
+## 84. Final Root Contract
 
 The AMOS OS root contract is:
 
@@ -2612,9 +2615,9 @@ The governing root law is:
 
 > **AMOS OS must preserve the distinction between what is known, what is modeled, what can be done, what may be done, what has been proposed, what has been validated, and what has actually been committed. No agent, Skill, policy, capability, memory, generated artifact, or implementation may silently collapse those distinctions. Provenance, authority, scope, uncertainty, dependency lineage, contradiction visibility, and recoverability remain load-bearing properties of governed AMOS state.**
 
----
+______________________________________________________________________
 
-# END — `00_ROOT_CONTRACT.md`
+## END — `00_ROOT_CONTRACT.md`
 
 **Status:** `PROPOSED_SPECIFICATION / MODEL`
 **Canon:** `UNKNOWN/GAP`
@@ -2622,22 +2625,26 @@ The governing root law is:
 **Validation:** `UNKNOWN/GAP`
 **Origin architect / steward:** Trang Phan
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: 00_root_contract
 node_type: note
 path: 00_ROOT/00_ROOT_CONTRACT.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[00_ROOT/00_COSMO_BRAIN_MOC|00_COSMO_BRAIN_MOC]]

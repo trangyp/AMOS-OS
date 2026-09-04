@@ -1,14 +1,17 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: INDEX REPAIR GAP REPORT 2026-08-26
 type: index
 source: 00_ROOT
 canon-group: reference
 rscf-state: derived
 tags:
-- gap-report
-- audit
-- canon/root
-- skill
+  - gap-report
+  - audit
+  - canon/root
+  - skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -24,20 +27,20 @@ rscf:
 
 ## Summary
 
-| Zone | Files on disk | Before (indexed) | After (indexed) | Coverage before | Coverage after |
-|------|--------------|-------------------|------------------|-----------------|----------------|
-| `11_KNOWLEDGE/_arxiv_md/` | 66,028 | 21,778 | 66,028 (68,379 entries w/ cross-listings) | 33% | 100% |
-| `25_COGNITIVE_MATRIX/` | 1,551 | 1,548 | 1,551 | 99.8% | 100% |
-| `11_KNOWLEDGE/Cosmo_Brain/` (symlink) | 8,253* | 223 (in Cosmo_Brain_MOC) | 8,253 (comprehensive bridge) | 2.7% | 100% |
-| `00_ROOT` | 41 | 40 | 41 | 97.6% | 100% |
-| `06_AGENTS` | 6 | 5 | 6 | 83.3% | 100% |
-| `07_SKILLS` | 12 | 8 | 12 | 66.7% | 100% |
-| `08_WORKFLOWS` | 6 | 5 | 6 | 83.3% | 100% |
-| `Templates` | 1 | 0 | 1 | 0% | 100% |
-| All other 17 zones | 1,100 | 1,100 | 1,100 | 100% | 100% |
-| **Total (28 zones)** | **77,204** | **23,549** | **77,204** | **30.5%** | **100%** |
+| Zone                                  | Files on disk | Before (indexed)         | After (indexed)                           | Coverage before | Coverage after |
+| ------------------------------------- | ------------- | ------------------------ | ----------------------------------------- | --------------- | -------------- |
+| `11_KNOWLEDGE/_arxiv_md/`             | 66,028        | 21,778                   | 66,028 (68,379 entries w/ cross-listings) | 33%             | 100%           |
+| `25_COGNITIVE_MATRIX/`                | 1,551         | 1,548                    | 1,551                                     | 99.8%           | 100%           |
+| `11_KNOWLEDGE/Cosmo_Brain/` (symlink) | 8,253\*       | 223 (in Cosmo_Brain_MOC) | 8,253 (comprehensive bridge)              | 2.7%            | 100%           |
+| `00_ROOT`                             | 41            | 40                       | 41                                        | 97.6%           | 100%           |
+| `06_AGENTS`                           | 6             | 5                        | 6                                         | 83.3%           | 100%           |
+| `07_SKILLS`                           | 12            | 8                        | 12                                        | 66.7%           | 100%           |
+| `08_WORKFLOWS`                        | 6             | 5                        | 6                                         | 83.3%           | 100%           |
+| `Templates`                           | 1             | 0                        | 1                                         | 0%              | 100%           |
+| All other 17 zones                    | 1,100         | 1,100                    | 1,100                                     | 100%            | 100%           |
+| **Total (28 zones)**                  | **77,204**    | **23,549**               | **77,204**                                | **30.5%**       | **100%**       |
 
-*Cosmo_Brain file count excludes node_modules, .git, .pytest_cache, .next, dist, build, coverage, .cache, __mocks__, .obsidian, .amos, .hermes, .obsidian-mcp (junk/third-party dirs).
+\*Cosmo_Brain file count excludes node_modules, .git, .pytest_cache, .next, dist, build, coverage, .cache, __mocks__, .obsidian, .amos, .hermes, .obsidian-mcp (junk/third-party dirs).
 
 ## Zone 1: `_arxiv_md/` — FIXED (three passes)
 
@@ -54,14 +57,15 @@ rscf:
 **Fix:** Python script read first 30 lines of each "Other" file (title + abstract + first content page), reclassified by expanded content keyword matching (200+ keywords across 3 domains).
 
 **Reclassification results:**
-| Section | Before pass 2 | After pass 2 | Change |
-|---------|--------------|-------------|--------|
-| Quantum | 3,619 | 4,624 | +1,005 |
-| Fractal | 1,337 | 3,826 | +2,489 |
-| Math | 16,638 | 33,871 | +17,233 |
-| QFM (multi-domain) | 1,654 | 7,063 | +5,409 |
-| Other / Unclassified | 45,131 | 18,995 | -26,136 |
-| **Total** | **68,379** | **68,379** | 0 |
+
+| Section              | Before pass 2 | After pass 2 | Change  |
+| -------------------- | ------------- | ------------ | ------- |
+| Quantum              | 3,619         | 4,624        | +1,005  |
+| Fractal              | 1,337         | 3,826        | +2,489  |
+| Math                 | 16,638        | 33,871       | +17,233 |
+| QFM (multi-domain)   | 1,654         | 7,063        | +5,409  |
+| Other / Unclassified | 45,131        | 18,995       | -26,136 |
+| **Total**            | **68,379**    | **68,379**   | 0       |
 
 ### Pass 3: C01-C12 domain classification
 
@@ -70,21 +74,22 @@ rscf:
 **Fix:** Python script read first 30 lines of each remaining "Other" file, reclassified by C01-C12 domain keyword matching (800+ keywords across 12 domains).
 
 **Reclassification results (pass 3a — automated):**
-| Section | Count |
-|---------|-------|
-| C01 Meta-Logic | 3,444 |
-| C02 Math & Compute | 10,123 |
-| C03 Physics & Cosmos | 2,352 |
-| C04 Bio & Neuro | 1,390 |
-| C05 Mind & Behavior | 561 |
-| C06 Society & Culture | 924 |
-| C07 Econ & Finance | 37 |
-| C08 Strategy & Game | 30 |
-| C09 Org, Law & Policy | 45 |
-| C10 Tech & Engineering | 38 |
-| C11 Design & Language | 16 |
-| C12 Earth & Ecology | 9 |
-| Other / Unclassified | 26 |
+
+| Section                | Count      |
+| ---------------------- | ---------- |
+| C01 Meta-Logic         | 3,444      |
+| C02 Math & Compute     | 10,123     |
+| C03 Physics & Cosmos   | 2,352      |
+| C04 Bio & Neuro        | 1,390      |
+| C05 Mind & Behavior    | 561        |
+| C06 Society & Culture  | 924        |
+| C07 Econ & Finance     | 37         |
+| C08 Strategy & Game    | 30         |
+| C09 Org, Law & Policy  | 45         |
+| C10 Tech & Engineering | 38         |
+| C11 Design & Language  | 16         |
+| C12 Earth & Ecology    | 9          |
+| Other / Unclassified   | 26         |
 | **Total reclassified** | **18,969** |
 
 ### Pass 3b: Manual classification of final 26
@@ -92,6 +97,7 @@ rscf:
 **Problem:** 26 papers had no detectable domain keywords in their first 30 lines.
 
 **Fix:** Manual classification by title inspection. All 26 assigned to appropriate C-domains:
+
 - 5 → C05 Mind & Behavior (bipolar, sleep, depression, behavioral healthcare, psychometrics)
 - 8 → C10 Tech & Engineering (optical filters, OFDM-ISAC, 3D splatting, eye-tracking, agent skills)
 - 7 → C03 Physics & Cosmos (Cassiopeia A, exoALMA, blazars, gravitational waves, QSO catalog, JWST)
@@ -109,10 +115,13 @@ rscf:
 ## Zone 3: `Cosmo_Brain/` (symlinked external vault) — FIXED (comprehensive bridge)
 
 ### Pass 1: Initial bridge (2,844 entries)
+
 Created `Cosmo_Brain_BRIDGE_INDEX.md` covering docs/moc/, docs/brain/, cosmo-brain/, and top-level files.
 
 ### Pass 2: Comprehensive extension (8,253 entries)
+
 Extended bridge to cover ALL meaningful subdirectories:
+
 - `docs/` — 2,791 files (brain specs, MOCs, architecture, product, plans)
 - `_00_Cosmo brain/` — 2,661 files (source brain specs, 47 subdirectories: misc, amos-general, engine, kernel, brain, vietnamese, quantum, logic, trang, fractal, cognitive, economy, math, models, governance, biology-ubi, tech-coding, etc.)
 - `.devin/` — 717 files (skills, workflows, agents)
@@ -123,7 +132,7 @@ Extended bridge to cover ALL meaningful subdirectories:
 - `.github/` — 8 files (copilot-instructions, workflows)
 - `packages/` — 132 files
 - `supabase/` — 52 files
-- + 8 smaller directories (scripts, services, prompt-exports, daily, references, amos_adapter, md, e2e, levels)
+- - 8 smaller directories (scripts, services, prompt-exports, daily, references, amos_adapter, md, e2e, levels)
 - 57 top-level files
 
 **Excluded (junk/third-party):** node_modules, .git, .turbo, .pytest_cache, __mocks__, .obsidian, .amos, .hermes, .obsidian-mcp, .next, dist, build, coverage, .cache
@@ -132,13 +141,13 @@ Extended bridge to cover ALL meaningful subdirectories:
 
 ## Files modified
 
-| File | Change |
-|------|--------|
-| `11_KNOWLEDGE/_arxiv_md/ARXIV_QFM_MOC.md` | +44,264 entries (pass 1); content reclassification (pass 2); header corrected |
-| `25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC.md` | +3 entries |
-| `11_KNOWLEDGE/Cosmo_Brain_BRIDGE_INDEX.md` | NEW — 8,253 entries, comprehensive bridge |
-| `11_KNOWLEDGE/11_KNOWLEDGE_MOC.md` | +1 bridge index link; arXiv count annotation |
-| `00_ROOT/00_ROOT_MOC.md` | Related MOCs expanded; v2.1.0 changelog |
+| File                                                   | Change                                                                        |
+| ------------------------------------------------------ | ----------------------------------------------------------------------------- |
+| `11_KNOWLEDGE/_arxiv_md/ARXIV_QFM_MOC.md`              | +44,264 entries (pass 1); content reclassification (pass 2); header corrected |
+| `25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC.md` | +3 entries                                                                    |
+| `11_KNOWLEDGE/Cosmo_Brain_BRIDGE_INDEX.md`             | NEW — 8,253 entries, comprehensive bridge                                     |
+| `11_KNOWLEDGE/11_KNOWLEDGE_MOC.md`                     | +1 bridge index link; arXiv count annotation                                  |
+| `00_ROOT/00_ROOT_MOC.md`                               | Related MOCs expanded; v2.1.0 changelog                                       |
 
 ## Files NOT modified (per contract)
 
@@ -155,7 +164,7 @@ Extended bridge to cover ALL meaningful subdirectories:
 - **0 orphan files** — every .md file in the vault has at least one incoming wiki-link.
 - **0 stale MOC entries** — all arXiv MOC entries point to existing files.
 - **0 real broken links** in AMOS_OS navigation files — math notation false positives in 1 arxiv paper escaped with backslashes.
-- **0 broken links** in Cosmo_Brain bridge index — 1 genuine naming mismatch fixed (`arxiv-agent-memory-dynamics-rscf-workflow` → `amos-arxiv-agent-memory-dynamics-rscf-workflow`).
+- **0 broken links** in Cosmo_Brain bridge index — 1 genuine naming mismatch fixed (`amos-arxiv-agent-memory-dynamics-rscf-workflow` → `amos-arxiv-agent-memory-dynamics-rscf-workflow`).
 - **1,158 cross-listed entries** appear in 2+ sections by design (cross-disciplinary papers).
 - **Cosmo_Brain external vault** has ~2,546 files in `node_modules/` and ~586 in other excluded dirs that are third-party dependencies, not brain content. These are deliberately excluded.
 - **1,107 broken wiki-links repaired** across 82+ AMOS_OS navigation files: section-style links converted to file links, skill display names redirected to bridge index, concept abbreviations de-wikilinked, path-style links corrected to actual filenames.
@@ -168,9 +177,10 @@ Extended bridge to cover ALL meaningful subdirectories:
 - F2: if MOC entries point to non-existent files → broken links. Mitigation: zone 2 verified all 1,551. Zone 3 verified 8,253 = 8,253.
 - F3: if UNKNOWN was promoted to PASS → contract violation. Mitigation: 0 unclassified entries remain. All 66,028 papers are domain-classified.
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · ARXIV_QFM_MOC · Cosmo_Brain_BRIDGE_INDEX · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]]
 
----
+______________________________________________________________________
+
 **MOC:** [[00_ROOT/00_COSMO_BRAIN_MOC|00_COSMO_BRAIN_MOC]]

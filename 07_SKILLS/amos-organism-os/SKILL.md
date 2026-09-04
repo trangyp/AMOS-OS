@@ -4,25 +4,22 @@ title: SKILL — Amos Organism Os
 type: skill
 source: 07_SKILLS/amos-organism-os
 name: amos-organism-os
-description: Organism Os — canon and universe capability. Use when canon reasoning,
-  universe-level analysis, or invariant verification. Use when amos-canon-universe-master
-  routes to this specialized capability. Do not use for generic tasks outside canon
-  domain.
+description: Organism Os — canon and universe capability. Use when canon reasoning, universe-level analysis, or invariant verification. Use when amos-canon-universe-master routes to this specialized capability. Do not use for generic tasks outside canon domain.
 parent_skill: amos-canon-universe-master
 domain: canon
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
 tags:
-- type/skill
-- type/skill
-- domain/canon-universe
-- epistemic/source_claim
-- hml/h
-- epistemic/source_claim
-- amos-os
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/canon-universe
+  - epistemic/source_claim
+  - hml/h
+  - epistemic/source_claim
+  - amos-os
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -32,26 +29,26 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: H
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L3_dependency
-- L5_scope
-- L7_authority
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L3_dependency
+  - L5_scope
+  - L7_authority
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L3
-- L4
-- L5
-- L7
-- L16
-- L17
-- L18
-- L19
+  - L0
+  - L1
+  - L2
+  - L3
+  - L4
+  - L5
+  - L7
+  - L16
+  - L17
+  - L18
+  - L19
 license: MIT
 steward: Trang Phan
 ---
@@ -61,6 +58,7 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: canon. Parent: amos-canon-universe-master. Epistemic class: SOURCE_CLAIM. H/M/L: H.
+
 ## When to Use
 
 - When compiling canonical structure from vault sources
@@ -86,13 +84,13 @@ Origin architect: **Trang Phan**. Domain: canon. Parent: amos-canon-universe-mas
 ## Operations
 
 1. **organism.compile_canon**: Compile canonical structure from sources into a consistent, navigable canon
-2. **organism.check_consistency**: Check canon consistency: no contradictions, no gaps, no orphan references
-3. **organism.enforce_invariant**: Enforce canon invariants: structural laws that must hold across all parts
-4. **organism.navigate_canon**: Navigate canon: locate the canonical part for any topic or query
-5. **organism.validate_substrate**: Validate canonical software substrate against canon requirements
-6. **organism.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-7. **organism.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
-8. **organism.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+1. **organism.check_consistency**: Check canon consistency: no contradictions, no gaps, no orphan references
+1. **organism.enforce_invariant**: Enforce canon invariants: structural laws that must hold across all parts
+1. **organism.navigate_canon**: Navigate canon: locate the canonical part for any topic or query
+1. **organism.validate_substrate**: Validate canonical software substrate against canon requirements
+1. **organism.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+1. **organism.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+1. **organism.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## Vault-Sourced Domain Knowledge
 
@@ -127,7 +125,6 @@ The Cognitive Organism OS defines a maximum-detail unified cognitive-life archit
 
 AMOS Cognitive Organism OS is an operational systems architecture. It does not prove a software system is biologically alive, physically embodied, phenomenally conscious, emotionally sentient, self-causing, morally autonomous, independently sovereign, or causally closed. The organism vocabulary is architectural, not biological.
 
-
 ## Failure Modes
 
 - **Insufficient evidence**: If source material is insufficient, mark as UNKNOWN/GAP and fail closed — do not fabricate.
@@ -142,7 +139,8 @@ AMOS Cognitive Organism OS is an operational systems architecture. It does not p
 - **G2 (Epistemic class)**: All claims labeled SOURCE / DERIVED / AMOS_MODEL / EMPIRICAL — never claim beyond evidence.
 - **G3 (Provenance)**: Source path recorded
 
----
+______________________________________________________________________
+
 **Links:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 ## Related
@@ -152,17 +150,19 @@ AMOS Cognitive Organism OS is an operational systems architecture. It does not p
 ## Examples
 
 - **Scenario**: When compiling canonical structure from vault sources
+
   - **Input**: A query matching this skill's domain (canon)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When checking canon consistency for contradictions and gaps
+
   - **Input**: A query matching this skill's domain (canon)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When enforcing canon invariants across all parts
+
   - **Input**: A query matching this skill's domain (canon)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Anti-Patterns
 
@@ -172,7 +172,6 @@ AMOS Cognitive Organism OS is an operational systems architecture. It does not p
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `amos-canon-universe-master` — routes to this skill when canon specialization is needed
@@ -180,7 +179,6 @@ AMOS Cognitive Organism OS is an operational systems architecture. It does not p
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -199,7 +197,6 @@ AMOS Cognitive Organism OS is an operational systems architecture. It does not p
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -207,7 +204,6 @@ AMOS Cognitive Organism OS is an operational systems architecture. It does not p
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -220,11 +216,12 @@ AMOS Cognitive Organism OS is an operational systems architecture. It does not p
 
 - `references/bluememory_water_scarcity_os.md` — loaded on demand
 - `references/references_MOC.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `amos-canon-universe-master` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `amos-organism-os-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -232,12 +229,14 @@ AMOS Cognitive Organism OS is an operational systems architecture. It does not p
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-organism-os
 node_type: skill
 path: 07_SKILLS/amos-organism-os/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

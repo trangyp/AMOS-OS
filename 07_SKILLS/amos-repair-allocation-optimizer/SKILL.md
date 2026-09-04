@@ -4,25 +4,22 @@ title: SKILL — Amos Repair Allocation Optimizer
 type: skill
 source: 07_SKILLS/amos-repair-allocation-optimizer
 name: amos-repair-allocation-optimizer
-description: Repair Allocation Optimizer — audit and repair capability. Use when auditing,
-  failure analysis, gap discovery, or repair allocation. Use when amos-audit-repair-master
-  routes to this specialized capability. Do not use for generic tasks outside audit
-  domain.
+description: Repair Allocation Optimizer — audit and repair capability. Use when auditing, failure analysis, gap discovery, or repair allocation. Use when amos-audit-repair-master routes to this specialized capability. Do not use for generic tasks outside audit domain.
 parent_skill: amos-audit-repair-master
 domain: audit
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
 tags:
-- type/skill
-- type/skill
-- domain/audit-repair
-- epistemic/source_claim
-- hml/m
-- epistemic/source_claim
-- amos-os
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/audit-repair
+  - epistemic/source_claim
+  - hml/m
+  - epistemic/source_claim
+  - amos-os
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -32,25 +29,25 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: M
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
-- L7_authority
-- L22_replayability
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
+  - L7_authority
+  - L22_replayability
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L7
-- L16
-- L17
-- L18
-- L22
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L7
+  - L16
+  - L17
+  - L18
+  - L22
 license: MIT
 steward: Trang Phan
 ---
@@ -60,6 +57,7 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: audit. Parent: amos-audit-repair-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
 ## When to Use
 
 - When auditing claims against evidence and provenance
@@ -87,13 +85,13 @@ Origin architect: **Trang Phan**. Domain: audit. Parent: amos-audit-repair-maste
 ## Operations
 
 1. **repair_allocation.audit_claim**: Audit claims against evidence, provenance, and epistemic class
-2. **repair_allocation.detect_gap**: Detect gaps: missing capabilities, missing evidence, missing tests, missing monitors
-3. **repair_allocation.allocate_repair**: Allocate repair resources to highest-leverage gaps and failure modes
-4. **repair_allocation.verify_closure**: Verify gap closure: requirement → capability → component → test → evidence
-5. **repair_allocation.benchmark_forensics**: Benchmark forensic analysis: trace performance regressions to root causes
-6. **repair_allocation.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-7. **repair_allocation.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
-8. **repair_allocation.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+1. **repair_allocation.detect_gap**: Detect gaps: missing capabilities, missing evidence, missing tests, missing monitors
+1. **repair_allocation.allocate_repair**: Allocate repair resources to highest-leverage gaps and failure modes
+1. **repair_allocation.verify_closure**: Verify gap closure: requirement → capability → component → test → evidence
+1. **repair_allocation.benchmark_forensics**: Benchmark forensic analysis: trace performance regressions to root causes
+1. **repair_allocation.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+1. **repair_allocation.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+1. **repair_allocation.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## 11_KNOWLEDGE Vault Content
 
@@ -105,30 +103,35 @@ Origin architect: **Trang Phan**. Domain: audit. Parent: amos-audit-repair-maste
 From Cosmo Brain Overlooked: Repair allocation optimizer as module #37 in R (Repair) category. From Distinction-Mutation-Entropy-Repair: Repair priority formula.
 
 **Repair allocation equation** (AMOS_MODEL):
+
 ```
 R = (repair_capacity × recovery_window) / (damage_rate + latency)
 ```
+
 - R = repair feasibility, repair_capacity = available repair resources, recovery_window = time available for repair
 - damage_rate = rate of ongoing damage, latency = repair latency
 
 **Allocation optimization model**:
+
 - **Repair capacity**: available resources for repair (people, compute, time)
 - **Recovery window**: time available before damage becomes irreversible
 - **Damage rate**: rate at which the system is degrading
 - **Latency**: time from repair initiation to repair effect
 
 **Optimization protocol**:
+
 1. **Assess damage**: assess the damage rate and severity
-2. **Estimate capacity**: estimate available repair capacity
-3. **Calculate window**: calculate the recovery window
-4. **Compute feasibility**: compute repair feasibility using the equation
-5. **Allocate**: allocate repair resources to maximize feasibility
-6. **Monitor**: monitor repair progress and adjust allocation
+1. **Estimate capacity**: estimate available repair capacity
+1. **Calculate window**: calculate the recovery window
+1. **Compute feasibility**: compute repair feasibility using the equation
+1. **Allocate**: allocate repair resources to maximize feasibility
+1. **Monitor**: monitor repair progress and adjust allocation
 
 **Optimization laws**:
+
 - `FEASIBILITY > 1` required for repair to succeed (capacity × window > damage × latency)
 - `ALLOCATION != REPAIR`: allocation assigns resources; repair executes the work
-- `OPTIMAL != PERFECT**: optimal allocation maximizes feasibility; it does not guarantee success
+- \`OPTIMAL != PERFECT\*\*: optimal allocation maximizes feasibility; it does not guarantee success
 
 ### Epistemic Boundary
 
@@ -142,7 +145,8 @@ Repair allocation optimization is an operational construct. It does not prove op
 - **Validation failure**: If validation gates fail, downgrade confidence, flag the gap, and escalate — do not force-fit.
 - **Epistemic overreach**: If a claim exceeds the established evidence or epistemic class, retract and rela
 
----
+______________________________________________________________________
+
 **Links:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 ## Related
@@ -152,17 +156,19 @@ Repair allocation optimization is an operational construct. It does not prove op
 ## Examples
 
 - **Scenario**: When auditing claims against evidence and provenance
+
   - **Input**: A query matching this skill's domain (audit)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When detecting gaps in capabilities, evidence, tests, or monitors
+
   - **Input**: A query matching this skill's domain (audit)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When allocating repair resources to highest-leverage gaps
+
   - **Input**: A query matching this skill's domain (audit)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Validation Gates
 
@@ -179,7 +185,6 @@ Repair allocation optimization is an operational construct. It does not prove op
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `amos-audit-repair-master` — routes to this skill when audit specialization is needed
@@ -187,7 +192,6 @@ Repair allocation optimization is an operational construct. It does not prove op
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -206,7 +210,6 @@ Repair allocation optimization is an operational construct. It does not prove op
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -214,7 +217,6 @@ Repair allocation optimization is an operational construct. It does not prove op
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -227,11 +229,12 @@ Repair allocation optimization is an operational construct. It does not prove op
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `amos-audit-repair-master` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `amos-repair-allocation-optimizer-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -239,12 +242,14 @@ Repair allocation optimization is an operational construct. It does not prove op
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-repair-allocation-optimizer
 node_type: skill
 path: 07_SKILLS/amos-repair-allocation-optimizer/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

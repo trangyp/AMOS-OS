@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: AMOS MARKET ECON KERNEL V0
 tags:
-- canon-group/tech-ai
-- canon/framework
-- rscf/claim
-- rscf/provenance
-- rscf/state/observation
-- topic/amos-market-econ-kernel-v0
-- kernel
+  - canon-group/tech-ai
+  - canon/framework
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/observation
+  - topic/amos-market-econ-kernel-v0
+  - kernel
 type: data
 source: 11_KNOWLEDGE/kernel
 rscf:
@@ -746,6 +749,6 @@ rscf:
 **Related:** [[11_KNOWLEDGE/kernel/AMOS_UNIVERSE_DOMAIN_KERNELS|AMOS_UNIVERSE_DOMAIN_KERNELS]] · [[11_KNOWLEDGE/kernel/AMOS_OMNI_KERNEL_CORE|AMOS_OMNI_KERNEL_CORE]] · [[11_KNOWLEDGE/kernel/AMOS_BIOSTATISTICS_KERNEL|AMOS_BIOSTATISTICS_KERNEL]] · [[11_KNOWLEDGE/kernel/AMOS_UNIVERSE_KERNEL_VINFINITY|AMOS_UNIVERSE_KERNEL_VINFINITY]]
 ```
 
----
-**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]
+______________________________________________________________________
 
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]

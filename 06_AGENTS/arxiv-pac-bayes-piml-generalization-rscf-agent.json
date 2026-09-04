@@ -89,7 +89,7 @@
     "arxiv-pac-bayes-piml-generalization-rscf"
   ],
   "depends_on_workflows": [
-    "arxiv-pac-bayes-piml-generalization-rscf-workflow.md"
+    "amos-arxiv-pac-bayes-piml-generalization-rscf-workflow.md"
   ],
   "epistemic_class": "AMOS_MODEL",
   "claim_ceiling": 0.95,

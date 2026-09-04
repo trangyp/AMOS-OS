@@ -1,45 +1,48 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: AMOS Invariant Registry — Constitutional and Runtime Integrity Constraints
 type: invariant
 source: 01_CANON/01_CORE_LAWS
 tags:
-- amos
-- canon
-- universe
-- amos-os
-- amos-core
-- amos-core-v4-4
-- invariants
-- constitutional-invariants
-- runtime-invariants
-- integrity
-- epistemics
-- provenance
-- dependency-closure
-- causality
-- scope
-- regime
-- freshness
-- authority
-- governance
-- rscf
-- gmef
-- recovery
-- anti-regression
-- canon-group/tech-ai
-- canon/registry
-- canon/invariant
-- rscf/claim
-- rscf/provenance
-- rscf/state/derived
-- skill
-- workflow
-- readme
-- architecture
-- authoritative-state
-- placement-rules
-- amos-core-laws
-- amos-full-brain-os-architecture
+  - amos
+  - canon
+  - universe
+  - amos-os
+  - amos-core
+  - amos-core-v4-4
+  - invariants
+  - constitutional-invariants
+  - runtime-invariants
+  - integrity
+  - epistemics
+  - provenance
+  - dependency-closure
+  - causality
+  - scope
+  - regime
+  - freshness
+  - authority
+  - governance
+  - rscf
+  - gmef
+  - recovery
+  - anti-regression
+  - canon-group/tech-ai
+  - canon/registry
+  - canon/invariant
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/derived
+  - skill
+  - workflow
+  - readme
+  - architecture
+  - authoritative-state
+  - placement-rules
+  - amos-core-laws
+  - amos-full-brain-os-architecture
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -55,9 +58,9 @@ rscf:
 > **AMOS Core target:** `v4.4`
 > **Conclusion class:** `AMOS_MODEL`
 
----
+______________________________________________________________________
 
-# 0. Purpose
+## 0. Purpose
 
 The `INVARIANT_REGISTRY` is the typed registry of conditions that AMOS components must preserve across reasoning, state transitions, execution, evolution, recovery, and knowledge promotion.
 
@@ -88,9 +91,9 @@ WHAT INVALIDATES IT?
 WHAT HAPPENS WHEN IT FAILS?
 ```
 
----
+______________________________________________________________________
 
-# 1. Registry Boundary
+## 1. Registry Boundary
 
 An invariant is not merely:
 
@@ -114,9 +117,9 @@ A test may provide evidence about an invariant.
 
 It does not define the invariant merely by existing.
 
----
+______________________________________________________________________
 
-# 2. Invariant Record Contract
+## 2. Invariant Record Contract
 
 Every promoted invariant should eventually conform to:
 
@@ -172,9 +175,9 @@ notes:
 
 Unknown fields remain explicitly unknown.
 
----
+______________________________________________________________________
 
-# 3. Invariant States
+## 3. Invariant States
 
 ```text
 PLACEHOLDER
@@ -204,9 +207,9 @@ DOCUMENTED
 VALIDATED
 ```
 
----
+______________________________________________________________________
 
-# 4. Invariant Classes
+## 4. Invariant Classes
 
 ```text
 I0  META / INTEGRITY
@@ -226,9 +229,9 @@ I13 SECURITY
 I14 OBSERVABILITY / AUDIT
 ```
 
----
+______________________________________________________________________
 
-# 5. I0 — Meta / Integrity Invariants
+## 5. I0 — Meta / Integrity Invariants
 
 ## INV-I0-001 — Integrity Priority
 
@@ -248,7 +251,7 @@ TOKEN SAVINGS
 
 No downstream optimization may invert this ordering.
 
----
+______________________________________________________________________
 
 ## INV-I0-002 — No Fabricated Closure
 
@@ -268,7 +271,7 @@ MISSING_EVIDENCE
 FABRICATED_PREMISE
 ```
 
----
+______________________________________________________________________
 
 ## INV-I0-003 — Unknown Does Not Pass
 
@@ -280,7 +283,7 @@ UNKNOWN/GAP != PASS
 
 Unknown states must not silently satisfy validation gates.
 
----
+______________________________________________________________________
 
 ## INV-I0-004 — Weakest Accurate Conclusion
 
@@ -297,7 +300,7 @@ UNKNOWN/GAP
 
 The weakest accurate class must be retained.
 
----
+______________________________________________________________________
 
 ## INV-I0-005 — Optimization Integrity
 
@@ -309,9 +312,9 @@ WEAKEN INTEGRITY
 
 Any optimization that weakens a load-bearing integrity property must be rejected or rolled back.
 
----
+______________________________________________________________________
 
-# 6. I1 — Epistemic Invariants
+## 6. I1 — Epistemic Invariants
 
 ## INV-I1-001 — Evidence Type Preservation
 
@@ -328,7 +331,7 @@ UNKNOWN
 
 No silent type promotion is permitted.
 
----
+______________________________________________________________________
 
 ## INV-I1-002 — Source Claim Firewall
 
@@ -336,7 +339,7 @@ No silent type promotion is permitted.
 SOURCE_CLAIM != VERIFIED
 ```
 
----
+______________________________________________________________________
 
 ## INV-I1-003 — Model Firewall
 
@@ -346,7 +349,7 @@ MODEL != REALITY
 MODEL != AUTHORITY
 ```
 
----
+______________________________________________________________________
 
 ## INV-I1-004 — Confidence Ceiling
 
@@ -360,7 +363,7 @@ weakest_load_bearing_premise(C)
 
 unless an independent valid proof path removes that dependency.
 
----
+______________________________________________________________________
 
 ## INV-I1-005 — Competing Hypothesis Preservation
 
@@ -372,7 +375,7 @@ STATE = COMPETING
 
 not forced convergence.
 
----
+______________________________________________________________________
 
 ## INV-I1-006 — Positive Support Requirement
 
@@ -382,9 +385,9 @@ ABSENCE_OF_CONTRADICTION
 POSITIVE_VALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 7. I2 — Provenance Invariants
+## 7. I2 — Provenance Invariants
 
 ## INV-I2-001 — Provenance Retention
 
@@ -400,7 +403,7 @@ CLAIM
 DECISION
 ```
 
----
+______________________________________________________________________
 
 ## INV-I2-002 — Independence Must Be Demonstrated
 
@@ -410,7 +413,7 @@ EVIDENCE_INDEPENDENCE
 ASSUMED_INDEPENDENCE
 ```
 
----
+______________________________________________________________________
 
 ## INV-I2-003 — Shared-Ancestry Detection
 
@@ -424,19 +427,19 @@ N DESCENDANTS
 N INDEPENDENT SOURCES
 ```
 
----
+______________________________________________________________________
 
 ## INV-I2-004 — Provenance Identity Persistence
 
 Renaming, moving, reindexing, or reformatting an artifact must not silently destroy provenance identity.
 
----
+______________________________________________________________________
 
 ## INV-I2-005 — Transformation Traceability
 
 A material derived claim should remain traceable to its load-bearing upstream evidence when required by governance.
 
----
+______________________________________________________________________
 
 ## INV-I2-006 — Provenance Cannot Be Reconstructed by Guess
 
@@ -448,9 +451,9 @@ PROVENANCE = UNKNOWN/GAP
 
 Do not infer lineage from semantic similarity alone.
 
----
+______________________________________________________________________
 
-# 8. I3 — Dependency Invariants
+## 8. I3 — Dependency Invariants
 
 ## INV-I3-001 — Related Is Not Dependency
 
@@ -458,19 +461,19 @@ Do not infer lineage from semantic similarity alone.
 RELATED_TO != DEPENDS_ON
 ```
 
----
+______________________________________________________________________
 
 ## INV-I3-002 — Load-Bearing Dependency Visibility
 
 Material conclusions must identify dependencies capable of changing their validity.
 
----
+______________________________________________________________________
 
 ## INV-I3-003 — Dependency Closure Before Fast Path
 
 Local reasoning may use the fast path only when relevant dependency closure is established.
 
----
+______________________________________________________________________
 
 ## INV-I3-004 — Descendant Invalidation
 
@@ -482,7 +485,7 @@ INVALID(P)
 INVALID(dependent_descendants(P))
 ```
 
----
+______________________________________________________________________
 
 ## INV-I3-005 — Unaffected Branch Preservation
 
@@ -494,7 +497,7 @@ INVALID(unrelated_nodes)
 
 Global invalidation without dependency justification is prohibited.
 
----
+______________________________________________________________________
 
 ## INV-I3-006 — Proof Reuse Validity
 
@@ -514,9 +517,9 @@ PROVENANCE_VALID
 NO_MATERIAL_CONFLICT
 ```
 
----
+______________________________________________________________________
 
-# 9. I4 — Causal Invariants
+## 9. I4 — Causal Invariants
 
 ## INV-I4-001 — Structural Similarity Firewall
 
@@ -524,7 +527,7 @@ NO_MATERIAL_CONFLICT
 STRUCTURAL_SIMILARITY != CAUSATION
 ```
 
----
+______________________________________________________________________
 
 ## INV-I4-002 — Temporal Sequence Firewall
 
@@ -532,7 +535,7 @@ STRUCTURAL_SIMILARITY != CAUSATION
 A_BEFORE_B != A_CAUSED_B
 ```
 
----
+______________________________________________________________________
 
 ## INV-I4-003 — Correlation Firewall
 
@@ -540,7 +543,7 @@ A_BEFORE_B != A_CAUSED_B
 CORRELATION != CAUSAL_EFFECT
 ```
 
----
+______________________________________________________________________
 
 ## INV-I4-004 — Causal Typing
 
@@ -559,13 +562,13 @@ FEEDBACK
 CAUSAL_EFFECT
 ```
 
----
+______________________________________________________________________
 
 ## INV-I4-005 — Evidence-Type Compatibility
 
 The evidence type must be sufficient for the causal claim being made.
 
----
+______________________________________________________________________
 
 ## INV-I4-006 — Cross-Domain Mapping Firewall
 
@@ -577,9 +580,9 @@ MODEL
 
 until validated in the target domain and scope.
 
----
+______________________________________________________________________
 
-# 10. I5 — Scope / Regime / Temporal Invariants
+## 10. I5 — Scope / Regime / Temporal Invariants
 
 ## INV-I5-001 — Applicability Envelope
 
@@ -598,7 +601,7 @@ MEASUREMENT_METHOD
 ASSUMPTIONS
 ```
 
----
+______________________________________________________________________
 
 ## INV-I5-002 — No Silent Scope Expansion
 
@@ -610,7 +613,7 @@ VALID(SCOPE_B)
 
 unless transfer is justified.
 
----
+______________________________________________________________________
 
 ## INV-I5-003 — Regime Firewall
 
@@ -622,13 +625,13 @@ VALID(REGIME_B)
 
 unless regime compatibility is established.
 
----
+______________________________________________________________________
 
 ## INV-I5-004 — Freshness Boundary
 
 Evidence and conclusions must not be reused beyond their material freshness boundary without revalidation.
 
----
+______________________________________________________________________
 
 ## INV-I5-005 — Regime Shift Revalidation
 
@@ -638,7 +641,7 @@ LOAD_BEARING_REGIME_SHIFT
 REVALIDATE_DEPENDENTS
 ```
 
----
+______________________________________________________________________
 
 ## INV-I5-006 — Historical Validity Preservation
 
@@ -650,9 +653,9 @@ STALE_NOW
 INVALID_THEN
 ```
 
----
+______________________________________________________________________
 
-# 11. I6 — Uncertainty Invariants
+## 11. I6 — Uncertainty Invariants
 
 ## INV-I6-001 — Uncertainty Vector Preservation
 
@@ -668,7 +671,7 @@ EXECUTION
 PROVENANCE_INDEPENDENCE
 ```
 
----
+______________________________________________________________________
 
 ## INV-I6-002 — Fragility Classification
 
@@ -678,7 +681,7 @@ If a plausible small change to a load-bearing premise flips the result:
 CONCLUSION = CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
 ## INV-I6-003 — Decision-Relevant Priority
 
@@ -690,15 +693,15 @@ DECISION
 ACTION
 ```
 
----
+______________________________________________________________________
 
 ## INV-I6-004 — Sensitivity Before Redundancy
 
 Test the cheapest outcome-flipping premise before accumulating redundant evidence.
 
----
+______________________________________________________________________
 
-# 12. I7 — Authority / Governance Invariants
+## 12. I7 — Authority / Governance Invariants
 
 ## INV-I7-001 — Capability / Authority Firewall
 
@@ -708,7 +711,7 @@ CAPABILITY != AUTHORITY
 
 **Severity:** `CRITICAL`
 
----
+______________________________________________________________________
 
 ## INV-I7-002 — Proposal / Commit Firewall
 
@@ -716,7 +719,7 @@ CAPABILITY != AUTHORITY
 PROPOSAL != COMMIT
 ```
 
----
+______________________________________________________________________
 
 ## INV-I7-003 — Tool / Permission Firewall
 
@@ -724,7 +727,7 @@ PROPOSAL != COMMIT
 TOOL != PERMISSION
 ```
 
----
+______________________________________________________________________
 
 ## INV-I7-004 — Model / Authority Firewall
 
@@ -732,7 +735,7 @@ TOOL != PERMISSION
 MODEL != AUTHORITY
 ```
 
----
+______________________________________________________________________
 
 ## INV-I7-005 — Canon / Runtime Firewall
 
@@ -744,7 +747,7 @@ CANON_CHANGE
 
 Runtime execution cannot silently redefine governing canon.
 
----
+______________________________________________________________________
 
 ## INV-I7-006 — Authority Must Be Explicit
 
@@ -758,7 +761,7 @@ AUTHORITY_UNKNOWN
 AUTHORIZED
 ```
 
----
+______________________________________________________________________
 
 ## INV-I7-007 — Stakes-Scaled Governance
 
@@ -774,9 +777,9 @@ INSTITUTIONAL_IMPACT
 DOWNSTREAM_DEPENDENCY
 ```
 
----
+______________________________________________________________________
 
-# 13. I8 — State / Transaction Invariants
+## 13. I8 — State / Transaction Invariants
 
 ## INV-I8-001 — State-Class Separation
 
@@ -790,7 +793,7 @@ HISTORICAL
 
 states must not be silently collapsed.
 
----
+______________________________________________________________________
 
 ## INV-I8-002 — Proposal State Is Not Committed State
 
@@ -798,7 +801,7 @@ states must not be silently collapsed.
 PROPOSED_STATE != COMMITTED_STATE
 ```
 
----
+______________________________________________________________________
 
 ## INV-I8-003 — Atomic Multi-RSCF Integrity
 
@@ -824,7 +827,7 @@ ATOMIC_DECISION_UNIT
 
 when required by dependency structure.
 
----
+______________________________________________________________________
 
 ## INV-I8-004 — Conditional Commit Validity
 
@@ -842,21 +845,21 @@ where implemented.
 
 The registry does not assert that every AMOS runtime literally implements database MVCC or CAS.
 
----
+______________________________________________________________________
 
 ## INV-I8-005 — State Identity Preservation
 
 State mutation must not silently alter semantic identity, provenance identity, or authority class.
 
----
+______________________________________________________________________
 
-# 14. I9 — Execution / Coordination Invariants
+## 14. I9 — Execution / Coordination Invariants
 
 ## INV-I9-001 — Smallest Sufficient Proof Scope
 
 Execution reasoning should use the smallest proof scope sufficient for the governed decision.
 
----
+______________________________________________________________________
 
 ## INV-I9-002 — Fast Path Preconditions
 
@@ -876,7 +879,7 @@ FRESHNESS
 NON_CONFLICT
 ```
 
----
+______________________________________________________________________
 
 ## INV-I9-003 — Mandatory Escalation
 
@@ -893,7 +896,7 @@ AFFECTS_GOVERNANCE
 HAS_IRREVERSIBLE_STAKES
 ```
 
----
+______________________________________________________________________
 
 ## INV-I9-004 — Coordination Avoidance Requires Proof
 
@@ -911,13 +914,13 @@ ASSUMED_INDEPENDENCE
 COORDINATION_AVOIDANCE
 ```
 
----
+______________________________________________________________________
 
 ## INV-I9-005 — Shard-Local Finality Boundary
 
 Local finalization is allowed only when unresolved external dependencies cannot materially alter the local result.
 
----
+______________________________________________________________________
 
 ## INV-I9-006 — Causal Epoch Boundary
 
@@ -925,9 +928,9 @@ A causal reasoning epoch may be finalized only when its relevant dependency and 
 
 This is an AMOS architectural invariant, not a claim of universal distributed-consensus implementation.
 
----
+______________________________________________________________________
 
-# 15. I10 — Evolution / Versioning Invariants
+## 15. I10 — Evolution / Versioning Invariants
 
 ## INV-I10-001 — Governed Evolution
 
@@ -943,7 +946,7 @@ SUPERSESSION
 VALIDATION_STATE
 ```
 
----
+______________________________________________________________________
 
 ## INV-I10-002 — Anti-Regression
 
@@ -962,7 +965,7 @@ USER_FIT
 
 Integrity regression requires rejection or rollback.
 
----
+______________________________________________________________________
 
 ## INV-I10-003 — Filename / Version Firewall
 
@@ -972,7 +975,7 @@ FILENAME_VERSION
 SEMANTIC_VERSION
 ```
 
----
+______________________________________________________________________
 
 ## INV-I10-004 — Identity Firewall
 
@@ -988,7 +991,7 @@ PROVENANCE_IDENTITY
 RUNTIME_INSTANCE_ID
 ```
 
----
+______________________________________________________________________
 
 ## INV-I10-005 — Supersession Preservation
 
@@ -998,7 +1001,7 @@ SUPERSEDED != DELETED
 
 Historical lineage should remain recoverable where required.
 
----
+______________________________________________________________________
 
 ## INV-I10-006 — Promotion Separation
 
@@ -1020,15 +1023,15 @@ CANONICAL
 UNIVERSALLY_VERIFIED
 ```
 
----
+______________________________________________________________________
 
-# 16. I11 — Failure / Recovery Invariants
+## 16. I11 — Failure / Recovery Invariants
 
 ## INV-I11-001 — Local Failure Containment
 
 Failure invalidates only affected nodes, edges, and descendants unless broader dependency evidence exists.
 
----
+______________________________________________________________________
 
 ## INV-I11-002 — Nearest Valid Rollback
 
@@ -1040,7 +1043,7 @@ NEAREST_VALID_STATE
 
 where safe and recoverable.
 
----
+______________________________________________________________________
 
 ## INV-I11-003 — No Identical Failed Retry
 
@@ -1054,13 +1057,13 @@ UNCHANGED_ASSUMPTIONS
 DO_NOT_REPEAT
 ```
 
----
+______________________________________________________________________
 
 ## INV-I11-004 — Failure Provenance Retention
 
 Failure evidence must not be erased merely because recovery succeeds.
 
----
+______________________________________________________________________
 
 ## INV-I11-005 — Global Recovery Last
 
@@ -1072,9 +1075,9 @@ GLOBAL_RECOMPUTATION
 
 when local dependency structure permits safe recovery.
 
----
+______________________________________________________________________
 
-# 17. I12 — Knowledge / Memory Invariants
+## 17. I12 — Knowledge / Memory Invariants
 
 ## INV-I12-001 — Memory / Canon Firewall
 
@@ -1082,7 +1085,7 @@ when local dependency structure permits safe recovery.
 MEMORY != CANON
 ```
 
----
+______________________________________________________________________
 
 ## INV-I12-002 — Knowledge / Authority Firewall
 
@@ -1090,7 +1093,7 @@ MEMORY != CANON
 KNOWLEDGE != AUTHORITY
 ```
 
----
+______________________________________________________________________
 
 ## INV-I12-003 — Documentation Classification
 
@@ -1103,7 +1106,7 @@ REPORT
 
 remain `SOURCE_CLAIM` unless promoted through appropriate validation.
 
----
+______________________________________________________________________
 
 ## INV-I12-004 — Knowledge Harvest Integrity
 
@@ -1117,7 +1120,7 @@ VALIDATED_KNOWLEDGE
 
 Each transition requires appropriate provenance and validation.
 
----
+______________________________________________________________________
 
 ## INV-I12-005 — Raw Evidence Loading Boundary
 
@@ -1132,21 +1135,21 @@ BOOTSTRAP
 
 Raw evidence is loaded only when required to resolve material uncertainty or validate a dependency.
 
----
+______________________________________________________________________
 
-# 18. I13 — Security Invariants
+## 18. I13 — Security Invariants
 
 ## INV-I13-001 — Authorization Dominates Capability
 
 A technically executable operation remains prohibited when authorization is absent.
 
----
+______________________________________________________________________
 
 ## INV-I13-002 — Secret Boundary Preservation
 
 Secrets must not cross undeclared trust boundaries.
 
----
+______________________________________________________________________
 
 ## INV-I13-003 — Governance Cannot Be Bypassed for Efficiency
 
@@ -1156,7 +1159,7 @@ EFFICIENCY_GAIN
 LICENSE_TO_BYPASS_SECURITY
 ```
 
----
+______________________________________________________________________
 
 ## INV-I13-004 — External Effect Gate
 
@@ -1171,9 +1174,9 @@ VALIDATION
 
 before execution.
 
----
+______________________________________________________________________
 
-# 19. I14 — Observability / Audit Invariants
+## 19. I14 — Observability / Audit Invariants
 
 ## INV-I14-001 — Observability Is Not Authority
 
@@ -1181,7 +1184,7 @@ before execution.
 OBSERVABILITY != AUTHORITY
 ```
 
----
+______________________________________________________________________
 
 ## INV-I14-002 — Audit Trace Integrity
 
@@ -1203,7 +1206,7 @@ RESULT
 
 where required by scope.
 
----
+______________________________________________________________________
 
 ## INV-I14-003 — Trace Does Not Prove Correctness
 
@@ -1217,9 +1220,9 @@ A trace records behavior.
 
 Validation determines whether behavior satisfied the contract.
 
----
+______________________________________________________________________
 
-# 20. Cross-Plane Structural Invariants
+## 20. Cross-Plane Structural Invariants
 
 These boundaries apply across AMOS OS:
 
@@ -1247,9 +1250,9 @@ These are identity and authority firewalls.
 
 They prevent responsibility collapse between planes.
 
----
+______________________________________________________________________
 
-# 21. Invariant Severity
+## 21. Invariant Severity
 
 Invariant violations should be classified:
 
@@ -1263,9 +1266,9 @@ Invariant violations should be classified:
 
 Severity does not replace conclusion class.
 
----
+______________________________________________________________________
 
-# 22. Enforcement Modes
+## 22. Enforcement Modes
 
 An invariant may declare one or more enforcement modes:
 
@@ -1292,9 +1295,9 @@ enforcement:
   - AUDIT
 ```
 
----
+______________________________________________________________________
 
-# 23. Invariant Evaluation States
+## 23. Invariant Evaluation States
 
 Each invariant evaluation should resolve to:
 
@@ -1314,9 +1317,9 @@ UNKNOWN/GAP != PASS
 
 `NOT_APPLICABLE` requires a valid scope reason.
 
----
+______________________________________________________________________
 
-# 24. Invariant Evaluation Record
+## 24. Invariant Evaluation Record
 
 ```yaml
 evaluation_id:
@@ -1349,9 +1352,9 @@ authority_context:
 notes:
 ```
 
----
+______________________________________________________________________
 
-# 25. Invariant Dependency Graph
+## 25. Invariant Dependency Graph
 
 Invariants may depend on other invariants.
 
@@ -1376,9 +1379,9 @@ COORDINATION AVOIDANCE REQUIRES PROOF
 
 Therefore an invariant cannot be evaluated in isolation when its load-bearing invariant dependencies remain unresolved.
 
----
+______________________________________________________________________
 
-# 26. Conflict Rule
+## 26. Conflict Rule
 
 If two active invariants appear incompatible:
 
@@ -1412,9 +1415,9 @@ UNKNOWN/GAP
 
 and escalate to the appropriate governance authority.
 
----
+______________________________________________________________________
 
-# 27. Override Rule
+## 27. Override Rule
 
 Core invariants are not casually overrideable.
 
@@ -1438,9 +1441,9 @@ Absence of explicit override authority means:
 NO_OVERRIDE
 ```
 
----
+______________________________________________________________________
 
-# 28. Invariant Promotion Gate
+## 28. Invariant Promotion Gate
 
 An invariant moves toward `ACTIVE` only when its promotion requirements are satisfied.
 
@@ -1472,9 +1475,9 @@ Not every invariant requires identical evidence.
 
 Validation is scope- and class-dependent.
 
----
+______________________________________________________________________
 
-# 29. Invariant Failure Registry
+## 29. Invariant Failure Registry
 
 ```text
 INV-F001  UNKNOWN_TREATED_AS_PASS
@@ -1509,9 +1512,9 @@ INV-F029  TRACE_TREATED_AS_VALIDATION
 INV-F030  OPTIMIZATION_INTEGRITY_REGRESSION
 ```
 
----
+______________________________________________________________________
 
-# 30. Failure Response
+## 30. Failure Response
 
 Conceptual failure sequence:
 
@@ -1537,9 +1540,9 @@ RESTORE
 
 No failed invariant should automatically trigger global rollback unless its dependency topology requires it.
 
----
+______________________________________________________________________
 
-# 31. Fast-Path Integrity Gate
+## 31. Fast-Path Integrity Gate
 
 Fast-path execution is allowed only when:
 
@@ -1563,9 +1566,9 @@ UNKNOWN/GAP
 
 must trigger the appropriate slow-path or governance escalation.
 
----
+______________________________________________________________________
 
-# 32. Proof-Based Coordination Avoidance
+## 32. Proof-Based Coordination Avoidance
 
 Coordination avoidance is a derived optimization.
 
@@ -1593,9 +1596,9 @@ NO_PROOF
 NO_COORDINATION_AVOIDANCE_ASSUMPTION
 ```
 
----
+______________________________________________________________________
 
-# 33. Causal Epoch Finality
+## 33. Causal Epoch Finality
 
 A causal epoch is conceptually finalizable only when all material dependencies relevant to that epoch have reached a sufficiently resolved state.
 
@@ -1611,9 +1614,9 @@ FINALITY_BLOCKED
 
 unless the unresolved element is proven irrelevant to the result.
 
----
+______________________________________________________________________
 
-# 34. Anti-Sybil Provenance Invariant
+## 34. Anti-Sybil Provenance Invariant
 
 Evidence topology must resist false confidence created by repeated descendants of one source.
 
@@ -1641,9 +1644,9 @@ It may represent:
 
 until independence is demonstrated.
 
----
+______________________________________________________________________
 
-# 35. RSCF Integration
+## 35. RSCF Integration
 
 An RSCF node may bind applicable invariants:
 
@@ -1674,9 +1677,9 @@ rscf_node:
 
 A conclusion cannot outrank failed load-bearing invariant checks.
 
----
+______________________________________________________________________
 
-# 36. Proof Capsule Integration
+## 36. Proof Capsule Integration
 
 Important proof capsules should carry invariant status where material:
 
@@ -1705,28 +1708,28 @@ proof_capsule:
   confidence_ceiling:
 ```
 
----
+______________________________________________________________________
 
-# 37. Authority Matrix
+## 37. Authority Matrix
 
-| Plane / Entity     | Defines invariant | Evaluates |                  Enforces | May override by default |
-| ------------------ | ----------------: | --------: | ------------------------: | ----------------------: |
-| CANON              |               Yes |       Yes |      Governing definition |                      No |
-| KERNEL             |                No |       Yes | Deterministic constraints |                      No |
-| CONTROL_PLANE      |      Policy-level |       Yes |                       Yes |   Only if canon permits |
-| RUNTIME            |                No |       Yes |             Runtime gates |                      No |
-| COGNITIVE_ORGANISM |                No |       Yes |        Internal reasoning |                      No |
-| AGENT              |                No |   Limited |            Local contract |                      No |
-| SKILL              |                No |   Limited |           Procedure-local |                      No |
-| [[08_WORKFLOWS/law-stack-enforcement-pipeline/WORKFLOW|WORKFLOW]]           |                No |       Yes |       Orchestration gates |                      No |
-| MODEL              |                No |  Advisory |                        No |                      No |
-| TOOL               |                No |        No |           Capability only |                      No |
+| Plane / Entity                                           | Defines invariant | Evaluates |                  Enforces | May override by default |
+| -------------------------------------------------------- | ----------------: | --------: | ------------------------: | ----------------------: |
+| CANON                                                    |               Yes |       Yes |      Governing definition |                      No |
+| KERNEL                                                   |                No |       Yes | Deterministic constraints |                      No |
+| CONTROL_PLANE                                            |      Policy-level |       Yes |                       Yes |   Only if canon permits |
+| RUNTIME                                                  |                No |       Yes |             Runtime gates |                      No |
+| COGNITIVE_ORGANISM                                       |                No |       Yes |        Internal reasoning |                      No |
+| AGENT                                                    |                No |   Limited |            Local contract |                      No |
+| SKILL                                                    |                No |   Limited |           Procedure-local |                      No |
+| \[\[08_WORKFLOWS/law-stack-enforcement-pipeline/WORKFLOW |      WORKFLOW\]\] |        No |                       Yes |     Orchestration gates |
+| MODEL                                                    |                No |  Advisory |                        No |                      No |
+| TOOL                                                     |                No |        No |           Capability only |                      No |
 
 Actual deployment authority must be explicitly declared.
 
----
+______________________________________________________________________
 
-# 38. Minimum Constitutional Invariant Set
+## 38. Minimum Constitutional Invariant Set
 
 The minimum AMOS invariant set is:
 
@@ -1774,9 +1777,9 @@ INV-I12-001 MEMORY != CANON
 INV-I12-002 KNOWLEDGE != AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 39. v4.4 Invariant Spine
+## 39. v4.4 Invariant Spine
 
 The registry preserves the AMOS Core evolution spine:
 
@@ -1816,9 +1819,9 @@ These are AMOS architectural reasoning patterns.
 
 They do not by themselves establish literal implementation of every corresponding distributed-systems mechanism.
 
----
+______________________________________________________________________
 
-# 40. Registry Integrity Invariants
+## 40. Registry Integrity Invariants
 
 The registry itself is subject to invariants.
 
@@ -1835,9 +1838,9 @@ NO_DUPLICATE_ACTIVE_DEFINITION
 NO_UNKNOWN_AS_PASS
 ```
 
----
+______________________________________________________________________
 
-# 41. Duplicate Invariant Rule
+## 41. Duplicate Invariant Rule
 
 Two invariant records expressing the same semantic constraint should not silently remain independent active laws.
 
@@ -1855,9 +1858,9 @@ depending on provenance and semantics.
 
 Semantic similarity alone is insufficient to auto-merge them.
 
----
+______________________________________________________________________
 
-# 42. Versioning Rule
+## 42. Versioning Rule
 
 Invariant IDs should remain stable across compatible refinements where semantic identity is preserved.
 
@@ -1883,9 +1886,9 @@ where governed versioning requires it.
 
 A breaking semantic change should not silently reuse an old identity.
 
----
+______________________________________________________________________
 
-# 43. Supersession Record
+## 43. Supersession Record
 
 ```yaml
 supersession:
@@ -1905,9 +1908,9 @@ supersession:
   provenance:
 ```
 
----
+______________________________________________________________________
 
-# 44. Invalidation Rule
+## 44. Invalidation Rule
 
 An invariant may become invalid for:
 
@@ -1929,9 +1932,9 @@ INVALIDATED
 DELETED
 ```
 
----
+______________________________________________________________________
 
-# 45. Repository Placement
+## 45. Repository Placement
 
 Canonical placement:
 
@@ -1969,9 +1972,9 @@ The canonical registry defines identity and governing semantics.
 
 Downstream layers implement or verify those semantics within their authority boundaries.
 
----
+______________________________________________________________________
 
-# 46. RSCF Node
+## 46. RSCF Node
 
 ```yaml
 node_id: AMOS_INVARIANT_REGISTRY
@@ -2030,9 +2033,9 @@ does_not_establish:
   - literal implementation of every distributed-systems analogy
 ```
 
----
+______________________________________________________________________
 
-# 47. Promotion Gate
+## 47. Promotion Gate
 
 This registry may move:
 
@@ -2061,9 +2064,9 @@ PROVENANCE
 
 Until then, entries in this file are structured AMOS v4.4 invariant models and must not be misrepresented as individually empirically verified runtime properties.
 
----
+______________________________________________________________________
 
-# 48. Changelog
+## 48. Changelog
 
 ## v2.0.0 — 2026-08-25
 
@@ -2104,9 +2107,9 @@ Added:
 
 Initial placeholder reserved the canonical AMOS OS location.
 
----
+______________________________________________________________________
 
-# 49. Registry Law
+## 49. Registry Law
 
 The invariant registry is governed by the following final rule:
 
@@ -2158,30 +2161,33 @@ If any load-bearing condition remains unresolved:
 UNKNOWN/GAP != PASS
 ```
 
----
+______________________________________________________________________
 
 **Related:** README|AMOS OS · [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|MOC · [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]|Architecture · [[00_ROOT/SYSTEM_MAP|SYSTEM_MAP]]|System Map · [[00_ROOT/AUTHORITATIVE_STATE|AUTHORITATIVE_STATE]]|Authoritative State · [[00_ROOT/PLACEMENT_RULES|PLACEMENT_RULES]]|Placement Rules · AMOS Canon · [[01_CANON/00_INDEX/CANON_MAP|CANON_MAP]]|Canon Map · [[01_CANON/01_CORE_LAWS/AMOS_CORE_LAWS|AMOS Core Laws]] · [[02_KERNEL/00_INDEX/KERNEL_MAP|KERNEL_MAP]]|Kernel Map · [[03_CONTROL_PLANE/00_INDEX/CONTROL_PLANE_MAP|CONTROL_PLANE_MAP]]|Control Plane Map · [[04_RUNTIME/00_INDEX/RUNTIME_MAP|RUNTIME_MAP]]|Runtime Map · [[10_MEMORY/00_INDEX/MEMORY_MEMORY_MAP|MEMORY_MEMORY_MAP]]|Memory Map · [[11_KNOWLEDGE/AMOS_FULL_BRAIN_OS_ARCHITECTURE|AMOS Full Brain OS Architecture]] · [[12_STATE/00_INDEX/STATE_STATE_MAP|STATE_STATE_MAP]]|State Map · [[16_SCHEMAS/00_INDEX/SCHEMA_MAP|SCHEMA_MAP]]|Schema Map · [[17_OBSERVABILITY/00_INDEX/OBSERVABILITY_OBSERVABILITY_MAP|OBSERVABILITY_OBSERVABILITY_MAP]]|Observability Map · [[18_SECURITY/00_INDEX/SECURITY_MAP|SECURITY_MAP]]|Security Map · [[19_TESTS/00_INDEX/TEST_MAP|TEST_MAP]]|Tests · [[20_OPERATIONS/00_INDEX/OPERATIONS_MAP|OPERATIONS_MAP]]|Operations
 
 ```
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: invariant_registry
 node_type: note
 path: 01_CANON/01_CORE_LAWS/INVARIANT_REGISTRY.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[01_CANON/01_CORE_LAWS/01_CORE_LAWS_MOC|01_CORE_LAWS_MOC]]
-

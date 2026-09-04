@@ -1,4 +1,7 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: CAS CANON
 type: note
 source: 01_CANON/04_INFRASTRUCTURE_CANON
@@ -6,22 +9,18 @@ rscf:
   state: SOURCE_CLAIM
   class: STRUCTURAL
   provenance:
-  - internal
+    - internal
   freshness: EVERGREEN
   falsifiers: []
 tags:
-- note
-- law-hierarchy
-- routing-policy-validation-receipt
-- authz-engine-validation-receipt
+  - note
+  - law-hierarchy
+  - routing-policy-validation-receipt
+  - authz-engine-validation-receipt
 canon-group: canon/infrastructure
 ---
 
----title: "CAS Canon"
-type: canon
-tags: [note]
----
-
+## ---title: "CAS Canon" type: canon tags: [note]
 
 # CAS Canon
 
@@ -34,9 +33,9 @@ tags: [note]
 > **Canonical status:** `UNKNOWN/GAP`
 > **Executable binding:** `NOT_ESTABLISHED`
 
----
+______________________________________________________________________
 
-# 0. Status
+## 0. Status
 
 `CAS_CANON.md` is an **ADD-ONLY canonical placeholder** located at:
 
@@ -102,9 +101,9 @@ AMOS NATIVE CANON
 
 until native AMOS provenance establishes the mapping.
 
----
+______________________________________________________________________
 
-# 1. Purpose
+## 1. Purpose
 
 The purpose of this artifact is to reserve and govern the future canonical location for the framework family identified as:
 
@@ -141,9 +140,9 @@ Its present responsibilities are:
 
 It is not yet the substantive CAS canon.
 
----
+______________________________________________________________________
 
-# 2. Canonical Boundary
+## 2. Canonical Boundary
 
 The governing boundary is:
 
@@ -177,9 +176,9 @@ $$
 
 These distinctions remain load-bearing throughout the artifact lifecycle.
 
----
+______________________________________________________________________
 
-# 3. Non-Purpose
+## 3. Non-Purpose
 
 This placeholder MUST NOT independently be used to claim:
 
@@ -211,9 +210,9 @@ WHAT CAS RELATIONSHIP TO DISTRIBUTED STATE IS CANONICAL
 
 unless those claims are resolved from verified native-canon sources.
 
----
+______________________________________________________________________
 
-# 4. Acronym Firewall
+## 4. Acronym Firewall
 
 The acronym `CAS` is semantically unresolved by this artifact.
 
@@ -234,9 +233,9 @@ This includes the familiar computing interpretation of `CAS` as “compare-and-s
 
 That interpretation may be a **candidate hypothesis** based on broader context, but the supplied artifact does not license promotion of that hypothesis into native AMOS canon.
 
----
+______________________________________________________________________
 
-# 5. Candidate Interpretation Boundary
+## 5. Candidate Interpretation Boundary
 
 If another AMOS-native artifact later establishes:
 
@@ -266,9 +265,9 @@ CANONICAL CAS EXPANSION
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 6. Canon Plane Role
+## 6. Canon Plane Role
 
 The parent Canon plane governs canonical structures including:
 
@@ -297,9 +296,9 @@ AMOS OS
 CAS_CANON
 ```
 
----
+______________________________________________________________________
 
-# 7. Canon Does Not Mean Empirical Truth
+## 7. Canon Does Not Mean Empirical Truth
 
 Even after future promotion:
 
@@ -333,9 +332,9 @@ AMOSCanonical(C)
 EmpiricallyVerified(C)
 $$
 
----
+______________________________________________________________________
 
-# 8. Present Epistemic State
+## 8. Present Epistemic State
 
 The artifact declares:
 
@@ -369,9 +368,9 @@ MISSING SUBSTANTIVE CAS MODEL
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 9. Present State Matrix
+## 9. Present State Matrix
 
 | Dimension                  | State           |
 | -------------------------- | --------------- |
@@ -391,9 +390,9 @@ UNKNOWN/GAP
 | CAS validation             | NOT_ESTABLISHED |
 | CAS enforcement            | NOT_ESTABLISHED |
 
----
+______________________________________________________________________
 
-# 10. Core Integrity Distinctions
+## 10. Core Integrity Distinctions
 
 The artifact preserves:
 
@@ -441,9 +440,9 @@ NORMALIZED != VERIFIED
 SUPERSEDED != DELETED
 ```
 
----
+______________________________________________________________________
 
-# 11. Integrity Ordering
+## 11. Integrity Ordering
 
 The artifact inherits the AMOS integrity priority:
 
@@ -463,9 +462,9 @@ $$
 
 Therefore an incomplete placeholder is preferable to fabricated substantive canon.
 
----
+______________________________________________________________________
 
-# 12. Ingestion Principle
+## 12. Ingestion Principle
 
 Substantive CAS content may enter this artifact only through governed native-canon ingestion.
 
@@ -491,9 +490,9 @@ Plausible text
 Canon
 ```
 
----
+______________________________________________________________________
 
-# 13. AMOS Canon Ingestion Rule
+## 13. AMOS Canon Ingestion Rule
 
 ```yaml
 AMOS_CANON_INGESTION_RULE:
@@ -541,9 +540,9 @@ AMOS_CANON_INGESTION_RULE:
       - NEVER_INVENT_CANON
 ```
 
----
+______________________________________________________________________
 
-# 14. ADD-ONLY Semantics
+## 14. ADD-ONLY Semantics
 
 The current ingestion action is:
 
@@ -569,9 +568,9 @@ CANON CANDIDATE V1
 
 while retaining the history of `V0`.
 
----
+______________________________________________________________________
 
-# 15. No-Overwrite Rule
+## 15. No-Overwrite Rule
 
 The source explicitly requires:
 
@@ -597,9 +596,9 @@ RESOLVE IDENTITY
 MERGE / LINK / COMPETE
 ```
 
----
+______________________________________________________________________
 
-# 16. Duplicate Canon Firewall
+## 16. Duplicate Canon Firewall
 
 If multiple sources contain CAS material:
 
@@ -625,9 +624,9 @@ THREE DUPLICATE CAS CANONS
 
 provided they are established to represent the same canonical framework.
 
----
+______________________________________________________________________
 
-# 17. Identity Before Merge
+## 17. Identity Before Merge
 
 Similarity of names is insufficient for merge.
 
@@ -657,9 +656,9 @@ COMPETING / UNKNOWN
 
 is preferable to destructive merging.
 
----
+______________________________________________________________________
 
-# 18. Native Canon Source Requirement
+## 18. Native Canon Source Requirement
 
 Promotion requires substantive content from a verified native-canon source.
 
@@ -680,9 +679,9 @@ native_canon_source:
 
 Where load-bearing fields cannot be established, promotion remains blocked.
 
----
+______________________________________________________________________
 
-# 19. External Research Boundary
+## 19. External Research Boundary
 
 External sources may support understanding or validation.
 
@@ -704,9 +703,9 @@ NATIVE CANON
 
 Any external contribution must retain its external provenance class.
 
----
+______________________________________________________________________
 
-# 20. Source Claim Boundary
+## 20. Source Claim Boundary
 
 Documentation from a source remains:
 
@@ -726,9 +725,9 @@ $$
 
 This applies even when the documentation comes from a technically authoritative source.
 
----
+______________________________________________________________________
 
-# 21. Provenance Topology
+## 21. Provenance Topology
 
 Future CAS canon should retain provenance topology rather than only source counts.
 
@@ -751,9 +750,9 @@ $$
 3\ IndependentSources
 $$
 
----
+______________________________________________________________________
 
-# 22. Persistent Provenance
+## 22. Persistent Provenance
 
 Once CAS content is normalized into canon, the following should remain recoverable:
 
@@ -781,9 +780,9 @@ SUPERSESSION RELATION
 VALIDATION STATUS
 ```
 
----
+______________________________________________________________________
 
-# 23. Confidence Ceiling
+## 23. Confidence Ceiling
 
 No derived CAS conclusion may become stronger than its weakest load-bearing premise merely through repetition or transformation.
 
@@ -797,9 +796,9 @@ $$
 
 unless independent revalidation provides stronger support.
 
----
+______________________________________________________________________
 
-# 24. Contract Discipline
+## 24. Contract Discipline
 
 All future substantive CAS canon should preserve:
 
@@ -827,9 +826,9 @@ SCOPE
 REGIME
 ```
 
----
+______________________________________________________________________
 
-# 25. Admission
+## 25. Admission
 
 Any operation touching this artifact begins with:
 
@@ -868,9 +867,9 @@ status:
   PLACEHOLDER
 ```
 
----
+______________________________________________________________________
 
-# 26. Unresolved Identity
+## 26. Unresolved Identity
 
 If an operation refers to a CAS artifact that cannot be tied to this identity:
 
@@ -882,9 +881,9 @@ must remain visible.
 
 Filename similarity alone does not establish equivalence.
 
----
+______________________________________________________________________
 
-# 27. Scope Binding
+## 27. Scope Binding
 
 Before consequential mutation, bind:
 
@@ -915,9 +914,9 @@ applicability:
   assumptions: []
 ```
 
----
+______________________________________________________________________
 
-# 28. H/M/L Boundary
+## 28. H/M/L Boundary
 
 The target semantics declares H/M/L applicability.
 
@@ -939,11 +938,11 @@ Therefore that ontology remains:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 29. Smallest Sufficient Dependency Closure
+## 29. Smallest Sufficient Dependency Closure
 
-For operation \(O\):
+For operation (O):
 
 $$
 Closure^*(O)
@@ -953,9 +952,9 @@ $$
 
 This prevents both insufficient checking and unnecessary global traversal.
 
----
+______________________________________________________________________
 
-# 30. Authority
+## 30. Authority
 
 Before mutation:
 
@@ -975,9 +974,9 @@ $$
 
 A component capable of modifying CAS canon is not thereby authorized to do so.
 
----
+______________________________________________________________________
 
-# 31. Epoch-Valid Authority
+## 31. Epoch-Valid Authority
 
 Authority is not timeless.
 
@@ -1003,9 +1002,9 @@ HOLD
 
 for an authority-requiring operation.
 
----
+______________________________________________________________________
 
-# 32. Preconditions
+## 32. Preconditions
 
 Before promotion or mutation, validate the smallest result-changing set of prerequisites.
 
@@ -1035,9 +1034,9 @@ STATE FRESHNESS
 VALIDATION STATUS
 ```
 
----
+______________________________________________________________________
 
-# 33. Proposal
+## 33. Proposal
 
 Any candidate CAS canon is initially:
 
@@ -1065,9 +1064,9 @@ GATES
 COMMIT / HOLD
 ```
 
----
+______________________________________________________________________
 
-# 34. Promotion Proposal
+## 34. Promotion Proposal
 
 A proposed population event may conceptually contain:
 
@@ -1106,9 +1105,9 @@ cas_canon_proposal:
 
 This is a target schema, not evidence of implementation.
 
----
+______________________________________________________________________
 
-# 35. Commit
+## 35. Commit
 
 Promotion from placeholder requires every load-bearing gate to pass.
 
@@ -1132,9 +1131,9 @@ $$
 
 with validation requirements applied according to the promotion class.
 
----
+______________________________________________________________________
 
-# 36. Hold
+## 36. Hold
 
 If a load-bearing premise fails:
 
@@ -1166,9 +1165,9 @@ CONFLICTING CANON SOURCES
 → COMPETING / HOLD
 ```
 
----
+______________________________________________________________________
 
-# 37. Local Invalidation
+## 37. Local Invalidation
 
 If one future CAS claim fails, invalidate only dependent descendants.
 
@@ -1190,9 +1189,9 @@ INVALIDATE D
 
 but not automatically `C`.
 
----
+______________________________________________________________________
 
-# 38. Rollback Basin
+## 38. Rollback Basin
 
 Consequential canon mutation should have a recoverable prior state.
 
@@ -1212,9 +1211,9 @@ RESTORE VALID V0
 
 without deleting evidence concerning the failed V1 attempt.
 
----
+______________________________________________________________________
 
-# 39. Failure Evidence
+## 39. Failure Evidence
 
 Rollback must preserve:
 
@@ -1242,9 +1241,9 @@ ROLLBACK
 ERASE HISTORY
 ```
 
----
+______________________________________________________________________
 
-# 40. Receipt Discipline
+## 40. Receipt Discipline
 
 Consequential CAS canon changes should emit a receipt.
 
@@ -1283,9 +1282,9 @@ cas_canon_receipt:
   executed_at:
 ```
 
----
+______________________________________________________________________
 
-# 41. Typed Outcomes
+## 41. Typed Outcomes
 
 Target outcomes:
 
@@ -1301,9 +1300,9 @@ UNKNOWN/GAP
 
 Exact executable enumeration remains unestablished.
 
----
+______________________________________________________________________
 
-# 42. Canon Promotion Lifecycle
+## 42. Canon Promotion Lifecycle
 
 The artifact should progress through explicit states rather than semantic shortcuts.
 
@@ -1335,9 +1334,9 @@ ENFORCED
 
 No transition is implied merely by the previous one.
 
----
+______________________________________________________________________
 
-# 43. Canonical vs Implemented
+## 43. Canonical vs Implemented
 
 Even if CAS eventually becomes canonical:
 
@@ -1349,9 +1348,9 @@ IMPLEMENTED
 
 A canonical specification can exist without runtime machinery implementing it.
 
----
+______________________________________________________________________
 
-# 44. Implemented vs Validated
+## 44. Implemented vs Validated
 
 Likewise:
 
@@ -1363,9 +1362,9 @@ VALIDATED
 
 Code existence does not prove conformity to canon.
 
----
+______________________________________________________________________
 
-# 45. Validated vs Enforced
+## 45. Validated vs Enforced
 
 And:
 
@@ -1377,9 +1376,9 @@ ENFORCED
 
 A passing test suite does not automatically establish that every production execution traverses the validated path.
 
----
+______________________________________________________________________
 
-# 46. Promotion Gate — Native Content
+## 46. Promotion Gate — Native Content
 
 Required:
 
@@ -1397,9 +1396,9 @@ Until these pass:
 canonical_status = UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 47. Promotion Gate — Schema
+## 47. Promotion Gate — Schema
 
 Required:
 
@@ -1412,9 +1411,9 @@ Required:
 - [ ] dependencies represented;
 - [ ] invalidation conditions represented.
 
----
+______________________________________________________________________
 
-# 48. Promotion Gate — Negative Cases
+## 48. Promotion Gate — Negative Cases
 
 Required negative cases include:
 
@@ -1431,9 +1430,9 @@ Required negative cases include:
 - [ ] unresolved dependency;
 - [ ] rollback failure.
 
----
+______________________________________________________________________
 
-# 49. Promotion Gate — Provenance
+## 49. Promotion Gate — Provenance
 
 Required:
 
@@ -1445,9 +1444,9 @@ Required:
 - [ ] external evidence remains externally typed;
 - [ ] native-canon provenance remains distinguishable.
 
----
+______________________________________________________________________
 
-# 50. Promotion Gate — Recovery
+## 50. Promotion Gate — Recovery
 
 Required:
 
@@ -1458,9 +1457,9 @@ Required:
 - [ ] unaffected canon remains unchanged;
 - [ ] recovery receipt generated.
 
----
+______________________________________________________________________
 
-# 51. Promotion Gate — Validation
+## 51. Promotion Gate — Validation
 
 The supplied artifact names:
 
@@ -1490,9 +1489,9 @@ THE RECEIPTS COVER ALL REQUIRED SEMANTICS
 
 Those properties require resolution.
 
----
+______________________________________________________________________
 
-# 52. CAS-Specific Validation Receipt
+## 52. CAS-Specific Validation Receipt
 
 Before claiming validated CAS canon behavior, a CAS-specific executed receipt should also exist if required by the governing validation architecture.
 
@@ -1533,9 +1532,9 @@ cas_canon_validation_receipt:
 
 This schema is a derived target, not present validation evidence.
 
----
+______________________________________________________________________
 
-# 53. Cross-Plane Binding — Canon
+## 53. Cross-Plane Binding — Canon
 
 The artifact is governed by:
 
@@ -1547,9 +1546,9 @@ and applicable AMOS Core Laws.
 
 A lower-level CAS rule may not silently override higher-order canon.
 
----
+______________________________________________________________________
 
-# 54. Cross-Plane Binding — Kernel
+## 54. Cross-Plane Binding — Kernel
 
 Target interaction:
 
@@ -1561,9 +1560,9 @@ The existence of this binding does not define what kernel primitive CAS uses.
 
 That remains dependent on substantive CAS canon.
 
----
+______________________________________________________________________
 
-# 55. Cross-Plane Binding — Control Plane
+## 55. Cross-Plane Binding — Control Plane
 
 Target binding:
 
@@ -1585,9 +1584,9 @@ COMMIT / HOLD
 
 is the target architecture.
 
----
+______________________________________________________________________
 
-# 56. Cross-Plane Binding — Observability
+## 56. Cross-Plane Binding — Observability
 
 Target binding:
 
@@ -1605,9 +1604,9 @@ $$
 
 Telemetry concerning CAS cannot itself authorize CAS mutation.
 
----
+______________________________________________________________________
 
-# 57. Cross-Plane Binding — Operations
+## 57. Cross-Plane Binding — Operations
 
 Target recovery binding:
 
@@ -1617,9 +1616,9 @@ Target recovery binding:
 
 Operations may support recovery but does not rewrite canon merely because recovery machinery exists.
 
----
+______________________________________________________________________
 
-# 58. Scope Firewall
+## 58. Scope Firewall
 
 Future CAS claims inherit an applicability envelope.
 
@@ -1641,9 +1640,9 @@ REGIME R2
 TIME T2
 ```
 
----
+______________________________________________________________________
 
-# 59. Regime Firewall
+## 59. Regime Firewall
 
 If future CAS semantics depend on a specific runtime or governance regime:
 
@@ -1655,9 +1654,9 @@ $$
 
 without compatibility evidence.
 
----
+______________________________________________________________________
 
-# 60. Causal Firewall
+## 60. Causal Firewall
 
 Future CAS documentation must distinguish causal claims from structural or operational descriptions.
 
@@ -1675,9 +1674,9 @@ A CAUSED B
 
 unless causally appropriate evidence supports the claim.
 
----
+______________________________________________________________________
 
-# 61. Competing Canon Sources
+## 61. Competing Canon Sources
 
 Suppose:
 
@@ -1709,9 +1708,9 @@ IF UNRESOLVED:
 
 Do not synthesize `X + Y` merely to remove disagreement.
 
----
+______________________________________________________________________
 
-# 62. Supersession
+## 62. Supersession
 
 If a later valid CAS canon supersedes an earlier version:
 
@@ -1734,9 +1733,9 @@ PROVENANCE
 
 Supersession is not deletion.
 
----
+______________________________________________________________________
 
-# 63. Historical Lineage
+## 63. Historical Lineage
 
 Historical CAS source artifacts should remain linked even after canonical normalization.
 
@@ -1750,9 +1749,9 @@ MASTER C ─────┘
 
 This preserves intellectual and technical lineage.
 
----
+______________________________________________________________________
 
-# 64. RSCF Role
+## 64. RSCF Role
 
 The current node is:
 
@@ -1779,9 +1778,9 @@ GAP VISIBILITY
 
 not substantive CAS reasoning.
 
----
+______________________________________________________________________
 
-# 65. RSCF Claim Boundary
+## 65. RSCF Claim Boundary
 
 The RSCF node should not imply:
 
@@ -1801,9 +1800,9 @@ The explicit state overrides that inference:
 canonical_status = UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 66. Proof Capsule — Current Artifact
+## 66. Proof Capsule — Current Artifact
 
 ```yaml
 proof_capsule:
@@ -1855,9 +1854,9 @@ proof_capsule:
     - artifact identity correction
 ```
 
----
+______________________________________________________________________
 
-# 67. Current Critical Gap
+## 67. Current Critical Gap
 
 The central gap is:
 
@@ -1879,9 +1878,9 @@ gap:
 
 This gap blocks substantive canon population.
 
----
+______________________________________________________________________
 
-# 68. Additional Gaps
+## 68. Additional Gaps
 
 ```yaml
 gaps:
@@ -1922,9 +1921,9 @@ gaps:
     status: OPEN
 ```
 
----
+______________________________________________________________________
 
-# 69. Minimum Information Needed to Close the Critical Gap
+## 69. Minimum Information Needed to Close the Critical Gap
 
 At least one native AMOS source is needed that explicitly establishes enough of:
 
@@ -1956,9 +1955,9 @@ CANONICAL INTENT
 
 Without that information, substantive CAS canon should remain unpopulated.
 
----
+______________________________________________________________________
 
-# 70. Candidate Source Resolution Algorithm
+## 70. Candidate Source Resolution Algorithm
 
 ```python
 def resolve_cas_native_canon(candidate_sources):
@@ -1999,9 +1998,9 @@ Architectural pseudocode only:
 PSEUDOCODE != IMPLEMENTATION
 ```
 
----
+______________________________________________________________________
 
-# 71. Promotion Algorithm
+## 71. Promotion Algorithm
 
 ```python
 def promote_cas_canon(candidate):
@@ -2056,9 +2055,9 @@ TARGET SEMANTICS
 EXECUTED IMPLEMENTATION
 ```
 
----
+______________________________________________________________________
 
-# 72. Anti-Fabrication Contract
+## 72. Anti-Fabrication Contract
 
 The following transitions are forbidden:
 
@@ -2108,9 +2107,9 @@ UNKNOWN/GAP
 PASS
 ```
 
----
+______________________________________________________________________
 
-# 73. Anti-Regression Contract
+## 73. Anti-Regression Contract
 
 Any future population of CAS canon must preserve or improve:
 
@@ -2142,9 +2141,9 @@ FAILURE EVIDENCE
 VALIDATION TRACEABILITY
 ```
 
----
+______________________________________________________________________
 
-# 74. Security Boundary
+## 74. Security Boundary
 
 Canon mutation is consequential.
 
@@ -2170,9 +2169,9 @@ UNRESOLVED CANON CONFLICT
 → HOLD / COMPETING
 ```
 
----
+______________________________________________________________________
 
-# 75. State-Version Boundary
+## 75. State-Version Boundary
 
 Future mutation should bind the version read.
 
@@ -2198,9 +2197,9 @@ This is consistent with CAS/MVCC-style AMOS reasoning patterns, but **does not e
 
 That semantic distinction must remain explicit.
 
----
+______________________________________________________________________
 
-# 76. Conventional CAS Hypothesis
+## 76. Conventional CAS Hypothesis
 
 Given the broader AMOS lineage's use of CAS/MVCC concepts, a possible hypothesis is:
 
@@ -2224,9 +2223,9 @@ CANONICAL
 
 The present artifact does not contain enough native evidence to promote H1.
 
----
+______________________________________________________________________
 
-# 77. Hypothesis Falsifiers
+## 77. Hypothesis Falsifiers
 
 `H1` should be rejected or revised if a native AMOS source establishes:
 
@@ -2242,9 +2241,9 @@ CAS is an umbrella construct containing but not identical to compare-and-swap
 
 Therefore no substantive sections based on H1 should be inserted into native canon yet.
 
----
+______________________________________________________________________
 
-# 78. Cheapest Discriminating Evidence
+## 78. Cheapest Discriminating Evidence
 
 The highest-value next evidence is not more generic documentation about conventional CAS.
 
@@ -2273,9 +2272,9 @@ canonical intent
 
 This directly discriminates among competing interpretations.
 
----
+______________________________________________________________________
 
-# 79. Canon Mutation Risk
+## 79. Canon Mutation Risk
 
 Because the artifact resides in `01_CANON`, incorrect population may propagate downstream.
 
@@ -2291,9 +2290,9 @@ CanonicalDependencyImpact
 \uparrow
 $$
 
----
+______________________________________________________________________
 
-# 80. Canon Consumer Rule
+## 80. Canon Consumer Rule
 
 Consumers of this artifact should currently receive:
 
@@ -2321,9 +2320,9 @@ cas_canon_resolution:
     DO_NOT_USE_AS_SUBSTANTIVE_CAS_CANON
 ```
 
----
+______________________________________________________________________
 
-# 81. Dependency Rule
+## 81. Dependency Rule
 
 A downstream artifact requiring substantive CAS semantics must not treat this placeholder as satisfying that dependency.
 
@@ -2340,9 +2339,9 @@ RESULT:
   DEPENDENCY UNSATISFIED
 ```
 
----
+______________________________________________________________________
 
-# 82. Addressability Rule
+## 82. Addressability Rule
 
 The placeholder does satisfy a weaker dependency:
 
@@ -2366,9 +2365,9 @@ ADDRESSABLE
 SUBSTANTIVELY RESOLVED
 ```
 
----
+______________________________________________________________________
 
-# 83. MOC Binding
+## 83. MOC Binding
 
 The artifact is indexed by:
 
@@ -2380,9 +2379,9 @@ This establishes its navigation relationship to the infrastructure-canon map.
 
 It does not alter canonical status.
 
----
+______________________________________________________________________
 
-# 84. Root Bindings
+## 84. Root Bindings
 
 Declared indexing:
 
@@ -2394,9 +2393,9 @@ Declared indexing:
 
 These relationships support navigation and RSCF discovery.
 
----
+______________________________________________________________________
 
-# 85. Law Binding
+## 85. Law Binding
 
 Declared governance:
 
@@ -2408,9 +2407,9 @@ A future CAS canon must comply with the applicable law hierarchy.
 
 A CAS rule may not grant itself precedence merely because CAS is infrastructure-critical.
 
----
+______________________________________________________________________
 
-# 86. Canonical Claim Register
+## 86. Canonical Claim Register
 
 ```yaml
 claims:
@@ -2466,9 +2465,9 @@ claims:
     class: DERIVED
 ```
 
----
+______________________________________________________________________
 
-# 87. Evidence Register
+## 87. Evidence Register
 
 ```yaml
 evidence:
@@ -2516,9 +2515,9 @@ evidence:
 
 `CAS-E-006` is not evidence for any particular CAS definition. It supports only the conclusion that the supplied artifact does not provide one.
 
----
+______________________________________________________________________
 
-# 88. Invalidation Conditions
+## 88. Invalidation Conditions
 
 Re-evaluate this artifact when any of the following becomes available:
 
@@ -2544,9 +2543,9 @@ UPDATED INFRASTRUCTURE CANON MOC
 
 Only dependent claims should be invalidated.
 
----
+______________________________________________________________________
 
-# 89. Promotion Matrix
+## 89. Promotion Matrix
 
 | Dimension       | Current state     | Requirement for promotion  |
 | --------------- | ----------------- | -------------------------- |
@@ -2561,9 +2560,9 @@ Only dependent claims should be invalidated.
 | Validation      | NOT_ESTABLISHED   | executed receipts          |
 | Enforcement     | NOT_ESTABLISHED   | runtime evidence           |
 
----
+______________________________________________________________________
 
-# 90. Machine-Readable Placeholder Contract
+## 90. Machine-Readable Placeholder Contract
 
 ```yaml
 AMOS_CAS_CANON:
@@ -2662,9 +2661,9 @@ AMOS_CAS_CANON:
       OPERATIONS_README
 ```
 
----
+______________________________________________________________________
 
-# 91. RSCF Node
+## 91. RSCF Node
 
 ```text
 RSCF-NODE
@@ -2724,9 +2723,9 @@ RSCF-RELATIONS:
 
 ```
 
----
+______________________________________________________________________
 
-# 92. Navigation
+## 92. Navigation
 
 ```text
 
@@ -2755,9 +2754,9 @@ CAS_CANON
    └──
 ```
 
----
+______________________________________________________________________
 
-# 93. Current Completion Matrix
+## 93. Current Completion Matrix
 
 ```text
 ┌───────────────────────────────────┬─────────────────────────┐
@@ -2783,9 +2782,9 @@ CAS_CANON
 └───────────────────────────────────┴─────────────────────────┘
 ```
 
----
+______________________________________________________________________
 
-# 94. Terminal Classification
+## 94. Terminal Classification
 
 ```yaml
 artifact:
@@ -2843,9 +2842,9 @@ overwrite:
   FORBIDDEN_BY_CURRENT_INGESTION_RULE
 ```
 
----
+______________________________________________________________________
 
-# 95. Canon-Safe Terminal Rule
+## 95. Canon-Safe Terminal Rule
 
 Until verified native AMOS material establishes substantive CAS semantics:
 
@@ -2962,11 +2961,11 @@ NOT_ESTABLISHED
 
 until native AMOS source material and the required promotion evidence establish stronger states.
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
 
 **Related:**
 [[00_ROOT/00_HOME|00_HOME]] ·
@@ -2979,11 +2978,11 @@ until native AMOS source material and the required promotion evidence establish 
 [[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] ·
 [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]
 
----
+______________________________________________________________________
 
 **MOC:** [[01_CANON/04_INFRASTRUCTURE_CANON/04_INFRASTRUCTURE_CANON_MOC|04_INFRASTRUCTURE_CANON_MOC]]
 
----
+______________________________________________________________________
 
 ## Final Integrity Boundary
 

@@ -1,72 +1,96 @@
 ---
-title: OPERATING MODEL README
-type: model
+title: "23_OPERATING_MODEL — Governance, Roles & Decision Rights"
+type: architecture_specification
 source: 23_OPERATING_MODEL
-tags:
-- amos-os
-- canon/operating-model
-- readme
-- routing-policy-validation-receipt
-- authz-engine-validation-receipt
-- law-hierarchy
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
+status: ACTIVE_SPECIFICATION
+epistemic_class: AMOS_MODEL
+conclusion_class: DERIVED
 rscf:
   state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  claim_class: AMOS_MODEL
+  provenance:
+    - 00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE
+    - 01_CANON/01_CANON_README
+  scope: operating_model
+tags:
+  - amos-os
+  - operating-model
+  - roles
+  - decision-rights
+  - escalation
 ---
 
-# OPERATING MODEL README
+# 23_OPERATING_MODEL — Master Operating Model
 
-## Purpose
-`OPERATING MODEL README` is the package readme for the **Operating Model** plane segment at `23_OPERATING_MODEL`.
-The Operating Model plane governs roles, decision rights, governance forums, escalation paths, service levels. Normative load-bearing content lives in the sibling contract(s); this readme orients navigation.
+## 1. Plane Purpose
 
-## Sibling artifacts
-- [[23_OPERATING_MODEL/OPERATING_MODEL_OPERATING_MODEL_CONTRACT|OPERATING_MODEL_OPERATING_MODEL_CONTRACT]]
+The `23_OPERATING_MODEL` plane (**Partition A: Normative & Governance Definition**) defines the organizational accountability, human stewardship, decision rights, escalation pathways, and service level objectives for the AMOS Full Brain OS.
 
-## Contract discipline
-Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
+This plane establishes the governance framework that binds all 26 AMOS planes to a unified accountability structure. It separates human stewardship from autonomous agent execution, ensuring that consequential decisions remain traceable to a responsible and accountable party.
 
-## Gaps
-Executable binding PARTIAL unless an executed validation receipt exists for this subsystem ([[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]).
-## Worked semantics
-Given an operation touching `OPERATING MODEL · README` within the Operating Model plane:
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-2. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-3. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-4. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-5. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-6. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
-
-## Promotion-gate checklist
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
-
-## Cross-plane bindings
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]|AMOS Core Laws · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
-- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
-- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
----
-
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+```text
+ORIGIN_ARCHITECT = Trang Phan
+AGENT_ROLE != HUMAN_ACCOUNTABILITY
+GOVERNANCE != BOTTLENECK
+DOCUMENTED != IMPLEMENTED
+```
 
 ---
-**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+
+## 2. Architecture Overview
+
+The operating model is structured around five governance pillars, each addressing a distinct aspect of organizational control:
+
+1. **Roles & Responsibilities** — Who does what, with clear human-agent boundary separation.
+2. **Decision Rights** — Who can authorize what, with five-tier escalation hierarchy.
+3. **Governance Forums** — Where decisions are deliberated and ratified.
+4. **Escalation Pathways** — How conflicts and incidents propagate through authority tiers.
+5. **Service Levels** — What performance and integrity guarantees the system must meet.
 
 ---
-RSCF-NODE
-node_id: amos_23_operating_model_operating_model_readme_md
-node_type: note
-path: 23_OPERATING_MODEL/OPERATING_MODEL_README.md
-claim_class: AMOS_MODEL
+
+## 3. Key Components
+
+### 3.1 Five Governance Pillars
+
+1. **`01_ROLES/ROLE_REGISTRY.md`**: Definition of human and synthetic role responsibilities, including the Origin Architect, Canon Stewards, Security Council, Specialist Agents, and Orchestrator roles.
+2. **`02_DECISION_RIGHTS/DECISION_RIGHTS.md`**: RACI matrices for canon changes, security rules, and code execution. Five-tier hierarchy (D0-D4) with cryptographic receipt requirements.
+3. **`03_GOVERNANCE_FORUMS/GOVERNANCE_FORUMS.md`**: Architecture Review Board, Security Council, and Canon Stewardship deliberation structures.
+4. **`04_ESCALATION/ESCALATION_PATHS.md`**: Tier 1 to Tier 4 incident and contention escalation ladders with timeout bounds and evidence package requirements.
+5. **`05_SERVICE_LEVELS/SERVICE_LEVELS.md`**: Latency, accuracy, token budget, and integrity SLOs with monitoring and breach response procedures.
+
+### 3.2 Authority Boundary
+
+The Origin Architect (Trang Phan) retains sole authority over:
+- Canonical law modifications (`01_CANON`)
+- Kernel mutations (`02_KERNEL`)
+- Post-v4.4 version promotions
+- Security-critical architectural changes
+
+All other decisions are delegated through the tier hierarchy with appropriate quorum and receipt requirements.
 
 ---
-**MOC:** [[23_OPERATING_MODEL/23_OPERATING_MODEL_MOC|23_OPERATING_MODEL_MOC]]
+
+## 4. Navigation
+
+- **Decision Rights:** [[23_OPERATING_MODEL/02_DECISION_RIGHTS/DECISION_RIGHTS|DECISION_RIGHTS]]
+- **Roles Registry:** [[23_OPERATING_MODEL/01_ROLES/ROLE_REGISTRY|ROLE_REGISTRY]]
+- **Governance Forums:** [[23_OPERATING_MODEL/03_GOVERNANCE_FORUMS/GOVERNANCE_FORUMS|GOVERNANCE_FORUMS]]
+- **Escalation Paths:** [[23_OPERATING_MODEL/04_ESCALATION/ESCALATION_PATHS|ESCALATION_PATHS]]
+- **Service Levels:** [[23_OPERATING_MODEL/05_SERVICE_LEVELS/SERVICE_LEVELS|SERVICE_LEVELS]]
+- **Control Plane:** [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE_MOC]]
+- **Root Architecture:** [[00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE|FULL_BRAIN_OS_MECE_ARCHITECTURE]]
+- **Canon:** [[01_CANON/01_CANON_README|01_CANON_README]]
+
+---
+
+## 5. Status & Gaps
+
+- **Status:** `ACTIVE_SPECIFICATION` — all five governance pillars are documented and structurally present in the vault.
+- **Enforcement Gap:** Decision rights enforcement in the runtime requires integration with the control plane capability token system. This integration is specified but not yet implemented (`DOCUMENTED != IMPLEMENTED`).
+- **Multi-Stakeholder Succession:** The current model assigns D4 authority solely to the Origin Architect. Organizational succession planning for D4 authority is `UNKNOWN/GAP`.
+- **Automated Escalation:** Timeout-based automatic escalation triggers are specified but not yet operationalized in the runtime engine.
+- **SLO Monitoring Integration:** Service level objectives are defined but automated breach detection and response workflows are not yet connected to the observability plane.

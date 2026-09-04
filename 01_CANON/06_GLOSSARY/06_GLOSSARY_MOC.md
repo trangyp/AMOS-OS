@@ -1,22 +1,25 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: 06 Glossary MOC
 type: moc
 source: 01_CANON/06_GLOSSARY
 tags:
-- 06-glossary
-- canon/universe
-- amos-framework-glossary
-- canonical-glossary
-- canon-aliases
-- cross-framework-alias-table
-- deprecated-terms
-- heritage-glossary
-- neurosyncai-glossary
-- qls-qcla-glossary
-- trang-framework-glossary
-- tss-tpe-glossary
-- ubi-glossary
-- universe-omega-glossary
+  - 06-glossary
+  - canon/universe
+  - amos-framework-glossary
+  - canonical-glossary
+  - canon-aliases
+  - cross-framework-alias-table
+  - deprecated-terms
+  - heritage-glossary
+  - neurosyncai-glossary
+  - qls-qcla-glossary
+  - trang-framework-glossary
+  - tss-tpe-glossary
+  - ubi-glossary
+  - universe-omega-glossary
 moc: true
 rscf:
   state: DERIVED
@@ -51,11 +54,10 @@ rscf:
 
 - [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]] — 00_INDEX
 
----
+______________________________________________________________________
 
 **Parent:** [[01_CANON/01_CANON_MOC|01_CANON_MOC]] · [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]
 
----
+______________________________________________________________________
 
 **Related:** [[01_CANON/01_CORE_LAWS/01_CORE_LAWS_MOC|01_CORE_LAWS_MOC]] · [[02_KERNEL/02_KERNEL_MOC|02_KERNEL_MOC]] · [[11_KNOWLEDGE/11_KNOWLEDGE_MOC|11_KNOWLEDGE_MOC]] · [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]
-

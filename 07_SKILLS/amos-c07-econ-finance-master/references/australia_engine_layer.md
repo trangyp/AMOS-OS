@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: australia engine layer
 type: reference
 source: 07_SKILLS/amos-c07-econ-finance-master/references
 tags:
-- reference
-- amos-c07-econ-finance-master
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-c07-econ-finance-master
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -20,28 +23,27 @@ rscf:
 > Source: `_00_Cosmo brain/engine/A/amos-australia-engine-layer.md`
 > Epistemic class: SOURCE_DERIVED
 
----
-type: doc
-title: Bridge to amos-australia-engine-layer
-created: 2026-08-22
-tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-australia-engine-layer, engine]
----
+______________________________________________________________________
 
-# Bridge: amos-australia-engine-layer
+## type: doc title: Bridge to amos-australia-engine-layer created: 2026-08-22 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-australia-engine-layer, engine]
 
-> [!warning] Unresolved wikilink target
+## Bridge: amos-australia-engine-layer
+
+> [!WARNING] Unresolved wikilink target
 > The wikilink `amos-australia-engine-layer` has no matching note in the vault.
 > This bridge note exists to prevent graph fragmentation.
 
 Target: `amos-australia-engine-layer`
 
----
+______________________________________________________________________
+
 **MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -49,12 +51,14 @@ Target: `amos-australia-engine-layer`
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-c07-econ-finance-master-australia-engine-layer
 node_type: reference
 path: 07_SKILLS/amos-c07-econ-finance-master/references/australia_engine_layer.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

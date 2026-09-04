@@ -1,16 +1,19 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: P7 EVOLUTION LEARNING
 type: note
 source: 01_CANON/02_UNIVERSE_CANON
 tags:
-- note
-- canon/universe
-- p1-reality-environment
-- p2-sense-evidence
-- p3-knowledge-memory
-- p4-cognition-models
-- p5-governance-authority
-- p6-execution-agency
+  - note
+  - canon/universe
+  - p1-reality-environment
+  - p2-sense-evidence
+  - p3-knowledge-memory
+  - p4-cognition-models
+  - p5-governance-authority
+  - p6-execution-agency
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -34,9 +37,9 @@ rscf:
 
 **Kernel-law self-modification:** `EXCLUDED`
 
----
+______________________________________________________________________
 
-# 1. Purpose
+## 1. Purpose
 
 `P7 Evolution / Learning` defines how AMOS may improve while preserving the integrity of the system that determines whether an improvement is acceptable.
 
@@ -67,9 +70,9 @@ revalidation
 
 under persistent invariant constraints.
 
----
+______________________________________________________________________
 
-# 2. Canonical Questions
+## 2. Canonical Questions
 
 P7 must answer:
 
@@ -113,9 +116,9 @@ How is accumulated entropy repaired?
 When should evolution stop?
 ```
 
----
+______________________________________________________________________
 
-# 3. Foundational Boundary
+## 3. Foundational Boundary
 
 Mandatory:
 
@@ -138,16 +141,18 @@ OPTIMIZATION
 !=
 VALIDATION
 ```
+
 ```text
 PERFORMANCE_GAIN
 !=
 SYSTEM_IMPROVEMENT
 ```
+
 A mutation counts as improvement only when it preserves the load-bearing integrity contract within its declared scope.
 
----
+______________________________________________________________________
 
-# 4. Evolution Definition
+## 4. Evolution Definition
 
 Within P7:
 
@@ -162,9 +167,9 @@ provenance,
 and rollback discipline.
 ```
 
----
+______________________________________________________________________
 
-# 5. Learning Definition
+## 5. Learning Definition
 
 Within P7:
 
@@ -180,9 +185,9 @@ within an authorized scope.
 
 Learning does not imply unrestricted mutation.
 
----
+______________________________________________________________________
 
-# 6. Adaptation Definition
+## 6. Adaptation Definition
 
 ```text
 Adaptation
@@ -202,9 +207,9 @@ UNIVERSAL IMPROVEMENT
 
 A change beneficial in one regime may be harmful in another.
 
----
+______________________________________________________________________
 
-# 7. P7 Core Boundary
+## 7. P7 Core Boundary
 
 The supplied specification establishes:
 
@@ -228,9 +233,9 @@ The exact normative definitions of `K-2` and `L9 Evolution Laws` require resolut
 
 P7 must not invent those definitions.
 
----
+______________________________________________________________________
 
-# 8. Kernel Firewall
+## 8. Kernel Firewall
 
 Canonical architecture rule:
 
@@ -244,9 +249,9 @@ THAT GOVERN P7 ITSELF.
 
 This prevents self-authorizing evolution.
 
----
+______________________________________________________________________
 
-# 9. Self-Reference Boundary
+## 9. Self-Reference Boundary
 
 Mandatory:
 
@@ -258,9 +263,9 @@ AUTHORITY OVER EVOLUTION LAW
 
 The mechanism that proposes improvement does not automatically possess authority to redefine the conditions of acceptable improvement.
 
----
+______________________________________________________________________
 
-# 10. Evolution Authority
+## 10. Evolution Authority
 
 Conceptually:
 
@@ -278,9 +283,9 @@ ExecutionAuthority
 
 No single layer is sufficient.
 
----
+______________________________________________________________________
 
-# 11. P7-1 — Cycle Discipline
+## 11. P7-1 — Cycle Discipline
 
 Source-supplied law:
 
@@ -305,9 +310,9 @@ stable contract
 
 The exact source semantics of this pattern remain source-dependent.
 
----
+______________________________________________________________________
 
-# 12. Additive Cycle Principle
+## 12. Additive Cycle Principle
 
 A learning cycle should preferentially:
 
@@ -319,9 +324,9 @@ add validated improvement
 
 rather than destructively rewrite unaffected knowledge.
 
----
+______________________________________________________________________
 
-# 13. Cycle Model
+## 13. Cycle Model
 
 Conceptually:
 
@@ -343,9 +348,9 @@ REGRESSION TEST
 PROMOTE OR ROLLBACK
 ```
 
----
+______________________________________________________________________
 
-# 14. Cycle Object
+## 14. Cycle Object
 
 ```yaml
 learning_cycle:
@@ -373,9 +378,9 @@ learning_cycle:
   status: null
 ```
 
----
+______________________________________________________________________
 
-# 15. Stable Contract
+## 15. Stable Contract
 
 A stable contract defines the conditions that must remain true across learning cycles.
 
@@ -401,9 +406,9 @@ rollback capability
 
 Exact quantum-library contract semantics remain a source gap unless separately defined.
 
----
+______________________________________________________________________
 
-# 16. Cycle Count Boundary
+## 16. Cycle Count Boundary
 
 The source-supplied pattern references:
 
@@ -422,9 +427,9 @@ must universally use exactly 10 cycles
 
 unless the defining source establishes that stronger requirement.
 
----
+______________________________________________________________________
 
-# 17. Cycle Verification Gate
+## 17. Cycle Verification Gate
 
 Each consequential cycle should answer:
 
@@ -450,9 +455,9 @@ Did cost increase materially?
 Did new dependencies appear?
 ```
 
----
+______________________________________________________________________
 
-# 18. Failed Cycle
+## 18. Failed Cycle
 
 If validation fails:
 
@@ -474,9 +479,9 @@ rollback candidate
 
 rather than mutating the accepted baseline to hide failure.
 
----
+______________________________________________________________________
 
-# 19. Cycle Isolation
+## 19. Cycle Isolation
 
 Candidate learning should remain distinguishable from accepted state until promotion.
 
@@ -488,9 +493,9 @@ STABLE
 CANDIDATE
 ```
 
----
+______________________________________________________________________
 
-# 20. Candidate State
+## 20. Candidate State
 
 Suggested:
 
@@ -516,9 +521,9 @@ ROLLED_BACK
 QUARANTINED
 ```
 
----
+______________________________________________________________________
 
-# 21. P7-2 — Refine After Build
+## 21. P7-2 — Refine After Build
 
 Source-supplied law:
 
@@ -535,9 +540,9 @@ alternate build/refine passes
 
 This creates an explicit anti-drift mechanism.
 
----
+______________________________________________________________________
 
-# 22. Build Pass
+## 22. Build Pass
 
 A build pass increases or modifies capability.
 
@@ -557,9 +562,9 @@ new workflow
 new model
 ```
 
----
+______________________________________________________________________
 
-# 23. Refinement Pass
+## 23. Refinement Pass
 
 A refinement pass checks accumulated structure for:
 
@@ -583,9 +588,9 @@ unnecessary complexity
 regression
 ```
 
----
+______________________________________________________________________
 
-# 24. Build/Refine Alternation
+## 24. Build/Refine Alternation
 
 Canonical pattern:
 
@@ -615,9 +620,9 @@ BUILD
 UNBOUNDED DRIFT
 ```
 
----
+______________________________________________________________________
 
-# 25. Refinement Is Not Cosmetic
+## 25. Refinement Is Not Cosmetic
 
 Mandatory:
 
@@ -629,9 +634,9 @@ STYLE CLEANUP
 
 Refinement may alter structure when necessary to restore integrity.
 
----
+______________________________________________________________________
 
-# 26. Drift
+## 26. Drift
 
 Within P7:
 
@@ -646,9 +651,9 @@ scope,
 or environment fit.
 ```
 
----
+______________________________________________________________________
 
-# 27. Drift Types
+## 27. Drift Types
 
 ```text
 semantic drift
@@ -672,9 +677,9 @@ terminology drift
 behavioral drift
 ```
 
----
+______________________________________________________________________
 
-# 28. Drift Detection
+## 28. Drift Detection
 
 Potential signals:
 
@@ -698,9 +703,9 @@ scope expansion
 provenance loss
 ```
 
----
+______________________________________________________________________
 
-# 29. Drift Boundary
+## 29. Drift Boundary
 
 ```text
 CHANGE DETECTED
@@ -712,9 +717,9 @@ Some drift is intended adaptation.
 
 Classification is required.
 
----
+______________________________________________________________________
 
-# 30. P7-3 — Repair ≥ Entropy
+## 30. P7-3 — Repair ≥ Entropy
 
 Source-supplied law:
 
@@ -739,9 +744,9 @@ PV law
 
 The exact mathematical definition of the `PV law` remains source-dependent.
 
----
+______________________________________________________________________
 
-# 31. Architecture-Level Repair Law
+## 31. Architecture-Level Repair Law
 
 At the P7 model level:
 
@@ -769,9 +774,9 @@ rate of integrity-degrading change / disorder
 
 Exact measurement units remain unresolved.
 
----
+______________________________________________________________________
 
-# 32. Repair Definition
+## 32. Repair Definition
 
 ```text
 Repair
@@ -781,9 +786,9 @@ that restores or strengthens
 a violated or degraded contract.
 ```
 
----
+______________________________________________________________________
 
-# 33. Entropy Definition
+## 33. Entropy Definition
 
 Within this architecture artifact:
 
@@ -801,9 +806,9 @@ This is an AMOS model usage.
 
 It should not automatically be interpreted as physical thermodynamic entropy.
 
----
+______________________________________________________________________
 
-# 34. Entropy Sources
+## 34. Entropy Sources
 
 Possible architecture-level sources:
 
@@ -833,9 +838,9 @@ temporary patches
 unbounded exceptions
 ```
 
----
+______________________________________________________________________
 
-# 35. Repair Sources
+## 35. Repair Sources
 
 ```text
 validation
@@ -859,9 +864,9 @@ revalidation
 retirement of stale structures
 ```
 
----
+______________________________________________________________________
 
-# 36. Viability Boundary
+## 36. Viability Boundary
 
 If:
 
@@ -877,9 +882,9 @@ DEGRADING
 
 under this model.
 
----
+______________________________________________________________________
 
-# 37. Repair Margin
+## 37. Repair Margin
 
 Conceptually:
 
@@ -904,15 +909,15 @@ entropy accumulation
 
 This remains a model until measurement semantics are defined.
 
----
+______________________________________________________________________
 
-# 38. Anti-Regression
+## 38. Anti-Regression
 
 P7 requires that accepted optimization must not weaken load-bearing integrity properties.
 
----
+______________________________________________________________________
 
-# 39. Anti-Regression Contract
+## 39. Anti-Regression Contract
 
 A candidate must preserve or improve:
 
@@ -938,9 +943,9 @@ user fit
 required efficiency
 ```
 
----
+______________________________________________________________________
 
-# 40. Optimization Firewall
+## 40. Optimization Firewall
 
 Mandatory:
 
@@ -950,9 +955,9 @@ MUST NOT
 WEAKEN INTEGRITY
 ```
 
----
+______________________________________________________________________
 
-# 41. Performance Regression
+## 41. Performance Regression
 
 A candidate may improve correctness while worsening:
 
@@ -968,9 +973,9 @@ complexity
 
 Such tradeoffs should be explicit.
 
----
+______________________________________________________________________
 
-# 42. Integrity Regression
+## 42. Integrity Regression
 
 A candidate that is faster but:
 
@@ -988,9 +993,9 @@ bypasses authority
 
 must fail anti-regression.
 
----
+______________________________________________________________________
 
-# 43. Baseline
+## 43. Baseline
 
 Every candidate should identify the accepted state against which it is evaluated.
 
@@ -1010,9 +1015,9 @@ baseline:
   validation_ref: null
 ```
 
----
+______________________________________________________________________
 
-# 44. Candidate
+## 44. Candidate
 
 ```yaml
 candidate:
@@ -1036,15 +1041,15 @@ candidate:
   rollback_ref: null
 ```
 
----
+______________________________________________________________________
 
-# 45. Mutation
+## 45. Mutation
 
 A mutation is any change capable of altering future system behavior or structure.
 
----
+______________________________________________________________________
 
-# 46. Mutation Classes
+## 46. Mutation Classes
 
 ```text
 knowledge mutation
@@ -1070,9 +1075,9 @@ governance proposal
 
 Kernel-law mutation remains outside P7's self-authorized scope.
 
----
+______________________________________________________________________
 
-# 47. Mutation Scope
+## 47. Mutation Scope
 
 Every mutation should declare:
 
@@ -1090,9 +1095,9 @@ affected regimes
 rollback boundary
 ```
 
----
+______________________________________________________________________
 
-# 48. Mutation Budget
+## 48. Mutation Budget
 
 P7 may constrain how much change is introduced before revalidation.
 
@@ -1107,9 +1112,9 @@ per cycle
 
 Exact implementation is not established here.
 
----
+______________________________________________________________________
 
-# 49. Smallest Sufficient Mutation
+## 49. Smallest Sufficient Mutation
 
 Prefer:
 
@@ -1130,9 +1135,9 @@ rollback complexity
 provenance ambiguity
 ```
 
----
+______________________________________________________________________
 
-# 50. Mutation Blast Radius
+## 50. Mutation Blast Radius
 
 ```text
 MutationBlastRadius
@@ -1143,15 +1148,15 @@ or dependencies
 that may change because of mutation.
 ```
 
----
+______________________________________________________________________
 
-# 51. Mutation Isolation
+## 51. Mutation Isolation
 
 High-risk candidate mutations should be evaluated outside accepted production state where feasible.
 
----
+______________________________________________________________________
 
-# 52. Mutation Provenance
+## 52. Mutation Provenance
 
 Minimum:
 
@@ -1173,9 +1178,9 @@ promotion decision
 result
 ```
 
----
+______________________________________________________________________
 
-# 53. Evolution Lineage
+## 53. Evolution Lineage
 
 Canonical relation:
 
@@ -1193,9 +1198,9 @@ with explicit ancestry.
 
 Do not silently overwrite lineage.
 
----
+______________________________________________________________________
 
-# 54. Branching Evolution
+## 54. Branching Evolution
 
 Multiple candidates may descend from one baseline:
 
@@ -1207,9 +1212,9 @@ Multiple candidates may descend from one baseline:
 
 Neither branch should be treated as canonical solely because it is newer.
 
----
+______________________________________________________________________
 
-# 55. Competing Candidates
+## 55. Competing Candidates
 
 Preserve:
 
@@ -1231,9 +1236,9 @@ insufficient validation
 different tradeoff surfaces
 ```
 
----
+______________________________________________________________________
 
-# 56. Candidate Comparison
+## 56. Candidate Comparison
 
 Compare on:
 
@@ -1259,9 +1264,9 @@ regime fit
 provenance quality
 ```
 
----
+______________________________________________________________________
 
-# 57. Newer Is Not Better
+## 57. Newer Is Not Better
 
 Mandatory:
 
@@ -1271,9 +1276,9 @@ NEWER
 BETTER
 ```
 
----
+______________________________________________________________________
 
-# 58. Larger Is Not Better
+## 58. Larger Is Not Better
 
 ```text
 MORE FEATURES
@@ -1283,9 +1288,9 @@ MORE CAPABILITY
 
 when complexity destroys reliability or fit.
 
----
+______________________________________________________________________
 
-# 59. More Complex Is Not More Intelligent
+## 59. More Complex Is Not More Intelligent
 
 ```text
 COMPLEXITY
@@ -1293,9 +1298,9 @@ COMPLEXITY
 QUALITY
 ```
 
----
+______________________________________________________________________
 
-# 60. Benchmark Boundary
+## 60. Benchmark Boundary
 
 ```text
 BENCHMARK IMPROVEMENT
@@ -1303,15 +1308,15 @@ BENCHMARK IMPROVEMENT
 UNIVERSAL IMPROVEMENT
 ```
 
----
+______________________________________________________________________
 
-# 61. Regime-Aware Evolution
+## 61. Regime-Aware Evolution
 
 Every validated improvement inherits an applicability envelope.
 
----
+______________________________________________________________________
 
-# 62. Applicability Envelope
+## 62. Applicability Envelope
 
 Potential dimensions:
 
@@ -1333,9 +1338,9 @@ measurement method
 assumptions
 ```
 
----
+______________________________________________________________________
 
-# 63. Regime Shift
+## 63. Regime Shift
 
 If the environment changes materially:
 
@@ -1345,9 +1350,9 @@ MAY REQUIRE
 REVALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 64. Stale Improvement
+## 64. Stale Improvement
 
 A previously successful adaptation may become stale.
 
@@ -1357,9 +1362,9 @@ State:
 STALE_PENDING_REVALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 65. Cross-Regime Transfer
+## 65. Cross-Regime Transfer
 
 Mandatory:
 
@@ -1369,9 +1374,9 @@ WORKS_IN_REGIME_A
 WORKS_IN_REGIME_B
 ```
 
----
+______________________________________________________________________
 
-# 66. Learning Evidence
+## 66. Learning Evidence
 
 P7 learning should distinguish:
 
@@ -1389,9 +1394,9 @@ DECISION
 UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 67. Evidence Promotion
+## 67. Evidence Promotion
 
 Information should not become durable validated knowledge merely because it was encountered.
 
@@ -1407,9 +1412,9 @@ VALIDATED KNOWLEDGE
 ELIGIBLE LEARNING
 ```
 
----
+______________________________________________________________________
 
-# 68. Knowledge Harvest
+## 68. Knowledge Harvest
 
 Learning should preserve:
 
@@ -1435,9 +1440,9 @@ revalidation timing
 lineage
 ```
 
----
+______________________________________________________________________
 
-# 69. Learning From Failure
+## 69. Learning From Failure
 
 Failure may become learning evidence only after classification.
 
@@ -1451,9 +1456,9 @@ LESSON
 
 until causal interpretation is sufficiently supported.
 
----
+______________________________________________________________________
 
-# 70. Learning From Success
+## 70. Learning From Success
 
 Likewise:
 
@@ -1463,15 +1468,15 @@ SUCCESS
 PROOF OF CAUSATION
 ```
 
----
+______________________________________________________________________
 
-# 71. Causal Firewall
+## 71. Causal Firewall
 
 A candidate improvement correlated with better outcomes does not automatically cause them.
 
----
+______________________________________________________________________
 
-# 72. Evolution Experiment
+## 72. Evolution Experiment
 
 ```yaml
 experiment:
@@ -1499,37 +1504,37 @@ experiment:
   falsifiers: []
 ```
 
----
+______________________________________________________________________
 
-# 73. Hypothesis
+## 73. Hypothesis
 
 Every consequential optimization should state what it expects to improve.
 
----
+______________________________________________________________________
 
-# 74. Falsifier
+## 74. Falsifier
 
 A candidate should define evidence that would invalidate its improvement claim.
 
----
+______________________________________________________________________
 
-# 75. Negative Result
+## 75. Negative Result
 
 A failed experiment is not necessarily a failed learning cycle.
 
 It may successfully eliminate a bad hypothesis.
 
----
+______________________________________________________________________
 
-# 76. Selection
+## 76. Selection
 
 Selection chooses among candidate variants.
 
 Selection criteria must remain governed.
 
----
+______________________________________________________________________
 
-# 77. Selection Boundary
+## 77. Selection Boundary
 
 ```text
 SELECTED
@@ -1539,15 +1544,15 @@ CANONICAL
 
 until promotion completes.
 
----
+______________________________________________________________________
 
-# 78. Promotion
+## 78. Promotion
 
 Promotion moves validated candidate state into accepted operational/canonical state.
 
----
+______________________________________________________________________
 
-# 79. Promotion Gate
+## 79. Promotion Gate
 
 Before promotion:
 
@@ -1567,9 +1572,9 @@ rollback available where required
 governance authority valid
 ```
 
----
+______________________________________________________________________
 
-# 80. Promotion Object
+## 80. Promotion Object
 
 ```yaml
 promotion:
@@ -1593,9 +1598,9 @@ promotion:
   status: null
 ```
 
----
+______________________________________________________________________
 
-# 81. Promotion Boundary
+## 81. Promotion Boundary
 
 Mandatory:
 
@@ -1605,15 +1610,15 @@ VALIDATED
 PROMOTED
 ```
 
----
+______________________________________________________________________
 
-# 82. Rollback
+## 82. Rollback
 
 A promoted change should remain reversible when architecture and effect class permit it.
 
----
+______________________________________________________________________
 
-# 83. Evolution Rollback
+## 83. Evolution Rollback
 
 ```text
 detect regression
@@ -1629,9 +1634,9 @@ restore nearest valid state
 revalidate
 ```
 
----
+______________________________________________________________________
 
-# 84. Local Invalidation
+## 84. Local Invalidation
 
 If one premise or mutation fails:
 
@@ -1641,9 +1646,9 @@ invalidate only dependent conclusions
 
 not all unrelated evolution.
 
----
+______________________________________________________________________
 
-# 85. Evolution Recovery
+## 85. Evolution Recovery
 
 Prefer:
 
@@ -1659,9 +1664,9 @@ GLOBAL REBUILD
 
 when dependency closure allows.
 
----
+______________________________________________________________________
 
-# 86. Failed Path Rule
+## 86. Failed Path Rule
 
 Do not repeat a failed evolutionary path unless:
 
@@ -1677,15 +1682,15 @@ assumptions changed
 hypothesis changed
 ```
 
----
+______________________________________________________________________
 
-# 87. Versioning
+## 87. Versioning
 
 Every material accepted mutation should create distinguishable version state.
 
----
+______________________________________________________________________
 
-# 88. Version Identity
+## 88. Version Identity
 
 Potential:
 
@@ -1701,9 +1706,9 @@ canonical registry ID
 
 Exact implementation is source-dependent.
 
----
+______________________________________________________________________
 
-# 89. Version Boundary
+## 89. Version Boundary
 
 ```text
 SAME NAME
@@ -1711,15 +1716,15 @@ SAME NAME
 SAME VERSION
 ```
 
----
+______________________________________________________________________
 
-# 90. Lineage Integrity
+## 90. Lineage Integrity
 
 Every accepted version should retain its parent/ancestry relation where available.
 
----
+______________________________________________________________________
 
-# 91. Provenance Topology
+## 91. Provenance Topology
 
 Multiple reports of the same improvement may descend from one original experiment.
 
@@ -1731,15 +1736,15 @@ REPETITION
 INDEPENDENT VALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 92. Independent Revalidation
+## 92. Independent Revalidation
 
 For consequential improvements, confidence increases more from independent validation than from repeated descendants of one source.
 
----
+______________________________________________________________________
 
-# 93. Sybil Hardening
+## 93. Sybil Hardening
 
 Do not count:
 
@@ -1752,15 +1757,15 @@ many agents repeating one result
 
 as independent evidence.
 
----
+______________________________________________________________________
 
-# 94. Learning Confidence Ceiling
+## 94. Learning Confidence Ceiling
 
 Derived confidence cannot exceed the weakest load-bearing premise unless independently revalidated.
 
----
+______________________________________________________________________
 
-# 95. Proof Capsule for Evolution
+## 95. Proof Capsule for Evolution
 
 Important candidate claims should carry:
 
@@ -1796,9 +1801,9 @@ evolution_proof_capsule:
   confidence_ceiling: null
 ```
 
----
+______________________________________________________________________
 
-# 96. Proof Reuse
+## 96. Proof Reuse
 
 A prior validation may be reused only while:
 
@@ -1814,9 +1819,9 @@ freshness remains acceptable
 no conflict invalidates it
 ```
 
----
+______________________________________________________________________
 
-# 97. Revalidation Trigger
+## 97. Revalidation Trigger
 
 Revalidate on:
 
@@ -1840,21 +1845,21 @@ provenance failure
 upstream canon change
 ```
 
----
+______________________________________________________________________
 
-# 98. Evolution Dependency Graph
+## 98. Evolution Dependency Graph
 
 A mutation should expose which nodes depend on it.
 
----
+______________________________________________________________________
 
-# 99. Dependency Closure
+## 99. Dependency Closure
 
 Before local promotion, determine whether the mutation can affect states outside its declared local scope.
 
----
+______________________________________________________________________
 
-# 100. Local Evolution Fast Path
+## 100. Local Evolution Fast Path
 
 Local evolution may proceed with smaller proof scope when:
 
@@ -1872,9 +1877,9 @@ no unresolved conflict
 rollback available where required
 ```
 
----
+______________________________________________________________________
 
-# 101. Escalation Conditions
+## 101. Escalation Conditions
 
 Escalate evolutionary review when:
 
@@ -1898,9 +1903,9 @@ irreversible stakes increase
 dependencies ambiguous
 ```
 
----
+______________________________________________________________________
 
-# 102. Evolution and Integrity
+## 102. Evolution and Integrity
 
 The highest-order P7 constraint is:
 
@@ -1918,23 +1923,23 @@ TOKEN SAVINGS
 
 Optimization that reverses this ordering is regression.
 
----
+______________________________________________________________________
 
-# 103. Anti-Fabrication During Learning
+## 103. Anti-Fabrication During Learning
 
 Missing evidence must remain missing.
 
 Evolution may not improve apparent completeness by inventing bridges.
 
----
+______________________________________________________________________
 
-# 104. Contradiction Preservation
+## 104. Contradiction Preservation
 
 Learning must not remove a genuine contradiction merely to produce a cleaner model.
 
----
+______________________________________________________________________
 
-# 105. Competing Hypotheses
+## 105. Competing Hypotheses
 
 When discriminating evidence is insufficient:
 
@@ -1942,15 +1947,15 @@ When discriminating evidence is insufficient:
 PRESERVE COMPETING
 ```
 
----
+______________________________________________________________________
 
-# 106. Cheapest Discriminating Test
+## 106. Cheapest Discriminating Test
 
 Prefer the lowest-cost test capable of changing candidate selection.
 
----
+______________________________________________________________________
 
-# 107. Sensitivity
+## 107. Sensitivity
 
 For a consequential improvement identify:
 
@@ -1962,9 +1967,9 @@ or observation
 capable of reversing the result.
 ```
 
----
+______________________________________________________________________
 
-# 108. Fragile Improvement
+## 108. Fragile Improvement
 
 If minor perturbation reverses benefit:
 
@@ -1974,15 +1979,15 @@ CONDITIONAL
 
 not universally superior.
 
----
+______________________________________________________________________
 
-# 109. Robust Improvement
+## 109. Robust Improvement
 
 A robust candidate should survive plausible perturbations of noncritical assumptions.
 
----
+______________________________________________________________________
 
-# 110. Evolution Cost
+## 110. Evolution Cost
 
 Improvement has costs.
 
@@ -2010,9 +2015,9 @@ operator burden
 new failure modes
 ```
 
----
+______________________________________________________________________
 
-# 111. Net Improvement
+## 111. Net Improvement
 
 Conceptually:
 
@@ -2030,27 +2035,27 @@ RiskCost
 
 This is a model relation, not a fixed empirical equation.
 
----
+______________________________________________________________________
 
-# 112. Complexity Debt
+## 112. Complexity Debt
 
 A candidate that improves one metric while greatly increasing maintenance burden may create complexity debt.
 
----
+______________________________________________________________________
 
-# 113. Repair Debt
+## 113. Repair Debt
 
 Unresolved integrity defects accumulate repair debt.
 
----
+______________________________________________________________________
 
-# 114. Evolution Debt
+## 114. Evolution Debt
 
 Deferred validation of accepted change creates evolution debt.
 
----
+______________________________________________________________________
 
-# 115. Debt Boundary
+## 115. Debt Boundary
 
 ```text
 DEFERRED
@@ -2058,15 +2063,15 @@ DEFERRED
 RESOLVED
 ```
 
----
+______________________________________________________________________
 
-# 116. Learning Saturation
+## 116. Learning Saturation
 
 A cycle may stop when further mutation has insufficient expected decision value.
 
----
+______________________________________________________________________
 
-# 117. Stop Condition
+## 117. Stop Condition
 
 Stop when:
 
@@ -2080,21 +2085,21 @@ action sufficiency
 
 are achieved and further mutation does not justify its risk/cost.
 
----
+______________________________________________________________________
 
-# 118. Over-Optimization
+## 118. Over-Optimization
 
 Repeated refinement after sufficient performance may increase fragility.
 
----
+______________________________________________________________________
 
-# 119. Evolution Rate
+## 119. Evolution Rate
 
 A system may evolve too quickly for its validation/repair mechanisms.
 
----
+______________________________________________________________________
 
-# 120. Sustainable Evolution
+## 120. Sustainable Evolution
 
 Conceptually:
 
@@ -2110,9 +2115,9 @@ as a qualitative architecture constraint.
 
 Exact quantitative semantics remain undefined unless source canon establishes them.
 
----
+______________________________________________________________________
 
-# 121. Repair Capacity
+## 121. Repair Capacity
 
 Factors may include:
 
@@ -2132,9 +2137,9 @@ human review capacity
 automation reliability
 ```
 
----
+______________________________________________________________________
 
-# 122. Entropy Injection Rate
+## 122. Entropy Injection Rate
 
 May increase with:
 
@@ -2152,15 +2157,15 @@ weak validation
 environment instability
 ```
 
----
+______________________________________________________________________
 
-# 123. Mutation Pressure
+## 123. Mutation Pressure
 
 Pressure for improvement must not override integrity gates.
 
----
+______________________________________________________________________
 
-# 124. Evolution Emergency Brake
+## 124. Evolution Emergency Brake
 
 When regression rate exceeds repair capacity:
 
@@ -2170,9 +2175,9 @@ FREEZE NONESSENTIAL MUTATION
 
 may be the safest governance action.
 
----
+______________________________________________________________________
 
-# 125. Evolution Quarantine
+## 125. Evolution Quarantine
 
 A suspicious candidate may remain:
 
@@ -2182,15 +2187,15 @@ QUARANTINED
 
 for investigation without contaminating accepted state.
 
----
+______________________________________________________________________
 
-# 126. Retirement
+## 126. Retirement
 
 Obsolete components should be retired deliberately rather than silently forgotten.
 
----
+______________________________________________________________________
 
-# 127. Retirement Object
+## 127. Retirement Object
 
 ```yaml
 retirement:
@@ -2210,15 +2215,15 @@ retirement:
   retired_at: null
 ```
 
----
+______________________________________________________________________
 
-# 128. Deprecation
+## 128. Deprecation
 
 Deprecation signals planned retirement while preserving temporary compatibility.
 
----
+______________________________________________________________________
 
-# 129. Deletion Boundary
+## 129. Deletion Boundary
 
 ```text
 DEPRECATED
@@ -2226,9 +2231,9 @@ DEPRECATED
 DELETED
 ```
 
----
+______________________________________________________________________
 
-# 130. Historical Preservation
+## 130. Historical Preservation
 
 Retired knowledge may remain valuable for:
 
@@ -2244,17 +2249,17 @@ failure analysis
 regime comparison
 ```
 
----
+______________________________________________________________________
 
-# 131. Forgetting
+## 131. Forgetting
 
 Forgetting may be intentional when retention is harmful or invalid.
 
 It must still respect governance and provenance requirements.
 
----
+______________________________________________________________________
 
-# 132. Learning vs Memory
+## 132. Learning vs Memory
 
 P3 stores.
 
@@ -2268,41 +2273,41 @@ MEMORY
 LEARNING
 ```
 
----
+______________________________________________________________________
 
-# 133. Learning vs Cognition
+## 133. Learning vs Cognition
 
 P4 reasons using current models.
 
 P7 changes those models or their future selection within governed bounds.
 
----
+______________________________________________________________________
 
-# 134. Learning vs Execution
+## 134. Learning vs Execution
 
 P6 performs effects.
 
 P7 may propose changes to future execution behavior but does not itself bypass P6.
 
----
+______________________________________________________________________
 
-# 135. Evolution vs Governance
+## 135. Evolution vs Governance
 
 P5 determines whether a mutation may be promoted.
 
 P7 cannot self-authorize promotion.
 
----
+______________________________________________________________________
 
-# 136. Evolution vs Validation
+## 136. Evolution vs Validation
 
 P7 generates and selects candidates.
 
 P11-style validation determines whether claimed properties survive required tests.
 
----
+______________________________________________________________________
 
-# 137. Evolution vs Provenance
+## 137. Evolution vs Provenance
 
 Every accepted improvement should remain traceable to:
 
@@ -2320,9 +2325,9 @@ decision
 promotion
 ```
 
----
+______________________________________________________________________
 
-# 138. Evolution vs Deployment
+## 138. Evolution vs Deployment
 
 Promotion into canon or accepted design does not necessarily equal deployment into runtime.
 
@@ -2334,15 +2339,15 @@ PROMOTED
 DEPLOYED
 ```
 
----
+______________________________________________________________________
 
-# 139. Deployment Feedback
+## 139. Deployment Feedback
 
 Runtime outcomes may produce new evidence for future P7 cycles.
 
----
+______________________________________________________________________
 
-# 140. Feedback Loop
+## 140. Feedback Loop
 
 Canonical architecture:
 
@@ -2374,9 +2379,9 @@ P4 / P5 / P6 CANDIDATE CHANGE
 
 subject to boundaries.
 
----
+______________________________________________________________________
 
-# 141. P7 Does Not Close the Universe
+## 141. P7 Does Not Close the Universe
 
 P7 is not a license for circular self-validation.
 
@@ -2388,21 +2393,21 @@ SYSTEM SAYS IT IMPROVED
 SYSTEM IMPROVED
 ```
 
----
+______________________________________________________________________
 
-# 142. External Reality Check
+## 142. External Reality Check
 
 Where improvement claims concern external performance, P1/P2 evidence remains necessary.
 
----
+______________________________________________________________________
 
-# 143. Self-Evaluation Boundary
+## 143. Self-Evaluation Boundary
 
 Internal metrics may be useful but cannot universally replace independent observation.
 
----
+______________________________________________________________________
 
-# 144. Reward Hacking
+## 144. Reward Hacking
 
 A system may optimize the metric rather than the intended property.
 
@@ -2418,9 +2423,9 @@ from:
 OBJECTIVE IMPROVEMENT
 ```
 
----
+______________________________________________________________________
 
-# 145. Proxy Drift
+## 145. Proxy Drift
 
 If a proxy stops tracking the target property:
 
@@ -2428,17 +2433,17 @@ If a proxy stops tracking the target property:
 REVALIDATE OBJECTIVE
 ```
 
----
+______________________________________________________________________
 
-# 146. Goodhart Firewall
+## 146. Goodhart Firewall
 
 Optimization pressure on a measure can degrade its usefulness as a measure.
 
 Therefore consequential evolution should use multiple integrity checks rather than a single optimization metric.
 
----
+______________________________________________________________________
 
-# 147. Evolution Objective
+## 147. Evolution Objective
 
 ```yaml
 evolution_objective:
@@ -2460,17 +2465,17 @@ evolution_objective:
   stop_conditions: []
 ```
 
----
+______________________________________________________________________
 
-# 148. Objective Drift
+## 148. Objective Drift
 
 The optimization target itself may drift.
 
 This requires governance review, not silent adaptation.
 
----
+______________________________________________________________________
 
-# 149. Learning Policy
+## 149. Learning Policy
 
 A learning policy may define:
 
@@ -2490,17 +2495,17 @@ cycle limits
 resource budgets
 ```
 
----
+______________________________________________________________________
 
-# 150. Learning Policy Boundary
+## 150. Learning Policy Boundary
 
 P7 executes under learning policy.
 
 It does not own unrestricted authority to rewrite that policy.
 
----
+______________________________________________________________________
 
-# 151. Evolution Budget
+## 151. Evolution Budget
 
 Evolution itself consumes resources.
 
@@ -2520,9 +2525,9 @@ deployment risk
 repair capacity
 ```
 
----
+______________________________________________________________________
 
-# 152. Evolution Budget Exhaustion
+## 152. Evolution Budget Exhaustion
 
 If learning consumes more resources than permitted:
 
@@ -2534,9 +2539,9 @@ ESCALATE
 
 according to governance.
 
----
+______________________________________________________________________
 
-# 153. P7 H/M/L Architecture
+## 153. P7 H/M/L Architecture
 
 P7 is recursive.
 
@@ -2560,9 +2565,9 @@ repair
 validation result
 ```
 
----
+______________________________________________________________________
 
-# 154. H-Level Evolution
+## 154. H-Level Evolution
 
 Examples:
 
@@ -2578,9 +2583,9 @@ major regime migration
 
 Kernel-law self-modification remains excluded.
 
----
+______________________________________________________________________
 
-# 155. M-Level Evolution
+## 155. M-Level Evolution
 
 Examples:
 
@@ -2594,9 +2599,9 @@ agent policy candidate
 execution subsystem optimization
 ```
 
----
+______________________________________________________________________
 
-# 156. L-Level Evolution
+## 156. L-Level Evolution
 
 Examples:
 
@@ -2610,9 +2615,9 @@ single dependency update
 single evidence reclassification
 ```
 
----
+______________________________________________________________________
 
-# 157. Bottom-Up Learning
+## 157. Bottom-Up Learning
 
 ```text
 L observations
@@ -2624,9 +2629,9 @@ H candidate adaptation
 
 only when evidence supports generalization.
 
----
+______________________________________________________________________
 
-# 158. Top-Down Evolution Constraints
+## 158. Top-Down Evolution Constraints
 
 ```text
 H invariants
@@ -2636,21 +2641,21 @@ M mutation bounds
 L admissible changes
 ```
 
----
+______________________________________________________________________
 
-# 159. Cross-Level Firewall
+## 159. Cross-Level Firewall
 
 Success at L does not automatically validate H-level generalization.
 
----
+______________________________________________________________________
 
-# 160. Evolution Atomicity
+## 160. Evolution Atomicity
 
 A logically coupled set of mutations may require shared validation.
 
----
+______________________________________________________________________
 
-# 161. Atomic Multi-RSCF Evolution
+## 161. Atomic Multi-RSCF Evolution
 
 When multiple RSCF nodes form one load-bearing change:
 
@@ -2661,9 +2666,9 @@ before promotion
 
 to avoid mixed incompatible states.
 
----
+______________________________________________________________________
 
-# 162. Partial Evolution
+## 162. Partial Evolution
 
 If only some coupled mutations succeed:
 
@@ -2673,15 +2678,15 @@ PARTIAL_EVOLUTION
 
 must remain explicit.
 
----
+______________________________________________________________________
 
-# 163. Evolution Commit
+## 163. Evolution Commit
 
 A candidate becomes accepted only at a defined promotion/commit boundary.
 
----
+______________________________________________________________________
 
-# 164. Evolution Receipt
+## 164. Evolution Receipt
 
 A material promotion should emit enough record to reconstruct:
 
@@ -2699,9 +2704,9 @@ with what validation
 to which version
 ```
 
----
+______________________________________________________________________
 
-# 165. Evolution Receipt Object
+## 165. Evolution Receipt Object
 
 ```yaml
 evolution_receipt:
@@ -2725,9 +2730,9 @@ evolution_receipt:
   committed_at: null
 ```
 
----
+______________________________________________________________________
 
-# 166. Evolution Receipt Boundary
+## 166. Evolution Receipt Boundary
 
 ```text
 PROMOTION RECEIPT
@@ -2737,9 +2742,9 @@ PROOF OF IMPROVEMENT
 
 The receipt proves the governed transition record, not the truth of every improvement claim.
 
----
+______________________________________________________________________
 
-# 167. Anti-Regression Test Matrix
+## 167. Anti-Regression Test Matrix
 
 A candidate should be tested against:
 
@@ -2771,9 +2776,9 @@ resource use
 user fit
 ```
 
----
+______________________________________________________________________
 
-# 168. Regression Finding Classes
+## 168. Regression Finding Classes
 
 ```text
 FACTUAL_REGRESSION
@@ -2803,15 +2808,15 @@ OBSERVABILITY_REGRESSION
 USER_FIT_REGRESSION
 ```
 
----
+______________________________________________________________________
 
-# 169. Critical Regression
+## 169. Critical Regression
 
 Any regression that weakens a load-bearing integrity property should block automatic promotion.
 
----
+______________________________________________________________________
 
-# 170. Tradeoff Candidate
+## 170. Tradeoff Candidate
 
 A candidate may improve one property and worsen another.
 
@@ -2823,21 +2828,21 @@ CONDITIONAL
 
 until governance determines the tradeoff is acceptable.
 
----
+______________________________________________________________________
 
-# 171. Pareto Improvement
+## 171. Pareto Improvement
 
 Conceptually, a candidate is especially attractive when it improves at least one important property without materially worsening others.
 
----
+______________________________________________________________________
 
-# 172. Dominated Candidate
+## 172. Dominated Candidate
 
 If candidate B is no better on material dimensions and worse on at least one, B may be rejected unless it serves another regime or constraint.
 
----
+______________________________________________________________________
 
-# 173. Evolution Metrics
+## 173. Evolution Metrics
 
 Potential metrics:
 
@@ -2867,9 +2872,9 @@ drift rate
 
 Exact metrics remain implementation-dependent.
 
----
+______________________________________________________________________
 
-# 174. Metric Provenance
+## 174. Metric Provenance
 
 Every consequential evolution metric should identify:
 
@@ -2885,23 +2890,23 @@ environment
 regime
 ```
 
----
+______________________________________________________________________
 
-# 175. Metric Freshness
+## 175. Metric Freshness
 
 Old benchmark results should not automatically justify current promotion.
 
----
+______________________________________________________________________
 
-# 176. Learning Window
+## 176. Learning Window
 
 A learning cycle may operate over a bounded evidence window.
 
 Exact retention/freshness semantics are implementation-specific.
 
----
+______________________________________________________________________
 
-# 177. Catastrophic Forgetting
+## 177. Catastrophic Forgetting
 
 If new learning destroys previously validated capability:
 
@@ -2911,15 +2916,15 @@ REGRESSION
 
 unless intentionally governed.
 
----
+______________________________________________________________________
 
-# 178. Preservation Test
+## 178. Preservation Test
 
 Before promotion, test whether important prior capabilities remain valid.
 
----
+______________________________________________________________________
 
-# 179. Compatibility
+## 179. Compatibility
 
 Evolution may need compatibility with:
 
@@ -2939,23 +2944,23 @@ receipts
 canonical references
 ```
 
----
+______________________________________________________________________
 
-# 180. Compatibility Boundary
+## 180. Compatibility Boundary
 
 Backward compatibility is not universally required.
 
 But breaking change must be explicit.
 
----
+______________________________________________________________________
 
-# 181. Migration
+## 181. Migration
 
 Breaking evolution may require a migration plan.
 
----
+______________________________________________________________________
 
-# 182. Migration Object
+## 182. Migration Object
 
 ```yaml
 migration:
@@ -2977,15 +2982,15 @@ migration:
   status: null
 ```
 
----
+______________________________________________________________________
 
-# 183. Migration Failure
+## 183. Migration Failure
 
 A partially migrated system should not masquerade as fully upgraded.
 
----
+______________________________________________________________________
 
-# 184. Evolution Security
+## 184. Evolution Security
 
 Mutation mechanisms increase attack surface.
 
@@ -3007,29 +3012,29 @@ rollback sabotage
 candidate substitution
 ```
 
----
+______________________________________________________________________
 
-# 185. Learning Poisoning
+## 185. Learning Poisoning
 
 Evidence intended to alter future behavior should receive provenance and trust scrutiny proportional to consequence.
 
----
+______________________________________________________________________
 
-# 186. Provenance Attack
+## 186. Provenance Attack
 
 Multiple apparently independent improvement reports may share one adversarial origin.
 
 Use ancestry-aware validation.
 
----
+______________________________________________________________________
 
-# 187. Evolution Privilege
+## 187. Evolution Privilege
 
 The ability to propose a mutation is not the authority to promote it.
 
----
+______________________________________________________________________
 
-# 188. Self-Promotion Firewall
+## 188. Self-Promotion Firewall
 
 Mandatory:
 
@@ -3041,9 +3046,9 @@ SOLELY
 BECAUSE IT SCORES ITSELF HIGHER
 ```
 
----
+______________________________________________________________________
 
-# 189. Kernel Mutation Firewall
+## 189. Kernel Mutation Firewall
 
 Mandatory:
 
@@ -3056,9 +3061,9 @@ KERNEL-LAW MODIFICATION
 
 This preserves the supplied `K-2` boundary.
 
----
+______________________________________________________________________
 
-# 190. L9 Boundary
+## 190. L9 Boundary
 
 The supplied specification states:
 
@@ -3076,9 +3081,9 @@ UNKNOWN/GAP
 
 but the dependency itself remains binding.
 
----
+______________________________________________________________________
 
-# 191. P7 Workflow — Standard Evolution
+## 191. P7 Workflow — Standard Evolution
 
 ```text
 OBSERVE
@@ -3112,9 +3117,9 @@ MONITOR
 REVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 192. P7 Workflow — Cycle Discipline
+## 192. P7 Workflow — Cycle Discipline
 
 ```text
 CYCLE N
@@ -3134,9 +3139,9 @@ NEXT CYCLE
 
 The source-supplied 10-cycle quantum-library pattern remains a specific referenced pattern, not silently generalized beyond its supported scope.
 
----
+______________________________________________________________________
 
-# 193. P7 Workflow — Anti-Regression
+## 193. P7 Workflow — Anti-Regression
 
 ```text
 CANDIDATE IMPROVES TARGET METRIC
@@ -3149,9 +3154,9 @@ ELSE
     CONTINUE
 ```
 
----
+______________________________________________________________________
 
-# 194. P7 Workflow — Repair
+## 194. P7 Workflow — Repair
 
 ```text
 DETECT DRIFT
@@ -3169,9 +3174,9 @@ REVALIDATE DESCENDANTS
 PRESERVE UNAFFECTED STATE
 ```
 
----
+______________________________________________________________________
 
-# 195. P7 Workflow — Regime Shift
+## 195. P7 Workflow — Regime Shift
 
 ```text
 REGIME CHANGE DETECTED
@@ -3187,9 +3192,9 @@ ADAPT WHERE SUPPORTED
 PRESERVE OLD REGIME LINEAGE
 ```
 
----
+______________________________________________________________________
 
-# 196. P7 Workflow — Candidate Competition
+## 196. P7 Workflow — Candidate Competition
 
 ```text
 BASELINE
@@ -3207,9 +3212,9 @@ ELSE:
     PRESERVE COMPETING
 ```
 
----
+______________________________________________________________________
 
-# 197. P7 Workflow — Rollback
+## 197. P7 Workflow — Rollback
 
 ```text
 PROMOTED VERSION
@@ -3227,9 +3232,9 @@ VERIFY
 RECORD EVOLUTION RECEIPT
 ```
 
----
+______________________________________________________________________
 
-# 198. P7 Workflow — Repair/Entropy Control
+## 198. P7 Workflow — Repair/Entropy Control
 
 ```text
 MEASURE / ESTIMATE
@@ -3246,9 +3251,9 @@ ELSE
     OR FREEZE
 ```
 
----
+______________________________________________________________________
 
-# 199. P7 Invariants
+## 199. P7 Invariants
 
 ## Kernel invariant
 
@@ -3331,9 +3336,9 @@ candidate generation does not confer promotion authority.
 unknown evolution semantics remain UNKNOWN/GAP.
 ```
 
----
+______________________________________________________________________
 
-# 200. P7 Failure Modes
+## 200. P7 Failure Modes
 
 ## F01 — Change/Improvement Collapse
 
@@ -3431,9 +3436,9 @@ Adversarial evidence changes behavior without sufficient provenance scrutiny.
 
 Missing evolution-law definitions are filled with invented semantics.
 
----
+______________________________________________________________________
 
-# 201. P7 Tests
+## 201. P7 Tests
 
 Minimum:
 
@@ -3475,9 +3480,9 @@ migration test
 dependency-closure test
 ```
 
----
+______________________________________________________________________
 
-# 202. Cycle Gate Test
+## 202. Cycle Gate Test
 
 Attempt promotion without required verification gate.
 
@@ -3487,15 +3492,15 @@ Expected:
 BLOCK
 ```
 
----
+______________________________________________________________________
 
-# 203. Build/Refine Test
+## 203. Build/Refine Test
 
 Run repeated build passes and detect whether refinement gate is triggered under the applicable cycle policy.
 
----
+______________________________________________________________________
 
-# 204. Anti-Regression Test
+## 204. Anti-Regression Test
 
 Create candidate with target performance gain but provenance degradation.
 
@@ -3505,9 +3510,9 @@ Expected:
 REJECT / REPAIR
 ```
 
----
+______________________________________________________________________
 
-# 205. Kernel Firewall Test
+## 205. Kernel Firewall Test
 
 Candidate attempts to relax protected kernel constraint.
 
@@ -3517,9 +3522,9 @@ Expected:
 BLOCK
 ```
 
----
+______________________________________________________________________
 
-# 206. Self-Promotion Test
+## 206. Self-Promotion Test
 
 Candidate evaluates itself positively and attempts promotion without external governance authority.
 
@@ -3529,39 +3534,39 @@ Expected:
 BLOCK
 ```
 
----
+______________________________________________________________________
 
-# 207. Lineage Test
+## 207. Lineage Test
 
 Every promoted version must identify valid parent state or explicitly declared lineage break.
 
----
+______________________________________________________________________
 
-# 208. Rollback Test
+## 208. Rollback Test
 
 Introduce known regression after promotion.
 
 Verify restoration to nearest valid state.
 
----
+______________________________________________________________________
 
-# 209. Local Invalidation Test
+## 209. Local Invalidation Test
 
 Invalidate one load-bearing premise.
 
 Only dependent conclusions should be invalidated.
 
----
+______________________________________________________________________
 
-# 210. Regime Shift Test
+## 210. Regime Shift Test
 
 Change environment assumptions.
 
 Previously regime-bound improvement must be revalidated.
 
----
+______________________________________________________________________
 
-# 211. Candidate Competition Test
+## 211. Candidate Competition Test
 
 Create two candidates with incomparable evidence.
 
@@ -3573,9 +3578,9 @@ COMPETING
 
 until discriminating evidence exists.
 
----
+______________________________________________________________________
 
-# 212. Provenance Independence Test
+## 212. Provenance Independence Test
 
 Duplicate one validation result through multiple descendants.
 
@@ -3587,9 +3592,9 @@ one provenance family
 
 not multiple independent confirmations.
 
----
+______________________________________________________________________
 
-# 213. Stale Validation Test
+## 213. Stale Validation Test
 
 Change dependency after validation.
 
@@ -3599,9 +3604,9 @@ Expected:
 REVALIDATION_REQUIRED
 ```
 
----
+______________________________________________________________________
 
-# 214. Catastrophic Forgetting Test
+## 214. Catastrophic Forgetting Test
 
 Candidate improves new task but loses protected prior capability.
 
@@ -3611,9 +3616,9 @@ Expected:
 REGRESSION
 ```
 
----
+______________________________________________________________________
 
-# 215. Proxy Test
+## 215. Proxy Test
 
 Increase proxy metric while objective performance worsens.
 
@@ -3623,15 +3628,15 @@ Expected:
 REJECT / REDEFINE OBJECTIVE
 ```
 
----
+______________________________________________________________________
 
-# 216. Repair Capacity Test
+## 216. Repair Capacity Test
 
 Inject known defects at controlled rate and verify repair process can restore required contracts.
 
----
+______________________________________________________________________
 
-# 217. Entropy Overrun Test
+## 217. Entropy Overrun Test
 
 Increase mutation pressure beyond repair capacity.
 
@@ -3641,15 +3646,15 @@ Expected:
 THROTTLE / FREEZE / ESCALATE
 ```
 
----
+______________________________________________________________________
 
-# 218. Migration Test
+## 218. Migration Test
 
 Apply breaking candidate to old state and verify migration/rollback behavior.
 
----
+______________________________________________________________________
 
-# 219. Dependency Closure Test
+## 219. Dependency Closure Test
 
 Attempt local promotion while unresolved external dependency exists.
 
@@ -3659,9 +3664,9 @@ Expected:
 ESCALATE
 ```
 
----
+______________________________________________________________________
 
-# 220. P7 Agent
+## 220. P7 Agent
 
 An Evolution / Learning agent may:
 
@@ -3689,9 +3694,9 @@ request revalidation
 identify stale knowledge
 ```
 
----
+______________________________________________________________________
 
-# 221. P7 Agent Authority
+## 221. P7 Agent Authority
 
 Default:
 
@@ -3706,9 +3711,9 @@ agent_authority:
   self_elevation: FORBIDDEN
 ```
 
----
+______________________________________________________________________
 
-# 222. P7 Agent Contract
+## 222. P7 Agent Contract
 
 ```yaml
 agent:
@@ -3745,9 +3750,9 @@ agent:
   audit_log: required
 ```
 
----
+______________________________________________________________________
 
-# 223. Evolution Registry
+## 223. Evolution Registry
 
 A derived implementation may maintain:
 
@@ -3770,9 +3775,9 @@ P7_EVOLUTION_LEARNING/
 
 This is proposed architecture, not asserted runtime implementation.
 
----
+______________________________________________________________________
 
-# 224. Candidate Registry Entry
+## 224. Candidate Registry Entry
 
 ```yaml
 candidate_registry_entry:
@@ -3798,9 +3803,9 @@ candidate_registry_entry:
   rollback_ref: null
 ```
 
----
+______________________________________________________________________
 
-# 225. Evolution History
+## 225. Evolution History
 
 History should preserve:
 
@@ -3820,15 +3825,15 @@ regime transitions
 
 where governance permits.
 
----
+______________________________________________________________________
 
-# 226. P7 and P1
+## 226. P7 and P1
 
 P1 provides environment and regime state against which adaptation must remain valid.
 
----
+______________________________________________________________________
 
-# 227. P7 and P2
+## 227. P7 and P2
 
 P2 provides evidence of:
 
@@ -3844,9 +3849,9 @@ environment change
 unexpected outcomes
 ```
 
----
+______________________________________________________________________
 
-# 228. P7 and P3
+## 228. P7 and P3
 
 P3 retains:
 
@@ -3862,17 +3867,17 @@ repair history
 failed hypotheses
 ```
 
----
+______________________________________________________________________
 
-# 229. P7 and P4
+## 229. P7 and P4
 
 P4 creates and evaluates candidate models.
 
 P7 governs whether those changes become persistent learning.
 
----
+______________________________________________________________________
 
-# 230. P7 and P5
+## 230. P7 and P5
 
 P5 governs:
 
@@ -3886,29 +3891,29 @@ what is protected
 which promotions are permitted
 ```
 
----
+______________________________________________________________________
 
-# 231. P7 and P6
+## 231. P7 and P6
 
 P6 performs authorized mutation effects.
 
 P7 does not bypass the execution plane.
 
----
+______________________________________________________________________
 
-# 232. P7 and Provenance
+## 232. P7 and Provenance
 
 Evolution without lineage is not accountable evolution.
 
----
+______________________________________________________________________
 
-# 233. P7 and Dependency Graph
+## 233. P7 and Dependency Graph
 
 Mutation impact analysis depends on dependency visibility.
 
----
+______________________________________________________________________
 
-# 234. P7 and Control Plane
+## 234. P7 and Control Plane
 
 The control plane may enforce:
 
@@ -3924,29 +3929,29 @@ rollback controls
 
 where implemented.
 
----
+______________________________________________________________________
 
-# 235. P7 and Validation
+## 235. P7 and Validation
 
 Validation determines whether candidate claims survive required tests.
 
----
+______________________________________________________________________
 
-# 236. P7 and Observability
+## 236. P7 and Observability
 
 Without post-promotion observation, delayed regressions may remain invisible.
 
----
+______________________________________________________________________
 
-# 237. P7 and Deployment
+## 237. P7 and Deployment
 
 Deployment is an execution transition.
 
 Evolution determines what candidate is eligible for deployment.
 
----
+______________________________________________________________________
 
-# 238. P7 Core Laws
+## 238. P7 Core Laws
 
 ```text
 CHANGE
@@ -3959,112 +3964,133 @@ NEWER
 !=
 BETTER
 ```
+
 ```text
 NOVELTY
 !=
 VALIDITY
 ```
+
 ```text
 BENCHMARK_GAIN
 !=
 UNIVERSAL_GAIN
 ```
+
 ```text
 LOCAL_SUCCESS
 !=
 GLOBAL_VALIDITY
 ```
+
 ```text
 LEARNING
 !=
 UNBOUNDED_SELF_MODIFICATION
 ```
+
 ```text
 EVOLUTION_ENGINE
 !=
 EVOLUTION_AUTHORITY
 ```
+
 ```text
 CANDIDATE
 !=
 CANON
 ```
+
 ```text
 VALIDATED
 !=
 PROMOTED
 ```
+
 ```text
 PROMOTED
 !=
 DEPLOYED
 ```
+
 ```text
 PROMOTION_RECEIPT
 !=
 PROOF_OF_IMPROVEMENT
 ```
+
 ```text
 REPETITION
 !=
 INDEPENDENT_VALIDATION
 ```
+
 ```text
 SUCCESS
 !=
 CAUSAL_PROOF
 ```
+
 ```text
 FAILURE
 !=
 LESSON
 ```
+
 ```text
 METRIC_GAIN
 !=
 OBJECTIVE_GAIN
 ```
+
 ```text
 BUILD
 REQUIRES
 REFINEMENT
 ```
+
 ```text
 CRITICAL_REGRESSION
 BLOCKS
 PROMOTION
 ```
+
 ```text
 OPTIMIZATION
 MUST NOT
 WEAKEN INTEGRITY
 ```
+
 ```text
 FAILED PREMISE
 INVALIDATES
 DEPENDENT STATE,
 NOT ALL STATE
 ```
+
 ```text
 FAILED PATH
 MUST NOT
 BE REPEATED
 WITHOUT CHANGED CONDITIONS
 ```
+
 ```text
 P7
 MUST NOT
 SELF-AUTHORIZE
 KERNEL-LAW MUTATION
 ```
+
 ```text
 UNKNOWN/GAP
 !=
 VALIDATED
 ```
----
 
-# 239. P7-1 Canonical Law — Cycle Discipline
+______________________________________________________________________
+
+## 239. P7-1 Canonical Law — Cycle Discipline
 
 ```text
 P7-1 CYCLE DISCIPLINE
@@ -4092,9 +4118,9 @@ OF THE 10-CYCLE PATTERN
 REQUIRE SOURCE RESOLUTION.
 ```
 
----
+______________________________________________________________________
 
-# 240. P7-2 Canonical Law — Refine After Build
+## 240. P7-2 Canonical Law — Refine After Build
 
 ```text
 P7-2 REFINE AFTER BUILD
@@ -4127,9 +4153,9 @@ IS NOT A STABLE
 LEARNING STRATEGY.
 ```
 
----
+______________________________________________________________________
 
-# 241. P7-3 Canonical Law — Repair ≥ Entropy
+## 241. P7-3 Canonical Law — Repair ≥ Entropy
 
 ```text
 P7-3 REPAIR >= ENTROPY
@@ -4168,9 +4194,9 @@ AND EMPIRICAL STATUS
 REQUIRE SOURCE RESOLUTION.
 ```
 
----
+______________________________________________________________________
 
-# 242. Minimum P7 Evolution Contract
+## 242. Minimum P7 Evolution Contract
 
 Before treating a candidate as a valid improvement, answer:
 
@@ -4255,9 +4281,9 @@ not:
 VERIFIED IMPROVEMENT
 ```
 
----
+______________________________________________________________________
 
-# 243. P7 Decision Table
+## 243. P7 Decision Table
 
 ```text
 Kernel-law mutation?
@@ -4300,9 +4326,9 @@ All required gates pass?
 → eligible for governed promotion
 ```
 
----
+______________________________________________________________________
 
-# 244. P7 RSCF Completion State
+## 244. P7 RSCF Completion State
 
 ```yaml
 claim_class: DERIVED
@@ -4389,9 +4415,9 @@ confidence_ceiling:
   runtime_implementation: UNKNOWN_OR_PARTIAL
 ```
 
----
+______________________________________________________________________
 
-# 245. Known Gaps
+## 245. Known Gaps
 
 The following remain `UNKNOWN/GAP` until their defining canon or implementation is resolved:
 
@@ -4457,9 +4483,9 @@ exact runtime P7 implementation
 
 Do not fabricate these.
 
----
+______________________________________________________________________
 
-# 246. Completion Status
+## 246. Completion Status
 
 At the architecture-contract level:
 
@@ -4493,9 +4519,9 @@ evolution_authority_status: GOVERNED
 runtime_learning_status: UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 247. Universe Closure
+## 247. Universe Closure
 
 P7 closes the seven-plane architecture as a feedback system:
 
@@ -4549,9 +4575,9 @@ PROVENANCE
 ANTI-REGRESSION
 ```
 
----
+______________________________________________________________________
 
-# 248. Seven-Plane Canon
+## 248. Seven-Plane Canon
 
 The complete architecture now reads:
 
@@ -4573,9 +4599,9 @@ P7 — HOW DOES THE SYSTEM IMPROVE
      THAT MAKE IMPROVEMENT TRUSTWORTHY?
 ```
 
----
+______________________________________________________________________
 
-# 249. Final Contract
+## 249. Final Contract
 
 `P7 Evolution / Learning` is the **bounded adaptation, repair, and anti-regression plane** of the AMOS Universe Canon.
 
@@ -4667,15 +4693,15 @@ TO BECOME
 UNBOUNDED SELF-REDEFINITION.
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
 
 **Related:** [[01_CANON/02_UNIVERSE_CANON/AMOS_7_PART_UNIVERSE_CANON|AMOS_7_PART_UNIVERSE_CANON]] · [[01_CANON/02_UNIVERSE_CANON/HML_CANON|HML_CANON]] · [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
 
 RSCF-NODE
 
@@ -4704,8 +4730,11 @@ RSCF-RELATIONS:
 - DEPENDS_ON: [[01_CANON/02_UNIVERSE_CANON/P5_GOVERNANCE_AUTHORITY|P5_GOVERNANCE_AUTHORITY]]
 
 - DEPENDS_ON: [[01_CANON/02_UNIVERSE_CANON/P6_EXECUTION_AGENCY|P6_EXECUTION_AGENCY]]
+
 - RELATED_TO: [[01_CANON/01_CORE_LAWS/ATOMIC_MULTI_RSCF|ATOMIC_MULTI_RSCF]]
+
 - RELATED_TO: [[02_KERNEL/K_ATOMIC_MULTI_RSCF|K_ATOMIC_MULTI_RSCF]]
+
 - RELATED_TO: [[02_KERNEL/K_GOVERNED_EVOLUTION|K_GOVERNED_EVOLUTION]]
 
 claim_class: AMOS_MODEL
@@ -4723,3 +4752,4 @@ claim_class: AMOS_MODEL
 **MOC:** [[01_CANON/02_UNIVERSE_CANON/02_UNIVERSE_CANON_MOC|02_UNIVERSE_CANON_MOC]]
 
 
+```

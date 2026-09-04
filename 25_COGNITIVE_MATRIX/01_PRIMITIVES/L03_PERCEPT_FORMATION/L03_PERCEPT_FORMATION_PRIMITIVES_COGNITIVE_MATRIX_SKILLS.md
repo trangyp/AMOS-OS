@@ -2,15 +2,15 @@
 type: skill
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L03_PERCEPT_FORMATION
 tags:
-- amos
-- cognitive-matrix
-- matrix/l03
-- percept-formation
-- skills
-- rscf
-- provenance
-- governance
-- domain/cognitive-matrix
+  - amos
+  - cognitive-matrix
+  - matrix/l03
+  - percept-formation
+  - skills
+  - rscf
+  - provenance
+  - governance
+  - domain/cognitive-matrix
 title: L03_PERCEPT_FORMATION — Skills
 origin_architect: Trang Phan
 status: MODEL_SKILL_CONTRACT / UNIMPLEMENTED / UNVALIDATED
@@ -65,9 +65,9 @@ PROPOSAL != COMMIT
 UNKNOWN/GAP != PASS
 ```
 
----
+______________________________________________________________________
 
-# 1. Source / Canon References
+## 1. Source / Canon References
 
 ## 1.1 Architecture-level Skill governance
 
@@ -159,37 +159,35 @@ canonical_skill_promotion_rules: UNKNOWN_GAP
 
 Therefore the L03-specific Skill registry below is `AMOS_MODEL`.
 
----
+______________________________________________________________________
 
-# 2. Definition and Scope
+## 2. Definition and Scope
 
 An L03 Skill is a bounded capability that may perform one or more transformations needed to construct, inspect, validate, challenge, or repair percept state.
 
 Candidate abstraction:
 
-[
+\[
 Skill_i:
 (Input_i, Context_i, Constraints_i)
-\rightarrow
+\\rightarrow
 (Output_i, Evidence_i, Trace_i)
-]
+\]
 
 subject to:
 
-[
-Admissible(Skill_i)
-===================
+## \[ Admissible(Skill_i)
 
 TypeValid
-\land
+\\land
 CapabilityAllowed
-\land
+\\land
 ScopeValid
-\land
+\\land
 RegimeValid
-\land
+\\land
 InvariantValid
-]
+\]
 
 `AMOS_MODEL`.
 
@@ -218,9 +216,9 @@ grant itself new capabilities
 perform external effects beyond its authorization
 ```
 
----
+______________________________________________________________________
 
-# 3. Typed Skill Descriptor
+## 3. Typed Skill Descriptor
 
 ```yaml
 L03SkillDescriptor:
@@ -313,9 +311,9 @@ L03SkillDescriptor:
       - UNKNOWN_GAP
 ```
 
----
+______________________________________________________________________
 
-# 4. Typed Inputs
+## 4. Typed Inputs
 
 ```yaml
 L03SkillInput:
@@ -369,9 +367,9 @@ L03SkillInput:
     type: AuthorityContext
 ```
 
----
+______________________________________________________________________
 
-# 5. Typed Outputs
+## 5. Typed Outputs
 
 ```yaml
 L03SkillOutput:
@@ -427,9 +425,9 @@ L03SkillOutput:
     type: NONE
 ```
 
----
+______________________________________________________________________
 
-# 6. State Variables
+## 6. State Variables
 
 ```text
 SkillReg_t   = skill registry
@@ -461,9 +459,9 @@ Q_t          = quarantined skills/results
 Gap_t        = unresolved Skill gaps
 ```
 
----
+______________________________________________________________________
 
-# 7. Candidate L03 Skill Registry
+## 7. Candidate L03 Skill Registry
 
 The following names represent **capability roles**, not claims that every Skill is implemented, installed, integrated, or validated.
 
@@ -489,7 +487,7 @@ align modality state
 construct percept candidates
 ```
 
----
+______________________________________________________________________
 
 ## 7.2 Attention interface
 
@@ -511,7 +509,7 @@ MUST NOT
 CONVERT SALIENCE INTO TRUTH
 ```
 
----
+______________________________________________________________________
 
 ## 7.3 H/M/L and cross-scale
 
@@ -532,7 +530,7 @@ temporal alignment
 observer/context alignment
 ```
 
----
+______________________________________________________________________
 
 ## 7.4 Provenance and epistemic governance
 
@@ -556,7 +554,7 @@ preserve competing hypotheses
 surface UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
 ## 7.5 Memory interface
 
@@ -577,7 +575,7 @@ quarantine contaminated memory
 govern memory influence
 ```
 
----
+______________________________________________________________________
 
 ## 7.6 Repair / recovery
 
@@ -599,7 +597,7 @@ preserve unaffected branches
 rebuild failed percept state
 ```
 
----
+______________________________________________________________________
 
 ## 7.7 Control-plane interface
 
@@ -627,9 +625,9 @@ CONTROL SKILL AVAILABLE
 L03 OWNS CONTROL AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 8. Skill Composition
+## 8. Skill Composition
 
 L03 may require multiple Skills in one governed composition.
 
@@ -674,26 +672,24 @@ H/M/L identity
 
 Candidate composition condition:
 
-[
-Composable(S_i,S_j)
-===================
+## \[ Composable(S_i,S_j)
 
 TypeCompatible
-\land
+\\land
 ScopeCompatible
-\land
+\\land
 RegimeCompatible
-\land
+\\land
 InvariantCompatible
-\land
+\\land
 AuthorityCompatible
-]
+\]
 
 `AMOS_MODEL`.
 
----
+______________________________________________________________________
 
-# 9. Skill Invariants
+## 9. Skill Invariants
 
 ```text
 SKILL-INV-001
@@ -775,30 +771,28 @@ SKILL-INV-026
 PROPOSAL != COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 10. Skill Admission
+## 10. Skill Admission
 
 A Skill should only enter an L03 runtime when its contract is sufficiently known.
 
 Candidate hard gate:
 
-[
-AdmitSkill(s)
-=============
+## \[ AdmitSkill(s)
 
 IdentityKnown(s)
-\land
+\\land
 VersionKnown(s)
-\land
+\\land
 InputContractKnown(s)
-\land
+\\land
 OutputContractKnown(s)
-\land
+\\land
 CapabilityKnown(s)
-\land
+\\land
 InvariantsKnown(s)
-]
+\]
 
 with missing load-bearing fields resulting in:
 
@@ -810,9 +804,9 @@ UNKNOWN/GAP
 
 not automatic admission.
 
----
+______________________________________________________________________
 
-# 11. Skill Selection
+## 11. Skill Selection
 
 The smallest sufficient Skill set should be preferred.
 
@@ -820,29 +814,27 @@ The AMOS Skill Builder explicitly recommends smallest-sufficient dependency clos
 
 Candidate selection principle:
 
-[
-SkillSet^*
-==========
+## \[ SkillSet^\*
 
-\arg\min_{S}
+\\arg\\min\_{S}
 Cost(S)
-]
+\]
 
 subject to:
 
-[
+\[
 RequiredCapabilityCovered(S)
-\land
+\\land
 HardInvariantsPass(S)
-]
+\]
 
 `AMOS_MODEL`.
 
 This is not a universal optimization theorem.
 
----
+______________________________________________________________________
 
-# 12. Skill Invocation
+## 12. Skill Invocation
 
 Candidate request:
 
@@ -895,9 +887,9 @@ check input types
 check dependency freshness
 ```
 
----
+______________________________________________________________________
 
-# 13. Skill Execution Trace
+## 13. Skill Execution Trace
 
 ```yaml
 SkillExecutionTrace:
@@ -947,9 +939,9 @@ NO EXECUTED CLAIM
 
 where execution evidence is required.
 
----
+______________________________________________________________________
 
-# 14. Dependencies
+## 14. Dependencies
 
 ## Upstream
 
@@ -992,9 +984,9 @@ AMOS control-plane governance
 AMOS repair governance
 ```
 
----
+______________________________________________________________________
 
-# 15. H/M/L Applicability
+## 15. H/M/L Applicability
 
 ## L — Local Skills
 
@@ -1067,9 +1059,9 @@ MUST NOT
 SILENTLY BECOME H-LEVEL TRUTH
 ```
 
----
+______________________________________________________________________
 
-# 16. Control-Plane Requirements
+## 16. Control-Plane Requirements
 
 The Skill layer represents **capability**.
 
@@ -1100,9 +1092,9 @@ bypass commit validation
 reinterpret capability as permission
 ```
 
----
+______________________________________________________________________
 
-# 17. Agents
+## 17. Agents
 
 Candidate agent-to-Skill relation:
 
@@ -1138,9 +1130,9 @@ AGENT + SKILL
 AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 18. Workflows
+## 18. Workflows
 
 ## 18.1 Skill discovery workflow
 
@@ -1236,9 +1228,9 @@ REVERIFY
 REVALIDATE DEPENDENTS
 ```
 
----
+______________________________________________________________________
 
-# 19. Protocols
+## 19. Protocols
 
 Candidate protocol surfaces:
 
@@ -1273,9 +1265,9 @@ SKILL_STATE_PROPOSAL
 
 Canonical protocol names remain `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
-# 20. Evidence / Provenance
+## 20. Evidence / Provenance
 
 Each Skill used materially in an L03 result should preserve:
 
@@ -1336,9 +1328,9 @@ EXECUTION EVIDENCE
 GENERAL VALIDITY
 ```
 
----
+______________________________________________________________________
 
-# 21. Uncertainty and Confidence Ceiling
+## 21. Uncertainty and Confidence Ceiling
 
 Skill-level uncertainty should remain explicit:
 
@@ -1375,16 +1367,16 @@ skill_uncertainty:
 
 Candidate confidence relation:
 
-[
+\[
 Conf(Output)
-\le
-\min(
+\\le
+\\min(
 Conf(Input),
 Conf(SkillContract),
 Conf(Execution),
 Conf(Dependencies)
 )
-]
+\]
 
 for load-bearing dimensions.
 
@@ -1392,9 +1384,9 @@ for load-bearing dimensions.
 
 A sequence of multiple Skills does not increase confidence merely by multiplicity.
 
----
+______________________________________________________________________
 
-# 22. Skill Failure Modes
+## 22. Skill Failure Modes
 
 ```text
 SFM-001
@@ -1482,9 +1474,9 @@ SFM-028
 UNKNOWN/GAP treated as PASS.
 ```
 
----
+______________________________________________________________________
 
-# 23. Repair / Recovery
+## 23. Repair / Recovery
 
 ```text
 DETECT SKILL FAILURE
@@ -1539,9 +1531,9 @@ WITHOUT CHANGED:
   or strategy
 ```
 
----
+______________________________________________________________________
 
-# 24. Tests / Validators
+## 24. Tests / Validators
 
 Minimum Skill tests:
 
@@ -1640,9 +1632,9 @@ formal_verification: false
 empirical_validation: false
 ```
 
----
+______________________________________________________________________
 
-# 25. Skill Promotion States
+## 25. Skill Promotion States
 
 Candidate lifecycle:
 
@@ -1685,9 +1677,9 @@ RegressionPass
 
 Promotion is always scope-bound.
 
----
+______________________________________________________________________
 
-# 26. Falsifiers
+## 26. Falsifiers
 
 Revise this contract if direct canonical evidence establishes:
 
@@ -1713,9 +1705,9 @@ or executable canonical runtime contradicts this model
 
 A specific Skill claim is falsified when reproducible execution contradicts its declared contract under admissible conditions.
 
----
+______________________________________________________________________
 
-# 27. Gap Matrix
+## 27. Gap Matrix
 
 ```yaml
 gap_status:
@@ -1781,9 +1773,9 @@ gap_status:
     status: CRITICAL_GAP
 ```
 
----
+______________________________________________________________________
 
-# 28. Competing Skill Architectures
+## 28. Competing Skill Architectures
 
 ## COMPETING-001 — Monolithic Perception Skill
 
@@ -1807,7 +1799,7 @@ poor modular auditability
 weak selective repair
 ```
 
----
+______________________________________________________________________
 
 ## COMPETING-002 — Flat Skill Library
 
@@ -1831,7 +1823,7 @@ context explosion
 composition errors
 ```
 
----
+______________________________________________________________________
 
 ## COMPETING-003 — H/M/L Skill Hierarchy
 
@@ -1857,7 +1849,7 @@ rigid hierarchy
 possible cross-scale blind spots
 ```
 
----
+______________________________________________________________________
 
 ## COMPETING-004 — Governed Typed Capability Graph
 
@@ -1895,9 +1887,9 @@ MODEL PREFERENCE
 CANONICAL L03 SKILL ARCHITECTURE
 ```
 
----
+______________________________________________________________________
 
-# 29. RSCF Completion State
+## 29. RSCF Completion State
 
 ```yaml
 rscf:
@@ -2006,9 +1998,9 @@ rscf:
     testing, and authority-boundary checks.
 ```
 
----
+______________________________________________________________________
 
-# 30. Completion State
+## 30. Completion State
 
 ```yaml
 completion_state:
@@ -2092,9 +2084,9 @@ completion_state:
     MODEL
 ```
 
----
+______________________________________________________________________
 
-# 31. Hard Boundaries
+## 31. Hard Boundaries
 
 ```text
 PLACEHOLDER != IMPLEMENTED
@@ -2154,15 +2146,15 @@ IMPLEMENTED SKILL != VALIDATED SKILL
 VALIDATED SKILL != EMPIRICAL COGNITIVE LAW
 ```
 
----
+______________________________________________________________________
 
-# 32. Governing Skill Contract
+## 32. Governing Skill Contract
 
 > **`L03_PERCEPT_FORMATION` SHALL use Skills only as bounded, typed, provenance-aware capabilities whose input contracts, output contracts, dependencies, preconditions, invariants, scope, regime, H/M/L applicability, execution state, tests, and authority envelopes remain explicit wherever material. A Skill SHALL NOT be treated as implemented merely because it is named or addressable; SHALL NOT be treated as validated merely because it executes; and SHALL NOT gain authority merely because its output is structurally valid. Skill composition SHALL preserve semantic origin, observation/derivation distinction, memory/observation distinction, uncertainty, confidence ceilings, provenance ancestry, competing percepts, scope, regime, observer context, freshness, and dependency lineage. Multiple Skills or agents processing the same ancestry SHALL NOT manufacture independent evidence or increase confidence by multiplicity alone. Failed Skill results SHALL selectively invalidate dependent outputs while preserving unaffected state. Repair SHALL require re-execution and revalidation. `UNKNOWN/GAP` SHALL remain non-passing. L03 Skills MAY analyze, transform, validate, repair, and propose percept state, but durable effects SHALL remain governed by the external control plane.**
 
----
+______________________________________________________________________
 
-# 33. Canon Boundary
+## 33. Canon Boundary
 
 ```text
 SOURCE / ARCHITECTURE-ALIGNED:
@@ -2279,23 +2271,26 @@ EMPIRICAL HUMAN-PERCEPTION CLAIM:
 NOT ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: l03_percept_formation_primitives_cognitive_matrix_skills
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L03_PERCEPT_FORMATION/L03_PERCEPT_FORMATION_PRIMITIVES_COGNITIVE_MATRIX_SKILLS.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L03_PERCEPT_FORMATION/L03_PERCEPT_FORMATION_MOC|L03_PERCEPT_FORMATION_MOC]]
-

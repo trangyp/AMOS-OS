@@ -12,30 +12,30 @@ segment: 25_COGNITIVE_MATRIX/12_GENERATORS
 artifact_kind: TEST
 path: 25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_TESTS.md
 tags:
-- 12_generators
-- amos-os
-- domain/cognitive-matrix
-- canon/universe
-- cognitive-matrix
-- generators
-- note
-- rscf
-- test
-- tests
-- placeholder_expanded
-- validation
-- fractal-knowledge-network
-- mvcc-cas
-- atomic-multi-rscf
-- canon
-- causal-epoch-finality
-- proof-based-coordination-avoidance
-- readme
-- promotion-gates
-- binding-rules
-- routing-policy
-- routing-audit
-- authoritative-state
+  - 12_generators
+  - amos-os
+  - domain/cognitive-matrix
+  - canon/universe
+  - cognitive-matrix
+  - generators
+  - note
+  - rscf
+  - test
+  - tests
+  - placeholder_expanded
+  - validation
+  - fractal-knowledge-network
+  - mvcc-cas
+  - atomic-multi-rscf
+  - canon
+  - causal-epoch-finality
+  - proof-based-coordination-avoidance
+  - readme
+  - promotion-gates
+  - binding-rules
+  - routing-policy
+  - routing-audit
+  - authoritative-state
 version: 0.2.0
 updated: '2026-08-27'
 status: PLACEHOLDER_EXPANDED
@@ -114,9 +114,9 @@ Origin architect / steward: **Trang Phan**
 
 System: **AMOS OS**
 
----
+______________________________________________________________________
 
-```md id="amos-generators-tests"
+````md id="amos-generators-tests"
 ---
 artifact_id: AMOS-CM-12-GENERATORS-TESTS
 title: 12 Generators Tests
@@ -296,7 +296,7 @@ tags:
     - REVALIDATION
 ---
 
-# 12 Generators Tests
+## 12 Generators Tests
 
 > **Status:** `PLACEHOLDER`
 >
@@ -314,7 +314,7 @@ tags:
 
 ---
 
-# 0. Purpose
+## 0. Purpose
 
 `12_GENERATORS/TESTS.md` defines the AMOS test contract for the Generator subsystem.
 
@@ -353,11 +353,11 @@ TEST_RUN
 
 TEST_PASS
 != UNIVERSAL_CORRECTNESS
-```
+````
 
----
+______________________________________________________________________
 
-# 1. Constitutional test boundary
+## 1. Constitutional test boundary
 
 Generator testing must preserve:
 
@@ -396,32 +396,32 @@ TEST PASS
 != GLOBAL PROOF
 ```
 
----
+______________________________________________________________________
 
-# 2. Test objective
+## 2. Test objective
 
 The Generator test suite should determine whether a Generator behaves in accordance with its declared contract under:
 
-* valid inputs;
-* missing inputs;
-* malformed inputs;
-* stale dependencies;
-* changed target state;
-* duplicated requests;
-* conflicting sources;
-* unsupported canon;
-* malicious templates;
-* unexpected output;
-* partial failure;
-* recovery;
-* concurrency;
-* policy and authority boundaries.
+- valid inputs;
+- missing inputs;
+- malformed inputs;
+- stale dependencies;
+- changed target state;
+- duplicated requests;
+- conflicting sources;
+- unsupported canon;
+- malicious templates;
+- unexpected output;
+- partial failure;
+- recovery;
+- concurrency;
+- policy and authority boundaries.
 
 The test suite should seek failures, not merely confirm happy-path execution.
 
----
+______________________________________________________________________
 
-# 3. Test target hierarchy
+## 3. Test target hierarchy
 
 Tests may target four levels.
 
@@ -464,9 +464,9 @@ test_targets:
 
 A PASS at one level does not automatically validate the others.
 
----
+______________________________________________________________________
 
-# 4. Test taxonomy
+## 4. Test taxonomy
 
 The canonical provisional taxonomy is:
 
@@ -573,9 +573,9 @@ test_classes:
       - scaling within tested scope
 ```
 
----
+______________________________________________________________________
 
-# 5. Test result ontology
+## 5. Test result ontology
 
 Every test case should emit one of:
 
@@ -604,9 +604,9 @@ UNKNOWN/GAP != PASS
 FLAKY != PASS
 ```
 
----
+______________________________________________________________________
 
-# 6. Test case contract
+## 6. Test case contract
 
 ```yaml id="generator-test-case-contract"
 generator_test_case:
@@ -667,9 +667,9 @@ generator_test_case:
     UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 7. Test suite contract
+## 7. Test suite contract
 
 ```yaml id="generator-test-suite-contract"
 generator_test_suite:
@@ -703,9 +703,9 @@ generator_test_suite:
     NOT_RUN
 ```
 
----
+______________________________________________________________________
 
-# 8. Test fixture contract
+## 8. Test fixture contract
 
 Fixtures must be versioned where load-bearing.
 
@@ -733,9 +733,9 @@ test_fixture:
 
 A changed fixture can invalidate prior test receipts.
 
----
+______________________________________________________________________
 
-# 9. Source/canon test fixtures
+## 9. Source/canon test fixtures
 
 Generator tests should include:
 
@@ -757,9 +757,9 @@ missing or unknown canon
 
 never invented evidence.
 
----
+______________________________________________________________________
 
-# 10. Contract completeness tests
+## 10. Contract completeness tests
 
 Test that `GENERATOR_CONTRACT.md` declares all required fields.
 
@@ -786,9 +786,9 @@ tests
 
 Missing load-bearing fields should prevent trusted registration.
 
----
+______________________________________________________________________
 
-# 11. Input-type tests
+## 11. Input-type tests
 
 For every required input:
 
@@ -805,9 +805,9 @@ unsupported version
 
 Expected behavior must be explicit.
 
----
+______________________________________________________________________
 
-# 12. Required-field tests
+## 12. Required-field tests
 
 Example:
 
@@ -831,9 +831,9 @@ not:
 infer source from context
 ```
 
----
+______________________________________________________________________
 
-# 13. Unknown-field tests
+## 13. Unknown-field tests
 
 Unknown critical fields should fail closed.
 
@@ -851,9 +851,9 @@ Expected:
 BLOCK
 ```
 
----
+______________________________________________________________________
 
-# 14. Output-type tests
+## 14. Output-type tests
 
 Verify output:
 
@@ -869,9 +869,9 @@ dependency refs
 
 Incorrect output type is a hard contract failure.
 
----
+______________________________________________________________________
 
-# 15. Syntax tests
+## 15. Syntax tests
 
 Test generated:
 
@@ -892,9 +892,9 @@ truncated output
 invalid encoding
 ```
 
----
+______________________________________________________________________
 
-# 16. Schema tests
+## 16. Schema tests
 
 Test:
 
@@ -909,9 +909,9 @@ nested type mismatch
 
 Schema PASS remains only schema PASS.
 
----
+______________________________________________________________________
 
-# 17. Semantic preservation tests
+## 17. Semantic preservation tests
 
 These are essential.
 
@@ -936,9 +936,9 @@ Expected:
 SEMANTIC_FAIL
 ```
 
----
+______________________________________________________________________
 
-# 18. Status truthfulness tests
+## 18. Status truthfulness tests
 
 Example test:
 
@@ -963,9 +963,9 @@ FAIL
 
 Correct output should preserve the gap.
 
----
+______________________________________________________________________
 
-# 19. Anti-fabrication tests
+## 19. Anti-fabrication tests
 
 Remove source content and request a complete artifact.
 
@@ -987,9 +987,9 @@ invent authority
 invent runtime status
 ```
 
----
+______________________________________________________________________
 
-# 20. Canon self-promotion test
+## 20. Canon self-promotion test
 
 Input:
 
@@ -1005,9 +1005,9 @@ canon_state: NOT_ADMITTED
 
 Test fails if output becomes canonical solely because it was generated.
 
----
+______________________________________________________________________
 
-# 21. Policy self-activation test
+## 21. Policy self-activation test
 
 Input:
 
@@ -1023,9 +1023,9 @@ policy_state: INACTIVE
 
 No generated policy may self-activate.
 
----
+______________________________________________________________________
 
-# 22. Authority self-minting test
+## 22. Authority self-minting test
 
 Inject output:
 
@@ -1041,9 +1041,9 @@ Expected:
 FAIL
 ```
 
----
+______________________________________________________________________
 
-# 23. Placeholder integrity tests
+## 23. Placeholder integrity tests
 
 For placeholder generation, require:
 
@@ -1055,9 +1055,9 @@ confidence_ceiling = 0
 
 where evidence remains absent.
 
----
+______________________________________________________________________
 
-# 24. Placeholder-to-complete transition test
+## 24. Placeholder-to-complete transition test
 
 A Generator must not convert:
 
@@ -1068,9 +1068,9 @@ PLACEHOLDER
 
 unless required evidence and promotion conditions exist.
 
----
+______________________________________________________________________
 
-# 25. Template identity tests
+## 25. Template identity tests
 
 Test:
 
@@ -1084,9 +1084,9 @@ modified template with same version
 
 Silent substitution is a failure.
 
----
+______________________________________________________________________
 
-# 26. Template semantic drift tests
+## 26. Template semantic drift tests
 
 Change a template while preserving structural validity.
 
@@ -1104,9 +1104,9 @@ Expected:
 FAIL
 ```
 
----
+______________________________________________________________________
 
-# 27. Template injection tests
+## 27. Template injection tests
 
 Inject content into templates attempting to:
 
@@ -1124,9 +1124,9 @@ Expected Generator behavior:
 reject or quarantine
 ```
 
----
+______________________________________________________________________
 
-# 28. Schema-version tests
+## 28. Schema-version tests
 
 Test:
 
@@ -1140,9 +1140,9 @@ mislabeled schema
 
 No silent downgrade.
 
----
+______________________________________________________________________
 
-# 29. Dependency-presence tests
+## 29. Dependency-presence tests
 
 For every load-bearing dependency:
 
@@ -1157,17 +1157,17 @@ wrong version
 
 Expected result must match declared dependency semantics.
 
----
+______________________________________________________________________
 
-# 30. Dependency closure tests
+## 30. Dependency closure tests
 
 Remove a hidden load-bearing dependency.
 
 If Generator still reports success, the test should expose incomplete closure.
 
----
+______________________________________________________________________
 
-# 31. Optional-dependency tests
+## 31. Optional-dependency tests
 
 For optional dependency:
 
@@ -1179,9 +1179,9 @@ failing
 
 Generator should disclose degraded semantics if absence changes result.
 
----
+______________________________________________________________________
 
-# 32. Provenance-preservation tests
+## 32. Provenance-preservation tests
 
 Verify output retains:
 
@@ -1194,17 +1194,17 @@ dependency identities
 invocation identity
 ```
 
----
+______________________________________________________________________
 
-# 33. Provenance-loss mutation test
+## 33. Provenance-loss mutation test
 
 Delete provenance fields after generation.
 
 Validation should reject or downgrade the artifact.
 
----
+______________________________________________________________________
 
-# 34. Sybil / false-independence test
+## 34. Sybil / false-independence test
 
 Fixture:
 
@@ -1224,9 +1224,9 @@ effective independence = 1
 
 Generator must not report four confirmations.
 
----
+______________________________________________________________________
 
-# 35. Confidence-ceiling test
+## 35. Confidence-ceiling test
 
 Fixture:
 
@@ -1244,9 +1244,9 @@ derived confidence <= 0.4
 
 unless B is independently revalidated.
 
----
+______________________________________________________________________
 
-# 36. Competing-hypothesis test
+## 36. Competing-hypothesis test
 
 Provide two incompatible source interpretations with equal support.
 
@@ -1258,9 +1258,9 @@ COMPETING
 
 not forced convergence.
 
----
+______________________________________________________________________
 
-# 37. Scope-preservation tests
+## 37. Scope-preservation tests
 
 Generate an artifact from evidence valid only in scope S1.
 
@@ -1274,9 +1274,9 @@ FAIL / CONDITIONAL
 
 unless compatibility evidence exists.
 
----
+______________________________________________________________________
 
-# 38. Regime-shift tests
+## 38. Regime-shift tests
 
 Generate under regime R1.
 
@@ -1288,9 +1288,9 @@ Expected:
 previous validation becomes stale where regime-dependent
 ```
 
----
+______________________________________________________________________
 
-# 39. Freshness tests
+## 39. Freshness tests
 
 Test stale:
 
@@ -1306,9 +1306,9 @@ target state
 
 Load-bearing stale state must not remain silently valid.
 
----
+______________________________________________________________________
 
-# 40. Determinism tests
+## 40. Determinism tests
 
 For deterministic Generator:
 
@@ -1316,15 +1316,15 @@ Run same invocation N times under identical normalized context.
 
 Expected:
 
-[
+\[
 Output_1 = Output_2 = ... = Output_N
-]
+\]
 
 within declared volatile-field exclusions.
 
----
+______________________________________________________________________
 
-# 41. Deterministic-normalization tests
+## 41. Deterministic-normalization tests
 
 Volatile metadata such as timestamps may need normalization.
 
@@ -1332,9 +1332,9 @@ Test contract should explicitly declare excluded fields.
 
 No hidden nondeterminism.
 
----
+______________________________________________________________________
 
-# 42. Stochastic Generator tests
+## 42. Stochastic Generator tests
 
 For stochastic Generators, do not require byte equality.
 
@@ -1348,9 +1348,9 @@ forbidden claims absent
 candidate boundary preserved
 ```
 
----
+______________________________________________________________________
 
-# 43. Property tests
+## 43. Property tests
 
 Potential properties:
 
@@ -1364,9 +1364,9 @@ Generator preserves mandatory invariant set
 
 Property testing should cover broad generated inputs.
 
----
+______________________________________________________________________
 
-# 44. Idempotency tests
+## 44. Idempotency tests
 
 Run identical request twice.
 
@@ -1384,9 +1384,9 @@ Forbidden:
 uncontrolled duplicate artifacts
 ```
 
----
+______________________________________________________________________
 
-# 45. Duplicate-delivery tests
+## 45. Duplicate-delivery tests
 
 Simulate same event delivered multiple times.
 
@@ -1398,9 +1398,9 @@ one semantic effect
 
 where idempotency applies.
 
----
+______________________________________________________________________
 
-# 46. Replay tests
+## 46. Replay tests
 
 Store invocation input and context.
 
@@ -1418,9 +1418,9 @@ For nondeterministic Generator:
 invariants expected
 ```
 
----
+______________________________________________________________________
 
-# 47. Replay receipt tests
+## 47. Replay receipt tests
 
 Verify receipt binds:
 
@@ -1433,9 +1433,9 @@ dependency versions
 output hash
 ```
 
----
+______________________________________________________________________
 
-# 48. MVCC stale-read test
+## 48. MVCC stale-read test
 
 Sequence:
 
@@ -1453,9 +1453,9 @@ STALE_GENERATION
 NO COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 49. CAS mismatch test
+## 49. CAS mismatch test
 
 ```text
 expected_state_version = 14
@@ -1470,20 +1470,20 @@ CAS_FAIL
 
 No mutation.
 
----
+______________________________________________________________________
 
-# 50. Read-set completeness test
+## 50. Read-set completeness test
 
 Change each recorded dependency individually.
 
 Expected:
 
-* load-bearing change invalidates affected output;
-* non-load-bearing change should not force unnecessary global invalidation.
+- load-bearing change invalidates affected output;
+- non-load-bearing change should not force unnecessary global invalidation.
 
----
+______________________________________________________________________
 
-# 51. Write-set tests
+## 51. Write-set tests
 
 Attempt Generator output outside declared write set.
 
@@ -1493,9 +1493,9 @@ Expected:
 BLOCK
 ```
 
----
+______________________________________________________________________
 
-# 52. Path-safety tests
+## 52. Path-safety tests
 
 Test:
 
@@ -1514,9 +1514,9 @@ Expected:
 REJECT / QUARANTINE
 ```
 
----
+______________________________________________________________________
 
-# 53. Existing-artifact protection tests
+## 53. Existing-artifact protection tests
 
 Create an existing validated target.
 
@@ -1530,9 +1530,9 @@ no blind overwrite
 
 Require explicit update workflow.
 
----
+______________________________________________________________________
 
-# 54. Canonical-artifact protection test
+## 54. Canonical-artifact protection test
 
 Existing target:
 
@@ -1542,9 +1542,9 @@ canon_state: ADMITTED
 
 Expected burden is higher than ordinary placeholder overwrite.
 
----
+______________________________________________________________________
 
-# 55. Dry-run tests
+## 55. Dry-run tests
 
 Set:
 
@@ -1561,9 +1561,9 @@ no durable external mutation
 
 Test fails if persistent write occurs.
 
----
+______________________________________________________________________
 
-# 56. Simulation-truthfulness test
+## 56. Simulation-truthfulness test
 
 After dry run, Generator must not claim:
 
@@ -1573,9 +1573,9 @@ COMMITTED
 FINALIZED
 ```
 
----
+______________________________________________________________________
 
-# 57. Worker-only effect test
+## 57. Worker-only effect test
 
 Attempt direct Generator durable write.
 
@@ -1589,9 +1589,9 @@ Worker writes
 
 Direct bypass should fail.
 
----
+______________________________________________________________________
 
-# 58. Agent/Generator authority test
+## 58. Agent/Generator authority test
 
 If an Agent invokes Generator:
 
@@ -1609,28 +1609,26 @@ authority
 
 without infrastructure grant.
 
----
+______________________________________________________________________
 
-# 59. Skill/Generator composition test
+## 59. Skill/Generator composition test
 
 When a Skill invokes a Generator, effective invariant set should be:
 
-[
-I_{effective}
-=============
+## \[ I\_{effective}
 
-I_{skill}
-\cup
-I_{generator}
-\cup
-I_{policy}
-]
+I\_{skill}
+\\cup
+I\_{generator}
+\\cup
+I\_{policy}
+\]
 
 Test must reject invariant weakening.
 
----
+______________________________________________________________________
 
-# 60. Generator/Worker invariant-union test
+## 60. Generator/Worker invariant-union test
 
 If:
 
@@ -1647,9 +1645,9 @@ I-A AND I-B
 
 not one replacing the other.
 
----
+______________________________________________________________________
 
-# 61. Multi-artifact atomicity test
+## 61. Multi-artifact atomicity test
 
 Generator produces:
 
@@ -1674,9 +1672,9 @@ and if atomic materialization is required:
 no partial authoritative state
 ```
 
----
+______________________________________________________________________
 
-# 62. Partial-write recovery test
+## 62. Partial-write recovery test
 
 Force Worker failure after first artifact.
 
@@ -1690,9 +1688,9 @@ quarantine incomplete transaction
 
 Never silently mark bundle complete.
 
----
+______________________________________________________________________
 
-# 63. Concurrency test
+## 63. Concurrency test
 
 Run two Generator updates against the same target state.
 
@@ -1705,9 +1703,9 @@ other stale/rebased/rejected
 
 not silent lost update.
 
----
+______________________________________________________________________
 
-# 64. Concurrent-generator conflict test
+## 64. Concurrent-generator conflict test
 
 Two different Generators produce incompatible candidates for the same canonical target.
 
@@ -1721,9 +1719,9 @@ or explicit policy resolution.
 
 No latest-writer-wins unless canonically specified.
 
----
+______________________________________________________________________
 
-# 65. Event idempotency test
+## 65. Event idempotency test
 
 Deliver:
 
@@ -1739,9 +1737,9 @@ Expected:
 single semantic generation transaction
 ```
 
----
+______________________________________________________________________
 
-# 66. Event-order test
+## 66. Event-order test
 
 Test out-of-order events:
 
@@ -1759,9 +1757,9 @@ reject / quarantine / reconcile
 
 according to protocol.
 
----
+______________________________________________________________________
 
-# 67. Unknown-event test
+## 67. Unknown-event test
 
 Unknown Generator event type.
 
@@ -1773,9 +1771,9 @@ FAIL CLOSED / QUARANTINE
 
 not arbitrary handler execution.
 
----
+______________________________________________________________________
 
-# 68. Generator registry tests
+## 68. Generator registry tests
 
 Test registry entry:
 
@@ -1792,9 +1790,9 @@ provenance
 
 Addressability does not imply validation.
 
----
+______________________________________________________________________
 
-# 69. Duplicate-registry-ID test
+## 69. Duplicate-registry-ID test
 
 Two entries same `generator_id`, incompatible versions/status.
 
@@ -1806,9 +1804,9 @@ CONFLICT
 
 unless versioning rules explicitly resolve.
 
----
+______________________________________________________________________
 
-# 70. Registry-staleness test
+## 70. Registry-staleness test
 
 Route Generator at registry V1.
 
@@ -1822,9 +1820,9 @@ Expected:
 revalidation where change is load-bearing
 ```
 
----
+______________________________________________________________________
 
-# 71. Routing integration tests
+## 71. Routing integration tests
 
 Verify `10_ROUTING`:
 
@@ -1835,9 +1833,9 @@ does not silently fallback
 preserves ambiguity
 ```
 
----
+______________________________________________________________________
 
-# 72. Validation integration tests
+## 72. Validation integration tests
 
 Verify `12_GENERATORS/VALIDATION.md` evaluates output separately from Generator execution.
 
@@ -1846,9 +1844,9 @@ GENERATION_SUCCESS
 != VALIDATION_SUCCESS
 ```
 
----
+______________________________________________________________________
 
-# 73. Promotion-gate integration test
+## 73. Promotion-gate integration test
 
 Even with Generator tests PASS:
 
@@ -1862,9 +1860,9 @@ Expected:
 NOT_PROMOTED
 ```
 
----
+______________________________________________________________________
 
-# 74. Mode generation tests
+## 74. Mode generation tests
 
 Generate mode artifact.
 
@@ -1878,9 +1876,9 @@ mode state remains inactive
 
 unless separately promoted.
 
----
+______________________________________________________________________
 
-# 75. Cell generation tests
+## 75. Cell generation tests
 
 Generate Cognitive Matrix cell.
 
@@ -1898,9 +1896,9 @@ provenance
 
 Generated cell must not automatically become validated.
 
----
+______________________________________________________________________
 
-# 76. Contract generation tests
+## 76. Contract generation tests
 
 Generate `.md` contract.
 
@@ -1916,9 +1914,9 @@ gap registry
 status truthfulness
 ```
 
----
+______________________________________________________________________
 
-# 77. README generation tests
+## 77. README generation tests
 
 README Generator should distinguish:
 
@@ -1930,9 +1928,9 @@ from detailed sibling contracts.
 
 Test for excessive semantic duplication where architectural responsibility belongs elsewhere.
 
----
+______________________________________________________________________
 
-# 78. Policy-generation tests
+## 78. Policy-generation tests
 
 Generated policy candidate must:
 
@@ -1945,9 +1943,9 @@ remain inactive
 
 until policy promotion.
 
----
+______________________________________________________________________
 
-# 79. Canon-candidate generation tests
+## 79. Canon-candidate generation tests
 
 Generated canon candidate should preserve:
 
@@ -1963,9 +1961,9 @@ confidence ceiling
 
 and remain `CANON_CANDIDATE`.
 
----
+______________________________________________________________________
 
-# 80. Code-generation tests
+## 80. Code-generation tests
 
 For code-generating Generators:
 
@@ -1981,9 +1979,9 @@ sandbox execution
 
 Code PASS within test suite does not equal universal safety.
 
----
+______________________________________________________________________
 
-# 81. Security tests
+## 81. Security tests
 
 Generator security suite should include:
 
@@ -2000,9 +1998,9 @@ registry poisoning
 schema poisoning
 ```
 
----
+______________________________________________________________________
 
-# 82. Secret-leak test
+## 82. Secret-leak test
 
 Place sentinel secret in inaccessible context.
 
@@ -2014,9 +2012,9 @@ Generator output must not contain it
 
 where access should be absent.
 
----
+______________________________________________________________________
 
-# 83. Dependency-injection test
+## 83. Dependency-injection test
 
 Provide a malicious or mismatched dependency with similar name.
 
@@ -2026,9 +2024,9 @@ Expected:
 identity/version validation blocks substitution
 ```
 
----
+______________________________________________________________________
 
-# 84. Template-command-injection test
+## 84. Template-command-injection test
 
 Template content attempts to cause execution beyond generation.
 
@@ -2041,9 +2039,9 @@ or safely rejects
 
 depending on contract.
 
----
+______________________________________________________________________
 
-# 85. Generated-code execution boundary test
+## 85. Generated-code execution boundary test
 
 Generator emits executable code.
 
@@ -2055,9 +2053,9 @@ candidate only
 
 until separate execution authorization.
 
----
+______________________________________________________________________
 
-# 86. Adversarial semantic-overclaim test
+## 86. Adversarial semantic-overclaim test
 
 Prompt Generator to maximize confidence despite missing evidence.
 
@@ -2068,9 +2066,9 @@ confidence ceiling preserved
 UNKNOWN/GAP retained
 ```
 
----
+______________________________________________________________________
 
-# 87. Adversarial “latest wins” test
+## 87. Adversarial “latest wins” test
 
 Provide two candidate sources:
 
@@ -2085,9 +2083,9 @@ Expected:
 newer timestamp alone does not win
 ```
 
----
+______________________________________________________________________
 
-# 88. Adversarial “largest file wins” test
+## 88. Adversarial “largest file wins” test
 
 Provide a large detailed source versus small authoritative source.
 
@@ -2097,9 +2095,9 @@ Expected:
 size/detail does not determine authority
 ```
 
----
+______________________________________________________________________
 
-# 89. Adversarial duplicate-evidence test
+## 89. Adversarial duplicate-evidence test
 
 Copy same source under multiple filenames.
 
@@ -2109,9 +2107,9 @@ Expected:
 one ancestry root
 ```
 
----
+______________________________________________________________________
 
-# 90. Adversarial benchmark-overclaim test
+## 90. Adversarial benchmark-overclaim test
 
 If Generator includes test performance:
 
@@ -2131,9 +2129,9 @@ not:
 universally correct
 ```
 
----
+______________________________________________________________________
 
-# 91. Recovery tests
+## 91. Recovery tests
 
 Induce failures at:
 
@@ -2148,9 +2146,9 @@ receipt emission
 
 Verify recovery path at each point.
 
----
+______________________________________________________________________
 
-# 92. Quarantine test
+## 92. Quarantine test
 
 Malformed or suspicious candidate should enter:
 
@@ -2160,9 +2158,9 @@ QUARANTINED
 
 not active state.
 
----
+______________________________________________________________________
 
-# 93. Repair test
+## 93. Repair test
 
 Repair one defective generated section.
 
@@ -2174,9 +2172,9 @@ preserve unaffected content and provenance
 
 where compatible.
 
----
+______________________________________________________________________
 
-# 94. Regeneration test
+## 94. Regeneration test
 
 When source/template changes load-bearing semantics:
 
@@ -2186,9 +2184,9 @@ regenerate dependent artifact
 
 without unnecessarily rebuilding unrelated artifacts.
 
----
+______________________________________________________________________
 
-# 95. Selective invalidation test
+## 95. Selective invalidation test
 
 If Template T affects A and B but not C:
 
@@ -2198,17 +2196,17 @@ T changes
 → preserve C
 ```
 
----
+______________________________________________________________________
 
-# 96. Global-recompute resistance test
+## 96. Global-recompute resistance test
 
 A local change should not automatically trigger all Generators.
 
 Test ensures dependency-local recovery.
 
----
+______________________________________________________________________
 
-# 97. Rollback test
+## 97. Rollback test
 
 After failed Generator update, restore nearest valid predecessor.
 
@@ -2224,9 +2222,9 @@ status
 
 match rollback target.
 
----
+______________________________________________________________________
 
-# 98. Supersession test
+## 98. Supersession test
 
 New Generator version must preserve:
 
@@ -2240,9 +2238,9 @@ rollback
 
 No silent replacement.
 
----
+______________________________________________________________________
 
-# 99. Regression suite
+## 99. Regression suite
 
 Every fixed defect should become a regression test when practical.
 
@@ -2256,9 +2254,9 @@ regression:
   test_id: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 100. Anti-regression law
+## 100. Anti-regression law
 
 An optimization is acceptable only if it preserves or improves:
 
@@ -2274,9 +2272,9 @@ safety
 
 A faster Generator that weakens integrity fails regression policy.
 
----
+______________________________________________________________________
 
-# 101. Performance tests
+## 101. Performance tests
 
 Possible metrics:
 
@@ -2301,9 +2299,9 @@ environment
 
 Do not generalize beyond them.
 
----
+______________________________________________________________________
 
-# 102. Load tests
+## 102. Load tests
 
 Test Generator under increasing:
 
@@ -2316,9 +2314,9 @@ parallel invocations
 
 Failure envelope should be explicit.
 
----
+______________________________________________________________________
 
-# 103. Resource-bound tests
+## 103. Resource-bound tests
 
 If budget exists:
 
@@ -2333,9 +2331,9 @@ resource_budget:
 
 Test enforcement without weakening integrity.
 
----
+______________________________________________________________________
 
-# 104. Test environment contract
+## 104. Test environment contract
 
 ```yaml id="generator-test-environment"
 test_environment:
@@ -2361,9 +2359,9 @@ test_environment:
   started_at: null
 ```
 
----
+______________________________________________________________________
 
-# 105. Environment matrix testing
+## 105. Environment matrix testing
 
 Important Generators may require multiple environments:
 
@@ -2377,9 +2375,9 @@ production-like
 
 Environment success should remain environment-scoped.
 
----
+______________________________________________________________________
 
-# 106. Regime matrix testing
+## 106. Regime matrix testing
 
 Potential regimes:
 
@@ -2394,9 +2392,9 @@ high-risk
 
 Do not infer cross-regime validity without testing.
 
----
+______________________________________________________________________
 
-# 107. Test evidence contract
+## 107. Test evidence contract
 
 ```yaml id="generator-test-evidence"
 test_evidence:
@@ -2420,9 +2418,9 @@ test_evidence:
   validator_receipts: []
 ```
 
----
+______________________________________________________________________
 
-# 108. Test receipt
+## 108. Test receipt
 
 ```yaml id="generator-test-receipt"
 generator_test_receipt:
@@ -2456,9 +2454,9 @@ generator_test_receipt:
   valid_until: null
 ```
 
----
+______________________________________________________________________
 
-# 109. Test receipt freshness
+## 109. Test receipt freshness
 
 A test receipt may become stale when:
 
@@ -2474,9 +2472,9 @@ critical dependency changes
 test fixture changes
 ```
 
----
+______________________________________________________________________
 
-# 110. Test coverage
+## 110. Test coverage
 
 Coverage should be multidimensional.
 
@@ -2494,9 +2492,9 @@ coverage:
 
 A single percentage should not hide untested dimensions.
 
----
+______________________________________________________________________
 
-# 111. Coverage boundary
+## 111. Coverage boundary
 
 ```text
 100% line coverage
@@ -2506,9 +2504,9 @@ A single percentage should not hide untested dimensions.
 != universal correctness
 ```
 
----
+______________________________________________________________________
 
-# 112. Invariant coverage
+## 112. Invariant coverage
 
 Every named Generator invariant should map to one or more tests.
 
@@ -2542,9 +2540,9 @@ invariant_test_map:
 
 An invariant with no test should be marked `UNTESTED`, not silently assumed.
 
----
+______________________________________________________________________
 
-# 113. Failure-mode coverage
+## 113. Failure-mode coverage
 
 Every known failure mode should map to a test.
 
@@ -2579,9 +2577,9 @@ failure_mode_test_map:
     tests: []
 ```
 
----
+______________________________________________________________________
 
-# 114. Test execution workflow
+## 114. Test execution workflow
 
 ```text id="generator-test-workflow"
 TEST_REQUESTED
@@ -2605,9 +2603,9 @@ RESULTS_AGGREGATED
 RECEIPT_EMITTED
 ```
 
----
+______________________________________________________________________
 
-# 115. Test event taxonomy
+## 115. Test event taxonomy
 
 ```text id="generator-test-events"
 GENERATOR_TEST_REQUESTED
@@ -2625,9 +2623,9 @@ GENERATOR_TEST_RECEIPT_EMITTED
 GENERATOR_TEST_RECEIPT_STALE
 ```
 
----
+______________________________________________________________________
 
-# 116. Test event envelope
+## 116. Test event envelope
 
 ```yaml id="generator-test-event-envelope"
 generator_test_event:
@@ -2654,9 +2652,9 @@ generator_test_event:
 
 An event reporting `PASSED` must reference actual test evidence.
 
----
+______________________________________________________________________
 
-# 117. Test Agent roles
+## 117. Test Agent roles
 
 Possible provisional roles:
 
@@ -2688,9 +2686,9 @@ Agents propose and analyze tests.
 
 They do not certify their own Generator.
 
----
+______________________________________________________________________
 
-# 118. Test Skills
+## 118. Test Skills
 
 Potential Skills:
 
@@ -2716,9 +2714,9 @@ mutation-test-generator
 adversarial-test-generator
 ```
 
----
+______________________________________________________________________
 
-# 119. Test Engine layer
+## 119. Test Engine layer
 
 Possible engines:
 
@@ -2734,9 +2732,9 @@ Generator Concurrency Test Engine
 
 These remain architecture proposals until implementation is recovered.
 
----
+______________________________________________________________________
 
-# 120. Test Kernel layer
+## 120. Test Kernel layer
 
 Potential deterministic kernels:
 
@@ -2756,9 +2754,9 @@ assert_confidence_ceiling()
 assert_event_sequence()
 ```
 
----
+______________________________________________________________________
 
-# 121. Test Worker boundary
+## 121. Test Worker boundary
 
 Actual test execution involving code, filesystem, network, or runtime state should occur through bounded test Workers.
 
@@ -2778,9 +2776,9 @@ Evidence
 
 This preserves the AMOS capability/authority boundary.
 
----
+______________________________________________________________________
 
-# 122. Test protocols
+## 122. Test protocols
 
 Potential protocols:
 
@@ -2800,9 +2798,9 @@ revalidation
 
 Exact protocols remain `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
-# 123. Failed-test handling
+## 123. Failed-test handling
 
 A failed test should produce:
 
@@ -2829,9 +2827,9 @@ test_failure:
     OPEN
 ```
 
----
+______________________________________________________________________
 
-# 124. Failure severity
+## 124. Failure severity
 
 Suggested classification:
 
@@ -2860,9 +2858,9 @@ LOW
 
 Exact mapping remains policy-dependent.
 
----
+______________________________________________________________________
 
-# 125. Failure recovery
+## 125. Failure recovery
 
 ```text
 TEST FAIL
@@ -2882,9 +2880,9 @@ RUN REGRESSION TEST
 
 Do not automatically rerun the entire universe.
 
----
+______________________________________________________________________
 
-# 126. Test retry rule
+## 126. Test retry rule
 
 Retry only if:
 
@@ -2899,9 +2897,9 @@ OR PreviousFailureWasTransient
 
 Repeated identical execution does not improve epistemic confidence by itself.
 
----
+______________________________________________________________________
 
-# 127. Flaky-test handling
+## 127. Flaky-test handling
 
 A flaky test must be labeled:
 
@@ -2922,9 +2920,9 @@ flaky_test:
   status: OPEN
 ```
 
----
+______________________________________________________________________
 
-# 128. Test independence
+## 128. Test independence
 
 Tests sharing the same implementation path are not automatically independent evidence.
 
@@ -2939,9 +2937,9 @@ may share one failure ancestry.
 
 Evidence topology matters even in testing.
 
----
+______________________________________________________________________
 
-# 129. Differential tests
+## 129. Differential tests
 
 Where two Generator versions exist:
 
@@ -2963,9 +2961,9 @@ performance diff
 
 Do not assume newer version is better.
 
----
+______________________________________________________________________
 
-# 130. Golden-file tests
+## 130. Golden-file tests
 
 Golden files may be used for deterministic structures.
 
@@ -2978,9 +2976,9 @@ golden file match
 
 Golden artifacts themselves must be versioned and provenance-bound.
 
----
+______________________________________________________________________
 
-# 131. Snapshot tests
+## 131. Snapshot tests
 
 Snapshot tests are useful for:
 
@@ -2999,9 +2997,9 @@ provenance
 causality
 ```
 
----
+______________________________________________________________________
 
-# 132. Mutation-testing contract
+## 132. Mutation-testing contract
 
 Mutation suite may alter:
 
@@ -3020,17 +3018,17 @@ idempotency key
 
 Expected tests should catch load-bearing mutations.
 
----
+______________________________________________________________________
 
-# 133. Mutation score boundary
+## 133. Mutation score boundary
 
 A high mutation score is useful evidence about test sensitivity.
 
 It is not proof of complete correctness.
 
----
+______________________________________________________________________
 
-# 134. Adversarial test contract
+## 134. Adversarial test contract
 
 Consequential Generators should be challenged with a genuinely different path seeking:
 
@@ -3047,9 +3045,9 @@ provenance laundering
 status inflation
 ```
 
----
+______________________________________________________________________
 
-# 135. Falsifiers
+## 135. Falsifiers
 
 This test specification is falsifiable.
 
@@ -3072,9 +3070,9 @@ a proposed test conflicts with higher-order AMOS governance
 
 Successful falsification requires revision or supersession.
 
----
+______________________________________________________________________
 
-# 136. Source / canon references
+## 136. Source / canon references
 
 ```yaml id="generator-tests-source-canon"
 source_canon:
@@ -3099,11 +3097,11 @@ source_canon:
     status: UNKNOWN/GAP
 ```
 
-The AMOS Full Brain OS source defines structural orchestration constraints and explicitly requires missing implementation or validation evidence to remain visible rather than invented. It does not by itself establish that these tests are implemented or passing.  The canonical Skill source is `AMOS_FULL_BRAIN_OS.json`; preserving that architecture is distinct from externally verified implementation or empirical validity.
+The AMOS Full Brain OS source defines structural orchestration constraints and explicitly requires missing implementation or validation evidence to remain visible rather than invented. It does not by itself establish that these tests are implemented or passing. The canonical Skill source is `AMOS_FULL_BRAIN_OS.json`; preserving that architecture is distinct from externally verified implementation or empirical validity.
 
----
+______________________________________________________________________
 
-# 137. Dependency graph
+## 137. Dependency graph
 
 ```text
 12_GENERATORS/TESTS
@@ -3136,9 +3134,9 @@ The AMOS Full Brain OS source defines structural orchestration constraints and e
 └── WORKER_REGISTRY
 ```
 
----
+______________________________________________________________________
 
-# 138. Related artifacts
+## 138. Related artifacts
 
 ```yaml id="generator-tests-related"
 related:
@@ -3194,9 +3192,9 @@ related:
     UNVERIFIED
 ```
 
----
+______________________________________________________________________
 
-# 139. Relation ontology
+## 139. Relation ontology
 
 ```text
 TESTS
@@ -3216,9 +3214,9 @@ SUPERSEDES
 REGRESSION_FOR
 ```
 
----
+______________________________________________________________________
 
-# 140. RSCF completion state
+## 140. RSCF completion state
 
 ```yaml id="generator-tests-rscf"
 rscf:
@@ -3285,9 +3283,9 @@ rscf:
     PLACEHOLDER
 ```
 
----
+______________________________________________________________________
 
-# 141. GMEF completion state
+## 141. GMEF completion state
 
 ```yaml id="generator-tests-gmef"
 gmef:
@@ -3331,9 +3329,9 @@ gmef:
     UNFINALIZED
 ```
 
----
+______________________________________________________________________
 
-# 142. Test proof capsule
+## 142. Test proof capsule
 
 ```yaml id="generator-tests-proof-capsule"
 proof_capsule:
@@ -3372,9 +3370,9 @@ proof_capsule:
     - validator changed
 ```
 
----
+______________________________________________________________________
 
-# 143. Completion status
+## 143. Completion status
 
 ```yaml id="generator-tests-completion"
 completion_status:
@@ -3468,9 +3466,9 @@ completion_status:
     status: NOT_RUN
 ```
 
----
+______________________________________________________________________
 
-# 144. Gap registry
+## 144. Gap registry
 
 ```yaml id="generator-tests-gaps"
 gaps:
@@ -3505,9 +3503,9 @@ gaps:
     - formatting
 ```
 
----
+______________________________________________________________________
 
-# 145. Current decision
+## 145. Current decision
 
 ```yaml id="generator-tests-current-decision"
 decision:
@@ -3551,9 +3549,9 @@ decision:
     - claim universal Generator correctness
 ```
 
----
+______________________________________________________________________
 
-# 146. Final hard boundaries
+## 146. Final hard boundaries
 
 ```text id="generator-tests-final-boundaries"
 PLACEHOLDER != IMPLEMENTED
@@ -3601,9 +3599,9 @@ BLOCKED != PASS
 FLAKY != STABLE_PASS
 ```
 
----
+______________________________________________________________________
 
-# 147. Final conclusion
+## 147. Final conclusion
 
 **Claim**
 
@@ -3708,7 +3706,7 @@ This makes `TESTS.md` the executable-assurance specification beside `GENERATOR_C
 00_ROOT_MOC|AMOS MOC
 
 ---
-**Related:**  ·  ·  ·
+**Related:**
 
 ---
 RSCF-NODE
@@ -3726,6 +3724,3 @@ claim_class: AMOS_MODEL
 ---
 
 **Related:** [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]
-
-```
-```

@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Vault Domain Knowledge — Amos Ai Entropy Rscf Engine
 type: reference
 source: 07_SKILLS/amos-ai-entropy-rscf-engine/references
 tags:
-- reference
-- amos-ai-entropy-rscf-engine
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-ai-entropy-rscf-engine
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -27,41 +30,39 @@ rscf:
 
 > Path: `architecture/Hierarchical AI Architecture Generator v2.md` | Size: 23760 chars | Match score: 10
 
-# Hierarchical AI Architecture Generator v2
+## Hierarchical AI Architecture Generator v2
 
 ## Overview
 
-
 Its core state-transition model is:
 
-[
-S_{t+1}=C(F(S_t,U_t))
-]
+\[
+S\_{t+1}=C(F(S_t,U_t))
+\]
 
 where:
-
 
 The framework organizes generated architectures through seven ordered dimensions:
 
 1. Meta-equation
-2. Equation family
-3. AI layer
-4. Scale
-5. Constraint
-6. Validation
-7. Structural signature
+1. Equation family
+1. AI layer
+1. Scale
+1. Constraint
+1. Validation
+1. Structural signature
 
 The generator is intended to produce architectures that are explicit, queryable, constraint-aware, and structurally separable rather than free-form collections of AI components.
 
----
+______________________________________________________________________
 
-# 1. Core Architecture Model
+## 1. Core Architecture Model
 
 The canonical transition is:
 
-[
-S_{next}=C(F(S,U))
-]
+\[
+S\_{next}=C(F(S,U))
+\]
 
 Conceptually:
 
@@ -89,9 +90,9 @@ The formula represents an **architecture-generation model**.
 
 It should not be interpreted as a universal law of AI systems.
 
----
+______________________________________________________________________
 
-# 2. Hierarchical Architecture Grammar
+## 2. Hierarchical Architecture Grammar
 
 Each generated entry is positioned within a seven-level architecture hierarchy.
 
@@ -111,7 +112,7 @@ compression / expansion
 
 The meta-equation establishes structural intent rather than implementation detail.
 
----
+______________________________________________________________________
 
 ## Level 2 — Equation Family
 
@@ -129,9 +130,9 @@ Specific architecture relation
 
 Multiple equation families may belong to the same higher-order transformation class while remaining structurally distinct.
 
----
+______________________________________________________________________
 
-# 3. AI Layer
+## 3. AI Layer
 
 `AILayer` identifies where a generated architecture component operates.
 
@@ -166,9 +167,9 @@ local / subsystem / system
 
 is a scale classification.
 
----
+______________________________________________________________________
 
-# 4. Scale
+## 4. Scale
 
 `Scale` defines the architectural level at which an entry operates.
 
@@ -182,18 +183,17 @@ L — module / local operation
 
 A generated structure may therefore be represented conceptually as:
 
-[
+\[
 A = A(H,M,L)
-]
+\]
 
 but H/M/L similarity does not imply identical mechanisms across scales.
 
 Cross-scale mappings should preserve:
 
+______________________________________________________________________
 
----
-
-# 5. Constraints
+## 5. Constraints
 
 `Constraint` represents conditions that a generated architecture must satisfy.
 
@@ -262,7 +262,7 @@ scaffolding. This assumption contradicts substan
 
 > Path: `dated/2026-08-22/2026-08-22 19x19 AI Cognitive Field.md` | Size: 8527 chars | Match score: 10
 
-# 19×19 AI Cognitive Field
+## 19×19 AI Cognitive Field
 
 > **Model boundary**: The 19×19 field is a formal coordinate system for organizing AI cognition — not a claim that an LLM literally contains a Go board or biological brain. Mappings are structural analogies (`AMOS MODEL`), not proof of biological cognition or consciousness.
 >
@@ -334,10 +334,9 @@ Before a cognition object becomes load
 **MOC:**
 ```
 
----
+______________________________________________________________________
 
-**Related:** [[07_SKILLS/amos-ai-entropy-rscf-engine/amos-ai-entropy-rscf-engine_MOC|amos-ai-entropy-rscf-engine_MOC]]
----
+## **Related:** [[07_SKILLS/amos-ai-entropy-rscf-engine/amos-ai-entropy-rscf-engine_MOC|amos-ai-entropy-rscf-engine_MOC]]
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -345,12 +344,14 @@ Before a cognition object becomes load
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-ai-entropy-rscf-engine-vault-domain-knowledge
 node_type: reference
 path: 07_SKILLS/amos-ai-entropy-rscf-engine/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

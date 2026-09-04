@@ -1,11 +1,14 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: AMOS Relation Tensor Architecture
 type: tensor
 source: 11_KNOWLEDGE
 tags:
-- knowledge
-- note
-- canon/knowledge
+  - knowledge
+  - note
+  - canon/knowledge
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -19,16 +22,13 @@ rscf:
 
 The **Relation Tensor** represents a relation between two AMOS objects as a typed, directed, confidence-bounded, provenance-aware state.
 
-The source corpus places **relation** early in the structural spine—after distinction and before constraint—and explicitly treats relation as a foundational component of the architecture.  The broader corpus likewise describes reality through distinctions, relations, constraints, transformations, and recursive memory.
+The source corpus places **relation** early in the structural spine—after distinction and before constraint—and explicitly treats relation as a foundational component of the architecture. The broader corpus likewise describes reality through distinctions, relations, constraints, transformations, and recursive memory.
 
 The canonical tensor proposed here is:
 
-[
-\boxed{
-R_{ij}
-======
+## \[ \\boxed{ R\_{ij}
 
-T[
+T\[
 type,
 direction,
 strength,
@@ -43,88 +43,85 @@ repair_coupling,
 mutation_transfer,
 observer_variance,
 provenance
-]
+\]
 }
-]
+\]
 
 This tensor is an **AMOS MODEL formalization**. Its structural concepts align with the corpus, but the complete tensor equation should not be presented as an independently established scientific law.
 
-# 1. Core Principle
+## 1. Core Principle
 
 A relation is not merely an edge:
 
-[
-i \rightarrow j
-]
+\[
+i \\rightarrow j
+\]
 
 AMOS represents it as:
 
-[
-\boxed{
-Relation
-========
+## \[ \\boxed{ Relation
 
 Type
-+
+\+
 Direction
-+
+\+
 Strength
-+
+\+
 Dependency
-+
+\+
 Confidence
-+
+\+
 CausalStatus
-+
+\+
 Trust
-+
+\+
 Conflict
-+
+\+
 Time
-+
+\+
 Entropy
-+
+\+
 Repair
-+
+\+
 Mutation
-+
+\+
 Observer
-+
+\+
 Provenance
 }
-]
+\]
 
 Therefore:
 
-[
-Connection \neq Causation
-]
+\[
+Connection \\neq Causation
+\]
 
-[
-Similarity \neq Dependency
-]
+\[
+Similarity \\neq Dependency
+\]
 
-[
-Sequence \neq CausalEffect
-]
+\[
+Sequence \\neq CausalEffect
+\]
 
-[
-Correlation \neq Mechanism
-]
+\[
+Correlation \\neq Mechanism
+\]
 
 and critically:
 
-[
-\boxed{
+\[
+\\boxed{
 SemanticRelation
-\not\Rightarrow
+\\not\\Rightarrow
 CausalRelation
 }
-]
+\]
 
 The AMOS_CORE lineage reinforces this separation through explicit causal lineage, epistemic regimes, competing hypotheses, and provenance topology rather than allowing relational similarity alone to settle causal questions.
 
-# 2. Relation Classes
+## 2. Relation Classes
 
 The canonical relation-class registry is:
 
@@ -148,23 +145,23 @@ GOVERNANCE
 
 A relation may carry multiple classes when those classes are separately justified:
 
-[
-Classes(R_{ij})={r_1,\ldots,r_k}
-]
+\[
+Classes(R\_{ij})={r_1,\\ldots,r_k}
+\]
 
 but multi-class representation must not erase type boundaries.
 
 For example:
 
-[
-R_{ij}^{semantic}
-+
-R_{ij}^{temporal}
-\not\Rightarrow
-R_{ij}^{causal}
-]
+\[
+R\_{ij}^{semantic}
+\+
+R\_{ij}^{temporal}
+\\not\\Rightarrow
+R\_{ij}^{causal}
+\]
 
-# 3. Tensor Schema
+## 3. Tensor Schema
 
 ```yaml
 relation_tensor:
@@ -245,36 +242,36 @@ relation_tensor:
   governance_state:
 ```
 
-# 4. Direction
+## 4. Direction
 
 Direction must be explicit:
 
-[
-D_{ij}\in
+\[
+D\_{ij}\\in
 {
-i\rightarrow j,;
-j\rightarrow i,;
-i\leftrightarrow j,;
+i\\rightarrow j,;
+j\\rightarrow i,;
+i\\leftrightarrow j,;
 UNDIRECTED,;
 UNKNOWN
 }
-]
+\]
 
 A bidirectional relation is not equivalent to two independently demonstrated causal effects.
 
-[
-i\leftrightarrow j
-\not\Rightarrow
-(i\ causes\ j)\land(j\ causes\ i)
-]
+\[
+i\\leftrightarrow j
+\\not\\Rightarrow
+(i\\ causes\\ j)\\land(j\\ causes\\ i)
+\]
 
-# 5. Strength
+## 5. Strength
 
 Relation strength represents the magnitude of an established relation under a declared measurement scheme:
 
-[
-S_{ij}\in\mathcal{D}_S
-]
+\[
+S\_{ij}\\in\\mathcal{D}\_S
+\]
 
 It may be numeric, ordinal, categorical, or symbolic.
 
@@ -289,25 +286,25 @@ UNKNOWN
 
 or:
 
-[
-S_{ij}\in[0,1]
-]
+\[
+S\_{ij}\\in[0,1]
+\]
 
 when a defensible normalization exists.
 
 Strength must not substitute for type:
 
-[
-StrongAssociation \neq StrongCausation
-]
+\[
+StrongAssociation \\neq StrongCausation
+\]
 
-# 6. Dependency
+## 6. Dependency
 
 Dependency captures whether one object's validity, operation, persistence, or derivation depends upon another.
 
-[
+\[
 Dep(i,j)
-]
+\]
 
 Possible states:
 
@@ -322,68 +319,68 @@ UNKNOWN
 
 Dependency can be directional:
 
-[
-Dep(i,j)\neq Dep(j,i)
-]
+\[
+Dep(i,j)\\neq Dep(j,i)
+\]
 
-# 7. Necessary and Sufficient Relations
+## 7. Necessary and Sufficient Relations
 
 AMOS should distinguish:
 
-[
+\[
 Necessary(i,j)
-]
+\]
 
 from:
 
-[
+\[
 Sufficient(i,j)
-]
+\]
 
 and from:
 
-[
+\[
 Dependent(i,j)
-]
+\]
 
 Thus:
 
-[
+\[
 Dependency
-\not\Rightarrow
+\\not\\Rightarrow
 Necessity
-]
+\]
 
 and:
 
-[
+\[
 Necessity
-\not\Rightarrow
+\\not\\Rightarrow
 Sufficiency
-]
+\]
 
-# 8. Confidence
+## 8. Confidence
 
 Confidence belongs to the relation claim, not merely the nodes.
 
-[
-Conf(R_{ij})
-]
+\[
+Conf(R\_{ij})
+\]
 
 The confidence ceiling is bounded by its load-bearing evidence:
 
-[
-\boxed{
-Conf(R_{ij})
-\le
-\min_{E_k\in CriticalEvidence(R_{ij})}
+\[
+\\boxed{
+Conf(R\_{ij})
+\\le
+\\min\_{E_k\\in CriticalEvidence(R\_{ij})}
 Validity(E_k)
 }
-]
+\]
 
 unless independent evidence closes the weak dependency through another valid path.
 
-# 9. Causal Pressure
+## 9. Causal Pressure
 
 `causal_pressure` represents the degree to which available evidence licenses causal interpretation.
 
@@ -406,75 +403,75 @@ UNKNOWN
 
 This preserves causal hierarchy rather than compressing all causal evidence into one number.
 
-# 10. Causal Firewall
+## 10. Causal Firewall
 
 The central invariant is:
 
-[
-\boxed{
+\[
+\\boxed{
 R^{semantic}*{ij}
-\not\Rightarrow
+\\not\\Rightarrow
 R^{causal}*{ij}
 }
-]
+\]
 
 Likewise:
 
-[
+\[
 R^{analogy}*{ij}
-\not\Rightarrow
+\\not\\Rightarrow
 R^{causal}*{ij}
-]
+\]
 
-[
+\[
 R^{temporal}*{ij}
-\not\Rightarrow
+\\not\\Rightarrow
 R^{causal}*{ij}
-]
+\]
 
-[
+\[
 R^{dependency}*{ij}
-\not\Rightarrow
+\\not\\Rightarrow
 R^{causal}*{ij}
-]
+\]
 
-[
+\[
 R^{scale}*{ij}
-\not\Rightarrow
+\\not\\Rightarrow
 R^{causal}*{ij}
-]
+\]
 
 Causal promotion requires suitable causal evidence.
 
 The source framework itself preserves a scientific boundary around symbolic/formal hypotheses rather than treating architectural resemblance as empirical proof.
 
-# 11. Causal Promotion Gate
+## 11. Causal Promotion Gate
 
 Define:
 
-[
-Promote_{causal}(R_{ij})
-]
+\[
+Promote\_{causal}(R\_{ij})
+\]
 
 A conservative gate is:
 
-[
-\boxed{
-Promote_{causal}(R_{ij})
-\iff
+\[
+\\boxed{
+Promote\_{causal}(R\_{ij})
+\\iff
 EvidenceAdequate
-\land
+\\land
 TemporalOrderCompatible
-\land
+\\land
 ScopeCompatible
-\land
+\\land
 RegimeCompatible
-\land
+\\land
 AlternativeExplanationsTested
-\land
+\\land
 ProvenanceValid
 }
-]
+\]
 
 with mechanism or intervention evidence required according to the strength of the causal claim.
 
@@ -489,23 +486,23 @@ UNKNOWN
 
 rather than automatic promotion.
 
-# 12. Trust Relation
+## 12. Trust Relation
 
 Trust is represented as a relation:
 
-[
+\[
 Trust(i,j)
-]
+\]
 
 rather than an intrinsic permanent property of (j).
 
 Thus:
 
-[
+\[
 Trust(i,j)
-\neq
+\\neq
 Trust(k,j)
-]
+\]
 
 in general.
 
@@ -517,13 +514,13 @@ Trust should be:
 - temporally bounded,
 - provenance-aware.
 
-# 13. Conflict
+## 13. Conflict
 
 Relations may conflict:
 
-[
+\[
 Conflict(R_a,R_b)
-]
+\]
 
 Possible states:
 
@@ -537,70 +534,68 @@ UNRESOLVED
 
 Contradictory relations must remain visible.
 
-[
-Conflict \neq AutomaticDeletion
-]
+\[
+Conflict \\neq AutomaticDeletion
+\]
 
 If evidence does not discriminate:
 
-[
-\boxed{
-R_a \parallel R_b
-\rightarrow
+\[
+\\boxed{
+R_a \\parallel R_b
+\\rightarrow
 COMPETING
 }
-]
+\]
 
 This is consistent with the AMOS_CORE lineage's explicit introduction of competing hypotheses rather than forced convergence.
 
-# 14. Temporal Lag
+## 14. Temporal Lag
 
 A relation may operate with lag:
 
-[
-Lag(R_{ij})=\Delta t
-]
+\[
+Lag(R\_{ij})=\\Delta t
+\]
 
 but:
 
-[
+\[
 Lag(i,j)>0
-\not\Rightarrow
-i\ causes\ j
-]
+\\not\\Rightarrow
+i\\ causes\\ j
+\]
 
 Lag belongs to temporal characterization, not causal proof.
 
 Recommended representation:
 
-[
-L_{ij}
-======
+## \[ L\_{ij}
 
-[
+\[
 observed,
 expected,
 distribution,
 uncertainty,
 regime
-]
-]
+\]
+\]
 
-# 15. Relation Entropy
+## 15. Relation Entropy
 
 `entropy` represents instability, uncertainty, degradation, or incoherence in the relation under the declared AMOS model.
 
-[
-H(R_{ij})
-]
+\[
+H(R\_{ij})
+\]
 
 It must not be silently equated with thermodynamic entropy.
 
 For structural use:
 
-[
-H_R\uparrow
-]
+\[
+H_R\\uparrow
+\]
 
 may indicate increasing:
 
@@ -613,13 +608,13 @@ may indicate increasing:
 
 This remains a MODEL construct unless a domain supplies an independently validated entropy definition.
 
-# 16. Repair Coupling
+## 16. Repair Coupling
 
 If damage to (i) affects repair requirements in (j):
 
-[
-RC_{ij}>0
-]
+\[
+RC\_{ij}>0
+\]
 
 Possible states:
 
@@ -634,24 +629,22 @@ UNKNOWN
 
 Repair coupling may propagate across a dependency graph:
 
-[
+\[
 Repair(i)
-\rightarrow
-\Delta State(j)
-]
+\\rightarrow
+\\Delta State(j)
+\]
 
 but the effect must be validated rather than inferred from adjacency alone.
 
-# 17. Mutation Transfer
+## 17. Mutation Transfer
 
 Mutation transfer represents whether a change in one object can propagate into another:
 
-[
-MT_{ij}
-=======
+## \[ MT\_{ij}
 
-Transfer(\mu_i\rightarrow j)
-]
+Transfer(\\mu_i\\rightarrow j)
+\]
 
 Possible channels:
 
@@ -670,62 +663,59 @@ unknown
 
 A transferred mutation remains provenance-linked to its origin.
 
-# 18. Selection Relation
+## 18. Selection Relation
 
 Selection relations represent filtering or survival pressure:
 
-[
-Sel(i\rightarrow j)
-]
+\[
+Sel(i\\rightarrow j)
+\]
 
 where (i) affects which states of (j) remain admissible.
 
 This connects to the corpus's mutation-selection-repair architecture, which places mutation, selection, repair, inheritance, and recursion in the system's operational spine.
 
-# 19. Observer Relation
+## 19. Observer Relation
 
 Some relations vary by observer:
 
-[
-R_{ij}^{(o)}
-]
+\[
+R\_{ij}^{(o)}
+\]
 
 Define observer variance:
 
-[
-\boxed{
-OV_{ij}
-=======
+## \[ \\boxed{ OV\_{ij}
 
-Var_o(R_{ij}^{(o)})
+Var_o(R\_{ij}^{(o)})
 }
-]
+\]
 
 where the variance operator must be appropriate to the representation.
 
 The tensor should preserve both:
 
-[
-ObserverDependent(R_{ij})
-]
+\[
+ObserverDependent(R\_{ij})
+\]
 
 and, where established:
 
-[
-ObserverInvariant(R_{ij})
-]
+\[
+ObserverInvariant(R\_{ij})
+\]
 
-# 20. Observer Firewall
+## 20. Observer Firewall
 
 Observer disagreement does not automatically imply that no underlying relation exists.
 
 Likewise, observer agreement does not prove objective truth.
 
-[
+\[
 Agreement_o(R)
-\not\Rightarrow
+\\not\\Rightarrow
 Truth(R)
-]
+\]
 
 The correct question is which components are:
 
@@ -737,13 +727,13 @@ invariant
 unknown
 ```
 
-# 21. Evidence Relation
+## 21. Evidence Relation
 
 Evidence and claims are related through:
 
-[
-R^{evidence}_{EC}
-]
+\[
+R^{evidence}\_{EC}
+\]
 
 Possible types:
 
@@ -758,48 +748,46 @@ DOES_NOT_DISCRIMINATE
 
 This directly interfaces with the Evidence Tensor rather than embedding evidence authority into relation strength.
 
-# 22. Risk Relation
+## 22. Risk Relation
 
 Risk edges represent possible harmful consequence propagation:
 
-[
-Risk(i\rightarrow j)
-]
+\[
+Risk(i\\rightarrow j)
+\]
 
 Recommended dimensions:
 
-[
-Risk_{ij}
-=========
+## \[ Risk\_{ij}
 
-[
+\[
 probability,
 severity,
 exposure,
 irreversibility,
 recoverability
-]
-]
+\]
+\]
 
 when those quantities are available.
 
 Risk relation is distinct from causal certainty:
 
-[
+\[
 RiskPath
-\neq
+\\neq
 EstablishedCausalPath
-]
+\]
 
 A plausible but unverified pathway may remain a risk hypothesis.
 
-# 23. Scale Relation
+## 23. Scale Relation
 
 For H/M/L reasoning:
 
-[
-R_{ij}^{scale}
-]
+\[
+R\_{ij}^{scale}
+\]
 
 can represent:
 
@@ -816,19 +804,19 @@ The Trang framework explicitly uses recursive L/M/H decomposition as a modeling 
 
 But:
 
-[
+\[
 CrossScaleSimilarity
-\not\Rightarrow
+\\not\\Rightarrow
 SameMechanism
-]
+\]
 
-# 24. Analogy Relation
+## 24. Analogy Relation
 
 Analogy is explicitly typed:
 
-[
-R^{analogy}_{ij}
-]
+\[
+R^{analogy}\_{ij}
+\]
 
 Possible dimensions:
 
@@ -843,29 +831,29 @@ behavioral
 
 Analogy is useful for hypothesis generation:
 
-[
+\[
 Analogy
-\rightarrow
+\\rightarrow
 CandidateHypothesis
-]
+\]
 
 but not proof:
 
-[
-\boxed{
+\[
+\\boxed{
 Analogy
-\not\Rightarrow
+\\not\\Rightarrow
 EmpiricalEquivalence
 }
-]
+\]
 
-# 25. Governance Relation
+## 25. Governance Relation
 
 Governance relations represent authority and constraint pathways:
 
-[
-Gov(i\rightarrow j)
-]
+\[
+Gov(i\\rightarrow j)
+\]
 
 Possible forms:
 
@@ -883,19 +871,19 @@ ESCALATES
 
 Governance authority must not be inferred merely from technical dependency.
 
-[
+\[
 CanControl(i,j)
-\not\Rightarrow
+\\not\\Rightarrow
 AuthorizedToControl(i,j)
-]
+\]
 
-# 26. Provenance
+## 26. Provenance
 
 Every consequential relation should preserve provenance:
 
-[
-P(R_{ij})
-]
+\[
+P(R\_{ij})
+\]
 
 including, where material:
 
@@ -914,133 +902,133 @@ provenance:
 
 The AMOS_CORE lineage explicitly evolves from evidence provenance topology through Sybil hardening, persistent provenance, MVCC/CAS, atomic multi-RSCF reasoning, and later finalization mechanisms.
 
-# 27. Relation Provenance Invariant
+## 27. Relation Provenance Invariant
 
 A relation derived from another relation must preserve ancestry:
 
-[
+\[
 R_b=f(R_a)
-\Rightarrow
-R_a\in Ancestors(R_b)
-]
+\\Rightarrow
+R_a\\in Ancestors(R_b)
+\]
 
 Therefore:
 
-[
+\[
 Transform(Relation)
-\neq
+\\neq
 NewIndependentEvidence
-]
+\]
 
-# 28. Relation Composition
+## 28. Relation Composition
 
 Given:
 
-[
-R_{ij},R_{jk}
-]
+\[
+R\_{ij},R\_{jk}
+\]
 
 a composed relation:
 
-[
-R_{ik}=R_{ij}\circ R_{jk}
-]
+\[
+R\_{ik}=R\_{ij}\\circ R\_{jk}
+\]
 
 is only valid when relation classes support composition.
 
 For example, dependency may sometimes compose:
 
-[
-Dep(i,j)\land Dep(j,k)
-\Rightarrow CandidateDep(i,k)
-]
+\[
+Dep(i,j)\\land Dep(j,k)
+\\Rightarrow CandidateDep(i,k)
+\]
 
 but semantic similarity generally does not license:
 
-[
-Semantic(i,j)\land Semantic(j,k)
-\Rightarrow Causal(i,k)
-]
+\[
+Semantic(i,j)\\land Semantic(j,k)
+\\Rightarrow Causal(i,k)
+\]
 
-# 29. Composition Gate
+## 29. Composition Gate
 
 Define:
 
-[
-Compose(R_{ij},R_{jk})
-]
+\[
+Compose(R\_{ij},R\_{jk})
+\]
 
 subject to:
 
-[
-\boxed{
+\[
+\\boxed{
 TypeCompatible
-\land
+\\land
 ScopeCompatible
-\land
+\\land
 RegimeCompatible
-\land
+\\land
 DirectionCompatible
-\land
+\\land
 ProvenanceValid
 }
-]
+\]
 
 Otherwise:
 
-[
-Compose=\text{UNLICENSED}
-]
+\[
+Compose=\\text{UNLICENSED}
+\]
 
-# 30. Relation Confidence Propagation
+## 30. Relation Confidence Propagation
 
 For a derived relation:
 
-[
-R_{ik}=f(R_{ij},R_{jk})
-]
+\[
+R\_{ik}=f(R\_{ij},R\_{jk})
+\]
 
 a conservative ceiling is:
 
-[
-\boxed{
-Conf(R_{ik})
-\le
-\min(
-Conf(R_{ij}),
-Conf(R_{jk}),
+\[
+\\boxed{
+Conf(R\_{ik})
+\\le
+\\min(
+Conf(R\_{ij}),
+Conf(R\_{jk}),
 Conf(f)
 )
 }
-]
+\]
 
-unless independent evidence validates (R_{ik}) directly.
+unless independent evidence validates (R\_{ik}) directly.
 
-# 31. Contradiction Propagation
+## 31. Contradiction Propagation
 
 Suppose:
 
-[
-R_{ij}=CAUSES
-]
+\[
+R\_{ij}=CAUSES
+\]
 
 and independently:
 
-[
-R_{ij}=DOES_NOT_CAUSE
-]
+\[
+R\_{ij}=DOES_NOT_CAUSE
+\]
 
 If neither dominates under valid evidence:
 
-[
-\boxed{
-State(R_{ij})=COMPETING
+\[
+\\boxed{
+State(R\_{ij})=COMPETING
 }
-]
+\]
 
 not arbitrary collapse.
 
-# 32. Relation State Machine
+## 32. Relation State Machine
 
 ```text
 CANDIDATE
@@ -1061,7 +1049,7 @@ VALIDATED
    ACTIVE / SUPERSEDED / REVOKED
 ```
 
-# 33. Required Operations
+## 33. Required Operations
 
 A minimum Relation Tensor runtime should support:
 
@@ -1101,7 +1089,7 @@ quarantine_relation(R, reason)
 revalidate_relation(R)
 ```
 
-# 34. Causal Promotion Operation
+## 34. Causal Promotion Operation
 
 ```text
 candidate relation
@@ -1127,7 +1115,7 @@ CAUSAL CONDITIONAL NONCAUSAL
 
 No semantic or structural edge may bypass this gate.
 
-# 35. Relation Falsifiers
+## 35. Relation Falsifiers
 
 Each consequential relation should carry conditions capable of invalidating it.
 
@@ -1149,13 +1137,13 @@ falsifiers:
     effect: reject_relation
 ```
 
-# 36. Relation Graph
+## 36. Relation Graph
 
 For system:
 
-[
+\[
 G_R=(V,R)
-]
+\]
 
 where:
 
@@ -1194,31 +1182,31 @@ A
       B
 ```
 
-# 37. Relation Matrix
+## 37. Relation Matrix
 
 For (n) objects:
 
-[
-\boxed{
-\mathcal{R}\in\mathbb{T}^{n\times n}
+\[
+\\boxed{
+\\mathcal{R}\\in\\mathbb{T}^{n\\times n}
 }
-]
+\]
 
 where each cell contains a Relation Tensor rather than a scalar:
 
-[
-\mathcal{R}*{ij}=R*{ij}
-]
+\[
+\\mathcal{R}*{ij}=R*{ij}
+\]
 
 This permits multiple relational dimensions without collapsing them into one adjacency weight.
 
-# 38. Sparse Representation
+## 38. Sparse Representation
 
 Most systems should not instantiate every possible relation:
 
-[
-|\mathcal{R}_{active}|\ll n^2
-]
+\[
+|\\mathcal{R}\_{active}|\\ll n^2
+\]
 
 AMOS should preserve only relations that are:
 
@@ -1229,16 +1217,14 @@ AMOS should preserve only relations that are:
 - structurally required,
 - or unresolved but consequential.
 
-# 39. Relation Mutation
+## 39. Relation Mutation
 
 Relations themselves can mutate:
 
-[
-R_{ij}^{t+1}
-============
+## \[ R\_{ij}^{t+1}
 
-\mathcal{M}(R_{ij}^{t},\Delta E,\Delta S,\Delta Regime)
-]
+\\mathcal{M}(R\_{ij}^{t},\\Delta E,\\Delta S,\\Delta Regime)
+\]
 
 Possible mutations:
 
@@ -1256,7 +1242,7 @@ revocation
 
 A type change should preserve lineage.
 
-# 40. Relation Repair
+## 40. Relation Repair
 
 If a relation is corrupted:
 
@@ -1280,52 +1266,49 @@ revalidate descendants
 
 Repair should target the failed dimensions rather than reconstructing the entire graph.
 
-# 41. Selective Invalidation
+## 41. Selective Invalidation
 
 If:
 
-[
-Invalidate(R_{ij})
-]
+\[
+Invalidate(R\_{ij})
+\]
 
-then only claims or relations depending upon (R_{ij}) require invalidation:
+then only claims or relations depending upon (R\_{ij}) require invalidation:
 
-[
-\boxed{
-Invalidate(R_{ij})
-\rightarrow
-Invalidate(Descendants(R_{ij}))
+\[
+\\boxed{
+Invalidate(R\_{ij})
+\\rightarrow
+Invalidate(Descendants(R\_{ij}))
 }
-]
+\]
 
 Unrelated graph regions remain intact.
 
-# 42. Relation Integrity Tensor
+## 42. Relation Integrity Tensor
 
 Define:
 
-[
-\boxed{
-\mathcal{I}_{R}
-===============
+## \[ \\boxed{ \\mathcal{I}\_{R}
 
-[
-I_{type},
-I_{direction},
-I_{dependency},
-I_{causal},
-I_{temporal},
-I_{scope},
-I_{regime},
-I_{observer},
-I_{provenance}
-]
+\[
+I\_{type},
+I\_{direction},
+I\_{dependency},
+I\_{causal},
+I\_{temporal},
+I\_{scope},
+I\_{regime},
+I\_{observer},
+I\_{provenance}
+\]
 }
-]
+\]
 
 A relation is structurally usable only when its load-bearing integrity dimensions satisfy the target operation's requirements.
 
-# 43. Hard Invariants
+## 43. Hard Invariants
 
 **RT-INV-01 — Type preservation.** Every consequential relation has an explicit type.
 
@@ -1357,7 +1340,7 @@ A relation is structurally usable only when its load-bearing integrity dimension
 
 **RT-INV-15 — Transformation lineage.** Derived edges do not become independent evidence by transformation.
 
-# 44. Failure Modes
+## 44. Failure Modes
 
 ```text
 RT-FM-01 semantic → causal promotion
@@ -1377,28 +1360,25 @@ RT-FM-14 repair propagation without dependency evidence
 RT-FM-15 trust treated as intrinsic/global
 ```
 
-# 45. Relation–Evidence Integration
+## 45. Relation–Evidence Integration
 
 Evidence Tensor:
 
-[
+\[
 E_k
-]
+\]
 
 Relation Tensor:
 
-[
-R_{ij}
-]
+\[
+R\_{ij}
+\]
 
 Binding:
 
-[
-\boxed{
-B_{ER}
-======
+## \[ \\boxed{ B\_{ER}
 
-[
+\[
 evidence_id,
 relation_id,
 support_type,
@@ -1406,33 +1386,33 @@ strength,
 scope_fit,
 regime_fit,
 freshness
-]
+\]
 }
-]
+\]
 
 Thus:
 
-[
+\[
 Evidence
-\rightarrow
+\\rightarrow
 RelationClaim
-]
+\]
 
 without conflating the evidence object with the relation itself.
 
-# 46. Relation–Claim Integration
+## 46. Relation–Claim Integration
 
 Claims may reference relations:
 
-[
-C_k\rightarrow R_{ij}
-]
+\[
+C_k\\rightarrow R\_{ij}
+\]
 
 and relations may depend upon claims:
 
-[
-R_{ij}\rightarrow C_k
-]
+\[
+R\_{ij}\\rightarrow C_k
+\]
 
 The dependency graph must distinguish:
 
@@ -1445,37 +1425,37 @@ relation supports claim
 
 to prevent circular confirmation.
 
-# 47. Relation–Constraint Integration
+## 47. Relation–Constraint Integration
 
 The architectural spine:
 
-[
+\[
 Distinction
-\rightarrow
+\\rightarrow
 Relation
-\rightarrow
+\\rightarrow
 Constraint
-]
+\]
 
 means a constraint may arise from a relation, but:
 
-[
+\[
 Relation(i,j)
-\not\Rightarrow
+\\not\\Rightarrow
 Constraint(i,j)
-]
+\]
 
 without a constraint-forming rule.
 
 This preserves the distinction between descriptive relation and operative restriction.
 
-# 48. Relation–Transformation Integration
+## 48. Relation–Transformation Integration
 
 A transformation:
 
-[
-X_t\rightarrow X_{t+1}
-]
+\[
+X_t\\rightarrow X\_{t+1}
+\]
 
 may modify:
 
@@ -1488,7 +1468,7 @@ may modify:
 
 Therefore relation updates should participate in the system's causal and provenance lineage rather than being treated as metadata.
 
-# 49. H/M/L Relation Architecture
+## 49. H/M/L Relation Architecture
 
 Relations can exist at different scales:
 
@@ -1502,53 +1482,47 @@ H — governing relations
 
 Cross-scale mapping:
 
-[
+\[
 R_L
-\leftrightarrow
+\\leftrightarrow
 R_M
-\leftrightarrow
+\\leftrightarrow
 R_H
-]
+\]
 
 must preserve type and scope.
 
 A local causal relation cannot automatically become a global causal law.
 
-# 50. Canonical Relation Validity
+## 50. Canonical Relation Validity
 
 For target context (X):
 
-[
-\boxed{
-Valid(R_{ij}|X)
-===============
+## \[ \\boxed{ Valid(R\_{ij}|X)
 
 TypeValid
-\land
+\\land
 DirectionValid
-\land
+\\land
 EvidenceAdequate
-\land
+\\land
 ScopeCompatible
-\land
+\\land
 RegimeCompatible
-\land
+\\land
 ProvenanceValid
-\land
-\neg Revoked
+\\land
+\\neg Revoked
 }
-]
+\]
 
 Additional requirements apply to causal, governance, trust, and risk relations.
 
-# 51. Canonical Relation Tensor
+## 51. Canonical Relation Tensor
 
-[
-\boxed{
-R_{ij}
-======
+## \[ \\boxed{ R\_{ij}
 
-T[
+T\[
 Ty,
 D,
 S,
@@ -1563,9 +1537,9 @@ RC,
 MT,
 OV,
 P
-]
+\]
 }
-]
+\]
 
 where:
 
@@ -1584,85 +1558,85 @@ where:
 - (OV) = observer variance,
 - (P) = provenance.
 
-# 52. Canonical Causal Rule
+## 52. Canonical Causal Rule
 
-[
-\boxed{
+\[
+\\boxed{
 Semantic
-\lor
+\\lor
 Structural
-\lor
+\\lor
 Temporal
-\lor
+\\lor
 Analogical
-\lor
+\\lor
 Scale
-\not\Rightarrow
+\\not\\Rightarrow
 Causal
 }
-]
+\]
 
 Causal promotion requires evidence whose type is appropriate to the causal claim.
 
-# 53. Canonical Composition Rule
+## 53. Canonical Composition Rule
 
-[
-\boxed{
-R_{ik}=R_{ij}\circ R_{jk}
+\[
+\\boxed{
+R\_{ik}=R\_{ij}\\circ R\_{jk}
 }
-]
+\]
 
 is admissible only when:
 
-[
+\[
 TypeCompatible
-\land
+\\land
 DirectionCompatible
-\land
+\\land
 ScopeCompatible
-\land
+\\land
 RegimeCompatible
-\land
+\\land
 ProvenanceValid
-]
+\]
 
 Otherwise:
 
-[
-R_{ik}=UNKNOWN
-]
+\[
+R\_{ik}=UNKNOWN
+\]
 
 rather than fabricated.
 
-# 54. Canonical Confidence Rule
+## 54. Canonical Confidence Rule
 
-[
-\boxed{
+\[
+\\boxed{
 Conf(DerivedRelation)
-\le
-\min(
+\\le
+\\min(
 Conf(CriticalPremises)
 )
 }
-]
+\]
 
 unless the relation receives independent direct validation.
 
-# 55. Canonical Contradiction Rule
+## 55. Canonical Contradiction Rule
 
-[
-\boxed{
+\[
+\\boxed{
 EquivalentSupport(R_a,R_b)
-\land
+\\land
 Incompatible(R_a,R_b)
-\Rightarrow
+\\Rightarrow
 COMPETING
 }
-]
+\]
 
 No authority, fluency, repetition, or ordering rule may force epistemic collapse.
 
-# 56. Final Architecture
+## 56. Final Architecture
 
 ```text
                        OBJECT i
@@ -1712,22 +1686,19 @@ No authority, fluency, repetition, or ordering rule may force epistemic collapse
                        OBJECT j
 ```
 
-# 57. Canonical Summary
+## 57. Canonical Summary
 
 The AMOS Relation Tensor converts an untyped edge:
 
-[
-i\rightarrow j
-]
+\[
+i\\rightarrow j
+\]
 
 into:
 
-[
-\boxed{
-R_{ij}
-======
+## \[ \\boxed{ R\_{ij}
 
-T[
+T\[
 type,
 direction,
 strength,
@@ -1742,9 +1713,9 @@ repair_coupling,
 mutation_transfer,
 observer_variance,
 provenance
-]
+\]
 }
-]
+\]
 
 The fifteen primary relation classes are:
 
@@ -1768,42 +1739,46 @@ governance
 
 The governing rule is:
 
-[
-\boxed{
-\textbf{A semantic or structural relation cannot be promoted to causal without suitable evidence.}
+\[
+\\boxed{
+\\textbf{A semantic or structural relation cannot be promoted to causal without suitable evidence.}
 }
-]
+\]
 
 More generally:
 
-[
-\boxed{
+\[
+\\boxed{
 RelationType_A
-\not\Rightarrow
+\\not\\Rightarrow
 RelationType_B
 }
-]
+\]
 
 unless an explicit transformation rule and adequate evidence license the promotion.
 
 This makes the Relation Tensor the typed connective substrate between **Distinction → Relation → Constraint**, while Evidence Tensor supplies epistemic grounding and RSCF preserves the resulting dependency and proof structure.
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: relation_tensor
 node_type: note
 path: 11_KNOWLEDGE/RELATION_TENSOR.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]]

@@ -1,10 +1,13 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Kernel MOC
 type: moc
 source: 11_KNOWLEDGE/kernel
 tags:
-- kernel
-- canon/knowledge
+  - kernel
+  - canon/knowledge
 moc: true
 rscf:
   state: SOURCE_CLAIM
@@ -153,6 +156,6 @@ rscf:
 - [[11_KNOWLEDGE/kernel/TECH_ARCHITECTURE_KERNEL_V0|TECH_ARCHITECTURE_KERNEL_V0]]
 - [[11_KNOWLEDGE/kernel/TECH_SYSTEMS_PRODUCT_MANAGEMENT_KERNEL|TECH_SYSTEMS_PRODUCT_MANAGEMENT_KERNEL]]
 
----
+______________________________________________________________________
 
 **Parent:** [[11_KNOWLEDGE/11_KNOWLEDGE_MOC|11_KNOWLEDGE_MOC]] · [[00_ROOT/00_HOME|00_HOME]]

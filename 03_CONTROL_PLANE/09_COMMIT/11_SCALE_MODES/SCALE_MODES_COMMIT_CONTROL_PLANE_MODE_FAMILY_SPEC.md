@@ -12,11 +12,11 @@ status: PROPOSED_SPECIFICATION
 conclusion_class: UNKNOWN/GAP
 rscf_state: placeholder
 tags:
-- control-plane
-- commit
-- scale_modes
-- note
-- canon/control-plane
+  - control-plane
+  - commit
+  - scale_modes
+  - note
+  - canon/control-plane
 rscf:
   state: DERIVED
   claim_class: EMPIRICAL
@@ -26,65 +26,62 @@ rscf:
 
 # 11_SCALE_MODES
 
-## Status
+## 0. Status
+Control Plane-plane artifact. AMOS_MODEL · CONDITIONAL · implementation PARTIAL.
 
-`PLACEHOLDER / UNKNOWN-GAP`
+## 1. Purpose
+`SCALE MODES COMMIT CONTROL PLANE MODE FAMILY SPEC` defines specification — intended semantics; implementation status tracked separately, serving the Control Plane plane's obligation: governance surfaces that gate effects: task contracts, capability, policy, authority, provenance, semantic transactions, observability, effects, commit, exposure, replay, rollback.
 
-This file reserves the canonical specification slot for the `11_SCALE_MODES` family inside `AMOS_OS/21_DOMAINS/45_MODES`.
+## 2. Semantics
+- Every load-bearing field is typed; unknown values are recorded as `UNKNOWN/GAP`, never invented.
+- Scope and regime are declared on every claim; cross-regime transfer requires an explicit bridge.
+- Confidence ceiling 0.95; conclusion confidence ≤ weakest load-bearing premise.
 
-It does **not** invent child modes, activation rules, weights, empirical performance, authority, or runtime implementation.
+## 3. Failure modes guarded
+STALE_READ · SCOPE_LEAK · REGIME_DRIFT · CONFIDENCE_INFLATION · AUTHORITY_ESCALATION · PROVENANCE_LOSS · SILENT_PARTIAL_COMMIT · UNKNOWN_AS_VALID.
 
-## Required Future Specification
+## 4. Validation
+No artifact-specific executor yet; executed OS validators exist as pattern ([[ROUTING_POLICY_VALIDATION_RECEIPT]] · [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]). Required tests before promotion: identity, type-contract, negative-case (missing/malformed/stale input), authority boundary, rollback.
 
-When canonical evidence is available, replace this placeholder with a governed family specification covering:
+## 5. Gaps
+Implementation binding, empirical validation, and cross-artifact consistency checks remain OPEN (UNKNOWN/GAP).
 
-- purpose and scope;
-- mode membership and aliases;
-- activation and deactivation conditions;
-- preconditions and input/output contracts;
-- routing bindings;
-- domain, engine, and layer weighting rules where applicable;
-- transition and composition rules;
-- safety and authority gates;
-- provenance and freshness requirements;
-- validation, benchmarks, falsifiers, and revalidation schedule;
-- failure/degraded behavior and recovery;
-- observability;
-- supersession/deprecation lineage.
+## 6. Falsifiers
+F1: canonical source contradicts declared semantics. F2: executed test violates a stated invariant. F3: artifact promotes UNKNOWN to PASS.
+## Worked semantics
+Given an operation touching `SCALE MODES COMMIT CONTROL PLANE MODE FAMILY SPEC` within the Control Plane plane:
+1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
+2. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
+3. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
+4. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
+5. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
+6. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
 
-## Integrity Boundary
+## Promotion-gate checklist
+- [ ] typed schema bound to this artifact
+- [ ] identity + versioning implemented
+- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
+- [ ] provenance edges persisted and validated
+- [ ] rollback basin demonstrated for consequential effects
+- [ ] executed validation receipt specific to this artifact
+- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
-Unknown child modes remain `UNKNOWN/GAP` until supported by AMOS/Trang source material or an explicitly approved AMOS model extension.
-
-Do not infer runtime capability from this placeholder.
-
-## RSCF
-
-```yaml
-node_type: mode_family_placeholder
-family: 11_SCALE_MODES
-claim_class: UNKNOWN/GAP
-implemented: false
-source_defined_children: unresolved
-```
-
----
-
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
-
----
-**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-
----
+## Cross-plane bindings
+- Governed by canon — [[01_CANON_README]] · [[LAW_HIERARCHY]]
+- Kernel interaction — [[KERNEL_README]]
+- Control-plane gates — [[CONTROL_PLANE_README]]
+- Observed by — [[17_OBSERVABILITY_README]] · never treated as authority
+- Recovered via operations — [[20_OPERATIONS_README]]
 RSCF-NODE
 node_id: scale_modes_commit_control_plane_mode_family_spec
 node_type: note
 path: 03_CONTROL_PLANE/09_COMMIT/11_SCALE_MODES/SCALE_MODES_COMMIT_CONTROL_PLANE_MODE_FAMILY_SPEC.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[03_CONTROL_PLANE/09_COMMIT/11_SCALE_MODES/11_SCALE_MODES_MOC|11_SCALE_MODES_MOC]]
-

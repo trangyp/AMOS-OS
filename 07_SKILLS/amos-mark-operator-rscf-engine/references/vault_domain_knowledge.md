@@ -1,14 +1,17 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Vault Domain Knowledge — Amos Mark Operator Rscf Engine
 type: reference
 source: 07_SKILLS/amos-mark-operator-rscf-engine/references
 tags:
-- reference
-- amos-mark-operator-rscf-engine
-- type/skill
-- law-hierarchy
-- canon
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-mark-operator-rscf-engine
+  - type/skill
+  - law-hierarchy
+  - canon
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -28,14 +31,14 @@ rscf:
 
 > Path: `amos-general/A/CANON/AMOS CANON Integration Marker.md` | Size: 24840 chars | Match score: 10 | content_hash: e542a15026c5d02c
 
-# AMOS CANON Integration Marker
+## AMOS CANON Integration Marker
 
 ## Overview
-
 
 ```text
 _00_AMOS_CANON
 ```
+
 into the target namespace:
 
 ```text
@@ -54,17 +57,17 @@ It does **not**, by itself, establish that every merged artifact has passed cano
 
 The governing distinction is:
 
-[
-\boxed{
+\[
+\\boxed{
 IntegrationComplete
-\neq
+\\neq
 CanonValidated
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 1. Integration Record
+## 1. Integration Record
 
 The source marker declares:
 
@@ -78,42 +81,40 @@ Integration: COMPLETE
 
 Normalized timestamp:
 
-[
-T_{integration}
-===============
+## \[ T\_{integration}
 
-2026\text{-}04\text{-}19T15{:}23{:}41+07{:}00
-]
+2026\\text{-}04\\text{-}19T15{:}23{:}41+07{:}00
+\]
 
 The recorded transformation is:
 
-[
-C_{source}
-\rightarrow
-C_{target}
-]
+\[
+C\_{source}
+\\rightarrow
+C\_{target}
+\]
 
 where:
 
-[
-C_{source}=_00_AMOS_CANON
-]
+\[
+C\_{source}=\_00_AMOS_CANON
+\]
 
 and:
 
-[
-C_{target}=_AMOS_CANON
-]
+\[
+C\_{target}=\_AMOS_CANON
+\]
 
 with:
 
-[
-N_{unique}=54
-]
+\[
+N\_{unique}=54
+\]
 
----
+______________________________________________________________________
 
-# 2. Marker Semantics
+## 2. Marker Semantics
 
 The marker should be interpreted as an **integration-state record**.
 
@@ -140,46 +141,43 @@ SUPERSESSION RESOLVED
 
 Those are separate states requiring separate evidence.
 
----
+______________________________________________________________________
 
-# 3. Integration State Model
+## 3. Integration State Model
 
 A canon integration event can be modeled as:
 
-[
+\[
 I=
 (
 S,
 T,
 F,
-\tau,
-\sigma
+\\tau,
+\\sigma
 )
-]
+\]
 
 where:
 
-
 For this marker:
 
-[
-I_{AMOS}
-========
+## \[ I\_{AMOS}
 
 (
-_00_AMOS_CANON,
-_AMOS_CANON,
+\_00_AMOS_CANON,
+\_AMOS_CANON,
 54,
-2026\text{-}04\text{-}19T15{:}23{:}41+07{:}00,
+2026\\text{-}04\\text{-}19T15{:}23{:}41+07{:}00,
 COMPLETE
 )
-]
+\]
 
 This is an **AMOS MODEL normalization** of the supplied marker.
 
----
+______________________________________________________________________
 
-# 4. Integration vs. Canon Admission
+## 4. Integration vs. Canon Admission
 
 AMOS should preserve the distinction between:
 
@@ -195,14 +193,13 @@ FILE ADMITTED TO GOVERNED CANON
 
 Formally:
 
-[
+\[
 Merged(f)
-\not\Rightarrow
+\\not\\Rightarrow
 CanonicallyAdmitted(f)
-]
+\]
 
 A merged artifact may still require evaluation for:
-
 
 Therefore:
 
@@ -218,9 +215,9 @@ Admitted / Conditional / Competing / Quarantined / Rejected
 
 is stronger than treating merge completion as automatic canonization.
 
----
+______________________________________________________________________
 
-# 5. Canon Integration Pipeline
+## 5. Canon Integration Pipeline
 
 A governed integration architecture can be represented as:
 
@@ -261,7 +258,7 @@ _00_AMOS_CANON
 
 > Path: `cognitive/AMOS_CONSCIOUSNESS_ENHANCEMENT_COMPLETE.md` | Size: 11703 chars | Match score: 7 | content_hash: 16eac0edec1fab88
 
-# AMOS OMEGA FX STRUCTURAL MARKET ENGINE - CONSCIOUSNESS-ENHANCED COMPLETE
+## AMOS OMEGA FX STRUCTURAL MARKET ENGINE - CONSCIOUSNESS-ENHANCED COMPLETE
 
 ## Summary
 Successfully implemented comprehensive consciousness-enhanced FX structural market engine with hyper-dimensional processing, quantum consciousness integration, and advanced AI capabilities.
@@ -320,7 +317,7 @@ Successfully implemented comprehensive consciousness-enhanced FX structural mark
 
 > Path: `economy/Uni_Market_Logistics_Model.md` | Size: 2062 chars | Match score: 7 | content_hash: 8e9b08d408514d49
 
-# AMOS Uni Market Logistics Engine
+## AMOS Uni Market Logistics Engine
 
 
 The **Uni Market Logistics Engine** models electric vehicle adoption, driver behaviour, charging infrastructure, and grid interactions, specifically tailored to emerging market dynamics and urban archetypes (like Vietnam).
@@ -366,10 +363,9 @@ Stateframes are constructed by intersecting:
 -
 ```
 
----
+______________________________________________________________________
 
-**Related:** [[07_SKILLS/amos-mark-operator-rscf-engine/amos-mark-operator-rscf-engine_MOC|amos-mark-operator-rscf-engine_MOC]]
----
+## **Related:** [[07_SKILLS/amos-mark-operator-rscf-engine/amos-mark-operator-rscf-engine_MOC|amos-mark-operator-rscf-engine_MOC]]
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -377,12 +373,14 @@ Stateframes are constructed by intersecting:
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-mark-operator-rscf-engine-vault-domain-knowledge
 node_type: reference
 path: 07_SKILLS/amos-mark-operator-rscf-engine/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

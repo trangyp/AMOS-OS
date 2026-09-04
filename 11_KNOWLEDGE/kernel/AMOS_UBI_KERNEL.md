@@ -1,4 +1,7 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: AMOS UBI KERNEL
 type: kernel
 source: 11_KNOWLEDGE/kernel
@@ -7,13 +10,13 @@ canon-type: framework
 rscf-state: source-claim
 topic: amos-ubi-kernel
 tags:
-- canon-group/biology
-- canon/framework
-- rscf/claim
-- rscf/provenance
-- rscf/state/source-claim
-- topic/amos-ubi-kernel
-- kernel
+  - canon-group/biology
+  - canon/framework
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - topic/amos-ubi-kernel
+  - kernel
 created: 2026-08-22
 rscf:
   state: SOURCE_CLAIM
@@ -394,6 +397,6 @@ rscf:
 **Related:** [[11_KNOWLEDGE/kernel/AMOS_TECH_IDENTITY_KERNEL_V1_TECH4|AMOS_TECH_IDENTITY_KERNEL_V1_TECH4]] · [[11_KNOWLEDGE/kernel/AMOS_REVENUE_ARCHITECTURE_KERNEL|AMOS_REVENUE_ARCHITECTURE_KERNEL]] · [[11_KNOWLEDGE/kernel/IP_KERNEL_SHIELD_ARCHIVE_AMOS23|IP_KERNEL_SHIELD_ARCHIVE_AMOS23]] · [[11_KNOWLEDGE/kernel/AMOS_SIMULATION_KERNEL|AMOS_SIMULATION_KERNEL]]
 ```
 
----
-**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]
+______________________________________________________________________
 
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]

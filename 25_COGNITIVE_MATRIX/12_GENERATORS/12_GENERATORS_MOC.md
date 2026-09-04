@@ -1,30 +1,33 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: 12 Generators MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/12_GENERATORS
 tags:
-- 12-generators
-- domain/cognitive-matrix
-- generators-audit
-- generators-benchmarks
-- generators-change-log
-- generators-history
-- generators-integration
-- generators-provenance
-- generators-roadmap
-- generators-tests
-- generators-validation
-- generators-versioning
-- generator-admission
-- generator-falsification
-- generator-output
-- generator-promotion
-- generator-seed
-- generator-supersession
-- generator-templates
-- generator-tests
-- generator-validation
-- generator-versioning
+  - 12-generators
+  - domain/cognitive-matrix
+  - generators-audit
+  - generators-benchmarks
+  - generators-change-log
+  - generators-history
+  - generators-integration
+  - generators-provenance
+  - generators-roadmap
+  - generators-tests
+  - generators-validation
+  - generators-versioning
+  - generator-admission
+  - generator-falsification
+  - generator-output
+  - generator-promotion
+  - generator-seed
+  - generator-supersession
+  - generator-templates
+  - generator-tests
+  - generator-validation
+  - generator-versioning
 moc: true
 rscf:
   state: DERIVED
@@ -69,5 +72,6 @@ rscf:
 
 - [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]] — 00_INDEX
 
----
+______________________________________________________________________
+
 **Parent:** [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]

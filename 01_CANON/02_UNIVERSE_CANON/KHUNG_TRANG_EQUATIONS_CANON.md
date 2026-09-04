@@ -12,25 +12,25 @@ segment: 01_CANON/02_UNIVERSE_CANON
 artifact_kind: CANON_SPECIFICATION
 path: 01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_EQUATIONS_CANON.md
 tags:
-- amos-os
-- canon
-- universe
-- khung_trang
-- trang_framework
-- equations
-- equations_canon
-- dimensional_consistency
-- entropy
-- emergence
-- capability
-- authority
-- validation
-- rscf
-- provenance
-- canon/universe
-- khung-trang-equations
-- amos-x-trang-reality
-- capability-authority-separation
+  - amos-os
+  - canon
+  - universe
+  - khung_trang
+  - trang_framework
+  - equations
+  - equations_canon
+  - dimensional_consistency
+  - entropy
+  - emergence
+  - capability
+  - authority
+  - validation
+  - rscf
+  - provenance
+  - canon/universe
+  - khung-trang-equations
+  - amos-x-trang-reality
+  - capability-authority-separation
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -45,12 +45,12 @@ rscf:
   state: SOURCE_GROUNDED
   claim_class: AMOS_MODEL
   provenance:
-  - 01_CANON/01_CANON_MOC
-  - 01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_EQUATIONS
-  - 25_COGNITIVE_MATRIX/AMOS_X_TRANG_REALITY
+    - 01_CANON/01_CANON_MOC
+    - 01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_EQUATIONS
+    - 25_COGNITIVE_MATRIX/AMOS_X_TRANG_REALITY
   scope:
-  - UNIVERSE_CANON
-  - KHUNG_TRANG_EQUATIONS_CANON
+    - UNIVERSE_CANON
+    - KHUNG_TRANG_EQUATIONS_CANON
   confidence_ceiling:
     source_model: SOURCE_BOUND
     runtime_enforcement: RUNTIME_VERIFIED
@@ -67,7 +67,7 @@ It is an **equation-governance canon**, not a declaration that every Khung Trang
 
 The governing distinctions are:
 
-```text
+````text
 CANONICAL EQUATION
 !=
 EMPIRICALLY VERIFIED EQUATION
@@ -124,7 +124,7 @@ PASS
 
 ---
 
-# 1. Purpose
+## 1. Purpose
 
 This canon defines the minimum normative contract under which Khung Trang equations may enter, survive, or affect AMOS runtime reasoning.
 
@@ -139,15 +139,15 @@ Its primary responsibilities are:
 6. scope and regime binding
 7. runtime validation
 8. fail-closed handling of unresolved equations
-```
+````
 
 The canon governs the **use of equations**.
 
 It does not, by itself, establish the empirical truth of the phenomena modeled by those equations.
 
----
+______________________________________________________________________
 
-# 2. Equation Epistemic Contract
+## 2. Equation Epistemic Contract
 
 Every equation admitted under this canon MUST be interpreted according to its actual epistemic class.
 
@@ -186,9 +186,9 @@ RuntimePass(E)
 EmpiricalTruth(E)
 $$
 
----
+______________________________________________________________________
 
-# 3. Normative Validation Rule I — Dimensional Consistency
+## 3. Normative Validation Rule I — Dimensional Consistency
 
 ## 3.1 Canon Rule
 
@@ -228,7 +228,7 @@ $$
 [A]=[B][C]
 $$
 
----
+______________________________________________________________________
 
 ## 3.2 AST Admission Contract
 
@@ -265,7 +265,7 @@ UNKNOWN
 → fail closed for dimension-dependent execution
 ```
 
----
+______________________________________________________________________
 
 ## 3.3 Dimensionless Model Variables
 
@@ -299,7 +299,7 @@ dimension:
 
 rather than silently treated as physical quantities.
 
----
+______________________________________________________________________
 
 ## 3.4 Normalization Boundary
 
@@ -324,9 +324,9 @@ COMPARABLE ACROSS ARBITRARY DOMAINS
 
 Cross-domain comparison still requires compatible semantics, measurement procedures, and scope.
 
----
+______________________________________________________________________
 
-# 4. Normative Validation Rule II — Entropy Non-Accumulation
+## 4. Normative Validation Rule II — Entropy Non-Accumulation
 
 ## 4.1 Canon Rule
 
@@ -350,7 +350,7 @@ $$
 |\dot{S}_{export}|
 $$
 
----
+______________________________________________________________________
 
 ## 4.2 Runtime Interpretation
 
@@ -382,7 +382,7 @@ $$
 
 for the governed continuous-agent operation.
 
----
+______________________________________________________________________
 
 ## 4.3 Critical Semantic Boundary
 
@@ -422,7 +422,7 @@ EntropyGate = UNKNOWN/GAP
 
 not `PASS`.
 
----
+______________________________________________________________________
 
 ## 4.4 Physical Firewall
 
@@ -448,7 +448,7 @@ unless an explicit validated mapping exists.
 
 This canon does not create that mapping merely by using the same symbol.
 
----
+______________________________________________________________________
 
 ## 4.5 Continuous-Operation Scope
 
@@ -489,9 +489,9 @@ CONDITIONAL / IMPLEMENTATION DETAIL
 
 rather than silently becoming canon.
 
----
+______________________________________________________________________
 
-# 5. Normative Validation Rule III — Emergence Boundary
+## 5. Normative Validation Rule III — Emergence Boundary
 
 ## 5.1 Canon Rule
 
@@ -507,7 +507,7 @@ $$
 
 This is categorical.
 
----
+______________________________________________________________________
 
 ## 5.2 Capability Semantics
 
@@ -523,7 +523,7 @@ $$
 
 This does not establish permission to perform those actions.
 
----
+______________________________________________________________________
 
 ## 5.3 Authority Semantics
 
@@ -556,7 +556,7 @@ $$
 a\in Authority(X,t)
 $$
 
----
+______________________________________________________________________
 
 ## 5.4 Cryptographic Envelope
 
@@ -585,7 +585,7 @@ UNKNOWN/GAP
 
 for consequential effects.
 
----
+______________________________________________________________________
 
 ## 5.5 Emergence Cannot Self-Promote
 
@@ -621,9 +621,9 @@ Emergence
 Authorization
 $$
 
----
+______________________________________________________________________
 
-# 6. Combined Admission Function
+## 6. Combined Admission Function
 
 Let an equation-bearing runtime proposal be:
 
@@ -668,9 +668,9 @@ $$
 
 only if all required gates pass.
 
----
+______________________________________________________________________
 
-# 7. Three-Valued Gate Semantics
+## 7. Three-Valued Gate Semantics
 
 Each gate MUST support at least:
 
@@ -696,9 +696,9 @@ UNKNOWN
 PASS
 $$
 
----
+______________________________________________________________________
 
-# 8. Scope and Regime Binding
+## 8. Scope and Regime Binding
 
 Every executable Khung Trang equation MUST declare an applicability envelope.
 
@@ -726,9 +726,9 @@ $$
 
 unless the translation is itself validated.
 
----
+______________________________________________________________________
 
-# 9. Cross-Scale Equation Firewall
+## 9. Cross-Scale Equation Firewall
 
 Khung Trang contains equations and structural mappings spanning multiple conceptual scales.
 
@@ -772,9 +772,9 @@ cross_scale_binding:
   validation_receipt:
 ```
 
----
+______________________________________________________________________
 
-# 10. Causal Firewall
+## 10. Causal Firewall
 
 An equation describing association or state transition MUST NOT automatically be interpreted as causal.
 
@@ -807,9 +807,9 @@ $$
 
 in the empirical world.
 
----
+______________________________________________________________________
 
-# 11. Equation Identity Contract
+## 11. Equation Identity Contract
 
 Every canonical equation SHOULD have a stable identity.
 
@@ -826,9 +826,9 @@ equation_identity:
 
 A changed semantic equation requires a version transition rather than silent replacement.
 
----
+______________________________________________________________________
 
-# 12. Variable Registry Contract
+## 12. Variable Registry Contract
 
 Every executable symbol MUST resolve to a canonical variable definition.
 
@@ -852,9 +852,9 @@ Unresolved symbols produce:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 13. Equation Record Contract
+## 13. Equation Record Contract
 
 Canonical equation record:
 
@@ -912,9 +912,9 @@ KHUNG_TRANG_EQUATION:
   status:
 ```
 
----
+______________________________________________________________________
 
-# 14. Validation Ladder
+## 14. Validation Ladder
 
 Validation MUST remain typed.
 
@@ -940,9 +940,9 @@ RUNTIME VERIFIED
 EMPIRICALLY VALIDATED
 ```
 
----
+______________________________________________________________________
 
-# 15. Interpretation of Existing Metadata
+## 15. Interpretation of Existing Metadata
 
 The artifact currently declares:
 
@@ -981,9 +981,9 @@ or:
 all equation semantics empirically verified
 ```
 
----
+______________________________________________________________________
 
-# 16. Runtime Proof Contract
+## 16. Runtime Proof Contract
 
 Before consequential execution, the smallest sufficient proof capsule SHOULD contain:
 
@@ -1021,9 +1021,9 @@ proof_capsule:
   validation_receipts: []
 ```
 
----
+______________________________________________________________________
 
-# 17. Dependency Closure
+## 17. Dependency Closure
 
 Equation validation MUST include the smallest result-changing dependency set.
 
@@ -1046,9 +1046,9 @@ invalidate failed premise
 → preserve unaffected canon
 ```
 
----
+______________________________________________________________________
 
-# 18. Provenance Independence
+## 18. Provenance Independence
 
 Multiple confirmations sharing the same ancestry MUST NOT be counted as independent validation.
 
@@ -1070,9 +1070,9 @@ RepeatedDescendants(Source)
 IndependentEvidence
 $$
 
----
+______________________________________________________________________
 
-# 19. Competing Equations
+## 19. Competing Equations
 
 When multiple Khung Trang equations model the same target but are not proven equivalent:
 
@@ -1096,9 +1096,9 @@ relation:
 
 until discriminating evidence exists.
 
----
+______________________________________________________________________
 
-# 20. Sensitivity Requirement
+## 20. Sensitivity Requirement
 
 For consequential equation outputs, identify the smallest parameter, threshold, assumption, or premise capable of flipping the result.
 
@@ -1108,7 +1108,7 @@ $$
 Decision(E,\theta)
 $$
 
-changes materially around \(\theta^*\), the output MUST expose that sensitivity.
+changes materially around (\\theta^\*), the output MUST expose that sensitivity.
 
 Fragile result:
 
@@ -1122,9 +1122,9 @@ Robust result:
 survives plausible perturbation
 ```
 
----
+______________________________________________________________________
 
-# 21. Failure Modes
+## 21. Failure Modes
 
 Mandatory negative cases include:
 
@@ -1155,9 +1155,9 @@ competing equation unresolved
 validation receipt missing
 ```
 
----
+______________________________________________________________________
 
-# 22. Fail-Closed Contract
+## 22. Fail-Closed Contract
 
 For consequential runtime use:
 
@@ -1177,9 +1177,9 @@ $$
 
 The minimum missing information SHOULD be exposed.
 
----
+______________________________________________________________________
 
-# 23. Runtime Mutation Contract
+## 23. Runtime Mutation Contract
 
 Equation-derived state changes SHOULD follow:
 
@@ -1200,9 +1200,9 @@ $$
 Proposal\neq Commit
 $$
 
----
+______________________________________________________________________
 
-# 24. Atomic Multi-Equation Reasoning
+## 24. Atomic Multi-Equation Reasoning
 
 When a consequential conclusion requires several equations jointly:
 
@@ -1214,9 +1214,9 @@ the proof scope MUST preserve the atomic dependency set required for `C`.
 
 No individual equation's validation may be mistaken for validation of the combined result.
 
----
+______________________________________________________________________
 
-# 25. Confidence Ceiling
+## 25. Confidence Ceiling
 
 Derived confidence cannot exceed the weakest load-bearing premise unless that premise is independently revalidated.
 
@@ -1228,13 +1228,13 @@ Conf(C)
 \min_i Conf(P_i)
 $$
 
-for load-bearing premises \(P_i\).
+for load-bearing premises (P_i).
 
 This is an epistemic governance rule, not a probabilistic identity.
 
----
+______________________________________________________________________
 
-# 26. RSCF Proof Contract
+## 26. RSCF Proof Contract
 
 ```yaml
 RSCF:
@@ -1308,9 +1308,9 @@ RSCF:
       NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 27. Canonical Invariants
+## 27. Canonical Invariants
 
 The minimal invariant set is:
 
@@ -1354,9 +1354,9 @@ StructuralSimilarity\neq Causation
 }
 $$
 
----
+______________________________________________________________________
 
-# 28. Validation Receipt Contract
+## 28. Validation Receipt Contract
 
 ```yaml
 KHUNG_TRANG_EQUATIONS_VALIDATION_RECEIPT:
@@ -1420,9 +1420,9 @@ The receipt schema is normative structure.
 
 A receipt is valid only when backed by an actual executed validation event.
 
----
+______________________________________________________________________
 
-# 29. Gap Register
+## 29. Gap Register
 
 ```yaml
 gaps:
@@ -1453,9 +1453,9 @@ gaps:
     status: NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 30. Canon Promotion Discipline
+## 30. Canon Promotion Discipline
 
 The current state remains:
 
@@ -1483,9 +1483,9 @@ does not automatically imply:
 FINAL CANONICAL PROMOTION
 ```
 
----
+______________________________________________________________________
 
-# 31. Cross-Artifact Binding
+## 31. Cross-Artifact Binding
 
 ```text
 [[01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_CANON|KHUNG_TRANG_CANON]]
@@ -1511,9 +1511,9 @@ RUNTIME EXECUTION
 
 The equations canon governs admissibility and enforcement; it does not silently rewrite the underlying Khung Trang source equations.
 
----
+______________________________________________________________________
 
-# 32. Machine-Readable Canon Contract
+## 32. Machine-Readable Canon Contract
 
 ```yaml
 KHUNG_TRANG_EQUATIONS_CANON:
@@ -1626,9 +1626,9 @@ KHUNG_TRANG_EQUATIONS_CANON:
       DO_NOT_LOAD_UNLESS_REQUIRED
 ```
 
----
+______________________________________________________________________
 
-# 33. RSCF Node
+## 33. RSCF Node
 
 ```text
 RSCF-NODE
@@ -1704,9 +1704,9 @@ RSCF-RELATIONS:
       [[11_KNOWLEDGE/stubs/CAPABILITY_AUTHORITY_SEPARATION|CAPABILITY_AUTHORITY_SEPARATION]]
 ```
 
----
+______________________________________________________________________
 
-# 34. Completion Matrix
+## 34. Completion Matrix
 
 | Dimension                                   | Status                  |
 | ------------------------------------------- | ----------------------- |
@@ -1725,9 +1725,9 @@ RSCF-RELATIONS:
 | Entropy semantic equivalence across domains | NOT ESTABLISHED         |
 | Final canon promotion                       | CANDIDATE               |
 
----
+______________________________________________________________________
 
-# 35. Terminal Compression
+## 35. Terminal Compression
 
 The entire equations canon reduces to three source-grounded runtime invariants:
 
@@ -1797,7 +1797,7 @@ SOURCE_GROUNDED_CANON_CANDIDATE
 
 ---
 
-**Related:**  ·  ·  ·  ·
+**Related:**  
 
 ---
 
@@ -1810,5 +1810,8 @@ The key integrity correction is the separation of **`RUNTIME_VERIFIED` from empi
 
 **MOC:** [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]] · [[00_ROOT/00_HOME|00_HOME]]
 
+```
+
+```
 ```
 ```

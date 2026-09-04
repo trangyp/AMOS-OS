@@ -4,25 +4,22 @@ title: SKILL — Gmef Governance
 type: skill
 source: 07_SKILLS/gmef-governance
 name: gmef-governance
-description: Gmef Governance — strategy and game theory capability. Use when strategic
-  analysis, game theory, or competitive reasoning. Use when amos-c08-strategy-game-master
-  routes to this specialized capability. Do not use for generic tasks outside c08
-  domain.
+description: Gmef Governance — strategy and game theory capability. Use when strategic analysis, game theory, or competitive reasoning. Use when amos-c08-strategy-game-master routes to this specialized capability. Do not use for generic tasks outside c08 domain.
 parent_skill: amos-c08-strategy-game-master
 domain: c08
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
 tags:
-- type/skill
-- type/skill
-- domain/strategy-game
-- epistemic/source_claim
-- hml/m
-- epistemic/source_claim
-- amos-os
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/strategy-game
+  - epistemic/source_claim
+  - hml/m
+  - epistemic/source_claim
+  - amos-os
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -32,23 +29,23 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: M
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
-- L7_authority
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
+  - L7_authority
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L7
-- L16
-- L17
-- L18
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L7
+  - L16
+  - L17
+  - L18
 license: MIT
 steward: Trang Phan
 ---
@@ -58,6 +55,7 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: c08. Parent: amos-c08-strategy-game-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
 ## When to Use
 
 - When analyzing strategic position and competitive landscape
@@ -84,13 +82,13 @@ Origin architect: **Trang Phan**. Domain: c08. Parent: amos-c08-strategy-game-ma
 ## Operations
 
 1. **gmef_governance.analyze_strategy**: Analyze strategic position: competitive landscape, game-theoretic equilibrium
-2. **gmef_governance.evaluate_decision**: Evaluate decisions under uncertainty: expected value, regret, risk-adjusted return
-3. **gmef_governance.model_game**: Model game-theoretic interactions: players, strategies, payoffs, equilibria
-4. **gmef_governance.assess_risk**: Assess strategic risk: downside scenarios, adversarial responses, black swans
-5. **gmef_governance.classify_mutation**: Classify evolution mutations (M0-M5) and enforce mutation permission profiles
-6. **gmef_governance.detect_drift**: Detect governance drift: scope creep, authority decay, or constitutional boundary erosion
-7. **gmef_governance.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-8. **gmef_governance.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+1. **gmef_governance.evaluate_decision**: Evaluate decisions under uncertainty: expected value, regret, risk-adjusted return
+1. **gmef_governance.model_game**: Model game-theoretic interactions: players, strategies, payoffs, equilibria
+1. **gmef_governance.assess_risk**: Assess strategic risk: downside scenarios, adversarial responses, black swans
+1. **gmef_governance.classify_mutation**: Classify evolution mutations (M0-M5) and enforce mutation permission profiles
+1. **gmef_governance.detect_drift**: Detect governance drift: scope creep, authority decay, or constitutional boundary erosion
+1. **gmef_governance.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+1. **gmef_governance.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## Vault-Sourced Domain Knowledge
 
@@ -109,6 +107,7 @@ Observe → Propose → Classify → Sandbox → Experiment → Evaluate → Cha
 ### Mutation Permission Profile
 
 `MPP(x) = (C, L, A, R, E)`
+
 - C = mutation class
 - L = permitted limits
 - A = approval authority
@@ -117,14 +116,14 @@ Observe → Propose → Classify → Sandbox → Experiment → Evaluate → Cha
 
 ### Mutation Classes (M0-M5)
 
-| Class | Description | Governance |
-|-------|-------------|------------|
-| M0 | Immutable constitutional invariants | Never autonomous |
-| M1 | Safety/security boundaries | Human-governed |
-| M2 | High-consequence architecture | Explicit approval required |
-| M3 | Models/reasoning strategies/policies | Controlled evolution |
-| M4 | Parameters/rankings/optimization weights | Bounded autonomous evolution |
-| M5 | Low-risk operational adaptation | Autonomous within limits |
+| Class | Description                              | Governance                   |
+| ----- | ---------------------------------------- | ---------------------------- |
+| M0    | Immutable constitutional invariants      | Never autonomous             |
+| M1    | Safety/security boundaries               | Human-governed               |
+| M2    | High-consequence architecture            | Explicit approval required   |
+| M3    | Models/reasoning strategies/policies     | Controlled evolution         |
+| M4    | Parameters/rankings/optimization weights | Bounded autonomous evolution |
+| M5    | Low-risk operational adaptation          | Autonomous within limits     |
 
 ### Fitness Function
 
@@ -155,7 +154,8 @@ Governance requirement scales with recursion depth and consequence level.
 - **G5 (Equation firewall)**: Equations carry status tags (ESTABLISHED_MATH / SOURCE_DERIVED / AMOS_MODEL / EMPIRICALLY_CALIBRATED / UNVERIFIED).
 - **G6 (Failure mode)**: On validation failure, downgrade confide
 
----
+______________________________________________________________________
+
 **Links:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 ## Related
@@ -165,17 +165,19 @@ Governance requirement scales with recursion depth and consequence level.
 ## Examples
 
 - **Scenario**: When analyzing strategic position and competitive landscape
+
   - **Input**: A query matching this skill's domain (c08)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When evaluating decisions under uncertainty: expected value, regret, risk-adjusted return
+
   - **Input**: A query matching this skill's domain (c08)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When modeling game-theoretic interactions and equilibria
+
   - **Input**: A query matching this skill's domain (c08)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Anti-Patterns
 
@@ -185,7 +187,6 @@ Governance requirement scales with recursion depth and consequence level.
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `amos-c08-strategy-game-master` — routes to this skill when c08 specialization is needed
@@ -193,7 +194,6 @@ Governance requirement scales with recursion depth and consequence level.
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -212,7 +212,6 @@ Governance requirement scales with recursion depth and consequence level.
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -220,7 +219,6 @@ Governance requirement scales with recursion depth and consequence level.
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -235,11 +233,12 @@ Governance requirement scales with recursion depth and consequence level.
 - `references/gmef_full.md` — loaded on demand
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `amos-c08-strategy-game-master` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `gmef-governance-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -247,12 +246,14 @@ Governance requirement scales with recursion depth and consequence level.
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: gmef-governance
 node_type: skill
 path: 07_SKILLS/gmef-governance/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

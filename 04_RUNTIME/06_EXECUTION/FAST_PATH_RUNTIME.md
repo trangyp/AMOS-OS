@@ -12,18 +12,18 @@ segment: 04_RUNTIME/06_EXECUTION
 artifact_kind: RUNTIME_SPEC
 path: 04_RUNTIME/06_EXECUTION/FAST_PATH_RUNTIME.md
 tags:
-- amos-os
-- runtime
-- vault
-- 06_execution
-- fast_path_runtime
-- low_latency_execution
-- system1_reasoning
-- rscf
-- canon_candidate
-- canon/runtime
-- ubi-x-cognition-matrix
-- amos-mind-os-framework
+  - amos-os
+  - runtime
+  - vault
+  - 06_execution
+  - fast_path_runtime
+  - low_latency_execution
+  - system1_reasoning
+  - rscf
+  - canon_candidate
+  - canon/runtime
+  - ubi-x-cognition-matrix
+  - amos-mind-os-framework
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -38,13 +38,13 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - 04_RUNTIME/06_EXECUTION/06_EXECUTION_MOC
-  - 25_COGNITIVE_MATRIX/UBI_X_COGNITION_MATRIX
-  - AMOS_CORPUS
+    - 04_RUNTIME/06_EXECUTION/06_EXECUTION_MOC
+    - 25_COGNITIVE_MATRIX/UBI_X_COGNITION_MATRIX
+    - AMOS_CORPUS
   scope:
-  - RUNTIME_EXECUTION
-  - FAST_PATH_EXECUTION
-  - SOURCE_DEFINED_MODEL
+    - RUNTIME_EXECUTION
+    - FAST_PATH_EXECUTION
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   execution_moc:
     artifact: 04_RUNTIME/06_EXECUTION/06_EXECUTION_MOC
@@ -61,9 +61,9 @@ epistemic_boundary:
 
 `FAST_PATH_RUNTIME.md` is the canonical Runtime Plane specification governing the low-latency, deterministic System 1 heuristic execution mode within `04_RUNTIME/06_EXECUTION`.
 
----
+______________________________________________________________________
 
-# 1. Fast Path Execution Flow
+## 1. Fast Path Execution Flow
 
 ```text
   Direct Query / Known Pattern Match
@@ -77,17 +77,17 @@ epistemic_boundary:
   4. Non-Destructive Asynchronous Audit Log
 ```
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Execution MOC:** 04_RUNTIME/06_EXECUTION/[[04_RUNTIME/06_EXECUTION/06_EXECUTION_MOC|06_EXECUTION_MOC]]
 - **Cognitive Matrix:** 25_COGNITIVE_MATRIX/[[25_COGNITIVE_MATRIX/UBI_X_COGNITION_MATRIX|UBI_X_COGNITION_MATRIX]]
 - **Mind OS:** 11_KNOWLEDGE/05_FRAMEWORKS/[[11_KNOWLEDGE/05_FRAMEWORKS/AMOS_MIND_OS_FRAMEWORK|AMOS_MIND_OS_FRAMEWORK]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -105,9 +105,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME_MOC]] · 04_RUNTIME/06_EXECUTION/[[04_RUNTIME/06_EXECUTION/06_EXECUTION_MOC|06_EXECUTION_MOC]] · 25_COGNITIVE_MATRIX/[[25_COGNITIVE_MATRIX/UBI_X_COGNITION_MATRIX|UBI_X_COGNITION_MATRIX]]
 
----
+______________________________________________________________________
+
 **MOC:** 04_RUNTIME/06_EXECUTION/[[04_RUNTIME/06_EXECUTION/06_EXECUTION_MOC|06_EXECUTION_MOC]]

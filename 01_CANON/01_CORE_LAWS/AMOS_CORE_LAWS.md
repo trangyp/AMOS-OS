@@ -17,49 +17,48 @@ steward: Trang Phan
 created: 2026-08-25
 updated: 2026-08-25
 tags:
-- amos
-- canon
-- universe
-- amos-os
-- amos-core
-- amos-core-v4-4
-- core-laws
-- constitutional-laws
-- canon-law
-- integrity
-- epistemics
-- provenance
-- provenance-topology
-- dependency-closure
-- rscf
-- gmef
-- hml
-- competing-hypotheses
-- causal-firewall
-- scope-firewall
-- regime-firewall
-- confidence-ceiling
-- uncertainty
-- sensitivity
-- anti-fabrication
-- anti-regression
-- governed-evolution
-- recovery
-- authority
-- canon-group/tech-ai
-- canon/law
-- rscf/claim
-- rscf/provenance
-- rscf/state/derived
-- topic/amos-core-laws
-- readme
-- architecture
-- authoritative-state
-- placement-rules
-- amos-full-brain-os-architecture
+  - amos
+  - canon
+  - universe
+  - amos-os
+  - amos-core
+  - amos-core-v4-4
+  - core-laws
+  - constitutional-laws
+  - canon-law
+  - integrity
+  - epistemics
+  - provenance
+  - provenance-topology
+  - dependency-closure
+  - rscf
+  - gmef
+  - hml
+  - competing-hypotheses
+  - causal-firewall
+  - scope-firewall
+  - regime-firewall
+  - confidence-ceiling
+  - uncertainty
+  - sensitivity
+  - anti-fabrication
+  - anti-regression
+  - governed-evolution
+  - recovery
+  - authority
+  - canon-group/tech-ai
+  - canon/law
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/derived
+  - topic/amos-core-laws
+  - readme
+  - architecture
+  - authoritative-state
+  - placement-rules
+  - amos-full-brain-os-architecture
 aliases:
-- AMOS Core Laws - AMOS Constitutional Laws - AMOS Integrity Laws - AMOS Core Invariants
-  - A
+  - AMOS Core Laws - AMOS Constitutional Laws - AMOS Integrity Laws - AMOS Core Invariants - A
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -68,18 +67,21 @@ rscf:
 ---
 
 # AMOS Core Laws
+
 **Origin architect / steward:** Trang Phan
+
 > **Status:** `ACTIVE_CANON_CANDIDATE`
 > **Law-set target:** `AMOS_CORE v4.4`
 > **Conclusion class:** `AMOS_MODEL`
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: core_laws
----
+> rscf:
+> state: SOURCE_CLAIM
+> claim_class: SOURCE_CLAIM
+> provenance: AMOS_corpus
+> scope: core_laws
 
-# AMOS Core Laws — Constitutional Invariants of AMOS OS
+______________________________________________________________________
+
+## AMOS Core Laws — Constitutional Invariants of AMOS OS
 
 ## 0. Purpose
 
@@ -118,7 +120,7 @@ RUNTIME ENFORCEMENT
 COGNITIVE / AGENT / WORKFLOW BEHAVIOR
 ```
 
----
+______________________________________________________________________
 
 ## 1. Constitutional Priority
 
@@ -154,7 +156,7 @@ INCOMPLETE BUT TRUE
 
 This ordering is non-negotiable for AMOS-governed reasoning.
 
----
+______________________________________________________________________
 
 ## 2. Law Classes
 
@@ -177,7 +179,7 @@ L11 KNOWLEDGE / MEMORY / HARVEST
 
 The families interact but are not interchangeable.
 
----
+______________________________________________________________________
 
 ## 3. L0 — Integrity Laws
 
@@ -189,7 +191,7 @@ INTEGRITY > COMPLETENESS > FLUENCY > SPEED > TOKEN SAVINGS
 
 No optimization may reverse this ordering.
 
----
+______________________________________________________________________
 
 ### L0.02 — No Fabricated Closure
 
@@ -203,7 +205,7 @@ LICENSE TO INFER
 
 Fluent prose must never bridge an unresolved logical gap.
 
----
+______________________________________________________________________
 
 ### L0.03 — Unknown Is a State
 
@@ -221,7 +223,7 @@ UNKNOWN/GAP != FALSE
 UNKNOWN/GAP != VERIFIED
 ```
 
----
+______________________________________________________________________
 
 ### L0.04 — Absence of Contradiction Is Not Proof
 
@@ -233,7 +235,7 @@ VALIDATION
 
 A claim requires positive support appropriate to its class.
 
----
+______________________________________________________________________
 
 ### L0.05 — Weakest Accurate Classification
 
@@ -250,7 +252,7 @@ UNKNOWN/GAP
 
 Never promote a conclusion merely to make the output appear decisive.
 
----
+______________________________________________________________________
 
 ## 4. L1 — Epistemic Laws
 
@@ -269,7 +271,7 @@ UNKNOWN
 
 These classes must not be silently collapsed.
 
----
+______________________________________________________________________
 
 ### L1.02 — Source Claim Is Not Verification
 
@@ -279,7 +281,7 @@ SOURCE_CLAIM != VERIFIED
 
 Documentation, README text, comments, reports, model outputs, and authority statements remain source claims until independently validated where validation is required.
 
----
+______________________________________________________________________
 
 ### L1.03 — Model Is Not Reality
 
@@ -291,7 +293,7 @@ MODEL != REALITY
 
 A model may be useful, canonical, predictive, or structurally elegant without becoming empirical truth.
 
----
+______________________________________________________________________
 
 ### L1.04 — Derived Confidence Ceiling
 
@@ -310,7 +312,7 @@ min(
 
 unless the weak premise has been independently revalidated or bypassed by another valid proof path.
 
----
+______________________________________________________________________
 
 ### L1.05 — Competing Hypotheses Preservation
 
@@ -331,7 +333,7 @@ COMPETING
 
 AMOS must not force artificial convergence.
 
----
+______________________________________________________________________
 
 ### L1.06 — Discriminating Evidence Preference
 
@@ -348,7 +350,7 @@ prefer the cheapest high-information observation capable of distinguishing them.
 
 Do not accumulate redundant evidence merely to increase volume.
 
----
+______________________________________________________________________
 
 ## 5. L2 — Provenance Laws
 
@@ -367,7 +369,7 @@ FRESHNESS-BOUNDED
 
 No claim receives global trust merely because its source is generally trusted.
 
----
+______________________________________________________________________
 
 ### L2.02 — Repetition Is Not Independence
 
@@ -386,7 +388,7 @@ SOURCE_A
 
 then B, C, and D may represent one evidence ancestry rather than three independent confirmations.
 
----
+______________________________________________________________________
 
 ### L2.03 — Independence Must Be Demonstrated
 
@@ -398,7 +400,7 @@ ASSUMPTION
 
 Evidence independence should be established from source ancestry, generation process, dataset, authorship, or another materially relevant provenance property.
 
----
+______________________________________________________________________
 
 ### L2.04 — Authority Is Not Evidence
 
@@ -412,7 +414,7 @@ Authority may affect governance.
 
 It does not automatically increase empirical confidence.
 
----
+______________________________________________________________________
 
 ### L2.05 — Persistent Provenance
 
@@ -432,7 +434,7 @@ ACTION
 
 where consequential.
 
----
+______________________________________________________________________
 
 ### L2.06 — Provenance Topology
 
@@ -449,7 +451,7 @@ ORIGIN
 
 Shared ancestry creates correlation risk.
 
----
+______________________________________________________________________
 
 ## 6. L3 — Dependency Laws
 
@@ -469,7 +471,7 @@ Relatedness alone is not dependency.
 RELATED_TO != DEPENDS_ON
 ```
 
----
+______________________________________________________________________
 
 ### L3.02 — Dependency Closure
 
@@ -484,7 +486,7 @@ C
 
 The validity of `C` depends on the validity of its load-bearing dependency closure.
 
----
+______________________________________________________________________
 
 ### L3.03 — Selective Invalidation
 
@@ -498,7 +500,7 @@ INVALIDATE(descendants(P))
 
 Do not invalidate unrelated branches.
 
----
+______________________________________________________________________
 
 ### L3.04 — Global Recompute Is Last Resort
 
@@ -510,7 +512,7 @@ GLOBAL RECOMPUTATION
 
 when local dependency structure is known and sufficient.
 
----
+______________________________________________________________________
 
 ### L3.05 — Proof Capsule Reuse
 
@@ -527,7 +529,7 @@ dependencies valid
 
 Otherwise it must be revalidated.
 
----
+______________________________________________________________________
 
 ## 7. L4 — Causal Laws
 
@@ -537,7 +539,7 @@ Otherwise it must be revalidated.
 STRUCTURAL SIMILARITY != CAUSATION
 ```
 
----
+______________________________________________________________________
 
 ### L4.02 — Sequence Is Not Causation
 
@@ -547,7 +549,7 @@ A BEFORE B
 A CAUSED B
 ```
 
----
+______________________________________________________________________
 
 ### L4.03 — Correlation Is Not Causal Effect
 
@@ -555,7 +557,7 @@ A CAUSED B
 CORRELATION != CAUSAL EFFECT
 ```
 
----
+______________________________________________________________________
 
 ### L4.04 — Causal Type Must Be Explicit
 
@@ -574,7 +576,7 @@ feedback
 causal effect
 ```
 
----
+______________________________________________________________________
 
 ### L4.05 — Causal Evidence Must Match Claim
 
@@ -582,7 +584,7 @@ Only appropriately typed evidence licenses a causal conclusion.
 
 Analogy, resemblance, temporal ordering, and co-occurrence alone cannot establish causation.
 
----
+______________________________________________________________________
 
 ### L4.06 — Cross-Domain Mapping Remains Model
 
@@ -603,7 +605,7 @@ MODEL
 
 until independently validated for the target applicability envelope.
 
----
+______________________________________________________________________
 
 ## 8. L5 — Scope, Regime, and Temporal Laws
 
@@ -622,7 +624,7 @@ measurement method
 assumptions
 ```
 
----
+______________________________________________________________________
 
 ### L5.02 — No Silent Generalization
 
@@ -634,7 +636,7 @@ VALID IN SCOPE B
 
 unless transfer has been justified.
 
----
+______________________________________________________________________
 
 ### L5.03 — Regime Firewall
 
@@ -646,7 +648,7 @@ REGIME_A VALIDITY
 REGIME_B VALIDITY
 ```
 
----
+______________________________________________________________________
 
 ### L5.04 — Regime Shift Invalidates Stale Conclusions
 
@@ -658,7 +660,7 @@ REGIME SHIFT
 REVALIDATE DEPENDENT CLAIMS
 ```
 
----
+______________________________________________________________________
 
 ### L5.05 — Freshness Is Part of Validity
 
@@ -680,7 +682,7 @@ FRESHNESS
 
 This is a structural model, not a literal universal numerical formula.
 
----
+______________________________________________________________________
 
 ## 9. L6 — Uncertainty and Sensitivity Laws
 
@@ -700,7 +702,7 @@ PROVENANCE-INDEPENDENCE UNCERTAINTY
 
 A single confidence number must not erase materially different uncertainty classes.
 
----
+______________________________________________________________________
 
 ### L6.02 — Decision-Relevant Uncertainty First
 
@@ -712,7 +714,7 @@ DECISION
 ACTION
 ```
 
----
+______________________________________________________________________
 
 ### L6.03 — Sensitivity First
 
@@ -729,7 +731,7 @@ capable of flipping the result.
 
 Test that factor first where practical.
 
----
+______________________________________________________________________
 
 ### L6.04 — Fragility Requires Conditionality
 
@@ -739,13 +741,13 @@ If plausible perturbation changes the conclusion:
 RESULT = CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
 ### L6.05 — Robustness Requires Survival
 
 A result is structurally robust only when plausible perturbation of noncritical assumptions does not alter the conclusion within the declared scope.
 
----
+______________________________________________________________________
 
 ## 10. L7 — Authority and Governance Laws
 
@@ -757,7 +759,7 @@ CAPABILITY != AUTHORITY
 
 A component being able to perform an operation does not grant permission to perform it.
 
----
+______________________________________________________________________
 
 ### L7.02 — Proposal Is Not Commit
 
@@ -767,7 +769,7 @@ PROPOSAL != COMMIT
 
 Reasoning systems may generate proposals without possessing commit authority.
 
----
+______________________________________________________________________
 
 ### L7.03 — Tool Is Not Permission
 
@@ -777,7 +779,7 @@ TOOL != PERMISSION
 
 Availability of an external effector does not imply authorization.
 
----
+______________________________________________________________________
 
 ### L7.04 — Model Is Not Authority
 
@@ -789,7 +791,7 @@ Models advise or estimate.
 
 Governance determines authority.
 
----
+______________________________________________________________________
 
 ### L7.05 — Governance Stakes Scale Validation
 
@@ -805,7 +807,7 @@ institutional impact
 downstream dependency
 ```
 
----
+______________________________________________________________________
 
 ### L7.06 — Prefer Reversible Action
 
@@ -820,7 +822,7 @@ OBSERVABLE
 
 actions are preferred over irreversible commitment when decision value permits.
 
----
+______________________________________________________________________
 
 ## 11. L8 — Execution Laws
 
@@ -834,7 +836,7 @@ DECISION SUFFICIENCY
 ACTION SUFFICIENCY
 ```
 
----
+______________________________________________________________________
 
 ### L8.02 — Local Fast Path Conditions
 
@@ -849,7 +851,7 @@ dependency closure established
 ∧ no material unresolved conflict
 ```
 
----
+______________________________________________________________________
 
 ### L8.03 — Mandatory Escalation
 
@@ -866,7 +868,7 @@ affects governance
 or carries irreversible stakes
 ```
 
----
+______________________________________________________________________
 
 ### L8.04 — Fast Path Cannot Weaken Correctness
 
@@ -878,13 +880,13 @@ LOWER INTEGRITY
 
 Optimization changes proof scope, not truth requirements.
 
----
+______________________________________________________________________
 
 ### L8.05 — Resolve Load-Bearing Premises First
 
 Background detail should not consume reasoning budget before decision-changing premises are resolved.
 
----
+______________________________________________________________________
 
 ### L8.06 — Synthesize Early
 
@@ -894,7 +896,7 @@ Branch only when alternatives can materially change the result.
 
 Merge equivalent branches.
 
----
+______________________________________________________________________
 
 ### L8.07 — Stop at Sufficiency
 
@@ -910,7 +912,7 @@ ACTION SUFFICIENCY
 
 More reasoning is not automatically better reasoning.
 
----
+______________________________________________________________________
 
 ## 12. L9 — Evolution and Anti-Regression Laws
 
@@ -930,7 +932,7 @@ validation state
 
 where material.
 
----
+______________________________________________________________________
 
 ### L9.02 — Optimization Cannot Weaken Integrity
 
@@ -953,7 +955,7 @@ If any integrity property materially regresses:
 ROLL BACK
 ```
 
----
+______________________________________________________________________
 
 ### L9.03 — Benchmark Success Is Not Universal Validity
 
@@ -965,7 +967,7 @@ UNIVERSAL VALIDITY
 
 Benchmark conclusions inherit the benchmark's environment, workload, measurement method, and scope.
 
----
+______________________________________________________________________
 
 ### L9.04 — Performance Is Environment-Bounded
 
@@ -977,7 +979,7 @@ HARDWARE-INDEPENDENT LATENCY
 
 Performance claims must retain environment provenance.
 
----
+______________________________________________________________________
 
 ### L9.05 — Distributed Testing Is Not Formal Proof
 
@@ -989,7 +991,7 @@ UNIVERSAL FORMAL PROOF
 
 unless an actual formal proof exists for the stated property and scope.
 
----
+______________________________________________________________________
 
 ## 13. L10 — Failure and Recovery Laws
 
@@ -1005,7 +1007,7 @@ INVALIDATE DEPENDENTS
 PRESERVE UNAFFECTED WORK
 ```
 
----
+______________________________________________________________________
 
 ### L10.02 — Roll Back to Nearest Valid State
 
@@ -1017,7 +1019,7 @@ NEAREST VALID STATE
 
 not necessarily the initial state.
 
----
+______________________________________________________________________
 
 ### L10.03 — Failed Paths Require Changed Evidence
 
@@ -1040,7 +1042,7 @@ scope
 or regime
 ```
 
----
+______________________________________________________________________
 
 ### L10.04 — Preserve Failure Provenance
 
@@ -1048,7 +1050,7 @@ Failures are evidence.
 
 Do not erase them merely because recovery succeeds.
 
----
+______________________________________________________________________
 
 ### L10.05 — Global Recovery Is Last Resort
 
@@ -1068,7 +1070,7 @@ before:
 GLOBAL RESET
 ```
 
----
+______________________________________________________________________
 
 ## 14. L11 — Knowledge, Memory, and Harvest Laws
 
@@ -1086,7 +1088,7 @@ VALIDATED KNOWLEDGE
 
 This is a governance path, not an automatic promotion rule.
 
----
+______________________________________________________________________
 
 ### L11.02 — Documentation Remains Source Claim
 
@@ -1105,7 +1107,7 @@ SOURCE_CLAIM
 
 until appropriately validated.
 
----
+______________________________________________________________________
 
 ### L11.03 — Memory Is Not Canon
 
@@ -1117,7 +1119,7 @@ Memory supports continuity.
 
 Canon governs semantic authority.
 
----
+______________________________________________________________________
 
 ### L11.04 — Knowledge Is Not Authority
 
@@ -1127,7 +1129,7 @@ KNOWLEDGE != AUTHORITY
 
 Knowledge may inform decisions without possessing commit rights.
 
----
+______________________________________________________________________
 
 ### L11.05 — Preserve Knowledge Provenance
 
@@ -1149,7 +1151,7 @@ lineage
 
 Unknown fields remain unknown.
 
----
+______________________________________________________________________
 
 ## 15. Fractal Knowledge Law
 
@@ -1177,7 +1179,7 @@ DO_NOT_LOAD_UNLESS_REQUIRED
 
 Retrieval should traverse only dependencies capable of materially altering the answer.
 
----
+______________________________________________________________________
 
 ## 16. H/M/L Law
 
@@ -1201,7 +1203,7 @@ H
 
 at a deeper scale.
 
----
+______________________________________________________________________
 
 ## 17. RSCF Law
 
@@ -1219,7 +1221,7 @@ WHAT COMPETES WITH IT?
 WHAT WOULD INVALIDATE IT?
 ```
 
----
+______________________________________________________________________
 
 ## 18. GMEF Law
 
@@ -1235,7 +1237,7 @@ EMPIRICAL PROOF
 
 unless separately validated.
 
----
+______________________________________________________________________
 
 ## 19. Proof Capsule Law
 
@@ -1266,7 +1268,7 @@ Not every user-facing response must display the full capsule.
 
 The reasoning contract must nevertheless preserve the relevant distinctions.
 
----
+______________________________________________________________________
 
 ## 20. Adversarial Validation Law
 
@@ -1302,7 +1304,7 @@ or
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
 ## 21. Epistemic Regime Law
 
@@ -1323,7 +1325,7 @@ time
 
 A regime transition can invalidate conclusions without changing the historical evidence itself.
 
----
+______________________________________________________________________
 
 ## 22. Atomic Reasoning Law
 
@@ -1345,7 +1347,7 @@ when their dependencies are jointly load-bearing.
 
 This is an AMOS reasoning model and does not claim literal database transaction semantics in every implementation.
 
----
+______________________________________________________________________
 
 ## 23. MVCC / CAS Analogy Boundary
 
@@ -1368,7 +1370,7 @@ CONCEPTUAL MVCC
 IMPLEMENTED DATABASE MVCC
 ```
 
----
+______________________________________________________________________
 
 ## 24. Causal Epoch Finality Boundary
 
@@ -1376,7 +1378,7 @@ Causal epoch finality represents a governed reasoning concept for determining wh
 
 It does not imply literal distributed consensus unless such implementation is separately demonstrated.
 
----
+______________________________________________________________________
 
 ## 25. Shard-Local Finalization Boundary
 
@@ -1388,7 +1390,7 @@ LOCAL FINALIZATION
 
 is valid only when cross-shard dependencies cannot materially alter the conclusion.
 
----
+______________________________________________________________________
 
 ## 26. Proof-Based Coordination Avoidance
 
@@ -1410,7 +1412,7 @@ COORDINATION AVOIDANCE
 
 This distinction is mandatory.
 
----
+______________________________________________________________________
 
 ## 27. Gap Classification Law
 
@@ -1435,7 +1437,7 @@ EXPLANATORY
 COSMETIC
 ```
 
----
+______________________________________________________________________
 
 ## 28. Critical Gap Law
 
@@ -1449,7 +1451,7 @@ and state the minimum missing information required.
 
 Do not hide the gap with additional narrative.
 
----
+______________________________________________________________________
 
 ## 29. Decision Value Law
 
@@ -1467,7 +1469,7 @@ REASONING / DELAY COST
 
 This is a decision model rather than a mandatory literal numerical computation.
 
----
+______________________________________________________________________
 
 ## 30. Authority Boundary Matrix
 
@@ -1486,7 +1488,7 @@ This is a decision model rather than a mandatory literal numerical computation.
 
 The exact implementation authority of a deployed component must be declared separately.
 
----
+______________________________________________________________________
 
 ## 31. AMOS Plane Laws
 
@@ -1512,7 +1514,7 @@ PROPOSAL != COMMIT
 
 These boundaries prevent responsibility collapse.
 
----
+______________________________________________________________________
 
 ## 32. Canon Law
 
@@ -1530,7 +1532,7 @@ CANON
 AUTOMATIC EMPIRICAL TRUTH
 ```
 
----
+______________________________________________________________________
 
 ## 33. Kernel Law
 
@@ -1546,7 +1548,7 @@ TRACEABLE
 
 Kernel components should not silently acquire policy authority.
 
----
+______________________________________________________________________
 
 ## 34. Control-Plane Law
 
@@ -1564,7 +1566,7 @@ rollback
 
 It should not be confused with the execution machinery it governs.
 
----
+______________________________________________________________________
 
 ## 35. Runtime Law
 
@@ -1578,7 +1580,7 @@ RUNTIME BEHAVIOR
 CANON CHANGE
 ```
 
----
+______________________________________________________________________
 
 ## 36. Cognitive Organism Law
 
@@ -1596,7 +1598,7 @@ learn
 
 but cognition alone does not confer external authority.
 
----
+______________________________________________________________________
 
 ## 37. Agent Law
 
@@ -1616,7 +1618,7 @@ AGENT CAPABILITY
 COMMIT AUTHORITY
 ```
 
----
+______________________________________________________________________
 
 ## 38. Skill Law
 
@@ -1629,7 +1631,7 @@ SKILL != WORKFLOW
 
 A skill may be invoked by multiple agents or workflows.
 
----
+______________________________________________________________________
 
 ## 39. Workflow Law
 
@@ -1647,7 +1649,7 @@ not automatically:
 AUTHORITY
 ```
 
----
+______________________________________________________________________
 
 ## 40. Protocol Law
 
@@ -1663,7 +1665,7 @@ A protocol specifies allowed communication structure.
 
 A workflow specifies coordinated execution.
 
----
+______________________________________________________________________
 
 ## 41. State Law
 
@@ -1681,7 +1683,7 @@ HISTORICAL
 
 These must not be silently collapsed.
 
----
+______________________________________________________________________
 
 ## 42. Observability Law
 
@@ -1707,7 +1709,7 @@ Telemetry describes behavior.
 
 It does not decide policy.
 
----
+______________________________________________________________________
 
 ## 43. Security Law
 
@@ -1725,7 +1727,7 @@ GOVERNANCE GATES
 
 merely because the underlying operation is technically possible.
 
----
+______________________________________________________________________
 
 ## 44. Test Law
 
@@ -1754,7 +1756,7 @@ version
 measurement method
 ```
 
----
+______________________________________________________________________
 
 ## 45. Anti-Sybil Evidence Law
 
@@ -1770,7 +1772,7 @@ ONE PROVENANCE FAMILY
 
 unless independence is separately established.
 
----
+______________________________________________________________________
 
 ## 46. Identity Firewall
 
@@ -1788,7 +1790,7 @@ RUNTIME INSTANCE ID
 
 Renaming one must not silently rewrite another.
 
----
+______________________________________________________________________
 
 ## 47. Version Law
 
@@ -1813,7 +1815,7 @@ FILENAME VERSION
 CANON VERSION
 ```
 
----
+______________________________________________________________________
 
 ## 48. Supersession Law
 
@@ -1825,7 +1827,7 @@ DELETED
 
 Historical states must remain recoverable when needed for provenance or replay.
 
----
+______________________________________________________________________
 
 ## 49. Promotion Law
 
@@ -1851,7 +1853,7 @@ EMPIRICALLY VERIFIED
 
 Each transition requires its own evidence and governance.
 
----
+______________________________________________________________________
 
 ## 50. Placeholder Law
 
@@ -1871,7 +1873,7 @@ production readiness
 final canon
 ```
 
----
+______________________________________________________________________
 
 ## 51. Failure Registry
 
@@ -1908,7 +1910,7 @@ CL-F029 IRREVERSIBLE_ACTION_WITH_INSUFFICIENT_VALIDATION
 CL-F030 OPTIMIZATION_WEAKENS_INTEGRITY
 ```
 
----
+______________________________________________________________________
 
 ## 52. Minimum Proof Gate
 
@@ -1936,7 +1938,7 @@ AUTHORITY VALID IF ACTIONABLE
 
 Only then may the relevant conclusion or action advance.
 
----
+______________________________________________________________________
 
 ## 53. Core Law Evaluation Function
 
@@ -1970,7 +1972,7 @@ This is a structural logical model.
 
 It is not asserted as a universal mathematical law.
 
----
+______________________________________________________________________
 
 ## 54. Action Gate
 
@@ -1993,7 +1995,7 @@ TRUE CLAIM
 AUTHORIZED ACTION
 ```
 
----
+______________________________________________________________________
 
 ## 55. v3.0 → v4.4 Evolution Spine
 
@@ -2031,7 +2033,7 @@ These are architectural reasoning patterns in AMOS.
 
 They must not be misrepresented as proof that every implementation literally contains all corresponding distributed-system machinery.
 
----
+______________________________________________________________________
 
 ## 56. Core Law Compact Set
 
@@ -2075,7 +2077,7 @@ FAST_PATH != WEAKER_PROOF
 OPTIMIZATION MUST NOT WEAKEN INTEGRITY
 ```
 
----
+______________________________________________________________________
 
 ## 57. RSCF Node
 
@@ -2137,7 +2139,7 @@ does_not_establish:
   - validation of every downstream AMOS artifact
 ```
 
----
+______________________________________________________________________
 
 ## 58. Promotion Gate
 
@@ -2168,7 +2170,7 @@ PROVENANCE
 
 Until that review is complete, this document is a structured AMOS v4.4 model of the Core Laws rather than a claim that every clause has already been formally promoted into final canon.
 
----
+______________________________________________________________________
 
 ## 59. Changelog
 
@@ -2218,7 +2220,7 @@ Added:
 
 Initial placeholder reserved the canonical AMOS OS location.
 
----
+______________________________________________________________________
 
 ## 60. Final Constitutional Law
 
@@ -2272,26 +2274,30 @@ or
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
 **Related:** README|AMOS OS · [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|MOC · [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]|Architecture · [[00_ROOT/SYSTEM_MAP|SYSTEM_MAP]]|System Map · [[00_ROOT/AUTHORITATIVE_STATE|AUTHORITATIVE_STATE]]|Authoritative State · [[00_ROOT/PLACEMENT_RULES|PLACEMENT_RULES]]|Placement Rules · AMOS Canon · [[01_CANON/00_INDEX/CANON_MAP|CANON_MAP]]|Canon Map · [[02_KERNEL/00_INDEX/KERNEL_MAP|KERNEL_MAP]]|Kernel Map · [[03_CONTROL_PLANE/00_INDEX/CONTROL_PLANE_MAP|CONTROL_PLANE_MAP]]|Control Plane Map · [[04_RUNTIME/00_INDEX/RUNTIME_MAP|RUNTIME_MAP]]|Runtime Map · [[05_COGNITIVE_ORGANISM/00_INDEX/COGNITIVE_ORGANISM_MAP|COGNITIVE_ORGANISM_MAP]]|Cognitive Organism Map · [[10_MEMORY/00_INDEX/MEMORY_MEMORY_MAP|MEMORY_MEMORY_MAP]]|Memory Map · [[11_KNOWLEDGE/AMOS_FULL_BRAIN_OS_ARCHITECTURE|AMOS Full Brain OS Architecture]] · [[12_STATE/00_INDEX/STATE_STATE_MAP|STATE_STATE_MAP]]|State Map · [[17_OBSERVABILITY/00_INDEX/OBSERVABILITY_OBSERVABILITY_MAP|OBSERVABILITY_OBSERVABILITY_MAP]]|Observability Map · [[18_SECURITY/00_INDEX/SECURITY_MAP|SECURITY_MAP]]|Security Map · [[19_TESTS/00_INDEX/TEST_MAP|TEST_MAP]]|Tests · [[24_ARCHIVE/00_LEGACY/LEGACY_ARCHIVE_README|LEGACY_ARCHIVE_README]]|Archive
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos_core_laws
 node_type: note
 path: 01_CANON/01_CORE_LAWS/AMOS_CORE_LAWS.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[01_CANON/01_CORE_LAWS/01_CORE_LAWS_MOC|01_CORE_LAWS_MOC]]

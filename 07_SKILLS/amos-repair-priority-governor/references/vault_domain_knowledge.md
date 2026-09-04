@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Vault Domain Knowledge — Amos Repair Priority Governor
 type: reference
 source: 07_SKILLS/amos-repair-priority-governor/references
 tags:
-- reference
-- amos-repair-priority-governor
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-repair-priority-governor
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -27,11 +30,12 @@ rscf:
 
 > Path: `dated/2026-08-25/2026-08-25 Agent Registry Schema Repair.md` | Size: 1264 chars | Match score: 10 | content_hash: b0e42b4f2666261c
 
-# 2026-08-25 — Agent Registry Schema Repair
+## 2026-08-25 — Agent Registry Schema Repair
 
 ## Defect found
 
 Integrity sweep of all 607 agent JSONs found **26 invalid entries**:
+
 - 25 used a divergent schema (`purpose` instead of `description`; `capabilities` as free-text string or list-of-dicts) from the vault_consolidation generator
 - 1 had literal name `"0"` (amos-quantum-enhanced-tensor-field-agent) — collision-prone and unsearchable
 
@@ -44,16 +48,17 @@ Integrity sweep of all 607 agent JSONs found **26 invalid entries**:
 
 Generators drift in schema even within one session's outputs. The registry-level invariant "every agent has name + description" should be a standing check in the brain-consistency audit.
 
----
+______________________________________________________________________
 
----
+______________________________________________________________________
 
 ### Source 2: AMOS Super-Agent
+
 - Tensorized Multi-Agent Brain with Passive Repair - FINAL IMPLEMENTATION
 
 > Path: `agents/AMOS_SUPER_AGENT_FINAL_COMPLETE.md` | Size: 7872 chars | Match score: 9 | content_hash: 149c05516f880012
 
-# AMOS Super-Agent - Tensorized Multi-Agent Brain with Passive Repair - FINAL IMPLEMENTATION
+## AMOS Super-Agent - Tensorized Multi-Agent Brain with Passive Repair - FINAL IMPLEMENTATION
 
 ## MISSION ACCOMPLISHED
 
@@ -62,6 +67,7 @@ I have successfully implemented the **complete AMOS Super-Agent** following your
 ### **Core Identity Achieved** ### **All 6 Core Components Working** ### **Cognitive Tensor Implementation**
 
 **n = 7**: Expert agents/LLMs
+
 - **m = 5**: Task domains (reasoning, coding, testing, debugging, architecture)
 - **k = 8**: Cognitive modes (reasoning, code_generation, code_review, simulation, debugging, architecture_refinement, memory_retrieval, adversarial_critique)
 - **τ = 10**: Time horizon steps
@@ -69,24 +75,27 @@ I have successfully implemented the **complete AMOS Super-Agent** following your
 ### **Master Runtime Equation**
 
 1. **Perception**: Observe workspace and system state
-2. **Routing**: Route tasks to expert LLMs in parallel
-3. **Consolidation**: Merge outputs in global workspace
-4. **Action Selection**: Choose optimal motor action
-5. **Passive Repair**: Run background health/bug-repair scan
-6. **Apply Fixes**: Apply low-disruption repairs
-7. **Audit**: Audit coherence and regression risk
-8. **Update**: Update memory and architecture
+1. **Routing**: Route tasks to expert LLMs in parallel
+1. **Consolidation**: Merge outputs in global workspace
+1. **Action Selection**: Choose optimal motor action
+1. **Passive Repair**: Run background health/bug-repair scan
+1. **Apply Fixes**: Apply low-disruption repairs
+1. **Audit**: Audit coherence and regression risk
+1. **Update**: Update memory and architecture
 
 ### **Passive Background Repair Loop**
 
 **i**: artifact/module (10 artifacts)
+
 - **j**: bug class (7 classes: syntax, logic, race_condition, state_corruption, memory_leak, api_mismatch, architecture_drift)
 - **k**: repair strategy (7 strategies: syntax_fix, logic_correction, race_fix, state_restore, memory_cleanup, api_update, architecture_realign)
 
-### **Demonstration Results
-- ACTUAL WORKING SYSTEM**
+### \*\*Demonstration Results
+
+- ACTUAL WORKING SYSTEM\*\*
 
 **Brain Coherence**: 0.066-0.081 (meta-cognitive self-awareness)
+
 - **System Health**: 1.000 (perfect health)
 - **Motor Actions**: Selected optimal actions (observe, edit, patch, test, etc.)
 - **Tensor Activity**: 0.459 (active cognitive processing)
@@ -107,53 +116,52 @@ I have successfully implemented the **complete AMOS Super-Agent** following your
 
 ### **Technical Excellence Achieved** **Tensor Architecture**: Complete 4D cognitive tensor with confidence and salience weighting **Parallel Processing**: 7 expert LLMs runnin
 
----
+______________________________________________________________________
 
 ### Source 3: Four-Process Architecture — Distinction, Mutation, Entropy, Repair
 
 > Path: `architecture/Four-Process-Architecture-DMER.md` | Size: 4240 chars | Match score: 7 | content_hash: 355f0cc19667b71d
 
-# Four-Process Architecture — Distinction, Mutation, Entropy, Repair
+## Four-Process Architecture — Distinction, Mutation, Entropy, Repair
 
 ## Canonical primitives
 
-| Primitive | Function | AMOS/vault mapping |
-|-----------|----------|-------------------|
-| **D — Distinction** | Creation/preservation of meaningful difference; decision-relevant differentiation | 7PT Constraint (scarcity/boundaries), Go Board MARK, reality gate RC/IR |
-| **M — Mutation** | Change in distinguished state; introduces time | 7PT Time + Adaptation, brain model state transitions |
-| **E — Entropy** | Degradation pressure: overload, fragmentation, contradiction, staleness | 7PT Termination pressure, evolutionary debt, memory decay |
-| **R — Repair** | Restoration of viable integrity (not historical identity) | 7PT Enforcement, rollback/recovery, substrate dependency-safe forgetting |
-
+| Primitive           | Function                                                                          | AMOS/vault mapping                                                       |
+| ------------------- | --------------------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| **D — Distinction** | Creation/preservation of meaningful difference; decision-relevant differentiation | 7PT Constraint (scarcity/boundaries), Go Board MARK, reality gate RC/IR  |
+| **M — Mutation**    | Change in distinguished state; introduces time                                    | 7PT Time + Adaptation, brain model state transitions                     |
+| **E — Entropy**     | Degradation pressure: overload, fragmentation, contradiction, staleness           | 7PT Termination pressure, evolutionary debt, memory decay                |
+| **R — Repair**      | Restoration of viable integrity (not historical identity)                         | 7PT Enforcement, rollback/recovery, substrate dependency-safe forgetting |
 
 ## Core laws extracted
 
 1. **Function ≠ implementation.**
 
 Immune response, restructuring, and memory invalidation are analogous R implementations, not identical mechanisms.
-2. **D is an integrity variable**, not just perceptual. Hallucination = failure to distinguish plausibility from evidentiary support.
-3. **Decision-relevant differentiation only.**
+2\. **D is an integrity variable**, not just perceptual. Hallucination = failure to distinguish plausibility from evidentiary support.
+3\. **Decision-relevant differentiation only.**
 
 Max distinctions ≠ intelligence; resolution must scale with consequence.
-4. **M changes D.**
+4\. **M changes D.**
 
 Knowledge without mutation awareness becomes stale knowledge.
-5. **Capability ≠ authority to mutate.**
+5\. **Capability ≠ authority to mutate.**
 
 Governance required on all self-modification.
-6. **Central scaling law:** *capability growth without repair-capacity growth increases systemic exposure.*
-7. **Resilience = persistence of effective repair under disturbance**, not absence of disturbance.
-8. **Repair quality depends on distinction quality.**
+6\. **Central scaling law:** *capability growth without repair-capacity growth increases systemic exposure.*
+7\. **Resilience = persistence of effective repair under disturbance**, not absence of disturbance.
+8\. **Repair quality depends on distinction quality.**
 
 Misdiagnosed repair increases E. → meta-repair: "repair the repair mechanism."
-9. **Collapse precedes visible failure** — repair capacity degrades silently while output stays stable. Leading indicators are R variables (slack, rollback, trust, redundancy).
-10. **Independence of failure modes > multiplicity of components.**
+9\. **Collapse precedes visible failure** — repair capacity degrades silently while output stays stable. Leading indicators are R variables (slack, rollback, trust, redundancy).
+10\. **Independence of failure modes > multiplicity of components.**
 
 Five same-model agents ≠ independent repair capacity.
-11. **Governance should target state-integrity, not just output filtering.**
-12. **Viability management ≠ performance management.**
+11\. **Governance should target state-integrity, not just output filtering.**
+12\. **Viability management ≠ performance management.**
 
 Excellent performance with declining viability is possible.
-13. **Intelligence = preservation of adaptive optionality.** ## Diagnostic grammar (the six questions)
+13\. **Intelligence = preservation of adaptive optionality.** ## Diagnostic grammar (the six questions)
 
 What distinctions must be preserved? What is mutating them? What is degrading coherence? What restores viability? Is R keeping pace with E? Is the loop open (∞) or closing (●)?
 
@@ -165,15 +173,17 @@ What distinctions must be preserved? What is mutating them? What is degrading co
 
 ## Executable kernel
 
-`cosmo-brain/dmer_kernel.py` — runnable implementation: `DMERSystem` with `add_distinction/add_repairer/mutat
+`cosmo-brain/dmer_kernel.py` — runnable implementation: `DMERSystem` with \`add_distinction/add_repairer/mutat
 
----
+______________________________________________________________________
+
 **MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -181,12 +191,14 @@ What distinctions must be preserved? What is mutating them? What is degrading co
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-repair-priority-governor-vault-domain-knowledge
 node_type: reference
 path: 07_SKILLS/amos-repair-priority-governor/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

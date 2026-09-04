@@ -2,16 +2,16 @@
 type: agent
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L03_PERCEPT_FORMATION
 tags:
-- amos
-- cognitive-matrix
-- matrix/l03
-- percept-formation
-- agents
-- perception
-- rscf
-- hml
-- governance
-- domain/cognitive-matrix
+  - amos
+  - cognitive-matrix
+  - matrix/l03
+  - percept-formation
+  - agents
+  - perception
+  - rscf
+  - hml
+  - governance
+  - domain/cognitive-matrix
 title: L03_PERCEPT_FORMATION — Agents
 origin_architect: Trang Phan
 status: MODEL_AGENT_CONTRACT / UNIMPLEMENTED / UNVALIDATED
@@ -34,9 +34,9 @@ rscf:
 
 > **Canon boundary:** this artifact defines an AMOS-aligned agent architecture for `L03_PERCEPT_FORMATION`. It preserves the distinction between observed inputs, derived percepts, model interpretations, confidence, and downstream decisions. Agent names, role partitions, message types, algorithms, thresholds, and runtime topology below remain `AMOS_MODEL` unless independently recovered from direct Trang/AMOS canon or executable runtime evidence.
 
----
+______________________________________________________________________
 
-# 0. Purpose
+## 0. Purpose
 
 Define the agent contract for `L03_PERCEPT_FORMATION`.
 
@@ -86,9 +86,9 @@ PERCEPT
 DECISION
 ```
 
----
+______________________________________________________________________
 
-# 1. Source / Canon References
+## 1. Source / Canon References
 
 ## 1.1 AMOS source boundary
 
@@ -142,20 +142,20 @@ canonical_runtime_implementation: UNKNOWN_GAP
 canonical_validation_results: UNKNOWN_GAP
 ```
 
----
+______________________________________________________________________
 
-# 2. Definition and Scope
+## 2. Definition and Scope
 
 An L03 agent is a bounded cognitive worker or logical role that participates in constructing, checking, comparing, or repairing percept representations.
 
 Agent function:
 
-[
+\[
 Agent_i:
 (Input_i,Context_i)
-\rightarrow
+\\rightarrow
 (Output_i,Evidence_i,StateProposal_i)
-]
+\]
 
 where outputs must remain typed and provenance-bound.
 
@@ -189,9 +189,9 @@ external action authority
 durable commit
 ```
 
----
+______________________________________________________________________
 
-# 3. Typed Inputs
+## 3. Typed Inputs
 
 ```yaml
 PerceptAgentInput:
@@ -245,9 +245,9 @@ PerceptAgentInput:
     type: AuthorityContext
 ```
 
----
+______________________________________________________________________
 
-# 4. Typed Outputs
+## 4. Typed Outputs
 
 ```yaml
 PerceptAgentOutput:
@@ -302,9 +302,9 @@ PERCEPT PROPOSAL
 AUTHORITATIVE PERCEPT COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 5. Agent State Variables
+## 5. Agent State Variables
 
 ```text
 Obs_t      = attended observation set
@@ -327,9 +327,9 @@ Conflict_t = percept conflicts
 Repair_t   = repair state
 ```
 
----
+______________________________________________________________________
 
-# 6. Core Agent Registry
+## 6. Core Agent Registry
 
 The following roles are candidate `AMOS_MODEL` agents.
 
@@ -361,7 +361,7 @@ force consensus
 self-authorize commit
 ```
 
----
+______________________________________________________________________
 
 ## 6.2 `L03_OBSERVATION_NORMALIZER`
 
@@ -389,7 +389,7 @@ NORMALIZATION
 SEMANTIC REINTERPRETATION
 ```
 
----
+______________________________________________________________________
 
 ## 6.3 `L03_FEATURE_BINDER`
 
@@ -399,12 +399,12 @@ Purpose:
 
 Candidate transformation:
 
-[
+\[
 B:
-{o_1,o_2,\ldots,o_n}
-\rightarrow
-{b_1,b_2,\ldots,b_k}
-]
+{o_1,o_2,\\ldots,o_n}
+\\rightarrow
+{b_1,b_2,\\ldots,b_k}
+\]
 
 Bindings must retain:
 
@@ -425,7 +425,7 @@ CO-OCCURRENCE
 SAME ENTITY
 ```
 
----
+______________________________________________________________________
 
 ## 6.4 `L03_MULTIMODAL_INTEGRATOR`
 
@@ -456,7 +456,7 @@ NEGATIVE EVIDENCE
 
 Integration must preserve modality availability masks.
 
----
+______________________________________________________________________
 
 ## 6.5 `L03_TEMPORAL_BINDER`
 
@@ -483,7 +483,7 @@ SEQUENCE
 CAUSATION
 ```
 
----
+______________________________________________________________________
 
 ## 6.6 `L03_SPATIAL_CONTEXT_AGENT`
 
@@ -503,7 +503,7 @@ location uncertainty
 
 No spatial information may be fabricated when unavailable.
 
----
+______________________________________________________________________
 
 ## 6.7 `L03_OBSERVER_CONTEXT_AGENT`
 
@@ -531,7 +531,7 @@ ONE OBSERVER VIEW
 VIEW FROM NOWHERE
 ```
 
----
+______________________________________________________________________
 
 ## 6.8 `L03_PERCEPT_HYPOTHESIS_GENERATOR`
 
@@ -556,7 +556,7 @@ MODEL
 
 until evidence discriminates among alternatives.
 
----
+______________________________________________________________________
 
 ## 6.9 `L03_PERCEPT_DISCRIMINATOR`
 
@@ -566,9 +566,9 @@ Purpose:
 
 For hypotheses:
 
-[
-P_1,P_2,\ldots,P_n
-]
+\[
+P_1,P_2,\\ldots,P_n
+\]
 
 the agent should identify:
 
@@ -584,7 +584,7 @@ observer differences
 
 It must preserve `COMPETING` if discrimination is insufficient.
 
----
+______________________________________________________________________
 
 ## 6.10 `L03_CROSS_MODAL_CONFLICT_AGENT`
 
@@ -607,7 +607,7 @@ CONFLICT
 
 not silent fusion.
 
----
+______________________________________________________________________
 
 ## 6.11 `L03_PERCEPT_UNCERTAINTY_AGENT`
 
@@ -632,7 +632,7 @@ PerceptUncertainty:
 
 One scalar confidence must not hide decision-relevant uncertainty structure.
 
----
+______________________________________________________________________
 
 ## 6.12 `L03_PERCEPT_PROVENANCE_AGENT`
 
@@ -654,7 +654,7 @@ SOURCES / SENSORS / TOOL OUTPUTS
 
 Multiple percept features derived from one source do not count as independent confirmation.
 
----
+______________________________________________________________________
 
 ## 6.13 `L03_PERCEPT_FRESHNESS_AGENT`
 
@@ -670,7 +670,7 @@ PREVIOUSLY VALID PERCEPT
 CURRENT PERCEPT
 ```
 
----
+______________________________________________________________________
 
 ## 6.14 `L03_PERCEPT_CONSTRAINT_AGENT`
 
@@ -693,16 +693,14 @@ state-version compatibility
 
 Admission equation:
 
-[
-Admit(P)
-========
+## \[ Admit(P)
 
-\bigwedge_i HardInvariant_i(P)
-]
+\\bigwedge_i HardInvariant_i(P)
+\]
 
 Hard failures are non-compensatory.
 
----
+______________________________________________________________________
 
 ## 6.15 `L03_PERCEPT_RSCF_AGENT`
 
@@ -726,7 +724,7 @@ falsifiers
 confidence ceiling
 ```
 
----
+______________________________________________________________________
 
 ## 6.16 `L03_PERCEPT_REPAIR_AGENT`
 
@@ -736,15 +734,15 @@ Purpose:
 
 Core rule:
 
-[
+\[
 Invalid(p)
-\Rightarrow
+\\Rightarrow
 Invalidate(Descendants(p))
-]
+\]
 
 not global deletion unless dependency closure proves global invalidity.
 
----
+______________________________________________________________________
 
 ## 6.17 `L03_PERCEPT_AUDITOR`
 
@@ -768,9 +766,9 @@ premature convergence
 causal overreach
 ```
 
----
+______________________________________________________________________
 
-# 7. Agent Role Matrix
+## 7. Agent Role Matrix
 
 | Agent                              | Primary Role           | May Propose State | May Commit |
 | ---------------------------------- | ---------------------- | ----------------: | ---------: |
@@ -802,9 +800,9 @@ DURABLE COMMIT AUTHORITY
 
 unless explicit higher-order authority is independently established.
 
----
+______________________________________________________________________
 
-# 8. H/M/L Agent Applicability
+## 8. H/M/L Agent Applicability
 
 ## H — Governing percept formation
 
@@ -827,7 +825,7 @@ Example:
 
 H-level outputs must remain dependent on M/L evidence.
 
----
+______________________________________________________________________
 
 ## M — Subsystem percept formation
 
@@ -848,7 +846,7 @@ Example:
 "Do these observations describe one event or several?"
 ```
 
----
+______________________________________________________________________
 
 ## L — Local percept formation
 
@@ -881,9 +879,9 @@ H world-state percept
 
 without explicit transformation.
 
----
+______________________________________________________________________
 
-# 9. Agent Interaction Topology
+## 9. Agent Interaction Topology
 
 Candidate topology:
 
@@ -914,9 +912,9 @@ Candidate topology:
 
 This topology is a model architecture, not canonical runtime proof.
 
----
+______________________________________________________________________
 
-# 10. Agent Workflow
+## 10. Agent Workflow
 
 ```text
 L02_ATTENTION OUTPUT
@@ -950,9 +948,9 @@ AUDIT
 PERCEPT STATE PROPOSAL
 ```
 
----
+______________________________________________________________________
 
-# 11. Protocols
+## 11. Protocols
 
 Candidate agent communication protocols:
 
@@ -977,9 +975,9 @@ L03_PERCEPT_STATE_PROPOSAL
 
 Canonical protocol identifiers remain `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
-# 12. Operators
+## 12. Operators
 
 Agents may invoke candidate operators such as:
 
@@ -1009,9 +1007,9 @@ PROPOSE_STATE()
 
 Agent ownership of an operator must remain separate from control-plane authority.
 
----
+______________________________________________________________________
 
-# 13. Agent Invariants
+## 13. Agent Invariants
 
 ```text
 L03-AGENT-INV-001
@@ -1075,9 +1073,9 @@ L03-AGENT-INV-020
 Percept state proposal does not equal durable commit.
 ```
 
----
+______________________________________________________________________
 
-# 14. Dependencies
+## 14. Dependencies
 
 Primary modeled chain:
 
@@ -1109,9 +1107,9 @@ RSCF support
 
 Potential downstream consumers remain outside the claim scope of this file unless independently sourced.
 
----
+______________________________________________________________________
 
-# 15. Control-Plane Requirements
+## 15. Control-Plane Requirements
 
 The control plane should own or validate:
 
@@ -1151,9 +1149,9 @@ AGENT AGREEMENT
 COMMIT AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 16. Skills
+## 16. Skills
 
 Relevant capability families may include:
 
@@ -1185,9 +1183,9 @@ validated result
 authority to commit
 ```
 
----
+______________________________________________________________________
 
-# 17. Evidence / Provenance
+## 17. Evidence / Provenance
 
 Each consequential agent result should preserve:
 
@@ -1230,9 +1228,9 @@ AgentResultProvenance:
 
 A percept must remain traceable to the observations that support it.
 
----
+______________________________________________________________________
 
-# 18. Uncertainty and Confidence Ceiling
+## 18. Uncertainty and Confidence Ceiling
 
 Percept-agent uncertainty should remain vectorized where material:
 
@@ -1276,21 +1274,21 @@ uncertainty:
     level: null
 ```
 
-For a percept \(P\) depending on premises \(p_i\):
+For a percept (P) depending on premises (p_i):
 
-[
+\[
 Conf(P)
-\le
-\min_i Conf(p_i)
-]
+\\le
+\\min_i Conf(p_i)
+\]
 
 for load-bearing premises unless independently revalidated evidence changes the proof graph.
 
 Multiple agreeing agents do not automatically raise this ceiling if they share the same evidence ancestry.
 
----
+______________________________________________________________________
 
-# 19. Failure Modes
+## 19. Failure Modes
 
 ```text
 FM-L03-AG-001
@@ -1354,9 +1352,9 @@ FM-L03-AG-020
 Agent proposal treated as commit.
 ```
 
----
+______________________________________________________________________
 
-# 20. Repair / Recovery
+## 20. Repair / Recovery
 
 Generic agent-level recovery:
 
@@ -1384,17 +1382,17 @@ RESUME
 
 Core selective invalidation:
 
-[
+\[
 Invalid(p)
-\Rightarrow
+\\Rightarrow
 Invalidate(Descendants(p))
-]
+\]
 
 No agent should re-run an unchanged failed path without changed evidence, configuration, or method.
 
----
+______________________________________________________________________
 
-# 21. Tests / Validators
+## 21. Tests / Validators
 
 Minimum validators:
 
@@ -1481,9 +1479,9 @@ NOT_RUN
 
 unless separate runtime evidence exists.
 
----
+______________________________________________________________________
 
-# 22. Falsifiers
+## 22. Falsifiers
 
 This agent contract must be revised if direct canon establishes that:
 
@@ -1505,9 +1503,9 @@ runtime implementation contradicts modeled agent topology;
 executed tests falsify the stated invariants.
 ```
 
----
+______________________________________________________________________
 
-# 23. Gap Matrix
+## 23. Gap Matrix
 
 ```yaml
 gap_status:
@@ -1585,9 +1583,9 @@ gap_status:
     status: UNKNOWN_GAP
 ```
 
----
+______________________________________________________________________
 
-# 24. Competing Agent Architectures
+## 24. Competing Agent Architectures
 
 ## COMPETING-001 — Monolithic Percept Agent
 
@@ -1609,7 +1607,7 @@ hidden coupling
 poor provenance separation
 ```
 
----
+______________________________________________________________________
 
 ## COMPETING-002 — Specialist Agent Cohort
 
@@ -1638,7 +1636,7 @@ coordination cost
 false independence
 ```
 
----
+______________________________________________________________________
 
 ## COMPETING-003 — Deterministic Percept Pipeline
 
@@ -1659,7 +1657,7 @@ Risk:
 lower flexibility
 ```
 
----
+______________________________________________________________________
 
 ## COMPETING-004 — Hybrid
 
@@ -1681,9 +1679,9 @@ because it preserves flexible percept generation while keeping state, authority,
 
 This preference remains `MODEL`, not canonical proof.
 
----
+______________________________________________________________________
 
-# 25. RSCF Completion State
+## 25. RSCF Completion State
 
 ```yaml
 rscf:
@@ -1786,9 +1784,9 @@ rscf:
     preservation, selective invalidation, and proposal/commit separation.
 ```
 
----
+______________________________________________________________________
 
-# 26. Completion State
+## 26. Completion State
 
 ```yaml
 completion_state:
@@ -1866,9 +1864,9 @@ completion_state:
     MODEL
 ```
 
----
+______________________________________________________________________
 
-# 27. Hard Boundaries
+## 27. Hard Boundaries
 
 ```text
 PLACEHOLDER != IMPLEMENTED
@@ -1918,15 +1916,15 @@ AGENT DEFINED != AGENT IMPLEMENTED
 AGENT IMPLEMENTED != AGENT VALIDATED
 ```
 
----
+______________________________________________________________________
 
-# 28. Governing Agent Contract
+## 28. Governing Agent Contract
 
 > **`L03_PERCEPT_FORMATION` agents SHALL transform attended observations into bounded percept candidates while preserving the distinction between observation and interpretation. Agent workers MAY normalize, bind, integrate, generate hypotheses, discriminate, audit, and propose repairs, but SHALL NOT fabricate unavailable observations, erase cross-modal or interpretive conflict, inflate confidence through consensus, collapse correlated provenance into independent confirmation, or create authority from capability. Material percepts SHALL retain observation ancestry, scope, regime, freshness, observer context, modality state, H/M/L position, competing alternatives, falsifiers, and confidence ceilings. Durable state effects SHALL remain subject to the governing AMOS control plane.**
 
----
+______________________________________________________________________
 
-# 29. Canon Boundary
+## 29. Canon Boundary
 
 ```text
 AMOS-FRAMEWORK-ALIGNED:
@@ -2048,23 +2046,27 @@ AUTHORITY TO COMMIT
 
 The AMOS multimodal-perception layer used as the supporting architecture requires H/M/L, typed invariants/tensors, RSCF, falsifiers, and repair, while explicitly keeping source-defined constructs separate from external empirical validation.
 ```
----
+
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: l03_percept_formation_primitives_cognitive_matrix_agents
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L03_PERCEPT_FORMATION/L03_PERCEPT_FORMATION_PRIMITIVES_COGNITIVE_MATRIX_AGENTS.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L03_PERCEPT_FORMATION/L03_PERCEPT_FORMATION_MOC|L03_PERCEPT_FORMATION_MOC]]
-

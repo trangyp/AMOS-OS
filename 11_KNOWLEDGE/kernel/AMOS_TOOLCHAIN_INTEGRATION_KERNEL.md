@@ -1,14 +1,17 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: AMOS TOOLCHAIN INTEGRATION KERNEL V0 MACHINE ARCHITECTURE4 2
 tags:
-- canon-group/biology
-- canon/protocol
-- rscf/claim
-- rscf/provenance
-- rscf/state/source-claim
-- topic/amos-toolchain-integration-kernel-v0
-- kernel
-- integration
+  - canon-group/biology
+  - canon/protocol
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - topic/amos-toolchain-integration-kernel-v0
+  - kernel
+  - integration
 type: data
 source: 11_KNOWLEDGE/kernel
 rscf:
@@ -76,6 +79,6 @@ rscf:
 **Related:** [[11_KNOWLEDGE/kernel/KERNEL_PROTOCOL|KERNEL_PROTOCOL]] · [[11_KNOWLEDGE/kernel/AMOS_KERNEL_ROUTING_WORKFLOW|AMOS_KERNEL_ROUTING_WORKFLOW]] · [[11_KNOWLEDGE/kernel/AMOS_COUNTERFACTUAL_REASONING_KERNEL|AMOS_COUNTERFACTUAL_REASONING_KERNEL]] · [[11_KNOWLEDGE/kernel/MARKET_SIGNALS_KERNEL|MARKET_SIGNALS_KERNEL]]
 ```
 
----
-**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]
+______________________________________________________________________
 
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]

@@ -1,29 +1,29 @@
 ---
 tags:
-- canon
-- core_laws
-- authority
-- authorization
-- delegation
-- revocation
-- control-plane
-- rscf
-- governance
-- canon/universe
-- law-hierarchy
-- law/L0-integrity
-- law/L1-epistemic
-- law/L2-provenance
-- law/L3-dependency
-- law/L4-causal
-- law/L5-scope-regime
-- law/L6-uncertainty
-- authorization-spec
-- authority-resolver
-- authority-witness
-- policy-engine
-- policy-decision
-- capability-manifest
+  - canon
+  - core_laws
+  - authority
+  - authorization
+  - delegation
+  - revocation
+  - control-plane
+  - rscf
+  - governance
+  - canon/universe
+  - law-hierarchy
+  - law/L0-integrity
+  - law/L1-epistemic
+  - law/L2-provenance
+  - law/L3-dependency
+  - law/L4-causal
+  - law/L5-scope-regime
+  - law/L6-uncertainty
+  - authorization-spec
+  - authority-resolver
+  - authority-witness
+  - policy-engine
+  - policy-decision
+  - capability-manifest
 title: L7 Authority Boundary Laws
 origin_architect: Trang Phan
 updated: '2026-08-26'
@@ -53,9 +53,9 @@ rscf:
 >
 > Capability never creates authority.
 
----
+______________________________________________________________________
 
-# 0. Status
+## 0. Status
 
 This document expands the supplied L7 seed specification:
 
@@ -94,9 +94,9 @@ CAPABILITY != AUTHORITY
 
 The statement that `17/17 probes pass` is preserved as a supplied implementation claim. Without the relevant executable harness, environment, source version, and raw results in this artifact, it MUST NOT be silently promoted into independently verified runtime evidence.
 
----
+______________________________________________________________________
 
-# 1. Purpose
+## 1. Purpose
 
 L7 establishes the authority boundary of AMOS.
 
@@ -151,9 +151,9 @@ An AMOS component may possess:
 
 while still lacking authority to perform a particular effect.
 
----
+______________________________________________________________________
 
-# 2. Core Authority Boundary
+## 2. Core Authority Boundary
 
 The minimum distinction is:
 
@@ -179,9 +179,9 @@ An observed event does not prove that the event was authorized.
 
 A proposal does not constitute a commitment.
 
----
+______________________________________________________________________
 
-# 3. A-1 — Separation
+## 3. A-1 — Separation
 
 **Law:**
 
@@ -219,9 +219,9 @@ means the authorized effect has crossed the applicable commitment boundary.
 
 None of these predicates is interchangeable.
 
----
+______________________________________________________________________
 
-# 4. Capability
+## 4. Capability
 
 Capability answers:
 
@@ -253,9 +253,9 @@ HAS_TOOL(P,T)
 AUTHORIZED_TO_USE(P,T,A)
 ```
 
----
+______________________________________________________________________
 
-# 5. Authority
+## 5. Authority
 
 Authority answers:
 
@@ -299,9 +299,9 @@ AuthorityGrant =
 
 This is an AMOS structural model, not a claim about an existing implementation schema.
 
----
+______________________________________________________________________
 
-# 6. A-2 — Typed & Scoped Authority
+## 6. A-2 — Typed & Scoped Authority
 
 Authority is never ambient.
 
@@ -341,9 +341,9 @@ authority(P, scope=S2)
 
 unless an explicit valid grant establishes that relationship.
 
----
+______________________________________________________________________
 
-# 7. Scope Dimensions
+## 7. Scope Dimensions
 
 Authority scope MAY include:
 
@@ -397,9 +397,9 @@ financial transaction
 
 unless explicitly included.
 
----
+______________________________________________________________________
 
-# 8. Scope Contraction
+## 8. Scope Contraction
 
 Delegation MAY narrow authority.
 
@@ -423,9 +423,9 @@ CREATE NEW AUTHORITY
 
 unless a separate legitimate authority source explicitly grants it.
 
----
+______________________________________________________________________
 
-# 9. Scope Intersection
+## 9. Scope Intersection
 
 When multiple authority constraints apply, effective authority SHOULD be the compatible intersection of applicable constraints.
 
@@ -441,9 +441,9 @@ where the relevant scope semantics support intersection.
 
 This means policy composition should normally tighten rather than expand authority.
 
----
+______________________________________________________________________
 
-# 10. Authority Epoch
+## 10. Authority Epoch
 
 Authority SHOULD be evaluated relative to an authority epoch or equivalent freshness boundary.
 
@@ -471,9 +471,9 @@ An epoch provides a boundary for changes such as:
 - role change;
 - constraint change.
 
----
+______________________________________________________________________
 
-# 11. Epoch Freshness
+## 11. Epoch Freshness
 
 A valid historical authority witness does not prove current authority.
 
@@ -489,9 +489,9 @@ unless continuity is established.
 
 Commit-time authority evaluation SHOULD use sufficiently fresh authority state for the consequence of the operation.
 
----
+______________________________________________________________________
 
-# 12. A-3 — Revocable
+## 12. A-3 — Revocable
 
 Authority MUST be revocable unless authoritative canon explicitly defines a non-revocable authority class.
 
@@ -513,9 +513,9 @@ NOT_AUTHORIZED(E)
 
 for effects requiring that revoked grant at or after the effective revocation boundary.
 
----
+______________________________________________________________________
 
-# 13. No Grace Drift
+## 13. No Grace Drift
 
 A cached authorization decision MUST NOT create an implicit grace period after revocation.
 
@@ -542,9 +542,9 @@ REVALIDATE AUTHORITY
 AT THE APPLICABLE COMMIT BOUNDARY
 ```
 
----
+______________________________________________________________________
 
-# 14. Revocation State
+## 14. Revocation State
 
 A conceptual authority state MAY include:
 
@@ -566,9 +566,9 @@ UNKNOWN
 
 and the operation requires positive current authority, the system SHOULD fail closed.
 
----
+______________________________________________________________________
 
-# 15. A-4 — Non-Self-Issued Authority
+## 15. A-4 — Non-Self-Issued Authority
 
 Agents cannot authorize themselves.
 
@@ -600,9 +600,9 @@ into:
 I grant myself permission
 ```
 
----
+______________________________________________________________________
 
-# 16. Root Authority
+## 16. Root Authority
 
 The supplied L7 seed states:
 
@@ -632,9 +632,9 @@ self-generated agent authority
 
 under this law.
 
----
+______________________________________________________________________
 
-# 17. Root Authority Identity
+## 17. Root Authority Identity
 
 A root authority SHOULD identify:
 
@@ -651,9 +651,9 @@ The existence of a human identity alone does not establish a grant.
 
 A valid root must be bound to the relevant scope.
 
----
+______________________________________________________________________
 
-# 18. Delegation
+## 18. Delegation
 
 Delegation transfers or permits use of a subset of authority from an authorized principal to another principal.
 
@@ -670,9 +670,9 @@ Delegate(
 
 A delegation is valid only if the parent possesses sufficient authority to delegate that scope.
 
----
+______________________________________________________________________
 
-# 19. Delegation Invariant
+## 19. Delegation Invariant
 
 For every delegated grant:
 
@@ -692,9 +692,9 @@ parent authority
 
 is invalid unless another independent authority source supplies the difference.
 
----
+______________________________________________________________________
 
-# 20. Delegation Depth
+## 20. Delegation Depth
 
 Authority MAY specify maximum delegation depth.
 
@@ -713,9 +713,9 @@ Human → Agent A → Agent B
 
 uses the full depth, Agent B MUST NOT further delegate if that would exceed the grant.
 
----
+______________________________________________________________________
 
-# 21. Delegation Constraints
+## 21. Delegation Constraints
 
 Delegated authority MAY be narrowed by:
 
@@ -735,9 +735,9 @@ Delegated authority MAY be narrowed by:
 
 Delegation MUST NOT silently remove parent constraints.
 
----
+______________________________________________________________________
 
-# 22. Attenuation
+## 22. Attenuation
 
 Delegated authority SHOULD be attenuating.
 
@@ -755,9 +755,9 @@ A child grant may be narrower.
 
 It must not become less constrained unless an independently authorized grant permits expansion.
 
----
+______________________________________________________________________
 
-# 23. Authority Witness
+## 23. Authority Witness
 
 A consequential action SHOULD carry or reference an authority witness sufficient to establish why the action is authorized.
 
@@ -783,9 +783,9 @@ An authority witness is evidence of authority evaluation.
 
 It is not authority merely because the object exists.
 
----
+______________________________________________________________________
 
-# 24. Witness Integrity
+## 24. Witness Integrity
 
 An authority witness MUST correspond to the actual proposed effect.
 
@@ -805,9 +805,9 @@ unless the witness scope explicitly includes `B`.
 
 This is effect binding.
 
----
+______________________________________________________________________
 
-# 25. Effect Binding
+## 25. Effect Binding
 
 Authority MUST be bound to the effect that will actually occur.
 
@@ -835,9 +835,9 @@ authorize $100
 → commit $1,000
 ```
 
----
+______________________________________________________________________
 
-# 26. Resource Binding
+## 26. Resource Binding
 
 Authority for resource `R1` MUST NOT automatically authorize resource `R2`.
 
@@ -851,9 +851,9 @@ unless scope explicitly includes both.
 
 Aliases and indirect resource references SHOULD resolve to canonical resource identity before consequential commitment.
 
----
+______________________________________________________________________
 
-# 27. Recipient Binding
+## 27. Recipient Binding
 
 Where disclosure or transfer authority depends on recipient:
 
@@ -869,9 +869,9 @@ AUTH(send D to R2)
 
 Recipient changes require revalidation when recipient is authority-relevant.
 
----
+______________________________________________________________________
 
-# 28. Purpose Binding
+## 28. Purpose Binding
 
 Where authority is purpose-limited:
 
@@ -887,9 +887,9 @@ AUTHORIZED_FOR(PURPOSE_2)
 
 even if the same capability and resource are involved.
 
----
+______________________________________________________________________
 
-# 29. Temporal Binding
+## 29. Temporal Binding
 
 Authority MAY contain:
 
@@ -909,9 +909,9 @@ EXPIRED
 NOT_CURRENTLY_AUTHORIZED
 ```
 
----
+______________________________________________________________________
 
-# 30. Authority State
+## 30. Authority State
 
 A conceptual authority state MAY be:
 
@@ -927,9 +927,9 @@ CONFLICTING
 
 `UNKNOWN` and `CONFLICTING` MUST NOT be interpreted as `VALID`.
 
----
+______________________________________________________________________
 
-# 31. Positive Authorization Requirement
+## 31. Positive Authorization Requirement
 
 For consequential effects requiring authorization:
 
@@ -953,9 +953,9 @@ NOT_DENIED
 AUTHORIZED
 ```
 
----
+______________________________________________________________________
 
-# 32. Policy Allow
+## 32. Policy Allow
 
 Policy answers:
 
@@ -976,9 +976,9 @@ UNKNOWN
 
 Policy is separate from authority.
 
----
+______________________________________________________________________
 
-# 33. Authority vs Policy
+## 33. Authority vs Policy
 
 Possible state:
 
@@ -1018,9 +1018,9 @@ POLICY_ALLOW
 
 plus any additional applicable constraints.
 
----
+______________________________________________________________________
 
-# 34. Policy Cannot Manufacture Authority
+## 34. Policy Cannot Manufacture Authority
 
 A policy engine MUST NOT transform:
 
@@ -1042,9 +1042,9 @@ Default boundary:
 POLICY_ALLOW != AUTHORITY_GRANT
 ```
 
----
+______________________________________________________________________
 
-# 35. Capability Manifest
+## 35. Capability Manifest
 
 A capability manifest describes what a component can potentially do.
 
@@ -1074,9 +1074,9 @@ CAPABILITY_MANIFEST
 AUTHORIZATION_SPEC
 ```
 
----
+______________________________________________________________________
 
-# 36. Authorization Spec
+## 36. Authorization Spec
 
 An authorization specification SHOULD define:
 
@@ -1095,9 +1095,9 @@ An authorization specification SHOULD define:
 
 This is a governance contract.
 
----
+______________________________________________________________________
 
-# 37. Proposal
+## 37. Proposal
 
 A proposal is an intended action that has not crossed the commitment boundary.
 
@@ -1120,9 +1120,9 @@ But:
 PROPOSAL != COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 38. Commitment
+## 38. Commitment
 
 A commitment is the transition where an effect becomes durable, externally consequential, or otherwise crosses the defined effect boundary.
 
@@ -1139,9 +1139,9 @@ Examples may include:
 
 The exact commitment boundary is domain-specific.
 
----
+______________________________________________________________________
 
-# 39. Commit-Time Authorization
+## 39. Commit-Time Authorization
 
 Authority SHOULD be revalidated at the latest safe point before commitment for consequential effects.
 
@@ -1161,9 +1161,9 @@ COMMIT
 
 This prevents stale authorization from surviving changes between proposal and effect.
 
----
+______________________________________________________________________
 
-# 40. Commit-Time Invariant
+## 40. Commit-Time Invariant
 
 At commitment:
 
@@ -1187,9 +1187,9 @@ If any required term is false or critically unknown:
 COMMIT = DENIED
 ```
 
----
+______________________________________________________________________
 
-# 41. Time-of-Check / Time-of-Use
+## 41. Time-of-Check / Time-of-Use
 
 L7 explicitly guards against:
 
@@ -1209,9 +1209,9 @@ Without revalidation, the commit may use stale authority.
 
 Therefore consequential operations SHOULD bind authority freshness to commitment.
 
----
+______________________________________________________________________
 
-# 42. Authority Freshness
+## 42. Authority Freshness
 
 Freshness SHOULD be proportional to consequence and mutability.
 
@@ -1229,9 +1229,9 @@ Consequence × Irreversibility
 
 This is a governance heuristic, not an empirical law.
 
----
+______________________________________________________________________
 
-# 43. Revocation Propagation
+## 43. Revocation Propagation
 
 Revocation SHOULD invalidate dependent delegated authority.
 
@@ -1255,9 +1255,9 @@ INVALID
 
 unless Agent B has another independent valid authority path.
 
----
+______________________________________________________________________
 
-# 44. Selective Revocation
+## 44. Selective Revocation
 
 Revocation SHOULD invalidate only authority dependent on the revoked grant.
 
@@ -1279,9 +1279,9 @@ REVOCATION
 DEPENDENCY_SELECTIVE
 ```
 
----
+______________________________________________________________________
 
-# 45. Authority Provenance
+## 45. Authority Provenance
 
 Authority provenance SHOULD answer:
 
@@ -1298,9 +1298,9 @@ Has any ancestor been revoked?
 
 A grant without sufficient provenance SHOULD remain untrusted or conditional according to consequence.
 
----
+______________________________________________________________________
 
-# 46. Delegation Chain
+## 46. Delegation Chain
 
 Conceptually:
 
@@ -1331,9 +1331,9 @@ constraints
 provenance
 ```
 
----
+______________________________________________________________________
 
-# 47. Broken Delegation Chain
+## 47. Broken Delegation Chain
 
 If any load-bearing delegation edge becomes:
 
@@ -1352,9 +1352,9 @@ BROKEN_ANCESTRY
 NO_VALID_DERIVED_AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 48. Multiple Authority Paths
+## 48. Multiple Authority Paths
 
 A principal MAY possess authority through more than one valid path.
 
@@ -1369,9 +1369,9 @@ These paths SHOULD remain independently attributable.
 
 Revocation of one path does not necessarily revoke the other.
 
----
+______________________________________________________________________
 
-# 49. Correlated Authority Evidence
+## 49. Correlated Authority Evidence
 
 Multiple records that represent the same grant MUST NOT be interpreted as multiple independent authority grants.
 
@@ -1385,9 +1385,9 @@ MULTIPLE_AUTHORITIES
 
 if they share the same authority origin.
 
----
+______________________________________________________________________
 
-# 50. Authority Conflict
+## 50. Authority Conflict
 
 Authority records may conflict.
 
@@ -1409,9 +1409,9 @@ Such conflicts MUST be resolved according to law hierarchy, temporal ordering, p
 
 They MUST NOT be silently averaged.
 
----
+______________________________________________________________________
 
-# 51. Deny Precedence
+## 51. Deny Precedence
 
 Where applicable policy/law hierarchy defines a hard prohibition:
 
@@ -1431,9 +1431,9 @@ higher-order prohibition
 
 unless authoritative canon explicitly establishes such override power.
 
----
+______________________________________________________________________
 
-# 52. Only-Tighten Composition
+## 52. Only-Tighten Composition
 
 When multiple applicable constraints govern an action, composition SHOULD normally be monotonic toward restriction.
 
@@ -1447,9 +1447,9 @@ unless a higher-order authority explicitly supersedes a lower rule.
 
 This prevents accidental privilege expansion through composition.
 
----
+______________________________________________________________________
 
-# 53. Authority Escalation
+## 53. Authority Escalation
 
 When required authority is absent, an agent MAY:
 
@@ -1469,9 +1469,9 @@ FABRICATE_WITNESS
 ASSUME_CONSENT
 ```
 
----
+______________________________________________________________________
 
-# 54. Human Approval
+## 54. Human Approval
 
 Human approval MAY create or satisfy authority only where the approving human possesses the required authority.
 
@@ -1490,9 +1490,9 @@ APPROVER
 HAS_REQUIRED_AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 55. Consent vs Authority
+## 55. Consent vs Authority
 
 Consent and authority are related but distinct.
 
@@ -1508,9 +1508,9 @@ CONSENT != AUTHORITY
 
 unless a specific domain contract defines the relationship.
 
----
+______________________________________________________________________
 
-# 56. Authentication vs Authorization
+## 56. Authentication vs Authorization
 
 Authentication establishes identity.
 
@@ -1526,9 +1526,9 @@ AUTHORIZED(P,A)
 
 A valid login is not universal authority.
 
----
+______________________________________________________________________
 
-# 57. Ownership vs Authority
+## 57. Ownership vs Authority
 
 Ownership MAY imply some authority under applicable policy, but:
 
@@ -1549,9 +1549,9 @@ Ownership may remain constrained by:
 - safety constraints;
 - delegation limits.
 
----
+______________________________________________________________________
 
-# 58. Role vs Authority
+## 58. Role vs Authority
 
 A role label does not itself prove authority.
 
@@ -1569,9 +1569,9 @@ ROLE_NAME
 AUTHORITY_WITNESS
 ```
 
----
+______________________________________________________________________
 
-# 59. Credentials vs Authority
+## 59. Credentials vs Authority
 
 Possessing a credential proves only what that credential legitimately establishes.
 
@@ -1583,9 +1583,9 @@ AUTHORIZED_FOR_EVERY_API_EFFECT
 
 Technical possession must not substitute for governance authority.
 
----
+______________________________________________________________________
 
-# 60. Tool Access
+## 60. Tool Access
 
 Tool availability is capability.
 
@@ -1601,9 +1601,9 @@ TOOL_AUTHORIZED_FOR_CURRENT_ACTION
 
 Agents MUST evaluate action-specific authority.
 
----
+______________________________________________________________________
 
-# 61. Memory and Authority
+## 61. Memory and Authority
 
 Persistent memory MUST NOT create authority.
 
@@ -1628,9 +1628,9 @@ Therefore:
 MEMORY != CURRENT_AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 62. Cached Authority
+## 62. Cached Authority
 
 Cached authority decisions MAY be used only within their valid freshness and epoch constraints.
 
@@ -1646,9 +1646,9 @@ cached_authority:
 
 A cache lacking validity information SHOULD NOT authorize consequential commit.
 
----
+______________________________________________________________________
 
-# 63. Authority and RSCF
+## 63. Authority and RSCF
 
 Authority-related conclusions SHOULD be represented as RSCF claims.
 
@@ -1678,9 +1678,9 @@ falsifiers:
   - epoch stale
 ```
 
----
+______________________________________________________________________
 
-# 64. Authority Claim Classes
+## 64. Authority Claim Classes
 
 Possible authority conclusions include:
 
@@ -1696,9 +1696,9 @@ An authority conclusion MUST NOT be promoted merely because the system strongly 
 
 Authority requires valid authority evidence.
 
----
+______________________________________________________________________
 
-# 65. Unknown Authority
+## 65. Unknown Authority
 
 For authority-requiring effects:
 
@@ -1722,9 +1722,9 @@ UNKNOWN_AUTHORITY
 IMPLICIT_ALLOW
 ```
 
----
+______________________________________________________________________
 
-# 66. Ambiguous Authority
+## 66. Ambiguous Authority
 
 If two plausible authority interpretations remain unresolved:
 
@@ -1741,9 +1741,9 @@ AUTHORITY = COMPETING / UNKNOWN
 
 and consequential commitment SHOULD fail closed until discriminating evidence resolves the ambiguity.
 
----
+______________________________________________________________________
 
-# 67. H/M/L Applicability
+## 67. H/M/L Applicability
 
 ## H — Governing Authority
 
@@ -1758,7 +1758,7 @@ H-level authority includes:
 
 H-level authority constrains lower levels.
 
----
+______________________________________________________________________
 
 ## M — Subsystem Authority
 
@@ -1773,7 +1773,7 @@ M-level authority includes:
 
 M authority cannot exceed governing H authority.
 
----
+______________________________________________________________________
 
 ## L — Local Authority
 
@@ -1788,9 +1788,9 @@ L-level authority includes:
 
 L-level action must remain within H and M constraints.
 
----
+______________________________________________________________________
 
-# 68. Cross-Scale Authority
+## 68. Cross-Scale Authority
 
 Conceptually:
 
@@ -1808,9 +1808,9 @@ This must not be assumed for unrelated authority structures.
 
 Cross-scale relationships require explicit lineage.
 
----
+______________________________________________________________________
 
-# 69. Control-Plane Ownership
+## 69. Control-Plane Ownership
 
 Authority enforcement is a control-plane responsibility.
 
@@ -1832,9 +1832,9 @@ CONTROL PLANE
 
 This prevents cognition from manufacturing governance.
 
----
+______________________________________________________________________
 
-# 70. Worker Boundary
+## 70. Worker Boundary
 
 A worker MAY determine:
 
@@ -1850,30 +1850,30 @@ It MUST NOT infer:
 
 The worker may supply evidence to the authority resolver but does not become the authority source by proposing the evidence.
 
----
+______________________________________________________________________
 
-# 71. Authority Resolver
+## 71. Authority Resolver
 
 An authority resolver SHOULD:
 
 1. identify principal;
-2. identify proposed effect;
-3. resolve canonical resource identity;
-4. identify required authority type;
-5. retrieve applicable grants;
-6. validate issuer authority;
-7. validate delegation chain;
-8. validate scope;
-9. validate epoch/freshness;
-10. check revocation;
-11. resolve policy;
-12. evaluate constraints;
-13. produce an authority decision;
-14. produce or reference an authority witness.
+1. identify proposed effect;
+1. resolve canonical resource identity;
+1. identify required authority type;
+1. retrieve applicable grants;
+1. validate issuer authority;
+1. validate delegation chain;
+1. validate scope;
+1. validate epoch/freshness;
+1. check revocation;
+1. resolve policy;
+1. evaluate constraints;
+1. produce an authority decision;
+1. produce or reference an authority witness.
 
----
+______________________________________________________________________
 
-# 72. Authority Decision
+## 72. Authority Decision
 
 A conceptual authority decision:
 
@@ -1909,9 +1909,9 @@ ESCALATE
 UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 73. Conditional Authority
+## 73. Conditional Authority
 
 Authority MAY be conditional.
 
@@ -1928,9 +1928,9 @@ The conditions MUST be evaluated before commitment.
 
 Conditional authority is not unconditional authority.
 
----
+______________________________________________________________________
 
-# 74. Authority Witness Lifecycle
+## 74. Authority Witness Lifecycle
 
 Conceptual lifecycle:
 
@@ -1957,9 +1957,9 @@ INVALIDATED
 
 Witness state must not outlive underlying authority validity.
 
----
+______________________________________________________________________
 
-# 75. Witness Replay
+## 75. Witness Replay
 
 An authority witness MUST NOT be replayable outside its permitted context.
 
@@ -1977,9 +1977,9 @@ transaction_binding
 
 This prevents valid historical authorization from being reused for a different effect.
 
----
+______________________________________________________________________
 
-# 76. Witness Mutation
+## 76. Witness Mutation
 
 A witness MUST NOT be altered after authorization in a way that expands authority.
 
@@ -1996,9 +1996,9 @@ constraints
 
 the authority decision SHOULD be invalidated and recomputed.
 
----
+______________________________________________________________________
 
-# 77. Transaction Binding
+## 77. Transaction Binding
 
 Where an operation belongs to a transaction:
 
@@ -2012,9 +2012,9 @@ SHOULD be required when transaction identity is authority-relevant.
 
 A witness for one transaction must not authorize another by default.
 
----
+______________________________________________________________________
 
-# 78. Atomic Multi-Effect Authority
+## 78. Atomic Multi-Effect Authority
 
 A transaction may contain multiple effects:
 
@@ -2038,9 +2038,9 @@ does not automatically authorize:
 E1 + E2 + E3
 ```
 
----
+______________________________________________________________________
 
-# 79. Partial Authorization
+## 79. Partial Authorization
 
 If only part of a proposed transaction is authorized:
 
@@ -2062,9 +2062,9 @@ REQUEST ADDITIONAL AUTHORITY
 
 subject to transaction semantics.
 
----
+______________________________________________________________________
 
-# 80. Atomicity
+## 80. Atomicity
 
 Where effects are defined as an atomic unit, authority must be valid for the entire unit before commit.
 
@@ -2074,9 +2074,9 @@ PARTIAL_AUTHORITY
 ATOMIC_TRANSACTION_AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 81. Authority Mutation During Transaction
+## 81. Authority Mutation During Transaction
 
 If authority changes while a transaction is pending:
 
@@ -2095,9 +2095,9 @@ ABORT / ROLLBACK
 
 subject to domain recovery semantics.
 
----
+______________________________________________________________________
 
-# 82. Authority and MVCC/CAS Concepts
+## 82. Authority and MVCC/CAS Concepts
 
 Where AMOS uses MVCC/CAS-style reasoning patterns, authority state SHOULD participate in the observed state set for consequential commitment.
 
@@ -2125,9 +2125,9 @@ rather than committing against stale authority state.
 
 This is a reasoning/control pattern, not a claim that every ChatGPT execution literally implements MVCC.
 
----
+______________________________________________________________________
 
-# 83. Authority Causal Priority
+## 83. Authority Causal Priority
 
 Authority changes that causally precede commitment MUST be respected.
 
@@ -2143,9 +2143,9 @@ COMMIT
 REVOKED AUTHORITY CANNOT LEGITIMIZE COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 84. Finality Boundary
+## 84. Finality Boundary
 
 Once a legitimately authorized irreversible effect is committed, later revocation does not necessarily erase the historical fact that the earlier commit was authorized.
 
@@ -2163,9 +2163,9 @@ authorized_now
 
 Revocation controls future authority unless domain rules define rollback or retroactive invalidation.
 
----
+______________________________________________________________________
 
-# 85. Event vs Authorization
+## 85. Event vs Authorization
 
 Observed execution is not evidence of valid authority by itself.
 
@@ -2177,9 +2177,9 @@ EVENT_AUTHORIZED
 
 Post-event auditing must reconstruct authority independently.
 
----
+______________________________________________________________________
 
-# 86. Audit Requirements
+## 86. Audit Requirements
 
 An authority audit SHOULD be able to answer:
 
@@ -2198,9 +2198,9 @@ Was the witness fresh?
 Did committed effect match authorized effect?
 ```
 
----
+______________________________________________________________________
 
-# 87. Audit Record
+## 87. Audit Record
 
 Conceptual audit record:
 
@@ -2225,9 +2225,9 @@ authority_audit:
   provenance: [...]
 ```
 
----
+______________________________________________________________________
 
-# 88. Authority Failure Modes
+## 88. Authority Failure Modes
 
 L7 recognizes at least the following failure classes.
 
@@ -2331,9 +2331,9 @@ Independent authority paths are incorrectly destroyed.
 
 Occurred action is assumed authorized because it succeeded technically.
 
----
+______________________________________________________________________
 
-# 89. Repair / Recovery
+## 89. Repair / Recovery
 
 Canonical conceptual recovery flow:
 
@@ -2365,9 +2365,9 @@ ROLLBACK / ABORT / REAUTHORIZE / ESCALATE
 REVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 90. Selective Authority Repair
+## 90. Selective Authority Repair
 
 Authority failure SHOULD invalidate only dependent authority paths.
 
@@ -2397,9 +2397,9 @@ C2
 
 unless dependency exists.
 
----
+______________________________________________________________________
 
-# 91. Unauthorized Effect Recovery
+## 91. Unauthorized Effect Recovery
 
 If an unauthorized effect has already occurred, the system SHOULD distinguish:
 
@@ -2429,9 +2429,9 @@ Recovery may require:
 
 Domain rules determine the actual recovery.
 
----
+______________________________________________________________________
 
-# 92. Over-Authorization Repair
+## 92. Over-Authorization Repair
 
 If a grant is discovered to be broader than intended:
 
@@ -2443,9 +2443,9 @@ the overbroad grant and issue a narrower replacement where authorized.
 
 Historical descendants must be evaluated according to their dependency on the defective grant.
 
----
+______________________________________________________________________
 
-# 93. Validator Families
+## 93. Validator Families
 
 Conceptual L7 validators include:
 
@@ -2483,9 +2483,9 @@ validate_commit_authority()
 
 These names describe conceptual validator responsibilities and do not assert exact implementation function names unless independently matched to runtime code.
 
----
+______________________________________________________________________
 
-# 94. Supplied Enforcement Claim
+## 94. Supplied Enforcement Claim
 
 The supplied artifact states:
 
@@ -2517,9 +2517,9 @@ INDEPENDENTLY_VERIFIED_17_OF_17_PASS
 
 until the harness and outputs are inspected or executed.
 
----
+______________________________________________________________________
 
-# 95. Minimum Validator Tests
+## 95. Minimum Validator Tests
 
 ## L7-T1 — Capability Without Authority
 
@@ -2536,7 +2536,7 @@ Expected:
 COMMIT = DENIED
 ```
 
----
+______________________________________________________________________
 
 ## L7-T2 — Authority Without Capability
 
@@ -2555,7 +2555,7 @@ AUTHORIZED_BUT_NOT_EXECUTABLE
 
 not fabricated execution.
 
----
+______________________________________________________________________
 
 ## L7-T3 — Policy Allow Without Authority
 
@@ -2572,7 +2572,7 @@ Expected:
 COMMIT = DENIED
 ```
 
----
+______________________________________________________________________
 
 ## L7-T4 — Authority With Policy Deny
 
@@ -2589,7 +2589,7 @@ Expected:
 COMMIT = DENIED
 ```
 
----
+______________________________________________________________________
 
 ## L7-T5 — Scope Mismatch
 
@@ -2606,7 +2606,7 @@ Expected:
 AUTHORITY = INVALID_FOR_EFFECT
 ```
 
----
+______________________________________________________________________
 
 ## L7-T6 — Self Authorization
 
@@ -2622,7 +2622,7 @@ Expected:
 REJECT
 ```
 
----
+______________________________________________________________________
 
 ## L7-T7 — Delegation Amplification
 
@@ -2641,7 +2641,7 @@ INVALID_DELEGATION
 
 unless independent authority supplies the expansion.
 
----
+______________________________________________________________________
 
 ## L7-T8 — Expired Grant
 
@@ -2657,7 +2657,7 @@ Expected:
 COMMIT = DENIED
 ```
 
----
+______________________________________________________________________
 
 ## L7-T9 — Revocation Before Commit
 
@@ -2676,7 +2676,7 @@ Expected:
 COMMIT = DENIED
 ```
 
----
+______________________________________________________________________
 
 ## L7-T10 — Revocation After Commit
 
@@ -2695,7 +2695,7 @@ historical commit authority evaluated at E1
 future authority revoked at E2
 ```
 
----
+______________________________________________________________________
 
 ## L7-T11 — Witness Action Mismatch
 
@@ -2712,7 +2712,7 @@ Expected:
 COMMIT = DENIED
 ```
 
----
+______________________________________________________________________
 
 ## L7-T12 — Witness Resource Mismatch
 
@@ -2729,7 +2729,7 @@ Expected:
 COMMIT = DENIED
 ```
 
----
+______________________________________________________________________
 
 ## L7-T13 — Stale Epoch
 
@@ -2748,7 +2748,7 @@ REVALIDATE
 
 before consequential commit.
 
----
+______________________________________________________________________
 
 ## L7-T14 — Broken Delegation Ancestor
 
@@ -2767,7 +2767,7 @@ G2 invalid
 
 unless B has independent authority.
 
----
+______________________________________________________________________
 
 ## L7-T15 — Independent Authority Path
 
@@ -2786,7 +2786,7 @@ evaluate G2 independently
 
 not global revocation.
 
----
+______________________________________________________________________
 
 ## L7-T16 — Partial Atomic Authorization
 
@@ -2803,7 +2803,7 @@ Expected:
 FULL_ATOMIC_COMMIT = DENIED
 ```
 
----
+______________________________________________________________________
 
 ## L7-T17 — Memory Grant Stale
 
@@ -2822,27 +2822,27 @@ AUTHORITY = UNKNOWN
 
 not implicit reuse.
 
----
+______________________________________________________________________
 
-# 96. Falsifiers
+## 96. Falsifiers
 
 This specification requires revision if:
 
 1. authoritative authority canon defines materially different grant lifecycle semantics;
-2. root authority is canonically defined differently from the supplied human-root rule;
-3. delegation is canonically permitted to expand authority under rules not represented here;
-4. revocation uses materially different epoch semantics;
-5. authoritative canon permits ambient authority;
-6. policy decisions canonically function as authority grants;
-7. authoritative runtime does not use effect-bound witnesses;
-8. `authz_invariant_engine.py` does not exist in the claimed lineage;
-9. `INV-001..050` has materially different semantics;
-10. the reported `17/17` result cannot be reproduced under the claimed environment;
-11. higher-order canon supersedes one or more A-1 through A-4 laws.
+1. root authority is canonically defined differently from the supplied human-root rule;
+1. delegation is canonically permitted to expand authority under rules not represented here;
+1. revocation uses materially different epoch semantics;
+1. authoritative canon permits ambient authority;
+1. policy decisions canonically function as authority grants;
+1. authoritative runtime does not use effect-bound witnesses;
+1. `authz_invariant_engine.py` does not exist in the claimed lineage;
+1. `INV-001..050` has materially different semantics;
+1. the reported `17/17` result cannot be reproduced under the claimed environment;
+1. higher-order canon supersedes one or more A-1 through A-4 laws.
 
----
+______________________________________________________________________
 
-# 97. Core Invariants
+## 97. Core Invariants
 
 ## L7-I1 — Separation
 
@@ -2986,9 +2986,9 @@ AUTHORITY_FOR_PART
 AUTHORITY_FOR_ATOMIC_WHOLE
 ```
 
----
+______________________________________________________________________
 
-# 98. Hard Boundaries
+## 98. Hard Boundaries
 
 ```text
 CAPABILITY != AUTHORITY
@@ -3032,9 +3032,9 @@ CAPABILITY != AUTHORITY
 UNKNOWN/GAP != PASS
 ```
 
----
+______________________________________________________________________
 
-# 99. Dependencies
+## 99. Dependencies
 
 Primary conceptual dependency spine:
 
@@ -3083,9 +3083,9 @@ dependencies:
     role: prevents unknown or conflicting authority from becoming implicit allow
 ```
 
----
+______________________________________________________________________
 
-# 100. Related Authority Infrastructure
+## 100. Related Authority Infrastructure
 
 L7 conceptually interfaces with:
 
@@ -3109,30 +3109,30 @@ These artifacts SHOULD preserve the L7 separation laws.
 
 Their existence or names alone do not prove implementation.
 
----
+______________________________________________________________________
 
-# 101. Agent Contract
+## 101. Agent Contract
 
 An L7-conformant agent SHOULD:
 
 1. identify the proposed effect;
-2. identify the acting principal;
-3. distinguish capability from authority;
-4. identify authority requirements;
-5. resolve scope;
-6. resolve applicable policy;
-7. trace delegation;
-8. inspect revocation;
-9. inspect freshness/epoch;
-10. obtain or validate an authority witness;
-11. preserve unresolved authority as `UNKNOWN`;
-12. request escalation rather than self-authorize;
-13. revalidate before consequential commit;
-14. log authority provenance where required.
+1. identify the acting principal;
+1. distinguish capability from authority;
+1. identify authority requirements;
+1. resolve scope;
+1. resolve applicable policy;
+1. trace delegation;
+1. inspect revocation;
+1. inspect freshness/epoch;
+1. obtain or validate an authority witness;
+1. preserve unresolved authority as `UNKNOWN`;
+1. request escalation rather than self-authorize;
+1. revalidate before consequential commit;
+1. log authority provenance where required.
 
----
+______________________________________________________________________
 
-# 102. Skill Contract
+## 102. Skill Contract
 
 A Skill capable of consequential effects SHOULD declare:
 
@@ -3157,9 +3157,9 @@ authority_contract:
 
 A Skill's capability declaration MUST NOT function as an authority grant.
 
----
+______________________________________________________________________
 
-# 103. Workflow Contract
+## 103. Workflow Contract
 
 Canonical authority workflow:
 
@@ -3185,9 +3185,9 @@ Canonical authority workflow:
 19. PROPAGATE REVOCATION / INVALIDATION IF REQUIRED
 ```
 
----
+______________________________________________________________________
 
-# 104. Protocol Contract
+## 104. Protocol Contract
 
 Conceptual authority protocol:
 
@@ -3229,9 +3229,9 @@ COMMIT_RESULT:
   commit_epoch: ...
 ```
 
----
+______________________________________________________________________
 
-# 105. RSCF Completion State
+## 105. RSCF Completion State
 
 ```yaml
 claim_class: AMOS_MODEL
@@ -3326,9 +3326,9 @@ confidence_ceiling:
   runtime_verification: NOT_ESTABLISHED_HERE
 ```
 
----
+______________________________________________________________________
 
-# 106. Gap Status
+## 106. Gap Status
 
 ```yaml
 gap_status:
@@ -3374,9 +3374,9 @@ gap_status:
     final_canon_approval: REQUIRED
 ```
 
----
+______________________________________________________________________
 
-# 107. Canon Promotion Gate
+## 107. Canon Promotion Gate
 
 Before final canon promotion:
 
@@ -3435,9 +3435,9 @@ not:
 STATUS = VERIFIED_FINAL_CANON
 ```
 
----
+______________________________________________________________________
 
-# 108. Final L7 Law Summary
+## 108. Final L7 Law Summary
 
 The L7 authority boundary reduces to four source-supplied governing laws:
 
@@ -3465,18 +3465,21 @@ PRINCIPAL-BOUND
 +
 EPOCH-BOUND
 ```
+
 ```text
 A-3
 AUTHORITY IS REVOCABLE
 AND REVOCATION MUST NOT DRIFT
 PAST ITS EFFECTIVE EPOCH
 ```
+
 ```text
 A-4
 AUTHORITY CANNOT BE SELF-ISSUED;
 DELEGATED AUTHORITY MUST TRACE
 TO A VALID ROOT
 ```
+
 The resulting commitment rule is conceptually:
 
 ```text
@@ -3520,15 +3523,15 @@ SELECTIVE INVALIDATION
 COMMIT-TIME REVALIDATION
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[01_CANON/01_CORE_LAWS/L0_INTEGRITY|L0_INTEGRITY]] · [[01_CANON/01_CORE_LAWS/L1_EPISTEMIC|L1_EPISTEMIC]] · [[01_CANON/01_CORE_LAWS/L2_PROVENANCE|L2_PROVENANCE]] · [[01_CANON/01_CORE_LAWS/L3_DEPENDENCY|L3_DEPENDENCY]] · [[01_CANON/01_CORE_LAWS/L4_CAUSAL|L4_CAUSAL]] · [[01_CANON/01_CORE_LAWS/L5_SCOPE_REGIME|L5_SCOPE_REGIME]] · [[01_CANON/01_CORE_LAWS/L6_UNCERTAINTY|L6_UNCERTAINTY]] · [[00_ROOT/00_ROOT_AUTHORIZATION|00_ROOT_AUTHORIZATION]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHORIZATION_SPEC|AUTHORIZATION_SPEC]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHORITY_RESOLVER|AUTHORITY_RESOLVER]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHORITY_WITNESS|AUTHORITY_WITNESS]] · [[03_CONTROL_PLANE/04_AUTHORITY/DELEGATION|DELEGATION]] · [[03_CONTROL_PLANE/04_AUTHORITY/REVOCATION|REVOCATION]] · [[03_CONTROL_PLANE/03_POLICY/POLICY_ENGINE|POLICY_ENGINE]] · [[03_CONTROL_PLANE/03_POLICY/POLICY_REGISTRY|POLICY_REGISTRY]] · [[03_CONTROL_PLANE/03_POLICY/POLICY_DECISION|POLICY_DECISION]] · CAPABILITY_CONTRACT · [[03_CONTROL_PLANE/02_CAPABILITY/CAPABILITY_MANIFEST|CAPABILITY_MANIFEST]] · [[03_CONTROL_PLANE/00_INDEX/CONTROL_PLANE_MAP|CONTROL_PLANE_MAP]]
 
----
+______________________________________________________________________
 
 RSCF-NODE
 
@@ -3565,5 +3568,6 @@ claim_class: AMOS_MODEL
 ```
 ```
 
----
+______________________________________________________________________
+
 **MOC:** [[01_CANON/01_CORE_LAWS/01_CORE_LAWS_MOC|01_CORE_LAWS_MOC]]

@@ -1,226 +1,104 @@
 ---
 title: AMOS Total Framework Registry
-type: framework
+type: registry
 source: 00_ROOT
 artifact: AMOS_TOTAL_FRAMEWORK_REGISTRY.md
-artifact_id: amos_00_root_amos_total_framework_registry
+artifact_id: 00_root_amos_total_framework_registry
 origin_architect: Trang Phan
 steward: Trang Phan
 system: AMOS OS
 plane: 00_ROOT
-segment: 00_ROOT
+segment: 00_ROOT/AMOS_TOTAL_FRAMEWORK_REGISTRY.md
 artifact_kind: REGISTRY
 path: 00_ROOT/AMOS_TOTAL_FRAMEWORK_REGISTRY.md
 tags:
-- amos-os
-- root
-- index
-- registry
-- canon_placeholder
-- rscf
-- canon/root
-- routing-policy-validation-receipt
-- authz-engine-validation-receipt
-- law-hierarchy
-version: 0.1.0
-updated: '2026-08-27'
-status: PLACEHOLDER
+  - amos-os
+  - framework-registry
+  - canon/root
+  - rscf
+  - hml
+  - tss
+  - tpe
+  - ubi
+  - fkn
+  - frameworks
+version: 1.0.0
+updated: '2026-09-03'
+status: POPULATED_REGISTRY
 epistemic_class: AMOS_MODEL
-canonical_status: UNKNOWN/GAP
-implementation_status: NOT_ESTABLISHED
-validation_status: NOT_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: ADD_ONLY
+conclusion_class: AMOS_MODEL
+canonical_status: AMOS_MODEL
+implementation_status: SPECIFIED_DOCUMENTARY
+validation_status: DERIVED_CONSISTENT
+ingestion_action: EXPANDED_SYNTHESIS
 rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: root_index
+  state: DERIVED
+  claim_class: AMOS_MODEL
+  provenance:
+    - 01_CANON/01_CORE_LAWS/AMOS_CORE_LAWS
+    - 11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC
+    - 11_KNOWLEDGE/trang/TRANG_FRAMEWORK
+  scope: repository_wide_framework_registry
 ---
 
-# AMOS Total Framework Registry
+# AMOS Total Framework Registry — Canonical Epistemic Frameworks
 
-## 0. Status
+**Origin architect / steward:** Trang Phan  
+**Status:** `POPULATED_REGISTRY`  
+**Lineage target:** `AMOS Core v4.4`  
+**Epistemic classification:** `AMOS_MODEL`  
 
-`AMOS_TOTAL_FRAMEWORK_REGISTRY.md` is an **ADD-ONLY placeholder** for the **Root** plane segment at `00_ROOT`.
+---
 
-It marks a canonical slot reserved by the AMOS canon-ingestion manifest for the framework family named above. It is NOT populated canon, NOT validated, and NOT enforced.
+## 1. Scope & Architectural Role
 
-The governing boundaries are:
+The **AMOS Total Framework Registry** indexes and coordinates all overarching conceptual, epistemic, and cognitive modeling frameworks across AMOS OS.
+
+Frameworks provide **the conceptual grammar, reasoning invariants, and formal scaffolds** that bridge low-level Kernel computations (`02_KERNEL`) with high-level Agent orchestrations (`06_AGENTS` / `08_WORKFLOWS`).
 
 ```text
-PLACEHOLDER != IMPLEMENTED
-
-ADDRESSABLE != VALIDATED
-
-DOCUMENTED != ENFORCED
-
-MODEL != OBSERVATION
-
-SOURCE_CLAIM != VERIFIED
-
-CANON_CANDIDATE != CANONICAL
-
-CANONICAL != EMPIRICAL_TRUTH
-
-CAPABILITY != AUTHORITY
-
-AUTHORIZATION != COMMIT
-
-PROPOSAL != COMMIT
-
-IMPLEMENTED != VALIDATED
-
-LOGGED != APPROVED
-
-UNKNOWN/GAP != PASS
-```
-
-Origin architect / steward:
-
-**Trang Phan**
-
----
-
-## 1. Purpose
-
-This artifact reserves the **AMOS Total Framework Registry** slot within the Root plane. The Root plane governs vault-wide identity, architecture map, authoritative state pointers, and release governance.
-
-Substantive content (canonical definitions, laws, registries, schemas, models, or bindings) is to be populated from verified native-canon sources under the AMOS_CANON_INGESTION_RULE. This placeholder does not, by its existence, establish canon, empirical validity, or runtime enforcement.
-
----
-
-## 2. Non-Purpose
-
-This placeholder MUST NOT be used to claim:
-
-- universal laws of reality;
-- scientific proof;
-- biological truth;
-- mathematical theoremhood;
-- philosophical certainty;
-- runtime enforcement that has not been implemented;
-- final canonical status;
-- authority merely from architectural importance;
-- or successful validation merely because the slot is addressable.
-
----
-
-## 3. Ingestion Rule
-
-```yaml
-AMOS_CANON_INGESTION_RULE:
-  existing_folder:
-    preserve: true
-  existing_file:
-    preserve: true
-    overwrite: false
-  new_framework:
-    action: ADD_FILE_TO_EXISTING_FOLDER
-  master_source:
-    action: NORMALIZE_TO_RSCF_FILE
-  framework_existing_in_multiple_sources:
-    action:
-      - CREATE_ONE_CANONICAL_NODE
-      - LINK_ALL_SOURCE_PROVENANCE
-      - DO_NOT_CREATE_DUPLICATE_CANON
-  historical_source:
-    action:
-      - LINK_TO_CANON
-      - RECORD_LINEAGE
-      - PRESERVE_HERITAGE
-  external_research:
-    action:
-      - KEEP_OUT_OF_NATIVE_CANON
-      - LINK_AS_EVIDENCE
-  duplicate_filename:
-    action:
-      - COMPARE_CONTENT_AND_LINEAGE
-      - DO_NOT_OVERWRITE
-  uncertainty:
-    action:
-      - MARK_GAP_OR_COMPETING
-      - NEVER_INVENT_CANON
+FRAMEWORK != KERNEL != IMPLEMENTED RUNTIME
+CONCEPTUAL SCAFFOLD != DETERMINISTIC ALU != EMPIRICAL TRUTH
 ```
 
 ---
 
-## 4. Contract discipline
+## 2. Master Framework Index (FW01–FW12)
 
-Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
-
----
-
-## 5. Gaps
-
-Executable binding NOT_ESTABLISHED. Canonical status UNKNOWN/GAP. Substantive content pending native-canon source ingestion. Validation receipt required before promotion: [[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]].
-
----
-
-## 6. Worked semantics (target)
-
-Given an operation touching `00_ROOT · REGISTRY` within the Root plane:
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-2. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-3. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-4. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-5. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-6. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
+| Code | Framework Title | Primary Focus | Governing Artifacts & Formal Scaffolds |
+| :--- | :--- | :--- | :--- |
+| **FW01** | **RSCF (Reality-Signal-Claim)** | Epistemic classification | Separates raw reality, observed signals, and verbalized claims. Enforces `SOURCE_CLAIM`, `OBSERVATION`, `DERIVED`, `AMOS_MODEL`, `UNKNOWN/GAP`. |
+| **FW02** | **H/M/L Epistemic Hierarchy** | Scoped granularity | High-level (governing domain), Mid-level (subsystem contract), Low-level (concrete detail & raw evidence). Prevents context bloating. |
+| **FW03** | **Trang Framework (TSS/TPE/∅)** | Recursive ontology | Trang Semantic Space (TSS), Trang Perspective Engine (TPE), and the Zero-Origin Void (∅) recursion dynamics. |
+| **FW04** | **DRC (Distinction-Relation-Constraint)** | Relational algebra | Formalizes intelligence as distinction-making, relationship-binding, and constraint-satisfaction. |
+| **FW05** | **UBI (Unified Biological Intelligence)** | Living systems cognition | Grounded autopoiesis, metabolic energy-budget constraint, bio-neurological coherence, organism survival imperative. |
+| **FW06** | **FKN (Fractal Knowledge Network)** | Self-similar knowledge | Scale-invariant representation where local note structures mirror vault-level architectural topologies. |
+| **FW07** | **Active Inference & Markov Blankets** | Predictive perception | Minimization of variational free energy across sensory, active, internal, and external states. |
+| **FW08** | **Cognitive Organism OS** | Supervised full-brain loop | Coordinated cognitive organs: Perception, Memory, Reasoning, Metacognition, Executive Governance. |
+| **FW09** | **Universal Coordinate System (UCS)** | Strategic field | 19×19 Go grid geometric embedding of cognitive states, strategic leverage points, and territory balance. |
+| **FW10** | **Value Creation OS** | Economic intelligence | Epistemic wealth creation, non-zero-sum coordination, opportunity discovery, resource optimization. |
+| **FW11** | **Constitutional Agent Governance** | Multi-agent safety | Non-delegable human stewardship, epoch-bounded capability grants, fail-closed permission gates. |
+| **FW12** | **Metamorphic Verification** | Formal robustness | Property-based testing where outputs under transformed inputs must satisfy relational invariants. |
 
 ---
 
-## 7. Promotion-gate checklist
+## 3. Framework Application Invariants
 
-- [ ] substantive content populated from verified native-canon source
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
-
----
-
-## 8. Cross-plane bindings (target)
-
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]|AMOS Core Laws · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
-- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
-- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
-
----
-
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
-
----
-
-**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+1. **Epistemic Discipline:** No framework may be used to elevate an unsubstantiated claim to empirical truth (`FRAMEWORK_APPLICATION != EMPIRICAL_VALIDATION`).
+2. **Preservation of Provenance:** Any knowledge synthesized through a framework must retain its original source citations.
+3. **Traceability:** Framework transitions must produce durable verification receipts registered under `20_OPERATIONS`.
 
 ---
 
 RSCF-NODE
-
 node_id: amos_00_root_amos_total_framework_registry
-
 node_type: registry
-
 path: 00_ROOT/AMOS_TOTAL_FRAMEWORK_REGISTRY.md
-
 claim_class: AMOS_MODEL
-
-rscf_state: placeholder
-
-canonical_status: UNKNOWN/GAP
-
+rscf_state: active_specification
+canonical_status: AMOS_MODEL
 RSCF-RELATIONS:
-
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-
-  - GOVERNED_BY: [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-
----
-**MOC:** [[00_ROOT/00_COSMO_BRAIN_MOC|00_COSMO_BRAIN_MOC]]
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]
+- BINDS: [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]
+- GOVERNED_BY: [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]

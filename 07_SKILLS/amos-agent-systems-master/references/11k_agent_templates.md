@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: 11k agent templates
 type: reference
 source: 07_SKILLS/amos-agent-systems-master/references
 tags:
-- reference
-- amos-agent-systems-master
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-agent-systems-master
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -20,7 +23,8 @@ rscf:
 > Source: `/Users/mac/Documents/AMOS_OS/11_KNOWLEDGE/Agent_Templates.md`
 > Epistemic class: SOURCE_DERIVED
 
----
+______________________________________________________________________
+
 canon-group: meta
 canon-type: framework
 canon-status: active
@@ -45,24 +49,21 @@ rscf-provenance-required: true
 topic: agent-templates
 
 tags:
-  - canon-group/tech-ai
-  - canon/framework
-  - canon/agent
-  - rscf/claim
-  - rscf/provenance
-  - rscf/state/source-claim
-  - topic/agent-templates
-  - topic/agent-architecture
-  - topic/agent-factory
-  - agents
 
-created: 2026-08-22
-updated: 2026-08-25
-origin-architect: Trang Phan
-steward: Trang Phan
----
+- canon-group/tech-ai
+- canon/framework
+- canon/agent
+- rscf/claim
+- rscf/provenance
+- rscf/state/source-claim
+- topic/agent-templates
+- topic/agent-architecture
+- topic/agent-factory
+- agents
 
-# AMOS Agent Templates
+## created: 2026-08-22 updated: 2026-08-25 origin-architect: Trang Phan steward: Trang Phan
+
+## AMOS Agent Templates
 
 > **Version:** `2.0.0`
 > **Schema Version:** `1.0.0`
@@ -72,7 +73,7 @@ steward: Trang Phan
 > **Classification:** `STRUCTURAL_MODEL`
 > **RSCF State:** `SOURCE_CLAIM`
 
----
+______________________________________________________________________
 
 ## 1. Purpose
 
@@ -119,9 +120,9 @@ Identity
 
 This is an **AMOS structural equation**, not an empirical law of all agent systems.
 
----
+______________________________________________________________________
 
-# 2. Canonical Position
+## 2. Canonical Position
 
 ```text
 AMOS
@@ -164,9 +165,9 @@ Configuration
 Runtime Instance
 ```
 
----
+______________________________________________________________________
 
-# 3. Framework Invariants
+## 3. Framework Invariants
 
 Every AMOS agent template MUST preserve the following invariants.
 
@@ -178,7 +179,7 @@ Every agent has an explicit identity.
 AgentIdentity != implicit role inferred from prompt
 ```
 
----
+______________________________________________________________________
 
 ## AT-I02 — Purpose
 
@@ -192,7 +193,7 @@ DeclaredObjectiveSet
 
 An agent without a bounded purpose is incomplete.
 
----
+______________________________________________________________________
 
 ## AT-I03 — Scope
 
@@ -205,7 +206,7 @@ OUT_OF_SCOPE
 
 Absence of an explicit exclusion does not automatically grant capability or authority.
 
----
+______________________________________________________________________
 
 ## AT-I04 — Capability / Authority Separation
 
@@ -217,7 +218,7 @@ AuthorizedToPerform(x)
 
 Technical capability never creates authority.
 
----
+______________________________________________________________________
 
 ## AT-I05 — Dependency Declaration
 
@@ -229,7 +230,7 @@ AgentValid
 DependenciesResolvable
 ```
 
----
+______________________________________________________________________
 
 ## AT-I06 — Provenance
 
@@ -243,7 +244,7 @@ Claim
 → Result
 ```
 
----
+______________________________________________________________________
 
 ## AT-I07 — Evidence Boundary
 
@@ -258,7 +259,7 @@ DECISION
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
 ## AT-I08 — Scope / Regime Boundary
 
@@ -278,10 +279,9 @@ ScopeCompatible
 -
 ```
 
----
+______________________________________________________________________
 
-**Related:** [[07_SKILLS/amos-agent-systems-master/amos-agent-systems-master_MOC|amos-agent-systems-master_MOC]]
----
+## **Related:** [[07_SKILLS/amos-agent-systems-master/amos-agent-systems-master_MOC|amos-agent-systems-master_MOC]]
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -289,12 +289,14 @@ ScopeCompatible
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-agent-systems-master-11k-agent-templates
 node_type: reference
 path: 07_SKILLS/amos-agent-systems-master/references/11k_agent_templates.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

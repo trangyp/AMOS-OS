@@ -12,21 +12,21 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: PROTOCOL
 path: 11_KNOWLEDGE/05_FRAMEWORKS/NEUTRAL_INTERFACE_TRAINING_PROTOCOL.md
 tags:
-- amos-os
-- knowledge
-- vault
-- 05_frameworks
-- neutral_interface
-- training_protocol
-- bias_elimination
-- non_coercive_ui
-- rscf
-- canon_candidate
-- canon/knowledge
-- post-theory-communication
-- consentx
-- unified-biological-intelligence
-- phuong-phap-trang
+  - amos-os
+  - knowledge
+  - vault
+  - 05_frameworks
+  - neutral_interface
+  - training_protocol
+  - bias_elimination
+  - non_coercive_ui
+  - rscf
+  - canon_candidate
+  - canon/knowledge
+  - post-theory-communication
+  - consentx
+  - unified-biological-intelligence
+  - phuong-phap-trang
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -41,19 +41,19 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - PHUONG_PHAP_TRANG_TAI_CAU_TRUC_TOAN_BO
-  - AMOS_CORPUS
+    - PHUONG_PHAP_TRANG_TAI_CAU_TRUC_TOAN_BO
+    - AMOS_CORPUS
   scope:
-  - KNOWLEDGE_FRAMEWORKS
-  - INTERFACE_PROTOCOLS
-  - SOURCE_DEFINED_MODEL
+    - KNOWLEDGE_FRAMEWORKS
+    - INTERFACE_PROTOCOLS
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   communication:
     artifact:
-    - - POST_THEORY_COMMUNICATION
+      -   - POST_THEORY_COMMUNICATION
   consent:
     artifact:
-    - - CONSENTX
+      -   - CONSENTX
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
@@ -67,26 +67,26 @@ epistemic_boundary:
 
 It establishes standards for training AI models and designing user interfaces that eliminate manipulative behavioral nudges, sycophancy, and emotional entanglement, maintaining an objective, neutral cognitive mirror.
 
----
+______________________________________________________________________
 
-# 1. Neutral Interface Dimensions
+## 1. Neutral Interface Dimensions
 
 1. **Non-Coercive Presentation:** Information presented with transparent uncertainties, alternatives, and trade-offs rather than leading suggestions.
-2. **Sycophancy Elimination:** AI responses challenge erroneous user premises gracefully rather than falsely flattering or agreeing.
-3. **Autonomic Calm Induction:** Interface visual and linguistic pacing designed to reduce sympathetic nervous system arousal and promote parasympathetic flow.
+1. **Sycophancy Elimination:** AI responses challenge erroneous user premises gracefully rather than falsely flattering or agreeing.
+1. **Autonomic Calm Induction:** Interface visual and linguistic pacing designed to reduce sympathetic nervous system arousal and promote parasympathetic flow.
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Post-Theory Communication:** [[11_KNOWLEDGE/05_FRAMEWORKS/POST_THEORY_COMMUNICATION|POST_THEORY_COMMUNICATION]]
 - **ConsentX:** [[11_KNOWLEDGE/05_FRAMEWORKS/CONSENTX|CONSENTX]]
 - **Biological Grounding:** [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]]
 - **Phương Pháp Trang:** [[11_KNOWLEDGE/05_FRAMEWORKS/PHUONG_PHAP_TRANG|PHUONG_PHAP_TRANG]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -104,10 +104,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/POST_THEORY_COMMUNICATION|POST_THEORY_COMMUNICATION]] · [[11_KNOWLEDGE/05_FRAMEWORKS/CONSENTX|CONSENTX]] · [[11_KNOWLEDGE/05_FRAMEWORKS/PHUONG_PHAP_TRANG|PHUONG_PHAP_TRANG]]
 
----
-**MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]
+______________________________________________________________________
 
+**MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]

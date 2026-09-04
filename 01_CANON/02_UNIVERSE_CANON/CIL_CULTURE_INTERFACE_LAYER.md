@@ -1,36 +1,39 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: CIL Culture Interface Layer
 type: universe-canon
 source: 01_CANON/02_UNIVERSE_CANON
 tags:
-- cil
-- culture
-- interface
-- universe_canon
-- localization
-- language
-- semantics
-- contextualization
-- semantic_fidelity
-- cultural_fidelity
-- translation
-- interpretation
-- provenance
-- epistemic_regime
-- scope_control
-- interface_layer
-- rscf/C-constraint
-- rscf/B-boundary
-- rscf/type-process
-- law/L17-rscf
-- law/L18-gmef
-- law/L19-proof-capsule
-- law/L20-adversarial
-- law/L21-epistemic-regime
-- law/L22-replayability
-- law/L23-mvcc-cas
-- law/L24-causal-epoch
-- trang-framework-recursive-ontology-dynamics
+  - cil
+  - culture
+  - interface
+  - universe_canon
+  - localization
+  - language
+  - semantics
+  - contextualization
+  - semantic_fidelity
+  - cultural_fidelity
+  - translation
+  - interpretation
+  - provenance
+  - epistemic_regime
+  - scope_control
+  - interface_layer
+  - rscf/C-constraint
+  - rscf/B-boundary
+  - rscf/type-process
+  - law/L17-rscf
+  - law/L18-gmef
+  - law/L19-proof-capsule
+  - law/L20-adversarial
+  - law/L21-epistemic-regime
+  - law/L22-replayability
+  - law/L23-mvcc-cas
+  - law/L24-causal-epoch
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
@@ -40,16 +43,16 @@ rscf:
 
 # CIL Culture Interface Layer
 
-> [!abstract] Canon Function
+> [!ABSTRACT] Canon Function
 > **CIL — Culture Interface Layer** is the cultural and linguistic contextualization layer of the Universe Canon.
 >
 > Its governing purpose is to preserve **localized semantic fidelity** when meaning crosses languages, cultures, communities, interpretive conventions, symbolic systems, or context boundaries.
 >
 > CIL adapts the **representation and interpretation interface** of meaning. It MUST NOT silently rewrite the underlying canonical claim merely to make that claim culturally familiar, persuasive, elegant, or locally conventional.
 
----
+______________________________________________________________________
 
-# 0. Canonical Statement
+## 0. Canonical Statement
 
 The source-established statement is:
 
@@ -81,9 +84,9 @@ MODEL-ELABORATED
 
 Where the authoritative Universe Canon defines additional CIL semantics, that canon supersedes model elaboration.
 
----
+______________________________________________________________________
 
-# 1. Governing Objective
+## 1. Governing Objective
 
 CIL exists to solve the transformation:
 
@@ -124,9 +127,9 @@ provenance preservation
 
 subject to the constraints of the target cultural and linguistic environment.
 
----
+______________________________________________________________________
 
-# 2. Core CIL Contract
+## 2. Core CIL Contract
 
 For source meaning `M_s`, source context `C_s`, source language `L_s`, target culture `C_t`, and target language `L_t`:
 
@@ -162,9 +165,9 @@ Where exact semantic equivalence cannot be established:
 CIL MUST expose the residual gap.
 ```
 
----
+______________________________________________________________________
 
-# 3. Semantic Fidelity Invariant
+## 3. Semantic Fidelity Invariant
 
 Let:
 
@@ -200,9 +203,9 @@ A transformation fails semantic fidelity if it materially changes:
 - dependencies;
 - provenance-relevant attribution.
 
----
+______________________________________________________________________
 
-# 4. Interface-Layer Principle
+## 4. Interface-Layer Principle
 
 CIL is an **interface layer**.
 
@@ -224,9 +227,9 @@ $$
 Transform(Interface) \neq Rewrite(Canon)
 $$
 
----
+______________________________________________________________________
 
-# 5. Representation ≠ Canon Mutation
+## 5. Representation ≠ Canon Mutation
 
 A localized representation is not automatically a new canonical claim.
 
@@ -250,9 +253,9 @@ New Canonical Claim
 
 Unless an explicit canon mutation process authorizes it.
 
----
+______________________________________________________________________
 
-# 6. Source Meaning Envelope
+## 6. Source Meaning Envelope
 
 Every consequential CIL transformation SHOULD construct a source meaning envelope.
 
@@ -295,9 +298,9 @@ source_meaning_envelope:
 
 This envelope identifies what cannot safely drift during localization.
 
----
+______________________________________________________________________
 
-# 7. Target Context Envelope
+## 7. Target Context Envelope
 
 CIL SHOULD also declare the target applicability environment.
 
@@ -335,9 +338,9 @@ Not every field is required for every transformation.
 
 Only decision-relevant context should be loaded.
 
----
+______________________________________________________________________
 
-# 8. Contextualization Function
+## 8. Contextualization Function
 
 CIL contextualization can be represented as:
 
@@ -365,9 +368,9 @@ A = audience context
 
 The transformation function must preserve load-bearing semantics even when surface form changes substantially.
 
----
+______________________________________________________________________
 
-# 9. Localization ≠ Literal Translation
+## 9. Localization ≠ Literal Translation
 
 CIL distinguishes:
 
@@ -396,9 +399,9 @@ lexical similarity
 semantic fidelity
 ```
 
----
+______________________________________________________________________
 
-# 10. Translation Mode
+## 10. Translation Mode
 
 Translation attempts to represent source content in another language.
 
@@ -418,9 +421,9 @@ operation:
     - silent scope expansion
 ```
 
----
+______________________________________________________________________
 
-# 11. Localization Mode
+## 11. Localization Mode
 
 Localization adapts content to a target locale or cultural environment.
 
@@ -443,9 +446,9 @@ localization convenience
 MUST NOT override semantic integrity.
 ```
 
----
+______________________________________________________________________
 
-# 12. Transcreation Boundary
+## 12. Transcreation Boundary
 
 Transcreation permits greater expressive transformation.
 
@@ -460,9 +463,9 @@ operation:
 
 A transcreated representation must not be presented as a literal translation.
 
----
+______________________________________________________________________
 
-# 13. Cultural Analogy Boundary
+## 13. Cultural Analogy Boundary
 
 CIL may use culturally familiar analogies to explain unfamiliar concepts.
 
@@ -484,9 +487,9 @@ $$
 
 Therefore a cultural analogy remains explanatory unless independently established as stronger.
 
----
+______________________________________________________________________
 
-# 14. Terminology Preservation
+## 14. Terminology Preservation
 
 Canon-specific terms SHOULD remain stable when translation would destroy their technical identity.
 
@@ -513,9 +516,9 @@ CANONICAL_TERM (localized explanation)
 
 rather than silently replacing the canonical identifier.
 
----
+______________________________________________________________________
 
-# 15. Protected-Term Registry
+## 15. Protected-Term Registry
 
 ```yaml
 protected_terms:
@@ -532,9 +535,9 @@ protected_terms:
 
 Protected terminology prevents vocabulary localization from silently changing architecture.
 
----
+______________________________________________________________________
 
-# 16. Semantic Atomization
+## 16. Semantic Atomization
 
 Before consequential localization, complex content SHOULD be decomposed into checkable semantic atoms.
 
@@ -557,9 +560,9 @@ A5: Validity ends if Z fails.
 
 The localized output must preserve these atoms.
 
----
+______________________________________________________________________
 
-# 17. Atom Preservation Invariant
+## 17. Atom Preservation Invariant
 
 For load-bearing semantic atoms:
 
@@ -589,9 +592,9 @@ mark the atom as NON_PORTABLE or GAP.
 
 Do not fabricate equivalence.
 
----
+______________________________________________________________________
 
-# 18. Non-Portable Semantics
+## 18. Non-Portable Semantics
 
 Some concepts do not have a reliable one-to-one cultural or linguistic equivalent.
 
@@ -614,9 +617,9 @@ portability:
 
 This is preferable to false equivalence.
 
----
+______________________________________________________________________
 
-# 19. Semantic Loss Budget
+## 19. Semantic Loss Budget
 
 CIL SHOULD treat semantic loss as an explicit risk.
 
@@ -643,9 +646,9 @@ UNKNOWN
 
 A critical semantic loss invalidates the localized output.
 
----
+______________________________________________________________________
 
-# 20. Semantic Addition Risk
+## 20. Semantic Addition Risk
 
 Localization can also add unsupported meaning.
 
@@ -668,9 +671,9 @@ Examples include adding:
 
 Unsupported additions are semantic defects.
 
----
+______________________________________________________________________
 
-# 21. Fidelity Equation
+## 21. Fidelity Equation
 
 A conceptual CIL quality function may be represented as:
 
@@ -699,9 +702,9 @@ This equation is a model abstraction, not a canon-established quantitative metri
 
 The weakest load-bearing component limits the final confidence.
 
----
+______________________________________________________________________
 
-# 22. Epistemic Fidelity
+## 22. Epistemic Fidelity
 
 CIL must preserve conclusion strength.
 
@@ -720,9 +723,9 @@ SOURCE_CLAIM -> independently verified
 
 These are invalid epistemic escalations.
 
----
+______________________________________________________________________
 
-# 23. Claim-Class Preservation
+## 23. Claim-Class Preservation
 
 ```yaml
 claim_class_mapping:
@@ -745,9 +748,9 @@ unless new independent evidence justifies reclassification.
 
 Translation itself never provides that evidence.
 
----
+______________________________________________________________________
 
-# 24. Uncertainty Preservation
+## 24. Uncertainty Preservation
 
 Suppose the source says:
 
@@ -781,9 +784,9 @@ Likewise:
 
 Uncertainty is semantic content.
 
----
+______________________________________________________________________
 
-# 25. Scope Preservation
+## 25. Scope Preservation
 
 Every important claim carries an applicability envelope.
 
@@ -804,9 +807,9 @@ assumptions
 
 A locally appropriate explanation must not silently universalize a scoped claim.
 
----
+______________________________________________________________________
 
-# 26. Scope Leakage Example
+## 26. Scope Leakage Example
 
 Source:
 
@@ -830,9 +833,9 @@ Correct pattern:
 
 with localized explanation if needed.
 
----
+______________________________________________________________________
 
-# 27. Temporal Fidelity
+## 27. Temporal Fidelity
 
 Terms such as:
 
@@ -852,9 +855,9 @@ CIL must preserve them where load-bearing.
 
 Removing temporal qualifiers may turn a bounded statement into a false universal.
 
----
+______________________________________________________________________
 
-# 28. Modal Fidelity
+## 28. Modal Fidelity
 
 CIL distinguishes:
 
@@ -889,9 +892,9 @@ MAY
 WILL
 ```
 
----
+______________________________________________________________________
 
-# 29. Causal Fidelity
+## 29. Causal Fidelity
 
 CIL must preserve causal typing.
 
@@ -933,9 +936,9 @@ sufficient condition
 
 Causal strength is load-bearing meaning.
 
----
+______________________________________________________________________
 
-# 30. Causal Firewall
+## 30. Causal Firewall
 
 CIL recognizes distinctions among:
 
@@ -956,9 +959,9 @@ Localization must preserve these distinctions whenever relevant.
 
 Cultural familiarity cannot license causal escalation.
 
----
+______________________________________________________________________
 
-# 31. Negation Fidelity
+## 31. Negation Fidelity
 
 Negation is protected.
 
@@ -980,9 +983,9 @@ not required
 
 Double negatives, negative concord, and language-specific negation structures require explicit validation when ambiguity could change meaning.
 
----
+______________________________________________________________________
 
-# 32. Quantity Fidelity
+## 32. Quantity Fidelity
 
 CIL must preserve quantitative semantics.
 
@@ -1003,9 +1006,9 @@ orders of magnitude
 
 Unit localization is permitted only with mathematically valid conversion.
 
----
+______________________________________________________________________
 
-# 33. Unit Conversion Boundary
+## 33. Unit Conversion Boundary
 
 For a quantity:
 
@@ -1023,9 +1026,9 @@ The conversion must preserve physical quantity within appropriate precision.
 
 Formatting changes are not mathematical evidence.
 
----
+______________________________________________________________________
 
-# 34. Proper-Name Fidelity
+## 34. Proper-Name Fidelity
 
 Names, organizations, places, canonical identifiers, and formal titles require controlled transformation.
 
@@ -1041,9 +1044,9 @@ LOCAL_ALIAS_WITH_CANONICAL_REFERENCE
 
 The selected policy should preserve identity.
 
----
+______________________________________________________________________
 
-# 35. Transliteration ≠ Translation
+## 35. Transliteration ≠ Translation
 
 ```text
 TRANSLITERATION:
@@ -1061,9 +1064,9 @@ A translated term may lose identity.
 
 CIL chooses based on the governing objective.
 
----
+______________________________________________________________________
 
-# 36. Cultural Context
+## 36. Cultural Context
 
 Meaning may depend on culturally embedded conventions.
 
@@ -1084,9 +1087,9 @@ Examples include:
 
 CIL may contextualize these dimensions without claiming that a culture is homogeneous.
 
----
+______________________________________________________________________
 
-# 37. Anti-Essentialism Constraint
+## 37. Anti-Essentialism Constraint
 
 A cultural label is not sufficient evidence that every individual within that population shares a behavior, belief, or interpretation.
 
@@ -1100,9 +1103,9 @@ individual-level fact
 
 CIL must avoid silently converting cultural context into deterministic stereotypes.
 
----
+______________________________________________________________________
 
-# 38. Intra-Cultural Variation
+## 38. Intra-Cultural Variation
 
 Target context may vary by:
 
@@ -1123,9 +1126,9 @@ individual preference
 
 Where variation materially changes interpretation, CIL should preserve competing localized interpretations rather than forcing one universal rendering.
 
----
+______________________________________________________________________
 
-# 39. Dialect and Register
+## 39. Dialect and Register
 
 CIL may adapt language across:
 
@@ -1144,9 +1147,9 @@ regional
 
 Register adaptation is valid only if semantic strength remains stable.
 
----
+______________________________________________________________________
 
-# 40. Audience Adaptation
+## 40. Audience Adaptation
 
 CIL can adjust explanatory complexity.
 
@@ -1165,9 +1168,9 @@ novice audience
 
 But simplification must not erase load-bearing qualifications.
 
----
+______________________________________________________________________
 
-# 41. Simplification Boundary
+## 41. Simplification Boundary
 
 Valid:
 
@@ -1191,9 +1194,9 @@ $$
 
 when the removed semantics are decision-relevant.
 
----
+______________________________________________________________________
 
-# 42. Idiom Handling
+## 42. Idiom Handling
 
 Idioms should be treated by meaning, not merely lexical composition.
 
@@ -1209,9 +1212,9 @@ NON_PORTABLE
 
 The selected strategy should minimize semantic distortion.
 
----
+______________________________________________________________________
 
-# 43. Metaphor Handling
+## 43. Metaphor Handling
 
 Metaphors can encode:
 
@@ -1225,9 +1228,9 @@ A target metaphor should not be substituted merely because it sounds natural.
 
 It must preserve the relevant semantic role.
 
----
+______________________________________________________________________
 
-# 44. Humor Boundary
+## 44. Humor Boundary
 
 Humor is especially culturally sensitive.
 
@@ -1248,9 +1251,9 @@ risk:
   default_level: HIGH
 ```
 
----
+______________________________________________________________________
 
-# 45. Politeness Boundary
+## 45. Politeness Boundary
 
 Languages encode politeness differently.
 
@@ -1273,9 +1276,9 @@ permission -> requirement
 
 unless source meaning supports it.
 
----
+______________________________________________________________________
 
-# 46. Cultural Safety Without Semantic Deletion
+## 46. Cultural Safety Without Semantic Deletion
 
 CIL may choose culturally appropriate presentation.
 
@@ -1289,9 +1292,9 @@ permission to delete truth conditions
 
 If accurate localization conflicts with expected cultural framing, CIL should preserve the claim and explain the contextual mismatch.
 
----
+______________________________________________________________________
 
-# 47. Canonical Identifier Rule
+## 47. Canonical Identifier Rule
 
 Canonical identifiers SHOULD remain machine-stable.
 
@@ -1310,9 +1313,9 @@ Human-facing labels may be localized.
 
 Machine identity should remain stable unless the authoritative canon defines localized IDs.
 
----
+______________________________________________________________________
 
-# 48. Dual Representation
+## 48. Dual Representation
 
 A robust localization may preserve both canonical and localized forms:
 
@@ -1329,9 +1332,9 @@ CIL
 
 This allows human accessibility without sacrificing graph identity.
 
----
+______________________________________________________________________
 
-# 49. CIL Transformation Receipt
+## 49. CIL Transformation Receipt
 
 Every consequential transformation SHOULD be capable of emitting a receipt.
 
@@ -1375,9 +1378,9 @@ cil_receipt:
   epoch: null
 ```
 
----
+______________________________________________________________________
 
-# 50. Transformation Provenance
+## 50. Transformation Provenance
 
 CIL should preserve:
 
@@ -1395,9 +1398,9 @@ output digest
 
 Without provenance, later reviewers may be unable to distinguish canonical source text from localized derivative text.
 
----
+______________________________________________________________________
 
-# 51. Derivative Identity
+## 51. Derivative Identity
 
 A localized artifact is a derivative representation.
 
@@ -1423,9 +1426,9 @@ three translations of one source
 three independent sources
 ```
 
----
+______________________________________________________________________
 
-# 52. Provenance Topology
+## 52. Provenance Topology
 
 CIL must preserve ancestry to prevent false independence.
 
@@ -1440,9 +1443,9 @@ CIL must preserve ancestry to prevent false independence.
 
 Agreement among them does not independently confirm `S`.
 
----
+______________________________________________________________________
 
-# 53. Sybil Resistance Principle
+## 53. Sybil Resistance Principle
 
 A single claim translated into many languages must not gain epistemic weight merely because it appears in many localized artifacts.
 
@@ -1456,9 +1459,9 @@ $$
 
 when all translations descend from source `S`.
 
----
+______________________________________________________________________
 
-# 54. Cultural Consensus Boundary
+## 54. Cultural Consensus Boundary
 
 Repeated cultural acceptance of a claim may be socially informative.
 
@@ -1478,9 +1481,9 @@ linguistic prevalence
 truth
 ```
 
----
+______________________________________________________________________
 
-# 55. Source Authority Boundary
+## 55. Source Authority Boundary
 
 An authoritative source may determine canonical terminology or governance meaning within its authority scope.
 
@@ -1488,9 +1491,9 @@ Authority does not automatically establish empirical truth outside that scope.
 
 CIL preserves this distinction.
 
----
+______________________________________________________________________
 
-# 56. Regime Preservation
+## 56. Regime Preservation
 
 Localization occurs inside an epistemic regime.
 
@@ -1519,9 +1522,9 @@ Default:
 target regime = source regime
 ```
 
----
+______________________________________________________________________
 
-# 57. Regime Firewall
+## 57. Regime Firewall
 
 Example:
 
@@ -1546,9 +1549,9 @@ EMPIRICAL
 
 occurred without evidence.
 
----
+______________________________________________________________________
 
-# 58. Cultural Model ≠ Empirical Culture
+## 58. Cultural Model ≠ Empirical Culture
 
 A CIL cultural model may represent assumptions about communication patterns.
 
@@ -1564,9 +1567,9 @@ MODEL
 
 unless independently validated for a defined population and context.
 
----
+______________________________________________________________________
 
-# 59. Context Freshness
+## 59. Context Freshness
 
 Cultural and linguistic conventions change.
 
@@ -1586,9 +1589,9 @@ freshness:
 
 A once-valid localization may become stale.
 
----
+______________________________________________________________________
 
-# 60. Temporal Cultural Drift
+## 60. Temporal Cultural Drift
 
 Terms may change meaning over time.
 
@@ -1604,9 +1607,9 @@ in all cases.
 
 Historical text must be interpreted within its historical linguistic context when that difference is material.
 
----
+______________________________________________________________________
 
-# 61. Semantic Versioning
+## 61. Semantic Versioning
 
 Localized terminology may need version control.
 
@@ -1628,9 +1631,9 @@ cil_semantic_version:
 
 This prevents new meanings from silently rewriting historical interpretations.
 
----
+______________________________________________________________________
 
-# 62. No Semantic Time Travel
+## 62. No Semantic Time Travel
 
 A later preferred translation must not silently alter what an earlier artifact said.
 
@@ -1648,9 +1651,9 @@ Translation_v2
 
 Historical representations remain reconstructable.
 
----
+______________________________________________________________________
 
-# 63. Replayability
+## 63. Replayability
 
 Given pinned:
 
@@ -1677,9 +1680,9 @@ $$
 
 for the deterministic surface.
 
----
+______________________________________________________________________
 
-# 64. Replay Boundary
+## 64. Replay Boundary
 
 Natural-language generation may contain nondeterministic elements unless constrained.
 
@@ -1699,9 +1702,9 @@ Bit-for-bit deterministic replay requires exact implementation support and pinne
 
 It must not be assumed merely from conceptual CIL architecture.
 
----
+______________________________________________________________________
 
-# 65. Semantic Replay
+## 65. Semantic Replay
 
 Where byte-identical output is unnecessary, a semantic replay validator may test whether a regenerated localization preserves the same protected semantic atoms.
 
@@ -1713,9 +1716,9 @@ semantic equivalence
 byte identity
 ```
 
----
+______________________________________________________________________
 
-# 66. State Integrity
+## 66. State Integrity
 
 A localization should be bound to the source state it was created from.
 
@@ -1736,9 +1739,9 @@ REVALIDATE
 
 rather than silently publishing a stale localization.
 
----
+______________________________________________________________________
 
-# 67. CAS-Style Publication Gate
+## 67. CAS-Style Publication Gate
 
 Conceptually:
 
@@ -1760,9 +1763,9 @@ This expresses state-integrity discipline.
 
 It does not independently establish literal hardware or database CAS implementation.
 
----
+______________________________________________________________________
 
-# 68. Epoch Binding
+## 68. Epoch Binding
 
 Every consequential localized artifact SHOULD record the canon epoch against which it was generated.
 
@@ -1776,9 +1779,9 @@ epoch_binding:
 
 If source canon crosses an epoch boundary, affected localizations require revalidation.
 
----
+______________________________________________________________________
 
-# 69. Selective Invalidation
+## 69. Selective Invalidation
 
 If only one source concept changes, only dependent localized representations should be invalidated where dependency closure is computable.
 
@@ -1794,9 +1797,9 @@ selective revalidation
 
 Unrelated localized content remains valid unless shared dependencies exist.
 
----
+______________________________________________________________________
 
-# 70. Dependency Graph
+## 70. Dependency Graph
 
 ```yaml
 cil_dependencies:
@@ -1818,9 +1821,9 @@ cil_dependencies:
 
 Hidden dependencies weaken replayability and provenance.
 
----
+______________________________________________________________________
 
-# 71. Cultural Context Dependency
+## 71. Cultural Context Dependency
 
 If interpretation relies on a cultural assumption:
 
@@ -1832,9 +1835,9 @@ that assumption becomes load-bearing.
 
 Therefore the localized conclusion's confidence cannot exceed confidence in `A_culture` unless independently revalidated.
 
----
+______________________________________________________________________
 
-# 72. Weakest-Premise Ceiling
+## 72. Weakest-Premise Ceiling
 
 For load-bearing premises:
 
@@ -1852,9 +1855,9 @@ $$
 
 unless independent evidence revalidates the affected conclusion.
 
----
+______________________________________________________________________
 
-# 73. Ambiguity Detection
+## 73. Ambiguity Detection
 
 CIL must detect ambiguity that can alter meaning.
 
@@ -1873,9 +1876,9 @@ SCOPE
 DOMAIN
 ```
 
----
+______________________________________________________________________
 
-# 74. Ambiguity Contract
+## 74. Ambiguity Contract
 
 ```yaml
 ambiguity:
@@ -1899,9 +1902,9 @@ If multiple interpretations remain equally plausible and decision-relevant:
 preserve COMPETING interpretations.
 ```
 
----
+______________________________________________________________________
 
-# 75. Competing Interpretations
+## 75. Competing Interpretations
 
 Example:
 
@@ -1924,9 +1927,9 @@ B — ...
 Discriminating context required: ...
 ```
 
----
+______________________________________________________________________
 
-# 76. Discriminating Evidence
+## 76. Discriminating Evidence
 
 When competing translations exist, CIL should seek the cheapest high-information discriminator.
 
@@ -1942,9 +1945,9 @@ Possible discriminators:
 
 More translations of the same ambiguous phrase are not necessarily useful evidence.
 
----
+______________________________________________________________________
 
-# 77. Glossary Priority
+## 77. Glossary Priority
 
 Where authoritative terminology exists:
 
@@ -1962,17 +1965,17 @@ subject to provenance and version validity.
 
 This ordering is a model policy unless the authoritative Universe Canon specifies a different precedence.
 
----
+______________________________________________________________________
 
-# 78. Definition Preservation
+## 78. Definition Preservation
 
 If a canonical term has an explicit definition, CIL should translate the definition rather than infer meaning solely from the term's ordinary-language appearance.
 
 This prevents false cognates and misleading lexical substitutions.
 
----
+______________________________________________________________________
 
-# 79. False-Friend Firewall
+## 79. False-Friend Firewall
 
 Words in two languages may look similar while carrying different meanings.
 
@@ -1986,9 +1989,9 @@ semantic equivalence
 
 CIL must validate meaning independently when false-friend risk is material.
 
----
+______________________________________________________________________
 
-# 80. Domain Firewall
+## 80. Domain Firewall
 
 A word may have different meanings in:
 
@@ -2007,9 +2010,9 @@ Domain context must be preserved.
 
 A culturally natural ordinary-language translation may be wrong in a technical domain.
 
----
+______________________________________________________________________
 
-# 81. Canonical Domain Priority
+## 81. Canonical Domain Priority
 
 For AMOS-specific canon:
 
@@ -2023,9 +2026,9 @@ within AMOS canon interpretation.
 
 This does not imply that the AMOS definition governs external domains.
 
----
+______________________________________________________________________
 
-# 82. Cross-Domain Mapping Boundary
+## 82. Cross-Domain Mapping Boundary
 
 If CIL maps a concept from one domain to another for explanation:
 
@@ -2044,9 +2047,9 @@ unless independently validated.
 
 It must not silently become identity.
 
----
+______________________________________________________________________
 
-# 83. Ontology Alignment
+## 83. Ontology Alignment
 
 Cultural systems may partition concepts differently.
 
@@ -2060,9 +2063,9 @@ no target equivalent
 
 These are ontology-alignment problems, not merely vocabulary problems.
 
----
+______________________________________________________________________
 
-# 84. One-to-Many Mapping
+## 84. One-to-Many Mapping
 
 ```text
 Source Concept S
@@ -2075,9 +2078,9 @@ CIL must preserve the distinctions required to reconstruct `S`.
 
 If choosing only `T1` loses load-bearing meaning, the mapping is invalid.
 
----
+______________________________________________________________________
 
-# 85. Many-to-One Mapping
+## 85. Many-to-One Mapping
 
 ```text
 Source S1 ----\
@@ -2087,9 +2090,9 @@ Source S2 ----/
 
 If `S1` and `S2` are canonically distinct, a shared target word must be disambiguated with qualifiers.
 
----
+______________________________________________________________________
 
-# 86. Null Mapping
+## 86. Null Mapping
 
 If no reliable target equivalent exists:
 
@@ -2103,14 +2106,14 @@ NO SAFE EQUIVALENT
 then CIL should:
 
 1. preserve the source term;
-2. provide explanation;
-3. mark non-portability.
+1. provide explanation;
+1. mark non-portability.
 
 It should not fabricate a culturally convenient equivalent.
 
----
+______________________________________________________________________
 
-# 87. Context Compression
+## 87. Context Compression
 
 CIL may compress explanatory context when safe.
 
@@ -2134,9 +2137,9 @@ for the relevant decision surface.
 
 This is a model criterion, not necessarily computationally decidable in all cases.
 
----
+______________________________________________________________________
 
-# 88. Context Expansion
+## 88. Context Expansion
 
 Sometimes localization requires adding context that the source audience already knows.
 
@@ -2150,9 +2153,9 @@ Example:
 
 It must not be merged invisibly into the source claim.
 
----
+______________________________________________________________________
 
-# 89. Annotation Separation
+## 89. Annotation Separation
 
 CIL SHOULD distinguish:
 
@@ -2166,9 +2169,9 @@ MODEL INFERENCE
 
 This preserves provenance.
 
----
+______________________________________________________________________
 
-# 90. Cultural Note Contract
+## 90. Cultural Note Contract
 
 ```yaml
 cultural_note:
@@ -2186,9 +2189,9 @@ cultural_note:
 
 A cultural note cannot silently alter source canon.
 
----
+______________________________________________________________________
 
-# 91. Bidirectional Fidelity
+## 91. Bidirectional Fidelity
 
 A strong localization may be tested by back-translation.
 
@@ -2216,9 +2219,9 @@ It is not proof of perfect equivalence.
 
 Two transformations can share the same error.
 
----
+______________________________________________________________________
 
-# 92. Independent Validation
+## 92. Independent Validation
 
 Where stakes justify it, CIL validation should use a genuinely different path.
 
@@ -2244,9 +2247,9 @@ canonical glossary + bilingual expert review
 
 Independence must be demonstrated rather than assumed.
 
----
+______________________________________________________________________
 
-# 93. Correlated Validation Warning
+## 93. Correlated Validation Warning
 
 These may not be independent:
 
@@ -2259,9 +2262,9 @@ two localized documents copied from one derivative
 
 Agreement under shared ancestry can hide systematic error.
 
----
+______________________________________________________________________
 
-# 94. Adversarial CIL Validation
+## 94. Adversarial CIL Validation
 
 For consequential localization, challenge the output for:
 
@@ -2285,9 +2288,9 @@ hidden assumptions
 regime crossing
 ```
 
----
+______________________________________________________________________
 
-# 95. Adversarial Test — Omission
+## 95. Adversarial Test — Omission
 
 Question:
 
@@ -2303,9 +2306,9 @@ FAIL
 
 when the omission changes load-bearing semantics.
 
----
+______________________________________________________________________
 
-# 96. Adversarial Test — Addition
+## 96. Adversarial Test — Addition
 
 Question:
 
@@ -2326,9 +2329,9 @@ UNSUPPORTED
 
 Unsupported load-bearing additions fail validation.
 
----
+______________________________________________________________________
 
-# 97. Adversarial Test — Epistemic Drift
+## 97. Adversarial Test — Epistemic Drift
 
 Compare:
 
@@ -2342,9 +2345,9 @@ against target.
 
 Any unlicensed strengthening is a defect.
 
----
+______________________________________________________________________
 
-# 98. Adversarial Test — Cultural Projection
+## 98. Adversarial Test — Cultural Projection
 
 Ask:
 
@@ -2360,9 +2363,9 @@ condition
 or remove assumption
 ```
 
----
+______________________________________________________________________
 
-# 99. Adversarial Test — Scope Leakage
+## 99. Adversarial Test — Scope Leakage
 
 Ask:
 
@@ -2378,9 +2381,9 @@ Did a universal claim become culturally restricted without support?
 
 Both require correction.
 
----
+______________________________________________________________________
 
-# 100. Sensitivity Test
+## 100. Sensitivity Test
 
 Identify the smallest translation decision capable of flipping the interpretation.
 
@@ -2398,9 +2401,9 @@ one temporal qualifier
 
 Validate that element first.
 
----
+______________________________________________________________________
 
-# 101. Fragility Classification
+## 101. Fragility Classification
 
 ```yaml
 fidelity_sensitivity:
@@ -2418,9 +2421,9 @@ fidelity_sensitivity:
 
 A localization is FRAGILE when small plausible linguistic changes alter load-bearing meaning.
 
----
+______________________________________________________________________
 
-# 102. Cultural Risk Classification
+## 102. Cultural Risk Classification
 
 ```text
 C0 — direct low-risk representation
@@ -2442,9 +2445,9 @@ Escalation triggers may include:
 - irreversible publication;
 - cross-regime mapping.
 
----
+______________________________________________________________________
 
-# 103. Adaptive Complexity
+## 103. Adaptive Complexity
 
 CIL should use the smallest sufficient contextualization scope.
 
@@ -2460,9 +2463,9 @@ maximum context accumulation
 
 for efficient integrity-preserving localization.
 
----
+______________________________________________________________________
 
-# 104. Cultural Context Overload
+## 104. Cultural Context Overload
 
 Excessive contextualization can itself distort meaning.
 
@@ -2478,9 +2481,9 @@ target claim dominated by assumptions absent from source
 
 Therefore contextualization must remain decision-relevant.
 
----
+______________________________________________________________________
 
-# 105. Privacy Boundary
+## 105. Privacy Boundary
 
 Cultural adaptation should not infer sensitive individual attributes merely from language, location, name, or group association.
 
@@ -2494,17 +2497,17 @@ A user's language preference does not prove:
 
 CIL should adapt to declared or contextually necessary language requirements without unsupported identity inference.
 
----
+______________________________________________________________________
 
-# 106. Individual Preference Priority
+## 106. Individual Preference Priority
 
 When an individual explicitly declares a linguistic or communication preference, that declared preference can govern interface presentation within its scope.
 
 It does not imply broader cultural identity.
 
----
+______________________________________________________________________
 
-# 107. Locale ≠ Culture
+## 107. Locale ≠ Culture
 
 ```text
 locale
@@ -2522,9 +2525,9 @@ uniform worldview
 
 CIL treats these as distinct context variables.
 
----
+______________________________________________________________________
 
-# 108. Cultural Context ≠ Governance Authority
+## 108. Cultural Context ≠ Governance Authority
 
 A culturally accepted convention does not automatically override governing canon.
 
@@ -2540,9 +2543,9 @@ CIL may explain the difference.
 
 It must not silently rewrite the invariant.
 
----
+______________________________________________________________________
 
-# 109. Governance Bridge
+## 109. Governance Bridge
 
 Where localized requirements genuinely conflict with canon or jurisdictional obligations, route through an explicit governance bridge.
 
@@ -2561,9 +2564,9 @@ Authorized Decision
 
 CIL itself should not manufacture governance authority.
 
----
+______________________________________________________________________
 
-# 110. Legal Localization Boundary
+## 110. Legal Localization Boundary
 
 Legal terms often lack exact cross-jurisdiction equivalents.
 
@@ -2579,9 +2582,9 @@ unless validated within the relevant jurisdictions.
 
 CIL should preserve jurisdiction and avoid implying legal equivalence from linguistic similarity.
 
----
+______________________________________________________________________
 
-# 111. Scientific Localization Boundary
+## 111. Scientific Localization Boundary
 
 Scientific terms should preserve operational meaning.
 
@@ -2596,9 +2599,9 @@ Cultural familiarity must not change:
 
 Popular-language simplification must remain epistemically faithful.
 
----
+______________________________________________________________________
 
-# 112. Historical Localization Boundary
+## 112. Historical Localization Boundary
 
 Historical concepts should not automatically be mapped onto present-day categories.
 
@@ -2612,9 +2615,9 @@ explain modern approximate mapping
 
 rather than silently rewriting historical ontology.
 
----
+______________________________________________________________________
 
-# 113. Religious / Philosophical Concept Boundary
+## 113. Religious / Philosophical Concept Boundary
 
 Concepts embedded in religious or philosophical systems may be non-portable.
 
@@ -2629,9 +2632,9 @@ model analogy
 
 and preserve competing interpretations when authoritative consensus is absent.
 
----
+______________________________________________________________________
 
-# 114. Symbolic Systems
+## 114. Symbolic Systems
 
 CIL may interface with non-prose meaning systems:
 
@@ -2649,9 +2652,9 @@ Meaning is context-dependent.
 
 A symbol familiar in one environment may carry a different or opposite interpretation elsewhere.
 
----
+______________________________________________________________________
 
-# 115. Symbol Preservation Contract
+## 115. Symbol Preservation Contract
 
 ```yaml
 symbol_mapping:
@@ -2672,9 +2675,9 @@ symbol_mapping:
 
 Visual similarity is not sufficient proof of symbolic equivalence.
 
----
+______________________________________________________________________
 
-# 116. Formatting Semantics
+## 116. Formatting Semantics
 
 Formatting can carry meaning.
 
@@ -2693,9 +2696,9 @@ date ordering
 
 CIL should preserve semantic formatting where relevant.
 
----
+______________________________________________________________________
 
-# 117. Writing Direction
+## 117. Writing Direction
 
 For right-to-left and bidirectional scripts, CIL must preserve:
 
@@ -2708,9 +2711,9 @@ For right-to-left and bidirectional scripts, CIL must preserve:
 
 Rendering correctness is part of interface fidelity when formatting affects interpretation.
 
----
+______________________________________________________________________
 
-# 118. Machine-Readable Fidelity
+## 118. Machine-Readable Fidelity
 
 Localized human text may coexist with stable machine-readable fields.
 
@@ -2725,9 +2728,9 @@ localized_claim_class_label: null
 
 Machine fields should not be translated in ways that break graph or schema identity.
 
----
+______________________________________________________________________
 
-# 119. Schema Localization Boundary
+## 119. Schema Localization Boundary
 
 Values intended for human reading may be localized.
 
@@ -2751,9 +2754,9 @@ label:
   ja: null
 ```
 
----
+______________________________________________________________________
 
-# 120. Search and Retrieval
+## 120. Search and Retrieval
 
 CIL SHOULD support retrieval across localized aliases while preserving canonical identity.
 
@@ -2771,9 +2774,9 @@ canonical ID
 
 This allows multilingual discovery without fragmenting the knowledge graph.
 
----
+______________________________________________________________________
 
-# 121. Alias Registry
+## 121. Alias Registry
 
 ```yaml
 alias_registry:
@@ -2792,9 +2795,9 @@ Aliases are lookup interfaces.
 
 They do not create separate canonical entities.
 
----
+______________________________________________________________________
 
-# 122. Canonical Graph Integrity
+## 122. Canonical Graph Integrity
 
 All localized aliases should resolve to the same canonical node unless they genuinely represent distinct concepts.
 
@@ -2807,9 +2810,9 @@ Alias_FR -----/
 
 This prevents cultural localization from fracturing entity identity.
 
----
+______________________________________________________________________
 
-# 123. Collision Detection
+## 123. Collision Detection
 
 Two canonical concepts may map to the same localized term.
 
@@ -2827,9 +2830,9 @@ term_collision:
 
 Do not silently choose one when ambiguity is decision-relevant.
 
----
+______________________________________________________________________
 
-# 124. Identity Collision Example
+## 124. Identity Collision Example
 
 ```text
 Canonical A -> "X"
@@ -2845,9 +2848,9 @@ X [B-context]
 
 or preserve canonical terms.
 
----
+______________________________________________________________________
 
-# 125. Semantic Drift Monitoring
+## 125. Semantic Drift Monitoring
 
 Repeated localization chains increase drift risk.
 
@@ -2871,9 +2874,9 @@ SOURCE -> C
 
 when direct translation is available.
 
----
+______________________________________________________________________
 
-# 126. Source-Rooted Localization
+## 126. Source-Rooted Localization
 
 Preferred topology:
 
@@ -2892,9 +2895,9 @@ SOURCE -> A -> B -> C
 
 unless intermediate translation is explicitly required.
 
----
+______________________________________________________________________
 
-# 127. Recursive Translation Risk
+## 127. Recursive Translation Risk
 
 If translation must occur through intermediates, every hop should preserve:
 
@@ -2907,9 +2910,9 @@ drift assessment
 
 Cumulative uncertainty should not be hidden.
 
----
+______________________________________________________________________
 
-# 128. Multi-Hop Confidence
+## 128. Multi-Hop Confidence
 
 Conceptually:
 
@@ -2928,9 +2931,9 @@ for load-bearing translation steps absent independent revalidation.
 
 More hops do not automatically increase confidence.
 
----
+______________________________________________________________________
 
-# 129. Error Propagation
+## 129. Error Propagation
 
 If an upstream translation contains an error:
 
@@ -2949,9 +2952,9 @@ all descendants depending on that translation may require invalidation.
 
 The original source and unrelated branches remain unaffected.
 
----
+______________________________________________________________________
 
-# 130. Failure Recovery
+## 130. Failure Recovery
 
 CIL recovery follows local repair.
 
@@ -2970,9 +2973,9 @@ revalidate affected outputs
 
 Do not recompute the entire Universe Canon unless dependency closure requires it.
 
----
+______________________________________________________________________
 
-# 131. Gap Classification
+## 131. Gap Classification
 
 CIL gaps are classified:
 
@@ -3001,9 +3004,9 @@ COSMETIC:
 nonessential stylistic preference
 ```
 
----
+______________________________________________________________________
 
-# 132. Critical Gap Rule
+## 132. Critical Gap Rule
 
 If a critical semantic gap cannot be resolved:
 
@@ -3019,9 +3022,9 @@ UNKNOWN/GAP
 
 or preserve competing interpretations.
 
----
+______________________________________________________________________
 
-# 133. CIL State Machine
+## 133. CIL State Machine
 
 ```text
 SOURCE_RECEIVED
@@ -3060,9 +3063,9 @@ COMMIT_CHECK
 LOCALIZED_ARTIFACT_COMMITTED
 ```
 
----
+______________________________________________________________________
 
-# 134. CIL Decision Matrix
+## 134. CIL Decision Matrix
 
 | Condition                            | Action                    |
 | ------------------------------------ | ------------------------- |
@@ -3078,9 +3081,9 @@ LOCALIZED_ARTIFACT_COMMITTED
 | Causal strength would increase       | Reject                    |
 | Critical semantic gap remains        | UNKNOWN/GAP               |
 
----
+______________________________________________________________________
 
-# 135. Fidelity Validation Matrix
+## 135. Fidelity Validation Matrix
 
 | Dimension             | Required State      |
 | --------------------- | ------------------- |
@@ -3097,9 +3100,9 @@ LOCALIZED_ARTIFACT_COMMITTED
 | Critical ambiguity    | RESOLVED or EXPOSED |
 | Non-portable concepts | DECLARED            |
 
----
+______________________________________________________________________
 
-# 136. Anti-Pattern — Fluent Semantic Drift
+## 136. Anti-Pattern — Fluent Semantic Drift
 
 ```text
 SOURCE:
@@ -3123,9 +3126,9 @@ fluency
 brevity
 ```
 
----
+______________________________________________________________________
 
-# 137. Anti-Pattern — Cultural Overwriting
+## 137. Anti-Pattern — Cultural Overwriting
 
 Invalid:
 
@@ -3136,9 +3139,9 @@ therefore the source must mean Y."
 
 Cultural convention is contextual evidence, not permission to overwrite explicit source semantics.
 
----
+______________________________________________________________________
 
-# 138. Anti-Pattern — Stereotype Localization
+## 138. Anti-Pattern — Stereotype Localization
 
 Invalid:
 
@@ -3149,9 +3152,9 @@ therefore user believes cultural assumption C
 
 Language alone does not establish individual belief.
 
----
+______________________________________________________________________
 
-# 139. Anti-Pattern — False Consensus
+## 139. Anti-Pattern — False Consensus
 
 Invalid:
 
@@ -3162,9 +3165,9 @@ therefore X has independent confirmation
 
 If they descend from one source, provenance remains correlated.
 
----
+______________________________________________________________________
 
-# 140. Anti-Pattern — Epistemic Promotion
+## 140. Anti-Pattern — Epistemic Promotion
 
 Invalid:
 
@@ -3178,9 +3181,9 @@ VERIFIED
 
 Translation is not validation.
 
----
+______________________________________________________________________
 
-# 141. Anti-Pattern — Regime Promotion
+## 141. Anti-Pattern — Regime Promotion
 
 Invalid:
 
@@ -3194,9 +3197,9 @@ EMPIRICAL_FACT
 
 No cultural interface transformation can independently license this promotion.
 
----
+______________________________________________________________________
 
-# 142. Anti-Pattern — Causal Promotion
+## 142. Anti-Pattern — Causal Promotion
 
 Invalid:
 
@@ -3208,9 +3211,9 @@ Invalid:
 
 unless separate causal evidence supports the stronger statement.
 
----
+______________________________________________________________________
 
-# 143. Anti-Pattern — Silent Scope Removal
+## 143. Anti-Pattern — Silent Scope Removal
 
 Invalid:
 
@@ -3222,9 +3225,9 @@ Invalid:
 
 This is semantic corruption.
 
----
+______________________________________________________________________
 
-# 144. Anti-Pattern — Canonical Term Replacement
+## 144. Anti-Pattern — Canonical Term Replacement
 
 Invalid when identity matters:
 
@@ -3244,17 +3247,17 @@ RSCF (localized explanatory gloss)
 
 instead.
 
----
+______________________________________________________________________
 
-# 145. Anti-Pattern — Unmarked Transcreation
+## 145. Anti-Pattern — Unmarked Transcreation
 
 Creative adaptation presented as literal translation is provenance failure.
 
 Transcreation must be explicitly typed.
 
----
+______________________________________________________________________
 
-# 146. Anti-Pattern — Back-Translation Proof
+## 146. Anti-Pattern — Back-Translation Proof
 
 Invalid reasoning:
 
@@ -3267,9 +3270,9 @@ Back-translation is evidence, not conclusive proof.
 
 Shared translation assumptions can preserve the same error.
 
----
+______________________________________________________________________
 
-# 147. Anti-Pattern — Authority by Fluency
+## 147. Anti-Pattern — Authority by Fluency
 
 A native-sounding output is not necessarily accurate.
 
@@ -3287,9 +3290,9 @@ confidence of tone
 confidence of evidence
 ```
 
----
+______________________________________________________________________
 
-# 148. Anti-Pattern — Culture as Static
+## 148. Anti-Pattern — Culture as Static
 
 CIL must not assume cultural meaning is timeless.
 
@@ -3304,17 +3307,17 @@ provenance
 
 where those dimensions materially affect interpretation.
 
----
+______________________________________________________________________
 
-# 149. Anti-Pattern — Universal Audience
+## 149. Anti-Pattern — Universal Audience
 
 There is no guaranteed single target representation optimal for every speaker of a language.
 
 CIL targets a declared context.
 
----
+______________________________________________________________________
 
-# 150. Validation Gates
+## 150. Validation Gates
 
 A consequential CIL transformation may pass through:
 
@@ -3336,9 +3339,9 @@ G14 Adversarial Validation
 G15 Commit-State Integrity
 ```
 
----
+______________________________________________________________________
 
-# 151. Gate Aggregation
+## 151. Gate Aggregation
 
 For mandatory gates:
 
@@ -3358,9 +3361,9 @@ FAIL
 
 not average success.
 
----
+______________________________________________________________________
 
-# 152. Unknown Is Not Pass
+## 152. Unknown Is Not Pass
 
 ```text
 NOT_CHECKED
@@ -3378,9 +3381,9 @@ PASS
 
 A high-stakes localization cannot receive PASS merely because no one noticed a defect.
 
----
+______________________________________________________________________
 
-# 153. Localization Validation Receipt
+## 153. Localization Validation Receipt
 
 ```yaml
 validation_receipt:
@@ -3420,9 +3423,9 @@ validation_receipt:
   final_result: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 154. Proof Capsule
+## 154. Proof Capsule
 
 ```yaml
 proof_capsule:
@@ -3472,9 +3475,9 @@ proof_capsule:
     bounded_by: weakest_load_bearing_premise
 ```
 
----
+______________________________________________________________________
 
-# 155. CIL Falsifiers
+## 155. CIL Falsifiers
 
 The localized representation is invalidated if evidence establishes any load-bearing failure including:
 
@@ -3526,9 +3529,9 @@ The source changed after localization without revalidation.
 
 Authoritative Universe Canon defines different CIL semantics.
 
----
+______________________________________________________________________
 
-# 156. Invalidation Scope
+## 156. Invalidation Scope
 
 A failed localization does not automatically invalidate:
 
@@ -3539,9 +3542,9 @@ A failed localization does not automatically invalidate:
 
 Invalidate only dependent conclusions where dependency closure is available.
 
----
+______________________________________________________________________
 
-# 157. Revalidation Triggers
+## 157. Revalidation Triggers
 
 CIL revalidation SHOULD occur after:
 
@@ -3558,9 +3561,9 @@ successful falsifier
 validator change
 ```
 
----
+______________________________________________________________________
 
-# 158. CIL Runtime Contract
+## 158. CIL Runtime Contract
 
 Conceptually:
 
@@ -3609,9 +3612,9 @@ This pseudocode defines conceptual behavior.
 
 It does not claim literal implementation in ChatGPT or any deployed runtime.
 
----
+______________________________________________________________________
 
-# 159. Minimum Sufficient Context
+## 159. Minimum Sufficient Context
 
 CIL should retrieve context fractally.
 
@@ -3630,9 +3633,9 @@ raw evidence only when required
 
 Do not load unrelated cultural information merely because the task involves localization.
 
----
+______________________________________________________________________
 
-# 160. CIL Fractal Retrieval
+## 160. CIL Fractal Retrieval
 
 Example:
 
@@ -3655,9 +3658,9 @@ authoritative glossary entry if ambiguity remains
 
 This is preferable to broad uncontrolled cultural inference.
 
----
+______________________________________________________________________
 
-# 161. CIL and RSCF
+## 161. CIL and RSCF
 
 CIL transformations can be represented as provenance-aware RSCF nodes.
 
@@ -3692,9 +3695,9 @@ RSCF-NODE:
     - critical_context_error
 ```
 
----
+______________________________________________________________________
 
-# 162. RSCF Transformation Edge
+## 162. RSCF Transformation Edge
 
 ```text
 SOURCE_NODE
@@ -3724,9 +3727,9 @@ edge:
   receipt: null
 ```
 
----
+______________________________________________________________________
 
-# 163. GMEF Interaction
+## 163. GMEF Interaction
 
 If CIL detects a material conflict between:
 
@@ -3755,9 +3758,9 @@ governed decision
 
 The exact GMEF contract depends on authoritative AMOS canon.
 
----
+______________________________________________________________________
 
-# 164. Proof-Capsule Reuse
+## 164. Proof-Capsule Reuse
 
 A prior CIL validation may be reused only while:
 
@@ -3773,9 +3776,9 @@ no successful falsifier
 
 Otherwise revalidation is required.
 
----
+______________________________________________________________________
 
-# 165. Local Fast Path
+## 165. Local Fast Path
 
 A localization may use a fast path when:
 
@@ -3797,9 +3800,9 @@ stable date-format localization
 
 may not require deep cultural analysis.
 
----
+______________________________________________________________________
 
-# 166. Escalation Path
+## 166. Escalation Path
 
 Escalate when:
 
@@ -3816,9 +3819,9 @@ source provenance is weak
 context is stale
 ```
 
----
+______________________________________________________________________
 
-# 167. Stop Conditions
+## 167. Stop Conditions
 
 CIL reasoning may stop when:
 
@@ -3835,9 +3838,9 @@ output can be safely published within declared scope.
 
 Do not continue accumulating cultural background after it ceases to affect the result.
 
----
+______________________________________________________________________
 
-# 168. Universe Canon Boundary
+## 168. Universe Canon Boundary
 
 CIL is a Universe Canon interface component.
 
@@ -3857,9 +3860,9 @@ CIL does not itself determine whether every Universe Canon proposition is empiri
 
 Its primary responsibility is preservation of meaning across contextual boundaries.
 
----
+______________________________________________________________________
 
-# 169. Source-Established vs Elaborated Boundary
+## 169. Source-Established vs Elaborated Boundary
 
 ## Source-Established
 
@@ -3903,9 +3906,9 @@ governance routing implementation
 
 Those remain implementation/model detail unless authoritative canon specifies them.
 
----
+______________________________________________________________________
 
-# 170. Known Gaps
+## 170. Known Gaps
 
 The supplied source does not specify:
 
@@ -3931,9 +3934,9 @@ known_gaps:
 
 These gaps MUST NOT be filled as established canon without authoritative evidence.
 
----
+______________________________________________________________________
 
-# 171. Canonical CIL Compact Law
+## 171. Canonical CIL Compact Law
 
 ```text
 CIL CULTURE INTERFACE LAW
@@ -3986,9 +3989,9 @@ CIL CULTURE INTERFACE LAW
 20. INTEGRITY OVERRIDES FLUENCY.
 ```
 
----
+______________________________________________________________________
 
-# 172. Canon Contract
+## 172. Canon Contract
 
 ```yaml
 CIL_CANON_CONTRACT:
@@ -4046,9 +4049,9 @@ CIL_CANON_CONTRACT:
     unresolved_competing_meanings: PRESERVE_COMPETING
 ```
 
----
+______________________________________________________________________
 
-# 173. Canon Validation Checklist
+## 173. Canon Validation Checklist
 
 ```yaml
 CIL_VALIDATION_CHECKLIST:
@@ -4107,11 +4110,11 @@ CIL_VALIDATION_CHECKLIST:
   final_result: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 174. Final Proof Boundary
+## 174. Final Proof Boundary
 
-> [!warning] Canon Boundary
+> [!WARNING] Canon Boundary
 > The supplied canon establishes CIL as a **cultural and linguistic contextualization engine whose purpose is localized semantic fidelity**.
 >
 > This reconstruction operationalizes that statement without treating the elaborated mechanisms as independently source-established facts.
@@ -4128,12 +4131,11 @@ CIL_VALIDATION_CHECKLIST:
 >
 > Where exact equivalence is unavailable, CIL preserves the gap.
 
----
+______________________________________________________________________
 
-# 175. Final Invariant
+## 175. Final Invariant
 
-> [!success] CIL Culture Interface Invariant
->
+> [!SUCCESS] CIL Culture Interface Invariant
 > **Change the interface as much as necessary to make meaning locally intelligible.**
 >
 > **Change the underlying meaning no more than the evidence permits.**
@@ -4150,11 +4152,11 @@ CIL_VALIDATION_CHECKLIST:
 >
 > **fidelity wins.**
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
 
 **Related:**
 [[00_ROOT/00_HOME|00_HOME]] ·
@@ -4172,11 +4174,10 @@ UNIVERSE_CANON_CONTRACT_VALIDATION_RECEIPT ·
 [[01_CANON/01_CORE_LAWS/L23_MVCC_CAS|L23_MVCC_CAS]] ·
 [[01_CANON/01_CORE_LAWS/L24_CAUSAL_EPOCH|L24_CAUSAL_EPOCH]]
 
----
+______________________________________________________________________
 
 **MOC:** [[01_CANON/02_UNIVERSE_CANON/02_UNIVERSE_CANON_MOC|02_UNIVERSE_CANON_MOC]]
 
----
+______________________________________________________________________
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
-

@@ -12,25 +12,25 @@ segment: 01_CANON/03_COGNITION_CANON
 artifact_kind: CANON
 path: 01_CANON/03_COGNITION_CANON/AMOS_IDENTITY_CANON.md
 tags:
-- amos-os
-- canon
-- universe
-- canon_placeholder
-- identity
-- cognition
-- provenance
-- lineage
-- authority
-- scope
-- versioning
-- supersession
-- rscf
-- canon/universe
-- routing-policy-validation-receipt
-- authz-engine-validation-receipt
-- law-hierarchy
-- validation
-- architecture
+  - amos-os
+  - canon
+  - universe
+  - canon_placeholder
+  - identity
+  - cognition
+  - provenance
+  - lineage
+  - authority
+  - scope
+  - versioning
+  - supersession
+  - rscf
+  - canon/universe
+  - routing-policy-validation-receipt
+  - authz-engine-validation-receipt
+  - law-hierarchy
+  - validation
+  - architecture
 version: 0.1.0
 updated: '2026-08-27'
 status: PLACEHOLDER
@@ -53,7 +53,7 @@ rscf:
 
 `AMOS_IDENTITY_CANON.md` is an **ADD-ONLY placeholder** for the **Canon** plane segment:
 
-```text
+````text
 01_CANON/03_COGNITION_CANON
 ---
 
@@ -61,7 +61,7 @@ It reserves the canonical location for the framework family:
 
 ```text
 AMOS Identity Canon
-```
+````
 
 Current epistemic state:
 
@@ -101,9 +101,9 @@ System:
 
 **AMOS OS**
 
----
+______________________________________________________________________
 
-# 1. Canonical Boundary
+## 1. Canonical Boundary
 
 The governing boundaries are:
 
@@ -161,25 +161,25 @@ These boundaries are integrity constraints.
 
 They are not evidence that all corresponding mechanisms are implemented.
 
----
+______________________________________________________________________
 
-# 2. Purpose
+## 2. Purpose
 
 This artifact reserves the **AMOS Identity Canon** slot within the Canon plane.
 
 The Canon plane governs canonical structures including:
 
-* laws;
-* cognition canon;
-* infrastructure canon;
-* universe canon;
-* variable registries;
-* glossary structures;
-* provenance lineage;
-* identity and version references;
-* supersession;
-* canonical indexing;
-* canonical dependency relationships.
+- laws;
+- cognition canon;
+- infrastructure canon;
+- universe canon;
+- variable registries;
+- glossary structures;
+- provenance lineage;
+- identity and version references;
+- supersession;
+- canonical indexing;
+- canonical dependency relationships.
 
 The intended identity canon is expected to govern questions such as:
 
@@ -210,30 +210,30 @@ However, those questions describe the **target semantic domain**.
 
 They do not establish their final canonical answers.
 
----
+______________________________________________________________________
 
-# 3. Non-Purpose
+## 3. Non-Purpose
 
 This placeholder MUST NOT be used to claim:
 
-* universal laws of identity;
-* universal metaphysical identity criteria;
-* scientific proof;
-* biological identity truth;
-* psychological identity truth;
-* mathematical theoremhood;
-* philosophical certainty;
-* persistent consciousness;
-* personhood;
-* subjective continuity;
-* runtime identity enforcement that has not been implemented;
-* cryptographic identity guarantees that have not been demonstrated;
-* globally unique identity without a defined namespace;
-* immutable identity without an explicit invariant;
-* final canonical status;
-* authority merely from architectural importance;
-* authorization merely from identity resolution;
-* successful validation merely because a canonical slot is addressable.
+- universal laws of identity;
+- universal metaphysical identity criteria;
+- scientific proof;
+- biological identity truth;
+- psychological identity truth;
+- mathematical theoremhood;
+- philosophical certainty;
+- persistent consciousness;
+- personhood;
+- subjective continuity;
+- runtime identity enforcement that has not been implemented;
+- cryptographic identity guarantees that have not been demonstrated;
+- globally unique identity without a defined namespace;
+- immutable identity without an explicit invariant;
+- final canonical status;
+- authority merely from architectural importance;
+- authorization merely from identity resolution;
+- successful validation merely because a canonical slot is addressable.
 
 In particular:
 
@@ -251,30 +251,30 @@ AMOS_MODEL
 EMPIRICALLY VERIFIED IDENTITY THEORY
 ```
 
----
+______________________________________________________________________
 
-# 4. Source Boundary
+## 4. Source Boundary
 
 The substantive identity canon is pending ingestion from verified native-canon sources.
 
 Current source-supported facts establish primarily:
 
 1. the artifact exists as a reserved canonical slot;
-2. the artifact has a stable declared path;
-3. the artifact has a declared artifact identifier;
-4. the artifact belongs to `03_COGNITION_CANON`;
-5. the artifact is currently a placeholder;
-6. canonical status is `UNKNOWN/GAP`;
-7. implementation is not established;
-8. validation is not established;
-9. executable binding is not established;
-10. ingestion is add-only.
+1. the artifact has a stable declared path;
+1. the artifact has a declared artifact identifier;
+1. the artifact belongs to `03_COGNITION_CANON`;
+1. the artifact is currently a placeholder;
+1. canonical status is `UNKNOWN/GAP`;
+1. implementation is not established;
+1. validation is not established;
+1. executable binding is not established;
+1. ingestion is add-only.
 
 Everything beyond those boundaries must retain an appropriate epistemic class.
 
----
+______________________________________________________________________
 
-# 5. Identity Canon Objective
+## 5. Identity Canon Objective
 
 The target objective can be normalized as:
 
@@ -305,9 +305,9 @@ This is a **DERIVED target formulation** of the supplied placeholder purpose.
 
 It is not yet an executed implementation contract.
 
----
+______________________________________________________________________
 
-# 6. Core Identity Principle
+## 6. Core Identity Principle
 
 A useful target distinction is:
 
@@ -351,9 +351,9 @@ unless naming is explicitly part of the canonical identity invariant.
 
 Final canonical identity equivalence semantics remain `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
-# 7. Identity Tuple — Target Model
+## 7. Identity Tuple — Target Model
 
 A target identity reference MAY require a tuple resembling:
 
@@ -378,9 +378,9 @@ The source does NOT establish this exact tuple as canonical schema.
 
 Its purpose is to expose the dimensions that may materially affect identity resolution.
 
----
+______________________________________________________________________
 
-# 8. Artifact Identity
+## 8. Artifact Identity
 
 For this artifact:
 
@@ -395,16 +395,16 @@ These fields provide addressability.
 
 They do not by themselves establish:
 
-* globally unique identity;
-* immutable identity;
-* cryptographic identity;
-* runtime identity enforcement;
-* collision resistance;
-* canonical equivalence semantics.
+- globally unique identity;
+- immutable identity;
+- cryptographic identity;
+- runtime identity enforcement;
+- collision resistance;
+- canonical equivalence semantics.
 
----
+______________________________________________________________________
 
-# 9. Addressability
+## 9. Addressability
 
 An addressable artifact is one for which the system possesses sufficient reference information to attempt resolution.
 
@@ -434,9 +434,9 @@ CanonicalTruth(x)
 
 Addressability is therefore a routing property, not an epistemic promotion.
 
----
+______________________________________________________________________
 
-# 10. Identity Resolution
+## 10. Identity Resolution
 
 Target identity resolution can be represented as:
 
@@ -467,9 +467,9 @@ UNKNOWN/GAP != EXACT
 
 Exact runtime resolver semantics are NOT_ESTABLISHED.
 
----
+______________________________________________________________________
 
-# 11. Identity Resolution Fail-Closed Rule
+## 11. Identity Resolution Fail-Closed Rule
 
 Where identity is load-bearing for a consequential operation:
 
@@ -493,9 +493,9 @@ This follows the supplied fail-closed discipline.
 
 It does not establish which concrete runtime component performs the check.
 
----
+______________________________________________________________________
 
-# 12. Identity and Version
+## 12. Identity and Version
 
 Identity and version MUST remain conceptually distinct.
 
@@ -535,9 +535,9 @@ But the exact threshold at which mutation becomes a new identity rather than a n
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 13. Version Pinning
+## 13. Version Pinning
 
 For consequential interpretation, a bare identity may be insufficient.
 
@@ -557,9 +557,9 @@ when version-dependent semantics can change the result.
 
 This prevents silent substitution of current state for historically referenced state.
 
----
+______________________________________________________________________
 
-# 14. Identity Across Mutation
+## 14. Identity Across Mutation
 
 Mutation introduces a fundamental identity question:
 
@@ -583,9 +583,9 @@ IdentityPersistenceRule = UNKNOWN/GAP
 
 until native canon supplies a discriminating rule.
 
----
+______________________________________________________________________
 
-# 15. Identity Invariants
+## 15. Identity Invariants
 
 A future populated canon should explicitly define which properties are identity-preserving.
 
@@ -616,9 +616,9 @@ This classification is illustrative only.
 
 No exact field classification is established by the supplied placeholder.
 
----
+______________________________________________________________________
 
-# 16. Identity and Provenance
+## 16. Identity and Provenance
 
 Identity resolution without provenance can produce false continuity.
 
@@ -654,9 +654,9 @@ DifferentContent
 
 may still belong to the same versioned artifact lineage.
 
----
+______________________________________________________________________
 
-# 17. Identity and Lineage
+## 17. Identity and Lineage
 
 A target lineage representation may take the form:
 
@@ -686,9 +686,9 @@ lineage edge = authority inheritance
 
 Those require separately typed semantics.
 
----
+______________________________________________________________________
 
-# 18. Identity and Supersession
+## 18. Identity and Supersession
 
 Supersession is not deletion.
 
@@ -712,9 +712,9 @@ SUPERSESSION != HISTORICAL ERASURE
 
 This is consistent with explicit lineage preservation.
 
----
+______________________________________________________________________
 
-# 19. Historical Identity
+## 19. Historical Identity
 
 A historical reference should resolve against the relevant historical state where required.
 
@@ -730,9 +730,9 @@ if `v1` materially differs from current state.
 
 This protects replay, audit, supersession, and provenance integrity.
 
----
+______________________________________________________________________
 
-# 20. Current Identity vs Historical Identity
+## 20. Current Identity vs Historical Identity
 
 Target distinction:
 
@@ -750,9 +750,9 @@ means the preserved state of A at version `v`.
 
 Neither should silently overwrite the other.
 
----
+______________________________________________________________________
 
-# 21. Identity and Epoch
+## 21. Identity and Epoch
 
 Where identity metadata changes across causal epochs:
 
@@ -772,9 +772,9 @@ Identity continuity may persist while metadata, authority, status, or scope chan
 
 Exact epoch-binding semantics remain NOT_ESTABLISHED in this placeholder.
 
----
+______________________________________________________________________
 
-# 22. Identity and Scope
+## 22. Identity and Scope
 
 Identity claims inherit scope.
 
@@ -804,17 +804,17 @@ locally_unique
 globally_unique
 ```
 
----
+______________________________________________________________________
 
-# 23. Identity and Regime
+## 23. Identity and Regime
 
 Identity semantics may differ across:
 
-* canonical representation;
-* runtime representation;
-* simulation;
-* empirical observation;
-* external evidence systems.
+- canonical representation;
+- runtime representation;
+- simulation;
+- empirical observation;
+- external evidence systems.
 
 Therefore:
 
@@ -830,9 +830,9 @@ same operational semantics across regimes
 
 Explicit bridge rules are required where regime crossing can alter meaning.
 
----
+______________________________________________________________________
 
-# 24. Identity and Authority
+## 24. Identity and Authority
 
 One of the strongest boundaries is:
 
@@ -852,9 +852,9 @@ Authorize(X, action)
 
 Authority requires a separately valid authority relationship.
 
----
+______________________________________________________________________
 
-# 25. Capability vs Authority
+## 25. Capability vs Authority
 
 The supplied governance boundary remains:
 
@@ -877,9 +877,9 @@ ValidIdentity
 
 This expression is a DERIVED target model, not a supplied executable rule.
 
----
+______________________________________________________________________
 
-# 26. Authorization vs Commit
+## 26. Authorization vs Commit
 
 Even successful authorization does not itself constitute state mutation.
 
@@ -889,9 +889,9 @@ AUTHORIZATION != COMMIT
 
 A governed mutation still requires its applicable transaction, validation, and commit conditions.
 
----
+______________________________________________________________________
 
-# 27. Proposal vs Identity Mutation
+## 27. Proposal vs Identity Mutation
 
 A proposal to change identity-bearing state is not the change itself.
 
@@ -903,9 +903,9 @@ COMMIT(identity_update)
 
 Until committed, authoritative identity state remains unchanged.
 
----
+______________________________________________________________________
 
-# 28. Identity and Canonical Status
+## 28. Identity and Canonical Status
 
 An artifact can have a stable identity while its canonical status changes.
 
@@ -923,9 +923,9 @@ if future governance defines and authorizes such transitions.
 
 The identity of the artifact does not itself prove any particular promotion.
 
----
+______________________________________________________________________
 
-# 29. Canonical Status Is Not Truth Status
+## 29. Canonical Status Is Not Truth Status
 
 Even a future `CANONICAL` status would mean canonical standing within the applicable AMOS governance system.
 
@@ -946,9 +946,9 @@ CANONICAL != EMPIRICAL_TRUTH
 
 remains a hard firewall.
 
----
+______________________________________________________________________
 
-# 30. Identity and Epistemic Class
+## 30. Identity and Epistemic Class
 
 Identity-bearing artifacts should preserve epistemic typing.
 
@@ -979,9 +979,9 @@ VERIFIED
 
 without evidence.
 
----
+______________________________________________________________________
 
-# 31. Identity and Confidence Ceiling
+## 31. Identity and Confidence Ceiling
 
 A resolved identity can increase certainty about:
 
@@ -1005,9 +1005,9 @@ ClaimTruthConfidence
 
 A perfectly resolved source claim remains a source claim until independently validated.
 
----
+______________________________________________________________________
 
-# 32. Identity and Evidence
+## 32. Identity and Evidence
 
 Evidence should be associated with the correct identity and version.
 
@@ -1023,9 +1023,9 @@ Artifact A@v
 
 Misbinding evidence to another version or another artifact can corrupt downstream confidence.
 
----
+______________________________________________________________________
 
-# 33. Identity and Provenance Independence
+## 33. Identity and Provenance Independence
 
 Multiple references to the same underlying source do not create independent confirmation.
 
@@ -1047,9 +1047,9 @@ Multiplicity
 Independence
 ```
 
----
+______________________________________________________________________
 
-# 34. Sybil Identity Boundary
+## 34. Sybil Identity Boundary
 
 Multiple identities or identifiers do not themselves establish independent evidence sources.
 
@@ -1069,9 +1069,9 @@ Therefore independent confirmation requires provenance independence, not identif
 
 This is a DERIVED integrity requirement.
 
----
+______________________________________________________________________
 
-# 35. Identity Collision
+## 35. Identity Collision
 
 A collision occurs when distinct intended entities resolve through an insufficiently discriminating identity key.
 
@@ -1095,9 +1095,9 @@ not arbitrary selection.
 
 Exact collision detection implementation remains NOT_ESTABLISHED.
 
----
+______________________________________________________________________
 
-# 36. Identity Alias
+## 36. Identity Alias
 
 A future canon may permit multiple labels to reference one identity.
 
@@ -1111,9 +1111,9 @@ alias_3 ─┘
 
 But alias semantics, authorization, collision handling, and lifecycle are currently UNKNOWN/GAP.
 
----
+______________________________________________________________________
 
-# 37. Identity Fork
+## 37. Identity Fork
 
 A lineage may potentially fork:
 
@@ -1133,15 +1133,15 @@ ForkSemantics = UNKNOWN/GAP
 
 A future canon must distinguish:
 
-* version branch;
-* experimental branch;
-* competing candidate;
-* independent new identity;
-* superseded lineage.
+- version branch;
+- experimental branch;
+- competing candidate;
+- independent new identity;
+- superseded lineage.
 
----
+______________________________________________________________________
 
-# 38. Identity Merge
+## 38. Identity Merge
 
 Likewise, merge semantics are not established.
 
@@ -1155,18 +1155,18 @@ B ─┘
 
 raises questions concerning:
 
-* identity inheritance;
-* provenance inheritance;
-* conflict preservation;
-* versioning;
-* authority;
-* canonical status.
+- identity inheritance;
+- provenance inheritance;
+- conflict preservation;
+- versioning;
+- authority;
+- canonical status.
 
 No merge rule should be invented.
 
----
+______________________________________________________________________
 
-# 39. Identity Deletion
+## 39. Identity Deletion
 
 The placeholder does not establish deletion semantics.
 
@@ -1190,9 +1190,9 @@ Current canonical semantics:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 40. Identity Revocation
+## 40. Identity Revocation
 
 Identity revocation and authority revocation are distinct concepts.
 
@@ -1210,26 +1210,26 @@ Historical identity may need to remain resolvable for audit and provenance even 
 
 This is DERIVED governance logic.
 
----
+______________________________________________________________________
 
-# 41. Identity Persistence
+## 41. Identity Persistence
 
 A future canon must determine persistence requirements across:
 
-* process restart;
-* runtime restart;
-* state recovery;
-* rollback;
-* version upgrade;
-* canonical supersession;
-* migration;
-* storage relocation.
+- process restart;
+- runtime restart;
+- state recovery;
+- rollback;
+- version upgrade;
+- canonical supersession;
+- migration;
+- storage relocation.
 
 No persistence mechanism is established here.
 
----
+______________________________________________________________________
 
-# 42. Identity and Location
+## 42. Identity and Location
 
 Path is currently declared:
 
@@ -1253,9 +1253,9 @@ A → new identity
 
 Whether path participates in canonical identity is NOT_ESTABLISHED.
 
----
+______________________________________________________________________
 
-# 43. Identity and Content Hash
+## 43. Identity and Content Hash
 
 A future implementation could use content hashes for integrity or version resolution.
 
@@ -1275,9 +1275,9 @@ Therefore:
 CryptographicIdentityBinding = NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 44. Identity and Signatures
+## 44. Identity and Signatures
 
 Signatures may authenticate statements or receipts if a trust model exists.
 
@@ -1289,18 +1289,18 @@ SIGNED != TRUSTED
 
 unless:
 
-* signer identity is resolved;
-* authority is valid;
-* key status is valid;
-* signature verifies;
-* scope matches;
-* epoch/freshness requirements pass.
+- signer identity is resolved;
+- authority is valid;
+- key status is valid;
+- signature verifies;
+- scope matches;
+- epoch/freshness requirements pass.
 
 No such signature architecture is established by this placeholder.
 
----
+______________________________________________________________________
 
-# 45. Identity and Receipts
+## 45. Identity and Receipts
 
 Consequential identity mutations should conceptually generate receipts.
 
@@ -1324,9 +1324,9 @@ This is MODEL-level schema.
 
 It is not supplied canonical implementation.
 
----
+______________________________________________________________________
 
-# 46. Identity and Replay
+## 46. Identity and Replay
 
 Historical identity resolution may be necessary for deterministic replay.
 
@@ -1350,9 +1350,9 @@ Identity canon supplies a potential dependency; it does not replace replay seman
 
 Exact integration is NOT_ESTABLISHED here.
 
----
+______________________________________________________________________
 
-# 47. Identity and Snapshot State
+## 47. Identity and Snapshot State
 
 For snapshot-based reasoning:
 
@@ -1370,9 +1370,9 @@ when the difference is outcome-changing.
 
 This is a DERIVED integration target with state/version governance.
 
----
+______________________________________________________________________
 
-# 48. Identity and CAS
+## 48. Identity and CAS
 
 A consequential identity mutation can be modeled as:
 
@@ -1390,9 +1390,9 @@ This is a DERIVED integration with AMOS concurrency discipline.
 
 It does not establish literal CPU CAS or database implementation.
 
----
+______________________________________________________________________
 
-# 49. Identity and Atomicity
+## 49. Identity and Atomicity
 
 If one logical identity mutation changes multiple load-bearing records, partial application may create contradictory identity state.
 
@@ -1406,9 +1406,9 @@ none become authoritative
 
 Exact transaction scope and implementation remain NOT_ESTABLISHED.
 
----
+______________________________________________________________________
 
-# 50. Identity and Causal Epoch
+## 50. Identity and Causal Epoch
 
 A committed identity change should be attributable to an explicit causal transition rather than silent historical rewrite.
 
@@ -1424,9 +1424,9 @@ rather than rewriting `e_k` invisibly.
 
 This is a DERIVED integration with causal epoch discipline.
 
----
+______________________________________________________________________
 
-# 51. Identity and No-Time-Travel
+## 51. Identity and No-Time-Travel
 
 Target invariant:
 
@@ -1440,9 +1440,9 @@ Supersession should be explicit.
 
 This preserves historical auditability while allowing current identity state to evolve.
 
----
+______________________________________________________________________
 
-# 52. Identity and Recovery
+## 52. Identity and Recovery
 
 Recovery may restore viable identity integrity without pretending historical events never occurred.
 
@@ -1467,9 +1467,9 @@ where applicable.
 
 Exact recovery binding is NOT_ESTABLISHED.
 
----
+______________________________________________________________________
 
-# 53. Identity and Rollback
+## 53. Identity and Rollback
 
 Rollback raises two separate questions:
 
@@ -1482,9 +1482,9 @@ A rollback should not silently transform historical state.
 
 The exact mechanism remains pending canonical integration.
 
----
+______________________________________________________________________
 
-# 54. Identity and RSCF
+## 54. Identity and RSCF
 
 The supplied artifact is RSCF-addressable:
 
@@ -1510,9 +1510,9 @@ These two representations MUST NOT be silently forced into a stronger canonical 
 
 The artifact remains a placeholder.
 
----
+______________________________________________________________________
 
-# 55. RSCF Identity Requirement — Target
+## 55. RSCF Identity Requirement — Target
 
 A future populated identity canon should determine whether every RSCF node requires a stable identity tuple such as:
 
@@ -1528,9 +1528,9 @@ claim_class:
 
 The exact required field set is NOT_ESTABLISHED by the placeholder.
 
----
+______________________________________________________________________
 
-# 56. H/M/L Identity
+## 56. H/M/L Identity
 
 Identity may need resolution at multiple fractal levels.
 
@@ -1554,9 +1554,9 @@ Each resolution must preserve relevant scope and lineage.
 
 This is MODEL-level integration.
 
----
+______________________________________________________________________
 
-# 57. Identity Dependency Closure
+## 57. Identity Dependency Closure
 
 Before a consequential identity mutation, traverse only dependencies that can materially alter the validity of the operation.
 
@@ -1570,30 +1570,30 @@ smallest load-bearing dependency set
 
 Potential identity dependencies include:
 
-* registry state;
-* current version;
-* authority;
-* scope;
-* provenance;
-* supersession state;
-* downstream references.
+- registry state;
+- current version;
+- authority;
+- scope;
+- provenance;
+- supersession state;
+- downstream references.
 
 This is a DERIVED fast-path formulation.
 
----
+______________________________________________________________________
 
-# 58. Identity Freshness
+## 58. Identity Freshness
 
 Identity metadata can become stale.
 
 Examples:
 
-* authority expired;
-* version superseded;
-* scope changed;
-* registry updated;
-* provenance invalidated;
-* dependency revoked.
+- authority expired;
+- version superseded;
+- scope changed;
+- registry updated;
+- provenance invalidated;
+- dependency revoked.
 
 Therefore:
 
@@ -1605,9 +1605,9 @@ ValidForever
 
 Freshness must be evaluated where it can change the decision.
 
----
+______________________________________________________________________
 
-# 59. Identity Freshness Vector — Target
+## 59. Identity Freshness Vector — Target
 
 A future implementation may track identity freshness across dimensions such as:
 
@@ -1626,9 +1626,9 @@ This schema is illustrative.
 
 No exact freshness vector is established in this source.
 
----
+______________________________________________________________________
 
-# 60. Identity Contradiction
+## 60. Identity Contradiction
 
 Two authoritative-looking identity records may conflict.
 
@@ -1647,18 +1647,18 @@ result = COMPETING / UNKNOWN-GAP
 
 not arbitrary convergence.
 
----
+______________________________________________________________________
 
-# 61. Competing Identity Claims
+## 61. Competing Identity Claims
 
 Competing identity claims should remain competing when:
 
-* both are plausibly supported;
-* provenance is correlated;
-* precedence is undefined;
-* scope differs;
-* epoch differs;
-* version relation is unresolved.
+- both are plausibly supported;
+- provenance is correlated;
+- precedence is undefined;
+- scope differs;
+- epoch differs;
+- version relation is unresolved.
 
 Target class:
 
@@ -1668,9 +1668,9 @@ COMPETING
 
 until discriminating evidence exists.
 
----
+______________________________________________________________________
 
-# 62. Identity Discriminating Tests
+## 62. Identity Discriminating Tests
 
 When identity claims conflict, prefer the cheapest high-information test capable of resolving the conflict.
 
@@ -1688,9 +1688,9 @@ authority receipt
 
 The exact test depends on the conflict.
 
----
+______________________________________________________________________
 
-# 63. Identity Sensitivity
+## 63. Identity Sensitivity
 
 For consequential operations, identify the smallest identity premise capable of flipping the decision.
 
@@ -1703,9 +1703,9 @@ If authority_ref is stale → mutation denied
 
 Then authority freshness is a load-bearing sensitivity point and should be tested before background details.
 
----
+______________________________________________________________________
 
-# 64. Identity Mutation Classification
+## 64. Identity Mutation Classification
 
 A future identity canon should classify mutations.
 
@@ -1725,9 +1725,9 @@ UNKNOWN_MUTATION
 
 No final taxonomy is established.
 
----
+______________________________________________________________________
 
-# 65. Identity-Breaking Mutation
+## 65. Identity-Breaking Mutation
 
 A mutation should only be called identity-breaking if a canonical identity invariant is violated.
 
@@ -1741,9 +1741,9 @@ UNKNOWN/GAP
 
 This is a critical substantive gap.
 
----
+______________________________________________________________________
 
-# 66. Identity Continuity
+## 66. Identity Continuity
 
 Likewise, continuity cannot be inferred merely from similarity.
 
@@ -1763,9 +1763,9 @@ IdentityContinuity
 
 unless canonical continuity rules establish otherwise.
 
----
+______________________________________________________________________
 
-# 67. Identity and Causation
+## 67. Identity and Causation
 
 Identity continuity does not establish causal continuity.
 
@@ -1781,9 +1781,9 @@ as a version lineage does not by itself prove that every property in `A_v2` was 
 
 Lineage and causal evidence must remain typed separately.
 
----
+______________________________________________________________________
 
-# 68. Identity and Observation
+## 68. Identity and Observation
 
 An observed label or behavior may suggest an identity but does not automatically establish canonical identity.
 
@@ -1801,9 +1801,9 @@ Observation
 
 without valid resolution evidence.
 
----
+______________________________________________________________________
 
-# 69. Identity and Model Assignment
+## 69. Identity and Model Assignment
 
 A model may assign an entity to an identity class.
 
@@ -1817,27 +1817,27 @@ unless supported by the required validation regime.
 
 A fluent identity description cannot fill missing provenance or validation.
 
----
+______________________________________________________________________
 
-# 70. Identity and Human Persons
+## 70. Identity and Human Persons
 
 Nothing in this placeholder establishes a canonical theory of human personal identity.
 
 Specifically NOT_ESTABLISHED:
 
-* biological continuity rules;
-* legal identity rules;
-* psychological continuity;
-* consciousness continuity;
-* memory-based personal identity;
-* metaphysical personhood;
-* digital-person equivalence.
+- biological continuity rules;
+- legal identity rules;
+- psychological continuity;
+- consciousness continuity;
+- memory-based personal identity;
+- metaphysical personhood;
+- digital-person equivalence.
 
 These require distinct sources and scopes.
 
----
+______________________________________________________________________
 
-# 71. AMOS System Identity
+## 71. AMOS System Identity
 
 The file identifies the governing system as:
 
@@ -1851,9 +1851,9 @@ It does NOT establish that every artifact mentioning AMOS belongs to the same au
 
 Provenance and ingestion still matter.
 
----
+______________________________________________________________________
 
-# 72. Origin Architect / Steward Identity
+## 72. Origin Architect / Steward Identity
 
 The source declares:
 
@@ -1868,9 +1868,9 @@ They should be preserved as supplied.
 
 The file does not independently establish external empirical verification of those declarations.
 
----
+______________________________________________________________________
 
-# 73. Stewardship vs Authorship
+## 73. Stewardship vs Authorship
 
 A future identity canon should preserve distinct relation types where applicable:
 
@@ -1890,9 +1890,9 @@ These relations should not be collapsed into one generic ownership relation.
 
 Exact relation schema remains NOT_ESTABLISHED.
 
----
+______________________________________________________________________
 
-# 74. Stewardship vs Authority
+## 74. Stewardship vs Authority
 
 Steward identity does not automatically grant unlimited mutation authority.
 
@@ -1906,9 +1906,9 @@ unless governing canon explicitly defines that authority.
 
 Authority remains typed, scoped, and epoch-valid.
 
----
+______________________________________________________________________
 
-# 75. Ingestion Rule
+## 75. Ingestion Rule
 
 ```yaml
 AMOS_CANON_INGESTION_RULE:
@@ -1955,9 +1955,9 @@ AMOS_CANON_INGESTION_RULE:
 
 This ingestion rule is source-established content of the supplied artifact.
 
----
+______________________________________________________________________
 
-# 76. Add-Only Semantics
+## 76. Add-Only Semantics
 
 The artifact declares:
 
@@ -1983,9 +1983,9 @@ INGEST
 OVERWRITE
 ```
 
----
+______________________________________________________________________
 
-# 77. Duplicate Canon Prevention
+## 77. Duplicate Canon Prevention
 
 Where the same framework exists in multiple sources:
 
@@ -2009,9 +2009,9 @@ must not automatically create:
 canonical identity multiplicity
 ```
 
----
+______________________________________________________________________
 
-# 78. Duplicate Filename Boundary
+## 78. Duplicate Filename Boundary
 
 Duplicate filenames require:
 
@@ -2028,9 +2028,9 @@ SameFilename
 SameCanonicalNode
 ```
 
----
+______________________________________________________________________
 
-# 79. Historical Source Rule
+## 79. Historical Source Rule
 
 Historical sources must:
 
@@ -2042,9 +2042,9 @@ PRESERVE_HERITAGE
 
 This prevents current canonical representation from silently erasing historical identity/provenance.
 
----
+______________________________________________________________________
 
-# 80. External Research Boundary
+## 80. External Research Boundary
 
 The supplied ingestion rule states:
 
@@ -2066,9 +2066,9 @@ even where the evidence supports canonical claims.
 
 Promotion into native canon requires the applicable governance path.
 
----
+______________________________________________________________________
 
-# 81. Uncertainty Rule
+## 81. Uncertainty Rule
 
 The ingestion rule explicitly requires:
 
@@ -2087,9 +2087,9 @@ UNKNOWN/GAP
 
 is preferable to plausible invention.
 
----
+______________________________________________________________________
 
-# 82. Contract Discipline
+## 82. Contract Discipline
 
 The source declares:
 
@@ -2105,9 +2105,9 @@ Typed artifacts
 
 These form the target governance discipline for this artifact.
 
----
+______________________________________________________________________
 
-# 83. Typed Artifact Requirement
+## 83. Typed Artifact Requirement
 
 Identity-bearing artifacts should expose sufficient type information to prevent accidental equivalence across incompatible entity classes.
 
@@ -2126,9 +2126,9 @@ node_type: executable
 
 unless a valid binding explicitly exists.
 
----
+______________________________________________________________________
 
-# 84. Provenance Stamp Requirement
+## 84. Provenance Stamp Requirement
 
 Provenance must remain attached where it materially affects trust or lineage.
 
@@ -2142,9 +2142,9 @@ This identifies the corpus provenance class supplied by the artifact.
 
 It does not independently verify all claims within the corpus.
 
----
+______________________________________________________________________
 
-# 85. Epistemic Class Requirement
+## 85. Epistemic Class Requirement
 
 The supplied artifact declares:
 
@@ -2156,9 +2156,9 @@ Therefore expanded identity semantics derived here remain model-level unless ind
 
 The placeholder MUST NOT be rewritten as if it were already verified canon.
 
----
+______________________________________________________________________
 
-# 86. Confidence Ceiling
+## 86. Confidence Ceiling
 
 Current substantive confidence ceiling is bounded by:
 
@@ -2174,9 +2174,9 @@ NOT_ESTABLISHED validation
 
 No expansion can legitimately exceed that ceiling merely through architectural completeness.
 
----
+______________________________________________________________________
 
-# 87. Fail-Closed UNKNOWN/GAP
+## 87. Fail-Closed UNKNOWN/GAP
 
 The source explicitly requires fail-closed behavior on `UNKNOWN/GAP`.
 
@@ -2192,9 +2192,9 @@ do not silently merge
 do not silently overwrite
 ```
 
----
+______________________________________________________________________
 
-# 88. Consequential Receipts
+## 88. Consequential Receipts
 
 Consequential identity-affecting effects require receipts under the supplied contract discipline.
 
@@ -2206,9 +2206,9 @@ A receipt should not be confused with approval:
 LOGGED != APPROVED
 ```
 
----
+______________________________________________________________________
 
-# 89. Rollback Basin Before Mutation
+## 89. Rollback Basin Before Mutation
 
 The supplied contract discipline requires:
 
@@ -2224,9 +2224,9 @@ Before a consequential identity mutation, the system should know how to preserve
 
 Exact rollback semantics remain pending.
 
----
+______________________________________________________________________
 
-# 90. Worked Semantics
+## 90. Worked Semantics
 
 Given an operation touching:
 
@@ -2295,9 +2295,9 @@ record receipt
 
 This sequence is source-established target semantics.
 
----
+______________________________________________________________________
 
-# 91. Admission Contract
+## 91. Admission Contract
 
 Normalized target:
 
@@ -2319,9 +2319,9 @@ HOLD(UNKNOWN/GAP)
 
 This formalization is DERIVED from the supplied worked semantics.
 
----
+______________________________________________________________________
 
-# 92. Scope Binding Contract
+## 92. Scope Binding Contract
 
 Before mutation:
 
@@ -2336,9 +2336,9 @@ Exact schema is illustrative.
 
 The semantic requirement to declare these dimensions is supplied.
 
----
+______________________________________________________________________
 
-# 93. Authority Contract
+## 93. Authority Contract
 
 Target:
 
@@ -2350,9 +2350,9 @@ must hold before consequential mutation.
 
 A stale authority reference must not inherit authority merely because the identity remains valid.
 
----
+______________________________________________________________________
 
-# 94. Dependency Closure Contract
+## 94. Dependency Closure Contract
 
 Only dependencies capable of changing the result need to block the operation.
 
@@ -2368,9 +2368,9 @@ This preserves efficiency without weakening integrity.
 
 Exact graph traversal algorithm remains NOT_ESTABLISHED.
 
----
+______________________________________________________________________
 
-# 95. Proposal State
+## 95. Proposal State
 
 A proposed identity state is non-authoritative.
 
@@ -2391,9 +2391,9 @@ This state machine is DERIVED.
 
 Exact canonical state names are not supplied.
 
----
+______________________________________________________________________
 
-# 96. Commit Contract
+## 96. Commit Contract
 
 A valid commit should conceptually require:
 
@@ -2409,9 +2409,9 @@ ResolvedIdentity
 
 This is a MODEL-level normalized contract.
 
----
+______________________________________________________________________
 
-# 97. Selective Invalidation
+## 97. Selective Invalidation
 
 The supplied worked semantics states:
 
@@ -2433,9 +2433,9 @@ Failed(P)
 
 where dependency relationships are known.
 
----
+______________________________________________________________________
 
-# 98. Identity Dependency Graph
+## 98. Identity Dependency Graph
 
 Illustrative:
 
@@ -2459,9 +2459,9 @@ A change in one node should invalidate only conclusions that depend upon that no
 
 This graph is illustrative, not source schema.
 
----
+______________________________________________________________________
 
-# 99. Identity Claim Graph
+## 99. Identity Claim Graph
 
 Conceptually:
 
@@ -2484,9 +2484,9 @@ C3
 
 The `-X->` edges mark invalid inference.
 
----
+______________________________________________________________________
 
-# 100. Promotion Gate
+## 100. Promotion Gate
 
 The supplied promotion-gate checklist is:
 
@@ -2507,9 +2507,9 @@ Until these conditions are satisfied through actual evidence:
 canonical_status = UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 101. Native-Canon Source Requirement
+## 101. Native-Canon Source Requirement
 
 Substantive population requires:
 
@@ -2529,9 +2529,9 @@ architectural elaboration
 native-canon source ingestion
 ```
 
----
+______________________________________________________________________
 
-# 102. Typed Schema Promotion Requirement
+## 102. Typed Schema Promotion Requirement
 
 Promotion requires a schema specifically bound to this artifact.
 
@@ -2543,9 +2543,9 @@ TypedIdentitySchema = NOT_ESTABLISHED
 
 Illustrative schemas in this reconstruction do not close that gap.
 
----
+______________________________________________________________________
 
-# 103. Identity + Versioning Implementation Requirement
+## 103. Identity + Versioning Implementation Requirement
 
 Promotion requires identity and versioning to be implemented.
 
@@ -2557,9 +2557,9 @@ implementation_status: NOT_ESTABLISHED
 
 Therefore documented target semantics cannot be treated as implemented runtime behavior.
 
----
+______________________________________________________________________
 
-# 104. Negative Case Requirement
+## 104. Negative Case Requirement
 
 Promotion requires negative cases including:
 
@@ -2572,9 +2572,9 @@ unauthorized input
 
 A future validation suite should demonstrate correct failure behavior rather than only successful-path behavior.
 
----
+______________________________________________________________________
 
-# 105. Provenance Persistence Requirement
+## 105. Provenance Persistence Requirement
 
 Promotion requires provenance edges to be:
 
@@ -2586,9 +2586,9 @@ validated
 
 A provenance field merely appearing in Markdown is not equivalent to persistent validated provenance infrastructure.
 
----
+______________________________________________________________________
 
-# 106. Rollback Demonstration Requirement
+## 106. Rollback Demonstration Requirement
 
 Promotion requires rollback basin demonstration for consequential effects.
 
@@ -2602,9 +2602,9 @@ rollback demonstrated
 
 Evidence must show that recovery actually works under the declared conditions.
 
----
+______________________________________________________________________
 
-# 107. Validation Receipt Requirement
+## 107. Validation Receipt Requirement
 
 The artifact requires:
 
@@ -2629,17 +2629,17 @@ NOT_ESTABLISHED
 
 unless separately loaded and validated.
 
----
+______________________________________________________________________
 
-# 108. Critical Gap Visibility
+## 108. Critical Gap Visibility
 
 Promotion requires unresolved critical gaps to remain visible.
 
 Therefore a promotion process that merely removes `UNKNOWN/GAP` labels without resolving the underlying evidence deficiency would violate the artifact's own promotion discipline.
 
----
+______________________________________________________________________
 
-# 109. Gap Register
+## 109. Gap Register
 
 Current source-established gaps:
 
@@ -2719,9 +2719,9 @@ GAP-ID-016:
 
 The additional gaps are not source-established identifiers; they are a DERIVED gap registry intended to prevent silent filling.
 
----
+______________________________________________________________________
 
-# 110. Gap Priority
+## 110. Gap Priority
 
 Under integrity-first governance:
 
@@ -2749,9 +2749,9 @@ executable binding
 
 Until those are resolved, architectural polish does not justify promotion.
 
----
+______________________________________________________________________
 
-# 111. Cross-Plane Bindings — Target
+## 111. Cross-Plane Bindings — Target
 
 The source specifies:
 
@@ -2777,9 +2777,9 @@ These are target bindings.
 
 The placeholder does not establish that each binding is implemented or validated.
 
----
+______________________________________________________________________
 
-# 112. Canon Plane Binding
+## 112. Canon Plane Binding
 
 The identity canon belongs to:
 
@@ -2795,9 +2795,9 @@ and specifically:
 
 Its rules, once populated and promoted, would remain governed by the applicable law hierarchy.
 
----
+______________________________________________________________________
 
-# 113. Kernel Interaction Boundary
+## 113. Kernel Interaction Boundary
 
 A reference to:
 
@@ -2821,9 +2821,9 @@ kernel enforcement validated
 
 Those remain evidence-dependent.
 
----
+______________________________________________________________________
 
-# 114. Control Plane Boundary
+## 114. Control Plane Boundary
 
 The target control plane may gate identity-affecting operations.
 
@@ -2837,9 +2837,9 @@ ImplementedAuthorization
 
 The exact control-plane identity contract remains NOT_ESTABLISHED.
 
----
+______________________________________________________________________
 
-# 115. Observability Boundary
+## 115. Observability Boundary
 
 The source explicitly states:
 
@@ -2856,9 +2856,9 @@ OBSERVATION != AUTHORITY
 
 Monitoring may report identity state but must not silently become the source of authorization.
 
----
+______________________________________________________________________
 
-# 116. Operations Recovery Boundary
+## 116. Operations Recovery Boundary
 
 The target binding:
 
@@ -2870,9 +2870,9 @@ does not establish recovery mechanics.
 
 It identifies the intended architectural relation.
 
----
+______________________________________________________________________
 
-# 117. Identity State Machine — MODEL
+## 117. Identity State Machine — MODEL
 
 Illustrative state machine:
 
@@ -2907,9 +2907,9 @@ This is not source-established lifecycle canon.
 
 It is an illustrative MODEL derived from the supplied boundaries.
 
----
+______________________________________________________________________
 
-# 118. Mutation State Machine — MODEL
+## 118. Mutation State Machine — MODEL
 
 ```text
 CURRENT
@@ -2936,9 +2936,9 @@ NEW CURRENT STATE
 
 Exact state names and mechanics are NOT_ESTABLISHED.
 
----
+______________________________________________________________________
 
-# 119. Identity Resolver Schema — MODEL
+## 119. Identity Resolver Schema — MODEL
 
 ```yaml
 identity_ref:
@@ -2965,9 +2965,9 @@ resolution:
 
 Illustrative only.
 
----
+______________________________________________________________________
 
-# 120. Identity Mutation Schema — MODEL
+## 120. Identity Mutation Schema — MODEL
 
 ```yaml
 identity_mutation:
@@ -2991,9 +2991,9 @@ identity_mutation:
 
 This does not establish executable binding.
 
----
+______________________________________________________________________
 
-# 121. Supersession Record — MODEL
+## 121. Supersession Record — MODEL
 
 ```yaml
 supersession:
@@ -3010,9 +3010,9 @@ supersession:
 
 The exact schema remains UNKNOWN/GAP.
 
----
+______________________________________________________________________
 
-# 122. Provenance Edge Schema — MODEL
+## 122. Provenance Edge Schema — MODEL
 
 ```yaml
 provenance_edge:
@@ -3033,9 +3033,9 @@ provenance_edge:
 
 This is illustrative and must not be promoted as native canon without source ingestion.
 
----
+______________________________________________________________________
 
-# 123. Authority Binding Schema — MODEL
+## 123. Authority Binding Schema — MODEL
 
 ```yaml
 authority_binding:
@@ -3050,9 +3050,9 @@ authority_binding:
 
 No exact authority schema is established by the supplied artifact.
 
----
+______________________________________________________________________
 
-# 124. Identity Receipt Schema — MODEL
+## 124. Identity Receipt Schema — MODEL
 
 ```yaml
 identity_receipt:
@@ -3077,9 +3077,9 @@ identity_receipt:
 
 Illustrative only.
 
----
+______________________________________________________________________
 
-# 125. Anti-Pattern — Name Equals Identity
+## 125. Anti-Pattern — Name Equals Identity
 
 Invalid:
 
@@ -3101,9 +3101,9 @@ and applicable provenance
 
 as required by the supplied duplicate filename rule.
 
----
+______________________________________________________________________
 
-# 126. Anti-Pattern — Latest Equals Historical
+## 126. Anti-Pattern — Latest Equals Historical
 
 Invalid:
 
@@ -3115,9 +3115,9 @@ historical reference to A@v1
 
 This destroys historical identity and replay integrity.
 
----
+______________________________________________________________________
 
-# 127. Anti-Pattern — Identity Equals Authority
+## 127. Anti-Pattern — Identity Equals Authority
 
 Invalid:
 
@@ -3135,9 +3135,9 @@ then
 validate authority separately
 ```
 
----
+______________________________________________________________________
 
-# 128. Anti-Pattern — Documentation Equals Enforcement
+## 128. Anti-Pattern — Documentation Equals Enforcement
 
 Invalid:
 
@@ -3154,9 +3154,9 @@ implementation_status: NOT_ESTABLISHED
 executable_binding: NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 129. Anti-Pattern — Canon Slot Equals Canon
+## 129. Anti-Pattern — Canon Slot Equals Canon
 
 Invalid:
 
@@ -3173,9 +3173,9 @@ PLACEHOLDER
 canonical_status: UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 130. Anti-Pattern — Repetition Equals Validation
+## 130. Anti-Pattern — Repetition Equals Validation
 
 Invalid:
 
@@ -3189,9 +3189,9 @@ Shared provenance may make those copies correlated.
 
 Independent validation must be demonstrated.
 
----
+______________________________________________________________________
 
-# 131. Anti-Pattern — Silent Overwrite
+## 131. Anti-Pattern — Silent Overwrite
 
 Invalid:
 
@@ -3207,9 +3207,9 @@ preserve existing file
 overwrite: false
 ```
 
----
+______________________________________________________________________
 
-# 132. Anti-Pattern — Silent Merge
+## 132. Anti-Pattern — Silent Merge
 
 Invalid:
 
@@ -3220,9 +3220,9 @@ two identity records appear similar
 
 Similarity is not sufficient evidence of identity equivalence.
 
----
+______________________________________________________________________
 
-# 133. Anti-Pattern — Silent Promotion
+## 133. Anti-Pattern — Silent Promotion
 
 Invalid:
 
@@ -3241,9 +3241,9 @@ UNKNOWN/GAP
 
 unless promotion gates are actually satisfied.
 
----
+______________________________________________________________________
 
-# 134. Anti-Pattern — Gap Filling by Fluency
+## 134. Anti-Pattern — Gap Filling by Fluency
 
 Invalid:
 
@@ -3261,9 +3261,9 @@ missing identity rule
 → record minimum missing information
 ```
 
----
+______________________________________________________________________
 
-# 135. Identity Validation Matrix — TARGET
+## 135. Identity Validation Matrix — TARGET
 
 | Test                     | Expected result                             |
 | ------------------------ | ------------------------------------------- |
@@ -3283,9 +3283,9 @@ missing identity rule
 
 The exact runtime responses remain target semantics unless separately established.
 
----
+______________________________________________________________________
 
-# 136. Adversarial Validation
+## 136. Adversarial Validation
 
 A future implementation should be challenged with cases designed to break identity integrity:
 
@@ -3310,9 +3310,9 @@ historical replay after supersession
 
 Passing happy-path tests alone is insufficient.
 
----
+______________________________________________________________________
 
-# 137. Provenance Adversarial Test
+## 137. Provenance Adversarial Test
 
 Challenge:
 
@@ -3334,9 +3334,9 @@ NO,
 unless independence from shared ancestry is demonstrated.
 ```
 
----
+______________________________________________________________________
 
-# 138. Version Adversarial Test
+## 138. Version Adversarial Test
 
 Given:
 
@@ -3355,9 +3355,9 @@ UNKNOWN/GAP
 
 is safer than substitution.
 
----
+______________________________________________________________________
 
-# 139. Authority Adversarial Test
+## 139. Authority Adversarial Test
 
 Given:
 
@@ -3374,9 +3374,9 @@ valid identity → valid authority
 
 The authority gate fails independently.
 
----
+______________________________________________________________________
 
-# 140. Scope Adversarial Test
+## 140. Scope Adversarial Test
 
 Given an identity valid in scope `S1` but unresolved in `S2`:
 
@@ -3392,9 +3392,9 @@ ValidIdentity(X, S2)
 
 without a valid scope bridge.
 
----
+______________________________________________________________________
 
-# 141. Regime Adversarial Test
+## 141. Regime Adversarial Test
 
 An identity established in simulation does not automatically establish a corresponding empirical identity claim.
 
@@ -3406,9 +3406,9 @@ EMPIRICAL_IDENTITY
 
 unless explicitly bridged.
 
----
+______________________________________________________________________
 
-# 142. Recovery Adversarial Test
+## 142. Recovery Adversarial Test
 
 After a failed identity mutation:
 
@@ -3420,9 +3420,9 @@ should remain preserved.
 
 Only dependent invalid state should be rolled back or invalidated where dependency relationships are known.
 
----
+______________________________________________________________________
 
-# 143. Identity Proof Capsule — TARGET
+## 143. Identity Proof Capsule — TARGET
 
 ```yaml
 proof_capsule:
@@ -3476,9 +3476,9 @@ proof_capsule:
 
 Illustrative only.
 
----
+______________________________________________________________________
 
-# 144. Proof Capsule Invalidation
+## 144. Proof Capsule Invalidation
 
 If a load-bearing identity premise fails:
 
@@ -3496,9 +3496,9 @@ version record invalidated
 → unrelated artifact identities preserved
 ```
 
----
+______________________________________________________________________
 
-# 145. Identity RSCF Node — Current
+## 145. Identity RSCF Node — Current
 
 ```yaml
 RSCF-NODE:
@@ -3517,9 +3517,9 @@ RSCF-NODE:
 
 This preserves the supplied node semantics.
 
----
+______________________________________________________________________
 
-# 146. RSCF Relation Integrity
+## 146. RSCF Relation Integrity
 
 RSCF relationships are typed edges.
 
@@ -3549,9 +3549,9 @@ SUPERSEDES
 
 Relationship type matters.
 
----
+______________________________________________________________________
 
-# 147. Identity Relation Vocabulary — TARGET
+## 147. Identity Relation Vocabulary — TARGET
 
 A future populated canon may need relations such as:
 
@@ -3573,9 +3573,9 @@ EVIDENCE_FOR
 
 This list is MODEL-level and not final canon.
 
----
+______________________________________________________________________
 
-# 148. Canonical Identity Invariant — Candidate
+## 148. Canonical Identity Invariant — Candidate
 
 A candidate high-level invariant is:
 
@@ -3589,9 +3589,9 @@ and applicable registry state can support.
 
 It must not be treated as supplied native canon until explicitly promoted.
 
----
+______________________________________________________________________
 
-# 149. Provenance Identity Invariant — Candidate
+## 149. Provenance Identity Invariant — Candidate
 
 ```text
 Identity resolution MUST NOT erase provenance distinctions
@@ -3601,9 +3601,9 @@ or epistemic status.
 
 **Class:** DERIVED.
 
----
+______________________________________________________________________
 
-# 150. Version Identity Invariant — Candidate
+## 150. Version Identity Invariant — Candidate
 
 ```text
 A version-sensitive reference MUST NOT silently resolve
@@ -3612,9 +3612,9 @@ to a materially different version.
 
 **Class:** DERIVED.
 
----
+______________________________________________________________________
 
-# 151. Authority Identity Invariant — Candidate
+## 151. Authority Identity Invariant — Candidate
 
 ```text
 Resolved identity MUST NOT be treated as authorization.
@@ -3622,9 +3622,9 @@ Resolved identity MUST NOT be treated as authorization.
 
 This is strongly supported by the supplied capability/authority and authority-check boundaries.
 
----
+______________________________________________________________________
 
-# 152. Historical Integrity Invariant — Candidate
+## 152. Historical Integrity Invariant — Candidate
 
 ```text
 Current identity state MUST NOT silently rewrite
@@ -3633,9 +3633,9 @@ historical identity state.
 
 **Class:** DERIVED integration.
 
----
+______________________________________________________________________
 
-# 153. Add-Only Integrity Invariant
+## 153. Add-Only Integrity Invariant
 
 The source strongly supports:
 
@@ -3648,9 +3648,9 @@ not duplicate canonical creation.
 
 This is one of the most directly supported identity-relevant behaviors in the placeholder.
 
----
+______________________________________________________________________
 
-# 154. Minimum Viable Populated Canon
+## 154. Minimum Viable Populated Canon
 
 Before this placeholder can become substantively populated, the minimum native canon should answer:
 
@@ -3679,28 +3679,28 @@ Before this placeholder can become substantively populated, the minimum native c
 
 Until these are sourced, the placeholder remains incomplete.
 
----
+______________________________________________________________________
 
-# 155. Implementation Contract — NOT ESTABLISHED
+## 155. Implementation Contract — NOT ESTABLISHED
 
 No source provided here establishes:
 
-* identity registry implementation;
-* database schema;
-* distributed registry;
-* content-addressed storage;
-* UUID semantics;
-* cryptographic identity;
-* key management;
-* signatures;
-* authentication;
-* authorization engine;
-* persistent MVCC implementation;
-* consensus protocol;
-* cross-shard identity resolution;
-* runtime enforcement;
-* executable identity resolver;
-* formal verification.
+- identity registry implementation;
+- database schema;
+- distributed registry;
+- content-addressed storage;
+- UUID semantics;
+- cryptographic identity;
+- key management;
+- signatures;
+- authentication;
+- authorization engine;
+- persistent MVCC implementation;
+- consensus protocol;
+- cross-shard identity resolution;
+- runtime enforcement;
+- executable identity resolver;
+- formal verification.
 
 Therefore:
 
@@ -3710,9 +3710,9 @@ implementation_status = NOT_ESTABLISHED
 
 remains binding.
 
----
+______________________________________________________________________
 
-# 156. Validation Contract — NOT ESTABLISHED
+## 156. Validation Contract — NOT ESTABLISHED
 
 No executed validation evidence supplied in this artifact establishes:
 
@@ -3733,9 +3733,9 @@ Therefore:
 validation_status = NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 157. Executable Binding — NOT ESTABLISHED
+## 157. Executable Binding — NOT ESTABLISHED
 
 No executable artifact has been established here as the authoritative implementation of `AMOS_IDENTITY_CANON`.
 
@@ -3747,9 +3747,9 @@ executable_binding = NOT_ESTABLISHED
 
 Documentation MUST NOT be treated as executable behavior.
 
----
+______________________________________________________________________
 
-# 158. Empirical Boundary
+## 158. Empirical Boundary
 
 Even after implementation and validation within AMOS OS:
 
@@ -3761,25 +3761,25 @@ would establish performance within its tested scope.
 
 It would not establish a universal empirical theory of identity.
 
----
+______________________________________________________________________
 
-# 159. Formal Proof Boundary
+## 159. Formal Proof Boundary
 
 No formal proof is supplied establishing:
 
-* global uniqueness;
-* collision freedom;
-* consistency across arbitrary concurrency;
-* Byzantine robustness;
-* distributed finality;
-* identity continuity theorem;
-* universal correctness.
+- global uniqueness;
+- collision freedom;
+- consistency across arbitrary concurrency;
+- Byzantine robustness;
+- distributed finality;
+- identity continuity theorem;
+- universal correctness.
 
 Therefore no such theorem should be inferred.
 
----
+______________________________________________________________________
 
-# 160. Security Boundary
+## 160. Security Boundary
 
 Identity is security-relevant when authorization depends on it.
 
@@ -3803,25 +3803,25 @@ unauthorized supersession
 
 These are threat-model candidates, not claims of observed vulnerabilities.
 
----
+______________________________________________________________________
 
-# 161. Governance Boundary
+## 161. Governance Boundary
 
 Identity changes that affect:
 
-* authority;
-* canon;
-* provenance;
-* downstream dependencies;
-* irreversible external effects;
+- authority;
+- canon;
+- provenance;
+- downstream dependencies;
+- irreversible external effects;
 
 should receive stronger governance than cosmetic metadata changes.
 
 Exact governance thresholds remain NOT_ESTABLISHED.
 
----
+______________________________________________________________________
 
-# 162. Reversibility Principle
+## 162. Reversibility Principle
 
 Under uncertainty:
 
@@ -3842,9 +3842,9 @@ proposal before commit
 
 These are MODEL-level safe-action patterns, not supplied canonical commands.
 
----
+______________________________________________________________________
 
-# 163. Identity Repair
+## 163. Identity Repair
 
 When identity metadata is corrupted, repair should restore viable integrity without fabricating missing history.
 
@@ -3859,9 +3859,9 @@ validated correction → explicit supersession/repair
 
 Never invent provenance to make the graph complete.
 
----
+______________________________________________________________________
 
-# 164. Identity Recovery Receipt — TARGET
+## 164. Identity Recovery Receipt — TARGET
 
 A consequential repair may conceptually record:
 
@@ -3881,9 +3881,9 @@ identity_recovery_receipt:
 
 Illustrative only.
 
----
+______________________________________________________________________
 
-# 165. Canon Population Protocol — TARGET
+## 165. Canon Population Protocol — TARGET
 
 ```text
 NATIVE SOURCE FOUND
@@ -3924,9 +3924,9 @@ PROMOTION GOVERNANCE
 
 This is a DERIVED operational expansion of the supplied ingestion and promotion rules.
 
----
+______________________________________________________________________
 
-# 166. Population Must Not Rewrite Provenance
+## 166. Population Must Not Rewrite Provenance
 
 When native content is eventually ingested:
 
@@ -3940,9 +3940,9 @@ The system should not pretend the fully populated canon always existed in its fi
 
 This protects causal and provenance integrity.
 
----
+______________________________________________________________________
 
-# 167. Placeholder Supersession Record — FUTURE
+## 167. Placeholder Supersession Record — FUTURE
 
 When this placeholder is populated, an explicit lineage record should ideally capture:
 
@@ -3962,9 +3962,9 @@ This is MODEL-level guidance.
 
 No such transition has yet been established.
 
----
+______________________________________________________________________
 
-# 168. Current Supersession State
+## 168. Current Supersession State
 
 Current supplied evidence does NOT establish:
 
@@ -3980,9 +3980,9 @@ Superseded = NOT_ESTABLISHED
 
 It remains the supplied placeholder artifact unless newer authoritative canon is provided.
 
----
+______________________________________________________________________
 
-# 169. Current Canonical Status
+## 169. Current Canonical Status
 
 The controlling status remains:
 
@@ -3997,9 +3997,9 @@ executable_binding: NOT_ESTABLISHED
 
 Expansion does not change these values.
 
----
+______________________________________________________________________
 
-# 170. Source-Established Claims
+## 170. Source-Established Claims
 
 The supplied artifact directly establishes, as corpus content:
 
@@ -4064,9 +4064,9 @@ S25. Promotion requires substantive native source,
 
 These are corpus/source claims, not independent empirical verification.
 
----
+______________________________________________________________________
 
-# 171. Derived Identity Principles
+## 171. Derived Identity Principles
 
 The following are reasonable DERIVED consequences of the supplied governance structure but are not directly supplied as final identity canon:
 
@@ -4101,9 +4101,9 @@ D10. Identity semantics require explicit scope,
 
 These MUST remain DERIVED/MODEL until native canon establishes them.
 
----
+______________________________________________________________________
 
-# 172. Not Established
+## 172. Not Established
 
 The supplied source does NOT establish:
 
@@ -4161,9 +4161,9 @@ NE25. Final canonical status.
 
 These gaps must remain visible.
 
----
+______________________________________________________________________
 
-# 173. Critical Gaps
+## 173. Critical Gaps
 
 The minimum critical missing information is:
 
@@ -4191,9 +4191,9 @@ The minimum critical missing information is:
 
 Without these, promotion is not justified.
 
----
+______________________________________________________________________
 
-# 174. Decision-Relevant Gaps
+## 174. Decision-Relevant Gaps
 
 If an implementation were attempted before full canon population, the most decision-relevant unresolved questions would be:
 
@@ -4221,9 +4221,9 @@ What exact state is rolled back after failed mutation?
 
 These must not be silently chosen and then represented as canon.
 
----
+______________________________________________________________________
 
-# 175. Falsifiers / Invalidation Conditions
+## 175. Falsifiers / Invalidation Conditions
 
 This reconstruction should be revised or superseded if:
 
@@ -4254,9 +4254,9 @@ F8. Provenance establishes that this placeholder is
 
 Where conflict occurs, preserve the contradiction until valid precedence is established.
 
----
+______________________________________________________________________
 
-# 176. Promotion Decision Rule
+## 176. Promotion Decision Rule
 
 Current decision:
 
@@ -4281,9 +4281,9 @@ Therefore:
 PROMOTION = NOT AUTHORIZED BY CURRENT EVIDENCE
 ```
 
----
+______________________________________________________________________
 
-# 177. Canonical Integrity Constraints
+## 177. Canonical Integrity Constraints
 
 ```text
 IC-1
@@ -4326,9 +4326,9 @@ IC-12
 Never infer canonical status from architectural detail.
 ```
 
----
+______________________________________________________________________
 
-# 178. Minimal Safe Operational Rule
+## 178. Minimal Safe Operational Rule
 
 Until substantive canon is populated:
 
@@ -4345,9 +4345,9 @@ and fail closed where the operation is consequential.
 
 This is the safest operational interpretation of the supplied artifact.
 
----
+______________________________________________________________________
 
-# 179. Full Target Identity Contract — MODEL
+## 179. Full Target Identity Contract — MODEL
 
 ```yaml
 AMOS_IDENTITY_CONTRACT:
@@ -4399,9 +4399,9 @@ AMOS_IDENTITY_CONTRACT:
 
 This contract is a reconstruction, not source-established populated canon.
 
----
+______________________________________________________________________
 
-# 180. Canon Population Acceptance Test
+## 180. Canon Population Acceptance Test
 
 A future populated artifact should be rejected as incomplete if it cannot answer:
 
@@ -4431,9 +4431,9 @@ Can gaps remain explicit?
 Can the implementation be distinguished from the model?
 ```
 
----
+______________________________________________________________________
 
-# 181. Final Proof Capsule
+## 181. Final Proof Capsule
 
 ```yaml
 claim:
@@ -4473,9 +4473,9 @@ result:
   canonical_status remains UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 182. Final RSCF Contract
+## 182. Final RSCF Contract
 
 ```yaml
 node_id: amos_01_canon_03_cognition_canon_amos_identity_canon
@@ -4529,9 +4529,9 @@ confidence_ceiling:
   source_supported
 ```
 
----
+______________________________________________________________________
 
-# 183. Final Integrity Rule
+## 183. Final Integrity Rule
 
 ```text
 AMOS IDENTITY CANON CURRENTLY DEFINES A RESERVED,
@@ -4572,9 +4572,9 @@ PLAUSIBLE [[00_ROOT/ARCHITECTURE|ARCHITECTURE]] MUST NEVER FILL MISSING CANON.
 CANONICAL STATUS REMAINS UNKNOWN/GAP.
 ```
 
----
+______________________________________________________________________
 
-# 184. Canon Boundary
+## 184. Canon Boundary
 
 The material supplied in the original placeholder establishes the **slot, metadata, ingestion discipline, governance boundaries, worked target semantics, gaps, promotion gates, and target cross-plane bindings**.
 
@@ -4611,7 +4611,7 @@ executable_binding: NOT_ESTABLISHED
 ```
 ---
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ---
 
@@ -4657,5 +4657,8 @@ RSCF-RELATIONS:
 
 **Final status:** `PLACEHOLDER · AMOS_MODEL · UNKNOWN/GAP`
 
+```
+
+```
 ```
 ```

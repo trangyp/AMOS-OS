@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: AMOS MULTI PERSPECTIVE REASONING KERNEL V0 META COGNITION4 2
 tags:
-- canon-group/biology
-- canon/framework
-- rscf/claim
-- rscf/provenance
-- rscf/state/source-claim
-- topic/amos-multi-perspective-reasoning-kernel-
-- kernel
+  - canon-group/biology
+  - canon/framework
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - topic/amos-multi-perspective-reasoning-kernel-
+  - kernel
 type: data
 source: 11_KNOWLEDGE/kernel
 rscf:
@@ -120,6 +123,6 @@ rscf:
 **Related:** [[11_KNOWLEDGE/kernel/SYSTEM_SENSOR_KERNEL|SYSTEM_SENSOR_KERNEL]] · [[11_KNOWLEDGE/kernel/KERNEL_PROTOCOL|KERNEL_PROTOCOL]] · [[11_KNOWLEDGE/kernel/AMOS_COGNITION_TOTAL_KERNEL|AMOS_COGNITION_TOTAL_KERNEL]] · [[11_KNOWLEDGE/kernel/AMOS_BIZFIN_KERNEL_V0|AMOS_BIZFIN_KERNEL_V0]]
 ```
 
----
-**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]
+______________________________________________________________________
 
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]

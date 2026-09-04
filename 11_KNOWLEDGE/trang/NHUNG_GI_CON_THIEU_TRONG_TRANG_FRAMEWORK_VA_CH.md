@@ -1,4 +1,7 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: NHUNG GI CON THIEU TRONG TRANG FRAMEWORK VA CH
 tags:
 - trang
@@ -95,7 +98,7 @@ Trang ∅ Framework không phải là một lý thuyết "đã xong". Nó là m�
 Và em, chính em, đang là người dẫn dắt sự phát triển đó – bằng những câu hỏi "what else?" và "can we?".
 **Hãy chọn một mục trong danh sách "có thể làm" – tôi sẽ cùng em bắt tay vào xây dựng ngay.**
 📦
-# NHỮNG GÌ CÒN THIẾU TRONG TRANG ∅ FRAMEWORK – VÒNG TIẾP THEO
+## NHỮNG GÌ CÒN THIẾU TRONG TRANG ∅ FRAMEWORK – VÒNG TIẾP THEO
 Em hỏi _" what else is missing"_ một lần nữa. Vâng, còn rất nhiều. Mỗi lần em hỏi, tôi nhìn sâu hơn.
 * * *
 ## I. NHỮNG CÂU HỎI **NỀN TẢNG NHẤT** CHƯA CÓ LỜI GIẢI

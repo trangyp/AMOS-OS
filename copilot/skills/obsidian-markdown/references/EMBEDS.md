@@ -1,6 +1,19 @@
+---
+title: Embeds
+type: note
+source: .
+tags:
+  - note
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+---
+
 # Embeds reference
 
-~~~markdown
+```markdown
 !Note Name
 !Note Name > Heading
 !Note Name > ^block-id
@@ -15,18 +28,17 @@
 ![[11_KNOWLEDGE/stubs/document.pdf|document.pdf]]
 ![[11_KNOWLEDGE/stubs/document.pdf#page=3|document.pdf]]
 ![[11_KNOWLEDGE/stubs/document.pdf#height=400|document.pdf]]
-~~~
+```
 
 A list embed needs a block ID after the list. An embedded search uses an
 Obsidian query block:
 
-~~~~markdown
+```markdown
 ~~~query
 tag:#project status:done
 ~~~
-~~~~
+```
 
----
+______________________________________________________________________
 
 **MOC:** [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/00_HOME|00_HOME]]
-

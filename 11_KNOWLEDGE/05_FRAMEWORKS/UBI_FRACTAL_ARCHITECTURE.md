@@ -12,23 +12,23 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: FRAMEWORK
 path: 11_KNOWLEDGE/05_FRAMEWORKS/UBI_FRACTAL_ARCHITECTURE.md
 tags:
-- amos-os
-- knowledge
-- vault
-- 05_frameworks
-- ubi_fractal_architecture
-- ubi
-- fractal_biology
-- entropy_correction
-- living_systems
-- rscf
-- canon_candidate
-- canon/knowledge
-- unified-biological-intelligence
-- frai-fractal-reasoning-ai
-- ubi-neurobiological-intelligence
-- ubi-fractal-architecture-entropy-correction
-- heritage-fractal-mathematics
+  - amos-os
+  - knowledge
+  - vault
+  - 05_frameworks
+  - ubi_fractal_architecture
+  - ubi
+  - fractal_biology
+  - entropy_correction
+  - living_systems
+  - rscf
+  - canon_candidate
+  - canon/knowledge
+  - unified-biological-intelligence
+  - frai-fractal-reasoning-ai
+  - ubi-neurobiological-intelligence
+  - ubi-fractal-architecture-entropy-correction
+  - heritage-fractal-mathematics
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -43,23 +43,23 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - UBI_FRACTAL_ARCHITECTURE_ENTROPY_CORRECTION
-  - UBI_OFFICIAL_MANUAL
-  - AMOS_CORPUS
+    - UBI_FRACTAL_ARCHITECTURE_ENTROPY_CORRECTION
+    - UBI_OFFICIAL_MANUAL
+    - AMOS_CORPUS
   scope:
-  - KNOWLEDGE_FRAMEWORKS
-  - FRACTAL_BIOLOGY
-  - SOURCE_DEFINED_MODEL
+    - KNOWLEDGE_FRAMEWORKS
+    - FRACTAL_BIOLOGY
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   primary:
     name: UBI Fractal Architecture & Entropy Correction
     role: FRACTAL_BIOLOGICAL_STRUCTURE_AND_ENTROPY_REGULATION
   biological_master:
     artifact:
-    - - UNIFIED_BIOLOGICAL_INTELLIGENCE
+      -   - UNIFIED_BIOLOGICAL_INTELLIGENCE
   fractal_reasoning:
     artifact:
-    - - FRAI_FRACTAL_REASONING_AI
+      -   - FRAI_FRACTAL_REASONING_AI
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
@@ -73,9 +73,9 @@ epistemic_boundary:
 
 It articulates how living biological systems maintain homeostatic stability against thermodynamic entropy through recursive, scale-invariant fractal architectures across the 4 UBI domains (NBI, NEI, SI, BEI).
 
----
+______________________________________________________________________
 
-# 1. Biological Entropy Regulation
+## 1. Biological Entropy Regulation
 
 ```text
 THERMODYNAMIC ENTROPY (ΔS > 0)
@@ -91,18 +91,18 @@ FRACTAL REGULATION STRUCTURES:
 ENTROPY DISSIPATION & HOMEOSTATIC RECOVERY (Preserving e = i²)
 ```
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Biological Master:** [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]]
 - **Fractal AI:** [[11_KNOWLEDGE/05_FRAMEWORKS/FRAI_FRACTAL_REASONING_AI|FRAI_FRACTAL_REASONING_AI]]
 - **Native Vault Source:** UBI_FRACTAL_ARCHITECTURE_ENTROPY_CORRECTION
 - **Domain Breakdown:** [[11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/UBI_NEUROBIOLOGICAL_INTELLIGENCE|UBI_NEUROBIOLOGICAL_INTELLIGENCE]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -120,9 +120,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]] · [[11_KNOWLEDGE/05_FRAMEWORKS/FRAI_FRACTAL_REASONING_AI|FRAI_FRACTAL_REASONING_AI]] · [[11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_FRACTAL_MATHEMATICS|HERITAGE_FRACTAL_MATHEMATICS]]
 
----
+______________________________________________________________________
+
 **MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]

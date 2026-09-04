@@ -1,4 +1,7 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 date: 2026-08-30
 epistemic_class: OBSERVATION
 provenance: GitHub README, not independently verified
@@ -10,6 +13,7 @@ rscf:
 source: https://raw.githubusercontent.com/nuryslyrt/ORPHEUS/main/README.md
 title: ORPHEUS README — Raw Capture
 ---
+
 # ORPHEUS README — Raw Capture
 
 Source: `https://github.com/nuryslyrt/ORPHEUS`
@@ -34,7 +38,7 @@ Source: `https://github.com/nuryslyrt/ORPHEUS`
 </tr>
 </table>
 
----
+______________________________________________________________________
 
 ```
 You:     "Build me a content pipeline that researches topics, writes articles,
@@ -46,7 +50,7 @@ ORPHEUS:  ✓ Analyzed → 4 experts, 5 workers, 4-stage sequential pipeline
           ✓ Ready in 30 seconds. Run it whenever you want.
 ```
 
----
+______________________________________________________________________
 
 ## The Problem
 
@@ -67,15 +71,15 @@ All this to coordinate a few LLM calls.
 
 Your coding agent already has LLM reasoning, tool access, web search, code execution, file I/O, and subagent spawning. ORPHEUS structures these existing capabilities into composable **skills** — no new infrastructure required.
 
-| | Multi-Agent | ORPHEUS |
-|:---|:---|:---|
-| Runtime | N LLM instances | 1 coding agent |
-| Communication | HTTP/gRPC/queues | Filesystem |
-| Deployment | N services | 1 folder |
-| Configuration | Python/YAML code | Natural language |
-| New capability | Deploy a service | Write a markdown file |
-| Observability | External tools | Built-in decision logs |
-| Dependencies | pip/npm/docker | **None** |
+|                | Multi-Agent      | ORPHEUS                |
+| :------------- | :--------------- | :--------------------- |
+| Runtime        | N LLM instances  | 1 coding agent         |
+| Communication  | HTTP/gRPC/queues | Filesystem             |
+| Deployment     | N services       | 1 folder               |
+| Configuration  | Python/YAML code | Natural language       |
+| New capability | Deploy a service | Write a markdown file  |
+| Observability  | External tools   | Built-in decision logs |
+| Dependencies   | pip/npm/docker   | **None**               |
 
 ## How It Works
 
@@ -162,12 +166,12 @@ graph TD
 
 ORPHEUS manages itself using its own patterns — 4 experts sharing 7 reusable workers:
 
-| Expert | What It Does | When You'd Use It |
-|:-------|:-------------|:------------------|
-| **🏗️ Builder** | Creates new skill systems from natural language | *"Build me a system that..."* |
-| **🩺 Doctor** | Diagnoses failures, traces root cause, applies behavioral fixes | *"Why did the research step fail?"* |
-| **🏥 Auditor** | Runs 7 health checks, produces score and recommendations | *"Validate my system"* |
-| **🔧 Surgeon** | Structural modifications with cascading effect analysis | *"Add a fact-checker between research and writing"* |
+| Expert         | What It Does                                                    | When You'd Use It                                   |
+| :------------- | :-------------------------------------------------------------- | :-------------------------------------------------- |
+| **🏗️ Builder** | Creates new skill systems from natural language                 | *"Build me a system that..."*                       |
+| **🩺 Doctor**  | Diagnoses failures, traces root cause, applies behavioral fixes | *"Why did the research step fail?"*                 |
+| **🏥 Auditor** | Runs 7 health checks, produces score and recommendations        | *"Validate my system"*                              |
+| **🔧 Surgeon** | Structural modifications with cascading effect analysis         | *"Add a fact-checker between research and writing"* |
 
 ## Installation
 
@@ -213,12 +217,14 @@ Three prompts. Zero code. Working pipeline.
 ## Usage Patterns
 
 **Project-local** — each system lives in its project directory:
+
 ```bash
 cd ~/my-project             # has .orpheus/
 "Run the pipeline"          # ORPHEUS detects and executes
 ```
 
 **Collections** — keep multiple systems as siblings:
+
 ```
 ~/projects/
 ├── pentest-system/.orpheus/        # cd here → pentest
@@ -227,9 +233,10 @@ cd ~/my-project             # has .orpheus/
 ```
 
 **Standalone** — install as a named skill for global access:
+
 ```
 "Install this system as a standalone skill"
-# Now triggers by name from any directory
+## Now triggers by name from any directory
 ```
 
 ## What Gets Generated
@@ -289,26 +296,25 @@ Every level preserves the original. The Doctor — and you — always see the ro
 
 ## Design Decisions
 
-| Decision | Why |
-|:---------|:----|
-| **Skills, not agents** | Most orchestration doesn't need separate LLM instances. Skills are lighter and composable. |
-| **Coding agent is the runtime** | Zero infrastructure. No packages, no services, no deployment. |
-| **Filesystem as state bus** | Files persist across subagent boundaries. Natural audit trail. |
-| **Inline execution** | Runner operates in 3 nesting levels, preserving conversation context. |
-| **Self-contained systems** | Generated systems carry their own scripts. Portable and independent. |
-| **Error chains** | Full root-cause traceability across all nesting levels. |
-| **Decision logging** | Every decision records alternatives and reasoning. Enables the Doctor. |
-| **Context packaging** | User constraints forwarded to subagents. No "lost context" problem. |
-| **Composition over configuration** | Simple skills compose into complex systems. No DSL to learn. |
+| Decision                           | Why                                                                                        |
+| :--------------------------------- | :----------------------------------------------------------------------------------------- |
+| **Skills, not agents**             | Most orchestration doesn't need separate LLM instances. Skills are lighter and composable. |
+| **Coding agent is the runtime**    | Zero infrastructure. No packages, no services, no deployment.                              |
+| **Filesystem as state bus**        | Files persist across subagent boundaries. Natural audit trail.                             |
+| **Inline execution**               | Runner operates in 3 nesting levels, preserving conversation context.                      |
+| **Self-contained systems**         | Generated systems carry their own scripts. Portable and independent.                       |
+| **Error chains**                   | Full root-cause traceability across all nesting levels.                                    |
+| **Decision logging**               | Every decision records alternatives and reasoning. Enables the Doctor.                     |
+| **Context packaging**              | User constraints forwarded to subagents. No "lost context" problem.                        |
+| **Composition over configuration** | Simple skills compose into complex systems. No DSL to learn.                               |
 
 ## Documentation
 
-**[PRINCIPLES.md](PRINCIPLES.md):** The 10 core principles — the philosophical foundation 
+**[PRINCIPLES.md](PRINCIPLES.md):** The 10 core principles — the philosophical foundation
 
 **[USER-GUIDE.md](USER-GUIDE.md):** A detailed user guide explains how you can talk to ORPHEUS for creating better Orpheus systems.
 
 **[skill/references/PROVABLE_ASSURANCE.md](skill/references/PROVABLE_ASSURANCE.md):** Provable Assurance for ORPHEUS systems — the framing behind the Auditor's claim matrix and evidence package output, with a concrete evaluation method for measuring whether the capability adds value. Based on the whitepaper *[Provable Assurance for Agentic Systems](https://github.com/schwartz1375/ArtificialDiaries/blob/main/PDFs/provable_assurance_agentic_systems_whitepaper.pdf)* (Schwartz, 2026).
-
 
 ## License
 
@@ -317,4 +323,3 @@ Every level preserves the original. The Doctor — and you — always see the ro
 ORPHEUS is free software. Use, modify, and distribute under the GNU Affero General Public License v3. Network service deployments must share modifications under the same license.
 
 For commercial licensing (use without AGPL obligations), contact the author.
-

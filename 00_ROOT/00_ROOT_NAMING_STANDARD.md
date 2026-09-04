@@ -2,15 +2,14 @@
 type: naming
 source: 00_ROOT
 aliases:
-- NAMING_STANDARD
-- AMOS Naming Standard
-- AMOS OS Naming Standard
-- AMOS Namespace Standard
-- AMOS Identity Standard
+  - NAMING_STANDARD
+  - AMOS Naming Standard
+  - AMOS OS Naming Standard
+  - AMOS Namespace Standard
+  - AMOS Identity Standard
 artifact_id: AMOS-OS-NAMING-STANDARD
 name: AMOS_OS_NAMING_STANDARD
-title: AMOS OS Naming Standard — Canonical Identity, Namespace, Versioning, and Rename
-  Governance
+title: AMOS OS Naming Standard — Canonical Identity, Namespace, Versioning, and Rename Governance
 document_version: 2.0.0
 naming_standard_version: 1.0.0
 namespace_contract_version: 1.0.0
@@ -25,54 +24,54 @@ steward: Trang Phan
 created: '2026-08-25'
 updated: '2026-08-25'
 tags:
-- amos
-- amos-os
-- root
-- amos-os
-- naming
-- naming-standard
-- namespace
-- identity
-- artifact-identity
-- versioning
-- semantic-versioning
-- repository
-- filesystem
-- registry
-- canon
-- kernel
-- agents
-- skills
-- workflows
-- protocols
-- modes
-- memory
-- knowledge
-- state
-- models
-- tools
-- schemas
-- provenance
-- rscf
-- migration
-- rename
-- compatibility
-- lineage
-- governance
-- canon-group/tech-ai
-- canon/standard
-- rscf/claim
-- rscf/provenance
-- rscf/state/derived
-- topic/amos-os
-- topic/naming-standard
-- topic/namespace-governance
-- topic/version-governance
-- architecture
-- full-tree
-- authoritative-state
-- placement-rules
-- roadmap
+  - amos
+  - amos-os
+  - root
+  - amos-os
+  - naming
+  - naming-standard
+  - namespace
+  - identity
+  - artifact-identity
+  - versioning
+  - semantic-versioning
+  - repository
+  - filesystem
+  - registry
+  - canon
+  - kernel
+  - agents
+  - skills
+  - workflows
+  - protocols
+  - modes
+  - memory
+  - knowledge
+  - state
+  - models
+  - tools
+  - schemas
+  - provenance
+  - rscf
+  - migration
+  - rename
+  - compatibility
+  - lineage
+  - governance
+  - canon-group/tech-ai
+  - canon/standard
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/derived
+  - topic/amos-os
+  - topic/naming-standard
+  - topic/namespace-governance
+  - topic/version-governance
+  - architecture
+  - full-tree
+  - authoritative-state
+  - placement-rules
+  - roadmap
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -81,20 +80,21 @@ rscf:
 ---
 
 # AMOS OS Naming Standard
+
 > **Status:** `ACTIVE_STANDARD`
 > **Standard version:** `1.0.0`
 > **AMOS_CORE target:** `v4.4`
 > **Origin architect / steward:** Trang Phan
 > **Conclusion class:** `AMOS_MODEL`
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: root_index
----
+> rscf:
+> state: SOURCE_CLAIM
+> claim_class: SOURCE_CLAIM
+> provenance: AMOS_corpus
+> scope: root_index
 
+______________________________________________________________________
 
-# 0. Purpose
+## 0. Purpose
 
 The AMOS OS Naming Standard defines how AMOS artifacts are:
 
@@ -141,9 +141,9 @@ The standard governs:
 
 The standard follows AMOS integrity rules: explicit uncertainty, provenance preservation, dependency-aware change, and no invented historical identity when source information is missing.
 
----
+______________________________________________________________________
 
-# 1. Core Identity Firewall
+## 1. Core Identity Firewall
 
 The following fields are distinct:
 
@@ -173,36 +173,42 @@ ArtifactID
 !=
 RegistryName
 ```
+
 ```text
 RegistryName
 !=
 ClassName
 ```
+
 ```text
 Path
 !=
 SemanticIdentity
 ```
+
 ```text
 Rename
 !=
 Reclassification
 ```
+
 ```text
 Rename
 !=
 VersionPromotion
 ```
+
 ```text
 VersionLabel
 !=
 HistoricalProof
 ```
+
 This is the central naming invariant.
 
----
+______________________________________________________________________
 
-# 2. Naming Objectives
+## 2. Naming Objectives
 
 AMOS naming should optimize for:
 
@@ -243,9 +249,9 @@ DecorativeIntensity
 ArchitecturalMeaning
 ```
 
----
+______________________________________________________________________
 
-# 3. Namespace Layers
+## 3. Namespace Layers
 
 AMOS uses multiple namespace layers.
 
@@ -272,9 +278,9 @@ MODE_FAMILY_REGISTRY.md
 
 Each layer has its own identity.
 
----
+______________________________________________________________________
 
-# 4. Root Folder Convention
+## 4. Root Folder Convention
 
 Top-level AMOS OS sections use:
 
@@ -317,9 +323,9 @@ ordinal: 1
 semantic_name: CANON
 ```
 
----
+______________________________________________________________________
 
-# 5. Root Ordinal Rule
+## 5. Root Ordinal Rule
 
 Root ordinals should:
 
@@ -342,9 +348,9 @@ must not later become:
 
 without a breaking namespace migration.
 
----
+______________________________________________________________________
 
-# 6. Folder Naming
+## 6. Folder Naming
 
 General folder form:
 
@@ -377,9 +383,9 @@ Cognitive_Organism
 
 inside governed AMOS OS structural folders.
 
----
+______________________________________________________________________
 
-# 7. Root / Framework Markdown Files
+## 7. Root / Framework Markdown Files
 
 Root or architecture contracts use:
 
@@ -403,9 +409,9 @@ SYSTEM_MAP.md
 
 These names represent architectural roles.
 
----
+______________________________________________________________________
 
-# 8. Reserved Structural Suffixes
+## 8. Reserved Structural Suffixes
 
 AMOS reserves the following suffixes.
 
@@ -425,7 +431,7 @@ A map describes relations.
 
 It is not necessarily an authoritative registry.
 
----
+______________________________________________________________________
 
 ## `_REGISTRY.md`
 
@@ -447,7 +453,7 @@ what identity each has
 what version/state each has
 ```
 
----
+______________________________________________________________________
 
 ## `_LEDGER.md`
 
@@ -471,7 +477,7 @@ auditability
 
 not mutable current-state truth.
 
----
+______________________________________________________________________
 
 ## `_INDEX.md`
 
@@ -487,7 +493,7 @@ SKILL_INDEX.md
 
 Index membership does not imply canon status.
 
----
+______________________________________________________________________
 
 ## `_SPEC.md`
 
@@ -501,7 +507,7 @@ PROTOCOL_SPEC.md
 AGENT_SPEC.md
 ```
 
----
+______________________________________________________________________
 
 ## `_CONTRACT.md`
 
@@ -515,7 +521,7 @@ TOOL_CONTRACT.md
 AUTHORITY_CONTRACT.md
 ```
 
----
+______________________________________________________________________
 
 ## `_SCHEMA.md`
 
@@ -531,7 +537,7 @@ Executable schemas may instead use:
 
 depending on implementation.
 
----
+______________________________________________________________________
 
 ## `_CANON.md`
 
@@ -539,9 +545,9 @@ Use only when the artifact is explicitly canon-governed.
 
 Do not add `_CANON` decoratively.
 
----
+______________________________________________________________________
 
-# 9. Kernel Naming
+## 9. Kernel Naming
 
 Kernel-level artifacts use:
 
@@ -579,9 +585,9 @@ not:
 universally true
 ```
 
----
+______________________________________________________________________
 
-# 10. Agent Naming
+## 10. Agent Naming
 
 Agent contracts use:
 
@@ -618,9 +624,9 @@ registry_name: EnvironmentScan_Agent
 contract_name: A_ENVIRONMENT_SCAN
 ```
 
----
+______________________________________________________________________
 
-# 11. Skill Naming
+## 11. Skill Naming
 
 Skill directories should use lowercase kebab-case where the runtime/skill registry expects that convention.
 
@@ -643,9 +649,9 @@ source:
 
 Do not derive version identity from the directory name unless the registry explicitly requires it.
 
----
+______________________________________________________________________
 
-# 12. Workflow Naming
+## 12. Workflow Naming
 
 Workflow names should be action/process oriented.
 
@@ -665,9 +671,9 @@ new-process.md
 best-workflow.md
 ```
 
----
+______________________________________________________________________
 
-# 13. Protocol Naming
+## 13. Protocol Naming
 
 Protocols should express interaction semantics.
 
@@ -682,9 +688,9 @@ STATE_SYNC_PROTOCOL.md
 
 Protocol identity should be independent of implementation language.
 
----
+______________________________________________________________________
 
-# 14. Mode Naming
+## 14. Mode Naming
 
 Mode families use:
 
@@ -728,9 +734,9 @@ Mode
 Agent
 ```
 
----
+______________________________________________________________________
 
-# 15. Model Naming
+## 15. Model Naming
 
 Formal models should declare their scope in identity.
 
@@ -753,9 +759,9 @@ ULTIMATE_MODEL
 
 unless those are preserved historical/source identities.
 
----
+______________________________________________________________________
 
-# 16. Schema Naming
+## 16. Schema Naming
 
 Schemas should identify the object being typed.
 
@@ -781,9 +787,9 @@ not be inferred from:
 AGENT_SCHEMA_FINAL_FINAL.json
 ```
 
----
+______________________________________________________________________
 
-# 17. Registry Naming
+## 17. Registry Naming
 
 Typed registry artifacts:
 
@@ -812,9 +818,9 @@ owner:
 path:
 ```
 
----
+______________________________________________________________________
 
-# 18. Artifact ID Convention
+## 18. Artifact ID Convention
 
 Artifact IDs are stable semantic identifiers.
 
@@ -842,9 +848,9 @@ Artifact IDs should:
 - avoid volatile directory paths;
 - remain stable across safe renames.
 
----
+______________________________________________________________________
 
-# 19. Artifact ID Invariant
+## 19. Artifact ID Invariant
 
 A path change does not normally change `artifact_id`.
 
@@ -876,9 +882,9 @@ Move
 NewArtifact
 ```
 
----
+______________________________________________________________________
 
-# 20. Semantic Identity
+## 20. Semantic Identity
 
 Semantic identity answers:
 
@@ -895,9 +901,9 @@ AMOS OS Root Architecture
 
 Semantic identity is stronger than filename representation.
 
----
+______________________________________________________________________
 
-# 21. Display Name
+## 21. Display Name
 
 Display names may be human-friendly.
 
@@ -911,9 +917,9 @@ title: AMOS OS Naming Standard — Canonical Identity and Namespace Governance
 
 These may coexist because they serve different roles.
 
----
+______________________________________________________________________
 
-# 22. Version Axes
+## 22. Version Axes
 
 AMOS does not assume one universal version number.
 
@@ -943,9 +949,9 @@ schema_version: 3.0.0
 amos_core_target: "v4.4"
 ```
 
----
+______________________________________________________________________
 
-# 23. Semantic Versioning
+## 23. Semantic Versioning
 
 Default governed artifact version syntax:
 
@@ -975,9 +981,9 @@ PATCH
 non-breaking correction
 ```
 
----
+______________________________________________________________________
 
-# 24. Major Version
+## 24. Major Version
 
 Increment `MAJOR` when:
 
@@ -989,9 +995,9 @@ Increment `MAJOR` when:
 - lifecycle semantics materially change;
 - prior consumers require migration.
 
----
+______________________________________________________________________
 
-# 25. Minor Version
+## 25. Minor Version
 
 Increment `MINOR` when:
 
@@ -1001,9 +1007,9 @@ Increment `MINOR` when:
 - new validators are added;
 - new modes/features are introduced without contract break.
 
----
+______________________________________________________________________
 
-# 26. Patch Version
+## 26. Patch Version
 
 Increment `PATCH` for:
 
@@ -1014,9 +1020,9 @@ Increment `PATCH` for:
 - formatting;
 - added examples that do not alter contract.
 
----
+______________________________________________________________________
 
-# 27. AMOS_CORE Target
+## 27. AMOS_CORE Target
 
 `amos_core_target` is not the artifact's own version.
 
@@ -1042,9 +1048,9 @@ version: v4.4
 
 unless the artifact itself is actually version 4.4.
 
----
+______________________________________________________________________
 
-# 28. Historical Version Firewall
+## 28. Historical Version Firewall
 
 Missing historical version information remains:
 
@@ -1071,9 +1077,9 @@ assignment_reason: migration_baseline
 
 This preserves epistemic integrity.
 
----
+______________________________________________________________________
 
-# 29. Filename Versioning
+## 29. Filename Versioning
 
 Default architecture preference:
 
@@ -1107,9 +1113,9 @@ ARCHITECTURE_v2.0.0.md
 
 unless multiple parallel physical versions must coexist.
 
----
+______________________________________________________________________
 
-# 30. When Filename Versions Are Allowed
+## 30. When Filename Versions Are Allowed
 
 Filename versions are appropriate when:
 
@@ -1126,9 +1132,9 @@ AGENT_SCHEMA_v1.json
 AGENT_SCHEMA_v2.json
 ```
 
----
+______________________________________________________________________
 
-# 31. Mutable Canonical Pointer
+## 31. Mutable Canonical Pointer
 
 When versioned files coexist, use an unversioned registry/pointer where useful.
 
@@ -1154,9 +1160,9 @@ REAL_FINAL
 FINAL2
 ```
 
----
+______________________________________________________________________
 
-# 32. Prohibited Version Labels
+## 32. Prohibited Version Labels
 
 Do not use as machine-significant versions:
 
@@ -1174,9 +1180,9 @@ PERFECT
 
 These may survive as historical/source labels but must not substitute for structured version metadata.
 
----
+______________________________________________________________________
 
-# 33. Source Identity Preservation
+## 33. Source Identity Preservation
 
 If an imported source originally uses:
 
@@ -1203,9 +1209,9 @@ Normalization
 HistoricalErasure
 ```
 
----
+______________________________________________________________________
 
-# 34. Source Name vs Canonical Name
+## 34. Source Name vs Canonical Name
 
 A migrated artifact may carry:
 
@@ -1224,9 +1230,9 @@ canonical_name: UNKNOWN/GAP
 
 is preferable to invented normalization.
 
----
+______________________________________________________________________
 
-# 35. Rename Governance
+## 35. Rename Governance
 
 Renaming requires classification.
 
@@ -1242,9 +1248,9 @@ R4 — public/external contract migration
 
 Validation requirements increase from R0 to R4.
 
----
+______________________________________________________________________
 
-# 36. Cosmetic Rename
+## 36. Cosmetic Rename
 
 Examples:
 
@@ -1256,9 +1262,9 @@ obvious typo
 
 Still requires collision check.
 
----
+______________________________________________________________________
 
-# 37. Filesystem Rename
+## 37. Filesystem Rename
 
 Changes physical path/name while preserving semantic identity.
 
@@ -1273,9 +1279,9 @@ version lineage
 
 unless explicitly changed separately.
 
----
+______________________________________________________________________
 
-# 38. Namespace Migration
+## 38. Namespace Migration
 
 Changes a governed internal namespace.
 
@@ -1289,9 +1295,9 @@ migration manifest
 post-validation
 ```
 
----
+______________________________________________________________________
 
-# 39. Semantic Identity Migration
+## 39. Semantic Identity Migration
 
 Changes what the artifact is called conceptually.
 
@@ -1306,9 +1312,9 @@ provenance link
 deprecation alias
 ```
 
----
+______________________________________________________________________
 
-# 40. Rename Manifest
+## 40. Rename Manifest
 
 Every material rename migration should support:
 
@@ -1335,9 +1341,9 @@ RenameManifest:
   rollback:
 ```
 
----
+______________________________________________________________________
 
-# 41. Alias Rule
+## 41. Alias Rule
 
 Aliases are allowed for navigation and compatibility.
 
@@ -1351,9 +1357,9 @@ aliases:
 
 Aliases must not silently become separate artifacts.
 
----
+______________________________________________________________________
 
-# 42. Deprecated Names
+## 42. Deprecated Names
 
 When a semantic name is replaced:
 
@@ -1370,9 +1376,9 @@ canonical_name:
 
 Preserve old names long enough to resolve historical references.
 
----
+______________________________________________________________________
 
-# 43. Rename Collision Rule
+## 43. Rename Collision Rule
 
 A rename is blocked when:
 
@@ -1402,9 +1408,9 @@ not:
 PASS
 ```
 
----
+______________________________________________________________________
 
-# 44. Case-Fold Collision
+## 44. Case-Fold Collision
 
 Check case-insensitive equivalence.
 
@@ -1419,9 +1425,9 @@ may be distinct on one filesystem and identical on another.
 
 Cross-platform AMOS repositories should treat such collisions as material.
 
----
+______________________________________________________________________
 
-# 45. Unicode Normalization
+## 45. Unicode Normalization
 
 Where cross-platform portability matters, names should use normalized Unicode.
 
@@ -1435,9 +1441,9 @@ for core paths and machine-consumed identifiers.
 
 Human-facing titles may use Unicode.
 
----
+______________________________________________________________________
 
-# 46. Character Rules
+## 46. Character Rules
 
 Machine structural names should generally use:
 
@@ -1467,9 +1473,9 @@ Avoid in filesystem contracts:
 
 and control characters.
 
----
+______________________________________________________________________
 
-# 47. Spaces
+## 47. Spaces
 
 Core governed filesystem names should avoid spaces.
 
@@ -1487,9 +1493,9 @@ Cognitive Matrix
 
 Display titles may use spaces.
 
----
+______________________________________________________________________
 
-# 48. Hyphens vs Underscores
+## 48. Hyphens vs Underscores
 
 Use:
 
@@ -1523,9 +1529,9 @@ skill: amos-phase-c-cognition-field
 artifact_id: AMOS-PHASE-C-COGNITION-FIELD
 ```
 
----
+______________________________________________________________________
 
-# 49. Python Names
+## 49. Python Names
 
 Python modules:
 
@@ -1553,9 +1559,9 @@ may be preserved for compatibility.
 
 Do not mechanically rename executable symbols based only on documentation naming rules.
 
----
+______________________________________________________________________
 
-# 50. TypeScript Names
+## 50. TypeScript Names
 
 Recommended:
 
@@ -1579,9 +1585,9 @@ UPPER_SNAKE_CASE
 
 The repository-local convention takes precedence when consistency is load-bearing.
 
----
+______________________________________________________________________
 
-# 51. JSON Names
+## 51. JSON Names
 
 JSON artifact filenames should describe the semantic object.
 
@@ -1595,9 +1601,9 @@ mode_registry.json
 
 Legacy AMOS source names should preserve provenance even when they are not canonical new-file conventions.
 
----
+______________________________________________________________________
 
-# 52. Markdown Wiki Links
+## 52. Markdown Wiki Links
 
 Wiki-link references should use stable canonical note names where possible.
 
@@ -1619,9 +1625,9 @@ FileMoved
 ReferencesUpdated
 ```
 
----
+______________________________________________________________________
 
-# 53. RSCF Naming
+## 53. RSCF Naming
 
 RSCF node IDs must remain stable where they identify persistent reasoning/provenance entities.
 
@@ -1635,9 +1641,9 @@ or deterministic system-generated IDs where that subsystem requires them.
 
 Do not change node IDs merely because filenames move.
 
----
+______________________________________________________________________
 
-# 54. RSCF Identity Firewall
+## 54. RSCF Identity Firewall
 
 ```text
 RSCFNodeID
@@ -1650,16 +1656,18 @@ ClaimID
 !=
 SectionHeading
 ```
+
 ```text
 ProvenanceID
 !=
 SourceFilename
 ```
+
 Stable logical IDs prevent path migration from destroying reasoning lineage.
 
----
+______________________________________________________________________
 
-# 55. Ledger Entry IDs
+## 55. Ledger Entry IDs
 
 Append-oriented ledgers should use stable entry identifiers.
 
@@ -1679,9 +1687,9 @@ or UUID/hash-based identity where appropriate.
 
 The method must be defined by the ledger contract.
 
----
+______________________________________________________________________
 
-# 56. Runtime Instance IDs
+## 56. Runtime Instance IDs
 
 Runtime instances require transient identity distinct from artifact identity.
 
@@ -1704,9 +1712,9 @@ Artifact
 Instance
 ```
 
----
+______________________________________________________________________
 
-# 57. Environment Names
+## 57. Environment Names
 
 Standard environment values should be bounded enums when possible.
 
@@ -1729,9 +1737,9 @@ FINAL_PROD
 PROD2
 ```
 
----
+______________________________________________________________________
 
-# 58. Lifecycle Names
+## 58. Lifecycle Names
 
 Preferred lifecycle vocabulary:
 
@@ -1751,9 +1759,9 @@ QUARANTINED
 
 Lifecycle terms should remain distinct from epistemic conclusion classes.
 
----
+______________________________________________________________________
 
-# 59. Epistemic Names
+## 59. Epistemic Names
 
 Use:
 
@@ -1779,9 +1787,9 @@ UNKNOWN/GAP
 
 Do not invent decorative confidence labels.
 
----
+______________________________________________________________________
 
-# 60. State Naming
+## 60. State Naming
 
 State names should describe actual state.
 
@@ -1808,9 +1816,9 @@ COMPLETE
 
 unless formally defined.
 
----
+______________________________________________________________________
 
-# 61. Boolean Names
+## 61. Boolean Names
 
 Boolean fields should be clear predicates.
 
@@ -1832,9 +1840,9 @@ rollback: true
 
 when those fields could ambiguously mean presence rather than state.
 
----
+______________________________________________________________________
 
-# 62. Time Field Naming
+## 62. Time Field Naming
 
 Use explicit temporal semantics.
 
@@ -1860,9 +1868,9 @@ time
 
 when more than one temporal meaning exists.
 
----
+______________________________________________________________________
 
-# 63. Hash Field Naming
+## 63. Hash Field Naming
 
 Use explicit hash semantics.
 
@@ -1884,9 +1892,9 @@ hash
 
 when multiple hashes coexist.
 
----
+______________________________________________________________________
 
-# 64. Provenance Field Naming
+## 64. Provenance Field Naming
 
 Preferred:
 
@@ -1901,9 +1909,9 @@ provenance:
 
 Avoid overwriting source lineage with only the current filename.
 
----
+______________________________________________________________________
 
-# 65. Dependency Names
+## 65. Dependency Names
 
 Dependencies should use stable semantic/artifact identity when possible.
 
@@ -1917,9 +1925,9 @@ dependencies:
 
 Paths may be stored as additional resolution metadata.
 
----
+______________________________________________________________________
 
-# 66. Canon Naming
+## 66. Canon Naming
 
 The term `CANON` is reserved for governed canonical status.
 
@@ -1942,9 +1950,9 @@ RESEARCH
 
 as appropriate.
 
----
+______________________________________________________________________
 
-# 67. Placeholder Naming
+## 67. Placeholder Naming
 
 Placeholder files should use their eventual canonical filename.
 
@@ -1968,9 +1976,9 @@ DEPENDENCY_MAP_PLACEHOLDER.md
 
 This minimizes rename churn when content is promoted.
 
----
+______________________________________________________________________
 
-# 68. Placeholder Promotion
+## 68. Placeholder Promotion
 
 Promotion should update metadata:
 
@@ -1982,9 +1990,9 @@ or appropriate lifecycle state.
 
 It should not require renaming the file unless semantics changed.
 
----
+______________________________________________________________________
 
-# 69. Archive Naming
+## 69. Archive Naming
 
 Archive structures may include date/version for historical disambiguation.
 
@@ -1998,9 +2006,9 @@ migration_20260825/
 
 Archive names should preserve original identities where feasible.
 
----
+______________________________________________________________________
 
-# 70. Backup Naming
+## 70. Backup Naming
 
 Backups are operational artifacts, not canonical versions.
 
@@ -2018,9 +2026,9 @@ backup
 
 as a semantic version.
 
----
+______________________________________________________________________
 
-# 71. Migration Naming
+## 71. Migration Naming
 
 Migration IDs should be unique and traceable.
 
@@ -2042,9 +2050,9 @@ validation
 rollback
 ```
 
----
+______________________________________________________________________
 
-# 72. Test Naming
+## 72. Test Naming
 
 Tests should identify the behavior under test.
 
@@ -2064,9 +2072,9 @@ test_final
 test_everything
 ```
 
----
+______________________________________________________________________
 
-# 73. Fixture Naming
+## 73. Fixture Naming
 
 Fixtures should describe semantic purpose.
 
@@ -2078,9 +2086,9 @@ stale_authority_context
 conflicting_provenance_graph
 ```
 
----
+______________________________________________________________________
 
-# 74. Error Code Naming
+## 74. Error Code Naming
 
 Error codes should be stable and machine-readable.
 
@@ -2101,9 +2109,9 @@ NAMING-E004 SEMANTIC_IDENTITY_COLLISION
 NAMING-E005 UNRESOLVED_REFERENCE
 ```
 
----
+______________________________________________________________________
 
-# 75. Failure State Naming
+## 75. Failure State Naming
 
 Use explicit failure classes.
 
@@ -2126,9 +2134,9 @@ ERROR
 
 where classification is decision-relevant.
 
----
+______________________________________________________________________
 
-# 76. Naming Validation Pipeline
+## 76. Naming Validation Pipeline
 
 ```text
 INPUT NAME
@@ -2152,9 +2160,9 @@ CHECK REFERENCES
 PASS / BLOCK
 ```
 
----
+______________________________________________________________________
 
-# 77. Rename Validation Pipeline
+## 77. Rename Validation Pipeline
 
 ```text
 SOURCE OBJECT
@@ -2180,9 +2188,9 @@ COMMIT
 VERIFY
 ```
 
----
+______________________________________________________________________
 
-# 78. Rename Commit Rule
+## 78. Rename Commit Rule
 
 A rename may commit only when:
 
@@ -2201,9 +2209,9 @@ For high-impact canonical artifacts:
 ∧ CanonReviewPassed
 ```
 
----
+______________________________________________________________________
 
-# 79. Unknown Identity Rule
+## 79. Unknown Identity Rule
 
 If the semantic meaning of a token is unknown:
 
@@ -2232,9 +2240,9 @@ SameToken
 SameMeaningAcrossArtifacts
 ```
 
----
+______________________________________________________________________
 
-# 80. Case Preservation
+## 80. Case Preservation
 
 Structural namespaces use canonical casing.
 
@@ -2252,9 +2260,9 @@ Control Plane
 Authoritative State
 ```
 
----
+______________________________________________________________________
 
-# 81. Acronyms
+## 81. Acronyms
 
 Stable acronyms may remain uppercase.
 
@@ -2271,9 +2279,9 @@ HML
 
 Avoid introducing unexplained acronyms when a clear semantic name exists.
 
----
+______________________________________________________________________
 
-# 82. H/M/L Naming
+## 82. H/M/L Naming
 
 H/M/L artifacts should explicitly identify level only when the level is semantically necessary.
 
@@ -2287,9 +2295,9 @@ L_COMPONENT_INDEX
 
 Do not encode H/M/L into every filename without need.
 
----
+______________________________________________________________________
 
-# 83. Scope Naming
+## 83. Scope Naming
 
 Names should encode scope only when it prevents ambiguity.
 
@@ -2309,9 +2317,9 @@ if multiple risk domains exist.
 
 But avoid excessively long names that duplicate full paths.
 
----
+______________________________________________________________________
 
-# 84. Parent Context Rule
+## 84. Parent Context Rule
 
 Filesystem hierarchy already provides context.
 
@@ -2332,9 +2340,9 @@ AMOS_OS_DOMAINS_MODES_ATTENTION_MODE_FAMILY_SPEC.md
 
 inside that folder.
 
----
+______________________________________________________________________
 
-# 85. MECE Naming
+## 85. MECE Naming
 
 Sibling names should be mutually distinguishable.
 
@@ -2359,9 +2367,9 @@ VALIDATED_LONG_TERM_MEMORY
 
 if those categories are actually canon-defined.
 
----
+______________________________________________________________________
 
-# 86. Overlap Firewall
+## 86. Overlap Firewall
 
 Two artifacts must not use near-identical names for materially different roles without explicit distinction.
 
@@ -2374,9 +2382,9 @@ MODE_FAMILY_REGISTRY
 
 is acceptable because the scope difference is typed.
 
----
+______________________________________________________________________
 
-# 87. Singular vs Plural
+## 87. Singular vs Plural
 
 Folder collections generally use plural semantic groups where appropriate:
 
@@ -2398,9 +2406,9 @@ Executor_Agent
 
 Consistency is more important than dogmatic grammar.
 
----
+______________________________________________________________________
 
-# 88. Action vs Object Naming
+## 88. Action vs Object Naming
 
 Processes/workflows should favor verbs or process nouns:
 
@@ -2418,9 +2426,9 @@ DEPENDENCY_MAP
 AUTHORITY_LEDGER
 ```
 
----
+______________________________________________________________________
 
-# 89. Command Naming
+## 89. Command Naming
 
 Commands should be explicit actions.
 
@@ -2446,9 +2454,9 @@ handle
 
 when multiple behaviors could apply.
 
----
+______________________________________________________________________
 
-# 90. API Field Compatibility
+## 90. API Field Compatibility
 
 Once an external field name becomes part of a stable interface, renaming it is a compatibility change.
 
@@ -2468,9 +2476,9 @@ may be a breaking change even if semantically equivalent.
 
 Version accordingly.
 
----
+______________________________________________________________________
 
-# 91. Registry Compatibility
+## 91. Registry Compatibility
 
 Registry keys should not be reused for unrelated artifacts.
 
@@ -2482,9 +2490,9 @@ status: RETIRED
 
 retain enough history to prevent semantic reuse ambiguity.
 
----
+______________________________________________________________________
 
-# 92. Name Reuse Rule
+## 92. Name Reuse Rule
 
 Do not reuse a retired canonical identity for a new unrelated component.
 
@@ -2497,9 +2505,9 @@ new component receives new identity
 
 This preserves lineage.
 
----
+______________________________________________________________________
 
-# 93. Canonical Link Rule
+## 93. Canonical Link Rule
 
 Documentation should prefer canonical artifact identity over transient filenames when both are available.
 
@@ -2511,9 +2519,9 @@ dependency:
   path: 00_ROOT/00_ROOT_NAMING_STANDARD.md
 ```
 
----
+______________________________________________________________________
 
-# 94. Path Rule
+## 94. Path Rule
 
 Paths are resolution metadata.
 
@@ -2533,9 +2541,9 @@ not:
 Identity
 ```
 
----
+______________________________________________________________________
 
-# 95. Naming Provenance
+## 95. Naming Provenance
 
 Material naming changes should preserve:
 
@@ -2550,9 +2558,9 @@ naming_provenance:
   reason:
 ```
 
----
+______________________________________________________________________
 
-# 96. Naming Ledger
+## 96. Naming Ledger
 
 A mature AMOS OS may maintain:
 
@@ -2571,9 +2579,9 @@ prevent name reuse
 reconstruct migrations
 ```
 
----
+______________________________________________________________________
 
-# 97. Naming Registry
+## 97. Naming Registry
 
 A central registry may eventually expose:
 
@@ -2592,9 +2600,9 @@ ArtifactRegistryEntry:
 
 This is a recommended architecture pattern, not a claim that such registry is currently implemented.
 
----
+______________________________________________________________________
 
-# 98. Deterministic Sorting
+## 98. Deterministic Sorting
 
 Names should permit deterministic ordering.
 
@@ -2617,9 +2625,9 @@ name
 
 Do not rely on filesystem return order.
 
----
+______________________________________________________________________
 
-# 99. Searchability
+## 99. Searchability
 
 Names should use semantically meaningful tokens.
 
@@ -2637,9 +2645,9 @@ FR_MODES
 
 unless acronym use is already canonical and widely defined.
 
----
+______________________________________________________________________
 
-# 100. Naming Length
+## 100. Naming Length
 
 Names should be long enough to disambiguate but short enough to remain usable.
 
@@ -2657,9 +2665,9 @@ not simply:
 shortest possible name
 ```
 
----
+______________________________________________________________________
 
-# 101. RSCF Naming Contract
+## 101. RSCF Naming Contract
 
 ```yaml
 RSCFNaming:
@@ -2672,9 +2680,9 @@ RSCFNaming:
 
 All five may refer to related objects while remaining distinct.
 
----
+______________________________________________________________________
 
-# 102. Name Resolution Order
+## 102. Name Resolution Order
 
 When resolving a reference:
 
@@ -2694,9 +2702,9 @@ path
 
 Exact runtime order may differ by implementation, but semantic identity should outrank volatile path where possible.
 
----
+______________________________________________________________________
 
-# 103. Ambiguous Name Resolution
+## 103. Ambiguous Name Resolution
 
 If one alias resolves to multiple live artifacts:
 
@@ -2715,9 +2723,9 @@ version
 artifact_id
 ```
 
----
+______________________________________________________________________
 
-# 104. Name Conflict States
+## 104. Name Conflict States
 
 ```text
 NO_CONFLICT
@@ -2732,9 +2740,9 @@ UNKNOWN
 
 `UNKNOWN` is not `NO_CONFLICT`.
 
----
+______________________________________________________________________
 
-# 105. Naming Authority
+## 105. Naming Authority
 
 Not every component may redefine canonical names.
 
@@ -2756,9 +2764,9 @@ RenameCapability
 NamingAuthority
 ```
 
----
+______________________________________________________________________
 
-# 106. Naming Change Classes
+## 106. Naming Change Classes
 
 | Class                | Example                  | Governance          |
 | -------------------- | ------------------------ | ------------------- |
@@ -2768,9 +2776,9 @@ NamingAuthority
 | Canon identity       | canonical concept rename | very high           |
 | External API         | public field rename      | breaking governance |
 
----
+______________________________________________________________________
 
-# 107. Cross-Domain Names
+## 107. Cross-Domain Names
 
 Cross-domain artifacts should avoid claiming universal scope without evidence.
 
@@ -2788,9 +2796,9 @@ UNIVERSAL_RISK_MODEL
 
 unless the latter is explicitly an AMOS model name and appropriately classed.
 
----
+______________________________________________________________________
 
-# 108. Model-Language Firewall
+## 108. Model-Language Firewall
 
 Terms such as:
 
@@ -2808,9 +2816,9 @@ Their presence in a name does not automatically establish external scientific va
 
 Names preserve source identity; they do not prove claims.
 
----
+______________________________________________________________________
 
-# 109. Source Preservation Rule
+## 109. Source Preservation Rule
 
 Imported historical source artifacts may retain nonstandard names.
 
@@ -2824,9 +2832,9 @@ This is acceptable as preserved source identity.
 
 New governed artifacts should follow current standard unless compatibility requires otherwise.
 
----
+______________________________________________________________________
 
-# 110. Legacy Names
+## 110. Legacy Names
 
 Legacy names should be classified:
 
@@ -2839,9 +2847,9 @@ UNKNOWN
 
 Do not delete old identity information merely because a cleaner canonical name now exists.
 
----
+______________________________________________________________________
 
-# 111. Naming Migration State Machine
+## 111. Naming Migration State Machine
 
 ```text
 PROPOSED
@@ -2868,9 +2876,9 @@ ROLLED_BACK
 IN_DOUBT
 ```
 
----
+______________________________________________________________________
 
-# 112. Rename Recovery
+## 112. Rename Recovery
 
 If rename validation fails:
 
@@ -2890,9 +2898,9 @@ REVALIDATE
 
 Do not continue blindly through a partial namespace migration.
 
----
+______________________________________________________________________
 
-# 113. Naming Test Suite
+## 113. Naming Test Suite
 
 Minimum validation should eventually include:
 
@@ -2919,9 +2927,9 @@ T19 rollback mapping
 T20 unknown identity remains UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 114. Naming Validation Result
+## 114. Naming Validation Result
 
 ```yaml
 NamingValidationResult:
@@ -2969,9 +2977,9 @@ cannot be promoted to
 PASS
 ```
 
----
+______________________________________________________________________
 
-# 115. Naming Failure Registry
+## 115. Naming Failure Registry
 
 ```text
 N001 INVALID_CASE
@@ -2996,9 +3004,9 @@ N019 UNRESOLVED_LEGACY_ALIAS
 N020 UNAUTHORIZED_CANONICAL_RENAME
 ```
 
----
+______________________________________________________________________
 
-# 116. Naming Invariants
+## 116. Naming Invariants
 
 ```text
 NS01 Filename != ArtifactID
@@ -3028,9 +3036,9 @@ NS24 PlaceholderUsesFutureCanonicalFilename
 NS25 RepositoryConsistencyCannotOverrideProvenance
 ```
 
----
+______________________________________________________________________
 
-# 117. Standard Examples
+## 117. Standard Examples
 
 ## Root contract
 
@@ -3041,7 +3049,7 @@ document_version: "2.0.0"
 path: 00_ROOT/ARCHITECTURE.md
 ```
 
----
+______________________________________________________________________
 
 ## Agent
 
@@ -3052,7 +3060,7 @@ component_version: "1.0.0"
 path: 06_AGENTS/INVESTMENT/
 ```
 
----
+______________________________________________________________________
 
 ## Skill
 
@@ -3062,7 +3070,7 @@ name: amos-phase-c-cognition-field
 version: "1.0.0"
 ```
 
----
+______________________________________________________________________
 
 ## Mode family
 
@@ -3073,9 +3081,9 @@ ordinal: 6
 path: 21_DOMAINS/45_MODES/06_REASONING_MODES
 ```
 
----
+______________________________________________________________________
 
-# 118. Anti-Patterns
+## 118. Anti-Patterns
 
 Do not create names such as:
 
@@ -3093,9 +3101,9 @@ ARCHITECTURE_FIXED.md
 
 Use version metadata and lifecycle state instead.
 
----
+______________________________________________________________________
 
-# 119. Preferred Replacements
+## 119. Preferred Replacements
 
 Instead of:
 
@@ -3130,9 +3138,9 @@ use archive lineage:
 
 or a formal migration record.
 
----
+______________________________________________________________________
 
-# 120. Naming Standard Promotion Gate
+## 120. Naming Standard Promotion Gate
 
 This standard may be treated as active at the architectural/model level because it now defines:
 
@@ -3165,9 +3173,9 @@ NamingStandardSpecified
 RepositoryFullyCompliant
 ```
 
----
+______________________________________________________________________
 
-# 121. Current Implementation Boundary
+## 121. Current Implementation Boundary
 
 This document does not establish that:
 
@@ -3191,9 +3199,9 @@ STANDARD = DEFINED
 FULL COMPLIANCE = UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 122. Recommended Compliance Audit
+## 122. Recommended Compliance Audit
 
 ```text
 SCAN TREE
@@ -3223,9 +3231,9 @@ PROPOSE MIGRATION
 
 No rename should be automatically executed merely because it violates a preferred naming style.
 
----
+______________________________________________________________________
 
-# 123. RSCF Node
+## 123. RSCF Node
 
 ```yaml
 node_id: AMOS_OS_NAMING_STANDARD
@@ -3290,9 +3298,9 @@ confidence_ceiling:
   historical_version_accuracy: source_dependent
 ```
 
----
+______________________________________________________________________
 
-# 124. Changelog
+## 124. Changelog
 
 ## v2.0.0 — 2026-08-25
 
@@ -3367,9 +3375,9 @@ S_*
 
 and the initial identity/version firewall.
 
----
+______________________________________________________________________
 
-# 125. Final Naming Law
+## 125. Final Naming Law
 
 The naming standard compresses to:
 
@@ -3403,29 +3411,33 @@ The fourth invariant is:
 
 > **Naming normalization is permitted only when it preserves semantic distinctions, dependencies, provenance, and recoverability.**
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · MOC · [[00_ROOT/ARCHITECTURE|ARCHITECTURE]] · [[00_ROOT/FULL_TREE|FULL_TREE]] · [[00_ROOT/SYSTEM_MAP|SYSTEM_MAP]] · [[00_ROOT/AUTHORITATIVE_STATE|AUTHORITATIVE_STATE]] · [[00_ROOT/DEPENDENCY_MAP|DEPENDENCY_MAP]] · [[00_ROOT/PLACEMENT_RULES|PLACEMENT_RULES]] · [[00_ROOT/ROADMAP|ROADMAP]] · [[00_ROOT/RSCF_NODE_INDEX|RSCF_NODE_INDEX]]
 
 ```text
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: 00_root_naming_standard
 node_type: note
 path: 00_ROOT/00_ROOT_NAMING_STANDARD.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[00_ROOT/00_COSMO_BRAIN_MOC|00_COSMO_BRAIN_MOC]]

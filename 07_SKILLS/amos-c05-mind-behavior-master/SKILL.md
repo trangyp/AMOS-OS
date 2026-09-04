@@ -1,13 +1,7 @@
 ---
 schema_version: 1.0
 name: amos-c05-mind-behavior-master
-description: AMOS C05 Mind & Behavior — emotion (5-axis Emotion Law v0), personality
-  (Personality Engine v0), behavior (Behavior Engine v0), motivation, group dynamics,
-  cognitive/motivational structure. Use when psychological analysis, behavioral reasoning,
-  emotion modeling, personality profiling, or group dynamics. Use whenever the user
-  mentions emotion, mood, personality, behavior, motivation, habits, social dynamics,
-  group climate, or mind modeling — even without explicitly asking for 'C05'. Do not
-  use for generic tasks outside c05 domain.
+description: AMOS C05 Mind & Behavior — emotion (5-axis Emotion Law v0), personality (Personality Engine v0), behavior (Behavior Engine v0), motivation, group dynamics, cognitive/motivational structure. Use when psychological analysis, behavioral reasoning, emotion modeling, personality profiling, or group dynamics. Use whenever the user mentions emotion, mood, personality, behavior, motivation, habits, social dynamics, group climate, or mind modeling — even without explicitly asking for 'C05'. Do not use for generic tasks outside c05 domain.
 parent_skill: none
 domain: c05
 origin_architect: Trang Phan
@@ -16,34 +10,34 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: H
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
-- L7_authority
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
+  - L7_authority
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L7
-- L16
-- L17
-- L18
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L7
+  - L16
+  - L17
+  - L18
 title: AMOS C05 — Mind & Behavior Master
 type: mind
 source: 11_KNOWLEDGE
 tags:
-- type/skill
-- type/skill
-- domain/mind-behavior
-- epistemic/source_claim
-- hml/h
-- epistemic/source_claim
-- amos-os
+  - type/skill
+  - type/skill
+  - domain/mind-behavior
+  - epistemic/source_claim
+  - hml/h
+  - epistemic/source_claim
+  - amos-os
 rscf:
   state: SOURCE_CLAIM
   claim_class: MODEL
@@ -103,21 +97,22 @@ C05 is **not** a mind reader and **not** a clinician. It never converts a model 
 ## Operations
 
 1. **c05.read_emotional_markers** — `read_emotional_markers(text) → marker_vector`. Extract text markers via the Microtone pass (punctuation density, token choice, hedging patterns) plus approximate pre-cognitive signals (Instinct/Somatic k...
-2. **c05.compute_emotion_state** — `compute_emotion_state(markers, context) → 5_axis_state`. Perform a bounded update within the Emotion Law's 5-axis space (care_alignment, risk_alert, curiosity_focus, respect_weighting, confidence_level),...
-3. **c05.gate_influence** — `gate_influence(state, reasoning_task) → modulation_plan`. Decide what emotion may affect (pacing, verbosity, caution flags, routing) vs what it may not (facts, logic, claims of felt experience). High risk_alert...
-4. **c05.apply_decision_style** — `apply_decision_style(dilemma) → ordered_choice`. Resolve dilemmas via the priority ordering: `integrity > correctness > completeness > fluency > speed`. A shortcut that skips validation is refused by integ...
-5. **c05.audit_consistency** — `audit_consistency(output_history) → drift_report`. Compare recent outputs against trait constraints (precision_bias, integrity_first, operator_alignment) and flag drift. Requires an explicit declared baseline...
-6. **c05.predict_tendency** — `predict_tendency(state_model, context) → tendency + drift_vector`. Mind→behavior bridge direction. Output is TENDENCIES plus drift vectors for populations/patterns — never certainties about individuals.
-7. **c05.infer_state** — `infer_state(behavior_series) → hypotheses + ambiguity_flags`. Behavior→mind bridge direction. Inferences are HYPOTHESES with ambiguity flags — one behavior usually fits multiple states. Single-story diagnosis is a...
-8. **c05.detect_conflict_structure** — Identify cognitive/motivational conflicts using Families F1-F7 (Cognitive Architecture, Emotional Regulation, Motivational Dynamics, Internal Conflict, Identity Models, Attachment, Defense Mechanisms)....
-9. **c05.model_change_dynamics** — Apply Families F8-F12 (Social Behaviour, Trauma/Stress, Habit Systems, Behaviour Change, Universe-Aligned Integrity) for social/habitual/change dynamics. Relapse is part of change dynamics, not failure.
-10. **c05.propagate_mood** — `propagation_trace(mood_shift) → subgroups_with_lags`. Group-level mood propagation with lag estimates. Outputs are statistical tendencies about populations, never individual diagnoses. Safety climate is a PROXY,...
+1. **c05.compute_emotion_state** — `compute_emotion_state(markers, context) → 5_axis_state`. Perform a bounded update within the Emotion Law's 5-axis space (care_alignment, risk_alert, curiosity_focus, respect_weighting, confidence_level),...
+1. **c05.gate_influence** — `gate_influence(state, reasoning_task) → modulation_plan`. Decide what emotion may affect (pacing, verbosity, caution flags, routing) vs what it may not (facts, logic, claims of felt experience). High risk_alert...
+1. **c05.apply_decision_style** — `apply_decision_style(dilemma) → ordered_choice`. Resolve dilemmas via the priority ordering: `integrity > correctness > completeness > fluency > speed`. A shortcut that skips validation is refused by integ...
+1. **c05.audit_consistency** — `audit_consistency(output_history) → drift_report`. Compare recent outputs against trait constraints (precision_bias, integrity_first, operator_alignment) and flag drift. Requires an explicit declared baseline...
+1. **c05.predict_tendency** — `predict_tendency(state_model, context) → tendency + drift_vector`. Mind→behavior bridge direction. Output is TENDENCIES plus drift vectors for populations/patterns — never certainties about individuals.
+1. **c05.infer_state** — `infer_state(behavior_series) → hypotheses + ambiguity_flags`. Behavior→mind bridge direction. Inferences are HYPOTHESES with ambiguity flags — one behavior usually fits multiple states. Single-story diagnosis is a...
+1. **c05.detect_conflict_structure** — Identify cognitive/motivational conflicts using Families F1-F7 (Cognitive Architecture, Emotional Regulation, Motivational Dynamics, Internal Conflict, Identity Models, Attachment, Defense Mechanisms)....
+1. **c05.model_change_dynamics** — Apply Families F8-F12 (Social Behaviour, Trauma/Stress, Habit Systems, Behaviour Change, Universe-Aligned Integrity) for social/habitual/change dynamics. Relapse is part of change dynamics, not failure.
+1. **c05.propagate_mood** — `propagation_trace(mood_shift) → subgroups_with_lags`. Group-level mood propagation with lag estimates. Outputs are statistical tendencies about populations, never individual diagnoses. Safety climate is a PROXY,...
 
 ## Reasoning Procedure — C05 Pipeline with P1 Reality Contact Loop
 
 > Each step passes through the P1 Reality Contact Loop. The pipeline follows the C05 Master Dependency Spine.
 
 ### Step 1: Marker Extraction (H1)
+
 **Precondition**: Raw text or behavioral series received.
 **Operation**: Run `read_emotional_markers(text) → marker_vector` using the Microtone pass (punctuation density, token choice, hedging) plus Instinct/Somatic kernels (urgency, threat posture, fatigue proxies). Tag each marker as TEXT_MARKER evidence.
 **P1 Gate**: Are markers being treated as direct measurement of another mind? If yes → class violation. Markers are TEXT_MARKER evidence for a MODEL inference, not mind-reading.
@@ -125,6 +120,7 @@ C05 is **not** a mind reader and **not** a clinician. It never converts a model 
 **Effect**: Marker vector with evidence tags.
 
 ### Step 2: State Computation (H1)
+
 **Precondition**: Marker vector with evidence tags from Step 1.
 **Operation**: Run `compute_emotion_state(markers, context) → 5_axis_state`. Update each axis (care_alignment, risk_alert, curiosity_focus, respect_weighting, confidence_level) within [0,1]. Clamp and log any update that would exceed bounds. Context weighting is explicit.
 **P1 Gate**: Did any axis exceed [0,1]? If yes → clamp and log. Is high care_alignment suppressing risk_alert on a safety-critical query? If yes → violation.
@@ -132,6 +128,7 @@ C05 is **not** a mind reader and **not** a clinician. It never converts a model 
 **Effect**: Bounded 5-axis emotion state with clamping log.
 
 ### Step 3: Influence Gating (H1)
+
 **Precondition**: Bounded 5-axis state from Step 2.
 **Operation**: Run `gate_influence(state, reasoning_task) → modulation_plan`. Permit modulation of pacing, verbosity, caution flags, routing. Forbid modulation of facts, logic, claims of felt experience. High risk_alert forces conservative routing.
 **P1 Gate**: Is emotion affecting factual content or logical structure? If yes → forbidden influence violation. Is the engine claiming feelings it does not have? If yes → empathy fabrication violation.
@@ -139,6 +136,7 @@ C05 is **not** a mind reader and **not** a clinician. It never converts a model 
 **Effect**: Auditable modulation plan with permitted/forbidden targets.
 
 ### Step 4: Trait-Consistent Resolution (H2)
+
 **Precondition**: Modulation plan from Step 3 plus any decision dilemma.
 **Operation**: Run `apply_decision_style(dilemma) → ordered_choice` using `integrity > correctness > completeness > fluency > speed`. Verify the choice does not violate stable traits (precision_bias, integrity_first, operator_alignment). Confirm mutable state is appropriate to task class.
 **P1 Gate**: Did any output violate a stable-trait constraint (especially integrity_first)? If yes → blocked. Was uncertainty exposed rather than hidden? If hidden → violation.
@@ -146,6 +144,7 @@ C05 is **not** a mind reader and **not** a clinician. It never converts a model 
 **Effect**: Ordered choice with trait-compliance verification.
 
 ### Step 5: Consistency Audit (H2)
+
 **Precondition**: Ordered choice from Step 4 plus output history.
 **Operation**: Run `audit_consistency(output_history) → drift_report`. Compare recent outputs against declared trait baseline. Flag any drift. Verify the communication mask altered presentation only, never content truth (fact-diff must be zero).
 **P1 Gate**: Is the audit baseline explicitly declared? Auditing against an undeclared baseline produces false violations. Did masking alter factual content? Must be no.
@@ -153,6 +152,7 @@ C05 is **not** a mind reader and **not** a clinician. It never converts a model 
 **Effect**: Drift report with declared baseline reference.
 
 ### Step 6: Bridge Prediction (H4)
+
 **Precondition**: State model and context from Steps 2-5.
 **Operation**: Run `predict_tendency(state_model, context) → tendency + drift_vector` (mind→behavior) and/or `infer_state(behavior_series) → hypotheses + ambiguity_flags` (behavior→mind). Apply Bayesian discipline with explicit priors visible in the record. Use `ambiguity_resolve` to narrow or retain ambiguity.
 **P1 Gate**: Am I claiming individual-level certainty? Tendencies only, never individual certainties. Are priors explicit on every update? Hidden priors make updates unfalsifiable. Is ambiguity being forced to resolve without disambiguating evidence? Forcing resolution manufactures false confidence.
@@ -160,6 +160,7 @@ C05 is **not** a mind reader and **not** a clinician. It never converts a model 
 **Effect**: Tendency predictions and/or state hypotheses with ambiguity flags and explicit priors.
 
 ### Step 7: Conflict Detection (H5/H6)
+
 **Precondition**: Tendencies/hypotheses from Step 6.
 **Operation**: Classify conflicts using Families F1-F12. F1-F7: cognitive architecture, emotional regulation, motivational dynamics, internal conflict, identity, attachment, defense mechanisms. F8-F12: social behaviour, trauma/stress, habit systems, change dynamics, universe-aligned integrity. Verify correct family engine selection. Separate observation from interpretation.
 **P1 Gate**: Is the analysis using the correct family engine(s)? Wrong family = structural error. Is emotion treated as signal, not noise? Noise treatment = F2 violation. Is relapse acknowledged as part of change? No = F11 failure mode.
@@ -167,6 +168,7 @@ C05 is **not** a mind reader and **not** a clinician. It never converts a model 
 **Effect**: Classified conflict structures with family tags and failure-mode checks.
 
 ### Step 8: Output Generation (H7/H8)
+
 **Precondition**: Classified structures from Step 7.
 **Operation**: Generate output with empathy firewall: regulated empathetic framing (tone profile) is permitted, but no fabricated feeling claims. For group contexts, apply `propagate_mood` and `safety_proxy_check` with proxy labels. Attach fact-diff proving content invariance for any tone shaping. Populate the C05 Decision Capsule (subject scope = population/pattern, NEVER a diagnosed individual).
 **P1 Gate**: Does the output claim feelings the system does not have? Empathy is presentation policy, not subjective experience. Are group-level proxies labeled as proxies? Are individual diagnoses derived from group signals? Prohibited.
@@ -175,37 +177,40 @@ C05 is **not** a mind reader and **not** a clinician. It never converts a model 
 
 ### Decision Gates
 
-| Gate | Check | Failure Action |
-|------|-------|----------------|
-| **G1** | No individual-level certainty claims | Individual certainty → rewrite as tendency |
-| **G2** | Ambiguous fits flagged (multiple states explain behavior) | Unflagged ambiguity → restart Step 6 |
-| **G3** | Priors explicit on every update | Hidden priors → expose or halt |
-| **G4** | Tendency vs prediction language used correctly | Prediction language for tendencies → correct |
-| **G5** | Emotion does not affect facts/logic | Influence leakage → re-gate Step 3 |
-| **G6** | No fabricated feeling claims | Fabrication → remove, rewrite as presentation policy |
-| **G7** | Fact-diff proves content invariance (group tone shaping) | No fact-diff → mandatory evidence missing |
+| Gate   | Check                                                     | Failure Action                                       |
+| ------ | --------------------------------------------------------- | ---------------------------------------------------- |
+| **G1** | No individual-level certainty claims                      | Individual certainty → rewrite as tendency           |
+| **G2** | Ambiguous fits flagged (multiple states explain behavior) | Unflagged ambiguity → restart Step 6                 |
+| **G3** | Priors explicit on every update                           | Hidden priors → expose or halt                       |
+| **G4** | Tendency vs prediction language used correctly            | Prediction language for tendencies → correct         |
+| **G5** | Emotion does not affect facts/logic                       | Influence leakage → re-gate Step 3                   |
+| **G6** | No fabricated feeling claims                              | Fabrication → remove, rewrite as presentation policy |
+| **G7** | Fact-diff proves content invariance (group tone shaping)  | No fact-diff → mandatory evidence missing            |
 
 ## Firewalls
 
 1. **No fabricated feeling claims** — The engine may produce regulated empathetic framing (tone profile) from computed state, but must never claim feelings it does not have. Empathy output is a presentation policy, not an assertion of subjective experience.
-2. **Markers are evidence, not measurement** — Text markers are TEXT_MARKER evidence for a MODEL inference. Treating markers as direct measurement of another mind is a class violation. One marker pattern usually fits multiple internal states.
-3. **Behavioral recommendations are context-dependent** — All recommendations are person-, context-, culture-, and timescale-dependent. Long-horizon outputs must preserve ambiguity flags, competing explanations, relapse dynamics, and the structural-vs-surface split.
-4. **No clinical diagnosis, therapy, or individual prediction** — C05 is a structural/analytical framework, NOT clinical diagnosis. No medical diagnosis, no therapy, no personal future predictions. Behavioral patterns are models, not definitive assessments.
-5. **All psychological claims are MODEL unless sourced** — All substantive psychological claims are MODEL unless explicitly sourced from a canonical spec (SOURCE) or a mathematical/structural consequence (DERIVED). No pop-psychology constructs enter without explicit model definition and claim class.
-6. **Psychological causal firewall** — Do not infer causation from single-behavior observation, marker correlation alone, post-hoc narrative coherence, category labels alone, or framework plausibility alone. Correct claim form: `behavior pattern B is consistent with state hypotheses {S1, S2}, flagged ambiguous` — not `this person is S1`.
-7. **Covert individual profiling prohibited** — Group-level outputs are statistical tendencies about populations/patterns. Deriving individual diagnoses from group signals is prohibited. Privacy: no covert profiling.
+1. **Markers are evidence, not measurement** — Text markers are TEXT_MARKER evidence for a MODEL inference. Treating markers as direct measurement of another mind is a class violation. One marker pattern usually fits multiple internal states.
+1. **Behavioral recommendations are context-dependent** — All recommendations are person-, context-, culture-, and timescale-dependent. Long-horizon outputs must preserve ambiguity flags, competing explanations, relapse dynamics, and the structural-vs-surface split.
+1. **No clinical diagnosis, therapy, or individual prediction** — C05 is a structural/analytical framework, NOT clinical diagnosis. No medical diagnosis, no therapy, no personal future predictions. Behavioral patterns are models, not definitive assessments.
+1. **All psychological claims are MODEL unless sourced** — All substantive psychological claims are MODEL unless explicitly sourced from a canonical spec (SOURCE) or a mathematical/structural consequence (DERIVED). No pop-psychology constructs enter without explicit model definition and claim class.
+1. **Psychological causal firewall** — Do not infer causation from single-behavior observation, marker correlation alone, post-hoc narrative coherence, category labels alone, or framework plausibility alone. Correct claim form: `behavior pattern B is consistent with state hypotheses {S1, S2}, flagged ambiguous` — not `this person is S1`.
+1. **Covert individual profiling prohibited** — Group-level outputs are statistical tendencies about populations/patterns. Deriving individual diagnoses from group signals is prohibited. Privacy: no covert profiling.
 
 ## Examples
 
 - **Scenario**: User says "I'm feeling anxious about this presentation"
+
   - **Input**: Text markers indicating elevated arousal, worry, anticipation
   - **Output**: 5-axis emotion state model {valence: negative, arousal: high, dominance: low, certainty: low, energy: high} tagged AMOS_MODEL, with context-dependent framing recommendations
 
 - **Scenario**: User says "My team seems unmotivated lately"
+
   - **Input**: Behavioral observation about group dynamics
   - **Output**: Group climate analysis using H7 Group Dynamics framework, motivation hypotheses flagged as COMPETING (insufficient individual data), recommendations tagged context-dependent
 
 - **Scenario**: User says "Why does my friend keep avoiding conflict?"
+
   - **Input**: Personality pattern inquiry
   - **Output**: Personality Engine v0 trait analysis (avoidance pattern as MODEL), behavioral recommendations with culture/timescale flags, no clinical diagnosis
 
@@ -276,6 +281,6 @@ C05 is **not** a mind reader and **not** a clinician. It never converts a model 
 - **Origin architect**: Trang Phan
 - **H-level owners**: H1 Emotion Law, H2 Personality Engine, H3 Behavior Engine, H4 Mind-Behavior Bridge, H5 Cognitive/Motivational Structure (F1-F7), H6 Social/Change Dynamics (F8-F12), H7 Group Dynamics, H8 Micro-State Spectrum & UEE, H9 AMOS/Trang Research Bridge
 
----
+______________________________________________________________________
 
 **MOC:** references_MOC · [[00_ROOT/00_HOME|00_HOME]]

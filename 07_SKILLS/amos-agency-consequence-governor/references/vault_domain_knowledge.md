@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Vault Domain Knowledge — Amos Agency Consequence Governor
 type: reference
 source: 07_SKILLS/amos-agency-consequence-governor/references
 tags:
-- reference
-- amos-agency-consequence-governor
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-agency-consequence-governor
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -23,7 +26,7 @@ rscf:
 
 ## Vault-Sourced Content
 
-### Source 1: The Living Stack_ A Comprehensive Scientific Architecture Thesis (Expanded)
+### Source 1: The Living Stack\_ A Comprehensive Scientific Architecture Thesis (Expanded)
 
 > Path: `architecture/The Living Stack_ A Comprehensive Scientific Architecture Thesis (Expanded).md` | Size: 279433 chars | Match score: 3
 
@@ -95,16 +98,16 @@ approaches that begin with high-value, lower-complexity pilot projects before ex
 
 wide deployment:
 
-
 Pilot Selection Criteria: Pilot projects should be selected based on high impact potential, manageable
 
 complexity, stakeholder support, and clear success metrics. Successful pilots provide proof-of-
 
 concept validation while building organizational confi
 
----
+______________________________________________________________________
 
 ### Source 2: 3b. Governance
+
 - process v8
 
 > Path: `governance/3b. Governance - process v8.md` | Size: 44077 chars | Match score: 3
@@ -115,10 +118,11 @@ About TCJ
 Governance
 Thisplaybookcontainsallthepieces andpartsthat
 makeupourapproachtotransforming customer
-| journeys.Thisis | | alivingdocumentandthelatest |
-| --------------- | -------- | ----------------------------- |
-| versioncan | be found | onTCJ’sConfluencesite. |
-Last updated in May 2019
+
+| journeys.Thisis          |          | alivingdocumentandthelatest |
+| ------------------------ | -------- | --------------------------- |
+| versioncan               | be found | onTCJ’sConfluencesite.      |
+| Last updated in May 2019 |          |                             |
 
 How this module fits into overall TCJ Playbook
 Transformation
@@ -184,23 +188,24 @@ McKinsey & Company
 
 TCJ governance bodies
 With wider Bank Within TCJ
-| Scope | Committee | Purpose | Attendees | Frequency |
-| ----- | --------- | ------- | --------- | --------- |
-Program-level TCJ Business Budget allocation based on drawdown approved by DEXCO Chief Strategy and Design (Chair) Monthly
-Review Drawdown for all OPEX and CAPEX expenditures below RM1m (within Group Chief Technology Officer
-budget) Group Technology Leads (e.g. EAS, IT Security, App)
-| | | Overall TCJ program delivery plan (Benefits and timeline by Journey) | Head of TCJ | |
-| --- | --- | -------------------------------------------
 
----
+| Scope                                                                                                                      | Committee | Purpose                                                              | Attendees   | Frequency |
+| -------------------------------------------------------------------------------------------------------------------------- | --------- | -------------------------------------------------------------------- | ----------- | --------- |
+| Program-level TCJ Business Budget allocation based on drawdown approved by DEXCO Chief Strategy and Design (Chair) Monthly |           |                                                                      |             |           |
+| Review Drawdown for all OPEX and CAPEX expenditures below RM1m (within Group Chief Technology Officer                      |           |                                                                      |             |           |
+| budget) Group Technology Leads (e.g. EAS, IT Security, App)                                                                |           |                                                                      |             |           |
+|                                                                                                                            |           | Overall TCJ program delivery plan (Benefits and timeline by Journey) | Head of TCJ |           |
+| ---                                                                                                                        | ---       | -------------------------------------------                          |             |           |
+
+______________________________________________________________________
 
 ### Source 3: The Intelligence OS™
 
 > Path: `architecture/The_Intelligence_OS_Useful_Architecture.md` | Size: 28606 chars | Match score: 3
 
-# The Intelligence OS™
-## 1. Purpose
+## The Intelligence OS™
 
+## 1. Purpose
 
 The architecture separates:
 
@@ -212,9 +217,9 @@ $$\boxed{ CoreEngine \rightarrow DomainProducts \rightarrow CommercialSystems \r
 
 The source frames the system as a reusable intelligence substrate rather than a single application.
 
----
+______________________________________________________________________
 
-# 2. Epistemic Boundary
+## 2. Epistemic Boundary
 
 The source contains at least four different claim classes:
 
@@ -242,9 +247,9 @@ and:
 
 $$\boxed{ Projected\ Revenue \neq Observed\ Revenue }$$
 
----
+______________________________________________________________________
 
-# 3. Master System Architecture
+## 3. Master System Architecture
 
 The source can be represented as:
 
@@ -276,9 +281,9 @@ The system is therefore fundamentally:
 
 $$\boxed{ Platform + Portfolio + Commercialization + Scale }$$
 
----
+______________________________________________________________________
 
-# 4. Three Framing Layers
+## 4. Three Framing Layers
 
 The source describes a three-layer framing structure above the detailed product hierarchy.
 
@@ -299,9 +304,9 @@ These layers must not be collapsed.
 
 $$\boxed{ IntelligenceCapability \neq ProductMarketFit }$$
 
----
+______________________________________________________________________
 
-# 5. Level 0 — Core Intelligence Engine
+## 5. Level 0 — Core Intelligence Engine
 
 Level 0 is the shared engine beneath all commercial domains.
 
@@ -330,10 +335,9 @@ orchest
 -
 ```
 
----
+______________________________________________________________________
 
-**Related:** [[07_SKILLS/amos-agency-consequence-governor/amos-agency-consequence-governor_MOC|amos-agency-consequence-governor_MOC]]
----
+## **Related:** [[07_SKILLS/amos-agency-consequence-governor/amos-agency-consequence-governor_MOC|amos-agency-consequence-governor_MOC]]
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -341,12 +345,14 @@ orchest
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-agency-consequence-governor-vault-domain-knowledge
 node_type: reference
 path: 07_SKILLS/amos-agency-consequence-governor/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

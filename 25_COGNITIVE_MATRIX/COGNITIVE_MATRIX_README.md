@@ -12,71 +12,71 @@ segment: 25_COGNITIVE_MATRIX
 artifact_kind: COGNITIVE_ARCHITECTURE
 path: 25_COGNITIVE_MATRIX/COGNITIVE_MATRIX_README.md
 tags:
-- amos-os
-- cognitive-matrix
-- cognitive_architecture
-- reasoning_architecture
-- governed_cognition
-- hml
-- rscf
-- gmef
-- proof_capsules
-- provenance
-- provenance_topology
-- sybil_hardening
-- competing_hypotheses
-- causal_firewall
-- scope_firewall
-- regime_firewall
-- temporal_validity
-- uncertainty
-- sensitivity
-- cognitive_modes
-- capability_resolution
-- governance
-- repair
-- fast_path
-- mvcc
-- cas
-- causal_epoch
-- shard_local_finalization
-- proof_based_coordination_avoidance
-- anti_fabrication
-- anti_regression
-- canon_candidate
-- domain/cognitive-matrix
-- readme
-- validation
-- task-resolver
-- capability-resolver
-- mode-admission-queue
-- mode-coverage-matrix
-- mode-dependency-graph
-- k-hml
-- k-rscf
-- k-gmef
-- k-binding
-- k-constraint-propagation
-- k-provenance
-- k-provenance-topology
-- k-sybil-hardening
-- k-counterfactual
-- k-translation
-- k-effect-classification
-- k-information-exposure
-- k-risk-constraint
-- k-capability-authorization
-- k-commit-time-authority
-- k-homeostasis
-- k-repair-harm
-- k-repair-priority
-- architecture
-- integration
-- canon
-- law/L19-proof-capsule
-- causal-epoch-finality
-- shard-local-finalization
-- proof-based-coordination-avoidance
+  - amos-os
+  - cognitive-matrix
+  - cognitive_architecture
+  - reasoning_architecture
+  - governed_cognition
+  - hml
+  - rscf
+  - gmef
+  - proof_capsules
+  - provenance
+  - provenance_topology
+  - sybil_hardening
+  - competing_hypotheses
+  - causal_firewall
+  - scope_firewall
+  - regime_firewall
+  - temporal_validity
+  - uncertainty
+  - sensitivity
+  - cognitive_modes
+  - capability_resolution
+  - governance
+  - repair
+  - fast_path
+  - mvcc
+  - cas
+  - causal_epoch
+  - shard_local_finalization
+  - proof_based_coordination_avoidance
+  - anti_fabrication
+  - anti_regression
+  - canon_candidate
+  - domain/cognitive-matrix
+  - readme
+  - validation
+  - task-resolver
+  - capability-resolver
+  - mode-admission-queue
+  - mode-coverage-matrix
+  - mode-dependency-graph
+  - k-hml
+  - k-rscf
+  - k-gmef
+  - k-binding
+  - k-constraint-propagation
+  - k-provenance
+  - k-provenance-topology
+  - k-sybil-hardening
+  - k-counterfactual
+  - k-translation
+  - k-effect-classification
+  - k-information-exposure
+  - k-risk-constraint
+  - k-capability-authorization
+  - k-commit-time-authority
+  - k-homeostasis
+  - k-repair-harm
+  - k-repair-priority
+  - architecture
+  - integration
+  - canon
+  - law/L19-proof-capsule
+  - causal-epoch-finality
+  - shard-local-finalization
+  - proof-based-coordination-avoidance
 version: 1.0.0
 updated: '2026-08-27'
 status: DERIVED_CANDIDATE_CANON
@@ -92,14 +92,14 @@ rscf:
   state: DERIVED
   claim_class: AMOS_MODEL
   provenance:
-  - AMOS_CORPUS
-  - AMOS_CORE_LINEAGE
-  - COGNITIVE_MATRIX_SOURCE
+    - AMOS_CORPUS
+    - AMOS_CORE_LINEAGE
+    - COGNITIVE_MATRIX_SOURCE
   scope:
-  - AMOS_GENERAL
-  - COGNITIVE_MATRIX
-  - REASONING_ARCHITECTURE
-  - GOVERNED_COGNITION
+    - AMOS_GENERAL
+    - COGNITIVE_MATRIX
+    - REASONING_ARCHITECTURE
+    - GOVERNED_COGNITION
 epistemic_boundary:
   architecture_definition: SOURCE_GROUNDED
   architecture_normalization: DERIVED
@@ -111,25 +111,25 @@ epistemic_boundary:
 lineage:
   lineage_target: AMOS_CORE_v4_4
   spine:
-  - deterministic_logic
-  - recursive_rscf_hml
-  - governed_evolution
-  - causal_lineage
-  - epistemic_regimes
-  - competing_hypotheses
-  - provenance_topology
-  - sybil_hardening
-  - persistent_provenance
-  - mvcc_cas_concepts
-  - atomic_multi_rscf_reasoning
-  - causal_epoch_finality
-  - hardened_shard_local_finalization
-  - proof_based_coordination_avoidance
+    - deterministic_logic
+    - recursive_rscf_hml
+    - governed_evolution
+    - causal_lineage
+    - epistemic_regimes
+    - competing_hypotheses
+    - provenance_topology
+    - sybil_hardening
+    - persistent_provenance
+    - mvcc_cas_concepts
+    - atomic_multi_rscf_reasoning
+    - causal_epoch_finality
+    - hardened_shard_local_finalization
+    - proof_based_coordination_avoidance
 ---
 
 # COGNITIVE MATRIX README
 
-# 0. STATUS AND EPISTEMIC BOUNDARY
+## 0. STATUS AND EPISTEMIC BOUNDARY
 
 This document defines the proposed AMOS **Cognitive Matrix**: the coordination architecture by which heterogeneous reasoning capabilities, evidence structures, epistemic controls, modes, constraints, models, proof structures, provenance structures, decision processes, and governed actions can be composed without collapsing their distinctions.
 
@@ -147,7 +147,7 @@ It is not, by documentation alone, evidence that every described mechanism:
 
 The following distinctions are permanent:
 
-```text
+````text
 ARCHITECTURE
 !=
 IMPLEMENTATION
@@ -255,7 +255,7 @@ No optimization within the Cognitive Matrix may weaken this ordering.
 
 ---
 
-# 1. PURPOSE
+## 1. PURPOSE
 
 The Cognitive Matrix provides a common architecture for deciding:
 
@@ -341,7 +341,7 @@ $$
 
 ---
 
-# 2. NON-GOALS
+## 2. NON-GOALS
 
 The Cognitive Matrix MUST NOT be interpreted as:
 
@@ -376,13 +376,13 @@ fractal
 super-intelligence
 universal
 absolute
-```
+````
 
 appearing elsewhere in the AMOS corpus remain corpus terminology unless independently validated as empirical claims.
 
----
+______________________________________________________________________
 
-# 3. CORE COGNITIVE MATRIX CONTRACT
+## 3. CORE COGNITIVE MATRIX CONTRACT
 
 Every consequential reasoning operation SHOULD be representable as:
 
@@ -442,9 +442,9 @@ SAFE_TO_IGNORE
 
 It becomes an explicit gap.
 
----
+______________________________________________________________________
 
-# 4. MATRIX AXES
+## 4. MATRIX AXES
 
 The Cognitive Matrix is multidimensional.
 
@@ -556,9 +556,9 @@ REPAIRABILITY
 
 No single scalar confidence score may substitute for these dimensions where their distinctions materially affect the conclusion.
 
----
+______________________________________________________________________
 
-# 5. COGNITIVE CELLS
+## 5. COGNITIVE CELLS
 
 A **Cognitive Cell** is the smallest independently addressable reasoning unit within the Matrix.
 
@@ -606,24 +606,24 @@ A cell SHOULD perform one logically coherent transformation.
 
 Examples:
 
-* classify evidence;
-* compare hypotheses;
-* test a contradiction;
-* calculate a quantity;
-* retrieve a dependency;
-* test causal admissibility;
-* check provenance independence;
-* evaluate a constraint;
-* translate representation;
-* generate a counterfactual;
-* assess risk;
-* determine capability authorization.
+- classify evidence;
+- compare hypotheses;
+- test a contradiction;
+- calculate a quantity;
+- retrieve a dependency;
+- test causal admissibility;
+- check provenance independence;
+- evaluate a constraint;
+- translate representation;
+- generate a counterfactual;
+- assess risk;
+- determine capability authorization.
 
 Cells SHOULD remain small enough that invalidation can be localized.
 
----
+______________________________________________________________________
 
-# 6. COGNITIVE MATRIX CELL INVARIANTS
+## 6. COGNITIVE MATRIX CELL INVARIANTS
 
 ## CM-I1 — Input Traceability
 
@@ -651,7 +651,7 @@ unless a justified scope-expansion operation exists.
 
 ## CM-I4 — Regime Preservation
 
-A conclusion valid under regime \(R_1\) does not automatically remain valid under \(R_2\).
+A conclusion valid under regime (R_1) does not automatically remain valid under (R_2).
 
 ## CM-I5 — Provenance Preservation
 
@@ -677,9 +677,9 @@ Reasoning cannot grant itself permissions absent from its capability/authority e
 
 Failure should invalidate only dependent cells where dependency topology permits.
 
----
+______________________________________________________________________
 
-# 7. FRACTAL KNOWLEDGE INTEGRATION
+## 7. FRACTAL KNOWLEDGE INTEGRATION
 
 The Cognitive Matrix uses the AMOS Fractal Knowledge Network as a selective retrieval architecture.
 
@@ -709,13 +709,13 @@ It is not permission to omit evidence required for correctness.
 
 Traversal SHOULD continue only while additional resolution can materially alter:
 
-* conclusion;
-* confidence ceiling;
-* hypothesis ranking;
-* scope;
-* causal interpretation;
-* governance;
-* action.
+- conclusion;
+- confidence ceiling;
+- hypothesis ranking;
+- scope;
+- causal interpretation;
+- governance;
+- action.
 
 Define:
 
@@ -738,20 +738,20 @@ $$
 
 subject to mandatory integrity checks.
 
----
+______________________________________________________________________
 
-# 8. H / M / L SEMANTICS
+## 8. H / M / L SEMANTICS
 
 ## 8.1 H — High-Level Domain
 
 H nodes establish:
 
-* domain identity;
-* governing principles;
-* major constraints;
-* regime boundaries;
-* major dependencies;
-* available M-level subsystems.
+- domain identity;
+- governing principles;
+- major constraints;
+- regime boundaries;
+- major dependencies;
+- available M-level subsystems.
 
 H answers:
 
@@ -761,12 +761,12 @@ H answers:
 
 M nodes establish:
 
-* subsystem semantics;
-* specialized models;
-* dependency relationships;
-* applicable operators;
-* local invariants;
-* available L-level detail.
+- subsystem semantics;
+- specialized models;
+- dependency relationships;
+- applicable operators;
+- local invariants;
+- available L-level detail.
 
 M answers:
 
@@ -776,22 +776,22 @@ M answers:
 
 L nodes contain:
 
-* precise definitions;
-* formulas;
-* edge cases;
-* algorithms;
-* evidence references;
-* implementation details;
-* falsifiers;
-* validation requirements.
+- precise definitions;
+- formulas;
+- edge cases;
+- algorithms;
+- evidence references;
+- implementation details;
+- falsifiers;
+- validation requirements.
 
 L answers:
 
 > What exact detail is required to prove, falsify, or condition this claim?
 
----
+______________________________________________________________________
 
-# 9. RSCF INTEGRATION
+## 9. RSCF INTEGRATION
 
 RSCF is a first-class reasoning structure.
 
@@ -846,9 +846,9 @@ $$
 
 The parent may finalize only when its load-bearing child requirements satisfy applicable finalization rules.
 
----
+______________________________________________________________________
 
-# 10. ATOMIC MULTI-RSCF REASONING
+## 10. ATOMIC MULTI-RSCF REASONING
 
 Some conclusions depend on multiple RSCF frames simultaneously.
 
@@ -872,7 +872,7 @@ commit(C)
 
 requires valid compatible states from all required frames.
 
-Failure of \(R_2\) does not necessarily invalidate all cognition.
+Failure of (R_2) does not necessarily invalidate all cognition.
 
 It invalidates:
 
@@ -880,28 +880,28 @@ $$
 Descendants(R_2)
 $$
 
-plus any composite conclusion requiring \(R_2\).
+plus any composite conclusion requiring (R_2).
 
 This creates local failure containment.
 
----
+______________________________________________________________________
 
-# 11. GMEF INTEGRATION
+## 11. GMEF INTEGRATION
 
 GMEF is treated as a first-class matrix structure for governed model/evidence coordination.
 
 At minimum, GMEF-like structures SHOULD preserve:
 
-* model identity;
-* evidence binding;
-* scope;
-* regime;
-* assumptions;
-* dependencies;
-* competing models;
-* falsifiers;
-* uncertainty;
-* governance state.
+- model identity;
+- evidence binding;
+- scope;
+- regime;
+- assumptions;
+- dependencies;
+- competing models;
+- falsifiers;
+- uncertainty;
+- governance state.
 
 A model MUST NOT float free from its evidence envelope.
 
@@ -922,9 +922,9 @@ $$
 
 If a load-bearing validity condition fails, dependent model conclusions require reconsideration.
 
----
+______________________________________________________________________
 
-# 12. EPISTEMIC TYPING
+## 12. EPISTEMIC TYPING
 
 Every material input SHOULD be typed.
 
@@ -934,12 +934,12 @@ Something asserted by a source.
 
 Examples:
 
-* documentation;
-* README;
-* article;
-* witness statement;
-* vendor claim;
-* benchmark report.
+- documentation;
+- README;
+- article;
+- witness statement;
+- vendor claim;
+- benchmark report.
 
 A source claim is not automatically verified.
 
@@ -949,12 +949,12 @@ A recorded measurement or directly observed event within a defined measurement c
 
 Observation validity depends on:
 
-* instrumentation;
-* measurement method;
-* sampling;
-* environment;
-* timing;
-* integrity.
+- instrumentation;
+- measurement method;
+- sampling;
+- environment;
+- timing;
+- integrity.
 
 ## 12.3 DERIVED
 
@@ -980,9 +980,9 @@ Information not established by currently admissible evidence.
 
 Unknowns remain visible when decision-relevant.
 
----
+______________________________________________________________________
 
-# 13. PROOF CAPSULES
+## 13. PROOF CAPSULES
 
 Important Matrix conclusions SHOULD produce or reference a Proof Capsule.
 
@@ -1052,9 +1052,9 @@ or:
 INVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 14. PROVENANCE TOPOLOGY
+## 14. PROVENANCE TOPOLOGY
 
 The Matrix treats provenance as a graph rather than a flat citation list.
 
@@ -1099,9 +1099,9 @@ $$
 
 when all descend from the same origin.
 
----
+______________________________________________________________________
 
-# 15. SYBIL HARDENING
+## 15. SYBIL HARDENING
 
 Evidence repetition must not manufacture confidence.
 
@@ -1115,16 +1115,16 @@ must be demonstrated when independence materially affects the conclusion.
 
 Signals of non-independence include:
 
-* identical language;
-* common upstream source;
-* shared dataset;
-* common author;
-* shared institutional pipeline;
-* shared measurement process;
-* synchronized publication;
-* circular citation;
-* copied benchmark;
-* common model-generated ancestry.
+- identical language;
+- common upstream source;
+- shared dataset;
+- common author;
+- shared institutional pipeline;
+- shared measurement process;
+- synchronized publication;
+- circular citation;
+- copied benchmark;
+- common model-generated ancestry.
 
 Therefore:
 
@@ -1134,9 +1134,9 @@ N\ reports
 N\ independent\ confirmations
 $$
 
----
+______________________________________________________________________
 
-# 16. CONTRADICTION MATRIX
+## 16. CONTRADICTION MATRIX
 
 Contradictions are explicit Matrix objects.
 
@@ -1200,9 +1200,9 @@ system does not perform X under environment E2
 
 may represent a regime difference rather than direct contradiction.
 
----
+______________________________________________________________________
 
-# 17. COMPETING HYPOTHESES MATRIX
+## 17. COMPETING HYPOTHESES MATRIX
 
 The Matrix MUST support multiple live hypotheses.
 
@@ -1215,15 +1215,15 @@ $$
 
 each hypothesis SHOULD retain:
 
-* supporting evidence;
-* contradicting evidence;
-* assumptions;
-* scope;
-* provenance;
-* causal requirements;
-* discriminating predictions;
-* falsifiers;
-* unresolved gaps.
+- supporting evidence;
+- contradicting evidence;
+- assumptions;
+- scope;
+- provenance;
+- causal requirements;
+- discriminating predictions;
+- falsifiers;
+- unresolved gaps.
 
 If support remains incomparable:
 
@@ -1246,9 +1246,9 @@ Cost(t)+Risk(t)
 }
 $$
 
----
+______________________________________________________________________
 
-# 18. CAUSAL FIREWALL
+## 18. CAUSAL FIREWALL
 
 The Cognitive Matrix MUST distinguish:
 
@@ -1267,14 +1267,14 @@ CAUSAL_EFFECT
 
 Insufficient by themselves:
 
-* temporal sequence;
-* co-occurrence;
-* analogy;
-* structural similarity;
-* semantic similarity;
-* repeated reporting;
-* predictive accuracy;
-* mechanistic plausibility without validating evidence.
+- temporal sequence;
+- co-occurrence;
+- analogy;
+- structural similarity;
+- semantic similarity;
+- repeated reporting;
+- predictive accuracy;
+- mechanistic plausibility without validating evidence.
 
 Thus:
 
@@ -1294,9 +1294,9 @@ $$
 
 without appropriate identification.
 
----
+______________________________________________________________________
 
-# 19. COUNTERFACTUAL INTEGRATION
+## 19. COUNTERFACTUAL INTEGRATION
 
 A counterfactual MUST distinguish:
 
@@ -1320,18 +1320,18 @@ is not licensed merely by observational association.
 
 Counterfactual class SHOULD identify whether it is:
 
-* causal;
-* structural;
-* simulation-based;
-* scenario-based;
-* decision-theoretic;
-* hypothetical.
+- causal;
+- structural;
+- simulation-based;
+- scenario-based;
+- decision-theoretic;
+- hypothetical.
 
 Counterfactual outputs remain `MODEL` unless stronger validation exists.
 
----
+______________________________________________________________________
 
-# 20. SCOPE FIREWALL
+## 20. SCOPE FIREWALL
 
 Every consequential conclusion inherits an applicability envelope.
 
@@ -1375,23 +1375,23 @@ $$
 
 is independently established.
 
----
+______________________________________________________________________
 
-# 21. REGIME FIREWALL
+## 21. REGIME FIREWALL
 
 A regime is a set of environmental/structural conditions under which a model or conclusion is valid.
 
 Examples:
 
-* policy;
-* hardware;
-* software version;
-* market structure;
-* legal environment;
-* operating conditions;
-* data-generating process;
-* measurement procedure;
-* adversarial environment.
+- policy;
+- hardware;
+- software version;
+- market structure;
+- legal environment;
+- operating conditions;
+- data-generating process;
+- measurement procedure;
+- adversarial environment.
 
 A regime shift SHOULD trigger:
 
@@ -1401,9 +1401,9 @@ REVALIDATE_DEPENDENCIES
 
 not automatic reuse.
 
----
+______________________________________________________________________
 
-# 22. TEMPORAL VALIDITY
+## 22. TEMPORAL VALIDITY
 
 Knowledge has temporal bounds.
 
@@ -1429,9 +1429,9 @@ CURRENTLY_VALIDATED
 
 Freshness requirements are task-dependent.
 
----
+______________________________________________________________________
 
-# 23. UNCERTAINTY VECTOR
+## 23. UNCERTAINTY VECTOR
 
 The Matrix SHOULD avoid collapsing uncertainty into a scalar where dimensions matter.
 
@@ -1450,19 +1450,19 @@ $$
 
 | Component | Meaning                             |
 | --------- | ----------------------------------- |
-| \(u_e\)   | evidence uncertainty                |
-| \(u_m\)   | model uncertainty                   |
-| \(u_s\)   | scope uncertainty                   |
-| \(u_t\)   | temporal uncertainty                |
-| \(u_c\)   | causal uncertainty                  |
-| \(u_x\)   | execution uncertainty               |
-| \(u_p\)   | provenance-independence uncertainty |
+| (u_e)     | evidence uncertainty                |
+| (u_m)     | model uncertainty                   |
+| (u_s)     | scope uncertainty                   |
+| (u_t)     | temporal uncertainty                |
+| (u_c)     | causal uncertainty                  |
+| (u_x)     | execution uncertainty               |
+| (u_p)     | provenance-independence uncertainty |
 
 Reasoning resources SHOULD be spent where uncertainty reduction has positive expected decision value.
 
----
+______________________________________________________________________
 
-# 24. SENSITIVITY MATRIX
+## 24. SENSITIVITY MATRIX
 
 For:
 
@@ -1482,7 +1482,7 @@ perturb(p_i)
 \}
 $$
 
-Test \(P^*\) before spending resources on noncritical background.
+Test (P^\*) before spending resources on noncritical background.
 
 Fragile:
 
@@ -1492,9 +1492,9 @@ CONDITIONAL
 
 Robust conclusions survive plausible perturbations of noncritical assumptions.
 
----
+______________________________________________________________________
 
-# 25. COGNITIVE MODES
+## 25. COGNITIVE MODES
 
 Possible mode classes:
 
@@ -1522,9 +1522,9 @@ Mode names define responsibilities.
 
 They do not prove independent internal agents.
 
----
+______________________________________________________________________
 
-# 26. MODE ADMISSION
+## 26. MODE ADMISSION
 
 A mode may enter the active Matrix only if it contributes decision-relevant capability.
 
@@ -1540,17 +1540,17 @@ $$
 
 Admission MAY consider:
 
-* task requirement;
-* capability availability;
-* dependency requirement;
-* conflict registry;
-* risk;
-* expected information gain;
-* cost.
+- task requirement;
+- capability availability;
+- dependency requirement;
+- conflict registry;
+- risk;
+- expected information gain;
+- cost.
 
----
+______________________________________________________________________
 
-# 27. MODE COMPOSITION
+## 27. MODE COMPOSITION
 
 Compatible modes may compose.
 
@@ -1568,9 +1568,9 @@ DECISION
 
 Intermediate epistemic type MUST be preserved.
 
----
+______________________________________________________________________
 
-# 28. MODE CONFLICTS
+## 28. MODE CONFLICTS
 
 Examples:
 
@@ -1606,9 +1606,9 @@ Speed
 TokenSavings
 $$
 
----
+______________________________________________________________________
 
-# 29. MODE DEPENDENCY GRAPH
+## 29. MODE DEPENDENCY GRAPH
 
 Example:
 
@@ -1634,9 +1634,9 @@ AUTHORITY
 
 The dependency graph SHOULD be acyclic at commit boundaries even if iterative reasoning contains feedback.
 
----
+______________________________________________________________________
 
-# 30. CAPABILITY RESOLUTION
+## 30. CAPABILITY RESOLUTION
 
 ```text
 CapabilityResolution {
@@ -1664,9 +1664,9 @@ UNRESOLVED_CAPABILITY
 
 The Matrix MUST NOT fabricate execution.
 
----
+______________________________________________________________________
 
-# 31. TASK RESOLUTION
+## 31. TASK RESOLUTION
 
 Minimum task state:
 
@@ -1681,9 +1681,9 @@ constraints
 
 Task resolution SHOULD occur once unless new evidence materially changes the contract.
 
----
+______________________________________________________________________
 
-# 32. TASK CONTRACT
+## 32. TASK CONTRACT
 
 ```text
 TaskContract {
@@ -1711,9 +1711,9 @@ TaskContract {
 
 The Matrix SHOULD NOT silently expand the task beyond this contract.
 
----
+______________________________________________________________________
 
-# 33. CONSTRAINT PROPAGATION
+## 33. CONSTRAINT PROPAGATION
 
 If:
 
@@ -1721,7 +1721,7 @@ $$
 A\rightarrow B\rightarrow C
 $$
 
-and constraint \(k\) applies to \(A\) and remains relevant downstream:
+and constraint (k) applies to (A) and remains relevant downstream:
 
 $$
 k(A)
@@ -1747,9 +1747,9 @@ RESOURCE
 FORMAT
 ```
 
----
+______________________________________________________________________
 
-# 34. BINDING
+## 34. BINDING
 
 Binding associates reasoning objects with structures required for valid interpretation.
 
@@ -1767,9 +1767,9 @@ source ↔ provenance identity
 
 A detached claim is weaker because applicability and origin become ambiguous.
 
----
+______________________________________________________________________
 
-# 35. INFORMATION EXPOSURE
+## 35. INFORMATION EXPOSURE
 
 The Matrix SHOULD apply minimum necessary information exposure.
 
@@ -1783,9 +1783,9 @@ subject to correctness.
 
 Exposure minimization MUST NOT hide evidence necessary for contradiction detection.
 
----
+______________________________________________________________________
 
-# 36. EFFECT CLASSIFICATION
+## 36. EFFECT CLASSIFICATION
 
 Proposed actions SHOULD be classified across dimensions such as:
 
@@ -1803,9 +1803,9 @@ LOW / HIGH EXTERNAL IMPACT
 
 Validation thresholds increase with effect magnitude.
 
----
+______________________________________________________________________
 
-# 37. RISK CONSTRAINT
+## 37. RISK CONSTRAINT
 
 Risk is not merely probability.
 
@@ -1824,9 +1824,9 @@ $$
 
 Higher risk raises evidence and governance thresholds.
 
----
+______________________________________________________________________
 
-# 38. CAPABILITY AUTHORIZATION
+## 38. CAPABILITY AUTHORIZATION
 
 $$
 Can(X)
@@ -1836,17 +1836,17 @@ $$
 
 Authorization SHOULD consider:
 
-* user authority;
-* system policy;
-* scope;
-* risk;
-* irreversible effects;
-* governance state;
-* capability constraints.
+- user authority;
+- system policy;
+- scope;
+- risk;
+- irreversible effects;
+- governance state;
+- capability constraints.
 
----
+______________________________________________________________________
 
-# 39. COMMIT-TIME AUTHORITY
+## 39. COMMIT-TIME AUTHORITY
 
 Authority SHOULD be rechecked when a decision becomes an external commitment.
 
@@ -1858,34 +1858,34 @@ AUTHORIZED_TO_COMMIT
 
 Recheck if:
 
-* context changes;
-* scope changes;
-* user intent changes;
-* risk changes;
-* target changes;
-* new evidence arrives.
+- context changes;
+- scope changes;
+- user intent changes;
+- risk changes;
+- target changes;
+- new evidence arrives.
 
----
+______________________________________________________________________
 
-# 40. HOMEOSTASIS
+## 40. HOMEOSTASIS
 
 Cognitive homeostasis is maintenance of valid reasoning state under change.
 
 It includes:
 
-* contradiction detection;
-* stale-state detection;
-* dependency invalidation;
-* uncertainty tracking;
-* scope maintenance;
-* regime monitoring;
-* repair prioritization.
+- contradiction detection;
+- stale-state detection;
+- dependency invalidation;
+- uncertainty tracking;
+- scope maintenance;
+- regime monitoring;
+- repair prioritization.
 
 Homeostasis preserves **integrity**, not necessarily existing conclusions.
 
----
+______________________________________________________________________
 
-# 41. REPAIR
+## 41. REPAIR
 
 ```text
 DETECT FAILURE
@@ -1905,9 +1905,9 @@ REVALIDATE AFFECTED CLOSURE
 
 Global recomputation is a last resort.
 
----
+______________________________________________________________________
 
-# 42. REPAIR HARM
+## 42. REPAIR HARM
 
 $$
 RepairHarm
@@ -1923,9 +1923,9 @@ $$
 
 Repair strategy SHOULD minimize harm without preserving invalid state.
 
----
+______________________________________________________________________
 
-# 43. REPAIR PRIORITY
+## 43. REPAIR PRIORITY
 
 ```text
 CRITICAL
@@ -1937,9 +1937,9 @@ EXPLANATORY
 COSMETIC
 ```
 
----
+______________________________________________________________________
 
-# 44. GAP CLASSIFICATION
+## 44. GAP CLASSIFICATION
 
 ## CRITICAL
 
@@ -1967,11 +1967,11 @@ Explanatory
 Cosmetic
 $$
 
----
+______________________________________________________________________
 
-# 45. ADVERSARIAL VALIDATION
+## 45. ADVERSARIAL VALIDATION
 
-For candidate conclusion \(C\):
+For candidate conclusion (C):
 
 ```text
 PRIMARY PATH
@@ -1989,22 +1989,22 @@ ATTEMPT TO BREAK C
 
 Challenge searches for:
 
-* contradictory evidence;
-* correlated provenance;
-* stale evidence;
-* hidden dependencies;
-* scope leakage;
-* regime mismatch;
-* causal overreach;
-* alternative hypotheses;
-* fragile assumptions;
-* governance conflicts.
+- contradictory evidence;
+- correlated provenance;
+- stale evidence;
+- hidden dependencies;
+- scope leakage;
+- regime mismatch;
+- causal overreach;
+- alternative hypotheses;
+- fragile assumptions;
+- governance conflicts.
 
 The challenge path MUST be genuinely different.
 
----
+______________________________________________________________________
 
-# 46. VALIDATION OUTCOMES
+## 46. VALIDATION OUTCOMES
 
 ```text
 SURVIVES
@@ -2017,9 +2017,9 @@ UNKNOWN/GAP
 
 The goal is calibrated survival, not forced rejection.
 
----
+______________________________________________________________________
 
-# 47. FAST PATH
+## 47. FAST PATH
 
 AMOS v4.4-style reasoning permits local fast-path resolution only when dependency closure is safe.
 
@@ -2043,27 +2043,27 @@ $$
 
 where:
 
-* \(D\) = dependency closure established;
-* \(P\) = provenance independence sufficient;
-* \(S\) = scope compatible;
-* \(R\) = regime compatible;
-* \(T\) = freshness sufficient;
-* \(C\) = unresolved material conflict.
+- (D) = dependency closure established;
+- (P) = provenance independence sufficient;
+- (S) = scope compatible;
+- (R) = regime compatible;
+- (T) = freshness sufficient;
+- (C) = unresolved material conflict.
 
 Fast path is denied when:
 
-* ancestry is correlated;
-* evidence conflicts;
-* evidence is stale;
-* regime crossing occurs;
-* causal coupling matters;
-* governance is affected;
-* stakes are irreversible;
-* dependencies are ambiguous.
+- ancestry is correlated;
+- evidence conflicts;
+- evidence is stale;
+- regime crossing occurs;
+- causal coupling matters;
+- governance is affected;
+- stakes are irreversible;
+- dependencies are ambiguous.
 
----
+______________________________________________________________________
 
-# 48. COORDINATION AVOIDANCE
+## 48. COORDINATION AVOIDANCE
 
 $$
 GlobalCoordination
@@ -2075,9 +2075,9 @@ This is an architectural reasoning principle.
 
 It does not claim literal distributed consensus execution.
 
----
+______________________________________________________________________
 
-# 49. CAUSAL EPOCH FINALITY
+## 49. CAUSAL EPOCH FINALITY
 
 Where reasoning state is versioned into causal epochs:
 
@@ -2093,28 +2093,28 @@ EPOCH E_n
   conclusions
 ```
 
-A conclusion finalized in \(E_n\) cannot automatically inherit validity into \(E_{n+1}\) after load-bearing changes.
+A conclusion finalized in (E_n) cannot automatically inherit validity into (E\_{n+1}) after load-bearing changes.
 
----
+______________________________________________________________________
 
-# 50. SHARD-LOCAL FINALIZATION
+## 50. SHARD-LOCAL FINALIZATION
 
 Where a reasoning domain can be isolated into a valid local dependency shard, local finalization may occur without resolving unrelated global state.
 
 Requirements include:
 
-* closed relevant dependencies;
-* compatible scope;
-* compatible regime;
-* no unresolved cross-shard conflict;
-* sufficient provenance analysis;
-* valid authority.
+- closed relevant dependencies;
+- compatible scope;
+- compatible regime;
+- no unresolved cross-shard conflict;
+- sufficient provenance analysis;
+- valid authority.
 
 This is a reasoning pattern, not a literal implementation claim.
 
----
+______________________________________________________________________
 
-# 51. MVCC / CAS CONCEPTS
+## 51. MVCC / CAS CONCEPTS
 
 ## MVCC-like reasoning
 
@@ -2144,9 +2144,9 @@ REVALIDATE
 
 rather than committing against stale assumptions.
 
----
+______________________________________________________________________
 
-# 52. PERSISTENT PROVENANCE
+## 52. PERSISTENT PROVENANCE
 
 For:
 
@@ -2160,15 +2160,15 @@ lineage must survive summarization and reuse.
 
 Without persistent provenance, later reasoning cannot reliably determine:
 
-* source independence;
-* failed premises;
-* stale evidence;
-* scope changes;
-* invalidation descendants.
+- source independence;
+- failed premises;
+- stale evidence;
+- scope changes;
+- invalidation descendants.
 
----
+______________________________________________________________________
 
-# 53. COGNITIVE MATRIX EXECUTION CYCLE
+## 53. COGNITIVE MATRIX EXECUTION CYCLE
 
 ```text
 01. PARSE TASK
@@ -2220,9 +2220,9 @@ Not every task requires every stage.
 
 Use the smallest sufficient subset.
 
----
+______________________________________________________________________
 
-# 54. ADAPTIVE COMPLEXITY
+## 54. ADAPTIVE COMPLEXITY
 
 ```text
 C0 — DIRECT
@@ -2238,89 +2238,89 @@ C4 — MAXIMUM
 
 Escalation signals:
 
-* high stakes;
-* irreversibility;
-* novelty;
-* weak evidence;
-* stale evidence;
-* contradiction;
-* causal ambiguity;
-* scope mismatch;
-* competing models;
-* governance impact;
-* low trust;
-* explicit deep-analysis request.
+- high stakes;
+- irreversibility;
+- novelty;
+- weak evidence;
+- stale evidence;
+- contradiction;
+- causal ambiguity;
+- scope mismatch;
+- competing models;
+- governance impact;
+- low trust;
+- explicit deep-analysis request.
 
 De-escalate after outcome-changing uncertainty is resolved.
 
----
+______________________________________________________________________
 
-# 55. C0 — DIRECT
+## 55. C0 — DIRECT
 
 Use when:
 
-* answer is straightforward;
-* evidence burden is minimal;
-* stakes are low;
-* no material contradiction exists.
+- answer is straightforward;
+- evidence burden is minimal;
+- stakes are low;
+- no material contradiction exists.
 
----
+______________________________________________________________________
 
-# 56. C1 — COMPACT
-
-Use:
-
-* conclusion;
-* key evidence;
-* one or two caveats;
-* action.
-
----
-
-# 57. C2 — STRUCTURED
+## 56. C1 — COMPACT
 
 Use:
 
-* evidence separation;
-* assumptions;
-* scope;
-* uncertainty;
-* alternatives;
-* explicit conclusion class.
+- conclusion;
+- key evidence;
+- one or two caveats;
+- action.
 
----
+______________________________________________________________________
 
-# 58. C3 — DEEP
+## 57. C2 — STRUCTURED
+
+Use:
+
+- evidence separation;
+- assumptions;
+- scope;
+- uncertainty;
+- alternatives;
+- explicit conclusion class.
+
+______________________________________________________________________
+
+## 58. C3 — DEEP
 
 Add:
 
-* provenance topology;
-* hypothesis competition;
-* causal analysis;
-* sensitivity;
-* adversarial validation;
-* dependency reasoning.
+- provenance topology;
+- hypothesis competition;
+- causal analysis;
+- sensitivity;
+- adversarial validation;
+- dependency reasoning.
 
----
+______________________________________________________________________
 
-# 59. C4 — MAXIMUM
+## 59. C4 — MAXIMUM
 
 May include:
 
-* full dependency closure;
-* deep provenance analysis;
-* multiple independent challenge paths;
-* scenario analysis;
-* counterfactuals;
-* governance review;
-* repair/fallback plans;
-* detailed proof capsules.
+- full dependency closure;
+- deep provenance analysis;
+- multiple independent challenge paths;
+- scenario analysis;
+- counterfactuals;
+- governance review;
+- repair/fallback plans;
+- detailed proof capsules.
 
 Complexity itself is not quality.
 
----
+______________________________________________________________________
 
-# 60. CONCLUSION CLASSES
+## 60. CONCLUSION CLASSES
 
 ## VERIFIED
 
@@ -2346,9 +2346,9 @@ Multiple hypotheses remain unresolved.
 
 Evidence is insufficient for stronger classification.
 
----
+______________________________________________________________________
 
-# 61. CONFIDENCE CEILING
+## 61. CONFIDENCE CEILING
 
 For:
 
@@ -2364,18 +2364,18 @@ Conf(C)
 \min_i Conf(P_i)
 $$
 
-for load-bearing \(P_i\).
+for load-bearing (P_i).
 
 This changes only when:
 
-* the premise is independently revalidated;
-* redundancy is genuinely independent;
-* the premise ceases to be load-bearing;
-* stronger derivation supersedes it.
+- the premise is independently revalidated;
+- redundancy is genuinely independent;
+- the premise ceases to be load-bearing;
+- stronger derivation supersedes it.
 
----
+______________________________________________________________________
 
-# 62. DECISION SUFFICIENCY
+## 62. DECISION SUFFICIENCY
 
 The Matrix need not eliminate all uncertainty.
 
@@ -2389,25 +2389,25 @@ DecisionSufficient
 \neg\exists g
 $$
 
-such that unresolved gap \(g\) plausibly changes the decision beyond accepted risk tolerance.
+such that unresolved gap (g) plausibly changes the decision beyond accepted risk tolerance.
 
----
+______________________________________________________________________
 
-# 63. CLAIM SUFFICIENCY
+## 63. CLAIM SUFFICIENCY
 
 A claim is sufficient when:
 
-* evidence supports its class;
-* scope is bounded;
-* dependencies are valid;
-* contradictions are handled;
-* causal language is licensed;
-* freshness is adequate;
-* material gaps are visible.
+- evidence supports its class;
+- scope is bounded;
+- dependencies are valid;
+- contradictions are handled;
+- causal language is licensed;
+- freshness is adequate;
+- material gaps are visible.
 
----
+______________________________________________________________________
 
-# 64. ACTION SUFFICIENCY
+## 64. ACTION SUFFICIENCY
 
 ```text
 ClaimSufficiency
@@ -2423,9 +2423,9 @@ AND CommitAuthorityValid
 
 For irreversible action, thresholds rise.
 
----
+______________________________________________________________________
 
-# 65. STOPPING RULE
+## 65. STOPPING RULE
 
 Stop when:
 
@@ -2441,9 +2441,9 @@ where action sufficiency is applicable.
 
 Do not accumulate redundant evidence merely to create apparent depth.
 
----
+______________________________________________________________________
 
-# 66. FAILURE STATES
+## 66. FAILURE STATES
 
 ```text
 INSUFFICIENT_EVIDENCE
@@ -2463,24 +2463,24 @@ COMMIT_STATE_CHANGED
 
 Failure SHOULD trigger local repair where possible.
 
----
+______________________________________________________________________
 
-# 67. ANTI-FABRICATION RULES
+## 67. ANTI-FABRICATION RULES
 
 The Matrix MUST NOT:
 
 1. invent missing evidence;
-2. invent citations;
-3. invent provenance;
-4. invent implementation status;
-5. invent validation results;
-6. infer independence from source count;
-7. infer causality from similarity;
-8. infer universal validity from benchmarks;
-9. infer hardware-independent performance from isolated latency;
-10. infer formal proof from testing;
-11. infer canon status from polished documentation;
-12. bridge missing logical steps with fluent language.
+1. invent citations;
+1. invent provenance;
+1. invent implementation status;
+1. invent validation results;
+1. infer independence from source count;
+1. infer causality from similarity;
+1. infer universal validity from benchmarks;
+1. infer hardware-independent performance from isolated latency;
+1. infer formal proof from testing;
+1. infer canon status from polished documentation;
+1. bridge missing logical steps with fluent language.
 
 Canonical rule:
 
@@ -2489,20 +2489,20 @@ WHEN EVIDENCE ENDS,
 CERTAINTY ENDS.
 ```
 
----
+______________________________________________________________________
 
-# 68. ANTI-REGRESSION
+## 68. ANTI-REGRESSION
 
 Any Matrix optimization MUST preserve or improve:
 
-* factual support;
-* scope correctness;
-* contradiction visibility;
-* provenance recoverability;
-* causal discipline;
-* safety;
-* efficiency;
-* user fit.
+- factual support;
+- scope correctness;
+- contradiction visibility;
+- provenance recoverability;
+- causal discipline;
+- safety;
+- efficiency;
+- user fit.
 
 If optimization weakens an integrity-critical dimension:
 
@@ -2510,9 +2510,9 @@ If optimization weakens an integrity-critical dimension:
 ROLL_BACK
 ```
 
----
+______________________________________________________________________
 
-# 69. KNOWLEDGE HARVEST
+## 69. KNOWLEDGE HARVEST
 
 ```text
 EPHEMERAL CODE
@@ -2541,9 +2541,9 @@ lineage
 
 README/documentation remains `SOURCE_CLAIM` where empirical truth matters.
 
----
+______________________________________________________________________
 
-# 70. MATRIX MEMORY RULE
+## 70. MATRIX MEMORY RULE
 
 A stored conclusion may be reused only when:
 
@@ -2563,21 +2563,21 @@ AND no_material_new_conflict
 
 Otherwise retrieve or revalidate.
 
----
+______________________________________________________________________
 
-# 71. TRANSLATION ACROSS REPRESENTATIONS
+## 71. TRANSLATION ACROSS REPRESENTATIONS
 
 The Matrix may translate between:
 
-* natural language;
-* symbolic representations;
-* structured schemas;
-* equations;
-* graphs;
-* code;
-* decision tables.
+- natural language;
+- symbolic representations;
+- structured schemas;
+- equations;
+- graphs;
+- code;
+- decision tables.
 
-For translation \(T\):
+For translation (T):
 
 $$
 Meaning(T(x))
@@ -2589,9 +2589,9 @@ within declared loss bounds.
 
 Translation MUST NOT upgrade epistemic status.
 
----
+______________________________________________________________________
 
-# 72. CROSS-DOMAIN MAPPING
+## 72. CROSS-DOMAIN MAPPING
 
 A structural correspondence:
 
@@ -2611,30 +2611,30 @@ $$
 
 Cross-domain mappings remain `MODEL` until independently validated.
 
----
+______________________________________________________________________
 
-# 73. MATRIX GOVERNANCE
+## 73. MATRIX GOVERNANCE
 
 The Cognitive Matrix may:
 
-* reason;
-* classify;
-* compare;
-* propose;
-* validate;
-* expose uncertainty.
+- reason;
+- classify;
+- compare;
+- propose;
+- validate;
+- expose uncertainty.
 
 It may not grant itself:
 
-* canon authority;
-* legal authority;
-* operational authority;
-* external execution authority;
-* supersession authority.
+- canon authority;
+- legal authority;
+- operational authority;
+- external execution authority;
+- supersession authority.
 
----
+______________________________________________________________________
 
-# 74. CANON INTEGRATION
+## 74. CANON INTEGRATION
 
 For a Matrix artifact to become canonical, the applicable process SHOULD establish:
 
@@ -2659,9 +2659,9 @@ STATUS
 DERIVED / CANDIDATE_CANON
 ```
 
----
+______________________________________________________________________
 
-# 75. VERSIONING
+## 75. VERSIONING
 
 Recommended:
 
@@ -2671,15 +2671,15 @@ major.minor.patch
 
 where:
 
-* **major** = architectural contract change;
-* **minor** = compatible capability/schema expansion;
-* **patch** = clarification/non-breaking correction.
+- **major** = architectural contract change;
+- **minor** = compatible capability/schema expansion;
+- **patch** = clarification/non-breaking correction.
 
 Every version SHOULD preserve lineage.
 
----
+______________________________________________________________________
 
-# 76. SUPERSESSION
+## 76. SUPERSESSION
 
 ```text
 SupersessionRecord {
@@ -2703,9 +2703,9 @@ SupersessionRecord {
 
 A newer timestamp alone does not establish canonical superiority.
 
----
+______________________________________________________________________
 
-# 77. MINIMUM MACHINE-READABLE SCHEMA
+## 77. MINIMUM MACHINE-READABLE SCHEMA
 
 ```yaml
 cognitive_matrix:
@@ -2759,9 +2759,9 @@ cognitive_matrix:
 
 This schema is illustrative candidate architecture.
 
----
+______________________________________________________________________
 
-# 78. REFERENCE DEPENDENCY MAP
+## 78. REFERENCE DEPENDENCY MAP
 
 ```text
 00 ROOT CONTRACT
@@ -2802,9 +2802,9 @@ This schema is illustrative candidate architecture.
 
 This is a conceptual integration map.
 
----
+______________________________________________________________________
 
-# 79. REFERENCE LINEAGE
+## 79. REFERENCE LINEAGE
 
 ```text
 v3.0
@@ -2858,9 +2858,9 @@ This is AMOS architectural lineage.
 
 It does not imply that a conversational model literally executes the distributed-system mechanisms referenced by analogy or architectural inspiration.
 
----
+______________________________________________________________________
 
-# 80. COGNITIVE MATRIX MASTER INVARIANTS
+## 80. COGNITIVE MATRIX MASTER INVARIANTS
 
 ## M1 — Integrity Dominance
 
@@ -2926,9 +2926,9 @@ Unknowns remain unknown.
 
 Consequential conclusions finalize only after applicable proof obligations are satisfied.
 
----
+______________________________________________________________________
 
-# 81. MATRIX DECISION EQUATION
+## 81. MATRIX DECISION EQUATION
 
 Conceptually:
 
@@ -2988,9 +2988,9 @@ Thresholds depend on stakes and reversibility.
 
 This is architectural notation.
 
----
+______________________________________________________________________
 
-# 82. MATRIX OUTPUT CONTRACT
+## 82. MATRIX OUTPUT CONTRACT
 
 A consequential output SHOULD expose:
 
@@ -3018,9 +3018,9 @@ It SHOULD NOT expose hidden chain-of-thought.
 
 Proof visibility means decisive evidence, dependencies, scope, and invalidation conditions—not private reasoning traces.
 
----
+______________________________________________________________________
 
-# 83. RECOMMENDED HUMAN-READABLE OUTPUT
+## 83. RECOMMENDED HUMAN-READABLE OUTPUT
 
 ```text
 CONCLUSION:
@@ -3059,20 +3059,20 @@ ACTION:
 
 Use only required fields.
 
----
+______________________________________________________________________
 
-# 84. SECURITY AND ADVERSARIAL ROBUSTNESS
+## 84. SECURITY AND ADVERSARIAL ROBUSTNESS
 
 Evidence can be:
 
-* mistaken;
-* stale;
-* strategically framed;
-* duplicated;
-* selectively reported;
-* provenance-obscured;
-* generated from common ancestry;
-* adversarially manipulated.
+- mistaken;
+- stale;
+- strategically framed;
+- duplicated;
+- selectively reported;
+- provenance-obscured;
+- generated from common ancestry;
+- adversarially manipulated.
 
 Therefore trust is:
 
@@ -3087,9 +3087,9 @@ FRESHNESS-BOUNDED
 
 Trust MUST NOT globally inherit from source reputation alone.
 
----
+______________________________________________________________________
 
-# 85. NO AUTHORITY BY POPULARITY
+## 85. NO AUTHORITY BY POPULARITY
 
 Reject:
 
@@ -3111,9 +3111,9 @@ Authority may affect priors.
 
 It cannot replace evidence.
 
----
+______________________________________________________________________
 
-# 86. NO CERTAINTY BY REPETITION
+## 86. NO CERTAINTY BY REPETITION
 
 Reject:
 
@@ -3125,9 +3125,9 @@ $$
 
 Inspect provenance topology where independence matters.
 
----
+______________________________________________________________________
 
-# 87. NO CAUSATION BY STRUCTURE
+## 87. NO CAUSATION BY STRUCTURE
 
 Reject:
 
@@ -3139,21 +3139,21 @@ $$
 
 especially across:
 
-* biology;
-* physics;
-* cognition;
-* economics;
-* distributed systems;
-* social systems;
-* computational architectures.
+- biology;
+- physics;
+- cognition;
+- economics;
+- distributed systems;
+- social systems;
+- computational architectures.
 
 Analogy generates hypotheses.
 
 It does not close causal proof.
 
----
+______________________________________________________________________
 
-# 88. NO UNIVERSALITY BY BENCHMARK
+## 88. NO UNIVERSALITY BY BENCHMARK
 
 Reject:
 
@@ -3165,16 +3165,16 @@ $$
 
 Benchmark conclusions inherit:
 
-* benchmark definition;
-* dataset;
-* environment;
-* measurement method;
-* hardware/software configuration;
-* evaluation procedure.
+- benchmark definition;
+- dataset;
+- environment;
+- measurement method;
+- hardware/software configuration;
+- evaluation procedure.
 
----
+______________________________________________________________________
 
-# 89. NO FORMAL PROOF BY TESTING
+## 89. NO FORMAL PROOF BY TESTING
 
 Distinguish:
 
@@ -3187,9 +3187,9 @@ PROVEN
 
 Distributed, adversarial, Byzantine, or stress testing does not become universal mathematical proof unless an actual proof exists.
 
----
+______________________________________________________________________
 
-# 90. PRINCIPLE OF LEAST CLAIM
+## 90. PRINCIPLE OF LEAST CLAIM
 
 Choose the strongest statement fully licensed by evidence.
 
@@ -3209,17 +3209,17 @@ $$
 
 and all:
 
-* scope;
-* provenance;
-* regime;
-* causal;
-* freshness
+- scope;
+- provenance;
+- regime;
+- causal;
+- freshness
 
 constraints.
 
----
+______________________________________________________________________
 
-# 91. PRINCIPLE OF LOCAL TRUST
+## 91. PRINCIPLE OF LOCAL TRUST
 
 Conceptually:
 
@@ -3247,9 +3247,9 @@ $$
 
 globally.
 
----
+______________________________________________________________________
 
-# 92. PRINCIPLE OF MINIMUM SUFFICIENT PROOF
+## 92. PRINCIPLE OF MINIMUM SUFFICIENT PROOF
 
 $$
 ProofScope^*
@@ -3269,9 +3269,9 @@ The Matrix does not prove everything.
 
 It proves everything capable of changing the outcome.
 
----
+______________________________________________________________________
 
-# 93. PRINCIPLE OF REPAIRABLE ACTION
+## 93. PRINCIPLE OF REPAIRABLE ACTION
 
 When uncertainty cannot economically be eliminated:
 
@@ -3292,11 +3292,11 @@ $$
 
 subject to governance and safety constraints.
 
----
+______________________________________________________________________
 
-# 94. PRINCIPLE OF SELECTIVE INVALIDATION
+## 94. PRINCIPLE OF SELECTIVE INVALIDATION
 
-If premise \(p\) fails:
+If premise (p) fails:
 
 $$
 Invalidate(p)
@@ -3316,27 +3316,27 @@ $$
 
 unless dependency structure demonstrates global contamination.
 
----
+______________________________________________________________________
 
-# 95. PRINCIPLE OF EVIDENCE ECONOMY
+## 95. PRINCIPLE OF EVIDENCE ECONOMY
 
 More evidence is not always more useful.
 
 Additional evidence has value when it changes:
 
-* independence;
-* confidence;
-* hypothesis discrimination;
-* scope;
-* causal identification;
-* freshness;
-* governance.
+- independence;
+- confidence;
+- hypothesis discrimination;
+- scope;
+- causal identification;
+- freshness;
+- governance.
 
 Redundant descendants may have near-zero incremental evidential value.
 
----
+______________________________________________________________________
 
-# 96. PRINCIPLE OF DISCRIMINATING RETRIEVAL
+## 96. PRINCIPLE OF DISCRIMINATING RETRIEVAL
 
 If:
 
@@ -3344,9 +3344,9 @@ $$
 H_1,H_2
 $$
 
-both predict \(O\), more \(O\)-type evidence has low discriminating value.
+both predict (O), more (O)-type evidence has low discriminating value.
 
-Prefer \(E^*\) such that:
+Prefer (E^\*) such that:
 
 $$
 P(E^*|H_1)
@@ -3360,64 +3360,64 @@ $$
 
 differ materially.
 
----
+______________________________________________________________________
 
-# 97. PRINCIPLE OF GOVERNED FINALITY
+## 97. PRINCIPLE OF GOVERNED FINALITY
 
 A conclusion becomes final for a task only when:
 
-* required dependencies are valid;
-* material contradictions are handled;
-* scope/regime are compatible;
-* freshness is sufficient;
-* conclusion class is calibrated;
-* governance permits commitment.
+- required dependencies are valid;
+- material contradictions are handled;
+- scope/regime are compatible;
+- freshness is sufficient;
+- conclusion class is calibrated;
+- governance permits commitment.
 
 Finality remains bounded by its validity envelope.
 
----
+______________________________________________________________________
 
-# 98. IMPLEMENTATION NOTE
+## 98. IMPLEMENTATION NOTE
 
 A software implementation MAY use:
 
-* graphs;
-* typed schemas;
-* immutable records;
-* event logs;
-* versioned state;
-* proof objects;
-* dependency DAGs;
-* constraint solvers;
-* hypothesis tables;
-* provenance graphs;
-* validation pipelines.
+- graphs;
+- typed schemas;
+- immutable records;
+- event logs;
+- versioned state;
+- proof objects;
+- dependency DAGs;
+- constraint solvers;
+- hypothesis tables;
+- provenance graphs;
+- validation pipelines.
 
 None is mandatory unless established by an implementation contract.
 
----
+______________________________________________________________________
 
-# 99. CANONICAL CANDIDATE SUMMARY
+## 99. CANONICAL CANDIDATE SUMMARY
 
 The AMOS Cognitive Matrix is a governed coordination architecture for combining heterogeneous cognitive operations while preserving evidence integrity.
 
 Its central commitments are:
 
 1. reason from the smallest sufficient proof scope;
-2. preserve evidence type and provenance;
-3. distinguish source multiplicity from source independence;
-4. retain contradictions;
-5. preserve competing hypotheses;
-6. prohibit unsupported causal upgrades;
-7. bind conclusions to scope, regime, and freshness;
-8. propagate constraints;
-9. keep confidence beneath load-bearing evidence;
-10. escalate validation with stakes and irreversibility;
-11. prefer repairable action under uncertainty;
-12. invalidate locally when premises fail;
-13. reuse proof only while its validity envelope survives;
-14. prevent capability from manufacturing authority;
-15. stop when claim, decision, and action sufficiency are reached.
+1. preserve evidence type and provenance;
+1. distinguish source multiplicity from source independence;
+1. retain contradictions;
+1. preserve competing hypotheses;
+1. prohibit unsupported causal upgrades;
+1. bind conclusions to scope, regime, and freshness;
+1. propagate constraints;
+1. keep confidence beneath load-bearing evidence;
+1. escalate validation with stakes and irreversibility;
+1. prefer repairable action under uncertainty;
+1. invalidate locally when premises fail;
+1. reuse proof only while its validity envelope survives;
+1. prevent capability from manufacturing authority;
+1. stop when claim, decision, and action sufficiency are reached.
 
 The Cognitive Matrix therefore optimizes not for maximum cognition, maximum complexity, or maximum output.
 
@@ -3437,9 +3437,9 @@ Integrity\text{-}Preserving\ Constraints
 }
 $$
 
----
+______________________________________________________________________
 
-# 100. FINAL STATUS
+## 100. FINAL STATUS
 
 **Artifact:**
 
@@ -3561,9 +3561,9 @@ and
 VERIFIED CANONICAL / EMPIRICAL STATUS
 ```
 
----
+______________________________________________________________________
 
-# 101. COGNITIVE MATRIX RUNTIME CONTRACT
+## 101. COGNITIVE MATRIX RUNTIME CONTRACT
 
 The Cognitive Matrix runtime contract is conceptually:
 
@@ -3601,9 +3601,9 @@ This is a normative architecture.
 
 Runtime implementation remains separately evidentiary.
 
----
+______________________________________________________________________
 
-# 102. MATRIX STATE TRANSITION CONTRACT
+## 102. MATRIX STATE TRANSITION CONTRACT
 
 ```yaml
 Matrix_State_Transition:
@@ -3645,9 +3645,9 @@ Matrix_State_Transition:
   result:
 ```
 
----
+______________________________________________________________________
 
-# 103. MATRIX COMMIT LAW
+## 103. MATRIX COMMIT LAW
 
 A state transition SHOULD commit only when:
 
@@ -3675,9 +3675,9 @@ If state changed:
 REVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 104. MATRIX PROVENANCE LAW
+## 104. MATRIX PROVENANCE LAW
 
 Every load-bearing transformation should preserve:
 
@@ -3699,9 +3699,9 @@ where applicable.
 
 No stage may silently sever upstream provenance.
 
----
+______________________________________________________________________
 
-# 105. MATRIX AUTHORITY LAW
+## 105. MATRIX AUTHORITY LAW
 
 ```text
 KNOWLEDGE
@@ -3731,9 +3731,9 @@ AUTHORITY
 
 Authority must originate from the governing envelope.
 
----
+______________________________________________________________________
 
-# 106. MATRIX EVIDENCE LAW
+## 106. MATRIX EVIDENCE LAW
 
 ```text
 SOURCE_CLAIM
@@ -3759,9 +3759,9 @@ OBSERVATION
 
 Epistemic classes survive transformations unless a valid transition changes them.
 
----
+______________________________________________________________________
 
-# 107. MATRIX PROVENANCE-INDEPENDENCE LAW
+## 107. MATRIX PROVENANCE-INDEPENDENCE LAW
 
 $$
 Agreement(A,B)
@@ -3777,11 +3777,11 @@ $$
 
 or where material dependence otherwise exists.
 
----
+______________________________________________________________________
 
-# 108. MATRIX REUSE LAW
+## 108. MATRIX REUSE LAW
 
-A conclusion \(C\) may be reused only if:
+A conclusion (C) may be reused only if:
 
 $$
 ValidDependencies(C)
@@ -3797,9 +3797,9 @@ ValidProvenance(C)
 NoMaterialConflict(C)
 $$
 
----
+______________________________________________________________________
 
-# 109. MATRIX INVALIDATION LAW
+## 109. MATRIX INVALIDATION LAW
 
 If:
 
@@ -3825,9 +3825,9 @@ IndependentState(P)
 PRESERVE
 $$
 
----
+______________________________________________________________________
 
-# 110. MATRIX COMPETING LAW
+## 110. MATRIX COMPETING LAW
 
 When hypotheses remain materially unresolved:
 
@@ -3848,9 +3848,9 @@ CHEAPEST HIGH-INFORMATION
 DISCRIMINATING TEST
 ```
 
----
+______________________________________________________________________
 
-# 111. MATRIX CAUSAL ADMISSION LAW
+## 111. MATRIX CAUSAL ADMISSION LAW
 
 A causal claim requires evidence licensed for its causal class.
 
@@ -3876,9 +3876,9 @@ CAUSAL EFFECT SUPPORT
 
 No weaker type silently upgrades.
 
----
+______________________________________________________________________
 
-# 112. MATRIX SCOPE INHERITANCE LAW
+## 112. MATRIX SCOPE INHERITANCE LAW
 
 For:
 
@@ -3898,9 +3898,9 @@ for load-bearing premises.
 
 Wider scope requires separate support.
 
----
+______________________________________________________________________
 
-# 113. MATRIX REGIME INHERITANCE LAW
+## 113. MATRIX REGIME INHERITANCE LAW
 
 A derived conclusion inherits load-bearing regime assumptions.
 
@@ -3918,9 +3918,9 @@ not automatically:
 CONCLUSION VALID IN R2
 ```
 
----
+______________________________________________________________________
 
-# 114. MATRIX TEMPORAL INHERITANCE LAW
+## 114. MATRIX TEMPORAL INHERITANCE LAW
 
 A conclusion's usable freshness cannot silently exceed the freshness of its load-bearing mutable premises.
 
@@ -3934,9 +3934,9 @@ $$
 
 where freshness is material.
 
----
+______________________________________________________________________
 
-# 115. MATRIX DECISION GOVERNANCE LAW
+## 115. MATRIX DECISION GOVERNANCE LAW
 
 Decision generation and decision authorization remain separate.
 
@@ -3952,9 +3952,9 @@ AUTHORITY
 COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 116. MATRIX ACTION GOVERNANCE LAW
+## 116. MATRIX ACTION GOVERNANCE LAW
 
 For consequential actions:
 
@@ -3972,9 +3972,9 @@ EXECUTION AVAILABLE
 ACTION SUFFICIENT
 ```
 
----
+______________________________________________________________________
 
-# 117. MATRIX REVERSIBILITY LAW
+## 117. MATRIX REVERSIBILITY LAW
 
 Under unresolved uncertainty:
 
@@ -3986,9 +3986,9 @@ IRREVERSIBLE ACTION
 
 where both achieve comparable expected decision value.
 
----
+______________________________________________________________________
 
-# 118. MATRIX REPAIR LAW
+## 118. MATRIX REPAIR LAW
 
 ```text
 DETECT
@@ -4006,9 +4006,9 @@ REROUTE
 REVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 119. MATRIX ANTI-RETRY LAW
+## 119. MATRIX ANTI-RETRY LAW
 
 ```text
 FAILED PATH
@@ -4020,9 +4020,9 @@ DO NOT BLINDLY RETRY
 
 Retry requires changed evidence, method, environment, assumptions, route, or authority.
 
----
+______________________________________________________________________
 
-# 120. MATRIX VALIDATION LAW
+## 120. MATRIX VALIDATION LAW
 
 Validation MUST remain:
 
@@ -4036,9 +4036,9 @@ VERSION-BOUND
 
 unless broader validity is separately established.
 
----
+______________________________________________________________________
 
-# 121. MATRIX BENCHMARK LAW
+## 121. MATRIX BENCHMARK LAW
 
 ```text
 BENCHMARK SUCCESS
@@ -4059,9 +4059,9 @@ PROCEDURE
 TIME
 ```
 
----
+______________________________________________________________________
 
-# 122. MATRIX FORMALITY LAW
+## 122. MATRIX FORMALITY LAW
 
 ```text
 TESTED
@@ -4081,9 +4081,9 @@ BYZANTINE TESTED
 UNIVERSALLY BYZANTINE-SAFE
 ```
 
----
+______________________________________________________________________
 
-# 123. MATRIX SOURCE AUTHORITY LAW
+## 123. MATRIX SOURCE AUTHORITY LAW
 
 ```text
 SOURCE REPUTATION
@@ -4101,9 +4101,9 @@ EMPIRICAL TRUTH
 
 Trust remains claim-local and envelope-bound.
 
----
+______________________________________________________________________
 
-# 124. MATRIX UNKNOWN LAW
+## 124. MATRIX UNKNOWN LAW
 
 ```text
 UNKNOWN/GAP
@@ -4123,9 +4123,9 @@ VERIFIED
 
 without evidence.
 
----
+______________________________________________________________________
 
-# 125. MATRIX GAP RESPONSE
+## 125. MATRIX GAP RESPONSE
 
 ```yaml
 Gap_Response:
@@ -4151,9 +4151,9 @@ Gap_Response:
   terminal_if_unresolved:
 ```
 
----
+______________________________________________________________________
 
-# 126. MATRIX PROOF CAPSULE CONTRACT
+## 126. MATRIX PROOF CAPSULE CONTRACT
 
 ```yaml
 Proof_Capsule:
@@ -4193,9 +4193,9 @@ Proof_Capsule:
   reuse_conditions: []
 ```
 
----
+______________________________________________________________________
 
-# 127. MATRIX PROOF CAPSULE INVALIDATION
+## 127. MATRIX PROOF CAPSULE INVALIDATION
 
 If any load-bearing condition changes:
 
@@ -4221,9 +4221,9 @@ or:
 INVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 128. MATRIX INDEPENDENT CHALLENGE CONTRACT
+## 128. MATRIX INDEPENDENT CHALLENGE CONTRACT
 
 ```yaml
 Adversarial_Challenge:
@@ -4259,9 +4259,9 @@ Adversarial_Challenge:
     - UNKNOWN_GAP
 ```
 
----
+______________________________________________________________________
 
-# 129. MATRIX FAST-PATH CONTRACT
+## 129. MATRIX FAST-PATH CONTRACT
 
 ```yaml
 Fast_Path:
@@ -4289,9 +4289,9 @@ Fast_Path:
 
 Any material failure escalates.
 
----
+______________________________________________________________________
 
-# 130. MATRIX DEEP-PATH CONTRACT
+## 130. MATRIX DEEP-PATH CONTRACT
 
 Deep path activates where outcome-changing uncertainty requires expanded reasoning.
 
@@ -4311,9 +4311,9 @@ ADVERSARIAL VALIDATION
 GOVERNANCE
 ```
 
----
+______________________________________________________________________
 
-# 131. MATRIX C4 MAXIMUM CONTRACT
+## 131. MATRIX C4 MAXIMUM CONTRACT
 
 C4 MAY include:
 
@@ -4351,9 +4351,9 @@ VALIDATION RECEIPT
 
 Use only when justified.
 
----
+______________________________________________________________________
 
-# 132. MATRIX TERMINATION LAW
+## 132. MATRIX TERMINATION LAW
 
 Reasoning terminates when:
 
@@ -4374,9 +4374,9 @@ CANNOT BE RESOLVED
 
 in which case return the minimum missing information.
 
----
+______________________________________________________________________
 
-# 133. MATRIX KNOWLEDGE HARVEST CONTRACT
+## 133. MATRIX KNOWLEDGE HARVEST CONTRACT
 
 ```yaml
 Knowledge_Harvest:
@@ -4416,9 +4416,9 @@ Knowledge_Harvest:
   lineage:
 ```
 
----
+______________________________________________________________________
 
-# 134. MATRIX MEMORY INVALIDATION
+## 134. MATRIX MEMORY INVALIDATION
 
 Stored memory is invalidated for a task when:
 
@@ -4436,9 +4436,9 @@ OR
 MATERIAL CONFLICT APPEARED
 ```
 
----
+______________________________________________________________________
 
-# 135. MATRIX CROSS-DOMAIN FIREWALL
+## 135. MATRIX CROSS-DOMAIN FIREWALL
 
 ```text
 ANALOGY
@@ -4458,9 +4458,9 @@ CAUSAL TRANSFER
 UNIVERSALITY
 ```
 
----
+______________________________________________________________________
 
-# 136. MATRIX TRANSLATION FIREWALL
+## 136. MATRIX TRANSLATION FIREWALL
 
 ```text
 NATURAL LANGUAGE MODEL
@@ -4487,9 +4487,9 @@ remains:
 SOURCE CLAIM
 ```
 
----
+______________________________________________________________________
 
-# 137. MATRIX GOVERNED EVOLUTION
+## 137. MATRIX GOVERNED EVOLUTION
 
 Canonical candidate evolution:
 
@@ -4513,9 +4513,9 @@ OBSERVE EFFECT
 REVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 138. MATRIX ANTI-REGRESSION GATE
+## 138. MATRIX ANTI-REGRESSION GATE
 
 ```yaml
 Anti_Regression:
@@ -4543,9 +4543,9 @@ Failure:
 ROLLBACK
 ```
 
----
+______________________________________________________________________
 
-# 139. MATRIX GOVERNANCE RECEIPT
+## 139. MATRIX GOVERNANCE RECEIPT
 
 ```yaml
 Governance_Receipt:
@@ -4575,9 +4575,9 @@ Governance_Receipt:
   issued_at:
 ```
 
----
+______________________________________________________________________
 
-# 140. MATRIX VALIDATION RECEIPT
+## 140. MATRIX VALIDATION RECEIPT
 
 ```yaml
 Validation_Receipt:
@@ -4611,9 +4611,9 @@ Validation_Receipt:
   valid_until:
 ```
 
----
+______________________________________________________________________
 
-# 141. MATRIX FINALIZATION RECEIPT
+## 141. MATRIX FINALIZATION RECEIPT
 
 ```yaml
 Finalization_Receipt:
@@ -4641,9 +4641,9 @@ Finalization_Receipt:
   invalidation_conditions:
 ```
 
----
+______________________________________________________________________
 
-# 142. MATRIX CAUSAL EPOCH CONTRACT
+## 142. MATRIX CAUSAL EPOCH CONTRACT
 
 ```yaml
 Causal_Epoch:
@@ -4669,9 +4669,9 @@ Causal_Epoch:
 
 This is conceptual architecture unless separately implemented.
 
----
+______________________________________________________________________
 
-# 143. MATRIX SHARD CONTRACT
+## 143. MATRIX SHARD CONTRACT
 
 ```yaml
 Reasoning_Shard:
@@ -4699,9 +4699,9 @@ Reasoning_Shard:
 
 Shard-local finality requires no unresolved material cross-shard dependency.
 
----
+______________________________________________________________________
 
-# 144. MATRIX LOCAL FINALITY LAW
+## 144. MATRIX LOCAL FINALITY LAW
 
 ```text
 LOCAL PROOF SUFFICIENT
@@ -4713,9 +4713,9 @@ LOCAL FINALIZATION PERMITTED
 
 This does not imply global truth.
 
----
+______________________________________________________________________
 
-# 145. MATRIX GLOBAL FINALITY LAW
+## 145. MATRIX GLOBAL FINALITY LAW
 
 Global finalization is required only when:
 
@@ -4726,9 +4726,9 @@ GLOBAL CROSS-SHARD STATE
 
 or when governance requires global coordination.
 
----
+______________________________________________________________________
 
-# 146. MATRIX PROOF-BASED COORDINATION AVOIDANCE
+## 146. MATRIX PROOF-BASED COORDINATION AVOIDANCE
 
 ```text
 DO NOT COORDINATE
@@ -4739,9 +4739,9 @@ provided local proof demonstrates independence.
 
 Independence MUST be demonstrated, not assumed.
 
----
+______________________________________________________________________
 
-# 147. MATRIX ATOMIC COMMIT LAW
+## 147. MATRIX ATOMIC COMMIT LAW
 
 When:
 
@@ -4751,11 +4751,11 @@ C
 R_1\land R_2\land\cdots\land R_n
 $$
 
-atomic finalization requires all load-bearing \(R_i\) to satisfy commit conditions within compatible state.
+atomic finalization requires all load-bearing (R_i) to satisfy commit conditions within compatible state.
 
----
+______________________________________________________________________
 
-# 148. MATRIX PARTIAL FAILURE LAW
+## 148. MATRIX PARTIAL FAILURE LAW
 
 If:
 
@@ -4775,9 +4775,9 @@ COMPOSITE CLAIMS REQUIRING R2
 
 not unrelated valid state.
 
----
+______________________________________________________________________
 
-# 149. MATRIX LINEAGE LAW
+## 149. MATRIX LINEAGE LAW
 
 Every promoted architecture SHOULD preserve:
 
@@ -4791,9 +4791,9 @@ EFFECTIVE EPOCH
 MIGRATION NOTES
 ```
 
----
+______________________________________________________________________
 
-# 150. MATRIX SUPERSESSION FIREWALL
+## 150. MATRIX SUPERSESSION FIREWALL
 
 ```text
 NEWER
@@ -4815,9 +4815,9 @@ SUPERSEDING
 
 Supersession requires explicit authority.
 
----
+______________________________________________________________________
 
-# 151. MATRIX CANON FIREWALL
+## 151. MATRIX CANON FIREWALL
 
 ```text
 CANON CANDIDATE
@@ -4839,9 +4839,9 @@ VALIDATED
 
 These dimensions remain separate.
 
----
+______________________________________________________________________
 
-# 152. MATRIX IMPLEMENTATION FIREWALL
+## 152. MATRIX IMPLEMENTATION FIREWALL
 
 ```text
 DOCUMENTED [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]
@@ -4861,9 +4861,9 @@ VALIDATED SYSTEM
 UNIVERSALLY VALID SYSTEM
 ```
 
----
+______________________________________________________________________
 
-# 153. MATRIX OBSERVABILITY FIREWALL
+## 153. MATRIX OBSERVABILITY FIREWALL
 
 ```text
 LOGGED
@@ -4887,9 +4887,9 @@ Observability informs governance.
 
 It does not become governance.
 
----
+______________________________________________________________________
 
-# 154. MATRIX EXECUTION FIREWALL
+## 154. MATRIX EXECUTION FIREWALL
 
 ```text
 TOOL CALL
@@ -4905,9 +4905,9 @@ EXTERNAL EFFECT
 VALIDATED EFFECT
 ```
 
----
+______________________________________________________________________
 
-# 155. MATRIX HUMAN GOVERNANCE BOUNDARY
+## 155. MATRIX HUMAN GOVERNANCE BOUNDARY
 
 Where human or institutional governance is required, the Matrix may support but not replace it.
 
@@ -4921,9 +4921,9 @@ SYSTEM PROPOSAL
 INSTITUTIONAL COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 156. MATRIX DOMAIN VALIDATION BOUNDARY
+## 156. MATRIX DOMAIN VALIDATION BOUNDARY
 
 Domain claims require domain-appropriate validation.
 
@@ -4945,9 +4945,9 @@ AMOS STRUCTURAL MODEL
 ECONOMIC FACT
 ```
 
----
+______________________________________________________________________
 
-# 157. MATRIX SCIENTIFIC BOUNDARY
+## 157. MATRIX SCIENTIFIC BOUNDARY
 
 Scientific claims SHOULD preserve:
 
@@ -4964,9 +4964,9 @@ LIMITATION
 
 AMOS terminology does not override scientific evidence standards.
 
----
+______________________________________________________________________
 
-# 158. MATRIX LEGAL BOUNDARY
+## 158. MATRIX LEGAL BOUNDARY
 
 Legal reasoning MUST preserve:
 
@@ -4982,9 +4982,9 @@ UNCERTAINTY
 
 A general AMOS rule does not supersede applicable law.
 
----
+______________________________________________________________________
 
-# 159. MATRIX FINANCIAL BOUNDARY
+## 159. MATRIX FINANCIAL BOUNDARY
 
 Financial reasoning SHOULD preserve:
 
@@ -5001,9 +5001,9 @@ UNCERTAINTY
 
 Models remain models.
 
----
+______________________________________________________________________
 
-# 160. MATRIX HEALTH BOUNDARY
+## 160. MATRIX HEALTH BOUNDARY
 
 Health reasoning MUST preserve:
 
@@ -5018,9 +5018,9 @@ RISK
 
 AMOS framework terminology does not itself establish clinical validity.
 
----
+______________________________________________________________________
 
-# 161. MATRIX SECURITY BOUNDARY
+## 161. MATRIX SECURITY BOUNDARY
 
 Security reasoning SHOULD assume adversarial conditions where relevant.
 
@@ -5036,9 +5036,9 @@ FAILURE MODE
 RECOVERY
 ```
 
----
+______________________________________________________________________
 
-# 162. MATRIX SOCIAL-SYSTEM BOUNDARY
+## 162. MATRIX SOCIAL-SYSTEM BOUNDARY
 
 Social-system models SHOULD preserve:
 
@@ -5054,9 +5054,9 @@ CONFOUNDERS
 
 No structural analogy licenses universal social law.
 
----
+______________________________________________________________________
 
-# 163. MATRIX MODEL REGISTRY CONTRACT
+## 163. MATRIX MODEL REGISTRY CONTRACT
 
 ```yaml
 Model_Registry:
@@ -5090,9 +5090,9 @@ Model_Registry:
   supersession:
 ```
 
----
+______________________________________________________________________
 
-# 164. MATRIX CLAIM REGISTRY CONTRACT
+## 164. MATRIX CLAIM REGISTRY CONTRACT
 
 ```yaml
 Claim_Registry:
@@ -5124,9 +5124,9 @@ Claim_Registry:
   confidence_ceiling:
 ```
 
----
+______________________________________________________________________
 
-# 165. MATRIX CONTRADICTION REGISTRY CONTRACT
+## 165. MATRIX CONTRADICTION REGISTRY CONTRACT
 
 ```yaml
 Contradiction_Registry:
@@ -5154,9 +5154,9 @@ Contradiction_Registry:
   discriminating_test:
 ```
 
----
+______________________________________________________________________
 
-# 166. MATRIX HYPOTHESIS REGISTRY CONTRACT
+## 166. MATRIX HYPOTHESIS REGISTRY CONTRACT
 
 ```yaml
 Hypothesis_Registry:
@@ -5186,9 +5186,9 @@ Hypothesis_Registry:
   status:
 ```
 
----
+______________________________________________________________________
 
-# 167. MATRIX CAPABILITY REGISTRY CONTRACT
+## 167. MATRIX CAPABILITY REGISTRY CONTRACT
 
 ```yaml
 Capability_Registry:
@@ -5216,9 +5216,9 @@ Capability_Registry:
   validation_status:
 ```
 
----
+______________________________________________________________________
 
-# 168. MATRIX MODE REGISTRY CONTRACT
+## 168. MATRIX MODE REGISTRY CONTRACT
 
 ```yaml
 Mode_Registry:
@@ -5242,9 +5242,9 @@ Mode_Registry:
   governance:
 ```
 
----
+______________________________________________________________________
 
-# 169. MATRIX DEPENDENCY GRAPH CONTRACT
+## 169. MATRIX DEPENDENCY GRAPH CONTRACT
 
 ```yaml
 Dependency_Graph:
@@ -5259,9 +5259,9 @@ Dependency_Graph:
       validity_condition:
 ```
 
----
+______________________________________________________________________
 
-# 170. MATRIX PROVENANCE GRAPH CONTRACT
+## 170. MATRIX PROVENANCE GRAPH CONTRACT
 
 ```yaml
 Provenance_Graph:
@@ -5284,9 +5284,9 @@ Provenance_Graph:
         - CONFIRMS
 ```
 
----
+______________________________________________________________________
 
-# 171. MATRIX TRUST CONTRACT
+## 171. MATRIX TRUST CONTRACT
 
 ```yaml
 Trust_Envelope:
@@ -5314,9 +5314,9 @@ Trust_Envelope:
 
 Trust remains local.
 
----
+______________________________________________________________________
 
-# 172. MATRIX FRESHNESS CONTRACT
+## 172. MATRIX FRESHNESS CONTRACT
 
 ```yaml
 Freshness_Envelope:
@@ -5339,9 +5339,9 @@ Freshness_Envelope:
     - UNKNOWN_GAP
 ```
 
----
+______________________________________________________________________
 
-# 173. MATRIX SCOPE CONTRACT
+## 173. MATRIX SCOPE CONTRACT
 
 ```yaml
 Scope_Envelope:
@@ -5365,9 +5365,9 @@ Scope_Envelope:
   exclusions:
 ```
 
----
+______________________________________________________________________
 
-# 174. MATRIX CAUSAL CONTRACT
+## 174. MATRIX CAUSAL CONTRACT
 
 ```yaml
 Causal_Claim:
@@ -5397,9 +5397,9 @@ Causal_Claim:
   uncertainty:
 ```
 
----
+______________________________________________________________________
 
-# 175. MATRIX COUNTERFACTUAL CONTRACT
+## 175. MATRIX COUNTERFACTUAL CONTRACT
 
 ```yaml
 Counterfactual:
@@ -5427,9 +5427,9 @@ Counterfactual:
   regime:
 ```
 
----
+______________________________________________________________________
 
-# 176. MATRIX SENSITIVITY CONTRACT
+## 176. MATRIX SENSITIVITY CONTRACT
 
 ```yaml
 Sensitivity:
@@ -5452,9 +5452,9 @@ Sensitivity:
     - CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
-# 177. MATRIX RISK CONTRACT
+## 177. MATRIX RISK CONTRACT
 
 ```yaml
 Risk:
@@ -5478,9 +5478,9 @@ Risk:
   residual_risk:
 ```
 
----
+______________________________________________________________________
 
-# 178. MATRIX AUTHORITY CONTRACT
+## 178. MATRIX AUTHORITY CONTRACT
 
 ```yaml
 Authority:
@@ -5506,9 +5506,9 @@ Authority:
   commit_authority:
 ```
 
----
+______________________________________________________________________
 
-# 179. MATRIX ACTION CONTRACT
+## 179. MATRIX ACTION CONTRACT
 
 ```yaml
 Action:
@@ -5538,9 +5538,9 @@ Action:
   validation_state:
 ```
 
----
+______________________________________________________________________
 
-# 180. MATRIX HOMEOSTASIS CONTRACT
+## 180. MATRIX HOMEOSTASIS CONTRACT
 
 ```yaml
 Homeostasis:
@@ -5564,9 +5564,9 @@ Homeostasis:
   escalation_policy:
 ```
 
----
+______________________________________________________________________
 
-# 181. MATRIX REPAIR CONTRACT
+## 181. MATRIX REPAIR CONTRACT
 
 ```yaml
 Repair:
@@ -5590,9 +5590,9 @@ Repair:
   repair_harm:
 ```
 
----
+______________________________________________________________________
 
-# 182. MATRIX FAILURE CONTRACT
+## 182. MATRIX FAILURE CONTRACT
 
 ```yaml
 Failure:
@@ -5616,9 +5616,9 @@ Failure:
   unresolved_gap:
 ```
 
----
+______________________________________________________________________
 
-# 183. MATRIX AUDIT CONTRACT
+## 183. MATRIX AUDIT CONTRACT
 
 ```yaml
 Audit:
@@ -5652,9 +5652,9 @@ Audit:
 
 Audit pass is bounded to audited conditions.
 
----
+______________________________________________________________________
 
-# 184. MATRIX OBSERVABILITY CONTRACT
+## 184. MATRIX OBSERVABILITY CONTRACT
 
 ```yaml
 Observability:
@@ -5680,9 +5680,9 @@ Observability:
 
 Observability data does not self-authorize.
 
----
+______________________________________________________________________
 
-# 185. MATRIX CHANGE LOG CONTRACT
+## 185. MATRIX CHANGE LOG CONTRACT
 
 ```yaml
 Change_Log:
@@ -5706,9 +5706,9 @@ Change_Log:
   timestamp:
 ```
 
----
+______________________________________________________________________
 
-# 186. MATRIX SUPERSESSION CONTRACT
+## 186. MATRIX SUPERSESSION CONTRACT
 
 ```yaml
 Supersession:
@@ -5732,9 +5732,9 @@ Supersession:
   rollback:
 ```
 
----
+______________________________________________________________________
 
-# 187. MATRIX PROMOTION CONTRACT
+## 187. MATRIX PROMOTION CONTRACT
 
 ```yaml
 Promotion:
@@ -5762,9 +5762,9 @@ Promotion:
   rollback:
 ```
 
----
+______________________________________________________________________
 
-# 188. MATRIX ANTI-SYBIL CONTRACT
+## 188. MATRIX ANTI-SYBIL CONTRACT
 
 ```yaml
 Independence_Check:
@@ -5792,9 +5792,9 @@ Independence_Check:
     - UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 189. MATRIX EXECUTION SUFFICIENCY CONTRACT
+## 189. MATRIX EXECUTION SUFFICIENCY CONTRACT
 
 ```yaml
 Execution_Sufficiency:
@@ -5816,9 +5816,9 @@ Execution_Sufficiency:
   execute:
 ```
 
----
+______________________________________________________________________
 
-# 190. MATRIX FINALITY CONTRACT
+## 190. MATRIX FINALITY CONTRACT
 
 ```yaml
 Finality:
@@ -5840,70 +5840,70 @@ Finality:
   final:
 ```
 
----
+______________________________________________________________________
 
-# 191. MATRIX CANON PROMOTION GATE
+## 191. MATRIX CANON PROMOTION GATE
 
-* [ ] identity stable
-* [ ] version established
-* [ ] provenance complete
-* [ ] predecessor lineage resolved
-* [ ] source/derived boundaries explicit
-* [ ] contradictions preserved
-* [ ] scope established
-* [ ] regime established
-* [ ] dependencies mapped
-* [ ] implementation claims separated
-* [ ] validation state established
-* [ ] governance authority established
-* [ ] supersession semantics established
-* [ ] promotion receipt issued
+- [ ] identity stable
+- [ ] version established
+- [ ] provenance complete
+- [ ] predecessor lineage resolved
+- [ ] source/derived boundaries explicit
+- [ ] contradictions preserved
+- [ ] scope established
+- [ ] regime established
+- [ ] dependencies mapped
+- [ ] implementation claims separated
+- [ ] validation state established
+- [ ] governance authority established
+- [ ] supersession semantics established
+- [ ] promotion receipt issued
 
----
+______________________________________________________________________
 
-# 192. MATRIX RUNTIME PROMOTION GATE
+## 192. MATRIX RUNTIME PROMOTION GATE
 
-* [ ] executable task contract
-* [ ] executable capability resolver
-* [ ] executable H/M/L resolver
-* [ ] executable RSCF state handling
-* [ ] executable GMEF binding
-* [ ] persistent provenance
-* [ ] dependency graph
-* [ ] contradiction registry
-* [ ] competing hypothesis registry
-* [ ] causal typing
-* [ ] scope enforcement
-* [ ] regime enforcement
-* [ ] freshness enforcement
-* [ ] authority enforcement
-* [ ] local invalidation
-* [ ] rollback
-* [ ] proof capsules
-* [ ] validation receipts
-* [ ] runtime tests
+- [ ] executable task contract
+- [ ] executable capability resolver
+- [ ] executable H/M/L resolver
+- [ ] executable RSCF state handling
+- [ ] executable GMEF binding
+- [ ] persistent provenance
+- [ ] dependency graph
+- [ ] contradiction registry
+- [ ] competing hypothesis registry
+- [ ] causal typing
+- [ ] scope enforcement
+- [ ] regime enforcement
+- [ ] freshness enforcement
+- [ ] authority enforcement
+- [ ] local invalidation
+- [ ] rollback
+- [ ] proof capsules
+- [ ] validation receipts
+- [ ] runtime tests
 
----
+______________________________________________________________________
 
-# 193. MATRIX VALIDATION GATE
+## 193. MATRIX VALIDATION GATE
 
-* [ ] negative cases tested
-* [ ] stale evidence tested
-* [ ] correlated provenance tested
-* [ ] scope mismatch tested
-* [ ] regime shift tested
-* [ ] causal overreach tested
-* [ ] contradictory hypotheses tested
-* [ ] authority mismatch tested
-* [ ] commit-state change tested
-* [ ] local repair tested
-* [ ] rollback tested
-* [ ] proof reuse invalidation tested
-* [ ] fast-path escalation tested
+- [ ] negative cases tested
+- [ ] stale evidence tested
+- [ ] correlated provenance tested
+- [ ] scope mismatch tested
+- [ ] regime shift tested
+- [ ] causal overreach tested
+- [ ] contradictory hypotheses tested
+- [ ] authority mismatch tested
+- [ ] commit-state change tested
+- [ ] local repair tested
+- [ ] rollback tested
+- [ ] proof reuse invalidation tested
+- [ ] fast-path escalation tested
 
----
+______________________________________________________________________
 
-# 194. MATRIX CRITICAL GAP REGISTER
+## 194. MATRIX CRITICAL GAP REGISTER
 
 ```yaml
 gaps:
@@ -5933,9 +5933,9 @@ gaps:
     state: PARTIAL
 ```
 
----
+______________________________________________________________________
 
-# 195. MATRIX INVALIDATION CONDITIONS
+## 195. MATRIX INVALIDATION CONDITIONS
 
 Revalidate this artifact if:
 
@@ -5967,9 +5967,9 @@ RUNTIME IMPLEMENTATION IS ESTABLISHED
 FORMAL VERIFICATION IS ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 196. MATRIX INGESTION RULE
+## 196. MATRIX INGESTION RULE
 
 ```yaml
 AMOS_COGNITIVE_MATRIX_INGESTION_RULE:
@@ -6014,9 +6014,9 @@ AMOS_COGNITIVE_MATRIX_INGESTION_RULE:
       - NEVER_INVENT
 ```
 
----
+______________________________________________________________________
 
-# 197. MATRIX GOVERNING BOUNDARIES
+## 197. MATRIX GOVERNING BOUNDARIES
 
 ```text
 [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]
@@ -6108,9 +6108,9 @@ UNKNOWN/GAP
 PASS
 ```
 
----
+______________________________________________________________________
 
-# 198. MATRIX RSCF CONTRACT
+## 198. MATRIX RSCF CONTRACT
 
 ```yaml
 RSCF:
@@ -6203,9 +6203,9 @@ RSCF:
       UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 199. MATRIX PROOF CAPSULE
+## 199. MATRIX PROOF CAPSULE
 
 ```yaml
 PROOF_CAPSULE:
@@ -6262,9 +6262,9 @@ PROOF_CAPSULE:
       UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 200. FINAL CANONICAL CANDIDATE STATEMENT
+## 200. FINAL CANONICAL CANDIDATE STATEMENT
 
 The AMOS Cognitive Matrix is a **governed cognition architecture**.
 
@@ -6411,15 +6411,13 @@ AUTONOMOUS AUTHORITY,
 OR UNIVERSAL EMPIRICAL VALIDITY
 ```
 
----
+______________________________________________________________________
 
-
-
----
+______________________________________________________________________
 
 **Related:** [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]] · [[25_COGNITIVE_MATRIX/HERITAGE_X_TSS|HERITAGE_X_TSS]] · [[25_COGNITIVE_MATRIX/HERITAGE_X_TSS_MATRIX|HERITAGE_X_TSS_MATRIX]] · [[25_COGNITIVE_MATRIX/HERITAGE_X_TRANG_ZERO|HERITAGE_X_TRANG_ZERO]] · [[25_COGNITIVE_MATRIX/HERITAGE_X_TRANG_ZERO_MATRIX|HERITAGE_X_TRANG_ZERO_MATRIX]] · [[25_COGNITIVE_MATRIX/CORE_X_CONTROL_PLANE|CORE_X_CONTROL_PLANE]] · [[25_COGNITIVE_MATRIX/CORE_X_CONTROL_PLANE_MATRIX|CORE_X_CONTROL_PLANE_MATRIX]] · [[25_COGNITIVE_MATRIX/CORE_X_RUNTIME|CORE_X_RUNTIME]] · [[25_COGNITIVE_MATRIX/CORE_X_RUNTIME_MATRIX|CORE_X_RUNTIME_MATRIX]] · [[25_COGNITIVE_MATRIX/AMOS_X_HERITAGE|AMOS_X_HERITAGE]] · [[25_COGNITIVE_MATRIX/CANON_X_DOMAINS|CANON_X_DOMAINS]] · [[25_COGNITIVE_MATRIX/PROVENANCE_X_CONFIDENCE|PROVENANCE_X_CONFIDENCE]] · [[25_COGNITIVE_MATRIX/10_ROUTING/ROUTING_POLICY|ROUTING_POLICY]] · [[01_CANON/01_CORE_LAWS/ATOMIC_MULTI_RSCF|ATOMIC_MULTI_RSCF]] · [[01_CANON/01_CORE_LAWS/01_CORE_LAWS_MOC|01_CORE_LAWS_MOC]] · [[01_CANON/02_UNIVERSE_CANON/02_UNIVERSE_CANON_MOC|02_UNIVERSE_CANON_MOC]] · [[01_CANON/02_UNIVERSE_CANON/P3_KNOWLEDGE_MEMORY|P3_KNOWLEDGE_MEMORY]] · [[01_CANON/02_UNIVERSE_CANON/P4_COGNITION_MODELS|P4_COGNITION_MODELS]] · [[01_CANON/02_UNIVERSE_CANON/P7_EVOLUTION_LEARNING|P7_EVOLUTION_LEARNING]] · [[11_KNOWLEDGE/03_RSCF/AMOS_RSCF_INDEX|AMOS_RSCF_INDEX]] · [[11_KNOWLEDGE/02_CLAIMS/CANON_CLAIM_REGISTRY|CANON_CLAIM_REGISTRY]] · [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
 
 RSCF-NODE
 
@@ -6437,44 +6435,44 @@ canonical_status: CANDIDATE_CANON
 
 RSCF-RELATIONS:
 
-* INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-* INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-* INDEXED_BY: [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]
-* PART_OF: [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]
-* USES: [[25_COGNITIVE_MATRIX/HERITAGE_X_TSS|HERITAGE_X_TSS]]
-* USES: [[25_COGNITIVE_MATRIX/HERITAGE_X_TSS_MATRIX|HERITAGE_X_TSS_MATRIX]]
-* USES: [[25_COGNITIVE_MATRIX/HERITAGE_X_TRANG_ZERO|HERITAGE_X_TRANG_ZERO]]
-* USES: [[25_COGNITIVE_MATRIX/HERITAGE_X_TRANG_ZERO_MATRIX|HERITAGE_X_TRANG_ZERO_MATRIX]]
-* USES: [[25_COGNITIVE_MATRIX/CORE_X_CONTROL_PLANE|CORE_X_CONTROL_PLANE]]
-* USES: [[25_COGNITIVE_MATRIX/CORE_X_CONTROL_PLANE_MATRIX|CORE_X_CONTROL_PLANE_MATRIX]]
-* USES: [[25_COGNITIVE_MATRIX/CORE_X_RUNTIME|CORE_X_RUNTIME]]
-* USES: [[25_COGNITIVE_MATRIX/CORE_X_RUNTIME_MATRIX|CORE_X_RUNTIME_MATRIX]]
-* USES: [[25_COGNITIVE_MATRIX/AMOS_X_HERITAGE|AMOS_X_HERITAGE]]
-* USES: [[25_COGNITIVE_MATRIX/CANON_X_DOMAINS|CANON_X_DOMAINS]]
-* USES: [[25_COGNITIVE_MATRIX/PROVENANCE_X_CONFIDENCE|PROVENANCE_X_CONFIDENCE]]
-* USES: [[25_COGNITIVE_MATRIX/10_ROUTING/ROUTING_POLICY|ROUTING_POLICY]]
-* USES: [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_INTEGRATION|GENERATORS_INTEGRATION]]
-* USES: [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_PROVENANCE|GENERATORS_PROVENANCE]]
-* USES: [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_TESTS|GENERATORS_TESTS]]
-* USES: [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_VALIDATION|GENERATORS_VALIDATION]]
-* RELATED_TO: [[01_CANON/01_CORE_LAWS/ATOMIC_MULTI_RSCF|ATOMIC_MULTI_RSCF]]
-* RELATED_TO: [[02_KERNEL/K_ATOMIC_MULTI_RSCF|K_ATOMIC_MULTI_RSCF]]
-* RELATED_TO: [[01_CANON/01_CORE_LAWS/01_CORE_LAWS_MOC|01_CORE_LAWS_MOC]]
-* RELATED_TO: [[01_CANON/02_UNIVERSE_CANON/02_UNIVERSE_CANON_MOC|02_UNIVERSE_CANON_MOC]]
-* RELATED_TO: [[01_CANON/02_UNIVERSE_CANON/P3_KNOWLEDGE_MEMORY|P3_KNOWLEDGE_MEMORY]]
-* RELATED_TO: [[01_CANON/02_UNIVERSE_CANON/P4_COGNITION_MODELS|P4_COGNITION_MODELS]]
-* RELATED_TO: [[01_CANON/02_UNIVERSE_CANON/P7_EVOLUTION_LEARNING|P7_EVOLUTION_LEARNING]]
-* RELATED_TO: [[11_KNOWLEDGE/03_RSCF/AMOS_RSCF_INDEX|AMOS_RSCF_INDEX]]
-* RELATED_TO: [[11_KNOWLEDGE/02_CLAIMS/CANON_CLAIM_REGISTRY|CANON_CLAIM_REGISTRY]]
-* LINEAGE_TARGET: [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+- INDEXED_BY: [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]
+- PART_OF: [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]
+- USES: [[25_COGNITIVE_MATRIX/HERITAGE_X_TSS|HERITAGE_X_TSS]]
+- USES: [[25_COGNITIVE_MATRIX/HERITAGE_X_TSS_MATRIX|HERITAGE_X_TSS_MATRIX]]
+- USES: [[25_COGNITIVE_MATRIX/HERITAGE_X_TRANG_ZERO|HERITAGE_X_TRANG_ZERO]]
+- USES: [[25_COGNITIVE_MATRIX/HERITAGE_X_TRANG_ZERO_MATRIX|HERITAGE_X_TRANG_ZERO_MATRIX]]
+- USES: [[25_COGNITIVE_MATRIX/CORE_X_CONTROL_PLANE|CORE_X_CONTROL_PLANE]]
+- USES: [[25_COGNITIVE_MATRIX/CORE_X_CONTROL_PLANE_MATRIX|CORE_X_CONTROL_PLANE_MATRIX]]
+- USES: [[25_COGNITIVE_MATRIX/CORE_X_RUNTIME|CORE_X_RUNTIME]]
+- USES: [[25_COGNITIVE_MATRIX/CORE_X_RUNTIME_MATRIX|CORE_X_RUNTIME_MATRIX]]
+- USES: [[25_COGNITIVE_MATRIX/AMOS_X_HERITAGE|AMOS_X_HERITAGE]]
+- USES: [[25_COGNITIVE_MATRIX/CANON_X_DOMAINS|CANON_X_DOMAINS]]
+- USES: [[25_COGNITIVE_MATRIX/PROVENANCE_X_CONFIDENCE|PROVENANCE_X_CONFIDENCE]]
+- USES: [[25_COGNITIVE_MATRIX/10_ROUTING/ROUTING_POLICY|ROUTING_POLICY]]
+- USES: [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_INTEGRATION|GENERATORS_INTEGRATION]]
+- USES: [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_PROVENANCE|GENERATORS_PROVENANCE]]
+- USES: [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_TESTS|GENERATORS_TESTS]]
+- USES: [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_VALIDATION|GENERATORS_VALIDATION]]
+- RELATED_TO: [[01_CANON/01_CORE_LAWS/ATOMIC_MULTI_RSCF|ATOMIC_MULTI_RSCF]]
+- RELATED_TO: [[02_KERNEL/K_ATOMIC_MULTI_RSCF|K_ATOMIC_MULTI_RSCF]]
+- RELATED_TO: [[01_CANON/01_CORE_LAWS/01_CORE_LAWS_MOC|01_CORE_LAWS_MOC]]
+- RELATED_TO: [[01_CANON/02_UNIVERSE_CANON/02_UNIVERSE_CANON_MOC|02_UNIVERSE_CANON_MOC]]
+- RELATED_TO: [[01_CANON/02_UNIVERSE_CANON/P3_KNOWLEDGE_MEMORY|P3_KNOWLEDGE_MEMORY]]
+- RELATED_TO: [[01_CANON/02_UNIVERSE_CANON/P4_COGNITION_MODELS|P4_COGNITION_MODELS]]
+- RELATED_TO: [[01_CANON/02_UNIVERSE_CANON/P7_EVOLUTION_LEARNING|P7_EVOLUTION_LEARNING]]
+- RELATED_TO: [[11_KNOWLEDGE/03_RSCF/AMOS_RSCF_INDEX|AMOS_RSCF_INDEX]]
+- RELATED_TO: [[11_KNOWLEDGE/02_CLAIMS/CANON_CLAIM_REGISTRY|CANON_CLAIM_REGISTRY]]
+- LINEAGE_TARGET: [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
 
 **MOC:** [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]] | [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]
 
----
+______________________________________________________________________
 
 **END OF `COGNITIVE_MATRIX_README.md`**
 
 This version preserves the supplied source's **100-section architecture** and extends it into a full-max RSCF/canon artifact with explicit runtime, state-transition, validation, provenance, registry, promotion, failure, finality, and machine-readable contracts while keeping the source's core epistemic boundary intact: the architecture is source-grounded; the additional normalization is `DERIVED`; implementation and empirical/formal validation remain `NOT_ESTABLISHED`.
-
+```

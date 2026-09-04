@@ -12,16 +12,16 @@ segment: 04_RUNTIME/09_FINALIZATION
 artifact_kind: FINALIZER_SPEC
 path: 04_RUNTIME/09_FINALIZATION/PROOF_CAPSULE_FINALIZER.md
 tags:
-- amos-os
-- runtime
-- vault
-- 09_finalization
-- proof_capsule_finalizer
-- cryptographic_signing
-- rscf_header_emission
-- rscf
-- canon_candidate
-- canon/runtime
+  - amos-os
+  - runtime
+  - vault
+  - 09_finalization
+  - proof_capsule_finalizer
+  - cryptographic_signing
+  - rscf_header_emission
+  - rscf
+  - canon_candidate
+  - canon/runtime
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -36,13 +36,13 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - 04_RUNTIME/09_FINALIZATION/09_FINALIZATION_MOC
-  - 11_KNOWLEDGE/03_RSCF/03_RSCF_MOC
-  - AMOS_CORPUS
+    - 04_RUNTIME/09_FINALIZATION/09_FINALIZATION_MOC
+    - 11_KNOWLEDGE/03_RSCF/03_RSCF_MOC
+    - AMOS_CORPUS
   scope:
-  - RUNTIME_FINALIZATION
-  - PROOF_CAPSULE_EMISSION
-  - SOURCE_DEFINED_MODEL
+    - RUNTIME_FINALIZATION
+    - PROOF_CAPSULE_EMISSION
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   finalization_moc:
     artifact: 04_RUNTIME/09_FINALIZATION/09_FINALIZATION_MOC
@@ -59,9 +59,9 @@ epistemic_boundary:
 
 `PROOF_CAPSULE_FINALIZER.md` is the canonical Runtime Plane specification governing the compilation, cryptographic hashing, and emission of signed **RSCF Proof Capsules** within `04_RUNTIME/09_FINALIZATION`.
 
----
+______________________________________________________________________
 
-# 1. Capsule Assembly & Signature Pipeline
+## 1. Capsule Assembly & Signature Pipeline
 
 ```text
   Local Proof Witnesses + Reasoning Trajectory
@@ -75,17 +75,17 @@ epistemic_boundary:
   4. Commits Signed Capsule to Knowledge Plane (11_KNOWLEDGE/03_RSCF)
 ```
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Finalization MOC:** 04_RUNTIME/09_FINALIZATION/[[04_RUNTIME/09_FINALIZATION/09_FINALIZATION_MOC|09_FINALIZATION_MOC]]
 - **RSCF Proof MOC:** 11_KNOWLEDGE/03_RSCF/[[11_KNOWLEDGE/03_RSCF/03_RSCF_MOC|03_RSCF_MOC]]
 - **Decision Receipts:** 03_CONTROL_PLANE/[[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE_MOC]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -103,9 +103,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME_MOC]] · 04_RUNTIME/09_FINALIZATION/[[04_RUNTIME/09_FINALIZATION/09_FINALIZATION_MOC|09_FINALIZATION_MOC]] · 11_KNOWLEDGE/03_RSCF/[[11_KNOWLEDGE/03_RSCF/03_RSCF_MOC|03_RSCF_MOC]]
 
----
+______________________________________________________________________
+
 **MOC:** 04_RUNTIME/09_FINALIZATION/[[04_RUNTIME/09_FINALIZATION/09_FINALIZATION_MOC|09_FINALIZATION_MOC]]

@@ -1,85 +1,96 @@
 ---
-title: INV-AUTHZ-024
-type: invariant
+title: "INV-AUTHZ-024 — Competing Hypotheses Preservation"
+type: authority_invariant
 source: 03_CONTROL_PLANE/04_AUTHORITY
-tags:
-- control-plane
-- canon/control-plane
-- routing-policy-validation-receipt
-- authz-engine-validation-receipt
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
+status: ACTIVE_INVARIANT
+epistemic_class: AMOS_MODEL
+conclusion_class: DERIVED
 rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
+  state: DERIVED
+  claim_class: AMOS_MODEL
+  provenance:
+    - 03_CONTROL_PLANE/CONTROL_PLANE_CONTROL_PLANE_CONTRACT
+    - 01_CANON/01_CORE_LAWS/LAW_HIERARCHY
   scope: authority_governance
+tags:
+  - amos-os
+  - authority
+  - invariant
+  - control-plane
+  - inv-authz-024
 ---
 
-# INV-AUTHZ-024
+# INV-AUTHZ-024 — Competing Hypotheses Preservation
 
-## 0. Status
-Control Plane-plane artifact. AMOS_MODEL · CONDITIONAL · implementation PARTIAL.
+## 1. Formal Specification
 
-## 1. Purpose
-`INV-AUTHZ-024` defines typed artifact specification, serving the Control Plane plane's obligation: governance surfaces that gate effects: task contracts, capability, policy, authority, provenance, semantic transactions, observability, effects, commit, exposure, replay, rollback.
+> **Invariant Statement:**
+> `Unresolved scientific or empirical debates must retain all non-refuted competing models.`
 
-## 2. Semantics
-- Every load-bearing field is typed; unknown values are recorded as `UNKNOWN/GAP`, never invented.
-- Scope and regime are declared on every claim; cross-regime transfer requires an explicit bridge.
-- Confidence ceiling 0.95; conclusion confidence ≤ weakest load-bearing premise.
+## 2. Invariant Rule & Mathematical Formulation
 
-## 3. Failure modes guarded
-STALE_READ · SCOPE_LEAK · REGIME_DRIFT · CONFIDENCE_INFLATION · AUTHORITY_ESCALATION · PROVENANCE_LOSS · SILENT_PARTIAL_COMMIT · UNKNOWN_AS_VALID.
+Let $\mathcal{H} = \{ h_1, h_2, \ldots, h_n \}$ be the set of competing hypotheses for a question $q$, and $\text{Refuted}(h)$ the refutation status:
 
-## 4. Validation
-No artifact-specific executor yet; executed OS validators exist as pattern ([[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]). Required tests before promotion: identity, type-contract, negative-case (missing/malformed/stale input), authority boundary, rollback.
+$$\forall q, \forall \mathcal{H}(q), \quad \neg \text{Resolved}(q) \implies \forall h_i \in \mathcal{H}(q) : \neg \text{Refuted}(h_i), \quad \text{Retain}(h_i) = \text{True}$$
 
-## 5. Gaps
-Implementation binding, empirical validation, and cross-artifact consistency checks remain OPEN (UNKNOWN/GAP).
+A hypothesis may only be removed when explicitly refuted:
 
-## 6. Falsifiers
-F1: canonical source contradicts declared semantics. F2: executed test violates a stated invariant. F3: artifact promotes UNKNOWN to PASS.
-## Worked semantics
-Given an operation touching `INV-AUTHZ-024` within the Control Plane plane:
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-2. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-3. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-4. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-5. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-6. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
+$$\text{Remove}(h_i) \implies \text{Refuted}(h_i) = \text{True} \land \exists e : \text{RefutingEvidence}(e, h_i)$$
 
-## Promotion-gate checklist
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
+The resolution condition requires that all but one hypothesis are refuted:
 
-## Cross-plane bindings
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]|AMOS Core Laws · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
-- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
-- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
----
+$$\text{Resolved}(q) \iff |\{ h \in \mathcal{H}(q) : \neg \text{Refuted}(h) \}| \le 1$$
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+No hypothesis may be suppressed without explicit refutation:
 
----
-**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+$$\nexists h_i \in \mathcal{H}(q) : \text{Suppressed}(h_i) \land \neg \text{Refuted}(h_i)$$
 
----
-RSCF-NODE
-node_id: cp_03_control_plane_04_authority_inv_authz_024_md
-node_type: note
-path: 03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-024.md
-claim_class: AMOS_MODEL
+## 3. Enforcement & Verification
 
----
-**MOC:** [[03_CONTROL_PLANE/04_AUTHORITY/04_AUTHORITY_MOC|04_AUTHORITY_MOC]]
+- **Evaluation Point:** Evaluated at the hypothesis management gate when a hypothesis is submitted for removal or suppression. The gate checks that the hypothesis has been explicitly refuted with evidence.
+- **Violation Consequence:** If a non-refuted hypothesis is submitted for removal, the removal is refused. A `HYPOTHESIS_SUPPRESSION_VIOLATION` receipt is emitted to `17_OBSERVABILITY`.
+- **Recovery Procedure:** The hypothesis must remain in the competing set until it is explicitly refuted with evidence. No rollback is needed since the removal was blocked.
+- **Verification Cadence:** Synchronous at every hypothesis removal request. A periodic audit verifies that all unresolved questions retain their full non-refuted hypothesis sets.
+- **Governed By:** [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE_MOC]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
 
----
-**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+## 4. Attack Vectors & Mitigations
+
+- **Hypothesis Suppression:** An agent suppresses a competing hypothesis to promote its preferred model. Mitigated by the mandatory refutation check that prevents removal of non-refuted hypotheses.
+- **Premature Resolution Declaration:** An agent declares a question resolved while multiple non-refuted hypotheses remain. Mitigated by the resolution condition that requires all but one hypothesis to be explicitly refuted.
+- **Refutation Fabrication:** An agent fabricates refuting evidence to eliminate a competing hypothesis. Mitigated by [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-012|INV-AUTHZ-012]] which requires direct evidence for claims.
+- **Hypothesis Set Truncation:** An agent truncates the hypothesis set to remove inconvenient alternatives. Mitigated by the periodic audit that verifies hypothesis set completeness.
+
+## 5. Dependencies & Prerequisites
+
+- **Depends On:** [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-012|INV-AUTHZ-012]] — Reality grounding requirement ensures refutations are backed by evidence.
+- **Depends On:** [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-021|INV-AUTHZ-021]] — Confidence ceiling capping ensures no hypothesis is over-credited.
+- **Depends On:** [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-039|INV-AUTHZ-039]] — Falsification obligation ensures hypotheses have testable refutation conditions.
+- **Depends On:** [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-048|INV-AUTHZ-048]] — Popperian falsification floor ensures hypotheses are falsifiable.
+- **Requires:** A hypothesis registry with refutation tracking.
+- **Requires:** An evidence verification pipeline for refuting claims.
+
+## 6. Provenance & Audit Trail
+
+- **Receipt Type:** `HYPOTHESIS_MANAGEMENT_RECEIPT` — emitted for every hypothesis addition, refutation, or removal attempt, recording the question, hypothesis, and action.
+- **Storage Location:** `17_OBSERVABILITY` with question-ID-indexed partitions.
+- **Receipt Fields:** Question ID, hypothesis ID, action type (add, refute, remove), refuting evidence (if applicable), resolution status, epoch, BLAKE3 hash.
+- **Immutability:** Hypothesis management receipts are append-only per [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-014|INV-AUTHZ-014]].
+
+## 7. Related Invariants
+
+- [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-012|INV-AUTHZ-012]] — Reality Grounding Requirement
+- [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-021|INV-AUTHZ-021]] — Confidence Ceiling Capping
+- [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-034|INV-AUTHZ-034]] — Epistemic Drift Threshold
+- [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-039|INV-AUTHZ-039]] — Invariant Falsification Obligation
+- [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-048|INV-AUTHZ-048]] — Popperian Falsification Floor
+
+## 8. Navigation & Bindings
+
+- **Control Plane:** [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE_MOC]]
+- **Control Plane Contract:** [[03_CONTROL_PLANE/CONTROL_PLANE_CONTROL_PLANE_CONTRACT|CONTROL_PLANE_CONTRACT]]
+- **Canon Law Hierarchy:** [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- **Kernel:** [[02_KERNEL/02_KERNEL_MOC|02_KERNEL_MOC]]
+- **Observability:** [[17_OBSERVABILITY/17_OBSERVABILITY_MOC|17_OBSERVABILITY_MOC]]

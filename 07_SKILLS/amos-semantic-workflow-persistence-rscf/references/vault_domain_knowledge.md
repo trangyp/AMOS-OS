@@ -1,14 +1,17 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Vault Domain Knowledge — Amos Semantic Workflow Persistence Rscf
 type: reference
 source: 07_SKILLS/amos-semantic-workflow-persistence-rscf/references
 tags:
-- reference
-- amos-semantic-workflow-persistence-rscf
-- type/skill
-- k-meta-logic
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-semantic-workflow-persistence-rscf
+  - type/skill
+  - k-meta-logic
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -29,76 +32,74 @@ rscf:
 > Path: `kernel/A/AMOS_Workflow_Orchestration_Kernel_v0_Tech.md` | Size: 15969 chars | Match score: 13
 
 {
-  "kernel_id": "AMOS_Workflow_Orchestration_Kernel_v0",
-  "version": "1.0.0",
-  "source": "md/Kernels/Tech/AMOS_Workflow_Orchestration_Kernel_v0.md",
-  "description": "Kernel for workflow design, automation, orchestration, and pipeline management within the AMOS stack. Defines how individual tasks compose into workflows, how workflows are automated, and how pipeline execution is monitored and controlled.",
-  "group": "Kernels.Tech",
-  "category": "Tech",
-  "priority": 7,
-  "required": false,
-  "domains": ["workflow", "automation", "orchestration", "pipeline", "monitoring"],
-  "depends_on": ["[[02_KERNEL/01_META_LOGIC/K_META_LOGIC|K_META_LOGIC]]", "K_TECH_ENGINE"],
+"kernel_id": "AMOS_Workflow_Orchestration_Kernel_v0",
+"version": "1.0.0",
+"source": "md/Kernels/Tech/AMOS_Workflow_Orchestration_Kernel_v0.md",
+"description": "Kernel for workflow design, automation, orchestration, and pipeline management within the AMOS stack. Defines how individual tasks compose into workflows, how workflows are automated, and how pipeline execution is monitored and controlled.",
+"group": "Kernels.Tech",
+"category": "Tech",
+"priority": 7,
+"required": false,
+"domains": ["workflow", "automation", "orchestration", "pipeline", "monitoring"],
+"depends_on": [[02_KERNEL/01_META_LOGIC/K_META_LOGIC|K_META_LOGIC]]\["[[02_KERNEL/01_META_LOGIC/K_META_LOGIC|K_META_LOGIC]]", "K_TECH_ENGINE"\],
 
-  "meta": {
-    "role": "Workflow Orchestration Kernel",
-    "creator": "Trang Phan (Origin Architect)",
-    "status": "defined",
-    "binding_rules": ["Law_of_Law", "Rule_of_2", "Rule_of_4", "Absolute_Integrity"]
-  },
+"meta": {
+"role": "Workflow Orchestration Kernel",
+"creator": "Trang Phan (Origin Architect)",
+"status": "defined",
+"binding_rules": ["Law_of_Law", "Rule_of_2", "Rule_of_4", "Absolute_Integrity"]
+},
 
-  "purpose": "Define, execute, monitor, and control workflows that span multiple AMOS agents, kernels, and engines. Provide a structured model for turning a high-level task into an orchestrated sequence of coordinated operations with defined inputs, outputs, checkpoints, and failure handling.",
+"purpose": "Define, execute, monitor, and control workflows that span multiple AMOS agents, kernels, and engines. Provide a structured model for turning a high-level task into an orchestrated sequence of coordinated operations with defined inputs, outputs, checkpoints, and failure handling.",
 
-  "workflow_primitives": {
-    "task": {
-      "description": "A single unit of work assignable to one agent or kernel.",
-      "fields": {
-        "task_id": "unique identifier",
-        "description": "what the task does",
-        "agent_assignment": "which agent handles it",
-        "kernel_set": "which kernels activate",
-        "inputs": "required inputs (from previous tasks or user)",
-        "outputs": "expected outputs (passed to next tasks or final output)",
-        "constraints": "law constraints, safety constraints, domain constraints",
-        "priority": "normal, high, critical",
-        "timeout": "maximum execution time",
-        "dependency_ids": "tasks that must complete before this task starts"
-      }
-    },
-    "workflow": {
-      "description": "An ordered composition of tasks with defined flow control.",
-      "fields": {
-        "workflow_id": "unique identifier",
-        "name": "human-readable workflow name",
-        "trigger": "what starts this workflow (user request, event, scheduled)",
-        "tasks": "ordered task list with dependencies",
-        "flow_control": "sequential, parallel, conditional, iterative, or hybrid",
-        "entry_task": "first task in the workflow",
-        "exit_tasks": "tasks whose completion marks workflow success",
-        "failure_handling": "what happens on task failure (retry, abort, escalate, compensate)",
-        "monitoring_points": "checkpoints where state is recorded and can be inspected"
-      }
-    },
-    "pipeline": {
-      "description": "A multi-stage workflow where each stage produces structured output consumed by the next stage.",
-      "fields": {
-        "pipeline_id": "unique identifier",
-        "stages": "ordered stages, each containing one or more tasks",
-        "stage_inputs": "what each stage receives (from previous stage output or extern
+"workflow_primitives": {
+"task": {
+"description": "A single unit of work assignable to one agent or kernel.",
+"fields": {
+"task_id": "unique identifier",
+"description": "what the task does",
+"agent_assignment": "which agent handles it",
+"kernel_set": "which kernels activate",
+"inputs": "required inputs (from previous tasks or user)",
+"outputs": "expected outputs (passed to next tasks or final output)",
+"constraints": "law constraints, safety constraints, domain constraints",
+"priority": "normal, high, critical",
+"timeout": "maximum execution time",
+"dependency_ids": "tasks that must complete before this task starts"
+}
+},
+"workflow": {
+"description": "An ordered composition of tasks with defined flow control.",
+"fields": {
+"workflow_id": "unique identifier",
+"name": "human-readable workflow name",
+"trigger": "what starts this workflow (user request, event, scheduled)",
+"tasks": "ordered task list with dependencies",
+"flow_control": "sequential, parallel, conditional, iterative, or hybrid",
+"entry_task": "first task in the workflow",
+"exit_tasks": "tasks whose completion marks workflow success",
+"failure_handling": "what happens on task failure (retry, abort, escalate, compensate)",
+"monitoring_points": "checkpoints where state is recorded and can be inspected"
+}
+},
+"pipeline": {
+"description": "A multi-stage workflow where each stage produces structured output consumed by the next stage.",
+"fields": {
+"pipeline_id": "unique identifier",
+"stages": "ordered stages, each containing one or more tasks",
+"stage_inputs": "what each stage receives (from previous stage output or extern
 
----
+______________________________________________________________________
 
 ### Source 2: AMOS Tech Kernel Integration Workflow
 
 > Path: `kernel/A/AMOS_Tech_Kernel_Integration_Workflow.md` | Size: 8952 chars | Match score: 13
 
-# AMOS Tech Kernel Integration Workflow
+## AMOS Tech Kernel Integration Workflow
 
-
----
+______________________________________________________________________
 
 ## Phase 1: Task Decomposition (using Tech kernel domains)
-
 
 ```
 Step 1: Identify primary domain
@@ -113,10 +114,10 @@ Step 3: Identify cross-cutting concerns
   → Security, quality, observability, automation — these apply to almost all tech tasks
   → Always consider: AMOS_Security_Architecture_Kernel, AMOS_Qa_Testing_Kernel, AMOS_Observability_Monitoring_Kernel, AMOS_Automation_Kernel
 ```
----
+
+______________________________________________________________________
 
 ## Phase 2: Kernel Function Selection
-
 
 ```
 Example: "Design and deploy a REST API for user management"
@@ -142,10 +143,10 @@ Cross-cutting: AMOS_Observability_Monitoring_Kernel_v0
 Cross-cutting: AMOS_Automation_Kernel_v0
   → Function: workflow_automation_design (inputs: process_definition, automation_tools)
 ```
----
+
+______________________________________________________________________
 
 ## Phase 3: Input Preparation
-
 
 ```
 Function: api_style_selection
@@ -160,10 +161,10 @@ Function: authn_authz_design
   Required inputs: user_roles, permission_requirements, identity_providers, session_requirements
   Prepare from security requirements, compliance needs, user analysis
 ```
----
+
+______________________________________________________________________
 
 ## Phase 4: Function Execution (sequential or parallel)
-
 
 ```
 Order:
@@ -180,7 +181,7 @@ Order:
 
 > Path: `kernel/A/AMOS_Kernel_Routing_Workflow.md` | Size: 5041 chars | Match score: 13
 
-# AMOS Kernel Routing Workflow
+## AMOS Kernel Routing Workflow
 
 Determine which AMOS kernels handle a task, using the brain's kernel registry and routing rules.
 
@@ -243,10 +244,10 @@ Activate: K_META_LOGIC, K_MATH_COMPUTE, K_BIO_NEURO
 
 -
 ```
----
 
-**Related:** [[07_SKILLS/amos-semantic-workflow-persistence-rscf/amos-semantic-workflow-persistence-rscf_MOC|amos-semantic-workflow-persistence-rscf_MOC]]
----
+______________________________________________________________________
+
+## **Related:** [[07_SKILLS/amos-semantic-workflow-persistence-rscf/amos-semantic-workflow-persistence-rscf_MOC|amos-semantic-workflow-persistence-rscf_MOC]]
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -254,12 +255,14 @@ Activate: K_META_LOGIC, K_MATH_COMPUTE, K_BIO_NEURO
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-semantic-workflow-persistence-rscf-vault-domain-knowledge
 node_type: reference
 path: 07_SKILLS/amos-semantic-workflow-persistence-rscf/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

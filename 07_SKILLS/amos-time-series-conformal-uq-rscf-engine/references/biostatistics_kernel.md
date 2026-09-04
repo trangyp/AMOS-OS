@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: biostatistics kernel
 type: reference
 source: 07_SKILLS/amos-time-series-conformal-uq-rscf-engine/references
 tags:
-- reference
-- amos-time-series-conformal-uq-rscf-engine
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-time-series-conformal-uq-rscf-engine
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -20,22 +23,18 @@ rscf:
 > Source: `_00_Cosmo brain/kernel/A/AMOS_Biostatistics_Kernel_v0_Science_Health2.md`
 > Epistemic class: SOURCE_DERIVED
 
----
-canon-group: biology
-canon-type: framework
-rscf-state: source-claim
-topic: amos-biostatistics-kernel-v0
-tags: [canon-group/biology, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-biostatistics-kernel-v0, kernel]
-created: 2026-08-22
----
+______________________________________________________________________
 
-# AMOS_Biostatistics_Kernel_v0
+## canon-group: biology canon-type: framework rscf-state: source-claim topic: amos-biostatistics-kernel-v0 tags: [canon-group/biology, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-biostatistics-kernel-v0, kernel] created: 2026-08-22
 
-> [!info] Populated Stub
+## AMOS_Biostatistics_Kernel_v0
+
+> [!INFO] Populated Stub
 > Source: `AMOS_Biostatistics_Kernel_v0_Biology_Cognition.md` (vault-sourced, content_hash verified).
 > Canon group: biology
 
 ## Status
+
 - **Type**: Kernel spec
 - **Content**: Vault-sourced from Biology_Cognition reference
 - **Action**: Populated 2026-08-26 from source kernel
@@ -85,13 +84,14 @@ created: 2026-08-22
 ```
 
 ## Related
+
 - RSCF-Brain-MOC
 - [[11_KNOWLEDGE/COSMO_BRAIN_MOC|COSMO_BRAIN_MOC]]
 - AMOS_Biostatistics_Kernel_v0_Biology_Cognition (source)
 
----
-**MOC:** references_MOC
----
+______________________________________________________________________
+
+## **MOC:** references_MOC
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -99,13 +99,14 @@ created: 2026-08-22
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-time-series-conformal-uq-rscf-engine-biostatistics-kernel
 node_type: reference
 path: 07_SKILLS/amos-time-series-conformal-uq-rscf-engine/references/biostatistics_kernel.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC
-

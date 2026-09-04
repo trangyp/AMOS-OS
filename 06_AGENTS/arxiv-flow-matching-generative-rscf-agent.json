@@ -89,7 +89,7 @@
     "arxiv-flow-matching-generative-rscf"
   ],
   "depends_on_workflows": [
-    "arxiv-flow-matching-generative-rscf-workflow.md"
+    "amos-arxiv-flow-matching-generative-rscf-workflow.md"
   ],
   "epistemic_class": "AMOS_MODEL",
   "claim_ceiling": 0.95,

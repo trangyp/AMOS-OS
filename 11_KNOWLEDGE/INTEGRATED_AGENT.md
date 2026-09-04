@@ -20,25 +20,24 @@ implementation_state: SOURCE_IMPLEMENTATION
 execution_risk: MUTATING_FILESYSTEM
 topic: integratedagent
 aliases:
-- AMOS Universal Rename Engine - AMOS Namespace Migration Engine - AMOS Deterministic
-  Rename Eng
+  - AMOS Universal Rename Engine - AMOS Namespace Migration Engine - AMOS Deterministic Rename Eng
 tags:
-- canon-group/tech-ai
-- knowledge
-- vault
-- canon/framework
-- rscf/claim
-- rscf/provenance
-- rscf/state/source-claim
-- topic/integratedagent
-- topic/rename-engine
-- topic/namespace-migration
-- topic/repository-migration
-- agents
-- architecture
-- validation
-- references
-- canon
+  - canon-group/tech-ai
+  - knowledge
+  - vault
+  - canon/framework
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - topic/integratedagent
+  - topic/rename-engine
+  - topic/namespace-migration
+  - topic/repository-migration
+  - agents
+  - architecture
+  - validation
+  - references
+  - canon
 governing_law: integrity > completeness > fluency > speed > token savings
 rscf:
   state: SOURCE_CLAIM
@@ -48,6 +47,7 @@ rscf:
 ---
 
 # AMOS Universal Rename Engine
+
 ## Governed Deterministic Namespace Migration
 
 > **Document version:** `3.0.0`
@@ -58,9 +58,9 @@ rscf:
 > **Current source class:** `SOURCE_IMPLEMENTATION`
 > **Primary risk:** repository-wide filesystem mutation
 
----
+______________________________________________________________________
 
-# 0. EXECUTIVE STATUS
+## 0. EXECUTIVE STATUS
 
 The supplied Python source implements a repository rename utility that:
 
@@ -158,26 +158,26 @@ status:
     state: MUTATING_RENAME_ENGINE_V1
 ```
 
----
+______________________________________________________________________
 
-# 1. SOURCE IMPLEMENTATION
+## 1. SOURCE IMPLEMENTATION
 
 ```python
 from pathlib import Path
 import re
 
 
-# ============================================================
-# AMOS UNIVERSAL RENAME ENGINE — CLEAN, SAFE, DETERMINISTIC
-# ============================================================
+## ============================================================
+## AMOS UNIVERSAL RENAME ENGINE — CLEAN, SAFE, DETERMINISTIC
+## ============================================================
 
-# Toggle: DRY RUN vs REAL RUN
+## Toggle: DRY RUN vs REAL RUN
 DRY_RUN = False
 
-# Root folder automatically detected
+## Root folder automatically detected
 TARGET_ROOT = Path(__file__).resolve().parent / "_AMOS_UNIVERSE"
 
-# Folders we should NEVER modify
+## Folders we should NEVER modify
 SKIP_DIRS = {
     ".git",
     ".idea",
@@ -186,7 +186,7 @@ SKIP_DIRS = {
     "_Archive",
 }
 
-# Remove these patterns from filenames/folder names
+## Remove these patterns from filenames/folder names
 REMOVE_PATTERNS = [
     r"SUPERSTACK",
     r"SUPER",
@@ -201,7 +201,7 @@ REMOVE_PATTERNS = [
     r"ULTRA",
 ]
 
-# Allowed file extensions to rename
+## Allowed file extensions to rename
 FILE_EXTS = {
     ".json",
     ".py",
@@ -210,7 +210,7 @@ FILE_EXTS = {
 }
 
 
-# ----------------------- HELPERS -----------------------
+## ----------------------- HELPERS -----------------------
 
 def clean_base(name: str) -> str:
     """Cleans unwanted patterns and normalizes underscores."""
@@ -272,7 +272,7 @@ def rename_item(path: Path):
         path.rename(new_path)
 
 
-# ----------------------- MAIN -----------------------
+## ----------------------- MAIN -----------------------
 
 def main():
     if not TARGET_ROOT.exists():
@@ -311,9 +311,9 @@ if __name__ == "__main__":
     main()
 ```
 
----
+______________________________________________________________________
 
-# 2. PURPOSE
+## 2. PURPOSE
 
 The engine is intended to normalize AMOS repository namespace identity.
 
@@ -329,15 +329,13 @@ ENSURE EXPLICIT VERSION SUFFIX
 
 Conceptually:
 
-[
-N'
-==
+## \[ N'
 
 V
-\left(
+\\left(
 C(N)
-\right)
-]
+\\right)
+\]
 
 where:
 
@@ -346,9 +344,9 @@ where:
 - (V) = version-normalization transformation;
 - (N') = resulting filesystem name.
 
----
+______________________________________________________________________
 
-# 3. WHAT THE ENGINE ACTUALLY CHANGES
+## 3. WHAT THE ENGINE ACTUALLY CHANGES
 
 The source removes case-insensitive occurrences of:
 
@@ -390,9 +388,9 @@ name without _vN suffix
 name_v0
 ```
 
----
+______________________________________________________________________
 
-# 4. HARD SEMANTIC WARNING
+## 4. HARD SEMANTIC WARNING
 
 The engine currently assumes the removable terms are non-load-bearing namespace decoration.
 
@@ -434,9 +432,9 @@ identity and dependency semantics survive
 the transformation.
 ```
 
----
+______________________________________________________________________
 
-# 5. VERSION / LINEAGE MODEL
+## 5. VERSION / LINEAGE MODEL
 
 Four version axes should remain separate.
 
@@ -469,9 +467,9 @@ VERSION_ID:
   core_target: AMOS_CORE_4.4
 ```
 
----
+______________________________________________________________________
 
-# 6. SOURCE VERSION RULE
+## 6. SOURCE VERSION RULE
 
 Current rule:
 
@@ -511,9 +509,9 @@ INTEGER_SUFFIX_VERSIONING
 
 not general semantic versioning.
 
----
+______________________________________________________________________
 
-# 7. VERSIONING FIREWALL
+## 7. VERSIONING FIREWALL
 
 Adding `_v0` is not equivalent to discovering an artifact's true version.
 
@@ -540,9 +538,9 @@ Correct epistemic class:
 MIGRATION_ASSIGNED_VERSION
 ```
 
----
+______________________________________________________________________
 
-# 8. RECOMMENDED VERSION MODEL
+## 8. RECOMMENDED VERSION MODEL
 
 Use explicit state:
 
@@ -565,9 +563,9 @@ assigned_version = v0
 
 This preserves the distinction.
 
----
+______________________________________________________________________
 
-# 9. TARGET ROOT
+## 9. TARGET ROOT
 
 Current source:
 
@@ -590,9 +588,9 @@ This is preferable to unconstrained filesystem traversal.
 
 However, it should still be validated before mutation.
 
----
+______________________________________________________________________
 
-# 10. TARGET ROOT INVARIANTS
+## 10. TARGET ROOT INVARIANTS
 
 Before any real run:
 
@@ -615,9 +613,9 @@ if root.name != "_AMOS_UNIVERSE":
 
 For stronger environments, bind an expected root hash or repository identity.
 
----
+______________________________________________________________________
 
-# 11. SKIP DIRECTORY MODEL
+## 11. SKIP DIRECTORY MODEL
 
 Source:
 
@@ -654,9 +652,9 @@ This is a structural bug in protection semantics.
 
 A protected directory may remain named `.git`, but descendants may still be discovered depending on traversal behavior and root layout.
 
----
+______________________________________________________________________
 
-# 12. SKIP-SUBTREE INVARIANT
+## 12. SKIP-SUBTREE INVARIANT
 
 Correct semantics should be:
 
@@ -676,9 +674,9 @@ DoNotRenameDirectoryEntry
 
 Recommended traversal should explicitly prune protected roots.
 
----
+______________________________________________________________________
 
-# 13. FILE EXTENSION SCOPE
+## 13. FILE EXTENSION SCOPE
 
 Current source renames only:
 
@@ -719,9 +717,9 @@ ReferenceScope
 
 Reference auditing must be broader than rename-extension filtering.
 
----
+______________________________________________________________________
 
-# 14. DIRECTORY-FIRST ORDERING
+## 14. DIRECTORY-FIRST ORDERING
 
 The source intentionally renames directories:
 
@@ -742,18 +740,18 @@ reverse=True,
 
 Therefore:
 
-[
+\[
 depth(p_i)>depth(p_j)
-\Rightarrow
+\\Rightarrow
 p_i
-\text{ processed first}
-]
+\\text{ processed first}
+\]
 
 for unequal depths.
 
----
+______________________________________________________________________
 
-# 15. CRITICAL TWO-PASS PATH PROBLEM
+## 15. CRITICAL TWO-PASS PATH PROBLEM
 
 The source performs:
 
@@ -786,9 +784,9 @@ intermediate filesystem state
 
 This weakens deterministic replay.
 
----
+______________________________________________________________________
 
-# 16. PLAN-FIRST [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]
+## 16. PLAN-FIRST [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]
 
 AMOS should separate:
 
@@ -834,9 +832,9 @@ DISCOVER ITEM
 IMMEDIATELY RENAME ITEM
 ```
 
----
+______________________________________________________________________
 
-# 17. RENAME PLAN OBJECT
+## 17. RENAME PLAN OBJECT
 
 ```yaml
 RenamePlan:
@@ -869,9 +867,9 @@ RenamePlan:
   plan_hash:
 ```
 
----
+______________________________________________________________________
 
-# 18. RENAME OPERATION
+## 18. RENAME OPERATION
 
 ```yaml
 RenameOperation:
@@ -905,15 +903,13 @@ RenameOperation:
     PLANNED
 ```
 
----
+______________________________________________________________________
 
-# 19. CLEANING FUNCTION
+## 19. CLEANING FUNCTION
 
 Current transformation:
 
-[
-C(n)
-====
+## \[ C(n)
 
 StripUnderscore
 (
@@ -922,7 +918,7 @@ CollapseUnderscore
 RemovePatterns(n)
 )
 )
-]
+\]
 
 This operation should satisfy:
 
@@ -942,15 +938,15 @@ C(C(n)) = C(n)
 
 The cleaning portion is broadly idempotent under current rules.
 
----
+______________________________________________________________________
 
-# 20. VERSION APPLICATION IDEMPOTENCE
+## 20. VERSION APPLICATION IDEMPOTENCE
 
 For recognized `_vN` suffixes:
 
-[
+\[
 V(V(n))=V(n)
-]
+\]
 
 because the second pass detects the existing suffix.
 
@@ -962,27 +958,27 @@ apply_version()
 
 is idempotent for the current version grammar.
 
----
+______________________________________________________________________
 
-# 21. FULL TRANSFORMATION IDEMPOTENCE
+## 21. FULL TRANSFORMATION IDEMPOTENCE
 
 Define:
 
-[
+\[
 T(n)=V(C(n))
-]
+\]
 
 Then desired:
 
-[
+\[
 T(T(n))=T(n)
-]
+\]
 
 This should be explicitly tested.
 
----
+______________________________________________________________________
 
-# 22. EMPTY-NAME FAILURE
+## 22. EMPTY-NAME FAILURE
 
 The current source can produce an empty cleaned name.
 
@@ -1029,9 +1025,9 @@ if not cleaned:
     reject/quarantine
 ```
 
----
+______________________________________________________________________
 
-# 23. TOKEN-CONCATENATION FAILURE
+## 23. TOKEN-CONCATENATION FAILURE
 
 Example:
 
@@ -1071,9 +1067,9 @@ substring removal
 
 may mutate legitimate compound identifiers.
 
----
+______________________________________________________________________
 
-# 24. TOKEN BOUNDARY POLICY
+## 24. TOKEN BOUNDARY POLICY
 
 Rename rules should explicitly declare whether each pattern is:
 
@@ -1098,9 +1094,9 @@ RenameRule:
 
 This is safer than a flat regex list.
 
----
+______________________________________________________________________
 
-# 25. PATTERN PRECEDENCE
+## 25. PATTERN PRECEDENCE
 
 The source wisely places:
 
@@ -1140,9 +1136,9 @@ is not merely a set.
 
 It is an ordered rewrite system.
 
----
+______________________________________________________________________
 
-# 26. RULESET VERSIONING
+## 26. RULESET VERSIONING
 
 The rename rule set should have its own version.
 
@@ -1164,9 +1160,9 @@ RuleSetOrder
 part of migration identity
 ```
 
----
+______________________________________________________________________
 
-# 27. COLLISION PROBLEM
+## 27. COLLISION PROBLEM
 
 Suppose:
 
@@ -1193,9 +1189,9 @@ may fail or have platform-specific replacement semantics.
 
 This is unacceptable for a governed repository migration.
 
----
+______________________________________________________________________
 
-# 28. COLLISION INVARIANT
+## 28. COLLISION INVARIANT
 
 Before mutation:
 
@@ -1221,9 +1217,9 @@ COLLISION
 ABORT
 ```
 
----
+______________________________________________________________________
 
-# 29. CASE-FOLD COLLISIONS
+## 29. CASE-FOLD COLLISIONS
 
 Cross-platform repositories may move between case-sensitive and case-insensitive filesystems.
 
@@ -1244,9 +1240,9 @@ casefold(new_path)
 
 and detect duplicates.
 
----
+______________________________________________________________________
 
-# 30. NORMALIZATION COLLISIONS
+## 30. NORMALIZATION COLLISIONS
 
 Unicode names can be canonically equivalent despite different byte sequences.
 
@@ -1260,9 +1256,9 @@ before collision comparison.
 
 This is especially relevant for cross-platform repositories.
 
----
+______________________________________________________________________
 
-# 31. NAME IDENTITY VS ARTIFACT IDENTITY
+## 31. NAME IDENTITY VS ARTIFACT IDENTITY
 
 Filesystem names are representations.
 
@@ -1287,9 +1283,9 @@ ArtifactIdentity:
 
 This allows safe rename without identity loss.
 
----
+______________________________________________________________________
 
-# 32. PATH ALIAS LEDGER
+## 32. PATH ALIAS LEDGER
 
 A migration should retain:
 
@@ -1318,9 +1314,9 @@ link repair
 historical provenance
 ```
 
----
+______________________________________________________________________
 
-# 33. REFERENCE INTEGRITY
+## 33. REFERENCE INTEGRITY
 
 Renaming a file or folder can break:
 
@@ -1346,9 +1342,9 @@ FilesystemRenameComplete
 RepositoryMigrationComplete
 ```
 
----
+______________________________________________________________________
 
-# 34. REFERENCE GRAPH
+## 34. REFERENCE GRAPH
 
 Before commit:
 
@@ -1373,9 +1369,9 @@ old_path
 → update or quarantine
 ```
 
----
+______________________________________________________________________
 
-# 35. REFERENCE TYPES
+## 35. REFERENCE TYPES
 
 ```text
 PYTHON_IMPORT
@@ -1395,9 +1391,9 @@ UNKNOWN
 
 Not all string matches should be automatically rewritten.
 
----
+______________________________________________________________________
 
-# 36. SYMBOL RENAME FIREWALL
+## 36. SYMBOL RENAME FIREWALL
 
 Current engine renames filesystem objects only.
 
@@ -1415,9 +1411,9 @@ SymbolRename
 
 Automatic path cleanup must not silently imply object-symbol cleanup.
 
----
+______________________________________________________________________
 
-# 37. REGISTRY INTEGRITY
+## 37. REGISTRY INTEGRITY
 
 If a component registry contains:
 
@@ -1446,9 +1442,9 @@ must be independently typed.
 
 Do not mechanically force them to match.
 
----
+______________________________________________________________________
 
-# 38. DRY-RUN MODE
+## 38. DRY-RUN MODE
 
 Source supports:
 
@@ -1474,9 +1470,9 @@ DryRunResult:
   status:
 ```
 
----
+______________________________________________________________________
 
-# 39. DEFAULT MODE CORRECTION
+## 39. DEFAULT MODE CORRECTION
 
 Current source:
 
@@ -1502,9 +1498,9 @@ requires
 explicit commit intent.
 ```
 
----
+______________________________________________________________________
 
-# 40. TWO-PHASE MIGRATION
+## 40. TWO-PHASE MIGRATION
 
 Recommended:
 
@@ -1524,15 +1520,15 @@ record
 
 Conceptually:
 
-[
+\[
 Commit(P)
-]
+\]
 
 is permitted only if the filesystem snapshot still matches the prepared plan.
 
----
+______________________________________________________________________
 
-# 41. SNAPSHOT FRESHNESS
+## 41. SNAPSHOT FRESHNESS
 
 Between dry run and execution, the repository can change.
 
@@ -1557,9 +1553,9 @@ CurrentSnapshotHash
 
 or re-plan.
 
----
+______________________________________________________________________
 
-# 42. MIGRATION TRANSACTION
+## 42. MIGRATION TRANSACTION
 
 ```yaml
 RenameTransaction:
@@ -1581,9 +1577,9 @@ RenameTransaction:
   finished_at:
 ```
 
----
+______________________________________________________________________
 
-# 43. TRANSACTION STATE MACHINE
+## 43. TRANSACTION STATE MACHINE
 
 ```text
 DISCOVERED
@@ -1614,9 +1610,9 @@ ROLLED_BACK
 IN_DOUBT
 ```
 
----
+______________________________________________________________________
 
-# 44. DIRECTORY RENAME COMPLEXITY
+## 44. DIRECTORY RENAME COMPLEXITY
 
 Renaming nested paths changes descendant path strings.
 
@@ -1643,9 +1639,9 @@ A/B_v0/C_v0.py
 
 The engine must not use stale pre-parent-rename paths during commit.
 
----
+______________________________________________________________________
 
-# 45. STABLE PLAN REPRESENTATION
+## 45. STABLE PLAN REPRESENTATION
 
 Represent each object relative to the root:
 
@@ -1661,30 +1657,28 @@ Then derive final paths after all parent transformations.
 
 This is safer than storing only mutable absolute paths.
 
----
+______________________________________________________________________
 
-# 46. OBJECT IDENTITY
+## 46. OBJECT IDENTITY
 
 Possible deterministic migration object ID:
 
-[
-ID
-==
+## \[ ID
 
 H(
 relative_path
-\Vert
+\\Vert
 object_type
-\Vert
+\\Vert
 pre_migration_metadata
 )
-]
+\]
 
 This is a migration identity, not a universal object identity.
 
----
+______________________________________________________________________
 
-# 47. FILE HASHES
+## 47. FILE HASHES
 
 For files:
 
@@ -1699,18 +1693,16 @@ Hash before rename and verify after rename.
 
 Expected:
 
-[
-Hash_{before}
-=============
+## \[ Hash\_{before}
 
-Hash_{after}
-]
+Hash\_{after}
+\]
 
 because rename should not modify file contents.
 
----
+______________________________________________________________________
 
-# 48. CONTENT-INTEGRITY INVARIANT
+## 48. CONTENT-INTEGRITY INVARIANT
 
 For rename-only migration:
 
@@ -1724,9 +1716,9 @@ unless reference rewriting is included in the same migration.
 
 If references are rewritten, content changes must be separately recorded.
 
----
+______________________________________________________________________
 
-# 49. RENAME-ONLY VS REFACTOR MODE
+## 49. RENAME-ONLY VS REFACTOR MODE
 
 Two modes should be explicit.
 
@@ -1746,9 +1738,9 @@ changes paths plus selected source references.
 
 Do not mix them implicitly.
 
----
+______________________________________________________________________
 
-# 50. BACKUP / ROLLBACK
+## 50. BACKUP / ROLLBACK
 
 The source has no rollback.
 
@@ -1768,9 +1760,9 @@ new → old
 
 Rollback executes in reverse dependency order.
 
----
+______________________________________________________________________
 
-# 51. ROLLBACK LIMIT
+## 51. ROLLBACK LIMIT
 
 Rollback is possible only if:
 
@@ -1782,9 +1774,9 @@ no conflicting changes occurred
 
 Therefore rollback should be verified, not assumed.
 
----
+______________________________________________________________________
 
-# 52. GIT-AWARE SAFETY
+## 52. GIT-AWARE SAFETY
 
 If running inside a Git repository:
 
@@ -1807,9 +1799,9 @@ for large rename migrations.
 
 Do not assume Git exists universally, but if present it provides strong recovery evidence.
 
----
+______________________________________________________________________
 
-# 53. GIT IS NOT MIGRATION AUTHORITY
+## 53. GIT IS NOT MIGRATION AUTHORITY
 
 Even if:
 
@@ -1829,9 +1821,9 @@ history
 
 not semantic validation.
 
----
+______________________________________________________________________
 
-# 54. SYMLINK FIREWALL
+## 54. SYMLINK FIREWALL
 
 Filesystem traversal can encounter symlinks.
 
@@ -1852,23 +1844,23 @@ DO_NOT_FOLLOW_EXTERNAL_SYMLINK_TARGETS
 
 to prevent root escape.
 
----
+______________________________________________________________________
 
-# 55. PATH ESCAPE INVARIANT
+## 55. PATH ESCAPE INVARIANT
 
 Every planned target must satisfy:
 
-[
+\[
 ResolvedPath
-\in
+\\in
 TargetRoot
-]
+\]
 
 No operation may escape `_AMOS_UNIVERSE`.
 
----
+______________________________________________________________________
 
-# 56. PERMISSION FAILURES
+## 56. PERMISSION FAILURES
 
 Possible failure:
 
@@ -1882,9 +1874,9 @@ platform restriction
 
 These must create structured failures rather than leaving an unexplained partial migration.
 
----
+______________________________________________________________________
 
-# 57. PARTIAL MIGRATION
+## 57. PARTIAL MIGRATION
 
 Current source can:
 
@@ -1909,9 +1901,9 @@ not:
 DONE
 ```
 
----
+______________________________________________________________________
 
-# 58. COMMIT RECEIPT
+## 58. COMMIT RECEIPT
 
 ```yaml
 MigrationReceipt:
@@ -1939,9 +1931,9 @@ MigrationReceipt:
   status:
 ```
 
----
+______________________________________________________________________
 
-# 59. PROVENANCE
+## 59. PROVENANCE
 
 Every renamed object should retain lineage.
 
@@ -1963,9 +1955,9 @@ RenameProvenance:
   performed_at:
 ```
 
----
+______________________________________________________________________
 
-# 60. RENAME RULE REGISTRY
+## 60. RENAME RULE REGISTRY
 
 ```yaml
 rules:
@@ -2032,9 +2024,9 @@ rules:
 
 This preserves exact migration semantics.
 
----
+______________________________________________________________________
 
-# 61. DUPLICATE RULE NOTE
+## 61. DUPLICATE RULE NOTE
 
 The source lists both:
 
@@ -2061,9 +2053,9 @@ under the configured matcher.
 
 This redundancy should be removed or documented.
 
----
+______________________________________________________________________
 
-# 62. RULE REDUNDANCY INVARIANT
+## 62. RULE REDUNDANCY INVARIANT
 
 For rules (r_i,r_j):
 
@@ -2075,9 +2067,9 @@ deduplicate
 
 unless order or provenance requires both identities.
 
----
+______________________________________________________________________
 
-# 63. REGEX SAFETY
+## 63. REGEX SAFETY
 
 Current patterns are simple literals encoded as regex strings.
 
@@ -2103,41 +2095,37 @@ vs:
 LITERAL
 ```
 
----
+______________________________________________________________________
 
-# 64. RENAME DECISION FUNCTION
+## 64. RENAME DECISION FUNCTION
 
 Conceptual:
 
-[
-Rename(p)
-=========
+## \[ Rename(p)
 
 Supported(p)
-\land
+\\land
 NotProtected(p)
-\land
-T(name(p))\neq name(p)
-]
+\\land
+T(name(p))\\neq name(p)
+\]
 
 But production-safe rename requires:
 
-[
-SafeRename(p)
-=============
+## \[ SafeRename(p)
 
 Rename(p)
-\land
+\\land
 NoCollision(p)
-\land
+\\land
 SemanticRiskAccepted(p)
-\land
+\\land
 ReferenceImpactHandled(p)
-]
+\]
 
----
+______________________________________________________________________
 
-# 65. DETERMINISM CONTRACT
+## 65. DETERMINISM CONTRACT
 
 For a fixed:
 
@@ -2162,9 +2150,9 @@ Sort all operations explicitly.
 
 Do not rely on unspecified traversal order.
 
----
+______________________________________________________________________
 
-# 66. PLATFORM FIREWALL
+## 66. PLATFORM FIREWALL
 
 `Path.rename()` behavior can differ by operating system and filesystem.
 
@@ -2186,9 +2174,9 @@ DeterministicNameMapping
 PlatformIndependentExecution
 ```
 
----
+______________________________________________________________________
 
-# 67. CASE-ONLY RENAMES
+## 67. CASE-ONLY RENAMES
 
 On case-insensitive filesystems:
 
@@ -2202,9 +2190,9 @@ may require an intermediate temporary name.
 
 The current source does not explicitly handle this class.
 
----
+______________________________________________________________________
 
-# 68. TEMPORARY NAMESPACE
+## 68. TEMPORARY NAMESPACE
 
 For collision-safe commits, a two-step temporary namespace may be required:
 
@@ -2225,15 +2213,15 @@ B → A
 
 Even if current rules rarely create swaps, the engine should model the case.
 
----
+______________________________________________________________________
 
-# 69. RENAME GRAPH
+## 69. RENAME GRAPH
 
 Treat rename mapping as directed graph:
 
-[
+\[
 G_R=(V,E)
-]
+\]
 
 where:
 
@@ -2252,21 +2240,21 @@ many-to-one edges
 
 before commit.
 
----
+______________________________________________________________________
 
-# 70. MANY-TO-ONE FAILURE
+## 70. MANY-TO-ONE FAILURE
 
 If:
 
-[
-a\neq b
-]
+\[
+a\\neq b
+\]
 
 but:
 
-[
+\[
 T(a)=T(b)
-]
+\]
 
 then:
 
@@ -2276,9 +2264,9 @@ MANY_TO_ONE_COLLISION
 
 and migration must stop unless an explicit merge rule exists.
 
----
+______________________________________________________________________
 
-# 71. EMPTY / RESERVED NAMES
+## 71. EMPTY / RESERVED NAMES
 
 Validate output names against:
 
@@ -2292,9 +2280,9 @@ path length limits
 
 Platform-specific checks should remain explicit.
 
----
+______________________________________________________________________
 
-# 72. SEMANTIC CLASSIFICATION
+## 72. SEMANTIC CLASSIFICATION
 
 Each token removal should be classified:
 
@@ -2328,9 +2316,9 @@ QUARANTINE
 
 for high-value repositories.
 
----
+______________________________________________________________________
 
-# 73. CANON TOKEN WARNING
+## 73. CANON TOKEN WARNING
 
 The source removes:
 
@@ -2366,9 +2354,9 @@ should **not** be globally treated as decorative without a migration-specific ev
 
 This is a critical semantic risk.
 
----
+______________________________________________________________________
 
-# 74. OMEGA TOKEN WARNING
+## 74. OMEGA TOKEN WARNING
 
 Similarly:
 
@@ -2394,9 +2382,9 @@ CONDITIONAL
 
 not universally safe.
 
----
+______________________________________________________________________
 
-# 75. FULL / EXPANDED WARNING
+## 75. FULL / EXPANDED WARNING
 
 Tokens such as:
 
@@ -2419,9 +2407,9 @@ into one namespace.
 
 If the distinctions represent different content, token deletion causes identity collapse.
 
----
+______________________________________________________________________
 
-# 76. IDENTITY-COLLAPSE TEST
+## 76. IDENTITY-COLLAPSE TEST
 
 Before allowing a rule:
 
@@ -2437,9 +2425,9 @@ IDENTITY_COLLAPSE
 
 must be surfaced.
 
----
+______________________________________________________________________
 
-# 77. CONTENT DIFFERENCE TEST
+## 77. CONTENT DIFFERENCE TEST
 
 For colliding candidate files:
 
@@ -2459,9 +2447,9 @@ hash(A) == hash(B)
 
 automatic merge still requires policy because provenance may differ.
 
----
+______________________________________________________________________
 
-# 78. DIRECTORY COLLAPSE TEST
+## 78. DIRECTORY COLLAPSE TEST
 
 Two directories may normalize to one destination.
 
@@ -2477,9 +2465,9 @@ subtree conflicts
 
 before any merge decision.
 
----
+______________________________________________________________________
 
-# 79. AMOS MIGRATION PRINCIPLE
+## 79. AMOS MIGRATION PRINCIPLE
 
 Correct transformation:
 
@@ -2499,9 +2487,9 @@ version lineage
 
 not merely produce shorter names.
 
----
+______________________________________________________________________
 
-# 80. MIGRATION MANIFEST
+## 80. MIGRATION MANIFEST
 
 ```yaml
 AMOSRenameManifest:
@@ -2532,9 +2520,9 @@ AMOSRenameManifest:
   rollback:
 ```
 
----
+______________________________________________________________________
 
-# 81. PRE-FLIGHT PIPELINE
+## 81. PRE-FLIGHT PIPELINE
 
 ```text
 RESOLVE ROOT
@@ -2564,9 +2552,9 @@ HASH PLAN
 
 No mutation yet.
 
----
+______________________________________________________________________
 
-# 82. APPROVAL GATE
+## 82. APPROVAL GATE
 
 Real mutation should require:
 
@@ -2579,9 +2567,9 @@ DRY RUN PASS
 ∧ Explicit Commit Mode
 ```
 
----
+______________________________________________________________________
 
-# 83. COMMIT PIPELINE
+## 83. COMMIT PIPELINE
 
 ```text
 LOAD APPROVED PLAN
@@ -2607,9 +2595,9 @@ RUN REPOSITORY TESTS
 WRITE RECEIPT
 ```
 
----
+______________________________________________________________________
 
-# 84. POST-MIGRATION VERIFICATION
+## 84. POST-MIGRATION VERIFICATION
 
 Minimum:
 
@@ -2625,9 +2613,9 @@ protected trees unchanged
 manifest complete
 ```
 
----
+______________________________________________________________________
 
-# 85. PYTHON IMPORT VALIDATION
+## 85. PYTHON IMPORT VALIDATION
 
 For Python repositories, run at minimum where applicable:
 
@@ -2647,9 +2635,9 @@ dynamic imports
 plugin registries
 ```
 
----
+______________________________________________________________________
 
-# 86. TYPESCRIPT VALIDATION
+## 86. TYPESCRIPT VALIDATION
 
 Renaming `.ts` files can invalidate:
 
@@ -2671,9 +2659,9 @@ tests
 
 where available.
 
----
+______________________________________________________________________
 
-# 87. MARKDOWN VALIDATION
+## 87. MARKDOWN VALIDATION
 
 Renaming `.md` files can invalidate:
 
@@ -2687,9 +2675,9 @@ documentation references
 
 Therefore update link graphs or preserve aliases.
 
----
+______________________________________________________________________
 
-# 88. JSON VALIDATION
+## 88. JSON VALIDATION
 
 Renaming `.json` files can invalidate:
 
@@ -2703,9 +2691,9 @@ schema references
 
 Validate JSON syntax and consumer references.
 
----
+______________________________________________________________________
 
-# 89. RSCF PATH LINEAGE
+## 89. RSCF PATH LINEAGE
 
 If an RSCF node stores:
 
@@ -2726,9 +2714,9 @@ claim class
 
 merely because the path changed.
 
----
+______________________________________________________________________
 
-# 90. PROTECTED AMOS IDENTITIES
+## 90. PROTECTED AMOS IDENTITIES
 
 Potential protected identity classes:
 
@@ -2745,9 +2733,9 @@ external integration IDs
 
 These require explicit migration rules.
 
----
+______________________________________________________________________
 
-# 91. EXTERNAL REFERENCES
+## 91. EXTERNAL REFERENCES
 
 Repository-local search cannot detect every consumer.
 
@@ -2778,9 +2766,9 @@ GLOBALLY_REFERENCE_COMPLETE
 
 unless external dependencies are audited.
 
----
+______________________________________________________________________
 
-# 92. FAILURE REGISTRY
+## 92. FAILURE REGISTRY
 
 ```text
 F01 TARGET_ROOT_MISSING
@@ -2813,9 +2801,9 @@ F27 SOURCE_VERSION_OVERWRITE
 F28 DRY_RUN_REAL_RUN_DIVERGENCE
 ```
 
----
+______________________________________________________________________
 
-# 93. FAILURE RECORD
+## 93. FAILURE RECORD
 
 ```yaml
 RenameFailure:
@@ -2843,9 +2831,9 @@ RenameFailure:
   status:
 ```
 
----
+______________________________________________________________________
 
-# 94. FAILURE RECOVERY
+## 94. FAILURE RECOVERY
 
 ```text
 FAILURE
@@ -2874,9 +2862,9 @@ Do not continue blindly
 after an unexpected rename failure.
 ```
 
----
+______________________________________________________________________
 
-# 95. SELECTIVE ROLLBACK
+## 95. SELECTIVE ROLLBACK
 
 Rollback only affected migration descendants.
 
@@ -2884,9 +2872,9 @@ Do not reset unrelated repository changes if they were not caused by the rename 
 
 This preserves AMOS selective invalidation semantics.
 
----
+______________________________________________________________________
 
-# 96. EXECUTION PROVENANCE
+## 96. EXECUTION PROVENANCE
 
 ```yaml
 RenameExecution:
@@ -2921,9 +2909,9 @@ RenameExecution:
   receipt_hash:
 ```
 
----
+______________________________________________________________________
 
-# 97. OBSERVABILITY
+## 97. OBSERVABILITY
 
 Track:
 
@@ -2942,9 +2930,9 @@ rollback count
 elapsed time
 ```
 
----
+______________________________________________________________________
 
-# 98. METRICS FIREWALL
+## 98. METRICS FIREWALL
 
 A count such as:
 
@@ -2967,9 +2955,9 @@ tests pass
 manifest verified
 ```
 
----
+______________________________________________________________________
 
-# 99. SOURCE CLAIM — CLEAN
+## 99. SOURCE CLAIM — CLEAN
 
 The engine title calls itself:
 
@@ -2992,9 +2980,9 @@ no dependency break
 no unintended mutation
 ```
 
----
+______________________________________________________________________
 
-# 100. SOURCE CLAIM — SAFE
+## 100. SOURCE CLAIM — SAFE
 
 The engine title calls itself:
 
@@ -3021,9 +3009,9 @@ OVERSTATED FOR CURRENT IMPLEMENTATION
 
 The code is constrained, but not yet safely migrational in the AMOS governance sense.
 
----
+______________________________________________________________________
 
-# 101. SOURCE CLAIM — DETERMINISTIC
+## 101. SOURCE CLAIM — DETERMINISTIC
 
 This claim is partially supported.
 
@@ -3048,9 +3036,9 @@ WholeMigrationDeterministic =
 CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
-# 102. RENAME ENGINE STATE MACHINE
+## 102. RENAME ENGINE STATE MACHINE
 
 ```text
 UNINITIALIZED
@@ -3083,9 +3071,9 @@ ROLLING_BACK
 ROLLED_BACK
 ```
 
----
+______________________________________________________________________
 
-# 103. GOVERNED CONFIGURATION
+## 103. GOVERNED CONFIGURATION
 
 Recommended:
 
@@ -3124,9 +3112,9 @@ RenameEngineConfig:
   require_verification: true
 ```
 
----
+______________________________________________________________________
 
-# 104. HARD RENAME INVARIANTS
+## 104. HARD RENAME INVARIANTS
 
 ```text
 I01 TargetRootIsExplicit
@@ -3155,9 +3143,9 @@ I23 MigrationSuccessRequiresPostValidation
 I24 UnknownCriticalSemanticImpactBlocksCommit
 ```
 
----
+______________________________________________________________________
 
-# 105. TEST SUITE — PURE FUNCTIONS
+## 105. TEST SUITE — PURE FUNCTIONS
 
 ```text
 T01 clean_base removes SUPERSTACK
@@ -3174,9 +3162,9 @@ T11 empty cleaned base rejected
 T12 redundant rules detected
 ```
 
----
+______________________________________________________________________
 
-# 106. TEST SUITE — PLANNER
+## 106. TEST SUITE — PLANNER
 
 ```text
 T13 protected directory excluded
@@ -3194,9 +3182,9 @@ T24 invalid target name rejected
 T25 final descendant paths computed correctly
 ```
 
----
+______________________________________________________________________
 
-# 107. TEST SUITE — EXECUTION
+## 107. TEST SUITE — EXECUTION
 
 ```text
 T26 dry run performs zero renames
@@ -3211,9 +3199,9 @@ T34 rollback conflict detected
 T35 manifest matches actual filesystem
 ```
 
----
+______________________________________________________________________
 
-# 108. TEST SUITE — REPOSITORY INTEGRITY
+## 108. TEST SUITE — REPOSITORY INTEGRITY
 
 ```text
 T36 Python imports valid
@@ -3228,9 +3216,9 @@ T44 no unintended file-content changes
 T45 migration receipt generated
 ```
 
----
+______________________________________________________________________
 
-# 109. RSCF — CURRENT SOURCE
+## 109. RSCF — CURRENT SOURCE
 
 ```yaml
 claim_id: RENAME-ENGINE-SOURCE-001
@@ -3267,9 +3255,9 @@ confidence_ceiling:
   repository_runtime_result: not_executed_here
 ```
 
----
+______________________________________________________________________
 
-# 110. RSCF — DETERMINISM CLAIM
+## 110. RSCF — DETERMINISM CLAIM
 
 ```yaml
 claim_id: RENAME-ENGINE-DETERMINISM-001
@@ -3293,9 +3281,9 @@ does_not_establish:
   - transactionally deterministic repository migration
 ```
 
----
+______________________________________________________________________
 
-# 111. RSCF — SAFETY CLAIM
+## 111. RSCF — SAFETY CLAIM
 
 ```yaml
 claim_id: RENAME-ENGINE-SAFETY-001
@@ -3318,9 +3306,9 @@ confidence_ceiling:
   high
 ```
 
----
+______________________________________________________________________
 
-# 112. RSCF — SEMANTIC NORMALIZATION
+## 112. RSCF — SEMANTIC NORMALIZATION
 
 ```yaml
 claim_id: RENAME-ENGINE-SEMANTIC-001
@@ -3349,9 +3337,9 @@ confidence_ceiling:
   unknown
 ```
 
----
+______________________________________________________________________
 
-# 113. RSCF — `_v0` ASSIGNMENT
+## 113. RSCF — `_v0` ASSIGNMENT
 
 ```yaml
 claim_id: RENAME-ENGINE-VERSION-001
@@ -3370,9 +3358,9 @@ hard_rule:
   assigned_version_must_remain_distinct_from_source_version: true
 ```
 
----
+______________________________________________________________________
 
-# 114. GAP REGISTRY
+## 114. GAP REGISTRY
 
 | Gap                              | Class                           | Consequence                      |
 | -------------------------------- | ------------------------------- | -------------------------------- |
@@ -3387,9 +3375,9 @@ hard_rule:
 | No post-tests                    | CRITICAL                        | migration correctness unverified |
 | No external-reference audit      | EXPLANATORY / DECISION-RELEVANT | scope boundary unclear           |
 
----
+______________________________________________________________________
 
-# 115. CURRENT COMPLETION AUDIT
+## 115. CURRENT COMPLETION AUDIT
 
 ```yaml
 completion:
@@ -3417,9 +3405,9 @@ completion:
     state: MUTATING_RENAME_ENGINE_V1
 ```
 
----
+______________________________________________________________________
 
-# 116. AMOS GOVERNED V2 [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]
+## 116. AMOS GOVERNED V2 [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]
 
 ```text
 SOURCE TREE
@@ -3459,9 +3447,9 @@ MIGRATION RECEIPT
 ROLLBACK / CLOSE
 ```
 
----
+______________________________________________________________________
 
-# 117. RECOMMENDED ENGINE TYPES
+## 117. RECOMMENDED ENGINE TYPES
 
 ```python
 from dataclasses import dataclass
@@ -3505,9 +3493,9 @@ class RenamePlan:
     plan_hash: str
 ```
 
----
+______________________________________________________________________
 
-# 118. RECOMMENDED SAFER DEFAULTS
+## 118. RECOMMENDED SAFER DEFAULTS
 
 ```python
 DRY_RUN = True
@@ -3523,9 +3511,9 @@ REQUIRE_MANIFEST = True
 REQUIRE_POST_VALIDATION = True
 ```
 
----
+______________________________________________________________________
 
-# 119. RECOMMENDED SAFE `clean_base`
+## 119. RECOMMENDED SAFE `clean_base`
 
 ```python
 def clean_base(
@@ -3578,9 +3566,9 @@ def clean_base(
     return cleaned, tuple(applied)
 ```
 
----
+______________________________________________________________________
 
-# 120. RECOMMENDED VERSION FUNCTION
+## 120. RECOMMENDED VERSION FUNCTION
 
 ```python
 VERSION_RE = re.compile(
@@ -3598,9 +3586,9 @@ def apply_version(name: str) -> tuple[str, bool]:
 
 This preserves source compatibility while exposing whether the version was assigned.
 
----
+______________________________________________________________________
 
-# 121. PLAN-FIRST API
+## 121. PLAN-FIRST API
 
 ```python
 def build_plan(
@@ -3630,9 +3618,9 @@ def commit_plan(
 
 This separation is preferable to one `rename_item()` that decides and mutates immediately.
 
----
+______________________________________________________________________
 
-# 122. MIGRATION AUTHORITY
+## 122. MIGRATION AUTHORITY
 
 Because repository-wide rename is consequential:
 
@@ -3656,9 +3644,9 @@ MigrationAuthority:
   expires_at:
 ```
 
----
+______________________________________________________________________
 
-# 123. HUMAN REVIEW GATE
+## 123. HUMAN REVIEW GATE
 
 For large AMOS canon/repository migrations:
 
@@ -3685,9 +3673,9 @@ EXPANDED
 
 because those may encode load-bearing distinctions.
 
----
+______________________________________________________________________
 
-# 124. 7-PART PERSISTENCE MAPPING
+## 124. 7-PART PERSISTENCE MAPPING
 
 | 7-Part      | Rename Engine                           |
 | ----------- | --------------------------------------- |
@@ -3703,9 +3691,9 @@ Class:
 
 `AMOS_MODEL`
 
----
+______________________________________________________________________
 
-# 125. AGENT / TOOL CLASSIFICATION
+## 125. AGENT / TOOL CLASSIFICATION
 
 Despite the topic tag `agents`, this source is primarily:
 
@@ -3743,9 +3731,9 @@ into an "agent"
 without an actual agent contract.
 ```
 
----
+______________________________________________________________________
 
-# 126. INTEGRATED-AGENT RELATION
+## 126. INTEGRATED-AGENT RELATION
 
 If used inside an Integrated Agent architecture:
 
@@ -3775,9 +3763,9 @@ Deterministic engine
 → executes approved mapping
 ```
 
----
+______________________________________________________________________
 
-# 127. CONTROL-PLANE BOUNDARY
+## 127. CONTROL-PLANE BOUNDARY
 
 The rename engine must not decide on its own that a semantic identifier is safe to delete.
 
@@ -3800,9 +3788,9 @@ filesystem execution
 receipt generation
 ```
 
----
+______________________________________________________________________
 
-# 128. RSCF MASTER NODE
+## 128. RSCF MASTER NODE
 
 ```yaml
 node_id: AMOS_UNIVERSAL_RENAME_ENGINE_V3
@@ -3882,9 +3870,9 @@ confidence_ceiling:
   production_migration_readiness: not_established
 ```
 
----
+______________________________________________________________________
 
-# 129. CHANGELOG
+## 129. CHANGELOG
 
 ## v3.0.0 — 2026-08-25
 
@@ -3953,9 +3941,9 @@ supported-file rename
 DRY_RUN / real-run mode
 ```
 
----
+______________________________________________________________________
 
-# 130. FINAL AMOS POSITION
+## 130. FINAL AMOS POSITION
 
 The supplied code is a useful deterministic **rename primitive**, but it is not yet a complete repository migration system.
 
@@ -4015,30 +4003,33 @@ The fourth invariant is:
 
 > **A repository-wide rename is an effectful migration and must be planned, validated, reversible, and provenance-bound before it is trusted.**
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · 06-Knowledge-Base-MOC · AMOS_AGENT_SCHEMA_FULL · AMOS_AGENT_TEMPLATES · AMOS_AGENT_ONBOARDING_GUIDE · EnvironmentScan_Agent · Executor_Agent · system_scan_agent · automation_profiles
 
 ```
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: integrated_agent
 node_type: note
 path: 11_KNOWLEDGE/INTEGRATED_AGENT.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]]
-

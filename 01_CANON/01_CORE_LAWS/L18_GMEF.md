@@ -1,38 +1,41 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: L18 GMEF
 type: gmef
 source: 01_CANON/01_CORE_LAWS
 tags:
-- canon
-- core_laws
-- gmef
-- gate_laws
-- governance
-- gate_composition
-- fail_closed
-- decision_receipts
-- authority_separation
-- promotion
-- audit
-- state_transition
-- epoch
-- digest
-- provenance
-- canon/universe
-- validation
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- law/L17-rscf
-- law/L16-hml
-- provenance-topology
-- scope-regime-firewall
-- causal-epoch-finality
-- persistent-provenance
-- mvcc-cas
-- atomic-multi-rscf
-- law/L10-failure-recovery
-- law/L11-knowledge-memory
-- law/L15-fractal-knowledge
+  - canon
+  - core_laws
+  - gmef
+  - gate_laws
+  - governance
+  - gate_composition
+  - fail_closed
+  - decision_receipts
+  - authority_separation
+  - promotion
+  - audit
+  - state_transition
+  - epoch
+  - digest
+  - provenance
+  - canon/universe
+  - validation
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - law/L17-rscf
+  - law/L16-hml
+  - provenance-topology
+  - scope-regime-firewall
+  - causal-epoch-finality
+  - persistent-provenance
+  - mvcc-cas
+  - atomic-multi-rscf
+  - law/L10-failure-recovery
+  - law/L11-knowledge-memory
+  - law/L15-fractal-knowledge
 rscf:
   state: SOURCE_CLAIM
   claim_class: CONDITIONAL
@@ -51,9 +54,9 @@ rscf:
 **canonical_status:** CONDITIONAL
 **updated:** 2026-08-26
 
----
+______________________________________________________________________
 
-# 0. Status
+## 0. Status
 
 L18 defines the proposed AMOS **GMEF Gate Laws**.
 
@@ -82,7 +85,7 @@ It replaces the prior placeholder with a structured specification governing:
 
 L18 remains:
 
-```text
+````text
 PROPOSED_SPECIFICATION
         │
         ▼
@@ -100,7 +103,7 @@ GMEF-1 GATE COMPOSITION
 GMEF-2 FAIL CLOSED
 GMEF-3 RECEIPT REQUIRED
 GMEF-4 AUTHORITY SEPARATION
-```
+````
 
 The central invariant is:
 
@@ -111,9 +114,9 @@ DECISION EVIDENCE,
 OR AUTHORITY.
 ```
 
----
+______________________________________________________________________
 
-# 1. Governing Objective
+## 1. Governing Objective
 
 GMEF governs whether a proposed transition is permitted to cross a governance boundary.
 
@@ -157,9 +160,9 @@ AUDIT LATER
 RETROACTIVELY JUSTIFY
 ```
 
----
+______________________________________________________________________
 
-# 2. Core GMEF Laws
+## 2. Core GMEF Laws
 
 ```text
 GMEF-1
@@ -206,9 +209,9 @@ COMMIT
 
 Passing gates makes a transition eligible only within the authority actually granted by those gates and the governing promotion process.
 
----
+______________________________________________________________________
 
-# 3. GMEF-1 — Gate Composition
+## 3. GMEF-1 — Gate Composition
 
 **Law**
 
@@ -221,9 +224,9 @@ This establishes two distinct requirements:
 2. NON-TRANSFER OF GATE AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 4. Pre-Transition Evaluation
+## 4. Pre-Transition Evaluation
 
 For transition:
 
@@ -254,9 +257,9 @@ evaluate gate
 
 where the gate is intended to authorize that transition.
 
----
+______________________________________________________________________
 
-# 5. Transition Proposal vs Transition Commit
+## 5. Transition Proposal vs Transition Commit
 
 GMEF should distinguish:
 
@@ -292,9 +295,9 @@ COMMIT S1
 
 This permits reversible preparation without bypassing governance.
 
----
+______________________________________________________________________
 
-# 6. Required Gate Set
+## 6. Required Gate Set
 
 For transition `T`, conceptually:
 
@@ -319,9 +322,9 @@ subject to authority and freshness requirements.
 
 This formalization is an AMOS_MODEL extension of GMEF-1.
 
----
+______________________________________________________________________
 
-# 7. Passing One Gate Grants No Others
+## 7. Passing One Gate Grants No Others
 
 Suppose:
 
@@ -357,9 +360,9 @@ PASS(Gi)
 UNIVERSAL AUTHORIZATION
 ```
 
----
+______________________________________________________________________
 
-# 8. Gate Independence of Decision
+## 8. Gate Independence of Decision
 
 Each gate evaluates its own governed predicate.
 
@@ -380,9 +383,9 @@ THE CONDITION GOVERNED BY G1 PASSED
 
 unless canon explicitly assigns broader authority.
 
----
+______________________________________________________________________
 
-# 9. Gate Composition Is Conjunctive Where All Gates Are Mandatory
+## 9. Gate Composition Is Conjunctive Where All Gates Are Mandatory
 
 If:
 
@@ -418,9 +421,9 @@ T = DENY
 
 for that transition.
 
----
+______________________________________________________________________
 
-# 10. No Pass Averaging
+## 10. No Pass Averaging
 
 Invalid:
 
@@ -443,9 +446,9 @@ ONE REQUIRED DENY
 TRANSITION DENIED
 ```
 
----
+______________________________________________________________________
 
-# 11. Optional Gates
+## 11. Optional Gates
 
 The supplied source does not define optional/advisory gates.
 
@@ -461,9 +464,9 @@ gate taxonomy is not canonically established by L18.
 
 If introduced operationally, optional gates must not silently acquire mandatory or authorizing semantics.
 
----
+______________________________________________________________________
 
-# 12. Alternative Gate Paths
+## 12. Alternative Gate Paths
 
 The supplied source does not define whether multiple valid gate paths may authorize the same transition.
 
@@ -483,9 +486,9 @@ But this must be explicitly defined by governance policy.
 
 Do not infer alternative authorization paths merely because one mandatory gate cannot pass.
 
----
+______________________________________________________________________
 
-# 13. Gate Bypass
+## 13. Gate Bypass
 
 Invalid:
 
@@ -507,9 +510,9 @@ CANNOT DECIDE
 DENY
 ```
 
----
+______________________________________________________________________
 
-# 14. Gate Order
+## 14. Gate Order
 
 The source establishes that gates precede the state transition.
 
@@ -529,9 +532,9 @@ G2 → G1 → G3
 
 is unspecified unless dependency or governance semantics require order.
 
----
+______________________________________________________________________
 
-# 15. Cheap-First Evaluation
+## 15. Cheap-First Evaluation
 
 Where gate decisions are independent and ordering does not change semantics, an implementation may evaluate cheap/high-information gates first.
 
@@ -549,9 +552,9 @@ rather than evaluating expensive gates that cannot alter the result.
 
 This is an optimization model, not a source-defined GMEF law.
 
----
+______________________________________________________________________
 
-# 16. Gate Dependency
+## 16. Gate Dependency
 
 Some gates may depend on outputs from others.
 
@@ -569,9 +572,9 @@ If G2 requires R1, evaluation order becomes dependency-constrained.
 
 The exact canonical dependency semantics are not supplied by L18.
 
----
+______________________________________________________________________
 
-# 17. Gate Composition Graph
+## 17. Gate Composition Graph
 
 A proposed representation:
 
@@ -594,9 +597,9 @@ gate_graph:
 
 This remains AMOS_MODEL.
 
----
+______________________________________________________________________
 
-# 18. Gate Scope
+## 18. Gate Scope
 
 A gate pass should be scoped to the transition it evaluated.
 
@@ -614,9 +617,9 @@ PASS(G, T2)
 
 unless T2 is proven equivalent within the gate's validity envelope.
 
----
+______________________________________________________________________
 
-# 19. Gate Input Binding
+## 19. Gate Input Binding
 
 A gate decision is meaningful only relative to the inputs it evaluated.
 
@@ -634,9 +637,9 @@ if I2 materially differs.
 
 This follows naturally from GMEF-3's requirement that receipts record inputs.
 
----
+______________________________________________________________________
 
-# 20. Gate Decision Identity
+## 20. Gate Decision Identity
 
 A consequential gate decision should conceptually be represented as:
 
@@ -666,9 +669,9 @@ The source explicitly requires decision, inputs, epoch, and digest in the receip
 
 `gate_id` and `transition_id` are model-level identity extensions.
 
----
+______________________________________________________________________
 
-# 21. GMEF-2 — Fail Closed
+## 21. GMEF-2 — Fail Closed
 
 **Law**
 
@@ -684,9 +687,9 @@ DENY(G,T)
 
 for purposes of the governed transition.
 
----
+______________________________________________________________________
 
-# 22. Fail-Closed Invariant
+## 22. Fail-Closed Invariant
 
 ```text
 UNKNOWN
@@ -712,9 +715,9 @@ ALLOW
 
 when those conditions prevent the gate from deciding.
 
----
+______________________________________________________________________
 
-# 23. Indeterminate State
+## 23. Indeterminate State
 
 The source specifies the effective decision:
 
@@ -740,9 +743,9 @@ gate_result:
 
 This preserves the fail-closed behavior while retaining diagnostic information.
 
----
+______________________________________________________________________
 
-# 24. Explicit DENY vs Fail-Closed DENY
+## 24. Explicit DENY vs Fail-Closed DENY
 
 Conceptually distinguish:
 
@@ -770,9 +773,9 @@ INDETERMINATE DENY
 
 This distinction is an AMOS_MODEL extension.
 
----
+______________________________________________________________________
 
-# 25. Missing Input
+## 25. Missing Input
 
 If gate G requires:
 
@@ -800,9 +803,9 @@ not:
 ASSUME I3 PASSES
 ```
 
----
+______________________________________________________________________
 
-# 26. Ambiguous Input
+## 26. Ambiguous Input
 
 If an input has materially ambiguous meaning and the gate cannot determine the governing interpretation:
 
@@ -816,9 +819,9 @@ DENY
 
 until the ambiguity is resolved.
 
----
+______________________________________________________________________
 
-# 27. Stale Input
+## 27. Stale Input
 
 If freshness is required and the gate cannot establish that a load-bearing input remains valid:
 
@@ -832,9 +835,9 @@ DENY
 
 This freshness interpretation is a model extension consistent with fail-closed semantics.
 
----
+______________________________________________________________________
 
-# 28. Contradictory Input
+## 28. Contradictory Input
 
 If gate inputs materially conflict and the gate lacks a defined conflict-resolution rule:
 
@@ -848,9 +851,9 @@ DENY
 
 The contradiction should remain visible rather than being averaged away.
 
----
+______________________________________________________________________
 
-# 29. Gate Evaluation Failure
+## 29. Gate Evaluation Failure
 
 Examples:
 
@@ -873,9 +876,9 @@ under GMEF-2.
 
 The source does not enumerate these specific failure classes; they are applications of the law.
 
----
+______________________________________________________________________
 
-# 30. Fail Closed Is Not Claim Falsity
+## 30. Fail Closed Is Not Claim Falsity
 
 If:
 
@@ -903,9 +906,9 @@ GOVERNANCE DENIAL
 EMPIRICAL FALSIFICATION
 ```
 
----
+______________________________________________________________________
 
-# 31. Fail Closed Is Transition-Local
+## 31. Fail Closed Is Transition-Local
 
 A denial should block the governed transition.
 
@@ -923,9 +926,9 @@ DENY(T2)
 
 without dependency.
 
----
+______________________________________________________________________
 
-# 32. Fail-Closed Recovery
+## 32. Fail-Closed Recovery
 
 The preferred recovery is:
 
@@ -947,9 +950,9 @@ DENY
 LOWER THE GATE
 ```
 
----
+______________________________________________________________________
 
-# 33. No Allow-by-Default
+## 33. No Allow-by-Default
 
 The prohibited pattern is:
 
@@ -969,9 +972,9 @@ NO DECISION
 DENY
 ```
 
----
+______________________________________________________________________
 
-# 34. Silence Is Not Approval
+## 34. Silence Is Not Approval
 
 Conceptually:
 
@@ -991,9 +994,9 @@ ALLOW
 
 This follows jointly from GMEF-2 and GMEF-3.
 
----
+______________________________________________________________________
 
-# 35. GMEF-3 — Receipt Required
+## 35. GMEF-3 — Receipt Required
 
 **Law**
 
@@ -1017,9 +1020,9 @@ receipt:
     string
 ```
 
----
+______________________________________________________________________
 
-# 36. Receipt Purpose
+## 36. Receipt Purpose
 
 A gate receipt answers:
 
@@ -1032,9 +1035,9 @@ BOUND BY WHAT DIGEST?
 
 This makes the gate decision auditable and re-checkable.
 
----
+______________________________________________________________________
 
-# 37. Decision Field
+## 37. Decision Field
 
 ```yaml
 decision:
@@ -1061,9 +1064,9 @@ DEFER
 
 should not be introduced as effective authorization states without authoritative canon.
 
----
+______________________________________________________________________
 
-# 38. Inputs Field
+## 38. Inputs Field
 
 The receipt must preserve the inputs used to make the decision.
 
@@ -1078,9 +1081,9 @@ inputs:
 
 The exact input schema depends on the gate and is not supplied by L18.
 
----
+______________________________________________________________________
 
-# 39. Inputs Must Be Decision-Relevant
+## 39. Inputs Must Be Decision-Relevant
 
 The receipt need not necessarily serialize every environmental detail.
 
@@ -1094,9 +1097,9 @@ RECEIPT INPUTS
 DECISION-RELEVANT INPUT BINDING
 ```
 
----
+______________________________________________________________________
 
-# 40. Epoch Field
+## 40. Epoch Field
 
 The source explicitly requires:
 
@@ -1108,17 +1111,17 @@ but does not define its exact semantics.
 
 Possible roles include:
 
-* governance version,
-* causal epoch,
-* state snapshot,
-* policy generation,
-* finalization epoch.
+- governance version,
+- causal epoch,
+- state snapshot,
+- policy generation,
+- finalization epoch.
 
 These possibilities must remain model-level until authoritative GMEF canon specifies the field.
 
----
+______________________________________________________________________
 
-# 41. Digest Field
+## 41. Digest Field
 
 The source explicitly requires:
 
@@ -1130,18 +1133,18 @@ but does not define what exact object is digested.
 
 Potentially it may bind:
 
-* receipt contents,
-* gate inputs,
-* transition proposal,
-* policy snapshot,
-* state snapshot,
-* some canonical serialization.
+- receipt contents,
+- gate inputs,
+- transition proposal,
+- policy snapshot,
+- state snapshot,
+- some canonical serialization.
 
 The exact digest contract is a gap.
 
----
+______________________________________________________________________
 
-# 42. Receipt Binding
+## 42. Receipt Binding
 
 A strong model interpretation is:
 
@@ -1155,17 +1158,17 @@ However, the supplied source says only that a receipt contains a digest.
 
 It does not establish:
 
-* hash algorithm,
-* signature algorithm,
-* canonical serialization,
-* cryptographic strength,
-* signer identity.
+- hash algorithm,
+- signature algorithm,
+- canonical serialization,
+- cryptographic strength,
+- signer identity.
 
 Do not invent these details.
 
----
+______________________________________________________________________
 
-# 43. Receipt Identity
+## 43. Receipt Identity
 
 A proposed extended receipt:
 
@@ -1196,9 +1199,9 @@ gate_receipt:
 
 Only the final four fields are directly source-required.
 
----
+______________________________________________________________________
 
-# 44. Receipt Provenance
+## 44. Receipt Provenance
 
 A receipt may additionally preserve:
 
@@ -1216,9 +1219,9 @@ This is useful but not explicitly required by the supplied L18 source.
 
 Therefore it remains AMOS_MODEL.
 
----
+______________________________________________________________________
 
-# 45. Receipt Immutability
+## 45. Receipt Immutability
 
 A receipt should conceptually represent the decision that was actually made.
 
@@ -1238,9 +1241,9 @@ A new receipt should preserve lineage.
 
 This is a model extension consistent with auditability.
 
----
+______________________________________________________________________
 
-# 46. Receipt Versioning
+## 46. Receipt Versioning
 
 ```yaml
 receipt:
@@ -1252,9 +1255,9 @@ receipt:
 
 The source does not define receipt versioning, but persistent governance benefits from explicit lineage.
 
----
+______________________________________________________________________
 
-# 47. Receipt Completeness
+## 47. Receipt Completeness
 
 A receipt missing a source-required field is structurally incomplete.
 
@@ -1277,9 +1280,9 @@ Under a strict fail-closed interpretation, if receipt validity is required for t
 
 This remains a derived/model interpretation rather than explicit source law.
 
----
+______________________________________________________________________
 
-# 48. Receipt Validation
+## 48. Receipt Validation
 
 Conceptually:
 
@@ -1302,9 +1305,9 @@ def validate_receipt(receipt):
 
 Structural validity does not prove semantic correctness.
 
----
+______________________________________________________________________
 
-# 49. Receipt Digest Validation
+## 49. Receipt Digest Validation
 
 Conceptually:
 
@@ -1322,9 +1325,9 @@ VALID  INVALID
 
 The exact digest computation cannot be specified from L18.
 
----
+______________________________________________________________________
 
-# 50. Receipt Replay
+## 50. Receipt Replay
 
 A receipt from:
 
@@ -1350,9 +1353,9 @@ PERMANENT PASS
 
 This is a proposed freshness rule.
 
----
+______________________________________________________________________
 
-# 51. Receipt Scope
+## 51. Receipt Scope
 
 ```text
 RECEIPT R
@@ -1370,9 +1373,9 @@ unless equivalence and authority are established.
 
 Receipt reuse therefore requires context compatibility.
 
----
+______________________________________________________________________
 
-# 52. Receipt Reuse
+## 52. Receipt Reuse
 
 A model-level reuse contract:
 
@@ -1390,9 +1393,9 @@ NO MATERIAL STATE CHANGE
 
 The exact canonical reuse conditions are not supplied.
 
----
+______________________________________________________________________
 
-# 53. Receipt Chain
+## 53. Receipt Chain
 
 A multi-gate transition may produce:
 
@@ -1422,9 +1425,9 @@ transition:
 
 This is a proposed representation.
 
----
+______________________________________________________________________
 
-# 54. Receipt Set Completeness
+## 54. Receipt Set Completeness
 
 For required gates:
 
@@ -1448,19 +1451,19 @@ MISSING RECEIPT
 IMPLICIT PASS
 ```
 
----
+______________________________________________________________________
 
-# 55. Receipt and Auditability
+## 55. Receipt and Auditability
 
 A receipt provides evidence of a gate decision.
 
 It does not prove that:
 
-* the gate implementation was correct,
-* the policy was correct,
-* the evaluator had authority,
-* the inputs were truthful,
-* the digest scheme was secure.
+- the gate implementation was correct,
+- the policy was correct,
+- the evaluator had authority,
+- the inputs were truthful,
+- the digest scheme was secure.
 
 Those are separate claims.
 
@@ -1472,9 +1475,9 @@ RECEIPT EXISTS
 GOVERNANCE CORRECTNESS PROVEN
 ```
 
----
+______________________________________________________________________
 
-# 56. GMEF-4 — Authority Separation
+## 56. GMEF-4 — Authority Separation
 
 **Law**
 
@@ -1492,9 +1495,9 @@ and:
 AUTHORIZATION / PROMOTION
 ```
 
----
+______________________________________________________________________
 
-# 57. Audit Pass
+## 57. Audit Pass
 
 An audit pass establishes only what the audit is authorized and capable of establishing.
 
@@ -1511,9 +1514,9 @@ It does not automatically establish:
 artifact may be promoted
 ```
 
----
+______________________________________________________________________
 
-# 58. Audit Is Not Authority
+## 58. Audit Is Not Authority
 
 ```text
 AUDIT PASS
@@ -1529,9 +1532,9 @@ TECHNICAL VALIDITY
 GOVERNANCE AUTHORIZATION
 ```
 
----
+______________________________________________________________________
 
-# 59. Promotion Process
+## 59. Promotion Process
 
 The source explicitly states:
 
@@ -1545,18 +1548,18 @@ It does not define that process.
 
 Therefore the following remain gaps:
 
-* required actors,
-* required gates,
-* required receipts,
-* quorum,
-* signatures,
-* authority hierarchy,
-* finalization rules,
-* rollback rules.
+- required actors,
+- required gates,
+- required receipts,
+- quorum,
+- signatures,
+- authority hierarchy,
+- finalization rules,
+- rollback rules.
 
----
+______________________________________________________________________
 
-# 60. Promotion Eligibility vs Promotion
+## 60. Promotion Eligibility vs Promotion
 
 A useful distinction is:
 
@@ -1574,9 +1577,9 @@ Passing validation gates may establish eligibility.
 
 Only the promotion process can establish promotion.
 
----
+______________________________________________________________________
 
-# 61. Authority Non-Transitivity
+## 61. Authority Non-Transitivity
 
 Suppose:
 
@@ -1610,9 +1613,9 @@ does not imply:
 AUTHORITY(A, promotion)
 ```
 
----
+______________________________________________________________________
 
-# 62. Role Separation
+## 62. Role Separation
 
 A proposed representation:
 
@@ -1634,9 +1637,9 @@ authority:
 
 L18 establishes separation between audit pass and promotion authority but does not define these exact roles.
 
----
+______________________________________________________________________
 
-# 63. Same Actor, Different Authority
+## 63. Same Actor, Different Authority
 
 Authority separation does not necessarily require different physical persons or systems.
 
@@ -1654,9 +1657,9 @@ NECESSARILY ACTOR SEPARATION
 
 unless authoritative canon says otherwise.
 
----
+______________________________________________________________________
 
-# 64. No Authority Inference
+## 64. No Authority Inference
 
 Invalid:
 
@@ -1670,9 +1673,9 @@ Rejected.
 
 Authority must come from the relevant governance process.
 
----
+______________________________________________________________________
 
-# 65. No Promotion-by-Receipt
+## 65. No Promotion-by-Receipt
 
 A gate receipt showing:
 
@@ -1688,9 +1691,9 @@ PROMOTION RECEIPT
 
 unless the governing process explicitly defines that gate as promotion authority.
 
----
+______________________________________________________________________
 
-# 66. Promotion Is a State Transition
+## 66. Promotion Is a State Transition
 
 Conceptually:
 
@@ -1706,9 +1709,9 @@ Promotion therefore itself falls naturally under gate-before-transition reasonin
 
 This is a DERIVED interpretation of GMEF-1 and GMEF-4.
 
----
+______________________________________________________________________
 
-# 67. Canon Promotion Example
+## 67. Canon Promotion Example
 
 ```text
 PROPOSED_SPECIFICATION
@@ -1742,9 +1745,9 @@ AUTHORIZED PROMOTION
 CANONICAL STATE
 ```
 
----
+______________________________________________________________________
 
-# 68. Audit Failure
+## 68. Audit Failure
 
 If a mandatory audit gate denies:
 
@@ -1756,9 +1759,9 @@ the promotion process cannot treat the audit as passed.
 
 Whether another authorized remediation/review path exists is unspecified by L18.
 
----
+______________________________________________________________________
 
-# 69. Promotion Failure
+## 69. Promotion Failure
 
 A candidate may:
 
@@ -1776,9 +1779,9 @@ without contradiction.
 
 The two gates answer different governance questions.
 
----
+______________________________________________________________________
 
-# 70. Authority Receipt
+## 70. Authority Receipt
 
 A proposed extension may require authority decisions themselves to emit receipts.
 
@@ -1786,9 +1789,9 @@ If authority is implemented as a gate decision, GMEF-3 naturally applies.
 
 However, the supplied source does not define the complete authority architecture.
 
----
+______________________________________________________________________
 
-# 71. GMEF State Machine
+## 71. GMEF State Machine
 
 A proposed conceptual state machine:
 
@@ -1817,9 +1820,9 @@ PROMOTED
 
 The exact state names are not source-defined.
 
----
+______________________________________________________________________
 
-# 72. State Transition Contract
+## 72. State Transition Contract
 
 ```yaml
 transition:
@@ -1845,9 +1848,9 @@ transition:
 
 This is a model representation.
 
----
+______________________________________________________________________
 
-# 73. Transition Authorization Invariant
+## 73. Transition Authorization Invariant
 
 Conceptually:
 
@@ -1866,9 +1869,9 @@ REQUIRED PROMOTION PROCESS COMPLETES
 
 Only the gate-pass independence, receipt requirement, fail-closed rule, and promotion separation are directly source-established.
 
----
+______________________________________________________________________
 
-# 74. GMEF and RSCF
+## 74. GMEF and RSCF
 
 RSCF and GMEF govern different dimensions.
 
@@ -1894,9 +1897,9 @@ GMEF GOVERNANCE
 COMMIT OR DENY
 ```
 
----
+______________________________________________________________________
 
-# 75. Claim Validity Does Not Grant Transition Authority
+## 75. Claim Validity Does Not Grant Transition Authority
 
 Suppose RSCF concludes:
 
@@ -1920,9 +1923,9 @@ EPISTEMIC SUFFICIENCY
 GOVERNANCE AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 76. Governance Pass Does Not Upgrade Claim Status
+## 76. Governance Pass Does Not Upgrade Claim Status
 
 Likewise:
 
@@ -1952,9 +1955,9 @@ GOVERNANCE AUTHORIZATION
 EPISTEMIC VALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 77. RSCF Proof Capsule as Gate Input
+## 77. RSCF Proof Capsule as Gate Input
 
 A gate may consume an RSCF proof capsule:
 
@@ -1968,9 +1971,9 @@ But the gate should preserve the capsule's ceiling and conditions.
 
 A `CONDITIONAL` capsule does not become `VERIFIED` merely by being accepted as an input.
 
----
+______________________________________________________________________
 
-# 78. Gate Decision as RSCF Claim
+## 78. Gate Decision as RSCF Claim
 
 A gate receipt can itself support a SOURCE/OBSERVATION-like claim:
 
@@ -1988,9 +1991,9 @@ Transition T was globally authorized
 
 unless all required gates and authority conditions are established.
 
----
+______________________________________________________________________
 
-# 79. GMEF and H/M/L
+## 79. GMEF and H/M/L
 
 H/M/L can determine governance rigor while GMEF determines gate satisfaction.
 
@@ -2008,9 +2011,9 @@ GMEF EVALUATION
 
 The exact canonical mapping is not supplied by L18.
 
----
+______________________________________________________________________
 
-# 80. Higher Rigor, More Validation
+## 80. Higher Rigor, More Validation
 
 A model-level principle:
 
@@ -2022,17 +2025,17 @@ STRONGER GOVERNANCE
 
 may result in:
 
-* more gates,
-* stronger receipt validation,
-* tighter freshness,
-* stronger authority checks,
-* reduced tolerance for ambiguity.
+- more gates,
+- stronger receipt validation,
+- tighter freshness,
+- stronger authority checks,
+- reduced tolerance for ambiguity.
 
 But L18 does not define exact H/M/L thresholds.
 
----
+______________________________________________________________________
 
-# 81. GMEF and Provenance
+## 81. GMEF and Provenance
 
 Gate decisions depend on inputs.
 
@@ -2050,9 +2053,9 @@ ALLOW
 
 If S later becomes invalid, the gate decision may require re-evaluation if C was load-bearing.
 
----
+______________________________________________________________________
 
-# 82. Gate Provenance Dependency
+## 82. Gate Provenance Dependency
 
 A proposed receipt extension:
 
@@ -2078,9 +2081,9 @@ receipt:
 
 This enables selective invalidation.
 
----
+______________________________________________________________________
 
-# 83. Correlated Inputs
+## 83. Correlated Inputs
 
 Multiple gate inputs may descend from one provenance root.
 
@@ -2100,9 +2103,9 @@ as independent confirmation merely because they are separate input objects.
 
 This follows AMOS provenance discipline, not directly from L18's four source laws.
 
----
+______________________________________________________________________
 
-# 84. GMEF and Competing Claims
+## 84. GMEF and Competing Claims
 
 If a required gate depends on a proposition with unresolved competing hypotheses:
 
@@ -2126,9 +2129,9 @@ If the gate policy explicitly permits action under either hypothesis, it may sti
 
 The key is whether the gate can validly decide, not whether uncertainty exists in the abstract.
 
----
+______________________________________________________________________
 
-# 85. GMEF and Causal Firewall
+## 85. GMEF and Causal Firewall
 
 A governance gate should not treat:
 
@@ -2152,9 +2155,9 @@ CANNOT DECIDE
 DENY
 ```
 
----
+______________________________________________________________________
 
-# 86. GMEF and Scope
+## 86. GMEF and Scope
 
 A gate pass inherits the scope of its evaluated inputs.
 
@@ -2170,9 +2173,9 @@ PASS for environment E2
 
 where the decision depends materially on environmental conditions.
 
----
+______________________________________________________________________
 
-# 87. GMEF and Regime Shift
+## 87. GMEF and Regime Shift
 
 If:
 
@@ -2191,9 +2194,9 @@ the old decision may require re-evaluation.
 
 The source's epoch requirement supports tracking such changes, but exact regime semantics are not specified.
 
----
+______________________________________________________________________
 
-# 88. GMEF and Freshness
+## 88. GMEF and Freshness
 
 A gate receipt is not necessarily timeless.
 
@@ -2213,9 +2216,9 @@ when relevant state changed.
 
 The epoch field provides a natural mechanism for freshness binding, though this interpretation remains model-level.
 
----
+______________________________________________________________________
 
-# 89. GMEF and Causal Epoch Finality
+## 89. GMEF and Causal Epoch Finality
 
 Within broader AMOS reasoning, an epoch may serve to bind a decision to a finalized causal/state context.
 
@@ -2239,9 +2242,9 @@ REVALIDATE
 
 This is a reasoning pattern, not a claim that conversational ChatGPT literally implements causal-epoch consensus.
 
----
+______________________________________________________________________
 
-# 90. Stale Receipt Hazard
+## 90. Stale Receipt Hazard
 
 ```text
 E1:
@@ -2264,9 +2267,9 @@ IS CONTEXT-BOUND
 
 under the proposed model.
 
----
+______________________________________________________________________
 
-# 91. GMEF and MVCC/CAS Concepts
+## 91. GMEF and MVCC/CAS Concepts
 
 A model-level transactional pattern:
 
@@ -2289,9 +2292,9 @@ This avoids committing a transition using stale gate inputs.
 
 It is not a claim that GMEF canon literally mandates MVCC/CAS from the supplied note.
 
----
+______________________________________________________________________
 
-# 92. Compare-And-Swap Governance Pattern
+## 92. Compare-And-Swap Governance Pattern
 
 Semantic pseudocode:
 
@@ -2317,9 +2320,9 @@ def governed_transition(snapshot, proposal):
 
 Model-level only.
 
----
+______________________________________________________________________
 
-# 93. Atomic Multi-Gate Finalization
+## 93. Atomic Multi-Gate Finalization
 
 A transition requiring:
 
@@ -2348,9 +2351,9 @@ TRANSITION FINALIZATION
 
 This is a direct extension of GMEF-1.
 
----
+______________________________________________________________________
 
-# 94. Partial Gate Success
+## 94. Partial Gate Success
 
 ```text
 G1 = ALLOW
@@ -2373,9 +2376,9 @@ TRANSITION DENIED
 
 where G3 is required.
 
----
+______________________________________________________________________
 
-# 95. Gate Failure Does Not Erase Successful Receipts
+## 95. Gate Failure Does Not Erase Successful Receipts
 
 If:
 
@@ -2395,9 +2398,9 @@ LOCAL PASS PRESERVED
 GLOBAL TRANSITION DENIED
 ```
 
----
+______________________________________________________________________
 
-# 96. Selective Reevaluation
+## 96. Selective Reevaluation
 
 If only G2 failed because of missing input X:
 
@@ -2409,15 +2412,15 @@ G3 = ALLOW
 
 after X is resolved, it may be possible to reevaluate only G2 if:
 
-* G1/G3 inputs remain unchanged,
-* their epochs/receipts remain valid,
-* no coupling requires broader revalidation.
+- G1/G3 inputs remain unchanged,
+- their epochs/receipts remain valid,
+- no coupling requires broader revalidation.
 
 This is a proposed optimization, not source canon.
 
----
+______________________________________________________________________
 
-# 97. Shared Dependency Escalation
+## 97. Shared Dependency Escalation
 
 If:
 
@@ -2437,9 +2440,9 @@ then all affected gates require re-evaluation.
 
 Selective reuse is valid only when dependency closure is established.
 
----
+______________________________________________________________________
 
-# 98. Gate Dependency Closure
+## 98. Gate Dependency Closure
 
 Conceptually:
 
@@ -2455,9 +2458,9 @@ Reevaluate only affected closure
 
 This is consistent with AMOS local failure recovery.
 
----
+______________________________________________________________________
 
-# 99. GMEF Failure Recovery
+## 99. GMEF Failure Recovery
 
 ```text
 GATE FAILURE
@@ -2475,9 +2478,9 @@ REBUILD RECEIPTS
 
 Do not repeat an unchanged failed evaluation path expecting a different result.
 
----
+______________________________________________________________________
 
-# 100. Gate Failure Classes
+## 100. Gate Failure Classes
 
 A proposed taxonomy:
 
@@ -2515,25 +2518,25 @@ gate_failure_classes:
 
 These are not source-defined classes.
 
----
+______________________________________________________________________
 
-# 101. GMEF and Reversibility
+## 101. GMEF and Reversibility
 
 A governance architecture may permit more exploratory actions when they are:
 
-* reversible,
-* isolated,
-* non-promoting,
-* non-canonical,
-* low-impact.
+- reversible,
+- isolated,
+- non-promoting,
+- non-canonical,
+- low-impact.
 
 But such actions remain subject to whatever gates canon requires.
 
 Reversibility does not itself waive governance.
 
----
+______________________________________________________________________
 
-# 102. Sandbox Is Not Promotion
+## 102. Sandbox Is Not Promotion
 
 Conceptually:
 
@@ -2545,9 +2548,9 @@ PROMOTE TO CANON
 
 A candidate may be evaluated in a reversible environment without receiving production/canonical authority.
 
----
+______________________________________________________________________
 
-# 103. Audit Sandbox
+## 103. Audit Sandbox
 
 Likewise:
 
@@ -2563,23 +2566,23 @@ PRODUCTION PROMOTION
 
 unless scope and promotion process establish equivalence.
 
----
+______________________________________________________________________
 
-# 104. GMEF and Irreversibility
+## 104. GMEF and Irreversibility
 
 The more irreversible the transition, the stronger the case for:
 
-* complete gate closure,
-* current receipts,
-* authority validation,
-* stale-state detection,
-* independent review where required.
+- complete gate closure,
+- current receipts,
+- authority validation,
+- stale-state detection,
+- independent review where required.
 
 This is an AMOS governance principle, not explicitly enumerated by L18.
 
----
+______________________________________________________________________
 
-# 105. GMEF and Promotion Lineage
+## 105. GMEF and Promotion Lineage
 
 A promoted artifact should conceptually preserve:
 
@@ -2595,9 +2598,9 @@ PROMOTED VERSION
 
 so later review can reconstruct why the transition occurred.
 
----
+______________________________________________________________________
 
-# 106. Promotion Does Not Rewrite History
+## 106. Promotion Does Not Rewrite History
 
 When:
 
@@ -2612,24 +2615,24 @@ Promotion changes governance state.
 
 It should not rewrite the historical fact that the artifact was previously conditional/proposed.
 
----
+______________________________________________________________________
 
-# 107. Demotion / Revocation
+## 107. Demotion / Revocation
 
 The supplied L18 source does not define:
 
-* demotion,
-* revocation,
-* rollback,
-* emergency suspension.
+- demotion,
+- revocation,
+- rollback,
+- emergency suspension.
 
 Therefore these must not be invented as canonical GMEF semantics.
 
 A model extension may treat each as another governed transition requiring its own gates.
 
----
+______________________________________________________________________
 
-# 108. GMEF and Persistent Provenance
+## 108. GMEF and Persistent Provenance
 
 A durable gate receipt should preserve enough context to answer:
 
@@ -2643,9 +2646,9 @@ WHICH DIGEST?
 
 Only the latter four are explicitly source-required.
 
----
+______________________________________________________________________
 
-# 109. Receipt Registry
+## 109. Receipt Registry
 
 A proposed persistent structure:
 
@@ -2674,9 +2677,9 @@ receipt_registry:
 
 `receipt_id`, `gate_id`, and `status` are model extensions.
 
----
+______________________________________________________________________
 
-# 110. Gate Registry
+## 110. Gate Registry
 
 ```yaml
 gate_registry:
@@ -2702,9 +2705,9 @@ gate_registry:
 
 The source does not define this schema.
 
----
+______________________________________________________________________
 
-# 111. Transition Registry
+## 111. Transition Registry
 
 ```yaml
 transition_registry:
@@ -2734,9 +2737,9 @@ transition_registry:
 
 Model extension.
 
----
+______________________________________________________________________
 
-# 112. Authority Registry
+## 112. Authority Registry
 
 ```yaml
 authority_registry:
@@ -2756,9 +2759,9 @@ authority_registry:
 
 This illustrates GMEF-4 but is not source-defined serialization.
 
----
+______________________________________________________________________
 
-# 113. Authority Scope
+## 113. Authority Scope
 
 Authority should conceptually be typed.
 
@@ -2776,9 +2779,9 @@ promotion
 
 This is the operational heart of GMEF-4.
 
----
+______________________________________________________________________
 
-# 114. Authority Escalation Firewall
+## 114. Authority Escalation Firewall
 
 Invalid:
 
@@ -2793,9 +2796,9 @@ unless each authority transition is explicitly granted.
 
 Permissions do not automatically escalate.
 
----
+______________________________________________________________________
 
-# 115. Audit Evidence vs Promotion Decision
+## 115. Audit Evidence vs Promotion Decision
 
 ```text
 AUDIT RECEIPT
@@ -2819,9 +2822,9 @@ PROMOTION PROCESS INPUT
 PROMOTION DECISION
 ```
 
----
+______________________________________________________________________
 
-# 116. GMEF and Canon Mutation
+## 116. GMEF and Canon Mutation
 
 A canonical mutation can be modeled:
 
@@ -2843,9 +2846,9 @@ NEW CANON
 
 No earlier stage automatically grants a later stage.
 
----
+______________________________________________________________________
 
-# 117. Gate Composition Across Domains
+## 117. Gate Composition Across Domains
 
 A transition may require gates from multiple governance domains:
 
@@ -2861,9 +2864,9 @@ Passing one domain does not grant another.
 
 The specific domains are examples, not source-defined gate categories.
 
----
+______________________________________________________________________
 
-# 118. Cross-Gate Evidence Sharing
+## 118. Cross-Gate Evidence Sharing
 
 Multiple gates may consume the same evidence.
 
@@ -2884,9 +2887,9 @@ G2 = DENY
 
 because their predicates differ.
 
----
+______________________________________________________________________
 
-# 119. Cross-Gate Decision Leakage
+## 119. Cross-Gate Decision Leakage
 
 Invalid:
 
@@ -2905,9 +2908,9 @@ PASSING ONE GATE
 GRANTS NO OTHERS
 ```
 
----
+______________________________________________________________________
 
-# 120. Gate Decision Algorithm
+## 120. Gate Decision Algorithm
 
 ```python
 def evaluate_gate(gate, inputs, epoch):
@@ -2935,9 +2938,9 @@ Semantic pseudocode only.
 
 The exact digest function is unspecified.
 
----
+______________________________________________________________________
 
-# 121. Composite Gate Algorithm
+## 121. Composite Gate Algorithm
 
 ```python
 def evaluate_transition(transition):
@@ -2970,9 +2973,9 @@ def evaluate_transition(transition):
 
 It deliberately avoids implying promotion authority.
 
----
+______________________________________________________________________
 
-# 122. Promotion Algorithm
+## 122. Promotion Algorithm
 
 ```python
 def promote(candidate, gate_receipts):
@@ -2993,9 +2996,9 @@ def promote(candidate, gate_receipts):
 
 This expresses GMEF-4 without specifying the missing promotion process.
 
----
+______________________________________________________________________
 
-# 123. Fail-Closed Algorithm
+## 123. Fail-Closed Algorithm
 
 ```python
 def gate_decision(result):
@@ -3014,9 +3017,9 @@ def gate_decision(result):
 
 Only `CANNOT_DECIDE → DENY` is directly source-defined; other states are applications when they mean the gate cannot decide.
 
----
+______________________________________________________________________
 
-# 124. Receipt Algorithm
+## 124. Receipt Algorithm
 
 ```python
 def issue_receipt(
@@ -3039,9 +3042,9 @@ def issue_receipt(
 
 Digest mechanics remain unspecified.
 
----
+______________________________________________________________________
 
-# 125. Receipt Verification Algorithm
+## 125. Receipt Verification Algorithm
 
 ```python
 def verify_receipt(receipt):
@@ -3064,9 +3067,9 @@ def verify_receipt(receipt):
 
 Model-level semantics.
 
----
+______________________________________________________________________
 
-# 126. Stale-Decision Algorithm
+## 126. Stale-Decision Algorithm
 
 ```python
 def receipt_reusable(
@@ -3091,9 +3094,9 @@ def receipt_reusable(
 
 The exact epoch compatibility rule is not source-defined.
 
----
+______________________________________________________________________
 
-# 127. Authority Algorithm
+## 127. Authority Algorithm
 
 ```python
 def authority_check(
@@ -3112,9 +3115,9 @@ def authority_check(
 
 This captures the spirit of authority separation but exceeds the literal source law.
 
----
+______________________________________________________________________
 
-# 128. GMEF Integrity Invariants
+## 128. GMEF Integrity Invariants
 
 ```yaml
 gmef_integrity_invariants:
@@ -3170,9 +3173,9 @@ gmef_integrity_invariants:
 
 The first eight are closest to direct source support; later invariants are model extensions.
 
----
+______________________________________________________________________
 
-# 129. Receipt Integrity Invariants
+## 129. Receipt Integrity Invariants
 
 ```yaml
 receipt_integrity_invariants:
@@ -3212,9 +3215,9 @@ receipt_integrity_invariants:
 
 Only RI-1 through RI-4 are explicitly required by the supplied source.
 
----
+______________________________________________________________________
 
-# 130. Authority Integrity Invariants
+## 130. Authority Integrity Invariants
 
 ```yaml
 authority_integrity_invariants:
@@ -3238,9 +3241,9 @@ authority_integrity_invariants:
 
 AI-1 and AI-2 directly reflect GMEF-4.
 
----
+______________________________________________________________________
 
-# 131. GMEF Anti-Patterns
+## 131. GMEF Anti-Patterns
 
 ## GMEF-A1 — Gate Bypass
 
@@ -3254,7 +3257,7 @@ ALLOW
 
 Rejected.
 
----
+______________________________________________________________________
 
 ## GMEF-A2 — Pass Propagation
 
@@ -3270,7 +3273,7 @@ without evaluating G2/G3.
 
 Rejected.
 
----
+______________________________________________________________________
 
 ## GMEF-A3 — Allow by Silence
 
@@ -3282,7 +3285,7 @@ ALLOW
 
 Rejected.
 
----
+______________________________________________________________________
 
 ## GMEF-A4 — Indeterminate Allow
 
@@ -3296,7 +3299,7 @@ ALLOW
 
 Rejected.
 
----
+______________________________________________________________________
 
 ## GMEF-A5 — Post-Hoc Gate
 
@@ -3308,7 +3311,7 @@ RUN REQUIRED AUTHORIZATION GATE
 
 Rejected.
 
----
+______________________________________________________________________
 
 ## GMEF-A6 — Receiptless Decision
 
@@ -3322,7 +3325,7 @@ TRANSITION
 
 Rejected under GMEF-3.
 
----
+______________________________________________________________________
 
 ## GMEF-A7 — Incomplete Receipt Laundering
 
@@ -3337,7 +3340,7 @@ digest = missing
 
 Rejected as unsupported.
 
----
+______________________________________________________________________
 
 ## GMEF-A8 — Audit-to-Authority Escalation
 
@@ -3349,7 +3352,7 @@ PROMOTION AUTHORITY
 
 Rejected.
 
----
+______________________________________________________________________
 
 ## GMEF-A9 — Promotion by Validation
 
@@ -3363,7 +3366,7 @@ without promotion process.
 
 Rejected.
 
----
+______________________________________________________________________
 
 ## GMEF-A10 — Receipt Replay
 
@@ -3379,7 +3382,7 @@ without revalidation.
 
 Rejected under the proposed freshness extension.
 
----
+______________________________________________________________________
 
 ## GMEF-A11 — Cross-Scope Pass
 
@@ -3393,7 +3396,7 @@ without equivalence proof.
 
 Rejected.
 
----
+______________________________________________________________________
 
 ## GMEF-A12 — Majority Gate Override
 
@@ -3406,9 +3409,9 @@ ALLOW BY MAJORITY
 
 Rejected unless authoritative governance explicitly defines non-conjunctive composition.
 
----
+______________________________________________________________________
 
-# 132. GMEF and Proof Receipts
+## 132. GMEF and Proof Receipts
 
 A receipt is a compact governance proof object.
 
@@ -3431,9 +3434,9 @@ EPOCH
 DIGEST
 ```
 
----
+______________________________________________________________________
 
-# 133. Gate Decision vs Receipt
+## 133. Gate Decision vs Receipt
 
 Distinguish:
 
@@ -3453,9 +3456,9 @@ The receipt records/binds that decision.
 
 The source requires every gate decision to emit the latter.
 
----
+______________________________________________________________________
 
-# 134. Receipt vs Proof Capsule
+## 134. Receipt vs Proof Capsule
 
 RSCF proof capsule:
 
@@ -3474,9 +3477,9 @@ WITH WHICH DIGEST?
 
 They may reference one another but should not be collapsed.
 
----
+______________________________________________________________________
 
-# 135. GMEF and Decision Receipts
+## 135. GMEF and Decision Receipts
 
 A gate receipt can be conceptualized as:
 
@@ -3499,9 +3502,9 @@ receipt:
 
 The actual canonical field structure beyond the four names is unknown.
 
----
+______________________________________________________________________
 
-# 136. Gate Receipt Failure
+## 136. Gate Receipt Failure
 
 If receipt generation itself fails after a gate computes ALLOW, the supplied laws create a governance ambiguity:
 
@@ -3521,9 +3524,9 @@ because GMEF-3's receipt requirement has not been satisfied.
 
 However, this exact failure semantics is not explicitly stated and remains CONDITIONAL.
 
----
+______________________________________________________________________
 
-# 137. Receipt Digest Mismatch
+## 137. Receipt Digest Mismatch
 
 If a stored receipt's digest no longer matches its bound payload:
 
@@ -3542,9 +3545,9 @@ DENY
 
 under the proposed combination of GMEF-2 and GMEF-3.
 
----
+______________________________________________________________________
 
-# 138. Epoch Mismatch
+## 138. Epoch Mismatch
 
 Suppose:
 
@@ -3563,9 +3566,9 @@ DENY
 
 This is a model-level application.
 
----
+______________________________________________________________________
 
-# 139. Gate Receipt Dependency
+## 139. Gate Receipt Dependency
 
 A receipt should conceptually depend on:
 
@@ -3578,9 +3581,9 @@ DECISION
 
 If any load-bearing component changes, receipt reuse requires validation.
 
----
+______________________________________________________________________
 
-# 140. Gate Definition Mutation
+## 140. Gate Definition Mutation
 
 If:
 
@@ -3604,9 +3607,9 @@ OLD GATE RECEIPT
 NEW GATE DECISION
 ```
 
----
+______________________________________________________________________
 
-# 141. Policy Mutation
+## 141. Policy Mutation
 
 Likewise:
 
@@ -3620,9 +3623,9 @@ can invalidate gate receipts dependent on P1.
 
 Only affected receipts need revalidation where dependencies are explicit.
 
----
+______________________________________________________________________
 
-# 142. GMEF and Local Invalidation
+## 142. GMEF and Local Invalidation
 
 ```text
 POLICY P
@@ -3648,9 +3651,9 @@ G2 → R2
 
 may remain valid if independent.
 
----
+______________________________________________________________________
 
-# 143. GMEF and Proof-Based Coordination Avoidance
+## 143. GMEF and Proof-Based Coordination Avoidance
 
 Where a transition is provably local and independent:
 
@@ -3667,9 +3670,9 @@ However, independence must be established rather than assumed.
 
 This is an AMOS v4.4 reasoning pattern, not an explicit L18 source law.
 
----
+______________________________________________________________________
 
-# 144. Escalation Conditions
+## 144. Escalation Conditions
 
 Local gate handling should escalate when:
 
@@ -3687,9 +3690,9 @@ IRREVERSIBLE CONSEQUENCE
 
 The exact list is model-level.
 
----
+______________________________________________________________________
 
-# 145. Shard-Local Finalization
+## 145. Shard-Local Finalization
 
 Conceptually, where a transition affects only a proven-local governance domain:
 
@@ -3709,9 +3712,9 @@ without global coordination.
 
 This is not a claim that ChatGPT or L18 literally implements distributed shards.
 
----
+______________________________________________________________________
 
-# 146. Cross-Domain Transition
+## 146. Cross-Domain Transition
 
 If a transition affects multiple governance domains:
 
@@ -3725,9 +3728,9 @@ then local authorization from A alone cannot grant B.
 
 This follows directly from the no-other-gates principle.
 
----
+______________________________________________________________________
 
-# 147. Proof of Independence
+## 147. Proof of Independence
 
 Before omitting a gate or coordination domain as irrelevant, establish:
 
@@ -3742,9 +3745,9 @@ Otherwise escalate.
 
 This is an AMOS_MODEL operational rule.
 
----
+______________________________________________________________________
 
-# 148. GMEF Stop Rule
+## 148. GMEF Stop Rule
 
 Gate evaluation may stop early when:
 
@@ -3760,9 +3763,9 @@ However, required receipts/audit requirements for the denial itself may still ap
 
 This optimization is not source-defined.
 
----
+______________________________________________________________________
 
-# 149. Early-Deny Safety
+## 149. Early-Deny Safety
 
 ```text
 G1 DENY
@@ -3784,9 +3787,9 @@ FALSE
 
 provided no separate governance requirement mandates evaluating the remaining gates for audit or diagnostics.
 
----
+______________________________________________________________________
 
-# 150. No Early-Allow
+## 150. No Early-Allow
 
 Conversely:
 
@@ -3808,9 +3811,9 @@ is invalid
 
 for conjunctive mandatory gates.
 
----
+______________________________________________________________________
 
-# 151. GMEF and Sensitivity
+## 151. GMEF and Sensitivity
 
 When a gate denies because of one uncertain input:
 
@@ -3822,9 +3825,9 @@ and all other inputs pass, I3 is the decision-sensitive target.
 
 Resolve I3 before collecting redundant evidence for already-satisfied inputs.
 
----
+______________________________________________________________________
 
-# 152. Gate Gap Classification
+## 152. Gate Gap Classification
 
 A model extension may classify gate gaps:
 
@@ -3844,19 +3847,19 @@ presentation only
 
 GMEF-2 makes critical unresolved gate gaps effectively deny.
 
----
+______________________________________________________________________
 
-# 153. Gate Uncertainty
+## 153. Gate Uncertainty
 
 A gate may have uncertainty in:
 
-* evidence,
-* policy interpretation,
-* scope,
-* freshness,
-* authority,
-* execution,
-* provenance independence.
+- evidence,
+- policy interpretation,
+- scope,
+- freshness,
+- authority,
+- execution,
+- provenance independence.
 
 If that uncertainty prevents a valid decision:
 
@@ -3864,9 +3867,9 @@ If that uncertainty prevents a valid decision:
 DENY
 ```
 
----
+______________________________________________________________________
 
-# 154. Governance vs Epistemic Unknown
+## 154. Governance vs Epistemic Unknown
 
 RSCF:
 
@@ -3898,9 +3901,9 @@ GOVERNANCE ACTION
 becomes DENY
 ```
 
----
+______________________________________________________________________
 
-# 155. GMEF Decision Matrix
+## 155. GMEF Decision Matrix
 
 | Gate state                   | Effective transition implication                         |
 | ---------------------------- | -------------------------------------------------------- |
@@ -3914,9 +3917,9 @@ becomes DENY
 
 Only the explicit `cannot decide → DENY` and audit/promotion separation are direct source laws; missing-gate handling is a derived strict interpretation.
 
----
+______________________________________________________________________
 
-# 156. Gate Composition Matrix
+## 156. Gate Composition Matrix
 
 | G1            | G2    | G3            | Composite result if all required |
 | ------------- | ----- | ------------- | -------------------------------- |
@@ -3929,9 +3932,9 @@ Only the explicit `cannot decide → DENY` and audit/promotion separation are di
 
 `Gate-eligible` deliberately does not mean promoted.
 
----
+______________________________________________________________________
 
-# 157. Audit/Promotion Matrix
+## 157. Audit/Promotion Matrix
 
 | Audit         | Promotion Process | Result                             |
 | ------------- | ----------------- | ---------------------------------- |
@@ -3943,9 +3946,9 @@ Only the explicit `cannot decide → DENY` and audit/promotion separation are di
 
 The exact promotion process semantics remain unspecified.
 
----
+______________________________________________________________________
 
-# 158. GMEF Canon Mutation Example
+## 158. GMEF Canon Mutation Example
 
 ```yaml
 proposal:
@@ -3971,9 +3974,9 @@ result:
 
 This is illustrative, not recovered authoritative workflow.
 
----
+______________________________________________________________________
 
-# 159. GMEF Self-Application
+## 159. GMEF Self-Application
 
 L18 itself is:
 
@@ -3994,9 +3997,9 @@ AUDIT PASS
 PROMOTION
 ```
 
----
+______________________________________________________________________
 
-# 160. L18 Source-Established Content
+## 160. L18 Source-Established Content
 
 From the supplied L18 source, the following are directly established as corpus claims:
 
@@ -4017,39 +4020,39 @@ From the supplied L18 source, the following are directly established as corpus c
 
 These are `SOURCE` claims about the supplied AMOS corpus note.
 
----
+______________________________________________________________________
 
-# 161. L18 Not Established by Source
+## 161. L18 Not Established by Source
 
 The supplied source does **not** establish:
 
-* complete gate taxonomy,
-* exact gate ordering,
-* optional gate semantics,
-* alternative gate-path semantics,
-* exact decision enum,
-* exact receipt serialization,
-* exact meaning of epoch,
-* exact digest target,
-* digest algorithm,
-* signature requirements,
-* receipt expiry rules,
-* exact promotion workflow,
-* exact authority hierarchy,
-* quorum rules,
-* actor separation requirements,
-* exact H/M/L integration,
-* exact RSCF/GMEF integration,
-* exact MVCC/CAS mechanism,
-* literal distributed consensus implementation,
-* shard topology,
-* revocation/demotion semantics.
+- complete gate taxonomy,
+- exact gate ordering,
+- optional gate semantics,
+- alternative gate-path semantics,
+- exact decision enum,
+- exact receipt serialization,
+- exact meaning of epoch,
+- exact digest target,
+- digest algorithm,
+- signature requirements,
+- receipt expiry rules,
+- exact promotion workflow,
+- exact authority hierarchy,
+- quorum rules,
+- actor separation requirements,
+- exact H/M/L integration,
+- exact RSCF/GMEF integration,
+- exact MVCC/CAS mechanism,
+- literal distributed consensus implementation,
+- shard topology,
+- revocation/demotion semantics.
 
 These remain MODEL or UNKNOWN/GAP.
 
----
+______________________________________________________________________
 
-# 162. L18 Self-Proof Capsule
+## 162. L18 Self-Proof Capsule
 
 ```yaml
 proof_capsule:
@@ -4094,9 +4097,9 @@ proof_capsule:
     CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
-# 163. No Circular Self-Promotion
+## 163. No Circular Self-Promotion
 
 Invalid:
 
@@ -4126,9 +4129,9 @@ AUTHORIZED PROMOTION PROCESS
 ONLY THEN MAY STATUS CHANGE
 ```
 
----
+______________________________________________________________________
 
-# 164. Falsifier F1
+## 164. Falsifier F1
 
 Original falsifier:
 
@@ -4153,42 +4156,42 @@ PROPOSAL     AFFECTED RULES
           REVALIDATE DEPENDENTS
 ```
 
----
+______________________________________________________________________
 
-# 165. Material Semantic Difference
+## 165. Material Semantic Difference
 
 A material difference could include authoritative canon establishing that:
 
-* gates may evaluate after governed transitions,
-* one gate can implicitly grant another,
-* indeterminate decisions may default ALLOW,
-* receipts are not required,
-* required receipt fields differ materially,
-* audit pass itself grants promotion authority,
-* promotion does not require a distinct promotion process.
+- gates may evaluate after governed transitions,
+- one gate can implicitly grant another,
+- indeterminate decisions may default ALLOW,
+- receipts are not required,
+- required receipt fields differ materially,
+- audit pass itself grants promotion authority,
+- promotion does not require a distinct promotion process.
 
 The exact threshold for "different gate semantics" is not defined by the source.
 
----
+______________________________________________________________________
 
-# 166. Additional Invalidation Conditions
+## 166. Additional Invalidation Conditions
 
 The expanded model should also be reconsidered if authoritative canon defines materially different:
 
-* epoch semantics,
-* receipt reuse rules,
-* digest binding,
-* gate dependency algebra,
-* authority scopes,
-* local finalization semantics,
-* RSCF/GMEF composition,
-* H/M/L governance mapping.
+- epoch semantics,
+- receipt reuse rules,
+- digest binding,
+- gate dependency algebra,
+- authority scopes,
+- local finalization semantics,
+- RSCF/GMEF composition,
+- H/M/L governance mapping.
 
 These invalidate extensions, not necessarily the four source laws.
 
----
+______________________________________________________________________
 
-# 167. Known Gaps
+## 167. Known Gaps
 
 ```yaml
 gaps:
@@ -4258,9 +4261,9 @@ gaps:
         compatibility is not defined by this source.
 ```
 
----
+______________________________________________________________________
 
-# 168. GMEF Claim Graph
+## 168. GMEF Claim Graph
 
 ```yaml
 claim_graph:
@@ -4347,9 +4350,9 @@ claim_graph:
         and gate composition beyond the four source laws.
 ```
 
----
+______________________________________________________________________
 
-# 169. GMEF Dependency Graph
+## 169. GMEF Dependency Graph
 
 ```yaml
 dependency_graph:
@@ -4379,9 +4382,9 @@ dependency_graph:
       - promotion_process
 ```
 
----
+______________________________________________________________________
 
-# 170. Unified GMEF Architecture
+## 170. Unified GMEF Architecture
 
 ```text
                 PROPOSED TRANSITION
@@ -4421,9 +4424,9 @@ dependency_graph:
                         DENY     COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 171. Four-Law Operational Contract
+## 171. Four-Law Operational Contract
 
 ```yaml
 four_law_contract:
@@ -4452,9 +4455,9 @@ four_law_contract:
       - promotion_requires_promotion_process
 ```
 
----
+______________________________________________________________________
 
-# 172. GMEF Canonical Compression
+## 172. GMEF Canonical Compression
 
 ```text
 BEFORE A GOVERNED
@@ -4507,15 +4510,15 @@ REQUIRES
 PROMOTION PROCESS
 ```
 
----
+______________________________________________________________________
 
-# 173. Canonical One-Line Law
+## 173. Canonical One-Line Law
 
 > **AMOS GMEF requires governance gates to evaluate before governed state transitions, forbids one gate's success from granting another, fails closed whenever a gate cannot decide, requires every gate decision to emit a decision/input/epoch/digest receipt, and keeps audit success strictly separate from promotion authority.**
 
----
+______________________________________________________________________
 
-# 174. Canonical Equations
+## 174. Canonical Equations
 
 Gate-before-transition:
 
@@ -4574,9 +4577,9 @@ PromotionProcessCompleted(T)
 
 The final implication expresses the source law conceptually; exact process semantics are unspecified.
 
----
+______________________________________________________________________
 
-# 175. Composite Gate Equation
+## 175. Composite Gate Equation
 
 For a transition whose required gates are conjunctive:
 
@@ -4607,9 +4610,9 @@ NOT GateEligible(T)
 
 This equation assumes all listed gates are mandatory and conjunctive.
 
----
+______________________________________________________________________
 
-# 176. Fail-Closed Equation
+## 176. Fail-Closed Equation
 
 ```text
 Decision(G,T)
@@ -4623,9 +4626,9 @@ Decision(G,T)
 
 The source directly establishes only the final branch and the prohibition on ALLOW-by-default.
 
----
+______________________________________________________________________
 
-# 177. Receipt Equation
+## 177. Receipt Equation
 
 Conceptually:
 
@@ -4654,9 +4657,9 @@ digest
 }
 ```
 
----
+______________________________________________________________________
 
-# 178. Authority Equation
+## 178. Authority Equation
 
 ```text
 AuditPass
@@ -4681,9 +4684,9 @@ alone
 Promotion
 ```
 
----
+______________________________________________________________________
 
-# 179. GMEF Final Proof Capsule
+## 179. GMEF Final Proof Capsule
 
 ```yaml
 proof_capsule:
@@ -4746,9 +4749,9 @@ proof_capsule:
     PROPOSED_SPECIFICATION
 ```
 
----
+______________________________________________________________________
 
-# 180. RSCF Node
+## 180. RSCF Node
 
 ```yaml
 RSCF-NODE:
@@ -4809,19 +4812,19 @@ RSCF-RELATIONS:
   - RELATED_TO: [[01_CANON/01_CORE_LAWS/L15_FRACTAL_KNOWLEDGE|L15_FRACTAL_KNOWLEDGE]]
 ```
 
----
+______________________________________________________________________
 
 **00_ROOT_MOC:**
 
-**Related:**  ·  ·
+**Related:** · ·
 
 **MOC:**
 
 **Trang Framework:**
 
----
+______________________________________________________________________
 
-# 181. L18 Final Invariant
+## 181. L18 Final Invariant
 
 ```text
 PROPOSED
@@ -4947,6 +4950,6 @@ THE PROMOTION PROCESS
 
 **Conclusion class: CONDITIONAL / AMOS_MODEL.**
 
-
-
+```
+```
 ```

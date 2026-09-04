@@ -1,14 +1,17 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: domains engines collection
 type: reference
 source: 07_SKILLS/amos-engines-master/references
 tags:
-- reference
-- amos-engines-master
-- type/skill
-- law-hierarchy
-- canon
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-engines-master
+  - type/skill
+  - law-hierarchy
+  - canon
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -21,14 +24,11 @@ rscf:
 > Source: `_00_Cosmo brain/engine/A/amos-domains-engines.md`
 > Epistemic class: SOURCE_DERIVED
 
----
-type: doc
-title: AMOS Domain Engines — Full Inventory
-created: 2026-08-22
-tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-domains-engines, engine]
----
+______________________________________________________________________
 
-# AMOS Domain Engines — Full Inventory
+## type: doc title: AMOS Domain Engines — Full Inventory created: 2026-08-22 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-domains-engines, engine]
+
+## AMOS Domain Engines — Full Inventory
 
 The 17 domain engines form the **application layer** of AMOS. They consume the cognitive stack (13 domain-neutral reasoning engines) and the core logic/law layer to provide domain-specific reasoning, analysis, and output generation. Organized into 4 subfolders: Tech_Systems, Science_Health, Org_Risk_Policy, and Sub.
 
@@ -144,35 +144,36 @@ The 17 domain engines form the **application layer** of AMOS. They consume the c
 
 ## Summary Table
 
-| # | Engine | Subfolder | Domain | Key Feature |
-|---|--------|----------|--------|-------------|
-| 1 | Tech_Architecture_Kernel | Tech_Systems | Tech | Control brain for tech reasoning |
-| 2 | Design_Kernel | Tech_Systems | Design | 96 clusters x 20 dims, x100k |
-| 3 | Automation_Kernel | Tech_Systems | Automation | Self-auditing, SUPER_CODE+Tech+Design |
-| 4 | Coding_Kernel | Tech_Systems | Coding | Lightweight kernel version |
-| 5 | Design_Engine | Tech_Systems | Design | 100% coverage, MAX variant |
-| 6 | Documentation_Kernel | Tech_Systems | Docs | Documentation generation |
-| 7 | Coding_Engine | Tech_Systems | Coding | Full coding engine |
-| 8 | Engineering_Math_Kernel | Tech_Systems | Math/Eng | Control, signal, optimization, simulation |
-| 9 | Scientific_Kernel | Science_Health | Science | DSc-level scientific reasoning |
-| 10 | Medical_Clinical_Kernel | Science_Health | Medical | Non-prescriptive clinical structuring |
-| 11 | Org_Governance_Engine | Org_Risk_Policy | Governance | Organizational governance |
-| 12 | Policy_Geostrategy_Engine | Org_Risk_Policy | Policy | State-level options, geostrategy |
-| 13 | Risk_Compliance_Engine | Org_Risk_Policy | Risk | Credit, operational, AML/KYC |
-| 14 | Governance_Economy_Engine | Org_Risk_Policy | Economy | MAX, linked to TSS/TPE/AMOS |
-| 15 | Legal_Kernel | Org_Risk_Policy | Legal | 24 dimensions, reasoning tensor |
-| 16 | Academic_Writing_Kernal_Engine | Sub | Writing | Academic writing |
-| 17 | Vietnamese_Writing_Engine | Sub | Writing | Vietnamese writing |
+| #   | Engine                         | Subfolder       | Domain     | Key Feature                               |
+| --- | ------------------------------ | --------------- | ---------- | ----------------------------------------- |
+| 1   | Tech_Architecture_Kernel       | Tech_Systems    | Tech       | Control brain for tech reasoning          |
+| 2   | Design_Kernel                  | Tech_Systems    | Design     | 96 clusters x 20 dims, x100k              |
+| 3   | Automation_Kernel              | Tech_Systems    | Automation | Self-auditing, SUPER_CODE+Tech+Design     |
+| 4   | Coding_Kernel                  | Tech_Systems    | Coding     | Lightweight kernel version                |
+| 5   | Design_Engine                  | Tech_Systems    | Design     | 100% coverage, MAX variant                |
+| 6   | Documentation_Kernel           | Tech_Systems    | Docs       | Documentation generation                  |
+| 7   | Coding_Engine                  | Tech_Systems    | Coding     | Full coding engine                        |
+| 8   | Engineering_Math_Kernel        | Tech_Systems    | Math/Eng   | Control, signal, optimization, simulation |
+| 9   | Scientific_Kernel              | Science_Health  | Science    | DSc-level scientific reasoning            |
+| 10  | Medical_Clinical_Kernel        | Science_Health  | Medical    | Non-prescriptive clinical structuring     |
+| 11  | Org_Governance_Engine          | Org_Risk_Policy | Governance | Organizational governance                 |
+| 12  | Policy_Geostrategy_Engine      | Org_Risk_Policy | Policy     | State-level options, geostrategy          |
+| 13  | Risk_Compliance_Engine         | Org_Risk_Policy | Risk       | Credit, operational, AML/KYC              |
+| 14  | Governance_Economy_Engine      | Org_Risk_Policy | Economy    | MAX, linked to TSS/TPE/AMOS               |
+| 15  | Legal_Kernel                   | Org_Risk_Policy | Legal      | 24 dimensions, reasoning tensor           |
+| 16  | Academic_Writing_Kernal_Engine | Sub             | Writing    | Academic writing                          |
+| 17  | Vietnamese_Writing_Engine      | Sub             | Writing    | Vietnamese writing                        |
 
 ## Relationship to AMOS Core
 
 The 17 domain engines form the **application layer** of AMOS. They consume the cognitive stack (13 engines) and the core logic/law layer to provide domain-specific reasoning, analysis, and output generation.
 
 **Hierarchy**:
+
 1. **Core**: Deterministic Logic and Law Engine (top-level enforcement)
-2. **Cognitive Stack**: 13 domain-neutral reasoning engines
-3. **Domain Engines**: 17 domain-specific engines (this document)
-4. **Unipower Engines**: 20 country/sector-specific engines
+1. **Cognitive Stack**: 13 domain-neutral reasoning engines
+1. **Domain Engines**: 17 domain-specific engines (this document)
+1. **Unipower Engines**: 20 country/sector-specific engines
 
 ## Related Vault Sources
 
@@ -180,10 +181,12 @@ The 17 domain engines form the **application layer** of AMOS. They consume the c
 - `_00_Cosmo brain/engine/A/AMOS Engines Master.md` — 5 Super Engines that unify domain engines
 - `_00_Cosmo brain/engine/A/AMOS Unipower Engines.md` — 20 Unipower engines (country/sector layer)
 
----
+______________________________________________________________________
+
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
-**MOC:** references_MOC
----
+  **MOC:** references_MOC
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -191,12 +194,14 @@ The 17 domain engines form the **application layer** of AMOS. They consume the c
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-engines-master-domains-engines-collection
 node_type: reference
 path: 07_SKILLS/amos-engines-master/references/domains_engines_collection.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

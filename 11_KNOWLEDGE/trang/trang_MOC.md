@@ -1,10 +1,13 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Trang MOC
 type: moc
 source: 11_KNOWLEDGE/trang
 tags:
-- trang
-- canon/knowledge
+  - trang
+  - canon/knowledge
 moc: true
 rscf:
   state: SOURCE_CLAIM
@@ -12,7 +15,6 @@ rscf:
   provenance: AMOS_corpus
   scope: AMOS_knowledge
 ---
-
 
 # Trang — Map of Content
 
@@ -66,10 +68,10 @@ rscf:
 - [[11_KNOWLEDGE/trang/TRANG_TAT_2|TRANG_TAT_2]]
 - [[11_KNOWLEDGE/trang/TSS_THE_TRANG_SYSTEM_OFFICIAL_MANUAL|TSS_THE_TRANG_SYSTEM_OFFICIAL_MANUAL]]
 
----
+______________________________________________________________________
 
 **Parent:** [[11_KNOWLEDGE/11_KNOWLEDGE_MOC|11_KNOWLEDGE_MOC]] · [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]
 
----
+______________________________________________________________________
 
 **Related:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]] · [[00_ROOT/AMOS MOC|AMOS MOC]] · [[01_CANON/01_CORE_LAWS/01_CORE_LAWS_MOC|01_CORE_LAWS_MOC]]

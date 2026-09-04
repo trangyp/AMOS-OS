@@ -89,7 +89,7 @@
     "arxiv-geometric-causal-models-rscf"
   ],
   "depends_on_workflows": [
-    "arxiv-geometric-causal-models-rscf-workflow.md"
+    "amos-arxiv-geometric-causal-models-rscf-workflow.md"
   ],
   "epistemic_class": "AMOS_MODEL",
   "claim_ceiling": 0.95,

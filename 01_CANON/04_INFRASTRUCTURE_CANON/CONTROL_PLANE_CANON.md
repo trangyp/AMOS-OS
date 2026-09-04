@@ -17,48 +17,47 @@ steward: Trang Phan
 created: 2026-08-25
 updated: 2026-08-25
 tags:
-- amos
-- canon
-- universe
-- amos-os
-- amos-core
-- amos-core-v4-4
-- control-plane
-- governance
-- authority
-- policy
-- commit
-- provenance
-- coordination
-- state
-- mvcc
-- cas
-- causal-lineage
-- causal-epoch
-- finality
-- shard-local-finality
-- rscf
-- gmef
-- rollback
-- recovery
-- observability
-- security
-- canon-group/governance
-- canon/framework
-- canon/model
-- rscf/claim
-- rscf/provenance
-- rscf/state/derived
-- readme
-- architecture
-- placement-rules
-- amos-core-laws
-- law-hierarchy
-- amos-full-brain-os-architecture
-- operating-model
+  - amos
+  - canon
+  - universe
+  - amos-os
+  - amos-core
+  - amos-core-v4-4
+  - control-plane
+  - governance
+  - authority
+  - policy
+  - commit
+  - provenance
+  - coordination
+  - state
+  - mvcc
+  - cas
+  - causal-lineage
+  - causal-epoch
+  - finality
+  - shard-local-finality
+  - rscf
+  - gmef
+  - rollback
+  - recovery
+  - observability
+  - security
+  - canon-group/governance
+  - canon/framework
+  - canon/model
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/derived
+  - readme
+  - architecture
+  - placement-rules
+  - amos-core-laws
+  - law-hierarchy
+  - amos-full-brain-os-architecture
+  - operating-model
 aliases:
-- AMOS Control Plane Canon - Control Plane Canon - AMOS Governance Control Plane -
-  AMOS Commit
+  - AMOS Control Plane Canon - Control Plane Canon - AMOS Governance Control Plane - AMOS Commit
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -67,19 +66,21 @@ rscf:
 ---
 
 # AMOS Control Plane Canon
+
 **Origin architect / steward:** Trang Phan
+
 > **Status:** `ACTIVE_CANON_CANDIDATE`
 > **AMOS Core target:** `v4.4`
 > **Conclusion class:** `AMOS_MODEL`
-rscf:
-  state: DERIVED
-  claim_class: CONDITIONAL
-  provenance: AMOS_corpus
-  scope: AMOS_general
----
+> rscf:
+> state: DERIVED
+> claim_class: CONDITIONAL
+> provenance: AMOS_corpus
+> scope: AMOS_general
 
+______________________________________________________________________
 
-# 0. Purpose
+## 0. Purpose
 
 The **AMOS Control Plane Canon** defines the governance layer responsible for controlling which proposed system transitions may become authoritative.
 
@@ -126,9 +127,9 @@ CAPABILITY
 EXECUTION
 ```
 
----
+______________________________________________________________________
 
-# 1. Architectural Position
+## 1. Architectural Position
 
 Canonical AMOS OS plane relationship:
 
@@ -154,9 +155,9 @@ The control plane sits between deterministic/invariant logic and operational exe
 
 It does not replace either.
 
----
+______________________________________________________________________
 
-# 2. Core Boundary
+## 2. Core Boundary
 
 ```text
 CANON != KERNEL
@@ -181,19 +182,22 @@ KERNEL
 =
 DETERMINISTIC OPERATORS / INVARIANT EVALUATION
 ```
+
 ```text
 CONTROL PLANE
 =
 WHETHER A PROPOSED TRANSITION MAY BECOME AUTHORITATIVE
 ```
+
 ```text
 RUNTIME
 =
 HOW AUTHORIZED WORK IS EXECUTED
 ```
----
 
-# 3. Control Plane Law
+______________________________________________________________________
+
+## 3. Control Plane Law
 
 The primary law is:
 
@@ -227,9 +231,9 @@ MEMORY != CANON
 RUNTIME != CONTROL_PLANE
 ```
 
----
+______________________________________________________________________
 
-# 4. Canonical Control Flow
+## 4. Canonical Control Flow
 
 ```text
 REQUEST
@@ -271,9 +275,9 @@ Not every operation requires every stage at identical depth.
 
 Validation depth is adaptive to scope, dependency, uncertainty, authority, and consequence.
 
----
+______________________________________________________________________
 
-# 5. Control Plane Responsibilities
+## 5. Control Plane Responsibilities
 
 The control plane conceptually owns or governs:
 
@@ -292,9 +296,9 @@ The control plane conceptually owns or governs:
 | Recovery governance   | Restore nearest valid state                        |
 | Auditability          | Preserve reconstructable decision history          |
 
----
+______________________________________________________________________
 
-# 6. What the Control Plane Does Not Own
+## 6. What the Control Plane Does Not Own
 
 The control plane must not silently absorb unrelated responsibilities.
 
@@ -324,9 +328,9 @@ CONTROL_PLANE != KNOWLEDGE
 
 It governs transitions across these components where authority or authoritative state is involved.
 
----
+______________________________________________________________________
 
-# 7. Proposal Boundary
+## 7. Proposal Boundary
 
 A proposal is a candidate transition.
 
@@ -370,9 +374,9 @@ PROPOSAL
 AUTHORIZED TRANSITION
 ```
 
----
+______________________________________________________________________
 
-# 8. Proposal Envelope
+## 8. Proposal Envelope
 
 Consequential proposals should conceptually preserve:
 
@@ -398,9 +402,9 @@ proposal:
 
 Missing critical fields remain `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
-# 9. Control-Plane Ingress
+## 9. Control-Plane Ingress
 
 Before governance evaluation, incoming proposals should be normalized into a typed representation.
 
@@ -418,9 +422,9 @@ CONTROL EVALUATION
 
 Normalization must not silently change semantics.
 
----
+______________________________________________________________________
 
-# 10. Policy Resolution
+## 10. Policy Resolution
 
 The control plane determines which policy applies.
 
@@ -444,9 +448,9 @@ APPLICABLE POLICY SET
 
 Policy selection must be explicit enough to audit consequential decisions.
 
----
+______________________________________________________________________
 
-# 11. Policy Conflict
+## 11. Policy Conflict
 
 If applicable policies conflict:
 
@@ -476,9 +480,9 @@ ESCALATE
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 12. Authority Resolution
+## 12. Authority Resolution
 
 Authority evaluation asks:
 
@@ -507,9 +511,9 @@ CONTROL_PLANE
 AUTHORITY_CANON
 ```
 
----
+______________________________________________________________________
 
-# 13. Authority Firewall
+## 13. Authority Firewall
 
 ```text
 IDENTITY != AUTHORITY
@@ -531,9 +535,9 @@ WORKFLOW POSITION != AUTHORITY
 
 Control-plane validation must preserve these distinctions.
 
----
+______________________________________________________________________
 
-# 14. State Validation
+## 14. State Validation
 
 A proposal is evaluated against authoritative state.
 
@@ -560,9 +564,9 @@ ABORT
 
 rather than silently committing against stale assumptions.
 
----
+______________________________________________________________________
 
-# 15. MVCC Concept
+## 15. MVCC Concept
 
 AMOS Core v4.4 includes MVCC/CAS concepts as reasoning and coordination patterns.
 
@@ -592,9 +596,9 @@ CURRENT = V18
 
 the proposal must not silently assume validity.
 
----
+______________________________________________________________________
 
-# 16. CAS Concept
+## 16. CAS Concept
 
 Compare-and-swap style governance:
 
@@ -632,9 +636,9 @@ ABORT
 
 This is a conceptual AMOS pattern and does not claim every implementation uses a literal CAS primitive.
 
----
+______________________________________________________________________
 
-# 17. Provenance Gate
+## 17. Provenance Gate
 
 A consequential transition should preserve provenance sufficient to reconstruct its basis.
 
@@ -656,9 +660,9 @@ SOURCE ORIGIN
 
 Broken load-bearing provenance weakens commit eligibility.
 
----
+______________________________________________________________________
 
-# 18. Provenance Topology
+## 18. Provenance Topology
 
 The control plane must distinguish:
 
@@ -689,9 +693,9 @@ SOURCE A
 
 remains one provenance ancestry unless independent origin is demonstrated.
 
----
+______________________________________________________________________
 
-# 19. Sybil Hardening
+## 19. Sybil Hardening
 
 Artificial multiplication of evidence, votes, approvals, or claims must not increase their independent weight.
 
@@ -709,9 +713,9 @@ N INDEPENDENT ORIGINS
 
 This applies where provenance independence materially affects control decisions.
 
----
+______________________________________________________________________
 
-# 20. Persistent Provenance
+## 20. Persistent Provenance
 
 Commit records should preserve enough provenance to survive beyond transient reasoning.
 
@@ -734,9 +738,9 @@ commit_provenance:
   invalidation_conditions: []
 ```
 
----
+______________________________________________________________________
 
-# 21. Dependency Closure
+## 21. Dependency Closure
 
 Local commit is permitted only when all dependencies capable of materially changing the result are resolved sufficiently.
 
@@ -752,9 +756,9 @@ Do not require unrelated global knowledge.
 
 This is the basis of the AMOS v4.4 smallest-sufficient-proof fast path.
 
----
+______________________________________________________________________
 
-# 22. Fast-Path Eligibility
+## 22. Fast-Path Eligibility
 
 Local control-plane processing may use the fast path when:
 
@@ -776,9 +780,9 @@ NO HIDDEN SHARED INVARIANT
 NO GOVERNANCE ESCALATION REQUIRED
 ```
 
----
+______________________________________________________________________
 
-# 23. Fast-Path Escalation
+## 23. Fast-Path Escalation
 
 Escalate when:
 
@@ -810,9 +814,9 @@ CROSS-SHARD INVARIANT
 UNKNOWN/GAP ON LOAD-BEARING PREMISE
 ```
 
----
+______________________________________________________________________
 
-# 24. Coordination Law
+## 24. Coordination Law
 
 AMOS v4.4 does not require global coordination when local proof is sufficient.
 
@@ -826,9 +830,9 @@ WHERE DEPENDENCIES REQUIRE COORDINATION
 
 This prevents unnecessary global synchronization.
 
----
+______________________________________________________________________
 
-# 25. Proof-Based Coordination Avoidance
+## 25. Proof-Based Coordination Avoidance
 
 Coordination may be avoided when independence is demonstrated.
 
@@ -852,9 +856,9 @@ LOCAL PROCESSING MAY PROCEED
 
 Independence must be demonstrated, not assumed.
 
----
+______________________________________________________________________
 
-# 26. Shared Invariant Gate
+## 26. Shared Invariant Gate
 
 If two otherwise local transitions modify a shared invariant:
 
@@ -870,9 +874,9 @@ they are not independent for finalization purposes.
 
 Coordination is required at the shared dependency boundary.
 
----
+______________________________________________________________________
 
-# 27. Atomic Multi-RSCF Reasoning
+## 27. Atomic Multi-RSCF Reasoning
 
 Where a decision depends on multiple RSCFs atomically:
 
@@ -896,9 +900,9 @@ A ∧ B ∧ C
 
 must remain valid together at the commit point.
 
----
+______________________________________________________________________
 
-# 28. Atomicity Rule
+## 28. Atomicity Rule
 
 If:
 
@@ -916,9 +920,9 @@ COMPOSITE COMMIT != VALID
 
 Partial premise validity is not sufficient.
 
----
+______________________________________________________________________
 
-# 29. Competing Hypotheses
+## 29. Competing Hypotheses
 
 The control plane must preserve genuine competition.
 
@@ -944,9 +948,9 @@ is a valid state.
 
 Do not force convergence merely to obtain a commit.
 
----
+______________________________________________________________________
 
-# 30. Discriminating Evidence
+## 30. Discriminating Evidence
 
 Where competing hypotheses block a consequential transition, prefer:
 
@@ -958,9 +962,9 @@ DISCRIMINATING TEST
 
 over redundant evidence accumulation.
 
----
+______________________________________________________________________
 
-# 31. Causal Firewall
+## 31. Causal Firewall
 
 Control-plane decisions involving causality must distinguish:
 
@@ -988,9 +992,9 @@ CAUSAL EFFECT
 
 Structural resemblance alone does not license causal authority.
 
----
+______________________________________________________________________
 
-# 32. Scope Firewall
+## 32. Scope Firewall
 
 Every consequential control decision inherits an applicability envelope.
 
@@ -1009,9 +1013,9 @@ ASSUMPTIONS
 
 No silent generalization beyond this envelope.
 
----
+______________________________________________________________________
 
-# 33. Regime Firewall
+## 33. Regime Firewall
 
 A valid control decision in regime:
 
@@ -1035,9 +1039,9 @@ REVALIDATE DEPENDENT DECISIONS
 
 where validity conditions materially changed.
 
----
+______________________________________________________________________
 
-# 34. Freshness Gate
+## 34. Freshness Gate
 
 A premise may be structurally valid but temporally stale.
 
@@ -1049,9 +1053,9 @@ VALID NOW
 
 Consequential commits require load-bearing premises to remain within their applicable freshness bounds.
 
----
+______________________________________________________________________
 
-# 35. Causal Epoch
+## 35. Causal Epoch
 
 AMOS v4.4 uses causal epoch concepts to bound finality and dependency validity.
 
@@ -1073,9 +1077,9 @@ EPOCH E2
 
 may invalidate E1-dependent conclusions.
 
----
+______________________________________________________________________
 
-# 36. Causal Epoch Finality
+## 36. Causal Epoch Finality
 
 A commit may be final relative to a causal epoch when its required dependency closure is stable within that epoch.
 
@@ -1091,9 +1095,9 @@ FINAL(ALL FUTURE REGIMES)
 
 Finality remains scoped.
 
----
+______________________________________________________________________
 
-# 37. Finality
+## 37. Finality
 
 Finality means the transition has passed its required governance and dependency gates for the declared scope.
 
@@ -1113,9 +1117,9 @@ IMMUNE TO SUPERSESSION
 VALID ACROSS ALL REGIMES
 ```
 
----
+______________________________________________________________________
 
-# 38. Shard-Local Finalization
+## 38. Shard-Local Finalization
 
 AMOS v4.4 supports hardened shard-local finalization as a reasoning architecture pattern.
 
@@ -1137,9 +1141,9 @@ NO SHARED MUTABLE INVARIANT
 NO UNRESOLVED MATERIAL CONFLICT
 ```
 
----
+______________________________________________________________________
 
-# 39. Local Finality Firewall
+## 39. Local Finality Firewall
 
 ```text
 LOCAL FINALITY
@@ -1149,9 +1153,9 @@ GLOBAL FINALITY
 
 A locally finalized transition must not be represented as globally authoritative outside its proven scope.
 
----
+______________________________________________________________________
 
-# 40. Cross-Shard Dependency
+## 40. Cross-Shard Dependency
 
 If:
 
@@ -1165,9 +1169,9 @@ SHARD B
 
 then A cannot claim independent finality until the relevant B dependency is sufficiently resolved.
 
----
+______________________________________________________________________
 
-# 41. Cross-Shard Independence
+## 41. Cross-Shard Independence
 
 If:
 
@@ -1192,9 +1196,9 @@ NO AUTHORITY CONFLICT
 
 they may not require global coordination.
 
----
+______________________________________________________________________
 
-# 42. Commit Eligibility
+## 42. Commit Eligibility
 
 A transition becomes commit-eligible only when required predicates are satisfied.
 
@@ -1222,9 +1226,9 @@ CONFLICT_CLEAR
 
 Additional predicates may apply by domain.
 
----
+______________________________________________________________________
 
-# 43. UNKNOWN/GAP Gate
+## 43. UNKNOWN/GAP Gate
 
 Canonical rule:
 
@@ -1256,9 +1260,9 @@ cannot silently become:
 VALID
 ```
 
----
+______________________________________________________________________
 
-# 44. Conclusion Classes
+## 44. Conclusion Classes
 
 The control plane should preserve the weakest accurate conclusion class.
 
@@ -1278,9 +1282,9 @@ UNKNOWN/GAP
 
 A weaker conclusion must not be promoted merely to permit execution.
 
----
+______________________________________________________________________
 
-# 45. Confidence Ceiling
+## 45. Confidence Ceiling
 
 Derived confidence cannot exceed the weakest load-bearing premise unless independently revalidated.
 
@@ -1296,9 +1300,9 @@ MIN(
 
 subject to independent revalidation.
 
----
+______________________________________________________________________
 
-# 46. Sensitivity Gate
+## 46. Sensitivity Gate
 
 For consequential proposals, identify the smallest premise or threshold capable of flipping the decision.
 
@@ -1312,9 +1316,9 @@ TEST FIRST
 
 This avoids spending validation effort on non-decisive uncertainty.
 
----
+______________________________________________________________________
 
-# 47. Fragility
+## 47. Fragility
 
 If a small plausible perturbation changes the decision:
 
@@ -1326,9 +1330,9 @@ is preferable to false certainty.
 
 Robust decisions should survive plausible perturbations of noncritical assumptions.
 
----
+______________________________________________________________________
 
-# 48. Commit Record
+## 48. Commit Record
 
 A conceptual commit record:
 
@@ -1362,9 +1366,9 @@ commit:
   rollback_target:
 ```
 
----
+______________________________________________________________________
 
-# 49. Commit Immutability vs Supersession
+## 49. Commit Immutability vs Supersession
 
 Historical commit records should preserve what occurred.
 
@@ -1386,9 +1390,9 @@ CORRECTION
 HISTORY ERASURE
 ```
 
----
+______________________________________________________________________
 
-# 50. Supersession
+## 50. Supersession
 
 ```text
 STATE / CLAIM A
@@ -1402,9 +1406,9 @@ The supersession relation should preserve lineage.
 
 The old artifact may cease to be authoritative without ceasing to exist historically.
 
----
+______________________________________________________________________
 
-# 51. Revocation
+## 51. Revocation
 
 Revocation invalidates a previously active authority, permission, or eligibility state where applicable.
 
@@ -1418,9 +1422,9 @@ REVOKED
 
 Dependent pending commits must be reevaluated.
 
----
+______________________________________________________________________
 
-# 52. Failure Locality
+## 52. Failure Locality
 
 AMOS failure recovery follows:
 
@@ -1433,9 +1437,9 @@ AND THEIR DEPENDENTS
 
 Do not globally invalidate unaffected work.
 
----
+______________________________________________________________________
 
-# 53. Dependency-Directed Invalidation
+## 53. Dependency-Directed Invalidation
 
 If:
 
@@ -1453,9 +1457,9 @@ A PRESERVED
 
 unless A independently depends on B through another edge.
 
----
+______________________________________________________________________
 
-# 54. Rollback
+## 54. Rollback
 
 Rollback returns to the nearest valid recoverable state.
 
@@ -1471,9 +1475,9 @@ ROLLBACK
 
 Global reset is a last resort.
 
----
+______________________________________________________________________
 
-# 55. Recovery
+## 55. Recovery
 
 Canonical recovery pattern:
 
@@ -1497,9 +1501,9 @@ REVALIDATE
 RESUME
 ```
 
----
+______________________________________________________________________
 
-# 56. No Blind Retry
+## 56. No Blind Retry
 
 Canonical law:
 
@@ -1529,9 +1533,9 @@ CORRECTED DEPENDENCY
 REGIME CHANGE
 ```
 
----
+______________________________________________________________________
 
-# 57. Control-Plane Decision States
+## 57. Control-Plane Decision States
 
 Possible decision states include:
 
@@ -1567,9 +1571,9 @@ UNKNOWN/GAP
 
 Exact implementation state names may differ.
 
----
+______________________________________________________________________
 
-# 58. Quarantine
+## 58. Quarantine
 
 A proposal may be quarantined when it should neither commit nor be discarded.
 
@@ -1591,9 +1595,9 @@ DEPENDENCY INCOMPLETE
 
 Quarantine preserves evidence while blocking unsafe promotion.
 
----
+______________________________________________________________________
 
-# 59. Governance Escalation
+## 59. Governance Escalation
 
 Escalate when:
 
@@ -1619,9 +1623,9 @@ POLICY CONFLICT
 CRITICAL GAP
 ```
 
----
+______________________________________________________________________
 
-# 60. Reversibility Preference
+## 60. Reversibility Preference
 
 Under uncertainty:
 
@@ -1634,9 +1638,9 @@ OBSERVABLE
 
 actions are preferred over irreversible commitment where outcome quality is comparable.
 
----
+______________________________________________________________________
 
-# 61. Adaptive Validation
+## 61. Adaptive Validation
 
 Validation depth should increase with:
 
@@ -1664,9 +1668,9 @@ GOVERNANCE IMPACT
 LOW TRUST
 ```
 
----
+______________________________________________________________________
 
-# 62. Control Plane Complexity Levels
+## 62. Control Plane Complexity Levels
 
 Conceptual adaptive levels:
 
@@ -1684,9 +1688,9 @@ C4 MAXIMUM
 
 The control plane should use the lowest level sufficient to preserve integrity.
 
----
+______________________________________________________________________
 
-# 63. Integrity Priority
+## 63. Integrity Priority
 
 Canonical priority:
 
@@ -1704,9 +1708,9 @@ TOKEN SAVINGS
 
 Control-plane optimization must not reverse this ordering.
 
----
+______________________________________________________________________
 
-# 64. Anti-Regression
+## 64. Anti-Regression
 
 An optimization is acceptable only if it preserves or improves:
 
@@ -1736,9 +1740,9 @@ Otherwise:
 ROLL BACK OPTIMIZATION
 ```
 
----
+______________________________________________________________________
 
-# 65. Control-Plane Inputs
+## 65. Control-Plane Inputs
 
 Typical inputs may include:
 
@@ -1768,9 +1772,9 @@ SECURITY CONTEXT
 RUNTIME CAPABILITIES
 ```
 
----
+______________________________________________________________________
 
-# 66. Control-Plane Outputs
+## 66. Control-Plane Outputs
 
 Typical outputs may include:
 
@@ -1802,9 +1806,9 @@ COMPETING
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 67. Runtime Contract
+## 67. Runtime Contract
 
 The runtime should receive a governed execution envelope rather than an unvalidated raw proposal for consequential operations.
 
@@ -1825,9 +1829,9 @@ execution_envelope:
   rollback_ref:
 ```
 
----
+______________________________________________________________________
 
-# 68. Runtime Firewall
+## 68. Runtime Firewall
 
 Runtime must not silently reinterpret:
 
@@ -1843,9 +1847,9 @@ PROPOSAL → COMMIT
 EXPIRED → VALID
 ```
 
----
+______________________________________________________________________
 
-# 69. Cognitive Firewall
+## 69. Cognitive Firewall
 
 Cognition may generate:
 
@@ -1869,9 +1873,9 @@ COGNITIVE OUTPUT
 CONTROL-PLANE AUTHORIZATION
 ```
 
----
+______________________________________________________________________
 
-# 70. Agent Firewall
+## 70. Agent Firewall
 
 Agents may operate as role-based workers.
 
@@ -1883,9 +1887,9 @@ PROPOSE / REQUEST / EXECUTE WITHIN GRANT
 
 An agent does not gain control-plane authority merely because it generated a valid result.
 
----
+______________________________________________________________________
 
-# 71. Skill Firewall
+## 71. Skill Firewall
 
 ```text
 SKILL
@@ -1901,9 +1905,9 @@ SKILL
 PERMISSION
 ```
 
----
+______________________________________________________________________
 
-# 72. Workflow Firewall
+## 72. Workflow Firewall
 
 ```text
 WORKFLOW
@@ -1921,9 +1925,9 @@ AUTHORITY SOURCE
 
 Privileged workflow transitions require explicit authority.
 
----
+______________________________________________________________________
 
-# 73. Tool Firewall
+## 73. Tool Firewall
 
 ```text
 TOOL
@@ -1941,9 +1945,9 @@ PERMISSION
 
 Tool availability must not bypass control-plane governance.
 
----
+______________________________________________________________________
 
-# 74. Model Firewall
+## 74. Model Firewall
 
 ```text
 MODEL
@@ -1961,9 +1965,9 @@ AUTHORITY
 
 High model confidence cannot independently authorize external effect.
 
----
+______________________________________________________________________
 
-# 75. Memory Firewall
+## 75. Memory Firewall
 
 Memory may preserve:
 
@@ -1987,9 +1991,9 @@ CURRENT VALIDITY
 
 Revalidation applies where freshness matters.
 
----
+______________________________________________________________________
 
-# 76. Knowledge Firewall
+## 76. Knowledge Firewall
 
 Knowledge provides evidence, claims, frameworks, and context.
 
@@ -2001,9 +2005,9 @@ CONTROL AUTHORITY
 
 A knowledge artifact may inform a decision without possessing decision rights.
 
----
+______________________________________________________________________
 
-# 77. Security Integration
+## 77. Security Integration
 
 Control-plane governance depends on security primitives such as:
 
@@ -2031,9 +2035,9 @@ AUTHENTICATED
 AUTHORIZED TO COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 78. Observability
+## 78. Observability
 
 Consequential control-plane transitions should be observable.
 
@@ -2071,9 +2075,9 @@ RECOVERY
 FINALIZATION
 ```
 
----
+______________________________________________________________________
 
-# 79. Audit Reconstruction
+## 79. Audit Reconstruction
 
 The system should eventually be able to answer:
 
@@ -2103,9 +2107,9 @@ WHAT WOULD INVALIDATE IT?
 HOW CAN IT BE ROLLED BACK?
 ```
 
----
+______________________________________________________________________
 
-# 80. Core Control-Plane Invariants
+## 80. Core Control-Plane Invariants
 
 ```text
 CP-001  PROPOSAL != COMMIT
@@ -2159,9 +2163,9 @@ CP-024  CONFIDENCE CANNOT REPLACE AUTHORITY
 CP-025  COORDINATION IS REQUIRED ONLY BY MATERIAL DEPENDENCY
 ```
 
----
+______________________________________________________________________
 
-# 81. Minimum Control-Plane Contract
+## 81. Minimum Control-Plane Contract
 
 Every consequential control-plane implementation should eventually define:
 
@@ -2182,9 +2186,9 @@ Every consequential control-plane implementation should eventually define:
 | Audit trace          | Reconstructable lineage         |
 | Runtime handoff      | Governed execution envelope     |
 
----
+______________________________________________________________________
 
-# 82. Control-Plane Test Families
+## 82. Control-Plane Test Families
 
 Expected tests include:
 
@@ -2248,9 +2252,9 @@ AUDIT RECONSTRUCTION TESTS
 RUNTIME BYPASS TESTS
 ```
 
----
+______________________________________________________________________
 
-# 83. Adversarial Validation Cases
+## 83. Adversarial Validation Cases
 
 High-value adversarial scenarios:
 
@@ -2292,9 +2296,9 @@ REVOCATION DOES NOT PROPAGATE
 PROVENANCE DESCENDANTS ARE COUNTED AS INDEPENDENT APPROVALS
 ```
 
----
+______________________________________________________________________
 
-# 84. Implementation Firewall
+## 84. Implementation Firewall
 
 This canon does **not** by itself prove implementation of:
 
@@ -2334,9 +2338,9 @@ FORMAL VERIFICATION
 
 Those claims require separate implementation or empirical evidence.
 
----
+______________________________________________________________________
 
-# 85. Promotion Gate
+## 85. Promotion Gate
 
 Promotion:
 
@@ -2390,9 +2394,9 @@ Unresolved semantics remain:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 86. RSCF Node
+## 86. RSCF Node
 
 ```yaml
 node_id: AMOS_CONTROL_PLANE_CANON
@@ -2470,9 +2474,9 @@ does_not_establish:
   - formal verification
 ```
 
----
+______________________________________________________________________
 
-# 87. Changelog
+## 87. Changelog
 
 ## v2.0.0 — 2026-08-25
 
@@ -2512,9 +2516,9 @@ Added:
 
 Initial placeholder reserved the canonical AMOS OS control-plane location.
 
----
+______________________________________________________________________
 
-# 88. Canonical Summary
+## 88. Canonical Summary
 
 ```text
 CANON
@@ -2679,30 +2683,33 @@ WHEN A LOAD-BEARING CONDITION IS UNKNOWN,
 DO NOT SILENTLY COMMIT.
 ```
 
----
+______________________________________________________________________
 
 **Related:** README|AMOS OS · [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]|Architecture · [[00_ROOT/SYSTEM_MAP|SYSTEM_MAP]]|System Map · [[00_ROOT/PLACEMENT_RULES|PLACEMENT_RULES]]|Placement Rules · [[01_CANON/00_INDEX/CANON_MAP|CANON_MAP]]|Canon Map · [[01_CANON/01_CORE_LAWS/AMOS_CORE_LAWS|AMOS Core Laws]] · [[01_CANON/01_CORE_LAWS/INVARIANT_REGISTRY|INVARIANT_REGISTRY]]|Invariant Registry · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]|Law Hierarchy · [[01_CANON/04_INFRASTRUCTURE_CANON/AUTHORITY_CANON|AUTHORITY_CANON]]|Authority Canon · [[01_CANON/02_UNIVERSE_CANON/PERSISTENCE_CANON|PERSISTENCE_CANON]]|Persistence Canon · [[01_CANON/03_COGNITION_CANON/COGNITION_CANON|COGNITION_CANON]]|Cognition Canon · [[01_CANON/03_COGNITION_CANON/COGNITIVE_ORGANISM_CANON|COGNITIVE_ORGANISM_CANON]]|Cognitive Organism Canon · [[01_CANON/03_COGNITION_CANON/FULL_BRAIN_OS_CANON|FULL_BRAIN_OS_CANON]]|Full Brain OS Canon · [[02_KERNEL/00_INDEX/KERNEL_MAP|KERNEL_MAP]]|Kernel Map · [[03_CONTROL_PLANE/00_INDEX/CONTROL_PLANE_MAP|CONTROL_PLANE_MAP]]|Control Plane Map · [[04_RUNTIME/00_INDEX/RUNTIME_MAP|RUNTIME_MAP]]|Runtime Map · [[08_WORKFLOWS/00_INDEX/WORKFLOW_MAP|WORKFLOW_MAP]]|Workflow Map · [[09_PROTOCOLS/00_INDEX/PROTOCOL_MAP|PROTOCOL_MAP]]|Protocol Map · [[10_MEMORY/00_INDEX/MEMORY_MEMORY_MAP|MEMORY_MEMORY_MAP]]|Memory Map · [[11_KNOWLEDGE/AMOS_FULL_BRAIN_OS_ARCHITECTURE|Knowledge]] · [[12_STATE/00_INDEX/STATE_STATE_MAP|STATE_STATE_MAP]]|State Map · [[16_SCHEMAS/00_INDEX/SCHEMA_MAP|SCHEMA_MAP]]|Schema Map · [[17_OBSERVABILITY/00_INDEX/OBSERVABILITY_OBSERVABILITY_MAP|OBSERVABILITY_OBSERVABILITY_MAP]]|Observability Map · [[18_SECURITY/00_INDEX/SECURITY_MAP|SECURITY_MAP]]|Security Map · [[19_TESTS/00_INDEX/TEST_MAP|TEST_MAP]]|Test Map · [[20_OPERATIONS/00_INDEX/OPERATIONS_MAP|OPERATIONS_MAP]]|Operations Map · [[23_OPERATING_MODEL/00_INDEX/OPERATING_MODEL|OPERATING_MODEL]]|Operating Model
 
 ```text
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: control_plane_canon
 node_type: note
 path: 01_CANON/04_INFRASTRUCTURE_CANON/CONTROL_PLANE_CANON.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[01_CANON/04_INFRASTRUCTURE_CANON/04_INFRASTRUCTURE_CANON_MOC|04_INFRASTRUCTURE_CANON_MOC]]
-

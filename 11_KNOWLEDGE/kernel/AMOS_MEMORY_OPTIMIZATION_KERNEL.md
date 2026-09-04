@@ -1,14 +1,17 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: AMOS MEMORY OPTIMIZATION KERNEL V0 MACHINE ARCHITECTURE4 2
 tags:
-- canon-group/biology
-- canon/framework
-- rscf/claim
-- rscf/provenance
-- rscf/state/source-claim
-- topic/amos-memory-optimization-kernel-v0
-- kernel
-- memory
+  - canon-group/biology
+  - canon/framework
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - topic/amos-memory-optimization-kernel-v0
+  - kernel
+  - memory
 type: data
 source: 11_KNOWLEDGE/kernel
 rscf:
@@ -75,6 +78,6 @@ rscf:
 **Related:** [[11_KNOWLEDGE/kernel/AMOS_TOOLCHAIN_INTEGRATION_KERNEL|AMOS_TOOLCHAIN_INTEGRATION_KERNEL]] · [[11_KNOWLEDGE/kernel/AMOS_POLICY_DESIGN_KERNEL_V0_GOVERNANCE_RISK|AMOS_POLICY_DESIGN_KERNEL_V0_GOVERNANCE_RISK]] · [[11_KNOWLEDGE/kernel/AMOS_POLITICAL_DYNAMICS_KERNEL|AMOS_POLITICAL_DYNAMICS_KERNEL]] · [[11_KNOWLEDGE/kernel/AMOS_OS_ROOT_KERNEL|AMOS_OS_ROOT_KERNEL]]
 ```
 
----
-**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]
+______________________________________________________________________
 
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]

@@ -1,4 +1,7 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: CORE LAWS CANON CORE LAWS CONTRACT
 type: note
 source: 01_CANON/01_CORE_LAWS/00_INDEX
@@ -6,19 +9,15 @@ rscf:
   state: SOURCE_CLAIM
   class: STRUCTURAL
   provenance:
-  - internal
+    - internal
   freshness: EVERGREEN
   falsifiers: []
 tags:
-- note
+  - note
 canon-group: canon/core-laws
 ---
 
----title: "AMOS Core Laws Canon — Core Laws Contract"
-type: document
-tags: [note]
----
-
+## ---title: "AMOS Core Laws Canon — Core Laws Contract" type: document tags: [note]
 
 # CORE LAWS Contract
 
@@ -68,9 +67,9 @@ Origin architect / steward:
 
 **Trang Phan**
 
----
+______________________________________________________________________
 
-# 1. Purpose
+## 1. Purpose
 
 The purpose of the Core Laws Contract is to define the minimum structural, epistemic, provenance, dependency, authority, versioning, validation, and lifecycle requirements that an AMOS Core Law object must satisfy before it can safely participate in the governed AMOS canon.
 
@@ -97,9 +96,9 @@ The contract is a governance boundary.
 
 It is not a declaration that every law represented in the repository is valid, implemented, empirically verified, or canonically admitted.
 
----
+______________________________________________________________________
 
-# 2. Non-Purpose
+## 2. Non-Purpose
 
 This contract does **not**:
 
@@ -117,9 +116,9 @@ This contract does **not**:
 - infer validation from tests that have not been executed;
 - or erase historical versions when a law changes.
 
----
+______________________________________________________________________
 
-# 3. Governing Principle
+## 3. Governing Principle
 
 A Core Law is a governed canonical object, not merely text.
 
@@ -149,9 +148,9 @@ VERSIONED LAW
 
 A document that fails this transition remains a candidate, model, source claim, or gap according to the evidence available.
 
----
+______________________________________________________________________
 
-# 4. Core Law Definition
+## 4. Core Law Definition
 
 Within this specification, a **Core Law** is a high-order AMOS constraint that governs admissible state, interpretation, transformation, composition, authority, persistence, evolution, or execution within an explicitly declared applicability envelope.
 
@@ -196,9 +195,9 @@ MODEL-GENERATED ASSUMPTION
 CANON
 ```
 
----
+______________________________________________________________________
 
-# 5. Core Law Identity Contract
+## 5. Core Law Identity Contract
 
 Every admitted Core Law MUST possess a stable canonical identity.
 
@@ -239,9 +238,9 @@ LAW_REPRESENTATION
 LAW_OBJECT
 ```
 
----
+______________________________________________________________________
 
-# 6. Object-Type Contract
+## 6. Object-Type Contract
 
 Objects inside the Core Laws directory MUST be typed.
 
@@ -266,9 +265,9 @@ UNKNOWN
 
 Directory location alone MUST NOT substitute for object typing.
 
----
+______________________________________________________________________
 
-# 7. Epistemic Contract
+## 7. Epistemic Contract
 
 Core Law artifacts MUST distinguish epistemic status from canonical status.
 
@@ -293,9 +292,9 @@ They do not answer:
 
 > Has this object been admitted to AMOS canon?
 
----
+______________________________________________________________________
 
-# 8. Canonical-State Contract
+## 8. Canonical-State Contract
 
 Recommended canonical states:
 
@@ -341,9 +340,9 @@ validation_status: TESTED
 
 Implementation does not elevate the second object into canon.
 
----
+______________________________________________________________________
 
-# 9. Source Contract
+## 9. Source Contract
 
 Every Core Law SHOULD identify its source basis.
 
@@ -368,9 +367,9 @@ MUST be permitted.
 
 The system MUST NOT manufacture provenance merely to complete the schema.
 
----
+______________________________________________________________________
 
-# 10. Provenance Contract
+## 10. Provenance Contract
 
 Core Law provenance SHOULD preserve:
 
@@ -402,9 +401,9 @@ REVIEW
 CANON DECISION
 ```
 
----
+______________________________________________________________________
 
-# 11. Provenance Independence
+## 11. Provenance Independence
 
 Multiple artifacts MUST NOT automatically be interpreted as independent evidence.
 
@@ -429,9 +428,9 @@ Therefore:
 
 Confidence aggregation MUST respect common ancestry.
 
----
+______________________________________________________________________
 
-# 12. Law Statement Contract
+## 12. Law Statement Contract
 
 A Core Law SHOULD contain a normalized law statement.
 
@@ -468,9 +467,9 @@ ASSOCIATED
 CAUSES
 ```
 
----
+______________________________________________________________________
 
-# 13. Scope Contract
+## 13. Scope Contract
 
 Every law MUST carry a declared applicability envelope where applicable.
 
@@ -497,9 +496,9 @@ VALID(SCOPE_A)
 VALID(ALL_SCOPES)
 ```
 
----
+______________________________________________________________________
 
-# 14. Regime Contract
+## 14. Regime Contract
 
 A law MAY have regime-dependent applicability.
 
@@ -524,9 +523,9 @@ FUTURE_PROPOSED
 
 Where regime affects validity, it MUST be explicit.
 
----
+______________________________________________________________________
 
-# 15. Freshness Contract
+## 15. Freshness Contract
 
 Core Law applicability MAY depend on freshness.
 
@@ -545,9 +544,9 @@ A stale law is not automatically invalid.
 
 However, stale supporting evidence MUST NOT be silently treated as current where freshness is load-bearing.
 
----
+______________________________________________________________________
 
-# 16. Dependency Contract
+## 16. Dependency Contract
 
 Every Core Law SHOULD declare relevant dependencies.
 
@@ -580,9 +579,9 @@ VALIDATES
 INVALIDATES
 ```
 
----
+______________________________________________________________________
 
-# 17. Dependency Closure
+## 17. Dependency Closure
 
 A law MUST NOT be treated as independently valid if its load-bearing dependencies are unresolved.
 
@@ -612,9 +611,9 @@ DELETE(LAW_B)
 
 Dependent conclusions should be selectively invalidated.
 
----
+______________________________________________________________________
 
-# 18. Invariant Contract
+## 18. Invariant Contract
 
 A Core Law MAY define or protect one or more invariants.
 
@@ -633,9 +632,9 @@ invariant:
 
 An invariant MUST NOT be inferred merely because a property is desirable.
 
----
+______________________________________________________________________
 
-# 19. Core Meta-Invariants
+## 19. Core Meta-Invariants
 
 Unless superseded by authoritative AMOS canon, this contract preserves the following architectural invariants:
 
@@ -671,9 +670,9 @@ CL-I010
 CONFLICT != RESOLUTION
 ```
 
----
+______________________________________________________________________
 
-# 20. Integrity Invariant
+## 20. Integrity Invariant
 
 Core Law processing MUST prefer preservation of integrity over artificial completion.
 
@@ -689,9 +688,9 @@ SPEED
 
 Therefore an incomplete but provenance-correct law object is preferable to a complete fabricated one.
 
----
+______________________________________________________________________
 
-# 21. Contradiction Invariant
+## 21. Contradiction Invariant
 
 Known contradictions MUST remain observable until resolved.
 
@@ -713,9 +712,9 @@ AVERAGE THE CLAIMS
 CANON
 ```
 
----
+______________________________________________________________________
 
-# 22. Causal Invariant
+## 22. Causal Invariant
 
 Structural resemblance does not establish causality.
 
@@ -737,9 +736,9 @@ CAUSAL_EFFECT
 
 Causal promotion requires evidence appropriate to the claim class.
 
----
+______________________________________________________________________
 
-# 23. H/M/L Contract
+## 23. H/M/L Contract
 
 Core Laws SHOULD declare scale applicability.
 
@@ -761,9 +760,9 @@ HML:
 
 The same textual law MAY require different operationalization at H, M, and L.
 
----
+______________________________________________________________________
 
-# 24. Cross-Scale Invariant
+## 24. Cross-Scale Invariant
 
 Validity at one scale does not prove validity at another.
 
@@ -779,9 +778,9 @@ unless a valid transformation or inheritance rule establishes the relationship.
 
 Cross-scale similarity remains `MODEL` where empirical or canonical support is absent.
 
----
+______________________________________________________________________
 
-# 25. Precedence Contract
+## 25. Precedence Contract
 
 Where laws overlap, precedence MUST be explicit or deterministically resolvable from admitted canon.
 
@@ -806,9 +805,9 @@ Retrieval order MUST NOT determine precedence.
 
 Model preference MUST NOT determine precedence.
 
----
+______________________________________________________________________
 
-# 26. Conflict Resolution Contract
+## 26. Conflict Resolution Contract
 
 Given two potentially conflicting laws:
 
@@ -834,9 +833,9 @@ the resolver SHOULD test:
 
 Only after these checks should a conflict be classified.
 
----
+______________________________________________________________________
 
-# 27. Conflict Outcomes
+## 27. Conflict Outcomes
 
 Permitted outcomes SHOULD include:
 
@@ -855,9 +854,9 @@ CONTRADICTORY
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 28. Competing Hypothesis Contract
+## 28. Competing Hypothesis Contract
 
 When incompatible law interpretations remain supported:
 
@@ -875,9 +874,9 @@ AMOS SHOULD seek the cheapest high-information discriminating evidence.
 
 It SHOULD NOT accumulate redundant evidence that cannot distinguish the alternatives.
 
----
+______________________________________________________________________
 
-# 29. Authority Contract
+## 29. Authority Contract
 
 Core Law mutation requires explicit authority.
 
@@ -915,9 +914,9 @@ Unknown authority MUST remain:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 30. Capability Boundary
+## 30. Capability Boundary
 
 The following capabilities do not independently grant canon authority:
 
@@ -941,9 +940,9 @@ CAN_DO(X)
 AUTHORIZED_TO_DO(X)
 ```
 
----
+______________________________________________________________________
 
-# 31. Proposal Contract
+## 31. Proposal Contract
 
 A proposed Core Law change SHOULD include:
 
@@ -965,9 +964,9 @@ proposal:
 
 Creation of this object does not commit the change.
 
----
+______________________________________________________________________
 
-# 32. Commit Contract
+## 32. Commit Contract
 
 A canonical commit SHOULD require, where applicable:
 
@@ -999,9 +998,9 @@ PROPOSAL
 COMMITTED_CANON_CHANGE
 ```
 
----
+______________________________________________________________________
 
-# 33. Atomicity Contract
+## 33. Atomicity Contract
 
 Where one canonical change modifies multiple mutually dependent law objects, partial commitment SHOULD be prohibited.
 
@@ -1029,9 +1028,9 @@ where the runtime supports such governance.
 
 This is an architectural requirement, not a claim that every current AMOS storage surface implements distributed atomicity.
 
----
+______________________________________________________________________
 
-# 34. Version Contract
+## 34. Version Contract
 
 Every admitted law SHOULD carry a version identity.
 
@@ -1046,9 +1045,9 @@ version:
 
 Version identity MUST remain distinguishable from file modification time.
 
----
+______________________________________________________________________
 
-# 35. Supersession Contract
+## 35. Supersession Contract
 
 Supersession MUST be explicit.
 
@@ -1070,9 +1069,9 @@ SUPERSEDE
 DELETE HISTORY
 ```
 
----
+______________________________________________________________________
 
-# 36. Amendment Contract
+## 36. Amendment Contract
 
 An amendment SHOULD identify whether it changes:
 
@@ -1091,9 +1090,9 @@ SEMANTICS
 
 A semantic amendment MUST NOT be represented as a formatting-only change.
 
----
+______________________________________________________________________
 
-# 37. Change Classification
+## 37. Change Classification
 
 Recommended change classes:
 
@@ -1114,9 +1113,9 @@ SUPERSESSION
 REVOCATION
 ```
 
----
+______________________________________________________________________
 
-# 38. Revalidation Contract
+## 38. Revalidation Contract
 
 Changes to load-bearing Core Laws SHOULD trigger downstream revalidation.
 
@@ -1130,9 +1129,9 @@ REVALIDATE(AFFECTED_OBJECTS)
 
 Unaffected objects SHOULD remain valid where their dependency closure is independent.
 
----
+______________________________________________________________________
 
-# 39. Selective Invalidation
+## 39. Selective Invalidation
 
 The system SHOULD prefer:
 
@@ -1152,9 +1151,9 @@ INVALIDATE(ENTIRE_CANON)
 
 unless dependency uncertainty makes safe selective invalidation impossible.
 
----
+______________________________________________________________________
 
-# 40. Canon Admission Contract
+## 40. Canon Admission Contract
 
 A candidate law SHOULD NOT become canonical solely because:
 
@@ -1181,9 +1180,9 @@ REJECT
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 41. Admission Preconditions
+## 41. Admission Preconditions
 
 Before `ADMIT`, establish at minimum:
 
@@ -1200,9 +1199,9 @@ AUTHORITY
 
 Additional requirements MAY apply depending on law class.
 
----
+______________________________________________________________________
 
-# 42. Conditional Admission
+## 42. Conditional Admission
 
 `ADMIT_CONDITIONAL` SHOULD preserve unresolved conditions.
 
@@ -1219,9 +1218,9 @@ conditions:
 
 Conditional status MUST remain machine-visible where possible.
 
----
+______________________________________________________________________
 
-# 43. Quarantine Contract
+## 43. Quarantine Contract
 
 A law candidate SHOULD be quarantined when it is potentially valuable but unsafe to propagate normally.
 
@@ -1240,9 +1239,9 @@ UNRESOLVED CONTRADICTION
 
 Quarantine preserves evidence without granting normal canonical influence.
 
----
+______________________________________________________________________
 
-# 44. Rejection Contract
+## 44. Rejection Contract
 
 `REJECT` SHOULD include:
 
@@ -1257,9 +1256,9 @@ rejection:
 
 Rejected material SHOULD remain traceable when useful for audit or future reconsideration.
 
----
+______________________________________________________________________
 
-# 45. Runtime Projection
+## 45. Runtime Projection
 
 Core Laws MAY be projected into runtime constraints.
 
@@ -1283,9 +1282,9 @@ ACTION PROPOSAL
 
 The projection itself MUST preserve the law's scope and provenance.
 
----
+______________________________________________________________________
 
-# 46. Canon-to-Policy Boundary
+## 46. Canon-to-Policy Boundary
 
 Core Law and policy are distinct.
 
@@ -1305,9 +1304,9 @@ One policy may depend on several Core Laws.
 
 Policy MUST NOT silently rewrite the law that governs it.
 
----
+______________________________________________________________________
 
-# 47. Canon-to-Protocol Boundary
+## 47. Canon-to-Protocol Boundary
 
 A protocol specifies interaction or execution procedure.
 
@@ -1321,9 +1320,9 @@ PROTOCOL
 
 A protocol MAY implement or operationalize a law, but the mapping SHOULD be explicit.
 
----
+______________________________________________________________________
 
-# 48. Canon-to-Implementation Boundary
+## 48. Canon-to-Implementation Boundary
 
 Implementation is evidence about realization, not evidence of canonical authority.
 
@@ -1340,9 +1339,9 @@ requires two distinct questions:
 
 Neither question answers the other.
 
----
+______________________________________________________________________
 
-# 49. Agents
+## 49. Agents
 
 Agents interacting with Core Laws MAY have roles such as:
 
@@ -1361,9 +1360,9 @@ These are capability roles.
 
 They do not automatically possess canonical authority.
 
----
+______________________________________________________________________
 
-# 50. Agent Constraints
+## 50. Agent Constraints
 
 Agents MUST NOT:
 
@@ -1377,9 +1376,9 @@ CONVERT_UNKNOWN_TO_PASS
 GENERALIZE_SCOPE_WITHOUT_SUPPORT
 ```
 
----
+______________________________________________________________________
 
-# 51. Skills
+## 51. Skills
 
 Skills MAY support:
 
@@ -1403,9 +1402,9 @@ SKILL CAPABILITY
 CANON AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 52. Workflow — Law Intake
+## 52. Workflow — Law Intake
 
 ```text
 DISCOVER SOURCE
@@ -1442,9 +1441,9 @@ QUARANTINED
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 53. Workflow — Canon Promotion
+## 53. Workflow — Canon Promotion
 
 ```text
 CANDIDATE
@@ -1470,9 +1469,9 @@ VERSION ASSIGNMENT
 REGISTRY COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 54. Workflow — Law Amendment
+## 54. Workflow — Law Amendment
 
 ```text
 CURRENT LAW
@@ -1494,9 +1493,9 @@ COMMIT / REJECT
 DEPENDENT REVALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 55. Workflow — Conflict Resolution
+## 55. Workflow — Conflict Resolution
 
 ```text
 CONFLICT DETECTED
@@ -1520,9 +1519,9 @@ DISCRIMINATING EVIDENCE
 RESOLVE / COMPETING / GAP
 ```
 
----
+______________________________________________________________________
 
-# 56. Workflow — Recovery
+## 56. Workflow — Recovery
 
 ```text
 FAILURE DETECTED
@@ -1544,9 +1543,9 @@ RESUME
 
 A failed path SHOULD NOT simply be repeated without changed evidence.
 
----
+______________________________________________________________________
 
-# 57. Protocol — Law Query
+## 57. Protocol — Law Query
 
 A law query SHOULD accept:
 
@@ -1574,9 +1573,9 @@ law_resolution:
   uncertainty: {}
 ```
 
----
+______________________________________________________________________
 
-# 58. Protocol — Canon Mutation
+## 58. Protocol — Canon Mutation
 
 A mutation request SHOULD carry:
 
@@ -1594,9 +1593,9 @@ canon_mutation:
 
 A mutation without required authority MUST fail closed.
 
----
+______________________________________________________________________
 
-# 59. Control-Plane Requirements
+## 59. Control-Plane Requirements
 
 The Core Laws control plane SHOULD eventually provide:
 
@@ -1623,9 +1622,9 @@ This is a specification of required capability.
 
 It does not assert that these capabilities are currently implemented.
 
----
+______________________________________________________________________
 
-# 60. State Variables
+## 60. State Variables
 
 A normalized Core Law runtime state MAY contain:
 
@@ -1668,9 +1667,9 @@ CoreLawState:
 
 This is a proposed normalized state model.
 
----
+______________________________________________________________________
 
-# 61. Operators
+## 61. Operators
 
 Proposed Core Law operators include:
 
@@ -1700,9 +1699,9 @@ ROLLBACK
 
 Operators are specification-level names unless separately implemented.
 
----
+______________________________________________________________________
 
-# 62. Operator Safety
+## 62. Operator Safety
 
 Every state-changing operator SHOULD satisfy:
 
@@ -1724,9 +1723,9 @@ ELIGIBLE TRANSITION
 
 Eligibility does not itself equal commit.
 
----
+______________________________________________________________________
 
-# 63. Memory Contract
+## 63. Memory Contract
 
 Persisted Core Law memory SHOULD preserve at minimum:
 
@@ -1744,9 +1743,9 @@ validation state
 
 Derived summaries SHOULD remain traceable to canonical objects.
 
----
+______________________________________________________________________
 
-# 64. Cache Invalidation
+## 64. Cache Invalidation
 
 Cached law resolution MUST NOT remain authoritative after a load-bearing dependency changes.
 
@@ -1760,9 +1759,9 @@ STALE(CACHED_RESOLUTION)
 
 A stale cached result SHOULD be revalidated before consequential use.
 
----
+______________________________________________________________________
 
-# 65. Evidence Contract
+## 65. Evidence Contract
 
 Evidence attached to Core Laws SHOULD include:
 
@@ -1780,9 +1779,9 @@ evidence:
   independence_group: null
 ```
 
----
+______________________________________________________________________
 
-# 66. Confidence Contract
+## 66. Confidence Contract
 
 Confidence MUST NOT exceed the weakest load-bearing premise without independent revalidation.
 
@@ -1802,9 +1801,9 @@ min(
 
 This is an AMOS governance model relation, not a universal statistical equation.
 
----
+______________________________________________________________________
 
-# 67. Confidence Ceiling
+## 67. Confidence Ceiling
 
 A law with unresolved critical provenance or identity gaps MUST NOT receive an unconditional high confidence state.
 
@@ -1818,9 +1817,9 @@ confidence_ceiling:
   implementation_validation: 0
 ```
 
----
+______________________________________________________________________
 
-# 68. Uncertainty Vector
+## 68. Uncertainty Vector
 
 Material uncertainty SHOULD be decomposed.
 
@@ -1838,9 +1837,9 @@ uncertainty:
 
 A single scalar SHOULD NOT hide materially different uncertainty classes.
 
----
+______________________________________________________________________
 
-# 69. Failure Modes
+## 69. Failure Modes
 
 ## CL-FM001 — False Canon Promotion
 
@@ -1902,9 +1901,9 @@ Missing evidence satisfies validation.
 
 **Response:** fail validator.
 
----
+______________________________________________________________________
 
-# 70. Extended Failure Modes
+## 70. Extended Failure Modes
 
 ```text
 CL-FM011
@@ -1953,9 +1952,9 @@ CL-FM025
 rollback restores an already-invalid predecessor
 ```
 
----
+______________________________________________________________________
 
-# 71. Repair Principles
+## 71. Repair Principles
 
 Core Law repair SHOULD follow:
 
@@ -1977,9 +1976,9 @@ RESTORE
 
 Repair SHOULD NOT erase evidence of the failure.
 
----
+______________________________________________________________________
 
-# 72. Repair Contract
+## 72. Repair Contract
 
 A repair object MAY contain:
 
@@ -1997,9 +1996,9 @@ repair:
   provenance: []
 ```
 
----
+______________________________________________________________________
 
-# 73. Rollback Contract
+## 73. Rollback Contract
 
 Rollback SHOULD return to the nearest valid known state, not merely the previous state.
 
@@ -2011,9 +2010,9 @@ VALID
 
 Therefore rollback requires revalidation.
 
----
+______________________________________________________________________
 
-# 74. Validators
+## 74. Validators
 
 Required or recommended validators include:
 
@@ -2040,9 +2039,9 @@ validate_runtime_mapping()
 validate_rscf()
 ```
 
----
+______________________________________________________________________
 
-# 75. Test Contract
+## 75. Test Contract
 
 Tests SHOULD distinguish:
 
@@ -2063,9 +2062,9 @@ TEST EXISTS
 TEST PASSED
 ```
 
----
+______________________________________________________________________
 
-# 76. Core Contract Tests
+## 76. Core Contract Tests
 
 ### CL-T001 — Placeholder Boundary
 
@@ -2082,7 +2081,7 @@ canonical_status != CANONICAL
 implementation_status != IMPLEMENTED
 ```
 
----
+______________________________________________________________________
 
 ### CL-T002 — Unknown Boundary
 
@@ -2100,7 +2099,7 @@ UNKNOWN/GAP
 
 not `PASS`.
 
----
+______________________________________________________________________
 
 ### CL-T003 — Capability Boundary
 
@@ -2118,7 +2117,7 @@ Expected:
 CANON_MUTATION_DENIED
 ```
 
----
+______________________________________________________________________
 
 ### CL-T004 — Proposal Boundary
 
@@ -2136,45 +2135,45 @@ PROPOSAL_RETAINED
 COMMIT_DENIED
 ```
 
----
+______________________________________________________________________
 
 ### CL-T005 — Provenance Boundary
 
 A law without source provenance MUST NOT receive unconditional admission.
 
----
+______________________________________________________________________
 
 ### CL-T006 — Alias Identity
 
 Two representations with the same established law identity MUST NOT automatically become two canonical laws.
 
----
+______________________________________________________________________
 
 ### CL-T007 — Scope Isolation
 
 A law admitted for `SCOPE_A` MUST NOT automatically apply to `SCOPE_B`.
 
----
+______________________________________________________________________
 
 ### CL-T008 — Supersession
 
 Creating version `N+1` MUST NOT automatically deactivate `N`.
 
----
+______________________________________________________________________
 
 ### CL-T009 — Dependency Revalidation
 
 Changing a load-bearing upstream law MUST mark dependent law resolutions for revalidation.
 
----
+______________________________________________________________________
 
 ### CL-T010 — Conflict Visibility
 
 Two unresolved contradictory laws MUST NOT silently converge.
 
----
+______________________________________________________________________
 
-# 77. Additional Tests
+## 77. Additional Tests
 
 ```text
 CL-T011
@@ -2223,9 +2222,9 @@ CL-T025
 Implemented candidate remains noncanonical until admitted.
 ```
 
----
+______________________________________________________________________
 
-# 78. Falsifiers
+## 78. Falsifiers
 
 This contract MUST be revised, downgraded, or superseded if authoritative AMOS source canon establishes a materially different rule for:
 
@@ -2271,9 +2270,9 @@ F008
 A superseding governed contract explicitly replaces this specification.
 ```
 
----
+______________________________________________________________________
 
-# 79. Gap Matrix
+## 79. Gap Matrix
 
 ```yaml
 gap_matrix:
@@ -2343,9 +2342,9 @@ gap_matrix:
     severity: "CRITICAL"
 ```
 
----
+______________________________________________________________________
 
-# 80. Promotion Requirements
+## 80. Promotion Requirements
 
 Before this contract may be classified as admitted final canon, the promotion process SHOULD establish:
 
@@ -2375,9 +2374,9 @@ RSCF
 REGISTRY ENTRY
 ```
 
----
+______________________________________________________________________
 
-# 81. Promotion State Machine
+## 81. Promotion State Machine
 
 ```text
 PLACEHOLDER
@@ -2411,9 +2410,9 @@ RUNTIME_ACCEPTED
 
 The two state machines MUST NOT be collapsed.
 
----
+______________________________________________________________________
 
-# 82. Canon / Implementation Matrix
+## 82. Canon / Implementation Matrix
 
 | Canon status | Implementation status | Meaning                                                    |
 | ------------ | --------------------- | ---------------------------------------------------------- |
@@ -2425,9 +2424,9 @@ The two state machines MUST NOT be collapsed.
 | Superseded   | Implemented           | historical implementation requiring migration/review       |
 | Unknown      | Implemented           | dangerous ambiguity; implementation cannot establish canon |
 
----
+______________________________________________________________________
 
-# 83. Minimum Core Law Record
+## 83. Minimum Core Law Record
 
 The minimum safe record for an admitted law SHOULD include:
 
@@ -2462,9 +2461,9 @@ core_law:
 
 `REQUIRED` means the field must be resolved sufficiently for the intended canonical state, not fabricated.
 
----
+______________________________________________________________________
 
-# 84. Contract Compliance
+## 84. Contract Compliance
 
 A Core Law object is contract-complete only if every required field is either:
 
@@ -2492,9 +2491,9 @@ CANONICALLY VALID
 
 A structurally complete object can still fail provenance, authority, conflict, scope, or validation gates.
 
----
+______________________________________________________________________
 
-# 85. System Integration
+## 85. System Integration
 
 The Core Laws Contract SHOULD interface with:
 
@@ -2519,9 +2518,9 @@ These are logical integration surfaces.
 
 Their actual implementation state must be established separately.
 
----
+______________________________________________________________________
 
-# 86. RSCF Contract
+## 86. RSCF Contract
 
 Every consequential Core Law conclusion SHOULD be representable as an RSCF-style proof capsule.
 
@@ -2552,9 +2551,9 @@ rscf:
   confidence_ceiling: null
 ```
 
----
+______________________________________________________________________
 
-# 87. RSCF Dependency Rule
+## 87. RSCF Dependency Rule
 
 If:
 
@@ -2568,9 +2567,9 @@ then invalidation of `CLAIM_A` requires revalidation of `CLAIM_B`.
 
 Independent claims MUST NOT be invalidated merely because they share directory location.
 
----
+______________________________________________________________________
 
-# 88. RSCF Confidence Rule
+## 88. RSCF Confidence Rule
 
 For load-bearing premises:
 
@@ -2584,9 +2583,9 @@ unless independent evidence revalidates the conclusion.
 
 This is a governance constraint on confidence propagation.
 
----
+______________________________________________________________________
 
-# 89. Adversarial Validation
+## 89. Adversarial Validation
 
 Consequential Core Law promotion SHOULD be challenged through a materially different validation path.
 
@@ -2618,9 +2617,9 @@ UNKNOWN/GAP
 
 as appropriate.
 
----
+______________________________________________________________________
 
-# 90. Sensitivity
+## 90. Sensitivity
 
 Before a consequential Core Law decision, identify the smallest load-bearing premise capable of changing the result.
 
@@ -2637,9 +2636,9 @@ DEPENDENCY VALIDITY
 
 The highest-information low-cost discriminating check SHOULD be performed first.
 
----
+______________________________________________________________________
 
-# 91. Governance Decision Object
+## 91. Governance Decision Object
 
 A Core Law governance decision SHOULD be representable as:
 
@@ -2676,9 +2675,9 @@ canon_decision:
   residual_gaps: []
 ```
 
----
+______________________________________________________________________
 
-# 92. Audit Requirements
+## 92. Audit Requirements
 
 A mature Core Law system SHOULD make it possible to determine:
 
@@ -2708,9 +2707,9 @@ WHAT WOULD INVALIDATE IT?
 
 If these cannot be answered, auditability is incomplete.
 
----
+______________________________________________________________________
 
-# 93. Completeness Boundary
+## 93. Completeness Boundary
 
 This contract defines structural completeness for a Core Law governance object.
 
@@ -2730,9 +2729,9 @@ NO KNOWN CONFLICT
 NO CONFLICT EXISTS
 ```
 
----
+______________________________________________________________________
 
-# 94. Canon Safety Rule
+## 94. Canon Safety Rule
 
 When a critical canon question cannot be resolved:
 
@@ -2748,17 +2747,17 @@ UNKNOWN/GAP
 
 with the minimum missing information identified.
 
----
+______________________________________________________________________
 
-# 95. Core Contract Principle
+## 95. Core Contract Principle
 
 The Core Laws Contract can be summarized as:
 
 > **A Core Law is a provenance-bound, scope-bound, versioned, dependency-aware, authority-governed canonical object. Its existence, implementation, repetition, location, or plausibility cannot independently establish canonical status. Canon mutations require explicit state transition and authority; contradictions remain visible until resolved; supersession preserves lineage; load-bearing changes trigger selective dependent revalidation; and unresolved critical information remains UNKNOWN/GAP rather than being converted into apparent completion.**
 
----
+______________________________________________________________________
 
-# 96. Current Artifact Status
+## 96. Current Artifact Status
 
 ```yaml
 artifact_status:
@@ -2791,9 +2790,9 @@ artifact_status:
     status: "NOT_ESTABLISHED"
 ```
 
----
+______________________________________________________________________
 
-# 97. Final Hard Boundaries
+## 97. Final Hard Boundaries
 
 ```text
 PLACEHOLDER != IMPLEMENTED
@@ -2825,9 +2824,9 @@ CONFLICT != RESOLUTION
 ROLLBACK != ERASURE
 ```
 
----
+______________________________________________________________________
 
-# 98. RSCF Completion State
+## 98. RSCF Completion State
 
 ```yaml
 claim_class: AMOS_MODEL
@@ -2892,9 +2891,9 @@ falsifiers:
 confidence_ceiling: 0
 ```
 
----
+______________________________________________________________________
 
-# 99. Gap Status
+## 99. Gap Status
 
 ```yaml
 gap_status:
@@ -2923,15 +2922,15 @@ gap_status:
 
 This document therefore replaces the placeholder as a substantive **Core Laws governance contract**, while preserving the boundary that generated specification is not automatically final canon.
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/CORE_LAWS_CANON_README|CORE_LAWS_CANON_README]]
 
----
+______________________________________________________________________
 
 RSCF-NODE
 
@@ -2974,9 +2973,10 @@ confidence_ceiling: 0
 ```
 ```
 
----
+______________________________________________________________________
+
 **MOC:** [[01_CANON/01_CORE_LAWS/00_INDEX/INDEX_CORE_LAWS_CANON_README|INDEX_CORE_LAWS_CANON_README]]
 
----
-**MOC:** [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]]
+______________________________________________________________________
 
+**MOC:** [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]]

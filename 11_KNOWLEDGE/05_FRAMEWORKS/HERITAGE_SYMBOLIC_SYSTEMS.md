@@ -12,21 +12,21 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: INTELLIGENCE
 path: 11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_SYMBOLIC_SYSTEMS.md
 tags:
-- amos-os
-- knowledge
-- vault
-- 05_frameworks
-- heritage_symbolic_systems
-- symbolic_invariants
-- semiotics
-- cultural_symbols
-- rscf
-- canon_candidate
-- canon/knowledge
-- heritage-intelligence-master
-- heritage-pattern-intelligence
-- heritage-fractal-mathematics
-- trang-reality-architecture
+  - amos-os
+  - knowledge
+  - vault
+  - 05_frameworks
+  - heritage_symbolic_systems
+  - symbolic_invariants
+  - semiotics
+  - cultural_symbols
+  - rscf
+  - canon_candidate
+  - canon/knowledge
+  - heritage-intelligence-master
+  - heritage-pattern-intelligence
+  - heritage-fractal-mathematics
+  - trang-reality-architecture
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -41,19 +41,19 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - HERITAGE_INTELLIGENCE_CANON
-  - AMOS_CORPUS
+    - HERITAGE_INTELLIGENCE_CANON
+    - AMOS_CORPUS
   scope:
-  - KNOWLEDGE_FRAMEWORKS
-  - SYMBOLIC_SYSTEMS
-  - SOURCE_DEFINED_MODEL
+    - KNOWLEDGE_FRAMEWORKS
+    - SYMBOLIC_SYSTEMS
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   master_framework:
     artifact:
-    - - HERITAGE_INTELLIGENCE_MASTER
+      -   - HERITAGE_INTELLIGENCE_MASTER
   pattern_intelligence:
     artifact:
-    - - HERITAGE_PATTERN_INTELLIGENCE
+      -   - HERITAGE_PATTERN_INTELLIGENCE
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
@@ -67,26 +67,26 @@ epistemic_boundary:
 
 It articulates how foundational cosmological, mathematical, and social archetypes are encoded into enduring cultural symbols, geometric glyphs, and linguistic roots.
 
----
+______________________________________________________________________
 
-# 1. Semiotic & Symbolic Mechanisms
+## 1. Semiotic & Symbolic Mechanisms
 
 1. **Symbolic Information Compression:** Encoding multi-layered systems knowledge into compact geometric glyphs (e.g. Đông Sơn bronze motifs, fractal solar diagrams).
-2. **Cross-Generational Encoding:** Ensuring that deep structural truths survive language shifts and political transitions without informational erosion.
-3. **Pre-Symbolic to Symbolic Bridge:** Connecting pre-symbolic ontology ($P \to D \to R$) to linguistic representation.
+1. **Cross-Generational Encoding:** Ensuring that deep structural truths survive language shifts and political transitions without informational erosion.
+1. **Pre-Symbolic to Symbolic Bridge:** Connecting pre-symbolic ontology ($P \to D \to R$) to linguistic representation.
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Master Framework:** [[11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_INTELLIGENCE_MASTER|HERITAGE_INTELLIGENCE_MASTER]]
 - **Pattern Systems:** [[11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_PATTERN_INTELLIGENCE|HERITAGE_PATTERN_INTELLIGENCE]]
 - **Fractal Mathematics:** [[11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_FRACTAL_MATHEMATICS|HERITAGE_FRACTAL_MATHEMATICS]]
 - **Ontological Grounding:** [[11_KNOWLEDGE/trang/TRANG_REALITY_ARCHITECTURE|TRANG_REALITY_ARCHITECTURE]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -104,10 +104,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_INTELLIGENCE_MASTER|HERITAGE_INTELLIGENCE_MASTER]] · [[11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_PATTERN_INTELLIGENCE|HERITAGE_PATTERN_INTELLIGENCE]] · [[11_KNOWLEDGE/trang/TRANG_REALITY_ARCHITECTURE|TRANG_REALITY_ARCHITECTURE]]
 
----
-**MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]
+______________________________________________________________________
 
+**MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]

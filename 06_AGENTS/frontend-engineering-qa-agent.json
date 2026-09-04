@@ -94,7 +94,7 @@
     "frontend-engineering-qa"
   ],
   "depends_on_workflows": [
-    "frontend-engineering-qa-workflow.md"
+    "amos-frontend-engineering-qa-workflow.md"
   ],
   "epistemic_class": "AMOS_MODEL",
   "claim_ceiling": 0.95,

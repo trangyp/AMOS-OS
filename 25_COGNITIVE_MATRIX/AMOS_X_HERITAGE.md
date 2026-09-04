@@ -1,14 +1,17 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: AMOS X HERITAGE
 type: note
 source: 25_COGNITIVE_MATRIX
 tags:
-- note
-- 25-cognitive-matrix
-- domain/cognitive-matrix
-- signals
-- amos-x-heritage-matrix
-- law-hierarchy
+  - note
+  - 25-cognitive-matrix
+  - domain/cognitive-matrix
+  - signals
+  - amos-x-heritage-matrix
+  - law-hierarchy
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -20,7 +23,7 @@ rscf:
 
 Agreed. The previous version was too skeletal. The Drive source is much richer: the primary `heritage_intelligence.md` alone is ~464 KB, and there are multiple Heritage-lineage artifacts, including a ~650 KB `HERITAGE INTELLIGENCE.md`, a ~448 KB `HERITAGE INTELLIGENCE™.md`, and the Heritage ∅ corpus.
 
-```md
+````md
 ---
 title: AMOS × Heritage
 artifact: "AMOS_X_HERITAGE.md"
@@ -77,7 +80,7 @@ source_family:
   - "Heritage ∅ lineage"
 ---
 
-# AMOS × Heritage
+## AMOS × Heritage
 
 ## 0. Canonical Status
 
@@ -117,7 +120,7 @@ Its canonical role is:
 
 ---
 
-# 1. Epistemic Boundary
+## 1. Epistemic Boundary
 
 Heritage contains several different kinds of statements.
 
@@ -153,7 +156,7 @@ QUANTUM_ANALOGY
 
 HERITAGE_CANON
     != EXTERNAL_EMPIRICAL_TRUTH
-```
+````
 
 Accordingly, AMOS stores the framework primarily as:
 
@@ -167,9 +170,9 @@ supports a stronger class.
 The existence of a formula in the Heritage corpus does not establish its
 empirical calibration.
 
----
+______________________________________________________________________
 
-# 2. Heritage Executive Architecture
+## 2. Heritage Executive Architecture
 
 The source architecture begins from the proposition that survival-relevant
 knowledge is distributed.
@@ -240,9 +243,9 @@ action permission
 purpose governor
 ```
 
----
+______________________________________________________________________
 
-# 3. Six Foundational Axioms
+## 3. Six Foundational Axioms
 
 The Heritage source explicitly defines six foundational axioms.
 
@@ -259,9 +262,9 @@ A living system does not merely receive information.
 It:
 
 1. encounters constrained signals;
-2. encodes them;
-3. decodes them through its available architecture;
-4. produces a response.
+1. encodes them;
+1. decodes them through its available architecture;
+1. produces a response.
 
 Heritage therefore treats perception as mediated rather than identical
 with reality.
@@ -282,7 +285,7 @@ DECISION
 
 AMOS MUST preserve the distinction between these stages.
 
----
+______________________________________________________________________
 
 ## A2 — Information Security
 
@@ -294,16 +297,16 @@ High-value knowledge is protected by structure, not secrecy.
 
 The Heritage model proposes that knowledge may become distributed across:
 
-* land;
-* water;
-* vegetation;
-* ritual;
-* oral tradition;
-* language;
-* social organization;
-* behavior;
-* architecture;
-* repeated patterns.
+- land;
+- water;
+- vegetation;
+- ritual;
+- oral tradition;
+- language;
+- social organization;
+- behavior;
+- architecture;
+- repeated patterns.
 
 Within AMOS this becomes a **distributed-evidence hypothesis**, not an
 automatic truth claim.
@@ -318,7 +321,7 @@ where no individual `kᵢ` necessarily contains the complete information.
 
 Reconstruction requires provenance-preserving convergence.
 
----
+______________________________________________________________________
 
 ## A3 — Brain
 
@@ -351,7 +354,7 @@ representation != represented reality
 
 This maps directly to the AMOS observation/model firewall.
 
----
+______________________________________________________________________
 
 ## A4 — Externalization
 
@@ -398,7 +401,7 @@ candidate interpretation
 independent validation required
 ```
 
----
+______________________________________________________________________
 
 ## A5 — Integrity
 
@@ -428,7 +431,7 @@ decision quality
 If a load-bearing term collapses, confidence cannot remain artificially
 high.
 
----
+______________________________________________________________________
 
 ## A6 — Purpose
 
@@ -460,9 +463,9 @@ When is non-action superior?
 
 This is the Heritage purpose governor.
 
----
+______________________________________________________________________
 
-# 4. Total Heritage Layer Stack
+## 4. Total Heritage Layer Stack
 
 The recovered source defines the following stack.
 
@@ -510,27 +513,27 @@ anomalous intuition
 
 Evidence type survives ingestion.
 
----
+______________________________________________________________________
 
-# 5. Heritage Signal Core
+## 5. Heritage Signal Core
 
 ## L1 — Geology / Climate
 
 Methods listed in the source include:
 
-* GIS;
-* remote sensing;
-* geochemistry;
-* terrain interpretation;
-* environmental observation.
+- GIS;
+- remote sensing;
+- geochemistry;
+- terrain interpretation;
+- environmental observation.
 
 Candidate signals include:
 
-* fault structures;
-* mineralization;
-* groundwater;
-* climate patterns;
-* landscape constraints.
+- fault structures;
+- mineralization;
+- groundwater;
+- climate patterns;
+- landscape constraints.
 
 AMOS interpretation:
 
@@ -543,17 +546,17 @@ physical environment
 
 Causality MUST still be independently established.
 
----
+______________________________________________________________________
 
 ## L2 — Biology
 
 Methods:
 
-* ecology;
-* field observation;
-* indicator species;
-* microbiological signals;
-* regional biological patterns.
+- ecology;
+- field observation;
+- indicator species;
+- microbiological signals;
+- regional biological patterns.
 
 Candidate role:
 
@@ -567,7 +570,7 @@ observable proxy
 
 Biological proxy ≠ direct measurement of the hidden variable.
 
----
+______________________________________________________________________
 
 ## L3 — Body
 
@@ -575,25 +578,25 @@ The source includes embodied and sensory reactions.
 
 Potential observations include:
 
-* physiological response;
-* sensory aversion;
-* attraction;
-* avoidance;
-* aggregation.
+- physiological response;
+- sensory aversion;
+- attraction;
+- avoidance;
+- aggregation.
 
 AMOS classifies subjective body signals separately from instrumented
 biological measurements.
 
----
+______________________________________________________________________
 
 ## L4 — Cross-Species
 
 Methods include:
 
-* ecoacoustics;
-* camera traps;
-* migration observation;
-* alarm behavior.
+- ecoacoustics;
+- camera traps;
+- migration observation;
+- alarm behavior.
 
 Candidate interpretation:
 
@@ -607,18 +610,18 @@ cross-species signal
 
 Confounding remains possible.
 
----
+______________________________________________________________________
 
 ## L5 — Language / Place Names
 
 Potential carriers include:
 
-* place names;
-* idioms;
-* proverbs;
-* folk knowledge;
-* medicinal language;
-* oral history.
+- place names;
+- idioms;
+- proverbs;
+- folk knowledge;
+- medicinal language;
+- oral history.
 
 Heritage treats language as a possible compressed historical memory.
 
@@ -636,43 +639,43 @@ external evidence
 
 A name alone cannot establish historical causation.
 
----
+______________________________________________________________________
 
 ## L6 — Culture / Heritage
 
 Methods include:
 
-* archaeology;
-* ethnography;
-* artifact analysis;
-* ritual analysis.
+- archaeology;
+- ethnography;
+- artifact analysis;
+- ritual analysis.
 
 Examples in the source include:
 
-* drums;
-* motifs;
-* rituals;
-* inherited practices.
+- drums;
+- motifs;
+- rituals;
+- inherited practices.
 
 Heritage asks whether persistent cultural structures preserve
 decision-relevant information across generations.
 
 AMOS stores that as a hypothesis until corroborated.
 
----
+______________________________________________________________________
 
 ## L7 — Power / Society
 
 This layer examines:
 
-* institutions;
-* authority;
-* customary law;
-* social hierarchy;
-* coordination;
-* control of calendars;
-* control of rhythm / timing;
-* ownership of information.
+- institutions;
+- authority;
+- customary law;
+- social hierarchy;
+- coordination;
+- control of calendars;
+- control of rhythm / timing;
+- ownership of information.
 
 Core question:
 
@@ -684,16 +687,16 @@ Who receives information first?
 Who bears risk?
 ```
 
----
+______________________________________________________________________
 
 ## L8 — Smart Money Flow
 
 Source methods include:
 
-* volume profile;
-* delta;
-* abnormal volume;
-* flow analysis.
+- volume profile;
+- delta;
+- abnormal volume;
+- flow analysis.
 
 This layer attempts to infer informed positioning from transaction
 structure.
@@ -705,16 +708,16 @@ flow pattern != proof of actor identity
 flow pattern != proof of intention
 ```
 
----
+______________________________________________________________________
 
 ## L9 — Opportunity Cost
 
 Inputs include:
 
-* bond yields;
-* interest rates;
-* expected returns;
-* competing asset returns.
+- bond yields;
+- interest rates;
+- expected returns;
+- competing asset returns.
 
 Conceptually:
 
@@ -722,16 +725,16 @@ $$OpportunityCost(a) = Return(best\ alternative)-Return(a)$$
 
 The actual implementation requires domain-specific definition.
 
----
+______________________________________________________________________
 
 ## L10 — Micro Avoidance / Aggregation
 
 Source methods include:
 
-* order book;
-* volume profile;
-* trading density;
-* price-zone behavior.
+- order book;
+- volume profile;
+- trading density;
+- price-zone behavior.
 
 The model attempts to detect where activity:
 
@@ -746,9 +749,9 @@ accelerates
 These are interpreted as microstructure states, not automatically as
 causal explanations.
 
----
+______________________________________________________________________
 
-# 6. Special Heritage Layers
+## 6. Special Heritage Layers
 
 ## T11 — Remaining Information
 
@@ -775,7 +778,7 @@ remaining informational potential decreases
 
 This is a source model requiring calibration before operational use.
 
----
+______________________________________________________________________
 
 ## T12 — Intentional Noise
 
@@ -796,7 +799,7 @@ UNKNOWN
 AMOS MUST NOT classify unexplained data as intentional manipulation
 without evidence.
 
----
+______________________________________________________________________
 
 ## T13 — Market Expectation Point
 
@@ -814,9 +817,9 @@ MEP = MODEL_STATE
 
 unless calibrated and validated against a specified market/regime.
 
----
+______________________________________________________________________
 
-# 7. Fifteen Heritage Functional Modules
+## 7. Fifteen Heritage Functional Modules
 
 | ID  | Module                          | Function                            |
 | --- | ------------------------------- | ----------------------------------- |
@@ -836,9 +839,9 @@ unless calibrated and validated against a specified market/regime.
 | M14 | Temporal Precision Engine       | TRS / ATS / RTS                     |
 | M15 | State Engine                    | Maintain primary state vector       |
 
----
+______________________________________________________________________
 
-# 8. M1 — Regime Switch Engine
+## 8. M1 — Regime Switch Engine
 
 A signal is not assumed to preserve meaning across all environments.
 
@@ -866,9 +869,9 @@ This module is therefore upstream of action permission.
 
 A regime transition can invalidate otherwise valid cached conclusions.
 
----
+______________________________________________________________________
 
-# 9. M2 — Data Reliability Engine
+## 9. M2 — Data Reliability Engine
 
 The source models reliability on a `0–100%` scale.
 
@@ -891,9 +894,9 @@ A single scalar may be produced only after preserving these dimensions.
 Repeated descendants of one source do not constitute independent
 confirmation.
 
----
+______________________________________________________________________
 
-# 10. M3 — Microstructure Engine
+## 10. M3 — Microstructure Engine
 
 Primary source concepts:
 
@@ -912,9 +915,9 @@ supported by transaction-level behavior.
 
 A macro thesis may therefore be challenged by microstructure evidence.
 
----
+______________________________________________________________________
 
-# 11. M4 — Expectation Decay Engine
+## 11. M4 — Expectation Decay Engine
 
 Core state:
 
@@ -941,9 +944,9 @@ THESIS_CORRECT
 ACTION_STILL_TIMELY
 ```
 
----
+______________________________________________________________________
 
-# 12. M5 — Uncertainty Governor
+## 12. M5 — Uncertainty Governor
 
 The Uncertainty Governor converts uncertainty into permission constraints.
 
@@ -963,9 +966,9 @@ This is central to the Heritage architecture.
 
 Uncertainty changes the allowable action.
 
----
+______________________________________________________________________
 
-# 13. M6 — Self-Refutation Engine
+## 13. M6 — Self-Refutation Engine
 
 Every consequential thesis should expose conditions under which it fails.
 
@@ -984,9 +987,9 @@ The objective is not to defend the first conclusion.
 
 The objective is to discover whether the conclusion survives attack.
 
----
+______________________________________________________________________
 
-# 14. M7 — Cross-Asset Confirmation Engine
+## 14. M7 — Cross-Asset Confirmation Engine
 
 The source names examples such as:
 
@@ -1011,9 +1014,9 @@ cross-asset relationship
 
 before treating it as confirmation.
 
----
+______________________________________________________________________
 
-# 15. M8 — Signal Hierarchy Engine
+## 15. M8 — Signal Hierarchy Engine
 
 Signals are not equal.
 
@@ -1034,9 +1037,9 @@ but exact ordering is context dependent.
 
 No global hierarchy overrides domain-specific evidence quality.
 
----
+______________________________________________________________________
 
-# 16. M9 — Execution Reality Engine
+## 16. M9 — Execution Reality Engine
 
 A decision can be analytically correct and operationally bad.
 
@@ -1058,9 +1061,9 @@ MODEL_SUCCESS != EXECUTION_SUCCESS
 
 Expected action value must include execution cost and failure risk.
 
----
+______________________________________________________________________
 
-# 17. M10 — Confidence Calibration Engine
+## 17. M10 — Confidence Calibration Engine
 
 Confidence should respond to historical error.
 
@@ -1073,9 +1076,9 @@ reduced.
 
 Confidence is therefore earned dynamically rather than declared.
 
----
+______________________________________________________________________
 
-# 18. M11 — Live Error Attribution Engine
+## 18. M11 — Live Error Attribution Engine
 
 When a decision fails, Heritage does not assume the entire architecture
 failed.
@@ -1106,9 +1109,9 @@ dependent conclusions invalidated
 
 Unaffected knowledge survives.
 
----
+______________________________________________________________________
 
-# 19. M12 — Decision Sandbox Engine
+## 19. M12 — Decision Sandbox Engine
 
 The source specifies three scenario classes:
 
@@ -1143,9 +1146,9 @@ sandbox:
 
 The adverse path should be genuinely different from the supporting path.
 
----
+______________________________________________________________________
 
-# 20. M13 — Gap Classifier
+## 20. M13 — Gap Classifier
 
 The source identifies:
 
@@ -1169,9 +1172,9 @@ gap:
 
 A gap can be known without being reducible.
 
----
+______________________________________________________________________
 
-# 21. M14 — Temporal Precision Engine
+## 21. M14 — Temporal Precision Engine
 
 Heritage separates timing into three principal indicators.
 
@@ -1188,7 +1191,7 @@ TRS > 70% → ready
 This threshold remains a Heritage source parameter unless independently
 calibrated.
 
----
+______________________________________________________________________
 
 ## ATS — Action Timing
 
@@ -1200,7 +1203,7 @@ Source threshold:
 ATS > 70% → full action
 ```
 
----
+______________________________________________________________________
 
 ## RTS — Reversal Timing
 
@@ -1218,9 +1221,9 @@ Again:
 SOURCE_THRESHOLD != UNIVERSALLY_VALID_THRESHOLD
 ```
 
----
+______________________________________________________________________
 
-# 22. M15 — Heritage State Engine
+## 22. M15 — Heritage State Engine
 
 The primary source state vector contains seven variables:
 
@@ -1238,9 +1241,9 @@ RI    = Remaining Information
 Trust = aggregate trust state
 ```
 
----
+______________________________________________________________________
 
-# 23. Ω — Overload
+## 23. Ω — Overload
 
 Source formulation:
 
@@ -1260,9 +1263,9 @@ reversal guaranteed
 
 It is one state component.
 
----
+______________________________________________________________________
 
-# 24. H — Cohesion
+## 24. H — Cohesion
 
 Source formulation:
 
@@ -1282,9 +1285,9 @@ Ten correlated layers descended from one origin may create false cohesion.
 
 AMOS therefore requires provenance topology alongside `H`.
 
----
+______________________________________________________________________
 
-# 25. F — Fragmentation
+## 25. F — Fragmentation
 
 Source formulation:
 
@@ -1294,20 +1297,20 @@ $$F = 1-H + \frac{contradictions}{total\_pairs}$$
 
 High `F` can indicate:
 
-* regime transition;
-* poor data;
-* competing mechanisms;
-* timing mismatch;
-* hidden variable;
-* model failure.
+- regime transition;
+- poor data;
+- competing mechanisms;
+- timing mismatch;
+- hidden variable;
+- model failure.
 
 It is not automatically noise.
 
 Contradiction may contain information.
 
----
+______________________________________________________________________
 
-# 26. S — Shock
+## 26. S — Shock
 
 Source formulation:
 
@@ -1318,9 +1321,9 @@ Shock measures abrupt displacement.
 AMOS requires the components to retain their provenance because price,
 volume, and narrative data have different evidence characteristics.
 
----
+______________________________________________________________________
 
-# 27. MEP — Market Expectation Point
+## 27. MEP — Market Expectation Point
 
 MEP is a modeled expectation anchor.
 
@@ -1333,9 +1336,9 @@ MEPDistance
 because divergence from expectation interacts with overload,
 fragmentation, information decay, and reversal timing.
 
----
+______________________________________________________________________
 
-# 28. RI — Remaining Information
+## 28. RI — Remaining Information
 
 RI represents unabsorbed informational potential.
 
@@ -1351,9 +1354,9 @@ However, new evidence may replenish or alter the information state.
 
 Therefore RI is not assumed monotonic in all environments.
 
----
+______________________________________________________________________
 
-# 29. Trust
+## 29. Trust
 
 Source formulation:
 
@@ -1374,9 +1377,9 @@ regime-aware
 provenance-aware
 ```
 
----
+______________________________________________________________________
 
-# 30. Signal Resurrection Function
+## 30. Signal Resurrection Function
 
 The source defines:
 
@@ -1403,9 +1406,9 @@ candidate reconstructed signal
 
 The reconstructed signal remains `DERIVED`.
 
----
+______________________________________________________________________
 
-# 31. Trade / Action Permission
+## 31. Trade / Action Permission
 
 The Heritage source defines:
 
@@ -1423,9 +1426,9 @@ LOCKOUT
 
 The numeric thresholds remain source parameters.
 
----
+______________________________________________________________________
 
-# 32. Collapse Probability
+## 32. Collapse Probability
 
 Source formulation:
 
@@ -1456,9 +1459,9 @@ equation_status: SOURCE_MODEL
 runtime_status: NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 33. Heritage Tensor Architecture
+## 33. Heritage Tensor Architecture
 
 The source identifies seven principal tensors.
 
@@ -1477,9 +1480,9 @@ These are structural specifications.
 A tensor name and dimensionality do not establish a numerical
 implementation.
 
----
+______________________________________________________________________
 
-# 34. Invariant Registry
+## 34. Invariant Registry
 
 The Heritage source organizes invariants into multiple groups.
 
@@ -1501,7 +1504,7 @@ $$t_{cause}<t_{effect}$$
 
 Applicability must respect the underlying scientific definitions.
 
----
+______________________________________________________________________
 
 ## Biological
 
@@ -1520,7 +1523,7 @@ for recency weighting.
 Behavioral coefficients are population/context dependent and MUST NOT be
 treated as universal constants.
 
----
+______________________________________________________________________
 
 ## Cognitive
 
@@ -1539,7 +1542,7 @@ Perception != Reality
 This is retained as a model boundary rather than a claim that perception
 has no relation to reality.
 
----
+______________________________________________________________________
 
 ## Quantum
 
@@ -1564,7 +1567,7 @@ depending on context.
 They MUST NOT be silently generalized into macroscopic cognitive or
 social causation.
 
----
+______________________________________________________________________
 
 ## Social
 
@@ -1584,7 +1587,7 @@ $$Attention \propto \frac{1}{rank^\alpha}$$
 
 These are model forms, not universal social laws.
 
----
+______________________________________________________________________
 
 ## Ethical / Meta
 
@@ -1618,9 +1621,9 @@ empirical proposition
 
 into a single `INVARIANT` type.
 
----
+______________________________________________________________________
 
-# 35. Heritage Invariant Typing
+## 35. Heritage Invariant Typing
 
 AMOS therefore normalizes Heritage invariants as:
 
@@ -1657,9 +1660,9 @@ invariant:
 
 This prevents category leakage.
 
----
+______________________________________________________________________
 
-# 36. Domain × Invariant Matrix
+## 36. Domain × Invariant Matrix
 
 The source describes a large cross-domain matrix including domains such
 as:
@@ -1709,9 +1712,9 @@ matrix match → MODEL / ANALOGY
 matrix match + independent mechanism evidence → possible causal upgrade
 ```
 
----
+______________________________________________________________________
 
-# 37. Heritage Provenance Topology
+## 37. Heritage Provenance Topology
 
 Every Heritage-derived conclusion SHOULD preserve:
 
@@ -1743,9 +1746,9 @@ signal families.
 
 Without provenance tracking, apparent convergence can be false.
 
----
+______________________________________________________________________
 
-# 38. Heritage Cohesion Is Not Independence
+## 38. Heritage Cohesion Is Not Independence
 
 This distinction is mandatory.
 
@@ -1779,9 +1782,9 @@ IndependenceAdjustedCohesion
 
 No exact equation is asserted here unless a canonical source defines one.
 
----
+______________________________________________________________________
 
-# 39. Competing Hypotheses
+## 39. Competing Hypotheses
 
 Heritage evidence often permits multiple explanations.
 
@@ -1814,9 +1817,9 @@ The correct operation is not forced convergence.
 
 It is to identify the cheapest discriminating observation.
 
----
+______________________________________________________________________
 
-# 40. Causal Firewall
+## 40. Causal Firewall
 
 Heritage cross-domain reasoning is particularly vulnerable to causal
 overreach.
@@ -1839,9 +1842,9 @@ CAUSAL_EFFECT
 
 No structural resemblance alone may cross this firewall.
 
----
+______________________________________________________________________
 
-# 41. Regime Firewall
+## 41. Regime Firewall
 
 Every Heritage conclusion inherits a regime envelope.
 
@@ -1868,9 +1871,9 @@ STALE / INVALIDATE / REVALIDATE
 
 depending on dependency sensitivity.
 
----
+______________________________________________________________________
 
-# 42. Temporal State
+## 42. Temporal State
 
 Heritage is fundamentally time-sensitive.
 
@@ -1894,9 +1897,9 @@ temporal actionability
 
 TRS, ATS, RTS, RI, and regime state jointly address this problem.
 
----
+______________________________________________________________________
 
-# 43. Sensitivity Analysis
+## 43. Sensitivity Analysis
 
 Before high-impact action, identify the smallest variable capable of
 flipping the decision.
@@ -1937,9 +1940,9 @@ CONDITIONAL
 
 rather than presenting the result as robust.
 
----
+______________________________________________________________________
 
-# 44. Decision Permission Matrix
+## 44. Decision Permission Matrix
 
 | Evidence                      | Trust         | Timing    | Risk         | Heritage State |
 | ----------------------------- | ------------- | --------- | ------------ | -------------- |
@@ -1953,9 +1956,9 @@ This table is conceptual.
 
 Operational thresholds require validation.
 
----
+______________________________________________________________________
 
-# 45. Heritage Decision Sandbox
+## 45. Heritage Decision Sandbox
 
 Before committing:
 
@@ -1978,9 +1981,9 @@ THESIS
 A candidate action that survives only its support path is not sufficiently
 validated.
 
----
+______________________________________________________________________
 
-# 46. Heritage Gap Architecture
+## 46. Heritage Gap Architecture
 
 The source's uncertainty classification is expanded into AMOS gap
 governance.
@@ -2011,9 +2014,9 @@ gap:
   action: RESOLVE_BEFORE_COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 47. Heritage ∅
+## 47. Heritage ∅
 
 Heritage ∅ represents the purpose boundary of the lineage.
 
@@ -2050,9 +2053,9 @@ L = LifePreservation
 T = TimeHorizon
 ```
 
----
+______________________________________________________________________
 
-# 48. Value
+## 48. Value
 
 The source frames Value in terms that include:
 
@@ -2079,9 +2082,9 @@ optimization target
 purpose
 ```
 
----
+______________________________________________________________________
 
-# 49. Integrity
+## 49. Integrity
 
 Purpose collapses if the action contradicts the system's declared
 constraints.
@@ -2099,9 +2102,9 @@ must remain coherent.
 A system cannot claim preservation while selecting actions whose
 load-bearing mechanism is destruction of the protected object.
 
----
+______________________________________________________________________
 
-# 50. Life Preservation
+## 50. Life Preservation
 
 Life preservation is treated as a governor rather than merely another
 optimization variable.
@@ -2119,9 +2122,9 @@ long-horizon consequences
 
 must be considered.
 
----
+______________________________________________________________________
 
-# 51. Time Horizon
+## 51. Time Horizon
 
 A locally beneficial action may be globally destructive over time.
 
@@ -2143,9 +2146,9 @@ intergenerational
 
 where relevant.
 
----
+______________________________________________________________________
 
-# 52. Heritage Evolution Spine
+## 52. Heritage Evolution Spine
 
 The Heritage family should be represented as a lineage rather than as
 unrelated documents.
@@ -2173,9 +2176,9 @@ This is a framework lineage.
 It is not evidence that each stage has been independently implemented or
 empirically validated.
 
----
+______________________________________________________________________
 
-# 53. Lineage Meaning
+## 53. Lineage Meaning
 
 The conceptual progression is:
 
@@ -2205,9 +2208,9 @@ CAN
 SHOULD
 ```
 
----
+______________________________________________________________________
 
-# 54. AMOS × Heritage Binding
+## 54. AMOS × Heritage Binding
 
 Heritage maps naturally onto AMOS's governed reasoning architecture.
 
@@ -2225,9 +2228,9 @@ Heritage maps naturally onto AMOS's governed reasoning architecture.
 | action permission     | governance gate              |
 | purpose               | terminal value governor      |
 
----
+______________________________________________________________________
 
-# 55. RSCF Heritage Node
+## 55. RSCF Heritage Node
 
 A normalized Heritage conclusion should take a form such as:
 
@@ -2282,9 +2285,9 @@ RSCF:
     time_horizon:
 ```
 
----
+______________________________________________________________________
 
-# 56. H/M/L Fractal Retrieval
+## 56. H/M/L Fractal Retrieval
 
 Heritage SHOULD NOT load the complete corpus for every query.
 
@@ -2330,9 +2333,9 @@ only the necessary source definitions
 
 This prevents irrelevant Heritage material from contaminating the proof.
 
----
+______________________________________________________________________
 
-# 57. Smallest Sufficient Heritage Proof
+## 57. Smallest Sufficient Heritage Proof
 
 A Heritage decision does not require every layer.
 
@@ -2349,9 +2352,9 @@ not loaded merely because it exists in Heritage.
 Likewise, market microstructure should not be injected into a cultural
 heritage question unless it materially changes the conclusion.
 
----
+______________________________________________________________________
 
-# 58. Proof Capsule
+## 58. Proof Capsule
 
 Every consequential Heritage conclusion SHOULD support:
 
@@ -2390,9 +2393,9 @@ proof_capsule:
   invalidation_conditions: []
 ```
 
----
+______________________________________________________________________
 
-# 59. Fail-Closed Conditions
+## 59. Fail-Closed Conditions
 
 Heritage MUST return `UNKNOWN/GAP`, `NO_ACTION`, or equivalent when a
 load-bearing dependency is unresolved.
@@ -2413,9 +2416,9 @@ unbounded downside
 
 No fluency-based bridging is permitted.
 
----
+______________________________________________________________________
 
-# 60. Failure Recovery
+## 60. Failure Recovery
 
 If a Heritage conclusion fails:
 
@@ -2426,18 +2429,18 @@ do not destroy the whole model
 Instead:
 
 1. identify failed premise;
-2. identify dependent edges;
-3. invalidate descendants;
-4. preserve unaffected state;
-5. return to nearest valid node;
-6. retrieve discriminating evidence;
-7. recompute only affected branches.
+1. identify dependent edges;
+1. invalidate descendants;
+1. preserve unaffected state;
+1. return to nearest valid node;
+1. retrieve discriminating evidence;
+1. recompute only affected branches.
 
 This aligns Heritage with AMOS local repair semantics.
 
----
+______________________________________________________________________
 
-# 61. Implementation Boundary
+## 61. Implementation Boundary
 
 The source corpus defines a substantial architecture.
 
@@ -2464,9 +2467,9 @@ executable_binding: NOT_ESTABLISHED
 
 must remain until implementation evidence exists.
 
----
+______________________________________________________________________
 
-# 62. Validation Boundary
+## 62. Validation Boundary
 
 Likewise:
 
@@ -2496,33 +2499,33 @@ claim_class: SOURCE_CLAIM
 
 unless an independent validation artifact supports promotion.
 
----
+______________________________________________________________________
 
-# 63. Promotion Requirements
+## 63. Promotion Requirements
 
 Before an individual Heritage component is promoted to
 `IMPLEMENTED_VALIDATED`, require:
 
-* [ ] executable implementation identified
-* [ ] exact version/hash recorded
-* [ ] input schema defined
-* [ ] output schema defined
-* [ ] failure states defined
-* [ ] provenance persisted
-* [ ] missing-input behavior tested
-* [ ] malformed-input behavior tested
-* [ ] stale-input behavior tested
-* [ ] contradictory-input behavior tested
-* [ ] regime-shift behavior tested
-* [ ] threshold calibration demonstrated
-* [ ] out-of-sample validation where empirical
-* [ ] confidence calibration evaluated
-* [ ] rollback demonstrated
-* [ ] executed validation receipt stored
+- [ ] executable implementation identified
+- [ ] exact version/hash recorded
+- [ ] input schema defined
+- [ ] output schema defined
+- [ ] failure states defined
+- [ ] provenance persisted
+- [ ] missing-input behavior tested
+- [ ] malformed-input behavior tested
+- [ ] stale-input behavior tested
+- [ ] contradictory-input behavior tested
+- [ ] regime-shift behavior tested
+- [ ] threshold calibration demonstrated
+- [ ] out-of-sample validation where empirical
+- [ ] confidence calibration evaluated
+- [ ] rollback demonstrated
+- [ ] executed validation receipt stored
 
----
+______________________________________________________________________
 
-# 64. Canonical Heritage Contract
+## 64. Canonical Heritage Contract
 
 The operational Heritage contract is:
 
@@ -2555,9 +2558,9 @@ DO NOT FORCE CERTAINTY
 WHERE COMPETING EXPLANATIONS REMAIN.
 ```
 
----
+______________________________________________________________________
 
-# 65. Cross-Plane Bindings
+## 65. Cross-Plane Bindings
 
 ```text
 AMOS Heritage
@@ -2586,17 +2589,17 @@ AMOS Heritage
 
 Related canonical targets:
 
-*
-*
-*
-*
-*
-*
-*
+-
+-
+-
+-
+-
+-
+-
 
----
+______________________________________________________________________
 
-# 66. Canonical Heritage Matrix Relationship
+## 66. Canonical Heritage Matrix Relationship
 
 `AMOS_X_HERITAGE.md` and `AMOS_X_HERITAGE_MATRIX.md` MUST NOT become
 duplicate canonical nodes.
@@ -2625,9 +2628,9 @@ HERITAGE_MATRIX
         → HERITAGE
 ```
 
----
+______________________________________________________________________
 
-# 67. Unresolved Gaps
+## 67. Unresolved Gaps
 
 The following remain explicit.
 
@@ -2671,9 +2674,9 @@ These gaps do not erase the Heritage architecture.
 
 They constrain what may be claimed about it.
 
----
+______________________________________________________________________
 
-# 68. Canonical Knowledge Capsule
+## 68. Canonical Knowledge Capsule
 
 ```yaml
 HERITAGE_CAPSULE:
@@ -2763,9 +2766,9 @@ HERITAGE_CAPSULE:
     executable_runtime: NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 69. RSCF Node
+## 69. RSCF Node
 
 ```yaml
 RSCF-NODE:
@@ -2807,9 +2810,9 @@ RSCF-NODE:
         [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
 ```
 
----
+______________________________________________________________________
 
-# 70. Final Canonical Statement
+## 70. Final Canonical Statement
 
 AMOS × Heritage is a **multi-layer signal, uncertainty, timing,
 contradiction, regime, execution, and purpose architecture**.
@@ -2860,11 +2863,11 @@ It holds.
 
 That boundary is part of the architecture itself.
 
----
+______________________________________________________________________
 
 00_ROOT_MOC|AMOS MOC
 
-**Related:**  ·  ·
+**Related:** · ·
 
 ```
 
@@ -2875,7 +2878,8 @@ I also deliberately **did not promote the source formulas into verified laws**. 
 The next level beyond this would be a true **MAX-detail ingestion** of the hundreds of KB of Heritage source: not 70 sections summarizing it, but extraction of every named law, equation, invariant, version, matrix, tensor, gap, state, threshold, module I/O contract, and Heritage ∅ extension into the RSCF artifact.
 ```
 
----
+______________________________________________________________________
+
 **MOC:**
 
 ```

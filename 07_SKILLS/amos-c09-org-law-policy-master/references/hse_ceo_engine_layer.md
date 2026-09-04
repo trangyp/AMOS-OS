@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: hse ceo engine layer
 type: reference
 source: 07_SKILLS/amos-c09-org-law-policy-master/references
 tags:
-- reference
-- amos-c09-org-law-policy-master
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-c09-org-law-policy-master
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -20,14 +23,11 @@ rscf:
 > Source: `_00_Cosmo brain/engine/A/amos-hse-ceo-engine-layer.md`
 > Epistemic class: SOURCE_DERIVED
 
----
-type: doc
-title: Bridge to amos-hse-ceo-engine-layer
-created: 2026-08-22
-tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-hse-ceo-engine-layer, engine]
----
+______________________________________________________________________
 
-# Bridge: amos-hse-ceo-engine-layer
+## type: doc title: Bridge to amos-hse-ceo-engine-layer created: 2026-08-22 tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-hse-ceo-engine-layer, engine]
+
+## Bridge: amos-hse-ceo-engine-layer
 
 The Cosmo brain source file at `engine/A/amos-hse-ceo-engine-layer.md` is itself a thin bridge note. The substantive content is found in the related files `engine/H/HSE_CEO_Engine_Model.md` and `engine/H/HSE_CEO_Enginev_root.md`. The following content is synthesized from those sources.
 
@@ -64,13 +64,13 @@ A formalized pipeline for executive decision-making, ensuring that decisions are
 The HSE CEO Engine builds on the broader Human Systems Engine, which models human-organization-market-power-risk systems. The HSE defines 8 layers:
 
 1. **Human Layer** -- Individual behavior, work styles, alignment states, behavior signals, risk flags, collapse and recovery trajectories
-2. **Team Layer** -- Team dynamics, productivity, conflict, sabotage, overload patterns
-3. **Organization Layer** -- Org structure, role families, Vietnam-specific org risks, lazy behavior patterns, process gaps
-4. **Market Sector Layer** -- Full sector map across business, government, social, infrastructure, and power/incentive systems
-5. **Infrastructure Layer** -- Physical and digital infrastructure interaction with organizations and markets
-6. **Power Incentive Layer** -- Formal and informal decision-making structures, actor types, motivation types, decision cycle patterns
-7. **Risk Layer** -- Unified risk model: human, operational, financial, political, social, partner, sabotage, reputation
-8. **Prediction Layer** -- Time horizons (1, 3, 6, 12, 24, 36 months), prediction outputs including individual performance trends, team collapse risk, project timeline slip risk
+1. **Team Layer** -- Team dynamics, productivity, conflict, sabotage, overload patterns
+1. **Organization Layer** -- Org structure, role families, Vietnam-specific org risks, lazy behavior patterns, process gaps
+1. **Market Sector Layer** -- Full sector map across business, government, social, infrastructure, and power/incentive systems
+1. **Infrastructure Layer** -- Physical and digital infrastructure interaction with organizations and markets
+1. **Power Incentive Layer** -- Formal and informal decision-making structures, actor types, motivation types, decision cycle patterns
+1. **Risk Layer** -- Unified risk model: human, operational, financial, political, social, partner, sabotage, reputation
+1. **Prediction Layer** -- Time horizons (1, 3, 6, 12, 24, 36 months), prediction outputs including individual performance trends, team collapse risk, project timeline slip risk
 
 ## Human Layer Risk Flags
 
@@ -84,13 +84,15 @@ The engine models a 10-step collapse trajectory: stress increase, hesitation, in
 
 Used primarily by the `amos-bod-engine-layer` and the `amos-org-governance-engine-layer`. When an AMOS agent is tasked with advising on corporate strategy, evaluating executive performance, or designing board reporting structures, it must invoke this engine to accurately model the human element at the top of the hierarchy.
 
----
+______________________________________________________________________
+
 **MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -98,12 +100,14 @@ Used primarily by the `amos-bod-engine-layer` and the `amos-org-governance-engin
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-c09-org-law-policy-master-hse-ceo-engine-layer
 node_type: reference
 path: 07_SKILLS/amos-c09-org-law-policy-master/references/hse_ceo_engine_layer.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

@@ -12,27 +12,27 @@ segment: 25_COGNITIVE_MATRIX/10_ROUTING
 artifact_kind: ROUTING
 path: 25_COGNITIVE_MATRIX/10_ROUTING/ROUTING_POLICY.md
 tags:
-- 10_routing
-- amos-os
-- domain/cognitive-matrix
-- canon/universe
-- cognitive-matrix
-- note
-- policy
-- routing
-- rscf
-- placeholder_expanded
-- validation
-- policy-decision
-- readme
-- authoritative-state
-- binding-rules
-- routing-audit
-- promotion-gates
-- fractal-knowledge-network
-- mvcc-cas
-- proof-based-coordination-avoidance
-- skill
+  - 10_routing
+  - amos-os
+  - domain/cognitive-matrix
+  - canon/universe
+  - cognitive-matrix
+  - note
+  - policy
+  - routing
+  - rscf
+  - placeholder_expanded
+  - validation
+  - policy-decision
+  - readme
+  - authoritative-state
+  - binding-rules
+  - routing-audit
+  - promotion-gates
+  - fractal-knowledge-network
+  - mvcc-cas
+  - proof-based-coordination-avoidance
+  - skill
 version: 0.2.0
 updated: '2026-08-27'
 status: PLACEHOLDER_EXPANDED
@@ -111,9 +111,9 @@ Origin architect / steward: **Trang Phan**
 
 System: **AMOS OS**
 
----
+______________________________________________________________________
 
-```md
+````md
 ---
 artifact_id: AMOS-CM-10-ROUTING-ROUTING-POLICY
 title: 10_ROUTING — Routing Policy
@@ -297,7 +297,7 @@ tags:
     - RECOVERY
 ---
 
-# 10_ROUTING — Routing Policy
+## 10_ROUTING — Routing Policy
 
 > **Class:** `MATRIX_INFRASTRUCTURE_PLACEHOLDER`
 >
@@ -311,7 +311,7 @@ tags:
 
 ---
 
-# 0. Purpose
+## 0. Purpose
 
 `ROUTING_POLICY.md` defines the AMOS policy layer that constrains **which routing decisions are allowed, preferred, blocked, escalated, reused, invalidated, or forced into ambiguity/competition**.
 
@@ -343,7 +343,7 @@ BINDING
 VALIDATION
     ↓
 AUTHORITY / CONTROL PLANE
-```
+````
 
 Therefore:
 
@@ -364,9 +364,9 @@ AUTHORIZED
 != COMMITTED
 ```
 
----
+______________________________________________________________________
 
-# 1. Policy objective
+## 1. Policy objective
 
 The routing policy exists to ensure:
 
@@ -386,9 +386,9 @@ in alignment with AMOS core law.
 
 The Full Brain OS source explicitly requires routing only to materially relevant domains rather than activating every nested engine by default, and it requires gaps to remain exposed rather than invented.
 
----
+______________________________________________________________________
 
-# 2. Policy status boundary
+## 2. Policy status boundary
 
 This file is presently:
 
@@ -408,15 +408,15 @@ unless independently recovered from authoritative routing-policy canon.
 
 They must not be treated as active runtime policy merely because this file exists.
 
----
+______________________________________________________________________
 
-# 3. Routing policy model
+## 3. Routing policy model
 
 A routing policy can be modeled as:
 
-[
+\[
 P_R=
-\langle
+\\langle
 Rules,
 Priorities,
 HardConstraints,
@@ -427,16 +427,16 @@ Epoch,
 Exceptions,
 Escalation,
 Revocation
-\rangle
-]
+\\rangle
+\]
 
 The policy evaluation function is:
 
-[
+\[
 Evaluate(RouteCandidate, Context, Policy)
-\rightarrow
+\\rightarrow
 PolicyDecision
-]
+\]
 
 Possible outputs:
 
@@ -449,9 +449,9 @@ COMPETING
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 4. Policy scope
+## 4. Policy scope
 
 Routing policy may govern:
 
@@ -480,9 +480,9 @@ cross-domain routing
 effect-path routing
 ```
 
----
+______________________________________________________________________
 
-# 5. Explicit non-scope
+## 5. Explicit non-scope
 
 Routing policy must not independently decide:
 
@@ -498,9 +498,9 @@ external effect success
 
 It may require those services.
 
----
+______________________________________________________________________
 
-# 6. Policy classes
+## 6. Policy classes
 
 ```yaml
 routing_policy_classes:
@@ -576,9 +576,9 @@ routing_policy_classes:
       - no-action state
 ```
 
----
+______________________________________________________________________
 
-# 7. Policy precedence hierarchy
+## 7. Policy precedence hierarchy
 
 Routing rules should distinguish precedence.
 
@@ -604,9 +604,9 @@ DEFAULT / FALLBACK
 
 Lower layers may not override higher-layer failures.
 
----
+______________________________________________________________________
 
-# 8. Hard versus soft policy
+## 8. Hard versus soft policy
 
 Hard policy:
 
@@ -639,9 +639,9 @@ soft:
 
 Hard constraints cannot be traded for score.
 
----
+______________________________________________________________________
 
-# 9. Policy decision record
+## 9. Policy decision record
 
 ```yaml
 routing_policy_decision:
@@ -683,9 +683,9 @@ routing_policy_decision:
   valid_until: null
 ```
 
----
+______________________________________________________________________
 
-# 10. Policy state variables
+## 10. Policy state variables
 
 ```yaml
 routing_policy_state:
@@ -725,9 +725,9 @@ routing_policy_state:
     valid_until: null
 ```
 
----
+______________________________________________________________________
 
-# 11. Policy operators
+## 11. Policy operators
 
 Candidate operators:
 
@@ -753,9 +753,9 @@ emit_policy_decision()
 invalidate_policy_decision()
 ```
 
----
+______________________________________________________________________
 
-# 12. Core routing policy invariants
+## 12. Core routing policy invariants
 
 ## I-RPOL-001 — Integrity dominates optimization
 
@@ -851,17 +851,17 @@ Policy change invalidates only dependent routes where possible.
 
 Every consequential route must identify the policy epoch under which it was evaluated.
 
----
+______________________________________________________________________
 
-# 13. Relevance policy
+## 13. Relevance policy
 
 The default relevance rule:
 
-[
+\[
 RouteEligible(c)
-\Rightarrow
+\\Rightarrow
 MateriallyRelevant(c,Q)
-]
+\]
 
 A component is materially relevant if its output could change:
 
@@ -876,9 +876,9 @@ risk state
 
 If it cannot, do not route there by default.
 
----
+______________________________________________________________________
 
-# 14. Over-routing policy
+## 14. Over-routing policy
 
 Prohibit unnecessary activation such as:
 
@@ -903,9 +903,9 @@ provenance complexity
 failure surface
 ```
 
----
+______________________________________________________________________
 
-# 15. Under-routing policy
+## 15. Under-routing policy
 
 Also prohibit under-routing when missing branches can change the outcome.
 
@@ -922,9 +922,9 @@ irreversible effect
 → no authority/Worker path
 ```
 
----
+______________________________________________________________________
 
-# 16. H/M/L policy
+## 16. H/M/L policy
 
 Default traversal:
 
@@ -943,9 +943,9 @@ Do not descend further
 unless deeper layer can materially change result.
 ```
 
----
+______________________________________________________________________
 
-# 17. H-level policy
+## 17. H-level policy
 
 H-level routing is appropriate for:
 
@@ -960,9 +960,9 @@ system-level state
 
 Do not route to L-level implementation before H-level objective/scope is sufficiently known.
 
----
+______________________________________________________________________
 
-# 18. M-level policy
+## 18. M-level policy
 
 M-level routing is appropriate for:
 
@@ -977,9 +977,9 @@ Generator
 Mode family
 ```
 
----
+______________________________________________________________________
 
-# 19. L-level policy
+## 19. L-level policy
 
 L-level routing is appropriate for:
 
@@ -992,9 +992,9 @@ specific evidence
 exact implementation detail
 ```
 
----
+______________________________________________________________________
 
-# 20. Raw evidence policy
+## 20. Raw evidence policy
 
 Raw evidence defaults:
 
@@ -1013,9 +1013,9 @@ scope uncertain
 causal claim consequential
 ```
 
----
+______________________________________________________________________
 
-# 21. Adaptive complexity policy
+## 21. Adaptive complexity policy
 
 Use:
 
@@ -1043,9 +1043,9 @@ governance impact
 
 De-escalate when outcome-changing uncertainty is resolved.
 
----
+______________________________________________________________________
 
-# 22. Capability policy
+## 22. Capability policy
 
 Candidate must explicitly support required capability.
 
@@ -1064,9 +1064,9 @@ description similarity
 
 without contract evidence where consequential.
 
----
+______________________________________________________________________
 
-# 23. Specialist preference policy
+## 23. Specialist preference policy
 
 Provisional policy:
 
@@ -1084,9 +1084,9 @@ fallback
 
 Only among otherwise valid candidates.
 
----
+______________________________________________________________________
 
-# 24. First-match policy
+## 24. First-match policy
 
 Default:
 
@@ -1096,9 +1096,9 @@ FIRST_MATCH_ROUTING = PROHIBITED
 
 unless an explicit authoritative policy states ordering is meaningful.
 
----
+______________________________________________________________________
 
-# 25. Registration-order policy
+## 25. Registration-order policy
 
 Registry order is metadata, not priority, unless policy declares otherwise.
 
@@ -1107,9 +1107,9 @@ registration_index
 != semantic_priority
 ```
 
----
+______________________________________________________________________
 
-# 26. Explicit target policy
+## 26. Explicit target policy
 
 If user/system requests exact component:
 
@@ -1126,9 +1126,9 @@ or return explicit failure
 
 not substitute silently.
 
----
+______________________________________________________________________
 
-# 27. Ambiguity policy
+## 27. Ambiguity policy
 
 When candidates remain equally valid:
 
@@ -1145,9 +1145,9 @@ preserve competing routes
 use explicit policy tie-break
 ```
 
----
+______________________________________________________________________
 
-# 28. Tie-break policy
+## 28. Tie-break policy
 
 Tie-breakers must be named and versioned.
 
@@ -1164,9 +1164,9 @@ lower dependency burden
 
 No hidden tie-break.
 
----
+______________________________________________________________________
 
-# 29. Mode policy
+## 29. Mode policy
 
 Mode routing must verify:
 
@@ -1187,9 +1187,9 @@ MODE_FOLDER_EXISTS
 != MODE_ACTIVE
 ```
 
----
+______________________________________________________________________
 
-# 30. Mode-family policy
+## 30. Mode-family policy
 
 Policy may prohibit mutually exclusive mode combinations.
 
@@ -1204,9 +1204,9 @@ mode_policy:
 
 Current values remain `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
-# 31. Agent routing policy
+## 31. Agent routing policy
 
 Agents may be selected for reasoning roles.
 
@@ -1228,9 +1228,9 @@ tools
 capabilities
 ```
 
----
+______________________________________________________________________
 
-# 32. Skill routing policy
+## 32. Skill routing policy
 
 Skill route requires:
 
@@ -1244,9 +1244,9 @@ effect classification
 
 Skill invocation must not weaken Worker invariants.
 
----
+______________________________________________________________________
 
-# 33. Engine routing policy
+## 33. Engine routing policy
 
 Engine selection should consider:
 
@@ -1258,9 +1258,9 @@ schema compatibility
 scope/regime
 ```
 
----
+______________________________________________________________________
 
-# 34. Kernel routing policy
+## 34. Kernel routing policy
 
 Kernel selection should favor:
 
@@ -1274,9 +1274,9 @@ invariant-aware
 
 primitives.
 
----
+______________________________________________________________________
 
-# 35. Worker routing policy
+## 35. Worker routing policy
 
 Workers are execution endpoints.
 
@@ -1291,9 +1291,9 @@ idempotency requirement
 recovery semantics
 ```
 
----
+______________________________________________________________________
 
-# 36. Worker-only effect policy
+## 36. Worker-only effect policy
 
 For consequential effects:
 
@@ -1307,9 +1307,9 @@ The router may select the Worker.
 
 It may not grant execution authority.
 
----
+______________________________________________________________________
 
-# 37. Validator routing policy
+## 37. Validator routing policy
 
 Validator type must match validation class.
 
@@ -1323,9 +1323,9 @@ causal → causal validator/path
 
 No silent downgrade to a weaker validator.
 
----
+______________________________________________________________________
 
-# 38. Generator routing policy
+## 38. Generator routing policy
 
 Generator selection must bind:
 
@@ -1340,9 +1340,9 @@ policy
 
 Generator output remains candidate.
 
----
+______________________________________________________________________
 
-# 39. Workflow routing policy
+## 39. Workflow routing policy
 
 Distinguish:
 
@@ -1360,9 +1360,9 @@ Canonical workflows may require declared state transitions.
 
 Ad-hoc plans may be governed per consequential event.
 
----
+______________________________________________________________________
 
-# 40. Event routing policy
+## 40. Event routing policy
 
 Event routing must check:
 
@@ -1384,9 +1384,9 @@ EVENT_RECEIVED
 != AUTHORIZED_EFFECT
 ```
 
----
+______________________________________________________________________
 
-# 41. Evidence routing policy
+## 41. Evidence routing policy
 
 Evidence should be routed by epistemic type.
 
@@ -1401,9 +1401,9 @@ UNKNOWN
 
 Do not flatten evidence classes.
 
----
+______________________________________________________________________
 
-# 42. Provenance policy
+## 42. Provenance policy
 
 Evidence routing should preserve:
 
@@ -1416,9 +1416,9 @@ freshness
 scope
 ```
 
----
+______________________________________________________________________
 
-# 43. Independence policy
+## 43. Independence policy
 
 Multiple paths count as independent only when ancestry independence is demonstrated.
 
@@ -1427,9 +1427,9 @@ N descendants from one root
 → effective independent count = 1
 ```
 
----
+______________________________________________________________________
 
-# 44. Scope policy
+## 44. Scope policy
 
 A candidate is routable only if its applicability envelope is compatible.
 
@@ -1443,9 +1443,9 @@ route_scope:
 
 Cross-scope routing requires explicit compatibility.
 
----
+______________________________________________________________________
 
-# 45. Regime policy
+## 45. Regime policy
 
 A route validated in regime R1 is not silently valid in R2.
 
@@ -1459,9 +1459,9 @@ REROUTE
 
 where load-bearing.
 
----
+______________________________________________________________________
 
-# 46. Freshness policy
+## 46. Freshness policy
 
 Freshness should be typed per dependency:
 
@@ -1477,9 +1477,9 @@ authority freshness
 
 No universal duration should be invented.
 
----
+______________________________________________________________________
 
-# 47. Policy epoch
+## 47. Policy epoch
 
 Every consequential route policy decision should bind:
 
@@ -1490,9 +1490,9 @@ policy_binding:
   policy_hash: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 48. Policy epoch transition
+## 48. Policy epoch transition
 
 If policy changes:
 
@@ -1505,9 +1505,9 @@ then routes evaluated under E1 must be inspected for dependency on changed rules
 
 Do not invalidate unrelated routes globally.
 
----
+______________________________________________________________________
 
-# 49. Route-reuse policy
+## 49. Route-reuse policy
 
 Route reuse may be permitted only when:
 
@@ -1522,9 +1522,9 @@ mode compatible
 no conflict introduced
 ```
 
----
+______________________________________________________________________
 
-# 50. v4.4 local fast-path policy
+## 50. v4.4 local fast-path policy
 
 AMOS v4.4-style local reasoning/reuse is allowed only when independence and dependency closure are established.
 
@@ -1544,9 +1544,9 @@ Otherwise escalate.
 
 This is a reasoning/control pattern, not proof that the Markdown routing layer literally implements distributed coordination avoidance.
 
----
+______________________________________________________________________
 
-# 51. Route cache policy
+## 51. Route cache policy
 
 A route cache entry must carry:
 
@@ -1563,9 +1563,9 @@ route_cache:
 
 Cache hit does not imply validity.
 
----
+______________________________________________________________________
 
-# 52. Cache invalidation policy
+## 52. Cache invalidation policy
 
 Invalidate on load-bearing changes:
 
@@ -1580,9 +1580,9 @@ required validation expired
 security context changed
 ```
 
----
+______________________________________________________________________
 
-# 53. MVCC/CAS route policy
+## 53. MVCC/CAS route policy
 
 Conceptual rule:
 
@@ -1598,9 +1598,9 @@ If a load-bearing part differs:
 STALE_ROUTE
 ```
 
----
+______________________________________________________________________
 
-# 54. Read-set policy
+## 54. Read-set policy
 
 Consequential route records should identify load-bearing state.
 
@@ -1612,9 +1612,9 @@ route_read_set:
     load_bearing: true
 ```
 
----
+______________________________________________________________________
 
-# 55. Selective invalidation policy
+## 55. Selective invalidation policy
 
 When one dependency changes:
 
@@ -1630,9 +1630,9 @@ Worker W1 superseded
 → preserve W2 routes
 ```
 
----
+______________________________________________________________________
 
-# 56. Fallback policy
+## 56. Fallback policy
 
 Fallback allowed only if:
 
@@ -1643,9 +1643,9 @@ fallback itself valid
 semantic difference disclosed
 ```
 
----
+______________________________________________________________________
 
-# 57. Fallback equivalence policy
+## 57. Fallback equivalence policy
 
 Classify fallback as:
 
@@ -1657,9 +1657,9 @@ NON_EQUIVALENT
 
 Only `EQUIVALENT` may be transparent.
 
----
+______________________________________________________________________
 
-# 58. Degraded-mode policy
+## 58. Degraded-mode policy
 
 If degraded:
 
@@ -1673,9 +1673,9 @@ degraded_route:
 
 Degradation must be visible.
 
----
+______________________________________________________________________
 
-# 59. No-route policy
+## 59. No-route policy
 
 `NO_ROUTE` is valid and sometimes preferable.
 
@@ -1687,9 +1687,9 @@ UNJUSTIFIED_ROUTE
 
 under integrity-first governance.
 
----
+______________________________________________________________________
 
-# 60. Conflict policy
+## 60. Conflict policy
 
 Route conflict can arise from:
 
@@ -1705,9 +1705,9 @@ competing evidence
 
 Unresolved conflict should not be hidden.
 
----
+______________________________________________________________________
 
-# 61. Competing route policy
+## 61. Competing route policy
 
 If two paths are valid but incomparable:
 
@@ -1717,9 +1717,9 @@ COMPETING
 
 Preserve both until a discriminating test or explicit policy resolves them.
 
----
+______________________________________________________________________
 
-# 62. Causal routing policy
+## 62. Causal routing policy
 
 Causal questions require appropriate causal paths.
 
@@ -1732,9 +1732,9 @@ causal-effect question
 
 as sufficient.
 
----
+______________________________________________________________________
 
-# 63. Cross-domain policy
+## 63. Cross-domain policy
 
 Cross-domain mappings remain:
 
@@ -1746,9 +1746,9 @@ unless independently validated.
 
 Routing may use analogy to generate hypotheses, not to establish causation.
 
----
+______________________________________________________________________
 
-# 64. Security routing policy
+## 64. Security routing policy
 
 Security-sensitive routes should require:
 
@@ -1762,9 +1762,9 @@ security validation
 
 General capability does not imply security suitability.
 
----
+______________________________________________________________________
 
-# 65. Data-access policy
+## 65. Data-access policy
 
 Routing to a data source requires:
 
@@ -1778,9 +1778,9 @@ scope compatible
 
 These are separate states.
 
----
+______________________________________________________________________
 
-# 66. Privacy policy
+## 66. Privacy policy
 
 Relevant data must not be routed if access is outside granted scope.
 
@@ -1789,9 +1789,9 @@ relevance
 != permission
 ```
 
----
+______________________________________________________________________
 
-# 67. Execution-risk policy
+## 67. Execution-risk policy
 
 Potential effect classes:
 
@@ -1808,9 +1808,9 @@ Validation burden increases with effect class.
 
 Exact classes remain provisional.
 
----
+______________________________________________________________________
 
-# 68. Authority escalation policy
+## 68. Authority escalation policy
 
 If route enters consequential effect path:
 
@@ -1822,9 +1822,9 @@ must be emitted.
 
 Routing policy cannot itself mint authority.
 
----
+______________________________________________________________________
 
-# 69. Canon-routing policy
+## 69. Canon-routing policy
 
 Canon-relevant operations should route through:
 
@@ -1840,9 +1840,9 @@ source
 
 No direct file-to-canon route.
 
----
+______________________________________________________________________
 
-# 70. Policy-routing recursion
+## 70. Policy-routing recursion
 
 Routing policy changes themselves are governance operations.
 
@@ -1859,9 +1859,9 @@ proposal
 
 This file cannot self-activate.
 
----
+______________________________________________________________________
 
-# 71. Policy exception model
+## 71. Policy exception model
 
 Exceptions should be explicit.
 
@@ -1878,9 +1878,9 @@ routing_policy_exception:
 
 No undocumented exception.
 
----
+______________________________________________________________________
 
-# 72. Emergency override policy
+## 72. Emergency override policy
 
 If an emergency override mechanism exists, it must declare:
 
@@ -1899,9 +1899,9 @@ Current implementation status:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 73. Revocation policy
+## 73. Revocation policy
 
 Policy decisions or route permissions may be revoked.
 
@@ -1913,9 +1913,9 @@ revocation:
   revoked_at: null
 ```
 
----
+______________________________________________________________________
 
-# 74. Supersession policy
+## 74. Supersession policy
 
 New routing policy versions should preserve lineage.
 
@@ -1928,9 +1928,9 @@ supersession:
   migration_notes: []
 ```
 
----
+______________________________________________________________________
 
-# 75. Routing-policy workflow
+## 75. Routing-policy workflow
 
 ```text
 ROUTE_CANDIDATE
@@ -1946,9 +1946,9 @@ CONFLICTS_CHECKED
 [[03_CONTROL_PLANE/03_POLICY/POLICY_DECISION|POLICY_DECISION]]
 ```
 
----
+______________________________________________________________________
 
-# 76. Consequential-route workflow
+## 76. Consequential-route workflow
 
 ```text
 REQUEST
@@ -1966,9 +1966,9 @@ AUTHORITY
 WORKER
 ```
 
----
+______________________________________________________________________
 
-# 77. Route-reuse workflow
+## 77. Route-reuse workflow
 
 ```text
 CACHED ROUTE
@@ -1984,9 +1984,9 @@ CHECK MODE/REGIME/FRESHNESS
 REUSE OR INVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 78. Recovery workflow
+## 78. Recovery workflow
 
 ```text
 ROUTE POLICY FAILURE
@@ -2002,9 +2002,9 @@ RESOLVE NEW CANDIDATES
 RE-EVALUATE POLICY
 ```
 
----
+______________________________________________________________________
 
-# 79. Routing-policy events
+## 79. Routing-policy events
 
 Suggested events:
 
@@ -2023,9 +2023,9 @@ ROUTING_POLICY_REVOKED
 ROUTING_POLICY_SUPERSEDED
 ```
 
----
+______________________________________________________________________
 
-# 80. Policy event envelope
+## 80. Policy event envelope
 
 ```yaml
 routing_policy_event:
@@ -2052,9 +2052,9 @@ routing_policy_event:
 
 Event emission is not authority.
 
----
+______________________________________________________________________
 
-# 81. Control-plane enforcement points
+## 81. Control-plane enforcement points
 
 Potential enforcement points:
 
@@ -2069,9 +2069,9 @@ before policy-sensitive fallback
 
 Exact runtime enforcement points remain `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
-# 82. Routing policy Engine
+## 82. Routing policy Engine
 
 Possible engine:
 
@@ -2091,9 +2091,9 @@ emit policy decision
 
 This is provisional architecture.
 
----
+______________________________________________________________________
 
-# 83. Policy kernels
+## 83. Policy kernels
 
 Candidate deterministic kernels:
 
@@ -2110,9 +2110,9 @@ resolve_rule_precedence()
 check_exception_validity()
 ```
 
----
+______________________________________________________________________
 
-# 84. Policy Agents
+## 84. Policy Agents
 
 Possible roles:
 
@@ -2134,9 +2134,9 @@ Attempts to find bypasses, hidden defaults, or weakened invariants.
 
 Agents do not activate policy.
 
----
+______________________________________________________________________
 
-# 85. Policy Skills
+## 85. Policy Skills
 
 Potential Skills:
 
@@ -2155,9 +2155,9 @@ invalidate-route-policy-decision
 compare-routing-policies
 ```
 
----
+______________________________________________________________________
 
-# 86. Policy protocol candidates
+## 86. Policy protocol candidates
 
 Potential protocols:
 
@@ -2174,9 +2174,9 @@ policy supersession
 
 Exact protocols remain `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
-# 87. Validation relationship
+## 87. Validation relationship
 
 `11_VALIDATION` should validate:
 
@@ -2190,9 +2190,9 @@ route compliance
 
 Routing policy must not self-certify.
 
----
+______________________________________________________________________
 
-# 88. Routing-audit relationship
+## 88. Routing-audit relationship
 
 `ROUTING_AUDIT.md` should audit:
 
@@ -2205,9 +2205,9 @@ exceptions valid?
 route reuse valid?
 ```
 
----
+______________________________________________________________________
 
-# 89. Binding-rules relationship
+## 89. Binding-rules relationship
 
 `BINDING_RULES.md` provides exact binding semantics.
 
@@ -2221,9 +2221,9 @@ POLICY_DENIED
 → binding blocked
 ```
 
----
+______________________________________________________________________
 
-# 90. Promotion-gate relationship
+## 90. Promotion-gate relationship
 
 A routing policy version should not become active because a file exists.
 
@@ -2235,9 +2235,9 @@ POLICY_CANDIDATE
 → ACTIVE POLICY
 ```
 
----
+______________________________________________________________________
 
-# 91. RSCF routing-policy capsule
+## 91. RSCF routing-policy capsule
 
 ```yaml
 rscf:
@@ -2304,9 +2304,9 @@ rscf:
     PLACEHOLDER
 ```
 
----
+______________________________________________________________________
 
-# 92. GMEF routing-policy capsule
+## 92. GMEF routing-policy capsule
 
 ```yaml
 gmef:
@@ -2359,9 +2359,9 @@ gmef:
     UNFINALIZED
 ```
 
----
+______________________________________________________________________
 
-# 93. Policy proof capsule
+## 93. Policy proof capsule
 
 ```yaml
 proof_capsule:
@@ -2399,9 +2399,9 @@ proof_capsule:
     - exception revoked
 ```
 
----
+______________________________________________________________________
 
-# 94. Policy failure modes
+## 94. Policy failure modes
 
 ```yaml
 failure_modes:
@@ -2479,9 +2479,9 @@ failure_modes:
     description: consequential effect routed without authority/Worker path
 ```
 
----
+______________________________________________________________________
 
-# 95. Repair / recovery
+## 95. Repair / recovery
 
 ```text
 POLICY FAILURE
@@ -2499,9 +2499,9 @@ REPAIR POLICY / CONTEXT / BINDING
 RE-EVALUATE
 ```
 
----
+______________________________________________________________________
 
-# 96. Policy repair classes
+## 96. Policy repair classes
 
 ```text
 UPDATE_RULE
@@ -2514,9 +2514,9 @@ REVALIDATE_ROUTE
 REROUTE
 ```
 
----
+______________________________________________________________________
 
-# 97. Retry rule
+## 97. Retry rule
 
 Do not re-evaluate identical failed policy decisions expecting a different result.
 
@@ -2532,9 +2532,9 @@ OR RegimeChanged
 OR EvidenceChanged
 ```
 
----
+______________________________________________________________________
 
-# 98. Test taxonomy
+## 98. Test taxonomy
 
 Routing policy requires:
 
@@ -2557,9 +2557,9 @@ authority-firewall tests
 selective-invalidation tests
 ```
 
----
+______________________________________________________________________
 
-# 99. Constitutional policy tests
+## 99. Constitutional policy tests
 
 ```text
 T-RPOL-001
@@ -2625,9 +2625,9 @@ optimization prefers faster route that violates hard scope rule
 → hard scope rule wins
 ```
 
----
+______________________________________________________________________
 
-# 100. Adversarial policy tests
+## 100. Adversarial policy tests
 
 Inject:
 
@@ -2647,9 +2647,9 @@ regime transition
 
 Policy should fail closed where appropriate.
 
----
+______________________________________________________________________
 
-# 101. Falsifiers
+## 101. Falsifiers
 
 This placeholder can be falsified by:
 
@@ -2672,9 +2672,9 @@ actual AMOS_CORE v4.4 routing implementation requires load-bearing dimensions om
 
 If a falsifier succeeds, update/supersede rather than silently preserve.
 
----
+______________________________________________________________________
 
-# 102. Source / canon references
+## 102. Source / canon references
 
 ```yaml
 source_canon:
@@ -2699,9 +2699,9 @@ source_canon:
 
 The Full Brain OS source is the primary canon source for this Skill, but preserving its architecture does not establish external empirical validity or prove that this exact routing-policy runtime is implemented.
 
----
+______________________________________________________________________
 
-# 103. Dependency graph
+## 103. Dependency graph
 
 ```text
 ROUTING_POLICY
@@ -2731,9 +2731,9 @@ ROUTING_POLICY
 └── STATE_STORE
 ```
 
----
+______________________________________________________________________
 
-# 104. Related artifacts
+## 104. Related artifacts
 
 ```yaml
 related:
@@ -2784,9 +2784,9 @@ related:
     UNVERIFIED
 ```
 
----
+______________________________________________________________________
 
-# 105. Relation ontology
+## 105. Relation ontology
 
 ```text
 GOVERNS
@@ -2807,9 +2807,9 @@ SUPERSEDED_BY
 REVOKES
 ```
 
----
+______________________________________________________________________
 
-# 106. Uncertainty vector
+## 106. Uncertainty vector
 
 ```yaml
 routing_policy_uncertainty:
@@ -2830,9 +2830,9 @@ routing_policy_uncertainty:
 
 The exact policy semantics remain provisional until authoritative source and implementation evidence are recovered.
 
----
+______________________________________________________________________
 
-# 107. Completion status
+## 107. Completion status
 
 ```yaml
 completion_status:
@@ -2930,9 +2930,9 @@ completion_status:
     status: UNBOUND
 ```
 
----
+______________________________________________________________________
 
-# 108. Gap registry
+## 108. Gap registry
 
 ```yaml
 gaps:
@@ -2967,9 +2967,9 @@ gaps:
     - naming harmonization
 ```
 
----
+______________________________________________________________________
 
-# 109. Hard boundaries
+## 109. Hard boundaries
 
 ```text
 PLACEHOLDER != IMPLEMENTED
@@ -3021,9 +3021,9 @@ POLICY_EXCEPTION != GLOBAL_RULE
 POLICY_PASS != ROUTE_TRUTH
 ```
 
----
+______________________________________________________________________
 
-# 110. Current decision
+## 110. Current decision
 
 ```yaml
 decision:
@@ -3062,9 +3062,9 @@ decision:
     - claim routing implementation conforms
 ```
 
----
+______________________________________________________________________
 
-# 111. Final proof capsule
+## 111. Final proof capsule
 
 ```yaml
 proof_capsule:
@@ -3136,7 +3136,7 @@ This version makes `ROUTING_POLICY.md` the **policy layer above route selection 
 00_ROOT_MOC|AMOS MOC
 
 ---
-**Related:**  ·  ·
+**Related:**
 
 ---
 RSCF-NODE
@@ -3154,6 +3154,3 @@ claim_class: AMOS_MODEL
 ---
 
 **Related:** [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]
-
-```
-```

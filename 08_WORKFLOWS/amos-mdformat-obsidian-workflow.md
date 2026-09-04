@@ -1,4 +1,7 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 Type: Workflow
 Skill: amos-mdformat-obsidian
 Agent: amos-mdformat-obsidian-agent
@@ -6,9 +9,9 @@ Trigger: When Obsidian vault Markdown formatting, frontmatter fixing, tag migrat
 Version: 1.1.0
 title: AMOS mdformat-obsidian
 tags:
-- type/workflow
-- domain/cross-domain
-- amos-os
+  - type/workflow
+  - domain/cross-domain
+  - amos-os
 type: workflow
 source: 08_WORKFLOWS
 rscf:
@@ -34,19 +37,19 @@ rscf:
    - Classify the query: single file, directory, or full vault
    - Identify specific formatting issues: frontmatter, callouts, wikilinks, tags, math
    - Confirm target paths are within vault scope
-2. **Skill Invocation**: Load the `amos-mdformat-obsidian` skill.
+1. **Skill Invocation**: Load the `amos-mdformat-obsidian` skill.
    - Read the skill content and validation gates
    - Identify which formatting capabilities are most relevant
-3. **Application**: Apply the mdformat-obsidian capability.
+1. **Application**: Apply the mdformat-obsidian capability.
    - Tag every output with its epistemic status (SOURCE / DERIVED / AMOS_MODEL)
    - Record provenance for every formatting change
    - Preserve all content — only restructure whitespace and syntax
-4. **Validation**: Check results against validation gates.
+1. **Validation**: Check results against validation gates.
    - Verify all formatted files parse as valid Markdown
    - Confirm all wikilinks still resolve
    - Confirm all frontmatter fields are preserved
    - Diff against original to confirm only formatting changes
-5. **Finalization**: Produce formatting report and commit.
+1. **Finalization**: Produce formatting report and commit.
    - Generate summary of changes (files formatted, tags migrated, frontmatter fixed)
    - Tag output with epistemic class and provenance
    - Ensure git reversibility is maintained
@@ -54,10 +57,10 @@ rscf:
 ## Operations
 
 1. **Intake**: Identify the formatting task and confirm it matches the mdformat-obsidian scope. - Classify the query: single file, directory, or full vault - Identify specific formatting issues: frontmatter, callouts, wikilinks, tags, math...
-2. **Skill Invocation**: Load the `amos-mdformat-obsidian` skill. - Read the skill content and validation gates - Identify which formatting capabilities are most relevant
-3. **Application**: Apply the mdformat-obsidian capability. - Tag every output with its epistemic status (SOURCE / DERIVED / AMOS_MODEL) - Record provenance for every formatting change - Preserve all content — only restructure whitespace an...
-4. **Validation**: Check results against validation gates. - Verify all formatted files parse as valid Markdown - Confirm all wikilinks still resolve - Confirm all frontmatter fields are preserved - Diff against original to confirm only for...
-5. **Finalization**: Produce formatting report and commit. - Generate summary of changes (files formatted, tags migrated, frontmatter fixed) - Tag output with epistemic class and provenance - Ensure git reversibility is maintained
+1. **Skill Invocation**: Load the `amos-mdformat-obsidian` skill. - Read the skill content and validation gates - Identify which formatting capabilities are most relevant
+1. **Application**: Apply the mdformat-obsidian capability. - Tag every output with its epistemic status (SOURCE / DERIVED / AMOS_MODEL) - Record provenance for every formatting change - Preserve all content — only restructure whitespace an...
+1. **Validation**: Check results against validation gates. - Verify all formatted files parse as valid Markdown - Confirm all wikilinks still resolve - Confirm all frontmatter fields are preserved - Diff against original to confirm only for...
+1. **Finalization**: Produce formatting report and commit. - Generate summary of changes (files formatted, tags migrated, frontmatter fixed) - Tag output with epistemic class and provenance - Ensure git reversibility is maintained
 
 ## Validation Gates
 
@@ -66,6 +69,7 @@ rscf:
 - [ ] Scope respected (no claim beyond declared scope)
 - [ ] Confidence ceiling enforced (weakest load-bearing premise)
 - [ ] Gaps classified (CRITICAL/DECISION_RELEVANT/EXPLANATORY/COSMETIC)
+
 ## Error Recovery
 
 - **Parse error**: Skip file, log error, continue with remaining files
@@ -82,16 +86,19 @@ rscf:
 ## AMOS Canon Workflow Governance
 
 ### GMEF Gate Sequence (L18)
+
 - L0_integrity: No content deleted during formatting
 - L1_epistemic: All changes tagged with epistemic class
 - L5_scope: Only vault-scoped files processed
 
 ### H/M/L Rigor Assignment (L16)
+
 - H-level: Full vault batch formatting (requires steward approval)
 - M-level: Directory-level formatting
 - L-level: Single file formatting
 
 ### RSCF Propagation (L17)
+
 - All formatting changes recorded as DERIVED
 - Provenance: original file path + formatting rule applied
 

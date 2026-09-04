@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: AMOS META LOGIC KERNEL V0 META COGNITION4 2
 tags:
-- canon-group/meta
-- canon/law
-- rscf/claim
-- rscf/provenance
-- rscf/state/source-claim
-- topic/amos-meta-logic-kernel-v0
-- kernel
+  - canon-group/meta
+  - canon/law
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - topic/amos-meta-logic-kernel-v0
+  - kernel
 type: data
 source: 11_KNOWLEDGE/kernel
 rscf:
@@ -99,6 +102,6 @@ rscf:
 **Related:** [[11_KNOWLEDGE/kernel/AMOS_COGNITION_TOTAL_KERNEL|AMOS_COGNITION_TOTAL_KERNEL]] · [[11_KNOWLEDGE/kernel/AMOS_UBI_KERNEL|AMOS_UBI_KERNEL]] · [[11_KNOWLEDGE/kernel/INVESTMENT_KERNEL|INVESTMENT_KERNEL]] · [[11_KNOWLEDGE/kernel/AMOS_BEHAVIORAL_ECONOMICS_KERNEL|AMOS_BEHAVIORAL_ECONOMICS_KERNEL]]
 ```
 
----
-**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]
+______________________________________________________________________
 
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]

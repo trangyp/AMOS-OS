@@ -4,25 +4,22 @@ title: SKILL — Amos Contravariance Alignment Rscf Engine
 type: skill
 source: 07_SKILLS/amos-contravariance-alignment-rscf-engine
 name: amos-contravariance-alignment-rscf-engine
-description: Contravariance Alignment — RSCF epistemic capability. Use when classifying
-  claims by epistemic state, validating outputs against epistemic and scope constraints,
-  or analyzing evidence structure. Use when amos-rscf-epistemic-master routes to this
-  s. Do not use for generic tasks outside rscf domain.
+description: Contravariance Alignment — RSCF epistemic capability. Use when classifying claims by epistemic state, validating outputs against epistemic and scope constraints, or analyzing evidence structure. Use when amos-rscf-epistemic-master routes to this s. Do not use for generic tasks outside rscf domain.
 parent_skill: amos-rscf-epistemic-master
 domain: rscf
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
 tags:
-- type/skill
-- type/skill
-- domain/rscf-epistemic
-- epistemic/source_claim
-- hml/h
-- epistemic/source_claim
-- amos-os
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/rscf-epistemic
+  - epistemic/source_claim
+  - hml/h
+  - epistemic/source_claim
+  - amos-os
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -32,24 +29,24 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: H
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
-- L7_authority
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
+  - L7_authority
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L7
-- L16
-- L17
-- L18
-- L19
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L7
+  - L16
+  - L17
+  - L18
+  - L19
 license: MIT
 steward: Trang Phan
 ---
@@ -59,6 +56,7 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: rscf. Parent: amos-rscf-epistemic-master. Epistemic class: SOURCE_CLAIM. H/M/L: H.
+
 ## When to Use
 
 - When classifying claims by epistemic state (VERIFIED, DERIVED, MODEL, UNKNOWN/GAP)
@@ -84,13 +82,13 @@ Origin architect: **Trang Phan**. Domain: rscf. Parent: amos-rscf-epistemic-mast
 ## Operations
 
 1. **contravariance_alignment.classify_claim**: Classify claims by epistemic state (VERIFIED, DERIVED, MODEL, UNKNOWN/GAP) and bind to evidence
-2. **contravariance_alignment.validate_evidence**: Validate evidence chains: provenance, freshness, scope, and regime validity
-3. **contravariance_alignment.trace_provenance**: Trace output provenance to vault sources and tag with content_hash
-4. **contravariance_alignment.assess_confidence**: Assess confidence ceiling based on epistemic class and evidence strength
-5. **contravariance_alignment.detect_falsifier**: Detect falsifiers and downgrade confidence when counter-evidence emerges
-6. **contravariance_alignment.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-7. **contravariance_alignment.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
-8. **contravariance_alignment.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+1. **contravariance_alignment.validate_evidence**: Validate evidence chains: provenance, freshness, scope, and regime validity
+1. **contravariance_alignment.trace_provenance**: Trace output provenance to vault sources and tag with content_hash
+1. **contravariance_alignment.assess_confidence**: Assess confidence ceiling based on epistemic class and evidence strength
+1. **contravariance_alignment.detect_falsifier**: Detect falsifiers and downgrade confidence when counter-evidence emerges
+1. **contravariance_alignment.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+1. **contravariance_alignment.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+1. **contravariance_alignment.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## Vault-Sourced Content
 
@@ -98,10 +96,9 @@ Origin architect: **Trang Phan**. Domain: rscf. Parent: amos-rscf-epistemic-mast
 
 > Path: `fractal/AMOS_FRACTAL_CONSCIOUSNESS_WHITEPAPER_FULL_FIXED.md` | Size: 175078 chars | Match score: 5 | content_hash: f70925f6ac8d7eb5
 
-# AMOS ALIGNMENT LAYER
+## AMOS ALIGNMENT LAYER
 
 ## Canon identity
-
 
 This edition preserves the source whitepaper while making its epistemic status
 explicit. It does **not** treat symbolic resemblance, fractal analogy,
@@ -215,7 +212,8 @@ TypeGate(C)
 
 A hard failure is not c
 
----
+______________________________________________________________________
+
 **Links:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 ## Related
@@ -225,17 +223,19 @@ A hard failure is not c
 ## Examples
 
 - **Scenario**: When classifying claims by epistemic state (VERIFIED, DERIVED, MODEL, UNKNOWN/GAP)
+
   - **Input**: A query matching this skill's domain (rscf)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When validating evidence chains for provenance, freshness, and scope
+
   - **Input**: A query matching this skill's domain (rscf)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When assessing confidence ceilings based on epistemic class
+
   - **Input**: A query matching this skill's domain (rscf)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Validation Gates
 
@@ -252,7 +252,6 @@ A hard failure is not c
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `amos-rscf-epistemic-master` — routes to this skill when rscf specialization is needed
@@ -260,7 +259,6 @@ A hard failure is not c
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -279,7 +277,6 @@ A hard failure is not c
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -287,7 +284,6 @@ A hard failure is not c
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -300,11 +296,12 @@ A hard failure is not c
 
 - `references/equations_docs.md` — loaded on demand
 - `references/references_MOC.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `amos-rscf-epistemic-master` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `amos-contravariance-alignment-rscf-engine-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -312,12 +309,14 @@ A hard failure is not c
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-contravariance-alignment-rscf-engine
 node_type: skill
 path: 07_SKILLS/amos-contravariance-alignment-rscf-engine/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

@@ -74,7 +74,7 @@
     "arxiv-anytime-pac-bayes-density-ratio-rscf"
   ],
   "depends_on_workflows": [
-    "arxiv-anytime-pac-bayes-density-ratio-rscf-workflow.md"
+    "amos-arxiv-anytime-pac-bayes-density-ratio-rscf-workflow.md"
   ],
   "epistemic_class": "AMOS_MODEL",
   "claim_ceiling": 0.95,

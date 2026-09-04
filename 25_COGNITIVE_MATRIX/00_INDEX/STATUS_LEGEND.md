@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: STATUS LEGEND
 type: status
 source: 25_COGNITIVE_MATRIX/00_INDEX
 tags:
-- cognitive-matrix
-- index
-- note
-- domain/cognitive-matrix
-- validation
+  - cognitive-matrix
+  - index
+  - note
+  - domain/cognitive-matrix
+  - validation
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -26,7 +29,7 @@ rscf:
 **Status:** `ACTIVE STRUCTURAL CONTRACT`
 **Epistemic class:** `AMOS_MODEL + SOURCE_CANON_BINDING`
 
----
+______________________________________________________________________
 
 ## 0. Purpose
 
@@ -64,21 +67,19 @@ These states are not contradictory because they describe different axes.
 
 The governing rule is:
 
-[
-Status(Object)
-==============
+## \[ Status(Object)
 
-S_d \times S_s \times S_i \times S_v \times S_o
-\times S_g \times S_e \times S_p \times S_f \times S_{gap}
-]
+S_d \\times S_s \\times S_i \\times S_v \\times S_o
+\\times S_g \\times S_e \\times S_p \\times S_f \\times S\_{gap}
+\]
 
 where each component represents a different status dimension.
 
 This tensor representation is an **AMOS MODEL**, not a claim of an externally established universal status formalism.
 
----
+______________________________________________________________________
 
-# 1. Core Status Law
+## 1. Core Status Law
 
 The Matrix MUST NOT use one overloaded field such as:
 
@@ -128,9 +129,9 @@ SUCCESSFUL
 EMPIRICALLY VERIFIED
 ```
 
----
+______________________________________________________________________
 
-# 2. Source / Canon References
+## 2. Source / Canon References
 
 This contract inherits structural principles from the Trang Phan AMOS corpus, including relevant structures associated with:
 
@@ -170,9 +171,9 @@ classification: AMOS_MODEL
 
 must be preserved.
 
----
+______________________________________________________________________
 
-# 3. Scope
+## 3. Scope
 
 This status vocabulary governs:
 
@@ -215,9 +216,9 @@ External AMOS components referenced by the Matrix retain their own authoritative
 
 Matrix-local status must not silently overwrite external subsystem status.
 
----
+______________________________________________________________________
 
-# 4. Status Architecture
+## 4. Status Architecture
 
 Canonical status is decomposed into at least these dimensions:
 
@@ -242,9 +243,9 @@ An implementation may add domain-specific dimensions.
 
 It may not collapse load-bearing distinctions.
 
----
+______________________________________________________________________
 
-# 5. Canonical Status Object
+## 5. Canonical Status Object
 
 ```yaml
 StatusVector:
@@ -273,9 +274,9 @@ StatusVector:
   confidence_ceiling:
 ```
 
----
+______________________________________________________________________
 
-# 6. Definition Status
+## 6. Definition Status
 
 Definition status answers:
 
@@ -325,9 +326,9 @@ Definitions materially disagree.
 
 The definition remains traceable but is no longer preferred.
 
----
+______________________________________________________________________
 
-# 7. Structural Status
+## 7. Structural Status
 
 Structural status answers:
 
@@ -370,9 +371,9 @@ All required structural fields for the declared scope are present.
 
 This does not imply implementation.
 
----
+______________________________________________________________________
 
-# 8. Addressability Law
+## 8. Addressability Law
 
 For a Cognitive Matrix cell:
 
@@ -392,23 +393,23 @@ This is valid.
 
 Therefore:
 
-[
+\[
 Addressable(x)
-\nRightarrow
+\\nRightarrow
 Implemented(x)
-]
+\]
 
 and:
 
-[
+\[
 Addressable(x)
-\nRightarrow
+\\nRightarrow
 Validated(x)
-]
+\]
 
----
+______________________________________________________________________
 
-# 9. Binding Status
+## 9. Binding Status
 
 Binding status answers:
 
@@ -445,9 +446,9 @@ RUNTIME
 
 It does not prove that bound capabilities are currently available or authorized.
 
----
+______________________________________________________________________
 
-# 10. Implementation Status
+## 10. Implementation Status
 
 Implementation status answers:
 
@@ -483,9 +484,9 @@ The declared implementation exists for the stated scope.
 
 `IMPLEMENTED` alone says nothing about correctness.
 
----
+______________________________________________________________________
 
-# 11. Placeholder Law
+## 11. Placeholder Law
 
 ```text
 PLACEHOLDER
@@ -508,15 +509,15 @@ and remain a placeholder.
 
 Therefore:
 
-[
+\[
 DocumentationQuality
-\nRightarrow
+\\nRightarrow
 Implementation
-]
+\]
 
----
+______________________________________________________________________
 
-# 12. Validation Status
+## 12. Validation Status
 
 Validation status answers:
 
@@ -554,9 +555,9 @@ VALIDATED
 
 if the evidence is scope-bound.
 
----
+______________________________________________________________________
 
-# 13. Validation Scope
+## 13. Validation Scope
 
 A validation record should contain:
 
@@ -579,9 +580,9 @@ validation:
 
 Without applicability information, validation confidence must be reduced.
 
----
+______________________________________________________________________
 
-# 14. Validation Boundary
+## 14. Validation Boundary
 
 ```text
 TEST_EXISTS
@@ -601,9 +602,9 @@ VALIDATED_FOR_SCOPE
 UNIVERSALLY_CORRECT
 ```
 
----
+______________________________________________________________________
 
-# 15. Operational Status
+## 15. Operational Status
 
 Operational status answers:
 
@@ -644,9 +645,9 @@ Execution has intentionally stopped.
 
 The object is isolated pending investigation or revalidation.
 
----
+______________________________________________________________________
 
-# 16. Operational Boundary
+## 16. Operational Boundary
 
 ```text
 IMPLEMENTED
@@ -668,9 +669,9 @@ AUTHORIZED
 
 A component can be technically executable while governance forbids its use.
 
----
+______________________________________________________________________
 
-# 17. Governance Status
+## 17. Governance Status
 
 Governance status answers:
 
@@ -700,9 +701,9 @@ effect-bound
 principal-bound where applicable
 ```
 
----
+______________________________________________________________________
 
-# 18. Capability / Authority Firewall
+## 18. Capability / Authority Firewall
 
 ```text
 CAPABILITY
@@ -730,9 +731,9 @@ but:
 MAY NOT perform action
 ```
 
----
+______________________________________________________________________
 
-# 19. Proposal Status
+## 19. Proposal Status
 
 Proposal lifecycle:
 
@@ -750,9 +751,9 @@ WITHDRAWN
 
 A proposal is not a durable effect.
 
----
+______________________________________________________________________
 
-# 20. Commit Status
+## 20. Commit Status
 
 Commit lifecycle:
 
@@ -775,9 +776,9 @@ PROPOSAL
 COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 21. Commit-Time Finality
+## 21. Commit-Time Finality
 
 A proposal that was previously eligible can become ineligible before commit because:
 
@@ -793,9 +794,9 @@ target state changed
 
 Therefore commit status must be evaluated against current state.
 
----
+______________________________________________________________________
 
-# 22. Evidence Status
+## 22. Evidence Status
 
 Evidence status answers:
 
@@ -818,9 +819,9 @@ INSUFFICIENT_EVIDENCE
 
 These values describe evidence state, not conclusion class.
 
----
+______________________________________________________________________
 
-# 23. Evidence Class Firewall
+## 23. Evidence Class Firewall
 
 AMOS distinguishes:
 
@@ -849,9 +850,9 @@ EXECUTABLE_EVIDENCE
 
 unless actual execution evidence is available.
 
----
+______________________________________________________________________
 
-# 24. Provenance Status
+## 24. Provenance Status
 
 Canonical values:
 
@@ -866,9 +867,9 @@ PROVENANCE_STALE
 PROVENANCE_REVOKED
 ```
 
----
+______________________________________________________________________
 
-# 25. Provenance Independence
+## 25. Provenance Independence
 
 Multiple pieces of evidence derived from one source must not be counted as independent confirmation.
 
@@ -886,9 +887,9 @@ may still represent:
 
 Status systems must not inflate confidence through duplication.
 
----
+______________________________________________________________________
 
-# 26. Freshness Status
+## 26. Freshness Status
 
 Canonical values:
 
@@ -914,9 +915,9 @@ decision
 
 There is no universal freshness interval.
 
----
+______________________________________________________________________
 
-# 27. Freshness Boundary
+## 27. Freshness Boundary
 
 ```text
 PREVIOUSLY_VALID
@@ -926,9 +927,9 @@ CURRENTLY_VALID
 
 A valid RSCF, authority witness, dependency state, benchmark, or implementation result may become stale.
 
----
+______________________________________________________________________
 
-# 28. Gap Status
+## 28. Gap Status
 
 Canonical gap lifecycle:
 
@@ -946,9 +947,9 @@ REOPENED
 QUARANTINED
 ```
 
----
+______________________________________________________________________
 
-# 29. Gap Severity
+## 29. Gap Severity
 
 Separate lifecycle from severity.
 
@@ -968,9 +969,9 @@ gap_status: DETECTED
 gap_severity: CRITICAL
 ```
 
----
+______________________________________________________________________
 
-# 30. Unknown / Gap Firewall
+## 30. Unknown / Gap Firewall
 
 ```text
 UNKNOWN/GAP
@@ -992,9 +993,9 @@ probably fine
 
 An unresolved required field must not be silently converted into success.
 
----
+______________________________________________________________________
 
-# 31. Health Status
+## 31. Health Status
 
 Canonical health states:
 
@@ -1010,9 +1011,9 @@ HEALTH_UNKNOWN
 
 Health must be defined relative to explicit invariants.
 
----
+______________________________________________________________________
 
-# 32. Recovery Status
+## 32. Recovery Status
 
 Canonical recovery states:
 
@@ -1028,9 +1029,9 @@ ROLLED_BACK
 ESCALATION_REQUIRED
 ```
 
----
+______________________________________________________________________
 
-# 33. Epistemic Status
+## 33. Epistemic Status
 
 AMOS conclusion classes:
 
@@ -1045,9 +1046,9 @@ UNKNOWN/GAP
 
 These are not interchangeable with implementation status.
 
----
+______________________________________________________________________
 
-# 34. `VERIFIED`
+## 34. `VERIFIED`
 
 Use only where the relevant claim has sufficient evidence under its declared scope.
 
@@ -1063,9 +1064,9 @@ provenance
 
 `VERIFIED` must not silently mean universally true.
 
----
+______________________________________________________________________
 
-# 35. `DERIVED`
+## 35. `DERIVED`
 
 The conclusion follows from accepted premises under a stated transformation or inference.
 
@@ -1073,17 +1074,17 @@ Its confidence cannot exceed the weakest load-bearing premise unless independent
 
 Conceptually:
 
-[
-C_{derived}
-\le
-\min(C_{premise_1},...,C_{premise_n})
-]
+\[
+C\_{derived}
+\\le
+\\min(C\_{premise_1},...,C\_{premise_n})
+\]
 
 This is an AMOS reasoning constraint.
 
----
+______________________________________________________________________
 
-# 36. `MODEL`
+## 36. `MODEL`
 
 The statement belongs to a framework, formalization, simulation, analogy, or architecture model.
 
@@ -1095,9 +1096,9 @@ The Matrix status vector is modeled as a multidimensional state tensor.
 
 This does not establish that nature itself uses that representation.
 
----
+______________________________________________________________________
 
-# 37. `CONDITIONAL`
+## 37. `CONDITIONAL`
 
 The conclusion is supported only if explicit premises or regime assumptions hold.
 
@@ -1108,9 +1109,9 @@ CONDITIONAL:
 The cell may be promoted if its required bindings pass compatibility validation.
 ```
 
----
+______________________________________________________________________
 
-# 38. `COMPETING`
+## 38. `COMPETING`
 
 Use when multiple incompatible hypotheses remain materially viable.
 
@@ -1123,9 +1124,9 @@ COMPETING
 
 without discriminating evidence.
 
----
+______________________________________________________________________
 
-# 39. `UNKNOWN/GAP`
+## 39. `UNKNOWN/GAP`
 
 Use where critical evidence, definition, provenance, scope, implementation, authority, or validation is missing.
 
@@ -1133,9 +1134,9 @@ Use where critical evidence, definition, provenance, scope, implementation, auth
 
 It is not a failure of fluency.
 
----
+______________________________________________________________________
 
-# 40. Status Vector Example — Placeholder Cell
+## 40. Status Vector Example — Placeholder Cell
 
 ```yaml
 cell_id: CELL_L10_O08_C04_H
@@ -1171,9 +1172,9 @@ recovery_status: NOT_REQUIRED
 epistemic_status: MODEL
 ```
 
----
+______________________________________________________________________
 
-# 41. Status Vector Example — Implemented but Unvalidated
+## 41. Status Vector Example — Implemented but Unvalidated
 
 ```yaml
 implementation_status: IMPLEMENTED
@@ -1189,9 +1190,9 @@ epistemic_status: UNKNOWN/GAP
 
 This is valid.
 
----
+______________________________________________________________________
 
-# 42. Status Vector Example — Validated but Unauthorized
+## 42. Status Vector Example — Validated but Unauthorized
 
 ```yaml
 implementation_status: IMPLEMENTED
@@ -1209,9 +1210,9 @@ Correct decision:
 DO NOT EXECUTE GOVERNED EFFECT
 ```
 
----
+______________________________________________________________________
 
-# 43. Status Vector Example — Previously Valid but Stale
+## 43. Status Vector Example — Previously Valid but Stale
 
 ```yaml
 implementation_status: IMPLEMENTED
@@ -1223,9 +1224,9 @@ freshness_status: REVALIDATION_REQUIRED
 operational_status: SUSPENDED
 ```
 
----
+______________________________________________________________________
 
-# 44. Status Vector Example — Competing Evidence
+## 44. Status Vector Example — Competing Evidence
 
 ```yaml
 evidence_status: CONFLICTING_EVIDENCE
@@ -1239,9 +1240,9 @@ confidence_ceiling: CONDITIONAL
 
 The conflict must remain visible.
 
----
+______________________________________________________________________
 
-# 45. Status Composition Rule
+## 45. Status Composition Rule
 
 Composite status must not be stronger than its weakest load-bearing dependency.
 
@@ -1260,29 +1261,27 @@ B.validation_status: VALIDATION_FAILED
 
 then A's dependent validation must be invalidated or downgraded.
 
----
+______________________________________________________________________
 
-# 46. Dependency Propagation
+## 46. Dependency Propagation
 
 Conceptually:
 
-[
-Status(A)
-=========
+## \[ Status(A)
 
 f(
 LocalStatus(A),
 Status(Dependencies(A))
 )
-]
+\]
 
 but propagation must be dependency-aware.
 
 Do not globally invalidate unrelated objects.
 
----
+______________________________________________________________________
 
-# 47. Selective Invalidation
+## 47. Selective Invalidation
 
 If dependency `D` fails:
 
@@ -1299,9 +1298,9 @@ Preserve:
 unrelated valid branches
 ```
 
----
+______________________________________________________________________
 
-# 48. Status State Variables
+## 48. Status State Variables
 
 Canonical runtime state may include:
 
@@ -1329,13 +1328,13 @@ recovery_registry
 quarantine_registry
 ```
 
----
+______________________________________________________________________
 
-# 49. Status Transition Operator
+## 49. Status Transition Operator
 
 General operator:
 
-[
+\[
 TransitionStatus(
 Object,
 Dimension,
@@ -1343,7 +1342,7 @@ From,
 To,
 Evidence
 )
-]
+\]
 
 A transition must validate:
 
@@ -1357,13 +1356,13 @@ dependency conditions
 freshness
 ```
 
----
+______________________________________________________________________
 
-# 50. Promotion Operator
+## 50. Promotion Operator
 
-[
+\[
 Promote(x,s_i,s_j)
-]
+\]
 
 Promotion requires positive evidence that satisfies the target state's requirements.
 
@@ -1375,13 +1374,13 @@ NO FAILURE OBSERVED
 PASS
 ```
 
----
+______________________________________________________________________
 
-# 51. Downgrade Operator
+## 51. Downgrade Operator
 
-[
+\[
 Downgrade(x,s_i,s_j,reason)
-]
+\]
 
 Downgrades may occur because of:
 
@@ -1396,23 +1395,23 @@ implementation drift
 provenance failure
 ```
 
----
+______________________________________________________________________
 
-# 52. Invalidate Operator
+## 52. Invalidate Operator
 
-[
+\[
 Invalidate(x, premise)
-]
+\]
 
 must invalidate only claims dependent on the failed premise.
 
----
+______________________________________________________________________
 
-# 53. Quarantine Operator
+## 53. Quarantine Operator
 
-[
+\[
 Quarantine(x, reason)
-]
+\]
 
 isolates an object without deleting its provenance or history.
 
@@ -1426,13 +1425,13 @@ implementation unsafe
 validation contradictory
 ```
 
----
+______________________________________________________________________
 
-# 54. Recover Operator
+## 54. Recover Operator
 
-[
+\[
 Recover(x, valid_state)
-]
+\]
 
 requires:
 
@@ -1444,30 +1443,28 @@ required tests
 status recomputation
 ```
 
----
+______________________________________________________________________
 
-# 55. Commit Eligibility Operator
+## 55. Commit Eligibility Operator
 
 Conceptually:
 
-[
-Eligible_{commit}
-=================
+## \[ Eligible\_{commit}
 
 Implementation
-\land Validation
-\land Authority
-\land ConstraintFreshness
-\land DependencyValidity
-]
+\\land Validation
+\\land Authority
+\\land ConstraintFreshness
+\\land DependencyValidity
+\]
 
 Exact requirements depend on effect type.
 
 A Matrix cell being `ACTIVE` alone cannot satisfy commit eligibility.
 
----
+______________________________________________________________________
 
-# 56. Status Invariants
+## 56. Status Invariants
 
 ```text
 INV_STATUS_001
@@ -1531,9 +1528,9 @@ INV_STATUS_020
 ACTIVE_IS_NOT AUTHORIZED
 ```
 
----
+______________________________________________________________________
 
-# 57. Invalid Status Compressions
+## 57. Invalid Status Compressions
 
 Avoid:
 
@@ -1544,19 +1541,22 @@ status: DONE
 ```yaml
 status: GOOD
 ```
+
 ```yaml
 status: COMPLETE
 ```
+
 ```yaml
 status: WORKING
 ```
+
 unless the field has an explicitly narrow definition.
 
 These labels compress too many dimensions.
 
----
+______________________________________________________________________
 
-# 58. Allowed Human Summary
+## 58. Allowed Human Summary
 
 A UI may display:
 
@@ -1570,9 +1570,9 @@ But the underlying machine state must retain the complete status vector.
 
 Human compression must not destroy recoverable state.
 
----
+______________________________________________________________________
 
-# 59. H/M/L Applicability
+## 59. H/M/L Applicability
 
 Status operates recursively.
 
@@ -1615,9 +1615,9 @@ individual evidence objects
 runtime actions
 ```
 
----
+______________________________________________________________________
 
-# 60. Cross-Scale Status Firewall
+## 60. Cross-Scale Status Firewall
 
 A low-level success does not automatically promote high-level status.
 
@@ -1635,26 +1635,24 @@ H STRUCTURAL COMPLETENESS
 L IMPLEMENTATION COMPLETENESS
 ```
 
----
+______________________________________________________________________
 
-# 61. Bottom-Up Promotion
+## 61. Bottom-Up Promotion
 
 High-level status may be promoted only when required lower-level dependencies satisfy declared aggregation rules.
 
 Conceptually:
 
-[
-S_H
-===
+## \[ S_H
 
-Aggregate(S_{L_1},...,S_{L_n})
-]
+Aggregate(S\_{L_1},...,S\_{L_n})
+\]
 
 where the aggregation function must be explicit.
 
----
+______________________________________________________________________
 
-# 62. Top-Down Constraint
+## 62. Top-Down Constraint
 
 A high-level governance state may constrain lower-level execution.
 
@@ -1673,9 +1671,9 @@ L action execution
 
 even if the local component is technically ready.
 
----
+______________________________________________________________________
 
-# 63. Control-Plane Requirements
+## 63. Control-Plane Requirements
 
 Status transitions interact with Matrix control planes.
 
@@ -1753,9 +1751,9 @@ Reports actual runtime outcomes.
 
 Enforces applicable low-level invariants where implementation exists.
 
----
+______________________________________________________________________
 
-# 64. Infrastructure Control-Plane Boundary
+## 64. Infrastructure Control-Plane Boundary
 
 Matrix status governance must not be confused with the authoritative AMOS infrastructure/control plane.
 
@@ -1777,9 +1775,9 @@ INFRASTRUCTURE COMMIT AUTHORITY
 
 unless explicitly bound.
 
----
+______________________________________________________________________
 
-# 65. Agent Roles
+## 65. Agent Roles
 
 Status-relevant agents may include:
 
@@ -1797,9 +1795,9 @@ GOVERNANCE AGENT
 
 Roles do not imply runtime existence.
 
----
+______________________________________________________________________
 
-# 66. Agent Status Responsibilities
+## 66. Agent Status Responsibilities
 
 ### Planner
 
@@ -1831,9 +1829,9 @@ May evaluate governance conditions.
 
 None receives authority merely from role naming.
 
----
+______________________________________________________________________
 
-# 67. Relevant Skill Classes
+## 67. Relevant Skill Classes
 
 Relevant AMOS Skill classes include:
 
@@ -1865,9 +1863,9 @@ infrastructure control-plane governance
 
 Skill presence means capability availability only when actually installed and executable.
 
----
+______________________________________________________________________
 
-# 68. Workflow — Status Assessment
+## 68. Workflow — Status Assessment
 
 ```text
 resolve object
@@ -1895,9 +1893,9 @@ record uncertainty
 emit status vector
 ```
 
----
+______________________________________________________________________
 
-# 69. Workflow — Promotion
+## 69. Workflow — Promotion
 
 ```text
 promotion requested
@@ -1923,9 +1921,9 @@ or
 QUARANTINE
 ```
 
----
+______________________________________________________________________
 
-# 70. Workflow — Failure
+## 70. Workflow — Failure
 
 ```text
 failure observed
@@ -1949,9 +1947,9 @@ create repair target
 revalidate
 ```
 
----
+______________________________________________________________________
 
-# 71. Workflow — Gap Closure
+## 71. Workflow — Gap Closure
 
 ```text
 DETECTED
@@ -1973,9 +1971,9 @@ CLOSED_FOR_SCOPE
 
 Skipping stages requires explicit justification.
 
----
+______________________________________________________________________
 
-# 72. Gap Closure Firewall
+## 72. Gap Closure Firewall
 
 ```text
 DESIGNED
@@ -1993,9 +1991,9 @@ CLOSED_FOR_SCOPE
 
 Closure additionally requires satisfaction of the original gap criterion.
 
----
+______________________________________________________________________
 
-# 73. Workflow — Reopening
+## 73. Workflow — Reopening
 
 A closed gap must become:
 
@@ -2019,9 +2017,9 @@ implementation regresses
 validation becomes stale
 ```
 
----
+______________________________________________________________________
 
-# 74. Status Protocol
+## 74. Status Protocol
 
 Inter-component status exchange should include:
 
@@ -2051,9 +2049,9 @@ StatusMessage:
   timestamp:
 ```
 
----
+______________________________________________________________________
 
-# 75. Promotion Protocol
+## 75. Promotion Protocol
 
 ```yaml
 PromotionRequest:
@@ -2073,9 +2071,9 @@ PromotionRequest:
   authority_requirement:
 ```
 
----
+______________________________________________________________________
 
-# 76. Promotion Result
+## 76. Promotion Result
 
 ```yaml
 PromotionResult:
@@ -2095,9 +2093,9 @@ PromotionResult:
   confidence_ceiling:
 ```
 
----
+______________________________________________________________________
 
-# 77. Evidence / Provenance Requirements
+## 77. Evidence / Provenance Requirements
 
 Every consequential status transition should preserve:
 
@@ -2116,9 +2114,9 @@ dependency state
 authority if applicable
 ```
 
----
+______________________________________________________________________
 
-# 78. Status History
+## 78. Status History
 
 Status should be event-sourced conceptually:
 
@@ -2132,9 +2130,9 @@ STATE_2
 
 The current state must not erase prior state transitions.
 
----
+______________________________________________________________________
 
-# 79. State History Example
+## 79. State History Example
 
 ```yaml
 status_history:
@@ -2152,9 +2150,9 @@ status_history:
     evidence: EVID_TEST_003
 ```
 
----
+______________________________________________________________________
 
-# 80. Failure Modes
+## 80. Failure Modes
 
 Canonical status failure modes include:
 
@@ -2204,9 +2202,9 @@ FAIL_ACTIVE_AS_AUTHORIZED
 FAIL_IMPLEMENTED_AS_OPERATIONAL
 ```
 
----
+______________________________________________________________________
 
-# 81. Failure — Status Collapse
+## 81. Failure — Status Collapse
 
 Example:
 
@@ -2231,9 +2229,9 @@ decompress status
 → re-evaluate each independently
 ```
 
----
+______________________________________________________________________
 
-# 82. Failure — False Promotion
+## 82. Failure — False Promotion
 
 A component is promoted because:
 
@@ -2252,9 +2250,9 @@ rollback promotion
 → revalidate
 ```
 
----
+______________________________________________________________________
 
-# 83. Failure — Scope Leakage
+## 83. Failure — Scope Leakage
 
 Example:
 
@@ -2275,9 +2273,9 @@ restore applicability envelope
 → downgrade external claims
 ```
 
----
+______________________________________________________________________
 
-# 84. Failure — Provenance Inflation
+## 84. Failure — Provenance Inflation
 
 Five summaries of one source are counted as five confirmations.
 
@@ -2289,9 +2287,9 @@ resolve ancestry
 → recompute confidence ceiling
 ```
 
----
+______________________________________________________________________
 
-# 85. Failure — Premature Gap Closure
+## 85. Failure — Premature Gap Closure
 
 Gap marked closed when implementation exists but validation has not passed.
 
@@ -2303,9 +2301,9 @@ CLOSED
 → VALIDATING
 ```
 
----
+______________________________________________________________________
 
-# 86. Repair Principles
+## 86. Repair Principles
 
 Status repair follows:
 
@@ -2331,9 +2329,9 @@ VALID
 UNRELATED STATE
 ```
 
----
+______________________________________________________________________
 
-# 87. Recovery Principles
+## 87. Recovery Principles
 
 Recovery must return to the nearest justified state.
 
@@ -2353,9 +2351,9 @@ VALIDATED_FOR_SCOPE
 
 The required validation must run again.
 
----
+______________________________________________________________________
 
-# 88. Rollback
+## 88. Rollback
 
 Rollback means restoring a prior operational or implementation state.
 
@@ -2369,9 +2367,9 @@ reason
 dependency effects
 ```
 
----
+______________________________________________________________________
 
-# 89. Quarantine
+## 89. Quarantine
 
 Quarantine is appropriate when integrity cannot currently be established.
 
@@ -2388,9 +2386,9 @@ DO NOT PROMOTE OR RELY ON
 UNTIL REQUIRED UNCERTAINTY IS RESOLVED
 ```
 
----
+______________________________________________________________________
 
-# 90. Required Validators
+## 90. Required Validators
 
 ```text
 VALIDATOR_STATUS_SCHEMA
@@ -2422,9 +2420,9 @@ VALIDATOR_GAP_CLOSURE
 VALIDATOR_ROLLBACK_LINEAGE
 ```
 
----
+______________________________________________________________________
 
-# 91. Minimum Tests
+## 91. Minimum Tests
 
 ```text
 TEST_STATUS_001
@@ -2473,9 +2471,9 @@ TEST_STATUS_015
 ACTIVE_DOES_NOT_IMPLY_AUTHORIZED
 ```
 
----
+______________________________________________________________________
 
-# 92. Transition Tests
+## 92. Transition Tests
 
 For every dimension:
 
@@ -2489,9 +2487,9 @@ rollback target
 
 must be machine-checkable where the implementation claims deterministic enforcement.
 
----
+______________________________________________________________________
 
-# 93. Illegal Transition Examples
+## 93. Illegal Transition Examples
 
 ```text
 PLACEHOLDER
@@ -2514,9 +2512,9 @@ UNKNOWN
 
 without new evidence is invalid.
 
----
+______________________________________________________________________
 
-# 94. Falsifiers
+## 94. Falsifiers
 
 This status contract is structurally falsified for its declared scope if:
 
@@ -2546,9 +2544,9 @@ conflicting evidence is silently collapsed
 gap closure cannot be reopened after falsification
 ```
 
----
+______________________________________________________________________
 
-# 95. Gap Status for This Contract
+## 95. Gap Status for This Contract
 
 ```yaml
 gap_status:
@@ -2568,9 +2566,9 @@ gap_status:
     - UI display mappings may be added independently
 ```
 
----
+______________________________________________________________________
 
-# 96. Dependency Registry
+## 96. Dependency Registry
 
 This contract depends structurally on:
 
@@ -2604,9 +2602,9 @@ VALIDATION
 
 It additionally depends conceptually on applicable AMOS infrastructure governance for authoritative external effects.
 
----
+______________________________________________________________________
 
-# 97. Dependency Graph
+## 97. Dependency Graph
 
 ```text
 SOURCE / CANON
@@ -2632,20 +2630,18 @@ GAP / REPAIR
 
 This is a structural dependency model, not necessarily runtime execution order.
 
----
+______________________________________________________________________
 
-# 98. Status Aggregation
+## 98. Status Aggregation
 
 Composite objects must define aggregation rules explicitly.
 
 For example:
 
-[
-S_{system}
-==========
+## \[ S\_{system}
 
-Aggregate(S_1,\ldots,S_n)
-]
+Aggregate(S_1,\\ldots,S_n)
+\]
 
 must specify whether aggregation is:
 
@@ -2665,25 +2661,25 @@ DOMAIN_SPECIFIC
 
 Never assume average status is meaningful.
 
----
+______________________________________________________________________
 
-# 99. Weakest-Link Rule
+## 99. Weakest-Link Rule
 
 For load-bearing prerequisites:
 
-[
-C_{conclusion}
-\le
-\min_i C_i
-]
+\[
+C\_{conclusion}
+\\le
+\\min_i C_i
+\]
 
 unless an independent validation path removes dependency on the weak premise.
 
 Likewise, an object cannot be promoted beyond a mandatory failed prerequisite.
 
----
+______________________________________________________________________
 
-# 100. Status and Confidence
+## 100. Status and Confidence
 
 Status and confidence are distinct.
 
@@ -2703,9 +2699,9 @@ validation_status: VALIDATED_FOR_SCOPE
 
 Confidence cannot replace validation evidence.
 
----
+______________________________________________________________________
 
-# 101. Confidence Ceiling
+## 101. Confidence Ceiling
 
 Status conclusions inherit a confidence ceiling from:
 
@@ -2721,10 +2717,10 @@ validation coverage
 
 Conceptually:
 
-[
-C_{status}
-\le
-\min(
+\[
+C\_{status}
+\\le
+\\min(
 C_E,
 C_P,
 C_S,
@@ -2732,15 +2728,15 @@ C_R,
 C_F,
 C_D
 )
-]
+\]
 
 where each component is explicitly scoped.
 
 This equation is an AMOS MODEL governance rule.
 
----
+______________________________________________________________________
 
-# 102. Uncertainty Vector
+## 102. Uncertainty Vector
 
 Recommended representation:
 
@@ -2759,9 +2755,9 @@ uncertainty:
 
 A single confidence score must not conceal materially different uncertainty classes.
 
----
+______________________________________________________________________
 
-# 103. Status and Causal Claims
+## 103. Status and Causal Claims
 
 Status does not establish causality.
 
@@ -2783,9 +2779,9 @@ without appropriate causal evidence.
 
 Status history preserves sequence, not causal proof.
 
----
+______________________________________________________________________
 
-# 104. Status and Benchmark Claims
+## 104. Status and Benchmark Claims
 
 ```text
 BENCHMARK_PASSED
@@ -2805,9 +2801,9 @@ raw evidence
 
 Benchmark success does not establish universal capability.
 
----
+______________________________________________________________________
 
-# 105. Status and Canon
+## 105. Status and Canon
 
 Canon status and empirical status must remain separate.
 
@@ -2821,9 +2817,9 @@ empirical_validation: UNKNOWN
 
 This is valid.
 
----
+______________________________________________________________________
 
-# 106. Status and Cognitive Claims
+## 106. Status and Cognitive Claims
 
 Corpus terms such as:
 
@@ -2838,9 +2834,9 @@ may identify AMOS architecture objects.
 
 Their architectural status must not be converted into empirical claims of biological equivalence or subjective consciousness.
 
----
+______________________________________________________________________
 
-# 107. Status and Matrix Coverage
+## 107. Status and Matrix Coverage
 
 Matrix coverage requires separate measures:
 
@@ -2868,38 +2864,32 @@ completion_percentage
 
 unless its formula is explicit.
 
----
+______________________________________________________________________
 
-# 108. Coverage Equations
+## 108. Coverage Equations
 
-For total addressable cells \(N\):
+For total addressable cells (N):
 
-[
-Coverage_{implemented}
-======================
+## \[ Coverage\_{implemented}
 
-\frac{N_{implemented}}{N}
-]
+\\frac{N\_{implemented}}{N}
+\]
 
-[
-Coverage_{validated}
-====================
+## \[ Coverage\_{validated}
 
-\frac{N_{validated}}{N}
-]
+\\frac{N\_{validated}}{N}
+\]
 
-[
-Coverage_{bound}
-================
+## \[ Coverage\_{bound}
 
-\frac{N_{bound}}{N}
-]
+\\frac{N\_{bound}}{N}
+\]
 
 These metrics answer different questions.
 
----
+______________________________________________________________________
 
-# 109. Coverage Boundary
+## 109. Coverage Boundary
 
 It is possible to have:
 
@@ -2913,9 +2903,9 @@ There is no contradiction.
 
 A fully generated Matrix is not automatically a fully implemented cognitive system.
 
----
+______________________________________________________________________
 
-# 110. Completion Semantics
+## 110. Completion Semantics
 
 `COMPLETE_FOR_SCOPE` may only be used when the relevant completion dimension is explicit.
 
@@ -2937,9 +2927,9 @@ Avoid bare:
 COMPLETE
 ```
 
----
+______________________________________________________________________
 
-# 111. Matrix Completion Rule
+## 111. Matrix Completion Rule
 
 The Matrix must never declare itself globally complete merely because all 13,770 coordinate identities exist.
 
@@ -2957,9 +2947,9 @@ and:
 13,770 VALIDATED CELLS
 ```
 
----
+______________________________________________________________________
 
-# 112. Status Serialization
+## 112. Status Serialization
 
 Recommended JSON/YAML representation:
 
@@ -3009,9 +2999,9 @@ status:
     value: MODEL
 ```
 
----
+______________________________________________________________________
 
-# 113. Status Metadata
+## 113. Status Metadata
 
 Each consequential dimension should support:
 
@@ -3026,9 +3016,9 @@ dependency_refs: []
 confidence_ceiling:
 ```
 
----
+______________________________________________________________________
 
-# 114. Status Change Event
+## 114. Status Change Event
 
 ```yaml
 StatusChangeEvent:
@@ -3060,9 +3050,9 @@ StatusChangeEvent:
   rollback_target:
 ```
 
----
+______________________________________________________________________
 
-# 115. Status Machine Requirements
+## 115. Status Machine Requirements
 
 If status transitions are executable, the state machine must:
 
@@ -3086,9 +3076,9 @@ support rollback
 fail closed on unknown required state
 ```
 
----
+______________________________________________________________________
 
-# 116. Status Read Semantics
+## 116. Status Read Semantics
 
 Status reads should identify whether the returned state is:
 
@@ -3106,9 +3096,9 @@ UNKNOWN
 
 A stale cached state must not masquerade as a fresh observation.
 
----
+______________________________________________________________________
 
-# 117. Status Write Semantics
+## 117. Status Write Semantics
 
 Status writes must distinguish:
 
@@ -3132,9 +3122,9 @@ validation_status = VALIDATED
 
 does not make it so.
 
----
+______________________________________________________________________
 
-# 118. Commit-Time Revalidation
+## 118. Commit-Time Revalidation
 
 Before durable status-changing effects:
 
@@ -3154,9 +3144,9 @@ commit or abort
 
 This mirrors the AMOS infrastructure principle that proposals and durable effects remain distinct.
 
----
+______________________________________________________________________
 
-# 119. Anti-Regression Rule
+## 119. Anti-Regression Rule
 
 An optimization to the status system is acceptable only if it preserves or improves:
 
@@ -3188,9 +3178,9 @@ Otherwise:
 ROLL BACK
 ```
 
----
+______________________________________________________________________
 
-# 120. RSCF Completion State
+## 120. RSCF Completion State
 
 ```yaml
 claim_class: AMOS_MODEL
@@ -3260,9 +3250,9 @@ confidence_ceiling:
   and executable enforcement evidence
 ```
 
----
+______________________________________________________________________
 
-# 121. Canonical Quick Legend
+## 121. Canonical Quick Legend
 
 ```text
 ┌───────────────────────────┬──────────────────────────────────────┐
@@ -3294,9 +3284,9 @@ confidence_ceiling:
 └───────────────────────────┴──────────────────────────────────────┘
 ```
 
----
+______________________________________________________________________
 
-# 122. Final Hard Boundaries
+## 122. Final Hard Boundaries
 
 ```text
 PLACEHOLDER != IMPLEMENTED
@@ -3344,9 +3334,9 @@ CONFIDENCE != EVIDENCE
 STATUS_LABEL != REALITY
 ```
 
----
+______________________________________________________________________
 
-# 123. Governing Contract
+## 123. Governing Contract
 
 Every Matrix object must be interpreted as a typed status vector rather than a binary completed/not-completed object.
 
@@ -3386,50 +3376,52 @@ Each transition requires the evidence appropriate to that state change.
 
 The central AMOS Matrix status invariant is therefore:
 
-[
-\boxed{
-STRUCTURAL\ EXISTENCE
-\neq
+\[
+\\boxed{
+STRUCTURAL\\ EXISTENCE
+\\neq
 IMPLEMENTATION
-\neq
+\\neq
 VALIDATION
-\neq
+\\neq
 AUTHORITY
-\neq
+\\neq
 COMMIT
 }
-]
+\]
 
 and the failure-safe rule is:
 
-[
-\boxed{
-UNKNOWN\ REQUIRED\ STATE
-\Rightarrow
-DO\ NOT\ PROMOTE
+\[
+\\boxed{
+UNKNOWN\\ REQUIRED\\ STATE
+\\Rightarrow
+DO\\ NOT\\ PROMOTE
 }
-]
+\]
 
 This makes `STATUS_LEGEND.md` the semantic firewall preventing the AMOS Cognitive Matrix from confusing architecture coverage with implemented, validated, governed capability.
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: status_legend
 node_type: note
 path: 25_COGNITIVE_MATRIX/00_INDEX/STATUS_LEGEND.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
 
 **MOC:** [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_HOME|00_HOME]]
-

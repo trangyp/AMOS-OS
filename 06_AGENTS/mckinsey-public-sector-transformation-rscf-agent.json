@@ -74,7 +74,7 @@
     "mckinsey-public-sector-transformation-rscf"
   ],
   "depends_on_workflows": [
-    "mckinsey-public-sector-transformation-rscf-workflow.md"
+    "amos-mckinsey-public-sector-transformation-rscf-workflow.md"
   ],
   "epistemic_class": "AMOS_MODEL",
   "claim_ceiling": 0.95,

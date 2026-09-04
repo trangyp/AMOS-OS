@@ -4,26 +4,23 @@ title: SKILL — Amos C03 Physics Cosmos Master
 type: skill
 source: 07_SKILLS/amos-c03-physics-cosmos-master
 name: amos-c03-physics-cosmos-master
-description: AMOS C03 Physics & Cosmos — quantum mechanics, cosmology, spacetime,
-  particle physics, and quantum analogies for reasoning. Quantum terms labeled AMOS_MODEL,
-  never physics claims. Use when physics r... Do not use for actual physics experiments,
-  engineering design, or tasks outside AMOS reasoning analogy scope.
+description: AMOS C03 Physics & Cosmos — quantum mechanics, cosmology, spacetime, particle physics, and quantum analogies for reasoning. Quantum terms labeled AMOS_MODEL, never physics claims. Use when physics r... Do not use for actual physics experiments, engineering design, or tasks outside AMOS reasoning analogy scope.
 parent_skill: none
 domain: c03
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CANON
 tags:
-- type/skill
-- type/skill
-- domain/physics-cosmos
-- epistemic/source_claim
-- hml/h
-- epistemic/source_canon
-- amos-os
-- agent-template
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/physics-cosmos
+  - epistemic/source_claim
+  - hml/h
+  - epistemic/source_canon
+  - amos-os
+  - agent-template
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -33,21 +30,21 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: H
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
-- L7_authority
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
+  - L7_authority
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L16
-- L17
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L16
+  - L17
 license: MIT
 steward: Trang Phan
 ---
@@ -57,6 +54,7 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: c03. Parent: none. Epistemic class: SOURCE_CANON. H/M/L: H.
+
 ## When to Use
 
 AMOS C03 Physics & Cosmos — quantum mechanics, cosmology, spacetime, particle physics, and quantum analogies for reasoning. Quantum terms labeled AMOS_MODEL, never physics claims. Use for physics r...
@@ -82,16 +80,16 @@ AMOS C03 Physics & Cosmos — quantum mechanics, cosmology, spacetime, particle 
 ## Operations
 
 1. **physics.apply_quantum_reasoning**: Apply AMOS C03 Physics & Cosmos quantum reasoning analogies: superposition, entanglement, collapse for cognitive problems.
-2. **physics.validate_physics**: Validate AMOS C03 Physics & Cosmos physics claims for epistemic class (AMOS_MODEL not physics claim), scope, and overclaim.
-3. **physics.analyze_cosmological**: Analyze AMOS C03 Physics & Cosmos cosmological patterns: spacetime, fields, particles for structural insights.
-4. **physics.trace_physics_provenance**: Trace AMOS C03 Physics & Cosmos physics findings to quantum analogies, cosmological models, and vault sources.
-5. **physics.assess_physics_claim**: Assess AMOS C03 Physics & Cosmos physics claims for reasoning analogy vs empirical claim, scope, and falsifier.
-6. **physics.manage_physics_lifecycle**: Manage AMOS C03 Physics & Cosmos physics lifecycle: model, analogize, validate, bridge, and finalize.
-7. **physics.detect_physics_drift**: Detect physics drift: analogy overclaim, scope creep, model-reality conflation, and confidence inflation.
-8. **physics.escalate_physics_gaps**: Escalate AMOS C03 Physics & Cosmos physics gaps: flag overclaim, require empirical evidence, trigger scope correction.
-9. **physics.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-10. **physics.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
-11. **physics.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+1. **physics.validate_physics**: Validate AMOS C03 Physics & Cosmos physics claims for epistemic class (AMOS_MODEL not physics claim), scope, and overclaim.
+1. **physics.analyze_cosmological**: Analyze AMOS C03 Physics & Cosmos cosmological patterns: spacetime, fields, particles for structural insights.
+1. **physics.trace_physics_provenance**: Trace AMOS C03 Physics & Cosmos physics findings to quantum analogies, cosmological models, and vault sources.
+1. **physics.assess_physics_claim**: Assess AMOS C03 Physics & Cosmos physics claims for reasoning analogy vs empirical claim, scope, and falsifier.
+1. **physics.manage_physics_lifecycle**: Manage AMOS C03 Physics & Cosmos physics lifecycle: model, analogize, validate, bridge, and finalize.
+1. **physics.detect_physics_drift**: Detect physics drift: analogy overclaim, scope creep, model-reality conflation, and confidence inflation.
+1. **physics.escalate_physics_gaps**: Escalate AMOS C03 Physics & Cosmos physics gaps: flag overclaim, require empirical evidence, trigger scope correction.
+1. **physics.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+1. **physics.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+1. **physics.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## Consolidated Sub-Skills (98)
 
@@ -132,27 +130,30 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 
 AMOS/Trang abstractions remain research models until precise mapping and independent validation. Structural resemblance does not establish causation or physical identity. AMOS physical proposals must test compatibility with established regimes (Lorentz invariance, conservation, unitarity, no-signaling, gauge consistency, thermodynamic constraints, QED/QCD/Standard Model precision, GR tests, cosmological observations). No symbol becomes physics merely by being mathematically named.
 
-
 > **Reference**: S
+
 - AGENT_TEMPLATE
 
----
+______________________________________________________________________
+
 **MOC:** [[07_SKILLS/amos-c03-physics-cosmos-master/amos-c03-physics-cosmos-master_MOC|amos-c03-physics-cosmos-master_MOC]]
 
 ## Examples
 
 - **Scenario**: When managing lifecycle operations across classify, validate, trace, assess, and detect
+
   - **Input**: A query matching this skill's domain (c03)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When detecting drift in evidence chains, provenance freshness, or confidence calibration
+
   - **Input**: A query matching this skill's domain (c03)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When validating outputs against domain constraints and epistemic class
+
   - **Input**: A query matching this skill's domain (c03)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Validation Gates
 
@@ -169,7 +170,6 @@ AMOS/Trang abstractions remain research models until precise mapping and indepen
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `none` — routes to this skill when c03 specialization is needed
@@ -177,7 +177,6 @@ AMOS/Trang abstractions remain research models until precise mapping and indepen
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -196,7 +195,6 @@ AMOS/Trang abstractions remain research models until precise mapping and indepen
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -204,7 +202,6 @@ AMOS/Trang abstractions remain research models until precise mapping and indepen
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -251,11 +248,12 @@ AMOS/Trang abstractions remain research models until precise mapping and indepen
 - `references/tech_quantum_engine.md` — loaded on demand
 - `references/u3h_atemporal_field.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `none` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `amos-c03-physics-cosmos-master-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -263,12 +261,14 @@ AMOS/Trang abstractions remain research models until precise mapping and indepen
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-c03-physics-cosmos-master
 node_type: skill
 path: 07_SKILLS/amos-c03-physics-cosmos-master/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: TENSOR CONTRACTS
 tags:
-- tensor
-- knowledge
-- vault
-- canon/knowledge
-- evidence-tensor
-- claim-tensor
-- governance-tensor
+  - tensor
+  - knowledge
+  - vault
+  - canon/knowledge
+  - evidence-tensor
+  - claim-tensor
+  - governance-tensor
 type: document
 source: 11_KNOWLEDGE/root
 rscf:
@@ -19,11 +22,11 @@ rscf:
 
 # TENSOR CONTRACTS
 
-> **Note**: Below is a source-preserving full vault expansion. I keep the supplied tensor signatures canonical; added tags, equations, contracts, tests, and machine representations are explicitly **derived augmen...
+> **Note**: Below is a source-preserving full vault expansion. I keep the supplied tensor signatures canonical; added tags, equations, contracts, tests, and machine representations are explicitly \*\*derived augmen...
 
-# Typed Tensor Contracts
+## Typed Tensor Contracts
 
-> [!abstract] Canonical Purpose
+> [!ABSTRACT] Canonical Purpose
 > `TENSOR_CONTRACTS.md` defines typed multidimensional contracts for reasoning, fractal structure, evidence, claims, governance, and memory within the supplied AMOS knowledge corpus.
 >
 > Its decisive invariant is:
@@ -32,30 +35,30 @@ rscf:
 >
 > This is an AMOS-model contract. The word **tensor** is preserved from the source and does not, by itself, imply a conventional numerical tensor in multilinear algebra or a specific machine-learning tensor implementation.
 
----
+______________________________________________________________________
 
-# 0. Source Receipt
+## 0. Source Receipt
 
 ## Canonical Source Metadata
 
-| Field | Source Value |
-|---|---|
-| Title | `TENSOR CONTRACTS` |
-| Type | `document` |
-| Source | `11_KNOWLEDGE/root` |
-| RSCF State | `SOURCE_CLAIM` |
-| Frontmatter Claim Class | `SOURCE_CLAIM` |
-| Provenance | `AMOS_corpus` |
-| Scope | `AMOS_knowledge` |
-| Node ID | `tensor_contracts` |
-| Node Type | `note` |
-| Path | `11_KNOWLEDGE/TENSOR_CONTRACTS.md` |
-| RSCF Node Claim Class | `AMOS_MODEL` |
-| MOC | `` |
+| Field                   | Source Value                       |
+| ----------------------- | ---------------------------------- |
+| Title                   | `TENSOR CONTRACTS`                 |
+| Type                    | `document`                         |
+| Source                  | `11_KNOWLEDGE/root`                |
+| RSCF State              | `SOURCE_CLAIM`                     |
+| Frontmatter Claim Class | `SOURCE_CLAIM`                     |
+| Provenance              | `AMOS_corpus`                      |
+| Scope                   | `AMOS_knowledge`                   |
+| Node ID                 | `tensor_contracts`                 |
+| Node Type               | `note`                             |
+| Path                    | `11_KNOWLEDGE/TENSOR_CONTRACTS.md` |
+| RSCF Node Claim Class   | `AMOS_MODEL`                       |
+| MOC                     | \`\`                               |
 
 The source contains two different claim-class declarations:
 
-```yaml
+````yaml
 frontmatter:
   rscf:
     claim_class: SOURCE_CLAIM
@@ -74,7 +77,7 @@ Whether this dual typing is intentional requires broader schema canon if exact p
 
 ---
 
-# 1. Source-Defined Tensor Family
+## 1. Source-Defined Tensor Family
 
 The source defines six typed structures:
 
@@ -101,7 +104,7 @@ This family notation is a **DERIVED structural compression** of the six source d
 
 ---
 
-# 2. Universal Reasoning Tensor
+## 2. Universal Reasoning Tensor
 
 ## Source Contract
 
@@ -119,7 +122,7 @@ T_R = T[
   consequence,
   governance
 ]
-```
+````
 
 Canonical normalized notation:
 
@@ -145,31 +148,31 @@ $$
 
 It contains **11 explicitly declared axes**.
 
----
+______________________________________________________________________
 
-# 3. Universal Reasoning Tensor — Axis Contract
+## 3. Universal Reasoning Tensor — Axis Contract
 
-|  # | Axis             | Source Presence | Conservative Semantic Role               |
-| -: | ---------------- | --------------- | ---------------------------------------- |
-|  1 | `claim`          | explicit        | proposition/content being reasoned about |
-|  2 | `evidence_class` | explicit        | evidence typing/classification           |
-|  3 | `domain`         | explicit        | applicability/knowledge domain           |
-|  4 | `HML_scale`      | explicit        | H/M/L scale coordinate                   |
-|  5 | `time`           | explicit        | temporal coordinate                      |
-|  6 | `regime`         | explicit        | operating/epistemic regime               |
-|  7 | `observer`       | explicit        | observer/context coordinate              |
-|  8 | `provenance`     | explicit        | source/lineage coordinate                |
-|  9 | `confidence`     | explicit        | confidence coordinate                    |
-| 10 | `consequence`    | explicit        | consequence/stakes coordinate            |
-| 11 | `governance`     | explicit        | governance coordinate                    |
+|   # | Axis             | Source Presence | Conservative Semantic Role               |
+| --: | ---------------- | --------------- | ---------------------------------------- |
+|   1 | `claim`          | explicit        | proposition/content being reasoned about |
+|   2 | `evidence_class` | explicit        | evidence typing/classification           |
+|   3 | `domain`         | explicit        | applicability/knowledge domain           |
+|   4 | `HML_scale`      | explicit        | H/M/L scale coordinate                   |
+|   5 | `time`           | explicit        | temporal coordinate                      |
+|   6 | `regime`         | explicit        | operating/epistemic regime               |
+|   7 | `observer`       | explicit        | observer/context coordinate              |
+|   8 | `provenance`     | explicit        | source/lineage coordinate                |
+|   9 | `confidence`     | explicit        | confidence coordinate                    |
+|  10 | `consequence`    | explicit        | consequence/stakes coordinate            |
+|  11 | `governance`     | explicit        | governance coordinate                    |
 
 The source names these axes but does not provide full type definitions, enumerations, serialization formats, or validation functions for them.
 
 Therefore axis names are canonical; detailed schemas remain external dependencies.
 
----
+______________________________________________________________________
 
-# 4. Reasoning Tensor Structural Role
+## 4. Reasoning Tensor Structural Role
 
 A conservative structural reading is:
 
@@ -199,11 +202,11 @@ Classification:
 
 `DERIVED_FROM_SOURCE_STRUCTURE`.
 
----
+______________________________________________________________________
 
-# 5. Claim Is Not Context-Free
+## 5. Claim Is Not Context-Free
 
-Within \(T_R\), the `claim` coordinate coexists with:
+Within (T_R), the `claim` coordinate coexists with:
 
 $$
 domain,\ time,\ regime,\ observer,\ provenance.
@@ -215,9 +218,9 @@ Therefore a source-consistent inference is:
 
 This does not mean the source defines an exact function connecting every axis.
 
----
+______________________________________________________________________
 
-# 6. HML Scale
+## 6. HML Scale
 
 The source explicitly names:
 
@@ -255,9 +258,9 @@ must be semantically validated before tensor composition.
 
 The shared label alone is insufficient.
 
----
+______________________________________________________________________
 
-# 7. Fractal Tensor
+## 7. Fractal Tensor
 
 ## Source Contract
 
@@ -303,28 +306,28 @@ $$
 
 The source declares **12 axes**.
 
----
+______________________________________________________________________
 
-# 8. Fractal Tensor — Axis Contract
+## 8. Fractal Tensor — Axis Contract
 
-|  # | Axis               | Conservative Role                     |
-| -: | ------------------ | ------------------------------------- |
-|  1 | `object`           | represented object                    |
-|  2 | `HML_scale`        | hierarchical/fractal scale coordinate |
-|  3 | `recursion_depth`  | recursive depth coordinate            |
-|  4 | `pattern_class`    | structural pattern classification     |
-|  5 | `boundary`         | applicability/object boundary         |
-|  6 | `entropy_proxy`    | source-named entropy proxy            |
-|  7 | `lacunarity_proxy` | source-named lacunarity proxy         |
-|  8 | `mutation_state`   | mutation state                        |
-|  9 | `selection_state`  | selection state                       |
-| 10 | `time`             | temporal coordinate                   |
-| 11 | `regime`           | regime coordinate                     |
-| 12 | `provenance`       | provenance coordinate                 |
+|   # | Axis               | Conservative Role                     |
+| --: | ------------------ | ------------------------------------- |
+|   1 | `object`           | represented object                    |
+|   2 | `HML_scale`        | hierarchical/fractal scale coordinate |
+|   3 | `recursion_depth`  | recursive depth coordinate            |
+|   4 | `pattern_class`    | structural pattern classification     |
+|   5 | `boundary`         | applicability/object boundary         |
+|   6 | `entropy_proxy`    | source-named entropy proxy            |
+|   7 | `lacunarity_proxy` | source-named lacunarity proxy         |
+|   8 | `mutation_state`   | mutation state                        |
+|   9 | `selection_state`  | selection state                       |
+|  10 | `time`             | temporal coordinate                   |
+|  11 | `regime`           | regime coordinate                     |
+|  12 | `provenance`       | provenance coordinate                 |
 
----
+______________________________________________________________________
 
-# 9. Proxy Firewall
+## 9. Proxy Firewall
 
 The source deliberately uses:
 
@@ -360,21 +363,21 @@ $$
 
 No formula for either proxy is supplied.
 
----
+______________________________________________________________________
 
-# 10. Recursion Depth
+## 10. Recursion Depth
 
-`recursion_depth` is explicitly present in \(T_F\).
+`recursion_depth` is explicitly present in (T_F).
 
 The source does not define:
 
-* minimum depth;
-* maximum depth;
-* integer requirement;
-* stopping criterion;
-* depth reset;
-* depth semantics across H/M/L;
-* whether recursion depth is absolute or local.
+- minimum depth;
+- maximum depth;
+- integer requirement;
+- stopping criterion;
+- depth reset;
+- depth semantics across H/M/L;
+- whether recursion depth is absolute or local.
 
 Therefore:
 
@@ -386,9 +389,9 @@ recursion_depth:
   stopping_rule: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 11. Fractal Boundary
+## 11. Fractal Boundary
 
 The explicit `boundary` axis prevents a safe interpretation of the fractal tensor as unconstrained recursion.
 
@@ -409,9 +412,9 @@ $$
 
 The exact boundary representation remains unspecified.
 
----
+______________________________________________________________________
 
-# 12. Mutation and Selection
+## 12. Mutation and Selection
 
 The fractal tensor includes both:
 
@@ -427,16 +430,16 @@ $$
 
 Their coexistence structurally distinguishes:
 
-* variation/change state;
-* selection/filtering state.
+- variation/change state;
+- selection/filtering state.
 
 The source does not define the allowed values or transition equations.
 
 Therefore no evolutionary mechanism should be invented from these names alone.
 
----
+______________________________________________________________________
 
-# 13. Evidence Tensor
+## 13. Evidence Tensor
 
 ## Source Contract
 
@@ -482,28 +485,28 @@ $$
 
 The source declares **12 axes**.
 
----
+______________________________________________________________________
 
-# 14. Evidence Tensor — Axis Contract
+## 14. Evidence Tensor — Axis Contract
 
-|  # | Axis               | Conservative Role                             |
-| -: | ------------------ | --------------------------------------------- |
-|  1 | `evidence_id`      | evidence identity                             |
-|  2 | `source_id`        | source identity                               |
-|  3 | `source_type`      | source classification                         |
-|  4 | `ancestry`         | provenance ancestry/lineage                   |
-|  5 | `timestamp`        | temporal origin/record coordinate             |
-|  6 | `version`          | version coordinate                            |
-|  7 | `scope`            | applicability scope                           |
-|  8 | `regime`           | validity/operating regime                     |
-|  9 | `measurement`      | measurement/observation payload or descriptor |
-| 10 | `quality`          | evidence-quality coordinate                   |
-| 11 | `independence`     | provenance/evidential independence coordinate |
-| 12 | `revocation_state` | evidence validity/revocation state            |
+|   # | Axis               | Conservative Role                             |
+| --: | ------------------ | --------------------------------------------- |
+|   1 | `evidence_id`      | evidence identity                             |
+|   2 | `source_id`        | source identity                               |
+|   3 | `source_type`      | source classification                         |
+|   4 | `ancestry`         | provenance ancestry/lineage                   |
+|   5 | `timestamp`        | temporal origin/record coordinate             |
+|   6 | `version`          | version coordinate                            |
+|   7 | `scope`            | applicability scope                           |
+|   8 | `regime`           | validity/operating regime                     |
+|   9 | `measurement`      | measurement/observation payload or descriptor |
+|  10 | `quality`          | evidence-quality coordinate                   |
+|  11 | `independence`     | provenance/evidential independence coordinate |
+|  12 | `revocation_state` | evidence validity/revocation state            |
 
----
+______________________________________________________________________
 
-# 15. Evidence Identity Is Distinct from Source Identity
+## 15. Evidence Identity Is Distinct from Source Identity
 
 The source separately declares:
 
@@ -524,9 +527,9 @@ at the schema level.
 
 One source may potentially produce multiple evidence items, although multiplicity rules are not explicitly defined here.
 
----
+______________________________________________________________________
 
-# 16. Ancestry Is First-Class
+## 16. Ancestry Is First-Class
 
 The explicit:
 
@@ -552,26 +555,26 @@ Items sharing ancestry cannot automatically be assumed independent.
 
 That last statement is consistent with the presence of both `ancestry` and `independence`, but exact independence rules require additional canon.
 
----
+______________________________________________________________________
 
-# 17. Independence Is Explicitly Typed
+## 17. Independence Is Explicitly Typed
 
 The source gives `independence` its own evidence axis.
 
 Therefore independence should not be inferred merely from:
 
-* different filenames;
-* different URLs;
-* repeated statements;
-* different textual wording;
-* multiple descendants;
-* popularity.
+- different filenames;
+- different URLs;
+- repeated statements;
+- different textual wording;
+- multiple descendants;
+- popularity.
 
 The exact admissibility test for independence is not supplied in this artifact.
 
----
+______________________________________________________________________
 
-# 18. Revocation Is First-Class
+## 18. Revocation Is First-Class
 
 Evidence includes:
 
@@ -591,9 +594,9 @@ $$
 
 No revocation-state enumeration is supplied.
 
----
+______________________________________________________________________
 
-# 19. Evidence Versioning
+## 19. Evidence Versioning
 
 The coexistence of:
 
@@ -617,9 +620,9 @@ by schema identity.
 
 A newer timestamp does not automatically imply a newer semantic version unless defined elsewhere.
 
----
+______________________________________________________________________
 
-# 20. Claim Tensor
+## 20. Claim Tensor
 
 ## Source Contract
 
@@ -665,28 +668,28 @@ $$
 
 The source declares **12 axes**.
 
----
+______________________________________________________________________
 
-# 21. Claim Tensor — Axis Contract
+## 21. Claim Tensor — Axis Contract
 
-|  # | Axis                 | Conservative Role                     |
-| -: | -------------------- | ------------------------------------- |
-|  1 | `claim_id`           | claim identity                        |
-|  2 | `text`               | claim expression                      |
-|  3 | `class`              | claim classification                  |
-|  4 | `premises`           | load-bearing premises                 |
-|  5 | `evidence_refs`      | evidence references                   |
-|  6 | `scope`              | applicability envelope                |
-|  7 | `regime`             | validity regime                       |
-|  8 | `freshness`          | temporal validity/freshness           |
-|  9 | `causal_level`       | causal typing level                   |
-| 10 | `competing_set`      | competing claims/hypotheses           |
-| 11 | `falsifiers`         | invalidation/falsification conditions |
-| 12 | `confidence_ceiling` | maximum permitted confidence          |
+|   # | Axis                 | Conservative Role                     |
+| --: | -------------------- | ------------------------------------- |
+|   1 | `claim_id`           | claim identity                        |
+|   2 | `text`               | claim expression                      |
+|   3 | `class`              | claim classification                  |
+|   4 | `premises`           | load-bearing premises                 |
+|   5 | `evidence_refs`      | evidence references                   |
+|   6 | `scope`              | applicability envelope                |
+|   7 | `regime`             | validity regime                       |
+|   8 | `freshness`          | temporal validity/freshness           |
+|   9 | `causal_level`       | causal typing level                   |
+|  10 | `competing_set`      | competing claims/hypotheses           |
+|  11 | `falsifiers`         | invalidation/falsification conditions |
+|  12 | `confidence_ceiling` | maximum permitted confidence          |
 
----
+______________________________________________________________________
 
-# 22. Claim Text Is Not the Claim Contract
+## 22. Claim Text Is Not the Claim Contract
 
 The source distinguishes:
 
@@ -722,9 +725,9 @@ ConfidenceCeiling
 ).
 $$
 
----
+______________________________________________________________________
 
-# 23. Premises Are First-Class
+## 23. Premises Are First-Class
 
 Because `premises` is explicit, a claim may carry dependency structure.
 
@@ -738,9 +741,9 @@ $$
 
 The source does not specify whether premises are IDs, nested claims, expressions, hashes, or another representation.
 
----
+______________________________________________________________________
 
-# 24. Evidence References Are Not Evidence
+## 24. Evidence References Are Not Evidence
 
 The claim tensor stores:
 
@@ -768,9 +771,9 @@ $$
 
 but the exact foreign-key contract is **DERIVED**, not explicitly stated.
 
----
+______________________________________________________________________
 
-# 25. Scope Is First-Class
+## 25. Scope Is First-Class
 
 The claim tensor explicitly contains:
 
@@ -796,16 +799,16 @@ $$
 
 unless compatibility/generalization is separately established.
 
----
+______________________________________________________________________
 
-# 26. Regime Is First-Class
+## 26. Regime Is First-Class
 
 `regime` occurs in:
 
-* \(T_R\)
-* \(T_F\)
-* \(T_E\)
-* \(T_C\)
+- (T_R)
+- (T_F)
+- (T_E)
+- (T_C)
 
 This repeated axis is important.
 
@@ -819,9 +822,9 @@ $$
 
 Each composition must establish semantic compatibility.
 
----
+______________________________________________________________________
 
-# 27. Freshness
+## 27. Freshness
 
 Claims explicitly carry:
 
@@ -849,9 +852,9 @@ But the source does not define the exact freshness function.
 
 Therefore this is a **DERIVED dependency candidate**.
 
----
+______________________________________________________________________
 
-# 28. Causal Level
+## 28. Causal Level
 
 The claim tensor includes:
 
@@ -865,9 +868,9 @@ A claim might concern association, mechanism, causal effect, or another level de
 
 The allowed `causal_level` enumeration is not supplied here.
 
----
+______________________________________________________________________
 
-# 29. Competing Set
+## 29. Competing Set
 
 The explicit:
 
@@ -889,9 +892,9 @@ $$
 
 The source does not define winner-selection rules.
 
----
+______________________________________________________________________
 
-# 30. Falsifiers
+## 30. Falsifiers
 
 The claim tensor explicitly stores:
 
@@ -911,9 +914,9 @@ $$
 
 Whether falsification always forces total rejection is not specified.
 
----
+______________________________________________________________________
 
-# 31. Confidence Ceiling
+## 31. Confidence Ceiling
 
 The claim tensor contains:
 
@@ -921,7 +924,7 @@ The claim tensor contains:
 confidence_ceiling
 ```
 
-This is structurally distinct from the `confidence` axis in \(T_R\).
+This is structurally distinct from the `confidence` axis in (T_R).
 
 Therefore:
 
@@ -943,9 +946,9 @@ $$
 
 but this inequality is a **DERIVED contract candidate** unless explicitly defined elsewhere.
 
----
+______________________________________________________________________
 
-# 32. Governance Tensor
+## 32. Governance Tensor
 
 ## Source Contract
 
@@ -985,25 +988,25 @@ $$
 
 The source declares **9 axes**.
 
----
+______________________________________________________________________
 
-# 33. Governance Tensor — Axis Contract
+## 33. Governance Tensor — Axis Contract
 
-|  # | Axis                 | Conservative Role                |
-| -: | -------------------- | -------------------------------- |
-|  1 | `action`             | proposed/executed action         |
-|  2 | `capability`         | capability required or exercised |
-|  3 | `authority`          | authorization coordinate         |
-|  4 | `consequence_radius` | scope/radius of consequences     |
-|  5 | `reversibility`      | ability to reverse/repair        |
-|  6 | `approval`           | approval state                   |
-|  7 | `rollback`           | rollback contract/state          |
-|  8 | `evidence_threshold` | evidence requirement             |
-|  9 | `mutation_class`     | mutation/change classification   |
+|   # | Axis                 | Conservative Role                |
+| --: | -------------------- | -------------------------------- |
+|   1 | `action`             | proposed/executed action         |
+|   2 | `capability`         | capability required or exercised |
+|   3 | `authority`          | authorization coordinate         |
+|   4 | `consequence_radius` | scope/radius of consequences     |
+|   5 | `reversibility`      | ability to reverse/repair        |
+|   6 | `approval`           | approval state                   |
+|   7 | `rollback`           | rollback contract/state          |
+|   8 | `evidence_threshold` | evidence requirement             |
+|   9 | `mutation_class`     | mutation/change classification   |
 
----
+______________________________________________________________________
 
-# 34. Capability Is Not Authority
+## 34. Capability Is Not Authority
 
 The tensor explicitly separates:
 
@@ -1026,9 +1029,9 @@ Classification:
 
 `DERIVED_FROM_AXIS_SEPARATION`.
 
----
+______________________________________________________________________
 
-# 35. Approval Is Distinct from Authority
+## 35. Approval Is Distinct from Authority
 
 Likewise:
 
@@ -1045,9 +1048,9 @@ A system may possess an authority classification while a particular action still
 
 The exact governance semantics remain external.
 
----
+______________________________________________________________________
 
-# 36. Consequence Radius
+## 36. Consequence Radius
 
 The explicit:
 
@@ -1063,9 +1066,9 @@ It may represent categorical, graph-based, quantitative, or other scope semantic
 
 Do not invent a numeric radius.
 
----
+______________________________________________________________________
 
-# 37. Reversibility
+## 37. Reversibility
 
 `reversibility` is explicitly represented.
 
@@ -1083,9 +1086,9 @@ are supplied here.
 
 Those would be proposed enums unless sourced elsewhere.
 
----
+______________________________________________________________________
 
-# 38. Rollback
+## 38. Rollback
 
 The tensor separately includes:
 
@@ -1105,9 +1108,9 @@ A reversible action may still require a specific rollback mechanism.
 
 Likewise, the existence of a rollback field does not prove a valid rollback procedure has been defined.
 
----
+______________________________________________________________________
 
-# 39. Evidence Threshold
+## 39. Evidence Threshold
 
 Governance contains:
 
@@ -1129,9 +1132,9 @@ $$
 
 The exact threshold comparison function is not supplied.
 
----
+______________________________________________________________________
 
-# 40. Mutation Class
+## 40. Mutation Class
 
 `mutation_class` is explicit in governance.
 
@@ -1149,9 +1152,9 @@ $$
 
 unless a mapping contract establishes compatibility.
 
----
+______________________________________________________________________
 
-# 41. Memory Tensor
+## 41. Memory Tensor
 
 ## Source Contract
 
@@ -1191,25 +1194,25 @@ $$
 
 The source declares **9 axes**.
 
----
+______________________________________________________________________
 
-# 42. Memory Tensor — Axis Contract
+## 42. Memory Tensor — Axis Contract
 
-|  # | Axis                  | Conservative Role       |
-| -: | --------------------- | ----------------------- |
-|  1 | `item_id`             | memory-item identity    |
-|  2 | `content_class`       | content classification  |
-|  3 | `state`               | memory state            |
-|  4 | `provenance`          | source/lineage          |
-|  5 | `dependencies`        | dependency structure    |
-|  6 | `freshness`           | temporal validity       |
-|  7 | `contradiction_state` | contradiction status    |
-|  8 | `retention_class`     | retention policy/class  |
-|  9 | `revalidation_epoch`  | revalidation coordinate |
+|   # | Axis                  | Conservative Role       |
+| --: | --------------------- | ----------------------- |
+|   1 | `item_id`             | memory-item identity    |
+|   2 | `content_class`       | content classification  |
+|   3 | `state`               | memory state            |
+|   4 | `provenance`          | source/lineage          |
+|   5 | `dependencies`        | dependency structure    |
+|   6 | `freshness`           | temporal validity       |
+|   7 | `contradiction_state` | contradiction status    |
+|   8 | `retention_class`     | retention policy/class  |
+|   9 | `revalidation_epoch`  | revalidation coordinate |
 
----
+______________________________________________________________________
 
-# 43. Memory Is Provenance-Aware
+## 43. Memory Is Provenance-Aware
 
 Because memory explicitly contains:
 
@@ -1227,9 +1230,9 @@ Stored(x)
 ProvenanceIrrelevant(x).
 $$
 
----
+______________________________________________________________________
 
-# 44. Memory Dependencies
+## 44. Memory Dependencies
 
 The `dependencies` axis allows memory objects to retain structural dependencies.
 
@@ -1244,9 +1247,9 @@ If A becomes invalid, B and C may require revalidation while E may remain unaffe
 
 The exact invalidation algorithm is not defined in this source.
 
----
+______________________________________________________________________
 
-# 45. Contradiction State
+## 45. Contradiction State
 
 The explicit:
 
@@ -1260,9 +1263,9 @@ This structurally supports unresolved contradictions.
 
 No contradiction-state enum is supplied.
 
----
+______________________________________________________________________
 
-# 46. Retention Class
+## 46. Retention Class
 
 `retention_class` is separate from:
 
@@ -1276,9 +1279,9 @@ Therefore retention should not be inferred solely from freshness.
 
 A stale item could theoretically remain retained for lineage or audit reasons, although the actual retention rules are not supplied here.
 
----
+______________________________________________________________________
 
-# 47. Revalidation Epoch
+## 47. Revalidation Epoch
 
 The memory tensor explicitly stores:
 
@@ -1298,18 +1301,18 @@ $$
 
 Their relationship requires additional contract definition.
 
----
+______________________________________________________________________
 
-# 48. Canonical Tensor Inventory
+## 48. Canonical Tensor Inventory
 
-| Tensor  | Name                       | Axes |
-| ------- | -------------------------- | ---: |
-| \(T_R\) | Universal Reasoning Tensor |   11 |
-| \(T_F\) | Fractal Tensor             |   12 |
-| \(T_E\) | Evidence Tensor            |   12 |
-| \(T_C\) | Claim Tensor               |   12 |
-| \(T_G\) | Governance Tensor          |    9 |
-| \(T_M\) | Memory Tensor              |    9 |
+| Tensor | Name                       | Axes |
+| ------ | -------------------------- | ---: |
+| (T_R)  | Universal Reasoning Tensor |   11 |
+| (T_F)  | Fractal Tensor             |   12 |
+| (T_E)  | Evidence Tensor            |   12 |
+| (T_C)  | Claim Tensor               |   12 |
+| (T_G)  | Governance Tensor          |    9 |
+| (T_M)  | Memory Tensor              |    9 |
 
 Total declared axis slots:
 
@@ -1321,9 +1324,9 @@ Therefore the source contains **65 axis occurrences** across six tensor contract
 
 This does not mean there are 65 unique semantic axes because several names recur.
 
----
+______________________________________________________________________
 
-# 49. Shared Axis Names
+## 49. Shared Axis Names
 
 The source contains several repeated labels.
 
@@ -1377,9 +1380,9 @@ $$
 
 These repetitions create candidate join surfaces, not automatic joins.
 
----
+______________________________________________________________________
 
-# 50. Central Compatibility Invariant
+## 50. Central Compatibility Invariant
 
 The source explicitly states:
 
@@ -1407,9 +1410,9 @@ $$
 
 This is a derived logical formalization of the source invariant.
 
----
+______________________________________________________________________
 
-# 51. Same-Name Invariant
+## 51. Same-Name Invariant
 
 The second source statement is:
 
@@ -1427,9 +1430,9 @@ $$
 
 This is the central anti-aliasing rule of the artifact.
 
----
+______________________________________________________________________
 
-# 52. Semantic Compatibility Before Composition
+## 52. Semantic Compatibility Before Composition
 
 For tensors:
 
@@ -1465,9 +1468,9 @@ Only then may composition proceed.
 
 This is a **DERIVED formal contract** faithful to the source invariant.
 
----
+______________________________________________________________________
 
-# 53. Name Equality Is Insufficient
+## 53. Name Equality Is Insufficient
 
 Invalid inference:
 
@@ -1497,9 +1500,9 @@ compatible? ── no ──► reject composition
 composition may proceed
 ```
 
----
+______________________________________________________________________
 
-# 54. Compatibility Is Not Identity
+## 54. Compatibility Is Not Identity
 
 Even if two axes are semantically compatible, they need not be identical.
 
@@ -1521,9 +1524,9 @@ They could be composable under a mapping without being representationally identi
 
 The source does not define such a mapping; this example illustrates the distinction only.
 
----
+______________________________________________________________________
 
-# 55. Candidate Compatibility Contract
+## 55. Candidate Compatibility Contract
 
 A conservative derived contract is:
 
@@ -1541,9 +1544,9 @@ axis_compatibility:
 
 These criteria are derived implementation guidance, not source-verbatim fields.
 
----
+______________________________________________________________________
 
-# 56. Composition Fail-Closed Rule
+## 56. Composition Fail-Closed Rule
 
 Because composition is **prohibited** until compatibility is established, the natural default state is:
 
@@ -1563,9 +1566,9 @@ It says composition is prohibited **until** compatibility exists.
 
 Therefore the compatibility gate is fail-closed.
 
----
+______________________________________________________________________
 
-# 57. Compatibility State Model
+## 57. Compatibility State Model
 
 A useful derived state model is:
 
@@ -1585,29 +1588,29 @@ COMPOSITION   COMPOSITION
 
 An optional `UNKNOWN` state can remain non-composable.
 
----
+______________________________________________________________________
 
-# 58. No Implicit Axis Coercion
+## 58. No Implicit Axis Coercion
 
 The compatibility invariant implies that silent coercion is unsafe.
 
 Do not automatically convert:
 
-* `time` to `timestamp`;
-* `provenance` to `source_id`;
-* `freshness` to `timestamp`;
-* `confidence` to `confidence_ceiling`;
-* `mutation_state` to `mutation_class`;
-* `scope` to `domain`;
-* `observer` to `source_id`.
+- `time` to `timestamp`;
+- `provenance` to `source_id`;
+- `freshness` to `timestamp`;
+- `confidence` to `confidence_ceiling`;
+- `mutation_state` to `mutation_class`;
+- `scope` to `domain`;
+- `observer` to `source_id`.
 
 Each requires an explicit semantic mapping.
 
----
+______________________________________________________________________
 
-# 59. Reasoning ↔ Claim Candidate Composition
+## 59. Reasoning ↔ Claim Candidate Composition
 
-\(T_R\) contains:
+(T_R) contains:
 
 ```text
 claim
@@ -1616,7 +1619,7 @@ regime
 provenance
 ```
 
-while \(T_C\) contains:
+while (T_C) contains:
 
 ```text
 claim_id
@@ -1638,11 +1641,11 @@ $$
 
 is not automatically legal.
 
----
+______________________________________________________________________
 
-# 60. Claim ↔ Evidence Candidate Composition
+## 60. Claim ↔ Evidence Candidate Composition
 
-\(T_C\) contains:
+(T_C) contains:
 
 ```text
 evidence_refs
@@ -1650,7 +1653,7 @@ scope
 regime
 ```
 
-and \(T_E\) contains:
+and (T_E) contains:
 
 ```text
 evidence_id
@@ -1673,9 +1676,9 @@ But because the source does not explicitly state the foreign-key relation, class
 
 Shared `scope` and `regime` still require semantic compatibility.
 
----
+______________________________________________________________________
 
-# 61. Claim ↔ Memory Candidate Composition
+## 61. Claim ↔ Memory Candidate Composition
 
 Shared label:
 
@@ -1704,9 +1707,9 @@ $$
 
 unless an explicit mapping exists.
 
----
+______________________________________________________________________
 
-# 62. Evidence ↔ Memory Candidate Composition
+## 62. Evidence ↔ Memory Candidate Composition
 
 Evidence has:
 
@@ -1730,18 +1733,18 @@ These structures are strongly related conceptually, but there are no same-name j
 
 Composition therefore requires explicit bindings.
 
----
+______________________________________________________________________
 
-# 63. Reasoning ↔ Governance Candidate Composition
+## 63. Reasoning ↔ Governance Candidate Composition
 
-\(T_R\) contains:
+(T_R) contains:
 
 ```text
 consequence
 governance
 ```
 
-while \(T_G\) contains:
+while (T_G) contains:
 
 ```text
 consequence_radius
@@ -1771,9 +1774,9 @@ without a contract.
 
 The names indicate structural proximity, not identity.
 
----
+______________________________________________________________________
 
-# 64. Fractal ↔ Governance Candidate Composition
+## 64. Fractal ↔ Governance Candidate Composition
 
 Potentially related axes:
 
@@ -1788,11 +1791,11 @@ A safe state is:
 
 `CANDIDATE_MAPPING / UNRESOLVED`.
 
----
+______________________________________________________________________
 
-# 65. Universal Reasoning Tensor as Integration Surface
+## 65. Universal Reasoning Tensor as Integration Surface
 
-Because \(T_R\) references broad reasoning dimensions, it may function as an integration surface across specialized tensors.
+Because (T_R) references broad reasoning dimensions, it may function as an integration surface across specialized tensors.
 
 However, the source does not explicitly call it a parent tensor, master tensor, or supertensor.
 
@@ -1805,9 +1808,9 @@ T_R_role:
   integration_surface: DERIVED_PLAUSIBLE
 ```
 
----
+______________________________________________________________________
 
-# 66. Tensor ≠ Numerical Array
+## 66. Tensor ≠ Numerical Array
 
 Critical terminology firewall:
 
@@ -1821,15 +1824,15 @@ This establishes a typed multidimensional contract.
 
 It does not supply:
 
-* tensor rank in the multilinear-algebra sense;
-* numeric shape;
-* numeric dtype;
-* vector space;
-* basis;
-* tensor product operation;
-* contraction operator;
-* gradient semantics;
-* GPU representation.
+- tensor rank in the multilinear-algebra sense;
+- numeric shape;
+- numeric dtype;
+- vector space;
+- basis;
+- tensor product operation;
+- contraction operator;
+- gradient semantics;
+- GPU representation.
 
 Therefore:
 
@@ -1840,23 +1843,23 @@ necessarily
 NumericalTensor.
 $$
 
----
+______________________________________________________________________
 
-# 67. Tensor ≠ Machine-Learning Tensor
+## 67. Tensor ≠ Machine-Learning Tensor
 
 Nothing in the source establishes direct identity with:
 
-* PyTorch tensors;
-* TensorFlow tensors;
-* NumPy ndarrays;
-* JAX arrays;
-* embedding matrices.
+- PyTorch tensors;
+- TensorFlow tensors;
+- NumPy ndarrays;
+- JAX arrays;
+- embedding matrices.
 
 Any implementation mapping would require a separate executable contract.
 
----
+______________________________________________________________________
 
-# 68. Tensor Composition ≠ Tensor Product
+## 68. Tensor Composition ≠ Tensor Product
 
 The source says:
 
@@ -1879,9 +1882,9 @@ $$
 
 Do not substitute conventional tensor algebra without source support.
 
----
+______________________________________________________________________
 
-# 69. Typed Record Interpretation
+## 69. Typed Record Interpretation
 
 At the visible source level, each tensor can conservatively be treated as a typed coordinate contract:
 
@@ -1897,9 +1900,9 @@ Classification:
 
 `MODEL INTERPRETATION`.
 
----
+______________________________________________________________________
 
-# 70. Axis Identity Contract
+## 70. Axis Identity Contract
 
 A robust derived axis identity can be represented as:
 
@@ -1916,9 +1919,9 @@ axis:
 
 Two axes with `name: regime` should not compose until the semantic contract matches or an explicit mapping exists.
 
----
+______________________________________________________________________
 
-# 71. Strong Semantic Axis Identity
+## 71. Strong Semantic Axis Identity
 
 A derived stronger identity key could be:
 
@@ -1940,9 +1943,9 @@ This is not source-verbatim.
 
 It is an implementation-safe augmentation of the source compatibility invariant.
 
----
+______________________________________________________________________
 
-# 72. Compatibility Proof Capsule
+## 72. Compatibility Proof Capsule
 
 For any proposed tensor composition:
 
@@ -1975,9 +1978,9 @@ COMPATIBILITY_PROOF:
 
 This is derived implementation guidance.
 
----
+______________________________________________________________________
 
-# 73. Evidence-to-Claim Proof Path
+## 73. Evidence-to-Claim Proof Path
 
 A conservative candidate reasoning path is:
 
@@ -1998,9 +2001,9 @@ Reasoning Tensor
 
 Every edge remains subject to semantic compatibility.
 
----
+______________________________________________________________________
 
-# 74. Claim-to-Governance Path
+## 74. Claim-to-Governance Path
 
 A candidate architecture is:
 
@@ -2020,16 +2023,16 @@ This is a derived architecture, not a source-declared execution sequence.
 
 The source only establishes the component tensor contracts.
 
----
+______________________________________________________________________
 
-# 75. Memory Feedback Path
+## 75. Memory Feedback Path
 
 The presence of:
 
-* evidence provenance;
-* claim premises;
-* memory dependencies;
-* revalidation epochs;
+- evidence provenance;
+- claim premises;
+- memory dependencies;
+- revalidation epochs;
 
 supports a possible feedback topology:
 
@@ -2049,9 +2052,9 @@ Memory
 
 Again, this topology is derived.
 
----
+______________________________________________________________________
 
-# 76. Provenance Topology
+## 76. Provenance Topology
 
 Provenance-related coordinates occur in multiple tensors:
 
@@ -2077,9 +2080,9 @@ $$
 
 by name alone, despite shared labels.
 
----
+______________________________________________________________________
 
-# 77. Evidence Independence and Ancestry
+## 77. Evidence Independence and Ancestry
 
 The evidence tensor's simultaneous presence of:
 
@@ -2090,9 +2093,9 @@ independence
 
 allows the contract to represent a distinction between:
 
-* source multiplicity;
-* lineage multiplicity;
-* genuine independence.
+- source multiplicity;
+- lineage multiplicity;
+- genuine independence.
 
 A candidate invariant is:
 
@@ -2104,9 +2107,9 @@ $$
 
 This is **DERIVED**, not a supplied equation.
 
----
+______________________________________________________________________
 
-# 78. Sybil-Hardening Relevance
+## 78. Sybil-Hardening Relevance
 
 Because evidence identity, source identity, ancestry, and independence are separately typed, the structure can support provenance-topology checks against false multiplicity.
 
@@ -2120,9 +2123,9 @@ sybil_hardening:
   explicit_algorithm_in_source: false
 ```
 
----
+______________________________________________________________________
 
-# 79. Claim Confidence Architecture
+## 79. Claim Confidence Architecture
 
 Two source fields are especially important:
 
@@ -2143,9 +2146,9 @@ $$
 
 But the exact calculation of effective confidence is not supplied.
 
----
+______________________________________________________________________
 
-# 80. Confidence Does Not Equal Evidence Count
+## 80. Confidence Does Not Equal Evidence Count
 
 Nothing in the tensor contracts states:
 
@@ -2165,9 +2168,9 @@ $$
 
 Because ancestry and independence are explicitly modeled, raw source count is especially insufficient as a default confidence metric.
 
----
+______________________________________________________________________
 
-# 81. Claim Competition Architecture
+## 81. Claim Competition Architecture
 
 A claim can carry:
 
@@ -2193,9 +2196,9 @@ when discriminating evidence is absent.
 
 The exact competition-resolution policy is external.
 
----
+______________________________________________________________________
 
-# 82. Falsification and Memory
+## 82. Falsification and Memory
 
 Claims have:
 
@@ -2229,9 +2232,9 @@ Classification:
 
 `DERIVED ARCHITECTURE`.
 
----
+______________________________________________________________________
 
-# 83. Local Invalidation Principle
+## 83. Local Invalidation Principle
 
 The schema's explicit dependencies make targeted invalidation representable.
 
@@ -2245,11 +2248,11 @@ $$
 
 That rule belongs to broader AMOS reasoning canon unless independently supplied.
 
----
+______________________________________________________________________
 
-# 84. Governance Evidence Gate
+## 84. Governance Evidence Gate
 
-Because \(T_G\) explicitly contains:
+Because (T_G) explicitly contains:
 
 ```text
 evidence_threshold
@@ -2267,9 +2270,9 @@ $$
 
 The source does not define threshold levels.
 
----
+______________________________________________________________________
 
-# 85. Governance Reversibility Gate
+## 85. Governance Reversibility Gate
 
 Similarly, `reversibility` and `rollback` are both first-class.
 
@@ -2277,9 +2280,9 @@ A high-consequence action may therefore carry different governance semantics fro
 
 The exact policy is not supplied by this artifact.
 
----
+______________________________________________________________________
 
-# 86. Governance Authorization Contract
+## 86. Governance Authorization Contract
 
 The following stronger rule is **not source-verbatim**, but is a safe candidate implementation:
 
@@ -2297,11 +2300,11 @@ $$
 
 Do not canonize this conjunction as source law unless a governance artifact explicitly defines it.
 
----
+______________________________________________________________________
 
-# 87. Memory Freshness vs Claim Freshness
+## 87. Memory Freshness vs Claim Freshness
 
-Both \(T_C\) and \(T_M\) use:
+Both (T_C) and (T_M) use:
 
 ```text
 freshness
@@ -2319,14 +2322,14 @@ $$
 
 Possible semantic distinction:
 
-* claim freshness = validity horizon of a proposition;
-* memory freshness = revalidation state of stored content.
+- claim freshness = validity horizon of a proposition;
+- memory freshness = revalidation state of stored content.
 
 This distinction is a **candidate interpretation**, not source definition.
 
----
+______________________________________________________________________
 
-# 88. Time vs Timestamp vs Freshness vs Revalidation Epoch
+## 88. Time vs Timestamp vs Freshness vs Revalidation Epoch
 
 The tensor family contains four temporal concepts:
 
@@ -2353,9 +2356,9 @@ $$
 
 Their precise transformations remain undefined.
 
----
+______________________________________________________________________
 
-# 89. Domain vs Scope
+## 89. Domain vs Scope
 
 The source includes:
 
@@ -2375,11 +2378,11 @@ A domain may be a knowledge category while scope may be an applicability envelop
 
 That interpretation is plausible but not formally defined here.
 
----
+______________________________________________________________________
 
-# 90. Observer Axis
+## 90. Observer Axis
 
-Only \(T_R\) explicitly includes:
+Only (T_R) explicitly includes:
 
 ```text
 observer.
@@ -2391,9 +2394,9 @@ Therefore observer context is currently a reasoning-specific dimension in the vi
 
 Do not propagate it automatically into evidence or claim tensors.
 
----
+______________________________________________________________________
 
-# 91. Consequence Axis vs Consequence Radius
+## 91. Consequence Axis vs Consequence Radius
 
 The source distinguishes:
 
@@ -2414,9 +2417,9 @@ $$
 
 remains unresolved.
 
----
+______________________________________________________________________
 
-# 92. Evidence Class vs Source Type
+## 92. Evidence Class vs Source Type
 
 The source distinguishes:
 
@@ -2435,9 +2438,9 @@ $$
 
 Evidence classification and source classification may be separate dimensions.
 
----
+______________________________________________________________________
 
-# 93. Claim Class vs Content Class
+## 93. Claim Class vs Content Class
 
 The source includes:
 
@@ -2452,9 +2455,9 @@ A memory item may contain a claim, evidence, model, decision, or another content
 
 The allowed values are not supplied here.
 
----
+______________________________________________________________________
 
-# 94. State Is Typed by Tensor Context
+## 94. State Is Typed by Tensor Context
 
 The family contains:
 
@@ -2468,33 +2471,33 @@ T_M.contradiction_state.
 
 All are state-like fields, but none should be merged merely because they contain the word `state`.
 
----
+______________________________________________________________________
 
-# 95. Contract Validation — Tensor Presence
+## 95. Contract Validation — Tensor Presence
 
 A tensor instance is not necessarily valid merely because it supplies the right number of fields.
 
 Structural validity may require:
 
 1. required axes present;
-2. axis semantics known;
-3. values compatible with axis types;
-4. provenance retained where required;
-5. composition checks passed when joining tensors.
+1. axis semantics known;
+1. values compatible with axis types;
+1. provenance retained where required;
+1. composition checks passed when joining tensors.
 
 Only the composition compatibility requirement is explicit in the source; the rest are derived validation principles.
 
----
+______________________________________________________________________
 
-# 96. Missing-Axis Policy
+## 96. Missing-Axis Policy
 
 The source does not define whether tensor axes are:
 
-* mandatory;
-* nullable;
-* optional;
-* defaultable;
-* unknown-permitted.
+- mandatory;
+- nullable;
+- optional;
+- defaultable;
+- unknown-permitted.
 
 Therefore no universal missing-axis rule should be invented.
 
@@ -2509,9 +2512,9 @@ UNRESOLVED
 
 but these values are proposed unless wider canon defines them.
 
----
+______________________________________________________________________
 
-# 97. Unknown Is Not Zero
+## 97. Unknown Is Not Zero
 
 For numeric or ordinal implementations:
 
@@ -2523,17 +2526,17 @@ $$
 
 This matters especially for:
 
-* confidence;
-* quality;
-* recursion depth;
-* consequence radius;
-* evidence threshold.
+- confidence;
+- quality;
+- recursion depth;
+- consequence radius;
+- evidence threshold.
 
 The source does not authorize zero as a missing-value encoding.
 
----
+______________________________________________________________________
 
-# 98. Unknown Is Not False
+## 98. Unknown Is Not False
 
 Likewise:
 
@@ -2563,9 +2566,9 @@ independence = FALSE.
 
 This is a safe derived integrity rule.
 
----
+______________________________________________________________________
 
-# 99. Compatibility Unknown Is Non-Composable
+## 99. Compatibility Unknown Is Non-Composable
 
 The source's prohibition gives:
 
@@ -2577,9 +2580,9 @@ $$
 
 This is stronger than ordinary optimistic schema matching.
 
----
+______________________________________________________________________
 
-# 100. Compatibility Test — Same Name, Unknown Meaning
+## 100. Compatibility Test — Same Name, Unknown Meaning
 
 Input:
 
@@ -2601,9 +2604,9 @@ result:
 
 This is a derived boundary test.
 
----
+______________________________________________________________________
 
-# 101. Compatibility Test — Same Name, Conflicting Units
+## 101. Compatibility Test — Same Name, Conflicting Units
 
 Hypothetical:
 
@@ -2628,9 +2631,9 @@ result:
 
 The units are illustrative, not source-defined.
 
----
+______________________________________________________________________
 
-# 102. Compatibility Test — Different Names, Compatible Meaning
+## 102. Compatibility Test — Different Names, Compatible Meaning
 
 Different names may still be compatible under an explicit binding.
 
@@ -2652,9 +2655,9 @@ $$
 
 The source explicitly states only the converse caution about same-name axes; this extension is logical but derived.
 
----
+______________________________________________________________________
 
-# 103. Compatibility Is Typed, Not Lexical
+## 103. Compatibility Is Typed, Not Lexical
 
 Therefore a robust composition engine should test semantic contracts rather than string equality.
 
@@ -2672,9 +2675,9 @@ $$
 Name(a)=Name(b).
 $$
 
----
+______________________________________________________________________
 
-# 104. Tensor Registry — Source-Grounded
+## 104. Tensor Registry — Source-Grounded
 
 ```yaml
 tensor_registry:
@@ -2769,9 +2772,9 @@ tensor_registry:
       - revalidation_epoch
 ```
 
----
+______________________________________________________________________
 
-# 105. Compatibility Invariant — Machine Form
+## 105. Compatibility Invariant — Machine Form
 
 ```yaml
 tensor_composition_contract:
@@ -2797,9 +2800,9 @@ tensor_composition_contract:
 
 This is a machine-readable normalization of the explicit source invariant.
 
----
+______________________________________________________________________
 
-# 106. Candidate Axis Registry
+## 106. Candidate Axis Registry
 
 The following is a **derived augmentation**, not source metadata:
 
@@ -2981,26 +2984,26 @@ axis_registry:
     tensors: [T_M]
 ```
 
----
+______________________________________________________________________
 
-# 107. Shared-Axis Matrix
+## 107. Shared-Axis Matrix
 
-| Axis         | \(T_R\) | \(T_F\) | \(T_E\) | \(T_C\) | \(T_G\) | \(T_M\) |
-| ------------ | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
-| `HML_scale`  |    ✓    |    ✓    |    —    |    —    |    —    |    —    |
-| `time`       |    ✓    |    ✓    |    —    |    —    |    —    |    —    |
-| `regime`     |    ✓    |    ✓    |    ✓    |    ✓    |    —    |    —    |
-| `provenance` |    ✓    |    ✓    |    —    |    —    |    —    |    ✓    |
-| `scope`      |    —    |    —    |    ✓    |    ✓    |    —    |    —    |
-| `freshness`  |    —    |    —    |    —    |    ✓    |    —    |    ✓    |
+| Axis         | (T_R) | (T_F) | (T_E) | (T_C) | (T_G) | (T_M) |
+| ------------ | :---: | :---: | :---: | :---: | :---: | :---: |
+| `HML_scale`  |   ✓   |   ✓   |   —   |   —   |   —   |   —   |
+| `time`       |   ✓   |   ✓   |   —   |   —   |   —   |   —   |
+| `regime`     |   ✓   |   ✓   |   ✓   |   ✓   |   —   |   —   |
+| `provenance` |   ✓   |   ✓   |   —   |   —   |   —   |   ✓   |
+| `scope`      |   —   |   —   |   ✓   |   ✓   |   —   |   —   |
+| `freshness`  |   —   |   —   |   —   |   ✓   |   —   |   ✓   |
 
 Every checkmark intersection is a **candidate compatibility surface**, not proof of semantic identity.
 
----
+______________________________________________________________________
 
-# 108. Tensor-Pair Shared-Axis Map
+## 108. Tensor-Pair Shared-Axis Map
 
-### \(T_R \leftrightarrow T_F\)
+### (T_R \\leftrightarrow T_F)
 
 Shared names:
 
@@ -3011,7 +3014,7 @@ regime
 provenance
 ```
 
-### \(T_R \leftrightarrow T_E\)
+### (T_R \\leftrightarrow T_E)
 
 Shared names:
 
@@ -3019,7 +3022,7 @@ Shared names:
 regime
 ```
 
-### \(T_R \leftrightarrow T_C\)
+### (T_R \\leftrightarrow T_C)
 
 Shared names:
 
@@ -3027,7 +3030,7 @@ Shared names:
 regime
 ```
 
-### \(T_R \leftrightarrow T_M\)
+### (T_R \\leftrightarrow T_M)
 
 Shared names:
 
@@ -3035,7 +3038,7 @@ Shared names:
 provenance
 ```
 
-### \(T_F \leftrightarrow T_E\)
+### (T_F \\leftrightarrow T_E)
 
 Shared names:
 
@@ -3043,7 +3046,7 @@ Shared names:
 regime
 ```
 
-### \(T_F \leftrightarrow T_C\)
+### (T_F \\leftrightarrow T_C)
 
 Shared names:
 
@@ -3051,7 +3054,7 @@ Shared names:
 regime
 ```
 
-### \(T_F \leftrightarrow T_M\)
+### (T_F \\leftrightarrow T_M)
 
 Shared names:
 
@@ -3059,7 +3062,7 @@ Shared names:
 provenance
 ```
 
-### \(T_E \leftrightarrow T_C\)
+### (T_E \\leftrightarrow T_C)
 
 Shared names:
 
@@ -3068,7 +3071,7 @@ scope
 regime
 ```
 
-### \(T_C \leftrightarrow T_M\)
+### (T_C \\leftrightarrow T_M)
 
 Shared names:
 
@@ -3078,9 +3081,9 @@ freshness
 
 No automatic composition follows from any of these.
 
----
+______________________________________________________________________
 
-# 109. Highest-Connectivity Shared Axis
+## 109. Highest-Connectivity Shared Axis
 
 `regime` occurs in four tensors:
 
@@ -3092,9 +3095,9 @@ Therefore it is the most widely repeated exact axis name in the supplied family.
 
 This makes `regime` a high-value compatibility definition to resolve in broader canon.
 
----
+______________________________________________________________________
 
-# 110. Provenance Connectivity
+## 110. Provenance Connectivity
 
 `provenance` occurs in three tensors:
 
@@ -3113,9 +3116,9 @@ rather than an exact `provenance` field.
 
 Therefore evidence-to-provenance mapping remains structurally related but not same-name.
 
----
+______________________________________________________________________
 
-# 111. Scope Connectivity
+## 111. Scope Connectivity
 
 `scope` is shared by:
 
@@ -3129,9 +3132,9 @@ A claim supported by evidence outside the claim's applicability scope may requir
 
 The exact scope-containment operator is not supplied.
 
----
+______________________________________________________________________
 
-# 112. Candidate Scope Rule
+## 112. Candidate Scope Rule
 
 A safe derived candidate is:
 
@@ -3147,9 +3150,9 @@ But this exact subset/superset rule is not source-defined.
 
 Preserve it as proposed implementation logic only.
 
----
+______________________________________________________________________
 
-# 113. Regime Mismatch
+## 113. Regime Mismatch
 
 Suppose evidence is valid in:
 
@@ -3175,19 +3178,19 @@ RegimeMismatch
 NoSilentComposition.
 $$
 
----
+______________________________________________________________________
 
-# 114. Temporal Mismatch
+## 114. Temporal Mismatch
 
-Similarly, \(T_R.time\), \(T_F.time\), \(T_E.timestamp\), \(T_C.freshness\), and \(T_M.revalidation\_epoch\) are distinct.
+Similarly, (T_R.time), (T_F.time), (T_E.timestamp), (T_C.freshness), and (T_M.revalidation_epoch) are distinct.
 
 Do not infer temporal compatibility merely because all relate to time.
 
----
+______________________________________________________________________
 
-# 115. Version Awareness
+## 115. Version Awareness
 
-Only \(T_E\) explicitly includes:
+Only (T_E) explicitly includes:
 
 ```text
 version.
@@ -3199,9 +3202,9 @@ The source does not explicitly add version to claim or memory tensors.
 
 Do not silently inject it into those canonical signatures.
 
----
+______________________________________________________________________
 
-# 116. Evidence Revocation Propagation
+## 116. Evidence Revocation Propagation
 
 A plausible derived dependency is:
 
@@ -3219,9 +3222,9 @@ Thus:
 
 `DERIVED / REQUIRES IMPLEMENTATION CONTRACT`.
 
----
+______________________________________________________________________
 
-# 117. Claim Falsifier Propagation
+## 117. Claim Falsifier Propagation
 
 Similarly:
 
@@ -3239,9 +3242,9 @@ for dependent memory.
 
 This is structurally supported but not explicitly specified.
 
----
+______________________________________________________________________
 
-# 118. Memory Contradiction Preservation
+## 118. Memory Contradiction Preservation
 
 Because `contradiction_state` is explicit, a conservative design should preserve contradictions rather than silently overwrite them.
 
@@ -3257,9 +3260,9 @@ contradiction_state:
 
 The exact representation is proposed, not source-defined.
 
----
+______________________________________________________________________
 
-# 119. Fractal Tensor and RSCF
+## 119. Fractal Tensor and RSCF
 
 The source frontmatter is itself RSCF-typed and the fractal tensor contains:
 
@@ -3288,9 +3291,9 @@ $$
 
 unless another source binds them.
 
----
+______________________________________________________________________
 
-# 120. RSCF Structural Relationship
+## 120. RSCF Structural Relationship
 
 A safer model is:
 
@@ -3309,9 +3312,9 @@ Classification:
 
 `DERIVED CORRESPONDENCE`.
 
----
+______________________________________________________________________
 
-# 121. Source Claim vs AMOS Model
+## 121. Source Claim vs AMOS Model
 
 The artifact contains:
 
@@ -3341,27 +3344,27 @@ epistemic_dual_receipt:
   precedence: UNRESOLVED
 ```
 
----
+______________________________________________________________________
 
-# 122. Related Artifact Graph
+## 122. Related Artifact Graph
 
 The source explicitly lists:
 
-*
-* `06-Knowledge-Base-MOC`
-* `AMOS_Simulation_Kernel_v0_Math_Foundations`
-* `system_scan_agent`
-* `automation_profiles`
-*
-*
+-
+- `06-Knowledge-Base-MOC`
+- `AMOS_Simulation_Kernel_v0_Math_Foundations`
+- `system_scan_agent`
+- `automation_profiles`
+-
+-
 
 These are source-defined graph connections.
 
 Their exact semantic relation to each tensor is not specified.
 
----
+______________________________________________________________________
 
-# 123. RSCF Relations — Source
+## 123. RSCF Relations — Source
 
 ```yaml
 RSCF_RELATIONS:
@@ -3379,9 +3382,9 @@ DEPENDS_ON
 
 without evidence.
 
----
+______________________________________________________________________
 
-# 124. MOC Binding
+## 124. MOC Binding
 
 The source explicitly gives:
 
@@ -3397,9 +3400,9 @@ knowledge_moc:
   relation: SOURCE_DEFINED_MOC_BINDING
 ```
 
----
+______________________________________________________________________
 
-# 125. Canonical RSCF Node
+## 125. Canonical RSCF Node
 
 ```yaml
 RSCF_NODE:
@@ -3420,9 +3423,9 @@ RSCF_NODE:
     target: "[[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]]"
 ```
 
----
+______________________________________________________________________
 
-# 126. Proof Capsule — Tensor Family
+## 126. Proof Capsule — Tensor Family
 
 ```yaml
 PROOF_CAPSULE:
@@ -3459,9 +3462,9 @@ PROOF_CAPSULE:
     SOURCE_GROUNDED
 ```
 
----
+______________________________________________________________________
 
-# 127. Proof Capsule — Compatibility
+## 127. Proof Capsule — Compatibility
 
 ```yaml
 PROOF_CAPSULE:
@@ -3487,9 +3490,9 @@ PROOF_CAPSULE:
     SOURCE_GROUNDED
 ```
 
----
+______________________________________________________________________
 
-# 128. Proof Capsule — Same-Name Rule
+## 128. Proof Capsule — Same-Name Rule
 
 ```yaml
 PROOF_CAPSULE:
@@ -3512,9 +3515,9 @@ PROOF_CAPSULE:
     SOURCE_GROUNDED
 ```
 
----
+______________________________________________________________________
 
-# 129. Adversarial Validation — Tensor Meaning
+## 129. Adversarial Validation — Tensor Meaning
 
 ### Hypothesis A
 
@@ -3528,7 +3531,7 @@ No vector spaces, tensor products, dimensions, basis, shape, numeric dtype, or c
 
 `NOT ESTABLISHED`.
 
----
+______________________________________________________________________
 
 ### Hypothesis B
 
@@ -3542,9 +3545,9 @@ Each `T[...]` contains named semantic axes and the central invariant concerns se
 
 `STRONGLY SUPPORTED MODEL INTERPRETATION`.
 
----
+______________________________________________________________________
 
-# 130. Adversarial Validation — Shared Names
+## 130. Adversarial Validation — Shared Names
 
 ### Hypothesis
 
@@ -3558,9 +3561,9 @@ The source explicitly says same-name axes do not prove same meaning.
 
 `REJECTED`.
 
----
+______________________________________________________________________
 
-# 131. Adversarial Validation — Evidence Independence
+## 131. Adversarial Validation — Evidence Independence
 
 ### Hypothesis
 
@@ -3582,9 +3585,9 @@ independence.
 
 Distinct evidence identity is insufficient to establish independence.
 
----
+______________________________________________________________________
 
-# 132. Adversarial Validation — Claim Confidence
+## 132. Adversarial Validation — Claim Confidence
 
 ### Hypothesis
 
@@ -3600,9 +3603,9 @@ They are separate axes in different tensor contracts.
 
 A relationship is plausible, but identity is not source-established.
 
----
+______________________________________________________________________
 
-# 133. Adversarial Validation — Mutation
+## 133. Adversarial Validation — Mutation
 
 ### Hypothesis
 
@@ -3616,9 +3619,9 @@ They occur in different tensor contracts with different names.
 
 `UNRESOLVED / DO NOT EQUATE`.
 
----
+______________________________________________________________________
 
-# 134. Adversarial Validation — Provenance
+## 134. Adversarial Validation — Provenance
 
 ### Hypothesis
 
@@ -3632,9 +3635,9 @@ The source's compatibility invariant explicitly prohibits this inference.
 
 `UNRESOLVED UNTIL SEMANTIC COMPATIBILITY PROVEN`.
 
----
+______________________________________________________________________
 
-# 135. Critical Gaps
+## 135. Critical Gaps
 
 ```yaml
 GAPS:
@@ -3670,9 +3673,9 @@ GAPS:
     - RELATED_LINK_STYLE_NORMALIZATION
 ```
 
----
+______________________________________________________________________
 
-# 136. Minimum Missing Information for Executable Composition
+## 136. Minimum Missing Information for Executable Composition
 
 To turn the compatibility invariant into a deterministic executable contract, the smallest missing specification is approximately:
 
@@ -3694,9 +3697,9 @@ compatibility:
 
 This is proposed implementation scaffolding, not supplied canon.
 
----
+______________________________________________________________________
 
-# 137. Sensitivity Analysis
+## 137. Sensitivity Analysis
 
 The most load-bearing rule in the entire artifact is not any individual tensor signature.
 
@@ -3714,9 +3717,9 @@ If this invariant is removed, same-name axes could be silently conflated and the
 
 Therefore compatibility semantics are the highest-value missing implementation dependency.
 
----
+______________________________________________________________________
 
-# 138. Failure Modes
+## 138. Failure Modes
 
 ## FM-01 — Lexical Axis Collision
 
@@ -3730,7 +3733,7 @@ Risk: invalid composition.
 
 Guard: semantic compatibility validation.
 
----
+______________________________________________________________________
 
 ## FM-02 — Provenance Flattening
 
@@ -3744,7 +3747,7 @@ is treated as complete provenance.
 
 Evidence tensor contradicts this simplification by also representing ancestry and independence.
 
----
+______________________________________________________________________
 
 ## FM-03 — Confidence Inflation
 
@@ -3763,7 +3766,7 @@ confidence_ceiling
 
 Exact confidence algorithm remains unresolved.
 
----
+______________________________________________________________________
 
 ## FM-04 — Scope Leakage
 
@@ -3777,7 +3780,7 @@ domain
 regime
 ```
 
----
+______________________________________________________________________
 
 ## FM-05 — Temporal Leakage
 
@@ -3793,7 +3796,7 @@ revalidation_epoch
 revocation_state
 ```
 
----
+______________________________________________________________________
 
 ## FM-06 — Causal Overreach
 
@@ -3801,7 +3804,7 @@ A claim's `causal_level` is ignored and an association is treated as causal.
 
 The source provides the axis but not the causal-level taxonomy.
 
----
+______________________________________________________________________
 
 ## FM-07 — Governance Overreach
 
@@ -3809,7 +3812,7 @@ Capability is treated as authority.
 
 The tensor explicitly separates them.
 
----
+______________________________________________________________________
 
 ## FM-08 — Irreversible Mutation Without Governance
 
@@ -3826,7 +3829,7 @@ evidence_threshold.
 
 The exact enforcement rule remains external.
 
----
+______________________________________________________________________
 
 ## FM-09 — Contradiction Erasure
 
@@ -3834,7 +3837,7 @@ Memory contradiction state is overwritten rather than retained.
 
 The explicit `contradiction_state` axis makes contradiction preservation representable.
 
----
+______________________________________________________________________
 
 ## FM-10 — Tensor/Array Conflation
 
@@ -3842,9 +3845,9 @@ Typed knowledge tensors are implemented as ordinary numeric arrays without prese
 
 This would risk losing the artifact's decisive compatibility invariant.
 
----
+______________________________________________________________________
 
-# 139. Boundary Tests
+## 139. Boundary Tests
 
 ### BT-01 — Same-name regime
 
@@ -3861,7 +3864,7 @@ Expected:
 COMPOSITION = DENIED
 ```
 
----
+______________________________________________________________________
 
 ### BT-02 — Provenance labels match
 
@@ -3879,7 +3882,7 @@ COMPATIBILITY = UNKNOWN
 COMPOSITION = DENIED
 ```
 
----
+______________________________________________________________________
 
 ### BT-03 — Claim/evidence scope verified compatible
 
@@ -3893,7 +3896,7 @@ then the shared scope axis passes that compatibility test.
 
 Other shared axes must still be checked.
 
----
+______________________________________________________________________
 
 ### BT-04 — One incompatible shared axis
 
@@ -3912,7 +3915,7 @@ COMPOSITION = DENIED
 
 because all load-bearing shared axes have not passed.
 
----
+______________________________________________________________________
 
 ### BT-05 — Unknown independence
 
@@ -3926,7 +3929,7 @@ Expected:
 DO NOT TREAT AS INDEPENDENT
 ```
 
----
+______________________________________________________________________
 
 ### BT-06 — Revoked evidence
 
@@ -3944,9 +3947,9 @@ PROPAGATION_POLICY = GAP
 
 not invented automatic deletion.
 
----
+______________________________________________________________________
 
-# 140. Epistemic Firewall
+## 140. Epistemic Firewall
 
 The tensor contracts distinguish representation from verification.
 
@@ -3998,9 +4001,9 @@ T_F.pattern_class
 
 does not prove causation.
 
----
+______________________________________________________________________
 
-# 141. Canonical Integrity Invariants
+## 141. Canonical Integrity Invariants
 
 $$
 \boxed{
@@ -4098,64 +4101,64 @@ AutomaticFieldMerge
 }
 $$
 
----
+______________________________________________________________________
 
-# 142. Anti-Fabrication Contract
+## 142. Anti-Fabrication Contract
 
 Do **not** assert from this artifact alone that:
 
 1. these tensors are conventional multilinear-algebra tensors;
-2. they are PyTorch tensors;
-3. they are TensorFlow tensors;
-4. they are numerical arrays;
-5. tensor composition means tensor product;
-6. tensor composition means matrix multiplication;
-7. tensor composition means database join;
-8. every axis is mandatory;
-9. every axis is nullable;
-10. every axis has a numeric type;
-11. every tensor has a fixed machine shape;
-12. `HML_scale` has identical semantics in \(T_R\) and \(T_F\);
-13. `regime` has identical semantics across four tensors;
-14. `provenance` has identical semantics across all tensors using the label;
-15. `scope` is automatically identical between evidence and claim;
-16. `freshness` is automatically identical between claim and memory;
-17. evidence references are formally foreign keys to `evidence_id`;
-18. different evidence IDs prove independence;
-19. different source IDs prove independence;
-20. different documents prove independence;
-21. ancestry automatically determines independence;
-22. confidence is numerically calibrated;
-23. confidence equals confidence ceiling;
-24. confidence is based on source count;
-25. `causal_level` has a known enumeration;
-26. competing claims must converge;
-27. falsification always deletes a claim;
-28. revoked evidence automatically deletes every dependent claim;
-29. capability implies authority;
-30. authority implies approval;
-31. approval implies safe execution;
-32. reversibility implies rollback exists;
-33. rollback is guaranteed to succeed;
-34. consequence radius is numeric;
-35. evidence threshold has a known scale;
-36. mutation state equals mutation class;
-37. memory state has a known enum;
-38. contradiction state has a known enum;
-39. stale memory must be deleted;
-40. revalidation epoch equals timestamp;
-41. entropy proxy is thermodynamic entropy;
-42. lacunarity proxy uses a specific mathematical estimator;
-43. fractal pattern implies physical fractality;
-44. recursive similarity establishes causation;
-45. `T_R` is the parent class of all tensors;
-46. the six tensors form an executable runtime;
-47. source schema proves a particular database implementation;
-48. source schema proves empirical validity.
+1. they are PyTorch tensors;
+1. they are TensorFlow tensors;
+1. they are numerical arrays;
+1. tensor composition means tensor product;
+1. tensor composition means matrix multiplication;
+1. tensor composition means database join;
+1. every axis is mandatory;
+1. every axis is nullable;
+1. every axis has a numeric type;
+1. every tensor has a fixed machine shape;
+1. `HML_scale` has identical semantics in (T_R) and (T_F);
+1. `regime` has identical semantics across four tensors;
+1. `provenance` has identical semantics across all tensors using the label;
+1. `scope` is automatically identical between evidence and claim;
+1. `freshness` is automatically identical between claim and memory;
+1. evidence references are formally foreign keys to `evidence_id`;
+1. different evidence IDs prove independence;
+1. different source IDs prove independence;
+1. different documents prove independence;
+1. ancestry automatically determines independence;
+1. confidence is numerically calibrated;
+1. confidence equals confidence ceiling;
+1. confidence is based on source count;
+1. `causal_level` has a known enumeration;
+1. competing claims must converge;
+1. falsification always deletes a claim;
+1. revoked evidence automatically deletes every dependent claim;
+1. capability implies authority;
+1. authority implies approval;
+1. approval implies safe execution;
+1. reversibility implies rollback exists;
+1. rollback is guaranteed to succeed;
+1. consequence radius is numeric;
+1. evidence threshold has a known scale;
+1. mutation state equals mutation class;
+1. memory state has a known enum;
+1. contradiction state has a known enum;
+1. stale memory must be deleted;
+1. revalidation epoch equals timestamp;
+1. entropy proxy is thermodynamic entropy;
+1. lacunarity proxy uses a specific mathematical estimator;
+1. fractal pattern implies physical fractality;
+1. recursive similarity establishes causation;
+1. `T_R` is the parent class of all tensors;
+1. the six tensors form an executable runtime;
+1. source schema proves a particular database implementation;
+1. source schema proves empirical validity.
 
----
+______________________________________________________________________
 
-# 143. Anti-Regression Contract
+## 143. Anti-Regression Contract
 
 Any future modification should preserve at minimum:
 
@@ -4190,9 +4193,9 @@ ANTI_REGRESSION:
     - SILENT_REMOVAL_OF_REVALIDATION_EPOCH
 ```
 
----
+______________________________________________________________________
 
-# 144. Invalidation Conditions
+## 144. Invalidation Conditions
 
 This expansion should be revalidated if:
 
@@ -4215,9 +4218,9 @@ INVALIDATION_CONDITIONS:
   - RSCF_CLAIM_CLASS_PRECEDENCE_DEFINED
 ```
 
----
+______________________________________________________________________
 
-# 145. Fractal Retrieval Model
+## 145. Fractal Retrieval Model
 
 ```yaml
 FRACTAL_RETRIEVAL:
@@ -4259,9 +4262,9 @@ FRACTAL_RETRIEVAL:
     DO_NOT_LOAD_UNLESS_REQUIRED
 ```
 
----
+______________________________________________________________________
 
-# 146. RSCF H/M/L Representation
+## 146. RSCF H/M/L Representation
 
 ```yaml
 RSCF:
@@ -4307,9 +4310,9 @@ RSCF:
       - exact composition semantics
 ```
 
----
+______________________________________________________________________
 
-# 147. Mermaid — Tensor Family
+## 147. Mermaid — Tensor Family
 
 ```mermaid
 flowchart TD
@@ -4331,9 +4334,9 @@ flowchart TD
     TC --> TM
 ```
 
----
+______________________________________________________________________
 
-# 148. Mermaid — Compatibility Gate
+## 148. Mermaid — Compatibility Gate
 
 ```mermaid
 flowchart TD
@@ -4356,9 +4359,9 @@ flowchart TD
     C -->|"Yes"| P
 ```
 
----
+______________________________________________________________________
 
-# 149. Mermaid — Evidence / Claim / Reasoning Candidate Topology
+## 149. Mermaid — Evidence / Claim / Reasoning Candidate Topology
 
 ```mermaid
 flowchart LR
@@ -4378,9 +4381,9 @@ flowchart LR
 
 Dashed edges are **derived candidate relations**, not source-declared execution edges.
 
----
+______________________________________________________________________
 
-# 150. Mermaid — Evidence Provenance Topology
+## 150. Mermaid — Evidence Provenance Topology
 
 ```mermaid
 flowchart TD
@@ -4401,9 +4404,9 @@ flowchart TD
 
 This diagram represents the coexisting source fields, not a source-defined computational order.
 
----
+______________________________________________________________________
 
-# 151. Mermaid — Claim Proof Capsule
+## 151. Mermaid — Claim Proof Capsule
 
 ```mermaid
 flowchart TD
@@ -4430,9 +4433,9 @@ flowchart TD
     CC --> C
 ```
 
----
+______________________________________________________________________
 
-# 152. Mermaid — Governance Contract
+## 152. Mermaid — Governance Contract
 
 ```mermaid
 flowchart TD
@@ -4459,9 +4462,9 @@ flowchart TD
 
 The diagram shows dimensions associated with action; it does not assert that every field is a conjunctive execution prerequisite.
 
----
+______________________________________________________________________
 
-# 153. Mermaid — Memory Revalidation
+## 153. Mermaid — Memory Revalidation
 
 ```mermaid
 flowchart TD
@@ -4482,9 +4485,9 @@ flowchart TD
     E --> I
 ```
 
----
+______________________________________________________________________
 
-# 154. Derived Full Tag Augmentation
+## 154. Derived Full Tag Augmentation
 
 The original source tags are preserved unchanged in frontmatter.
 
@@ -4580,11 +4583,11 @@ The following are recommended **derived indexing tags**, not source metadata:
 #canon/rscf
 ```
 
----
+______________________________________________________________________
 
-# 155. Optional Enriched Frontmatter
+## 155. Optional Enriched Frontmatter
 
-> [!warning]
+> [!WARNING]
 > The block below is a **DERIVED VAULT AUGMENTATION**. It should replace the minimal source frontmatter only if the vault permits enrichment. It must not be mistaken for source-verbatim metadata.
 
 ```yaml
@@ -4739,9 +4742,9 @@ related:
 ---
 ```
 
----
+______________________________________________________________________
 
-# 156. Canonical Compact Contract
+## 156. Canonical Compact Contract
 
 The entire source can be compressed without losing its decisive semantics as:
 
@@ -4878,9 +4881,9 @@ SameMeaning(a,b)
 }
 $$
 
----
+______________________________________________________________________
 
-# 157. Final Canonical Conclusion
+## 157. Final Canonical Conclusion
 
 `TENSOR_CONTRACTS.md` defines a six-part typed knowledge-contract family spanning reasoning, fractal structure, evidence, claims, governance, and memory.
 
@@ -4931,21 +4934,21 @@ The strongest safe interpretation is therefore:
 
 It does **not** establish that these contracts are conventional numerical tensors, that shared labels are interchangeable, or that the visible schemas alone constitute an independently verified executable runtime.
 
----
+______________________________________________________________________
 
-# Related
+## Related
 
-*
-* 06-Knowledge-Base-MOC
-* AMOS_Simulation_Kernel_v0_Math_Foundations
-* system_scan_agent
-* automation_profiles
-*
-*
+-
+- 06-Knowledge-Base-MOC
+- AMOS_Simulation_Kernel_v0_Math_Foundations
+- system_scan_agent
+- automation_profiles
+-
+-
 
----
+______________________________________________________________________
 
-# RSCF-NODE
+## RSCF-NODE
 
 ```yaml
 node_id: tensor_contracts
@@ -4964,7 +4967,7 @@ claim_class: AMOS_MODEL
 
 ---
 
-# Final Tags
+## Final Tags
 
 #tensor #knowledge #vault #canon/knowledge #tensor_contracts #typed_tensor #typed_contracts #knowledge_tensor #reasoning_tensor #fractal_tensor #evidence_tensor #claim_tensor #governance_tensor #memory_tensor #tensor_composition #semantic_compatibility #axis_compatibility #axis_semantics #schema_integrity #knowledge_integrity #evidence #evidence_provenance #evidence_ancestry #evidence_independence #evidence_revocation #claim #claim_premises #claim_scope #claim_regime #claim_freshness #causal_level #competing_hypotheses #falsifiers #confidence #confidence_ceiling #governance #authority #capability #approval #consequence_radius #reversibility #rollback #evidence_threshold #mutation_class #memory #memory_provenance #memory_dependencies #contradiction_state #retention_class #revalidation_epoch #fractal #hml #hml_scale #recursion_depth #pattern_class #boundary #entropy_proxy #lacunarity_proxy #mutation_state #selection_state #provenance #provenance_topology #scope #regime #freshness #rscf #rscf_node #knowledge_moc #source_claim #amos_model #amos_corpus #amos_knowledge #epistemic_boundary #causal_firewall #scope_firewall #regime_firewall #anti_fabrication #anti_regression #proof_capsule #fail_closed #semantic_aliasing #semantic_collision #typed_composition #canon/tensor #canon/evidence #canon/claims #canon/governance #canon/memory #canon/provenance #canon/rscf
 
@@ -4972,5 +4975,8 @@ claim_class: AMOS_MODEL
 
 **END OF `TENSOR_CONTRACTS.md`**
 
+```
+
+```
 ```
 ```

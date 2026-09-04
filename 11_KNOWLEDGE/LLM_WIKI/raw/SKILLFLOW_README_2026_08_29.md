@@ -1,4 +1,7 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 date: 2026-08-29
 epistemic_class: OBSERVATION
 provenance: GitHub README, not independently verified
@@ -10,13 +13,14 @@ rscf:
 source: https://raw.githubusercontent.com/linxuhao/SkillFlow/main/README.md
 title: SkillFlow README — Raw Capture
 ---
+
 # SkillFlow README — Raw Capture
 
 Source: `https://github.com/linxuhao/SkillFlow`
 
-# Skillflow
+## Skillflow
 
-[![PyPI](https://img.shields.io/pypi/v/skillflow-py)](https://pypi.org/project/skillflow-py/)
+[![PYPI]
 ![Python](https://img.shields.io/badge/python-3.12%2B-3776AB)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 
@@ -51,12 +55,12 @@ bash skillflow/scripts/install.sh
 
 CLI commands registered in `~/.local/bin/`:
 
-| Command | Description |
-|---------|-------------|
-| `skillflow-lint` | Validate pipeline YAML files (one-shot) |
-| `skillflow-run` | Stateless pipeline runner (agent calls via CLI) |
-| `skillflow-mcp` | Same runner protocol as typed MCP tools over stdio (`pip install skillflow-py[mcp]`) |
-| `skillflow-convert` | Convert a skill description → pipeline YAML |
+| Command             | Description                                                                          |
+| ------------------- | ------------------------------------------------------------------------------------ |
+| `skillflow-lint`    | Validate pipeline YAML files (one-shot)                                              |
+| `skillflow-run`     | Stateless pipeline runner (agent calls via CLI)                                      |
+| `skillflow-mcp`     | Same runner protocol as typed MCP tools over stdio (`pip install skillflow-py[mcp]`) |
+| `skillflow-convert` | Convert a skill description → pipeline YAML                                          |
 
 ```bash
 skillflow-lint configs/*.yaml                       # one-shot validation
@@ -78,13 +82,13 @@ twine upload dist/*
 
 Skillflow has two distinct modes — one for embedding in code, one for LLM agents.
 
-| | Framework mode | Runner mode |
-|---|---|---|
-| **Interface** | Python library (`from skillflow import SkillFlow`) | CLI tools (`skillflow-run`, `skillflow-convert`) |
-| **State** | In-process (or shared SQLite) | Stateless — each CLI call is a fresh process, state in SQLite |
-| **Tool execution** | All tools auto-execute inline | Native tools auto-execute, everything else delegated to the agent |
-| **delegate_tools_to_agent** | `False` (default) | `True` (hardcoded) |
-| **Use case** | Embed skillflow in a host app | LLM agent drives pipelines via shell commands |
+|                             | Framework mode                                     | Runner mode                                                       |
+| --------------------------- | -------------------------------------------------- | ----------------------------------------------------------------- |
+| **Interface**               | Python library (`from skillflow import SkillFlow`) | CLI tools (`skillflow-run`, `skillflow-convert`)                  |
+| **State**                   | In-process (or shared SQLite)                      | Stateless — each CLI call is a fresh process, state in SQLite     |
+| **Tool execution**          | All tools auto-execute inline                      | Native tools auto-execute, everything else delegated to the agent |
+| **delegate_tools_to_agent** | `False` (default)                                  | `True` (hardcoded)                                                |
+| **Use case**                | Embed skillflow in a host app                      | LLM agent drives pipelines via shell commands                     |
 
 ### Framework Mode
 
@@ -120,27 +124,27 @@ Runner mode is the **language-agnostic** interface for LLM agents. Agents drive 
 Pass `--graph` **once** with `--action start`. The graph path is stored in the DB. All subsequent calls use `--run-id` to reconnect — no `--graph` needed.
 
 ```bash
-# 1. Start a pipeline — pass --graph once, get the first step back
+## 1. Start a pipeline — pass --graph once, get the first step back
 $ skillflow-run --graph pipeline.yaml --action start
 {"status": "in_progress", "run_id": "abc123", "step": "analyze", "instruction": "..."}
 
-# 2. Submit work for the current step (no --graph needed)
+## 2. Submit work for the current step (no --graph needed)
 $ skillflow-run --action submit --run-id abc123 \
     --result '{"issues": [{"file": "app.py", "severity": "high"}]}'
 {"status": "in_progress", "run_id": "abc123", "step": "summarize", "instruction": "..."}
 
-# 3. When a checkpoint step completes, the run pauses
+## 3. When a checkpoint step completes, the run pauses
 {"status": "paused", "checkpoint_label": "Review Summary — approve to commit, reject to revise"}
 
-# 3a. Human approves (no --graph needed)
+## 3a. Human approves (no --graph needed)
 $ skillflow-run --action approve --run-id abc123
 {"status": "in_progress", "run_id": "abc123", "step": "apply_fixes", ...}
 
-# 3b. Or human rejects with feedback
+## 3b. Or human rejects with feedback
 $ skillflow-run --action reject --run-id abc123 \
     --feedback "Severity of bare except should be high, not medium"
 
-# 4. Loop continues until the pipeline completes
+## 4. Loop continues until the pipeline completes
 {"status": "completed", "steps_completed": 3, "outputs": {...}}
 ```
 
@@ -148,14 +152,14 @@ $ skillflow-run --action reject --run-id abc123 \
 
 **Response fields beyond status:**
 
-| Field | When present | Meaning |
-|-------|-------------|---------|
-| `output_dir` | Steps with `output.fixed` | `.tmp` staging dir — write expected files here; skillflow promotes them on submit |
-| `expected_files` | Steps with `output.fixed` | File names to create (e.g. `["findings.json"]`) |
-| `validation_error` | Submit rejected by validator | Why the previous submit failed — fix and re-submit |
-| `tool_name` | Tool steps | Tool the agent must execute |
-| `tool_params` | Tool steps | Parameters for the tool |
-| `tools` | Agent steps | Write helpers (`write_*`, `create_*`, `append_*`) with format specs |
+| Field              | When present                 | Meaning                                                                           |
+| ------------------ | ---------------------------- | --------------------------------------------------------------------------------- |
+| `output_dir`       | Steps with `output.fixed`    | `.tmp` staging dir — write expected files here; skillflow promotes them on submit |
+| `expected_files`   | Steps with `output.fixed`    | File names to create (e.g. `["findings.json"]`)                                   |
+| `validation_error` | Submit rejected by validator | Why the previous submit failed — fix and re-submit                                |
+| `tool_name`        | Tool steps                   | Tool the agent must execute                                                       |
+| `tool_params`      | Tool steps                   | Parameters for the tool                                                           |
+| `tools`            | Agent steps                  | Write helpers (`write_*`, `create_*`, `append_*`) with format specs               |
 
 #### MCP transport (`skillflow-mcp`)
 
@@ -174,14 +178,12 @@ and no shell quoting of documents:
 ```
 
 Tools: `runner_start` / `runner_next` / `runner_status` / `runner_submit` /
-`runner_approve` / `runner_reject`, plus `skillflow_tool(run_id, step_id,
-name, params)` — a proxy that executes the *current step's* skillflow tools
+`runner_approve` / `runner_reject`, plus `skillflow_tool(run_id, step_id, name, params)` — a proxy that executes the *current step's* skillflow tools
 (`write_<slot>`, `read_*`, native tools) server-side with allowlisting and
 tracing; host-tool names are bounced with a redirecting error. Stdio
 transport means no standing server: the agent spawns the process per session,
 and all state lives in SQLite — a crashed client reconnects with
-`runner_next(run_id)`. Requires the optional extra: `pip install
-skillflow-py[mcp]`.
+`runner_next(run_id)`. Requires the optional extra: `pip install skillflow-py[mcp]`.
 
 Both transports (and in-process hosts) share one core:
 `RunnerService` in `skillflow.plugins.skill_runner` — embed it directly when
@@ -189,12 +191,12 @@ your host process already owns a `SkillFlow` instance.
 
 ## Node Types
 
-| Type | Description |
-|------|-------------|
-| `agent` | LLM step — host app executes via `StepRunner` protocol |
-| `tool` | Auto-executed by skillflow (native), or delegated to agent in runner mode (custom) |
-| `gate` | Auto-resolved using match conditions against step output flags |
-| `loop` | Iterates over a JSON list from a workspace file, instantiating sub-steps per item |
+| Type    | Description                                                                        |
+| ------- | ---------------------------------------------------------------------------------- |
+| `agent` | LLM step — host app executes via `StepRunner` protocol                             |
+| `tool`  | Auto-executed by skillflow (native), or delegated to agent in runner mode (custom) |
+| `gate`  | Auto-resolved using match conditions against step output flags                     |
+| `loop`  | Iterates over a JSON list from a workspace file, instantiating sub-steps per item  |
 
 ## Transition Matching
 
@@ -205,7 +207,7 @@ match: { field: "passed", value: true }                          # step output f
 match: { from_file: "review_verdict.json", field: "passed", value: true }  # output file
 match: { from: "checkpoint", value: "approved" }                 # checkpoint routing
 match: { _error: true }                                          # error handler
-# (no match key)                                                 # always match
+## (no match key)                                                 # always match
 ```
 
 ## Loopback (review & goal loops)
@@ -213,7 +215,7 @@ match: { _error: true }                                          # error handler
 Any transition's `to` can point **backward** to an earlier step — that's how review and goal loops are built. `max_loop` caps how many times an edge may fire per run (tracked in `skillflow_edge_counts`); once the cap is hit the edge stops matching, so the run takes another branch instead of looping forever. Set `feedback: true` to inject the step's outputs as `_feedback` into the target on the way back, making the redo corrective.
 
 ```yaml
-# A Red-checker that sends work back to the maker until it passes (max 3×)
+## A Red-checker that sends work back to the maker until it passes (max 3×)
 transitions:
   - to: "implement"          # backward edge → redo the step
     match: { passed: false }
@@ -292,8 +294,7 @@ working tree, staging-first so an agent sees its own just-written edits).
 recoverable rather than terminal.
 
 **A wrong path is not a dead end.** Agents routinely address one namespace with
-another's path (a live one asked a step source for `novel/chapters/ch0003/
-chapter_draft.md` when the step held `chapter_draft.md` at its root — then
+another's path (a live one asked a step source for `novel/chapters/ch0003/ chapter_draft.md` when the step held `chapter_draft.md` at its root — then
 gave up and worked blind). `read` recovers deterministically: if exactly ONE
 file in the searched layers has the requested basename, it is served with the
 corrected path in `resolved_from`; several → the error lists the candidates;
@@ -310,11 +311,11 @@ once the automated reviewer has passed — not on every autonomous revision loop
 On reject, the feedback is injected so the re-run knows *why* it was rejected:
 
 ```python
-# Redo the rejected step itself
+## Redo the rejected step itself
 sf.reject_checkpoint(run_id, "draft", "Add more detail to the analysis")
 
-# Or loop back to a DIFFERENT step — reopen the run earlier and carry the
-# feedback to that target (e.g. reject the final review back to planning)
+## Or loop back to a DIFFERENT step — reopen the run earlier and carry the
+## feedback to that target (e.g. reject the final review back to planning)
 sf.reject_checkpoint(run_id, "final_review", "Goals not met", redirect_to="plan")
 ```
 
@@ -465,11 +466,11 @@ call in a thread is not killable — so recovery has to make the zombie's *write
 harmless. Every claim bumps `skillflow_steps.claim_epoch`, and the value rides
 on the `ClaimToken`:
 
-| path | fenced | how |
-|---|---|---|
-| `confirm_step(token, …)` | always | raises `StaleClaimFenced`, **before** the lifecycle hooks — so `on_deliver` (`repo_apply`, real git commits) and the `{step}.tmp/` → `{step}/` promotion never run twice |
-| `fail_step(token, …)` | always | raises `StaleClaimFenced` — a zombie cannot spend its replacement's retry budget |
-| `sf.execute_tool(…, claim_epoch=token.claim_epoch)` | when the host forwards the epoch | returns `{"error": "… was reclaimed …"}` |
+| path                                                | fenced                           | how                                                                                                                                                                      |
+| --------------------------------------------------- | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `confirm_step(token, …)`                            | always                           | raises `StaleClaimFenced`, **before** the lifecycle hooks — so `on_deliver` (`repo_apply`, real git commits) and the `{step}.tmp/` → `{step}/` promotion never run twice |
+| `fail_step(token, …)`                               | always                           | raises `StaleClaimFenced` — a zombie cannot spend its replacement's retry budget                                                                                         |
+| `sf.execute_tool(…, claim_epoch=token.claim_epoch)` | when the host forwards the epoch | returns `{"error": "… was reclaimed …"}`                                                                                                                                 |
 
 `StaleClaimFenced` subclasses `StepVersionConflict`, but they mean different
 things: a version conflict says *reload and re-decide*, a fence says **stop** —
@@ -532,10 +533,10 @@ With `artifact_history` (**on by default**), each promoted step-output dir is co
 SkillFlow(db, workspace_base="…")                    # artifact history ON by default
 SkillFlow(db, workspace_base="…", artifact_history=False)   # opt out
 
-# List a step's output versions (newest first) and recover any of them
+## List a step's output versions (newest first) and recover any of them
 for v in sf.step_output_versions(project_id, "dpe_default", "3"):
     print(v["commit"], v["timestamp"], v["message"])
-# git show <commit>:<config>/<step>/<file>   (run at the workspace root)
+## git show <commit>:<config>/<step>/<file>   (run at the workspace root)
 ```
 
 - **Best-effort**: any git failure is swallowed — it never breaks a run.
@@ -548,21 +549,21 @@ Complements the trace: the trace answers *why*, artifact history hands you the *
 
 ### Native (13 built-in)
 
-| Tool | Description |
-|------|-------------|
-| `read_file` | Read a file with line numbers |
-| `write` | Write content to workspace |
-| `list_tree` | List directory structure |
-| `dir_tree` | Context tree for prompt injection |
-| `json_schema` | Validate JSON against inline schema |
-| `syntax_lint` | Syntax check via ruff |
-| `py_compile` | Python bytecode compile |
-| `pytest` | Run pytest on test files |
-| `repo_apply` | Copy files to repo + git commit |
-| `repo_validate` | Multi-tool repo validation |
-| `draft_commit` | Move draft files to final dir + commit |
-| `file_exists` | Check files matching glob patterns |
-| `notify` | Send user-visible notifications |
+| Tool            | Description                            |
+| --------------- | -------------------------------------- |
+| `read_file`     | Read a file with line numbers          |
+| `write`         | Write content to workspace             |
+| `list_tree`     | List directory structure               |
+| `dir_tree`      | Context tree for prompt injection      |
+| `json_schema`   | Validate JSON against inline schema    |
+| `syntax_lint`   | Syntax check via ruff                  |
+| `py_compile`    | Python bytecode compile                |
+| `pytest`        | Run pytest on test files               |
+| `repo_apply`    | Copy files to repo + git commit        |
+| `repo_validate` | Multi-tool repo validation             |
+| `draft_commit`  | Move draft files to final dir + commit |
+| `file_exists`   | Check files matching glob patterns     |
+| `notify`        | Send user-visible notifications        |
 
 ### Custom tools
 
@@ -598,7 +599,7 @@ from skillflow import SkillFlow, PipelineGraph
 graph = PipelineGraph.from_yaml("my_pipeline.yaml")
 sf = SkillFlow(":memory:")
 sf.register_graph(graph)
-# ... drive the loop with claim_next_step / confirm_step
+## ... drive the loop with claim_next_step / confirm_step
 ```
 
 ### 2. Agent mode — convert skills to pipelines
@@ -606,11 +607,11 @@ sf.register_graph(graph)
 `skillflow-convert` is a thin wrapper that calls `skillflow-run` with the built-in converter pipeline. The agent drives it the same way:
 
 ```bash
-# Start conversion with a skill description
+## Start conversion with a skill description
 $ skillflow-convert --desc "Code review skill..." --action start
 {"status": "in_progress", "run_id": "abc123", "step": "analyze_skill", "instruction": "..."}
 
-# Submit analysis, continue through design → explain → lint → done (no --desc needed)
+## Submit analysis, continue through design → explain → lint → done (no --desc needed)
 $ skillflow-convert --action submit --run-id abc123 --result '{"analysis": {...}}'
 ```
 
@@ -618,9 +619,9 @@ On completion, the generated pipeline YAML is at `~/.skillflow/workspaces/skill-
 
 Agent manuals (the tool schema + rules) are shipped in the package:
 
-| Plugin | Manual | Load via |
-|--------|--------|----------|
-| `skill_runner` | Actions, response format, rules | `load_agent_guide()` from `skillflow.plugins.skill_runner` |
+| Plugin            | Manual                                      | Load via                                                      |
+| ----------------- | ------------------------------------------- | ------------------------------------------------------------- |
+| `skill_runner`    | Actions, response format, rules             | `load_agent_guide()` from `skillflow.plugins.skill_runner`    |
 | `skill_converter` | Step-by-step: analyze → design → lint → fix | `load_agent_guide()` from `skillflow.plugins.skill_converter` |
 
 Inject these into the agent's system prompt so it knows how to call the CLI tools.
@@ -676,4 +677,3 @@ src/skillflow/
 pytest tests/ -v                    # 330+ tests
 pytest src/skillflow/plugins -v     # 27 plugin tests
 ```
-

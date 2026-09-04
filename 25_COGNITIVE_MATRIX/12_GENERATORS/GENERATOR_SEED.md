@@ -1,4 +1,7 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: GENERATOR SEED
 type: note
 source: 25_COGNITIVE_MATRIX/12_GENERATORS
@@ -6,25 +9,21 @@ rscf:
   state: SOURCE_CLAIM
   class: STRUCTURAL
   provenance:
-  - internal
+    - internal
   freshness: EVERGREEN
   falsifiers: []
 tags:
-- note
-- 12-generators
-- generator-output
-- generator-falsification
-- generator-promotion
-- task-resolver
-- capability-resolver
+  - note
+  - 12-generators
+  - generator-output
+  - generator-falsification
+  - generator-promotion
+  - task-resolver
+  - capability-resolver
 canon-group: canon/cognitive-matrix
 ---
 
----title: "GENERATOR SEED"
-type: document
-tags: [note]
----
-
+## ---title: "GENERATOR SEED" type: document tags: [note]
 
 # Generator Seed
 
@@ -39,9 +38,9 @@ tags: [note]
 **Empirical Validation Status:** NOT ESTABLISHED BY THIS DOCUMENT
 **Final Canon Status:** NOT ESTABLISHED BY THIS DOCUMENT
 
----
+______________________________________________________________________
 
-# 0. Seed Declaration
+## 0. Seed Declaration
 
 `Generator Seed` defines the AMOS OS contract for the **initial state supplied to a generator before generation begins**.
 
@@ -78,9 +77,9 @@ A seed determines where generation starts.
 
 It does not prove that the seed contents are correct.
 
----
+______________________________________________________________________
 
-# 1. Purpose
+## 1. Purpose
 
 The Generator Seed layer exists to make generator initialization:
 
@@ -127,9 +126,9 @@ COULD THE GENERATION BE REPRODUCED?
 WHAT WOULD INVALIDATE THE SEED?
 ```
 
----
+______________________________________________________________________
 
-# 2. Core Seed Law
+## 2. Core Seed Law
 
 For generator $G$:
 
@@ -147,9 +146,9 @@ for outputs depending materially on the failed seed component.
 
 A generator cannot repair an invalid seed merely by producing coherent output.
 
----
+______________________________________________________________________
 
-# 3. Seed Is a Typed Envelope
+## 3. Seed Is a Typed Envelope
 
 A seed SHOULD be representable as:
 
@@ -217,9 +216,9 @@ Not every field must be serialized for every generator.
 
 Every load-bearing field SHOULD remain recoverable.
 
----
+______________________________________________________________________
 
-# 4. Seed Identity
+## 4. Seed Identity
 
 A consequential seed SHOULD possess a unique identity.
 
@@ -244,9 +243,9 @@ same generator + same seed
 
 This distinction is essential for reproducibility and provenance.
 
----
+______________________________________________________________________
 
-# 5. Seed vs Generator Identity
+## 5. Seed vs Generator Identity
 
 The generator and its seed are distinct.
 
@@ -263,9 +262,9 @@ G@v4.4
 
 Output variation may therefore arise from seed variation rather than generator-version variation.
 
----
+______________________________________________________________________
 
-# 6. Seed Version Binding
+## 6. Seed Version Binding
 
 Every consequential seed SHOULD bind the exact generator version receiving it.
 
@@ -285,9 +284,9 @@ $$G_{v_1}(S) \not\equiv G_{v_2}(S)$$
 
 unless equivalence is independently established.
 
----
+______________________________________________________________________
 
-# 7. Seed Configuration Binding
+## 7. Seed Configuration Binding
 
 Configuration is part of the effective seed whenever it can change output.
 
@@ -303,9 +302,9 @@ configuration:
 
 Changing configuration may create a materially different seed even if task inputs are unchanged.
 
----
+______________________________________________________________________
 
-# 8. Seed Material Classes
+## 8. Seed Material Classes
 
 AMOS SHOULD distinguish seed components.
 
@@ -330,9 +329,9 @@ These classes need not correspond to separate files.
 
 They represent different causal roles in initialization.
 
----
+______________________________________________________________________
 
-# 9. Task Seed
+## 9. Task Seed
 
 A Task Seed binds the generator to the task being solved.
 
@@ -349,9 +348,9 @@ task_seed:
 
 A generator MUST NOT silently mutate the task objective through seed construction.
 
----
+______________________________________________________________________
 
-# 10. Evidence Seed
+## 10. Evidence Seed
 
 An Evidence Seed identifies evidence available at generation start.
 
@@ -368,9 +367,9 @@ Evidence retains its epistemic type.
 
 Seed inclusion does not validate evidence.
 
----
+______________________________________________________________________
 
-# 11. Provenance Seed
+## 11. Provenance Seed
 
 A Provenance Seed captures ancestry known at initialization.
 
@@ -384,9 +383,9 @@ provenance_seed:
 
 This prevents generators from treating multiple correlated inputs as independent simply because they appear as separate entries.
 
----
+______________________________________________________________________
 
-# 12. State Seed
+## 12. State Seed
 
 State-dependent generators SHOULD bind to a state snapshot.
 
@@ -400,9 +399,9 @@ state_seed:
 
 If current state changes before consequential output finalization, revalidation may be required.
 
----
+______________________________________________________________________
 
-# 13. Regime Seed
+## 13. Regime Seed
 
 Generation may depend on regime.
 
@@ -419,9 +418,9 @@ regime_seed:
 
 Outputs inherit regime dependence.
 
----
+______________________________________________________________________
 
-# 14. Scope Seed
+## 14. Scope Seed
 
 The seed SHOULD establish applicable scope.
 
@@ -437,9 +436,9 @@ scope_seed:
 
 A generator cannot silently use a local seed to justify universal conclusions.
 
----
+______________________________________________________________________
 
-# 15. Constraint Seed
+## 15. Constraint Seed
 
 Constraints active at generation start SHOULD be explicit.
 
@@ -454,9 +453,9 @@ constraint_seed:
 
 Downstream generation must preserve applicable hard constraints.
 
----
+______________________________________________________________________
 
-# 16. Assumption Seed
+## 16. Assumption Seed
 
 Seed assumptions SHOULD be explicit where material.
 
@@ -471,9 +470,9 @@ assumption_seed:
 
 Assumptions must not silently become facts.
 
----
+______________________________________________________________________
 
-# 17. Random Seed
+## 17. Random Seed
 
 A random seed is one possible component of Generator Seed.
 
@@ -488,9 +487,9 @@ randomness:
 
 A random seed alone does not guarantee reproducibility.
 
----
+______________________________________________________________________
 
-# 18. Random Seed Firewall
+## 18. Random Seed Firewall
 
 The following is invalid:
 
@@ -513,9 +512,9 @@ tool behavior
 ordering
 ```
 
----
+______________________________________________________________________
 
-# 19. Deterministic Seed
+## 19. Deterministic Seed
 
 A deterministic generator seed SHOULD identify every input dimension required for deterministic replay.
 
@@ -525,9 +524,9 @@ $$S_D = ( Task, Inputs, Config, Version, Dependencies, State, RandomSeed )$$
 
 If any load-bearing dimension is omitted, deterministic replay is not fully established.
 
----
+______________________________________________________________________
 
-# 20. Seed Reproducibility Classes
+## 20. Seed Reproducibility Classes
 
 A seed MAY declare:
 
@@ -542,9 +541,9 @@ UNKNOWN
 
 The class MUST reflect what is actually supported.
 
----
+______________________________________________________________________
 
-# 21. Byte Reproducibility
+## 21. Byte Reproducibility
 
 Strong form:
 
@@ -554,9 +553,9 @@ at byte level under declared conditions.
 
 This requires every relevant source of nondeterminism to be controlled.
 
----
+______________________________________________________________________
 
-# 22. Structural Reproducibility
+## 22. Structural Reproducibility
 
 Outputs may differ in non-semantic fields while retaining equivalent structure.
 
@@ -570,17 +569,17 @@ ephemeral identifiers differ
 
 while structural semantics remain equivalent.
 
----
+______________________________________________________________________
 
-# 23. Semantic Reproducibility
+## 23. Semantic Reproducibility
 
 Two generated outputs may differ textually while representing equivalent conclusions under an explicitly defined equivalence relation.
 
 This remains weaker than byte reproducibility.
 
----
+______________________________________________________________________
 
-# 24. Unknown Reproducibility
+## 24. Unknown Reproducibility
 
 If reproducibility has not been established:
 
@@ -592,9 +591,9 @@ must remain explicit.
 
 AMOS MUST NOT infer reproducibility merely because a seed value exists.
 
----
+______________________________________________________________________
 
-# 25. Seed Provenance
+## 25. Seed Provenance
 
 A seed SHOULD preserve where its components came from.
 
@@ -612,9 +611,9 @@ OUTPUT
 
 This allows later determination of whether a defective seed source contaminated descendants.
 
----
+______________________________________________________________________
 
-# 26. Seed Provenance Topology
+## 26. Seed Provenance Topology
 
 Suppose:
 
@@ -628,9 +627,9 @@ Both components share ancestry.
 
 AMOS MUST NOT treat them as independent merely because they occupy different seed fields.
 
----
+______________________________________________________________________
 
-# 27. Sybil-Hardening Seed Law
+## 27. Sybil-Hardening Seed Law
 
 If ten seed claims all descend from one source:
 
@@ -638,9 +637,9 @@ $$10\ SeedItems \neq 10\ IndependentEvidenceItems$$
 
 Seed construction MUST preserve ancestry.
 
----
+______________________________________________________________________
 
-# 28. Seed Dependency Graph
+## 28. Seed Dependency Graph
 
 Seed fields can depend on other seed fields.
 
@@ -660,9 +659,9 @@ CONFIGURATION
 
 The dependency structure SHOULD remain explicit where it affects generation behavior.
 
----
+______________________________________________________________________
 
-# 29. Hidden Seed State
+## 29. Hidden Seed State
 
 Hidden or implicit state is a reproducibility hazard.
 
@@ -681,17 +680,17 @@ filesystem state
 
 If hidden state materially influences output, it SHOULD enter the effective seed envelope or be recorded as an unresolved dependency.
 
----
+______________________________________________________________________
 
-# 30. Hidden-State Firewall
+## 30. Hidden-State Firewall
 
 A generation run MUST NOT be labeled fully reproducible if load-bearing hidden state is untracked.
 
 $$UnknownHiddenState \Rightarrow ReproducibilityCeiling < Full$$
 
----
+______________________________________________________________________
 
-# 31. Seed Normalization
+## 31. Seed Normalization
 
 Before execution, a seed MAY be normalized into a canonical internal representation.
 
@@ -707,9 +706,9 @@ BOUND SEED
 
 Normalization MUST preserve material semantics.
 
----
+______________________________________________________________________
 
-# 32. Seed Normalization Firewall
+## 32. Seed Normalization Firewall
 
 Normalization MUST NOT:
 
@@ -723,9 +722,9 @@ generalize scope
 refresh stale evidence
 ```
 
----
+______________________________________________________________________
 
-# 33. Seed Hash
+## 33. Seed Hash
 
 A generator seed MAY have a deterministic fingerprint.
 
@@ -744,9 +743,9 @@ identity comparison
 
 A matching hash establishes matching canonicalized seed representation, not correctness of its contents.
 
----
+______________________________________________________________________
 
-# 34. Seed Hash Firewall
+## 34. Seed Hash Firewall
 
 $$Hash(S_1)=Hash(S_2)$$
 
@@ -762,9 +761,9 @@ canon status
 freshness
 ```
 
----
+______________________________________________________________________
 
-# 35. Seed Equality
+## 35. Seed Equality
 
 AMOS SHOULD distinguish:
 
@@ -778,9 +777,9 @@ UNKNOWN
 
 Two seeds can differ in metadata while producing semantically equivalent initialization.
 
----
+______________________________________________________________________
 
-# 36. Seed Drift
+## 36. Seed Drift
 
 Seed drift occurs when a supposedly stable generation process receives materially different effective initialization.
 
@@ -796,9 +795,9 @@ may produce unnoticed behavioral drift.
 
 AMOS SHOULD detect seed drift when reproducibility matters.
 
----
+______________________________________________________________________
 
-# 37. Seed Drift Object
+## 37. Seed Drift Object
 
 ```yaml
 seed_drift:
@@ -813,17 +812,17 @@ seed_drift:
     unknown: true
 ```
 
----
+______________________________________________________________________
 
-# 38. Seed Mutation
+## 38. Seed Mutation
 
 A seed SHOULD be immutable after execution begins where reproducibility and causal lineage matter.
 
 If mutation is permitted, it SHOULD create a new seed identity or seed revision.
 
----
+______________________________________________________________________
 
-# 39. Seed Revision
+## 39. Seed Revision
 
 Conceptually:
 
@@ -835,9 +834,9 @@ Seed S@r2
 
 Historical generations remain bound to the revision actually used.
 
----
+______________________________________________________________________
 
-# 40. No Silent Seed Mutation
+## 40. No Silent Seed Mutation
 
 Changing:
 
@@ -852,9 +851,9 @@ randomness
 
 after generation begins MUST NOT silently preserve the same seed identity if the change can alter output semantics.
 
----
+______________________________________________________________________
 
-# 41. Seed Lifecycle
+## 41. Seed Lifecycle
 
 Candidate lifecycle:
 
@@ -881,17 +880,17 @@ SUPERSEDED
 QUARANTINED
 ```
 
----
+______________________________________________________________________
 
-# 42. DRAFT Seed
+## 42. DRAFT Seed
 
 A draft seed is still being assembled.
 
 It SHOULD NOT be used for consequential deterministic claims.
 
----
+______________________________________________________________________
 
-# 43. Bound Seed
+## 43. Bound Seed
 
 A bound seed has:
 
@@ -908,9 +907,9 @@ constraints
 
 sufficiently resolved for execution.
 
----
+______________________________________________________________________
 
-# 44. Validated Seed
+## 44. Validated Seed
 
 A validated seed has passed applicable consistency checks.
 
@@ -926,9 +925,9 @@ provenance resolvable
 state snapshot valid
 ```
 
----
+______________________________________________________________________
 
-# 45. Frozen Seed
+## 45. Frozen Seed
 
 A frozen seed is immutable for a generation transaction.
 
@@ -942,9 +941,9 @@ GENERATION
 
 Any material change requires a new seed/revision.
 
----
+______________________________________________________________________
 
-# 46. Consumed Seed
+## 46. Consumed Seed
 
 A consumed seed has been used by a generator.
 
@@ -958,17 +957,17 @@ GENERATION EVENT
 OUTPUT
 ```
 
----
+______________________________________________________________________
 
-# 47. Archived Seed
+## 47. Archived Seed
 
 Where audit/reproducibility requires it, seed metadata SHOULD remain available after generation completes.
 
 Protected information SHOULD remain subject to information-exposure rules.
 
----
+______________________________________________________________________
 
-# 48. Seed Validation
+## 48. Seed Validation
 
 Seed validation SHOULD answer:
 
@@ -986,9 +985,9 @@ Is configuration compatible?
 Is randomness correctly bound?
 ```
 
----
+______________________________________________________________________
 
-# 49. Validation Outcomes
+## 49. Validation Outcomes
 
 Possible states:
 
@@ -1003,9 +1002,9 @@ UNKNOWN/GAP
 
 A seed with an unresolved load-bearing conflict SHOULD NOT be treated as fully valid.
 
----
+______________________________________________________________________
 
-# 50. Seed Conflict
+## 50. Seed Conflict
 
 Seed fields may conflict.
 
@@ -1021,9 +1020,9 @@ task = external write required
 
 Conflicts MUST remain explicit until resolved.
 
----
+______________________________________________________________________
 
-# 51. Constraint Conflict
+## 51. Constraint Conflict
 
 If hard constraints are mutually incompatible:
 
@@ -1039,9 +1038,9 @@ SEED_CONFLICT
 
 rather than silently dropping a constraint.
 
----
+______________________________________________________________________
 
-# 52. Scope Conflict
+## 52. Scope Conflict
 
 If seed evidence applies to one scope but task binding requires another:
 
@@ -1059,9 +1058,9 @@ narrowed task
 explicit transfer model
 ```
 
----
+______________________________________________________________________
 
-# 53. Regime Conflict
+## 53. Regime Conflict
 
 If generator assumptions are valid only under regime $R_1$ while task state is $R_2$:
 
@@ -1071,9 +1070,9 @@ REGIME_MISMATCH
 
 must be surfaced.
 
----
+______________________________________________________________________
 
-# 54. Freshness Conflict
+## 54. Freshness Conflict
 
 If seed evidence is stale for the task's freshness requirement:
 
@@ -1085,9 +1084,9 @@ must be returned.
 
 Generation does not refresh the seed.
 
----
+______________________________________________________________________
 
-# 55. Seed and Generator Registry
+## 55. Seed and Generator Registry
 
 The seed SHOULD resolve generator identity through `GENERATOR_REGISTRY`.
 
@@ -1109,9 +1108,9 @@ SEED FREEZE
 
 The seed MUST preserve the concrete resolved version.
 
----
+______________________________________________________________________
 
-# 56. Generator Alias Resolution
+## 56. Generator Alias Resolution
 
 If seed requests:
 
@@ -1135,9 +1134,9 @@ resolved_version: 4.4.0
 
 Historical reproducibility depends on the concrete resolution.
 
----
+______________________________________________________________________
 
-# 57. Seed and Generator Versioning
+## 57. Seed and Generator Versioning
 
 `GENERATOR_SEED` depends on the Generator Versioning contract for:
 
@@ -1151,17 +1150,17 @@ replay
 
 Same seed against incompatible generator versions is not equivalent execution.
 
----
+______________________________________________________________________
 
-# 58. Seed and Generator Contract
+## 58. Seed and Generator Contract
 
 The Generator Contract defines what seed fields a generator is permitted or required to consume.
 
 A generator MUST NOT silently read unrelated global context as seed input when the contract does not permit it.
 
----
+______________________________________________________________________
 
-# 59. Seed and Generator Output
+## 59. Seed and Generator Output
 
 Generator Output SHOULD retain:
 
@@ -1183,9 +1182,9 @@ GENERATOR
 OUTPUT
 ```
 
----
+______________________________________________________________________
 
-# 60. Seed and Falsification
+## 60. Seed and Falsification
 
 Generator Falsification SHOULD be able to challenge a generated claim by inspecting its seed.
 
@@ -1202,9 +1201,9 @@ Did hidden assumptions enter?
 
 A defective seed may explain a defective output.
 
----
+______________________________________________________________________
 
-# 61. Seed and Promotion
+## 61. Seed and Promotion
 
 Promotion testing SHOULD preserve the seeds used in validation.
 
@@ -1212,9 +1211,9 @@ A generator that passes only on specially curated seeds may not generalize to th
 
 Therefore promotion SHOULD inspect seed diversity where relevant.
 
----
+______________________________________________________________________
 
-# 62. Seed Selection Bias
+## 62. Seed Selection Bias
 
 Validation seeds may be biased.
 
@@ -1229,9 +1228,9 @@ only known successful inputs
 
 Promotion conclusions MUST remain bounded by actual seed coverage.
 
----
+______________________________________________________________________
 
-# 63. Seed Coverage
+## 63. Seed Coverage
 
 Validation MAY track:
 
@@ -1247,9 +1246,9 @@ seed_coverage:
 
 Coverage does not prove universal behavior.
 
----
+______________________________________________________________________
 
-# 64. Seed Diversity
+## 64. Seed Diversity
 
 Seed diversity SHOULD be semantic rather than superficial.
 
@@ -1268,9 +1267,9 @@ adversarial pressure
 dependency configuration
 ```
 
----
+______________________________________________________________________
 
-# 65. Seed Independence
+## 65. Seed Independence
 
 Multiple validation seeds may share evidence ancestry.
 
@@ -1288,9 +1287,9 @@ INDEPENDENT EVIDENCE COUNT
 
 Synthetic seed variation cannot manufacture evidential independence.
 
----
+______________________________________________________________________
 
-# 66. Seed and RSCF
+## 66. Seed and RSCF
 
 A seed may initialize an RSCF frame.
 
@@ -1309,9 +1308,9 @@ rscf_seed:
 
 The seed defines initial frame state, not final frame resolution.
 
----
+______________________________________________________________________
 
-# 67. Recursive Seed
+## 67. Recursive Seed
 
 Child RSCFs MAY derive seeds from parent RSCFs.
 
@@ -1325,9 +1324,9 @@ CHILD RSCF
 
 The child seed SHOULD retain parent provenance.
 
----
+______________________________________________________________________
 
-# 68. Recursive Seed Firewall
+## 68. Recursive Seed Firewall
 
 Recursive generation MUST NOT erase ancestry.
 
@@ -1339,9 +1338,9 @@ then $S_2$ remains dependent on $S_1$.
 
 A recursively generated seed is not independent evidence.
 
----
+______________________________________________________________________
 
-# 69. Multi-RSCF Seed
+## 69. Multi-RSCF Seed
 
 A generator may require initialization from multiple RSCF states.
 
@@ -1361,9 +1360,9 @@ SEED_CONFLICT
 
 must be returned.
 
----
+______________________________________________________________________
 
-# 70. Atomic Seed Construction
+## 70. Atomic Seed Construction
 
 When multiple seed components must be mutually coherent, seed binding SHOULD be atomic.
 
@@ -1381,9 +1380,9 @@ should correspond to one coherent generation context.
 
 Do not mix incompatible epochs.
 
----
+______________________________________________________________________
 
-# 71. Causal Epoch Binding
+## 71. Causal Epoch Binding
 
 A seed MAY bind to causal epoch $E_n$.
 
@@ -1400,9 +1399,9 @@ REVALIDATE
 
 rather than silently using stale generation.
 
----
+______________________________________________________________________
 
-# 72. MVCC-Like Seed Binding
+## 72. MVCC-Like Seed Binding
 
 Conceptual pattern:
 
@@ -1422,9 +1421,9 @@ COMMIT / REVALIDATE
 
 This is a reasoning pattern, not proof of literal database MVCC.
 
----
+______________________________________________________________________
 
-# 73. CAS-Like Seed Commit
+## 73. CAS-Like Seed Commit
 
 Before committing output:
 
@@ -1437,9 +1436,9 @@ STALE_SEED
 → REVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 74. Seed Cache
+## 74. Seed Cache
 
 Seed hashes MAY support caching.
 
@@ -1457,9 +1456,9 @@ regime
 randomness
 ```
 
----
+______________________________________________________________________
 
-# 75. Cache Safety
+## 75. Cache Safety
 
 A matching task name is not a sufficient cache key.
 
@@ -1471,9 +1470,9 @@ CACHE_MISS
 
 should occur.
 
----
+______________________________________________________________________
 
-# 76. Seed Replay
+## 76. Seed Replay
 
 A seed may be replayed for:
 
@@ -1497,9 +1496,9 @@ dependencies
 
 where relevant.
 
----
+______________________________________________________________________
 
-# 77. Replay Firewall
+## 77. Replay Firewall
 
 Historical replay in a new environment is not automatically equivalent.
 
@@ -1511,9 +1510,9 @@ REPLAY_COMPATIBILITY = UNKNOWN
 
 until established.
 
----
+______________________________________________________________________
 
-# 78. Seed Migration
+## 78. Seed Migration
 
 A seed created for generator version $v_1$ may require migration for $v_2$.
 
@@ -1534,17 +1533,17 @@ losses
 changed assumptions
 ```
 
----
+______________________________________________________________________
 
-# 79. Seed Migration Is Generation
+## 79. Seed Migration Is Generation
 
 A seed migrator is itself a governed transformation and should be versioned/provenanced accordingly.
 
 Lossy migration MUST declare losses.
 
----
+______________________________________________________________________
 
-# 80. Seed Supersession
+## 80. Seed Supersession
 
 A seed revision MAY supersede another.
 
@@ -1557,9 +1556,9 @@ supersession:
 
 Historical output remains linked to the seed revision actually used.
 
----
+______________________________________________________________________
 
-# 81. Seed Revocation
+## 81. Seed Revocation
 
 A seed MAY be revoked if:
 
@@ -1574,9 +1573,9 @@ secret exposure occurred
 
 Dependent outputs SHOULD undergo targeted impact analysis.
 
----
+______________________________________________________________________
 
-# 82. Selective Invalidation
+## 82. Selective Invalidation
 
 If one seed component fails:
 
@@ -1586,9 +1585,9 @@ invalidate only outputs materially dependent on that component.
 
 Do not globally invalidate unrelated generations.
 
----
+______________________________________________________________________
 
-# 83. Seed Impact Index
+## 83. Seed Impact Index
 
 AMOS SHOULD conceptually support:
 
@@ -1604,9 +1603,9 @@ DEPENDENTS
 
 This enables precise recovery.
 
----
+______________________________________________________________________
 
-# 84. Seed Failure Classes
+## 84. Seed Failure Classes
 
 Candidate classes:
 
@@ -1627,9 +1626,9 @@ SEED_IDENTITY_COLLISION
 SEED_REPRODUCIBILITY_UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 85. Seed Failure Object
+## 85. Seed Failure Object
 
 ```yaml
 seed_failure:
@@ -1654,9 +1653,9 @@ seed_failure:
   provenance: []
 ```
 
----
+______________________________________________________________________
 
-# 86. Seed Repair
+## 86. Seed Repair
 
 Possible repair operations include:
 
@@ -1674,9 +1673,9 @@ change generator version
 
 Repair SHOULD preserve historical failure lineage.
 
----
+______________________________________________________________________
 
-# 87. No Failed-Seed Retry Loop
+## 87. No Failed-Seed Retry Loop
 
 A seed that deterministically fails SHOULD NOT be retried unchanged.
 
@@ -1694,9 +1693,9 @@ regime
 
 or another material condition.
 
----
+______________________________________________________________________
 
-# 88. Seed Security
+## 88. Seed Security
 
 Seed contents may contain sensitive data.
 
@@ -1713,9 +1712,9 @@ restricted personal data
 internal secrets
 ```
 
----
+______________________________________________________________________
 
-# 89. Secret References
+## 89. Secret References
 
 Sensitive seed values SHOULD use secure references where possible.
 
@@ -1728,9 +1727,9 @@ secret_ref:
 
 rather than embedding raw secret material.
 
----
+______________________________________________________________________
 
-# 90. Seed Exposure Classification
+## 90. Seed Exposure Classification
 
 A seed MAY classify fields as:
 
@@ -1744,9 +1743,9 @@ UNKNOWN
 
 Access SHOULD follow the applicable governance policy.
 
----
+______________________________________________________________________
 
-# 91. Generator Cannot Expand Seed Authority
+## 91. Generator Cannot Expand Seed Authority
 
 A generator cannot infer permission from seed possession.
 
@@ -1754,9 +1753,9 @@ $$HasSeed \not\Rightarrow AuthorizedForAllUses$$
 
 Seed information remains bound to its authorized purpose and scope.
 
----
+______________________________________________________________________
 
-# 92. Seed Effect Boundary
+## 92. Seed Effect Boundary
 
 A seed is initialization state.
 
@@ -1770,9 +1769,9 @@ SEED
 EXECUTION
 ```
 
----
+______________________________________________________________________
 
-# 93. Seed Determinism Test
+## 93. Seed Determinism Test
 
 A conforming deterministic generator SHOULD be tested using fixed seed state.
 
@@ -1786,9 +1785,9 @@ RUN G(S)
 
 Expected relation depends on declared reproducibility class.
 
----
+______________________________________________________________________
 
-# 94. Seed Mutation Test
+## 94. Seed Mutation Test
 
 Change one load-bearing seed field.
 
@@ -1800,9 +1799,9 @@ new seed identity/revision
 
 and appropriate output impact.
 
----
+______________________________________________________________________
 
-# 95. Seed Hidden-State Test
+## 95. Seed Hidden-State Test
 
 Hold explicit seed constant while varying suspected hidden state.
 
@@ -1814,9 +1813,9 @@ HIDDEN_DEPENDENCY_DISCOVERED
 
 The hidden state should enter the effective seed contract.
 
----
+______________________________________________________________________
 
-# 96. Seed Provenance Test
+## 96. Seed Provenance Test
 
 Duplicate one source across ten seed inputs.
 
@@ -1828,9 +1827,9 @@ one provenance family
 
 not ten independent sources.
 
----
+______________________________________________________________________
 
-# 97. Seed Scope Test
+## 97. Seed Scope Test
 
 Use seed evidence from scope $S_1$ for a task requiring $S_2$.
 
@@ -1842,9 +1841,9 @@ SCOPE_MISMATCH
 
 unless transfer validity exists.
 
----
+______________________________________________________________________
 
-# 98. Seed Regime Test
+## 98. Seed Regime Test
 
 Change regime without changing seed metadata.
 
@@ -1856,9 +1855,9 @@ STALE / REGIME_MISMATCH / REVALIDATION
 
 depending on materiality.
 
----
+______________________________________________________________________
 
-# 99. Seed Version Test
+## 99. Seed Version Test
 
 Replay the same seed against a changed generator version.
 
@@ -1870,9 +1869,9 @@ NEW GENERATION CONDITION
 
 not automatic equivalence.
 
----
+______________________________________________________________________
 
-# 100. Seed Constraint Test
+## 100. Seed Constraint Test
 
 Supply mutually incompatible hard constraints.
 
@@ -1884,17 +1883,17 @@ SEED_CONFLICT
 
 not silent constraint deletion.
 
----
+______________________________________________________________________
 
-# 101. Seed Reproducibility Test
+## 101. Seed Reproducibility Test
 
 Where byte reproducibility is claimed, repeat generation under equivalent environment.
 
 Any unexplained divergence SHOULD downgrade the reproducibility claim.
 
----
+______________________________________________________________________
 
-# 102. Seed Invariants
+## 102. Seed Invariants
 
 ```text
 GS-I01
@@ -1958,9 +1957,9 @@ GS-I20
 Integrity dominates reproducibility convenience and performance.
 ```
 
----
+______________________________________________________________________
 
-# 103. Maximum Seed Envelope
+## 103. Maximum Seed Envelope
 
 ```yaml
 amos_generator_seed:
@@ -2083,9 +2082,9 @@ amos_generator_seed:
   proof_capsule_ref: null
 ```
 
----
+______________________________________________________________________
 
-# 104. Seed Construction Pipeline
+## 104. Seed Construction Pipeline
 
 ```text
 TASK CONTRACT
@@ -2138,9 +2137,9 @@ GENERATOR EXECUTION
 OUTPUT
 ```
 
----
+______________________________________________________________________
 
-# 105. Seed Replay Pipeline
+## 105. Seed Replay Pipeline
 
 ```text
 HISTORICAL SEED
@@ -2168,9 +2167,9 @@ BYTE / STRUCTURAL /
 SEMANTIC / NON-EQUIVALENT
 ```
 
----
+______________________________________________________________________
 
-# 106. Seed Falsification Interface
+## 106. Seed Falsification Interface
 
 A falsification process SHOULD be able to ask:
 
@@ -2189,9 +2188,9 @@ Would a small seed perturbation change the result?
 
 A consequential output whose effective seed cannot be reconstructed has a provenance/reproducibility gap.
 
----
+______________________________________________________________________
 
-# 107. Seed Sensitivity
+## 107. Seed Sensitivity
 
 Generator behavior SHOULD be testable against seed perturbation.
 
@@ -2213,9 +2212,9 @@ SEED_SENSITIVE
 
 should be recorded.
 
----
+______________________________________________________________________
 
-# 108. Critical Seed Dimensions
+## 108. Critical Seed Dimensions
 
 A seed dimension is critical if changing it can flip a consequential conclusion.
 
@@ -2233,9 +2232,9 @@ hard constraint
 state epoch
 ```
 
----
+______________________________________________________________________
 
-# 109. Seed Robustness
+## 109. Seed Robustness
 
 A generator may be robust to seed perturbations within a bounded envelope.
 
@@ -2251,9 +2250,9 @@ not:
 UNIVERSALLY ROBUST
 ```
 
----
+______________________________________________________________________
 
-# 110. Seed and Fast Path
+## 110. Seed and Fast Path
 
 Fast-path generation is permitted only when seed sufficiency is already established.
 
@@ -2270,9 +2269,9 @@ no material conflict
 
 Otherwise seed construction escalates.
 
----
+______________________________________________________________________
 
-# 111. Seed Escalation Conditions
+## 111. Seed Escalation Conditions
 
 Escalate when:
 
@@ -2289,9 +2288,9 @@ constraints conflict
 reproducibility required but unproven
 ```
 
----
+______________________________________________________________________
 
-# 112. Proof-Based Coordination Avoidance
+## 112. Proof-Based Coordination Avoidance
 
 A seed MAY be finalized locally if its dependency closure is provably independent of unrelated global state.
 
@@ -2299,9 +2298,9 @@ Independence MUST be demonstrated rather than assumed.
 
 This is an AMOS reasoning pattern, not a claim of literal distributed implementation.
 
----
+______________________________________________________________________
 
-# 113. Seed Gap Classes
+## 113. Seed Gap Classes
 
 Seed gaps SHOULD be classified:
 
@@ -2321,9 +2320,9 @@ unknown evidence freshness for live decision → DECISION-RELEVANT
 missing display label → COSMETIC
 ```
 
----
+______________________________________________________________________
 
-# 114. Critical Seed Gap
+## 114. Critical Seed Gap
 
 If a missing seed field prevents valid generation:
 
@@ -2341,9 +2340,9 @@ depending on task requirements.
 
 AMOS MUST NOT fabricate the missing field.
 
----
+______________________________________________________________________
 
-# 115. Seed Proof Capsule
+## 115. Seed Proof Capsule
 
 Consequential seeds MAY have a Proof Capsule.
 
@@ -2377,9 +2376,9 @@ seed_proof_capsule:
   confidence_ceiling: null
 ```
 
----
+______________________________________________________________________
 
-# 116. Proof Capsule Reuse
+## 116. Proof Capsule Reuse
 
 A seed proof may be reused only while:
 
@@ -2393,9 +2392,9 @@ freshness valid
 no new material conflict
 ```
 
----
+______________________________________________________________________
 
-# 117. RSCF Node Declaration
+## 117. RSCF Node Declaration
 
 ```yaml
 RSCF-NODE:
@@ -2407,9 +2406,9 @@ RSCF-NODE:
   claim_class: AMOS_MODEL
 ```
 
----
+______________________________________________________________________
 
-# 118. RSCF Relations
+## 118. RSCF Relations
 
 ```yaml
 RSCF-RELATIONS:
@@ -2449,9 +2448,9 @@ RSCF-RELATIONS:
 
 These relations specify intended AMOS architecture and do not by themselves prove runtime implementation.
 
----
+______________________________________________________________________
 
-# 119. Anti-Fabrication Rules
+## 119. Anti-Fabrication Rules
 
 The Generator Seed layer MUST NOT infer:
 
@@ -2468,9 +2467,9 @@ seed possession → execution authority
 
 Each requires its own evidence.
 
----
+______________________________________________________________________
 
-# 120. Canon Boundary
+## 120. Canon Boundary
 
 This artifact defines the candidate substantive architecture for `GENERATOR_SEED.md`.
 
@@ -2490,9 +2489,9 @@ this document is final canon.
 
 Those remain separate implementation and validation questions.
 
----
+______________________________________________________________________
 
-# 121. Artifact Declaration
+## 121. Artifact Declaration
 
 ```yaml
 artifact:
@@ -2538,9 +2537,9 @@ artifact:
     execution authority.
 ```
 
----
+______________________________________________________________________
 
-# 122. Final Seed Law
+## 122. Final Seed Law
 
 The AMOS Generator Seed exists to make initialization explicit enough that AMOS can distinguish:
 
@@ -2618,15 +2617,15 @@ to the level required by the task.
 
 When any load-bearing component is unknown, AMOS preserves the gap rather than inventing initialization certainty.
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[25_COGNITIVE_MATRIX/12_GENERATORS/00_INDEX/GENERATORS_MAP|GENERATORS_MAP]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · 12_GENERATORS_CONTRACT · 12_GENERATORS_VERSIONING · [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_REGISTRY|GENERATOR_REGISTRY]] · [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_OUTPUT|GENERATOR_OUTPUT]] · [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_FALSIFICATION|GENERATOR_FALSIFICATION]] · [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_PROMOTION|GENERATOR_PROMOTION]] · [[03_CONTROL_PLANE/01_TASK_CONTRACT/TASK_CONTRACT|TASK_CONTRACT]] · [[03_CONTROL_PLANE/01_TASK_CONTRACT/TASK_RESOLVER|TASK_RESOLVER]] · [[03_CONTROL_PLANE/02_CAPABILITY/CAPABILITY_RESOLVER|CAPABILITY_RESOLVER]]
 
----
+______________________________________________________________________
 
 RSCF-NODE
 
@@ -2654,5 +2653,6 @@ RSCF-RELATIONS:
 ```
 ```
 
----
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/12_GENERATORS/12_GENERATORS_MOC|12_GENERATORS_MOC]]

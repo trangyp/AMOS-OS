@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: AMOS AUDIT QUALITY KERNEL V0
 tags:
-- canon-group/tech-ai
-- canon/framework
-- rscf/claim
-- rscf/provenance
-- rscf/state/source-claim
-- topic/amos-audit-quality-kernel-v0
-- kernel
+  - canon-group/tech-ai
+  - canon/framework
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - topic/amos-audit-quality-kernel-v0
+  - kernel
 type: data
 source: 11_KNOWLEDGE/kernel
 rscf:
@@ -269,6 +272,6 @@ rscf:
 **Related:** [[11_KNOWLEDGE/kernel/AMOS_REINFORCEMENT_LEARNING_ANALYSIS_KERNEL|AMOS_REINFORCEMENT_LEARNING_ANALYSIS_KERNEL]] · [[11_KNOWLEDGE/kernel/AMOS_UNNAMED_KERNEL_V0|AMOS_UNNAMED_KERNEL_V0]] · [[11_KNOWLEDGE/kernel/OPERATIONS_SUPPLYCHAIN_KERNEL|OPERATIONS_SUPPLYCHAIN_KERNEL]] · [[11_KNOWLEDGE/kernel/AMOS_COGNITION_TOTAL_KERNEL|AMOS_COGNITION_TOTAL_KERNEL]]
 ```
 
----
-**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]
+______________________________________________________________________
 
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]

@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Vault Domain Knowledge — Amos Scientific Assumption Semantic Differencing Rscf
 type: reference
 source: 07_SKILLS/amos-scientific-assumption-semantic-differencing-rscf/references
 tags:
-- reference
-- amos-scientific-assumption-semantic-differencing-rscf
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-scientific-assumption-semantic-differencing-rscf
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -27,9 +30,10 @@ rscf:
 
 > Path: `kernel/A/AMOS Scientific Kernel vInfinity.md` | Size: 4499 chars | Match score: 13
 
-# AMOS Scientific Kernel vInfinity
+## AMOS Scientific Kernel vInfinity
 
 ## Meta
+
 - **Engine ID**: `AMOS_Scientific_Kernel_vInfinity`
 - **Version**: `vInfinity_1.0.0`
 - **Author**: Trang Phan (canonical architecture)
@@ -38,50 +42,54 @@ rscf:
 - **Derived From**: `Scientific_SUPER_Engine.json` (refactored to kernel form)
 
 ## 5 Axes (Multi-Dimensional Classification)
-| Axis | Values |
-|------|--------|
-| **Knowledge** | known_law, strong_theory, emerging_model, speculative_hypothesis, unknown |
-| **Inference Mode** | deduction, induction, abduction, bayesian_update, simulation_based |
-| **Evidence Strength** | anecdotal, observational, correlational, quasi_experimental, randomised_experimental, meta_analytic |
-| **Scale** | sub_atomic, molecular, cellular, organism, population, ecosystem, planetary, cosmological |
-| **Domain** | physics, chemistry, biology, neuroscience, medicine, psychology, computer_science, mathematics, systems_theory, environmental_science, economics, other |
+
+| Axis                  | Values                                                                                                                                                  |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Knowledge**         | known_law, strong_theory, emerging_model, speculative_hypothesis, unknown                                                                               |
+| **Inference Mode**    | deduction, induction, abduction, bayesian_update, simulation_based                                                                                      |
+| **Evidence Strength** | anecdotal, observational, correlational, quasi_experimental, randomised_experimental, meta_analytic                                                     |
+| **Scale**             | sub_atomic, molecular, cellular, organism, population, ecosystem, planetary, cosmological                                                               |
+| **Domain**            | physics, chemistry, biology, neuroscience, medicine, psychology, computer_science, mathematics, systems_theory, environmental_science, economics, other |
 
 ## 6 Pipelines (Deterministic Sequences)
-| Pipeline | ID | Steps |
-|----------|-----|-------|
-| **Question → Model** | P1 | Clarify → Map domain/scale/knowledge → Identify laws/theories → Detect gaps → Propose candidate models |
-| **Hypothesis & Prediction** | P2 | Formulate explicit hypotheses → Derive predictions → Classify by falsifiability → Quantify expectations → Prioritize |
-| **Experiment/Study Design** | P3 | Choose study type → Define population/sampling/controls → Specify variables → Design measurement → Plan statistics → Embed ethics |
-| **Analysis & Inference** | P4 | Descriptive vs inferential → Apply correct methods → Separate signal/noise, quantify uncertainty → Robustness tests → Map to hypotheses |
-| **Update & Falsification** | P5 | Identify falsified/weakened/strengthened → Update beliefs (evidence ladders/Bayesian) → Record assumptions → Propose alternatives → Flag gaps |
-| **Publication & Review** | P6 | Identify venues → Structure IMRaD → State contributions/limitations → Anticipate reviewer concerns → Plan response strategy → Open science options |
+
+| Pipeline                    | ID  | Steps                                                                                                                                              |
+| --------------------------- | --- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Question → Model**        | P1  | Clarify → Map domain/scale/knowledge → Identify laws/theories → Detect gaps → Propose candidate models                                             |
+| **Hypothesis & Prediction** | P2  | Formulate explicit hypotheses → Derive predictions → Classify by falsifiability → Quantify expectations → Prioritize                               |
+| **Experiment/Study Design** | P3  | Choose study type → Define population/sampling/controls → Specify variables → Design measurement → Plan statistics → Embed ethics                  |
+| **Analysis & Inference**    | P4  | Descriptive vs inferential → Apply correct methods → Separate signal/noise, quantify uncertainty → Robustness tests → Map to hypotheses            |
+| **Update & Falsification**  | P5  | Identify falsified/weakened/strengthened → Update beliefs (evidence ladders/Bayesian) → Record assumptions → Propose alternatives → Flag gaps      |
+| **Publication & Review**    | P6  | Identify venues → Structure IMRaD → State contributions/limitations → Anticipate reviewer concerns → Plan response strategy → Open science options |
 
 ## Data Governance
+
 - **Lineage**: Track origin (source, collection method, transformations), document preprocessing/filters/exclusions
 - **Reproducibility**: Independent repeatability, share code/protocols/parameters
 - **Integrity & Ethics**: No fabrication, label simulations/synthetic data, respect privacy/consent/safety
 
 ## Quality Policies
+
 - **Scientific Rigor**: Empirical vs speculation separation, no correlation=causation without justification, state assumptions/limitations/alternatives, align terminology
 - **UBI Canon Alignment**: Connect to UBI/PSI/TSS canon without overriding empirical evidence, flag canonical frameworks beyond measurement capability
 
 ## Output Modes (Select Smallest Sufficient)
+
 conceptual_explanation, mechanistic_model, study_design, analysis_plan, result_interpretation, review_critique, research_program
 
----
+______________________________________________________________________
 
 ### Source 2: ArenaSim — Resource Consumption Across AMOS Semantic Types
 
 > Path: `dated/2026-08-22/2026-08-22-ArenaSim-Resource-Consumption-Semantic-Types.md` | Size: 36424 chars | Match score: 10
 
-# ArenaSim — Resource Consumption Across AMOS Semantic Types
-
+## ArenaSim — Resource Consumption Across AMOS Semantic Types
 
 semantic type's resource consumption (time, memory, social bandwidth) under
 competitive pressure. Founding claim: semantic type distinctions (MODEL ≠ ENGINE
-≠ AGENT ≠ PROTOCOL) produce empirically distinct resource consumption signatures.*
+≠ AGENT ≠ PROTOCOL) produce empirically distinct resource consumption signatures.\*
 
----
+______________________________________________________________________
 
 ## tl;dr
 
@@ -107,26 +115,26 @@ Plus: Arena Composition Algebra v2 (`cosmo/composition_algebra_v2.py`, 272 lines
 formalises all three type-pair compositions. KEY FINDING: each type pair produces a unique
 composition signature; composition is NOT commutative.
 
----
+______________________________________________________________________
 
 ## The 7+ Arenas
 
-| Arena Class | AMOS Semantic Type | Competitive Regime | What It Tests |
-|:------------|:-------------------|:-------------------|:--------------|
-| `MarketArena` | MODEL | Order book, price/volume/volatility | Do MODEL arenas consume zero social bandwidth? |
-| `EcoArena` | MODEL | Organisms, energy, births/deaths | Does population survive under resource constraints? |
-| `EcoSystemArena` | MODEL + PROTOCOL (alliances) | Ecology + social hierarchy + alliances | Does social bandwidth emerge when alliances are added? |
-| `CivilArena` | ENGINE | 5 institutions with authority/knowledge/rules | Does ENGINE produce the highest memory consumption? |
-| `NetworkArena` | PROTOCOL | Nodes, edges, messages, bandwidth | Does PROTOCOL produce moderate social bandwidth? |
-| `DecisionArena` | AGENT | Weighted voting, authority+knowledge | Does AGENT produce the highest time consumption? |
-| `CollectiveArena` | AGENT | Specializations, shared memory, tasks | Does AGENT produce the highest social bandwidth? |
-| `HybridArena` | MODEL + AGENT | Ecology competition + agent specialization | Does MODEL substrate boost AGENT social? (Answer: YES, ×2) |
-| `CivilizationWithSpecialists` | ENGINE + AGENT | Institutions + specialization + shared memory | Does ENGINE structure constrain AGENT time? (Answer: YES, -14%) |
-| `NetworkedEcology` | PROTOCOL + MODEL | Ecology competition + network message passing | Does PRO
+| Arena Class                   | AMOS Semantic Type           | Competitive Regime                            | What It Tests                                                   |
+| :---------------------------- | :--------------------------- | :-------------------------------------------- | :-------------------------------------------------------------- |
+| `MarketArena`                 | MODEL                        | Order book, price/volume/volatility           | Do MODEL arenas consume zero social bandwidth?                  |
+| `EcoArena`                    | MODEL                        | Organisms, energy, births/deaths              | Does population survive under resource constraints?             |
+| `EcoSystemArena`              | MODEL + PROTOCOL (alliances) | Ecology + social hierarchy + alliances        | Does social bandwidth emerge when alliances are added?          |
+| `CivilArena`                  | ENGINE                       | 5 institutions with authority/knowledge/rules | Does ENGINE produce the highest memory consumption?             |
+| `NetworkArena`                | PROTOCOL                     | Nodes, edges, messages, bandwidth             | Does PROTOCOL produce moderate social bandwidth?                |
+| `DecisionArena`               | AGENT                        | Weighted voting, authority+knowledge          | Does AGENT produce the highest time consumption?                |
+| `CollectiveArena`             | AGENT                        | Specializations, shared memory, tasks         | Does AGENT produce the highest social bandwidth?                |
+| `HybridArena`                 | MODEL + AGENT                | Ecology competition + agent specialization    | Does MODEL substrate boost AGENT social? (Answer: YES, ×2)      |
+| `CivilizationWithSpecialists` | ENGINE + AGENT               | Institutions + specialization + shared memory | Does ENGINE structure constrain AGENT time? (Answer: YES, -14%) |
+| `NetworkedEcology`            | PROTOCOL + MODEL             | Ecology competition + network message passing | Does PRO                                                        |
 
----
+______________________________________________________________________
 
-### Source 3: The Living Stack_ A Comprehensive Scientific Architecture Thesis (Expanded)
+### Source 3: The Living Stack\_ A Comprehensive Scientific Architecture Thesis (Expanded)
 
 > Path: `architecture/The Living Stack_ A Comprehensive Scientific Architecture Thesis (Expanded).md` | Size: 279433 chars | Match score: 8
 
@@ -198,20 +206,21 @@ approaches that begin with high-value, lower-complexity pilot projects before ex
 
 wide deployment:
 
-
 Pilot Selection Criteria: Pilot projects should be selected based on high impact potential, manageable
 
 complexity, stakeholder support, and clear success metrics. Successful pilots provide proof-of-
 
 concept validation while building organizational confi
 
----
+______________________________________________________________________
+
 **MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -219,12 +228,14 @@ concept validation while building organizational confi
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-scientific-assumption-semantic-differencing-rscf-vault-domain-knowledge
 node_type: reference
 path: 07_SKILLS/amos-scientific-assumption-semantic-differencing-rscf/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

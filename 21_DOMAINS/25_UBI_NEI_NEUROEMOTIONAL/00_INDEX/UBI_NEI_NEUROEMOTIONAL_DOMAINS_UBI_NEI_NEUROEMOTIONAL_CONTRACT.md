@@ -1,51 +1,62 @@
 ---
-title: UBI NEI NEUROEMOTIONAL DOMAINS UBI NEI NEUROEMOTIONAL CONTRACT
-type: emotion
-source: 21_DOMAINS/25_UBI_NEI_NEUROEMOTIONAL/00_INDEX
-tags:
-- amos-os
-- canon/domain
-- routing-policy-validation-receipt
-- authz-engine-validation-receipt
+title: "Ubi Nei Neuroemotional Domains Ubi Nei Neuroemotional Contract — Specialist Domain Specification"
+type: domain_specification
+source: 21_DOMAINS
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
+status: ACTIVE_SPECIFICATION
+epistemic_class: AMOS_MODEL
+conclusion_class: DERIVED
 rscf:
   state: DERIVED
-  claim_class: CONDITIONAL
-  provenance: AMOS_corpus
-  scope: index_navigation
+  claim_class: AMOS_MODEL
+  provenance:
+    - 21_DOMAINS/00_INDEX/DOMAIN_EXTENSION_PROTOCOL
+    - 00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE
+  scope: domain_specialization
+tags:
+  - amos-os
+  - domains
+  - c01-c12
+  - ubi-nei-neuroemotional-domains-ubi-nei-neuroemotional-contract
 ---
 
-# UBI NEI NEUROEMOTIONAL DOMAINS UBI NEI NEUROEMOTIONAL CONTRACT
+# Ubi Nei Neuroemotional Domains Ubi Nei Neuroemotional Contract — Specialist Domain Specification
 
-STATUS: PROPOSED_SPECIFICATION
-epistemic_class: AMOS_MODEL
-canonical_status: CONDITIONAL
-updated: 2026-08-26
-
-## Purpose
-Index navigation stub; canonical content in package contract.
-
-## Contract discipline
-Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
-
-## Gaps
-Executable binding PARTIAL unless an executed validation receipt exists for this subsystem (see [[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]], [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]).
+> **Origin Architect / Steward:** Trang Phan  
+> **AMOS_CORE Target:** `v4.4`  
+> **Conclusion Class:** `AMOS_MODEL`  
+> **Status:** `ACTIVE_SPECIFICATION`
 
 ---
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+## 1. Domain Scope & Objectives
+
+`UBI_NEI_NEUROEMOTIONAL_DOMAINS_UBI_NEI_NEUROEMOTIONAL_CONTRACT` defines the specialized domain models, ontologies, regulatory frameworks, and operational packages under `21_DOMAINS`.
+
+Governed under **Partition C: Cognitive Capability & Orchestration** and the [[21_DOMAINS/00_INDEX/DOMAIN_EXTENSION_PROTOCOL|DOMAIN_EXTENSION_PROTOCOL]].
 
 ---
-**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+
+## 2. Domain Rules & Invariants
+
+1. **Non-Contradiction with Canon:** Specialist domain rules cannot supersede root axioms in `01_CANON`.
+2. **Explicit Confidence Attenuation:** Conclusions derived within `UBI_NEI_NEUROEMOTIONAL_DOMAINS_UBI_NEI_NEUROEMOTIONAL_CONTRACT` must declare confidence ceilings ($\mathcal{C} \le 0.95$).
+3. **Cross-Regime Bridges:** Transfers from this domain to adjacent domains require formal translation penalties.
 
 ---
-RSCF-NODE
-node_id: amos_ndex_ubi_nei_neuroemotional_domains_ubi_nei_neuroemotional_contract_md
-node_type: note
-path: 21_DOMAINS/25_UBI_NEI_NEUROEMOTIONAL/00_INDEX/UBI_NEI_NEUROEMOTIONAL_DOMAINS_UBI_NEI_NEUROEMOTIONAL_CONTRACT.md
-claim_class: AMOS_MODEL
+
+## 3. Operational Mechanics & Datasets
+
+- **Domain Models:** Mathematical, empirical, or statistical formulations specific to `Ubi Nei Neuroemotional Domains Ubi Nei Neuroemotional Contract`.
+- **Allowed Tooling:** Strictly sandboxed Tier 1 and Tier 2 adapters.
+- **Verification Gates:** Invariant tests codified in `19_TESTS/`.
 
 ---
-**MOC:** [[21_DOMAINS/25_UBI_NEI_NEUROEMOTIONAL/00_INDEX/INDEX_UBI_NEI_NEUROEMOTIONAL_DOMAINS_README|INDEX_UBI_NEI_NEUROEMOTIONAL_DOMAINS_README]]
 
----
-**MOC:** [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]]
+## 4. Integration
+
+- **Master Domain Hub:** [[21_DOMAINS/21_DOMAINS_MOC|21_DOMAINS_MOC]]
+- **Protocol Standard:** [[21_DOMAINS/00_INDEX/DOMAIN_EXTENSION_PROTOCOL|DOMAIN_EXTENSION_PROTOCOL]]
+- **Agent Roles:** [[06_AGENTS/AGENT_ROLE_REGISTRY|AGENT_ROLE_REGISTRY]]

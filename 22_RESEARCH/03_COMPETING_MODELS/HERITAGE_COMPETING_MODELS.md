@@ -12,18 +12,18 @@ segment: 22_RESEARCH/03_COMPETING_MODELS
 artifact_kind: COMPETING_MODELS_ANALYSIS
 path: 22_RESEARCH/03_COMPETING_MODELS/HERITAGE_COMPETING_MODELS.md
 tags:
-- amos-os
-- research
-- vault
-- 03_competing_models
-- heritage_competing_models
-- decision_science_comparison
-- long_horizon_memory
-- rscf
-- canon_candidate
-- canon/research
-- heritage-intelligence-master
-- heritage-handbook
+  - amos-os
+  - research
+  - vault
+  - 03_competing_models
+  - heritage_competing_models
+  - decision_science_comparison
+  - long_horizon_memory
+  - rscf
+  - canon_candidate
+  - canon/research
+  - heritage-intelligence-master
+  - heritage-handbook
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -38,13 +38,13 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - 11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_INTELLIGENCE_MASTER
-  - 22_RESEARCH/03_COMPETING_MODELS/03_COMPETING_MODELS_MOC
-  - AMOS_CORPUS
+    - 11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_INTELLIGENCE_MASTER
+    - 22_RESEARCH/03_COMPETING_MODELS/03_COMPETING_MODELS_MOC
+    - AMOS_CORPUS
   scope:
-  - RESEARCH_ANALYSIS
-  - COMPETING_MODELS
-  - SOURCE_DEFINED_MODEL
+    - RESEARCH_ANALYSIS
+    - COMPETING_MODELS
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   competing_moc:
     artifact: 22_RESEARCH/03_COMPETING_MODELS/03_COMPETING_MODELS_MOC
@@ -61,28 +61,28 @@ epistemic_boundary:
 
 `HERITAGE_COMPETING_MODELS.md` evaluates **Heritage Decision Intelligence** against modern behavioral economics, game theory, and deep reinforcement learning decision policies.
 
----
+______________________________________________________________________
 
-# 1. Decision Intelligence Comparative Grid
+## 1. Decision Intelligence Comparative Grid
 
-| Decision Framework | Time Horizon | Provenance Model | Resilience Mechanism | Failure Point |
-| :--- | :--- | :--- | :--- | :--- |
-| **Classical Game Theory** | Static / Finite Iterations | Independent utility payoff matrices | Nash equilibrium selection | Collapses under asymmetric information |
-| **Deep RL (Markov Decision Process)** | Short-to-Mid horizon discounted ($\gamma$) | Reward signal maximization | Value function approximation | Catastrophic forgetting / policy drift |
-| **Behavioral Economics** | Immediate heuristic framing | Empirical bias modeling | Nudge interventions | Vulnerable to adversarial manipulation |
-| **Heritage Decision Intelligence** | **Millennial Civilizational Horizon** | **32-Layer Non-Compensatory Ancestry** | **Polycentric Null-State Reset ($S_0$)** | **Rejects ungrounded short-term optimization** |
+| Decision Framework                    | Time Horizon                               | Provenance Model                       | Resilience Mechanism                     | Failure Point                                  |
+| :------------------------------------ | :----------------------------------------- | :------------------------------------- | :--------------------------------------- | :--------------------------------------------- |
+| **Classical Game Theory**             | Static / Finite Iterations                 | Independent utility payoff matrices    | Nash equilibrium selection               | Collapses under asymmetric information         |
+| **Deep RL (Markov Decision Process)** | Short-to-Mid horizon discounted ($\gamma$) | Reward signal maximization             | Value function approximation             | Catastrophic forgetting / policy drift         |
+| **Behavioral Economics**              | Immediate heuristic framing                | Empirical bias modeling                | Nudge interventions                      | Vulnerable to adversarial manipulation         |
+| **Heritage Decision Intelligence**    | **Millennial Civilizational Horizon**      | **32-Layer Non-Compensatory Ancestry** | **Polycentric Null-State Reset ($S_0$)** | **Rejects ungrounded short-term optimization** |
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Competing Models MOC:** 22_RESEARCH/03_COMPETING_MODELS/[[22_RESEARCH/03_COMPETING_MODELS/03_COMPETING_MODELS_MOC|03_COMPETING_MODELS_MOC]]
 - **Heritage Master:** 11_KNOWLEDGE/05_FRAMEWORKS/[[11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_INTELLIGENCE_MASTER|HERITAGE_INTELLIGENCE_MASTER]]
 - **Heritage Handbook:** 11_KNOWLEDGE/05_FRAMEWORKS/[[11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_HANDBOOK|HERITAGE_HANDBOOK]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -100,10 +100,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[22_RESEARCH/22_RESEARCH_MOC|22_RESEARCH_MOC]] · 22_RESEARCH/03_COMPETING_MODELS/[[22_RESEARCH/03_COMPETING_MODELS/03_COMPETING_MODELS_MOC|03_COMPETING_MODELS_MOC]] · 11_KNOWLEDGE/05_FRAMEWORKS/[[11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_INTELLIGENCE_MASTER|HERITAGE_INTELLIGENCE_MASTER]]
 
----
-**MOC:** 22_RESEARCH/03_COMPETING_MODELS/[[22_RESEARCH/03_COMPETING_MODELS/03_COMPETING_MODELS_MOC|03_COMPETING_MODELS_MOC]]
+______________________________________________________________________
 
+**MOC:** 22_RESEARCH/03_COMPETING_MODELS/[[22_RESEARCH/03_COMPETING_MODELS/03_COMPETING_MODELS_MOC|03_COMPETING_MODELS_MOC]]

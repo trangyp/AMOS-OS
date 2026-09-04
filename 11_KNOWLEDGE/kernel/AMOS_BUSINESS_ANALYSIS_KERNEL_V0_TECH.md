@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: AMOS BUSINESS ANALYSIS KERNEL V0 TECH
 tags:
-- canon-group/tech-ai
-- canon/framework
-- rscf/claim
-- rscf/provenance
-- rscf/state/source-claim
-- topic/amos-business-analysis-kernel-v0
-- kernel
+  - canon-group/tech-ai
+  - canon/framework
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - topic/amos-business-analysis-kernel-v0
+  - kernel
 type: data
 source: 11_KNOWLEDGE/kernel
 rscf:
@@ -100,6 +103,6 @@ rscf:
 **Related:** [[11_KNOWLEDGE/kernel/AMOS_SECURITY_ARCHITECTURE_KERNEL_V0_TECH|AMOS_SECURITY_ARCHITECTURE_KERNEL_V0_TECH]] · [[11_KNOWLEDGE/kernel/AMOS_COGNITION_TOTAL_KERNEL|AMOS_COGNITION_TOTAL_KERNEL]] · [[11_KNOWLEDGE/kernel/REASONING_KERNEL|REASONING_KERNEL]] · [[11_KNOWLEDGE/kernel/AMOS_SIMULATION_KERNEL|AMOS_SIMULATION_KERNEL]]
 ```
 
----
-**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]
+______________________________________________________________________
 
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]

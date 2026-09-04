@@ -1,4 +1,7 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: INDEX GENERATORS COGNITIVE MATRIX README
 type: note
 source: 25_COGNITIVE_MATRIX/12_GENERATORS/00_INDEX
@@ -6,34 +9,30 @@ rscf:
   state: SOURCE_CLAIM
   class: STRUCTURAL
   provenance:
-  - internal
+    - internal
   freshness: EVERGREEN
   falsifiers: []
 tags:
-- note
-- readme
-- task-resolver
-- capability-resolver
-- mode-admission-queue
-- mode-coverage-matrix
-- mode-dependency-graph
-- k-constraint-propagation
-- k-binding
-- k-rscf
-- k-hml
-- k-gmef
-- k-sybil-hardening
-- generator-templates
-- k-counterfactual
-- k-translation
+  - note
+  - readme
+  - task-resolver
+  - capability-resolver
+  - mode-admission-queue
+  - mode-coverage-matrix
+  - mode-dependency-graph
+  - k-constraint-propagation
+  - k-binding
+  - k-rscf
+  - k-hml
+  - k-gmef
+  - k-sybil-hardening
+  - generator-templates
+  - k-counterfactual
+  - k-translation
 canon-group: canon/cognitive-matrix
 ---
 
----title: "INDEX GENERATORS COGNITIVE MATRIX README"
-type: document
-tags: [note]
----
-
+## ---title: "INDEX GENERATORS COGNITIVE MATRIX README" type: document tags: [note]
 
 # Cognitive Matrix Routing — README
 
@@ -48,9 +47,9 @@ tags: [note]
 **Empirical Validation Status:** NOT ESTABLISHED BY THIS DOCUMENT
 **Final Canon Status:** NOT ESTABLISHED BY THIS DOCUMENT
 
----
+______________________________________________________________________
 
-# 0. Declaration
+## 0. Declaration
 
 The Cognitive Matrix Routing layer defines the AMOS model for determining how an admitted task is mapped into an appropriate reasoning/execution configuration.
 
@@ -91,9 +90,9 @@ not simply:
 
 $$Task \rightarrow Mode$$
 
----
+______________________________________________________________________
 
-# 1. Purpose
+## 1. Purpose
 
 This README is the canonical navigation and architectural entry point for:
 
@@ -104,19 +103,19 @@ This README is the canonical navigation and architectural entry point for:
 Its purpose is to explain:
 
 1. what routing means inside the Cognitive Matrix;
-2. what routing is allowed to decide;
-3. what routing must not silently decide;
-4. which artifacts participate in routing;
-5. how task, capability, mode, dependency, constraint, provenance, scope, and regime resolution interact;
-6. when local routing is sufficient;
-7. when routing must escalate;
-8. how ambiguity and conflict are preserved;
-9. how routing decisions remain inspectable and reversible;
-10. how the routing layer interfaces with the broader AMOS RSCF/H/M/L architecture.
+1. what routing is allowed to decide;
+1. what routing must not silently decide;
+1. which artifacts participate in routing;
+1. how task, capability, mode, dependency, constraint, provenance, scope, and regime resolution interact;
+1. when local routing is sufficient;
+1. when routing must escalate;
+1. how ambiguity and conflict are preserved;
+1. how routing decisions remain inspectable and reversible;
+1. how the routing layer interfaces with the broader AMOS RSCF/H/M/L architecture.
 
----
+______________________________________________________________________
 
-# 2. Non-Claim Boundary
+## 2. Non-Claim Boundary
 
 This artifact is a substantive AMOS architectural specification.
 
@@ -145,9 +144,9 @@ and:
 
 $$\boxed{ RoutingModel \neq VerifiedRuntimeBehavior }$$
 
----
+______________________________________________________________________
 
-# 3. Core Routing Law
+## 3. Core Routing Law
 
 The routing layer MUST select the smallest sufficient execution configuration that satisfies the task without weakening integrity.
 
@@ -177,9 +176,9 @@ Therefore:
 
 $$\boxed{ Efficiency \not> Integrity }$$
 
----
+______________________________________________________________________
 
-# 4. Routing Is a Resolution Problem
+## 4. Routing Is a Resolution Problem
 
 Routing receives a task state:
 
@@ -195,9 +194,9 @@ $$R = \{ TaskBinding, Capabilities, Modes, Generators, Dependencies, Constraints
 
 A route is admissible only if the load-bearing requirements are jointly compatible.
 
----
+______________________________________________________________________
 
-# 5. Routing Inputs
+## 5. Routing Inputs
 
 A routing request MAY contain:
 
@@ -234,9 +233,9 @@ routing_input:
 
 Missing values MUST NOT be fabricated merely to complete the routing object.
 
----
+______________________________________________________________________
 
-# 6. Routing Output
+## 6. Routing Output
 
 A successful route SHOULD conceptually produce:
 
@@ -286,9 +285,9 @@ routing_output:
   status:
 ```
 
----
+______________________________________________________________________
 
-# 7. Routing Result Classes
+## 7. Routing Result Classes
 
 Routing SHOULD distinguish at least:
 
@@ -304,9 +303,9 @@ UNKNOWN/GAP
 
 These states are semantically different.
 
----
+______________________________________________________________________
 
-# 8. `ADMITTED`
+## 8. `ADMITTED`
 
 Use when a route is sufficiently established and no unresolved decision-changing routing conflict remains.
 
@@ -314,9 +313,9 @@ Use when a route is sufficiently established and no unresolved decision-changing
 status: ADMITTED
 ```
 
----
+______________________________________________________________________
 
-# 9. `ADMITTED_CONDITIONALLY`
+## 9. `ADMITTED_CONDITIONALLY`
 
 Use when execution may proceed only under explicit assumptions or bounded conditions.
 
@@ -327,9 +326,9 @@ conditions:
   - ...
 ```
 
----
+______________________________________________________________________
 
-# 10. `ESCALATED`
+## 10. `ESCALATED`
 
 Use when the current routing scope is insufficient.
 
@@ -346,9 +345,9 @@ Typical triggers include:
 - insufficient capability;
 - unresolved constraint propagation.
 
----
+______________________________________________________________________
 
-# 11. `COMPETING_ROUTES`
+## 11. `COMPETING_ROUTES`
 
 If two incompatible routes remain materially plausible:
 
@@ -365,9 +364,9 @@ COMPETING_ROUTES
 
 rather than arbitrarily selecting one.
 
----
+______________________________________________________________________
 
-# 12. `BLOCKED`
+## 12. `BLOCKED`
 
 Use when a known requirement prevents execution.
 
@@ -381,9 +380,9 @@ missing mandatory dependency
 governance authorization absent
 ```
 
----
+______________________________________________________________________
 
-# 13. `UNSATISFIABLE`
+## 13. `UNSATISFIABLE`
 
 A route is unsatisfiable when no known configuration can jointly satisfy the applicable hard requirements.
 
@@ -391,9 +390,9 @@ Conceptually:
 
 $$\neg \exists R : Requirements(R)$$
 
----
+______________________________________________________________________
 
-# 14. `UNKNOWN/GAP`
+## 14. `UNKNOWN/GAP`
 
 Use when route validity cannot be established because critical routing information is missing.
 
@@ -401,9 +400,9 @@ Unknown is not equivalent to admissible.
 
 $$UNKNOWN \neq TRUE$$
 
----
+______________________________________________________________________
 
-# 15. Routing Architecture
+## 15. Routing Architecture
 
 The conceptual routing pipeline is:
 
@@ -451,9 +450,9 @@ ROUTE
 
 This is an architectural model, not evidence of a literal software pipeline.
 
----
+______________________________________________________________________
 
-# 16. Task Resolution
+## 16. Task Resolution
 
 Routing begins from the task rather than from a preferred mode.
 
@@ -467,9 +466,9 @@ $$PreferredMode \rightarrow ForceTaskIntoMode$$
 
 This prevents solution-first routing.
 
----
+______________________________________________________________________
 
-# 17. Task Contract Interface
+## 17. Task Contract Interface
 
 Routing SHOULD consume task requirements established through:
 
@@ -490,9 +489,9 @@ freshness
 escalation conditions
 ```
 
----
+______________________________________________________________________
 
-# 18. Task Resolver Interface
+## 18. Task Resolver Interface
 
 `TASK_RESOLVER.md` conceptually transforms an incoming task into a routing-relevant task representation.
 
@@ -522,9 +521,9 @@ resolved_task:
   stakes:
 ```
 
----
+______________________________________________________________________
 
-# 19. Capability Resolution
+## 19. Capability Resolution
 
 Capabilities answer:
 
@@ -547,9 +546,9 @@ a retrieval operation
 
 depending on the applicable architecture.
 
----
+______________________________________________________________________
 
-# 20. Capability Resolver Interface
+## 20. Capability Resolver Interface
 
 `CAPABILITY_RESOLVER.md` SHOULD conceptually determine:
 
@@ -569,9 +568,9 @@ capability_resolution:
   unresolved: []
 ```
 
----
+______________________________________________________________________
 
-# 21. Capability Sufficiency
+## 21. Capability Sufficiency
 
 For required capability set:
 
@@ -589,9 +588,9 @@ subject to compatibility and constraints.
 
 Nominal capability presence alone is insufficient if the capability is unavailable in the required scope or regime.
 
----
+______________________________________________________________________
 
-# 22. Mode Resolution
+## 22. Mode Resolution
 
 Modes describe execution/reasoning configurations that MAY satisfy capability requirements.
 
@@ -607,9 +606,9 @@ active mode
 
 These are not synonyms.
 
----
+______________________________________________________________________
 
-# 23. Requested Mode
+## 23. Requested Mode
 
 A user or subsystem MAY request mode $M$.
 
@@ -619,17 +618,17 @@ It is not automatic admission.
 
 $$Requested(M) \not\Rightarrow Admitted(M)$$
 
----
+______________________________________________________________________
 
-# 24. Candidate Mode
+## 24. Candidate Mode
 
 A mode becomes a candidate when it plausibly satisfies part of the task.
 
 Candidate status does not establish compatibility.
 
----
+______________________________________________________________________
 
-# 25. Admissible Mode
+## 25. Admissible Mode
 
 A mode becomes admissible only after relevant checks succeed.
 
@@ -639,25 +638,25 @@ $$Admissible(M) = Coverage(M) \land Dependencies(M) \land Constraints(M) \land N
 
 with additional scope/regime/governance conditions where required.
 
----
+______________________________________________________________________
 
-# 26. Selected Mode
+## 26. Selected Mode
 
 A selected mode is an admissible mode chosen as part of the route.
 
 Selection SHOULD prefer the smallest sufficient mode configuration.
 
----
+______________________________________________________________________
 
-# 27. Active Mode
+## 27. Active Mode
 
 An active mode is a runtime concept.
 
 This README does not establish that selected modes are literally instantiated as executable runtime objects.
 
----
+______________________________________________________________________
 
-# 28. Mode Coverage Matrix
+## 28. Mode Coverage Matrix
 
 `MODE_COVERAGE_MATRIX.md` SHOULD answer questions such as:
 
@@ -673,9 +672,9 @@ Where is coverage unsupported?
 Which evidence supports the coverage assertion?
 ```
 
----
+______________________________________________________________________
 
-# 29. Coverage States
+## 29. Coverage States
 
 Recommended conceptual states:
 
@@ -689,9 +688,9 @@ UNKNOWN
 
 `UNKNOWN` MUST NOT be silently interpreted as `FULL`.
 
----
+______________________________________________________________________
 
-# 30. Mode Dependency Graph
+## 30. Mode Dependency Graph
 
 `MODE_DEPENDENCY_GRAPH.md` SHOULD model dependencies between modes or routing components.
 
@@ -707,9 +706,9 @@ M1
 
 A selected mode inherits relevant load-bearing dependencies.
 
----
+______________________________________________________________________
 
-# 31. Dependency Closure
+## 31. Dependency Closure
 
 For candidate route $R$:
 
@@ -719,9 +718,9 @@ contains the dependencies that can materially affect route validity.
 
 Routing SHOULD establish sufficient dependency closure before admission.
 
----
+______________________________________________________________________
 
-# 32. Dependency Closure Is Bounded
+## 32. Dependency Closure Is Bounded
 
 AMOS routing does not require traversing every theoretically reachable node.
 
@@ -733,9 +732,9 @@ $$RelevantClosure \subseteq TotalReachableGraph$$
 
 in many tasks.
 
----
+______________________________________________________________________
 
-# 33. Mode Conflict Registry
+## 33. Mode Conflict Registry
 
 `MODE_CONFLICT_REGISTRY.md` SHOULD represent known incompatible combinations.
 
@@ -758,9 +757,9 @@ conflict:
   resolution:
 ```
 
----
+______________________________________________________________________
 
-# 34. Conflict Classes
+## 34. Conflict Classes
 
 Routing MAY distinguish:
 
@@ -776,9 +775,9 @@ GOVERNANCE
 UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 35. Hard Conflict
+## 35. Hard Conflict
 
 A hard conflict blocks simultaneous activation under the applicable scope.
 
@@ -786,9 +785,9 @@ $$Conflict_{hard}(M_1,M_2) \Rightarrow \neg Compose(M_1,M_2)$$
 
 unless a higher-level authorized resolution changes the conditions.
 
----
+______________________________________________________________________
 
-# 36. Conditional Conflict
+## 36. Conditional Conflict
 
 Two modes MAY conflict only under particular:
 
@@ -803,9 +802,9 @@ configuration
 
 The condition must remain attached to the conflict.
 
----
+______________________________________________________________________
 
-# 37. Mode Composition Registry
+## 37. Mode Composition Registry
 
 `MODE_COMPOSITION_REGISTRY.md` SHOULD define valid mode combinations.
 
@@ -831,9 +830,9 @@ composition:
   validation:
 ```
 
----
+______________________________________________________________________
 
-# 38. Composition Is Not Mere Co-Activation
+## 38. Composition Is Not Mere Co-Activation
 
 If:
 
@@ -843,9 +842,9 @@ are simultaneously present, that does not establish that they compose safely.
 
 Composition requires a valid interaction contract.
 
----
+______________________________________________________________________
 
-# 39. Composition Order
+## 39. Composition Order
 
 Some compositions MAY be order-sensitive.
 
@@ -867,9 +866,9 @@ $$Compose(M_1,M_2) \neq Compose(M_2,M_1)$$
 
 unless commutativity is independently established.
 
----
+______________________________________________________________________
 
-# 40. Mode Admission Queue
+## 40. Mode Admission Queue
 
 `MODE_ADMISSION_QUEUE.md` SHOULD model candidates awaiting admission resolution.
 
@@ -893,9 +892,9 @@ CHECK SCOPE / REGIME
 ADMIT / CONDITION / BLOCK / ESCALATE
 ```
 
----
+______________________________________________________________________
 
-# 41. Admission Is a Governance Boundary
+## 41. Admission Is a Governance Boundary
 
 Candidate status MUST NOT silently become active status.
 
@@ -907,9 +906,9 @@ and:
 
 $$Admitted \neq Executed$$
 
----
+______________________________________________________________________
 
-# 42. Constraint Propagation
+## 42. Constraint Propagation
 
 Routing must preserve constraints across resolution boundaries.
 
@@ -929,9 +928,9 @@ OUTPUT
 
 A downstream component cannot silently weaken a load-bearing upstream hard constraint.
 
----
+______________________________________________________________________
 
-# 43. Constraint Classes
+## 43. Constraint Classes
 
 Routing MAY encounter:
 
@@ -950,9 +949,9 @@ RESOURCE
 EPISTEMIC
 ```
 
----
+______________________________________________________________________
 
-# 44. Constraint Propagation Rule
+## 44. Constraint Propagation Rule
 
 For inherited hard constraint $C$:
 
@@ -960,9 +959,9 @@ $$C_{task} \Rightarrow C_{route} \Rightarrow C_{execution}$$
 
 unless explicitly superseded by authorized governance.
 
----
+______________________________________________________________________
 
-# 45. Constraint Conflict
+## 45. Constraint Conflict
 
 Suppose:
 
@@ -982,9 +981,9 @@ escalated,
 or declared unsatisfiable.
 ```
 
----
+______________________________________________________________________
 
-# 46. Binding
+## 46. Binding
 
 Routing culminates in a binding between task and execution configuration.
 
@@ -1014,9 +1013,9 @@ routing_binding:
   validation_requirements: []
 ```
 
----
+______________________________________________________________________
 
-# 47. Binding Integrity
+## 47. Binding Integrity
 
 A route binding SHOULD be sufficiently explicit that later reasoning can determine:
 
@@ -1029,9 +1028,9 @@ which constraints remained active;
 which unresolved conditions remained.
 ```
 
----
+______________________________________________________________________
 
-# 48. Scope Firewall
+## 48. Scope Firewall
 
 Routing decisions are scope-bound.
 
@@ -1053,9 +1052,9 @@ environment E2
 scale L2
 ```
 
----
+______________________________________________________________________
 
-# 49. Regime Firewall
+## 49. Regime Firewall
 
 Routing validity MAY change when the operating regime changes.
 
@@ -1063,17 +1062,17 @@ Therefore:
 
 $$Valid(R, Regime_1) \not\Rightarrow Valid(R, Regime_2)$$
 
----
+______________________________________________________________________
 
-# 50. Regime Shift
+## 50. Regime Shift
 
 A detected regime shift SHOULD trigger targeted revalidation of the route elements whose assumptions depended on the old regime.
 
 Do not automatically invalidate unrelated route state.
 
----
+______________________________________________________________________
 
-# 51. Freshness
+## 51. Freshness
 
 Routing dependencies MAY have bounded temporal validity.
 
@@ -1090,9 +1089,9 @@ evidence state
 
 A route based on stale state SHOULD be revalidated when freshness is decision-relevant.
 
----
+______________________________________________________________________
 
-# 52. Provenance-Aware Routing
+## 52. Provenance-Aware Routing
 
 Routing claims themselves may require provenance.
 
@@ -1109,9 +1108,9 @@ These are claims.
 
 They SHOULD not be treated as timeless facts without applicable support.
 
----
+______________________________________________________________________
 
-# 53. Provenance Topology
+## 53. Provenance Topology
 
 Suppose three routing artifacts all claim:
 
@@ -1127,9 +1126,9 @@ $$3\ references \neq 3\ independent\ confirmations$$
 
 Routing confidence must account for shared ancestry where material.
 
----
+______________________________________________________________________
 
-# 54. Sybil Hardening
+## 54. Sybil Hardening
 
 Routing SHOULD resist false confidence created by:
 
@@ -1143,9 +1142,9 @@ repeated descendants
 
 Independent support must be demonstrated, not inferred from repetition.
 
----
+______________________________________________________________________
 
-# 55. RSCF Integration
+## 55. RSCF Integration
 
 Routing participates in the AMOS Fractal Knowledge Network.
 
@@ -1165,9 +1164,9 @@ L DETAIL
 
 Traversal SHOULD stop once routing sufficiency is established.
 
----
+______________________________________________________________________
 
-# 56. H/M/L Routing Retrieval
+## 56. H/M/L Routing Retrieval
 
 Default conceptual retrieval strategy:
 
@@ -1183,9 +1182,9 @@ L — specific contract/registry
 RAW EVIDENCE only if required
 ```
 
----
+______________________________________________________________________
 
-# 57. Raw Evidence Rule
+## 57. Raw Evidence Rule
 
 Raw evidence defaults to:
 
@@ -1195,9 +1194,9 @@ DO_NOT_LOAD_UNLESS_REQUIRED
 
 Routing should not expand into full corpus traversal merely because more material exists.
 
----
+______________________________________________________________________
 
-# 58. Generator Integration
+## 58. Generator Integration
 
 Routing MAY bind a task to one or more generators.
 
@@ -1217,9 +1216,9 @@ validation state
 governance state
 ```
 
----
+______________________________________________________________________
 
-# 59. Generator Routing Example
+## 59. Generator Routing Example
 
 ```text
 TASK
@@ -1239,9 +1238,9 @@ DEPENDENCY / SCOPE / REGIME CHECK
 SELECT OR PRESERVE COMPETING
 ```
 
----
+______________________________________________________________________
 
-# 60. Epistemic Routing
+## 60. Epistemic Routing
 
 Some tasks differ not in subject matter but in required epistemic standard.
 
@@ -1261,9 +1260,9 @@ may involve the same domain but require different evidence, validation, and caus
 
 Routing MUST account for this distinction.
 
----
+______________________________________________________________________
 
-# 61. Claim-Class Requirements
+## 61. Claim-Class Requirements
 
 A route MAY be constrained by requested conclusion class.
 
@@ -1281,9 +1280,9 @@ VERIFIED
 
 unless independent verification is available.
 
----
+______________________________________________________________________
 
-# 62. Evidence-Type Requirements
+## 62. Evidence-Type Requirements
 
 Routing MAY require particular evidence types.
 
@@ -1300,9 +1299,9 @@ UNKNOWN
 
 The required evidence type depends on the claim being attempted.
 
----
+______________________________________________________________________
 
-# 63. Causal Routing
+## 63. Causal Routing
 
 Tasks involving causal claims require stronger routing conditions.
 
@@ -1322,17 +1321,17 @@ causal effect
 counterfactual
 ```
 
----
+______________________________________________________________________
 
-# 64. Causal Firewall
+## 64. Causal Firewall
 
 A route containing only correlation-capable evidence cannot automatically be upgraded into a causal route.
 
 $$CorrelationEvidence \not\Rightarrow CausalEffectEvidence$$
 
----
+______________________________________________________________________
 
-# 65. Counterfactual Routing
+## 65. Counterfactual Routing
 
 Counterfactual tasks MAY require:
 
@@ -1348,9 +1347,9 @@ falsifiers
 
 If the causal model is unsupported, counterfactual output remains model-dependent.
 
----
+______________________________________________________________________
 
-# 66. Translation Routing
+## 66. Translation Routing
 
 Cross-domain or cross-representation translation requires preservation of semantic invariants.
 
@@ -1367,9 +1366,9 @@ validation requirements
 
 Structural similarity alone does not establish semantic equivalence.
 
----
+______________________________________________________________________
 
-# 67. Competing Routes
+## 67. Competing Routes
 
 Suppose:
 
@@ -1391,17 +1390,17 @@ COMPETING_ROUTES
 
 until a discriminating test exists.
 
----
+______________________________________________________________________
 
-# 68. Discriminating Tests
+## 68. Discriminating Tests
 
 When routes compete, prefer the cheapest high-information test capable of changing the routing decision.
 
 Do not gather redundant evidence merely to increase apparent volume.
 
----
+______________________________________________________________________
 
-# 69. Sensitivity-Aware Routing
+## 69. Sensitivity-Aware Routing
 
 Routing SHOULD identify the smallest assumption or requirement capable of changing route selection.
 
@@ -1414,9 +1413,9 @@ If freshness ≥ 24h → Route B
 
 Then freshness is a routing-sensitive variable and should be checked early.
 
----
+______________________________________________________________________
 
-# 70. Routing Sensitivity Object
+## 70. Routing Sensitivity Object
 
 ```yaml
 routing_sensitivity:
@@ -1432,9 +1431,9 @@ routing_sensitivity:
   robustness:
 ```
 
----
+______________________________________________________________________
 
-# 71. Adaptive Complexity
+## 71. Adaptive Complexity
 
 Routing complexity SHOULD match the task.
 
@@ -1448,9 +1447,9 @@ C3 DEEP
 C4 MAXIMUM
 ```
 
----
+______________________________________________________________________
 
-# 72. C0 — Direct Routing
+## 72. C0 — Direct Routing
 
 Suitable when:
 
@@ -1463,9 +1462,9 @@ stakes are low;
 dependencies are established.
 ```
 
----
+______________________________________________________________________
 
-# 73. C1 — Compact Routing
+## 73. C1 — Compact Routing
 
 Adds lightweight:
 
@@ -1476,9 +1475,9 @@ mode selection
 constraint check
 ```
 
----
+______________________________________________________________________
 
-# 74. C2 — Structured Routing
+## 74. C2 — Structured Routing
 
 Adds:
 
@@ -1490,9 +1489,9 @@ scope/regime checks
 explicit binding
 ```
 
----
+______________________________________________________________________
 
-# 75. C3 — Deep Routing
+## 75. C3 — Deep Routing
 
 Adds stronger:
 
@@ -1504,9 +1503,9 @@ sensitivity analysis
 adversarial validation
 ```
 
----
+______________________________________________________________________
 
-# 76. C4 — Maximum Routing
+## 76. C4 — Maximum Routing
 
 Reserved for cases involving substantial:
 
@@ -1522,9 +1521,9 @@ conflicting evidence
 novel architecture
 ```
 
----
+______________________________________________________________________
 
-# 77. Fast Path
+## 77. Fast Path
 
 AMOS v4.4-style fast-path reasoning permits local routing only when the relevant conditions are established.
 
@@ -1550,9 +1549,9 @@ fast_path:
   governance_impact: false
 ```
 
----
+______________________________________________________________________
 
-# 78. Fast Path Law
+## 78. Fast Path Law
 
 Unknown independence does not establish independence.
 
@@ -1562,9 +1561,9 @@ Therefore:
 
 $$UNKNOWN \neq ESTABLISHED$$
 
----
+______________________________________________________________________
 
-# 79. Escalation Triggers
+## 79. Escalation Triggers
 
 Routing SHOULD escalate when material uncertainty involves:
 
@@ -1583,9 +1582,9 @@ insufficient capability
 unresolved composition semantics
 ```
 
----
+______________________________________________________________________
 
-# 80. Adversarial Routing Validation
+## 80. Adversarial Routing Validation
 
 For consequential routing decisions:
 
@@ -1610,9 +1609,9 @@ SURVIVES?
 
 If not, downgrade, condition, preserve competition, block, or escalate.
 
----
+______________________________________________________________________
 
-# 81. Routing Uncertainty Vector
+## 81. Routing Uncertainty Vector
 
 Material routing uncertainty SHOULD be separable into:
 
@@ -1630,9 +1629,9 @@ routing_uncertainty:
 
 Not every dimension requires equal investigation.
 
----
+______________________________________________________________________
 
-# 82. Decision-Value Allocation
+## 82. Decision-Value Allocation
 
 Routing SHOULD spend effort where reducing uncertainty can change:
 
@@ -1647,9 +1646,9 @@ action
 
 Low-value uncertainty SHOULD not dominate routing cost.
 
----
+______________________________________________________________________
 
-# 83. Atomic Multi-RSCF Routing
+## 83. Atomic Multi-RSCF Routing
 
 Some routes may require coordinated reasoning across multiple RSCF nodes.
 
@@ -1665,9 +1664,9 @@ RSCF-B
 
 If partial resolution would create an invalid state, the reasoning transition SHOULD be treated atomically at the model level.
 
----
+______________________________________________________________________
 
-# 84. MVCC/CAS Concepts
+## 84. MVCC/CAS Concepts
 
 AMOS lineage may use MVCC/CAS concepts as reasoning patterns for maintaining consistent state transitions.
 
@@ -1685,9 +1684,9 @@ COMMIT IF STILL VALID
 
 This README does not claim literal database MVCC or processor-level CAS implementation.
 
----
+______________________________________________________________________
 
-# 85. Routing Snapshot
+## 85. Routing Snapshot
 
 ```yaml
 routing_snapshot:
@@ -1711,9 +1710,9 @@ routing_snapshot:
   regime:
 ```
 
----
+______________________________________________________________________
 
-# 86. Stale Snapshot
+## 86. Stale Snapshot
 
 If load-bearing routing state changes after resolution but before commitment:
 
@@ -1727,17 +1726,17 @@ COMMIT
 
 the route SHOULD be revalidated rather than assumed valid.
 
----
+______________________________________________________________________
 
-# 87. Causal Epoch Compatibility
+## 87. Causal Epoch Compatibility
 
 Where causal epoch concepts apply, routing decisions SHOULD respect the validity boundary of the epoch under which dependencies were resolved.
 
 A later epoch may invalidate part of the route without invalidating unrelated reasoning.
 
----
+______________________________________________________________________
 
-# 88. Failure Recovery
+## 88. Failure Recovery
 
 Routing failure SHOULD be localized.
 
@@ -1755,9 +1754,9 @@ ROUTE
 
 A dependency failure should invalidate dependent route components, not automatically the entire Cognitive Matrix.
 
----
+______________________________________________________________________
 
-# 89. Routing Failure Classes
+## 89. Routing Failure Classes
 
 Candidate classes:
 
@@ -1780,9 +1779,9 @@ GOVERNANCE_BLOCK
 UNKNOWN_FAILURE
 ```
 
----
+______________________________________________________________________
 
-# 90. Recovery Pipeline
+## 90. Recovery Pipeline
 
 ```text
 FAILURE
@@ -1800,17 +1799,17 @@ TRY ALTERNATIVE ROUTE
 REVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 91. Retry Law
+## 91. Retry Law
 
 A failed route SHOULD NOT be repeated without changed evidence, state, configuration, or assumptions.
 
 $$SameFailureState + SameRoute \Rightarrow NoExpectedInformationGain$$
 
----
+______________________________________________________________________
 
-# 92. Fallback Routes
+## 92. Fallback Routes
 
 A route MAY define ordered fallbacks.
 
@@ -1826,9 +1825,9 @@ fallback_routes:
 
 Fallbacks themselves require validation.
 
----
+______________________________________________________________________
 
-# 93. Reversibility
+## 93. Reversibility
 
 When uncertainty remains, routing SHOULD prefer reversible configurations when they can achieve the objective without weakening integrity.
 
@@ -1842,9 +1841,9 @@ irreversible writes
 institutional consequences
 ```
 
----
+______________________________________________________________________
 
-# 94. Routing and Action Governance
+## 94. Routing and Action Governance
 
 A reasoning route and an action route are not always equivalent.
 
@@ -1862,9 +1861,9 @@ execute deletion
 
 Routing SHOULD account for action consequences.
 
----
+______________________________________________________________________
 
-# 95. Read-Only vs Mutating Routes
+## 95. Read-Only vs Mutating Routes
 
 Routing SHOULD distinguish:
 
@@ -1881,9 +1880,9 @@ PUBLISH
 
 when these differences materially affect governance.
 
----
+______________________________________________________________________
 
-# 96. Irreversible Stakes
+## 96. Irreversible Stakes
 
 For irreversible actions, validation requirements SHOULD increase.
 
@@ -1891,9 +1890,9 @@ Conceptually:
 
 $$ValidationDepth \uparrow \quad as \quad Irreversibility \uparrow$$
 
----
+______________________________________________________________________
 
-# 97. Routing Proof Capsule
+## 97. Routing Proof Capsule
 
 Important routing decisions SHOULD conceptually support:
 
@@ -1939,9 +1938,9 @@ routing_proof_capsule:
   confidence_ceiling:
 ```
 
----
+______________________________________________________________________
 
-# 98. Route Invalidation Conditions
+## 98. Route Invalidation Conditions
 
 A route MAY require re-resolution when:
 
@@ -1959,17 +1958,17 @@ generator is superseded;
 governance state changes.
 ```
 
----
+______________________________________________________________________
 
-# 99. Route Reuse
+## 99. Route Reuse
 
 A prior route MAY be reused only while its load-bearing assumptions remain valid.
 
 $$Reuse(R) \Rightarrow ValidDependencies \land ValidScope \land ValidRegime \land ValidFreshness \land ValidConstraints$$
 
----
+______________________________________________________________________
 
-# 100. Route Cache Principle
+## 100. Route Cache Principle
 
 A cached route is an optimization.
 
@@ -1977,9 +1976,9 @@ It is not authority.
 
 A stale route must not override current validity conditions.
 
----
+______________________________________________________________________
 
-# 101. Deterministic Routing
+## 101. Deterministic Routing
 
 Where routing inputs and governing registries are fixed, deterministic routing SHOULD prefer stable resolution.
 
@@ -1991,9 +1990,9 @@ for identical task $T$ and routing state $S$.
 
 This does not establish that every AMOS routing implementation is literally deterministic.
 
----
+______________________________________________________________________
 
-# 102. Tie Resolution
+## 102. Tie Resolution
 
 When multiple equivalent routes exist, a deterministic tie-breaker MAY be used if it does not alter integrity.
 
@@ -2010,9 +2009,9 @@ stable lexical/registry order
 
 The actual tie-break policy requires applicable canon.
 
----
+______________________________________________________________________
 
-# 103. Optimization Boundary
+## 103. Optimization Boundary
 
 Routing MAY optimize:
 
@@ -2028,9 +2027,9 @@ execution cost
 
 only after integrity requirements are satisfied.
 
----
+______________________________________________________________________
 
-# 104. Anti-Regression
+## 104. Anti-Regression
 
 A routing optimization is acceptable only if it preserves or improves:
 
@@ -2048,9 +2047,9 @@ user fit
 
 Otherwise roll back.
 
----
+______________________________________________________________________
 
-# 105. Routing Anti-Patterns
+## 105. Routing Anti-Patterns
 
 The following are invalid or unsafe routing patterns:
 
@@ -2095,9 +2094,9 @@ INFINITE RETRIEVAL
 traversing the knowledge graph without decision value
 ```
 
----
+______________________________________________________________________
 
-# 106. Routing Invariants
+## 106. Routing Invariants
 
 ```text
 ROUTE-I01
@@ -2176,9 +2175,9 @@ ROUTE-I25
 This architecture does not itself establish runtime implementation.
 ```
 
----
+______________________________________________________________________
 
-# 107. Routing Artifact Map
+## 107. Routing Artifact Map
 
 The routing directory SHOULD conceptually expose or connect to artifacts including:
 
@@ -2201,9 +2200,9 @@ Additional routing artifacts MAY exist elsewhere in the corpus.
 
 This README MUST NOT invent missing artifact names merely to make the directory appear complete.
 
----
+______________________________________________________________________
 
-# 108. Core Routing Relationship Map
+## 108. Core Routing Relationship Map
 
 ```text
 TASK_CONTRACT
@@ -2235,9 +2234,9 @@ GRAPH             REGISTRY
        ROUTE BINDING
 ```
 
----
+______________________________________________________________________
 
-# 109. RSCF Routing Model
+## 109. RSCF Routing Model
 
 The routing subsystem MAY be represented as an RSCF-connected knowledge structure.
 
@@ -2258,9 +2257,9 @@ RSCF: ROUTING
 
 Each edge may carry typed semantics.
 
----
+______________________________________________________________________
 
-# 110. Candidate Routing Edge Types
+## 110. Candidate Routing Edge Types
 
 ```text
 REQUIRES
@@ -2280,9 +2279,9 @@ PART_OF
 
 Actual canonical relation vocabulary must follow the applicable RSCF specification.
 
----
+______________________________________________________________________
 
-# 111. Routing Node Template
+## 111. Routing Node Template
 
 ```yaml
 routing_node:
@@ -2312,9 +2311,9 @@ routing_node:
   relations: []
 ```
 
----
+______________________________________________________________________
 
-# 112. Routing Decision Template
+## 112. Routing Decision Template
 
 ```yaml
 routing_decision:
@@ -2367,9 +2366,9 @@ routing_decision:
   invalidation_conditions: []
 ```
 
----
+______________________________________________________________________
 
-# 113. Routing Failure Template
+## 113. Routing Failure Template
 
 ```yaml
 routing_failure:
@@ -2399,9 +2398,9 @@ routing_failure:
   status:
 ```
 
----
+______________________________________________________________________
 
-# 114. Routing Gap Template
+## 114. Routing Gap Template
 
 ```yaml
 routing_gap:
@@ -2421,9 +2420,9 @@ routing_gap:
   status: OPEN
 ```
 
----
+______________________________________________________________________
 
-# 115. Gap Priority
+## 115. Gap Priority
 
 Routing gaps SHOULD be resolved in the order:
 
@@ -2439,9 +2438,9 @@ COSMETIC
 
 unless governance requires otherwise.
 
----
+______________________________________________________________________
 
-# 116. Route Sufficiency
+## 116. Route Sufficiency
 
 Routing SHOULD stop when the route is sufficient for the requested objective.
 
@@ -2469,9 +2468,9 @@ route_sufficiency:
   decision_changing_uncertainty_remaining: false
 ```
 
----
+______________________________________________________________________
 
-# 117. Claim, Decision, and Action Sufficiency
+## 117. Claim, Decision, and Action Sufficiency
 
 Routing MAY distinguish:
 
@@ -2483,9 +2482,9 @@ ACTION SUFFICIENCY
 
 A route sufficient to answer a conceptual question may not be sufficient to authorize an irreversible action.
 
----
+______________________________________________________________________
 
-# 118. Routing Example — Simple
+## 118. Routing Example — Simple
 
 Task:
 
@@ -2511,9 +2510,9 @@ RETURN
 
 No maximum-depth routing is required unless another condition changes the task.
 
----
+______________________________________________________________________
 
-# 119. Routing Example — Evidence Comparison
+## 119. Routing Example — Evidence Comparison
 
 Task:
 
@@ -2536,9 +2535,9 @@ synthesis
 
 A direct summary route would be insufficient.
 
----
+______________________________________________________________________
 
-# 120. Routing Example — Causal Claim
+## 120. Routing Example — Causal Claim
 
 Task:
 
@@ -2560,9 +2559,9 @@ counterfactual support
 
 A similarity-only route must not produce a verified causal conclusion.
 
----
+______________________________________________________________________
 
-# 121. Routing Example — Irreversible Action
+## 121. Routing Example — Irreversible Action
 
 Task:
 
@@ -2584,9 +2583,9 @@ execution confirmation
 
 A low-stakes read-only route is not sufficient.
 
----
+______________________________________________________________________
 
-# 122. Routing Example — Competing Modes
+## 122. Routing Example — Competing Modes
 
 Suppose:
 
@@ -2615,9 +2614,9 @@ MODE_B + MODE_C
 
 subject to conflict, dependency, composition, and constraint checks.
 
----
+______________________________________________________________________
 
-# 123. Routing Example — Local Failure
+## 123. Routing Example — Local Failure
 
 Suppose:
 
@@ -2648,9 +2647,9 @@ Incorrect recovery:
 discard the entire Cognitive Matrix state.
 ```
 
----
+______________________________________________________________________
 
-# 124. Routing Security Principle
+## 124. Routing Security Principle
 
 Routing is security-relevant because selecting the wrong capability, mode, dependency, or action path may bypass intended controls.
 
@@ -2668,9 +2667,9 @@ scope
 
 where applicable.
 
----
+______________________________________________________________________
 
-# 125. Trust Is Local
+## 125. Trust Is Local
 
 A component trusted for one routing role is not globally trusted.
 
@@ -2682,9 +2681,9 @@ rather than:
 
 $$Trust(Component)=TRUE$$
 
----
+______________________________________________________________________
 
-# 126. Typed Trust
+## 126. Typed Trust
 
 A generator may be trusted for:
 
@@ -2712,9 +2711,9 @@ independent validation of its performance.
 
 Routing should preserve those distinctions.
 
----
+______________________________________________________________________
 
-# 127. Routing Provenance Record
+## 127. Routing Provenance Record
 
 ```yaml
 routing_provenance:
@@ -2739,17 +2738,17 @@ routing_provenance:
     status: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 128. Routing Versioning
+## 128. Routing Versioning
 
 Routing specifications themselves may evolve.
 
 A route SHOULD preserve which routing rules or registry versions materially influenced it where lineage reconstruction matters.
 
----
+______________________________________________________________________
 
-# 129. Supersession
+## 129. Supersession
 
 When a routing artifact is superseded:
 
@@ -2757,9 +2756,9 @@ $$NewArtifact \neq RetroactiveRewrite$$
 
 Historical routes retain the routing state under which they were resolved unless explicitly migrated or re-evaluated.
 
----
+______________________________________________________________________
 
-# 130. Migration
+## 130. Migration
 
 A route MAY be re-evaluated against a newer routing architecture.
 
@@ -2775,9 +2774,9 @@ ROUTE@V2
 
 The transformation should remain visible when consequential.
 
----
+______________________________________________________________________
 
-# 131. Canon and Routing
+## 131. Canon and Routing
 
 A routing artifact may have states such as:
 
@@ -2796,9 +2795,9 @@ but exact lifecycle semantics must be governed by the applicable canon.
 
 This README does not self-promote.
 
----
+______________________________________________________________________
 
-# 132. README Governance
+## 132. README Governance
 
 Changes to this README that materially alter:
 
@@ -2815,9 +2814,9 @@ governance boundaries
 
 SHOULD pass through the appropriate provenance/versioning/supersession process.
 
----
+______________________________________________________________________
 
-# 133. README Non-Authority Rule
+## 133. README Non-Authority Rule
 
 This README is an index and architecture specification.
 
@@ -2829,9 +2828,9 @@ $$SpecificContract > README\ Summary$$
 
 within the specific contract's valid scope.
 
----
+______________________________________________________________________
 
-# 134. Routing Documentation Hierarchy
+## 134. Routing Documentation Hierarchy
 
 Conceptually:
 
@@ -2851,9 +2850,9 @@ ROUTING RECORDS / EVIDENCE
 
 This hierarchy is architectural unless separately established as canonical filesystem enforcement.
 
----
+______________________________________________________________________
 
-# 135. Minimum Routing Questions
+## 135. Minimum Routing Questions
 
 Before consequential admission, routing SHOULD be able to answer the decision-relevant subset of:
 
@@ -2903,9 +2902,9 @@ Is execution reversible?
 Does governance escalation apply?
 ```
 
----
+______________________________________________________________________
 
-# 136. Routing Quality Model
+## 136. Routing Quality Model
 
 Conceptually:
 
@@ -2917,9 +2916,9 @@ $$Integrity$$
 
 being a hard governing priority.
 
----
+______________________________________________________________________
 
-# 137. Routing Optimization Objective
+## 137. Routing Optimization Objective
 
 A route SHOULD minimize unnecessary complexity:
 
@@ -2939,9 +2938,9 @@ $$R^* = \arg\min Complexity(R)$$
 
 subject to the integrity constraints.
 
----
+______________________________________________________________________
 
-# 138. Final Routing Law
+## 138. Final Routing Law
 
 The Cognitive Matrix Routing layer exists to transform a task into the smallest valid, inspectable, constraint-preserving execution configuration.
 
@@ -2977,9 +2976,9 @@ The final governing ordering remains:
 
 $$\boxed{ Integrity > Completeness > Fluency > Speed > TokenSavings }$$
 
----
+______________________________________________________________________
 
-# 139. Artifact Declaration
+## 139. Artifact Declaration
 
 ```yaml
 artifact:
@@ -3026,9 +3025,9 @@ artifact:
     established: false
 ```
 
----
+______________________________________________________________________
 
-# 140. Canon Boundary
+## 140. Canon Boundary
 
 Nothing in this README should be interpreted as independently upgrading:
 
@@ -3042,15 +3041,15 @@ ARCHITECTURE → EMPIRICAL VALIDATION
 
 Such transitions require their own evidence and governance.
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[03_CONTROL_PLANE/01_TASK_CONTRACT/TASK_CONTRACT|TASK_CONTRACT]] · [[03_CONTROL_PLANE/01_TASK_CONTRACT/TASK_RESOLVER|TASK_RESOLVER]] · [[03_CONTROL_PLANE/02_CAPABILITY/CAPABILITY_RESOLVER|CAPABILITY_RESOLVER]] · [[03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX/MODE_ADMISSION_QUEUE|MODE_ADMISSION_QUEUE]] · [[03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX/MODE_COMPOSITION_REGISTRY|MODE_COMPOSITION_REGISTRY]] · [[03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX/MODE_CONFLICT_REGISTRY|MODE_CONFLICT_REGISTRY]] · [[03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX/MODE_COVERAGE_MATRIX|MODE_COVERAGE_MATRIX]] · [[03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX/MODE_DEPENDENCY_GRAPH|MODE_DEPENDENCY_GRAPH]]
 
----
+______________________________________________________________________
 
 RSCF-NODE
 
@@ -3122,5 +3121,6 @@ RSCF-RELATIONS:
 - [[25_COGNITIVE_MATRIX/12_GENERATORS/00_INDEX/GENERATORS_COGNITIVE_MATRIX_GENERATORS_CONTRACT|GENERATORS_COGNITIVE_MATRIX_GENERATORS_CONTRACT]]
 - [[25_COGNITIVE_MATRIX/12_GENERATORS/00_INDEX/GENERATORS_MAP|GENERATORS_MAP]]
 
----
+______________________________________________________________________
+
 **MOC:** [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]]

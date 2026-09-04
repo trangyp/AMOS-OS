@@ -12,25 +12,25 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: FRAMEWORK
 path: 11_KNOWLEDGE/05_FRAMEWORKS/QCLA_MASTER.md
 tags:
-- amos-os
-- knowledge
-- vault
-- 05_frameworks
-- qcla
-- quantum_causality_layer_architecture
-- causality
-- causal_pathways
-- direct_causality
-- distributed_causality
-- delayed_causality
-- cascading_causality
-- rscf
-- canon_candidate
-- canon/knowledge
-- qls-framework
-- amos-x-qcla
-- amos-x-qls-qcla-matrix
-- tpe-trang-prediction-engine
+  - amos-os
+  - knowledge
+  - vault
+  - 05_frameworks
+  - qcla
+  - quantum_causality_layer_architecture
+  - causality
+  - causal_pathways
+  - direct_causality
+  - distributed_causality
+  - delayed_causality
+  - cascading_causality
+  - rscf
+  - canon_candidate
+  - canon/knowledge
+  - qls-framework
+  - amos-x-qcla
+  - amos-x-qls-qcla-matrix
+  - tpe-trang-prediction-engine
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -45,12 +45,12 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - QUANTUM_CAUSALITY_LAYER_ARCHITECTURE_QCLA_OFF
-  - AMOS_CORPUS
+    - QUANTUM_CAUSALITY_LAYER_ARCHITECTURE_QCLA_OFF
+    - AMOS_CORPUS
   scope:
-  - KNOWLEDGE_FRAMEWORKS
-  - CAUSAL_ARCHITECTURE
-  - SOURCE_DEFINED_QCLA_MODEL
+    - KNOWLEDGE_FRAMEWORKS
+    - CAUSAL_ARCHITECTURE
+    - SOURCE_DEFINED_QCLA_MODEL
 framework_binding:
   primary:
     name: Quantum Causality Layer Architecture™
@@ -60,12 +60,12 @@ framework_binding:
     name: Quantum Logic Scaffold™
     acronym: QLS
     artifact:
-    - - QLS_FRAMEWORK
+      -   - QLS_FRAMEWORK
   cognitive_matrix_binding:
     artifact:
-    - - AMOS_X_QCLA
+      -   - AMOS_X_QCLA
     matrix:
-    - - AMOS_X_QLS_QCLA_MATRIX
+      -   - AMOS_X_QLS_QCLA_MATRIX
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
@@ -78,14 +78,15 @@ epistemic_boundary:
 `QCLA_MASTER.md` is the canonical Knowledge Plane reference artifact for the **Quantum Causality Layer Architecture™ (QCLA)** within `11_KNOWLEDGE/05_FRAMEWORKS`.
 
 It defines the structural causal rules required to map and validate cause-and-effect transitions across complex systems:
+
 1. **Direct Causality ($A \to B$):** Immediate, localized causal transmission.
-2. **Distributed Causality ($A \to \{B_1, \dots, B_n\}$):** Multi-node, multi-domain propagation.
-3. **Delayed Causality ($A(t) \to B(t + \tau)$):** Lagged impacts across scale-specific time constants.
-4. **Cascading Causality ($A \to B \to C \to D$):** Multi-stage sequential propagation governed by weakest-link confidence attenuation.
+1. **Distributed Causality ($A \to \{B_1, \dots, B_n\}$):** Multi-node, multi-domain propagation.
+1. **Delayed Causality ($A(t) \to B(t + \tau)$):** Lagged impacts across scale-specific time constants.
+1. **Cascading Causality ($A \to B \to C \to D$):** Multi-stage sequential propagation governed by weakest-link confidence attenuation.
 
----
+______________________________________________________________________
 
-# 1. Dual-Gate Integration: QLS $\times$ QCLA
+## 1. Dual-Gate Integration: QLS $\times$ QCLA
 
 $$\text{VALID}(x) = L(x) \land C(x) \land E(x)$$
 
@@ -95,9 +96,9 @@ QCLA asks: "Is this pathway causally identified, temporally licensed, and confou
 E-Gate:    "Is the supporting evidence fresh, independent, and sufficient?"
 ```
 
----
+______________________________________________________________________
 
-# 2. Epistemic Firewalls
+## 2. Epistemic Firewalls
 
 ```text
 CORRELATION != CAUSATION
@@ -107,18 +108,18 @@ PREDICTIVE ACCURACY != CAUSAL IDENTIFICATION
 QCLA MODEL != EMPIRICAL CAUSAL TRUTH
 ```
 
----
+______________________________________________________________________
 
-# 3. Inter-Plane & Cross-Framework Connections
+## 3. Inter-Plane & Cross-Framework Connections
 
 - **Cognitive Matrix:** [[25_COGNITIVE_MATRIX/AMOS_X_QCLA|AMOS_X_QCLA]] and [[25_COGNITIVE_MATRIX/AMOS_X_QLS_QCLA_MATRIX|AMOS_X_QLS_QCLA_MATRIX]]
 - **Logic Scaffold:** [[11_KNOWLEDGE/05_FRAMEWORKS/QLS_FRAMEWORK|QLS_FRAMEWORK]]
 - **Prediction Engine:** [[11_KNOWLEDGE/trang/TPE_TRANG_PREDICTION_ENGINE|TPE_TRANG_PREDICTION_ENGINE]]
 - **Native Sources:** `11_KNOWLEDGE/quantum/QUANTUM_CAUSALITY_LAYER_ARCHITECTURE_QCLA_OFF`
 
----
+______________________________________________________________________
 
-# 4. RSCF Contract
+## 4. RSCF Contract
 
 ```yaml
 RSCF:
@@ -136,10 +137,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]] · [[25_COGNITIVE_MATRIX/AMOS_X_QCLA|AMOS_X_QCLA]] · [[25_COGNITIVE_MATRIX/AMOS_X_QLS_QCLA_MATRIX|AMOS_X_QLS_QCLA_MATRIX]] · [[11_KNOWLEDGE/05_FRAMEWORKS/QLS_FRAMEWORK|QLS_FRAMEWORK]]
 
----
-**MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]
+______________________________________________________________________
 
+**MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]

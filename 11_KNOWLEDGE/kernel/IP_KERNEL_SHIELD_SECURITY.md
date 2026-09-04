@@ -1,4 +1,7 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: IP KERNEL SHIELD SECURITY
 type: kernel
 source: 11_KNOWLEDGE/kernel
@@ -7,13 +10,13 @@ canon-type: framework
 rscf-state: source-claim
 topic: ip-kernel-shield
 tags:
-- canon-group/tech-ai
-- canon/framework
-- rscf/claim
-- rscf/provenance
-- rscf/state/source-claim
-- topic/ip-kernel-shield
-- kernel
+  - canon-group/tech-ai
+  - canon/framework
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - topic/ip-kernel-shield
+  - kernel
 created: 2026-08-22
 rscf:
   state: SOURCE_CLAIM
@@ -184,6 +187,6 @@ rscf:
 **Related:** [[11_KNOWLEDGE/kernel/AMOS_POLICY_GEOSTRATEGY_KERNEL_V0|AMOS_POLICY_GEOSTRATEGY_KERNEL_V0]] · [[11_KNOWLEDGE/kernel/AMOS_REINFORCEMENT_LEARNING_ANALYSIS_KERNEL|AMOS_REINFORCEMENT_LEARNING_ANALYSIS_KERNEL]] · [[11_KNOWLEDGE/kernel/MBB_CONSULTING_KERNEL|MBB_CONSULTING_KERNEL]] · [[11_KNOWLEDGE/kernel/AMOS_MULTI_AGENT_COORDINATION_KERNEL|AMOS_MULTI_AGENT_COORDINATION_KERNEL]]
 ```
 
----
-**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]
+______________________________________________________________________
 
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]

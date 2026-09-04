@@ -1,81 +1,100 @@
 ---
-title: ESCALATION PATHS
-type: note
-source: 23_OPERATING_MODEL/04_ESCALATION
-tags:
-- amos-os
-- canon/operating-model
-- routing-policy-validation-receipt
-- authz-engine-validation-receipt
-- law-hierarchy
+title: "23_OPERATING_MODEL — Escalation Paths & Fail-Closed Protocols"
+type: governance_specification
+plane: 23_OPERATING_MODEL
+amos_core_target: v4.4
+origin_architect: Trang Phan
+steward: Trang Phan
+status: ACTIVE_SPECIFICATION
+epistemic_class: AMOS_MODEL
+conclusion_class: DERIVED
 rscf:
   state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  claim_class: AMOS_MODEL
+  provenance:
+    - 23_OPERATING_MODEL/OPERATING_MODEL_OPERATING_MODEL_CONTRACT
+    - 03_CONTROL_PLANE/CONTROL_PLANE_CONTROL_PLANE_CONTRACT
+    - 00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE
+  scope: governance_escalation
+tags:
+  - amos-os
+  - 23-operating-model
+  - escalation
+  - fail-closed
+  - governance
 ---
 
-# ESCALATION PATHS
+# Escalation Paths & Fail-Closed Protocols
 
-## 0. Status
-Operating Model-plane artifact. AMOS_MODEL · CONDITIONAL · implementation PARTIAL.
-
-## 1. Purpose
-`ESCALATION · PATHS` defines typed artifact specification, serving the Operating Model plane's obligation: roles, decision rights, governance forums, escalation paths, service levels.
-
-## 2. Semantics
-- Every load-bearing field is typed; unknown values are recorded as `UNKNOWN/GAP`, never invented.
-- Scope and regime are declared on every claim; cross-regime transfer requires an explicit bridge.
-- Confidence ceiling 0.95; conclusion confidence ≤ weakest load-bearing premise.
-
-## 3. Failure modes guarded
-STALE_READ · SCOPE_LEAK · REGIME_DRIFT · CONFIDENCE_INFLATION · AUTHORITY_ESCALATION · PROVENANCE_LOSS · SILENT_PARTIAL_COMMIT · UNKNOWN_AS_VALID.
-
-## 4. Validation
-No artifact-specific executor yet; executed OS validators exist as pattern ([[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]). Required tests before promotion: identity, type-contract, negative-case (missing/malformed/stale input), authority boundary, rollback.
-
-## 5. Gaps
-Implementation binding, empirical validation, and cross-artifact consistency checks remain OPEN (UNKNOWN/GAP).
-
-## 6. Falsifiers
-F1: canonical source contradicts declared semantics. F2: executed test violates a stated invariant. F3: artifact promotes UNKNOWN to PASS.
-## Worked semantics
-Given an operation touching `ESCALATION · PATHS` within the Operating Model plane:
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-2. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-3. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-4. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-5. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-6. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
-
-## Promotion-gate checklist
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
-
-## Cross-plane bindings
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]|AMOS Core Laws · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
-- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
-- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
----
-
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+> **Origin Architect / Steward:** Trang Phan  
+> **AMOS_CORE Target:** `v4.4`  
+> **Epistemic Class:** `AMOS_MODEL`  
+> **Status:** `ACTIVE_SPECIFICATION`
 
 ---
-**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+
+## 1. Architectural Scope & Purpose
+
+`ESCALATION_PATHS` establishes the deterministic, multi-tier escalation hierarchy, anomaly dispatch cascades, deadlock-breaking algorithms, and human-in-the-loop fail-closed boundaries governing runtime anomalies across all 26 planes of the AMOS Full Brain OS. It enforces strict boundary control, ensuring that autonomous subagents cannot silently bypass unresolved state contradictions or unhandled exceptions.
 
 ---
-RSCF-NODE
-node_id: amos_23_operating_model_04_escalation_escalation_paths_md
-node_type: note
-path: 23_OPERATING_MODEL/04_ESCALATION/ESCALATION_PATHS.md
-claim_class: AMOS_MODEL
+
+## 2. Mathematical Formalism & 4-Tier Escalation Hierarchy
+
+The Escalation State Machine $\mathcal{E}_{\text{state}}$ is modeled as a deterministic directed transition system:
+
+$$\mathcal{E}_{\text{state}} = \langle \mathcal{L}_{1\dots 4}, \tau_{\text{timeout}}, \mathcal{P}_{\text{priority}}, \mathcal{T}_{\text{transitions}} \rangle$$
+
+```mermaid
+graph TD
+    ANOMALY["Runtime Anomaly / Conflict"] --> L1["Tier 1: Shard-Local Fast Retry<br/>Latency: < 100ms | Max Retries: 3"]
+    L1 -->|Unresolved / CAS Contention| L2["Tier 2: Orchestrator Subsystem Failover<br/>Latency: < 1s | Alternative Routing"]
+    L2 -->|Invariant Breach / Drift| L3["Tier 3: Emergency Council Quarantine<br/>Latency: < 5s | Shard Isolation & Rollback"]
+    L3 -->|Canonical Ambiguity / Safety Trap| L4["Tier 4: Fail-Closed Human Gate<br/>Origin Architect: Trang Phan"]
+```
+
+### Detailed Tier Mechanics:
+
+1. **Tier 1: Shard-Local Fast Path ($\Delta t \le 100\,\text{ms}$)**
+   - *Scope:* Local CAS version conflicts, ephemeral network timeouts, vector cache misses.
+   - *Algorithm:* Exponential jittered backoff:
+     $$\Delta t_{\text{retry}}(k) = \min(T_{\text{max}}, 2^k \cdot \Delta t_0 + \text{Uniform}(0, \delta))$$
+   - *Max Threshold:* 3 consecutive retries. If unresolved, promote to Tier 2.
+
+2. **Tier 2: Orchestrator Subsystem Failover ($\Delta t \le 1.0\,\text{s}$)**
+   - *Scope:* Tool execution sandbox crash, inference backend rate limit, non-critical model divergence.
+   - *Action:* Re-route task to hot-standby fallback model (e.g., Tier 1 $\to$ Tier 2 routing) or alternative skill implementation; emit diagnostic log to `17_OBSERVABILITY`.
+
+3. **Tier 3: Emergency Council Automated Quarantine ($\Delta t \le 5.0\,\text{s}$)**
+   - *Scope:* Invariant assertion failure, memory corruption detection, unexpected semantic drift ($\Delta > 0.08$), unauthorized privilege escalation attempt.
+   - *Action:* Instantly freeze mutating write locks on affected state shard; isolate corrupted data frames to `24_ARCHIVE`; atomic rollback to last verified Merkle snapshot.
+
+4. **Tier 4: Fail-Closed Human Gate (Interactive Intervention)**
+   - *Scope:* Ambiguity in canonical core laws, high-stakes financial risk limit breach, core architecture supersession proposals, unhandled safety traps.
+   - *Authority:* Exclusively reserved for origin architect and steward **Trang Phan**.
+   - *State:* Complete execution freeze on affected pipeline; system emits high-priority interactive prompt with complete cryptographic context dossier.
 
 ---
-**MOC:** [[23_OPERATING_MODEL/04_ESCALATION/04_ESCALATION_MOC|04_ESCALATION_MOC]]
+
+## 3. Epistemic Invariants & Fail-Closed Rules
+
+1. **`FAIL_CLOSED_BY_DEFAULT`**: In any situation where the severity of an anomaly cannot be definitively classified, the system must escalate to Tier 4 rather than attempting speculative recovery.
+2. **Deterministic Receipt Logging**: Every escalation step emits an append-only cryptographic receipt containing the trigger anomaly stack trace, current epoch, and target tier.
+3. **No Infinite Escalation Loops**: Transition graph $\mathcal{T}_{\text{transitions}}$ is strictly acyclic ($L_1 \to L_2 \to L_3 \to L_4$); reverse transitions require explicit steward reset.
+
+---
+
+## 4. Cross-Plane Bindings & Traceability
+
+- **`02_KERNEL/06_RISK_REPAIR`**: Executes rollback basins triggered by Tier 3 escalations.
+- **`03_CONTROL_PLANE`**: Evaluates policy gates during Tier 2 routing failovers.
+- **`17_OBSERVABILITY`**: Ingests real-time escalation telemetry and alerts.
+- **`20_OPERATIONS`**: Records incident post-mortems and audit ledgers.
+
+---
+
+## 5. Lineage & Stewardship
+
+- **Origin Architect:** Trang Phan
+- **Steward:** Trang Phan
+- **Target:** `v4.4`

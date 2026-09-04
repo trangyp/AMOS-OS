@@ -1,14 +1,17 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Vault Domain Knowledge — Amos Context Orientation Cache Rscf
 type: reference
 source: 07_SKILLS/amos-context-orientation-cache-rscf/references
 tags:
-- reference
-- amos-context-orientation-cache-rscf
-- type/skill
-- 2026-08-22-amos-all-249-gaps-closed
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-context-orientation-cache-rscf
+  - type/skill
+  - 2026-08-22-amos-all-249-gaps-closed
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -28,7 +31,8 @@ rscf:
 
 > Path: `misc/W/Web_Cache_Posioning.md` | Size: 1897 chars | Match score: 7 | content_hash: a9c911c31485e63f
 
-# Web Cache Posioning
+## Web Cache Posioning
+
 Good Caching Settings
 
 When Testing
@@ -39,39 +43,45 @@ Impact
 
 Prevention
 
----
+______________________________________________________________________
 
----
+______________________________________________________________________
 
 ### Source 2: AMOS Token and Context Governor
 
 > Path: `misc/TO/TOKEN.md` | Size: 1147 chars | Match score: 7 | content_hash: 1b42a1453132a3d6
 
-# AMOS Token and Context Governor
+## AMOS Token and Context Governor
 
 ## Objective
+
 Maximize decision-relevant information per token without deleting load-bearing structure.
 
 ## Priority score
+
 Retain context in this order:
+
 1. objective and hard constraints
-2. decision-changing evidence
-3. unresolved contradictions
-4. load-bearing premises
-5. provenance/freshness/scope
-6. active hypotheses
-7. required implementation details
-8. reusable summaries
-9. examples/background
-10. redundant narrative
+1. decision-changing evidence
+1. unresolved contradictions
+1. load-bearing premises
+1. provenance/freshness/scope
+1. active hypotheses
+1. required implementation details
+1. reusable summaries
+1. examples/background
+1. redundant narrative
 
 ## Progressive disclosure
+
 Do not load raw evidence by default.
 Use:
 `capsule -> relevant H -> relevant M -> relevant L -> raw`
 
 ## Drop rule
+
 Drop an item only if removing it cannot reasonably change:
+
 - answer
 - decision
 - confidence
@@ -80,21 +90,23 @@ Drop an item only if removing it cannot reasonably change:
 - implementation correctness
 
 ## Context pressure
+
 When context is near capacity:
+
 - preserve constraints over prose,
 - preserve dependency edges over explanations,
 - preserve unresolved conflict over resolved history,
 - snapshot before major compression.
 
----
+______________________________________________________________________
 
----
+______________________________________________________________________
 
 ### Source 3: AMOS Core Module Test Coverage
 
 > Path: `dated/2026-08-22/2026-08-22 AMOS Core Module Test Coverage.md` | Size: 3326 chars | Match score: 6 | content_hash: 4a7ee77070a0c3ff
 
-# AMOS Core Module Test Coverage
+## AMOS Core Module Test Coverage
 
 > Epistic class: OBSERVATION
 > Conclusion label: `VERIFIED` — all 23 previously untested core modules now have dedicated test files.
@@ -108,35 +120,34 @@ unit tests for their individual logic.
 
 ## New test files
 
-| Test file | Module | Tests | Coverage |
-|-----------|--------|-------|----------|
-| `test_abi_registries.py` | `amos/abi/` (model, skill, tool) | 11 | Registry discover, ModelWorker |
-| `test_graph_modules.py` | `amos/graph/` (causal, dependency, provenance) | 26 | Edges, ancestors, descendants, components, sybil score |
-| `test_memory_modules.py` | `amos/memory/` (manager, context, immune, orientation) | 26 | Admit, quarantine, expire, budget packing, immune flags, cache |
-| `test_proof_modules.py` | `amos/proof/` (checker, hypotheses, rscf) | 22 | Claim gates, confidence ceiling, dominance, selective invalidation |
-| `test_runtime_modules.py` | `amos/runtime/` (planner, router, selector, audit, finalize) | 17 | Closure, topo, tensor, complexity, budget, select, audit, finalize |
-| `test_adapters_builtin.py` | `amos/adapters/builtin.py` | 18 | All 12 builtin skills + edge cases |
-| `test_replay_modules.py` | `amos/replay/` (events, ledger) | 11 | EventBus subscribe/emit, ledger record/hash |
-
+| Test file                  | Module                                                       | Tests | Coverage                                                           |
+| -------------------------- | ------------------------------------------------------------ | ----- | ------------------------------------------------------------------ |
+| `test_abi_registries.py`   | `amos/abi/` (model, skill, tool)                             | 11    | Registry discover, ModelWorker                                     |
+| `test_graph_modules.py`    | `amos/graph/` (causal, dependency, provenance)               | 26    | Edges, ancestors, descendants, components, sybil score             |
+| `test_memory_modules.py`   | `amos/memory/` (manager, context, immune, orientation)       | 26    | Admit, quarantine, expire, budget packing, immune flags, cache     |
+| `test_proof_modules.py`    | `amos/proof/` (checker, hypotheses, rscf)                    | 22    | Claim gates, confidence ceiling, dominance, selective invalidation |
+| `test_runtime_modules.py`  | `amos/runtime/` (planner, router, selector, audit, finalize) | 17    | Closure, topo, tensor, complexity, budget, select, audit, finalize |
+| `test_adapters_builtin.py` | `amos/adapters/builtin.py`                                   | 18    | All 12 builtin skills + edge cases                                 |
+| `test_replay_modules.py`   | `amos/replay/` (events, ledger)                              | 11    | EventBus subscribe/emit, ledger record/hash                        |
 
 ## Test count progression
 
-| Milestone | Python tests | TypeScript tests | Total |
-|-----------|-------------|-----------------|-------|
-| Gaps 91-320 closed | 1505 | 1142 | 2647 |
-| Cognitive matrix 321-339 | 1533 | 1142 | 2675 |
-| Core module test coverage | *1934* | *1195* | *3129* |
+| Milestone                 | Python tests | TypeScript tests | Total  |
+| ------------------------- | ------------ | ---------------- | ------ |
+| Gaps 91-320 closed        | 1505         | 1142             | 2647   |
+| Cognitive matrix 321-339  | 1533         | 1142             | 2675   |
+| Core module test coverage | *1934*       | *1195*           | *3129* |
 
 ## Key lessons
 
 1. **Claim dataclass**: Uses `text` (not `hypothesis`) and requires `epistemic` as a required positional arg.
-2. **KernelState**: The state type is `KernelState`, not `TaskState`.
-3. **QueryTensor**: Has `consequence_radius` (not `urgency`).
-4. **Uncertainty defaults**: Non-zero (max=0.5 for evidence) — complexity C0 requires explicitly setting low uncertainty in task context.
-5. **selective_invalidate**: Does NOT add the failed_id itself to the invalid set — only invalidates dependents.
-6. **Evidence dataclass**: Requires `source_id`, `source_family`, `content` (not `kind`, `source`, `payload`).
-7. **ProvenanceGraph.components**: Returns root sets, not all member IDs. Connected items share the same root set.
-8. **ModelManifest/SkillManifest/ToolManifest**: Check `__dataclass_fields__` before constructing test fixtures — field names differ from what you might expect.
+1. **KernelState**: The state type is `KernelState`, not `TaskState`.
+1. **QueryTensor**: Has `consequence_radius` (not `urgency`).
+1. **Uncertainty defaults**: Non-zero (max=0.5 for evidence) — complexity C0 requires explicitly setting low uncertainty in task context.
+1. **selective_invalidate**: Does NOT add the failed_id itself to the invalid set — only invalidates dependents.
+1. **Evidence dataclass**: Requires `source_id`, `source_family`, `content` (not `kind`, `source`, `payload`).
+1. **ProvenanceGraph.components**: Returns root sets, not all member IDs. Connected items share the same root set.
+1. **ModelManifest/SkillManifest/ToolManifest**: Check `__dataclass_fields__` before constructing test fixtures — field names differ from what you might expect.
 
 ## Anti-fabrication
 
@@ -148,9 +159,9 @@ unit tests for their individual logic.
 - [[11_KNOWLEDGE/COSMO_BRAIN_MOC|COSMO_BRAIN_MOC]]
 - 2026_08_22_AMOS_ALL_249_GAPS_CLOSED
 
----
-**MOC:** references_MOC
----
+______________________________________________________________________
+
+## **MOC:** references_MOC
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -158,12 +169,14 @@ unit tests for their individual logic.
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-context-orientation-cache-rscf-vault-domain-knowledge
 node_type: reference
 path: 07_SKILLS/amos-context-orientation-cache-rscf/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

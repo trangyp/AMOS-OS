@@ -5,7 +5,7 @@ correctly handling -full-/-master naming variants by checking .devin existence t
 """
 from pathlib import Path
 import re
-BASE = Path("/Users/mac/Documents/AMOS_OS")
+BASE = Path(__file__).resolve().parents[1]
 V = BASE/"06_AGENTS"; S=BASE/"07_SKILLS"; W=BASE/"08_WORKFLOWS"
 D = BASE/".devin"
 META = re.compile(r'(MOC|README|CONTRACT|INDEX|MAP|AUDIT|MANIFEST|LOG|_MOC|NAMING|RENAME)', re.I)

@@ -4,30 +4,22 @@ title: SKILL — Amos Workflow Builder
 type: skill
 source: 07_SKILLS/amos-workflow-builder
 name: amos-workflow-builder
-description: Build, update, audit, and package advanced AMOS/COSMO/Trang ChatGPT Workflows
-  from capability gaps, existing skills, agent bindings, engine/runtime specifications,
-  or operational sequences. Use when creating a new AMOS-aligned Workflow, strengthening
-  a thin workflow, converting an AMOS engine/spec into an operational workflow, checking
-  agent-skill-workflow routing, separating operational steps from validation gates,
-  adding RSCF/HML/provenance/governance controls, validating step ordering and gate
-  enforcement, or preparing a complete installable workflow bundle. This is the AMOS-specialized
-  Workflow factory; do not use it as a generic replacement for ordinary non-AMOS workflow
-  creation.
+description: Build, update, audit, and package advanced AMOS/COSMO/Trang ChatGPT Workflows from capability gaps, existing skills, agent bindings, engine/runtime specifications, or operational sequences. Use when creating a new AMOS-aligned Workflow, strengthening a thin workflow, converting an AMOS engine/spec into an operational workflow, checking agent-skill-workflow routing, separating operational steps from validation gates, adding RSCF/HML/provenance/governance controls, validating step ordering and gate enforcement, or preparing a complete installable workflow bundle. This is the AMOS-specialized Workflow factory; do not use it as a generic replacement for ordinary non-AMOS workflow creation.
 parent_skill: none
 domain: workflow
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CANON
 tags:
-- type/skill
-- type/skill
-- domain/os-runtime
-- epistemic/source_claim
-- hml/m
-- epistemic/source_canon
-- amos-os
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/os-runtime
+  - epistemic/source_claim
+  - hml/m
+  - epistemic/source_canon
+  - amos-os
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -37,25 +29,25 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: M
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
-- L7_authority
-- L8_execution
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
+  - L7_authority
+  - L8_execution
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L7
-- L8
-- L16
-- L17
-- L18
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L7
+  - L8
+  - L16
+  - L17
+  - L18
 license: MIT
 steward: Trang Phan
 ---
@@ -65,6 +57,7 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CANON. H/M/L: M.
+
 ## When to Use
 
 Use this skill when creating, updating, auditing, or packaging AMOS-aligned Workflows. Covers workflow step sequencing, validation gate enforcement (G1-G10), failure path specification, 1:1:1 binding (workflow→agent→skill), RSCF/HML/provenance/governance controls, trigger definition, and provenance recording. Use when converting engine specs into operational workflows or strengthening thin workflows.
@@ -76,6 +69,7 @@ Treat this Skill as a build-and-governance layer, not as proof that source frame
 Use the weakest accurate epistemic class:
 
 `SOURCE_CANON | SOURCE_CLAIM | OBSERVATION | DERIVED | AMOS_MODEL | DOMAIN_EMPIRICAL | VERIFIED | CONDITIONAL | COMPETING | UNKNOWN/GAP`
+
 - When managing lifecycle operations across classify, validate, trace, assess, and detect
 - When detecting drift in evidence chains, provenance freshness, or confidence calibration
 - When validating outputs against domain constraints and epistemic class
@@ -90,7 +84,7 @@ Use the weakest accurate epistemic class:
 - **workflow.trace_workflow_provenance**: Trace workflow provenance to skills, agents, and vault sources
 - **workflow.assess_workflow_claim**: Assess workflow claims: gate enforcement, step ordering, and promotion readiness
 - **workflow.escalate_gaps**: Classify workflow gaps and escalate blocking unknowns.
- Core Objective
+  Core Objective
 
 Create Workflows that are:
 
@@ -110,33 +104,34 @@ Create Workflows that are:
 - gate-enforced (every step has a validation gate)
 
 Never convert a large vault dump directly into a workflow unless every step is required at runtime.
+
 - **workflow.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## Operations
 
 1. **workflow.design**: Design a governed workflow graph from objective, steps, contracts, dependencies, gates, authority, retries, compensation, and rollback.
-2. **workflow.validate_topology**: Validate workflow topology, gates, contracts, authority boundaries, and cycles
-3. **workflow.analyze**: Analyze workflow topology, critical path, fan-out, fan-in, risk concentration, authority surface, failure propagation, and repair targets.
-4. **workflow.manage_lifecycle**: Manage workflow lifecycle: plan execution frontier, stage step execution under authority, checkpoint, recover from valid checkpoints, compensate completed durable steps after partial failure, and package va...
-5. **workflow.detect_drift**: Detect workflow scope, dependency, authority, schema, environment, provenance, and confidence drift.
-6. **workflow.trace_workflow_provenance**: Trace workflow provenance to skills, agents, and vault sources
-7. **workflow.assess_workflow_claim**: Assess workflow claims: gate enforcement, step ordering, and promotion readiness
-8. **workflow.escalate_gaps**: Classify workflow gaps and escalate blocking unknowns. Core Objective
-9. triggerable
-10. source-faithful
-11. operational rather than descriptive
-12. compact at the entrypoint
-13. progressively loadable
-14. provenance-preserving
-15. scope/regime bounded
-16. contradiction-visible
-17. composable with parent/child AMOS Workflows
-18. explicit about AMOS_MODEL versus empirical claims
-19. testable and package-ready
-20. agent-bound (every workflow binds to exactly one agent)
-21. skill-bound (every workflow binds to exactly one skill)
-22. gate-enforced (every step has a validation gate)
-23. **workflow.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+1. **workflow.validate_topology**: Validate workflow topology, gates, contracts, authority boundaries, and cycles
+1. **workflow.analyze**: Analyze workflow topology, critical path, fan-out, fan-in, risk concentration, authority surface, failure propagation, and repair targets.
+1. **workflow.manage_lifecycle**: Manage workflow lifecycle: plan execution frontier, stage step execution under authority, checkpoint, recover from valid checkpoints, compensate completed durable steps after partial failure, and package va...
+1. **workflow.detect_drift**: Detect workflow scope, dependency, authority, schema, environment, provenance, and confidence drift.
+1. **workflow.trace_workflow_provenance**: Trace workflow provenance to skills, agents, and vault sources
+1. **workflow.assess_workflow_claim**: Assess workflow claims: gate enforcement, step ordering, and promotion readiness
+1. **workflow.escalate_gaps**: Classify workflow gaps and escalate blocking unknowns. Core Objective
+1. triggerable
+1. source-faithful
+1. operational rather than descriptive
+1. compact at the entrypoint
+1. progressively loadable
+1. provenance-preserving
+1. scope/regime bounded
+1. contradiction-visible
+1. composable with parent/child AMOS Workflows
+1. explicit about AMOS_MODEL versus empirical claims
+1. testable and package-ready
+1. agent-bound (every workflow binds to exactly one agent)
+1. skill-bound (every workflow binds to exactly one skill)
+1. gate-enforced (every step has a validation gate)
+1. **workflow.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## Runtime
 
@@ -172,7 +167,8 @@ Resolve:
 
 Do not ask again for information already available from the request, source bundle, repository,
 
----
+______________________________________________________________________
+
 **Links:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 ## Related
@@ -182,17 +178,19 @@ Do not ask again for information already available from the request, source bund
 ## Examples
 
 - **Scenario**: When managing lifecycle operations across classify, validate, trace, assess, and detect
+
   - **Input**: A query matching this skill's domain (workflow)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When detecting drift in evidence chains, provenance freshness, or confidence calibration
+
   - **Input**: A query matching this skill's domain (workflow)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When validating outputs against domain constraints and epistemic class
+
   - **Input**: A query matching this skill's domain (workflow)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Validation Gates
 
@@ -209,7 +207,6 @@ Do not ask again for information already available from the request, source bund
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `none` — routes to this skill when workflow specialization is needed
@@ -217,7 +214,6 @@ Do not ask again for information already available from the request, source bund
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -236,7 +232,6 @@ Do not ask again for information already available from the request, source bund
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -244,7 +239,6 @@ Do not ask again for information already available from the request, source bund
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -259,11 +253,12 @@ Do not ask again for information already available from the request, source bund
 - `references/references_MOC.md` — loaded on demand
 - `references/validation.md` — loaded on demand
 - `references/workflows.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `none` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `amos-workflow-builder-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -271,12 +266,14 @@ Do not ask again for information already available from the request, source bund
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-workflow-builder
 node_type: skill
 path: 07_SKILLS/amos-workflow-builder/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

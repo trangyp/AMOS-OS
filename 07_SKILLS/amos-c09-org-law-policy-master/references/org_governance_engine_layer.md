@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: org governance engine layer
 type: reference
 source: 07_SKILLS/amos-c09-org-law-policy-master/references
 tags:
-- reference
-- amos-c09-org-law-policy-master
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-c09-org-law-policy-master
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -20,18 +23,11 @@ rscf:
 > Source: `_00_Cosmo brain/engine/A/amos-org-governance-engine-layer.md`
 > Epistemic class: SOURCE_DERIVED
 
----
-title: amos-org-governance-engine-layer
-created: "2026-08-22"
-origin_architect: "Trang Phan"
-type: "bridge"
-tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/amos-org-governance-engine-layer, engine]
-status: "index"
-provenance: "SOURCE_CLAIM"
-confidence: "VERIFIED"
----
+______________________________________________________________________
 
-# amos-org-governance-engine-layer
+## title: amos-org-governance-engine-layer created: "2026-08-22" origin_architect: "Trang Phan" type: "bridge" tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/amos-org-governance-engine-layer, engine] status: "index" provenance: "SOURCE_CLAIM" confidence: "VERIFIED"
+
+## amos-org-governance-engine-layer
 
 The Cosmo brain source file at `engine/A/amos-org-governance-engine-layer.md` is a bridge note pointing to the Org Governance Engine. Substantive content is found in `governance/Org_Governance_Model.md` and `engine/A/AMOS_Org_Governance_Engine_v0_Governance_Risk7.md`. The following is synthesized from those sources.
 
@@ -52,15 +48,15 @@ startup, sme, family_business, corporate, financial_institution, soes (state-own
 ## The 10 Governance Pillars
 
 1. **Structure and Roles** -- Levels, spans, groupings
-2. **Decision Rights and Authority** -- RACI, delegation limits
-3. **Processes and Workflows** -- Standardized processes, escalation paths
-4. **Information and Reporting** -- Reporting structures, information flows
-5. **People, Incentives, and Capability** -- Incentive alignment, capability assessment
-6. **Risk Management and Controls** -- Risk taxonomy, three lines of defence
-7. **Compliance and Policy Framework** -- Regulatory compliance, policy design
-8. **Culture and Behaviours** -- Values vs actual behaviour, psychological safety
-9. **Stakeholder Accountability** -- Accountability mechanisms, stakeholder mapping
-10. **Change and Learning** -- Organizational learning, change management
+1. **Decision Rights and Authority** -- RACI, delegation limits
+1. **Processes and Workflows** -- Standardized processes, escalation paths
+1. **Information and Reporting** -- Reporting structures, information flows
+1. **People, Incentives, and Capability** -- Incentive alignment, capability assessment
+1. **Risk Management and Controls** -- Risk taxonomy, three lines of defence
+1. **Compliance and Policy Framework** -- Regulatory compliance, policy design
+1. **Culture and Behaviours** -- Values vs actual behaviour, psychological safety
+1. **Stakeholder Accountability** -- Accountability mechanisms, stakeholder mapping
+1. **Change and Learning** -- Organizational learning, change management
 
 ## Engine Outputs
 
@@ -82,6 +78,7 @@ The engine enforces strict communication rules: no metaphor, no emotion, no stor
 ## Identity Constraints
 
 The engine's duties are to:
+
 - Surface structural risk and misalignment clearly
 - Separate governance logic from ad-hoc management preferences
 - Distinguish facts vs assumptions vs scenarios
@@ -91,13 +88,15 @@ The engine's duties are to:
 
 The Org Governance Engine integrates with the HSE CEO Engine for executive-level governance modeling, the Legal Engine for compliance and regulatory frameworks, and the Governance Risk Policy Kernel for risk assessment and policy analysis. It feeds into the Documentation Engine for governance policy and procedure documentation.
 
----
+______________________________________________________________________
+
 **MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -105,12 +104,14 @@ The Org Governance Engine integrates with the HSE CEO Engine for executive-level
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-c09-org-law-policy-master-org-governance-engine-layer
 node_type: reference
 path: 07_SKILLS/amos-c09-org-law-policy-master/references/org_governance_engine_layer.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

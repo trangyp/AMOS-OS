@@ -1,40 +1,51 @@
 ---
-title: Attachments MOC
-type: moc
-source: 00_ROOT/attachments
-tags:
-- attachments
-- canon/root
-- amos-home
-- trang-framework-recursive-ontology-dynamics
-moc: true
+title: "Attachments Moc — Plane Governance Specification"
+type: specification
+source: 00_ROOT
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
+status: ACTIVE_SPECIFICATION
+epistemic_class: AMOS_MODEL
+conclusion_class: DERIVED
 rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: root_index
+  state: DERIVED
+  claim_class: AMOS_MODEL
+  provenance:
+    - 00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE
+    - 00_ROOT/00_ROOT_MOC
+  scope: plane_governance
+tags:
+  - amos-os
+  - 00-root
+  - specification
+  - attachments-moc
 ---
 
-# Attachments MOC
+# Attachments Moc — Plane Governance Specification
 
-## Overview
-
-This moc file is part of the **00_ROOT/attachments** segment of the AMOS OS vault.
-
-## Context
-
-- **Location**: `00_ROOT/attachments/attachments_MOC.md`
-- **Type**: moc
-- **Parent directory**: attachments
-
-## RSCF Classification
-
-This file is classified under the AMOS RSCF epistemic framework. See frontmatter for state, claim class, provenance, and scope.
-
-## Related
-
-- [[AMOS_HOME|AMOS_HOME]]
-- [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+> **Origin Architect / Steward:** Trang Phan  
+> **AMOS_CORE Target:** `v4.4`  
+> **Conclusion Class:** `AMOS_MODEL`  
+> **Status:** `ACTIVE_SPECIFICATION`
 
 ---
-**MOC:** [[00_ROOT/attachments/attachments_MOC|attachments_MOC]]
+
+## 1. Architectural Scope
+
+`attachments_MOC` defines the typed contracts, invariants, and operational procedures for `00_ROOT` within the AMOS Full OS MECE architecture.
+
+---
+
+## 2. Governing Invariants
+
+- **Axiom Adherence:** Strictly bound by M01–M20 core laws.
+- **Fail-Closed Execution:** Rejects unverified or malformed inputs into the rollback basin.
+- **Immutable Receipts:** Emits auditable trace logs to `17_OBSERVABILITY`.
+
+---
+
+## 3. Navigation & Bindings
+
+- **Master MOC:** [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]
+- **Partition Architecture:** [[00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE|FULL_BRAIN_OS_MECE_ARCHITECTURE]]

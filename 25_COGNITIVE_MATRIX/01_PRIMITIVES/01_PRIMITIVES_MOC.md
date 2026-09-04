@@ -1,10 +1,13 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: 01 Primitives MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES
 tags:
-- 01-primitives
-- domain/cognitive-matrix
+  - 01-primitives
+  - domain/cognitive-matrix
 moc: true
 rscf:
   state: DERIVED
@@ -57,5 +60,6 @@ rscf:
 - [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L28_GOVERNANCE/L28_GOVERNANCE_MOC|L28_GOVERNANCE_MOC]] — L28_GOVERNANCE
 - [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L29_EVOLUTION/L29_EVOLUTION_MOC|L29_EVOLUTION_MOC]] — L29_EVOLUTION
 
----
+______________________________________________________________________
+
 **Parent:** [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]

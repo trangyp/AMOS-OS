@@ -12,33 +12,33 @@ segment: 25_COGNITIVE_MATRIX
 artifact_kind: MATRIX_TABLE
 path: 25_COGNITIVE_MATRIX/AMOS_X_UNIVERSE_CANON_MATRIX.md
 tags:
-- amos-os
-- cognitive-matrix
-- vault
-- amos_x_universe_canon_matrix
-- matrix_table
-- universe_canon
-- seven_part_universe
-- cross_plane_routing
-- reality
-- sense
-- knowledge
-- cognition
-- governance
-- execution
-- evolution
-- provenance
-- authority
-- rscf
-- canon_candidate
-- canon/matrix
-- canon
-- amos-x-ubi
-- amos-x-tss
-- amos-x-tpe
-- amos-x-qls
-- law-hierarchy
-- memory
+  - amos-os
+  - cognitive-matrix
+  - vault
+  - amos_x_universe_canon_matrix
+  - matrix_table
+  - universe_canon
+  - seven_part_universe
+  - cross_plane_routing
+  - reality
+  - sense
+  - knowledge
+  - cognition
+  - governance
+  - execution
+  - evolution
+  - provenance
+  - authority
+  - rscf
+  - canon_candidate
+  - canon/matrix
+  - canon
+  - amos-x-ubi
+  - amos-x-tss
+  - amos-x-tpe
+  - amos-x-qls
+  - law-hierarchy
+  - memory
 version: 1.1.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -53,19 +53,19 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - 25_COGNITIVE_MATRIX/AMOS_X_UNIVERSE_CANON
-  - AMOS_7_PART_UNIVERSE_CANON
-  - 01_CANON/07_PART_UNIVERSE_CANON
-  - AMOS_CORPUS
+    - 25_COGNITIVE_MATRIX/AMOS_X_UNIVERSE_CANON
+    - AMOS_7_PART_UNIVERSE_CANON
+    - 01_CANON/07_PART_UNIVERSE_CANON
+    - AMOS_CORPUS
   scope:
-  - COGNITIVE_MATRIX
-  - CROSS_PLANE_MATRIX_TABLE
-  - SEVEN_PART_UNIVERSE_CANON
-  - SOURCE_DEFINED_MODEL
+    - COGNITIVE_MATRIX
+    - CROSS_PLANE_MATRIX_TABLE
+    - SEVEN_PART_UNIVERSE_CANON
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   matrix_spec:
     artifact:
-    - - AMOS_X_UNIVERSE_CANON
+      -   - AMOS_X_UNIVERSE_CANON
   universe_canon:
     artifact: 01_CANON/07_PART_UNIVERSE_CANON/07_PART_UNIVERSE_CANON_MOC
   canonical_partition:
@@ -86,7 +86,7 @@ epistemic_boundary:
   runtime_enforcement: NOT_ESTABLISHED
 ---
 
----
+______________________________________________________________________
 
 ## title: AMOS X UNIVERSE CANON MATRIX type: note source: "25_COGNITIVE_MATRIX" rscf: state: SOURCE_CLAIM class: STRUCTURAL provenance: - internal freshness: EVERGREEN falsifiers: [] tags: [note, 25-cognitive-matrix] canon-group: canon/cognitive-matrix
 
@@ -134,9 +134,9 @@ rather than merely repository folders.
 
 The architecture is recursive rather than strictly linear.
 
----
+______________________________________________________________________
 
-# 1. Canonical Seven-Part Routing Grid
+## 1. Canonical Seven-Part Routing Grid
 
 | Universe Canon Part             | Canonical Responsibility                                         | Principal Boundary                     | Candidate AMOS Routing                                      |
 | :------------------------------ | :--------------------------------------------------------------- | :------------------------------------- | :---------------------------------------------------------- |
@@ -148,9 +148,9 @@ The architecture is recursive rather than strictly linear.
 | **P6 — Execution / Agency**     | What is actually performed or changed                            | `EXECUTABLE != AUTHORIZED`             | Runtime / agent / skill / tool / workflow structures        |
 | **P7 — Evolution / Learning**   | What is evaluated, repaired, adapted, superseded, or promoted    | `LEARNED != VERIFIED`                  | Evaluation / migration / promotion / rollback structures    |
 
----
+______________________________________________________________________
 
-# 2. Critical Correction to Previous Matrix
+## 2. Critical Correction to Previous Matrix
 
 The submitted matrix represented:
 
@@ -208,9 +208,9 @@ Therefore the former seven-row formulation MUST NOT be represented as
 the native Universe Canon unless a higher-authority lineage source
 establishes that alternative taxonomy.
 
----
+______________________________________________________________________
 
-# 3. Alternative Seven-Strata Model
+## 3. Alternative Seven-Strata Model
 
 The previous formulation may be preserved separately as:
 
@@ -247,9 +247,9 @@ COMPETING / HISTORICAL / ALTERNATIVE
 
 until provenance determines its proper status.
 
----
+______________________________________________________________________
 
-# 4. Canonical Transformation Chain
+## 4. Canonical Transformation Chain
 
 The source-grounded transformation chain is:
 
@@ -292,9 +292,9 @@ Canonical principle:
 USE THE SMALLEST SUFFICIENT PATH
 ```
 
----
+______________________________________________________________________
 
-# 5. Recursive Architecture
+## 5. Recursive Architecture
 
 The seven-part architecture is recursive.
 
@@ -325,9 +325,9 @@ EVOLUTION
 
 subject to its scope.
 
----
+______________________________________________________________________
 
-# 6. P1 — Reality / Environment
+## 6. P1 — Reality / Environment
 
 Canonical role:
 
@@ -364,9 +364,9 @@ REALITY
 INTERNAL MODEL OF REALITY
 ```
 
----
+______________________________________________________________________
 
-# 7. P1 Routing Contract
+## 7. P1 Routing Contract
 
 ```yaml
 P1_REALITY:
@@ -388,9 +388,9 @@ P1_REALITY:
     UNOBSERVED_REALITY_IS_UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 8. Physical-Root Boundary
+## 8. Physical-Root Boundary
 
 The former mapping:
 
@@ -422,9 +422,9 @@ P1
 PHYSICS
 ```
 
----
+______________________________________________________________________
 
-# 9. P2 — Sense / Evidence
+## 9. P2 — Sense / Evidence
 
 Canonical role:
 
@@ -462,9 +462,9 @@ OBSERVATIONS
 SOURCE CLAIMS
 ```
 
----
+______________________________________________________________________
 
-# 10. P2 Evidence Types
+## 10. P2 Evidence Types
 
 Canonical evidence classes include:
 
@@ -494,9 +494,9 @@ REPEATED
 INDEPENDENTLY CONFIRMED
 ```
 
----
+______________________________________________________________________
 
-# 11. Pre-Symbolic Boundary
+## 11. Pre-Symbolic Boundary
 
 The former mapping:
 
@@ -528,9 +528,9 @@ AMOS_MODEL_BINDING
 
 not native seven-part identity.
 
----
+______________________________________________________________________
 
-# 12. P3 — Knowledge / Memory
+## 12. P3 — Knowledge / Memory
 
 Canonical role:
 
@@ -563,9 +563,9 @@ H/M/L KNOWLEDGE NETWORK
 HISTORICAL STATE
 ```
 
----
+______________________________________________________________________
 
-# 13. P3 Knowledge Firewall
+## 13. P3 Knowledge Firewall
 
 ```text
 STORED
@@ -585,9 +585,9 @@ Persistence preserves epistemic class.
 
 It does not upgrade it.
 
----
+______________________________________________________________________
 
-# 14. Biological-Living-Stack Boundary
+## 14. Biological-Living-Stack Boundary
 
 The former mapping:
 
@@ -614,9 +614,9 @@ P3
 UBI
 ```
 
----
+______________________________________________________________________
 
-# 15. UBI Cross-Plane Routing
+## 15. UBI Cross-Plane Routing
 
 A governed UBI mapping may instead resemble:
 
@@ -649,11 +649,11 @@ Classification:
 AMOS_DERIVED_CROSS_PLANE_MAPPING
 ```
 
----
+______________________________________________________________________
 
-# 16. UBI Equation Boundary
+## 16. UBI Equation Boundary
 
-The matrix MUST remain synchronized with ``.
+The matrix MUST remain synchronized with \`\`.
 
 Source-grounded:
 
@@ -678,9 +678,9 @@ UBI 4 Domains (e = i²)
 may identify a UBI framework relationship but MUST NOT imply that UBI
 defines canonical Universe Part 3.
 
----
+______________________________________________________________________
 
-# 17. P4 — Cognition / Models
+## 17. P4 — Cognition / Models
 
 Canonical role:
 
@@ -719,9 +719,9 @@ CONTRADICTION DETECTION
 DECISION SUPPORT
 ```
 
----
+______________________________________________________________________
 
-# 18. P4 Routing
+## 18. P4 Routing
 
 ```yaml
 P4_COGNITION:
@@ -747,9 +747,9 @@ P4_COGNITION:
     REQUIRES_FRAMEWORK_SPECIFIC_PROVENANCE
 ```
 
----
+______________________________________________________________________
 
-# 19. Logic-Kernel Boundary
+## 19. Logic-Kernel Boundary
 
 The previous mapping:
 
@@ -775,9 +775,9 @@ P4
 
 is a mapping hypothesis requiring exact source reconciliation.
 
----
+______________________________________________________________________
 
-# 20. P5 — Governance / Authority
+## 20. P5 — Governance / Authority
 
 Canonical role:
 
@@ -818,9 +818,9 @@ FINALIZATION
 ROLLBACK AUTHORIZATION
 ```
 
----
+______________________________________________________________________
 
-# 21. P5 Governance Firewall
+## 21. P5 Governance Firewall
 
 ```text
 CAPABILITY
@@ -844,9 +844,9 @@ EXECUTABLE
 AUTHORIZED
 ```
 
----
+______________________________________________________________________
 
-# 22. Cognitive-Apex Boundary
+## 22. Cognitive-Apex Boundary
 
 The previous matrix assigned:
 
@@ -868,9 +868,9 @@ that interpretation.
 They MUST NOT displace P5 governance without higher-authority
 provenance.
 
----
+______________________________________________________________________
 
-# 23. P6 — Execution / Agency
+## 23. P6 — Execution / Agency
 
 Canonical role:
 
@@ -903,9 +903,9 @@ ROUTERS
 EFFECTORS
 ```
 
----
+______________________________________________________________________
 
-# 24. Execution Hierarchy
+## 24. Execution Hierarchy
 
 Conceptual hierarchy:
 
@@ -935,9 +935,9 @@ PROTOCOL
 
 defining interaction contracts.
 
----
+______________________________________________________________________
 
-# 25. Execution Firewall
+## 25. Execution Firewall
 
 ```text
 SUCCESSFUL EXECUTION
@@ -953,9 +953,9 @@ EXECUTION COMPLETE
 CAUSAL FINALITY
 ```
 
----
+______________________________________________________________________
 
-# 26. TSS / TPE Boundary
+## 26. TSS / TPE Boundary
 
 The previous matrix assigned:
 
@@ -995,9 +995,9 @@ ONE PART ONLY
 
 MUST NOT be assumed.
 
----
+______________________________________________________________________
 
-# 27. P7 — Evolution / Learning
+## 27. P7 — Evolution / Learning
 
 Canonical role:
 
@@ -1039,9 +1039,9 @@ ROLLBACK
 LEARNING
 ```
 
----
+______________________________________________________________________
 
-# 28. P7 Evolution Firewall
+## 28. P7 Evolution Firewall
 
 ```text
 NEW
@@ -1065,9 +1065,9 @@ LATEST
 CANONICAL
 ```
 
----
+______________________________________________________________________
 
-# 29. Heritage Boundary
+## 29. Heritage Boundary
 
 The previous mapping:
 
@@ -1105,9 +1105,9 @@ P7
 
 is not currently established.
 
----
+______________________________________________________________________
 
-# 30. Cross-Plane Matrix Principle
+## 30. Cross-Plane Matrix Principle
 
 The Universe Canon should be treated as a semantic partition.
 
@@ -1137,9 +1137,9 @@ UNIVERSE PART
 
 unless explicitly defined as such.
 
----
+______________________________________________________________________
 
-# 31. Many-to-Many Routing
+## 31. Many-to-Many Routing
 
 Canonical matrix routing SHOULD permit:
 
@@ -1159,9 +1159,9 @@ MULTIPLE FRAMEWORKS
 
 This prevents artificial one-to-one compression.
 
----
+______________________________________________________________________
 
-# 32. Cross-Plane Routing Contract
+## 32. Cross-Plane Routing Contract
 
 ```yaml
 Cross_Plane_Route:
@@ -1200,9 +1200,9 @@ Cross_Plane_Route:
   validation_status:
 ```
 
----
+______________________________________________________________________
 
-# 33. Routing Confidence
+## 33. Routing Confidence
 
 ```text
 SOURCE EXPLICITLY MAPS X → Pn
@@ -1222,9 +1222,9 @@ INSUFFICIENT EVIDENCE
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 34. Cross-Plane Firewall
+## 34. Cross-Plane Firewall
 
 ```text
 SEMANTIC SIMILARITY
@@ -1248,9 +1248,9 @@ STRUCTURAL RESEMBLANCE
 SOURCE PROVENANCE
 ```
 
----
+______________________________________________________________________
 
-# 35. Separation Laws
+## 35. Separation Laws
 
 The current Universe Canon establishes these load-bearing distinctions:
 
@@ -1284,9 +1284,9 @@ VALIDATION
 CANON
 ```
 
----
+______________________________________________________________________
 
-# 36. Extended Firewalls
+## 36. Extended Firewalls
 
 ```text
 SOURCE_CLAIM
@@ -1326,9 +1326,9 @@ UNKNOWN/GAP
 PASS
 ```
 
----
+______________________________________________________________________
 
-# 37. RSCF Placement
+## 37. RSCF Placement
 
 RSCF appears principally within:
 
@@ -1360,9 +1360,9 @@ EXCLUSIVELY P4
 
 at the conceptual architecture level.
 
----
+______________________________________________________________________
 
-# 38. RSCF Cross-Plane Lifecycle
+## 38. RSCF Cross-Plane Lifecycle
 
 ```text
 P2
@@ -1386,9 +1386,9 @@ VALIDATION / REPAIR
 
 This is an AMOS normalized lifecycle mapping.
 
----
+______________________________________________________________________
 
-# 39. H/M/L Placement
+## 39. H/M/L Placement
 
 H/M/L belongs primarily to the fractal knowledge structure:
 
@@ -1411,9 +1411,9 @@ KNOWLEDGE / MEMORY
 
 while supporting P4 retrieval.
 
----
+______________________________________________________________________
 
-# 40. Raw-Evidence Policy
+## 40. Raw-Evidence Policy
 
 ```text
 RAW EVIDENCE
@@ -1429,9 +1429,9 @@ This supports:
 SMALLEST SUFFICIENT DEPENDENCY PATH
 ```
 
----
+______________________________________________________________________
 
-# 41. Provenance Topology
+## 41. Provenance Topology
 
 Cross-plane routing MUST retain ancestry.
 
@@ -1453,9 +1453,9 @@ DESCENDANT COUNT
 INDEPENDENT EVIDENCE COUNT
 ```
 
----
+______________________________________________________________________
 
-# 42. Universe-Canon Lineage
+## 42. Universe-Canon Lineage
 
 The corpus contains multiple Universe-Canon representations.
 
@@ -1487,9 +1487,9 @@ CANON CANDIDATE
 
 Do not infer independence from separate filenames.
 
----
+______________________________________________________________________
 
-# 43. Lineage Contract
+## 43. Lineage Contract
 
 ```yaml
 Universe_Canon_Lineage:
@@ -1523,9 +1523,9 @@ Universe_Canon_Lineage:
   provenance_hash:
 ```
 
----
+______________________________________________________________________
 
-# 44. Current Authority Envelope
+## 44. Current Authority Envelope
 
 The retrieved current canonical candidate identifies:
 
@@ -1556,9 +1556,9 @@ This provides the present source anchor.
 It does not by itself prove that all historical variants are
 superseded.
 
----
+______________________________________________________________________
 
-# 45. Authority Firewall
+## 45. Authority Firewall
 
 ```text
 LATEST FOUND
@@ -1580,9 +1580,9 @@ INDEPENDENT CANON
 
 Explicit lineage and governance metadata control promotion.
 
----
+______________________________________________________________________
 
-# 46. Governance Position
+## 46. Governance Position
 
 Universe-Canon changes pass through:
 
@@ -1601,9 +1601,9 @@ MATRIX GENERATION
 CANON PROMOTION
 ```
 
----
+______________________________________________________________________
 
-# 47. Execution Position
+## 47. Execution Position
 
 Writing or ingesting this artifact belongs to:
 
@@ -1620,9 +1620,9 @@ FILE WRITTEN
 CANON VERIFIED
 ```
 
----
+______________________________________________________________________
 
-# 48. Evolution Position
+## 48. Evolution Position
 
 Reconciliation of competing Universe-Canon variants belongs to:
 
@@ -1655,9 +1655,9 @@ NEW FILE
 AUTOMATIC CANON
 ```
 
----
+______________________________________________________________________
 
-# 49. Feedback Contract
+## 49. Feedback Contract
 
 Execution results return as evidence:
 
@@ -1681,9 +1681,9 @@ EXECUTION RESULT
 TRUTH
 ```
 
----
+______________________________________________________________________
 
-# 50. Canonical Input/Output Matrix
+## 50. Canonical Input/Output Matrix
 
 | Part          | Receives                         | Produces                                     |
 | :------------ | :------------------------------- | :------------------------------------------- |
@@ -1695,9 +1695,9 @@ TRUTH
 | P6 Execution  | Authorized operations            | Effects / results / traces                   |
 | P7 Evolution  | Results / evaluations / failures | Repairs / adaptations / promotion candidates |
 
----
+______________________________________________________________________
 
-# 51. Part Boundary Matrix
+## 51. Part Boundary Matrix
 
 | From       | To                     | Required Boundary                               |
 | :--------- | :--------------------- | :---------------------------------------------- |
@@ -1709,9 +1709,9 @@ TRUTH
 | P6 → P7    | Execution → Evolution  | Result requires validation                      |
 | P7 → Canon | Evolution → Canon      | Promotion authority required                    |
 
----
+______________________________________________________________________
 
-# 52. Candidate Framework Routing Matrix
+## 52. Candidate Framework Routing Matrix
 
 The following table is intentionally epistemically typed.
 
@@ -1733,9 +1733,9 @@ The following table is intentionally epistemically typed.
 | Tools                   | P6                                      | SOURCE-COMPATIBLE                      |
 | Governance policies     | P5                                      | SOURCE-COMPATIBLE                      |
 
----
+______________________________________________________________________
 
-# 53. No Exclusive Mapping Without Proof
+## 53. No Exclusive Mapping Without Proof
 
 A row in the routing matrix does not establish exclusive ownership.
 
@@ -1757,9 +1757,9 @@ HERITAGE → P3/P7
 
 does not establish exhaustive scope.
 
----
+______________________________________________________________________
 
-# 54. Physical-Law Firewall
+## 54. Physical-Law Firewall
 
 The previous matrix used:
 
@@ -1781,9 +1781,9 @@ CONSERVATION OF ENERGY
 belongs to applicable physical-domain evidence, not to a universal
 AMOS P1 routing invariant.
 
----
+______________________________________________________________________
 
-# 55. Biological-Substrate Firewall
+## 55. Biological-Substrate Firewall
 
 The previous matrix used:
 
@@ -1803,9 +1803,9 @@ FRAMEWORK-SPECIFIC MODEL
 
 if retained elsewhere.
 
----
+______________________________________________________________________
 
-# 56. Formal-Proof Firewall
+## 56. Formal-Proof Firewall
 
 The previous matrix used:
 
@@ -1827,9 +1827,9 @@ FORMAL PROOF
 
 Therefore P4 cannot universally require formal proof.
 
----
+______________________________________________________________________
 
-# 57. Metacognitive-Gate Firewall
+## 57. Metacognitive-Gate Firewall
 
 The previous:
 
@@ -1842,9 +1842,9 @@ may be a candidate cognitive mechanism.
 It is not established as the canonical verification gate for P5,
 because current P5 is governance/authority.
 
----
+______________________________________________________________________
 
-# 58. TSS-Decoupling Firewall
+## 58. TSS-Decoupling Firewall
 
 The previous:
 
@@ -1859,9 +1859,9 @@ Current P6 is execution/agency.
 Execution requires authorization and traceability rather than a
 universally assumed TSS-specific gate.
 
----
+______________________________________________________________________
 
-# 59. Decision-Receipt Boundary
+## 59. Decision-Receipt Boundary
 
 The previous:
 
@@ -1874,9 +1874,9 @@ evolution.
 
 It is not established as the sole defining P7 verification mechanism.
 
----
+______________________________________________________________________
 
-# 60. Universal Routing Invariants
+## 60. Universal Routing Invariants
 
 The stronger cross-plane invariants are:
 
@@ -1903,9 +1903,9 @@ P7:
 LEARNED != VERIFIED
 ```
 
----
+______________________________________________________________________
 
-# 61. End-to-End Invariant
+## 61. End-to-End Invariant
 
 Across the entire seven-part system:
 
@@ -1931,9 +1931,9 @@ must never collapse into:
 ONE UNDIFFERENTIATED STATE
 ```
 
----
+______________________________________________________________________
 
-# 62. Epistemic Type Preservation
+## 62. Epistemic Type Preservation
 
 A claim retains its class while crossing planes unless a valid
 transition explicitly changes it.
@@ -1955,9 +1955,9 @@ does not automatically become:
 VERIFIED
 ```
 
----
+______________________________________________________________________
 
-# 63. Authority Type Preservation
+## 63. Authority Type Preservation
 
 Likewise:
 
@@ -1973,9 +1973,9 @@ PROPOSAL
 
 until governance authorizes it.
 
----
+______________________________________________________________________
 
-# 64. Execution Type Preservation
+## 64. Execution Type Preservation
 
 An authorized operation entering P6 produces:
 
@@ -1989,9 +1989,9 @@ not automatically:
 VALIDATED OUTCOME
 ```
 
----
+______________________________________________________________________
 
-# 65. Evolution Type Preservation
+## 65. Evolution Type Preservation
 
 P7 may produce:
 
@@ -2009,9 +2009,9 @@ CANON
 
 until governance authorizes promotion.
 
----
+______________________________________________________________________
 
-# 66. Local Reasoning
+## 66. Local Reasoning
 
 Not every query requires all seven parts.
 
@@ -2026,9 +2026,9 @@ P4
 may suffice for a low-stakes reasoning request using already validated
 knowledge.
 
----
+______________________________________________________________________
 
-# 67. Escalation
+## 67. Escalation
 
 Escalate across additional parts when:
 
@@ -2050,9 +2050,9 @@ PROVENANCE CONFLICT EXISTS
 REGIME SHIFT EXISTS
 ```
 
----
+______________________________________________________________________
 
-# 68. Smallest Sufficient Path
+## 68. Smallest Sufficient Path
 
 Canonical execution principle:
 
@@ -2064,9 +2064,9 @@ DEPENDENCY + AUTHORITY PATH
 
 without bypassing required boundaries.
 
----
+______________________________________________________________________
 
-# 69. Cross-Plane RSCF
+## 69. Cross-Plane RSCF
 
 ```yaml
 Cross_Plane_RSCF:
@@ -2104,9 +2104,9 @@ Cross_Plane_RSCF:
   invalidation_conditions:
 ```
 
----
+______________________________________________________________________
 
-# 70. Transition Receipt
+## 70. Transition Receipt
 
 ```yaml
 Universe_Transition_Receipt:
@@ -2138,9 +2138,9 @@ Universe_Transition_Receipt:
   rollback_target:
 ```
 
----
+______________________________________________________________________
 
-# 71. Invalid Transition Examples
+## 71. Invalid Transition Examples
 
 ```text
 P2 SOURCE CLAIM
@@ -2159,6 +2159,7 @@ P4 MODEL
 →
 P6 EXECUTION
 ```
+
 without P5 authority where authority is required:
 
 ```text
@@ -2170,15 +2171,16 @@ P6 RESULT
 →
 CANON
 ```
+
 without validation/governance:
 
 ```text
 INVALID
 ```
 
----
+______________________________________________________________________
 
-# 72. Valid Transition Pattern
+## 72. Valid Transition Pattern
 
 ```text
 P2 EVIDENCE
@@ -2200,9 +2202,9 @@ P5 PROMOTION AUTHORIZATION
 
 when all required scopes and gates apply.
 
----
+______________________________________________________________________
 
-# 73. Failure Recovery
+## 73. Failure Recovery
 
 A failed transition should invalidate only dependent downstream state.
 
@@ -2224,9 +2226,9 @@ to be reconsidered as appropriate.
 
 Independent branches remain valid.
 
----
+______________________________________________________________________
 
-# 74. Rollback
+## 74. Rollback
 
 ```text
 FAILED PREMISE
@@ -2238,9 +2240,9 @@ LOCAL REROUTE
 
 Global recomputation is not the default.
 
----
+______________________________________________________________________
 
-# 75. Causal Firewall
+## 75. Causal Firewall
 
 The seven-part transformation chain is an architectural flow.
 
@@ -2253,9 +2255,9 @@ FLOW EDGE
 CAUSAL EFFECT
 ```
 
----
+______________________________________________________________________
 
-# 76. Scope Firewall
+## 76. Scope Firewall
 
 A routing valid for one:
 
@@ -2275,9 +2277,9 @@ MEASUREMENT METHOD
 
 does not automatically generalize to another.
 
----
+______________________________________________________________________
 
-# 77. Regime Firewall
+## 77. Regime Firewall
 
 If operating conditions materially change:
 
@@ -2289,9 +2291,9 @@ REGIME(t1)
 
 dependent routing assumptions require revalidation.
 
----
+______________________________________________________________________
 
-# 78. Freshness
+## 78. Freshness
 
 Cross-plane evidence inherits freshness requirements.
 
@@ -2307,9 +2309,9 @@ STALE P2 / P3 STATE
 
 when freshness is load-bearing.
 
----
+______________________________________________________________________
 
-# 79. Competing Routes
+## 79. Competing Routes
 
 If two subsystem mappings are equally plausible:
 
@@ -2331,9 +2333,9 @@ COMPETING
 
 until discriminating provenance exists.
 
----
+______________________________________________________________________
 
-# 80. Cheapest Discriminating Test
+## 80. Cheapest Discriminating Test
 
 For a disputed routing, first inspect:
 
@@ -2351,9 +2353,9 @@ EXECUTION SEMANTICS
 
 before broad corpus expansion.
 
----
+______________________________________________________________________
 
-# 81. Adversarial Validation
+## 81. Adversarial Validation
 
 Consequential routing claims SHOULD be challenged for:
 
@@ -2377,9 +2379,9 @@ MEMORY / CANON COLLAPSE
 STRUCTURAL-ANALOGY OVERREACH
 ```
 
----
+______________________________________________________________________
 
-# 82. Confidence Ceiling
+## 82. Confidence Ceiling
 
 For a cross-plane route:
 
@@ -2400,9 +2402,9 @@ This is an AMOS epistemic rule.
 
 It is not a physical law.
 
----
+______________________________________________________________________
 
-# 83. Uncertainty Vector
+## 83. Uncertainty Vector
 
 ```yaml
 Universe_Matrix_Uncertainty:
@@ -2426,9 +2428,9 @@ Universe_Matrix_Uncertainty:
   provenance_independence:
 ```
 
----
+______________________________________________________________________
 
-# 84. H/M/L Representation
+## 84. H/M/L Representation
 
 ```yaml
 H:
@@ -2461,9 +2463,9 @@ L:
     - raw_provenance
 ```
 
----
+______________________________________________________________________
 
-# 85. RSCF Contract
+## 85. RSCF Contract
 
 ```yaml
 RSCF:
@@ -2530,9 +2532,9 @@ RSCF:
       UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 86. Proof Capsule
+## 86. Proof Capsule
 
 ```yaml
 PROOF_CAPSULE:
@@ -2600,9 +2602,9 @@ PROOF_CAPSULE:
       UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 87. Canon Promotion Gate
+## 87. Canon Promotion Gate
 
 - [x] current seven-part source located
 - [x] current seven-part identities located
@@ -2618,9 +2620,9 @@ PROOF_CAPSULE:
 - [ ] exact framework-to-part routes reconciled
 - [ ] final governance promotion receipt
 
----
+______________________________________________________________________
 
-# 88. Runtime Promotion Gate
+## 88. Runtime Promotion Gate
 
 - [ ] executable cross-plane router
 - [ ] typed transition schema
@@ -2635,9 +2637,9 @@ PROOF_CAPSULE:
 - [ ] transition receipts
 - [ ] runtime validation
 
----
+______________________________________________________________________
 
-# 89. Critical Gaps
+## 89. Critical Gaps
 
 ```yaml
 gaps:
@@ -2663,9 +2665,9 @@ gaps:
     state: NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 90. Invalidation Conditions
+## 90. Invalidation Conditions
 
 Revalidate this matrix if:
 
@@ -2686,9 +2688,9 @@ AMOS CORE TARGET CHANGES
 EXECUTABLE ROUTING IS IMPLEMENTED
 ```
 
----
+______________________________________________________________________
 
-# 91. Ingestion Rule
+## 91. Ingestion Rule
 
 ```yaml
 AMOS_CANON_INGESTION_RULE:
@@ -2732,9 +2734,9 @@ AMOS_CANON_INGESTION_RULE:
       - NEVER_INVENT_CANON
 ```
 
----
+______________________________________________________________________
 
-# 92. Final Canonical Matrix
+## 92. Final Canonical Matrix
 
 ```text
 ┌──────────────────────────────────────────────┐
@@ -2775,9 +2777,9 @@ AMOS_CANON_INGESTION_RULE:
                        └────────────────────↺
 ```
 
----
+______________________________________________________________________
 
-# 93. Final Canonical Statement
+## 93. Final Canonical Statement
 
 The AMOS x Universe Canon Cross-Plane Matrix represents the current
 source-defined:
@@ -2897,18 +2899,18 @@ INDEPENDENTLY VERIFIED
 COSMOLOGICAL TAXONOMY.
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|AMOS MOC]]
 
----
+______________________________________________________________________
 
-**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]] ·
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]
 [[25_COGNITIVE_MATRIX/AMOS_X_UNIVERSE_CANON|AMOS_X_UNIVERSE_CANON]] · [[11_KNOWLEDGE/03_RSCF/UNIVERSE_RSCF_INDEX|UNIVERSE_RSCF_INDEX]] ·
 [[25_COGNITIVE_MATRIX/AMOS_X_UBI|AMOS_X_UBI]] · [[25_COGNITIVE_MATRIX/AMOS_X_TSS|AMOS_X_TSS]] · [[25_COGNITIVE_MATRIX/AMOS_X_TPE|AMOS_X_TPE]] ·
 [[25_COGNITIVE_MATRIX/AMOS_X_QLS|AMOS_X_QLS]]
 
----
+______________________________________________________________________
 
 RSCF-NODE
 
@@ -2944,7 +2946,7 @@ RSCF-RELATIONS:
 
 - INDEXED_BY: [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]
 
----
+______________________________________________________________________
 
 **MOC:** [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]
 
@@ -2966,6 +2968,7 @@ P7 EVOLUTION / LEARNING
 
 while the submitted physical → pre-symbolic → biological → logic → cognitive → governance → civilizational sequence remains **COMPETING/HISTORICAL pending lineage reconciliation**, rather than being destroyed or silently merged. That preserves both the current source authority and any potentially meaningful earlier Universe architecture until its provenance can discriminate between supersession, parallel model, or taxonomy collision.
 
----
+______________________________________________________________________
 
 **Related:** [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]
+```

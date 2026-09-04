@@ -1,33 +1,36 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: L25 SHARD LOCAL
 type: note
 source: 01_CANON/01_CORE_LAWS
 tags:
-- canon
-- core_laws
-- note
-- shard_local
-- sharding
-- shard_boundaries
-- local_decisions
-- local_facts
-- global_facts
-- global_invariants
-- cross_shard
-- coordination
-- boundary_contracts
-- shard_interfaces
-- conflict_protocol
-- concurrent_histories
-- merge_discipline
-- last_write_wins
-- locality
-- distributed_reasoning
-- coordination_avoidance
-- provenance
-- canon/universe
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - canon
+  - core_laws
+  - note
+  - shard_local
+  - sharding
+  - shard_boundaries
+  - local_decisions
+  - local_facts
+  - global_facts
+  - global_invariants
+  - cross_shard
+  - coordination
+  - boundary_contracts
+  - shard_interfaces
+  - conflict_protocol
+  - concurrent_histories
+  - merge_discipline
+  - last_write_wins
+  - locality
+  - distributed_reasoning
+  - coordination_avoidance
+  - provenance
+  - canon/universe
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: CONDITIONAL
@@ -46,9 +49,9 @@ rscf:
 **canonical_status:** CONDITIONAL\
 **updated:** 2026-08-26
 
----
+______________________________________________________________________
 
-# 0. Status
+## 0. Status
 
 L25 defines the proposed AMOS **Shard-Local Law**.
 
@@ -115,9 +118,9 @@ PROPOSED_SPECIFICATION
 
 until authoritative distribution canon validates, modifies, supersedes, or rejects its sharding semantics.
 
----
+______________________________________________________________________
 
-# 1. Governing Objective
+## 1. Governing Objective
 
 L25 asks:
 
@@ -195,9 +198,9 @@ CLASSIFY LOCALITY
 → DO NOT DEFAULT TO LAST-WRITE-WINS
 ```
 
----
+______________________________________________________________________
 
-# 2. Core Shard-Local Laws
+## 2. Core Shard-Local Laws
 
 ```text
 SL-1
@@ -248,9 +251,9 @@ CONCURRENT HISTORY?
             MERGE
 ```
 
----
+______________________________________________________________________
 
-# 3. SL-1 — Local Decisions Local
+## 3. SL-1 — Local Decisions Local
 
 **Law**
 
@@ -273,9 +276,9 @@ GLOBAL CONSENSUS
 
 solely because the fact exists inside a distributed system.
 
----
+______________________________________________________________________
 
-# 4. Shard-Local Fact
+## 4. Shard-Local Fact
 
 The source uses:
 
@@ -298,9 +301,9 @@ CONTRACT.
 
 The exact locality test remains unspecified.
 
----
+______________________________________________________________________
 
-# 5. Locality Is Scoped
+## 5. Locality Is Scoped
 
 A fact is not simply:
 
@@ -330,9 +333,9 @@ SCOPED PROPERTY
 
 under the L25 model.
 
----
+______________________________________________________________________
 
-# 6. Local Decision
+## 6. Local Decision
 
 Conceptually:
 
@@ -347,9 +350,9 @@ DECISION D
 
 can resolve inside S1 when F and D are genuinely shard-local.
 
----
+______________________________________________________________________
 
-# 7. No Global Consensus Requirement
+## 7. No Global Consensus Requirement
 
 SL-1 explicitly says:
 
@@ -367,9 +370,9 @@ This establishes a coordination-avoidance rule for properly local facts.
 
 It does **not** establish that no synchronization of any kind is ever required.
 
----
+______________________________________________________________________
 
-# 8. Local Resolution ≠ No Validation
+## 8. Local Resolution ≠ No Validation
 
 Critical firewall:
 
@@ -391,9 +394,9 @@ A shard-local decision can still require:
 
 L25 only removes the requirement for **global consensus** when the fact is genuinely local.
 
----
+______________________________________________________________________
 
-# 9. Local Resolution ≠ Arbitrary Resolution
+## 9. Local Resolution ≠ Arbitrary Resolution
 
 Invalid:
 
@@ -414,9 +417,9 @@ LOCAL GOVERNING
 CONSTRAINTS
 ```
 
----
+______________________________________________________________________
 
-# 10. Local ≠ Independent
+## 10. Local ≠ Independent
 
 A shard can be physically or logically separated while still sharing dependencies with another shard.
 
@@ -430,9 +433,9 @@ INDEPENDENT FACT
 
 Locality must follow the declared semantics, not topology alone.
 
----
+______________________________________________________________________
 
-# 11. Local ≠ Private
+## 11. Local ≠ Private
 
 A fact can be visible globally while still being locally decidable.
 
@@ -454,9 +457,9 @@ STORAGE LOCATION
 DECISION SCOPE
 ```
 
----
+______________________________________________________________________
 
-# 12. Local ≠ Low Importance
+## 12. Local ≠ Low Importance
 
 A highly consequential fact can still be shard-local if its validity envelope is confined to one shard.
 
@@ -470,9 +473,9 @@ IMPORTANCE
 LOCALITY CLASS
 ```
 
----
+______________________________________________________________________
 
-# 13. Locality and Dependencies
+## 13. Locality and Dependencies
 
 Suppose:
 
@@ -494,9 +497,9 @@ A@S1 → X@S2
 
 then the locality assumption requires re-evaluation.
 
----
+______________________________________________________________________
 
-# 14. Hidden Cross-Shard Dependency
+## 14. Hidden Cross-Shard Dependency
 
 A dangerous defect is:
 
@@ -511,9 +514,9 @@ ON SHARD S2
 
 The fact may not actually qualify for SL-1 local resolution.
 
----
+______________________________________________________________________
 
-# 15. Locality Requires Dependency Closure
+## 15. Locality Requires Dependency Closure
 
 A model-level criterion is:
 
@@ -530,9 +533,9 @@ This is an AMOS_MODEL integration with dependency closure.
 
 The source itself does not define this algorithm.
 
----
+______________________________________________________________________
 
-# 16. Locality and Provenance
+## 16. Locality and Provenance
 
 If a local fact depends on provenance originating elsewhere:
 
@@ -549,9 +552,9 @@ But it means provenance ancestry crosses the shard boundary and may affect wheth
 
 Exact treatment is unspecified.
 
----
+______________________________________________________________________
 
-# 17. Locality and Freshness
+## 17. Locality and Freshness
 
 A local fact can be stale.
 
@@ -565,9 +568,9 @@ FRESH
 
 SL-1 does not override freshness requirements.
 
----
+______________________________________________________________________
 
-# 18. Locality and Epistemic Regime
+## 18. Locality and Epistemic Regime
 
 A local decision valid under:
 
@@ -589,9 +592,9 @@ SHARD LOCALITY
 REGIME INDEPENDENCE
 ```
 
----
+______________________________________________________________________
 
-# 19. Locality and Scope
+## 19. Locality and Scope
 
 A fact can be local to:
 
@@ -609,9 +612,9 @@ ENVIRONMENT E1
 
 L25 does not erase the broader AMOS scope firewall.
 
----
+______________________________________________________________________
 
-# 20. Locality Receipt
+## 20. Locality Receipt
 
 A model-level representation:
 
@@ -625,9 +628,9 @@ locality:
 
 Exact serialization is not source-defined.
 
----
+______________________________________________________________________
 
-# 21. Local Decision Receipt
+## 21. Local Decision Receipt
 
 ```yaml
 decision:
@@ -640,9 +643,9 @@ decision:
 
 Illustrative only.
 
----
+______________________________________________________________________
 
-# 22. Locality Proof
+## 22. Locality Proof
 
 For consequential local resolution, a model may preserve:
 
@@ -659,9 +662,9 @@ to demonstrate why global coordination was unnecessary.
 
 This is not explicitly required by the source but follows the broader proof-based AMOS discipline.
 
----
+______________________________________________________________________
 
-# 23. Locality Must Be Demonstrated
+## 23. Locality Must Be Demonstrated
 
 The v4.4 fast-path discipline implies:
 
@@ -682,9 +685,9 @@ UNKNOWN
 
 and escalation is appropriate.
 
----
+______________________________________________________________________
 
-# 24. Locality Misclassification
+## 24. Locality Misclassification
 
 If a global fact is incorrectly classified local:
 
@@ -699,9 +702,9 @@ MAY BREAK
 
 This is precisely the class of failure SL-2 prevents.
 
----
+______________________________________________________________________
 
-# 25. Locality Overclassification
+## 25. Locality Overclassification
 
 The opposite error is:
 
@@ -718,9 +721,9 @@ This may preserve correctness but sacrifice efficiency.
 
 Thus correct classification matters for both integrity and coordination cost.
 
----
+______________________________________________________________________
 
-# 26. SL-1 Compact Law
+## 26. SL-1 Compact Law
 
 ```text
 FACT F
@@ -738,9 +741,9 @@ GLOBAL
 CONSENSUS
 ```
 
----
+______________________________________________________________________
 
-# 27. SL-2 — Global Facts Global
+## 27. SL-2 — Global Facts Global
 
 **Law**
 
@@ -768,9 +771,9 @@ INVARIANT
 VIOLATION
 ```
 
----
+______________________________________________________________________
 
-# 28. Global Fact
+## 28. Global Fact
 
 The law title uses:
 
@@ -786,9 +789,9 @@ cross-shard invariants
 
 The safest interpretation is that the global class includes facts or constraints whose validity spans multiple shards.
 
----
+______________________________________________________________________
 
-# 29. Cross-Shard Invariant
+## 29. Cross-Shard Invariant
 
 Conceptually:
 
@@ -802,9 +805,9 @@ SHARD S1        SHARD S2
 
 G cannot be correctly established solely from one shard if its truth depends on both.
 
----
+______________________________________________________________________
 
-# 30. Coordination
+## 30. Coordination
 
 The source requires:
 
@@ -836,9 +839,9 @@ EXACT MECHANISM
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 31. Coordination ≠ Global Consensus Necessarily
+## 31. Coordination ≠ Global Consensus Necessarily
 
 SL-2 says:
 
@@ -862,9 +865,9 @@ COORDINATION
 
 into a particular distributed consensus protocol.
 
----
+______________________________________________________________________
 
-# 32. Global Fact ≠ Broadcast Everything
+## 32. Global Fact ≠ Broadcast Everything
 
 A global invariant may require coordination among only the shards participating in that invariant.
 
@@ -880,9 +883,9 @@ ALL-SHARD BROADCAST
 
 unless authoritative distribution canon defines it that way.
 
----
+______________________________________________________________________
 
-# 33. Global Fact ≠ Centralized Decision
+## 33. Global Fact ≠ Centralized Decision
 
 Likewise:
 
@@ -894,9 +897,9 @@ CENTRALIZED
 
 L25 requires coordination, not necessarily a central authority.
 
----
+______________________________________________________________________
 
-# 34. Global Fact ≠ Permanent Global Lock
+## 34. Global Fact ≠ Permanent Global Lock
 
 The law does not establish:
 
@@ -908,9 +911,9 @@ GLOBAL LOCK
 
 Exact coordination mechanics remain unspecified.
 
----
+______________________________________________________________________
 
-# 35. Local Shortcut
+## 35. Local Shortcut
 
 A local shortcut has the form:
 
@@ -926,9 +929,9 @@ despite the invariant depending on cross-shard state.
 
 SL-2 rejects this.
 
----
+______________________________________________________________________
 
-# 36. Example Global Invariant
+## 36. Example Global Invariant
 
 Conceptual example:
 
@@ -941,9 +944,9 @@ Neither shard can safely decide an update based only on its own local value unle
 
 The example is illustrative, not source-canonical.
 
----
+______________________________________________________________________
 
-# 37. Global Invariant and Local Evidence
+## 37. Global Invariant and Local Evidence
 
 A shard may possess local evidence relevant to a global invariant.
 
@@ -957,9 +960,9 @@ COMPLETE GLOBAL STATE
 
 unless the contract establishes that it is sufficient.
 
----
+______________________________________________________________________
 
-# 38. Global Invariant and Cached State
+## 38. Global Invariant and Cached State
 
 Cached cross-shard state may be stale.
 
@@ -975,9 +978,9 @@ without freshness and validity guarantees.
 
 This integrates L23-style version discipline but is not directly specified by L25.
 
----
+______________________________________________________________________
 
-# 39. Global Invariant and Causal Epoch
+## 39. Global Invariant and Causal Epoch
 
 A global invariant may depend on causal states across shards.
 
@@ -993,9 +996,9 @@ CROSS-EPOCH
 
 These are separate dimensions.
 
----
+______________________________________________________________________
 
-# 40. Cross-Shard ≠ Cross-Epoch
+## 40. Cross-Shard ≠ Cross-Epoch
 
 ```text
 S1@E1 ↔ S2@E1
@@ -1011,9 +1014,9 @@ is cross-epoch but same shard.
 
 Therefore L24 and L25 must not be collapsed.
 
----
+______________________________________________________________________
 
-# 41. Globality and Dependency
+## 41. Globality and Dependency
 
 A fact may become global because a load-bearing dependency crosses shard boundaries.
 
@@ -1029,9 +1032,9 @@ VERDICT V
 
 If V depends on both, V's resolution may require cross-shard coordination.
 
----
+______________________________________________________________________
 
-# 42. Globality and Shared Resources
+## 42. Globality and Shared Resources
 
 If multiple shards mutate a shared invariant-bearing resource:
 
@@ -1045,9 +1048,9 @@ local-only decisions can conflict.
 
 SL-2 requires the relevant coordination.
 
----
+______________________________________________________________________
 
-# 43. Globality and Uniqueness
+## 43. Globality and Uniqueness
 
 A uniqueness invariant across shards is conceptually global:
 
@@ -1062,9 +1065,9 @@ Local uniqueness alone would not prove global uniqueness.
 
 Illustrative only.
 
----
+______________________________________________________________________
 
-# 44. Globality and Conservation
+## 44. Globality and Conservation
 
 Likewise, a conservation invariant:
 
@@ -1076,9 +1079,9 @@ is global by construction.
 
 No one shard can establish it from local state alone unless an authoritative contract provides sufficient summarized proof.
 
----
+______________________________________________________________________
 
-# 45. Proof-Based Coordination Avoidance
+## 45. Proof-Based Coordination Avoidance
 
 The broader AMOS lineage includes:
 
@@ -1100,9 +1103,9 @@ Therefore any coordination-avoidance interpretation must be carefully typed.
 
 A proof may itself function as part of the declared coordination/contract mechanism, but L25 alone does not establish that.
 
----
+______________________________________________________________________
 
-# 46. No Coordination-Avoidance Overreach
+## 46. No Coordination-Avoidance Overreach
 
 Do not infer:
 
@@ -1117,9 +1120,9 @@ L25 directly requires coordination for cross-shard invariants.
 
 Any exception requires authoritative distribution semantics.
 
----
+______________________________________________________________________
 
-# 47. SL-2 Compact Law
+## 47. SL-2 Compact Law
 
 ```text
 FACT / INVARIANT
@@ -1138,9 +1141,9 @@ LOCAL PATH
 MAY APPLY
 ```
 
----
+______________________________________________________________________
 
-# 48. SL-3 — Boundary Contracts
+## 48. SL-3 — Boundary Contracts
 
 **Law**
 
@@ -1156,9 +1159,9 @@ DECLARE
 LOCAL vs GLOBAL
 ```
 
----
+______________________________________________________________________
 
-# 49. Boundary Contract
+## 49. Boundary Contract
 
 A boundary contract conceptually answers:
 
@@ -1179,9 +1182,9 @@ CROSS THE BOUNDARY?
 
 Only the local/global declaration is explicitly source-grounded.
 
----
+______________________________________________________________________
 
-# 50. Boundary Contract Is Explicit
+## 50. Boundary Contract Is Explicit
 
 SL-3 says interfaces:
 
@@ -1193,9 +1196,9 @@ the classification.
 
 Therefore locality should not be inferred only from implementation accident.
 
----
+______________________________________________________________________
 
-# 51. Interface
+## 51. Interface
 
 The source uses:
 
@@ -1217,9 +1220,9 @@ but does not define whether an interface is:
 
 Exact representation remains unspecified.
 
----
+______________________________________________________________________
 
-# 52. Contract Classification
+## 52. Contract Classification
 
 Minimal model:
 
@@ -1234,9 +1237,9 @@ shard_interface:
 
 Illustrative only.
 
----
+______________________________________________________________________
 
-# 53. Operation Classification
+## 53. Operation Classification
 
 A model could also declare:
 
@@ -1251,9 +1254,9 @@ operations:
 
 This is a model extension; the source specifically speaks of facts.
 
----
+______________________________________________________________________
 
-# 54. Locality Declaration ≠ Truth by Fiat
+## 54. Locality Declaration ≠ Truth by Fiat
 
 Critical distinction:
 
@@ -1266,9 +1269,9 @@ TO TREAT AS LOCAL
 
 If the contract is wrong, stale, incomplete, or inconsistent with authoritative invariants, the declaration may be defective.
 
----
+______________________________________________________________________
 
-# 55. Contract Must Respect Invariants
+## 55. Contract Must Respect Invariants
 
 A boundary contract cannot validly declare:
 
@@ -1282,9 +1285,9 @@ merely to avoid coordination.
 
 That would conflict with SL-2.
 
----
+______________________________________________________________________
 
-# 56. SL-2 Constrains SL-3
+## 56. SL-2 Constrains SL-3
 
 Thus:
 
@@ -1301,9 +1304,9 @@ INVARIANT REALITY
 
 A local declaration cannot override a genuine cross-shard invariant.
 
----
+______________________________________________________________________
 
-# 57. SL-3 Enables SL-1
+## 57. SL-3 Enables SL-1
 
 Conversely:
 
@@ -1318,9 +1321,9 @@ MAY BECOME AVAILABLE
 
 subject to the contract being valid.
 
----
+______________________________________________________________________
 
-# 58. SL-3 Enables SL-2
+## 58. SL-3 Enables SL-2
 
 If the contract declares:
 
@@ -1330,9 +1333,9 @@ FACT G = GLOBAL
 
 then the system knows local-only resolution is not sufficient.
 
----
+______________________________________________________________________
 
-# 59. Contract Versioning
+## 59. Contract Versioning
 
 The source does not define contract versioning.
 
@@ -1342,9 +1345,9 @@ Therefore, model-level integration with L23 suggests contract identity/version m
 
 This remains AMOS_MODEL.
 
----
+______________________________________________________________________
 
-# 60. Stale Boundary Contract
+## 60. Stale Boundary Contract
 
 Potential failure:
 
@@ -1364,9 +1367,9 @@ This can create an SL-2 violation.
 
 Exact freshness handling is unspecified.
 
----
+______________________________________________________________________
 
-# 61. Boundary Contract and Causal Epoch
+## 61. Boundary Contract and Causal Epoch
 
 If a contract changes across causal epochs:
 
@@ -1382,9 +1385,9 @@ L24 may govern the historical transition.
 
 L25 itself does not define this integration.
 
----
+______________________________________________________________________
 
-# 62. Boundary Contract and Provenance
+## 62. Boundary Contract and Provenance
 
 A consequential locality classification should conceptually preserve:
 
@@ -1400,9 +1403,9 @@ where available.
 
 Exact fields are not source-defined.
 
----
+______________________________________________________________________
 
-# 63. Boundary Contract and Governance
+## 63. Boundary Contract and Governance
 
 Who is authorized to change local/global classifications is not specified.
 
@@ -1415,9 +1418,9 @@ CHANGE AUTHORITY
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 64. Boundary Contract Conflict
+## 64. Boundary Contract Conflict
 
 Suppose:
 
@@ -1433,9 +1436,9 @@ The source does not define resolution.
 
 This is a material distribution-canon gap.
 
----
+______________________________________________________________________
 
-# 65. Contract Completeness
+## 65. Contract Completeness
 
 If a fact has no classification:
 
@@ -1449,9 +1452,9 @@ SL-3 is not satisfied for that fact.
 
 Do not silently assume local.
 
----
+______________________________________________________________________
 
-# 66. Unknown Defaults
+## 66. Unknown Defaults
 
 The source does not explicitly state whether an undeclared fact defaults to global.
 
@@ -1467,9 +1470,9 @@ UNKNOWN
 
 is the safest classification until authoritative canon specifies a default.
 
----
+______________________________________________________________________
 
-# 67. Boundary Contract Receipt
+## 67. Boundary Contract Receipt
 
 ```yaml
 boundary_contract:
@@ -1484,9 +1487,9 @@ boundary_contract:
 
 Illustrative only.
 
----
+______________________________________________________________________
 
-# 68. Boundary Validation
+## 68. Boundary Validation
 
 A model-level validation path:
 
@@ -1510,9 +1513,9 @@ CLASS   ESCALATE
 LOCAL OR GLOBAL
 ```
 
----
+______________________________________________________________________
 
-# 69. SL-3 Compact Law
+## 69. SL-3 Compact Law
 
 ```text
 SHARD INTERFACE
@@ -1527,9 +1530,9 @@ LOCAL /  UNKNOWN
 GLOBAL
 ```
 
----
+______________________________________________________________________
 
-# 70. SL-4 — Merge Discipline
+## 70. SL-4 — Merge Discipline
 
 **Law**
 
@@ -1562,9 +1565,9 @@ LAST WRITE WINS
 
 as the universal default.
 
----
+______________________________________________________________________
 
-# 71. Concurrent Shard Histories
+## 71. Concurrent Shard Histories
 
 Conceptually:
 
@@ -1580,9 +1583,9 @@ where H1A and H1B evolve concurrently.
 
 The source does not formally define concurrency.
 
----
+______________________________________________________________________
 
-# 72. Concurrency ≠ Same Timestamp
+## 72. Concurrency ≠ Same Timestamp
 
 Two histories can be concurrent without identical timestamps.
 
@@ -1598,9 +1601,9 @@ CAUSAL ORDER
 
 This integrates naturally with L24.
 
----
+______________________________________________________________________
 
-# 73. Merge
+## 73. Merge
 
 A merge combines or reconciles concurrent histories:
 
@@ -1614,9 +1617,9 @@ H1B
 
 The merge result must follow the declared conflict protocol.
 
----
+______________________________________________________________________
 
-# 74. Conflict Protocol
+## 74. Conflict Protocol
 
 The source requires:
 
@@ -1643,9 +1646,9 @@ It does not establish:
 
 These remain unspecified.
 
----
+______________________________________________________________________
 
-# 75. Last-Write-Wins
+## 75. Last-Write-Wins
 
 SL-4 explicitly says:
 
@@ -1665,9 +1668,9 @@ UNIVERSAL IMPLICIT
 DEFAULT.
 ```
 
----
+______________________________________________________________________
 
-# 76. Declared LWW
+## 76. Declared LWW
 
 A boundary/conflict contract could potentially declare LWW for a specific fact if authoritative distribution semantics permit it.
 
@@ -1688,9 +1691,9 @@ DEFAULT
 
 is the weakest accurate interpretation.
 
----
+______________________________________________________________________
 
-# 77. Why LWW Is Unsafe as Universal Default
+## 77. Why LWW Is Unsafe as Universal Default
 
 Conceptually:
 
@@ -1707,9 +1710,9 @@ A universal LWW rule could erase meaningful history merely because H1B appears l
 
 This is an explanatory model, not a source claim.
 
----
+______________________________________________________________________
 
-# 78. Merge Is Semantic
+## 78. Merge Is Semantic
 
 SL-4 implies that merge behavior depends on a declared conflict protocol rather than only write chronology.
 
@@ -1724,9 +1727,9 @@ AND KEEP LAST
 
 by default.
 
----
+______________________________________________________________________
 
-# 79. Merge and Local Facts
+## 79. Merge and Local Facts
 
 Two histories concerning independent shard-local facts may merge without global conflict.
 
@@ -1746,17 +1749,17 @@ A declared protocol may preserve both.
 
 Exact mechanics remain unspecified.
 
----
+______________________________________________________________________
 
-# 80. Merge and Global Facts
+## 80. Merge and Global Facts
 
 Concurrent updates touching a global invariant require treatment consistent with SL-2.
 
 A local merge rule cannot override the global invariant.
 
----
+______________________________________________________________________
 
-# 81. Merge Protocol Cannot Violate Global Invariant
+## 81. Merge Protocol Cannot Violate Global Invariant
 
 ```text
 CONFLICT PROTOCOL
@@ -1771,9 +1774,9 @@ BROKEN
 
 would be invalid under the combined SL-2/SL-4 model.
 
----
+______________________________________________________________________
 
-# 82. Merge and Boundary Contracts
+## 82. Merge and Boundary Contracts
 
 SL-3 can identify whether merged facts are:
 
@@ -1789,17 +1792,17 @@ GLOBAL
 
 which can determine what merge authority is sufficient.
 
----
+______________________________________________________________________
 
-# 83. Merge and Causal History
+## 83. Merge and Causal History
 
 L24 says effects carry causal lineage and later evidence does not silently rewrite earlier verdicts.
 
 Therefore a model-level shard merge should preserve meaningful causal ancestry rather than fabricating a single history.
 
----
+______________________________________________________________________
 
-# 84. Merge ≠ Historical Rewrite
+## 84. Merge ≠ Historical Rewrite
 
 Suppose:
 
@@ -1819,9 +1822,9 @@ if the branches matter to provenance.
 
 The source does not explicitly state this, but it is compatible with L24.
 
----
+______________________________________________________________________
 
-# 85. Merge Provenance
+## 85. Merge Provenance
 
 A model-level merge record:
 
@@ -1836,9 +1839,9 @@ merge:
 
 Exact schema is unspecified.
 
----
+______________________________________________________________________
 
-# 86. Merge Conflict
+## 86. Merge Conflict
 
 If histories make incompatible claims:
 
@@ -1862,9 +1865,9 @@ PRESERVE COMPETING
 
 L25 does not prescribe which.
 
----
+______________________________________________________________________
 
-# 87. Competing Histories
+## 87. Competing Histories
 
 If no valid discriminating rule exists:
 
@@ -1886,9 +1889,9 @@ where support remains unresolved.
 
 This is an AMOS_MODEL integration.
 
----
+______________________________________________________________________
 
-# 88. Conflict ≠ Error Necessarily
+## 88. Conflict ≠ Error Necessarily
 
 Concurrent histories can conflict without either shard behaving incorrectly.
 
@@ -1902,9 +1905,9 @@ CONFLICT
 AUTOMATIC FAULT
 ```
 
----
+______________________________________________________________________
 
-# 89. Conflict Protocol ≠ Conflict Elimination
+## 89. Conflict Protocol ≠ Conflict Elimination
 
 A protocol may legitimately produce:
 
@@ -1920,9 +1923,9 @@ COMPETING
 
 rather than inventing convergence.
 
----
+______________________________________________________________________
 
-# 90. Merge and Selective Invalidation
+## 90. Merge and Selective Invalidation
 
 A merge can invalidate only conclusions dependent on conflicting history.
 
@@ -1937,9 +1940,9 @@ DEPENDENTS(X)
 
 rather than recomputing unrelated work.
 
----
+______________________________________________________________________
 
-# 91. Merge and MVCC/CAS
+## 91. Merge and MVCC/CAS
 
 Concurrent shard histories naturally relate to L23's stale-state protection.
 
@@ -1953,9 +1956,9 @@ to detect conflicting writes before merge.
 
 But L25 does not mandate CAS.
 
----
+______________________________________________________________________
 
-# 92. Merge and Atomic Multi-RSCF Reasoning
+## 92. Merge and Atomic Multi-RSCF Reasoning
 
 If a decision spans multiple shards:
 
@@ -1971,9 +1974,9 @@ a merge conflict affecting either load-bearing input may invalidate D.
 
 Exact atomicity semantics are governed elsewhere.
 
----
+______________________________________________________________________
 
-# 93. Merge and Finality
+## 93. Merge and Finality
 
 The broader AMOS lineage includes:
 
@@ -1993,9 +1996,9 @@ SL-4 is related but does not define:
 
 These remain outside direct L25 support.
 
----
+______________________________________________________________________
 
-# 94. Merge Receipt
+## 94. Merge Receipt
 
 ```yaml
 merge:
@@ -2018,9 +2021,9 @@ merge:
 
 Illustrative only.
 
----
+______________________________________________________________________
 
-# 95. SL-4 Compact Law
+## 95. SL-4 Compact Law
 
 ```text
 CONCURRENT
@@ -2045,9 +2048,9 @@ DEFAULT LWW:
 NO
 ```
 
----
+______________________________________________________________________
 
-# 96. SL-1–SL-4 Unified Flow
+## 96. SL-1–SL-4 Unified Flow
 
 ```text
 FACT / OPERATION
@@ -2087,9 +2090,9 @@ CONCURRENT BRANCH?
             MERGE
 ```
 
----
+______________________________________________________________________
 
-# 97. Shard-Local State Machine
+## 97. Shard-Local State Machine
 
 ```text
 ┌───────────────────┐
@@ -2134,9 +2137,9 @@ CONCURRENT BRANCH?
                 MERGE
 ```
 
----
+______________________________________________________________________
 
-# 98. Shard-Local Integrity Invariants
+## 98. Shard-Local Integrity Invariants
 
 ```yaml
 shard_local_integrity_invariants:
@@ -2168,9 +2171,9 @@ shard_local_integrity_invariants:
 
 These closely restate SL-1 through SL-4.
 
----
+______________________________________________________________________
 
-# 99. Extended Shard-Local Invariants
+## 99. Extended Shard-Local Invariants
 
 ```yaml
 extended_shard_local_invariants:
@@ -2226,9 +2229,9 @@ extended_shard_local_invariants:
 
 These are AMOS_MODEL extensions.
 
----
+______________________________________________________________________
 
-# 100. L25 Anti-Patterns
+## 100. L25 Anti-Patterns
 
 ## SL-A1 — Global Consensus for Everything
 
@@ -2240,7 +2243,7 @@ GLOBAL CONSENSUS
 
 Rejected by SL-1 for genuinely shard-local facts.
 
----
+______________________________________________________________________
 
 ## SL-A2 — Local Means Unvalidated
 
@@ -2253,7 +2256,7 @@ NEEDED
 
 Rejected.
 
----
+______________________________________________________________________
 
 ## SL-A3 — Storage Location Defines Locality
 
@@ -2265,7 +2268,7 @@ LOCAL FACT
 
 Not established.
 
----
+______________________________________________________________________
 
 ## SL-A4 — Physical Separation Proves Independence
 
@@ -2277,7 +2280,7 @@ FACTS INDEPENDENT
 
 Rejected.
 
----
+______________________________________________________________________
 
 ## SL-A5 — Global Fact Resolved Locally
 
@@ -2291,7 +2294,7 @@ DECIDES
 
 Rejected by SL-2.
 
----
+______________________________________________________________________
 
 ## SL-A6 — Global Means Centralized
 
@@ -2304,7 +2307,7 @@ REQUIRED
 
 Not established.
 
----
+______________________________________________________________________
 
 ## SL-A7 — Coordination Means Consensus Algorithm X
 
@@ -2316,7 +2319,7 @@ SPECIFIC PROTOCOL
 
 Not established by L25.
 
----
+______________________________________________________________________
 
 ## SL-A8 — Broadcast to Every Shard
 
@@ -2329,7 +2332,7 @@ MUST PARTICIPATE
 
 Not established.
 
----
+______________________________________________________________________
 
 ## SL-A9 — Contract Overrides Invariant
 
@@ -2343,7 +2346,7 @@ NOW LOCAL
 
 Rejected.
 
----
+______________________________________________________________________
 
 ## SL-A10 — Missing Classification Defaults Local
 
@@ -2355,7 +2358,7 @@ ASSUME LOCAL
 
 Rejected as unsafe model behavior.
 
----
+______________________________________________________________________
 
 ## SL-A11 — Stale Contract Used Silently
 
@@ -2370,7 +2373,7 @@ without checking whether the governing contract remains valid.
 
 Integrity risk.
 
----
+______________________________________________________________________
 
 ## SL-A12 — Default Last-Write-Wins
 
@@ -2383,7 +2386,7 @@ WINS
 
 Rejected as the default by SL-4.
 
----
+______________________________________________________________________
 
 ## SL-A13 — LWW Prohibited Everywhere
 
@@ -2395,7 +2398,7 @@ NEVER ALLOWED
 
 Not established.
 
----
+______________________________________________________________________
 
 ## SL-A14 — Timestamp Equals Causal Order
 
@@ -2407,7 +2410,7 @@ CAUSALLY LATER
 
 Not necessarily valid.
 
----
+______________________________________________________________________
 
 ## SL-A15 — Merge Erases Branches
 
@@ -2422,7 +2425,7 @@ NEVER EXISTED
 
 Rejected as provenance-destructive model behavior.
 
----
+______________________________________________________________________
 
 ## SL-A16 — Conflict Forces Arbitrary Convergence
 
@@ -2435,7 +2438,7 @@ WITHOUT PROTOCOL
 
 Rejected.
 
----
+______________________________________________________________________
 
 ## SL-A17 — Conflict Means One Shard Is Wrong
 
@@ -2447,7 +2450,7 @@ FAULT
 
 Not necessarily.
 
----
+______________________________________________________________________
 
 ## SL-A18 — Local Merge Overrides Global Invariant
 
@@ -2460,7 +2463,7 @@ BROKEN
 
 Rejected.
 
----
+______________________________________________________________________
 
 ## SL-A19 — Cross-Shard Equals Cross-Epoch
 
@@ -2472,7 +2475,7 @@ EPOCH BOUNDARY
 
 Not established.
 
----
+______________________________________________________________________
 
 ## SL-A20 — Sharding Proves Coordination-Free Runtime
 
@@ -2486,9 +2489,9 @@ COORDINATION FREE
 
 Rejected.
 
----
+______________________________________________________________________
 
-# 101. Decision Matrix
+## 101. Decision Matrix
 
 | Condition                                                             | Source-grounded treatment                |
 | --------------------------------------------------------------------- | ---------------------------------------- |
@@ -2503,9 +2506,9 @@ Rejected.
 | LWW not explicitly declared                                           | Do not assume LWW by default             |
 | Authoritative distribution canon defines different sharding semantics | F1 potentially satisfied                 |
 
----
+______________________________________________________________________
 
-# 102. Extended Decision Matrix
+## 102. Extended Decision Matrix
 
 | Condition                                | Model-level treatment                                    |
 | ---------------------------------------- | -------------------------------------------------------- |
@@ -2524,9 +2527,9 @@ Rejected.
 | Merge crosses causal epoch               | L24 may additionally apply                               |
 | Shard-local finality assumed             | Not established by L25 alone                             |
 
----
+______________________________________________________________________
 
-# 103. Minimal L25 Record
+## 103. Minimal L25 Record
 
 ```yaml
 shard_local:
@@ -2552,9 +2555,9 @@ shard_local:
 
 Model-level serialization only.
 
----
+______________________________________________________________________
 
-# 104. Full L25 Record
+## 104. Full L25 Record
 
 ```yaml
 shard_local:
@@ -2605,9 +2608,9 @@ shard_local:
 
 Only the four law semantics are source-grounded.
 
----
+______________________________________________________________________
 
-# 105. Local/Global Graph
+## 105. Local/Global Graph
 
 ```text
                   FACT F
@@ -2628,9 +2631,9 @@ Only the four law semantics are source-grounded.
                   HISTORY
 ```
 
----
+______________________________________________________________________
 
-# 106. Boundary Graph
+## 106. Boundary Graph
 
 ```text
 ┌──────────────────────┐
@@ -2652,9 +2655,9 @@ Only the four law semantics are source-grounded.
 └──────────────────────┘
 ```
 
----
+______________________________________________________________________
 
-# 107. Cross-Shard Invariant Graph
+## 107. Cross-Shard Invariant Graph
 
 ```text
 SHARD S1
@@ -2676,9 +2679,9 @@ SHARD S2
 
 G cannot be reduced to A or B alone unless the governing contract provides a sufficient proof mechanism.
 
----
+______________________________________________________________________
 
-# 108. Concurrent History Graph
+## 108. Concurrent History Graph
 
 ```text
              H0
@@ -2694,9 +2697,9 @@ G cannot be reduced to A or B alone unless the governing contract provides a suf
              HM
 ```
 
----
+______________________________________________________________________
 
-# 109. Merge With Preserved Provenance
+## 109. Merge With Preserved Provenance
 
 ```text
 H0
@@ -2717,9 +2720,9 @@ Parents(HM)
 
 as a model-level representation.
 
----
+______________________________________________________________________
 
-# 110. Local Fast Path
+## 110. Local Fast Path
 
 ```text
 FACT F
@@ -2742,9 +2745,9 @@ PATH
 
 This is an AMOS_MODEL extension, not explicit source text.
 
----
+______________________________________________________________________
 
-# 111. Global Coordination Path
+## 111. Global Coordination Path
 
 ```text
 FACT G
@@ -2769,9 +2772,9 @@ ACCEPT / REJECT
 
 Exact coordination mechanism remains unspecified.
 
----
+______________________________________________________________________
 
-# 112. L25 and RSCF
+## 112. L25 and RSCF
 
 An RSCF node can conceptually carry locality metadata:
 
@@ -2795,9 +2798,9 @@ rscf:
 
 Exact fields remain model-level.
 
----
+______________________________________________________________________
 
-# 113. L25 and GMEF
+## 113. L25 and GMEF
 
 A governance action affecting only one shard may potentially resolve locally if its governing facts are shard-local.
 
@@ -2813,9 +2816,9 @@ GOVERNANCE AUTHORITY
 
 L25 does not define who is permitted to govern each shard.
 
----
+______________________________________________________________________
 
-# 114. L25 and Proof Capsules
+## 114. L25 and Proof Capsules
 
 A local decision Proof Capsule can conceptually carry:
 
@@ -2842,9 +2845,9 @@ proof_capsule:
 
 This is an AMOS_MODEL integration.
 
----
+______________________________________________________________________
 
-# 115. L25 and Provenance Topology
+## 115. L25 and Provenance Topology
 
 Provenance topology matters because apparently independent local facts can share ancestry.
 
@@ -2857,9 +2860,9 @@ Provenance topology matters because apparently independent local facts can share
 
 Two shard-local observations do not become independent confirmations merely because they live on separate shards.
 
----
+______________________________________________________________________
 
-# 116. L25 and Sybil Hardening
+## 116. L25 and Sybil Hardening
 
 Likewise:
 
@@ -2875,9 +2878,9 @@ does not equal three independent sources.
 
 Shard multiplicity is not provenance independence.
 
----
+______________________________________________________________________
 
-# 117. L25 and Persistent Provenance
+## 117. L25 and Persistent Provenance
 
 Persistent provenance helps answer:
 
@@ -2900,9 +2903,9 @@ PROTOCOL WAS USED?
 
 This supports auditability.
 
----
+______________________________________________________________________
 
-# 118. L25 and L23 MVCC/CAS
+## 118. L25 and L23 MVCC/CAS
 
 L23 provides:
 
@@ -2952,9 +2955,9 @@ COMMIT / MERGE
 
 But L25 does not mandate MVCC or CAS.
 
----
+______________________________________________________________________
 
-# 119. L25 and L24 Causal Epoch
+## 119. L25 and L24 Causal Epoch
 
 L24 provides:
 
@@ -3007,9 +3010,9 @@ SHARD BOUNDARY
 EPOCH BOUNDARY
 ```
 
----
+______________________________________________________________________
 
-# 120. L25 and Selective Invalidation
+## 120. L25 and Selective Invalidation
 
 If a merge changes:
 
@@ -3027,9 +3030,9 @@ then the change may require cross-shard dependent invalidation.
 
 This shows why dependency topology can cross locality boundaries.
 
----
+______________________________________________________________________
 
-# 121. L25 and Atomic Multi-RSCF Reasoning
+## 121. L25 and Atomic Multi-RSCF Reasoning
 
 Suppose:
 
@@ -3045,9 +3048,9 @@ D is not shard-local merely because each premise can be evaluated locally.
 
 The combined invariant may be global.
 
----
+______________________________________________________________________
 
-# 122. Local Premises ≠ Local Conclusion
+## 122. Local Premises ≠ Local Conclusion
 
 Critical distinction:
 
@@ -3066,9 +3069,9 @@ IS LOCAL
 
 If the conclusion depends jointly on multiple shards, it may be global.
 
----
+______________________________________________________________________
 
-# 123. Global Premise Summary
+## 123. Global Premise Summary
 
 A system could theoretically expose a proof or summary that lets a shard safely make a local decision while preserving a global invariant.
 
@@ -3089,9 +3092,9 @@ But whether this satisfies SL-2's coordination requirement depends on authoritat
 
 Do not assume.
 
----
+______________________________________________________________________
 
-# 124. L25 and Causal Epoch Finality
+## 124. L25 and Causal Epoch Finality
 
 The broader AMOS lineage includes:
 
@@ -3113,9 +3116,9 @@ CAUSAL FINALITY
 UNRESOLVED IN L25
 ```
 
----
+______________________________________________________________________
 
-# 125. L25 and Hardened Shard-Local Finalization
+## 125. L25 and Hardened Shard-Local Finalization
 
 The broader v4.4 lineage explicitly includes:
 
@@ -3147,9 +3150,9 @@ COMPLETE SHARD-LOCAL
 FINALIZATION PROTOCOL
 ```
 
----
+______________________________________________________________________
 
-# 126. L25 and Proof-Based Coordination Avoidance
+## 126. L25 and Proof-Based Coordination Avoidance
 
 The broader lineage also includes:
 
@@ -3174,9 +3177,9 @@ A later proof-based mechanism may refine what counts as sufficient coordination 
 
 But L25 alone does not authorize bypassing SL-2.
 
----
+______________________________________________________________________
 
-# 127. Coordination Avoidance Firewall
+## 127. Coordination Avoidance Firewall
 
 ```text
 PROOF-BASED
@@ -3192,9 +3195,9 @@ INVARIANTS
 
 Any optimization must preserve the invariant.
 
----
+______________________________________________________________________
 
-# 128. L25 and Failure Recovery
+## 128. L25 and Failure Recovery
 
 If a shard-local operation fails:
 
@@ -3222,9 +3225,9 @@ DEPENDENCY SCOPE
 
 as a model-level integration.
 
----
+______________________________________________________________________
 
-# 129. L25 and Knowledge Harvest
+## 129. L25 and Knowledge Harvest
 
 Harvested knowledge can conceptually preserve:
 
@@ -3241,9 +3244,9 @@ where relevant.
 
 This supports future revalidation.
 
----
+______________________________________________________________________
 
-# 130. L25 and Epistemic Regimes
+## 130. L25 and Epistemic Regimes
 
 A fact may be local under one operational regime but not another if the governing dependencies change.
 
@@ -3259,9 +3262,9 @@ does not automatically imply:
 LOCAL@R2
 ```
 
----
+______________________________________________________________________
 
-# 131. L25 and Scope Firewall
+## 131. L25 and Scope Firewall
 
 A shard-local conclusion remains scoped.
 
@@ -3281,9 +3284,9 @@ or:
 VALID GLOBALLY
 ```
 
----
+______________________________________________________________________
 
-# 132. L25 and Causal Firewall
+## 132. L25 and Causal Firewall
 
 Cross-shard data movement does not establish causation.
 
@@ -3301,9 +3304,9 @@ A CAUSED B
 
 L25 governs distribution scope, not causal inference.
 
----
+______________________________________________________________________
 
-# 133. L25 and Competing Hypotheses
+## 133. L25 and Competing Hypotheses
 
 If shard histories disagree:
 
@@ -3321,9 +3324,9 @@ COMPETING
 
 rather than force false convergence.
 
----
+______________________________________________________________________
 
-# 134. L25 and Sensitivity
+## 134. L25 and Sensitivity
 
 For a consequential locality decision, ask:
 
@@ -3337,9 +3340,9 @@ LOCAL TO GLOBAL?
 
 That dependency is the key sensitivity point.
 
----
+______________________________________________________________________
 
-# 135. L25 and Adversarial Validation
+## 135. L25 and Adversarial Validation
 
 For a consequential shard-local claim, challenge:
 
@@ -3389,9 +3392,9 @@ FORCED INTO FALSE
 CONVERGENCE?
 ```
 
----
+______________________________________________________________________
 
-# 136. L25 and Runtime Boundary
+## 136. L25 and Runtime Boundary
 
 L25 is an AMOS model-level specification.
 
@@ -3410,9 +3413,9 @@ It must not be represented as proof that ChatGPT literally implements:
 
 Those require independent implementation evidence.
 
----
+______________________________________________________________________
 
-# 137. Source-Established Content
+## 137. Source-Established Content
 
 From the supplied L25 note, the following are directly established as AMOS corpus claims:
 
@@ -3448,9 +3451,9 @@ From the supplied L25 note, the following are directly established as AMOS corpu
 
 These are SOURCE_CLAIM statements about the supplied AMOS corpus note.
 
----
+______________________________________________________________________
 
-# 138. Not Established by Source
+## 138. Not Established by Source
 
 The supplied L25 note does **not** establish:
 
@@ -3494,9 +3497,9 @@ The supplied L25 note does **not** establish:
 
 These remain MODEL or UNKNOWN/GAP.
 
----
+______________________________________________________________________
 
-# 139. Known Gaps
+## 139. Known Gaps
 
 ```yaml
 gaps:
@@ -3582,9 +3585,9 @@ gaps:
         not formally specified.
 ```
 
----
+______________________________________________________________________
 
-# 140. Claim Graph
+## 140. Claim Graph
 
 ```yaml
 claim_graph:
@@ -3676,9 +3679,9 @@ claim_graph:
         finality, and coordination-avoidance mechanics.
 ```
 
----
+______________________________________________________________________
 
-# 141. Dependency Graph
+## 141. Dependency Graph
 
 ```yaml
 dependency_graph:
@@ -3710,9 +3713,9 @@ dependency_graph:
       - merge_semantics
 ```
 
----
+______________________________________________________________________
 
-# 142. L25 Proof Capsule
+## 142. L25 Proof Capsule
 
 ```yaml
 proof_capsule:
@@ -3749,9 +3752,9 @@ proof_capsule:
     CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
-# 143. Self-Proof Capsule
+## 143. Self-Proof Capsule
 
 ```yaml
 proof_capsule:
@@ -3811,9 +3814,9 @@ proof_capsule:
     CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
-# 144. No Locality Overreach
+## 144. No Locality Overreach
 
 L25 must not reason:
 
@@ -3839,9 +3842,9 @@ LOCAL / GLOBAL
 CLASSIFICATION
 ```
 
----
+______________________________________________________________________
 
-# 145. No Coordination Overreach
+## 145. No Coordination Overreach
 
 L25 must not reason:
 
@@ -3864,9 +3867,9 @@ EXACT MECHANISM
 DEFINED ELSEWHERE
 ```
 
----
+______________________________________________________________________
 
-# 146. No Contract Overreach
+## 146. No Contract Overreach
 
 L25 must not reason:
 
@@ -3888,9 +3891,9 @@ ACTUAL GOVERNING
 INVARIANTS
 ```
 
----
+______________________________________________________________________
 
-# 147. No Merge Overreach
+## 147. No Merge Overreach
 
 L25 must not reason:
 
@@ -3914,9 +3917,9 @@ PRESERVE COMPETING /
 OTHER DECLARED RESULT
 ```
 
----
+______________________________________________________________________
 
-# 148. Falsifier F1
+## 148. Falsifier F1
 
 Original falsifier:
 
@@ -3946,9 +3949,9 @@ CONDITIONAL │
         L25
 ```
 
----
+______________________________________________________________________
 
-# 149. F1 Scope
+## 149. F1 Scope
 
 F1 targets:
 
@@ -3969,9 +3972,9 @@ MERGE
 
 depending on the authoritative specification.
 
----
+______________________________________________________________________
 
-# 150. Potential Partial Supersession
+## 150. Potential Partial Supersession
 
 If authoritative distribution canon changes only merge semantics while preserving:
 
@@ -3988,9 +3991,9 @@ then only SL-4 may require substantial revision.
 
 Therefore falsification can be dependency-local rather than automatically global.
 
----
+______________________________________________________________________
 
-# 151. Shard-Local Architecture
+## 151. Shard-Local Architecture
 
 ```text
                         FACT / DECISION
@@ -4025,9 +4028,9 @@ Therefore falsification can be dependency-local rather than automatically global
                                   MERGE
 ```
 
----
+______________________________________________________________________
 
-# 152. Shard-Local Canonical Compression
+## 152. Shard-Local Canonical Compression
 
 ```text
 SHARD-LOCAL FACT
@@ -4041,6 +4044,7 @@ CROSS-SHARD INVARIANT
 =
 COORDINATION REQUIRED
 ```
+
 ```text
 LOCAL SHORTCUT
 +
@@ -4048,32 +4052,36 @@ GLOBAL INVARIANT
 =
 VIOLATION
 ```
+
 ```text
 SHARD INTERFACE
 =
 LOCAL / GLOBAL
 DECLARATION BOUNDARY
 ```
+
 ```text
 CONCURRENT HISTORIES
 =
 DECLARED CONFLICT
 PROTOCOL REQUIRED
 ```
+
 ```text
 MERGE DEFAULT
 ≠
 LAST-WRITE-WINS
 ```
----
 
-# 153. Canonical One-Line Law
+______________________________________________________________________
+
+## 153. Canonical One-Line Law
 
 > **AMOS shard-local discipline conditionally allows genuinely local facts to resolve without global consensus, requires coordination for cross-shard invariants, requires shard interfaces to declare locality boundaries, and requires concurrent shard histories to merge through declared conflict semantics rather than implicit last-write-wins.**
 
----
+______________________________________________________________________
 
-# 154. Canonical Equations
+## 154. Canonical Equations
 
 SL-1:
 
@@ -4131,9 +4139,9 @@ DefaultMerge
 LWW
 ```
 
----
+______________________________________________________________________
 
-# 155. Operational Contract
+## 155. Operational Contract
 
 ```yaml
 shard_local_contract:
@@ -4158,9 +4166,9 @@ shard_local_contract:
       - last_write_wins_is_not_default
 ```
 
----
+______________________________________________________________________
 
-# 156. Final Shard-Local Invariant
+## 156. Final Shard-Local Invariant
 
 ```text
 FACT / DECISION
@@ -4374,9 +4382,9 @@ LITERAL DISTRIBUTED
 RUNTIME IMPLEMENTATION
 ```
 
----
+______________________________________________________________________
 
-# 157. RSCF Node
+## 157. RSCF Node
 
 ```yaml
 RSCF-NODE:
@@ -4457,7 +4465,7 @@ RSCF-RELATIONS:
   - RELATED_TO:
 ```
 
----
+______________________________________________________________________
 
 **[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]:** [[00_ROOT/AMOS MOC|AMOS MOC]]
 
@@ -4467,9 +4475,9 @@ RSCF-RELATIONS:
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
 
-# 158. Final Canon Boundary
+## 158. Final Canon Boundary
 
 The supplied source supports the four proposed laws:
 

@@ -4,25 +4,23 @@ title: SKILL — Amos Os Runtime Master
 type: skill
 source: 07_SKILLS/amos-os-runtime-master
 name: amos-os-runtime-master
-description: AMOS OS & Runtime — OS Kernel v4.4, runtime pipeline (Perceive→Route→Admit→Plan→Schedule→Execute→Observe→Repair→Audit→Finalize),
-  infrastructure control plane, deployment. Use when runtime reasoning,. Do not use
-  for generic tasks outside runtime domain.
+description: AMOS OS & Runtime — OS Kernel v4.4, runtime pipeline (Perceive→Route→Admit→Plan→Schedule→Execute→Observe→Repair→Audit→Finalize), infrastructure control plane, deployment. Use when runtime reasoning,. Do not use for generic tasks outside runtime domain.
 parent_skill: none
 domain: runtime
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CANON
 tags:
-- type/skill
-- type/skill
-- domain/os-runtime
-- epistemic/source_claim
-- hml/m
-- epistemic/source_canon
-- amos-os
-- agent-template
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/os-runtime
+  - epistemic/source_claim
+  - hml/m
+  - epistemic/source_canon
+  - amos-os
+  - agent-template
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -32,25 +30,25 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: M
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
-- L7_authority
-- L8_execution
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
+  - L7_authority
+  - L8_execution
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L7
-- L8
-- L16
-- L17
-- L18
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L7
+  - L8
+  - L16
+  - L17
+  - L18
 license: MIT
 steward: Trang Phan
 ---
@@ -60,9 +58,11 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: runtime. Parent: none. Epistemic class: SOURCE_CANON. H/M/L: M.
+
 ## When to Use
 
 AMOS OS & Runtime — OS Kernel v4.4, runtime pipeline (Perceive→Route→Admit→Plan→Schedule→Execute→Observe→Repair→Audit→Finalize), infrastructure control plane, deployment. Use for runtime reasoning,...
+
 - When validating outputs against domain constraints and epistemic class
 
 ## Capabilities
@@ -80,14 +80,14 @@ AMOS OS & Runtime — OS Kernel v4.4, runtime pipeline (Perceive→Route→Admit
 ## Operations
 
 1. **os_runtime.execute_recovery**: Execute AMOS OS & Runtime failure recovery: detect failure, diagnose root cause, apply repair, verify recovery.
-2. **os_runtime.validate_quality**: Validate AMOS OS & Runtime outputs against validation gates, equation firewall, golden ratio, and integrity requirements.
-3. **os_runtime.discover_gaps**: Discover knowledge gaps using AMOS OS & Runtime gap discovery engine, completion graph, and unknown-unknown registry.
-4. **os_runtime.trace_provenance**: Trace AMOS OS & Runtime findings to test results, integrity scans, gap registry, and validation gate outputs.
-5. **os_runtime.assess_claim**: Assess AMOS OS & Runtime audit claims for severity, scope, evidence strength, and repair priority.
-6. **os_runtime.manage_lifecycle**: Manage AMOS OS & Runtime audit lifecycle: scan, detect, classify, allocate repair, verify, and document.
-7. **os_runtime.detect_drift**: Detect audit drift: test count drift, gap regression, integrity degradation, and validation gate erosion.
-8. **os_runtime.escalate_gaps**: Escalate AMOS OS & Runtime audit gaps: flag CRITICAL gaps, prioritize repair allocation, trigger bounded recovery.
-9. **os_runtime.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+1. **os_runtime.validate_quality**: Validate AMOS OS & Runtime outputs against validation gates, equation firewall, golden ratio, and integrity requirements.
+1. **os_runtime.discover_gaps**: Discover knowledge gaps using AMOS OS & Runtime gap discovery engine, completion graph, and unknown-unknown registry.
+1. **os_runtime.trace_provenance**: Trace AMOS OS & Runtime findings to test results, integrity scans, gap registry, and validation gate outputs.
+1. **os_runtime.assess_claim**: Assess AMOS OS & Runtime audit claims for severity, scope, evidence strength, and repair priority.
+1. **os_runtime.manage_lifecycle**: Manage AMOS OS & Runtime audit lifecycle: scan, detect, classify, allocate repair, verify, and document.
+1. **os_runtime.detect_drift**: Detect audit drift: test count drift, gap regression, integrity degradation, and validation gate erosion.
+1. **os_runtime.escalate_gaps**: Escalate AMOS OS & Runtime audit gaps: flag CRITICAL gaps, prioritize repair allocation, trigger bounded recovery.
+1. **os_runtime.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## Consolidated Sub-Skills (141)
 
@@ -97,44 +97,34 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 
 > **Reference**: See `references/vault_domain_knowledge.md` (content_hash: 498509af736d95f6) for detailed vault-sourced domain knowledge.
 
-
 > **Reference**: See `references/speed_governor.md` (content_hash: 183c93ed4d3e174b) for the AMOS Speed Governor (FAST/BALANCED/DEEP modes and selection criteria).
-
 
 > **Reference**: See `references/golden_ratio_diagnostics.md` (content_hash: 91fb235d21638428) for the Golden-Ratio Diagnostics Layer (phi-ratio validation, golden ratio gate, structural harmony metrics).
 
-
 > **Reference**: See `references/full_brain_os_test_fix.md` (content_hash: ceefd580c8932435) for the Full Brain OS Test-Fix-Rerun (test failures, fixes applied, rerun results, regression coverage).
-
 
 > **Reference**: See `references/error_recovery.md` (content_hash: c844ad5a7e7024ae) for the Error Recovery (error classification, recovery patterns, failure modes).
 
-
 > **Reference**: See `references/continuous_evolution.md` (content_hash: fbe2fb0541f56811) for the Continuous Evolution Complete (evolution loop, continuous improvement, adaptive runtime).
-
 
 > **Reference**: See `references/core_v44_coordination_avoidance.md` (content_hash: d63cc867976c4e5f) for the AMOS Core v4.4 Coordination Avoidance Runtime (coordination avoidance, runtime optimization, concurrent execution).
 
-
 > **Reference**: See `references/brain_complete_integration_report.md` (content_hash: a4878e6938f5fb47) for the AMOS Brain Complete Integration Report (integration status, brain architecture, completion summary).
-
 
 > **Reference**: See `references/speed_engine_root.md` (content_hash: 4d7d368bca8653a9) for the AMOS Speed Engine v0 Root (speed optimization, performance modes, FAST/BALANCED/DEEP selection).
 
-
 > **Reference**: See `references/systems_core_engine.md` (content_hash: 2ff73a6ff01e613b) for the AMOS Systems Core Engine v0 (systems core, runtime architecture, system coordination).
-
 
 > **Reference**: See `references/operating_systems_survival.md` (content_hash: ab72abd251043a29) for the Operating Systems for Survival (survival OS, resilience patterns, adaptive operating systems).
 
-
 > **Reference**: See `references/v44_coordination_avoidance_detailed.md` (content_hash: 8a9f678ab19eda44) for the V4.4 Coordination Avoidance Detailed (coordination avoidance runtime, MVCC, conflict-free execution).
 
+> **Reference**: See \`references
 
-> **Reference**: See `references
 - AGENT_TEMPLATE
 
----
+______________________________________________________________________
+
 **MOC:** [[07_SKILLS/amos-os-runtime-master/amos-os-runtime-master_MOC|amos-os-runtime-master_MOC]]
 
 ## Examples
@@ -142,7 +132,6 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 - **Scenario**: When validating outputs against domain constraints and epistemic class
   - **Input**: A query matching this skill's domain (runtime)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Validation Gates
 
@@ -159,7 +148,6 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `none` — routes to this skill when runtime specialization is needed
@@ -167,7 +155,6 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -186,7 +173,6 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -194,7 +180,6 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -255,11 +240,12 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 - `references/v43_shard_local_finalization.md` — loaded on demand
 - `references/v44_coordination_avoidance_detailed.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `none` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `amos-os-runtime-master-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -267,12 +253,14 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-os-runtime-master
 node_type: skill
 path: 07_SKILLS/amos-os-runtime-master/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

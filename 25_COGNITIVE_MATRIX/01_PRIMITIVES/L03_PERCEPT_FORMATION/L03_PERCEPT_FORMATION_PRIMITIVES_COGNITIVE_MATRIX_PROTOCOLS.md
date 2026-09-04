@@ -2,16 +2,16 @@
 type: protocol
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L03_PERCEPT_FORMATION
 tags:
-- amos
-- cognitive-matrix
-- matrix/l03
-- percept-formation
-- protocols
-- rscf
-- provenance
-- hml
-- governance
-- domain/cognitive-matrix
+  - amos
+  - cognitive-matrix
+  - matrix/l03
+  - percept-formation
+  - protocols
+  - rscf
+  - provenance
+  - hml
+  - governance
+  - domain/cognitive-matrix
 title: L03_PERCEPT_FORMATION — Protocols
 origin_architect: Trang Phan
 status: MODEL_PROTOCOL_CONTRACT / UNIMPLEMENTED / UNVALIDATED
@@ -32,9 +32,9 @@ rscf:
 **Artifact:** `PROTOCOLS.md`
 **Status:** `AMOS_MODEL / UNIMPLEMENTED / UNVALIDATED`
 
----
+______________________________________________________________________
 
-# 0. Purpose
+## 0. Purpose
 
 Define the governed message, handoff, validation, state-transition, failure, recovery, and commit-boundary protocols for `L03_PERCEPT_FORMATION`.
 
@@ -73,9 +73,9 @@ AUTHORIZED != COMMITTED
 PROPOSAL != COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 1. Source / Canon References
+## 1. Source / Canon References
 
 ## 1.1 Source-aligned architectural constraints
 
@@ -135,37 +135,35 @@ canonical_commit_protocol: UNKNOWN_GAP
 
 Therefore all L03-specific protocol identifiers below are `AMOS_MODEL` unless direct canon later establishes them.
 
----
+______________________________________________________________________
 
-# 2. Definition and Scope
+## 2. Definition and Scope
 
 An L03 protocol is a governed interaction contract:
 
-[
-\Pi :
+\[
+\\Pi :
 (Sender, Message, State, Context)
-\rightarrow
+\\rightarrow
 (ReceiverState, Response, Trace)
-]
+\]
 
 subject to:
 
-[
-Admissible(\Pi)
-===============
+## \[ Admissible(\\Pi)
 
 TypeValid
-\land
+\\land
 InvariantValid
-\land
+\\land
 ScopeCompatible
-\land
+\\land
 RegimeCompatible
-\land
+\\land
 ProvenanceValid
-\land
+\\land
 AuthorityValid
-]
+\]
 
 `AMOS_MODEL`.
 
@@ -182,9 +180,9 @@ authority to commit
 
 unless separately evidenced.
 
----
+______________________________________________________________________
 
-# 3. Typed Protocol Envelope
+## 3. Typed Protocol Envelope
 
 ```yaml
 L03ProtocolEnvelope:
@@ -276,9 +274,9 @@ L03ProtocolEnvelope:
       - UNKNOWN_GAP
 ```
 
----
+______________________________________________________________________
 
-# 4. Typed Inputs
+## 4. Typed Inputs
 
 Protocol inputs may include:
 
@@ -325,9 +323,9 @@ ProtocolInputs:
     type: AuthorityContext
 ```
 
----
+______________________________________________________________________
 
-# 5. Typed Outputs
+## 5. Typed Outputs
 
 ```yaml
 ProtocolOutputs:
@@ -377,9 +375,9 @@ ProtocolOutputs:
       - UNKNOWN_GAP
 ```
 
----
+______________________________________________________________________
 
-# 6. State Variables
+## 6. State Variables
 
 ```text
 Msg_t       = active protocol message
@@ -412,9 +410,9 @@ Trace_t     = protocol trace
 Gap_t       = unresolved protocol gaps
 ```
 
----
+______________________________________________________________________
 
-# 7. Protocol Classes
+## 7. Protocol Classes
 
 Candidate protocol families:
 
@@ -440,9 +438,9 @@ RECOVERY
 AUDIT
 ```
 
----
+______________________________________________________________________
 
-# 8. P-L03-001 — `OBSERVATION_INGRESS`
+## 8. P-L03-001 — `OBSERVATION_INGRESS`
 
 Purpose:
 
@@ -478,9 +476,9 @@ OBSERVATION_INGRESS
 PERCEPT
 ```
 
----
+______________________________________________________________________
 
-# 9. P-L03-002 — `ATTENTION_CONTEXT_HANDOFF`
+## 9. P-L03-002 — `ATTENTION_CONTEXT_HANDOFF`
 
 Purpose:
 
@@ -512,9 +510,9 @@ ATTENDED != TRUE
 UNATTENDED != FALSE
 ```
 
----
+______________________________________________________________________
 
-# 10. P-L03-003 — `OPERATOR_REQUEST`
+## 10. P-L03-003 — `OPERATOR_REQUEST`
 
 Purpose:
 
@@ -534,9 +532,9 @@ OperatorRequest:
 
 Request does not imply permission.
 
----
+______________________________________________________________________
 
-# 11. P-L03-004 — `OPERATOR_RESULT`
+## 11. P-L03-004 — `OPERATOR_RESULT`
 
 Purpose:
 
@@ -567,9 +565,9 @@ OPERATOR RESULT
 VALIDATED PERCEPT
 ```
 
----
+______________________________________________________________________
 
-# 12. P-L03-005 — `FEATURE_STATE_HANDOFF`
+## 12. P-L03-005 — `FEATURE_STATE_HANDOFF`
 
 Purpose:
 
@@ -588,9 +586,9 @@ Hard boundary:
 FEATURE != INDEPENDENT OBSERVATION
 ```
 
----
+______________________________________________________________________
 
-# 13. P-L03-006 — `BINDING_PROPOSAL`
+## 13. P-L03-006 — `BINDING_PROPOSAL`
 
 Purpose:
 
@@ -616,9 +614,9 @@ BINDING PROPOSAL
 IDENTITY PROOF
 ```
 
----
+______________________________________________________________________
 
-# 14. P-L03-007 — `BINDING_RESULT`
+## 14. P-L03-007 — `BINDING_RESULT`
 
 Possible outcomes:
 
@@ -632,9 +630,9 @@ UNKNOWN_GAP
 
 `ACCEPTED_AS_CANDIDATE` must not become `VERIFIED_OBJECT` automatically.
 
----
+______________________________________________________________________
 
-# 15. P-L03-008 — `MULTIMODAL_ALIGNMENT_REQUEST`
+## 15. P-L03-008 — `MULTIMODAL_ALIGNMENT_REQUEST`
 
 Purpose:
 
@@ -659,9 +657,9 @@ MODALITY UNAVAILABLE
 NEGATIVE OBSERVATION
 ```
 
----
+______________________________________________________________________
 
-# 16. P-L03-009 — `MULTIMODAL_ALIGNMENT_RESULT`
+## 16. P-L03-009 — `MULTIMODAL_ALIGNMENT_RESULT`
 
 Must expose:
 
@@ -677,9 +675,9 @@ uncertainty
 
 Material conflicts cannot be silently averaged away.
 
----
+______________________________________________________________________
 
-# 17. P-L03-010 — `PERCEPT_CANDIDATE_PROPOSAL`
+## 17. P-L03-010 — `PERCEPT_CANDIDATE_PROPOSAL`
 
 Purpose:
 
@@ -723,9 +721,9 @@ PERCEPT CANDIDATE
 EXTERNAL FACT
 ```
 
----
+______________________________________________________________________
 
-# 18. P-L03-011 — `COMPETING_PERCEPT_REGISTER`
+## 18. P-L03-011 — `COMPETING_PERCEPT_REGISTER`
 
 Purpose:
 
@@ -749,9 +747,9 @@ REMAINS COMPETING
 UNTIL DISCRIMINATING EVIDENCE EXISTS
 ```
 
----
+______________________________________________________________________
 
-# 19. P-L03-012 — `DISCRIMINATION_REQUEST`
+## 19. P-L03-012 — `DISCRIMINATION_REQUEST`
 
 Purpose:
 
@@ -766,9 +764,9 @@ DiscriminationRequest:
   authority_constraints: null
 ```
 
----
+______________________________________________________________________
 
-# 20. P-L03-013 — `DISCRIMINATION_RESULT`
+## 20. P-L03-013 — `DISCRIMINATION_RESULT`
 
 Possible outcomes:
 
@@ -786,9 +784,9 @@ Hard boundary:
 INCONCLUSIVE != RESOLVED
 ```
 
----
+______________________________________________________________________
 
-# 21. P-L03-014 — `HML_UPWARD_HANDOFF`
+## 21. P-L03-014 — `HML_UPWARD_HANDOFF`
 
 Purpose:
 
@@ -820,9 +818,9 @@ AGGREGATION
 GLOBAL TRUTH
 ```
 
----
+______________________________________________________________________
 
-# 22. P-L03-015 — `HML_DOWNWARD_CONSTRAINT`
+## 22. P-L03-015 — `HML_DOWNWARD_CONSTRAINT`
 
 Purpose:
 
@@ -852,9 +850,9 @@ DOWNWARD CONSTRAINT
 DOWNWARD CAUSATION
 ```
 
----
+______________________________________________________________________
 
-# 23. P-L03-016 — `MEMORY_CONTEXT_REQUEST`
+## 23. P-L03-016 — `MEMORY_CONTEXT_REQUEST`
 
 Purpose:
 
@@ -872,9 +870,9 @@ MemoryContextRequest:
 
 Memory must enter as memory-derived context, not observation.
 
----
+______________________________________________________________________
 
-# 24. P-L03-017 — `MEMORY_CONTEXT_RESULT`
+## 24. P-L03-017 — `MEMORY_CONTEXT_RESULT`
 
 Required:
 
@@ -897,9 +895,9 @@ Hard boundary:
 MEMORY != CURRENT OBSERVATION
 ```
 
----
+______________________________________________________________________
 
-# 25. P-L03-018 — `PROVENANCE_CHECK_REQUEST`
+## 25. P-L03-018 — `PROVENANCE_CHECK_REQUEST`
 
 Purpose:
 
@@ -917,9 +915,9 @@ freshness
 version
 ```
 
----
+______________________________________________________________________
 
-# 26. P-L03-019 — `PROVENANCE_CHECK_RESULT`
+## 26. P-L03-019 — `PROVENANCE_CHECK_RESULT`
 
 ```yaml
 ProvenanceCheckResult:
@@ -943,9 +941,9 @@ MULTIPLE DESCENDANTS
 MULTIPLE INDEPENDENT SOURCES
 ```
 
----
+______________________________________________________________________
 
-# 27. P-L03-020 — `DEPENDENCY_REGISTER`
+## 27. P-L03-020 — `DEPENDENCY_REGISTER`
 
 Purpose:
 
@@ -962,9 +960,9 @@ DependencyRegister:
   invalidation_conditions: []
 ```
 
----
+______________________________________________________________________
 
-# 28. P-L03-021 — `VALIDATION_REQUEST`
+## 28. P-L03-021 — `VALIDATION_REQUEST`
 
 Purpose:
 
@@ -981,9 +979,9 @@ ValidationRequest:
   authority_context: null
 ```
 
----
+______________________________________________________________________
 
-# 29. P-L03-022 — `VALIDATION_RESULT`
+## 29. P-L03-022 — `VALIDATION_RESULT`
 
 Possible outcomes:
 
@@ -1003,9 +1001,9 @@ UNKNOWN_GAP
 VALID
 ```
 
----
+______________________________________________________________________
 
-# 30. P-L03-023 — `QUARANTINE_NOTICE`
+## 30. P-L03-023 — `QUARANTINE_NOTICE`
 
 Purpose:
 
@@ -1025,9 +1023,9 @@ unresolved contradiction
 authority ambiguity
 ```
 
----
+______________________________________________________________________
 
-# 31. P-L03-024 — `INVALIDATION_NOTICE`
+## 31. P-L03-024 — `INVALIDATION_NOTICE`
 
 Purpose:
 
@@ -1049,9 +1047,9 @@ INVALIDATE DEPENDENTS
 NOT EVERYTHING
 ```
 
----
+______________________________________________________________________
 
-# 32. P-L03-025 — `REPAIR_REQUEST`
+## 32. P-L03-025 — `REPAIR_REQUEST`
 
 ```yaml
 RepairRequest:
@@ -1065,9 +1063,9 @@ RepairRequest:
 
 Repair scope must be bounded.
 
----
+______________________________________________________________________
 
-# 33. P-L03-026 — `REPAIR_RESULT`
+## 33. P-L03-026 — `REPAIR_RESULT`
 
 Required:
 
@@ -1089,9 +1087,9 @@ REPAIR
 REVALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 34. P-L03-027 — `REVALIDATION_REQUEST`
+## 34. P-L03-027 — `REVALIDATION_REQUEST`
 
 Triggered by:
 
@@ -1106,9 +1104,9 @@ operator change
 new contradictory evidence
 ```
 
----
+______________________________________________________________________
 
-# 35. P-L03-028 — `REVALIDATION_RESULT`
+## 35. P-L03-028 — `REVALIDATION_RESULT`
 
 Possible:
 
@@ -1122,9 +1120,9 @@ UNKNOWN_GAP
 
 Must use the new validation state, not merely reuse the old result.
 
----
+______________________________________________________________________
 
-# 36. P-L03-029 — `STATE_PROPOSAL`
+## 36. P-L03-029 — `STATE_PROPOSAL`
 
 Purpose:
 
@@ -1167,9 +1165,9 @@ STATE_PROPOSAL
 STATE_COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 37. P-L03-030 — `AUTHORITY_CHECK`
+## 37. P-L03-030 — `AUTHORITY_CHECK`
 
 Purpose:
 
@@ -1177,20 +1175,18 @@ Purpose:
 
 Candidate check:
 
-[
-AuthorityValid
-==============
+## \[ AuthorityValid
 
 PrincipalValid
-\land
+\\land
 EffectAllowed
-\land
+\\land
 ScopeAllowed
-\land
+\\land
 Fresh
-\land
+\\land
 NotRevoked
-]
+\]
 
 `AMOS_MODEL`.
 
@@ -1202,9 +1198,9 @@ CAPABILITY
 AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 38. P-L03-031 — `COMMIT_REQUEST`
+## 38. P-L03-031 — `COMMIT_REQUEST`
 
 A commit request may only be emitted after required validation and authority checks.
 
@@ -1221,9 +1217,9 @@ CommitRequest:
 
 L03 itself does not thereby acquire commit authority.
 
----
+______________________________________________________________________
 
-# 39. P-L03-032 — `COMMIT_RESULT`
+## 39. P-L03-032 — `COMMIT_RESULT`
 
 Possible:
 
@@ -1245,9 +1241,9 @@ COMMIT REQUEST
 COMMITTED
 ```
 
----
+______________________________________________________________________
 
-# 40. P-L03-033 — `AUDIT_TRACE_APPEND`
+## 40. P-L03-033 — `AUDIT_TRACE_APPEND`
 
 Every material protocol transition should be appendable to an audit trace.
 
@@ -1279,9 +1275,9 @@ ProtocolTraceEntry:
   failures: []
 ```
 
----
+______________________________________________________________________
 
-# 41. Protocol Sequence
+## 41. Protocol Sequence
 
 Candidate default sequence:
 
@@ -1333,9 +1329,9 @@ AUDIT TRACE
 
 This sequence is `AMOS_MODEL`, not established canonical runtime behavior.
 
----
+______________________________________________________________________
 
-# 42. Protocol State Machine
+## 42. Protocol State Machine
 
 Candidate:
 
@@ -1388,9 +1384,9 @@ COMMIT
 → CONFLICT
 ```
 
----
+______________________________________________________________________
 
-# 43. Acknowledgement Semantics
+## 43. Acknowledgement Semantics
 
 Candidate acknowledgement classes:
 
@@ -1414,9 +1410,9 @@ ACK_VALIDATED
 
 Receipt acknowledgement cannot be interpreted as semantic acceptance.
 
----
+______________________________________________________________________
 
-# 44. Idempotency
+## 44. Idempotency
 
 Where retry is permitted, protocol operations should carry:
 
@@ -1429,19 +1425,19 @@ state version
 
 Candidate rule:
 
-[
+\[
 SameMessageID + SameEffect
-\Rightarrow
+\\Rightarrow
 NoDuplicateEffect
-]
+\]
 
 where supported.
 
 This is a design requirement, not an implementation claim.
 
----
+______________________________________________________________________
 
-# 45. Ordering
+## 45. Ordering
 
 Messages whose semantics depend on order must expose ordering explicitly.
 
@@ -1471,32 +1467,30 @@ CAUSAL ORDER
 
 unless protocol semantics establish it.
 
----
+______________________________________________________________________
 
-# 46. Freshness and Staleness
+## 46. Freshness and Staleness
 
 A message becomes stale if its load-bearing state version or applicability envelope has changed.
 
 Candidate:
 
-[
-Stale(m)
-========
+## \[ Stale(m)
 
 VersionMismatch
-\lor
+\\lor
 RegimeInvalid
-\lor
+\\lor
 FreshnessExpired
-\lor
+\\lor
 DependencyInvalidated
-]
+\]
 
 A stale proposal must be revalidated before durable use.
 
----
+______________________________________________________________________
 
-# 47. Conflict Protocol
+## 47. Conflict Protocol
 
 Conflict conditions include:
 
@@ -1528,9 +1522,9 @@ REVALIDATE
 RESOLVE OR PRESERVE COMPETING
 ```
 
----
+______________________________________________________________________
 
-# 48. Provenance Protocol
+## 48. Provenance Protocol
 
 Every state-bearing message must permit recovery of:
 
@@ -1553,19 +1547,19 @@ NEW MESSAGE
 NEW EVIDENCE
 ```
 
----
+______________________________________________________________________
 
-# 49. Confidence Protocol
+## 49. Confidence Protocol
 
 A protocol transfer must not increase confidence merely because another component handled the state.
 
 Candidate:
 
-[
-C_{receiver}
-\le
-C_{sender}
-]
+\[
+C\_{receiver}
+\\le
+C\_{sender}
+\]
 
 unless the receiving step adds independently valid evidence.
 
@@ -1581,9 +1575,9 @@ PROTOCOL HOP
 CONFIDENCE GAIN
 ```
 
----
+______________________________________________________________________
 
-# 50. H/M/L Applicability
+## 50. H/M/L Applicability
 
 ## L — Local
 
@@ -1666,9 +1660,9 @@ regime
 confidence ceiling
 ```
 
----
+______________________________________________________________________
 
-# 51. Control-Plane Requirements
+## 51. Control-Plane Requirements
 
 The control plane should own or validate:
 
@@ -1708,9 +1702,9 @@ policy override
 commit finality
 ```
 
----
+______________________________________________________________________
 
-# 52. Agents
+## 52. Agents
 
 Candidate protocol roles:
 
@@ -1729,9 +1723,9 @@ L03_PROTOCOL_AUDITOR
 
 These are `AMOS_MODEL`.
 
----
+______________________________________________________________________
 
-# 53. Skills
+## 53. Skills
 
 Relevant capability families:
 
@@ -1756,9 +1750,9 @@ SKILL AVAILABLE
 PROTOCOL IMPLEMENTED
 ```
 
----
+______________________________________________________________________
 
-# 54. Workflows
+## 54. Workflows
 
 ## Standard percept workflow
 
@@ -1824,9 +1818,9 @@ REVALIDATION
 NEW PROPOSAL
 ```
 
----
+______________________________________________________________________
 
-# 55. Core Protocol Invariants
+## 55. Core Protocol Invariants
 
 ```text
 L03-PROTO-INV-001
@@ -1926,9 +1920,9 @@ L03-PROTO-INV-032
 Passing protocol tests does not establish empirical perceptual validity.
 ```
 
----
+______________________________________________________________________
 
-# 56. Dependencies
+## 56. Dependencies
 
 Upstream:
 
@@ -1968,9 +1962,9 @@ AMOS infrastructure control plane
 AMOS deterministic governance
 ```
 
----
+______________________________________________________________________
 
-# 57. Evidence / Provenance
+## 57. Evidence / Provenance
 
 Every protocol interaction should be capable of producing:
 
@@ -2013,9 +2007,9 @@ ProtocolEvidence:
   failures: []
 ```
 
----
+______________________________________________________________________
 
-# 58. Uncertainty and Confidence Ceiling
+## 58. Uncertainty and Confidence Ceiling
 
 Protocol-specific uncertainty:
 
@@ -2052,21 +2046,21 @@ protocol_uncertainty:
 
 Candidate confidence rule:
 
-[
-Conf_{out}
-\le
-\min(
-Conf_{payload},
-Conf_{protocol\ assumptions},
-Conf_{load-bearing\ context}
+\[
+Conf\_{out}
+\\le
+\\min(
+Conf\_{payload},
+Conf\_{protocol\\ assumptions},
+Conf\_{load-bearing\\ context}
 )
-]
+\]
 
 No confidence gain is licensed solely by protocol traversal.
 
----
+______________________________________________________________________
 
-# 59. Failure Modes
+## 59. Failure Modes
 
 ```text
 FM-L03-PROTO-001
@@ -2166,9 +2160,9 @@ FM-L03-PROTO-032
 Runtime/network guarantees claimed without executable evidence.
 ```
 
----
+______________________________________________________________________
 
-# 60. Repair / Recovery
+## 60. Repair / Recovery
 
 ```text
 DETECT PROTOCOL FAILURE
@@ -2215,9 +2209,9 @@ CONFIGURATION,
 OR PROTOCOL CONDITION
 ```
 
----
+______________________________________________________________________
 
-# 61. Tests / Validators
+## 61. Tests / Validators
 
 Minimum validators:
 
@@ -2335,9 +2329,9 @@ formal_verification: false
 empirical_validation: false
 ```
 
----
+______________________________________________________________________
 
-# 62. Falsifiers
+## 62. Falsifiers
 
 Revise this contract if direct canonical evidence establishes:
 
@@ -2365,9 +2359,9 @@ different commit architecture;
 or executable runtime evidence contradicts modeled behavior.
 ```
 
----
+______________________________________________________________________
 
-# 63. Gap Matrix
+## 63. Gap Matrix
 
 ```yaml
 gap_status:
@@ -2427,9 +2421,9 @@ gap_status:
     status: CRITICAL_GAP
 ```
 
----
+______________________________________________________________________
 
-# 64. Competing Protocol Architectures
+## 64. Competing Protocol Architectures
 
 ## COMPETING-001 — Direct Function Handoffs
 
@@ -2548,9 +2542,9 @@ Still:
 MODEL != CANON
 ```
 
----
+______________________________________________________________________
 
-# 65. RSCF Completion State
+## 65. RSCF Completion State
 
 ```yaml
 rscf:
@@ -2666,9 +2660,9 @@ rscf:
     provenance loss, competing percepts, and authority failure.
 ```
 
----
+______________________________________________________________________
 
-# 66. Completion State
+## 66. Completion State
 
 ```yaml
 completion_state:
@@ -2749,9 +2743,9 @@ completion_state:
     MODEL
 ```
 
----
+______________________________________________________________________
 
-# 67. Hard Boundaries
+## 67. Hard Boundaries
 
 ```text
 PLACEHOLDER != IMPLEMENTED
@@ -2815,15 +2809,15 @@ REPAIR != REVALIDATION
 PROTOCOL TEST PASS != EMPIRICAL VALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 68. Governing Protocol Contract
+## 68. Governing Protocol Contract
 
 > **`L03_PERCEPT_FORMATION` SHALL exchange percept-formation state only through typed protocol envelopes that preserve semantic origin, source ancestry, dependencies, scope, regime, observer context, freshness, H/M/L position, uncertainty, confidence ceilings, state version, and authority context wherever material. Observation ingress SHALL remain distinguishable from percept formation; attention handoffs SHALL NOT alter epistemic truth status; feature, binding, memory, multimodal, and H/M/L handoffs SHALL NOT manufacture independent evidence or erase material conflicts. Competing percepts SHALL remain explicit until discriminating evidence resolves them. Protocol traversal SHALL NOT independently increase confidence. Receipt, acceptance, validation, authorization, proposal, and commit SHALL remain distinct states. `UNKNOWN/GAP` SHALL NOT satisfy hard validation or authority gates. Failed load-bearing state SHALL trigger dependency-aware selective invalidation rather than indiscriminate global reset. Repair SHALL require revalidation. L03 workers MAY transform and propose cognitive state but SHALL NOT infer durable authority from capability, and no state proposal SHALL become committed merely because the protocol sequence completed.**
 
----
+______________________________________________________________________
 
-# 69. Canon Boundary
+## 69. Canon Boundary
 
 ```text
 SOURCE / ARCHITECTURE-ALIGNED:
@@ -2999,22 +2993,27 @@ NOT ESTABLISHED
 
 ```text
 ```
----
+
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: l03_percept_formation_primitives_cognitive_matrix_protocols
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L03_PERCEPT_FORMATION/L03_PERCEPT_FORMATION_PRIMITIVES_COGNITIVE_MATRIX_PROTOCOLS.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L03_PERCEPT_FORMATION/L03_PERCEPT_FORMATION_MOC|L03_PERCEPT_FORMATION_MOC]]

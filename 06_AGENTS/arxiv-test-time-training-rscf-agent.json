@@ -74,7 +74,7 @@
     "arxiv-test-time-training-rscf"
   ],
   "depends_on_workflows": [
-    "arxiv-test-time-training-rscf-workflow.md"
+    "amos-arxiv-test-time-training-rscf-workflow.md"
   ],
   "epistemic_class": "AMOS_MODEL",
   "claim_ceiling": 0.95,

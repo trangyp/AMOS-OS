@@ -1,14 +1,17 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: GENERATOR PROMOTION
 type: generator
 source: 25_COGNITIVE_MATRIX/12_GENERATORS
 tags:
-- 12_GENERATORS
-- cognitive-matrix
-- matrix
-- domain/cognitive-matrix
-- generator-output
-- generator-falsification
+  - 12_GENERATORS
+  - cognitive-matrix
+  - matrix
+  - domain/cognitive-matrix
+  - generator-output
+  - generator-falsification
 rscf:
   state: DERIVED
   claim_class: EMPIRICAL
@@ -32,9 +35,9 @@ Promotion is an evidence-bearing, provenance-aware, scope-bound, regime-bound, d
 
 No generator may promote itself merely by asserting readiness.
 
----
+______________________________________________________________________
 
-# 1. Purpose
+## 1. Purpose
 
 Generator Promotion exists to prevent unvalidated generator logic from silently becoming trusted AMOS infrastructure.
 
@@ -69,9 +72,9 @@ NO
 
 unless independently established.
 
----
+______________________________________________________________________
 
-# 2. Core Promotion Law
+## 2. Core Promotion Law
 
 For generator $G$, version $v$, source state $S_i$, target state $S_j$, evidence $E$, constraints $K$, validation $V$, provenance $P$, and governance authority $A$:
 
@@ -85,9 +88,9 @@ $$PromotionAllowed = IdentityValid \land VersionBound \land EvidenceSufficient \
 
 where each term is evaluated relative to the requested promotion level.
 
----
+______________________________________________________________________
 
-# 3. Promotion Is Version-Specific
+## 3. Promotion Is Version-Specific
 
 Promotion attaches to an exact generator version.
 
@@ -107,9 +110,9 @@ $$Promoted(G_{v_1}) \not\Rightarrow Promoted(G_{v_2})$$
 
 unless the applicable versioning policy explicitly establishes compatibility and the modification falls inside an admissible equivalence envelope.
 
----
+______________________________________________________________________
 
-# 4. Generator Identity
+## 4. Generator Identity
 
 Every promotable generator SHOULD have an identity envelope such as:
 
@@ -133,9 +136,9 @@ generator_identity:
 
 Promotion MUST NOT operate on an ambiguous generator identity when that ambiguity could alter the result.
 
----
+______________________________________________________________________
 
-# 5. Promotion Unit
+## 5. Promotion Unit
 
 The unit of promotion MAY be:
 
@@ -153,9 +156,9 @@ The promotion record MUST state which unit is actually being promoted.
 
 Promoting one unit MUST NOT silently promote all related units.
 
----
+______________________________________________________________________
 
-# 6. Candidate Lifecycle
+## 6. Candidate Lifecycle
 
 A conceptual lifecycle is:
 
@@ -204,9 +207,9 @@ RETIRED
 
 These names define a conceptual lifecycle contract. They do not claim that every AMOS implementation currently materializes each state.
 
----
+______________________________________________________________________
 
-# 7. Registration Is Not Promotion
+## 7. Registration Is Not Promotion
 
 Registration means AMOS knows that a generator exists.
 
@@ -225,9 +228,9 @@ Therefore:
 
 $$Registered(G) \not\Rightarrow Trusted(G)$$
 
----
+______________________________________________________________________
 
-# 8. Experimental State
+## 8. Experimental State
 
 An `EXPERIMENTAL` generator may be used for controlled exploration.
 
@@ -244,9 +247,9 @@ experimental:
   rollback_required: true
 ```
 
----
+______________________________________________________________________
 
-# 9. Candidate State
+## 9. Candidate State
 
 `CANDIDATE` means the generator is sufficiently defined to undergo structured evaluation.
 
@@ -266,9 +269,9 @@ known failure conditions
 
 Candidate status does not establish correctness.
 
----
+______________________________________________________________________
 
-# 10. Validation-Pending State
+## 10. Validation-Pending State
 
 A generator becomes `VALIDATION_PENDING` when an explicit validation package exists.
 
@@ -293,9 +296,9 @@ validation_package:
   known_failures: []
 ```
 
----
+______________________________________________________________________
 
-# 11. Validated State
+## 11. Validated State
 
 `VALIDATED` means the generator survived a defined validation process **within the tested envelope**.
 
@@ -317,9 +320,9 @@ does not imply:
 
 $$\forall S',R',T': Validated(G,S',R',T')$$
 
----
+______________________________________________________________________
 
-# 12. Promotion Candidate
+## 12. Promotion Candidate
 
 A validated generator may become a `PROMOTION_CANDIDATE` when the system has enough evidence to evaluate operational admission.
 
@@ -337,9 +340,9 @@ reversibility
 governance
 ```
 
----
+______________________________________________________________________
 
-# 13. Promotion Levels
+## 13. Promotion Levels
 
 AMOS MAY distinguish promotion strength.
 
@@ -359,9 +362,9 @@ The exact numeric representation is implementation-dependent.
 
 The semantic distinction is the governing requirement.
 
----
+______________________________________________________________________
 
-# 14. No Promotion by Fluency
+## 14. No Promotion by Fluency
 
 A generator MUST NOT receive stronger status merely because its output is:
 
@@ -379,9 +382,9 @@ These properties may affect usability.
 
 They do not independently establish epistemic reliability.
 
----
+______________________________________________________________________
 
-# 15. No Promotion by Repetition
+## 15. No Promotion by Repetition
 
 Repeated successful generation does not automatically establish independent validation.
 
@@ -395,9 +398,9 @@ $$n\ Tests \not\Rightarrow n\ IndependentEvidenceSources$$
 
 Provenance topology must be evaluated.
 
----
+______________________________________________________________________
 
-# 16. Sybil-Hardened Promotion
+## 16. Sybil-Hardened Promotion
 
 Promotion evidence MUST be resistant to false multiplicity.
 
@@ -419,9 +422,9 @@ $$IndependentEvidenceMass$$
 
 rather than raw evidence count.
 
----
+______________________________________________________________________
 
-# 17. Evidence Classes
+## 17. Evidence Classes
 
 Promotion evidence SHOULD be typed.
 
@@ -455,9 +458,9 @@ promotion_evidence:
 
 A promotion decision MUST NOT treat all evidence classes as interchangeable.
 
----
+______________________________________________________________________
 
-# 18. Promotion Claim Classes
+## 18. Promotion Claim Classes
 
 Promotion conclusions SHOULD use the weakest accurate class.
 
@@ -488,9 +491,9 @@ VERIFIED:
 Generator is good.
 ```
 
----
+______________________________________________________________________
 
-# 19. Evidence Independence
+## 19. Evidence Independence
 
 Evidence independence MUST be demonstrated where it materially affects promotion.
 
@@ -509,9 +512,9 @@ shared model lineage
 
 Apparent multiplicity is insufficient.
 
----
+______________________________________________________________________
 
-# 20. Promotion Confidence Ceiling
+## 20. Promotion Confidence Ceiling
 
 Promotion confidence cannot exceed the weakest load-bearing premise unless that premise is independently revalidated.
 
@@ -525,9 +528,9 @@ $$Conf(Promotion(G)) \leq \min_i Conf(P_i)$$
 
 for load-bearing $P_i$.
 
----
+______________________________________________________________________
 
-# 21. Scope-Bound Promotion
+## 21. Scope-Bound Promotion
 
 Promotion MUST have an applicability envelope.
 
@@ -549,9 +552,9 @@ Promotion under $S_1$ does not imply promotion under $S_2$.
 
 $$Promoted(G,S_1) \not\Rightarrow Promoted(G,S_2)$$
 
----
+______________________________________________________________________
 
-# 22. Regime-Bound Promotion
+## 22. Regime-Bound Promotion
 
 Promotion SHOULD specify the regime in which validation occurred.
 
@@ -569,9 +572,9 @@ promotion_regime:
 
 Material regime change triggers revalidation.
 
----
+______________________________________________________________________
 
-# 23. Freshness
+## 23. Freshness
 
 Promotion evidence has temporal validity.
 
@@ -588,9 +591,9 @@ freshness:
 
 A recently generated promotion document does not refresh old evidence.
 
----
+______________________________________________________________________
 
-# 24. Dependency Graph
+## 24. Dependency Graph
 
 Promotion MUST account for load-bearing generator dependencies.
 
@@ -608,9 +611,9 @@ If $D_2$ becomes invalid and is load-bearing:
 
 $$Invalidate(D_2) \Rightarrow Reevaluate(G)$$
 
----
+______________________________________________________________________
 
-# 25. Transitive Dependencies
+## 25. Transitive Dependencies
 
 Dependencies MAY themselves have dependencies.
 
@@ -622,9 +625,9 @@ but only dependencies capable of materially changing the promotion decision need
 
 This follows the smallest-sufficient-proof principle.
 
----
+______________________________________________________________________
 
-# 26. Dependency Closure
+## 26. Dependency Closure
 
 Promotion SHOULD NOT finalize until relevant dependency closure is established.
 
@@ -653,9 +656,9 @@ PROMOTION = UNKNOWN/GAP
 
 as appropriate.
 
----
+______________________________________________________________________
 
-# 27. Generator Contract Compliance
+## 27. Generator Contract Compliance
 
 A generator MUST satisfy its applicable Generator Contract before promotion.
 
@@ -674,9 +677,9 @@ dependency behavior
 
 Contract violation blocks promotion when material.
 
----
+______________________________________________________________________
 
-# 28. Generator Output Compliance
+## 28. Generator Output Compliance
 
 Promotion SHOULD test whether generator outputs conform to the Generator Output contract.
 
@@ -697,9 +700,9 @@ authority boundaries
 
 A generator producing apparently correct answers while systematically destroying provenance may fail promotion.
 
----
+______________________________________________________________________
 
-# 29. Falsification Requirement
+## 29. Falsification Requirement
 
 Consequential promotion SHOULD require adversarial falsification.
 
@@ -718,9 +721,9 @@ stronger competing generator
 regression
 ```
 
----
+______________________________________________________________________
 
-# 30. Falsification Is Not Confirmation
+## 30. Falsification Is Not Confirmation
 
 Failure to find a contradiction does not prove correctness.
 
@@ -728,9 +731,9 @@ $$NoDetectedFailure \not\Rightarrow UniversalValidity$$
 
 Falsification results must be interpreted relative to test power and tested scope.
 
----
+______________________________________________________________________
 
-# 31. Competing Generators
+## 31. Competing Generators
 
 Promotion SHOULD consider viable alternatives where they materially affect selection.
 
@@ -755,9 +758,9 @@ competition:
 
 A candidate need not dominate every dimension to be promoted.
 
----
+______________________________________________________________________
 
-# 32. Preserve COMPETING
+## 32. Preserve COMPETING
 
 If two generators have equal, incomparable, correlated, or insufficient support:
 
@@ -776,9 +779,9 @@ COMPETING
 
 until discriminating evidence exists.
 
----
+______________________________________________________________________
 
-# 33. Discriminating Tests
+## 33. Discriminating Tests
 
 When generators compete, AMOS SHOULD prefer the cheapest high-information test capable of changing the promotion decision.
 
@@ -788,9 +791,9 @@ $$T^* = \arg\max_T \frac{ ExpectedDecisionInformation(T) }{ Cost(T) }$$
 
 subject to safety and governance constraints.
 
----
+______________________________________________________________________
 
-# 34. Sensitivity Analysis
+## 34. Sensitivity Analysis
 
 Promotion SHOULD identify the smallest premise or threshold capable of reversing the result.
 
@@ -810,9 +813,9 @@ If small plausible changes reverse the decision:
 PROMOTION = CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
-# 35. Regression Analysis
+## 35. Regression Analysis
 
 Promotion MUST NOT evaluate only improvements.
 
@@ -832,9 +835,9 @@ user fit
 failure recovery
 ```
 
----
+______________________________________________________________________
 
-# 36. Anti-Regression Law
+## 36. Anti-Regression Law
 
 A generator optimization is promotable only when it preserves or improves required integrity properties.
 
@@ -844,9 +847,9 @@ $$OptimizationAccepted \Rightarrow Integrity_{new} \ge Integrity_{required}$$
 
 Efficiency improvement cannot compensate for an integrity regression.
 
----
+______________________________________________________________________
 
-# 37. Benchmark Firewall
+## 37. Benchmark Firewall
 
 Benchmark success is evidence only for the tested benchmark envelope.
 
@@ -865,9 +868,9 @@ failure cases
 scope
 ```
 
----
+______________________________________________________________________
 
-# 38. Formal-Proof Firewall
+## 38. Formal-Proof Firewall
 
 The following are distinct:
 
@@ -881,9 +884,9 @@ FORMALLY_PROVED
 
 Promotion MUST NOT silently collapse these classes.
 
----
+______________________________________________________________________
 
-# 39. Causal Firewall
+## 39. Causal Firewall
 
 If promotion depends on a causal claim such as:
 
@@ -895,9 +898,9 @@ the evidence must support that causal class.
 
 Sequence, correlation, structural resemblance, or benchmark co-movement alone is insufficient.
 
----
+______________________________________________________________________
 
-# 40. Constraint Propagation
+## 40. Constraint Propagation
 
 A promoted generator inherits applicable constraints from:
 
@@ -915,9 +918,9 @@ Environment
 
 Promotion cannot remove a constraint merely because the generator performs well.
 
----
+______________________________________________________________________
 
-# 41. Capability Compatibility
+## 41. Capability Compatibility
 
 Promotion SHOULD verify that required capabilities actually exist.
 
@@ -933,9 +936,9 @@ PROMOTION_TO_ACTIVE = BLOCKED
 
 unless a valid degraded mode exists.
 
----
+______________________________________________________________________
 
-# 42. Mode Compatibility
+## 42. Mode Compatibility
 
 Generator promotion MAY be mode-specific.
 
@@ -956,9 +959,9 @@ mode_compatibility:
 
 Promotion in one mode does not automatically imply promotion in another.
 
----
+______________________________________________________________________
 
-# 43. Mode Conflict
+## 43. Mode Conflict
 
 If generator requirements conflict with active mode constraints:
 
@@ -976,9 +979,9 @@ NARROW_SCOPE
 USE_ALTERNATIVE_GENERATOR
 ```
 
----
+______________________________________________________________________
 
-# 44. Composition Promotion
+## 44. Composition Promotion
 
 A composition of individually promoted generators is not automatically promoted.
 
@@ -1001,9 +1004,9 @@ ordering effects
 emergent failure
 ```
 
----
+______________________________________________________________________
 
-# 45. Composition Validation
+## 45. Composition Validation
 
 Generator compositions SHOULD be evaluated for:
 
@@ -1018,9 +1021,9 @@ state races
 failure propagation
 ```
 
----
+______________________________________________________________________
 
-# 46. Atomic Multi-Generator Promotion
+## 46. Atomic Multi-Generator Promotion
 
 When a promotion depends on a set:
 
@@ -1036,9 +1039,9 @@ atomic requirements satisfied
 
 or the composition remains unpromoted.
 
----
+______________________________________________________________________
 
-# 47. RSCF Integration
+## 47. RSCF Integration
 
 Generator promotion MAY be represented as an RSCF.
 
@@ -1060,9 +1063,9 @@ promotion_rscf:
   decision: null
 ```
 
----
+______________________________________________________________________
 
-# 48. Multi-RSCF Promotion
+## 48. Multi-RSCF Promotion
 
 Complex promotion may require multiple RSCFs:
 
@@ -1077,9 +1080,9 @@ R6 — governance
 
 Final promotion depends on the relevant atomic closure.
 
----
+______________________________________________________________________
 
-# 49. GMEF Integration
+## 49. GMEF Integration
 
 Where multiple explanatory models affect promotion, AMOS SHOULD preserve them in GMEF-compatible form.
 
@@ -1093,9 +1096,9 @@ H3: improvement comes from environment change
 
 Promotion SHOULD NOT assume $H_1$ merely because it is desirable.
 
----
+______________________________________________________________________
 
-# 50. H/M/L Promotion Evidence
+## 50. H/M/L Promotion Evidence
 
 Promotion evidence SHOULD follow fractal retrieval:
 
@@ -1114,9 +1117,9 @@ DO_NOT_LOAD_UNLESS_REQUIRED
 
 until decision-relevant uncertainty requires it.
 
----
+______________________________________________________________________
 
-# 51. Proof Capsule
+## 51. Proof Capsule
 
 A promotion conclusion SHOULD conceptually carry a Proof Capsule:
 
@@ -1148,9 +1151,9 @@ promotion_proof_capsule:
   invalidation_conditions: []
 ```
 
----
+______________________________________________________________________
 
-# 52. Proof Capsule Reuse
+## 52. Proof Capsule Reuse
 
 A prior promotion proof MAY be reused only while:
 
@@ -1160,9 +1163,9 @@ remain true.
 
 Otherwise targeted revalidation is required.
 
----
+______________________________________________________________________
 
-# 53. Promotion Queue
+## 53. Promotion Queue
 
 Candidates MAY enter a promotion queue rather than immediately transition.
 
@@ -1181,9 +1184,9 @@ promotion_queue_entry:
 
 Queue admission is not promotion.
 
----
+______________________________________________________________________
 
-# 54. Promotion Priority
+## 54. Promotion Priority
 
 Priority SHOULD reflect expected decision value, not generator popularity.
 
@@ -1199,9 +1202,9 @@ validation cost
 reversibility
 ```
 
----
+______________________________________________________________________
 
-# 55. Promotion Blockers
+## 55. Promotion Blockers
 
 Promotion blockers SHOULD be explicit.
 
@@ -1218,9 +1221,9 @@ blockers:
     reason: "Regime compatibility unresolved."
 ```
 
----
+______________________________________________________________________
 
-# 56. Gap Classification
+## 56. Gap Classification
 
 Promotion gaps SHOULD be classified:
 
@@ -1235,9 +1238,9 @@ Critical gaps block promotion.
 
 Decision-relevant gaps block promotion when they can flip the decision.
 
----
+______________________________________________________________________
 
-# 57. UNKNOWN Is Valid
+## 57. UNKNOWN Is Valid
 
 If required evidence cannot be established:
 
@@ -1249,9 +1252,9 @@ is a valid result.
 
 AMOS MUST NOT invent evidence to complete the lifecycle.
 
----
+______________________________________________________________________
 
-# 58. Promotion Authority
+## 58. Promotion Authority
 
 Promotion requires the authority appropriate to the target state.
 
@@ -1267,9 +1270,9 @@ revocable
 
 Authority for one transition does not imply authority for all transitions.
 
----
+______________________________________________________________________
 
-# 59. Promotion Does Not Grant Execution Authority
+## 59. Promotion Does Not Grant Execution Authority
 
 Even after promotion:
 
@@ -1277,9 +1280,9 @@ $$Promoted(G) \not\Rightarrow AuthorizedToExecute(G)$$
 
 Execution remains governed by capability, task, effect, information exposure, and commit-time authority.
 
----
+______________________________________________________________________
 
-# 60. Effect Classification
+## 60. Effect Classification
 
 Promotion SHOULD account for the effects a generator can produce.
 
@@ -1298,9 +1301,9 @@ EXTERNAL_COMMITMENT
 
 Higher-impact effects require stronger promotion evidence.
 
----
+______________________________________________________________________
 
-# 61. Information Exposure
+## 61. Information Exposure
 
 A generator SHOULD NOT be promoted into a context where its information behavior violates exposure constraints.
 
@@ -1315,9 +1318,9 @@ sensitive context propagation
 retention behavior
 ```
 
----
+______________________________________________________________________
 
-# 62. Reversibility
+## 62. Reversibility
 
 Every consequential promotion SHOULD identify rollback feasibility.
 
@@ -1331,9 +1334,9 @@ reversibility:
 
 Promotion with no viable rollback requires stronger evidence.
 
----
+______________________________________________________________________
 
-# 63. Shadow Promotion
+## 63. Shadow Promotion
 
 A generator MAY be promoted into a non-authoritative shadow state before active use.
 
@@ -1353,9 +1356,9 @@ ACTIVE
 
 Shadow evaluation can reduce irreversible risk.
 
----
+______________________________________________________________________
 
-# 64. Canary Promotion
+## 64. Canary Promotion
 
 Where implementation permits, activation MAY be staged:
 
@@ -1373,9 +1376,9 @@ Expansion requires evidence that prior stages remain within acceptance criteria.
 
 This is a governance pattern, not a claim that AMOS currently implements deployment infrastructure.
 
----
+______________________________________________________________________
 
-# 65. Promotion Rollback
+## 65. Promotion Rollback
 
 Rollback SHOULD occur when:
 
@@ -1390,9 +1393,9 @@ authority is withdrawn
 safety threshold is crossed
 ```
 
----
+______________________________________________________________________
 
-# 66. Targeted Invalidation
+## 66. Targeted Invalidation
 
 If only one promotion premise fails, invalidate dependent promotion conclusions rather than unrelated generator knowledge.
 
@@ -1402,9 +1405,9 @@ not:
 
 $$InvalidateEverything$$
 
----
+______________________________________________________________________
 
-# 67. Supersession
+## 67. Supersession
 
 A newly promoted version MAY supersede an older version.
 
@@ -1421,9 +1424,9 @@ supersession:
 
 Historical provenance SHOULD remain recoverable.
 
----
+______________________________________________________________________
 
-# 68. No Silent Replacement
+## 68. No Silent Replacement
 
 Promotion of $G_{v_2}$ MUST NOT silently erase $G_{v_1}$.
 
@@ -1437,9 +1440,9 @@ G_v1
   └── historical evidence
 ```
 
----
+______________________________________________________________________
 
-# 69. Causal Epoch Finality
+## 69. Causal Epoch Finality
 
 Promotion MAY be finalized relative to a causal epoch:
 
@@ -1449,9 +1452,9 @@ Later changes affecting load-bearing premises trigger targeted revalidation.
 
 This is a reasoning/governance pattern and does not assert literal distributed consensus implementation.
 
----
+______________________________________________________________________
 
-# 70. MVCC/CAS Promotion Pattern
+## 70. MVCC/CAS Promotion Pattern
 
 Where state mutability matters:
 
@@ -1469,9 +1472,9 @@ COMMIT / RETRY / REVALIDATE
 
 This avoids committing a promotion decision derived from materially obsolete state.
 
----
+______________________________________________________________________
 
-# 71. Commit-Time Recheck
+## 71. Commit-Time Recheck
 
 Immediately before consequential promotion commitment, AMOS SHOULD recheck:
 
@@ -1492,9 +1495,9 @@ If these changed materially:
 ABORT_OR_REVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 72. Promotion Record
+## 72. Promotion Record
 
 Every consequential promotion SHOULD produce a persistent record.
 
@@ -1535,9 +1538,9 @@ promotion_record:
   supersession_refs: []
 ```
 
----
+______________________________________________________________________
 
-# 73. Persistent Provenance
+## 73. Persistent Provenance
 
 Promotion history SHOULD survive later version changes.
 
@@ -1555,9 +1558,9 @@ by which authority
 what later superseded it
 ```
 
----
+______________________________________________________________________
 
-# 74. Promotion Decision Outcomes
+## 74. Promotion Decision Outcomes
 
 A promotion review MAY conclude:
 
@@ -1575,9 +1578,9 @@ UNKNOWN/GAP
 
 Binary pass/fail is insufficient for every case.
 
----
+______________________________________________________________________
 
-# 75. Conditional Promotion
+## 75. Conditional Promotion
 
 A conditional promotion SHOULD state its conditions explicitly.
 
@@ -1597,9 +1600,9 @@ conditional_promotion:
     event: null
 ```
 
----
+______________________________________________________________________
 
-# 76. Promotion Expiry
+## 76. Promotion Expiry
 
 Promotion MAY expire.
 
@@ -1617,9 +1620,9 @@ falsifier success
 
 Expiry SHOULD trigger revalidation rather than silent continued trust.
 
----
+______________________________________________________________________
 
-# 77. Promotion Downgrade
+## 77. Promotion Downgrade
 
 A generator may move downward:
 
@@ -1633,9 +1636,9 @@ ACTIVE → DEPRECATED
 
 Promotion is not monotonic.
 
----
+______________________________________________________________________
 
-# 78. Quarantine
+## 78. Quarantine
 
 `QUARANTINED` SHOULD be used when continued normal use could propagate an unresolved integrity failure.
 
@@ -1648,9 +1651,9 @@ normal admission blocked
 investigation required
 ```
 
----
+______________________________________________________________________
 
-# 79. Deprecation
+## 79. Deprecation
 
 `DEPRECATED` indicates that a generator remains historically recognized but should no longer be selected for new tasks except under explicit compatibility requirements.
 
@@ -1663,17 +1666,17 @@ end-of-support condition
 remaining allowed scope
 ```
 
----
+______________________________________________________________________
 
-# 80. Retirement
+## 80. Retirement
 
 `RETIRED` means normal generator resolution should no longer select the generator.
 
 Historical artifacts and provenance SHOULD remain accessible when required.
 
----
+______________________________________________________________________
 
-# 81. Promotion Invariants
+## 81. Promotion Invariants
 
 ```text
 GP-I01
@@ -1739,9 +1742,9 @@ Integrity dominates completeness, fluency, speed,
 cost and convenience.
 ```
 
----
+______________________________________________________________________
 
-# 82. Reference Promotion Pipeline
+## 82. Reference Promotion Pipeline
 
 ```text
 GENERATOR CREATED
@@ -1810,9 +1813,9 @@ MONITOR / REVALIDATE
        └──── SUPERSEDE
 ```
 
----
+______________________________________________________________________
 
-# 83. Maximum Promotion Envelope
+## 83. Maximum Promotion Envelope
 
 ```yaml
 amos_generator_promotion:
@@ -1937,9 +1940,9 @@ amos_generator_promotion:
   proof_capsule_ref: null
 ```
 
----
+______________________________________________________________________
 
-# 84. Promotion Proof Obligation
+## 84. Promotion Proof Obligation
 
 For a consequential promotion $P$, AMOS SHOULD be able to answer:
 
@@ -1968,9 +1971,9 @@ If a decision-relevant answer is unavailable:
 PROMOTION_PROOF = INCOMPLETE
 ```
 
----
+______________________________________________________________________
 
-# 85. Fast-Path Promotion
+## 85. Fast-Path Promotion
 
 AMOS v4.4-style fast-path reasoning permits localized promotion only when sufficient proof exists that:
 
@@ -1980,9 +1983,9 @@ hold for the relevant promotion boundary.
 
 Independence MUST be demonstrated rather than assumed.
 
----
+______________________________________________________________________
 
-# 86. Mandatory Escalation
+## 86. Mandatory Escalation
 
 Fast-path promotion MUST escalate when:
 
@@ -1998,9 +2001,9 @@ irreversible effects increase
 dependencies are ambiguous
 ```
 
----
+______________________________________________________________________
 
-# 87. Proof-Based Coordination Avoidance
+## 87. Proof-Based Coordination Avoidance
 
 When the promotion decision can be established from a complete local proof, unnecessary global coordination SHOULD be avoided.
 
@@ -2010,9 +2013,9 @@ $$LocalProofSufficient \Rightarrow GlobalRecomputationNotRequired$$
 
 This is a reasoning architecture principle, not an empirical claim about a specific deployed implementation.
 
----
+______________________________________________________________________
 
-# 88. Failure Recovery
+## 88. Failure Recovery
 
 If promotion fails:
 
@@ -2032,9 +2035,9 @@ RETRY ONLY AFFECTED PATH
 
 A failed path SHOULD NOT simply be repeated without changed evidence or assumptions.
 
----
+______________________________________________________________________
 
-# 89. Promotion and Canonization
+## 89. Promotion and Canonization
 
 Promotion and canonization are distinct.
 
@@ -2046,9 +2049,9 @@ Therefore:
 
 $$OperationalPromotion \neq SpecificationCanonization$$
 
----
+______________________________________________________________________
 
-# 90. Canon Boundary
+## 90. Canon Boundary
 
 This document defines a candidate substantive promotion architecture.
 
@@ -2063,9 +2066,9 @@ that any referenced artifact is final canon.
 
 Those states require independent provenance.
 
----
+______________________________________________________________________
 
-# 91. Final Promotion Law
+## 91. Final Promotion Law
 
 The canonical candidate principle is:
 
@@ -2097,9 +2100,9 @@ $$\boxed{ Promotion\ confidence \le weakest\ load\text{-}bearing\ premise }$$
 
 unless independently revalidated.
 
----
+______________________________________________________________________
 
-# 92. Artifact Declaration
+## 92. Artifact Declaration
 
 ```yaml
 artifact:
@@ -2128,24 +2131,26 @@ artifact:
      promotion transitions."
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[25_COGNITIVE_MATRIX/12_GENERATORS/00_INDEX/GENERATORS_MAP|GENERATORS_MAP]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · 12_GENERATORS_CONTRACT · 12_GENERATORS_VERSIONING · [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_OUTPUT|GENERATOR_OUTPUT]] · [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_FALSIFICATION|GENERATOR_FALSIFICATION]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: generator_promotion
 node_type: note
 path: 25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_PROMOTION.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/12_GENERATORS/12_GENERATORS_MOC|12_GENERATORS_MOC]]
-

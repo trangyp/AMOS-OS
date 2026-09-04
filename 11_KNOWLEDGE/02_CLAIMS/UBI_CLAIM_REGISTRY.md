@@ -12,21 +12,21 @@ segment: 11_KNOWLEDGE/02_CLAIMS
 artifact_kind: REGISTRY
 path: 11_KNOWLEDGE/02_CLAIMS/UBI_CLAIM_REGISTRY.md
 tags:
-- amos-os
-- knowledge
-- vault
-- 02_claims
-- ubi_claim_registry
-- biological_claims
-- ubi
-- non_compensatory_claims
-- rscf
-- canon_candidate
-- canon/knowledge
-- unified-biological-intelligence
-- ubi-entropy-correction
-- absolute-biological-integrity-framework
-- amos-ubi-super-engine
+  - amos-os
+  - knowledge
+  - vault
+  - 02_claims
+  - ubi_claim_registry
+  - biological_claims
+  - ubi
+  - non_compensatory_claims
+  - rscf
+  - canon_candidate
+  - canon/knowledge
+  - unified-biological-intelligence
+  - ubi-entropy-correction
+  - absolute-biological-integrity-framework
+  - amos-ubi-super-engine
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -41,22 +41,22 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - UBI_OFFICIAL_MANUAL
-  - UNIFIED_BIOLOGICAL_INTELLIGENCE
-  - AMOS_CORPUS
+    - UBI_OFFICIAL_MANUAL
+    - UNIFIED_BIOLOGICAL_INTELLIGENCE
+    - AMOS_CORPUS
   scope:
-  - KNOWLEDGE_CLAIMS
-  - UBI_CLAIMS
-  - SOURCE_DEFINED_MODEL
+    - KNOWLEDGE_CLAIMS
+    - UBI_CLAIMS
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   claims_moc:
     artifact:
-    - - 02_CLAIMS_MOC
+      -   - 02_CLAIMS_MOC
   rscf_index:
     artifact: 11_KNOWLEDGE/03_RSCF/UBI_RSCF_INDEX
   biological_master:
     artifact:
-    - - UNIFIED_BIOLOGICAL_INTELLIGENCE
+      -   - UNIFIED_BIOLOGICAL_INTELLIGENCE
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   registry_structure: VERIFIED_SOURCE_STRUCTURE
@@ -70,29 +70,29 @@ epistemic_boundary:
 
 It catalogues and classifies all formal assertions concerning the 4 non-compensatory biological domains, quadratic emergence ($e = i^2$), and living substrate firewalls.
 
----
+______________________________________________________________________
 
-# 1. Registered UBI Claims
+## 1. Registered UBI Claims
 
-| Claim ID | Source Artifact | Claim Assertion | Epistemic Class | Status |
-| :--- | :--- | :--- | :--- | :--- |
-| `CLM-UBI-001` | [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]] | Non-Compensatory Law: $i = (\text{NBI} \cdot \text{NEI} \cdot \text{SI} \cdot \text{BEI})^{1/4}$ | `AMOS_MODEL` | Grounded |
-| `CLM-UBI-002` | [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]] | Quadratic Emergence: Emergent capability $e = i^2$ | `MATHEMATICAL_MODEL` | Grounded |
-| `CLM-UBI-003` | [[11_KNOWLEDGE/05_FRAMEWORKS/UBI_ENTROPY_CORRECTION|UBI_ENTROPY_CORRECTION]] | Thermodynamic Dissipation: Living systems export entropy ($\frac{d_e S}{dt} < 0$) | `PHYSICAL_MODEL` | Grounded |
-| `CLM-UBI-004` | [[11_KNOWLEDGE/05_FRAMEWORKS/ABSOLUTE_BIOLOGICAL_INTEGRITY_FRAMEWORK|ABSOLUTE_BIOLOGICAL_INTEGRITY_FRAMEWORK]] | Substrate Veto: Biological distress signals override AI task queues | `SYSTEM_INVARIANT` | Grounded |
+| Claim ID      | Source Artifact                                                        | Claim Assertion                             | Epistemic Class                                                                                  | Status               |
+| :------------ | :--------------------------------------------------------------------- | :------------------------------------------ | :----------------------------------------------------------------------------------------------- | :------------------- |
+| `CLM-UBI-001` | \[\[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE         | UNIFIED_BIOLOGICAL_INTELLIGENCE\]\]         | Non-Compensatory Law: $i = (\text{NBI} \cdot \text{NEI} \cdot \text{SI} \cdot \text{BEI})^{1/4}$ | `AMOS_MODEL`         |
+| `CLM-UBI-002` | \[\[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE         | UNIFIED_BIOLOGICAL_INTELLIGENCE\]\]         | Quadratic Emergence: Emergent capability $e = i^2$                                               | `MATHEMATICAL_MODEL` |
+| `CLM-UBI-003` | \[\[11_KNOWLEDGE/05_FRAMEWORKS/UBI_ENTROPY_CORRECTION                  | UBI_ENTROPY_CORRECTION\]\]                  | Thermodynamic Dissipation: Living systems export entropy ($\frac{d_e S}{dt} < 0$)                | `PHYSICAL_MODEL`     |
+| `CLM-UBI-004` | \[\[11_KNOWLEDGE/05_FRAMEWORKS/ABSOLUTE_BIOLOGICAL_INTEGRITY_FRAMEWORK | ABSOLUTE_BIOLOGICAL_INTEGRITY_FRAMEWORK\]\] | Substrate Veto: Biological distress signals override AI task queues                              | `SYSTEM_INVARIANT`   |
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Claims MOC:** [[11_KNOWLEDGE/02_CLAIMS/02_CLAIMS_MOC|02_CLAIMS_MOC]]
 - **RSCF Proof Index:** [[11_KNOWLEDGE/03_RSCF/UBI_RSCF_INDEX|UBI_RSCF_INDEX]]
 - **Biological Master:** [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]]
 - **Super Engine:** [[11_KNOWLEDGE/05_FRAMEWORKS/AMOS_UBI_SUPER_ENGINE|AMOS_UBI_SUPER_ENGINE]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -110,11 +110,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[01_CANON/01_CORE_LAWS/ATOMIC_MULTI_RSCF|ATOMIC_MULTI_RSCF]] · [[02_KERNEL/K_ATOMIC_MULTI_RSCF|K_ATOMIC_MULTI_RSCF]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/02_CLAIMS/02_CLAIMS_MOC|02_CLAIMS_MOC]] · [[11_KNOWLEDGE/03_RSCF/UBI_RSCF_INDEX|UBI_RSCF_INDEX]] · [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]] · [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]
 
----
+______________________________________________________________________
+
 **MOC:** [[11_KNOWLEDGE/02_CLAIMS/02_CLAIMS_MOC|02_CLAIMS_MOC]]
-
-

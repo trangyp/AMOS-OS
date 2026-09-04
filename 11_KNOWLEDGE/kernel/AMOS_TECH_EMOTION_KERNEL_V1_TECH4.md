@@ -1,4 +1,7 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: AMOS TECH EMOTION KERNEL V1 TECH4
 type: kernel
 source: 11_KNOWLEDGE/kernel
@@ -7,13 +10,13 @@ canon-type: framework
 rscf-state: source-claim
 topic: amos-tech-emotion-kernel-v1
 tags:
-- canon-group/biology
-- canon/framework
-- rscf/claim
-- rscf/provenance
-- rscf/state/source-claim
-- topic/amos-tech-emotion-kernel-v1
-- kernel
+  - canon-group/biology
+  - canon/framework
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - topic/amos-tech-emotion-kernel-v1
+  - kernel
 created: 2026-08-22
 rscf:
   state: SOURCE_CLAIM
@@ -60,6 +63,6 @@ rscf:
 **Related:** [[11_KNOWLEDGE/kernel/IP_KERNEL_SHIELD_ARCHIVE_AMOS22|IP_KERNEL_SHIELD_ARCHIVE_AMOS22]] · [[11_KNOWLEDGE/kernel/AMOS_COUNTERFACTUAL_REASONING_KERNEL|AMOS_COUNTERFACTUAL_REASONING_KERNEL]] · [[11_KNOWLEDGE/kernel/AMOS_MEDICAL_CLINICAL_KERNEL|AMOS_MEDICAL_CLINICAL_KERNEL]] · [[11_KNOWLEDGE/kernel/AMOS_HEALTH_POLICY_KERNEL|AMOS_HEALTH_POLICY_KERNEL]]
 ```
 
----
-**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]
+______________________________________________________________________
 
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]

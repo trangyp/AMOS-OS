@@ -4,25 +4,22 @@ title: SKILL — Amos Information Boundary Governor
 type: skill
 source: 07_SKILLS/amos-information-boundary-governor
 name: amos-information-boundary-governor
-description: Information Boundary Governor — boundary and scope capability. Use when
-  evaluating scope boundaries, context continuity, or capability bounds. Use when
-  amos-boundary-scope-master routes to this specialized capability. Do not use for
-  generic tasks outside boundary domain.
+description: Information Boundary Governor — boundary and scope capability. Use when evaluating scope boundaries, context continuity, or capability bounds. Use when amos-boundary-scope-master routes to this specialized capability. Do not use for generic tasks outside boundary domain.
 parent_skill: amos-boundary-scope-master
 domain: boundary
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
 tags:
-- type/skill
-- type/skill
-- domain/boundary-scope
-- epistemic/source_claim
-- hml/h
-- epistemic/source_claim
-- amos-os
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/boundary-scope
+  - epistemic/source_claim
+  - hml/h
+  - epistemic/source_claim
+  - amos-os
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -32,23 +29,23 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: H
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
-- L7_authority
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
+  - L7_authority
 collapse_class: fail_closed
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L7
-- L16
-- L17
-- L18
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L7
+  - L16
+  - L17
+  - L18
 license: MIT
 steward: Trang Phan
 ---
@@ -58,6 +55,7 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: boundary. Parent: amos-boundary-scope-master. Epistemic class: SOURCE_CLAIM. H/M/L: H.
+
 ## When to Use
 
 - When boundary and scope governance for information boundary governor is needed within the boundary domain
@@ -76,18 +74,19 @@ Origin architect: **Trang Phan**. Domain: boundary. Parent: amos-boundary-scope-
 - **information_boundary.audit_boundary**: Audit boundary crossings and log violations for governance review
 
 > **Reference**: See `references/vault_domain_knowledge.md` (content_hash: d455529878c13257) for the full vault-sourced domain knowledge (8752 chars).
+
 - **information_boundary.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
 - **information_boundary.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## Operations
 
 1. **information_boundary.evaluate_scope**: Evaluate scope boundaries: what is in-scope, out-of-scope, and at the boundary
-2. **information_boundary.check_admission**: Check admission criteria: whether a query enters this capability legitimately
-3. **information_boundary.detect_drift**: Detect context drift, persona drift, or scope creep beyond authorized bounds
-4. **information_boundary.enforce_compaction**: Enforce context compaction and recoverability when budget is exceeded
-5. **information_boundary.audit_boundary**: Audit boundary crossings and log violations for governance review
-6. **information_boundary.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-7. **information_boundary.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+1. **information_boundary.check_admission**: Check admission criteria: whether a query enters this capability legitimately
+1. **information_boundary.detect_drift**: Detect context drift, persona drift, or scope creep beyond authorized bounds
+1. **information_boundary.enforce_compaction**: Enforce context compaction and recoverability when budget is exceeded
+1. **information_boundary.audit_boundary**: Audit boundary crossings and log violations for governance review
+1. **information_boundary.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+1. **information_boundary.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## 11_KNOWLEDGE Vault Content
 
@@ -100,16 +99,19 @@ The Cognitive Organism OS defines information boundaries to control what informa
 **Boundary specification**: `B_i = <Inside, Outside, Ingress, Egress, Permissions, Permeability>`
 
 **Information boundary laws**:
+
 - `EXPOSURE != DISCLOSURE`: being exposed to information does not authorize disclosing it
 - `OBSERVED != SHARED`: observing information does not authorize sharing it
 - `INTERNAL != EXTERNAL`: internal state is not external state without explicit egress authorization
 
 **Ingress gates**: What information may enter the system
+
 - Source verification: information source must be verified
 - Scope check: information must be within system's declared scope
 - Freshness check: information must be within its validity window
 
 **Egress gates**: What information may leave the system
+
 - Authority check: egress requires explicit authority
 - Redaction: sensitive information must be redacted before egress
 - Provenance: egress records what left and why
@@ -137,9 +139,10 @@ Information boundary governance is an architectural construct. It does not prove
 
 ## Provenance
 
-- **Skill**: `amos-information-boundary-governor
+- **Skill**: \`amos-information-boundary-governor
 
----
+______________________________________________________________________
+
 **Links:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 ## Related
@@ -149,17 +152,19 @@ Information boundary governance is an architectural construct. It does not prove
 ## Examples
 
 - **Scenario**: When boundary and scope governance for information boundary governor is needed within the boundary domain
+
   - **Input**: A query matching this skill's domain (boundary)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When the parent skill (`amos-boundary-scope-master`) routes to this specialized capability
+
   - **Input**: A query matching this skill's domain (boundary)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When a query requires boundary-specific reasoning grounded in vault sources
+
   - **Input**: A query matching this skill's domain (boundary)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Anti-Patterns
 
@@ -169,7 +174,6 @@ Information boundary governance is an architectural construct. It does not prove
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `amos-boundary-scope-master` — routes to this skill when boundary specialization is needed
@@ -177,7 +181,6 @@ Information boundary governance is an architectural construct. It does not prove
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -196,7 +199,6 @@ Information boundary governance is an architectural construct. It does not prove
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -204,7 +206,6 @@ Information boundary governance is an architectural construct. It does not prove
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -217,11 +218,12 @@ Information boundary governance is an architectural construct. It does not prove
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `amos-boundary-scope-master` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `amos-information-boundary-governor-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -229,12 +231,14 @@ Information boundary governance is an architectural construct. It does not prove
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-information-boundary-governor
 node_type: skill
 path: 07_SKILLS/amos-information-boundary-governor/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

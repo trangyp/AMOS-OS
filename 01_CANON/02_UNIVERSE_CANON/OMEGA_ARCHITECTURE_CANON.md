@@ -12,24 +12,24 @@ segment: 01_CANON/02_UNIVERSE_CANON
 artifact_kind: CANON
 path: 01_CANON/02_UNIVERSE_CANON/OMEGA_ARCHITECTURE_CANON.md
 tags:
-- amos-os
-- canon
-- universe
-- omega
-- omega_architecture
-- canon_placeholder
-- add_only
-- provenance
-- promotion_gate
-- fail_closed
-- rscf
-- canon/universe
-- validation
-- law/L19-proof-capsule
-- architecture
-- law-hierarchy
-- routing-policy-validation-receipt
-- authz-engine-validation-receipt
+  - amos-os
+  - canon
+  - universe
+  - omega
+  - omega_architecture
+  - canon_placeholder
+  - add_only
+  - provenance
+  - promotion_gate
+  - fail_closed
+  - rscf
+  - canon/universe
+  - validation
+  - law/L19-proof-capsule
+  - architecture
+  - law-hierarchy
+  - routing-policy-validation-receipt
+  - authz-engine-validation-receipt
 version: 0.1.0
 updated: '2026-08-27'
 status: PLACEHOLDER
@@ -44,10 +44,10 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
   provenance:
-  - AMOS_corpus
+    - AMOS_corpus
   scope:
-  - UNIVERSE_CANON
-  - OMEGA_ARCHITECTURE_CANON
+    - UNIVERSE_CANON
+    - OMEGA_ARCHITECTURE_CANON
   confidence_ceiling:
     source: SOURCE_CLAIM
     canon: UNKNOWN/GAP
@@ -61,7 +61,7 @@ rscf:
 
 `OMEGA_ARCHITECTURE_CANON.md` is an **ADD-ONLY placeholder** reserving the **Omega Architecture Canon** slot within:
 
-```text
+````text
 01_CANON/02_UNIVERSE_CANON
 
 Its current state is deliberately fail-closed:
@@ -90,7 +90,7 @@ NOT_ESTABLISHED
 EXECUTABLE BINDING
 =
 NOT_ESTABLISHED
-```
+````
 
 This artifact establishes an **addressable canonical location**.
 
@@ -104,9 +104,9 @@ It does **not** establish runtime authority or enforcement.
 
 **Origin architect / steward:** **Trang Phan**
 
----
+______________________________________________________________________
 
-# 1. Core Boundary
+## 1. Core Boundary
 
 The governing invariant is:
 
@@ -140,44 +140,44 @@ UNKNOWN/GAP != PASS
 
 No downstream artifact may infer a stronger state merely because this node exists.
 
----
+______________________________________________________________________
 
-# 2. Purpose
+## 2. Purpose
 
 This artifact reserves the **Omega Architecture Canon** location in the AMOS OS Universe Canon.
 
 Its present responsibilities are limited to:
 
 1. establishing stable identity;
-2. establishing canonical addressability;
-3. preserving the ADD-ONLY ingestion boundary;
-4. recording source provenance;
-5. declaring unresolved canonical status;
-6. defining promotion requirements;
-7. preventing premature canonical or runtime claims;
-8. providing a stable RSCF node for future native-source ingestion.
+1. establishing canonical addressability;
+1. preserving the ADD-ONLY ingestion boundary;
+1. recording source provenance;
+1. declaring unresolved canonical status;
+1. defining promotion requirements;
+1. preventing premature canonical or runtime claims;
+1. providing a stable RSCF node for future native-source ingestion.
 
 The substantive Omega architecture remains pending source-grounded population.
 
----
+______________________________________________________________________
 
-# 3. Non-Purpose
+## 3. Non-Purpose
 
 This placeholder MUST NOT be used to claim:
 
-* universal laws of reality;
-* scientific proof;
-* biological truth;
-* mathematical theoremhood;
-* philosophical certainty;
-* a complete Omega architecture;
-* runtime mechanisms that have not been implemented;
-* runtime enforcement that has not been demonstrated;
-* final canonical status;
-* authority merely because the node occupies a canon path;
-* successful validation because the artifact is addressable;
-* empirical truth because a future source becomes canonical;
-* independence of evidence merely because multiple descendants reference the node.
+- universal laws of reality;
+- scientific proof;
+- biological truth;
+- mathematical theoremhood;
+- philosophical certainty;
+- a complete Omega architecture;
+- runtime mechanisms that have not been implemented;
+- runtime enforcement that has not been demonstrated;
+- final canonical status;
+- authority merely because the node occupies a canon path;
+- successful validation because the artifact is addressable;
+- empirical truth because a future source becomes canonical;
+- independence of evidence merely because multiple descendants reference the node.
 
 Formally:
 
@@ -205,9 +205,9 @@ Implemented(x)
 Validated(x)
 $$
 
----
+______________________________________________________________________
 
-# 4. Current Epistemic Envelope
+## 4. Current Epistemic Envelope
 
 The strongest supported classification is:
 
@@ -247,9 +247,9 @@ OMEGA_CURRENT_ENVELOPE:
 
 The confidence ceiling MUST remain bounded by this envelope until stronger evidence is ingested.
 
----
+______________________________________________________________________
 
-# 5. Canonical Slot Versus Canonical Content
+## 5. Canonical Slot Versus Canonical Content
 
 The artifact distinguishes two separate propositions.
 
@@ -287,9 +287,9 @@ CanonPopulated
 CanonValidated
 $$
 
----
+______________________________________________________________________
 
-# 6. AMOS Canon Ingestion Rule
+## 6. AMOS Canon Ingestion Rule
 
 ```yaml
 AMOS_CANON_INGESTION_RULE:
@@ -337,9 +337,9 @@ AMOS_CANON_INGESTION_RULE:
       - NEVER_INVENT_CANON
 ```
 
----
+______________________________________________________________________
 
-# 7. ADD-ONLY Invariant
+## 7. ADD-ONLY Invariant
 
 The current ingestion action is:
 
@@ -396,9 +396,9 @@ VALIDATION
 PROMOTION / HOLD
 ```
 
----
+______________________________________________________________________
 
-# 8. Native Canon Boundary
+## 8. Native Canon Boundary
 
 Substantive Omega content MUST originate from verified native-canon source material before promotion into this artifact.
 
@@ -420,9 +420,9 @@ NATIVE CANON
 
 unless a separate governed adoption process explicitly changes its status.
 
----
+______________________________________________________________________
 
-# 9. Duplicate Canon Prevention
+## 9. Duplicate Canon Prevention
 
 If Omega Architecture appears in multiple AMOS sources:
 
@@ -454,9 +454,9 @@ MULTI_SOURCE_RESOLUTION:
 
 Multiple source records do not imply multiple independent canonical architectures.
 
----
+______________________________________________________________________
 
-# 10. Provenance Topology
+## 10. Provenance Topology
 
 Current declared provenance:
 
@@ -488,9 +488,9 @@ SUBSTANTIVE NATIVE SOURCE
 PENDING
 ```
 
----
+______________________________________________________________________
 
-# 11. Evidence Independence Rule
+## 11. Evidence Independence Rule
 
 When future sources are ingested, independence MUST be demonstrated rather than inferred from source count.
 
@@ -516,9 +516,9 @@ DescendantCount
 IndependentEvidenceCount
 $$
 
----
+______________________________________________________________________
 
-# 12. Contract Discipline
+## 12. Contract Discipline
 
 Every promoted Omega artifact MUST preserve:
 
@@ -540,9 +540,9 @@ ROLLBACK BASIN BEFORE MUTATION
 
 These are governance requirements, not evidence that those mechanisms are already implemented for Omega.
 
----
+______________________________________________________________________
 
-# 13. Typed Claim Classes
+## 13. Typed Claim Classes
 
 Future substantive Omega claims SHOULD distinguish at minimum:
 
@@ -576,9 +576,9 @@ OMEGA_CLAIM_TYPES:
 
 A claim MUST NOT silently migrate between these classes.
 
----
+______________________________________________________________________
 
-# 14. Conclusion Classes
+## 14. Conclusion Classes
 
 Omega conclusions SHOULD use the weakest accurate class:
 
@@ -602,11 +602,11 @@ $$
 \boxed{UNKNOWN/GAP}
 $$
 
----
+______________________________________________________________________
 
-# 15. Confidence Ceiling
+## 15. Confidence Ceiling
 
-For conclusion \(C\) depending upon load-bearing premises:
+For conclusion (C) depending upon load-bearing premises:
 
 $$
 P_1,P_2,\ldots,P_n
@@ -632,9 +632,9 @@ UNKNOWN/GAP
 
 therefore substantive Omega conclusions cannot be promoted merely from placeholder metadata.
 
----
+______________________________________________________________________
 
-# 16. Fail-Closed Rule
+## 16. Fail-Closed Rule
 
 Any critical unresolved premise yields:
 
@@ -664,9 +664,9 @@ $$
 
 This does not require discarding unaffected valid state.
 
----
+______________________________________________________________________
 
-# 17. Selective Invalidation
+## 17. Selective Invalidation
 
 Suppose:
 
@@ -678,7 +678,7 @@ P1 ──► C1 ──► C2
 P2 ─────────► C4
 ```
 
-If \(P_1\) becomes invalid:
+If (P_1) becomes invalid:
 
 ```text
 INVALIDATE:
@@ -703,9 +703,9 @@ GLOBAL INVALIDATION
 
 unless dependency closure requires it.
 
----
+______________________________________________________________________
 
-# 18. Proposal / Authorization / Commit Separation
+## 18. Proposal / Authorization / Commit Separation
 
 Omega mutations MUST preserve three separate states:
 
@@ -739,11 +739,11 @@ Authority can exist without a successful commit.
 
 A commit requires all applicable gates.
 
----
+______________________________________________________________________
 
-# 19. Capability / Authority Separation
+## 19. Capability / Authority Separation
 
-For operation \(F\):
+For operation (F):
 
 $$
 CanExecute(F)=true
@@ -765,9 +765,9 @@ $$
 
 Architectural reach or computational capability MUST NOT be interpreted as governance authority.
 
----
+______________________________________________________________________
 
-# 20. Observation / Authority Separation
+## 20. Observation / Authority Separation
 
 Observability surfaces may report state.
 
@@ -792,9 +792,9 @@ Logged(x)
 Approved(x)
 $$
 
----
+______________________________________________________________________
 
-# 21. Canon / Empirical Truth Separation
+## 21. Canon / Empirical Truth Separation
 
 Even after future canonical promotion:
 
@@ -810,9 +810,9 @@ Empirical status requires appropriately typed external validation when the claim
 
 This firewall MUST remain intact.
 
----
+______________________________________________________________________
 
-# 22. Target Operational Semantics
+## 22. Target Operational Semantics
 
 Given an operation touching the Omega Architecture Canon:
 
@@ -843,9 +843,9 @@ RECEIPT
 
 These are **target semantics**, not evidence of current implementation.
 
----
+______________________________________________________________________
 
-# 23. Stage 1 — Admit
+## 23. Stage 1 — Admit
 
 Resolve:
 
@@ -873,9 +873,9 @@ UNKNOWN/GAP
 
 and fail closed.
 
----
+______________________________________________________________________
 
-# 24. Stage 2 — Bind Scope
+## 24. Stage 2 — Bind Scope
 
 Before mutation, declare the applicable envelope:
 
@@ -903,9 +903,9 @@ SCOPE_BINDING:
 
 No conclusion may silently generalize beyond this envelope.
 
----
+______________________________________________________________________
 
-# 25. Stage 3 — Check Authority
+## 25. Stage 3 — Check Authority
 
 A mutation requires a valid:
 
@@ -931,9 +931,9 @@ $$
 
 Capability alone cannot substitute for any term.
 
----
+______________________________________________________________________
 
-# 26. Stage 4 — Validate Preconditions
+## 26. Stage 4 — Validate Preconditions
 
 Traverse only dependencies capable of changing the result.
 
@@ -958,9 +958,9 @@ raw_source_policy:
 DO_NOT_LOAD_UNLESS_REQUIRED
 ```
 
----
+______________________________________________________________________
 
-# 27. Stage 5 — Propose
+## 27. Stage 5 — Propose
 
 Construct candidate state:
 
@@ -980,9 +980,9 @@ until all applicable gates pass.
 
 Candidate state remains non-authoritative.
 
----
+______________________________________________________________________
 
-# 28. Stage 6 — Commit or Hold
+## 28. Stage 6 — Commit or Hold
 
 Commit only when:
 
@@ -1016,9 +1016,9 @@ INVALIDATE dependent descendants
 RECORD receipt
 ```
 
----
+______________________________________________________________________
 
-# 29. Receipt Contract
+## 29. Receipt Contract
 
 Consequential Omega operations SHOULD produce a receipt containing:
 
@@ -1067,9 +1067,9 @@ OMEGA_OPERATION_RECEIPT:
 
 This schema is a target contract until implementation is established.
 
----
+______________________________________________________________________
 
-# 30. Rollback Basin
+## 30. Rollback Basin
 
 Before consequential mutation, the target architecture requires a known recovery state.
 
@@ -1089,7 +1089,7 @@ Rollback(S_{t+1})
 S_{safe}
 $$
 
-where \(S_{safe}\) is established before commitment.
+where (S\_{safe}) is established before commitment.
 
 Therefore:
 
@@ -1102,9 +1102,9 @@ HOLD
 
 for operations governed by this target discipline.
 
----
+______________________________________________________________________
 
-# 31. Current Gap Register
+## 31. Current Gap Register
 
 ```yaml
 OMEGA_GAPS:
@@ -1155,9 +1155,9 @@ OMEGA_GAPS:
     status: NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 32. Minimum Missing Information
+## 32. Minimum Missing Information
 
 The minimum evidence required to begin substantive canonical population is:
 
@@ -1179,28 +1179,28 @@ SCOPE
 
 Without this source material, substantive Omega architecture MUST NOT be invented.
 
----
+______________________________________________________________________
 
-# 33. Promotion Gate
+## 33. Promotion Gate
 
 Promotion from `PLACEHOLDER` requires:
 
-* [ ] substantive content populated from verified native-canon source;
-* [ ] source identity and lineage resolved;
-* [ ] competing native sources preserved where unresolved;
-* [ ] typed schema bound to this artifact;
-* [ ] identity + versioning implemented;
-* [ ] scope/regime envelope declared;
-* [ ] negative cases covered;
-* [ ] provenance edges persisted and validated;
-* [ ] provenance independence assessed where material;
-* [ ] authority semantics defined;
-* [ ] proposal/commit separation demonstrated;
-* [ ] rollback basin demonstrated for consequential effects;
-* [ ] executable binding established if runtime claims are made;
-* [ ] artifact-specific validation receipt executed;
-* [ ] unresolved critical gaps visible;
-* [ ] empirical claims separately validated where applicable.
+- [ ] substantive content populated from verified native-canon source;
+- [ ] source identity and lineage resolved;
+- [ ] competing native sources preserved where unresolved;
+- [ ] typed schema bound to this artifact;
+- [ ] identity + versioning implemented;
+- [ ] scope/regime envelope declared;
+- [ ] negative cases covered;
+- [ ] provenance edges persisted and validated;
+- [ ] provenance independence assessed where material;
+- [ ] authority semantics defined;
+- [ ] proposal/commit separation demonstrated;
+- [ ] rollback basin demonstrated for consequential effects;
+- [ ] executable binding established if runtime claims are made;
+- [ ] artifact-specific validation receipt executed;
+- [ ] unresolved critical gaps visible;
+- [ ] empirical claims separately validated where applicable.
 
 Until these conditions are satisfied:
 
@@ -1211,9 +1211,9 @@ UNKNOWN/GAP
 
 remains correct.
 
----
+______________________________________________________________________
 
-# 34. Negative Validation Cases
+## 34. Negative Validation Cases
 
 ```yaml
 OMEGA_NEGATIVE_CASES:
@@ -1265,9 +1265,9 @@ OMEGA_NEGATIVE_CASES:
     - unknown_gap_treated_as_pass
 ```
 
----
+______________________________________________________________________
 
-# 35. Competing Source Handling
+## 35. Competing Source Handling
 
 If future native sources disagree:
 
@@ -1303,9 +1303,9 @@ COMPETING_SOURCE_POLICY:
     state: COMPETING
 ```
 
----
+______________________________________________________________________
 
-# 36. Causal Firewall
+## 36. Causal Firewall
 
 Future Omega sources may contain causal language.
 
@@ -1343,9 +1343,9 @@ StructuralSimilarity
 Causation
 $$
 
----
+______________________________________________________________________
 
-# 37. Scope / Regime Firewall
+## 37. Scope / Regime Firewall
 
 Future Omega claims SHOULD carry:
 
@@ -1371,9 +1371,9 @@ APPLICABILITY_ENVELOPE:
 
 A claim valid in one envelope MUST NOT silently propagate into another.
 
----
+______________________________________________________________________
 
-# 38. Freshness
+## 38. Freshness
 
 Future proof capsules SHOULD record:
 
@@ -1395,9 +1395,9 @@ FRESHNESS:
 
 Stale premises cannot support current runtime commitments without revalidation where freshness is material.
 
----
+______________________________________________________________________
 
-# 39. Proof Capsule Template
+## 39. Proof Capsule Template
 
 ```yaml
 OMEGA_[[01_CANON/01_CORE_LAWS/L19_PROOF_CAPSULE|L19_PROOF_CAPSULE]]:
@@ -1441,9 +1441,9 @@ OMEGA_[[01_CANON/01_CORE_LAWS/L19_PROOF_CAPSULE|L19_PROOF_CAPSULE]]:
   status:
 ```
 
----
+______________________________________________________________________
 
-# 40. Falsifiers
+## 40. Falsifiers
 
 Current placeholder assertions require revision if:
 
@@ -1467,9 +1467,9 @@ Validation state must be recomputed from the receipt's actual scope.
 
 The provenance graph must be corrected without erasing historical lineage.
 
----
+______________________________________________________________________
 
-# 41. Target Cross-Plane Bindings
+## 41. Target Cross-Plane Bindings
 
 ```text
                  LAW HIERARCHY
@@ -1500,9 +1500,9 @@ Current binding status remains:
 NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 42. Cross-Plane Binding Registry
+## 42. Cross-Plane Binding Registry
 
 ```yaml
 OMEGA_TARGET_BINDINGS:
@@ -1531,9 +1531,9 @@ The existence of these target references does not establish that the referenced 
 
 Artifact-specific validation remains required.
 
----
+______________________________________________________________________
 
-# 43. Validation Receipt Boundary
+## 43. Validation Receipt Boundary
 
 The placeholder names:
 
@@ -1557,9 +1557,9 @@ unless the receipt explicitly includes this artifact within its validated scope 
 
 Therefore Omega promotion ultimately requires a receipt whose applicability to this node is explicit.
 
----
+______________________________________________________________________
 
-# 44. H-Level RSCF
+## 44. H-Level RSCF
 
 ```yaml
 H:
@@ -1592,9 +1592,9 @@ H:
     PLACEHOLDER
 ```
 
----
+______________________________________________________________________
 
-# 45. M-Level RSCF
+## 45. M-Level RSCF
 
 ```yaml
 M:
@@ -1621,9 +1621,9 @@ M:
     NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 46. L-Level RSCF
+## 46. L-Level RSCF
 
 ```yaml
 L:
@@ -1659,9 +1659,9 @@ L:
     - artifact_specific_validation_receipt
 ```
 
----
+______________________________________________________________________
 
-# 47. Full RSCF Contract
+## 47. Full RSCF Contract
 
 ```yaml
 RSCF:
@@ -1749,9 +1749,9 @@ RSCF:
       NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 48. Machine-Readable Registry
+## 48. Machine-Readable Registry
 
 ```yaml
 OMEGA_ARCHITECTURE_CANON:
@@ -1834,9 +1834,9 @@ OMEGA_ARCHITECTURE_CANON:
       false
 ```
 
----
+______________________________________________________________________
 
-# 49. Canonical State Machine
+## 49. Canonical State Machine
 
 ```text
 PLACEHOLDER
@@ -1866,9 +1866,9 @@ This state machine is normative target governance.
 
 Transitions MUST NOT be skipped merely for fluency or architectural completeness.
 
----
+______________________________________________________________________
 
-# 50. Promotion Transition Contract
+## 50. Promotion Transition Contract
 
 ```yaml
 OMEGA_PROMOTION_TRANSITIONS:
@@ -1911,9 +1911,9 @@ OMEGA_PROMOTION_TRANSITIONS:
       - recovery_validation
 ```
 
----
+______________________________________________________________________
 
-# 51. Forbidden Promotions
+## 51. Forbidden Promotions
 
 The following transitions are invalid:
 
@@ -1939,9 +1939,9 @@ CANONICAL
 
 without the intervening evidence and governance requirements.
 
----
+______________________________________________________________________
 
-# 52. Canonical Completion Matrix
+## 52. Canonical Completion Matrix
 
 | Surface                   | Current state   | Required promotion evidence                     |
 | ------------------------- | --------------- | ----------------------------------------------- |
@@ -1960,9 +1960,9 @@ without the intervening evidence and governance requirements.
 | Artifact-specific receipt | NOT_ESTABLISHED | Persisted receipt                               |
 | Empirical validity        | NOT_ESTABLISHED | Independent empirical evidence where applicable |
 
----
+______________________________________________________________________
 
-# 53. Canonical Compression
+## 53. Canonical Compression
 
 The current Omega Architecture Canon is:
 
@@ -2028,9 +2028,9 @@ CLAIM VALIDATION
 CLAIM EMPIRICAL TRUTH
 ```
 
----
+______________________________________________________________________
 
-# 54. RSCF Node
+## 54. RSCF Node
 
 ```text
 RSCF-NODE
@@ -2113,23 +2113,24 @@ RSCF-RELATIONS:
       [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]
 ```
 
----
+______________________________________________________________________
 
 00_ROOT_MOC|AMOS MOC
 
----
+______________________________________________________________________
 
-**Related:**  ·  ·  ·  ·  ·  ·  ·  ·  ·
+**Related:** · · · · · · · · ·
 
----
+______________________________________________________________________
 
 **MOC:**
 
----
+______________________________________________________________________
 
 **Origin architect / steward:** **Trang Phan**
 
-
 The decisive boundary is preserved: this node can be expanded structurally as a **placeholder governance specification**, but its missing Omega substance cannot be reconstructed from the placeholder itself. The minimum critical gap is an identifiable native Omega source containing the actual architecture/definitions. Until that dependency is resolved, `canonical_status: UNKNOWN/GAP` and `implementation_status: NOT_ESTABLISHED` remain the strongest supported states.
 
+```
+```
 ```

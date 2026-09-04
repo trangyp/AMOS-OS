@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: COGNITIVE MATRIX NAMING STANDARD
 type: naming
 source: 25_COGNITIVE_MATRIX/00_INDEX
 tags:
-- cognitive-matrix
-- index
-- note
-- domain/cognitive-matrix
-- readme
+  - cognitive-matrix
+  - index
+  - note
+  - domain/cognitive-matrix
+  - readme
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -26,9 +29,9 @@ rscf:
 **Status:** `ACTIVE STRUCTURAL CONTRACT`
 **Epistemic class:** `AMOS_MODEL + SOURCE_CANON_BINDING`
 
----
+______________________________________________________________________
 
-# 0. Purpose
+## 0. Purpose
 
 `NAMING_STANDARD.md` defines the canonical naming, identifier, path, namespace, alias, reference, and collision-prevention rules for the AMOS Cognitive Matrix.
 
@@ -108,9 +111,9 @@ A name makes an object addressable.
 
 It does not prove that the object exists operationally, is implemented correctly, has been validated, or possesses authority.
 
----
+______________________________________________________________________
 
-# 1. Source and Canon References
+## 1. Source and Canon References
 
 Primary AMOS source lineage for this contract includes the AMOS/Trang corpus governed by Trang Phan as origin architect and steward.
 
@@ -156,9 +159,9 @@ AMOS_MODEL
 
 and must remain distinguishable from source-defined canon.
 
----
+______________________________________________________________________
 
-# 2. Scope
+## 2. Scope
 
 This contract governs:
 
@@ -192,9 +195,9 @@ MATRIX_KERNEL
 
 merely because the Matrix references it.
 
----
+______________________________________________________________________
 
-# 3. Naming Architecture
+## 3. Naming Architecture
 
 AMOS Matrix naming has six distinct layers:
 
@@ -233,9 +236,9 @@ semantic_origin:
 
 These layers must not be silently collapsed.
 
----
+______________________________________________________________________
 
-# 4. Canonical Character Set
+## 4. Canonical Character Set
 
 Canonical filesystem identifiers use:
 
@@ -271,9 +274,9 @@ COMMIT_AUTHORITY
 
 Human-facing prose may use natural capitalization.
 
----
+______________________________________________________________________
 
-# 5. Forbidden Canonical Naming Patterns
+## 5. Forbidden Canonical Naming Patterns
 
 Avoid canonical identifiers containing:
 
@@ -319,9 +322,9 @@ Matrix 👍
 latest_good_version
 ```
 
----
+______________________________________________________________________
 
-# 6. Case Rule
+## 6. Case Rule
 
 Canonical IDs:
 
@@ -359,9 +362,9 @@ AMOS_COGNITIVE_CELL_REGISTRY.json
 build_amos_cognitive_cells.py
 ```
 
----
+______________________________________________________________________
 
-# 7. Directory Naming Rule
+## 7. Directory Naming Rule
 
 Architecture directories use:
 
@@ -415,9 +418,9 @@ Ordering numbers provide deterministic navigation.
 
 They do not establish semantic priority unless explicitly declared.
 
----
+______________________________________________________________________
 
-# 8. Root Namespace
+## 8. Root Namespace
 
 Canonical Matrix namespace:
 
@@ -439,9 +442,9 @@ matrix://
 
 The short form may be used only where Matrix context is already established.
 
----
+______________________________________________________________________
 
-# 9. Primitive Identifier Standard
+## 9. Primitive Identifier Standard
 
 Primitive symbols:
 
@@ -485,27 +488,27 @@ or:
 matrix://primitive/L10_WORLD_MODELING
 ```
 
----
+______________________________________________________________________
 
-# 10. Primitive Naming Invariant
+## 10. Primitive Naming Invariant
 
 Each primitive must have exactly one canonical identifier within a Matrix namespace.
 
 Formally:
 
-[
-P_i \neq P_j
-\Rightarrow
-ID(P_i) \neq ID(P_j)
-]
+\[
+P_i \\neq P_j
+\\Rightarrow
+ID(P_i) \\neq ID(P_j)
+\]
 
 Canonical-name uniqueness is mandatory.
 
 Semantic similarity does not permit identifier collision.
 
----
+______________________________________________________________________
 
-# 11. Lifecycle Operation Identifier Standard
+## 11. Lifecycle Operation Identifier Standard
 
 Lifecycle operation symbols:
 
@@ -549,9 +552,9 @@ Machine reference:
 matrix://operation/O08
 ```
 
----
+______________________________________________________________________
 
-# 12. Control-Plane Identifier Standard
+## 12. Control-Plane Identifier Standard
 
 Matrix cognitive control-plane symbols:
 
@@ -581,9 +584,9 @@ Machine reference:
 matrix://control-plane/C04
 ```
 
----
+______________________________________________________________________
 
-# 13. Control-Plane Namespace Firewall
+## 13. Control-Plane Namespace Firewall
 
 Matrix control planes must not be confused with the AMOS Infrastructure Control Plane.
 
@@ -613,9 +616,9 @@ AMOS_OS_KERNEL
 
 Names must preserve architectural layer.
 
----
+______________________________________________________________________
 
-# 14. Scale Identifier Standard
+## 14. Scale Identifier Standard
 
 Canonical scale symbols:
 
@@ -641,9 +644,9 @@ matrix://scale/M
 matrix://scale/L
 ```
 
----
+______________________________________________________________________
 
-# 15. H/M/L Naming Semantics
+## 15. H/M/L Naming Semantics
 
 Default Matrix interpretation:
 
@@ -665,15 +668,15 @@ A domain-specific H/M/L interpretation must declare its translation.
 
 Do not assume that identical H/M/L symbols across domains imply identical semantic scales.
 
----
+______________________________________________________________________
 
-# 16. Cell Identifier Standard
+## 16. Cell Identifier Standard
 
 Canonical cell identity is derived from:
 
-[
-Cell = P \times O \times C \times S
-]
+\[
+Cell = P \\times O \\times C \\times S
+\]
 
 Canonical CellID:
 
@@ -703,49 +706,45 @@ Scale:
 H_HIGH_SCALE
 ```
 
----
+______________________________________________________________________
 
-# 17. CellID Determinism
+## 17. CellID Determinism
 
 For a coordinate:
 
-[
+\[
 (P,O,C,S)
-]
+\]
 
 the identifier function must satisfy:
 
-[
-ID(P,O,C,S)
-===========
+## \[ ID(P,O,C,S)
 
 CELL_P_O_C_S
-]
+\]
 
 and:
 
-[
-(P_1,O_1,C_1,S_1)
-=================
+## \[ (P_1,O_1,C_1,S_1)
 
 (P_2,O_2,C_2,S_2)
-\Rightarrow
+\\Rightarrow
 ID_1=ID_2
-]
+\]
 
 Likewise:
 
-[
+\[
 ID_1=ID_2
-\Rightarrow
+\\Rightarrow
 Coordinate_1=Coordinate_2
-]
+\]
 
 within the same Matrix namespace.
 
----
+______________________________________________________________________
 
-# 18. CellID Examples
+## 18. CellID Examples
 
 ```text
 CELL_L02_O15_C07_L
@@ -777,9 +776,9 @@ CELL_L28_O13_C01_H
 
 Governance × Decision × Governance Control × High scale.
 
----
+______________________________________________________________________
 
-# 19. Cell Machine Reference
+## 19. Cell Machine Reference
 
 Canonical machine URI:
 
@@ -795,9 +794,9 @@ matrix://cell/L10/O08/C04/H
 
 The canonical registry must resolve both to the same CellID.
 
----
+______________________________________________________________________
 
-# 20. Matrix Object Identifier Grammar
+## 20. Matrix Object Identifier Grammar
 
 General grammar:
 
@@ -821,9 +820,9 @@ DEP_CELL_L10_O08_C04_H_001
 BIND_CELL_L10_O08_C04_H_001
 ```
 
----
+______________________________________________________________________
 
-# 21. State Identifier Standard
+## 21. State Identifier Standard
 
 State identifiers use:
 
@@ -855,9 +854,9 @@ Example:
 STATE_CELL_L13_O08_C04_H_FORECAST_CONTEXT
 ```
 
----
+______________________________________________________________________
 
-# 22. Variable Identifier Standard
+## 22. Variable Identifier Standard
 
 Variables should be semantically explicit.
 
@@ -897,9 +896,9 @@ D
 
 but every symbol must have a typed definition.
 
----
+______________________________________________________________________
 
-# 23. Variable Qualification
+## 23. Variable Qualification
 
 If a symbol is overloaded across documents, qualify it.
 
@@ -917,9 +916,9 @@ C_confidence
 
 Do not permit silent symbol collision.
 
----
+______________________________________________________________________
 
-# 24. Operator Identifier Standard
+## 24. Operator Identifier Standard
 
 Operators use verb-oriented identifiers:
 
@@ -947,9 +946,9 @@ OP_COMMIT_EFFECT
 
 Operators must describe transformations rather than vague concepts.
 
----
+______________________________________________________________________
 
-# 25. Invariant Identifier Standard
+## 25. Invariant Identifier Standard
 
 Canonical invariant identifiers:
 
@@ -978,9 +977,9 @@ id: INV_NAMING_001
 name: CANONICAL_ID_UNIQUENESS
 ```
 
----
+______________________________________________________________________
 
-# 26. Equation Identifier Standard
+## 26. Equation Identifier Standard
 
 Equation identifiers:
 
@@ -1002,12 +1001,10 @@ CELL_CARDINALITY
 
 Example:
 
-[
-N_{cells}
-=========
+## \[ N\_{cells}
 
 N_P N_O N_C N_S
-]
+\]
 
 Every equation must identify whether it is:
 
@@ -1020,9 +1017,9 @@ EXTERNAL_THEOREM
 IMPLEMENTATION_FORMULA
 ```
 
----
+______________________________________________________________________
 
-# 27. Dependency Identifier Standard
+## 27. Dependency Identifier Standard
 
 Dependency objects:
 
@@ -1049,9 +1046,9 @@ type: REQUIRES
 
 Avoid encoding every semantic property into filenames.
 
----
+______________________________________________________________________
 
-# 28. Dependency Edge Type Names
+## 28. Dependency Edge Type Names
 
 Canonical dependency relation vocabulary:
 
@@ -1079,9 +1076,9 @@ SUPERSEDES
 
 Relations should remain uppercase machine tokens.
 
----
+______________________________________________________________________
 
-# 29. Binding Identifier Standard
+## 29. Binding Identifier Standard
 
 Binding IDs:
 
@@ -1111,9 +1108,9 @@ evidence:
 validation:
 ```
 
----
+______________________________________________________________________
 
-# 30. Binding Type Vocabulary
+## 30. Binding Type Vocabulary
 
 Canonical binding types include:
 
@@ -1143,9 +1140,9 @@ STATE
 RUNTIME
 ```
 
----
+______________________________________________________________________
 
-# 31. Agent Identifier Standard
+## 31. Agent Identifier Standard
 
 Matrix references to AMOS agents use:
 
@@ -1171,9 +1168,9 @@ AGENT_CRITIC
 
 If an agent already has a canonical external AMOS identifier, preserve that identifier instead of creating a competing Matrix identity.
 
----
+______________________________________________________________________
 
-# 32. Agent Instance Identifier
+## 32. Agent Instance Identifier
 
 Where runtime instances must be distinguished:
 
@@ -1189,9 +1186,9 @@ AGENT_PLANNER
 AGENT_INSTANCE_PLANNER_X
 ```
 
----
+______________________________________________________________________
 
-# 33. Skill Identifier Standard
+## 33. Skill Identifier Standard
 
 Canonical Skill reference:
 
@@ -1214,9 +1211,9 @@ skill_id: SKILL_AMOS_CLAIM_VERIFIER
 canonical_slug: amos-claim-verifier
 ```
 
----
+______________________________________________________________________
 
-# 34. Skill Boundary
+## 34. Skill Boundary
 
 ```text
 SKILL_NAME
@@ -1234,9 +1231,9 @@ is validated
 has authority
 ```
 
----
+______________________________________________________________________
 
-# 35. Workflow Identifier Standard
+## 35. Workflow Identifier Standard
 
 Workflow IDs:
 
@@ -1264,9 +1261,9 @@ Workflow instance:
 WF_INSTANCE_{WORKFLOW_ID}_{INSTANCE_ID}
 ```
 
----
+______________________________________________________________________
 
-# 36. Protocol Identifier Standard
+## 36. Protocol Identifier Standard
 
 Protocol IDs:
 
@@ -1288,9 +1285,9 @@ PROTO_AUTHORITY_REQUEST
 PROTO_COMMIT_FINALIZATION
 ```
 
----
+______________________________________________________________________
 
-# 37. Kernel Identifier Standard
+## 37. Kernel Identifier Standard
 
 Kernel references:
 
@@ -1312,9 +1309,9 @@ KERNEL_AUTHORITY
 
 If canonical AMOS Kernel naming differs, external canonical identity prevails.
 
----
+______________________________________________________________________
 
-# 38. Memory Identifier Standard
+## 38. Memory Identifier Standard
 
 Memory architecture object:
 
@@ -1342,9 +1339,9 @@ Memory instance:
 MEM_INSTANCE_{MEMORY_CLASS}_{ID}
 ```
 
----
+______________________________________________________________________
 
-# 39. Knowledge Identifier Standard
+## 39. Knowledge Identifier Standard
 
 Knowledge object:
 
@@ -1364,9 +1361,9 @@ KNOW_FOREX_102
 
 Knowledge claims should additionally carry epistemic class.
 
----
+______________________________________________________________________
 
-# 40. Evidence Identifier Standard
+## 40. Evidence Identifier Standard
 
 Evidence IDs:
 
@@ -1388,9 +1385,9 @@ EVID_EXTERNAL_005
 
 Evidence identity must preserve source lineage.
 
----
+______________________________________________________________________
 
-# 41. Provenance Identifier Standard
+## 41. Provenance Identifier Standard
 
 Provenance objects:
 
@@ -1413,9 +1410,9 @@ artifact_id: EVID_DERIVED_014
 origin_provenance: PROV_AMOS_CANON_001
 ```
 
----
+______________________________________________________________________
 
-# 42. RSCF Identifier Standard
+## 42. RSCF Identifier Standard
 
 RSCF capsules:
 
@@ -1445,9 +1442,9 @@ Example:
 RSCF_CELL_L13_O08_C04_H
 ```
 
----
+______________________________________________________________________
 
-# 43. Gap Identifier Standard
+## 43. Gap Identifier Standard
 
 Gap IDs:
 
@@ -1475,9 +1472,9 @@ Instead change:
 gap_status
 ```
 
----
+______________________________________________________________________
 
-# 44. Gap Status Vocabulary
+## 44. Gap Status Vocabulary
 
 ```text
 DETECTED
@@ -1501,9 +1498,9 @@ REOPENED
 QUARANTINED
 ```
 
----
+______________________________________________________________________
 
-# 45. Failure Identifier Standard
+## 45. Failure Identifier Standard
 
 Failure classes:
 
@@ -1531,9 +1528,9 @@ Failure instances:
 FAIL_INSTANCE_{FAILURE_CLASS}_{ID}
 ```
 
----
+______________________________________________________________________
 
-# 46. Repair Identifier Standard
+## 46. Repair Identifier Standard
 
 Repair definitions:
 
@@ -1555,9 +1552,9 @@ REPAIR_DEPENDENCY_GRAPH
 
 Repair execution instances must be distinguishable from repair definitions.
 
----
+______________________________________________________________________
 
-# 47. Test Identifier Standard
+## 47. Test Identifier Standard
 
 Tests:
 
@@ -1582,9 +1579,9 @@ test_id: TEST_NAMING_001
 name: CANONICAL_ID_UNIQUENESS
 ```
 
----
+______________________________________________________________________
 
-# 48. Validator Identifier Standard
+## 48. Validator Identifier Standard
 
 Validators:
 
@@ -1610,9 +1607,9 @@ Validation result:
 VAL_{TARGET}_{NNN}
 ```
 
----
+______________________________________________________________________
 
-# 49. Authority Identifier Standard
+## 49. Authority Identifier Standard
 
 Authority objects must remain distinct from capability objects.
 
@@ -1642,9 +1639,9 @@ AUTHORIZED_AGENT
 
 unless an actual authority record exists.
 
----
+______________________________________________________________________
 
-# 50. Proposal Identifier Standard
+## 50. Proposal Identifier Standard
 
 Proposal:
 
@@ -1666,9 +1663,9 @@ PROP_X
 COMMIT_X
 ```
 
----
+______________________________________________________________________
 
-# 51. Canon Identifier Standard
+## 51. Canon Identifier Standard
 
 Source canon objects should preserve source-defined names wherever available.
 
@@ -1688,9 +1685,9 @@ source_id: AMOS_CORE
 source_object: ...
 ```
 
----
+______________________________________________________________________
 
-# 52. Alias Standard
+## 52. Alias Standard
 
 Aliases are discovery aids.
 
@@ -1714,9 +1711,9 @@ legacy identifiers
 domain-specific terminology
 ```
 
----
+______________________________________________________________________
 
-# 53. Alias Resolution Invariant
+## 53. Alias Resolution Invariant
 
 Every active alias must resolve to:
 
@@ -1736,9 +1733,9 @@ If ambiguous:
 DO NOT AUTO-RESOLVE
 ```
 
----
+______________________________________________________________________
 
-# 54. Synonym Boundary
+## 54. Synonym Boundary
 
 Example:
 
@@ -1762,9 +1759,9 @@ prediction workflow
 
 into one identity.
 
----
+______________________________________________________________________
 
-# 55. Semantic-Origin Requirement
+## 55. Semantic-Origin Requirement
 
 Every important canonical object should be capable of declaring:
 
@@ -1786,9 +1783,9 @@ semantic_origin:
   scope: MATRIX
 ```
 
----
+______________________________________________________________________
 
-# 56. Cross-Architecture Names
+## 56. Cross-Architecture Names
 
 When two AMOS architectures contain similarly named objects:
 
@@ -1810,9 +1807,9 @@ AGENT:GOVERNANCE
 
 Never infer equivalence from lexical similarity.
 
----
+______________________________________________________________________
 
-# 57. Fully Qualified Identifier
+## 57. Fully Qualified Identifier
 
 Where collision risk exists, use:
 
@@ -1832,9 +1829,9 @@ or:
 AMOS:MATRIX:CELL:CELL_L13_O08_C04_H
 ```
 
----
+______________________________________________________________________
 
-# 58. Machine URI Standard
+## 58. Machine URI Standard
 
 Preferred conceptual URI grammar:
 
@@ -1860,9 +1857,9 @@ These URIs are architectural identifiers.
 
 They do not imply a network-accessible protocol unless implemented.
 
----
+______________________________________________________________________
 
-# 59. Filesystem Path Standard
+## 59. Filesystem Path Standard
 
 Paths should encode architectural containment, not epistemic claims.
 
@@ -1883,9 +1880,9 @@ VALIDATED/
 
 merely because a file currently has validation evidence unless that directory is explicitly a status registry.
 
----
+______________________________________________________________________
 
-# 60. Filename Standard
+## 60. Filename Standard
 
 General Markdown filenames describe artifact function:
 
@@ -1937,9 +1934,9 @@ PROVENANCE.md
 
 Use consistent names across primitive packages.
 
----
+______________________________________________________________________
 
-# 61. Filename Semantics
+## 61. Filename Semantics
 
 Do not create:
 
@@ -1959,9 +1956,9 @@ for canonical architecture content.
 
 Artifact names should reveal contract type.
 
----
+______________________________________________________________________
 
-# 62. README Boundary
+## 62. README Boundary
 
 `README.md` is orientation.
 
@@ -1977,9 +1974,9 @@ README DESCRIPTION
 
 for that contract's domain.
 
----
+______________________________________________________________________
 
-# 63. Index Naming
+## 63. Index Naming
 
 Index files use explicit semantic names:
 
@@ -2001,9 +1998,9 @@ INDEX2.md
 MASTER_INDEX_NEW.md
 ```
 
----
+______________________________________________________________________
 
-# 64. Registry Naming
+## 64. Registry Naming
 
 Canonical registries use:
 
@@ -2027,9 +2024,9 @@ BINDING_REGISTRY
 
 Registry identity must be singular within its authority scope.
 
----
+______________________________________________________________________
 
-# 65. Contract Naming
+## 65. Contract Naming
 
 Contracts use:
 
@@ -2049,9 +2046,9 @@ GENERATOR_CONTRACT
 AUTHORITY_CONTRACT
 ```
 
----
+______________________________________________________________________
 
-# 66. Policy Naming
+## 66. Policy Naming
 
 Policies use:
 
@@ -2071,9 +2068,9 @@ PROMOTION_POLICY
 INVALIDATION_POLICY
 ```
 
----
+______________________________________________________________________
 
-# 67. Protocol Naming
+## 67. Protocol Naming
 
 Protocols describe component interaction.
 
@@ -2095,9 +2092,9 @@ CONTRACT
 
 Naming must preserve this distinction.
 
----
+______________________________________________________________________
 
-# 68. Status Naming
+## 68. Status Naming
 
 Status values must describe one dimension only.
 
@@ -2121,9 +2118,9 @@ AUTHORIZED
 
 These answer different questions.
 
----
+______________________________________________________________________
 
-# 69. Status Dimensions
+## 69. Status Dimensions
 
 Canonical status dimensions should include:
 
@@ -2145,9 +2142,9 @@ freshness_status
 gap_status
 ```
 
----
+______________________________________________________________________
 
-# 70. Placeholder Naming
+## 70. Placeholder Naming
 
 Placeholder files may retain canonical final filenames.
 
@@ -2177,9 +2174,9 @@ INVARIANTS_PLACEHOLDER.md
 
 if the placeholder is intended to become the canonical artifact.
 
----
+______________________________________________________________________
 
-# 71. Placeholder Boundary
+## 71. Placeholder Boundary
 
 ```text
 CANONICAL_FILENAME
@@ -2195,9 +2192,9 @@ CANONICAL_COMPLETION
 
 Status lives in metadata, not filename inference.
 
----
+______________________________________________________________________
 
-# 72. Temporary Artifact Naming
+## 72. Temporary Artifact Naming
 
 Temporary working artifacts must be visibly noncanonical.
 
@@ -2217,9 +2214,9 @@ _TMP_BINDING_ANALYSIS.json
 
 Temporary artifacts must not be referenced as durable canonical dependencies.
 
----
+______________________________________________________________________
 
-# 73. Draft Artifact Naming
+## 73. Draft Artifact Naming
 
 Where explicit drafts are required:
 
@@ -2237,9 +2234,9 @@ _DRAFT_MATRIX_EXTENSION.md
 
 Once promoted, create/update the canonical artifact rather than treating the draft name as canonical.
 
----
+______________________________________________________________________
 
-# 74. Archive Naming
+## 74. Archive Naming
 
 Historical artifacts should use an explicit archival namespace rather than ambiguous suffixes.
 
@@ -2269,9 +2266,9 @@ The architecture requested here does not depend on filename version numbering as
 
 Lineage belongs in provenance metadata and repository/Drive history.
 
----
+______________________________________________________________________
 
-# 75. No Filename Versioning Rule
+## 75. No Filename Versioning Rule
 
 Canonical architecture filenames remain stable.
 
@@ -2300,9 +2297,9 @@ dependency impact
 
 through the storage/version-control layer.
 
----
+______________________________________________________________________
 
-# 76. Collision Types
+## 76. Collision Types
 
 Naming collision classes:
 
@@ -2326,9 +2323,9 @@ LEGACY_COLLISION
 CROSS_ARCHITECTURE_COLLISION
 ```
 
----
+______________________________________________________________________
 
-# 77. Exact Collision
+## 77. Exact Collision
 
 Example:
 
@@ -2340,9 +2337,9 @@ assigned to two different primitive definitions.
 
 This is invalid.
 
----
+______________________________________________________________________
 
-# 78. Semantic Collision
+## 78. Semantic Collision
 
 Two different IDs may still accidentally define the same concept.
 
@@ -2358,9 +2355,9 @@ If they have the same intended semantics, ontology duplication may exist.
 
 Do not accept merely because identifiers differ.
 
----
+______________________________________________________________________
 
-# 79. Legitimate Lexical Duplication
+## 79. Legitimate Lexical Duplication
 
 Lexically identical concepts may legitimately appear on different axes.
 
@@ -2376,9 +2373,9 @@ This is not automatically a collision.
 
 Their typed roles differ.
 
----
+______________________________________________________________________
 
-# 80. Namespace Collision
+## 80. Namespace Collision
 
 Example:
 
@@ -2396,9 +2393,9 @@ The same word does not establish the same object.
 
 Namespace qualification resolves this.
 
----
+______________________________________________________________________
 
-# 81. Symbol Collision
+## 81. Symbol Collision
 
 Single-letter mathematical symbols require local definitions.
 
@@ -2419,17 +2416,17 @@ Context
 
 Formal documents must type the symbol.
 
----
+______________________________________________________________________
 
-# 82. Naming Resolution Operator
+## 82. Naming Resolution Operator
 
 Define:
 
-[
+\[
 ResolveName(x, context)
-\rightarrow
-CanonicalObject \cup Ambiguous \cup Unknown
-]
+\\rightarrow
+CanonicalObject \\cup Ambiguous \\cup Unknown
+\]
 
 The resolver must not force a match.
 
@@ -2443,15 +2440,15 @@ AMBIGUOUS
 UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 83. Canonicalization Operator
+## 83. Canonicalization Operator
 
-[
+\[
 Canonicalize(alias)
-\rightarrow
+\\rightarrow
 canonical_id
-]
+\]
 
 only if:
 
@@ -2477,15 +2474,15 @@ or:
 AMBIGUOUS
 ```
 
----
+______________________________________________________________________
 
-# 84. Qualification Operator
+## 84. Qualification Operator
 
-[
+\[
 Qualify(ID, namespace)
-\rightarrow
+\\rightarrow
 FQID
-]
+\]
 
 Example:
 
@@ -2501,15 +2498,15 @@ AMOS:MATRIX:PRIMITIVE:L13
 
 when cross-system ambiguity exists.
 
----
+______________________________________________________________________
 
-# 85. Parse CellID Operator
+## 85. Parse CellID Operator
 
-[
+\[
 ParseCellID(ID)
-\rightarrow
+\\rightarrow
 (P,O,C,S)
-]
+\]
 
 Example:
 
@@ -2528,15 +2525,15 @@ scale: H
 
 Malformed IDs must fail closed.
 
----
+______________________________________________________________________
 
-# 86. Construct CellID Operator
+## 86. Construct CellID Operator
 
-[
+\[
 ConstructCellID(P,O,C,S)
-\rightarrow
+\\rightarrow
 CELL_P_O_C_S
-]
+\]
 
 only if all axis members exist in authoritative registries.
 
@@ -2548,9 +2545,9 @@ VALID SYNTAX
 VALID CELL
 ```
 
----
+______________________________________________________________________
 
-# 87. Typed Inputs
+## 87. Typed Inputs
 
 Naming operations accept typed inputs such as:
 
@@ -2567,9 +2564,9 @@ NamingInput:
   requested_path:
 ```
 
----
+______________________________________________________________________
 
-# 88. Typed Outputs
+## 88. Typed Outputs
 
 ```yaml
 NamingResult:
@@ -2585,9 +2582,9 @@ NamingResult:
   gap_status:
 ```
 
----
+______________________________________________________________________
 
-# 89. Naming State Variables
+## 89. Naming State Variables
 
 Relevant state includes:
 
@@ -2611,9 +2608,9 @@ dependency_graph
 validation_state
 ```
 
----
+______________________________________________________________________
 
-# 90. Naming State Transition
+## 90. Naming State Transition
 
 A proposed name progresses:
 
@@ -2641,9 +2638,9 @@ COLLISION_CHECKED
 QUARANTINED
 ```
 
----
+______________________________________________________________________
 
-# 91. Naming Registration Preconditions
+## 91. Naming Registration Preconditions
 
 Before registration:
 
@@ -2665,9 +2662,9 @@ parent scope valid
 provenance present
 ```
 
----
+______________________________________________________________________
 
-# 92. Naming Registration Postconditions
+## 92. Naming Registration Postconditions
 
 After registration:
 
@@ -2685,9 +2682,9 @@ provenance attached
 dependency references valid
 ```
 
----
+______________________________________________________________________
 
-# 93. Naming Invariants
+## 93. Naming Invariants
 
 ```text
 INV_NAMING_001
@@ -2736,9 +2733,9 @@ INV_NAMING_015
 STATUS_MUST_NOT_BE_INFERRED_FROM NAME
 ```
 
----
+______________________________________________________________________
 
-# 94. Hard Boundaries
+## 94. Hard Boundaries
 
 ```text
 PLACEHOLDER != IMPLEMENTED
@@ -2774,9 +2771,9 @@ SIMILAR_NAME != SAME_OBJECT
 DIFFERENT_NAME != DIFFERENT_OBJECT
 ```
 
----
+______________________________________________________________________
 
-# 95. H/M/L Applicability
+## 95. H/M/L Applicability
 
 Naming operates across all H/M/L scales.
 
@@ -2818,9 +2815,9 @@ evidence objects
 runtime instances
 ```
 
----
+______________________________________________________________________
 
-# 96. Cross-Scale Naming Rule
+## 96. Cross-Scale Naming Rule
 
 Names may be reused across scale only when explicitly qualified.
 
@@ -2842,9 +2839,9 @@ STATE_RISK
 
 when scale changes semantics.
 
----
+______________________________________________________________________
 
-# 97. Control-Plane Requirements
+## 97. Control-Plane Requirements
 
 Naming changes may affect:
 
@@ -2870,9 +2867,9 @@ kernel control
 
 The strongest control requirement applies when naming changes alter canonical identity.
 
----
+______________________________________________________________________
 
-# 98. Governance Requirement
+## 98. Governance Requirement
 
 Canonical rename is not cosmetic when dependencies reference the ID.
 
@@ -2888,9 +2885,9 @@ if the canonical ID changes.
 
 Such changes require impact analysis.
 
----
+______________________________________________________________________
 
-# 99. Representation Requirement
+## 99. Representation Requirement
 
 The representation layer must preserve:
 
@@ -2908,9 +2905,9 @@ semantic origin
 
 as distinct fields.
 
----
+______________________________________________________________________
 
-# 100. Memory Requirement
+## 100. Memory Requirement
 
 Persistent memory must store canonical identifiers where possible rather than unstable labels.
 
@@ -2926,9 +2923,9 @@ rather than:
 primitive: prediction thing
 ```
 
----
+______________________________________________________________________
 
-# 101. Agent Requirement
+## 101. Agent Requirement
 
 Agents interacting with Matrix objects should:
 
@@ -2946,9 +2943,9 @@ avoid inventing IDs
 report missing registry entries
 ```
 
----
+______________________________________________________________________
 
-# 102. Skill Requirement
+## 102. Skill Requirement
 
 Skills that create or modify Matrix artifacts must validate naming against this contract before commit.
 
@@ -2970,9 +2967,9 @@ claim verification
 system completion auditing
 ```
 
----
+______________________________________________________________________
 
-# 103. Workflow — New Object Naming
+## 103. Workflow — New Object Naming
 
 ```text
 Need new object
@@ -3000,9 +2997,9 @@ attach provenance
 register
 ```
 
----
+______________________________________________________________________
 
-# 104. Workflow — Rename Existing Object
+## 104. Workflow — Rename Existing Object
 
 ```text
 Rename proposal
@@ -3026,9 +3023,9 @@ atomic update
 post-update validation
 ```
 
----
+______________________________________________________________________
 
-# 105. Label Change vs Identity Change
+## 105. Label Change vs Identity Change
 
 Changing:
 
@@ -3048,9 +3045,9 @@ is structural.
 
 Never treat them equivalently.
 
----
+______________________________________________________________________
 
-# 106. Rename Compatibility
+## 106. Rename Compatibility
 
 Where possible, old canonical identifiers should become explicit legacy aliases after a governed rename.
 
@@ -3064,9 +3061,9 @@ legacy_resolution: L13_PREDICTION
 
 Only do this when semantics are actually preserved.
 
----
+______________________________________________________________________
 
-# 107. Semantic Change Boundary
+## 107. Semantic Change Boundary
 
 If semantics change materially, do not disguise it as a rename.
 
@@ -3078,9 +3075,9 @@ RENAME
 
 A new object, supersession relation, or explicit migration may be required.
 
----
+______________________________________________________________________
 
-# 108. Protocol — Name Resolution
+## 108. Protocol — Name Resolution
 
 ```text
 REQUEST:
@@ -3111,9 +3108,9 @@ AMBIGUOUS
 UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 109. Protocol — Canonical Registration
+## 109. Protocol — Canonical Registration
 
 Registration request should contain:
 
@@ -3132,9 +3129,9 @@ dependencies:
 
 Registration must fail closed on unresolved identity collision.
 
----
+______________________________________________________________________
 
-# 110. Protocol — Cross-System Reference
+## 110. Protocol — Cross-System Reference
 
 External reference:
 
@@ -3150,9 +3147,9 @@ external_reference:
 
 Do not duplicate the external object's canonical identity into a new Matrix-local object unless the Matrix truly defines a distinct object.
 
----
+______________________________________________________________________
 
-# 111. Provenance Requirements
+## 111. Provenance Requirements
 
 Every canonical naming decision should preserve:
 
@@ -3174,9 +3171,9 @@ alias history
 scope
 ```
 
----
+______________________________________________________________________
 
-# 112. Provenance Independence
+## 112. Provenance Independence
 
 Two names derived from the same source do not constitute independent evidence that the underlying concept is valid.
 
@@ -3188,9 +3185,9 @@ NAME_B
 
 with common ancestry remains one provenance family.
 
----
+______________________________________________________________________
 
-# 113. Naming Confidence
+## 113. Naming Confidence
 
 Naming confidence concerns:
 
@@ -3209,30 +3206,30 @@ empirical_validity: UNKNOWN
 
 is logically possible.
 
----
+______________________________________________________________________
 
-# 114. Confidence Ceiling
+## 114. Confidence Ceiling
 
 Naming confidence is bounded by the weakest load-bearing identity premise.
 
 Conceptually:
 
-[
-C_{name}
-\le
-\min(
-C_{namespace},
-C_{semantic_definition},
-C_{registry},
-C_{provenance}
+\[
+C\_{name}
+\\le
+\\min(
+C\_{namespace},
+C\_{semantic_definition},
+C\_{registry},
+C\_{provenance}
 )
-]
+\]
 
 This is an AMOS MODEL constraint, not an externally established statistical law.
 
----
+______________________________________________________________________
 
-# 115. Uncertainty Vector
+## 115. Uncertainty Vector
 
 Naming uncertainty may be represented as:
 
@@ -3249,9 +3246,9 @@ uncertainty:
 
 Do not compress materially different uncertainties into one vague score.
 
----
+______________________________________________________________________
 
-# 116. Failure Modes
+## 116. Failure Modes
 
 Canonical naming failure modes include:
 
@@ -3293,9 +3290,9 @@ FAIL_NONDETERMINISTIC_CELL_ID
 FAIL_UNREGISTERED_OBJECT
 ```
 
----
+______________________________________________________________________
 
-# 117. Failure — Orphan Identifier
+## 117. Failure — Orphan Identifier
 
 An identifier is orphaned when:
 
@@ -3317,9 +3314,9 @@ resolve canonical registry
 register or quarantine
 ```
 
----
+______________________________________________________________________
 
-# 118. Failure — Semantic Duplication
+## 118. Failure — Semantic Duplication
 
 Two canonical objects may accidentally represent the same concept.
 
@@ -3339,9 +3336,9 @@ determine SAME / DISTINCT / COMPETING
 
 Do not merge based solely on lexical similarity.
 
----
+______________________________________________________________________
 
-# 119. Failure — Alias Collision
+## 119. Failure — Alias Collision
 
 Example:
 
@@ -3371,9 +3368,9 @@ AMBIGUOUS
 
 is the correct result.
 
----
+______________________________________________________________________
 
-# 120. Failure — Cross-Layer Leakage
+## 120. Failure — Cross-Layer Leakage
 
 Example:
 
@@ -3393,17 +3390,17 @@ object class
 scope
 ```
 
----
+______________________________________________________________________
 
-# 121. Repair Principle
+## 121. Repair Principle
 
 Naming repair must preserve semantic identity whenever possible.
 
 Do not repair a naming problem by changing the underlying architecture unless the architecture itself is incorrect.
 
----
+______________________________________________________________________
 
-# 122. Repair Workflow
+## 122. Repair Workflow
 
 ```text
 detect failure
@@ -3427,9 +3424,9 @@ validate dependency graph
 validate provenance
 ```
 
----
+______________________________________________________________________
 
-# 123. Recovery After Bad Rename
+## 123. Recovery After Bad Rename
 
 If a rename causes failure:
 
@@ -3445,9 +3442,9 @@ repair affected references
 re-run naming validators
 ```
 
----
+______________________________________________________________________
 
-# 124. Naming Validators
+## 124. Naming Validators
 
 Required validators include:
 
@@ -3473,9 +3470,9 @@ VALIDATOR_LEGACY_ALIAS
 VALIDATOR_CROSS_ARCHITECTURE_QUALIFICATION
 ```
 
----
+______________________________________________________________________
 
-# 125. Minimum Naming Tests
+## 125. Minimum Naming Tests
 
 ```text
 TEST_NAMING_001
@@ -3524,9 +3521,9 @@ TEST_NAMING_015
 PROVENANCE_PRESENT
 ```
 
----
+______________________________________________________________________
 
-# 126. CellID Round-Trip Test
+## 126. CellID Round-Trip Test
 
 For every cell:
 
@@ -3541,16 +3538,14 @@ must return the original coordinate.
 
 Formally:
 
-[
-Parse(Construct(P,O,C,S))
-=========================
+## \[ Parse(Construct(P,O,C,S))
 
 (P,O,C,S)
-]
+\]
 
----
+______________________________________________________________________
 
-# 127. Cardinality Test
+## 127. Cardinality Test
 
 Given:
 
@@ -3563,12 +3558,10 @@ Given:
 
 expected addressable cells:
 
-[
-30 \times 17 \times 9 \times 3
-==============================
+## \[ 30 \\times 17 \\times 9 \\times 3
 
 13,770
-]
+\]
 
 The naming generator must produce:
 
@@ -3582,24 +3575,22 @@ This establishes identifier coverage only.
 
 It does not establish implementation or validation coverage.
 
----
+______________________________________________________________________
 
-# 128. Collision Test
+## 128. Collision Test
 
 For generated set:
 
-[
-IDs = {ID_1,\ldots,ID_n}
-]
+\[
+IDs = {ID_1,\\ldots,ID_n}
+\]
 
 require:
 
-[
-|IDs|
-=====
+## \[ |IDs|
 
 |Unique(IDs)|
-]
+\]
 
 Any violation is:
 
@@ -3607,9 +3598,9 @@ Any violation is:
 FAIL_NAMING_COLLISION
 ```
 
----
+______________________________________________________________________
 
-# 129. Reference Integrity Test
+## 129. Reference Integrity Test
 
 Every canonical reference must resolve to:
 
@@ -3625,9 +3616,9 @@ UNKNOWN/GAP
 
 Dangling references must not silently pass validation.
 
----
+______________________________________________________________________
 
-# 130. Alias Integrity Test
+## 130. Alias Integrity Test
 
 Every alias must resolve to:
 
@@ -3641,9 +3632,9 @@ or be explicitly marked:
 AMBIGUOUS
 ```
 
----
+______________________________________________________________________
 
-# 131. Falsifiers
+## 131. Falsifiers
 
 This naming contract fails for its declared scope if:
 
@@ -3669,9 +3660,9 @@ generator output is nondeterministic
 canonical identifiers depend on unstable conversational context
 ```
 
----
+______________________________________________________________________
 
-# 132. Gap Classes
+## 132. Gap Classes
 
 Naming gaps should be classified:
 
@@ -3698,9 +3689,9 @@ COSMETIC:
 inconsistent display capitalization
 ```
 
----
+______________________________________________________________________
 
-# 133. Gap Recording
+## 133. Gap Recording
 
 Example:
 
@@ -3721,9 +3712,9 @@ evidence: []
 repair_candidate: null
 ```
 
----
+______________________________________________________________________
 
-# 134. Naming Registry Object
+## 134. Naming Registry Object
 
 Recommended machine representation:
 
@@ -3765,9 +3756,9 @@ NamingRegistryEntry:
   gap_status:
 ```
 
----
+______________________________________________________________________
 
-# 135. Primitive Registry Example
+## 135. Primitive Registry Example
 
 ```yaml
 canonical_id: L13_PREDICTION
@@ -3797,9 +3788,9 @@ semantic_origin:
   AMOS_COGNITIVE_MATRIX
 ```
 
----
+______________________________________________________________________
 
-# 136. Cell Registry Example
+## 136. Cell Registry Example
 
 ```yaml
 canonical_id:
@@ -3836,9 +3827,9 @@ authority_status:
   NOT_APPLICABLE_UNTIL_EFFECT
 ```
 
----
+______________________________________________________________________
 
-# 137. Dependency on Matrix Contract
+## 137. Dependency on Matrix Contract
 
 `NAMING_STANDARD.md` depends on:
 
@@ -3850,9 +3841,9 @@ for Matrix ontology and structural semantics.
 
 If the Matrix Contract changes axis identity or cell construction, this naming standard must be revalidated.
 
----
+______________________________________________________________________
 
-# 138. Dependency on Primitive Registry
+## 138. Dependency on Primitive Registry
 
 Primitive naming depends on:
 
@@ -3864,9 +3855,9 @@ The naming standard defines grammar.
 
 The registry defines current canonical members.
 
----
+______________________________________________________________________
 
-# 139. Dependency on Lifecycle Registry
+## 139. Dependency on Lifecycle Registry
 
 Operation naming depends on:
 
@@ -3874,9 +3865,9 @@ Operation naming depends on:
 LIFECYCLE_OPERATION_REGISTRY.md
 ```
 
----
+______________________________________________________________________
 
-# 140. Dependency on Control-Plane Registry
+## 140. Dependency on Control-Plane Registry
 
 Control-plane naming depends on:
 
@@ -3884,9 +3875,9 @@ Control-plane naming depends on:
 CONTROL_PLANE_REGISTRY.md
 ```
 
----
+______________________________________________________________________
 
-# 141. Dependency on Scale Registry
+## 141. Dependency on Scale Registry
 
 Scale naming depends on:
 
@@ -3894,9 +3885,9 @@ Scale naming depends on:
 SCALE_REGISTRY.md
 ```
 
----
+______________________________________________________________________
 
-# 142. Dependency on Cell Registry
+## 142. Dependency on Cell Registry
 
 Cell naming must remain synchronized with:
 
@@ -3910,9 +3901,9 @@ and:
 CELL_INDEX.md
 ```
 
----
+______________________________________________________________________
 
-# 143. Dependency on Dependency Graph
+## 143. Dependency on Dependency Graph
 
 Renames require dependency impact analysis through:
 
@@ -3922,9 +3913,9 @@ Renames require dependency impact analysis through:
 
 because identifiers may appear as dependency endpoints.
 
----
+______________________________________________________________________
 
-# 144. Dependency on Routing
+## 144. Dependency on Routing
 
 Bindings in:
 
@@ -3936,9 +3927,9 @@ must use canonical identifiers.
 
 Aliases should not be used as durable routing keys.
 
----
+______________________________________________________________________
 
-# 145. Dependency on Validation
+## 145. Dependency on Validation
 
 Naming correctness is validated through:
 
@@ -3948,9 +3939,9 @@ Naming correctness is validated through:
 
 Naming validation does not imply functional validation of the referenced object.
 
----
+______________________________________________________________________
 
-# 146. Dependency on Generators
+## 146. Dependency on Generators
 
 Deterministic generators in:
 
@@ -3962,9 +3953,9 @@ must implement this naming grammar.
 
 Generator behavior must be tested against the registry rather than assumed correct.
 
----
+______________________________________________________________________
 
-# 147. Dependency Graph
+## 147. Dependency Graph
 
 Conceptual dependencies:
 
@@ -3988,9 +3979,9 @@ VALIDATION
 
 This graph represents structural dependence, not necessarily runtime call order.
 
----
+______________________________________________________________________
 
-# 148. Naming and Canon Firewall
+## 148. Naming and Canon Firewall
 
 If naming conventions conflict with source canon:
 
@@ -4008,9 +3999,9 @@ record Matrix-compatible alias/reference
 
 unless governance explicitly authorizes canonical migration.
 
----
+______________________________________________________________________
 
-# 149. Naming and Provenance Firewall
+## 149. Naming and Provenance Firewall
 
 Renaming must not erase:
 
@@ -4024,9 +4015,9 @@ semantic ancestry
 transformation history
 ```
 
----
+______________________________________________________________________
 
-# 150. Naming and Causal Firewall
+## 150. Naming and Causal Firewall
 
 A name must never imply causal status.
 
@@ -4042,9 +4033,9 @@ Object names are semantic labels.
 
 Causal claims require causal evidence.
 
----
+______________________________________________________________________
 
-# 151. Naming and Empirical Firewall
+## 151. Naming and Empirical Firewall
 
 Likewise:
 
@@ -4058,9 +4049,9 @@ Naming preserves corpus identity.
 
 It does not validate the empirical interpretation.
 
----
+______________________________________________________________________
 
-# 152. Naming and Authority Firewall
+## 152. Naming and Authority Firewall
 
 Never infer:
 
@@ -4076,9 +4067,9 @@ as actual authority from a name.
 
 Authority requires explicit infrastructure-governed evidence.
 
----
+______________________________________________________________________
 
-# 153. Naming and Security
+## 153. Naming and Security
 
 Names may influence routing and permissions.
 
@@ -4100,9 +4091,9 @@ resolve identity
 → evaluate permission
 ```
 
----
+______________________________________________________________________
 
-# 154. Naming and Observability
+## 154. Naming and Observability
 
 Logs should record canonical IDs.
 
@@ -4117,9 +4108,9 @@ event:
 
 Human labels may be recorded additionally.
 
----
+______________________________________________________________________
 
-# 155. Naming and Replay
+## 155. Naming and Replay
 
 Replay requires stable identifiers.
 
@@ -4137,9 +4128,9 @@ conversation position
 unstable natural-language descriptions
 ```
 
----
+______________________________________________________________________
 
-# 156. Naming and Selective Invalidation
+## 156. Naming and Selective Invalidation
 
 When an identifier changes, affected dependencies should be located through explicit references.
 
@@ -4159,9 +4150,9 @@ RENAME
 
 unless global dependency is demonstrated.
 
----
+______________________________________________________________________
 
-# 157. Naming and Atomic Updates
+## 157. Naming and Atomic Updates
 
 A structural rename may require coordinated updates to:
 
@@ -4185,9 +4176,9 @@ provenance
 
 Partial rename states should not be treated as valid final state.
 
----
+______________________________________________________________________
 
-# 158. Naming and Freshness
+## 158. Naming and Freshness
 
 Canonical identity may be stable while aliases or paths become stale.
 
@@ -4200,9 +4191,9 @@ alias_freshness:
 registry_freshness:
 ```
 
----
+______________________________________________________________________
 
-# 159. Naming and Deprecation
+## 159. Naming and Deprecation
 
 Deprecated identity state:
 
@@ -4219,9 +4210,9 @@ but no longer preferred
 
 Deprecated does not necessarily mean invalid.
 
----
+______________________________________________________________________
 
-# 160. Naming and Supersession
+## 160. Naming and Supersession
 
 Supersession means a successor object replaces another for a declared scope.
 
@@ -4236,9 +4227,9 @@ effective_state:
 provenance:
 ```
 
----
+______________________________________________________________________
 
-# 161. Naming and Deletion
+## 161. Naming and Deletion
 
 Canonical IDs with historical dependencies should not be casually deleted.
 
@@ -4252,9 +4243,9 @@ RETIRED
 
 where lineage must remain reconstructable.
 
----
+______________________________________________________________________
 
-# 162. Naming and Matrix Generation
+## 162. Naming and Matrix Generation
 
 Generator algorithm:
 
@@ -4271,9 +4262,9 @@ for primitive in primitive_registry:
 
 This creates the addressable coordinate space.
 
----
+______________________________________________________________________
 
-# 163. Naming Generator Preconditions
+## 163. Naming Generator Preconditions
 
 ```text
 all axis registries valid
@@ -4287,9 +4278,9 @@ naming grammar loaded
 output namespace defined
 ```
 
----
+______________________________________________________________________
 
-# 164. Naming Generator Postconditions
+## 164. Naming Generator Postconditions
 
 ```text
 every generated CellID unique
@@ -4303,9 +4294,9 @@ no registry member omitted
 no undefined axis member introduced
 ```
 
----
+______________________________________________________________________
 
-# 165. Generator Failure
+## 165. Generator Failure
 
 If a registry contains duplicate symbols:
 
@@ -4315,9 +4306,9 @@ STOP
 
 Do not generate guessed replacements.
 
----
+______________________________________________________________________
 
-# 166. Naming Search Priority
+## 166. Naming Search Priority
 
 When resolving a name:
 
@@ -4339,9 +4330,9 @@ When resolving a name:
 
 Contextual semantic matching must not automatically become canonical identity.
 
----
+______________________________________________________________________
 
-# 167. Naming Resolution Confidence
+## 167. Naming Resolution Confidence
 
 Suggested qualitative classes:
 
@@ -4359,9 +4350,9 @@ UNKNOWN
 
 `EXACT` refers to identifier resolution, not empirical validity.
 
----
+______________________________________________________________________
 
-# 168. Human-Friendly Display Names
+## 168. Human-Friendly Display Names
 
 Machine identity and display name should remain separate.
 
@@ -4377,17 +4368,17 @@ display_name:
 
 Display names may evolve without changing identity.
 
----
+______________________________________________________________________
 
-# 169. Description Boundary
+## 169. Description Boundary
 
 Descriptions explain identifiers.
 
 Descriptions do not define identity unless the governing registry explicitly uses them as semantic definitions.
 
----
+______________________________________________________________________
 
-# 170. Abbreviation Standard
+## 170. Abbreviation Standard
 
 Abbreviations must be registered if used canonically.
 
@@ -4402,9 +4393,9 @@ GMEF
 
 Unregistered abbreviations should not become durable machine identifiers.
 
----
+______________________________________________________________________
 
-# 171. Acronym Collision
+## 171. Acronym Collision
 
 If an acronym has multiple meanings:
 
@@ -4425,9 +4416,9 @@ rather than ambiguous:
 CP
 ```
 
----
+______________________________________________________________________
 
-# 172. Reserved Prefixes
+## 172. Reserved Prefixes
 
 Recommended Matrix reserved prefixes:
 
@@ -4466,9 +4457,9 @@ _TMP
 _DRAFT
 ```
 
----
+______________________________________________________________________
 
-# 173. Reserved Prefix Protection
+## 173. Reserved Prefix Protection
 
 A prefix must not be reused for a different object class without explicit architecture migration.
 
@@ -4480,9 +4471,9 @@ GAP_
 
 must continue to identify gaps.
 
----
+______________________________________________________________________
 
-# 174. Registry Integrity Rule
+## 174. Registry Integrity Rule
 
 Canonical identity is established through:
 
@@ -4498,9 +4489,9 @@ provenance
 
 not filename presence alone.
 
----
+______________________________________________________________________
 
-# 175. Naming Promotion Gate
+## 175. Naming Promotion Gate
 
 A proposed canonical name may be promoted when:
 
@@ -4522,9 +4513,9 @@ dependencies identified
 required governance passed
 ```
 
----
+______________________________________________________________________
 
-# 176. Naming Rejection Gate
+## 176. Naming Rejection Gate
 
 Reject or quarantine when:
 
@@ -4546,9 +4537,9 @@ canonical target already exists
 provenance unavailable where required
 ```
 
----
+______________________________________________________________________
 
-# 177. Naming Gap Gate
+## 177. Naming Gap Gate
 
 If a proposed object appears necessary but semantics are incomplete:
 
@@ -4558,9 +4549,9 @@ CREATE GAP
 
 rather than inventing a canonical definition.
 
----
+______________________________________________________________________
 
-# 178. Matrix Naming Completeness
+## 178. Matrix Naming Completeness
 
 Naming architecture is `COMPLETE_FOR_SCOPE` when:
 
@@ -4584,9 +4575,9 @@ all required validators pass
 no critical unresolved naming collision exists
 ```
 
----
+______________________________________________________________________
 
-# 179. RSCF Completion State
+## 179. RSCF Completion State
 
 ```yaml
 claim_class: AMOS_MODEL
@@ -4651,9 +4642,9 @@ confidence_ceiling:
   and provenance integrity
 ```
 
----
+______________________________________________________________________
 
-# 180. Current Gap Status
+## 180. Current Gap Status
 
 ```yaml
 gap_status:
@@ -4675,37 +4666,37 @@ gap_status:
 
 These gaps must not be represented as resolved without evidence.
 
----
+______________________________________________________________________
 
-# 181. Final Naming Contract
+## 181. Final Naming Contract
 
 The canonical naming transformation is:
 
-[
+\[
 SemanticObject
-\rightarrow
+\\rightarrow
 ObjectClass
-\rightarrow
+\\rightarrow
 Namespace
-\rightarrow
+\\rightarrow
 CanonicalID
-\rightarrow
+\\rightarrow
 CanonicalPath
-\rightarrow
+\\rightarrow
 MachineReference
-]
+\]
 
 subject to:
 
-[
+\[
 Unique(ID)
-\land
+\\land
 Typed(ID)
-\land
+\\land
 Resolvable(ID)
-\land
+\\land
 ProvenanceBound(ID)
-]
+\]
 
 The AMOS Cognitive Matrix therefore follows these governing naming laws:
 
@@ -4745,22 +4736,19 @@ FAIL CLOSED ON UNRESOLVED IDENTITY COLLISION.
 
 The central invariant is:
 
-[
-\boxed{
-Canonical\ Identity
-===================
+## \[ \\boxed{ Canonical\\ Identity
 
-Typed\ Name
-+
+Typed\\ Name
+\+
 Namespace
-+
-Semantic\ Definition
-+
-Registry\ Membership
-+
+\+
+Semantic\\ Definition
+\+
+Registry\\ Membership
+\+
 Provenance
 }
-]
+\]
 
 while always preserving:
 
@@ -4782,23 +4770,26 @@ CANONICAL IDENTITY
 AUTHORITY
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: cognitive_matrix_naming_standard
 node_type: note
 path: 25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_NAMING_STANDARD.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
 
 **MOC:** [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_HOME|00_HOME]]

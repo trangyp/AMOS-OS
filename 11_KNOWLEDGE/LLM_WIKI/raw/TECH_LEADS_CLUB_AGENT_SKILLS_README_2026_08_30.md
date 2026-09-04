@@ -1,4 +1,7 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 date: 2026-08-30
 epistemic_class: OBSERVATION
 provenance: GitHub README, not independently verified
@@ -10,6 +13,7 @@ rscf:
 source: https://raw.githubusercontent.com/tech-leads-club/agent-skills/main/README.md
 title: tech-leads-club/agent-skills README — Raw Capture
 ---
+
 # tech-leads-club/agent-skills README — Raw Capture
 
 Source: `https://github.com/tech-leads-club/agent-skills`
@@ -95,16 +99,16 @@ Install skills to any of these AI coding agents:
 <div align="center">
 <br />
 
-|                     Tier 1 (Popular)                      |                            Tier 2 (Rising)                             |                   Tier 3 (Enterprise)                   |
-| :-------------------------------------------------------: | :--------------------------------------------------------------------: | :-----------------------------------------------------: |
-|         **[Claude Code](https://claude.ai/code)**         |                    **[Aider](https://aider.chat)**                     |   **[Amazon Q](https://aws.amazon.com/q/developer/)**   |
-|        **[Cline](https://github.com/cline/cline)**        |               **[Antigravity](https://idx.google.com)**                |       **[Augment](https://www.augmentcode.com)**        |
-|             **[Cursor](https://cursor.com)**              | **[Gemini CLI](https://ai.google.dev/gemini-api/docs/code-execution)** |    **[Droid (Factory.ai)](https://www.factory.ai)**     |
-| **[GitHub Copilot](https://github.com/features/copilot)** |                  **[Kilo Code](https://kilocode.ai)**                  |           **[OpenCode](https://opencode.ai)**           |
-|       **[Windsurf](https://codeium.com/windsurf)**        |                     **[Kiro](https://kiro.dev/)**                      |  **[Sourcegraph Cody](https://sourcegraph.com/cody)**   |
-|                                                           |    **[OpenAI Codex](https://openai.com/index/introducing-codex/)**     |         **[Tabnine](https://www.tabnine.com)**          |
-|                                                           |                    **[Roo Code](https://roo.dev)**                     |                                                         |
-|                                                           |                    **[TRAE](https://docs.trae.ai)**                    |                                                         |
+|                     Tier 1 (Popular)                      |                            Tier 2 (Rising)                             |                 Tier 3 (Enterprise)                  |
+| :-------------------------------------------------------: | :--------------------------------------------------------------------: | :--------------------------------------------------: |
+|         **[Claude Code](https://claude.ai/code)**         |                    **[Aider](https://aider.chat)**                     | **[Amazon Q](https://aws.amazon.com/q/developer/)**  |
+|        **[Cline](https://github.com/cline/cline)**        |               **[Antigravity](https://idx.google.com)**                |      **[Augment](https://www.augmentcode.com)**      |
+|             **[Cursor](https://cursor.com)**              | **[Gemini CLI](https://ai.google.dev/gemini-api/docs/code-execution)** |   **[Droid (Factory.ai)](https://www.factory.ai)**   |
+| **[GitHub Copilot](https://github.com/features/copilot)** |                  **[Kilo Code](https://kilocode.ai)**                  |         **[OpenCode](https://opencode.ai)**          |
+|       **[Windsurf](https://codeium.com/windsurf)**        |                     **[Kiro](https://kiro.dev/)**                      | **[Sourcegraph Cody](https://sourcegraph.com/cody)** |
+|                                                           |    **[OpenAI Codex](https://openai.com/index/introducing-codex/)**     |        **[Tabnine](https://www.tabnine.com)**        |
+|                                                           |                    **[Roo Code](https://roo.dev)**                     |                                                      |
+|                                                           |                    **[TRAE](https://docs.trae.ai)**                    |                                                      |
 
 </div>
 
@@ -139,10 +143,10 @@ npx @tech-leads-club/agent-skills
 This launches an interactive wizard:
 
 1. **Choose Action** — "Install skills" or "Update installed skills"
-2. **Browse & Select** — Filter by category or search
-3. **Choose agents** — Pick target agents (Cursor, Claude Code, etc.)
-4. **Installation method** — Copy (recommended) or Symlink
-5. **Scope** — Global (user home) or Local (project only)
+1. **Browse & Select** — Filter by category or search
+1. **Choose agents** — Pick target agents (Cursor, Claude Code, etc.)
+1. **Installation method** — Copy (recommended) or Symlink
+1. **Scope** — Global (user home) or Local (project only)
 
 Each step shows a **← Back** option to return and revise your choices.
 
@@ -151,68 +155,68 @@ Each step shows a **← Back** option to return and revise your choices.
 > **Note**: You can use either `npx @tech-leads-club/agent-skills` or install globally and use `agent-skills` directly.
 
 ```bash
-# Interactive mode (default)
+## Interactive mode (default)
 npx @tech-leads-club/agent-skills
-# or: agent-skills (if installed globally)
+## or: agent-skills (if installed globally)
 
-# List available skills
+## List available skills
 agent-skills list
 agent-skills ls        # Alias
 
-# Install one skill
+## Install one skill
 agent-skills install -s tlc-spec-driven
 
-# Install multiple skills at once
+## Install multiple skills at once
 agent-skills install -s aws-advisor coding-guidelines docs-writer
 
-# Install to specific agents
+## Install to specific agents
 agent-skills install -s my-skill -a cursor claude-code
 
-# Install multiple skills to multiple agents
+## Install multiple skills to multiple agents
 agent-skills install -s aws-advisor nx-workspace -a cursor windsurf cline
 
-# Install globally (to ~/.gemini, ~/.claude, etc.)
+## Install globally (to ~/.gemini, ~/.claude, etc.)
 agent-skills install -s my-skill -g
 
-# Use symlink instead of copy
+## Use symlink instead of copy
 agent-skills install -s my-skill --symlink
 
-# Force re-download (bypass cache)
+## Force re-download (bypass cache)
 agent-skills install -s my-skill --force
 
-# Update a specific skill
+## Update a specific skill
 agent-skills update -s my-skill
 
-# Update all installed skills
+## Update all installed skills
 agent-skills update
 
-# Remove one skill
+## Remove one skill
 agent-skills remove -s my-skill
 
-# Remove multiple skills at once
+## Remove multiple skills at once
 agent-skills remove -s skill1 skill2 skill3
 agent-skills rm -s my-skill    # Alias
 
-# Remove from specific agents
+## Remove from specific agents
 agent-skills remove -s my-skill -a cursor windsurf
 
-# Force removal (bypass lockfile check)
+## Force removal (bypass lockfile check)
 agent-skills remove -s my-skill --force
 
-# Manage cache
+## Manage cache
 agent-skills cache --clear           # Clear all cache
 agent-skills cache --clear-registry  # Clear only registry
 agent-skills cache --path            # Show cache location
 
-# View audit log
+## View audit log
 agent-skills audit                   # Show recent operations
 agent-skills audit -n 20             # Show last 20 entries
 agent-skills audit --path            # Show audit log location
 
-# Show contributors and credits
+## Show contributors and credits
 agent-skills credits
 
-# Show help
+## Show help
 agent-skills --help
 ```
 
@@ -228,16 +232,16 @@ agent-skills  # Use 'agent-skills' instead of 'npx @tech-leads-club/agent-skills
 The CLI fetches skills **on-demand** from our CDN:
 
 1. **Browse** — The CLI fetches the skills catalog (~45KB)
-2. **Select** — You choose the skills you need
-3. **Download** — Selected skills are downloaded and cached locally
-4. **Install** — Skills are installed to your agent's configuration
+1. **Select** — You choose the skills you need
+1. **Download** — Selected skills are downloaded and cached locally
+1. **Install** — Skills are installed to your agent's configuration
 
 ### Caching
 
 Downloaded skills are cached in `~/.cache/agent-skills/` for offline use.
 
 ```bash
-# Clear the cache
+## Clear the cache
 rm -rf ~/.cache/agent-skills
 ```
 
@@ -295,9 +299,8 @@ _If you use our skills catalog, you **must** provide attribution to Tech Leads C
   </a>
 </p>
 
----
+______________________________________________________________________
 
 <p align="center">
   <sub>Built with ❤️ by the Tech Leads Club community</sub>
 </p>
-

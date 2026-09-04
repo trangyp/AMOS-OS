@@ -1,14 +1,17 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Vault Domain Knowledge — Amos Canon Consistency Governor
 type: reference
 source: 07_SKILLS/amos-canon-consistency-governor/references
 tags:
-- reference
-- amos-canon-consistency-governor
-- type/skill
-- law-hierarchy
-- canon
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-canon-consistency-governor
+  - type/skill
+  - law-hierarchy
+  - canon
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -28,10 +31,9 @@ rscf:
 
 > Path: `amos-general/A/Universe/AMOS Universe OS Masterfile — Unified Canon Architecture.md` | Size: 42564 chars | Match score: 10
 
-# AMOS Universe OS Masterfile — Unified Canon Architecture
+## AMOS Universe OS Masterfile — Unified Canon Architecture
 
 ## Overview (2)
-
 
 The source declares:
 
@@ -47,15 +49,15 @@ ARCHITECTURE:   AMOS_CORE / AMOS_UNIVERSE_OS
 
 The strongest appropriate classification is:
 
-[
-\boxed{\text{SOURCE_CLAIM / DRAFT_CANON}}
-]
+\[
+\\boxed{\\text{SOURCE_CLAIM / DRAFT_CANON}}
+\]
 
 The architecture, equations, targets, biological mappings, psychological mappings, quantum constructs, planetary-intelligence constructs, and predictive relationships should therefore be preserved as **corpus models** unless independently validated.
 
----
+______________________________________________________________________
 
-# 1. Master Architecture
+## 1. Master Architecture
 
 The source defines ten canonical parts:
 
@@ -123,20 +125,20 @@ The intended total architecture is:
 
 This is not merely a taxonomy. The source attempts to define a **reasoning and simulation operating architecture** connecting representation, state, prediction, interactio
 
----
+______________________________________________________________________
 
 ### Source 2: AMOS CANON Integration Marker
 
 > Path: `amos-general/A/CANON/AMOS CANON Integration Marker.md` | Size: 24840 chars | Match score: 10
 
-# AMOS CANON Integration Marker
+## AMOS CANON Integration Marker
 
 ## Overview
-
 
 ```text
 _00_AMOS_CANON
 ```
+
 into the target namespace:
 
 ```text
@@ -155,17 +157,17 @@ It does **not**, by itself, establish that every merged artifact has passed cano
 
 The governing distinction is:
 
-[
-\boxed{
+\[
+\\boxed{
 IntegrationComplete
-\neq
+\\neq
 CanonValidated
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 1. Integration Record
+## 1. Integration Record
 
 The source marker declares:
 
@@ -179,42 +181,40 @@ Integration:         COMPLETE
 
 Normalized timestamp:
 
-[
-T_{integration}
-===============
+## \[ T\_{integration}
 
-2026\text{-}04\text{-}19T15{:}23{:}41+07{:}00
-]
+2026\\text{-}04\\text{-}19T15{:}23{:}41+07{:}00
+\]
 
 The recorded transformation is:
 
-[
-C_{source}
-\rightarrow
-C_{target}
-]
+\[
+C\_{source}
+\\rightarrow
+C\_{target}
+\]
 
 where:
 
-[
-C_{source}=_00_AMOS_CANON
-]
+\[
+C\_{source}=\_00_AMOS_CANON
+\]
 
 and:
 
-[
-C_{target}=_AMOS_CANON
-]
+\[
+C\_{target}=\_AMOS_CANON
+\]
 
 with:
 
-[
-N_{unique}=54
-]
+\[
+N\_{unique}=54
+\]
 
----
+______________________________________________________________________
 
-# 2. Marker Semantics
+## 2. Marker Semantics
 
 The marker should be interpreted as an **integration-state record**.
 
@@ -241,46 +241,43 @@ SUPERSESSION RESOLVED
 
 Those are separate states requiring separate evidence.
 
----
+______________________________________________________________________
 
-# 3. Integration State Model
+## 3. Integration State Model
 
 A canon integration event can be modeled as:
 
-[
+\[
 I=
 (
 S,
 T,
 F,
-\tau,
-\sigma
+\\tau,
+\\sigma
 )
-]
+\]
 
 where:
 
-
 For this marker:
 
-[
-I_{AMOS}
-========
+## \[ I\_{AMOS}
 
 (
-_00_AMOS_CANON,
-_AMOS_CANON,
+\_00_AMOS_CANON,
+\_AMOS_CANON,
 54,
-2026\text{-}04\text{-}19T15{:}23{:}41+07{:}00,
+2026\\text{-}04\\text{-}19T15{:}23{:}41+07{:}00,
 COMPLETE
 )
-]
+\]
 
 This is an **AMOS MODEL normalization** of the supplied marker.
 
----
+______________________________________________________________________
 
-# 4. Integration vs. Canon Admission
+## 4. Integration vs. Canon Admission
 
 AMOS should preserve the distinction between:
 
@@ -296,14 +293,13 @@ FILE ADMITTED TO GOVERNED CANON
 
 Formally:
 
-[
+\[
 Merged(f)
-\not\Rightarrow
+\\not\\Rightarrow
 CanonicallyAdmitted(f)
-]
+\]
 
 A merged artifact may still require evaluation for:
-
 
 Therefore:
 
@@ -319,9 +315,9 @@ Admitted / Conditional / Competing / Quarantined / Rejected
 
 is stronger than treating merge completion as automatic canonization.
 
----
+______________________________________________________________________
 
-# 5. Canon Integration Pipeline
+## 5. Canon Integration Pipeline
 
 A governed integration architecture can be represented as:
 
@@ -410,9 +406,9 @@ from pathlib import Path
 from typing import Final
 
 
-# ---------------------------------------------------------------------------
-# Configuration
-# ---------------------------------------------------------------------------
+## ---------------------------------------------------------------------------
+## Configuration
+## ---------------------------------------------------------------------------
 
 VAULT: Final = Path(
     "/Users/mac/Downloads/stitch_project_cosmo/_00_Cosmo brain/md"
@@ -461,17 +457,17 @@ PART_OWNED_QUESTION: Final = {
     "TERMINATION": 6,
 }
 
-# Critical inverse mapping.
-# The original implementation did not do this correctly.
+## Critical inverse mapping.
+## The original implementation did not do this correctly.
 QUESTION_OWNER: Final = {
     question_index: part
     for part, question_index in PART_OWNED_QUESTION.items()
 }
 
 
-# ---------------------------------------------------------------------------
-# Typed result state
-# ---------------------------------------------------------------------------
+## ---------------------------------------------------------------------------
+## Typed result state
+## ---------------------------------------------------------------------------
 
 @dataclass(frozen=True)
 class PatchR
@@ -484,10 +480,9 @@ class PatchR
 -
 ```
 
----
+______________________________________________________________________
 
-**Related:** [[07_SKILLS/amos-canon-consistency-governor/amos-canon-consistency-governor_MOC|amos-canon-consistency-governor_MOC]]
----
+## **Related:** [[07_SKILLS/amos-canon-consistency-governor/amos-canon-consistency-governor_MOC|amos-canon-consistency-governor_MOC]]
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -495,13 +490,14 @@ class PatchR
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-canon-consistency-governor-vault-domain-knowledge
 node_type: reference
 path: 07_SKILLS/amos-canon-consistency-governor/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC
-

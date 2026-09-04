@@ -1,4 +1,7 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: CORE LAWS MAP
 type: note
 source: 01_CANON/01_CORE_LAWS/00_INDEX
@@ -6,19 +9,15 @@ rscf:
   state: SOURCE_CLAIM
   class: STRUCTURAL
   provenance:
-  - internal
+    - internal
   freshness: EVERGREEN
   falsifiers: []
 tags:
-- note
+  - note
 canon-group: canon/core-laws
 ---
 
----title: "AMOS Core Laws Map"
-type: document
-tags: [note]
----
-
+## ---title: "AMOS Core Laws Map" type: document tags: [note]
 
 # 01 Core Laws Map
 
@@ -64,9 +63,9 @@ Origin architect / steward:
 
 **Trang Phan**
 
----
+______________________________________________________________________
 
-# 1. Purpose
+## 1. Purpose
 
 The Core Laws Map provides the navigational, dependency, governance, provenance, and reasoning topology for the AMOS Core Laws domain.
 
@@ -103,9 +102,9 @@ RUNTIME PROJECTION
 DEPENDENT SYSTEMS
 ```
 
----
+______________________________________________________________________
 
-# 2. Map Boundary
+## 2. Map Boundary
 
 This map describes the AMOS Core Laws architecture.
 
@@ -143,9 +142,9 @@ AUTHORIZED
 CANONICAL
 ```
 
----
+______________________________________________________________________
 
-# 3. Core Laws Domain Position
+## 3. Core Laws Domain Position
 
 The Core Laws domain sits within the broader AMOS canon layer.
 
@@ -179,9 +178,9 @@ AMOS OS
 
 This hierarchy is an architectural map unless independently confirmed by authoritative source structure.
 
----
+______________________________________________________________________
 
-# 4. Primary Core Laws Objects
+## 4. Primary Core Laws Objects
 
 The Core Laws domain SHOULD distinguish at least the following object classes:
 
@@ -205,9 +204,9 @@ The Core Laws domain SHOULD distinguish at least the following object classes:
 
 Unknown object classes remain extensible.
 
----
+______________________________________________________________________
 
-# 5. Core Map Spine
+## 5. Core Map Spine
 
 The minimum map spine is:
 
@@ -238,9 +237,9 @@ CORE_LAWS
 
 No single branch should silently substitute for another.
 
----
+______________________________________________________________________
 
-# 6. Identity Map
+## 6. Identity Map
 
 Every Core Law SHOULD resolve through a stable law identity.
 
@@ -275,9 +274,9 @@ NEW REPRESENTATION
 NEW CANON OBJECT
 ```
 
----
+______________________________________________________________________
 
-# 7. Epistemic Map
+## 7. Epistemic Map
 
 Core Law knowledge SHOULD be classified before canonical use.
 
@@ -298,9 +297,9 @@ The map MUST preserve these distinctions.
 
 A `DERIVED` interpretation must not overwrite its `SOURCE_CANON` ancestor.
 
----
+______________________________________________________________________
 
-# 8. Canonical-State Map
+## 8. Canonical-State Map
 
 Canonical lifecycle:
 
@@ -332,9 +331,9 @@ Transitions require appropriate evidence and authority.
 
 File creation alone does not cause a transition.
 
----
+______________________________________________________________________
 
-# 9. Law Anatomy Map
+## 9. Law Anatomy Map
 
 A normalized Core Law may be represented as:
 
@@ -395,9 +394,9 @@ CoreLaw:
 
 This is a normalized AMOS model representation, not a claim that this exact schema is already canonical.
 
----
+______________________________________________________________________
 
-# 10. Provenance Map
+## 10. Provenance Map
 
 Core Law provenance SHOULD remain traversable.
 
@@ -428,9 +427,9 @@ CANON DECISION
 
 Derived objects SHOULD retain edges to their ancestors.
 
----
+______________________________________________________________________
 
-# 11. Provenance Topology
+## 11. Provenance Topology
 
 Multiple representations may share one ancestry:
 
@@ -454,9 +453,9 @@ MULTIPLE DESCENDANTS
 MULTIPLE INDEPENDENT SOURCES
 ```
 
----
+______________________________________________________________________
 
-# 12. Dependency Map
+## 12. Dependency Map
 
 Core Laws may relate through typed dependency edges.
 
@@ -490,9 +489,9 @@ SUPERSEDES
 INVALIDATES
 ```
 
----
+______________________________________________________________________
 
-# 13. Dependency Direction
+## 13. Dependency Direction
 
 Dependency direction matters.
 
@@ -516,9 +515,9 @@ The reverse does not automatically follow.
 
 This prevents indiscriminate global invalidation.
 
----
+______________________________________________________________________
 
-# 14. Dependency Closure
+## 14. Dependency Closure
 
 For a target law `L`:
 
@@ -531,9 +530,9 @@ to determine L's current validity.
 
 Runtime use SHOULD resolve the smallest sufficient dependency closure rather than loading the entire canon where unnecessary.
 
----
+______________________________________________________________________
 
-# 15. Selective Invalidation Map
+## 15. Selective Invalidation Map
 
 When a law changes:
 
@@ -558,9 +557,9 @@ LOCAL FAILURE
 GLOBAL CANON FAILURE
 ```
 
----
+______________________________________________________________________
 
-# 16. H/M/L Map
+## 16. H/M/L Map
 
 Core Laws MAY apply across AMOS H/M/L reasoning scales.
 
@@ -576,9 +575,9 @@ Core Laws MAY apply across AMOS H/M/L reasoning scales.
 
 Applicability must be explicit where scale matters.
 
----
+______________________________________________________________________
 
-# 17. Cross-Scale Rule
+## 17. Cross-Scale Rule
 
 A law observed or defined at one scale does not automatically transfer to another.
 
@@ -596,9 +595,9 @@ L VALIDITY
 
 Cross-scale propagation requires an explicit mapping, inheritance rule, or independently supported transformation.
 
----
+______________________________________________________________________
 
-# 18. Invariant Map
+## 18. Invariant Map
 
 Core Law invariants form protected constraints.
 
@@ -622,9 +621,9 @@ EVIDENCE
 VALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 19. Core Architectural Invariants
+## 19. Core Architectural Invariants
 
 The current map preserves these governing boundaries:
 
@@ -656,9 +655,9 @@ CONFLICT != RESOLUTION
 
 These are governing AMOS architectural constraints for this specification unless superseded by authoritative canon.
 
----
+______________________________________________________________________
 
-# 20. Conflict Map
+## 20. Conflict Map
 
 Conflict analysis SHOULD distinguish:
 
@@ -697,9 +696,9 @@ SCOPE-SPLIT    ▼
                CONTRADICTION
 ```
 
----
+______________________________________________________________________
 
-# 21. Competing Laws Map
+## 21. Competing Laws Map
 
 When no justified resolution exists:
 
@@ -717,9 +716,9 @@ The system MUST preserve the competing state.
 
 It must not invent a synthetic compromise merely to produce one answer.
 
----
+______________________________________________________________________
 
-# 22. Precedence Map
+## 22. Precedence Map
 
 Where supported, precedence may depend on:
 
@@ -741,9 +740,9 @@ AUTHORIZED EXCEPTION
 
 The exact authoritative AMOS precedence hierarchy remains `UNKNOWN/GAP` unless source-supported.
 
----
+______________________________________________________________________
 
-# 23. Exception Map
+## 23. Exception Map
 
 Exceptions SHOULD be first-class governed objects.
 
@@ -763,9 +762,9 @@ LAW
 
 An exception must not silently rewrite the parent law.
 
----
+______________________________________________________________________
 
-# 24. Authority Map
+## 24. Authority Map
 
 Core Law governance separates capabilities from authorities.
 
@@ -790,9 +789,9 @@ REVOKE
 ROLLBACK
 ```
 
----
+______________________________________________________________________
 
-# 25. Authority Boundary
+## 25. Authority Boundary
 
 The following are not sufficient authority witnesses:
 
@@ -813,9 +812,9 @@ CAPABILITY
 AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 26. Canon Change Map
+## 26. Canon Change Map
 
 ```text
 CURRENT LAW
@@ -847,9 +846,9 @@ NEW CANON VERSION
 DEPENDENT REVALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 27. Version Map
+## 27. Version Map
 
 ```text
 LAW_X
@@ -869,9 +868,9 @@ LAW_X
 
 `v3` being numerically newest does not alone prove that it is the currently effective canonical version.
 
----
+______________________________________________________________________
 
-# 28. Supersession Map
+## 28. Supersession Map
 
 Supersession SHOULD preserve bidirectional lineage:
 
@@ -891,9 +890,9 @@ OLD LAW
 
 Historical state remains recoverable.
 
----
+______________________________________________________________________
 
-# 29. Runtime Projection Map
+## 29. Runtime Projection Map
 
 Canonical law can influence runtime through explicit projections:
 
@@ -930,9 +929,9 @@ COMMIT
 
 A law does not directly imply an action.
 
----
+______________________________________________________________________
 
-# 30. Law → Policy Boundary
+## 30. Law → Policy Boundary
 
 ```text
 CORE LAW
@@ -960,9 +959,9 @@ LAW CHANGE
 
 unless an explicit canon change is separately authorized.
 
----
+______________________________________________________________________
 
-# 31. Law → Protocol Boundary
+## 31. Law → Protocol Boundary
 
 ```text
 CORE LAW
@@ -978,9 +977,9 @@ A protocol specifies how an interaction or execution sequence occurs.
 
 Protocol conformance is not proof that the underlying law itself is valid.
 
----
+______________________________________________________________________
 
-# 32. Law → Workflow Boundary
+## 32. Law → Workflow Boundary
 
 ```text
 CORE LAW
@@ -997,9 +996,9 @@ STATE TRANSITIONS
 
 Workflow engines SHOULD preserve applicable law identity in execution provenance where consequential.
 
----
+______________________________________________________________________
 
-# 33. Law → Agent Boundary
+## 33. Law → Agent Boundary
 
 ```text
 CORE LAW
@@ -1022,9 +1021,9 @@ according to capability and policy.
 
 It may not infer commit authority from those capabilities.
 
----
+______________________________________________________________________
 
-# 34. Law → Skill Boundary
+## 34. Law → Skill Boundary
 
 Skills may operationalize bounded reasoning over Core Laws.
 
@@ -1047,9 +1046,9 @@ SKILL OUTPUT
 CANON COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 35. Law → Memory Boundary
+## 35. Law → Memory Boundary
 
 Memory MAY preserve:
 
@@ -1066,9 +1065,9 @@ Memory SHOULD NOT silently freeze mutable canon forever.
 
 A cached law object requires freshness/version checking before consequential reuse.
 
----
+______________________________________________________________________
 
-# 36. Law → RSCF Map
+## 36. Law → RSCF Map
 
 ```text
 CORE LAW
@@ -1091,9 +1090,9 @@ RSCF provides a reasoning representation.
 
 It does not independently grant canonical status.
 
----
+______________________________________________________________________
 
-# 37. Core Law Proof Capsule
+## 37. Core Law Proof Capsule
 
 A law resolution MAY be represented as:
 
@@ -1126,9 +1125,9 @@ law_proof_capsule:
   confidence_ceiling: null
 ```
 
----
+______________________________________________________________________
 
-# 38. Confidence Propagation Map
+## 38. Confidence Propagation Map
 
 Conceptually:
 
@@ -1148,9 +1147,9 @@ CONCLUSION CEILING
 
 A derived conclusion cannot safely exceed a failed load-bearing premise without independent revalidation.
 
----
+______________________________________________________________________
 
-# 39. Control Plane Map
+## 39. Control Plane Map
 
 Core Laws potentially interact with the following control-plane functions:
 
@@ -1173,9 +1172,9 @@ These are logical functions.
 
 Their current implementation status must be verified separately.
 
----
+______________________________________________________________________
 
-# 40. Canon Control
+## 40. Canon Control
 
 Canon control SHOULD govern:
 
@@ -1190,9 +1189,9 @@ QUARANTINE
 REJECTION
 ```
 
----
+______________________________________________________________________
 
-# 41. Provenance Control
+## 41. Provenance Control
 
 Provenance control SHOULD govern:
 
@@ -1205,9 +1204,9 @@ SOURCE HASH/VERSION
 TRACEABILITY
 ```
 
----
+______________________________________________________________________
 
-# 42. Authority Control
+## 42. Authority Control
 
 Authority control SHOULD govern:
 
@@ -1220,9 +1219,9 @@ WHO MAY REVOKE
 WHO MAY ROLL BACK
 ```
 
----
+______________________________________________________________________
 
-# 43. Dependency Control
+## 43. Dependency Control
 
 Dependency control SHOULD govern:
 
@@ -1235,9 +1234,9 @@ SELECTIVE INVALIDATION
 REVALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 44. Validation Control
+## 44. Validation Control
 
 Validation control SHOULD distinguish:
 
@@ -1252,9 +1251,9 @@ INCONCLUSIVE
 
 No unexecuted test may be represented as a pass.
 
----
+______________________________________________________________________
 
-# 45. Core Laws System Topology
+## 45. Core Laws System Topology
 
 ```text
                          ┌─────────────────┐
@@ -1296,9 +1295,9 @@ No unexecuted test may be represented as a pass.
 
 This diagram describes desired structural relationships, not verified runtime implementation.
 
----
+______________________________________________________________________
 
-# 46. Retrieval Map
+## 46. Retrieval Map
 
 AMOS reasoning over Core Laws SHOULD prefer smallest-sufficient retrieval:
 
@@ -1317,9 +1316,9 @@ only when required
 
 This avoids unnecessarily loading the complete canon for local questions.
 
----
+______________________________________________________________________
 
-# 47. Escalation Conditions
+## 47. Escalation Conditions
 
 Local law resolution SHOULD escalate when:
 
@@ -1343,9 +1342,9 @@ SUPERSESSION IS UNCLEAR
 IRREVERSIBLE ACTION DEPENDS ON RESULT
 ```
 
----
+______________________________________________________________________
 
-# 48. Failure Map
+## 48. Failure Map
 
 ```text
 CORE LAW FAILURE
@@ -1367,9 +1366,9 @@ CORE LAW FAILURE
 
 Each failure class SHOULD be repairable independently where possible.
 
----
+______________________________________________________________________
 
-# 49. Repair Map
+## 49. Repair Map
 
 ```text
 FAILURE
@@ -1398,9 +1397,9 @@ RESTORE
 
 Repair must preserve unaffected branches.
 
----
+______________________________________________________________________
 
-# 50. Rollback Map
+## 50. Rollback Map
 
 ```text
 CURRENT INVALID STATE
@@ -1427,9 +1426,9 @@ PREVIOUS
 VALID
 ```
 
----
+______________________________________________________________________
 
-# 51. Validator Map
+## 51. Validator Map
 
 Recommended validation layers:
 
@@ -1449,9 +1448,9 @@ L10 — RSCF / GOVERNANCE
 
 A lower-level pass does not imply higher-level validity.
 
----
+______________________________________________________________________
 
-# 52. Minimum Validators
+## 52. Minimum Validators
 
 ```text
 validate_core_law_identity()
@@ -1483,9 +1482,9 @@ validate_core_law_rscf()
 
 These names specify required validation functions; they do not claim existing implementation.
 
----
+______________________________________________________________________
 
-# 53. Test Map
+## 53. Test Map
 
 Core Laws SHOULD eventually have tests covering:
 
@@ -1507,9 +1506,9 @@ ROLLBACK
 RUNTIME PROJECTION
 ```
 
----
+______________________________________________________________________
 
-# 54. Mandatory Boundary Tests
+## 54. Mandatory Boundary Tests
 
 ### MAP-T001
 
@@ -1575,9 +1574,9 @@ NO_DISCRIMINATING_EVIDENCE
 COMPETING / UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 55. Falsifier Map
+## 55. Falsifier Map
 
 The map itself is falsifiable.
 
@@ -1605,9 +1604,9 @@ different provenance requirements
 different runtime projection model
 ```
 
----
+______________________________________________________________________
 
-# 56. Gap Topology
+## 56. Gap Topology
 
 Current major gaps:
 
@@ -1642,9 +1641,9 @@ CORE_LAWS_MAP
        └── UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 57. Critical vs Noncritical Gaps
+## 57. Critical vs Noncritical Gaps
 
 ```yaml
 gaps:
@@ -1676,9 +1675,9 @@ gaps:
 
 Critical gaps block claims of full canonical completeness.
 
----
+______________________________________________________________________
 
-# 58. Map Completion Boundary
+## 58. Map Completion Boundary
 
 This map can be structurally complete while the underlying canon remains incomplete.
 
@@ -1696,9 +1695,9 @@ KNOWN_NODES_MAPPED
 ALL_NODES_KNOWN
 ```
 
----
+______________________________________________________________________
 
-# 59. Recommended Directory Relationship
+## 59. Recommended Directory Relationship
 
 Conceptually, the Core Laws package may expose:
 
@@ -1724,9 +1723,9 @@ Conceptually, the Core Laws package may expose:
 
 This is a proposed structural projection unless source canon confirms the exact folder topology.
 
----
+______________________________________________________________________
 
-# 60. Machine-Readable Map Contract
+## 60. Machine-Readable Map Contract
 
 A machine-readable projection MAY take the form:
 
@@ -1766,9 +1765,9 @@ core_laws_map:
     automatic_cross_scale_transfer: false
 ```
 
----
+______________________________________________________________________
 
-# 61. Map Query Contract
+## 61. Map Query Contract
 
 A map query MAY accept:
 
@@ -1795,9 +1794,9 @@ result:
   confidence_ceiling: null
 ```
 
----
+______________________________________________________________________
 
-# 62. Change Impact Query
+## 62. Change Impact Query
 
 Given:
 
@@ -1821,9 +1820,9 @@ VALIDATORS TO RERUN
 
 This capability is not currently claimed as implemented by this document.
 
----
+______________________________________________________________________
 
-# 63. Reverse Traceability
+## 63. Reverse Traceability
 
 The map SHOULD support both:
 
@@ -1847,9 +1846,9 @@ SOURCE
 
 This enables provenance reconstruction for consequential actions.
 
----
+______________________________________________________________________
 
-# 64. Canon-to-Action Trace
+## 64. Canon-to-Action Trace
 
 Desired trace:
 
@@ -1875,9 +1874,9 @@ EFFECT
 
 Each boundary should remain typed.
 
----
+______________________________________________________________________
 
-# 65. No Direct Canon-to-Effect Shortcut
+## 65. No Direct Canon-to-Effect Shortcut
 
 The following shortcut is prohibited as a governance assumption:
 
@@ -1896,9 +1895,9 @@ CAPABILITY != AUTHORITY
 PROPOSAL != COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 66. Core Law Map Integrity Rule
+## 66. Core Law Map Integrity Rule
 
 The map MUST preserve distinctions among:
 
@@ -1920,9 +1919,9 @@ WHAT IS CURRENTLY EFFECTIVE
 
 These dimensions may correlate but are never interchangeable by default.
 
----
+______________________________________________________________________
 
-# 67. Adversarial Map Validation
+## 67. Adversarial Map Validation
 
 Before relying on the map for consequential decisions, challenge it for:
 
@@ -1952,9 +1951,9 @@ AUTHORITY GAPS
 BROKEN DEPENDENCY EDGES
 ```
 
----
+______________________________________________________________________
 
-# 68. Map Recovery
+## 68. Map Recovery
 
 If the map becomes inconsistent:
 
@@ -1976,9 +1975,9 @@ RESTORE
 
 Uncertain reconstructed edges remain `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
-# 69. System Integration Map
+## 69. System Integration Map
 
 ```text
                          AMOS CORE LAWS
@@ -2017,9 +2016,9 @@ Uncertain reconstructed edges remain `UNKNOWN/GAP`.
 
 This represents logical integration, not verified physical implementation.
 
----
+______________________________________________________________________
 
-# 70. Map Governance Principle
+## 70. Map Governance Principle
 
 A Core Laws map is trustworthy only to the degree that its nodes and edges remain:
 
@@ -2037,9 +2036,9 @@ REVALIDATABLE
 
 A visually complete graph with unsupported edges is less trustworthy than an incomplete graph with explicit gaps.
 
----
+______________________________________________________________________
 
-# 71. Current Map Status
+## 71. Current Map Status
 
 ```yaml
 map_status:
@@ -2081,9 +2080,9 @@ map_status:
     status: "UNKNOWN/GAP"
 ```
 
----
+______________________________________________________________________
 
-# 72. Promotion Requirements
+## 72. Promotion Requirements
 
 Promotion beyond `PROPOSED_SPECIFICATION` requires reconciliation against authoritative AMOS source/canon.
 
@@ -2113,9 +2112,9 @@ RSCF REVIEW
 CANON APPROVAL
 ```
 
----
+______________________________________________________________________
 
-# 73. RSCF Completion State
+## 73. RSCF Completion State
 
 ```yaml
 claim_class: AMOS_MODEL
@@ -2180,9 +2179,9 @@ falsifiers:
 confidence_ceiling: 0
 ```
 
----
+______________________________________________________________________
 
-# 74. Gap Status
+## 74. Gap Status
 
 ```yaml
 gap_status:
@@ -2221,21 +2220,21 @@ gap_status:
     status: "UNKNOWN/GAP"
 ```
 
----
+______________________________________________________________________
 
-# 75. Final Map Law
+## 75. Final Map Law
 
 > **The Core Laws Map is a governed topology, not merely a directory listing. Every consequential node and edge must preserve identity, provenance, scope, regime, dependency, version, authority, conflict state, and epistemic class. Missing relationships remain gaps; multiple descendants do not imply independent evidence; cross-scale similarity does not establish inheritance; runtime capability does not establish authority; proposals do not become commits by existence; and changes propagate only through their actual dependency closure.**
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/CORE_LAWS_CANON_README|CORE_LAWS_CANON_README]] · [[01_CANON/01_CORE_LAWS/00_INDEX/CORE_LAWS_CANON_CORE_LAWS_CONTRACT|CORE_LAWS_CANON_CORE_LAWS_CONTRACT]]
 
----
+______________________________________________________________________
 
 RSCF-NODE
 
@@ -2276,8 +2275,10 @@ confidence_ceiling: 0
 ```
 ```
 
----
+______________________________________________________________________
+
 **MOC:** [[01_CANON/01_CORE_LAWS/00_INDEX/INDEX_CORE_LAWS_CANON_README|INDEX_CORE_LAWS_CANON_README]]
 
----
+______________________________________________________________________
+
 **MOC:** [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]]

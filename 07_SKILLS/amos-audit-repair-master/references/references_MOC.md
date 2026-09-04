@@ -1,28 +1,31 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: References MOC — References — Amos Audit Repair Master
 type: moc
 source: 07_SKILLS/amos-audit-repair-master/references
 tags:
-- references
-- type/skill
-- 11k-cross-skill-proof-composition
-- 11k-known-gaps
-- audit-quality-engine
-- audit-quality-engine-domains
-- audit-quality-engine-v0
-- audit-quality-max
-- audit-quality-model
-- brain-consistency-auditor
-- consolidation-report
-- critical-fixes-analysis
-- [[07_SKILLS/amos-audit-repair-master/references/diagnosis|diagnosis]]
-- final-gate
-- hallucination-cleanup-report
-- qa-testing-kernel
-- system-fixes-complete
-- system-fixes-progress
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - references
+  - type/skill
+  - 11k-cross-skill-proof-composition
+  - 11k-known-gaps
+  - audit-quality-engine
+  - audit-quality-engine-domains
+  - audit-quality-engine-v0
+  - audit-quality-max
+  - audit-quality-model
+  - brain-consistency-auditor
+  - consolidation-report
+  - critical-fixes-analysis
+  - [[07_SKILLS/amos-audit-repair-master/references/diagnosis|diagnosis]]
+  - final-gate
+  - hallucination-cleanup-report
+  - qa-testing-kernel
+  - system-fixes-complete
+  - system-fixes-progress
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 moc: true
 rscf:
   state: SOURCE_CLAIM
@@ -55,9 +58,9 @@ rscf:
 - [[07_SKILLS/amos-audit-repair-master/references/system_fixes_complete|system_fixes_complete]]
 - [[07_SKILLS/amos-audit-repair-master/references/system_fixes_progress|system_fixes_progress]]
 
----
-**Parent:** [[07_SKILLS/amos-audit-repair-master/amos-audit-repair-master_MOC|amos-audit-repair-master_MOC]]
----
+______________________________________________________________________
+
+## **Parent:** [[07_SKILLS/amos-audit-repair-master/amos-audit-repair-master_MOC|amos-audit-repair-master_MOC]]
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -65,12 +68,14 @@ rscf:
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-audit-repair-master-references-MOC
 node_type: reference
 path: 07_SKILLS/amos-audit-repair-master/references/references_MOC.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

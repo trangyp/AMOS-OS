@@ -1,23 +1,26 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: 07 Provenance MOC
 type: moc
 source: 01_CANON/07_PROVENANCE
 tags:
-- 07-provenance
-- canon/universe
-- amos-core-lineage-provenance
-- canon-provenance
-- framework-ancestry-graph
-- framework-ip-lineage
-- heritage-provenance
-- neurosyncai-provenance
-- qls-qcla-provenance
-- source-ancestry-graph
-- source-lineage
-- trang-origin-provenance
-- tss-tpe-provenance
-- ubi-provenance
-- universe-canon-provenance
+  - 07-provenance
+  - canon/universe
+  - amos-core-lineage-provenance
+  - canon-provenance
+  - framework-ancestry-graph
+  - framework-ip-lineage
+  - heritage-provenance
+  - neurosyncai-provenance
+  - qls-qcla-provenance
+  - source-ancestry-graph
+  - source-lineage
+  - trang-origin-provenance
+  - tss-tpe-provenance
+  - ubi-provenance
+  - universe-canon-provenance
 moc: true
 rscf:
   state: DERIVED
@@ -68,5 +71,6 @@ rscf:
 
 - [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]] — 00_INDEX
 
----
+______________________________________________________________________
+
 **Parent:** [[01_CANON/01_CANON_MOC|01_CANON_MOC]]

@@ -1,12 +1,15 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Amos-C06-Society-Culture-Master MOC
 type: moc
 source: 07_SKILLS/amos-c06-society-culture-master
 tags:
-- amos-c06-society-culture-master
-- type/skill
-- agent-template
-- skill
+  - amos-c06-society-culture-master
+  - type/skill
+  - agent-template
+  - skill
 moc: true
 rscf:
   state: DERIVED
@@ -28,13 +31,16 @@ rscf:
 ## Subdirectories
 
 - `agents/` (no markdown)
-- references_MOC — references
+- [[07_SKILLS/amos-c06-society-culture-master/references/references_MOC|references_MOC]] — references
 
----
----
-**References MOC:** [[07_SKILLS/spreadsheets/references/references_MOC|references_MOC]]
+______________________________________________________________________
 
----
+______________________________________________________________________
+
+**References MOC:** [[07_SKILLS/amos-c06-society-culture-master/references/references_MOC|references_MOC]]
+
+______________________________________________________________________
+
 **Skill:** [[07_SKILLS/amos-c06-society-culture-master/SKILL|SKILL]]
 
 **Agent Template:** [[07_SKILLS/amos-c06-society-culture-master/AGENT_TEMPLATE|AGENT_TEMPLATE]]

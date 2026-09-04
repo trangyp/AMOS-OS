@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: chaos diagnostics
 type: reference
 source: 07_SKILLS/amos-fractal-systems-master/references
 tags:
-- reference
-- amos-fractal-systems-master
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-fractal-systems-master
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -20,15 +23,11 @@ rscf:
 > Source: `_00_Cosmo brain/dated/2026-08-25/2026-08-25 Chaos Diagnostics Layer.md`
 > Epistemic class: SOURCE_DERIVED
 
----
-title: 2026-08-25 Chaos Diagnostics Layer
-type: daily-learning
-date: 2026-08-25
-epistemic: SOURCE/DERIVED
-tags: [math, fractal, chaos, time-series, dated, dated/2026-08-25]
----
+______________________________________________________________________
 
-# 2026-08-25 — Chaos Diagnostics Layer (FR017–FR018 Deep)
+## title: 2026-08-25 Chaos Diagnostics Layer type: daily-learning date: 2026-08-25 epistemic: SOURCE/DERIVED tags: [math, fractal, chaos, time-series, dated, dated/2026-08-25]
+
+## 2026-08-25 — Chaos Diagnostics Layer (FR017–FR018 Deep)
 
 ## Gap found
 
@@ -36,12 +35,12 @@ Chaos is the **second-most over-claimed pattern class** after power laws. FR017 
 
 ## Closure (4 channels)
 
-| Channel | Artifact |
-|---|---|
-| Skill | `amos/amos-chaos-diagnostics` — validation contract table (5 claim types with required evidence), 6-step procedure, guard table |
-| Agent | `.devin/agents/amos-chaos-claim-auditor-agent.json` — 6 capabilities incl. surrogate determinism test and early-warning substitution |
-| Workflow | `chaos-claim-audit-pipeline-workflow.md` — 9-step pipeline decomposing claims into licensable components |
-| Memory + vault note | recorded |
+| Channel             | Artifact                                                                                                                             |
+| ------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
+| Skill               | `amos/amos-chaos-diagnostics` — validation contract table (5 claim types with required evidence), 6-step procedure, guard table      |
+| Agent               | `.devin/agents/amos-chaos-claim-auditor-agent.json` — 6 capabilities incl. surrogate determinism test and early-warning substitution |
+| Workflow            | `chaos-claim-audit-pipeline-workflow.md` — 9-step pipeline decomposing claims into licensable components                             |
+| Memory + vault note | recorded                                                                                                                             |
 
 ## The validation contract highlights
 
@@ -54,19 +53,20 @@ Chaos is the **second-most over-claimed pattern class** after power laws. FR017 
 ## Key design decisions
 
 1. **Complex ≠ chaotic**: complicated series are usually stochastic; chaos requires λ₁ > 0 AND low saturated D₂ AND surrogate pass.
-2. **Early-warning alternative for collapse contexts**: instead of unmeasured chaos language, UCP-style transition claims get measurable critical-slowing-down signals (rising autocorrelation, variance) — connecting this layer to the L4 collapse governance.
-3. **Feigenbaum as genuine universality example**: the one place where a universality-class claim has a hard number (δ) to check — wired to the exponent gate.
+1. **Early-warning alternative for collapse contexts**: instead of unmeasured chaos language, UCP-style transition claims get measurable critical-slowing-down signals (rising autocorrelation, variance) — connecting this layer to the L4 collapse governance.
+1. **Feigenbaum as genuine universality example**: the one place where a universality-class claim has a hard number (δ) to check — wired to the exponent gate.
 
 ## Audit-family status
 
 Nine diagnostics/governance layers now share infrastructure: scaling fits, network topology, information measures, and chaos claims all reuse the same fit-gate-label skeleton while each adding their domain-specific evidence requirements.
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · AMOS Simulation Kernel v0 Math Foundations · system scan agent · automation profiles
 
----
-**MOC:** references_MOC
----
+______________________________________________________________________
+
+## **MOC:** references_MOC
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -74,12 +74,14 @@ Nine diagnostics/governance layers now share infrastructure: scaling fits, netwo
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-fractal-systems-master-chaos-diagnostics
 node_type: reference
 path: 07_SKILLS/amos-fractal-systems-master/references/chaos_diagnostics.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

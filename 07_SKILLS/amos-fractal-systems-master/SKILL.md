@@ -4,26 +4,23 @@ title: SKILL — Amos Fractal Systems Master
 type: skill
 source: 07_SKILLS/amos-fractal-systems-master
 name: amos-fractal-systems-master
-description: AMOS Fractal Systems — fractal architecture, lacunarity, self-similarity,
-  scale-invariance, H/M/L fractal integrity levels. 500,000-entry quantum fractal
-  database. Use when fractal analysis, scale r. Do not use for generic tasks outside
-  fractal domain.
+description: AMOS Fractal Systems — fractal architecture, lacunarity, self-similarity, scale-invariance, H/M/L fractal integrity levels. 500,000-entry quantum fractal database. Use when fractal analysis, scale r. Do not use for generic tasks outside fractal domain.
 parent_skill: none
 domain: fractal
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CANON
 tags:
-- type/skill
-- type/skill
-- domain/fractal-systems
-- epistemic/source_claim
-- hml/m
-- epistemic/source_canon
-- amos-os
-- agent-template
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/fractal-systems
+  - epistemic/source_claim
+  - hml/m
+  - epistemic/source_canon
+  - amos-os
+  - agent-template
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -33,20 +30,20 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: M
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L16
-- L17
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L16
+  - L17
 license: MIT
 steward: Trang Phan
 ---
@@ -56,9 +53,11 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: fractal. Parent: none. Epistemic class: SOURCE_CANON. H/M/L: M.
+
 ## When to Use
 
 AMOS Fractal Systems — fractal architecture, lacunarity, self-similarity, scale-invariance, H/M/L fractal integrity levels. 500,000-entry quantum fractal database. Use for fractal analysis, scale r...
+
 - When validating outputs against domain constraints and epistemic class
 
 ## Capabilities
@@ -76,14 +75,14 @@ AMOS Fractal Systems — fractal architecture, lacunarity, self-similarity, scal
 ## Operations
 
 1. **fractal_systems.execute_recovery**: Execute AMOS Fractal Systems failure recovery: detect failure, diagnose root cause, apply repair, verify recovery.
-2. **fractal_systems.validate_quality**: Validate AMOS Fractal Systems outputs against validation gates, equation firewall, golden ratio, and integrity requirements.
-3. **fractal_systems.discover_gaps**: Discover knowledge gaps using AMOS Fractal Systems gap discovery engine, completion graph, and unknown-unknown registry.
-4. **fractal_systems.trace_provenance**: Trace AMOS Fractal Systems findings to test results, integrity scans, gap registry, and validation gate outputs.
-5. **fractal_systems.assess_claim**: Assess AMOS Fractal Systems audit claims for severity, scope, evidence strength, and repair priority.
-6. **fractal_systems.manage_lifecycle**: Manage AMOS Fractal Systems audit lifecycle: scan, detect, classify, allocate repair, verify, and document.
-7. **fractal_systems.detect_drift**: Detect audit drift: test count drift, gap regression, integrity degradation, and validation gate erosion.
-8. **fractal_systems.escalate_gaps**: Escalate AMOS Fractal Systems audit gaps: flag CRITICAL gaps, prioritize repair allocation, trigger bounded recovery.
-9. **fractal_systems.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+1. **fractal_systems.validate_quality**: Validate AMOS Fractal Systems outputs against validation gates, equation firewall, golden ratio, and integrity requirements.
+1. **fractal_systems.discover_gaps**: Discover knowledge gaps using AMOS Fractal Systems gap discovery engine, completion graph, and unknown-unknown registry.
+1. **fractal_systems.trace_provenance**: Trace AMOS Fractal Systems findings to test results, integrity scans, gap registry, and validation gate outputs.
+1. **fractal_systems.assess_claim**: Assess AMOS Fractal Systems audit claims for severity, scope, evidence strength, and repair priority.
+1. **fractal_systems.manage_lifecycle**: Manage AMOS Fractal Systems audit lifecycle: scan, detect, classify, allocate repair, verify, and document.
+1. **fractal_systems.detect_drift**: Detect audit drift: test count drift, gap regression, integrity degradation, and validation gate erosion.
+1. **fractal_systems.escalate_gaps**: Escalate AMOS Fractal Systems audit gaps: flag CRITICAL gaps, prioritize repair allocation, trigger bounded recovery.
+1. **fractal_systems.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## Consolidated Sub-Skills (26)
 
@@ -101,6 +100,7 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 From C03 Physics & Cosmos: H/M/L fractal architecture. From Cognitive Organism OS: H/M/L fractal mapping.
 
 **H/M/L fractal levels**:
+
 - **H (High)**: whole organism / whole system / universe scale
 - **M (Medium)**: organ / subsystem / domain scale
 - **L (Low)**: local event / function / atomic scale
@@ -108,6 +108,7 @@ From C03 Physics & Cosmos: H/M/L fractal architecture. From Cognitive Organism O
 **Fractal integrity law**: `L_PASS != H_HEALTH`. A local pass (L-level) does not prove whole-system health (H-level). Integrity must be checked at all three levels.
 
 **Fractal properties**:
+
 - **Self-similarity**: patterns repeat at different scales
 - **Scale-invariance**: properties hold across scales
 - **Lacunarity**: measures distribution of gaps in a structure (high = gappy, low = uniform)
@@ -122,19 +123,24 @@ From C03 Physics & Cosmos: H/M/L fractal architecture. From Cognitive Organism O
 Fractal systems is an analytical framework. It does not prove physical fractality, that all systems are fractal, or that fractal dimension captures all structural properties.
 
 ## 0. Status
+
 Proposed specification replacing placeholder. AMOS_MODEL. Canonical status: CONDITIONAL.
 
 ## 2. Laws
+
 - **FK-1 Family Declaration**: fractal claims name their canonical family (FR001–FR025) and validation method.
 - **FK-2 Fit Before Claim**: statistical families require audited fits (MLE alpha with CI, x_min declared, alternative-model duel) — log-log eyeballing rejected.
 - **FK-3 Constructive Trace**: generative families (IFS/L-system/tiling) require rule trace + convergence evidence, not visual similarity.
 - **FK-4 Analogy ≠ Isomorphism**: structural resemblance never licenses semantic transfer without bridge governance.
 
 ## 4. Falsifiers
+
 F1: recovered fractal canon defines diff
+
 - AGENT_TEMPLATE
 
----
+______________________________________________________________________
+
 **MOC:** [[07_SKILLS/amos-fractal-systems-master/amos-fractal-systems-master_MOC|amos-fractal-systems-master_MOC]]
 
 ## Examples
@@ -142,7 +148,6 @@ F1: recovered fractal canon defines diff
 - **Scenario**: When validating outputs against domain constraints and epistemic class
   - **Input**: A query matching this skill's domain (fractal)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Validation Gates
 
@@ -159,7 +164,6 @@ F1: recovered fractal canon defines diff
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `none` — routes to this skill when fractal specialization is needed
@@ -167,7 +171,6 @@ F1: recovered fractal canon defines diff
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -186,7 +189,6 @@ F1: recovered fractal canon defines diff
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -194,7 +196,6 @@ F1: recovered fractal canon defines diff
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -225,11 +226,12 @@ F1: recovered fractal canon defines diff
 - `references/rg_fractal_bridge.md` — loaded on demand
 - `references/scaling_law_diagnostics.md` — loaded on demand
 - `references/ubi_fractal_entropy_correction.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `none` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `amos-fractal-systems-master-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -237,12 +239,14 @@ F1: recovered fractal canon defines diff
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-fractal-systems-master
 node_type: skill
 path: 07_SKILLS/amos-fractal-systems-master/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

@@ -12,35 +12,35 @@ segment: 01_CANON/02_UNIVERSE_CANON
 artifact_kind: CANON_SPECIFICATION
 path: 01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_MASTER.md
 tags:
-- amos-os
-- canon
-- universe
-- khung_trang
-- trang_framework
-- pre_symbolic_spine
-- perception
-- distinction
-- relationship
-- constraint
-- function
-- meaning
-- null_ground
-- emergence
-- entropy
-- master_equations
-- mathematical_foundations
-- epistemic_governance
-- rscf
-- provenance
-- canon/universe
-- khung-trang-master-equations
-- trang-reality-architecture-master
-- amos-x-trang-reality
-- references
-- canon-router
-- law/L19-proof-capsule
-- khung-trang-equations
-- architecture
+  - amos-os
+  - canon
+  - universe
+  - khung_trang
+  - trang_framework
+  - pre_symbolic_spine
+  - perception
+  - distinction
+  - relationship
+  - constraint
+  - function
+  - meaning
+  - null_ground
+  - emergence
+  - entropy
+  - master_equations
+  - mathematical_foundations
+  - epistemic_governance
+  - rscf
+  - provenance
+  - canon/universe
+  - khung-trang-master-equations
+  - trang-reality-architecture-master
+  - amos-x-trang-reality
+  - references
+  - canon-router
+  - law/L19-proof-capsule
+  - khung-trang-equations
+  - architecture
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -55,15 +55,15 @@ rscf:
   state: SOURCE_GROUNDED
   claim_class: AMOS_MODEL
   provenance:
-  - 01_CANON/01_CANON_MOC
-  - 11_KNOWLEDGE/05_FRAMEWORKS/TRANG_REALITY_ARCHITECTURE_MASTER
-  - 25_COGNITIVE_MATRIX/AMOS_X_TRANG_REALITY
-  - AMOS_CORPUS
+    - 01_CANON/01_CANON_MOC
+    - 11_KNOWLEDGE/05_FRAMEWORKS/TRANG_REALITY_ARCHITECTURE_MASTER
+    - 25_COGNITIVE_MATRIX/AMOS_X_TRANG_REALITY
+    - AMOS_CORPUS
   scope:
-  - UNIVERSE_CANON
-  - KHUNG_TRANG_FRAMEWORK
-  - PRE_SYMBOLIC_ONTOLOGY
-  - MATHEMATICAL_FOUNDATIONS
+    - UNIVERSE_CANON
+    - KHUNG_TRANG_FRAMEWORK
+    - PRE_SYMBOLIC_ONTOLOGY
+    - MATHEMATICAL_FOUNDATIONS
   confidence_ceiling:
     source_model: SOURCE_BOUND
     runtime: RUNTIME_VERIFIED
@@ -79,12 +79,12 @@ rscf:
 It organizes the framework around three principal surfaces:
 
 1. the **Pre-Symbolic Ontological Spine**;
-2. the **master transformation equations**;
-3. the **canonical epistemic and execution invariants** governing their interpretation.
+1. the **master transformation equations**;
+1. the **canonical epistemic and execution invariants** governing their interpretation.
 
 The artifact is classified as:
 
-```text
+````text
 EPISTEMIC CLASS
 =
 AMOS_MODEL
@@ -136,13 +136,13 @@ CAPABILITY != AUTHORITY
 PROPOSAL != COMMIT
 
 UNKNOWN/GAP != PASS
-```
+````
 
 **Origin architect / steward:** **Trang Phan**
 
----
+______________________________________________________________________
 
-# 1. Purpose
+## 1. Purpose
 
 The Khung Trang Master Architecture supplies a source-defined structural framework in which higher-order symbolic and semantic operations are constrained by lower-order pre-symbolic structure.
 
@@ -219,28 +219,28 @@ $$
 
 These expressions are preserved as AMOS-model canon surfaces.
 
----
+______________________________________________________________________
 
-# 2. Non-Purpose
+## 2. Non-Purpose
 
 This specification does not, by itself, establish:
 
-* a universal scientific theory of cognition;
-* a universal theory of consciousness;
-* a physical law of reality;
-* a biological law;
-* a thermodynamic theorem;
-* mathematical theoremhood for source-defined semantic mappings;
-* that every real cognitive system follows the P→D→R→C→F→M sequence;
-* that symbolic reasoning literally emerges through these six stages in every implementation;
-* that AMOS runtime metaphors are identical to physical processes;
-* or that source/runtime validation establishes empirical universality.
+- a universal scientific theory of cognition;
+- a universal theory of consciousness;
+- a physical law of reality;
+- a biological law;
+- a thermodynamic theorem;
+- mathematical theoremhood for source-defined semantic mappings;
+- that every real cognitive system follows the P→D→R→C→F→M sequence;
+- that symbolic reasoning literally emerges through these six stages in every implementation;
+- that AMOS runtime metaphors are identical to physical processes;
+- or that source/runtime validation establishes empirical universality.
 
 Cross-domain mappings remain `MODEL` until independently validated.
 
----
+______________________________________________________________________
 
-# 3. Architectural Compression
+## 3. Architectural Compression
 
 The master architecture can be compressed as:
 
@@ -291,9 +291,9 @@ P → D
 
 means canonical structural precedence, not automatically empirical causation.
 
----
+______________________________________________________________________
 
-# 4. Pre-Symbolic Ontological Spine
+## 4. Pre-Symbolic Ontological Spine
 
 ## 4.1 Master Sequence
 
@@ -314,14 +314,14 @@ $$
 
 The sequence has six canonical positions:
 
-| Position | Symbol         | Canonical label |
-| -------: | -------------- | --------------- |
-|        1 | \(\mathcal P\) | Perception      |
-|        2 | \(\mathcal D\) | Distinction     |
-|        3 | \(\mathcal R\) | Relationship    |
-|        4 | \(\mathcal C\) | Constraint      |
-|        5 | \(\mathcal F\) | Function        |
-|        6 | \(\mathcal M\) | Meaning         |
+| Position | Symbol        | Canonical label |
+| -------: | ------------- | --------------- |
+|        1 | (\\mathcal P) | Perception      |
+|        2 | (\\mathcal D) | Distinction     |
+|        3 | (\\mathcal R) | Relationship    |
+|        4 | (\\mathcal C) | Constraint      |
+|        5 | (\\mathcal F) | Function        |
+|        6 | (\\mathcal M) | Meaning         |
 
 Thus:
 
@@ -329,9 +329,9 @@ $$
 |\mathcal S_{ontology}|=6
 $$
 
----
+______________________________________________________________________
 
-# 5. Perception — \(\mathcal P\)
+## 5. Perception — (\\mathcal P)
 
 ## 5.1 Source Definition
 
@@ -348,7 +348,7 @@ unmediated field interaction
 
 Within the model, Perception is the first member of the pre-symbolic spine.
 
----
+______________________________________________________________________
 
 ## 5.2 Structural Role
 
@@ -368,7 +368,7 @@ P:
 
 The model therefore separates initial contact from subsequent semantic interpretation.
 
----
+______________________________________________________________________
 
 ## 5.3 Epistemic Boundary
 
@@ -388,9 +388,9 @@ UNIVERSAL EMPIRICAL CLAIM
 NOT ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 6. Distinction — \(\mathcal D\)
+## 6. Distinction — (\\mathcal D)
 
 ## 6.1 Source Definition
 
@@ -405,7 +405,7 @@ boundary formation
 binary/multi-valued partition
 ```
 
----
+______________________________________________________________________
 
 ## 6.2 Structural Transformation
 
@@ -418,11 +418,11 @@ $$
 \mathcal B
 $$
 
-where \(\mathcal B\) denotes a set or structure of differentiated boundaries.
+where (\\mathcal B) denotes a set or structure of differentiated boundaries.
 
 This operator notation is a formalization of the source description, not an additional empirical claim.
 
----
+______________________________________________________________________
 
 ## 6.3 Distinction Invariant
 
@@ -440,9 +440,9 @@ The framework's explicit rule is:
 PERCEPTION PRECEDES DISTINCTION
 ```
 
----
+______________________________________________________________________
 
-# 7. Relationship — \(\mathcal R\)
+## 7. Relationship — (\\mathcal R)
 
 ## 7.1 Source Definition
 
@@ -457,7 +457,7 @@ graph connectivity
 structural topology
 ```
 
----
+______________________________________________________________________
 
 ## 7.2 Graph Representation
 
@@ -473,7 +473,7 @@ $$
 G=(V,E)
 $$
 
-where \(E\) contains typed relations.
+where (E) contains typed relations.
 
 However, relationship edges MUST distinguish:
 
@@ -488,7 +488,7 @@ CAUSES
 
 These are not interchangeable.
 
----
+______________________________________________________________________
 
 ## 7.3 Causal Firewall
 
@@ -514,9 +514,9 @@ $$
 
 Causal typing requires appropriate evidence.
 
----
+______________________________________________________________________
 
-# 8. Constraint — \(\mathcal C\)
+## 8. Constraint — (\\mathcal C)
 
 ## 8.1 Source Definition
 
@@ -531,7 +531,7 @@ invariant bounds (L0-L3)
 thermodynamic dissipation
 ```
 
----
+______________________________________________________________________
 
 ## 8.2 Framework Role
 
@@ -555,11 +555,11 @@ before treating the transformation as admissible.
 
 This is a model-level formalization of the supplied constraint role.
 
----
+______________________________________________________________________
 
 ## 8.3 Physical Firewall
 
-Where \(\mathcal C\) refers to literal thermodynamic constraints, physical definitions and empirical evidence are required.
+Where (\\mathcal C) refers to literal thermodynamic constraints, physical definitions and empirical evidence are required.
 
 Where it refers to AMOS computational governance:
 
@@ -571,15 +571,15 @@ may function as a model abstraction.
 
 The two regimes MUST NOT be silently collapsed.
 
----
+______________________________________________________________________
 
-# 9. Function — \(\mathcal F\)
+## 9. Function — (\\mathcal F)
 
 ## 9.1 Source Definition
 
 **Function** is:
 
-> Dynamic transformation rules \((S_t\rightarrow S_{t+1})\).
+> Dynamic transformation rules ((S_t\\rightarrow S\_{t+1})).
 
 Associated source concepts:
 
@@ -588,7 +588,7 @@ transformation operator
 causal state mapping
 ```
 
----
+______________________________________________________________________
 
 ## 9.2 State Transformation
 
@@ -612,7 +612,7 @@ $$
 
 The expanded contextual form is a model formalization and is not asserted as a source equation unless separately grounded.
 
----
+______________________________________________________________________
 
 ## 9.3 Function Versus Authority
 
@@ -636,9 +636,9 @@ COMMITTED\ TRANSFORMATION
 }
 $$
 
----
+______________________________________________________________________
 
-# 10. Meaning — \(\mathcal M\)
+## 10. Meaning — (\\mathcal M)
 
 ## 10.1 Source Definition
 
@@ -659,7 +659,7 @@ $$
 \mathcal F\prec\mathcal M
 $$
 
----
+______________________________________________________________________
 
 ## 10.2 Constraint Inheritance
 
@@ -685,9 +685,9 @@ STRUCTURAL INVALIDITY
 
 This is a central AMOS-compatible interpretation of the supplied invariant.
 
----
+______________________________________________________________________
 
-# 11. Spine Dependency Structure
+## 11. Spine Dependency Structure
 
 The canonical source order is:
 
@@ -734,9 +734,9 @@ PRECEDENCE != NECESSARILY SUFFICIENT_CAUSATION
 
 The strongest source-grounded claim is that this is the framework's canonical structural sequence.
 
----
+______________________________________________________________________
 
-# 12. Pre-Symbolic Primacy Invariant
+## 12. Pre-Symbolic Primacy Invariant
 
 The supplied canon states:
 
@@ -785,9 +785,9 @@ PRE_SYMBOLIC_PRIMACY:
     meaning_must_respect_constraints: true
 ```
 
----
+______________________________________________________________________
 
-# 13. Master Equation Registry
+## 13. Master Equation Registry
 
 ```yaml
 [[01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_MASTER_EQUATIONS|KHUNG_TRANG_MASTER_EQUATIONS]]:
@@ -805,9 +805,9 @@ PRE_SYMBOLIC_PRIMACY:
     source_class: AMOS_MODEL
 ```
 
----
+______________________________________________________________________
 
-# 14. Trang ∅ Ground State
+## 14. Trang ∅ Ground State
 
 ## 14.1 Source Ground State
 
@@ -819,7 +819,7 @@ S_0=\emptyset
 }
 $$
 
-and identifies \(S_0\) as the null equilibrium ground state.
+and identifies (S_0) as the null equilibrium ground state.
 
 The source additionally defines a reset relation:
 
@@ -833,9 +833,9 @@ $$
 
 under the specified recovery condition.
 
----
+______________________________________________________________________
 
-# 15. Recovery Threshold
+## 15. Recovery Threshold
 
 The supplied specification states:
 
@@ -858,9 +858,9 @@ tau_entropy:
   empirical_status: NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 16. Reset Admission Rule
+## 16. Reset Admission Rule
 
 A conservative executable abstraction is:
 
@@ -873,7 +873,7 @@ ResetRequired(S_t)
 \end{cases}
 $$
 
-subject to the source-defined meaning of \(\tau_{entropy}\).
+subject to the source-defined meaning of (\\tau\_{entropy}).
 
 Then:
 
@@ -883,13 +883,13 @@ ResetRequired(S_t)=1
 ResetToEquilibrium(S_t)=S_0
 $$
 
-This formalization does not define how \(\tau_{entropy}\) is calculated.
+This formalization does not define how (\\tau\_{entropy}) is calculated.
 
 That remains a gap.
 
----
+______________________________________________________________________
 
-# 17. Reset Semantics
+## 17. Reset Semantics
 
 The source specifies that reset causes:
 
@@ -918,9 +918,9 @@ $$
 
 This is a model-level decomposition of the supplied semantics.
 
----
+______________________________________________________________________
 
-# 18. Selective Reset Invariant
+## 18. Selective Reset Invariant
 
 The source semantics imply two classes:
 
@@ -954,9 +954,9 @@ and:
 FAIL CLOSED != FORGET PROVENANCE
 ```
 
----
+______________________________________________________________________
 
-# 19. Null-Ground Firewall
+## 19. Null-Ground Firewall
 
 The notation:
 
@@ -980,9 +980,9 @@ The symbol is source-grounded.
 
 Its exact ontology remains framework-scoped.
 
----
+______________________________________________________________________
 
-# 20. Quadratic Emergence Law
+## 20. Quadratic Emergence Law
 
 ## 20.1 Source Expression
 
@@ -1016,9 +1016,9 @@ e=
 }
 $$
 
----
+______________________________________________________________________
 
-# 21. Variable Registry
+## 21. Variable Registry
 
 ```yaml
 QUADRATIC_EMERGENCE:
@@ -1040,15 +1040,15 @@ QUADRATIC_EMERGENCE:
       number_of_foundational_dimensions
 ```
 
-The precise semantic registry for each \(x_k\) is not supplied in this artifact.
+The precise semantic registry for each (x_k) is not supplied in this artifact.
 
 Therefore it remains dependency-bound.
 
----
+______________________________________________________________________
 
-# 22. Non-Compensatory Structure
+## 22. Non-Compensatory Structure
 
-The source characterizes \(i\) as **non-compensatory structural alignment**.
+The source characterizes (i) as **non-compensatory structural alignment**.
 
 Because:
 
@@ -1086,11 +1086,11 @@ if a foundational dimension collapses to zero,
 alignment and emergence collapse to zero.
 ```
 
----
+______________________________________________________________________
 
-# 23. Bottleneck Sensitivity
+## 23. Bottleneck Sensitivity
 
-For positive \(x_k\):
+For positive (x_k):
 
 $$
 \ln i
@@ -1123,9 +1123,9 @@ All dimensions are mathematically symmetric in the bare expression.
 
 Any claim that particular dimensions have greater weight requires an extended source model.
 
----
+______________________________________________________________________
 
-# 24. Emergence Scaling
+## 24. Emergence Scaling
 
 If:
 
@@ -1133,7 +1133,7 @@ $$
 x_k'=\lambda x_k
 $$
 
-for all \(k\), then for positive real values:
+for all (k), then for positive real values:
 
 $$
 i'=\lambda i
@@ -1151,9 +1151,9 @@ Thus the emergence expression is quadratically homogeneous under uniform scaling
 
 This is a mathematical derivation, not a separate empirical law.
 
----
+______________________________________________________________________
 
-# 25. Emergence Domain
+## 25. Emergence Domain
 
 A simple real-valued implementation domain is:
 
@@ -1185,9 +1185,9 @@ UNKNOWN/GAP
 
 unless separately defined.
 
----
+______________________________________________________________________
 
-# 26. Thermodynamic Entropy Dissipation
+## 26. Thermodynamic Entropy Dissipation
 
 ## 26.1 Source Equation
 
@@ -1222,9 +1222,9 @@ $$
 
 as exported entropy.
 
----
+______________________________________________________________________
 
-# 27. Entropy Balance
+## 27. Entropy Balance
 
 Define:
 
@@ -1278,9 +1278,9 @@ $$
 }
 $$
 
----
+______________________________________________________________________
 
-# 28. Material Algebraic Clarification
+## 28. Material Algebraic Clarification
 
 The source formulation associates:
 
@@ -1329,9 +1329,9 @@ entropy_dissipation:
 
 This is a correction of logical sufficiency, not a rewrite of source provenance.
 
----
+______________________________________________________________________
 
-# 29. Entropy Operating Regimes
+## 29. Entropy Operating Regimes
 
 For:
 
@@ -1341,7 +1341,7 @@ $$
 \dot S_i-|\dot S_e|
 $$
 
-when \(\dot S_e<0\):
+when (\\dot S_e\<0):
 
 ### Dissipative regime
 
@@ -1375,9 +1375,9 @@ $$
 }
 $$
 
----
+______________________________________________________________________
 
-# 30. Computational Interpretation
+## 30. Computational Interpretation
 
 The source associates entropy accumulation with:
 
@@ -1403,9 +1403,9 @@ $$
 
 unless an explicit validated mapping is supplied.
 
----
+______________________________________________________________________
 
-# 31. Entropy Semantic Registry
+## 31. Entropy Semantic Registry
 
 Every implementation SHOULD declare:
 
@@ -1440,9 +1440,9 @@ ENTROPY_BINDING:
 
 Without these fields, cross-domain claims remain unsupported.
 
----
+______________________________________________________________________
 
-# 32. Three Master Transformations
+## 32. Three Master Transformations
 
 The framework can be represented conservatively as three distinct transformation surfaces:
 
@@ -1464,9 +1464,9 @@ These surfaces coexist within the master architecture.
 
 Their co-location does not prove that they form one physical causal mechanism.
 
----
+______________________________________________________________________
 
-# 33. Epistemic Invariant Core
+## 33. Epistemic Invariant Core
 
 The source explicitly defines:
 
@@ -1490,9 +1490,9 @@ $$
 
 These distinctions govern every interpretation of the framework.
 
----
+______________________________________________________________________
 
-# 34. MODEL ≠ OBSERVATION
+## 34. MODEL ≠ OBSERVATION
 
 A Khung Trang equation, architecture, or mapping is a model artifact unless supported by appropriately typed observation.
 
@@ -1512,9 +1512,9 @@ does not automatically equal:
 EMPIRICAL OBSERVATION
 ```
 
----
+______________________________________________________________________
 
-# 35. PROPOSAL ≠ COMMIT
+## 35. PROPOSAL ≠ COMMIT
 
 A candidate state transition:
 
@@ -1532,11 +1532,11 @@ Proposal(S_{t+1})
 Commit(S_{t+1})
 $$
 
----
+______________________________________________________________________
 
-# 36. CAPABILITY ≠ AUTHORITY
+## 36. CAPABILITY ≠ AUTHORITY
 
-A component may possess the technical capability to perform transformation \(F\):
+A component may possess the technical capability to perform transformation (F):
 
 $$
 CanExecute(F)=true
@@ -1556,9 +1556,9 @@ CanExecute(F)
 MayExecute(F)
 $$
 
----
+______________________________________________________________________
 
-# 37. Fail-Closed Execution
+## 37. Fail-Closed Execution
 
 The source establishes:
 
@@ -1582,9 +1582,9 @@ UNKNOWN/GAP
 NO\ UNVALIDATED\ COMMIT
 $$
 
----
+______________________________________________________________________
 
-# 38. Confidence Ceiling
+## 38. Confidence Ceiling
 
 A conclusion inherits the weakest load-bearing premise.
 
@@ -1600,9 +1600,9 @@ subject to the AMOS confidence-ceiling discipline.
 
 This is an epistemic governance model, not a universal probability theorem.
 
----
+______________________________________________________________________
 
-# 39. Selective Invalidation
+## 39. Selective Invalidation
 
 When a premise fails:
 
@@ -1624,7 +1624,7 @@ P1 ──► C1 ──► C2
 P2 ─────────► C4
 ```
 
-If \(P1\) fails:
+If (P1) fails:
 
 ```text
 C1 INVALID
@@ -1637,9 +1637,9 @@ C4 PRESERVED
 
 provided no hidden dependency connects them.
 
----
+______________________________________________________________________
 
-# 40. Provenance Discipline
+## 40. Provenance Discipline
 
 The artifact declares provenance from:
 
@@ -1659,9 +1659,9 @@ These provenance paths establish lineage.
 
 They do not automatically establish evidentiary independence.
 
----
+______________________________________________________________________
 
-# 41. Provenance Topology
+## 41. Provenance Topology
 
 ```text
                 AMOS_CORPUS
@@ -1685,9 +1685,9 @@ MULTIPLE REFERENCES
 INDEPENDENT CONFIRMATION
 ```
 
----
+______________________________________________________________________
 
-# 42. Cross-Plane Architecture
+## 42. Cross-Plane Architecture
 
 The supplied bindings are:
 
@@ -1714,9 +1714,9 @@ These links indicate intended architectural relationships.
 
 They do not independently prove runtime enforcement unless the corresponding executable bindings and receipts exist.
 
----
+______________________________________________________________________
 
-# 43. H-Level RSCF
+## 43. H-Level RSCF
 
 ```yaml
 H:
@@ -1749,9 +1749,9 @@ H:
     SOURCE_GROUNDED_CANON_CANDIDATE
 ```
 
----
+______________________________________________________________________
 
-# 44. M-Level RSCF
+## 44. M-Level RSCF
 
 ```yaml
 M:
@@ -1804,9 +1804,9 @@ M:
     - FAIL_CLOSED_ON_UNKNOWN_GAP
 ```
 
----
+______________________________________________________________________
 
-# 45. L-Level RSCF
+## 45. L-Level RSCF
 
 ```yaml
 L:
@@ -1863,9 +1863,9 @@ L:
       "dS/dt = d_iS/dt + d_eS/dt"
 ```
 
----
+______________________________________________________________________
 
-# 46. Full RSCF Proof Contract
+## 46. Full RSCF Proof Contract
 
 ```yaml
 RSCF:
@@ -1987,9 +1987,9 @@ RSCF:
       NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 47. Machine-Readable Master Registry
+## 47. Machine-Readable Master Registry
 
 ```yaml
 KHUNG_TRANG_MASTER:
@@ -2106,9 +2106,9 @@ KHUNG_TRANG_MASTER:
       MEANING_MUST_NOT_OVERRIDE_LOAD_BEARING_CONSTRAINT
 ```
 
----
+______________________________________________________________________
 
-# 48. Validation Contract
+## 48. Validation Contract
 
 A complete validation suite for the master framework SHOULD distinguish source fidelity from runtime correctness and empirical validation.
 
@@ -2192,9 +2192,9 @@ KHUNG_TRANG_MASTER_VALIDATION:
       status: NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 49. Required Negative Cases
+## 49. Required Negative Cases
 
 ```yaml
 NEGATIVE_CASES:
@@ -2245,9 +2245,9 @@ NEGATIVE_CASES:
     - unknown_gap_treated_as_pass
 ```
 
----
+______________________________________________________________________
 
-# 50. Falsifiers
+## 50. Falsifiers
 
 The artifact is invalidated or requires revision if any of the following occurs.
 
@@ -2302,9 +2302,9 @@ UNKNOWN/GAP = PASS
 
 A framework-level model statement is promoted into a universal empirical law without independent validation.
 
----
+______________________________________________________________________
 
-# 51. Gap Register
+## 51. Gap Register
 
 ```yaml
 GAPS:
@@ -2355,37 +2355,37 @@ GAPS:
     status: NOT_PRESENT_IN_THIS_ARTIFACT
 ```
 
----
+______________________________________________________________________
 
-# 52. Promotion Gate
+## 52. Promotion Gate
 
 Promotion beyond source-grounded AMOS_MODEL status requires:
 
-* [ ] native source lineage resolved;
-* [ ] P/D/R/C/F/M definitions source-validated;
-* [ ] spine edge semantics explicitly typed;
-* [ ] causal claims independently supported where asserted;
-* [ ] `S_0` operational semantics defined;
-* [ ] `tau_entropy` measurement function defined;
-* [ ] `tau_entropy = 0.8` calibration basis established;
-* [ ] reset preservation set formally specified;
-* [ ] \(x_k\) variable registry established;
-* [ ] emergence numeric domain established;
-* [ ] entropy semantic regime bound;
-* [ ] entropy units and system boundary specified;
-* [ ] entropy magnitude condition enforced;
-* [ ] negative cases executed;
-* [ ] provenance persistence verified;
-* [ ] rollback/recovery behavior demonstrated;
-* [ ] artifact-specific execution receipt persisted;
-* [ ] empirical validation supplied for any empirical claim;
-* [ ] unresolved critical gaps remain visible.
+- [ ] native source lineage resolved;
+- [ ] P/D/R/C/F/M definitions source-validated;
+- [ ] spine edge semantics explicitly typed;
+- [ ] causal claims independently supported where asserted;
+- [ ] `S_0` operational semantics defined;
+- [ ] `tau_entropy` measurement function defined;
+- [ ] `tau_entropy = 0.8` calibration basis established;
+- [ ] reset preservation set formally specified;
+- [ ] (x_k) variable registry established;
+- [ ] emergence numeric domain established;
+- [ ] entropy semantic regime bound;
+- [ ] entropy units and system boundary specified;
+- [ ] entropy magnitude condition enforced;
+- [ ] negative cases executed;
+- [ ] provenance persistence verified;
+- [ ] rollback/recovery behavior demonstrated;
+- [ ] artifact-specific execution receipt persisted;
+- [ ] empirical validation supplied for any empirical claim;
+- [ ] unresolved critical gaps remain visible.
 
----
+______________________________________________________________________
 
-# 53. Worked Semantics — Ontological Admission
+## 53. Worked Semantics — Ontological Admission
 
-Given candidate semantic claim \(M^*\):
+Given candidate semantic claim (M^\*):
 
 ### Step 1 — Resolve perception basis
 
@@ -2456,9 +2456,9 @@ M^*
 REJECT/HOLD
 $$
 
----
+______________________________________________________________________
 
-# 54. Worked Semantics — Emergence
+## 54. Worked Semantics — Emergence
 
 Given positive foundational dimensions:
 
@@ -2503,9 +2503,9 @@ $$
 e=0
 $$
 
----
+______________________________________________________________________
 
-# 55. Worked Semantics — Entropy Gate
+## 55. Worked Semantics — Entropy Gate
 
 Given:
 
@@ -2563,9 +2563,9 @@ NEGATIVE EXPORT
 SUFFICIENT NON-ACCUMULATION
 ```
 
----
+______________________________________________________________________
 
-# 56. Worked Semantics — Reset
+## 56. Worked Semantics — Reset
 
 Given declared recovery metric:
 
@@ -2608,9 +2608,9 @@ cryptographic provenance
 
 An executable implementation MUST define exactly which state belongs to each preservation class.
 
----
+______________________________________________________________________
 
-# 57. Sensitivity Register
+## 57. Sensitivity Register
 
 The smallest premises capable of changing major conclusions include:
 
@@ -2646,9 +2646,9 @@ $$
 
 is the boundary between entropy decrease and accumulation.
 
----
+______________________________________________________________________
 
-# 58. Competing Hypotheses Register
+## 58. Competing Hypotheses Register
 
 ```yaml
 COMPETING:
@@ -2694,9 +2694,9 @@ COMPETING:
 
 Until discriminating evidence exists, incompatible interpretations remain `COMPETING`.
 
----
+______________________________________________________________________
 
-# 59. Proof Capsule
+## 59. Proof Capsule
 
 ```yaml
 KHUNG_TRANG_MASTER_[[01_CANON/01_CORE_LAWS/L19_PROOF_CAPSULE|L19_PROOF_CAPSULE]]:
@@ -2744,9 +2744,9 @@ KHUNG_TRANG_MASTER_[[01_CANON/01_CORE_LAWS/L19_PROOF_CAPSULE|L19_PROOF_CAPSULE]]
   receipt:
 ```
 
----
+______________________________________________________________________
 
-# 60. Canonical Cross-Bindings
+## 60. Canonical Cross-Bindings
 
 ```yaml
 CROSS_BINDINGS:
@@ -2773,9 +2773,9 @@ CROSS_BINDINGS:
     "[[01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_EQUATIONS_CANON|KHUNG_TRANG_EQUATIONS_CANON]]"
 ```
 
----
+______________________________________________________________________
 
-# 61. Relationship to Khung Trang Equations
+## 61. Relationship to Khung Trang Equations
 
 The master artifact supplies the high-level architecture:
 
@@ -2811,9 +2811,9 @@ NORMATIVE EQUATION GOVERNANCE
 
 These should remain separate canonical responsibilities.
 
----
+______________________________________________________________________
 
-# 62. Anti-Regression Invariants
+## 62. Anti-Regression Invariants
 
 Any future revision MUST preserve or improve:
 
@@ -2843,23 +2843,23 @@ MATHEMATICAL CONSISTENCY
 
 Optimization that weakens any of these properties is rejected.
 
----
+______________________________________________________________________
 
-# 63. Canonical Completion Matrix
+## 63. Canonical Completion Matrix
 
 | Surface                          | Source state    | Runtime state                               | Empirical state                         |
 | -------------------------------- | --------------- | ------------------------------------------- | --------------------------------------- |
 | P→D→R→C→F→M spine                | SOURCE_GROUNDED | Declared runtime binding                    | Universal validity NOT_ESTABLISHED      |
-| \(S_0=\emptyset\)                | SOURCE_GROUNDED | Conceptual/runtime-bound                    | Physical interpretation NOT_ESTABLISHED |
-| \(\tau_{entropy}=0.8\) threshold | SOURCE_GROUNDED | Measurement definition GAP                  | Empirical calibration NOT_ESTABLISHED   |
-| \(i=(\prod x_k)^{1/N}\)          | SOURCE_GROUNDED | Mathematically executable when domain bound | Empirical meaning depends on \(x_k\)    |
-| \(e=i^2\)                        | SOURCE_GROUNDED | Mathematically executable                   | Universal emergence law NOT_ESTABLISHED |
+| (S_0=\\emptyset)                 | SOURCE_GROUNDED | Conceptual/runtime-bound                    | Physical interpretation NOT_ESTABLISHED |
+| (\\tau\_{entropy}=0.8) threshold | SOURCE_GROUNDED | Measurement definition GAP                  | Empirical calibration NOT_ESTABLISHED   |
+| (i=(\\prod x_k)^{1/N})           | SOURCE_GROUNDED | Mathematically executable when domain bound | Empirical meaning depends on (x_k)      |
+| (e=i^2)                          | SOURCE_GROUNDED | Mathematically executable                   | Universal emergence law NOT_ESTABLISHED |
 | entropy balance                  | SOURCE_GROUNDED | Algebraically executable                    | Entropy regime requires binding         |
 | epistemic invariants             | SOURCE_GROUNDED | Governance-model surface                    | Not empirical claims                    |
 
----
+______________________________________________________________________
 
-# 64. Canonical Compression
+## 64. Canonical Compression
 
 The Khung Trang Master Architecture is source-grounded around:
 
@@ -2968,9 +2968,9 @@ UNIVERSAL EMPIRICAL STATUS
 NOT ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 65. RSCF Node
+## 65. RSCF Node
 
 ```text
 RSCF-NODE
@@ -3056,23 +3056,24 @@ RSCF-RELATIONS:
       EPISTEMIC_INVARIANT_CORE
 ```
 
----
+______________________________________________________________________
 
 00_ROOT_MOC|AMOS MOC
 
----
+______________________________________________________________________
 
-**Related:**  ·  ·  ·  ·  ·  ·  ·
+**Related:** · · · · · · ·
 
----
+______________________________________________________________________
 
 **MOC:**
 
----
+______________________________________________________________________
 
 **Origin architect / steward:** **Trang Phan**
 
-
 Two material boundaries are deliberately retained in this full version rather than normalized away. First, the `0.8` reset threshold is source-grounded but its measurement function, scale, and empirical calibration are not supplied here, so those remain `UNKNOWN/GAP`. Second, the entropy equation requires internal generation to be no greater than export magnitude for net entropy to be non-positive; negative export by itself is mathematically insufficient.
 
+```
+```
 ```

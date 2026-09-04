@@ -1,15 +1,18 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: 04 Cognition MOC
 type: moc
 source: 05_COGNITIVE_ORGANISM/04_COGNITION
 tags:
-- 04-cognition
-- canon/cognitive
-- amos-cognition-engine
-- first-principles-reasoning
-- fractal-reasoning
-- human-intelligence-engine
-- nbi-engine
+  - 04-cognition
+  - canon/cognitive
+  - amos-cognition-engine
+  - first-principles-reasoning
+  - fractal-reasoning
+  - human-intelligence-engine
+  - nbi-engine
 moc: true
 rscf:
   state: DERIVED
@@ -31,5 +34,6 @@ rscf:
 - [[05_COGNITIVE_ORGANISM/04_COGNITION/HUMAN_INTELLIGENCE_ENGINE|HUMAN_INTELLIGENCE_ENGINE]]
 - [[05_COGNITIVE_ORGANISM/04_COGNITION/NBI_ENGINE|NBI_ENGINE]]
 
----
+______________________________________________________________________
+
 **Parent:** [[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC|05_COGNITIVE_ORGANISM_MOC]]

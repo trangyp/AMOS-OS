@@ -1,22 +1,25 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: L01 SENSING OBSERVATION PRIMITIVES COGNITIVE MATRIX EQUATIONS
 type: cognitive
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION
 tags:
-- amos
-- cognitive-matrix
-- matrix/l01
-- sensing-observation
-- equations
-- measurement
-- provenance
-- uncertainty
-- hml
-- control-plane
-- rscf
-- rscf/type-model
-- domain/cognitive-matrix
-- memory
+  - amos
+  - cognitive-matrix
+  - matrix/l01
+  - sensing-observation
+  - equations
+  - measurement
+  - provenance
+  - uncertainty
+  - hml
+  - control-plane
+  - rscf
+  - rscf/type-model
+  - domain/cognitive-matrix
+  - memory
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -37,9 +40,9 @@ rscf:
 
 > **Equation boundary:** equations in this document are structural AMOS models unless individually supported as established mathematics or domain-empirical equations. Their presence in the architecture does not prove that every real sensing system obeys them, nor that an executable L01 implementation currently exists.
 
----
+______________________________________________________________________
 
-# 0. Purpose
+## 0. Purpose
 
 `L01_SENSING_OBSERVATION/EQUATIONS.md` defines the formal relations governing how an addressable environment or evidence source becomes an AMOS observation.
 
@@ -71,33 +74,33 @@ observation → downstream cognition
 
 The fundamental distinction is:
 
-[
-\boxed{
+\[
+\\boxed{
 Reality
-\neq
+\\neq
 Observation
-\neq
+\\neq
 Interpretation
-\neq
+\\neq
 Inference
 }
-]
+\]
 
 The governing L01 transformation is:
 
-[
-\boxed{
+\[
+\\boxed{
 E_t
-\xrightarrow{\mathcal{S}}
+\\xrightarrow{\\mathcal{S}}
 O_t
 }
-]
+\]
 
-where (\mathcal{S}) represents a bounded sensing or observation operator rather than a universal physical law.
+where (\\mathcal{S}) represents a bounded sensing or observation operator rather than a universal physical law.
 
----
+______________________________________________________________________
 
-# 1. Equation Registry
+## 1. Equation Registry
 
 Every consequential equation should be representable as:
 
@@ -139,15 +142,15 @@ Unless direct independent evidence establishes otherwise, equations introduced s
 AMOS_MODEL
 ```
 
----
+______________________________________________________________________
 
-# 2. Symbol Registry
+## 2. Symbol Registry
 
 Core symbol tensor:
 
-[
-\boxed{
-S[
+\[
+\\boxed{
+S\[
 symbol,
 domain,
 type,
@@ -155,46 +158,46 @@ unit,
 scope,
 regime,
 version
-]
+\]
 }
-]
+\]
 
 A symbol must not participate in promoted formal reasoning if its semantic type is undefined.
 
 Hard invariant:
 
-[
+\[
 Undefined(x)
-\Rightarrow
+\\Rightarrow
 NoProofPromotion
-]
+\]
 
----
+______________________________________________________________________
 
-# 3. Core Symbols
+## 3. Core Symbols
 
 | Symbol              | Meaning                                 | Type              |
 | ------------------- | --------------------------------------- | ----------------- |
-| \(E_t\)               | environment or source state at time (t) | environment state |
-| \(A_t\)               | observing agent or sensing system       | observer          |
-| \(C_t\)               | sensing channel                         | channel           |
-| \(M_t\)               | measurement/acquisition method          | method            |
-| \(I_t\)               | sensing instrument or tool              | instrument        |
+| (E_t)               | environment or source state at time (t) | environment state |
+| (A_t)               | observing agent or sensing system       | observer          |
+| (C_t)               | sensing channel                         | channel           |
+| (M_t)               | measurement/acquisition method          | method            |
+| (I_t)               | sensing instrument or tool              | instrument        |
 | (O_t^{raw})         | raw observation                         | observation       |
-| \(O_t\)               | normalized typed observation            | observation       |
-| \(Y_t\)               | measured value                          | measurement       |
-| \(P_t\)               | provenance state                        | provenance        |
-| \(Q_t\)               | quality state                           | quality           |
-| \(U_t\)               | uncertainty state                       | uncertainty       |
-| \(F_t\)               | freshness state                         | freshness         |
-| (\Sigma_t)          | scope                                   | scope             |
-| \(R_t\)               | regime                                  | regime            |
-| \(V_t\)               | validation state                        | validation        |
-| \(D_t\)               | dependency state                        | dependency graph  |
+| (O_t)               | normalized typed observation            | observation       |
+| (Y_t)               | measured value                          | measurement       |
+| (P_t)               | provenance state                        | provenance        |
+| (Q_t)               | quality state                           | quality           |
+| (U_t)               | uncertainty state                       | uncertainty       |
+| (F_t)               | freshness state                         | freshness         |
+| (\\Sigma_t)         | scope                                   | scope             |
+| (R_t)               | regime                                  | regime            |
+| (V_t)               | validation state                        | validation        |
+| (D_t)               | dependency state                        | dependency graph  |
 | (Auth_t)            | authority state                         | governance        |
 | (H_t,M_t^{HML},L_t) | H/M/L scale states                      | scale state       |
 
-The use of \(M_t\) for acquisition method and `M` for middle H/M/L scale should not occur in the same implementation without namespace disambiguation.
+The use of (M_t) for acquisition method and `M` for middle H/M/L scale should not occur in the same implementation without namespace disambiguation.
 
 Preferred implementation notation:
 
@@ -203,18 +206,15 @@ Method_t
 Scale_M
 ```
 
----
+______________________________________________________________________
 
-# 4. Fundamental Observation Equation
+## 4. Fundamental Observation Equation
 
 The primary L01 model is:
 
-[
-\boxed{
-O_t
-===
+## \[ \\boxed{ O_t
 
-\mathcal{S}
+\\mathcal{S}
 (
 E_t,
 A_t,
@@ -224,7 +224,7 @@ I_t,
 t
 )
 }
-]
+\]
 
 Interpretation:
 
@@ -246,30 +246,27 @@ the temporal context
 
 Therefore:
 
-[
-\boxed{
-O_t \neq E_t
+\[
+\\boxed{
+O_t \\neq E_t
 }
-]
+\]
 
 The observation is a representation generated through a sensing relationship.
 
----
+______________________________________________________________________
 
-# 5. Observation With Error
+## 5. Observation With Error
 
 A generic observation model is:
 
-[
-\boxed{
-O_t
-===
+## \[ \\boxed{ O_t
 
-h(E_t,\theta_t)
-+
-\epsilon_t
+h(E_t,\\theta_t)
+\+
+\\epsilon_t
 }
-]
+\]
 
 where:
 
@@ -285,16 +282,13 @@ This is an `AMOS_MODEL` abstraction.
 
 The form does not assert Gaussian noise, additive physical error, or any specific empirical measurement process unless separately validated.
 
----
+______________________________________________________________________
 
-# 6. Configuration Tensor
+## 6. Configuration Tensor
 
-[
-\boxed{
-\theta_t
-========
+## \[ \\boxed{ \\theta_t
 
-[
+\[
 observer,
 channel,
 instrument,
@@ -303,68 +297,60 @@ resolution,
 calibration,
 scope,
 regime
-]
+\]
 }
-]
+\]
 
 Therefore:
 
-[
-O_t
-===
+## \[ O_t
 
-h(E_t,\theta_t)
-]
+h(E_t,\\theta_t)
+\]
 
 makes observer and acquisition configuration explicit.
 
----
+______________________________________________________________________
 
-# 7. Raw Observation Equation
+## 7. Raw Observation Equation
 
 Before normalization:
 
-[
-\boxed{
-O_t^{raw}
-=========
+## \[ \\boxed{ O_t^{raw}
 
 Acquire(E_t,C_t,I_t,Method_t)
 }
-]
+\]
 
 Raw status must remain distinguishable from validated state.
 
-[
-\boxed{
+\[
+\\boxed{
 O^{raw}
-\neq
+\\neq
 O^{validated}
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 8. Normalization Equation
+## 8. Normalization Equation
 
-Let (\mathcal{N}) be a semantics-preserving normalization operator:
+Let (\\mathcal{N}) be a semantics-preserving normalization operator:
 
-[
-\boxed{
-O_t^{norm}
-==========
+## \[ \\boxed{ O_t^{norm}
 
-\mathcal{N}(O_t^{raw})
+\\mathcal{N}(O_t^{raw})
 }
-]
+\]
 
 Required invariant:
 
-[
+\[
 Meaning(O_t^{norm})
-\approx
+\\approx
 Meaning(O_t^{raw})
-]
+\]
 
 within declared transformation loss.
 
@@ -390,46 +376,40 @@ uncertainty
 
 where load-bearing.
 
----
+______________________________________________________________________
 
-# 9. Transformation Loss
+## 9. Transformation Loss
 
-For transformation (\mathcal{T}):
+For transformation (\\mathcal{T}):
 
-[
-\boxed{
-L_{\mathcal{T}}
-===============
+## \[ \\boxed{ L\_{\\mathcal{T}}
 
 Loss(
 O,
-\mathcal{T}\(O\)
+\\mathcal{T}(O)
 )
 }
-]
+\]
 
 `Loss` must be explicitly defined before numerical claims are made.
 
 The structural invariant is:
 
-[
-L_{\mathcal{T}} > AcceptableThreshold
-\Rightarrow
+\[
+L\_{\\mathcal{T}} > AcceptableThreshold
+\\Rightarrow
 NoTrustedEquivalence
-]
+\]
 
----
+______________________________________________________________________
 
-# 10. Measurement Equation
+## 10. Measurement Equation
 
 Measurement is modeled as:
 
-[
-\boxed{
-Y_t
-===
+## \[ \\boxed{ Y_t
 
-\mathcal{M}
+\\mathcal{M}
 (
 O_t,
 Instrument_t,
@@ -437,36 +417,33 @@ Method_t,
 Calibration_t
 )
 }
-]
+\]
 
 Hard distinction:
 
-[
-\boxed{
+\[
+\\boxed{
 Y_t
-\neq
+\\neq
 UnderlyingReality_t
 }
-]
+\]
 
 unless a domain-specific measurement model establishes the relevant relation.
 
----
+______________________________________________________________________
 
-# 11. Measurement With Error
+## 11. Measurement With Error
 
 Generic model:
 
-[
-\boxed{
-Y_t
-===
+## \[ \\boxed{ Y_t
 
-\mu_t
-+
-\epsilon_t^{meas}
+\\mu_t
+\+
+\\epsilon_t^{meas}
 }
-]
+\]
 
 where:
 
@@ -480,76 +457,68 @@ This expression is not valid for all sensing domains by default.
 
 It is an abstract structural form.
 
----
+______________________________________________________________________
 
-# 12. Calibration Equation
+## 12. Calibration Equation
 
-Let calibration parameters be (\phi).
+Let calibration parameters be (\\phi).
 
-[
-\boxed{
-Y_t^{cal}
-=========
+## \[ \\boxed{ Y_t^{cal}
 
-Calibrate(Y_t,\phi)
+Calibrate(Y_t,\\phi)
 }
-]
+\]
 
 Calibration validity requires:
 
-[
-ValidCalibration(\phi,t)=TRUE
-]
+\[
+ValidCalibration(\\phi,t)=TRUE
+\]
 
 Otherwise:
 
-[
+\[
 CalibrationUnknown
-\Rightarrow
-MeasurementConfidence \downarrow
-]
+\\Rightarrow
+MeasurementConfidence \\downarrow
+\]
 
 or trusted promotion is blocked if calibration is load-bearing.
 
----
+______________________________________________________________________
 
-# 13. Unit Compatibility Equation
+## 13. Unit Compatibility Equation
 
 For two measurements (Y_a,Y_b):
 
-[
+\[
 Comparable(Y_a,Y_b)
-\Rightarrow
+\\Rightarrow
 CompatibleUnits(Y_a,Y_b)
-]
+\]
 
 If:
 
-[
-Unit(Y_a)\neq Unit(Y_b)
-]
+\[
+Unit(Y_a)\\neq Unit(Y_b)
+\]
 
 then explicit conversion is required:
 
-[
-Y_b'
-====
+## \[ Y_b'
 
-Convert(Y_b,Unit_b\rightarrow Unit_a)
-]
+Convert(Y_b,Unit_b\\rightarrow Unit_a)
+\]
 
 before arithmetic comparison.
 
----
+______________________________________________________________________
 
-# 14. Observation Identity Equation
+## 14. Observation Identity Equation
 
 An observation should preserve:
 
-[
-\boxed{
-ID(O)
-=====
+## \[ \\boxed{ ID(O)
 
 f(
 target,
@@ -560,28 +529,25 @@ source,
 method
 )
 }
-]
+\]
 
 The exact hash/identity function is implementation-specific.
 
 Identity equality must not be inferred solely from equal values.
 
-[
+\[
 Value(O_a)=Value(O_b)
-\not\Rightarrow
+\\not\\Rightarrow
 O_a=O_b
-]
+\]
 
----
+______________________________________________________________________
 
-# 15. Observation Tensor
+## 15. Observation Tensor
 
-[
-\boxed{
-T_O
-===
+## \[ \\boxed{ T_O
 
-T[
+T\[
 observation_id,
 target,
 observer,
@@ -600,52 +566,46 @@ quality,
 uncertainty,
 provenance,
 validation
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 16. Observation State Equation
+## 16. Observation State Equation
 
-[
-\boxed{
-S_{L01,t}
-=========
+## \[ \\boxed{ S\_{L01,t}
 
-T[
+T\[
 O_t,
 Q_t,
 U_t,
 P_t,
 F_t,
-\Sigma_t,
+\\Sigma_t,
 R_t,
 V_t,
 D_t
-]
+\]
 }
-]
+\]
 
 The state contains observation plus the metadata required to interpret it safely.
 
----
+______________________________________________________________________
 
-# 17. Observation State Transition
+## 17. Observation State Transition
 
 General controlled transition:
 
-[
-\boxed{
-S_{t+1}
-=======
+## \[ \\boxed{ S\_{t+1}
 
-\Pi_I
-\left(
+\\Pi_I
+\\left(
 F(S_t,U_t,E_t,M_t)
-\right)
+\\right)
 }
-]
+\]
 
 where:
 
@@ -657,68 +617,68 @@ F      = proposed state transition
 
 This is an AMOS formal-control model.
 
----
+______________________________________________________________________
 
-# 18. Observation Lifecycle Equation
+## 18. Observation Lifecycle Equation
 
 Candidate state sequence:
 
-[
-\boxed{
+\[
+\\boxed{
 REQUESTED
-\rightarrow
+\\rightarrow
 AUTHORIZED
-\rightarrow
+\\rightarrow
 ACQUIRING
-\rightarrow
+\\rightarrow
 RAW
-\rightarrow
+\\rightarrow
 TYPED
-\rightarrow
+\\rightarrow
 PROVENANCE_BOUND
-\rightarrow
+\\rightarrow
 VALIDATED
-\rightarrow
+\\rightarrow
 ADMITTED
 }
-]
+\]
 
 Alternative terminal states:
 
-[
+\[
 {
 QUARANTINED,
 REJECTED,
 STALE,
 UNKNOWN/GAP
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 19. Transition Gate
+## 19. Transition Gate
 
-For transition (s_i\rightarrow s_j):
+For transition (s_i\\rightarrow s_j):
 
-[
-\boxed{
+\[
+\\boxed{
 Transition(s_i,s_j)
-\Rightarrow
+\\Rightarrow
 Preconditions(s_j)=PASS
 }
-]
+\]
 
 A missing hard precondition blocks transition.
 
----
+______________________________________________________________________
 
-# 20. Epistemic Classification Equation
+## 20. Epistemic Classification Equation
 
 Let:
 
-[
+\[
 Class(x)
-\in
+\\in
 {
 OBSERVATION,
 MEASUREMENT,
@@ -730,173 +690,164 @@ PREDICTION,
 SIMULATION,
 UNKNOWN
 }
-]
+\]
 
 Epistemic type preservation requires:
 
-[
+\[
 Transform(x)
-\Rightarrow
+\\Rightarrow
 Class(Transform(x))
-\text{ remains explicitly assigned}
-]
+\\text{ remains explicitly assigned}
+\]
 
 No operator may silently promote:
 
-[
+\[
 MODEL
-\rightarrow
+\\rightarrow
 OBSERVATION
-]
+\]
 
 or:
 
-[
+\[
 PREDICTION
-\rightarrow
+\\rightarrow
 OBSERVATION
-]
+\]
 
----
+______________________________________________________________________
 
-# 21. Source Claim Equation
+## 21. Source Claim Equation
 
-If a document or source states claim \(C\):
+If a document or source states claim (C):
 
-[
-\boxed{
+\[
+\\boxed{
 Observe(SourceContains(C))
 }
-]
+\]
 
 may be an observation.
 
 But:
 
-[
-\boxed{
+\[
+\\boxed{
 SourceContains(C)
-\not\Rightarrow
+\\not\\Rightarrow
 Verified(C)
 }
-]
+\]
 
 This is one of the strongest L01 epistemic equations.
 
----
+______________________________________________________________________
 
-# 22. Derived State Equation
+## 22. Derived State Equation
 
-For observations (O_1,\ldots,O_n):
+For observations (O_1,\\ldots,O_n):
 
-[
-\boxed{
-D
-=
+## \[ \\boxed{ D
 
-f(O_1,\ldots,O_n)
+f(O_1,\\ldots,O_n)
 }
-]
+\]
 
 then:
 
-[
+\[
 Class(D)=DERIVED
-]
+\]
 
-unless an independent direct observation establishes \(D\).
+unless an independent direct observation establishes (D).
 
----
+______________________________________________________________________
 
-# 23. Prediction Boundary
+## 23. Prediction Boundary
 
-[
-\boxed{
-\hat{O}_{t+h}
-=============
+## \[ \\boxed{ \\hat{O}\_{t+h}
 
-Predict(S_{\leq t})
+Predict(S\_{\\leq t})
 }
-]
+\]
 
 but:
 
-[
-\boxed{
-\hat{O}*{t+h}
-\neq
+\[
+\\boxed{
+\\hat{O}*{t+h}
+\\neq
 O*{t+h}
 }
-]
+\]
 
 until outcome observation occurs.
 
----
+______________________________________________________________________
 
-# 24. Memory Boundary Equation
+## 24. Memory Boundary Equation
 
 For stored observation:
 
-[
+\[
 M(O_t)
-]
+\]
 
 retrieved at later time (t+k):
 
-[
-\boxed{
+\[
+\\boxed{
 Retrieve(M(O_t),t+k)
-\neq
-Observe(O_{t+k})
+\\neq
+Observe(O\_{t+k})
 }
-]
+\]
 
 Retrieval does not refresh the original observation timestamp.
 
----
+______________________________________________________________________
 
-# 25. Simulation Boundary Equation
+## 25. Simulation Boundary Equation
 
 Let simulated environment state be:
 
-[
+\[
 E_t^{sim}
-]
+\]
 
 then:
 
-[
-\boxed{
-O_t^{sim}
-=========
+## \[ \\boxed{ O_t^{sim}
 
-\mathcal{S}(E_t^{sim})
+\\mathcal{S}(E_t^{sim})
 }
-]
+\]
 
 must retain:
 
-[
+\[
 Class(O_t^{sim})=SIMULATION_DERIVED
-]
+\]
 
 unless validated against an external observation path.
 
----
+______________________________________________________________________
 
-# 26. Observation Availability
+## 26. Observation Availability
 
 Define:
 
-[
+\[
 A_t^{obs}
-\in
+\\in
 {
 1,
 0,
 ?
 }
-]
+\]
 
 where:
 
@@ -910,31 +861,31 @@ where:
 
 Hard rule:
 
-[
+\[
 A_t^{obs}=0
-\Rightarrow
+\\Rightarrow
 NoObservationFabrication
-]
+\]
 
 and:
 
-[
+\[
 A_t^{obs}=?
-\Rightarrow
+\\Rightarrow
 UNKNOWN/GAP
-]
+\]
 
 when observation availability is load-bearing.
 
----
+______________________________________________________________________
 
-# 27. Missingness Equation
+## 27. Missingness Equation
 
-Let \(m_i\) indicate missingness:
+Let (m_i) indicate missingness:
 
-[
+\[
 m_i
-\in
+\\in
 {
 OBSERVED,
 NOT_SENSED,
@@ -943,64 +894,61 @@ CORRUPTED,
 OUT_OF_SCOPE,
 UNKNOWN
 }
-]
+\]
 
 Then:
 
-[
-m_i\neq OBSERVED
-\not\Rightarrow
+\[
+m_i\\neq OBSERVED
+\\not\\Rightarrow
 Value_i=0
-]
+\]
 
 and:
 
-[
-m_i\neq OBSERVED
-\not\Rightarrow
+\[
+m_i\\neq OBSERVED
+\\not\\Rightarrow
 Value_i=FALSE
-]
+\]
 
----
+______________________________________________________________________
 
-# 28. Negative Observation Equation
+## 28. Negative Observation Equation
 
 A valid negative observation requires observation coverage sufficient to establish absence.
 
-[
-\boxed{
+\[
+\\boxed{
 ObservedAbsent(x)
-\Rightarrow
+\\Rightarrow
 CoverageSufficient(x)
 }
-]
+\]
 
 Therefore:
 
-[
+\[
 NotObserved(x)
-\not\Rightarrow
+\\not\\Rightarrow
 ObservedAbsent(x)
-]
+\]
 
----
+______________________________________________________________________
 
-# 29. Temporal Tensor
+## 29. Temporal Tensor
 
-[
-\boxed{
-T_{time}
-========
+## \[ \\boxed{ T\_{time}
 
-T[
+T\[
 t_e,
 t_o,
 t_r,
 t_i,
 t_v
-]
+\]
 }
-]
+\]
 
 where:
 
@@ -1018,47 +966,41 @@ t_v = validation time
 
 Hard boundary:
 
-[
-\boxed{
+\[
+\\boxed{
 t_e
-\neq
+\\neq
 t_o
-\neq
+\\neq
 t_r
-\neq
+\\neq
 t_i
-\neq
+\\neq
 t_v
 }
-]
+\]
 
 unless equality is established.
 
----
+______________________________________________________________________
 
-# 30. Observation Age
+## 30. Observation Age
 
-[
-\boxed{
-Age(O,t)
-========
+## \[ \\boxed{ Age(O,t)
 
 t-t_o
 }
-]
+\]
 
-when \(t_o\) is the applicable observation timestamp.
+when (t_o) is the applicable observation timestamp.
 
----
+______________________________________________________________________
 
-# 31. Freshness Function
+## 31. Freshness Function
 
 A generic AMOS freshness model:
 
-[
-\boxed{
-F_O
-===
+## \[ \\boxed{ F_O
 
 Fresh(
 Age(O),
@@ -1067,36 +1009,36 @@ DecisionHorizon,
 Regime
 )
 }
-]
+\]
 
 Freshness states:
 
-[
+\[
 F_O
-\in
+\\in
 {
 FRESH,
 AGING,
 STALE,
 UNKNOWN
 }
-]
+\]
 
 No universal numeric function is asserted.
 
----
+______________________________________________________________________
 
-# 32. Freshness Gate
+## 32. Freshness Gate
 
 For downstream use (q):
 
-[
-\boxed{
+\[
+\\boxed{
 Usable(O,q)
-\Rightarrow
+\\Rightarrow
 FreshEnough(O,q)
 }
-]
+\]
 
 where freshness matters.
 
@@ -1106,22 +1048,19 @@ Recent but invalid observations may remain unusable.
 
 Thus:
 
-[
+\[
 Recent(O)
-\not\Rightarrow
+\\not\\Rightarrow
 Valid(O)
-]
+\]
 
----
+______________________________________________________________________
 
-# 33. Scope Tensor
+## 33. Scope Tensor
 
-[
-\boxed{
-T_{\Sigma}
-==========
+## \[ \\boxed{ T\_{\\Sigma}
 
-T[
+T\[
 system,
 population,
 location,
@@ -1130,39 +1069,39 @@ HML_scale,
 measurement_context,
 inclusion,
 exclusion
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 34. Scope Compatibility
+## 34. Scope Compatibility
 
-For observation \(O\) and claim \(C\):
+For observation (O) and claim (C):
 
-[
-\boxed{
+\[
+\\boxed{
 Applicable(O,C)
-\Rightarrow
+\\Rightarrow
 Scope(C)
-\subseteq
+\\subseteq
 Scope(O)
 }
-]
+\]
 
 unless additional evidence supports extrapolation.
 
----
+______________________________________________________________________
 
-# 35. Scope Leakage Condition
+## 35. Scope Leakage Condition
 
-[
+\[
 Scope(C)
-\not\subseteq
+\\not\\subseteq
 Scope(O)
-\Rightarrow
+\\Rightarrow
 C=CONDITIONAL
-]
+\]
 
 or:
 
@@ -1172,75 +1111,67 @@ UNKNOWN/GAP
 
 if no extrapolation basis exists.
 
----
+______________________________________________________________________
 
-# 36. Regime Tensor
+## 36. Regime Tensor
 
-[
-\boxed{
-T_R
-===
+## \[ \\boxed{ T_R
 
-T[
+T\[
 regime_id,
 conditions,
 entered_at,
 transition_signals,
 measurement_context,
 confidence
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 37. Regime Compatibility Equation
+## 37. Regime Compatibility Equation
 
-[
-\boxed{
+\[
+\\boxed{
 Valid(O,R_a)
-\not\Rightarrow
+\\not\\Rightarrow
 Valid(O,R_b)
 }
-]
+\]
 
-for arbitrary (R_a\neq R_b).
+for arbitrary (R_a\\neq R_b).
 
-A compatibility transform (\mathcal{R}) is required:
+A compatibility transform (\\mathcal{R}) is required:
 
-[
-O_{R_b}
-=======
+## \[ O\_{R_b}
 
-\mathcal{R}(O_{R_a})
-]
+\\mathcal{R}(O\_{R_a})
+\]
 
 only when domain evidence supports such translation.
 
----
+______________________________________________________________________
 
-# 38. Regime Shift Equation
+## 38. Regime Shift Equation
 
-[
-\boxed{
-R_t\neq R_{t+1}
-\Rightarrow
+\[
+\\boxed{
+R_t\\neq R\_{t+1}
+\\Rightarrow
 Revalidate(D_R)
 }
-]
+\]
 
-where \(D_R\) is the set of regime-dependent observations and descendants.
+where (D_R) is the set of regime-dependent observations and descendants.
 
----
+______________________________________________________________________
 
-# 39. Resolution Tensor
+## 39. Resolution Tensor
 
-[
-\boxed{
-T_{res}
-=======
+## \[ \\boxed{ T\_{res}
 
-T[
+T\[
 temporal,
 spatial,
 semantic,
@@ -1248,36 +1179,33 @@ numerical,
 sampling,
 modal,
 HML
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 40. Resolution Constraint
+## 40. Resolution Constraint
 
-For conclusion \(C\):
+For conclusion (C):
 
-[
-\boxed{
+\[
+\\boxed{
 Resolution(C)
-\le
+\\le
 SupportedResolution(O)
 }
-]
+\]
 
 unless an explicit validated inference model supplies additional resolution.
 
----
+______________________________________________________________________
 
-# 41. Observation Quality Tensor
+## 41. Observation Quality Tensor
 
-[
-\boxed{
-T_Q
-===
+## \[ \\boxed{ T_Q
 
-T[
+T\[
 completeness,
 precision,
 resolution,
@@ -1288,112 +1216,107 @@ consistency,
 freshness,
 source_integrity,
 method_integrity
-]
+\]
 }
-]
+\]
 
 A scalar quality score may only be introduced if an explicit function is defined:
 
-[
-Q
-=
+## \[ Q
 
 f(T_Q)
-]
+\]
 
 Otherwise the dimensions remain separate.
 
----
+______________________________________________________________________
 
-# 42. Quality Non-Truth Equation
+## 42. Quality Non-Truth Equation
 
-[
-\boxed{
+\[
+\\boxed{
 HighQuality(O)
-\not\Rightarrow
+\\not\\Rightarrow
 True(O)
 }
-]
+\]
 
 Quality measures observation-process characteristics.
 
 It does not independently certify the represented external state.
 
----
+______________________________________________________________________
 
-# 43. Uncertainty Tensor
+## 43. Uncertainty Tensor
 
-[
-\boxed{
-U_{L01}
-=======
+## \[ \\boxed{ U\_{L01}
 
-T[
-U_{sensor},
-U_{measurement},
-U_{sampling},
-U_{temporal},
-U_{spatial},
-U_{scope},
-U_{regime},
-U_{source},
-U_{provenance},
-U_{fusion},
-U_{execution}
-]
+T\[
+U\_{sensor},
+U\_{measurement},
+U\_{sampling},
+U\_{temporal},
+U\_{spatial},
+U\_{scope},
+U\_{regime},
+U\_{source},
+U\_{provenance},
+U\_{fusion},
+U\_{execution}
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 44. Uncertainty Preservation
+## 44. Uncertainty Preservation
 
-For transformation (\mathcal{T}):
+For transformation (\\mathcal{T}):
 
-[
-\boxed{
-U(\mathcal{T}\(O\))
-\ge
-ResidualUncertainty(O,\mathcal{T})
+\[
+\\boxed{
+U(\\mathcal{T}(O))
+\\ge
+ResidualUncertainty(O,\\mathcal{T})
 }
-]
+\]
 
 This means transformations may reduce some uncertainties but cannot silently erase unresolved ones.
 
----
+______________________________________________________________________
 
-# 45. Confidence Ceiling Equation
+## 45. Confidence Ceiling Equation
 
-For observation-dependent conclusion \(C\):
+For observation-dependent conclusion (C):
 
-[
-\boxed{
+\[
+\\boxed{
 Conf(C)
-\le
-\min_{p\in LB(C)}
+\\le
+\\min\_{p\\in LB(C)}
 Conf(p)
 }
-]
+\]
 
 where (LB(C)) is the set of load-bearing premises.
 
 For observation validity specifically:
 
-[
-\boxed{
+\[
+\\boxed{
 Conf(O)
-\le
-\min(
+\\le
+\\min(
 C_Q,
 C_P,
 C_F,
-C_\Sigma,
+C\_\\Sigma,
 C_R,
 C_M,
 C_V
 )
 }
-]
+\]
 
 where:
 
@@ -1415,18 +1338,15 @@ C_V = validation ceiling
 
 unless independent evidence removes a weak dependency.
 
----
+______________________________________________________________________
 
-# 46. Provenance Equation
+## 46. Provenance Equation
 
 Observation provenance:
 
-[
-\boxed{
-P(O)
-====
+## \[ \\boxed{ P(O)
 
-[
+\[
 source,
 root,
 observer,
@@ -1439,165 +1359,150 @@ time,
 environment,
 scope,
 regime
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 47. Provenance Preservation Law
+## 47. Provenance Preservation Law
 
 For transformation:
 
-[
-O'
-==
+## \[ O'
 
-\mathcal{T}\(O\)
-]
+\\mathcal{T}(O)
+\]
 
 then:
 
-[
-\boxed{
+\[
+\\boxed{
 Prov(O')
-\supseteq
+\\supseteq
 RequiredProv(O)
 }
-]
+\]
 
 No load-bearing ancestry should disappear.
 
----
+______________________________________________________________________
 
-# 48. Ancestry Graph
+## 48. Ancestry Graph
 
 Let:
 
-[
+\[
 G_P=(V_P,E_P)
-]
+\]
 
 be a provenance ancestry graph.
 
-For evidence items \(e_i,e_j\):
+For evidence items (e_i,e_j):
 
-[
+\[
 SharedRoot(e_i,e_j)=TRUE
-]
+\]
 
 implies correlation risk.
 
----
+______________________________________________________________________
 
-# 49. Evidence Independence Equation
+## 49. Evidence Independence Equation
 
-[
-\boxed{
-N_{independent}
-===============
+## \[ \\boxed{ N\_{independent}
 
 |
 IndependentRootGroups(E)
 |
 }
-]
+\]
 
 not:
 
-[
-N_{independent}
-===============
+## \[ N\_{independent}
 
 |EvidenceArtifacts|
-]
+\]
 
 Hard law:
 
-[
-\boxed{
+\[
+\\boxed{
 Multiplicity
-\neq
+\\neq
 Independence
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 50. Fusion Equation
+## 50. Fusion Equation
 
-For observations (O_1,\dots,O_n):
+For observations (O_1,\\dots,O_n):
 
-[
-\boxed{
-O_F
-===
+## \[ \\boxed{ O_F
 
 Fuse(
-O_1,\dots,O_n
-\mid
+O_1,\\dots,O_n
+\\mid
 Compatibility,
 Provenance,
 Uncertainty
 )
 }
-]
+\]
 
 Fusion is admissible only if:
 
-[
-\boxed{
-Compat
-======
+## \[ \\boxed{ Compat
 
 TypeCompat
-\land
+\\land
 TimeCompat
-\land
+\\land
 ScopeCompat
-\land
+\\land
 RegimeCompat
-\land
+\\land
 UnitCompat
 }
-]
+\]
 
 where required.
 
----
+______________________________________________________________________
 
-# 51. Fusion Failure
+## 51. Fusion Failure
 
 If:
 
-[
+\[
 Compat(O_i,O_j)=FALSE
-]
+\]
 
 then:
 
-[
-\boxed{
+\[
+\\boxed{
 Fuse(O_i,O_j)=PROHIBITED
 }
-]
+\]
 
 unless a valid translation operator exists.
 
----
+______________________________________________________________________
 
-# 52. Conflict Equation
+## 52. Conflict Equation
 
 For observations (O_i,O_j):
 
-[
-Conflict(O_i,O_j)
-=================
+## \[ Conflict(O_i,O_j)
 
 IncompatibleClaims(O_i,O_j)
-\land
+\\land
 ComparableApplicability(O_i,O_j)
-]
+\]
 
 Different values are not automatically contradictions if:
 
@@ -1615,141 +1520,126 @@ target differs
 method differs
 ```
 
----
+______________________________________________________________________
 
-# 53. Competing Observations
+## 53. Competing Observations
 
 If material conflict survives validation:
 
-[
-\boxed{
-State
-=====
+## \[ \\boxed{ State
 
 COMPETING
 }
-]
+\]
 
 rather than forced convergence.
 
----
+______________________________________________________________________
 
-# 54. Discriminating Test Equation
+## 54. Discriminating Test Equation
 
 Candidate selection rule:
 
-[
-\boxed{
-Test^*
-======
+## \[ \\boxed{ Test^\*
 
-\arg\max_T
-\frac{
+\\arg\\max_T
+\\frac{
 ExpectedInformationGain(T)
 }{
 Cost(T)+Risk(T)+Delay(T)
 }
 }
-]
+\]
 
 subject to authority and governance constraints.
 
 This is an AMOS decision model, not an established universal optimization law.
 
----
+______________________________________________________________________
 
-# 55. Observation Validation Equation
+## 55. Observation Validation Equation
 
-[
-\boxed{
-Valid(O)
-========
+## \[ \\boxed{ Valid(O)
 
 Schema
-\land
+\\land
 Type
-\land
+\\land
 Source
-\land
+\\land
 Provenance
-\land
+\\land
 Time
-\land
+\\land
 Scope
-\land
+\\land
 Regime
-\land
+\\land
 Quality
-\land
+\\land
 Freshness
 }
-]
+\]
 
 with additional predicates as required by domain.
 
----
+______________________________________________________________________
 
-# 56. Validation Gate
+## 56. Validation Gate
 
 Define invariant set:
 
-[
-I={I_1,\dots,I_n}
-]
+\[
+I={I_1,\\dots,I_n}
+\]
 
 Then:
 
-[
-\boxed{
-Admit(O)
-========
+## \[ \\boxed{ Admit(O)
 
-\bigwedge_i I_i(O)
+\\bigwedge_i I_i(O)
 }
-]
+\]
 
 for hard admission predicates.
 
 Soft predicates may downgrade rather than reject.
 
----
+______________________________________________________________________
 
-# 57. Observation Admission Equation
+## 57. Observation Admission Equation
 
 A broader L01 admission rule:
 
-[
-\boxed{
-Admissible(O)
-=============
+## \[ \\boxed{ Admissible(O)
 
 ObservationExists
-\land
+\\land
 TypeValid
-\land
+\\land
 AuthorityValid
-\land
+\\land
 ProvenanceValid
-\land
+\\land
 ScopeValid
-\land
+\\land
 RegimeValid
-\land
+\\land
 FreshEnough
-\land
+\\land
 NoBlockingConflict
 }
-]
+\]
 
 This is an AMOS governance equation.
 
----
+______________________________________________________________________
 
-# 58. Admission States
+## 58. Admission States
 
-[
+\[
 Admission(O)
-\in
+\\in
 {
 ADMIT,
 CONDITIONAL,
@@ -1758,225 +1648,203 @@ REOBSERVE,
 REJECT,
 UNKNOWN/GAP
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 59. Authority Equation
+## 59. Authority Equation
 
-[
-\boxed{
-Executable(A,op)
-================
+## \[ \\boxed{ Executable(A,op)
 
 Capability(A,op)
-\land
+\\land
 Authority(A,op)
-\land
+\\land
 ScopeAllowed
-\land
+\\land
 ConstraintsSatisfied
 }
-]
+\]
 
 Thus:
 
-[
-\boxed{
+\[
+\\boxed{
 Capability
-\not\Rightarrow
+\\not\\Rightarrow
 Authority
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 60. Protected Observation Equation
+## 60. Protected Observation Equation
 
 Where observation access is governed:
 
-[
-\boxed{
+\[
+\\boxed{
 Observe(x)
-\Rightarrow
+\\Rightarrow
 Capability
-\land
+\\land
 Authority
-\land
+\\land
 TargetAllowed
 }
-]
+\]
 
 No direct inference from tool availability to permission is valid.
 
----
+______________________________________________________________________
 
-# 61. Proposal / Commit Equation
+## 61. Proposal / Commit Equation
 
-For observation admission proposal \(P_O\):
+For observation admission proposal (P_O):
 
-[
-\boxed{
+\[
+\\boxed{
 P_O
-\neq
+\\neq
 Commit(O)
 }
-]
+\]
 
 Commit requires:
 
-[
-\boxed{
-CommitAllowed
-=============
+## \[ \\boxed{ CommitAllowed
 
 Admissible
-\land
+\\land
 AuthorityCurrent
-\land
+\\land
 ReadSetFresh
-\land
+\\land
 TransactionValid
 }
-]
+\]
 
 where relevant.
 
----
+______________________________________________________________________
 
-# 62. Read-Set Equation
+## 62. Read-Set Equation
 
-For consequential observation decision \(C\):
+For consequential observation decision (C):
 
-[
-\boxed{
-ReadSet(C)
-==========
+## \[ \\boxed{ ReadSet(C)
 
 {
 (object_i,version_i,hash_i)
-}_{i=1}^{n}
+}\_{i=1}^{n}
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 63. Read Freshness Equation
+## 63. Read Freshness Equation
 
-[
-\boxed{
-FreshReadSet(C)
-===============
+## \[ \\boxed{ FreshReadSet(C)
 
-\bigwedge_i
-CurrentVersion(object_i)
-========================
+## \\bigwedge_i CurrentVersion(object_i)
 
 ReadVersion(object_i)
 }
-]
+\]
 
 for load-bearing mutable reads.
 
----
+______________________________________________________________________
 
-# 64. Selective Revalidation
+## 64. Selective Revalidation
 
 If:
 
-[
+\[
 Version_i^{read}
-\neq
+\\neq
 Version_i^{current}
-]
+\]
 
 then:
 
-[
-\boxed{
+\[
+\\boxed{
 Revalidate(Desc(object_i))
 }
-]
+\]
 
 not necessarily the entire system.
 
----
+______________________________________________________________________
 
-# 65. H/M/L Observation State
+## 65. H/M/L Observation State
 
 Let:
 
-[
-O_H,\quad O_M,\quad O_L
-]
+\[
+O_H,\\quad O_M,\\quad O_L
+\]
 
 denote high-, middle-, and local-scale observations.
 
 Hard rules:
 
-[
-\boxed{
+\[
+\\boxed{
 O_L
-\not\Rightarrow
+\\not\\Rightarrow
 O_H
 }
-]
+\]
 
 and:
 
-[
-\boxed{
+\[
+\\boxed{
 O_H
-\not\Rightarrow
+\\not\\Rightarrow
 O_L
 }
-]
+\]
 
 without explicit mapping.
 
----
+______________________________________________________________________
 
-# 66. Cross-Scale Aggregation Equation
+## 66. Cross-Scale Aggregation Equation
 
-[
-\boxed{
-O_H
-===
+## \[ \\boxed{ O_H
 
-\mathcal{A}
+\\mathcal{A}
 (
-O_{L,1},\ldots,O_{L,n}
+O\_{L,1},\\ldots,O\_{L,n}
 )
 }
-]
+\]
 
 is valid only when:
 
-[
-ValidAggregation
-================
+## \[ ValidAggregation
 
 Coverage
-\land
+\\land
 ScaleCompatibility
-\land
+\\land
 ScopeCompatibility
-\land
+\\land
 ProvenanceIntegrity
-\land
+\\land
 AggregationRuleDefined
-]
+\]
 
----
+______________________________________________________________________
 
-# 67. Cross-Scale Tensor
+## 67. Cross-Scale Tensor
 
-[
-\boxed{
-T_{HML}
-=======
+## \[ \\boxed{ T\_{HML}
 
-T[
+T\[
 observation,
 source_scale,
 target_scale,
@@ -1987,98 +1855,90 @@ scope,
 regime,
 provenance,
 confidence
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 68. H-Level Observation
+## 68. H-Level Observation
 
 High-level observation may depend on multiple subsystems:
 
-[
-\boxed{
-O_H
-===
+## \[ \\boxed{ O_H
 
-F(O_{M,1},\ldots,O_{M,n})
+F(O\_{M,1},\\ldots,O\_{M,n})
 }
-]
+\]
 
 A single mid-level or local observation cannot automatically establish H-level state.
 
----
+______________________________________________________________________
 
-# 69. Dependency Graph Equation
+## 69. Dependency Graph Equation
 
 Let:
 
-[
+\[
 G_D=(V_D,E_D)
-]
+\]
 
 where each edge:
 
-[
-E_{ij}
-======
+## \[ E\_{ij}
 
 (parent_i,child_j,type,loadBearing)
-]
+\]
 
-The dependency closure of claim \(C\) is:
+The dependency closure of claim (C) is:
 
-[
-\boxed{
-Closure(C)
-==========
+## \[ \\boxed{ Closure(C)
 
-{x:x\leadsto C}
+{x:x\\leadsto C}
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 70. Selective Invalidation Equation
+## 70. Selective Invalidation Equation
 
 For failed premise (p):
 
-[
-\boxed{
+\[
+\\boxed{
 Invalid(p)
-\Rightarrow
-Invalid(Desc_{LB}(p))
+\\Rightarrow
+Invalid(Desc\_{LB}(p))
 }
-]
+\]
 
 while:
 
-[
-\boxed{
+\[
+\\boxed{
 Independent(x,p)
-\Rightarrow
+\\Rightarrow
 Preserve(x)
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 71. Observation Failure Equation
+## 71. Observation Failure Equation
 
-[
-\boxed{
+\[
+\\boxed{
 ObservationFailure
-\neq
+\\neq
 NegativeObservation
 }
-]
+\]
 
 Possible failure output:
 
-[
-Failure_{obs}
-\rightarrow
+\[
+Failure\_{obs}
+\\rightarrow
 {
 UNAVAILABLE,
 PARTIAL,
@@ -2086,47 +1946,42 @@ FAILED,
 CORRUPTED,
 UNKNOWN
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 72. Tool Failure Equation
+## 72. Tool Failure Equation
 
 For tool-mediated observation:
 
-[
+\[
 ToolFailure
-\Rightarrow
+\\Rightarrow
 ObservationStatus=FAILED
-]
+\]
 
 not:
 
-[
+\[
 ToolFailure
-\Rightarrow
+\\Rightarrow
 EnvironmentState=ABSENT
-]
+\]
 
----
+______________________________________________________________________
 
-# 73. Sensor Health Equation
+## 73. Sensor Health Equation
 
 Let:
 
-[
-H_s
-===
+## \[ H_s
 
 SensorHealth
-]
+\]
 
 Then:
 
-[
-\boxed{
-H_s
-===
+## \[ \\boxed{ H_s
 
 f(
 availability,
@@ -2137,107 +1992,95 @@ error_rate,
 latency
 )
 }
-]
+\]
 
 only after the function is operationally defined.
 
 Important:
 
-[
+\[
 HealthySensor
-\not\Rightarrow
+\\not\\Rightarrow
 TrueObservation
-]
+\]
 
----
+______________________________________________________________________
 
-# 74. Reobservation Trigger Equation
+## 74. Reobservation Trigger Equation
 
 Reobservation may be triggered when:
 
-[
-\boxed{
-Reobserve
-=========
+## \[ \\boxed{ Reobserve
 
 Stale
-\lor
+\\lor
 Conflict
-\lor
+\\lor
 InsufficientQuality
-\lor
+\\lor
 MissingCriticalEvidence
-\lor
+\\lor
 RegimeShift
-\lor
+\\lor
 SensorFailure
 }
-]
+\]
 
 subject to resource and authority constraints.
 
----
+______________________________________________________________________
 
-# 75. Reobservation State
+## 75. Reobservation State
 
-[
-\boxed{
-O_{new}
-=======
+## \[ \\boxed{ O\_{new}
 
-Observe(E,t_{new})
+Observe(E,t\_{new})
 }
-]
+\]
 
 The previous observation remains historically preserved:
 
-[
-O_{old}
-\neq
-O_{new}
-]
+\[
+O\_{old}
+\\neq
+O\_{new}
+\]
 
 even if values are identical.
 
----
+______________________________________________________________________
 
-# 76. Repair Equation
+## 76. Repair Equation
 
 For failed observation path (f):
 
-[
-\boxed{
-Repair(f)
-=========
+## \[ \\boxed{ Repair(f)
 
 Localize(f)
-+
+\+
 RestoreValidMechanism(f)
-+
+\+
 Reobserve
-+
+\+
 Revalidate
 }
-]
+\]
 
 Repair does not imply fabrication.
 
----
+______________________________________________________________________
 
-# 77. Recovery Equation
+## 77. Recovery Equation
 
-[
-\boxed{
-Recovered
-=========
+## \[ \\boxed{ Recovered
 
 RepairApplied
-\land
+\\land
 ObservationReacquired
-\land
+\\land
 ValidationPassed
 }
-]
+\]
 
 If reobservation remains unavailable:
 
@@ -2247,154 +2090,145 @@ UNKNOWN/GAP
 
 is preserved.
 
----
+______________________________________________________________________
 
-# 78. Rollback Equation
+## 78. Rollback Equation
 
 For failed state transition:
 
-[
-\boxed{
+\[
+\\boxed{
 Rollback
-\rightarrow
+\\rightarrow
 NearestValidObservationState
 }
-]
+\]
 
 but:
 
-[
-\boxed{
+\[
+\\boxed{
 Rollback
-\neq
+\\neq
 EraseObservationHistory
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 79. Memory Admission Equation
+## 79. Memory Admission Equation
 
 If L01 observation is proposed for persistent memory:
 
-[
-\boxed{
+\[
+\\boxed{
 Persist(O)
-\Rightarrow
+\\Rightarrow
 Admitted(O)
-\land
+\\land
 ProvenanceBound(O)
 }
-]
+\]
 
 where the memory layer requires these conditions.
 
----
+______________________________________________________________________
 
-# 80. Memory Freshness Equation
+## 80. Memory Freshness Equation
 
-[
-\boxed{
-Retrieve(O_{t_0},t_1)
-\not\Rightarrow
-Fresh(O_{t_1})
+\[
+\\boxed{
+Retrieve(O\_{t_0},t_1)
+\\not\\Rightarrow
+Fresh(O\_{t_1})
 }
-]
+\]
 
 for (t_1>t_0).
 
----
+______________________________________________________________________
 
-# 81. Causal Firewall Equation
+## 81. Causal Firewall Equation
 
 Observation may support association or descriptive claims.
 
 It does not itself establish causation.
 
-[
-\boxed{
+\[
+\\boxed{
 Observe(X,Y)
-\not\Rightarrow
-X\rightarrow Y
+\\not\\Rightarrow
+X\\rightarrow Y
 }
-]
+\]
 
 Causal promotion requires suitably typed causal evidence.
 
----
+______________________________________________________________________
 
-# 82. Correlation Boundary
+## 82. Correlation Boundary
 
-[
-\boxed{
-Corr(X,Y)\neq Cause(X,Y)
+\[
+\\boxed{
+Corr(X,Y)\\neq Cause(X,Y)
 }
-]
+\]
 
 and:
 
-[
-\boxed{
+\[
+\\boxed{
 TemporalOrder(X,Y)
-\neq Cause(X,Y)
+\\neq Cause(X,Y)
 }
-]
+\]
 
 This remains essential for downstream use of L01 observations.
 
----
+______________________________________________________________________
 
-# 83. Observer-Effect Equation
+## 83. Observer-Effect Equation
 
 Where observation alters the environment:
 
-[
-\boxed{
-E_{t+1}
-=======
+## \[ \\boxed{ E\_{t+1}
 
 G(E_t,ObservationAction_t)
 }
-]
+\]
 
 This makes the intervention explicit.
 
 It must not be invoked in contexts where sensing is passive unless evidence supports such an effect.
 
----
+______________________________________________________________________
 
-# 84. Active Measurement Equation
+## 84. Active Measurement Equation
 
 For intervention-based measurement:
 
-[
-\boxed{
-O_t
-===
+## \[ \\boxed{ O_t
 
-\mathcal{S}
+\\mathcal{S}
 (
 Do(a_t,E_t)
 )
 }
-]
+\]
 
 where `Do` denotes an explicit intervention conceptually, not necessarily Pearl's formal do-operator unless the causal model warrants it.
 
----
+______________________________________________________________________
 
-# 85. Sampling Equation
+## 85. Sampling Equation
 
-For sampled environment \(E\):
+For sampled environment (E):
 
-[
-\boxed{
-O
-=
+## \[ \\boxed{ O
 
-Sample(E,\pi,n)
+Sample(E,\\pi,n)
 }
-]
+\]
 
 where:
 
@@ -2406,110 +2240,101 @@ n = sample extent
 
 A sample does not automatically represent the full environment.
 
----
+______________________________________________________________________
 
-# 86. Coverage Equation
+## 86. Coverage Equation
 
-[
-\boxed{
-Coverage
-========
+## \[ \\boxed{ Coverage
 
-\frac{
+\\frac{
 ObservedTargetExtent
 }{
 DeclaredTargetExtent
 }
 }
-]
+\]
 
 only where both numerator and denominator are operationally measurable.
 
 Structural rule:
 
-[
-Coverage<1
-\Rightarrow
+\[
+Coverage\<1
+\\Rightarrow
 AbsenceClaimsRequireCaution
-]
+\]
 
----
+______________________________________________________________________
 
-# 87. Sampling Generalization Boundary
+## 87. Sampling Generalization Boundary
 
-[
-\boxed{
+\[
+\\boxed{
 ObservedSample
-\not\Rightarrow
+\\not\\Rightarrow
 PopulationTruth
 }
-]
+\]
 
 Generalization requires additional assumptions or statistical evidence.
 
----
+______________________________________________________________________
 
-# 88. Resolution–Confidence Constraint
+## 88. Resolution–Confidence Constraint
 
 A generic structural relation:
 
-[
+\[
 ClaimResolution
 
 >
 
 ObservationResolution
-\Rightarrow
-ConfidenceCeiling\downarrow
-]
+\\Rightarrow
+ConfidenceCeiling\\downarrow
+\]
 
 unless a validated model supports the finer claim.
 
 No universal numerical penalty is assumed.
 
----
+______________________________________________________________________
 
-# 89. Information Loss Equation
+## 89. Information Loss Equation
 
 For observation compression:
 
-[
-\boxed{
-O_c
-===
+## \[ \\boxed{ O_c
 
 Compress(O)
 }
-]
+\]
 
 with:
 
-[
-\boxed{
+\[
+\\boxed{
 RequiredInformation(O)
-\subseteq
+\\subseteq
 Information(O_c)
 }
-]
+\]
 
 for load-bearing downstream use.
 
 If not:
 
-[
+\[
 CompressionInvalidForUse
-]
+\]
 
----
+______________________________________________________________________
 
-# 90. Observation Entropy Proxy
+## 90. Observation Entropy Proxy
 
 An optional AMOS structural diagnostic may define:
 
-[
-\boxed{
-H_O
-===
+## \[ \\boxed{ H_O
 
 EntropyProxy(
 uncertainty,
@@ -2518,22 +2343,19 @@ missingness,
 noise
 )
 }
-]
+\]
 
 This remains an `AMOS_MODEL` unless a precise information-theoretic variable and distribution are defined.
 
 It must not be casually equated with Shannon entropy.
 
----
+______________________________________________________________________
 
-# 91. Observation Lacunarity Proxy
+## 91. Observation Lacunarity Proxy
 
 Likewise:
 
-[
-\boxed{
-L_O
-===
+## \[ \\boxed{ L_O
 
 LacunarityProxy(
 gaps,
@@ -2542,44 +2364,41 @@ missing_regions,
 resolution_variation
 )
 }
-]
+\]
 
 remains an AMOS structural diagnostic unless a formal domain definition is supplied.
 
----
+______________________________________________________________________
 
-# 92. Completeness Equation
+## 92. Completeness Equation
 
 Structural completeness of the L01 observation contract may be modeled as:
 
-[
-\boxed{
-Complete_{L01}
-==============
+## \[ \\boxed{ Complete\_{L01}
 
 Target
-\land
+\\land
 Channel
-\land
+\\land
 Observation
-\land
+\\land
 Time
-\land
+\\land
 Scope
-\land
+\\land
 Provenance
-\land
+\\land
 Uncertainty
-\land
+\\land
 Validation
 }
-]
+\]
 
 where "complete" means complete for the declared contract, not universally complete knowledge of reality.
 
----
+______________________________________________________________________
 
-# 93. Seven-Part Persistence Mapping
+## 93. Seven-Part Persistence Mapping
 
 Where the AMOS 7-Part Universe Canon is used as a structural audit, L01 may be mapped as:
 
@@ -2603,128 +2422,113 @@ This mapping is structural.
 
 It does not prove that every real sensing system requires exactly these seven categories.
 
----
+______________________________________________________________________
 
-# 94. Constraint Equation
+## 94. Constraint Equation
 
 Observation execution is bounded by:
 
-[
-\boxed{
-C_{eff}
-=======
+## \[ \\boxed{ C\_{eff}
 
-C_{environment}
-\cap
-C_{task}
-\cap
-C_{authority}
-\cap
-C_{safety}
-\cap
-C_{method}
+C\_{environment}
+\\cap
+C\_{task}
+\\cap
+C\_{authority}
+\\cap
+C\_{safety}
+\\cap
+C\_{method}
 }
-]
+\]
 
 where intersection means simultaneous constraint satisfaction conceptually.
 
----
+______________________________________________________________________
 
-# 95. Observation Flow Equation
+## 95. Observation Flow Equation
 
 Information flow:
 
-[
-\boxed{
+\[
+\\boxed{
 E
-\rightarrow
+\\rightarrow
 Channel
-\rightarrow
+\\rightarrow
 Sensor
-\rightarrow
+\\rightarrow
 RawObservation
-\rightarrow
+\\rightarrow
 TypedObservation
 }
-]
+\]
 
 No edge may silently imply truth certification.
 
----
+______________________________________________________________________
 
-# 96. Enforcement Equation
+## 96. Enforcement Equation
 
-[
-\boxed{
-Admit(O)
-========
+## \[ \\boxed{ Admit(O)
 
-AND_i\ I_i(O)
+AND_i\\ I_i(O)
 }
-]
+\]
 
-for mandatory invariants \(I_i\).
+for mandatory invariants (I_i).
 
 This is the primary formal enforcement form.
 
----
+______________________________________________________________________
 
-# 97. Adaptation Equation
+## 97. Adaptation Equation
 
 When sensing quality degrades:
 
-[
-\boxed{
-\theta_{t+1}
-============
+## \[ \\boxed{ \\theta\_{t+1}
 
 Adapt(
-\theta_t,
+\\theta_t,
 Failure_t,
 Feedback_t
 )
 }
-]
+\]
 
-where (\theta) is sensing configuration.
+where (\\theta) is sensing configuration.
 
 Any adaptation must remain within authority and validity constraints.
 
----
+______________________________________________________________________
 
-# 98. Termination Equation
+## 98. Termination Equation
 
 Observation process may stop when:
 
-[
-\boxed{
-Stop
-====
+## \[ \\boxed{ Stop
 
 ObjectiveSatisfied
-\lor
+\\lor
 CriticalGap
-\lor
+\\lor
 AuthorityUnavailable
-\lor
+\\lor
 ResourceLimit
-\lor
+\\lor
 SafetyConstraint
-\lor
+\\lor
 IrrecoverableFailure
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 99. Agent Equation
+## 99. Agent Equation
 
-For sensing agent \(A_i\):
+For sensing agent (A_i):
 
-[
-\boxed{
-Output(A_i)
-===========
+## \[ \\boxed{ Output(A_i)
 
 Execute(
 Capability_i,
@@ -2733,346 +2537,322 @@ Tools_i,
 State_i
 )
 }
-]
+\]
 
 subject to:
 
-[
+\[
 Authority_i
-]
+\]
 
 and control-plane constraints.
 
 Hard law:
 
-[
-\boxed{
+\[
+\\boxed{
 AgentCapability
-\neq
+\\neq
 AgentAuthority
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 100. Multi-Agent Observation Equation
+## 100. Multi-Agent Observation Equation
 
-For agents (A_1,\ldots,A_n):
+For agents (A_1,\\ldots,A_n):
 
-[
-\boxed{
-O_{set}
-=======
+## \[ \\boxed{ O\_{set}
 
-{O_{A_1},\ldots,O_{A_n}}
+{O\_{A_1},\\ldots,O\_{A_n}}
 }
-]
+\]
 
 But:
 
-[
-\boxed{
-n_{agents}
-\neq
-n_{independent\ observations}
+\[
+\\boxed{
+n\_{agents}
+\\neq
+n\_{independent\\ observations}
 }
-]
+\]
 
 Independence depends on provenance topology.
 
----
+______________________________________________________________________
 
-# 101. Skill Invocation Equation
+## 101. Skill Invocation Equation
 
-For skill \(K\):
+For skill (K):
 
-[
-\boxed{
-O'
-==
+## \[ \\boxed{ O'
 
 K(O,Context)
 }
-]
+\]
 
 The output inherits:
 
-[
+\[
 Scope(O')
-\subseteq
+\\subseteq
 CompatibleScope(O,K)
-]
+\]
 
 and:
 
-[
+\[
 Prov(O')
-\supseteq
+\\supseteq
 RequiredProv(O)
-]
+\]
 
 A Skill transformation does not self-authorize epistemic promotion.
 
----
+______________________________________________________________________
 
-# 102. Workflow Equation
+## 102. Workflow Equation
 
 An L01 workflow:
 
-[
-\boxed{
-W
-=
+## \[ \\boxed{ W
 
 (s_0
-\xrightarrow{g_1}
+\\xrightarrow{g_1}
 s_1
-\xrightarrow{g_2}
+\\xrightarrow{g_2}
 ...
-\xrightarrow{g_n}
+\\xrightarrow{g_n}
 s_n)
 }
-]
+\]
 
 where each guard:
 
-[
+\[
 g_i
-\in
+\\in
 {
 PASS,
 FAIL,
 UNKNOWN
 }
-]
+\]
 
 Unknown load-bearing guard state cannot be treated as PASS.
 
----
+______________________________________________________________________
 
-# 103. Protocol Equation
+## 103. Protocol Equation
 
 A protocol message transition:
 
-[
-\boxed{
+\[
+\\boxed{
 P:
 (Sender,Receiver,Message,State)
-\rightarrow
+\\rightarrow
 (State',Receipt)
 }
-]
+\]
 
 Observation protocol payloads should preserve type and provenance across the transition.
 
----
+______________________________________________________________________
 
-# 104. Evidence Dependency Equation
+## 104. Evidence Dependency Equation
 
-For claim \(C\):
+For claim (C):
 
-[
-\boxed{
-Support(C)
-==========
+## \[ \\boxed{ Support(C)
 
-f(E_1,\ldots,E_n)
+f(E_1,\\ldots,E_n)
 }
-]
+\]
 
 but source multiplicity must be corrected for ancestry correlation.
 
 A naive formula such as:
 
-[
-Support(C)=\sum_i Evidence_i
-]
+\[
+Support(C)=\\sum_i Evidence_i
+\]
 
 is prohibited unless dependence structure is explicitly modeled.
 
----
+______________________________________________________________________
 
-# 105. Provenance-Adjusted Evidence
+## 105. Provenance-Adjusted Evidence
 
 A structural alternative:
 
-[
-\boxed{
-EvidenceGroups(C)
-=================
+## \[ \\boxed{ EvidenceGroups(C)
 
 Partition(
 Evidence(C),
 IndependentAncestry
 )
 }
-]
+\]
 
 Confidence aggregation should occur across genuinely distinguishable support paths rather than raw artifact count.
 
----
+______________________________________________________________________
 
-# 106. Falsifier Equation
+## 106. Falsifier Equation
 
-For claim \(C\), define falsifier set:
+For claim (C), define falsifier set:
 
-[
-\boxed{
-F(C)
-====
+## \[ \\boxed{ F(C)
 
-{f_1,\ldots,f_n}
+{f_1,\\ldots,f_n}
 }
-]
+\]
 
 If:
 
-[
-\exists f_i:Triggered(f_i)
-]
+\[
+\\exists f_i:Triggered(f_i)
+\]
 
 then:
 
-[
+\[
 Status(C)
-\in
+\\in
 {
 DOWNGRADED,
 FALSIFIED,
 COMPETING,
 UNKNOWN/GAP
 }
-]
+\]
 
 depending on the dependency relation.
 
----
+______________________________________________________________________
 
-# 107. Counterexample Rule
+## 107. Counterexample Rule
 
 For universal claim:
 
-[
-\forall x\in D,\ P(x)
-]
+\[
+\\forall x\\in D,\\ P(x)
+\]
 
 a valid counterexample:
 
-[
-\exists x\in D:\neg P(x)
-]
+\[
+\\exists x\\in D:\\neg P(x)
+\]
 
 falsifies the universal form.
 
 This is established logic, not merely an AMOS model.
 
----
+______________________________________________________________________
 
-# 108. Type-Safety Equation
+## 108. Type-Safety Equation
 
 For every equation:
 
-[
-\boxed{
+\[
+\\boxed{
 Type(LHS)=Type(RHS)
 }
-]
+\]
 
 unless an explicit transformation maps between types.
 
 A type mismatch is a hard formal failure.
 
----
+______________________________________________________________________
 
-# 109. Domain Check
+## 109. Domain Check
 
 For function (f(x)):
 
-[
-\boxed{
-x\in Dom(f)
+\[
+\\boxed{
+x\\in Dom(f)
 }
-]
+\]
 
 must hold.
 
 Out-of-domain use invalidates the equation application.
 
----
+______________________________________________________________________
 
-# 110. Unit Check
+## 110. Unit Check
 
 For physical/numerical quantities:
 
-[
-\boxed{
+\[
+\\boxed{
 Unit(LHS)=Unit(RHS)
 }
-]
+\]
 
 after valid conversion.
 
 Unit mismatch blocks formal promotion.
 
----
+______________________________________________________________________
 
-# 111. Approximation Boundary
+## 111. Approximation Boundary
 
 If:
 
-[
-\hat{x}
-\approx
+\[
+\\hat{x}
+\\approx
 x
-]
+\]
 
 then approximation error must remain explicit:
 
-[
-\boxed{
-e
-=
+## \[ \\boxed{ e
 
-d(\hat{x},x)
+d(\\hat{x},x)
 }
-]
+\]
 
 where (d) is a defined metric.
 
 Approximation is not equality.
 
----
+______________________________________________________________________
 
-# 112. Numerical Evidence Boundary
+## 112. Numerical Evidence Boundary
 
-[
-\boxed{
+\[
+\\boxed{
 NumericalAgreement
-\neq
+\\neq
 SymbolicProof
 }
-]
+\]
 
 Likewise:
 
-[
-\boxed{
+\[
+\\boxed{
 SimulationFit
-\neq
+\\neq
 Theorem
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 113. Observation Reliability Model
+## 113. Observation Reliability Model
 
 An optional structural reliability relation:
 
-[
-\boxed{
-Rel(O)
-======
+## \[ \\boxed{ Rel(O)
 
 f(
 SensorHealth,
@@ -3083,56 +2863,53 @@ Provenance,
 Coverage
 )
 }
-]
+\]
 
 No numerical reliability score should be assigned unless these variables and the function are operationally defined.
 
----
+______________________________________________________________________
 
-# 114. Observation Trust Boundary
+## 114. Observation Trust Boundary
 
-[
-\boxed{
+\[
+\\boxed{
 Trust(O)
-\neq
+\\neq
 Truth(O)
 }
-]
+\]
 
 Trust is an operational governance state.
 
 Truth is not reducible to a trust score.
 
----
+______________________________________________________________________
 
-# 115. Confidence vs Evidence
+## 115. Confidence vs Evidence
 
-[
-\boxed{
+\[
+\\boxed{
 ModelConfidence
-\neq
+\\neq
 EvidenceStrength
 }
-]
+\]
 
 An AI's reported certainty must not override the evidence-derived confidence ceiling.
 
----
+______________________________________________________________________
 
-# 116. Observation Admission With Confidence
+## 116. Observation Admission With Confidence
 
 A candidate structural gate:
 
-[
-\boxed{
-Admit(O)
-========
+## \[ \\boxed{ Admit(O)
 
 HardInvariants(O)
-\land
-Conf(O)\ge\tau
+\\land
+Conf(O)\\ge\\tau
 }
-]
+\]
 
 may be used only when:
 
@@ -3146,72 +2923,61 @@ the domain justifies a scalar threshold
 
 Otherwise the hard-invariant gate should remain primary.
 
----
+______________________________________________________________________
 
-# 117. H/M/L Confidence Propagation
+## 117. H/M/L Confidence Propagation
 
 For higher-scale conclusion:
 
-[
-C_H
-===
+## \[ C_H
 
-f(C_{M_1},...,C_{M_n})
-]
+f(C\_{M_1},...,C\_{M_n})
+\]
 
 then:
 
-[
-\boxed{
+\[
+\\boxed{
 Conf(C_H)
-\le
-\min_{p\in LB(C_H)}
+\\le
+\\min\_{p\\in LB(C_H)}
 Conf(p)
 }
-]
+\]
 
 unless independent higher-level evidence exists.
 
----
+______________________________________________________________________
 
-# 118. Observation Change Equation
+## 118. Observation Change Equation
 
 For two valid observations:
 
-[
-\boxed{
-\Delta O
-========
+## \[ \\boxed{ \\Delta O
 
-## O_{t_2}
+## O\_{t_2}
 
-O_{t_1}
+O\_{t_1}
 }
-]
+\]
 
 only where subtraction is semantically/type valid.
 
 For nonnumeric states:
 
-[
-\boxed{
-\Delta O
-========
+## \[ \\boxed{ \\Delta O
 
-Diff(O_{t_1},O_{t_2})
+Diff(O\_{t_1},O\_{t_2})
 }
-]
+\]
 
 is the safer generalized operator.
 
----
+______________________________________________________________________
 
-# 119. Change Detection
+## 119. Change Detection
 
-[
-\boxed{
-Changed(O_1,O_2)
-================
+## \[ \\boxed{ Changed(O_1,O_2)
 
 Diff(O_1,O_2)
 
@@ -3219,137 +2985,125 @@ Diff(O_1,O_2)
 
 Threshold
 }
-]
+\]
 
 only when the threshold and metric are defined.
 
 Otherwise change remains categorical.
 
----
+______________________________________________________________________
 
-# 120. Observation Consistency
+## 120. Observation Consistency
 
 For repeated observations:
 
-[
-\boxed{
-Consistency
-===========
+## \[ \\boxed{ Consistency
 
-f(O_1,\ldots,O_n)
+f(O_1,\\ldots,O_n)
 }
-]
+\]
 
 Consistency must not automatically be interpreted as truth because repeated observations can share systematic error.
 
----
+______________________________________________________________________
 
-# 121. Correlated Error Equation
+## 121. Correlated Error Equation
 
-If multiple observations share mechanism \(S\):
+If multiple observations share mechanism (S):
 
-[
-\boxed{
+\[
+\\boxed{
 ErrorCorrelation(O_i,O_j)
 
 >
 
 0
 }
-]
+\]
 
 may occur.
 
 Therefore independent confidence aggregation is invalid unless correlation assumptions are justified.
 
----
+______________________________________________________________________
 
-# 122. Revocation Equation
+## 122. Revocation Equation
 
-If evidence or source \(E\) becomes revoked:
+If evidence or source (E) becomes revoked:
 
-[
-\boxed{
+\[
+\\boxed{
 Revoked(E)
-\Rightarrow
+\\Rightarrow
 Revalidate(Desc(E))
 }
-]
+\]
 
 The historical observation may remain recorded but its trusted usability changes.
 
----
+______________________________________________________________________
 
-# 123. Quarantine Equation
+## 123. Quarantine Equation
 
-[
-\boxed{
-Quarantine(O)
-=============
+## \[ \\boxed{ Quarantine(O)
 
 Preserve(O)
-\land
+\\land
 BlockTrustedReuse(O)
 }
-]
+\]
 
 Quarantine differs from deletion.
 
----
+______________________________________________________________________
 
-# 124. Repair-State Equation
+## 124. Repair-State Equation
 
-For failed observation state \(S_f\):
+For failed observation state (S_f):
 
-[
-\boxed{
-S_{repair}
-==========
+## \[ \\boxed{ S\_{repair}
 
 NearestValidAncestor
-+
+\+
 ValidatedReplacement
 }
-]
+\]
 
 not uncontrolled reconstruction.
 
----
+______________________________________________________________________
 
-# 125. Validation Epoch
+## 125. Validation Epoch
 
 Observation validation may be associated with an epoch:
 
-[
-\boxed{
+\[
+\\boxed{
 V(O,e)
 }
-]
+\]
 
-If load-bearing policy or state changes from epoch \(e_1\) to \(e_2\):
+If load-bearing policy or state changes from epoch (e_1) to (e_2):
 
-[
-e_1\neq e_2
-\Rightarrow
+\[
+e_1\\neq e_2
+\\Rightarrow
 Revalidate(O)
-]
+\]
 
 where applicability changed.
 
----
+______________________________________________________________________
 
-# 126. Canonical L01 Equation Set
+## 126. Canonical L01 Equation Set
 
 Minimum structural equation family:
 
 ### E-L01-001 — Sensing
 
-[
-\boxed{
-O_t
-===
+## \[ \\boxed{ O_t
 
-\mathcal{S}
+\\mathcal{S}
 (
 E_t,
 A_t,
@@ -3359,24 +3113,21 @@ I_t,
 t
 )
 }
-]
+\]
 
 ### E-L01-002 — Observation/Reality Boundary
 
-[
-\boxed{
-O_t\neq E_t
+\[
+\\boxed{
+O_t\\neq E_t
 }
-]
+\]
 
 ### E-L01-003 — Measurement
 
-[
-\boxed{
-Y_t
-===
+## \[ \\boxed{ Y_t
 
-\mathcal{M}
+\\mathcal{M}
 (
 O_t,
 Instrument_t,
@@ -3384,16 +3135,13 @@ Method_t,
 Calibration_t
 )
 }
-]
+\]
 
 ### E-L01-004 — Provenance
 
-[
-\boxed{
-P(O)
-====
+## \[ \\boxed{ P(O)
 
-[
+\[
 source,
 observer,
 tool,
@@ -3402,16 +3150,13 @@ transformations,
 time,
 scope,
 regime
-]
+\]
 }
-]
+\]
 
 ### E-L01-005 — Freshness
 
-[
-\boxed{
-F_O
-===
+## \[ \\boxed{ F_O
 
 Fresh(
 Age,
@@ -3420,115 +3165,106 @@ DecisionHorizon,
 Regime
 )
 }
-]
+\]
 
 ### E-L01-006 — Validation
 
-[
-\boxed{
-Valid(O)
-========
+## \[ \\boxed{ Valid(O)
 
-\bigwedge_i I_i(O)
+\\bigwedge_i I_i(O)
 }
-]
+\]
 
 for required hard invariants.
 
 ### E-L01-007 — Admission
 
-[
-\boxed{
-Admissible(O)
-=============
+## \[ \\boxed{ Admissible(O)
 
 Valid
-\land
+\\land
 Authority
-\land
+\\land
 Provenance
-\land
+\\land
 Scope
-\land
+\\land
 Regime
-\land
+\\land
 Freshness
-\land
-\neg BlockingConflict
+\\land
+\\neg BlockingConflict
 }
-]
+\]
 
 ### E-L01-008 — Confidence Ceiling
 
-[
-\boxed{
+\[
+\\boxed{
 Conf(C)
-\le
-\min_{p\in LB(C)}
+\\le
+\\min\_{p\\in LB(C)}
 Conf(p)
 }
-]
+\]
 
 ### E-L01-009 — Selective Invalidation
 
-[
-\boxed{
+\[
+\\boxed{
 Invalid(p)
-\Rightarrow
-Invalid(Desc_{LB}(p))
+\\Rightarrow
+Invalid(Desc\_{LB}(p))
 }
-]
+\]
 
 ### E-L01-010 — Reobservation
 
-[
-\boxed{
-Reobserve
-=========
+## \[ \\boxed{ Reobserve
 
 Stale
-\lor
+\\lor
 Conflict
-\lor
+\\lor
 Invalid
-\lor
+\\lor
 InsufficientEvidence
 }
-]
+\]
 
 ### E-L01-011 — Capability Boundary
 
-[
-\boxed{
+\[
+\\boxed{
 Capability
-\neq
+\\neq
 Authority
 }
-]
+\]
 
 ### E-L01-012 — Proposal Boundary
 
-[
-\boxed{
+\[
+\\boxed{
 Proposal
-\neq
+\\neq
 Commit
 }
-]
+\]
 
 ### E-L01-013 — Unknown Boundary
 
-[
-\boxed{
+\[
+\\boxed{
 CriticalUnknown
-\Rightarrow
+\\Rightarrow
 UNKNOWN/GAP
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 127. Equation Type Registry
+## 127. Equation Type Registry
 
 ```yaml
 equation_registry:
@@ -3586,9 +3322,9 @@ equation_registry:
     type: AMOS_MODEL
 ```
 
----
+______________________________________________________________________
 
-# 128. Control-Plane Requirements
+## 128. Control-Plane Requirements
 
 Equation execution must respect:
 
@@ -3618,9 +3354,9 @@ commit-time revalidation
 
 No equation result may bypass hard governance merely because the equation evaluates successfully.
 
----
+______________________________________________________________________
 
-# 129. Agent Requirements
+## 129. Agent Requirements
 
 Agents operating equations should expose:
 
@@ -3656,9 +3392,9 @@ CAN COMPUTE EQUATION
 AUTHORIZED TO COMMIT RESULT
 ```
 
----
+______________________________________________________________________
 
-# 130. Skill Requirements
+## 130. Skill Requirements
 
 Skills implementing L01 equations should preserve:
 
@@ -3686,9 +3422,9 @@ output epistemic class
 
 Changing an equation's semantics requires a new version or explicit supersession.
 
----
+______________________________________________________________________
 
-# 131. Workflow Requirements
+## 131. Workflow Requirements
 
 Equation use should occur through:
 
@@ -3720,9 +3456,9 @@ BIND PROVENANCE
 RELEASE OR QUARANTINE
 ```
 
----
+______________________________________________________________________
 
-# 132. Protocol Requirements
+## 132. Protocol Requirements
 
 Equation exchange protocol should preserve:
 
@@ -3760,9 +3496,9 @@ EquationResult:
   falsifiers:
 ```
 
----
+______________________________________________________________________
 
-# 133. Failure Modes
+## 133. Failure Modes
 
 ## EQ-F01 — Undefined Symbol
 
@@ -3844,9 +3580,9 @@ Numerical fit is treated as formal proof.
 
 Unresolved load-bearing term becomes implicit success.
 
----
+______________________________________________________________________
 
-# 134. Repair / Recovery
+## 134. Repair / Recovery
 
 Equation repair sequence:
 
@@ -3874,25 +3610,25 @@ COMPARE RESULTS
 RESTORE OR QUARANTINE
 ```
 
----
+______________________________________________________________________
 
-# 135. Equation Repair Invariant
+## 135. Equation Repair Invariant
 
-[
-\boxed{
+\[
+\\boxed{
 RepairEquation
-\neq
+\\neq
 ChangeSpecificationToMakeTestPass
 }
-]
+\]
 
 unless the original specification is independently shown to be wrong.
 
 Repair must preserve the intended semantic contract.
 
----
+______________________________________________________________________
 
-# 136. Validators
+## 136. Validators
 
 ```text
 VALIDATOR_EQUATION_ID
@@ -3928,9 +3664,9 @@ VALIDATOR_IMPLEMENTATION_MAPPING
 VALIDATOR_HML_MAPPING
 ```
 
----
+______________________________________________________________________
 
-# 137. Minimum Equation Tests
+## 137. Minimum Equation Tests
 
 ```text
 TEST_EQ_001
@@ -3994,9 +3730,9 @@ TEST_EQ_020
 UNKNOWN/GAP cannot become PASS
 ```
 
----
+______________________________________________________________________
 
-# 138. Falsifiers
+## 138. Falsifiers
 
 This equation architecture fails if an implementation permits:
 
@@ -4040,9 +3776,9 @@ local failure to cause unjustified global invalidation
 AMOS model equations to be represented as established universal law
 ```
 
----
+______________________________________________________________________
 
-# 139. Gap Matrix
+## 139. Gap Matrix
 
 ```yaml
 gap_status:
@@ -4079,9 +3815,9 @@ gap_status:
     - notation style
 ```
 
----
+______________________________________________________________________
 
-# 140. Source / Canon References
+## 140. Source / Canon References
 
 Structural source classes supporting this equation reconstruction include:
 
@@ -4133,9 +3869,9 @@ SOURCE_CANON EQUATION
 EMPIRICAL LAW
 ```
 
----
+______________________________________________________________________
 
-# 141. RSCF Completion State
+## 141. RSCF Completion State
 
 ```yaml
 rscf:
@@ -4230,9 +3966,9 @@ rscf:
     and runtime validation remain unresolved
 ```
 
----
+______________________________________________________________________
 
-# 142. Completion State
+## 142. Completion State
 
 ```yaml
 completion_state:
@@ -4313,170 +4049,164 @@ completion_state:
     AMOS_MODEL / CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
-# 143. Final Equation Contract
+## 143. Final Equation Contract
 
 The minimum L01 formal architecture is:
 
-[
-\boxed{
+\[
+\\boxed{
 Environment
-\xrightarrow{\mathcal{S}}
+\\xrightarrow{\\mathcal{S}}
 Observation
 }
-]
+\]
 
 with:
 
-[
-\boxed{
+\[
+\\boxed{
 Observation
-\neq
+\\neq
 Environment
 }
-]
+\]
 
 and:
 
-[
-\boxed{
+\[
+\\boxed{
 Observation
-\neq
+\\neq
 Interpretation
-\neq
+\\neq
 Inference
 }
-]
+\]
 
 Observation becomes usable only through additional typed state:
 
-[
-\boxed{
-GroundedObservation
-===================
+## \[ \\boxed{ GroundedObservation
 
 Observation
-+
+\+
 Provenance
-+
+\+
 Time
-+
+\+
 Scope
-+
+\+
 Regime
-+
+\+
 Quality
-+
+\+
 Uncertainty
-+
+\+
 Validation
 }
-]
+\]
 
 Trusted admission is bounded by:
 
-[
-\boxed{
-Admissible(O)
-=============
+## \[ \\boxed{ Admissible(O)
 
-\bigwedge_i I_i(O)
+\\bigwedge_i I_i(O)
 }
-]
+\]
 
 and downstream confidence is bounded by:
 
-[
-\boxed{
+\[
+\\boxed{
 Conf(C)
-\le
-\min_{p\in LB(C)}
+\\le
+\\min\_{p\\in LB(C)}
 Conf(p)
 }
-]
+\]
 
 Failure propagates selectively:
 
-[
-\boxed{
+\[
+\\boxed{
 Invalid(p)
-\Rightarrow
-Invalid(Desc_{LB}(p))
+\\Rightarrow
+Invalid(Desc\_{LB}(p))
 }
-]
+\]
 
 while independent state remains preserved.
 
 The hard governance equations remain:
 
-[
-\boxed{
+\[
+\\boxed{
 Capability
-\neq
+\\neq
 Authority
 }
-]
+\]
 
-[
-\boxed{
+\[
+\\boxed{
 Proposal
-\neq
+\\neq
 Commit
 }
-]
+\]
 
 and:
 
-[
-\boxed{
+\[
+\\boxed{
 CriticalUnknown
-\Rightarrow
+\\Rightarrow
 UNKNOWN/GAP
 }
-]
+\]
 
 The complete L01 sensing equation spine is therefore:
 
-[
-\boxed{
+\[
+\\boxed{
 Environment
-\rightarrow
+\\rightarrow
 Sensing
-\rightarrow
+\\rightarrow
 RawObservation
-\rightarrow
+\\rightarrow
 Typing
-\rightarrow
+\\rightarrow
 Measurement
-\rightarrow
+\\rightarrow
 Provenance
-\rightarrow
+\\rightarrow
 Uncertainty
-\rightarrow
+\\rightarrow
 Validation
-\rightarrow
+\\rightarrow
 Admission
-\rightarrow
+\\rightarrow
 DownstreamEvidence
 }
-]
+\]
 
 with:
 
-[
-\boxed{
+\[
+\\boxed{
 Failure
-\rightarrow
+\\rightarrow
 SelectiveInvalidation
-\rightarrow
+\\rightarrow
 Repair
-\rightarrow
+\\rightarrow
 Reobservation
-\rightarrow
+\\rightarrow
 Revalidation
 }
-]
+\]
 
 Until direct authoritative L01 equation canon, domain-specific empirical measurement models, executable implementation, calibration evidence, and runtime validation are established, the strongest warranted classification remains:
 
@@ -4484,29 +4214,33 @@ Until direct authoritative L01 equation canon, domain-specific empirical measure
 AMOS_MODEL / CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · L01_SENSING_OBSERVATION — HML · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · L01_SENSING_OBSERVATION — RSCF · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[00_ROOT/00_HOME|00_HOME]] · 06-Knowledge-Base-MOC
 
 ```
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: l01_sensing_observation_primitives_cognitive_matrix_equations
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_EQUATIONS.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_MOC|L01_SENSING_OBSERVATION_MOC]]

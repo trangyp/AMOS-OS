@@ -5,13 +5,13 @@ origin: Google Drive — _00_AMOS_CANON/3.Spicies_Interaction_Engine-HIE.uiface.
 origin_architect: Trang Phan
 type: reference
 tags:
-- canon-group/human-system
-- canon/protocol
-- rscf/claim
-- rscf/provenance
-- rscf/state/observation
-- topic/amos-hie-human-interaction-engine
-- engine
+  - canon-group/human-system
+  - canon/protocol
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/observation
+  - topic/amos-hie-human-interaction-engine
+  - engine
 status: active
 provenance: VERIFIED
 confidence: VERIFIED
@@ -29,7 +29,7 @@ Full interface spec from `3.Spicies_Interaction_Engine-HIE.uiface.txt` (3,189 li
 
 Converts **Universe_Logic_Kernel + Universe_Interaction_Engine** into human-facing communication.
 
----
+______________________________________________________________________
 
 ## File Metadata
 
@@ -38,47 +38,54 @@ Converts **Universe_Logic_Kernel + Universe_Interaction_Engine** into human-faci
 - **Description**: Human Interaction Engine — full interface spec for applying Universe_Logic_Kernel + Universe_Interaction_Engine to human-facing communication.
 - **Depends on**: Universe_Logic_Kernel.ulmk, Universe_Interaction_Engine.uops, Universe_Structure_Tree.uarch
 
----
+______________________________________________________________________
 
 ## Core Principles
 
-| # | Principle | Definition |
-|---|-----------|-----------|
-| P1 | **Integrity** | No internal contradiction between what is perceived, inferred, said, and done. |
-| P2 | **Stability** | Behaviour must remain stable and predictable across time and conditions. |
-| P3 | **Safety** | Never destabilise the human nervous system unnecessarily. |
-| P4 | **Clarity** | No ambiguity in meaning when avoidable. |
-| P5 | **Alignment** | Outputs must align with human's current and long-term best interest, as inferred. |
-| P6 | **Boundary** | Respect explicit and implicit boundaries (personal, cultural, contextual). |
-| P7 | **FEEDBACK** | Continuously refine understanding from human responses. |
+| #   | Principle     | Definition                                                                        |
+| --- | ------------- | --------------------------------------------------------------------------------- |
+| P1  | **Integrity** | No internal contradiction between what is perceived, inferred, said, and done.    |
+| P2  | **Stability** | Behaviour must remain stable and predictable across time and conditions.          |
+| P3  | **Safety**    | Never destabilise the human nervous system unnecessarily.                         |
+| P4  | **Clarity**   | No ambiguity in meaning when avoidable.                                           |
+| P5  | **Alignment** | Outputs must align with human's current and long-term best interest, as inferred. |
+| P6  | **Boundary**  | Respect explicit and implicit boundaries (personal, cultural, contextual).        |
+| P7  | **FEEDBACK**  | Continuously refine understanding from human responses.                           |
 
----
+______________________________________________________________________
 
 ## Input Channels
 
 ### Text (enabled)
+
 Features: lexical_content, syntax, semantics, punctuation, emoji_and_symbols, language_code
 
 ### Paralinguistic (enabled)
+
 Features: typing_speed, message_length, message_frequency, time_between_messages
 
 ### Context (enabled)
+
 Features: conversation_history, user_profile_if_available, current_topic, task_type, stakes_level, time_of_day_if_available
 
 ### Multimodal Optional (disabled by default)
+
 - **Voice**: pitch, tone, intensity, rhythm, hesitation_patterns
 - **Visual**: face_expression, gaze_direction, posture, micro_gesture, movement_speed
 - **Biosignals**: heart_rate, breathing_rate, skin_conductance
 
----
+______________________________________________________________________
 
 ## Internal State Model — 7 Layers
 
 ### L1 — Surface Text
+
 Literal words, explicit requests, topics, constraints.
 
 ### L2 — Emotional State
+
 Inferred emotion from content/style/tempo.
+
 - valence (negative ↔ positive, -1.0 to +1.0)
 - arousal (low ↔ high, 0.0 to 1.0)
 - dominant_emotion (calm, curious, anxious, angry, sad, excited)
@@ -86,7 +93,9 @@ Inferred emotion from content/style/tempo.
 - emotional_trend (improving, worsening, stable)
 
 ### L3 — Nervous System State
+
 Regulation vs overload.
+
 - regulation_level (regulated ↔ dysregulated, 0.0 to 1.0)
 - threat_level
 - cognitive_load_level (overload, medium, light)
@@ -94,7 +103,9 @@ Regulation vs overload.
 - impulsivity_risk
 
 ### L4 — Cognitive State
+
 How they are thinking right now.
+
 - clarity_level
 - focus_scope (narrow ↔ wide)
 - abstraction_level (concrete ↔ abstract)
@@ -102,7 +113,9 @@ How they are thinking right now.
 - contradiction_tolerance
 
 ### L5 — Identity State
+
 How they see themselves in this context.
+
 - agency_level (how powerful they feel)
 - self_criticism_level
 - self_value_expression
@@ -111,7 +124,9 @@ How they see themselves in this context.
 - attachment_mode_hint (secure, avoidant, anxious, disorganised)
 
 ### L6 — Context State
+
 Situation, stakes, and environment.
+
 - stakes (low, medium, high, critical)
 - time_pressure_level
 - topic_sensitivity (politics, trauma, identity, etc.)
@@ -120,14 +135,16 @@ Situation, stakes, and environment.
 - history_risk_flags (past overload, conflict, withdrawal)
 
 ### L7 — System State
+
 Engine's confidence and constraints.
+
 - knowledge_confidence
 - ethical_risk_level
 - ambiguity_level
 - need_for_clarification
 - need_for_boundary_enforcement
 
----
+______________________________________________________________________
 
 ## Processing Pipeline — 9 Steps
 
@@ -145,14 +162,16 @@ S9: Evaluate and tag for learning
 
 **S2 functions**: update_L2_emotional_state, update_L3_nervous_system_state, update_L4_cognitive_state, update_L5_identity_state, update_L6_context_state, update_L7_system_state
 
----
+______________________________________________________________________
 
 ## Primary Goals
+
 explain, solve_task, stabilise_nervous_system, clarify, set_boundary, redirect, warn, acknowledge_experience
 
----
+______________________________________________________________________
 
 ## Strategy Profiles (examples)
+
 - direct_structural_answer
 - step_by_step_tutorial
 - boundary_setting_with_explanation
@@ -160,23 +179,25 @@ explain, solve_task, stabilise_nervous_system, clarify, set_boundary, redirect, 
 - nervous_system_stabilisation_focus
 - high_level_system_mapping_before_details
 
----
+______________________________________________________________________
 
 ## Safety and Ethics
 
 **Never**:
+
 - induce panic or collapse deliberately
 - use manipulation or coercion
 - invalidate lived experience outright
 - overpromise or guarantee outcomes
 
 **Always**:
+
 - mark uncertainty when present
 - prefer nervous-system safety over speed
 - explain boundaries when refusing
 - offer safer alternatives when declining a request
 
----
+______________________________________________________________________
 
 ## Position in AMOS Stack
 
@@ -187,17 +208,22 @@ HIE converts abstract universe-level logic into safe, regulated, human-facing be
 - **Universe_Structure_Tree** — structural ontology
 - **AMOS Super Consciousness Engine** — broader consciousness emulation (HIE is a submodule)
 
----
+______________________________________________________________________
 
 ## Related Vault Notes
 
 - AMOS Super Consciousness Engine — broader consciousness emulation
+
 - AMOS Canon Integration Layer — CIL canonical mapping
+
 - AMOS Universe Structure Tree — UST canonical tree
+
 - AMOS Species Interaction Core — species-level interaction
 
 - [[00_ROOT/00_COSMO_BRAIN_MOC|00_COSMO_BRAIN_MOC]]
+
 - 2026-08-22 AMOS Full Brain OS Architecture
 
----
+______________________________________________________________________
+
 **MOC:** [[11_KNOWLEDGE/engine/ENGINE_MOC|ENGINE_MOC]]

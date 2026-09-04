@@ -14,28 +14,28 @@ plane: KERNEL
 scope: AMOS_OS
 updated: 2026-08-26
 tags:
-- kernel
-- provenance
-- note
-- canon/kernel
-- readme
-- amos-core-laws
-- law-hierarchy
-- canon-provenance
-- source-lineage
-- k-provenance
-- k-provenance-topology
-- k-structural-reasoning
-- k-causal-closure
-- k-multi-hypothesis
-- k-metacognition
-- k-memory-admission
-- k-memory-conflict
-- k-memory-retrieval
-- k-context-compaction
-- k-risk-constraint
-- k-commit-time-authority
-- k-information-exposure
+  - kernel
+  - provenance
+  - note
+  - canon/kernel
+  - readme
+  - amos-core-laws
+  - law-hierarchy
+  - canon-provenance
+  - source-lineage
+  - k-provenance
+  - k-provenance-topology
+  - k-structural-reasoning
+  - k-causal-closure
+  - k-multi-hypothesis
+  - k-metacognition
+  - k-memory-admission
+  - k-memory-conflict
+  - k-memory-retrieval
+  - k-context-compaction
+  - k-risk-constraint
+  - k-commit-time-authority
+  - k-information-exposure
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -86,9 +86,9 @@ EPISTEMIC INDEPENDENCE
 
 This artifact defines an AMOS architectural model. It does **not** establish that the described detection, clustering, graph analysis, cryptographic identity, distributed coordination, or enforcement mechanisms are implemented.
 
----
+______________________________________________________________________
 
-# 1. Core Law
+## 1. Core Law
 
 ```text
 ONE ORIGIN
@@ -122,9 +122,9 @@ WHEN IT IS
 LOAD-BEARING.
 ```
 
----
+______________________________________________________________________
 
-# 2. Sybil Definition
+## 2. Sybil Definition
 
 For AMOS epistemic reasoning, a Sybil condition exists when apparent multiplicity materially exceeds the independent evidentiary multiplicity actually justified by provenance.
 
@@ -166,9 +166,9 @@ SYBIL HARDENING
 MALICE DETECTION ONLY
 ```
 
----
+______________________________________________________________________
 
-# 3. Epistemic Objective
+## 3. Epistemic Objective
 
 The objective is not to maximize source diversity.
 
@@ -186,9 +186,9 @@ INDEPENDENCE ANALYSIS
 EFFECTIVE SUPPORT
 ```
 
----
+______________________________________________________________________
 
-# 4. Independence Classes
+## 4. Independence Classes
 
 Each material evidence relationship should resolve, when possible, to:
 
@@ -211,9 +211,9 @@ DEFAULT TO
 INDEPENDENT.
 ```
 
----
+______________________________________________________________________
 
-# 5. Source Identity
+## 5. Source Identity
 
 A source identity may contain:
 
@@ -241,9 +241,9 @@ KNOWN IDENTITY
 INDEPENDENT SOURCE
 ```
 
----
+______________________________________________________________________
 
-# 6. Provenance Family
+## 6. Provenance Family
 
 Sources sharing a material origin or dependency may belong to one provenance family.
 
@@ -277,9 +277,9 @@ provenance_family:
   confidence:
 ```
 
----
+______________________________________________________________________
 
-# 7. Mirror Collapse
+## 7. Mirror Collapse
 
 If:
 
@@ -308,9 +308,9 @@ TEXTUAL COMPARISON
 
 but not independent confirmation of `C`.
 
----
+______________________________________________________________________
 
-# 8. Derivative Source Law
+## 8. Derivative Source Law
 
 A derivative source can become independently informative only for information it independently establishes.
 
@@ -347,9 +347,9 @@ CLAIM-LOCAL
 
 not merely source-global.
 
----
+______________________________________________________________________
 
-# 9. Claim-Local Independence
+## 9. Claim-Local Independence
 
 Two sources may be independent for one claim and correlated for another.
 
@@ -381,9 +381,9 @@ TO THE CLAIM
 AND ITS LOAD-BEARING PATH.
 ```
 
----
+______________________________________________________________________
 
-# 10. Dependency Dimensions
+## 10. Dependency Dimensions
 
 Material correlation may arise through shared:
 
@@ -412,9 +412,9 @@ COORDINATION CHANNEL
 
 No single dimension universally determines independence.
 
----
+______________________________________________________________________
 
-# 11. Common-Ancestor Test
+## 11. Common-Ancestor Test
 
 For evidence paths `E1` and `E2`, inspect whether they have a material common ancestor.
 
@@ -428,9 +428,9 @@ ANCESTORS(E2)
 
 If the intersection contains a load-bearing ancestor for claim `C`, then full independence for `C` is not established.
 
----
+______________________________________________________________________
 
-# 12. Hidden Common Origin
+## 12. Hidden Common Origin
 
 A hidden common origin is especially dangerous because:
 
@@ -452,9 +452,9 @@ may appear independent while actually being:
 
 AMOS should seek ancestry before multiplying confidence.
 
----
+______________________________________________________________________
 
-# 13. Circular Citation
+## 13. Circular Citation
 
 Example:
 
@@ -476,9 +476,9 @@ INDEPENDENT CONFIRMATION
 
 A cycle should be collapsed to its externally grounded evidentiary roots for confidence purposes.
 
----
+______________________________________________________________________
 
-# 14. Citation Depth
+## 14. Citation Depth
 
 Longer chains do not imply stronger evidence.
 
@@ -500,9 +500,9 @@ LINEAGE DEPTH
 EVIDENCE MULTIPLICITY
 ```
 
----
+______________________________________________________________________
 
-# 15. Agreement
+## 15. Agreement
 
 Agreement between sources has evidentiary value only relative to their independence.
 
@@ -528,9 +528,9 @@ VALUE(AGREEMENT)
 SOURCE_COUNT
 ```
 
----
+______________________________________________________________________
 
-# 16. Consensus
+## 16. Consensus
 
 Consensus may be recorded as an observation about source agreement.
 
@@ -550,9 +550,9 @@ X
 
 unless the evidence topology and underlying support justify it.
 
----
+______________________________________________________________________
 
-# 17. Authority Amplification
+## 17. Authority Amplification
 
 Many sources repeating an authoritative source remain descendants of that source.
 
@@ -566,9 +566,9 @@ does not create 100 independent confirmations.
 
 Authority may affect source reliability under a valid trust model, but it does not alter ancestry.
 
----
+______________________________________________________________________
 
-# 18. Popularity Amplification
+## 18. Popularity Amplification
 
 ```text
 LIKES
@@ -589,9 +589,9 @@ POPULARITY
 PROVENANCE INDEPENDENCE
 ```
 
----
+______________________________________________________________________
 
-# 19. Agent Sybils
+## 19. Agent Sybils
 
 Multiple agents can be epistemically correlated.
 
@@ -616,9 +616,9 @@ SAME DATA
 
 must not automatically be treated as three independent reasoners.
 
----
+______________________________________________________________________
 
-# 20. Model Multiplicity
+## 20. Model Multiplicity
 
 Multiple model outputs are not necessarily independent evidence.
 
@@ -643,9 +643,9 @@ MULTI-MODEL AGREEMENT
 
 requires provenance analysis before confidence amplification.
 
----
+______________________________________________________________________
 
-# 21. Repeated Sampling
+## 21. Repeated Sampling
 
 Repeated stochastic samples from one model may help measure:
 
@@ -661,9 +661,9 @@ N MODEL SAMPLES
 N WORLD OBSERVATIONS
 ```
 
----
+______________________________________________________________________
 
-# 22. Shared Dataset
+## 22. Shared Dataset
 
 Two independent teams analyzing the same dataset may provide partially independent analysis but share observational provenance.
 
@@ -677,9 +677,9 @@ DATA D
 
 For conclusions dependent on measurement validity of `D`, both share that load-bearing premise.
 
----
+______________________________________________________________________
 
-# 23. Shared Sensor
+## 23. Shared Sensor
 
 ```text
 SYSTEM A ← SENSOR S
@@ -688,9 +688,9 @@ SYSTEM B ← SENSOR S
 
 Agreement between `A` and `B` cannot independently validate sensor correctness if both depend on `S`.
 
----
+______________________________________________________________________
 
-# 24. Shared API
+## 24. Shared API
 
 Multiple services querying the same upstream API may create false diversity.
 
@@ -709,9 +709,9 @@ A,B,C
 
 form a correlated family.
 
----
+______________________________________________________________________
 
-# 25. Shared Toolchain
+## 25. Shared Toolchain
 
 Two experiments may share:
 
@@ -728,9 +728,9 @@ Shared tooling can become a common-mode failure path.
 
 Whether this destroys independence depends on whether the shared component is load-bearing.
 
----
+______________________________________________________________________
 
-# 26. Shared Incentive
+## 26. Shared Incentive
 
 Common incentives can increase correlation risk but do not prove coordination or falsity.
 
@@ -748,9 +748,9 @@ SHARED INCENTIVE
 → SAME_LINEAGE
 ```
 
----
+______________________________________________________________________
 
-# 27. Coordination
+## 27. Coordination
 
 Evidence of coordination may include validated common control or communication.
 
@@ -764,9 +764,9 @@ alone does not prove coordination.
 
 Structural similarity remains insufficient for causal attribution.
 
----
+______________________________________________________________________
 
-# 28. Identity Splitting
+## 28. Identity Splitting
 
 Identity splitting occurs when one actor or origin appears as multiple apparently distinct identities.
 
@@ -781,9 +781,9 @@ ENTITY O
 
 If established, the identities must not be counted as independent actors for affected claims.
 
----
+______________________________________________________________________
 
-# 29. Identity Merging
+## 29. Identity Merging
 
 Identity merging is consequential and must require evidence.
 
@@ -809,9 +809,9 @@ UNKNOWN/GAP
 
 as appropriate.
 
----
+______________________________________________________________________
 
-# 30. False Merge Risk
+## 30. False Merge Risk
 
 Sybil hardening has a symmetric failure mode:
 
@@ -833,9 +833,9 @@ It is:
 JUSTIFIED CLUSTERING
 ```
 
----
+______________________________________________________________________
 
-# 31. Independence Evidence
+## 31. Independence Evidence
 
 Possible evidence supporting independence includes appropriately scoped proof of:
 
@@ -851,9 +851,9 @@ NO LOAD-BEARING COMMON ANCESTRY
 
 The required evidence depends on the claim and stakes.
 
----
+______________________________________________________________________
 
-# 32. Independence Is Not Absolute
+## 32. Independence Is Not Absolute
 
 Absolute independence is often impossible to establish.
 
@@ -867,9 +867,9 @@ relative to the load-bearing failure modes of the claim.
 
 Two experiments may share electricity and mathematics while remaining materially independent for the decision at hand.
 
----
+______________________________________________________________________
 
-# 33. Independence Envelope
+## 33. Independence Envelope
 
 Conceptually:
 
@@ -887,9 +887,9 @@ independence_envelope:
   confidence:
 ```
 
----
+______________________________________________________________________
 
-# 34. Effective Evidence Families
+## 34. Effective Evidence Families
 
 Instead of:
 
@@ -907,9 +907,9 @@ and the dependencies between those families.
 
 No universal numeric conversion from `N` to `F` is asserted.
 
----
+______________________________________________________________________
 
-# 35. Evidence Weight
+## 35. Evidence Weight
 
 Evidence weight must not be calculated solely from source count.
 
@@ -932,9 +932,9 @@ f(
 
 No universal weighting formula is canonized here.
 
----
+______________________________________________________________________
 
-# 36. Confidence Amplification Gate
+## 36. Confidence Amplification Gate
 
 Confidence may increase from multiple agreeing sources only if the additional evidence contributes materially new support.
 
@@ -958,9 +958,9 @@ If no materially new evidence exists:
 NO INDEPENDENCE BONUS
 ```
 
----
+______________________________________________________________________
 
-# 37. Unknown Ancestry
+## 37. Unknown Ancestry
 
 If ancestry is unknown:
 
@@ -983,9 +983,9 @@ UNKNOWN ANCESTRY
 → ESCALATE OR CONDITION
 ```
 
----
+______________________________________________________________________
 
-# 38. Provenance Topology Integration
+## 38. Provenance Topology Integration
 
 `K_SYBIL_HARDENING` depends on:
 
@@ -998,9 +998,9 @@ for source identity, ancestry, dependencies, transformations, and independence.
 
 Sybil hardening consumes that topology to prevent multiplicity inflation.
 
----
+______________________________________________________________________
 
-# 39. Topological Collapse
+## 39. Topological Collapse
 
 A provenance graph may be collapsed into equivalence or correlation families for a specific claim.
 
@@ -1027,9 +1027,9 @@ F3
 
 and their dependencies rather than raw source count.
 
----
+______________________________________________________________________
 
-# 40. Collapse Must Be Claim-Specific
+## 40. Collapse Must Be Claim-Specific
 
 A global source collapse may erase legitimate independence.
 
@@ -1047,9 +1047,9 @@ COLLAPSE(SOURCES)
 
 when dependency relevance differs by claim.
 
----
+______________________________________________________________________
 
-# 41. Provenance Laundering
+## 41. Provenance Laundering
 
 Provenance laundering occurs when transformations obscure the original source enough that derivative evidence appears independent.
 
@@ -1071,9 +1071,9 @@ E
 
 does not become independent merely because the intermediate forms differ.
 
----
+______________________________________________________________________
 
-# 42. Semantic Laundering
+## 42. Semantic Laundering
 
 Paraphrasing can obscure common ancestry.
 
@@ -1095,9 +1095,9 @@ do not prove common origin.
 
 Both content and provenance must be evaluated.
 
----
+______________________________________________________________________
 
-# 43. Temporal Laundering
+## 43. Temporal Laundering
 
 A recent derivative publication does not refresh the underlying evidence.
 
@@ -1116,9 +1116,9 @@ NEW PUBLICATION DATE
 NEW INDEPENDENT EVIDENCE
 ```
 
----
+______________________________________________________________________
 
-# 44. Cross-Regime Laundering
+## 44. Cross-Regime Laundering
 
 A claim repeated in another regime does not become validated there.
 
@@ -1135,9 +1135,9 @@ VALID IN R2
 
 Independent regime-appropriate evidence is required.
 
----
+______________________________________________________________________
 
-# 45. Source Registry Integration
+## 45. Source Registry Integration
 
 The source registry should support fields needed to detect apparent duplicates and shared control, where available:
 
@@ -1157,9 +1157,9 @@ source_registry_entry:
 
 Unknown fields remain unknown.
 
----
+______________________________________________________________________
 
-# 46. Alias Registry Integration
+## 46. Alias Registry Integration
 
 Aliases must not create new epistemic entities.
 
@@ -1171,9 +1171,9 @@ ALIAS A2
 
 remain one source unless evidence establishes otherwise.
 
----
+______________________________________________________________________
 
-# 47. Hash-Based Detection
+## 47. Hash-Based Detection
 
 Matching hashes can establish identical content under the hash assumptions.
 
@@ -1195,9 +1195,9 @@ DIFFERENT HASH
 INDEPENDENT ORIGIN
 ```
 
----
+______________________________________________________________________
 
-# 48. Content Similarity
+## 48. Content Similarity
 
 Content similarity may trigger investigation.
 
@@ -1212,9 +1212,9 @@ SYBIL IDENTITY
 
 It is a discriminating signal, not final proof.
 
----
+______________________________________________________________________
 
-# 49. Metadata Similarity
+## 49. Metadata Similarity
 
 Shared metadata may indicate common origin or tooling.
 
@@ -1231,9 +1231,9 @@ VERSION STRINGS
 
 But each remains evidence requiring interpretation.
 
----
+______________________________________________________________________
 
-# 50. Contradiction as Independence Signal
+## 50. Contradiction as Independence Signal
 
 Independent sources may disagree.
 
@@ -1247,9 +1247,9 @@ CONTRADICTION
 INDEPENDENCE PROOF
 ```
 
----
+______________________________________________________________________
 
-# 51. Negative Correlation
+## 51. Negative Correlation
 
 Sources may be systematically anti-correlated because of shared incentives or opposing transformations.
 
@@ -1263,9 +1263,9 @@ LOAD-BEARING CAUSES
 OF ERROR?
 ```
 
----
+______________________________________________________________________
 
-# 52. Error Independence
+## 52. Error Independence
 
 For decision purposes, a stronger criterion than identity independence may be:
 
@@ -1275,9 +1275,9 @@ FAILURE-MODE INDEPENDENCE
 
 Two different organizations using the same flawed dataset may be identity-independent but error-correlated.
 
----
+______________________________________________________________________
 
-# 53. Common-Mode Failure
+## 53. Common-Mode Failure
 
 A common-mode dependency is a component whose failure can jointly invalidate multiple apparent evidence paths.
 
@@ -1297,9 +1297,9 @@ may fail together.
 
 This must be represented in confidence reasoning.
 
----
+______________________________________________________________________
 
-# 54. Dependency Cut
+## 54. Dependency Cut
 
 For consequential claims, AMOS may seek the smallest shared dependency whose failure collapses multiple supporting paths.
 
@@ -1312,9 +1312,9 @@ COMMON DEPENDENCY CUT
 
 This is a reasoning pattern, not a claim of a specific implemented graph algorithm.
 
----
+______________________________________________________________________
 
-# 55. Sensitivity Test
+## 55. Sensitivity Test
 
 Ask:
 
@@ -1335,9 +1335,9 @@ is load-bearing.
 
 Then test its independence and provenance first.
 
----
+______________________________________________________________________
 
-# 56. Cheap Discriminating Test
+## 56. Cheap Discriminating Test
 
 When two hypotheses compete:
 
@@ -1366,9 +1366,9 @@ CHECK VERSION HISTORY
 
 rather than collecting more derivative sources.
 
----
+______________________________________________________________________
 
-# 57. Adversarial Validation
+## 57. Adversarial Validation
 
 For consequential multi-source conclusions, challenge support by asking:
 
@@ -1394,9 +1394,9 @@ MIRRORING
 
 If the challenge succeeds, confidence must be recalibrated.
 
----
+______________________________________________________________________
 
-# 58. Competing Topologies
+## 58. Competing Topologies
 
 Sometimes provenance topology itself is uncertain.
 
@@ -1424,9 +1424,9 @@ must be preserved.
 
 Do not force one lineage.
 
----
+______________________________________________________________________
 
-# 59. Conservative Independence
+## 59. Conservative Independence
 
 When independence materially affects a high-stakes decision and cannot be established:
 
@@ -1448,9 +1448,9 @@ as supported.
 
 This is not a requirement to assume worst-case identity in every context.
 
----
+______________________________________________________________________
 
-# 60. Scope Firewall
+## 60. Scope Firewall
 
 Sybil judgments inherit scope.
 
@@ -1472,9 +1472,9 @@ REGIME R2
 
 Never silently generalize an independence finding beyond its envelope.
 
----
+______________________________________________________________________
 
-# 61. Freshness Firewall
+## 61. Freshness Firewall
 
 Provenance topology can change.
 
@@ -1492,9 +1492,9 @@ STOP SYNDICATING
 
 Therefore independence assessments may expire.
 
----
+______________________________________________________________________
 
-# 62. Independence Revalidation
+## 62. Independence Revalidation
 
 Revalidate when load-bearing topology changes.
 
@@ -1512,9 +1512,9 @@ NEW CONFLICT
 NEW REGIME
 ```
 
----
+______________________________________________________________________
 
-# 63. Sybil Epoch
+## 63. Sybil Epoch
 
 A material change to source topology may require a new provenance or relevant policy epoch.
 
@@ -1531,9 +1531,9 @@ If the change alters confidence or finality:
 REVALIDATE AFFECTED CONCLUSIONS
 ```
 
----
+______________________________________________________________________
 
-# 64. Persistent Independence State
+## 64. Persistent Independence State
 
 If independence is load-bearing for persisted knowledge, preserve:
 
@@ -1550,9 +1550,9 @@ or a recoverable reference.
 
 Otherwise reload may incorrectly restore confidence without its justification.
 
----
+______________________________________________________________________
 
-# 65. Memory Admission
+## 65. Memory Admission
 
 Before storing a multi-source conclusion as validated knowledge, memory admission should ask:
 
@@ -1574,9 +1574,9 @@ WHAT WOULD
 INVALIDATE IT?
 ```
 
----
+______________________________________________________________________
 
-# 66. Memory Conflict
+## 66. Memory Conflict
 
 If later evidence reveals:
 
@@ -1590,9 +1590,9 @@ were not independent, stored conclusions relying on their independence must be s
 
 Unrelated memory remains intact.
 
----
+______________________________________________________________________
 
-# 67. Local Invalidation
+## 67. Local Invalidation
 
 If:
 
@@ -1612,9 +1612,9 @@ INVALIDATE(
 
 not the entire knowledge graph.
 
----
+______________________________________________________________________
 
-# 68. Proof Capsules
+## 68. Proof Capsules
 
 Important multi-source conclusions should conceptually preserve:
 
@@ -1634,9 +1634,9 @@ sybil_proof_capsule:
   falsifiers: []
 ```
 
----
+______________________________________________________________________
 
-# 69. Proof Capsule Reuse
+## 69. Proof Capsule Reuse
 
 Reuse requires that:
 
@@ -1653,9 +1653,9 @@ NO MATERIAL NEW CONFLICT
 
 remain true.
 
----
+______________________________________________________________________
 
-# 70. Multi-RSCF Reasoning
+## 70. Multi-RSCF Reasoning
 
 If separate RSCF structures provide supporting evidence, their separation does not itself prove independence.
 
@@ -1676,9 +1676,9 @@ PIPELINE
 
 Atomic multi-RSCF reasoning must preserve those cross-RSCF dependencies when material.
 
----
+______________________________________________________________________
 
-# 71. Shard Independence
+## 71. Shard Independence
 
 Different shards are not automatically epistemically independent.
 
@@ -1691,9 +1691,9 @@ may share upstream state.
 
 Shard-local finalization requires demonstrated dependency closure, not physical or logical separation alone.
 
----
+______________________________________________________________________
 
-# 72. Coordination Avoidance
+## 72. Coordination Avoidance
 
 Proof-based coordination avoidance requires independence to be established where cross-shard state could otherwise alter the result.
 
@@ -1714,9 +1714,9 @@ ESTABLISHED.
 
 Absence of detected coupling is not proof of independence.
 
----
+______________________________________________________________________
 
-# 73. Commit-Time Check
+## 73. Commit-Time Check
 
 For consequential conclusions whose confidence depends on multiple sources:
 
@@ -1738,9 +1738,9 @@ REVALIDATE
 
 before commit.
 
----
+______________________________________________________________________
 
-# 74. MVCC/CAS Semantics
+## 74. MVCC/CAS Semantics
 
 Conceptually:
 
@@ -1762,9 +1762,9 @@ REVALIDATE AFFECTED CLOSURE
 
 This is an architectural reasoning pattern, not an implementation claim.
 
----
+______________________________________________________________________
 
-# 75. Sybil Risk Levels
+## 75. Sybil Risk Levels
 
 A deployment may classify Sybil risk conceptually as:
 
@@ -1789,9 +1789,9 @@ MANIPULATION INCENTIVE
 IRREVERSIBILITY
 ```
 
----
+______________________________________________________________________
 
-# 76. High-Stakes Escalation
+## 76. High-Stakes Escalation
 
 Increase validation when false independence could affect:
 
@@ -1809,9 +1809,9 @@ LARGE DOWNSTREAM DEPENDENCY
 
 Prefer independent primary evidence where feasible.
 
----
+______________________________________________________________________
 
-# 77. Identity Privacy
+## 77. Identity Privacy
 
 Sybil hardening must not require unnecessary deanonymization.
 
@@ -1829,9 +1829,9 @@ MAXIMUM PERSONAL IDENTITY DISCLOSURE
 
 Pseudonymous sources may still have assessable provenance relationships.
 
----
+______________________________________________________________________
 
-# 78. Information Exposure
+## 78. Information Exposure
 
 Sensitive provenance used internally to establish correlation must remain subject to `K_INFORMATION_EXPOSURE`.
 
@@ -1842,9 +1842,9 @@ A CORRELATION
 
 does not automatically authorize revealing protected identity or proprietary lineage.
 
----
+______________________________________________________________________
 
-# 79. Security Boundary
+## 79. Security Boundary
 
 Sybil hardening complements but does not replace:
 
@@ -1859,9 +1859,9 @@ CRYPTOGRAPHIC VERIFICATION
 
 Those mechanisms address overlapping but distinct problems.
 
----
+______________________________________________________________________
 
-# 80. Cryptographic Identity
+## 80. Cryptographic Identity
 
 Cryptographic signatures may help establish:
 
@@ -1889,9 +1889,9 @@ VALID SIGNATURE
 TRUE CLAIM
 ```
 
----
+______________________________________________________________________
 
-# 81. Network Identity
+## 81. Network Identity
 
 Different:
 
@@ -1909,9 +1909,9 @@ Likewise, shared infrastructure does not alone prove common control.
 
 Treat these as evidence, not identity proof.
 
----
+______________________________________________________________________
 
-# 82. Behavioral Similarity
+## 82. Behavioral Similarity
 
 Similar behavior may raise correlation risk.
 
@@ -1933,9 +1933,9 @@ MODELS
 INCENTIVES
 ```
 
----
+______________________________________________________________________
 
-# 83. Independence Challenge
+## 83. Independence Challenge
 
 Before materially increasing confidence from source multiplicity:
 
@@ -1966,9 +1966,9 @@ Before materially increasing confidence from source multiplicity:
    NEW SUPPORT.
 ```
 
----
+______________________________________________________________________
 
-# 84. Stop Condition
+## 84. Stop Condition
 
 Sybil analysis may stop when:
 
@@ -1982,9 +1982,9 @@ are reached and further topology resolution cannot materially change the outcome
 
 Do not globally map every source merely because mapping is possible.
 
----
+______________________________________________________________________
 
-# 85. Unknown Handling
+## 85. Unknown Handling
 
 When sufficient topology cannot be recovered:
 
@@ -2003,9 +2003,9 @@ CONFIDENCE CEILING
 
 must reflect that uncertainty.
 
----
+______________________________________________________________________
 
-# 86. Gap Classification
+## 86. Gap Classification
 
 Sybil-related gaps should be classified:
 
@@ -2032,9 +2032,9 @@ SHARE HOSTING
 → COSMETIC
 ```
 
----
+______________________________________________________________________
 
-# 87. Observability Events
+## 87. Observability Events
 
 Recommended events:
 
@@ -2071,9 +2071,9 @@ SYBIL_TOPOLOGY_CHANGED
 SYBIL_EPOCH_REVALIDATION_REQUIRED
 ```
 
----
+______________________________________________________________________
 
-# 88. Kernel Invariants
+## 88. Kernel Invariants
 
 ```text
 KSH-01
@@ -2257,9 +2257,9 @@ KSH-60
 INTEGRITY MUST DOMINATE CONFIDENCE AMPLIFICATION
 ```
 
----
+______________________________________________________________________
 
-# 89. Required Tests
+## 89. Required Tests
 
 ```text
 MIRROR-COLLAPSE TEST
@@ -2328,9 +2328,9 @@ INFORMATION-EXPOSURE TEST
 CRITICAL-GAP TEST
 ```
 
----
+______________________________________________________________________
 
-# 90. Negative Tests
+## 90. Negative Tests
 
 ```text
 10 SOURCES AGREE
@@ -2430,9 +2430,9 @@ STRUCTURAL SIMILARITY
 MUST FAIL
 ```
 
----
+______________________________________________________________________
 
-# 91. Failure Modes
+## 91. Failure Modes
 
 ```text
 SOURCE-COUNT INFLATION
@@ -2482,9 +2482,9 @@ UNAUTHORIZED IDENTITY EXPOSURE
 STRUCTURAL-SIMILARITY CAUSAL OVERREACH
 ```
 
----
+______________________________________________________________________
 
-# 92. Interaction Matrix
+## 92. Interaction Matrix
 
 ```text
 K_PROVENANCE
@@ -2551,9 +2551,9 @@ OPERATIONS
 → REPAIR CORRUPTED SOURCE TOPOLOGY
 ```
 
----
+______________________________________________________________________
 
-# 93. Promotion Gate
+## 93. Promotion Gate
 
 Before promotion beyond `AMOS_MODEL`, evidence should establish:
 
@@ -2628,9 +2628,9 @@ EMPIRICAL_VALIDATION = UNKNOWN/GAP
 FORMAL_VERIFICATION = UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 94. RSCF Node
+## 94. RSCF Node
 
 ```RSCF-NODE
 node_id: AMOS-OS-K-SYBIL-HARDENING
@@ -2683,9 +2683,9 @@ RSCF-RELATIONS:
   - RECOVERED_BY: README
 ```
 
----
+______________________________________________________________________
 
-# 95. Canonical Summary
+## 95. Canonical Summary
 
 ```text
 K_SYBIL_HARDENING
@@ -2835,12 +2835,14 @@ README
 **Classification:** `MODEL`. This is substantive replacement content for the placeholder, but it is not by itself evidence of implementation, empirical validation, formal verification, or promotion to final canon. Those remain subject to the AMOS provenance, conflict-resolution, validation, and supersession process.
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 **MOC:** [[02_KERNEL/08_PROVENANCE/08_PROVENANCE_MOC|08_PROVENANCE_MOC]]

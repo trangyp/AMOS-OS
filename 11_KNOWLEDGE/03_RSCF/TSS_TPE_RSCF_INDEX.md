@@ -12,20 +12,20 @@ segment: 11_KNOWLEDGE/03_RSCF
 artifact_kind: INDEX
 path: 11_KNOWLEDGE/03_RSCF/TSS_TPE_RSCF_INDEX.md
 tags:
-- amos-os
-- knowledge
-- vault
-- 03_rscf
-- tss_tpe_rscf_index
-- proof_capsules
-- tss_proofs
-- tpe_proofs
-- rscf
-- canon_candidate
-- canon/knowledge
-- tss-the-trang-system
-- tpe-trang-prediction-engine
-- amos-x-tss-tpe-matrix
+  - amos-os
+  - knowledge
+  - vault
+  - 03_rscf
+  - tss_tpe_rscf_index
+  - proof_capsules
+  - tss_proofs
+  - tpe_proofs
+  - rscf
+  - canon_candidate
+  - canon/knowledge
+  - tss-the-trang-system
+  - tpe-trang-prediction-engine
+  - amos-x-tss-tpe-matrix
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -40,23 +40,23 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - TSS_THE_TRANG_SYSTEM
-  - TPE_TRANG_PREDICTION_ENGINE
-  - AMOS_CORPUS
+    - TSS_THE_TRANG_SYSTEM
+    - TPE_TRANG_PREDICTION_ENGINE
+    - AMOS_CORPUS
   scope:
-  - KNOWLEDGE_RSCF
-  - TSS_TPE_RSCF_INDEX
-  - SOURCE_DEFINED_MODEL
+    - KNOWLEDGE_RSCF
+    - TSS_TPE_RSCF_INDEX
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   rscf_moc:
     artifact:
-    - - 03_RSCF_MOC
+      -   - 03_RSCF_MOC
   tss_master:
     artifact:
-    - - TSS_THE_TRANG_SYSTEM
+      -   - TSS_THE_TRANG_SYSTEM
   tpe_master:
     artifact:
-    - - TPE_TRANG_PREDICTION_ENGINE
+      -   - TPE_TRANG_PREDICTION_ENGINE
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   index_structure: VERIFIED_SOURCE_STRUCTURE
@@ -70,29 +70,29 @@ epistemic_boundary:
 
 It catalogs verifiable proof capsules governing system lifecycle state variables ($\Omega, H, F, S$), the 7 evolutionary cycles ($C_1 \dots C_7$), alignment formulation ($i$), and structural foresight prediction.
 
----
+______________________________________________________________________
 
-# 1. Indexed RSCF Capsules
+## 1. Indexed RSCF Capsules
 
-| Node ID | Framework Module | Claim Class | Governing Equation / Invariant | Status |
-| :--- | :--- | :--- | :--- | :--- |
-| `RSCF-TSS-001` | TSS Core Model | `AMOS_MODEL` | $i_{\text{TSS}} = [H(1-\Omega)(1-F)(1-S)]^{1/4}$ | Active |
-| `RSCF-TSS-002` | TSS 7 Cycles | `AMOS_MODEL` | Phase Sequence $C_1 \to C_2 \to \dots \to C_7$ | Active |
-| `RSCF-TSS-003` | TSS Quadratic Scaling | `MATHEMATICAL_MODEL` | Capability Emergence $e = i_{\text{TSS}}^2$ | Active |
-| `RSCF-TSS-004` | TPE Prediction Engine | `AMOS_MODEL` | 7-Layer Structural Foresight Pipeline | Active |
+| Node ID        | Framework Module      | Claim Class          | Governing Equation / Invariant                   | Status |
+| :------------- | :-------------------- | :------------------- | :----------------------------------------------- | :----- |
+| `RSCF-TSS-001` | TSS Core Model        | `AMOS_MODEL`         | $i_{\text{TSS}} = [H(1-\Omega)(1-F)(1-S)]^{1/4}$ | Active |
+| `RSCF-TSS-002` | TSS 7 Cycles          | `AMOS_MODEL`         | Phase Sequence $C_1 \to C_2 \to \dots \to C_7$   | Active |
+| `RSCF-TSS-003` | TSS Quadratic Scaling | `MATHEMATICAL_MODEL` | Capability Emergence $e = i_{\text{TSS}}^2$      | Active |
+| `RSCF-TSS-004` | TPE Prediction Engine | `AMOS_MODEL`         | 7-Layer Structural Foresight Pipeline            | Active |
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **RSCF MOC:** [[11_KNOWLEDGE/03_RSCF/03_RSCF_MOC|03_RSCF_MOC]]
 - **TSS Master:** [[11_KNOWLEDGE/05_FRAMEWORKS/TSS_THE_TRANG_SYSTEM|TSS_THE_TRANG_SYSTEM]]
 - **TPE Master:** [[11_KNOWLEDGE/trang/TPE_TRANG_PREDICTION_ENGINE|TPE_TRANG_PREDICTION_ENGINE]]
 - **Cognitive Matrix:** [[25_COGNITIVE_MATRIX/AMOS_X_TSS_TPE_MATRIX|AMOS_X_TSS_TPE_MATRIX]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -110,11 +110,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[01_CANON/01_CORE_LAWS/ATOMIC_MULTI_RSCF|ATOMIC_MULTI_RSCF]] · [[02_KERNEL/K_ATOMIC_MULTI_RSCF|K_ATOMIC_MULTI_RSCF]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/03_RSCF/03_RSCF_MOC|03_RSCF_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/TSS_THE_TRANG_SYSTEM|TSS_THE_TRANG_SYSTEM]] · [[11_KNOWLEDGE/trang/TPE_TRANG_PREDICTION_ENGINE|TPE_TRANG_PREDICTION_ENGINE]] · [[25_COGNITIVE_MATRIX/AMOS_X_TSS_TPE_MATRIX|AMOS_X_TSS_TPE_MATRIX]]
 
----
+______________________________________________________________________
+
 **MOC:** [[11_KNOWLEDGE/03_RSCF/03_RSCF_MOC|03_RSCF_MOC]]
-
-

@@ -1,32 +1,35 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: 03 Coding MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/03_CODING
 tags:
-- 03-coding
-- canon/control-plane
-- commit-control-plane-mode-family-spec
-- control-plane-activation-rules
-- control-plane-aliases
-- control-plane-benchmarks
-- control-plane-composition
-- control-plane-deprecation-supersession
-- control-plane-domain-weights
-- control-plane-engine-weights
-- control-plane-exit-criteria
-- control-plane-failure-recovery
-- control-plane-governance
-- control-plane-layer-weights
-- control-plane-mode-spec
-- control-plane-observability
-- control-plane-preconditions
-- control-plane-provenance
-- control-plane-purpose-scope
-- control-plane-routing-bindings
-- control-plane-safety-gates
-- control-plane-tests
-- control-plane-transition-rules
-- control-plane-validation
+  - 03-coding
+  - canon/control-plane
+  - commit-control-plane-mode-family-spec
+  - control-plane-activation-rules
+  - control-plane-aliases
+  - control-plane-benchmarks
+  - control-plane-composition
+  - control-plane-deprecation-supersession
+  - control-plane-domain-weights
+  - control-plane-engine-weights
+  - control-plane-exit-criteria
+  - control-plane-failure-recovery
+  - control-plane-governance
+  - control-plane-layer-weights
+  - control-plane-mode-spec
+  - control-plane-observability
+  - control-plane-preconditions
+  - control-plane-provenance
+  - control-plane-purpose-scope
+  - control-plane-routing-bindings
+  - control-plane-safety-gates
+  - control-plane-tests
+  - control-plane-transition-rules
+  - control-plane-validation
 moc: true
 rscf:
   state: DERIVED
@@ -69,5 +72,6 @@ rscf:
 - [[03_CONTROL_PLANE/09_COMMIT/03_CODING/CONTROL_PLANE_TRANSITION_RULES|CONTROL_PLANE_TRANSITION_RULES]]
 - [[03_CONTROL_PLANE/09_COMMIT/03_CODING/CONTROL_PLANE_VALIDATION|CONTROL_PLANE_VALIDATION]]
 
----
+______________________________________________________________________
+
 **Parent:** [[03_CONTROL_PLANE/09_COMMIT/09_COMMIT_MOC|09_COMMIT_MOC]]

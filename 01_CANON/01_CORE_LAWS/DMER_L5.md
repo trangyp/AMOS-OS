@@ -1,32 +1,35 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: DMER_L5 — Deterministic Multi-Epoch Recovery (Level 5)
 type: law
 source: 01_CANON/01_CORE_LAWS
 tags:
-- canon
-- core_law
-- dmer
-- recovery
-- distinction
-- mutation
-- entropy
-- repair
-- dual_loop
-- multi_epoch
-- cascading_fault
-- state_rewind
-- rollback
-- collapse_recovery
-- viability
-- adaptive_optionality
-- silent_decay
-- repair_capacity
-- canon/universe
-- law-hierarchy
-- k-failure-recovery
-- trang-framework-recursive-ontology-dynamics
-- amos-dmer-dual-loop-architecture
-- four-process-architecture-dmer
+  - canon
+  - core_law
+  - dmer
+  - recovery
+  - distinction
+  - mutation
+  - entropy
+  - repair
+  - dual_loop
+  - multi_epoch
+  - cascading_fault
+  - state_rewind
+  - rollback
+  - collapse_recovery
+  - viability
+  - adaptive_optionality
+  - silent_decay
+  - repair_capacity
+  - canon/universe
+  - law-hierarchy
+  - k-failure-recovery
+  - trang-framework-recursive-ontology-dynamics
+  - amos-dmer-dual-loop-architecture
+  - four-process-architecture-dmer
 rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
@@ -47,11 +50,12 @@ DMER_L5 is the highest-order recovery protocol in the AMOS core law hierarchy. I
 **Origin architect / steward: Trang Phan**
 
 **Sources:**
+
 - `11_KNOWLEDGE/amos-general/AMOS_DMER_DUAL_LOOP_ARCHITECTURE.md` (1578 lines, SOURCE_CLAIM)
 - `11_KNOWLEDGE/architecture/FOUR_PROCESS_ARCHITECTURE_DMER.md` (73 lines, AMOS_MODEL, validated)
 - `cosmo-brain/dmer_kernel.py` (executable implementation, 21/21 tests pass)
 
----
+______________________________________________________________________
 
 ## 1. Purpose
 
@@ -69,7 +73,7 @@ And the two trajectory attractors:
 - **∞ (open adaptive continuity)**: Repair ≥ degradation; continued adaptive optionality
 - **● (closure)**: Loss of meaningful access to repair
 
----
+______________________________________________________________________
 
 ## 2. Core Laws
 
@@ -93,11 +97,11 @@ R restores viable integrity, not historical identity. Repair quality depends on 
 
 When a cascading fault spans epochs E_1 → E_2 → ... → E_n, single-epoch rollback is insufficient. DMER_L5 requires:
 
-1. **Fault Propagation Map**: Trace which distinctions \(D\) were mutated \(M\) in which epoch
-2. **Entropy Origin Analysis**: Determine whether E accumulated locally or propagated from a prior epoch
-3. **Rewind Boundary Selection**: Identify the earliest epoch where the fault originated, not just where it manifested
-4. **Coordinated Rollback**: Rewind all dependent state across epochs simultaneously, not independently
-5. **Re-entry Validation**: After rewind, verify that the restored state is consistent across all epochs
+1. **Fault Propagation Map**: Trace which distinctions (D) were mutated (M) in which epoch
+1. **Entropy Origin Analysis**: Determine whether E accumulated locally or propagated from a prior epoch
+1. **Rewind Boundary Selection**: Identify the earliest epoch where the fault originated, not just where it manifested
+1. **Coordinated Rollback**: Rewind all dependent state across epochs simultaneously, not independently
+1. **Re-entry Validation**: After rewind, verify that the restored state is consistent across all epochs
 
 ### DMER-6 — Capability vs Authority
 
@@ -118,6 +122,7 @@ Intelligence = preservation of adaptive optionality. The ∞ trajectory requires
 ### DMER-10 — Silent Decay Detection
 
 Collapse precedes visible failure. DMER_L5 requires continuous monitoring of:
+
 - Repair slack (available but unused repair capacity)
 - Rollback depth (how far the system can rewind)
 - Trust redundancy (independent verification pathways)
@@ -125,7 +130,7 @@ Collapse precedes visible failure. DMER_L5 requires continuous monitoring of:
 
 When any indicator drops below threshold, trigger pre-emptive multi-epoch recovery before visible failure.
 
----
+______________________________________________________________________
 
 ## 3. Multi-Epoch Recovery Protocol
 
@@ -149,18 +154,18 @@ CASCADING FAULT DETECTED
 8. Signed Recovery Receipt: Full provenance, rollback path, re-entry validation
 ```
 
----
+______________________________________________________________________
 
 ## 4. Diagnostic Grammar (Six Questions)
 
 1. What distinctions must be preserved?
-2. What is mutating them?
-3. What is degrading coherence?
-4. What restores viability?
-5. Is R keeping pace with E?
-6. Is the loop open (infinity) or closing (closure)?
+1. What is mutating them?
+1. What is degrading coherence?
+1. What restores viability?
+1. Is R keeping pace with E?
+1. Is the loop open (infinity) or closing (closure)?
 
----
+______________________________________________________________________
 
 ## 5. Central Scaling Law
 
@@ -170,7 +175,7 @@ Exposure = Capability / Repair_Capacity
 
 As Exposure approaches infinity, the system approaches closure regardless of output quality.
 
----
+______________________________________________________________________
 
 ## 6. Resilience Definition
 
@@ -180,19 +185,19 @@ Resilience = R_effective / E_disturbance
 
 Where R_effective accounts for repair quality (misdiagnosed repair increases E).
 
----
+______________________________________________________________________
 
 ## 7. Integration with 7-Part Universe Canon
 
-| D/M/E/R | 7-Part Canon | Mapping |
-|---------|-------------|---------|
-| D — Distinction | Part I (Constraint) + Part III (Structure) | Scarcity/boundaries create distinctions; structure preserves them |
-| M — Mutation | Part V (Time) + Part VI (Adaptation) | Time exposes assumptions; adaptation responds |
-| E — Entropy | Part VII (Termination) | Correction capacity exceeded → termination |
-| R — Repair | Part IV (Enforcement) | Mechanical correction prevents deviation |
-| infinity / closure | Part VII (Termination) | Recovery basins vs correction-capacity exhaustion |
+| D/M/E/R            | 7-Part Canon                               | Mapping                                                           |
+| ------------------ | ------------------------------------------ | ----------------------------------------------------------------- |
+| D — Distinction    | Part I (Constraint) + Part III (Structure) | Scarcity/boundaries create distinctions; structure preserves them |
+| M — Mutation       | Part V (Time) + Part VI (Adaptation)       | Time exposes assumptions; adaptation responds                     |
+| E — Entropy        | Part VII (Termination)                     | Correction capacity exceeded → termination                        |
+| R — Repair         | Part IV (Enforcement)                      | Mechanical correction prevents deviation                          |
+| infinity / closure | Part VII (Termination)                     | Recovery basins vs correction-capacity exhaustion                 |
 
----
+______________________________________________________________________
 
 ## 8. Integration with Law Stack
 
@@ -200,17 +205,18 @@ Where R_effective accounts for repair quality (misdiagnosed repair increases E).
 - **Rule of 2**: Dual-frame test = D (distinguish two frames) + R (repair if frames conflict)
 - **Rule of 4**: D/M/E/R quadrant completeness — all four must be first-class
 
----
+______________________________________________________________________
 
 ## 9. Executable Kernel
 
 `cosmo-brain/dmer_kernel.py` — runnable implementation:
+
 - `DMERSystem` class with `add_distinction/add_repairer/mutate/accumulate_entropy/repair/step/trajectory()`
 - Encodes L1–L6 as mechanics
 - `silent_decay_detected()` implements DMER-10 early warning
 - Test suite `test_dmer_kernel.py`: 21/21 pass
 
----
+______________________________________________________________________
 
 ## 10. Failure Modes
 
@@ -222,7 +228,7 @@ Where R_effective accounts for repair quality (misdiagnosed repair increases E).
 - **correlated_repair**: Multiple R pathways share common failure mode; independence violated
 - **viability_performance_confusion**: Output quality used as proxy for viability; declining viability missed
 
----
+______________________________________________________________________
 
 ## 11. Falsifiers
 
@@ -231,7 +237,7 @@ Where R_effective accounts for repair quality (misdiagnosed repair increases E).
 - F3: Silent decay detection proven unreliable (false negative rate > threshold)
 - F4: R/E ratio proven not to predict long-horizon stability
 
----
+______________________________________________________________________
 
 ## 12. Gap Register
 
@@ -240,11 +246,12 @@ Where R_effective accounts for repair quality (misdiagnosed repair increases E).
 - DMER-G003: R/E ratio threshold for closure prediction — NOT_ESTABLISHED
 - DMER-G004: Independence verification for repair pathways — NOT_ESTABLISHED
 
----
+______________________________________________________________________
 
 ## 13. Promotion Gate
 
 Promotion from PROPOSED_SPECIFICATION requires:
+
 - Typed schema for D/M/E/R state transitions
 - Multi-epoch fault propagation map formalization
 - Rewind boundary selection algorithm
@@ -257,7 +264,7 @@ Promotion from PROPOSED_SPECIFICATION requires:
 
 Until then: CONDITIONAL.
 
----
+______________________________________________________________________
 
 ## 14. RSCF Contract
 
@@ -272,13 +279,13 @@ Until then: CONDITIONAL.
 - regime: proposed_specification
 - confidence_ceiling: source_supported
 
----
+______________________________________________________________________
 
 ## 15. Final Integrity Rule
 
 DMER_L5 IS THE HIGHEST-ORDER RECOVERY PROTOCOL. IT GOVERNS MULTI-EPOCH CASCADING FAULT RECOVERY USING D/M/E/R. CAPABILITY GROWTH WITHOUT REPAIR-CAPACITY GROWTH INCREASES SYSTEMIC EXPOSURE. COLLAPSE PRECEDES VISIBLE FAILURE. REPAIR QUALITY DEPENDS ON DISTINCTION QUALITY. INDEPENDENCE OF FAILURE MODES > MULTIPLICITY OF COMPONENTS. CANONICAL STATUS = CONDITIONAL.
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[02_KERNEL/K_FAILURE_RECOVERY|K_FAILURE_RECOVERY]] · [[01_CANON/01_CORE_LAWS/COLLAPSE_RECOVERY_CANON|COLLAPSE_RECOVERY_CANON]]
 
@@ -287,4 +294,3 @@ DMER_L5 IS THE HIGHEST-ORDER RECOVERY PROTOCOL. IT GOVERNS MULTI-EPOCH CASCADING
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
 **Sources:** AMOS_DMER_DUAL_LOOP_ARCHITECTURE · FOUR_PROCESS_ARCHITECTURE_DMER
-

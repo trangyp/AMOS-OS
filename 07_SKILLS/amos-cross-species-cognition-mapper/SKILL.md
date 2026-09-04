@@ -4,25 +4,22 @@ title: SKILL — Amos Cross Species Cognition Mapper
 type: skill
 source: 07_SKILLS/amos-cross-species-cognition-mapper
 name: amos-cross-species-cognition-mapper
-description: Cross Species Cognition Mapper — biology and neuroscience capability.
-  Use when biological reasoning, neuroscience, or medical analysis. Use when amos-c04-bio-neuro-master
-  routes to this specialized capability. Do not use for generic tasks outside c04
-  domain.
+description: Cross Species Cognition Mapper — biology and neuroscience capability. Use when biological reasoning, neuroscience, or medical analysis. Use when amos-c04-bio-neuro-master routes to this specialized capability. Do not use for generic tasks outside c04 domain.
 parent_skill: amos-c04-bio-neuro-master
 domain: c04
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
 tags:
-- type/skill
-- type/skill
-- domain/bio-neuro
-- epistemic/source_claim
-- hml/m
-- epistemic/source_claim
-- amos-os
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/bio-neuro
+  - epistemic/source_claim
+  - hml/m
+  - epistemic/source_claim
+  - amos-os
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -32,23 +29,23 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: M
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
-- L7_authority
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
+  - L7_authority
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L7
-- L16
-- L17
-- L18
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L7
+  - L16
+  - L17
+  - L18
 license: MIT
 steward: Trang Phan
 ---
@@ -58,6 +55,7 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: c04. Parent: amos-c04-bio-neuro-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
 ## When to Use
 
 - When mapping biological mechanisms: cellular, neural, developmental
@@ -75,6 +73,7 @@ Origin architect: **Trang Phan**. Domain: c04. Parent: amos-c04-bio-neuro-master
 - **cross_species.model_morphogenesis**: Model morphogenesis: pattern formation, self-organization, and development
 
 > **Reference**: See `references/vault_domain_knowledge.md` (content_hash: 043531e6396b1924) for the full vault-sourced domain knowledge (9402 chars).
+
 - **cross_species.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
 - **cross_species.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **cross_species.validate_outputs**: Validate outputs against domain constraints and epistemic class.
@@ -82,11 +81,11 @@ Origin architect: **Trang Phan**. Domain: c04. Parent: amos-c04-bio-neuro-master
 ## Operations
 
 1. **cross_species.map_mechanism**: Map biological mechanisms: cellular, neural, developmental, and evolutionary
-2. **cross_species.assess_cognition**: Assess cross-species cognition: comparative neural computation and intelligence
-3. **cross_species.model_morphogenesis**: Model morphogenesis: pattern formation, self-organization, and development
-4. **cross_species.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-5. **cross_species.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
-6. **cross_species.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+1. **cross_species.assess_cognition**: Assess cross-species cognition: comparative neural computation and intelligence
+1. **cross_species.model_morphogenesis**: Model morphogenesis: pattern formation, self-organization, and development
+1. **cross_species.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+1. **cross_species.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+1. **cross_species.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## 11_KNOWLEDGE Vault Content
 
@@ -97,11 +96,13 @@ Origin architect: **Trang Phan**. Domain: c04. Parent: amos-c04-bio-neuro-master
 From C04 Bio & Neuro: NBI (Neurobiological Intelligence) and biological logic translation.
 
 **Cross-species cognition model**:
+
 - **NBI levels**: species vary in NBI complexity (single-cell to human)
 - **Cognitive capabilities**: vary across species (memory, learning, problem-solving, social cognition)
 - **Biological logic**: shared biological logic principles across species (UBI 4 domains)
 
 **Mapping dimensions**:
+
 - **NBI complexity**: from single-cell to neural network to brain
 - **Cognitive capability**: memory, learning, planning, social, tool use
 - **Adaptive strategy**: adaptation level, flexibility, innovation
@@ -139,9 +140,10 @@ Cross-species cognition mapping is an analytical model. It does not prove cognit
 - **Domain**: c04
 - **Origin architect**: Trang Phan
 - **Vault sources**:
-- `amos-general/A/CROSS/AMOS_CROSS_
+- \`amos-general/A/CROSS/AMOS_CROSS\_
 
----
+______________________________________________________________________
+
 **Links:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 ## Related
@@ -151,17 +153,19 @@ Cross-species cognition mapping is an analytical model. It does not prove cognit
 ## Examples
 
 - **Scenario**: When mapping biological mechanisms: cellular, neural, developmental
+
   - **Input**: A query matching this skill's domain (c04)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When assessing cross-species cognition and comparative intelligence
+
   - **Input**: A query matching this skill's domain (c04)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When modeling morphogenesis: pattern formation and self-organization
+
   - **Input**: A query matching this skill's domain (c04)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Anti-Patterns
 
@@ -171,7 +175,6 @@ Cross-species cognition mapping is an analytical model. It does not prove cognit
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `amos-c04-bio-neuro-master` — routes to this skill when c04 specialization is needed
@@ -179,7 +182,6 @@ Cross-species cognition mapping is an analytical model. It does not prove cognit
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -198,7 +200,6 @@ Cross-species cognition mapping is an analytical model. It does not prove cognit
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -206,7 +207,6 @@ Cross-species cognition mapping is an analytical model. It does not prove cognit
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -219,11 +219,12 @@ Cross-species cognition mapping is an analytical model. It does not prove cognit
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `amos-c04-bio-neuro-master` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `amos-cross-species-cognition-mapper-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -231,12 +232,14 @@ Cross-species cognition mapping is an analytical model. It does not prove cognit
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-cross-species-cognition-mapper
 node_type: skill
 path: 07_SKILLS/amos-cross-species-cognition-mapper/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

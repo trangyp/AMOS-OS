@@ -1,11 +1,14 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Amos-Agent-Memory-Dynamics-Rscf-Engine MOC
 type: moc
 source: 07_SKILLS/amos-agent-memory-dynamics-rscf-engine
 tags:
-- amos-agent-memory-dynamics-rscf-engine
-- type/skill
-- skill
+  - amos-agent-memory-dynamics-rscf-engine
+  - type/skill
+  - skill
 moc: true
 rscf:
   state: DERIVED
@@ -25,13 +28,16 @@ rscf:
 
 ## Subdirectories
 
-- references_MOC — references
+- [[07_SKILLS/amos-agent-memory-dynamics-rscf-engine/references/references_MOC|references_MOC]] — references
 
----
----
-**References MOC:** [[07_SKILLS/spreadsheets/references/references_MOC|references_MOC]]
+______________________________________________________________________
 
----
+______________________________________________________________________
+
+**References MOC:** [[07_SKILLS/amos-agent-memory-dynamics-rscf-engine/references/references_MOC|references_MOC]]
+
+______________________________________________________________________
+
 **Skill:** [[07_SKILLS/amos-agent-memory-dynamics-rscf-engine/SKILL|SKILL]]
 
 **Parent:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

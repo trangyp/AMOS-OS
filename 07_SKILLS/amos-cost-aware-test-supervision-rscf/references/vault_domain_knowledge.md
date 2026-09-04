@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Vault Domain Knowledge — Amos Cost Aware Test Supervision Rscf
 type: reference
 source: 07_SKILLS/amos-cost-aware-test-supervision-rscf/references
 tags:
-- reference
-- amos-cost-aware-test-supervision-rscf
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-cost-aware-test-supervision-rscf
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -28,92 +31,91 @@ rscf:
 > Path: `kernel/A/AMOS_Qa_Testing_Kernel_v0_Tech.md` | Size: 2524 chars | Match score: 13
 
 {
-  "meta": {
-    "name": "QA_Testing_Kernel",
-    "version": "1.0.0",
-    "description": "Kernel for quality assurance and testing: test strategy, test design, automation, and quality metrics."
-  },
-  "kernel": {
-    "description": "Supports quality assurance activities: test planning, test design, test automation, quality metrics, and defect management.",
-    "functions": {
-      "test_strategy": {
-        "description": "Define testing strategy and scope.",
-        "inputs": [
-          "product_architecture",
-          "risk_assessment",
-          "quality_goals",
-          "resource_constraints"
-        ],
-        "outputs": [
-          "test_strategy_document",
-          "test_scope",
-          "risk_based_priorities"
-        ]
-      },
-      "test_design": {
-        "description": "Design test cases and test data.",
-        "inputs": [
-          "requirements",
-          "user_stories",
-          "system_diagrams",
-          "edge_case_catalog"
-        ],
-        "outputs": [
-          "test_case_catalog",
-          "test_data_sets",
-          "coverage_matrix"
-        ]
-      },
-      "test_automation": {
-        "description": "Automate test execution.",
-        "inputs": [
-          "test_cases",
-          "target_stack",
-          "ci_pipeline",
-          "automation_frameworks"
-        ],
-        "outputs": [
-          "automated_tests",
-          "test_scripts",
-          "execution_reports"
-        ]
-      },
-      "quality_metrics": {
-        "description": "Track and report quality metrics.",
-        "inputs": [
-          "test_results",
-          "defect_data",
-          "code_coverage",
-          "performance_metrics"
-        ],
-        "outputs": [
-          "quality_dashboard",
-          "quality_trends",
-          "quality_gate_status"
-        ]
-      }
-    },
-    "capabilities": {
-      "testing_levels": "Unit, integration, E2E, performance, security, accessibility.",
-      "test_design_techniques": "Equivalence partitioning, boundary value, decision tables, state transitions.",
-      "defect_management": "Defect tracking, severity classification, root cause analysis.",
-      "quality_gates": "Automated quality checks at each stage of development."
-    }
-  }
+"meta": {
+"name": "QA_Testing_Kernel",
+"version": "1.0.0",
+"description": "Kernel for quality assurance and testing: test strategy, test design, automation, and quality metrics."
+},
+"kernel": {
+"description": "Supports quality assurance activities: test planning, test design, test automation, quality metrics, and defect management.",
+"functions": {
+"test_strategy": {
+"description": "Define testing strategy and scope.",
+"inputs": \[
+"product_architecture",
+"risk_assessment",
+"quality_goals",
+"resource_constraints"
+\],
+"outputs": \[
+"test_strategy_document",
+"test_scope",
+"risk_based_priorities"
+\]
+},
+"test_design": {
+"description": "Design test cases and test data.",
+"inputs": \[
+"requirements",
+"user_stories",
+"system_diagrams",
+"edge_case_catalog"
+\],
+"outputs": \[
+"test_case_catalog",
+"test_data_sets",
+"coverage_matrix"
+\]
+},
+"test_automation": {
+"description": "Automate test execution.",
+"inputs": \[
+"test_cases",
+"target_stack",
+"ci_pipeline",
+"automation_frameworks"
+\],
+"outputs": \[
+"automated_tests",
+"test_scripts",
+"execution_reports"
+\]
+},
+"quality_metrics": {
+"description": "Track and report quality metrics.",
+"inputs": \[
+"test_results",
+"defect_data",
+"code_coverage",
+"performance_metrics"
+\],
+"outputs": \[
+"quality_dashboard",
+"quality_trends",
+"quality_gate_status"
+\]
+}
+},
+"capabilities": {
+"testing_levels": "Unit, integration, E2E, performance, security, accessibility.",
+"test_design_techniques": "Equivalence partitioning, boundary value, decision tables, state transitions.",
+"defect_management": "Defect tracking, severity classification, root cause analysis.",
+"quality_gates": "Automated quality checks at each stage of development."
+}
+}
 }
 
----
+______________________________________________________________________
 
----
+______________________________________________________________________
 
 ### Source 2: AMOS Infrastructure Layer — Test, Fix, Rerun & Architecture Enhancement
 
 > Path: `amos-general/A/Infrastructure/AMOS_INFRASTRUCTURE_TEST_FIX_RERUN_ARCHITECTURE.md` | Size: 13473 chars | Match score: 10
 
-# AMOS Infrastructure Layer — Test, Fix, Rerun & Architecture Enhancement
+## AMOS Infrastructure Layer — Test, Fix, Rerun & Architecture Enhancement
 
-
----
+______________________________________________________________________
 
 ## 1. Executive Conclusion
 
@@ -121,12 +123,11 @@ AMOS is treated as the infrastructure and governance layer above cognition and d
 
 The validated authority structure is:
 
-
 Full Brain OS may reason, decompose, route, synthesize, and propose actions. It does **not** own durable-state commit authority, provenance admission, authorization freshness, observability finality, transaction semantics, rollback/finality, or external-effect release.
 
 The executable AMOS_CORE v4.4 artifact was tested, repaired at the smallest causal boundary, and rerun with expanded adversarial coverage.
 
----
+______________________________________________________________________
 
 ## 2. Baseline Findings
 
@@ -158,7 +159,7 @@ A permit could also remain valid after consequence risk rose beyond the fast-lan
 
 This violated freshness and commit-time revalidation.
 
----
+______________________________________________________________________
 
 ## 3. Root Cause
 
@@ -172,7 +173,7 @@ The repair therefore avoided four unrelated patches and instead introduced a sin
 
 Any fast-lane decision must be revalidated immediately before publication or durable state transition.
 
----
+______________________________________________________________________
 
 ## 4. Repair Applied
 
@@ -191,33 +192,31 @@ The repaired v4.4 runtime now enforces:
 
 Fast-lane eligibility is now a **fresh commit-time predicate**, not a reusable permit token.
 
----
+______________________________________________________________________
 
 ## 5. Test → Fix → Rerun Evidence
 
 ### Baseline
 
-
 Failures:
 
 1. Runtime identity mismatch.
-2. Durable effect incorrectly entered FAST_FINAL.
+1. Durable effect incorrectly entered FAST_FINAL.
 
 Expanded adversarial testing then exposed:
 
 3. Owner revocation not revalidated.
-4. Conseque
+1. Conseque
 
----
+______________________________________________________________________
 
 ### Source 3: AMOS Infrastructure Layer — Agent Architecture Test / Fix / Rerun Record
 
 > Path: `amos-general/A/Infrastructure/AMOS_Infrastructure_Agent_Architecture_Test_Fix_Rerun_2026-08-25.md` | Size: 11654 chars | Match score: 10
 
-# AMOS Infrastructure Layer — Agent Architecture Test / Fix / Rerun Record
+## AMOS Infrastructure Layer — Agent Architecture Test / Fix / Rerun Record
 
-
----
+______________________________________________________________________
 
 ## 1. Architecture Boundary
 
@@ -256,7 +255,7 @@ They do **not** independently own:
 
 Those remain infrastructure responsibilities.
 
----
+______________________________________________________________________
 
 ## 2. Governing AMOS Contracts
 
@@ -283,7 +282,7 @@ Execution != Commit
 Structural consistency != Empirical validity
 ```
 
----
+______________________________________________________________________
 
 ## 3. GitHub Defect Found
 
@@ -309,7 +308,7 @@ Agent(name)
 
 This could cause agent construction and registry initialization to fail before orchestration begins.
 
----
+______________________________________________________________________
 
 ## 4. First Repair
 
@@ -338,7 +337,7 @@ A local focused contract rerun previously produced:
 
 That result is scoped only to the focused constructor contract.
 
----
+______________________________________________________________________
 
 ## 5. Stale-Branch Detection
 
@@ -359,7 +358,7 @@ amos-infra-architecture-20260824-v2
 
 This preserved the repair while avoiding stale-state promotion.
 
----
+______________________________________________________________________
 
 ## 6. ResearchAgent Governance Repair
 
@@ -380,15 +379,17 @@ The hardened behavior now treats research outputs as candidate evidence.
 
 Required semantics:
 
-`
+\`
 
----
+______________________________________________________________________
+
 **MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -396,12 +397,14 @@ Required semantics:
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-cost-aware-test-supervision-rscf-vault-domain-knowledge
 node_type: reference
 path: 07_SKILLS/amos-cost-aware-test-supervision-rscf/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

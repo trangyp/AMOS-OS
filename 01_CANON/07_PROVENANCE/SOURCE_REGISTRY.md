@@ -16,36 +16,36 @@ authority_scope: source-identification-classification-registration-and-resolutio
 created: 2026-08-25
 updated: 2026-08-25
 tags:
-- amos-os
-- canon
-- universe
-- canon-group/meta
-- canon/framework
-- canon/registry
-- canon/provenance
-- canon/lineage
-- rscf/claim
-- rscf/provenance
-- rscf/state/source-claim
-- topic/source-identity
-- topic/source-classification
-- topic/provenance-topology
-- topic/source-independence
-- topic/evidence-topology
-- topic/freshness
-- topic/sybil-hardening
-- topic/persistent-provenance
-- readme
-- architecture
-- neural-network
-- amos-core-laws
-- law-hierarchy
-- canon-provenance
-- source-lineage
-- canonical-glossary
-- deprecated-terms
+  - amos-os
+  - canon
+  - universe
+  - canon-group/meta
+  - canon/framework
+  - canon/registry
+  - canon/provenance
+  - canon/lineage
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - topic/source-identity
+  - topic/source-classification
+  - topic/provenance-topology
+  - topic/source-independence
+  - topic/evidence-topology
+  - topic/freshness
+  - topic/sybil-hardening
+  - topic/persistent-provenance
+  - readme
+  - architecture
+  - neural-network
+  - amos-core-laws
+  - law-hierarchy
+  - canon-provenance
+  - source-lineage
+  - canonical-glossary
+  - deprecated-terms
 aliases:
-- AMOS Source Registry - AMOS OS Source Registry - Canon Source Registry
+  - AMOS Source Registry - AMOS OS Source Registry - Canon Source Registry
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -54,13 +54,17 @@ rscf:
 ---
 
 # AMOS OS Source Registry
+
 > **Origin architect / steward:** Trang Phan
 > **AMOS Core target:** `v4.4`
 > **Conclusion class:** `AMOS_MODEL`
 > **Status:** `SOURCE_CLAIM`
+
 ## 1. Purpose
+
 `SOURCE_REGISTRY.md` defines the canonical AMOS OS contract for registering, identifying, classifying, resolving, and auditing sources used by canon, knowledge, RSCFs, models, agents, decisions, tests, and derived artifacts.
 The registry answers:
+
 ```text
 WHAT IS THE SOURCE?
 WHAT TYPE OF SOURCE IS IT?
@@ -74,17 +78,10 @@ WHAT DEPENDS ON IT?
 HAS IT BEEN SUPERSEDED?
 CAN IT STILL BE RELIED UPON?
 ```
-The registry is not a list of things believed to be true.
-It is a typed source-identity and provenance control structure.
-rscf:
-  state: DERIVED
-  claim_class: EMPIRICAL
-  provenance: AMOS_corpus
-  scope: AMOS_general
----
 
+## The registry is not a list of things believed to be true. It is a typed source-identity and provenance control structure. rscf: state: DERIVED claim_class: EMPIRICAL provenance: AMOS_corpus scope: AMOS_general
 
-# 2. Core Law
+## 2. Core Law
 
 ```text
 REGISTERED SOURCE
@@ -108,9 +105,9 @@ empirically validated
 
 Those properties require separate evidence.
 
----
+______________________________________________________________________
 
-# 3. Source Registry Boundary
+## 3. Source Registry Boundary
 
 The Source Registry must remain distinct from:
 
@@ -163,9 +160,9 @@ CANON_PROVENANCE
 BROADER CANON ORIGIN AND GOVERNANCE RECORD
 ```
 
----
+______________________________________________________________________
 
-# 4. What Counts as a Source
+## 4. What Counts as a Source
 
 Within AMOS, a source may include:
 
@@ -200,9 +197,9 @@ UNKNOWN_SOURCE
 
 Source type must be explicit when material.
 
----
+______________________________________________________________________
 
-# 5. Epistemic Type Firewall
+## 5. Epistemic Type Firewall
 
 Source identity and epistemic class are different dimensions.
 
@@ -233,9 +230,9 @@ A paper is a source artifact.
 
 Its statements do not become `VERIFIED` merely because the artifact is registered.
 
----
+______________________________________________________________________
 
-# 6. Minimum Source Record
+## 6. Minimum Source Record
 
 Every consequential source SHOULD support a record equivalent to:
 
@@ -310,9 +307,9 @@ source:
 
 Unknown fields remain explicit.
 
----
+______________________________________________________________________
 
-# 7. Source Identity
+## 7. Source Identity
 
 A source should have a stable registry identity:
 
@@ -334,9 +331,9 @@ hash
 
 These are separate identifiers.
 
----
+______________________________________________________________________
 
-# 8. Identity Firewall
+## 8. Identity Firewall
 
 ```text
 SOURCE_ID
@@ -370,9 +367,9 @@ A source can also change content while retaining a location.
 
 Therefore location alone cannot establish identity.
 
----
+______________________________________________________________________
 
-# 9. Canonical Source ID
+## 9. Canonical Source ID
 
 Recommended conceptual format:
 
@@ -390,9 +387,9 @@ This is a naming model only.
 
 Actual IDs should follow the repository's governed schema once finalized.
 
----
+______________________________________________________________________
 
-# 10. Source Type
+## 10. Source Type
 
 Recommended top-level classification:
 
@@ -407,9 +404,9 @@ UNKNOWN
 
 These may be refined into subtypes.
 
----
+______________________________________________________________________
 
-# 11. Internal Sources
+## 11. Internal Sources
 
 Examples:
 
@@ -434,9 +431,9 @@ INTERNAL
 CANONICAL
 ```
 
----
+______________________________________________________________________
 
-# 12. External Sources
+## 12. External Sources
 
 Examples:
 
@@ -462,9 +459,9 @@ USED_BY_AMOS
 CREATED_BY_AMOS
 ```
 
----
+______________________________________________________________________
 
-# 13. Observation Sources
+## 13. Observation Sources
 
 Observation sources may include:
 
@@ -481,9 +478,9 @@ MANUAL_OBSERVATION
 
 Observation records should preserve the measurement environment where material.
 
----
+______________________________________________________________________
 
-# 14. Generated Sources
+## 14. Generated Sources
 
 Generated material may include:
 
@@ -504,9 +501,9 @@ GENERATED
 INDEPENDENT
 ```
 
----
+______________________________________________________________________
 
-# 15. Derived Sources
+## 15. Derived Sources
 
 Derived artifacts include:
 
@@ -523,9 +520,9 @@ ANALYSIS
 
 Derived source records should reference their load-bearing parents.
 
----
+______________________________________________________________________
 
-# 16. Unknown Sources
+## 16. Unknown Sources
 
 If a source is known to exist but its origin cannot be established:
 
@@ -545,9 +542,9 @@ apparent age
 repetition
 ```
 
----
+______________________________________________________________________
 
-# 17. Source Status
+## 17. Source Status
 
 Recommended lifecycle states:
 
@@ -569,9 +566,9 @@ These states describe registry lifecycle.
 
 They do not directly encode epistemic truth.
 
----
+______________________________________________________________________
 
-# 18. Registration State
+## 18. Registration State
 
 A newly discovered source may begin as:
 
@@ -593,9 +590,9 @@ ACTIVE
 
 where appropriate.
 
----
+______________________________________________________________________
 
-# 19. Verification State
+## 19. Verification State
 
 Verification must be separate from lifecycle.
 
@@ -621,9 +618,9 @@ verification_state: UNVERIFIED
 
 without contradiction.
 
----
+______________________________________________________________________
 
-# 20. Source Conclusion Class
+## 20. Source Conclusion Class
 
 Where conclusions are attached to registry records, use the weakest accurate class:
 
@@ -638,9 +635,9 @@ UNKNOWN/GAP
 
 The registry itself should not upgrade a source merely because metadata is complete.
 
----
+______________________________________________________________________
 
-# 21. Provenance State
+## 21. Provenance State
 
 Recommended values:
 
@@ -657,9 +654,9 @@ UNKNOWN/GAP
 
 It means sufficient provenance has been resolved for the declared scope.
 
----
+______________________________________________________________________
 
-# 22. Source Lineage Binding
+## 22. Source Lineage Binding
 
 Every source MAY bind to:
 
@@ -678,9 +675,9 @@ provenance:
 
 The Source Registry should not duplicate an entire lineage graph when a canonical lineage structure already exists.
 
----
+______________________________________________________________________
 
-# 23. Direct Parents
+## 23. Direct Parents
 
 For derived sources:
 
@@ -705,9 +702,9 @@ An empty parent list must not silently mean:
 ORIGINAL SOURCE
 ```
 
----
+______________________________________________________________________
 
-# 24. Root Source State
+## 24. Root Source State
 
 Recommended field:
 
@@ -729,9 +726,9 @@ into:
 absolute origin
 ```
 
----
+______________________________________________________________________
 
-# 25. Source Independence
+## 25. Source Independence
 
 Independence is first-class.
 
@@ -753,9 +750,9 @@ UNKNOWN
 INDEPENDENT
 ```
 
----
+______________________________________________________________________
 
-# 26. Independence Evidence
+## 26. Independence Evidence
 
 An `INDEPENDENT` classification should have support.
 
@@ -771,9 +768,9 @@ independent institutional records
 
 Different URLs alone are insufficient.
 
----
+______________________________________________________________________
 
-# 27. Correlation Risk
+## 27. Correlation Risk
 
 Recommended levels:
 
@@ -799,9 +796,9 @@ common generated summary
 
 Correlation is contextual and should not be inferred solely from organizational similarity.
 
----
+______________________________________________________________________
 
-# 28. Provenance Sybil Hardening
+## 28. Provenance Sybil Hardening
 
 The registry must resist source multiplication.
 
@@ -825,9 +822,9 @@ established independent roots = 1
 
 unless additional independent roots are demonstrated.
 
----
+______________________________________________________________________
 
-# 29. Duplicate Sources
+## 29. Duplicate Sources
 
 Duplicates should be classified as:
 
@@ -844,9 +841,9 @@ UNKNOWN
 
 Do not collapse records merely because titles match.
 
----
+______________________________________________________________________
 
-# 30. Hash Identity
+## 30. Hash Identity
 
 Where available:
 
@@ -871,9 +868,9 @@ SAME SEMANTIC ROLE
 
 Different registry records may intentionally reference identical bytes under different governed contexts.
 
----
+______________________________________________________________________
 
-# 31. Version Identity
+## 31. Version Identity
 
 Sources may expose:
 
@@ -893,9 +890,9 @@ Missing version metadata remains:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 32. Version Rule
+## 32. Version Rule
 
 ```text
 FILENAME VERSION
@@ -913,9 +910,9 @@ does not prove the document is a legitimate v4.4 descendant.
 
 Version identity requires lineage or governed metadata.
 
----
+______________________________________________________________________
 
-# 33. Temporal Metadata
+## 33. Temporal Metadata
 
 The registry SHOULD distinguish:
 
@@ -932,9 +929,9 @@ verified_at
 
 Temporal semantics must not be collapsed into a generic `date`.
 
----
+______________________________________________________________________
 
-# 34. Freshness
+## 34. Freshness
 
 Recommended freshness states:
 
@@ -952,9 +949,9 @@ Freshness is scope-dependent.
 
 A historical law may remain relevant as historical evidence while being stale for current operational decisions.
 
----
+______________________________________________________________________
 
-# 35. Freshness Bound
+## 35. Freshness Bound
 
 A source MAY declare:
 
@@ -969,9 +966,9 @@ where the domain supports such bounds.
 
 No universal freshness interval should be invented.
 
----
+______________________________________________________________________
 
-# 36. Applicability Envelope
+## 36. Applicability Envelope
 
 Important sources should preserve:
 
@@ -988,9 +985,9 @@ assumptions
 
 A source is not automatically portable outside this envelope.
 
----
+______________________________________________________________________
 
-# 37. Scope Firewall
+## 37. Scope Firewall
 
 ```text
 SOURCE VALID IN SCOPE A
@@ -1004,9 +1001,9 @@ SOURCE VALID IN SCOPE B
 
 Cross-scope use requires explicit justification or revalidation.
 
----
+______________________________________________________________________
 
-# 38. Regime Firewall
+## 38. Regime Firewall
 
 ```text
 SOURCE VALID UNDER R₁
@@ -1020,9 +1017,9 @@ R₂
 
 even if the source's historical provenance remains correct.
 
----
+______________________________________________________________________
 
-# 39. Measurement Method
+## 39. Measurement Method
 
 For empirical observations, record where material:
 
@@ -1037,9 +1034,9 @@ error bounds
 
 Missing measurement information may limit confidence.
 
----
+______________________________________________________________________
 
-# 40. Source Authority
+## 40. Source Authority
 
 Authority should be separately typed.
 
@@ -1059,9 +1056,9 @@ UNKNOWN
 
 Authority must be scoped.
 
----
+______________________________________________________________________
 
-# 41. Authority Firewall
+## 41. Authority Firewall
 
 ```text
 AUTHORITATIVE
@@ -1081,9 +1078,9 @@ Example:
 
 A policy can be authoritative for institutional behavior without being an empirical scientific observation.
 
----
+______________________________________________________________________
 
-# 42. Canonical Source
+## 42. Canonical Source
 
 A source is canonical only through governed canon status.
 
@@ -1097,9 +1094,9 @@ is not alone sufficient evidence of completed canon promotion.
 
 The artifact's governance state must agree.
 
----
+______________________________________________________________________
 
-# 43. Source Trust
+## 43. Source Trust
 
 AMOS treats trust as:
 
@@ -1120,9 +1117,9 @@ trusted = true
 
 for consequential sources.
 
----
+______________________________________________________________________
 
-# 44. Trust Dimensions
+## 44. Trust Dimensions
 
 A source trust profile MAY include:
 
@@ -1139,9 +1136,9 @@ trust:
 
 These dimensions should not be compressed prematurely into one scalar.
 
----
+______________________________________________________________________
 
-# 45. Source Quality
+## 45. Source Quality
 
 Source quality and source authority are separate.
 
@@ -1159,9 +1156,9 @@ internal consistency
 
 A high-quality source can still be outside scope.
 
----
+______________________________________________________________________
 
-# 46. Claim Binding
+## 46. Claim Binding
 
 Sources support claims through explicit bindings.
 
@@ -1179,9 +1176,9 @@ A registry SHOULD allow downstream systems to identify:
 which claims depend on this source?
 ```
 
----
+______________________________________________________________________
 
-# 47. Dependency Binding
+## 47. Dependency Binding
 
 Recommended:
 
@@ -1195,9 +1192,9 @@ dependencies:
 
 This enables targeted invalidation.
 
----
+______________________________________________________________________
 
-# 48. Load-Bearing Sources
+## 48. Load-Bearing Sources
 
 A source is load-bearing when removing or invalidating it can materially alter a conclusion.
 
@@ -1217,9 +1214,9 @@ DISCRIMINATING
 FALSIFYING
 ```
 
----
+______________________________________________________________________
 
-# 49. Weakest-Premise Ceiling
+## 49. Weakest-Premise Ceiling
 
 If a conclusion depends on:
 
@@ -1241,9 +1238,9 @@ WEAKEST LOAD-BEARING PREMISE
 
 unless independent revalidation removes or replaces that dependency.
 
----
+______________________________________________________________________
 
-# 50. Conflicting Sources
+## 50. Conflicting Sources
 
 The registry must preserve source conflict.
 
@@ -1271,9 +1268,9 @@ CONDITIONAL
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 51. Competing Source Sets
+## 51. Competing Source Sets
 
 A registry may expose:
 
@@ -1290,9 +1287,9 @@ Source count alone must not choose the winner.
 
 Independence and quality matter.
 
----
+______________________________________________________________________
 
-# 52. Discriminating Sources
+## 52. Discriminating Sources
 
 When hypotheses compete, prefer evidence that can distinguish them.
 
@@ -1304,9 +1301,9 @@ DISCRIMINATING
 
 A new source that merely repeats shared ancestry may have low decision value.
 
----
+______________________________________________________________________
 
-# 53. Falsifying Sources
+## 53. Falsifying Sources
 
 A source may challenge an existing claim.
 
@@ -1326,9 +1323,9 @@ depending on evidentiary strength.
 
 Contradictory evidence must remain visible.
 
----
+______________________________________________________________________
 
-# 54. Source Supersession
+## 54. Source Supersession
 
 Sources may supersede earlier sources.
 
@@ -1342,9 +1339,9 @@ Supersession should include scope.
 
 A new source may replace an older source only for part of its applicability envelope.
 
----
+______________________________________________________________________
 
-# 55. Partial Supersession
+## 55. Partial Supersession
 
 Example:
 
@@ -1356,9 +1353,9 @@ SRC-A
 
 Do not mark all of A invalid.
 
----
+______________________________________________________________________
 
-# 56. Deprecated Sources
+## 56. Deprecated Sources
 
 Deprecated means:
 
@@ -1374,9 +1371,9 @@ historically false
 
 Deprecated sources remain resolvable for lineage.
 
----
+______________________________________________________________________
 
-# 57. Invalidated Sources
+## 57. Invalidated Sources
 
 Invalidation should state why.
 
@@ -1395,9 +1392,9 @@ CORRUPTION
 UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 58. Source Invalidation Propagation
+## 58. Source Invalidation Propagation
 
 If:
 
@@ -1413,9 +1410,9 @@ and A fails, evaluate only dependent descendants.
 
 Do not invalidate unrelated registry entries.
 
----
+______________________________________________________________________
 
-# 59. Archive State
+## 59. Archive State
 
 Archived sources remain historical nodes.
 
@@ -1427,9 +1424,9 @@ ERASED
 
 Their registry entries should preserve enough information to reconstruct lineage.
 
----
+______________________________________________________________________
 
-# 60. Missing Sources
+## 60. Missing Sources
 
 A source referenced by lineage but unavailable should be represented explicitly:
 
@@ -1440,9 +1437,9 @@ availability: UNAVAILABLE
 
 Do not delete its identity merely because content cannot currently be retrieved.
 
----
+______________________________________________________________________
 
-# 61. Source Tombstones
+## 61. Source Tombstones
 
 A removed source MAY retain:
 
@@ -1459,9 +1456,9 @@ source_tombstone:
 
 This preserves recoverability.
 
----
+______________________________________________________________________
 
-# 62. External Source Licensing
+## 62. External Source Licensing
 
 Where material, external source records SHOULD preserve:
 
@@ -1475,9 +1472,9 @@ unknown IP state
 
 Missing license information should remain explicit.
 
----
+______________________________________________________________________
 
-# 63. Proprietary Sources
+## 63. Proprietary Sources
 
 A source may be:
 
@@ -1491,9 +1488,9 @@ UNKNOWN
 
 Source registration does not imply permission to expose raw contents.
 
----
+______________________________________________________________________
 
-# 64. IP Firewall
+## 64. IP Firewall
 
 ```text
 SOURCE ACCESS
@@ -1503,9 +1500,9 @@ SOURCE REDISTRIBUTION AUTHORITY
 
 AMOS may reason from a proprietary source while restricting raw export.
 
----
+______________________________________________________________________
 
-# 65. Sensitive Sources
+## 65. Sensitive Sources
 
 A registry may flag:
 
@@ -1520,9 +1517,9 @@ SECURITY_SENSITIVE
 
 Actual classification semantics must be governed by the security layer.
 
----
+______________________________________________________________________
 
-# 66. Source Accessibility
+## 66. Source Accessibility
 
 Recommended availability states:
 
@@ -1537,9 +1534,9 @@ UNKNOWN
 
 Availability is not epistemic quality.
 
----
+______________________________________________________________________
 
-# 67. Retrieval Reference
+## 67. Retrieval Reference
 
 Source records MAY preserve retrieval information:
 
@@ -1553,9 +1550,9 @@ retrieval:
 
 Do not rely exclusively on unstable paths.
 
----
+______________________________________________________________________
 
-# 68. Content Addressing
+## 68. Content Addressing
 
 Where hashes are available:
 
@@ -1577,9 +1574,9 @@ immutable content identity
 
 should remain distinct.
 
----
+______________________________________________________________________
 
-# 69. Canon Source Registration
+## 69. Canon Source Registration
 
 Canon source registration SHOULD preserve:
 
@@ -1595,9 +1592,9 @@ authority scope
 
 No source becomes canon merely by being added to this registry.
 
----
+______________________________________________________________________
 
-# 70. Research Source Registration
+## 70. Research Source Registration
 
 Research sources SHOULD preserve:
 
@@ -1615,9 +1612,9 @@ methodology metadata
 
 where available and decision-relevant.
 
----
+______________________________________________________________________
 
-# 71. Dataset Registration
+## 71. Dataset Registration
 
 Datasets SHOULD preserve where material:
 
@@ -1633,9 +1630,9 @@ transformations
 known limitations
 ```
 
----
+______________________________________________________________________
 
-# 72. API Source Registration
+## 72. API Source Registration
 
 API sources SHOULD preserve:
 
@@ -1651,9 +1648,9 @@ environment
 
 A current API response is an observation at a time, not an eternal fact.
 
----
+______________________________________________________________________
 
-# 73. Code Source Registration
+## 73. Code Source Registration
 
 Code sources MAY preserve:
 
@@ -1670,9 +1667,9 @@ license
 
 Repository head is not sufficient for reproducible lineage if the underlying revision changes.
 
----
+______________________________________________________________________
 
-# 74. Test Evidence Registration
+## 74. Test Evidence Registration
 
 Test sources SHOULD preserve:
 
@@ -1689,9 +1686,9 @@ runner
 
 A passing test supports only the property tested under that environment.
 
----
+______________________________________________________________________
 
-# 75. Benchmark Registration
+## 75. Benchmark Registration
 
 Benchmark sources SHOULD preserve:
 
@@ -1722,9 +1719,9 @@ REPORTED LATENCY
 HARDWARE-INDEPENDENT LATENCY
 ```
 
----
+______________________________________________________________________
 
-# 76. Agent Output Registration
+## 76. Agent Output Registration
 
 When an agent output becomes persistent evidence, record where material:
 
@@ -1739,9 +1736,9 @@ source ancestry
 
 Agent generation does not erase upstream provenance.
 
----
+______________________________________________________________________
 
-# 77. Model Output Registration
+## 77. Model Output Registration
 
 Model outputs SHOULD preserve:
 
@@ -1765,9 +1762,9 @@ PRIMARY OBSERVATION
 
 unless the output itself is the object being observed.
 
----
+______________________________________________________________________
 
-# 78. User Input Sources
+## 78. User Input Sources
 
 User-provided information may be registered as:
 
@@ -1781,9 +1778,9 @@ Its epistemic class remains appropriate to what it represents.
 
 User assertion alone does not automatically become verified empirical evidence.
 
----
+______________________________________________________________________
 
-# 79. RSCF Source Registration
+## 79. RSCF Source Registration
 
 RSCFs may themselves become sources for downstream reasoning.
 
@@ -1799,9 +1796,9 @@ freshness
 invalidation state
 ```
 
----
+______________________________________________________________________
 
-# 80. H/M/L Integration
+## 80. H/M/L Integration
 
 Source retrieval follows the AMOS fractal path:
 
@@ -1825,9 +1822,9 @@ DO_NOT_LOAD_UNLESS_REQUIRED
 
 The registry enables source discovery without requiring full content loading.
 
----
+______________________________________________________________________
 
-# 81. Smallest Sufficient Retrieval
+## 81. Smallest Sufficient Retrieval
 
 The source registry supports:
 
@@ -1843,9 +1840,9 @@ RAW SOURCE ONLY IF NEEDED
 
 This reduces unnecessary retrieval while preserving integrity.
 
----
+______________________________________________________________________
 
-# 82. Escalation Conditions
+## 82. Escalation Conditions
 
 Raw source inspection should escalate when:
 
@@ -1860,9 +1857,9 @@ transformation fidelity is uncertain
 high-stakes action depends on the result
 ```
 
----
+______________________________________________________________________
 
-# 83. Source Registry Query Model
+## 83. Source Registry Query Model
 
 Conceptually, the registry should support queries such as:
 
@@ -1898,9 +1895,9 @@ GET SOURCES WITH UNKNOWN LINEAGE
 GET DEPENDENTS OF SOURCE
 ```
 
----
+______________________________________________________________________
 
-# 84. Registry Indexes
+## 84. Registry Indexes
 
 Potential logical indexes:
 
@@ -1924,9 +1921,9 @@ BY_SUPERSESSION
 
 These are architectural requirements, not claims about current physical implementation.
 
----
+______________________________________________________________________
 
-# 85. Registration Workflow
+## 85. Registration Workflow
 
 ```text
 DISCOVER SOURCE
@@ -1956,9 +1953,9 @@ ASSESS AUTHORITY
 REGISTER
 ```
 
----
+______________________________________________________________________
 
-# 86. Promotion Workflow
+## 86. Promotion Workflow
 
 ```text
 CANDIDATE
@@ -1980,9 +1977,9 @@ REGISTERED / ACTIVE
 
 Promotion should stop when a decision-changing gap remains unresolved.
 
----
+______________________________________________________________________
 
-# 87. Source Update Workflow
+## 87. Source Update Workflow
 
 ```text
 NEW REVISION DETECTED
@@ -2000,9 +1997,9 @@ REVALIDATE DEPENDENTS IF REQUIRED
 UPDATE CURRENT POINTER
 ```
 
----
+______________________________________________________________________
 
-# 88. Mutable Source Firewall
+## 88. Mutable Source Firewall
 
 For mutable URLs or files:
 
@@ -2014,9 +2011,9 @@ SAME CONTENT
 
 The registry should capture revision or retrieval identity where possible.
 
----
+______________________________________________________________________
 
-# 89. Replacement Firewall
+## 89. Replacement Firewall
 
 Replacing content at the same path must not silently rewrite provenance history.
 
@@ -2026,9 +2023,9 @@ PATH STABILITY
 CONTENT STABILITY
 ```
 
----
+______________________________________________________________________
 
-# 90. Source Conflict Workflow
+## 90. Source Conflict Workflow
 
 ```text
 CONFLICT DETECTED
@@ -2054,9 +2051,9 @@ OR
 KEEP COMPETING
 ```
 
----
+______________________________________________________________________
 
-# 91. Source Failure Recovery
+## 91. Source Failure Recovery
 
 ```text
 SOURCE FAILURE
@@ -2078,9 +2075,9 @@ OR
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 92. Source Registry Invariants
+## 92. Source Registry Invariants
 
 ```text
 SRC-001
@@ -2159,9 +2156,9 @@ SRC-025
 MISSING METADATA REMAINS UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 93. Minimum Integrity Gate
+## 93. Minimum Integrity Gate
 
 Before a source is used as load-bearing evidence:
 
@@ -2181,9 +2178,9 @@ Before a source is used as load-bearing evidence:
 [ ] unresolved material gaps exposed
 ```
 
----
+______________________________________________________________________
 
-# 94. High-Stakes Gate
+## 94. High-Stakes Gate
 
 For legal, financial, health, safety, institutional, security, or irreversible decisions, increase validation.
 
@@ -2202,9 +2199,9 @@ QUALIFIED HUMAN REVIEW
 
 where applicable.
 
----
+______________________________________________________________________
 
-# 95. Adversarial Validation
+## 95. Adversarial Validation
 
 For consequential source sets, challenge the apparent evidence structure.
 
@@ -2234,9 +2231,9 @@ IS AN AGENT OUTPUT BEING COUNTED AS PRIMARY EVIDENCE?
 IS A MODEL OUTPUT BEING COUNTED AS AN OBSERVATION?
 ```
 
----
+______________________________________________________________________
 
-# 96. Adversarial Tests
+## 96. Adversarial Tests
 
 A mature registry SHOULD survive:
 
@@ -2285,9 +2282,9 @@ HIGH AUTHORITY + WEAK EMPIRICAL BASIS
 → AUTHORITY AND EVIDENCE REMAIN SEPARATE
 ```
 
----
+______________________________________________________________________
 
-# 97. Registry Integrity Metrics
+## 97. Registry Integrity Metrics
 
 Potential metrics include:
 
@@ -2311,9 +2308,9 @@ Metrics describe registry condition.
 
 They do not establish truth.
 
----
+______________________________________________________________________
 
-# 98. Source Registry and Canon Provenance
+## 98. Source Registry and Canon Provenance
 
 Relationship:
 
@@ -2333,9 +2330,9 @@ CANON
 
 No layer should silently absorb the responsibilities of another.
 
----
+______________________________________________________________________
 
-# 99. Source Registry and Knowledge
+## 99. Source Registry and Knowledge
 
 ```text
 SOURCE
@@ -2353,9 +2350,9 @@ The registry anchors the source side of this chain.
 
 It does not determine final claim confidence by itself.
 
----
+______________________________________________________________________
 
-# 100. Source Registry and State
+## 100. Source Registry and State
 
 Registry state may be persisted through governed state infrastructure.
 
@@ -2373,9 +2370,9 @@ AUDITABLE CHANGE
 
 Exact storage implementation belongs outside canon unless separately specified.
 
----
+______________________________________________________________________
 
-# 101. Source Registry and Control Plane
+## 101. Source Registry and Control Plane
 
 The control plane may govern:
 
@@ -2396,9 +2393,9 @@ CONTROL PLANE
 SOURCE
 ```
 
----
+______________________________________________________________________
 
-# 102. Source Registry and Runtime
+## 102. Source Registry and Runtime
 
 Runtime may:
 
@@ -2415,9 +2412,9 @@ source records.
 
 Runtime should not silently redefine canonical source identity.
 
----
+______________________________________________________________________
 
-# 103. Source Registry and Agents
+## 103. Source Registry and Agents
 
 Agents may propose:
 
@@ -2439,9 +2436,9 @@ REGISTRY COMMIT
 
 where governance requires controlled mutation.
 
----
+______________________________________________________________________
 
-# 104. Source Registry and Skills
+## 104. Source Registry and Skills
 
 Skills may implement procedures such as:
 
@@ -2458,9 +2455,9 @@ A skill performs procedure.
 
 It does not acquire authority merely by execution.
 
----
+______________________________________________________________________
 
-# 105. Source Registry and Tools
+## 105. Source Registry and Tools
 
 Tools may retrieve source data.
 
@@ -2472,9 +2469,9 @@ SOURCE AUTHORITY
 
 A search engine, API, connector, or crawler is an access mechanism unless it is itself the data-generating source.
 
----
+______________________________________________________________________
 
-# 106. Source Registry and Security
+## 106. Source Registry and Security
 
 Security controls should determine:
 
@@ -2489,9 +2486,9 @@ who may expose raw content
 
 Capability to edit the registry does not imply authority to redefine canon.
 
----
+______________________________________________________________________
 
-# 107. Source Registry and Observability
+## 107. Source Registry and Observability
 
 Registry operations SHOULD eventually be observable through events such as:
 
@@ -2510,9 +2507,9 @@ SOURCE_RESTORED
 
 where implementation supports them.
 
----
+______________________________________________________________________
 
-# 108. Source Registry and Tests
+## 108. Source Registry and Tests
 
 Tests SHOULD eventually verify:
 
@@ -2529,9 +2526,9 @@ missing-source handling
 invalidation propagation
 ```
 
----
+______________________________________________________________________
 
-# 109. Canonical Registry Template
+## 109. Canonical Registry Template
 
 ```yaml
 source_record:
@@ -2622,9 +2619,9 @@ source_record:
     last_reviewed_by:
 ```
 
----
+______________________________________________________________________
 
-# 110. Current Canonical Gaps
+## 110. Current Canonical Gaps
 
 The following remain `UNKNOWN/GAP` until separately populated and validated:
 
@@ -2666,9 +2663,9 @@ complete source-level access policy
 
 This framework must not invent those records.
 
----
+______________________________________________________________________
 
-# 111. Promotion Gate
+## 111. Promotion Gate
 
 This artifact defines the registry contract.
 
@@ -2695,9 +2692,9 @@ UNKNOWN/GAP
 
 remains the correct state.
 
----
+______________________________________________________________________
 
-# 112. RSCF Node
+## 112. RSCF Node
 
 ```RSCF-NODE
 node_id: AMOS-OS-SOURCE-REGISTRY
@@ -2727,9 +2724,9 @@ RSCF-RELATIONS:
   - PRESERVES_HISTORY_WITH: README
 ```
 
----
+______________________________________________________________________
 
-# 113. Canonical Summary
+## 113. Canonical Summary
 
 ```text
 DISCOVER
@@ -2892,13 +2889,14 @@ README
 ```text
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
-**MOC:** [[01_CANON/07_PROVENANCE/07_PROVENANCE_MOC|07_PROVENANCE_MOC]]
+______________________________________________________________________
 
+**MOC:** [[01_CANON/07_PROVENANCE/07_PROVENANCE_MOC|07_PROVENANCE_MOC]]

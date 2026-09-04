@@ -17,42 +17,42 @@ authority_level: root_architecture_contract
 created: 2026-08-25
 updated: 2026-08-25
 tags:
-- amos-os
-- amos-os
-- root
-- canon-group/tech-ai
-- canon/model
-- architecture
-- architecture/dependency
-- dependency
-- dependency/closure
-- dependency/invalidation
-- dependency/topology
-- dependency/typed-edge
-- dependency/load-bearing
-- provenance
-- provenance/lineage
-- provenance/independence
-- state
-- governance
-- kernel
-- kernel/dependency
-- kernel/validation
-- kernel/recovery
-- rscf/state/model
-- topic/dependency-closure
-- topic/invalidation
-- topic/failure-propagation
-- readme
-- authoritative-state
-- placement-rules
-- roadmap
-- amos-core-laws
-- law-hierarchy
-- canon-provenance
-- source-lineage
+  - amos-os
+  - amos-os
+  - root
+  - canon-group/tech-ai
+  - canon/model
+  - architecture
+  - architecture/dependency
+  - dependency
+  - dependency/closure
+  - dependency/invalidation
+  - dependency/topology
+  - dependency/typed-edge
+  - dependency/load-bearing
+  - provenance
+  - provenance/lineage
+  - provenance/independence
+  - state
+  - governance
+  - kernel
+  - kernel/dependency
+  - kernel/validation
+  - kernel/recovery
+  - rscf/state/model
+  - topic/dependency-closure
+  - topic/invalidation
+  - topic/failure-propagation
+  - readme
+  - authoritative-state
+  - placement-rules
+  - roadmap
+  - amos-core-laws
+  - law-hierarchy
+  - canon-provenance
+  - source-lineage
 aliases:
-- AMOS OS Dependency Map - Dependency Map - AMOS Dependency Topology - DEPENDENCY_MAP
+  - AMOS OS Dependency Map - Dependency Map - AMOS Dependency Topology - DEPENDENCY_MAP
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -61,13 +61,17 @@ rscf:
 ---
 
 # AMOS OS Dependency Map
+
 > **AMOS Core target:** `v4.4`
 > **Origin architect / steward:** Trang Phan
 > **Status:** `AMOS_MODEL`
 > **Conclusion class:** `AMOS_MODEL`
+
 ## Purpose
+
 `DEPENDENCY_MAP` defines the root dependency topology for AMOS OS.
 Its purpose is to make explicit:
+
 - what depends on what,
 - why that dependency exists,
 - whether the dependency is load-bearing,
@@ -76,22 +80,17 @@ Its purpose is to make explicit:
 - how freshness is determined,
 - what happens when a dependency fails,
 - and how far invalidation is allowed to propagate.
-The central law is:
+  The central law is:
+
 ```text
 Invalid(p)
 →
 invalidate only dependent descendants(p)
 ```
-unless evidence establishes that the failure compromises a wider shared invariant.
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: root_index
----
 
+## unless evidence establishes that the failure compromises a wider shared invariant. rscf: state: SOURCE_CLAIM claim_class: SOURCE_CLAIM provenance: AMOS_corpus scope: root_index
 
-# 1. Dependency Is a Typed Relation
+## 1. Dependency Is a Typed Relation
 
 AMOS OS must not treat every connection as the same kind of dependency.
 
@@ -111,9 +110,9 @@ LOAD_BEARING_DEPENDENCY
 
 Every material dependency should therefore have an explicit type.
 
----
+______________________________________________________________________
 
-# 2. Root Dependency Spine
+## 2. Root Dependency Spine
 
 The principal architectural dependency direction is:
 
@@ -139,9 +138,9 @@ This expresses architectural dependency and authority direction.
 
 It does not mean every lower-level artifact directly imports every higher-level artifact.
 
----
+______________________________________________________________________
 
-# 3. Cross-Cutting Substrates
+## 3. Cross-Cutting Substrates
 
 Several planes are not adequately represented as a simple vertical chain.
 
@@ -175,9 +174,9 @@ MAIN SPINE ──────┼── PROVENANCE
 
 Their actual dependency direction must be recorded per edge rather than inferred from diagram position.
 
----
+______________________________________________________________________
 
-# 4. Top-Level Plane Map
+## 4. Top-Level Plane Map
 
 ```text
 00_ROOT
@@ -211,9 +210,9 @@ Their actual dependency direction must be recorded per edge rather than inferred
 
 Repository containment alone does not establish semantic dependency.
 
----
+______________________________________________________________________
 
-# 5. Dependency Edge Contract
+## 5. Dependency Edge Contract
 
 Each load-bearing dependency should eventually be represented as:
 
@@ -266,9 +265,9 @@ UNKNOWN/GAP
 
 They must not be silently inferred.
 
----
+______________________________________________________________________
 
-# 6. Core Dependency Types
+## 6. Core Dependency Types
 
 AMOS OS should distinguish at least:
 
@@ -296,9 +295,9 @@ OPTIONAL
 
 These dependency types have different failure semantics.
 
----
+______________________________________________________________________
 
-# 7. Normative Dependency
+## 7. Normative Dependency
 
 A normative dependency means a child must remain compatible with governing canon.
 
@@ -318,9 +317,9 @@ KERNEL INVARIANT
 
 Failure can invalidate semantic legitimacy even if code continues executing.
 
----
+______________________________________________________________________
 
-# 8. Logical Dependency
+## 8. Logical Dependency
 
 A logical dependency exists where one conclusion or operation requires another proposition or invariant.
 
@@ -345,9 +344,9 @@ Invalid(C)
 
 unless `C` has an independent valid derivation.
 
----
+______________________________________________________________________
 
-# 9. Authority Dependency
+## 9. Authority Dependency
 
 Authority dependencies govern permission to change state or produce external effects.
 
@@ -367,9 +366,9 @@ AUTHORITY
 
 A component may technically execute an operation while lacking authority to commit it.
 
----
+______________________________________________________________________
 
-# 10. Execution Dependency
+## 10. Execution Dependency
 
 Execution dependency means a component requires another component to run.
 
@@ -381,9 +380,9 @@ RUNTIME
 
 Execution dependency alone does not imply semantic authority.
 
----
+______________________________________________________________________
 
-# 11. Data Dependency
+## 11. Data Dependency
 
 A data dependency means an operation requires an input dataset or state value.
 
@@ -397,9 +396,9 @@ OUTPUT
 
 If the input becomes stale or invalid, dependent outputs require reevaluation.
 
----
+______________________________________________________________________
 
-# 12. State Dependency
+## 12. State Dependency
 
 State dependencies bind conclusions or operations to a specific state snapshot.
 
@@ -421,9 +420,9 @@ REVALIDATION REQUIRED
 
 where the changed state was load-bearing.
 
----
+______________________________________________________________________
 
-# 13. Knowledge Dependency
+## 13. Knowledge Dependency
 
 A knowledge dependency binds reasoning to claims, evidence, RSCFs, observations, or framework knowledge.
 
@@ -441,9 +440,9 @@ KNOWLEDGE
 AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 14. Model Dependency
+## 14. Model Dependency
 
 A model dependency exists when an output relies on a model.
 
@@ -469,9 +468,9 @@ MODEL
 AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 15. Schema Dependency
+## 15. Schema Dependency
 
 Schemas constrain representation and interoperability.
 
@@ -483,9 +482,9 @@ VALID STRUCTURE
 
 A schema mismatch may invalidate parsing or compatibility without invalidating unrelated semantic content.
 
----
+______________________________________________________________________
 
-# 16. Protocol Dependency
+## 16. Protocol Dependency
 
 Protocol dependencies define interaction contracts.
 
@@ -499,9 +498,9 @@ CONSUMER
 
 A protocol change requires compatibility analysis for affected participants.
 
----
+______________________________________________________________________
 
-# 17. Security Dependency
+## 17. Security Dependency
 
 Security dependencies constrain what operations are permissible.
 
@@ -517,9 +516,9 @@ PERMITTED OPERATION
 
 Security failure can override otherwise valid execution paths.
 
----
+______________________________________________________________________
 
-# 18. Observability Dependency
+## 18. Observability Dependency
 
 Observability dependencies support detection, diagnosis, tracing, and validation.
 
@@ -533,9 +532,9 @@ Absence of telemetry does not automatically prove execution failure.
 
 However, if observability is load-bearing for audit or finalization, missing evidence may block promotion.
 
----
+______________________________________________________________________
 
-# 19. Validation Dependency
+## 19. Validation Dependency
 
 A conclusion may depend on successful validation.
 
@@ -555,9 +554,9 @@ UNKNOWN/GAP
 PASS
 ```
 
----
+______________________________________________________________________
 
-# 20. Recovery Dependency
+## 20. Recovery Dependency
 
 A production-capable state may depend on a valid recovery path.
 
@@ -571,9 +570,9 @@ ROLLBACK / REPAIR
 
 For high-impact changes, inability to recover may block promotion.
 
----
+______________________________________________________________________
 
-# 21. Provenance Dependency
+## 21. Provenance Dependency
 
 Provenance dependencies establish where evidence, state, or artifacts originated.
 
@@ -587,9 +586,9 @@ CONCLUSION
 
 If source identity or ancestry changes materially, dependent conclusions may require revalidation.
 
----
+______________________________________________________________________
 
-# 22. Causal Dependency
+## 22. Causal Dependency
 
 Causal dependency is stronger than sequence or association.
 
@@ -618,9 +617,9 @@ UNKNOWN/GAP
 
 as appropriate.
 
----
+______________________________________________________________________
 
-# 23. Temporal Dependency
+## 23. Temporal Dependency
 
 A dependency can be valid only during a defined period.
 
@@ -635,9 +634,9 @@ Expiration does not necessarily make the original claim historically false.
 
 It makes current reuse unsupported until refreshed.
 
----
+______________________________________________________________________
 
-# 24. Optional Dependency
+## 24. Optional Dependency
 
 Optional dependencies must be distinguished from load-bearing dependencies.
 
@@ -653,9 +652,9 @@ SYSTEM FAILURE
 
 unless another invariant makes the dependency mandatory in the active configuration.
 
----
+______________________________________________________________________
 
-# 25. Load-Bearing Dependency
+## 25. Load-Bearing Dependency
 
 A dependency is load-bearing when removing or invalidating it can alter:
 
@@ -686,9 +685,9 @@ therefore:
 P = LOAD_BEARING
 ```
 
----
+______________________________________________________________________
 
-# 26. Dependency Strength
+## 26. Dependency Strength
 
 Useful classifications include:
 
@@ -710,9 +709,9 @@ ADVISORY
 REQUIRED
 ```
 
----
+______________________________________________________________________
 
-# 27. Direct Dependency
+## 27. Direct Dependency
 
 ```text
 A → B
@@ -722,9 +721,9 @@ means `B` directly depends on `A`.
 
 If `A` fails, inspect `B`.
 
----
+______________________________________________________________________
 
-# 28. Transitive Dependency
+## 28. Transitive Dependency
 
 ```text
 A → B → C
@@ -736,9 +735,9 @@ But transitivity must respect dependency type.
 
 Not every relation composes.
 
----
+______________________________________________________________________
 
-# 29. Dependency Closure
+## 29. Dependency Closure
 
 For node `x`:
 
@@ -770,9 +769,9 @@ closure(C)
 
 subject to typed dependency rules.
 
----
+______________________________________________________________________
 
-# 30. Minimal Dependency Closure
+## 30. Minimal Dependency Closure
 
 AMOS v4.4 reasoning should prefer the smallest sufficient dependency closure.
 
@@ -790,9 +789,9 @@ is sufficient to determine the answer safely.
 
 This supports bounded reasoning without weakening integrity.
 
----
+______________________________________________________________________
 
-# 31. Closure Sufficiency
+## 31. Closure Sufficiency
 
 Local reasoning is allowed only when the relevant closure establishes:
 
@@ -807,9 +806,9 @@ NO MATERIAL CONFLICT
 
 If any of these conditions fail, escalate.
 
----
+______________________________________________________________________
 
-# 32. Dependency Direction
+## 32. Dependency Direction
 
 Dependency direction must not be inferred from visual placement.
 
@@ -855,9 +854,9 @@ CHILD DEPENDS ON PARENT
 
 unless a local contract explicitly defines otherwise.
 
----
+______________________________________________________________________
 
-# 33. Root Plane Dependencies
+## 33. Root Plane Dependencies
 
 Conceptually:
 
@@ -925,9 +924,9 @@ DOMAINS
 
 These are architectural relations, not claims that every edge is currently implemented.
 
----
+______________________________________________________________________
 
-# 34. Canon Dependency Boundary
+## 34. Canon Dependency Boundary
 
 ```text
 CANON
@@ -947,9 +946,9 @@ IMPLEMENTATION
 
 A canonical definition can exist without a complete implementation.
 
----
+______________________________________________________________________
 
-# 35. Kernel Dependency Boundary
+## 35. Kernel Dependency Boundary
 
 Kernel supplies deterministic operators and invariants.
 
@@ -977,9 +976,9 @@ KERNEL
 RUNTIME
 ```
 
----
+______________________________________________________________________
 
-# 36. Control-Plane Dependency Boundary
+## 36. Control-Plane Dependency Boundary
 
 The control plane governs:
 
@@ -995,9 +994,9 @@ where defined.
 
 Runtime execution must not silently bypass these dependencies.
 
----
+______________________________________________________________________
 
-# 37. Runtime Dependency Boundary
+## 37. Runtime Dependency Boundary
 
 Runtime coordinates execution.
 
@@ -1018,9 +1017,9 @@ AUTHORITY
 KNOWLEDGE TRUTH
 ```
 
----
+______________________________________________________________________
 
-# 38. Cognitive Organism Dependency Boundary
+## 38. Cognitive Organism Dependency Boundary
 
 The cognitive organism may depend on:
 
@@ -1043,9 +1042,9 @@ COGNITION
 AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 39. Agent Dependency Boundary
+## 39. Agent Dependency Boundary
 
 Agents may depend on:
 
@@ -1076,9 +1075,9 @@ AGENT
 AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 40. Skill Dependency Boundary
+## 40. Skill Dependency Boundary
 
 A skill is a reusable procedure.
 
@@ -1094,9 +1093,9 @@ KNOWLEDGE
 
 A skill does not become an agent merely because an agent invokes it.
 
----
+______________________________________________________________________
 
-# 41. Workflow Dependency Boundary
+## 41. Workflow Dependency Boundary
 
 A workflow coordinates multiple steps.
 
@@ -1116,9 +1115,9 @@ WORKFLOW
 PROTOCOL
 ```
 
----
+______________________________________________________________________
 
-# 42. Tool Dependency Boundary
+## 42. Tool Dependency Boundary
 
 Tools provide capabilities.
 
@@ -1138,9 +1137,9 @@ PERMISSION
 
 Tool availability does not authorize use.
 
----
+______________________________________________________________________
 
-# 43. Model Dependency Boundary
+## 43. Model Dependency Boundary
 
 Models provide representations, estimates, predictions, or transformations.
 
@@ -1158,9 +1157,9 @@ MODEL
 AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 44. Domain Dependency Boundary
+## 44. Domain Dependency Boundary
 
 Domain adapters specialize general AMOS structures for specific environments.
 
@@ -1178,9 +1177,9 @@ STRUCTURAL SIMILARITY
 CAUSAL VALIDITY
 ```
 
----
+______________________________________________________________________
 
-# 45. Scope Envelope
+## 45. Scope Envelope
 
 Each important dependency should inherit a scope envelope.
 
@@ -1198,9 +1197,9 @@ scope:
 
 A dependency validated in one scope must not silently propagate outside it.
 
----
+______________________________________________________________________
 
-# 46. Regime Firewall
+## 46. Regime Firewall
 
 If:
 
@@ -1222,9 +1221,9 @@ REVALIDATE AFFECTED EDGES
 
 not necessarily the entire system.
 
----
+______________________________________________________________________
 
-# 47. Freshness
+## 47. Freshness
 
 Dependency validity is freshness-bounded.
 
@@ -1251,9 +1250,9 @@ MODEL CHANGE
 STATE CHANGE
 ```
 
----
+______________________________________________________________________
 
-# 48. Provenance Topology
+## 48. Provenance Topology
 
 Dependency evidence must preserve ancestry.
 
@@ -1269,9 +1268,9 @@ SOURCE S
 
 `D1` and `D2` are not independent merely because they appear in separate files.
 
----
+______________________________________________________________________
 
-# 49. Independence Rule
+## 49. Independence Rule
 
 ```text
 MULTIPLE SOURCES
@@ -1283,9 +1282,9 @@ Independence requires evidence that ancestry is sufficiently distinct for the re
 
 This is particularly important when a fast path relies on independent confirmation.
 
----
+______________________________________________________________________
 
-# 50. Sybil-Hardening Principle
+## 50. Sybil-Hardening Principle
 
 Repeated descendants of one origin must not artificially increase confidence.
 
@@ -1305,9 +1304,9 @@ FOUR INDEPENDENT CONFIRMATIONS
 
 when all descend from `S`.
 
----
+______________________________________________________________________
 
-# 51. Invalidation Law
+## 51. Invalidation Law
 
 The default invalidation rule is:
 
@@ -1325,9 +1324,9 @@ Invalid(p)
 invalidate everything
 ```
 
----
+______________________________________________________________________
 
-# 52. Selective Invalidation
+## 52. Selective Invalidation
 
 Given:
 
@@ -1361,9 +1360,9 @@ D
 
 provided no hidden shared dependency exists.
 
----
+______________________________________________________________________
 
-# 53. Hidden Dependency Check
+## 53. Hidden Dependency Check
 
 Before selective invalidation, check for:
 
@@ -1379,9 +1378,9 @@ CAUSAL COUPLING
 
 A hidden shared dependency can widen the affected closure.
 
----
+______________________________________________________________________
 
-# 54. Dependency Failure Classes
+## 54. Dependency Failure Classes
 
 Useful failure classes include:
 
@@ -1400,9 +1399,9 @@ UNKNOWN
 
 These should not all be treated identically.
 
----
+______________________________________________________________________
 
-# 55. Missing Dependency
+## 55. Missing Dependency
 
 ```text
 REQUIRED DEPENDENCY MISSING
@@ -1412,9 +1411,9 @@ BLOCK DEPENDENT CONCLUSION
 
 unless a valid alternative path exists.
 
----
+______________________________________________________________________
 
-# 56. Stale Dependency
+## 56. Stale Dependency
 
 A stale dependency may still be historically valid but insufficient for current reuse.
 
@@ -1430,9 +1429,9 @@ Typical response:
 REVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 57. Conflicting Dependency
+## 57. Conflicting Dependency
 
 When load-bearing dependencies conflict:
 
@@ -1450,9 +1449,9 @@ COMPETING
 
 until discriminating evidence resolves the conflict.
 
----
+______________________________________________________________________
 
-# 58. Alternative Dependency Paths
+## 58. Alternative Dependency Paths
 
 A conclusion can survive one failed premise when a valid independent derivation exists.
 
@@ -1469,9 +1468,9 @@ Invalid(P1)
 
 but `P2` independently supports `C`, then `C` may remain valid within the support ceiling of `P2`.
 
----
+______________________________________________________________________
 
-# 59. Dependency Substitution
+## 59. Dependency Substitution
 
 Replacement dependency:
 
@@ -1491,9 +1490,9 @@ SIMILAR INTERFACE
 EQUIVALENT SEMANTICS
 ```
 
----
+______________________________________________________________________
 
-# 60. Dependency Versioning
+## 60. Dependency Versioning
 
 Version identity should be explicit metadata.
 
@@ -1518,9 +1517,9 @@ Missing version information remains:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 61. Compatibility
+## 61. Compatibility
 
 Compatibility can include:
 
@@ -1537,9 +1536,9 @@ RUNTIME
 
 Compatibility in one dimension does not prove compatibility in all others.
 
----
+______________________________________________________________________
 
-# 62. Dependency Conflict Registry
+## 62. Dependency Conflict Registry
 
 Material unresolved dependency conflicts should eventually link to a conflict registry.
 
@@ -1556,9 +1555,9 @@ dependency_conflict:
   state:
 ```
 
----
+______________________________________________________________________
 
-# 63. Sensitivity
+## 63. Sensitivity
 
 For consequential conclusions, identify the dependency most capable of flipping the result.
 
@@ -1576,9 +1575,9 @@ P2 = SENSITIVE LOAD-BEARING PREMISE
 
 Test `P2` before spending effort on low-impact dependencies.
 
----
+______________________________________________________________________
 
-# 64. Dependency Confidence Ceiling
+## 64. Dependency Confidence Ceiling
 
 A derived conclusion cannot exceed its weakest load-bearing dependency without independent revalidation.
 
@@ -1597,9 +1596,9 @@ min(
 
 for load-bearing premises on the active proof path.
 
----
+______________________________________________________________________
 
-# 65. Atomic Multi-Dependency Reasoning
+## 65. Atomic Multi-Dependency Reasoning
 
 Some conclusions depend jointly on several premises.
 
@@ -1623,9 +1622,9 @@ must not become:
 PASS(C)
 ```
 
----
+______________________________________________________________________
 
-# 66. Multi-RSCF Dependency
+## 66. Multi-RSCF Dependency
 
 Where a conclusion depends on multiple RSCFs:
 
@@ -1643,9 +1642,9 @@ the dependency graph should preserve each edge.
 
 Failure of one RSCF invalidates only dependent conclusions unless another independent valid path exists.
 
----
+______________________________________________________________________
 
-# 67. Causal Dependency Firewall
+## 67. Causal Dependency Firewall
 
 A dependency edge must not silently become a causal edge.
 
@@ -1669,9 +1668,9 @@ CAUSES
 
 Causal typing requires appropriate evidence.
 
----
+______________________________________________________________________
 
-# 68. Fast-Path Dependency Rule
+## 68. Fast-Path Dependency Rule
 
 Local reasoning/finalization may proceed when:
 
@@ -1687,9 +1686,9 @@ NO CROSS-BOUNDARY CAUSAL COUPLING
 
 This is the v4.4 smallest-sufficient-proof principle.
 
----
+______________________________________________________________________
 
-# 69. Escalation Conditions
+## 69. Escalation Conditions
 
 Escalate dependency analysis when:
 
@@ -1706,9 +1705,9 @@ IRREVERSIBLE EFFECTS EXIST
 DEPENDENCY CLOSURE IS AMBIGUOUS
 ```
 
----
+______________________________________________________________________
 
-# 70. Proof-Based Coordination Avoidance
+## 70. Proof-Based Coordination Avoidance
 
 Coordination may be avoided only when independence is established.
 
@@ -1726,9 +1725,9 @@ If `A` and `B` are proven independent for `X`, local processing may be sufficien
 
 If they share hidden state or ancestry, coordination avoidance is unsafe.
 
----
+______________________________________________________________________
 
-# 71. Failure Recovery
+## 71. Failure Recovery
 
 Dependency failure recovery follows:
 
@@ -1750,9 +1749,9 @@ REVALIDATE AFFECTED CLOSURE
 RESUME
 ```
 
----
+______________________________________________________________________
 
-# 72. No Blind Retry
+## 72. No Blind Retry
 
 ```text
 FAILED PATH
@@ -1764,9 +1763,9 @@ DO NOT REPEAT BLINDLY
 
 Retry should require changed evidence, state, dependency, configuration, or execution conditions.
 
----
+______________________________________________________________________
 
-# 73. Local Repair
+## 73. Local Repair
 
 Where possible:
 
@@ -1786,9 +1785,9 @@ RECOMPUTE ENTIRE AMOS OS
 
 Global recomputation is a last resort.
 
----
+______________________________________________________________________
 
-# 74. Dependency Gap Classes
+## 74. Dependency Gap Classes
 
 Dependency gaps should be classified:
 
@@ -1814,9 +1813,9 @@ MISSING OPTIONAL DESCRIPTION
 
 depending on scope.
 
----
+______________________________________________________________________
 
-# 75. Dependency Registry Shape
+## 75. Dependency Registry Shape
 
 A future machine-readable registry may use:
 
@@ -1864,9 +1863,9 @@ dependencies:
 
 This schema is architectural and does not assert an implemented registry.
 
----
+______________________________________________________________________
 
-# 76. Root Dependency Invariants
+## 76. Root Dependency Invariants
 
 ```text
 DM-01
@@ -1945,9 +1944,9 @@ DM-25
 INDEPENDENCE MUST BE DEMONSTRATED, NOT ASSUMED
 ```
 
----
+______________________________________________________________________
 
-# 77. Root Dependency Evaluation
+## 77. Root Dependency Evaluation
 
 Conceptually:
 
@@ -1981,9 +1980,9 @@ def evaluate_dependency(node):
 
 This is architectural pseudocode, not a claim of deployed implementation.
 
----
+______________________________________________________________________
 
-# 78. Invalidation Algorithm
+## 78. Invalidation Algorithm
 
 Conceptually:
 
@@ -1999,9 +1998,9 @@ def invalidate(node):
 
 The governing principle is selective propagation.
 
----
+______________________________________________________________________
 
-# 79. Recovery Algorithm
+## 79. Recovery Algorithm
 
 Conceptually:
 
@@ -2027,9 +2026,9 @@ def recover(failed_dependency):
 
 Again, this is a model of required semantics, not proof of implementation.
 
----
+______________________________________________________________________
 
-# 80. Current Implementation Status
+## 80. Current Implementation Status
 
 This document establishes an architectural dependency contract.
 
@@ -2063,9 +2062,9 @@ DEPENDENCY VALIDATION COVERAGE
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 81. Promotion Requirements
+## 81. Promotion Requirements
 
 Before this artifact can represent a validated repository-wide dependency graph:
 
@@ -2096,9 +2095,9 @@ Before this artifact can represent a validated repository-wide dependency graph:
 [ ] machine-readable dependency registry generated
 ```
 
----
+______________________________________________________________________
 
-# 82. RSCF Node
+## 82. RSCF Node
 
 ```RSCF-NODE
 node_id: AMOS-OS-DEPENDENCY-MAP
@@ -2139,9 +2138,9 @@ RSCF-RELATIONS:
   - RECOVERY_DEPENDS_ON: README
 ```
 
----
+______________________________________________________________________
 
-# 83. Canonical Summary
+## 83. Canonical Summary
 
 ```text
 NODE
@@ -2289,12 +2288,14 @@ README ·
 ```text
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 **MOC:** [[00_ROOT/00_COSMO_BRAIN_MOC|00_COSMO_BRAIN_MOC]]

@@ -1,9 +1,6 @@
 ---
 name: json-canvas
-description: Create and edit JSON Canvas (.canvas) files with valid nodes, edges,
-  groups, colors, layout, IDs, and referential integrity. Use for Obsidian Canvas
-  files, visual maps, flowcharts, project boards, or any request involving the JSON
-  Canvas format.
+description: Create and edit JSON Canvas (.canvas) files with valid nodes, edges, groups, colors, layout, IDs, and referential integrity. Use for Obsidian Canvas files, visual maps, flowcharts, project boards, or any request involving the JSON Canvas format.
 language: en
 license: MIT
 metadata:
@@ -12,6 +9,11 @@ metadata:
   copilot-builtin-version: '1'
   copilot-upstream-revision: a1dc48e68138490d522c04cbf5822214c6eb1202
 tags:
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 # JSON Canvas
@@ -22,29 +24,29 @@ Follow JSON Canvas 1.0. A <code>.canvas</code> document contains top-level
 ## Workflow
 
 1. Parse the existing JSON before editing it.
-2. Generate a unique lowercase 16-character hexadecimal ID for each new node
+1. Generate a unique lowercase 16-character hexadecimal ID for each new node
    or edge.
-3. Position nodes without overlap and preserve intentional existing layout.
-4. Point every edge at existing node IDs.
-5. Serialize valid JSON and run the validation checklist below.
+1. Position nodes without overlap and preserve intentional existing layout.
+1. Point every edge at existing node IDs.
+1. Serialize valid JSON and run the validation checklist below.
 
 ## Nodes
 
 Every node requires <code>id</code>, <code>type</code>, <code>x</code>,
 <code>y</code>, <code>width</code>, and <code>height</code>.
 
-| Type | Required content | Purpose |
-| --- | --- | --- |
-| <code>text</code> | <code>text</code> | Markdown content |
-| <code>file</code> | <code>file</code> | Vault file; optional <code>subpath</code> |
-| <code>link</code> | <code>url</code> | External URL |
-| <code>group</code> | none | Visual container; optional label/background |
+| Type               | Required content  | Purpose                                     |
+| ------------------ | ----------------- | ------------------------------------------- |
+| <code>text</code>  | <code>text</code> | Markdown content                            |
+| <code>file</code>  | <code>file</code> | Vault file; optional <code>subpath</code>   |
+| <code>link</code>  | <code>url</code>  | External URL                                |
+| <code>group</code> | none              | Visual container; optional label/background |
 
 Array order controls z-index: earlier nodes are behind later nodes. Coordinates
 may be negative. Position is the top-left corner, x increases right, and y
 increases down.
 
-~~~json
+```json
 {
   "id": "6f0ad84f44ce9c17",
   "type": "text",
@@ -55,7 +57,7 @@ increases down.
   "text": "# Main idea\n\nDetails",
   "color": "5"
 }
-~~~
+```
 
 Use actual JSON newline escapes in text values. Do not double-escape them into
 literal backslash-n text.
@@ -67,7 +69,7 @@ Every edge requires <code>id</code>, <code>fromNode</code>, and
 <code>bottom</code>, or <code>left</code>. Optional ends are <code>none</code>
 or <code>arrow</code>.
 
-~~~json
+```json
 {
   "id": "0123456789abcdef",
   "fromNode": "6f0ad84f44ce9c17",
@@ -77,7 +79,7 @@ or <code>arrow</code>.
   "toEnd": "arrow",
   "label": "leads to"
 }
-~~~
+```
 
 ## Colors and layout
 
@@ -104,6 +106,6 @@ canvases.
 Adapted from <code>kepano/obsidian-skills</code> at revision
 <code>a1dc48e68138490d522c04cbf5822214c6eb1202</code>. See <code>LICENSE</code>.
 
----
+______________________________________________________________________
 
 **MOC:** [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/00_HOME|00_HOME]]

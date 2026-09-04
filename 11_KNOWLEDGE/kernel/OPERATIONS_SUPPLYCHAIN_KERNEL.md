@@ -1,4 +1,7 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: OPERATIONS SUPPLYCHAIN KERNEL
 type: kernel
 source: 11_KNOWLEDGE/kernel
@@ -7,13 +10,13 @@ canon-type: framework
 rscf-state: source-claim
 topic: operations-supplychain-kernel
 tags:
-- canon-group/tech-ai
-- canon/framework
-- rscf/claim
-- rscf/provenance
-- rscf/state/source-claim
-- topic/operations-supplychain-kernel
-- kernel
+  - canon-group/tech-ai
+  - canon/framework
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - topic/operations-supplychain-kernel
+  - kernel
 created: 2026-08-22
 rscf:
   state: SOURCE_CLAIM
@@ -399,6 +402,6 @@ rscf:
 **Related:** [[11_KNOWLEDGE/kernel/MOOD_KERNEL|MOOD_KERNEL]] · [[11_KNOWLEDGE/kernel/AMOS_CLOUD_PLATFORM_KERNEL_V0_TECH|AMOS_CLOUD_PLATFORM_KERNEL_V0_TECH]] · [[11_KNOWLEDGE/kernel/AMOS_HEALTH_POLICY_KERNEL|AMOS_HEALTH_POLICY_KERNEL]] · [[11_KNOWLEDGE/kernel/TECH_ARCHITECTURE_KERNEL_V0|TECH_ARCHITECTURE_KERNEL_V0]]
 ```
 
----
-**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]
+______________________________________________________________________
 
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]

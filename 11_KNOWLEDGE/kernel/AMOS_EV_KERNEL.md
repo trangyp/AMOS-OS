@@ -1,4 +1,7 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: AMOS EV KERNEL
 type: kernel
 source: 11_KNOWLEDGE/kernel
@@ -7,13 +10,13 @@ canon-type: framework
 rscf-state: source-claim
 topic: amos-ev-kernel-v0
 tags:
-- canon-group/tech-ai
-- canon/framework
-- rscf/claim
-- rscf/provenance
-- rscf/state/observation
-- topic/amos-ev-kernel-v0
-- kernel
+  - canon-group/tech-ai
+  - canon/framework
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/observation
+  - topic/amos-ev-kernel-v0
+  - kernel
 created: 2026-08-22
 rscf:
   state: SOURCE_CLAIM
@@ -527,6 +530,6 @@ rscf:
 **Related:** [[11_KNOWLEDGE/kernel/MOOD_KERNEL|MOOD_KERNEL]] · [[11_KNOWLEDGE/kernel/MEDICAL_CLINICAL_KERNEL_VINFINITY_SUPER|MEDICAL_CLINICAL_KERNEL_VINFINITY_SUPER]] · [[11_KNOWLEDGE/kernel/OPERATIONS_SUPPLYCHAIN_KERNEL|OPERATIONS_SUPPLYCHAIN_KERNEL]] · [[11_KNOWLEDGE/kernel/TECH_SYSTEMS_PRODUCT_MANAGEMENT_KERNEL|TECH_SYSTEMS_PRODUCT_MANAGEMENT_KERNEL]]
 ```
 
----
-**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]
+______________________________________________________________________
 
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]

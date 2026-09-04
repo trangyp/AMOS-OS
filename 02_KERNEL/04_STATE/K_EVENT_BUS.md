@@ -16,59 +16,68 @@ domain: event-bus
 scope: AMOS_OS
 updated: 2026-08-26
 tags:
-- amos-os
-- kernel
-- core
-- canon-group/tech-ai
-- canon/model
-- kernel/event
-- kernel/event-bus
-- kernel/messaging
-- kernel/state
-- kernel/causality
-- kernel/provenance
-- kernel/dependency
-- kernel/concurrency
-- kernel/idempotency
-- kernel/replay
-- kernel/validation
-- rscf/event
-- rscf/provenance
-- rscf/state/model
-- topic/event-driven-architecture
-- topic/event-routing
-- topic/causal-lineage
-- readme
-- architecture
-- authoritative-state
-- amos-core-laws
-- law-hierarchy
-- canon-provenance
-- source-lineage
-- k-core19-logic
-- k-meta-logic
-- k-context-state
-- k-structural-reasoning
-- k-metacognition
-- k-multi-hypothesis
-- k-causal-closure
-- k-causal-epoch
-- k-causal-hierarchy
+  - amos-os
+  - kernel
+  - core
+  - canon-group/tech-ai
+  - canon/model
+  - kernel/event
+  - kernel/event-bus
+  - kernel/messaging
+  - kernel/state
+  - kernel/causality
+  - kernel/provenance
+  - kernel/dependency
+  - kernel/concurrency
+  - kernel/idempotency
+  - kernel/replay
+  - kernel/validation
+  - rscf/event
+  - rscf/provenance
+  - rscf/state/model
+  - topic/event-driven-architecture
+  - topic/event-routing
+  - topic/causal-lineage
+  - readme
+  - architecture
+  - authoritative-state
+  - amos-core-laws
+  - law-hierarchy
+  - canon-provenance
+  - source-lineage
+  - k-core19-logic
+  - k-meta-logic
+  - k-context-state
+  - k-structural-reasoning
+  - k-metacognition
+  - k-multi-hypothesis
+  - k-causal-closure
+  - k-causal-epoch
+  - k-causal-hierarchy
 aliases:
-- AMOS Event Bus Kernel - Event Bus Kernel - K Event Bus - K_EVENT_BUS
+  - AMOS Event Bus Kernel - Event Bus Kernel - K Event Bus - K_EVENT_BUS
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 # K EVENT BUS
+
 > **AMOS Core target:** `v4.4`
 > **Origin architect / steward:** Trang Phan
 > **Plane:** `02_KERNEL`
 > **Status:** `AMOS_MODEL`
 > **Conclusion class:** `AMOS_MODEL`
+
 ## Purpose
+
 `K_EVENT_BUS` defines the kernel-level semantic contract for representing, publishing, routing, consuming, validating, replaying, and tracing events across AMOS OS.
 The Event Bus provides a governed information-transfer substrate between otherwise separated components.
 It does **not** grant authority, execute arbitrary effects, establish truth, or convert messages into canonical state merely because they were emitted.
 Core firewall:
+
 ```text
 EVENT != COMMAND
 EVENT != CLAIM
@@ -81,15 +90,10 @@ DELIVERY != ACCEPTANCE
 ACCEPTANCE != VALIDATION
 VALIDATION != COMMIT
 ```
-rscf:
-  state: DERIVED
-  claim_class: EMPIRICAL
-  provenance: AMOS_corpus
-  scope: AMOS_general
----
 
+## rscf: state: DERIVED claim_class: EMPIRICAL provenance: AMOS_corpus scope: AMOS_general
 
-# 1. Core Definition
+## 1. Core Definition
 
 An AMOS event is a typed record describing a bounded occurrence.
 
@@ -126,9 +130,9 @@ THAT THE EVENT IS AUTHORIZED
 THAT STATE SHOULD CHANGE
 ```
 
----
+______________________________________________________________________
 
-# 2. Event Bus Model
+## 2. Event Bus Model
 
 Conceptually:
 
@@ -166,9 +170,9 @@ STATE / VERSION VALIDATION
 COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 3. Event Contract
+## 3. Event Contract
 
 A kernel event should conceptually support:
 
@@ -231,9 +235,9 @@ This is an architectural schema.
 
 It does not assert that every field is implemented.
 
----
+______________________________________________________________________
 
-# 4. Event Identity
+## 4. Event Identity
 
 Every event must possess stable identity where replay, deduplication, audit, or causal lineage matters.
 
@@ -269,9 +273,9 @@ SAME EVENT TYPE
 SAME EVENT
 ```
 
----
+______________________________________________________________________
 
-# 5. Event Type
+## 5. Event Type
 
 Events must be typed.
 
@@ -298,9 +302,9 @@ The event type constrains interpretation.
 
 Consumers must not infer semantics from payload shape alone.
 
----
+______________________________________________________________________
 
-# 6. Epistemic Type
+## 6. Epistemic Type
 
 Events carrying knowledge-bearing content should preserve the epistemic type of that content.
 
@@ -329,9 +333,9 @@ EMPIRICAL FACT
 
 Transport must not upgrade epistemic status.
 
----
+______________________________________________________________________
 
-# 7. Event vs Claim
+## 7. Event vs Claim
 
 An event records that something was emitted or occurred within a defined system contract.
 
@@ -353,9 +357,9 @@ remains unverified.
 
 These must remain separate.
 
----
+______________________________________________________________________
 
-# 8. Event vs Command
+## 8. Event vs Command
 
 An event describes an occurrence.
 
@@ -373,9 +377,9 @@ A consumer must not silently reinterpret arbitrary events as commands.
 EVENT != COMMAND
 ```
 
----
+______________________________________________________________________
 
-# 9. Event vs Authority
+## 9. Event vs Authority
 
 Receiving an event does not grant permission.
 
@@ -393,9 +397,9 @@ Critical law:
 CAPABILITY != AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 10. Event vs State
+## 10. Event vs State
 
 An event may describe a state transition.
 
@@ -409,9 +413,9 @@ AUTHORITATIVE_STATE
 
 The authoritative state store remains responsible for accepted state.
 
----
+______________________________________________________________________
 
-# 11. Event vs Commit
+## 11. Event vs Commit
 
 An event may represent:
 
@@ -431,9 +435,9 @@ A proposal event must not be interpreted as a committed state transition.
 PROPOSAL != COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 12. Producer Contract
+## 12. Producer Contract
 
 An event producer is responsible for:
 
@@ -452,9 +456,9 @@ where applicable.
 
 The producer must not claim authority it does not possess.
 
----
+______________________________________________________________________
 
-# 13. Consumer Contract
+## 13. Consumer Contract
 
 A consumer must independently determine whether an event is usable for its operation.
 
@@ -490,9 +494,9 @@ STATE VERSION CHECK
 POLICY CHECK
 ```
 
----
+______________________________________________________________________
 
-# 14. Routing
+## 14. Routing
 
 Routing maps:
 
@@ -517,9 +521,9 @@ TENANT / SHARD
 
 Routing eligibility does not imply processing authority.
 
----
+______________________________________________________________________
 
-# 15. Topic Model
+## 15. Topic Model
 
 A topic is a routing namespace.
 
@@ -542,9 +546,9 @@ TOPIC NAME
 EVENT VALIDITY
 ```
 
----
+______________________________________________________________________
 
-# 16. Subscription
+## 16. Subscription
 
 A subscription declares interest.
 
@@ -564,9 +568,9 @@ not:
 TRUST ALL EVENTS OF T
 ```
 
----
+______________________________________________________________________
 
-# 17. Delivery Semantics
+## 17. Delivery Semantics
 
 Possible implementation semantics include:
 
@@ -586,9 +590,9 @@ EXACTLY_ONCE
 
 without implementation and failure-model evidence.
 
----
+______________________________________________________________________
 
-# 18. Duplicate Events
+## 18. Duplicate Events
 
 Distributed or retry-capable delivery may produce duplicates.
 
@@ -602,9 +606,9 @@ or an equivalent deduplication identity.
 
 Duplicate delivery must not automatically produce duplicate external effects.
 
----
+______________________________________________________________________
 
-# 19. Idempotency
+## 19. Idempotency
 
 Where retries are possible:
 
@@ -627,9 +631,9 @@ Not every operation is naturally idempotent.
 
 Non-idempotent operations require stronger guards.
 
----
+______________________________________________________________________
 
-# 20. Ordering
+## 20. Ordering
 
 Global event order must not be assumed unless explicitly established.
 
@@ -653,9 +657,9 @@ CAUSAL ORDER
 TOTAL ORDER
 ```
 
----
+______________________________________________________________________
 
-# 21. Ordering Firewall
+## 21. Ordering Firewall
 
 ```text
 ARRIVED FIRST
@@ -671,9 +675,9 @@ EVENT TIMESTAMP A < EVENT TIMESTAMP B
 
 does not by itself prove causal precedence.
 
----
+______________________________________________________________________
 
-# 22. Causal Ordering
+## 22. Causal Ordering
 
 Where causal lineage exists:
 
@@ -685,9 +689,9 @@ means `E2` depends causally or operationally on `E1` according to the relevant t
 
 This is stronger than mere temporal sequence.
 
----
+______________________________________________________________________
 
-# 23. Causal Firewall
+## 23. Causal Firewall
 
 ```text
 E1 BEFORE E2
@@ -714,9 +718,9 @@ CORRELATED_WITH
 
 These must not be collapsed into generic causation.
 
----
+______________________________________________________________________
 
-# 24. Parent Event
+## 24. Parent Event
 
 An event may reference:
 
@@ -728,9 +732,9 @@ when directly derived from or triggered by another event.
 
 This supports local lineage reconstruction.
 
----
+______________________________________________________________________
 
-# 25. Correlation ID
+## 25. Correlation ID
 
 A correlation identifier groups events belonging to one bounded interaction.
 
@@ -752,9 +756,9 @@ CORRELATION_ID
 
 while retaining distinct event IDs.
 
----
+______________________________________________________________________
 
-# 26. Event Chain
+## 26. Event Chain
 
 A causal or operational event chain may be represented:
 
@@ -770,9 +774,9 @@ E3
 
 Each edge should remain typed where the distinction matters.
 
----
+______________________________________________________________________
 
-# 27. Causal Epoch
+## 27. Causal Epoch
 
 Events may bind to:
 
@@ -796,9 +800,9 @@ EPOCH_18
 
 without compatibility or revalidation.
 
----
+______________________________________________________________________
 
-# 28. Causal Epoch Finality
+## 28. Causal Epoch Finality
 
 Once an epoch is finalized under the relevant AMOS contract:
 
@@ -810,9 +814,9 @@ events belonging to that finalized epoch remain historical evidence.
 
 Later epochs extend lineage rather than silently rewriting the finalized event history.
 
----
+______________________________________________________________________
 
-# 29. State Version Binding
+## 29. State Version Binding
 
 Events interacting with mutable state may carry:
 
@@ -836,9 +840,9 @@ CURRENT STATE = S19
 
 The event may require revalidation before commit.
 
----
+______________________________________________________________________
 
-# 30. MVCC Relationship
+## 30. MVCC Relationship
 
 The Event Bus may participate in an MVCC-style architecture:
 
@@ -858,9 +862,9 @@ This is a conceptual AMOS v4.4 pattern.
 
 It is not a claim of literal database MVCC implementation.
 
----
+______________________________________________________________________
 
-# 31. CAS Relationship
+## 31. CAS Relationship
 
 For guarded mutation:
 
@@ -877,9 +881,9 @@ MISMATCH → RETRY / ABORT / REVALIDATE
 
 This prevents an old event from silently overwriting newer state.
 
----
+______________________________________________________________________
 
-# 32. Event Provenance
+## 32. Event Provenance
 
 Every consequential event should preserve enough provenance to determine:
 
@@ -893,9 +897,9 @@ WITH WHICH ANCESTRY
 
 where those fields are material.
 
----
+______________________________________________________________________
 
-# 33. Provenance Persistence
+## 33. Provenance Persistence
 
 Routing, serialization, storage, and replay must not silently strip load-bearing provenance.
 
@@ -909,9 +913,9 @@ E_original
 
 should preserve the required provenance identity.
 
----
+______________________________________________________________________
 
-# 34. Provenance Topology
+## 34. Provenance Topology
 
 Multiple events may originate from one source.
 
@@ -932,9 +936,9 @@ Therefore:
 3 INDEPENDENT SOURCES
 ```
 
----
+______________________________________________________________________
 
-# 35. Sybil Hardening
+## 35. Sybil Hardening
 
 Event multiplicity must not inflate evidence confidence.
 
@@ -947,9 +951,9 @@ FROM ONE ORIGIN
 
 Consumers performing evidence aggregation must inspect ancestry where material.
 
----
+______________________________________________________________________
 
-# 36. Event Freshness
+## 36. Event Freshness
 
 An event may become stale.
 
@@ -972,9 +976,9 @@ CURRENT TIME
 
 No universal freshness duration should be inferred.
 
----
+______________________________________________________________________
 
-# 37. Event Expiration
+## 37. Event Expiration
 
 Events may optionally specify:
 
@@ -992,9 +996,9 @@ HISTORICALLY VALID
 CURRENTLY ACTIONABLE
 ```
 
----
+______________________________________________________________________
 
-# 38. Scope
+## 38. Scope
 
 Events must not silently escape their applicability envelope.
 
@@ -1012,9 +1016,9 @@ TIME
 REGIME
 ```
 
----
+______________________________________________________________________
 
-# 39. Regime
+## 39. Regime
 
 An event valid under:
 
@@ -1036,9 +1040,9 @@ REGIME SHIFT
 REVALIDATE AFFECTED EVENTS
 ```
 
----
+______________________________________________________________________
 
-# 40. Schema Version
+## 40. Schema Version
 
 Event schemas evolve.
 
@@ -1058,9 +1062,9 @@ POLICY EPOCH
 CAUSAL EPOCH
 ```
 
----
+______________________________________________________________________
 
-# 41. Schema Compatibility
+## 41. Schema Compatibility
 
 Consumers should explicitly support compatible schema versions.
 
@@ -1076,9 +1080,9 @@ UNKNOWN
 
 Unknown compatibility must not be treated as compatible.
 
----
+______________________________________________________________________
 
-# 42. Event Evolution
+## 42. Event Evolution
 
 Event schema evolution should preserve:
 
@@ -1091,9 +1095,9 @@ CRITICAL FIELD MEANING
 
 unless an explicit migration contract defines the change.
 
----
+______________________________________________________________________
 
-# 43. Event Transformation
+## 43. Event Transformation
 
 A transformer may create:
 
@@ -1111,9 +1115,9 @@ E2 DERIVED_FROM E1
 
 Transformation does not create independent provenance.
 
----
+______________________________________________________________________
 
-# 44. Validation Stages
+## 44. Validation Stages
 
 Event validation may occur at several layers:
 
@@ -1131,9 +1135,9 @@ Not every event requires every stage.
 
 Validation depth should scale with consequence.
 
----
+______________________________________________________________________
 
-# 45. Structural Validation
+## 45. Structural Validation
 
 Checks may include:
 
@@ -1147,9 +1151,9 @@ PAYLOAD STRUCTURALLY VALID
 
 Structural validity is necessary but insufficient for semantic truth.
 
----
+______________________________________________________________________
 
-# 46. Semantic Validation
+## 46. Semantic Validation
 
 Semantic validation asks whether:
 
@@ -1164,9 +1168,9 @@ are mutually coherent.
 
 A schema-valid event may still be semantically invalid.
 
----
+______________________________________________________________________
 
-# 47. Provenance Validation
+## 47. Provenance Validation
 
 For consequential events, verify where required:
 
@@ -1180,9 +1184,9 @@ DEPENDENCIES AVAILABLE
 
 Failure should downgrade or reject according to policy.
 
----
+______________________________________________________________________
 
-# 48. Authority Validation
+## 48. Authority Validation
 
 Authority checks belong to governed action boundaries.
 
@@ -1202,9 +1206,9 @@ VALID AUTHORITY
 
 The control plane must resolve authority.
 
----
+______________________________________________________________________
 
-# 49. Event Acceptance
+## 49. Event Acceptance
 
 Consumers may return:
 
@@ -1220,9 +1224,9 @@ Acceptance means the event is eligible for the consumer's processing contract.
 
 It does not mean every claim inside it is verified.
 
----
+______________________________________________________________________
 
-# 50. Quarantine
+## 50. Quarantine
 
 Events with uncertain integrity may be isolated.
 
@@ -1240,9 +1244,9 @@ UNKNOWN AUTHORITY
 
 Quarantine preserves evidence without allowing unsafe processing.
 
----
+______________________________________________________________________
 
-# 51. Dead-Letter Semantics
+## 51. Dead-Letter Semantics
 
 Events that cannot be processed after governed retry may enter a dead-letter or failure channel.
 
@@ -1262,9 +1266,9 @@ DEAD LETTER
 
 Dead-lettering must preserve the original event and failure lineage where required.
 
----
+______________________________________________________________________
 
-# 52. Retry
+## 52. Retry
 
 Retries should be bounded and policy-governed.
 
@@ -1278,9 +1282,9 @@ PERMANENT SCHEMA FAILURE
 → RETRY WITHOUT CHANGE IS USELESS
 ```
 
----
+______________________________________________________________________
 
-# 53. Failed Path Rule
+## 53. Failed Path Rule
 
 Do not repeat an identical failed event-processing path indefinitely.
 
@@ -1295,9 +1299,9 @@ BACKOFF WINDOW
 RECOVERED SERVICE
 ```
 
----
+______________________________________________________________________
 
-# 54. Backpressure
+## 54. Backpressure
 
 The Event Bus must conceptually allow consumers to avoid uncontrolled overload.
 
@@ -1314,9 +1318,9 @@ SHEDDING
 
 Actual mechanisms remain implementation-specific.
 
----
+______________________________________________________________________
 
-# 55. Priority
+## 55. Priority
 
 Priority may influence scheduling.
 
@@ -1336,9 +1340,9 @@ URGENT EVENT
 AUTHORIZED EVENT
 ```
 
----
+______________________________________________________________________
 
-# 56. Replay
+## 56. Replay
 
 Persisted events may support replay for:
 
@@ -1352,9 +1356,9 @@ REVALIDATION
 
 Replay must preserve original event identity or explicitly identify the replay relationship.
 
----
+______________________________________________________________________
 
-# 57. Replay Firewall
+## 57. Replay Firewall
 
 ```text
 REPLAYED EVENT
@@ -1366,9 +1370,9 @@ unless a new observation actually occurred.
 
 Replay must not create false evidence multiplicity.
 
----
+______________________________________________________________________
 
-# 58. Historical Immutability
+## 58. Historical Immutability
 
 Historical event records should not be silently rewritten.
 
@@ -1383,9 +1387,9 @@ E2
 
 rather than mutating `E1` invisibly.
 
----
+______________________________________________________________________
 
-# 59. Event Supersession
+## 59. Event Supersession
 
 An event may be superseded by another event where the domain contract permits it.
 
@@ -1397,9 +1401,9 @@ E_new
 
 Supersession does not erase historical existence.
 
----
+______________________________________________________________________
 
-# 60. Event Conflict
+## 60. Event Conflict
 
 Two events may conflict.
 
@@ -1424,9 +1428,9 @@ PROVENANCE
 
 Do not resolve merely by arrival order unless the contract explicitly licenses it.
 
----
+______________________________________________________________________
 
-# 61. Competing Events
+## 61. Competing Events
 
 When incompatible events remain equally or incomparably supported:
 
@@ -1444,9 +1448,9 @@ COMPETING
 
 until discriminating evidence exists.
 
----
+______________________________________________________________________
 
-# 62. Event Dependency
+## 62. Event Dependency
 
 An event may depend upon:
 
@@ -1462,9 +1466,9 @@ EXTERNAL OBSERVATIONS
 
 Load-bearing dependencies should be explicit where possible.
 
----
+______________________________________________________________________
 
-# 63. Dependency Invalidation
+## 63. Dependency Invalidation
 
 If:
 
@@ -1484,9 +1488,9 @@ according to the dependency semantics.
 
 Independent events remain unaffected.
 
----
+______________________________________________________________________
 
-# 64. Selective Invalidation
+## 64. Selective Invalidation
 
 Example:
 
@@ -1506,9 +1510,9 @@ PRESERVE E4
 
 Do not globally invalidate unrelated event history.
 
----
+______________________________________________________________________
 
-# 65. Atomic Multi-Event Reasoning
+## 65. Atomic Multi-Event Reasoning
 
 Some decisions depend on several events as one load-bearing set.
 
@@ -1522,9 +1526,9 @@ If partial evaluation could produce an invalid result, evaluate the relevant dep
 
 This does not imply universal distributed locking.
 
----
+______________________________________________________________________
 
-# 66. Local Fast Path
+## 66. Local Fast Path
 
 An event may be processed locally without global coordination when the required conditions are established:
 
@@ -1539,9 +1543,9 @@ NO CROSS-SHARD CAUSAL DEPENDENCY
 NO GOVERNANCE ESCALATION
 ```
 
----
+______________________________________________________________________
 
-# 67. Coordination Avoidance
+## 67. Coordination Avoidance
 
 AMOS v4.4 favors proof-based coordination avoidance.
 
@@ -1560,9 +1564,9 @@ IS UNNECESSARY
 
 Independence must be demonstrated, not assumed.
 
----
+______________________________________________________________________
 
-# 68. Escalation
+## 68. Escalation
 
 Global or broader coordination becomes necessary when events involve:
 
@@ -1577,9 +1581,9 @@ AUTHORITY CHANGE
 IRREVERSIBLE EFFECT
 ```
 
----
+______________________________________________________________________
 
-# 69. Shard-Local Events
+## 69. Shard-Local Events
 
 Where AMOS uses logical shards:
 
@@ -1591,9 +1595,9 @@ may process locally scoped events when dependency closure is shard-local.
 
 A shard-local result must not be generalized globally without proof of independence or explicit finalization.
 
----
+______________________________________________________________________
 
-# 70. Shard-Local Finalization
+## 70. Shard-Local Finalization
 
 Conceptually:
 
@@ -1613,9 +1617,9 @@ This represents a v4.4 architectural pattern.
 
 It is not a claim of deployed distributed consensus behavior.
 
----
+______________________________________________________________________
 
-# 71. Event Bus and Context
+## 71. Event Bus and Context
 
 Events enter bounded contexts.
 
@@ -1631,9 +1635,9 @@ The Event Bus transports events.
 
 `K_CONTEXT_STATE` determines whether an event belongs in the active reasoning context.
 
----
+______________________________________________________________________
 
-# 72. Event Bus and Memory
+## 72. Event Bus and Memory
 
 Events may be persisted to memory.
 
@@ -1647,9 +1651,9 @@ MEMORY TRUTH
 
 A historical event must still satisfy current validity requirements when reused.
 
----
+______________________________________________________________________
 
-# 73. Event Bus and Knowledge
+## 73. Event Bus and Knowledge
 
 Knowledge-bearing events may produce candidate knowledge artifacts.
 
@@ -1669,9 +1673,9 @@ EVENT RECEIVED
 KNOWLEDGE VALIDATED
 ```
 
----
+______________________________________________________________________
 
-# 74. Event Bus and Runtime
+## 74. Event Bus and Runtime
 
 The runtime may implement:
 
@@ -1694,9 +1698,9 @@ K_EVENT_BUS
 RUNTIME MESSAGE BROKER
 ```
 
----
+______________________________________________________________________
 
-# 75. Event Bus and Control Plane
+## 75. Event Bus and Control Plane
 
 The control plane governs:
 
@@ -1711,9 +1715,9 @@ The Event Bus transports information relevant to these operations.
 
 It does not replace the control plane.
 
----
+______________________________________________________________________
 
-# 76. Event Bus and Agents
+## 76. Event Bus and Agents
 
 Agents may:
 
@@ -1727,9 +1731,9 @@ within their contracts.
 
 Agents must not treat event visibility as global authority.
 
----
+______________________________________________________________________
 
-# 77. Event Bus and Skills
+## 77. Event Bus and Skills
 
 Skills may emit structured lifecycle events such as:
 
@@ -1743,9 +1747,9 @@ These events describe execution state.
 
 They do not establish correctness unless validated separately.
 
----
+______________________________________________________________________
 
-# 78. Event Bus and Workflows
+## 78. Event Bus and Workflows
 
 Workflows may use events for transitions:
 
@@ -1757,9 +1761,9 @@ STEP_B_ELIGIBLE
 
 Eligibility must remain distinct from authorization and successful execution.
 
----
+______________________________________________________________________
 
-# 79. Event Bus and Tools
+## 79. Event Bus and Tools
 
 External tool results may enter AMOS through events.
 
@@ -1775,9 +1779,9 @@ TOOL_RESULT_EVENT
 
 External results remain typed evidence and must retain provenance.
 
----
+______________________________________________________________________
 
-# 80. Event Bus and Observability
+## 80. Event Bus and Observability
 
 Operational event streams may support:
 
@@ -1791,9 +1795,9 @@ AUDIT
 
 But observability records are not automatically canonical state.
 
----
+______________________________________________________________________
 
-# 81. Security Boundary
+## 81. Security Boundary
 
 Event transport must respect:
 
@@ -1810,9 +1814,9 @@ where required.
 
 Security-sensitive payloads should not be broadcast beyond their authorized boundary.
 
----
+______________________________________________________________________
 
-# 82. Untrusted Events
+## 82. Untrusted Events
 
 External or insufficiently authenticated events should be marked accordingly.
 
@@ -1824,9 +1828,9 @@ may be retained for analysis.
 
 It must not silently enter trusted execution paths.
 
----
+______________________________________________________________________
 
-# 83. Event Integrity
+## 83. Event Integrity
 
 Where integrity verification is required, events may carry:
 
@@ -1847,9 +1851,9 @@ VALID SIGNATURE
 TRUE PAYLOAD
 ```
 
----
+______________________________________________________________________
 
-# 84. Event Confidentiality
+## 84. Event Confidentiality
 
 Payload visibility should follow least-authority principles.
 
@@ -1861,9 +1865,9 @@ VISIBLE TO EVERY CONSUMER
 
 Routing and access control remain distinct.
 
----
+______________________________________________________________________
 
-# 85. Event Lifecycle
+## 85. Event Lifecycle
 
 ```text
 CREATE
@@ -1895,9 +1899,9 @@ SUPERSEDE
 INVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 86. Event Status
+## 86. Event Status
 
 Recommended lifecycle states:
 
@@ -1920,9 +1924,9 @@ ARCHIVED
 
 These are event lifecycle states, not epistemic conclusion classes.
 
----
+______________________________________________________________________
 
-# 87. Event Bus Invariants
+## 87. Event Bus Invariants
 
 ```text
 EB-01
@@ -2001,9 +2005,9 @@ EB-25
 UNKNOWN/GAP MUST NOT BECOME PASS
 ```
 
----
+______________________________________________________________________
 
-# 88. Failure Modes
+## 88. Failure Modes
 
 ```text
 EVENT_AS_COMMAND
@@ -2035,9 +2039,9 @@ GLOBAL_INVALIDATION
 UNKNOWN_AS_PASS
 ```
 
----
+______________________________________________________________________
 
-# 89. Conceptual Event Publisher
+## 89. Conceptual Event Publisher
 
 ```python
 def publish_event(event, context):
@@ -2055,9 +2059,9 @@ def publish_event(event, context):
 
 This is architectural pseudocode, not verified implementation.
 
----
+______________________________________________________________________
 
-# 90. Conceptual Event Consumer
+## 90. Conceptual Event Consumer
 
 ```python
 def consume_event(event, context):
@@ -2082,9 +2086,9 @@ def consume_event(event, context):
     return process(event, context)
 ```
 
----
+______________________________________________________________________
 
-# 91. Conceptual Consequential Handler
+## 91. Conceptual Consequential Handler
 
 ```python
 def handle_consequential_event(event, context):
@@ -2100,9 +2104,9 @@ def handle_consequential_event(event, context):
     return guarded_commit(proposal)
 ```
 
----
+______________________________________________________________________
 
-# 92. Conceptual Selective Invalidation
+## 92. Conceptual Selective Invalidation
 
 ```python
 def invalidate_event(event_id, dependency_graph):
@@ -2116,9 +2120,9 @@ def invalidate_event(event_id, dependency_graph):
 
 The implementation should preserve independent branches.
 
----
+______________________________________________________________________
 
-# 93. Required Tests
+## 93. Required Tests
 
 Future implementation verification should include:
 
@@ -2155,9 +2159,9 @@ RECOVERY TEST
 AUDIT-RECONSTRUCTION TEST
 ```
 
----
+______________________________________________________________________
 
-# 94. Negative Tests
+## 94. Negative Tests
 
 ```text
 EVENT RECEIVED
@@ -2231,9 +2235,9 @@ PASS
 MUST FAIL
 ```
 
----
+______________________________________________________________________
 
-# 95. Promotion Gate
+## 95. Promotion Gate
 
 Before promotion beyond `AMOS_MODEL`:
 
@@ -2279,9 +2283,9 @@ EMPIRICAL_VALIDATION = UNKNOWN/GAP
 FORMAL_VERIFICATION = UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 96. Integrity Note
+## 96. Integrity Note
 
 This artifact replaces the repository placeholder with an AMOS v4.4-aligned Event Bus architecture model.
 
@@ -2320,9 +2324,9 @@ FORMAL_VERIFICATION = UNKNOWN/GAP
 RUNTIME_AUTHORITY = NONE
 ```
 
----
+______________________________________________________________________
 
-# 97. RSCF Node
+## 97. RSCF Node
 
 ```RSCF-NODE
 node_id: AMOS-OS-K-EVENT-BUS
@@ -2373,9 +2377,9 @@ RSCF-RELATIONS:
   - VERIFIED_BY: README
 ```
 
----
+______________________________________________________________________
 
-# 98. Canonical Summary
+## 98. Canonical Summary
 
 ```text
 PRODUCER
@@ -2541,12 +2545,14 @@ README
 ```text
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 **MOC:** [[02_KERNEL/04_STATE/04_STATE_MOC|04_STATE_MOC]]

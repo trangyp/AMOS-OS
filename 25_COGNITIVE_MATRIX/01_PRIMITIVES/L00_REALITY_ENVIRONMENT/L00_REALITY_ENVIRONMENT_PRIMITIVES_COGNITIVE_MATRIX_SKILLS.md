@@ -1,22 +1,25 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: L00_REALITY_ENVIRONMENT — Skills
 type: skill
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT
 tags:
-- amos
-- reality-environment
-- skills
-- capability
-- routing
-- evidence
-- provenance
-- rscf
-- governance
-- hml
-- control-plane
-- validation
-- domain/cognitive-matrix
-- skill
+  - amos
+  - reality-environment
+  - skills
+  - capability
+  - routing
+  - evidence
+  - provenance
+  - rscf
+  - governance
+  - hml
+  - control-plane
+  - validation
+  - domain/cognitive-matrix
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -30,9 +33,9 @@ rscf:
 **Origin architect / steward:** Trang Phan
 **Status:** `ARCHITECTURE CONTRACT / IMPLEMENTATION-DEPENDENT`
 
----
+______________________________________________________________________
 
-# 1. Purpose
+## 1. Purpose
 
 `L00_REALITY_ENVIRONMENT / SKILLS` defines the contract by which AMOS capabilities may inspect, measure, interpret, model, validate, compare, simulate, repair, or otherwise operate on representations of the reality/environment layer.
 
@@ -91,78 +94,75 @@ The purpose of the L00 skill layer is therefore to ensure that capabilities inte
 - governance;
 - reversibility where required.
 
----
+______________________________________________________________________
 
-# 2. Definition
+## 2. Definition
 
 A skill is a typed reusable capability that transforms admissible inputs into bounded outputs under explicit assumptions, dependencies, constraints, and governance.
 
 Conceptually:
 
-[
-\boxed{
-Skill
-=====
+## \[ \\boxed{ Skill
 
 Capability
-+
+\+
 InputContract
-+
+\+
 Transformation
-+
+\+
 OutputContract
-+
+\+
 Dependencies
-+
+\+
 Constraints
-+
+\+
 EvidenceRequirements
-+
+\+
 Governance
 }
-]
+\]
 
-For skill \(S\):
+For skill (S):
 
-[
-\boxed{
+\[
+\\boxed{
 S:
 X_S
-\rightarrow
+\\rightarrow
 Y_S
 }
-]
+\]
 
 only when its preconditions are satisfied.
 
 A more complete AMOS representation is:
 
-[
-\boxed{
+\[
+\\boxed{
 S(X,C,E,G)
-\rightarrow
+\\rightarrow
 (Y,P,U)
 }
-]
+\]
 
 where:
 
-- \(X\) = typed inputs;
-- \(C\) = context and constraints;
-- \(E\) = evidence/provenance state;
-- \(G\) = governance state;
-- \(Y\) = output;
-- \(P\) = resulting provenance;
-- \(U\) = uncertainty.
+- (X) = typed inputs;
+- (C) = context and constraints;
+- (E) = evidence/provenance state;
+- (G) = governance state;
+- (Y) = output;
+- (P) = resulting provenance;
+- (U) = uncertainty.
 
----
+______________________________________________________________________
 
-# 3. Skill Tensor
+## 3. Skill Tensor
 
-[
-\boxed{
+\[
+\\boxed{
 T_S =
-T[
+T\[
 skill_id,
 class,
 capability,
@@ -184,20 +184,17 @@ validators,
 falsifiers,
 version,
 state
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 4. Skill Identity Tensor
+## 4. Skill Identity Tensor
 
-[
-\boxed{
-T_{SI}
-======
+## \[ \\boxed{ T\_{SI}
 
-T[
+T\[
 skill_id,
 name,
 family,
@@ -209,9 +206,9 @@ implementation,
 validation,
 license,
 hash
-]
+\]
 }
-]
+\]
 
 Skill identity must distinguish:
 
@@ -226,9 +223,9 @@ skill output
 
 These are not interchangeable.
 
----
+______________________________________________________________________
 
-# 5. Skill State
+## 5. Skill State
 
 A skill may occupy states such as:
 
@@ -264,16 +261,13 @@ ADDRESSABLE != AVAILABLE
 AVAILABLE != AUTHORIZED
 ```
 
----
+______________________________________________________________________
 
-# 6. Skill Capability Tensor
+## 6. Skill Capability Tensor
 
-[
-\boxed{
-T_{Cap}
-=======
+## \[ \\boxed{ T\_{Cap}
 
-T[
+T\[
 capability,
 operation_class,
 target,
@@ -283,9 +277,9 @@ external_effects,
 resource_requirements,
 risk,
 authority
-]
+\]
 }
-]
+\]
 
 Possible operation classes include:
 
@@ -311,19 +305,19 @@ COMMIT
 ROLLBACK
 ```
 
----
+______________________________________________________________________
 
-# 7. Capability / Authority Firewall
+## 7. Capability / Authority Firewall
 
 Capability does not imply permission.
 
-[
-\boxed{
+\[
+\\boxed{
 Capability(S,A)
-\not\Rightarrow
+\\not\\Rightarrow
 Authorized(S,A)
 }
-]
+\]
 
 Hard boundary:
 
@@ -343,16 +337,13 @@ AUTHORITY
 
 An execution-capable skill must still pass the relevant authority and governance controls.
 
----
+______________________________________________________________________
 
-# 8. Skill Input Tensor
+## 8. Skill Input Tensor
 
-[
-\boxed{
-T_{IN}
-======
+## \[ \\boxed{ T\_{IN}
 
-T[
+T\[
 input_id,
 type,
 semantic_meaning,
@@ -365,22 +356,19 @@ units,
 provenance,
 confidence,
 validation_state
-]
+\]
 }
-]
+\]
 
 Inputs must be semantically typed before composition.
 
----
+______________________________________________________________________
 
-# 9. Skill Output Tensor
+## 9. Skill Output Tensor
 
-[
-\boxed{
-T_{OUT}
-=======
+## \[ \\boxed{ T\_{OUT}
 
-T[
+T\[
 output_id,
 type,
 epistemic_class,
@@ -393,9 +381,9 @@ dependencies,
 uncertainty,
 confidence_ceiling,
 governance_state
-]
+\]
 }
-]
+\]
 
 Every consequential skill output must expose its epistemic class.
 
@@ -413,16 +401,13 @@ EXECUTION_OBSERVATION
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 10. Skill Precondition Tensor
+## 10. Skill Precondition Tensor
 
-[
-\boxed{
-T_{PRE}
-=======
+## \[ \\boxed{ T\_{PRE}
 
-T[
+T\[
 skill,
 required_inputs,
 required_evidence,
@@ -432,32 +417,29 @@ required_regime,
 required_authority,
 required_resources,
 required_dependencies
-]
+\]
 }
-]
+\]
 
 Invocation is admissible only if required preconditions pass.
 
-[
-\boxed{
+\[
+\\boxed{
 Invoke(S)
-\Rightarrow
+\\Rightarrow
 Preconditions(S)=PASS
 }
-]
+\]
 
 where applicable.
 
----
+______________________________________________________________________
 
-# 11. Skill Postcondition Tensor
+## 11. Skill Postcondition Tensor
 
-[
-\boxed{
-T_{POST}
-========
+## \[ \\boxed{ T\_{POST}
 
-T[
+T\[
 skill,
 expected_output,
 state_change,
@@ -466,17 +448,17 @@ provenance_created,
 effects,
 rollback_state,
 validation
-]
+\]
 }
-]
+\]
 
 A declared postcondition is a contract target.
 
 It is not evidence that the postcondition actually occurred.
 
----
+______________________________________________________________________
 
-# 12. Skill Contract
+## 12. Skill Contract
 
 Every L00-compatible skill should expose a contract resembling:
 
@@ -544,9 +526,9 @@ skill_contract:
   gap_status:
 ```
 
----
+______________________________________________________________________
 
-# 13. Reality-Grounding Requirement
+## 13. Reality-Grounding Requirement
 
 A skill interacting with L00 must preserve the distinction between:
 
@@ -566,9 +548,9 @@ EFFECT
 
 No skill may silently collapse these classes.
 
----
+______________________________________________________________________
 
-# 14. Reality Skill Classes
+## 14. Reality Skill Classes
 
 L00 skills may be organized into capability families.
 
@@ -595,20 +577,20 @@ REALITY SKILLS
 └── Recovery
 ```
 
----
+______________________________________________________________________
 
-# 15. Observation Skills
+## 15. Observation Skills
 
 Observation skills transform accessible environmental state into explicit observations.
 
-[
-\boxed{
-S_{obs}:
+\[
+\\boxed{
+S\_{obs}:
 Environment
-\rightarrow
+\\rightarrow
 Observation
 }
-]
+\]
 
 Required preservation:
 
@@ -625,20 +607,20 @@ provenance
 
 Observation skills must not automatically produce causal explanations.
 
----
+______________________________________________________________________
 
-# 16. Measurement Skills
+## 16. Measurement Skills
 
 Measurement skills transform observations into quantified or classified measurements.
 
-[
-\boxed{
-S_{measure}:
+\[
+\\boxed{
+S\_{measure}:
 Observation
-\rightarrow
+\\rightarrow
 Measurement
 }
-]
+\]
 
 Required fields may include:
 
@@ -655,20 +637,20 @@ time
 provenance
 ```
 
----
+______________________________________________________________________
 
-# 17. Retrieval Skills
+## 17. Retrieval Skills
 
 Retrieval skills locate potentially relevant information.
 
-[
-\boxed{
-S_{retrieve}:
+\[
+\\boxed{
+S\_{retrieve}:
 Query
-\rightarrow
+\\rightarrow
 CandidateEvidenceSet
 }
-]
+\]
 
 Retrieval does not imply validation.
 
@@ -686,20 +668,20 @@ RANKED HIGH
 HIGH EVIDENCE QUALITY
 ```
 
----
+______________________________________________________________________
 
-# 18. Evidence Skills
+## 18. Evidence Skills
 
 Evidence skills convert admissible source material or observations into typed evidence objects.
 
-[
-\boxed{
+\[
+\\boxed{
 S_E:
 Source
-\rightarrow
+\\rightarrow
 T_E
 }
-]
+\]
 
 Required operations include:
 
@@ -714,20 +696,20 @@ Required operations include:
 - detect revocation;
 - quarantine contaminated evidence.
 
----
+______________________________________________________________________
 
-# 19. Provenance Skills
+## 19. Provenance Skills
 
 Provenance skills reconstruct evidence lineage.
 
-[
-\boxed{
+\[
+\\boxed{
 S_P:
 Evidence
-\rightarrow
+\\rightarrow
 ProvenanceGraph
 }
-]
+\]
 
 They should resolve:
 
@@ -743,9 +725,9 @@ revocation state
 license/IP state
 ```
 
----
+______________________________________________________________________
 
-# 20. Provenance Independence
+## 20. Provenance Independence
 
 Multiple skills consuming the same evidence root do not generate independent evidence.
 
@@ -765,22 +747,22 @@ Skill C → output of Skill A
 
 then material evidence ancestry may remain rooted in `Source X`.
 
----
+______________________________________________________________________
 
-# 21. Validation Skills
+## 21. Validation Skills
 
 Validation skills test whether a claim, artifact, model, state, or output satisfies declared criteria.
 
-[
-\boxed{
+\[
+\\boxed{
 S_V:
 Candidate
-\times
+\\times
 ValidationContract
-\rightarrow
+\\rightarrow
 ValidationResult
 }
-]
+\]
 
 Possible results:
 
@@ -794,50 +776,50 @@ UNKNOWN/GAP
 
 `PASS_WITHIN_SCOPE` must not be shortened conceptually to universal truth.
 
----
+______________________________________________________________________
 
-# 22. Falsification Skills
+## 22. Falsification Skills
 
 Falsification skills search for evidence that would invalidate or downgrade a claim.
 
-[
-\boxed{
+\[
+\\boxed{
 S_F:
 Claim
-\rightarrow
+\\rightarrow
 CounterEvidence
 }
-]
+\]
 
 or:
 
-[
-\boxed{
+\[
+\\boxed{
 S_F:
 Claim
-\times
+\\times
 FalsifierSet
-\rightarrow
+\\rightarrow
 FalsifierStatus
 }
-]
+\]
 
 These skills should be structurally distinct from pure confirmation workflows where possible.
 
----
+______________________________________________________________________
 
-# 23. Contradiction Skills
+## 23. Contradiction Skills
 
 Contradiction skills identify incompatible claims or evidence.
 
-[
-\boxed{
+\[
+\\boxed{
 S_X:
 {C_i}
-\rightarrow
+\\rightarrow
 ContradictionSet
 }
-]
+\]
 
 They should distinguish:
 
@@ -852,20 +834,20 @@ APPARENT
 UNRESOLVED
 ```
 
----
+______________________________________________________________________
 
-# 24. Scope Skills
+## 24. Scope Skills
 
 Scope skills determine whether evidence or conclusions apply to the target object.
 
-[
-\boxed{
-S_{scope}:
+\[
+\\boxed{
+S\_{scope}:
 (E,C)
-\rightarrow
+\\rightarrow
 Compatibility
 }
-]
+\]
 
 Possible outputs:
 
@@ -876,37 +858,37 @@ INCOMPATIBLE
 UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 25. Regime Skills
+## 25. Regime Skills
 
 Regime skills detect and compare operating regimes.
 
-[
-\boxed{
+\[
+\\boxed{
 S_R:
 State_t
-\rightarrow
+\\rightarrow
 Regime_t
 }
-]
+\]
 
 and:
 
-[
-\boxed{
-S_{\Delta R}:
-(Regime_t,Regime_{t+1})
-\rightarrow
+\[
+\\boxed{
+S\_{\\Delta R}:
+(Regime_t,Regime\_{t+1})
+\\rightarrow
 RegimeShift
 }
-]
+\]
 
 A material regime shift may invalidate dependent skill outputs.
 
----
+______________________________________________________________________
 
-# 26. Temporal Skills
+## 26. Temporal Skills
 
 Temporal skills reason about:
 
@@ -922,16 +904,13 @@ commit time
 
 They must prevent future information from contaminating historical inference where timestamp integrity matters.
 
----
+______________________________________________________________________
 
-# 27. Freshness Skills
+## 27. Freshness Skills
 
 Freshness is claim-relative.
 
-[
-\boxed{
-Freshness(E,C,t)
-================
+## \[ \\boxed{ Freshness(E,C,t)
 
 f(
 Age,
@@ -940,13 +919,13 @@ Regime,
 DecisionHorizon
 )
 }
-]
+\]
 
 A freshness skill should not simply rank sources by publication date.
 
----
+______________________________________________________________________
 
-# 28. Causal Skills
+## 28. Causal Skills
 
 Causal skills may analyze:
 
@@ -972,19 +951,19 @@ SEMANTIC RELATION
 CAUSAL RELATION
 ```
 
----
+______________________________________________________________________
 
-# 29. Causal Promotion Gate
+## 29. Causal Promotion Gate
 
-For relation (R_{ij}):
+For relation (R\_{ij}):
 
-[
-\boxed{
-PromoteToCausal(R_{ij})
-\Rightarrow
-SuitableCausalEvidence(R_{ij})
+\[
+\\boxed{
+PromoteToCausal(R\_{ij})
+\\Rightarrow
+SuitableCausalEvidence(R\_{ij})
 }
-]
+\]
 
 Without adequate support:
 
@@ -992,22 +971,22 @@ Without adequate support:
 CAUSAL STATUS = MODEL / CONDITIONAL / UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 30. Modeling Skills
+## 30. Modeling Skills
 
 Modeling skills construct representations.
 
-[
-\boxed{
+\[
+\\boxed{
 S_M:
 Evidence
-\times
+\\times
 Assumptions
-\rightarrow
+\\rightarrow
 Model
 }
-]
+\]
 
 A modeling skill must preserve:
 
@@ -1021,24 +1000,24 @@ limitations
 provenance
 ```
 
----
+______________________________________________________________________
 
-# 31. Simulation Skills
+## 31. Simulation Skills
 
 Simulation skills execute models under defined conditions.
 
-[
-\boxed{
-S_{sim}:
+\[
+\\boxed{
+S\_{sim}:
 Model
-\times
+\\times
 InitialState
-\times
+\\times
 Parameters
-\rightarrow
+\\rightarrow
 SimulatedTrajectory
 }
-]
+\]
 
 Hard boundary:
 
@@ -1048,22 +1027,22 @@ SIMULATED TRAJECTORY
 OBSERVED TRAJECTORY
 ```
 
----
+______________________________________________________________________
 
-# 32. Prediction Skills
+## 32. Prediction Skills
 
 Prediction skills produce future or unobserved estimates.
 
-[
-\boxed{
-S_{pred}:
+\[
+\\boxed{
+S\_{pred}:
 State_t
-\times
+\\times
 Model
-\rightarrow
-\hat{State}_{t+h}
+\\rightarrow
+\\hat{State}\_{t+h}
 }
-]
+\]
 
 They should retain:
 
@@ -1080,24 +1059,24 @@ falsifier
 outcome status
 ```
 
----
+______________________________________________________________________
 
-# 33. Decision Skills
+## 33. Decision Skills
 
 Decision skills transform evidence and objectives into proposals.
 
-[
-\boxed{
+\[
+\\boxed{
 S_D:
 Evidence
-\times
+\\times
 Objectives
-\times
+\\times
 Constraints
-\rightarrow
+\\rightarrow
 DecisionProposal
 }
-]
+\]
 
 Hard boundary:
 
@@ -1107,43 +1086,43 @@ DECISION PROPOSAL
 COMMITTED ACTION
 ```
 
----
+______________________________________________________________________
 
-# 34. Execution Skills
+## 34. Execution Skills
 
 Execution skills may alter system or environment state.
 
-[
-\boxed{
+\[
+\\boxed{
 S_X:
 ActionProposal
-\times
+\\times
 Authority
-\times
+\\times
 ControlState
-\rightarrow
+\\rightarrow
 Effect
 }
-]
+\]
 
 Execution requires stronger governance than analysis.
 
----
+______________________________________________________________________
 
-# 35. Repair Skills
+## 35. Repair Skills
 
 Repair skills restore failed or degraded state.
 
-[
-\boxed{
-S_{repair}:
+\[
+\\boxed{
+S\_{repair}:
 FailureState
-\times
+\\times
 RepairPlan
-\rightarrow
+\\rightarrow
 CandidateRecoveredState
 }
-]
+\]
 
 Repair completion requires validation.
 
@@ -1153,20 +1132,20 @@ REPAIR EXECUTED
 RECOVERY VERIFIED
 ```
 
----
+______________________________________________________________________
 
-# 36. Recovery Skills
+## 36. Recovery Skills
 
 Recovery skills validate whether the system has returned to an acceptable operating envelope.
 
-[
-\boxed{
-S_{recover}:
+\[
+\\boxed{
+S\_{recover}:
 CandidateRecoveredState
-\rightarrow
+\\rightarrow
 RecoveryAssessment
 }
-]
+\]
 
 Possible outputs:
 
@@ -1178,14 +1157,14 @@ FAILED
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 37. Skill Dependency Tensor
+## 37. Skill Dependency Tensor
 
-[
-\boxed{
+\[
+\\boxed{
 T_D =
-T[
+T\[
 skill,
 dependency,
 dependency_type,
@@ -1195,9 +1174,9 @@ scope,
 regime,
 provenance,
 criticality
-]
+\]
 }
-]
+\]
 
 Dependency classes include:
 
@@ -1214,64 +1193,58 @@ AUTHORITY
 ENVIRONMENT
 ```
 
----
+______________________________________________________________________
 
-# 38. Dependency Invariant
+## 38. Dependency Invariant
 
 A skill cannot be considered validly executable when a load-bearing dependency is unavailable, incompatible, revoked, or invalid.
 
-[
-\boxed{
+\[
+\\boxed{
 Executable(S)
-\Rightarrow
-\bigwedge_{d\in LB(S)}
+\\Rightarrow
+\\bigwedge\_{d\\in LB(S)}
 Valid(d)
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 39. Skill Composition
+## 39. Skill Composition
 
-For skills (S_1,S_2,\ldots,S_n):
+For skills (S_1,S_2,\\ldots,S_n):
 
-[
-\boxed{
-S_C
-===
+## \[ \\boxed{ S_C
 
-S_n\circ...\circ S_2\circ S_1
+S_n\\circ...\\circ S_2\\circ S_1
 }
-]
+\]
 
 is permitted only when interfaces are compatible.
 
----
+______________________________________________________________________
 
-# 40. Skill Composition Compatibility
+## 40. Skill Composition Compatibility
 
-[
-\boxed{
-Compatible(S_i,S_j)
-===================
+## \[ \\boxed{ Compatible(S_i,S_j)
 
 TypeMatch
-\land
+\\land
 SemanticMatch
-\land
+\\land
 ScopeMatch
-\land
+\\land
 RegimeMatch
-\land
+\\land
 GovernanceMatch
 }
-]
+\]
 
 where required.
 
----
+______________________________________________________________________
 
-# 41. Typed Tensor Compatibility
+## 41. Typed Tensor Compatibility
 
 Composition is prohibited until shared tensor axes are semantically compatible.
 
@@ -1295,49 +1268,46 @@ confidence(decision)
 
 without an explicit mapping.
 
----
+______________________________________________________________________
 
-# 42. Skill Routing
+## 42. Skill Routing
 
 Skill routing should choose the smallest sufficient capability path.
 
 Conceptually:
 
-[
-\boxed{
-S^*
-===
+## \[ \\boxed{ S^\*
 
-\arg\min_{S}
+\\arg\\min\_{S}
 Cost(S)
 }
-]
+\]
 
 subject to:
 
-[
-\boxed{
+\[
+\\boxed{
 CapabilitySufficient(S)=1
 }
-]
+\]
 
-[
-\boxed{
+\[
+\\boxed{
 Integrity(S)=1
 }
-]
+\]
 
-[
-\boxed{
+\[
+\\boxed{
 GovernanceCompatible(S)=1
 }
-]
+\]
 
 This is an AMOS MODEL optimization relation.
 
----
+______________________________________________________________________
 
-# 43. Routing Priority
+## 43. Routing Priority
 
 Preferred routing order:
 
@@ -1352,9 +1322,9 @@ Preferred routing order:
 8. escalate only if necessary
 ```
 
----
+______________________________________________________________________
 
-# 44. Escalation Conditions
+## 44. Escalation Conditions
 
 Escalate skill depth when:
 
@@ -1372,9 +1342,9 @@ authority becomes relevant
 output could create durable effects
 ```
 
----
+______________________________________________________________________
 
-# 45. H/M/L Skill Architecture
+## 45. H/M/L Skill Architecture
 
 Skills may operate at:
 
@@ -1384,9 +1354,9 @@ M — subsystem/process level
 L — local/evidence/operation level
 ```
 
----
+______________________________________________________________________
 
-# 46. H-Level Skills
+## 46. H-Level Skills
 
 H-level skills may include:
 
@@ -1402,9 +1372,9 @@ control-plane orchestration
 
 H-level skills should not bypass M/L evidence dependencies.
 
----
+______________________________________________________________________
 
-# 47. M-Level Skills
+## 47. M-Level Skills
 
 M-level skills may include:
 
@@ -1418,9 +1388,9 @@ evidence aggregation
 repair planning
 ```
 
----
+______________________________________________________________________
 
-# 48. L-Level Skills
+## 48. L-Level Skills
 
 L-level skills may include:
 
@@ -1436,19 +1406,19 @@ hash checking
 local comparison
 ```
 
----
+______________________________________________________________________
 
-# 49. Cross-Scale Skill Rule
+## 49. Cross-Scale Skill Rule
 
-[
-\boxed{
+\[
+\\boxed{
 L
-\rightarrow
+\\rightarrow
 M
-\rightarrow
+\\rightarrow
 H
 }
-]
+\]
 
 requires explicit transformations.
 
@@ -1458,22 +1428,19 @@ LOCAL SKILL SUCCESS
 SYSTEM VALIDITY
 ```
 
----
+______________________________________________________________________
 
-# 50. H/M/L Output Promotion
+## 50. H/M/L Output Promotion
 
-For output \(O_L\):
+For output (O_L):
 
-[
-\boxed{
-O_H
-===
+## \[ \\boxed{ O_H
 
 F_H(
 F_M(O_L)
 )
 }
-]
+\]
 
 Each transformation must preserve:
 
@@ -1485,9 +1452,9 @@ uncertainty
 dependencies
 ```
 
----
+______________________________________________________________________
 
-# 51. Skill / Agent Distinction
+## 51. Skill / Agent Distinction
 
 An agent is an actor or worker capable of selecting or invoking skills.
 
@@ -1495,13 +1462,13 @@ A skill is a capability contract.
 
 Conceptually:
 
-[
-\boxed{
+\[
+\\boxed{
 Agent
-\xrightarrow{selects}
+\\xrightarrow{selects}
 Skill
 }
-]
+\]
 
 but:
 
@@ -1513,9 +1480,9 @@ An agent may invoke many skills.
 
 A skill may be invoked by many agents.
 
----
+______________________________________________________________________
 
-# 52. Skill / Tool Distinction
+## 52. Skill / Tool Distinction
 
 A tool is an executable interface or external capability.
 
@@ -1546,28 +1513,25 @@ TOOL SUCCESS
 TASK SUCCESS
 ```
 
----
+______________________________________________________________________
 
-# 53. Skill / Workflow Distinction
+## 53. Skill / Workflow Distinction
 
 A workflow coordinates one or more skills.
 
-[
-\boxed{
-W
-=
+## \[ \\boxed{ W
 
-(S_1,S_2,\ldots,S_n)
+(S_1,S_2,\\ldots,S_n)
 }
-]
+\]
 
 with sequencing and transition rules.
 
 A skill may itself contain a bounded internal workflow, but the concepts remain distinct.
 
----
+______________________________________________________________________
 
-# 54. Skill / Protocol Distinction
+## 54. Skill / Protocol Distinction
 
 A protocol defines interaction rules between capabilities.
 
@@ -1594,9 +1558,9 @@ provenance transfer
 authority transfer rules
 ```
 
----
+______________________________________________________________________
 
-# 55. Skill / Memory Distinction
+## 55. Skill / Memory Distinction
 
 Memory stores persistent state.
 
@@ -1616,9 +1580,9 @@ SKILL OUTPUT
 
 Memory admission requires its own governance.
 
----
+______________________________________________________________________
 
-# 56. Skill Evidence Contract
+## 56. Skill Evidence Contract
 
 A skill must distinguish evidence it consumes from evidence it creates.
 
@@ -1643,15 +1607,15 @@ evidence_contract:
     independence_not_assumed: true
 ```
 
----
+______________________________________________________________________
 
-# 57. Evidence Tensor Integration
+## 57. Evidence Tensor Integration
 
 The L00 skill layer should interoperate with:
 
-[
+\[
 T_E =
-T[
+T\[
 evidence_id,
 source_id,
 source_type,
@@ -1664,20 +1628,20 @@ measurement,
 quality,
 independence,
 revocation_state
-]
-]
+\]
+\]
 
 Skills must not discard these axes when materially relevant.
 
----
+______________________________________________________________________
 
-# 58. Claim Tensor Integration
+## 58. Claim Tensor Integration
 
 Skill outputs that assert claims should map into:
 
-[
+\[
 T_C =
-T[
+T\[
 claim_id,
 text,
 class,
@@ -1690,20 +1654,18 @@ causal_level,
 competing_set,
 falsifiers,
 confidence_ceiling
-]
-]
+\]
+\]
 
----
+______________________________________________________________________
 
-# 59. Relation Tensor Integration
+## 59. Relation Tensor Integration
 
 Skill-generated relations should map into:
 
-[
-R_{ij}
-======
+## \[ R\_{ij}
 
-T[
+T\[
 type,
 direction,
 strength,
@@ -1718,22 +1680,22 @@ repair_coupling,
 mutation_transfer,
 observer_variance,
 provenance
-]
-]
+\]
+\]
 
 A relation skill may propose relation type.
 
 It may not promote semantic or structural similarity to causal status without suitable evidence.
 
----
+______________________________________________________________________
 
-# 60. Universal Reasoning Tensor Integration
+## 60. Universal Reasoning Tensor Integration
 
 Skill outputs may be normalized into:
 
-[
+\[
 T_R =
-T[
+T\[
 claim,
 evidence_class,
 domain,
@@ -1745,14 +1707,14 @@ provenance,
 confidence,
 consequence,
 governance
-]
-]
+\]
+\]
 
 This enables compatibility checks across heterogeneous skills.
 
----
+______________________________________________________________________
 
-# 61. Skill Provenance
+## 61. Skill Provenance
 
 Every material skill invocation should be attributable.
 
@@ -1772,14 +1734,14 @@ output
 validation state
 ```
 
----
+______________________________________________________________________
 
-# 62. Invocation Tensor
+## 62. Invocation Tensor
 
-[
-\boxed{
+\[
+\\boxed{
 T_I =
-T[
+T\[
 invocation_id,
 skill,
 version,
@@ -1792,46 +1754,43 @@ end_time,
 output,
 status,
 provenance
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 63. Skill Output Lineage
+## 63. Skill Output Lineage
 
-For output \(O\):
+For output (O):
 
-[
-\boxed{
-Prov(O)
-=======
+## \[ \\boxed{ Prov(O)
 
 Prov(Input)
-+
+\+
 SkillIdentity
-+
+\+
 Transformation
-+
+\+
 Environment
 }
-]
+\]
 
 where applicable.
 
 Transformations must not erase upstream provenance.
 
----
+______________________________________________________________________
 
-# 64. Skill Confidence Ceiling
+## 64. Skill Confidence Ceiling
 
 Skill confidence is bounded by:
 
-[
-\boxed{
+\[
+\\boxed{
 Conf(O_S)
-\leq
-\min(
+\\leq
+\\min(
 InputCeiling,
 EvidenceCeiling,
 SkillValidationCeiling,
@@ -1840,18 +1799,18 @@ RegimeCeiling,
 ExecutionCeiling
 )
 }
-]
+\]
 
 unless independently validated.
 
----
+______________________________________________________________________
 
-# 65. Skill Uncertainty Tensor
+## 65. Skill Uncertainty Tensor
 
-[
-\boxed{
+\[
+\\boxed{
 T_U =
-T[
+T\[
 skill,
 input_uncertainty,
 evidence_uncertainty,
@@ -1861,20 +1820,20 @@ regime_uncertainty,
 temporal_uncertainty,
 execution_uncertainty,
 provenance_uncertainty
-]
+\]
 }
-]
+\]
 
 A skill should not hide material uncertainty behind a single confidence score.
 
----
+______________________________________________________________________
 
-# 66. Skill Consequence Tensor
+## 66. Skill Consequence Tensor
 
-[
-\boxed{
+\[
+\\boxed{
 T_K =
-T[
+T\[
 skill,
 effect,
 stakeholders,
@@ -1886,20 +1845,20 @@ financial,
 health,
 safety,
 institutional
-]
+\]
 }
-]
+\]
 
 Higher-consequence skills require stronger governance.
 
----
+______________________________________________________________________
 
-# 67. Skill Governance Tensor
+## 67. Skill Governance Tensor
 
-[
-\boxed{
+\[
+\\boxed{
 T_G =
-T[
+T\[
 action,
 capability,
 authority,
@@ -1909,36 +1868,33 @@ approval,
 rollback,
 evidence_threshold,
 mutation_class
-]
+\]
 }
-]
+\]
 
 This tensor governs execution eligibility rather than reasoning validity alone.
 
----
+______________________________________________________________________
 
-# 68. Skill Authorization Gate
+## 68. Skill Authorization Gate
 
-[
-\boxed{
-Execute(S)
-==========
+## \[ \\boxed{ Execute(S)
 
 Capability(S)
-\land
+\\land
 Authority(S)
-\land
+\\land
 ConstraintPass(S)
-\land
+\\land
 EvidenceThresholdPass(S)
 }
-]
+\]
 
 where execution has governed effects.
 
----
+______________________________________________________________________
 
-# 69. Proposal / Commit Firewall
+## 69. Proposal / Commit Firewall
 
 ```text
 SKILL OUTPUT
@@ -1964,9 +1920,9 @@ CONTROL PLANE
           COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 70. Control-Plane Requirements
+## 70. Control-Plane Requirements
 
 The L00 skill control plane should govern:
 
@@ -1992,20 +1948,17 @@ promotion
 deprecation
 ```
 
----
+______________________________________________________________________
 
-# 71. Skill Registry
+## 71. Skill Registry
 
 A runtime may maintain:
 
-[
-\boxed{
-Registry_S
-==========
+## \[ \\boxed{ Registry_S
 
-{T_{S_1},T_{S_2},...,T_{S_n}}
+{T\_{S_1},T\_{S_2},...,T\_{S_n}}
 }
-]
+\]
 
 The registry should distinguish:
 
@@ -2018,9 +1971,9 @@ authorized skill
 currently executable skill
 ```
 
----
+______________________________________________________________________
 
-# 72. Skill Discovery
+## 72. Skill Discovery
 
 Discovery means the system can identify a candidate capability.
 
@@ -2038,9 +1991,9 @@ VALIDATED
 AUTHORIZED
 ```
 
----
+______________________________________________________________________
 
-# 73. Skill Admission
+## 73. Skill Admission
 
 A candidate skill should pass admission checks before entering trusted runtime use.
 
@@ -2072,9 +2025,9 @@ GOVERNANCE
 ADMIT / QUARANTINE / REJECT
 ```
 
----
+______________________________________________________________________
 
-# 74. Skill Admission States
+## 74. Skill Admission States
 
 Possible results:
 
@@ -2088,9 +2041,9 @@ ADMIT
 
 Admission does not imply universal trust.
 
----
+______________________________________________________________________
 
-# 75. Skill Promotion
+## 75. Skill Promotion
 
 A skill may progress:
 
@@ -2115,34 +2068,31 @@ PROMOTED
 
 Each transition requires evidence.
 
----
+______________________________________________________________________
 
-# 76. Skill Mutation
+## 76. Skill Mutation
 
 A skill modification creates a new validation problem.
 
-[
-\boxed{
+\[
+\\boxed{
 S_v
-\rightarrow
-S_{v+1}
+\\rightarrow
+S\_{v+1}
 }
-]
+\]
 
 does not preserve validation automatically.
 
 Material mutation requires selective revalidation.
 
----
+______________________________________________________________________
 
-# 77. Skill Mutation Tensor
+## 77. Skill Mutation Tensor
 
-[
-\boxed{
-T_{\Delta S}
-============
+## \[ \\boxed{ T\_{\\Delta S}
 
-T[
+T\[
 skill,
 old_version,
 new_version,
@@ -2151,13 +2101,13 @@ affected_contracts,
 affected_dependencies,
 risk,
 validation_required
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 78. Skill Revocation
+## 78. Skill Revocation
 
 A skill may be revoked when:
 
@@ -2174,9 +2124,9 @@ regime changes materially
 
 Revocation must propagate to dependent conclusions or workflows where material.
 
----
+______________________________________________________________________
 
-# 79. Skill Quarantine
+## 79. Skill Quarantine
 
 Quarantine means:
 
@@ -2198,14 +2148,14 @@ regime ambiguity
 stale validation
 ```
 
----
+______________________________________________________________________
 
-# 80. Skill Failure Tensor
+## 80. Skill Failure Tensor
 
-[
-\boxed{
+\[
+\\boxed{
 T_F =
-T[
+T\[
 skill,
 failure_id,
 failure_class,
@@ -2217,13 +2167,13 @@ affected_dependencies,
 consequence,
 recoverability,
 provenance
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 81. Failure Modes
+## 81. Failure Modes
 
 ## SKILL-F01 — Placeholder Promotion
 
@@ -2305,9 +2255,9 @@ A skill commits durable effects without governance.
 
 Missing capability or evidence is represented as successful execution.
 
----
+______________________________________________________________________
 
-# 82. Repair / Recovery
+## 82. Repair / Recovery
 
 When a skill fails:
 
@@ -2345,59 +2295,56 @@ REVALIDATE
 RESTORE / DOWNGRADE / RETIRE
 ```
 
----
+______________________________________________________________________
 
-# 83. Skill Repair Equation
+## 83. Skill Repair Equation
 
-For failed skill \(S\):
+For failed skill (S):
 
-[
-\boxed{
-Repair(S)
-=========
+## \[ \\boxed{ Repair(S)
 
 Isolate(S)
-+
+\+
 Invalidate(DependentOutputs)
-+
+\+
 RestoreKnownGoodState
-+
+\+
 Revalidate(S)
 }
-]
+\]
 
 where applicable.
 
----
+______________________________________________________________________
 
-# 84. Rollback
+## 84. Rollback
 
 A skill with durable effects should expose rollback where technically and semantically possible.
 
-[
-\boxed{
+\[
+\\boxed{
 Rollback:
-State_{t+1}
-\rightarrow
+State\_{t+1}
+\\rightarrow
 State_t'
 }
-]
+\]
 
 where:
 
-[
+\[
 State_t'
-\approx
+\\approx
 State_t
-]
+\]
 
 within declared recovery tolerance.
 
 Rollback capability must not be assumed for irreversible effects.
 
----
+______________________________________________________________________
 
-# 85. Skill Recovery State
+## 85. Skill Recovery State
 
 ```yaml
 recovery:
@@ -2414,9 +2361,9 @@ recovery:
   residual_uncertainty:
 ```
 
----
+______________________________________________________________________
 
-# 86. Skill Workflow
+## 86. Skill Workflow
 
 Canonical workflow:
 
@@ -2464,9 +2411,9 @@ Canonical workflow:
 21. Register invalidation/revalidation conditions.
 ```
 
----
+______________________________________________________________________
 
-# 87. Skill Protocol
+## 87. Skill Protocol
 
 ```yaml
 skill_invocation_protocol:
@@ -2527,9 +2474,9 @@ skill_invocation_protocol:
   gap_status:
 ```
 
----
+______________________________________________________________________
 
-# 88. Skill Invariants
+## 88. Skill Invariants
 
 ## SKILL-I01 — Identity
 
@@ -2611,9 +2558,9 @@ Compromised skills can be isolated.
 
 Unavailable or unsupported capability remains `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
-# 89. Skill Validators
+## 89. Skill Validators
 
 ```text
 L00-SKILL-T01 skill identity
@@ -2673,38 +2620,38 @@ L00-SKILL-T27 recovery validation
 L00-SKILL-T28 UNKNOWN/GAP preservation
 ```
 
----
+______________________________________________________________________
 
-# 90. Falsifiers
+## 90. Falsifiers
 
 This architecture is falsified as an implemented L00 skill system if:
 
 1. skills have no stable identities;
-2. skill versions cannot be distinguished;
-3. placeholders are operationally indistinguishable from implementations;
-4. implemented skills are automatically considered validated;
-5. validation scope cannot be represented;
-6. input/output semantic types cannot be represented;
-7. dependency failures cannot invalidate skill execution;
-8. evidence provenance is discarded by skill transformations;
-9. multiple skills reading one source are automatically counted as independent evidence;
-10. skill outputs cannot distinguish observation from model output;
-11. simulation results automatically become empirical observations;
-12. semantic or structural relations automatically become causal;
-13. H/M/L scale cannot be represented;
-14. local skill success automatically becomes system-level validation;
-15. skill output confidence may exceed failed load-bearing evidence without qualification;
-16. capability automatically grants authority;
-17. proposals automatically become committed effects;
-18. revoked skills remain trusted without revalidation;
-19. failed skills cannot be quarantined;
-20. dependent outputs cannot be selectively invalidated;
-21. repair completion requires no validation;
-22. unsupported capability cannot remain `UNKNOWN/GAP`.
+1. skill versions cannot be distinguished;
+1. placeholders are operationally indistinguishable from implementations;
+1. implemented skills are automatically considered validated;
+1. validation scope cannot be represented;
+1. input/output semantic types cannot be represented;
+1. dependency failures cannot invalidate skill execution;
+1. evidence provenance is discarded by skill transformations;
+1. multiple skills reading one source are automatically counted as independent evidence;
+1. skill outputs cannot distinguish observation from model output;
+1. simulation results automatically become empirical observations;
+1. semantic or structural relations automatically become causal;
+1. H/M/L scale cannot be represented;
+1. local skill success automatically becomes system-level validation;
+1. skill output confidence may exceed failed load-bearing evidence without qualification;
+1. capability automatically grants authority;
+1. proposals automatically become committed effects;
+1. revoked skills remain trusted without revalidation;
+1. failed skills cannot be quarantined;
+1. dependent outputs cannot be selectively invalidated;
+1. repair completion requires no validation;
+1. unsupported capability cannot remain `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
-# 91. Gap Matrix
+## 91. Gap Matrix
 
 | Area              | Required capability          | Status                                   |
 | ----------------- | ---------------------------- | ---------------------------------------- |
@@ -2735,9 +2682,9 @@ This architecture is falsified as an implemented L00 skill system if:
 | Recovery          | post-repair validation       | implementation-dependent                 |
 | Runtime proof     | actual executable behavior   | UNKNOWN without runtime evidence         |
 
----
+______________________________________________________________________
 
-# 92. Required Skill Families
+## 92. Required Skill Families
 
 The L00 architecture should be able to address the following skill families, while addressability alone does not prove implementation:
 
@@ -2768,9 +2715,9 @@ Repair Targeting
 Recovery Validation
 ```
 
----
+______________________________________________________________________
 
-# 93. AMOS Skill Mapping
+## 93. AMOS Skill Mapping
 
 Candidate AMOS capability families relevant to L00 include conceptually:
 
@@ -2800,9 +2747,9 @@ This mapping is architectural/addressability metadata.
 
 It does not by itself prove that every listed capability is implemented, available, validated, or authorized in every runtime.
 
----
+______________________________________________________________________
 
-# 94. Skill Routing Matrix
+## 94. Skill Routing Matrix
 
 | Need                                   | Primary capability class |
 | -------------------------------------- | ------------------------ |
@@ -2823,160 +2770,151 @@ It does not by itself prove that every listed capability is implemented, availab
 | Determine what should be repaired      | repair targeting         |
 | Verify recovery                        | recovery validation      |
 
----
+______________________________________________________________________
 
-# 95. Skill Selection Equation
+## 95. Skill Selection Equation
 
 Conceptually:
 
-[
-\boxed{
-SelectSkill(q)
-==============
+## \[ \\boxed{ SelectSkill(q)
 
-\arg\max_{S}
+\\arg\\max\_{S}
 Fit(S,q)
 }
-]
+\]
 
 subject to:
 
-[
-\boxed{
+\[
+\\boxed{
 TypeCompatible(S,q)
 }
-]
+\]
 
-[
-\boxed{
+\[
+\\boxed{
 DependencyValid(S)
 }
-]
+\]
 
-[
-\boxed{
+\[
+\\boxed{
 ScopeCompatible(S,q)
 }
-]
+\]
 
-[
-\boxed{
+\[
+\\boxed{
 GovernanceCompatible(S,q)
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 96. Minimum Sufficient Skill Path
+## 96. Minimum Sufficient Skill Path
 
-For objective \(O\):
+For objective (O):
 
-[
-\boxed{
-Path^*
-======
+## \[ \\boxed{ Path^\*
 
-\arg\min_P
+\\arg\\min_P
 Cost(P)
 }
-]
+\]
 
 subject to:
 
-[
-\boxed{
+\[
+\\boxed{
 OutcomeSufficient(P)=1
 }
-]
+\]
 
 and:
 
-[
-\boxed{
+\[
+\\boxed{
 Integrity(P)=1
 }
-]
+\]
 
 The shortest path is not preferred if it loses required evidence, provenance, scope, regime, or governance state.
 
----
+______________________________________________________________________
 
-# 97. Skill Escalation Equation
+## 97. Skill Escalation Equation
 
 Conceptually:
 
-[
-\boxed{
+\[
+\\boxed{
 Complexity(S)
-\uparrow
+\\uparrow
 }
-]
+\]
 
 when:
 
-[
-\boxed{
+\[
+\\boxed{
 Risk
-+
+\+
 Irreversibility
-+
+\+
 Uncertainty
-+
+\+
 Conflict
-+
+\+
 Novelty
-+
+\+
 DependencyAmbiguity
-\uparrow
+\\uparrow
 }
-]
+\]
 
 This is an AMOS control heuristic, not an empirical universal law.
 
----
+______________________________________________________________________
 
-# 98. Skill Reuse
+## 98. Skill Reuse
 
 A skill result may be reused only while its applicability conditions remain valid.
 
-[
-\boxed{
-Reusable(O_S)
-=============
+## \[ \\boxed{ Reusable(O_S)
 
 VersionValid
-\land
+\\land
 DependenciesValid
-\land
+\\land
 ScopeValid
-\land
+\\land
 RegimeValid
-\land
+\\land
 FreshnessValid
-\land
+\\land
 NoMaterialRevocation
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 99. Skill Output Invalidation
+## 99. Skill Output Invalidation
 
-If skill version \(S_v\) is invalidated:
+If skill version (S_v) is invalidated:
 
-[
-\boxed{
+\[
+\\boxed{
 Invalidate(S_v)
-\Rightarrow
+\\Rightarrow
 Review(Outputs(S_v))
 }
-]
+\]
 
 Only outputs materially dependent on the failed property need invalidation.
 
----
+______________________________________________________________________
 
-# 100. Skill Memory Admission
+## 100. Skill Memory Admission
 
 Skill output proposed for persistent memory should pass:
 
@@ -2994,14 +2932,14 @@ revalidation assignment
 
 before trusted admission.
 
----
+______________________________________________________________________
 
-# 101. Skill Memory Tensor
+## 101. Skill Memory Tensor
 
-[
-\boxed{
+\[
+\\boxed{
 T_M =
-T[
+T\[
 item_id,
 content_class,
 state,
@@ -3011,15 +2949,15 @@ freshness,
 contradiction_state,
 retention_class,
 revalidation_epoch
-]
+\]
 }
-]
+\]
 
 Skill output alone is insufficient for permanent trusted-memory promotion.
 
----
+______________________________________________________________________
 
-# 102. Skill RSCF Integration
+## 102. Skill RSCF Integration
 
 Every consequential skill output should be capable of producing or updating an RSCF capsule:
 
@@ -3045,23 +2983,23 @@ falsifiers: []
 confidence_ceiling:
 ```
 
----
+______________________________________________________________________
 
-# 103. Skill RSCF Rule
+## 103. Skill RSCF Rule
 
-[
-\boxed{
+\[
+\\boxed{
 SkillOutput
-\rightarrow
+\\rightarrow
 RSCFUpdate
 }
-]
+\]
 
 when the output materially changes a claim, decision, or evidence state.
 
----
+______________________________________________________________________
 
-# 104. Adversarial Skill Validation
+## 104. Adversarial Skill Validation
 
 For consequential skills, validation should seek:
 
@@ -3080,9 +3018,9 @@ rollback failure
 authority bypass
 ```
 
----
+______________________________________________________________________
 
-# 105. Skill Test Classes
+## 105. Skill Test Classes
 
 Tests should distinguish:
 
@@ -3104,9 +3042,9 @@ REALITY-CONTACT TEST
 
 Passing one class does not imply passing all classes.
 
----
+______________________________________________________________________
 
-# 106. Skill Validation Levels
+## 106. Skill Validation Levels
 
 Conceptually:
 
@@ -3124,9 +3062,9 @@ These levels are an AMOS MODEL classification unless formally adopted by the run
 
 They must not be treated as universal industry standards.
 
----
+______________________________________________________________________
 
-# 107. Skill Benchmark Boundary
+## 107. Skill Benchmark Boundary
 
 ```text
 BENCHMARK PASS
@@ -3147,196 +3085,187 @@ scope
 limitations
 ```
 
----
+______________________________________________________________________
 
-# 108. Skill Reality-Contact Requirement
+## 108. Skill Reality-Contact Requirement
 
 A skill claiming empirical performance should identify the reality-contact path supporting that claim.
 
-[
-\boxed{
-RealityContact(S)
-=================
+## \[ \\boxed{ RealityContact(S)
 
 ObservationPath
-+
+\+
 MeasurementPath
-+
+\+
 EvidencePath
-+
+\+
 ValidationPath
 }
-]
+\]
 
 A purely simulated path cannot independently establish real-world performance.
 
----
+______________________________________________________________________
 
-# 109. Skill Safety Boundary
+## 109. Skill Safety Boundary
 
 A skill must not increase authority merely because confidence increases.
 
-[
-\boxed{
-\frac{\partial Authority}{\partial Confidence}
-\neq
+\[
+\\boxed{
+\\frac{\\partial Authority}{\\partial Confidence}
+\\neq
 Automatic
 }
-]
+\]
 
 Authority changes require governance, not epistemic confidence alone.
 
----
+______________________________________________________________________
 
-# 110. Skill Integrity Law
+## 110. Skill Integrity Law
 
-[
-\boxed{
-SkillIntegrity
-==============
+## \[ \\boxed{ SkillIntegrity
 
 Identity
-\land
+\\land
 TypeSafety
-\land
+\\land
 DependencyIntegrity
-\land
+\\land
 ProvenanceIntegrity
-\land
+\\land
 ScopeIntegrity
-\land
+\\land
 RegimeIntegrity
-\land
+\\land
 EpistemicIntegrity
-\land
+\\land
 GovernanceIntegrity
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 111. Skill Execution Law
+## 111. Skill Execution Law
 
-For effectful skill \(S\):
+For effectful skill (S):
 
-[
-\boxed{
-Commit(S)
-=========
+## \[ \\boxed{ Commit(S)
 
 CapabilityValid
-\land
+\\land
 InputValid
-\land
+\\land
 DependencyValid
-\land
+\\land
 AuthorityValid
-\land
+\\land
 ConstraintValid
-\land
+\\land
 FreshnessValid
-\land
+\\land
 CommitValidation
 }
-]
+\]
 
 where required by consequence class.
 
----
+______________________________________________________________________
 
-# 112. Skill Confidence Law
+## 112. Skill Confidence Law
 
-[
-\boxed{
+\[
+\\boxed{
 Conf(Output_S)
-\leq
+\\leq
 WeakestLoadBearingSupport(S)
 }
-]
+\]
 
 unless independently revalidated.
 
----
+______________________________________________________________________
 
-# 113. Skill Provenance Law
+## 113. Skill Provenance Law
 
-[
-\boxed{
+\[
+\\boxed{
 Prov(Output)
-\supseteq
+\\supseteq
 MaterialProv(Input)
 }
-]
+\]
 
 Transformation may extend provenance.
 
 It must not silently erase load-bearing ancestry.
 
----
+______________________________________________________________________
 
-# 114. Skill Independence Law
+## 114. Skill Independence Law
 
-[
-\boxed{
+\[
+\\boxed{
 IndependentSkillExecution
-\not\Rightarrow
+\\not\\Rightarrow
 IndependentEvidence
 }
-]
+\]
 
 Evidence independence depends on evidence ancestry, not merely execution path.
 
----
+______________________________________________________________________
 
-# 115. Skill Causal Law
+## 115. Skill Causal Law
 
-[
-\boxed{
+\[
+\\boxed{
 StructuralOutput
-\not\Rightarrow
+\\not\\Rightarrow
 CausalOutput
 }
-]
+\]
 
 Causal promotion requires appropriately typed evidence.
 
----
+______________________________________________________________________
 
-# 116. Skill Repair Law
+## 116. Skill Repair Law
 
-[
-\boxed{
+\[
+\\boxed{
 Failure(S)
-\Rightarrow
+\\Rightarrow
 QuarantineAffectedState
-+
+\+
 SelectiveInvalidation
-+
+\+
 Repair
-+
+\+
 Revalidation
 }
-]
+\]
 
 not automatic global reset.
 
----
+______________________________________________________________________
 
-# 117. Skill Unknown Law
+## 117. Skill Unknown Law
 
-[
-\boxed{
+\[
+\\boxed{
 UnsupportedCapability
-\Rightarrow
+\\Rightarrow
 UNKNOWN/GAP
 }
-]
+\]
 
 not fabricated execution.
 
----
+______________________________________________________________________
 
-# 118. Canonical Skill Architecture
+## 118. Canonical Skill Architecture
 
 ```text
 OBJECTIVE
@@ -3387,9 +3316,9 @@ RSCF UPDATE
     └── UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 119. Canonical Skill Decision Rule
+## 119. Canonical Skill Decision Rule
 
 ```text
 IF skill is only a placeholder:
@@ -3435,9 +3364,9 @@ IF capability is missing:
     UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 120. Source / Canon References
+## 120. Source / Canon References
 
 Primary architecture references for completion of this contract should be resolved against the authoritative AMOS/Trang corpus before canon promotion.
 
@@ -3481,9 +3410,9 @@ L00_REALITY_ENVIRONMENT/GAP_MATRIX
 
 Until exact source anchors, versions, and authoritative canon mappings are resolved, detailed equations and structures in this document remain `AMOS MODEL` architecture rather than independently verified empirical laws.
 
----
+______________________________________________________________________
 
-# 121. RSCF Completion State
+## 121. RSCF Completion State
 
 ```yaml
 claim_class: MODEL
@@ -3582,9 +3511,9 @@ confidence_ceiling:
   ontological_universality: unverified
 ```
 
----
+______________________________________________________________________
 
-# 122. Hard Boundaries
+## 122. Hard Boundaries
 
 ```text
 PLACEHOLDER != IMPLEMENTED
@@ -3652,125 +3581,125 @@ REPAIR EXECUTED != RECOVERY VERIFIED
 UNKNOWN/GAP != PASS
 ```
 
----
+______________________________________________________________________
 
-# 123. Canonical Skill Law
+## 123. Canonical Skill Law
 
-[
-\boxed{
-TrustedSkillUse
-===============
+## \[ \\boxed{ TrustedSkillUse
 
 CapabilityValidity
-\land
+\\land
 InterfaceValidity
-\land
+\\land
 DependencyValidity
-\land
+\\land
 ProvenanceIntegrity
-\land
+\\land
 ScopeCompatibility
-\land
+\\land
 RegimeCompatibility
-\land
+\\land
 EvidenceIntegrity
-\land
+\\land
 GovernanceCompatibility
 }
-]
+\]
 
 For effectful capabilities:
 
-[
-\boxed{
+\[
+\\boxed{
 Execution
-\Rightarrow
+\\Rightarrow
 Authority
-\land
+\\land
 ConstraintPass
-\land
+\\land
 CommitValidation
 }
-]
+\]
 
 For skill composition:
 
-[
-\boxed{
+\[
+\\boxed{
 Compose(S_i,S_j)
-\Rightarrow
+\\Rightarrow
 SemanticCompatibility
 }
-]
+\]
 
 For skill-generated evidence:
 
-[
-\boxed{
+\[
+\\boxed{
 MultipleExecutions
-\not\Rightarrow
+\\not\\Rightarrow
 IndependentEvidence
 }
-]
+\]
 
 For mutation:
 
-[
-\boxed{
+\[
+\\boxed{
 MaterialChange(S)
-\Rightarrow
+\\Rightarrow
 SelectiveRevalidation(S)
 }
-]
+\]
 
 For failure:
 
-[
-\boxed{
+\[
+\\boxed{
 FailedSkill
-\Rightarrow
+\\Rightarrow
 SelectiveInvalidation
 }
-]
+\]
 
 For unavailable capability:
 
-[
-\boxed{
+\[
+\\boxed{
 NoValidSkill
-\Rightarrow
+\\Rightarrow
 UNKNOWN/GAP
 }
-]
+\]
 
 The governing architectural principle is:
 
 > **AMOS Skills are bounded, typed capabilities—not truth objects and not authority grants. A reality-sensitive skill must preserve evidence provenance, scope, regime, H/M/L scale, uncertainty, dependency state, and epistemic class across every transformation. Skills may observe, derive, model, validate, predict, propose, or act only within their declared contracts; composition requires semantic compatibility; durable effects require separate control-plane authority; and failure must invalidate only the outputs that materially depend on the failed capability.**
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · 06-Knowledge-Base-MOC · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · Cosmo_Brain_BRIDGE_INDEX · Cosmo_Brain_BRIDGE_INDEX · Cosmo_Brain_BRIDGE_INDEX · RSCF Modeler · Cosmo_Brain_BRIDGE_INDEX · AMOS Provenance Sybil Hardening · AMOS Reality Simulation Distinction · AMOS Causal Hierarchy Governor
 
 ```
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: l00_reality_environment_primitives_cognitive_matrix_skills
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_SKILLS.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_MOC|L00_REALITY_ENVIRONMENT_MOC]]
-

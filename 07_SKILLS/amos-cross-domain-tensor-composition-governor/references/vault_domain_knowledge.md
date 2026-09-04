@@ -1,15 +1,18 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Vault Domain Knowledge — Amos Cross Domain Tensor Composition Governor
 type: reference
 source: 07_SKILLS/amos-cross-domain-tensor-composition-governor/references
 tags:
-- reference
-- amos-cross-domain-tensor-composition-governor
-- type/skill
-- tensor-contracts
-- relation-tensor
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-cross-domain-tensor-composition-governor
+  - type/skill
+  - tensor-contracts
+  - relation-tensor
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -80,12 +83,12 @@ At each scale retain only information capable of changing:
 
 Each AMOS domain (C01-C12) interprets shared axes differently:
 
-| Axis | C01 Meta-Logic | C02 Math | C03 Physics | C04 Bio-Neuro | C05 Mind | C06 Society | C07 Econ | C08 Strategy | C09 Org-Law | C10 Tech | C11 Design | C12 Earth-Eco |
-|------|----------------|----------|-------------|---------------|----------|-------------|----------|--------------|-------------|----------|------------|---------------|
-| scope | logical argument | problem domain | physical system | biological system | psychological context | social system | market/economy | game/strategic | organization/jurisdiction | technical system | design artifact | earth-system |
-| regime | reasoning mode | numerical regime | physical regime | physiological state | emotional/cognitive state | social/political regime | market regime | game/information regime | regulatory regime | operational regime | aesthetic register | climate/ecological regime |
-| time | logical time | computational time | physical time | biological timescale | psychological time | historical/social time | economic time | strategic time | legal/policy time | system uptime | design lifecycle | geological time |
-| causal_level | inference depth | mathematical proof | physical mechanism | biological mechanism | psychological mechanism | social mechanism | economic mechanism | strategic mechanism | legal mechanism | technical mechanism | design rationale | earth-system mechanism |
+| Axis         | C01 Meta-Logic   | C02 Math           | C03 Physics        | C04 Bio-Neuro        | C05 Mind                  | C06 Society             | C07 Econ           | C08 Strategy            | C09 Org-Law               | C10 Tech            | C11 Design         | C12 Earth-Eco             |
+| ------------ | ---------------- | ------------------ | ------------------ | -------------------- | ------------------------- | ----------------------- | ------------------ | ----------------------- | ------------------------- | ------------------- | ------------------ | ------------------------- |
+| scope        | logical argument | problem domain     | physical system    | biological system    | psychological context     | social system           | market/economy     | game/strategic          | organization/jurisdiction | technical system    | design artifact    | earth-system              |
+| regime       | reasoning mode   | numerical regime   | physical regime    | physiological state  | emotional/cognitive state | social/political regime | market regime      | game/information regime | regulatory regime         | operational regime  | aesthetic register | climate/ecological regime |
+| time         | logical time     | computational time | physical time      | biological timescale | psychological time        | historical/social time  | economic time      | strategic time          | legal/policy time         | system uptime       | design lifecycle   | geological time           |
+| causal_level | inference depth  | mathematical proof | physical mechanism | biological mechanism | psychological mechanism   | social mechanism        | economic mechanism | strategic mechanism     | legal mechanism           | technical mechanism | design rationale   | earth-system mechanism    |
 
 ## 4. Fractal Architecture Sources (Cosmo brain: fractal/)
 
@@ -129,7 +132,7 @@ From skill survey (714+ skills): only 3 explicit cross-domain skills in formal d
 - amos-cross-scale-rscf-tensor-engine
 - amos-cross-species-cognition-mapper (C04 bio domain)
 
-From _00_Cosmo brain exploration: 8 cross-domain integration gaps (all now covered by governor skills).
+From \_00_Cosmo brain exploration: 8 cross-domain integration gaps (all now covered by governor skills).
 
 ## 8. Anti-Overclaim Boundaries Per Domain
 
@@ -180,13 +183,15 @@ The Cross-Domain Tensor Composition Governor provides the governance layer for t
 
 Each engine produces typed tensors that must pass compatibility validation before cross-domain composition.
 
----
+______________________________________________________________________
+
 **MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -194,12 +199,14 @@ Each engine produces typed tensors that must pass compatibility validation befor
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-cross-domain-tensor-composition-governor-vault-domain-knowledge
 node_type: reference
 path: 07_SKILLS/amos-cross-domain-tensor-composition-governor/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

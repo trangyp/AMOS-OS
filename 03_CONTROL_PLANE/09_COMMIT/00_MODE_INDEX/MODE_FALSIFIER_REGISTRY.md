@@ -12,19 +12,19 @@ segment: 03_CONTROL_PLANE/09_COMMIT
 artifact_kind: REGISTRY
 path: 03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX/MODE_FALSIFIER_REGISTRY.md
 tags:
-- 00_mode_index
-- 09_commit
-- amos-os
-- canon/control-plane
-- canon/universe
-- commit
-- control-plane
-- falsifier
-- mode_index
-- note
-- registry
-- rscf
-- placeholder_expanded
+  - 00_mode_index
+  - 09_commit
+  - amos-os
+  - canon/control-plane
+  - canon/universe
+  - commit
+  - control-plane
+  - falsifier
+  - mode_index
+  - note
+  - registry
+  - rscf
+  - placeholder_expanded
 version: 0.2.0
 updated: '2026-08-27'
 status: PLACEHOLDER_EXPANDED
@@ -101,7 +101,7 @@ Origin architect / steward: **Trang Phan**
 
 System: **AMOS OS**
 
----
+______________________________________________________________________
 
 # AMOS OS — Mode Falsifier Registry
 
@@ -115,9 +115,9 @@ System: **AMOS OS**
 >
 > **Artifact:** `MODE_FALSIFIER_REGISTRY.md`
 
----
+______________________________________________________________________
 
-# 0. PURPOSE
+## 0. PURPOSE
 
 `MODE_FALSIFIER_REGISTRY` is the governed AMOS OS artifact whose purpose is to register tests, counterexamples, failure scenarios, and empirical conditions that could falsify a mode claim.
 
@@ -131,17 +131,17 @@ It does **not** grant authority.
 
 It does **not** silently conflate specification with executable runtime.
 
----
+______________________________________________________________________
 
-# 1. CORE LAW
+## 1. CORE LAW
 
 ```text
 A MODE WITHOUT A FALSIFIER IS A CLAIM WITHOUT A TEST.
 ```
 
----
+______________________________________________________________________
 
-# 2. FUNDAMENTAL DISTINCTIONS
+## 2. FUNDAMENTAL DISTINCTIONS
 
 ```text
 FALSIFIER_LISTED != FALSIFIER_EXECUTED
@@ -155,35 +155,35 @@ NO_KNOWN_FALSIFIER != UNFALSIFIABLE
 FAILED_FALSIFIER != MODE_INVALID
 ```
 
----
+______________________________________________________________________
 
-# 3. WHY THIS ARTIFACT EXISTS
+## 3. WHY THIS ARTIFACT EXISTS
 
 Without `MODE_FALSIFIER_REGISTRY`, AMOS mode governance would be forced to infer falsification conditions and counterexamples from implicit conventions, file names, or model-generated interpretations.
 
 This artifact makes the governing structure explicit and auditable.
 
----
+______________________________________________________________________
 
-# 4. 3. Falsifier Types
+## 4. 3. Falsifier Types
 
 Scope, composition, authority, runtime, safety.
 
----
+______________________________________________________________________
 
-# 5. 4. Registry Fields
+## 5. 4. Registry Fields
 
 falsifier_id, target_mode, condition, expected_outcome, evidence.
 
----
+______________________________________________________________________
 
-# 6. 5. Failure Response
+## 6. 5. Failure Response
 
 Quarantine, review, supersession, revocation.
 
----
+______________________________________________________________________
 
-# 9. TESTS AND FALSIFIERS
+## 9. TESTS AND FALSIFIERS
 
 `MODE_FALSIFIER_REGISTRY` is falsified if any of the following occur:
 
@@ -193,9 +193,9 @@ Quarantine, review, supersession, revocation.
 - It accepts a claim as proven without a corresponding evidence artifact.
 - It permits cyclic, stale, or unbounded governance without detection.
 
----
+______________________________________________________________________
 
-# 10. STATUS PRESERVATION
+## 10. STATUS PRESERVATION
 
 This artifact remains `CANDIDATE_CANON / DERIVED` until:
 
@@ -204,24 +204,28 @@ This artifact remains `CANDIDATE_CANON / DERIVED` until:
 - formal verification and empirical validation evidence are attached;
 - the relevant supersession and source registry entries are updated.
 
-# END — MODE_FALSIFIER_REGISTRY
+## END — MODE_FALSIFIER_REGISTRY
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: mode_falsifier_registry
 node_type: note
 path: 03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX/MODE_FALSIFIER_REGISTRY.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX/00_MODE_INDEX_MOC|00_MODE_INDEX_MOC]]

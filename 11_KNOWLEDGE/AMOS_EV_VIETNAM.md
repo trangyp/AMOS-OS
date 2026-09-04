@@ -11,16 +11,15 @@ date: '2026-08-25'
 language: vi
 status: SOURCE_PRESERVED__AMOS_MODEL_OVERLAY__EMPIRICAL_FIREWALL_ACTIVE
 tags:
-- knowledge
-- note
-- canon/knowledge
+  - knowledge
+  - note
+  - canon/knowledge
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
   provenance: AMOS_corpus
   scope: AMOS_knowledge
 ---
-
 
 # 0. Tuyên bố phạm vi và ranh giới bằng chứng
 
@@ -52,16 +51,16 @@ AMOS_MODEL != EMPIRICAL_VALIDATION
 
 ## 0.1 Epistemic classes
 
-| Class | Nghĩa |
-|---|---|
-| `OBSERVATION` | dữ kiện quan sát trực tiếp từ nguồn/measurement đã có |
+| Class          | Nghĩa                                                   |
+| -------------- | ------------------------------------------------------- |
+| `OBSERVATION`  | dữ kiện quan sát trực tiếp từ nguồn/measurement đã có   |
 | `SOURCE_CLAIM` | corpus nói như vậy, nhưng bản này chưa độc lập xác minh |
-| `DERIVED` | suy ra từ premise đã nêu |
-| `AMOS_MODEL` | cấu trúc hóa theo AMOS để kiểm thử |
-| `CONDITIONAL` | đúng nếu premise/regime cụ thể giữ |
-| `COMPETING` | nhiều giả thuyết chưa phân thắng bại |
-| `VERIFIED` | chỉ dùng sau khi có evidence độc lập phù hợp scope |
-| `UNKNOWN_GAP` | thiếu bằng chứng hoặc dữ liệu quyết định |
+| `DERIVED`      | suy ra từ premise đã nêu                                |
+| `AMOS_MODEL`   | cấu trúc hóa theo AMOS để kiểm thử                      |
+| `CONDITIONAL`  | đúng nếu premise/regime cụ thể giữ                      |
+| `COMPETING`    | nhiều giả thuyết chưa phân thắng bại                    |
+| `VERIFIED`     | chỉ dùng sau khi có evidence độc lập phù hợp scope      |
+| `UNKNOWN_GAP`  | thiếu bằng chứng hoặc dữ liệu quyết định                |
 
 ## 0.2 Core law
 
@@ -71,9 +70,9 @@ Integrity > Completeness > Fluency > Speed
 
 Bản MAX DETAIL không cố biến mọi nhận định thành đúng. Nó biến mọi nhận định quan trọng thành **có thể truy vết, phản biện, đo và cập nhật**.
 
----
+______________________________________________________________________
 
-# 1. Master thesis
+## 1. Master thesis
 
 Corpus đặt ra luận điểm lớn:
 
@@ -92,9 +91,9 @@ H6 — Market convergence may emerge from network/data economies, but is not gua
 
 Mỗi giả thuyết có thể đúng, sai hoặc chỉ đúng theo regime.
 
----
+______________________________________________________________________
 
-# 2. H/M/L master decomposition
+## 2. H/M/L master decomposition
 
 ## H — High / governing field
 
@@ -158,9 +157,9 @@ cheap vehicle purchase price
   and potentially negative lifecycle economics
 ```
 
----
+______________________________________________________________________
 
-# 3. Universal EV state tensor
+## 3. Universal EV state tensor
 
 Define:
 
@@ -189,9 +188,9 @@ Where:
 
 No scalar “EV readiness score” should replace this tensor unless the aggregation function and weights are explicit.
 
----
+______________________________________________________________________
 
-# 4. UBI — Human / Biological / Behavioral adoption engine
+## 4. UBI — Human / Biological / Behavioral adoption engine
 
 Corpus identifies nine user-level forces. In MAX DETAIL they become a structured adoption model.
 
@@ -209,7 +208,7 @@ $$V_{EV}-V_{ICE} > \theta_{switch}$$
 
 But $\theta_{switch}$ is segment-specific.
 
----
+______________________________________________________________________
 
 ## 4.2 UBI-1 — Health pain versus abstract green preference
 
@@ -244,7 +243,7 @@ $$HealthValue_i = Exposure_i \times Salience_i \times PerceivedEVRelief_i$$
 
 If willingness-to-pay does not move when direct health/comfort benefit is made concrete, the “biological pain” mechanism is weaker than claimed.
 
----
+______________________________________________________________________
 
 ## 4.3 UBI-2 — Apartment / landlord / parking governance constraint
 
@@ -270,7 +269,7 @@ willing buyer
 
 This is a **boundary constraint**, not a marketing problem.
 
----
+______________________________________________________________________
 
 ## 4.4 UBI-3 — Fire-risk narrative / collective fear
 
@@ -301,7 +300,7 @@ high-profile fire event
 
 This is a feedback hypothesis, not a proven causal law.
 
----
+______________________________________________________________________
 
 ## 4.5 UBI-4 — Flood / water / extreme-weather trust
 
@@ -322,7 +321,7 @@ Trust equation candidate:
 
 $$Trust^{weather}_i = Knowledge_i \times ServiceSupport_i \times InsuranceClarity_i \times DemonstratedReliability_i$$
 
----
+______________________________________________________________________
 
 ## 4.6 UBI-5 — Livelihood pressure for drivers and shippers
 
@@ -338,7 +337,7 @@ $$IdleCost = t_{queue} \times RevenueRate_{active} + DeadheadDistance \times Cos
 
 A vehicle with lower energy cost can still be economically inferior if charging/repair downtime is high.
 
----
+______________________________________________________________________
 
 ## 4.7 UBI-6 — Status, identity, and social signaling
 
@@ -347,6 +346,7 @@ Consumer utility may contain:
 $$StatusUtility = ModernitySignal + TechIdentity + EnvironmentalIdentity - PerceivedExperimentRisk - ResaleStigma$$
 
 Segment by:
+
 - income;
 - city;
 - age;
@@ -357,7 +357,7 @@ Segment by:
 
 Do not universalize status effects.
 
----
+______________________________________________________________________
 
 ## 4.8 UBI-7 — Hidden decision-makers
 
@@ -379,7 +379,7 @@ $$A_{decision} = 1-\frac{Conflict(Preferences,Costs,Risks)}{Conflict_{max}}$$
 
 Low alignment increases sales-cycle latency and adoption friction.
 
----
+______________________________________________________________________
 
 ## 4.9 UBI-8 — Cognitive load
 
@@ -402,11 +402,12 @@ $$C_{cog}= Steps \times Ambiguity \times ExceptionRate \times LearningCost$$
 
 A superior system reduces **decision count**, not just charging minutes.
 
----
+______________________________________________________________________
 
 ## 4.10 UBI-9 — Somatic comfort
 
 Potential benefit vectors:
+
 - lower vibration;
 - lower engine noise;
 - smoother acceleration;
@@ -416,6 +417,7 @@ Potential benefit vectors:
 - driver fatigue.
 
 A proper study should compare:
+
 - same driver;
 - matched route;
 - matched shift length;
@@ -424,9 +426,9 @@ A proper study should compare:
 
 Do not infer health outcomes from subjective comfort alone.
 
----
+______________________________________________________________________
 
-# 5. ULF — Unified Logistics & Fleet architecture
+## 5. ULF — Unified Logistics & Fleet architecture
 
 ## 5.1 Fleet is not one variable
 
@@ -438,7 +440,7 @@ $$TCO_{fleet} = CAPEX + Energy + Finance + Maintenance + Insurance + BatteryLoss
 
 The corpus’s strongest strategic thesis is that **operations can dominate vehicle purchase-price advantage**.
 
----
+______________________________________________________________________
 
 ## 5.2 Four strategic assets
 
@@ -457,7 +459,7 @@ MAX DETAIL adds a fifth:
 
 Because asset ownership without operational reliability can destroy economics.
 
----
+______________________________________________________________________
 
 ## 5.3 ULF Gap 1 — Lifecycle economics, not sticker price
 
@@ -475,7 +477,7 @@ $$DriverProductivity= \frac{RevenueTime}{ShiftTime}$$
 
 A fleet operator can lose despite low electricity cost if availability falls.
 
----
+______________________________________________________________________
 
 ## 5.4 ULF Gap 2 — Charger-location mismatch
 
@@ -484,6 +486,7 @@ Station utility:
 $$U_j= DemandFit_j \times RouteFit_j \times PowerFit_j \times DwellFit_j \times Reliability_j - AccessCost_j$$
 
 Location data must include:
+
 - trip origins/destinations;
 - end-of-shift clusters;
 - depot proximity;
@@ -499,7 +502,7 @@ Location data must include:
 
 A “good map location” can be a bad operational location.
 
----
+______________________________________________________________________
 
 ## 5.5 ULF Gap 3 — O&M standard
 
@@ -529,7 +532,7 @@ repeat failure rate
 
 A national-scale platform should have versioned O&M standards, not narrative “uptime.”
 
----
+______________________________________________________________________
 
 ## 5.6 ULF Gap 4 — Fleet channel for new OEMs
 
@@ -538,6 +541,7 @@ The corpus proposes that Chinese EV OEMs may enter through fleets before broad r
 This is a `SOURCE_CLAIM / CONDITIONAL` hypothesis.
 
 Discriminating metrics:
+
 - fleet sales share by OEM;
 - commercial registrations;
 - fleet discount depth;
@@ -548,7 +552,7 @@ Discriminating metrics:
 - depot charging compatibility;
 - residual value.
 
----
+______________________________________________________________________
 
 ## 5.7 ULF Gap 5 — Fleet → infrastructure → data → optimization
 
@@ -557,6 +561,7 @@ Candidate flywheel:
 $$Fleet \rightarrow ChargingDemand \rightarrow OperationalData \rightarrow Optimization \rightarrow LowerTCO \rightarrow MoreFleet$$
 
 But flywheels fail when:
+
 - data is siloed;
 - quality is poor;
 - integrations are proprietary;
@@ -564,9 +569,9 @@ But flywheels fail when:
 - network density is insufficient;
 - cost savings do not exceed platform cost.
 
----
+______________________________________________________________________
 
-# 6. Battery intelligence layer
+## 6. Battery intelligence layer
 
 Battery state:
 
@@ -577,6 +582,7 @@ $$B_t= [ SoC,SoH,Temperature,VoltageSpread,CurrentHistory, FastChargeRatio,Depth
 $$\Delta SoH = f( Temperature, C\text{-rate}, DoD, SOC_{avg}, CalendarAge, DriveLoad, CellChemistry ) +\epsilon$$
 
 Vietnam-specific study envelope:
+
 - hot/humid urban use;
 - long commercial shifts;
 - frequent DC fast charge;
@@ -593,9 +599,9 @@ $$BatteryCostPerKm = \frac{ExpectedReplacementCost+DegradationValueLoss}{Lifetim
 
 Expected replacement cost should be probability-weighted, not assumed.
 
----
+______________________________________________________________________
 
-# 7. Charging intelligence layer
+## 7. Charging intelligence layer
 
 Charging state:
 
@@ -617,9 +623,9 @@ $$ROI_j= \frac{CashFlow_j}{InvestedCapital_j}$$
 
 This converts “station count” into actual infrastructure economics.
 
----
+______________________________________________________________________
 
-# 8. Grid intelligence layer
+## 8. Grid intelligence layer
 
 A charging network is constrained by the electrical system.
 
@@ -632,6 +638,7 @@ Headroom:
 $$H_n(t)=Capacity_n-ExistingLoad_n(t)-CommittedLoad_n(t)$$
 
 Station approval without realistic headroom can create:
+
 - derating;
 - connection delay;
 - capex upgrade;
@@ -640,9 +647,9 @@ Station approval without realistic headroom can create:
 
 Grid risk is local and temporal, not merely national.
 
----
+______________________________________________________________________
 
-# 9. PSI — Policy / national field
+## 9. PSI — Policy / national field
 
 The corpus identifies a national policy regime around decarbonization, EV incentives, urban restrictions, FDI and Chinese industrial expansion.
 
@@ -674,6 +681,7 @@ EV policy regime   = separate system
 ```
 
 The analogy can generate hypotheses:
+
 - subsidy-driven overbuilding;
 - asset stranding;
 - policy cliff;
@@ -682,9 +690,9 @@ The analogy can generate hypotheses:
 
 It cannot prove EV will repeat the same path.
 
----
+______________________________________________________________________
 
-# 10. China / regional industrial force
+## 10. China / regional industrial force
 
 Track separately:
 
@@ -707,9 +715,9 @@ $$Competitiveness_o= Price \times ProductFit \times Serviceability \times Capita
 
 Low price alone is insufficient.
 
----
+______________________________________________________________________
 
-# 11. QLS/QIC — Hidden information architecture
+## 11. QLS/QIC — Hidden information architecture
 
 The source uses QLS for “hidden” information. In governed AMOS this becomes **observable gap topology**.
 
@@ -722,13 +730,13 @@ $$GapState= [ Known, UnknownKnown, UnknownUnknown, Unavailable, Proprietary, Sta
 ## 11.1 Eight strategic blind spots
 
 1. real battery degradation;
-2. grid/node capacity;
-3. repair/service latency;
-4. charging behavior;
-5. station unit economics;
-6. multi-brand interoperability/data;
-7. idle/downtime cost;
-8. actual daily duty cycles.
+1. grid/node capacity;
+1. repair/service latency;
+1. charging behavior;
+1. station unit economics;
+1. multi-brand interoperability/data;
+1. idle/downtime cost;
+1. actual daily duty cycles.
 
 For each gap define:
 
@@ -745,9 +753,9 @@ commercial_sensitivity:
 expected_information_value:
 ```
 
----
+______________________________________________________________________
 
-# 12. Data ontology
+## 12. Data ontology
 
 ## 12.1 Vehicle event
 
@@ -824,9 +832,9 @@ gross_revenue:
 
 All timestamps should carry timezone and availability semantics.
 
----
+______________________________________________________________________
 
-# 13. Data quality invariants
+## 13. Data quality invariants
 
 Hard checks:
 
@@ -845,9 +853,9 @@ source provenance retained
 
 Derived state cannot outrank raw-source quality.
 
----
+______________________________________________________________________
 
-# 14. Fleet intelligence equations
+## 14. Fleet intelligence equations
 
 ## 14.1 Cost per km
 
@@ -875,9 +883,9 @@ $$N_{required} = \frac{DemandHours}{VehicleAvailableHours}$$
 
 Reducing downtime can substitute for buying more vehicles.
 
----
+______________________________________________________________________
 
-# 15. Data flywheel and network-effect model
+## 15. Data flywheel and network-effect model
 
 Corpus proposes data advantage as strategic moat.
 
@@ -897,9 +905,9 @@ $$Flywheel= DataGain \times CostImprovement \times Retention \times Acquisition$
 
 If any term is near zero, the loop weakens.
 
----
+______________________________________________________________________
 
-# 16. QCLA — Causal-chain architecture
+## 16. QCLA — Causal-chain architecture
 
 The source causal chain is:
 
@@ -919,21 +927,21 @@ AMOS causal firewall requires each edge to be typed.
 
 ## 16.1 Edge registry
 
-| Edge | Initial class | What would strengthen it |
-|---|---|---|
-| policy → adoption | mechanism candidate | natural experiment / policy discontinuity |
-| fleet → consumer normalization | mechanism candidate | panel/survey + exposure design |
-| fleet → charging demand | strong structural relation | actual charge volume |
-| charging → data | enabling condition | telemetry coverage |
-| data → lower TCO | mechanism candidate | controlled before/after or counterfactual |
-| lower TCO → scale | economic mechanism | retention + fleet growth |
-| scale → concentration | conditional | market-share dynamics / switching costs |
+| Edge                           | Initial class              | What would strengthen it                  |
+| ------------------------------ | -------------------------- | ----------------------------------------- |
+| policy → adoption              | mechanism candidate        | natural experiment / policy discontinuity |
+| fleet → consumer normalization | mechanism candidate        | panel/survey + exposure design            |
+| fleet → charging demand        | strong structural relation | actual charge volume                      |
+| charging → data                | enabling condition         | telemetry coverage                        |
+| data → lower TCO               | mechanism candidate        | controlled before/after or counterfactual |
+| lower TCO → scale              | economic mechanism         | retention + fleet growth                  |
+| scale → concentration          | conditional                | market-share dynamics / switching costs   |
 
 Do not write “therefore” where the edge is only analogy.
 
----
+______________________________________________________________________
 
-# 17. Competing hypotheses
+## 17. Competing hypotheses
 
 ### Market structure
 
@@ -973,15 +981,16 @@ C_D: service/residual-value concerns slow adoption despite price.
 
 AMOS does not force convergence before discriminating evidence exists.
 
----
+______________________________________________________________________
 
-# 18. 2026–2030 regime map
+## 18. 2026–2030 regime map
 
 The source proposes several “break points.” Treat them as scenario triggers.
 
 ## Regime R0 — incentive acceleration
 
 Characteristics:
+
 - favorable fiscal treatment;
 - rapid model launches;
 - charging build-out;
@@ -990,6 +999,7 @@ Characteristics:
 ## Regime R1 — infrastructure stress
 
 Triggers:
+
 - charger queues;
 - grid constraints;
 - service bottlenecks;
@@ -999,6 +1009,7 @@ Triggers:
 ## Regime R2 — standards tightening
 
 Triggers:
+
 - safety rules;
 - building/parking rules;
 - charger standards;
@@ -1014,6 +1025,7 @@ $$Profitability_{no\ subsidy}>0?$$
 ## Regime R4 — consolidation
 
 Signals:
+
 - exits;
 - mergers;
 - interoperability partnerships;
@@ -1023,15 +1035,16 @@ Signals:
 ## Regime R5 — data/AI optimization
 
 Only valid after:
+
 - enough telemetry;
 - stable schemas;
 - reliable labels;
 - closed-loop operational actions;
 - measurable savings.
 
----
+______________________________________________________________________
 
-# 19. Scenario lattice
+## 19. Scenario lattice
 
 ## Scenario S1 — Closed vertical winner
 
@@ -1040,9 +1053,11 @@ OEM + fleet + charging + finance + data
 ```
 
 Strength:
+
 - tight integration.
 
 Risk:
+
 - capital intensity;
 - ecosystem lock-in;
 - internal transfer-pricing opacity.
@@ -1057,14 +1072,17 @@ many OEMs
 ```
 
 Strength:
+
 - broad TAM.
 
 Risk:
+
 - weak control of proprietary APIs.
 
 ## Scenario S3 — Fragmented city/regional markets
 
 Drivers:
+
 - local grid;
 - local regulation;
 - local fleet structure;
@@ -1073,6 +1091,7 @@ Drivers:
 ## Scenario S4 — Infrastructure overbuild
 
 Symptoms:
+
 - low utilization;
 - high lease/capex;
 - poor grid fit;
@@ -1085,9 +1104,9 @@ Restriction of combustion access creates abrupt EV demand shock.
 
 Each scenario should carry probability ranges only after a transparent forecasting method exists.
 
----
+______________________________________________________________________
 
-# 20. UniPower / neutral middleware strategic architecture
+## 20. UniPower / neutral middleware strategic architecture
 
 The source positions a UniPower-type player as potential third ecosystem.
 
@@ -1106,6 +1125,7 @@ neutral multi-brand infrastructure
 ## 20.1 Capability stack
 
 ### Layer 1 — Connect
+
 - OEM telematics;
 - charger protocols;
 - fleet management;
@@ -1115,6 +1135,7 @@ neutral multi-brand infrastructure
 - insurance/finance.
 
 ### Layer 2 — Normalize
+
 - common vehicle schema;
 - common charger schema;
 - common battery schema;
@@ -1122,6 +1143,7 @@ neutral multi-brand infrastructure
 - provenance.
 
 ### Layer 3 — Observe
+
 - uptime;
 - queue;
 - SoH;
@@ -1130,6 +1152,7 @@ neutral multi-brand infrastructure
 - cost.
 
 ### Layer 4 — Optimize
+
 - route-charge scheduling;
 - predictive maintenance;
 - depot allocation;
@@ -1137,6 +1160,7 @@ neutral multi-brand infrastructure
 - charger maintenance priority.
 
 ### Layer 5 — Govern
+
 - consent;
 - access control;
 - data ownership;
@@ -1145,6 +1169,7 @@ neutral multi-brand infrastructure
 - model versioning.
 
 ### Layer 6 — Monetize
+
 - SaaS;
 - O&M;
 - analytics;
@@ -1153,9 +1178,9 @@ neutral multi-brand infrastructure
 - energy optimization;
 - station marketplace.
 
----
+______________________________________________________________________
 
-# 21. AMOS event-bus architecture for EV infrastructure
+## 21. AMOS event-bus architecture for EV infrastructure
 
 This is where the broader AMOS infrastructure thesis becomes operational.
 
@@ -1183,9 +1208,9 @@ EFFECT_COMMITTED
 
 Events are not truth by themselves. They are typed observations/proposals with provenance.
 
----
+______________________________________________________________________
 
-# 22. Worker / agent / skill / engine / kernel separation
+## 22. Worker / agent / skill / engine / kernel separation
 
 ```text
 Agent
@@ -1227,9 +1252,9 @@ Agent proposes
 
 No AI agent gets to convert confidence into authority.
 
----
+______________________________________________________________________
 
-# 23. Domain evidence ABI
+## 23. Domain evidence ABI
 
 Example:
 
@@ -1254,9 +1279,9 @@ valid_until:
 provenance:
 ```
 
----
+______________________________________________________________________
 
-# 24. Fine-grained read set
+## 24. Fine-grained read set
 
 For a scheduling decision:
 
@@ -1272,9 +1297,9 @@ If unrelated charger Z changes, do not invalidate the decision.
 
 If charger A goes offline, invalidate only dependent proposals.
 
----
+______________________________________________________________________
 
-# 25. Semantic transaction
+## 25. Semantic transaction
 
 A route/charge action should be atomic as a semantic package:
 
@@ -1298,11 +1323,12 @@ AND parameter sources authorized
 AND constraints fresh
 ```
 
----
+______________________________________________________________________
 
-# 26. Durable effect release
+## 26. Durable effect release
 
 For external actions:
+
 - charging reservation;
 - charger remote restart;
 - driver dispatch;
@@ -1311,6 +1337,7 @@ For external actions:
 - energy schedule;
 
 require:
+
 - idempotency;
 - effect digest;
 - authority;
@@ -1320,9 +1347,9 @@ require:
 
 Never blind-retry an effect whose completion state is unknown.
 
----
+______________________________________________________________________
 
-# 27. Observability envelope
+## 27. Observability envelope
 
 For fleet optimization, observe at least:
 
@@ -1340,13 +1367,14 @@ rollback/fallback
 
 Telemetry volume does not prove observability completeness.
 
----
+______________________________________________________________________
 
-# 28. Data governance
+## 28. Data governance
 
 The platform’s strategic value creates governance risk.
 
 Required:
+
 - tenant isolation;
 - driver privacy;
 - purpose limitation;
@@ -1361,11 +1389,12 @@ Required:
 
 A data moat built by violating ownership or privacy is not an AMOS-valid moat.
 
----
+______________________________________________________________________
 
-# 29. KPI hierarchy
+## 29. KPI hierarchy
 
 ## H-level
+
 - EV adoption by segment;
 - fleet electrification;
 - charging density/utilization;
@@ -1375,6 +1404,7 @@ A data moat built by violating ownership or privacy is not an AMOS-valid moat.
 - domestic value capture.
 
 ## M-level
+
 - fleet TCO;
 - charger availability;
 - service parts latency;
@@ -1384,6 +1414,7 @@ A data moat built by violating ownership or privacy is not an AMOS-valid moat.
 - depot productivity.
 
 ## L-level
+
 - queue minutes;
 - charge success;
 - kWh/session;
@@ -1395,9 +1426,9 @@ A data moat built by violating ownership or privacy is not an AMOS-valid moat.
 
 Every executive KPI should be decomposable into operational evidence.
 
----
+______________________________________________________________________
 
-# 30. Decision scorecard for a fleet EV conversion
+## 30. Decision scorecard for a fleet EV conversion
 
 $$Score = w_1 TCOAdv +w_2 Availability +w_3 ChargeFit +w_4 ServiceFit +w_5 ResidualValue +w_6 PolicyFit +w_7 DataFit -w_8 TailRisk$$
 
@@ -1412,9 +1443,9 @@ if insurance/warranty gap critical → NO_GO
 
 Weighted optimization may never override hard viability constraints.
 
----
+______________________________________________________________________
 
-# 31. Station investment gate
+## 31. Station investment gate
 
 $$Invest_j = DemandFit \land GridFit \land LandFit \land AccessFit \land UnitEconomics \land O\&MFit \land RegulatoryFit$$
 
@@ -1422,9 +1453,9 @@ A station is not “good” because traffic is high.
 
 It must fit actual charging demand and dwell behavior.
 
----
+______________________________________________________________________
 
-# 32. Battery-risk gate
+## 32. Battery-risk gate
 
 $$BatteryRisk= ThermalRisk+ FastChargeStress+ DutyCycleStress+ CellVariance+ FaultHistory+ FloodExposure$$
 
@@ -1441,11 +1472,12 @@ REPLACE
 
 These require OEM/engineering-specific thresholds; AMOS must not invent them.
 
----
+______________________________________________________________________
 
-# 33. Forecasting discipline
+## 33. Forecasting discipline
 
 Any forecast such as:
+
 - “X will dominate”;
 - “80% will exit”;
 - “2+1 ecosystems”;
@@ -1470,9 +1502,9 @@ update_frequency:
 
 A forecast that lacks a measurable target cannot be scored.
 
----
+______________________________________________________________________
 
-# 34. Prediction register extracted from source
+## 34. Prediction register extracted from source
 
 The original corpus contains strong forecast language.
 
@@ -1491,9 +1523,9 @@ P8 — charging-only owners without data/O&M sophistication face consolidation r
 
 No prediction is “chắc chắn” merely because it fits the framework.
 
----
+______________________________________________________________________
 
-# 35. Sensitivity analysis
+## 35. Sensitivity analysis
 
 For every strategy, find the smallest premise that flips the decision.
 
@@ -1516,69 +1548,78 @@ If fleet customers do not share driver/battery data
 → optimization scope narrows.
 ```
 
----
+______________________________________________________________________
 
-# 36. Risk register
+## 36. Risk register
 
-| Risk | Layer | Leading indicator | Mitigation |
-|---|---|---|---|
-| policy cliff | H | incentive changes | no-subsidy economics |
-| grid bottleneck | H/M | connection delay/headroom | staged deployment |
-| charger low utilization | M | kWh/day | demand-first siting |
-| hardware reliability | M/L | MTBF/MTTR | O&M SLA |
-| battery uncertainty | M/L | SoH variance | cohort analytics |
-| parts scarcity | M | parts lead time | inventory/SLA |
-| data silos | M | integration coverage | open adapters |
-| privacy/legal | H/M | consent/access failures | governance |
-| OEM exit | H/M | sales/service contraction | multi-brand design |
-| flood/weather | M/L | exposure events | site/vehicle envelopes |
-| driver resistance | L | adoption/churn | workflow design |
-| model drift | M | error/benefit decay | revalidation |
+| Risk                    | Layer | Leading indicator         | Mitigation             |
+| ----------------------- | ----- | ------------------------- | ---------------------- |
+| policy cliff            | H     | incentive changes         | no-subsidy economics   |
+| grid bottleneck         | H/M   | connection delay/headroom | staged deployment      |
+| charger low utilization | M     | kWh/day                   | demand-first siting    |
+| hardware reliability    | M/L   | MTBF/MTTR                 | O&M SLA                |
+| battery uncertainty     | M/L   | SoH variance              | cohort analytics       |
+| parts scarcity          | M     | parts lead time           | inventory/SLA          |
+| data silos              | M     | integration coverage      | open adapters          |
+| privacy/legal           | H/M   | consent/access failures   | governance             |
+| OEM exit                | H/M   | sales/service contraction | multi-brand design     |
+| flood/weather           | M/L   | exposure events           | site/vehicle envelopes |
+| driver resistance       | L     | adoption/churn            | workflow design        |
+| model drift             | M     | error/benefit decay       | revalidation           |
 
----
+______________________________________________________________________
 
-# 37. Cheapest high-information experiments
+## 37. Cheapest high-information experiments
 
 Do not build the whole platform before testing decisive premises.
 
 ## Experiment E1 — Idle-cost reality
+
 Measure 100–500 drivers:
+
 - queue;
 - charging;
 - deadhead;
 - missed trips.
 
 ## E2 — Charger reliability
+
 Instrument a representative charger cohort:
+
 - uptime;
 - fail types;
 - MTTR;
 - actual power.
 
 ## E3 — Battery degradation
+
 Longitudinal cohort by chemistry/use:
+
 - SoH;
 - heat;
 - fast charge;
 - duty cycle.
 
 ## E4 — Multi-brand integration
+
 Integrate 3 OEMs + 2 charger protocols + 2 fleets.
 
 Test:
+
 - data completeness;
 - latency;
 - semantic mismatch;
 - business value.
 
 ## E5 — Data-to-TCO causal test
+
 Use optimization on treatment fleet versus matched baseline.
 
 Measure realized savings, not predicted savings.
 
----
+______________________________________________________________________
 
-# 38. Validation ladder
+## 38. Validation ladder
 
 ```text
 SOURCE_CLAIM
@@ -1600,9 +1641,9 @@ PRODUCTION POLICY
 
 A single pilot cannot authorize national generalization.
 
----
+______________________________________________________________________
 
-# 39. RSCF template for each major claim
+## 39. RSCF template for each major claim
 
 ```yaml
 claim_id:
@@ -1641,9 +1682,9 @@ falsifiers:
 confidence_ceiling: conditional
 ```
 
----
+______________________________________________________________________
 
-# 40. AMOS system-completion test
+## 40. AMOS system-completion test
 
 The EV strategy is incomplete if any of these are absent:
 
@@ -1672,9 +1713,9 @@ Governance
 
 Completeness is scoped. It is not proof of commercial success.
 
----
+______________________________________________________________________
 
-# 41. Strategic answer: what is the real control point?
+## 41. Strategic answer: what is the real control point?
 
 The source repeatedly implies:
 
@@ -1701,9 +1742,9 @@ cross-brand operational observability
 
 not simply “collect the most data.”
 
----
+______________________________________________________________________
 
-# 42. What a true EV operating system would do
+## 42. What a true EV operating system would do
 
 It would not be a dashboard.
 
@@ -1737,9 +1778,9 @@ observe
 
 with explicit provenance and rollback.
 
----
+______________________________________________________________________
 
-# 43. Minimum product architecture
+## 43. Minimum product architecture
 
 ```text
 INGESTION
@@ -1792,44 +1833,51 @@ EVIDENCE
   policy compliance
 ```
 
----
+______________________________________________________________________
 
-# 44. Phase roadmap
+## 44. Phase roadmap
 
 ## Phase 0 — Evidence reconstruction
+
 - normalize current fleet/station data;
 - establish source truth;
 - quantify unknowns.
 
 ## Phase 1 — Read-only observability
+
 - no autonomous effects;
 - unify telemetry;
 - build KPI baseline.
 
 ## Phase 2 — Decision support
+
 - recommendations;
 - human approval;
 - measure forecast quality.
 
 ## Phase 3 — Bounded workflow automation
+
 - reservations;
 - maintenance tickets;
 - charge scheduling;
 - reversible effects.
 
 ## Phase 4 — Closed-loop optimization
+
 Only after:
+
 - validated effect attribution;
 - safety;
 - authority;
 - rollback;
 - drift monitoring.
 
----
+______________________________________________________________________
 
-# 45. 2026–2030 strategic watchlist
+## 45. 2026–2030 strategic watchlist
 
 Monitor:
+
 - policy dates and implementation detail;
 - actual urban restriction boundaries;
 - EV registration by segment;
@@ -1850,9 +1898,9 @@ Monitor:
 
 A prediction should be updated when a watch variable crosses its declared threshold.
 
----
+______________________________________________________________________
 
-# 46. Conclusion
+## 46. Conclusion
 
 The maximum-detail AMOS interpretation is stronger than the source’s headline claim.
 
@@ -1877,13 +1925,14 @@ Market forecasts: CONDITIONAL / COMPETING
 UniPower middleware thesis: AMOS_MODEL / CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
-# APPENDIX A — SOURCE CLAIM FIREWALL
+## APPENDIX A — SOURCE CLAIM FIREWALL
 
 The original corpus contains precise numbers, market shares, dates, policy statements, company forecasts and causal statements. This MAX DETAIL rebuild preserves them as source material but does not independently certify them.
 
 Before external publication or capital allocation, high-impact statements should receive:
+
 - source identity;
 - publication date;
 - event date;
@@ -1893,12 +1942,11 @@ Before external publication or capital allocation, high-impact statements should
 - freshness;
 - contradiction search.
 
----
+______________________________________________________________________
 
-# APPENDIX B — ORIGINAL SOURCE CORPUS, CLEANED AND PRESERVED
+## APPENDIX B — ORIGINAL SOURCE CORPUS, CLEANED AND PRESERVED
 
 The following is the visible text extracted from the attached source artifact. It is preserved for lineage and auditing; its inclusion is not empirical validation.
-
 
 ```text
 ⭐ Toàn cảnh EV Việt Nam
@@ -3204,19 +3252,23 @@ hạ tầng và dữ liệu.
 ---
 **Related:**  · 06-Knowledge-Base-MOC · AMOS_Simulation_Kernel_v0_Math_Foundations · system_scan_agent · automation_profiles
 ```
----
+
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos_ev_vietnam
 node_type: note
 path: 11_KNOWLEDGE/AMOS_EV_VIETNAM.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]]

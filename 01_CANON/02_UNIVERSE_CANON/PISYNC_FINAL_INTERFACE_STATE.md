@@ -1,28 +1,31 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: PISYNC Final Interface State
 aliases:
-- PISYNC
-- PISYNC Final State
-- PISYNC Interface State
-- PISYNC Final Interface
+  - PISYNC
+  - PISYNC Final State
+  - PISYNC Interface State
+  - PISYNC Final Interface
 type: universe-canon
 source: 01_CANON/02_UNIVERSE_CANON
 tags:
-- pisync
-- interface
-- interface_state
-- final_interface_state
-- synchronization
-- synchronous_feedback
-- cross_modal
-- cross_modal_feedback
-- perception
-- cognition
-- external_interface
-- actuary_interface
-- universe_canon
-- canon/universe
-- canon
+  - pisync
+  - interface
+  - interface_state
+  - final_interface_state
+  - synchronization
+  - synchronous_feedback
+  - cross_modal
+  - cross_modal_feedback
+  - perception
+  - cognition
+  - external_interface
+  - actuary_interface
+  - universe_canon
+  - canon/universe
+  - canon
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -34,13 +37,13 @@ rscf:
 
 > Final interface state model governing synchronous cross-modal feedback across perception, cognition, and external actuary interfaces.
 
----
+______________________________________________________________________
 
-# 0. Source Status
+## 0. Source Status
 
 The supplied source directly establishes:
 
-```yaml
+````yaml
 source_established:
   title: PISYNC Final Interface State
   type: universe_canon
@@ -76,15 +79,15 @@ not_source_established:
   - validation receipts
   - empirical performance claims
   - hardware implementation
-```
+````
 
 Accordingly, the expanded architecture below is a structured
 `AMOS_MODEL / DERIVED` interpretation of the supplied canonical
 sentence unless separately identified as source-established.
 
----
+______________________________________________________________________
 
-# 1. Canonical Source Spine
+## 1. Canonical Source Spine
 
 The canonical source spine is:
 
@@ -102,9 +105,9 @@ EXTERNAL ACTUARY INTERFACES
 
 This spine must remain recoverable through all later elaborations.
 
----
+______________________________________________________________________
 
-# 2. Governing Objective
+## 2. Governing Objective
 
 PISYNC defines a final interface-state model for coordinating feedback
 across three explicitly named domains:
@@ -124,9 +127,9 @@ The bidirectional arrows are a **MODEL representation** of the phrase
 
 The source itself does not define exact edge directionality.
 
----
+______________________________________________________________________
 
-# 3. Name Decomposition
+## 3. Name Decomposition
 
 The supplied title provides three semantic anchors:
 
@@ -162,9 +165,9 @@ an invented acronym expansion
 
 until authoritative canon supplies one.
 
----
+______________________________________________________________________
 
-# 4. "Final" Boundary
+## 4. "Final" Boundary
 
 The word:
 
@@ -198,9 +201,9 @@ SOURCE TERM
 SEMANTIC DETAIL GAP
 ```
 
----
+______________________________________________________________________
 
-# 5. "Interface State" Boundary
+## 5. "Interface State" Boundary
 
 The source explicitly identifies PISYNC as an:
 
@@ -226,9 +229,9 @@ persistent
 ephemeral
 ```
 
----
+______________________________________________________________________
 
-# 6. "Synchronous" Boundary
+## 6. "Synchronous" Boundary
 
 The source explicitly says:
 
@@ -269,9 +272,9 @@ SAME PHYSICAL CLOCK CYCLE
 
 by default.
 
----
+______________________________________________________________________
 
-# 7. "Cross-Modal" Boundary
+## 7. "Cross-Modal" Boundary
 
 The source explicitly says:
 
@@ -299,9 +302,9 @@ numeric
 
 must not be promoted to source canon without additional evidence.
 
----
+______________________________________________________________________
 
-# 8. Three Source-Established Domains
+## 8. Three Source-Established Domains
 
 The source explicitly names:
 
@@ -327,15 +330,15 @@ $$
 
 where:
 
-* \(P\) = perception
-* \(C\) = cognition
-* \(A\) = external actuary interfaces
+- (P) = perception
+- (C) = cognition
+- (A) = external actuary interfaces
 
 The symbols are introduced here for modeling convenience.
 
----
+______________________________________________________________________
 
-# 9. Terminology Preservation — "Actuary"
+## 9. Terminology Preservation — "Actuary"
 
 The source says:
 
@@ -362,9 +365,9 @@ ACTUARY
 remains the canonical supplied term unless authoritative source
 material establishes a correction or specialized meaning.
 
----
+______________________________________________________________________
 
-# 10. External Actuary Interface Gap
+## 10. External Actuary Interface Gap
 
 The source does not define:
 
@@ -382,9 +385,9 @@ external_actuary_interface:
 
 Potential interpretations must remain hypotheses rather than canon.
 
----
+______________________________________________________________________
 
-# 11. Minimal PISYNC Model
+## 11. Minimal PISYNC Model
 
 The smallest sufficient representation is:
 
@@ -421,9 +424,9 @@ EXTERNAL ACTUARY INTERFACES
 
 But exact directionality is not source-defined.
 
----
+______________________________________________________________________
 
-# 12. PISYNC State Abstraction
+## 12. PISYNC State Abstraction
 
 A model-level PISYNC state can be represented as:
 
@@ -435,18 +438,18 @@ $$
 
 where:
 
-* \(P_k\) = perceptual interface state
-* \(C_k\) = cognitive interface state
-* \(A_k\) = external actuary interface state
-* \(I_k\) = cross-interface synchronization state
+- (P_k) = perceptual interface state
+- (C_k) = cognitive interface state
+- (A_k) = external actuary interface state
+- (I_k) = cross-interface synchronization state
 
 This equation is **DERIVED / MODEL**.
 
 It is not supplied canon.
 
----
+______________________________________________________________________
 
-# 13. Interface-State Objective
+## 13. Interface-State Objective
 
 Conceptually, PISYNC seeks a state in which the participating interface
 domains are mutually compatible for the relevant synchronization
@@ -462,9 +465,9 @@ This is a model formalization.
 
 The source does not define `Compatible`.
 
----
+______________________________________________________________________
 
-# 14. Synchronization State
+## 14. Synchronization State
 
 A synchronization state should conceptually answer:
 
@@ -486,9 +489,9 @@ Is a synchronization conflict present?
 
 These questions are derived operational requirements.
 
----
+______________________________________________________________________
 
-# 15. Cross-Modal Feedback
+## 15. Cross-Modal Feedback
 
 A feedback edge can be modeled as:
 
@@ -530,9 +533,9 @@ $$
 
 The source does not establish that all six edges exist.
 
----
+______________________________________________________________________
 
-# 16. Feedback Graph
+## 16. Feedback Graph
 
 A maximal model topology is:
 
@@ -558,9 +561,9 @@ This graph illustrates possible cross-domain feedback.
 
 It is not source-established topology.
 
----
+______________________________________________________________________
 
-# 17. Perception Domain
+## 17. Perception Domain
 
 Within PISYNC, perception is source-established as a participating
 domain.
@@ -576,9 +579,9 @@ perception-derived updates
 
 but none of these substructures are explicitly defined by the source.
 
----
+______________________________________________________________________
 
-# 18. Cognition Domain
+## 18. Cognition Domain
 
 Cognition is source-established as a participating domain.
 
@@ -596,9 +599,9 @@ prediction
 but these are expanded architecture concepts, not direct source
 clauses.
 
----
+______________________________________________________________________
 
-# 19. External Actuary Domain
+## 19. External Actuary Domain
 
 External actuary interfaces are source-established as the third
 participating domain.
@@ -619,9 +622,9 @@ is not established.
 
 Do not choose one interpretation without evidence.
 
----
+______________________________________________________________________
 
-# 20. Cross-Domain Interface
+## 20. Cross-Domain Interface
 
 An interface between domains can conceptually carry:
 
@@ -641,9 +644,9 @@ interface:
 
 Illustrative only.
 
----
+______________________________________________________________________
 
-# 21. Interface Contract
+## 21. Interface Contract
 
 A stronger model-level contract may include:
 
@@ -679,9 +682,9 @@ interface_contract:
 
 No exact schema is source-defined.
 
----
+______________________________________________________________________
 
-# 22. Interface Compatibility
+## 22. Interface Compatibility
 
 Two interface states should not be merged merely because they are
 available simultaneously.
@@ -714,9 +717,9 @@ provenance
 
 when material.
 
----
+______________________________________________________________________
 
-# 23. Synchronous Feedback Does Not Mean Blind Merge
+## 23. Synchronous Feedback Does Not Mean Blind Merge
 
 Critical firewall:
 
@@ -728,9 +731,9 @@ UNCONDITIONAL MERGE
 
 Conflicting states should remain conflicting until resolved.
 
----
+______________________________________________________________________
 
-# 24. Cross-Modal Agreement
+## 24. Cross-Modal Agreement
 
 Different modalities may agree.
 
@@ -754,9 +757,9 @@ COMMON ROOT
 
 their agreement may be correlated.
 
----
+______________________________________________________________________
 
-# 25. Cross-Modal Conflict
+## 25. Cross-Modal Conflict
 
 A synchronization boundary may encounter:
 
@@ -784,9 +787,9 @@ CONFLICT
 
 until discriminating evidence exists.
 
----
+______________________________________________________________________
 
-# 26. Competing Interface States
+## 26. Competing Interface States
 
 When two synchronized modalities support incompatible interpretations
 with insufficient discriminating evidence:
@@ -805,9 +808,9 @@ COMPETING
 
 rather than fabricated convergence.
 
----
+______________________________________________________________________
 
-# 27. Synchronization and Truth
+## 27. Synchronization and Truth
 
 Critical firewall:
 
@@ -821,9 +824,9 @@ Multiple interfaces can synchronize around an incorrect state.
 
 PISYNC governs interface-state coordination, not automatic truth.
 
----
+______________________________________________________________________
 
-# 28. Synchronization and Confidence
+## 28. Synchronization and Confidence
 
 Likewise:
 
@@ -835,9 +838,9 @@ ARBITRARILY HIGHER CONFIDENCE
 
 unless their evidential independence and validity are established.
 
----
+______________________________________________________________________
 
-# 29. Synchronization and Provenance
+## 29. Synchronization and Provenance
 
 Cross-modal feedback should preserve relevant provenance.
 
@@ -864,9 +867,9 @@ must not be misrepresented as:
 
 if all three descend from one origin.
 
----
+______________________________________________________________________
 
-# 30. Provenance Topology
+## 30. Provenance Topology
 
 PISYNC should distinguish:
 
@@ -883,9 +886,9 @@ MULTIPLE INDEPENDENT ROOTS
 A synchronized system can have many modalities but only one
 load-bearing provenance root.
 
----
+______________________________________________________________________
 
-# 31. Feedback Ancestry
+## 31. Feedback Ancestry
 
 Each consequential feedback item can conceptually carry:
 
@@ -901,9 +904,9 @@ feedback:
 This prevents transformed descendants from masquerading as independent
 observations.
 
----
+______________________________________________________________________
 
-# 32. Feedback Loop
+## 32. Feedback Loop
 
 A simple feedback loop:
 
@@ -934,9 +937,9 @@ CORRECTION
 
 Feedback can stabilize or destabilize.
 
----
+______________________________________________________________________
 
-# 33. Positive Feedback Hazard
+## 33. Positive Feedback Hazard
 
 If an erroneous cognitive interpretation alters an external interface,
 which then generates perception consistent with the original
@@ -961,9 +964,9 @@ the loop may self-confirm.
 
 This is a model-level failure mode.
 
----
+______________________________________________________________________
 
-# 34. Self-Confirmation Firewall
+## 34. Self-Confirmation Firewall
 
 A descendant consequence of a decision should not automatically count
 as independent evidence for the decision that caused it.
@@ -978,9 +981,9 @@ INDEPENDENT CONFIRMATION
 
 when causal dependence exists.
 
----
+______________________________________________________________________
 
-# 35. Feedback Correlation
+## 35. Feedback Correlation
 
 If:
 
@@ -988,7 +991,7 @@ $$
 C \rightarrow A \rightarrow P
 $$
 
-then later \(P\) may be causally downstream of cognition \(C\).
+then later (P) may be causally downstream of cognition (C).
 
 Therefore:
 
@@ -1000,9 +1003,9 @@ does not automatically mean perception independently verified C.
 
 This is essential in closed feedback loops.
 
----
+______________________________________________________________________
 
-# 36. Causal Firewall
+## 36. Causal Firewall
 
 PISYNC must distinguish:
 
@@ -1021,9 +1024,9 @@ where causal conclusions are consequential.
 
 Cross-modal synchronization alone does not license causal inference.
 
----
+______________________________________________________________________
 
-# 37. Perception-to-Cognition Boundary
+## 37. Perception-to-Cognition Boundary
 
 A perceptual state entering cognition should retain enough typing to
 distinguish:
@@ -1041,9 +1044,9 @@ when material.
 Otherwise cognition may mistake a derived state for direct
 observation.
 
----
+______________________________________________________________________
 
-# 38. Cognition-to-External Boundary
+## 38. Cognition-to-External Boundary
 
 A cognitive state transmitted to an external interface should
 distinguish:
@@ -1065,9 +1068,9 @@ COGNITIVE CONCLUSION
 AUTHORITY TO ACT
 ```
 
----
+______________________________________________________________________
 
-# 39. External-to-Perception Boundary
+## 39. External-to-Perception Boundary
 
 External feedback returning into perception should preserve whether it
 is:
@@ -1085,9 +1088,9 @@ where relevant.
 
 This helps prevent circular confirmation.
 
----
+______________________________________________________________________
 
-# 40. Interface Typing
+## 40. Interface Typing
 
 A model-level interface type system may use:
 
@@ -1105,9 +1108,9 @@ for payload epistemic status.
 PISYNC source does not explicitly define this taxonomy, but it aligns
 with AMOS evidence discipline.
 
----
+______________________________________________________________________
 
-# 41. State Typing
+## 41. State Typing
 
 Illustrative:
 
@@ -1128,9 +1131,9 @@ pisync_state:
 
 Types must not be silently collapsed.
 
----
+______________________________________________________________________
 
-# 42. Epistemic Upgrade Firewall
+## 42. Epistemic Upgrade Firewall
 
 Incorrect:
 
@@ -1153,9 +1156,9 @@ weakest load-bearing basis
 without independent revalidation
 ```
 
----
+______________________________________________________________________
 
-# 43. Temporal State
+## 43. Temporal State
 
 Synchronous feedback necessarily raises temporal compatibility
 questions.
@@ -1172,9 +1175,9 @@ temporal_state:
 
 Exact temporal fields are not source-defined.
 
----
+______________________________________________________________________
 
-# 44. Freshness
+## 44. Freshness
 
 A perceptual state can be valid but stale.
 
@@ -1186,9 +1189,9 @@ processed.
 
 Therefore synchronization should be freshness-aware.
 
----
+______________________________________________________________________
 
-# 45. Stale-State Failure
+## 45. Stale-State Failure
 
 ```text
 PERCEPTION @ t1
@@ -1203,11 +1206,11 @@ t_0 < t_1
 $$
 
 may create false synchronization if cognition depends on state that
-changed between \(t_0\) and \(t_1\).
+changed between (t_0) and (t_1).
 
----
+______________________________________________________________________
 
-# 46. Synchronization Window
+## 46. Synchronization Window
 
 A model may define a synchronization window:
 
@@ -1228,9 +1231,9 @@ tolerance
 
 Therefore no numeric synchronization threshold is canonical here.
 
----
+______________________________________________________________________
 
-# 47. Epoch Binding
+## 47. Epoch Binding
 
 Where causal epochs apply, a PISYNC state may be bound to:
 
@@ -1248,9 +1251,9 @@ This is a cross-law integration with causal epoch reasoning.
 
 It is not explicit in the supplied PISYNC sentence.
 
----
+______________________________________________________________________
 
-# 48. Epoch Mismatch
+## 48. Epoch Mismatch
 
 If:
 
@@ -1264,9 +1267,9 @@ and the epoch transition materially changed the relevant state, the
 three should not be treated as a synchronized final state without a
 valid bridge.
 
----
+______________________________________________________________________
 
-# 49. No Silent Historical Rewrite
+## 49. No Silent Historical Rewrite
 
 A new synchronized interface state should not silently rewrite an
 earlier state if historical lineage matters.
@@ -1285,9 +1288,9 @@ PISYNC(e_{k+1})
 
 rather than replacing history invisibly.
 
----
+______________________________________________________________________
 
-# 50. Mutation Awareness
+## 50. Mutation Awareness
 
 Any feedback capable of changing interface state introduces a
 distinction between:
@@ -1310,9 +1313,9 @@ $$
 
 should preserve enough state identity to distinguish them.
 
----
+______________________________________________________________________
 
-# 51. Transition Function
+## 51. Transition Function
 
 A normalized transition model:
 
@@ -1331,9 +1334,9 @@ where the deltas represent relevant updates.
 
 This is not a source equation.
 
----
+______________________________________________________________________
 
-# 52. Determinism Boundary
+## 52. Determinism Boundary
 
 Nothing in the supplied source states that PISYNC transitions are:
 
@@ -1347,9 +1350,9 @@ stochastic
 Therefore deterministic behavior must not be inferred solely from the
 word "synchronous."
 
----
+______________________________________________________________________
 
-# 53. Replayability Integration
+## 53. Replayability Integration
 
 If PISYNC state transitions fall under a deterministic replayability
 law, a transition could conceptually be replayed from:
@@ -1368,9 +1371,9 @@ PISYNC SOURCE
 
 does not itself specify this integration.
 
----
+______________________________________________________________________
 
-# 54. Replay Is Not Synchronization
+## 54. Replay Is Not Synchronization
 
 Critical distinction:
 
@@ -1405,9 +1408,9 @@ REPLAYABLE
 
 unless separate laws establish both.
 
----
+______________________________________________________________________
 
-# 55. Snapshot Model
+## 55. Snapshot Model
 
 A synchronized state may be modeled as a snapshot:
 
@@ -1420,9 +1423,9 @@ pisync_snapshot:
 
 But PISYNC does not explicitly establish MVCC or snapshot isolation.
 
----
+______________________________________________________________________
 
-# 56. Snapshot Consistency
+## 56. Snapshot Consistency
 
 If a snapshot model is used:
 
@@ -1442,9 +1445,9 @@ TORN INTERFACE STATE
 
 as a model-level failure condition.
 
----
+______________________________________________________________________
 
-# 57. Atomicity Boundary
+## 57. Atomicity Boundary
 
 The source does not say that all PISYNC state updates are atomically
 committed.
@@ -1459,9 +1462,9 @@ ATOMIC TRANSACTION
 
 without another governing law.
 
----
+______________________________________________________________________
 
-# 58. CAS Integration
+## 58. CAS Integration
 
 Where consequential interface-state mutation uses CAS semantics:
 
@@ -1476,9 +1479,9 @@ can prevent overwriting a newer state.
 But CAS is an integration mechanism, not directly supplied PISYNC
 canon.
 
----
+______________________________________________________________________
 
-# 59. Interface Mutation Conflict
+## 59. Interface Mutation Conflict
 
 Example:
 
@@ -1497,9 +1500,9 @@ A concurrency law may require abort/retry.
 
 PISYNC alone does not define the response.
 
----
+______________________________________________________________________
 
-# 60. Final-State Candidate
+## 60. Final-State Candidate
 
 A candidate final interface state can be modeled as:
 
@@ -1518,9 +1521,9 @@ $$
 The asterisk denotes a candidate finalized state, not mathematical
 optimality.
 
----
+______________________________________________________________________
 
-# 61. Finalization Preconditions
+## 61. Finalization Preconditions
 
 A conservative model could require:
 
@@ -1544,9 +1547,9 @@ before finalization.
 
 These are derived requirements.
 
----
+______________________________________________________________________
 
-# 62. Finalization Does Not Mean Eternal
+## 62. Finalization Does Not Mean Eternal
 
 Critical firewall:
 
@@ -1569,9 +1572,9 @@ one decision boundary
 
 The exact scope remains a gap.
 
----
+______________________________________________________________________
 
-# 63. Finalization Does Not Mean Truth
+## 63. Finalization Does Not Mean Truth
 
 Likewise:
 
@@ -1591,9 +1594,9 @@ UNKNOWN
 
 epistemically.
 
----
+______________________________________________________________________
 
-# 64. Finalization Does Not Mean Authorization
+## 64. Finalization Does Not Mean Authorization
 
 ```text
 FINALIZED COGNITIVE STATE
@@ -1603,9 +1606,9 @@ AUTHORIZED EXTERNAL ACTION
 
 Action governance remains distinct.
 
----
+______________________________________________________________________
 
-# 65. External Consequence Boundary
+## 65. External Consequence Boundary
 
 If an external actuary interface can produce consequential external
 effects, validation should scale with:
@@ -1623,9 +1626,9 @@ downstream dependency
 This is AMOS action-governance integration, not explicit PISYNC source
 content.
 
----
+______________________________________________________________________
 
-# 66. Reversible Action Preference
+## 66. Reversible Action Preference
 
 Under uncertainty, a model-level PISYNC controller should prefer:
 
@@ -1641,9 +1644,9 @@ external interactions over irreversible ones when feasible.
 This prevents synchronization uncertainty from becoming irreversible
 damage.
 
----
+______________________________________________________________________
 
-# 67. External Feedback Receipt
+## 67. External Feedback Receipt
 
 A consequential external interaction may conceptually generate:
 
@@ -1660,9 +1663,9 @@ external_feedback_receipt:
 
 Illustrative only.
 
----
+______________________________________________________________________
 
-# 68. Interface State Machine
+## 68. Interface State Machine
 
 ```text
 UNINITIALIZED
@@ -1691,9 +1694,9 @@ RESOLVE   REFRESH    FINALIZE
 
 This state machine is `MODEL`, not source canon.
 
----
+______________________________________________________________________
 
-# 69. Feedback State Machine
+## 69. Feedback State Machine
 
 ```text
 INPUT
@@ -1725,9 +1728,9 @@ RECOMPUTE <--------------+
 SYNCHRONIZATION CHECK
 ```
 
----
+______________________________________________________________________
 
-# 70. Conflict State Machine
+## 70. Conflict State Machine
 
 ```text
 CONFLICT DETECTED
@@ -1757,9 +1760,9 @@ RESOLVE OR
 PRESERVE COMPETING
 ```
 
----
+______________________________________________________________________
 
-# 71. Staleness State Machine
+## 71. Staleness State Machine
 
 ```text
 STATE RECEIVED
@@ -1781,9 +1784,9 @@ UNKNOWN    WITHIN VALIDITY?
         REFRESH
 ```
 
----
+______________________________________________________________________
 
-# 72. Feedback Loop Detection
+## 72. Feedback Loop Detection
 
 A PISYNC implementation should distinguish productive recursion from
 unbounded or self-confirming feedback.
@@ -1801,9 +1804,9 @@ A loop is not automatically defective.
 But unbounded feedback without new information may require termination
 or escalation.
 
----
+______________________________________________________________________
 
-# 73. Information-Gain Test
+## 73. Information-Gain Test
 
 A model-level loop may ask:
 
@@ -1811,7 +1814,7 @@ $$
 IG(F_k) > 0?
 $$
 
-where \(IG\) denotes decision-relevant information gain.
+where (IG) denotes decision-relevant information gain.
 
 If repeated feedback contributes no new discriminating evidence:
 
@@ -1823,9 +1826,9 @@ may be preferable to repeated cycling.
 
 No canonical information-gain formula is supplied.
 
----
+______________________________________________________________________
 
-# 74. Feedback Amplification Hazard
+## 74. Feedback Amplification Hazard
 
 A feedback system can amplify:
 
@@ -1840,9 +1843,9 @@ misclassification
 
 Therefore synchronization quality depends on more than feedback speed.
 
----
+______________________________________________________________________
 
-# 75. Synchronization Latency
+## 75. Synchronization Latency
 
 The source does not establish:
 
@@ -1856,9 +1859,9 @@ soft real-time deadline
 
 No latency number should be invented.
 
----
+______________________________________________________________________
 
-# 76. Synchronization Frequency
+## 76. Synchronization Frequency
 
 Likewise, PISYNC may theoretically operate:
 
@@ -1871,9 +1874,9 @@ on-demand
 
 but the source does not choose one.
 
----
+______________________________________________________________________
 
-# 77. Clock Model
+## 77. Clock Model
 
 No canonical clock model is supplied.
 
@@ -1890,9 +1893,9 @@ event sequence
 
 Therefore "synchronous" must remain implementation-neutral.
 
----
+______________________________________________________________________
 
-# 78. Ordering
+## 78. Ordering
 
 Feedback may require ordering semantics.
 
@@ -1907,9 +1910,9 @@ commit order
 
 These are not necessarily identical.
 
----
+______________________________________________________________________
 
-# 79. Causal Ordering
+## 79. Causal Ordering
 
 If feedback B depends on A:
 
@@ -1923,9 +1926,9 @@ A causal epoch law may provide stronger guarantees.
 
 PISYNC itself does not define them.
 
----
+______________________________________________________________________
 
-# 80. Interface Scope
+## 80. Interface Scope
 
 Every interface payload can conceptually inherit an applicability
 envelope:
@@ -1943,9 +1946,9 @@ scope:
 This prevents synchronized information from silently escaping its
 valid scope.
 
----
+______________________________________________________________________
 
-# 81. Scope Mismatch
+## 81. Scope Mismatch
 
 Example:
 
@@ -1961,9 +1964,9 @@ Then synchronization is not automatically valid.
 
 Same timestamp does not repair scope mismatch.
 
----
+______________________________________________________________________
 
-# 82. Regime Mismatch
+## 82. Regime Mismatch
 
 Example:
 
@@ -1981,9 +1984,9 @@ live
 The three cannot be treated as one homogeneous evidence regime without
 explicit bridging.
 
----
+______________________________________________________________________
 
-# 83. Regime Bridge
+## 83. Regime Bridge
 
 A regime bridge should conceptually state:
 
@@ -1998,9 +2001,9 @@ validation
 
 Exact schema is not source-defined.
 
----
+______________________________________________________________________
 
-# 84. Interface Provenance
+## 84. Interface Provenance
 
 A consequential interface payload should preserve enough lineage to
 answer:
@@ -2017,9 +2020,9 @@ What earlier state does it depend on?
 Does it share ancestry with another modality?
 ```
 
----
+______________________________________________________________________
 
-# 85. Provenance Independence
+## 85. Provenance Independence
 
 Cross-modal agreement strengthens a conclusion only to the extent that
 the channels provide genuinely independent relevant evidence.
@@ -2038,9 +2041,9 @@ different wording
 
 alone.
 
----
+______________________________________________________________________
 
-# 86. Sybil-Hardened Modal Consensus
+## 86. Sybil-Hardened Modal Consensus
 
 A pathological pattern:
 
@@ -2062,9 +2065,9 @@ This is not three independent confirmations.
 
 PISYNC should preserve root ancestry.
 
----
+______________________________________________________________________
 
-# 87. Modal Voting Boundary
+## 87. Modal Voting Boundary
 
 Nothing in the source establishes majority voting.
 
@@ -2083,9 +2086,9 @@ majority wins
 
 The disagreeing modality may carry the decisive evidence.
 
----
+______________________________________________________________________
 
-# 88. Weighted Fusion Boundary
+## 88. Weighted Fusion Boundary
 
 Likewise, no weights such as:
 
@@ -2097,9 +2100,9 @@ are supplied.
 
 Do not invent a canonical weighted fusion formula.
 
----
+______________________________________________________________________
 
-# 89. Confidence Fusion Boundary
+## 89. Confidence Fusion Boundary
 
 No canonical equation such as:
 
@@ -2113,9 +2116,9 @@ is established.
 
 Such averaging could be invalid under correlated provenance.
 
----
+______________________________________________________________________
 
-# 90. Weakest-Premise Ceiling
+## 90. Weakest-Premise Ceiling
 
 For a load-bearing synchronized conclusion:
 
@@ -2128,9 +2131,9 @@ unless that premise is independently revalidated.
 
 This is an AMOS integrity rule applied to PISYNC.
 
----
+______________________________________________________________________
 
-# 91. Missing Modality
+## 91. Missing Modality
 
 If one required interface state is unavailable:
 
@@ -2152,9 +2155,9 @@ may be required.
 
 Do not fabricate A.
 
----
+______________________________________________________________________
 
-# 92. Partial Synchronization
+## 92. Partial Synchronization
 
 A state can be partially synchronized:
 
@@ -2176,9 +2179,9 @@ FINAL PISYNC
 
 unless finalization semantics explicitly allow it.
 
----
+______________________________________________________________________
 
-# 93. Degraded Mode
+## 93. Degraded Mode
 
 A model implementation may support:
 
@@ -2190,9 +2193,9 @@ when one noncritical interface is unavailable.
 
 But the source does not define degraded-mode behavior.
 
----
+______________________________________________________________________
 
-# 94. Fail-Closed Boundary
+## 94. Fail-Closed Boundary
 
 For consequential external effects, a critical unresolved
 synchronization conflict may justify:
@@ -2205,9 +2208,9 @@ rather than act on fabricated coherence.
 
 This is a governance-derived behavior, not explicit PISYNC canon.
 
----
+______________________________________________________________________
 
-# 95. Fail-Open Boundary
+## 95. Fail-Open Boundary
 
 The source does not authorize fail-open behavior.
 
@@ -2222,9 +2225,9 @@ dependency
 governance
 ```
 
----
+______________________________________________________________________
 
-# 96. Repair
+## 96. Repair
 
 If PISYNC loses coherence:
 
@@ -2239,18 +2242,18 @@ resynchronize
 
 This is a derived recovery model.
 
----
+______________________________________________________________________
 
-# 97. Selective Invalidation
+## 97. Selective Invalidation
 
-If cognitive state \(C_k\) becomes invalid, invalidate only PISYNC
-conclusions that depend on \(C_k\).
+If cognitive state (C_k) becomes invalid, invalidate only PISYNC
+conclusions that depend on (C_k).
 
 Do not automatically destroy unrelated perceptual or external state.
 
----
+______________________________________________________________________
 
-# 98. Rollback Boundary
+## 98. Rollback Boundary
 
 Rollback should distinguish:
 
@@ -2267,9 +2270,9 @@ historical erasure
 If causal epoch semantics apply, recovery creates explicit lineage
 rather than rewriting history.
 
----
+______________________________________________________________________
 
-# 99. Recovery State Machine
+## 99. Recovery State Machine
 
 ```text
 PISYNC FAILURE
@@ -2301,9 +2304,9 @@ NEW FINAL STATE
 
 Model-level.
 
----
+______________________________________________________________________
 
-# 100. Failure Taxonomy
+## 100. Failure Taxonomy
 
 ```yaml
 failure_modes:
@@ -2329,9 +2332,9 @@ failure_modes:
 
 This taxonomy is derived.
 
----
+______________________________________________________________________
 
-# 101. F001 — Missing Interface
+## 101. F001 — Missing Interface
 
 Condition:
 
@@ -2354,9 +2357,9 @@ GAP
 or degraded operation only if the missing interface is proven
 noncritical.
 
----
+______________________________________________________________________
 
-# 102. F002 — Stale Interface
+## 102. F002 — Stale Interface
 
 Condition:
 
@@ -2376,9 +2379,9 @@ Repair:
 refresh or invalidate dependent state
 ```
 
----
+______________________________________________________________________
 
-# 103. F003 — Scope Mismatch
+## 103. F003 — Scope Mismatch
 
 Condition:
 
@@ -2392,9 +2395,9 @@ Risk:
 syntactically coherent but semantically invalid fusion
 ```
 
----
+______________________________________________________________________
 
-# 104. F004 — Regime Mismatch
+## 104. F004 — Regime Mismatch
 
 Condition:
 
@@ -2409,9 +2412,9 @@ Repair:
 separate or explicitly bridge regimes
 ```
 
----
+______________________________________________________________________
 
-# 105. F005 — Provenance Collapse
+## 105. F005 — Provenance Collapse
 
 Condition:
 
@@ -2425,9 +2428,9 @@ Risk:
 derived feedback appears independent
 ```
 
----
+______________________________________________________________________
 
-# 106. F006 — False Independence
+## 106. F006 — False Independence
 
 Condition:
 
@@ -2442,9 +2445,9 @@ Risk:
 fabricated confidence
 ```
 
----
+______________________________________________________________________
 
-# 107. F007 — Feedback Amplification
+## 107. F007 — Feedback Amplification
 
 Condition:
 
@@ -2458,9 +2461,9 @@ Potential result:
 unstable interface state
 ```
 
----
+______________________________________________________________________
 
-# 108. F008 — Self-Confirming Loop
+## 108. F008 — Self-Confirming Loop
 
 Condition:
 
@@ -2476,9 +2479,9 @@ Repair:
 trace causal ancestry
 ```
 
----
+______________________________________________________________________
 
-# 109. F009 — Temporal Mismatch
+## 109. F009 — Temporal Mismatch
 
 Condition:
 
@@ -2492,9 +2495,9 @@ Risk:
 torn final state
 ```
 
----
+______________________________________________________________________
 
-# 110. F010 — Version Mismatch
+## 110. F010 — Version Mismatch
 
 Condition:
 
@@ -2509,9 +2512,9 @@ transform through validated version bridge
 or reject
 ```
 
----
+______________________________________________________________________
 
-# 111. F011 — Interface Conflict
+## 111. F011 — Interface Conflict
 
 Condition:
 
@@ -2529,9 +2532,9 @@ or discriminating validation.
 
 Not forced convergence.
 
----
+______________________________________________________________________
 
-# 112. F012 — Schema Mismatch
+## 112. F012 — Schema Mismatch
 
 Condition:
 
@@ -2542,9 +2545,9 @@ payload producer and consumer interpret fields differently
 This can create silent semantic corruption despite successful
 transport.
 
----
+______________________________________________________________________
 
-# 113. F013 — Unauthorized External Effect
+## 113. F013 — Unauthorized External Effect
 
 Condition:
 
@@ -2561,9 +2564,9 @@ SYNCHRONIZED
 AUTHORIZED
 ```
 
----
+______________________________________________________________________
 
-# 114. F014 — Stale Cognition
+## 114. F014 — Stale Cognition
 
 Condition:
 
@@ -2578,9 +2581,9 @@ Risk:
 externally consequential action from stale internal model
 ```
 
----
+______________________________________________________________________
 
-# 115. F015 — Partial State as Final
+## 115. F015 — Partial State as Final
 
 Condition:
 
@@ -2596,9 +2599,9 @@ FINAL
 
 without explicit degraded/finality semantics.
 
----
+______________________________________________________________________
 
-# 116. F016 — Forced Modal Convergence
+## 116. F016 — Forced Modal Convergence
 
 Condition:
 
@@ -2613,9 +2616,9 @@ Risk:
 contradiction destruction
 ```
 
----
+______________________________________________________________________
 
-# 117. F017 — Causal Overreach
+## 117. F017 — Causal Overreach
 
 Condition:
 
@@ -2631,9 +2634,9 @@ causal proof
 
 without appropriate evidence.
 
----
+______________________________________________________________________
 
-# 118. F018 — Hidden Feedback Dependency
+## 118. F018 — Hidden Feedback Dependency
 
 Condition:
 
@@ -2648,9 +2651,9 @@ Risk:
 circular evidence
 ```
 
----
+______________________________________________________________________
 
-# 119. Anti-Pattern Register
+## 119. Anti-Pattern Register
 
 ```yaml
 anti_patterns:
@@ -2716,9 +2719,9 @@ anti_patterns:
     name: INVENTED_ACTUARY_SEMANTICS
 ```
 
----
+______________________________________________________________________
 
-# 120. Minimal Interface Schema
+## 120. Minimal Interface Schema
 
 ```yaml
 pisync_interface_state:
@@ -2739,9 +2742,9 @@ pisync_interface_state:
 
 Illustrative only.
 
----
+______________________________________________________________________
 
-# 121. Full Interface Schema
+## 121. Full Interface Schema
 
 ```yaml
 pisync_interface_state:
@@ -2794,9 +2797,9 @@ pisync_interface_state:
 
 This schema is model-level.
 
----
+______________________________________________________________________
 
-# 122. Synchronization Status Taxonomy
+## 122. Synchronization Status Taxonomy
 
 A possible model taxonomy:
 
@@ -2816,9 +2819,9 @@ SUPERSEDED
 
 No exact canonical state enumeration is supplied.
 
----
+______________________________________________________________________
 
-# 123. Compatibility Matrix
+## 123. Compatibility Matrix
 
 | Perception | Cognition  | External   | Model result              |
 | ---------- | ---------- | ---------- | ------------------------- |
@@ -2835,9 +2838,9 @@ No exact canonical state enumeration is supplied.
 
 This is illustrative, not canonical.
 
----
+______________________________________________________________________
 
-# 124. Epistemic Decision Matrix
+## 124. Epistemic Decision Matrix
 
 | Condition                               | Appropriate state           |
 | --------------------------------------- | --------------------------- |
@@ -2850,9 +2853,9 @@ This is illustrative, not canonical.
 | Causal relation unsupported             | MODEL / correlation only    |
 | State synchronized but truth unverified | synchronized, not VERIFIED  |
 
----
+______________________________________________________________________
 
-# 125. Synchronization Validation
+## 125. Synchronization Validation
 
 A model validator could evaluate:
 
@@ -2876,9 +2879,9 @@ GOVERNANCE
 
 where relevant.
 
----
+______________________________________________________________________
 
-# 126. Structural Validation
+## 126. Structural Validation
 
 Questions:
 
@@ -2892,9 +2895,9 @@ Are required identifiers present?
 Are schema versions compatible?
 ```
 
----
+______________________________________________________________________
 
-# 127. Semantic Validation
+## 127. Semantic Validation
 
 Questions:
 
@@ -2908,9 +2911,9 @@ Do state identities refer to the same relevant object?
 Are assumptions compatible?
 ```
 
----
+______________________________________________________________________
 
-# 128. Temporal Validation
+## 128. Temporal Validation
 
 Questions:
 
@@ -2922,9 +2925,9 @@ Do they belong to compatible temporal boundaries?
 Did a material mutation occur between them?
 ```
 
----
+______________________________________________________________________
 
-# 129. Provenance Validation
+## 129. Provenance Validation
 
 Questions:
 
@@ -2938,9 +2941,9 @@ Did cognition generate the external state now being observed?
 Is apparent corroboration circular?
 ```
 
----
+______________________________________________________________________
 
-# 130. Scope Validation
+## 130. Scope Validation
 
 Questions:
 
@@ -2956,9 +2959,9 @@ Same population/object?
 Same assumptions?
 ```
 
----
+______________________________________________________________________
 
-# 131. Regime Validation
+## 131. Regime Validation
 
 Questions:
 
@@ -2970,9 +2973,9 @@ If not, is there a valid bridge?
 Are non-portable assumptions explicit?
 ```
 
----
+______________________________________________________________________
 
-# 132. Governance Validation
+## 132. Governance Validation
 
 Before consequential external interaction:
 
@@ -2988,9 +2991,9 @@ Are critical uncertainties resolved?
 Does the external interface permit this mutation?
 ```
 
----
+______________________________________________________________________
 
-# 133. Finalization Validator
+## 133. Finalization Validator
 
 Illustrative:
 
@@ -3023,9 +3026,9 @@ def validate_pisync(candidate):
 
 Illustrative only.
 
----
+______________________________________________________________________
 
-# 134. Feedback Processor
+## 134. Feedback Processor
 
 ```python
 def process_feedback(state, feedback):
@@ -3043,9 +3046,9 @@ def process_feedback(state, feedback):
 
 Model-level pseudocode.
 
----
+______________________________________________________________________
 
-# 135. Synchronization Loop
+## 135. Synchronization Loop
 
 ```python
 def pisync_cycle(state, inputs):
@@ -3064,9 +3067,9 @@ def pisync_cycle(state, inputs):
 
 No executable implementation is source-established.
 
----
+______________________________________________________________________
 
-# 136. Provenance-Aware Modal Check
+## 136. Provenance-Aware Modal Check
 
 ```python
 def independent_modal_support(a, b):
@@ -3081,9 +3084,9 @@ def independent_modal_support(a, b):
 
 Candidate independence still requires appropriate failure-mode analysis.
 
----
+______________________________________________________________________
 
-# 137. Feedback-Cycle Check
+## 137. Feedback-Cycle Check
 
 ```python
 def detect_self_confirmation(claim, observation):
@@ -3095,9 +3098,9 @@ def detect_self_confirmation(claim, observation):
 
 Model-level.
 
----
+______________________________________________________________________
 
-# 138. Cross-Modal Proof Capsule
+## 138. Cross-Modal Proof Capsule
 
 ```yaml
 proof_capsule:
@@ -3147,9 +3150,9 @@ proof_capsule:
 
 Illustrative proof capsule.
 
----
+______________________________________________________________________
 
-# 139. Final-State Proof Capsule
+## 139. Final-State Proof Capsule
 
 ```yaml
 final_state_proof:
@@ -3174,9 +3177,9 @@ final_state_proof:
 No final state should be promoted merely because the node is named
 "Final Interface State."
 
----
+______________________________________________________________________
 
-# 140. Finality Receipt
+## 140. Finality Receipt
 
 An implementation may produce:
 
@@ -3212,9 +3215,9 @@ pisync_finality_receipt:
 
 The source does not require this exact receipt.
 
----
+______________________________________________________________________
 
-# 141. Replay Receipt Integration
+## 141. Replay Receipt Integration
 
 If replayability applies:
 
@@ -3233,9 +3236,9 @@ REPLAY MATCH
 PISYNC TRUTH
 ```
 
----
+______________________________________________________________________
 
-# 142. Atomic Multi-RSCF Integration
+## 142. Atomic Multi-RSCF Integration
 
 A PISYNC finalization may depend on multiple RSCF capsules:
 
@@ -3255,9 +3258,9 @@ that no failed capsule remains silently authoritative.
 
 This is a derived integration.
 
----
+______________________________________________________________________
 
-# 143. Locality
+## 143. Locality
 
 Some interface feedback may be locally resolvable.
 
@@ -3281,9 +3284,9 @@ LOCAL APPEARANCE
 PROVEN LOCALITY
 ```
 
----
+______________________________________________________________________
 
-# 144. Cross-Shard Boundary
+## 144. Cross-Shard Boundary
 
 The supplied PISYNC source does not mention:
 
@@ -3296,9 +3299,9 @@ consensus
 
 Therefore any such integration remains model-level.
 
----
+______________________________________________________________________
 
-# 145. Coordination Avoidance
+## 145. Coordination Avoidance
 
 A local PISYNC update may avoid broader coordination only when a proof
 establishes that broader state cannot materially alter the result.
@@ -3319,9 +3322,9 @@ LOCAL FAST PATH CANDIDATE
 
 This is not direct PISYNC source canon.
 
----
+______________________________________________________________________
 
-# 146. Escalation Conditions
+## 146. Escalation Conditions
 
 Escalate when:
 
@@ -3339,9 +3342,9 @@ global invariant
 unknown external-interface semantics
 ```
 
----
+______________________________________________________________________
 
-# 147. Adaptive Complexity
+## 147. Adaptive Complexity
 
 PISYNC reasoning can use the smallest sufficient validation scope.
 
@@ -3366,9 +3369,9 @@ high-stakes cross-domain finalization
 
 This is an AMOS runtime integration, not source-defined PISYNC levels.
 
----
+______________________________________________________________________
 
-# 148. High-Stakes Escalation
+## 148. High-Stakes Escalation
 
 Increase validation when PISYNC affects:
 
@@ -3384,9 +3387,9 @@ large downstream dependencies
 
 The source does not itself claim these applications.
 
----
+______________________________________________________________________
 
-# 149. Sensitivity Analysis
+## 149. Sensitivity Analysis
 
 Before expensive global synchronization, identify the smallest
 uncertainty capable of flipping the interface verdict.
@@ -3412,18 +3415,18 @@ A freshness
 
 first.
 
----
+______________________________________________________________________
 
-# 150. Cheapest Discriminating Test
+## 150. Cheapest Discriminating Test
 
 When modalities conflict, prefer the cheapest reliable test that can
 distinguish among the viable states.
 
 Do not accumulate redundant descendants of the same evidence source.
 
----
+______________________________________________________________________
 
-# 151. Contradiction Preservation
+## 151. Contradiction Preservation
 
 PISYNC must not optimize synchronization by deleting contradiction.
 
@@ -3445,9 +3448,9 @@ average H1 and H2
 
 when no valid merge exists.
 
----
+______________________________________________________________________
 
-# 152. Unknown Preservation
+## 152. Unknown Preservation
 
 If external actuary semantics are unavailable:
 
@@ -3459,9 +3462,9 @@ must remain visible.
 
 Fluent completion must not invent the missing ontology.
 
----
+______________________________________________________________________
 
-# 153. Repairability
+## 153. Repairability
 
 A good interface design should make synchronization errors:
 
@@ -3476,9 +3479,9 @@ where possible.
 
 This is a derived design principle.
 
----
+______________________________________________________________________
 
-# 154. Interface Observability
+## 154. Interface Observability
 
 Repair requires enough observability to determine:
 
@@ -3492,9 +3495,9 @@ what feedback it generated
 
 Exact telemetry is not source-defined.
 
----
+______________________________________________________________________
 
-# 155. Interface Auditability
+## 155. Interface Auditability
 
 A consequential PISYNC transition may benefit from an audit trail:
 
@@ -3510,9 +3513,9 @@ external effects
 
 This supports later replay and repair.
 
----
+______________________________________________________________________
 
-# 156. Interface Identity
+## 156. Interface Identity
 
 Each participating state should be identifiable enough to avoid
 confusing:
@@ -3527,9 +3530,9 @@ as one synchronized snapshot.
 
 Exact identity format remains a gap.
 
----
+______________________________________________________________________
 
-# 157. Versioning
+## 157. Versioning
 
 A model implementation may use:
 
@@ -3542,9 +3545,9 @@ or state-level versions.
 
 The source provides no versioning contract.
 
----
+______________________________________________________________________
 
-# 158. Schema Evolution
+## 158. Schema Evolution
 
 When an interface schema changes:
 
@@ -3556,9 +3559,9 @@ a compatibility bridge should be explicit.
 
 Silent reinterpretation can corrupt synchronized state.
 
----
+______________________________________________________________________
 
-# 159. Interface Translation
+## 159. Interface Translation
 
 Cross-modal synchronization may require transformations:
 
@@ -3577,9 +3580,9 @@ The validity of the transformation is part of the interface integrity.
 A correct source state plus an invalid transformation can produce an
 invalid target state.
 
----
+______________________________________________________________________
 
-# 160. Translation Is Load-Bearing
+## 160. Translation Is Load-Bearing
 
 Critical:
 
@@ -3594,9 +3597,9 @@ INVALID DERIVED STATE
 Therefore translation logic cannot be ignored when validating
 cross-modal feedback.
 
----
+______________________________________________________________________
 
-# 161. Semantic Compression Hazard
+## 161. Semantic Compression Hazard
 
 If rich perceptual state is compressed into a cognitive representation:
 
@@ -3614,9 +3617,9 @@ P_summary == P_full
 
 unless equivalence is established for the relevant decision.
 
----
+______________________________________________________________________
 
-# 162. Lossy Interface Boundary
+## 162. Lossy Interface Boundary
 
 Some cross-modal transformations may be lossy.
 
@@ -3632,9 +3635,9 @@ when material.
 
 This is derived architecture.
 
----
+______________________________________________________________________
 
-# 163. Cross-Scale Boundary
+## 163. Cross-Scale Boundary
 
 A perception at one scale does not automatically validate cognition at
 another scale.
@@ -3653,18 +3656,18 @@ global system property
 
 PISYNC must preserve scale scope.
 
----
+______________________________________________________________________
 
-# 164. Cross-Domain Analogy Boundary
+## 164. Cross-Domain Analogy Boundary
 
 A structural mapping between perception, cognition, and external
 interfaces remains a model mapping unless independently validated.
 
 Structural similarity alone does not establish identical mechanisms.
 
----
+______________________________________________________________________
 
-# 165. Human Interface Boundary
+## 165. Human Interface Boundary
 
 The source does not explicitly say whether:
 
@@ -3678,9 +3681,9 @@ Therefore this remains unspecified.
 
 Do not silently include or exclude humans.
 
----
+______________________________________________________________________
 
-# 166. Machine Interface Boundary
+## 166. Machine Interface Boundary
 
 Likewise, the source does not establish whether external actuary
 interfaces are:
@@ -3697,9 +3700,9 @@ environmental actuators
 
 The ontology remains open.
 
----
+______________________________________________________________________
 
-# 167. Physical Actuation Boundary
+## 167. Physical Actuation Boundary
 
 Because the source says `actuary`, not `actuator`, no claim of physical
 actuation is source-established.
@@ -3711,9 +3714,9 @@ DO NOT CORRECT TERMINOLOGY
 BY ASSUMPTION.
 ```
 
----
+______________________________________________________________________
 
-# 168. Naming Falsifier
+## 168. Naming Falsifier
 
 If authoritative universe canon establishes that:
 
@@ -3731,9 +3734,9 @@ then this terminology boundary should be superseded explicitly.
 
 Until then, preserve the supplied term.
 
----
+______________________________________________________________________
 
-# 169. PISYNC Invariants — Model Register
+## 169. PISYNC Invariants — Model Register
 
 ```text
 PI-I1
@@ -3778,9 +3781,9 @@ PI-I1 through PI-I3 are direct paraphrases of the supplied source.
 
 PI-I4 onward are derived integrity constraints.
 
----
+______________________________________________________________________
 
-# 170. Core Model Equations
+## 170. Core Model Equations
 
 Normalized model:
 
@@ -3814,9 +3817,9 @@ $$
 
 These equations are **not** directly supplied by the source.
 
----
+______________________________________________________________________
 
-# 171. Stronger Integrity Equation
+## 171. Stronger Integrity Equation
 
 A derived finalization condition:
 
@@ -3846,11 +3849,11 @@ $$
 
 This is AMOS-model integration.
 
----
+______________________________________________________________________
 
-# 172. Provenance Integrity Equation
+## 172. Provenance Integrity Equation
 
-For support paths \(S_1,\ldots,S_n\):
+For support paths (S_1,\\ldots,S_n):
 
 $$
 IndependentSupport
@@ -3869,9 +3872,9 @@ $$
 then the two should not automatically be counted as independent
 confirmation.
 
----
+______________________________________________________________________
 
-# 173. Causal Feedback Equation
+## 173. Causal Feedback Equation
 
 If:
 
@@ -3885,7 +3888,7 @@ $$
 P_{k+1}
 $$
 
-is potentially causally downstream of \(C_k\).
+is potentially causally downstream of (C_k).
 
 Therefore:
 
@@ -3897,11 +3900,11 @@ $$
 
 This is a derived causal firewall.
 
----
+______________________________________________________________________
 
-# 174. Finality Confidence Ceiling
+## 174. Finality Confidence Ceiling
 
-For a load-bearing synchronized conclusion \(Q\):
+For a load-bearing synchronized conclusion (Q):
 
 $$
 Conf(Q)
@@ -3919,9 +3922,9 @@ over the actual load-bearing elements.
 
 This is a model-level confidence ceiling, not a source PISYNC formula.
 
----
+______________________________________________________________________
 
-# 175. PISYNC Proof Graph
+## 175. PISYNC Proof Graph
 
 ```text
 SOURCE STATEMENT
@@ -3949,9 +3952,9 @@ PISYNC FINAL INTERFACE STATE
 
 This graph reflects only source-established semantic components.
 
----
+______________________________________________________________________
 
-# 176. Expanded Dependency Graph
+## 176. Expanded Dependency Graph
 
 ```text
 PISYNC
@@ -3980,9 +3983,9 @@ PISYNC
 Only the first three domains plus synchronous cross-modal feedback are
 directly source-established.
 
----
+______________________________________________________________________
 
-# 177. Architecture
+## 177. Architecture
 
 ```text
 ┌─────────────────────────────────────────────────────────┐
@@ -4012,9 +4015,9 @@ directly source-established.
 
 The lower validation layer is derived architecture.
 
----
+______________________________________________________________________
 
-# 178. Operational Contract
+## 178. Operational Contract
 
 ```yaml
 operational_contract:
@@ -4056,9 +4059,9 @@ operational_contract:
 
 Model-level.
 
----
+______________________________________________________________________
 
-# 179. Validation Receipt Model
+## 179. Validation Receipt Model
 
 ```yaml
 pisync_validation_receipt:
@@ -4101,9 +4104,9 @@ pisync_validation_receipt:
 
 No such receipt is supplied by the source.
 
----
+______________________________________________________________________
 
-# 180. Adversarial Validation
+## 180. Adversarial Validation
 
 For consequential PISYNC finalization, challenge the candidate through
 a genuinely different path.
@@ -4133,9 +4136,9 @@ Is "final" being mistaken for "true"?
 Is "actuary" being silently reinterpreted?
 ```
 
----
+______________________________________________________________________
 
-# 181. Strongest Alternative
+## 181. Strongest Alternative
 
 If the candidate state is:
 
@@ -4159,9 +4162,9 @@ COMPETING(H1,H2)
 
 is preferable to forced fusion.
 
----
+______________________________________________________________________
 
-# 182. Modal Conflict Example
+## 182. Modal Conflict Example
 
 ```text
 PERCEPTION:
@@ -4188,9 +4191,9 @@ causal dependencies
 
 This example is illustrative only.
 
----
+______________________________________________________________________
 
-# 183. Circular Feedback Example
+## 183. Circular Feedback Example
 
 ```text
 COGNITION:
@@ -4223,9 +4226,9 @@ PERCEPTION
 The perception may confirm action execution, but not independently
 confirm the original causal hypothesis.
 
----
+______________________________________________________________________
 
-# 184. Staleness Example
+## 184. Staleness Example
 
 ```text
 P0 -> C0 -> A0
@@ -4247,9 +4250,9 @@ P1 + C0 + A0
 
 without checking whether the mutation invalidated C0/A0.
 
----
+______________________________________________________________________
 
-# 185. Scope Example
+## 185. Scope Example
 
 ```text
 P:
@@ -4266,9 +4269,9 @@ Local perception cannot automatically establish the whole-system state.
 
 Cross-scale bridging is required.
 
----
+______________________________________________________________________
 
-# 186. Regime Example
+## 186. Regime Example
 
 ```text
 P:
@@ -4285,9 +4288,9 @@ A live external action should not be justified merely by internal
 simulation coherence without an appropriate regime bridge and
 governance.
 
----
+______________________________________________________________________
 
-# 187. Missing Evidence Example
+## 187. Missing Evidence Example
 
 ```text
 P = available
@@ -4309,9 +4312,9 @@ UNKNOWN/GAP
 
 rather than invented external feedback.
 
----
+______________________________________________________________________
 
-# 188. Final-State Example
+## 188. Final-State Example
 
 Illustrative:
 
@@ -4342,9 +4345,9 @@ pisync:
 
 This is not a source-supplied PISYNC instance.
 
----
+______________________________________________________________________
 
-# 189. Proof Coordination Integration
+## 189. Proof Coordination Integration
 
 A PISYNC finalization proof may require:
 
@@ -4367,9 +4370,9 @@ VALID PARTS
 VALID COMPOSITION
 ```
 
----
+______________________________________________________________________
 
-# 190. PISYNC and Interface-Wise Proof
+## 190. PISYNC and Interface-Wise Proof
 
 Even if:
 
@@ -4391,9 +4394,9 @@ P <-> A
 
 where present and load-bearing must also be valid.
 
----
+______________________________________________________________________
 
-# 191. PISYNC and Independence Accounting
+## 191. PISYNC and Independence Accounting
 
 If perception and external feedback both derive from the same upstream
 sensor:
@@ -4407,9 +4410,9 @@ P       A
 
 they cannot automatically be counted as two independent confirmations.
 
----
+______________________________________________________________________
 
-# 192. PISYNC and Verification
+## 192. PISYNC and Verification
 
 A statement:
 
@@ -4422,9 +4425,9 @@ remains a source claim unless validation evidence is available.
 A file's existence, length, or complexity does not prove the interface
 state model works.
 
----
+______________________________________________________________________
 
-# 193. Runtime Boundary
+## 193. Runtime Boundary
 
 The supplied source establishes a universe-canon model node.
 
@@ -4443,9 +4446,9 @@ atomic multi-RSCF runtime
 
 These must remain separate from corpus architecture claims.
 
----
+______________________________________________________________________
 
-# 194. Empirical Boundary
+## 194. Empirical Boundary
 
 The source does not provide empirical evidence that PISYNC:
 
@@ -4460,9 +4463,9 @@ outperforms alternative architectures
 
 Any such claim requires evidence.
 
----
+______________________________________________________________________
 
-# 195. Formal Verification Boundary
+## 195. Formal Verification Boundary
 
 No supplied formal proof establishes:
 
@@ -4482,9 +4485,9 @@ for PISYNC.
 
 These remain unverified.
 
----
+______________________________________________________________________
 
-# 196. Convergence Boundary
+## 196. Convergence Boundary
 
 Cross-modal feedback does not guarantee convergence.
 
@@ -4500,9 +4503,9 @@ stall
 
 depending on mechanisms not supplied by the source.
 
----
+______________________________________________________________________
 
-# 197. Stability Boundary
+## 197. Stability Boundary
 
 No stability theorem is supplied.
 
@@ -4514,9 +4517,9 @@ SYNCHRONOUS FEEDBACK
 STABLE FEEDBACK
 ```
 
----
+______________________________________________________________________
 
-# 198. Deadlock Boundary
+## 198. Deadlock Boundary
 
 If PISYNC requires interfaces to wait for one another, deadlock could
 be an implementation concern.
@@ -4525,9 +4528,9 @@ But the source provides no waiting protocol.
 
 Therefore neither deadlock nor deadlock freedom is established.
 
----
+______________________________________________________________________
 
-# 199. Liveness Boundary
+## 199. Liveness Boundary
 
 No liveness property is supplied.
 
@@ -4542,9 +4545,9 @@ escalates
 
 under the canonical model.
 
----
+______________________________________________________________________
 
-# 200. Safety Boundary
+## 200. Safety Boundary
 
 No universal safety property is established.
 
@@ -4556,9 +4559,9 @@ provably safe
 
 without a defined safety invariant and proof.
 
----
+______________________________________________________________________
 
-# 201. Deterministic Finality Boundary
+## 201. Deterministic Finality Boundary
 
 The title's `Final Interface State` does not imply deterministic
 finalization.
@@ -4574,9 +4577,9 @@ is source-established.
 Multiple competing final candidates may be possible under incomplete
 evidence.
 
----
+______________________________________________________________________
 
-# 202. Canonical Completeness Boundary
+## 202. Canonical Completeness Boundary
 
 The supplied node is extremely compact.
 
@@ -4599,9 +4602,9 @@ the operational architecture in this file
 The expansion cannot retroactively become source canon merely by being
 written into the same note.
 
----
+______________________________________________________________________
 
-# 203. Known Gaps
+## 203. Known Gaps
 
 ```yaml
 gaps:
@@ -4699,9 +4702,9 @@ gaps:
     status: UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 204. Critical Gap Priority
+## 204. Critical Gap Priority
 
 The first gaps to resolve are:
 
@@ -4719,9 +4722,9 @@ The first gaps to resolve are:
 
 Without these, detailed implementation semantics remain speculative.
 
----
+______________________________________________________________________
 
-# 205. Falsifiers
+## 205. Falsifiers
 
 The supplied source contains no explicit falsifier section.
 
@@ -4764,9 +4767,9 @@ falsifiers:
 
 These are not source-supplied falsifiers.
 
----
+______________________________________________________________________
 
-# 206. Promotion Requirements
+## 206. Promotion Requirements
 
 Before promoting detailed PISYNC mechanics into stronger canon, obtain
 authoritative definitions for:
@@ -4790,9 +4793,9 @@ recovery semantics
 validation artifacts
 ```
 
----
+______________________________________________________________________
 
-# 207. Source-Established Claims
+## 207. Source-Established Claims
 
 ```yaml
 source_established_claims:
@@ -4829,9 +4832,9 @@ source_established_claims:
     class: SOURCE_CLAIM
 ```
 
----
+______________________________________________________________________
 
-# 208. Derived Claims
+## 208. Derived Claims
 
 ```yaml
 derived_model_claims:
@@ -4850,9 +4853,9 @@ derived_model_claims:
 
 These are architecture-level derivations, not direct source clauses.
 
----
+______________________________________________________________________
 
-# 209. Claims Not Established
+## 209. Claims Not Established
 
 ```yaml
 not_established:
@@ -4881,9 +4884,9 @@ not_established:
   - "actuary" means "actuator"
 ```
 
----
+______________________________________________________________________
 
-# 210. RSCF Model
+## 210. RSCF Model
 
 No RSCF metadata was supplied.
 
@@ -4918,9 +4921,9 @@ RSCF-MODEL:
     - finality_semantics
 ```
 
----
+______________________________________________________________________
 
-# 211. H/M/L Fractal Representation
+## 211. H/M/L Fractal Representation
 
 ```yaml
 PISYNC_FRACTAL:
@@ -4978,9 +4981,9 @@ PISYNC_FRACTAL:
       status: NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 212. Universe-Canon Placement
+## 212. Universe-Canon Placement
 
 The supplied metadata places PISYNC at:
 
@@ -4995,9 +4998,9 @@ This establishes source placement.
 It does not independently establish implementation maturity or
 empirical verification.
 
----
+______________________________________________________________________
 
-# 213. Universe-Canon Boundary
+## 213. Universe-Canon Boundary
 
 Critical:
 
@@ -5016,9 +5019,9 @@ Within this corpus, `universe_canon` is a corpus classification.
 It must not be represented as externally verified physics without
 evidence.
 
----
+______________________________________________________________________
 
-# 214. Canon vs Empirical Reality
+## 214. Canon vs Empirical Reality
 
 PISYNC can be canonical within AMOS architecture while remaining:
 
@@ -5036,9 +5039,9 @@ CORPUS CANON
 UNIVERSAL EMPIRICAL FACT
 ```
 
----
+______________________________________________________________________
 
-# 215. Interface-State Canon Boundary
+## 215. Interface-State Canon Boundary
 
 The source supports describing PISYNC as:
 
@@ -5065,9 +5068,9 @@ or:
 a verified physical mechanism
 ```
 
----
+______________________________________________________________________
 
-# 216. Terminology Integrity
+## 216. Terminology Integrity
 
 Preserve:
 
@@ -5083,9 +5086,9 @@ external actuary interfaces
 
 Do not silently replace these terms with neighboring concepts.
 
----
+______________________________________________________________________
 
-# 217. Minimal Canonical Definition
+## 217. Minimal Canonical Definition
 
 The smallest source-faithful definition is:
 
@@ -5097,9 +5100,9 @@ perception, cognition, and external actuary interfaces.
 
 No stronger mechanics are required by the supplied source.
 
----
+______________________________________________________________________
 
-# 218. Expanded Operational Definition
+## 218. Expanded Operational Definition
 
 A derived operational interpretation is:
 
@@ -5117,9 +5120,9 @@ Classification:
 DERIVED / AMOS_MODEL
 ```
 
----
+______________________________________________________________________
 
-# 219. Compact Integrity Contract
+## 219. Compact Integrity Contract
 
 ```text
 PISYNC
@@ -5181,9 +5184,9 @@ CORPUS CANON
 EMPIRICAL UNIVERSAL LAW
 ```
 
----
+______________________________________________________________________
 
-# 220. PISYNC Validation Questions
+## 220. PISYNC Validation Questions
 
 A full implementation should be able to answer:
 
@@ -5224,9 +5227,9 @@ A full implementation should be able to answer:
 17. What would falsify the final-state candidate?
 ```
 
----
+______________________________________________________________________
 
-# 221. Proof Capsule
+## 221. Proof Capsule
 
 ```yaml
 proof_capsule:
@@ -5292,9 +5295,9 @@ proof_capsule:
     expanded_architecture: MODEL
 ```
 
----
+______________________________________________________________________
 
-# 222. Source Preservation Capsule
+## 222. Source Preservation Capsule
 
 ```yaml
 source_preservation:
@@ -5324,9 +5327,9 @@ source_preservation:
       the supplied source definition.
 ```
 
----
+______________________________________________________________________
 
-# 223. Final Integrity Invariant
+## 223. Final Integrity Invariant
 
 A model-level integrity invariant is:
 
@@ -5360,11 +5363,11 @@ These are normalized architectural derivations.
 
 They are not source equations.
 
----
+______________________________________________________________________
 
-# 224. Final Source Boundary
+## 224. Final Source Boundary
 
-> [!important]
+> [!IMPORTANT]
 > The supplied source establishes only that **PISYNC Final Interface
 > State** is a `universe_canon` node under
 > `01_CANON/02_UNIVERSE_CANON`, described as the **final interface
@@ -5382,9 +5385,9 @@ They are not source equations.
 > `DERIVED / AMOS_MODEL / UNKNOWN-GAP` as appropriate and must not be
 > silently promoted to source-established universe canon.
 
----
+______________________________________________________________________
 
-# 225. Final Canon Form
+## 225. Final Canon Form
 
 ```text
 PISYNC FINAL INTERFACE STATE
@@ -5481,7 +5484,7 @@ PRESERVE
 UNKNOWN/GAP.
 ```
 
----
+______________________________________________________________________
 
 ## Original Canon Spine
 
@@ -5496,13 +5499,15 @@ tags:
 - universe_canon
 ---
 
-# PISYNC Final Interface State — part 2
+## PISYNC Final Interface State — part 2
 
 Final interface state model governing synchronous cross-modal feedback across perception, cognition, and external actuary interfaces.
 ```
 
----
+______________________________________________________________________
 
 **MOC:** [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]] · [[00_ROOT/00_HOME|00_HOME]]
 
+```
+```
 ```

@@ -4,25 +4,22 @@ title: SKILL — Amos Runtime Benchmarking
 type: skill
 source: 07_SKILLS/amos-runtime-benchmarking
 name: amos-runtime-benchmarking
-description: Runtime Benchmarking — audit and repair capability. Use when auditing,
-  failure analysis, gap discovery, or repair allocation. Use when amos-audit-repair-master
-  routes to this specialized capability. Do not use for generic tasks outside audit
-  domain.
+description: Runtime Benchmarking — audit and repair capability. Use when auditing, failure analysis, gap discovery, or repair allocation. Use when amos-audit-repair-master routes to this specialized capability. Do not use for generic tasks outside audit domain.
 parent_skill: amos-audit-repair-master
 domain: audit
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
 tags:
-- type/skill
-- type/skill
-- domain/audit-repair
-- epistemic/source_claim
-- hml/m
-- epistemic/source_claim
-- amos-os
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/audit-repair
+  - epistemic/source_claim
+  - hml/m
+  - epistemic/source_claim
+  - amos-os
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: EMPIRICAL
@@ -32,25 +29,25 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: M
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
-- L7_authority
-- L22_replayability
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
+  - L7_authority
+  - L22_replayability
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L7
-- L16
-- L17
-- L18
-- L22
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L7
+  - L16
+  - L17
+  - L18
+  - L22
 license: MIT
 steward: Trang Phan
 ---
@@ -60,6 +57,7 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: audit. Parent: amos-audit-repair-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
 ## When to Use
 
 - When auditing claims against evidence and provenance
@@ -80,6 +78,7 @@ Origin architect: **Trang Phan**. Domain: audit. Parent: amos-audit-repair-maste
 - **runtime_benchmarking.benchmark_forensics**: Benchmark forensic analysis: trace performance regressions to root causes
 
 > **Reference**: See `references/vault_domain_knowledge.md` (content_hash: 30f0e9656d608195) for the full vault-sourced domain knowledge (9562 chars).
+
 - **runtime_benchmarking.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
 - **runtime_benchmarking.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **runtime_benchmarking.validate_outputs**: Validate outputs against domain constraints and epistemic class.
@@ -87,13 +86,13 @@ Origin architect: **Trang Phan**. Domain: audit. Parent: amos-audit-repair-maste
 ## Operations
 
 1. **runtime_benchmarking.audit_claim**: Audit claims against evidence, provenance, and epistemic class
-2. **runtime_benchmarking.detect_gap**: Detect gaps: missing capabilities, missing evidence, missing tests, missing monitors
-3. **runtime_benchmarking.allocate_repair**: Allocate repair resources to highest-leverage gaps and failure modes
-4. **runtime_benchmarking.verify_closure**: Verify gap closure: requirement → capability → component → test → evidence
-5. **runtime_benchmarking.benchmark_forensics**: Benchmark forensic analysis: trace performance regressions to root causes
-6. **runtime_benchmarking.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-7. **runtime_benchmarking.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
-8. **runtime_benchmarking.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+1. **runtime_benchmarking.detect_gap**: Detect gaps: missing capabilities, missing evidence, missing tests, missing monitors
+1. **runtime_benchmarking.allocate_repair**: Allocate repair resources to highest-leverage gaps and failure modes
+1. **runtime_benchmarking.verify_closure**: Verify gap closure: requirement → capability → component → test → evidence
+1. **runtime_benchmarking.benchmark_forensics**: Benchmark forensic analysis: trace performance regressions to root causes
+1. **runtime_benchmarking.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+1. **runtime_benchmarking.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+1. **runtime_benchmarking.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## 11_KNOWLEDGE Vault Content
 
@@ -107,18 +106,20 @@ From Cosmo Brain Benchmark Firewall: Any performance, superiority, scaling, late
 **Required benchmark fields**: `benchmark_id, version, baseline, workload, harness, environment, raw_outputs, statistic, result, scope, limitations, provenance`
 
 **4 Never rules**:
+
 1. Never generalize beyond the tested scope
-2. Never treat structural properties as measured performance
-3. Never combine incomparable benchmark statistics
-4. Never claim universal superiority from one component-level result
+1. Never treat structural properties as measured performance
+1. Never combine incomparable benchmark statistics
+1. Never claim universal superiority from one component-level result
 
 **Benchmarking protocol**:
+
 1. **Declare**: declare benchmark ID, version, baseline, workload, harness, environment
-2. **Run**: run the benchmark with declared configuration
-3. **Record**: record raw outputs, statistics, results
-4. **Scope**: declare scope and limitations
-5. **Provenance**: record full provenance chain
-6. **Report**: report with all required fields
+1. **Run**: run the benchmark with declared configuration
+1. **Record**: record raw outputs, statistics, results
+1. **Scope**: declare scope and limitations
+1. **Provenance**: record full provenance chain
+1. **Report**: report with all required fields
 
 **Benchmark law**: `BENCHMARK_PASS != PRODUCTION_READY`. A benchmark pass is necessary but not sufficient for production deployment. `RESULT != TRUTH`: a benchmark result is an observation, not a truth claim.
 
@@ -141,7 +142,8 @@ Runtime benchmarking is an engineering quality construct. It does not prove all 
 - **G3 (Provenance)**: Source path recorded for every derived claim.
 - **G4 (Anti-overreach)**: No claim b
 
----
+______________________________________________________________________
+
 **Links:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 ## Related
@@ -151,17 +153,19 @@ Runtime benchmarking is an engineering quality construct. It does not prove all 
 ## Examples
 
 - **Scenario**: When auditing claims against evidence and provenance
+
   - **Input**: A query matching this skill's domain (audit)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When detecting gaps in capabilities, evidence, tests, or monitors
+
   - **Input**: A query matching this skill's domain (audit)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When allocating repair resources to highest-leverage gaps
+
   - **Input**: A query matching this skill's domain (audit)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Anti-Patterns
 
@@ -171,7 +175,6 @@ Runtime benchmarking is an engineering quality construct. It does not prove all 
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `amos-audit-repair-master` — routes to this skill when audit specialization is needed
@@ -179,7 +182,6 @@ Runtime benchmarking is an engineering quality construct. It does not prove all 
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -198,7 +200,6 @@ Runtime benchmarking is an engineering quality construct. It does not prove all 
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -206,7 +207,6 @@ Runtime benchmarking is an engineering quality construct. It does not prove all 
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -219,11 +219,12 @@ Runtime benchmarking is an engineering quality construct. It does not prove all 
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `amos-audit-repair-master` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `amos-runtime-benchmarking-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -231,12 +232,14 @@ Runtime benchmarking is an engineering quality construct. It does not prove all 
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-runtime-benchmarking
 node_type: skill
 path: 07_SKILLS/amos-runtime-benchmarking/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

@@ -12,19 +12,19 @@ segment: 03_CONTROL_PLANE/09_COMMIT
 artifact_kind: LOG
 path: 03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX/MODE_ONTOLOGY.md
 tags:
-- 00_mode_index
-- 09_commit
-- amos-os
-- canon/control-plane
-- canon/universe
-- commit
-- control-plane
-- log
-- mode_index
-- note
-- ontology
-- rscf
-- placeholder_expanded
+  - 00_mode_index
+  - 09_commit
+  - amos-os
+  - canon/control-plane
+  - canon/universe
+  - commit
+  - control-plane
+  - log
+  - mode_index
+  - note
+  - ontology
+  - rscf
+  - placeholder_expanded
 version: 0.2.0
 updated: '2026-08-27'
 status: PLACEHOLDER_EXPANDED
@@ -101,7 +101,7 @@ Origin architect / steward: **Trang Phan**
 
 System: **AMOS OS**
 
----
+______________________________________________________________________
 
 # AMOS OS — Mode Ontology
 
@@ -115,9 +115,9 @@ System: **AMOS OS**
 >
 > **Artifact:** `MODE_ONTOLOGY.md`
 
----
+______________________________________________________________________
 
-# 0. PURPOSE
+## 0. PURPOSE
 
 `MODE_ONTOLOGY` is the governed AMOS OS artifact whose purpose is to define the controlled vocabulary, taxonomies, and semantic relations for AMOS operating modes.
 
@@ -131,17 +131,17 @@ It does **not** grant authority.
 
 It does **not** silently conflate specification with executable runtime.
 
----
+______________________________________________________________________
 
-# 1. CORE LAW
+## 1. CORE LAW
 
 ```text
 A MODE CLASSIFICATION IS GOVERNED, NOT MERELY NAMED.
 ```
 
----
+______________________________________________________________________
 
-# 2. FUNDAMENTAL DISTINCTIONS
+## 2. FUNDAMENTAL DISTINCTIONS
 
 ```text
 LABEL != CLASS
@@ -155,35 +155,35 @@ ONTOLOGY_DEFINED != ONTOLOGY_CORRECT
 ONTOLOGY_CORRECT != RUNTIME_APPLICABLE
 ```
 
----
+______________________________________________________________________
 
-# 3. WHY THIS ARTIFACT EXISTS
+## 3. WHY THIS ARTIFACT EXISTS
 
 Without `MODE_ONTOLOGY`, AMOS mode governance would be forced to infer mode classification and semantic relations from implicit conventions, file names, or model-generated interpretations.
 
 This artifact makes the governing structure explicit and auditable.
 
----
+______________________________________________________________________
 
-# 4. 3. Mode Classes
+## 4. 3. Mode Classes
 
 Operational, governance, cognitive, recovery, domain.
 
----
+______________________________________________________________________
 
-# 5. 4. Relations
+## 5. 4. Relations
 
 subClassOf, partOf, requires, excludes, refines.
 
----
+______________________________________________________________________
 
-# 6. 5. Versioning
+## 6. 5. Versioning
 
 Ontology changes are supersession-tracked.
 
----
+______________________________________________________________________
 
-# 9. TESTS AND FALSIFIERS
+## 9. TESTS AND FALSIFIERS
 
 `MODE_ONTOLOGY` is falsified if any of the following occur:
 
@@ -193,9 +193,9 @@ Ontology changes are supersession-tracked.
 - It accepts a claim as proven without a corresponding evidence artifact.
 - It permits cyclic, stale, or unbounded governance without detection.
 
----
+______________________________________________________________________
 
-# 10. STATUS PRESERVATION
+## 10. STATUS PRESERVATION
 
 This artifact remains `CANDIDATE_CANON / DERIVED` until:
 
@@ -204,24 +204,28 @@ This artifact remains `CANDIDATE_CANON / DERIVED` until:
 - formal verification and empirical validation evidence are attached;
 - the relevant supersession and source registry entries are updated.
 
-# END — MODE_ONTOLOGY
+## END — MODE_ONTOLOGY
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: mode_ontology
 node_type: note
 path: 03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX/MODE_ONTOLOGY.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX/00_MODE_INDEX_MOC|00_MODE_INDEX_MOC]]

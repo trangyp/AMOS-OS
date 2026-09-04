@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: L00 REALITY ENVIRONMENT PRIMITIVES COGNITIVE MATRIX AGENTS
 type: agent
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT
 tags:
-- cognitive-matrix
-- primitives
-- matrix/l00-reality-environment
-- note
-- domain/cognitive-matrix
+  - cognitive-matrix
+  - primitives
+  - matrix/l00-reality-environment
+  - note
+  - domain/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -28,7 +31,7 @@ rscf:
 
 > This replaces the placeholder semantics. It defines the agent architecture for `L00_REALITY_ENVIRONMENT`; it does **not** claim that every named agent is currently implemented, deployed, connected to sensors/tools, or authorized to act.
 
----
+______________________________________________________________________
 
 ## 0. Purpose
 
@@ -75,34 +78,34 @@ remain distinguishable.
 
 The governing grounding chain is:
 
-[
+\[
 E
-\xrightarrow{Observe}
+\\xrightarrow{Observe}
 O
-\xrightarrow{Type}
+\\xrightarrow{Type}
 O_t
-\xrightarrow{Provenance}
+\\xrightarrow{Provenance}
 O_p
-\xrightarrow{Validate}
+\\xrightarrow{Validate}
 O_v
-\xrightarrow{Admit}
-S_{AMOS}
-]
+\\xrightarrow{Admit}
+S\_{AMOS}
+\]
 
 where:
 
-- \(E\) = environment state,
-- \(O\) = observation,
-- \(O_t\) = typed observation,
-- \(O_p\) = provenance-bound observation,
-- \(O_v\) = validated/admissible observation,
-- (S_{AMOS}) = admitted AMOS state.
+- (E) = environment state,
+- (O) = observation,
+- (O_t) = typed observation,
+- (O_p) = provenance-bound observation,
+- (O_v) = validated/admissible observation,
+- (S\_{AMOS}) = admitted AMOS state.
 
 This equation is an **AMOS MODEL** of the grounding pipeline.
 
----
+______________________________________________________________________
 
-# 1. Primary Agent Law
+## 1. Primary Agent Law
 
 No L00 agent may treat internal belief as an observation of the external environment.
 
@@ -138,9 +141,9 @@ MEASUREMENT_CONFIDENCE
 
 The L00 agent layer exists to preserve these boundaries.
 
----
+______________________________________________________________________
 
-# 2. Source / Canon References
+## 2. Source / Canon References
 
 This contract is structurally aligned with the supplied AMOS Full Brain OS source, whose governing Skill explicitly requires separation of observation, source claim, derivation, model, decision, and unknown states, while also forbidding claims of unavailable embodiment or autonomous world access.
 
@@ -166,9 +169,9 @@ AMOS GMEF
 
 The Drive Cognitive Matrix currently contains `PRIMITIVE_REGISTRY.md` alongside architecture and lifecycle/control-plane registries, establishing `L00` inside a broader primitive-registry structure rather than as an isolated agent file.
 
----
+______________________________________________________________________
 
-# 3. Definition
+## 3. Definition
 
 `L00_REALITY_ENVIRONMENT` represents the Matrix primitive responsible for AMOS's typed relationship to externally supplied or externally observable state.
 
@@ -197,9 +200,9 @@ Operationally, L00 means:
 
 > the best provenance-bound representation of external state available through the currently permitted observation channels.
 
----
+______________________________________________________________________
 
-# 4. Scope
+## 4. Scope
 
 L00 agents may reason over externally available channels such as:
 
@@ -221,9 +224,9 @@ CONNECTED DATA SOURCES — only where authorization exists
 
 L00 must never invent an observation channel.
 
----
+______________________________________________________________________
 
-# 5. Embodiment Boundary
+## 5. Embodiment Boundary
 
 AMOS Full Brain OS explicitly preserves the limitation that structural architecture is not proof of literal embodiment or autonomous world action.
 
@@ -251,9 +254,9 @@ NO EXECUTOR
 
 Language-model inference cannot substitute for unavailable perception.
 
----
+______________________________________________________________________
 
-# 6. L00 Agent Topology
+## 6. L00 Agent Topology
 
 Canonical agent families:
 
@@ -301,9 +304,9 @@ These names define **addressable roles**.
 
 They do not prove runtime implementations.
 
----
+______________________________________________________________________
 
-# 7. L00-A00 — Reality Coordinator
+## 7. L00-A00 — Reality Coordinator
 
 **Role:** orchestrate L00 grounding.
 
@@ -347,19 +350,19 @@ BUT
 MAY NOT FABRICATE OBSERVATION
 ```
 
----
+______________________________________________________________________
 
-# 8. L00-A01 — Environment Observer
+## 8. L00-A01 — Environment Observer
 
 **Role:** acquire observable state through permitted channels.
 
 Conceptually:
 
-[
+\[
 O_t = Observe(E_t,C)
-]
+\]
 
-where \(C\) identifies the actual observation channel.
+where (C) identifies the actual observation channel.
 
 Observation output:
 
@@ -384,9 +387,9 @@ MEASUREMENT
 DERIVED INTERPRETATION
 ```
 
----
+______________________________________________________________________
 
-# 9. L00-A02 — Source Resolver
+## 9. L00-A02 — Source Resolver
 
 Determines:
 
@@ -419,9 +422,9 @@ OF ONE ORIGIN
 MULTIPLE INDEPENDENT SOURCES
 ```
 
----
+______________________________________________________________________
 
-# 10. L00-A03 — Observation Typer
+## 10. L00-A03 — Observation Typer
 
 Transforms raw intake into typed observation objects.
 
@@ -450,9 +453,9 @@ TYPE BEFORE PROMOTION
 
 Untyped evidence cannot silently enter a high-confidence RSCF.
 
----
+______________________________________________________________________
 
-# 11. L00-A04 — Provenance Binder
+## 11. L00-A04 — Provenance Binder
 
 Binds every consequential observation to recoverable lineage.
 
@@ -471,13 +474,13 @@ provenance:
 
 Conceptually:
 
-[
+\[
 Observation
-+
+\+
 Provenance
-\rightarrow
+\\rightarrow
 TraceableObservation
-]
+\]
 
 but:
 
@@ -487,9 +490,9 @@ TRACEABLE
 TRUE
 ```
 
----
+______________________________________________________________________
 
-# 12. L00-A05 — Freshness Monitor
+## 12. L00-A05 — Freshness Monitor
 
 Determines whether observations remain applicable to the current decision.
 
@@ -523,18 +526,16 @@ HISTORICALLY_TRUE
 CURRENTLY_TRUE
 ```
 
----
+______________________________________________________________________
 
-# 13. L00-A06 — Change Detector
+## 13. L00-A06 — Change Detector
 
 Compares environment observations across time.
 
-[
-\Delta E_t
-==========
+## \[ \\Delta E_t
 
-Compare(O_t,O_{t-1})
-]
+Compare(O_t,O\_{t-1})
+\]
 
 It may identify:
 
@@ -563,9 +564,9 @@ CHANGE_B
 A CAUSED B
 ```
 
----
+______________________________________________________________________
 
-# 14. L00-A07 — Conflict Detector
+## 14. L00-A07 — Conflict Detector
 
 Detects disagreement among environment representations.
 
@@ -599,9 +600,9 @@ UNTIL
 DISCRIMINATING EVIDENCE
 ```
 
----
+______________________________________________________________________
 
-# 15. L00-A08 — Reality / Model Firewall Agent
+## 15. L00-A08 — Reality / Model Firewall Agent
 
 This is a load-bearing L00 role.
 
@@ -642,9 +643,9 @@ representation_class:
   - DEPLOYED_OUTCOME
 ```
 
----
+______________________________________________________________________
 
-# 16. L00-A09 — Scope / Regime Mapper
+## 16. L00-A09 — Scope / Regime Mapper
 
 Every important environment observation receives an applicability envelope.
 
@@ -678,9 +679,9 @@ VALID_HERE
 VALID_EVERYWHERE
 ```
 
----
+______________________________________________________________________
 
-# 17. L00-A10 — Observation Validator
+## 17. L00-A10 — Observation Validator
 
 Evaluates whether an observation satisfies the requirements of its evidence class.
 
@@ -714,9 +715,9 @@ UNKNOWN
 
 Validation is always scoped.
 
----
+______________________________________________________________________
 
-# 18. L00-A11 — Evidence Admission Agent
+## 18. L00-A11 — Evidence Admission Agent
 
 Determines whether an observation may enter downstream AMOS reasoning.
 
@@ -740,9 +741,9 @@ VERIFIED
 
 Admission means the evidence is suitable for a specified downstream use under declared conditions.
 
----
+______________________________________________________________________
 
-# 19. L00-A12 — Multimodal Integration Agent
+## 19. L00-A12 — Multimodal Integration Agent
 
 Used only when multiple actual modalities exist.
 
@@ -762,16 +763,16 @@ RUNTIME EVENT
 
 State:
 
-[
+\[
 M_t=
-{m_1,m_2,\ldots,m_n}
-]
+{m_1,m_2,\\ldots,m_n}
+\]
 
 with availability mask:
 
-[
-A_m\in{0,1}^n
-]
+\[
+A_m\\in{0,1}^n
+\]
 
 Missing modality must remain missing.
 
@@ -781,9 +782,9 @@ UNAVAILABLE MODALITY
 ZERO SIGNAL
 ```
 
----
+______________________________________________________________________
 
-# 20. L00-A13 — Tool Reality Adapter
+## 20. L00-A13 — Tool Reality Adapter
 
 Converts tool/API outputs into typed L00 observations.
 
@@ -828,9 +829,9 @@ TOOL_RETURNED_DATA
 TOOL_PROVED_DATA_TRUE
 ```
 
----
+______________________________________________________________________
 
-# 21. L00-A14 — Temporal Anchor Agent
+## 21. L00-A14 — Temporal Anchor Agent
 
 Separates:
 
@@ -856,18 +857,16 @@ temporal_anchor:
 
 This prevents temporal leakage.
 
----
+______________________________________________________________________
 
-# 22. L00-A15 — Environment State Synthesizer
+## 22. L00-A15 — Environment State Synthesizer
 
 Constructs the smallest justified current environment representation.
 
-[
-\hat E_t
-========
+## \[ \\hat E_t
 
-Synthesize(O_1,\ldots,O_n)
-]
+Synthesize(O_1,\\ldots,O_n)
+\]
 
 The result is explicitly:
 
@@ -894,9 +893,9 @@ confidence:
 dependencies:
 ```
 
----
+______________________________________________________________________
 
-# 23. L00-A16 — Adversarial Grounding Auditor
+## 23. L00-A16 — Adversarial Grounding Auditor
 
 Challenges consequential environment conclusions.
 
@@ -924,9 +923,9 @@ Is there a stronger competing explanation?
 
 This implements the AMOS requirement to challenge consequential conclusions through a genuinely different path.
 
----
+______________________________________________________________________
 
-# 24. L00-A17 — Gap Escalation Agent
+## 24. L00-A17 — Gap Escalation Agent
 
 Produces explicit gaps when grounding cannot be completed.
 
@@ -970,9 +969,9 @@ NOT
 → INVENTED VALUE
 ```
 
----
+______________________________________________________________________
 
-# 25. L00-A18 — Recovery / Reobservation Agent
+## 25. L00-A18 — Recovery / Reobservation Agent
 
 Used when environment state becomes invalid or stale.
 
@@ -996,9 +995,9 @@ revalidate
 reconstruct environment state
 ```
 
----
+______________________________________________________________________
 
-# 26. Typed Input Contract
+## 26. Typed Input Contract
 
 ```yaml
 L00AgentInput:
@@ -1033,9 +1032,9 @@ L00AgentInput:
   required_confidence:
 ```
 
----
+______________________________________________________________________
 
-# 27. Typed Output Contract
+## 27. Typed Output Contract
 
 ```yaml
 L00AgentOutput:
@@ -1081,17 +1080,15 @@ L00AgentOutput:
   recommended_action:
 ```
 
----
+______________________________________________________________________
 
-# 28. Environment State Tensor
+## 28. Environment State Tensor
 
 Conceptually:
 
-[
-\mathcal E
-==========
+## \[ \\mathcal E
 
-E[
+E\[
 object,
 property,
 time,
@@ -1102,16 +1099,16 @@ scope,
 regime,
 provenance,
 confidence
-]
-]
+\]
+\]
 
 This is an AMOS representation model.
 
 It must not be interpreted as established physical ontology.
 
----
+______________________________________________________________________
 
-# 29. Core State Variables
+## 29. Core State Variables
 
 ```text
 environment_id
@@ -1149,9 +1146,9 @@ authority_context
 reality_model_boundary_state
 ```
 
----
+______________________________________________________________________
 
-# 30. Canonical Operators
+## 30. Canonical Operators
 
 ```text
 OBSERVE
@@ -1193,13 +1190,13 @@ REOBSERVE
 ESCALATE_GAP
 ```
 
----
+______________________________________________________________________
 
-# 31. Observation Operator
+## 31. Observation Operator
 
-[
+\[
 O = Observe(E,C,t)
-]
+\]
 
 must return:
 
@@ -1213,15 +1210,15 @@ UNKNOWN/GAP
 
 Never fabricate a successful observation.
 
----
+______________________________________________________________________
 
-# 32. Measurement Operator
+## 32. Measurement Operator
 
-[
-M = Measure(O,\mu)
-]
+\[
+M = Measure(O,\\mu)
+\]
 
-where (\mu) records the measurement method.
+where (\\mu) records the measurement method.
 
 Measurement must preserve:
 
@@ -1236,34 +1233,30 @@ timestamp
 
 where applicable.
 
----
+______________________________________________________________________
 
-# 33. Admission Operator
+## 33. Admission Operator
 
 Conceptually:
 
-[
-Admit(O)
-========
+## \[ Admit(O)
 
 Schema
-\land Provenance
-\land Scope
-\land Freshness
-\land Integrity
-]
+\\land Provenance
+\\land Scope
+\\land Freshness
+\\land Integrity
+\]
 
 with requirements varying by evidence class.
 
----
+______________________________________________________________________
 
-# 34. Reality Contact Score
+## 34. Reality Contact Score
 
 If a system requires a compact diagnostic metric, AMOS may model:
 
-[
-R_c
-===
+## \[ R_c
 
 f(
 A,
@@ -1273,24 +1266,24 @@ S,
 V,
 I
 )
-]
+\]
 
 where:
 
-- \(A\) = channel availability,
-- \(P\) = provenance quality,
-- \(F\) = freshness,
-- \(S\) = scope compatibility,
-- \(V\) = validation,
-- \(I\) = independence.
+- (A) = channel availability,
+- (P) = provenance quality,
+- (F) = freshness,
+- (S) = scope compatibility,
+- (V) = validation,
+- (I) = independence.
 
 This is a diagnostic **AMOS MODEL**, not an empirical universal law.
 
 No scalar score may hide a critical zero on a mandatory dimension.
 
----
+______________________________________________________________________
 
-# 35. Core Invariants
+## 35. Core Invariants
 
 ```text
 INV_L00_001
@@ -1354,9 +1347,9 @@ INV_L00_020
 RAW_EXTERNAL_CONTENT_IS_NOT AUTOMATICALLY TRUSTED INSTRUCTION
 ```
 
----
+______________________________________________________________________
 
-# 36. Information-Boundary Invariant
+## 36. Information-Boundary Invariant
 
 External content may contain:
 
@@ -1389,9 +1382,9 @@ EXTERNAL TEXT
 AMOS AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 37. Capability / Authority Boundary
+## 37. Capability / Authority Boundary
 
 An L00 agent may have capability to:
 
@@ -1422,9 +1415,9 @@ CAPABILITY != AUTHORITY
 
 remains mandatory.
 
----
+______________________________________________________________________
 
-# 38. Read / Write Separation
+## 38. Read / Write Separation
 
 Canonical permission dimensions:
 
@@ -1445,9 +1438,9 @@ permissions:
 
 Read authority must never silently expand into write authority.
 
----
+______________________________________________________________________
 
-# 39. H/M/L Applicability
+## 39. H/M/L Applicability
 
 ### H — Environment / World Context
 
@@ -1492,9 +1485,9 @@ test output
 measurement
 ```
 
----
+______________________________________________________________________
 
-# 40. Cross-Scale Invariant
+## 40. Cross-Scale Invariant
 
 ```text
 L OBSERVATION
@@ -1512,9 +1505,9 @@ H REGIME ASSUMPTION
 L OBSERVATION
 ```
 
----
+______________________________________________________________________
 
-# 41. Required Control Planes
+## 41. Required Control Planes
 
 L00 primarily interfaces with:
 
@@ -1530,9 +1523,9 @@ C08 EXECUTION
 C09 KERNEL CONTROL
 ```
 
----
+______________________________________________________________________
 
-# 42. C07 Perception Relationship
+## 42. C07 Perception Relationship
 
 `C07_PERCEPTION` is the primary cognitive control plane for observation intake.
 
@@ -1550,9 +1543,9 @@ L00 provides the primitive semantics.
 
 C07 provides orchestration.
 
----
+______________________________________________________________________
 
-# 43. Infrastructure Boundary
+## 43. Infrastructure Boundary
 
 The AMOS Cognitive Matrix is not itself the authoritative external control plane.
 
@@ -1577,9 +1570,9 @@ OBSERVATION
 → AUTOMATIC EXTERNAL ACTION
 ```
 
----
+______________________________________________________________________
 
-# 44. Relevant Skills
+## 44. Relevant Skills
 
 Applicable AMOS capability families include:
 
@@ -1619,9 +1612,9 @@ Risk / Constraint Governance
 
 Skill existence does not establish automatic runtime binding.
 
----
+______________________________________________________________________
 
-# 45. Agent / Skill Separation
+## 45. Agent / Skill Separation
 
 ```text
 AGENT
@@ -1647,9 +1640,9 @@ governance/orchestration layer
 
 Do not collapse these architecture classes.
 
----
+______________________________________________________________________
 
-# 46. Canonical Workflow — Observe Environment
+## 46. Canonical Workflow — Observe Environment
 
 ```text
 REQUEST
@@ -1679,9 +1672,9 @@ ADMISSION
 ENVIRONMENT STATE
 ```
 
----
+______________________________________________________________________
 
-# 47. Workflow — Current-State Query
+## 47. Workflow — Current-State Query
 
 ```text
 question about environment
@@ -1701,9 +1694,9 @@ update environment model
 answer
 ```
 
----
+______________________________________________________________________
 
-# 48. Workflow — Conflicting Reality Evidence
+## 48. Workflow — Conflicting Reality Evidence
 
 ```text
 OBS_A
@@ -1731,9 +1724,9 @@ or
 PRESERVE COMPETING
 ```
 
----
+______________________________________________________________________
 
-# 49. Workflow — Environment Change
+## 49. Workflow — Environment Change
 
 ```text
 NEW OBSERVATION
@@ -1755,9 +1748,9 @@ CHANGE DETECTED?
      notify dependent layers
 ```
 
----
+______________________________________________________________________
 
-# 50. Workflow — Tool Failure
+## 50. Workflow — Tool Failure
 
 ```text
 TOOL REQUEST
@@ -1781,9 +1774,9 @@ or
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 51. Workflow — Reobservation
+## 51. Workflow — Reobservation
 
 ```text
 STALE STATE
@@ -1801,9 +1794,9 @@ revalidate
 update dependent state
 ```
 
----
+______________________________________________________________________
 
-# 52. Inter-Agent Protocol
+## 52. Inter-Agent Protocol
 
 ```yaml
 L00ObservationMessage:
@@ -1837,9 +1830,9 @@ L00ObservationMessage:
   status:
 ```
 
----
+______________________________________________________________________
 
-# 53. Evidence Admission Protocol
+## 53. Evidence Admission Protocol
 
 ```yaml
 EvidenceAdmissionRequest:
@@ -1882,9 +1875,9 @@ constraints: []
 confidence_ceiling:
 ```
 
----
+______________________________________________________________________
 
-# 54. Change Notification Protocol
+## 54. Change Notification Protocol
 
 ```yaml
 EnvironmentChangeEvent:
@@ -1910,9 +1903,9 @@ EnvironmentChangeEvent:
   invalidation_required:
 ```
 
----
+______________________________________________________________________
 
-# 55. Failure Modes
+## 55. Failure Modes
 
 Canonical L00 failures:
 
@@ -1960,9 +1953,9 @@ FAIL_L00_GLOBAL_INVALIDATION
 FAIL_L00_PREMATURE_REALITY_CLOSURE
 ```
 
----
+______________________________________________________________________
 
-# 56. Hallucinated Observation Failure
+## 56. Hallucinated Observation Failure
 
 Failure:
 
@@ -1985,9 +1978,9 @@ identify actual observation requirement
 reobserve or UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 57. Model / Reality Collapse Failure
+## 57. Model / Reality Collapse Failure
 
 Failure:
 
@@ -2006,9 +1999,9 @@ seek independent observation
 preserve prediction separately
 ```
 
----
+______________________________________________________________________
 
-# 58. Stale Observation Failure
+## 58. Stale Observation Failure
 
 Failure:
 
@@ -2028,9 +2021,9 @@ selectively invalidate
 reobserve
 ```
 
----
+______________________________________________________________________
 
-# 59. Correlated Evidence Failure
+## 59. Correlated Evidence Failure
 
 Failure:
 
@@ -2056,9 +2049,9 @@ collapse independence count
 recompute confidence
 ```
 
----
+______________________________________________________________________
 
-# 60. External Instruction Injection Failure
+## 60. External Instruction Injection Failure
 
 Failure:
 
@@ -2076,9 +2069,9 @@ do not promote to control instruction
 apply applicable information/security boundary
 ```
 
----
+______________________________________________________________________
 
-# 61. Recovery Architecture
+## 61. Recovery Architecture
 
 Recovery state:
 
@@ -2104,9 +2097,9 @@ L00RecoveryState:
   recovery_status:
 ```
 
----
+______________________________________________________________________
 
-# 62. Selective Recovery Rule
+## 62. Selective Recovery Rule
 
 If:
 
@@ -2126,9 +2119,9 @@ not the entire environment representation.
 
 This preserves unaffected valid state.
 
----
+______________________________________________________________________
 
-# 63. Minimum Validators
+## 63. Minimum Validators
 
 ```text
 VALIDATOR_L00_OBSERVATION_TYPE
@@ -2160,9 +2153,9 @@ VALIDATOR_L00_AUTHORITY_BOUNDARY
 VALIDATOR_L00_DEPENDENCY_INVALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 64. Minimum Test Suite
+## 64. Minimum Test Suite
 
 ```text
 TEST_L00_001
@@ -2211,9 +2204,9 @@ TEST_L00_015
 UNKNOWN_REQUIRED_OBSERVATION_DOES_NOT_PASS
 ```
 
----
+______________________________________________________________________
 
-# 65. Adversarial Tests
+## 65. Adversarial Tests
 
 L00 should additionally survive:
 
@@ -2249,9 +2242,9 @@ cached state after regime change
 high-confidence model contradicting direct observation
 ```
 
----
+______________________________________________________________________
 
-# 66. Falsifiers
+## 66. Falsifiers
 
 This contract is structurally falsified for its declared scope if the implemented system:
 
@@ -2283,33 +2276,33 @@ cannot selectively invalidate dependent environment state
 cannot return UNKNOWN/GAP when observation is unavailable
 ```
 
----
+______________________________________________________________________
 
-# 67. Confidence Ceiling
+## 67. Confidence Ceiling
 
-For an environment conclusion \(C_E\):
+For an environment conclusion (C_E):
 
-[
+\[
 Conf(C_E)
-\le
-\min(
-C_{observation},
-C_{source},
-C_{provenance},
-C_{freshness},
-C_{scope},
-C_{regime},
-C_{measurement}
+\\le
+\\min(
+C\_{observation},
+C\_{source},
+C\_{provenance},
+C\_{freshness},
+C\_{scope},
+C\_{regime},
+C\_{measurement}
 )
-]
+\]
 
 unless an independent path removes dependence on a weaker premise.
 
 This is an AMOS governance rule, not an empirically established universal confidence equation.
 
----
+______________________________________________________________________
 
-# 68. Uncertainty Vector
+## 68. Uncertainty Vector
 
 ```yaml
 uncertainty:
@@ -2328,9 +2321,9 @@ uncertainty:
 
 Do not collapse materially different uncertainty into one opaque number.
 
----
+______________________________________________________________________
 
-# 69. Agent Status Requirements
+## 69. Agent Status Requirements
 
 Every named L00 agent must independently declare:
 
@@ -2355,9 +2348,9 @@ AGENT NAMED
 AGENT IMPLEMENTED
 ```
 
----
+______________________________________________________________________
 
-# 70. Runtime Binding
+## 70. Runtime Binding
 
 A fully bound L00 role may reference:
 
@@ -2389,9 +2382,9 @@ agent_binding:
 
 Missing bindings remain explicit gaps.
 
----
+______________________________________________________________________
 
-# 71. Relationship to Memory
+## 71. Relationship to Memory
 
 L00 writes should distinguish:
 
@@ -2407,9 +2400,9 @@ DERIVED ENVIRONMENT MODEL
 
 Memory must not erase those distinctions.
 
----
+______________________________________________________________________
 
-# 72. Relationship to Knowledge
+## 72. Relationship to Knowledge
 
 Repeated observations may contribute to knowledge formation.
 
@@ -2425,9 +2418,9 @@ requires explicit promotion criteria.
 
 Repeated storage does not itself create truth.
 
----
+______________________________________________________________________
 
-# 73. Relationship to Reasoning
+## 73. Relationship to Reasoning
 
 L00 supplies grounding evidence to reasoning.
 
@@ -2454,9 +2447,9 @@ REASONING → RETROACTIVE OBSERVATION
 
 is forbidden.
 
----
+______________________________________________________________________
 
-# 74. Relationship to Prediction
+## 74. Relationship to Prediction
 
 Prediction is evaluated against future L00 observations.
 
@@ -2474,9 +2467,9 @@ SCORE / INVALIDATE / UPDATE
 
 This creates genuine reality contact for predictive systems.
 
----
+______________________________________________________________________
 
-# 75. Relationship to Execution
+## 75. Relationship to Execution
 
 Execution produces environmental consequences only through authorized external executors.
 
@@ -2499,35 +2492,35 @@ ACTION COMMITTED
 → DESIRED OUTCOME OCCURRED
 ```
 
----
+______________________________________________________________________
 
-# 76. Closed-Loop Grounding
+## 76. Closed-Loop Grounding
 
 Canonical loop:
 
-[
+\[
 Observe
-\rightarrow
+\\rightarrow
 Interpret
-\rightarrow
+\\rightarrow
 Decide
-\rightarrow
+\\rightarrow
 Authorize
-\rightarrow
+\\rightarrow
 Act
-\rightarrow
+\\rightarrow
 Reobserve
-\rightarrow
+\\rightarrow
 Evaluate
-]
+\]
 
 The final `Reobserve` is essential.
 
 Without it, the system has action intent but no evidence of external outcome.
 
----
+______________________________________________________________________
 
-# 77. L00 Dependency Graph
+## 77. L00 Dependency Graph
 
 ```text
 EXTERNAL ENVIRONMENT
@@ -2565,9 +2558,9 @@ EXTERNAL ENVIRONMENT
 REOBSERVATION
 ```
 
----
+______________________________________________________________________
 
-# 78. Agent Coordination Topology
+## 78. Agent Coordination Topology
 
 ```text
                   REALITY_COORDINATOR
@@ -2602,9 +2595,9 @@ OBSERVER            RESOLVER           ADAPTER
             DOWNSTREAM MATRIX
 ```
 
----
+______________________________________________________________________
 
-# 79. Gap Status
+## 79. Gap Status
 
 ```yaml
 gap_status:
@@ -2627,9 +2620,9 @@ gap_status:
     - visualization and UI naming may be added without changing the contract
 ```
 
----
+______________________________________________________________________
 
-# 80. Hard Boundaries
+## 80. Hard Boundaries
 
 ```text
 PLACEHOLDER != IMPLEMENTED
@@ -2675,9 +2668,9 @@ CONFIDENCE != EVIDENCE
 STRUCTURAL AGENT != RUNNING AGENT
 ```
 
----
+______________________________________________________________________
 
-# 81. RSCF Completion State
+## 81. RSCF Completion State
 
 ```yaml
 claim_class: MODEL
@@ -2756,9 +2749,9 @@ confidence_ceiling:
   control-plane integration, and executed tests
 ```
 
----
+______________________________________________________________________
 
-# 82. Governing Contract
+## 82. Governing Contract
 
 The L00 agent layer is the **reality-contact membrane** of the AMOS Cognitive Matrix.
 
@@ -2802,48 +2795,52 @@ No arrow is automatic.
 
 The governing invariant is:
 
-[
-\boxed{
+\[
+\\boxed{
 Observed(E)
-\neq
+\\neq
 Believed(E)
-\neq
+\\neq
 Modeled(E)
-\neq
+\\neq
 Predicted(E)
 }
-]
+\]
 
 and the fail-closed rule is:
 
-[
-\boxed{
-No\ valid\ observation
-\Rightarrow
+\[
+\\boxed{
+No\\ valid\\ observation
+\\Rightarrow
 UNKNOWN/GAP
 }
-]
+\]
 
 not fabricated environmental certainty.
 
 This gives `L00_REALITY_ENVIRONMENT/AGENTS.md` its AMOS-specific function: **maintain disciplined reality contact while preventing cognition, memory, simulation, prediction, tools, or external content from silently masquerading as verified external state.**
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: l00_reality_environment_primitives_cognitive_matrix_agents
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_AGENTS.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_MOC|L00_REALITY_ENVIRONMENT_MOC]]

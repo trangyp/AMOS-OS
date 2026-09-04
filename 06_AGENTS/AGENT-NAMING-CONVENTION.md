@@ -1,11 +1,14 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: AGENT NAMING CONVENTION
 type: note
 source: 06_AGENTS
 tags:
-- note
-- vault
-- canon/agent
+  - note
+  - vault
+  - canon/agent
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -19,7 +22,7 @@ rscf:
 > **Version**: 1.1.0 (2026-08-25)
 > **Status**: Applied — all arXiv paper and dispatcher agents in `.devin/agents/` now use function-first, `arxiv`-free names.
 
----
+______________________________________________________________________
 
 ## Naming Rule
 
@@ -64,9 +67,10 @@ amos-{domain}-{function}-{qualifier}-agent.json
   ArXiv IDs retained only as JSON metadata (`source_id`, `arxiv_id`).
 - **Skill + workflow names**: match the agent name; rename together.
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · `amos-agent-registry-index.md` · `amos-qfm-paper-agents-index.md`
 
----
-**MOC:** [[06_AGENTS/06_AGENTS_MOC|06_AGENTS_MOC]]
+______________________________________________________________________
 
+**MOC:** [[06_AGENTS/06_AGENTS_MOC|06_AGENTS_MOC]]

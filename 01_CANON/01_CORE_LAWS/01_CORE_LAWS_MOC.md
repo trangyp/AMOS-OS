@@ -1,45 +1,48 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: 01 Core Laws MOC
 type: moc
 source: 01_CANON/01_CORE_LAWS
 tags:
-- 01-core-laws
-- canon/universe
-- amos-core-laws
-- canon-law-crosswalk
-- core-law-crosswalk
-- law/L0-integrity
-- law/L10-failure-recovery
-- law/L11-knowledge-memory
-- law/L15-fractal-knowledge
-- law/L16-hml
-- law/L17-rscf
-- law/L18-gmef
-- law/L19-proof-capsule
-- law/L1-epistemic
-- law/L20-adversarial
-- law/L21-epistemic-regime
-- law/L22-atomic-reasoning
-- law/L23-mvcc-cas
-- law/L24-causal-epoch
-- law/L25-shard-local
-- law/L26-proof-coordination
-- law/L27-gap
-- law/L28-critical-gap
-- law/L29-decision-value
-- law/L2-provenance
-- law/L30-authority-boundary
-- law/L31-amos-plane
-- law/L33-kernel
-- law/L3-dependency
-- law/L4-causal
-- law/L5-scope-regime
-- law/L6-uncertainty
-- law/L7-authority
-- law/L8-execution
-- law/L9-evolution
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - 01-core-laws
+  - canon/universe
+  - amos-core-laws
+  - canon-law-crosswalk
+  - core-law-crosswalk
+  - law/L0-integrity
+  - law/L10-failure-recovery
+  - law/L11-knowledge-memory
+  - law/L15-fractal-knowledge
+  - law/L16-hml
+  - law/L17-rscf
+  - law/L18-gmef
+  - law/L19-proof-capsule
+  - law/L1-epistemic
+  - law/L20-adversarial
+  - law/L21-epistemic-regime
+  - law/L22-atomic-reasoning
+  - law/L23-mvcc-cas
+  - law/L24-causal-epoch
+  - law/L25-shard-local
+  - law/L26-proof-coordination
+  - law/L27-gap
+  - law/L28-critical-gap
+  - law/L29-decision-value
+  - law/L2-provenance
+  - law/L30-authority-boundary
+  - law/L31-amos-plane
+  - law/L33-kernel
+  - law/L3-dependency
+  - law/L4-causal
+  - law/L5-scope-regime
+  - law/L6-uncertainty
+  - law/L7-authority
+  - law/L8-execution
+  - law/L9-evolution
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 moc: true
 rscf:
   state: SOURCE_CLAIM
@@ -140,8 +143,10 @@ rscf:
 
 - [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]] — 00_INDEX
 
----
+______________________________________________________________________
+
 **Parent:** [[01_CANON/01_CANON_MOC|01_CANON_MOC]]
 
----
+______________________________________________________________________
+
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

@@ -2,15 +2,15 @@
 type: cognitive
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION
 tags:
-- amos
-- cognitive-matrix
-- matrix/l02
-- attention
-- readme
-- rscf
-- hml
-- governance
-- domain/cognitive-matrix
+  - amos
+  - cognitive-matrix
+  - matrix/l02
+  - attention
+  - readme
+  - rscf
+  - hml
+  - governance
+  - domain/cognitive-matrix
 title: L02_ATTENTION — README
 origin_architect: Trang Phan
 status: MODEL_SPECIFICATION / SOURCE-BOUNDED / UNVALIDATED
@@ -33,9 +33,9 @@ rscf:
 
 > **Canon boundary:** the available L02 material supports an attention primitive concerned with allocation/budgeting of scarce reasoning or observation resources. This README organizes that semantic core into an AMOS contract. Detailed interfaces, operators, equations, agents, workflows, thresholds, and runtime behavior remain `AMOS_MODEL` unless separately grounded in direct canon or executable evidence.
 
----
+______________________________________________________________________
 
-# 0. Executive Contract
+## 0. Executive Contract
 
 `L02_ATTENTION` governs the allocation of finite cognitive-processing resources across competing candidate targets.
 
@@ -66,9 +66,9 @@ The primitive answers:
 
 It does **not** establish that an attended object is true, important in an absolute sense, causal, independently evidenced, or authorized for execution.
 
----
+______________________________________________________________________
 
-# 1. Source / Canon References
+## 1. Source / Canon References
 
 ## 1.1 Source-supported semantic core
 
@@ -127,15 +127,13 @@ proposal/commit separation
 
 Compatibility does not establish direct canonical derivation.
 
----
+______________________________________________________________________
 
-# 2. Definition and Scope
+## 2. Definition and Scope
 
 Within this contract:
 
-[
-Attention_t
-===========
+## \[ Attention_t
 
 Allocate(
 X_t,
@@ -143,7 +141,7 @@ B_t,
 G_t,
 C_t
 )
-]
+\]
 
 where:
 
@@ -196,9 +194,9 @@ ATTENTION != CONFIDENCE
 ATTENTION != AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 3. Position in the Cognitive Matrix
+## 3. Position in the Cognitive Matrix
 
 Minimum source-bounded relationship:
 
@@ -224,9 +222,9 @@ L02 downstream ownership = UNKNOWN/GAP
 
 unless separately sourced.
 
----
+______________________________________________________________________
 
-# 4. Typed Inputs
+## 4. Typed Inputs
 
 ```yaml
 AttentionInput:
@@ -295,9 +293,9 @@ repair targets
 
 This generalized candidate model is `AMOS_MODEL`.
 
----
+______________________________________________________________________
 
-# 5. Typed Outputs
+## 5. Typed Outputs
 
 ```yaml
 AttentionOutput:
@@ -355,9 +353,9 @@ ATTENTION OUTPUT
 COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 6. State Variables
+## 6. State Variables
 
 ```text
 X_t       = candidate space
@@ -397,9 +395,9 @@ ResourceBudget:
 
 These dimensions must not be silently treated as interchangeable units.
 
----
+______________________________________________________________________
 
-# 7. Operators
+## 7. Operators
 
 Candidate operator registry:
 
@@ -449,15 +447,13 @@ EMIT_PROPOSAL()
 
 These names are architectural placeholders/model operators unless directly canonized.
 
----
+______________________________________________________________________
 
-# 8. Equational Model
+## 8. Equational Model
 
 A generic priority relation may be represented as:
 
-[
-Priority_i
-==========
+## \[ Priority_i
 
 F(
 G_i,
@@ -469,7 +465,7 @@ V_i,
 R_i,
 Cost_i
 )
-]
+\]
 
 where, illustratively:
 
@@ -488,29 +484,29 @@ No canonical coefficients or aggregation law are asserted.
 
 Resource constraint:
 
-[
-\sum_i Allocation_{i,r}
-\le
+\[
+\\sum_i Allocation\_{i,r}
+\\le
 Budget_r
-]
+\]
 
 for each compatible resource dimension (r).
 
 Confidence firewall:
 
-[
+\[
 Conf(C)
-\le
-\min_j Conf(P_j)
-]
+\\le
+\\min_j Conf(P_j)
+\]
 
 for load-bearing premises unless independent revalidation strengthens the evidence graph.
 
 Attention itself does not increase that ceiling.
 
----
+______________________________________________________________________
 
-# 9. Invariants
+## 9. Invariants
 
 ```text
 L02-INV-001
@@ -580,9 +576,9 @@ L02-INV-022
 Proposal cannot silently become commit.
 ```
 
----
+______________________________________________________________________
 
-# 10. Dependencies
+## 10. Dependencies
 
 ```yaml
 dependencies:
@@ -626,9 +622,9 @@ dependencies:
 
 Canonical downstream dependencies remain unresolved.
 
----
+______________________________________________________________________
 
-# 11. H/M/L Applicability
+## 11. H/M/L Applicability
 
 ## H — Governing attention
 
@@ -693,9 +689,9 @@ L evidence cannot silently become H conclusion.
 H narrative cannot suppress contradictory L evidence.
 ```
 
----
+______________________________________________________________________
 
-# 12. Control-Plane Requirements
+## 12. Control-Plane Requirements
 
 L02 may propose:
 
@@ -740,9 +736,9 @@ Therefore:
 HIGH PRIORITY != AUTHORIZED ACTION
 ```
 
----
+______________________________________________________________________
 
-# 13. Agents
+## 13. Agents
 
 Candidate logical roles:
 
@@ -763,9 +759,9 @@ These are addressable architectural roles.
 ADDRESSABLE AGENT != IMPLEMENTED AGENT
 ```
 
----
+______________________________________________________________________
 
-# 14. Skills
+## 14. Skills
 
 Potential supporting AMOS skills/capabilities include:
 
@@ -784,9 +780,9 @@ RSCF Modeler
 
 Availability of a skill establishes neither invocation nor validation.
 
----
+______________________________________________________________________
 
-# 15. Workflow
+## 15. Workflow
 
 Candidate lifecycle:
 
@@ -824,9 +820,9 @@ STOP WHEN SUFFICIENT
 EMIT GOVERNED RESULT / PROPOSAL
 ```
 
----
+______________________________________________________________________
 
-# 16. Protocols
+## 16. Protocols
 
 Candidate protocol family:
 
@@ -849,9 +845,9 @@ ATTENTION_COMMIT_REQUEST
 
 Canonical protocol names and schemas remain `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
-# 17. Memory
+## 17. Memory
 
 Attention may consume memory but should not silently own durable memory semantics.
 
@@ -890,9 +886,9 @@ REMEMBERED != CURRENT
 ATTENDED MEMORY != AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 18. Evidence / Provenance
+## 18. Evidence / Provenance
 
 Consequential allocation should preserve sufficient lineage to answer:
 
@@ -938,9 +934,9 @@ AttentionProvenance:
   operator_history: OperatorEvent[]
 ```
 
----
+______________________________________________________________________
 
-# 19. Uncertainty and Confidence Ceiling
+## 19. Uncertainty and Confidence Ceiling
 
 Track uncertainty dimensions separately:
 
@@ -971,9 +967,9 @@ HIGHER CONFIDENCE
 
 Confidence remains bounded by load-bearing evidence and assumptions.
 
----
+______________________________________________________________________
 
-# 20. Failure Modes
+## 20. Failure Modes
 
 Primary failure classes:
 
@@ -1004,9 +1000,9 @@ budget exhaustion treated as completion
 model treated as canon
 ```
 
----
+______________________________________________________________________
 
-# 21. Repair / Recovery
+## 21. Repair / Recovery
 
 Recovery pattern:
 
@@ -1044,9 +1040,9 @@ NO NEW EVIDENCE
 NO BLIND RETRY
 ```
 
----
+______________________________________________________________________
 
-# 22. Tests / Validators
+## 22. Tests / Validators
 
 Required validator classes:
 
@@ -1110,9 +1106,9 @@ Minimum adversarial tests:
 
 Tests remain `UNEXECUTED` unless actual validator evidence exists.
 
----
+______________________________________________________________________
 
-# 23. Falsifiers
+## 23. Falsifiers
 
 This README must be revised if evidence establishes that:
 
@@ -1136,9 +1132,9 @@ Canonical AI semantics materially contradict this model.
 Executable runtime evidence falsifies assumed state transitions.
 ```
 
----
+______________________________________________________________________
 
-# 24. Gap Matrix
+## 24. Gap Matrix
 
 ```yaml
 gap_matrix:
@@ -1225,9 +1221,9 @@ gap_matrix:
     status: UNKNOWN_GAP
 ```
 
----
+______________________________________________________________________
 
-# 25. Local Artifact Map
+## 25. Local Artifact Map
 
 ```text
 L02_ATTENTION/
@@ -1272,9 +1268,9 @@ COMPLETION SUMMARY
 
 Detailed definitions should remain in their specialist artifacts rather than being silently redefined here.
 
----
+______________________________________________________________________
 
-# 26. Cross-Artifact Consistency Requirements
+## 26. Cross-Artifact Consistency Requirements
 
 All L02 artifacts should agree on:
 
@@ -1313,9 +1309,9 @@ detect
 → update dependents only after resolution
 ```
 
----
+______________________________________________________________________
 
-# 27. RSCF Completion State
+## 27. RSCF Completion State
 
 ```yaml
 rscf:
@@ -1425,9 +1421,9 @@ rscf:
     executed_validation: CRITICAL_GAP
 ```
 
----
+______________________________________________________________________
 
-# 28. Completion State
+## 28. Completion State
 
 ```yaml
 completion_state:
@@ -1505,9 +1501,9 @@ completion_state:
     MODEL
 ```
 
----
+______________________________________________________________________
 
-# 29. Hard Boundaries
+## 29. Hard Boundaries
 
 ```text
 PLACEHOLDER != IMPLEMENTED
@@ -1561,9 +1557,9 @@ MODEL CONTRACT != CANONICAL CONTRACT
 DOCUMENTED CONTRACT != IMPLEMENTED CONTRACT
 ```
 
----
+______________________________________________________________________
 
-# 30. References
+## 30. References
 
 ```text
 L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_README
@@ -1601,15 +1597,15 @@ Cosmo_Brain_BRIDGE_INDEX
 Cosmo_Brain_BRIDGE_INDEX
 ```
 
----
+______________________________________________________________________
 
-# 31. Governing README Contract
+## 31. Governing README Contract
 
 > **`L02_ATTENTION` is the AMOS cognitive primitive for bounded allocation of scarce reasoning and observation resources. It converts a candidate cognitive field into a governed focus/allocation state while preserving objectives, hard constraints, dependency structure, provenance, scope, regime, freshness, H/M/L identity, uncertainty, and authority boundaries. Attention may determine what receives processing, but it cannot by itself establish truth, evidence, causation, confidence, authority, implementation, validation, or commit eligibility.**
 
----
+______________________________________________________________________
 
-# 32. Canon Boundary
+## 32. Canon Boundary
 
 ```text
 SOURCE-SUPPORTED:
@@ -1723,23 +1719,27 @@ AUTHORIZATION TO COMMIT
 
 ```text
 ```
----
+
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: l02_attention_primitives_cognitive_matrix_readme
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION/L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_README.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION/L02_ATTENTION_MOC|L02_ATTENTION_MOC]]
-

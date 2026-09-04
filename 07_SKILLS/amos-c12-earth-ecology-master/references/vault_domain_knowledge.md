@@ -1,14 +1,17 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Vault Domain Knowledge — Amos C12 Earth Ecology Master
 type: reference
 source: 07_SKILLS/amos-c12-earth-ecology-master/references
 tags:
-- reference
-- amos-c12-earth-ecology-master
-- type/skill
-- skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-c12-earth-ecology-master
+  - type/skill
+  - skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -21,12 +24,12 @@ rscf:
 > Load this reference only when detailed domain knowledge is needed.
 > This content was moved from SKILL.md for progressive loading.
 
----
+______________________________________________________________________
 
 > **Source**: `11_KNOWLEDGE/AMOS_C12_EARTH_ECOLOGY_MASTER_KNOWLEDGE.md` from the AMOS_OS Obsidian vault.
 > This is substantive domain knowledge, not script-generated content.
 
-# AMOS C12 — Earth & Ecology Master Knowledge
+## AMOS C12 — Earth & Ecology Master Knowledge
 
 > **Epistemic boundary**
 >
@@ -42,6 +45,7 @@ rscf:
 ## 0. C12 Knowledge Contract
 
 ### 0.1 Claim classes
+
 - **VERIFIED** — strongly supported empirical result within a stated regime.
 - **DERIVED** — mathematical or logical consequence of stated premises/model.
 - **MODEL** — representation useful within stated scope.
@@ -50,36 +54,41 @@ rscf:
 - **UNKNOWN/GAP** — insufficient evidence or unresolved mechanism.
 
 ### 0.2 Evidence classes
+
 `OBSERVATION`, `EXPERIMENT`, `REMOTE_SENSING`, `MONITORING`, `DERIVED`, `MODEL`,
 `SCENARIO`, `SOURCE_CLAIM`, `UNKNOWN`.
 
 ### 0.3 C12 H-level ownership
+
 1. Earth-System Structure & Biogeophysical Flows
-2. Climate Dynamics, Oceans & Cryosphere
-3. Ecology, Biodiversity & Biogeochemistry
-4. Food, Water, Health & Human-Earth Coupling
-5. Land, Ocean Use & Resource Systems
-6. Risk, Tipping, Collapse & Resilience
-7. Monitoring, Data & Earth Observation
-8. Scenarios, Policy, Infrastructure & Governance
-9. AMOS/Trang Earth-System Research Bridge
+1. Climate Dynamics, Oceans & Cryosphere
+1. Ecology, Biodiversity & Biogeochemistry
+1. Food, Water, Health & Human-Earth Coupling
+1. Land, Ocean Use & Resource Systems
+1. Risk, Tipping, Collapse & Resilience
+1. Monitoring, Data & Earth Observation
+1. Scenarios, Policy, Infrastructure & Governance
+1. AMOS/Trang Earth-System Research Bridge
 
 A topic has one primary owner. Cross-links are references, not duplicated substantive sections.
 
 ### 0.4 Standard knowledge node schema
+
 Where applicable:
 **definition → state variables → governing relations → assumptions → mechanisms → observables →
 data sources → empirical status → scope/regime → uncertainty → failure modes → competing models →
 falsifiers → dependencies → decision relevance → AMOS bridge**.
 
----
+______________________________________________________________________
 
-# H1 — Earth-System Structure & Biogeophysical Flows
+## H1 — Earth-System Structure & Biogeophysical Flows
 
 ## M1. Earth as a Coupled System
 
 ### L1. Major interacting subsystems
+
 C12 models Earth as a coupled system containing:
+
 - atmosphere;
 - hydrosphere;
 - ocean;
@@ -93,10 +102,12 @@ These are analytical partitions, not physically independent worlds. Matter, ener
 organisms, information, and human actions cross subsystem boundaries continuously.
 
 ### L2. Stocks and flows
+
 A stock `X` changes according to:
 `dX/dt = Σ inflows - Σ outflows + internal production - internal loss`.
 
 Examples:
+
 - atmospheric carbon stock;
 - soil organic carbon;
 - groundwater storage;
@@ -107,7 +118,9 @@ Examples:
 A stock-flow diagram is only as reliable as its boundary definitions and omitted pathways.
 
 ### L3. Conservation
+
 Earth-system budgets often use conservation laws:
+
 - mass conservation;
 - energy conservation;
 - elemental budgets;
@@ -119,11 +132,13 @@ where `S` is storage, `P` precipitation, `ET` evapotranspiration, `Q` runoff, an
 groundwater exchange under the chosen sign convention.
 
 ### L4. Feedback
+
 Feedback exists when a state change alters processes that subsequently affect that state.
 
 Positive feedback amplifies a perturbation; negative feedback dampens it.
 
 Examples:
+
 - ice-albedo feedback;
 - water-vapor feedback;
 - vegetation–soil–moisture feedback;
@@ -132,11 +147,12 @@ Examples:
 
 "Positive" does not mean beneficial; "negative" does not mean harmful.
 
----
+______________________________________________________________________
 
 ## M2. Planetary Energy Balance
 
 ### L1. Incoming and outgoing radiation
+
 At global equilibrium scale, absorbed solar energy and outgoing longwave radiation are central.
 
 A simple zero-dimensional balance:
@@ -147,6 +163,7 @@ This model omits spatial structure, clouds, atmospheric dynamics, ocean heat upt
 spectral greenhouse physics.
 
 ### L2. Effective radiating temperature
+
 If Earth were approximated as a black/gray body:
 `OLR ≈ ε σ T_e^4`.
 
@@ -154,11 +171,13 @@ The surface is warmer than the effective emission temperature because greenhouse
 clouds alter infrared radiative transfer.
 
 ### L3. Radiative forcing
+
 Radiative forcing measures a perturbation to the planetary energy budget under a specified
 definition. Climate response depends on feedbacks, ocean heat uptake, spatial pattern, and
 timescale.
 
 ### L4. Climate sensitivity
+
 Equilibrium climate sensitivity and transient climate response are distinct quantities.
 They are inferred from models, paleoclimate, observations, and process constraints.
 
@@ -166,12 +185,14 @@ AMOS rule:
 Never treat one sensitivity estimate as a universal response parameter independent of state,
 timescale, forcing pattern, or model assumptions.
 
----
+______________________________________________________________________
 
 ## M3. Carbon Cycle
 
 ### L1. Major carbon reservoirs
+
 Key reservoirs include:
+
 - atmosphere;
 - terrestrial vegetation;
 - soils;
@@ -181,17 +202,21 @@ Key reservoirs include:
 - fossil carbon.
 
 ### L2. Fast and slow carbon cycles
+
 Fast exchanges occur over days to centuries among atmosphere, land, and ocean.
 Slow geological processes operate over millennia to millions of years.
 
 ### L3. Anthropogenic perturbation
+
 Human activities transfer carbon from geological and biospheric reservoirs into the
 atmosphere through fossil-fuel combustion, cement production, and land-use change.
 
 Atmospheric CO₂ increases when emissions exceed net uptake by land and ocean sinks.
 
 ### L4. Sink nonstationarity
+
 Land and ocean sinks vary with:
+
 - temperature;
 - precipitation;
 - CO₂ fertilization;
@@ -204,21 +229,25 @@ Land and ocean sinks vary with:
 
 Historical sink fractions must not be assumed constant under future regimes.
 
----
+______________________________________________________________________
 
 ## M4. Water Cycle
 
 ### L1. Global hydrological cycle
+
 Water moves through evaporation, condensation, precipitation, infiltration, runoff,
 groundwater flow, ice storage, and biological transpiration.
 
 ### L2. Clausius–Clapeyron relation
+
 Saturation vapor pressure increases approximately exponentially with temperature.
 Near typical lower-atmospheric temperatures, saturation water-vapor capacity rises by roughly
 several percent per kelvin, but precipitation response is constrained by energy and dynamics.
 
 ### L3. Regional water balance
+
 Regional hydroclimate depends on:
+
 - circulation;
 - topography;
 - land cover;
@@ -231,11 +260,12 @@ Regional hydroclimate depends on:
 
 Global trends cannot be transferred mechanically to local water availability.
 
----
+______________________________________________________________________
 
 ## M5. Nutrient Cycles
 
 ### L1. Nitrogen
+
 Nitrogen cycles through fixation, assimilation, mineralization, nitrification,
 denitrification, volatilization, leaching, and transport.
 
@@ -243,22 +273,26 @@ Reactive nitrogen added through fertilizer and combustion can increase productiv
 also driving eutrophication, air pollution, greenhouse forcing, and biodiversity loss.
 
 ### L2. Phosphorus
+
 Phosphorus has no large atmospheric gas phase comparable to nitrogen.
 Agricultural phosphorus is obtained largely from mined phosphate rock and recirculated
 through soils, food systems, water bodies, waste streams, and sediments.
 
 ### L3. Stoichiometric constraint
+
 Biological productivity can be limited by whichever nutrient or resource is scarce relative
 to demand. Limitation is ecosystem- and regime-dependent.
 
----
+______________________________________________________________________
 
-# H2 — Climate Dynamics, Oceans & Cryosphere
+## H2 — Climate Dynamics, Oceans & Cryosphere
 
 ## M1. Atmosphere and Circulation
 
 ### L1. Primitive physical basis
+
 Atmospheric models solve discretized forms of:
+
 - momentum conservation;
 - mass continuity;
 - thermodynamic energy;
@@ -270,7 +304,9 @@ General circulation models are physically constrained numerical models, not lite
 of every microscale process.
 
 ### L2. Global circulation
+
 Large-scale structure includes:
+
 - Hadley, Ferrel, and polar cells;
 - jet streams;
 - storm tracks;
@@ -281,23 +317,27 @@ Large-scale structure includes:
 Their positions and strengths vary seasonally and interannually.
 
 ### L3. Modes of variability
+
 Climate variability includes El Niño–Southern Oscillation, North Atlantic variability,
 Indian Ocean variability, Pacific decadal variability, and other coupled modes.
 
 These modes can strongly modulate regional climate without representing long-term forced
 trend by themselves.
 
----
+______________________________________________________________________
 
 ## M2. Greenhouse Effect
 
 ### L1. Mechanism
+
 Greenhouse gases absorb and emit infrared radiation at wavelength-dependent bands.
 Increasing greenhouse-gas concentrations alters the effective level from which Earth emits
 radiation to space, creating an energy imbalance until the climate system adjusts.
 
 ### L2. Major greenhouse agents
+
 Long-lived greenhouse gases include:
+
 - carbon dioxide;
 - methane;
 - nitrous oxide;
@@ -307,19 +347,23 @@ Water vapor is a major greenhouse gas but acts primarily as a climate feedback a
 climate timescales because atmospheric water vapor responds strongly to temperature.
 
 ### L3. Aerosols
+
 Aerosols affect climate through scattering/absorption and cloud interactions.
 Their spatial heterogeneity and short atmospheric lifetime create large regional complexity.
 
----
+______________________________________________________________________
 
 ## M3. Extremes and Compound Events
 
 ### L1. Heat extremes
+
 Heat risk depends on temperature, humidity, radiation, wind, nighttime cooling, exposure,
 housing, health status, labor conditions, and acclimatization.
 
 ### L2. Drought
+
 Drought has multiple definitions:
+
 - meteorological;
 - agricultural;
 - hydrological;
@@ -329,7 +373,9 @@ Drought has multiple definitions:
 A rainfall deficit does not map one-to-one to groundwater or crop drought.
 
 ### L3. Flood
+
 Flood hazard arises from combinations of:
+
 - intense precipitation;
 - saturated soils;
 - river discharge;
@@ -340,7 +386,9 @@ Flood hazard arises from combinations of:
 - channel modification.
 
 ### L4. Compound events
+
 Examples include:
+
 - heat + drought;
 - storm surge + river flooding;
 - wildfire + post-fire landslide;
@@ -350,19 +398,22 @@ Examples include:
 Risk assessment should preserve joint probability and dependency rather than multiplying
 independent probabilities when the hazards are correlated.
 
----
+______________________________________________________________________
 
 ## M4. Ocean System
 
 ### L1. Ocean heat uptake
+
 The ocean stores most of the excess heat accumulated by the climate system because of its
 large heat capacity.
 
 ### L2. Circulation
+
 Ocean circulation includes wind-driven gyres, overturning circulation, mesoscale eddies, and
 vertical mixing. Circulation transports heat, carbon, oxygen, nutrients, and organisms.
 
 ### L3. Ocean acidification
+
 Dissolved CO₂ alters carbonate chemistry:
 `CO₂ + H₂O ↔ H₂CO₃ ↔ HCO₃⁻ + H⁺ ↔ CO₃²⁻ + 2H⁺`.
 
@@ -370,15 +421,18 @@ Increased anthropogenic CO₂ lowers average ocean pH and carbonate-ion availabi
 calcifying organisms and ecosystem processes.
 
 ### L4. Deoxygenation
+
 Ocean warming reduces oxygen solubility and can strengthen stratification. Nutrient loading
 can additionally produce local hypoxia through respiration of organic matter.
 
----
+______________________________________________________________________
 
 ## M5. Cryosphere
 
 ### L1. Components
+
 Cryosphere includes:
+
 - mountain glaciers;
 - ice sheets;
 - sea ice;
@@ -387,30 +441,37 @@ Cryosphere includes:
 - seasonally frozen ground.
 
 ### L2. Sea ice
+
 Melting floating sea ice has little direct effect on sea level through displacement, but
 strongly affects albedo, ecosystems, and ocean-atmosphere exchange.
 
 ### L3. Land ice
+
 Loss of glaciers and land-based ice sheets contributes to sea-level rise.
 
 ### L4. Permafrost
+
 Permafrost stores large quantities of frozen organic carbon.
 Thaw can increase CO₂ and methane emissions, but rates depend on hydrology, vegetation,
 microbiology, fire, and landscape change.
 
----
+______________________________________________________________________
 
 ## M6. Sea-Level Change
 
 ### L1. Main drivers
+
 Global mean sea level changes through:
+
 - thermal expansion;
 - glacier mass loss;
 - ice-sheet mass loss;
 - terrestrial water storage changes.
 
 ### L2. Local relative sea level
+
 Local risk also depends on:
+
 - land subsidence/uplift;
 - sediment compaction;
 - groundwater extraction;
@@ -420,14 +481,16 @@ Local risk also depends on:
 
 Global mean sea level is not a sufficient local design variable.
 
----
+______________________________________________________________________
 
-# H3 — Ecology, Biodiversity & Biogeochemistry
+## H3 — Ecology, Biodiversity & Biogeochemistry
 
 ## M1. Ecological Organization
 
 ### L1. Levels
+
 Ecology studies:
+
 - individuals;
 - populations;
 - communities;
@@ -439,6 +502,7 @@ Ecology studies:
 These are nested but not perfectly separable scales.
 
 ### L2. Population growth
+
 Exponential model:
 `dN/dt = rN`.
 
@@ -450,16 +514,19 @@ resource variation, predation, disease, environmental stochasticity, and nonstat
 carrying capacity.
 
 ### L3. Metapopulations
+
 Spatially separated habitat patches can be connected by dispersal.
 Persistence may depend on colonization, local extinction, connectivity, patch quality, and
 source-sink dynamics.
 
----
+______________________________________________________________________
 
 ## M2. Species Interactions
 
 ### L1. Interaction types
+
 Common categories include:
+
 - competition;
 - predation;
 - herbivory;
@@ -470,22 +537,26 @@ Common categories include:
 Context can change the sign or strength of an interaction.
 
 ### L2. Trophic structure
+
 Food webs encode energy and material transfer.
 Trophic cascades can occur when changes at one trophic level propagate to others.
 
 ### L3. Keystone and foundation species
+
 A keystone species has disproportionate ecological effect relative to abundance.
 A foundation species creates or structures habitat for many other organisms.
 
 These labels are empirical ecological roles, not permanent species properties independent of
 ecosystem context.
 
----
+______________________________________________________________________
 
 ## M3. Biodiversity
 
 ### L1. Dimensions
+
 Biodiversity includes:
+
 - genetic diversity;
 - species diversity;
 - functional diversity;
@@ -493,6 +564,7 @@ Biodiversity includes:
 - ecosystem diversity.
 
 ### L2. Diversity indices
+
 Shannon index:
 `H' = -Σ p_i ln p_i`.
 
@@ -502,37 +574,42 @@ No single index captures biodiversity value, functional redundancy, evolutionary
 or ecosystem integrity.
 
 ### L3. Extinction debt
+
 Habitat loss and fragmentation can create delayed extinctions.
 Observed persistence immediately after disturbance does not prove long-term viability.
 
 ### L4. Functional redundancy
+
 Multiple species may contribute to similar functions, potentially buffering ecosystem
 processes. Redundancy is partial and context-dependent; species are not interchangeable units.
 
----
+______________________________________________________________________
 
 ## M4. Productivity and Ecosystem Metabolism
 
 ### L1. Primary production
+
 Gross primary production `GPP` is total photosynthetic carbon fixation.
 Net primary production:
 `NPP = GPP - R_auto`
 where `R_auto` is autotrophic respiration.
 
 ### L2. Net ecosystem production
+
 A common conceptual form:
 `NEP = GPP - R_ecosystem`
 with sign conventions varying.
 
 ### L3. Limitation
+
 Productivity may be limited by:
+
 - light;
 - water;
 - temperature;
 - nitrogen;
 - phosphorus;
 -
-
 
 ## Vault-Sourced Domain Content
 
@@ -559,13 +636,14 @@ Where applicable:
 data sources → empirical status → scope/regime → uncertainty → failure modes → competing models →
 falsifiers → dependencies → decision relevance → AMOS bridge**.
 
----
+______________________________________________________________________
 
-# H1 — Earth-System Structure & Biogeophysical Flows — part 2
+## H1 — Earth-System Structure & Biogeophysical Flows — part 2
 
 ### L2. Major Greenhouse Agents
 
 Long-lived greenhouse gases include:
+
 - carbon dioxide;
 - methane;
 - nitrous oxide;
@@ -577,6 +655,7 @@ climate timescales because atmospheric water vapor responds strongly to temperat
 ### L1. Food Security Dimensions
 
 Food security includes:
+
 - availability;
 - access;
 - utilization/nutrition;
@@ -589,6 +668,7 @@ Production alone is not a complete food-security metric.
 Environmental stress can contribute to migration or conflict risk but rarely acts alone.
 
 Potential mediators include:
+
 - livelihoods;
 - food prices;
 - water governance;
@@ -611,6 +691,7 @@ They are risk-oriented scientific constructs with heterogeneous evidence and unc
 ### L2. Provenance
 
 Each fused variable should retain:
+
 - source;
 - spatial resolution;
 - temporal resolution;
@@ -625,11 +706,12 @@ Each fused variable should retain:
 A project is not ecologically beneficial merely because it contains vegetation or uses
 "nature-based" language.
 
----
+______________________________________________________________________
 
 ### M3. Rscf Earth-System Mapping
 
 A domain-specific RSCF representation may encode:
+
 - **State** — ecological/climatic system variables;
 - **Constraint** — physical, biological, legal, resource, or boundary conditions;
 - **Feedback** — causal loops and adaptive response;
@@ -638,11 +720,12 @@ A domain-specific RSCF representation may encode:
 A valid RSCF mapping must preserve the actual science rather than replacing process models
 with generic labels.
 
----
+______________________________________________________________________
 
 ### M11. Ecological Causal Firewall
 
 Do not infer causation from:
+
 - correlation across sites;
 - before/after sequence alone;
 - spatial coincidence;
@@ -650,6 +733,7 @@ Do not infer causation from:
 - mechanistic plausibility alone.
 
 Causal evidence can draw from:
+
 - manipulative experiments;
 - natural experiments;
 - time-series identification;
@@ -657,7 +741,7 @@ Causal evidence can draw from:
 - causal inference with explicit assumptions;
 - convergent independent evidence.
 
----
+______________________________________________________________________
 
 ### M12. Scenario Firewall
 
@@ -669,7 +753,7 @@ Correct:
 Incorrect:
 `The future will be R.`
 
----
+______________________________________________________________________
 
 ### M13. Indigenous And Local Knowledge
 
@@ -677,6 +761,7 @@ Local and Indigenous knowledge can provide long-horizon observations, process kn
 context unavailable in instrumental records.
 
 AMOS treatment should preserve:
+
 - source identity;
 - community ownership;
 - consent;
@@ -687,7 +772,7 @@ AMOS treatment should preserve:
 It should not strip knowledge from governance or cultural context and relabel it as generic
 data.
 
----
+______________________________________________________________________
 
 ### Causal Firewall
 
@@ -716,13 +801,15 @@ confounders, and uncertainty.
 - **Validation failure**: If validation gates fail, downgrade confidence, flag the gap, and escalate — do not force-fit.
 - **Epistemic overreach**: If a claim exceeds the established evidence or epistemic class, retract and relabel.
 
----
+______________________________________________________________________
+
 **MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -730,13 +817,14 @@ confounders, and uncertainty.
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-c12-earth-ecology-master-vault-domain-knowledge
 node_type: reference
 path: 07_SKILLS/amos-c12-earth-ecology-master/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC
-

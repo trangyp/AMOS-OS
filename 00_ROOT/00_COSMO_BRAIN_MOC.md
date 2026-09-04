@@ -1,4 +1,7 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: 00 Root MOC
 type: moc
 source: 00_ROOT
@@ -119,7 +122,7 @@ rscf:
 - [[00_ROOT/AMOS_TOTAL_DEPENDENCY_GRAPH|AMOS_TOTAL_DEPENDENCY_GRAPH]]
 - [[00_ROOT/AMOS_TOTAL_DOMAIN_REGISTRY|AMOS_TOTAL_DOMAIN_REGISTRY]]
 - [[00_ROOT/AMOS_TOTAL_ENGINE_REGISTRY|AMOS_TOTAL_ENGINE_REGISTRY]]
-- [[00_ROOT/AMOS_TOTAL_FRAMEWORK_REGISTRY|AMOS_TOTAL_FRAMEWORK_REGISTRY]]
+- [[00_ROOT/AMOS_ORPHAN_FRAMEWORK_REGISTRY|AMOS_ORPHAN_FRAMEWORK_REGISTRY]]
 - [[00_ROOT/AMOS_TOTAL_HERITAGE_REGISTRY|AMOS_TOTAL_HERITAGE_REGISTRY]]
 - [[00_ROOT/AMOS_TOTAL_KERNEL_REGISTRY|AMOS_TOTAL_KERNEL_REGISTRY]]
 - [[00_ROOT/AMOS_TOTAL_LINEAGE_GRAPH|AMOS_TOTAL_LINEAGE_GRAPH]]
@@ -173,7 +176,8 @@ rscf:
 - [[11_KNOWLEDGE/stubs/19|Stubs 19]]
 - [[00_ROOT/README|Root README]]
 
----
+______________________________________________________________________
+
 **Parent:** [[AMOS_HOME|AMOS_HOME]]
 
 ## Newly bound agents and workflows
@@ -183,7 +187,7 @@ rscf:
 - [[07_SKILLS/amos-law-stack-enforcement/SKILL|AMOS Law Stack Enforcement]] skill
 - [[08_WORKFLOWS/amos-law-stack-enforcement-workflow|AMOS Law Stack Enforcement]] workflow
 - [[07_SKILLS/obsidian-plugin-auto-tag/SKILL|Obsidian Plugin Auto Tag]] skill
-- [[08_WORKFLOWS/obsidian-plugin-auto-tag-workflow|Obsidian Plugin Auto Tag]] workflow
+- [[08_WORKFLOWS/amos-obsidian-plugin-auto-tag-workflow|Obsidian Plugin Auto Tag]] workflow
 - [[08_WORKFLOWS/amos-mdformat-obsidian-workflow|Workflow: AMOS mdformat-obsidian]]
 - [[07_SKILLS/07_SKILLS_MOC|AMOS Skills MOC]]
 - [[skill-catalog|Skill Catalog]]

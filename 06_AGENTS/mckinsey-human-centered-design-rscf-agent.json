@@ -89,7 +89,7 @@
     "mckinsey-human-centered-design-rscf"
   ],
   "depends_on_workflows": [
-    "mckinsey-human-centered-design-rscf-workflow.md"
+    "amos-mckinsey-human-centered-design-rscf-workflow.md"
   ],
   "epistemic_class": "AMOS_MODEL",
   "claim_ceiling": 0.95,

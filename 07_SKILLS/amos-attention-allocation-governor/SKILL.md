@@ -4,25 +4,22 @@ title: SKILL — Amos Attention Allocation Governor
 type: skill
 source: 07_SKILLS/amos-attention-allocation-governor
 name: amos-attention-allocation-governor
-description: Attention Allocation Governor — mind and behavior capability. Use when
-  psychological analysis, behavioral reasoning, or cognitive modeling. Use when amos-c05-mind-behavior-master
-  routes to this specialized capability. Do not use for generic tasks outside c05
-  domain.
+description: Attention Allocation Governor — mind and behavior capability. Use when psychological analysis, behavioral reasoning, or cognitive modeling. Use when amos-c05-mind-behavior-master routes to this specialized capability. Do not use for generic tasks outside c05 domain.
 parent_skill: amos-c05-mind-behavior-master
 domain: c05
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
 tags:
-- type/skill
-- type/skill
-- domain/mind-behavior
-- epistemic/source_claim
-- hml/m
-- epistemic/source_claim
-- amos-os
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/mind-behavior
+  - epistemic/source_claim
+  - hml/m
+  - epistemic/source_claim
+  - amos-os
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -32,20 +29,20 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: M
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L16
-- L17
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L16
+  - L17
 license: MIT
 steward: Trang Phan
 ---
@@ -55,6 +52,7 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: c05. Parent: amos-c05-mind-behavior-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
 ## When to Use
 
 - When modeling cognitive processes: attention, awareness, compression
@@ -74,6 +72,7 @@ Origin architect: **Trang Phan**. Domain: c05. Parent: amos-c05-mind-behavior-ma
 - **attention_allocation.govern_expression**: Govern artistic and emotional expression within healthy bounds
 
 > **Reference**: See `references/vault_domain_knowledge.md` (content_hash: b5eebe491afb3b85) for the full vault-sourced domain knowledge (9316 chars).
+
 - **attention_allocation.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
 - **attention_allocation.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **attention_allocation.validate_outputs**: Validate outputs against domain constraints and epistemic class.
@@ -81,12 +80,12 @@ Origin architect: **Trang Phan**. Domain: c05. Parent: amos-c05-mind-behavior-ma
 ## Operations
 
 1. **attention_allocation.model_cognition**: Model cognitive processes: attention, awareness, compression, and inference
-2. **attention_allocation.allocate_attention**: Allocate attention resources across competing demands and priorities
-3. **attention_allocation.assess_awareness**: Assess awareness levels: meta-cognition, self-monitoring, and calibration
-4. **attention_allocation.govern_expression**: Govern artistic and emotional expression within healthy bounds
-5. **attention_allocation.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-6. **attention_allocation.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
-7. **attention_allocation.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+1. **attention_allocation.allocate_attention**: Allocate attention resources across competing demands and priorities
+1. **attention_allocation.assess_awareness**: Assess awareness levels: meta-cognition, self-monitoring, and calibration
+1. **attention_allocation.govern_expression**: Govern artistic and emotional expression within healthy bounds
+1. **attention_allocation.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+1. **attention_allocation.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+1. **attention_allocation.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## 11_KNOWLEDGE Vault Content
 
@@ -110,27 +109,29 @@ AttentionBudget = {
 ### Allocation Priority
 
 1. **Hard constraints** -- non-negotiable limits that must be satisfied
-2. **Unresolved contradictions** -- contradictions that block progression
-3. **Critical evidence** -- evidence that changes the conclusion
-4. **Decision-changing uncertainty** -- uncertainty that affects the decision
-5. **Narrative detail** -- supporting context, examples, exposition
+1. **Unresolved contradictions** -- contradictions that block progression
+1. **Critical evidence** -- evidence that changes the conclusion
+1. **Decision-changing uncertainty** -- uncertainty that affects the decision
+1. **Narrative detail** -- supporting context, examples, exposition
 
 **Law**: Narrative detail is the first to be compressed when budget is exceeded. Hard constraints are the last.
 
 ### Budget Exhaustion Protocol
 
 When attention budget is exhausted:
+
 1. Compress narrative detail first
-2. Merge redundant evidence
-3. Defer non-critical branches
-4. Preserve hard constraints and critical evidence
-5. If still over budget: flag as BUDGET_EXCEEDED and escalate
+1. Merge redundant evidence
+1. Defer non-critical branches
+1. Preserve hard constraints and critical evidence
+1. If still over budget: flag as BUDGET_EXCEEDED and escalate
 
 ### Epistemic Boundary
 
 Attention allocation is a resource management construct. It does not prove optimal allocation, completeness, or that critical evidence is never missed. It is a heuristic, not a guarantee.
 
 ## Failure Modes
+
 - **Insufficient evidence**: If source material is insufficient, mark as UNKNOWN/GAP and fail closed — do not fabricate.
 - **Scope violation**: If the query falls outside the skill's declared scope, escalate to the parent skill or steward.
 - **Binding broken**: If 1:1:1 binding (skill→agent→workflow) is broken, flag routing mismatch and block execution.
@@ -146,7 +147,8 @@ Attention allocation is a resource management construct. It does not prove optim
 - **G5 (Equation firewall)**: Equations carry status tags (ESTABLISHED_MATH / SOURCE_DERIVED / AMOS_MODEL / EMPIRICALLY_CALIBRATED / UNVERIFIED).
 - **G6 (Failure mode)**: On validation failure, down
 
----
+______________________________________________________________________
+
 **Links:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 ## Related
@@ -156,17 +158,19 @@ Attention allocation is a resource management construct. It does not prove optim
 ## Examples
 
 - **Scenario**: When modeling cognitive processes: attention, awareness, compression
+
   - **Input**: A query matching this skill's domain (c05)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When allocating attention resources across competing demands
+
   - **Input**: A query matching this skill's domain (c05)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When assessing awareness levels and meta-cognition
+
   - **Input**: A query matching this skill's domain (c05)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Anti-Patterns
 
@@ -176,7 +180,6 @@ Attention allocation is a resource management construct. It does not prove optim
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `amos-c05-mind-behavior-master` — routes to this skill when c05 specialization is needed
@@ -184,7 +187,6 @@ Attention allocation is a resource management construct. It does not prove optim
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -203,7 +205,6 @@ Attention allocation is a resource management construct. It does not prove optim
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -211,7 +212,6 @@ Attention allocation is a resource management construct. It does not prove optim
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -224,11 +224,12 @@ Attention allocation is a resource management construct. It does not prove optim
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `amos-c05-mind-behavior-master` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `amos-attention-allocation-governor-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -236,13 +237,14 @@ Attention allocation is a resource management construct. It does not prove optim
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-attention-allocation-governor
 node_type: skill
 path: 07_SKILLS/amos-attention-allocation-governor/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
-

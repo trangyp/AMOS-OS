@@ -12,21 +12,21 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: FRAMEWORK
 path: 11_KNOWLEDGE/05_FRAMEWORKS/BIO_LOGICAL_COMPUTING.md
 tags:
-- amos-os
-- knowledge
-- vault
-- 05_frameworks
-- bio_logical_computing
-- biological_computing
-- living_circuits
-- non_von_neumann
-- rscf
-- canon_candidate
-- canon/knowledge
-- unified-biological-intelligence
-- uba-framework
-- ubi-biological-programming
-- domain-canon-programming
+  - amos-os
+  - knowledge
+  - vault
+  - 05_frameworks
+  - bio_logical_computing
+  - biological_computing
+  - living_circuits
+  - non_von_neumann
+  - rscf
+  - canon_candidate
+  - canon/knowledge
+  - unified-biological-intelligence
+  - uba-framework
+  - ubi-biological-programming
+  - domain-canon-programming
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -41,20 +41,20 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - BIO_LOGICAL_COMPUTING_FRAMEWORK
-  - UBI_OFFICIAL_MANUAL
-  - AMOS_CORPUS
+    - BIO_LOGICAL_COMPUTING_FRAMEWORK
+    - UBI_OFFICIAL_MANUAL
+    - AMOS_CORPUS
   scope:
-  - KNOWLEDGE_FRAMEWORKS
-  - BIOLOGICAL_COMPUTING
-  - SOURCE_DEFINED_MODEL
+    - KNOWLEDGE_FRAMEWORKS
+    - BIOLOGICAL_COMPUTING
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   primary:
     name: Bio-Logical Computing Architecture
     role: NON_VON_NEUMANN_BIOLOGICAL_COMPUTING
   biological_master:
     artifact:
-    - - UNIFIED_BIOLOGICAL_INTELLIGENCE
+      -   - UNIFIED_BIOLOGICAL_INTELLIGENCE
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
@@ -68,25 +68,25 @@ epistemic_boundary:
 
 It develops non-von Neumann computational architectures that model computation as metabolic transformation, state-dependent memory crystallization, and oscillatory phase coherence.
 
----
+______________________________________________________________________
 
-# 1. Core Computing Principles
+## 1. Core Computing Principles
 
 1. **Metabolic Computation:** Energy dissipation directly coupled to computational entropy and memory consolidation.
-2. **State-Dependent Relational Memory:** Memory stored not in fixed addresses, but in dynamic relational graph topology.
-3. **Phase-Locked Clocking:** System clocking driven by natural bioelectromagnetic oscillations rather than rigid crystal oscillators.
+1. **State-Dependent Relational Memory:** Memory stored not in fixed addresses, but in dynamic relational graph topology.
+1. **Phase-Locked Clocking:** System clocking driven by natural bioelectromagnetic oscillations rather than rigid crystal oscillators.
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Biological Master:** [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]]
 - **Biological Architecture:** [[11_KNOWLEDGE/05_FRAMEWORKS/UBA_FRAMEWORK|UBA_FRAMEWORK]]
 - **Programming Models:** [[11_KNOWLEDGE/05_FRAMEWORKS/UBI_BIOLOGICAL_PROGRAMMING|UBI_BIOLOGICAL_PROGRAMMING]] and [[01_CANON/04_INFRASTRUCTURE_CANON/DOMAIN_CANON_PROGRAMMING|DOMAIN_CANON_PROGRAMMING]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -104,10 +104,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]] · [[11_KNOWLEDGE/05_FRAMEWORKS/UBA_FRAMEWORK|UBA_FRAMEWORK]] · [[11_KNOWLEDGE/05_FRAMEWORKS/UBI_BIOLOGICAL_PROGRAMMING|UBI_BIOLOGICAL_PROGRAMMING]]
 
----
-**MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]
+______________________________________________________________________
 
+**MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]

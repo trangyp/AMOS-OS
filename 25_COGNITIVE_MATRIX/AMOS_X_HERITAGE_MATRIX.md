@@ -1,23 +1,26 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: AMOS × Heritage Matrix
 type: heritage
 source: 25_COGNITIVE_MATRIX
 tags:
-- amos-os
-- cognitive-matrix
-- matrix
-- heritage
-- heritage_intelligence
-- heritage_void
-- decision_governance
-- uncertainty
-- regime_detection
-- provenance
-- rscf
-- domain/cognitive-matrix
-- amos-cognitive-architecture-matrix
-- amos-full-brain-os-architecture
-- law-hierarchy
+  - amos-os
+  - cognitive-matrix
+  - matrix
+  - heritage
+  - heritage_intelligence
+  - heritage_void
+  - decision_governance
+  - uncertainty
+  - regime_detection
+  - provenance
+  - rscf
+  - domain/cognitive-matrix
+  - amos-cognitive-architecture-matrix
+  - amos-full-brain-os-architecture
+  - law-hierarchy
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -80,9 +83,9 @@ Origin architect / steward:
 
 **Trang Phan**
 
----
+______________________________________________________________________
 
-# 1. Purpose
+## 1. Purpose
 
 The purpose of the **AMOS × Heritage Matrix** is to bind the Heritage Intelligence framework into the AMOS Cognitive Matrix as a structured decision-governance, signal-integration, uncertainty, regime, and purpose layer.
 
@@ -125,9 +128,9 @@ decision governance
 uncertainty preservation
 ```
 
----
+______________________________________________________________________
 
-# 2. Non-Purpose
+## 2. Non-Purpose
 
 This matrix MUST NOT be used to claim that:
 
@@ -157,9 +160,9 @@ UNKNOWN/GAP
 
 depending on the specific claim.
 
----
+______________________________________________________________________
 
-# 3. Epistemic Contract
+## 3. Epistemic Contract
 
 ```yaml
 epistemic_contract:
@@ -223,9 +226,9 @@ sharing the same source ancestry
 independent confirmation
 ```
 
----
+______________________________________________________________________
 
-# 4. Heritage Intelligence — Executive Architecture
+## 4. Heritage Intelligence — Executive Architecture
 
 The native source describes Heritage Intelligence as a layered system that attempts to read reality indirectly through multiple encoded signals.
 
@@ -273,9 +276,9 @@ constraints
 feedback
 ```
 
----
+______________________________________________________________________
 
-# 5. Six Foundational Axioms
+## 5. Six Foundational Axioms
 
 The source defines six foundational axioms.
 
@@ -320,7 +323,7 @@ Feedback
 
 `AMOS_MODEL`
 
----
+______________________________________________________________________
 
 ## A2 — Information Security
 
@@ -369,7 +372,7 @@ Multi-source Knowledge Reconstruction
 
 Structural preservation does not prove that every inherited cultural pattern encodes valid empirical knowledge.
 
----
+______________________________________________________________________
 
 ## A3 — Brain
 
@@ -397,7 +400,7 @@ model/world distinction
 Perception != Reality
 ```
 
----
+______________________________________________________________________
 
 ## A4 — Externalization
 
@@ -432,7 +435,7 @@ Knowledge Artifact
 Persistent Evidence
 ```
 
----
+______________________________________________________________________
 
 ## A5 — Integrity
 
@@ -454,7 +457,7 @@ Integrity > threshold
 
 No threshold is universal unless independently calibrated.
 
----
+______________________________________________________________________
 
 ## A6 — Purpose
 
@@ -502,9 +505,9 @@ but:
 Should I act?
 ```
 
----
+______________________________________________________________________
 
-# 6. Total Heritage Layer Architecture
+## 6. Total Heritage Layer Architecture
 
 The source describes a wide architecture running from approximately:
 
@@ -516,7 +519,7 @@ T15
 
 with special Heritage signal layers embedded in the stack.
 
----
+______________________________________________________________________
 
 ## 6.1 T−4 — Thermodynamic Constraints
 
@@ -537,7 +540,7 @@ Defines hard physical/resource constraints.
 
 Constraint envelope.
 
----
+______________________________________________________________________
 
 ## 6.2 T−3.8 — Information-Theoretic Limits
 
@@ -560,7 +563,7 @@ Information available to the system is bounded.
 Representation Gap
 ```
 
----
+______________________________________________________________________
 
 ## 6.3 T−3.6 — Game-Theoretic Dynamics
 
@@ -579,7 +582,7 @@ strategic signaling
 
 Models strategic interaction.
 
----
+______________________________________________________________________
 
 ## 6.4 T−3.5 — Complexity / Chaos
 
@@ -600,7 +603,7 @@ small input difference
 large outcome divergence
 ```
 
----
+______________________________________________________________________
 
 ## 6.5 T−3.3 — Ethical Constraints
 
@@ -617,7 +620,7 @@ long-term consequences
 
 Constrains actions that may be operationally possible but ethically disallowed.
 
----
+______________________________________________________________________
 
 ## 6.6 T−3.0 — Phenomenological Layer
 
@@ -635,7 +638,7 @@ Use as a model lens.
 
 Do not treat subjective experience as independent empirical verification of external events.
 
----
+______________________________________________________________________
 
 ## 6.7 T−2.8 — Non-Dual / Emptiness
 
@@ -659,7 +662,7 @@ state non-finality
 
 not as a scientifically verified ontological law.
 
----
+______________________________________________________________________
 
 ## 6.8 T−2.5 — Meta-Reflective Closure
 
@@ -678,7 +681,7 @@ Gap registration
 Self-refutation
 ```
 
----
+______________________________________________________________________
 
 ## 6.9 T−2.3 — Cosmic / Planetary Constraints
 
@@ -695,7 +698,7 @@ planetary conditions
 
 Only use where causal evidence and scope are independently established.
 
----
+______________________________________________________________________
 
 ## 6.10 T−2.0 — Social / Cultural Memes
 
@@ -709,7 +712,7 @@ collective behavior
 investment movements
 ```
 
----
+______________________________________________________________________
 
 ## 6.11 T−1.8 — Spiritual / Anomalous Signals
 
@@ -727,7 +730,7 @@ coincidence
 
 These signals must not be promoted to verified causal evidence without independent validation.
 
----
+______________________________________________________________________
 
 ## 6.12 T−1.5 — DNA / Evolutionary Priors
 
@@ -744,7 +747,7 @@ survival bias
 
 Represents inherited or evolved behavioral priors.
 
----
+______________________________________________________________________
 
 ## 6.13 T−1.2 — Neuroscience Kernel
 
@@ -764,7 +767,7 @@ decision pressure
 
 unless linked to independently validated neuroscience evidence.
 
----
+______________________________________________________________________
 
 ## 6.14 T−0.9 — Quantum Logic
 
@@ -787,7 +790,7 @@ quantum analogy
 macroscopic causal proof
 ```
 
----
+______________________________________________________________________
 
 ## 6.15 T−0.5 — True Randomness
 
@@ -799,7 +802,7 @@ Represents irreducible uncertainty / nonpredictability.
 
 Some uncertainty is treated as permanent rather than reducible.
 
----
+______________________________________________________________________
 
 ## 6.16 T−0.2 — Meta-Logical Invariants
 
@@ -812,7 +815,7 @@ distinction
 stability
 ```
 
----
+______________________________________________________________________
 
 ## 6.17 T0 — Macro Plumbing Core
 
@@ -829,13 +832,13 @@ USD liquidity
 
 Macroeconomic / market plumbing.
 
----
+______________________________________________________________________
 
 ## 6.18 T1–T10 — Heritage Core Signal Stack
 
 The core ten Heritage signals are described below.
 
----
+______________________________________________________________________
 
 ## 6.19 T11–T13 — Special Heritage Layers
 
@@ -849,7 +852,7 @@ MEP
 
 These extend the ten core signal layers.
 
----
+______________________________________________________________________
 
 ## 6.20 T14 — Microstructure Engine
 
@@ -863,7 +866,7 @@ Spoofing
 Liquidity Depth
 ```
 
----
+______________________________________________________________________
 
 ## 6.21 T15 — Regime Switch Engine
 
@@ -875,9 +878,9 @@ detect current operating regime
 change decision policy
 ```
 
----
+______________________________________________________________________
 
-# 7. Ten Core Heritage Signal Layers
+## 7. Ten Core Heritage Signal Layers
 
 ## L1 — Geology / Climate
 
@@ -904,7 +907,7 @@ climate patterns
 
 Physical geography may preserve long-duration environmental information.
 
----
+______________________________________________________________________
 
 ## L2 — Biology
 
@@ -926,7 +929,7 @@ regional disease patterns
 ecosystem shifts
 ```
 
----
+______________________________________________________________________
 
 ## L3 — Body
 
@@ -945,7 +948,7 @@ human avoidance / attraction behavior
 
 Embodied signals are context-sensitive and should not be automatically converted into universal causal claims.
 
----
+______________________________________________________________________
 
 ## L4 — Cross-Species
 
@@ -962,7 +965,7 @@ animal alarm signals
 
 Read environmental change through cross-species behavior.
 
----
+______________________________________________________________________
 
 ## L5 — Language / Place Names
 
@@ -989,7 +992,7 @@ songs
 
 Language can carry compressed environmental and social memory.
 
----
+______________________________________________________________________
 
 ## L6 — Culture / Heritage
 
@@ -1012,7 +1015,7 @@ symbols
 ceremonies
 ```
 
----
+______________________________________________________________________
 
 ## L7 — Power / Society
 
@@ -1035,7 +1038,7 @@ Who controls access?
 Who defines legitimacy?
 ```
 
----
+______________________________________________________________________
 
 ## L8 — Smart Money Flow
 
@@ -1052,7 +1055,7 @@ positioning
 
 Attempts to identify informed or concentrated capital movement.
 
----
+______________________________________________________________________
 
 ## L9 — Opportunity Cost
 
@@ -1075,7 +1078,7 @@ vs
 best available alternative
 ```
 
----
+______________________________________________________________________
 
 ## L10 — Micro Avoidance / Aggregation
 
@@ -1099,9 +1102,9 @@ defend
 withdraw
 ```
 
----
+______________________________________________________________________
 
-# 8. Special Heritage Signal Layers
+## 8. Special Heritage Signal Layers
 
 ## T11 — Remaining Information
 
@@ -1139,7 +1142,7 @@ When information is mostly absorbed:
 marginal predictive value ↓
 ```
 
----
+______________________________________________________________________
 
 ## T12 — Intentional Noise
 
@@ -1164,7 +1167,7 @@ High intentional-noise score can trigger:
 BLOCK
 ```
 
----
+______________________________________________________________________
 
 ## T13 — Market Expectation Point
 
@@ -1186,9 +1189,9 @@ Approximate market expectation equilibrium reference.
 
 This is a source-defined model expression and requires calibration before quantitative use.
 
----
+______________________________________________________________________
 
-# 9. Fifteen Functional Modules
+## 9. Fifteen Functional Modules
 
 ## M1 — Regime Switch Engine
 
@@ -1204,7 +1207,7 @@ Source identifies seven regime classes, though multiple source passages preserve
 
 This conflict is preserved later under **Competing Regime Taxonomies**.
 
----
+______________________________________________________________________
 
 ## M2 — Data Reliability Engine
 
@@ -1227,7 +1230,7 @@ estimate whether input data is trustworthy enough
 to support action
 ```
 
----
+______________________________________________________________________
 
 ## M3 — Microstructure Engine
 
@@ -1250,13 +1253,16 @@ V(p) = Σ volume at price p
 ```text
 POC = argmax V(p)
 ```
+
 ```text
 Delta = V_buy - V_sell
 ```
+
 ```text
 IMB = (V_bid - V_ask) / (V_bid + V_ask)
 ```
----
+
+______________________________________________________________________
 
 ## M4 — Expectation Decay Engine
 
@@ -1274,7 +1280,7 @@ Purpose:
 estimate how much information remains unpriced
 ```
 
----
+______________________________________________________________________
 
 ## M5 — Uncertainty Governor
 
@@ -1289,7 +1295,7 @@ Trade Permission
 
 Converts uncertainty state into action permission.
 
----
+______________________________________________________________________
 
 ## M6 — Self-Refutation Engine
 
@@ -1312,7 +1318,7 @@ alternative explanations
 
 Strongly aligned with adversarial validation.
 
----
+______________________________________________________________________
 
 ## M7 — Cross-Asset Confirmation Engine
 
@@ -1333,7 +1339,7 @@ Require cross-market consistency before confidence escalation.
 
 Correlated assets do not automatically constitute independent evidence.
 
----
+______________________________________________________________________
 
 ## M8 — Signal Hierarchy Engine
 
@@ -1348,7 +1354,7 @@ freshness
 importance
 ```
 
----
+______________________________________________________________________
 
 ## M9 — Execution Reality Engine
 
@@ -1370,7 +1376,7 @@ good forecast
 good executable decision
 ```
 
----
+______________________________________________________________________
 
 ## M10 — Confidence Calibration Engine
 
@@ -1386,7 +1392,7 @@ historical error
 
 Confidence must decrease when calibration deteriorates.
 
----
+______________________________________________________________________
 
 ## M11 — Live Error Attribution Engine
 
@@ -1402,7 +1408,7 @@ specific layer / module
 
 Supports local invalidation rather than global recomputation.
 
----
+______________________________________________________________________
 
 ## M12 — Decision Sandbox Engine
 
@@ -1426,7 +1432,7 @@ noise/adversarial case
 
 Counterfactual stress testing.
 
----
+______________________________________________________________________
 
 ## M13 — Gap Classifier
 
@@ -1448,7 +1454,7 @@ random uncertainty
 extreme unknown
 ```
 
----
+______________________________________________________________________
 
 ## M14 — Temporal Precision Engine
 
@@ -1470,7 +1476,7 @@ from
 timing correctness
 ```
 
----
+______________________________________________________________________
 
 ## M15 — State Engine
 
@@ -1488,15 +1494,15 @@ Trust
 
 This is the core Heritage dynamic state vector.
 
----
+______________________________________________________________________
 
-# 10. Primary State Vector
+## 10. Primary State Vector
 
 The central state vector is:
 
 $$X_H = (\Omega,H,F,S,MEP,RI,Trust)$$
 
----
+______________________________________________________________________
 
 ## 10.1 Ω — Overload
 
@@ -1521,7 +1527,7 @@ VolumeSurge
 
 Measures whether the system/market is stretched or overloaded.
 
----
+______________________________________________________________________
 
 ## 10.2 H — Cohesion
 
@@ -1547,7 +1553,7 @@ H → 0
 
 means fragmentation or disagreement.
 
----
+______________________________________________________________________
 
 ## 10.3 F — Fragmentation
 
@@ -1565,7 +1571,7 @@ contradiction
 structural breakdown
 ```
 
----
+______________________________________________________________________
 
 ## 10.4 S — Shock
 
@@ -1577,7 +1583,7 @@ $$S = \frac{\Delta Price}{\sigma_{short}} + \frac{\Delta Volume}{VolumeMA} + New
 
 Magnitude of sudden external or internal disruption.
 
----
+______________________________________________________________________
 
 ## 10.5 MEP — Market Expectation Point
 
@@ -1587,7 +1593,7 @@ $$MEP = PivotPoint + \alpha ATR + \beta Fib + \gamma P/E_{neutral}$$
 
 Reference for expectation distance and regime transition.
 
----
+______________________________________________________________________
 
 ## 10.6 RI — Remaining Information
 
@@ -1597,7 +1603,7 @@ $$RI = InitialShock - AbsorbedPrice - NarrativeSaturation$$
 
 Tracks the remaining informational budget of an event.
 
----
+______________________________________________________________________
 
 ## 10.7 Trust — Trust Score
 
@@ -1621,13 +1627,13 @@ shock
 noise
 ```
 
----
+______________________________________________________________________
 
-# 11. Timing Indices
+## 11. Timing Indices
 
 Heritage distinguishes signal quality from temporal readiness.
 
----
+______________________________________________________________________
 
 ## 11.1 TRS — Timing Readiness Score
 
@@ -1641,7 +1647,7 @@ TRS > 70%
 timing ready
 ```
 
----
+______________________________________________________________________
 
 ## 11.2 ATS — Action Timing Score
 
@@ -1655,7 +1661,7 @@ ATS > 70%
 full action candidate
 ```
 
----
+______________________________________________________________________
 
 ## 11.3 RTS — Reversal Timing Score
 
@@ -1673,9 +1679,9 @@ reversal candidate
 
 Thresholds are source-defined model values, not universal empirical constants.
 
----
+______________________________________________________________________
 
-# 12. Main Equations
+## 12. Main Equations
 
 ## 12.1 Signal Resurrection Function
 
@@ -1689,7 +1695,7 @@ minus
 intentional-noise penalty
 ```
 
----
+______________________________________________________________________
 
 ## 12.2 Trade / Action Permission
 
@@ -1716,7 +1722,7 @@ signal
 → permission
 ```
 
----
+______________________________________________________________________
 
 ## 12.3 Collapse Probability
 
@@ -1730,7 +1736,7 @@ $$CollapseProb = \sigma( \beta_0 + \beta_1\Omega + \beta_2F + \beta_3S + \beta_4
 
 Requires empirical calibration.
 
----
+______________________________________________________________________
 
 ## 12.4 Integrity / Energy
 
@@ -1740,7 +1746,7 @@ $$E_{\text{AMOS}} = B \times \Omega \times \Gamma \times UBI \times Coherence \t
 
 Symbol meanings must be loaded from the native source context before quantitative use.
 
----
+______________________________________________________________________
 
 ## 12.5 Heritage ∅ Purpose
 
@@ -1755,21 +1761,21 @@ L = life preservation
 T = time horizon
 ```
 
----
+______________________________________________________________________
 
-# 13. Heritage Tensor Architecture
+## 13. Heritage Tensor Architecture
 
 The source identifies seven primary tensors.
 
-| Tensor | Dimension | Function |
-|---|---:|---|
-| `T_Ω` | 3×3 | Overload tensor |
-| `T_H` | 13×13 | Cohesion tensor |
-| `T_F` | 13×13 | Fragmentation tensor |
-| `T_S` | 1×4 | Shock tensor |
-| `T_Cross` | 2×6 | Cross-asset confirmation |
-| `T_Time` | 3×3 | Timing tensor |
-| `T_Meta` | 1×7 | Meta-cognitive tensor |
+| Tensor    | Dimension | Function                 |
+| --------- | --------: | ------------------------ |
+| `T_Ω`     |       3×3 | Overload tensor          |
+| `T_H`     |     13×13 | Cohesion tensor          |
+| `T_F`     |     13×13 | Fragmentation tensor     |
+| `T_S`     |       1×4 | Shock tensor             |
+| `T_Cross` |       2×6 | Cross-asset confirmation |
+| `T_Time`  |       3×3 | Timing tensor            |
+| `T_Meta`  |       1×7 | Meta-cognitive tensor    |
 
 ### Tensor role
 
@@ -1781,9 +1787,9 @@ raw signals
 → permission
 ```
 
----
+______________________________________________________________________
 
-# 14. Domain × Invariant Matrix
+## 14. Domain × Invariant Matrix
 
 The source also defines a broad Domain–Invariant matrix described as:
 
@@ -1866,15 +1872,15 @@ The matrix is a structural cross-domain mapping.
 
 It must not be treated as proof that the mapped concepts are mathematically identical.
 
----
+______________________________________________________________________
 
-# 15. Invariant Registry
+## 15. Invariant Registry
 
 The source includes a large invariant system.
 
 The following block is directly recoverable from the native source.
 
----
+______________________________________________________________________
 
 ## 15.1 Physics / Information Invariants
 
@@ -1896,9 +1902,9 @@ t_cause < t_effect
 
 Use only within systems for which causal temporal ordering is applicable.
 
----
+______________________________________________________________________
 
-# 15.2 Biological Invariants
+## 15.2 Biological Invariants
 
 ## I-4 — Loss Aversion
 
@@ -1918,21 +1924,21 @@ with a source-stated approximate:
 
 The numerical factor is context-dependent and must not be treated as universal without external validation.
 
----
+______________________________________________________________________
 
 ## I-5 — Herd Behavior
 
 Source identifies collective following behavior as a recurring system property.
 
----
+______________________________________________________________________
 
 ## I-6 — Recency Bias
 
 $$w(t) \propto e^{-\lambda t}$$
 
----
+______________________________________________________________________
 
-# 15.3 Cognitive Invariants
+## 15.3 Cognitive Invariants
 
 ## I-7 — Cognitive Load
 
@@ -1946,7 +1952,7 @@ $$DecisionQuality \propto \frac{1}{\sqrt{Load}}$$
 
 Not a universal physiological equation.
 
----
+______________________________________________________________________
 
 ## I-8 — Narrative Generation
 
@@ -1960,7 +1966,7 @@ NarrativeStrength = f(DMN)
 
 `MODEL`
 
----
+______________________________________________________________________
 
 ## I-9 — Predictive Processing
 
@@ -1968,9 +1974,9 @@ NarrativeStrength = f(DMN)
 Perception != Reality
 ```
 
----
+______________________________________________________________________
 
-# 15.4 Quantum-Themed Invariants
+## 15.4 Quantum-Themed Invariants
 
 ## I-10 — Observer Effect
 
@@ -1986,13 +1992,13 @@ State changes
 
 Do not generalize this expression outside justified measurement frameworks.
 
----
+______________________________________________________________________
 
 ## I-11 — Superposition
 
 Source maintains superposition as a quantum-logic invariant.
 
----
+______________________________________________________________________
 
 ## I-12 — Entanglement
 
@@ -2008,9 +2014,9 @@ d(A,B) large
 
 Correlation at distance is not sufficient proof of quantum entanglement.
 
----
+______________________________________________________________________
 
-# 15.5 Social Invariants
+## 15.5 Social Invariants
 
 ## I-13 — Meme Propagation
 
@@ -2020,13 +2026,13 @@ $$\frac{dM}{dt} = \beta M(1-M)$$
 
 `MODEL`
 
----
+______________________________________________________________________
 
 ## I-14 — Power-Law Attention
 
 $$Attention \propto \frac{1}{rank^\alpha}$$
 
----
+______________________________________________________________________
 
 ## I-15 — Coordination Breakdown
 
@@ -2038,9 +2044,9 @@ H < θ_H
 collapse becomes more likely
 ```
 
----
+______________________________________________________________________
 
-# 15.6 Ethical / Meta Invariants
+## 15.6 Ethical / Meta Invariants
 
 ## I-16 — Non-Maleficence
 
@@ -2048,7 +2054,7 @@ collapse becomes more likely
 Harm <= θ_harm
 ```
 
----
+______________________________________________________________________
 
 ## I-17 — Justice
 
@@ -2062,7 +2068,7 @@ Justice != 0
 
 Interpretation must remain source-bound.
 
----
+______________________________________________________________________
 
 ## I-18 — Transparency
 
@@ -2072,19 +2078,19 @@ Decision
 Traceable
 ```
 
----
+______________________________________________________________________
 
 ## I-19 — Non-Contradiction
 
 $$\neg(A \land \neg A)$$
 
----
+______________________________________________________________________
 
 ## I-20 — Identity
 
 $$x=x$$
 
----
+______________________________________________________________________
 
 ## I-21 — Excluded Middle
 
@@ -2094,7 +2100,7 @@ $$A \lor \neg A$$
 
 Applicability depends on logic regime.
 
----
+______________________________________________________________________
 
 ## I-22 — Self-Refutation
 
@@ -2106,7 +2112,7 @@ condition under which it becomes invalid
 
 This is one of the most important AMOS-compatible Heritage invariants.
 
----
+______________________________________________________________________
 
 ## I-23 — Humility
 
@@ -2116,7 +2122,7 @@ $$P(correct) \le 1$$
 
 No confidence may exceed certainty bounds.
 
----
+______________________________________________________________________
 
 ## I-24 — Closure
 
@@ -2128,7 +2134,7 @@ Operational meaning:
 
 At some bounded level, a decision process must terminate or defer.
 
----
+______________________________________________________________________
 
 ## I-25 — Price Is Not Value
 
@@ -2136,7 +2142,7 @@ At some bounded level, a decision process must terminate or defer.
 Price != Value
 ```
 
----
+______________________________________________________________________
 
 ## I-26 — Liquidity Fragility
 
@@ -2144,7 +2150,7 @@ Price != Value
 Liquidity can disappear
 ```
 
----
+______________________________________________________________________
 
 ## I-27 — Black Swan Inevitability
 
@@ -2156,7 +2162,7 @@ $$\exists t: Shock(t)>\theta_{shock}$$
 
 Systems should be designed assuming extreme shocks can occur.
 
----
+______________________________________________________________________
 
 ## Extended Invariant Block
 
@@ -2191,15 +2197,15 @@ DETAIL_NOT_YET_BOUND
 
 rather than invented.
 
----
+______________________________________________________________________
 
-# 16. Twelve Permanent Gaps
+## 16. Twelve Permanent Gaps
 
 One of the most important Heritage ∅ principles is that certain gaps are not assumed to be solvable.
 
 The framework attempts to **live with them**, govern around them, and preserve uncertainty.
 
----
+______________________________________________________________________
 
 ## Gap 1 — Representation Gap
 
@@ -2217,7 +2223,7 @@ always assume ~30% information loss
 
 Humility.
 
----
+______________________________________________________________________
 
 ## Gap 2 — Computation Gap
 
@@ -2241,7 +2247,7 @@ $$HeuristicFallback = SimpleRule \times ConfidenceReduction$$
 
 Accept bounded computation.
 
----
+______________________________________________________________________
 
 ## Gap 3 — Selection Gap
 
@@ -2259,7 +2265,7 @@ rule-based fallback
 
 Optimality is not always computable or necessary.
 
----
+______________________________________________________________________
 
 ## Gap 4 — Frame Dependence Gap
 
@@ -2281,7 +2287,7 @@ median / consensus
 
 Do not trust one representation frame.
 
----
+______________________________________________________________________
 
 ## Gap 5 — Language / Symbol Gap
 
@@ -2298,7 +2304,7 @@ is a valid value
 
 Never force semantic completeness.
 
----
+______________________________________________________________________
 
 ## Gap 6 — Identity Instability
 
@@ -2319,7 +2325,7 @@ detect drift
 
 Observe identity drift rather than pretending it cannot occur.
 
----
+______________________________________________________________________
 
 ## Gap 7 — Objective Instability
 
@@ -2335,7 +2341,7 @@ user override
 
 The system does not assume its objective is eternally fixed.
 
----
+______________________________________________________________________
 
 ## Gap 8 — Reflexivity Gap
 
@@ -2359,7 +2365,7 @@ limit second-order loops
 
 The model can change the environment it models.
 
----
+______________________________________________________________________
 
 ## Gap 9 — Unobservable State Gap
 
@@ -2379,7 +2385,7 @@ Source handling:
 
 Assume hidden variables remain.
 
----
+______________________________________________________________________
 
 ## Gap 10 — Time Horizon Gap
 
@@ -2400,7 +2406,7 @@ do not optimize only one horizon
 
 Temporal optimization is inherently multi-objective.
 
----
+______________________________________________________________________
 
 ## Gap 11 — Metric Gap
 
@@ -2424,7 +2430,7 @@ AntiFragility
 
 A correct prediction can still produce a bad system outcome.
 
----
+______________________________________________________________________
 
 ## Gap 12 — Existential Gap
 
@@ -2446,28 +2452,28 @@ The system cannot autonomously justify ultimate purpose.
 
 This is the final Heritage ∅ boundary.
 
----
+______________________________________________________________________
 
-# 17. Permanent-Gap Summary Matrix
+## 17. Permanent-Gap Summary Matrix
 
-| # | Gap | Core Problem | Heritage Response |
-|---|---|---|---|
-| 1 | Representation | Reality ≠ representation | Assume information loss |
-| 2 | Computation | Required compute > available compute | Heuristic fallback |
-| 3 | Selection | Decision ≠ optimization | Rule-based fallback |
-| 4 | Frame Dependence | Result depends on frame | Multi-frame comparison |
-| 5 | Language / Symbol | Symbols cannot fully encode reality | `Unknown` allowed |
-| 6 | Identity Instability | Agent changes over time | Log and detect drift |
-| 7 | Objective Instability | Objectives change | User override |
-| 8 | Reflexivity | Model changes environment | Bound feedback depth |
-| 9 | Unobservable State | Hidden state exists | Hidden-risk budget |
-| 10 | Time Horizon | Short ≠ long | Multi-horizon analysis |
-| 11 | Metric | Accuracy ≠ success | Survival + Integrity + Antifragility |
-| 12 | Existential | Why act? | Return ultimate purpose to human |
+| #   | Gap                   | Core Problem                         | Heritage Response                    |
+| --- | --------------------- | ------------------------------------ | ------------------------------------ |
+| 1   | Representation        | Reality ≠ representation             | Assume information loss              |
+| 2   | Computation           | Required compute > available compute | Heuristic fallback                   |
+| 3   | Selection             | Decision ≠ optimization              | Rule-based fallback                  |
+| 4   | Frame Dependence      | Result depends on frame              | Multi-frame comparison               |
+| 5   | Language / Symbol     | Symbols cannot fully encode reality  | `Unknown` allowed                    |
+| 6   | Identity Instability  | Agent changes over time              | Log and detect drift                 |
+| 7   | Objective Instability | Objectives change                    | User override                        |
+| 8   | Reflexivity           | Model changes environment            | Bound feedback depth                 |
+| 9   | Unobservable State    | Hidden state exists                  | Hidden-risk budget                   |
+| 10  | Time Horizon          | Short ≠ long                         | Multi-horizon analysis               |
+| 11  | Metric                | Accuracy ≠ success                   | Survival + Integrity + Antifragility |
+| 12  | Existential           | Why act?                             | Return ultimate purpose to human     |
 
----
+______________________________________________________________________
 
-# 18. Decision Regimes
+## 18. Decision Regimes
 
 The source contains multiple regime tables.
 
@@ -2475,48 +2481,48 @@ These are similar but not perfectly identical.
 
 AMOS MUST preserve the inconsistency rather than silently merging them.
 
----
+______________________________________________________________________
 
-# 18.1 Regime Taxonomy A
+## 18.1 Regime Taxonomy A
 
 Source summary includes:
 
-| Regime | Condition | Default Action |
-|---|---|---|
-| Normal | `Ω < 0.5, H > 0.6, F < 0.3` | Full execution |
-| Trend | `Ω > 0.6, H > 0.7, slope > 0` | Trend-following |
-| Sideway | `Ω < 0.3, H < 0.4, F > 0.5` | Mean-reversion |
-| Panic | `S > 0.7, H < 0.3` | Reduce size / hedge |
-| Transition | regime entropy high | Observe only |
-| Manipulation | intentional-noise score high | Block |
-| Black Swan | collapse probability extreme | Lockdown + hedge |
+| Regime       | Condition                     | Default Action      |
+| ------------ | ----------------------------- | ------------------- |
+| Normal       | `Ω < 0.5, H > 0.6, F < 0.3`   | Full execution      |
+| Trend        | `Ω > 0.6, H > 0.7, slope > 0` | Trend-following     |
+| Sideway      | `Ω < 0.3, H < 0.4, F > 0.5`   | Mean-reversion      |
+| Panic        | `S > 0.7, H < 0.3`            | Reduce size / hedge |
+| Transition   | regime entropy high           | Observe only        |
+| Manipulation | intentional-noise score high  | Block               |
+| Black Swan   | collapse probability extreme  | Lockdown + hedge    |
 
 Source summary priority framing:
 
-| Regime | Risk | Strategy |
-|---|---|---|
-| Normal | Low | Full execution |
-| Trend | Medium | Trend-following |
-| Sideway | Low | Mean-reversion |
-| Panic | High | Preserve capital |
-| Transition | High | Observe |
-| Manipulation | Very high | Block |
-| Black Swan | Highest | Lockdown |
+| Regime       | Risk      | Strategy         |
+| ------------ | --------- | ---------------- |
+| Normal       | Low       | Full execution   |
+| Trend        | Medium    | Trend-following  |
+| Sideway      | Low       | Mean-reversion   |
+| Panic        | High      | Preserve capital |
+| Transition   | High      | Observe          |
+| Manipulation | Very high | Block            |
+| Black Swan   | Highest   | Lockdown         |
 
----
+______________________________________________________________________
 
-# 18.2 Regime Taxonomy B
+## 18.2 Regime Taxonomy B
 
 Another source passage identifies:
 
-| Regime | Detection | Action |
-|---|---|---|
-| Trend | `Ω > 0.6, H > 0.7, slope > 0` | Trend-following |
-| Sideway | `Ω < 0.3, H < 0.4, F > 0.5` | Mean-reversion |
-| Panic | `S > 0.7, H < 0.3` | Reduce size, hedge |
-| Transition | `Entropy(regime_probs) > 1.5` | Observe only |
-| Manipulation | `NoiseScore > 0.5` | Block |
-| News Shock | `S_news > 0.8, RI > 0.5` | Wait for absorption |
+| Regime       | Detection                     | Action              |
+| ------------ | ----------------------------- | ------------------- |
+| Trend        | `Ω > 0.6, H > 0.7, slope > 0` | Trend-following     |
+| Sideway      | `Ω < 0.3, H < 0.4, F > 0.5`   | Mean-reversion      |
+| Panic        | `S > 0.7, H < 0.3`            | Reduce size, hedge  |
+| Transition   | `Entropy(regime_probs) > 1.5` | Observe only        |
+| Manipulation | `NoiseScore > 0.5`            | Block               |
+| News Shock   | `S_news > 0.8, RI > 0.5`      | Wait for absorption |
 
 The detailed source variant includes:
 
@@ -2533,9 +2539,9 @@ Black Swan
 
 instead.
 
----
+______________________________________________________________________
 
-# 18.3 Regime Contradiction Record
+## 18.3 Regime Contradiction Record
 
 ```yaml
 competing_regime_taxonomies:
@@ -2569,20 +2575,20 @@ competing_regime_taxonomies:
 
 This is a genuine AMOS provenance-preserving contradiction.
 
----
+______________________________________________________________________
 
-# 19. Example Decision Permission Matrix
+## 19. Example Decision Permission Matrix
 
 A more detailed source decision table includes:
 
-| State | ATS | Trust | TRS | CollapseProb | Permission |
-|---|---:|---:|---:|---:|---|
-| Full | >0.70 | >0.70 | >0.70 | <0.30 | Full |
-| Full / cautious | 0.65–0.70 | 0.65–0.70 | 0.65–0.70 | 0.30–0.35 | Full, reduced caution |
-| Reduced | 0.50–0.65 | >0.50 | any | <0.50 | Reduced |
-| Bias only | >0.60 | 0.30–0.50 | any | <0.60 | Direction only |
-| No action | <0.40 | <0.30 | any | >0.70 | No action |
-| Hedge / lockdown | any | any | any | >0.80 | Lockdown / hedge |
+| State            |       ATS |     Trust |       TRS | CollapseProb | Permission            |
+| ---------------- | --------: | --------: | --------: | -----------: | --------------------- |
+| Full             |     >0.70 |     >0.70 |     >0.70 |       \<0.30 | Full                  |
+| Full / cautious  | 0.65–0.70 | 0.65–0.70 | 0.65–0.70 |    0.30–0.35 | Full, reduced caution |
+| Reduced          | 0.50–0.65 |     >0.50 |       any |       \<0.50 | Reduced               |
+| Bias only        |     >0.60 | 0.30–0.50 |       any |       \<0.60 | Direction only        |
+| No action        |    \<0.40 |    \<0.30 |       any |        >0.70 | No action             |
+| Hedge / lockdown |       any |       any |       any |        >0.80 | Lockdown / hedge      |
 
 ### AMOS rule
 
@@ -2594,9 +2600,9 @@ SOURCE MODEL THRESHOLDS
 
 not universal constants.
 
----
+______________________________________________________________________
 
-# 20. Heritage Version Lineage
+## 20. Heritage Version Lineage
 
 The source defines a progression:
 
@@ -2618,7 +2624,7 @@ V10
 
 Each stage changes the governing question.
 
----
+______________________________________________________________________
 
 ## V1–V7 — Heritage Core
 
@@ -2662,7 +2668,7 @@ prediction correctness
 without sufficient survival governance
 ```
 
----
+______________________________________________________________________
 
 ## V8 — Integrity
 
@@ -2697,7 +2703,7 @@ truthfulness
 
 Treat as design target / source claim, not an empirical guarantee.
 
----
+______________________________________________________________________
 
 ## V9 — Survival
 
@@ -2732,7 +2738,7 @@ defense
 
 Source claim only.
 
----
+______________________________________________________________________
 
 ## V10 — Reality
 
@@ -2769,7 +2775,7 @@ Black-swan hedge
 primarily defensive
 ```
 
----
+______________________________________________________________________
 
 ## Ω — Exploitation
 
@@ -2806,7 +2812,7 @@ Profit from chaos
 does not yet create the environment
 ```
 
----
+______________________________________________________________________
 
 ## ∞ — Creation
 
@@ -2838,7 +2844,7 @@ Source states:
 missing ethics
 ```
 
----
+______________________________________________________________________
 
 ## ∅ — Purpose
 
@@ -2874,23 +2880,23 @@ Cannot answer ultimate "why?" alone
 
 The final authority returns to the human.
 
----
+______________________________________________________________________
 
-# 21. Heritage Lineage Matrix
+## 21. Heritage Lineage Matrix
 
-| Version | Name | Governing Question | Philosophy | Source-Stated Achievement | Limitation |
-|---|---|---|---|---|---|
-| V1–V7 | Core | How to predict correctly? | Prediction | 91.3% accuracy | Survival underdeveloped |
-| V8 | Integrity | How to remain honest? | Epistemic humility | 100% integrity | Adversaries underdeveloped |
-| V9 | Survival | How to survive? | Adversarial resilience | 99% survival | Reality structure underdeveloped |
-| V10 | Reality | How to survive reality? | Structural robustness | Black-swan hedge | Defensive |
-| Ω | Exploitation | How to exploit uncertainty? | Uncertainty harvesting | Profit from chaos | Does not create edge |
-| ∞ | Creation | How to create the environment? | Environment shaping | Create edge | Ethics incomplete |
-| ∅ | Purpose | Why should it exist? | Moral justification | Know when to stop | Ultimate why remains human |
+| Version | Name         | Governing Question             | Philosophy             | Source-Stated Achievement | Limitation                       |
+| ------- | ------------ | ------------------------------ | ---------------------- | ------------------------- | -------------------------------- |
+| V1–V7   | Core         | How to predict correctly?      | Prediction             | 91.3% accuracy            | Survival underdeveloped          |
+| V8      | Integrity    | How to remain honest?          | Epistemic humility     | 100% integrity            | Adversaries underdeveloped       |
+| V9      | Survival     | How to survive?                | Adversarial resilience | 99% survival              | Reality structure underdeveloped |
+| V10     | Reality      | How to survive reality?        | Structural robustness  | Black-swan hedge          | Defensive                        |
+| Ω       | Exploitation | How to exploit uncertainty?    | Uncertainty harvesting | Profit from chaos         | Does not create edge             |
+| ∞       | Creation     | How to create the environment? | Environment shaping    | Create edge               | Ethics incomplete                |
+| ∅       | Purpose      | Why should it exist?           | Moral justification    | Know when to stop         | Ultimate why remains human       |
 
----
+______________________________________________________________________
 
-# 22. Heritage ∅ Purpose Governor
+## 22. Heritage ∅ Purpose Governor
 
 Heritage ∅ changes the objective function from:
 
@@ -2914,7 +2920,7 @@ The governing purpose equation is:
 
 $$Purpose = V \times I \times L \times T$$
 
----
+______________________________________________________________________
 
 ## 22.1 Value
 
@@ -2930,7 +2936,7 @@ corruption risk
 long-term damage
 ```
 
----
+______________________________________________________________________
 
 ## 22.2 Integrity
 
@@ -2942,7 +2948,7 @@ and
 actual action
 ```
 
----
+______________________________________________________________________
 
 ## 22.3 Life Preservation
 
@@ -2954,7 +2960,7 @@ survival
 non-harm to others
 ```
 
----
+______________________________________________________________________
 
 ## 22.4 Time Horizon
 
@@ -2966,18 +2972,18 @@ This directly answers:
 Time Horizon Gap
 ```
 
----
+______________________________________________________________________
 
-# 23. Purpose Decision States
+## 23. Purpose Decision States
 
 A source-defined Purpose table includes:
 
-| Purpose Score | State | Action |
-|---:|---|---|
-| `> 0.70` | Thriving | Full operation |
-| `0.50–0.70` | Sustainable | Normal operation |
-| `0.30–0.50` | Questionable | Human review required |
-| `< 0.30` | Terminal | Initiate shutdown |
+| Purpose Score | State        | Action                |
+| ------------: | ------------ | --------------------- |
+|      `> 0.70` | Thriving     | Full operation        |
+|   `0.50–0.70` | Sustainable  | Normal operation      |
+|   `0.30–0.50` | Questionable | Human review required |
+|      `< 0.30` | Terminal     | Initiate shutdown     |
 
 ### Epistemic class
 
@@ -2989,31 +2995,31 @@ A source-defined Purpose table includes:
 
 No claim is made here that these thresholds are currently implemented.
 
----
+______________________________________________________________________
 
-# 24. Heritage × AMOS Cognitive Matrix Binding
+## 24. Heritage × AMOS Cognitive Matrix Binding
 
 The Heritage architecture can be mapped onto AMOS Cognitive Matrix functions as follows.
 
-| Heritage Component | AMOS Cognitive Function | Binding Class |
-|---|---|---|
-| A1 Life | perception → response | MODEL |
-| A2 Information Security | distributed memory / provenance | DERIVED |
-| A3 Brain Interface | representation firewall | DERIVED |
-| A4 Externalization | persistent memory | DERIVED |
-| A5 Integrity | governance | MODEL |
-| A6 Purpose | terminal decision / human authority | MODEL |
-| Signal layers | perception / observation | MODEL |
-| M2 Reliability | evidence quality | DERIVED |
-| M5 Uncertainty Governor | uncertainty plane | DERIVED |
-| M6 Self-Refutation | adversarial validation | DERIVED |
-| M11 Error Attribution | local rollback | DERIVED |
-| M12 Sandbox | simulation | DERIVED |
-| M13 Gap Classifier | gap registry | DERIVED |
-| M14 Temporal Precision | temporal validity | DERIVED |
-| M15 State Engine | cognitive-state tracking | MODEL |
-| Permanent gaps | UNKNOWN/GAP governance | DERIVED |
-| Heritage ∅ | purpose / authority boundary | MODEL |
+| Heritage Component      | AMOS Cognitive Function             | Binding Class |
+| ----------------------- | ----------------------------------- | ------------- |
+| A1 Life                 | perception → response               | MODEL         |
+| A2 Information Security | distributed memory / provenance     | DERIVED       |
+| A3 Brain Interface      | representation firewall             | DERIVED       |
+| A4 Externalization      | persistent memory                   | DERIVED       |
+| A5 Integrity            | governance                          | MODEL         |
+| A6 Purpose              | terminal decision / human authority | MODEL         |
+| Signal layers           | perception / observation            | MODEL         |
+| M2 Reliability          | evidence quality                    | DERIVED       |
+| M5 Uncertainty Governor | uncertainty plane                   | DERIVED       |
+| M6 Self-Refutation      | adversarial validation              | DERIVED       |
+| M11 Error Attribution   | local rollback                      | DERIVED       |
+| M12 Sandbox             | simulation                          | DERIVED       |
+| M13 Gap Classifier      | gap registry                        | DERIVED       |
+| M14 Temporal Precision  | temporal validity                   | DERIVED       |
+| M15 State Engine        | cognitive-state tracking            | MODEL         |
+| Permanent gaps          | UNKNOWN/GAP governance              | DERIVED       |
+| Heritage ∅              | purpose / authority boundary        | MODEL         |
 
 ### Firewall
 
@@ -3021,9 +3027,9 @@ This table expresses architectural correspondence.
 
 It does **not** assert that both systems literally implement identical mechanisms.
 
----
+______________________________________________________________________
 
-# 25. RSCF Node Structure
+## 25. RSCF Node Structure
 
 ```yaml
 RSCF:
@@ -3075,9 +3081,9 @@ RSCF:
   raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
 ```
 
----
+______________________________________________________________________
 
-# 26. H / M / L Fractal Retrieval Model
+## 26. H / M / L Fractal Retrieval Model
 
 ## H — Heritage System
 
@@ -3098,7 +3104,7 @@ Use for:
 "What is Heritage ∅?"
 ```
 
----
+______________________________________________________________________
 
 ## M — Heritage Subsystems
 
@@ -3115,15 +3121,18 @@ market question
 uncertainty question
 → M2 + M5 + M6 + M13
 ```
+
 ```text
 purpose question
 → A5 + A6 + Heritage ∅
 ```
+
 ```text
 failure question
 → permanent gaps + self-refutation + error attribution
 ```
----
+
+______________________________________________________________________
 
 ## L — Detailed Mechanics
 
@@ -3140,9 +3149,9 @@ exact formulas
 
 only when quantitative detail can change the answer.
 
----
+______________________________________________________________________
 
-# 27. Evidence Topology
+## 27. Evidence Topology
 
 ```text
 HERITAGE INTELLIGENCE.md
@@ -3174,9 +3183,9 @@ same provenance ancestry
 
 They do not count as independent evidence.
 
----
+______________________________________________________________________
 
-# 28. Competing / Ambiguous Structures
+## 28. Competing / Ambiguous Structures
 
 The native Heritage corpus contains at least one materially relevant inconsistency:
 
@@ -3209,9 +3218,9 @@ until lineage/version context resolves the difference.
 
 AMOS must not force convergence merely to create a clean table.
 
----
+______________________________________________________________________
 
-# 29. Causal Firewall
+## 29. Causal Firewall
 
 Heritage combines signals from many domains.
 
@@ -3253,9 +3262,9 @@ market signal
 
 does not create causation merely because both align.
 
----
+______________________________________________________________________
 
-# 30. Scope / Regime Firewall
+## 30. Scope / Regime Firewall
 
 Every Heritage conclusion inherits:
 
@@ -3286,9 +3295,9 @@ cosmology
 
 even if the structural pattern looks similar.
 
----
+______________________________________________________________________
 
-# 31. Sensitivity Variables
+## 31. Sensitivity Variables
 
 Highest-leverage variables include:
 
@@ -3328,9 +3337,9 @@ can flip the final decision even if all other signals agree.
 
 Therefore Reliability is often a load-bearing premise.
 
----
+______________________________________________________________________
 
-# 32. Action Governance
+## 32. Action Governance
 
 Consequential action should follow:
 
@@ -3364,9 +3373,9 @@ Check authority
 Act / reduce / defer / block / lockout
 ```
 
----
+______________________________________________________________________
 
-# 33. Fail-Closed Rules
+## 33. Fail-Closed Rules
 
 The matrix should fail closed when:
 
@@ -3393,9 +3402,9 @@ LOCKOUT
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 34. Failure Recovery
+## 34. Failure Recovery
 
 Heritage should use local invalidation.
 
@@ -3424,9 +3433,9 @@ other independent evidence
 
 Do not recompute the entire architecture unless dependencies require it.
 
----
+______________________________________________________________________
 
-# 35. Gap Governance
+## 35. Gap Governance
 
 Permanent gaps are not implementation bugs.
 
@@ -3454,9 +3463,9 @@ The Heritage 12-gap model belongs primarily to:
 PERMANENT / STRUCTURAL UNCERTAINTY
 ```
 
----
+______________________________________________________________________
 
-# 36. Heritage × AMOS Proof Capsule
+## 36. Heritage × AMOS Proof Capsule
 
 ```yaml
 proof_capsule:
@@ -3495,9 +3504,9 @@ proof_capsule:
     empirical_performance: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 37. Promotion Gates
+## 37. Promotion Gates
 
 Before promotion from:
 
@@ -3534,9 +3543,9 @@ complete:
 - [ ] authority policy bound
 - [ ] rollback behavior demonstrated
 
----
+______________________________________________________________________
 
-# 38. Implementation Status
+## 38. Implementation Status
 
 Current implementation state:
 
@@ -3568,9 +3577,9 @@ does not imply
 EXECUTABLE
 ```
 
----
+______________________________________________________________________
 
-# 39. Unresolved Gaps
+## 39. Unresolved Gaps
 
 ## Critical
 
@@ -3582,7 +3591,7 @@ UNKNOWN/GAP
 
 No runtime module has yet been verified as implementing the full Heritage architecture.
 
----
+______________________________________________________________________
 
 ### G2 — Invariant Registry Completeness
 
@@ -3602,7 +3611,7 @@ but the full I-28→I-57 block is not yet bound into this artifact.
 
 Do not invent it.
 
----
+______________________________________________________________________
 
 ## Decision-Relevant
 
@@ -3616,7 +3625,7 @@ Status:
 COMPETING
 ```
 
----
+______________________________________________________________________
 
 ### G4 — Threshold Calibration
 
@@ -3633,7 +3642,7 @@ are source-defined.
 
 Independent empirical calibration remains unresolved.
 
----
+______________________________________________________________________
 
 ### G5 — Cross-Domain Evidence Weighting
 
@@ -3652,7 +3661,7 @@ signals.
 
 A canonical evidence-typing and weighting policy across these domains remains required.
 
----
+______________________________________________________________________
 
 ## Explanatory
 
@@ -3662,9 +3671,9 @@ V1–V7 are grouped in the source summary.
 
 Detailed sub-version decomposition is not yet bound here.
 
----
+______________________________________________________________________
 
-# 40. Cross-Plane Bindings
+## 40. Cross-Plane Bindings
 
 Target AMOS bindings:
 
@@ -3704,9 +3713,9 @@ CONSTRAINED_BY
   → Authority / governance
 ```
 
----
+______________________________________________________________________
 
-# 41. RSCF Relations
+## 41. RSCF Relations
 
 ```yaml
 RSCF_RELATIONS:
@@ -3737,9 +3746,9 @@ RSCF_RELATIONS:
     - heritage_purpose_layer
 ```
 
----
+______________________________________________________________________
 
-# 42. Canonical Retrieval Index
+## 42. Canonical Retrieval Index
 
 ```yaml
 retrieval_index:
@@ -3803,9 +3812,9 @@ retrieval_index:
     policy: RAW_SOURCE_REQUIRED
 ```
 
----
+______________________________________________________________________
 
-# 43. Final Knowledge Capsule
+## 43. Final Knowledge Capsule
 
 ```yaml
 final_capsule:
@@ -3851,9 +3860,9 @@ final_capsule:
     empirical_truth: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 44. Conclusion
+## 44. Conclusion
 
 The **AMOS × Heritage Matrix** is no longer a placeholder.
 
@@ -3918,11 +3927,11 @@ is a valid state.
 
 No AMOS process should replace a genuine gap with fabricated certainty.
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
 
 **Related:**
 
@@ -3932,7 +3941,7 @@ No AMOS process should replace a genuine gap with fabricated certainty.
 - [[AMOS_COGNITIVE_ARCHITECTURE_MATRIX|AMOS_COGNITIVE_ARCHITECTURE_MATRIX]]
 - [[11_KNOWLEDGE/AMOS_FULL_BRAIN_OS_ARCHITECTURE|AMOS_FULL_BRAIN_OS_ARCHITECTURE]]
 
----
+______________________________________________________________________
 
 RSCF-NODE
 
@@ -3950,18 +3959,18 @@ canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
 
 RSCF-RELATIONS:
 
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
-  - GOVERNED_BY: [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- GOVERNED_BY: [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
 
-  - BELONGS_TO: 25_COGNITIVE_MATRIX
+- BELONGS_TO: 25_COGNITIVE_MATRIX
 
-  - RELATED_TO: [[AMOS_COGNITIVE_ARCHITECTURE_MATRIX|AMOS_COGNITIVE_ARCHITECTURE_MATRIX]]
+- RELATED_TO: [[AMOS_COGNITIVE_ARCHITECTURE_MATRIX|AMOS_COGNITIVE_ARCHITECTURE_MATRIX]]
 
-  - RELATED_TO: [[11_KNOWLEDGE/AMOS_FULL_BRAIN_OS_ARCHITECTURE|AMOS_FULL_BRAIN_OS_ARCHITECTURE]]
+- RELATED_TO: [[11_KNOWLEDGE/AMOS_FULL_BRAIN_OS_ARCHITECTURE|AMOS_FULL_BRAIN_OS_ARCHITECTURE]]
 
----
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]
-

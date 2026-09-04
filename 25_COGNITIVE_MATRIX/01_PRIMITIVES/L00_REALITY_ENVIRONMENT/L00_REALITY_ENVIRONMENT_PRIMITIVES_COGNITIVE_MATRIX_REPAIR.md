@@ -1,21 +1,24 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: L00_REALITY_ENVIRONMENT — Repair
 type: cognitive
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT
 tags:
-- amos
-- reality-environment
-- repair
-- recovery
-- rollback
-- invalidation
-- quarantine
-- provenance
-- hml
-- control-plane
-- rscf
-- resilience
-- domain/cognitive-matrix
+  - amos
+  - reality-environment
+  - repair
+  - recovery
+  - rollback
+  - invalidation
+  - quarantine
+  - provenance
+  - hml
+  - control-plane
+  - rscf
+  - resilience
+  - domain/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -29,9 +32,9 @@ rscf:
 **Origin architect / steward:** Trang Phan
 **Status:** `ARCHITECTURE CONTRACT / IMPLEMENTATION-DEPENDENT`
 
----
+______________________________________________________________________
 
-# 1. Purpose
+## 1. Purpose
 
 `L00_REALITY_ENVIRONMENT / REPAIR` defines the AMOS architecture for restoring a valid relationship between internal reasoning state and the external reality/environment after observation, evidence, representation, state, provenance, scope, regime, authority, action, or effect integrity has degraded.
 
@@ -57,9 +60,9 @@ The governing principle is:
 
 > **AMOS repairs the smallest supported causal failure while preserving unaffected valid state and re-establishing reality contact before dependent conclusions or effects are promoted again.**
 
----
+______________________________________________________________________
 
-# 2. Repair Is Not Output Correction
+## 2. Repair Is Not Output Correction
 
 The following distinctions are load-bearing:
 
@@ -85,17 +88,17 @@ A modified output may look correct while the underlying failure remains active.
 
 Therefore:
 
-[
-\boxed{
+\[
+\\boxed{
 CosmeticCorrection
-\not\Rightarrow
+\\not\\Rightarrow
 RecoveredSystem
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 3. Architectural Position
+## 3. Architectural Position
 
 ```text
 REALITY / ENVIRONMENT
@@ -145,14 +148,14 @@ REALITY / ENVIRONMENT
          RECOVER
 ```
 
----
+______________________________________________________________________
 
-# 4. Core Repair State Tensor
+## 4. Core Repair State Tensor
 
-[
-\boxed{
+\[
+\\boxed{
 T_R =
-T[
+T\[
 repair_id,
 failure_id,
 observed_symptom,
@@ -174,18 +177,18 @@ repair_strategy,
 rollback,
 validation,
 status
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 5. Failure Tensor
+## 5. Failure Tensor
 
-[
-\boxed{
+\[
+\\boxed{
 T_F =
-T[
+T\[
 failure_id,
 state,
 symptom,
@@ -200,22 +203,19 @@ dependencies,
 provenance,
 consequence,
 confidence
-]
+\]
 }
-]
+\]
 
 The failure tensor distinguishes the observed symptom from the hypothesized root cause.
 
----
+______________________________________________________________________
 
-# 6. Repair Target Tensor
+## 6. Repair Target Tensor
 
-[
-\boxed{
-T_{RT}
-======
+## \[ \\boxed{ T\_{RT}
 
-T[
+T\[
 target_id,
 scale,
 object,
@@ -228,84 +228,78 @@ resource_cost,
 externalities,
 authority,
 evidence
-]
+\]
 }
-]
+\]
 
 A repair target is a hypothesis until sufficient evidence supports it.
 
----
+______________________________________________________________________
 
-# 7. Core Repair Equation
+## 7. Core Repair Equation
 
 Let:
 
-- \(F\) = observed failure;
-- \(T\) = candidate repair target;
-- \(R\) = repair transformation;
-- \(S\) = system state.
+- (F) = observed failure;
+- (T) = candidate repair target;
+- (R) = repair transformation;
+- (S) = system state.
 
 Then:
 
-[
-\boxed{
-S'
-==
+## \[ \\boxed{ S'
 
 R(S,T,F)
 }
-]
+\]
 
 but a candidate repair is accepted only when:
 
-[
-\boxed{
-Recovered(S')
-=============
+## \[ \\boxed{ Recovered(S')
 
 InvariantPass
-\land
+\\land
 RealityContactRestored
-\land
+\\land
 DependentValidationPass
 }
-]
+\]
 
 where those conditions are applicable.
 
----
+______________________________________________________________________
 
-# 8. Repair Target Principle
+## 8. Repair Target Principle
 
 The strongest repair is not necessarily the correct repair.
 
-[
-\boxed{
+\[
+\\boxed{
 RepairStrength
-\neq
+\\neq
 RepairQuality
 }
-]
+\]
 
 A strong intervention applied to the wrong causal target may increase damage.
 
 Therefore:
 
-[
-\boxed{
+\[
+\\boxed{
 CorrectTarget
 
 >
 
 MaximumInterventionStrength
 }
-]
+\]
 
 as an AMOS architectural priority relation.
 
----
+______________________________________________________________________
 
-# 9. Symptom / Cause Firewall
+## 9. Symptom / Cause Firewall
 
 ```text
 OBSERVED FAILURE
@@ -334,9 +328,9 @@ control-plane failure
 
 Repair must not assume the visible surface is the causal target.
 
----
+______________________________________________________________________
 
-# 10. H/M/L Repair Architecture
+## 10. H/M/L Repair Architecture
 
 ## H — Governing Repair
 
@@ -414,16 +408,13 @@ correct local transformation
 invalidate local claim
 ```
 
----
+______________________________________________________________________
 
-# 11. H/M/L Repair Tensor
+## 11. H/M/L Repair Tensor
 
-[
-\boxed{
-T_{HML-R}
-=========
+## \[ \\boxed{ T\_{HML-R}
 
-T[
+T\[
 repair,
 source_scale,
 target_scale,
@@ -433,13 +424,13 @@ upward_impact,
 downward_impact,
 cross_scale_constraints,
 validation_requirements
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 12. Lowest-Sufficient-Scale Principle
+## 12. Lowest-Sufficient-Scale Principle
 
 Repair should begin at the lowest scale supported by the evidence.
 
@@ -461,20 +452,17 @@ H CAUSE
 
 Therefore:
 
-[
-\boxed{
-RepairScale
-===========
+## \[ \\boxed{ RepairScale
 
 LowestScaleContainingMaterialCause
 }
-]
+\]
 
 subject to evidence.
 
----
+______________________________________________________________________
 
-# 13. Escalation Rule
+## 13. Escalation Rule
 
 ```text
 LOCAL REPAIR
@@ -509,19 +497,19 @@ DO NOT ESCALATE REPAIR SCALE
 WITHOUT NEW EVIDENCE
 ```
 
----
+______________________________________________________________________
 
-# 14. Upstream Repair
+## 14. Upstream Repair
 
 If downstream failure is caused by an upstream dependency:
 
-[
-\boxed{
+\[
+\\boxed{
 Cause(F_D)=U
-\Rightarrow
+\\Rightarrow
 Repair(U)
 }
-]
+\]
 
 rather than repeatedly repairing downstream symptoms.
 
@@ -549,9 +537,9 @@ recompute dependent claim
 revalidate decision
 ```
 
----
+______________________________________________________________________
 
-# 15. Reality-Contact Repair
+## 15. Reality-Contact Repair
 
 If the internal state becomes disconnected from reality:
 
@@ -564,24 +552,21 @@ REALITY CONTACT LOST
 
 repair requires a new valid observation path.
 
-[
-\boxed{
-Repair_{RC}
-===========
+## \[ \\boxed{ Repair\_{RC}
 
 Reobserve
-+
+\+
 ValidateMeasurement
-+
+\+
 RestoreProvenance
-+
+\+
 ReconcileState
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 16. Reality Reobservation Protocol
+## 16. Reality Reobservation Protocol
 
 ```text
 IDENTIFY STALE / INVALID STATE
@@ -605,22 +590,19 @@ VALIDATE SCOPE / REGIME
 RECONCILE INTERNAL STATE
 ```
 
----
+______________________________________________________________________
 
-# 17. Stale-State Repair
+## 17. Stale-State Repair
 
-For stale state (S_{old}):
+For stale state (S\_{old}):
 
-[
-\boxed{
-Repair(S_{old})
-===============
+## \[ \\boxed{ Repair(S\_{old})
 
-Read(S_{current})
-\rightarrow
+Read(S\_{current})
+\\rightarrow
 Revalidate(DependentState)
 }
-]
+\]
 
 Hard invariant:
 
@@ -632,9 +614,9 @@ FALSE STATE
 
 Repair is refresh plus dependency validation, not automatic deletion.
 
----
+______________________________________________________________________
 
-# 18. Provenance Repair
+## 18. Provenance Repair
 
 Broken provenance requires lineage reconstruction.
 
@@ -660,30 +642,27 @@ RECOMPUTE INDEPENDENCE
 REVALIDATE DEPENDENTS
 ```
 
----
+______________________________________________________________________
 
-# 19. Provenance Repair Equation
+## 19. Provenance Repair Equation
 
 For broken provenance node (p):
 
-[
-\boxed{
-RepairProv(p)
-=============
+## \[ \\boxed{ RepairProv(p)
 
 RecoverRoot(p)
-+
+\+
 RecoverEdges(p)
-+
-Revalidate(Desc_{LB}(p))
+\+
+Revalidate(Desc\_{LB}(p))
 }
-]
+\]
 
 where `Desc_LB` denotes load-bearing descendants.
 
----
+______________________________________________________________________
 
-# 20. Memory Repair
+## 20. Memory Repair
 
 Persistent memory may require repair when it becomes:
 
@@ -715,16 +694,13 @@ DELETE
 
 depending on state and authority.
 
----
+______________________________________________________________________
 
-# 21. Memory Repair Tensor
+## 21. Memory Repair Tensor
 
-[
-\boxed{
-T_{MR}
-======
+## \[ \\boxed{ T\_{MR}
 
-T[
+T\[
 memory_id,
 failure_state,
 source,
@@ -734,50 +710,47 @@ repair_operation,
 new_state,
 provenance,
 revalidation_epoch
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 22. Claim Repair
+## 22. Claim Repair
 
 Claim repair must preserve historical lineage.
 
 Given claim:
 
-[
+\[
 C_t
-]
+\]
 
 and corrective evidence:
 
-[
-E_{t+1}
-]
+\[
+E\_{t+1}
+\]
 
 the corrected state is:
 
-[
-\boxed{
-C_{t+1}
-=======
+## \[ \\boxed{ C\_{t+1}
 
-Update(C_t,E_{t+1})
+Update(C_t,E\_{t+1})
 }
-]
+\]
 
 not:
 
-[
-\boxed{
+\[
+\\boxed{
 OverwriteHistory(C_t)
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 23. Claim Repair States
+## 23. Claim Repair States
 
 A repaired claim may become:
 
@@ -796,9 +769,9 @@ depending on evidence.
 
 Repair does not imply promotion.
 
----
+______________________________________________________________________
 
-# 24. Causal Repair Firewall
+## 24. Causal Repair Firewall
 
 A repair should distinguish:
 
@@ -812,19 +785,19 @@ representation repair
 
 A dependency correction does not prove a causal model.
 
----
+______________________________________________________________________
 
-# 25. Constraint Repair
+## 25. Constraint Repair
 
 If a constraint is wrong or stale:
 
-[
-\boxed{
+\[
+\\boxed{
 C_t
-\xrightarrow{repair}
-C_{t+1}
+\\xrightarrow{repair}
+C\_{t+1}
 }
-]
+\]
 
 must preserve:
 
@@ -839,9 +812,9 @@ affected dependencies
 rollback path
 ```
 
----
+______________________________________________________________________
 
-# 26. Boundary Repair
+## 26. Boundary Repair
 
 Boundary failure may involve:
 
@@ -857,38 +830,35 @@ incorrect admission
 
 Boundary repair must restore selective permeability rather than merely closing or opening the boundary completely.
 
----
+______________________________________________________________________
 
-# 27. Scope Repair
+## 27. Scope Repair
 
-If claim \(C\) was applied outside valid scope:
+If claim (C) was applied outside valid scope:
 
-[
-\boxed{
-ScopeRepair(C)
-==============
+## \[ \\boxed{ ScopeRepair(C)
 
-Restrict(C,S_{valid})
-+
+Restrict(C,S\_{valid})
+\+
 Invalidate(OutOfScopeDescendants)
 }
-]
+\]
 
 Repair should not modify the evidence itself unless the evidence is also defective.
 
----
+______________________________________________________________________
 
-# 28. Regime Repair
+## 28. Regime Repair
 
-If regime shifts from \(R_1\) to \(R_2\):
+If regime shifts from (R_1) to (R_2):
 
-[
-\boxed{
-R_1\rightarrow R_2
-\Rightarrow
+\[
+\\boxed{
+R_1\\rightarrow R_2
+\\Rightarrow
 Revalidate(RegimeDependentState)
 }
-]
+\]
 
 Possible repair outcomes:
 
@@ -901,9 +871,9 @@ REPLACE MODEL
 QUARANTINE
 ```
 
----
+______________________________________________________________________
 
-# 29. Temporal Repair
+## 29. Temporal Repair
 
 Temporal inconsistency may require distinguishing:
 
@@ -917,16 +887,13 @@ commit time
 
 Repair restores correct chronology without rewriting history.
 
----
+______________________________________________________________________
 
-# 30. Observer Repair
+## 30. Observer Repair
 
 If observer context is missing:
 
-[
-\boxed{
-RepairObserverContext
-=====================
+## \[ \\boxed{ RepairObserverContext
 
 Recover(
 observer,
@@ -936,7 +903,7 @@ conditions,
 time
 )
 }
-]
+\]
 
 If recovery is impossible:
 
@@ -946,9 +913,9 @@ OBSERVER CONTEXT = UNKNOWN/GAP
 
 Confidence must remain bounded.
 
----
+______________________________________________________________________
 
-# 31. Authority Repair
+## 31. Authority Repair
 
 Authority defects may involve:
 
@@ -970,9 +937,9 @@ MISSING AUTHORITY
 AUTHORITY TO BE INFERRED
 ```
 
----
+______________________________________________________________________
 
-# 32. Action Repair
+## 32. Action Repair
 
 If an action was proposed but not committed:
 
@@ -990,9 +957,9 @@ EFFECT STATUS MUST BE RESOLVED
 
 before retry or rollback.
 
----
+______________________________________________________________________
 
-# 33. Ambiguous Effect Repair
+## 33. Ambiguous Effect Repair
 
 If AMOS cannot determine whether an external effect occurred:
 
@@ -1031,43 +998,40 @@ RECONCILE
         └── EFFECT ABSENT
 ```
 
----
+______________________________________________________________________
 
-# 34. Retry Repair
+## 34. Retry Repair
 
 Retry is only safe when:
 
-[
-\boxed{
-RetrySafe
-=========
+## \[ \\boxed{ RetrySafe
 
 FailureUnderstood
-\land
+\\land
 AuthorityValid
-\land
+\\land
 StateFresh
-\land
+\\land
 DuplicateEffectProtected
 }
-]
+\]
 
 For durable effects, idempotency or confirmed no-prior-effect is required where duplication would be harmful.
 
----
+______________________________________________________________________
 
-# 35. Rollback
+## 35. Rollback
 
 Rollback is one repair strategy.
 
-[
-\boxed{
+\[
+\\boxed{
 Rollback:
-S_{t+1}
-\rightarrow
-S'_t
+S\_{t+1}
+\\rightarrow
+S'\_t
 }
-]
+\]
 
 but:
 
@@ -1077,16 +1041,13 @@ ROLLBACK != EXACT TIME REVERSAL
 
 The environment may have changed since the original state.
 
----
+______________________________________________________________________
 
-# 36. Rollback Tensor
+## 36. Rollback Tensor
 
-[
-\boxed{
-T_{RB}
-======
+## \[ \\boxed{ T\_{RB}
 
-T[
+T\[
 target,
 current_state,
 rollback_reference,
@@ -1096,34 +1057,31 @@ externalities,
 reversibility,
 validation,
 result
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 37. Rollback Validity
+## 37. Rollback Validity
 
-[
-\boxed{
-ValidRollback
-=============
+## \[ \\boxed{ ValidRollback
 
 TargetValid
-\land
+\\land
 AuthorityValid
-\land
+\\land
 DependencyCompatible
-\land
+\\land
 ConstraintPass
-\land
+\\land
 PostRollbackValidation
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 38. Repair vs Replacement
+## 38. Repair vs Replacement
 
 Some failures cannot be economically or structurally repaired.
 
@@ -1143,16 +1101,13 @@ TERMINATE
 
 Repair is one member of a larger recovery decision space.
 
----
+______________________________________________________________________
 
-# 39. Repair Strategy Tensor
+## 39. Repair Strategy Tensor
 
-[
-\boxed{
-T_{RS}
-======
+## \[ \\boxed{ T\_{RS}
 
-T[
+T\[
 strategy,
 target,
 expected_benefit,
@@ -1163,20 +1118,17 @@ time_cost,
 reversibility,
 externalities,
 confidence
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 40. Repair Priority
+## 40. Repair Priority
 
 A conceptual AMOS repair priority model may use:
 
-[
-\boxed{
-Priority(r)
-===========
+## \[ \\boxed{ Priority(r)
 
 f(
 Consequence,
@@ -1188,27 +1140,24 @@ EvidenceQuality,
 ResourceCost
 )
 }
-]
+\]
 
 This is an AMOS MODEL decision relation, not a universal empirical equation.
 
----
+______________________________________________________________________
 
-# 41. Recoverability Window
+## 41. Recoverability Window
 
 A repair may have a bounded useful interval:
 
-[
-\boxed{
-W_R
-===
+## \[ \\boxed{ W_R
 
-[
-t_{earliest},
-t_{latest}
-]
+\[
+t\_{earliest},
+t\_{latest}
+\]
 }
-]
+\]
 
 where:
 
@@ -1223,16 +1172,13 @@ If evidence does not support these bounds:
 RECOVERABILITY WINDOW = UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 42. Delay Cost
+## 42. Delay Cost
 
 A conceptual delay function is:
 
-[
-\boxed{
-C_{delay}
-=========
+## \[ \\boxed{ C\_{delay}
 
 f(
 degradationRate,
@@ -1241,50 +1187,44 @@ irreversibilityRisk,
 opportunityLoss
 )
 }
-]
+\]
 
 No numerical timing claim should be inferred without domain evidence.
 
----
+______________________________________________________________________
 
-# 43. Repair Sensitivity
+## 43. Repair Sensitivity
 
-For repair decision \(R\):
+For repair decision (R):
 
-[
-\boxed{
-Flip_R
-======
+## \[ \\boxed{ Flip_R
 
 {
 p_i :
 Change(p_i)
-\Rightarrow
+\\Rightarrow
 Change(RepairPriority)
 }
 }
-]
+\]
 
 The smallest premise capable of changing repair selection should receive early validation.
 
----
+______________________________________________________________________
 
-# 44. Repair Externalities
+## 44. Repair Externalities
 
 Repair may create harm outside its target.
 
-[
-\boxed{
-Externality(R)
-==============
+## \[ \\boxed{ Externality(R)
 
-\Delta H
-+
-\Delta M
-+
-\Delta L
+\\Delta H
+\+
+\\Delta M
+\+
+\\Delta L
 }
-]
+\]
 
 conceptually across scales.
 
@@ -1302,9 +1242,9 @@ hidden debt
 loss of useful variation
 ```
 
----
+______________________________________________________________________
 
-# 45. Repair Harm Invariant
+## 45. Repair Harm Invariant
 
 ```text
 LOCAL REPAIR SUCCESS
@@ -1314,16 +1254,13 @@ SYSTEMIC REPAIR SUCCESS
 
 A repair must not be accepted solely because the target symptom disappears.
 
----
+______________________________________________________________________
 
-# 46. Repair Resource Tensor
+## 46. Repair Resource Tensor
 
-[
-\boxed{
-T_{RR}
-======
+## \[ \\boxed{ T\_{RR}
 
-T[
+T\[
 resource,
 availability,
 cost,
@@ -1333,9 +1270,9 @@ dependency_reduction,
 urgency,
 reserve,
 authority
-]
+\]
 }
-]
+\]
 
 Repair capacity may include:
 
@@ -1350,34 +1287,31 @@ tool access
 system downtime
 ```
 
----
+______________________________________________________________________
 
-# 47. Repair Admission Gate
+## 47. Repair Admission Gate
 
 A repair proposal (r) is eligible only if:
 
-[
-\boxed{
-Eligible(r)
-===========
+## \[ \\boxed{ Eligible(r)
 
 TargetSupported
-\land
+\\land
 AuthorityValid
-\land
+\\land
 ConstraintPass
-\land
+\\land
 RiskAcceptable
-\land
+\\land
 ValidationPlanExists
 }
-]
+\]
 
 where those conditions are required.
 
----
+______________________________________________________________________
 
-# 48. Repair Proposal / Commit Firewall
+## 48. Repair Proposal / Commit Firewall
 
 ```text
 DIAGNOSIS
@@ -1403,18 +1337,15 @@ CONTROL PLANE
         COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 49. Repair Transaction
+## 49. Repair Transaction
 
 When repair requires multiple coupled mutations:
 
-[
-\boxed{
-TX_R
-====
+## \[ \\boxed{ TX_R
 
-T[
+T\[
 repair_id,
 changes,
 read_set,
@@ -1424,26 +1355,23 @@ authority,
 constraints,
 rollback,
 validation
-]
+\]
 }
-]
+\]
 
 If partial mutation would violate invariants:
 
-[
-\boxed{
-Commit(TX_R)
-============
+## \[ \\boxed{ Commit(TX_R)
 
 ALL
-\lor
+\\lor
 NONE
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 50. Repair State Machine
+## 50. Repair State Machine
 
 ```text
 DETECTED
@@ -1491,79 +1419,70 @@ ESCALATED
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 51. Selective Invalidation
+## 51. Selective Invalidation
 
 For invalid premise (p):
 
-[
-\boxed{
+\[
+\\boxed{
 Invalidate(p)
-\Rightarrow
-Invalidate(Desc_{LB}(p))
+\\Rightarrow
+Invalidate(Desc\_{LB}(p))
 }
-]
+\]
 
 while:
 
-[
-\boxed{
+\[
+\\boxed{
 Independent(x,p)
-\Rightarrow
+\\Rightarrow
 Preserve(x)
 }
-]
+\]
 
 This is a core AMOS repair principle.
 
----
+______________________________________________________________________
 
-# 52. Selective Recalculation
+## 52. Selective Recalculation
 
 After repair:
 
-[
-\boxed{
-RecomputeSet
-============
+## \[ \\boxed{ RecomputeSet
 
 AffectedDescendants
 }
-]
+\]
 
 not automatically:
 
-[
-\boxed{
-RecomputeSet
-============
+## \[ \\boxed{ RecomputeSet
 
 EntireSystem
 }
-]
+\]
 
 unless global dependency closure requires it.
 
----
+______________________________________________________________________
 
-# 53. Repair Dependency Graph
+## 53. Repair Dependency Graph
 
-[
-\boxed{
-G_R
-===
+## \[ \\boxed{ G_R
 
 (V_F,V_T,V_R,E_R)
 }
-]
+\]
 
 where:
 
-- \(V_F\) = failures;
-- \(V_T\) = candidate targets;
-- \(V_R\) = repairs;
-- \(E_R\) = causal/dependency/validation relations.
+- (V_F) = failures;
+- (V_T) = candidate targets;
+- (V_R) = repairs;
+- (E_R) = causal/dependency/validation relations.
 
 Edge classes:
 
@@ -1578,37 +1497,34 @@ ROLLS_BACK
 CONFLICTS_WITH
 ```
 
----
+______________________________________________________________________
 
-# 54. Causal Cut Principle
+## 54. Causal Cut Principle
 
 The ideal repair target approximates the earliest small failure set whose correction restores the downstream path.
 
 Conceptually:
 
-[
-\boxed{
-T^*
-===
+## \[ \\boxed{ T^\*
 
-\arg\min_T
+\\arg\\min_T
 Cost(T)
-\quad
-\text{s.t.}
-\quad
+\\quad
+\\text{s.t.}
+\\quad
 Repair(T)
-\Rightarrow
+\\Rightarrow
 RequiredRecovery
 }
-]
+\]
 
 subject to evidence and governance.
 
 This is an AMOS optimization model, not a universal theorem.
 
----
+______________________________________________________________________
 
-# 55. Competing Repair Hypotheses
+## 55. Competing Repair Hypotheses
 
 If the root cause is unclear:
 
@@ -1624,35 +1540,32 @@ AMOS must preserve the hypotheses as competing.
 
 Do not choose a repair merely because it is easiest.
 
----
+______________________________________________________________________
 
-# 56. Discriminating Repair Test
+## 56. Discriminating Repair Test
 
-[
-\boxed{
-Test^*
-======
+## \[ \\boxed{ Test^\*
 
-\arg\max_T
-\frac{
+\\arg\\max_T
+\\frac{
 ExpectedDiscrimination(T)
 }{
 Cost(T)+Risk(T)
 }
 }
-]
+\]
 
 subject to safety and authority constraints.
 
----
+______________________________________________________________________
 
-# 57. Repair Confidence Ceiling
+## 57. Repair Confidence Ceiling
 
-[
-\boxed{
+\[
+\\boxed{
 Conf(RepairTarget)
-\leq
-\min(
+\\leq
+\\min(
 EvidenceCeiling,
 CausalCeiling,
 ProvenanceCeiling,
@@ -1660,20 +1573,17 @@ ScopeCeiling,
 RegimeCeiling
 )
 }
-]
+\]
 
 A plausible repair target does not become verified because the repair succeeds once.
 
----
+______________________________________________________________________
 
-# 58. Repair Evidence Tensor
+## 58. Repair Evidence Tensor
 
-[
-\boxed{
-T_{RE}
-======
+## \[ \\boxed{ T\_{RE}
 
-T[
+T\[
 repair,
 failure,
 target,
@@ -1687,70 +1597,61 @@ scope,
 regime,
 time,
 provenance
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 59. Repair Validation
+## 59. Repair Validation
 
-[
-\boxed{
-RepairValidated
-===============
+## \[ \\boxed{ RepairValidated
 
 TargetStatePass
-\land
+\\land
 DependentStatePass
-\land
+\\land
 HardInvariantsPass
-\land
+\\land
 NoCriticalExternalityObserved
 }
-]
+\]
 
 within the declared validation envelope.
 
----
+______________________________________________________________________
 
-# 60. Recovery vs Repair
+## 60. Recovery vs Repair
 
 Repair is the intervention.
 
 Recovery is the validated restoration of acceptable system function.
 
-[
-\boxed{
+\[
+\\boxed{
 Repair
-\rightarrow
+\\rightarrow
 Validation
-\rightarrow
+\\rightarrow
 Recovery
 }
-]
+\]
 
 not:
 
-[
-\boxed{
-Repair
-======
+## \[ \\boxed{ Repair
 
 Recovery
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 61. Recovery Tensor
+## 61. Recovery Tensor
 
-[
-\boxed{
-T_{REC}
-=======
+## \[ \\boxed{ T\_{REC}
 
-T[
+T\[
 system,
 pre_failure_state,
 failure,
@@ -1761,39 +1662,36 @@ remaining_gaps,
 residual_risk,
 validation,
 monitoring
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 62. Recovery Equation
+## 62. Recovery Equation
 
 Let:
 
-- \(S_V\) = unaffected valid state;
-- \(S_F\) = failed state;
-- \(R_F\) = repaired state;
-- \(D_F\) = dependent descendants.
+- (S_V) = unaffected valid state;
+- (S_F) = failed state;
+- (R_F) = repaired state;
+- (D_F) = dependent descendants.
 
 Then:
 
-[
-\boxed{
-S_{recovered}
-=============
+## \[ \\boxed{ S\_{recovered}
 
 S_V
-\cup
+\\cup
 R_F
-\cup
+\\cup
 Revalidated(D_F)
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 63. Recovery Invariant
+## 63. Recovery Invariant
 
 ```text
 RECOVERED
@@ -1803,9 +1701,9 @@ IDENTICAL TO PRE-FAILURE STATE
 
 A system may recover into a new valid state rather than reconstructing the exact previous state.
 
----
+______________________________________________________________________
 
-# 64. Partial Recovery
+## 64. Partial Recovery
 
 A system may be:
 
@@ -1817,9 +1715,9 @@ when some functionality returns while unresolved gaps remain.
 
 Partial recovery must not be promoted to full recovery.
 
----
+______________________________________________________________________
 
-# 65. Graceful Degradation
+## 65. Graceful Degradation
 
 If full repair is unavailable:
 
@@ -1838,20 +1736,17 @@ SUSPEND / ESCALATE
 
 The system should preserve safety and integrity rather than simulate normal operation.
 
----
+______________________________________________________________________
 
-# 66. Containment
+## 66. Containment
 
 Containment limits propagation before root-cause repair.
 
-[
-\boxed{
-Contain(F)
-==========
+## \[ \\boxed{ Contain(F)
 
 ReducePropagation(F)
 }
-]
+\]
 
 Containment may include:
 
@@ -1867,26 +1762,23 @@ stop propagation
 
 Containment is not recovery.
 
----
+______________________________________________________________________
 
-# 67. Quarantine
+## 67. Quarantine
 
 Quarantine preserves suspicious state while blocking trusted reuse.
 
-[
-\boxed{
-Quarantine(x)
-=============
+## \[ \\boxed{ Quarantine(x)
 
 Preserve(x)
-\land
+\\land
 BlockPromotion(x)
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 68. Repair Stop Conditions
+## 68. Repair Stop Conditions
 
 Repair must stop or reassess when:
 
@@ -1910,9 +1802,9 @@ repair exceeds resource limits
 repeated attempts fail without new evidence
 ```
 
----
+______________________________________________________________________
 
-# 69. Do-Not-Repeat Invariant
+## 69. Do-Not-Repeat Invariant
 
 ```text
 REPEATING SAME FAILED REPAIR
@@ -1921,9 +1813,9 @@ WITHOUT CHANGED EVIDENCE OR STATE
 VALID RECOVERY STRATEGY
 ```
 
----
+______________________________________________________________________
 
-# 70. Repair Decision Classes
+## 70. Repair Decision Classes
 
 AMOS repair decisions may be:
 
@@ -1949,9 +1841,9 @@ UNKNOWN/GAP
 
 The chosen class must remain evidence-bound.
 
----
+______________________________________________________________________
 
-# 71. Control-Plane Requirements
+## 71. Control-Plane Requirements
 
 The L00 repair control plane should support:
 
@@ -1989,16 +1881,13 @@ audit
 recovery finalization
 ```
 
----
+______________________________________________________________________
 
-# 72. Control-Plane Repair Tensor
+## 72. Control-Plane Repair Tensor
 
-[
-\boxed{
-T_{CP-R}
-========
+## \[ \\boxed{ T\_{CP-R}
 
-T[
+T\[
 failure,
 target,
 proposal,
@@ -2010,13 +1899,13 @@ repair_effect,
 rollback,
 validation,
 finalization
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 73. Repair Authority
+## 73. Repair Authority
 
 Repair authority must bind to:
 
@@ -2038,9 +1927,9 @@ ABILITY TO REPAIR
 AUTHORITY TO REPAIR
 ```
 
----
+______________________________________________________________________
 
-# 74. Agent Contract
+## 74. Agent Contract
 
 Repair agents may:
 
@@ -2069,9 +1958,9 @@ delete independent state unnecessarily
 treat UNKNOWN/GAP as recovered
 ```
 
----
+______________________________________________________________________
 
-# 75. Skill Contract
+## 75. Skill Contract
 
 Every repair-capable AMOS skill should expose:
 
@@ -2105,9 +1994,9 @@ repair_contract:
   falsifiers: []
 ```
 
----
+______________________________________________________________________
 
-# 76. Repair Workflow
+## 76. Repair Workflow
 
 ```text
 1. Observe failure.
@@ -2161,9 +2050,9 @@ repair_contract:
 25. Preserve repair provenance.
 ```
 
----
+______________________________________________________________________
 
-# 77. Repair Protocol
+## 77. Repair Protocol
 
 ```yaml
 repair_protocol:
@@ -2227,16 +2116,16 @@ repair_protocol:
     - UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 78. Repair Provenance
+## 78. Repair Provenance
 
 Every consequential repair should preserve:
 
-[
-\boxed{
+\[
+\\boxed{
 Prov_R =
-T[
+T\[
 failure,
 diagnosis,
 evidence,
@@ -2249,13 +2138,13 @@ post_state,
 tests,
 rollback,
 timestamp
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 79. Repair History
+## 79. Repair History
 
 Repair history should distinguish:
 
@@ -2271,9 +2160,9 @@ whether the hypothesis survived
 
 This prevents repair history from becoming mythology.
 
----
+______________________________________________________________________
 
-# 80. Repair Learning
+## 80. Repair Learning
 
 A successful repair may produce reusable knowledge only within its validated scope.
 
@@ -2297,9 +2186,9 @@ exceptions
 provenance
 ```
 
----
+______________________________________________________________________
 
-# 81. AI Application — Hallucination Repair
+## 81. AI Application — Hallucination Repair
 
 A hallucinated output may originate from:
 
@@ -2318,9 +2207,9 @@ Correct repair depends on the failure mechanism.
 
 Simply rewriting the sentence does not repair the reasoning architecture.
 
----
+______________________________________________________________________
 
-# 82. AI Application — Memory Poisoning Repair
+## 82. AI Application — Memory Poisoning Repair
 
 ```text
 SUSPICIOUS MEMORY
@@ -2344,9 +2233,9 @@ REACQUIRE VALID EVIDENCE
 REVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 83. AI Application — Retrieval Repair
+## 83. AI Application — Retrieval Repair
 
 Potential repair targets:
 
@@ -2364,9 +2253,9 @@ admission gate
 
 A retrieval miss does not automatically mean the corpus lacks the evidence.
 
----
+______________________________________________________________________
 
-# 84. AI Application — Tool Failure Repair
+## 84. AI Application — Tool Failure Repair
 
 Tool failure classes include:
 
@@ -2390,9 +2279,9 @@ PARTIAL EFFECT
 CONFIRMED EFFECT
 ```
 
----
+______________________________________________________________________
 
-# 85. AI Application — Agent Repair
+## 85. AI Application — Agent Repair
 
 An agent can fail because of:
 
@@ -2410,9 +2299,9 @@ coordination failure
 
 Repair should target the earliest load-bearing failure rather than only the final wrong answer.
 
----
+______________________________________________________________________
 
-# 86. AI Application — Control Plane Repair
+## 86. AI Application — Control Plane Repair
 
 Control-plane failure may involve:
 
@@ -2428,9 +2317,9 @@ receipt misbinding
 
 These are not model reasoning failures.
 
----
+______________________________________________________________________
 
-# 87. AI Application — Architecture Repair
+## 87. AI Application — Architecture Repair
 
 Architecture repair may change:
 
@@ -2448,9 +2337,9 @@ dependency graph
 
 Architecture repair should generally require stronger validation than local output repair.
 
----
+______________________________________________________________________
 
-# 88. Mutation / Repair Distinction
+## 88. Mutation / Repair Distinction
 
 ```text
 REPAIR
@@ -2464,9 +2353,9 @@ A mutation may intentionally create new behavior.
 
 If repair changes the architecture beyond the prior contract, it must also be treated as architectural mutation.
 
----
+______________________________________________________________________
 
-# 89. Repair Invariants
+## 89. Repair Invariants
 
 ## REP-I01 — Correct Target
 
@@ -2548,9 +2437,9 @@ System recovery requires downstream confirmation.
 
 Task completion cannot justify violating repair invariants.
 
----
+______________________________________________________________________
 
-# 90. Failure Modes
+## 90. Failure Modes
 
 ## REP-F01 — Wrong-Target Repair
 
@@ -2632,9 +2521,9 @@ Repair success is presented as definitive proof of root cause.
 
 Unknown repair status becomes `PASS`.
 
----
+______________________________________________________________________
 
-# 91. Repair / Recovery Ladder
+## 91. Repair / Recovery Ladder
 
 ```text
 DETECT
@@ -2673,9 +2562,9 @@ RECOVER
 MONITOR
 ```
 
----
+______________________________________________________________________
 
-# 92. Validators
+## 92. Validators
 
 ```text
 L00-REP-T01 failure identity
@@ -2729,36 +2618,36 @@ L00-REP-T24 repair history integrity
 L00-REP-T25 UNKNOWN/GAP preservation
 ```
 
----
+______________________________________________________________________
 
-# 93. Falsifiers
+## 93. Falsifiers
 
 This architecture is falsified as an implemented L00 repair system if:
 
 1. repairs cannot distinguish symptom from cause;
-2. repair target scale cannot be represented;
-3. repairs routinely modify unrelated valid state;
-4. provenance is destroyed during repair;
-5. failed dependencies cannot be selectively invalidated;
-6. competing root-cause hypotheses cannot remain unresolved;
-7. repair proposals can mutate state without authority;
-8. repair commits against stale state;
-9. rollback is assumed without a real recovery target;
-10. ambiguous external effects are retried blindly;
-11. local repair automatically proves global recovery;
-12. post-repair state is not reobserved where reality contact matters;
-13. repeated failed repair is continued without new evidence;
-14. repair externalities are ignored;
-15. historical failed state is rewritten;
-16. repair success automatically becomes causal proof;
-17. regime change does not trigger revalidation;
-18. containment is presented as recovery;
-19. missing repair evidence is fabricated;
-20. `UNKNOWN/GAP` can become `RECOVERED` or `PASS`.
+1. repair target scale cannot be represented;
+1. repairs routinely modify unrelated valid state;
+1. provenance is destroyed during repair;
+1. failed dependencies cannot be selectively invalidated;
+1. competing root-cause hypotheses cannot remain unresolved;
+1. repair proposals can mutate state without authority;
+1. repair commits against stale state;
+1. rollback is assumed without a real recovery target;
+1. ambiguous external effects are retried blindly;
+1. local repair automatically proves global recovery;
+1. post-repair state is not reobserved where reality contact matters;
+1. repeated failed repair is continued without new evidence;
+1. repair externalities are ignored;
+1. historical failed state is rewritten;
+1. repair success automatically becomes causal proof;
+1. regime change does not trigger revalidation;
+1. containment is presented as recovery;
+1. missing repair evidence is fabricated;
+1. `UNKNOWN/GAP` can become `RECOVERED` or `PASS`.
 
----
+______________________________________________________________________
 
-# 94. Gap Matrix
+## 94. Gap Matrix
 
 | Area                | Required capability         | Status                                   |
 | ------------------- | --------------------------- | ---------------------------------------- |
@@ -2780,115 +2669,103 @@ This architecture is falsified as an implemented L00 repair system if:
 | Recovery            | post-repair validation      | implementation-dependent                 |
 | Monitoring          | recurrence detection        | implementation-dependent                 |
 
----
+______________________________________________________________________
 
-# 95. Canonical Repair Equation
+## 95. Canonical Repair Equation
 
 The L00 repair architecture can be summarized as:
 
-[
-\boxed{
-RepairValidity
-==============
+## \[ \\boxed{ RepairValidity
 
 CorrectTarget
-\land
+\\land
 EvidenceAdequate
-\land
+\\land
 DependencyIntegrity
-\land
+\\land
 ScopeCompatibility
-\land
+\\land
 RegimeCompatibility
-\land
+\\land
 AuthorityValid
-\land
+\\land
 InvariantPreservation
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 96. Canonical Recovery Equation
+## 96. Canonical Recovery Equation
 
-[
-\boxed{
-Recovery
-========
+## \[ \\boxed{ Recovery
 
 RepairValidity
-\land
+\\land
 RealityRecontact
-\land
+\\land
 PostRepairValidation
-\land
+\\land
 DependentStateRevalidation
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 97. Canonical Selective Repair Equation
+## 97. Canonical Selective Repair Equation
 
 For failed premise (p):
 
-[
-\boxed{
-RepairScope(p)
-==============
+## \[ \\boxed{ RepairScope(p)
 
 {
 p
 }
-\cup
-Desc_{LB}(p)
+\\cup
+Desc\_{LB}(p)
 }
-]
+\]
 
 while:
 
-[
-\boxed{
+\[
+\\boxed{
 Independent(x,p)
-\Rightarrow
+\\Rightarrow
 Preserve(x)
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 98. Canonical Repair Priority Equation
+## 98. Canonical Repair Priority Equation
 
 A conceptual AMOS priority function is:
 
-[
-\boxed{
-Priority(r)
-===========
+## \[ \\boxed{ Priority(r)
 
-\frac{
+\\frac{
 Consequence(r)
-\cdot
+\\cdot
 CausalLeverage(r)
-\cdot
+\\cdot
 Recoverability(r)
 }{
 ResourceCost(r)
-+
+\+
 ExternalityRisk(r)
-+
+\+
 Uncertainty(r)
 }
 }
-]
+\]
 
 where quantities are defined by the implementation.
 
 This is an AMOS MODEL ranking construct, not an established universal mathematical law.
 
----
+______________________________________________________________________
 
-# 99. Canonical Repair Decision
+## 99. Canonical Repair Decision
 
 ```text
 IF failure is uncertain:
@@ -2919,9 +2796,9 @@ ELSE:
     REASSESS
 ```
 
----
+______________________________________________________________________
 
-# 100. RSCF Completion State
+## 100. RSCF Completion State
 
 ```yaml
 claim_class: MODEL
@@ -3016,9 +2893,9 @@ confidence_ceiling:
   ontological_universality: unverified
 ```
 
----
+______________________________________________________________________
 
-# 101. Hard Boundaries
+## 101. Hard Boundaries
 
 ```text
 REPAIR != RETRY
@@ -3078,84 +2955,81 @@ ADDRESSABLE != VALIDATED
 UNKNOWN/GAP != PASS
 ```
 
----
+______________________________________________________________________
 
-# 102. Canonical Repair Law
+## 102. Canonical Repair Law
 
-[
-\boxed{
-ValidRepair
-===========
+## \[ \\boxed{ ValidRepair
 
 LocateActualFailure
-\land
+\\land
 SelectSmallestSupportedTarget
-\land
+\\land
 PreserveValidState
-\land
+\\land
 PreserveProvenance
-\land
+\\land
 RespectScope
-\land
+\\land
 RespectRegime
-\land
+\\land
 RespectAuthority
-\land
+\\land
 RevalidateAffectedState
 }
-]
+\]
 
 For failed dependencies:
 
-[
-\boxed{
+\[
+\\boxed{
 Failure(p)
-\Rightarrow
+\\Rightarrow
 Invalidate(LoadBearingDescendants(p))
-+
+\+
 Preserve(IndependentState)
 }
-]
+\]
 
 For external reality:
 
-[
-\boxed{
+\[
+\\boxed{
 RepairRealityState
-\Rightarrow
+\\Rightarrow
 Reobserve
-\land
+\\land
 Reconcile
 }
-]
+\]
 
 For recovery:
 
-[
-\boxed{
+\[
+\\boxed{
 Recovered
-\Rightarrow
+\\Rightarrow
 RepairApplied
-\land
+\\land
 PostRepairValidation
-\land
+\\land
 CriticalDependenciesValid
 }
-]
+\]
 
 For unresolved causal diagnosis:
 
-[
-\boxed{
+\[
+\\boxed{
 InsufficientEvidence
-\Rightarrow
+\\Rightarrow
 COMPETING
-\lor
+\\lor
 CONTAIN
-\lor
+\\lor
 UNKNOWN/GAP
 }
-]
+\]
 
 not forced repair certainty.
 
@@ -3163,29 +3037,33 @@ The governing architectural principle is:
 
 > **AMOS repair is dependency-local, provenance-preserving, reality-grounded, scale-aware, authority-bound, and validation-dependent. The system must repair the earliest supported failure rather than merely suppressing its visible symptom; preserve unaffected valid state rather than globally resetting; and treat repair as successful only after the repaired state and its load-bearing descendants have been revalidated against the relevant environment.**
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · 06-Knowledge-Base-MOC · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · AMOS_Target_of_Repair_Intelligence · AMOS_Repair_Priority_Governor · AMOS_Repair_Harm_Auditor · AMOS_Collapse_Recovery · AMOS_Constraint_Propagation · AMOS_Provenance_Topology
 
 ```
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: l00_reality_environment_primitives_cognitive_matrix_repair
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_REPAIR.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_MOC|L00_REALITY_ENVIRONMENT_MOC]]

@@ -1,16 +1,19 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: AMOS POLICY GEOSTRATEGY KERNEL V0
 tags:
-- canon-group/tech-ai
-- canon/framework
-- rscf/claim
-- rscf/provenance
-- rscf/state/source-claim
-- topic/amos-policy-geostrategy-kernel-v0
-- kernel
-- system-scan-agent
-- automation-profiles
-- amos-simulation-kernel-v0-math-foundations
+  - canon-group/tech-ai
+  - canon/framework
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - topic/amos-policy-geostrategy-kernel-v0
+  - kernel
+  - system-scan-agent
+  - automation-profiles
+  - amos-simulation-kernel-v0-math-foundations
 type: data
 source: 11_KNOWLEDGE/kernel
 rscf:
@@ -22,7 +25,7 @@ rscf:
 
 # AMOS POLICY GEOSTRATEGY KERNEL V0
 
-```json
+````json
 {
   "meta": {
     "name": "Policy_Geostrategy_Kernel_vInfinity_SUPER",
@@ -285,4 +288,4 @@ rscf:
 
 ---
 **MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]
-```
+````

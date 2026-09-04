@@ -12,20 +12,20 @@ segment: 25_COGNITIVE_MATRIX/12_GENERATORS
 artifact_kind: NOTE
 path: 25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_PROVENANCE.md
 tags:
-- 12-generators
-- 12_generators
-- amos-os
-- domain/cognitive-matrix
-- canon/universe
-- generators
-- note
-- provenance
-- rscf
-- placeholder_expanded
-- readme
-- validation
-- roadmap
-- promotion-gates
+  - 12-generators
+  - 12_generators
+  - amos-os
+  - domain/cognitive-matrix
+  - canon/universe
+  - generators
+  - note
+  - provenance
+  - rscf
+  - placeholder_expanded
+  - readme
+  - validation
+  - roadmap
+  - promotion-gates
 version: 0.2.0
 updated: '2026-08-27'
 status: PLACEHOLDER_EXPANDED
@@ -102,7 +102,7 @@ Origin architect / steward: **Trang Phan**
 
 System: **AMOS OS**
 
----
+______________________________________________________________________
 
 # 12 Generators Provenance
 
@@ -120,9 +120,9 @@ System: **AMOS OS**
 >
 > **AMOS_CORE target:** `v4.4`
 
----
+______________________________________________________________________
 
-# 0. Purpose
+## 0. Purpose
 
 `12_GENERATORS/PROVENANCE.md` defines the AMOS provenance contract for Generator definitions, Generator invocations, templates, schemas, source material, dependencies, generated candidates, validation receipts, test receipts, promotions, supersessions, and materialized artifacts.
 
@@ -158,9 +158,9 @@ Which changes invalidate it?
 
 The provenance layer must make these answers recoverable rather than inferred.
 
----
+______________________________________________________________________
 
-# 1. Constitutional provenance law
+## 1. Constitutional provenance law
 
 The primary law is:
 
@@ -191,9 +191,9 @@ LATEST
 != AUTHORITATIVE
 ```
 
----
+______________________________________________________________________
 
-# 2. Provenance is not truth
+## 2. Provenance is not truth
 
 Provenance answers:
 
@@ -224,9 +224,9 @@ PROVENANCE_VALID
 
 Both may be required for promotion.
 
----
+______________________________________________________________________
 
-# 3. Provenance is not authority
+## 3. Provenance is not authority
 
 A valid lineage record cannot create authority.
 
@@ -243,15 +243,15 @@ KNOWN_ORIGIN
 
 Authority must remain a separate governance dimension.
 
----
+______________________________________________________________________
 
-# 4. Provenance object
+## 4. Provenance object
 
 A Generator provenance record is modeled as:
 
-[
+\[
 P =
-\langle
+\\langle
 Artifact,
 Generator,
 Invocation,
@@ -264,20 +264,20 @@ State,
 Receipts,
 Epochs,
 Lineage
-\rangle
-]
+\\rangle
+\]
 
 A minimal provenance graph is:
 
-[
+\[
 G_P = (V_P,E_P)
-]
+\]
 
 where nodes are provenance-bearing entities and edges are typed derivation relationships.
 
----
+______________________________________________________________________
 
-# 5. Provenance node classes
+## 5. Provenance node classes
 
 ```yaml
 provenance_node_classes:
@@ -347,9 +347,9 @@ provenance_node_classes:
       rollback relationship
 ```
 
----
+______________________________________________________________________
 
-# 6. Provenance edge ontology
+## 6. Provenance edge ontology
 
 Every material lineage edge should be typed.
 
@@ -390,9 +390,9 @@ RELATED_TO
 
 should not be relied upon for load-bearing provenance.
 
----
+______________________________________________________________________
 
-# 7. Typed provenance record
+## 7. Typed provenance record
 
 ```yaml
 generator_provenance_record:
@@ -479,9 +479,9 @@ generator_provenance_record:
     UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 8. Minimal provenance requirements
+## 8. Minimal provenance requirements
 
 At minimum, every consequential candidate should record:
 
@@ -510,9 +510,9 @@ promotion receipts
 materialization receipts
 ```
 
----
+______________________________________________________________________
 
-# 9. Provenance completeness classes
+## 9. Provenance completeness classes
 
 ```yaml
 provenance_completeness:
@@ -556,9 +556,9 @@ provenance_completeness:
 
 These are provisional maturity classes.
 
----
+______________________________________________________________________
 
-# 10. Provenance confidence
+## 10. Provenance confidence
 
 Provenance confidence concerns whether lineage is accurately reconstructed.
 
@@ -572,9 +572,9 @@ confidence:
 
 A source can be perfectly traced and completely wrong.
 
----
+______________________________________________________________________
 
-# 11. Source identity
+## 11. Source identity
 
 Each source should bind an exact identity where possible:
 
@@ -591,9 +591,9 @@ source_identity:
 
 Names alone are insufficient for critical lineage.
 
----
+______________________________________________________________________
 
-# 12. Source epistemic type
+## 12. Source epistemic type
 
 The provenance record should retain:
 
@@ -608,9 +608,9 @@ UNKNOWN
 
 A Generator must not flatten these to generic `source`.
 
----
+______________________________________________________________________
 
-# 13. Ancestry-root identity
+## 13. Ancestry-root identity
 
 Each source should resolve toward an effective root when possible.
 
@@ -636,27 +636,27 @@ not:
 {A, A1, A2, A3, A4}
 ```
 
----
+______________________________________________________________________
 
-# 14. Independence rule
+## 14. Independence rule
 
 Two evidence paths are independent only if their material load-bearing ancestry does not collapse to the same origin.
 
 Conceptually:
 
-[
+\[
 Independent(A,B)
-\Rightarrow
-Roots(A)\cap Roots(B)=\emptyset
-]
+\\Rightarrow
+Roots(A)\\cap Roots(B)=\\emptyset
+\]
 
 subject to deeper hidden-correlation analysis.
 
 Absence of known shared ancestry is not itself proof of independence.
 
----
+______________________________________________________________________
 
-# 15. Independence status ontology
+## 15. Independence status ontology
 
 Use:
 
@@ -675,9 +675,9 @@ UNKNOWN
 → INDEPENDENT
 ```
 
----
+______________________________________________________________________
 
-# 16. Provenance Sybil hardening
+## 16. Provenance Sybil hardening
 
 A provenance Sybil attack attempts to create apparent support by duplicating a root through many aliases.
 
@@ -692,30 +692,28 @@ one source
 
 AMOS should collapse them to effective ancestry.
 
----
+______________________________________________________________________
 
-# 17. Sybil-resistant support count
+## 17. Sybil-resistant support count
 
 Naive:
 
-[
+\[
 Support = Count(Files)
-]
+\]
 
 AMOS-style:
 
-[
-EffectiveSupport
-================
+## \[ EffectiveSupport
 
 Count(IndependentAncestryRoots)
-]
+\]
 
 subject to quality/scope/regime constraints.
 
----
+______________________________________________________________________
 
-# 18. Source alias detection
+## 18. Source alias detection
 
 Possible signals:
 
@@ -731,9 +729,9 @@ shared generation receipt
 
 These signals may indicate correlation but do not always prove identity.
 
----
+______________________________________________________________________
 
-# 19. Generator identity lineage
+## 19. Generator identity lineage
 
 A generated artifact must retain:
 
@@ -750,9 +748,9 @@ This enables:
 which outputs depended on Generator G@V?
 ```
 
----
+______________________________________________________________________
 
-# 20. Generator supersession lineage
+## 20. Generator supersession lineage
 
 When:
 
@@ -775,9 +773,9 @@ generator_supersession:
 
 Newer does not automatically invalidate or supersede older outputs.
 
----
+______________________________________________________________________
 
-# 21. Invocation provenance
+## 21. Invocation provenance
 
 Every invocation should have a stable identity.
 
@@ -792,9 +790,9 @@ invocation:
   completed_at: null
 ```
 
----
+______________________________________________________________________
 
-# 22. Invocation causation
+## 22. Invocation causation
 
 Link:
 
@@ -813,9 +811,9 @@ causation_id
 
 where event infrastructure supports them.
 
----
+______________________________________________________________________
 
-# 23. Template provenance
+## 23. Template provenance
 
 A candidate should identify:
 
@@ -827,9 +825,9 @@ template hash
 
 because template semantics can materially change output even when Generator code is unchanged.
 
----
+______________________________________________________________________
 
-# 24. Template ancestry
+## 24. Template ancestry
 
 A template may itself derive from:
 
@@ -842,9 +840,9 @@ previous template
 
 These edges should remain recoverable where load-bearing.
 
----
+______________________________________________________________________
 
-# 25. Schema provenance
+## 25. Schema provenance
 
 Schemas should record:
 
@@ -858,9 +856,9 @@ compatibility
 
 Silent schema drift should invalidate dependent receipts where semantic meaning changes.
 
----
+______________________________________________________________________
 
-# 26. Dependency provenance
+## 26. Dependency provenance
 
 Dependencies should distinguish:
 
@@ -873,24 +871,22 @@ COSMETIC
 
 This allows local invalidation.
 
----
+______________________________________________________________________
 
-# 27. Dependency closure provenance
+## 27. Dependency closure provenance
 
-For artifact \(A\):
+For artifact (A):
 
-[
-Closure(A)
-==========
+## \[ Closure(A)
 
-{d : d\text{ can materially invalidate }A}
-]
+{d : d\\text{ can materially invalidate }A}
+\]
 
 Provenance should make this set inspectable.
 
----
+______________________________________________________________________
 
-# 28. Transformation provenance
+## 28. Transformation provenance
 
 Every material transformation should be typed.
 
@@ -917,9 +913,9 @@ PROCESS
 
 for critical lineage.
 
----
+______________________________________________________________________
 
-# 29. Derived-content boundary
+## 29. Derived-content boundary
 
 A Generator that summarizes Source A produces:
 
@@ -931,9 +927,9 @@ not an independent observation.
 
 This classification should persist through downstream generations unless independently revalidated.
 
----
+______________________________________________________________________
 
-# 30. Chain-of-derivation
+## 30. Chain-of-derivation
 
 Example:
 
@@ -951,9 +947,9 @@ Artifact A
 
 The full path should be recoverable.
 
----
+______________________________________________________________________
 
-# 31. Provenance epochs
+## 31. Provenance epochs
 
 AMOS may bind provenance state to:
 
@@ -974,9 +970,9 @@ provenance_epoch:
 
 This is a structural model unless runtime support exists.
 
----
+______________________________________________________________________
 
-# 32. Causal epoch relationship
+## 32. Causal epoch relationship
 
 A causal epoch may be relevant for finality/order.
 
@@ -989,9 +985,9 @@ PROVENANCE_EPOCH
 
 unless implementation explicitly equates them.
 
----
+______________________________________________________________________
 
-# 33. Policy epoch provenance
+## 33. Policy epoch provenance
 
 For governance-sensitive outputs, capture:
 
@@ -1001,9 +997,9 @@ policy_epoch
 
 so future audits can determine which routing/generation/promotion rules applied.
 
----
+______________________________________________________________________
 
-# 34. State provenance
+## 34. State provenance
 
 For state-dependent generation:
 
@@ -1016,9 +1012,9 @@ state_provenance:
 
 This binds the candidate to the state it actually observed.
 
----
+______________________________________________________________________
 
-# 35. MVCC provenance
+## 35. MVCC provenance
 
 Conceptually:
 
@@ -1039,9 +1035,9 @@ commit version
 
 where applicable.
 
----
+______________________________________________________________________
 
-# 36. CAS lineage
+## 36. CAS lineage
 
 If CAS fails:
 
@@ -1058,9 +1054,9 @@ STALE_GENERATION
 
 and retain lineage of the rejected candidate if useful for audit.
 
----
+______________________________________________________________________
 
-# 37. Provenance for failed generation
+## 37. Provenance for failed generation
 
 Failed attempts may still require provenance.
 
@@ -1076,9 +1072,9 @@ failed_generation:
 
 Failure evidence should not disappear simply because no artifact was admitted.
 
----
+______________________________________________________________________
 
-# 38. Provenance for dry runs
+## 38. Provenance for dry runs
 
 Dry-run records must state:
 
@@ -1094,9 +1090,9 @@ SIMULATION_RECEIPT
 != MATERIALIZATION_RECEIPT
 ```
 
----
+______________________________________________________________________
 
-# 39. Materialization provenance
+## 39. Materialization provenance
 
 If a Worker writes a candidate:
 
@@ -1113,9 +1109,9 @@ materialization:
 
 This creates effect lineage.
 
----
+______________________________________________________________________
 
-# 40. Agent provenance
+## 40. Agent provenance
 
 If an Agent proposed generation:
 
@@ -1133,9 +1129,9 @@ AGENT_PROPOSED
 != INFRASTRUCTURE_AUTHORIZED
 ```
 
----
+______________________________________________________________________
 
-# 41. Skill provenance
+## 41. Skill provenance
 
 If a Skill triggered generation:
 
@@ -1148,9 +1144,9 @@ skill_invocation:
 
 Skill lineage should not replace Generator lineage; both should be preserved.
 
----
+______________________________________________________________________
 
-# 42. Engine provenance
+## 42. Engine provenance
 
 If Generator behavior passes through an Engine:
 
@@ -1162,9 +1158,9 @@ Skill
 
 record all load-bearing identities.
 
----
+______________________________________________________________________
 
-# 43. Kernel provenance
+## 43. Kernel provenance
 
 For deterministic kernels materially affecting output:
 
@@ -1177,9 +1173,9 @@ kernel_dependency:
 
 Do not record every irrelevant utility if it cannot alter output semantics.
 
----
+______________________________________________________________________
 
-# 44. Worker provenance
+## 44. Worker provenance
 
 Durable effects require explicit executor lineage.
 
@@ -1190,9 +1186,9 @@ proposal producer
 
 The provenance graph should make that distinction visible.
 
----
+______________________________________________________________________
 
-# 45. Event provenance
+## 45. Event provenance
 
 Event chain:
 
@@ -1216,9 +1212,9 @@ producer
 timestamp
 ```
 
----
+______________________________________________________________________
 
-# 46. Event Bus boundary
+## 46. Event Bus boundary
 
 The Event Bus carries provenance metadata.
 
@@ -1229,9 +1225,9 @@ EVENT_CHAIN_COMPLETE
 != AUTHORIZATION
 ```
 
----
+______________________________________________________________________
 
-# 47. Validation receipt provenance
+## 47. Validation receipt provenance
 
 A validation receipt should bind:
 
@@ -1246,9 +1242,9 @@ timestamp/freshness
 
 A receipt without target identity is insufficient for consequential reuse.
 
----
+______________________________________________________________________
 
-# 48. Test receipt provenance
+## 48. Test receipt provenance
 
 A test receipt should bind:
 
@@ -1263,9 +1259,9 @@ result
 
 A passing receipt from G@V1 does not automatically apply to G@V2.
 
----
+______________________________________________________________________
 
-# 49. Promotion receipt provenance
+## 49. Promotion receipt provenance
 
 Promotion receipt should record:
 
@@ -1279,9 +1275,9 @@ read set
 promotion transaction
 ```
 
----
+______________________________________________________________________
 
-# 50. Canon admission provenance
+## 50. Canon admission provenance
 
 Canon admission should preserve:
 
@@ -1303,9 +1299,9 @@ must remain distinguishable from
 CANON_CANDIDATE
 ```
 
----
+______________________________________________________________________
 
-# 51. RSCF integration
+## 51. RSCF integration
 
 Generated claims should carry RSCF-aligned provenance:
 
@@ -1320,9 +1316,9 @@ rscf_provenance:
   falsifiers: []
 ```
 
----
+______________________________________________________________________
 
-# 52. RSCF dependency invalidation
+## 52. RSCF dependency invalidation
 
 If a provenance-linked premise fails:
 
@@ -1332,9 +1328,9 @@ invalidate dependent RSCF conclusions
 
 not unrelated claims.
 
----
+______________________________________________________________________
 
-# 53. GMEF integration
+## 53. GMEF integration
 
 Governance provenance should record:
 
@@ -1346,9 +1342,9 @@ which policy epoch governed
 
 where actual governance infrastructure exists.
 
----
+______________________________________________________________________
 
-# 54. H/M/L provenance
+## 54. H/M/L provenance
 
 Provenance should preserve the level at which evidence applies.
 
@@ -1361,9 +1357,9 @@ hml_provenance:
 
 An L-level observation cannot silently become H-level system evidence.
 
----
+______________________________________________________________________
 
-# 55. Cross-scale provenance firewall
+## 55. Cross-scale provenance firewall
 
 Example:
 
@@ -1380,9 +1376,9 @@ H-level architecture validated
 
 Provenance should make the scale transition visible.
 
----
+______________________________________________________________________
 
-# 56. Scope provenance
+## 56. Scope provenance
 
 Every important source or conclusion should preserve applicability:
 
@@ -1395,9 +1391,9 @@ scope:
   assumptions: []
 ```
 
----
+______________________________________________________________________
 
-# 57. Regime provenance
+## 57. Regime provenance
 
 Record:
 
@@ -1411,9 +1407,9 @@ regime:
 
 A regime shift may invalidate downstream conclusions.
 
----
+______________________________________________________________________
 
-# 58. Freshness provenance
+## 58. Freshness provenance
 
 Each load-bearing node may carry:
 
@@ -1425,9 +1421,9 @@ refresh_requirement
 
 Freshness should be typed.
 
----
+______________________________________________________________________
 
-# 59. Freshness inheritance
+## 59. Freshness inheritance
 
 If Artifact A depends on Source S and S expires:
 
@@ -1437,25 +1433,25 @@ A may become stale
 
 unless S is independently refreshed/revalidated.
 
----
+______________________________________________________________________
 
-# 60. Confidence inheritance
+## 60. Confidence inheritance
 
 If generated claim C depends on load-bearing premise P:
 
-[
+\[
 Confidence(C)
-\le
+\\le
 Confidence(P)
-]
+\]
 
 unless independent evidence raises the ceiling legitimately.
 
 Generation cannot raise the ceiling by reformulation.
 
----
+______________________________________________________________________
 
-# 61. Provenance graph integrity
+## 61. Provenance graph integrity
 
 The graph should reject or surface:
 
@@ -1468,9 +1464,9 @@ unversioned semantic changes
 unknown edge types
 ```
 
----
+______________________________________________________________________
 
-# 62. Cycles
+## 62. Cycles
 
 Some provenance graphs may contain feedback.
 
@@ -1483,9 +1479,9 @@ B DERIVED_FROM A
 
 should be treated as suspicious unless explicitly justified.
 
----
+______________________________________________________________________
 
-# 63. Equivocation detection
+## 63. Equivocation detection
 
 Same source identity with incompatible content hashes:
 
@@ -1499,9 +1495,9 @@ hash = H2
 
 without version change is an equivocation/drift signal.
 
----
+______________________________________________________________________
 
-# 64. Artifact identity collision
+## 64. Artifact identity collision
 
 Two artifacts with same canonical identity but incompatible hashes require:
 
@@ -1511,9 +1507,9 @@ CONFLICT
 
 not silent replacement.
 
----
+______________________________________________________________________
 
-# 65. Provenance conflict state
+## 65. Provenance conflict state
 
 Use:
 
@@ -1527,9 +1523,9 @@ STALE
 
 rather than forcing a clean lineage when evidence is inconsistent.
 
----
+______________________________________________________________________
 
-# 66. Supersession provenance
+## 66. Supersession provenance
 
 Supersession must record:
 
@@ -1545,9 +1541,9 @@ supersession:
   invalidated_claims: []
 ```
 
----
+______________________________________________________________________
 
-# 67. No timestamp supersession
+## 67. No timestamp supersession
 
 Hard rule:
 
@@ -1558,9 +1554,9 @@ newer timestamp
 
 Explicit lineage is required.
 
----
+______________________________________________________________________
 
-# 68. Rollback provenance
+## 68. Rollback provenance
 
 Rollback should record:
 
@@ -1574,9 +1570,9 @@ rollback:
   receipt_id: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 69. Provenance retention after rollback
+## 69. Provenance retention after rollback
 
 Rolled-back state should remain auditable.
 
@@ -1590,9 +1586,9 @@ failed commit
 
 from lineage history.
 
----
+______________________________________________________________________
 
-# 70. Provenance invalidation model
+## 70. Provenance invalidation model
 
 A provenance node can become:
 
@@ -1606,9 +1602,9 @@ QUARANTINED
 
 without deleting the historical record.
 
----
+______________________________________________________________________
 
-# 71. Selective invalidation
+## 71. Selective invalidation
 
 Given:
 
@@ -1627,9 +1623,9 @@ preserve C
 
 This is core AMOS repair behavior.
 
----
+______________________________________________________________________
 
-# 72. Provenance tombstones
+## 72. Provenance tombstones
 
 Deleted/superseded critical artifacts may retain tombstone metadata:
 
@@ -1642,9 +1638,9 @@ tombstone:
   successor: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 73. Provenance persistence
+## 73. Provenance persistence
 
 Critical provenance should survive:
 
@@ -1658,9 +1654,9 @@ migration
 
 to preserve auditability.
 
----
+______________________________________________________________________
 
-# 74. Provenance storage model
+## 74. Provenance storage model
 
 Possible conceptual layers:
 
@@ -1676,9 +1672,9 @@ validation/promotion receipts
 
 Exact implementation remains `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
-# 75. Artifact-local provenance header
+## 75. Artifact-local provenance header
 
 Candidate Markdown artifacts may carry:
 
@@ -1696,9 +1692,9 @@ provenance:
 
 when suitable.
 
----
+______________________________________________________________________
 
-# 76. Provenance registry
+## 76. Provenance registry
 
 Potential entry:
 
@@ -1725,9 +1721,9 @@ provenance_registry_entry:
   updated_at: null
 ```
 
----
+______________________________________________________________________
 
-# 77. Registry is not truth
+## 77. Registry is not truth
 
 Hard boundary:
 
@@ -1738,9 +1734,9 @@ IN_PROVENANCE_REGISTRY
 
 Registry content itself needs integrity validation.
 
----
+______________________________________________________________________
 
-# 78. Provenance receipt
+## 78. Provenance receipt
 
 ```yaml
 generator_provenance_receipt:
@@ -1781,9 +1777,9 @@ generator_provenance_receipt:
     UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 79. Receipt chain
+## 79. Receipt chain
 
 Receipts may form:
 
@@ -1797,9 +1793,9 @@ generation receipt
 
 Each has distinct semantics.
 
----
+______________________________________________________________________
 
-# 80. Receipt substitution prohibition
+## 80. Receipt substitution prohibition
 
 ```text
 GENERATION_RECEIPT
@@ -1815,9 +1811,9 @@ cannot substitute for
 FINALITY_RECEIPT
 ```
 
----
+______________________________________________________________________
 
-# 81. Replay requirements
+## 81. Replay requirements
 
 Replayable provenance requires enough information to recover:
 
@@ -1833,9 +1829,9 @@ environment
 
 where legally/technically permitted.
 
----
+______________________________________________________________________
 
-# 82. Replay boundary
+## 82. Replay boundary
 
 Replay success shows:
 
@@ -1849,24 +1845,24 @@ not:
 universal correctness
 ```
 
----
+______________________________________________________________________
 
-# 83. Deterministic replay provenance
+## 83. Deterministic replay provenance
 
 For deterministic Generator:
 
-[
+\[
 Same(Input,Version,Context)
-\Rightarrow Same(Output)
-]
+\\Rightarrow Same(Output)
+\]
 
 subject to declared normalized fields.
 
 Store enough provenance to test this property.
 
----
+______________________________________________________________________
 
-# 84. Stochastic provenance
+## 84. Stochastic provenance
 
 For stochastic generation, record:
 
@@ -1879,9 +1875,9 @@ declared randomness/configuration where available
 
 but do not imply byte-level replay if unsupported.
 
----
+______________________________________________________________________
 
-# 85. Provenance of reasoning
+## 85. Provenance of reasoning
 
 Do not store or require hidden chain-of-thought.
 
@@ -1898,9 +1894,9 @@ decisions
 
 not inaccessible private reasoning traces.
 
----
+______________________________________________________________________
 
-# 86. Privacy-aware provenance
+## 86. Privacy-aware provenance
 
 Provenance should avoid unnecessary sensitive content duplication.
 
@@ -1914,9 +1910,9 @@ access-controlled reference
 
 over copying private source payloads into many records.
 
----
+______________________________________________________________________
 
-# 87. Access control
+## 87. Access control
 
 Provenance visibility may differ from artifact visibility.
 
@@ -1931,9 +1927,9 @@ regulated data lineage
 
 Exact access policy remains `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
-# 88. License/IP provenance
+## 88. License/IP provenance
 
 Where relevant, record:
 
@@ -1947,9 +1943,9 @@ ip_provenance:
 
 Do not infer legal permission from technical accessibility.
 
----
+______________________________________________________________________
 
-# 89. Knowledge-harvest integration
+## 89. Knowledge-harvest integration
 
 AMOS knowledge-harvest path:
 
@@ -1961,9 +1957,9 @@ Ephemeral Code
 
 Generator provenance should preserve the lineage of each transition rather than collapsing them.
 
----
+______________________________________________________________________
 
-# 90. Documentation claim status
+## 90. Documentation claim status
 
 README/documentation claims remain:
 
@@ -1975,9 +1971,9 @@ until independently validated.
 
 Provenance can show where the claim came from; it cannot promote it.
 
----
+______________________________________________________________________
 
-# 91. Provenance validation classes
+## 91. Provenance validation classes
 
 ```yaml
 provenance_validation:
@@ -2032,9 +2028,9 @@ provenance_validation:
       - reproducibility evidence
 ```
 
----
+______________________________________________________________________
 
-# 92. Provenance validation result
+## 92. Provenance validation result
 
 ```yaml
 provenance_validation_result:
@@ -2054,9 +2050,9 @@ provenance_validation_result:
     UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 93. Provenance tests
+## 93. Provenance tests
 
 Required test categories:
 
@@ -2080,9 +2076,9 @@ replay
 selective invalidation
 ```
 
----
+______________________________________________________________________
 
-# 94. Constitutional provenance tests
+## 94. Constitutional provenance tests
 
 ```text
 T-GPROV-001
@@ -2135,9 +2131,9 @@ source X invalidated
 → only descendants of X invalidated
 ```
 
----
+______________________________________________________________________
 
-# 95. Adversarial provenance tests
+## 95. Adversarial provenance tests
 
 Attempt:
 
@@ -2158,9 +2154,9 @@ rollback erasure
 
 The provenance subsystem should expose or quarantine inconsistencies.
 
----
+______________________________________________________________________
 
-# 96. Failure modes
+## 96. Failure modes
 
 ```yaml
 failure_modes:
@@ -2246,9 +2242,9 @@ failure_modes:
       same identity resolves to incompatible unversioned hashes
 ```
 
----
+______________________________________________________________________
 
-# 97. Repair workflow
+## 97. Repair workflow
 
 ```text
 PROVENANCE FAILURE
@@ -2268,9 +2264,9 @@ REBUILD MINIMUM NECESSARY EDGES
 REVALIDATE DESCENDANTS
 ```
 
----
+______________________________________________________________________
 
-# 98. Repair classes
+## 98. Repair classes
 
 ```text
 RESTORE_SOURCE_REF
@@ -2285,9 +2281,9 @@ REPAIR_ROLLBACK_LINEAGE
 QUARANTINE_CORRUPT_BRANCH
 ```
 
----
+______________________________________________________________________
 
-# 99. Local reroute / regeneration
+## 99. Local reroute / regeneration
 
 If provenance for one source branch becomes invalid:
 
@@ -2297,9 +2293,9 @@ re-resolve only affected source branch
 
 rather than regenerating every artifact globally.
 
----
+______________________________________________________________________
 
-# 100. Fast-path provenance reuse
+## 100. Fast-path provenance reuse
 
 Reuse provenance proof only when:
 
@@ -2313,9 +2309,9 @@ freshness valid
 no conflict introduced
 ```
 
----
+______________________________________________________________________
 
-# 101. Fast-path invalidation
+## 101. Fast-path invalidation
 
 Escalate if:
 
@@ -2330,9 +2326,9 @@ critical dependency change
 receipt mismatch
 ```
 
----
+______________________________________________________________________
 
-# 102. Provenance Agents
+## 102. Provenance Agents
 
 Possible roles:
 
@@ -2362,9 +2358,9 @@ Searches for Sybil, laundering, or lineage stripping.
 
 Agents propose interpretations/evidence; they do not confer provenance authority.
 
----
+______________________________________________________________________
 
-# 103. Provenance Skills
+## 103. Provenance Skills
 
 Potential Skills:
 
@@ -2383,9 +2379,9 @@ invalidate-provenance-descendants
 audit-supersession
 ```
 
----
+______________________________________________________________________
 
-# 104. Provenance Engine layer
+## 104. Provenance Engine layer
 
 Possible engines:
 
@@ -2401,9 +2397,9 @@ Replay Provenance Engine
 
 These remain model-level roles until implementation is recovered.
 
----
+______________________________________________________________________
 
-# 105. Provenance kernels
+## 105. Provenance kernels
 
 Candidate deterministic kernels:
 
@@ -2421,9 +2417,9 @@ invalidate_descendants()
 compute_provenance_graph_hash()
 ```
 
----
+______________________________________________________________________
 
-# 106. Worker boundary
+## 106. Worker boundary
 
 Provenance recording for durable effects may require bounded Workers.
 
@@ -2442,9 +2438,9 @@ Worker
 
 No Agent or Generator should silently rewrite authoritative lineage history.
 
----
+______________________________________________________________________
 
-# 107. Provenance event taxonomy
+## 107. Provenance event taxonomy
 
 Suggested:
 
@@ -2462,9 +2458,9 @@ ROLLBACK_RECORDED
 PROVENANCE_RECEIPT_EMITTED
 ```
 
----
+______________________________________________________________________
 
-# 108. Provenance event envelope
+## 108. Provenance event envelope
 
 ```yaml
 provenance_event:
@@ -2489,9 +2485,9 @@ provenance_event:
   timestamp: null
 ```
 
----
+______________________________________________________________________
 
-# 109. Provenance workflow
+## 109. Provenance workflow
 
 ```text
 GENERATION REQUEST
@@ -2517,9 +2513,9 @@ PROMOTION
 SUPERSESSION / FINALITY / ROLLBACK
 ```
 
----
+______________________________________________________________________
 
-# 110. Provenance promotion relationship
+## 110. Provenance promotion relationship
 
 A candidate lacking required provenance should not become promotion-eligible.
 
@@ -2530,9 +2526,9 @@ PROVENANCE_INCOMPLETE
 
 where provenance is load-bearing.
 
----
+______________________________________________________________________
 
-# 111. Routing relationship
+## 111. Routing relationship
 
 `10_ROUTING` may use provenance to:
 
@@ -2545,9 +2541,9 @@ avoid incompatible Generator
 
 Routing should not invent missing provenance.
 
----
+______________________________________________________________________
 
-# 112. Validation relationship
+## 112. Validation relationship
 
 `12_GENERATORS/VALIDATION.md` should validate provenance as one distinct class.
 
@@ -2562,39 +2558,39 @@ SEMANTIC_PASS
 EPISTEMIC_PASS
 ```
 
----
+______________________________________________________________________
 
-# 113. Tests relationship
+## 113. Tests relationship
 
 `12_GENERATORS/TESTS.md` should contain provenance constitutional tests.
 
 This file defines the semantics those tests should enforce.
 
----
+______________________________________________________________________
 
-# 114. Roadmap relationship
+## 114. Roadmap relationship
 
 `12_GENERATORS/ROADMAP.md` should sequence provenance infrastructure before authoritative Generator materialization and mature deployment.
 
----
+______________________________________________________________________
 
-# 115. Generator contract relationship
+## 115. Generator contract relationship
 
 `GENERATOR_CONTRACT.md` should declare provenance obligations.
 
 This artifact defines the detailed lineage model.
 
----
+______________________________________________________________________
 
-# 116. Canon relationship
+## 116. Canon relationship
 
 Canon artifacts should retain their pre-admission provenance.
 
 Admission must not erase candidate history.
 
----
+______________________________________________________________________
 
-# 117. Finality relationship
+## 117. Finality relationship
 
 Finality may lock a state transition while provenance remains persistent.
 
@@ -2605,9 +2601,9 @@ must retain lineage
 
 Finality should strengthen audit stability, not erase history.
 
----
+______________________________________________________________________
 
-# 118. Audit requirements
+## 118. Audit requirements
 
 A provenance audit should answer:
 
@@ -2621,9 +2617,9 @@ Is supersession explicit?
 Are stale branches marked?
 ```
 
----
+______________________________________________________________________
 
-# 119. Provenance observability
+## 119. Provenance observability
 
 Potential metrics:
 
@@ -2641,17 +2637,17 @@ rollback_lineage_gap_rate
 
 Operational metrics are not proof of universal provenance correctness.
 
----
+______________________________________________________________________
 
-# 120. Provenance completeness metric
+## 120. Provenance completeness metric
 
 A provisional metric:
 
-[
+\[
 Completeness =
-\frac{KnownRequiredLineageEdges}
+\\frac{KnownRequiredLineageEdges}
 {DeclaredRequiredLineageEdges}
-]
+\]
 
 Hard boundary:
 
@@ -2660,9 +2656,9 @@ Completeness = 1.0
 != lineage truth proven
 ```
 
----
+______________________________________________________________________
 
-# 121. Security threats
+## 121. Security threats
 
 Provenance-specific threats include:
 
@@ -2678,9 +2674,9 @@ silent supersession
 rollback history deletion
 ```
 
----
+______________________________________________________________________
 
-# 122. Provenance tamper evidence
+## 122. Provenance tamper evidence
 
 Potential mechanisms may include:
 
@@ -2694,9 +2690,9 @@ version history
 
 No one mechanism should be claimed implemented without evidence.
 
----
+______________________________________________________________________
 
-# 123. Provenance privacy threat
+## 123. Provenance privacy threat
 
 Over-recording can leak:
 
@@ -2709,9 +2705,9 @@ restricted datasets
 
 Prefer least-necessary provenance payload plus secure references.
 
----
+______________________________________________________________________
 
-# 124. Falsifiers
+## 124. Falsifiers
 
 This placeholder can be falsified by:
 
@@ -2734,9 +2730,9 @@ actual canon admission pipeline defines additional mandatory lineage fields
 
 Successful falsification requires revision/supersession.
 
----
+______________________________________________________________________
 
-# 125. Source / canon references
+## 125. Source / canon references
 
 ```yaml
 source_canon:
@@ -2762,9 +2758,9 @@ source_canon:
     status: UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 126. Dependency graph
+## 126. Dependency graph
 
 ```text
 12_GENERATORS/PROVENANCE
@@ -2803,9 +2799,9 @@ source_canon:
 └── FINALITY_LAYER
 ```
 
----
+______________________________________________________________________
 
-# 127. Related artifacts
+## 127. Related artifacts
 
 ```yaml
 related:
@@ -2863,9 +2859,9 @@ related:
     UNVERIFIED
 ```
 
----
+______________________________________________________________________
 
-# 128. Relation ontology
+## 128. Relation ontology
 
 ```text
 GENERATED_BY
@@ -2890,9 +2886,9 @@ ROLLBACK_TO
 INVALIDATES
 ```
 
----
+______________________________________________________________________
 
-# 129. RSCF completion state
+## 129. RSCF completion state
 
 ```yaml
 rscf:
@@ -2960,9 +2956,9 @@ rscf:
     PLACEHOLDER
 ```
 
----
+______________________________________________________________________
 
-# 130. GMEF completion state
+## 130. GMEF completion state
 
 ```yaml
 gmef:
@@ -3007,9 +3003,9 @@ gmef:
     UNFINALIZED
 ```
 
----
+______________________________________________________________________
 
-# 131. Named invariants
+## 131. Named invariants
 
 ```text
 I-GPROV-SOURCE-ANCESTRY-PRESERVED
@@ -3037,9 +3033,9 @@ I-GPROV-SELECTIVE-INVALIDATION
 Only descendants of invalidated load-bearing nodes are invalidated by default.
 ```
 
----
+______________________________________________________________________
 
-# 132. Provenance proof capsule
+## 132. Provenance proof capsule
 
 ```yaml
 proof_capsule:
@@ -3080,9 +3076,9 @@ proof_capsule:
     - receipt mismatch discovered
 ```
 
----
+______________________________________________________________________
 
-# 133. Completion status
+## 133. Completion status
 
 ```yaml
 completion_status:
@@ -3180,9 +3176,9 @@ completion_status:
     status: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 134. Gap registry
+## 134. Gap registry
 
 ```yaml
 gaps:
@@ -3216,9 +3212,9 @@ gaps:
     - formatting
 ```
 
----
+______________________________________________________________________
 
-# 135. Hard boundaries
+## 135. Hard boundaries
 
 ```text
 PLACEHOLDER != IMPLEMENTED
@@ -3264,9 +3260,9 @@ UNKNOWN_ROOT != INDEPENDENT_ROOT
 UNKNOWN/GAP != PASS
 ```
 
----
+______________________________________________________________________
 
-# 136. Current decision
+## 136. Current decision
 
 ```yaml
 decision:
@@ -3308,9 +3304,9 @@ decision:
     - promote generated canon using lineage alone
 ```
 
----
+______________________________________________________________________
 
-# 137. Final conclusion
+## 137. Final conclusion
 
 **Claim**
 
@@ -3406,7 +3402,7 @@ UNKNOWN/GAP
 NON_AUTHORITATIVE
 ```
 
-```
+````
 
 The intended separation across `12_GENERATORS` is now:
 
@@ -3434,25 +3430,28 @@ CONTROL PLANE / AUTHORITY
 
 WORKER
 → bounded durable execution
-```
+````
 
 That makes provenance a durable infrastructure dimension rather than a decorative metadata field, while keeping the critical AMOS boundary intact: **traceability can support trust, but it does not manufacture truth, independence, authority, or canon.**
 
----
-**Related:**  ·  ·  ·
+______________________________________________________________________
 
----
+**Related:** · · ·
+
+______________________________________________________________________
+
 RSCF-NODE
 node_id: generators_provenance
 node_type: note
 path: 25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_PROVENANCE.md
 RSCF-RELATIONS:
-  - INDEXED_BY:
-  - INDEXED_BY:
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY:
+- INDEXED_BY:
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:**
-
 
 ```

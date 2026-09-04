@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Vault Domain Knowledge — Amos Observability Driven Harness Evolution Rscf
 type: reference
 source: 07_SKILLS/amos-observability-driven-harness-evolution-rscf/references
 tags:
-- reference
-- amos-observability-driven-harness-evolution-rscf
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-observability-driven-harness-evolution-rscf
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -28,131 +31,130 @@ rscf:
 > Path: `architecture/goal_driven_ai_architecture_ontology.md` | Size: 9984 chars | Match score: 13
 
 {
-  "metadata": {
-    "title": "Goal-Driven AI Architecture Ontology",
-    "version": "1.0",
-    "purpose": "Teach the generator what to generate from a goal, not just how to permute fields.",
-    "core_equation": "S_next = C(F(S, U))"
-  },
-  "goal_taxonomy": {
-    "reasoning": {
-      "description": "Solve, infer, compare, explain, prove, or decide.",
-      "required_layers": [
-        "input_perception",
-        "intent_understanding",
-        "working_memory",
-        "recursive_reasoning",
-        "self_evaluation"
-      ],
-      "preferred_equations": [
-        "recursive_refinement",
-        "belief_update",
-        "contradiction_scan",
-        "confidence_calibration"
-      ],
-      "failure_modes": [
-        "hallucination",
-        "looping",
-        "overconfidence",
-        "missing constraint"
-      ],
-      "output_templates": [
-        "analysis_plan",
-        "structured_answer",
-        "decision_tree"
-      ]
-    },
-    "generation": {
-      "description": "Create text, code, design, dataset, schema, image prompt, plan, or artifact.",
-      "required_layers": [
-        "intent_understanding",
-        "planning",
-        "constraint_satisfaction",
-        "generation",
-        "format_validation"
-      ],
-      "preferred_equations": [
-        "compression_expansion",
-        "schema_validity",
-        "novelty_score",
-        "quality_risk_cost"
-      ],
-      "failure_modes": [
-        "generic output",
-        "format break",
-        "low novelty",
-        "unsafe expansion"
-      ],
-      "output_templates": [
-        "artifact_spec",
-        "json_schema",
-        "code_module",
-        "design_blueprint"
-      ]
-    },
-    "retrieval": {
-      "description": "Find, rank, cite, compare, or synthesize knowledge.",
-      "required_layers": [
-        "query_decomposition",
-        "retrieval",
-        "ranking",
-        "source_support",
-        "citation_mapping"
-      ],
-      "preferred_equations": [
-        "retrieval_score",
-        "evidence_matrix",
-        "source_reliability",
-        "conflict_score"
-      ],
-      "failure_modes": [
-        "irrelevant source",
-        "stale knowledge",
-        "unsupported claim",
-        "source conflict"
-      ],
-      "output_templates": [
-        "source_table",
-        "claim_support_map",
-        "synthesis"
-      ]
-    },
-    "agentic_execution": {
-      "description": "Use tools, execute steps, operate workflows, delegate to subagents.",
-      "required_layers": [
-        "planner",
-        "tool_router",
-        "executor",
-        "monitor",
-        "rollback_control"
-      ],
-      "preferred_equations": [
-        "planner_executor",
-        "tool_utility",
-        "risk_gate",
-        "reversibility_score"
-      ],
-      "failure_modes": [
-        "wrong tool",
-        "irreversible action",
-        "hidden cost",
-        "permission error"
-      ],
-      "output_templates": [
-        "execution_plan",
-        "tool_call_plan",
-        "rollback_plan"
-      ]
-    },
+"metadata": {
+"title": "Goal-Driven AI Architecture Ontology",
+"version": "1.0",
+"purpose": "Teach the generator what to generate from a goal, not just how to permute fields.",
+"core_equation": "S_next = C(F(S, U))"
+},
+"goal_taxonomy": {
+"reasoning": {
+"description": "Solve, infer, compare, explain, prove, or decide.",
+"required_layers": \[
+"input_perception",
+"intent_understanding",
+"working_memory",
+"recursive_reasoning",
+"self_evaluation"
+\],
+"preferred_equations": \[
+"recursive_refinement",
+"belief_update",
+"contradiction_scan",
+"confidence_calibration"
+\],
+"failure_modes": \[
+"hallucination",
+"looping",
+"overconfidence",
+"missing constraint"
+\],
+"output_templates": \[
+"analysis_plan",
+"structured_answer",
+"decision_tree"
+\]
+},
+"generation": {
+"description": "Create text, code, design, dataset, schema, image prompt, plan, or artifact.",
+"required_layers": \[
+"intent_understanding",
+"planning",
+"constraint_satisfaction",
+"generation",
+"format_validation"
+\],
+"preferred_equations": \[
+"compression_expansion",
+"schema_validity",
+"novelty_score",
+"quality_risk_cost"
+\],
+"failure_modes": \[
+"generic output",
+"format break",
+"low novelty",
+"unsafe expansion"
+\],
+"output_templates": \[
+"artifact_spec",
+"json_schema",
+"code_module",
+"design_blueprint"
+\]
+},
+"retrieval": {
+"description": "Find, rank, cite, compare, or synthesize knowledge.",
+"required_layers": \[
+"query_decomposition",
+"retrieval",
+"ranking",
+"source_support",
+"citation_mapping"
+\],
+"preferred_equations": \[
+"retrieval_score",
+"evidence_matrix",
+"source_reliability",
+"conflict_score"
+\],
+"failure_modes": \[
+"irrelevant source",
+"stale knowledge",
+"unsupported claim",
+"source conflict"
+\],
+"output_templates": \[
+"source_table",
+"claim_support_map",
+"synthesis"
+\]
+},
+"agentic_execution": {
+"description": "Use tools, execute steps, operate workflows, delegate to subagents.",
+"required_layers": \[
+"planner",
+"tool_router",
+"executor",
+"monitor",
+"rollback_control"
+\],
+"preferred_equations": \[
+"planner_executor",
+"tool_utility",
+"risk_gate",
+"reversibility_score"
+\],
+"failure_modes": \[
+"wrong tool",
+"irreversible action",
+"hidden cost",
+"permission error"
+\],
+"output_templates": \[
+"execution_plan",
+"tool_call_plan",
+"rollback_plan"
+\]
+},
 
-
----
+______________________________________________________________________
 
 ### Source 2: goal_driven_ai_architecture_generator_v2
 
 > Path: `architecture/goal_driven_ai_architecture_generator_v2.md` | Size: 8963 chars | Match score: 13
 
-# goal_driven_ai_architecture_generator_v2
+## goal_driven_ai_architecture_generator_v2
 
 ```python
 #!/usr/bin/env python3
@@ -174,7 +176,7 @@ import json
 from pathlib import Path
 from typing import Optional, Dict, Any
 
-# Import from goal_core module
+## Import from goal_core module
 try:
     from goal_core import (
         GoalDrivenGenerator, GoalOntology, GoalParser,
@@ -279,9 +281,9 @@ import uuid
 import time
 
 
-# ============================================================
-# 0. META / CONFIG
-# ============================================================
+## ============================================================
+## 0. META / CONFIG
+## ============================================================
 
 AMOS_VERSION = "3.0.0-clean"
 
@@ -311,9 +313,9 @@ class AmosConfig:
 GLOBAL_CONFIG = AmosConfig()
 
 
-# ============================================================
-# 1. CORE-19 LOGIC KERNEL
-# ============================================================
+## ============================================================
+## 1. CORE-19 LOGIC KERNEL
+## ============================================================
 
 class NodeType(Enum):
     # Base logical structure
@@ -364,10 +366,9 @@ class Formula:
 -
 ```
 
----
+______________________________________________________________________
 
-**Related:** [[07_SKILLS/amos-observability-driven-harness-evolution-rscf/amos-observability-driven-harness-evolution-rscf_MOC|amos-observability-driven-harness-evolution-rscf_MOC]]
----
+## **Related:** [[07_SKILLS/amos-observability-driven-harness-evolution-rscf/amos-observability-driven-harness-evolution-rscf_MOC|amos-observability-driven-harness-evolution-rscf_MOC]]
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -375,13 +376,14 @@ class Formula:
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-observability-driven-harness-evolution-rscf-vault-domain-knowledge
 node_type: reference
 path: 07_SKILLS/amos-observability-driven-harness-evolution-rscf/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC
-

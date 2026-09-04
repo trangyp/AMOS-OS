@@ -12,34 +12,34 @@ segment: 25_COGNITIVE_MATRIX
 artifact_kind: MATRIX_TABLE
 path: 25_COGNITIVE_MATRIX/UBI_X_EMOTION_MATRIX.md
 tags:
-- amos-os
-- cognitive-matrix
-- vault
-- ubi_x_emotion_matrix
-- matrix_table
-- affective_state
-- cognitive_control
-- cross-plane
-- emotional_governance
-- refusal_firewall
-- metabolic_pacing
-- gamma_coherence
-- rscf
-- canon_candidate
-- ubi-x-emotion
-- ubi-emotion-binding
-- validation
-- ubi-x-cognition
-- ubi-x-cognition-matrix
-- total-framework-matrix
-- total-kernel-matrix
-- total-canon-matrix
-- k-rscf
-- k-hml
-- k-provenance
-- k-fail-closed
-- k-governed-evolution
-- amos-core-v4-4
+  - amos-os
+  - cognitive-matrix
+  - vault
+  - ubi_x_emotion_matrix
+  - matrix_table
+  - affective_state
+  - cognitive_control
+  - cross-plane
+  - emotional_governance
+  - refusal_firewall
+  - metabolic_pacing
+  - gamma_coherence
+  - rscf
+  - canon_candidate
+  - ubi-x-emotion
+  - ubi-emotion-binding
+  - validation
+  - ubi-x-cognition
+  - ubi-x-cognition-matrix
+  - total-framework-matrix
+  - total-kernel-matrix
+  - total-canon-matrix
+  - k-rscf
+  - k-hml
+  - k-provenance
+  - k-fail-closed
+  - k-governed-evolution
+  - amos-core-v4-4
 version: 2.0.0
 updated: '2026-08-28'
 status: ACTIVE_REFERENCE
@@ -51,22 +51,22 @@ executable_binding: ESTABLISHED
 framework_binding:
   matrix_spec:
     artifact:
-    - - UBI_X_EMOTION
+      -   - UBI_X_EMOTION
   knowledge_binding:
     artifact:
-    - - UBI_EMOTION_BINDING
+      -   - UBI_EMOTION_BINDING
 rscf:
   state: CANON_MATRIX
   claim_class: AMOS_MODEL
   provenance:
-  - 25_COGNITIVE_MATRIX/UBI_X_EMOTION_MATRIX
-  - 11_KNOWLEDGE/05_FRAMEWORKS/UBI_EMOTION_BINDING
-  - AMOS_CORPUS
+    - 25_COGNITIVE_MATRIX/UBI_X_EMOTION_MATRIX
+    - 11_KNOWLEDGE/05_FRAMEWORKS/UBI_EMOTION_BINDING
+    - AMOS_CORPUS
   scope:
-  - COGNITIVE_MATRIX
-  - EMOTION_COGNITION_INTEGRATION
-  - CROSS_PLANE_ROUTING
-  - SOURCE_DEFINED_MODEL
+    - COGNITIVE_MATRIX
+    - EMOTION_COGNITION_INTEGRATION
+    - CROSS_PLANE_ROUTING
+    - SOURCE_DEFINED_MODEL
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   matrix_structure: VERIFIED_SOURCE_STRUCTURE
@@ -149,9 +149,9 @@ $$
 
 No missing variable or target plane is reconstructed merely because a neighboring AMOS artifact makes one candidate appear likely.
 
----
+______________________________________________________________________
 
-# 2. Matrix Schema
+## 2. Matrix Schema
 
 The source directly defines five dimensions:
 
@@ -171,9 +171,9 @@ MATRIX_ROW:
 
 This is the canonical structural schema of the table.
 
----
+______________________________________________________________________
 
-# 3. Three Source-Defined States
+## 3. Three Source-Defined States
 
 ```yaml
 AFFECTIVE_STATES:
@@ -189,9 +189,9 @@ These labels are source-defined AMOS terminology.
 
 They should not automatically be interpreted as medical diagnoses.
 
----
+______________________________________________________________________
 
-# 4. High Threat / Anxiety
+## 4. High Threat / Anxiety
 
 The supplied row is structurally:
 
@@ -223,9 +223,9 @@ HIGH_THREAT_ANXIETY:
     REFUSAL_FIREWALL
 ```
 
----
+______________________________________________________________________
 
-# 5. High-Threat Trigger
+## 5. High-Threat Trigger
 
 The visible mathematical structure is:
 
@@ -233,7 +233,7 @@ $$
 X_H>0.8,\qquad v_t<-0.5
 $$
 
-where \(X_H\) is a placeholder for the missing source variable.
+where (X_H) is a placeholder for the missing source variable.
 
 The comma strongly suggests both conditions belong to the same row predicate, but the supplied source does not preserve an explicit logical operator.
 
@@ -249,9 +249,9 @@ $$
 
 rather than falsely asserting an original `AND` token.
 
----
+______________________________________________________________________
 
-# 6. Strict Boundary at 0.8
+## 6. Strict Boundary at 0.8
 
 The first visible operator is:
 
@@ -273,9 +273,9 @@ $$
 
 does not satisfy the first displayed threshold.
 
----
+______________________________________________________________________
 
-# 7. Strict Negative-Valence Boundary
+## 7. Strict Negative-Valence Boundary
 
 The source explicitly preserves:
 
@@ -291,11 +291,11 @@ $$
 
 does not satisfy that displayed predicate.
 
----
+______________________________________________________________________
 
-# 8. Meaning of \(v_t\)
+## 8. Meaning of (v_t)
 
-The notation \(v_t\) plausibly denotes a time-indexed valence variable.
+The notation (v_t) plausibly denotes a time-indexed valence variable.
 
 However, that semantic expansion is not explicitly present in this artifact.
 
@@ -314,9 +314,9 @@ v_t:
     REQUIRED_FROM_UBI_EMOTION_BINDING
 ```
 
----
+______________________________________________________________________
 
-# 9. High-Threat Cognitive Impact
+## 9. High-Threat Cognitive Impact
 
 The source specifies:
 
@@ -338,9 +338,9 @@ TightenSafetyMargins
 }
 $$
 
----
+______________________________________________________________________
 
-# 10. Speculative-Branch Pruning
+## 10. Speculative-Branch Pruning
 
 The first action narrows speculative reasoning under the source-defined high-threat state.
 
@@ -356,9 +356,9 @@ This is source-grounded.
 
 It does not specify the exact pruning algorithm.
 
----
+______________________________________________________________________
 
-# 11. Tightened Safety Margins
+## 11. Tightened Safety Margins
 
 The second action increases conservatism in the model's decision boundary.
 
@@ -372,9 +372,9 @@ The artifact does not define:
 
 Those remain binding-level dependencies.
 
----
+______________________________________________________________________
 
-# 12. Refusal Firewall
+## 12. Refusal Firewall
 
 The source enforcement guard is:
 
@@ -384,9 +384,9 @@ This establishes the guard's name and association with the high-threat row.
 
 It does not independently specify its implementation.
 
----
+______________________________________________________________________
 
-# 13. Refusal Firewall ≠ Automatic Refusal
+## 13. Refusal Firewall ≠ Automatic Refusal
 
 The presence of a `Refusal Firewall` does not prove that every high-threat condition results in refusal.
 
@@ -400,19 +400,19 @@ HighThreat
 AutomaticRefusal
 $$
 
-unless `` defines that transition.
+unless \`\` defines that transition.
 
----
+______________________________________________________________________
 
-# 14. Refusal Firewall ≠ Platform Safety Policy
+## 14. Refusal Firewall ≠ Platform Safety Policy
 
 The source phrase `Refusal Firewall` is an AMOS model term.
 
 It must not automatically be identified with ChatGPT's actual platform-level safety enforcement mechanisms.
 
----
+______________________________________________________________________
 
-# 15. High-Threat Target Plane Gap
+## 15. High-Threat Target Plane Gap
 
 The Target Plane cell is empty in the supplied source.
 
@@ -432,9 +432,9 @@ HIGH_THREAT_TARGET_PLANE:
     - ""
 ```
 
----
+______________________________________________________________________
 
-# 16. Fatigue / Apathy
+## 16. Fatigue / Apathy
 
 The supplied row normalizes to:
 
@@ -466,9 +466,9 @@ FATIGUE_APATHY:
     METABOLIC_PACING
 ```
 
----
+______________________________________________________________________
 
-# 17. Fatigue Trigger
+## 17. Fatigue Trigger
 
 The visible predicate is:
 
@@ -476,13 +476,13 @@ $$
 X_F<0.2,\qquad\tau_{bio}<0.4
 $$
 
-where \(X_F\) is a placeholder for the missing source variable.
+where (X_F) is a placeholder for the missing source variable.
 
 Do not infer the missing variable from the row label alone.
 
----
+______________________________________________________________________
 
-# 18. Strict Fatigue Boundary
+## 18. Strict Fatigue Boundary
 
 The first condition uses:
 
@@ -498,9 +498,9 @@ $$
 
 does not satisfy the first displayed predicate.
 
----
+______________________________________________________________________
 
-# 19. Tau-Bio Fatigue Boundary
+## 19. Tau-Bio Fatigue Boundary
 
 The source visibly contains:
 
@@ -516,9 +516,9 @@ $$
 
 does not satisfy this displayed predicate.
 
----
+______________________________________________________________________
 
-# 20. Tau-Bio Cross-Artifact Interaction
+## 20. Tau-Bio Cross-Artifact Interaction
 
 The preceding UBI × Cognition specification supplied a distinct distress predicate:
 
@@ -546,9 +546,9 @@ tau_bio < 0.20
 
 The first does not automatically imply the second.
 
----
+______________________________________________________________________
 
-# 21. Nested Tau Region
+## 21. Nested Tau Region
 
 Mathematically:
 
@@ -562,9 +562,9 @@ Therefore every value satisfying the earlier cognition artifact's tau-distress t
 
 But the full Fatigue/Apathy predicate still depends on the missing (X_F\<0.2) condition.
 
----
+______________________________________________________________________
 
-# 22. Fatigue Cognitive Impact
+## 22. Fatigue Cognitive Impact
 
 The source defines:
 
@@ -586,9 +586,9 @@ QueueNonCriticalTasks
 }
 $$
 
----
+______________________________________________________________________
 
-# 23. Reasoning Horizon ≠ Reasoning Depth
+## 23. Reasoning Horizon ≠ Reasoning Depth
 
 The phrase:
 
@@ -608,9 +608,9 @@ $$
 
 by default.
 
----
+______________________________________________________________________
 
-# 24. Queueing Non-Critical Tasks
+## 24. Queueing Non-Critical Tasks
 
 The second action explicitly distinguishes criticality.
 
@@ -626,9 +626,9 @@ under the source-defined Fatigue/Apathy condition.
 
 The artifact does not define task-criticality classification.
 
----
+______________________________________________________________________
 
-# 25. Critical Tasks Are Not Explicitly Queued
+## 25. Critical Tasks Are Not Explicitly Queued
 
 The source says:
 
@@ -640,9 +640,9 @@ It does not say:
 
 Therefore the strongest supported reading preserves a critical/non-critical distinction.
 
----
+______________________________________________________________________
 
-# 26. Metabolic Pacing
+## 26. Metabolic Pacing
 
 The enforcement guard is:
 
@@ -658,9 +658,9 @@ The artifact does not specify:
 - metabolic telemetry mapping;
 - recovery schedule.
 
----
+______________________________________________________________________
 
-# 27. Metabolic Pacing Cross-Artifact Relation
+## 27. Metabolic Pacing Cross-Artifact Relation
 
 The previous UBI × Cognition specification defined biological state as a governor of reasoning depth.
 
@@ -678,9 +678,9 @@ $$
 
 unless the binding explicitly identifies them.
 
----
+______________________________________________________________________
 
-# 28. Fatigue Target Plane Gap
+## 28. Fatigue Target Plane Gap
 
 The Target Plane is absent.
 
@@ -696,9 +696,9 @@ FATIGUE_TARGET_PLANE:
     DECISION_RELEVANT_GAP
 ```
 
----
+______________________________________________________________________
 
-# 29. Optimal Flow
+## 29. Optimal Flow
 
 The supplied row normalizes to:
 
@@ -733,9 +733,9 @@ OPTIMAL_FLOW:
     GAMMA_COHERENCE_LOCK
 ```
 
----
+______________________________________________________________________
 
-# 30. Optimal-Flow Trigger
+## 30. Optimal-Flow Trigger
 
 The visible predicate is:
 
@@ -743,11 +743,11 @@ $$
 X_O>0.4,\qquad a_t\in[0.4,0.7]
 $$
 
-where \(X_O\) is a placeholder for the missing source variable.
+where (X_O) is a placeholder for the missing source variable.
 
----
+______________________________________________________________________
 
-# 31. First Optimal-Flow Boundary
+## 31. First Optimal-Flow Boundary
 
 The first visible condition uses:
 
@@ -763,9 +763,9 @@ $$
 
 does not satisfy that component.
 
----
+______________________________________________________________________
 
-# 32. Closed Arousal-Like Interval
+## 32. Closed Arousal-Like Interval
 
 The source explicitly preserves:
 
@@ -789,19 +789,19 @@ $$
 
 both satisfy the interval condition.
 
----
+______________________________________________________________________
 
-# 33. Meaning of \(a_t\)
+## 33. Meaning of (a_t)
 
-The symbol \(a_t\) plausibly represents a time-indexed affective variable such as arousal.
+The symbol (a_t) plausibly represents a time-indexed affective variable such as arousal.
 
 That semantic mapping is not explicitly defined in this artifact.
 
-Therefore preserve \(a_t\) as a source symbol until the knowledge binding is retrieved.
+Therefore preserve (a_t) as a source symbol until the knowledge binding is retrieved.
 
----
+______________________________________________________________________
 
-# 34. Optimal-Flow Cognitive Impact
+## 34. Optimal-Flow Cognitive Impact
 
 The source states:
 
@@ -817,9 +817,9 @@ $$
 
 This is a positive authorization action, unlike the restrictive actions in the other two rows.
 
----
+______________________________________________________________________
 
-# 35. Authorization ≠ Proof Success
+## 35. Authorization ≠ Proof Success
 
 The source authorizes complex multi-agent proofs under Optimal Flow.
 
@@ -839,9 +839,9 @@ Authorization
 ProofValidity
 $$
 
----
+______________________________________________________________________
 
-# 36. Authorization ≠ Unbounded Reasoning
+## 36. Authorization ≠ Unbounded Reasoning
 
 Likewise:
 
@@ -853,9 +853,9 @@ $$
 
 Other AMOS governance constraints remain applicable.
 
----
+______________________________________________________________________
 
-# 37. Gamma Coherence Lock
+## 37. Gamma Coherence Lock
 
 The enforcement guard is:
 
@@ -865,9 +865,9 @@ This is source-defined terminology.
 
 It does not independently establish a physical or neurophysiological gamma-lock mechanism.
 
----
+______________________________________________________________________
 
-# 38. Gamma Coherence Cross-Artifact Relation
+## 38. Gamma Coherence Cross-Artifact Relation
 
 The supplied UBI × Cognition specification defines:
 
@@ -889,9 +889,9 @@ The strongest safe conclusion is:
 
 The exact identity of their mechanisms remains unresolved without the binding.
 
----
+______________________________________________________________________
 
-# 39. Do Not Force Gamma Equivalence
+## 39. Do Not Force Gamma Equivalence
 
 Do not automatically assert:
 
@@ -911,9 +911,9 @@ $$
 
 without explicit source binding.
 
----
+______________________________________________________________________
 
-# 40. Optimal-Flow Target Plane Gap
+## 40. Optimal-Flow Target Plane Gap
 
 The Target Plane cell is empty.
 
@@ -929,9 +929,9 @@ OPTIMAL_FLOW_TARGET_PLANE:
     DECISION_RELEVANT_GAP
 ```
 
----
+______________________________________________________________________
 
-# 41. Normalized Matrix
+## 41. Normalized Matrix
 
 | Affective State           | Trigger Condition             | Cognitive Impact                                   | Target Plane   | Enforcement Guard    |
 | ------------------------- | ----------------------------- | -------------------------------------------------- | -------------- | -------------------- |
@@ -943,9 +943,9 @@ OPTIMAL_FLOW_TARGET_PLANE:
 
 They are not canonical AMOS variable names.
 
----
+______________________________________________________________________
 
-# 42. Restriction / Conservation / Expansion
+## 42. Restriction / Conservation / Expansion
 
 The three rows define three qualitatively different cognitive-control modes:
 
@@ -970,9 +970,9 @@ MULTI-AGENT REASONING
 
 This is a **DERIVED architectural synthesis**.
 
----
+______________________________________________________________________
 
-# 43. Three-Mode Control Interpretation
+## 43. Three-Mode Control Interpretation
 
 A compact derived model is:
 
@@ -988,9 +988,9 @@ $$
 
 These mode names are explanatory abstractions, not source labels.
 
----
+______________________________________________________________________
 
-# 44. Affect Modulates Computation
+## 44. Affect Modulates Computation
 
 The source matrix does not merely classify emotion.
 
@@ -1008,9 +1008,9 @@ $$
 
 is source-grounded at the AMOS model level.
 
----
+______________________________________________________________________
 
-# 45. Affect Does Not Determine Truth
+## 45. Affect Does Not Determine Truth
 
 Affective state may alter cognitive routing in the model.
 
@@ -1022,9 +1022,9 @@ AffectiveState
 TruthCriterion
 $$
 
----
+______________________________________________________________________
 
-# 46. Affect Does Not Override Evidence
+## 46. Affect Does Not Override Evidence
 
 High threat cannot make unsupported evidence valid.
 
@@ -1034,9 +1034,9 @@ Fatigue cannot invalidate otherwise sound evidence.
 
 Epistemic integrity remains independent of affective state.
 
----
+______________________________________________________________________
 
-# 47. High Threat and Epistemic Conservatism
+## 47. High Threat and Epistemic Conservatism
 
 The combination:
 
@@ -1050,9 +1050,9 @@ is structurally consistent with a more conservative reasoning posture.
 
 This is **DERIVED**.
 
----
+______________________________________________________________________
 
-# 48. Fatigue and Resource Conservation
+## 48. Fatigue and Resource Conservation
 
 The combination:
 
@@ -1066,9 +1066,9 @@ is structurally consistent with computational resource conservation.
 
 This is **DERIVED**.
 
----
+______________________________________________________________________
 
-# 49. Optimal Flow and Computational Expansion
+## 49. Optimal Flow and Computational Expansion
 
 `Authorize complex multi-agent proofs`
 
@@ -1076,9 +1076,9 @@ is structurally consistent with expanding the permitted complexity of reasoning.
 
 This is **DERIVED**.
 
----
+______________________________________________________________________
 
-# 50. Guards Are State-Specific
+## 50. Guards Are State-Specific
 
 The supplied table maps one guard to each state:
 
@@ -1095,9 +1095,9 @@ OPTIMAL FLOW
 
 This mapping is directly source-grounded.
 
----
+______________________________________________________________________
 
-# 51. Guards Are Not Proven Mutually Exclusive
+## 51. Guards Are Not Proven Mutually Exclusive
 
 The source does not state that only one affective condition may be active at a time.
 
@@ -1105,9 +1105,9 @@ Therefore multiple guards could theoretically become relevant simultaneously.
 
 Whether that is permitted is unresolved.
 
----
+______________________________________________________________________
 
-# 52. State Overlap Is Possible in Principle
+## 52. State Overlap Is Possible in Principle
 
 Because the first metric differs only by unresolved symbols and the remaining metrics differ, the supplied table does not establish mutual exclusivity.
 
@@ -1119,9 +1119,9 @@ StatePredicates
 MutualExclusivity
 $$
 
----
+______________________________________________________________________
 
-# 53. No State Precedence Supplied
+## 53. No State Precedence Supplied
 
 The matrix does not state what happens if multiple rows are satisfied.
 
@@ -1134,9 +1134,9 @@ Possible policies include:
 
 None is source-established here.
 
----
+______________________________________________________________________
 
-# 54. Do Not Invent Threat Dominance
+## 54. Do Not Invent Threat Dominance
 
 It may be tempting to assume High Threat dominates Optimal Flow because it invokes a Refusal Firewall.
 
@@ -1152,9 +1152,9 @@ $$
 
 without the specification/binding.
 
----
+______________________________________________________________________
 
-# 55. Do Not Invent Emergency Dominance Here
+## 55. Do Not Invent Emergency Dominance Here
 
 The preceding UBI × Cognition artifact contains an Emergency state.
 
@@ -1162,9 +1162,9 @@ This matrix does not explicitly mention Emergency.
 
 Cross-artifact governance may make Emergency dominant, but that priority must come from authoritative binding rather than inference.
 
----
+______________________________________________________________________
 
-# 56. Missing Target Planes Are Material
+## 56. Missing Target Planes Are Material
 
 Because this is explicitly a **Cross-Plane Matrix Table**, the missing Target Plane values are not cosmetic.
 
@@ -1172,9 +1172,9 @@ They determine where the cognitive impacts are routed.
 
 Therefore all three missing target-plane cells are **DECISION-RELEVANT GAPS**.
 
----
+______________________________________________________________________
 
-# 57. Cross-Plane Semantics
+## 57. Cross-Plane Semantics
 
 The source title and table schema establish that each affective condition is intended to influence another plane or subsystem.
 
@@ -1194,13 +1194,13 @@ $$
 
 is unresolved.
 
----
+______________________________________________________________________
 
-# 58. Matrix Spec Dependency
+## 58. Matrix Spec Dependency
 
 The artifact explicitly points to:
 
-``.
+\`\`.
 
 That is the highest-priority dependency for recovering:
 
@@ -1209,13 +1209,13 @@ That is the highest-priority dependency for recovering:
 - guard behavior;
 - conflict arbitration.
 
----
+______________________________________________________________________
 
-# 59. Knowledge Binding Dependency
+## 59. Knowledge Binding Dependency
 
 The artifact also points to:
 
-``.
+\`\`.
 
 That is the highest-priority dependency for recovering:
 
@@ -1225,9 +1225,9 @@ That is the highest-priority dependency for recovering:
 - UBI–emotion coupling;
 - measurement assumptions.
 
----
+______________________________________________________________________
 
-# 60. Source Topology
+## 60. Source Topology
 
 ```text
             UBI / EMOTION KNOWLEDGE
@@ -1248,9 +1248,9 @@ That is the highest-priority dependency for recovering:
 
 This is a **DERIVED topology** from the declared bindings.
 
----
+______________________________________________________________________
 
-# 61. Matrix Table vs Matrix Specification
+## 61. Matrix Table vs Matrix Specification
 
 The table should be treated as a compact routing artifact.
 
@@ -1264,9 +1264,9 @@ MatrixTable
 CompleteSpecification
 $$
 
----
+______________________________________________________________________
 
-# 62. Variable Identity Gap
+## 62. Variable Identity Gap
 
 Three missing first variables remain:
 
@@ -1290,9 +1290,9 @@ The source excerpt does not establish whether these are:
 - UBI aggregate quantities;
 - emotion-state quantities.
 
----
+______________________________________________________________________
 
-# 63. Common-Metric Hypothesis
+## 63. Common-Metric Hypothesis
 
 One plausible hypothesis is that all three missing first variables are the same source-defined metric.
 
@@ -1300,27 +1300,27 @@ If so, the thresholds could form different operating regions.
 
 But this is only a **COMPETING MODEL**.
 
----
+______________________________________________________________________
 
-# 64. Different-Metric Hypothesis
+## 64. Different-Metric Hypothesis
 
 Another plausible hypothesis is that each row uses a distinct first variable.
 
 The supplied rendering cannot discriminate between these hypotheses.
 
----
+______________________________________________________________________
 
-# 65. Cheapest Discriminating Test
+## 65. Cheapest Discriminating Test
 
 The cheapest high-information test is:
 
-**retrieve the intact `` specification or `` and inspect the original matrix equations.**
+**retrieve the intact `specification or` and inspect the original matrix equations.**
 
 This could resolve all three missing variables and the missing target-plane routing without speculative reconstruction.
 
----
+______________________________________________________________________
 
-# 66. \(v_t\) and \(a_t\) Relationship Gap
+## 66. (v_t) and (a_t) Relationship Gap
 
 The source uses both:
 
@@ -1338,9 +1338,9 @@ but does not define their relationship.
 
 Do not infer orthogonality, independence, or a specific affective coordinate system without the binding.
 
----
+______________________________________________________________________
 
-# 67. Time Index
+## 67. Time Index
 
 The subscript (t) indicates a time-indexed quantity syntactically.
 
@@ -1352,17 +1352,17 @@ It does not establish:
 - derivative semantics;
 - event-time vs processing-time semantics.
 
----
+______________________________________________________________________
 
-# 68. Temporal Freshness
+## 68. Temporal Freshness
 
-Because affective state can vary over time, stale values of \(v_t\), \(a_t\), (\\tau\_{bio}), or the missing first metric may invalidate current routing.
+Because affective state can vary over time, stale values of (v_t), (a_t), (\\tau\_{bio}), or the missing first metric may invalidate current routing.
 
 The artifact provides no freshness bound.
 
----
+______________________________________________________________________
 
-# 69. Measurement Uncertainty
+## 69. Measurement Uncertainty
 
 Threshold routing requires an uncertainty policy near:
 
@@ -1372,9 +1372,9 @@ $$
 
 No uncertainty model is supplied.
 
----
+______________________________________________________________________
 
-# 70. Threat Boundary Sensitivity
+## 70. Threat Boundary Sensitivity
 
 For an illustrative measurement:
 
@@ -1386,9 +1386,9 @@ the actual value could lie on either side of `0.8`.
 
 Therefore High-Threat activation would be fragile without a measurement-error policy.
 
----
+______________________________________________________________________
 
-# 71. Valence-Like Boundary Sensitivity
+## 71. Valence-Like Boundary Sensitivity
 
 Similarly:
 
@@ -1404,9 +1404,9 @@ $$
 
 making the displayed predicate uncertain.
 
----
+______________________________________________________________________
 
-# 72. Fatigue Boundary Sensitivity
+## 72. Fatigue Boundary Sensitivity
 
 A measurement near:
 
@@ -1422,9 +1422,9 @@ $$
 
 is decision-critical because both operators are strict `<`.
 
----
+______________________________________________________________________
 
-# 73. Optimal-Flow Interval Sensitivity
+## 73. Optimal-Flow Interval Sensitivity
 
 The interval:
 
@@ -1438,23 +1438,23 @@ Measurement uncertainty can nevertheless place the latent value outside the inte
 
 The source does not define uncertainty-aware interval evaluation.
 
----
+______________________________________________________________________
 
-# 74. No Hysteresis Defined
+## 74. No Hysteresis Defined
 
 The artifact provides activation thresholds but no separate release thresholds.
 
 Therefore hysteresis is not source-established.
 
----
+______________________________________________________________________
 
-# 75. No Debounce Defined
+## 75. No Debounce Defined
 
 The source does not specify how long a condition must persist before the corresponding cognitive impact is applied.
 
----
+______________________________________________________________________
 
-# 76. No Transition Delay Defined
+## 76. No Transition Delay Defined
 
 The source does not specify whether enforcement is:
 
@@ -1463,17 +1463,17 @@ The source does not specify whether enforcement is:
 - checkpoint-bound;
 - clock-synchronized.
 
----
+______________________________________________________________________
 
-# 77. Gamma Lock Timing Gap
+## 77. Gamma Lock Timing Gap
 
 `Gamma Coherence Lock` may interact with the 40Hz pacing mechanism from the cognition artifact.
 
 But the matrix does not explicitly define timing or synchronization behavior.
 
----
+______________________________________________________________________
 
-# 78. Refusal Firewall Timing Gap
+## 78. Refusal Firewall Timing Gap
 
 The artifact does not state whether the Refusal Firewall evaluates:
 
@@ -1483,9 +1483,9 @@ The artifact does not state whether the Refusal Firewall evaluates:
 - after verification;
 - continuously.
 
----
+______________________________________________________________________
 
-# 79. Metabolic Pacing Timing Gap
+## 79. Metabolic Pacing Timing Gap
 
 Likewise, it does not state whether metabolic pacing modifies:
 
@@ -1495,9 +1495,9 @@ Likewise, it does not state whether metabolic pacing modifies:
 - concurrency;
 - execution rate.
 
----
+______________________________________________________________________
 
-# 80. Cognitive Impact ≠ Implementation Mechanism
+## 80. Cognitive Impact ≠ Implementation Mechanism
 
 The matrix specifies effects, not necessarily mechanisms.
 
@@ -1515,9 +1515,9 @@ does not identify the scheduler.
 
 does not identify the proof coordinator.
 
----
+______________________________________________________________________
 
-# 81. Cross-Artifact Cognitive Integration
+## 81. Cross-Artifact Cognitive Integration
 
 Combining only source-visible relations from the two supplied artifacts yields:
 
@@ -1539,9 +1539,9 @@ DEPTH / VERIFY      CONTROL POLICY
 
 This is **DERIVED cross-artifact synthesis**.
 
----
+______________________________________________________________________
 
-# 82. Two Independent Governance Axes
+## 82. Two Independent Governance Axes
 
 The supplied corpus therefore supports at least two conceptual governance axes:
 
@@ -1552,9 +1552,9 @@ They may converge on cognitive execution.
 
 Their arbitration is not defined here.
 
----
+______________________________________________________________________
 
-# 83. Optimal Flow vs System 2
+## 83. Optimal Flow vs System 2
 
 Optimal Flow authorizes:
 
@@ -1576,9 +1576,9 @@ $$
 
 unless explicitly bound.
 
----
+______________________________________________________________________
 
-# 84. High Threat vs System 1
+## 84. High Threat vs System 1
 
 High Threat prunes speculation and tightens safety margins.
 
@@ -1594,9 +1594,9 @@ HighThreat
 System1
 $$
 
----
+______________________________________________________________________
 
-# 85. Fatigue vs Emergency
+## 85. Fatigue vs Emergency
 
 Fatigue/Apathy includes:
 
@@ -1618,17 +1618,17 @@ Fatigue
 Emergency
 $$
 
----
+______________________________________________________________________
 
-# 86. Nested Distress Possibility
+## 86. Nested Distress Possibility
 
 A sufficiently low (\\tau\_{bio}) can satisfy both the fatigue tau component and the emergency tau component.
 
 Thus cross-plane conflict/arbitration becomes materially relevant.
 
----
+______________________________________________________________________
 
-# 87. Emergency Could Preempt Fatigue — But Not Proven Here
+## 87. Emergency Could Preempt Fatigue — But Not Proven Here
 
 It is architecturally plausible that a cognition Emergency state would preempt ordinary fatigue pacing.
 
@@ -1636,19 +1636,19 @@ However, this matrix does not establish that rule.
 
 Preserve the relation as **CONDITIONAL** pending authoritative binding.
 
----
+______________________________________________________________________
 
-# 88. Threat and Optimal Flow Could Conflict
+## 88. Threat and Optimal Flow Could Conflict
 
-Because the missing first metrics are unresolved and \(v_t\) and \(a_t\) are distinct, the supplied table does not prove that High Threat and Optimal Flow are mutually exclusive.
+Because the missing first metrics are unresolved and (v_t) and (a_t) are distinct, the supplied table does not prove that High Threat and Optimal Flow are mutually exclusive.
 
 If both predicates can coexist, the system needs guard arbitration.
 
 No such rule is supplied here.
 
----
+______________________________________________________________________
 
-# 89. Guard Conflict Example
+## 89. Guard Conflict Example
 
 Potential conceptual conflict:
 
@@ -1662,9 +1662,9 @@ The source does not say which wins.
 
 This is a **DECISION-RELEVANT GAP**.
 
----
+______________________________________________________________________
 
-# 90. Conservative Default Under Missing Arbitration
+## 90. Conservative Default Under Missing Arbitration
 
 At the model-governance level, missing arbitration should not be filled by invented precedence.
 
@@ -1672,9 +1672,9 @@ The correct canonical state is:
 
 `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
-# 91. Provenance Topology
+## 91. Provenance Topology
 
 The declared framework chain is not necessarily independent evidence.
 
@@ -1690,9 +1690,9 @@ $$
 
 without provenance-independence evidence.
 
----
+______________________________________________________________________
 
-# 92. Source-Declared Validation
+## 92. Source-Declared Validation
 
 The metadata states:
 
@@ -1710,9 +1710,9 @@ $$
 
 without the tests and outputs.
 
----
+______________________________________________________________________
 
-# 93. Source-Declared Executable Binding
+## 93. Source-Declared Executable Binding
 
 The metadata states:
 
@@ -1730,9 +1730,9 @@ $$
 
 without executable evidence.
 
----
+______________________________________________________________________
 
-# 94. Empirical Firewall
+## 94. Empirical Firewall
 
 The artifact is explicitly:
 
@@ -1742,39 +1742,39 @@ Therefore its affective categories and thresholds remain corpus-model constructs
 
 Do not promote them into universal human affect laws.
 
----
+______________________________________________________________________
 
-# 95. Anxiety Terminology Firewall
+## 95. Anxiety Terminology Firewall
 
 `High Threat / Anxiety` is a source-defined state label.
 
 It does not establish a clinical anxiety diagnosis.
 
----
+______________________________________________________________________
 
-# 96. Apathy Terminology Firewall
+## 96. Apathy Terminology Firewall
 
 `Fatigue / Apathy` likewise does not establish clinical apathy, depression, or a fatigue disorder.
 
----
+______________________________________________________________________
 
-# 97. Flow Terminology Firewall
+## 97. Flow Terminology Firewall
 
 `Optimal Flow` is source terminology.
 
 It does not independently establish equivalence with any external psychological flow theory.
 
----
+______________________________________________________________________
 
-# 98. Refusal Causal Firewall
+## 98. Refusal Causal Firewall
 
 The matrix establishes a routing relation between the High Threat row and Refusal Firewall.
 
 It does not establish that anxiety causes refusal in real humans or systems universally.
 
----
+______________________________________________________________________
 
-# 99. Metabolic Causal Firewall
+## 99. Metabolic Causal Firewall
 
 Likewise:
 
@@ -1788,9 +1788,9 @@ is source-defined control routing.
 
 It is not independent proof of a biological causal mechanism.
 
----
+______________________________________________________________________
 
-# 100. Gamma Causal Firewall
+## 100. Gamma Causal Firewall
 
 `Gamma Coherence Lock` is source-defined.
 
@@ -1804,9 +1804,9 @@ $$
 
 as an empirical causal effect.
 
----
+______________________________________________________________________
 
-# 101. Cross-Domain Mapping Firewall
+## 101. Cross-Domain Mapping Firewall
 
 Mapping biological/affective states into computational policies is a model-level cross-domain mapping.
 
@@ -1816,9 +1816,9 @@ It remains:
 
 unless separately validated.
 
----
+______________________________________________________________________
 
-# 102. Cognitive Safety Relation
+## 102. Cognitive Safety Relation
 
 Within the source model, high-threat state increases cognitive conservatism.
 
@@ -1832,9 +1832,9 @@ $$
 
 This is a model interpretation, not an empirical psychological law.
 
----
+______________________________________________________________________
 
-# 103. Cognitive Resource Relation
+## 103. Cognitive Resource Relation
 
 Within the source model:
 
@@ -1854,9 +1854,9 @@ $$
 
 Again, these are source-defined control effects.
 
----
+______________________________________________________________________
 
-# 104. Cognitive Expansion Relation
+## 104. Cognitive Expansion Relation
 
 Within the source model:
 
@@ -1868,9 +1868,9 @@ $$
 
 This is source-grounded.
 
----
+______________________________________________________________________
 
-# 105. Guarded Authorization
+## 105. Guarded Authorization
 
 Because Optimal Flow has an enforcement guard:
 
@@ -1888,9 +1888,9 @@ $$
 
 rather than authorization alone.
 
----
+______________________________________________________________________
 
-# 106. Guarded Restriction
+## 106. Guarded Restriction
 
 Similarly, High Threat combines restrictive cognitive effects with:
 
@@ -1898,9 +1898,9 @@ Similarly, High Threat combines restrictive cognitive effects with:
 
 Thus the source models restriction with an enforcement boundary.
 
----
+______________________________________________________________________
 
-# 107. Guarded Conservation
+## 107. Guarded Conservation
 
 Fatigue combines resource reduction/deferment with:
 
@@ -1908,9 +1908,9 @@ Fatigue combines resource reduction/deferment with:
 
 Thus all three rows pair cognitive policy with a guard.
 
----
+______________________________________________________________________
 
-# 108. Matrix Invariant
+## 108. Matrix Invariant
 
 A strong structural invariant of the supplied table is:
 
@@ -1926,9 +1926,9 @@ $$
 
 This is directly supported.
 
----
+______________________________________________________________________
 
-# 109. Target-Plane Invariant Cannot Be Completed
+## 109. Target-Plane Invariant Cannot Be Completed
 
 Although every row structurally has a Target Plane column, all values are absent.
 
@@ -1940,9 +1940,9 @@ EveryState
 KnownTargetPlane
 $$
 
----
+______________________________________________________________________
 
-# 110. Cross-Plane Identity Remains Partial
+## 110. Cross-Plane Identity Remains Partial
 
 The title proves cross-plane intent.
 
@@ -1960,9 +1960,9 @@ CROSS_PLANE_STATUS:
     PARTIALLY_UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 111. Runtime Observation Schema
+## 111. Runtime Observation Schema
 
 A robust executable binding would need at least:
 
@@ -2010,9 +2010,9 @@ UBI_EMOTION_OBSERVATION:
 
 This is **DERIVED**, not source text.
 
----
+______________________________________________________________________
 
-# 112. Runtime Decision Record
+## 112. Runtime Decision Record
 
 A consequential cross-plane action should conceptually preserve:
 
@@ -2048,9 +2048,9 @@ UBI_EMOTION_DECISION:
 
 This is a governance derivation.
 
----
+______________________________________________________________________
 
-# 113. Fast Path
+## 113. Fast Path
 
 Local application is safe only when:
 
@@ -2076,9 +2076,9 @@ SOURCE VERSION IS CURRENT
 ACTION IS REVERSIBLE OR SUFFICIENTLY VALIDATED
 ```
 
----
+______________________________________________________________________
 
-# 114. Escalation Conditions
+## 114. Escalation Conditions
 
 Escalate when:
 
@@ -2110,9 +2110,9 @@ EXECUTABLE BINDING IS BEING VERIFIED
 CONSTITUTIONAL TESTS ARE BEING AUDITED
 ```
 
----
+______________________________________________________________________
 
-# 115. Gap Classification
+## 115. Gap Classification
 
 ```yaml
 GAPS:
@@ -2150,9 +2150,9 @@ GAPS:
     - source delimiter corruption that does not alter a preserved operator
 ```
 
----
+______________________________________________________________________
 
-# 116. Adversarial Validation
+## 116. Adversarial Validation
 
 ## Strongest supported conclusion
 
@@ -2167,7 +2167,7 @@ It must be bounded because:
 1. three trigger variables are missing;
 1. all Target Plane values are absent;
 1. conjunction semantics are not explicitly rendered;
-1. \(v_t\) and \(a_t\) are undefined here;
+1. (v_t) and (a_t) are undefined here;
 1. multi-state arbitration is unspecified;
 1. interaction with cognition Emergency is unspecified;
 1. guard implementation is unspecified;
@@ -2176,9 +2176,9 @@ It must be bounded because:
 
 Therefore the matrix's **routing structure is source-grounded**, while exact executable semantics remain partially unresolved.
 
----
+______________________________________________________________________
 
-# 117. Confidence Ceiling
+## 117. Confidence Ceiling
 
 For a row-level conclusion:
 
@@ -2199,9 +2199,9 @@ $$
 
 This is **DERIVED**.
 
----
+______________________________________________________________________
 
-# 118. H Capsule
+## 118. H Capsule
 
 ```yaml
 H:
@@ -2236,9 +2236,9 @@ H:
     - OPTIMAL_FLOW
 ```
 
----
+______________________________________________________________________
 
-# 119. M Capsule
+## 119. M Capsule
 
 ```yaml
 M:
@@ -2303,9 +2303,9 @@ M:
       GAMMA_COHERENCE_LOCK
 ```
 
----
+______________________________________________________________________
 
-# 120. L Retrieval Capsule
+## 120. L Retrieval Capsule
 
 ```yaml
 L:
@@ -2355,9 +2355,9 @@ L:
       - empirical_affective_validation
 ```
 
----
+______________________________________________________________________
 
-# 121. Master Machine Representation
+## 121. Master Machine Representation
 
 ```yaml
 UBI_X_EMOTION_MATRIX:
@@ -2524,9 +2524,9 @@ UBI_X_EMOTION_MATRIX:
       ""
 ```
 
----
+______________________________________________________________________
 
-# 122. RSCF Contract
+## 122. RSCF Contract
 
 ```yaml
 RSCF:
@@ -2607,9 +2607,9 @@ RSCF:
       UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 123. Proof Capsule
+## 123. Proof Capsule
 
 ```yaml
 PROOF_CAPSULE:
@@ -2718,9 +2718,9 @@ PROOF_CAPSULE:
       UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 124. Minimum Boundary Tests
+## 124. Minimum Boundary Tests
 
 ```yaml
 HIGH_THREAT_TESTS:
@@ -2804,9 +2804,9 @@ OPTIMAL_FLOW_TESTS:
 
 These tests validate only the visible operators, not the identity or empirical meaning of the variables.
 
----
+______________________________________________________________________
 
-# 125. Cross-Matrix Constitutional Tests
+## 125. Cross-Matrix Constitutional Tests
 
 Once missing fields are recovered, test at minimum:
 
@@ -2842,9 +2842,9 @@ EXPECTED FAIL-CLOSED / NO INVENTED ROUTING
 
 The last behavior is a governance recommendation consistent with AMOS integrity constraints, not a supplied table row.
 
----
+______________________________________________________________________
 
-# 126. Anti-Fabrication Contract
+## 126. Anti-Fabrication Contract
 
 This artifact MUST NOT by itself be used to claim:
 
@@ -2853,8 +2853,8 @@ This artifact MUST NOT by itself be used to claim:
 1. the missing Optimal-Flow trigger variable is known;
 1. all three missing variables are identical;
 1. all three missing variables are different;
-1. \(v_t\) definitively means valence;
-1. \(a_t\) definitively means arousal;
+1. (v_t) definitively means valence;
+1. (a_t) definitively means arousal;
 1. (\\tau\_{bio}) is defined by this matrix;
 1. all metrics use `[0,1]`;
 1. the thresholds are clinical thresholds;
@@ -2903,8 +2903,8 @@ This artifact MUST NOT by itself be used to claim:
 1. debounce exists;
 1. transition latency is known;
 1. measurement uncertainty is negligible;
-1. \(v_t\) and \(a_t\) are independent;
-1. \(v_t\) and \(a_t\) are orthogonal;
+1. (v_t) and (a_t) are independent;
+1. (v_t) and (a_t) are orthogonal;
 1. the model is empirically validated psychology;
 1. the model is empirically validated neuroscience;
 1. the model is clinically validated;
@@ -2919,9 +2919,9 @@ This artifact MUST NOT by itself be used to claim:
 1. the thresholds remain valid across regime changes;
 1. exact runtime semantics can be recovered from naming similarity alone.
 
----
+______________________________________________________________________
 
-# 127. Anti-Regression Contract
+## 127. Anti-Regression Contract
 
 Future revisions should preserve or explicitly supersede:
 
@@ -3009,9 +3009,9 @@ CAUSAL FIREWALL
 SCOPE / REGIME FIREWALL
 ```
 
----
+______________________________________________________________________
 
-# 128. Invalidation Conditions
+## 128. Invalidation Conditions
 
 Revalidate when:
 
@@ -3077,9 +3077,9 @@ PROVENANCE TOPOLOGY CHANGES
 ENVIRONMENT OR REGIME CHANGES
 ```
 
----
+______________________________________________________________________
 
-# 129. RSCF Relations
+## 129. RSCF Relations
 
 ```yaml
 RSCF_RELATIONS:
@@ -3134,9 +3134,9 @@ RSCF_RELATIONS:
       ""
 ```
 
----
+______________________________________________________________________
 
-# 130. Native Canon Ingestion
+## 130. Native Canon Ingestion
 
 ```yaml
 UBI_X_EMOTION_MATRIX_INGESTION:
@@ -3270,9 +3270,9 @@ UBI_X_EMOTION_MATRIX_INGESTION:
       - PRESERVE_UNKNOWN_INSTEAD_OF_INVENTING_ROUTING
 ```
 
----
+______________________________________________________________________
 
-# 131. Canonical Compression
+## 131. Canonical Compression
 
 ```text
               UBI × EMOTION
@@ -3362,9 +3362,9 @@ EMPIRICAL AFFECTIVE VALIDITY
 NOT ESTABLISHED HERE
 ```
 
----
+______________________________________________________________________
 
-# 132. Final Canonical Candidate Statement
+## 132. Final Canonical Candidate Statement
 
 **UBI × Emotion Cross-Plane Matrix Table v2.0.0** is the source-defined AMOS matrix mapping affective/biological operating conditions into cognitive-control effects and enforcement guards.
 
@@ -3419,7 +3419,7 @@ and enforcement through:
 
 `Gamma Coherence Lock`.
 
-Here \(X_H\), \(X_F\), and \(X_O\) are **noncanonical placeholders** for source variables missing from the supplied rendering.
+Here (X_H), (X_F), and (X_O) are **noncanonical placeholders** for source variables missing from the supplied rendering.
 
 The decisive integrity boundaries are:
 
@@ -3431,7 +3431,7 @@ The decisive integrity boundaries are:
 
 **THE COMMA-SEPARATED CONDITIONS APPEAR TO FORM COMPOUND ROW PREDICATES, BUT THE ORIGINAL LOGICAL CONNECTIVE IS NOT EXPLICITLY PRESERVED.**
 
-**\(v_t\), \(a_t\), AND (\\tau\_{bio}) MUST RETAIN THEIR SOURCE SYMBOLS UNTIL THEIR AUTHORITATIVE SEMANTICS ARE RECOVERED.**
+**(v_t), (a_t), AND (\\tau\_{bio}) MUST RETAIN THEIR SOURCE SYMBOLS UNTIL THEIR AUTHORITATIVE SEMANTICS ARE RECOVERED.**
 
 **`HIGH THREAT / ANXIETY`, `FATIGUE / APATHY`, AND `OPTIMAL FLOW` ARE AMOS MODEL STATES; THEY MUST NOT BE SILENTLY PROMOTED TO CLINICAL DIAGNOSES OR UNIVERSAL PSYCHOLOGICAL STATES.**
 
@@ -3461,7 +3461,7 @@ The decisive integrity boundaries are:
 
 **THE SOURCE DECLARES `executable_binding: ESTABLISHED`; INDEPENDENT RUNTIME VERIFICATION REQUIRES THE EXECUTABLE BINDING AND TRACES.**
 
-**THE CHEAPEST HIGH-INFORMATION RETRIEVAL IS `` FOLLOWED BY ``, BECAUSE THOSE dependencies can resolve the missing trigger variables, target planes, state arbitration, and guard semantics without speculative reconstruction.**
+**THE CHEAPEST HIGH-INFORMATION RETRIEVAL IS `FOLLOWED BY`, BECAUSE THOSE dependencies can resolve the missing trigger variables, target planes, state arbitration, and guard semantics without speculative reconstruction.**
 
 Operational compression:
 
@@ -3559,15 +3559,15 @@ $$
 
 The artifact can therefore function canonically as the **AMOS UBI × Emotion cross-plane routing matrix**, while exact trigger-variable identities, target-plane destinations, multi-state arbitration, cross-matrix precedence, guard implementation, and empirical/runtime validation remain explicit dependencies.
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|AMOS MOC]]
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]] · [[25_COGNITIVE_MATRIX/UBI_X_EMOTION|UBI_X_EMOTION]] · [[11_KNOWLEDGE/05_FRAMEWORKS/UBI_EMOTION_BINDING|UBI_EMOTION_BINDING]] · [[25_COGNITIVE_MATRIX/UBI_X_COGNITION|UBI_X_COGNITION]] · [[25_COGNITIVE_MATRIX/UBI_X_COGNITION_MATRIX|UBI_X_COGNITION_MATRIX]] · [[25_COGNITIVE_MATRIX/TOTAL_FRAMEWORK_MATRIX|TOTAL_FRAMEWORK_MATRIX]] · [[25_COGNITIVE_MATRIX/TOTAL_KERNEL_MATRIX|TOTAL_KERNEL_MATRIX]] · [[25_COGNITIVE_MATRIX/TOTAL_CANON_MATRIX|TOTAL_CANON_MATRIX]] · [[02_KERNEL/09_INTEGRATION/K_RSCF|K_RSCF]] · [[02_KERNEL/09_INTEGRATION/K_HML|K_HML]] · [[02_KERNEL/08_PROVENANCE/K_PROVENANCE|K_PROVENANCE]] · K_CAUSAL_FIREWALL · [[02_KERNEL/K_FAIL_CLOSED|K_FAIL_CLOSED]] · [[02_KERNEL/K_GOVERNED_EVOLUTION|K_GOVERNED_EVOLUTION]]
 
----
+______________________________________________________________________
 
 RSCF-NODE
 
@@ -3639,11 +3639,10 @@ RSCF-RELATIONS:
 
 - LINEAGE_TARGET: [[00_ROOT/AMOS_CORE_v4_4|AMOS_CORE_v4_4]]
 
----
+______________________________________________________________________
 
 **MOC:** [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]
 
----
+______________________________________________________________________
 
 **END OF `UBI_X_EMOTION_MATRIX.md`**
-

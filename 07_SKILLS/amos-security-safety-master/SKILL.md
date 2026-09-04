@@ -4,28 +4,26 @@ title: SKILL — Amos Security Safety Master
 type: skill
 source: 07_SKILLS/amos-security-safety-master
 name: amos-security-safety-master
-description: AMOS Security & Safety — adversarial robustness, privacy, safety firewalls,
-  immune systems, drift alignment. Use when security analysis, safety verification,
-  or adversarial defense. Do not use for generic tasks outside security domain.
+description: AMOS Security & Safety — adversarial robustness, privacy, safety firewalls, immune systems, drift alignment. Use when security analysis, safety verification, or adversarial defense. Do not use for generic tasks outside security domain.
 parent_skill: none
 domain: security
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CANON
 tags:
-- type/skill
-- type/skill
-- domain/security-safety
-- epistemic/source_claim
-- hml/h
-- epistemic/source_canon
-- amos-os
-- readme
-- routing-policy-validation-receipt
-- authz-engine-validation-receipt
-- law-hierarchy
-- agent-template
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/security-safety
+  - epistemic/source_claim
+  - hml/h
+  - epistemic/source_canon
+  - amos-os
+  - readme
+  - routing-policy-validation-receipt
+  - authz-engine-validation-receipt
+  - law-hierarchy
+  - agent-template
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -35,25 +33,25 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: H
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
-- L7_authority
-- L23_mvcc_cas
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
+  - L7_authority
+  - L23_mvcc_cas
 collapse_class: fail_closed
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L7
-- L16
-- L17
-- L18
-- L23
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L7
+  - L16
+  - L17
+  - L18
+  - L23
 license: MIT
 steward: Trang Phan
 ---
@@ -63,9 +61,11 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: security. Parent: none. Epistemic class: SOURCE_CANON. H/M/L: H.
+
 ## When to Use
 
 AMOS Security & Safety — adversarial robustness, privacy, safety firewalls, immune systems, drift alignment. Use for security analysis, safety verification, or adversarial defense.
+
 - When validating outputs against domain constraints and epistemic class
 
 ## Capabilities
@@ -83,14 +83,14 @@ AMOS Security & Safety — adversarial robustness, privacy, safety firewalls, im
 ## Operations
 
 1. **security_safety.evaluate_influence**: Evaluate whether memory may influence a pending action through the AMOS Security & Safety consent, provenance, and risk gates.
-2. **security_safety.validate_gates**: Validate AMOS Security & Safety decisions against hard partition gates, epistemic class preservation, and consent state requirements.
-3. **security_safety.analyze_state**: Analyze AMOS Security & Safety memory state: working, episodic, semantic stores, consolidation, and retrieval graph health.
-4. **security_safety.trace_provenance**: Trace AMOS Security & Safety memory entries to source, encoding operation, consolidation history, and field-level lineage.
-5. **security_safety.assess_claim**: Assess AMOS Security & Safety memory claims for epistemic class, freshness, contradiction status, and confidence ceiling.
-6. **security_safety.manage_lifecycle**: Manage AMOS Security & Safety lifecycle: encode, normalize, admit, consolidate, index, retrieve, filter, update.
-7. **security_safety.detect_drift**: Detect memory drift: stale entries, broken provenance, epistemic class erosion, and context discontinuity.
-8. **security_safety.escalate_gaps**: Escalate AMOS Security & Safety memory gaps: flag UNKNOWN/GAP entries, quarantine untrusted data, trigger memory repair.
-9. **security_safety.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+1. **security_safety.validate_gates**: Validate AMOS Security & Safety decisions against hard partition gates, epistemic class preservation, and consent state requirements.
+1. **security_safety.analyze_state**: Analyze AMOS Security & Safety memory state: working, episodic, semantic stores, consolidation, and retrieval graph health.
+1. **security_safety.trace_provenance**: Trace AMOS Security & Safety memory entries to source, encoding operation, consolidation history, and field-level lineage.
+1. **security_safety.assess_claim**: Assess AMOS Security & Safety memory claims for epistemic class, freshness, contradiction status, and confidence ceiling.
+1. **security_safety.manage_lifecycle**: Manage AMOS Security & Safety lifecycle: encode, normalize, admit, consolidate, index, retrieve, filter, update.
+1. **security_safety.detect_drift**: Detect memory drift: stale entries, broken provenance, epistemic class erosion, and context discontinuity.
+1. **security_safety.escalate_gaps**: Escalate AMOS Security & Safety memory gaps: flag UNKNOWN/GAP entries, quarantine untrusted data, trigger memory repair.
+1. **security_safety.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## Consolidated Sub-Skills (2)
 
@@ -101,31 +101,38 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 > **Source**: `18_SECURITY/SECURITY_README.md` from the AMOS_OS Obsidian vault.
 > This is substantive domain knowledge, not script-generated content.
 
-# SECURITY README — part 2
+## SECURITY README — part 2
 
 ## Purpose
+
 `SECURITY README` is the package readme for the **Security** plane segment at `18_SECURITY`.
 The Security plane governs threat surface, fail-closed gates, attestation, and secrets status. Normative load-bearing content lives in the sibling contract(s); this readme orients navigation.
 
 ## Sibling artifacts
+
 - [[18_SECURITY/SECURITY_SECURITY_CONTRACT|SECURITY_SECURITY_CONTRACT]]
 
 ## Contract discipline
+
 Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
 
 ## Gaps
+
 Executable binding PARTIAL unless an executed validation receipt exists for this subsystem ([[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]).
 
 ## Worked semantics
+
 Given an operation touching `SECURITY · README` within the Security plane:
+
 1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-2. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-3. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-4. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-5. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-6. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
+1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
+1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
+1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
+1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
+1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
 
 ## Promotion-gate checklist
+
 - [ ] typed schema bound to this artifact
 - [ ] identity + versioning implemented
 - [ ] negative cases covered (missing · malformed · stale · unauthorized input)
@@ -135,6 +142,7 @@ Given an operation touching `SECURITY · README` within the Security plane:
 - [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
 ## Cross-plane bindings
+
 - Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
 - Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
 - Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
@@ -142,7 +150,8 @@ Given an operation touching `SECURITY · README` within the Security plane:
 - Recovered via operations —
 - AGENT_TEMPLATE
 
----
+______________________________________________________________________
+
 **MOC:** [[07_SKILLS/amos-security-safety-master/amos-security-safety-master_MOC|amos-security-safety-master_MOC]]
 
 ## Examples
@@ -150,7 +159,6 @@ Given an operation touching `SECURITY · README` within the Security plane:
 - **Scenario**: When validating outputs against domain constraints and epistemic class
   - **Input**: A query matching this skill's domain (security)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Validation Gates
 
@@ -167,7 +175,6 @@ Given an operation touching `SECURITY · README` within the Security plane:
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `none` — routes to this skill when security specialization is needed
@@ -175,7 +182,6 @@ Given an operation touching `SECURITY · README` within the Security plane:
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -194,7 +200,6 @@ Given an operation touching `SECURITY · README` within the Security plane:
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -202,7 +207,6 @@ Given an operation touching `SECURITY · README` within the Security plane:
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -242,11 +246,12 @@ Given an operation touching `SECURITY · README` within the Security plane:
 - `references/shellshock.md` — loaded on demand
 - `references/tech_safe_honest_societies.md` — loaded on demand
 - `references/web_cache_poisoning.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `none` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `amos-security-safety-master-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -254,12 +259,14 @@ Given an operation touching `SECURITY · README` within the Security plane:
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-security-safety-master
 node_type: skill
 path: 07_SKILLS/amos-security-safety-master/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

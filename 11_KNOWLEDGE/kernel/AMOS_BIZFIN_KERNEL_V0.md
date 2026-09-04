@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: AMOS BIZFIN KERNEL V0
 tags:
-- canon-group/tech-ai
-- canon/framework
-- rscf/claim
-- rscf/provenance
-- rscf/state/source-claim
-- topic/amos-bizfin-kernel-v0
-- kernel
+  - canon-group/tech-ai
+  - canon/framework
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - topic/amos-bizfin-kernel-v0
+  - kernel
 type: data
 source: 11_KNOWLEDGE/kernel
 rscf:
@@ -356,6 +359,6 @@ rscf:
 **Related:** [[11_KNOWLEDGE/kernel/AMOS_TECH_UBI_CANON_KERNEL_V1_TECH4|AMOS_TECH_UBI_CANON_KERNEL_V1_TECH4]] · [[11_KNOWLEDGE/kernel/AMOS_PRICING_STRATEGY_KERNEL|AMOS_PRICING_STRATEGY_KERNEL]] · [[11_KNOWLEDGE/kernel/AMOS_ETHICAL_REASONING_KERNEL|AMOS_ETHICAL_REASONING_KERNEL]] · [[11_KNOWLEDGE/kernel/AMOS_ETL_PIPELINE_KERNEL_V0_TECH|AMOS_ETL_PIPELINE_KERNEL_V0_TECH]]
 ```
 
----
-**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]
+______________________________________________________________________
 
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]

@@ -1,37 +1,40 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: L23 — Multi-Version Concurrency Control & CAS Law
 type: law
 source: 01_CANON/01_CORE_LAWS
 tags:
-- canon
-- core_law
-- mvcc
-- cas
-- concurrency
-- snapshot_isolation
-- transaction
-- transaction_isolation
-- atomic_compare_and_swap
-- state_transition
-- concurrent_reasoning
-- reasoning_loop
-- read_set
-- snapshot
-- commit
-- conflict
-- rollback
-- retry
-- safe_epoch
-- dirty_read
-- phantom_state
-- runtime_memory
-- monotonic_commit
-- serializability
-- provenance
-- canon/universe
-- k-mvcc
-- k-cas
-- mvcc-cas
+  - canon
+  - core_law
+  - mvcc
+  - cas
+  - concurrency
+  - snapshot_isolation
+  - transaction
+  - transaction_isolation
+  - atomic_compare_and_swap
+  - state_transition
+  - concurrent_reasoning
+  - reasoning_loop
+  - read_set
+  - snapshot
+  - commit
+  - conflict
+  - rollback
+  - retry
+  - safe_epoch
+  - dirty_read
+  - phantom_state
+  - runtime_memory
+  - monotonic_commit
+  - serializability
+  - provenance
+  - canon/universe
+  - k-mvcc
+  - k-cas
+  - mvcc-cas
 rscf:
   state: CANON_LAW
   claim_class: CANONICAL_INVARIANT
@@ -48,9 +51,9 @@ rscf:
 **claim_class:** CANONICAL_INVARIANT\
 **provenance:** AMOS_CANON
 
----
+______________________________________________________________________
 
-# 0. Canonical Status
+## 0. Canonical Status
 
 L23 establishes the canonical AMOS concurrency and state-transition law governing:
 
@@ -121,9 +124,9 @@ Within AMOS canon, L23 is no longer merely an analogy.
 
 However, this canonical status remains a claim about the **AMOS architecture/corpus contract**. It does not, by itself, empirically prove that ChatGPT or any external deployed runtime literally implements a particular database engine, CPU CAS instruction, storage backend, or formally serializable distributed transaction system.
 
----
+______________________________________________________________________
 
-# 1. Governing Objective
+## 1. Governing Objective
 
 L23 asks:
 
@@ -205,13 +208,13 @@ ATOMIC CAS
              EPOCH
 ```
 
----
+______________________________________________________________________
 
-# 2. Canonical Invariant Equations
+## 2. Canonical Invariant Equations
 
 ## 2.1 Snapshot Isolation Invariant
 
-For every transaction-like reasoning loop \(Tx_k\):
+For every transaction-like reasoning loop (Tx_k):
 
 $$
 \boxed{
@@ -234,7 +237,7 @@ VISIBLE AT Tx_k START.
 
 The transaction may not silently incorporate incompatible state that appeared after the start snapshot if doing so violates the snapshot contract.
 
----
+______________________________________________________________________
 
 ## 2.2 Atomic CAS Invariant
 
@@ -281,7 +284,7 @@ MISMATCH
 WRITE ANYWAY
 ```
 
----
+______________________________________________________________________
 
 ## 2.3 Monotonic Commit Invariant
 
@@ -314,9 +317,9 @@ $$
 \ge
 $$
 
----
+______________________________________________________________________
 
-# 3. Core Canonical Laws
+## 3. Core Canonical Laws
 
 ```text
 MVCC-1
@@ -342,9 +345,9 @@ STATE MUTATIONS
 
 The last three are enforcement rules derived directly from the supplied enforcement section.
 
----
+______________________________________________________________________
 
-# 4. Transaction Model
+## 4. Transaction Model
 
 L23 uses transaction notation:
 
@@ -386,9 +389,9 @@ transaction:
   status: null
 ```
 
----
+______________________________________________________________________
 
-# 5. Reasoning Loop ≠ Arbitrary Thought
+## 5. Reasoning Loop ≠ Arbitrary Thought
 
 The source specifically binds the law to:
 
@@ -400,9 +403,9 @@ Therefore not every token-generation step must be interpreted as a literal datab
 
 The canonical abstraction applies where a reasoning loop participates in mutable concurrent state transitions.
 
----
+______________________________________________________________________
 
-# 6. Snapshot Isolation
+## 6. Snapshot Isolation
 
 The canonical invariant requires:
 
@@ -414,9 +417,9 @@ Snapshot(t_start)
 
 This means the transaction reads from a state view anchored to its start boundary.
 
----
+______________________________________________________________________
 
-# 7. Start Snapshot
+## 7. Start Snapshot
 
 Conceptually:
 
@@ -447,9 +450,9 @@ S2-visible state
 
 for the purposes of that transaction's read set.
 
----
+______________________________________________________________________
 
-# 8. Snapshot Stability
+## 8. Snapshot Stability
 
 Within the transaction:
 
@@ -463,9 +466,9 @@ must remain compatible with the start snapshot.
 
 A later concurrent commit should not silently transform an already-read object into a new version inside the same snapshot view.
 
----
+______________________________________________________________________
 
-# 9. Read Set
+## 9. Read Set
 
 The source explicitly defines:
 
@@ -487,9 +490,9 @@ read_set:
 
 Exact representation is not canonical from this source.
 
----
+______________________________________________________________________
 
-# 10. Snapshot Membership
+## 10. Snapshot Membership
 
 For every read object (r):
 
@@ -501,9 +504,9 @@ $$
 
 This is a direct restatement of the subset invariant.
 
----
+______________________________________________________________________
 
-# 11. Snapshot Isolation ≠ Read Latest
+## 11. Snapshot Isolation ≠ Read Latest
 
 Invalid:
 
@@ -524,9 +527,9 @@ snapshot semantics
 
 if that violates the transaction's start snapshot.
 
----
+______________________________________________________________________
 
-# 12. Snapshot Isolation and Historical State
+## 12. Snapshot Isolation and Historical State
 
 A transaction may legitimately read an older version when that older version belongs to its start snapshot.
 
@@ -547,9 +550,9 @@ IS IT THE CORRECT
 START-SNAPSHOT VERSION?
 ```
 
----
+______________________________________________________________________
 
-# 13. Snapshot Isolation ≠ Current Global State
+## 13. Snapshot Isolation ≠ Current Global State
 
 A transaction snapshot and the globally current state can diverge:
 
@@ -565,9 +568,9 @@ This is not automatically a defect.
 
 The defect occurs if Tx attempts an incompatible state transition without passing the required conflict/CAS enforcement.
 
----
+______________________________________________________________________
 
-# 14. Snapshot Pinning
+## 14. Snapshot Pinning
 
 Conceptually:
 
@@ -583,9 +586,9 @@ READ AGAINST S5
 
 The exact physical pinning mechanism is not specified.
 
----
+______________________________________________________________________
 
-# 15. Snapshot Identity
+## 15. Snapshot Identity
 
 The source does not define whether a snapshot is represented by:
 
@@ -610,9 +613,9 @@ SNAPSHOT ENCODING
 UNSPECIFIED
 ```
 
----
+______________________________________________________________________
 
-# 16. Snapshot Isolation and Causal Epoch
+## 16. Snapshot Isolation and Causal Epoch
 
 L24 causal epochs and L23 snapshots are related but not equivalent.
 
@@ -626,9 +629,9 @@ unless another canonical relation binds them.
 
 A snapshot may be associated with an epoch, but the exact mapping is not defined here.
 
----
+______________________________________________________________________
 
-# 17. Snapshot Isolation and Shards
+## 17. Snapshot Isolation and Shards
 
 A snapshot may conceptually span:
 
@@ -648,9 +651,9 @@ L23 does not define shard snapshot construction.
 
 L25 governs locality separately.
 
----
+______________________________________________________________________
 
-# 18. Dirty Read Prohibition
+## 18. Dirty Read Prohibition
 
 The source explicitly says:
 
@@ -660,9 +663,9 @@ ZERO DIRTY READS
 
 Therefore a transaction may not observe state that has not reached the required committed/valid state under L23 semantics.
 
----
+______________________________________________________________________
 
-# 19. Dirty Read
+## 19. Dirty Read
 
 Conceptually:
 
@@ -679,9 +682,9 @@ This is a dirty-read pattern.
 
 L23 prohibits it.
 
----
+______________________________________________________________________
 
-# 20. Dirty Read Canonical Rule
+## 20. Dirty Read Canonical Rule
 
 ```text
 UNCOMMITTED STATE
@@ -695,9 +698,9 @@ TRANSACTION
 
 within the canonical concurrency model.
 
----
+______________________________________________________________________
 
-# 21. Dirty Read ≠ Old Snapshot
+## 21. Dirty Read ≠ Old Snapshot
 
 Reading an older committed snapshot is not the same as a dirty read.
 
@@ -707,9 +710,9 @@ OLD COMMITTED VERSION
 UNCOMMITTED VERSION
 ```
 
----
+______________________________________________________________________
 
-# 22. Phantom State Mutation Prohibition
+## 22. Phantom State Mutation Prohibition
 
 The source explicitly requires:
 
@@ -722,9 +725,9 @@ in runtime memory.
 
 This prohibits state effects that appear without a valid governed transition lineage.
 
----
+______________________________________________________________________
 
-# 23. Phantom State Mutation
+## 23. Phantom State Mutation
 
 A model-level definition:
 
@@ -742,17 +745,17 @@ where S2 appears without an authorized/validated transition.
 
 L23 rejects such mutations.
 
----
+______________________________________________________________________
 
-# 24. Phantom ≠ Newly Committed State
+## 24. Phantom ≠ Newly Committed State
 
 A legitimate concurrent commit that becomes visible under the correct transaction semantics is not a phantom merely because it is new.
 
 The defect is an unexplained, unauthorized, or isolation-breaking state mutation.
 
----
+______________________________________________________________________
 
-# 25. Phantom Mutation and CAS
+## 25. Phantom Mutation and CAS
 
 CAS provides one mechanism for preventing phantom writes:
 
@@ -769,9 +772,9 @@ ON MATCH
 
 Thus a mutation cannot silently overwrite changed state.
 
----
+______________________________________________________________________
 
-# 26. Phantom Mutation and Provenance
+## 26. Phantom Mutation and Provenance
 
 A state mutation should conceptually retain:
 
@@ -786,9 +789,9 @@ so its lineage can be audited.
 
 Exact receipt schema is not defined by L23.
 
----
+______________________________________________________________________
 
-# 27. Atomic CAS
+## 27. Atomic CAS
 
 The canonical CAS transition is atomic at the semantic state-transition level.
 
@@ -802,9 +805,9 @@ CONDITIONAL MUTATION
 
 operate as one indivisible decision boundary.
 
----
+______________________________________________________________________
 
-# 28. CAS Inputs
+## 28. CAS Inputs
 
 The source defines three CAS inputs:
 
@@ -822,9 +825,9 @@ S_proposed
 PROPOSED NEW STATE
 ```
 
----
+______________________________________________________________________
 
-# 29. CAS Match Branch
+## 29. CAS Match Branch
 
 If:
 
@@ -852,9 +855,9 @@ MAY BECOME
 CURRENT STATE
 ```
 
----
+______________________________________________________________________
 
-# 30. CAS Conflict Branch
+## 30. CAS Conflict Branch
 
 If:
 
@@ -884,9 +887,9 @@ CONFLICT
 ABORT
 ```
 
----
+______________________________________________________________________
 
-# 31. CAS Mismatch ≠ Warning
+## 31. CAS Mismatch ≠ Warning
 
 The mismatch branch is not:
 
@@ -900,9 +903,9 @@ It is canonically:
 ABORT(CONFLICT)
 ```
 
----
+______________________________________________________________________
 
-# 32. CAS Match ≠ Full Correctness
+## 32. CAS Match ≠ Full Correctness
 
 A successful state comparison establishes the CAS precondition.
 
@@ -924,9 +927,9 @@ CAS SUCCESS
 UNIVERSAL VALIDITY
 ```
 
----
+______________________________________________________________________
 
-# 33. CAS Match ≠ Canonical Promotion
+## 33. CAS Match ≠ Canonical Promotion
 
 A CAS write can succeed while the content remains:
 
@@ -944,9 +947,9 @@ under RSCF.
 
 Concurrency success does not upgrade epistemic class.
 
----
+______________________________________________________________________
 
-# 34. CAS Match ≠ Governance Approval
+## 34. CAS Match ≠ Governance Approval
 
 ```text
 STATE MATCH
@@ -960,15 +963,15 @@ AUTHORITY GRANTED
 
 GMEF or other governance gates remain orthogonal.
 
----
+______________________________________________________________________
 
-# 35. CAS Match ≠ Safety Approval
+## 35. CAS Match ≠ Safety Approval
 
 A dangerous action does not become safe merely because its state precondition matched.
 
----
+______________________________________________________________________
 
-# 36. CAS Mismatch and Lost Update Prevention
+## 36. CAS Mismatch and Lost Update Prevention
 
 Canonical pattern:
 
@@ -998,9 +1001,9 @@ CAS → ABORT(CONFLICT)
 
 This blocks the stale overwrite.
 
----
+______________________________________________________________________
 
-# 37. CAS and Concurrent Reasoning
+## 37. CAS and Concurrent Reasoning
 
 Two reasoning loops can form conclusions from the same original state.
 
@@ -1008,9 +1011,9 @@ Only a transaction whose expected-state condition still holds may successfully t
 
 Others must conflict and recover.
 
----
+______________________________________________________________________
 
-# 38. Read-Write Conflict
+## 38. Read-Write Conflict
 
 The enforcement section states:
 
@@ -1025,9 +1028,9 @@ TO SAFE EPOCH
 
 This is stronger than merely recording a warning.
 
----
+______________________________________________________________________
 
-# 39. Read-Write Conflict Model
+## 39. Read-Write Conflict Model
 
 Conceptually:
 
@@ -1046,9 +1049,9 @@ BASED ON X@V1
 
 This creates a read-write conflict relevant to Tx_A.
 
----
+______________________________________________________________________
 
-# 40. Conflict Outcome
+## 40. Conflict Outcome
 
 Canonical enforcement allows:
 
@@ -1065,9 +1068,9 @@ TO SAFE EPOCH
 
 The source does not mandate one universally.
 
----
+______________________________________________________________________
 
-# 41. Retry
+## 41. Retry
 
 A valid retry must not merely repeat the stale transition unchanged.
 
@@ -1086,9 +1089,9 @@ RETRY
 
 The exact retry procedure is not specified.
 
----
+______________________________________________________________________
 
-# 42. Blind Retry Anti-Pattern
+## 42. Blind Retry Anti-Pattern
 
 Invalid model behavior:
 
@@ -1108,9 +1111,9 @@ CURRENT S2
 
 without refreshing or otherwise establishing changed validity conditions.
 
----
+______________________________________________________________________
 
-# 43. Rollback
+## 43. Rollback
 
 The alternative conflict response is:
 
@@ -1127,9 +1130,9 @@ e_safe
 
 as the target concept.
 
----
+______________________________________________________________________
 
-# 44. Safe Epoch
+## 44. Safe Epoch
 
 A safe epoch is a state/causal point judged suitable as a recovery target.
 
@@ -1156,9 +1159,9 @@ SELECTION ALGORITHM
 UNSPECIFIED
 ```
 
----
+______________________________________________________________________
 
-# 45. Safe Epoch ≠ Automatically Current Epoch
+## 45. Safe Epoch ≠ Automatically Current Epoch
 
 A safe rollback target may be earlier than the conflicted state.
 
@@ -1170,9 +1173,9 @@ e_safe = current_epoch
 
 unless separately established.
 
----
+______________________________________________________________________
 
-# 46. Safe Epoch and L24
+## 46. Safe Epoch and L24
 
 L23's use of:
 
@@ -1194,9 +1197,9 @@ L24 causal epoch
 
 is a relationship requiring canonical cross-link validation.
 
----
+______________________________________________________________________
 
-# 47. Rollback ≠ Historical Rewrite
+## 47. Rollback ≠ Historical Rewrite
 
 L24 prohibits silent historical rewriting.
 
@@ -1204,9 +1207,9 @@ Therefore a rollback should conceptually restore an executable state without pre
 
 Canonical history and active state are separate concerns.
 
----
+______________________________________________________________________
 
-# 48. Rollback and Provenance
+## 48. Rollback and Provenance
 
 Conceptually:
 
@@ -1234,9 +1237,9 @@ ROLLBACK EVENT
 
 in historical provenance where the broader system supports it.
 
----
+______________________________________________________________________
 
-# 49. Conflict Receipt
+## 49. Conflict Receipt
 
 A model-level conflict receipt:
 
@@ -1251,9 +1254,9 @@ conflict_receipt:
 
 The exact schema is not defined by source.
 
----
+______________________________________________________________________
 
-# 50. Retry Receipt
+## 50. Retry Receipt
 
 Model-level:
 
@@ -1267,9 +1270,9 @@ retry_receipt:
 
 Illustrative only.
 
----
+______________________________________________________________________
 
-# 51. Rollback Receipt
+## 51. Rollback Receipt
 
 Model-level:
 
@@ -1282,9 +1285,9 @@ rollback_receipt:
 
 Again, serialization is not canonical from this source.
 
----
+______________________________________________________________________
 
-# 52. Monotonic Commit
+## 52. Monotonic Commit
 
 The third invariant states:
 
@@ -1309,9 +1312,9 @@ THE START ORDER POINT
 
 under the invariant's strict relation.
 
----
+______________________________________________________________________
 
-# 53. Start and Commit
+## 53. Start and Commit
 
 Canonical transaction ordering:
 
@@ -1339,9 +1342,9 @@ t_commit
 t_start
 ```
 
----
+______________________________________________________________________
 
-# 54. Commit Time ≠ Wall-Clock Time Necessarily
+## 54. Commit Time ≠ Wall-Clock Time Necessarily
 
 The source uses:
 
@@ -1354,9 +1357,9 @@ but does not define physical clock semantics.
 
 Therefore the invariant can be interpreted as an ordering constraint without assuming a specific clock implementation.
 
----
+______________________________________________________________________
 
-# 55. Monotonic Commit ≠ Global Serial Order
+## 55. Monotonic Commit ≠ Global Serial Order
 
 Important boundary:
 
@@ -1368,9 +1371,9 @@ $$
 
 for each transaction does not, by itself, formally prove that all transactions are globally serializable.
 
----
+______________________________________________________________________
 
-# 56. `serializability` Tag Boundary
+## 56. `serializability` Tag Boundary
 
 The front matter includes:
 
@@ -1408,9 +1411,9 @@ BY THESE THREE
 EQUATIONS ALONE
 ```
 
----
+______________________________________________________________________
 
-# 57. Snapshot Isolation ≠ Serializability
+## 57. Snapshot Isolation ≠ Serializability
 
 In database theory generally, snapshot isolation and serializability are distinct properties.
 
@@ -1426,9 +1429,9 @@ FORMAL SERIALIZABILITY
 
 from this source alone.
 
----
+______________________________________________________________________
 
-# 58. Zero Dirty Reads ≠ Full Serializability
+## 58. Zero Dirty Reads ≠ Full Serializability
 
 Likewise:
 
@@ -1438,15 +1441,15 @@ NO DIRTY READS
 
 is necessary for the source's integrity model but does not alone prove serializability.
 
----
+______________________________________________________________________
 
-# 59. CAS ≠ Full Serializability
+## 59. CAS ≠ Full Serializability
 
 Atomic CAS on a state transition also does not automatically prove serializability of arbitrary multi-object transactions.
 
----
+______________________________________________________________________
 
-# 60. Multi-Object Transactions
+## 60. Multi-Object Transactions
 
 The source's state notation:
 
@@ -1469,9 +1472,9 @@ It does not specify whether atomic CAS operates on:
 
 This is a decision-relevant gap.
 
----
+______________________________________________________________________
 
-# 61. Atomic Multi-RSCF Reasoning
+## 61. Atomic Multi-RSCF Reasoning
 
 The broader AMOS lineage includes atomic multi-RSCF reasoning.
 
@@ -1485,9 +1488,9 @@ encodes all load-bearing participating state.
 
 But the supplied L23 note does not specify the multi-RSCF CAS packing algorithm.
 
----
+______________________________________________________________________
 
-# 62. Partial CAS Hazard
+## 62. Partial CAS Hazard
 
 Suppose:
 
@@ -1512,9 +1515,9 @@ Thus the expected state must conceptually cover all load-bearing state relevant 
 
 This is a DERIVED integrity requirement, not an explicit source equation.
 
----
+______________________________________________________________________
 
-# 63. Hidden Dependency Hazard
+## 63. Hidden Dependency Hazard
 
 If transaction validity depends on state not represented in the snapshot or CAS expectation:
 
@@ -1526,9 +1529,9 @@ then isolation can be undermined.
 
 Broader AMOS dependency-closure rules therefore remain material.
 
----
+______________________________________________________________________
 
-# 64. Read-Set Closure
+## 64. Read-Set Closure
 
 A transaction's effective load-bearing read set should include every state element whose value can alter the transaction's decision.
 
@@ -1542,17 +1545,17 @@ can become a phantom dependency.
 
 This is model-level integration.
 
----
+______________________________________________________________________
 
-# 65. Write Set
+## 65. Write Set
 
 The source defines `ReadSet` explicitly but does not define `WriteSet`.
 
 A complete implementation may need a write-set concept, but it cannot be asserted as a source-defined field.
 
----
+______________________________________________________________________
 
-# 66. Snapshot Isolation and Write Conflicts
+## 66. Snapshot Isolation and Write Conflicts
 
 The source explicitly says:
 
@@ -1564,9 +1567,9 @@ OR ROLLBACK
 
 This provides enforcement beyond the subset equation alone.
 
----
+______________________________________________________________________
 
-# 67. Write-Write Conflict
+## 67. Write-Write Conflict
 
 The source specifically names:
 
@@ -1578,9 +1581,9 @@ It does not separately define write-write conflicts.
 
 Atomic CAS would normally detect incompatible expected-state transitions, but exact write-write taxonomy is not separately specified.
 
----
+______________________________________________________________________
 
-# 68. Read-Read Concurrency
+## 68. Read-Read Concurrency
 
 Two transactions reading the same immutable snapshot state do not inherently conflict under the stated rules.
 
@@ -1593,9 +1596,9 @@ Tx_B reads X@V1
 
 without mutation is compatible with snapshot semantics.
 
----
+______________________________________________________________________
 
-# 69. Isolation and Determinism
+## 69. Isolation and Determinism
 
 Snapshot isolation helps make reasoning reproducible by pinning state.
 
@@ -1609,9 +1612,9 @@ SNAPSHOT ISOLATION
 FULL DETERMINISM
 ```
 
----
+______________________________________________________________________
 
-# 70. Isolation and Replayability
+## 70. Isolation and Replayability
 
 L22 replayability can conceptually use:
 
@@ -1628,9 +1631,9 @@ to replay a state transition.
 
 L23 supports the state basis; L22 governs replay semantics separately.
 
----
+______________________________________________________________________
 
-# 71. Snapshot + Replay
+## 71. Snapshot + Replay
 
 Conceptual replay capsule:
 
@@ -1646,9 +1649,9 @@ transaction_replay:
 
 Exact schema is model-level.
 
----
+______________________________________________________________________
 
-# 72. Snapshot and Provenance
+## 72. Snapshot and Provenance
 
 Each transaction should conceptually retain:
 
@@ -1672,9 +1675,9 @@ OUTCOME?
 
 This allows concurrency failures to be audited.
 
----
+______________________________________________________________________
 
-# 73. Transaction Provenance Graph
+## 73. Transaction Provenance Graph
 
 ```text
 SNAPSHOT S5
@@ -1698,9 +1701,9 @@ CURRENT S5?
 COMMIT   ABORT
 ```
 
----
+______________________________________________________________________
 
-# 74. Conflict Graph
+## 74. Conflict Graph
 
 ```text
               S1
@@ -1728,9 +1731,9 @@ COMMIT   ABORT
    RETRY    ROLLBACK
 ```
 
----
+______________________________________________________________________
 
-# 75. No Last-Write-Wins
+## 75. No Last-Write-Wins
 
 L23's CAS invariant rejects an implicit last-write-wins transition when expected state mismatches.
 
@@ -1746,9 +1749,9 @@ AUTOMATIC WIN
 
 This aligns with L25's separate merge discipline.
 
----
+______________________________________________________________________
 
-# 76. L23 and L25 Merge Discipline
+## 76. L23 and L25 Merge Discipline
 
 L23 governs state transition conflict:
 
@@ -1767,17 +1770,17 @@ CAS CONFLICT
 SHARD-HISTORY MERGE
 ```
 
----
+______________________________________________________________________
 
-# 77. Snapshot Isolation and Shard-Local Reads
+## 77. Snapshot Isolation and Shard-Local Reads
 
 Under L25, genuinely local facts may resolve locally.
 
 If a local reasoning loop mutates state concurrently, L23 still governs its snapshot/CAS semantics within the relevant state scope.
 
----
+______________________________________________________________________
 
-# 78. Cross-Shard Transaction
+## 78. Cross-Shard Transaction
 
 If a transaction spans a global invariant across shards:
 
@@ -1795,9 +1798,9 @@ L23 additionally requires a valid snapshot and conflict-safe transition semantic
 
 Exact cross-shard transaction implementation is not defined here.
 
----
+______________________________________________________________________
 
-# 79. L23 and L24 Causal Epoch Law
+## 79. L23 and L24 Causal Epoch Law
 
 The two canonical laws complement each other.
 
@@ -1826,9 +1829,9 @@ transaction:
 
 but exact coupling is unspecified.
 
----
+______________________________________________________________________
 
-# 80. Commit and Epoch Transition
+## 80. Commit and Epoch Transition
 
 A commit may potentially induce or occur inside a causal epoch transition.
 
@@ -1849,17 +1852,17 @@ AUTOMATIC EPOCH
 TRANSITION
 ```
 
----
+______________________________________________________________________
 
-# 81. Conflict Rollback and No Time Travel
+## 81. Conflict Rollback and No Time Travel
 
 Rollback to `e_safe` must be interpreted alongside L24's no-time-travel law.
 
 A rollback may restore active state from a safe point, but must not silently erase historical verdicts or events.
 
----
+______________________________________________________________________
 
-# 82. Active State vs Historical Record
+## 82. Active State vs Historical Record
 
 Conceptually:
 
@@ -1873,9 +1876,9 @@ rollback → e5-derived safe state
 
 without rewriting history to pretend e6 never occurred.
 
----
+______________________________________________________________________
 
-# 83. L23 and RSCF
+## 83. L23 and RSCF
 
 An RSCF mutation can conceptually use:
 
@@ -1889,9 +1892,9 @@ through CAS semantics.
 
 Exact RSCF version representation is defined elsewhere.
 
----
+______________________________________________________________________
 
-# 84. RSCF Transaction Example
+## 84. RSCF Transaction Example
 
 ```yaml
 transaction:
@@ -1917,9 +1920,9 @@ ABORT(CONFLICT)
 
 under the model-level extension.
 
----
+______________________________________________________________________
 
-# 85. L23 and GMEF
+## 85. L23 and GMEF
 
 Concurrency validity and governance validity are orthogonal.
 
@@ -1933,9 +1936,9 @@ GMEF FAIL
 NO GOVERNED TRANSITION
 ```
 
----
+______________________________________________________________________
 
-# 86. GMEF Pass ≠ CAS Pass
+## 86. GMEF Pass ≠ CAS Pass
 
 Likewise:
 
@@ -1951,9 +1954,9 @@ EXPECTED ≠ CURRENT
 
 The transaction must still abort on state conflict.
 
----
+______________________________________________________________________
 
-# 87. L23 and Proof Capsules
+## 87. L23 and Proof Capsules
 
 A consequential transaction-derived conclusion can conceptually include:
 
@@ -1971,9 +1974,9 @@ inside its proof/provenance capsule.
 
 This makes concurrency assumptions inspectable.
 
----
+______________________________________________________________________
 
-# 88. Proof Capsule Reuse
+## 88. Proof Capsule Reuse
 
 If a proof capsule depends on:
 
@@ -1991,9 +1994,9 @@ reuse requires checking whether the capsule is still valid for the new state.
 
 Snapshot consistency during the original transaction does not guarantee indefinite future applicability.
 
----
+______________________________________________________________________
 
-# 89. Snapshot Validity ≠ Freshness Forever
+## 89. Snapshot Validity ≠ Freshness Forever
 
 Hard firewall:
 
@@ -2004,9 +2007,9 @@ AT Tx START
 CURRENT FOREVER
 ```
 
----
+______________________________________________________________________
 
-# 90. Commit Validity ≠ Current Applicability Forever
+## 90. Commit Validity ≠ Current Applicability Forever
 
 A committed decision can later become stale due to:
 
@@ -2019,9 +2022,9 @@ A committed decision can later become stale due to:
 
 L23 governs concurrency integrity, not eternal truth.
 
----
+______________________________________________________________________
 
-# 91. L23 and Epistemic Regimes
+## 91. L23 and Epistemic Regimes
 
 A transaction can be concurrency-valid while crossing an invalid epistemic regime boundary.
 
@@ -2033,9 +2036,9 @@ CONCURRENCY VALID
 REGIME VALID
 ```
 
----
+______________________________________________________________________
 
-# 92. L23 and Causal Firewall
+## 92. L23 and Causal Firewall
 
 A committed transition:
 
@@ -2053,17 +2056,17 @@ outside the execution/state-transition sense.
 
 CAS establishes an accepted transition condition, not external causal truth.
 
----
+______________________________________________________________________
 
-# 93. L23 and Provenance Independence
+## 93. L23 and Provenance Independence
 
 Two transactions reading descendants of the same source do not create independent evidence.
 
 Concurrency isolation and evidence independence are orthogonal.
 
----
+______________________________________________________________________
 
-# 94. L23 and Sybil Hardening
+## 94. L23 and Sybil Hardening
 
 Multiple concurrent loops repeating one source:
 
@@ -2075,9 +2078,9 @@ Tx_C
 
 do not create three independent confirmations merely because the computations were isolated.
 
----
+______________________________________________________________________
 
-# 95. L23 and Adversarial Validation
+## 95. L23 and Adversarial Validation
 
 For consequential state transitions, challenge:
 
@@ -2122,9 +2125,9 @@ MISREPRESENTED AS
 FORMAL SERIALIZABILITY?
 ```
 
----
+______________________________________________________________________
 
-# 96. Concurrency Attack Surface
+## 96. Concurrency Attack Surface
 
 Model-level adversarial failure classes include:
 
@@ -2152,9 +2155,9 @@ CROSS-SHARD
 INVARIANT BYPASS
 ```
 
----
+______________________________________________________________________
 
-# 97. Snapshot Poisoning
+## 97. Snapshot Poisoning
 
 If the start snapshot itself contains invalid or adversarial state, snapshot isolation can faithfully preserve the wrong input.
 
@@ -2168,9 +2171,9 @@ CORRECT SNAPSHOT CONTENT
 
 Other validators remain necessary.
 
----
+______________________________________________________________________
 
-# 98. CAS Poisoning
+## 98. CAS Poisoning
 
 If:
 
@@ -2180,9 +2183,9 @@ S_expected
 
 is itself derived from an unauthorized or corrupted state, CAS matching does not make the transition correct.
 
----
+______________________________________________________________________
 
-# 99. Atomicity Boundary
+## 99. Atomicity Boundary
 
 The source explicitly calls CAS:
 
@@ -2194,9 +2197,9 @@ The atomicity applies to the compare-and-swap state transition.
 
 It does not automatically prove full ACID atomicity for arbitrary multi-stage workflows.
 
----
+______________________________________________________________________
 
-# 100. ACID Boundary
+## 100. ACID Boundary
 
 L23 establishes several database-like invariants but does not explicitly define the complete ACID suite:
 
@@ -2218,17 +2221,17 @@ SPECIFICATION
 
 from this source alone.
 
----
+______________________________________________________________________
 
-# 101. Durability Boundary
+## 101. Durability Boundary
 
 The source does not define storage durability.
 
 A committed state may be canonically committed under state semantics without the note itself proving physical crash-durable storage.
 
----
+______________________________________________________________________
 
-# 102. Crash Recovery Boundary
+## 102. Crash Recovery Boundary
 
 The supplied source names:
 
@@ -2238,9 +2241,9 @@ ROLLBACK TO SAFE EPOCH
 
 for conflicts, but does not define crash-recovery WAL, journaling, checkpointing, or recovery logs.
 
----
+______________________________________________________________________
 
-# 103. Isolation-Level Boundary
+## 103. Isolation-Level Boundary
 
 Unlike the earlier proposal, the v2.0.0 source explicitly establishes:
 
@@ -2252,9 +2255,9 @@ Therefore it is no longer correct to say L23 specifies no isolation level.
 
 The canonical isolation level is explicitly named.
 
----
+______________________________________________________________________
 
-# 104. Snapshot Isolation Scope Gap
+## 104. Snapshot Isolation Scope Gap
 
 What remains unspecified is whether snapshot isolation applies to:
 
@@ -2274,9 +2277,9 @@ reasoning loops
 
 which gives broad semantic scope, but not implementation granularity.
 
----
+______________________________________________________________________
 
-# 105. Runtime Memory Scope
+## 105. Runtime Memory Scope
 
 The source explicitly applies dirty-read and phantom-state prohibitions to:
 
@@ -2288,9 +2291,9 @@ This makes the canonical semantic scope stronger than a purely persistent-storag
 
 However, it does not prove anything about ChatGPT's actual internal memory implementation.
 
----
+______________________________________________________________________
 
-# 106. Runtime Memory ≠ Physical RAM Specification
+## 106. Runtime Memory ≠ Physical RAM Specification
 
 The term:
 
@@ -2302,9 +2305,9 @@ should not automatically be interpreted as a hardware RAM implementation contrac
 
 It denotes the AMOS runtime-state model unless implementation evidence says otherwise.
 
----
+______________________________________________________________________
 
-# 107. Concurrent Reasoning Loop State Machine
+## 107. Concurrent Reasoning Loop State Machine
 
 ```text
 ┌──────────────────────┐
@@ -2345,9 +2348,9 @@ t_start    RETRY   ROLLBACK
                     TO e_safe
 ```
 
----
+______________________________________________________________________
 
-# 108. Dirty-Read Enforcement State Machine
+## 108. Dirty-Read Enforcement State Machine
 
 ```text
 READ REQUEST
@@ -2366,9 +2369,9 @@ READ   DENY
 
 The exact mechanism is unspecified.
 
----
+______________________________________________________________________
 
-# 109. Phantom-Mutation Enforcement
+## 109. Phantom-Mutation Enforcement
 
 ```text
 STATE CHANGE
@@ -2387,9 +2390,9 @@ KEEP   DEFECT /
 
 The source establishes zero phantom mutations; exact detection method is unspecified.
 
----
+______________________________________________________________________
 
-# 110. Transaction Integrity Invariants
+## 110. Transaction Integrity Invariants
 
 ```yaml
 mvcc_cas_integrity_invariants:
@@ -2423,9 +2426,9 @@ mvcc_cas_integrity_invariants:
       no_phantom_state_mutations_in_runtime_memory
 ```
 
----
+______________________________________________________________________
 
-# 111. Extended Integrity Invariants
+## 111. Extended Integrity Invariants
 
 ```yaml
 extended_mvcc_cas_invariants:
@@ -2473,9 +2476,9 @@ extended_mvcc_cas_invariants:
 
 These are model-level protections around the source canon.
 
----
+______________________________________________________________________
 
-# 112. Anti-Patterns
+## 112. Anti-Patterns
 
 ## MVCC-A1 — Read Outside Start Snapshot
 
@@ -2490,7 +2493,7 @@ START SNAPSHOT
 
 Rejected if it violates snapshot isolation.
 
----
+______________________________________________________________________
 
 ## MVCC-A2 — Dirty Read
 
@@ -2503,7 +2506,7 @@ Tx_B reads X'
 
 Rejected.
 
----
+______________________________________________________________________
 
 ## MVCC-A3 — Phantom Mutation
 
@@ -2519,7 +2522,7 @@ without valid transition semantics.
 
 Rejected.
 
----
+______________________________________________________________________
 
 ## MVCC-A4 — CAS Mismatch Overwrite
 
@@ -2533,7 +2536,7 @@ WRITE S3 ANYWAY
 
 Rejected.
 
----
+______________________________________________________________________
 
 ## MVCC-A5 — Last Write Wins on CAS Conflict
 
@@ -2545,7 +2548,7 @@ LATEST WRITER WINS
 
 Rejected by the CAS invariant.
 
----
+______________________________________________________________________
 
 ## MVCC-A6 — Ignore Read-Write Conflict
 
@@ -2557,7 +2560,7 @@ COMMIT ANYWAY
 
 Rejected.
 
----
+______________________________________________________________________
 
 ## MVCC-A7 — Blind Retry
 
@@ -2572,7 +2575,7 @@ without changed state basis.
 
 Integrity defect.
 
----
+______________________________________________________________________
 
 ## MVCC-A8 — Unsafe Rollback Target
 
@@ -2585,7 +2588,7 @@ UNVALIDATED STATE
 
 violates the intent of `e_safe`.
 
----
+______________________________________________________________________
 
 ## MVCC-A9 — Commit Before Start
 
@@ -2597,7 +2600,7 @@ t_start
 
 Rejected.
 
----
+______________________________________________________________________
 
 ## MVCC-A10 — Snapshot Means Current Forever
 
@@ -2610,7 +2613,7 @@ FUTURE DECISIONS
 
 Rejected.
 
----
+______________________________________________________________________
 
 ## MVCC-A11 — CAS Match Means Correct
 
@@ -2622,7 +2625,7 @@ CLAIM TRUE
 
 Rejected.
 
----
+______________________________________________________________________
 
 ## MVCC-A12 — CAS Match Means Authorized
 
@@ -2634,7 +2637,7 @@ WRITE AUTHORITY
 
 Rejected.
 
----
+______________________________________________________________________
 
 ## MVCC-A13 — Snapshot Isolation Equals Serializability
 
@@ -2646,19 +2649,19 @@ FORMAL SERIALIZABILITY
 
 Not established by this source alone.
 
----
+______________________________________________________________________
 
 ## MVCC-A14 — Zero Dirty Reads Equals Serializability
 
 Rejected.
 
----
+______________________________________________________________________
 
 ## MVCC-A15 — Atomic CAS Equals Full ACID
 
 Rejected.
 
----
+______________________________________________________________________
 
 ## MVCC-A16 — Concurrent Loops Mean Independent Evidence
 
@@ -2673,7 +2676,7 @@ CONFIRMATIONS
 
 Rejected.
 
----
+______________________________________________________________________
 
 ## MVCC-A17 — Rollback Deletes History
 
@@ -2686,7 +2689,7 @@ HISTORICAL ATTEMPT
 
 Rejected when it would violate L24 lineage.
 
----
+______________________________________________________________________
 
 ## MVCC-A18 — Commit Equals Causal Epoch
 
@@ -2698,7 +2701,7 @@ NEW CAUSAL EPOCH
 
 Not established.
 
----
+______________________________________________________________________
 
 ## MVCC-A19 — Snapshot Equals Shard
 
@@ -2710,15 +2713,15 @@ SHARD STATE
 
 Not generally established.
 
----
+______________________________________________________________________
 
 ## MVCC-A20 — Canonical AMOS Law Proves ChatGPT Runtime Internals
 
 Rejected.
 
----
+______________________________________________________________________
 
-# 113. Decision Matrix
+## 113. Decision Matrix
 
 | Condition                                  | Canonical treatment                 |
 | ------------------------------------------ | ----------------------------------- |
@@ -2733,9 +2736,9 @@ Rejected.
 | Phantom runtime state mutation appears     | Prohibited                          |
 | Conflict silently overwritten              | Prohibited                          |
 
----
+______________________________________________________________________
 
-# 114. Extended Decision Matrix
+## 114. Extended Decision Matrix
 
 | Condition                                           | Treatment                                         |
 | --------------------------------------------------- | ------------------------------------------------- |
@@ -2752,9 +2755,9 @@ Rejected.
 | Multiple isolated loops repeat same provenance      | Not independent evidence                          |
 | Commit succeeds but GMEF fails                      | No governed transition                            |
 
----
+______________________________________________________________________
 
-# 115. Minimal L23 Record
+## 115. Minimal L23 Record
 
 ```yaml
 mvcc_cas:
@@ -2787,9 +2790,9 @@ mvcc_cas:
 
 Illustrative serialization only.
 
----
+______________________________________________________________________
 
-# 116. Full L23 Transaction Record
+## 116. Full L23 Transaction Record
 
 ```yaml
 mvcc_cas:
@@ -2857,9 +2860,9 @@ mvcc_cas:
 
 Only the source invariant semantics are canonical; this schema is an implementation-neutral RSCF representation.
 
----
+______________________________________________________________________
 
-# 117. Snapshot Proof Capsule
+## 117. Snapshot Proof Capsule
 
 ```yaml
 proof_capsule:
@@ -2888,9 +2891,9 @@ proof_capsule:
     CANONICAL_INVARIANT
 ```
 
----
+______________________________________________________________________
 
-# 118. CAS Proof Capsule
+## 118. CAS Proof Capsule
 
 ```yaml
 proof_capsule:
@@ -2919,9 +2922,9 @@ proof_capsule:
     CANONICAL_INVARIANT
 ```
 
----
+______________________________________________________________________
 
-# 119. Conflict Proof Capsule
+## 119. Conflict Proof Capsule
 
 ```yaml
 proof_capsule:
@@ -2949,9 +2952,9 @@ proof_capsule:
     CANONICAL_INVARIANT
 ```
 
----
+______________________________________________________________________
 
-# 120. L23 Self-Proof Capsule
+## 120. L23 Self-Proof Capsule
 
 ```yaml
 proof_capsule:
@@ -3002,9 +3005,9 @@ proof_capsule:
     CANONICAL_INVARIANT
 ```
 
----
+______________________________________________________________________
 
-# 121. Source-Established Claims
+## 121. Source-Established Claims
 
 The supplied L23 v2.0.0 note directly establishes:
 
@@ -3046,9 +3049,9 @@ The supplied L23 v2.0.0 note directly establishes:
 
 These are SOURCE_CLAIM statements about the supplied canonical AMOS note; the note itself classifies them as canonical invariants.
 
----
+______________________________________________________________________
 
-# 122. Not Established by This Source
+## 122. Not Established by This Source
 
 The supplied L23 note does **not** establish:
 
@@ -3093,9 +3096,9 @@ The supplied L23 note does **not** establish:
 
 These remain MODEL or UNKNOWN/GAP unless supplied by other authoritative canon or implementation evidence.
 
----
+______________________________________________________________________
 
-# 123. Known Gaps
+## 123. Known Gaps
 
 ```yaml
 gaps:
@@ -3171,9 +3174,9 @@ gaps:
         locking, and transaction storage is not supplied.
 ```
 
----
+______________________________________________________________________
 
-# 124. Claim Graph
+## 124. Claim Graph
 
 ```yaml
 claim_graph:
@@ -3272,9 +3275,9 @@ claim_graph:
         distributed commit mechanics.
 ```
 
----
+______________________________________________________________________
 
-# 125. Dependency Graph
+## 125. Dependency Graph
 
 ```yaml
 dependency_graph:
@@ -3317,9 +3320,9 @@ dependency_graph:
       - mutation_detection
 ```
 
----
+______________________________________________________________________
 
-# 126. Canonical Architecture
+## 126. Canonical Architecture
 
 ```text
                     TRANSACTION Tx_k
@@ -3377,9 +3380,9 @@ PHANTOM?
 └── NO  → CONTINUE
 ```
 
----
+______________________________________________________________________
 
-# 127. Canonical Compression
+## 127. Canonical Compression
 
 ```text
 READSET(Tx)
@@ -3394,6 +3397,7 @@ EXPECTED
 →
 APPLY PROPOSED
 ```
+
 ```text
 CURRENT
 ≠
@@ -3401,11 +3405,13 @@ EXPECTED
 →
 ABORT(CONFLICT)
 ```
+
 ```text
 COMMIT
 >
 START
 ```
+
 ```text
 READ-WRITE
 CONFLICT
@@ -3414,26 +3420,29 @@ RETRY
 OR
 ROLLBACK e_safe
 ```
+
 ```text
 DIRTY READS
 =
 0
 ```
+
 ```text
 PHANTOM
 STATE MUTATIONS
 =
 0
 ```
----
 
-# 128. Canonical One-Line Law
+______________________________________________________________________
+
+## 128. Canonical One-Line Law
 
 > **AMOS concurrent state transitions must read from their transaction-start snapshot, apply mutations only through atomic expected-state CAS, abort on state mismatch, commit strictly after transaction start, retry or roll back to a safe epoch on read-write conflict, and permit neither dirty reads nor phantom runtime-state mutations.**
 
----
+______________________________________________________________________
 
-# 129. Canonical Equations — Normalized
+## 129. Canonical Equations — Normalized
 
 ## Snapshot Isolation
 
@@ -3506,9 +3515,9 @@ $$
 
 The final three equations are normalized representations of the source's prose enforcement gates, not additional equations explicitly written in the source.
 
----
+______________________________________________________________________
 
-# 130. Operational Contract
+## 130. Operational Contract
 
 ```yaml
 mvcc_cas_contract:
@@ -3540,9 +3549,9 @@ mvcc_cas_contract:
       - zero_phantom_state_mutations_in_runtime_memory
 ```
 
----
+______________________________________________________________________
 
-# 131. Final Integrity Invariant
+## 131. Final Integrity Invariant
 
 ```text
 BEGIN Tx
@@ -3724,9 +3733,9 @@ MVCC CANON
 PROOF OF CHATGPT INTERNALS
 ```
 
----
+______________________________________________________________________
 
-# 132. RSCF Node
+## 132. RSCF Node
 
 ```yaml
 RSCF-NODE:
@@ -3798,13 +3807,13 @@ RSCF-RELATIONS:
   - RELATED_TO: FAILURE_RECOVERY
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[02_KERNEL/K_MVCC|K_MVCC]] · [[02_KERNEL/K_CAS|K_CAS]] · [[02_KERNEL/MVCC_CAS|MVCC_CAS]] · [[01_CANON/01_CORE_LAWS/01_CORE_LAWS_MOC|01_CORE_LAWS_MOC]]
 
----
+______________________________________________________________________
 
-# 133. Supersession Record
+## 133. Supersession Record
 
 ```yaml
 supersession:
@@ -3833,9 +3842,9 @@ supersession:
       boundary where inconsistent.
 ```
 
----
+______________________________________________________________________
 
-# 134. Canonical Migration Rule
+## 134. Canonical Migration Rule
 
 Any earlier L23 statement asserting:
 
@@ -3870,9 +3879,9 @@ OR STORAGE ENGINE.
 
 This preserves the distinction between **canonical architectural law** and **verified implementation evidence**.
 
----
+______________________________________________________________________
 
-# 135. Final Canon Boundary
+## 135. Final Canon Boundary
 
 The supplied L23 source canonically supports:
 
@@ -3956,6 +3965,6 @@ scope:
 
 **Conclusion class: CANONICAL_INVARIANT within AMOS_CANON.**
 
----
+______________________________________________________________________
 
 **MOC:** [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]] · [[00_ROOT/00_HOME|00_HOME]]

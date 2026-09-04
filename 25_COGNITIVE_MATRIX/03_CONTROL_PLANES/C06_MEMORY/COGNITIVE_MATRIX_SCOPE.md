@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: COGNITIVE MATRIX SCOPE
 type: note
 source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C06_MEMORY
 tags:
-- note
-- c06-memory
-- domain/cognitive-matrix
-- memory
-- trang-framework-recursive-ontology-dynamics
+  - note
+  - c06-memory
+  - domain/cognitive-matrix
+  - memory
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -40,21 +43,23 @@ MODEL != VERIFIED
 UNKNOWN/GAP != PASS
 ```
 
----
+______________________________________________________________________
 
 [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: c06_planes_scope
 node_type: note
 path: 03_CONTROL_PLANES/C06_MEMORY/COGNITIVE_MATRIX_SCOPE.md
 claim_class: DERIVED
-node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C06_MEMORY/COGNITIVE_MATRIX_SCOPE.md
+node_path_note: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C06_MEMORY/COGNITIVE_MATRIX_SCOPE.md
 
----
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C06_MEMORY/C06_MEMORY_MOC|C06_MEMORY_MOC]]
 
----
-**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+______________________________________________________________________
 
+**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

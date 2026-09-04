@@ -1,14 +1,17 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Vault Domain Knowledge — Amos Natural Evidence Trail Reasoning Rscf
 type: reference
 source: 07_SKILLS/amos-natural-evidence-trail-reasoning-rscf/references
 tags:
-- reference
-- amos-natural-evidence-trail-reasoning-rscf
-- type/skill
-- law-hierarchy
-- 2026-08-22-cognitive-substrate-reality-gate
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-natural-evidence-trail-reasoning-rscf
+  - type/skill
+  - law-hierarchy
+  - 2026-08-22-cognitive-substrate-reality-gate
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -29,113 +32,112 @@ rscf:
 > Path: `kernel/R/Reasoning kernel.md` | Size: 6192 chars | Match score: 13 | content_hash: 1c4cdc2e12cbda7a
 
 /-
-  CORE-19 v0.3 — Formal Spec (Lean-style)
+CORE-19 v0.3 — Formal Spec (Lean-style)
 -/
 
 universe u
 
 -- Sorts
-constant E : Type u    -- entities
-constant T : Type u    -- time points
-constant R : Type u    -- regions
-constant I : Type u    -- information
+constant E : Type u -- entities
+constant T : Type u -- time points
+constant R : Type u -- regions
+constant I : Type u -- information
 
 -- Basic predicates and functions
-constant Ex   : E → T → Prop          -- existence
-constant Caus : E → E → T → Prop      -- causality
-constant InR  : E → R → T → Prop      -- spatial location
-constant Info : E → T → I             -- information state
+constant Ex : E → T → Prop -- existence
+constant Caus : E → E → T → Prop -- causality
+constant InR : E → R → T → Prop -- spatial location
+constant Info : E → T → I -- information state
 
-constant ltT  : T → T → Prop          -- time order
+constant ltT : T → T → Prop -- time order
 infix `<ₜ` : 50 := ltT
 
-constant OpenR : R → Prop             -- open region
-constant Path  : E → E → R → Prop     -- causal path region
+constant OpenR : R → Prop -- open region
+constant Path : E → E → R → Prop -- causal path region
 
 -- Null information constant
 constant i0 : I
 
 -- Logical / meta-logical operators on propositions
-constant PLogic  : Prop → Prop        -- PositiveLogic
-constant NLogic  : Prop → Prop        -- NegativeLogic
-constant ZLogic  : Prop → Prop        -- ZeroLogic
-constant DLogic  : Prop → Prop        -- DualLogic
-constant MLogic  : Prop → Prop        -- MultiLogic
-constant MetaL   : Prop → Prop        -- MetaLogic
+constant PLogic : Prop → Prop -- PositiveLogic
+constant NLogic : Prop → Prop -- NegativeLogic
+constant ZLogic : Prop → Prop -- ZeroLogic
+constant DLogic : Prop → Prop -- DualLogic
+constant MLogic : Prop → Prop -- MultiLogic
+constant MetaL : Prop → Prop -- MetaLogic
 
-constant SupraL  : Prop → Prop        -- SupraLogic
-constant AntiL   : Prop → Prop        -- AntiLogic
-constant NullL   : Prop → Prop        -- NullLogic
+constant SupraL : Prop → Prop -- SupraLogic
+constant AntiL : Prop → Prop -- AntiLogic
+constant NullL : Prop → Prop -- NullLogic
 
 -- Meta-pattern operators on propositions
-constant Conv    : Prop → Prop        -- Λ (Convergence)
-constant Divg    : Prop → Prop        -- Δ (Divergence)
-constant Paradox : Prop → Prop        -- Π (Paradox)
+constant Conv : Prop → Prop -- Λ (Convergence)
+constant Divg : Prop → Prop -- Δ (Divergence)
+constant Paradox : Prop → Prop -- Π (Paradox)
 
 -- Derived: Nonexistence
 def NEx (x : E) (t : T) : Prop := ¬ Ex x t
 
-----------------------------------------------------------------
--- Axioms: Patterns
-----------------------------------------------------------------
+______________________________________________________________________
+
+## -- Axioms: Patterns
 
 -- A1: Nonexistence definition
 axiom A1_nonexist_def :
-  ∀ (x : E) (t : T), NEx x t ↔ ¬ Ex x t
+∀ (x : E) (t : T), NEx x t ↔ ¬ Ex x t
 
 -- A2: Existence ⇒ information defined
 axiom A2_info_defined :
-  ∀ (x : E) (t : T), Ex x t → ∃ (i : I), Info x t = i
+∀ (x : E) (t : T), Ex x t → ∃ (i : I), Info x t = i
 
 -- A3: Spatial placement ⇒ existence
 axiom A3_loc_impl_ex :
-  ∀ (x : E) (r : R) (t : T), InR x r t → Ex x t
+∀ (x : E) (r : R) (t : T), InR x r t → Ex x t
 
 -- A4: Time is a linear order
 axiom A4_time_trans :
-  ∀ t1 t2 t3 : T, t1 <ₜ t2 → t2 <ₜ t3 → t1 <ₜ t3
+∀ t1 t2 t3 : T, t1 \<ₜ t2 → t2 \<ₜ t3 → t1 \<ₜ t3
 
 axiom A4_time_antisymm :
-  ∀ t1 t2 : T, t1 <ₜ t2 → ¬ t2 <ₜ t1
+∀ t1 t2 : T, t1 \<ₜ t2 → ¬ t2 \<ₜ t1
 
 axiom A4_time_total :
-  ∀ t1 t2 : T, t1 <ₜ t2 ∨ t2 <ₜ t1 ∨ t1 = t2
+∀ t1 t2 : T, t1 \<ₜ t2 ∨ t2 \<ₜ t1 ∨ t1 = t2
 
 -- A5: Causality ⇒ existence of cause and effect
 axiom A5_caus_ex :
-  ∀ (x y : E) (t : T), Caus x y t → Ex x t ∧ Ex y t
+∀ (x y : E) (t : T), Caus x y t → Ex x t ∧ Ex y t
 
 -- A8: Causality ⇒ existence of connecting region (path)
 axiom A8_caus_path :
-  ∀ (x y : E) (t : T),
-    Caus x y t →
-    ∃ (r : R), Path x y r ∧ OpenR r ∧ InR x r t ∧ InR y r t
+∀ (x y : E) (t : T),
+Caus x y t →
+∃ (r : R), Path x y r ∧ OpenR r ∧ InR x r t ∧ InR y r t
 
 -- A9: Nonexistence ⇒ null information
 axiom A9_nonexist_null_info :
-  ∀ (x : E) (t : T), NEx x t → Info x t = i0
+∀ (x : E) (t : T), NEx x t → Info x t = i0
 
-----------------------------------------------------------------
--- Axioms: Evolution (Temporal → Identity)
-----------------------------------------------------------------
+______________________________________________________________________
+
+## -- Axioms: Evolution (Temporal → Identity)
 
 -- Evolve predicate on entity across time
 constant Evolve : E → T → T → Prop
 
 axiom A_evolve_def :
-  ∀ (x : E) (t1 t2 : T),
-    t1 <ₜ t2 →
-    ( Evolve x t1 t2 ↔
-      (Info x t1 ≠ Info x t2 ∨
+∀ (x : E) (t1 t2 : T),
+t1 \<ₜ t2 →
+( Evolve x t1 t2 ↔
+(Info x t1 ≠ Info x t2 ∨
 
-
----
+______________________________________________________________________
 
 ### Source 2: AMOS Reasoning Kernel Model
 
 > Path: `kernel/R/Reasoning_Kernel_Model.md` | Size: 1876 chars | Match score: 12 | content_hash: b92cf0e14f35cd0e
 
-# AMOS Reasoning Kernel Model
+## AMOS Reasoning Kernel Model
 
 > **Core Engine**: Reasoning Kernel
 > **Skill Mapping**: `amos-reasoning-kernel-layer`
@@ -147,29 +149,33 @@ The Reasoning Kernel provides the absolute baseline for how an AMOS agent constr
 ### Key Components
 
 #### 1. Argument Construction & Evidentiary Standards
+
 - Defines the threshold for what constitutes valid "evidence" versus "narrative" or "hallucination."
 - Mandates the use of RSCF (Reasoning Structure, Claims, & Falsifiability) capsules for all significant claims.
 
 #### 2. Deterministic Filtering
+
 - Applies the 7-gate pre-commit filter before accepting any conclusion.
 - Ensures all outputs comply with the established Law Stack and Cognitive Stack hierarchies.
 
 #### 3. Error Recovery & Competing Hypotheses
+
 - Mandates maintaining multiple competing hypotheses until outcome-changing uncertainty is resolved.
 - Establishes the rollback and recovery procedures when reasoning errors or contradictions are detected.
 
 ## Integration & Output
+
 This model is universally applicable and sits at the very core of the AMOS OS. It must be actively engaged during complex analytical tasks, strategic planning, or any scenario where the agent is required to resolve ambiguity or synthesize conflicting data sources.
 
----
+______________________________________________________________________
 
----
+______________________________________________________________________
 
 ### Source 3: Cognitive Substrate Reasoning Execution Graph
 
 > Path: `dated/2026-08-22/2026-08-22 Cognitive Substrate Reasoning Graph.md` | Size: 4567 chars | Match score: 10 | content_hash: d07906d70f9c2307
 
-# Cognitive Substrate Reasoning Execution Graph
+## Cognitive Substrate Reasoning Execution Graph
 
 > Slice 2 of the AMOS Cognitive Substrate Layer. Implements the reasoning side of
 > `R_t = (N_t, E_t, O_t, Pi_t, U_t)` with typed inference operators, transition
@@ -193,13 +199,13 @@ looked wrong.
 R_t = (N_t, E_t, O_t, Pi_t, U_t)
 ```
 
-| Component | Meaning | Gaps addressed |
-|-----------|---------|----------------|
-| N_t | Cognitive objects (nodes) | 701–704 |
-| E_t | Bindings / dependencies (edges) | 705–708 |
-| O_t | Operations performed (execution history) | 724 |
-| Pi_t | Active reasoning policy | 737–740 |
-| U_t | Localized uncertainty | 781–784 |
+| Component | Meaning                                  | Gaps addressed |
+| --------- | ---------------------------------------- | -------------- |
+| N_t       | Cognitive objects (nodes)                | 701–704        |
+| E_t       | Bindings / dependencies (edges)          | 705–708        |
+| O_t       | Operations performed (execution history) | 724            |
+| Pi_t      | Active reasoning policy                  | 737–740        |
+| U_t       | Localized uncertainty                    | 781–784        |
 
 Transition: `R_{t+1} = T_{o_t}(R_t, e_t, c_t)` with typed operator `o_t`.
 
@@ -214,6 +220,7 @@ Transition: `R_{t+1} = T_{o_t}(R_t, e_t, c_t)` with typed operator `o_t`.
 ## 4. State-transition legality (gap 717)
 
 Forbidden transitions:
+
 - `MODEL → VERIFIED` (without evidence)
 - `MODEL → DERIVED` (without evidence)
 - `UNKNOWN → VERIFIED`
@@ -226,6 +233,7 @@ and finds the **first** illegal or contradicted operation — the root cause. Th
 wrong output is merely the **symptom**.
 
 Additional outputs:
+
 - **Minimal causal cut-set**: smallest set of ops whose correction rescues the outcome.
 - **Failure lock-in point**: first op after which recovery became unlikely.
 - **Recovery opportunities**: ops that had enough info to correct but didn't.
@@ -237,9 +245,9 @@ Additional outputs:
 Uncertainty is attached to specific nodes, not whole-answer vague confidence.
 Multiple uncertainty sources compound nonline
 
----
-**MOC:** references_MOC
----
+______________________________________________________________________
+
+## **MOC:** references_MOC
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -247,12 +255,14 @@ Multiple uncertainty sources compound nonline
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-natural-evidence-trail-reasoning-rscf-vault-domain-knowledge
 node_type: reference
 path: 07_SKILLS/amos-natural-evidence-trail-reasoning-rscf/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

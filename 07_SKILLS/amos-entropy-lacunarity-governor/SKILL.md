@@ -4,24 +4,22 @@ title: SKILL — Amos Entropy Lacunarity Governor
 type: skill
 source: 07_SKILLS/amos-entropy-lacunarity-governor
 name: amos-entropy-lacunarity-governor
-description: Entropy Lacunarity Governor — info capability. Use when executing the
-  core capability within this domain. Use when amos-information-theory-master routes
-  to this specialized capability. Do not use for generic tasks outside info domain.
+description: Entropy Lacunarity Governor — info capability. Use when executing the core capability within this domain. Use when amos-information-theory-master routes to this specialized capability. Do not use for generic tasks outside info domain.
 parent_skill: amos-information-theory-master
 domain: info
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
 tags:
-- type/skill
-- type/skill
-- domain/information-theory
-- epistemic/source_claim
-- hml/m
-- epistemic/source_claim
-- amos-os
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/information-theory
+  - epistemic/source_claim
+  - hml/m
+  - epistemic/source_claim
+  - amos-os
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -31,20 +29,20 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: M
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L16
-- L17
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L16
+  - L17
 license: MIT
 steward: Trang Phan
 ---
@@ -54,6 +52,7 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: info. Parent: amos-information-theory-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
 ## When to Use
 
 - When measuring entropy and lacunarity: information content and gaps
@@ -80,12 +79,12 @@ Origin architect: **Trang Phan**. Domain: info. Parent: amos-information-theory-
 ## Operations
 
 1. **entropy_lacunarity.measure_entropy**: Measure entropy and lacunarity: information content, gaps, and structure
-2. **entropy_lacunarity.analyze_topology**: Analyze information collapse topology: how information condenses and structures
-3. **entropy_lacunarity.control_exposure**: Control information exposure: what is revealed, to whom, and under what conditions
-4. **entropy_lacunarity.map_geometry**: Map information geometry: manifolds, distances, and projections in information space
-5. **entropy_lacunarity.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-6. **entropy_lacunarity.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
-7. **entropy_lacunarity.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+1. **entropy_lacunarity.analyze_topology**: Analyze information collapse topology: how information condenses and structures
+1. **entropy_lacunarity.control_exposure**: Control information exposure: what is revealed, to whom, and under what conditions
+1. **entropy_lacunarity.map_geometry**: Map information geometry: manifolds, distances, and projections in information space
+1. **entropy_lacunarity.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+1. **entropy_lacunarity.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+1. **entropy_lacunarity.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## 11_KNOWLEDGE Vault Content
 
@@ -97,29 +96,35 @@ Origin architect: **Trang Phan**. Domain: info. Parent: amos-information-theory-
 From Cosmo Brain Vortical Persistence RSCF Architecture: AMOS Entropy/Lacunarity Governor as runtime alignment component. From QFM Bridge Governance: Entropy/lacunarity proxies with bridge discipline.
 
 **Lacunarity formula** (SOURCE_DERIVED):
+
 ```
 Λ(r) = Var[M_r] / E[M_r]² + 1
 ```
+
 - Λ(r) = lacunarity at scale r, M_r = mass at scale r, Var = variance, E = expectation
 
 **AMOS lacunarity hypothesis** (AMOS_MODEL): persistence may correlate with regime-specific structural-gap distribution.
 
 **Strict AMOS usage required** -- must specify:
+
 - representation, measurement scale, segmentation, estimator, temporal sampling, null model, uncertainty, comparator systems
 
 **Entropy typing**:
+
 - **Physical entropy**: thermodynamic entropy (physics claim)
 - **AMOS structural entropy**: structural complexity measure (AMOS_MODEL)
 
 **Bridge discipline** (from QFM Bridge Governance):
+
 - **Family ≠ identity**: shared mathematical structure does NOT permit transferring numeric values between contexts
 - **B5 entropy/lacunarity proxies**: SOURCE equations, MODEL-gated usage
 - **Unfalsifiable-as-used → MODEL**: failure to construct a wrong-conclusion case reduces claim weight rather than raising it
 
 **Governor laws**:
+
 - `PHYSICAL_ENTROPY != STRUCTURAL_ENTROPY`: physical entropy is thermodynamic; structural entropy is informational
-- `LACUNARITY != COMPLEXITY**: lacunarity measures gap distribution; complexity measures overall structure
-- `PROXY != VALUE**: entropy/lacunarity are proxies; they are not direct measurements
+- \`LACUNARITY != COMPLEXITY\*\*: lacunarity measures gap distribution; complexity measures overall structure
+- \`PROXY != VALUE\*\*: entropy/lacunarity are proxies; they are not direct measurements
 
 ### Epistemic Boundary
 
@@ -131,9 +136,10 @@ Entropy lacunarity governance is an AMOS_MODEL. It does not prove lacunarity pre
 - **Scope violation**: If the query falls outside the skill's declared scope, escalate to the parent skill or steward.
 - **Binding broken**: If 1:1:1 binding (skill→agent→workflow) is broken, flag routing mismatch and block execution.
 - **Validation failure**: If validation gates fail, downgrade confidence, flag the gap, and escalate — do not force-fit.
-- **Epistemic overre
+- \*\*Epistemic overre
 
----
+______________________________________________________________________
+
 **Links:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 ## Related
@@ -143,17 +149,19 @@ Entropy lacunarity governance is an AMOS_MODEL. It does not prove lacunarity pre
 ## Examples
 
 - **Scenario**: When measuring entropy and lacunarity: information content and gaps
+
   - **Input**: A query matching this skill's domain (info)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When analyzing information collapse topology and structure
+
   - **Input**: A query matching this skill's domain (info)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When controlling information exposure and disclosure
+
   - **Input**: A query matching this skill's domain (info)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Validation Gates
 
@@ -170,7 +178,6 @@ Entropy lacunarity governance is an AMOS_MODEL. It does not prove lacunarity pre
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `amos-information-theory-master` — routes to this skill when info specialization is needed
@@ -178,7 +185,6 @@ Entropy lacunarity governance is an AMOS_MODEL. It does not prove lacunarity pre
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -197,7 +203,6 @@ Entropy lacunarity governance is an AMOS_MODEL. It does not prove lacunarity pre
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -205,7 +210,6 @@ Entropy lacunarity governance is an AMOS_MODEL. It does not prove lacunarity pre
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -218,11 +222,12 @@ Entropy lacunarity governance is an AMOS_MODEL. It does not prove lacunarity pre
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `amos-information-theory-master` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `amos-entropy-lacunarity-governor-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -230,12 +235,14 @@ Entropy lacunarity governance is an AMOS_MODEL. It does not prove lacunarity pre
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-entropy-lacunarity-governor
 node_type: skill
 path: 07_SKILLS/amos-entropy-lacunarity-governor/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

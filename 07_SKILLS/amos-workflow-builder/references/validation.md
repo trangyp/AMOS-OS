@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: validation — References — Amos Workflow Builder
 type: reference
 source: 07_SKILLS/amos-workflow-builder/references
 tags:
-- reference
-- amos-workflow-builder
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-workflow-builder
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -20,6 +23,7 @@ rscf:
 ## Hard Gates (G1-G10)
 
 ### G1 (Frontmatter)
+
 - Type field present and equals "Workflow"
 - Skill field present and matches bound skill name
 - Agent field present and matches bound agent name
@@ -30,6 +34,7 @@ rscf:
 **Fail**: Any field missing or incorrect.
 
 ### G2 (Binding)
+
 - Workflow binds to exactly one agent
 - Workflow binds to exactly one skill
 - Agent exists in `.devin/agents/`
@@ -41,6 +46,7 @@ rscf:
 **Fail**: Any binding broken or not 1:1.
 
 ### G3 (Steps)
+
 - At least one step present
 - Every step has a number
 - Every step has an action
@@ -51,6 +57,7 @@ rscf:
 **Fail**: Any step missing action or gate.
 
 ### G4 (Gates)
+
 - Every step's gate has a name
 - Validation Gates section present
 - Every gate has pass/fail criteria
@@ -60,6 +67,7 @@ rscf:
 **Fail**: Any gate missing criteria.
 
 ### G5 (Failure Paths)
+
 - Failure Paths section present
 - Every failure path is explicit
 - Every failure path fails closed (no force-fit)
@@ -69,6 +77,7 @@ rscf:
 **Fail**: Any failure path missing or not fail-closed.
 
 ### G6 (Provenance)
+
 - Source skill path recorded
 - Source agent path recorded
 - Epistemic class labels present where applicable
@@ -78,6 +87,7 @@ rscf:
 **Fail**: Any provenance field missing.
 
 ### G7 (Epistemic)
+
 - Epistemic class labels present for derived claims
 - No claim promoted beyond its evidence
 - AMOS_MODEL labeled explicitly
@@ -87,6 +97,7 @@ rscf:
 **Fail**: Any label missing or over-promoted.
 
 ### G8 (Scope)
+
 - No step claims beyond the workflow's declared scope
 - No step claims empirical truth for AMOS_MODEL constructs
 - Trigger condition matches declared scope
@@ -95,6 +106,7 @@ rscf:
 **Fail**: Any step out of scope.
 
 ### G9 (Contradiction)
+
 - No unresolved contradictions between steps
 - No step contradicts another step
 - No gate contradicts another gate
@@ -103,6 +115,7 @@ rscf:
 **Fail**: Any contradiction found.
 
 ### G10 (Package)
+
 - Workflow file is valid markdown
 - Workflow file is in `.devin/workflows/`
 - Workflow file name matches `{skill-name}-workflow.md` pattern
@@ -111,13 +124,15 @@ rscf:
 **Pass**: Package complete and installable.
 **Fail**: Any package issue.
 
----
+______________________________________________________________________
+
 **MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -125,12 +140,14 @@ rscf:
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-workflow-builder-validation
 node_type: reference
 path: 07_SKILLS/amos-workflow-builder/references/validation.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

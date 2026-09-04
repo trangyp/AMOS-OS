@@ -1,4 +1,7 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 date: 2026-08-29
 epistemic_class: OBSERVATION
 provenance: GitHub README, not independently verified
@@ -10,11 +13,12 @@ rscf:
 source: https://raw.githubusercontent.com/zzatpku/AgentFactory/master/README.md
 title: AgentFactory README — Raw Capture
 ---
+
 # AgentFactory README — Raw Capture
 
 Source: `https://github.com/zzatpku/AgentFactory`
 
-# AgentFactory: A Self-Evolving Framework Through Executable Subagent Accumulation and Reuse
+## AgentFactory: A Self-Evolving Framework Through Executable Subagent Accumulation and Reuse
 
 <p align="center">
   <strong>Accepted at <a href="https://2026.aclweb.org/program/demo/">ACL 2026 System Demonstrations</a></strong>
@@ -50,6 +54,7 @@ AgentFactory has three main components:
 **Meta-Agent** — The central orchestrator. It decomposes complex problems, dynamically allocates relevant tools to each subagent (rather than exposing the full toolset), and iteratively refines subagents based on execution results.
 
 **Skill System** — Three levels of skills:
+
 - *Meta Skills*: Built-in orchestration primitives — `create_subagent`, `run_subagent`, `modify_subagent`, `list_saved_subagents`, `view_subagent_code`, `get_skill_description`, `finish`.
 - *Tool Skills*: Built-in tools — `web_search` (Serper), `web_reading` (Jina), `browser_automation` (Playwright), `shell_command`.
 - *Subagent Skills*: Dynamically created and refined Python modules that encapsulate successful task-solving patterns. These grow and improve over time.
@@ -60,14 +65,14 @@ AgentFactory has three main components:
 
 We compare AgentFactory against ReAct and a Self-Evolving Agent with textual experience baseline on 30 real-world tasks (Batch 1: initial construction; Batch 2: transfer evaluation with saved subagents). Metric: average output tokens per task for the orchestrating model (lower = more efficient reuse).
 
-| Method | Task Setting | Opus 4.6 | Sonnet 4.6 |
-|---|---|---|---|
-| ReAct | Batch 1 | 8298 | 6893 |
-| ReAct | Batch 2 | 7022 | 7029 |
-| Self-Evolving Agents | Batch 1 (from scratch) | 8608 | 8163 |
-| Self-Evolving Agents | Batch 2 (w/ saved) | 6210 | 8223 |
-| **AgentFactory** | **Batch 1 (from scratch)** | **4324** | **9199** |
-| **AgentFactory** | **Batch 2 (w/ saved)** | **2971** | **3862** |
+| Method               | Task Setting               | Opus 4.6 | Sonnet 4.6 |
+| -------------------- | -------------------------- | -------- | ---------- |
+| ReAct                | Batch 1                    | 8298     | 6893       |
+| ReAct                | Batch 2                    | 7022     | 7029       |
+| Self-Evolving Agents | Batch 1 (from scratch)     | 8608     | 8163       |
+| Self-Evolving Agents | Batch 2 (w/ saved)         | 6210     | 8223       |
+| **AgentFactory**     | **Batch 1 (from scratch)** | **4324** | **9199**   |
+| **AgentFactory**     | **Batch 2 (w/ saved)**     | **2971** | **3862**   |
 
 Reusing executable subagents on Batch 2 reduces orchestration cost by up to **57%** compared to ReAct. Notably, with Opus 4.6, AgentFactory already shows significant savings within Batch 1 itself, as the model recognizes opportunities to reuse subagents created from earlier tasks in the same batch.
 
@@ -86,20 +91,20 @@ pip install openai requests playwright flask flask_cors
 Edit `.env` file and fill in your API keys:
 
 ```bash
-# Model Selection (OPENAI_STYLE or ANTHROPIC_STYLE)
+## Model Selection (OPENAI_STYLE or ANTHROPIC_STYLE)
 MODEL_PROTOCOL=OPENAI_STYLE
 
-# Claude API
+## Claude API
 LLM_URL_CLAUDE=https://your-api-endpoint/v1
 LLM_API_KEY_CLAUDE=your-claude-api-key
 LLM_MODEL_CLAUDE=claude-opus-4-6
 
-# MiniMax API
+## MiniMax API
 LLM_URL_MINIMAX=https://api.minimaxi.com/v1
 LLM_API_KEY_MINIMAX=your-minimax-api-key
 LLM_MODEL_MINIMAX=MiniMax-M2.7
 
-# Tool APIs
+## Tool APIs
 SERPER_API_KEY=your-serper-api-key   # Get from https://serper.dev
 JINA_API_KEY=your-jina-api-key       # Get from https://jina.ai
 ```
@@ -170,10 +175,12 @@ Open `visualize_trajectory.html` in a browser, then select a trajectory JSON fil
 The `trajectory/` directory contains saved execution trajectories that correspond to the demonstrations referenced in the paper:
 
 - **`trajectory/qq_music/`** — Two runs of the QQ Music task.
+
   - `first_time.json` — First attempt; the agent creates subagents from scratch.
   - `second_time.json` — Second attempt; the agent reuses subagents created in the first run.
 
 - **`trajectory/tencent_doc/`** — Three runs of the Tencent Docs task.
+
   - `first_time.json` — First attempt with a text-based instruction; the agent creates subagents from scratch.
   - `second_time.json` — Second attempt with text; the agent reuses previously created subagents.
   - `third_time.json` — Third attempt with an audio-based instruction. After the QQ Music runs had already produced an `audio_transcriber` subagent, the agent directly reuses it here to transcribe the audio and solve the task.
@@ -212,4 +219,3 @@ The `trajectory/` directory contains saved execution trajectories that correspon
     abstract = "Building LLM-based agents has become increasingly important. Recent works on LLM-based agent self-evolution primarily record successful experiences as textual prompts or reflections, which cannot reliably guarantee efficient task re-execution in complex scenarios. We propose AgentFactory, a new self-evolution paradigm that preserves successful task solutions as executable subagent code rather than textual experience. Crucially, these subagents are continuously refined based on execution feedback, becoming increasingly robust and efficient as more tasks are encountered. Saved subagents are pure Python code with standardized documentation, enabling portability across any Python-capable system. We demonstrate that AgentFactory enables continuous capability accumulation: its library of executable subagents grows and improves over time, progressively reducing the effort required for similar tasks without manual intervention. Our implementation is open-sourced at \url{https://github.com/zzatpku/AgentFactory}, and our demonstration video is available at \url{https://youtu.be/iKSsuAXJHW0}."
 }
 ```
-

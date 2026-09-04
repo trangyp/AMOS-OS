@@ -1,14 +1,17 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Vault Domain Knowledge — Amos Retrieval Conditioned Orchestration Budget Rscf
 type: reference
 source: 07_SKILLS/amos-retrieval-conditioned-orchestration-budget-rscf/references
 tags:
-- reference
-- amos-retrieval-conditioned-orchestration-budget-rscf
-- type/skill
-- k-meta-logic
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-retrieval-conditioned-orchestration-budget-rscf
+  - type/skill
+  - k-meta-logic
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -28,10 +31,9 @@ rscf:
 
 > Path: `kernel/A/AMOS Super Kernel — Unified Meta-Orchestration Architecture.md` | Size: 37094 chars | Match score: 10
 
-# AMOS Super Kernel — Unified Meta-Orchestration Architecture
+## AMOS Super Kernel — Unified Meta-Orchestration Architecture
 
 ## Overview (2)
-
 
 The source explicitly defines the kernel as:
 
@@ -41,25 +43,25 @@ an operating rule-set, not a persona
 
 Its declared role is:
 
-[
-\boxed{
+\[
+\\boxed{
 Request
-\rightarrow
+\\rightarrow
 Normalize
-\rightarrow
+\\rightarrow
 Decompose
-\rightarrow
+\\rightarrow
 Route
-\rightarrow
+\\rightarrow
 Constrain
-\rightarrow
+\\rightarrow
 Synthesize
-\rightarrow
+\\rightarrow
 Audit
-\rightarrow
+\\rightarrow
 Output
 }
-]
+\]
 
 The source identifies **Trang Phan** as author of the canonical frameworks that the kernel is required to preserve.
 
@@ -73,9 +75,9 @@ CANON GROUP: META
 
 The architecture below preserves the supplied kernel while separating explicit source structure from derived AMOS formalization.
 
----
+______________________________________________________________________
 
-# 1. Kernel Identity
+## 1. Kernel Identity
 
 The source declares:
 
@@ -90,18 +92,16 @@ The kernel is not defined as a personality layer.
 
 Its identity is functional:
 
-[
-KernelRole
-==========
+## \[ KernelRole
 
 Normalize
-+
+\+
 Route
-+
+\+
 Constrain
-+
+\+
 Integrate
-]
+\]
 
 The intended abstraction is therefore closer to:
 
@@ -115,34 +115,33 @@ than:
 PERSONA
 ```
 
----
+______________________________________________________________________
 
-# 2. Core Objective
+## 2. Core Objective
 
 The kernel's primary transformation can be modeled as:
 
-[
-R_{raw}
-\xrightarrow{N}
+\[
+R\_{raw}
+\\xrightarrow{N}
 P
-\xrightarrow{D}
-{T_1,\ldots,T_n}
-\xrightarrow{Route}
-{E_1,\ldots,E_n}
-\xrightarrow{C}
-{O_1,\ldots,O_n}
-\xrightarrow{S}
-O_{final}
-]
+\\xrightarrow{D}
+{T_1,\\ldots,T_n}
+\\xrightarrow{Route}
+{E_1,\\ldots,E_n}
+\\xrightarrow{C}
+{O_1,\\ldots,O_n}
+\\xrightarrow{S}
+O\_{final}
+\]
 
 where:
 
-
 This is a **derived formal representation** of the source pipeline.
 
----
+______________________________________________________________________
 
-# 3. Core Role
+## 3. Core Role
 
 The source defines six primary functions.
 
@@ -157,19 +156,16 @@ The source defines six primary functions.
 
 Compressed:
 
-[
-AMOS_{Kernel}
-=============
+## \[ AMOS\_{Kernel}
 
 N+D+R+C+S+A
-]
+\]
 
 where:
 
+______________________________________________________________________
 
----
-
-# 4. Canon Dependency Layer
+## 4. Canon Dependency Layer
 
 The source requires the kernel to preserve a fixed set of named canon structures.
 
@@ -215,13 +211,13 @@ Conceptually:
 
 The source st
 
----
+______________________________________________________________________
 
 ### Source 2: AMOS Agent Orchestration Workflow
 
 > Path: `amos-general/A/Agent/AMOS_Agent_Orchestration_Workflow.md` | Size: 35578 chars | Match score: 10
 
-# AMOS Agent Orchestration Workflow
+## AMOS Agent Orchestration Workflow
 
 Comprehensive workflow for orchestrating all 36 AMOS agents across 7 canonical systems. Covers agent selection, coordination patterns, execution loops, conflict resolution, output modes, and integration with existing brain workflows.
 
@@ -229,37 +225,36 @@ Comprehensive workflow for orchestrating all 36 AMOS agents across 7 canonical s
 
 AMOS has 36 agents organized into 7 canonical systems. This workflow governs how tasks are routed to agents, how agents execute, how multi-agent coordination works, and how conflicts are resolved.
 
-
----
+______________________________________________________________________
 
 ## Section 1: Agent Registry
 
 ### 1.1 Agent Count and System Distribution
 
-| System | Agent Count | Agents |
-|--------|-------------|--------|
-| BRAIN_SYSTEM | 5 | Architecture_Agent, Decomposer_Agent, Planner_Agent, Reflection_Agent, Strategist_Agent |
-| EXECUTION_SYSTEM | 7 | Automation_Agent, Coding_Agent, Deployment_Agent, DevOps_Agent, Document_Agent, Refactor_Agent, Writing_Agent |
-| LEGAL_SYSTEM | 5 | Compliance_Agent, Contract_Agent, IP_Agent, Legal_Agent, LegalRisk_Agent |
-| MONEY_SYSTEM | 6 | Cashflow_Agent, Finance_Agent, FinanceRisk_Agent, Investment_Agent, MacroAnalyst_Agent, Opportunity_Agent |
-| SENSE_SYSTEM | 3 | Context_Agent, Sensors_Agent, StateSummarizer_Agent |
-| WORLD_MODEL_SYSTEM | 5 | GeoAnalyst_Agent, MacroAnalyst_Agent, SectorAnalyst_Agent, Shock_Agent, Trend_Agent |
-| LIFE_SYSTEM | 3 | Health_Agent, LoadBalancer_Agent, Routine_Agent |
-| **Total** | **36** | |
+| System             | Agent Count | Agents                                                                                                        |
+| ------------------ | ----------- | ------------------------------------------------------------------------------------------------------------- |
+| BRAIN_SYSTEM       | 5           | Architecture_Agent, Decomposer_Agent, Planner_Agent, Reflection_Agent, Strategist_Agent                       |
+| EXECUTION_SYSTEM   | 7           | Automation_Agent, Coding_Agent, Deployment_Agent, DevOps_Agent, Document_Agent, Refactor_Agent, Writing_Agent |
+| LEGAL_SYSTEM       | 5           | Compliance_Agent, Contract_Agent, IP_Agent, Legal_Agent, LegalRisk_Agent                                      |
+| MONEY_SYSTEM       | 6           | Cashflow_Agent, Finance_Agent, FinanceRisk_Agent, Investment_Agent, MacroAnalyst_Agent, Opportunity_Agent     |
+| SENSE_SYSTEM       | 3           | Context_Agent, Sensors_Agent, StateSummarizer_Agent                                                           |
+| WORLD_MODEL_SYSTEM | 5           | GeoAnalyst_Agent, MacroAnalyst_Agent, SectorAnalyst_Agent, Shock_Agent, Trend_Agent                           |
+| LIFE_SYSTEM        | 3           | Health_Agent, LoadBalancer_Agent, Routine_Agent                                                               |
+| **Total**          | **36**      |                                                                                                               |
 
 ### 1.2 System Roles
 
-| System | Purpose | Primary Domain |
-|--------|---------|----------------|
-| BRAIN_SYSTEM | Reasoning, planning, architecture, strategy, self-reflection | Core reasoning, system design, strategy |
-| EXECUTION_SYSTEM | Practical execution: code, automation, deployment, docs, writing | Software, infrastructure, content |
-| LEGAL_SYSTEM | Legal analysis, compliance, contracts, IP, legal risk | Law, regulation, contracts, IP |
-| MONEY_SYSTEM | Financial analysis, cashflow, investment, macro, opportunity | Finance, economics, investment |
-| SENSE_SYSTEM | Context gathering, sensing, state summarisation | Context, monitoring, state awareness |
-| WORLD_MODEL_SYSTEM | Geographic, macro, sector, shock, trend analysis | World modeling, analysis, forecasting |
-| LIFE_SYSTEM | Health, load balancing, routine management | Biology, operations, behaviour |
+| System             | Purpose                                                          | Primary Domain                          |
+| ------------------ | ---------------------------------------------------------------- | --------------------------------------- |
+| BRAIN_SYSTEM       | Reasoning, planning, architecture, strategy, self-reflection     | Core reasoning, system design, strategy |
+| EXECUTION_SYSTEM   | Practical execution: code, automation, deployment, docs, writing | Software, infrastructure, content       |
+| LEGAL_SYSTEM       | Legal analysis, compliance, contracts, IP, legal risk            | Law, regulation, contracts, IP          |
+| MONEY_SYSTEM       | Financial analysis, cashflow, investment, macro, opportunity     | Finance, economics, investment          |
+| SENSE_SYSTEM       | Context gathering, sensing, state summarisation                  | Context, monitoring, state awareness    |
+| WORLD_MODEL_SYSTEM | Geographic, macro, sector, shock, trend analysis                 | World modeling, analysis, forecasting   |
+| LIFE_SYSTEM        | Health, load balancing, routine management                       | Biology, operations, behaviour          |
 
----
+______________________________________________________________________
 
 ## Section 2: Agent Execution Loop
 
@@ -279,79 +274,82 @@ All 36 agents follow the same 10-step execution loop:
 ```
 
 ### Step Details
+
 - ROUTE_EV: ev, cha
 
----
+______________________________________________________________________
 
 ### Source 3: AMOS_Workflow_Orchestration_Kernel_v0_Tech
 
 > Path: `kernel/A/AMOS_Workflow_Orchestration_Kernel_v0_Tech.md` | Size: 15969 chars | Match score: 10
 
 {
-  "kernel_id": "AMOS_Workflow_Orchestration_Kernel_v0",
-  "version": "1.0.0",
-  "source": "md/Kernels/Tech/AMOS_Workflow_Orchestration_Kernel_v0.md",
-  "description": "Kernel for workflow design, automation, orchestration, and pipeline management within the AMOS stack. Defines how individual tasks compose into workflows, how workflows are automated, and how pipeline execution is monitored and controlled.",
-  "group": "Kernels.Tech",
-  "category": "Tech",
-  "priority": 7,
-  "required": false,
-  "domains": ["workflow", "automation", "orchestration", "pipeline", "monitoring"],
-  "depends_on": ["[[02_KERNEL/01_META_LOGIC/K_META_LOGIC|K_META_LOGIC]]", "K_TECH_ENGINE"],
+"kernel_id": "AMOS_Workflow_Orchestration_Kernel_v0",
+"version": "1.0.0",
+"source": "md/Kernels/Tech/AMOS_Workflow_Orchestration_Kernel_v0.md",
+"description": "Kernel for workflow design, automation, orchestration, and pipeline management within the AMOS stack. Defines how individual tasks compose into workflows, how workflows are automated, and how pipeline execution is monitored and controlled.",
+"group": "Kernels.Tech",
+"category": "Tech",
+"priority": 7,
+"required": false,
+"domains": ["workflow", "automation", "orchestration", "pipeline", "monitoring"],
+"depends_on": [[02_KERNEL/01_META_LOGIC/K_META_LOGIC|K_META_LOGIC]]\["[[02_KERNEL/01_META_LOGIC/K_META_LOGIC|K_META_LOGIC]]", "K_TECH_ENGINE"\],
 
-  "meta": {
-    "role": "Workflow Orchestration Kernel",
-    "creator": "Trang Phan (Origin Architect)",
-    "status": "defined",
-    "binding_rules": ["Law_of_Law", "Rule_of_2", "Rule_of_4", "Absolute_Integrity"]
-  },
+"meta": {
+"role": "Workflow Orchestration Kernel",
+"creator": "Trang Phan (Origin Architect)",
+"status": "defined",
+"binding_rules": ["Law_of_Law", "Rule_of_2", "Rule_of_4", "Absolute_Integrity"]
+},
 
-  "purpose": "Define, execute, monitor, and control workflows that span multiple AMOS agents, kernels, and engines. Provide a structured model for turning a high-level task into an orchestrated sequence of coordinated operations with defined inputs, outputs, checkpoints, and failure handling.",
+"purpose": "Define, execute, monitor, and control workflows that span multiple AMOS agents, kernels, and engines. Provide a structured model for turning a high-level task into an orchestrated sequence of coordinated operations with defined inputs, outputs, checkpoints, and failure handling.",
 
-  "workflow_primitives": {
-    "task": {
-      "description": "A single unit of work assignable to one agent or kernel.",
-      "fields": {
-        "task_id": "unique identifier",
-        "description": "what the task does",
-        "agent_assignment": "which agent handles it",
-        "kernel_set": "which kernels activate",
-        "inputs": "required inputs (from previous tasks or user)",
-        "outputs": "expected outputs (passed to next tasks or final output)",
-        "constraints": "law constraints, safety constraints, domain constraints",
-        "priority": "normal, high, critical",
-        "timeout": "maximum execution time",
-        "dependency_ids": "tasks that must complete before this task starts"
-      }
-    },
-    "workflow": {
-      "description": "An ordered composition of tasks with defined flow control.",
-      "fields": {
-        "workflow_id": "unique identifier",
-        "name": "human-readable workflow name",
-        "trigger": "what starts this workflow (user request, event, scheduled)",
-        "tasks": "ordered task list with dependencies",
-        "flow_control": "sequential, parallel, conditional, iterative, or hybrid",
-        "entry_task": "first task in the workflow",
-        "exit_tasks": "tasks whose completion marks workflow success",
-        "failure_handling": "what happens on task failure (retry, abort, escalate, compensate)",
-        "monitoring_points": "checkpoints where state is recorded and can be inspected"
-      }
-    },
-    "pipeline": {
-      "description": "A multi-stage workflow where each stage produces structured output consumed by the next stage.",
-      "fields": {
-        "pipeline_id": "unique identifier",
-        "stages": "ordered stages, each containing one or more tasks",
-        "stage_inputs": "what each stage receives (from previous stage output or extern
+"workflow_primitives": {
+"task": {
+"description": "A single unit of work assignable to one agent or kernel.",
+"fields": {
+"task_id": "unique identifier",
+"description": "what the task does",
+"agent_assignment": "which agent handles it",
+"kernel_set": "which kernels activate",
+"inputs": "required inputs (from previous tasks or user)",
+"outputs": "expected outputs (passed to next tasks or final output)",
+"constraints": "law constraints, safety constraints, domain constraints",
+"priority": "normal, high, critical",
+"timeout": "maximum execution time",
+"dependency_ids": "tasks that must complete before this task starts"
+}
+},
+"workflow": {
+"description": "An ordered composition of tasks with defined flow control.",
+"fields": {
+"workflow_id": "unique identifier",
+"name": "human-readable workflow name",
+"trigger": "what starts this workflow (user request, event, scheduled)",
+"tasks": "ordered task list with dependencies",
+"flow_control": "sequential, parallel, conditional, iterative, or hybrid",
+"entry_task": "first task in the workflow",
+"exit_tasks": "tasks whose completion marks workflow success",
+"failure_handling": "what happens on task failure (retry, abort, escalate, compensate)",
+"monitoring_points": "checkpoints where state is recorded and can be inspected"
+}
+},
+"pipeline": {
+"description": "A multi-stage workflow where each stage produces structured output consumed by the next stage.",
+"fields": {
+"pipeline_id": "unique identifier",
+"stages": "ordered stages, each containing one or more tasks",
+"stage_inputs": "what each stage receives (from previous stage output or extern
 
----
+______________________________________________________________________
+
 **MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -359,12 +357,14 @@ All 36 agents follow the same 10-step execution loop:
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-retrieval-conditioned-orchestration-budget-rscf-vault-domain-knowledge
 node_type: reference
 path: 07_SKILLS/amos-retrieval-conditioned-orchestration-budget-rscf/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

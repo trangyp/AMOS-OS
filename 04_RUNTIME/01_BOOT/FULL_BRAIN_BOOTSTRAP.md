@@ -12,17 +12,17 @@ segment: 04_RUNTIME/01_BOOT
 artifact_kind: BOOTSTRAP_SPEC
 path: 04_RUNTIME/01_BOOT/FULL_BRAIN_BOOTSTRAP.md
 tags:
-- amos-os
-- runtime
-- vault
-- 01_boot
-- full_brain_bootstrap
-- system_initialization
-- rscf
-- canon_candidate
-- canon/runtime
-- amos-full-brain-os-architecture
-- ubi-x-full-brain
+  - amos-os
+  - runtime
+  - vault
+  - 01_boot
+  - full_brain_bootstrap
+  - system_initialization
+  - rscf
+  - canon_candidate
+  - canon/runtime
+  - amos-full-brain-os-architecture
+  - ubi-x-full-brain
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -37,13 +37,13 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - 11_KNOWLEDGE/AMOS_FULL_BRAIN_OS_ARCHITECTURE
-  - 04_RUNTIME/01_BOOT/01_BOOT_MOC
-  - AMOS_CORPUS
+    - 11_KNOWLEDGE/AMOS_FULL_BRAIN_OS_ARCHITECTURE
+    - 04_RUNTIME/01_BOOT/01_BOOT_MOC
+    - AMOS_CORPUS
   scope:
-  - RUNTIME_BOOT
-  - FULL_BRAIN_BOOTSTRAP
-  - SOURCE_DEFINED_MODEL
+    - RUNTIME_BOOT
+    - FULL_BRAIN_BOOTSTRAP
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   boot_moc:
     artifact: 04_RUNTIME/01_BOOT/01_BOOT_MOC
@@ -62,9 +62,9 @@ epistemic_boundary:
 
 `FULL_BRAIN_BOOTSTRAP.md` is the canonical Runtime Plane specification governing the cold-start initialization and invariant verification sequence of the Cosmo Brain OS architecture within `04_RUNTIME/01_BOOT`.
 
----
+______________________________________________________________________
 
-# 1. 7-Stage Bootstrap Sequence
+## 1. 7-Stage Bootstrap Sequence
 
 ```text
   Stage 0: Null-State Root ($S_0$)
@@ -88,17 +88,17 @@ epistemic_boundary:
   Stage 6: Active Reasoning Ready (Emits Boot Receipt)
 ```
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Boot MOC:** 04_RUNTIME/01_BOOT/[[04_RUNTIME/01_BOOT/01_BOOT_MOC|01_BOOT_MOC]]
 - **Full Brain OS:** 11_KNOWLEDGE/[[11_KNOWLEDGE/AMOS_FULL_BRAIN_OS_ARCHITECTURE|AMOS_FULL_BRAIN_OS_ARCHITECTURE]]
 - **Cognitive Matrix:** 25_COGNITIVE_MATRIX/[[25_COGNITIVE_MATRIX/UBI_X_FULL_BRAIN|UBI_X_FULL_BRAIN]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -116,9 +116,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME_MOC]] · 04_RUNTIME/01_BOOT/[[04_RUNTIME/01_BOOT/01_BOOT_MOC|01_BOOT_MOC]] · 11_KNOWLEDGE/[[11_KNOWLEDGE/AMOS_FULL_BRAIN_OS_ARCHITECTURE|AMOS_FULL_BRAIN_OS_ARCHITECTURE]]
 
----
+______________________________________________________________________
+
 **MOC:** 04_RUNTIME/01_BOOT/[[04_RUNTIME/01_BOOT/01_BOOT_MOC|01_BOOT_MOC]]

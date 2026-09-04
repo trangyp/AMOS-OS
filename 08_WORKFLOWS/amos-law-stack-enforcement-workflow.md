@@ -1,4 +1,7 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 Type: Workflow
 Skill: amos-law-stack-enforcement
 Agent: amos-law-stack-enforcement-agent
@@ -6,9 +9,9 @@ Trigger: When validating whether system rules hold across scale, checking law ad
 Version: 1.1.0
 title: AMOS Law Stack Enforcement
 tags:
-- type/workflow
-- domain/canon-enforcement
-- amos-os
+  - type/workflow
+  - domain/canon-enforcement
+  - amos-os
 type: workflow
 source: 08_WORKFLOWS
 rscf:
@@ -29,24 +32,24 @@ rscf:
 ## Steps
 
 1. **Load law hierarchy** — Load the Law of Law (LoL), Rule of 2 (R2), and Rule of 4 (R4) canonical definitions.
-2. **Validate LoL** — Check that the draft law satisfies the Law of Law meta-hierarchy (no law can supersede its own meta-law).
-3. **Validate R2** — Run the Rule of 2 dual-frame rejection test: can the law be rejected from two independent frames?
-4. **Validate R4** — Check Rule of 4 quadrant completeness: UBI, TSS, PSI, QLS.
-5. **Scale transition check** — Verify invariant enforcement across H (constitutional), M (domain), L (mechanical) scale transitions.
-6. **UBI integrity audit** — Audit UBI Score and ledger integrity against structural output.
-7. **Detect short-circuit** — Identify if the draft law bypasses canonical order (e.g., L-level check used for H-level decision).
-8. **Finalize** — Emit law stack validation report with LoL->R2->R4 ordering confirmation.
+1. **Validate LoL** — Check that the draft law satisfies the Law of Law meta-hierarchy (no law can supersede its own meta-law).
+1. **Validate R2** — Run the Rule of 2 dual-frame rejection test: can the law be rejected from two independent frames?
+1. **Validate R4** — Check Rule of 4 quadrant completeness: UBI, TSS, PSI, QLS.
+1. **Scale transition check** — Verify invariant enforcement across H (constitutional), M (domain), L (mechanical) scale transitions.
+1. **UBI integrity audit** — Audit UBI Score and ledger integrity against structural output.
+1. **Detect short-circuit** — Identify if the draft law bypasses canonical order (e.g., L-level check used for H-level decision).
+1. **Finalize** — Emit law stack validation report with LoL->R2->R4 ordering confirmation.
 
 ## Operations
 
 1. **Load law hierarchy** — Load the Law of Law (LoL), Rule of 2 (R2), and Rule of 4 (R4) canonical definitions.
-2. **Validate LoL** — Check that the draft law satisfies the Law of Law meta-hierarchy (no law can supersede its own meta-law).
-3. **Validate R2** — Run the Rule of 2 dual-frame rejection test: can the law be rejected from two independent frames?
-4. **Validate R4** — Check Rule of 4 quadrant completeness: UBI, TSS, PSI, QLS.
-5. **Scale transition check** — Verify invariant enforcement across H (constitutional), M (domain), L (mechanical) scale transitions.
-6. **UBI integrity audit** — Audit UBI Score and ledger integrity against structural output.
-7. **Detect short-circuit** — Identify if the draft law bypasses canonical order (e.g., L-level check used for H-level decision).
-8. **Finalize** — Emit law stack validation report with LoL->R2->R4 ordering confirmation.
+1. **Validate LoL** — Check that the draft law satisfies the Law of Law meta-hierarchy (no law can supersede its own meta-law).
+1. **Validate R2** — Run the Rule of 2 dual-frame rejection test: can the law be rejected from two independent frames?
+1. **Validate R4** — Check Rule of 4 quadrant completeness: UBI, TSS, PSI, QLS.
+1. **Scale transition check** — Verify invariant enforcement across H (constitutional), M (domain), L (mechanical) scale transitions.
+1. **UBI integrity audit** — Audit UBI Score and ledger integrity against structural output.
+1. **Detect short-circuit** — Identify if the draft law bypasses canonical order (e.g., L-level check used for H-level decision).
+1. **Finalize** — Emit law stack validation report with LoL->R2->R4 ordering confirmation.
 
 ## Validation Gates
 

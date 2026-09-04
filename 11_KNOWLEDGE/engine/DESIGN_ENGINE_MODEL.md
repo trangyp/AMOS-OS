@@ -1,23 +1,26 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: DESIGN ENGINE MODEL
 type: model
 source: 11_KNOWLEDGE/engine
 aliases:
-- Unified Design Kernel
-- AMOS_Design_Engine
-- Design Kernel
+  - Unified Design Kernel
+  - AMOS_Design_Engine
+  - Design Kernel
 tags:
-- canon-group/tech-ai
-- canon/model
-- rscf/claim
-- rscf/provenance
-- rscf/state/derived
-- topic/design-engine-model
-- engine
-- system-scan-agent
-- automation-profiles
-- amos-simulation-kernel-v0-math-foundations
-- trang-framework-recursive-ontology-dynamics
+  - canon-group/tech-ai
+  - canon/model
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/derived
+  - topic/design-engine-model
+  - engine
+  - system-scan-agent
+  - automation-profiles
+  - amos-simulation-kernel-v0-math-foundations
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: AMOS_MODEL
   claim_class: AMOS_MODEL
@@ -35,6 +38,7 @@ The **Unified Design Kernel** provides a 96-cluster, 20-dimension virtual expans
 ## The 20 Design Dimensions
 
 Every design is evaluated against dimensions such as:
+
 - Perceptual clarity
 - Cognitive load
 - Behavioral outcome fit
@@ -50,6 +54,7 @@ Every design is evaluated against dimensions such as:
 ## The 96 Clusters (Domain Buckets)
 
 These clusters cover the full design spectrum, organized into buckets including:
+
 - **Visual Identity:** Logos, colors, typography.
 - **Brand Language:** Tone of voice, messaging, naming.
 - **Product Experience:** Surface UI, onboarding, core flows.
@@ -63,17 +68,22 @@ These clusters cover the full design spectrum, organized into buckets including:
 - **Planetary/Local Context:** Urban context, climate constraints, cultural norms.
 
 ## Reasoning Modes
-The engine operates in 4 modes:
-1. **Decomposition:** Understand the problem space.
-2. **Synthesis:** Create new design structures.
-3. **Evaluation:** Critique and score existing designs.
-4. **Evolution:** Roadmap iterative changes over time.
 
----
+The engine operates in 4 modes:
+
+1. **Decomposition:** Understand the problem space.
+1. **Synthesis:** Create new design structures.
+1. **Evaluation:** Critique and score existing designs.
+1. **Evolution:** Roadmap iterative changes over time.
+
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS · SYSTEM_SCAN_AGENT · AUTOMATION_PROFILES
 
----
+______________________________________________________________________
+
 **MOC:** [[11_KNOWLEDGE/engine/ENGINE_MOC|ENGINE_MOC]]
 
----
+______________________________________________________________________
+
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

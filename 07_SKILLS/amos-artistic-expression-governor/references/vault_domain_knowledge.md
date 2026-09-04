@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Vault Domain Knowledge — Amos Artistic Expression Governor
 type: reference
 source: 07_SKILLS/amos-artistic-expression-governor/references
 tags:
-- reference
-- amos-artistic-expression-governor
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-artistic-expression-governor
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -27,7 +30,7 @@ rscf:
 
 > Path: `dated/2026-08-23/2026-08-23 AMOS Expression Translation Test Expansion.md` | Size: 4369 chars | Match score: 10 | content_hash: 0a133f066dee6a40
 
-# AMOS Expression Translation Test Expansion
+## AMOS Expression Translation Test Expansion
 
 > Epistemic class: OBSERVATION
 > Conclusion label: `VERIFIED` — Expression translation tests expanded from 5 self-tests to 47 total (5 + 42 comprehensive).
@@ -41,18 +44,21 @@ all 7 stages of the constrained expression translation pipeline.
 ## Test Coverage
 
 ### Stage 1: `extract_fields(state)` — 4 tests
+
 - Basic extraction from mock state
 - Deterministic extraction (same state → same fields)
 - All 30+ fields extracted correctly
 - Different states → different fields
 
 ### Stage 2: `classify_expression(fields)` — 4 tests
+
 - Basic classification (expression_type, scope, intent, pattern_class)
 - Deterministic classification
 - Unknown intent defaults to `analytical_response` / `general_analysis`
 - Pattern class preserved in classification
 
 ### Stage 3: `normalize_to_structured(fields, classification)` — 7 tests
+
 - Basic normalization (meta, state_summary, governance sections)
 - Confidence ceiling enforced flag present
 - Deterministic normalization
@@ -62,6 +68,7 @@ all 7 stages of the constrained expression translation pipeline.
 - Speed mode in meta
 
 ### Stage 4: `apply_constraint_gates(fields)` — 6 tests
+
 - All gates present in results
 - Gate results structure (passed, severity, description)
 - Passed + failed counts = total gates
@@ -70,6 +77,7 @@ all 7 stages of the constrained expression translation pipeline.
 - Warnings tracked separately
 
 ### Stage 5: `build_envelope()` / `translate_state_to_constrained()` — 11 tests
+
 - Basic envelope creation
 - Envelope has structured dict
 - Envelope has gates dict
@@ -83,6 +91,7 @@ all 7 stages of the constrained expression translation pipeline.
 - Render reasons is list
 
 ### Stage 6: `render_envelope_to_text(envelope)` — 5 tests
+
 - Basic text rendering
 - Deterministic rendering (same envelope → same text)
 - Different envelopes → different text (via audit_hash difference)
@@ -90,6 +99,7 @@ all 7 stages of the constrained expression translation pipeline.
 - Confidence value appears in rendered text
 
 ### Full Pipeline — 5 tests
+
 - Full pipeline deterministic (state → envelope → text)
 - Different inputs → different structured output
 - Confidence ceiling in output
@@ -99,23 +109,25 @@ all 7 stages of the constrained expression translation pipeline.
 ## Key Behaviors Discovered
 
 ### Intent → Expression Type Mapping
+
 - `intent` maps to `expression_type` via `EXPRESSION_TYPES` dict
 - Unknown intents default to `analytical_response`
 - Rendered text uses `expression_type`, not raw `intent`
 - Two different intents (e.g. "analyze" and "decide") may map to the same expression_type
 
 ### Confidence Ceiling
+
 - `max_confidence` in envelope = min(state.confidence, 0.95)
 - `confidence_ceiling_enforced` flag always True in meta
 - Actual confidence in structured output may
 
----
+______________________________________________________________________
 
 ### Source 2: AMOS Expression Translation Workflow
 
 > Path: `amos-general/A/EXPRESSION/AMOS_Expression_Translation_Workflow.md` | Size: 6367 chars | Match score: 7 | content_hash: 6752762c4da0caf6
 
-# AMOS Expression Translation Workflow
+## AMOS Expression Translation Workflow
 
 Implements AMOS_EXPRESSION_TRANSLATION_vInfinity from the brain's root (md/Core/AMOS_Os_Agent_v0.md).
 Function: receive ANY form of human or symbolic expression and convert it into clean, deterministic, structurally precise logic that all AMOS engines can use.
@@ -131,64 +143,66 @@ expression_in → structural_logic_out
 
 ## Input Space (all must be handled)
 
-| Input type | Examples | Challenge |
-|------------|----------|-----------|
-| Everyday language | Informal, slang, fragmented speech | Extract precise intent from imprecise language |
-| Emotional language | Hurt, anger, fear, joy, shame, pride | Detect emotion without absorbing it; map to structural state |
-| Narrative and story | Life events, anecdotes, "I feel like..." | Extract structural spine from narrative wrapping |
+| Input type             | Examples                                                             | Challenge                                                                                          |
+| ---------------------- | -------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
+| Everyday language      | Informal, slang, fragmented speech                                   | Extract precise intent from imprecise language                                                     |
+| Emotional language     | Hurt, anger, fear, joy, shame, pride                                 | Detect emotion without absorbing it; map to structural state                                       |
+| Narrative and story    | Life events, anecdotes, "I feel like..."                             | Extract structural spine from narrative wrapping                                                   |
 | Symbolic and spiritual | Tam linh, kinh Phật, Bible, tị vi, phong thủy, astrology, numerology | Map symbolic content to structural claims; preserve meaning without validating supernatural claims |
-| Cultural (VN+EN) | Family, rank, hierarchy, lịch nghỉ, indirect speech | Decode cultural context; preserve hierarchy/indirectness as structural signals |
-| Neurotypical framing | Social approval, belonging, ego, romantic dynamics | Map social patterns to structural relationship models |
-| Outlier framing | Systems logic, pattern recognition, meta-level reflection | Preserve precision; already close to structural logic |
-| Multi-layer mixed | Emotion + logic + culture + symbolism in one message | Layer-by-layer decoding; each translated independently, then integrated |
+| Cultural (VN+EN)       | Family, rank, hierarchy, lịch nghỉ, indirect speech                  | Decode cultural context; preserve hierarchy/indirectness as structural signals                     |
+| Neurotypical framing   | Social approval, belonging, ego, romantic dynamics                   | Map social patterns to structural relationship models                                              |
+| Outlier framing        | Systems logic, pattern recognition, meta-level reflection            | Preserve precision; already close to structural logic                                              |
+| Multi-layer mixed      | Emotion + logic + culture + symbolism in one message                 | Layer-by-layer decoding; each translated independently, then integrated                            |
 
 ## Translation Procedure
 
 ### Phase 1: Decode (layer separation)
 
 For each input, identify these layers:
-1. **Literal** — what is explicitly said
-2. **Emotional** — affective state (valence, arousal, dominant tone)
-3. **Narrative** — story framing, sequence, characters
-4. **Symbolic/cultural** — symbols, spiritual references, cultural context, hierarchy
-5. **Structural** — explicit systems, logic, patterns, constraints mentioned
-6. **Meta** — what the speaker is doing by saying this (request, complaint, exploration, test, etc.)
 
+1. **Literal** — what is explicitly said
+1. **Emotional** — affective state (valence, arousal, dominant tone)
+1. **Narrative** — story framing, sequence, characters
+1. **Symbolic/cultural** — symbols, spiritual references, cultural context, hierarchy
+1. **Structural** — explicit systems, logic, patterns, constraints mentioned
+1. **Meta** — what the speaker is doing by saying this (request, complaint, exploration, test, etc.)
 
 ### Phase 2: Normalise (to neutral vocabulary)
 
 For each layer:
+
 - Map terms to canonical vocabulary (see amos-expression-overlay skill replacements)
 - Remove emotional colouring from the structural content (preserve emotion as a separate signal)
 - Resolve ambiguity where context allows; flag where it doesn't
 - Extract explicit constraints (must/must_not/should/should_not)
 - Extract implicit constraints (what the speaker assumes or takes for granted)
 
-
 ### Phase 3: Structural Translation
 
 Convert normalised content into structural logic:
-1. Identify **entities** (people, systems, concepts, events)
-2. Identify **relations**: OWNS, OWES, IS_SUBJECT_TO, VIOLATES, COMPLIES_WITH, HAS_D
 
----
+1. Identify **entities** (people, systems, concepts, events)
+1. Identify **relations**: OWNS, OWES, IS_SUBJECT_TO, VIOLATES, COMPLIES_WITH, HAS_D
+
+______________________________________________________________________
 
 ### Source 3: AMOS Brain: What I Learned and Improved
 
 > Path: `brain/A/AMOS_Brain_Learning_Improvement.md` | Size: 1679 chars | Match score: 5 | content_hash: 85de082cfc15150c
 
-# AMOS Brain: What I Learned and Improved
+## AMOS Brain: What I Learned and Improved
 
+______________________________________________________________________
 
----
+______________________________________________________________________
 
----
 **MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -196,12 +210,14 @@ Convert normalised content into structural logic:
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-artistic-expression-governor-vault-domain-knowledge
 node_type: reference
 path: 07_SKILLS/amos-artistic-expression-governor/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

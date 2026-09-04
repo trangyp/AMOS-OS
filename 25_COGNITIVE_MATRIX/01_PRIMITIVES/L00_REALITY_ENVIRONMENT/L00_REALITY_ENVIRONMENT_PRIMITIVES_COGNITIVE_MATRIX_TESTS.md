@@ -1,10 +1,13 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: L00 REALITY ENVIRONMENT PRIMITIVES COGNITIVE MATRIX TESTS
 type: test
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT
 tags:
-- amos
-- domain/cognitive-matrix
+  - amos
+  - domain/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -25,9 +28,9 @@ rscf:
 
 > **Critical provenance boundary:** the available L00 material treats direct L00 test canon as missing. This document therefore defines a conservative AMOS test architecture. It must not be represented as recovered or empirically validated L00 source canon.
 
----
+______________________________________________________________________
 
-# 0. Purpose
+## 0. Purpose
 
 `L00_REALITY_ENVIRONMENT/TESTS.md` defines the validation system for determining whether L00 preserves disciplined contact with externally supplied or externally observable state.
 
@@ -75,9 +78,9 @@ LOCAL L00 INVARIANTS
 CROSS-BOUNDARY AMOS INTEGRITY
 ```
 
----
+______________________________________________________________________
 
-# 1. Governing Test Law
+## 1. Governing Test Law
 
 The fundamental test chain is:
 
@@ -113,9 +116,9 @@ BENCHMARK PASS != UNIVERSAL VALIDITY
 
 No status label may substitute for execution evidence.
 
----
+______________________________________________________________________
 
-# 2. Test Tensor
+## 2. Test Tensor
 
 ```text
 T_L00_TEST =
@@ -179,9 +182,9 @@ failure status
 
 during compression, summarization, reporting, or replay.
 
----
+______________________________________________________________________
 
-# 3. Test Result State
+## 3. Test Result State
 
 ```text
 NOT_RUN
@@ -215,9 +218,9 @@ STALE != PASS
 QUARANTINED != PASS
 ```
 
----
+______________________________________________________________________
 
-# 4. Test Record Schema
+## 4. Test Record Schema
 
 ```yaml
 L00TestResult:
@@ -282,9 +285,9 @@ L00TestResult:
   remediation:
 ```
 
----
+______________________________________________________________________
 
-# 5. Test Classes
+## 5. Test Classes
 
 ```text
 T0   STATIC CONTRACT
@@ -334,9 +337,9 @@ T21  METAMORPHIC
 T22  RESOURCE DEGRADATION
 ```
 
----
+______________________________________________________________________
 
-# 6. Minimum Invariant Registry
+## 6. Minimum Invariant Registry
 
 ```text
 INV_TEST_001
@@ -400,9 +403,9 @@ INV_TEST_020
 TEST_PASS != UNIVERSAL_VALIDITY
 ```
 
----
+______________________________________________________________________
 
-# 7. Core Test Registry
+## 7. Core Test Registry
 
 ```text
 TEST_L00_001  PREDICTION_CANNOT_ENTER_OBSERVED_STATE
@@ -466,9 +469,9 @@ TEST_L00_029  CONTRADICTORY_TIMESTAMPS_TRIGGER_CONFLICT
 TEST_L00_030  REOBSERVATION_CAN_REPLACE_STALE_STATE
 ```
 
----
+______________________________________________________________________
 
-# 8. Prediction Firewall Test
+## 8. Prediction Firewall Test
 
 ## TEST_L00_001
 
@@ -517,9 +520,9 @@ Failure:
 FAIL_MODEL_REALITY_COLLAPSE
 ```
 
----
+______________________________________________________________________
 
-# 9. Simulation Firewall Test
+## 9. Simulation Firewall Test
 
 ## TEST_L00_002
 
@@ -545,9 +548,9 @@ Invariant:
 SIMULATION != OUTCOME
 ```
 
----
+______________________________________________________________________
 
-# 10. Memory Freshness Test
+## 10. Memory Freshness Test
 
 ## TEST_L00_003
 
@@ -576,9 +579,9 @@ Invariant:
 MEMORY != CURRENT_ENVIRONMENT
 ```
 
----
+______________________________________________________________________
 
-# 11. Unavailable Observation Test
+## 11. Unavailable Observation Test
 
 ## TEST_L00_004
 
@@ -603,9 +606,9 @@ default observation
 inferred sensor reading
 ```
 
----
+______________________________________________________________________
 
-# 12. Provenance Admission Test
+## 12. Provenance Admission Test
 
 ## TEST_L00_005
 
@@ -635,9 +638,9 @@ MISSING_PROVENANCE
 NO_HIGH_CONFIDENCE_PROMOTION
 ```
 
----
+______________________________________________________________________
 
-# 13. Freshness Test
+## 13. Freshness Test
 
 ## TEST_L00_006
 
@@ -659,9 +662,9 @@ REOBSERVATION_REQUIRED
 
 Downstream freshness-sensitive action must be blocked.
 
----
+______________________________________________________________________
 
-# 14. Provenance Independence Test
+## 14. Provenance Independence Test
 
 ## TEST_L00_007
 
@@ -693,9 +696,9 @@ MULTIPLE DESCENDANTS
 MULTIPLE INDEPENDENT SOURCES
 ```
 
----
+______________________________________________________________________
 
-# 15. Conflict Preservation Test
+## 15. Conflict Preservation Test
 
 ## TEST_L00_008
 
@@ -729,9 +732,9 @@ majority by repetition
 confidence averaging without ancestry analysis
 ```
 
----
+______________________________________________________________________
 
-# 16. Tool Failure Test
+## 16. Tool Failure Test
 
 ## TEST_L00_009
 
@@ -767,9 +770,9 @@ FAILED_OBSERVATION
 NEGATIVE_OBSERVATION
 ```
 
----
+______________________________________________________________________
 
-# 17. Tool Success Test
+## 17. Tool Success Test
 
 ## TEST_L00_010
 
@@ -795,9 +798,9 @@ Forbidden:
 VERIFIED_REALITY
 ```
 
----
+______________________________________________________________________
 
-# 18. Authority Boundary Test
+## 18. Authority Boundary Test
 
 ## TEST_L00_011
 
@@ -827,9 +830,9 @@ Invariant:
 READ != WRITE
 ```
 
----
+______________________________________________________________________
 
-# 19. External Instruction Injection Test
+## 19. External Instruction Injection Test
 
 ## TEST_L00_012
 
@@ -857,9 +860,9 @@ Pass:
 authority state unchanged
 ```
 
----
+______________________________________________________________________
 
-# 20. Regime Invalidation Test
+## 20. Regime Invalidation Test
 
 ## TEST_L00_013
 
@@ -883,9 +886,9 @@ invalidate dependencies requiring R1
 
 Preserve unrelated state.
 
----
+______________________________________________________________________
 
-# 21. Selective Invalidation Test
+## 21. Selective Invalidation Test
 
 ## TEST_L00_014
 
@@ -921,23 +924,23 @@ CLAIM_B
 
 Equation:
 
-[
+\[
 Invalid(p)
-\Rightarrow
+\\Rightarrow
 Invalidate(Descendants(p))
-]
+\]
 
 not:
 
-[
+\[
 Invalid(p)
-\Rightarrow
+\\Rightarrow
 Invalidate(AllState)
-]
+\]
 
----
+______________________________________________________________________
 
-# 22. Unknown Required Evidence Test
+## 22. Unknown Required Evidence Test
 
 ## TEST_L00_015
 
@@ -961,9 +964,9 @@ Forbidden:
 PASS
 ```
 
----
+______________________________________________________________________
 
-# 23. Negative Evidence Test
+## 23. Negative Evidence Test
 
 ## TEST_L00_016
 
@@ -988,9 +991,9 @@ X = ABSENT
 
 Absence may only be inferred when the observation method establishes completeness.
 
----
+______________________________________________________________________
 
-# 24. Null Test
+## 24. Null Test
 
 ## TEST_L00_017
 
@@ -1012,9 +1015,9 @@ Forbidden:
 temperature = 0
 ```
 
----
+______________________________________________________________________
 
-# 25. Observation History Integrity Test
+## 25. Observation History Integrity Test
 
 ## TEST_L00_018
 
@@ -1043,9 +1046,9 @@ Forbidden:
 observed = 12
 ```
 
----
+______________________________________________________________________
 
-# 26. Scope Compatibility Test
+## 26. Scope Compatibility Test
 
 ## TEST_L00_019
 
@@ -1069,9 +1072,9 @@ CONDITIONAL
 
 unless explicit aggregation semantics exist.
 
----
+______________________________________________________________________
 
-# 27. Regime Compatibility Test
+## 27. Regime Compatibility Test
 
 ## TEST_L00_020
 
@@ -1091,9 +1094,9 @@ PRESERVE_SEPARATELY
 
 unless a valid cross-regime transformation exists.
 
----
+______________________________________________________________________
 
-# 28. Temporal Compatibility Test
+## 28. Temporal Compatibility Test
 
 ## TEST_L00_021
 
@@ -1107,9 +1110,9 @@ or
 TEMPORAL_CONFLICT
 ```
 
----
+______________________________________________________________________
 
-# 29. Provenance Compatibility Test
+## 29. Provenance Compatibility Test
 
 ## TEST_L00_022
 
@@ -1128,9 +1131,9 @@ CHECK:
 
 before merge.
 
----
+______________________________________________________________________
 
-# 30. Proposal / Commit Test
+## 30. Proposal / Commit Test
 
 ## TEST_L00_023
 
@@ -1156,9 +1159,9 @@ Invariant:
 PROPOSAL != COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 31. Failed Commit Test
+## 31. Failed Commit Test
 
 ## TEST_L00_024
 
@@ -1190,9 +1193,9 @@ Forbidden:
 partially committed EPOCH_13
 ```
 
----
+______________________________________________________________________
 
-# 32. Confidence Ceiling Test
+## 32. Confidence Ceiling Test
 
 ## TEST_L00_025
 
@@ -1208,25 +1211,25 @@ regime     = 0.85
 
 Then under weakest-load-bearing-premise semantics:
 
-[
-C_{derived}
-\le
-\min(0.90,0.70,0.80,0.95,0.85)
-]
+\[
+C\_{derived}
+\\le
+\\min(0.90,0.70,0.80,0.95,0.85)
+\]
 
 Therefore:
 
-[
-\boxed{
-C_{derived} \le 0.70
+\[
+\\boxed{
+C\_{derived} \\le 0.70
 }
-]
+\]
 
 unless an independent evidential route removes the weak dependency.
 
----
+______________________________________________________________________
 
-# 33. Temporal Identity Test
+## 33. Temporal Identity Test
 
 ## TEST_L00_026
 
@@ -1245,9 +1248,9 @@ T1 != T2 != T3 != T4
 
 unless actual equality is established.
 
----
+______________________________________________________________________
 
-# 34. Source Claim Test
+## 34. Source Claim Test
 
 ## TEST_L00_027
 
@@ -1265,9 +1268,9 @@ SOURCE_CLAIM
 
 until appropriate observation or executable evidence establishes more.
 
----
+______________________________________________________________________
 
-# 35. Unit Compatibility Test
+## 35. Unit Compatibility Test
 
 ## TEST_L00_028
 
@@ -1288,9 +1291,9 @@ not:
 A = B
 ```
 
----
+______________________________________________________________________
 
-# 36. Timestamp Conflict Test
+## 36. Timestamp Conflict Test
 
 ## TEST_L00_029
 
@@ -1314,9 +1317,9 @@ TEMPORAL_CONFLICT
 
 until ordering and applicability are resolved.
 
----
+______________________________________________________________________
 
-# 37. Reobservation Recovery Test
+## 37. Reobservation Recovery Test
 
 ## TEST_L00_030
 
@@ -1346,9 +1349,9 @@ new state becomes current if valid
 old stale state remains in provenance/history
 ```
 
----
+______________________________________________________________________
 
-# 38. Schema Tests
+## 38. Schema Tests
 
 ```text
 TEST_SCHEMA_001 required state fields exist
@@ -1372,9 +1375,9 @@ TEST_SCHEMA_009 incompatible tensor axes rejected
 TEST_SCHEMA_010 missing load-bearing field cannot silently default
 ```
 
----
+______________________________________________________________________
 
-# 39. Provenance Tests
+## 39. Provenance Tests
 
 ```text
 TEST_PROV_001 source identity preserved
@@ -1398,9 +1401,9 @@ TEST_PROV_009 independence group survives transformation
 TEST_PROV_010 provenance loss lowers confidence
 ```
 
----
+______________________________________________________________________
 
-# 40. Freshness Tests
+## 40. Freshness Tests
 
 ```text
 TEST_FRESH_001 current observation accepted
@@ -1420,9 +1423,9 @@ TEST_FRESH_007 ingestion time cannot replace observation time
 TEST_FRESH_008 memory retrieval does not refresh observation age
 ```
 
----
+______________________________________________________________________
 
-# 41. Scope / Regime Tests
+## 41. Scope / Regime Tests
 
 ```text
 TEST_SCOPE_001 local evidence does not become global
@@ -1444,9 +1447,9 @@ TEST_REGIME_003 regime transition invalidates dependencies
 TEST_REGIME_004 unknown regime cannot silently inherit prior regime
 ```
 
----
+______________________________________________________________________
 
-# 42. Reality / Simulation Firewall
+## 42. Reality / Simulation Firewall
 
 ```text
 TEST_FIREWALL_001 model output cannot become observation
@@ -1466,9 +1469,9 @@ TEST_FIREWALL_007 generated explanation does not become evidence
 TEST_FIREWALL_008 simulated tool result does not become live tool result
 ```
 
----
+______________________________________________________________________
 
-# 43. Tool Boundary Tests
+## 43. Tool Boundary Tests
 
 ```text
 TEST_TOOL_001 timeout != absence
@@ -1492,9 +1495,9 @@ TEST_TOOL_009 successful request != verified content
 TEST_TOOL_010 retry does not create independent evidence
 ```
 
----
+______________________________________________________________________
 
-# 44. External Content Adversarial Tests
+## 44. External Content Adversarial Tests
 
 Inject:
 
@@ -1536,9 +1539,9 @@ EXTERNAL_CONTENT
 AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 45. H/M/L Tests
+## 45. H/M/L Tests
 
 ## L — Atomic
 
@@ -1594,9 +1597,9 @@ L PASS != H PASS
 
 unless a valid aggregation rule exists.
 
----
+______________________________________________________________________
 
-# 46. Cross-Scale Test
+## 46. Cross-Scale Test
 
 Given:
 
@@ -1622,36 +1625,34 @@ H = VERIFIED
 
 solely because local observations passed.
 
----
+______________________________________________________________________
 
-# 47. Cross-Scale Equation
+## 47. Cross-Scale Equation
 
-[
-ValidPromotion(L \rightarrow H)
-===============================
+## \[ ValidPromotion(L \\rightarrow H)
 
 LocalValidity
-\land
+\\land
 CoverageAdequacy
-\land
+\\land
 AggregationRule
-\land
+\\land
 ScopeCompatibility
-\land
+\\land
 ProvenancePreservation
-]
+\]
 
 Therefore:
 
-[
+\[
 LocalValidity
-\not\Rightarrow
+\\not\\Rightarrow
 GlobalValidity
-]
+\]
 
----
+______________________________________________________________________
 
-# 48. Control-Plane Tests
+## 48. Control-Plane Tests
 
 ```text
 GOVERNANCE
@@ -1682,9 +1683,9 @@ KERNEL CONTROL
 hard invariants enforced
 ```
 
----
+______________________________________________________________________
 
-# 49. Agent Contract Tests
+## 49. Agent Contract Tests
 
 ```text
 TEST_AGENT_001
@@ -1728,9 +1729,9 @@ AGENT IMPLEMENTED != AGENT VALIDATED
 AGENT CAPABLE != AGENT AUTHORIZED
 ```
 
----
+______________________________________________________________________
 
-# 50. Skill Binding Tests
+## 50. Skill Binding Tests
 
 Every L00-bound Skill must be tested for:
 
@@ -1768,9 +1769,9 @@ SKILL INSTALLED
 SKILL VALIDATED FOR L00
 ```
 
----
+______________________________________________________________________
 
-# 51. Workflow Tests
+## 51. Workflow Tests
 
 Required workflow tests:
 
@@ -1818,9 +1819,9 @@ failure handling
 rollback
 ```
 
----
+______________________________________________________________________
 
-# 52. Protocol Tests
+## 52. Protocol Tests
 
 Validate:
 
@@ -1846,9 +1847,9 @@ recovery message
 
 Malformed load-bearing messages must fail closed.
 
----
+______________________________________________________________________
 
-# 53. State-Machine Tests
+## 53. State-Machine Tests
 
 Candidate lifecycle:
 
@@ -1884,9 +1885,9 @@ UNKNOWN → PASS
 
 without required evidence or authorization.
 
----
+______________________________________________________________________
 
-# 54. Transition Test Registry
+## 54. Transition Test Registry
 
 ```text
 TEST_TRANS_001
@@ -1914,9 +1915,9 @@ TEST_TRANS_008
 QUARANTINED → ADMITTED requires revalidation
 ```
 
----
+______________________________________________________________________
 
-# 55. Replay Contract
+## 55. Replay Contract
 
 Where replayability is claimed, replay must preserve:
 
@@ -1968,9 +1969,9 @@ ReplayRecord:
 
 Replay divergence must remain visible.
 
----
+______________________________________________________________________
 
-# 56. Recovery Tests
+## 56. Recovery Tests
 
 ```text
 TEST_RECOVERY_001 corrupt observation quarantined
@@ -1994,9 +1995,9 @@ TEST_RECOVERY_009 rollback restores nearest valid state
 TEST_RECOVERY_010 repair cannot rewrite historical evidence
 ```
 
----
+______________________________________________________________________
 
-# 57. Adversarial Grounding Suite
+## 57. Adversarial Grounding Suite
 
 ```text
 A01 stale source labeled current
@@ -2050,9 +2051,9 @@ A24 missing scope treated as universal
 A25 missing regime inherits current regime silently
 ```
 
----
+______________________________________________________________________
 
-# 58. Measurement Integrity Tests
+## 58. Measurement Integrity Tests
 
 For numeric measurement, validate:
 
@@ -2088,9 +2089,9 @@ Example:
 
 unless explicitly converted.
 
----
+______________________________________________________________________
 
-# 59. Temporal Integrity Tests
+## 59. Temporal Integrity Tests
 
 Distinguish:
 
@@ -2124,9 +2125,9 @@ VALID_AT_PREPARE
 VALID_AT_COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 60. Provenance Sybil Test
+## 60. Provenance Sybil Test
 
 Create:
 
@@ -2150,25 +2151,25 @@ if ancestry is resolvable.
 
 This prevents false confidence multiplication.
 
----
+______________________________________________________________________
 
-# 61. Confidence Ceiling Equation
+## 61. Confidence Ceiling Equation
 
 Let load-bearing premises have confidence:
 
-[
-c_1,c_2,\ldots,c_n
-]
+\[
+c_1,c_2,\\ldots,c_n
+\]
 
 Then:
 
-[
-\boxed{
-C_{derived}
-\le
-\min(c_1,c_2,\ldots,c_n)
+\[
+\\boxed{
+C\_{derived}
+\\le
+\\min(c_1,c_2,\\ldots,c_n)
 }
-]
+\]
 
 unless an independent evidential path removes dependence on the weakest premise.
 
@@ -2180,9 +2181,9 @@ remove weakest premise
 → verify whether independent support remains
 ```
 
----
+______________________________________________________________________
 
-# 62. Observation Completeness Test
+## 62. Observation Completeness Test
 
 Given:
 
@@ -2217,9 +2218,9 @@ coverage: COMPLETE
 
 and completeness itself is validated, absence inference may become admissible.
 
----
+______________________________________________________________________
 
-# 63. State Merge Fuzzing
+## 63. State Merge Fuzzing
 
 Randomize:
 
@@ -2261,9 +2262,9 @@ or
 RETURN COMPETING
 ```
 
----
+______________________________________________________________________
 
-# 64. Boundary Fuzzing
+## 64. Boundary Fuzzing
 
 Fuzz transitions:
 
@@ -2293,9 +2294,9 @@ LOCAL ↔ GLOBAL
 
 Type boundaries must survive.
 
----
+______________________________________________________________________
 
-# 65. Long-Horizon Drift Test
+## 65. Long-Horizon Drift Test
 
 Repeatedly mutate valid environment state across many epochs.
 
@@ -2323,9 +2324,9 @@ invalidations preserved
 failed paths preserved
 ```
 
----
+______________________________________________________________________
 
-# 66. Context Compaction Test
+## 66. Context Compaction Test
 
 Compress context containing:
 
@@ -2357,9 +2358,9 @@ COMPRESSION
 SEMANTIC ERASURE
 ```
 
----
+______________________________________________________________________
 
-# 67. Multi-Agent Observation Test
+## 67. Multi-Agent Observation Test
 
 Two agents observe the same target.
 
@@ -2387,9 +2388,9 @@ TWO AGENTS USING ONE SOURCE
 TWO INDEPENDENT SOURCES
 ```
 
----
+______________________________________________________________________
 
-# 68. High-Stakes Mode
+## 68. High-Stakes Mode
 
 For high-consequence environment state, require stronger validation:
 
@@ -2419,9 +2420,9 @@ Higher stakes increase validation depth.
 
 They do not justify higher confidence without evidence.
 
----
+______________________________________________________________________
 
-# 69. Test Promotion Ladder
+## 69. Test Promotion Ladder
 
 ```text
 T0 TEST_SPECIFIED
@@ -2443,9 +2444,9 @@ T0 TEST_SPECIFIED
 
 No level may be reached by relabeling alone.
 
----
+______________________________________________________________________
 
-# 70. Primitive Validation Ladder
+## 70. Primitive Validation Ladder
 
 ```text
 ADDRESSABLE
@@ -2477,9 +2478,9 @@ IMPLEMENTATION_VALIDATED
 SOURCE_CANON_VERIFIED
 ```
 
----
+______________________________________________________________________
 
-# 71. Coverage Tensor
+## 71. Coverage Tensor
 
 ```text
 T_COVERAGE =
@@ -2505,28 +2506,26 @@ T[
 
 No scalar `100% coverage` claim is sufficient without defining its dimension.
 
----
+______________________________________________________________________
 
-# 72. Coverage Equation
+## 72. Coverage Equation
 
 For test class (k):
 
-[
-Coverage_k
-==========
+## \[ Coverage_k
 
-\frac{
+\\frac{
 ValidatedRequirements_k
 }{
 DeclaredRequirements_k
 }
-]
+\]
 
 with:
 
-[
+\[
 DeclaredRequirements_k > 0
-]
+\]
 
 This measures declared-requirement coverage only.
 
@@ -2544,9 +2543,9 @@ safety
 universal validity
 ```
 
----
+______________________________________________________________________
 
-# 73. Mutation Tests
+## 73. Mutation Tests
 
 Intentionally break:
 
@@ -2584,9 +2583,9 @@ If load-bearing mutations do not produce failures:
 TEST_SUITE_INSUFFICIENT
 ```
 
----
+______________________________________________________________________
 
-# 74. Differential Tests
+## 74. Differential Tests
 
 Given:
 
@@ -2631,57 +2630,57 @@ FAIL
 
 depending on the contract.
 
----
+______________________________________________________________________
 
-# 75. Metamorphic Tests
+## 75. Metamorphic Tests
 
 ## Duplicate-source relation
 
-[
+\[
 AddAlias(Source)
-\not\Rightarrow
+\\not\\Rightarrow
 IncreaseIndependence
-]
+\]
 
 ## Staleness relation
 
-[
-Age\uparrow
-\not\Rightarrow
-Freshness\uparrow
-]
+\[
+Age\\uparrow
+\\not\\Rightarrow
+Freshness\\uparrow
+\]
 
 without changed semantics.
 
 ## Provenance-removal relation
 
-[
-ProvenanceQuality\downarrow
-\not\Rightarrow
-Confidence\uparrow
-]
+\[
+ProvenanceQuality\\downarrow
+\\not\\Rightarrow
+Confidence\\uparrow
+\]
 
 ## Scope-widening relation
 
-[
-ScopeBreadth\uparrow
-\not\Rightarrow
-ValidationConfidence\uparrow
-]
+\[
+ScopeBreadth\\uparrow
+\\not\\Rightarrow
+ValidationConfidence\\uparrow
+\]
 
 without new evidence.
 
 ## Evidence-removal relation
 
-[
-LoadBearingEvidence\downarrow
-\not\Rightarrow
-ConclusionStrength\uparrow
-]
+\[
+LoadBearingEvidence\\downarrow
+\\not\\Rightarrow
+ConclusionStrength\\uparrow
+\]
 
----
+______________________________________________________________________
 
-# 76. Performance Tests
+## 76. Performance Tests
 
 Measure separately:
 
@@ -2713,9 +2712,9 @@ MAY NOT WEAKEN
 INTEGRITY INVARIANTS
 ```
 
----
+______________________________________________________________________
 
-# 77. Resource Degradation Test
+## 77. Resource Degradation Test
 
 Reduce:
 
@@ -2758,9 +2757,9 @@ LESS EVIDENCE
 → MORE CERTAINTY
 ```
 
----
+______________________________________________________________________
 
-# 78. Partial Channel Test
+## 78. Partial Channel Test
 
 Available:
 
@@ -2790,9 +2789,9 @@ PHYSICAL_SENSOR = UNAVAILABLE
 
 The system must not synthesize unavailable sensory observations.
 
----
+______________________________________________________________________
 
-# 79. Commit-Time Environment Change Test
+## 79. Commit-Time Environment Change Test
 
 External state changes between:
 
@@ -2820,9 +2819,9 @@ or
 ABORT
 ```
 
----
+______________________________________________________________________
 
-# 80. Authority Revocation Test
+## 80. Authority Revocation Test
 
 Authority:
 
@@ -2846,9 +2845,9 @@ PAST_AUTHORITY
 CURRENT_AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 81. Failure Tensor
+## 81. Failure Tensor
 
 ```text
 T_FAILURE =
@@ -2870,9 +2869,9 @@ T[
 ]
 ```
 
----
+______________________________________________________________________
 
-# 82. Failure Classes
+## 82. Failure Classes
 
 ```text
 OBSERVATION_FAILURE
@@ -2910,9 +2909,9 @@ UNKNOWN_FAILURE
 
 Infrastructure failure must not be reclassified as environmental fact.
 
----
+______________________________________________________________________
 
-# 83. Repair Verification
+## 83. Repair Verification
 
 Every repair must rerun:
 
@@ -2934,18 +2933,16 @@ RELEVANT ADVERSARIAL TESTS
 
 Repair success:
 
-[
-RepairValid
-===========
+## \[ RepairValid
 
 OriginalFailureResolved
-\land
+\\land
 NoProtectedRegression
-]
+\]
 
----
+______________________________________________________________________
 
-# 84. No Cosmetic Repair Rule
+## 84. No Cosmetic Repair Rule
 
 The following are not valid repairs by themselves:
 
@@ -2969,9 +2966,9 @@ delete provenance requirement
 
 A repair must restore the violated invariant.
 
----
+______________________________________________________________________
 
-# 85. Test Evidence Requirements
+## 85. Test Evidence Requirements
 
 A claimed test execution should preserve:
 
@@ -3015,9 +3012,9 @@ parent run
 commit/version identity
 ```
 
----
+______________________________________________________________________
 
-# 86. Test Evidence Tensor
+## 86. Test Evidence Tensor
 
 ```text
 T_TEST_EVIDENCE =
@@ -3039,9 +3036,9 @@ T[
 ]
 ```
 
----
+______________________________________________________________________
 
-# 87. Benchmark Boundary
+## 87. Benchmark Boundary
 
 Any benchmark must state its construct.
 
@@ -3071,9 +3068,9 @@ BENCHMARK PASS
 REALITY UNDERSTANDING SOLVED
 ```
 
----
+______________________________________________________________________
 
-# 88. Operational Monitoring
+## 88. Operational Monitoring
 
 Production-like monitoring should track:
 
@@ -3105,9 +3102,9 @@ channel availability
 regime transitions
 ```
 
----
+______________________________________________________________________
 
-# 89. Regression Guards
+## 89. Regression Guards
 
 The following regressions block promotion:
 
@@ -3139,9 +3136,9 @@ local failure → global reset
 proposal → commit without authority
 ```
 
----
+______________________________________________________________________
 
-# 90. Required Validators
+## 90. Required Validators
 
 ```text
 VALIDATOR_L00_TEST_SCHEMA
@@ -3173,9 +3170,9 @@ VALIDATOR_L00_REPLAY
 VALIDATOR_L00_CONFIDENCE_CEILING
 ```
 
----
+______________________________________________________________________
 
-# 91. Test Architecture Falsifiers
+## 91. Test Architecture Falsifiers
 
 This test architecture is insufficient if:
 
@@ -3215,9 +3212,9 @@ test evidence cannot be reproduced
 replay divergence is hidden
 ```
 
----
+______________________________________________________________________
 
-# 92. Gap Matrix
+## 92. Gap Matrix
 
 ```yaml
 gap_status:
@@ -3263,9 +3260,9 @@ gap_status:
     - test grouping
 ```
 
----
+______________________________________________________________________
 
-# 93. Hard Boundaries
+## 93. Hard Boundaries
 
 ```text
 PLACEHOLDER != IMPLEMENTED
@@ -3311,9 +3308,9 @@ TRACEABLE != TRUE
 FAST != CORRECT
 ```
 
----
+______________________________________________________________________
 
-# 94. AI Application
+## 94. AI Application
 
 For AI systems, L00 testing functions as a **grounding-integrity test layer**.
 
@@ -3343,9 +3340,9 @@ WHAT ACTUALLY HAPPENED
 
 An AI grounding system fails when these categories collapse.
 
----
+______________________________________________________________________
 
-# 95. AI Hallucination Test Family
+## 95. AI Hallucination Test Family
 
 ```text
 AI_HALLUCINATION_001
@@ -3375,17 +3372,17 @@ confidence cannot replace evidence
 
 Governing condition:
 
-[
+\[
 ModelGenerated(x)
-\land
-\neg ExternallyObserved(x)
-\Rightarrow
-x \notin OBSERVED
-]
+\\land
+\\neg ExternallyObserved(x)
+\\Rightarrow
+x \\notin OBSERVED
+\]
 
----
+______________________________________________________________________
 
-# 96. AI Tool-Use Test Family
+## 96. AI Tool-Use Test Family
 
 ```text
 AI_TOOL_001
@@ -3413,9 +3410,9 @@ AI_TOOL_008
 tool retry does not manufacture independent evidence
 ```
 
----
+______________________________________________________________________
 
-# 97. AI Memory Test Family
+## 97. AI Memory Test Family
 
 ```text
 AI_MEMORY_001
@@ -3437,9 +3434,9 @@ AI_MEMORY_006
 memory cannot grant action authority
 ```
 
----
+______________________________________________________________________
 
-# 98. AI Multi-Agent Test Family
+## 98. AI Multi-Agent Test Family
 
 ```text
 AI_MULTIAGENT_001
@@ -3467,9 +3464,9 @@ AI_MULTIAGENT_008
 cross-agent consensus does not override direct contradictory evidence automatically
 ```
 
----
+______________________________________________________________________
 
-# 99. AI Action Boundary Tests
+## 99. AI Action Boundary Tests
 
 Before consequential action:
 
@@ -3495,28 +3492,26 @@ COMMIT STATE FRESH?
 
 Conceptually:
 
-[
-ActionEligible
-==============
+## \[ ActionEligible
 
 Grounded
-\land
+\\land
 Fresh
-\land
+\\land
 ScopeValid
-\land
+\\land
 RegimeValid
-\land
+\\land
 Authorized
-\land
+\\land
 ConstraintsSatisfied
-]
+\]
 
 The exact authorization policy belongs to the governing control plane.
 
----
+______________________________________________________________________
 
-# 100. RSCF Test Capsule
+## 100. RSCF Test Capsule
 
 ```yaml
 rscf:
@@ -3606,112 +3601,109 @@ rscf:
     runtime identity, and scope-specific validation
 ```
 
----
+______________________________________________________________________
 
-# 101. Governing Equations
+## 101. Governing Equations
 
 ### Specification boundary
 
-[
-\boxed{
+\[
+\\boxed{
 TestSpecified
-\neq
+\\neq
 TestExecuted
 }
-]
+\]
 
 ### Execution boundary
 
-[
-\boxed{
+\[
+\\boxed{
 TestExecuted
-\neq
+\\neq
 TestPassed
 }
-]
+\]
 
 ### Validation boundary
 
-[
-\boxed{
+\[
+\\boxed{
 TestPassed
-\neq
+\\neq
 UniversalValidity
 }
-]
+\]
 
 ### Unknown boundary
 
-[
-\boxed{
+\[
+\\boxed{
 UnknownRequiredEvidence
-\Rightarrow
+\\Rightarrow
 NoPass
 }
-]
+\]
 
 ### Confidence boundary
 
-[
-\boxed{
-C_{derived}
-\le
-\min(C_{load\ bearing\ premises})
+\[
+\\boxed{
+C\_{derived}
+\\le
+\\min(C\_{load\\ bearing\\ premises})
 }
-]
+\]
 
 ### Provenance independence
 
-[
-\boxed{
+\[
+\\boxed{
 SharedAncestry
-\not\Rightarrow
+\\not\\Rightarrow
 IndependentConfirmation
 }
-]
+\]
 
 ### Selective invalidation
 
-[
-\boxed{
+\[
+\\boxed{
 Invalid(p)
-\Rightarrow
+\\Rightarrow
 Invalidate(Descendants(p))
 }
-]
+\]
 
 ### Recovery
 
-[
-\boxed{
-RepairValid
-===========
+## \[ \\boxed{ RepairValid
 
 FailureResolved
-\land
+\\land
 NoProtectedRegression
 }
-]
+\]
 
 ### Reality firewall
 
-[
-\boxed{
+\[
+\\boxed{
 Model
-\neq
+\\neq
 Memory
-\neq
+\\neq
 Prediction
-\neq
+\\neq
 Simulation
-\neq
+\\neq
 Observation
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 102. Completion State
+## 102. Completion State
 
 ```yaml
 completion_state:
@@ -3784,22 +3776,22 @@ completion_state:
     MODEL / CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
-# 103. Final Test Contract
+## 103. Final Test Contract
 
 The L00 test architecture exists to prevent AMOS or an AI implementation from being rewarded for confusing internally generated state with externally grounded state.
 
 The strongest invariant is:
 
-[
-\boxed{
-No\ test\ may\ reward\ the\ system\ for\ confusing
-\ model,\ memory,\ prediction,\ simulation,\ source\ report,
-\ or\ tool\ output
-\ with\ externally\ grounded\ observation
+\[
+\\boxed{
+No\\ test\\ may\\ reward\\ the\\ system\\ for\\ confusing
+\\ model,\\ memory,\\ prediction,\\ simulation,\\ source\\ report,
+\\ or\\ tool\\ output
+\\ with\\ externally\\ grounded\\ observation
 }
-]
+\]
 
 The governing sequence is:
 
@@ -3847,26 +3839,30 @@ AMOS MODEL / CONDITIONAL
 
 is the strongest warranted classification.
 
----
+______________________________________________________________________
 
 **Related:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · L00_REALITY_ENVIRONMENT — RSCF · [[00_ROOT/00_HOME|00_HOME]] · 06-Knowledge-Base-MOC
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: l00_reality_environment_primitives_cognitive_matrix_tests
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_TESTS.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_MOC|L00_REALITY_ENVIRONMENT_MOC]]

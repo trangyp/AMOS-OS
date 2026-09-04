@@ -1,16 +1,19 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: 05 Design MOC
 type: moc
 source: 21_DOMAINS/05_DESIGN
 tags:
-- 05-design
-- canon/domain
-- bio-logical-architecture-design
-- design-domains-domain-spec
-- design-domains-interfaces
-- design-domains-provenance
-- design-for-absolute-integrity
-- irreducible-systems-design
+  - 05-design
+  - canon/domain
+  - bio-logical-architecture-design
+  - design-domains-domain-spec
+  - design-domains-interfaces
+  - design-domains-provenance
+  - design-for-absolute-integrity
+  - irreducible-systems-design
 moc: true
 rscf:
   state: DERIVED
@@ -37,7 +40,8 @@ rscf:
 
 ## Subdirectories
 
-- [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]] — 00_INDEX
+- [[21_DOMAINS/05_DESIGN/00_INDEX/DOMAIN_INDEX_MOC|00_INDEX]] — Subdomain Navigation
 
----
+______________________________________________________________________
+
 **Parent:** [[21_DOMAINS/21_DOMAINS_MOC|21_DOMAINS_MOC]]

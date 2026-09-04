@@ -17,44 +17,43 @@ steward: Trang Phan
 created: 2026-08-25
 updated: 2026-08-25
 tags:
-- amos
-- canon
-- universe
-- amos-os
-- amos-core
-- amos-core-v4-4
-- hml
-- fractal-knowledge
-- knowledge-resolution
-- retrieval
-- dependency-closure
-- rscf
-- provenance
-- epistemic-regime
-- scope
-- freshness
-- uncertainty
-- progressive-disclosure
-- context-management
-- evidence
-- canon-group/tech-ai
-- canon/framework
-- canon/model
-- rscf/claim
-- rscf/provenance
-- rscf/state/derived
-- readme
-- architecture
-- neural-network
-- authoritative-state
-- placement-rules
-- amos-core-laws
-- law-hierarchy
-- amos-full-brain-os-architecture
-- cognitive-matrix-architecture
+  - amos
+  - canon
+  - universe
+  - amos-os
+  - amos-core
+  - amos-core-v4-4
+  - hml
+  - fractal-knowledge
+  - knowledge-resolution
+  - retrieval
+  - dependency-closure
+  - rscf
+  - provenance
+  - epistemic-regime
+  - scope
+  - freshness
+  - uncertainty
+  - progressive-disclosure
+  - context-management
+  - evidence
+  - canon-group/tech-ai
+  - canon/framework
+  - canon/model
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/derived
+  - readme
+  - architecture
+  - neural-network
+  - authoritative-state
+  - placement-rules
+  - amos-core-laws
+  - law-hierarchy
+  - amos-full-brain-os-architecture
+  - cognitive-matrix-architecture
 aliases:
-- AMOS HML Canon - H/M/L Canon - AMOS H/M/L Architecture - AMOS Fractal Knowledge
-  Resolution C
+  - AMOS HML Canon - H/M/L Canon - AMOS H/M/L Architecture - AMOS Fractal Knowledge Resolution C
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -63,19 +62,21 @@ rscf:
 ---
 
 # AMOS H/M/L Canon
+
 **Origin architect / steward:** Trang Phan
+
 > **Status:** `ACTIVE_CANON_CANDIDATE`
 > **AMOS Core target:** `v4.4`
 > **Conclusion class:** `AMOS_MODEL`
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: universe_canon
----
+> rscf:
+> state: SOURCE_CLAIM
+> claim_class: SOURCE_CLAIM
+> provenance: AMOS_corpus
+> scope: universe_canon
 
+______________________________________________________________________
 
-# 0. Purpose
+## 0. Purpose
 
 The **AMOS H/M/L Canon** defines the canonical fractal resolution architecture used to organize, retrieve, reason over, validate, and selectively expand AMOS knowledge.
 
@@ -125,9 +126,9 @@ DO_NOT_LOAD_UNLESS_REQUIRED
 
 unless a load-bearing uncertainty cannot otherwise be resolved.
 
----
+______________________________________________________________________
 
-# 1. Core H/M/L Structure
+## 1. Core H/M/L Structure
 
 ```text
                     QUERY / OBJECTIVE
@@ -170,9 +171,9 @@ unless a load-bearing uncertainty cannot otherwise be resolved.
              └─────────────┘
 ```
 
----
+______________________________________________________________________
 
-# 2. Canonical Meaning of H, M, and L
+## 2. Canonical Meaning of H, M, and L
 
 ## H — High-Level Domain
 
@@ -199,7 +200,7 @@ H answers:
 
 H should not contain every implementation detail.
 
----
+______________________________________________________________________
 
 ## M — Mid-Level Subsystem
 
@@ -224,7 +225,7 @@ M answers:
 
 > Which mechanism, subsystem, or dependency path controls the result?
 
----
+______________________________________________________________________
 
 ## L — Low-Level Detail
 
@@ -252,9 +253,9 @@ L answers:
 
 > What exact evidence, rule, premise, or implementation detail determines the conclusion?
 
----
+______________________________________________________________________
 
-# 3. Raw Evidence Layer
+## 3. Raw Evidence Layer
 
 Raw evidence sits below L but is not automatically loaded.
 
@@ -302,9 +303,9 @@ RAW EVIDENCE
 MUST BECOME RETRIEVABLE.
 ```
 
----
+______________________________________________________________________
 
-# 4. H/M/L Is Fractal
+## 4. H/M/L Is Fractal
 
 H/M/L is recursive.
 
@@ -341,9 +342,9 @@ RESOLUTION ROLES
 
 not necessarily permanent absolute object types.
 
----
+______________________________________________________________________
 
-# 5. Resolution Is Contextual
+## 5. Resolution Is Contextual
 
 A knowledge object can occupy different H/M/L roles depending on the current reasoning scope.
 
@@ -375,9 +376,9 @@ PERMANENT_IDENTITY
 
 Semantic identity and resolution role remain separate.
 
----
+______________________________________________________________________
 
-# 6. H/M/L Identity Firewall
+## 6. H/M/L Identity Firewall
 
 The following are distinct:
 
@@ -393,9 +394,9 @@ REPOSITORY LOCATION
 
 Changing an object's H/M/L placement must not silently alter its semantic or provenance identity.
 
----
+______________________________________________________________________
 
-# 7. Primary Retrieval Law
+## 7. Primary Retrieval Law
 
 AMOS retrieval should begin with the smallest sufficient context.
 
@@ -425,9 +426,9 @@ REASON OVER EVERYTHING
 
 unless exhaustive retrieval is genuinely required.
 
----
+______________________________________________________________________
 
-# 8. Dependency-Directed Retrieval
+## 8. Dependency-Directed Retrieval
 
 Traversal follows decision-relevant dependencies.
 
@@ -453,9 +454,9 @@ CLAIM / DECISION / ACTION
 THEN DO NOT EXPAND BY DEFAULT.
 ```
 
----
+______________________________________________________________________
 
-# 9. Smallest Sufficient Proof Scope
+## 9. Smallest Sufficient Proof Scope
 
 AMOS v4.4 permits local reasoning when the proof scope is sufficient.
 
@@ -483,9 +484,9 @@ The objective is:
 MINIMUM SUFFICIENT VALID EVIDENCE
 ```
 
----
+______________________________________________________________________
 
-# 10. Integrity Dominates Compression
+## 10. Integrity Dominates Compression
 
 Compression is subordinate to integrity.
 
@@ -509,9 +510,9 @@ SMALLER CONTEXT
 
 is desirable only when it preserves the load-bearing proof.
 
----
+______________________________________________________________________
 
-# 11. H Bootstrap Capsule
+## 11. H Bootstrap Capsule
 
 An H node should ideally expose a compact bootstrap capsule.
 
@@ -545,9 +546,9 @@ The bootstrap capsule is an orientation object.
 
 It is not necessarily sufficient evidence for a consequential conclusion.
 
----
+______________________________________________________________________
 
-# 12. M Subsystem Capsule
+## 12. M Subsystem Capsule
 
 An M node should provide the subsystem information necessary to determine whether deeper retrieval is required.
 
@@ -582,9 +583,9 @@ m_capsule:
   escalation_conditions: []
 ```
 
----
+______________________________________________________________________
 
-# 13. L Detail Capsule
+## 13. L Detail Capsule
 
 L is where exact load-bearing details should become explicit.
 
@@ -616,9 +617,9 @@ l_capsule:
   raw_evidence_refs: []
 ```
 
----
+______________________________________________________________________
 
-# 14. RSCF and H/M/L
+## 14. RSCF and H/M/L
 
 RSCF and H/M/L solve different problems.
 
@@ -654,9 +655,9 @@ HML_NODE != RSCF_NODE
 
 unless explicitly modeled as both.
 
----
+______________________________________________________________________
 
-# 15. RSCF Retrieval
+## 15. RSCF Retrieval
 
 A target RSCF may trigger H/M/L traversal.
 
@@ -672,9 +673,9 @@ RSCF
 
 Only load-bearing dependencies need expansion by default.
 
----
+______________________________________________________________________
 
-# 16. Proof Capsule Reuse
+## 16. Proof Capsule Reuse
 
 A previously validated conclusion may be reused without reloading its full evidence tree when its validity envelope remains intact.
 
@@ -696,9 +697,9 @@ CONFIDENCE CEILING
 
 Reuse is valid only while those conditions remain valid.
 
----
+______________________________________________________________________
 
-# 17. Proof Capsule Invalidation
+## 17. Proof Capsule Invalidation
 
 If a dependency fails:
 
@@ -720,9 +721,9 @@ LOCAL FAILURE
 GLOBAL KNOWLEDGE FAILURE
 ```
 
----
+______________________________________________________________________
 
-# 18. Epistemic Typing
+## 18. Epistemic Typing
 
 H/M/L does not change epistemic class.
 
@@ -756,9 +757,9 @@ HIGH LEVEL
 HIGH CONFIDENCE
 ```
 
----
+______________________________________________________________________
 
-# 19. Provenance Preservation
+## 19. Provenance Preservation
 
 Every material compression boundary must preserve enough provenance to recover the underlying source path.
 
@@ -791,9 +792,9 @@ MUST NOT
 DESTROY MATERIAL LINEAGE.
 ```
 
----
+______________________________________________________________________
 
-# 20. Provenance Topology
+## 20. Provenance Topology
 
 Multiple H/M/L nodes may derive from one underlying source.
 
@@ -820,9 +821,9 @@ MULTIPLE H NODES
 MULTIPLE INDEPENDENT SOURCES
 ```
 
----
+______________________________________________________________________
 
-# 21. Sybil Hardening
+## 21. Sybil Hardening
 
 H/M/L must not amplify confidence through repeated descendants of the same ancestry.
 
@@ -841,9 +842,9 @@ MANY INDEPENDENT CONFIRMATIONS
 
 Independence is a provenance property, not a node-count property.
 
----
+______________________________________________________________________
 
-# 22. Scope Inheritance
+## 22. Scope Inheritance
 
 Child knowledge inherits applicable scope constraints unless explicitly narrowed or independently expanded.
 
@@ -863,9 +864,9 @@ L_SCOPE ⊆ M_SCOPE ⊆ H_SCOPE
 
 A child must not silently broaden it.
 
----
+______________________________________________________________________
 
-# 23. Scope Envelope
+## 23. Scope Envelope
 
 Material nodes should support an applicability envelope.
 
@@ -882,9 +883,9 @@ scope:
 
 Cross-scope reuse requires validation.
 
----
+______________________________________________________________________
 
-# 24. Regime Inheritance
+## 24. Regime Inheritance
 
 Knowledge is regime-aware.
 
@@ -911,9 +912,9 @@ Instead:
 REVALIDATE AFFECTED DEPENDENCY CLOSURE
 ```
 
----
+______________________________________________________________________
 
-# 25. Freshness
+## 25. Freshness
 
 Freshness may differ by level.
 
@@ -937,9 +938,9 @@ DOES NOT GUARANTEE
 FRESH L
 ```
 
----
+______________________________________________________________________
 
-# 26. Freshness Escalation
+## 26. Freshness Escalation
 
 If a conclusion depends on time-sensitive detail:
 
@@ -953,9 +954,9 @@ STALE L
 
 the system should revalidate the L dependency rather than automatically rebuilding the entire H tree.
 
----
+______________________________________________________________________
 
-# 27. Contradiction Handling
+## 27. Contradiction Handling
 
 Contradictions should remain visible.
 
@@ -984,9 +985,9 @@ UNKNOWN/GAP
 
 until discriminating evidence exists.
 
----
+______________________________________________________________________
 
-# 28. Cross-Branch Contradiction
+## 28. Cross-Branch Contradiction
 
 Contradictions may exist across branches.
 
@@ -1002,9 +1003,9 @@ When both are load-bearing, local fast-path reasoning is no longer sufficient.
 
 Escalation is required.
 
----
+______________________________________________________________________
 
-# 29. Competing Hypotheses
+## 29. Competing Hypotheses
 
 H/M/L supports parallel competing branches.
 
@@ -1026,9 +1027,9 @@ MUST PRESERVE
 DECISION-RELEVANT COMPETITION.
 ```
 
----
+______________________________________________________________________
 
-# 30. Discriminating Retrieval
+## 30. Discriminating Retrieval
 
 When hypotheses compete, retrieve evidence according to information value.
 
@@ -1043,9 +1044,9 @@ LOAD THAT PATH FIRST
 
 This is preferable to indiscriminately loading more background.
 
----
+______________________________________________________________________
 
-# 31. Causal Firewall
+## 31. Causal Firewall
 
 H/M/L hierarchy does not establish causation.
 
@@ -1076,9 +1077,9 @@ CLASSIFICATION
 
 rather than causal relations.
 
----
+______________________________________________________________________
 
-# 32. Typed Edges
+## 32. Typed Edges
 
 Material H/M/L edges should ideally be typed.
 
@@ -1102,9 +1103,9 @@ INVALIDATES
 
 Typed edges prevent structural ambiguity.
 
----
+______________________________________________________________________
 
-# 33. Authority Firewall
+## 33. Authority Firewall
 
 Knowledge resolution does not grant authority.
 
@@ -1124,9 +1125,9 @@ PERMISSION TO EXECUTE
 
 Governance and authority remain separate AMOS OS concerns.
 
----
+______________________________________________________________________
 
-# 34. Canon Firewall
+## 34. Canon Firewall
 
 H/M/L is not itself a canon promotion mechanism.
 
@@ -1148,9 +1149,9 @@ PROMOTION
 
 process.
 
----
+______________________________________________________________________
 
-# 35. Memory Firewall
+## 35. Memory Firewall
 
 Memory may use H/M/L.
 
@@ -1177,9 +1178,9 @@ UNKNOWN
 
 without being promoted.
 
----
+______________________________________________________________________
 
-# 36. Adaptive Retrieval Complexity
+## 36. Adaptive Retrieval Complexity
 
 H/M/L integrates with AMOS adaptive complexity.
 
@@ -1212,9 +1213,9 @@ C4
 
 This mapping is operational guidance, not an absolute equivalence.
 
----
+______________________________________________________________________
 
-# 37. Escalation Conditions
+## 37. Escalation Conditions
 
 Escalate deeper when material uncertainty remains in:
 
@@ -1242,9 +1243,9 @@ AMBIGUOUS DEPENDENCIES
 SHARED PROVENANCE ANCESTRY
 ```
 
----
+______________________________________________________________________
 
-# 38. De-Escalation
+## 38. De-Escalation
 
 Stop expanding when outcome-changing uncertainty is resolved.
 
@@ -1266,9 +1267,9 @@ STOP
 
 Do not continue retrieval merely because more knowledge exists.
 
----
+______________________________________________________________________
 
-# 39. Claim Sufficiency
+## 39. Claim Sufficiency
 
 Claim sufficiency asks:
 
@@ -1276,9 +1277,9 @@ Claim sufficiency asks:
 
 If yes, further retrieval may be unnecessary.
 
----
+______________________________________________________________________
 
-# 40. Decision Sufficiency
+## 40. Decision Sufficiency
 
 Decision sufficiency asks:
 
@@ -1286,9 +1287,9 @@ Decision sufficiency asks:
 
 A conclusion can be incomplete yet decision-sufficient.
 
----
+______________________________________________________________________
 
-# 41. Action Sufficiency
+## 41. Action Sufficiency
 
 Action sufficiency asks:
 
@@ -1296,9 +1297,9 @@ Action sufficiency asks:
 
 Action sufficiency may be reached before total explanatory completeness.
 
----
+______________________________________________________________________
 
-# 42. Stop Rule
+## 42. Stop Rule
 
 Canonical stop condition:
 
@@ -1314,9 +1315,9 @@ subject to the task's actual requirements.
 
 Exhaustiveness is not the default objective.
 
----
+______________________________________________________________________
 
-# 43. Sensitivity-Directed Traversal
+## 43. Sensitivity-Directed Traversal
 
 Before expanding a large branch, identify the premise most capable of flipping the result.
 
@@ -1334,9 +1335,9 @@ TEST FIRST
 
 This minimizes low-value retrieval.
 
----
+______________________________________________________________________
 
-# 44. Uncertainty-Directed Traversal
+## 44. Uncertainty-Directed Traversal
 
 Material uncertainty can be represented as a vector:
 
@@ -1354,9 +1355,9 @@ U = [
 
 Retrieval should target the uncertainty dimension with the highest expected decision value.
 
----
+______________________________________________________________________
 
-# 45. Local Fast Path
+## 45. Local Fast Path
 
 AMOS v4.4 local reasoning is allowed when the required H/M/L dependency closure demonstrates:
 
@@ -1379,9 +1380,9 @@ LOCAL CONCLUSION
 
 may be sufficient.
 
----
+______________________________________________________________________
 
-# 46. Fast-Path Escalation
+## 46. Fast-Path Escalation
 
 Fast path must terminate when encountering:
 
@@ -1405,9 +1406,9 @@ LOCAL
 BROADER DEPENDENCY CLOSURE
 ```
 
----
+______________________________________________________________________
 
-# 47. Atomic Multi-RSCF Retrieval
+## 47. Atomic Multi-RSCF Retrieval
 
 A conclusion may depend on several RSCFs distributed across different H/M/L branches.
 
@@ -1427,9 +1428,9 @@ ATOMIC DECISION SUPPORT SET
 
 A partial set must not be mistaken for complete support.
 
----
+______________________________________________________________________
 
-# 48. Cross-H Dependency Closure
+## 48. Cross-H Dependency Closure
 
 Some decisions cannot remain inside one H domain.
 
@@ -1449,9 +1450,9 @@ Cross-H retrieval is permitted when required.
 
 The fast path must not become a silo.
 
----
+______________________________________________________________________
 
-# 49. Proof-Based Coordination Avoidance
+## 49. Proof-Based Coordination Avoidance
 
 Global traversal is unnecessary when locality can be proven.
 
@@ -1475,9 +1476,9 @@ Locality must be demonstrated.
 
 It must not be assumed from folder boundaries.
 
----
+______________________________________________________________________
 
-# 50. Persistent Provenance
+## 50. Persistent Provenance
 
 Compression and caching should preserve lineage across sessions or persistent state where the implementation supports persistence.
 
@@ -1499,9 +1500,9 @@ allows revalidation without full reconstruction.
 
 This is an architectural requirement, not a claim that every current runtime already implements persistent provenance.
 
----
+______________________________________________________________________
 
-# 51. MVCC / CAS Alignment
+## 51. MVCC / CAS Alignment
 
 Where AMOS implementations use versioned state concepts, H/M/L nodes may carry revision identity.
 
@@ -1530,9 +1531,9 @@ H/M/L does not itself implement MVCC or CAS.
 
 It provides a compatible knowledge identity structure.
 
----
+______________________________________________________________________
 
-# 52. Supersession
+## 52. Supersession
 
 New knowledge should not silently erase old knowledge.
 
@@ -1554,9 +1555,9 @@ SUPERSEDED
 NEVER EXISTED
 ```
 
----
+______________________________________________________________________
 
-# 53. Versioning
+## 53. Versioning
 
 Canonical filenames should not require version suffixes.
 
@@ -1579,9 +1580,9 @@ canon_state
 
 where relevant.
 
----
+______________________________________________________________________
 
-# 54. Node Lifecycle
+## 54. Node Lifecycle
 
 A conceptual H/M/L lifecycle may include:
 
@@ -1605,9 +1606,9 @@ Not every artifact must traverse every state.
 
 Promotion requires explicit governance.
 
----
+______________________________________________________________________
 
-# 55. Placeholder Firewall
+## 55. Placeholder Firewall
 
 A placeholder may reserve structure.
 
@@ -1635,9 +1636,9 @@ L NODE EXISTS
 CLAIM VALIDATED
 ```
 
----
+______________________________________________________________________
 
-# 56. Missing Branches
+## 56. Missing Branches
 
 If an expected H/M/L branch does not exist:
 
@@ -1651,9 +1652,9 @@ UNKNOWN/GAP
 
 Do not synthesize a missing canonical branch merely because its structure appears predictable.
 
----
+______________________________________________________________________
 
-# 57. Gap Classification
+## 57. Gap Classification
 
 Missing H/M/L information should be classified:
 
@@ -1676,9 +1677,9 @@ EXPLANATORY
 COSMETIC
 ```
 
----
+______________________________________________________________________
 
-# 58. Failure Recovery
+## 58. Failure Recovery
 
 If an H/M/L node is invalidated:
 
@@ -1698,9 +1699,9 @@ REROUTE
 
 Global recomputation is a last resort.
 
----
+______________________________________________________________________
 
-# 59. No Failed-Path Repetition
+## 59. No Failed-Path Repetition
 
 A failed retrieval path should not simply be repeated.
 
@@ -1723,9 +1724,9 @@ NEW MODEL
 NEW DEPENDENCY PATH
 ```
 
----
+______________________________________________________________________
 
-# 60. H/M/L and the 7-Part Universe
+## 60. H/M/L and the 7-Part Universe
 
 H/M/L can recursively organize knowledge about every part of the AMOS 7-Part Universe.
 
@@ -1780,9 +1781,9 @@ FRACTAL RESOLUTION DECOMPOSITION
 
 They are complementary.
 
----
+______________________________________________________________________
 
-# 61. H/M/L and AMOS OS Repository Planes
+## 61. H/M/L and AMOS OS Repository Planes
 
 H/M/L must not be confused with repository depth.
 
@@ -1798,9 +1799,9 @@ A deeply nested artifact may serve as H-level orientation for a local domain.
 
 H/M/L is semantic resolution.
 
----
+______________________________________________________________________
 
-# 62. Knowledge Plane Mapping
+## 62. Knowledge Plane Mapping
 
 Primary repository relationships may include:
 
@@ -1828,9 +1829,9 @@ Primary repository relationships may include:
 
 This mapping is architectural rather than proof of current implementation.
 
----
+______________________________________________________________________
 
-# 63. H/M/L Node Contract
+## 63. H/M/L Node Contract
 
 A mature node may follow:
 
@@ -1888,9 +1889,9 @@ hml_node:
     validation_refs: []
 ```
 
----
+______________________________________________________________________
 
-# 64. H Node Minimum Contract
+## 64. H Node Minimum Contract
 
 An H node should answer at minimum:
 
@@ -1905,9 +1906,9 @@ WHAT KNOWN GAPS?
 WHERE TO EXPAND NEXT?
 ```
 
----
+______________________________________________________________________
 
-# 65. M Node Minimum Contract
+## 65. M Node Minimum Contract
 
 An M node should answer:
 
@@ -1922,9 +1923,9 @@ WHAT FAILURE MODES?
 WHAT L DETAILS CAN CHANGE THE RESULT?
 ```
 
----
+______________________________________________________________________
 
-# 66. L Node Minimum Contract
+## 66. L Node Minimum Contract
 
 An L node should answer:
 
@@ -1940,9 +1941,9 @@ WHAT FALSIFIES IT?
 WHAT DEPENDS ON IT?
 ```
 
----
+______________________________________________________________________
 
-# 67. Retrieval Trace
+## 67. Retrieval Trace
 
 Consequential retrieval should be traceable conceptually as:
 
@@ -1974,9 +1975,9 @@ This does not require exposing hidden chain-of-thought.
 
 The trace records material retrieval decisions, not private internal reasoning.
 
----
+______________________________________________________________________
 
-# 68. Adversarial Validation
+## 68. Adversarial Validation
 
 For consequential conclusions, a separate challenge path should test the selected H/M/L proof.
 
@@ -2004,9 +2005,9 @@ COMPETING → UNKNOWN/GAP
 
 as appropriate.
 
----
+______________________________________________________________________
 
-# 69. Confidence Ceiling
+## 69. Confidence Ceiling
 
 A high-level summary cannot carry confidence greater than its weakest load-bearing support unless independently revalidated.
 
@@ -2024,9 +2025,9 @@ for the specific claim being made.
 
 This is claim-local, not necessarily a single confidence score for the entire H node.
 
----
+______________________________________________________________________
 
-# 70. Compression Boundary
+## 70. Compression Boundary
 
 When L details are summarized into M:
 
@@ -2050,9 +2051,9 @@ CONFIDENCE CEILING
 
 The same applies from M to H.
 
----
+______________________________________________________________________
 
-# 71. Lossy Compression Rule
+## 71. Lossy Compression Rule
 
 Lossy compression is permitted only for information that cannot materially alter the target outcome.
 
@@ -2070,9 +2071,9 @@ LOAD-BEARING DETAIL
 MUST REMAIN RECOVERABLE
 ```
 
----
+______________________________________________________________________
 
-# 72. Anti-Fluency Rule
+## 72. Anti-Fluency Rule
 
 A missing L node must not be bridged with plausible prose.
 
@@ -2098,9 +2099,9 @@ Not:
 PLAUSIBLE COMPLETION
 ```
 
----
+______________________________________________________________________
 
-# 73. H/M/L Minimal Invariants
+## 73. H/M/L Minimal Invariants
 
 ```text
 HML-001 H/M/L ARE RESOLUTION ROLES, NOT TRUTH LEVELS
@@ -2154,9 +2155,9 @@ HML-024 STRUCTURAL HIERARCHY != CAUSAL HIERARCHY
 HML-025 OPTIMIZATION MUST NOT WEAKEN INTEGRITY
 ```
 
----
+______________________________________________________________________
 
-# 74. Canonical Retrieval Algorithm
+## 74. Canonical Retrieval Algorithm
 
 Conceptually:
 
@@ -2182,9 +2183,9 @@ Conceptually:
 13. RETURN CORRECT CONCLUSION CLASS
 ```
 
----
+______________________________________________________________________
 
-# 75. Retrieval Pseudocode
+## 75. Retrieval Pseudocode
 
 ```text
 function resolve(target):
@@ -2230,9 +2231,9 @@ This pseudocode is a structural model.
 
 It is not asserted to be literal AMOS runtime implementation.
 
----
+______________________________________________________________________
 
-# 76. Anti-Patterns
+## 76. Anti-Patterns
 
 The following violate H/M/L canon:
 
@@ -2262,9 +2263,9 @@ REUSE STALE PROOF CAPSULES ACROSS REGIME SHIFTS
 ALLOW FAST PATH WITHOUT DEPENDENCY CLOSURE
 ```
 
----
+______________________________________________________________________
 
-# 77. Validation Requirements
+## 77. Validation Requirements
 
 An H/M/L implementation should eventually test:
 
@@ -2286,9 +2287,9 @@ SYBIL / SHARED-ANCESTRY DETECTION
 STOP CONDITIONS
 ```
 
----
+______________________________________________________________________
 
-# 78. Canon Promotion Gate
+## 78. Canon Promotion Gate
 
 Promotion:
 
@@ -2322,9 +2323,9 @@ requires canonical review of:
 
 Until then, this document remains an AMOS architectural model.
 
----
+______________________________________________________________________
 
-# 79. RSCF Node
+## 79. RSCF Node
 
 ```yaml
 node_id: AMOS_HML_CANON
@@ -2388,9 +2389,9 @@ does_not_establish:
   - literal implementation of every v4.4 distributed-state mechanism
 ```
 
----
+______________________________________________________________________
 
-# 80. Status Boundary
+## 80. Status Boundary
 
 H/M/L is an AMOS architectural and reasoning model.
 
@@ -2412,9 +2413,9 @@ EMPIRICALLY VERIFIED UNIVERSAL ONTOLOGY
 
 The number of physical files, modules, database levels, or runtime components does not need to equal three.
 
----
+______________________________________________________________________
 
-# 81. Changelog
+## 81. Changelog
 
 ## v2.0.0 — 2026-08-25
 
@@ -2467,9 +2468,9 @@ Added:
 
 Initial placeholder reserved the canonical AMOS OS location.
 
----
+______________________________________________________________________
 
-# 82. Canonical Summary
+## 82. Canonical Summary
 
 ```text
 H
@@ -2557,30 +2558,33 @@ PLACEHOLDER != IMPLEMENTATION
 UNKNOWN/GAP != PASS
 ```
 
----
+______________________________________________________________________
 
 **Related:** README|AMOS OS · [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|MOC · [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]|Architecture · [[00_ROOT/SYSTEM_MAP|SYSTEM_MAP]]|System Map · [[00_ROOT/NEURAL_NETWORK|NEURAL_NETWORK]]|AMOS Neural Network · [[00_ROOT/AUTHORITATIVE_STATE|AUTHORITATIVE_STATE]]|Authoritative State · [[00_ROOT/PLACEMENT_RULES|PLACEMENT_RULES]]|Placement Rules · AMOS Canon · [[01_CANON/00_INDEX/CANON_MAP|CANON_MAP]]|Canon Map · [[01_CANON/01_CORE_LAWS/AMOS_CORE_LAWS|AMOS Core Laws]] · [[01_CANON/01_CORE_LAWS/INVARIANT_REGISTRY|INVARIANT_REGISTRY]]|Invariant Registry · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]|Law Hierarchy · [[01_CANON/02_UNIVERSE_CANON/AMOS_7_PART_UNIVERSE_CANON|AMOS_7_PART_UNIVERSE_CANON]]|AMOS 7-Part Universe Canon · [[02_KERNEL/00_INDEX/KERNEL_MAP|KERNEL_MAP]]|Kernel Map · [[03_CONTROL_PLANE/00_INDEX/CONTROL_PLANE_MAP|CONTROL_PLANE_MAP]]|Control Plane Map · [[05_COGNITIVE_ORGANISM/00_INDEX/COGNITIVE_ORGANISM_MAP|COGNITIVE_ORGANISM_MAP]]|Cognitive Organism · [[10_MEMORY/00_INDEX/MEMORY_MEMORY_MAP|MEMORY_MEMORY_MAP]]|Memory Map · [[11_KNOWLEDGE/AMOS_FULL_BRAIN_OS_ARCHITECTURE|AMOS Full Brain OS Architecture]] · Knowledge Map · [[12_STATE/00_INDEX/STATE_STATE_MAP|STATE_STATE_MAP]]|State Map · [[13_MODELS/00_INDEX/MODEL_MAP|MODEL_MAP]]|Model Map · [[16_SCHEMAS/00_INDEX/SCHEMA_MAP|SCHEMA_MAP]]|Schema Map · [[17_OBSERVABILITY/00_INDEX/OBSERVABILITY_OBSERVABILITY_MAP|OBSERVABILITY_OBSERVABILITY_MAP]]|Observability Map · [[19_TESTS/00_INDEX/TEST_MAP|TEST_MAP]]|Test Map · [[22_RESEARCH/00_INDEX/INDEX_RESEARCH_README|INDEX_RESEARCH_README]]|Research · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_ARCHITECTURE|COGNITIVE_MATRIX_ARCHITECTURE]]|Cognitive Matrix
 
 ```
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: hml_canon
 node_type: note
 path: 01_CANON/02_UNIVERSE_CANON/HML_CANON.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[01_CANON/02_UNIVERSE_CANON/02_UNIVERSE_CANON_MOC|02_UNIVERSE_CANON_MOC]]
-

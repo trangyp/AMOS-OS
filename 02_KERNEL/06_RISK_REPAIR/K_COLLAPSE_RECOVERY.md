@@ -15,48 +15,48 @@ kernel_family: RECOVERY
 scope: AMOS_OS
 updated: 2026-08-26
 tags:
-- amos-os
-- kernel
-- core
-- kernel/recovery
-- kernel/collapse-recovery
-- kernel/failure-recovery
-- kernel/invalidation
-- kernel/rollback
-- kernel/dependency
-- kernel/state
-- kernel/provenance
-- kernel/causal-epoch
-- kernel/rscf
-- rscf/recovery
-- rscf/invalidation
-- rscf/dependency
-- topic/local-repair
-- topic/failure-containment
-- topic/rollback
-- topic/replay
-- topic/atomicity
-- topic/mvcc
-- topic/cas
-- topic/causal-finality
-- canon/kernel
-- readme
-- amos-core-laws
-- law-hierarchy
-- canon-provenance
-- source-lineage
-- k-core19-logic
-- k-meta-logic
-- k-structural-reasoning
-- k-causal-closure
-- k-causal-epoch
-- k-context-state
-- k-identity
-- k-system-state
-- k-memory-admission
-- k-memory-conflict
-- k-memory-immune
-- k-memory-retrieval
+  - amos-os
+  - kernel
+  - core
+  - kernel/recovery
+  - kernel/collapse-recovery
+  - kernel/failure-recovery
+  - kernel/invalidation
+  - kernel/rollback
+  - kernel/dependency
+  - kernel/state
+  - kernel/provenance
+  - kernel/causal-epoch
+  - kernel/rscf
+  - rscf/recovery
+  - rscf/invalidation
+  - rscf/dependency
+  - topic/local-repair
+  - topic/failure-containment
+  - topic/rollback
+  - topic/replay
+  - topic/atomicity
+  - topic/mvcc
+  - topic/cas
+  - topic/causal-finality
+  - canon/kernel
+  - readme
+  - amos-core-laws
+  - law-hierarchy
+  - canon-provenance
+  - source-lineage
+  - k-core19-logic
+  - k-meta-logic
+  - k-structural-reasoning
+  - k-causal-closure
+  - k-causal-epoch
+  - k-context-state
+  - k-identity
+  - k-system-state
+  - k-memory-admission
+  - k-memory-conflict
+  - k-memory-immune
+  - k-memory-retrieval
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -100,7 +100,7 @@ DETECT
 → RESUME
 ```
 
----
+______________________________________________________________________
 
 ## 1. Hard Boundaries
 
@@ -119,7 +119,7 @@ PROPOSAL != COMMIT
 UNKNOWN/GAP != PASS
 ```
 
----
+______________________________________________________________________
 
 ## 2. Collapse Definition
 
@@ -162,7 +162,7 @@ CAUSAL-EPOCH CHANGE
 
 This taxonomy is architectural and does not assert that every failure detector is currently implemented.
 
----
+______________________________________________________________________
 
 ## 3. Recovery Objective
 
@@ -202,7 +202,7 @@ MINIMUM SAFE INVALIDATION
 MAXIMUM VALID PRESERVATION
 ```
 
----
+______________________________________________________________________
 
 ## 4. Failure Locality Law
 
@@ -259,7 +259,7 @@ Invalid(p)
 Invalidate(System)
 ```
 
----
+______________________________________________________________________
 
 ## 5. Dependency-Scoped Collapse
 
@@ -279,7 +279,7 @@ DEPENDENT ACTIONS
 
 Unrelated branches remain valid unless evidence establishes coupling.
 
----
+______________________________________________________________________
 
 ## 6. Dependency Closure
 
@@ -309,7 +309,7 @@ DEPENDENCY_CLOSURE = UNKNOWN/GAP
 
 and recovery must escalate conservatively.
 
----
+______________________________________________________________________
 
 ## 7. Collapse Classes
 
@@ -332,7 +332,7 @@ authority/state/provenance integrity uncertain
 
 Recovery complexity should scale with collapse class.
 
----
+______________________________________________________________________
 
 ## 8. Collapse Severity
 
@@ -359,7 +359,7 @@ A narrow failure can still be severe.
 
 A broad failure can sometimes remain reversible.
 
----
+______________________________________________________________________
 
 ## 9. Failure Detection
 
@@ -389,7 +389,7 @@ Detection does not itself establish root cause.
 SYMPTOM != CAUSE
 ```
 
----
+______________________________________________________________________
 
 ## 10. Collapse Record
 
@@ -415,7 +415,7 @@ collapse_record:
   recovery_state:
 ```
 
----
+______________________________________________________________________
 
 ## 11. Root-Cause Firewall
 
@@ -449,7 +449,7 @@ until discriminating evidence exists.
 
 Do not collapse uncertainty into a convenient single cause.
 
----
+______________________________________________________________________
 
 ## 12. Recovery Pipeline
 
@@ -489,7 +489,7 @@ TEST
 COMMIT THROUGH AUTHORIZED PATH
 ```
 
----
+______________________________________________________________________
 
 ## 13. Containment
 
@@ -510,7 +510,7 @@ PRESERVE TRACE
 
 Containment scope should remain minimal but sufficient.
 
----
+______________________________________________________________________
 
 ## 14. Quarantine
 
@@ -539,7 +539,7 @@ QUARANTINED != VALID
 QUARANTINED != DESTROYED
 ```
 
----
+______________________________________________________________________
 
 ## 15. Nearest Valid State
 
@@ -567,7 +567,7 @@ not automatically:
 GENESIS
 ```
 
----
+______________________________________________________________________
 
 ## 16. Rollback Law
 
@@ -581,7 +581,7 @@ RECOVERABLE STATE
 
 Rollback should preserve unaffected work whenever dependency topology permits.
 
----
+______________________________________________________________________
 
 ## 17. Rollback Granularity
 
@@ -602,7 +602,7 @@ SYSTEM
 
 Choose the smallest safe scope.
 
----
+______________________________________________________________________
 
 ## 18. Recovery Strategy Selection
 
@@ -624,7 +624,7 @@ ESCALATE
 
 No single recovery strategy is universally correct.
 
----
+______________________________________________________________________
 
 ## 19. Repair
 
@@ -642,7 +642,7 @@ REVALIDATE DESCENDANTS
 
 Repair must not silently rewrite provenance.
 
----
+______________________________________________________________________
 
 ## 20. Rerouting
 
@@ -663,7 +663,7 @@ provided path B independently satisfies required constraints.
 
 Do not repeatedly traverse failed path A without changed evidence or state.
 
----
+______________________________________________________________________
 
 ## 21. No Identical Retry Law
 
@@ -691,7 +691,7 @@ OR
 ESCALATE
 ```
 
----
+______________________________________________________________________
 
 ## 22. Replay
 
@@ -713,7 +713,7 @@ Replay is valid only when the events, dependencies, policies, and relevant regim
 REPLAY != BLIND REEXECUTION
 ```
 
----
+______________________________________________________________________
 
 ## 23. Replay Gate
 
@@ -731,7 +731,7 @@ AUTHORITY
 
 must be sufficiently established.
 
----
+______________________________________________________________________
 
 ## 24. External Effect Firewall
 
@@ -762,7 +762,7 @@ IRREVERSIBLE
 UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 ## 25. Compensating Action
 
@@ -782,7 +782,7 @@ rather than pretending `A` never occurred.
 
 Compensation itself requires authority and validation.
 
----
+______________________________________________________________________
 
 ## 26. Irreversible Failure
 
@@ -808,7 +808,7 @@ The latter may be incomplete or impossible.
 
 Mark residual consequences explicitly.
 
----
+______________________________________________________________________
 
 ## 27. RSCF Collapse
 
@@ -830,7 +830,7 @@ and only conclusions depending on `R` should be invalidated.
 
 Unrelated RSCFs remain reusable.
 
----
+______________________________________________________________________
 
 ## 28. Multi-RSCF Collapse
 
@@ -857,7 +857,7 @@ R3
 
 remain valid independently unless they depend on `R2`.
 
----
+______________________________________________________________________
 
 ## 29. Proof Capsule Invalidation
 
@@ -878,7 +878,7 @@ Invalidate the capsule and its dependent conclusions.
 
 Do not destroy unaffected evidence.
 
----
+______________________________________________________________________
 
 ## 30. Confidence Recovery
 
@@ -894,7 +894,7 @@ If a premise is downgraded, dependent confidence must also be recomputed or boun
 
 Recovery cannot preserve an obsolete higher confidence value.
 
----
+______________________________________________________________________
 
 ## 31. Provenance Collapse
 
@@ -915,7 +915,7 @@ CONTENT LOOKS CORRECT
 
 is not sufficient to restore provenance.
 
----
+______________________________________________________________________
 
 ## 32. Sybil/Correlation Recovery
 
@@ -933,7 +933,7 @@ then independent-confirmation assumptions collapse.
 
 Dependent confidence must be recalculated using the corrected provenance topology.
 
----
+______________________________________________________________________
 
 ## 33. Memory Collapse
 
@@ -960,7 +960,7 @@ K_MEMORY_RETRIEVAL
 
 without merging their responsibilities.
 
----
+______________________________________________________________________
 
 ## 34. State Collapse
 
@@ -978,7 +978,7 @@ state where such classes are implemented.
 
 A recovery copy does not become authoritative merely because it is available.
 
----
+______________________________________________________________________
 
 ## 35. MVCC Recovery
 
@@ -1006,7 +1006,7 @@ REBASE / REVALIDATE / RECOMPUTE
 
 rather than silently overwriting `V2`.
 
----
+______________________________________________________________________
 
 ## 36. CAS Recovery
 
@@ -1036,7 +1036,7 @@ RETRY ONLY WITH NEW VALID BASIS
 
 This is an AMOS architectural compatibility pattern, not an assertion that every persistence layer implements literal CAS.
 
----
+______________________________________________________________________
 
 ## 37. Partial Commit Recovery
 
@@ -1064,7 +1064,7 @@ RESUME FROM SAFE CHECKPOINT
 FAIL CLOSED
 ```
 
----
+______________________________________________________________________
 
 ## 38. Atomic Multi-RSCF Recovery
 
@@ -1078,7 +1078,7 @@ finalization must not expose a mixed state in which some members belong to incom
 
 Recovery should restore a coherent compatible set.
 
----
+______________________________________________________________________
 
 ## 39. Causal Closure Recovery
 
@@ -1098,7 +1098,7 @@ fails, downstream causal conclusions relying on that edge must be invalidated.
 
 This does not invalidate noncausal observations of `B` or `C`.
 
----
+______________________________________________________________________
 
 ## 40. Causal Epoch Recovery
 
@@ -1118,7 +1118,7 @@ CE18
 
 then `D` must be revalidated if its validity depends on the changed causal closure.
 
----
+______________________________________________________________________
 
 ## 41. Causal Finality Firewall
 
@@ -1140,7 +1140,7 @@ FRESHNESS
 
 A new causal epoch can invalidate previous finality without rewriting history.
 
----
+______________________________________________________________________
 
 ## 42. Shard-Local Recovery
 
@@ -1166,7 +1166,7 @@ RESET A+B+C
 
 provided independence and dependency closure are established.
 
----
+______________________________________________________________________
 
 ## 43. Hardened Shard-Local Finalization
 
@@ -1186,7 +1186,7 @@ If these conditions are uncertain:
 ESCALATE SCOPE
 ```
 
----
+______________________________________________________________________
 
 ## 44. Coordination Avoidance
 
@@ -1211,7 +1211,7 @@ PROOF-BASED
 
 not assumption-based.
 
----
+______________________________________________________________________
 
 ## 45. Global Recovery Gate
 
@@ -1229,7 +1229,7 @@ or when corruption crosses those boundaries.
 
 Global recomputation remains a last resort.
 
----
+______________________________________________________________________
 
 ## 46. Regime Collapse
 
@@ -1247,7 +1247,7 @@ INVALID @ R1
 
 Recovery should classify this as regime invalidation, not retroactively label the original conclusion false.
 
----
+______________________________________________________________________
 
 ## 47. Scope Collapse
 
@@ -1263,7 +1263,7 @@ SYSTEM A+B+C
 
 recovery should invalidate the unsupported extensions while preserving the valid `SYSTEM A` conclusion.
 
----
+______________________________________________________________________
 
 ## 48. Temporal Collapse
 
@@ -1286,7 +1286,7 @@ not:
 HISTORICAL RECORD MUST BE DELETED
 ```
 
----
+______________________________________________________________________
 
 ## 49. Contradiction Recovery
 
@@ -1320,7 +1320,7 @@ PRESERVE COMPETING
 RETURN UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
 ## 50. Competing-State Recovery
 
@@ -1340,7 +1340,7 @@ COMPETING
 
 and identify the cheapest discriminating test.
 
----
+______________________________________________________________________
 
 ## 51. Recovery Sensitivity
 
@@ -1360,7 +1360,7 @@ IF P IS SHARED
 
 Then resolving `P` has higher value than broad undirected diagnostics.
 
----
+______________________________________________________________________
 
 ## 52. Recovery Gap Classes
 
@@ -1375,7 +1375,7 @@ Resolve in that order.
 
 A critical unknown dependency boundary blocks unsafe recovery promotion.
 
----
+______________________________________________________________________
 
 ## 53. Recovery Under UNKNOWN/GAP
 
@@ -1395,7 +1395,7 @@ with the minimum missing information required to proceed.
 
 Do not invent a recovery path.
 
----
+______________________________________________________________________
 
 ## 54. Recovery State Machine
 
@@ -1429,7 +1429,7 @@ UNRECOVERABLE / UNKNOWN
 
 when sufficient integrity cannot be restored.
 
----
+______________________________________________________________________
 
 ## 55. Recovery Record
 
@@ -1456,7 +1456,7 @@ recovery_record:
   committed_at:
 ```
 
----
+______________________________________________________________________
 
 ## 56. Recovery Provenance
 
@@ -1480,7 +1480,7 @@ NEW STATE
 
 Recovery must not erase the fact that a collapse occurred.
 
----
+______________________________________________________________________
 
 ## 57. Historical Integrity
 
@@ -1502,7 +1502,7 @@ WHAT WAS REPAIRED
 WHAT REPLACED IT
 ```
 
----
+______________________________________________________________________
 
 ## 58. Supersession
 
@@ -1527,7 +1527,7 @@ PROVENANCE
 REASON
 ```
 
----
+______________________________________________________________________
 
 ## 59. Recovery Authority
 
@@ -1552,7 +1552,7 @@ PROMOTE RECOVERY STATE
 
 Those belong to appropriate control-plane/authority contracts.
 
----
+______________________________________________________________________
 
 ## 60. Recovery Capability Firewall
 
@@ -1570,7 +1570,7 @@ CAN ROLLBACK
 AUTHORIZED TO ROLLBACK
 ```
 
----
+______________________________________________________________________
 
 ## 61. Runtime Boundary
 
@@ -1603,7 +1603,7 @@ POLICY
 COMMIT
 ```
 
----
+______________________________________________________________________
 
 ## 62. Observability Boundary
 
@@ -1623,7 +1623,7 @@ COMMIT RESULT
 
 without requiring disclosure of protected internal reasoning.
 
----
+______________________________________________________________________
 
 ## 63. Security Boundary
 
@@ -1639,7 +1639,7 @@ AUDIT REQUIREMENTS
 
 Emergency recovery capability is still capability, not authority.
 
----
+______________________________________________________________________
 
 ## 64. Recovery Invariants
 
@@ -1720,7 +1720,7 @@ CR-25
 UNKNOWN/GAP MUST NOT BECOME PASS
 ```
 
----
+______________________________________________________________________
 
 ## 65. Required Tests
 
@@ -1760,7 +1760,7 @@ HISTORICAL-INTEGRITY TEST
 UNKNOWN-GAP TEST
 ```
 
----
+______________________________________________________________________
 
 ## 66. Negative Tests
 
@@ -1829,7 +1829,7 @@ UNKNOWN/GAP
 MUST FAIL
 ```
 
----
+______________________________________________________________________
 
 ## 67. Promotion Gate
 
@@ -1874,7 +1874,7 @@ FORMAL_VERIFICATION = UNKNOWN/GAP
 EMPIRICAL_VALIDATION = UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
 ## 68. RSCF Node
 
@@ -1917,7 +1917,7 @@ RSCF-RELATIONS:
   - OPERATED_BY: README
 ```
 
----
+______________________________________________________________________
 
 ## 69. Canonical Recovery Summary
 
@@ -2104,12 +2104,14 @@ README
 ```text
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 **MOC:** [[02_KERNEL/06_RISK_REPAIR/06_RISK_REPAIR_MOC|06_RISK_REPAIR_MOC]]

@@ -1,11 +1,11 @@
 ---
 title: Kernel · Bio-Logical Computing
 aliases:
-- K Bio-Logical Computing
-- AMOS Bio-Logical Computing
-- AMOS Kernel Bio-Logical Computing
-- Bio-Logical Computing Kernel
-- Bio Logical Computing
+  - K Bio-Logical Computing
+  - AMOS Bio-Logical Computing
+  - AMOS Kernel Bio-Logical Computing
+  - Bio-Logical Computing Kernel
+  - Bio Logical Computing
 type: logic
 document_type: kernel-logic-artifact
 source: 02_KERNEL/01_META_LOGIC
@@ -21,35 +21,35 @@ segment_role: meta-logic
 artifact_kind: LOG
 path: 02_KERNEL/01_META_LOGIC/K_BIO_LOGICAL_COMPUTING.md
 tags:
-- amos-os
-- amos-general
-- kernel
-- core
-- logic
-- meta_logic
-- bio_logical_computing
-- 01_meta_logic
-- log
-- canon_placeholder
-- canon/kernel
-- canon/meta-logic
-- rscf
-- rscf/node
-- rscf/claim
-- rscf/provenance
-- provenance
-- governance
-- epistemic-discipline
-- scope
-- regime
-- causality
-- validation
-- rollback
-- uncertainty
-- law-hierarchy
-- readme
-- routing-policy-validation-receipt
-- authz-engine-validation-receipt
+  - amos-os
+  - amos-general
+  - kernel
+  - core
+  - logic
+  - meta_logic
+  - bio_logical_computing
+  - 01_meta_logic
+  - log
+  - canon_placeholder
+  - canon/kernel
+  - canon/meta-logic
+  - rscf
+  - rscf/node
+  - rscf/claim
+  - rscf/provenance
+  - provenance
+  - governance
+  - epistemic-discipline
+  - scope
+  - regime
+  - causality
+  - validation
+  - rollback
+  - uncertainty
+  - law-hierarchy
+  - readme
+  - routing-policy-validation-receipt
+  - authz-engine-validation-receipt
 version: 0.1.0
 updated: '2026-08-27'
 status: PLACEHOLDER
@@ -76,22 +76,22 @@ rscf:
   freshness: 2026-08-27
   confidence_ceiling: UNKNOWN/GAP for substantive Bio-Logical Computing canon
   dependencies:
-  - - - LAW_HIERARCHY
-  - KERNEL_README
-  - - - AMOS_RSCF_NODES
+    -   -   - LAW_HIERARCHY
+    - KERNEL_README
+    -   -   - AMOS_RSCF_NODES
   competing_hypotheses: []
   falsifiers:
-  - verified native canon contradicts placeholder assumptions
-  - canonical registry assigns this identity differently
-  - lineage establishes another canonical node
-  - verified implementation contradicts documented target semantics
+    - verified native canon contradicts placeholder assumptions
+    - canonical registry assigns this identity differently
+    - lineage establishes another canonical node
+    - verified implementation contradicts documented target semantics
   promotion_requires:
-  - native_canon_source
-  - provenance_binding
-  - canonical_lineage_resolution
-  - typed_schema
-  - implementation_binding
-  - validation_receipt
+    - native_canon_source
+    - provenance_binding
+    - canonical_lineage_resolution
+    - typed_schema
+    - implementation_binding
+    - validation_receipt
 governance:
   fail_closed_on_unknown: true
   capability_is_authority: false
@@ -105,18 +105,18 @@ governance:
   rollback_required_for_consequential_mutation: true
 relations:
   indexed_by:
-  - - - 00_HOME
-  - - - AMOS_RSCF_NODES
+    -   -   - 00_HOME
+    -   -   - AMOS_RSCF_NODES
   governed_by:
-  - - - LAW_HIERARCHY
+    -   -   - LAW_HIERARCHY
   kernel_binding:
-  - KERNEL_README
+    - KERNEL_README
   control_binding:
-  - CONTROL_PLANE_README
+    - CONTROL_PLANE_README
   observed_by:
-  - OBSERVABILITY_README
+    - OBSERVABILITY_README
   recovery_binding:
-  - OPERATIONS_README
+    - OPERATIONS_README
 ---
 
 # Kernel · Bio-Logical Computing
@@ -134,9 +134,9 @@ relations:
 > **Implementation:** `NOT_ESTABLISHED`
 > **Validation:** `NOT_ESTABLISHED`
 
----
+______________________________________________________________________
 
-# 0. Executive Status
+## 0. Executive Status
 
 `K_BIO_LOGICAL_COMPUTING.md` reserves the canonical architectural address for the framework family identified as **Kernel · Bio-Logical Computing**.
 
@@ -199,9 +199,9 @@ $$
 
 No generated interpretation of the phrase **Bio-Logical Computing** may silently close this gap.
 
----
+______________________________________________________________________
 
-# 1. Canonical Identity
+## 1. Canonical Identity
 
 ```yaml
 artifact:
@@ -233,9 +233,9 @@ HISTORICAL VERSION
         → PRESERVE + LINK LINEAGE
 ```
 
----
+______________________________________________________________________
 
-# 2. Origin and Stewardship
+## 2. Origin and Stewardship
 
 Origin architect:
 
@@ -272,9 +272,9 @@ VALIDATION
 EMPIRICAL TRUTH
 ```
 
----
+______________________________________________________________________
 
-# 3. Purpose
+## 3. Purpose
 
 This artifact reserves the **Bio-Logical Computing** framework slot within the Kernel Meta-Logic segment.
 
@@ -308,9 +308,9 @@ Therefore the name itself MUST NOT be used to infer that AMOS canon asserts:
 
 Those would require substantive source evidence.
 
----
+______________________________________________________________________
 
-# 4. Non-Purpose
+## 4. Non-Purpose
 
 This placeholder MUST NOT be used to claim:
 
@@ -327,9 +327,9 @@ This placeholder MUST NOT be used to claim:
 - validation merely because a framework is addressable;
 - or runtime authority merely because this node belongs to the Kernel.
 
----
+______________________________________________________________________
 
-# 5. Hard Semantic Boundaries
+## 5. Hard Semantic Boundaries
 
 The following distinctions are normative:
 
@@ -383,9 +383,9 @@ UNKNOWN/GAP != PASS
 
 These distinctions survive future enrichment unless stronger native canon explicitly modifies them without weakening integrity.
 
----
+______________________________________________________________________
 
-# 6. Core Integrity Law
+## 6. Core Integrity Law
 
 The controlling priority is:
 
@@ -424,9 +424,9 @@ fragile inference
 
 Never repair missing canon through plausible scientific vocabulary.
 
----
+______________________________________________________________________
 
-# 7. Meaning Boundary of “Bio-Logical”
+## 7. Meaning Boundary of “Bio-Logical”
 
 The artifact title contains a semantic temptation: to decompose `Bio-Logical` into a theory of biology plus logic.
 
@@ -444,9 +444,9 @@ substantive semantics UNKNOWN/GAP
 
 The hyphen, capitalization, and terminology SHOULD be preserved because they may carry native AMOS meaning not recoverable from ordinary-language interpretation.
 
----
+______________________________________________________________________
 
-# 8. Biological Firewall
+## 8. Biological Firewall
 
 Any future biological claim SHOULD distinguish its epistemic type.
 
@@ -483,9 +483,9 @@ Therefore:
 BIOLOGICAL_CLAIMS_SUPPORTED_BY_PLACEHOLDER = NONE
 ```
 
----
+______________________________________________________________________
 
-# 9. Computational Firewall
+## 9. Computational Firewall
 
 Likewise, the title does not establish a computational architecture.
 
@@ -512,9 +512,9 @@ Current state:
 COMPUTATIONAL_MECHANISM = UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 10. Bio ↔ Compute Mapping Firewall
+## 10. Bio ↔ Compute Mapping Firewall
 
 The most important domain-specific boundary is:
 
@@ -569,9 +569,9 @@ bio_compute_mapping:
   validation: null
 ```
 
----
+______________________________________________________________________
 
-# 11. Levels-of-Analysis Firewall
+## 11. Levels-of-Analysis Firewall
 
 Biological and computational descriptions may operate at different scales.
 
@@ -612,9 +612,9 @@ computational network
 
 is at most a structural analogy until mechanism and scope are validated.
 
----
+______________________________________________________________________
 
-# 12. Cross-Scale Constraint
+## 12. Cross-Scale Constraint
 
 A proposition established at one scale does not automatically hold at another.
 
@@ -624,7 +624,7 @@ Valid(C,L_1)
 Valid(C,L_2)
 $$
 
-for distinct levels \(L_1,L_2\).
+for distinct levels (L_1,L_2).
 
 Therefore future Bio-Logical Computing claims SHOULD specify:
 
@@ -636,9 +636,9 @@ scale:
   validation_state: null
 ```
 
----
+______________________________________________________________________
 
-# 13. RSCF Interpretation
+## 13. RSCF Interpretation
 
 This artifact is represented as an RSCF-addressable node.
 
@@ -690,9 +690,9 @@ artifact_rscf_state:
   substantive_definition: UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 14. Epistemic Classes
+## 14. Epistemic Classes
 
 Preserve:
 
@@ -718,9 +718,9 @@ UNKNOWN/GAP
 
 The weakest accurate class MUST be used.
 
----
+______________________________________________________________________
 
-# 15. Proof Capsule Contract
+## 15. Proof Capsule Contract
 
 Important future conclusions SHOULD carry:
 
@@ -765,11 +765,11 @@ proof_capsule:
     valid_until: null
 ```
 
----
+______________________________________________________________________
 
-# 16. Confidence Ceiling
+## 16. Confidence Ceiling
 
-For conclusion \(C\):
+For conclusion (C):
 
 $$
 Confidence(C)
@@ -781,9 +781,9 @@ unless load-bearing premises receive independent revalidation.
 
 Therefore an elaborate biological/computational derivation cannot elevate weak premises into verified truth.
 
----
+______________________________________________________________________
 
-# 17. Provenance Topology
+## 17. Provenance Topology
 
 Evidence count is not document count.
 
@@ -811,9 +811,9 @@ unless independence is demonstrated.
 
 This matters especially when scientific claims are repeatedly summarized across derivative sources.
 
----
+______________________________________________________________________
 
-# 18. Provenance Independence
+## 18. Provenance Independence
 
 Do not assume independence from:
 
@@ -839,9 +839,9 @@ provenance_edge:
     - UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 19. Scope Firewall
+## 19. Scope Firewall
 
 Any substantive claim SHOULD carry:
 
@@ -866,9 +866,9 @@ Valid(C,S_1)
 Valid(C,S_2)
 $$
 
----
+______________________________________________________________________
 
-# 20. Regime Firewall
+## 20. Regime Firewall
 
 A result valid under one environment may fail under another.
 
@@ -887,9 +887,9 @@ interaction regime
 
 These are examples of possible applicability dimensions, not claims that native Bio-Logical Computing canon uses them.
 
----
+______________________________________________________________________
 
-# 21. Temporal Validity
+## 21. Temporal Validity
 
 Future time-sensitive claims SHOULD expose:
 
@@ -904,9 +904,9 @@ temporal_validity:
 
 Biological observations and computational measurements may both become stale relative to changing systems.
 
----
+______________________________________________________________________
 
-# 22. Causal Firewall
+## 22. Causal Firewall
 
 Preserve distinctions among:
 
@@ -937,9 +937,9 @@ alone does not establish:
 CAUSAL RELATION
 ```
 
----
+______________________________________________________________________
 
-# 23. Analogy Firewall
+## 23. Analogy Firewall
 
 Bio-inspired computing is not automatically biologically faithful computing.
 
@@ -959,9 +959,9 @@ BIO-LOGICAL COMPUTING
 
 MUST NOT be silently treated as synonyms.
 
----
+______________________________________________________________________
 
-# 24. Mechanism Firewall
+## 24. Mechanism Firewall
 
 A valid mechanistic claim requires evidence appropriate to mechanism.
 
@@ -986,9 +986,9 @@ B is represented by C
 
 These are different relations.
 
----
+______________________________________________________________________
 
-# 25. Competing Hypotheses
+## 25. Competing Hypotheses
 
 The framework MUST permit competing interpretations when native sources conflict.
 
@@ -1014,9 +1014,9 @@ hypothesis_set:
 
 Do not manufacture compromise between incompatible definitions.
 
----
+______________________________________________________________________
 
-# 26. Discriminating Evidence
+## 26. Discriminating Evidence
 
 Prefer the smallest test capable of resolving a decision-relevant disagreement.
 
@@ -1035,9 +1035,9 @@ $$
 
 This is a reasoning heuristic, not established native Bio-Logical Computing canon.
 
----
+______________________________________________________________________
 
-# 27. Contradiction Preservation
+## 27. Contradiction Preservation
 
 If native source A says:
 
@@ -1059,9 +1059,9 @@ COMPETING(P, ¬P)
 
 until provenance, lineage, scope, version, or discriminating evidence resolves the conflict.
 
----
+______________________________________________________________________
 
-# 28. Contradiction Types
+## 28. Contradiction Types
 
 ```yaml
 contradiction_types:
@@ -1081,11 +1081,11 @@ contradiction_types:
   - UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 29. Dependency Closure
+## 29. Dependency Closure
 
-For conclusion \(C\):
+For conclusion (C):
 
 $$
 Closure(C)
@@ -1107,9 +1107,9 @@ REQUIRED EVIDENCE
 
 Do not indiscriminately load the entire corpus.
 
----
+______________________________________________________________________
 
-# 30. H / M / L Retrieval
+## 30. H / M / L Retrieval
 
 Target traversal:
 
@@ -1133,9 +1133,9 @@ DO_NOT_LOAD_UNLESS_REQUIRED
 
 The objective is the **smallest sufficient proof scope**.
 
----
+______________________________________________________________________
 
-# 31. Local Fast Path
+## 31. Local Fast Path
 
 Local reasoning is safe only when:
 
@@ -1155,9 +1155,9 @@ local_fast_path:
 
 Otherwise escalate.
 
----
+______________________________________________________________________
 
-# 32. Adaptive Complexity
+## 32. Adaptive Complexity
 
 ```text
 C0 — Direct
@@ -1185,9 +1185,9 @@ governance impact
 low provenance confidence
 ```
 
----
+______________________________________________________________________
 
-# 33. Uncertainty Vector
+## 33. Uncertainty Vector
 
 ```yaml
 uncertainty:
@@ -1204,9 +1204,9 @@ uncertainty:
 
 Do not collapse these into one confidence number when distinctions matter.
 
----
+______________________________________________________________________
 
-# 34. Sensitivity
+## 34. Sensitivity
 
 Identify the smallest premise capable of flipping a consequential conclusion.
 
@@ -1222,9 +1222,9 @@ Fragile results SHOULD remain:
 CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
-# 35. Adversarial Validation
+## 35. Adversarial Validation
 
 A consequential Bio-Logical Computing claim SHOULD be challenged through a genuinely different path seeking:
 
@@ -1242,9 +1242,9 @@ A consequential Bio-Logical Computing claim SHOULD be challenged through a genui
 
 Challenge success requires downgrade, conditioning, competing status, or rejection.
 
----
+______________________________________________________________________
 
-# 36. State Model — Target
+## 36. State Model — Target
 
 ```yaml
 BioLogicalKernelState:
@@ -1277,9 +1277,9 @@ This is a target schema only.
 
 It is **not** evidence that such an implementation exists.
 
----
+______________________________________________________________________
 
-# 37. Identity and Versioning
+## 37. Identity and Versioning
 
 Every authoritative mutable object SHOULD expose:
 
@@ -1292,9 +1292,9 @@ identity:
 
 Mutation should bind to the version actually observed.
 
----
+______________________________________________________________________
 
-# 38. MVCC / CAS Target
+## 38. MVCC / CAS Target
 
 ```text
 READ state@vN
@@ -1320,9 +1320,9 @@ $$
 
 otherwise reject the stale mutation.
 
----
+______________________________________________________________________
 
-# 39. Read-Set Validation
+## 39. Read-Set Validation
 
 ```yaml
 read_set:
@@ -1343,9 +1343,9 @@ If a load-bearing object changed:
 STALE_READ_SET
 ```
 
----
+______________________________________________________________________
 
-# 40. Proposal vs Commit
+## 40. Proposal vs Commit
 
 ```text
 OBSERVE
@@ -1367,9 +1367,9 @@ $$
 Proposal \neq Commit
 $$
 
----
+______________________________________________________________________
 
-# 41. Authority Firewall
+## 41. Authority Firewall
 
 Capability is not authority.
 
@@ -1401,9 +1401,9 @@ $$
 
 This remains a target architectural model.
 
----
+______________________________________________________________________
 
-# 42. Semantic Transactions
+## 42. Semantic Transactions
 
 Consequential mutations SHOULD follow:
 
@@ -1431,9 +1431,9 @@ Failure before commit:
 ROLLBACK / HOLD
 ```
 
----
+______________________________________________________________________
 
-# 43. Atomic Multi-RSCF Reasoning
+## 43. Atomic Multi-RSCF Reasoning
 
 Where mutually dependent RSCF objects must change together:
 
@@ -1451,9 +1451,9 @@ when atomicity is required.
 
 Avoid logically inconsistent partial commit.
 
----
+______________________________________________________________________
 
-# 44. Causal Epoch Finality
+## 44. Causal Epoch Finality
 
 A target concurrent implementation SHOULD NOT finalize a decision while a causally prior load-bearing mutation remains unresolved.
 
@@ -1461,9 +1461,9 @@ This is a conceptual AMOS reasoning constraint.
 
 It does not establish that the host runtime implements distributed consensus or Byzantine-finality machinery.
 
----
+______________________________________________________________________
 
-# 45. Coordination Avoidance Boundary
+## 45. Coordination Avoidance Boundary
 
 Local finalization MAY be admissible when:
 
@@ -1485,9 +1485,9 @@ Otherwise coordinate/escalate.
 
 Independence must be demonstrated rather than assumed.
 
----
+______________________________________________________________________
 
-# 46. Risk and Repair
+## 46. Risk and Repair
 
 Under uncertainty, prefer repairable action.
 
@@ -1500,9 +1500,9 @@ AUDITABLE
 
 actions generally dominate equivalent irreversible ones when uncertainty remains material.
 
----
+______________________________________________________________________
 
-# 47. Rollback Basin
+## 47. Rollback Basin
 
 ```yaml
 rollback_basin:
@@ -1516,11 +1516,11 @@ rollback_basin:
 
 Rollback MUST NOT erase evidence of the failed attempt.
 
----
+______________________________________________________________________
 
-# 48. Localized Invalidation
+## 48. Localized Invalidation
 
-If premise \(P\) fails:
+If premise (P) fails:
 
 ```text
 P
@@ -1536,9 +1536,9 @@ Preserve unrelated state.
 
 Global recomputation is a last resort.
 
----
+______________________________________________________________________
 
-# 49. Failure Recovery
+## 49. Failure Recovery
 
 ```text
 DETECT
@@ -1562,9 +1562,9 @@ REVALIDATE
 
 Do not repeat a failed reasoning path without changed evidence or assumptions.
 
----
+______________________________________________________________________
 
-# 50. Gap Taxonomy
+## 50. Gap Taxonomy
 
 ```text
 CRITICAL
@@ -1585,9 +1585,9 @@ gap:
     is not established by the supplied placeholder.
 ```
 
----
+______________________________________________________________________
 
-# 51. Domain-Specific Critical Gaps
+## 51. Domain-Specific Critical Gaps
 
 ```yaml
 gaps:
@@ -1638,9 +1638,9 @@ gaps:
     status: OPEN
 ```
 
----
+______________________________________________________________________
 
-# 52. Ingestion Rule
+## 52. Ingestion Rule
 
 ```yaml
 AMOS_CANON_INGESTION_RULE:
@@ -1686,9 +1686,9 @@ AMOS_CANON_INGESTION_RULE:
       - NEVER_INVENT_CANON
 ```
 
----
+______________________________________________________________________
 
-# 53. Native Canon vs External Biology
+## 53. Native Canon vs External Biology
 
 External biology, neuroscience, computational biology, cognitive science, or bio-computing research may eventually provide evidence relevant to AMOS claims.
 
@@ -1704,9 +1704,9 @@ AMOS NATIVE CANON
 
 It MUST NOT automatically become native AMOS canon.
 
----
+______________________________________________________________________
 
-# 54. Canonical Precedence
+## 54. Canonical Precedence
 
 Canonical precedence requires evidence such as:
 
@@ -1730,9 +1730,9 @@ more scientific vocabulary
 more detailed prose
 ```
 
----
+______________________________________________________________________
 
-# 55. Duplicate Handling
+## 55. Duplicate Handling
 
 For duplicate-looking Bio-Logical Computing sources:
 
@@ -1760,9 +1760,9 @@ COMPETING
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 56. Heritage Preservation
+## 56. Heritage Preservation
 
 Historical versions MUST remain recoverable.
 
@@ -1774,9 +1774,9 @@ CURRENT NODE
 
 Do not erase earlier Bio-Logical Computing formulations merely because later canon supersedes them.
 
----
+______________________________________________________________________
 
-# 57. Knowledge Harvest
+## 57. Knowledge Harvest
 
 ```text
 EPHEMERAL CODE
@@ -1807,9 +1807,9 @@ knowledge_record:
   lineage: []
 ```
 
----
+______________________________________________________________________
 
-# 58. Contract Discipline
+## 58. Contract Discipline
 
 Promoted implementations SHOULD preserve:
 
@@ -1831,9 +1831,9 @@ EFFECT RECEIPTS
 ROLLBACK BASIN
 ```
 
----
+______________________________________________________________________
 
-# 59. Deterministic Enforcement Boundary
+## 59. Deterministic Enforcement Boundary
 
 If Bio-Logical Computing eventually influences consequential runtime effects:
 
@@ -1851,9 +1851,9 @@ EFFECT
 
 Generative interpretation SHOULD NOT substitute for deterministic enforcement where hard constraints are required.
 
----
+______________________________________________________________________
 
-# 60. Fail-Closed Semantics
+## 60. Fail-Closed Semantics
 
 ```text
 TRUE       → proceed if all gates pass
@@ -1870,9 +1870,9 @@ Never:
 UNKNOWN → PASS
 ```
 
----
+______________________________________________________________________
 
-# 61. Worked Semantics — Target
+## 61. Worked Semantics — Target
 
 Given an operation touching:
 
@@ -1885,25 +1885,25 @@ Given an operation touching:
 perform:
 
 1. **Resolve identity** — artifact ID + version + lineage.
-2. **Bind scope** — biological/computational domain where relevant, environment, regime, scale, H/M/L.
-3. **Retrieve dependencies** — smallest result-changing closure.
-4. **Check provenance** — identity, ancestry, independence, freshness.
-5. **Check semantic type** — distinguish biological observation, model, computational construct, analogy, and derived claim.
-6. **Check contradictions** — direct, scope, scale, regime, lineage, causal.
-7. **Check authority** — fresh, effect-bound, epoch-valid.
-8. **Validate preconditions** — no unresolved critical load-bearing gap.
-9. **Propose** — candidate remains non-authoritative.
-10. **Sensitivity test** — identify result-flipping assumptions.
-11. **Adversarial challenge** — seek alternative biological/computational explanations.
-12. **Stage effects** — no premature commit.
-13. **Validate read set** — reject stale dependencies.
-14. **Final authority check**.
-15. **Commit or hold**.
-16. **Record receipt**.
+1. **Bind scope** — biological/computational domain where relevant, environment, regime, scale, H/M/L.
+1. **Retrieve dependencies** — smallest result-changing closure.
+1. **Check provenance** — identity, ancestry, independence, freshness.
+1. **Check semantic type** — distinguish biological observation, model, computational construct, analogy, and derived claim.
+1. **Check contradictions** — direct, scope, scale, regime, lineage, causal.
+1. **Check authority** — fresh, effect-bound, epoch-valid.
+1. **Validate preconditions** — no unresolved critical load-bearing gap.
+1. **Propose** — candidate remains non-authoritative.
+1. **Sensitivity test** — identify result-flipping assumptions.
+1. **Adversarial challenge** — seek alternative biological/computational explanations.
+1. **Stage effects** — no premature commit.
+1. **Validate read set** — reject stale dependencies.
+1. **Final authority check**.
+1. **Commit or hold**.
+1. **Record receipt**.
 
----
+______________________________________________________________________
 
-# 62. Formal Target Pipeline
+## 62. Formal Target Pipeline
 
 $$
 Input
@@ -1943,11 +1943,11 @@ Failure
 Hold \lor Reject \lor Repair \lor Rollback
 $$
 
----
+______________________________________________________________________
 
-# 63. Logical Admissibility
+## 63. Logical Admissibility
 
-A candidate \(C\) is admissible only if:
+A candidate (C) is admissible only if:
 
 $$
 Admissible(C)=
@@ -1982,9 +1982,9 @@ $$
 
 These are target semantics, not recovered native equations.
 
----
+______________________________________________________________________
 
-# 64. Truth vs Action
+## 64. Truth vs Action
 
 A biologically supported claim may still fail authorization.
 
@@ -2002,9 +2002,9 @@ TRANSACTION GATE
 ADMISSIBLE EFFECT
 ```
 
----
+______________________________________________________________________
 
-# 65. Logic vs Biology
+## 65. Logic vs Biology
 
 Logical validity does not establish biological truth.
 
@@ -2016,9 +2016,9 @@ $$
 
 unless the premises are biologically supported within the applicable scope.
 
----
+______________________________________________________________________
 
-# 66. Logic vs Computation
+## 66. Logic vs Computation
 
 A formal logical description does not prove a particular implementation exists.
 
@@ -2036,9 +2036,9 @@ ExecutableImplementation
 ValidatedModel
 $$
 
----
+______________________________________________________________________
 
-# 67. Computation vs Biology
+## 67. Computation vs Biology
 
 A computational model can reproduce a biological behavior without reproducing its mechanism.
 
@@ -2054,9 +2054,9 @@ CAUSAL EQUIVALENCE
 
 No transition among these classes is automatic.
 
----
+______________________________________________________________________
 
-# 68. Bio-Inspiration Boundary
+## 68. Bio-Inspiration Boundary
 
 If future native canon uses biological inspiration, preserve the exact relation.
 
@@ -2073,9 +2073,9 @@ MECHANISTICALLY_MAPPED_TO
 
 These relations carry different evidentiary burdens.
 
----
+______________________________________________________________________
 
-# 69. Anti-Fabrication Rules
+## 69. Anti-Fabrication Rules
 
 Forbidden transformations:
 
@@ -2090,34 +2090,40 @@ biological analogy
     ↓
 mechanistic claim
 ```
+
 ```text
 similar topology
     ↓
 same causal process
 ```
+
 ```text
 simulation
     ↓
 biological validation
 ```
+
 ```text
 benchmark success
     ↓
 general intelligence proof
 ```
+
 ```text
 implementation
     ↓
 scientific proof
 ```
+
 ```text
 documentation
     ↓
 runtime enforcement
 ```
----
 
-# 70. Scientific-Claim Boundary
+______________________________________________________________________
+
+## 70. Scientific-Claim Boundary
 
 If future versions contain claims about real biological systems, those claims MUST be separated from AMOS architectural canon.
 
@@ -2141,9 +2147,9 @@ claim:
 
 This prevents AMOS canon from self-validating empirical propositions.
 
----
+______________________________________________________________________
 
-# 71. Optimization Constraint
+## 71. Optimization Constraint
 
 Optimization is admissible only when it preserves:
 
@@ -2162,9 +2168,9 @@ user fit
 
 Any optimization weakening a critical integrity property MUST be rolled back.
 
----
+______________________________________________________________________
 
-# 72. Memory Interaction
+## 72. Memory Interaction
 
 Persistent memory SHOULD store conclusions with:
 
@@ -2185,9 +2191,9 @@ validation state
 
 Do not persist decontextualized scientific claims as universal facts.
 
----
+______________________________________________________________________
 
-# 73. Memory Revalidation
+## 73. Memory Revalidation
 
 Before reuse:
 
@@ -2216,9 +2222,9 @@ or:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 74. Poisoning Resistance
+## 74. Poisoning Resistance
 
 Potential poisoning patterns include:
 
@@ -2231,9 +2237,9 @@ Potential poisoning patterns include:
 - correlations promoted to mechanisms;
 - and analogy promoted to causal identity.
 
----
+______________________________________________________________________
 
-# 75. Observability Boundary
+## 75. Observability Boundary
 
 ```text
 OBSERVED
@@ -2249,11 +2255,11 @@ LOGGED
 APPROVED
 ```
 
-`` may observe runtime behavior but cannot grant authority merely by recording it.
+\`\` may observe runtime behavior but cannot grant authority merely by recording it.
 
----
+______________________________________________________________________
 
-# 76. Audit Boundary
+## 76. Audit Boundary
 
 Audit results may include:
 
@@ -2269,9 +2275,9 @@ Audit of implementation does not itself validate external biological claims.
 
 These require appropriately typed empirical evidence.
 
----
+______________________________________________________________________
 
-# 77. Receipt Discipline
+## 77. Receipt Discipline
 
 Target receipt:
 
@@ -2310,9 +2316,9 @@ execution_receipt:
   timestamp: null
 ```
 
----
+______________________________________________________________________
 
-# 78. Promotion Lifecycle
+## 78. Promotion Lifecycle
 
 ```text
 PLACEHOLDER
@@ -2334,9 +2340,9 @@ ENFORCED
 
 No transition is automatic.
 
----
+______________________________________________________________________
 
-# 79. PLACEHOLDER → SOURCE_BOUND
+## 79. PLACEHOLDER → SOURCE_BOUND
 
 Required:
 
@@ -2347,9 +2353,9 @@ Required:
 - [ ] source lineage established;
 - [ ] source not merely external interpretation.
 
----
+______________________________________________________________________
 
-# 80. SOURCE_BOUND → CANON_CANDIDATE
+## 80. SOURCE_BOUND → CANON_CANDIDATE
 
 Required:
 
@@ -2363,9 +2369,9 @@ Required:
 - [ ] dependencies established;
 - [ ] scope established.
 
----
+______________________________________________________________________
 
-# 81. CANON_CANDIDATE → CANONICALLY_RESOLVED
+## 81. CANON_CANDIDATE → CANONICALLY_RESOLVED
 
 Required:
 
@@ -2375,9 +2381,9 @@ Required:
 - [ ] historical lineage preserved;
 - [ ] no critical identity gap.
 
----
+______________________________________________________________________
 
-# 82. CANONICALLY_RESOLVED → SCHEMA_BOUND
+## 82. CANONICALLY_RESOLVED → SCHEMA_BOUND
 
 Required:
 
@@ -2389,9 +2395,9 @@ Required:
 - [ ] state transition rules;
 - [ ] serialization rules.
 
----
+______________________________________________________________________
 
-# 83. SCHEMA_BOUND → IMPLEMENTED
+## 83. SCHEMA_BOUND → IMPLEMENTED
 
 Required:
 
@@ -2403,9 +2409,9 @@ Required:
 - [ ] state integration;
 - [ ] rollback behavior.
 
----
+______________________________________________________________________
 
-# 84. IMPLEMENTED → VALIDATED
+## 84. IMPLEMENTED → VALIDATED
 
 Required:
 
@@ -2425,9 +2431,9 @@ Required:
 - [ ] adversarial validation;
 - [ ] executed artifact-specific receipt.
 
----
+______________________________________________________________________
 
-# 85. VALIDATED → ENFORCED
+## 85. VALIDATED → ENFORCED
 
 Required:
 
@@ -2440,9 +2446,9 @@ Required:
 - [ ] rollback/recovery demonstration;
 - [ ] enforcement receipt.
 
----
+______________________________________________________________________
 
-# 86. Artifact Promotion Checklist
+## 86. Artifact Promotion Checklist
 
 - [ ] substantive native canon populated;
 - [ ] `Bio-Logical Computing` explicitly defined;
@@ -2467,9 +2473,9 @@ Required:
 - [ ] critical gaps visible;
 - [ ] no analogy promoted to mechanism without evidence.
 
----
+______________________________________________________________________
 
-# 87. Validation Receipts
+## 87. Validation Receipts
 
 Target references:
 
@@ -2486,9 +2492,9 @@ Current state:
 VALIDATION_RECEIPTS = NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 88. Negative Test Matrix
+## 88. Negative Test Matrix
 
 | Case                               | Target behavior             |
 | ---------------------------------- | --------------------------- |
@@ -2512,9 +2518,9 @@ VALIDATION_RECEIPTS = NOT_ESTABLISHED
 | Partial transaction failure        | rollback                    |
 | Receipt missing                    | no verified-execution claim |
 
----
+______________________________________________________________________
 
-# 89. Core Invariants
+## 89. Core Invariants
 
 ```text
 I1: UNKNOWN/GAP never silently becomes PASS.
@@ -2562,9 +2568,9 @@ I21: Validation of software never automatically validates biological claims.
 I22: Canonical status never automatically establishes empirical truth.
 ```
 
----
+______________________________________________________________________
 
-# 90. Kernel Interaction
+## 90. Kernel Interaction
 
 ```text
 
@@ -2576,9 +2582,9 @@ This node is one kernel/meta-logic artifact.
 
 It is not the entirety of AMOS Kernel semantics.
 
----
+______________________________________________________________________
 
-# 91. Law Hierarchy
+## 91. Law Hierarchy
 
 ```text
 
@@ -2596,9 +2602,9 @@ RESOLVE PRECEDENCE
 
 Do not silently choose whichever text appears newer or more detailed.
 
----
+______________________________________________________________________
 
-# 92. Control Plane
+## 92. Control Plane
 
 ```text
 BIO-LOGICAL COMPUTING
@@ -2612,9 +2618,9 @@ authority + transaction gates
 
 The logic node cannot self-authorize external effects.
 
----
+______________________________________________________________________
 
-# 93. Observability
+## 93. Observability
 
 ```text
 K_BIO_LOGICAL_COMPUTING
@@ -2626,9 +2632,9 @@ events / state / receipts
 
 Observability remains non-authoritative.
 
----
+______________________________________________________________________
 
-# 94. Operations
+## 94. Operations
 
 ```text
 failure
@@ -2638,9 +2644,9 @@ failure
 repair / rollback / recovery
 ```
 
----
+______________________________________________________________________
 
-# 95. Relationship to RSCF
+## 95. Relationship to RSCF
 
 Target model:
 
@@ -2662,9 +2668,9 @@ UNKNOWN/GAP
 
 and MUST be replaced by native evidence when found.
 
----
+______________________________________________________________________
 
-# 96. Relationship to Cognition
+## 96. Relationship to Cognition
 
 The placement in `01_META_LOGIC` does not establish that Bio-Logical Computing is itself a theory of cognition.
 
@@ -2681,9 +2687,9 @@ INTERACTS_WITH
 
 remain unresolved until native canon establishes them.
 
----
+______________________________________________________________________
 
-# 97. Relationship to Biological Intelligence
+## 97. Relationship to Biological Intelligence
 
 No supplied evidence establishes equivalence between:
 
@@ -2703,9 +2709,9 @@ evolutionary computation
 
 Any such relationship remains `MODEL` or `UNKNOWN/GAP` until supported.
 
----
+______________________________________________________________________
 
-# 98. Relationship to Host Runtime
+## 98. Relationship to Host Runtime
 
 ```text
 AMOS ARTIFACT
@@ -2723,9 +2729,9 @@ claim that ChatGPT itself executes a biological computing substrate
 
 A deployment binding must be separately established.
 
----
+______________________________________________________________________
 
-# 99. Action Governance
+## 99. Action Governance
 
 Validation intensity increases with:
 
@@ -2744,9 +2750,9 @@ Biological or health-relevant applications require appropriately stronger eviden
 
 Architectural canon alone is insufficient.
 
----
+______________________________________________________________________
 
-# 100. Stop Conditions
+## 100. Stop Conditions
 
 Reasoning may stop when:
 
@@ -2762,9 +2768,9 @@ provided no unresolved critical integrity gate remains.
 
 Not every explanatory gap must be resolved if it cannot alter the current safe decision.
 
----
+______________________________________________________________________
 
-# 101. Current Evidence Register
+## 101. Current Evidence Register
 
 ```yaml
 evidence_register:
@@ -2801,9 +2807,9 @@ evidence_register:
       - validation
 ```
 
----
+______________________________________________________________________
 
-# 102. Current Claim Register
+## 102. Current Claim Register
 
 ```yaml
 claims:
@@ -2845,9 +2851,9 @@ claims:
     class: MODEL
 ```
 
----
+______________________________________________________________________
 
-# 103. Competing-Hypothesis Register
+## 103. Competing-Hypothesis Register
 
 ```yaml
 competing_hypotheses:
@@ -2865,23 +2871,23 @@ NONE REGISTERED
 NONE EXIST
 ```
 
----
+______________________________________________________________________
 
-# 104. Invalidation Conditions
+## 104. Invalidation Conditions
 
 Revise this placeholder-derived model if native canon establishes:
 
 1. a different artifact identity;
-2. different plane/segment placement;
-3. explicit substantive Bio-Logical Computing semantics;
-4. canonical biological definitions;
-5. canonical computational operators;
-6. canonical equations;
-7. a different relation to RSCF;
-8. a different relation to cognition;
-9. a superseding artifact;
-10. an already-existing executable binding;
-11. an already-completed validation state.
+1. different plane/segment placement;
+1. explicit substantive Bio-Logical Computing semantics;
+1. canonical biological definitions;
+1. canonical computational operators;
+1. canonical equations;
+1. a different relation to RSCF;
+1. a different relation to cognition;
+1. a superseding artifact;
+1. an already-existing executable binding;
+1. an already-completed validation state.
 
 Then:
 
@@ -2895,9 +2901,9 @@ INVALIDATE CONFLICTING DERIVATIONS
 INGEST VERIFIED CANON
 ```
 
----
+______________________________________________________________________
 
-# 105. Native Canon Population Template
+## 105. Native Canon Population Template
 
 ```yaml
 native_canon:
@@ -2946,9 +2952,9 @@ native_canon:
 
 No field should be populated through guesswork.
 
----
+______________________________________________________________________
 
-# 106. Substantive Canon Reserved Section
+## 106. Substantive Canon Reserved Section
 
 > **STATUS: UNKNOWN/GAP — DO NOT FABRICATE**
 
@@ -3024,9 +3030,9 @@ PENDING VERIFIED NATIVE-CANON INGESTION
 PENDING VERIFIED NATIVE-CANON INGESTION
 ```
 
----
+______________________________________________________________________
 
-# 107. Implementation Reserved Section
+## 107. Implementation Reserved Section
 
 > **STATUS: NOT_ESTABLISHED**
 
@@ -3044,9 +3050,9 @@ implementation:
   test_suite_ref: null
 ```
 
----
+______________________________________________________________________
 
-# 108. Validation Reserved Section
+## 108. Validation Reserved Section
 
 > **STATUS: NOT_ESTABLISHED**
 
@@ -3074,9 +3080,9 @@ validation:
   result: UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 109. Runtime Enforcement Reserved Section
+## 109. Runtime Enforcement Reserved Section
 
 > **STATUS: NOT_ESTABLISHED**
 
@@ -3096,9 +3102,9 @@ AND
 RECEIPTS EXIST
 ```
 
----
+______________________________________________________________________
 
-# 110. Security Considerations
+## 110. Security Considerations
 
 Future implementation SHOULD consider:
 
@@ -3123,9 +3129,9 @@ rollback erasure
 forged validation receipts
 ```
 
----
+______________________________________________________________________
 
-# 111. Dependency Cycles
+## 111. Dependency Cycles
 
 Circular support is not independent evidence.
 
@@ -3145,9 +3151,9 @@ unless independently grounded.
 
 Recursive architecture does not self-validate.
 
----
+______________________________________________________________________
 
-# 112. Self-Reference Boundary
+## 112. Self-Reference Boundary
 
 If native Bio-Logical Computing contains recursive or self-referential semantics, preserve them from source.
 
@@ -3163,9 +3169,9 @@ meta-meta level
 
 where relevant.
 
----
+______________________________________________________________________
 
-# 113. Category Discipline
+## 113. Category Discipline
 
 Keep separate:
 
@@ -3185,9 +3191,9 @@ receipt
 
 A computational model of a biological process is not itself a biological observation.
 
----
+______________________________________________________________________
 
-# 114. Type Safety
+## 114. Type Safety
 
 Invalid silent substitutions include:
 
@@ -3202,9 +3208,9 @@ PROPOSAL → COMMIT
 UNKNOWN → TRUE
 ```
 
----
+______________________________________________________________________
 
-# 115. Semantic Transaction Example
+## 115. Semantic Transaction Example
 
 ```text
 Operation:
@@ -3246,9 +3252,9 @@ FAIL:
   register GAP/COMPETING
 ```
 
----
+______________________________________________________________________
 
-# 116. Provenance Failure Example
+## 116. Provenance Failure Example
 
 Suppose three documents appear to independently define Bio-Logical Computing.
 
@@ -3273,9 +3279,9 @@ independent origin count ≈ 1
 
 No evidentiary uplift may be retained from the false independence assumption.
 
----
+______________________________________________________________________
 
-# 117. Biological Analogy Failure Example
+## 117. Biological Analogy Failure Example
 
 Suppose a future source states:
 
@@ -3303,9 +3309,9 @@ or:
 neural process Y implements AMOS process X
 ```
 
----
+______________________________________________________________________
 
-# 118. Scale Failure Example
+## 118. Scale Failure Example
 
 Suppose evidence supports a cellular mechanism.
 
@@ -3319,9 +3325,9 @@ ORGANISM-LEVEL VALIDITY
 
 A scale bridge is required.
 
----
+______________________________________________________________________
 
-# 119. Simulation Boundary
+## 119. Simulation Boundary
 
 A simulation may demonstrate behavior under model assumptions.
 
@@ -3335,9 +3341,9 @@ SIMULATION SUCCESS
 EMPIRICAL BIOLOGICAL VALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 120. Benchmark Boundary
+## 120. Benchmark Boundary
 
 A computational benchmark can establish performance under the benchmark conditions.
 
@@ -3351,9 +3357,9 @@ universal validity
 causal explanation
 ```
 
----
+______________________________________________________________________
 
-# 121. Formal-Proof Boundary
+## 121. Formal-Proof Boundary
 
 A formal proof can establish a proposition within its formal assumptions.
 
@@ -3367,9 +3373,9 @@ FormalValidity
 EmpiricalValidity
 $$
 
----
+______________________________________________________________________
 
-# 122. Completion Boundary
+## 122. Completion Boundary
 
 Substantive completion requires:
 
@@ -3399,9 +3405,9 @@ AND
 EnforcementTested
 ```
 
----
+______________________________________________________________________
 
-# 123. Current Completion Assessment
+## 123. Current Completion Assessment
 
 ```yaml
 completion:
@@ -3435,9 +3441,9 @@ Overall:
 PLACEHOLDER / UNKNOWN-GAP
 ```
 
----
+______________________________________________________________________
 
-# 124. Canon Safety Rule
+## 124. Canon Safety Rule
 
 Until native canon is recovered:
 
@@ -3465,9 +3471,9 @@ VALIDATE
 PROMOTE WITH EVIDENCE
 ```
 
----
+______________________________________________________________________
 
-# 125. Required Next Evidence
+## 125. Required Next Evidence
 
 The highest-value next evidence is native AMOS material explicitly defining:
 
@@ -3498,9 +3504,9 @@ scope
 
 before ingestion.
 
----
+______________________________________________________________________
 
-# 126. Minimum Missing Information
+## 126. Minimum Missing Information
 
 ```yaml
 minimum_missing_information:
@@ -3524,9 +3530,9 @@ minimum_missing_information:
     - validation_receipt
 ```
 
----
+______________________________________________________________________
 
-# 127. Cross-Plane Binding Registry
+## 127. Cross-Plane Binding Registry
 
 ```yaml
 cross_plane_bindings:
@@ -3558,9 +3564,9 @@ cross_plane_bindings:
     status: TARGET
 ```
 
----
+______________________________________________________________________
 
-# 128. RSCF Relations
+## 128. RSCF Relations
 
 ```text
 RSCF-RELATIONS:
@@ -3584,9 +3590,9 @@ RSCF-RELATIONS:
   - VALIDATION_TARGET:
 ```
 
----
+______________________________________________________________________
 
-# 129. Machine-Readable Node Contract
+## 129. Machine-Readable Node Contract
 
 ```yaml
 AMOS_NODE:
@@ -3637,9 +3643,9 @@ AMOS_NODE:
     blocker: BIO_LOGICAL_COMPUTING_NATIVE_CANON
 ```
 
----
+______________________________________________________________________
 
-# 130. RSCF Node
+## 130. RSCF Node
 
 ```text
 RSCF-NODE
@@ -3693,9 +3699,9 @@ executable_binding:
 NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 131. Human-Readable Status
+## 131. Human-Readable Status
 
 ## Established
 
@@ -3729,9 +3735,9 @@ NOT_ESTABLISHED
 
 The unresolved state is intentional and MUST remain visible.
 
----
+______________________________________________________________________
 
-# 132. Integrity Declaration
+## 132. Integrity Declaration
 
 The governing rule is:
 
@@ -3753,9 +3759,9 @@ UNKNOWN/GAP
 
 at the present evidence state.
 
----
+______________________________________________________________________
 
-# 133. Promotion Declaration
+## 133. Promotion Declaration
 
 This artifact MUST NOT be promoted because it has become detailed.
 
@@ -3787,9 +3793,9 @@ EMPIRICAL TRUTH
 
 Promotion requires the evidence specified in the promotion gates.
 
----
+______________________________________________________________________
 
-# 134. Final Canon Boundary
+## 134. Final Canon Boundary
 
 ```text
 ┌──────────────────────────────────────────────────────────────┐
@@ -3817,13 +3823,13 @@ Promotion requires the evidence specified in the promotion gates.
 └──────────────────────────────────────────────────────────────┘
 ```
 
----
+______________________________________________________________________
 
-# 135. Canonical Footer
+## 135. Canonical Footer
 
 `00_ROOT_MOC|AMOS MOC`
 
----
+______________________________________________________________________
 
 **Related:**
 [[00_ROOT/00_HOME|00_HOME]] ·
@@ -3836,11 +3842,11 @@ Promotion requires the evidence specified in the promotion gates.
 [[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] ·
 [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]
 
----
+______________________________________________________________________
 
 **MOC:** [[02_KERNEL/01_META_LOGIC/01_META_LOGIC_MOC|01_META_LOGIC_MOC]]
 
----
+______________________________________________________________________
 
 ## Canon Integrity Notice
 

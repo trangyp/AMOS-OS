@@ -22,22 +22,22 @@ conclusion_class: SOURCE_CLAIM / STRUCTURAL_MODEL
 implementation_state: REGISTERED_STUB
 runtime_state: NON_DESTRUCTIVE_TRACE_ONLY
 aliases:
-- EnvironmentScan Agent - AMOS Environment Scan Agent - Sense System Environment Scanner
+  - EnvironmentScan Agent - AMOS Environment Scan Agent - Sense System Environment Scanner
 tags:
-- agents
-- knowledge
-- vault
-- canon-group/tech-ai
-- canon/component
-- rscf/claim
-- rscf/provenance
-- rscf/state/source-claim
-- topic/environment-scan-agent
-- topic/sense-system
-- topic/agent-runtime
-- topic/context-observation
-- architecture
-- memory
+  - agents
+  - knowledge
+  - vault
+  - canon-group/tech-ai
+  - canon/component
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - topic/environment-scan-agent
+  - topic/sense-system
+  - topic/agent-runtime
+  - topic/context-observation
+  - architecture
+  - memory
 governing_law: integrity > completeness > fluency > speed > token savings
 rscf:
   state: SOURCE_CLAIM
@@ -47,6 +47,7 @@ rscf:
 ---
 
 # AMOS EnvironmentScan Agent
+
 ## Governed Sense-System Component
 
 > **System:** `SENSE_SYSTEM`
@@ -57,9 +58,9 @@ rscf:
 > **Current implementation class:** `REGISTERED_STUB`
 > **Current execution behavior:** append trace → return context unchanged
 
----
+______________________________________________________________________
 
-# 0. EXECUTIVE STATUS
+## 0. EXECUTIVE STATUS
 
 The current source implementation does **not** perform environmental scanning.
 
@@ -108,9 +109,9 @@ status:
   environment_model_update: NOT_IMPLEMENTED
 ```
 
----
+______________________________________________________________________
 
-# 1. VERSION / LINEAGE MODEL
+## 1. VERSION / LINEAGE MODEL
 
 The component uses separate version axes:
 
@@ -181,9 +182,9 @@ destructive operation
 sensor evidence contract break
 ```
 
----
+______________________________________________________________________
 
-# 2. SOURCE IMPLEMENTATION
+## 2. SOURCE IMPLEMENTATION
 
 ```python
 """AMOS logical component.
@@ -231,9 +232,9 @@ class EnvironmentScan_Agent(Agent):
         return context
 ```
 
----
+______________________________________________________________________
 
-# 3. SOURCE-CODE SEMANTICS
+## 3. SOURCE-CODE SEMANTICS
 
 Observed behavior:
 
@@ -250,14 +251,12 @@ same Context object
 
 Equivalent state transition:
 
-[
-C_{t+1}
-=======
+## \[ C\_{t+1}
 
 C_t
-\oplus
+\\oplus
 TraceEvent
-]
+\]
 
 where:
 
@@ -269,9 +268,9 @@ append trace metadata
 
 All non-trace state remains unchanged by the source implementation.
 
----
+______________________________________________________________________
 
-# 4. HARD STATUS FIREWALL
+## 4. HARD STATUS FIREWALL
 
 Do not call this implementation a live environment scanner merely because its class name is:
 
@@ -292,24 +291,28 @@ Registration
 !=
 RuntimeIntegration
 ```
+
 ```text
 run()
 !=
 EnvironmentObservation
 ```
+
 ```text
 TraceEvent
 !=
 SensorEvidence
 ```
+
 ```text
 ContextReturned
 !=
 EnvironmentModelUpdated
 ```
----
 
-# 5. AMOS SYSTEM POSITION
+______________________________________________________________________
+
+## 5. AMOS SYSTEM POSITION
 
 Canonical placement:
 
@@ -348,9 +351,9 @@ TRACE
 
 not the full chain.
 
----
+______________________________________________________________________
 
-# 6. H / M / L [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]
+## 6. H / M / L [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]
 
 ```text
 H — SENSE_SYSTEM
@@ -395,9 +398,9 @@ coverage:
     evidence_parse: NOT_IMPLEMENTED
 ```
 
----
+______________________________________________________________________
 
-# 7. AGENT EXTERNALIZATION CLASS
+## 7. AGENT EXTERNALIZATION CLASS
 
 AMOS externalization classification:
 
@@ -439,9 +442,9 @@ must not be encoded
 as prose-only agent intent.
 ```
 
----
+______________________________________________________________________
 
-# 8. PURPOSE
+## 8. PURPOSE
 
 The intended role of the EnvironmentScan Agent is:
 
@@ -467,9 +470,9 @@ ADMIT / QUARANTINE
 UPDATE CONTEXT
 ```
 
----
+______________________________________________________________________
 
-# 9. NON-GOALS
+## 9. NON-GOALS
 
 EnvironmentScan_Agent should not automatically:
 
@@ -483,9 +486,9 @@ persist every observation forever
 override user or system authority
 ```
 
----
+______________________________________________________________________
 
-# 10. OBSERVATION FIREWALL
+## 10. OBSERVATION FIREWALL
 
 AMOS distinguishes:
 
@@ -529,9 +532,9 @@ service X caused overload
 
 without additional evidence.
 
----
+______________________________________________________________________
 
-# 11. CANONICAL OBSERVATION OBJECT
+## 11. CANONICAL OBSERVATION OBJECT
 
 ```yaml
 EnvironmentObservation:
@@ -579,9 +582,9 @@ EnvironmentObservation:
     INVALID
 ```
 
----
+______________________________________________________________________
 
-# 12. CONTEXT CONTRACT
+## 12. CONTEXT CONTRACT
 
 Current source:
 
@@ -609,9 +612,9 @@ Context:
     epoch:
 ```
 
----
+______________________________________________________________________
 
-# 13. INPUT CONTRACT
+## 13. INPUT CONTRACT
 
 ```yaml
 input_contract:
@@ -631,9 +634,9 @@ input_contract:
     - scan_scope_is_valid
 ```
 
----
+______________________________________________________________________
 
-# 14. OUTPUT CONTRACT
+## 14. OUTPUT CONTRACT
 
 ```yaml
 output_contract:
@@ -654,9 +657,9 @@ output_contract:
     - all_new_observations_have_provenance
 ```
 
----
+______________________________________________________________________
 
-# 15. TRACE CONTRACT
+## 15. TRACE CONTRACT
 
 Source trace:
 
@@ -696,9 +699,9 @@ trace_event:
   status:
 ```
 
----
+______________________________________________________________________
 
-# 16. PROVENANCE CONTRACT
+## 16. PROVENANCE CONTRACT
 
 Every observation should retain:
 
@@ -744,9 +747,9 @@ from copied sources
 independent confirmation
 ```
 
----
+______________________________________________________________________
 
-# 17. SOURCE CLASSES
+## 17. SOURCE CLASSES
 
 Possible environment sources:
 
@@ -766,9 +769,9 @@ UNKNOWN
 
 Each source must preserve its type.
 
----
+______________________________________________________________________
 
-# 18. TRUST CLASSES
+## 18. TRUST CLASSES
 
 ```text
 DIRECT_OBSERVATION
@@ -791,9 +794,9 @@ freshness-bounded
 
 not global.
 
----
+______________________________________________________________________
 
-# 19. SENSOR / TOOL CONTRACT
+## 19. SENSOR / TOOL CONTRACT
 
 Environment scanning often requires tools.
 
@@ -823,9 +826,9 @@ Default mode:
 READ_ONLY
 ```
 
----
+______________________________________________________________________
 
-# 20. CAPABILITY / AUTHORITY SEPARATION
+## 20. CAPABILITY / AUTHORITY SEPARATION
 
 ```text
 EnvironmentScan_Agent
@@ -841,15 +844,15 @@ is authorized to read resource X
 
 Hard invariant:
 
-[
+\[
 Capability(a,r)
-\neq
+\\neq
 Authority(a,r)
-]
+\]
 
----
+______________________________________________________________________
 
-# 21. AUTHORITY CONTRACT
+## 21. AUTHORITY CONTRACT
 
 ```yaml
 authority:
@@ -872,9 +875,9 @@ authority:
     read_only: true
 ```
 
----
+______________________________________________________________________
 
-# 22. SCAN REQUEST OBJECT
+## 22. SCAN REQUEST OBJECT
 
 ```yaml
 EnvironmentScanRequest:
@@ -902,9 +905,9 @@ EnvironmentScanRequest:
   risk_class:
 ```
 
----
+______________________________________________________________________
 
-# 23. SCAN RESULT OBJECT
+## 23. SCAN RESULT OBJECT
 
 ```yaml
 EnvironmentScanResult:
@@ -928,9 +931,9 @@ EnvironmentScanResult:
     QUARANTINED
 ```
 
----
+______________________________________________________________________
 
-# 24. RUNTIME PIPELINE
+## 24. RUNTIME PIPELINE
 
 Recommended runtime:
 
@@ -962,9 +965,9 @@ CONTEXT UPDATE
 TRACE
 ```
 
----
+______________________________________________________________________
 
-# 25. ADMISSION GATE
+## 25. ADMISSION GATE
 
 Conceptual gate:
 
@@ -985,9 +988,9 @@ If high-impact and source identity is unknown:
 → QUARANTINE
 ```
 
----
+______________________________________________________________________
 
-# 26. FRESHNESS
+## 26. FRESHNESS
 
 Environment state changes over time.
 
@@ -1009,9 +1012,9 @@ PreviouslyTrue
 CurrentlyTrue
 ```
 
----
+______________________________________________________________________
 
-# 27. EVENT TIME VS OBSERVATION TIME
+## 27. EVENT TIME VS OBSERVATION TIME
 
 Separate:
 
@@ -1024,21 +1027,21 @@ ProcessingTime
 
 For an observation (o):
 
-[
+\[
 t_e
-\neq
+\\neq
 t_o
-\neq
+\\neq
 t_i
-]
+\]
 
 in general.
 
 Failure to preserve these may create false temporal conclusions.
 
----
+______________________________________________________________________
 
-# 28. DUPLICATE OBSERVATIONS
+## 28. DUPLICATE OBSERVATIONS
 
 Two reads may report the same event.
 
@@ -1053,9 +1056,9 @@ timestamp
 
 before treating them as independent evidence.
 
----
+______________________________________________________________________
 
-# 29. CONFLICT DETECTION
+## 29. CONFLICT DETECTION
 
 If sources disagree:
 
@@ -1078,9 +1081,9 @@ Conflict:
   discriminating_test:
 ```
 
----
+______________________________________________________________________
 
-# 30. COMPETING STATE
+## 30. COMPETING STATE
 
 ```text
 COMPETING
@@ -1102,9 +1105,9 @@ DOWN
 
 when evidence remains incompatible.
 
----
+______________________________________________________________________
 
-# 31. ANOMALY OBJECT
+## 31. ANOMALY OBJECT
 
 ```yaml
 EnvironmentAnomaly:
@@ -1134,9 +1137,9 @@ EnvironmentAnomaly:
   status:
 ```
 
----
+______________________________________________________________________
 
-# 32. ANOMALY FIREWALL
+## 32. ANOMALY FIREWALL
 
 ```text
 Deviation
@@ -1149,16 +1152,18 @@ Failure
 !=
 Attack
 ```
+
 ```text
 Attack
 !=
 RootCause
 ```
+
 EnvironmentScan_Agent should report the weakest supported class.
 
----
+______________________________________________________________________
 
-# 33. ENVIRONMENT STATE TENSOR
+## 33. ENVIRONMENT STATE TENSOR
 
 Conceptual AMOS tensor:
 
@@ -1194,9 +1199,9 @@ E[
 ]
 ```
 
----
+______________________________________________________________________
 
-# 34. MULTI-SCALE ENVIRONMENT MODEL
+## 34. MULTI-SCALE ENVIRONMENT MODEL
 
 ```text
 H — Environment / system state
@@ -1226,9 +1231,9 @@ does not automatically prove
 H-level system failure.
 ```
 
----
+______________________________________________________________________
 
-# 35. PERCEPTION VS INTERPRETATION
+## 35. PERCEPTION VS INTERPRETATION
 
 Canonical chain:
 
@@ -1255,9 +1260,9 @@ RAW INPUT
 
 Higher-order cognition should usually live elsewhere.
 
----
+______________________________________________________________________
 
-# 36. SENSE / COGNITION BOUNDARY
+## 36. SENSE / COGNITION BOUNDARY
 
 ```text
 SENSE_SYSTEM
@@ -1279,9 +1284,9 @@ execute
 
 Do not collapse all four into one sensing agent.
 
----
+______________________________________________________________________
 
-# 37. PURE READ INVARIANT
+## 37. PURE READ INVARIANT
 
 Default EnvironmentScan_Agent should remain non-destructive.
 
@@ -1303,20 +1308,18 @@ new effect contract
 
 should be considered.
 
----
+______________________________________________________________________
 
-# 38. CONTEXT PRESERVATION
+## 38. CONTEXT PRESERVATION
 
 Source behavior preserves all unrelated context.
 
 Formal invariant:
 
-[
-C'_{-trace}
-===========
+## \[ C'\_{-trace}
 
-C_{-trace}
-]
+C\_{-trace}
+\]
 
 where only trace state changes.
 
@@ -1328,9 +1331,9 @@ unowned context
 
 unless explicitly contracted.
 
----
+______________________________________________________________________
 
-# 39. IDEMPOTENCE
+## 39. IDEMPOTENCE
 
 A scan may not be strictly idempotent because environment state changes.
 
@@ -1348,9 +1351,9 @@ ContextSchemaMutation
 deterministic
 ```
 
----
+______________________________________________________________________
 
-# 40. REPEAT SCAN
+## 40. REPEAT SCAN
 
 Repeated scans should generate separate observation identities.
 
@@ -1364,9 +1367,9 @@ even when values match.
 
 This preserves temporal provenance.
 
----
+______________________________________________________________________
 
-# 41. LOOP / POLLING GOVERNANCE
+## 41. LOOP / POLLING GOVERNANCE
 
 Continuous scanning can become unbounded polling.
 
@@ -1382,9 +1385,9 @@ PollingPolicy:
   rate_limit:
 ```
 
----
+______________________________________________________________________
 
-# 42. RESOURCE BUDGET
+## 42. RESOURCE BUDGET
 
 ```yaml
 ScanBudget:
@@ -1397,9 +1400,9 @@ ScanBudget:
 
 Environment sensing must not become uncontrolled resource consumption.
 
----
+______________________________________________________________________
 
-# 43. FAILURE MODES
+## 43. FAILURE MODES
 
 ```text
 F01 SOURCE_UNAVAILABLE
@@ -1424,9 +1427,9 @@ F19 OBSERVATION_AS_CAUSAL_CLAIM
 F20 ENVIRONMENT_SCAN_AS_DECISION
 ```
 
----
+______________________________________________________________________
 
-# 44. FAILURE RECORD
+## 44. FAILURE RECORD
 
 ```yaml
 ScanFailure:
@@ -1442,9 +1445,9 @@ ScanFailure:
   status:
 ```
 
----
+______________________________________________________________________
 
-# 45. FAILURE RECOVERY
+## 45. FAILURE RECOVERY
 
 ```text
 FAILURE
@@ -1470,19 +1473,19 @@ must not erase
 valid observations from independent sensors.
 ```
 
----
+______________________________________________________________________
 
-# 46. SELECTIVE INVALIDATION
+## 46. SELECTIVE INVALIDATION
 
 If source (s) becomes invalid:
 
-[
+\[
 Invalid(s)
-\Rightarrow
+\\Rightarrow
 Invalid(
 Descendants(s)
 )
-]
+\]
 
 Do not invalidate unrelated evidence.
 
@@ -1498,9 +1501,9 @@ network latency
 filesystem state
 ```
 
----
+______________________________________________________________________
 
-# 47. MEMORY ADMISSION
+## 47. MEMORY ADMISSION
 
 Persistent environment observations should not automatically become memory.
 
@@ -1530,9 +1533,9 @@ Persistent long-horizon environment state belongs in:
 MEMORY / STATE
 ```
 
----
+______________________________________________________________________
 
-# 48. OBSERVABILITY
+## 48. OBSERVABILITY
 
 EnvironmentScan_Agent should itself be observable.
 
@@ -1550,9 +1553,9 @@ conflicts
 tool failures
 ```
 
----
+______________________________________________________________________
 
-# 49. METRICS
+## 49. METRICS
 
 ```yaml
 metrics:
@@ -1572,9 +1575,9 @@ metrics:
 
 Metrics must specify denominator and time window.
 
----
+______________________________________________________________________
 
-# 50. SCAN QUALITY
+## 50. SCAN QUALITY
 
 Possible quality vector:
 
@@ -1591,9 +1594,9 @@ Q[
 
 Do not compress into one score unless needed.
 
----
+______________________________________________________________________
 
-# 51. CONFIDENCE
+## 51. CONFIDENCE
 
 Observation confidence is distinct from agent confidence.
 
@@ -1609,9 +1612,9 @@ model confidence
 
 Do not substitute one for the other.
 
----
+______________________________________________________________________
 
-# 52. ENVIRONMENT BOUNDARY
+## 52. ENVIRONMENT BOUNDARY
 
 The term “environment” must be scoped.
 
@@ -1631,9 +1634,9 @@ simulation
 
 Each requires a different sensor contract.
 
----
+______________________________________________________________________
 
-# 53. SCOPE OBJECT
+## 53. SCOPE OBJECT
 
 ```yaml
 EnvironmentScope:
@@ -1646,9 +1649,9 @@ EnvironmentScope:
   exclusions: []
 ```
 
----
+______________________________________________________________________
 
-# 54. DOMAIN ADAPTERS
+## 54. DOMAIN ADAPTERS
 
 EnvironmentScan_Agent should remain domain-light.
 
@@ -1666,9 +1669,9 @@ EnvironmentScan_Agent
 
 This prevents one monolithic scanner from embedding all domain logic.
 
----
+______________________________________________________________________
 
-# 55. ADAPTER CONTRACT
+## 55. ADAPTER CONTRACT
 
 ```yaml
 EnvironmentAdapter:
@@ -1691,9 +1694,9 @@ EnvironmentAdapter:
   provenance:
 ```
 
----
+______________________________________________________________________
 
-# 56. CONTROL-PLANE SEPARATION
+## 56. CONTROL-PLANE SEPARATION
 
 ```text
 EnvironmentScan_Agent
@@ -1711,9 +1714,9 @@ commit
 
 The scanner must not self-authorize access.
 
----
+______________________________________________________________________
 
-# 57. COMMIT-TIME REVALIDATION
+## 57. COMMIT-TIME REVALIDATION
 
 If observations are used to trigger consequential effects:
 
@@ -1733,9 +1736,9 @@ ObservationStillValid
 
 must be checked where material.
 
----
+______________________________________________________________________
 
-# 58. RSCF CONTRACT
+## 58. RSCF CONTRACT
 
 ```yaml
 RSCF:
@@ -1760,9 +1763,9 @@ RSCF:
   confidence_ceiling:
 ```
 
----
+______________________________________________________________________
 
-# 59. RSCF — CURRENT IMPLEMENTATION
+## 59. RSCF — CURRENT IMPLEMENTATION
 
 ```yaml
 claim_id: ENVSCAN-IMPL-001
@@ -1792,9 +1795,9 @@ confidence_ceiling:
   runtime_execution: not_independently_verified
 ```
 
----
+______________________________________________________________________
 
-# 60. RSCF — ENVIRONMENT SCANNING CAPABILITY
+## 60. RSCF — ENVIRONMENT SCANNING CAPABILITY
 
 ```yaml
 claim_id: ENVSCAN-CAP-001
@@ -1816,9 +1819,9 @@ status:
   not_supported_by_current_source: true
 ```
 
----
+______________________________________________________________________
 
-# 61. RSCF — NON-DESTRUCTIVE BEHAVIOR
+## 61. RSCF — NON-DESTRUCTIVE BEHAVIOR
 
 ```yaml
 claim_id: ENVSCAN-SAFE-001
@@ -1842,9 +1845,9 @@ invalidates_if:
   - Context overrides standard mapping semantics
 ```
 
----
+______________________________________________________________________
 
-# 62. TEST SUITE — CURRENT SOURCE
+## 62. TEST SUITE — CURRENT SOURCE
 
 Minimum tests:
 
@@ -1863,9 +1866,9 @@ T11 unrelated context keys preserved
 T12 repeated run appends second event
 ```
 
----
+______________________________________________________________________
 
-# 63. TEST SUITE — LIVE SCANNER
+## 63. TEST SUITE — LIVE SCANNER
 
 Before promoting from `REGISTERED_STUB` to `LIVE_SCANNER`:
 
@@ -1890,9 +1893,9 @@ T29 scan budget enforcement
 T30 commit-time freshness integration
 ```
 
----
+______________________________________________________________________
 
-# 64. PROMOTION STATES
+## 64. PROMOTION STATES
 
 ```text
 REGISTERED_STUB
@@ -1910,9 +1913,9 @@ LIVE_SCANNER
 
 Each promotion requires evidence.
 
----
+______________________________________________________________________
 
-# 65. PROMOTION GATE
+## 65. PROMOTION GATE
 
 ```text
 PromoteToLive
@@ -1929,9 +1932,9 @@ RegistrationPass
 ∧ RegressionPass
 ```
 
----
+______________________________________________________________________
 
-# 66. DO NOT CLAIM LIVE UNTIL
+## 66. DO NOT CLAIM LIVE UNTIL
 
 ```text
 actual source is read
@@ -1941,9 +1944,9 @@ actual failures are tested
 actual runtime path calls the agent
 ```
 
----
+______________________________________________________________________
 
-# 67. RECOMMENDED NEXT IMPLEMENTATION
+## 67. RECOMMENDED NEXT IMPLEMENTATION
 
 A minimal live read-only version should add:
 
@@ -1963,9 +1966,9 @@ tests
 
 before adding advanced cognition.
 
----
+______________________________________________________________________
 
-# 68. MINIMUM LIVE PIPELINE
+## 68. MINIMUM LIVE PIPELINE
 
 ```python
 def run(self, context: Context) -> Context:
@@ -1994,9 +1997,9 @@ def run(self, context: Context) -> Context:
 
 This is an **AMOS design proposal**, not the current source implementation.
 
----
+______________________________________________________________________
 
-# 69. ENVIRONMENT SCAN INVARIANTS
+## 69. ENVIRONMENT SCAN INVARIANTS
 
 ```text
 I01 ReadOnlyByDefault
@@ -2016,9 +2019,9 @@ I14 ToolAccessRequiresPolicy
 I15 LiveStatusRequiresExecutedEvidence
 ```
 
----
+______________________________________________________________________
 
-# 70. SOURCE DEPENDENCIES
+## 70. SOURCE DEPENDENCIES
 
 The supplied code directly references:
 
@@ -2038,9 +2041,9 @@ until their implementations are inspected.
 
 Do not infer hidden superclass behavior.
 
----
+______________________________________________________________________
 
-# 71. DEPENDENCY GRAPH
+## 71. DEPENDENCY GRAPH
 
 ```text
 Agent
@@ -2065,9 +2068,9 @@ EnvironmentScan_Agent
 └── Trace / Metrics
 ```
 
----
+______________________________________________________________________
 
-# 72. 7-PART PERSISTENCE MAPPING
+## 72. 7-PART PERSISTENCE MAPPING
 
 | Part        | EnvironmentScan mapping                 |
 | ----------- | --------------------------------------- |
@@ -2081,9 +2084,9 @@ EnvironmentScan_Agent
 
 This is an `AMOS_MODEL` mapping.
 
----
+______________________________________________________________________
 
-# 73. AGENT TEMPLATE MAPPING
+## 73. AGENT TEMPLATE MAPPING
 
 EnvironmentScan_Agent is primarily:
 
@@ -2108,9 +2111,9 @@ T09 — EXECUTION SUPPORT
 
 unless its authority and contract explicitly change.
 
----
+______________________________________________________________________
 
-# 74. CURRENT COMPLETION AUDIT
+## 74. CURRENT COMPLETION AUDIT
 
 ```yaml
 completion:
@@ -2134,9 +2137,9 @@ completion:
     state: REGISTERED_STUB
 ```
 
----
+______________________________________________________________________
 
-# 75. GAP REGISTRY
+## 75. GAP REGISTRY
 
 | Gap                     | Class             | Effect                            |
 | ----------------------- | ----------------- | --------------------------------- |
@@ -2149,9 +2152,9 @@ completion:
 | No metrics              | EXPLANATORY       | limited observability             |
 | No live tests           | CRITICAL          | capability unverified             |
 
----
+______________________________________________________________________
 
-# 76. FAILURE-TO-STATUS RULE
+## 76. FAILURE-TO-STATUS RULE
 
 If no observation source exists:
 
@@ -2163,9 +2166,9 @@ REGISTERED_STUB
 
 A documentation update alone cannot promote it.
 
----
+______________________________________________________________________
 
-# 77. RUNTIME STATUS OBJECT
+## 77. RUNTIME STATUS OBJECT
 
 Recommended:
 
@@ -2194,9 +2197,9 @@ component_status:
     live_tests:
 ```
 
----
+______________________________________________________________________
 
-# 78. OBSERVER MODEL
+## 78. OBSERVER MODEL
 
 Environment observations are observer-dependent.
 
@@ -2222,9 +2225,9 @@ DifferentObservation
 
 does not automatically mean one is wrong.
 
----
+______________________________________________________________________
 
-# 79. REALITY / MODEL DISTINCTION
+## 79. REALITY / MODEL DISTINCTION
 
 ```text
 ExternalReality
@@ -2246,9 +2249,9 @@ EnvironmentReality
 
 The model is an observed representation.
 
----
+______________________________________________________________________
 
-# 80. CAUSAL FIREWALL
+## 80. CAUSAL FIREWALL
 
 EnvironmentScan_Agent should normally output:
 
@@ -2269,9 +2272,9 @@ responsible_for
 
 Causal reasoning belongs downstream unless explicitly implemented and validated.
 
----
+______________________________________________________________________
 
-# 81. FINAL RSCF NODE
+## 81. FINAL RSCF NODE
 
 ```yaml
 node_id: AMOS_ENVIRONMENT_SCAN_AGENT_V2
@@ -2339,9 +2342,9 @@ confidence_ceiling:
   scanning_capability: unknown
 ```
 
----
+______________________________________________________________________
 
-# 82. CHANGELOG
+## 82. CHANGELOG
 
 ## v2.0.0 — 2026-08-25
 
@@ -2393,9 +2396,9 @@ context return
 
 No real scanning logic was present.
 
----
+______________________________________________________________________
 
-# 83. FINAL AMOS POSITION
+## 83. FINAL AMOS POSITION
 
 The current component should be described as:
 
@@ -2431,30 +2434,33 @@ The central invariant is:
 
 > **A sensor agent becomes trustworthy not when it has a sensing name, but when its observations are real, typed, scoped, provenance-bound, fresh, and validated.**
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · 06-Knowledge-Base-MOC · AMOS_AGENT_SCHEMA_FULL · AMOS_AGENT_TEMPLATES · AMOS_AGENT_ONBOARDING_GUIDE · system_scan_agent · automation_profiles
 
 ```
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: environment_scan_agent
 node_type: note
 path: 11_KNOWLEDGE/environment_scan_agent.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]]
-

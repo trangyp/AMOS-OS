@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: rg fractal bridge
 type: reference
 source: 07_SKILLS/amos-fractal-systems-master/references
 tags:
-- reference
-- amos-fractal-systems-master
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-fractal-systems-master
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -20,15 +23,11 @@ rscf:
 > Source: `_00_Cosmo brain/dated/2026-08-25/2026-08-25 RG-Fractal Bridge Deep Verification.md`
 > Epistemic class: SOURCE_DERIVED
 
----
-title: 2026-08-25 RG-Fractal Bridge Deep Verification
-type: daily-learning
-date: 2026-08-25
-epistemic: DERIVED/MODEL
-tags: [quantum, fractal, math, rg, bridge-b1, dated, dated/2026-08-25]
----
+______________________________________________________________________
 
-# 2026-08-25 — RG ↔ Fractal Bridge (B1) Deep Layer
+## title: 2026-08-25 RG-Fractal Bridge Deep Verification type: daily-learning date: 2026-08-25 epistemic: DERIVED/MODEL tags: [quantum, fractal, math, rg, bridge-b1, dated, dated/2026-08-25]
+
+## 2026-08-25 — RG ↔ Fractal Bridge (B1) Deep Layer
 
 ## Gap found
 
@@ -36,12 +35,12 @@ B1 ("RG fixed points ↔ scale-invariant geometry — both are what survives zoo
 
 ## Closure (4 channels)
 
-| Channel | Artifact |
-|---|---|
-| Skill | `amos/amos-rg-fractal-bridge` — precise shared-structure table (fixed points↔scale invariance, critical exponents↔scaling dimensions, relevant operators↔stable directions, universality classes↔same-D-different-Λ) + 4-item guard set |
-| Agent | `.devin/agents/amos-rg-scaling-audit-agent.json` — 6 capabilities incl. exponent-match enforcement and RG-language-borrow blocking |
-| Workflow | `rg-fractal-bridge-verification-workflow.md` — 7-step pipeline from map declaration to labels |
-| Memory + vault note | recorded |
+| Channel             | Artifact                                                                                                                                                                                                                                |
+| ------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Skill               | `amos/amos-rg-fractal-bridge` — precise shared-structure table (fixed points↔scale invariance, critical exponents↔scaling dimensions, relevant operators↔stable directions, universality classes↔same-D-different-Λ) + 4-item guard set |
+| Agent               | `.devin/agents/amos-rg-scaling-audit-agent.json` — 6 capabilities incl. exponent-match enforcement and RG-language-borrow blocking                                                                                                      |
+| Workflow            | `rg-fractal-bridge-verification-workflow.md` — 7-step pipeline from map declaration to labels                                                                                                                                           |
+| Memory + vault note | recorded                                                                                                                                                                                                                                |
 
 ## The precise bridge (DERIVED, checkable)
 
@@ -53,12 +52,13 @@ Guard set: no beta function without declared flow + couplings · no universality
 
 **"Renormalizing emotions" and similar borrowings are blocked by default** — allowed only with full φ-map + flow equation + couplings, which casual uses never have. This is the correct asymmetry: the burden is on the borrower, not the auditor.
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · AMOS Simulation Kernel v0 Math Foundations · system scan agent · automation profiles
 
----
-**MOC:** references_MOC
----
+______________________________________________________________________
+
+## **MOC:** references_MOC
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -66,12 +66,14 @@ Guard set: no beta function without declared flow + couplings · no universality
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-fractal-systems-master-rg-fractal-bridge
 node_type: reference
 path: 07_SKILLS/amos-fractal-systems-master/references/rg_fractal_bridge.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

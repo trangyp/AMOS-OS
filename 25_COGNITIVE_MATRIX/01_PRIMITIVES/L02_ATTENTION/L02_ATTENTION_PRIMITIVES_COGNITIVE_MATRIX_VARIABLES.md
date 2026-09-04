@@ -2,16 +2,16 @@
 type: variable
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION
 tags:
-- amos
-- cognitive-matrix
-- matrix/l02
-- attention
-- variables
-- typed-state
-- rscf
-- hml
-- governance
-- domain/cognitive-matrix
+  - amos
+  - cognitive-matrix
+  - matrix/l02
+  - attention
+  - variables
+  - typed-state
+  - rscf
+  - hml
+  - governance
+  - domain/cognitive-matrix
 title: L02_ATTENTION — Variables
 origin_architect: Trang Phan
 status: MODEL_VARIABLE_CONTRACT / UNIMPLEMENTED / UNVALIDATED
@@ -34,9 +34,9 @@ rscf:
 
 > **Canon boundary:** available L02 source material supports attention allocation as the primitive role and identifies scarce reasoning/observation resources as its concern. The source also requires variables, dependencies, provenance, H/M/L, failure/repair, tests/falsifiers, and governance boundaries before promotion. A canonical L02 variable registry has not been recovered. Therefore variable identifiers, tensors, domains, update functions, thresholds, and equations introduced below are `AMOS_MODEL` unless separately source-bound.
 
----
+______________________________________________________________________
 
-# 0. Purpose
+## 0. Purpose
 
 Define the typed variable contract required to represent `L02_ATTENTION` without collapsing:
 
@@ -85,9 +85,9 @@ WHAT CAN BE PROCESSED
 WHAT MAY BE COMMITTED
 ```
 
----
+______________________________________________________________________
 
-# 1. Source / Canon References
+## 1. Source / Canon References
 
 ## 1.1 Source-supported core
 
@@ -157,9 +157,9 @@ source_status:
     status: UNKNOWN_GAP
 ```
 
----
+______________________________________________________________________
 
-# 2. Definition and Scope
+## 2. Definition and Scope
 
 An L02 variable is a typed state element used to describe:
 
@@ -179,10 +179,10 @@ failure/recovery state
 
 Formal model:
 
-[
-V^{L02}_t =
-(C_t,B_t,A_t,P_t,E_t,U_t,D_t,S_t,R_t,F_t,\Pi_t,\Gamma_t,Auth_t,X_t)
-]
+\[
+V^{L02}\_t =
+(C_t,B_t,A_t,P_t,E_t,U_t,D_t,S_t,R_t,F_t,\\Pi_t,\\Gamma_t,Auth_t,X_t)
+\]
 
 where the tuple is an `AMOS_MODEL` representation rather than a recovered canonical equation.
 
@@ -196,9 +196,9 @@ execution
 empirical validity
 ```
 
----
+______________________________________________________________________
 
-# 3. Variable Type System
+## 3. Variable Type System
 
 ```yaml
 L02Variable:
@@ -267,9 +267,9 @@ L02Variable:
       - UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 4. Core Variable Families
+## 4. Core Variable Families
 
 The minimum proposed variable families are:
 
@@ -296,15 +296,15 @@ The minimum proposed variable families are:
 20. Repair/recovery variables
 ```
 
----
+______________________________________________________________________
 
-# 5. Candidate Variables
+## 5. Candidate Variables
 
 ## 5.1 Candidate set
 
-[
-C_t={c_1,c_2,\ldots,c_n}
-]
+\[
+C_t={c_1,c_2,\\ldots,c_n}
+\]
 
 Type:
 
@@ -335,7 +335,7 @@ action proposal
 repair target
 ```
 
----
+______________________________________________________________________
 
 ## 5.2 Candidate identity
 
@@ -351,7 +351,7 @@ candidate alias != new candidate
 
 unless provenance establishes genuinely distinct semantic origin.
 
----
+______________________________________________________________________
 
 ## 5.3 Candidate class
 
@@ -376,15 +376,15 @@ class_i:
 
 This registry is `AMOS_MODEL`.
 
----
+______________________________________________________________________
 
-# 6. Resource Variables
+## 6. Resource Variables
 
 ## 6.1 Total attention budget
 
-[
+\[
 B_t
-]
+\]
 
 represents the available bounded processing budget.
 
@@ -418,27 +418,27 @@ Hard rule:
 unlike units cannot be silently summed
 ```
 
----
+______________________________________________________________________
 
 ## 6.2 Available budget
 
-[
+\[
 B_t^{avail}
-]
+\]
 
 with:
 
-[
-0\le B_t^{avail}\le B_t
-]
+\[
+0\\le B_t^{avail}\\le B_t
+\]
 
----
+______________________________________________________________________
 
 ## 6.3 Reserved budget
 
-[
+\[
 B_t^{reserve}
-]
+\]
 
 Candidate interpretation:
 
@@ -455,48 +455,48 @@ unexpected failure
 
 Constraint:
 
-[
+\[
 B_t^{ordinary}
-\le
+\\le
 B_t-B_t^{reserve}
-]
+\]
 
 where a reserve policy exists.
 
----
+______________________________________________________________________
 
-# 7. Allocation Variables
+## 7. Allocation Variables
 
 ## 7.1 Candidate allocation
 
-[
-a_{i,t}
-]
+\[
+a\_{i,t}
+\]
 
-represents attention allocated to candidate \(c_i\).
+represents attention allocated to candidate (c_i).
 
 Domain:
 
-[
-a_{i,t}\ge0
-]
+\[
+a\_{i,t}\\ge0
+\]
 
 Resource conservation:
 
-[
-\sum_i a_{i,t}\le B_t^{avail}
-]
+\[
+\\sum_i a\_{i,t}\\le B_t^{avail}
+\]
 
 for each compatible resource dimension.
 
----
+______________________________________________________________________
 
 ## 7.2 Allocation vector
 
-[
-\mathbf{A}*t =
-[a*{1,t},a_{2,t},\ldots,a_{n,t}]
-]
+\[
+\\mathbf{A}*t =
+\[a*{1,t},a\_{2,t},\\ldots,a\_{n,t}\]
+\]
 
 Type:
 
@@ -508,7 +508,7 @@ A_t:
     - time
 ```
 
----
+______________________________________________________________________
 
 ## 7.3 Allocation status
 
@@ -524,17 +524,17 @@ allocation_state_i:
     - INVALIDATED
 ```
 
----
+______________________________________________________________________
 
-# 8. Priority Variables
+## 8. Priority Variables
 
 Priority must remain distinct from truth.
 
 ## 8.1 Priority
 
-[
-p_{i,t}
-]
+\[
+p\_{i,t}
+\]
 
 Type:
 
@@ -554,27 +554,25 @@ DEFER
 
 No canonical numeric range is asserted.
 
----
+______________________________________________________________________
 
 ## 8.2 Priority driver vector
 
 Proposed representation:
 
-[
-\mathbf{P}_{i,t}
-================
+## \[ \\mathbf{P}\_{i,t}
 
-[
+\[
 g_i,
 k_i,
 u_i,
 r_i,
-\tau_i,
+\\tau_i,
 d_i,
 n_i,
 m_i
-]
-]
+\]
+\]
 
 where:
 
@@ -593,39 +591,39 @@ This is `AMOS_MODEL`.
 
 No fixed weighting equation is canonical here.
 
----
+______________________________________________________________________
 
-# 9. Salience Variables
+## 9. Salience Variables
 
 ## 9.1 Salience
 
-[
-s_{i,t}
-]
+\[
+s\_{i,t}
+\]
 
 represents how strongly a candidate attracts processing attention.
 
 Hard firewall:
 
-[
-s_{i,t}\not\Rightarrow Truth(c_i)
-]
+\[
+s\_{i,t}\\not\\Rightarrow Truth(c_i)
+\]
 
 and:
 
-[
-s_{i,t}\not\Rightarrow Conf(c_i)
-]
+\[
+s\_{i,t}\\not\\Rightarrow Conf(c_i)
+\]
 
 Salience may influence allocation but cannot independently change epistemic status.
 
----
+______________________________________________________________________
 
 ## 9.2 Novelty
 
-[
-n_{i,t}
-]
+\[
+n\_{i,t}
+\]
 
 represents relative novelty.
 
@@ -636,13 +634,13 @@ NOVEL != IMPORTANT
 NOVEL != TRUE
 ```
 
----
+______________________________________________________________________
 
 ## 9.3 Repetition/frequency
 
-[
-freq_{i,t}
-]
+\[
+freq\_{i,t}
+\]
 
 represents observed repetition.
 
@@ -652,15 +650,15 @@ Hard boundary:
 REPETITION != INDEPENDENT CONFIRMATION
 ```
 
----
+______________________________________________________________________
 
-# 10. Goal-Relevance Variables
+## 10. Goal-Relevance Variables
 
 ## 10.1 Active objective
 
-[
+\[
 G_t
-]
+\]
 
 Type:
 
@@ -672,15 +670,15 @@ G_t:
   constraints: ConstraintRef[]
 ```
 
----
+______________________________________________________________________
 
 ## 10.2 Candidate-goal relevance
 
-[
-g_{i,t}
-]
+\[
+g\_{i,t}
+\]
 
-represents candidate relevance to \(G_t\).
+represents candidate relevance to (G_t).
 
 Important distinction:
 
@@ -692,15 +690,15 @@ epistemic support
 
 A false hypothesis may be highly relevant because disproving it matters.
 
----
+______________________________________________________________________
 
-# 11. Consequence / Risk Variables
+## 11. Consequence / Risk Variables
 
 ## 11.1 Consequence magnitude
 
-[
-q_{i,t}
-]
+\[
+q\_{i,t}
+\]
 
 represents estimated downstream consequence if the candidate is mishandled.
 
@@ -718,13 +716,13 @@ irreversibility
 dependency fan-out
 ```
 
----
+______________________________________________________________________
 
 ## 11.2 Irreversibility
 
-[
-irr_{i,t}
-]
+\[
+irr\_{i,t}
+\]
 
 represents expected difficulty/cost of reversing downstream effects.
 
@@ -740,17 +738,15 @@ HIGH IRREVERSIBILITY
 
 unless a governing constraint specifies prohibition.
 
----
+______________________________________________________________________
 
-# 12. Uncertainty Variables
+## 12. Uncertainty Variables
 
 Use an uncertainty vector rather than one scalar where material.
 
-[
-\mathbf{U}_{i,t}
-================
+## \[ \\mathbf{U}\_{i,t}
 
-[
+\[
 u^E,
 u^M,
 u^S,
@@ -758,8 +754,8 @@ u^T,
 u^C,
 u^X,
 u^P
-]
-]
+\]
+\]
 
 with:
 
@@ -785,15 +781,15 @@ UNKNOWN
 
 unless a calibrated quantitative system exists.
 
----
+______________________________________________________________________
 
-# 13. Evidence Variables
+## 13. Evidence Variables
 
 ## 13.1 Evidence set
 
-[
-E_i={e_1,\ldots,e_m}
-]
+\[
+E_i={e_1,\\ldots,e_m}
+\]
 
 Each evidence object must preserve:
 
@@ -825,40 +821,40 @@ EvidenceVariable:
 
 Attention does not transform an evidence class by itself.
 
----
+______________________________________________________________________
 
-# 14. Confidence Variables
+## 14. Confidence Variables
 
 ## 14.1 Confidence ceiling
 
-[
-Conf^{max}\(C\)
-]
+\[
+Conf^{max}(C)
+\]
 
 For load-bearing premises:
 
-[
+\[
 Conf(C)
-\le
-\min_j Conf(P_j)
-]
+\\le
+\\min_j Conf(P_j)
+\]
 
 unless independent revalidation changes the dependency structure.
 
 This is aligned with the governing AMOS confidence rule.
 
----
+______________________________________________________________________
 
 ## 14.2 Attention-confidence firewall
 
-For an attention-only operation \(T_A\):
+For an attention-only operation (T_A):
 
-[
+\[
 Conf(T_A(C))
-\le Conf(C)
-]
+\\le Conf(C)
+\]
 
-unless \(T_A\) also acquires genuinely new admissible evidence.
+unless (T_A) also acquires genuinely new admissible evidence.
 
 Thus:
 
@@ -868,15 +864,15 @@ MORE ATTENTION
 MORE CONFIDENCE
 ```
 
----
+______________________________________________________________________
 
-# 15. Provenance Variables
+## 15. Provenance Variables
 
 ## 15.1 Provenance identity
 
-[
-\pi_i
-]
+\[
+\\pi_i
+\]
 
 Minimum fields:
 
@@ -891,13 +887,13 @@ pi_i:
   timestamp: Timestamp | null
 ```
 
----
+______________________________________________________________________
 
 ## 15.2 Independence group
 
-[
+\[
 ig_i
-]
+\]
 
 represents evidence ancestry grouping.
 
@@ -916,13 +912,13 @@ ig(E1) = ig(E2) = ig(E3)
 
 unless an independent source enters.
 
----
+______________________________________________________________________
 
 ## 15.3 Provenance recoverability
 
-[
-\rho_i^{prov}
-]
+\[
+\\rho_i^{prov}
+\]
 
 Type:
 
@@ -935,41 +931,41 @@ UNKNOWN
 
 Decision-relevant provenance loss should trigger quarantine or revalidation.
 
----
+______________________________________________________________________
 
-# 16. Dependency Variables
+## 16. Dependency Variables
 
 ## 16.1 Dependency graph
 
-[
+\[
 D_t=(V_D,E_D)
-]
+\]
 
 where edges represent load-bearing dependency.
 
----
+______________________________________________________________________
 
 ## 16.2 Dependency criticality
 
-[
+\[
 k_i
-]
+\]
 
 Candidate interpretation:
 
-how strongly candidate \(c_i\) can alter downstream conclusions.
+how strongly candidate (c_i) can alter downstream conclusions.
 
----
+______________________________________________________________________
 
 ## 16.3 Fan-out
 
-[
+\[
 fanout_i = |Descendants(c_i)|
-]
+\]
 
 Fan-out may affect attention priority but does not itself prove importance.
 
----
+______________________________________________________________________
 
 ## 16.4 Dependency validity
 
@@ -983,13 +979,13 @@ dependency_state_i:
     - UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 17. Scope Variables
+## 17. Scope Variables
 
-[
+\[
 S_i
-]
+\]
 
 Minimum structure:
 
@@ -1010,13 +1006,13 @@ Hard invariant:
 scope expansion requires evidence
 ```
 
----
+______________________________________________________________________
 
-# 18. Regime Variables
+## 18. Regime Variables
 
-[
+\[
 R_i
-]
+\]
 
 Examples:
 
@@ -1034,13 +1030,13 @@ deployment-specific
 
 Regime is typed metadata, not free-form justification.
 
----
+______________________________________________________________________
 
 ## 18.1 Regime compatibility
 
-[
+\[
 Compat(R_e,R_q)
-]
+\]
 
 returns:
 
@@ -1051,21 +1047,21 @@ INCOMPATIBLE
 UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 19. Freshness Variables
+## 19. Freshness Variables
 
 ## 19.1 Observation time
 
-[
+\[
 t_i^{obs}
-]
+\]
 
 ## 19.2 Valid-through time
 
-[
+\[
 t_i^{valid}
-]
+\]
 
 where defined.
 
@@ -1091,9 +1087,9 @@ and:
 RECALL != REFRESH
 ```
 
----
+______________________________________________________________________
 
-# 20. H/M/L Variables
+## 20. H/M/L Variables
 
 Each material variable must identify scale.
 
@@ -1114,13 +1110,13 @@ M = subsystem/coordination level
 L = local candidate/detail level
 ```
 
----
+______________________________________________________________________
 
 ## 20.1 Cross-scale dependency
 
-[
-D^{HML}_{x\rightarrow y}
-]
+\[
+D^{HML}\_{x\\rightarrow y}
+\]
 
 records an explicit dependency across levels.
 
@@ -1132,15 +1128,15 @@ L observation != H conclusion
 
 without a valid aggregation/translation relation.
 
----
+______________________________________________________________________
 
-# 21. Memory Variables
+## 21. Memory Variables
 
 ## 21.1 Attention memory
 
-[
+\[
 M_t^A
-]
+\]
 
 may contain:
 
@@ -1154,7 +1150,7 @@ invalidated paths
 repair history
 ```
 
----
+______________________________________________________________________
 
 ## 21.2 Memory validity
 
@@ -1168,13 +1164,13 @@ memory_state:
     - QUARANTINED
 ```
 
----
+______________________________________________________________________
 
 ## 21.3 Reuse eligibility
 
-[
+\[
 Reuse(m,q)
-]
+\]
 
 requires compatibility across:
 
@@ -1187,19 +1183,19 @@ provenance
 objective
 ```
 
----
+______________________________________________________________________
 
-# 22. Contradiction Variables
+## 22. Contradiction Variables
 
 ## 22.1 Contradiction set
 
-[
+\[
 K_t
-]
+\]
 
 contains unresolved incompatible claims.
 
----
+______________________________________________________________________
 
 ## 22.2 Contradiction status
 
@@ -1217,15 +1213,15 @@ Hard rule:
 attention compression must not erase OPEN contradiction state
 ```
 
----
+______________________________________________________________________
 
-# 23. COMPETING Variables
+## 23. COMPETING Variables
 
 ## 23.1 Hypothesis set
 
-[
-HYP_t={h_1,\ldots,h_n}
-]
+\[
+HYP_t={h_1,\\ldots,h_n}
+\]
 
 Each hypothesis carries:
 
@@ -1240,7 +1236,7 @@ falsifiers
 confidence ceiling
 ```
 
----
+______________________________________________________________________
 
 ## 23.2 Competition status
 
@@ -1255,17 +1251,17 @@ L02 may allocate attention toward discriminating evidence.
 
 It must not fabricate convergence.
 
----
+______________________________________________________________________
 
-# 24. Decision-Value Variables
+## 24. Decision-Value Variables
 
 Candidate model:
 
-[
+\[
 DV_i
-]
+\]
 
-represents expected value of resolving candidate \(c_i\) for the governing decision.
+represents expected value of resolving candidate (c_i) for the governing decision.
 
 Potential factors:
 
@@ -1280,15 +1276,15 @@ reversibility
 
 No canonical scoring formula is asserted.
 
----
+______________________________________________________________________
 
-# 25. Information-Gain Variables
+## 25. Information-Gain Variables
 
 Candidate:
 
-[
+\[
 IG_i
-]
+\]
 
 represents expected discriminating information gained from processing a candidate.
 
@@ -1300,39 +1296,39 @@ EXPECTED INFORMATION GAIN
 GUARANTEED TRUTH
 ```
 
----
+______________________________________________________________________
 
-# 26. Cost Variables
+## 26. Cost Variables
 
-[
+\[
 Cost_i
-]
+\]
 
 may be a typed vector:
 
-[
+\[
 Cost_i =
-[
+\[
 tokens,
 time,
 toolCalls,
 money,
 humanEffort,
 risk
-]
-]
+\]
+\]
 
 No scalar aggregation is permitted without an explicit conversion or policy model.
 
----
+______________________________________________________________________
 
-# 27. Switching Variables
+## 27. Switching Variables
 
 ## 27.1 Current focus
 
-[
+\[
 f_t
-]
+\]
 
 Type:
 
@@ -1340,13 +1336,13 @@ Type:
 CandidateId | null
 ```
 
----
+______________________________________________________________________
 
 ## 27.2 Switching cost
 
-[
-SC_{i\rightarrow j}
-]
+\[
+SC\_{i\\rightarrow j}
+\]
 
 may capture:
 
@@ -1358,69 +1354,69 @@ cognitive/context fragmentation
 execution overhead
 ```
 
----
+______________________________________________________________________
 
 ## 27.3 Switch count
 
-[
-N^{switch}_t
-]
+\[
+N^{switch}\_t
+\]
 
 Useful for detecting attention thrashing.
 
----
+______________________________________________________________________
 
-# 28. Persistence Variables
+## 28. Persistence Variables
 
 ## 28.1 Attention age
 
-[
+\[
 age_i
-]
+\]
 
 ## 28.2 Consecutive allocation
 
-[
+\[
 dur_i
-]
+\]
 
 ## 28.3 Starvation duration
 
-[
+\[
 starve_i
-]
+\]
 
 These variables can support starvation/thrashing detection but do not independently define canonical thresholds.
 
----
+______________________________________________________________________
 
-# 29. Authority Variables
+## 29. Authority Variables
 
 ## 29.1 Capability
 
-[
+\[
 Cap_i
-]
+\]
 
 represents whether a component can technically perform an operation.
 
----
+______________________________________________________________________
 
 ## 29.2 Authority
 
-[
+\[
 Auth_i
-]
+\]
 
 represents whether that operation is permitted.
 
 Hard invariant:
 
-[
-Cap_i \not\Rightarrow Auth_i
-]
+\[
+Cap_i \\not\\Rightarrow Auth_i
+\]
 
----
+______________________________________________________________________
 
 ## 29.3 Authority witness
 
@@ -1436,15 +1432,15 @@ AuthorityWitness:
   version: VersionRef
 ```
 
----
+______________________________________________________________________
 
-# 30. Proposal / Commit Variables
+## 30. Proposal / Commit Variables
 
 ## 30.1 Proposal
 
-[
+\[
 Prop_t
-]
+\]
 
 Type:
 
@@ -1456,7 +1452,7 @@ AttentionAllocationProposal:
   state_version: VersionRef
 ```
 
----
+______________________________________________________________________
 
 ## 30.2 Commit status
 
@@ -1472,45 +1468,45 @@ ROLLED_BACK
 
 Hard boundary:
 
-[
-PROPOSED \neq COMMITTED
-]
+\[
+PROPOSED \\neq COMMITTED
+\]
 
----
+______________________________________________________________________
 
-# 31. State-Version Variables
+## 31. State-Version Variables
 
 ## 31.1 Read version
 
-[
+\[
 v^{read}
-]
+\]
 
 ## 31.2 Current authoritative version
 
-[
+\[
 v^{current}
-]
+\]
 
 ## 31.3 Commit version
 
-[
+\[
 v^{commit}
-]
+\]
 
 Candidate freshness gate:
 
-[
+\[
 v^{read}=v^{current}
-]
+\]
 
 or explicit revalidation is required before authoritative mutation.
 
 This is an AMOS control-plane model, not proof of a currently implemented MVCC runtime.
 
----
+______________________________________________________________________
 
-# 32. Failure Variables
+## 32. Failure Variables
 
 ```yaml
 FailureState:
@@ -1551,33 +1547,33 @@ FailureState:
     - UNRECOVERABLE
 ```
 
----
+______________________________________________________________________
 
-# 33. Repair Variables
+## 33. Repair Variables
 
 ## 33.1 Repair target
 
-[
+\[
 RT_t
-]
+\]
 
 ## 33.2 Last valid state
 
-[
-V^{valid}_{t-k}
-]
+\[
+V^{valid}\_{t-k}
+\]
 
 ## 33.3 Repair attempt count
 
-[
+\[
 N^{repair}
-]
+\]
 
 ## 33.4 Changed evidence flag
 
-[
-\Delta E
-]
+\[
+\\Delta E
+\]
 
 Rule:
 
@@ -1586,9 +1582,9 @@ failed repair + ΔE = 0
 => do not blindly repeat same repair path
 ```
 
----
+______________________________________________________________________
 
-# 34. Output Variables
+## 34. Output Variables
 
 L02 should output typed proposals rather than untyped priority prose.
 
@@ -1626,9 +1622,9 @@ AttentionAllocationOutput:
   proposal_status: PROPOSED
 ```
 
----
+______________________________________________________________________
 
-# 35. Input Variables
+## 35. Input Variables
 
 Candidate input contract:
 
@@ -1672,9 +1668,9 @@ AttentionAllocationInput:
     type: VersionRef
 ```
 
----
+______________________________________________________________________
 
-# 36. Variable Invariants
+## 36. Variable Invariants
 
 ```text
 L02-VAR-INV-001
@@ -1738,9 +1734,9 @@ L02-VAR-INV-020
 State mutation must preserve version/freshness information where authoritative effects depend on it.
 ```
 
----
+______________________________________________________________________
 
-# 37. Dependencies
+## 37. Dependencies
 
 Variable semantics depend on the broader L02 contract:
 
@@ -1779,9 +1775,9 @@ context-budget governance
 
 Exact canonical dependency edges remain `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
-# 38. H/M/L Applicability
+## 38. H/M/L Applicability
 
 ## H — Governing variables
 
@@ -1844,9 +1840,9 @@ one L observation
 → unexplained H conclusion
 ```
 
----
+______________________________________________________________________
 
-# 39. Control-Plane Requirements
+## 39. Control-Plane Requirements
 
 The authoritative control plane should own or validate, where applicable:
 
@@ -1881,9 +1877,9 @@ authoritative commit
 
 unless explicit authority is delegated.
 
----
+______________________________________________________________________
 
-# 40. Agents
+## 40. Agents
 
 Candidate logical roles:
 
@@ -1898,9 +1894,9 @@ ATTENTION_REPAIR_AGENT
 
 These are architectural roles, not proof of deployed autonomous agents.
 
----
+______________________________________________________________________
 
-# 41. Skills
+## 41. Skills
 
 Potential capability families relevant to the variable contract include:
 
@@ -1918,9 +1914,9 @@ RSCF Modeler
 
 Skill availability remains distinct from runtime invocation and authority.
 
----
+______________________________________________________________________
 
-# 42. Workflow
+## 42. Workflow
 
 ```text
 RECEIVE INPUT VARIABLES
@@ -1956,9 +1952,9 @@ CONTROL-PLANE VALIDATION
 COMMIT / REJECT / REVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 43. Protocols
+## 43. Protocols
 
 Candidate variable-oriented protocols:
 
@@ -1977,9 +1973,9 @@ L02_VARIABLE_COMMIT_PROPOSE
 
 Canonical protocol names remain `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
-# 44. Evidence / Provenance
+## 44. Evidence / Provenance
 
 Every decision-relevant variable should answer:
 
@@ -2011,9 +2007,9 @@ VariableProvenance:
   freshness: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 45. Failure Modes
+## 45. Failure Modes
 
 ```text
 FM-L02-VAR-001
@@ -2077,9 +2073,9 @@ FM-L02-VAR-020
 Repair changes variable semantics without provenance.
 ```
 
----
+______________________________________________________________________
 
-# 46. Repair / Recovery
+## 46. Repair / Recovery
 
 ```text
 DETECT INVALID VARIABLE
@@ -2109,11 +2105,11 @@ PROPOSE UPDATED STATE
 
 Hard recovery rule:
 
-[
+\[
 Invalid(p)
-\Rightarrow
+\\Rightarrow
 Invalidate(Descendants(p))
-]
+\]
 
 not:
 
@@ -2123,9 +2119,9 @@ invalidate everything
 
 unless dependency analysis proves global impact.
 
----
+______________________________________________________________________
 
-# 47. Tests / Validators
+## 47. Tests / Validators
 
 Minimum validators:
 
@@ -2183,9 +2179,9 @@ NOT_RUN
 
 unless separate runtime evidence exists.
 
----
+______________________________________________________________________
 
-# 48. Falsifiers
+## 48. Falsifiers
 
 This variable specification must be revised if canonical evidence establishes:
 
@@ -2227,9 +2223,9 @@ capability produces unauthorized commit;
 invalidated variables silently return to active state.
 ```
 
----
+______________________________________________________________________
 
-# 49. Gap Matrix
+## 49. Gap Matrix
 
 ```yaml
 gap_status:
@@ -2310,9 +2306,9 @@ gap_status:
     status: UNKNOWN_GAP
 ```
 
----
+______________________________________________________________________
 
-# 50. Uncertainty and Confidence Ceiling
+## 50. Uncertainty and Confidence Ceiling
 
 ```yaml
 uncertainty:
@@ -2362,9 +2358,9 @@ runtime correctness:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 51. RSCF Completion State
+## 51. RSCF Completion State
 
 ```yaml
 rscf:
@@ -2465,9 +2461,9 @@ rscf:
     scope/regime/freshness handling, and proposal/commit separation
 ```
 
----
+______________________________________________________________________
 
-# 52. Completion State
+## 52. Completion State
 
 ```yaml
 completion_state:
@@ -2548,9 +2544,9 @@ completion_state:
     MODEL
 ```
 
----
+______________________________________________________________________
 
-# 53. Hard Boundaries
+## 53. Hard Boundaries
 
 ```text
 PLACEHOLDER != IMPLEMENTED
@@ -2602,15 +2598,15 @@ TYPE-CORRECT != SEMANTICALLY VALID
 STATE UPDATE != AUTHORITATIVE COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 54. Governing Variable Contract
+## 54. Governing Variable Contract
 
 > **`L02_ATTENTION` must represent attention as typed, provenance-bound, scope/regime/freshness-aware allocation state over scarce resources. Variables that describe salience, priority, uncertainty, evidence, confidence, capability, authority, and commit state must remain structurally distinct. No attention variable may acquire epistemic, causal, or governance meaning merely because it receives a high score or large allocation. Unknown canonical variable definitions remain `UNKNOWN/GAP`, and modeled variables remain `MODEL` until independently source-bound or implemented and validated.**
 
----
+______________________________________________________________________
 
-# 55. Canon Boundary
+## 55. Canon Boundary
 
 ```text
 SOURCE-SUPPORTED:
@@ -2694,23 +2690,27 @@ AUTHORITY TO COMMIT
 
 ```text
 ```
----
+
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: l02_attention_primitives_cognitive_matrix_variables
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION/L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_VARIABLES.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION/L02_ATTENTION_MOC|L02_ATTENTION_MOC]]
-

@@ -4,25 +4,22 @@ title: SKILL — Amos Sae Benchmark Reliability Rscf Engine
 type: skill
 source: 07_SKILLS/amos-sae-benchmark-reliability-rscf-engine
 name: amos-sae-benchmark-reliability-rscf-engine
-description: Sae Benchmark Reliability — audit and repair capability. Use when auditing,
-  failure analysis, gap discovery, or repair allocation. Use when amos-audit-repair-master
-  routes to this specialized capability. Do not use for generic tasks outside audit
-  domain.
+description: Sae Benchmark Reliability — audit and repair capability. Use when auditing, failure analysis, gap discovery, or repair allocation. Use when amos-audit-repair-master routes to this specialized capability. Do not use for generic tasks outside audit domain.
 parent_skill: amos-audit-repair-master
 domain: audit
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
 tags:
-- type/skill
-- type/skill
-- domain/audit-repair
-- epistemic/source_claim
-- hml/m
-- epistemic/source_claim
-- amos-os
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/audit-repair
+  - epistemic/source_claim
+  - hml/m
+  - epistemic/source_claim
+  - amos-os
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: EMPIRICAL
@@ -32,25 +29,25 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: M
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
-- L7_authority
-- L22_replayability
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
+  - L7_authority
+  - L22_replayability
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L7
-- L16
-- L17
-- L18
-- L22
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L7
+  - L16
+  - L17
+  - L18
+  - L22
 license: MIT
 steward: Trang Phan
 ---
@@ -60,6 +57,7 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: audit. Parent: amos-audit-repair-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
 ## When to Use
 
 - When auditing claims against evidence and provenance
@@ -85,13 +83,13 @@ Origin architect: **Trang Phan**. Domain: audit. Parent: amos-audit-repair-maste
 ## Operations
 
 1. **sae_benchmark.audit_claim**: Audit claims against evidence, provenance, and epistemic class
-2. **sae_benchmark.detect_gap**: Detect gaps: missing capabilities, missing evidence, missing tests, missing monitors
-3. **sae_benchmark.allocate_repair**: Allocate repair resources to highest-leverage gaps and failure modes
-4. **sae_benchmark.verify_closure**: Verify gap closure: requirement → capability → component → test → evidence
-5. **sae_benchmark.benchmark_forensics**: Benchmark forensic analysis: trace performance regressions to root causes
-6. **sae_benchmark.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-7. **sae_benchmark.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
-8. **sae_benchmark.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+1. **sae_benchmark.detect_gap**: Detect gaps: missing capabilities, missing evidence, missing tests, missing monitors
+1. **sae_benchmark.allocate_repair**: Allocate repair resources to highest-leverage gaps and failure modes
+1. **sae_benchmark.verify_closure**: Verify gap closure: requirement → capability → component → test → evidence
+1. **sae_benchmark.benchmark_forensics**: Benchmark forensic analysis: trace performance regressions to root causes
+1. **sae_benchmark.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+1. **sae_benchmark.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+1. **sae_benchmark.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## Vault-Sourced Content
 
@@ -99,9 +97,10 @@ Origin architect: **Trang Phan**. Domain: audit. Parent: amos-audit-repair-maste
 
 > Path: `rscf/V4_1_ATOMIC_MULTI_RSCF.md` | Size: 1140 chars | Match score: 5 | content_hash: e740b413ac4b8cf6
 
-# v4.1 — Transactional Multi-RSCF Runtime
+## v4.1 — Transactional Multi-RSCF Runtime
 
 ## Focus
+
 - transaction IDs
 - read/write sets
 - transaction-level CAS
@@ -110,12 +109,15 @@ Origin architect: **Trang Phan**. Domain: audit. Parent: amos-audit-repair-maste
 - all-or-nothing rollback
 
 ## Markdown brain adaptation
+
 Treat cross-RSCF update sets atomically: all-or-nothing.
 
 ## Historical gap
+
 Distributed transaction finality under partition and competing certified transactions.
 
 ## Benchmark boundary
+
 ```json
 {
   "status": "passed_transactional_multi_RSCF_suite",
@@ -139,7 +141,7 @@ Distributed transaction finality under partition and competing certified transac
 
 Benchmark results are preserved only within their tested operationalization and are not universal guarantees.
 
----
+______________________________________________________________________
 
 ## 11_KNOWLEDGE Vault Content
 
@@ -153,6 +155,7 @@ From C02 Math & Compute: Sparse Autoencoder (SAE) benchmarking and reliability. 
 **SAE benchmark model**: Sparse Autoencoders are evaluated on reconstruction quality, sparsity, and interpretability of learned features.
 
 **Benchmark dimensions**:
+
 - **Reconstruction loss**: how well the SAE reconstructs the input
 - **Sparsity**: how sparse the latent representation is (L1 penalty)
 - **Feature interpretability**: how interpretable the learned features are
@@ -160,16 +163,18 @@ From C02 Math & Compute: Sparse Autoencoder (SAE) benchmarking and reliability. 
 - **Computational cost**: training and inference cost
 
 **Reliability protocol**:
+
 1. **Declare benchmark**: declare metrics, baselines, and thresholds
-2. **Run benchmark**: run with controlled inputs and declared hyperparameters
-3. **Record results**: record with full provenance (seed, data, hyperparameters)
-4. **Compare**: compare against baselines and previous runs
-5. **Detect regression**: detect when results regress from baseline
-6. **Report**: report with confidence intervals and provenance
+1. **Run benchmark**: run with controlled inputs and declared hyperparameters
+1. **Record results**: record with full provenance (seed, data, hyperparameters)
+1. **Compare**: compare against baselines and previous runs
+1. **Detect regression**: detect when results regress from baseline
+1. **Report**: report with confidence intervals and provenance
 
 **Reliability law**: `BENCHMARK_PASS != PRODUCTION_READY`. A benchmark pass is necessary but not sufficient for production deployment.
 
----
+______________________________________________________________________
+
 **Links:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 ## Related
@@ -179,17 +184,19 @@ From C02 Math & Compute: Sparse Autoencoder (SAE) benchmarking and reliability. 
 ## Examples
 
 - **Scenario**: When auditing claims against evidence and provenance
+
   - **Input**: A query matching this skill's domain (audit)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When detecting gaps in capabilities, evidence, tests, or monitors
+
   - **Input**: A query matching this skill's domain (audit)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When allocating repair resources to highest-leverage gaps
+
   - **Input**: A query matching this skill's domain (audit)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Validation Gates
 
@@ -206,7 +213,6 @@ From C02 Math & Compute: Sparse Autoencoder (SAE) benchmarking and reliability. 
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `amos-audit-repair-master` — routes to this skill when audit specialization is needed
@@ -214,7 +220,6 @@ From C02 Math & Compute: Sparse Autoencoder (SAE) benchmarking and reliability. 
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -233,7 +238,6 @@ From C02 Math & Compute: Sparse Autoencoder (SAE) benchmarking and reliability. 
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -241,7 +245,6 @@ From C02 Math & Compute: Sparse Autoencoder (SAE) benchmarking and reliability. 
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -254,11 +257,12 @@ From C02 Math & Compute: Sparse Autoencoder (SAE) benchmarking and reliability. 
 
 - `references/asymptotic_transcendence.md` — loaded on demand
 - `references/references_MOC.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `amos-audit-repair-master` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `amos-sae-benchmark-reliability-rscf-engine-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -266,13 +270,14 @@ From C02 Math & Compute: Sparse Autoencoder (SAE) benchmarking and reliability. 
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-sae-benchmark-reliability-rscf-engine
 node_type: skill
 path: 07_SKILLS/amos-sae-benchmark-reliability-rscf-engine/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
-

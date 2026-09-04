@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Vault Domain Knowledge — Amos Metacognitive Confidence Auditor
 type: reference
 source: 07_SKILLS/amos-metacognitive-confidence-auditor/references
 tags:
-- reference
-- amos-metacognitive-confidence-auditor
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-metacognitive-confidence-auditor
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -24,11 +27,12 @@ rscf:
 ## Vault-Sourced Content
 
 ### Source 1: AMOS OMEGA TRUTH + EVIDENCE + CALIBRATION ENGINE
+
 - IMPLEMENTATION COMPLETE
 
 > Path: `audit/TRUTH_CALIBRATION_IMPLEMENTATION_COMPLETE.md` | Size: 9172 chars | Match score: 5 | content_hash: edc16528e68c3ac7
 
-# AMOS OMEGA TRUTH + EVIDENCE + CALIBRATION ENGINE - IMPLEMENTATION COMPLETE
+## AMOS OMEGA TRUTH + EVIDENCE + CALIBRATION ENGINE - IMPLEMENTATION COMPLETE
 
 ## MISSION ACCOMPLISHED: THE HIGH-PRIORITY GAP IS NOW FILLED
 
@@ -39,6 +43,7 @@ Successfully implemented the **TRUTH + EVIDENCE + CALIBRATION ENGINE** - the mis
 ### **I. PREDICTION REGISTRY (STRUCTURED)**
 
 **Mandatory Numeric Probability**: Every prediction requires 0-1 probability
+
 - **Deterministic Storage**: SHA256-based IDs, SQLite database
 - **Complete Metadata**: Domain, hypothesis, regime tags, invariants, signals, time horizon
 - **Resolution Tracking**: Unknown/True/False/Partial outcomes
@@ -47,6 +52,7 @@ Successfully implemented the **TRUTH + EVIDENCE + CALIBRATION ENGINE** - the mis
 ### **II. CALIBRATION ENGINE**
 
 **Brier Score**: Proper probabilistic calibration metric
+
 - **Log Loss**: Information-theoretic calibration measure
 - **Calibration Curves**: 10-bin reliability diagrams
 - **Overconfidence Detection**: Systematic confidence vs reality analysis
@@ -56,6 +62,7 @@ Successfully implemented the **TRUTH + EVIDENCE + CALIBRATION ENGINE** - the mis
 ### **III. STRUCTURAL CLAIM VALIDATOR**
 
 **Invariant Provenance**: Track claim origins and derivation DAGs
+
 - **Testable Implications**: Every claim must have falsifiable conditions
 - **Auto-Demotion**: Violated claims automatically demoted to hypotheses
 - **Confidence Weighting**: Dynamic weight adjustment based on performance
@@ -64,6 +71,7 @@ Successfully implemented the **TRUTH + EVIDENCE + CALIBRATION ENGINE** - the mis
 ### **IV. ANTI-HALLUCINATION LOOP DETECTOR**
 
 **Self-Referencing Loops**: Detect agents referencing themselves
+
 - **Agent Echo Detection**: Identify circular agent dependencies
 - **Cross-Agent Confirmation**: Detect confirmation without external signals
 - **Circular Reasoning**: Detect loops in derivation DAGs
@@ -72,6 +80,7 @@ Successfully implemented the **TRUTH + EVIDENCE + CALIBRATION ENGINE** - the mis
 ### **V. OUT-OF-SAMPLE FOREX VALIDATOR**
 
 **Rolling Window Backtest**: Train/test window validation
+
 - **Monte Carlo Shuffle**: Statistical significance testing
 - **Regime Validation**: Performance across different market regimes
 - **Overfitting Detection**: In-sample vs out-of-sample performance analysis
@@ -80,6 +89,7 @@ Successfully implemented the **TRUTH + EVIDENCE + CALIBRATION ENGINE** - the mis
 ### **VI. UNCERTAINTY ENGINE**
 
 **Confidence Bands**: Probabilistic uncertainty intervals
+
 - **Sensitivity Analysis**: Variable impact analysis
 - **Regime Dependency**: Regime-aware uncertainty quantification
 - **Entropy Delta**: Information-theoretic uncertainty measures
@@ -88,16 +98,17 @@ Successfully implemented the **TRUTH + EVIDENCE + CALIBRATION ENGINE** - the mis
 ### **VII. DRIFT DETECTION**
 
 **Performance Drift**: Model performance degradation tracking
+
 - **Invariant Violation Drift**: Structural claim violation trends
 - **Entropy Trends**: Syst
 
----
+______________________________________________________________________
 
 ### Source 2: RSCF Contract
 
 > Path: `rscf/rscf.md` | Size: 1387 chars | Match score: 5 | content_hash: ae5e4fdd2e612802
 
-# RSCF Contract
+## RSCF Contract
 
 Use **RSCF — Recursive Structured Claim Framework** for every load-bearing conclusion.
 
@@ -132,31 +143,34 @@ decision_relevance: low | medium | high
 ```
 
 ## RSCF invariants
+
 1. Confidence cannot exceed the weakest load-bearing premise without independent revalidation.
-2. Descendants of one source are correlated provenance, not independent confirmation.
-3. Scope, regime, and freshness propagate to dependent claims.
-4. Structural similarity never proves causation.
-5. Equal/incomparable support remains COMPETING.
-6. Failed premises invalidate only dependent descendants.
-7. Framework equations remain MODEL unless independently validated.
+1. Descendants of one source are correlated provenance, not independent confirmation.
+1. Scope, regime, and freshness propagate to dependent claims.
+1. Structural similarity never proves causation.
+1. Equal/incomparable support remains COMPETING.
+1. Failed premises invalidate only dependent descendants.
+1. Framework equations remain MODEL unless independently validated.
 
----
+______________________________________________________________________
 
----
+______________________________________________________________________
 
 ### Source 3: RSCF — Resonance Scan Causal Field
 
 > Path: `rscf/SKILL (rscf).md` | Size: 1071 chars | Match score: 5 | content_hash: 24f40a537f42f350
 
-# RSCF — Resonance Scan Causal Field
+## RSCF — Resonance Scan Causal Field
 
 ## Purpose
+
 RSCF (Resonance Scan Causal Field) is the AMOS proof capsule format for
 evidence-grounded claims. It provides a structured way to make, audit, and
 invalidate claims with dependencies, scope, freshness, competing explanations,
 falsifiers, and confidence ceilings.
 
 ## Structure
+
 - **Claim**: The assertion being made
 - **Evidence**: Supporting evidence with provenance
 - **Scope**: Domain and regime boundaries
@@ -166,19 +180,23 @@ falsifiers, and confidence ceilings.
 - **Confidence**: Upper bound on confidence level
 
 ## Usage
+
 Use RSCF when making consequential claims, code assertions, research findings,
 or decisions that require evidence-grounded conclusions.
 
 ## Links
+
 - See also: amos-rscf-claims skill
 - See also: amos-self-review-loop skill
 
----
+______________________________________________________________________
 
----
+______________________________________________________________________
+
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
-**MOC:** references_MOC
----
+  **MOC:** references_MOC
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -186,13 +204,14 @@ or decisions that require evidence-grounded conclusions.
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-metacognitive-confidence-auditor-vault-domain-knowledge
 node_type: reference
 path: 07_SKILLS/amos-metacognitive-confidence-auditor/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC
-

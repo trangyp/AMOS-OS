@@ -12,18 +12,18 @@ segment: 11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE
 artifact_kind: DOMAIN_KNOWLEDGE
 path: 11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/HERITAGE_SPATIAL_INTELLIGENCE.md
 tags:
-- amos-os
-- knowledge
-- vault
-- 06_domain_knowledge
-- heritage_spatial_intelligence
-- spatial_resilience
-- polycentric_topography
-- environmental_adaptation
-- rscf
-- canon_candidate
-- canon/knowledge
-- heritage-intelligence-master
+  - amos-os
+  - knowledge
+  - vault
+  - 06_domain_knowledge
+  - heritage_spatial_intelligence
+  - spatial_resilience
+  - polycentric_topography
+  - environmental_adaptation
+  - rscf
+  - canon_candidate
+  - canon/knowledge
+  - heritage-intelligence-master
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -38,16 +38,16 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - HERITAGE_INTELLIGENCE_CANON
-  - AMOS_CORPUS
+    - HERITAGE_INTELLIGENCE_CANON
+    - AMOS_CORPUS
   scope:
-  - DOMAIN_KNOWLEDGE
-  - SPATIAL_INTELLIGENCE
-  - SOURCE_DEFINED_MODEL
+    - DOMAIN_KNOWLEDGE
+    - SPATIAL_INTELLIGENCE
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   master_framework:
     artifact:
-    - - HERITAGE_INTELLIGENCE_MASTER
+      -   - HERITAGE_INTELLIGENCE_MASTER
   framework_counterpart:
     artifact: 11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_SPATIAL_INTELLIGENCE
 epistemic_boundary:
@@ -63,9 +63,9 @@ epistemic_boundary:
 
 It formalizes ancestral and regional spatial geometries, polycentric village topologies, hydrologic adaptation networks, and defensive landscape tensegrity.
 
----
+______________________________________________________________________
 
-# 1. Spatial Architecture Dimensions
+## 1. Spatial Architecture Dimensions
 
 ```text
                ┌────────────────────────────────────────────────────────┐
@@ -79,18 +79,18 @@ POLYCENTRIC VILLAGE NETWORKS       HYDROLOGICAL BASIN ADAPTATION      TERRAIN TE
   community node structures          across monsoon cycles              as natural defensive barriers
 ```
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Framework Specification:** `11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_SPATIAL_INTELLIGENCE`
 - **Master Intelligence:** [[11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_INTELLIGENCE_MASTER|HERITAGE_INTELLIGENCE_MASTER]]
 - **Civilization History:** `11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/HERITAGE_CIVILIZATION_HISTORY`
 - **Pattern Systems:** `11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/HERITAGE_PATTERN_SYSTEMS`
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -108,9 +108,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/06_DOMAIN_KNOWLEDGE_MOC|06_DOMAIN_KNOWLEDGE_MOC]] · `11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_SPATIAL_INTELLIGENCE` · [[11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_INTELLIGENCE_MASTER|HERITAGE_INTELLIGENCE_MASTER]]
 
----
+______________________________________________________________________
+
 **MOC:** [[11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/06_DOMAIN_KNOWLEDGE_MOC|06_DOMAIN_KNOWLEDGE_MOC]]

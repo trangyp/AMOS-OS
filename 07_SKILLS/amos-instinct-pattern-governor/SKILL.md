@@ -4,25 +4,22 @@ title: SKILL — Amos Instinct Pattern Governor
 type: skill
 source: 07_SKILLS/amos-instinct-pattern-governor
 name: amos-instinct-pattern-governor
-description: Instinct Pattern Governor — mind and behavior capability. Use when psychological
-  analysis, behavioral reasoning, or cognitive modeling. Use when amos-c05-mind-behavior-master
-  routes to this specialized capability. Do not use for generic tasks outside c05
-  domain.
+description: Instinct Pattern Governor — mind and behavior capability. Use when psychological analysis, behavioral reasoning, or cognitive modeling. Use when amos-c05-mind-behavior-master routes to this specialized capability. Do not use for generic tasks outside c05 domain.
 parent_skill: amos-c05-mind-behavior-master
 domain: c05
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
 tags:
-- type/skill
-- type/skill
-- domain/mind-behavior
-- epistemic/source_claim
-- hml/m
-- epistemic/source_claim
-- amos-os
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/mind-behavior
+  - epistemic/source_claim
+  - hml/m
+  - epistemic/source_claim
+  - amos-os
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -32,20 +29,20 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: M
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L16
-- L17
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L16
+  - L17
 license: MIT
 steward: Trang Phan
 ---
@@ -55,6 +52,7 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: c05. Parent: amos-c05-mind-behavior-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
 ## When to Use
 
 - When modeling cognitive processes: attention, awareness, compression
@@ -81,12 +79,12 @@ Origin architect: **Trang Phan**. Domain: c05. Parent: amos-c05-mind-behavior-ma
 ## Operations
 
 1. **instinct_pattern.model_cognition**: Model cognitive processes: attention, awareness, compression, and inference
-2. **instinct_pattern.allocate_attention**: Allocate attention resources across competing demands and priorities
-3. **instinct_pattern.assess_awareness**: Assess awareness levels: meta-cognition, self-monitoring, and calibration
-4. **instinct_pattern.govern_expression**: Govern artistic and emotional expression within healthy bounds
-5. **instinct_pattern.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-6. **instinct_pattern.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
-7. **instinct_pattern.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+1. **instinct_pattern.allocate_attention**: Allocate attention resources across competing demands and priorities
+1. **instinct_pattern.assess_awareness**: Assess awareness levels: meta-cognition, self-monitoring, and calibration
+1. **instinct_pattern.govern_expression**: Govern artistic and emotional expression within healthy bounds
+1. **instinct_pattern.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+1. **instinct_pattern.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+1. **instinct_pattern.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## 11_KNOWLEDGE Vault Content
 
@@ -97,22 +95,25 @@ Origin architect: **Trang Phan**. Domain: c05. Parent: amos-c05-mind-behavior-ma
 The Cognitive Organism OS defines instinct patterns as fast, automatic responses that bypass deliberative reasoning.
 
 **Instinct pattern types**:
+
 - **Survival instincts**: threat detection, avoidance, defensive responses
 - **Social instincts**: affiliation, hierarchy, reciprocity
 - **Cognitive instincts**: pattern completion, causal attribution, agency detection
 - **Learning instincts**: curiosity, novelty seeking, exploration
 
 **Governance laws**:
+
 - `INSTINCT != DECISION`: an instinct response is not a decision; it must be validated before action
 - `PATTERN != TRUTH`: pattern recognition is not truth verification
 - `FAST != CORRECT`: fast responses are not necessarily correct
 
 **Governance protocol**:
+
 1. **Detect**: identify the instinct pattern being triggered
-2. **Classify**: classify the instinct type and its trigger
-3. **Validate**: validate whether the instinct response is appropriate for the context
-4. **Modulate**: modulate the instinct response based on context and authority
-5. **Record**: log the instinct pattern and modulation for learning
+1. **Classify**: classify the instinct type and its trigger
+1. **Validate**: validate whether the instinct response is appropriate for the context
+1. **Modulate**: modulate the instinct response based on context and authority
+1. **Record**: log the instinct pattern and modulation for learning
 
 ### Epistemic Boundary
 
@@ -135,7 +136,8 @@ Instinct pattern governance is a cognitive model. It does not prove the system h
 - **G5 (Equation firewall)**: Equations carry status tags (ESTABLISHED_MATH / SOURCE_DERIVED / AMOS_MODEL / EMPIRICALLY_CALIBRATED / UNVERIFIED).
 - **G6 (Failure mode)**: On validation failure, downgrade confidence, flag the gap, escalate —
 
----
+______________________________________________________________________
+
 **Links:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 ## Related
@@ -145,17 +147,19 @@ Instinct pattern governance is a cognitive model. It does not prove the system h
 ## Examples
 
 - **Scenario**: When modeling cognitive processes: attention, awareness, compression
+
   - **Input**: A query matching this skill's domain (c05)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When allocating attention resources across competing demands
+
   - **Input**: A query matching this skill's domain (c05)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When assessing awareness levels and meta-cognition
+
   - **Input**: A query matching this skill's domain (c05)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Anti-Patterns
 
@@ -165,7 +169,6 @@ Instinct pattern governance is a cognitive model. It does not prove the system h
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `amos-c05-mind-behavior-master` — routes to this skill when c05 specialization is needed
@@ -173,7 +176,6 @@ Instinct pattern governance is a cognitive model. It does not prove the system h
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -192,7 +194,6 @@ Instinct pattern governance is a cognitive model. It does not prove the system h
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -200,7 +201,6 @@ Instinct pattern governance is a cognitive model. It does not prove the system h
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -213,11 +213,12 @@ Instinct pattern governance is a cognitive model. It does not prove the system h
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `amos-c05-mind-behavior-master` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `amos-instinct-pattern-governor-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -225,12 +226,14 @@ Instinct pattern governance is a cognitive model. It does not prove the system h
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-instinct-pattern-governor
 node_type: skill
 path: 07_SKILLS/amos-instinct-pattern-governor/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

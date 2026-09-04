@@ -12,25 +12,25 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: INTEGRATION
 path: 11_KNOWLEDGE/05_FRAMEWORKS/TSS_TPE_INTEGRATION.md
 tags:
-- amos-os
-- knowledge
-- vault
-- 05_frameworks
-- tss_tpe_integration
-- tss
-- tpe
-- structural_dynamics
-- structural_foresight
-- rscf
-- canon_candidate
-- canon/knowledge
-- tss-the-trang-system
-- tpe-trang-prediction-engine
-- amos-x-tss-tpe-matrix
-- tss-seven-cycles
-- tss-meta-laws
-- heritage-to-tss-binding
-- heritage-x-tss
+  - amos-os
+  - knowledge
+  - vault
+  - 05_frameworks
+  - tss_tpe_integration
+  - tss
+  - tpe
+  - structural_dynamics
+  - structural_foresight
+  - rscf
+  - canon_candidate
+  - canon/knowledge
+  - tss-the-trang-system
+  - tpe-trang-prediction-engine
+  - amos-x-tss-tpe-matrix
+  - tss-seven-cycles
+  - tss-meta-laws
+  - heritage-to-tss-binding
+  - heritage-x-tss
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -45,25 +45,25 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - TSS_THE_TRANG_SYSTEM_OFFICIAL_MANUAL
-  - THE_TRANG_PREDICTION_ENGINE_TPE_OFFICIAL_MANU
-  - AMOS_CORPUS
+    - TSS_THE_TRANG_SYSTEM_OFFICIAL_MANUAL
+    - THE_TRANG_PREDICTION_ENGINE_TPE_OFFICIAL_MANU
+    - AMOS_CORPUS
   scope:
-  - KNOWLEDGE_FRAMEWORKS
-  - FRAMEWORK_INTEGRATION
-  - SOURCE_DEFINED_MODEL
+    - KNOWLEDGE_FRAMEWORKS
+    - FRAMEWORK_INTEGRATION
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   structural_system:
     name: The Trang System™
     artifact:
-    - - TSS_THE_TRANG_SYSTEM
+      -   - TSS_THE_TRANG_SYSTEM
   foresight_engine:
     name: The Trang Prediction Engine™
     artifact:
-    - - TPE_TRANG_PREDICTION_ENGINE
+      -   - TPE_TRANG_PREDICTION_ENGINE
   cognitive_matrix_binding:
     artifact:
-    - - AMOS_X_TSS_TPE_MATRIX
+      -   - AMOS_X_TSS_TPE_MATRIX
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   integration_structure: VERIFIED_SOURCE_STRUCTURE
@@ -83,9 +83,9 @@ The Trang Prediction Engine™ (TPE)
 
 Within `11_KNOWLEDGE/05_FRAMEWORKS`.
 
----
+______________________________________________________________________
 
-# 1. Integrated Flow: Diagnosis $\to$ Foresight $\to$ Governance
+## 1. Integrated Flow: Diagnosis $\to$ Foresight $\to$ Governance
 
 ```text
 1. TSS STATE ESTIMATION  → Measure current state vector X_TSS = (Ω, H, F, S, Cycle C1–C7)
@@ -95,18 +95,18 @@ Within `11_KNOWLEDGE/05_FRAMEWORKS`.
 5. DECISION RECEIPT      → Issue governed audit receipt via Heritage Decision Intelligence
 ```
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Structural Model:** [[11_KNOWLEDGE/05_FRAMEWORKS/TSS_THE_TRANG_SYSTEM|TSS_THE_TRANG_SYSTEM]], [[11_KNOWLEDGE/05_FRAMEWORKS/TSS_SEVEN_CYCLES|TSS_SEVEN_CYCLES]], and [[11_KNOWLEDGE/05_FRAMEWORKS/TSS_META_LAWS|TSS_META_LAWS]]
 - **Prediction Model:** [[11_KNOWLEDGE/trang/TPE_TRANG_PREDICTION_ENGINE|TPE_TRANG_PREDICTION_ENGINE]]
 - **Cognitive Matrix:** [[25_COGNITIVE_MATRIX/AMOS_X_TSS_TPE_MATRIX|AMOS_X_TSS_TPE_MATRIX]]
 - **Decision Binding:** [[11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_TO_TSS_BINDING|HERITAGE_TO_TSS_BINDING]] and [[25_COGNITIVE_MATRIX/HERITAGE_X_TSS|HERITAGE_X_TSS]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -124,10 +124,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/TSS_THE_TRANG_SYSTEM|TSS_THE_TRANG_SYSTEM]] · [[11_KNOWLEDGE/trang/TPE_TRANG_PREDICTION_ENGINE|TPE_TRANG_PREDICTION_ENGINE]] · [[25_COGNITIVE_MATRIX/AMOS_X_TSS_TPE_MATRIX|AMOS_X_TSS_TPE_MATRIX]]
 
----
-**MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]
+______________________________________________________________________
 
+**MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]

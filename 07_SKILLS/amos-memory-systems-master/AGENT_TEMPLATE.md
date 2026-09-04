@@ -1,12 +1,15 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: AGENT TEMPLATE — Amos Memory Systems Master
 type: note
 source: 07_SKILLS/amos-memory-systems-master
 tags:
-- note
-- amos-memory-systems-master
-- type/skill
-- skill
+  - note
+  - amos-memory-systems-master
+  - type/skill
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -17,9 +20,11 @@ rscf:
 # Agent Template: amos-memory-systems-master
 
 ## Role
+
 Domain master agent for AMOS Memory Systems Master. Consolidates 3 sub-skills.
 
 ## Capabilities
+
 - Apply amos memory systems master reasoning across all sub-domains
 - Route queries to the appropriate sub-skill section
 - Validate claims against domain-specific epistemic boundaries
@@ -30,17 +35,21 @@ Domain master agent for AMOS Memory Systems Master. Consolidates 3 sub-skills.
 - Manage cross-domain bridges with explicit declarations
 
 ## Dependencies
+
 - Skill: `amos-memory-systems-master`
 - Vault source: `10_MEMORY/MEMORY_README.md`
 - Sub-skills: 3 consolidated
 
 ## Provenance
+
 - **Origin architect**: Trang Phan
 - **Source**: AMOS corpus + Obsidian vault
 - **Consolidation**: 3 sub-skills merged 2026-08-26
 
----
+______________________________________________________________________
+
 **MOC:** SKILL
 
----
+______________________________________________________________________
+
 **MOC:** [[07_SKILLS/amos-memory-systems-master/amos-memory-systems-master_MOC|amos-memory-systems-master_MOC]]

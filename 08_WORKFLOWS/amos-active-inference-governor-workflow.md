@@ -5,18 +5,16 @@ source: 08_WORKFLOWS
 Type: Workflow
 Skill: amos-active-inference-governor
 Agent: amos-active-inference-governor-agent
-Trigger: When active inference governance engine is needed within the c05 domain,
-  including perception-belief-action loop execution, governance gate validation, belief
-  state analysis, or inference drift detection.
+Trigger: When active inference governance engine is needed within the c05 domain, including perception-belief-action loop execution, governance gate validation, belief state analysis, or inference drift detection.
 Version: 1.0.0
 tags:
-- type/workflow
-- type/workflow
-- domain/mind-behavior
-- epistemic/source_claim
-- hml/m
-- epistemic/source_claim
-- amos-os
+  - type/workflow
+  - type/workflow
+  - domain/mind-behavior
+  - epistemic/source_claim
+  - hml/m
+  - epistemic/source_claim
+  - amos-os
 rscf:
   state: AMOS_MODEL
   claim_class: AMOS_MODEL
@@ -28,23 +26,23 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: M
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
-- L7_authority
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
+  - L7_authority
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L7
-- L16
-- L17
-- L18
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L7
+  - L16
+  - L17
+  - L18
 domain: mind_behavior
 ---
 
@@ -53,7 +51,6 @@ domain: mind_behavior
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
-
 
 ## 10-Step Governed Loop
 
@@ -73,61 +70,71 @@ OBSERVE -> INFER -> COMPARE -> GENERATE -> GOVERN
 ## Steps
 
 1. **OBSERVE**: Collect observations from the environment.
+
    - Record observations with epistemic class labels
    - Gate: `observations_collected` — at least one observation recorded
 
-2. **INFER**: Update beliefs based on observations.
+1. **INFER**: Update beliefs based on observations.
+
    - Update belief state with competing hypotheses
    - Preserve at least one competing hypothesis under uncertainty
    - Gate: `beliefs_updated` — beliefs recorded with epistemic class
 
-3. **COMPARE**: Compute prediction error against expected state.
+1. **COMPARE**: Compute prediction error against expected state.
+
    - Calculate prediction error (not objective error)
    - Gate: `prediction_error_computed` — prediction error recorded
 
-4. **GENERATE**: Generate candidate actions.
+1. **GENERATE**: Generate candidate actions.
+
    - Include NO_ACTION as a valid candidate
    - Gate: `candidates_generated` — at least one candidate action generated
 
-5. **GOVERN**: Evaluate governance gates.
+1. **GOVERN**: Evaluate governance gates.
+
    - Check 7 gates: ConstraintPass, AuthorityPass, SafetyPass, PolicyPass, ScopePass, EvidencePass, ReversibilityPass
    - Reject actions that fail any gate regardless of predicted benefit
    - Gate: `governance_evaluated` — all 7 gates evaluated
 
-6. **SELECT**: Select smallest sufficient admissible action.
+1. **SELECT**: Select smallest sufficient admissible action.
+
    - Prefer reversible information-gathering actions under uncertainty
    - NO_ACTION is a valid governed outcome
    - Gate: `action_selected` — action selected with rationale
 
-7. **ACT_OR_OBSERVE**: Execute action or continue observing.
+1. **ACT_OR_OBSERVE**: Execute action or continue observing.
+
    - If selected action is NO_ACTION, continue observing
    - Gate: `decision_made` — ACT or OBSERVE decision recorded
 
-8. **MEASURE**: Measure outcome and prediction error.
+1. **MEASURE**: Measure outcome and prediction error.
+
    - Record actual outcome vs predicted outcome
    - Gate: `outcome_measured` — outcome recorded
 
-9. **UPDATE**: Update beliefs and model based on outcome.
+1. **UPDATE**: Update beliefs and model based on outcome.
+
    - Update belief confidences based on evidence
    - Invalidate dependent descendants if premises change
    - Gate: `model_updated` — beliefs updated with provenance
 
-10. **STOP_OR_CONTINUE**: Decide whether to stop or continue the loop.
-    - Check stop conditions: goal achieved, authority expired, safety threshold, max iterations
-    - Gate: `loop_decision` — STOP or CONTINUE decision recorded
+1. **STOP_OR_CONTINUE**: Decide whether to stop or continue the loop.
+
+   - Check stop conditions: goal achieved, authority expired, safety threshold, max iterations
+   - Gate: `loop_decision` — STOP or CONTINUE decision recorded
 
 ## Operations
 
 1. **OBSERVE**: Collect observations from the environment. - Record observations with epistemic class labels - Gate: `observations_collected` — at least one observation recorded
-2. **INFER**: Update beliefs based on observations. - Update belief state with competing hypotheses - Preserve at least one competing hypothesis under uncertainty - Gate: `beliefs_updated` — beliefs recorded with epistemic class
-3. **COMPARE**: Compute prediction error against expected state. - Calculate prediction error (not objective error) - Gate: `prediction_error_computed` — prediction error recorded
-4. **GENERATE**: Generate candidate actions. - Include NO_ACTION as a valid candidate - Gate: `candidates_generated` — at least one candidate action generated
-5. **GOVERN**: Evaluate governance gates. - Check 7 gates: ConstraintPass, AuthorityPass, SafetyPass, PolicyPass, ScopePass, EvidencePass, ReversibilityPass - Reject actions that fail any gate regardless of predicted benefit - Gate: `govern...
-6. **SELECT**: Select smallest sufficient admissible action. - Prefer reversible information-gathering actions under uncertainty - NO_ACTION is a valid governed outcome - Gate: `action_selected` — action selected with rationale
-7. **ACT_OR_OBSERVE**: Execute action or continue observing. - If selected action is NO_ACTION, continue observing - Gate: `decision_made` — ACT or OBSERVE decision recorded
-8. **MEASURE**: Measure outcome and prediction error. - Record actual outcome vs predicted outcome - Gate: `outcome_measured` — outcome recorded
-9. **UPDATE**: Update beliefs and model based on outcome. - Update belief confidences based on evidence - Invalidate dependent descendants if premises change - Gate: `model_updated` — beliefs updated with provenance
-10. **STOP_OR_CONTINUE**: Decide whether to stop or continue the loop. - Check stop conditions: goal achieved, authority expired, safety threshold, max iterations - Gate: `loop_decision` — STOP or CONTINUE decision recorded
+1. **INFER**: Update beliefs based on observations. - Update belief state with competing hypotheses - Preserve at least one competing hypothesis under uncertainty - Gate: `beliefs_updated` — beliefs recorded with epistemic class
+1. **COMPARE**: Compute prediction error against expected state. - Calculate prediction error (not objective error) - Gate: `prediction_error_computed` — prediction error recorded
+1. **GENERATE**: Generate candidate actions. - Include NO_ACTION as a valid candidate - Gate: `candidates_generated` — at least one candidate action generated
+1. **GOVERN**: Evaluate governance gates. - Check 7 gates: ConstraintPass, AuthorityPass, SafetyPass, PolicyPass, ScopePass, EvidencePass, ReversibilityPass - Reject actions that fail any gate regardless of predicted benefit - Gate: \`govern...
+1. **SELECT**: Select smallest sufficient admissible action. - Prefer reversible information-gathering actions under uncertainty - NO_ACTION is a valid governed outcome - Gate: `action_selected` — action selected with rationale
+1. **ACT_OR_OBSERVE**: Execute action or continue observing. - If selected action is NO_ACTION, continue observing - Gate: `decision_made` — ACT or OBSERVE decision recorded
+1. **MEASURE**: Measure outcome and prediction error. - Record actual outcome vs predicted outcome - Gate: `outcome_measured` — outcome recorded
+1. **UPDATE**: Update beliefs and model based on outcome. - Update belief confidences based on evidence - Invalidate dependent descendants if premises change - Gate: `model_updated` — beliefs updated with provenance
+1. **STOP_OR_CONTINUE**: Decide whether to stop or continue the loop. - Check stop conditions: goal achieved, authority expired, safety threshold, max iterations - Gate: `loop_decision` — STOP or CONTINUE decision recorded
 
 ## Validation Gates
 
@@ -167,9 +174,10 @@ The workflow produces an `AgentResult` containing:
 - **Bound skill**: `amos-active-inference-governor`
 - **Bound agent**: `amos-active-inference-governor-agent`
 - **Skill path**: `.devin/skills/amos-active-inference-governor/SKILL.md`
-- **Agent path**: `.devin/agents/amos-active-inferen
+- **Agent path**: \`.devin/agents/amos-active-inferen
 
----
+______________________________________________________________________
+
 **MOC:** [[08_WORKFLOWS/08_WORKFLOWS_MOC|08_WORKFLOWS_MOC]]
 
 ## Orchestration Pattern
@@ -177,42 +185,43 @@ The workflow produces an `AgentResult` containing:
 **Pattern**: Single-Agent with Validation Gates
 
 This workflow follows a single-agent orchestration with explicit validation gates between steps:
-1. **Intake** -> validation gate -> **Skill Invocation** -> validation gate -> **Application** -> validation gate -> **Output**
-2. Each gate checks: epistemic labeling, provenance, scope compliance, confidence ceiling
-3. On gate failure: route to error handling or escalate to parent workflow
 
+1. **Intake** -> validation gate -> **Skill Invocation** -> validation gate -> **Application** -> validation gate -> **Output**
+1. Each gate checks: epistemic labeling, provenance, scope compliance, confidence ceiling
+1. On gate failure: route to error handling or escalate to parent workflow
 
 ## Evaluation Gates
 
 ### Gate 1: Intake Validation
+
 - Query matches skill scope
 - Required inputs present
 - No scope violations detected
 
 ### Gate 2: Skill Load Validation
+
 - Skill file exists and is valid
 - Agent binding is valid
 - Required vault sources accessible
 
 ### Gate 3: Output Validation
+
 - Epistemic class labels present
 - Provenance recorded for all derived claims
 - Confidence ceiling not exceeded
 - No unresolved CRITICAL_GAPs
 - Scope compliance verified
 
-
 ## Error Handling
 
-| Error Type | Detection | Recovery |
-|---|---|---|
-| Scope violation | Gate 1 check | Route to parent skill |
-| Missing evidence | Gate 3 check | Flag as GAP, reduce confidence to 0.5 |
-| Contradiction | Gate 3 check | Flag as CRITICAL_GAP, halt |
-| Provenance loss | Gate 3 check | Mark as UNKNOWN, request human review |
-| Timeout | Step budget exceeded | Return partial result with warnings |
-| Drift | Confidence calibration check | Trigger drift alignment governor |
-
+| Error Type       | Detection                    | Recovery                              |
+| ---------------- | ---------------------------- | ------------------------------------- |
+| Scope violation  | Gate 1 check                 | Route to parent skill                 |
+| Missing evidence | Gate 3 check                 | Flag as GAP, reduce confidence to 0.5 |
+| Contradiction    | Gate 3 check                 | Flag as CRITICAL_GAP, halt            |
+| Provenance loss  | Gate 3 check                 | Mark as UNKNOWN, request human review |
+| Timeout          | Step budget exceeded         | Return partial result with warnings   |
+| Drift            | Confidence calibration check | Trigger drift alignment governor      |
 
 ## Human-in-the-Loop
 
@@ -224,14 +233,12 @@ This workflow follows a single-agent orchestration with explicit validation gate
   - Contradiction that cannot be auto-resolved
 - **Review checkpoint**: After Gate 3, if any warnings are present
 
-
 ## Monitoring
 
 - **Trace level**: Full (inputs, outputs, intermediate steps)
 - **Metrics**: Step count, token usage, confidence, gap count, execution time
 - **Alerts**: CRITICAL_GAP, confidence < 0.3, scope violation, timeout
 - **Provenance**: Every output traces back to source evidence via provenance chain
-
 
 ## Composition
 

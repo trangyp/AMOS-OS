@@ -12,21 +12,21 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: FRAMEWORK
 path: 11_KNOWLEDGE/05_FRAMEWORKS/NEI_NEUROEMOTIONAL_INTELLIGENCE.md
 tags:
-- amos-os
-- knowledge
-- vault
-- 05_frameworks
-- nei
-- neuroemotional_intelligence
-- limbic_regulation
-- autonomic_balance
-- ubi
-- rscf
-- canon_candidate
-- canon/knowledge
-- unified-biological-intelligence
-- ubi-emotion-binding
-- phuong-phap-trang
+  - amos-os
+  - knowledge
+  - vault
+  - 05_frameworks
+  - nei
+  - neuroemotional_intelligence
+  - limbic_regulation
+  - autonomic_balance
+  - ubi
+  - rscf
+  - canon_candidate
+  - canon/knowledge
+  - unified-biological-intelligence
+  - ubi-emotion-binding
+  - phuong-phap-trang
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -41,17 +41,17 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - UBI_OFFICIAL_MANUAL
-  - UNIFIED_BIOLOGICAL_INTELLIGENCE
-  - AMOS_CORPUS
+    - UBI_OFFICIAL_MANUAL
+    - UNIFIED_BIOLOGICAL_INTELLIGENCE
+    - AMOS_CORPUS
   scope:
-  - KNOWLEDGE_FRAMEWORKS
-  - NEUROEMOTIONAL_INTELLIGENCE
-  - SOURCE_DEFINED_MODEL
+    - KNOWLEDGE_FRAMEWORKS
+    - NEUROEMOTIONAL_INTELLIGENCE
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   biological_master:
     artifact:
-    - - UNIFIED_BIOLOGICAL_INTELLIGENCE
+      -   - UNIFIED_BIOLOGICAL_INTELLIGENCE
   domain_knowledge:
     artifact: 11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/UBI_NEUROEMOTIONAL_INTELLIGENCE
 epistemic_boundary:
@@ -67,26 +67,26 @@ epistemic_boundary:
 
 It formalizes the limbic system, amygdala-prefrontal circuits, vagal nerve tone, and autonomic pathways that govern emotional regulation, stress appraisal, and social-relational accuracy.
 
----
+______________________________________________________________________
 
-# 1. Biological Invariants
+## 1. Biological Invariants
 
 1. **Autonomic Balance:** Dynamic equilibrium between sympathetic fight-or-flight arousal and parasympathetic rest-and-digest restoration (measurable via HRV RMSSD).
-2. **Emotional Loop Closure:** Processing and resolving emotional affective charges to prevent chronic baseline cortisol elevation.
-3. **Relational Interpersonal Accuracy:** Empathic resonance and honest attunement in multi-agent and human-human interactions.
+1. **Emotional Loop Closure:** Processing and resolving emotional affective charges to prevent chronic baseline cortisol elevation.
+1. **Relational Interpersonal Accuracy:** Empathic resonance and honest attunement in multi-agent and human-human interactions.
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Biological Master:** [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]]
 - **Domain Knowledge:** `11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/UBI_NEUROEMOTIONAL_INTELLIGENCE`
 - **Emotion Binding:** [[11_KNOWLEDGE/05_FRAMEWORKS/UBI_EMOTION_BINDING|UBI_EMOTION_BINDING]]
 - **Phương Pháp Trang:** [[11_KNOWLEDGE/05_FRAMEWORKS/PHUONG_PHAP_TRANG|PHUONG_PHAP_TRANG]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -104,10 +104,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]] · `11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/UBI_NEUROEMOTIONAL_INTELLIGENCE` · [[11_KNOWLEDGE/05_FRAMEWORKS/UBI_EMOTION_BINDING|UBI_EMOTION_BINDING]]
 
----
-**MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]
+______________________________________________________________________
 
+**MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]

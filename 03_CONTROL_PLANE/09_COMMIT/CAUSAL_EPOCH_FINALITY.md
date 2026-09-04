@@ -12,21 +12,21 @@ segment: 03_CONTROL_PLANE/09_COMMIT
 artifact_kind: FINALITY
 path: 03_CONTROL_PLANE/09_COMMIT/CAUSAL_EPOCH_FINALITY.md
 tags:
-- amos-os
-- control-plane
-- governance
-- finality
-- canon_placeholder
-- rscf
-- canon/control-plane
-- routing-policy-validation-receipt
-- authz-engine-validation-receipt
-- law-hierarchy
+  - amos-os
+  - control-plane
+  - governance
+  - finality
+  - canon_placeholder
+  - rscf
+  - canon/control-plane
+  - routing-policy-validation-receipt
+  - authz-engine-validation-receipt
+  - law-hierarchy
 version: 0.1.0
 updated: '2026-08-27'
-status: PLACEHOLDER
+status: PROPOSED_SPECIFICATION
 epistemic_class: AMOS_MODEL
-canonical_status: UNKNOWN/GAP
+canonical_status: CONDITIONAL
 implementation_status: NOT_ESTABLISHED
 validation_status: NOT_ESTABLISHED
 executable_binding: NOT_ESTABLISHED
@@ -80,7 +80,7 @@ Origin architect / steward:
 
 **Trang Phan**
 
----
+______________________________________________________________________
 
 ## 1. Purpose
 
@@ -88,7 +88,7 @@ This artifact reserves the **Causal Epoch Finality** slot within the Control Pla
 
 Substantive content (canonical definitions, laws, registries, schemas, models, or bindings) is to be populated from verified native-canon sources under the AMOS_CANON_INGESTION_RULE. This placeholder does not, by its existence, establish canon, empirical validity, or runtime enforcement.
 
----
+______________________________________________________________________
 
 ## 2. Non-Purpose
 
@@ -104,7 +104,7 @@ This placeholder MUST NOT be used to claim:
 - authority merely from architectural importance;
 - or successful validation merely because the slot is addressable.
 
----
+______________________________________________________________________
 
 ## 3. Ingestion Rule
 
@@ -143,31 +143,32 @@ AMOS_CANON_INGESTION_RULE:
       - NEVER_INVENT_CANON
 ```
 
----
+______________________________________________________________________
 
 ## 4. Contract discipline
 
 Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
 
----
+______________________________________________________________________
 
 ## 5. Gaps
 
 Executable binding NOT_ESTABLISHED. Canonical status UNKNOWN/GAP. Substantive content pending native-canon source ingestion. Validation receipt required before promotion: [[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]].
 
----
+______________________________________________________________________
 
 ## 6. Worked semantics (target)
 
 Given an operation touching `03_CONTROL_PLANE · FINALITY` within the Control Plane plane:
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-2. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-3. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-4. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-5. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-6. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
 
----
+1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
+1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
+1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
+1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
+1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
+1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
+
+______________________________________________________________________
 
 ## 7. Promotion-gate checklist
 
@@ -180,7 +181,7 @@ Given an operation touching `03_CONTROL_PLANE · FINALITY` within the Control Pl
 - [ ] executed validation receipt specific to this artifact
 - [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
----
+______________________________________________________________________
 
 ## 8. Cross-plane bindings (target)
 
@@ -190,15 +191,15 @@ Given an operation touching `03_CONTROL_PLANE · FINALITY` within the Control Pl
 - Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
 - Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
 
 RSCF-NODE
 
@@ -212,22 +213,53 @@ claim_class: AMOS_MODEL
 
 rscf_state: placeholder
 
-canonical_status: UNKNOWN/GAP
+canonical_status: CONDITIONAL
 
 RSCF-RELATIONS:
 
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-  - GOVERNED_BY: [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-  - CANONICAL_LAW: [[01_CANON/01_CORE_LAWS/L24_CAUSAL_EPOCH|L24_CAUSAL_EPOCH]]
-  - COMMIT_KERNEL: [[02_KERNEL/K_CAS|K_CAS]]
-  - TRANSACTION_KERNEL: [[02_KERNEL/K_ATOMIC_MULTI_RSCF|K_ATOMIC_MULTI_RSCF]]
-  - SIBLING_COMMIT_MECHANISMS: [[03_CONTROL_PLANE/09_COMMIT/PROOF_BASED_COORDINATION_AVOIDANCE|PROOF_BASED_COORDINATION_AVOIDANCE]] · [[03_CONTROL_PLANE/09_COMMIT/SHARD_LOCAL_FINALIZATION|SHARD_LOCAL_FINALIZATION]]
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+- GOVERNED_BY: [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- CANONICAL_LAW: [[01_CANON/01_CORE_LAWS/L24_CAUSAL_EPOCH|L24_CAUSAL_EPOCH]]
+- COMMIT_KERNEL: [[02_KERNEL/K_CAS|K_CAS]]
+- TRANSACTION_KERNEL: [[02_KERNEL/K_ATOMIC_MULTI_RSCF|K_ATOMIC_MULTI_RSCF]]
+- SIBLING_COMMIT_MECHANISMS: [[03_CONTROL_PLANE/09_COMMIT/PROOF_BASED_COORDINATION_AVOIDANCE|PROOF_BASED_COORDINATION_AVOIDANCE]] · [[03_CONTROL_PLANE/09_COMMIT/SHARD_LOCAL_FINALIZATION|SHARD_LOCAL_FINALIZATION]]
 
----
+______________________________________________________________________
 
 **MOC:** [[03_CONTROL_PLANE/09_COMMIT/09_COMMIT_MOC|09_COMMIT_MOC]] · [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE_MOC]]
 
----
+______________________________________________________________________
 
 **Related:** [[01_CANON/01_CORE_LAWS/L24_CAUSAL_EPOCH|L24_CAUSAL_EPOCH]] · [[02_KERNEL/K_CAS|K_CAS]] · [[02_KERNEL/K_ATOMIC_MULTI_RSCF|K_ATOMIC_MULTI_RSCF]] · [[03_CONTROL_PLANE/09_COMMIT/PROOF_BASED_COORDINATION_AVOIDANCE|PROOF_BASED_COORDINATION_AVOIDANCE]] · [[03_CONTROL_PLANE/09_COMMIT/SHARD_LOCAL_FINALIZATION|SHARD_LOCAL_FINALIZATION]]
+
+---
+
+## Source-Grounded Specification (Corpus-Derived)
+
+> **Provenance:** `11_KNOWLEDGE/kernel/AGENTS_AMOS_OS_KERNEL.md` §504–513 (architecture-level distributed concepts; runtime-honesty examples). Bound to [[01_CANON/01_CORE_LAWS/L24_CAUSAL_EPOCH|L24 Causal Epoch Law]].
+> **Claim class:** `AMOS_MODEL` — a governance pattern, not a host guarantee. `canonical_status: CONDITIONAL`.
+
+### Definition
+
+**Causal epoch finality** is the commit-plane contract that a bounded causal epoch, once finalized, becomes immutable history. A finalized epoch's contents may be superseded by later epochs but may never be rewritten in place:
+
+```text
+FINALIZED(e)  ⟹  ∀x ∈ e: immutable(x)  ∧  supersession(x) requires epoch e′ > e
+```
+
+### Semantics
+
+1. **Monotonic finalization** — epochs finalize in causal order; no epoch may finalize while a causally prior epoch in its dependency set remains open (L24 strict monotonicity).
+2. **Finality boundary** — finalization marks the last admissible mutation point; post-finality changes are expressed only as new-epoch records, preserving full lineage.
+3. **Coupled commits** — when a commit couples multiple RSCF structures (see [[02_KERNEL/ATOMIC_MULTI_RSCF|ATOMIC_MULTI_RSCF]]), all members must finalize under the same epoch identifier.
+4. **Rollback safety** — finalized epochs are the rollback floor: recovery may only restore to a finalized boundary, never into a partially-committed interior state.
+
+### Epistemic firewall
+
+The kernel source requires: AMOS *models* finalization semantics conceptually; it MUST NOT claim the host provides consensus finality. `MODEL != DEPLOYED_RUNTIME`. Any claim of distributed finality across real shards is `REJECT` absent implementation evidence.
+
+### Status
+
+- `executable_binding: NOT_ESTABLISHED`; `validation_status: NOT_ESTABLISHED`.
+- Residual gap: governed runtime evidence of epoch-finalization enforcement is `UNKNOWN/GAP`.

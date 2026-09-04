@@ -8,9 +8,9 @@ framework_parent: AMOS
 domain_runtime: UBI / biological-system modeling
 version: 2026-08-25
 tags:
-- knowledge
-- note
-- canon/knowledge
+  - knowledge
+  - note
+  - canon/knowledge
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -41,9 +41,9 @@ This document preserves useful source concepts from the earlier Omnis material w
 
 **Hard rule:** AMOS structural coherence does not by itself prove empirical biological validity, regulatory status, commercial value, or legal ownership.
 
----
+______________________________________________________________________
 
-# 1. Where UBI Omnis™ sits inside AMOS
+## 1. Where UBI Omnis™ sits inside AMOS
 
 ```text
 HUMAN / ENVIRONMENT / ORGANIZATION / POPULATION
@@ -84,9 +84,9 @@ UBI Omnis™ **does not replace**:
 
 Omnis may **produce biological-domain evidence, forecasts, scenarios, and proposals**. AMOS decides whether those outputs are admissible, sufficiently supported, properly scoped, authorized, observable, and safe to use.
 
----
+______________________________________________________________________
 
-# 2. UBI Omnis™ core model concepts
+## 2. UBI Omnis™ core model concepts
 
 The following concepts are preserved from the source as **AMOS/UBI MODEL objects**, not established biological laws.
 
@@ -110,12 +110,12 @@ This can be used as a **structural state-transition schema** for organizing obse
 It must not be presented as a validated universal biological equation unless a domain-specific empirical program establishes:
 
 1. operational definitions,
-2. measurement validity,
-3. parameterization,
-4. predictive calibration,
-5. external validation,
-6. regime limits,
-7. falsification conditions.
+1. measurement validity,
+1. parameterization,
+1. predictive calibration,
+1. external validation,
+1. regime limits,
+1. falsification conditions.
 
 ## 2.2 TTS — Time / Trajectory / State
 
@@ -170,9 +170,9 @@ Forecast output should carry:
 - competing hypotheses,
 - invalidation conditions.
 
----
+______________________________________________________________________
 
-# 3. What Omnis can be used for
+## 3. What Omnis can be used for
 
 The following are **capability classes**, not guarantees of successful prediction.
 
@@ -201,7 +201,7 @@ Avoid:
 
 The second statement is a medical prediction unless validated and appropriately regulated.
 
----
+______________________________________________________________________
 
 ## B. Chronic-condition support context
 
@@ -225,7 +225,7 @@ Not permitted by this model alone:
 
 A “non-medical” label does **not** automatically make a clinically consequential function non-medical.
 
----
+______________________________________________________________________
 
 ## C. Cognitive load and resilience
 
@@ -249,7 +249,7 @@ For mental-health or occupational decisions, AMOS should preserve:
 - human review,
 - appeal/correction pathways.
 
----
+______________________________________________________________________
 
 ## D. Enterprise and workplace systems
 
@@ -283,7 +283,7 @@ individual score
 → irreversible employment decision
 ```
 
----
+______________________________________________________________________
 
 ## E. Population, government, and public-system modeling
 
@@ -308,7 +308,7 @@ These outputs must remain distinct from:
 
 unless those claims are separately validated with appropriate domain methods, governance, and authority.
 
----
+______________________________________________________________________
 
 ## F. Veterinary, livestock, and animal systems
 
@@ -326,7 +326,7 @@ Veterinary diagnosis and treatment remain separate professional domains.
 
 Cross-species structural similarity does **not** establish biological equivalence.
 
----
+______________________________________________________________________
 
 ## G. Sports and performance
 
@@ -343,7 +343,7 @@ Potential uses:
 
 “Injury-risk prediction” should be used only when empirically validated for the relevant sport, population, sensors, and prediction horizon.
 
----
+______________________________________________________________________
 
 ## H. Longevity and aging research
 
@@ -360,7 +360,7 @@ Claims such as “forecast aging load,” “predict biological instability,” 
 
 Omnis should not claim extension of lifespan or prevention of age-related disease without evidence.
 
----
+______________________________________________________________________
 
 ## I. Consumer applications
 
@@ -383,7 +383,7 @@ Consumer outputs should distinguish:
 - advice,
 - medical escalation boundary.
 
----
+______________________________________________________________________
 
 ## J. Research and scientific tooling
 
@@ -403,9 +403,9 @@ Strongest defensible use-case class:
 
 For scientific use, Omnis should be evaluated as a **research framework or computational model**, not pre-labeled a universal forecasting engine.
 
----
+______________________________________________________________________
 
-# 4. Product family — AMOS-aligned interpretation
+## 4. Product family — AMOS-aligned interpretation
 
 The original product names can be retained as **deployment variants**.
 
@@ -483,9 +483,9 @@ Ecological and habitat-system modeling.
 
 Research tooling, model experimentation, hypothesis generation, and reproducible analysis.
 
----
+______________________________________________________________________
 
-# 5. Data and information architecture
+## 5. Data and information architecture
 
 The source groups inputs into biometrics, environment, behavior, logs, and contextual signals. AMOS should formalize them as typed evidence.
 
@@ -551,9 +551,9 @@ Examples:
 
 Each source requires provenance and applicable privacy/consent controls.
 
----
+______________________________________________________________________
 
-# 6. Pattern learning and memory
+## 6. Pattern learning and memory
 
 The original material correctly points toward a useful distinction:
 
@@ -601,9 +601,9 @@ AMOS should therefore classify derived information by:
 
 Do not assume anonymization from transformation alone.
 
----
+______________________________________________________________________
 
-# 7. Forecast governance
+## 7. Forecast governance
 
 Every consequential Omnis forecast should be emitted through AMOS prediction governance.
 
@@ -640,9 +640,9 @@ Use:
 
 “Deterministic” should describe execution/reasoning mechanics only when appropriate. It must not imply that biological outcomes are deterministic.
 
----
+______________________________________________________________________
 
-# 8. AMOS control-plane requirements
+## 8. AMOS control-plane requirements
 
 Omnis domain logic sits below AMOS infrastructure authority.
 
@@ -696,9 +696,9 @@ TASK_CONTRACT
 - release ledger,
 - durable-effect authorization.
 
----
+______________________________________________________________________
 
-# 9. Safety boundaries
+## 9. Safety boundaries
 
 ## Omnis must not claim, without proper validation and authority
 
@@ -728,9 +728,9 @@ Increase validation for:
 - national-scale interventions,
 - irreversible decisions.
 
----
+______________________________________________________________________
 
-# 10. Commercial claims — corrected status
+## 10. Commercial claims — corrected status
 
 The original document includes many market-size, pricing, valuation, and revenue numbers.
 
@@ -771,9 +771,9 @@ evidence sources
 
 No valuation should be promoted from narrative possibility to forecast without that model.
 
----
+______________________________________________________________________
 
-# 11. Scientific claims — corrected status
+## 11. Scientific claims — corrected status
 
 The following source claims are **not established by the material alone**:
 
@@ -788,9 +788,9 @@ The following source claims are **not established by the material alone**:
 
 They may remain as **research hypotheses or positioning hypotheses**, but not VERIFIED claims.
 
----
+______________________________________________________________________
 
-# 12. AMOS-aligned research program
+## 12. AMOS-aligned research program
 
 To move Omnis from MODEL toward VERIFIED, validate in stages.
 
@@ -831,9 +831,9 @@ Measure whether confidence or probability corresponds to observed outcomes.
 
 Only then test whether Omnis-informed interventions improve outcomes versus alternatives.
 
----
+______________________________________________________________________
 
-# 13. Five-year roadmap — corrected AMOS form
+## 13. Five-year roadmap — corrected AMOS form
 
 The original roadmap is retained as a **strategic scenario**, not a guaranteed trajectory.
 
@@ -894,9 +894,9 @@ validated usefulness
 + sustainable economics
 ```
 
----
+______________________________________________________________________
 
-# 14. Final AMOS definition of UBI Omnis™
+## 14. Final AMOS definition of UBI Omnis™
 
 ## Short definition
 
@@ -931,32 +931,32 @@ World effects = AMOS-governed, authority-bound actions
 
 UBI Omnis™ can be developed as a reusable **system-state and trajectory modeling framework** across multiple biological and organizational contexts, provided that every domain transfer, prediction claim, privacy claim, safety claim, and commercial claim is independently validated within its own scope and regime.
 
----
+______________________________________________________________________
 
-# 15. Unresolved gaps
+## 15. Unresolved gaps
 
 `UNKNOWN-GAP`
 
 The document alone does not establish:
 
 1. empirical validity of TPE/TTS/SLC-7,
-2. universal biological applicability,
-3. calibrated forecast performance,
-4. clinical validity,
-5. regulatory classification,
-6. privacy status of derived patterns,
-7. legal ownership of learned patterns,
-8. cross-species transfer,
-9. product-market fit,
-10. revenue/valuation forecasts,
-11. comparative uniqueness versus all existing systems,
-12. formal integration contract between every UBI implementation and AMOS v4.4.
+1. universal biological applicability,
+1. calibrated forecast performance,
+1. clinical validity,
+1. regulatory classification,
+1. privacy status of derived patterns,
+1. legal ownership of learned patterns,
+1. cross-species transfer,
+1. product-market fit,
+1. revenue/valuation forecasts,
+1. comparative uniqueness versus all existing systems,
+1. formal integration contract between every UBI implementation and AMOS v4.4.
 
 These are not defects to hide. In AMOS they become explicit validation targets.
 
----
+______________________________________________________________________
 
-# 16. AMOS conclusion class
+## 16. AMOS conclusion class
 
 **Overall:** `CONDITIONAL / MODEL`
 
@@ -966,23 +966,26 @@ These are not defects to hide. In AMOS they become explicit validation targets.
 - **Medical, legal, market, valuation, uniqueness, and universality claims:** `UNKNOWN-GAP` unless independently evidenced.
 - **Recommended next action:** build falsifiable domain benchmarks and typed AMOS capability contracts before expanding claims.
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos_ubi_omnis_use_cases
 node_type: note
 path: 11_KNOWLEDGE/AMOS_UBI_OMNIS_USE_CASES.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]]
-

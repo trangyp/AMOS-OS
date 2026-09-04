@@ -12,21 +12,21 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: FRAMEWORK
 path: 11_KNOWLEDGE/05_FRAMEWORKS/TRANG_LACUNARITY.md
 tags:
-- amos-os
-- knowledge
-- vault
-- 05_frameworks
-- trang_lacunarity
-- lacunarity
-- gapping
-- texture_invariance
-- void_distribution
-- rscf
-- canon_candidate
-- canon/knowledge
-- frai-fractal-reasoning-ai
-- heritage-fractal-mathematics
-- trang-lmh-architecture
+  - amos-os
+  - knowledge
+  - vault
+  - 05_frameworks
+  - trang_lacunarity
+  - lacunarity
+  - gapping
+  - texture_invariance
+  - void_distribution
+  - rscf
+  - canon_candidate
+  - canon/knowledge
+  - frai-fractal-reasoning-ai
+  - heritage-fractal-mathematics
+  - trang-lmh-architecture
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -41,23 +41,23 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - TRANG_FRAI_FRACTAL_REASONING_AI
-  - AMOS_FRACTAL_CONSCIOUSNESS_WHITEPAPER_FULL_FIXED
-  - AMOS_CORPUS
+    - TRANG_FRAI_FRACTAL_REASONING_AI
+    - AMOS_FRACTAL_CONSCIOUSNESS_WHITEPAPER_FULL_FIXED
+    - AMOS_CORPUS
   scope:
-  - KNOWLEDGE_FRAMEWORKS
-  - FRACTAL_GEOMETRY
-  - SOURCE_DEFINED_MODEL
+    - KNOWLEDGE_FRAMEWORKS
+    - FRACTAL_GEOMETRY
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   primary:
     name: Trang Lacunarity & Void Distribution
     role: GAPPING_AND_TEXTURE_DENSITY_ANALYSIS
   fractal_reasoning:
     artifact:
-    - - FRAI_FRACTAL_REASONING_AI
+      -   - FRAI_FRACTAL_REASONING_AI
   fractal_math:
     artifact:
-    - - HERITAGE_FRACTAL_MATHEMATICS
+      -   - HERITAGE_FRACTAL_MATHEMATICS
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
@@ -71,9 +71,9 @@ epistemic_boundary:
 
 Lacunarity measures the "gappiness", structural heterogeneity, and void distribution across spatial, temporal, and conceptual fractal dimensions.
 
----
+______________________________________________________________________
 
-# 1. Mathematical Formulation & Role in Tri-Layer Tiering
+## 1. Mathematical Formulation & Role in Tri-Layer Tiering
 
 $$\Lambda = \frac{\langle M^2 \rangle}{\langle M \rangle^2}$$
 
@@ -87,18 +87,18 @@ TIER LACUNARITY TARGETS IN FRAI:
 • Layer H (Apex/Creative):0.2 ≤ Λ_H ≤ 0.5 (Exploratory porosity)
 ```
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Fractal AI:** [[11_KNOWLEDGE/05_FRAMEWORKS/FRAI_FRACTAL_REASONING_AI|FRAI_FRACTAL_REASONING_AI]]
 - **Tri-Layer Architecture:** [[11_KNOWLEDGE/05_FRAMEWORKS/TRANG_LMH_ARCHITECTURE|TRANG_LMH_ARCHITECTURE]]
 - **Fractal Math:** [[11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_FRACTAL_MATHEMATICS|HERITAGE_FRACTAL_MATHEMATICS]]
 - **Knowledge MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -116,9 +116,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/FRAI_FRACTAL_REASONING_AI|FRAI_FRACTAL_REASONING_AI]] · [[11_KNOWLEDGE/05_FRAMEWORKS/TRANG_LMH_ARCHITECTURE|TRANG_LMH_ARCHITECTURE]] · [[11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_FRACTAL_MATHEMATICS|HERITAGE_FRACTAL_MATHEMATICS]]
 
----
+______________________________________________________________________
+
 **MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]

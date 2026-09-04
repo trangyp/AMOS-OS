@@ -12,16 +12,16 @@ segment: 11_KNOWLEDGE/03_RSCF
 artifact_kind: INDEX
 path: 11_KNOWLEDGE/03_RSCF/CANON_RSCF_INDEX.md
 tags:
-- amos-os
-- knowledge
-- vault
-- 03_rscf
-- canon_rscf_index
-- proof_capsules
-- canon_proofs
-- rscf
-- canon_candidate
-- canon/knowledge
+  - amos-os
+  - knowledge
+  - vault
+  - 03_rscf
+  - canon_rscf_index
+  - proof_capsules
+  - canon_proofs
+  - rscf
+  - canon_candidate
+  - canon/knowledge
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -36,16 +36,16 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - 01_CANON/01_CANON_MOC
-  - AMOS_CORPUS
+    - 01_CANON/01_CANON_MOC
+    - AMOS_CORPUS
   scope:
-  - KNOWLEDGE_RSCF
-  - CANON_RSCF_INDEX
-  - SOURCE_DEFINED_MODEL
+    - KNOWLEDGE_RSCF
+    - CANON_RSCF_INDEX
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   rscf_moc:
     artifact:
-    - - 03_RSCF_MOC
+      -   - 03_RSCF_MOC
   canon_moc:
     artifact: 01_CANON/01_CANON_MOC
   claims_registry:
@@ -63,28 +63,28 @@ epistemic_boundary:
 
 It tracks the proof structures, epistemic boundaries, and verification dependencies of all canonical laws and operational contracts.
 
----
+______________________________________________________________________
 
-# 1. Indexed RSCF Capsules
+## 1. Indexed RSCF Capsules
 
-| Node ID | Canon Law / System | Claim Class | Governing Invariant | Status |
-| :--- | :--- | :--- | :--- | :--- |
-| `RSCF-CANON-001` | L0 Integrity | `AMOS_MODEL` | Law of Law ($\mathcal{C}, \mathcal{E}, \mathcal{F}$) | Active |
-| `RSCF-CANON-002` | L1 Reality | `OBSERVATION_GROUNDED` | Physical Grounding Invariant | Active |
-| `RSCF-CANON-003` | L2 Cognition | `AMOS_MODEL` | Cognitive Conservatism ($S_0$) | Active |
-| `RSCF-CANON-004` | L3 Governance | `SYSTEM_INVARIANT` | $\text{Capability} \neq \text{Authority}$ | Active |
+| Node ID          | Canon Law / System | Claim Class            | Governing Invariant                                  | Status |
+| :--------------- | :----------------- | :--------------------- | :--------------------------------------------------- | :----- |
+| `RSCF-CANON-001` | L0 Integrity       | `AMOS_MODEL`           | Law of Law ($\mathcal{C}, \mathcal{E}, \mathcal{F}$) | Active |
+| `RSCF-CANON-002` | L1 Reality         | `OBSERVATION_GROUNDED` | Physical Grounding Invariant                         | Active |
+| `RSCF-CANON-003` | L2 Cognition       | `AMOS_MODEL`           | Cognitive Conservatism ($S_0$)                       | Active |
+| `RSCF-CANON-004` | L3 Governance      | `SYSTEM_INVARIANT`     | $\text{Capability} \neq \text{Authority}$            | Active |
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **RSCF MOC:** [[11_KNOWLEDGE/03_RSCF/03_RSCF_MOC|03_RSCF_MOC]]
 - **Canon Plane:** [[01_CANON/01_CANON_MOC|01_CANON_MOC]]
 - **Claims Registry:** [[11_KNOWLEDGE/02_CLAIMS/CANON_CLAIM_REGISTRY|CANON_CLAIM_REGISTRY]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -102,11 +102,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[01_CANON/01_CORE_LAWS/ATOMIC_MULTI_RSCF|ATOMIC_MULTI_RSCF]] · [[02_KERNEL/K_ATOMIC_MULTI_RSCF|K_ATOMIC_MULTI_RSCF]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/03_RSCF/03_RSCF_MOC|03_RSCF_MOC]] · [[01_CANON/01_CANON_MOC|01_CANON_MOC]] · [[11_KNOWLEDGE/02_CLAIMS/CANON_CLAIM_REGISTRY|CANON_CLAIM_REGISTRY]]
 
----
+______________________________________________________________________
+
 **MOC:** [[11_KNOWLEDGE/03_RSCF/03_RSCF_MOC|03_RSCF_MOC]]
-
-

@@ -12,23 +12,23 @@ segment: 01_CANON/01_CORE_LAWS
 artifact_kind: CORE_LAW_SPECIFICATION
 path: 01_CANON/01_CORE_LAWS/ATOMIC_MULTI_RSCF_REASONING.md
 tags:
-- amos-os
-- canon
-- core_laws
-- rscf
-- atomic
-- reasoning
-- multi_rscf
-- transaction
-- consistency
-- dependency_closure
-- provenance
-- rollback
-- rscf
-- canon/core
-- k-atomic-multi-rscf
-- law-hierarchy
-- amos-core
+  - amos-os
+  - canon
+  - core_laws
+  - rscf
+  - atomic
+  - reasoning
+  - multi_rscf
+  - transaction
+  - consistency
+  - dependency_closure
+  - provenance
+  - rollback
+  - rscf
+  - canon/core
+  - k-atomic-multi-rscf
+  - law-hierarchy
+  - amos-core
 version: 1.0.0
 updated: '2026-08-28'
 status: ACTIVE_REFERENCE
@@ -42,13 +42,13 @@ rscf:
   state: SOURCE_GROUNDED
   claim_class: AMOS_MODEL
   provenance:
-  - 01_CANON/01_CORE_LAWS
-  - - - K_ATOMIC_MULTI_RSCF
-  - AMOS_corpus
+    - 01_CANON/01_CORE_LAWS
+    -   -   - K_ATOMIC_MULTI_RSCF
+    - AMOS_corpus
   scope:
-  - CORE_LAWS
-  - MULTI_RSCF_REASONING
-  - ATOMIC_REASONING
+    - CORE_LAWS
+    - MULTI_RSCF_REASONING
+    - ATOMIC_REASONING
   regime: governed_reasoning
   confidence_ceiling: SOURCE_BOUND
   provenance_independence: NOT_ESTABLISHED
@@ -66,13 +66,13 @@ See canonical kernel:
 
 ```
 
-Accordingly, this artifact defines the governing contract and delegates kernel-level semantics to ``.
+Accordingly, this artifact defines the governing contract and delegates kernel-level semantics to \`\`.
 
 Where the kernel contains more specific requirements, the kernel governs.
 
----
+______________________________________________________________________
 
-# 1. Purpose
+## 1. Purpose
 
 Atomic multi-RSCF reasoning exists for conclusions, decisions, or state transitions whose correctness depends simultaneously on multiple RSCF nodes.
 
@@ -98,11 +98,11 @@ JOINT LOAD-BEARING RESULT
 ATOMIC REASONING SCOPE
 ```
 
----
+______________________________________________________________________
 
-# 2. Core Law
+## 2. Core Law
 
-For a reasoning operation \(T\) over a set of load-bearing RSCF structures:
+For a reasoning operation (T) over a set of load-bearing RSCF structures:
 
 $$
 R_T=\{R_1,R_2,\ldots,R_n\}
@@ -146,9 +146,9 @@ ROLLBACK
 
 state according to the governing kernel contract.
 
----
+______________________________________________________________________
 
-# 3. Atomicity Boundary
+## 3. Atomicity Boundary
 
 Atomicity applies to the **load-bearing reasoning transaction**, not automatically to every RSCF node visible to the system.
 
@@ -168,7 +168,7 @@ $$
 D(C)
 $$
 
-denote the dependency closure of conclusion \(C\).
+denote the dependency closure of conclusion (C).
 
 Then the target reasoning set is conceptually:
 
@@ -181,9 +181,9 @@ $$
 
 This preserves both integrity and bounded execution.
 
----
+______________________________________________________________________
 
-# 4. Admission
+## 4. Admission
 
 Before entering an atomic multi-RSCF operation, each load-bearing participant should have resolvable identity and applicable state.
 
@@ -223,9 +223,9 @@ UNKNOWN/GAP
 
 unless the governing kernel defines a safe alternative.
 
----
+______________________________________________________________________
 
-# 5. Dependency Closure
+## 5. Dependency Closure
 
 Atomic reasoning MUST identify the smallest sufficient dependency closure before authoritative synthesis.
 
@@ -258,9 +258,9 @@ R4
 
 subject to any valid proof-capsule reuse established by the kernel.
 
----
+______________________________________________________________________
 
-# 6. Joint Consistency
+## 6. Joint Consistency
 
 Individual validity does not establish joint consistency.
 
@@ -316,9 +316,9 @@ $$
 
 for load-bearing participants.
 
----
+______________________________________________________________________
 
-# 7. Epistemic Preservation
+## 7. Epistemic Preservation
 
 Atomic reasoning MUST preserve the epistemic class of every participating premise.
 
@@ -349,11 +349,11 @@ Confidence(C)
 Confidence(R_i)
 $$
 
-for load-bearing premises \(L(C)\), unless the weak premise is independently revalidated.
+for load-bearing premises (L(C)), unless the weak premise is independently revalidated.
 
----
+______________________________________________________________________
 
-# 8. Provenance Topology
+## 8. Provenance Topology
 
 Multiple RSCF structures MUST NOT automatically be counted as independent evidence.
 
@@ -379,9 +379,9 @@ $$
 
 Atomic reasoning should preserve source ancestry where that ancestry can affect confidence or conflict resolution.
 
----
+______________________________________________________________________
 
-# 9. Conflict Preservation
+## 9. Conflict Preservation
 
 When load-bearing RSCFs contain incompatible claims with insufficient discriminating evidence, atomic reasoning MUST NOT force convergence.
 
@@ -415,9 +415,9 @@ UnresolvedConflict
 ArbitraryConsensus
 $$
 
----
+______________________________________________________________________
 
-# 10. Scope and Regime Firewall
+## 10. Scope and Regime Firewall
 
 Every RSCF participating in an atomic operation carries an applicability envelope.
 
@@ -459,9 +459,9 @@ $$
 
 without a legitimate scope relation.
 
----
+______________________________________________________________________
 
-# 11. Temporal Consistency
+## 11. Temporal Consistency
 
 Multi-RSCF reasoning must account for temporal compatibility.
 
@@ -491,9 +491,9 @@ UNKNOWN/GAP
 
 according to the kernel contract.
 
----
+______________________________________________________________________
 
-# 12. Proposal / Commit Separation
+## 12. Proposal / Commit Separation
 
 Atomic reasoning preserves:
 
@@ -529,9 +529,9 @@ COMMIT
 
 No proposal becomes authoritative merely because it has been generated.
 
----
+______________________________________________________________________
 
-# 13. Atomic Commit
+## 13. Atomic Commit
 
 A successful atomic reasoning operation commits the logically dependent result set together.
 
@@ -557,9 +557,9 @@ when partial commitment would violate the governing invariant.
 
 This does not prohibit preserving unaffected independent work.
 
----
+______________________________________________________________________
 
-# 14. Selective Rollback
+## 14. Selective Rollback
 
 Atomic failure does NOT require destroying unrelated valid reasoning.
 
@@ -599,9 +599,9 @@ NEAREST VALID STATE
 
 rather than global recomputation by default.
 
----
+______________________________________________________________________
 
-# 15. Failure Propagation
+## 15. Failure Propagation
 
 Failure propagation follows dependency edges.
 
@@ -611,7 +611,7 @@ $$
 R_A\rightarrow R_B\rightarrow C
 $$
 
-and \(R_A\) becomes invalid, then descendants depending materially on \(R_A\) must be reconsidered.
+and (R_A) becomes invalid, then descendants depending materially on (R_A) must be reconsidered.
 
 But an unrelated node:
 
@@ -631,9 +631,9 @@ $$
 
 not session-global.
 
----
+______________________________________________________________________
 
-# 16. Proof Capsule Reuse
+## 16. Proof Capsule Reuse
 
 A previously established conclusion may replace repeated traversal only while its proof capsule remains valid.
 
@@ -671,9 +671,9 @@ INVALIDATE DEPENDENT CAPSULE
 
 rather than silently reusing it.
 
----
+______________________________________________________________________
 
-# 17. Fast Path
+## 17. Fast Path
 
 Atomic reasoning does not imply global coordination for every operation.
 
@@ -707,9 +707,9 @@ $$
 
 when both produce the same integrity-preserving result.
 
----
+______________________________________________________________________
 
-# 18. Escalation Conditions
+## 18. Escalation Conditions
 
 Local reasoning should escalate when any material condition includes:
 
@@ -737,9 +737,9 @@ MULTI-NODE COMMIT REQUIREMENT
 
 Escalation exists to preserve correctness, not merely increase computation.
 
----
+______________________________________________________________________
 
-# 19. Concurrency Model
+## 19. Concurrency Model
 
 Where concurrent state matters, atomic reasoning should reason against an explicitly coherent snapshot or equivalent validated state relation.
 
@@ -767,9 +767,9 @@ The canonical kernel may implement this through its own version, epoch, MVCC, CA
 
 This specification does not claim that any particular mechanism is implemented unless independently established.
 
----
+______________________________________________________________________
 
-# 20. Compare-and-Swap Concept
+## 20. Compare-and-Swap Concept
 
 A conceptual commit guard can be represented as:
 
@@ -801,9 +801,9 @@ rather than committing reasoning derived from stale state.
 
 This is a reasoning pattern unless executable kernel binding is independently verified.
 
----
+______________________________________________________________________
 
-# 21. Causal Epoch Consistency
+## 21. Causal Epoch Consistency
 
 Where causal epochs are used, a multi-RSCF result must not combine states in a manner that violates their causal ordering.
 
@@ -813,13 +813,13 @@ $$
 E_a \prec E_b
 $$
 
-and `RSCF_B` depends on a mutation introduced at \(E_b\), a state from \(E_a\) cannot be treated as if it already incorporated that mutation.
+and `RSCF_B` depends on a mutation introduced at (E_b), a state from (E_a) cannot be treated as if it already incorporated that mutation.
 
 Causal ordering must remain visible.
 
----
+______________________________________________________________________
 
-# 22. Authority Firewall
+## 22. Authority Firewall
 
 Atomic reasoning does not create authority.
 
@@ -853,9 +853,9 @@ $$
 
 before consequential state commitment.
 
----
+______________________________________________________________________
 
-# 23. Causal Firewall
+## 23. Causal Firewall
 
 Joint structural participation does not establish causal relation.
 
@@ -883,9 +883,9 @@ Causal conclusions require appropriately typed causal evidence.
 
 Atomicity is a consistency property, not causal proof.
 
----
+______________________________________________________________________
 
-# 24. Adversarial Validation
+## 24. Adversarial Validation
 
 Before committing a consequential multi-RSCF result, a genuinely different validation path should challenge the synthesis where warranted.
 
@@ -931,13 +931,13 @@ UNKNOWN/GAP
 
 as appropriate.
 
----
+______________________________________________________________________
 
-# 25. Sensitivity
+## 25. Sensitivity
 
 The atomic set should prioritize the smallest premise capable of flipping the result.
 
-Let conclusion \(C\) depend on:
+Let conclusion (C) depend on:
 
 $$
 P=\{p_1,\ldots,p_n\}
@@ -954,11 +954,11 @@ p^*
 \}
 $$
 
-Testing \(p^*\) first can reduce unnecessary traversal while preserving integrity.
+Testing (p^\*) first can reduce unnecessary traversal while preserving integrity.
 
----
+______________________________________________________________________
 
-# 26. Failure Semantics
+## 26. Failure Semantics
 
 The following conditions MUST NOT silently resolve to success:
 
@@ -988,9 +988,9 @@ PARTIAL COMMIT
 
 The weakest accurate state must be preserved.
 
----
+______________________________________________________________________
 
-# 27. Canonical Transaction Pattern
+## 27. Canonical Transaction Pattern
 
 ```text
 ┌─────────────────────────────┐
@@ -1029,9 +1029,9 @@ The weakest accurate state must be preserved.
                  / UNKNOWN / ROLLBACK
 ```
 
----
+______________________________________________________________________
 
-# 28. Formal Skeleton
+## 28. Formal Skeleton
 
 Let:
 
@@ -1039,7 +1039,7 @@ $$
 R=\{R_1,\ldots,R_n\}
 $$
 
-be the selected atomic RSCF set and \(C\) the proposed conclusion.
+be the selected atomic RSCF set and (C) the proposed conclusion.
 
 Define:
 
@@ -1107,9 +1107,9 @@ subject to any additional authority or governance gate imposed by the canonical 
 
 Failure of one load-bearing predicate blocks unconditional commit.
 
----
+______________________________________________________________________
 
-# 29. Worked Example
+## 29. Worked Example
 
 Suppose:
 
@@ -1162,9 +1162,9 @@ RSCF_B = REVALIDATE
 
 The system need not discard unrelated validated state.
 
----
+______________________________________________________________________
 
-# 30. Anti-Patterns
+## 30. Anti-Patterns
 
 The following are prohibited interpretations:
 
@@ -1179,39 +1179,46 @@ EACH NODE VALID
 =
 JOINT RESULT VALID
 ```
+
 ```text
 PROPOSAL GENERATED
 =
 COMMITTED
 ```
+
 ```text
 LOCAL CONSISTENCY
 =
 GLOBAL CONSISTENCY
 ```
+
 ```text
 STRUCTURAL CO-OCCURRENCE
 =
 CAUSATION
 ```
+
 ```text
 OLD PASS
 =
 CURRENT PASS
 ```
+
 ```text
 ONE FAILED NODE
 =
 INVALIDATE EVERYTHING
 ```
+
 ```text
 ATOMIC REASONING
 =
 GLOBAL LOCKING ALWAYS
 ```
----
 
-# 31. Kernel Delegation
+______________________________________________________________________
+
+## 31. Kernel Delegation
 
 This artifact explicitly delegates canonical kernel detail to:
 
@@ -1239,9 +1246,9 @@ subject to the governing AMOS law hierarchy and version/supersession rules.
 
 No missing kernel content may be invented.
 
----
+______________________________________________________________________
 
-# 32. Current Evidence Boundary
+## 32. Current Evidence Boundary
 
 The supplied source establishes only:
 
@@ -1262,7 +1269,7 @@ CANONICAL REFERENCE:
 
 ```
 
-It does not independently provide the contents of ``.
+It does not independently provide the contents of \`\`.
 
 Accordingly:
 
@@ -1278,9 +1285,9 @@ NOT ESTABLISHED BY THIS SOURCE ALONE
 
 The detailed formulation above is therefore a normalized AMOS-model specification consistent with the supplied AMOS lineage, but it MUST NOT replace unretrieved kernel canon.
 
----
+______________________________________________________________________
 
-# 33. Proof Capsule
+## 33. Proof Capsule
 
 ```yaml
 PROOF_CAPSULE:
@@ -1327,9 +1334,9 @@ PROOF_CAPSULE:
     semantics require direct kernel retrieval.
 ```
 
----
+______________________________________________________________________
 
-# 34. RSCF Contract
+## 34. RSCF Contract
 
 ```yaml
 RSCF:
@@ -1394,9 +1401,9 @@ RSCF:
     kernel_detail: UNKNOWN_UNTIL_RETRIEVED
 ```
 
----
+______________________________________________________________________
 
-# 35. Canonical Compression
+## 35. Canonical Compression
 
 ```text
 WHEN ONE RESULT DEPENDS
@@ -1463,7 +1470,7 @@ $$
 }
 $$
 
----
+______________________________________________________________________
 
 RSCF-NODE
 
@@ -1508,25 +1515,26 @@ RSCF-RELATIONS:
 - GOVERNED_BY: [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
 
 - KERNEL_BINDING: [[02_KERNEL/K_ATOMIC_MULTI_RSCF|K_ATOMIC_MULTI_RSCF]]
+
 - RELATED_TO: [[01_CANON/01_CORE_LAWS/AMOS_CORE_LAWS|AMOS_CORE]]
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] | [[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
 
 **Related:** [[02_KERNEL/K_ATOMIC_MULTI_RSCF|K_ATOMIC_MULTI_RSCF]] · [[01_CANON/01_CORE_LAWS/AMOS_CORE_LAWS|AMOS_CORE]] · [[01_CANON/01_CORE_LAWS/01_CORE_LAWS_MOC|01_CORE_LAWS_MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
 
----
+______________________________________________________________________
 
 **MOC:** [[01_CANON/01_CORE_LAWS/01_CORE_LAWS_MOC|01_CORE_LAWS_MOC]]
 
----
+______________________________________________________________________
 
 **Origin architect / steward:** **Trang Phan**
 
----
+______________________________________________________________________
 
-> [!note] Kernel Grounding Status
+> [!NOTE] Kernel Grounding Status
 > The canonical kernel reference is **SOURCE_GROUNDED** through [[02_KERNEL/K_ATOMIC_MULTI_RSCF|K_ATOMIC_MULTI_RSCF]], while expanded reasoning semantics remain **AMOS_MODEL** integration models governed by [[01_CANON/01_CORE_LAWS/L0_INTEGRITY|L0_INTEGRITY]] and [[01_CANON/01_CORE_LAWS/L17_RSCF|L17_RSCF]].

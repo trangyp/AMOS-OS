@@ -89,7 +89,7 @@
     "mckinsey-credit-lending-rscf"
   ],
   "depends_on_workflows": [
-    "mckinsey-credit-lending-rscf-workflow.md"
+    "amos-mckinsey-credit-lending-rscf-workflow.md"
   ],
   "epistemic_class": "AMOS_MODEL",
   "claim_ceiling": 0.95,

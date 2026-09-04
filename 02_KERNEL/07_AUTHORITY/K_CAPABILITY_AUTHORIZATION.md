@@ -14,21 +14,21 @@ plane: KERNEL
 scope: AMOS_OS
 updated: 2026-08-26
 tags:
-- kernel
-- authority
-- note
-- canon/kernel
-- readme
-- amos-core-laws
-- law-hierarchy
-- canon-provenance
-- k-core19-logic
-- k-meta-logic
-- k-identity
-- k-context-state
-- k-system-state
-- k-risk-constraint
-- k-event-bus
+  - kernel
+  - authority
+  - note
+  - canon/kernel
+  - readme
+  - amos-core-laws
+  - law-hierarchy
+  - canon-provenance
+  - k-core19-logic
+  - k-meta-logic
+  - k-identity
+  - k-context-state
+  - k-system-state
+  - k-risk-constraint
+  - k-event-bus
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL
@@ -78,9 +78,9 @@ PROPOSAL != COMMIT
 AUTHORIZATION != EXECUTION
 ```
 
----
+______________________________________________________________________
 
-# 1. Architectural Boundary
+## 1. Architectural Boundary
 
 AMOS separates:
 
@@ -141,9 +141,9 @@ RETURN AUTHORIZATION RESULT
 CONTROL PLANE / RUNTIME
 ```
 
----
+______________________________________________________________________
 
-# 2. Fundamental Distinctions
+## 2. Fundamental Distinctions
 
 ```text
 CAPABILITY != AUTHORITY
@@ -181,9 +181,9 @@ DELEGATION != TRANSFER OF UNBOUNDED AUTHORITY
 POSSESSION OF CREDENTIAL != LEGITIMATE AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 3. Capability
+## 3. Capability
 
 A capability represents what an actor or subsystem can technically attempt.
 
@@ -230,9 +230,9 @@ not:
 AUTHORIZED
 ```
 
----
+______________________________________________________________________
 
-# 4. Authority
+## 4. Authority
 
 Authority represents a governed right to approve or perform a defined action within a defined envelope.
 
@@ -271,9 +271,9 @@ REVOCABLE
 
 unless canon explicitly specifies otherwise.
 
----
+______________________________________________________________________
 
-# 5. Authorization
+## 5. Authorization
 
 Authorization is the determination that a particular actor may use a particular capability for a particular action under current governed conditions.
 
@@ -311,9 +311,9 @@ does not imply:
 AUTHORIZED(A, X, T1, S2)
 ```
 
----
+______________________________________________________________________
 
-# 6. Authorization Request Object
+## 6. Authorization Request Object
 
 ```yaml
 authorization_request:
@@ -373,9 +373,9 @@ Missing load-bearing values remain:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 7. Core Authorization Law
+## 7. Core Authorization Law
 
 For actor `A`, capability `C`, operation `O`, target `T`:
 
@@ -415,9 +415,9 @@ RISK_REQUIREMENTS = SATISFIED
 
 This is a conceptual AMOS contract, not a claim of formal implementation.
 
----
+______________________________________________________________________
 
-# 8. Identity Requirement
+## 8. Identity Requirement
 
 Authorization requires a valid actor identity when identity is load-bearing.
 
@@ -452,9 +452,9 @@ CONTROL-PLANE PRINCIPAL
 
 The identity mechanism belongs to the appropriate security/control-plane implementation.
 
----
+______________________________________________________________________
 
-# 9. Authentication Boundary
+## 9. Authentication Boundary
 
 Authentication answers:
 
@@ -478,9 +478,9 @@ AUTHORIZED
 
 A valid identity may still lack authority for the requested operation.
 
----
+______________________________________________________________________
 
-# 10. Scope Law
+## 10. Scope Law
 
 Authority applies only inside its authorized envelope.
 
@@ -509,9 +509,9 @@ AUTHORITY(SCOPE X)
 AUTHORITY(SCOPE *)
 ```
 
----
+______________________________________________________________________
 
-# 11. Least Authority
+## 11. Least Authority
 
 Default principle:
 
@@ -538,9 +538,9 @@ ADMIN(A)
 
 Least authority reduces accidental and adversarial blast radius.
 
----
+______________________________________________________________________
 
-# 12. Authority Non-Amplification
+## 12. Authority Non-Amplification
 
 A delegated actor cannot create greater authority from lesser authority.
 
@@ -568,9 +568,9 @@ DELEGATOR_AUTHORITY
 
 within the relevant scope.
 
----
+______________________________________________________________________
 
-# 13. Delegation
+## 13. Delegation
 
 Delegation must preserve:
 
@@ -602,9 +602,9 @@ delegation:
   provenance:
 ```
 
----
+______________________________________________________________________
 
-# 14. Delegation Chain
+## 14. Delegation Chain
 
 For:
 
@@ -630,9 +630,9 @@ AUTH(P0)
 
 Any invalid load-bearing delegation edge invalidates dependent authorization.
 
----
+______________________________________________________________________
 
-# 15. Broken Delegation
+## 15. Broken Delegation
 
 If:
 
@@ -651,9 +651,9 @@ INVALID(edge)
 → INVALIDATE(dependent descendants)
 ```
 
----
+______________________________________________________________________
 
-# 16. Authority Provenance
+## 16. Authority Provenance
 
 Every consequential authority claim should identify where the authority originated.
 
@@ -677,9 +677,9 @@ AUTHORITY WITHOUT PROVENANCE
 
 when provenance is required.
 
----
+______________________________________________________________________
 
-# 17. Authority Freshness
+## 17. Authority Freshness
 
 Authorization must respect expiry and revocation.
 
@@ -705,9 +705,9 @@ SECURITY EVENT
 REGIME CHANGE
 ```
 
----
+______________________________________________________________________
 
-# 18. Authority Epoch
+## 18. Authority Epoch
 
 Governed authority may be associated with an authority or policy epoch.
 
@@ -731,9 +731,9 @@ STALE AUTHORIZATION
 CURRENT AUTHORIZATION
 ```
 
----
+______________________________________________________________________
 
-# 19. Policy Epoch
+## 19. Policy Epoch
 
 Likewise:
 
@@ -751,9 +751,9 @@ if the applicable policy changed.
 
 Commit should use current policy or a specifically valid pinned-policy contract.
 
----
+______________________________________________________________________
 
-# 20. State-Relative Authorization
+## 20. State-Relative Authorization
 
 Authorization may depend on system state.
 
@@ -781,9 +781,9 @@ WRITE BLOCKED
 WHILE SYSTEM = RECOVERY
 ```
 
----
+______________________________________________________________________
 
-# 21. Regime-Relative Authorization
+## 21. Regime-Relative Authorization
 
 Authority may differ across regimes.
 
@@ -807,9 +807,9 @@ AUTHORIZED_IN_TEST
 AUTHORIZED_IN_PRODUCTION
 ```
 
----
+______________________________________________________________________
 
-# 22. Read / Write / Commit Separation
+## 22. Read / Write / Commit Separation
 
 AMOS should preserve:
 
@@ -831,9 +831,9 @@ as distinguishable authorization boundaries where material.
 
 Permission at one level does not automatically imply permission at the next.
 
----
+______________________________________________________________________
 
-# 23. Proposal Boundary
+## 23. Proposal Boundary
 
 An actor may be authorized to generate:
 
@@ -855,9 +855,9 @@ PROPOSAL AUTHORITY
 COMMIT AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 24. Agent Boundary
+## 24. Agent Boundary
 
 An agent's reasoning capability does not grant institutional authority.
 
@@ -873,9 +873,9 @@ AGENT CAN COMMIT
 
 unless a valid authority contract explicitly grants that operation.
 
----
+______________________________________________________________________
 
-# 25. Skill Boundary
+## 25. Skill Boundary
 
 A skill describes reusable procedure.
 
@@ -901,9 +901,9 @@ Thus:
 SKILL != AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 26. Workflow Boundary
+## 26. Workflow Boundary
 
 A workflow may orchestrate authorized components but does not create authority through composition.
 
@@ -926,9 +926,9 @@ does not imply:
 AUTHORIZED(STEP2)
 ```
 
----
+______________________________________________________________________
 
-# 27. Tool Boundary
+## 27. Tool Boundary
 
 Tools are effectors.
 
@@ -954,9 +954,9 @@ does not prove:
 REQUEST WAS GOVERNED CORRECTLY
 ```
 
----
+______________________________________________________________________
 
-# 28. Model Boundary
+## 28. Model Boundary
 
 Models can:
 
@@ -977,9 +977,9 @@ AUTHORITY
 
 A model cannot bootstrap commit authority merely by predicting that an action should occur.
 
----
+______________________________________________________________________
 
-# 29. Memory Boundary
+## 29. Memory Boundary
 
 Memory can contain an authority-related statement such as:
 
@@ -1006,9 +1006,9 @@ Therefore:
 MEMORY != AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 30. Knowledge Boundary
+## 30. Knowledge Boundary
 
 Knowledge may describe policies or roles.
 
@@ -1022,9 +1022,9 @@ PERMISSION
 
 Authoritative policy sources must remain distinguishable from summaries and derived knowledge.
 
----
+______________________________________________________________________
 
-# 31. Canon Boundary
+## 31. Canon Boundary
 
 Canon may define authority law.
 
@@ -1050,9 +1050,9 @@ KERNEL != CONTROL_PLANE
 CONTROL_PLANE != RUNTIME
 ```
 
----
+______________________________________________________________________
 
-# 32. Risk Coupling
+## 32. Risk Coupling
 
 Authorization must interact with:
 
@@ -1082,9 +1082,9 @@ STAGING
 ESCALATION
 ```
 
----
+______________________________________________________________________
 
-# 33. Risk Does Not Create Authority
+## 33. Risk Does Not Create Authority
 
 Conversely:
 
@@ -1102,9 +1102,9 @@ AUTHORIZED
 
 Even harmless operations may remain prohibited by policy or scope.
 
----
+______________________________________________________________________
 
-# 34. Emergency Authority
+## 34. Emergency Authority
 
 Emergency operation must not silently mean:
 
@@ -1129,9 +1129,9 @@ emergency_authority:
   termination_condition:
 ```
 
----
+______________________________________________________________________
 
-# 35. Break-Glass Semantics
+## 35. Break-Glass Semantics
 
 If AMOS supports break-glass authority, it should require explicit governance.
 
@@ -1155,9 +1155,9 @@ REVIEW
 
 Break-glass is not equivalent to bypass.
 
----
+______________________________________________________________________
 
-# 36. Separation of Duties
+## 36. Separation of Duties
 
 Certain operations may require multiple distinct authorities.
 
@@ -1181,9 +1181,9 @@ when governance requires independence.
 
 The kernel must not assume independence merely from different labels.
 
----
+______________________________________________________________________
 
-# 37. Provenance Independence
+## 37. Provenance Independence
 
 If:
 
@@ -1196,9 +1196,9 @@ are both derived from the same compromised authority source, apparent multiplici
 
 Independence must be demonstrated when load-bearing.
 
----
+______________________________________________________________________
 
-# 38. Self-Authorization Firewall
+## 38. Self-Authorization Firewall
 
 Default law:
 
@@ -1225,9 +1225,9 @@ WORKFLOW CREATES ROLE
 → WORKFLOW GAINS ROLE
 ```
 
----
+______________________________________________________________________
 
-# 39. Circular Authority
+## 39. Circular Authority
 
 Authority graphs must detect circular justification.
 
@@ -1249,9 +1249,9 @@ CIRCULAR JUSTIFICATION
 PROVENANCE ROOT
 ```
 
----
+______________________________________________________________________
 
-# 40. Authority Root
+## 40. Authority Root
 
 A valid authorization chain ultimately requires an accepted authority root appropriate to its scope.
 
@@ -1268,9 +1268,9 @@ depending on the system and action.
 
 The existence and hierarchy of actual roots belong to `AUTHORITY_CANON` and the control plane.
 
----
+______________________________________________________________________
 
-# 41. Deny by Absence
+## 41. Deny by Absence
 
 For authority-sensitive actions:
 
@@ -1296,9 +1296,9 @@ AUTHORITY = UNKNOWN
 DO NOT AUTHORIZE
 ```
 
----
+______________________________________________________________________
 
-# 42. Explicit Denial
+## 42. Explicit Denial
 
 Explicit valid denial dominates lower-priority permission where the law hierarchy says it does.
 
@@ -1320,9 +1320,9 @@ AUTHORITY_CANON
 CONTROL_PLANE POLICY
 ```
 
----
+______________________________________________________________________
 
-# 43. Conflicting Authority
+## 43. Conflicting Authority
 
 Suppose:
 
@@ -1347,9 +1347,9 @@ must be preserved.
 
 Do not select whichever source is more convenient.
 
----
+______________________________________________________________________
 
-# 44. Constraint Intersection
+## 44. Constraint Intersection
 
 When multiple valid authority constraints apply:
 
@@ -1370,9 +1370,9 @@ INTERSECTION(
 
 Conceptually, effective authority cannot exceed the narrowest load-bearing constraint.
 
----
+______________________________________________________________________
 
-# 45. Authorization Confidence Ceiling
+## 45. Authorization Confidence Ceiling
 
 For derived authorization conclusion `C`:
 
@@ -1393,9 +1393,9 @@ MIN(
 
 A weak load-bearing premise caps the authorization conclusion.
 
----
+______________________________________________________________________
 
-# 46. Authorization Classes
+## 46. Authorization Classes
 
 Proposed kernel result classes:
 
@@ -1411,9 +1411,9 @@ CAC — COMPETING
 
 These remain `AMOS_MODEL` until formally adopted.
 
----
+______________________________________________________________________
 
-# 47. CA0 — Denied
+## 47. CA0 — Denied
 
 Use when:
 
@@ -1427,9 +1427,9 @@ INVALID DELEGATION
 
 decisively blocks the request.
 
----
+______________________________________________________________________
 
-# 48. CA1 — Escalation Required
+## 48. CA1 — Escalation Required
 
 Use when:
 
@@ -1441,9 +1441,9 @@ SEPARATION OF DUTIES REQUIRED
 AUTHORITY CONFLICT REQUIRES GOVERNANCE
 ```
 
----
+______________________________________________________________________
 
-# 49. CA2 — Proposal Only
+## 49. CA2 — Proposal Only
 
 Use when an actor may:
 
@@ -1458,9 +1458,9 @@ but lacks commit authority.
 
 This class is important for cognitive agents.
 
----
+______________________________________________________________________
 
-# 50. CA3 — Conditional Authorization
+## 50. CA3 — Conditional Authorization
 
 Example:
 
@@ -1476,9 +1476,9 @@ IF:
 
 Failure of a load-bearing condition invalidates authorization.
 
----
+______________________________________________________________________
 
-# 51. CA4 — Authorized Within Scope
+## 51. CA4 — Authorized Within Scope
 
 Use when all applicable constraints are valid.
 
@@ -1492,9 +1492,9 @@ THE RECORDED ENVELOPE
 
 not universal permission.
 
----
+______________________________________________________________________
 
-# 52. CAX — Unknown/Gap
+## 52. CAX — Unknown/Gap
 
 Use when a load-bearing authorization fact cannot be established.
 
@@ -1508,9 +1508,9 @@ UNKNOWN DELEGATION
 UNKNOWN TARGET CLASS
 ```
 
----
+______________________________________________________________________
 
-# 53. CAC — Competing
+## 53. CAC — Competing
 
 Use when incompatible authority claims remain genuinely unresolved.
 
@@ -1522,9 +1522,9 @@ DENY
 
 must remain visible until precedence or additional evidence resolves the conflict.
 
----
+______________________________________________________________________
 
-# 54. Authorization Decision Gate
+## 54. Authorization Decision Gate
 
 ```text
 REQUEST
@@ -1592,9 +1592,9 @@ CONDITIONS REMAIN?
 CA4
 ```
 
----
+______________________________________________________________________
 
-# 55. TOCTOU Authorization
+## 55. TOCTOU Authorization
 
 Authorization may change between:
 
@@ -1622,9 +1622,9 @@ AUTHORIZED @ COMMIT
 
 For consequential operations, authorization should be revalidated at the commit boundary where material.
 
----
+______________________________________________________________________
 
-# 56. MVCC / CAS Interaction
+## 56. MVCC / CAS Interaction
 
 Suppose authorization was derived against:
 
@@ -1652,9 +1652,9 @@ COMMIT
 
 A stale authorization proof must not silently survive a material epoch change.
 
----
+______________________________________________________________________
 
-# 57. Atomic Multi-Resource Authorization
+## 57. Atomic Multi-Resource Authorization
 
 If one operation atomically affects:
 
@@ -1684,9 +1684,9 @@ NO AUTHORITATIVE ATOMIC COMMIT
 
 unless the operation contract permits safe partial execution.
 
----
+______________________________________________________________________
 
-# 58. Partial Authorization
+## 58. Partial Authorization
 
 If a request contains separable effects:
 
@@ -1716,9 +1716,9 @@ ATOMICITY IS NOT REQUIRED
 
 Otherwise reject or escalate the whole operation.
 
----
+______________________________________________________________________
 
-# 59. Capability Escalation
+## 59. Capability Escalation
 
 A capability escalation occurs when an actor obtains or attempts an effect beyond its authorized capability envelope.
 
@@ -1736,9 +1736,9 @@ USER SCOPE → SYSTEM SCOPE
 
 Such transitions require explicit authorization.
 
----
+______________________________________________________________________
 
-# 60. Confused-Deputy Constraint
+## 60. Confused-Deputy Constraint
 
 An authorized component must not become an unintended authority proxy for an unauthorized requester.
 
@@ -1763,9 +1763,9 @@ SCOPE
 
 rather than relying solely on B's own capability.
 
----
+______________________________________________________________________
 
-# 61. Credential Possession
+## 61. Credential Possession
 
 Possessing a credential may be evidence of access but is not automatically sufficient evidence of legitimate authority.
 
@@ -1786,9 +1786,9 @@ TOKEN USED OUTSIDE INTENDED CONTEXT
 
 are plausible.
 
----
+______________________________________________________________________
 
-# 62. Revocation
+## 62. Revocation
 
 Revocation should invalidate dependent authorization without corrupting unrelated authority.
 
@@ -1802,9 +1802,9 @@ INVALIDATE(
 
 Do not globally revoke unrelated authority unless the dependency graph requires it.
 
----
+______________________________________________________________________
 
-# 63. Supersession
+## 63. Supersession
 
 New authority or policy does not erase lineage.
 
@@ -1821,9 +1821,9 @@ DEPENDENT INVALIDATION
 
 This supports audit and recovery.
 
----
+______________________________________________________________________
 
-# 64. Authorization Proof Capsule
+## 64. Authorization Proof Capsule
 
 Consequential authorization should conceptually carry:
 
@@ -1860,9 +1860,9 @@ authorization_proof:
   confidence_ceiling:
 ```
 
----
+______________________________________________________________________
 
-# 65. Invalidation Conditions
+## 65. Invalidation Conditions
 
 Authorization should be invalidated when a load-bearing condition changes.
 
@@ -1883,9 +1883,9 @@ SECURITY STATE CHANGED
 TIME WINDOW EXPIRED
 ```
 
----
+______________________________________________________________________
 
-# 66. Authorization Cache
+## 66. Authorization Cache
 
 Cached authorization is valid only while its dependency closure remains valid.
 
@@ -1907,9 +1907,9 @@ If any load-bearing dependency changes:
 INVALIDATE CACHE
 ```
 
----
+______________________________________________________________________
 
-# 67. Authorization Is Non-Transitive by Default
+## 67. Authorization Is Non-Transitive by Default
 
 From:
 
@@ -1926,9 +1926,9 @@ A AUTHORIZED TO DIRECTLY CALL C
 
 unless an explicit delegation or composition rule permits it.
 
----
+______________________________________________________________________
 
-# 68. Authorization Is Non-Inheritable by Default
+## 68. Authorization Is Non-Inheritable by Default
 
 From:
 
@@ -1950,9 +1950,9 @@ WORKFLOW AUTHORIZED
 
 does not automatically authorize every dynamically introduced step.
 
----
+______________________________________________________________________
 
-# 69. Authority and Ownership
+## 69. Authority and Ownership
 
 Ownership may be an authority source in some domains, but:
 
@@ -1972,9 +1972,9 @@ SHARED OWNERSHIP
 INSTITUTIONAL GOVERNANCE
 ```
 
----
+______________________________________________________________________
 
-# 70. Human Authorization
+## 70. Human Authorization
 
 Human instruction can be a material authority source where the human has appropriate authority.
 
@@ -1997,9 +1997,9 @@ APPLICABLE HIGHER-ORDER CONSTRAINTS
 
 Human instruction cannot silently override higher-order non-waivable constraints.
 
----
+______________________________________________________________________
 
-# 71. Ambiguous Authorization
+## 71. Ambiguous Authorization
 
 Ambiguity affecting a consequential permission should not be resolved by maximizing capability.
 
@@ -2014,9 +2014,9 @@ REVERSIBLE ACTION
 
 depending on stakes.
 
----
+______________________________________________________________________
 
-# 72. Authorization and Intent
+## 72. Authorization and Intent
 
 Permission to achieve objective `G` does not necessarily imply permission for every means capable of achieving `G`.
 
@@ -2028,9 +2028,9 @@ AUTHORIZED(ALL METHODS)
 
 The method itself may require separate authority.
 
----
+______________________________________________________________________
 
-# 73. Purpose Limitation
+## 73. Purpose Limitation
 
 Authority may be purpose-bound.
 
@@ -2048,9 +2048,9 @@ FOR UNRELATED ANALYTICS
 
 when purpose is load-bearing.
 
----
+______________________________________________________________________
 
-# 74. Data-Class Constraint
+## 74. Data-Class Constraint
 
 Authority may depend on target classification.
 
@@ -2067,9 +2067,9 @@ CANON
 
 Permission for one class does not imply permission for another.
 
----
+______________________________________________________________________
 
-# 75. External Effect Constraint
+## 75. External Effect Constraint
 
 External actions deserve explicit authorization boundaries.
 
@@ -2088,9 +2088,9 @@ MODIFY THIRD-PARTY SYSTEM
 
 The fact that a runtime connector can perform the operation is not authorization.
 
----
+______________________________________________________________________
 
-# 76. Canon Promotion Constraint
+## 76. Canon Promotion Constraint
 
 To promote an artifact into canon, ordinary write authority is insufficient if canon governance requires higher authority.
 
@@ -2113,9 +2113,9 @@ APPROVAL
 COMMIT AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 77. Persistent Memory Authorization
+## 77. Persistent Memory Authorization
 
 Memory operations should distinguish:
 
@@ -2135,9 +2135,9 @@ CAN GENERATE MEMORY CANDIDATE
 CAN PERSIST IT
 ```
 
----
+______________________________________________________________________
 
-# 78. State Authorization
+## 78. State Authorization
 
 Likewise:
 
@@ -2151,9 +2151,9 @@ RESTORE RECOVERY STATE
 
 should remain separable where architecture requires.
 
----
+______________________________________________________________________
 
-# 79. Control-Plane Interaction
+## 79. Control-Plane Interaction
 
 `K_CAPABILITY_AUTHORIZATION` supplies invariants such as:
 
@@ -2174,9 +2174,9 @@ WHAT
 UNDER WHICH CONDITIONS
 ```
 
----
+______________________________________________________________________
 
-# 80. Runtime Interaction
+## 80. Runtime Interaction
 
 Runtime must not interpret:
 
@@ -2201,9 +2201,9 @@ REQUEST
 
 where applicable.
 
----
+______________________________________________________________________
 
-# 81. Observability
+## 81. Observability
 
 Authorization-sensitive events should be observable.
 
@@ -2227,9 +2227,9 @@ STALE_AUTHORIZATION_REJECTED
 
 Logs must not expose protected secrets merely for observability.
 
----
+______________________________________________________________________
 
-# 82. Security Boundary
+## 82. Security Boundary
 
 Authorization depends on security but does not replace it.
 
@@ -2248,9 +2248,9 @@ CONFUSED DEPUTY
 
 These belong primarily under `18_SECURITY` and control-plane/runtime implementations.
 
----
+______________________________________________________________________
 
-# 83. Kernel Invariants
+## 83. Kernel Invariants
 
 ```text
 KCA-01
@@ -2344,9 +2344,9 @@ KCA-30
 AUTHORIZATION MUST REMAIN BOUNDED BY SCOPE, REGIME, TIME, POLICY, AND PROVENANCE
 ```
 
----
+______________________________________________________________________
 
-# 84. Required Tests
+## 84. Required Tests
 
 ```text
 CAPABILITY-AUTHORITY-SEPARATION TEST
@@ -2387,9 +2387,9 @@ PERSISTENT-MEMORY-AUTHORIZATION TEST
 AUTHORITATIVE-STATE-AUTHORIZATION TEST
 ```
 
----
+______________________________________________________________________
 
-# 85. Negative Tests
+## 85. Negative Tests
 
 ```text
 TOOL EXISTS
@@ -2478,9 +2478,9 @@ UNKNOWN AUTHORITY
 MUST FAIL
 ```
 
----
+______________________________________________________________________
 
-# 86. Failure Modes
+## 86. Failure Modes
 
 ```text
 CAPABILITY-AUTHORITY COLLAPSE
@@ -2507,9 +2507,9 @@ EXTERNAL-EFFECT AUTHORITY LEAK
 CANON-PROMOTION AUTHORITY LEAK
 ```
 
----
+______________________________________________________________________
 
-# 87. Recovery Semantics
+## 87. Recovery Semantics
 
 If unauthorized execution is detected:
 
@@ -2541,9 +2541,9 @@ RESUME THROUGH VALID GOVERNED PATH
 
 Do not destroy evidence required to determine how authority failed.
 
----
+______________________________________________________________________
 
-# 88. Interaction Matrix
+## 88. Interaction Matrix
 
 ```text
 AUTHORITY_CANON
@@ -2583,9 +2583,9 @@ STATE
 → HOLDS RELEVANT GOVERNED STATE
 ```
 
----
+______________________________________________________________________
 
-# 89. Promotion Gate
+## 89. Promotion Gate
 
 Before promotion beyond `AMOS_MODEL`, evidence should establish:
 
@@ -2637,9 +2637,9 @@ EMPIRICAL_VALIDATION = UNKNOWN/GAP
 FORMAL_VERIFICATION = UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 90. RSCF Node
+## 90. RSCF Node
 
 ```RSCF-NODE
 node_id: AMOS-OS-K-CAPABILITY-AUTHORIZATION
@@ -2680,9 +2680,9 @@ RSCF-RELATIONS:
   - VERIFIED_BY: README
 ```
 
----
+______________________________________________________________________
 
-# 91. Canonical Summary
+## 91. Canonical Summary
 
 ```text
 CAN THE SYSTEM DO IT?
@@ -2927,12 +2927,14 @@ README
 **Classification note:** this is substantive replacement content for `02_KERNEL/K_CAPABILITY_AUTHORIZATION.md`, but remains **AMOS_MODEL**. It specifies the proposed kernel-level capability/authority separation and authorization invariants; it does not establish that the corresponding control-plane policies, authorization graph, delegation enforcement, runtime gates, revocation, MVCC/CAS checks, or security mechanisms are implemented or empirically validated. Those remain `UNKNOWN/GAP` until supported by implementation, provenance, tests, and explicit promotion.
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 **MOC:** [[02_KERNEL/07_AUTHORITY/07_AUTHORITY_MOC|07_AUTHORITY_MOC]]

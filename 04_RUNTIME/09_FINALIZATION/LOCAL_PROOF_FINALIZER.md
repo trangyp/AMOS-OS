@@ -12,17 +12,17 @@ segment: 04_RUNTIME/09_FINALIZATION
 artifact_kind: FINALIZER_SPEC
 path: 04_RUNTIME/09_FINALIZATION/LOCAL_PROOF_FINALIZER.md
 tags:
-- amos-os
-- runtime
-- vault
-- 09_finalization
-- local_proof_finalizer
-- step_level_verification
-- rscf
-- canon_candidate
-- canon/runtime
-- law/L0-integrity
-- domain-canon-programming
+  - amos-os
+  - runtime
+  - vault
+  - 09_finalization
+  - local_proof_finalizer
+  - step_level_verification
+  - rscf
+  - canon_candidate
+  - canon/runtime
+  - law/L0-integrity
+  - domain-canon-programming
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -37,13 +37,13 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - 04_RUNTIME/09_FINALIZATION/09_FINALIZATION_MOC
-  - 01_CANON/01_CORE_LAWS/L0_INTEGRITY
-  - AMOS_CORPUS
+    - 04_RUNTIME/09_FINALIZATION/09_FINALIZATION_MOC
+    - 01_CANON/01_CORE_LAWS/L0_INTEGRITY
+    - AMOS_CORPUS
   scope:
-  - RUNTIME_FINALIZATION
-  - LOCAL_PROOF_VERIFICATION
-  - SOURCE_DEFINED_MODEL
+    - RUNTIME_FINALIZATION
+    - LOCAL_PROOF_VERIFICATION
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   finalization_moc:
     artifact: 04_RUNTIME/09_FINALIZATION/09_FINALIZATION_MOC
@@ -60,9 +60,9 @@ epistemic_boundary:
 
 `LOCAL_PROOF_FINALIZER.md` is the canonical Runtime Plane specification governing step-level formal verification, syntax-invariant type checking, and local state transition auditing within `04_RUNTIME/09_FINALIZATION`.
 
----
+______________________________________________________________________
 
-# 1. Step-Level Finalization Pipeline
+## 1. Step-Level Finalization Pipeline
 
 ```text
   Local Transition Step (\Delta S)
@@ -76,17 +76,17 @@ epistemic_boundary:
   4. Local Proof Witness Emission -> Forwarded to Capsule Finalizer
 ```
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Finalization MOC:** 04_RUNTIME/09_FINALIZATION/[[04_RUNTIME/09_FINALIZATION/09_FINALIZATION_MOC|09_FINALIZATION_MOC]]
 - **Law of Law:** 01_CANON/01_CORE_LAWS/[[01_CANON/01_CORE_LAWS/L0_INTEGRITY|L0_INTEGRITY]]
 - **DCP Compiler:** 11_KNOWLEDGE/05_FRAMEWORKS/[[01_CANON/04_INFRASTRUCTURE_CANON/DOMAIN_CANON_PROGRAMMING|DOMAIN_CANON_PROGRAMMING]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -104,9 +104,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME_MOC]] · 04_RUNTIME/09_FINALIZATION/[[04_RUNTIME/09_FINALIZATION/09_FINALIZATION_MOC|09_FINALIZATION_MOC]] · 01_CANON/01_CORE_LAWS/[[01_CANON/01_CORE_LAWS/L0_INTEGRITY|L0_INTEGRITY]]
 
----
+______________________________________________________________________
+
 **MOC:** 04_RUNTIME/09_FINALIZATION/[[04_RUNTIME/09_FINALIZATION/09_FINALIZATION_MOC|09_FINALIZATION_MOC]]

@@ -1,19 +1,22 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Vault Domain Knowledge — Amos Research Agent
 type: reference
 source: 07_SKILLS/amos-research-agent/references
 tags:
-- reference
-- amos-research-agent
-- type/skill
-- amos-build-from-spec
-- 2026-08-22-brain-inventory
-- 2026-08-22-executable-code-internals
-- 2026-08-22-amos-full-brain-os-architecture
-- canon
-- 2026-08-22-amos-go-board-19x19-formal-system
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-research-agent
+  - type/skill
+  - amos-build-from-spec
+  - 2026-08-22-brain-inventory
+  - 2026-08-22-executable-code-internals
+  - 2026-08-22-amos-full-brain-os-architecture
+  - canon
+  - 2026-08-22-amos-go-board-19x19-formal-system
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -45,7 +48,7 @@ Objective: To develop and validate the AI Sweet Spot Model—a framework mapping
 involvement levels across five distinct cognitive populations to maximize effectiveness while
 minimizing workload.
 Methods: Systematic evidence synthesis across PubMed, PsycINFO, IEEE Xplore, and arXiv (2020-
-2025) examining AI assistance, cognitive load, and performance. We analyzed neurotypical (N=54),
+2025\) examining AI assistance, cognitive load, and performance. We analyzed neurotypical (N=54),
 ADHD (N=633), autism spectrum (N=240), dyslexic (N=200), twice-exceptional (N=50), and elderly
 (N=400,000+) populations using dual-axis measurement of cognitive effectiveness and workload
 against AI involvement percentage.
@@ -60,10 +63,11 @@ neurotypical users. These findings necessitate differentiated AI policies in edu
 optimization for neurodivergent talent, and culturally responsive AI design.
 Keywords: artificial intelligence, cognitive diversity, neurodivergence, human-computer interaction,
 cognitive load theory, differential optimization
+
 1. Introduction
-1.1 The Cognitive Debt Problem
-The proliferation of large language models (LLMs) has created unprecedented opportunities to study
-human-AI cognitive interaction at scale. Recent neurophysiological research from MIT provides a
+   1.1 The Cognitive Debt Problem
+   The proliferation of large language models (LLMs) has created unprecedented opportunities to study
+   human-AI cognitive interaction at scale. Recent neurophysiological research from MIT provides a
 
 concerning baseline: when neurotypical adults used ChatGPT for essay writing, EEG measurements
 revealed:
@@ -77,21 +81,23 @@ These "cognitive debt" effects suggest adaptive neural changes toward reduced ef
 Current interpretations of cognitive debt assume all brains respond identically to technological
 scaffolding. This assumption contradicts substan
 
----
+______________________________________________________________________
 
 ### Source 2: RSCF — Resonance Scan Causal Field
 
 > Path: `rscf/SKILL (rscf).md` | Size: 1071 chars | Match score: 5 | content_hash: 24f40a537f42f350
 
-# RSCF — Resonance Scan Causal Field
+## RSCF — Resonance Scan Causal Field
 
 ## Purpose
+
 RSCF (Resonance Scan Causal Field) is the AMOS proof capsule format for
 evidence-grounded claims. It provides a structured way to make, audit, and
 invalidate claims with dependencies, scope, freshness, competing explanations,
 falsifiers, and confidence ceilings.
 
 ## Structure
+
 - **Claim**: The assertion being made
 - **Evidence**: Supporting evidence with provenance
 - **Scope**: Domain and regime boundaries
@@ -101,23 +107,24 @@ falsifiers, and confidence ceilings.
 - **Confidence**: Upper bound on confidence level
 
 ## Usage
+
 Use RSCF when making consequential claims, code assertions, research findings,
 or decisions that require evidence-grounded conclusions.
 
 ## Links
+
 - See also: amos-rscf-claims skill
 - See also: amos-self-review-loop skill
 
----
+______________________________________________________________________
 
----
+______________________________________________________________________
 
 ### Source 3: Archive subfolder: md
 
 > Path: `indexes/INDEX_md_v2.md` | Size: 62031 chars | Match score: 3 | content_hash: f8e88d3c0f2e90eb
 
-# Archive subfolder: md
-
+## Archive subfolder: md
 
 - automation profiles
 - Automation Engine Model
@@ -192,9 +199,9 @@ or decisions that require evidence-grounded conclusions.
 - 2026-08-22 The Complete Human System — Books One–Six
 - 19x19 Sparse Coupling Matri
 
----
-**MOC:** references_MOC
----
+______________________________________________________________________
+
+## **MOC:** references_MOC
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -202,12 +209,14 @@ or decisions that require evidence-grounded conclusions.
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-research-agent-vault-domain-knowledge
 node_type: reference
 path: 07_SKILLS/amos-research-agent/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

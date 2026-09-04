@@ -12,27 +12,27 @@ segment: 01_CANON/02_UNIVERSE_CANON
 artifact_kind: UNIVERSE_PLANE
 path: 01_CANON/02_UNIVERSE_CANON/P3_KNOWLEDGE_MEMORY.md
 tags:
-- amos-os
-- canon
-- universe_canon
-- knowledge
-- memory
-- persistence
-- consolidation
-- staleness
-- retrieval
-- provenance
-- confidence
-- epoch
-- diversity
-- revalidation
-- p3_plane
-- rscf
-- canon/universe
-- validation
-- p2-sense-evidence
-- p1-reality-environment
-- trang-framework-recursive-ontology-dynamics
+  - amos-os
+  - canon
+  - universe_canon
+  - knowledge
+  - memory
+  - persistence
+  - consolidation
+  - staleness
+  - retrieval
+  - provenance
+  - confidence
+  - epoch
+  - diversity
+  - revalidation
+  - p3_plane
+  - rscf
+  - canon/universe
+  - validation
+  - p2-sense-evidence
+  - p1-reality-environment
+  - trang-framework-recursive-ontology-dynamics
 version: 0.2.0
 updated: '2026-08-26'
 status: PROPOSED_SPECIFICATION
@@ -47,14 +47,14 @@ rscf:
   state: SOURCE_GROUNDED
   claim_class: AMOS_MODEL
   provenance:
-  - AMOS_corpus
-  - 01_CANON/02_UNIVERSE_CANON/AMOS_7_PART_UNIVERSE_CANON
-  - 01_CANON/02_UNIVERSE_CANON/HML_CANON
-  - 01_CANON/02_UNIVERSE_CANON/P2_SENSE_EVIDENCE
-  - TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS
+    - AMOS_corpus
+    - 01_CANON/02_UNIVERSE_CANON/AMOS_7_PART_UNIVERSE_CANON
+    - 01_CANON/02_UNIVERSE_CANON/HML_CANON
+    - 01_CANON/02_UNIVERSE_CANON/P2_SENSE_EVIDENCE
+    - TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS
   scope:
-  - UNIVERSE_CANON
-  - P3_KNOWLEDGE_MEMORY
+    - UNIVERSE_CANON
+    - P3_KNOWLEDGE_MEMORY
 ---
 
 # P3 — Knowledge & Memory Plane
@@ -67,7 +67,7 @@ P3 governs durable retention, retrieval, consolidation, staleness, revalidation,
 
 Its fundamental boundary is:
 
-```text
+````text
 MEMORY != TRUTH
 
 Stored state remains epistemically typed and provenance-bound.
@@ -94,7 +94,7 @@ NOT ESTABLISHED
 RUNTIME VALIDATION
 =
 NOT ESTABLISHED
-```
+````
 
 The governing distinctions are:
 
@@ -132,9 +132,9 @@ UNKNOWN/GAP != PASS
 
 **Origin architect / steward:** **Trang Phan**
 
----
+______________________________________________________________________
 
-# 1. Purpose
+## 1. Purpose
 
 P3 governs the transformation:
 
@@ -153,44 +153,44 @@ while preserving the epistemic limitations inherited from upstream evidence.
 P3 answers:
 
 1. What deserves persistence?
-2. At what confidence?
-3. Under which provenance?
-4. During which epoch or validity interval?
-5. When must stored knowledge be revalidated?
-6. When should it be invalidated?
-7. What qualifies for consolidation into more durable knowledge?
+1. At what confidence?
+1. Under which provenance?
+1. During which epoch or validity interval?
+1. When must stored knowledge be revalidated?
+1. When should it be invalidated?
+1. What qualifies for consolidation into more durable knowledge?
 
 P3 does not transform a claim into truth merely by storing it.
 
----
+______________________________________________________________________
 
-# 2. Scope
+## 2. Scope
 
 P3 governs:
 
-* durable knowledge storage;
-* memory identity;
-* persistence;
-* retrieval;
-* provenance retention;
-* confidence retention;
-* epistemic typing;
-* epoch/version tracking;
-* temporal validity;
-* staleness;
-* revalidation;
-* consolidation;
-* source diversity;
-* dependency tracking;
-* supersession;
-* contradiction preservation;
-* selective invalidation;
-* memory repair;
-* knowledge promotion.
+- durable knowledge storage;
+- memory identity;
+- persistence;
+- retrieval;
+- provenance retention;
+- confidence retention;
+- epistemic typing;
+- epoch/version tracking;
+- temporal validity;
+- staleness;
+- revalidation;
+- consolidation;
+- source diversity;
+- dependency tracking;
+- supersession;
+- contradiction preservation;
+- selective invalidation;
+- memory repair;
+- knowledge promotion.
 
----
+______________________________________________________________________
 
-# 3. Position in the Universe Canon
+## 3. Position in the Universe Canon
 
 P3 follows P2.
 
@@ -233,9 +233,9 @@ Persist(P2Evidence)
 VerifiedTruth
 $$
 
----
+______________________________________________________________________
 
-# 4. Canonical Questions
+## 4. Canonical Questions
 
 ## P3-Q1 — Persistence
 
@@ -243,7 +243,7 @@ $$
 
 Persistence must preserve enough epistemic context to prevent stored claims from becoming detached from their original support.
 
----
+______________________________________________________________________
 
 ## P3-Q2 — Expiration and Revalidation
 
@@ -251,14 +251,14 @@ Persistence must preserve enough epistemic context to prevent stored claims from
 
 Knowledge validity may depend on:
 
-* time;
-* environment;
-* regime;
-* source freshness;
-* upstream dependencies;
-* version;
-* supersession;
-* changing external state.
+- time;
+- environment;
+- regime;
+- source freshness;
+- upstream dependencies;
+- version;
+- supersession;
+- changing external state.
 
 Therefore:
 
@@ -268,9 +268,9 @@ STORED ONCE
 VALID FOREVER
 ```
 
----
+______________________________________________________________________
 
-# 5. P3-1 — Typed Persistence
+## 5. P3-1 — Typed Persistence
 
 ## Law
 
@@ -303,9 +303,9 @@ ConfidenceBound(K)
 EpochBound(K)
 $$
 
----
+______________________________________________________________________
 
-# 6. Memory Entry Contract
+## 6. Memory Entry Contract
 
 A normalized target record may be represented as:
 
@@ -363,9 +363,9 @@ P3_MEMORY_ENTRY:
 
 This is a conceptual contract until executable binding is established.
 
----
+______________________________________________________________________
 
-# 7. Typed Persistence Boundary
+## 7. Typed Persistence Boundary
 
 An entry should not become durable knowledge as an untyped blob.
 
@@ -397,9 +397,9 @@ TEXT STORED
 KNOWLEDGE VALIDATED
 ```
 
----
+______________________________________________________________________
 
-# 8. Provenance Persistence
+## 8. Provenance Persistence
 
 P3 inherits provenance from P2.
 
@@ -421,7 +421,7 @@ $$
 K\rightarrow E
 $$
 
-must remain recoverable where \(E\) is load-bearing.
+must remain recoverable where (E) is load-bearing.
 
 Conceptually:
 
@@ -439,9 +439,9 @@ P3 CONSOLIDATED KNOWLEDGE
 
 The lineage must not disappear merely because information has been summarized or consolidated.
 
----
+______________________________________________________________________
 
-# 9. Persistent Provenance Invariant
+## 9. Persistent Provenance Invariant
 
 ```text
 TRANSFORMATION
@@ -461,9 +461,9 @@ UNKNOWN/GAP
 
 rather than reconstructed without evidence.
 
----
+______________________________________________________________________
 
-# 10. Confidence Persistence
+## 10. Confidence Persistence
 
 Stored confidence is contextual metadata, not permanent truth probability.
 
@@ -489,11 +489,11 @@ CONFIDENCE_RECORD:
 
 Confidence may subsequently fall if dependencies become stale or invalid.
 
----
+______________________________________________________________________
 
-# 11. Confidence Is Not Frozen
+## 11. Confidence Is Not Frozen
 
-Given memory \(K\):
+Given memory (K):
 
 $$
 Conf(K,t_0)
@@ -507,17 +507,17 @@ $$
 
 if:
 
-* source evidence changes;
-* regime changes;
-* dependencies fail;
-* contradicting evidence arrives;
-* temporal validity expires.
+- source evidence changes;
+- regime changes;
+- dependencies fail;
+- contradicting evidence arrives;
+- temporal validity expires.
 
 Therefore confidence is validity-dependent.
 
----
+______________________________________________________________________
 
-# 12. Epoch Binding
+## 12. Epoch Binding
 
 P3-1 requires an epoch.
 
@@ -545,9 +545,9 @@ EPOCH_BINDING:
 
 Not every use requires every field, but the epoch must be sufficient to determine whether reuse remains valid.
 
----
+______________________________________________________________________
 
-# 13. Epoch Validity
+## 13. Epoch Validity
 
 A claim valid in epoch:
 
@@ -571,17 +571,17 @@ CURRENTLY VALID
 
 This is particularly important for changing:
 
-* policies;
-* software versions;
-* runtime state;
-* governance authority;
-* market conditions;
-* environment state;
-* source content.
+- policies;
+- software versions;
+- runtime state;
+- governance authority;
+- market conditions;
+- environment state;
+- source content.
 
----
+______________________________________________________________________
 
-# 14. P3-2 — Memory Is MODEL
+## 14. P3-2 — Memory Is MODEL
 
 ## Law
 
@@ -610,11 +610,11 @@ Memory(t_0)
 GuaranteedState(t_1)
 $$
 
-for arbitrary \(t_1>t_0\).
+for arbitrary (t_1>t_0).
 
----
+______________________________________________________________________
 
-# 15. Validator Supremacy
+## 15. Validator Supremacy
 
 If current validation contradicts stored memory:
 
@@ -630,9 +630,9 @@ This does not mean every new statement automatically overrides memory.
 
 The validator itself must be admissible, scoped, provenance-aware, and sufficiently authoritative for the claim being checked.
 
----
+______________________________________________________________________
 
-# 16. Memory / Validator Conflict
+## 16. Memory / Validator Conflict
 
 Example:
 
@@ -654,9 +654,9 @@ STALE / SUPERSEDED
 
 rather than forcing current reality to conform to stored state.
 
----
+______________________________________________________________________
 
-# 17. Memory Cannot Override Reality
+## 17. Memory Cannot Override Reality
 
 P3 inherits P1 Reality Primacy.
 
@@ -682,9 +682,9 @@ ENVIRONMENT IS X
 
 without current evidential support where freshness matters.
 
----
+______________________________________________________________________
 
-# 18. Retrieval Is Not Validation
+## 18. Retrieval Is Not Validation
 
 Retrieval answers:
 
@@ -708,9 +708,9 @@ $$
 
 A retrieval system should not silently collapse these operations.
 
----
+______________________________________________________________________
 
-# 19. Retrieval Contract
+## 19. Retrieval Contract
 
 ```yaml
 P3_RETRIEVAL_RESULT:
@@ -744,9 +744,9 @@ P3_RETRIEVAL_RESULT:
 
 Retrieval should return enough context to judge reuse.
 
----
+______________________________________________________________________
 
-# 20. Freshness
+## 20. Freshness
 
 Memory has a temporal applicability envelope.
 
@@ -778,9 +778,9 @@ Thus:
 FRESHNESS != TRUTH
 ```
 
----
+______________________________________________________________________
 
-# 21. Staleness Function
+## 21. Staleness Function
 
 Conceptually:
 
@@ -799,9 +799,9 @@ This is a modeling abstraction, not a canonical empirical equation.
 
 Different knowledge types may decay at different rates.
 
----
+______________________________________________________________________
 
-# 22. Freshness Policy
+## 22. Freshness Policy
 
 ```yaml
 P3_FRESHNESS_POLICY:
@@ -825,9 +825,9 @@ P3_FRESHNESS_POLICY:
     - MARK_STALE
 ```
 
----
+______________________________________________________________________
 
-# 23. Revalidation
+## 23. Revalidation
 
 Revalidation is required when a validity condition may no longer hold.
 
@@ -853,9 +853,9 @@ AUTHORITY EPOCH CHANGE
 MODEL VERSION CHANGE
 ```
 
----
+______________________________________________________________________
 
-# 24. Revalidation Principle
+## 24. Revalidation Principle
 
 Do not recompute everything merely because one memory entry becomes stale.
 
@@ -875,9 +875,9 @@ REVALIDATE SMALLEST SUFFICIENT CLOSURE
 
 This preserves repairability.
 
----
+______________________________________________________________________
 
-# 25. Selective Invalidation
+## 25. Selective Invalidation
 
 Given:
 
@@ -888,7 +888,7 @@ K1
 └── K3
 ```
 
-if \(K2\) fails:
+if (K2) fails:
 
 ```text
 INVALIDATE:
@@ -910,9 +910,9 @@ LOCAL MEMORY FAILURE
 GLOBAL MEMORY RESET
 ```
 
----
+______________________________________________________________________
 
-# 26. Dependency Graph
+## 26. Dependency Graph
 
 ```yaml
 P3_DEPENDENCY_GRAPH:
@@ -935,9 +935,9 @@ P3_DEPENDENCY_GRAPH:
 
 Dependency edges determine invalidation scope.
 
----
+______________________________________________________________________
 
-# 27. P3-3 — Consolidation Requires Diversity
+## 27. P3-3 — Consolidation Requires Diversity
 
 ## Law
 
@@ -952,9 +952,9 @@ This rule must be interpreted together with P2 evidence independence.
 
 Multiple records do not necessarily constitute diverse support.
 
----
+______________________________________________________________________
 
-# 28. Diversity Is Not Source Count
+## 28. Diversity Is Not Source Count
 
 Suppose:
 
@@ -982,9 +982,9 @@ SourceCount
 Diversity
 $$
 
----
+______________________________________________________________________
 
-# 29. Diversity Requirement
+## 29. Diversity Requirement
 
 Consolidation should consider dimensions such as:
 
@@ -1008,9 +1008,9 @@ where material.
 
 Diversity must be demonstrated, not inferred from superficial multiplicity.
 
----
+______________________________________________________________________
 
-# 30. Correlated Support
+## 30. Correlated Support
 
 Evidence:
 
@@ -1018,7 +1018,7 @@ $$
 E_1,E_2,E_3
 $$
 
-with common ancestor \(A\):
+with common ancestor (A):
 
 $$
 A\rightarrow E_1,E_2,E_3
@@ -1036,9 +1036,9 @@ $$
 
 when correlation is present.
 
----
+______________________________________________________________________
 
-# 31. Consolidation State Machine
+## 31. Consolidation State Machine
 
 ```text
 EPHEMERAL EVIDENCE
@@ -1072,9 +1072,9 @@ REJECT
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 32. Knowledge Harvest
+## 32. Knowledge Harvest
 
 P3 aligns with the AMOS knowledge-harvest pattern:
 
@@ -1088,21 +1088,21 @@ VALIDATED KNOWLEDGE
 
 Promotion must preserve:
 
-* provenance;
-* version/hash where available;
-* dependencies;
-* competing claims;
-* environment fit;
-* freshness;
-* governance state;
-* revalidation timing;
-* lineage.
+- provenance;
+- version/hash where available;
+- dependencies;
+- competing claims;
+- environment fit;
+- freshness;
+- governance state;
+- revalidation timing;
+- lineage.
 
 Documentation claims remain source claims until validated.
 
----
+______________________________________________________________________
 
-# 33. Consolidation Contract
+## 33. Consolidation Contract
 
 ```yaml
 P3_CONSOLIDATION:
@@ -1136,9 +1136,9 @@ P3_CONSOLIDATION:
   promotion_state:
 ```
 
----
+______________________________________________________________________
 
-# 34. Competing Knowledge
+## 34. Competing Knowledge
 
 P3 must preserve incompatible memories when evidence does not justify convergence.
 
@@ -1152,9 +1152,9 @@ CLAIM H2
 
 Neither should be silently overwritten merely because one is newer, more popular, or more fluent.
 
----
+______________________________________________________________________
 
-# 35. Competing-State Contract
+## 35. Competing-State Contract
 
 ```yaml
 P3_COMPETING_SET:
@@ -1179,20 +1179,20 @@ P3_COMPETING_SET:
     COMPETING
 ```
 
----
+______________________________________________________________________
 
-# 36. Contradiction Is Information
+## 36. Contradiction Is Information
 
 Contradictions should not automatically be treated as corruption.
 
 A contradiction may indicate:
 
-* regime shift;
-* source disagreement;
-* stale memory;
-* measurement difference;
-* scope mismatch;
-* genuine competing hypotheses.
+- regime shift;
+- source disagreement;
+- stale memory;
+- measurement difference;
+- scope mismatch;
+- genuine competing hypotheses.
 
 Therefore:
 
@@ -1204,9 +1204,9 @@ DELETE ONE SIDE
 
 The contradiction should be resolved only when discriminating evidence permits resolution.
 
----
+______________________________________________________________________
 
-# 37. Cheapest Discriminating Test
+## 37. Cheapest Discriminating Test
 
 When memories compete, prefer the smallest high-information check capable of changing the result.
 
@@ -1222,9 +1222,9 @@ UPDATE ONLY AFFECTED CLAIMS
 
 Do not accumulate redundant descendants of existing evidence merely to increase apparent confidence.
 
----
+______________________________________________________________________
 
-# 38. Memory Identity
+## 38. Memory Identity
 
 Every durable memory should have stable identity where consequential.
 
@@ -1246,16 +1246,16 @@ P3_MEMORY_IDENTITY:
 
 Identity supports:
 
-* deduplication;
-* supersession;
-* revision;
-* invalidation;
-* reproducibility;
-* provenance recovery.
+- deduplication;
+- supersession;
+- revision;
+- invalidation;
+- reproducibility;
+- provenance recovery.
 
----
+______________________________________________________________________
 
-# 39. Versioning
+## 39. Versioning
 
 Memory mutation should preserve lineage.
 
@@ -1277,9 +1277,9 @@ UPDATED
 HISTORICALLY NEVER DIFFERENT
 ```
 
----
+______________________________________________________________________
 
-# 40. Supersession
+## 40. Supersession
 
 ```yaml
 P3_SUPERSESSION:
@@ -1301,9 +1301,9 @@ P3_SUPERSESSION:
 
 Supersession should be explicit.
 
----
+______________________________________________________________________
 
-# 41. Persistent Provenance Across Versions
+## 41. Persistent Provenance Across Versions
 
 ```text
 SOURCE E
@@ -1329,9 +1329,9 @@ VERSION LINEAGE
 
 where material.
 
----
+______________________________________________________________________
 
-# 42. Memory and RSCF
+## 42. Memory and RSCF
 
 A durable RSCF node should conceptually preserve:
 
@@ -1363,9 +1363,9 @@ RSCF_MEMORY_BINDING:
 
 RSCF persistence must not erase uncertainty.
 
----
+______________________________________________________________________
 
-# 43. Proof Capsule Reuse
+## 43. Proof Capsule Reuse
 
 A stored proof capsule may be reused only while its validity envelope remains intact.
 
@@ -1387,9 +1387,9 @@ $$
 
 If one condition fails, only affected conclusions require invalidation.
 
----
+______________________________________________________________________
 
-# 44. Proof Capsule Memory
+## 44. Proof Capsule Memory
 
 ```yaml
 P3_PROOF_CAPSULE_MEMORY:
@@ -1427,9 +1427,9 @@ P3_PROOF_CAPSULE_MEMORY:
   reuse_status:
 ```
 
----
+______________________________________________________________________
 
-# 45. Weakest-Premise Persistence
+## 45. Weakest-Premise Persistence
 
 Storage does not raise the confidence ceiling of a claim.
 
@@ -1439,7 +1439,7 @@ $$
 C\leftarrow P_1,P_2,P_3
 $$
 
-then repeated persistence of \(C\) does not increase confidence beyond its load-bearing support.
+then repeated persistence of (C) does not increase confidence beyond its load-bearing support.
 
 Thus:
 
@@ -1449,9 +1449,9 @@ STORED MANY TIMES
 MORE VERIFIED
 ```
 
----
+______________________________________________________________________
 
-# 46. Compression and Confidence
+## 46. Compression and Confidence
 
 Knowledge compression may reduce representation size.
 
@@ -1465,9 +1465,9 @@ STRONGER EVIDENCE
 
 If compression removes uncertainty, provenance, or competing explanations, the compressed object is insufficient for consequential reuse unless those dependencies remain externally recoverable.
 
----
+______________________________________________________________________
 
-# 47. Memory Retrieval Hierarchy
+## 47. Memory Retrieval Hierarchy
 
 P3 should support fractal retrieval.
 
@@ -1491,9 +1491,9 @@ DO_NOT_LOAD_UNLESS_REQUIRED
 
 unless lower-level detail can materially change the answer.
 
----
+______________________________________________________________________
 
-# 48. H-Level Retrieval
+## 48. H-Level Retrieval
 
 At H-level, retrieve only high-order memory such as:
 
@@ -1509,9 +1509,9 @@ ACTIVE COMPETING MODELS
 CRITICAL GAPS
 ```
 
----
+______________________________________________________________________
 
-# 49. M-Level Retrieval
+## 49. M-Level Retrieval
 
 M-level may include:
 
@@ -1527,9 +1527,9 @@ CONSOLIDATED KNOWLEDGE
 REVALIDATION STATUS
 ```
 
----
+______________________________________________________________________
 
-# 50. L-Level Retrieval
+## 50. L-Level Retrieval
 
 L-level may include:
 
@@ -1549,9 +1549,9 @@ RAW DEPENDENCY
 
 Load only when needed.
 
----
+______________________________________________________________________
 
-# 51. Retrieval Sufficiency
+## 51. Retrieval Sufficiency
 
 The target is:
 
@@ -1567,9 +1567,9 @@ MAXIMUM AVAILABLE CONTEXT
 
 This limits stale-context contamination and unnecessary provenance mixing.
 
----
+______________________________________________________________________
 
-# 52. Memory Pollution
+## 52. Memory Pollution
 
 Memory pollution occurs conceptually when low-quality, duplicated, stale, or untyped state becomes persistent and influences future reasoning.
 
@@ -1593,9 +1593,9 @@ SUPERSEDED KNOWLEDGE
 
 P3 should prevent persistence from becoming confidence amplification.
 
----
+______________________________________________________________________
 
-# 53. Memory Admission
+## 53. Memory Admission
 
 Not every event deserves durable persistence.
 
@@ -1615,9 +1615,9 @@ subject to governance and storage policy.
 
 This is a model-level formulation, not a source-defined mathematical law.
 
----
+______________________________________________________________________
 
-# 54. Persistence Classes
+## 54. Persistence Classes
 
 A target implementation may distinguish:
 
@@ -1637,9 +1637,9 @@ But these classes are implementation targets unless separately established by na
 
 No persistence class automatically changes claim class.
 
----
+______________________________________________________________________
 
-# 55. Durable Does Not Mean Canonical
+## 55. Durable Does Not Mean Canonical
 
 ```text
 DURABLE MEMORY
@@ -1657,9 +1657,9 @@ EMPIRICAL TRUTH
 
 P3 persistence and canon governance remain separate concerns.
 
----
+______________________________________________________________________
 
-# 56. Memory / Authority Firewall
+## 56. Memory / Authority Firewall
 
 Stored authorization or authority state may become stale.
 
@@ -1673,9 +1673,9 @@ CURRENT AUTHORITY
 
 Consequential operations must validate current authority where required rather than relying only on remembered authorization.
 
----
+______________________________________________________________________
 
-# 57. Memory and MVCC/CAS
+## 57. Memory and MVCC/CAS
 
 P3 is conceptually compatible with AMOS MVCC/CAS reasoning.
 
@@ -1701,9 +1701,9 @@ before commitment.
 
 This does not assert that P3 currently implements a database MVCC mechanism.
 
----
+______________________________________________________________________
 
-# 58. Compare-and-Swap Concept
+## 58. Compare-and-Swap Concept
 
 Conceptually:
 
@@ -1723,9 +1723,9 @@ or explicit reconciliation.
 
 This protects consequential decisions from stale memory snapshots.
 
----
+______________________________________________________________________
 
-# 59. Atomic Multi-Memory Reasoning
+## 59. Atomic Multi-Memory Reasoning
 
 Some conclusions depend jointly on multiple memory nodes:
 
@@ -1747,9 +1747,9 @@ do not guarantee:
 JOINTLY COHERENT SNAPSHOT
 ```
 
----
+______________________________________________________________________
 
-# 60. Epoch Coherence
+## 60. Epoch Coherence
 
 For joint reasoning:
 
@@ -1771,9 +1771,9 @@ P3_EPOCH_COHERENCE:
 
 Cross-epoch reasoning is permitted only when compatibility is established.
 
----
+______________________________________________________________________
 
-# 61. Causal Epoch Finality
+## 61. Causal Epoch Finality
 
 P3 may preserve conclusions finalized under a specific causal/knowledge epoch.
 
@@ -1793,9 +1793,9 @@ VALID NOW
 
 This preserves causal lineage without freezing outdated conclusions.
 
----
+______________________________________________________________________
 
-# 62. Vault / File Boundary
+## 62. Vault / File Boundary
 
 The source explicitly states:
 
@@ -1813,15 +1813,15 @@ A filesystem can store representation.
 
 It does not, by storage alone, establish:
 
-* understanding;
-* reasoning;
-* awareness;
-* validation;
-* semantic integration.
+- understanding;
+- reasoning;
+- awareness;
+- validation;
+- semantic integration.
 
----
+______________________________________________________________________
 
-# 63. File Boundary
+## 63. File Boundary
 
 Therefore:
 
@@ -1841,9 +1841,9 @@ CLAIM CURRENTLY VALID
 
 Files are memory substrates requiring interpretation and validation.
 
----
+______________________________________________________________________
 
-# 64. Knowledge Graph Boundary
+## 64. Knowledge Graph Boundary
 
 Likewise:
 
@@ -1855,18 +1855,18 @@ VERIFIED KNOWLEDGE
 
 A graph edge may encode:
 
-* source claim;
-* observation;
-* derivation;
-* model;
-* contradiction;
-* unknown relation.
+- source claim;
+- observation;
+- derivation;
+- model;
+- contradiction;
+- unknown relation.
 
 Epistemic typing must survive graph storage.
 
----
+______________________________________________________________________
 
-# 65. Memory Repair
+## 65. Memory Repair
 
 When memory becomes invalid:
 
@@ -1888,9 +1888,9 @@ PRESERVE LINEAGE
 
 Do not erase unaffected memory.
 
----
+______________________________________________________________________
 
-# 66. Rollback Basin
+## 66. Rollback Basin
 
 Before consequential memory mutation, a system should retain enough prior state to recover.
 
@@ -1914,9 +1914,9 @@ P3_ROLLBACK_BASIN:
 
 This is a target governance structure, not an established executable mechanism.
 
----
+______________________________________________________________________
 
-# 67. Negative Cases
+## 67. Negative Cases
 
 ```yaml
 P3_NEGATIVE_CASES:
@@ -1966,9 +1966,9 @@ P3_NEGATIVE_CASES:
     - unknown_gap_treated_as_pass
 ```
 
----
+______________________________________________________________________
 
-# 68. Gap Register
+## 68. Gap Register
 
 ```yaml
 P3_GAPS:
@@ -2009,9 +2009,9 @@ P3_GAPS:
     status: CONCEPTUAL_ONLY
 ```
 
----
+______________________________________________________________________
 
-# 69. Falsifiers / Invalidation Conditions
+## 69. Falsifiers / Invalidation Conditions
 
 P3 requires revision if:
 
@@ -2039,28 +2039,28 @@ Temporally bounded memory is reused outside its validity envelope without revali
 
 Storage presence itself is used to claim reasoning or validation capability.
 
----
+______________________________________________________________________
 
-# 70. Promotion Gate
+## 70. Promotion Gate
 
 Promotion beyond `CONDITIONAL` requires:
 
-* [ ] `KM-1..4` semantics resolved from authoritative native source;
-* [ ] typed persistence implemented;
-* [ ] provenance persistence demonstrated;
-* [ ] confidence metadata persisted;
-* [ ] epoch/version identity implemented;
-* [ ] freshness/staleness policy implemented;
-* [ ] revalidation triggers implemented;
-* [ ] supersession lineage preserved;
-* [ ] dependency-based selective invalidation demonstrated;
-* [ ] competing memories preserved;
-* [ ] diversity validation implemented;
-* [ ] correlated-source inflation prevented;
-* [ ] stale-snapshot commit negative cases covered;
-* [ ] vault/file substrate boundary enforced;
-* [ ] artifact-specific validation receipt persisted;
-* [ ] unresolved critical gaps remain visible.
+- [ ] `KM-1..4` semantics resolved from authoritative native source;
+- [ ] typed persistence implemented;
+- [ ] provenance persistence demonstrated;
+- [ ] confidence metadata persisted;
+- [ ] epoch/version identity implemented;
+- [ ] freshness/staleness policy implemented;
+- [ ] revalidation triggers implemented;
+- [ ] supersession lineage preserved;
+- [ ] dependency-based selective invalidation demonstrated;
+- [ ] competing memories preserved;
+- [ ] diversity validation implemented;
+- [ ] correlated-source inflation prevented;
+- [ ] stale-snapshot commit negative cases covered;
+- [ ] vault/file substrate boundary enforced;
+- [ ] artifact-specific validation receipt persisted;
+- [ ] unresolved critical gaps remain visible.
 
 Until then:
 
@@ -2070,9 +2070,9 @@ CANONICAL STATUS
 CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
-# 71. Cross-Plane Bindings
+## 71. Cross-Plane Bindings
 
 ```yaml
 P3_BINDINGS:
@@ -2100,9 +2100,9 @@ P3_BINDINGS:
     - "[[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]"
 ```
 
----
+______________________________________________________________________
 
-# 72. P2 → P3 Transition
+## 72. P2 → P3 Transition
 
 ```text
 P2
@@ -2141,9 +2141,9 @@ Consolidation
 EmpiricalVerification
 $$
 
----
+______________________________________________________________________
 
-# 73. H-Level RSCF
+## 73. H-Level RSCF
 
 ```yaml
 H:
@@ -2170,9 +2170,9 @@ H:
     CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
-# 74. M-Level RSCF
+## 74. M-Level RSCF
 
 ```yaml
 M:
@@ -2203,9 +2203,9 @@ M:
     - VAULT_NE_COGNITION
 ```
 
----
+______________________________________________________________________
 
-# 75. L-Level RSCF
+## 75. L-Level RSCF
 
 ```yaml
 L:
@@ -2244,9 +2244,9 @@ L:
     dependency_local: true
 ```
 
----
+______________________________________________________________________
 
-# 76. Full RSCF Contract
+## 76. Full RSCF Contract
 
 ```yaml
 RSCF:
@@ -2341,9 +2341,9 @@ RSCF:
       CLAIM_SPECIFIC
 ```
 
----
+______________________________________________________________________
 
-# 77. Canonical Compression
+## 77. Canonical Compression
 
 P3 reduces to three primary laws:
 
@@ -2459,7 +2459,7 @@ GAP IN SUPPLIED SOURCE
 ```
 ---
 
-# 78. RSCF Node
+## 78. RSCF Node
 
 RSCF-NODE
 
@@ -2560,3 +2560,5 @@ RSCF-RELATIONS:
 
 The normalization keeps the supplied P3 laws intact while making one important gap explicit: **`KM-1..4` is referenced but not defined in the supplied artifact**, so its exact semantics should not be invented. The resulting P3 spine is **typed persistence → memory-as-model → diversity-gated consolidation**, with staleness, provenance, epoch validity, competing memories, and dependency-local invalidation carried explicitly.
 
+```
+```

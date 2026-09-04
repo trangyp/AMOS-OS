@@ -1,12 +1,15 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: H HIGH SCALE SCALES COGNITIVE MATRIX RSCF
 type: note
 source: 25_COGNITIVE_MATRIX/04_SCALES/H_HIGH_SCALE
 tags:
-- note
-- h-high-scale
-- domain/cognitive-matrix
-- trang-framework-recursive-ontology-dynamics
+  - note
+  - h-high-scale
+  - domain/cognitive-matrix
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED
   claim_class: EMPIRICAL
@@ -51,20 +54,23 @@ MODEL != VERIFIED
 UNKNOWN/GAP != PASS
 ```
 
----
+______________________________________________________________________
 
 [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: h_scales_rscf
 node_type: note
 path: 04_SCALES/H_HIGH_SCALE/H_HIGH_SCALE_SCALES_COGNITIVE_MATRIX_RSCF.md
 claim_class: DERIVED
-node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/04_SCALES/H_HIGH_SCALE/H_HIGH_SCALE_SCALES_COGNITIVE_MATRIX_RSCF.md
+node_path_note: 25_COGNITIVE_MATRIX/04_SCALES/H_HIGH_SCALE/H_HIGH_SCALE_SCALES_COGNITIVE_MATRIX_RSCF.md
 
----
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/04_SCALES/H_HIGH_SCALE/H_HIGH_SCALE_MOC|H_HIGH_SCALE_MOC]]
 
----
+______________________________________________________________________
+
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

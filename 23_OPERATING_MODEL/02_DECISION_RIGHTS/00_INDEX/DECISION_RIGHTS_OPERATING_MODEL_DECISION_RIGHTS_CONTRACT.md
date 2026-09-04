@@ -1,51 +1,51 @@
 ---
-title: DECISION RIGHTS OPERATING MODEL DECISION RIGHTS CONTRACT
-type: model
-source: 23_OPERATING_MODEL/02_DECISION_RIGHTS/00_INDEX
-tags:
-- amos-os
-- canon/operating-model
-- routing-policy-validation-receipt
-- authz-engine-validation-receipt
+title: "Decision Rights Operating Model Decision Rights Contract — Plane Governance Specification"
+type: specification
+source: 23_OPERATING_MODEL
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
+status: ACTIVE_SPECIFICATION
+epistemic_class: AMOS_MODEL
+conclusion_class: DERIVED
 rscf:
   state: DERIVED
-  claim_class: CONDITIONAL
-  provenance: AMOS_corpus
-  scope: index_navigation
+  claim_class: AMOS_MODEL
+  provenance:
+    - 00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE
+    - 00_ROOT/00_ROOT_MOC
+  scope: plane_governance
+tags:
+  - amos-os
+  - 23-operating-model
+  - specification
+  - decision-rights-operating-model-decision-rights-contract
 ---
 
-# DECISION RIGHTS OPERATING MODEL DECISION RIGHTS CONTRACT
+# Decision Rights Operating Model Decision Rights Contract — Plane Governance Specification
 
-STATUS: PROPOSED_SPECIFICATION
-epistemic_class: AMOS_MODEL
-canonical_status: CONDITIONAL
-updated: 2026-08-26
-
-## Purpose
-Index navigation stub; canonical content in package contract.
-
-## Contract discipline
-Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
-
-## Gaps
-Executable binding PARTIAL unless an executed validation receipt exists for this subsystem (see [[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]], [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]).
+> **Origin Architect / Steward:** Trang Phan  
+> **AMOS_CORE Target:** `v4.4`  
+> **Conclusion Class:** `AMOS_MODEL`  
+> **Status:** `ACTIVE_SPECIFICATION`
 
 ---
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+## 1. Architectural Scope
+
+`DECISION_RIGHTS_OPERATING_MODEL_DECISION_RIGHTS_CONTRACT` defines the typed contracts, invariants, and operational procedures for `23_OPERATING_MODEL` within the AMOS Full OS MECE architecture.
 
 ---
-**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+
+## 2. Governing Invariants
+
+- **Axiom Adherence:** Strictly bound by M01–M20 core laws.
+- **Fail-Closed Execution:** Rejects unverified or malformed inputs into the rollback basin.
+- **Immutable Receipts:** Emits auditable trace logs to `17_OBSERVABILITY`.
 
 ---
-RSCF-NODE
-node_id: amos_s_00_index_decision_rights_operating_model_decision_rights_contract_md
-node_type: note
-path: 23_OPERATING_MODEL/02_DECISION_RIGHTS/00_INDEX/DECISION_RIGHTS_OPERATING_MODEL_DECISION_RIGHTS_CONTRACT.md
-claim_class: AMOS_MODEL
 
----
-**MOC:** [[23_OPERATING_MODEL/02_DECISION_RIGHTS/00_INDEX/INDEX_DECISION_RIGHTS_OPERATING_MODEL_README|INDEX_DECISION_RIGHTS_OPERATING_MODEL_README]]
+## 3. Navigation & Bindings
 
----
-**MOC:** [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]]
+- **Master MOC:** [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]
+- **Partition Architecture:** [[00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE|FULL_BRAIN_OS_MECE_ARCHITECTURE]]

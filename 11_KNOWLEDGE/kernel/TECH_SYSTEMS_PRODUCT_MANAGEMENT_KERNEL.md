@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: TECH SYSTEMS PRODUCT MANAGEMENT KERNEL
 tags:
-- kernel
-- core
-- runtime
-- canon/knowledge
-- rscf/claim
-- rscf/provenance
-- rscf/state/observation
+  - kernel
+  - core
+  - runtime
+  - canon/knowledge
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/observation
 type: data
 source: 11_KNOWLEDGE/kernel
 rscf:
@@ -69,6 +72,6 @@ rscf:
 **Related:** [[11_KNOWLEDGE/kernel/AMOS_ETHICAL_REASONING_KERNEL|AMOS_ETHICAL_REASONING_KERNEL]] · [[11_KNOWLEDGE/kernel/AMOS_MULTI_PERSPECTIVE_REASONING_KERNEL|AMOS_MULTI_PERSPECTIVE_REASONING_KERNEL]] · [[11_KNOWLEDGE/kernel/NEGOTIATION_DIPLOMACY_KERNEL|NEGOTIATION_DIPLOMACY_KERNEL]] · [[11_KNOWLEDGE/kernel/AMOS_DESIGN_KERNEL|AMOS_DESIGN_KERNEL]]
 ```
 
----
-**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]
+______________________________________________________________________
 
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]

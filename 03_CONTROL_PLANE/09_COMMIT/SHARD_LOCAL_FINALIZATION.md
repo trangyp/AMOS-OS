@@ -12,21 +12,21 @@ segment: 03_CONTROL_PLANE/09_COMMIT
 artifact_kind: FINALIZATION
 path: 03_CONTROL_PLANE/09_COMMIT/SHARD_LOCAL_FINALIZATION.md
 tags:
-- amos-os
-- control-plane
-- governance
-- finalization
-- canon_placeholder
-- rscf
-- canon/control-plane
-- routing-policy-validation-receipt
-- authz-engine-validation-receipt
-- law-hierarchy
+  - amos-os
+  - control-plane
+  - governance
+  - finalization
+  - canon_placeholder
+  - rscf
+  - canon/control-plane
+  - routing-policy-validation-receipt
+  - authz-engine-validation-receipt
+  - law-hierarchy
 version: 0.1.0
 updated: '2026-08-27'
-status: PLACEHOLDER
+status: PROPOSED_SPECIFICATION
 epistemic_class: AMOS_MODEL
-canonical_status: UNKNOWN/GAP
+canonical_status: CONDITIONAL
 implementation_status: NOT_ESTABLISHED
 validation_status: NOT_ESTABLISHED
 executable_binding: NOT_ESTABLISHED
@@ -80,7 +80,7 @@ Origin architect / steward:
 
 **Trang Phan**
 
----
+______________________________________________________________________
 
 ## 1. Purpose
 
@@ -88,7 +88,7 @@ This artifact reserves the **Shard-Local Finalization** slot within the Control 
 
 Substantive content (canonical definitions, laws, registries, schemas, models, or bindings) is to be populated from verified native-canon sources under the AMOS_CANON_INGESTION_RULE. This placeholder does not, by its existence, establish canon, empirical validity, or runtime enforcement.
 
----
+______________________________________________________________________
 
 ## 2. Non-Purpose
 
@@ -104,7 +104,7 @@ This placeholder MUST NOT be used to claim:
 - authority merely from architectural importance;
 - or successful validation merely because the slot is addressable.
 
----
+______________________________________________________________________
 
 ## 3. Ingestion Rule
 
@@ -143,31 +143,32 @@ AMOS_CANON_INGESTION_RULE:
       - NEVER_INVENT_CANON
 ```
 
----
+______________________________________________________________________
 
 ## 4. Contract discipline
 
 Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
 
----
+______________________________________________________________________
 
 ## 5. Gaps
 
 Executable binding NOT_ESTABLISHED. Canonical status UNKNOWN/GAP. Substantive content pending native-canon source ingestion. Validation receipt required before promotion: [[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]].
 
----
+______________________________________________________________________
 
 ## 6. Worked semantics (target)
 
 Given an operation touching `03_CONTROL_PLANE · FINALIZATION` within the Control Plane plane:
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-2. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-3. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-4. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-5. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-6. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
 
----
+1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
+1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
+1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
+1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
+1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
+1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
+
+______________________________________________________________________
 
 ## 7. Promotion-gate checklist
 
@@ -180,7 +181,7 @@ Given an operation touching `03_CONTROL_PLANE · FINALIZATION` within the Contro
 - [ ] executed validation receipt specific to this artifact
 - [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
----
+______________________________________________________________________
 
 ## 8. Cross-plane bindings (target)
 
@@ -190,15 +191,15 @@ Given an operation touching `03_CONTROL_PLANE · FINALIZATION` within the Contro
 - Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
 - Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
 
 RSCF-NODE
 
@@ -212,22 +213,54 @@ claim_class: AMOS_MODEL
 
 rscf_state: placeholder
 
-canonical_status: UNKNOWN/GAP
+canonical_status: CONDITIONAL
 
 RSCF-RELATIONS:
 
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-  - GOVERNED_BY: [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-  - CANONICAL_LAW: [[01_CANON/01_CORE_LAWS/L25_SHARD_LOCAL|L25_SHARD_LOCAL]]
-  - ISOLATION_KERNEL: [[02_KERNEL/K_MVCC|K_MVCC]]
-  - TRANSACTION_KERNEL: [[02_KERNEL/K_ATOMIC_MULTI_RSCF|K_ATOMIC_MULTI_RSCF]]
-  - SIBLING_COMMIT_MECHANISMS: [[03_CONTROL_PLANE/09_COMMIT/CAUSAL_EPOCH_FINALITY|CAUSAL_EPOCH_FINALITY]] · [[03_CONTROL_PLANE/09_COMMIT/PROOF_BASED_COORDINATION_AVOIDANCE|PROOF_BASED_COORDINATION_AVOIDANCE]]
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+- GOVERNED_BY: [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- CANONICAL_LAW: [[01_CANON/01_CORE_LAWS/L25_SHARD_LOCAL|L25_SHARD_LOCAL]]
+- ISOLATION_KERNEL: [[02_KERNEL/K_MVCC|K_MVCC]]
+- TRANSACTION_KERNEL: [[02_KERNEL/K_ATOMIC_MULTI_RSCF|K_ATOMIC_MULTI_RSCF]]
+- SIBLING_COMMIT_MECHANISMS: [[03_CONTROL_PLANE/09_COMMIT/CAUSAL_EPOCH_FINALITY|CAUSAL_EPOCH_FINALITY]] · [[03_CONTROL_PLANE/09_COMMIT/PROOF_BASED_COORDINATION_AVOIDANCE|PROOF_BASED_COORDINATION_AVOIDANCE]]
 
----
+______________________________________________________________________
 
 **MOC:** [[03_CONTROL_PLANE/09_COMMIT/09_COMMIT_MOC|09_COMMIT_MOC]] · [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE_MOC]]
 
----
+______________________________________________________________________
 
 **Related:** [[01_CANON/01_CORE_LAWS/L25_SHARD_LOCAL|L25_SHARD_LOCAL]] · [[02_KERNEL/K_MVCC|K_MVCC]] · [[02_KERNEL/K_ATOMIC_MULTI_RSCF|K_ATOMIC_MULTI_RSCF]] · [[03_CONTROL_PLANE/09_COMMIT/CAUSAL_EPOCH_FINALITY|CAUSAL_EPOCH_FINALITY]] · [[03_CONTROL_PLANE/09_COMMIT/PROOF_BASED_COORDINATION_AVOIDANCE|PROOF_BASED_COORDINATION_AVOIDANCE]]
+
+---
+
+## Source-Grounded Specification (Corpus-Derived)
+
+> **Provenance:** `11_KNOWLEDGE/kernel/AGENTS_AMOS_OS_KERNEL.md` §504, §507 (shard-local finalization as governance pattern; runtime-honesty example). Bound to [[01_CANON/01_CORE_LAWS/L25_SHARD_LOCAL|L25 Shard-Local Law]].
+> **Claim class:** `AMOS_MODEL` — `canonical_status: CONDITIONAL`.
+
+### Definition
+
+**Shard-local finalization** is the commit-plane rule that a shard may finalize its own state transition **if and only if** every causal dependency of that transition is internal to the shard. Locality, not convenience, is the criterion:
+
+```text
+SHARD_FINALIZE(s, op)  ⟹  deps(op) ⊆ s.scope
+```
+
+If any dependency crosses the shard boundary, local finalization is illegal; the operation must escalate to the coupled commit path (see [[02_KERNEL/ATOMIC_MULTI_RSCF|ATOMIC_MULTI_RSCF]]).
+
+### Semantics
+
+1. **Dependency closure check** — before local finalize, compute the transitive causal dependency set of the operation; any external member forces escalation.
+2. **No cross-shard silent writes** — a shard may never finalize a write whose target lives in another shard's scope.
+3. **Locality over latency** — shard-local finalization is a correctness property, not a performance shortcut; reducing latency is a side-effect, never the justification.
+4. **Receipt requirement** — each local finalization emits a receipt with the dependency-closure evidence, binding the decision to L25.
+
+### Epistemic firewall
+
+Source-mandated: safe phrasing is "AMOS contains shard-local finalization as a governance pattern." Unsafe phrasing is "this conversation is finalized across AMOS distributed shards" — the latter is `REJECT` without host implementation evidence.
+
+### Status
+
+- `executable_binding: NOT_ESTABLISHED`; `validation_status: NOT_ESTABLISHED`; residual `UNKNOWN/GAP` for runtime realization.

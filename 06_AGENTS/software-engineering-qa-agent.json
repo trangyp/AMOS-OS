@@ -163,7 +163,7 @@
     "software-engineering-qa"
   ],
   "depends_on_workflows": [
-    "software-engineering-qa-workflow.md"
+    "amos-software-engineering-qa-workflow.md"
   ],
   "epistemic_class": "DERIVED",
   "claim_ceiling": 0.95,

@@ -12,23 +12,23 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: REASONING
 path: 11_KNOWLEDGE/05_FRAMEWORKS/LDAI_LOGICALLY_DETERMINISTIC_AI.md
 tags:
-- amos-os
-- knowledge
-- vault
-- 05_frameworks
-- ldai
-- logically_deterministic_ai
-- syntax_invariant
-- deterministic_logic
-- formal_reasoning
-- rscf
-- canon_candidate
-- canon/knowledge
-- frai-fractal-reasoning-ai
-- qls-framework
-- qcla-master
-- trang-reality-architecture
-- khung-trang
+  - amos-os
+  - knowledge
+  - vault
+  - 05_frameworks
+  - ldai
+  - logically_deterministic_ai
+  - syntax_invariant
+  - deterministic_logic
+  - formal_reasoning
+  - rscf
+  - canon_candidate
+  - canon/knowledge
+  - frai-fractal-reasoning-ai
+  - qls-framework
+  - qcla-master
+  - trang-reality-architecture
+  - khung-trang
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -43,12 +43,12 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - TRANG_LDAI_LOGICALLY_DETERMINISTIC_ARTIFICIAL_INT
-  - AMOS_CORPUS
+    - TRANG_LDAI_LOGICALLY_DETERMINISTIC_ARTIFICIAL_INT
+    - AMOS_CORPUS
   scope:
-  - KNOWLEDGE_FRAMEWORKS
-  - DETERMINISTIC_REASONING
-  - SOURCE_DEFINED_LDAI_MODEL
+    - KNOWLEDGE_FRAMEWORKS
+    - DETERMINISTIC_REASONING
+    - SOURCE_DEFINED_LDAI_MODEL
 framework_binding:
   primary:
     name: Trang LDAI (Logically Deterministic AI)
@@ -58,10 +58,10 @@ framework_binding:
     name: Trang FRAI (Fractal Reasoning AI)
     acronym: FRAI
     artifact:
-    - - FRAI_FRACTAL_REASONING_AI
+      -   - FRAI_FRACTAL_REASONING_AI
   logic_scaffold_coupling:
     artifact:
-    - - QLS_FRAMEWORK
+      -   - QLS_FRAMEWORK
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
@@ -75,27 +75,27 @@ epistemic_boundary:
 
 LDAI provides a formal framework for **syntax-invariant, mathematically deterministic reasoning**, ensuring that logically identical inputs yield mathematically identical proofs regardless of phrasing, language, prompt styling, or syntactic variation.
 
----
+______________________________________________________________________
 
-# 1. Core Architectural Pillars
+## 1. Core Architectural Pillars
 
 1. **Syntax Independence:** Mapping raw linguistic expressions into canonical semantic-logic tensors prior to inference.
-2. **Deterministic Derivation:** Utilizing non-probabilistic algebraic graph transformations to prevent stochastic hallucination.
-3. **Formal Verification:** Guaranteeing that every derived claim contains a verifiable chain back to foundational axioms ($S_0$).
-4. **Foundation of Layer L in FRAI:** Serving as the invariant foundation ($L$) upon which multi-scale heuristic ($M$) and generative ($H$) reasoning operates.
+1. **Deterministic Derivation:** Utilizing non-probabilistic algebraic graph transformations to prevent stochastic hallucination.
+1. **Formal Verification:** Guaranteeing that every derived claim contains a verifiable chain back to foundational axioms ($S_0$).
+1. **Foundation of Layer L in FRAI:** Serving as the invariant foundation ($L$) upon which multi-scale heuristic ($M$) and generative ($H$) reasoning operates.
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Fractal AI Parent:** [[11_KNOWLEDGE/05_FRAMEWORKS/FRAI_FRACTAL_REASONING_AI|FRAI_FRACTAL_REASONING_AI]]
 - **Logic Scaffold:** [[11_KNOWLEDGE/05_FRAMEWORKS/QLS_FRAMEWORK|QLS_FRAMEWORK]] and [[11_KNOWLEDGE/05_FRAMEWORKS/QCLA_MASTER|QCLA_MASTER]]
 - **Ontological Grounding:** [[11_KNOWLEDGE/trang/TRANG_REALITY_ARCHITECTURE|TRANG_REALITY_ARCHITECTURE]] and [[11_KNOWLEDGE/trang/KHUNG_TRANG|KHUNG_TRANG]]
 - **Native Sources:** `11_KNOWLEDGE/trang/TRANG_LDAI_LOGICALLY_DETERMINISTIC_ARTIFICIAL_INT`
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -113,10 +113,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/FRAI_FRACTAL_REASONING_AI|FRAI_FRACTAL_REASONING_AI]] · [[11_KNOWLEDGE/05_FRAMEWORKS/QLS_FRAMEWORK|QLS_FRAMEWORK]] · [[11_KNOWLEDGE/trang/TRANG_REALITY_ARCHITECTURE|TRANG_REALITY_ARCHITECTURE]]
 
----
-**MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]
+______________________________________________________________________
 
+**MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]

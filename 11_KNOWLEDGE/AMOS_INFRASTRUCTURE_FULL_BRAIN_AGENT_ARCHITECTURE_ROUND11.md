@@ -1,9 +1,12 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: AMOS INFRASTRUCTURE FULL BRAIN AGENT ARCHITECTURE ROUND11
 tags:
-- knowledge
-- note
-- canon/knowledge
+  - knowledge
+  - note
+  - canon/knowledge
 type: document
 source: 11_KNOWLEDGE/root
 rscf:
@@ -14,6 +17,7 @@ rscf:
 ---
 
 # AMOS Infrastructure, Full Brain OS, Agents & Skills Architecture
+
 ## Round 11 — Governed Architecture Summary
 
 **Origin architect / steward:** Trang Phan
@@ -26,7 +30,7 @@ rscf:
 > AMOS/Trang corpus statements are preserved as **SOURCE_CLAIM / MODEL** unless separately supported by executable or external evidence.
 > Open-source systems are implementation analogues, not AMOS canon.
 
----
+______________________________________________________________________
 
 ## 1. Executive Architecture Statement
 
@@ -78,7 +82,7 @@ These are different dimensions.
 
 **Authority precedence does not imply literal structural containment at every runtime step.**
 
----
+______________________________________________________________________
 
 ## 2. Core Separation of Responsibilities
 
@@ -136,36 +140,36 @@ The infrastructure layer owns, or must govern:
 - observability binding;
 - final effect eligibility.
 
----
+______________________________________________________________________
 
 ## 3. AMOS_CORE v3.0 → v4.4 Infrastructure Spine
 
 The currently governed lineage is:
 
-| Version | Architectural contribution |
-|---|---|
-| v3.0 | deterministic logic |
-| v3.1 | logic repair |
-| v3.2.1 | recursive RSCF + H/M/L |
-| v3.3 | governed evolution |
-| v3.4.1 | causal lineage |
-| v3.5 | epistemic / environment regimes |
-| v3.6 | competing hypotheses |
-| v3.7 | provenance topology |
-| v3.7.1 | Sybil / correlated-source hardening |
-| v3.8 | deeper provenance traversal |
-| v3.9 | persistent provenance |
-| v4.0 | MVCC / CAS concepts |
-| v4.1 | atomic multi-RSCF reasoning / transaction concepts |
-| v4.2 | causal epoch finality |
-| v4.3 | hardened shard-local finalization |
-| v4.4 | proof-based coordination avoidance |
+| Version | Architectural contribution                         |
+| ------- | -------------------------------------------------- |
+| v3.0    | deterministic logic                                |
+| v3.1    | logic repair                                       |
+| v3.2.1  | recursive RSCF + H/M/L                             |
+| v3.3    | governed evolution                                 |
+| v3.4.1  | causal lineage                                     |
+| v3.5    | epistemic / environment regimes                    |
+| v3.6    | competing hypotheses                               |
+| v3.7    | provenance topology                                |
+| v3.7.1  | Sybil / correlated-source hardening                |
+| v3.8    | deeper provenance traversal                        |
+| v3.9    | persistent provenance                              |
+| v4.0    | MVCC / CAS concepts                                |
+| v4.1    | atomic multi-RSCF reasoning / transaction concepts |
+| v4.2    | causal epoch finality                              |
+| v4.3    | hardened shard-local finalization                  |
+| v4.4    | proof-based coordination avoidance                 |
 
 These are **AMOS design/runtime patterns**.
 
 They are not automatic claims that ChatGPT itself implements a distributed database, consensus system, or production MVCC engine.
 
----
+______________________________________________________________________
 
 ## 4. Agent Architecture
 
@@ -280,7 +284,7 @@ Performs actual:
 
 It cannot widen the authorized action.
 
----
+______________________________________________________________________
 
 ## 5. Capability-Based Authorization
 
@@ -345,7 +349,7 @@ revalidate(parent-chain)
 
 A capability revoked after ticket issuance must block commit.
 
----
+______________________________________________________________________
 
 ## 6. Agent Lifecycle & Long-Running Orchestration
 
@@ -392,7 +396,7 @@ Every consequential task should include:
 - checkpoint;
 - final artifact / receipt.
 
----
+______________________________________________________________________
 
 ## 7. Leases, Fencing & Zombie Workers
 
@@ -424,7 +428,7 @@ This prevents:
 - old workers publishing after reassignment;
 - stale checkpoint restoration overwriting newer state.
 
----
+______________________________________________________________________
 
 ## 8. Spawn Governance & Backpressure
 
@@ -472,7 +476,7 @@ Prefer:
 
 Never respond to overload with unlimited agent spawning.
 
----
+______________________________________________________________________
 
 ## 9. Retry, Idempotency & IN_DOUBT
 
@@ -509,7 +513,7 @@ Do not assume:
 
 Do not blindly retry.
 
----
+______________________________________________________________________
 
 ## 10. Cancellation
 
@@ -527,7 +531,7 @@ When canceled:
 
 Compensation is a separate authorized action.
 
----
+______________________________________________________________________
 
 ## 11. Fan-In / Join Semantics
 
@@ -554,7 +558,7 @@ cannot silently count as success.
 
 Partial synthesis requires an explicit partial-results policy.
 
----
+______________________________________________________________________
 
 ## 12. Messages vs Artifacts
 
@@ -586,7 +590,7 @@ test receipt
 
 Critical agent outputs should be durable artifacts or evidence records.
 
----
+______________________________________________________________________
 
 ## 13. Skills as Versioned Capability Modules
 
@@ -611,7 +615,7 @@ A Skill can constrain or organize authority.
 
 A Skill may not create new infrastructure authority.
 
----
+______________________________________________________________________
 
 ## 14. Memory Architecture
 
@@ -650,7 +654,7 @@ Canonical writes require:
 - contradiction checks;
 - CAS/version preconditions where concurrency exists.
 
----
+______________________________________________________________________
 
 ## 15. Living Knowledge Infrastructure
 
@@ -679,7 +683,7 @@ These transitions are governed.
 
 They do not create truth automatically.
 
----
+______________________________________________________________________
 
 ## 16. Trust Root & Runtime Identity
 
@@ -704,7 +708,7 @@ Root rotation should preserve:
 - expiry;
 - transition provenance.
 
----
+______________________________________________________________________
 
 ## 17. Canon & Configuration Admission
 
@@ -734,7 +738,7 @@ Tests alone cannot authorize activation.
 
 Signatures alone do not establish truth.
 
----
+______________________________________________________________________
 
 ## 18. Recovery & Break-Glass
 
@@ -765,7 +769,7 @@ Break-glass must be:
 
 It cannot rewrite provenance or mark UNKNOWN as VERIFIED.
 
----
+______________________________________________________________________
 
 ## 19. Host Portability
 
@@ -791,26 +795,26 @@ The host implements AMOS semantics.
 
 The host does not redefine them.
 
----
+______________________________________________________________________
 
 ## 20. Open-Source Interoperability Map
 
 The following are **implementation analogues**, not AMOS canon.
 
-| Open-source system / standard | Useful AMOS mapping |
-|---|---|
-| Open Policy Agent | policy decision vs enforcement |
-| OpenFGA | contextual / relationship authorization |
-| SPIFFE / SPIRE | workload identity and trust domains |
-| TUF | trust-root roles, thresholds, expiry, rollback defense |
-| Sigstore / Rekor | transparency / artifact history |
-| SLSA | software/artifact provenance |
-| OpenTelemetry | traces, events, metrics, execution context |
-| Temporal | durable orchestration and resumability |
-| A2A | agent-to-agent tasks, messages, artifacts, capabilities |
-| MCP | model/agent-to-tool interface and typed requests |
-| Hypothesis | property-based testing |
-| mutation testing | tests for whether controls actually detect defects |
+| Open-source system / standard | Useful AMOS mapping                                     |
+| ----------------------------- | ------------------------------------------------------- |
+| Open Policy Agent             | policy decision vs enforcement                          |
+| OpenFGA                       | contextual / relationship authorization                 |
+| SPIFFE / SPIRE                | workload identity and trust domains                     |
+| TUF                           | trust-root roles, thresholds, expiry, rollback defense  |
+| Sigstore / Rekor              | transparency / artifact history                         |
+| SLSA                          | software/artifact provenance                            |
+| OpenTelemetry                 | traces, events, metrics, execution context              |
+| Temporal                      | durable orchestration and resumability                  |
+| A2A                           | agent-to-agent tasks, messages, artifacts, capabilities |
+| MCP                           | model/agent-to-tool interface and typed requests        |
+| Hypothesis                    | property-based testing                                  |
+| mutation testing              | tests for whether controls actually detect defects      |
 
 ### Important Firewall
 
@@ -828,7 +832,7 @@ popular framework
 → AMOS canon
 ```
 
----
+______________________________________________________________________
 
 ## 21. A2A / MCP / Durable Runtime Integration
 
@@ -880,7 +884,7 @@ Useful for:
 
 Workflow history is not canonical truth.
 
----
+______________________________________________________________________
 
 ## 22. Business Interpretation
 
@@ -902,7 +906,7 @@ AMOS decides and records:
 
 This is much closer to an **enterprise AI operating/control plane** than to a chatbot.
 
----
+______________________________________________________________________
 
 ## 23. Production Architecture
 
@@ -953,7 +957,7 @@ A practical deployment target:
         GitHub / APIs / DB / CI / Cloud / Human
 ```
 
----
+______________________________________________________________________
 
 ## 24. What Is Actually Verified in Round 11
 
@@ -975,7 +979,7 @@ These measurements validate the Skill package and its deterministic controls.
 
 They do **not** prove that every conceptual AMOS subsystem described in the broader corpus is deployed as a production service.
 
----
+______________________________________________________________________
 
 ## 25. Remaining Production Gaps
 
@@ -1031,47 +1035,47 @@ Working, operational, evidence, and canonical memories require typed persistence
 
 The A2A/MCP-style contracts need actual network/runtime enforcement to become deployment guarantees.
 
----
+______________________________________________________________________
 
 ## 26. Recommended Next Engineering Sequence
 
 1. **Runtime schema package**
    Define machine-readable schemas for Task, Agent, Grant, Evidence, Artifact, Checkpoint, PolicyDecision, and EffectReceipt.
 
-2. **Persistent task service**
+1. **Persistent task service**
    Implement task state, leases, fencing epochs, cancellation, joins, retry policies, and budget accounting.
 
-3. **Capability service**
+1. **Capability service**
    Implement grant issuance, attenuation, delegation, revocation, expiry, and commit-time checks.
 
-4. **Agent registry**
+1. **Agent registry**
    Register agent roles, versions, schemas, capabilities, dependencies, and failure modes.
 
-5. **Skill registry**
+1. **Skill registry**
    Treat Skills as versioned deployable capability modules with compatibility and authority metadata.
 
-6. **Provenance/evidence graph**
+1. **Provenance/evidence graph**
    Store evidence identity, ancestry, contradictions, freshness, regimes, falsifiers, and derivations.
 
-7. **Typed memory fabric**
+1. **Typed memory fabric**
    Separate operational, working, evidence, and canonical memory.
 
-8. **Policy decision service**
+1. **Policy decision service**
    Move consequential governance into deterministic policy evaluation where practical.
 
-9. **Effect gateway**
+1. **Effect gateway**
    Bind actual API/DB/GitHub/cloud effects to fresh capability and policy decisions.
 
-10. **Durable orchestration**
-    Add resumable, crash-safe long-running workflows.
+1. **Durable orchestration**
+   Add resumable, crash-safe long-running workflows.
 
-11. **Observability**
-    Trace request → Full Brain → agent → Skill → policy → effect → receipt.
+1. **Observability**
+   Trace request → Full Brain → agent → Skill → policy → effect → receipt.
 
-12. **Adversarial evaluation**
-    Continue property, mutation, concurrency, replay, stale-state, authorization, and protocol compatibility testing.
+1. **Adversarial evaluation**
+   Continue property, mutation, concurrency, replay, stale-state, authorization, and protocol compatibility testing.
 
----
+______________________________________________________________________
 
 ## 27. Final Architecture Rule
 
@@ -1081,7 +1085,7 @@ The round-11 architecture can be compressed into one line:
 
 That distinction should remain invariant even as host models, agent frameworks, memory systems, protocols, and deployment technology change.
 
----
+______________________________________________________________________
 
 ## Conclusion Class
 
@@ -1093,23 +1097,26 @@ The Skill's tests are **VERIFIED for that package and test environment**.
 
 Claims about the complete conceptual AMOS architecture operating as a deployed production infrastructure remain **MODEL / CONDITIONAL** until corresponding runtime services and deployment evidence exist.
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos_infrastructure_full_brain_agent_architecture_round11
 node_type: note
 path: 11_KNOWLEDGE/AMOS_INFRASTRUCTURE_FULL_BRAIN_AGENT_ARCHITECTURE_ROUND11.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]]
-

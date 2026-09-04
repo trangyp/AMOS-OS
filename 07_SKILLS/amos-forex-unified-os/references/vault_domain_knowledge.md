@@ -1,4 +1,7 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Vault Domain Knowledge — Amos Forex Unified Os
 type: reference
 source: 07_SKILLS/amos-forex-unified-os/references
@@ -110,7 +113,7 @@ rscf:
 "generate_test_code": {
 "description": "Generate concrete test c
 
----
+______________________________________________________________________
 
 ### Source 2: AMOS Unified Equation Framework (UEF)
 
@@ -118,7 +121,7 @@ rscf:
 
 > Path: `math/UNIFIED_EQUATION_FRAMEWORK_COMPLETE.md` | Size: 7174 chars | Match score: 13
 
-# AMOS Unified Equation Framework (UEF) - Implementation Complete
+## AMOS Unified Equation Framework (UEF) - Implementation Complete
 
 ## MISSION ACCOMPLISHED
 
@@ -194,6 +197,7 @@ Total Dependencies: 4
 Equation Types: ['algebra', 'ode', 'pde', 'vector']
 Total Dimensionality: 2
 ```
+
 Where:
 
 - `S = [x, y, z]`
@@ -203,15 +207,15 @@ Where:
 ### **All 22 Unified Laws Implemented**
 
 1. **Universal Equation Form**: `E(X) = 0`
-2. **Universal Variable Set**: Support for all variable types
-3. **Operator Set**: Complete operator classification
-4. **Algebraic Operator**: `A(x,y) = x + y`
-5. **Differential Operator**: `D_x(u) = ∂u/∂x`
-6. **Integral Operator**: `I(f,x) = ∫f(x)dx`
-7. **Matrix Operator**: `M(W,x) = W·x`
-8. **Nonlinear Operator**: `N_σ(x) = σ(x)`
+1. **Universal Variable Set**: Support for all variable types
+1. **Operator Set**: Complete operator classification
+1. **Algebraic Operator**: `A(x,y) = x + y`
+1. **Differential Operator**: `D_x(u) = ∂u/∂x`
+1. **Integral Operator**: `I(f,x) = ∫f(x)dx`
+1. **Matrix Operator**: `M(W,x) = W·x`
+1. **Nonlinear Operator**: `N_σ(x) = σ(x)`
 
----
+______________________________________________________________________
 
 ### Source 3: AMOS_Tech_Unified_Engine_v0_Domains7_3
 
@@ -261,7 +265,7 @@ Where:
 "eu_design": {
 "so
 
----
+______________________________________________________________________
 
 **MOC:** references_MOC
 
@@ -269,7 +273,7 @@ Where:
 
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -277,7 +281,7 @@ Where:
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
 
 RSCF-NODE
 node_id: amos-forex-unified-os-vault-domain-knowledge

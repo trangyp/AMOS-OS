@@ -1,4 +1,7 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: INDEX CORE LAWS CANON README
 type: note
 source: 01_CANON/01_CORE_LAWS/00_INDEX
@@ -6,20 +9,16 @@ rscf:
   state: SOURCE_CLAIM
   class: STRUCTURAL
   provenance:
-  - internal
+    - internal
   freshness: EVERGREEN
   falsifiers: []
 tags:
-- note
-- readme
+  - note
+  - readme
 canon-group: canon/core-laws
 ---
 
----title: "AMOS Core Laws Canon Index README"
-type: document
-tags: [note]
----
-
+## ---title: "AMOS Core Laws Canon Index README" type: document tags: [note]
 
 # README
 
@@ -63,9 +62,9 @@ LATEST != AUTHORITATIVE
 FILE EXISTS != LAW EXISTS
 ```
 
----
+______________________________________________________________________
 
-# 1. Purpose
+## 1. Purpose
 
 The `00_INDEX` package is the entry and orientation surface for the AMOS Core Laws canon domain.
 
@@ -87,9 +86,9 @@ Its purpose is to provide a stable place from which humans, agents, Skills, vali
 
 The index is therefore an **orientation and resolution surface**, not a substitute for the underlying canon.
 
----
+______________________________________________________________________
 
-# 2. Index Contract
+## 2. Index Contract
 
 The Core Laws index layer SHALL conceptually provide four distinct functions:
 
@@ -123,9 +122,9 @@ INDEX_ENTRY(x)
 VALIDATED(x)
 ```
 
----
+______________________________________________________________________
 
-# 3. Non-Purpose
+## 3. Non-Purpose
 
 This README is not:
 
@@ -144,9 +143,9 @@ This README is not:
 
 The index layer MUST NOT become a hidden authority layer.
 
----
+______________________________________________________________________
 
-# 4. Core Laws Domain Position
+## 4. Core Laws Domain Position
 
 The expected architectural relationship is:
 
@@ -178,9 +177,9 @@ AMOS OS
 
 The exact physical directory structure outside confirmed files remains subject to source/canon verification.
 
----
+______________________________________________________________________
 
-# 5. `00_INDEX` Responsibilities
+## 5. `00_INDEX` Responsibilities
 
 The `00_INDEX` package SHOULD provide:
 
@@ -199,9 +198,9 @@ The `00_INDEX` package SHOULD provide:
 
 The index SHOULD optimize discoverability without weakening epistemic or governance boundaries.
 
----
+______________________________________________________________________
 
-# 6. Primary Index Artifacts
+## 6. Primary Index Artifacts
 
 The `00_INDEX` layer SHOULD distinguish the following responsibilities.
 
@@ -240,9 +239,9 @@ A registry, where materialized, SHOULD provide normalized machine-readable ident
 
 These responsibilities SHOULD remain separate even if some implementations combine physical files.
 
----
+______________________________________________________________________
 
-# 7. README → Contract Relationship
+## 7. README → Contract Relationship
 
 ```text
 README
@@ -268,9 +267,9 @@ The README describes orientation and usage.
 
 The contract defines requirements and boundaries.
 
----
+______________________________________________________________________
 
-# 8. README → Map Relationship
+## 8. README → Map Relationship
 
 ```text
 README
@@ -288,9 +287,9 @@ The map answers structural questions such as:
 
 The README should not duplicate the complete map.
 
----
+______________________________________________________________________
 
-# 9. README → Registry Relationship
+## 9. README → Registry Relationship
 
 ```text
 README
@@ -311,9 +310,9 @@ source_refs: []
 
 The README itself does not establish those values.
 
----
+______________________________________________________________________
 
-# 10. Index Object Types
+## 10. Index Object Types
 
 The index may address objects including:
 
@@ -336,9 +335,9 @@ CORE_LAW_RSCF
 
 Unknown or unsupported types must remain explicit gaps.
 
----
+______________________________________________________________________
 
-# 11. Core Law Identity
+## 11. Core Law Identity
 
 Every law SHOULD eventually resolve through an identity independent of its physical file representation.
 
@@ -369,9 +368,9 @@ LAW != SUMMARY
 
 A renamed file therefore does not automatically create a new law.
 
----
+______________________________________________________________________
 
-# 12. Discovery Protocol
+## 12. Discovery Protocol
 
 A consumer looking for a Core Law SHOULD conceptually resolve:
 
@@ -397,9 +396,9 @@ LAW OBJECT
 
 For consequential use, the consumer should not stop at discovery.
 
----
+______________________________________________________________________
 
-# 13. Minimum Index Entry
+## 13. Minimum Index Entry
 
 A normalized index entry SHOULD eventually support:
 
@@ -446,9 +445,9 @@ core_law_index_entry:
 
 This schema is a proposed normalization surface and does not claim existing implementation.
 
----
+______________________________________________________________________
 
-# 14. Epistemic Classification
+## 14. Epistemic Classification
 
 Indexed knowledge SHOULD preserve epistemic type.
 
@@ -467,9 +466,9 @@ UNKNOWN/GAP
 
 A model-generated description must not silently become `SOURCE_CANON`.
 
----
+______________________________________________________________________
 
-# 15. Canon Status
+## 15. Canon Status
 
 Canonical state SHOULD be separate from epistemic class.
 
@@ -489,9 +488,9 @@ REJECTED
 
 The authoritative lifecycle vocabulary must be reconciled against source canon before being treated as final.
 
----
+______________________________________________________________________
 
-# 16. Implementation Status
+## 16. Implementation Status
 
 The index SHOULD separately track whether an object has an executable projection.
 
@@ -515,9 +514,9 @@ A runtime component may implement a noncanonical proposal.
 
 Neither condition should be hidden.
 
----
+______________________________________________________________________
 
-# 17. Validation Status
+## 17. Validation Status
 
 Validation state SHOULD remain independently visible.
 
@@ -545,9 +544,9 @@ TEST_EXECUTED
 UNIVERSALLY_VALIDATED
 ```
 
----
+______________________________________________________________________
 
-# 18. Provenance Requirements
+## 18. Provenance Requirements
 
 Every consequential Core Law entry SHOULD eventually resolve provenance including, where available:
 
@@ -573,9 +572,9 @@ PROVENANCE = UNKNOWN/GAP
 
 The index must not fabricate them.
 
----
+______________________________________________________________________
 
-# 19. Provenance Independence
+## 19. Provenance Independence
 
 Multiple files may descend from one source.
 
@@ -597,9 +596,9 @@ REPRESENTATION COUNT
 SOURCE INDEPENDENCE
 ```
 
----
+______________________________________________________________________
 
-# 20. Dependency Semantics
+## 20. Dependency Semantics
 
 Core Laws may participate in typed relations such as:
 
@@ -620,9 +619,9 @@ FALSIFIES
 
 These relations must not be inferred merely from neighboring directory placement.
 
----
+______________________________________________________________________
 
-# 21. Dependency Resolution
+## 21. Dependency Resolution
 
 If:
 
@@ -640,9 +639,9 @@ LOCAL DEPENDENCY FAILURE
 GLOBAL CANON FAILURE
 ```
 
----
+______________________________________________________________________
 
-# 22. H/M/L Applicability
+## 22. H/M/L Applicability
 
 Core Laws may have H/M/L applicability.
 
@@ -665,9 +664,9 @@ HML:
 
 No law should automatically propagate between scales solely because its wording appears structurally similar.
 
----
+______________________________________________________________________
 
-# 23. Cross-Scale Boundary
+## 23. Cross-Scale Boundary
 
 ```text
 VALID_AT_H
@@ -683,9 +682,9 @@ Cross-scale inheritance requires explicit support.
 
 This protects AMOS from treating fractal resemblance as proof of equivalent law.
 
----
+______________________________________________________________________
 
-# 24. Scope Boundary
+## 24. Scope Boundary
 
 Each consequential law SHOULD eventually expose an applicability envelope.
 
@@ -706,9 +705,9 @@ ASSUMPTIONS
 
 The index should expose enough metadata to prevent silent scope expansion.
 
----
+______________________________________________________________________
 
-# 25. Regime Boundary
+## 25. Regime Boundary
 
 A law may be valid only under a particular regime.
 
@@ -722,9 +721,9 @@ NOT AUTOMATICALLY APPLICABLE
 
 Regime uncertainty must remain visible.
 
----
+______________________________________________________________________
 
-# 26. Freshness
+## 26. Freshness
 
 Mutable law representations require freshness awareness.
 
@@ -742,9 +741,9 @@ before consequential reuse.
 
 Cached index information must not silently override newer authoritative canon.
 
----
+______________________________________________________________________
 
-# 27. Conflict Handling
+## 27. Conflict Handling
 
 The index MUST preserve unresolved contradictions.
 
@@ -761,9 +760,9 @@ UNKNOWN/GAP
 
 `NO_KNOWN_CONFLICT` is not proof of consistency.
 
----
+______________________________________________________________________
 
-# 28. Competing Laws
+## 28. Competing Laws
 
 If two candidate laws cannot yet be reconciled:
 
@@ -785,9 +784,9 @@ It must not select one merely because:
 - it is easier to implement;
 - or it produces a more fluent answer.
 
----
+______________________________________________________________________
 
-# 29. Precedence
+## 29. Precedence
 
 Where precedence is needed, it must be explicitly grounded.
 
@@ -805,9 +804,9 @@ AUTHORIZED EXCEPTION
 
 The final AMOS precedence algorithm remains subject to authoritative canon recovery.
 
----
+______________________________________________________________________
 
-# 30. Supersession
+## 30. Supersession
 
 Supersession SHOULD preserve lineage.
 
@@ -831,9 +830,9 @@ LAW_V1
 
 The old law should remain historically recoverable unless governed retention policy requires otherwise.
 
----
+______________________________________________________________________
 
-# 31. Latest-Version Boundary
+## 31. Latest-Version Boundary
 
 The index must preserve:
 
@@ -845,9 +844,9 @@ CURRENT_CANONICAL
 
 A newer timestamp or larger version number does not independently prove authority or effective status.
 
----
+______________________________________________________________________
 
-# 32. Authority Boundary
+## 32. Authority Boundary
 
 The index may expose authority metadata.
 
@@ -871,9 +870,9 @@ ROLLBACK
 
 Each must remain separately governed.
 
----
+______________________________________________________________________
 
-# 33. Capability Boundary
+## 33. Capability Boundary
 
 The following facts do not prove canon authority:
 
@@ -897,9 +896,9 @@ Therefore:
 CAPABILITY != AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 34. Proposal Boundary
+## 34. Proposal Boundary
 
 A proposed Core Law or proposed modification must remain distinct from committed canon.
 
@@ -917,9 +916,9 @@ COMMIT
 
 Skipping the commit boundary is prohibited by this specification.
 
----
+______________________________________________________________________
 
-# 35. Core Laws and Policy
+## 35. Core Laws and Policy
 
 Core Laws SHOULD constrain policy rather than be silently rewritten by policy.
 
@@ -941,9 +940,9 @@ LAW != POLICY
 
 A policy engine must not create new canon merely by interpreting a law.
 
----
+______________________________________________________________________
 
-# 36. Core Laws and Authorization
+## 36. Core Laws and Authorization
 
 The expected separation is:
 
@@ -961,9 +960,9 @@ ACTION
 
 Law applicability does not itself establish action authority.
 
----
+______________________________________________________________________
 
-# 37. Core Laws and Protocols
+## 37. Core Laws and Protocols
 
 Protocols operationalize interaction sequences under governing constraints.
 
@@ -979,9 +978,9 @@ A protocol can conform to a law.
 
 A protocol cannot independently prove the law canonical.
 
----
+______________________________________________________________________
 
-# 38. Core Laws and Workflows
+## 38. Core Laws and Workflows
 
 Workflows may instantiate governed state transitions.
 
@@ -997,9 +996,9 @@ STATE TRANSITION
 
 The applicable law/version SHOULD remain traceable in consequential execution provenance.
 
----
+______________________________________________________________________
 
-# 39. Core Laws and Agents
+## 39. Core Laws and Agents
 
 Agents may interact with Core Laws through bounded capabilities.
 
@@ -1018,9 +1017,9 @@ REPORT
 
 An agent may only perform authority-bearing operations when separately authorized.
 
----
+______________________________________________________________________
 
-# 40. Core Laws and Skills
+## 40. Core Laws and Skills
 
 Skills may provide reusable procedures for:
 
@@ -1042,9 +1041,9 @@ SKILL RESULT
 CANON DECISION
 ```
 
----
+______________________________________________________________________
 
-# 41. Core Laws and Memory
+## 41. Core Laws and Memory
 
 Memory may cache:
 
@@ -1060,9 +1059,9 @@ DEPENDENCY POINTER
 
 Before consequential reuse, mutable cached state SHOULD be checked against current authoritative state.
 
----
+______________________________________________________________________
 
-# 42. Core Laws and RSCF
+## 42. Core Laws and RSCF
 
 Important law interpretations SHOULD be representable as RSCF proof capsules.
 
@@ -1098,9 +1097,9 @@ confidence_ceiling: 0
 
 RSCF structure improves traceability but does not itself establish truth or canonical authority.
 
----
+______________________________________________________________________
 
-# 43. Control-Plane Requirements
+## 43. Control-Plane Requirements
 
 Consequential use of Core Laws may require interaction with:
 
@@ -1120,9 +1119,9 @@ The README describes these integration requirements.
 
 It does not claim every control plane is currently implemented.
 
----
+______________________________________________________________________
 
-# 44. Core Laws Resolution Flow
+## 44. Core Laws Resolution Flow
 
 ```text
 REQUEST
@@ -1152,9 +1151,9 @@ CONSUMER
 
 If a load-bearing stage remains unresolved, the result must be appropriately downgraded.
 
----
+______________________________________________________________________
 
-# 45. Fast-Path Resolution
+## 45. Fast-Path Resolution
 
 A local fast path MAY be used when:
 
@@ -1178,9 +1177,9 @@ FRESHNESS IS ACCEPTABLE
 
 Otherwise resolution should escalate.
 
----
+______________________________________________________________________
 
-# 46. Escalation Conditions
+## 46. Escalation Conditions
 
 Escalation is required when material uncertainty exists around:
 
@@ -1197,9 +1196,9 @@ Escalation is required when material uncertainty exists around:
 - authority;
 - or irreversible downstream effects.
 
----
+______________________________________________________________________
 
-# 47. Failure Modes
+## 47. Failure Modes
 
 The index layer must account for at least:
 
@@ -1251,9 +1250,9 @@ Write capability is mistaken for canon authority.
 
 Law identities or dependencies form unresolved circular references.
 
----
+______________________________________________________________________
 
-# 48. Repair / Recovery
+## 48. Repair / Recovery
 
 Index repair SHOULD follow:
 
@@ -1277,9 +1276,9 @@ RESTORE
 
 Only affected branches should be invalidated where dependency structure permits.
 
----
+______________________________________________________________________
 
-# 49. Recovery Invariant
+## 49. Recovery Invariant
 
 ```text
 REPAIR
@@ -1299,9 +1298,9 @@ DEPENDENT CLAIMS
 
 Independent valid branches should remain intact.
 
----
+______________________________________________________________________
 
-# 50. Rollback
+## 50. Rollback
 
 If an index update is invalid:
 
@@ -1319,9 +1318,9 @@ REVALIDATE DEPENDENTS
 
 A previous state is not automatically valid merely because it is older.
 
----
+______________________________________________________________________
 
-# 51. Validators
+## 51. Validators
 
 The Core Laws index SHOULD eventually support validators such as:
 
@@ -1355,9 +1354,9 @@ validate_index_rscf_links()
 
 These are required/proposed validator surfaces, not claims of implemented functions.
 
----
+______________________________________________________________________
 
-# 52. Mandatory Boundary Tests
+## 52. Mandatory Boundary Tests
 
 ## IDX-T001 — Placeholder boundary
 
@@ -1433,9 +1432,9 @@ expected:
   COMPETING or UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 53. Provenance Tests
+## 53. Provenance Tests
 
 A valid consequential index entry SHOULD be challengeable with:
 
@@ -1455,9 +1454,9 @@ Can supersession be traced?
 
 Failure of a load-bearing provenance question lowers the confidence ceiling.
 
----
+______________________________________________________________________
 
-# 54. Dependency Tests
+## 54. Dependency Tests
 
 For each dependency edge:
 
@@ -1481,9 +1480,9 @@ Is it current?
 
 An unresolved answer must not silently become `true`.
 
----
+______________________________________________________________________
 
-# 55. Falsifiers
+## 55. Falsifiers
 
 This specification should be revised if authoritative AMOS material establishes:
 
@@ -1497,9 +1496,9 @@ This specification should be revised if authoritative AMOS material establishes:
 - different supersession semantics;
 - or a superseding canonical README.
 
----
+______________________________________________________________________
 
-# 56. Gap Matrix
+## 56. Gap Matrix
 
 | Area                        | Current status         | Gap class         |
 | --------------------------- | ---------------------- | ----------------- |
@@ -1518,9 +1517,9 @@ This specification should be revised if authoritative AMOS material establishes:
 | Executed validator suite    | `NOT_ESTABLISHED`      | Decision-relevant |
 | Final canon approval        | `UNKNOWN/GAP`          | Critical          |
 
----
+______________________________________________________________________
 
-# 57. Minimum Promotion Surface
+## 57. Minimum Promotion Surface
 
 Before this index layer can be treated as canonically complete, recover or approve at minimum:
 
@@ -1552,9 +1551,9 @@ VALIDATION REQUIREMENTS
 CHANGE / ROLLBACK PROCESS
 ```
 
----
+______________________________________________________________________
 
-# 58. Canon Admission Boundary
+## 58. Canon Admission Boundary
 
 No content generated within this README automatically enters canon.
 
@@ -1578,9 +1577,9 @@ COMMIT
 VERSION / SUPERSESSION
 ```
 
----
+______________________________________________________________________
 
-# 59. Navigation
+## 59. Navigation
 
 Primary Core Laws navigation:
 
@@ -1615,9 +1614,9 @@ SOURCE / PROVENANCE
 
 Raw evidence should be loaded only when required to resolve a decision-relevant question.
 
----
+______________________________________________________________________
 
-# 60. Machine-Readable Package State
+## 60. Machine-Readable Package State
 
 ```yaml
 core_laws_index:
@@ -1656,9 +1655,9 @@ core_laws_index:
     status: "UNKNOWN/GAP"
 ```
 
----
+______________________________________________________________________
 
-# 61. RSCF Completion State
+## 61. RSCF Completion State
 
 ```yaml
 claim_class: AMOS_MODEL
@@ -1722,9 +1721,9 @@ falsifiers:
 confidence_ceiling: 0
 ```
 
----
+______________________________________________________________________
 
-# 62. Current Completion State
+## 62. Current Completion State
 
 ```yaml
 completion:
@@ -1755,21 +1754,21 @@ completion:
     status: "PROPOSED_SPECIFICATION"
 ```
 
----
+______________________________________________________________________
 
-# 63. Governing README Law
+## 63. Governing README Law
 
 > **The Core Laws index exists to make law discoverable without making unsupported law authoritative. An index entry is a pointer, not proof; a map edge is a relationship claim, not automatic truth; a newer representation is not automatic supersession; a generated specification is not source canon; capability does not confer authority; proposals do not commit themselves; and unresolved provenance, dependency, scope, regime, version, conflict, or authority remains explicitly unresolved.**
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/00_INDEX/CORE_LAWS_CANON_CORE_LAWS_CONTRACT|CORE_LAWS_CANON_CORE_LAWS_CONTRACT]] · [[01_CANON/01_CORE_LAWS/00_INDEX/CORE_LAWS_MAP|CORE_LAWS_MAP]]
 
----
+______________________________________________________________________
 
 RSCF-NODE
 
@@ -1811,6 +1810,6 @@ confidence_ceiling: 0
 - [[01_CANON/01_CORE_LAWS/00_INDEX/CORE_LAWS_CANON_CORE_LAWS_CONTRACT|CORE_LAWS_CANON_CORE_LAWS_CONTRACT]]
 - [[01_CANON/01_CORE_LAWS/00_INDEX/CORE_LAWS_MAP|CORE_LAWS_MAP]]
 
----
-**MOC:** [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]]
+______________________________________________________________________
 
+**MOC:** [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]]

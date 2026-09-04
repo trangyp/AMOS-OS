@@ -12,22 +12,22 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: MATHEMATICS
 path: 11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_FRACTAL_MATHEMATICS.md
 tags:
-- amos-os
-- knowledge
-- vault
-- 05_frameworks
-- heritage_fractal_mathematics
-- ancient_fractals
-- 12_fractal_types
-- repeating_geometry
-- self_similarity
-- rscf
-- canon_candidate
-- canon/knowledge
-- heritage-intelligence-master
-- frai-fractal-reasoning-ai
-- heritage-pattern-intelligence
-- heritage-spatial-intelligence
+  - amos-os
+  - knowledge
+  - vault
+  - 05_frameworks
+  - heritage_fractal_mathematics
+  - ancient_fractals
+  - 12_fractal_types
+  - repeating_geometry
+  - self_similarity
+  - rscf
+  - canon_candidate
+  - canon/knowledge
+  - heritage-intelligence-master
+  - frai-fractal-reasoning-ai
+  - heritage-pattern-intelligence
+  - heritage-spatial-intelligence
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -42,23 +42,23 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - HERITAGE_ANCIENT_FRACTAL_MATHEMATICS_AND_REPEATI
-  - HERITAGE_12_LOAI_FRACTAL_VA_UNG_DUNG_CUA_CHUN
-  - AMOS_CORPUS
+    - HERITAGE_ANCIENT_FRACTAL_MATHEMATICS_AND_REPEATI
+    - HERITAGE_12_LOAI_FRACTAL_VA_UNG_DUNG_CUA_CHUN
+    - AMOS_CORPUS
   scope:
-  - KNOWLEDGE_FRAMEWORKS
-  - FRACTAL_MATHEMATICS
-  - SOURCE_DEFINED_MODEL
+    - KNOWLEDGE_FRAMEWORKS
+    - FRACTAL_MATHEMATICS
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   primary:
     name: Heritage Ancient Fractal Mathematics & Geometry
     role: FRACTAL_MATHEMATICAL_FOUNDATIONS
   master_framework:
     artifact:
-    - - HERITAGE_INTELLIGENCE_MASTER
+      -   - HERITAGE_INTELLIGENCE_MASTER
   fractal_reasoning:
     artifact:
-    - - FRAI_FRACTAL_REASONING_AI
+      -   - FRAI_FRACTAL_REASONING_AI
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
@@ -72,35 +72,35 @@ epistemic_boundary:
 
 It articulates the ancient mathematical foundations of scale-invariant geometries, detailing **12 distinct fractal types** and their applications across architecture, spatial organization, social structures, and economic networks.
 
----
+______________________________________________________________________
 
-# 1. Structural Typology: 12 Fractal Classes
+## 1. Structural Typology: 12 Fractal Classes
 
 1. **Self-Similar Geometric Iteration:** Exact scaling iterations (Cantor sets, Sierpinski gaskets, Koch structures).
-2. **Harmonic Acoustic Fractals:** Scale-invariant frequency distributions and resonance ladders.
-3. **Branching & Vascular Networks:** Optimal fluid, energy, and token transport topologies (Murray's Law).
-4. **Spatial Settlement Fractals:** Historical human urban growth patterns and market hierarchies (Christaller scaling).
-5. **Lacunarity & Void Distribution:** Gapping and texture density invariance across spatial scales.
-6. **Multi-Scale Tensegrity Meshes:** Structural load distribution without bulk mass accumulation.
-7. **Recursive Temporal Cycles:** Nested cyclical rhythms in historical systems ($C_1 \dots C_7$).
-8. **Cognitive Abstraction Ladders:** Hierarchical concept clustering in biological neural networks.
-9. **Relational Kinship Networks:** Scale-stable social group organization (Dunbar fractals).
-10. **Economic Market Order Flows:** Multi-timeframe liquidity structures and power-law distribution.
-11. **Boundary & Defense Perimeters:** Nested perimeter fortification and fault isolation.
-12. **Null-Origin Symmetrical Fractals:** Symmetrical balance around an invariant center ($\emptyset$).
+1. **Harmonic Acoustic Fractals:** Scale-invariant frequency distributions and resonance ladders.
+1. **Branching & Vascular Networks:** Optimal fluid, energy, and token transport topologies (Murray's Law).
+1. **Spatial Settlement Fractals:** Historical human urban growth patterns and market hierarchies (Christaller scaling).
+1. **Lacunarity & Void Distribution:** Gapping and texture density invariance across spatial scales.
+1. **Multi-Scale Tensegrity Meshes:** Structural load distribution without bulk mass accumulation.
+1. **Recursive Temporal Cycles:** Nested cyclical rhythms in historical systems ($C_1 \dots C_7$).
+1. **Cognitive Abstraction Ladders:** Hierarchical concept clustering in biological neural networks.
+1. **Relational Kinship Networks:** Scale-stable social group organization (Dunbar fractals).
+1. **Economic Market Order Flows:** Multi-timeframe liquidity structures and power-law distribution.
+1. **Boundary & Defense Perimeters:** Nested perimeter fortification and fault isolation.
+1. **Null-Origin Symmetrical Fractals:** Symmetrical balance around an invariant center ($\emptyset$).
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Master Framework:** [[11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_INTELLIGENCE_MASTER|HERITAGE_INTELLIGENCE_MASTER]]
 - **Fractal AI:** [[11_KNOWLEDGE/05_FRAMEWORKS/FRAI_FRACTAL_REASONING_AI|FRAI_FRACTAL_REASONING_AI]]
 - **Pattern Systems:** [[11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_PATTERN_INTELLIGENCE|HERITAGE_PATTERN_INTELLIGENCE]] and [[11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/HERITAGE_SPATIAL_INTELLIGENCE|HERITAGE_SPATIAL_INTELLIGENCE]]
 - **Native Sources:** `HERITAGE_ANCIENT_FRACTAL_MATHEMATICS_AND_REPEATI` and `HERITAGE_12_LOAI_FRACTAL_VA_UNG_DUNG_CUA_CHUN`
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -119,10 +119,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_INTELLIGENCE_MASTER|HERITAGE_INTELLIGENCE_MASTER]] · [[11_KNOWLEDGE/05_FRAMEWORKS/FRAI_FRACTAL_REASONING_AI|FRAI_FRACTAL_REASONING_AI]] · [[11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_PATTERN_INTELLIGENCE|HERITAGE_PATTERN_INTELLIGENCE]]
 
----
-**MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]
+______________________________________________________________________
 
+**MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]

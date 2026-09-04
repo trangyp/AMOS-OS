@@ -4,25 +4,22 @@ title: SKILL — Amos Reality Simulation Distinction
 type: skill
 source: 07_SKILLS/amos-reality-simulation-distinction
 name: amos-reality-simulation-distinction
-description: Reality Simulation Distinction — canon and universe capability. Use when
-  canon reasoning, universe-level analysis, or invariant verification. Use when amos-canon-universe-master
-  routes to this specialized capability. Do not use for generic tasks outside canon
-  domain.
+description: Reality Simulation Distinction — canon and universe capability. Use when canon reasoning, universe-level analysis, or invariant verification. Use when amos-canon-universe-master routes to this specialized capability. Do not use for generic tasks outside canon domain.
 parent_skill: amos-canon-universe-master
 domain: canon
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
 tags:
-- type/skill
-- type/skill
-- domain/canon-universe
-- epistemic/source_claim
-- hml/h
-- epistemic/source_claim
-- amos-os
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/canon-universe
+  - epistemic/source_claim
+  - hml/h
+  - epistemic/source_claim
+  - amos-os
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -32,26 +29,26 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: H
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L3_dependency
-- L5_scope
-- L7_authority
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L3_dependency
+  - L5_scope
+  - L7_authority
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L3
-- L4
-- L5
-- L7
-- L16
-- L17
-- L18
-- L19
+  - L0
+  - L1
+  - L2
+  - L3
+  - L4
+  - L5
+  - L7
+  - L16
+  - L17
+  - L18
+  - L19
 license: MIT
 steward: Trang Phan
 ---
@@ -61,6 +58,7 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: canon. Parent: amos-canon-universe-master. Epistemic class: SOURCE_CLAIM. H/M/L: H.
+
 ## When to Use
 
 - When compiling canonical structure from vault sources
@@ -81,6 +79,7 @@ Origin architect: **Trang Phan**. Domain: canon. Parent: amos-canon-universe-mas
 - **reality_simulation.validate_substrate**: Validate canonical software substrate against canon requirements
 
 > **Reference**: See `references/vault_domain_knowledge.md` (content_hash: ac915a0d5093c8dd) for the full vault-sourced domain knowledge (9498 chars).
+
 - **reality_simulation.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
 - **reality_simulation.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **reality_simulation.validate_outputs**: Validate outputs against domain constraints and epistemic class.
@@ -88,13 +87,13 @@ Origin architect: **Trang Phan**. Domain: canon. Parent: amos-canon-universe-mas
 ## Operations
 
 1. **reality_simulation.compile_canon**: Compile canonical structure from sources into a consistent, navigable canon
-2. **reality_simulation.check_consistency**: Check canon consistency: no contradictions, no gaps, no orphan references
-3. **reality_simulation.enforce_invariant**: Enforce canon invariants: structural laws that must hold across all parts
-4. **reality_simulation.navigate_canon**: Navigate canon: locate the canonical part for any topic or query
-5. **reality_simulation.validate_substrate**: Validate canonical software substrate against canon requirements
-6. **reality_simulation.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-7. **reality_simulation.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
-8. **reality_simulation.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+1. **reality_simulation.check_consistency**: Check canon consistency: no contradictions, no gaps, no orphan references
+1. **reality_simulation.enforce_invariant**: Enforce canon invariants: structural laws that must hold across all parts
+1. **reality_simulation.navigate_canon**: Navigate canon: locate the canonical part for any topic or query
+1. **reality_simulation.validate_substrate**: Validate canonical software substrate against canon requirements
+1. **reality_simulation.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+1. **reality_simulation.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+1. **reality_simulation.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## 11_KNOWLEDGE Vault Content
 
@@ -106,21 +105,25 @@ Origin architect: **Trang Phan**. Domain: canon. Parent: amos-canon-universe-mas
 From C03 Physics & Cosmos: Simulation hypothesis and reality distinction. From Cognitive Organism OS: Reality Gate as L0 cognitive substrate.
 
 **Reality-Simulation distinction model**:
+
 - **Reality**: the actual state of the world, independent of observation
 - **Simulation**: a model that mimics some aspects of reality
 - **Distinction**: the boundary between reality and simulation must be maintained
 
 **Reality Gate (L0)**:
+
 - **Perception-as-science-substrate filter**: perceptions are filtered through a science substrate before being accepted as reality
 - **Anti-autopoisoning**: the system cannot poison its own perception with self-generated hallucinations
 - **Reality check**: every observation must pass a reality check before being accepted
 
 **Distinction laws**:
+
 - `SIMULATION != REALITY`: a simulation is not reality; it is a model
 - `MODEL != TRUTH`: a model is not truth; it is an approximation
 - `PERCEPTION != REALITY`: perception is the system's interpretation; it is not reality itself
 
 **Simulation types**:
+
 - **Physical simulation**: simulates physical processes
 - **Cognitive simulation**: simulates cognitive processes
 - **Social simulation**: simulates social processes
@@ -143,7 +146,8 @@ Reality-simulation distinction is an epistemological framework. It does not prov
 - **G1 (Law of Law)**: No unresolved contradictions within the skill's scope.
 - **G2 (Epistemic class)**: All claims labeled SOURCE / DERIVED /
 
----
+______________________________________________________________________
+
 **Links:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 ## Related
@@ -153,17 +157,19 @@ Reality-simulation distinction is an epistemological framework. It does not prov
 ## Examples
 
 - **Scenario**: When compiling canonical structure from vault sources
+
   - **Input**: A query matching this skill's domain (canon)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When checking canon consistency for contradictions and gaps
+
   - **Input**: A query matching this skill's domain (canon)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When enforcing canon invariants across all parts
+
   - **Input**: A query matching this skill's domain (canon)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Anti-Patterns
 
@@ -173,7 +179,6 @@ Reality-simulation distinction is an epistemological framework. It does not prov
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `amos-canon-universe-master` — routes to this skill when canon specialization is needed
@@ -181,7 +186,6 @@ Reality-simulation distinction is an epistemological framework. It does not prov
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -200,7 +204,6 @@ Reality-simulation distinction is an epistemological framework. It does not prov
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -208,7 +211,6 @@ Reality-simulation distinction is an epistemological framework. It does not prov
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -221,11 +223,12 @@ Reality-simulation distinction is an epistemological framework. It does not prov
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `amos-canon-universe-master` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `amos-reality-simulation-distinction-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -233,12 +236,14 @@ Reality-simulation distinction is an epistemological framework. It does not prov
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-reality-simulation-distinction
 node_type: skill
 path: 07_SKILLS/amos-reality-simulation-distinction/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

@@ -1,39 +1,42 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: L26 PROOF COORDINATION
 aliases:
-- L26 Proof Coordination
-- L26 Proof Coordination Laws
-- Proof Coordination Laws
-- PXC
+  - L26 Proof Coordination
+  - L26 Proof Coordination Laws
+  - Proof Coordination Laws
+  - PXC
 type: proof
 source: 01_CANON/01_CORE_LAWS
 tags:
-- canon
-- core_laws
-- proof
-- proof_coordination
-- compositional_proof
-- proof_home
-- independence
-- provenance
-- verification
-- validators
-- replayability
-- atomic_reasoning
-- coordination
-- note
-- canon/universe
-- references
-- readme
-- law-hierarchy
-- law/L19-proof-capsule
-- law/L22-replayability
-- law/L23-mvcc-cas
-- law/L24-causal-epoch
-- law/L25-shard-local
-- atomic-multi-rscf
-- trang-framework-recursive-ontology-dynamics
-- law/L26-proof-coordination
+  - canon
+  - core_laws
+  - proof
+  - proof_coordination
+  - compositional_proof
+  - proof_home
+  - independence
+  - provenance
+  - verification
+  - validators
+  - replayability
+  - atomic_reasoning
+  - coordination
+  - note
+  - canon/universe
+  - references
+  - readme
+  - law-hierarchy
+  - law/L19-proof-capsule
+  - law/L22-replayability
+  - law/L23-mvcc-cas
+  - law/L24-causal-epoch
+  - law/L25-shard-local
+  - atomic-multi-rscf
+  - trang-framework-recursive-ontology-dynamics
+  - law/L26-proof-coordination
 rscf:
   state: SOURCE_CLAIM
   claim_class: CONDITIONAL
@@ -48,7 +51,7 @@ epistemic_class: AMOS_MODEL
 canonical_status: CONDITIONAL
 updated: 2026-08-26
 
-> [!abstract]
+> [!ABSTRACT]
 > L26 defines the AMOS proof-coordination discipline.
 >
 > It governs where proofs live, how composed proofs are checked, how
@@ -66,11 +69,11 @@ updated: 2026-08-26
 > `AMOS_MODEL / DERIVED` reconstruction unless separately established
 > by authoritative canon.
 
----
+______________________________________________________________________
 
-# 0. Status
+## 0. Status
 
-```yaml
+````yaml
 status:
   law_id: L26
   node_id: l26_proof_coordination
@@ -97,7 +100,7 @@ The supplied source explicitly describes L26 as:
 PROPOSED_SPECIFICATION
 AMOS_MODEL
 CONDITIONAL
-```
+````
 
 Therefore this reconstruction must not silently promote L26 to:
 
@@ -111,9 +114,9 @@ RUNTIME_IMPLEMENTED
 
 without additional authoritative evidence.
 
----
+______________________________________________________________________
 
-# 1. Purpose
+## 1. Purpose
 
 L26 governs the coordination of proofs across an AMOS knowledge and
 reasoning system.
@@ -153,9 +156,9 @@ PROVENANCE-AWARE INDEPENDENCE ACCOUNTING
 EXECUTABLE VERIFICATION
 ```
 
----
+______________________________________________________________________
 
-# 2. Source Laws
+## 2. Source Laws
 
 The supplied source establishes four proof coordination laws.
 
@@ -186,7 +189,7 @@ Proof P
     +--> authoritative copy C
 ```
 
----
+______________________________________________________________________
 
 ## PXC-2 — Compositional Checking
 
@@ -207,7 +210,7 @@ Checking the components alone is insufficient.
 
 Checking only the interfaces is also insufficient.
 
----
+______________________________________________________________________
 
 ## PXC-3 — Independence Accounting
 
@@ -230,7 +233,7 @@ OF ONE PROOF SOURCE
 MULTIPLE INDEPENDENT PROOFS
 ```
 
----
+______________________________________________________________________
 
 ## PXC-4 — Verification Over Assertion
 
@@ -254,9 +257,9 @@ PROOF VALIDITY
 
 where executable validation is applicable.
 
----
+______________________________________________________________________
 
-# 3. Core Coordination Model
+## 3. Core Coordination Model
 
 Let a proof object be represented conceptually as:
 
@@ -266,11 +269,11 @@ $$
 
 where:
 
-* \(H\) = authoritative proof home
-* \(C\) = proof components
-* \(I\) = interfaces between components
-* \(D\) = dependency / lemma ancestry
-* \(V\) = verification evidence
+- (H) = authoritative proof home
+- (C) = proof components
+- (I) = interfaces between components
+- (D) = dependency / lemma ancestry
+- (V) = verification evidence
 
 This is a normalized model representation.
 
@@ -298,9 +301,9 @@ $$
 Verified(P)
 $$
 
----
+______________________________________________________________________
 
-# 4. Proof Coordination Integrity Condition
+## 4. Proof Coordination Integrity Condition
 
 A normalized high-level condition is:
 
@@ -323,13 +326,13 @@ This formalization is `DERIVED / MODEL`.
 The source itself supplies the four governing laws rather than this
 combined equation.
 
----
+______________________________________________________________________
 
-# 5. PXC-1 — One Home Per Proof
+## 5. PXC-1 — One Home Per Proof
 
 PXC-1 establishes proof authority locality.
 
-For every proof \(P\):
+For every proof (P):
 
 $$
 |\text{AuthoritativeHomes}(P)| = 1
@@ -343,9 +346,9 @@ each proof has exactly one authoritative location
 
 The purpose is to avoid divergent authoritative copies.
 
----
+______________________________________________________________________
 
-# 6. Authoritative Home
+## 6. Authoritative Home
 
 The authoritative home is the location whose proof state controls the
 proof identity.
@@ -360,9 +363,9 @@ proof:
 
 Other appearances should resolve back to that home.
 
----
+______________________________________________________________________
 
-# 7. Pointer Semantics
+## 7. Pointer Semantics
 
 A duplicate representation should function as:
 
@@ -387,9 +390,9 @@ proof_reference:
 
 The exact pointer schema is not supplied by L26.
 
----
+______________________________________________________________________
 
-# 8. Pointer Is Not Copy Authority
+## 8. Pointer Is Not Copy Authority
 
 Critical firewall:
 
@@ -413,9 +416,9 @@ the proof.
 
 It does not create a new authoritative proof identity.
 
----
+______________________________________________________________________
 
-# 9. Duplicate Content Boundary
+## 9. Duplicate Content Boundary
 
 PXC-1 says:
 
@@ -440,9 +443,9 @@ ONE PHYSICAL BYTE COPY
 
 unless separately defined.
 
----
+______________________________________________________________________
 
-# 10. One Home Does Not Mean One Consumer
+## 10. One Home Does Not Mean One Consumer
 
 A proof can be referenced by many:
 
@@ -468,9 +471,9 @@ ONE AUTHORITY
 
 is valid under PXC-1.
 
----
+______________________________________________________________________
 
-# 11. Proof Identity
+## 11. Proof Identity
 
 A proof requires stable enough identity to distinguish:
 
@@ -498,11 +501,11 @@ receipt identifier
 
 remain implementation choices unless authoritative canon specifies them.
 
----
+______________________________________________________________________
 
-# 12. Proof Version Boundary
+## 12. Proof Version Boundary
 
-If authoritative proof \(P\) changes:
+If authoritative proof (P) changes:
 
 ```text
 P_v1 -> P_v2
@@ -521,9 +524,9 @@ immutability
 
 Those are integration requirements rather than explicit PXC-1 clauses.
 
----
+______________________________________________________________________
 
-# 13. Proof Home Conflict
+## 13. Proof Home Conflict
 
 A conflict exists when:
 
@@ -547,9 +550,9 @@ The source does not specify the exact runtime response.
 Fail-closed handling is a defensible model for consequential proof
 coordination, but remains `DERIVED`.
 
----
+______________________________________________________________________
 
-# 14. Pointer Drift
+## 14. Pointer Drift
 
 A pointer can become stale if:
 
@@ -573,9 +576,9 @@ authoritative resolution
 
 Exact mechanics are not supplied.
 
----
+______________________________________________________________________
 
-# 15. Proof Home and Provenance
+## 15. Proof Home and Provenance
 
 The authoritative home provides a natural provenance anchor.
 
@@ -596,9 +599,9 @@ LEMMA / EVIDENCE ANCESTRY
 
 This supports PXC-3 independence accounting.
 
----
+______________________________________________________________________
 
-# 16. PXC-2 — Compositional Checking
+## 16. PXC-2 — Compositional Checking
 
 PXC-2 establishes:
 
@@ -628,9 +631,9 @@ is insufficient by itself.
 
 The composition interfaces must also be valid.
 
----
+______________________________________________________________________
 
-# 17. Part-Wise Checking
+## 17. Part-Wise Checking
 
 Every load-bearing component should satisfy its own validity
 requirements.
@@ -646,9 +649,9 @@ P3 -> CHECK
 A failed load-bearing component prevents the composed proof from
 inheriting full validity.
 
----
+______________________________________________________________________
 
-# 18. Interface-Wise Checking
+## 18. Interface-Wise Checking
 
 Suppose:
 
@@ -678,9 +681,9 @@ VALID PARTS
 VALID COMPOSITION
 ```
 
----
+______________________________________________________________________
 
-# 19. Proof Interface
+## 19. Proof Interface
 
 A proof interface may include compatibility of:
 
@@ -704,9 +707,9 @@ This list is an expanded model.
 
 L26 does not enumerate an exact canonical interface schema.
 
----
+______________________________________________________________________
 
-# 20. Premise-Conclusion Interface
+## 20. Premise-Conclusion Interface
 
 Basic composition:
 
@@ -735,9 +738,9 @@ B_P1 != B_P2
 because of scope, regime, definition, or version mismatch, composition
 fails.
 
----
+______________________________________________________________________
 
-# 21. Scope Interface
+## 21. Scope Interface
 
 Example:
 
@@ -765,9 +768,9 @@ SAME SYMBOL
 SAME APPLICABILITY
 ```
 
----
+______________________________________________________________________
 
-# 22. Regime Interface
+## 22. Regime Interface
 
 Example:
 
@@ -789,9 +792,9 @@ does not automatically form a valid proof.
 
 A regime bridge would be required.
 
----
+______________________________________________________________________
 
-# 23. Temporal Interface
+## 23. Temporal Interface
 
 A component proven against:
 
@@ -810,9 +813,9 @@ if relevant state changed.
 Therefore freshness and state-version compatibility can be part of the
 interface.
 
----
+______________________________________________________________________
 
-# 24. Epoch Interface
+## 24. Epoch Interface
 
 Where causal epochs govern state:
 
@@ -833,9 +836,9 @@ L26 itself does not define causal epoch mechanics.
 
 That belongs to .
 
----
+______________________________________________________________________
 
-# 25. Type Interface
+## 25. Type Interface
 
 If a proof output is:
 
@@ -854,9 +857,9 @@ evidence.
 
 Epistemic type must not be silently upgraded through composition.
 
----
+______________________________________________________________________
 
-# 26. Confidence Interface
+## 26. Confidence Interface
 
 Suppose:
 
@@ -876,9 +879,9 @@ VERIFIED
 The weakest load-bearing premise constrains the result unless
 independently revalidated.
 
----
+______________________________________________________________________
 
-# 27. Definition Interface
+## 27. Definition Interface
 
 Two proofs may use the same term differently.
 
@@ -891,9 +894,9 @@ P2: "independence" = provenance independence
 
 Composition without resolving this semantic mismatch is invalid.
 
----
+______________________________________________________________________
 
-# 28. Unit Interface
+## 28. Unit Interface
 
 For quantitative proofs:
 
@@ -907,9 +910,9 @@ requires a valid transformation.
 A numerically plausible connection without unit compatibility is not a
 valid proof interface.
 
----
+______________________________________________________________________
 
-# 29. Assumption Interface
+## 29. Assumption Interface
 
 A proof may depend on assumptions invisible in its conclusion.
 
@@ -925,9 +928,9 @@ P2 assumes NOT A
 Even if their visible outputs appear compatible, the composition is
 internally inconsistent.
 
----
+______________________________________________________________________
 
-# 30. Dependency Interface
+## 30. Dependency Interface
 
 If two components depend on a common lemma:
 
@@ -940,9 +943,9 @@ the composed proof must preserve that ancestry.
 
 Otherwise PXC-3 independence accounting can be corrupted.
 
----
+______________________________________________________________________
 
-# 31. Compositional Validity
+## 31. Compositional Validity
 
 A normalized representation:
 
@@ -956,7 +959,7 @@ Valid(P_2)
 Compatible(P_1,P_2)
 $$
 
-For \(n\) components:
+For (n) components:
 
 $$
 Valid(P)
@@ -973,9 +976,9 @@ $$
 
 This is a model formalization of PXC-2.
 
----
+______________________________________________________________________
 
-# 32. Interface Closure
+## 32. Interface Closure
 
 Not every pair of components must necessarily be checked against every
 other pair.
@@ -1005,9 +1008,9 @@ may be irrelevant unless a direct dependency exists.
 
 Exact interface-closure rules are not supplied.
 
----
+______________________________________________________________________
 
-# 33. Atomic Proof Composition
+## 33. Atomic Proof Composition
 
 A composed proof should expose atomic enough components that
 load-bearing validity can be checked.
@@ -1033,9 +1036,9 @@ with explicit interfaces.
 This naturally integrates with atomic reasoning but does not replace
 its governing law.
 
----
+______________________________________________________________________
 
-# 34. Composition Does Not Create Truth
+## 34. Composition Does Not Create Truth
 
 Critical firewall:
 
@@ -1051,9 +1054,9 @@ L26 coordinates proof integrity.
 
 It does not abolish the need to validate evidence.
 
----
+______________________________________________________________________
 
-# 35. PXC-3 — Independence Accounting
+## 35. PXC-3 — Independence Accounting
 
 PXC-3 states:
 
@@ -1074,9 +1077,9 @@ Then P1 and P2 share lemma L.
 
 They must not be counted as two fully independent confirmations of L.
 
----
+______________________________________________________________________
 
-# 36. Shared Lemma Accounting
+## 36. Shared Lemma Accounting
 
 If:
 
@@ -1100,9 +1103,9 @@ for independence accounting.
 
 The exact numerical aggregation method is not supplied.
 
----
+______________________________________________________________________
 
-# 37. Descendant Multiplication
+## 37. Descendant Multiplication
 
 Consider:
 
@@ -1127,9 +1130,9 @@ do not create:
 
 PXC-3 explicitly prevents this form of fabricated strength.
 
----
+______________________________________________________________________
 
-# 38. Multiplicity vs Independence
+## 38. Multiplicity vs Independence
 
 Critical law:
 
@@ -1155,9 +1158,9 @@ DESCENDANT COUNT
 INDEPENDENT EVIDENCE COUNT
 ```
 
----
+______________________________________________________________________
 
-# 39. Shared Ancestry
+## 39. Shared Ancestry
 
 Independence accounting should trace enough ancestry to detect shared
 load-bearing foundations.
@@ -1179,9 +1182,9 @@ is a common ancestor.
 
 Therefore apparent independence may collapse upstream.
 
----
+______________________________________________________________________
 
-# 40. Provenance Topology
+## 40. Provenance Topology
 
 Proof strength depends not only on:
 
@@ -1215,9 +1218,9 @@ if S1/S2/S3 are genuinely independent.
 
 Independence must be demonstrated rather than assumed.
 
----
+______________________________________________________________________
 
-# 41. Common Source Problem
+## 41. Common Source Problem
 
 Suppose three proof artifacts cite:
 
@@ -1239,9 +1242,9 @@ three independent confirmations
 
 PXC-3 requires the distinction to remain visible.
 
----
+______________________________________________________________________
 
-# 42. Common Dataset Problem
+## 42. Common Dataset Problem
 
 Different proofs may use different models but the same dataset.
 
@@ -1259,9 +1262,9 @@ correlated.
 Therefore model multiplicity alone does not establish full
 independence.
 
----
+______________________________________________________________________
 
-# 43. Common Model Problem
+## 43. Common Model Problem
 
 Different prompts or agents using the same underlying model can share
 failure modes.
@@ -1276,9 +1279,9 @@ INDEPENDENT PROOF
 
 without failure-mode and provenance analysis.
 
----
+______________________________________________________________________
 
-# 44. Common Assumption Problem
+## 44. Common Assumption Problem
 
 Two proofs can use different sources while sharing the same hidden
 assumption.
@@ -1297,9 +1300,9 @@ both fail
 Therefore independence accounting includes load-bearing assumptions,
 not only source identity.
 
----
+______________________________________________________________________
 
-# 45. Common Validator Problem
+## 45. Common Validator Problem
 
 Two proofs validated by the same flawed validator may share a
 verification failure mode.
@@ -1321,9 +1324,9 @@ do not necessarily mean:
 two independent validation paths
 ```
 
----
+______________________________________________________________________
 
-# 46. Common Runtime Problem
+## 46. Common Runtime Problem
 
 Different validators can still share:
 
@@ -1339,9 +1342,9 @@ Independence is layered.
 
 The relevant level depends on the failure hypothesis being tested.
 
----
+______________________________________________________________________
 
-# 47. Independence Is Typed
+## 47. Independence Is Typed
 
 Rather than a single universal boolean:
 
@@ -1367,9 +1370,9 @@ This typed independence model is `DERIVED`.
 The source establishes independence accounting but not this exact
 taxonomy.
 
----
+______________________________________________________________________
 
-# 48. Independence Is Scoped
+## 48. Independence Is Scoped
 
 Two proof paths may be independent against one failure mode and
 correlated against another.
@@ -1390,9 +1393,9 @@ INDEPENDENT
 
 without a failure-mode scope can be misleading.
 
----
+______________________________________________________________________
 
-# 49. Independence Is Not Binary by Default
+## 49. Independence Is Not Binary by Default
 
 The source does not define whether independence must be represented as:
 
@@ -1406,9 +1409,9 @@ probabilistic
 
 Therefore no numerical independence score should be invented as canon.
 
----
+______________________________________________________________________
 
-# 50. Independence Accounting Equation
+## 50. Independence Accounting Equation
 
 A safe qualitative representation is:
 
@@ -1430,9 +1433,9 @@ $$
 
 This captures PXC-3 without inventing a specific weighting formula.
 
----
+______________________________________________________________________
 
-# 51. Sybil-Hardened Proof Coordination
+## 51. Sybil-Hardened Proof Coordination
 
 PXC-3 naturally resists proof Sybil attacks.
 
@@ -1453,9 +1456,9 @@ count common lemmas once
 preserve correlation
 ```
 
----
+______________________________________________________________________
 
-# 52. Proof Popularity Boundary
+## 52. Proof Popularity Boundary
 
 A proof cited 1,000 times is not automatically stronger than a proof
 cited once.
@@ -1474,9 +1477,9 @@ CITATION COUNT
 INDEPENDENT CONFIRMATION COUNT
 ```
 
----
+______________________________________________________________________
 
-# 53. Authority Boundary
+## 53. Authority Boundary
 
 Likewise:
 
@@ -1489,9 +1492,9 @@ convert an unexecuted validator claim into an executed validation.
 
 Authority and verification are distinct dimensions.
 
----
+______________________________________________________________________
 
-# 54. PXC-4 — Verification Over Assertion
+## 54. PXC-4 — Verification Over Assertion
 
 PXC-4 states:
 
@@ -1507,9 +1510,9 @@ PROOF VERIFICATION
 
 A statement that a proof exists is not enough.
 
----
+______________________________________________________________________
 
-# 55. Line Count Anti-Pattern
+## 55. Line Count Anti-Pattern
 
 Examples of invalid proof substitution:
 
@@ -1533,9 +1536,9 @@ SIZE
 CORRECTNESS
 ```
 
----
+______________________________________________________________________
 
-# 56. Test Count Anti-Pattern
+## 56. Test Count Anti-Pattern
 
 Likewise:
 
@@ -1575,9 +1578,9 @@ formal correctness
 
 unless the relevant proof standard defines it.
 
----
+______________________________________________________________________
 
-# 57. Validator Presence vs Execution
+## 57. Validator Presence vs Execution
 
 ```text
 VALIDATOR EXISTS
@@ -1603,9 +1606,9 @@ VALIDATOR SOUND
 
 These layers must remain separate.
 
----
+______________________________________________________________________
 
-# 58. Verification Receipt
+## 58. Verification Receipt
 
 Executable verification naturally benefits from a receipt.
 
@@ -1636,9 +1639,9 @@ verification_receipt:
 
 The exact schema is not supplied by L26.
 
----
+______________________________________________________________________
 
-# 59. Verification Evidence Classes
+## 59. Verification Evidence Classes
 
 A proof-related statement may have different epistemic status.
 
@@ -1662,9 +1665,9 @@ claim:
 
 The observation remains scoped to that execution environment.
 
----
+______________________________________________________________________
 
-# 60. Verification Is Scoped
+## 60. Verification Is Scoped
 
 A successful validator execution establishes only what that validator
 actually checks.
@@ -1679,9 +1682,9 @@ UNIVERSAL VALIDITY
 
 unless the validator's soundness and scope justify that conclusion.
 
----
+______________________________________________________________________
 
-# 61. Validator Contract
+## 61. Validator Contract
 
 A useful validator contract should identify:
 
@@ -1698,9 +1701,9 @@ version
 
 Otherwise a `PASS` can be semantically ambiguous.
 
----
+______________________________________________________________________
 
-# 62. Validator Soundness Boundary
+## 62. Validator Soundness Boundary
 
 L26 says proofs execute validators/tests.
 
@@ -1722,9 +1725,9 @@ EXECUTION ALONE
 does not prove validator correctness
 ```
 
----
+______________________________________________________________________
 
-# 63. Test Oracle Boundary
+## 63. Test Oracle Boundary
 
 Tests depend on an oracle:
 
@@ -1737,9 +1740,9 @@ If the oracle is wrong, passing tests may validate the wrong property.
 Therefore consequential proof coordination may require validating the
 test contract itself.
 
----
+______________________________________________________________________
 
-# 64. Formal Proof Boundary
+## 64. Formal Proof Boundary
 
 PXC-4 must not be interpreted as saying every mathematical proof must
 literally be converted into ordinary executable software tests.
@@ -1765,9 +1768,9 @@ runtime test
 
 is not specified.
 
----
+______________________________________________________________________
 
-# 65. Human Proof Boundary
+## 65. Human Proof Boundary
 
 Likewise, L26 does not explicitly define whether human-reviewed proofs
 without machine execution are forbidden in every context.
@@ -1781,9 +1784,9 @@ is insufficient
 
 while exact accepted verification modalities remain a gap.
 
----
+______________________________________________________________________
 
-# 66. Verification Reproducibility
+## 66. Verification Reproducibility
 
 A stronger verification path records enough state to permit later
 reproduction.
@@ -1801,11 +1804,11 @@ execution result
 
 This naturally connects L26 to L22 replayability.
 
----
+______________________________________________________________________
 
-# 67. L22 Replayability Integration
+## 67. L22 Replayability Integration
 
- can support proof verification by requiring
+can support proof verification by requiring
 deterministic replay of valid state transitions from receipts and root
 inputs.
 
@@ -1824,9 +1827,9 @@ L22 governs deterministic replayability.
 A proof verification receipt may use L22-style replay discipline, but
 the exact coupling is not supplied here.
 
----
+______________________________________________________________________
 
-# 68. Replay Is Not Verification
+## 68. Replay Is Not Verification
 
 Critical firewall:
 
@@ -1848,11 +1851,11 @@ scope is correct
 causal inference is valid
 ```
 
----
+______________________________________________________________________
 
-# 69. L23 MVCC/CAS Integration
+## 69. L23 MVCC/CAS Integration
 
- can protect concurrent mutation of proof state.
+can protect concurrent mutation of proof state.
 
 Conceptually:
 
@@ -1876,9 +1879,9 @@ CAS protects state-transition integrity.
 
 L26 protects proof-coordination integrity.
 
----
+______________________________________________________________________
 
-# 70. Proof Registry Snapshot
+## 70. Proof Registry Snapshot
 
 A reasoning transaction may need to record:
 
@@ -1894,9 +1897,9 @@ This supports reproducibility and conflict detection.
 
 The exact registry schema is not supplied.
 
----
+______________________________________________________________________
 
-# 71. Concurrent Proof Update
+## 71. Concurrent Proof Update
 
 Suppose:
 
@@ -1913,11 +1916,11 @@ conclusion as though it validated P_v2.
 
 This is a natural L23/L26 integration.
 
----
+______________________________________________________________________
 
-# 72. L24 Causal Epoch Integration
+## 72. L24 Causal Epoch Integration
 
- can preserve proof evolution across causal epochs.
+can preserve proof evolution across causal epochs.
 
 Conceptually:
 
@@ -1933,9 +1936,9 @@ The older proof remains historically attributable.
 
 It is not silently rewritten.
 
----
+______________________________________________________________________
 
-# 73. Proof Supersession
+## 73. Proof Supersession
 
 A new proof may:
 
@@ -1952,9 +1955,9 @@ These relationships should be explicit.
 
 L26 itself does not define the exact supersession vocabulary.
 
----
+______________________________________________________________________
 
-# 74. No-Time-Travel Proof History
+## 74. No-Time-Travel Proof History
 
 Correct:
 
@@ -1975,11 +1978,11 @@ as though P_v2 always existed
 
 where causal epoch law applies.
 
----
+______________________________________________________________________
 
-# 75. L25 Shard-Local Integration
+## 75. L25 Shard-Local Integration
 
- may permit local proof validation where the proof
+may permit local proof validation where the proof
 and all material dependencies are shard-local.
 
 Conceptually:
@@ -1995,9 +1998,9 @@ may allow local verification.
 
 But local storage alone does not prove local sufficiency.
 
----
+______________________________________________________________________
 
-# 76. Proof Locality
+## 76. Proof Locality
 
 A proof can be coordinated locally only when its material dependency
 closure is local.
@@ -2012,9 +2015,9 @@ L_global
 
 then P is not proof-local for validation purposes.
 
----
+______________________________________________________________________
 
-# 77. Coordination Avoidance
+## 77. Coordination Avoidance
 
 L26 can support proof-based coordination avoidance.
 
@@ -2032,9 +2035,9 @@ This is a `DERIVED` integration with the v4.4 architectural direction.
 
 It is not an explicit source clause in the terse L26 note.
 
----
+______________________________________________________________________
 
-# 78. Proof of Locality
+## 78. Proof of Locality
 
 Coordination avoidance requires a proof that establishes sufficient:
 
@@ -2052,9 +2055,9 @@ Locality must be demonstrated.
 
 It must not be assumed.
 
----
+______________________________________________________________________
 
-# 79. Proof-Based Coordination Avoidance Firewall
+## 79. Proof-Based Coordination Avoidance Firewall
 
 Incorrect:
 
@@ -2076,11 +2079,11 @@ VALID PROOF INTERFACES
 COORDINATION MAY BE AVOIDABLE
 ```
 
----
+______________________________________________________________________
 
-# 80. Atomic Multi-RSCF Integration
+## 80. Atomic Multi-RSCF Integration
 
- can use L26 when one conclusion depends on
+can use L26 when one conclusion depends on
 multiple RSCF proof capsules.
 
 Example:
@@ -2096,9 +2099,9 @@ COMPOSED DECISION
 
 Each capsule must be checked individually and at interfaces.
 
----
+______________________________________________________________________
 
-# 81. Atomic Proof Set
+## 81. Atomic Proof Set
 
 A proof transaction may depend on:
 
@@ -2119,11 +2122,11 @@ must not commit as though P2 remained valid
 
 Exact transaction mechanics belong to the concurrency/atomicity laws.
 
----
+______________________________________________________________________
 
-# 82. L19 Proof Capsule Integration
+## 82. L19 Proof Capsule Integration
 
- provides a natural representation for coordinated
+provides a natural representation for coordinated
 proof state.
 
 A proof capsule can carry:
@@ -2144,9 +2147,9 @@ confidence ceiling
 
 L26 then governs coordination among those capsules.
 
----
+______________________________________________________________________
 
-# 83. Proof Capsule Is Not Proof Home
+## 83. Proof Capsule Is Not Proof Home
 
 Critical distinction:
 
@@ -2160,9 +2163,9 @@ A capsule may summarize or point to the authoritative proof.
 
 PXC-1 prevents the summary from silently becoming a second authority.
 
----
+______________________________________________________________________
 
-# 84. Capsule Composition
+## 84. Capsule Composition
 
 Suppose:
 
@@ -2184,9 +2187,9 @@ validate A<->B interface
 
 before C inherits their support.
 
----
+______________________________________________________________________
 
-# 85. Capsule Independence
+## 85. Capsule Independence
 
 If:
 
@@ -2198,9 +2201,9 @@ Capsule B <- Lemma L
 PXC-3 prevents A and B from being counted as two independent
 foundations for L.
 
----
+______________________________________________________________________
 
-# 86. Capsule Verification
+## 86. Capsule Verification
 
 If a capsule states:
 
@@ -2211,9 +2214,9 @@ tests pass
 PXC-4 requires actual validation evidence rather than merely accepting
 the capsule's assertion when verification is required.
 
----
+______________________________________________________________________
 
-# 87. Proof Graph
+## 87. Proof Graph
 
 Conceptually:
 
@@ -2237,9 +2240,9 @@ Conceptually:
 
 PXC-3 requires L2 to be recognized as shared ancestry.
 
----
+______________________________________________________________________
 
-# 88. Proof Provenance Graph
+## 88. Proof Provenance Graph
 
 ```text
 SOURCE S
@@ -2271,9 +2274,9 @@ one shared root S/L
 
 where load-bearing.
 
----
+______________________________________________________________________
 
-# 89. Proof Interface Graph
+## 89. Proof Interface Graph
 
 ```text
 P1
@@ -2307,9 +2310,9 @@ I2
 
 where each is load-bearing.
 
----
+______________________________________________________________________
 
-# 90. Weakest Load-Bearing Component
+## 90. Weakest Load-Bearing Component
 
 If:
 
@@ -2327,9 +2330,9 @@ CONDITIONAL
 
 unless I1 is independently revalidated.
 
----
+______________________________________________________________________
 
-# 91. Proof Confidence Ceiling
+## 91. Proof Confidence Ceiling
 
 Normalized:
 
@@ -2346,9 +2349,9 @@ over load-bearing proof parts and interfaces.
 
 This is a derived AMOS confidence rule, not an explicit L26 equation.
 
----
+______________________________________________________________________
 
-# 92. Non-Load-Bearing Components
+## 92. Non-Load-Bearing Components
 
 A weak component does not necessarily cap the proof if it is genuinely
 non-load-bearing.
@@ -2367,9 +2370,9 @@ WEAKEST LOAD-BEARING NODE
 
 Dependency analysis matters.
 
----
+______________________________________________________________________
 
-# 93. Proof Dependency Closure
+## 93. Proof Dependency Closure
 
 For conclusion C:
 
@@ -2393,9 +2396,9 @@ regime bridges
 
 where load-bearing.
 
----
+______________________________________________________________________
 
-# 94. Minimal Proof Closure
+## 94. Minimal Proof Closure
 
 Proof coordination should avoid:
 
@@ -2414,9 +2417,9 @@ load-bearing proof closure
 
 subject to integrity.
 
----
+______________________________________________________________________
 
-# 95. Hidden Lemma Hazard
+## 95. Hidden Lemma Hazard
 
 Suppose:
 
@@ -2435,9 +2438,9 @@ Then PXC-3 accounting is incomplete.
 Therefore proof capsules should expose material dependencies rather than
 hide them in prose.
 
----
+______________________________________________________________________
 
-# 96. Hidden Interface Hazard
+## 96. Hidden Interface Hazard
 
 Suppose:
 
@@ -2456,9 +2459,9 @@ T
 
 is part of the proof interface and must be validated if load-bearing.
 
----
+______________________________________________________________________
 
-# 97. Hidden Validator Hazard
+## 97. Hidden Validator Hazard
 
 A proof may claim:
 
@@ -2481,9 +2484,9 @@ This weakens PXC-4 auditability.
 A verification claim should remain appropriately classified until the
 execution evidence is available.
 
----
+______________________________________________________________________
 
-# 98. Verification State Machine
+## 98. Verification State Machine
 
 ```text
 PROOF CLAIMED
@@ -2520,9 +2523,9 @@ CLASS              REPAIR
 
 Model-level state machine.
 
----
+______________________________________________________________________
 
-# 99. Proof Registration State Machine
+## 99. Proof Registration State Machine
 
 ```text
 NEW PROOF
@@ -2543,9 +2546,9 @@ HOME             VERSION /
 
 The exact registration protocol is not source-defined.
 
----
+______________________________________________________________________
 
-# 100. Proof Composition State Machine
+## 100. Proof Composition State Machine
 
 ```text
 P1 + P2 + ... + Pn
@@ -2574,9 +2577,9 @@ CHECK EACH PART
                 RESULT
 ```
 
----
+______________________________________________________________________
 
-# 101. Independence State Machine
+## 101. Independence State Machine
 
 ```text
 SUPPORT PATHS FOUND
@@ -2602,9 +2605,9 @@ ROOT ONCE
 No independence should be promoted merely because paths look
 different at the leaf level.
 
----
+______________________________________________________________________
 
-# 102. Validator State Machine
+## 102. Validator State Machine
 
 ```text
 VALIDATOR CLAIM EXISTS
@@ -2632,9 +2635,9 @@ SOURCE_CLAIM    INSPECT RECEIPT
                    SUPPORTED CLAIM
 ```
 
----
+______________________________________________________________________
 
-# 103. Proof Home Schema
+## 103. Proof Home Schema
 
 Illustrative only:
 
@@ -2664,9 +2667,9 @@ proof_home:
     receipts: []
 ```
 
----
+______________________________________________________________________
 
-# 104. Proof Pointer Schema
+## 104. Proof Pointer Schema
 
 ```yaml
 proof_pointer:
@@ -2684,9 +2687,9 @@ proof_pointer:
 
 Illustrative.
 
----
+______________________________________________________________________
 
-# 105. Proof Component Schema
+## 105. Proof Component Schema
 
 ```yaml
 proof_component:
@@ -2709,9 +2712,9 @@ proof_component:
   validator_requirements: []
 ```
 
----
+______________________________________________________________________
 
-# 106. Proof Interface Schema
+## 106. Proof Interface Schema
 
 ```yaml
 proof_interface:
@@ -2736,9 +2739,9 @@ proof_interface:
 
 The exact canonical interface dimensions are not established.
 
----
+______________________________________________________________________
 
-# 107. Independence Record Schema
+## 107. Independence Record Schema
 
 ```yaml
 independence_record:
@@ -2763,9 +2766,9 @@ independence_record:
 
 Model-level.
 
----
+______________________________________________________________________
 
-# 108. Verification Receipt Schema
+## 108. Verification Receipt Schema
 
 ```yaml
 verification_receipt:
@@ -2804,9 +2807,9 @@ verification_receipt:
 
 Illustrative only.
 
----
+______________________________________________________________________
 
-# 109. Composed Proof Receipt
+## 109. Composed Proof Receipt
 
 ```yaml
 composed_proof_receipt:
@@ -2843,9 +2846,9 @@ composed_proof_receipt:
 
 Illustrative.
 
----
+______________________________________________________________________
 
-# 110. Proof Coordination Transaction
+## 110. Proof Coordination Transaction
 
 A proof coordination transaction may conceptually contain:
 
@@ -2881,9 +2884,9 @@ proof_transaction:
 
 The exact transaction schema is governed elsewhere.
 
----
+______________________________________________________________________
 
-# 111. Proof Coordination Fast Path
+## 111. Proof Coordination Fast Path
 
 A local proof may avoid broader coordination when all material
 conditions are satisfied.
@@ -2914,9 +2917,9 @@ LOCAL FINALIZATION MAY BE SUFFICIENT
 
 This is a derived v4.4 integration.
 
----
+______________________________________________________________________
 
-# 112. Fast Path Escalation
+## 112. Fast Path Escalation
 
 Escalate when:
 
@@ -2936,9 +2939,9 @@ irreversible governance effect
 stale proof dependency
 ```
 
----
+______________________________________________________________________
 
-# 113. Proof-Based Coordination Avoidance
+## 113. Proof-Based Coordination Avoidance
 
 The central v4.4-style optimization can be expressed as:
 
@@ -2957,9 +2960,9 @@ NO COORDINATION AVOIDANCE
 WITHOUT PROOF OF SUFFICIENT LOCALITY
 ```
 
----
+______________________________________________________________________
 
-# 114. Coordination Avoidance Does Not Mean No Coordination
+## 114. Coordination Avoidance Does Not Mean No Coordination
 
 The law does not advocate:
 
@@ -2980,9 +2983,9 @@ When proof fails:
 ESCALATE
 ```
 
----
+______________________________________________________________________
 
-# 115. Coordination Cost Boundary
+## 115. Coordination Cost Boundary
 
 L26 does not supply a numerical model for:
 
@@ -2997,9 +3000,9 @@ consensus cost
 Therefore no quantitative optimization theorem should be attributed to
 L26 without further evidence.
 
----
+______________________________________________________________________
 
-# 116. Proof Finality
+## 116. Proof Finality
 
 A proof can be considered locally final only relative to:
 
@@ -3016,9 +3019,9 @@ where those dimensions are material.
 
 Finality is not necessarily eternal truth.
 
----
+______________________________________________________________________
 
-# 117. Proof Freshness
+## 117. Proof Freshness
 
 A proof can become stale if a load-bearing premise changes.
 
@@ -3033,9 +3036,9 @@ VALID FOREVER
 Revalidation should follow dependency changes rather than arbitrary
 global recomputation.
 
----
+______________________________________________________________________
 
-# 118. Selective Proof Invalidation
+## 118. Selective Proof Invalidation
 
 If lemma L fails:
 
@@ -3062,9 +3065,9 @@ L
 P3 independent of L -> PRESERVE
 ```
 
----
+______________________________________________________________________
 
-# 119. Proof Repair
+## 119. Proof Repair
 
 When a proof fails:
 
@@ -3078,9 +3081,9 @@ re-run affected verification
 
 Do not rebuild unrelated proof branches unless required.
 
----
+______________________________________________________________________
 
-# 120. Failed Validator Recovery
+## 120. Failed Validator Recovery
 
 If validator V fails operationally:
 
@@ -3107,9 +3110,9 @@ proof defect
 
 These hypotheses should remain distinguished.
 
----
+______________________________________________________________________
 
-# 121. Validator Disagreement
+## 121. Validator Disagreement
 
 Suppose:
 
@@ -3147,9 +3150,9 @@ or:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 122. Proof Disagreement
+## 122. Proof Disagreement
 
 Suppose:
 
@@ -3169,9 +3172,9 @@ must be preserved.
 Proof coordination does not force convergence merely for system
 simplicity.
 
----
+______________________________________________________________________
 
-# 123. Strongest Alternative Challenge
+## 123. Strongest Alternative Challenge
 
 For consequential proof claims:
 
@@ -3195,9 +3198,9 @@ stronger alternative
 
 This is an adversarial validation integration.
 
----
+______________________________________________________________________
 
-# 124. Independent Challenge Path
+## 124. Independent Challenge Path
 
 A challenge path is not independent merely because:
 
@@ -3210,9 +3213,9 @@ different proof wrapper
 
 It should differ materially in the failure mode it can detect.
 
----
+______________________________________________________________________
 
-# 125. Proof Sensitivity
+## 125. Proof Sensitivity
 
 Identify the smallest proof element capable of flipping the conclusion.
 
@@ -3229,9 +3232,9 @@ one provenance-independence claim
 
 Test that element first.
 
----
+______________________________________________________________________
 
-# 126. Fragile Proof
+## 126. Fragile Proof
 
 A proof should be marked conditional when a plausible perturbation of a
 load-bearing assumption changes the result.
@@ -3247,9 +3250,9 @@ indicates fragility.
 
 Fragility is not automatically invalidity.
 
----
+______________________________________________________________________
 
-# 127. Robust Proof
+## 127. Robust Proof
 
 A proof is more robust when its conclusion survives plausible changes
 to noncritical assumptions and when critical assumptions are strongly
@@ -3257,9 +3260,9 @@ validated.
 
 No universal robustness metric is supplied by L26.
 
----
+______________________________________________________________________
 
-# 128. Proof and Causal Claims
+## 128. Proof and Causal Claims
 
 A proof can be logically valid while its causal interpretation is not.
 
@@ -3273,9 +3276,9 @@ PROOF OF CAUSATION
 
 Proof coordination must preserve causal evidence type.
 
----
+______________________________________________________________________
 
-# 129. Structural Similarity Boundary
+## 129. Structural Similarity Boundary
 
 Two proof structures may be isomorphic.
 
@@ -3290,9 +3293,9 @@ same scope
 Proof composition must not convert structural analogy into causal
 evidence.
 
----
+______________________________________________________________________
 
-# 130. Proof and Scope
+## 130. Proof and Scope
 
 Every consequential proof should carry enough applicability information
 to prevent silent generalization.
@@ -3312,9 +3315,9 @@ assumptions
 
 where relevant.
 
----
+______________________________________________________________________
 
-# 131. Proof and Regime
+## 131. Proof and Regime
 
 A proof can belong to:
 
@@ -3329,9 +3332,9 @@ or another declared regime.
 
 Composition across regimes requires an explicit valid bridge.
 
----
+______________________________________________________________________
 
-# 132. Proof and Freshness
+## 132. Proof and Freshness
 
 A proof may remain structurally valid while becoming operationally
 stale.
@@ -3350,9 +3353,9 @@ configuration v2
 
 if load-bearing conditions changed.
 
----
+______________________________________________________________________
 
-# 133. Proof and Provenance
+## 133. Proof and Provenance
 
 A proof should preserve provenance sufficiently to answer:
 
@@ -3368,9 +3371,9 @@ Can the source still be recovered?
 Has it been superseded?
 ```
 
----
+______________________________________________________________________
 
-# 134. Proof and Evidence Class
+## 134. Proof and Evidence Class
 
 Proof coordination must distinguish:
 
@@ -3387,9 +3390,9 @@ where applicable.
 
 Logical composition must not silently upgrade evidence type.
 
----
+______________________________________________________________________
 
-# 135. Source Claim vs Verified Proof
+## 135. Source Claim vs Verified Proof
 
 If documentation says:
 
@@ -3407,9 +3410,9 @@ until the proof or authoritative verification evidence is inspected.
 
 PXC-4 directly reinforces this boundary.
 
----
+______________________________________________________________________
 
-# 136. Test Report vs Test Observation
+## 136. Test Report vs Test Observation
 
 ```text
 README:
@@ -3427,9 +3430,9 @@ is an observation about that execution.
 
 Neither alone proves universal correctness.
 
----
+______________________________________________________________________
 
-# 137. Benchmark Boundary
+## 137. Benchmark Boundary
 
 Benchmark success can support a scoped performance claim.
 
@@ -3445,9 +3448,9 @@ all future versions
 
 Proof coordination must preserve benchmark scope.
 
----
+______________________________________________________________________
 
-# 138. Formal Verification Boundary
+## 138. Formal Verification Boundary
 
 A formally verified property establishes the property represented by
 the formal model under its assumptions.
@@ -3464,9 +3467,9 @@ unless those interfaces are separately validated.
 
 This is a direct application of PXC-2.
 
----
+______________________________________________________________________
 
-# 139. Model-to-Implementation Interface
+## 139. Model-to-Implementation Interface
 
 For:
 
@@ -3484,9 +3487,9 @@ automatically establish correspondence between them.
 
 The correspondence must be checked.
 
----
+______________________________________________________________________
 
-# 140. Specification-to-Proof Interface
+## 140. Specification-to-Proof Interface
 
 Likewise:
 
@@ -3502,9 +3505,9 @@ intended specification.
 
 Otherwise the system can correctly prove the wrong property.
 
----
+______________________________________________________________________
 
-# 141. Test-to-Requirement Interface
+## 141. Test-to-Requirement Interface
 
 ```text
 REQUIREMENT
@@ -3519,9 +3522,9 @@ A passing test proves only the tested behavior.
 
 PXC-2 therefore extends naturally to validation infrastructure itself.
 
----
+______________________________________________________________________
 
-# 142. Validator-to-Proof Interface
+## 142. Validator-to-Proof Interface
 
 ```text
 PROOF FORMAT
@@ -3542,9 +3545,9 @@ where relevant.
 
 A validator built for proof format v1 may not validate v2.
 
----
+______________________________________________________________________
 
-# 143. Proof Receipt-to-Proof Interface
+## 143. Proof Receipt-to-Proof Interface
 
 A verification receipt must identify the proof it actually validated.
 
@@ -3558,9 +3561,9 @@ could be incorrectly attached to another version.
 
 Therefore proof identity/version binding is materially important.
 
----
+______________________________________________________________________
 
-# 144. Proof Replay Boundary
+## 144. Proof Replay Boundary
 
 A replayed validation can demonstrate reproducibility.
 
@@ -3576,9 +3579,9 @@ it is not independent corroboration.
 
 PXC-3 remains active during replay.
 
----
+______________________________________________________________________
 
-# 145. Proof Cache Boundary
+## 145. Proof Cache Boundary
 
 Cached verification may be reused only while material conditions remain
 valid.
@@ -3595,9 +3598,9 @@ freshness valid
 no defeating contradiction
 ```
 
----
+______________________________________________________________________
 
-# 146. Cached Pass Is Not Eternal Pass
+## 146. Cached Pass Is Not Eternal Pass
 
 ```text
 PASS@t0
@@ -3613,9 +3616,9 @@ after material dependencies mutate.
 
 Revalidation should be dependency-driven.
 
----
+______________________________________________________________________
 
-# 147. Proof Registry
+## 147. Proof Registry
 
 An implementation may maintain a proof registry.
 
@@ -3636,9 +3639,9 @@ proof_registry:
 
 L26 does not mandate this exact implementation.
 
----
+______________________________________________________________________
 
-# 148. Proof Home Resolution
+## 148. Proof Home Resolution
 
 Conceptual function:
 
@@ -3657,9 +3660,9 @@ def resolve_proof_home(proof_id):
 
 Illustrative implementation of PXC-1.
 
----
+______________________________________________________________________
 
-# 149. Composition Validation
+## 149. Composition Validation
 
 ```python
 def validate_composition(parts, interfaces):
@@ -3676,9 +3679,9 @@ def validate_composition(parts, interfaces):
 
 Illustrative implementation of PXC-2.
 
----
+______________________________________________________________________
 
-# 150. Independence Accounting
+## 150. Independence Accounting
 
 ```python
 def independent_roots(proofs):
@@ -3690,9 +3693,9 @@ Illustrative only.
 
 The source does not specify a concrete algorithm.
 
----
+______________________________________________________________________
 
-# 151. Verification Execution
+## 151. Verification Execution
 
 ```python
 def verify(proof, validator):
@@ -3707,9 +3710,9 @@ def verify(proof, validator):
 
 Illustrative PXC-4 implementation.
 
----
+______________________________________________________________________
 
-# 152. Integrated Validation Algorithm
+## 152. Integrated Validation Algorithm
 
 ```python
 def coordinate_proof(proof_set):
@@ -3746,9 +3749,9 @@ def coordinate_proof(proof_set):
 
 This is a reference model, not supplied executable canon.
 
----
+______________________________________________________________________
 
-# 153. Minimal Proof Coordination Contract
+## 153. Minimal Proof Coordination Contract
 
 A minimally coordinated proof should establish:
 
@@ -3764,9 +3767,9 @@ verification evidence
 This is the smallest structure directly implied by PXC-1 through
 PXC-4.
 
----
+______________________________________________________________________
 
-# 154. Full Proof Coordination Contract
+## 154. Full Proof Coordination Contract
 
 For consequential use, a fuller contract may also carry:
 
@@ -3790,9 +3793,9 @@ governance state
 
 These fields are integrations rather than direct source clauses.
 
----
+______________________________________________________________________
 
-# 155. Proof Coordination Decision Matrix
+## 155. Proof Coordination Decision Matrix
 
 | Condition                             | Result                         |
 | ------------------------------------- | ------------------------------ |
@@ -3812,9 +3815,9 @@ These fields are integrations rather than direct source clauses.
 | Global invariant implicated           | escalate coordination          |
 | Critical proof gap unresolved         | UNKNOWN/GAP or CONDITIONAL     |
 
----
+______________________________________________________________________
 
-# 156. Proof Classification Matrix
+## 156. Proof Classification Matrix
 
 | Evidence state                             | Appropriate class                 |
 | ------------------------------------------ | --------------------------------- |
@@ -3827,9 +3830,9 @@ These fields are integrations rather than direct source clauses.
 | Competing proofs unresolved                | COMPETING                         |
 | Critical proof missing                     | UNKNOWN/GAP                       |
 
----
+______________________________________________________________________
 
-# 157. Verification Strength Ladder
+## 157. Verification Strength Ladder
 
 Conceptually:
 
@@ -3865,9 +3868,9 @@ This is not a universal linear ranking.
 
 It illustrates why PXC-4 rejects assertion-only proof claims.
 
----
+______________________________________________________________________
 
-# 158. Independence Strength Ladder
+## 158. Independence Strength Ladder
 
 Conceptually:
 
@@ -3887,9 +3890,9 @@ This is qualitative only.
 
 No numeric ordering is canonical here.
 
----
+______________________________________________________________________
 
-# 159. Proof Authority vs Proof Validity
+## 159. Proof Authority vs Proof Validity
 
 Critical distinction:
 
@@ -3925,9 +3928,9 @@ VALID
 
 A canonical proof can still require validation under PXC-4.
 
----
+______________________________________________________________________
 
-# 160. Proof Validity vs Claim Truth
+## 160. Proof Validity vs Claim Truth
 
 Likewise:
 
@@ -3943,9 +3946,9 @@ premises correspond to reality
 
 unless premise-grounding interfaces are valid.
 
----
+______________________________________________________________________
 
-# 161. Proof Verification vs Governance
+## 161. Proof Verification vs Governance
 
 A proof can be valid while an action remains unauthorized.
 
@@ -3959,9 +3962,9 @@ AUTHORITY TO MUTATE
 
 Governance remains separate.
 
----
+______________________________________________________________________
 
-# 162. Proof Verification vs Safety
+## 162. Proof Verification vs Safety
 
 Likewise:
 
@@ -3974,9 +3977,9 @@ SAFE ACTION
 unless the proof specifically establishes the relevant safety property
 within the action's scope.
 
----
+______________________________________________________________________
 
-# 163. Proof Verification vs Current Applicability
+## 163. Proof Verification vs Current Applicability
 
 A historically valid proof may no longer apply after:
 
@@ -3998,9 +4001,9 @@ APPLICABLE NOW
 
 without freshness validation.
 
----
+______________________________________________________________________
 
-# 164. Proof Verification vs Independence
+## 164. Proof Verification vs Independence
 
 Two successfully executed proofs can still share:
 
@@ -4021,9 +4024,9 @@ TWO INDEPENDENT PASSES
 
 PXC-3 and PXC-4 must operate together.
 
----
+______________________________________________________________________
 
-# 165. Proof Verification vs Replay
+## 165. Proof Verification vs Replay
 
 ```text
 VERIFICATION
@@ -4040,9 +4043,9 @@ under its replay contract.
 
 They are related but distinct.
 
----
+______________________________________________________________________
 
-# 166. Proof Verification vs Testing
+## 166. Proof Verification vs Testing
 
 Testing is one verification modality.
 
@@ -4064,9 +4067,9 @@ validators/tests
 
 but does not define a complete verification taxonomy.
 
----
+______________________________________________________________________
 
-# 167. Failure Mode — Multiple Homes
+## 167. Failure Mode — Multiple Homes
 
 ```text
 PXC-FM01
@@ -4095,9 +4098,9 @@ resolve one authority
 convert others to pointers
 ```
 
----
+______________________________________________________________________
 
-# 168. Failure Mode — Copy Drift
+## 168. Failure Mode — Copy Drift
 
 ```text
 PXC-FM02
@@ -4117,9 +4120,9 @@ different consumers validate different proofs
 under same apparent identity
 ```
 
----
+______________________________________________________________________
 
-# 169. Failure Mode — Part-Only Checking
+## 169. Failure Mode — Part-Only Checking
 
 ```text
 PXC-FM03
@@ -4142,9 +4145,9 @@ Repair:
 validate composition interface
 ```
 
----
+______________________________________________________________________
 
-# 170. Failure Mode — Interface-Only Checking
+## 170. Failure Mode — Interface-Only Checking
 
 ```text
 PXC-FM04
@@ -4161,9 +4164,9 @@ but individual component validity is not established.
 
 PXC-2 requires both.
 
----
+______________________________________________________________________
 
-# 171. Failure Mode — Shared Lemma Double Count
+## 171. Failure Mode — Shared Lemma Double Count
 
 ```text
 PXC-FM05
@@ -4185,9 +4188,9 @@ Repair:
 collapse common lemma ancestry
 ```
 
----
+______________________________________________________________________
 
-# 172. Failure Mode — Descendant Inflation
+## 172. Failure Mode — Descendant Inflation
 
 ```text
 PXC-FM06
@@ -4205,9 +4208,9 @@ and treated as many independent proofs.
 
 This directly violates PXC-3.
 
----
+______________________________________________________________________
 
-# 173. Failure Mode — Citation as Proof
+## 173. Failure Mode — Citation as Proof
 
 ```text
 PXC-FM07
@@ -4228,9 +4231,9 @@ VERIFIED
 
 without validation evidence.
 
----
+______________________________________________________________________
 
-# 174. Failure Mode — Line Count as Proof
+## 174. Failure Mode — Line Count as Proof
 
 ```text
 PXC-FM08
@@ -4246,9 +4249,9 @@ therefore proof is valid
 
 Directly prohibited by PXC-4.
 
----
+______________________________________________________________________
 
-# 175. Failure Mode — Test Count as Coverage
+## 175. Failure Mode — Test Count as Coverage
 
 ```text
 PXC-FM09
@@ -4269,9 +4272,9 @@ complete proof coverage
 
 without coverage evidence.
 
----
+______________________________________________________________________
 
-# 176. Failure Mode — Validator Presence as Pass
+## 176. Failure Mode — Validator Presence as Pass
 
 ```text
 PXC-FM10
@@ -4290,9 +4293,9 @@ treated as:
 validator executed successfully
 ```
 
----
+______________________________________________________________________
 
-# 177. Failure Mode — Validator Pass as Universal Proof
+## 177. Failure Mode — Validator Pass as Universal Proof
 
 ```text
 PXC-FM11
@@ -4311,9 +4314,9 @@ treated as:
 system universally correct
 ```
 
----
+______________________________________________________________________
 
-# 178. Failure Mode — False Independence
+## 178. Failure Mode — False Independence
 
 ```text
 PXC-FM12
@@ -4328,9 +4331,9 @@ different proof artifacts
 
 share hidden source/model/lemma/validator ancestry.
 
----
+______________________________________________________________________
 
-# 179. Failure Mode — Stale Proof
+## 179. Failure Mode — Stale Proof
 
 ```text
 PXC-FM13
@@ -4344,9 +4347,9 @@ cached proof reused
 after load-bearing dependency changed
 ```
 
----
+______________________________________________________________________
 
-# 180. Failure Mode — Silent Proof Rewrite
+## 180. Failure Mode — Silent Proof Rewrite
 
 ```text
 PXC-FM14
@@ -4362,9 +4365,9 @@ without explicit supersession
 
 where causal epoch lineage applies.
 
----
+______________________________________________________________________
 
-# 181. Failure Mode — Proof Locality Assumption
+## 181. Failure Mode — Proof Locality Assumption
 
 ```text
 PXC-FM15
@@ -4384,9 +4387,9 @@ Repair:
 prove material dependency closure
 ```
 
----
+______________________________________________________________________
 
-# 182. Failure Mode — Coordination Avoidance Without Proof
+## 182. Failure Mode — Coordination Avoidance Without Proof
 
 ```text
 PXC-FM16
@@ -4402,9 +4405,9 @@ without proof that global state cannot alter result
 
 This can create inconsistent finalization.
 
----
+______________________________________________________________________
 
-# 183. Failure Mode — Correlated Validators
+## 183. Failure Mode — Correlated Validators
 
 ```text
 PXC-FM17
@@ -4419,9 +4422,9 @@ V1 and V2 appear independent
 
 but share a common parser, runtime, oracle, or assumption.
 
----
+______________________________________________________________________
 
-# 184. Failure Mode — Wrong Property Proven
+## 184. Failure Mode — Wrong Property Proven
 
 ```text
 PXC-FM18
@@ -4442,9 +4445,9 @@ Repair:
 validate specification-to-proof interface
 ```
 
----
+______________________________________________________________________
 
-# 185. Failure Mode — Model Implementation Gap
+## 185. Failure Mode — Model Implementation Gap
 
 ```text
 PXC-FM19
@@ -4459,9 +4462,9 @@ formal model verified
 
 but implementation correspondence is not established.
 
----
+______________________________________________________________________
 
-# 186. Failure Mode — Proof Class Inflation
+## 186. Failure Mode — Proof Class Inflation
 
 ```text
 PXC-FM20
@@ -4482,9 +4485,9 @@ VERIFIED
 
 through composition without new validation evidence.
 
----
+______________________________________________________________________
 
-# 187. Anti-Pattern Register
+## 187. Anti-Pattern Register
 
 ```yaml
 anti_patterns:
@@ -4550,9 +4553,9 @@ anti_patterns:
     name: PROOF_MULTIPLICITY_AS_STRENGTH
 ```
 
----
+______________________________________________________________________
 
-# 188. Adversarial Validation Matrix
+## 188. Adversarial Validation Matrix
 
 | Challenge              | Question                                                |
 | ---------------------- | ------------------------------------------------------- |
@@ -4572,9 +4575,9 @@ anti_patterns:
 | Locality               | Is coordination avoidance actually proven safe?         |
 | Alternatives           | Is there a strong competing proof?                      |
 
----
+______________________________________________________________________
 
-# 189. Proof Sensitivity Matrix
+## 189. Proof Sensitivity Matrix
 
 | Potential weak point                  | Can it flip result? | Priority |
 | ------------------------------------- | ------------------: | -------: |
@@ -4589,9 +4592,9 @@ anti_patterns:
 
 Priority is illustrative rather than canonical.
 
----
+______________________________________________________________________
 
-# 190. Gap Classification
+## 190. Gap Classification
 
 L26 gaps should be prioritized as:
 
@@ -4610,9 +4613,9 @@ provide a formal gap register.
 
 The register below is therefore an expanded model.
 
----
+______________________________________________________________________
 
-# 191. Gap Register
+## 191. Gap Register
 
 ```yaml
 gaps:
@@ -4697,9 +4700,9 @@ gaps:
     status: NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 192. Source Falsifier
+## 192. Source Falsifier
 
 The supplied source establishes:
 
@@ -4710,9 +4713,9 @@ authoritative proof canon defines different coordination model.
 
 This is the primary direct falsifier.
 
----
+______________________________________________________________________
 
-# 193. Expanded Falsifiers
+## 193. Expanded Falsifiers
 
 The following are model-level refinements of F1:
 
@@ -4754,9 +4757,9 @@ falsifiers:
       A later canonical L26 specification supersedes these semantics.
 ```
 
----
+______________________________________________________________________
 
-# 194. Promotion Gate
+## 194. Promotion Gate
 
 Because L26 is explicitly:
 
@@ -4788,9 +4791,9 @@ unresolved critical gaps visible
 
 This gate is `MODEL`, not source-established.
 
----
+______________________________________________________________________
 
-# 195. Verification Promotion Gate
+## 195. Verification Promotion Gate
 
 A proof claim should not be promoted from:
 
@@ -4813,9 +4816,9 @@ scope
 version
 ```
 
----
+______________________________________________________________________
 
-# 196. Independence Promotion Gate
+## 196. Independence Promotion Gate
 
 A support path should not be labeled:
 
@@ -4837,9 +4840,9 @@ not:
 INDEPENDENCE = TRUE
 ```
 
----
+______________________________________________________________________
 
-# 197. Locality Promotion Gate
+## 197. Locality Promotion Gate
 
 A proof should not be classified as safely local merely because its
 final artifact resides in one shard or node.
@@ -4855,9 +4858,9 @@ scope/regime compatibility
 freshness
 ```
 
----
+______________________________________________________________________
 
-# 198. Coordination Avoidance Promotion Gate
+## 198. Coordination Avoidance Promotion Gate
 
 Before skipping broader coordination:
 
@@ -4874,9 +4877,9 @@ ESCALATE
 
 This preserves integrity over latency optimization.
 
----
+______________________________________________________________________
 
-# 199. Source-Established Claims
+## 199. Source-Established Claims
 
 ```yaml
 source_established:
@@ -4951,9 +4954,9 @@ source_established:
     - [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 ```
 
----
+______________________________________________________________________
 
-# 200. Source Internal Type Boundary
+## 200. Source Internal Type Boundary
 
 The supplied source contains:
 
@@ -4986,9 +4989,9 @@ PRESERVE BOTH
 
 rather than inventing a correction.
 
----
+______________________________________________________________________
 
-# 201. Claim-Class Boundary
+## 201. Claim-Class Boundary
 
 The supplied source contains both:
 
@@ -5021,9 +5024,9 @@ but because the source literally uses `claim_class` for both forms in
 different locations, this reconstruction preserves the inconsistency
 as source metadata rather than silently rewriting it.
 
----
+______________________________________________________________________
 
-# 202. Metadata Normalization Model
+## 202. Metadata Normalization Model
 
 For operational use, a normalized **model** could represent:
 
@@ -5038,9 +5041,9 @@ This is a normalization proposal.
 
 It is not a replacement for the supplied metadata.
 
----
+______________________________________________________________________
 
-# 203. Not Established
+## 203. Not Established
 
 The source does not establish:
 
@@ -5076,9 +5079,9 @@ not_established:
   - universal formal proof of the L26 architecture
 ```
 
----
+______________________________________________________________________
 
-# 204. Proof Coordination Architecture
+## 204. Proof Coordination Architecture
 
 ```text
                            CLAIM
@@ -5114,9 +5117,9 @@ not_established:
 
 Model-level architecture.
 
----
+______________________________________________________________________
 
-# 205. Extended Cross-Law Architecture
+## 205. Extended Cross-Law Architecture
 
 ```text
                     [[01_CANON/01_CORE_LAWS/L19_PROOF_CAPSULE|L19_PROOF_CAPSULE]]
@@ -5161,9 +5164,9 @@ Model-level architecture.
 
 Exact cross-law interfaces remain partly unspecified.
 
----
+______________________________________________________________________
 
-# 206. Proof Coordination Invariants
+## 206. Proof Coordination Invariants
 
 ```text
 PXC-I1
@@ -5232,9 +5235,9 @@ UNRELATED PROOFS.
 Only PXC-1 through PXC-4 are directly source-established; the invariant
 register is their expanded integration.
 
----
+______________________________________________________________________
 
-# 207. Compact Operational Law
+## 207. Compact Operational Law
 
 ```text
 ONE PROOF
@@ -5264,9 +5267,9 @@ LINE COUNT
 FOR VERIFICATION.
 ```
 
----
+______________________________________________________________________
 
-# 208. Proof Capsule for L26
+## 208. Proof Capsule for L26
 
 ```yaml
 proof_capsule:
@@ -5334,9 +5337,9 @@ proof_capsule:
     expanded_mechanics: MODEL_DERIVED
 ```
 
----
+______________________________________________________________________
 
-# 209. RSCF Contract
+## 209. RSCF Contract
 
 ```yaml
 RSCF-CONTRACT:
@@ -5411,9 +5414,9 @@ RSCF-CONTRACT:
     core_laws
 ```
 
----
+______________________________________________________________________
 
-# 210. RSCF-NODE
+## 210. RSCF-NODE
 
 ```yaml
 RSCF-NODE:
@@ -5444,9 +5447,9 @@ RSCF-NODE:
     core_laws
 ```
 
----
+______________________________________________________________________
 
-# 211. RSCF-RELATIONS
+## 211. RSCF-RELATIONS
 
 ```yaml
 RSCF-RELATIONS:
@@ -5480,14 +5483,14 @@ directly source-defined.
 
 The `RELATED_TO` entries normalize the source's Related list.
 
----
+______________________________________________________________________
 
-# 212. Canon Preservation Record
+## 212. Canon Preservation Record
 
 The exact supplied law spine must remain recoverable:
 
 ```markdown
-# L26 Proof Coordination Laws — part 2
+## L26 Proof Coordination Laws — part 2
 
 STATUS: PROPOSED_SPECIFICATION
 epistemic_class: AMOS_MODEL
@@ -5510,9 +5513,9 @@ F1: authoritative proof canon defines different coordination model.
 Expanded material must not erase or silently strengthen this source
 spine.
 
----
+______________________________________________________________________
 
-# 213. Supersession Boundary
+## 213. Supersession Boundary
 
 The source states:
 
@@ -5539,9 +5542,9 @@ path
 
 Those must not be invented.
 
----
+______________________________________________________________________
 
-# 214. Canonical Status Boundary
+## 214. Canonical Status Boundary
 
 Despite residing under:
 
@@ -5568,9 +5571,9 @@ UNCONDITIONAL CANONICAL STATUS
 
 when explicit status metadata says otherwise.
 
----
+______________________________________________________________________
 
-# 215. Proof-Type Boundary
+## 215. Proof-Type Boundary
 
 The source uses:
 
@@ -5594,9 +5597,9 @@ No additional semantic reconciliation is established.
 
 Preserve the source distinctions.
 
----
+______________________________________________________________________
 
-# 216. Verification Boundary
+## 216. Verification Boundary
 
 PXC-4 is strong but must remain scoped.
 
@@ -5618,9 +5621,9 @@ all AMOS claims are formally verified
 
 Those would be unsupported promotions.
 
----
+______________________________________________________________________
 
-# 217. Independence Boundary
+## 217. Independence Boundary
 
 PXC-3 establishes that shared lemmas are counted once.
 
@@ -5634,9 +5637,9 @@ proof confidence = 0.97
 
 from descendant counts without an independently defined model.
 
----
+______________________________________________________________________
 
-# 218. Coordination Boundary
+## 218. Coordination Boundary
 
 L26 coordinates proof structures.
 
@@ -5653,9 +5656,9 @@ cryptographic consensus
 
 Those require separate laws/evidence.
 
----
+______________________________________________________________________
 
-# 219. Implementation Boundary
+## 219. Implementation Boundary
 
 The source does not establish that ChatGPT literally executes:
 
@@ -5670,9 +5673,9 @@ machine theorem checkers
 These remain AMOS reasoning architecture concepts unless implementation
 evidence is independently supplied.
 
----
+______________________________________________________________________
 
-# 220. Formal-Proof Boundary
+## 220. Formal-Proof Boundary
 
 The phrase:
 
@@ -5697,9 +5700,9 @@ FORMALLY VERIFIED LAW
 
 without evidence.
 
----
+______________________________________________________________________
 
-# 221. Coordination-Avoidance Boundary
+## 221. Coordination-Avoidance Boundary
 
 The broader v4.4 principle of:
 
@@ -5719,9 +5722,9 @@ or define the proof-of-locality algorithm.
 
 Therefore this remains a derived integration.
 
----
+______________________________________________________________________
 
-# 222. Minimum Safe Interpretation
+## 222. Minimum Safe Interpretation
 
 The minimum source-faithful interpretation is:
 
@@ -5744,9 +5747,9 @@ or artifact size.
 The specification remains CONDITIONAL.
 ```
 
----
+______________________________________________________________________
 
-# 223. Final Coordination Law
+## 223. Final Coordination Law
 
 ```text
 PROOF COORDINATION
@@ -5905,9 +5908,9 @@ CANONICAL STATUS:
 CONDITIONAL.
 ```
 
----
+______________________________________________________________________
 
-# 224. Final Integrity Invariant
+## 224. Final Integrity Invariant
 
 $$
 \boxed{
@@ -5967,7 +5970,7 @@ $$
 ```
 ---
 
-# 225. Final Canon Boundary
+## 225. Final Canon Boundary
 
 > [!important]
 > **Source-supported L26 canon boundary**
@@ -6003,7 +6006,7 @@ $$
 
 ---
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ---
 
@@ -6032,5 +6035,8 @@ claim_class: AMOS_MODEL
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
+```
+
+```
 ```
 ```

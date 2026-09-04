@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: 11k cross skill proof composition
 type: reference
 source: 07_SKILLS/amos-audit-repair-master/references
 tags:
-- reference
-- amos-audit-repair-master
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-audit-repair-master
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -20,17 +23,17 @@ rscf:
 > Source: `/Users/mac/Documents/AMOS_OS/11_KNOWLEDGE/AMOS_Infrastructure_Cross_Skill_Proof_Composition_Report.md`
 > Epistemic class: SOURCE_DERIVED
 
----
-tags: ['knowledge', 'note']
----
+______________________________________________________________________
 
-# AMOS Infrastructure Layer — Cross-Skill Proof Composition Report
+## tags: ['knowledge', 'note']
+
+## AMOS Infrastructure Layer — Cross-Skill Proof Composition Report
 
 **Status:** DERIVED + EXECUTED / packaged Skill validated, not installed
 **Architecture position:** AMOS is treated as an infrastructure/control layer above probabilistic model cognition and domain/specialist Skills.
 **Origin/stewardship:** Trang Phan is treated as origin architect/steward of the cited AMOS/Trang corpus.
 
----
+______________________________________________________________________
 
 ## 1. Executive conclusion
 
@@ -72,7 +75,7 @@ Model proposal
 != external consequence
 ```
 
----
+______________________________________________________________________
 
 ## 2. Architecture boundary
 
@@ -104,7 +107,7 @@ They may not own:
 - durable effect finality;
 - commit/release authority.
 
----
+______________________________________________________________________
 
 ## 3. Failure 1 — local PASS does not compose
 
@@ -133,10 +136,10 @@ This is unsafe if those proofs were produced against different:
 **Seed:** `202608272`
 **Cases:** `300,000`
 
-| Design | Unsafe joint commits | Safe joint commits | Unsafe blocked/revalidated |
-|---|---:|---:|---:|
-| All specialist PASS | 202,333 | 32,232 | 65,435 |
-| Composition epoch barrier | 0 | 32,232 | 267,768 |
+| Design                    | Unsafe joint commits | Safe joint commits | Unsafe blocked/revalidated |
+| ------------------------- | -------------------: | -----------------: | -------------------------: |
+| All specialist PASS       |              202,333 |             32,232 |                     65,435 |
+| Composition epoch barrier |                    0 |             32,232 |                    267,768 |
 
 ### Falsified implication
 
@@ -148,7 +151,7 @@ AllLocalSkillPass ⇒ JointCommitSafe
 
 A specialist proof can remain locally valid while being unusable in the current joint commit.
 
----
+______________________________________________________________________
 
 ## 4. Failure 2 — missing proof treated as optional
 
@@ -172,10 +175,10 @@ A “validate what arrived” implementation can incorrectly continue.
 **Seed:** `202608273`
 **Cases:** `300,000`
 
-| Design | Unsafe effects allowed | Safe effects allowed | Unsafe blocked/revalidated |
-|---|---:|---:|---:|
-| Missing proof treated optional | 80,151 | 158,332 | 51,208 |
-| Capability-derived proof closure | 0 | 168,641 | 131,359 |
+| Design                           | Unsafe effects allowed | Safe effects allowed | Unsafe blocked/revalidated |
+| -------------------------------- | ---------------------: | -------------------: | -------------------------: |
+| Missing proof treated optional   |                 80,151 |              158,332 |                     51,208 |
+| Capability-derived proof closure |                      0 |              168,641 |                    131,359 |
 
 ### Falsified implication
 
@@ -187,7 +190,7 @@ MissingRequiredProof ⇒ OptionalProof
 
 The exact proof requirement must come from the frozen capability contract, not from the proofs that happen to arrive.
 
----
+______________________________________________________________________
 
 ## 5. New control objects
 
@@ -205,10 +208,9 @@ REQUIRED_PROOF_CLOSURE[
 -
 ```
 
----
+______________________________________________________________________
 
-**Related:** [[07_SKILLS/amos-audit-repair-master/amos-audit-repair-master_MOC|amos-audit-repair-master_MOC]]
----
+## **Related:** [[07_SKILLS/amos-audit-repair-master/amos-audit-repair-master_MOC|amos-audit-repair-master_MOC]]
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -216,12 +218,14 @@ REQUIRED_PROOF_CLOSURE[
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-audit-repair-master-11k-cross-skill-proof-composition
 node_type: reference
 path: 07_SKILLS/amos-audit-repair-master/references/11k_cross_skill_proof_composition.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

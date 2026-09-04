@@ -52,31 +52,31 @@ status: PLACEHOLDER_EXPANDED
 steward: Trang Phan
 system: AMOS OS
 tags:
-- amos-os
-- canon
-- cognition
-- 03_cognition_canon
-- canon_placeholder
-- rscf
-- rscf/C-constraint
-- rscf/D-distinction
-- rscf/G-relation
-- rscf/type-model
-- provenance
-- reasoning
-- memory
-- attention
-- perception
-- learning
-- inference
-- decision
-- metacognition
-- scope
-- regime
-- validation
-- law-hierarchy
-- routing-policy-validation-receipt
-- authz-engine-validation-receipt
+  - amos-os
+  - canon
+  - cognition
+  - 03_cognition_canon
+  - canon_placeholder
+  - rscf
+  - rscf/C-constraint
+  - rscf/D-distinction
+  - rscf/G-relation
+  - rscf/type-model
+  - provenance
+  - reasoning
+  - memory
+  - attention
+  - perception
+  - learning
+  - inference
+  - decision
+  - metacognition
+  - scope
+  - regime
+  - validation
+  - law-hierarchy
+  - routing-policy-validation-receipt
+  - authz-engine-validation-receipt
 title: AMOS Cognition Canon
 type: canon
 updated: 2026-08-27
@@ -175,9 +175,9 @@ System:
 
 **AMOS OS**
 
----
+______________________________________________________________________
 
-# 1. Governing Integrity Boundary
+## 1. Governing Integrity Boundary
 
 The supplied artifact explicitly establishes:
 
@@ -222,28 +222,32 @@ COGNITION CANON SLOT
 !=
 IMPLEMENTED COGNITIVE ARCHITECTURE
 ```
+
 ```text
 DOCUMENTED COGNITION CONCEPT
 !=
 EMPIRICALLY VERIFIED COGNITIVE PROCESS
 ```
+
 ```text
 COGNITION MODEL
 !=
 BIOLOGICAL COGNITION
 ```
+
 ```text
 COGNITIVE CAPABILITY
 !=
 COGNITIVE AUTHORITY
 ```
+
 The first governance distinctions are source-supported.
 
 The cognition-specific distinctions are integrity-preserving derived constraints pending native-canon ingestion.
 
----
+______________________________________________________________________
 
-# 2. Current Strongest Supported Claim
+## 2. Current Strongest Supported Claim
 
 The strongest supported artifact-level conclusion is:
 
@@ -277,9 +281,9 @@ The substantive native definition of AMOS cognition remains:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 3. Artifact Identity
+## 3. Artifact Identity
 
 ```yaml
 amos_cognition_canon_identity:
@@ -324,9 +328,9 @@ amos_cognition_canon_identity:
     UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 4. Identifier Consistency
+## 4. Identifier Consistency
 
 The supplied artifact gives the same textual identifier for:
 
@@ -375,9 +379,9 @@ IDENTIFIER MATCH
 VALIDATED COGNITION CANON
 ```
 
----
+______________________________________________________________________
 
-# 5. Cognition-Term Firewall
+## 5. Cognition-Term Firewall
 
 The title:
 
@@ -429,9 +433,9 @@ Native semantics remain:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 6. Human-Cognition Firewall
+## 6. Human-Cognition Firewall
 
 Nothing in the placeholder establishes claims about:
 
@@ -467,9 +471,9 @@ AMOS COGNITION MODEL
 EMPIRICAL THEORY OF HUMAN COGNITION
 ```
 
----
+______________________________________________________________________
 
-# 7. Biological Firewall
+## 7. Biological Firewall
 
 The placeholder does not establish mappings to:
 
@@ -501,9 +505,9 @@ BIOLOGICAL STRUCTURE
 
 unless independently validated.
 
----
+______________________________________________________________________
 
-# 8. Machine-Cognition Firewall
+## 8. Machine-Cognition Firewall
 
 Nothing in the placeholder establishes that AMOS cognition means:
 
@@ -539,9 +543,9 @@ ANY PARTICULAR MACHINE-LEARNING ARCHITECTURE
 
 unless native AMOS canon explicitly establishes the mapping.
 
----
+______________________________________________________________________
 
-# 9. Consciousness Firewall
+## 9. Consciousness Firewall
 
 Do not infer:
 
@@ -569,9 +573,9 @@ SUBJECTIVE EXPERIENCE
 
 No native cognition-consciousness identity is established by this placeholder.
 
----
+______________________________________________________________________
 
-# 10. Intelligence Firewall
+## 10. Intelligence Firewall
 
 Do not assume:
 
@@ -603,9 +607,9 @@ The native relationship remains:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 11. Agency Firewall
+## 11. Agency Firewall
 
 Do not assume:
 
@@ -641,9 +645,9 @@ COMMIT
 
 Cognition and governance authority must remain separately typed.
 
----
+______________________________________________________________________
 
-# 12. Contract Discipline
+## 12. Contract Discipline
 
 The supplied artifact establishes:
 
@@ -686,9 +690,9 @@ cognition_contract_discipline:
 
 This does not establish an executable cognitive runtime.
 
----
+______________________________________________________________________
 
-# 13. Purpose
+## 13. Purpose
 
 This artifact reserves the canonical location for future verified native AMOS Cognition Canon content.
 
@@ -740,9 +744,9 @@ VALIDATION
 CANON PROMOTION
 ```
 
----
+______________________________________________________________________
 
-# 14. Non-Purpose
+## 14. Non-Purpose
 
 This artifact MUST NOT be used to claim:
 
@@ -766,9 +770,9 @@ This artifact MUST NOT be used to claim:
 - runtime cognitive enforcement;
 - or empirical truth.
 
----
+______________________________________________________________________
 
-# 15. Canon-Ingestion Rule
+## 15. Canon-Ingestion Rule
 
 ```yaml
 AMOS_CANON_INGESTION_RULE:
@@ -816,9 +820,9 @@ AMOS_CANON_INGESTION_RULE:
       - NEVER_INVENT_CANON
 ```
 
----
+______________________________________________________________________
 
-# 16. Native-Source Admission Contract
+## 16. Native-Source Admission Contract
 
 A candidate source MUST NOT populate Cognition Canon merely because it contains:
 
@@ -864,9 +868,9 @@ CURRENT OR HISTORICAL?
 ADMIT / COMPETE / HOLD
 ```
 
----
+______________________________________________________________________
 
-# 17. Candidate Source Classes
+## 17. Candidate Source Classes
 
 ```text
 NATIVE_CANON_SOURCE
@@ -886,9 +890,9 @@ UNKNOWN_SOURCE
 
 These classes MUST remain distinct.
 
----
+______________________________________________________________________
 
-# 18. Native Cognition Definition Schema
+## 18. Native Cognition Definition Schema
 
 ```yaml
 amos_cognition_definition:
@@ -988,9 +992,9 @@ Current:
 native_statement = UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 19. Cognitive Entity Slot
+## 19. Cognitive Entity Slot
 
 ```yaml
 cognitive_entity:
@@ -1019,9 +1023,9 @@ cognitive_entity:
 
 No native cognitive entity ontology is established.
 
----
+______________________________________________________________________
 
-# 20. Cognitive State Slot
+## 20. Cognitive State Slot
 
 ```yaml
 cognitive_state:
@@ -1060,9 +1064,9 @@ cognitive_state:
     required
 ```
 
----
+______________________________________________________________________
 
-# 21. Cognitive-State Firewall
+## 21. Cognitive-State Firewall
 
 Do not assume:
 
@@ -1102,9 +1106,9 @@ The native type remains:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 22. Cognitive Process Slot
+## 22. Cognitive Process Slot
 
 ```yaml
 cognitive_process:
@@ -1140,9 +1144,9 @@ cognitive_process:
     required
 ```
 
----
+______________________________________________________________________
 
-# 23. Cognitive Process Firewall
+## 23. Cognitive Process Firewall
 
 ```text
 PROCESS EXISTS
@@ -1155,19 +1159,22 @@ PROCESS DOCUMENTED
 !=
 PROCESS VALIDATED
 ```
+
 ```text
 PROCESS OUTPUT
 !=
 VERIFIED CONCLUSION
 ```
+
 ```text
 PROCESS EXECUTED
 !=
 AUTHORIZED EFFECT
 ```
----
 
-# 24. Cognitive Transition Slot
+______________________________________________________________________
+
+## 24. Cognitive Transition Slot
 
 ```yaml
 cognitive_transition:
@@ -1206,9 +1213,9 @@ cognitive_transition:
     required
 ```
 
----
+______________________________________________________________________
 
-# 25. Transition Firewall
+## 25. Transition Firewall
 
 A cognitive transition MUST NOT automatically imply a governed system mutation.
 
@@ -1223,14 +1230,16 @@ COGNITIVE CONCLUSION
 !=
 COMMIT
 ```
+
 ```text
 COGNITIVE PROPOSAL
 !=
 AUTHORITY
 ```
----
 
-# 26. Representation Slot
+______________________________________________________________________
+
+## 26. Representation Slot
 
 ```yaml
 cognitive_representation:
@@ -1260,9 +1269,9 @@ cognitive_representation:
     required
 ```
 
----
+______________________________________________________________________
 
-# 27. Representation Firewall
+## 27. Representation Firewall
 
 ```text
 REPRESENTATION OF X
@@ -1275,19 +1284,22 @@ MODEL OF X
 !=
 OBSERVATION OF X
 ```
+
 ```text
 INTERNAL REPRESENTATION
 !=
 EMPIRICAL TRUTH
 ```
+
 ```text
 STRUCTURAL SIMILARITY
 !=
 SEMANTIC IDENTITY
 ```
----
 
-# 28. Reasoning Binding Slot
+______________________________________________________________________
+
+## 28. Reasoning Binding Slot
 
 ```yaml
 cognition_reasoning_binding:
@@ -1316,9 +1328,9 @@ cognition_reasoning_binding:
 
 No native cognition-reasoning binding is established by this placeholder.
 
----
+______________________________________________________________________
 
-# 29. Reasoning Firewall
+## 29. Reasoning Firewall
 
 Do not assume:
 
@@ -1344,9 +1356,9 @@ REASONING OUTPUT
 VERIFIED KNOWLEDGE
 ```
 
----
+______________________________________________________________________
 
-# 30. Attention Binding Slot
+## 30. Attention Binding Slot
 
 ```yaml
 cognition_attention_binding:
@@ -1372,9 +1384,9 @@ cognition_attention_binding:
 
 The coexistence of Cognition Canon and Attention Canon in the same segment does not itself establish their semantic relationship.
 
----
+______________________________________________________________________
 
-# 31. Attention Firewall
+## 31. Attention Firewall
 
 ```text
 CO-LOCATED IN COGNITION CANON
@@ -1387,19 +1399,22 @@ ATTENTION
 !=
 COGNITION
 ```
+
 ```text
 ATTENDED
 !=
 COGNIZED
 ```
+
 ```text
 ATTENTION PRIORITY
 !=
 EPISTEMIC CONFIDENCE
 ```
----
 
-# 32. Memory Binding Slot
+______________________________________________________________________
+
+## 32. Memory Binding Slot
 
 ```yaml
 cognition_memory_binding:
@@ -1426,9 +1441,9 @@ cognition_memory_binding:
     UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 33. Memory Firewall
+## 33. Memory Firewall
 
 Do not assume:
 
@@ -1443,19 +1458,22 @@ COGNIZED
 =
 REMEMBERED
 ```
+
 ```text
 MEMORY RETRIEVAL
 =
 VERIFIED KNOWLEDGE
 ```
+
 ```text
 STORED
 =
 CURRENTLY VALID
 ```
----
 
-# 34. Perception Binding Slot
+______________________________________________________________________
+
+## 34. Perception Binding Slot
 
 ```yaml
 cognition_perception_binding:
@@ -1479,9 +1497,9 @@ cognition_perception_binding:
     UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 35. Perception Firewall
+## 35. Perception Firewall
 
 ```text
 PERCEIVED
@@ -1494,19 +1512,22 @@ OBSERVED
 !=
 CAUSED
 ```
+
 ```text
 PERCEPTION
 !=
 COGNITION
 ```
+
 ```text
 REPRESENTATION OF OBSERVATION
 !=
 RAW OBSERVATION
 ```
----
 
-# 36. Learning Binding Slot
+______________________________________________________________________
+
+## 36. Learning Binding Slot
 
 ```yaml
 cognition_learning_binding:
@@ -1533,9 +1554,9 @@ cognition_learning_binding:
     UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 37. Learning Firewall
+## 37. Learning Firewall
 
 ```text
 NEW INFORMATION
@@ -1548,19 +1569,22 @@ UPDATE
 !=
 IMPROVEMENT
 ```
+
 ```text
 ADAPTATION
 !=
 VALIDATION
 ```
+
 ```text
 REPETITION
 !=
 INDEPENDENT CONFIRMATION
 ```
----
 
-# 38. Inference Binding Slot
+______________________________________________________________________
+
+## 38. Inference Binding Slot
 
 ```yaml
 cognition_inference_binding:
@@ -1587,9 +1611,9 @@ cognition_inference_binding:
     UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 39. Inference Firewall
+## 39. Inference Firewall
 
 ```text
 INFERRED
@@ -1602,16 +1626,18 @@ INFERRED
 !=
 VERIFIED
 ```
+
 ```text
 PLAUSIBLE
 !=
 ESTABLISHED
 ```
+
 Derived confidence cannot exceed the weakest load-bearing premise unless independently revalidated.
 
----
+______________________________________________________________________
 
-# 40. Decision Binding Slot
+## 40. Decision Binding Slot
 
 ```yaml
 cognition_decision_binding:
@@ -1641,9 +1667,9 @@ cognition_decision_binding:
     UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 41. Decision Firewall
+## 41. Decision Firewall
 
 ```text
 DECISION
@@ -1656,19 +1682,22 @@ SELECTED ACTION
 !=
 AUTHORIZED ACTION
 ```
+
 ```text
 RECOMMENDATION
 !=
 COMMIT
 ```
+
 ```text
 COGNITIVE PREFERENCE
 !=
 GOVERNANCE AUTHORITY
 ```
----
 
-# 42. Metacognition Slot
+______________________________________________________________________
+
+## 42. Metacognition Slot
 
 ```yaml
 metacognition:
@@ -1703,9 +1732,9 @@ metacognition:
 
 No native AMOS metacognition model is established here.
 
----
+______________________________________________________________________
 
-# 43. Metacognition Firewall
+## 43. Metacognition Firewall
 
 ```text
 SELF-MONITORED
@@ -1718,19 +1747,22 @@ HIGH SELF-CONFIDENCE
 !=
 HIGH EVIDENCE
 ```
+
 ```text
 NO DETECTED CONTRADICTION
 !=
 PROOF
 ```
+
 ```text
 MODEL CONSISTENCY
 !=
 EMPIRICAL VALIDITY
 ```
----
 
-# 44. Emotion Binding Slot
+______________________________________________________________________
+
+## 44. Emotion Binding Slot
 
 ```yaml
 cognition_emotion_binding:
@@ -1757,9 +1789,9 @@ cognition_emotion_binding:
     UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 45. Emotion Firewall
+## 45. Emotion Firewall
 
 Do not infer:
 
@@ -1787,9 +1819,9 @@ COGNITION IS EMOTION-FREE
 
 without appropriately typed native evidence.
 
----
+______________________________________________________________________
 
-# 46. Canon-Level Worked Transition
+## 46. Canon-Level Worked Transition
 
 The supplied placeholder supports the following **canon-operation target**, not a cognition algorithm:
 
@@ -1815,9 +1847,9 @@ It MUST NOT be misread as:
 THE NATIVE AMOS COGNITIVE PROCESS
 ```
 
----
+______________________________________________________________________
 
-# 47. Admit Stage
+## 47. Admit Stage
 
 Target semantics:
 
@@ -1835,9 +1867,9 @@ FAIL CLOSED
 
 This is source-supported target behavior.
 
----
+______________________________________________________________________
 
-# 48. Scope-Binding Stage
+## 48. Scope-Binding Stage
 
 Target semantics requires declaration of:
 
@@ -1857,9 +1889,9 @@ Exact Cognition Canon scope semantics remain:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 49. Authority-Check Stage
+## 49. Authority-Check Stage
 
 The supplied target semantics establishes:
 
@@ -1877,9 +1909,9 @@ This governs canon mutation.
 
 It does not establish a native cognitive authority mechanism.
 
----
+______________________________________________________________________
 
-# 50. Preconditions Stage
+## 50. Preconditions Stage
 
 The source requires:
 
@@ -1896,9 +1928,9 @@ SMALLEST SUFFICIENT PROOF SCOPE
 ARBITRARY COGNITIVE COMPRESSION
 ```
 
----
+______________________________________________________________________
 
-# 51. Proposal Stage
+## 51. Proposal Stage
 
 Target semantics:
 
@@ -1915,9 +1947,9 @@ COGNITION CANON UPDATE PROPOSAL
 CANONICAL COGNITION STATE
 ```
 
----
+______________________________________________________________________
 
-# 52. Commit-or-Hold Stage
+## 52. Commit-or-Hold Stage
 
 On failed premise:
 
@@ -1931,9 +1963,9 @@ RECORD RECEIPT
 
 This is source-supported target behavior.
 
----
+______________________________________________________________________
 
-# 53. Epistemic Cognition Firewall
+## 53. Epistemic Cognition Firewall
 
 Cognitive processing must remain distinct from epistemic status.
 
@@ -1963,9 +1995,9 @@ HIGH-CONFIDENCE MODEL
 VERIFIED REALITY
 ```
 
----
+______________________________________________________________________
 
-# 54. Evidence-Type Discipline
+## 54. Evidence-Type Discipline
 
 Future Cognition Canon SHOULD preserve distinctions among:
 
@@ -1985,9 +2017,9 @@ UNKNOWN
 
 A cognitive process must not silently promote one evidence type into another.
 
----
+______________________________________________________________________
 
-# 55. Source-Claim Firewall
+## 55. Source-Claim Firewall
 
 ```text
 SOURCE SAYS X
@@ -2005,9 +2037,9 @@ not automatically:
 VERIFIED(X)
 ```
 
----
+______________________________________________________________________
 
-# 56. Observation Firewall
+## 56. Observation Firewall
 
 ```text
 OBSERVED X
@@ -2027,9 +2059,9 @@ UNIVERSAL(X)
 
 Observation remains scope-, regime-, measurement-, and time-bound.
 
----
+______________________________________________________________________
 
-# 57. Model Firewall
+## 57. Model Firewall
 
 ```text
 MODEL PREDICTS X
@@ -2045,9 +2077,9 @@ MODEL FITS DATA
 MODEL IS UNIVERSALLY VALID
 ```
 
----
+______________________________________________________________________
 
-# 58. Decision Firewall
+## 58. Decision Firewall
 
 ```text
 DECISION(X)
@@ -2057,9 +2089,9 @@ FACT(X)
 
 A decision may be appropriate under uncertainty without converting its premises into verified truth.
 
----
+______________________________________________________________________
 
-# 59. Unknown Firewall
+## 59. Unknown Firewall
 
 ```text
 UNKNOWN/GAP
@@ -2083,9 +2115,9 @@ UNKNOWN/GAP
 PERMISSION TO INVENT
 ```
 
----
+______________________________________________________________________
 
-# 60. Provenance Topology
+## 60. Provenance Topology
 
 Future substantive Cognition Canon SHOULD preserve:
 
@@ -2115,9 +2147,9 @@ COGNITION DEFINITION
 
 This topology is a target schema, not recovered native content.
 
----
+______________________________________________________________________
 
-# 61. Duplicate-Source Firewall
+## 61. Duplicate-Source Firewall
 
 If multiple documents descend from one cognition definition:
 
@@ -2129,9 +2161,9 @@ MANY INDEPENDENT DEFINITIONS
 
 Preserve root ancestry.
 
----
+______________________________________________________________________
 
-# 62. Provenance-Independence Slot
+## 62. Provenance-Independence Slot
 
 ```yaml
 cognition_provenance_independence:
@@ -2149,9 +2181,9 @@ cognition_provenance_independence:
     false
 ```
 
----
+______________________________________________________________________
 
-# 63. Repetition Firewall
+## 63. Repetition Firewall
 
 ```text
 CLAIM APPEARS 100 TIMES
@@ -2165,9 +2197,9 @@ does not imply:
 
 if all appearances share one provenance root.
 
----
+______________________________________________________________________
 
-# 64. Authority Firewall
+## 64. Authority Firewall
 
 Architectural importance does not itself grant epistemic authority.
 
@@ -2185,9 +2217,9 @@ CANON LOCATION
 EMPIRICAL AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 65. Competing Cognition Interpretations
+## 65. Competing Cognition Interpretations
 
 Until native canon resolves the term, preserve possible interpretations as competing models:
 
@@ -2222,9 +2254,9 @@ COMPETING / UNKNOWN/GAP
 
 None may be promoted from ordinary-language similarity alone.
 
----
+______________________________________________________________________
 
-# 66. Discriminating Evidence
+## 66. Discriminating Evidence
 
 The highest-information missing evidence is:
 
@@ -2264,9 +2296,9 @@ NATIVE COGNITION DIAGRAM OR EQUATIONS
 NATIVE EXECUTABLE BINDING
 ```
 
----
+______________________________________________________________________
 
-# 67. Cognition Proof Capsule
+## 67. Cognition Proof Capsule
 
 ```yaml
 cognition_proof_capsule:
@@ -2323,9 +2355,9 @@ cognition_proof_capsule:
     required
 ```
 
----
+______________________________________________________________________
 
-# 68. Confidence Ceiling
+## 68. Confidence Ceiling
 
 For cognition-derived conclusions:
 
@@ -2352,9 +2384,9 @@ CONCLUSION = VERIFIED
 
 when `B` is load-bearing.
 
----
+______________________________________________________________________
 
-# 69. Uncertainty Vector
+## 69. Uncertainty Vector
 
 When material, track separately:
 
@@ -2388,9 +2420,9 @@ PROVENANCE UNCERTAINTY
 PROVENANCE-INDEPENDENCE UNCERTAINTY
 ```
 
----
+______________________________________________________________________
 
-# 70. Sensitivity
+## 70. Sensitivity
 
 For consequential cognitive conclusions identify:
 
@@ -2406,9 +2438,9 @@ CAPABLE OF FLIPPING THE RESULT
 
 and validate it before spending effort on noncritical background.
 
----
+______________________________________________________________________
 
-# 71. Fragility
+## 71. Fragility
 
 A cognition-derived conclusion is fragile if small plausible changes in:
 
@@ -2436,9 +2468,9 @@ Such conclusions SHOULD remain:
 CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
-# 72. Scope Slot
+## 72. Scope Slot
 
 ```yaml
 cognition_scope:
@@ -2474,9 +2506,9 @@ cognition_scope:
     UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 73. Scope Firewall
+## 73. Scope Firewall
 
 ```text
 COGNITIVE MODEL VALID IN DOMAIN A
@@ -2489,16 +2521,18 @@ COGNITIVE RULE VALID AT SCALE S1
 !=
 COGNITIVE RULE VALID AT SCALE S2
 ```
+
 ```text
 MODEL VALID FOR AMOS INTERNAL REASONING
 !=
 MODEL VALID FOR HUMAN COGNITION
 ```
+
 No universal applicability is established.
 
----
+______________________________________________________________________
 
-# 74. Regime Slot
+## 74. Regime Slot
 
 ```yaml
 cognition_regime:
@@ -2528,9 +2562,9 @@ cognition_regime:
     UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 75. Regime Firewall
+## 75. Regime Firewall
 
 ```text
 COGNITIVE RULE @ R1
@@ -2540,9 +2574,9 @@ COGNITIVE RULE @ R2
 
 unless cross-regime validity is independently established.
 
----
+______________________________________________________________________
 
-# 76. Temporal Slot
+## 76. Temporal Slot
 
 ```yaml
 cognition_temporal_semantics:
@@ -2569,9 +2603,9 @@ cognition_temporal_semantics:
     UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 77. Freshness Firewall
+## 77. Freshness Firewall
 
 ```text
 VALID CLAIM @ t1
@@ -2581,9 +2615,9 @@ VALID CLAIM @ t2
 
 if the claim depends on time-sensitive premises whose validity at `t2` is not established.
 
----
+______________________________________________________________________
 
-# 78. Dependency Slot
+## 78. Dependency Slot
 
 ```yaml
 cognition_dependencies:
@@ -2625,9 +2659,9 @@ cognition_dependencies:
     UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 79. Dependency Firewall
+## 79. Dependency Firewall
 
 ```text
 REFERENCED_BY
@@ -2651,9 +2685,9 @@ SEQUENTIAL
 CAUSAL
 ```
 
----
+______________________________________________________________________
 
-# 80. Dependency Closure
+## 80. Dependency Closure
 
 For a future cognition conclusion:
 
@@ -2683,9 +2717,9 @@ NOT CURRENTLY LOADED
 NOT RELEVANT
 ```
 
----
+______________________________________________________________________
 
-# 81. Fractal Runtime Binding Target
+## 81. Fractal Runtime Binding Target
 
 A future native Cognition Canon may bind cognition to:
 
@@ -2715,9 +2749,9 @@ Current relation:
 MODEL / UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 82. RSCF Binding Target
+## 82. RSCF Binding Target
 
 A future native Cognition Canon may use RSCF structures for:
 
@@ -2751,9 +2785,9 @@ RSCF
 
 is not established.
 
----
+______________________________________________________________________
 
-# 83. Raw-Evidence Firewall
+## 83. Raw-Evidence Firewall
 
 ```text
 DO_NOT_LOAD_UNLESS_REQUIRED
@@ -2763,9 +2797,9 @@ DO_NOT_VALIDATE WHEN REQUIRED
 
 When raw evidence becomes result-changing, it enters the load-bearing proof scope.
 
----
+______________________________________________________________________
 
-# 84. Adaptive Complexity Binding
+## 84. Adaptive Complexity Binding
 
 Conceptually, cognition may interact with:
 
@@ -2783,9 +2817,9 @@ C4 MAXIMUM
 
 But the placeholder does not establish a native mapping between cognition and complexity level.
 
----
+______________________________________________________________________
 
-# 85. Local Invalidation
+## 85. Local Invalidation
 
 Suppose conclusion `K` depends on:
 
@@ -2806,9 +2840,9 @@ AND OTHER DESCENDANTS OF P2
 
 Do not automatically invalidate independent knowledge supported only by `P1` and `P3`.
 
----
+______________________________________________________________________
 
-# 86. Failure Recovery
+## 86. Failure Recovery
 
 ```text
 FAILED PREMISE / EDGE
@@ -2826,9 +2860,9 @@ REROUTE WITH CHANGED EVIDENCE
 
 The selective invalidation and rollback discipline follows the supplied target semantics.
 
----
+______________________________________________________________________
 
-# 87. Repetition-of-Failure Firewall
+## 87. Repetition-of-Failure Firewall
 
 ```text
 FAILED PATH
@@ -2844,9 +2878,9 @@ REPEAT SAME PATH INDEFINITELY
 
 A reroute should require changed evidence, repaired dependencies, altered assumptions, or a genuinely different validation path.
 
----
+______________________________________________________________________
 
-# 88. Global-Recompute Firewall
+## 88. Global-Recompute Firewall
 
 ```text
 ONE COGNITIVE PREMISE FAILS
@@ -2856,9 +2890,9 @@ ALL KNOWLEDGE INVALID
 
 unless dependency topology establishes global coupling.
 
----
+______________________________________________________________________
 
-# 89. Persistent Provenance
+## 89. Persistent Provenance
 
 ```yaml
 persistent_cognition_provenance:
@@ -2900,9 +2934,9 @@ persistent_cognition_provenance:
     required
 ```
 
----
+______________________________________________________________________
 
-# 90. Version Slot
+## 90. Version Slot
 
 ```yaml
 cognition_canon_version:
@@ -2929,9 +2963,9 @@ cognition_canon_version:
     required
 ```
 
----
+______________________________________________________________________
 
-# 91. Version Firewall
+## 91. Version Firewall
 
 ```text
 COGNITION CANON v2
@@ -2949,9 +2983,9 @@ AUTOMATICALLY VALID @ v2
 
 Supersession and compatibility require evidence.
 
----
+______________________________________________________________________
 
-# 92. MVCC Concept
+## 92. MVCC Concept
 
 A future implementation may conceptually perform:
 
@@ -2981,9 +3015,9 @@ Implementation:
 NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 93. CAS Concept
+## 93. CAS Concept
 
 Conceptually:
 
@@ -2998,9 +3032,9 @@ NO STALE COMMIT
 
 This is an architectural reasoning model only.
 
----
+______________________________________________________________________
 
-# 94. Atomic Multi-RSCF Cognition Concept
+## 94. Atomic Multi-RSCF Cognition Concept
 
 A future cognitive operation may conceptually touch:
 
@@ -3034,9 +3068,9 @@ COMPLETE SUCCESS
 
 No literal runtime mechanism is asserted.
 
----
+______________________________________________________________________
 
-# 95. Causal Epoch Concept
+## 95. Causal Epoch Concept
 
 Conceptually:
 
@@ -3056,9 +3090,9 @@ COGNITIVE STATE@E+1
 
 The placeholder does not establish literal causal-epoch implementation.
 
----
+______________________________________________________________________
 
-# 96. Proof-Based Coordination Avoidance
+## 96. Proof-Based Coordination Avoidance
 
 A future local cognitive update may remain local only where dependency closure establishes:
 
@@ -3077,9 +3111,9 @@ REQUIRING REVALIDATION
 
 This is conceptual governance, not an implemented protocol claim.
 
----
+______________________________________________________________________
 
-# 97. Causal Firewall
+## 97. Causal Firewall
 
 Cognition Canon must distinguish:
 
@@ -3127,9 +3161,9 @@ ARCHITECTURAL RELATION
 
 alone.
 
----
+______________________________________________________________________
 
-# 98. Structural-Similarity Firewall
+## 98. Structural-Similarity Firewall
 
 If an AMOS cognition structure resembles:
 
@@ -3169,9 +3203,9 @@ or:
 CAUSAL EQUIVALENCE
 ```
 
----
+______________________________________________________________________
 
-# 99. Cognition Optimization Firewall
+## 99. Cognition Optimization Firewall
 
 Optimization MUST NOT weaken:
 
@@ -3199,9 +3233,9 @@ FASTER COGNITION
 
 is not a valid optimization if it hides result-changing uncertainty.
 
----
+______________________________________________________________________
 
-# 100. Cognitive Compression Firewall
+## 100. Cognitive Compression Firewall
 
 ```text
 LESS INFORMATION PROCESSED
@@ -3217,9 +3251,9 @@ COMPRESSION
 PERMISSION TO DROP LOAD-BEARING PREMISES
 ```
 
----
+______________________________________________________________________
 
-# 101. Contradiction Discipline
+## 101. Contradiction Discipline
 
 A contradiction capable of changing the conclusion must remain visible.
 
@@ -3237,9 +3271,9 @@ ONE SOURCE IS MORE ARCHITECTURALLY CENTRAL
 ONE MODEL IS EASIER TO EXPLAIN
 ```
 
----
+______________________________________________________________________
 
-# 102. Competing Hypotheses
+## 102. Competing Hypotheses
 
 When incompatible hypotheses have:
 
@@ -3261,9 +3295,9 @@ COMPETING
 
 until discriminating evidence exists.
 
----
+______________________________________________________________________
 
-# 103. Discriminating-Test Principle
+## 103. Discriminating-Test Principle
 
 Conceptually:
 
@@ -3277,9 +3311,9 @@ when the test can materially alter the conclusion.
 
 This is a reasoning-governance pattern, not recovered substantive Cognition Canon.
 
----
+______________________________________________________________________
 
-# 104. Adversarial Validation
+## 104. Adversarial Validation
 
 For consequential cognition-derived conclusions, challenge the primary conclusion using a genuinely different path seeking:
 
@@ -3317,9 +3351,9 @@ OR
 RETURN UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 105. Observability Boundary
+## 105. Observability Boundary
 
 A future observability layer may expose:
 
@@ -3351,9 +3385,9 @@ LOGGED != APPROVED
 
 Therefore observability cannot silently become authority.
 
----
+______________________________________________________________________
 
-# 106. Kernel Boundary
+## 106. Kernel Boundary
 
 ```text
 COGNITION CANON ARTIFACT EXISTS
@@ -3367,9 +3401,9 @@ Current kernel binding:
 NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 107. Control-Plane Boundary
+## 107. Control-Plane Boundary
 
 The target cross-plane binding references:
 
@@ -3391,9 +3425,9 @@ Current implementation:
 NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 108. Routing Boundary
+## 108. Routing Boundary
 
 The placeholder requires validation receipt reference:
 
@@ -3415,9 +3449,9 @@ or:
 ROUTING POLICY VALIDATED
 ```
 
----
+______________________________________________________________________
 
-# 109. Authorization-Engine Boundary
+## 109. Authorization-Engine Boundary
 
 The placeholder references:
 
@@ -3429,9 +3463,9 @@ Therefore authorization-engine validation is a target promotion dependency.
 
 Neither implementation nor successful validation is established by this placeholder alone.
 
----
+______________________________________________________________________
 
-# 110. Validation Contract
+## 110. Validation Contract
 
 Promotion SHOULD validate:
 
@@ -3491,9 +3525,9 @@ RECEIPTS
 EXECUTABLE BINDING
 ```
 
----
+______________________________________________________________________
 
-# 111. Negative Validation Matrix
+## 111. Negative Validation Matrix
 
 ```text
 MISSING ARTIFACT
@@ -3567,9 +3601,9 @@ MISSING RECEIPT
 COMPETING COGNITION INTERPRETATION HIDDEN
 ```
 
----
+______________________________________________________________________
 
-# 112. Validation Receipt Target
+## 112. Validation Receipt Target
 
 ```yaml
 amos_cognition_canon_validation_receipt:
@@ -3686,9 +3720,9 @@ Current:
 NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 113. Critical Gap — Native Cognition Definition
+## 113. Critical Gap — Native Cognition Definition
 
 ```yaml
 gap:
@@ -3713,9 +3747,9 @@ gap:
     - native_cognition_definition
 ```
 
----
+______________________________________________________________________
 
-# 114. Critical Gap — Cognitive Ontology
+## 114. Critical Gap — Cognitive Ontology
 
 ```yaml
 gap:
@@ -3734,9 +3768,9 @@ gap:
     representations, and transitions are not established.
 ```
 
----
+______________________________________________________________________
 
-# 115. Critical Gap — Cognitive Bindings
+## 115. Critical Gap — Cognitive Bindings
 
 ```yaml
 gap:
@@ -3757,9 +3791,9 @@ gap:
     is not established.
 ```
 
----
+______________________________________________________________________
 
-# 116. Critical Gap — Scope
+## 116. Critical Gap — Scope
 
 ```yaml
 gap:
@@ -3778,9 +3812,9 @@ gap:
     is not established.
 ```
 
----
+______________________________________________________________________
 
-# 117. Critical Gap — Regime
+## 117. Critical Gap — Regime
 
 ```yaml
 gap:
@@ -3799,9 +3833,9 @@ gap:
     semantics are established.
 ```
 
----
+______________________________________________________________________
 
-# 118. Critical Gap — Executable Binding
+## 118. Critical Gap — Executable Binding
 
 ```yaml
 gap:
@@ -3820,9 +3854,9 @@ gap:
     is established.
 ```
 
----
+______________________________________________________________________
 
-# 119. Critical Gap — Validation
+## 119. Critical Gap — Validation
 
 ```yaml
 gap:
@@ -3841,9 +3875,9 @@ gap:
     establishes substantive Cognition Canon.
 ```
 
----
+______________________________________________________________________
 
-# 120. Worked Semantics — Model vs Observation
+## 120. Worked Semantics — Model vs Observation
 
 Suppose a cognition model concludes:
 
@@ -3865,9 +3899,9 @@ MODEL / DERIVED CONCLUSION = X
 
 unless independent observational evidence exists.
 
----
+______________________________________________________________________
 
-# 121. Worked Semantics — Inference
+## 121. Worked Semantics — Inference
 
 Suppose:
 
@@ -3895,9 +3929,9 @@ C = CONDITIONAL
 
 when `P2` is load-bearing and lacks independent revalidation.
 
----
+______________________________________________________________________
 
-# 122. Worked Semantics — Memory
+## 122. Worked Semantics — Memory
 
 Suppose a cognitive system retrieves proposition `P` from memory.
 
@@ -3927,9 +3961,9 @@ REGIME
 CONTRADICTIONS
 ```
 
----
+______________________________________________________________________
 
-# 123. Worked Semantics — Attention
+## 123. Worked Semantics — Attention
 
 Suppose proposition `P` receives high attention.
 
@@ -3947,9 +3981,9 @@ P RECEIVES HIGH ATTENTION.
 
 Epistemic confidence remains independently determined.
 
----
+______________________________________________________________________
 
-# 124. Worked Semantics — Decision
+## 124. Worked Semantics — Decision
 
 Suppose cognitive evaluation selects action `A`.
 
@@ -3967,9 +4001,9 @@ A = SELECTED CANDIDATE
 
 followed by the required authority and commit gates.
 
----
+______________________________________________________________________
 
-# 125. Worked Semantics — Contradiction
+## 125. Worked Semantics — Contradiction
 
 Suppose model `M1` supports `H1`.
 
@@ -3991,9 +4025,9 @@ ASSESS PROVENANCE
 IDENTIFY DISCRIMINATING TEST
 ```
 
----
+______________________________________________________________________
 
-# 126. Worked Semantics — Correlated Sources
+## 126. Worked Semantics — Correlated Sources
 
 Suppose ten cognitive artifacts repeat the same proposition but descend from one source.
 
@@ -4013,9 +4047,9 @@ TEN DESCENDANTS
 
 until independence is demonstrated.
 
----
+______________________________________________________________________
 
-# 127. Worked Semantics — Structural Analogy
+## 127. Worked Semantics — Structural Analogy
 
 Suppose AMOS Cognition resembles a known cognitive architecture.
 
@@ -4037,9 +4071,9 @@ with:
 SEMANTIC IDENTITY = NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 128. Worked Semantics — Human Analogy
+## 128. Worked Semantics — Human Analogy
 
 Suppose AMOS cognition resembles human cognition.
 
@@ -4057,9 +4091,9 @@ CROSS-DOMAIN ANALOGY / MODEL
 
 unless appropriately validated.
 
----
+______________________________________________________________________
 
-# 129. Worked Semantics — Regime Shift
+## 129. Worked Semantics — Regime Shift
 
 Suppose cognition rule `R` is valid under regime `G1`.
 
@@ -4073,9 +4107,9 @@ REVALIDATE R
 
 rather than silently reuse it.
 
----
+______________________________________________________________________
 
-# 130. Worked Semantics — Stale Premise
+## 130. Worked Semantics — Stale Premise
 
 Suppose conclusion `C` depends on premise `P@t1`.
 
@@ -4095,9 +4129,9 @@ UNKNOWN/GAP
 
 depending on whether `P` remains supportable.
 
----
+______________________________________________________________________
 
-# 131. Worked Semantics — Adversarial Challenge
+## 131. Worked Semantics — Adversarial Challenge
 
 Primary conclusion:
 
@@ -4137,9 +4171,9 @@ DOWNGRADE / CONDITION / COMPETE / UNKNOWN
 
 as appropriate.
 
----
+______________________________________________________________________
 
-# 132. Cross-Plane Bindings
+## 132. Cross-Plane Bindings
 
 Source-supported governance relation:
 
@@ -4175,9 +4209,9 @@ Target integration points:
 
 These references do not establish executable bindings.
 
----
+______________________________________________________________________
 
-# 133. Promotion Gate
+## 133. Promotion Gate
 
 Before promotion:
 
@@ -4225,9 +4259,9 @@ Before promotion:
 - [ ] artifact-specific validation receipt executed;
 - [ ] unresolved critical gaps remain visible.
 
----
+______________________________________________________________________
 
-# 134. Current Proof Capsule
+## 134. Current Proof Capsule
 
 ```yaml
 proof_capsule:
@@ -4346,9 +4380,9 @@ proof_capsule:
     false
 ```
 
----
+______________________________________________________________________
 
-# 135. Canonical Knowledge Capsule
+## 135. Canonical Knowledge Capsule
 
 **Class: DERIVED / AMOS_MODEL**
 
@@ -4433,94 +4467,112 @@ COGNITIVE ENTITY ONTOLOGY
 =
 UNKNOWN/GAP
 ```
+
 ```text
 COGNITIVE STATE ONTOLOGY
 =
 UNKNOWN/GAP
 ```
+
 ```text
 COGNITIVE PROCESS ONTOLOGY
 =
 UNKNOWN/GAP
 ```
+
 ```text
 COGNITIVE TRANSITION SEMANTICS
 =
 UNKNOWN/GAP
 ```
+
 ```text
 REPRESENTATION SEMANTICS
 =
 UNKNOWN/GAP
 ```
+
 ```text
 COGNITION ↔ REASONING
 =
 UNKNOWN/GAP
 ```
+
 ```text
 COGNITION ↔ ATTENTION
 =
 UNKNOWN/GAP
 ```
+
 ```text
 COGNITION ↔ MEMORY
 =
 UNKNOWN/GAP
 ```
+
 ```text
 COGNITION ↔ PERCEPTION
 =
 UNKNOWN/GAP
 ```
+
 ```text
 COGNITION ↔ LEARNING
 =
 UNKNOWN/GAP
 ```
+
 ```text
 COGNITION ↔ DECISION
 =
 UNKNOWN/GAP
 ```
+
 ```text
 COGNITION ↔ AGENCY
 =
 UNKNOWN/GAP
 ```
+
 ```text
 COGNITION ↔ EMOTION
 =
 UNKNOWN/GAP
 ```
+
 ```text
 METACOGNITION
 =
 UNKNOWN/GAP
 ```
+
 ```text
 RSCF / H-M-L BINDING
 =
 UNKNOWN/GAP
 ```
+
 ```text
 SCOPE / REGIME
 =
 UNKNOWN/GAP
 ```
+
 ```text
 EXECUTABLE BINDING
 =
 NOT_ESTABLISHED
 ```
+
 ```text
 VALIDATION
 =
 NOT_ESTABLISHED
 ```
----
 
-# 136. Final Integrity Rule
+______________________________________________________________________
+
+## 136. Final Integrity Rule
 
 Until verified native content is recovered:
 
@@ -4533,50 +4585,62 @@ FROM ORDINARY LANGUAGE ALONE
 DO NOT IMPORT HUMAN COGNITIVE SCIENCE
 AS NATIVE AMOS CANON
 ```
+
 ```text
 DO NOT IMPORT NEUROSCIENCE
 AS NATIVE AMOS CANON
 ```
+
 ```text
 DO NOT IMPORT AI / TRANSFORMER
 ARCHITECTURE AS NATIVE AMOS CANON
 ```
+
 ```text
 DO NOT EQUATE COGNITION
 WITH CONSCIOUSNESS
 ```
+
 ```text
 DO NOT EQUATE COGNITION
 WITH INTELLIGENCE
 ```
+
 ```text
 DO NOT EQUATE COGNITION
 WITH REASONING
 ```
+
 ```text
 DO NOT EQUATE COGNITION
 WITH MEMORY
 ```
+
 ```text
 DO NOT EQUATE COGNITION
 WITH ATTENTION
 ```
+
 ```text
 DO NOT EQUATE COGNITION
 WITH PERCEPTION
 ```
+
 ```text
 DO NOT EQUATE COGNITION
 WITH AGENCY
 ```
+
 ```text
 DO NOT EQUATE COGNITIVE OUTPUT
 WITH VERIFIED KNOWLEDGE
 ```
+
 ```text
 DO NOT EQUATE COGNITIVE DECISION
 WITH AUTHORIZATION OR COMMIT
 ```
+
 ```text
 DO NOT LET COGNITIVE EFFICIENCY
 WEAKEN PROVENANCE,
@@ -4585,6 +4649,7 @@ CAUSAL DISCIPLINE,
 SCOPE CORRECTNESS,
 OR GOVERNANCE
 ```
+
 Instead:
 
 ```text
@@ -4647,9 +4712,9 @@ EXECUTE RECEIPTS
 PROMOTE ONLY AFTER VALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 137. Canonical Invariants
+## 137. Canonical Invariants
 
 ```text
 INTEGRITY > COMPLETENESS > FLUENCY > SPEED > TOKEN SAVINGS
@@ -4749,9 +4814,9 @@ VALID CLAIM @ t1 != AUTOMATICALLY VALID CLAIM @ t2
 ONE FAILED COGNITIVE PREMISE != ALL KNOWLEDGE INVALID
 ```
 
----
+______________________________________________________________________
 
-# 138. Status Matrix
+## 138. Status Matrix
 
 | Dimension                         | Current status             | Promotion requirement            |
 | --------------------------------- | -------------------------- | -------------------------------- |
@@ -4794,9 +4859,9 @@ ONE FAILED COGNITIVE PREMISE != ALL KNOWLEDGE INVALID
 | Artifact validation               | NOT_ESTABLISHED            | executed artifact receipt        |
 | Empirical validity                | NOT_ESTABLISHED            | appropriately typed evidence     |
 
----
+______________________________________________________________________
 
-# 139. Minimum Missing Information
+## 139. Minimum Missing Information
 
 The minimum evidence required to replace the central `UNKNOWN/GAP` is:
 
@@ -4888,15 +4953,15 @@ Without that evidence, substantive completion would violate:
 NEVER_INVENT_CANON
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
 
----
+______________________________________________________________________
 
 RSCF-NODE
 
@@ -4992,11 +5057,11 @@ RSCF-RELATIONS:
 
 - TARGET_VALIDATED_BY: [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]
 
----
+______________________________________________________________________
 
 **MOC:** [[01_CANON/03_COGNITION_CANON/03_COGNITION_CANON_MOC|03_COGNITION_CANON_MOC]]
 
----
+______________________________________________________________________
 
 **Origin Architect / Steward:** Trang Phan
 

@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Vault Domain Knowledge — Amos Vietnamese Global Cultural Bridge Governor
 type: reference
 source: 07_SKILLS/amos-vietnamese-global-cultural-bridge-governor/references
 tags:
-- reference
-- amos-vietnamese-global-cultural-bridge-governor
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-vietnamese-global-cultural-bridge-governor
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -118,14 +121,14 @@ The `_00_Cosmo brain/vietnamese/` directory contains 96 files covering:
 
 ## 5. Translation Mapping Table
 
-| Vietnamese Concept | Global Framework Category | Epistemic Class |
-|---|---|---|
-| Gia hệ (ritual energy) | Ritual theory / social technology (F04) | MODEL (structural metaphor) |
-| Ancestor veneration | Cultural transmission (F04) | CONDITIONAL (VN-specific) |
-| Lineage obligations | Kinship systems / social networks (F03) | CONDITIONAL (VN-specific) |
-| Sắc-Gọn-Chắc tone | Discourse analysis / communication (F04) | CONDITIONAL (VN-specific) |
-| Regional variance | Subnational analysis (F02) | CONDITIONAL (VN-specific) |
-| Vietnamese legal ecosystem | Jurisdiction mapping (C09 F06) | CONDITIONAL (jurisdiction-dependent) |
+| Vietnamese Concept         | Global Framework Category                | Epistemic Class                      |
+| -------------------------- | ---------------------------------------- | ------------------------------------ |
+| Gia hệ (ritual energy)     | Ritual theory / social technology (F04)  | MODEL (structural metaphor)          |
+| Ancestor veneration        | Cultural transmission (F04)              | CONDITIONAL (VN-specific)            |
+| Lineage obligations        | Kinship systems / social networks (F03)  | CONDITIONAL (VN-specific)            |
+| Sắc-Gọn-Chắc tone          | Discourse analysis / communication (F04) | CONDITIONAL (VN-specific)            |
+| Regional variance          | Subnational analysis (F02)               | CONDITIONAL (VN-specific)            |
+| Vietnamese legal ecosystem | Jurisdiction mapping (C09 F06)           | CONDITIONAL (jurisdiction-dependent) |
 
 ## 6. Anti-Overclaim Boundaries
 
@@ -177,13 +180,15 @@ This confirms that Vietnamese-specific cognitive infrastructure exists but lacks
 
 This skill should be used in conjunction with `amos-cross-domain-tensor-composition-governor` when the cross-domain composition involves C06/C09 tensors. The composition governor validates axis compatibility; this bridge governor provides the domain-specific cultural bridging logic.
 
----
+______________________________________________________________________
+
 **MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -191,12 +196,14 @@ This skill should be used in conjunction with `amos-cross-domain-tensor-composit
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-vietnamese-global-cultural-bridge-governor-vault-domain-knowledge
 node_type: reference
 path: 07_SKILLS/amos-vietnamese-global-cultural-bridge-governor/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

@@ -4,25 +4,22 @@ title: SKILL — Amos Cognitive Process Orchestrator
 type: skill
 source: 07_SKILLS/amos-cognitive-process-orchestrator
 name: amos-cognitive-process-orchestrator
-description: Cognitive Process Orchestrator — mind and behavior capability. Use when
-  psychological analysis, behavioral reasoning, or cognitive modeling. Use when amos-c05-mind-behavior-master
-  routes to this specialized capability. Do not use for generic tasks outside c05
-  domain.
+description: Cognitive Process Orchestrator — mind and behavior capability. Use when psychological analysis, behavioral reasoning, or cognitive modeling. Use when amos-c05-mind-behavior-master routes to this specialized capability. Do not use for generic tasks outside c05 domain.
 parent_skill: amos-c05-mind-behavior-master
 domain: c05
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
 tags:
-- type/skill
-- type/skill
-- domain/mind-behavior
-- epistemic/source_claim
-- hml/m
-- epistemic/source_claim
-- amos-os
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/mind-behavior
+  - epistemic/source_claim
+  - hml/m
+  - epistemic/source_claim
+  - amos-os
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -32,20 +29,20 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: M
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L16
-- L17
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L16
+  - L17
 license: MIT
 steward: Trang Phan
 ---
@@ -55,6 +52,7 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: c05. Parent: amos-c05-mind-behavior-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
 ## When to Use
 
 - When modeling cognitive processes: attention, awareness, compression
@@ -81,12 +79,12 @@ Origin architect: **Trang Phan**. Domain: c05. Parent: amos-c05-mind-behavior-ma
 ## Operations
 
 1. **cognitive_process.model_cognition**: Model cognitive processes: attention, awareness, compression, and inference
-2. **cognitive_process.allocate_attention**: Allocate attention resources across competing demands and priorities
-3. **cognitive_process.assess_awareness**: Assess awareness levels: meta-cognition, self-monitoring, and calibration
-4. **cognitive_process.govern_expression**: Govern artistic and emotional expression within healthy bounds
-5. **cognitive_process.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-6. **cognitive_process.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
-7. **cognitive_process.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+1. **cognitive_process.allocate_attention**: Allocate attention resources across competing demands and priorities
+1. **cognitive_process.assess_awareness**: Assess awareness levels: meta-cognition, self-monitoring, and calibration
+1. **cognitive_process.govern_expression**: Govern artistic and emotional expression within healthy bounds
+1. **cognitive_process.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+1. **cognitive_process.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+1. **cognitive_process.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## 11_KNOWLEDGE Vault Content
 
@@ -98,11 +96,13 @@ Origin architect: **Trang Phan**. Domain: c05. Parent: amos-c05-mind-behavior-ma
 From Cognitive Organism OS: 10-step runtime pipeline for cognitive process orchestration.
 
 **10-step runtime pipeline**:
+
 ```
 Perceive -> Route -> Admit -> Plan -> Schedule -> Execute -> Observe -> Repair -> Audit -> Finalize
 ```
 
 **Orchestration principles**:
+
 - Each step has declared inputs, outputs, and validation gates
 - Steps are ordered; skipping steps requires explicit justification
 - Repair can insert re-execution of earlier steps
@@ -110,16 +110,18 @@ Perceive -> Route -> Admit -> Plan -> Schedule -> Execute -> Observe -> Repair -
 - Finalization commits the result with provenance
 
 **8 independent axes** for orchestration:
+
 1. Cognitive organization
-2. Capability granularity
-3. Cognitive mode (EXPLORE/DIAGNOSE/DESIGN/AUDIT/MEASURE)
-4. Scale (H/M/L)
-5. Epistemic state (OBSERVATION/SOURCE_CLAIM/DERIVED/MODEL/DECISION/UNKNOWN)
-6. Execution
-7. Governance
-8. Deployment
+1. Capability granularity
+1. Cognitive mode (EXPLORE/DIAGNOSE/DESIGN/AUDIT/MEASURE)
+1. Scale (H/M/L)
+1. Epistemic state (OBSERVATION/SOURCE_CLAIM/DERIVED/MODEL/DECISION/UNKNOWN)
+1. Execution
+1. Governance
+1. Deployment
 
 **5 Cognitive modes**:
+
 - **EXPLORE**: discover and map the problem space
 - **DIAGNOSE**: identify the root cause of a problem
 - **DESIGN**: create a solution for a diagnosed problem
@@ -127,15 +129,17 @@ Perceive -> Route -> Admit -> Plan -> Schedule -> Execute -> Observe -> Repair -
 - **MEASURE**: quantify the properties of a system or solution
 
 **Orchestration laws**:
-- `ORCHESTRATION != EXECUTION**: orchestration coordinates; execution does the work
-- `STEP != CAPABILITY**: a step invokes a capability; it is not the capability
-- `PIPELINE != WATERFALL**: the pipeline has feedback (repair -> re-execute); it is not a strict waterfall
+
+- \`ORCHESTRATION != EXECUTION\*\*: orchestration coordinates; execution does the work
+- \`STEP != CAPABILITY\*\*: a step invokes a capability; it is not the capability
+- \`PIPELINE != WATERFALL\*\*: the pipeline has feedback (repair -> re-execute); it is not a strict waterfall
 
 ### Epistemic Boundary
 
 Cognitive process orchestration is a runtime architecture. It does not prove cognitive completeness, optimality, or that all cognitive processes can be decomposed into this pipeline.
 
 ## Failure Modes
+
 - **Insufficient evidence**: If source material is insufficient, mark as UNKNOWN/GAP and fail closed — do not fabricate.
 - **Scope violation**: If the query falls outside the skill's declared scope, escalate to the parent skill or steward.
 - **Binding broken**: If 1:1:1 binding (skill→agent→workflow) is broken, flag routing mismatch and block execution.
@@ -146,7 +150,8 @@ Cognitive process orchestration is a runtime architecture. It does not prove cog
 
 - **G1 (Law of Law)**: No unresolved contradictions within the ski
 
----
+______________________________________________________________________
+
 **Links:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 ## Related
@@ -156,17 +161,19 @@ Cognitive process orchestration is a runtime architecture. It does not prove cog
 ## Examples
 
 - **Scenario**: When modeling cognitive processes: attention, awareness, compression
+
   - **Input**: A query matching this skill's domain (c05)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When allocating attention resources across competing demands
+
   - **Input**: A query matching this skill's domain (c05)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When assessing awareness levels and meta-cognition
+
   - **Input**: A query matching this skill's domain (c05)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Anti-Patterns
 
@@ -176,7 +183,6 @@ Cognitive process orchestration is a runtime architecture. It does not prove cog
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `amos-c05-mind-behavior-master` — routes to this skill when c05 specialization is needed
@@ -184,7 +190,6 @@ Cognitive process orchestration is a runtime architecture. It does not prove cog
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -203,7 +208,6 @@ Cognitive process orchestration is a runtime architecture. It does not prove cog
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -211,7 +215,6 @@ Cognitive process orchestration is a runtime architecture. It does not prove cog
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -224,11 +227,12 @@ Cognitive process orchestration is a runtime architecture. It does not prove cog
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `amos-c05-mind-behavior-master` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `amos-cognitive-process-orchestrator-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -236,12 +240,14 @@ Cognitive process orchestration is a runtime architecture. It does not prove cog
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-cognitive-process-orchestrator
 node_type: skill
 path: 07_SKILLS/amos-cognitive-process-orchestrator/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

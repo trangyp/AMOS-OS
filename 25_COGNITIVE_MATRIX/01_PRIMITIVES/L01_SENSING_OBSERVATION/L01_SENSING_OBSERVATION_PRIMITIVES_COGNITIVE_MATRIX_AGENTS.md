@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: L01 SENSING OBSERVATION PRIMITIVES COGNITIVE MATRIX AGENTS
 type: agent
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION
 tags:
-- cognitive-matrix
-- primitives
-- matrix/l01-sensing-observation
-- note
-- domain/cognitive-matrix
+  - cognitive-matrix
+  - primitives
+  - matrix/l01-sensing-observation
+  - note
+  - domain/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -28,9 +31,9 @@ rscf:
 
 > **Canon boundary:** direct authoritative `L01_SENSING_OBSERVATION` agent canon is not established by the supplied placeholder alone. The agent architecture below is a conservative AMOS model constrained by the supplied L01 contract, the L00 reality/environment boundary, and AMOS control-plane, provenance, RSCF, authority, uncertainty, and recovery principles. It must not be represented as recovered source canon until direct source evidence establishes that status.
 
----
+______________________________________________________________________
 
-# 0. Purpose
+## 0. Purpose
 
 `L01_SENSING_OBSERVATION/AGENTS.md` defines the agent roles that acquire, normalize, validate, qualify, and transmit observations from an environment into AMOS without allowing sensing workers to silently convert measurements, interpretations, predictions, memories, or generated content into observed reality.
 
@@ -82,17 +85,15 @@ CAPABILITY
 AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 1. Definition
+## 1. Definition
 
 An L01 sensing/observation agent is a bounded cognitive or computational worker responsible for one or more operations involved in obtaining or validating environment-derived evidence.
 
 Conceptually:
 
-[
-A_{L01}
-=======
+## \[ A\_{L01}
 
 (Role,
 Capability,
@@ -105,7 +106,7 @@ Evidence,
 Provenance,
 Uncertainty,
 Constraints)
-]
+\]
 
 An agent is therefore not defined merely by a name or prompt.
 
@@ -122,9 +123,9 @@ It requires an explicit contract describing:
 - how its failures are detected;
 - how its output can be invalidated.
 
----
+______________________________________________________________________
 
-# 2. Scope
+## 2. Scope
 
 L01 agents operate primarily at the interface between:
 
@@ -162,16 +163,13 @@ ground-truth equivalence
 
 Those require additional layers, evidence, or governance.
 
----
+______________________________________________________________________
 
-# 3. Agent Tensor
+## 3. Agent Tensor
 
-[
-\boxed{
-T_A^{L01}
-=========
+## \[ \\boxed{ T_A^{L01}
 
-T[
+T\[
 agent_id,
 agent_class,
 role,
@@ -196,13 +194,13 @@ uncertainty,
 dependencies,
 failure_state,
 recovery_state
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 4. Agent Identity
+## 4. Agent Identity
 
 Every addressable L01 agent should have an explicit identity.
 
@@ -252,9 +250,9 @@ AUTHORIZED AGENT
 VALID OBSERVER
 ```
 
----
+______________________________________________________________________
 
-# 5. Agent Classes
+## 5. Agent Classes
 
 Candidate L01 agent classes:
 
@@ -312,9 +310,9 @@ A25  OBSERVATION REPLAY / AUDIT AGENT
 
 These are architectural role classes, not assertions that implementations currently exist.
 
----
+______________________________________________________________________
 
-# 6. A01 — Sensing Coordinator
+## 6. A01 — Sensing Coordinator
 
 ## Responsibility
 
@@ -367,9 +365,9 @@ COORDINATOR OUTPUT
 OBSERVATION
 ```
 
----
+______________________________________________________________________
 
-# 7. A02 — Environment Interface Agent
+## 7. A02 — Environment Interface Agent
 
 ## Responsibility — part 2
 
@@ -409,34 +407,34 @@ SIMULATION INTERFACE
 REAL-WORLD SENSOR INTERFACE
 ```
 
----
+______________________________________________________________________
 
-# 8. A03 — Sensor Adapter Agent
+## 8. A03 — Sensor Adapter Agent
 
 Converts sensor-specific or source-specific output into a canonical observation transport form.
 
 Conceptually:
 
-[
-O_c = Adapt(O_s, Schema_s \rightarrow Schema_c)
-]
+\[
+O_c = Adapt(O_s, Schema_s \\rightarrow Schema_c)
+\]
 
 where:
 
-- \(O_s\) = source-format observation;
-- \(O_c\) = canonicalized observation.
+- (O_s) = source-format observation;
+- (O_c) = canonicalized observation.
 
 Invariant:
 
-[
-Adapt(x) \neq ValidateTruth(x)
-]
+\[
+Adapt(x) \\neq ValidateTruth(x)
+\]
 
 Format conversion does not validate the represented fact.
 
----
+______________________________________________________________________
 
-# 9. A04 — Observation Acquisition Agent
+## 9. A04 — Observation Acquisition Agent
 
 ## Responsibility — part 3
 
@@ -482,9 +480,9 @@ FAILED TO OBSERVE X
 OBSERVED NOT-X
 ```
 
----
+______________________________________________________________________
 
-# 10. A05 — Multimodal Observation Agent
+## 10. A05 — Multimodal Observation Agent
 
 May coordinate observations across modalities such as:
 
@@ -508,22 +506,22 @@ explicitly available biosignals
 
 Availability must be explicit.
 
-[
+\[
 ModalitiesAvailable
-\subseteq
+\\subseteq
 ModalitiesPossible
-]
+\]
 
 An unavailable modality may not be fabricated.
 
----
+______________________________________________________________________
 
-# 11. Multimodal Observation Tensor
+## 11. Multimodal Observation Tensor
 
-[
-\boxed{
+\[
+\\boxed{
 T_M =
-T[
+T\[
 modality,
 channel,
 availability,
@@ -534,17 +532,17 @@ resolution,
 quality,
 uncertainty,
 provenance
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 12. A06 — Measurement Agent
+## 12. A06 — Measurement Agent
 
 Transforms an observation through an explicitly defined measurement procedure.
 
-[
+\[
 M =
 Measure(
 Observation,
@@ -553,7 +551,7 @@ Instrument,
 Calibration,
 Unit
 )
-]
+\]
 
 Outputs should preserve:
 
@@ -585,9 +583,9 @@ MEASURED VALUE
 TRUE VALUE
 ```
 
----
+______________________________________________________________________
 
-# 13. A07 — Temporal Anchor Agent
+## 13. A07 — Temporal Anchor Agent
 
 Binds observation time.
 
@@ -609,27 +607,27 @@ ingestion_time
 
 These must not be silently collapsed into one timestamp.
 
----
+______________________________________________________________________
 
-# 14. Temporal Observation Tensor
+## 14. Temporal Observation Tensor
 
-[
-\boxed{
+\[
+\\boxed{
 T_T =
-T[
+T\[
 event_time,
 observation_time,
 retrieval_time,
 ingestion_time,
 clock_source,
 temporal_uncertainty
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 15. A08 — Spatial / Context Anchor Agent
+## 15. A08 — Spatial / Context Anchor Agent
 
 Associates an observation with the context required to interpret its applicability.
 
@@ -663,9 +661,9 @@ OBSERVED SOMEWHERE
 OBSERVED EVERYWHERE
 ```
 
----
+______________________________________________________________________
 
-# 16. A09 — Source Observation Agent
+## 16. A09 — Source Observation Agent
 
 Reads an external source and produces source-grounded observation records.
 
@@ -715,9 +713,9 @@ X occurred
 
 requires separate evidential support.
 
----
+______________________________________________________________________
 
-# 17. A10 — Observation Typing Agent
+## 17. A10 — Observation Typing Agent
 
 Classifies incoming objects into epistemic classes.
 
@@ -745,17 +743,17 @@ UNKNOWN
 
 Hard invariant:
 
-[
+\[
 Type(x)=MODEL
-\Rightarrow
-x \notin OBSERVATION
-]
+\\Rightarrow
+x \\notin OBSERVATION
+\]
 
 unless independent observation subsequently establishes it.
 
----
+______________________________________________________________________
 
-# 18. A11 — Quality Assessment Agent
+## 18. A11 — Quality Assessment Agent
 
 Evaluates observation quality dimensions such as:
 
@@ -801,17 +799,15 @@ quality:
 
 Quality score must not become truth probability without a validated mapping.
 
----
+______________________________________________________________________
 
-# 19. A12 — Uncertainty Estimation Agent
+## 19. A12 — Uncertainty Estimation Agent
 
 Tracks uncertainty rather than erasing it.
 
-[
-T_U^{L01}
-=========
+## \[ T_U^{L01}
 
-T[
+T\[
 sensor,
 measurement,
 temporal,
@@ -821,8 +817,8 @@ sampling,
 representation,
 provenance,
 fusion
-]
-]
+\]
+\]
 
 Uncertainty may be:
 
@@ -840,9 +836,9 @@ unknown
 
 Unknown uncertainty must remain `UNKNOWN`, not `0`.
 
----
+______________________________________________________________________
 
-# 20. A13 — Provenance Binding Agent
+## 20. A13 — Provenance Binding Agent
 
 Constructs observation lineage.
 
@@ -870,9 +866,7 @@ PROVENANCE RECORD
 
 Conceptually:
 
-[
-Prov(O)
-=======
+## \[ Prov(O)
 
 (Source,
 Channel,
@@ -882,11 +876,11 @@ Transform,
 Time,
 Environment,
 Version)
-]
+\]
 
----
+______________________________________________________________________
 
-# 21. A14 — Sensor Fusion Agent
+## 21. A14 — Sensor Fusion Agent
 
 Combines compatible observations.
 
@@ -918,13 +912,13 @@ INDEPENDENT OBSERVATIONS
 
 Fusion must not double-count shared source ancestry.
 
----
+______________________________________________________________________
 
-# 22. Fusion Equation
+## 22. Fusion Equation
 
-For compatible observations \(O_i\):
+For compatible observations (O_i):
 
-[
+\[
 F =
 Fuse(
 {O_i},
@@ -932,19 +926,19 @@ Compatibility,
 Uncertainty,
 Provenance
 )
-]
+\]
 
 where:
 
-[
+\[
 Compatibility=FAIL
-\Rightarrow
+\\Rightarrow
 NoDirectFusion
-]
+\]
 
----
+______________________________________________________________________
 
-# 23. A15 — Conflict Detection Agent
+## 23. A15 — Conflict Detection Agent
 
 Detects incompatible observations.
 
@@ -991,17 +985,15 @@ conflict:
 
 Conflict detection does not itself determine which observation is correct.
 
----
+______________________________________________________________________
 
-# 24. A16 — Freshness Monitor Agent
+## 24. A16 — Freshness Monitor Agent
 
 Determines whether an observation remains usable for a specified decision horizon.
 
 Conceptually:
 
-[
-Fresh(O,q)
-==========
+## \[ Fresh(O,q)
 
 f(
 age,
@@ -1009,7 +1001,7 @@ environment_volatility,
 decision_horizon,
 regime
 )
-]
+\]
 
 Freshness is query-dependent.
 
@@ -1023,9 +1015,9 @@ RECENT
 VALID
 ```
 
----
+______________________________________________________________________
 
-# 25. A17 — Regime / Context Monitor Agent
+## 25. A17 — Regime / Context Monitor Agent
 
 Detects whether observation applicability conditions may have changed.
 
@@ -1061,9 +1053,9 @@ INVALIDATE
 
 depending on dependency structure.
 
----
+______________________________________________________________________
 
-# 26. A18 — Observation Validation Agent
+## 26. A18 — Observation Validation Agent
 
 Checks whether an observation satisfies the L01 contract.
 
@@ -1115,9 +1107,9 @@ UNKNOWN/GAP
 PASS
 ```
 
----
+______________________________________________________________________
 
-# 27. A19 — Adversarial Observation Auditor
+## 27. A19 — Adversarial Observation Auditor
 
 Challenges consequential observations through a distinct validation path.
 
@@ -1153,20 +1145,18 @@ hidden transformations
 
 The auditor should seek disconfirming evidence, not merely repeat the primary path.
 
----
+______________________________________________________________________
 
-# 28. A20 — Observation Quarantine Agent
+## 28. A20 — Observation Quarantine Agent
 
 Isolates observations whose integrity cannot currently be established.
 
-[
-Quarantine(O)
-=============
+## \[ Quarantine(O)
 
 Preserve(O)
-\land
+\\land
 BlockTrustedPromotion(O)
-]
+\]
 
 Quarantine should preserve:
 
@@ -1184,9 +1174,9 @@ affected claims
 revalidation requirements
 ```
 
----
+______________________________________________________________________
 
-# 29. A21 — Sensor Health Agent
+## 29. A21 — Sensor Health Agent
 
 Monitors the sensing mechanism rather than the observed target.
 
@@ -1222,9 +1212,9 @@ OBSERVATION TRUE
 
 A healthy sensor can still observe an unrepresentative sample.
 
----
+______________________________________________________________________
 
-# 30. A22 — Calibration Agent
+## 30. A22 — Calibration Agent
 
 Maintains evidence concerning measurement calibration.
 
@@ -1254,9 +1244,9 @@ calibration:
 
 Calibration claims require actual calibration evidence.
 
----
+______________________________________________________________________
 
-# 31. A23 — Observation Repair Agent
+## 31. A23 — Observation Repair Agent
 
 Repairs recoverable observation-path failures.
 
@@ -1284,9 +1274,9 @@ provenance gap
 
 Repair must not fabricate missing measurement content.
 
----
+______________________________________________________________________
 
-# 32. A24 — Reobservation Agent
+## 32. A24 — Reobservation Agent
 
 Acquires new evidence when existing observations become stale, conflicted, invalid, or insufficient.
 
@@ -1308,9 +1298,9 @@ Reobservation creates a new observation event.
 
 It does not rewrite history.
 
----
+______________________________________________________________________
 
-# 33. A25 — Observation Replay / Audit Agent
+## 33. A25 — Observation Replay / Audit Agent
 
 Reconstructs how an observation record was produced.
 
@@ -1342,9 +1332,9 @@ Replay success supports reproducibility of the transformation path.
 
 It does not prove external-world truth.
 
----
+______________________________________________________________________
 
-# 34. Agent Inputs
+## 34. Agent Inputs
 
 ```yaml
 L01AgentInput:
@@ -1386,9 +1376,9 @@ L01AgentInput:
   tool_context:
 ```
 
----
+______________________________________________________________________
 
-# 35. Agent Outputs
+## 35. Agent Outputs
 
 ```yaml
 L01AgentOutput:
@@ -1442,9 +1432,9 @@ L01AgentOutput:
   conclusion_class:
 ```
 
----
+______________________________________________________________________
 
-# 36. Agent State Variables
+## 36. Agent State Variables
 
 ```text
 A_id        agent identity
@@ -1484,9 +1474,9 @@ A_fail      failure state
 A_rec       recovery state
 ```
 
----
+______________________________________________________________________
 
-# 37. Agent Operators
+## 37. Agent Operators
 
 Candidate L01 agent operators:
 
@@ -1546,9 +1536,9 @@ ESCALATE
 STOP
 ```
 
----
+______________________________________________________________________
 
-# 38. Operator Boundary
+## 38. Operator Boundary
 
 No sensing operator may implicitly perform unrestricted inference.
 
@@ -1570,9 +1560,9 @@ causal explanation
 
 requires additional reasoning and appropriate evidence.
 
----
+______________________________________________________________________
 
-# 39. Agent Capability Contract
+## 39. Agent Capability Contract
 
 ```yaml
 capability_contract:
@@ -1602,23 +1592,23 @@ Capability is descriptive.
 
 Authority is normative and externally governed.
 
----
+______________________________________________________________________
 
-# 40. Authority Invariant
+## 40. Authority Invariant
 
-[
-\boxed{
+\[
+\\boxed{
 Capability(A,op)
-\not\Rightarrow
+\\not\\Rightarrow
 Authority(A,op)
 }
-]
+\]
 
 An agent capable of calling a sensor, API, database, or state store does not automatically possess permission to do so.
 
----
+______________________________________________________________________
 
-# 41. Read / Write Separation
+## 41. Read / Write Separation
 
 Typical L01 sensing agents should be predominantly read-oriented.
 
@@ -1638,20 +1628,18 @@ COMMIT ACTION
 
 If sensing itself modifies the target, the intervention must be explicit.
 
----
+______________________________________________________________________
 
-# 42. Observer-Effect Boundary
+## 42. Observer-Effect Boundary
 
 Some sensing operations may alter the observed environment.
 
 Therefore:
 
-[
-Observation
-===========
+## \[ Observation
 
 f(Environment,Observer,Method)
-]
+\]
 
 may be necessary as a structural model.
 
@@ -1671,9 +1659,9 @@ environment mutation
 
 No universal physical observer-effect claim is implied.
 
----
+______________________________________________________________________
 
-# 43. H/M/L Applicability
+## 43. H/M/L Applicability
 
 ## H — High-Level Sensing
 
@@ -1733,38 +1721,35 @@ single database field
 single document statement
 ```
 
----
+______________________________________________________________________
 
-# 44. H/M/L Invariant
+## 44. H/M/L Invariant
 
-[
+\[
 Observation(L)
-\not\Rightarrow
+\\not\\Rightarrow
 State(H)
-]
+\]
 
 without a validated aggregation path.
 
 Likewise:
 
-[
+\[
 Failure(L)
-\not\Rightarrow
+\\not\\Rightarrow
 Failure(H)
-]
+\]
 
 unless the failed local observation is load-bearing for the higher-level conclusion.
 
----
+______________________________________________________________________
 
-# 45. Cross-Scale Observation Tensor
+## 45. Cross-Scale Observation Tensor
 
-[
-\boxed{
-T_{HML}^{OBS}
-=============
+## \[ \\boxed{ T\_{HML}^{OBS}
 
-T[
+T\[
 observation,
 source_scale,
 target_scale,
@@ -1774,13 +1759,13 @@ sampling,
 dependencies,
 uncertainty,
 validation
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 46. Dependencies
+## 46. Dependencies
 
 ```yaml
 dependencies:
@@ -1833,9 +1818,9 @@ dependencies:
 
 Exact neighboring primitive identifiers remain source-dependent until authoritative canon establishes them.
 
----
+______________________________________________________________________
 
-# 47. Skills
+## 47. Skills
 
 Candidate skills supporting L01 agents include:
 
@@ -1879,9 +1864,9 @@ SKILL AVAILABLE
 AGENT AUTHORIZED TO USE SKILL
 ```
 
----
+______________________________________________________________________
 
-# 48. Workflow Integration
+## 48. Workflow Integration
 
 L01 agents should participate in bounded workflows such as:
 
@@ -1915,9 +1900,9 @@ OBSERVATION_REPLAY
 
 Agents should not bypass workflow-level gates merely because they possess the underlying capability.
 
----
+______________________________________________________________________
 
-# 49. Protocols
+## 49. Protocols
 
 Candidate protocol messages:
 
@@ -1955,9 +1940,9 @@ RepairRequest
 RecoveryResult
 ```
 
----
+______________________________________________________________________
 
-# 50. Observation Request Protocol
+## 50. Observation Request Protocol
 
 ```yaml
 ObservationRequest:
@@ -1985,9 +1970,9 @@ ObservationRequest:
   authority_context:
 ```
 
----
+______________________________________________________________________
 
-# 51. Observation Response Protocol
+## 51. Observation Response Protocol
 
 ```yaml
 ObservationResponse:
@@ -2029,9 +2014,9 @@ ObservationResponse:
   gaps: []
 ```
 
----
+______________________________________________________________________
 
-# 52. Evidence / Provenance Requirements
+## 52. Evidence / Provenance Requirements
 
 Every consequential observation should preserve enough lineage to answer:
 
@@ -2057,16 +2042,13 @@ WHAT transformations occurred?
 WHAT uncertainty remains?
 ```
 
----
+______________________________________________________________________
 
-# 53. Provenance Tensor
+## 53. Provenance Tensor
 
-[
-\boxed{
-T_P^{L01}
-=========
+## \[ \\boxed{ T_P^{L01}
 
-T[
+T\[
 observation_id,
 source_id,
 source_root,
@@ -2082,13 +2064,13 @@ observation_time,
 retrieval_time,
 scope,
 regime
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 54. Evidence Independence
+## 54. Evidence Independence
 
 Multiple agents do not automatically create multiple independent observations.
 
@@ -2104,50 +2086,47 @@ This may represent one provenance root.
 
 Therefore:
 
-[
+\[
 IndependentEvidenceCount
-\neq
+\\neq
 AgentCount
-]
+\]
 
----
+______________________________________________________________________
 
-# 55. Uncertainty Vector
+## 55. Uncertainty Vector
 
 For consequential observations:
 
-[
-\boxed{
-U_{L01}
-=======
+## \[ \\boxed{ U\_{L01}
 
 (
-U_{sensor},
-U_{measurement},
-U_{sampling},
-U_{temporal},
-U_{spatial},
-U_{representation},
-U_{source},
-U_{provenance},
-U_{fusion}
+U\_{sensor},
+U\_{measurement},
+U\_{sampling},
+U\_{temporal},
+U\_{spatial},
+U\_{representation},
+U\_{source},
+U\_{provenance},
+U\_{fusion}
 )
 }
-]
+\]
 
 The vector should remain decomposed where the dimensions can change downstream decisions.
 
----
+______________________________________________________________________
 
-# 56. Confidence Ceiling
+## 56. Confidence Ceiling
 
-For observation conclusion \(C\):
+For observation conclusion (C):
 
-[
-\boxed{
+\[
+\\boxed{
 Conf(C)
-\le
-\min(
+\\le
+\\min(
 SourceIntegrity,
 SensorIntegrity,
 MeasurementIntegrity,
@@ -2157,15 +2136,15 @@ RegimeCompatibility,
 TemporalValidity
 )
 }
-]
+\]
 
 where each applicable term is bounded by available evidence.
 
 Unknown load-bearing integrity prevents high-confidence promotion.
 
----
+______________________________________________________________________
 
-# 57. Control-Plane Requirements
+## 57. Control-Plane Requirements
 
 L01 agents operate beneath control-plane authority for consequential access or durable effects.
 
@@ -2189,16 +2168,13 @@ ADMISSION
 
 The model worker should not own final authority merely because it generated the observation plan.
 
----
+______________________________________________________________________
 
-# 58. Control-Plane Tensor
+## 58. Control-Plane Tensor
 
-[
-\boxed{
-T_C^{L01}
-=========
+## \[ \\boxed{ T_C^{L01}
 
-T[
+T\[
 agent,
 principal,
 capability,
@@ -2210,13 +2186,13 @@ constraints,
 validity,
 revocation,
 audit
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 59. Agent Registration
+## 59. Agent Registration
 
 An agent should not become addressable merely because a textual role exists.
 
@@ -2268,9 +2244,9 @@ REVOKED
 
 These states must not be conflated.
 
----
+______________________________________________________________________
 
-# 60. Agent Lifecycle
+## 60. Agent Lifecycle
 
 ```text
 DECLARED
@@ -2299,9 +2275,9 @@ ACTIVE
 └── FAILED
 ```
 
----
+______________________________________________________________________
 
-# 61. Agent Invariants
+## 61. Agent Invariants
 
 ## AG-I01 — Identity
 
@@ -2383,9 +2359,9 @@ Failed agent outputs invalidate only dependent conclusions.
 
 Critical unknowns remain `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
-# 62. Failure Modes
+## 62. Failure Modes
 
 ## AG-F01 — Hallucinated Observation
 
@@ -2467,9 +2443,9 @@ Old observation is presented as current.
 
 Proposed agent role is represented as source canon.
 
----
+______________________________________________________________________
 
-# 63. Repair / Recovery
+## 63. Repair / Recovery
 
 Generic L01 agent recovery:
 
@@ -2499,31 +2475,31 @@ REVALIDATE
 RESTORE ELIGIBLE DEPENDENTS
 ```
 
----
+______________________________________________________________________
 
-# 64. Selective Invalidation
+## 64. Selective Invalidation
 
-If observation \(O\) fails:
+If observation (O) fails:
 
-[
+\[
 Invalid(O)
-\Rightarrow
-Invalidate(Desc_{LB}\(O\))
-]
+\\Rightarrow
+Invalidate(Desc\_{LB}(O))
+\]
 
 But:
 
-[
+\[
 Independent(C,O)
-\Rightarrow
+\\Rightarrow
 Preserve(C)
-]
+\]
 
 A failed sensor should not automatically invalidate unrelated observations.
 
----
+______________________________________________________________________
 
-# 65. Agent Recovery States
+## 65. Agent Recovery States
 
 ```text
 HEALTHY
@@ -2547,9 +2523,9 @@ REVOKED
 UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 66. Validators
+## 66. Validators
 
 ```text
 VALIDATOR_AGENT_IDENTITY
@@ -2593,9 +2569,9 @@ VALIDATOR_AGENT_FRESHNESS
 VALIDATOR_AGENT_RECOVERY
 ```
 
----
+______________________________________________________________________
 
-# 67. Minimum Tests
+## 67. Minimum Tests
 
 ```text
 TEST_AG_001
@@ -2659,9 +2635,9 @@ TEST_AG_020
 UNKNOWN/GAP cannot become PASS
 ```
 
----
+______________________________________________________________________
 
-# 68. Adversarial Tests
+## 68. Adversarial Tests
 
 Test agents against:
 
@@ -2707,9 +2683,9 @@ cross-agent consensus illusion
 unauthorized sensing request
 ```
 
----
+______________________________________________________________________
 
-# 69. Falsifiers
+## 69. Falsifiers
 
 The proposed L01 agent architecture fails its intended contract if an implementation permits:
 
@@ -2747,9 +2723,9 @@ failed agents to contaminate unrelated state
 UNKNOWN/GAP to become PASS
 ```
 
----
+______________________________________________________________________
 
-# 70. Gap Matrix
+## 70. Gap Matrix
 
 ```yaml
 gap_status:
@@ -2797,9 +2773,9 @@ gap_status:
     - agent ID prefixes
 ```
 
----
+______________________________________________________________________
 
-# 71. Hard Boundaries
+## 71. Hard Boundaries
 
 ```text
 PLACEHOLDER != IMPLEMENTED
@@ -2851,9 +2827,9 @@ REPAIR != FABRICATION
 MODEL AGENT ARCHITECTURE != SOURCE CANON
 ```
 
----
+______________________________________________________________________
 
-# 72. RSCF Capsule
+## 72. RSCF Capsule
 
 ```yaml
 rscf:
@@ -2953,41 +2929,35 @@ rscf:
     remain unresolved
 ```
 
----
+______________________________________________________________________
 
-# 73. Canonical Agent Equations
+## 73. Canonical Agent Equations
 
 ### Agent contract
 
-[
-\boxed{
-Agent
-=====
+## \[ \\boxed{ Agent
 
 Identity
-+
+\+
 Role
-+
+\+
 Capability
-+
+\+
 Scope
-+
+\+
 Authority
-+
+\+
 Evidence
-+
+\+
 Provenance
-+
+\+
 Constraints
 }
-]
+\]
 
 ### Observation law
 
-[
-\boxed{
-Observation
-===========
+## \[ \\boxed{ Observation
 
 Acquire(
 Environment,
@@ -2996,14 +2966,11 @@ Method,
 Time
 )
 }
-]
+\]
 
 ### Measurement law
 
-[
-\boxed{
-Measurement
-===========
+## \[ \\boxed{ Measurement
 
 Measure(
 Observation,
@@ -3012,86 +2979,83 @@ Method,
 Calibration
 )
 }
-]
+\]
 
 ### Epistemic law
 
-[
-\boxed{
+\[
+\\boxed{
 Observation
-\neq
+\\neq
 Inference
 }
-]
+\]
 
 ### Authority law
 
-[
-\boxed{
+\[
+\\boxed{
 Capability
-\neq
+\\neq
 Authority
 }
-]
+\]
 
 ### Independence law
 
-[
-\boxed{
+\[
+\\boxed{
 AgentCount
-\neq
+\\neq
 IndependentEvidenceCount
 }
-]
+\]
 
 ### Failure law
 
-[
-\boxed{
+\[
+\\boxed{
 ObservationFailure
-\neq
+\\neq
 NegativeObservation
 }
-]
+\]
 
 ### Freshness law
 
-[
-\boxed{
+\[
+\\boxed{
 PreviouslyValid(O)
-\not\Rightarrow
+\\not\\Rightarrow
 CurrentlyValid(O)
 }
-]
+\]
 
 ### Recovery law
 
-[
-\boxed{
-Recovery
-========
+## \[ \\boxed{ Recovery
 
 Repair
-+
+\+
 Reobservation
-+
+\+
 Revalidation
 }
-]
+\]
 
 ### Unknown law
 
-[
-\boxed{
+\[
+\\boxed{
 CriticalUnknown
-\Rightarrow
+\\Rightarrow
 UNKNOWN/GAP
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 74. Completion State
+## 74. Completion State
 
 ```yaml
 completion_state:
@@ -3178,9 +3142,9 @@ completion_state:
     MODEL / CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
-# 75. Final Agent Contract
+## 75. Final Agent Contract
 
 `L01_SENSING_OBSERVATION/AGENTS.md` defines the bounded agent roles through which AMOS may establish contact with observable environment state.
 
@@ -3216,61 +3180,61 @@ THEREFORE IT IS REAL
 
 The governing L01 agent chain is:
 
-[
-\boxed{
+\[
+\\boxed{
 Environment
-\rightarrow
+\\rightarrow
 Channel
-\rightarrow
+\\rightarrow
 Agent
-\rightarrow
+\\rightarrow
 Observation
-\rightarrow
+\\rightarrow
 Typing
-\rightarrow
+\\rightarrow
 Provenance
-\rightarrow
+\\rightarrow
 Validation
-\rightarrow
+\\rightarrow
 GroundedInput
 }
-]
+\]
 
 with the mandatory boundaries:
 
-[
-\boxed{
-Observation \neq Inference
+\[
+\\boxed{
+Observation \\neq Inference
 }
-]
+\]
 
-[
-\boxed{
-Measurement \neq GroundTruth
+\[
+\\boxed{
+Measurement \\neq GroundTruth
 }
-]
+\]
 
-[
-\boxed{
-Capability \neq Authority
+\[
+\\boxed{
+Capability \\neq Authority
 }
-]
+\]
 
-[
-\boxed{
-AgentCount \neq IndependentEvidenceCount
+\[
+\\boxed{
+AgentCount \\neq IndependentEvidenceCount
 }
-]
+\]
 
 and:
 
-[
-\boxed{
+\[
+\\boxed{
 CriticalUnknown
-\Rightarrow
+\\Rightarrow
 UNKNOWN/GAP
 }
-]
+\]
 
 Until direct authoritative L01 agent canon, executable implementations, runtime authority bindings, sensing-channel evidence, and executed validation are established, the strongest warranted classification remains:
 
@@ -3278,30 +3242,33 @@ Until direct authoritative L01 agent canon, executable implementations, runtime 
 MODEL / CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · L01_SENSING_OBSERVATION — HML · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · L01_SENSING_OBSERVATION — RSCF · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[00_ROOT/00_HOME|00_HOME]] · 06-Knowledge-Base-MOC
 
 ```
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: l01_sensing_observation_primitives_cognitive_matrix_agents
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_AGENTS.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_MOC|L01_SENSING_OBSERVATION_MOC]]
-

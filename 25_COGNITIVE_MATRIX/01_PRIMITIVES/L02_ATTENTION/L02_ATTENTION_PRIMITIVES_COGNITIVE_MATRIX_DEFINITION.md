@@ -2,15 +2,15 @@
 type: definition
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION
 tags:
-- amos
-- cognitive-matrix
-- matrix/l02
-- attention
-- definition
-- rscf
-- hml
-- provenance
-- domain/cognitive-matrix
+  - amos
+  - cognitive-matrix
+  - matrix/l02
+  - attention
+  - definition
+  - rscf
+  - hml
+  - provenance
+  - domain/cognitive-matrix
 title: L02_ATTENTION — Definition
 origin_architect: Trang Phan
 status: MODEL_SPECIFICATION / UNVALIDATED
@@ -33,9 +33,9 @@ rscf:
 
 > **Integrity boundary:** available L02 material supports attention as an allocation function over scarce reasoning/observation resources. The detailed typed architecture below completes the contract as an AMOS model. It must not be represented as recovered canonical implementation unless direct source material establishes that status.
 
----
+______________________________________________________________________
 
-# 0. Purpose
+## 0. Purpose
 
 `L02_ATTENTION` defines the cognitive primitive responsible for selectively allocating finite cognitive processing resources among competing candidate targets.
 
@@ -71,9 +71,9 @@ What external effect should be committed?
 
 Those require other AMOS functions and/or control-plane validation.
 
----
+______________________________________________________________________
 
-# 1. Source / Canon References
+## 1. Source / Canon References
 
 ## 1.1 Source-supported primitive role
 
@@ -159,20 +159,20 @@ source_status:
     status: NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 2. Core Definition
+## 2. Core Definition
 
 `L02_ATTENTION` is the AMOS cognitive resource-selection layer that transforms a set of currently addressable cognitive targets into a bounded attention-allocation proposal subject to objectives, constraints, uncertainty, dependency structure, H/M/L scale, provenance, risk, and available cognitive budget.
 
 Formally, as an AMOS model:
 
-[
+\[
 L02:
 (X,G,B,C,U,P,HML)
-\rightarrow
+\\rightarrow
 A
-]
+\]
 
 where:
 
@@ -189,9 +189,9 @@ A    = proposed attention allocation
 
 This equation is an `AMOS_MODEL` representation, not a recovered empirical law.
 
----
+______________________________________________________________________
 
-# 3. Attention as Selection Under Scarcity
+## 3. Attention as Selection Under Scarcity
 
 If cognitive processing were unlimited, attention allocation would not require the same scarcity-governance function.
 
@@ -207,19 +207,19 @@ at least in some operating states.
 
 Candidate resource relation:
 
-[
+\[
 Demand_t > Capacity_t
-\Rightarrow
+\\Rightarrow
 SelectionRequired_t
-]
+\]
 
 The purpose of L02 is therefore not merely to identify salient information.
 
 It must govern **selective processing under finite resources**.
 
----
+______________________________________________________________________
 
-# 4. Attention Is Not Salience
+## 4. Attention Is Not Salience
 
 Salience is one possible input to attention.
 
@@ -247,9 +247,7 @@ A low-salience dependency may be critical to a decision.
 
 Candidate relationship:
 
-[
-AttentionPriority(x)
-====================
+## \[ AttentionPriority(x)
 
 f(
 GoalRelevance,
@@ -261,13 +259,13 @@ TimeSensitivity,
 Salience,
 Cost
 )
-]
+\]
 
 The exact canonical function is `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
-# 5. Attention Is Not Truth
+## 5. Attention Is Not Truth
 
 Attention changes processing allocation.
 
@@ -287,9 +285,9 @@ A false claim may deserve substantial attention because it is dangerous.
 
 A verified fact may require little additional attention because it is already stable.
 
----
+______________________________________________________________________
 
-# 6. Attention Is Not Importance
+## 6. Attention Is Not Importance
 
 Importance and attention should remain distinct.
 
@@ -314,9 +312,9 @@ processing it now has low information value
 
 Conversely, a small technical detail may receive high attention if it is a load-bearing dependency.
 
----
+______________________________________________________________________
 
-# 7. Attention Is Not Authority
+## 7. Attention Is Not Authority
 
 Attention determines or proposes where cognition should focus.
 
@@ -334,9 +332,9 @@ CAPABILITY != AUTHORITY
 
 A target may receive maximum attention while still being prohibited from producing an external effect.
 
----
+______________________________________________________________________
 
-# 8. Attention Is Not Commit
+## 8. Attention Is Not Commit
 
 L02 may produce:
 
@@ -368,9 +366,9 @@ COMMIT
 
 The exact canonical ownership of attention-state commit remains `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
-# 9. Scope
+## 9. Scope
 
 L02 applies to allocation among cognitive targets such as:
 
@@ -406,9 +404,9 @@ repair analysis
 cross-scale analysis
 ```
 
----
+______________________________________________________________________
 
-# 10. Out of Scope
+## 10. Out of Scope
 
 L02 does not independently own:
 
@@ -427,9 +425,9 @@ system-wide commit finality
 
 It may interact with these functions but must not silently absorb them.
 
----
+______________________________________________________________________
 
-# 11. Typed Inputs
+## 11. Typed Inputs
 
 ```yaml
 AttentionInput:
@@ -482,9 +480,9 @@ AttentionInput:
 
 Exact canonical field names remain unresolved.
 
----
+______________________________________________________________________
 
-# 12. Attention Candidate
+## 12. Attention Candidate
 
 Candidate model:
 
@@ -553,9 +551,9 @@ AttentionCandidate:
     type: HMLContext
 ```
 
----
+______________________________________________________________________
 
-# 13. Typed Outputs
+## 13. Typed Outputs
 
 ```yaml
 AttentionOutput:
@@ -599,9 +597,9 @@ AttentionOutput:
       - UNKNOWN_GAP
 ```
 
----
+______________________________________________________________________
 
-# 14. State Variables
+## 14. State Variables
 
 Candidate L02 state:
 
@@ -641,28 +639,26 @@ F_t       = deferred targets
 
 These are model variables.
 
----
+______________________________________________________________________
 
-# 15. Attention Budget
+## 15. Attention Budget
 
 Candidate contract:
 
-[
-B_{used} + B_{reserve} \le B_{total}
-]
+\[
+B\_{used} + B\_{reserve} \\le B\_{total}
+\]
 
 and:
 
-[
-B_{available}
-=============
+## \[ B\_{available}
 
-## B_{total}
+## B\_{total}
 
-## B_{used}
+## B\_{used}
 
-B_{reserve}
-]
+B\_{reserve}
+\]
 
 Hard rule:
 
@@ -685,15 +681,13 @@ human-review capacity
 
 No universal equivalence between these units is assumed.
 
----
+______________________________________________________________________
 
-# 16. Candidate Attention Priority
+## 16. Candidate Attention Priority
 
 A non-canonical model representation is:
 
-[
-Priority(x)
-===========
+## \[ Priority(x)
 
 f(
 G_x,
@@ -706,7 +700,7 @@ S_x,
 I_x,
 Cost_x
 )
-]
+\]
 
 where:
 
@@ -726,20 +720,18 @@ This is intentionally abstract.
 
 No exact weighting is claimed.
 
----
+______________________________________________________________________
 
-# 17. Hard-Invariant Admission
+## 17. Hard-Invariant Admission
 
 Attention allocation must not be governed by score alone.
 
 For candidate (x):
 
-[
-Admit(x)
-========
+## \[ Admit(x)
 
-\bigwedge_i HardInvariant_i(x)
-]
+\\bigwedge_i HardInvariant_i(x)
+\]
 
 Only after hard admission may optimization occur.
 
@@ -755,20 +747,18 @@ DO NOT ADMIT
 
 This prevents weighted optimization from compensating for prohibited conditions.
 
----
+______________________________________________________________________
 
-# 18. Objective Relevance
+## 18. Objective Relevance
 
 Attention should normally remain bound to the governing objective.
 
 Candidate relation:
 
-[
-Rel(x,G)
-========
+## \[ Rel(x,G)
 
-Relevance(x \mid G)
-]
+Relevance(x \\mid G)
+\]
 
 But objective relevance is not the only factor.
 
@@ -783,40 +773,40 @@ a governance condition
 a hidden failure source
 ```
 
----
+______________________________________________________________________
 
-# 19. Dependency Criticality
+## 19. Dependency Criticality
 
 A low-level detail may become attention-critical when many downstream conclusions depend on it.
 
 Candidate:
 
-[
+\[
 Criticality(x)
-\propto
+\\propto
 Impact(Descendants(x))
-]
+\]
 
 This is not necessarily equivalent to graph degree.
 
 The important property is **decision-changing dependency impact**.
 
----
+______________________________________________________________________
 
-# 20. Uncertainty Allocation
+## 20. Uncertainty Allocation
 
 Attention should increase where uncertainty reduction has positive expected decision value.
 
 Conceptually:
 
-[
+\[
 Attention(x)
-\uparrow
-\quad
-\text{when}
-\quad
-EV(\Delta U_x) > Cost(x)
-]
+\\uparrow
+\\quad
+\\text{when}
+\\quad
+EV(\\Delta U_x) > Cost(x)
+\]
 
 where:
 
@@ -828,9 +818,9 @@ expected decision value from reducing uncertainty
 
 This is an AMOS decision heuristic, not a canonical numerical law.
 
----
+______________________________________________________________________
 
-# 21. Attention and Falsification
+## 21. Attention and Falsification
 
 Attention should not only reinforce the leading hypothesis.
 
@@ -853,9 +843,9 @@ BUILD STRONGEST SUPPORTED CONCLUSION
 ALLOCATE ATTENTION TO BREAK IT
 ```
 
----
+______________________________________________________________________
 
-# 22. Attention and Provenance
+## 22. Attention and Provenance
 
 Evidence repetition should not automatically receive additional epistemic weight.
 
@@ -878,9 +868,9 @@ three independent confirmations
 
 Attention may still be distributed across them for comparison, but provenance independence must remain explicit.
 
----
+______________________________________________________________________
 
-# 23. Attention and Scope
+## 23. Attention and Scope
 
 Every target should inherit or carry an applicability envelope where relevant.
 
@@ -897,9 +887,9 @@ scope_envelope:
 
 Attention to evidence in one scope does not automatically justify transferring conclusions outside that scope.
 
----
+______________________________________________________________________
 
-# 24. Attention and Regime
+## 24. Attention and Regime
 
 Attention allocation should respond to regime change.
 
@@ -924,9 +914,9 @@ REASSESS ATTENTION PRIORITIES
 
 because previously low-priority constraints may become load-bearing.
 
----
+______________________________________________________________________
 
-# 25. Temporal Attention
+## 25. Temporal Attention
 
 L02 must distinguish:
 
@@ -952,9 +942,9 @@ dependency_order
 future_option_loss
 ```
 
----
+______________________________________________________________________
 
-# 26. H/M/L Applicability
+## 26. H/M/L Applicability
 
 L02 operates recursively across H/M/L.
 
@@ -1002,9 +992,9 @@ Which test?
 Which dependency?
 ```
 
----
+______________________________________________________________________
 
-# 27. H/M/L Conservation Rule
+## 27. H/M/L Conservation Rule
 
 Local attention must not silently redefine higher-level objectives.
 
@@ -1024,19 +1014,19 @@ every low-level detail deserves equal attention
 
 Candidate hierarchy:
 
-[
+\[
 Goal_H
-\rightarrow
+\\rightarrow
 Priority_M
-\rightarrow
+\\rightarrow
 Allocation_L
-]
+\]
 
 with upward invalidation when lower-level evidence falsifies a higher-level premise.
 
----
+______________________________________________________________________
 
-# 28. Cross-Scale Escalation
+## 28. Cross-Scale Escalation
 
 Escalate from L → M or M → H when:
 
@@ -1051,9 +1041,9 @@ resource exhaustion affects global objective
 
 Do not escalate merely because a target is difficult.
 
----
+______________________________________________________________________
 
-# 29. Operators
+## 29. Operators
 
 Candidate L02 operators:
 
@@ -1085,9 +1075,9 @@ REPAIR()
 
 Exact canonical operator vocabulary is `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
-# 30. Core Invariants
+## 30. Core Invariants
 
 ```text
 L02-INV-001
@@ -1151,9 +1141,9 @@ L02-INV-020
 Attention allocation must remain provenance-recoverable where consequential.
 ```
 
----
+______________________________________________________________________
 
-# 31. Dependencies
+## 31. Dependencies
 
 ## Upstream
 
@@ -1201,9 +1191,9 @@ metacognition
 
 Exact cognitive-matrix ordering beyond available source material must not be invented.
 
----
+______________________________________________________________________
 
-# 32. Control-Plane Requirements
+## 32. Control-Plane Requirements
 
 L02 cognition should remain distinct from authoritative control.
 
@@ -1237,9 +1227,9 @@ COGNITIVE PREFERENCE
 CONTROL AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 33. Agents
+## 33. Agents
 
 Logical L02 roles may include:
 
@@ -1259,9 +1249,9 @@ These names represent candidate logical roles.
 
 They are not proof that canonical AMOS requires separate deployed agents.
 
----
+______________________________________________________________________
 
-# 34. Skills
+## 34. Skills
 
 Potentially relevant AMOS skills:
 
@@ -1280,9 +1270,9 @@ AMOS RSCF Modeler
 
 Skill availability does not imply automatic authority.
 
----
+______________________________________________________________________
 
-# 35. Primary Workflow
+## 35. Primary Workflow
 
 ```text
 1. RECEIVE candidate targets
@@ -1331,9 +1321,9 @@ Skill availability does not imply automatic authority.
 16. REALLOCATE when decision-changing state changes
 ```
 
----
+______________________________________________________________________
 
-# 36. Adaptive Complexity Workflow
+## 36. Adaptive Complexity Workflow
 
 L02 should not spend maximum resources on every task.
 
@@ -1367,17 +1357,17 @@ explicit user requirement
 
 De-escalate after outcome-changing uncertainty is resolved.
 
----
+______________________________________________________________________
 
-# 37. Attention Reserve
+## 37. Attention Reserve
 
 A system allocating 100% of available capacity to known targets may become brittle.
 
 Candidate rule:
 
-[
-B_{reserve} > 0
-]
+\[
+B\_{reserve} > 0
+\]
 
 when operating conditions justify reserve capacity.
 
@@ -1395,33 +1385,31 @@ tool failure
 
 The exact reserve policy is `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
-# 38. Reallocation
+## 38. Reallocation
 
 Attention must remain adaptive.
 
 Candidate transition:
 
-[
-A_{t+1}
-=======
+## \[ A\_{t+1}
 
 Reallocate(
 A_t,
-\Delta Evidence,
-\Delta Goal,
-\Delta Risk,
-\Delta Uncertainty,
-\Delta Regime
+\\Delta Evidence,
+\\Delta Goal,
+\\Delta Risk,
+\\Delta Uncertainty,
+\\Delta Regime
 )
-]
+\]
 
 Reallocation should occur when new information materially changes the expected value of continued processing.
 
----
+______________________________________________________________________
 
-# 39. Stop Condition
+## 39. Stop Condition
 
 Attention allocation should terminate or de-escalate when additional processing no longer has sufficient expected value.
 
@@ -1441,9 +1429,9 @@ STOP / DE-ESCALATE
 
 This avoids infinite analysis.
 
----
+______________________________________________________________________
 
-# 40. Protocols
+## 40. Protocols
 
 Candidate L02 protocol objects:
 
@@ -1502,9 +1490,9 @@ AttentionProtocolEnvelope:
       - RELEASED
 ```
 
----
+______________________________________________________________________
 
-# 41. Evidence / Provenance
+## 41. Evidence / Provenance
 
 Every consequential allocation should preserve enough provenance to answer:
 
@@ -1536,11 +1524,9 @@ What later changed it?
 
 Candidate provenance tensor:
 
-[
-P_{L02}
-=======
+## \[ P\_{L02}
 
-T[
+T\[
 target,
 source,
 objective,
@@ -1552,12 +1538,12 @@ agent,
 budget,
 allocation,
 time
-]
-]
+\]
+\]
 
----
+______________________________________________________________________
 
-# 42. Uncertainty Vector
+## 42. Uncertainty Vector
 
 Material L02 uncertainty may be separated into:
 
@@ -1588,26 +1574,26 @@ uncertainty:
 
 Attention should preferentially reduce uncertainty that can change the decision.
 
----
+______________________________________________________________________
 
-# 43. Confidence Ceiling
+## 43. Confidence Ceiling
 
-For an attention conclusion \(C\):
+For an attention conclusion (C):
 
-[
+\[
 Conf(C)
-\le
-\min_i Conf(P_i)
-]
+\\le
+\\min_i Conf(P_i)
+\]
 
-where \(P_i\) are load-bearing premises.
+where (P_i) are load-bearing premises.
 
 Example:
 
-[
+\[
 Conf(Allocate(x))
-\le
-\min(
+\\le
+\\min(
 Conf(G),
 Conf(B),
 Conf(D_x),
@@ -1615,7 +1601,7 @@ Conf(C),
 Conf(Scope),
 Conf(Regime)
 )
-]
+\]
 
 Missing load-bearing evidence must produce:
 
@@ -1625,9 +1611,9 @@ UNKNOWN/GAP
 
 or conditional allocation, not fabricated certainty.
 
----
+______________________________________________________________________
 
-# 44. Failure Modes
+## 44. Failure Modes
 
 ```text
 FM-L02-001  Salience Capture
@@ -1662,9 +1648,9 @@ FM-L02-029  Under-Validation
 FM-L02-030  Global Recompute After Local Failure
 ```
 
----
+______________________________________________________________________
 
-# 45. Failure Example — Salience Capture
+## 45. Failure Example — Salience Capture
 
 ```text
 highly visible event
@@ -1690,9 +1676,9 @@ re-score candidate set
 reserve attention for non-salient critical items
 ```
 
----
+______________________________________________________________________
 
-# 46. Failure Example — Rabbit Hole
+## 46. Failure Example — Rabbit Hole
 
 ```text
 interesting local detail
@@ -1719,9 +1705,9 @@ If no:
 DEFER / RELEASE ATTENTION
 ```
 
----
+______________________________________________________________________
 
-# 47. Failure Example — Confirmation Attention
+## 47. Failure Example — Confirmation Attention
 
 ```text
 leading hypothesis
@@ -1745,9 +1731,9 @@ seek strongest competing explanation
 seek cheapest discriminating evidence
 ```
 
----
+______________________________________________________________________
 
-# 48. Repair / Recovery
+## 48. Repair / Recovery
 
 General L02 repair:
 
@@ -1777,33 +1763,33 @@ REALLOCATE
 REVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 49. Selective Invalidation
+## 49. Selective Invalidation
 
 If premise (p) becomes invalid:
 
-[
+\[
 Invalid(p)
-\Rightarrow
+\\Rightarrow
 Invalidate(Descendants(p))
-]
+\]
 
 not:
 
-[
+\[
 Invalid(p)
-\Rightarrow
+\\Rightarrow
 Invalidate(All)
-]
+\]
 
 unless the entire attention state actually depends on (p).
 
 This preserves unaffected work.
 
----
+______________________________________________________________________
 
-# 50. Rollback
+## 50. Rollback
 
 Rollback should return to the nearest valid attention state.
 
@@ -1821,9 +1807,9 @@ REPLAY FROM CHANGED PREMISE
 
 Rollback must not erase provenance of the failed path.
 
----
+______________________________________________________________________
 
-# 51. Tests / Validators
+## 51. Tests / Validators
 
 Required model validators:
 
@@ -1848,9 +1834,9 @@ VALIDATE_REPAIR
 VALIDATE_STOP_CONDITION
 ```
 
----
+______________________________________________________________________
 
-# 52. Minimum Test Suite
+## 52. Minimum Test Suite
 
 ```text
 TEST-L02-001
@@ -1914,9 +1900,9 @@ TEST-L02-020
 No implementation claim is made without executable evidence.
 ```
 
----
+______________________________________________________________________
 
-# 53. Adversarial Tests
+## 53. Adversarial Tests
 
 Test L02 against:
 
@@ -1941,9 +1927,9 @@ memory-driven distraction
 external-effect smuggling
 ```
 
----
+______________________________________________________________________
 
-# 54. Falsifiers
+## 54. Falsifiers
 
 This definition must be revised if:
 
@@ -1966,9 +1952,9 @@ executable runtime demonstrates incompatible semantics
 formal analysis identifies contradictory invariants
 ```
 
----
+______________________________________________________________________
 
-# 55. Competing Definitions
+## 55. Competing Definitions
 
 Because direct detailed canon is incomplete, preserve alternatives.
 
@@ -2007,9 +1993,9 @@ with controlled extension toward `COMPETING_003`.
 
 Do not collapse these until direct canon discriminates them.
 
----
+______________________________________________________________________
 
-# 56. Gap Matrix
+## 56. Gap Matrix
 
 ```yaml
 gap_matrix:
@@ -2118,9 +2104,9 @@ gap_matrix:
     status: MODEL_COMPLETE_UNEXECUTED
 ```
 
----
+______________________________________________________________________
 
-# 57. Cheapest Discriminating Evidence
+## 57. Cheapest Discriminating Evidence
 
 Highest-value retrieval sequence:
 
@@ -2146,9 +2132,9 @@ The cheapest decisive question is:
 
 Until answered, broader cognitive scheduling remains `MODEL`.
 
----
+______________________________________________________________________
 
-# 58. RSCF Completion State
+## 58. RSCF Completion State
 
 ```yaml
 rscf:
@@ -2261,9 +2247,9 @@ rscf:
     scope is perceptual-only or general scarce cognitive-resource allocation
 ```
 
----
+______________________________________________________________________
 
-# 59. Completion State
+## 59. Completion State
 
 ```yaml
 completion_state:
@@ -2344,9 +2330,9 @@ completion_state:
     MODEL / CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
-# 60. Hard Boundaries
+## 60. Hard Boundaries
 
 ```text
 PLACEHOLDER != IMPLEMENTED
@@ -2410,9 +2396,9 @@ MODEL DEFINITION != CANONICAL DEFINITION
 IMPLEMENTED != VALIDATED
 ```
 
----
+______________________________________________________________________
 
-# 61. References
+## 61. References
 
 ```text
 PLACEHOLDER
@@ -2449,15 +2435,15 @@ Cosmo_Brain_BRIDGE_INDEX
 Cosmo_Brain_BRIDGE_INDEX
 ```
 
----
+______________________________________________________________________
 
-# 62. Governing Definition
+## 62. Governing Definition
 
 > **L02_ATTENTION is the AMOS cognitive primitive for allocating scarce reasoning and observation resources among competing targets. It determines what deserves additional cognitive processing under an active objective, finite budget, dependencies, uncertainty, constraints, provenance, scope, regime, and H/M/L context. Attention changes processing allocation; it does not by itself establish truth, importance, causation, authority, memory admission, or permission to act.**
 
----
+______________________________________________________________________
 
-# 63. Canon Boundary
+## 63. Canon Boundary
 
 The strongest currently supportable statement is:
 
@@ -2495,23 +2481,27 @@ VERIFIED CANON
 
 This version deliberately keeps the **narrow-vs-broad attention scope unresolved**. That is the most important gap to close before promoting `L02_ATTENTION/DEFINITION.md` from model completion toward canonical status.
 ```
----
+
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: l02_attention_primitives_cognitive_matrix_definition
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION/L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_DEFINITION.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION/L02_ATTENTION_MOC|L02_ATTENTION_MOC]]
-

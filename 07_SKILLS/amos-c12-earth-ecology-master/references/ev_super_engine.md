@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: ev super engine
 type: reference
 source: 07_SKILLS/amos-c12-earth-ecology-master/references
 tags:
-- reference
-- amos-c12-earth-ecology-master
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-c12-earth-ecology-master
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -20,14 +23,9 @@ rscf:
 > Source: `_00_Cosmo brain/engine/E/EV_SUPER_Engine.md`
 > Epistemic class: SOURCE_DERIVED
 
----
-canon-group: meta
-canon-type: framework
-rscf-state: source-claim
-topic: ev-super-engine
-tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/ev-super-engine, engine]
-created: 2026-08-22
----
+______________________________________________________________________
+
+## canon-group: meta canon-type: framework rscf-state: source-claim topic: ev-super-engine tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/ev-super-engine, engine] created: 2026-08-22
 
 ```json
 {
@@ -124,10 +122,9 @@ created: 2026-08-22
 -
 ```
 
----
+______________________________________________________________________
 
-**Related:** [[07_SKILLS/amos-c12-earth-ecology-master/amos-c12-earth-ecology-master_MOC|amos-c12-earth-ecology-master_MOC]]
----
+## **Related:** [[07_SKILLS/amos-c12-earth-ecology-master/amos-c12-earth-ecology-master_MOC|amos-c12-earth-ecology-master_MOC]]
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -135,13 +132,14 @@ created: 2026-08-22
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-c12-earth-ecology-master-ev-super-engine
 node_type: reference
 path: 07_SKILLS/amos-c12-earth-ecology-master/references/ev_super_engine.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC
-

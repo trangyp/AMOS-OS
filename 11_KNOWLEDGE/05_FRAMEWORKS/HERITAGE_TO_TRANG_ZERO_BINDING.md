@@ -12,25 +12,25 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: BINDING
 path: 11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_TO_TRANG_ZERO_BINDING.md
 tags:
-- amos-os
-- knowledge
-- vault
-- 05_frameworks
-- heritage_zero_binding
-- trang_zero
-- heritage
-- null_state_ground
-- invariant_root
-- anti_autopoisoning
-- rscf
-- canon_candidate
-- canon/knowledge
-- heritage-intelligence-master
-- trang-zero-framework
-- heritage-x-trang-zero
-- heritage-x-trang-zero-matrix
-- trang-reality-architecture
-- heritage-zero-framework
+  - amos-os
+  - knowledge
+  - vault
+  - 05_frameworks
+  - heritage_zero_binding
+  - trang_zero
+  - heritage
+  - null_state_ground
+  - invariant_root
+  - anti_autopoisoning
+  - rscf
+  - canon_candidate
+  - canon/knowledge
+  - heritage-intelligence-master
+  - trang-zero-framework
+  - heritage-x-trang-zero
+  - heritage-x-trang-zero-matrix
+  - trang-reality-architecture
+  - heritage-zero-framework
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -45,27 +45,27 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - HERITAGE_INTELLIGENCE_CANON
-  - TRANG_ZERO_FRAMEWORK_CANON
-  - AMOS_CORPUS
+    - HERITAGE_INTELLIGENCE_CANON
+    - TRANG_ZERO_FRAMEWORK_CANON
+    - AMOS_CORPUS
   scope:
-  - KNOWLEDGE_FRAMEWORKS
-  - FRAMEWORK_BINDINGS
-  - SOURCE_DEFINED_MODEL
+    - KNOWLEDGE_FRAMEWORKS
+    - FRAMEWORK_BINDINGS
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   source_framework:
     name: Heritage Decision Intelligence™
     artifact:
-    - - HERITAGE_INTELLIGENCE_MASTER
+      -   - HERITAGE_INTELLIGENCE_MASTER
   target_framework:
     name: Trang ∅ / Trang Zero Framework
     artifact:
-    - - TRANG_ZERO_FRAMEWORK
+      -   - TRANG_ZERO_FRAMEWORK
   cognitive_matrix_binding:
     artifact:
-    - - HERITAGE_X_TRANG_ZERO
+      -   - HERITAGE_X_TRANG_ZERO
     matrix:
-    - - HERITAGE_X_TRANG_ZERO_MATRIX
+      -   - HERITAGE_X_TRANG_ZERO_MATRIX
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   binding_structure: VERIFIED_SOURCE_STRUCTURE
@@ -77,9 +77,9 @@ epistemic_boundary:
 
 `HERITAGE_TO_TRANG_ZERO_BINDING.md` is the canonical Knowledge Plane reference artifact specifying the grounding of **Heritage Decision Intelligence™** into the absolute invariant null-state anchor of **Trang ∅ (Trang Zero Framework)** within `11_KNOWLEDGE/05_FRAMEWORKS`.
 
----
+______________________________________________________________________
 
-# 1. Structural Binding: Null Anchor & Anti-Autopoisoning
+## 1. Structural Binding: Null Anchor & Anti-Autopoisoning
 
 ```text
 PROPOSED DECISION / POLICY / ACTION
@@ -94,18 +94,18 @@ TRANG ∅ INVARIANT AUDIT
 HERITAGE DECISION VERIFICATION (Pass/Hold/Refuse)
 ```
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Frameworks:** [[11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_INTELLIGENCE_MASTER|HERITAGE_INTELLIGENCE_MASTER]] and [[01_CANON/02_UNIVERSE_CANON/TRANG_ZERO_FRAMEWORK|TRANG_ZERO_FRAMEWORK]]
 - **Cognitive Matrix:** [[25_COGNITIVE_MATRIX/HERITAGE_X_TRANG_ZERO|HERITAGE_X_TRANG_ZERO]] and [[25_COGNITIVE_MATRIX/HERITAGE_X_TRANG_ZERO_MATRIX|HERITAGE_X_TRANG_ZERO_MATRIX]]
 - **Ontological Grounding:** [[11_KNOWLEDGE/trang/TRANG_REALITY_ARCHITECTURE|TRANG_REALITY_ARCHITECTURE]]
 - **Zero Framework Detail:** [[11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_ZERO_FRAMEWORK|HERITAGE_ZERO_FRAMEWORK]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -125,9 +125,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_INTELLIGENCE_MASTER|HERITAGE_INTELLIGENCE_MASTER]] · [[01_CANON/02_UNIVERSE_CANON/TRANG_ZERO_FRAMEWORK|TRANG_ZERO_FRAMEWORK]] · [[25_COGNITIVE_MATRIX/HERITAGE_X_TRANG_ZERO|HERITAGE_X_TRANG_ZERO]]
 
----
+______________________________________________________________________
+
 **MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]

@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Vault Domain Knowledge — Amos Semantic Grounding Auditor
 type: reference
 source: 07_SKILLS/amos-semantic-grounding-auditor/references
 tags:
-- reference
-- amos-semantic-grounding-auditor
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-semantic-grounding-auditor
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -27,14 +30,13 @@ rscf:
 
 > Path: `dated/2026-08-22/2026-08-22-ArenaSim-Resource-Consumption-Semantic-Types.md` | Size: 36424 chars | Match score: 7 | content_hash: 6792fec113e6fa9d
 
-# ArenaSim — Resource Consumption Across AMOS Semantic Types
-
+## ArenaSim — Resource Consumption Across AMOS Semantic Types
 
 semantic type's resource consumption (time, memory, social bandwidth) under
 competitive pressure. Founding claim: semantic type distinctions (MODEL ≠ ENGINE
-≠ AGENT ≠ PROTOCOL) produce empirically distinct resource consumption signatures.*
+≠ AGENT ≠ PROTOCOL) produce empirically distinct resource consumption signatures.\*
 
----
+______________________________________________________________________
 
 ## tl;dr
 
@@ -60,71 +62,79 @@ Plus: Arena Composition Algebra v2 (`cosmo/composition_algebra_v2.py`, 272 lines
 formalises all three type-pair compositions. KEY FINDING: each type pair produces a unique
 composition signature; composition is NOT commutative.
 
----
+______________________________________________________________________
 
 ## The 7+ Arenas
 
-| Arena Class | AMOS Semantic Type | Competitive Regime | What It Tests |
-|:------------|:-------------------|:-------------------|:--------------|
-| `MarketArena` | MODEL | Order book, price/volume/volatility | Do MODEL arenas consume zero social bandwidth? |
-| `EcoArena` | MODEL | Organisms, energy, births/deaths | Does population survive under resource constraints? |
-| `EcoSystemArena` | MODEL + PROTOCOL (alliances) | Ecology + social hierarchy + alliances | Does social bandwidth emerge when alliances are added? |
-| `CivilArena` | ENGINE | 5 institutions with authority/knowledge/rules | Does ENGINE produce the highest memory consumption? |
-| `NetworkArena` | PROTOCOL | Nodes, edges, messages, bandwidth | Does PROTOCOL produce moderate social bandwidth? |
-| `DecisionArena` | AGENT | Weighted voting, authority+knowledge | Does AGENT produce the highest time consumption? |
-| `CollectiveArena` | AGENT | Specializations, shared memory, tasks | Does AGENT produce the highest social bandwidth? |
-| `HybridArena` | MODEL + AGENT | Ecology competition + agent specialization | Does MODEL substrate boost AGENT social? (Answer: YES, ×2) |
-| `CivilizationWithSpecialists` | ENGINE + AGENT | Institutions + specialization + shared memory | Does ENGINE structure constrain AGENT time? (Answer: YES, -14%) |
-| `NetworkedEcology` | PROTOCOL + MODEL | Ecology competition + network message passing | Does PRO
+| Arena Class                   | AMOS Semantic Type           | Competitive Regime                            | What It Tests                                                   |
+| :---------------------------- | :--------------------------- | :-------------------------------------------- | :-------------------------------------------------------------- |
+| `MarketArena`                 | MODEL                        | Order book, price/volume/volatility           | Do MODEL arenas consume zero social bandwidth?                  |
+| `EcoArena`                    | MODEL                        | Organisms, energy, births/deaths              | Does population survive under resource constraints?             |
+| `EcoSystemArena`              | MODEL + PROTOCOL (alliances) | Ecology + social hierarchy + alliances        | Does social bandwidth emerge when alliances are added?          |
+| `CivilArena`                  | ENGINE                       | 5 institutions with authority/knowledge/rules | Does ENGINE produce the highest memory consumption?             |
+| `NetworkArena`                | PROTOCOL                     | Nodes, edges, messages, bandwidth             | Does PROTOCOL produce moderate social bandwidth?                |
+| `DecisionArena`               | AGENT                        | Weighted voting, authority+knowledge          | Does AGENT produce the highest time consumption?                |
+| `CollectiveArena`             | AGENT                        | Specializations, shared memory, tasks         | Does AGENT produce the highest social bandwidth?                |
+| `HybridArena`                 | MODEL + AGENT                | Ecology competition + agent specialization    | Does MODEL substrate boost AGENT social? (Answer: YES, ×2)      |
+| `CivilizationWithSpecialists` | ENGINE + AGENT               | Institutions + specialization + shared memory | Does ENGINE structure constrain AGENT time? (Answer: YES, -14%) |
+| `NetworkedEcology`            | PROTOCOL + MODEL             | Ecology competition + network message passing | Does PRO                                                        |
 
----
+______________________________________________________________________
 
 ### Source 2: Dual-Canon Grounding System — Session Completion Note (2026-08-25)
 
 > Path: `dated/2026-08-25/2026-08-25-dual-canon-grounding-system.md` | Size: 2395 chars | Match score: 7 | content_hash: 89489c2d7a350289
 
-# Dual-Canon Grounding System — Session Completion Note (2026-08-25)
+## Dual-Canon Grounding System — Session Completion Note (2026-08-25)
 
 ## What was built (this workstream, all committed)
 
 ### Executables (cosmo-brain/)
-| Module | Role | Self-test |
-|---|---|---|
-| `AMOS_quantum_canon_gate.py` | O1 quantum grounding: ~50 keywords → 75-entry library v0.8.0, rarest-first merge, frontier rule | 10/10 |
-| `AMOS_fractal_math_canon_gate.py` | O1b fractal/math: 25-family FractalAtlas + DMER scenario simulation | 13/13 |
-| `UBCAR_Router.py` (extended) | routes queries; O1/O1b receipts in provenance + output | 8/8 |
-| `AMOS_LLM_OPERATOR_PIPELINE.py` (extended) | STAGE 4.5 + 4.6 gates; FG-*/QG-* claims; DMER verdicts → GMEF Stage 5 | 11/11 |
+
+| Module                                     | Role                                                                                            | Self-test |
+| ------------------------------------------ | ----------------------------------------------------------------------------------------------- | --------- |
+| `AMOS_quantum_canon_gate.py`               | O1 quantum grounding: ~50 keywords → 75-entry library v0.8.0, rarest-first merge, frontier rule | 10/10     |
+| `AMOS_fractal_math_canon_gate.py`          | O1b fractal/math: 25-family FractalAtlas + DMER scenario simulation                             | 13/13     |
+| `UBCAR_Router.py` (extended)               | routes queries; O1/O1b receipts in provenance + output                                          | 8/8       |
+| `AMOS_LLM_OPERATOR_PIPELINE.py` (extended) | STAGE 4.5 + 4.6 gates; FG-*/QG-* claims; DMER verdicts → GMEF Stage 5                           | 11/11     |
 
 ### Library
+
 - v0.7.0: ZNE/PEC/QLDPC (error mitigation + FT economics)
 - v0.8.0: Jarzynski/Crooks, Sagawa-Ueda Maxwell demon, ergotropy/quantum batteries (thermodynamics family 3→6)
 - Approved index regenerated: 75 quantum + 22 foundational = 97 entries
 
 ### Agents / Workflows / Skills
+
 - Agents: quantum-canon-gate (v2.0), fractal-math-canon-gate, quantum-knowledge-engineer, quantum-error-mitigation
 - Workflow: dual-canon-grounding (5 phases incl. dynamics escalation table)
 - Skills: ubcar-router, fractal-math-engine (FR table aligned to atlas authority), quantum-knowledge-pipeline (v2.1)
 
 ## Key data-integrity corrections
+
 1. **FR ID authority**: executable `fractal_atlas.py` is canonical (FR019=Logistic, FR016=fBm); skill tables had drifted and were rewritten to match.
-2. **3 latent pipeline bugs** exposed by first real failure-record population: integrity_recovery arity, recovery dict keys (`I_after_recorded`), FailureRecord attr-vs-dict access in synthesis.
-3. **Keyword starvation fix** in quantum gate: rarest-first bucket ordering after 'surface code' (7 hits) crowded out 'ldpc'.
+1. **3 latent pipeline bugs** exposed by first real failure-record population: integrity_recovery arity, recovery dict keys (`I_after_recorded`), FailureRecord attr-vs-dict access in synthesis.
+1. **Keyword starvation fix** in quantum gate: rarest-first bucket ordering after 'surface code' (7 hits) crowded out 'ldpc'.
 
 ## Verification matrix (final state)
+
 Gates 10+13 · UBCAR 8 · Pipeline 11/11 · MURK 10 · DMER 21 · TS vitest 1142/1142 · turbo type-check 17/17 · test 9/9 · lint 6/6 · build 5/5
 
 ## Commit chain (this workstream)
+
 5e36e46 → aad3623 → 5e8f26a → 8c3b7ae → 1edfcdb → 3c06290 → 0ce6330 → ff20a59 → 8c3b7ae-line → 39ce307 → 5971cef → 2371370 → de395f7 → 73736ce → 256d128 → 0b0d1cc → (MOC) → (max-power sync)
 
----
+______________________________________________________________________
 
----
+______________________________________________________________________
+
 **MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -132,12 +142,14 @@ Gates 10+13 · UBCAR 8 · Pipeline 11/11 · MURK 10 · DMER 21 · TS vitest 1142
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-semantic-grounding-auditor-vault-domain-knowledge
 node_type: reference
 path: 07_SKILLS/amos-semantic-grounding-auditor/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

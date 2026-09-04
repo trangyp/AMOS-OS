@@ -1,11 +1,14 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: 19 C09 Org Law Policy MOC
 type: moc
 source: 21_DOMAINS/19_C09_ORG_LAW_POLICY
 tags:
-- 19-c09-org-law-policy
-- canon/domain
-- c09-org-law-policy-domains-domain-spec
+  - 19-c09-org-law-policy
+  - canon/domain
+  - c09-org-law-policy-domains-domain-spec
 moc: true
 rscf:
   state: DERIVED
@@ -16,18 +19,49 @@ rscf:
 
 # 19 C09 Org Law Policy — Map of Content
 
-**Path:** `21_DOMAINS/19_C09_ORG_LAW_POLICY`
-**Files:** 3 | **Subdirectories:** 1
+## 0. Status
+Domains-plane artifact. AMOS_MODEL · CONDITIONAL · implementation PARTIAL.
 
-## Files
+## 1. Purpose
+`19 C09 ORG LAW POLICY MOC` defines policy artifact — governs admissibility within declared scope and epochs, serving the Domains plane's obligation: C-family domain engine mappings (C01–C12) onto the OS planes.
 
-- [[21_DOMAINS/19_C09_ORG_LAW_POLICY/C09_ORG_LAW_POLICY_DOMAINS_DOMAIN_SPEC|C09_ORG_LAW_POLICY_DOMAINS_DOMAIN_SPEC]]
-- [[21_DOMAINS/19_C09_ORG_LAW_POLICY/C09_ORG_LAW_POLICY_DOMAINS_README|C09_ORG_LAW_POLICY_DOMAINS_README]]
-- [[21_DOMAINS/19_C09_ORG_LAW_POLICY/DOMAINS_C09_ORG_LAW_POLICY_CONTRACT|DOMAINS_C09_ORG_LAW_POLICY_CONTRACT]]
+## 2. Semantics
+- Every load-bearing field is typed; unknown values are recorded as `UNKNOWN/GAP`, never invented.
+- Scope and regime are declared on every claim; cross-regime transfer requires an explicit bridge.
+- Confidence ceiling 0.95; conclusion confidence ≤ weakest load-bearing premise.
 
-## Subdirectories
+## 3. Failure modes guarded
+STALE_READ · SCOPE_LEAK · REGIME_DRIFT · CONFIDENCE_INFLATION · AUTHORITY_ESCALATION · PROVENANCE_LOSS · SILENT_PARTIAL_COMMIT · UNKNOWN_AS_VALID.
 
-- [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]] — 00_INDEX
+## 4. Validation
+No artifact-specific executor yet; executed OS validators exist as pattern ([[ROUTING_POLICY_VALIDATION_RECEIPT]] · [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]). Required tests before promotion: identity, type-contract, negative-case (missing/malformed/stale input), authority boundary, rollback.
 
----
-**Parent:** [[21_DOMAINS/21_DOMAINS_MOC|21_DOMAINS_MOC]]
+## 5. Gaps
+Implementation binding, empirical validation, and cross-artifact consistency checks remain OPEN (UNKNOWN/GAP).
+
+## 6. Falsifiers
+F1: canonical source contradicts declared semantics. F2: executed test violates a stated invariant. F3: artifact promotes UNKNOWN to PASS.
+## Worked semantics
+Given an operation touching `19 C09 ORG LAW POLICY MOC` within the Domains plane:
+1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
+2. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
+3. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
+4. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
+5. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
+6. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
+
+## Promotion-gate checklist
+- [ ] typed schema bound to this artifact
+- [ ] identity + versioning implemented
+- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
+- [ ] provenance edges persisted and validated
+- [ ] rollback basin demonstrated for consequential effects
+- [ ] executed validation receipt specific to this artifact
+- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
+
+## Cross-plane bindings
+- Governed by canon — [[01_CANON_README]] · [[LAW_HIERARCHY]]
+- Kernel interaction — [[KERNEL_README]]
+- Control-plane gates — [[CONTROL_PLANE_README]]
+- Observed by — [[17_OBSERVABILITY_README]] · never treated as authority
+- Recovered via operations — [[20_OPERATIONS_README]]

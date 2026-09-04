@@ -12,19 +12,19 @@ segment: 03_CONTROL_PLANE/09_COMMIT
 artifact_kind: NOTE
 path: 03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX/MODE_DISCOVERY_QUEUE.md
 tags:
-- 00_mode_index
-- 09_commit
-- amos-os
-- canon/control-plane
-- canon/universe
-- commit
-- control-plane
-- discovery
-- mode_index
-- note
-- queue
-- rscf
-- placeholder_expanded
+  - 00_mode_index
+  - 09_commit
+  - amos-os
+  - canon/control-plane
+  - canon/universe
+  - commit
+  - control-plane
+  - discovery
+  - mode_index
+  - note
+  - queue
+  - rscf
+  - placeholder_expanded
 version: 0.2.0
 updated: '2026-08-27'
 status: PLACEHOLDER_EXPANDED
@@ -101,7 +101,7 @@ Origin architect / steward: **Trang Phan**
 
 System: **AMOS OS**
 
----
+______________________________________________________________________
 
 # AMOS OS — Mode Discovery Queue
 
@@ -115,9 +115,9 @@ System: **AMOS OS**
 >
 > **Artifact:** `MODE_DISCOVERY_QUEUE.md`
 
----
+______________________________________________________________________
 
-# 0. PURPOSE
+## 0. PURPOSE
 
 `MODE_DISCOVERY_QUEUE` is the governed AMOS OS artifact whose purpose is to stage candidate modes discovered from runtime observation, architecture analysis, or governance request before they enter the mode admission process.
 
@@ -131,17 +131,17 @@ It does **not** grant authority.
 
 It does **not** silently conflate specification with executable runtime.
 
----
+______________________________________________________________________
 
-# 1. CORE LAW
+## 1. CORE LAW
 
 ```text
 DISCOVERED IS NOT ADMITTED.
 ```
 
----
+______________________________________________________________________
 
-# 2. FUNDAMENTAL DISTINCTIONS
+## 2. FUNDAMENTAL DISTINCTIONS
 
 ```text
 OBSERVED_BEHAVIOR != DECLARED_MODE
@@ -157,35 +157,35 @@ SIMILAR_TO_EXISTING != EQUIVALENT_TO_EXISTING
 DISCOVERY_EVIDENCE != ADMISSION_EVIDENCE
 ```
 
----
+______________________________________________________________________
 
-# 3. WHY THIS ARTIFACT EXISTS
+## 3. WHY THIS ARTIFACT EXISTS
 
 Without `MODE_DISCOVERY_QUEUE`, AMOS mode governance would be forced to infer candidate mode staging and admission ordering from implicit conventions, file names, or model-generated interpretations.
 
 This artifact makes the governing structure explicit and auditable.
 
----
+______________________________________________________________________
 
-# 4. 3. Discovery Sources
+## 4. 3. Discovery Sources
 
 Runtime telemetry, architecture review, governance request.
 
----
+______________________________________________________________________
 
-# 5. 4. Queue State Machine
+## 5. 4. Queue State Machine
 
 UNREVIEWED, EVIDENCE_GATHERING, ADMISSION_READY, REJECTED, DEFERRED.
 
----
+______________________________________________________________________
 
-# 6. 5. Evidence Requirements
+## 6. 5. Evidence Requirements
 
 Identity, purpose, scope, provenance, contradiction, authority.
 
----
+______________________________________________________________________
 
-# 9. TESTS AND FALSIFIERS
+## 9. TESTS AND FALSIFIERS
 
 `MODE_DISCOVERY_QUEUE` is falsified if any of the following occur:
 
@@ -195,9 +195,9 @@ Identity, purpose, scope, provenance, contradiction, authority.
 - It accepts a claim as proven without a corresponding evidence artifact.
 - It permits cyclic, stale, or unbounded governance without detection.
 
----
+______________________________________________________________________
 
-# 10. STATUS PRESERVATION
+## 10. STATUS PRESERVATION
 
 This artifact remains `CANDIDATE_CANON / DERIVED` until:
 
@@ -206,24 +206,28 @@ This artifact remains `CANDIDATE_CANON / DERIVED` until:
 - formal verification and empirical validation evidence are attached;
 - the relevant supersession and source registry entries are updated.
 
-# END — MODE_DISCOVERY_QUEUE
+## END — MODE_DISCOVERY_QUEUE
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: mode_discovery_queue
 node_type: note
 path: 03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX/MODE_DISCOVERY_QUEUE.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX/00_MODE_INDEX_MOC|00_MODE_INDEX_MOC]]

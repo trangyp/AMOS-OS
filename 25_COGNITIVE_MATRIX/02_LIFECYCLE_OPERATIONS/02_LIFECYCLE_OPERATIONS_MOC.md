@@ -1,10 +1,13 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: 02 Lifecycle Operations MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS
 tags:
-- 02-lifecycle-operations
-- domain/cognitive-matrix
+  - 02-lifecycle-operations
+  - domain/cognitive-matrix
 moc: true
 rscf:
   state: DERIVED
@@ -44,5 +47,6 @@ rscf:
 - [[25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O15_OBSERVATION/O15_OBSERVATION_MOC|O15_OBSERVATION_MOC]] — O15_OBSERVATION
 - [[25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O16_LEARNING/O16_LEARNING_MOC|O16_LEARNING_MOC]] — O16_LEARNING
 
----
+______________________________________________________________________
+
 **Parent:** [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]

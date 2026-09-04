@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: qfm consolidation
 type: reference
 source: 07_SKILLS/amos-formal-engines-master/references
 tags:
-- reference
-- amos-formal-engines-master
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-formal-engines-master
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -20,28 +23,24 @@ rscf:
 > Source: `_00_Cosmo brain/qfm/qfm-max-power-consolidation.md`
 > Epistemic class: SOURCE_CANON
 
----
-title: qfm-max-power-consolidation
-description: Max-power QFM consolidation note — documents the fusion of L0 MECE substrate + L1 quantum library + L2 bridges + L3 A-matrix + L4 collapse + L5 enforcement into a single 9-phase pipeline. Tracks versions, backends, and cross-links.
-version: 2.0.0
-created: 2026-08-25
-tags: [canon-group/quantum-fractal-math, canon/framework, rscf/claim, qfm]
----
+______________________________________________________________________
 
-# QFM Max-Power Consolidation — part 2
+## title: qfm-max-power-consolidation description: Max-power QFM consolidation note — documents the fusion of L0 MECE substrate + L1 quantum library + L2 bridges + L3 A-matrix + L4 collapse + L5 enforcement into a single 9-phase pipeline. Tracks versions, backends, and cross-links. version: 2.0.0 created: 2026-08-25 tags: [canon-group/quantum-fractal-math, canon/framework, rscf/claim, qfm]
+
+## QFM Max-Power Consolidation — part 2
 
 ## Status
 
-| Component | Version | Backend | Verified |
-|-----------|---------|---------|----------|
-| Quantum Library | v0.7.0 | `AMOS_quantum_library_integration.py` | 72/72 parse, injection OK |
-| Fractal Atlas | v1.0.0 | `fractal_atlas.py` | FR001-FR025 loaded |
-| DMER Kernel | v2.0.0 | `dmer_kernel.py` | 21/21 tests pass |
-| QFM Atlas | v1.0.0 | `qfm_atlas.py` | 225k+ entries queryable |
-| MECE Substrate | v3.1.0-X1000 | `UniPower_UniTaxi_MECE_X1000.md` | 5 domains × 10 modules |
-| A-Matrix Dynamics | v1.0.0 | `amos-a-matrix-system-dynamics` | 48 edges, 5 clusters |
-| Tensor Framework | v1.0.0 | `amos-tensor-composition-governance` | 4 tensor types |
-| Equation Firewall | v1.0.0 | `amos-equation-firewall` | EQR validation |
+| Component         | Version      | Backend                               | Verified                  |
+| ----------------- | ------------ | ------------------------------------- | ------------------------- |
+| Quantum Library   | v0.7.0       | `AMOS_quantum_library_integration.py` | 72/72 parse, injection OK |
+| Fractal Atlas     | v1.0.0       | `fractal_atlas.py`                    | FR001-FR025 loaded        |
+| DMER Kernel       | v2.0.0       | `dmer_kernel.py`                      | 21/21 tests pass          |
+| QFM Atlas         | v1.0.0       | `qfm_atlas.py`                        | 225k+ entries queryable   |
+| MECE Substrate    | v3.1.0-X1000 | `UniPower_UniTaxi_MECE_X1000.md`      | 5 domains × 10 modules    |
+| A-Matrix Dynamics | v1.0.0       | `amos-a-matrix-system-dynamics`       | 48 edges, 5 clusters      |
+| Tensor Framework  | v1.0.0       | `amos-tensor-composition-governance`  | 4 tensor types            |
+| Equation Firewall | v1.0.0       | `amos-equation-firewall`              | EQR validation            |
 
 ## Architecture
 
@@ -64,19 +63,19 @@ Cross-Cutting       → Claim/Evidence/Governance/Fractal tensors + G11 tensor g
 
 ## New Artifacts (this session)
 
-| Artifact | Type | Size |
-|----------|------|------|
-| `amos-qfm-max-power` | Skill | 9.5KB |
-| `amos-quantum-fractal-math-max-power` | Skill | 13.8KB |
-| `amos-mece-quantum-fractal-router` | Skill | 7.1KB |
-| `qfm-five-layer-max-power` | Workflow | 5.0KB |
-| `amos-qfm-max-power` | Workflow | 4.0KB |
-| `quantum-fractal-math-max-power` | Workflow | 7.9KB |
-| `amos-mece-quantum-fractal-router` | Workflow | 2.4KB |
-| `amos-qfm-max-power-agent` | Agent | 2.6KB |
-| `amos-qfm-five-layer-max-power-router-agent` | Agent | 2.2KB |
-| `amos-quantum-fractal-math-max-power-agent` | Agent | 2.7KB |
-| `amos-mece-quantum-fractal-router-agent` | Agent | 1.6KB |
+| Artifact                                     | Type     | Size   |
+| -------------------------------------------- | -------- | ------ |
+| `amos-qfm-max-power`                         | Skill    | 9.5KB  |
+| `amos-quantum-fractal-math-max-power`        | Skill    | 13.8KB |
+| `amos-mece-quantum-fractal-router`           | Skill    | 7.1KB  |
+| `qfm-five-layer-max-power`                   | Workflow | 5.0KB  |
+| `amos-qfm-max-power`                         | Workflow | 4.0KB  |
+| `quantum-fractal-math-max-power`             | Workflow | 7.9KB  |
+| `amos-mece-quantum-fractal-router`           | Workflow | 2.4KB  |
+| `amos-qfm-max-power-agent`                   | Agent    | 2.6KB  |
+| `amos-qfm-five-layer-max-power-router-agent` | Agent    | 2.2KB  |
+| `amos-quantum-fractal-math-max-power-agent`  | Agent    | 2.7KB  |
+| `amos-mece-quantum-fractal-router-agent`     | Agent    | 1.6KB  |
 
 ## Cross-links
 
@@ -93,12 +92,13 @@ Cross-Cutting       → Claim/Evidence/Governance/Fractal tensors + G11 tensor g
 - `brain-consistency-audit.py` → RESULT OK (466 skills, 0 empty, 0 broken MOC links, 0 unregistered agents)
 - `brain-integrity-repair.py` → 0 agents added (already clean)
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · unipower-unitaxi-mece · amos-tech-quantum-engine-layer · fractal-cognitive-architecture
 
----
-**MOC:** references_MOC
----
+______________________________________________________________________
+
+## **MOC:** references_MOC
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -106,12 +106,14 @@ Cross-Cutting       → Claim/Evidence/Governance/Fractal tensors + G11 tensor g
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-formal-engines-master-qfm-consolidation
 node_type: reference
 path: 07_SKILLS/amos-formal-engines-master/references/qfm_consolidation.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

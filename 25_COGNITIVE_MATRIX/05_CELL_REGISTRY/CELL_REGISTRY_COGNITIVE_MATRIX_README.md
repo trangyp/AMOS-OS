@@ -1,14 +1,17 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: CELL REGISTRY COGNITIVE MATRIX README
 type: cognitive
 source: 25_COGNITIVE_MATRIX/05_CELL_REGISTRY
 tags:
-- cognitive-matrix
-- cell_registry
-- readme
-- contract_filled
-- domain/cognitive-matrix
-- trang-framework-recursive-ontology-dynamics
+  - cognitive-matrix
+  - cell_registry
+  - readme
+  - contract_filled
+  - domain/cognitive-matrix
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -60,13 +63,13 @@ confidence_ceiling: 0.6   # contract-only status: no implementation, no validati
 
 ## Gap matrix
 
-| Surface | Status |
-|---|---|
-| Definition/contract | FILLED (this pass) |
-| Executable implementation | UNKNOWN/GAP |
-| Validation evidence | UNKNOWN/GAP |
-| Authority binding | UNKNOWN/GAP |
-| Runtime integration | UNKNOWN/GAP |
+| Surface                   | Status             |
+| ------------------------- | ------------------ |
+| Definition/contract       | FILLED (this pass) |
+| Executable implementation | UNKNOWN/GAP        |
+| Validation evidence       | UNKNOWN/GAP        |
+| Authority binding         | UNKNOWN/GAP        |
+| Runtime integration       | UNKNOWN/GAP        |
 
 ```text
 CONTRACT_FILLED != IMPLEMENTED
@@ -75,20 +78,22 @@ MODEL != VERIFIED
 UNKNOWN/GAP != PASS
 ```
 
----
+______________________________________________________________________
 
 [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: cell_registry_infrastructure_readme
 node_type: note
 path: 25_COGNITIVE_MATRIX/05_CELL_REGISTRY/05_CELL_REGISTRY_COGNITIVE_MATRIX_README.md
 claim_class: DERIVED
 
----
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/05_CELL_REGISTRY/05_CELL_REGISTRY_MOC|05_CELL_REGISTRY_MOC]]
 
----
-**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+______________________________________________________________________
 
+**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

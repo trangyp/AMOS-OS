@@ -1,4 +1,7 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: AMOS KERNEL CONFIG KERNEL
 type: kernel
 source: 11_KNOWLEDGE/kernel
@@ -7,16 +10,16 @@ canon-type: framework
 rscf-state: source-claim
 topic: amos-kernel-config
 tags:
-- canon-group/tech-ai
-- canon/framework
-- rscf/claim
-- rscf/provenance
-- rscf/state/source-claim
-- topic/amos-kernel-config
-- kernel
-- system-scan-agent
-- automation-profiles
-- amos-simulation-kernel-v0-math-foundations
+  - canon-group/tech-ai
+  - canon/framework
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - topic/amos-kernel-config
+  - kernel
+  - system-scan-agent
+  - automation-profiles
+  - amos-simulation-kernel-v0-math-foundations
 created: 2026-08-22
 rscf:
   state: SOURCE_CLAIM
@@ -27,7 +30,7 @@ rscf:
 
 # AMOS KERNEL CONFIG KERNEL
 
-```json
+````json
 {
   "config_name": "AMOS_KERNEL_CONFIG",
   "version": "1.0.0",
@@ -348,4 +351,4 @@ rscf:
 
 ---
 **MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]
-```
+````

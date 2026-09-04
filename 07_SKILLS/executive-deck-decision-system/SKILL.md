@@ -4,25 +4,22 @@ title: SKILL — Executive Deck Decision System
 type: skill
 source: 07_SKILLS/executive-deck-decision-system
 name: executive-deck-decision-system
-description: Executive Deck Decision System — strategy and game theory capability.
-  Use when strategic analysis, game theory, or competitive reasoning. Use when amos-c08-strategy-game-master
-  routes to this specialized capability. Do not use for generic tasks outside c08
-  domain.
+description: Executive Deck Decision System — strategy and game theory capability. Use when strategic analysis, game theory, or competitive reasoning. Use when amos-c08-strategy-game-master routes to this specialized capability. Do not use for generic tasks outside c08 domain.
 parent_skill: amos-c08-strategy-game-master
 domain: c08
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
 tags:
-- type/skill
-- type/skill
-- domain/strategy-game
-- epistemic/source_claim
-- hml/m
-- epistemic/source_claim
-- amos-os
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/strategy-game
+  - epistemic/source_claim
+  - hml/m
+  - epistemic/source_claim
+  - amos-os
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -32,23 +29,23 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: M
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
-- L7_authority
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
+  - L7_authority
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L7
-- L16
-- L17
-- L18
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L7
+  - L16
+  - L17
+  - L18
 license: MIT
 steward: Trang Phan
 ---
@@ -58,6 +55,7 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: c08. Parent: amos-c08-strategy-game-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
 ## When to Use
 
 - When analyzing strategic position and competitive landscape
@@ -77,6 +75,7 @@ Origin architect: **Trang Phan**. Domain: c08. Parent: amos-c08-strategy-game-ma
 - **executive_deck.assess_risk**: Assess strategic risk: downside scenarios, adversarial responses, black swans
 
 > **Reference**: See `references/vault_domain_knowledge.md` (content_hash: bbf4188f2b149fe5) for the full vault-sourced domain knowledge (9587 chars).
+
 - **executive_deck.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
 - **executive_deck.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **executive_deck.validate_outputs**: Validate outputs against domain constraints and epistemic class.
@@ -84,12 +83,12 @@ Origin architect: **Trang Phan**. Domain: c08. Parent: amos-c08-strategy-game-ma
 ## Operations
 
 1. **executive_deck.analyze_strategy**: Analyze strategic position: competitive landscape, game-theoretic equilibrium
-2. **executive_deck.evaluate_decision**: Evaluate decisions under uncertainty: expected value, regret, risk-adjusted return
-3. **executive_deck.model_game**: Model game-theoretic interactions: players, strategies, payoffs, equilibria
-4. **executive_deck.assess_risk**: Assess strategic risk: downside scenarios, adversarial responses, black swans
-5. **executive_deck.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-6. **executive_deck.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
-7. **executive_deck.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+1. **executive_deck.evaluate_decision**: Evaluate decisions under uncertainty: expected value, regret, risk-adjusted return
+1. **executive_deck.model_game**: Model game-theoretic interactions: players, strategies, payoffs, equilibria
+1. **executive_deck.assess_risk**: Assess strategic risk: downside scenarios, adversarial responses, black swans
+1. **executive_deck.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+1. **executive_deck.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+1. **executive_deck.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## 11_KNOWLEDGE Vault Content
 
@@ -100,6 +99,7 @@ Origin architect: **Trang Phan**. Domain: c08. Parent: amos-c08-strategy-game-ma
 From C08 Strategy & Game: Executive decision-making and communication.
 
 **Executive deck principles**:
+
 - **Pyramid principle**: conclusion first, then supporting arguments, then evidence
 - **One message per slide**: each slide communicates one key message
 - **Action title**: slide title states the conclusion, not the topic
@@ -107,12 +107,13 @@ From C08 Strategy & Game: Executive decision-making and communication.
 - **Decision-oriented**: deck drives toward a decision, not just information
 
 **Decision system**:
+
 1. **Frame**: frame the decision context and stakes
-2. **Options**: present 2-3 viable options
-3. **Evaluate**: evaluate each option against criteria
-4. **Recommend**: recommend one option with justification
-5. **Risk**: present key risks and mitigations
-6. **Next steps**: present concrete next steps
+1. **Options**: present 2-3 viable options
+1. **Evaluate**: evaluate each option against criteria
+1. **Recommend**: recommend one option with justification
+1. **Risk**: present key risks and mitigations
+1. **Next steps**: present concrete next steps
 
 **Law**: `DECK != DECISION`. A deck supports a decision; it does not make the decision. The decision authority rests with the executive.
 
@@ -140,9 +141,10 @@ The executive deck decision system is a communication tool. It does not prove th
 ## Provenance
 
 - **Skill**: `executive-deck-decision-system`
-- **Parent**: `amos-c
+- **Parent**: \`amos-c
 
----
+______________________________________________________________________
+
 **Links:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 ## Related
@@ -152,17 +154,19 @@ The executive deck decision system is a communication tool. It does not prove th
 ## Examples
 
 - **Scenario**: When analyzing strategic position and competitive landscape
+
   - **Input**: A query matching this skill's domain (c08)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When evaluating decisions under uncertainty: expected value, regret
+
   - **Input**: A query matching this skill's domain (c08)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When modeling game-theoretic interactions and equilibria
+
   - **Input**: A query matching this skill's domain (c08)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Anti-Patterns
 
@@ -172,7 +176,6 @@ The executive deck decision system is a communication tool. It does not prove th
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `amos-c08-strategy-game-master` — routes to this skill when c08 specialization is needed
@@ -180,7 +183,6 @@ The executive deck decision system is a communication tool. It does not prove th
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -199,7 +201,6 @@ The executive deck decision system is a communication tool. It does not prove th
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -207,7 +208,6 @@ The executive deck decision system is a communication tool. It does not prove th
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -220,11 +220,12 @@ The executive deck decision system is a communication tool. It does not prove th
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `amos-c08-strategy-game-master` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `executive-deck-decision-system-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -232,12 +233,14 @@ The executive deck decision system is a communication tool. It does not prove th
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: executive-deck-decision-system
 node_type: skill
 path: 07_SKILLS/executive-deck-decision-system/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

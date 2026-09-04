@@ -20,20 +20,20 @@ status: active
 conclusion_class: AMOS_MODEL
 source_status: SOURCE_CLAIM
 tags:
-- canon-group/tech-ai
-- knowledge
-- vault
-- canon/protocol
-- rscf/claim
-- rscf/provenance
-- rscf/state/observation
-- topic/agent-schema-full
-- architecture
-- memory
-- skill
-- validation
+  - canon-group/tech-ai
+  - knowledge
+  - vault
+  - canon/protocol
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/observation
+  - topic/agent-schema-full
+  - architecture
+  - memory
+  - skill
+  - validation
 aliases:
-- AGENT_SCHEMA - AMOS Agent Schema - Unified Agent Construction Schema
+  - AGENT_SCHEMA - AMOS Agent Schema - Unified Agent Construction Schema
 governing_law: integrity > completeness > fluency > speed > token savings
 rscf:
   state: SOURCE_CLAIM
@@ -76,9 +76,9 @@ IDENTITY
 + VERSIONING
 ```
 
----
+______________________________________________________________________
 
-# 0. VERSION / LINEAGE MODEL
+## 0. VERSION / LINEAGE MODEL
 
 The schema has three separate version axes:
 
@@ -134,9 +134,9 @@ SchemaValid
 ∧ RollbackAvailable
 ```
 
----
+______________________________________________________________________
 
-# 1. DESIGN PRINCIPLES
+## 1. DESIGN PRINCIPLES
 
 ## 1.1 Capability is not authority
 
@@ -178,9 +178,9 @@ CommittedEffect
 
 A generated answer or tool proposal becomes an effect only after applicable gates pass.
 
----
+______________________________________________________________________
 
-# 2. H / M / L [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]
+## 2. H / M / L [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]
 
 ```text
 H — Agent sovereignty
@@ -219,21 +219,21 @@ Hard invariant:
 L-level execution cannot silently redefine H-level authority.
 ```
 
----
+______________________________________________________________________
 
-# 3. EXTERNALIZATION MODEL
+## 3. EXTERNALIZATION MODEL
 
 AMOS separates agent cognition into explicit artifacts:
 
-| Cognitive burden | Correct externalization target |
-|---|---|
-| transient one-turn information | CONTEXT |
-| persistent user/system state | MEMORY |
-| reusable procedure | SKILL |
-| cross-agent/tool interaction contract | PROTOCOL |
-| deterministic computation | CODE |
-| external action interface | TOOL |
-| permissions / sandbox / approval | HARNESS_POLICY |
+| Cognitive burden                      | Correct externalization target |
+| ------------------------------------- | ------------------------------ |
+| transient one-turn information        | CONTEXT                        |
+| persistent user/system state          | MEMORY                         |
+| reusable procedure                    | SKILL                          |
+| cross-agent/tool interaction contract | PROTOCOL                       |
+| deterministic computation             | CODE                           |
+| external action interface             | TOOL                           |
+| permissions / sandbox / approval      | HARNESS_POLICY                 |
 
 ## 3.1 Externalization tensor
 
@@ -262,9 +262,9 @@ DeterministicComputation → CODE
 OneOffFact → CONTEXT
 ```
 
----
+______________________________________________________________________
 
-# 4. ROOT AGENT OBJECT
+## 4. ROOT AGENT OBJECT
 
 ```yaml
 AGENT:
@@ -295,9 +295,9 @@ AGENT:
   versioning: {}
 ```
 
----
+______________________________________________________________________
 
-# 5. IDENTITY CONTRACT
+## 5. IDENTITY CONTRACT
 
 ```yaml
 identity:
@@ -325,9 +325,9 @@ identity:
     - "Agent must preserve its configured role and scope."
 ```
 
----
+______________________________________________________________________
 
-# 6. OBJECTIVE CONTRACT
+## 6. OBJECTIVE CONTRACT
 
 ```yaml
 objective:
@@ -359,9 +359,9 @@ must not replace
 LockedUserObjective
 ```
 
----
+______________________________________________________________________
 
-# 7. SCOPE CONTRACT
+## 7. SCOPE CONTRACT
 
 ```yaml
 scope:
@@ -390,9 +390,9 @@ ScopeMatch
 ∧ RegimeMatch
 ```
 
----
+______________________________________________________________________
 
-# 8. AUTHORITY CONTRACT
+## 8. AUTHORITY CONTRACT
 
 The source v2 schema lacked a first-class authority model. v3 adds one.
 
@@ -442,9 +442,9 @@ AuthorizedAtCommitTime
 
 High-impact effects require fresh authority at commit.
 
----
+______________________________________________________________________
 
-# 9. CAPABILITY PROFILE
+## 9. CAPABILITY PROFILE
 
 ```yaml
 capabilities:
@@ -490,9 +490,9 @@ Capability:
   provenance:
 ```
 
----
+______________________________________________________________________
 
-# 10. LANGUAGE / PERSONA
+## 10. LANGUAGE / PERSONA
 
 ```yaml
 language_persona:
@@ -517,9 +517,9 @@ language_persona:
 
 Persona must not override Safety, Authority, or Evidence.
 
----
+______________________________________________________________________
 
-# 11. INPUT CONTRACT
+## 11. INPUT CONTRACT
 
 ```yaml
 input_contract:
@@ -548,9 +548,9 @@ input_contract:
     require_explicit_when_decision_relevant: true
 ```
 
----
+______________________________________________________________________
 
-# 12. CONTEXT PRIORITY
+## 12. CONTEXT PRIORITY
 
 Governed resolution:
 
@@ -572,9 +572,9 @@ Defaults
 
 Priority does not permit violation of higher-order safety or authority constraints.
 
----
+______________________________________________________________________
 
-# 13. OUTPUT CONTRACT
+## 13. OUTPUT CONTRACT
 
 ```yaml
 output_contract:
@@ -599,9 +599,9 @@ output_contract:
     enabled: true
 ```
 
----
+______________________________________________________________________
 
-# 14. EPISTEMIC CLASSES
+## 14. EPISTEMIC CLASSES
 
 ```text
 SOURCE_CLAIM
@@ -624,9 +624,9 @@ min(Conf(load-bearing premises))
 
 unless independently revalidated.
 
----
+______________________________________________________________________
 
-# 15. PROVENANCE CONTRACT
+## 15. PROVENANCE CONTRACT
 
 ```yaml
 provenance:
@@ -659,9 +659,9 @@ IndependentConfirmation
 
 Aliases, summaries, copies, and transformations retain ancestry.
 
----
+______________________________________________________________________
 
-# 16. MEMORY CONTRACT
+## 16. MEMORY CONTRACT
 
 ```yaml
 memory:
@@ -695,9 +695,9 @@ Memory may inform proposal.
 Memory must not silently authorize irreversible action.
 ```
 
----
+______________________________________________________________________
 
-# 17. SKILL CONTRACT
+## 17. SKILL CONTRACT
 
 ```yaml
 skills:
@@ -715,9 +715,9 @@ skills:
     rule: "Skill capability does not grant execution authority."
 ```
 
----
+______________________________________________________________________
 
-# 18. TOOL CONTRACT
+## 18. TOOL CONTRACT
 
 ```yaml
 tools:
@@ -739,9 +739,9 @@ tools:
     result_schema_checked: true
 ```
 
----
+______________________________________________________________________
 
-# 19. READ / WRITE SETS
+## 19. READ / WRITE SETS
 
 ```yaml
 transaction:
@@ -761,9 +761,9 @@ StaleRead
 => NoFinalCommit
 ```
 
----
+______________________________________________________________________
 
-# 20. SESSION CONTROL PLANE
+## 20. SESSION CONTROL PLANE
 
 ```yaml
 session:
@@ -787,9 +787,9 @@ session:
   rollback_pointer: null
 ```
 
----
+______________________________________________________________________
 
-# 21. INFORMATION BOUNDARY
+## 21. INFORMATION BOUNDARY
 
 ```yaml
 information_boundary:
@@ -817,9 +817,9 @@ does not imply
 AllowedCumulatively
 ```
 
----
+______________________________________________________________________
 
-# 22. IP / PRIVACY
+## 22. IP / PRIVACY
 
 ```yaml
 ip_privacy:
@@ -845,9 +845,9 @@ IP policy
 cryptographic secrecy
 ```
 
----
+______________________________________________________________________
 
-# 23. SAFETY CONTRACT
+## 23. SAFETY CONTRACT
 
 ```yaml
 safety:
@@ -863,9 +863,9 @@ safety:
     offer_safe_alternative: true
 ```
 
----
+______________________________________________________________________
 
-# 24. RISK CONTRACT
+## 24. RISK CONTRACT
 
 ```yaml
 risk:
@@ -893,9 +893,9 @@ risk:
     - escalate
 ```
 
----
+______________________________________________________________________
 
-# 25. RUNTIME STATE MACHINE
+## 25. RUNTIME STATE MACHINE
 
 ```text
 CREATED
@@ -919,9 +919,9 @@ TERMINATED
 
 Invalid transitions fail closed.
 
----
+______________________________________________________________________
 
-# 26. RESPONSE PIPELINE
+## 26. RESPONSE PIPELINE
 
 ```text
 INPUT
@@ -961,9 +961,9 @@ FRESHNESS
 COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 27. RSCF CONTRACT
+## 27. RSCF CONTRACT
 
 ```yaml
 RSCF:
@@ -985,9 +985,9 @@ RSCF:
   status:
 ```
 
----
+______________________________________________________________________
 
-# 28. DEPENDENCY GRAPH
+## 28. DEPENDENCY GRAPH
 
 ```text
 Identity
@@ -1012,9 +1012,9 @@ Identity
           └── Commit Gate
 ```
 
----
+______________________________________________________________________
 
-# 29. SELECTIVE INVALIDATION
+## 29. SELECTIVE INVALIDATION
 
 ```text
 Invalid(p)
@@ -1035,9 +1035,9 @@ stale memory
 → invalidate memory-derived preferences only
 ```
 
----
+______________________________________________________________________
 
-# 30. COMPETING HYPOTHESES
+## 30. COMPETING HYPOTHESES
 
 ```yaml
 COMPETING:
@@ -1054,9 +1054,9 @@ COMPETING:
 
 Do not force convergence solely for fluency.
 
----
+______________________________________________________________________
 
-# 31. CAUSAL FIREWALL
+## 31. CAUSAL FIREWALL
 
 ```text
 association
@@ -1073,9 +1073,9 @@ causal_effect
 
 No promotion without evidence appropriate to the target type.
 
----
+______________________________________________________________________
 
-# 32. OBSERVABILITY
+## 32. OBSERVABILITY
 
 ```yaml
 observability:
@@ -1104,9 +1104,9 @@ evidence, and decision factors.
 Do not export hidden chain-of-thought.
 ```
 
----
+______________________________________________________________________
 
-# 33. AUDIT
+## 33. AUDIT
 
 ```yaml
 audit:
@@ -1144,9 +1144,9 @@ audit:
     - rollback_defined
 ```
 
----
+______________________________________________________________________
 
-# 34. MECE REQUIREMENTS
+## 34. MECE REQUIREMENTS
 
 ```text
 Every capability
@@ -1165,9 +1165,9 @@ interactions:
   - output
 ```
 
----
+______________________________________________________________________
 
-# 35. VALIDATION SUITE
+## 35. VALIDATION SUITE
 
 Minimum deterministic schema tests:
 
@@ -1198,9 +1198,9 @@ T23 high-stakes escalation works
 T24 migration v2 → v3 preserves source fields
 ```
 
----
+______________________________________________________________________
 
-# 36. MIGRATION FROM v2.0.0-full
+## 36. MIGRATION FROM v2.0.0-full
 
 ```text
 Load(v2)
@@ -1234,25 +1234,25 @@ Commit(v3)
 
 ## 36.1 Source field mapping
 
-| v2 field | v3 location |
-|---|---|
-| `identity` | `identity` |
-| `role_and_scope` | `objective` + `scope` |
-| `capability_profile` | `capabilities` |
-| `language_and_persona` | `language_persona` |
-| `ip_and_privacy` | `ip_privacy` + `information_boundary` |
-| `boundaries_and_safety` | `safety` + `risk` |
-| `input_contract` | `input_contract` |
-| `output_contract` | `output_contract` |
-| `assembly_hooks` | `skills` + `tools` + `dependencies` |
-| `audit_and_mece` | `audit` + `validation` |
-| `runtime_behaviour` | `runtime` |
-| `logging_and_traceability` | `observability` + `provenance` |
-| `instance_notes` | `lifecycle` |
+| v2 field                   | v3 location                           |
+| -------------------------- | ------------------------------------- |
+| `identity`                 | `identity`                            |
+| `role_and_scope`           | `objective` + `scope`                 |
+| `capability_profile`       | `capabilities`                        |
+| `language_and_persona`     | `language_persona`                    |
+| `ip_and_privacy`           | `ip_privacy` + `information_boundary` |
+| `boundaries_and_safety`    | `safety` + `risk`                     |
+| `input_contract`           | `input_contract`                      |
+| `output_contract`          | `output_contract`                     |
+| `assembly_hooks`           | `skills` + `tools` + `dependencies`   |
+| `audit_and_mece`           | `audit` + `validation`                |
+| `runtime_behaviour`        | `runtime`                             |
+| `logging_and_traceability` | `observability` + `provenance`        |
+| `instance_notes`           | `lifecycle`                           |
 
----
+______________________________________________________________________
 
-# 37. FACTORY / ASSEMBLY CONTRACT
+## 37. FACTORY / ASSEMBLY CONTRACT
 
 ```yaml
 assembly:
@@ -1281,9 +1281,9 @@ assembly:
     - audit_report
 ```
 
----
+______________________________________________________________________
 
-# 38. DEPENDENCY REGISTRY
+## 38. DEPENDENCY REGISTRY
 
 The source references:
 
@@ -1298,9 +1298,9 @@ and optional domain engines / country overlays.
 
 These remain `SOURCE_REFERENCES` until existence and compatibility are independently inspected.
 
----
+______________________________________________________________________
 
-# 39. COUNTRY OVERLAYS
+## 39. COUNTRY OVERLAYS
 
 ```yaml
 CountryOverlay:
@@ -1322,9 +1322,9 @@ cannot override
 higher-order safety or authority constraints.
 ```
 
----
+______________________________________________________________________
 
-# 40. DOMAIN ENGINE CONTRACT
+## 40. DOMAIN ENGINE CONTRACT
 
 ```yaml
 DomainEngine:
@@ -1345,9 +1345,9 @@ Domain logic belongs in domain engines.
 
 Cross-domain governance belongs in the AMOS control plane.
 
----
+______________________________________________________________________
 
-# 41. AGENT INSTANCE LIFECYCLE
+## 41. AGENT INSTANCE LIFECYCLE
 
 ```yaml
 lifecycle:
@@ -1370,9 +1370,9 @@ lifecycle:
     retirement_date:
 ```
 
----
+______________________________________________________________________
 
-# 42. RECOVERY
+## 42. RECOVERY
 
 ```text
 Failure
@@ -1392,9 +1392,9 @@ Resume
 
 Global reset is last resort.
 
----
+______________________________________________________________________
 
-# 43. FAILURE REGISTRY
+## 43. FAILURE REGISTRY
 
 ```text
 F01 OBJECTIVE_DRIFT
@@ -1417,9 +1417,9 @@ F17 PERSONA_OVERRIDE
 F18 HIDDEN_REASONING_DISCLOSURE
 ```
 
----
+______________________________________________________________________
 
-# 44. GOVERNED AGENT EQUATION
+## 44. GOVERNED AGENT EQUATION
 
 Conceptual AMOS model:
 
@@ -1437,9 +1437,9 @@ where:
 
 Class: `AMOS_MODEL`
 
----
+______________________________________________________________________
 
-# 45. ACTION COMMIT EQUATION
+## 45. ACTION COMMIT EQUATION
 
 ```text
 Commit(effect)
@@ -1460,9 +1460,9 @@ Any hard gate failure:
 → REJECT or QUARANTINE
 ```
 
----
+______________________________________________________________________
 
-# 46. RSCF NODE
+## 46. RSCF NODE
 
 ```yaml
 node_id: AMOS_AGENT_SCHEMA_V3
@@ -1509,9 +1509,9 @@ confidence_ceiling:
   runtime_enforcement: implementation_dependent
 ```
 
----
+______________________________________________________________________
 
-# 47. CHANGELOG
+## 47. CHANGELOG
 
 ## v3.0.0 — 2026-08-25
 
@@ -1562,9 +1562,9 @@ confidence_ceiling:
 - traceability;
 - instance notes.
 
----
+______________________________________________________________________
 
-# 48. FULL MACHINE-READABLE v3 SCHEMA
+## 48. FULL MACHINE-READABLE v3 SCHEMA
 
 ```json
 {
@@ -1764,15 +1764,15 @@ confidence_ceiling:
 }
 ```
 
----
+______________________________________________________________________
 
-# 49. PRESERVED SOURCE CONTRACT
+## 49. PRESERVED SOURCE CONTRACT
 
 The original `2.0.0-full` schema remains the provenance source for this version. Its major concepts are preserved through the migration table above rather than silently discarded.
 
----
+______________________________________________________________________
 
-# 50. FINAL AMOS POSITION
+## 50. FINAL AMOS POSITION
 
 The strongest form of `AGENT_SCHEMA` is not:
 
@@ -1812,27 +1812,30 @@ The third invariant is:
 
 > **Agent behavior may be adaptive; governance of consequential effects must remain explicit, typed, and revalidated at commit time.**
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · 06-Knowledge-Base-MOC · AMOS_Simulation_Kernel_v0_Math_Foundations · system_scan_agent · automation_profiles
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: agent_schema
 node_type: note
 path: 11_KNOWLEDGE/AGENT_SCHEMA.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]]
-

@@ -2,14 +2,14 @@
 type: cognitive
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION
 tags:
-- amos
-- cognitive-matrix
-- matrix/l02
-- attention
-- equations
-- rscf
-- hml
-- domain/cognitive-matrix
+  - amos
+  - cognitive-matrix
+  - matrix/l02
+  - attention
+  - equations
+  - rscf
+  - hml
+  - domain/cognitive-matrix
 title: L02_ATTENTION — Equations
 origin_architect: Trang Phan
 status: MODEL_SPECIFICATION / UNVALIDATED
@@ -32,9 +32,9 @@ rscf:
 
 > **Canon boundary:** Available L02 material establishes attention allocation over scarce reasoning/observation resources. It does not, from the currently resolved evidence, establish a canonical mathematical attention equation. Accordingly, equations introduced specifically to formalize L02 below are `AMOS_MODEL` unless explicitly marked otherwise.
 
----
+______________________________________________________________________
 
-# 0. Purpose
+## 0. Purpose
 
 This artifact defines the mathematical contract for `L02_ATTENTION`.
 
@@ -71,9 +71,9 @@ control-plane compatible
 
 They are not presented as established neuroscience or psychology.
 
----
+______________________________________________________________________
 
-# 1. Source / Canon References
+## 1. Source / Canon References
 
 ## 1.1 Source-supported primitive
 
@@ -88,11 +88,11 @@ budget scarce reasoning/observation resources
 
 This supports the structural relationship:
 
-[
-\text{finite attention resources}
-\rightarrow
-\text{allocation problem}
-]
+\[
+\\text{finite attention resources}
+\\rightarrow
+\\text{allocation problem}
+\]
 
 but does not uniquely determine an allocation formula.
 
@@ -102,9 +102,9 @@ The AMOS Attention Allocation Governor supplies these governing forms:
 
 ### EQ-GOV-001 — Hard Admission
 
-[
-Admit(x)=\bigwedge_i HardInvariant_i(x)
-]
+\[
+Admit(x)=\\bigwedge_i HardInvariant_i(x)
+\]
 
 **Type:** `SOURCE_FRAMEWORK_EQUATION`
 
@@ -112,13 +112,13 @@ Interpretation:
 
 A target cannot enter governed attention allocation if an applicable non-compensatory hard invariant fails.
 
----
+______________________________________________________________________
 
 ### EQ-GOV-002 — Confidence Ceiling
 
-[
-Conf(C)\leq\min_i Conf(P_i)
-]
+\[
+Conf(C)\\leq\\min_i Conf(P_i)
+\]
 
 **Type:** `SOURCE_FRAMEWORK_EQUATION`
 
@@ -126,15 +126,15 @@ Interpretation:
 
 A conclusion cannot exceed the weakest load-bearing premise unless that premise is independently revalidated or replaced.
 
----
+______________________________________________________________________
 
 ### EQ-GOV-003 — Selective Invalidation
 
-[
+\[
 Invalid(p)
-\Rightarrow
+\\Rightarrow
 Invalidate(Descendants(p))
-]
+\]
 
 **Type:** `SOURCE_FRAMEWORK_EQUATION`
 
@@ -144,9 +144,9 @@ Invalidation propagates through actual dependency descendants rather than automa
 
 These equations govern L02 but are not evidence that they originated as L02-specific canonical equations.
 
----
+______________________________________________________________________
 
-# 2. Equation Classes
+## 2. Equation Classes
 
 Every equation in this artifact MUST carry an epistemic type.
 
@@ -173,24 +173,24 @@ and:
 FORMALIZED != EMPIRICALLY_VALIDATED
 ```
 
----
+______________________________________________________________________
 
-# 3. Typed Mathematical Domain
+## 3. Typed Mathematical Domain
 
 Let:
 
-[
-X={x_1,\ldots,x_n}
-]
+\[
+X={x_1,\\ldots,x_n}
+\]
 
 be the set of eligible attention candidates.
 
 Each candidate may be represented as:
 
-[
+\[
 x_i =
-\(o_i,g_i,u_i,c_i,d_i,p_i,t_i,r_i,h_i\)
-]
+(o_i,g_i,u_i,c_i,d_i,p_i,t_i,r_i,h_i)
+\]
 
 where:
 
@@ -208,29 +208,29 @@ h_i = H/M/L coordinate
 
 This tensorization is `AMOS_MODEL`.
 
----
+______________________________________________________________________
 
-# 4. Attention Budget
+## 4. Attention Budget
 
 Define total available attention budget:
 
-[
-B_t \ge 0
-]
+\[
+B_t \\ge 0
+\]
 
 and allocation:
 
-[
-a_i(t)\ge0
-]
+\[
+a_i(t)\\ge0
+\]
 
 with:
 
 ### EQ-L02-001 — Budget Conservation
 
-[
-\sum_{i=1}^{n}a_i(t)\le B_t
-]
+\[
+\\sum\_{i=1}^{n}a_i(t)\\le B_t
+\]
 
 **Type:** `AMOS_MODEL`
 **Purpose:** prevent allocation beyond declared finite capacity.
@@ -243,32 +243,30 @@ ALLOCATED_ATTENTION <= AVAILABLE_ATTENTION
 
 This is a modeling conservation constraint, not a physical law.
 
----
+______________________________________________________________________
 
-# 5. Residual Budget
+## 5. Residual Budget
 
 ### EQ-L02-002
 
-[
-B_t^{remaining}
-===============
+## \[ B_t^{remaining}
 
-B_t-\sum_i a_i(t)
-]
+B_t-\\sum_i a_i(t)
+\]
 
 with:
 
-[
-B_t^{remaining}\ge0
-]
+\[
+B_t^{remaining}\\ge0
+\]
 
 **Type:** `DERIVED_FROM_MODEL`
 
 If:
 
-[
-B_t^{remaining}<0
-]
+\[
+B_t^{remaining}\<0
+\]
 
 then:
 
@@ -276,30 +274,26 @@ then:
 BUDGET_INVARIANT = FAIL
 ```
 
----
+______________________________________________________________________
 
-# 6. Candidate Admission
+## 6. Candidate Admission
 
 Before ranking:
 
 ### EQ-L02-003
 
-[
-E_t
-===
+## \[ E_t
 
-{x_i\in X:
+{x_i\\in X:
 Admit(x_i)=1}
-]
+\]
 
 where:
 
-[
-Admit(x_i)
-==========
+## \[ Admit(x_i)
 
-\bigwedge_j HardInvariant_j(x_i)
-]
+\\bigwedge_j HardInvariant_j(x_i)
+\]
 
 **Type:** `AMOS_MODEL + SOURCE_FRAMEWORK_OPERATOR`
 
@@ -317,15 +311,15 @@ priority
 
 A candidate may be important but inadmissible.
 
----
+______________________________________________________________________
 
-# 7. Priority State
+## 7. Priority State
 
 Define a candidate priority vector:
 
-[
+\[
 z_i =
-[
+\[
 G_i,
 C_i,
 U_i,
@@ -334,8 +328,8 @@ D_i,
 N_i,
 R_i,
 P_i
-]
-]
+\]
+\]
 
 where, for example:
 
@@ -352,18 +346,16 @@ P_i = provenance/evidence relevance
 
 Exact canonical dimensions remain `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
-# 8. Generic Priority Function
+## 8. Generic Priority Function
 
 ### EQ-L02-004
 
-[
-\pi_i
-=====
+## \[ \\pi_i
 
-F(z_i \mid S_t)
-]
+F(z_i \\mid S_t)
+\]
 
 where:
 
@@ -375,23 +367,21 @@ F = attention-priority function
 
 **Type:** `AMOS_MODEL`
 
-This intentionally leaves \(F\) unspecified.
+This intentionally leaves (F) unspecified.
 
 Why:
 
 > Current source evidence does not justify claiming one canonical linear or nonlinear scoring equation.
 
----
+______________________________________________________________________
 
-# 9. Linear Priority Candidate
+## 9. Linear Priority Candidate
 
 A simple implementation candidate is:
 
 ### EQ-L02-005
 
-[
-\pi_i
-=====
+## \[ \\pi_i
 
 w_GG_i+
 w_CC_i+
@@ -399,13 +389,13 @@ w_UU_i+
 w_TT_i+
 w_DD_i+
 w_NN_i
-]
+\]
 
 subject to:
 
-[
-w_k\ge0
-]
+\[
+w_k\\ge0
+\]
 
 **Type:** `IMPLEMENTATION_CANDIDATE`
 
@@ -413,34 +403,32 @@ This is **not canonical**.
 
 It should not be promoted without validation because attention factors may interact nonlinearly or non-compensatorily.
 
----
+______________________________________________________________________
 
-# 10. Non-Compensatory Priority
+## 10. Non-Compensatory Priority
 
 Hard constraints must sit outside additive scoring.
 
 ### EQ-L02-006
 
-[
-PriorityEligible_i
-==================
+## \[ PriorityEligible_i
 
-Admit(x_i)\cdot \pi_i
-]
+Admit(x_i)\\cdot \\pi_i
+\]
 
 where:
 
-[
-Admit(x_i)\in{0,1}
-]
+\[
+Admit(x_i)\\in{0,1}
+\]
 
 Thus:
 
-[
+\[
 Admit(x_i)=0
-\Rightarrow
+\\Rightarrow
 PriorityEligible_i=0
-]
+\]
 
 for ordinary allocation.
 
@@ -456,18 +444,16 @@ hard safety failure
 accepted target
 ```
 
----
+______________________________________________________________________
 
-# 11. Allocation Function
+## 11. Allocation Function
 
 ### EQ-L02-007
 
-[
-A_t
-===
+## \[ A_t
 
-Allocate(E_t,\Pi_t,B_t,C_t)
-]
+Allocate(E_t,\\Pi_t,B_t,C_t)
+\]
 
 where:
 
@@ -483,59 +469,55 @@ A_t = allocation proposal
 
 Output:
 
-[
-A_t=[a_1,\ldots,a_n]
-]
+\[
+A_t=[a_1,\\ldots,a_n]
+\]
 
 subject to EQ-L02-001.
 
----
+______________________________________________________________________
 
-# 12. Normalized Proportional Allocation
+## 12. Normalized Proportional Allocation
 
 One candidate implementation:
 
 ### EQ-L02-008
 
-[
-a_i
-===
+## \[ a_i
 
 B_t
-\frac{\pi_i}
-{\sum_{j\in E_t}\pi_j}
-]
+\\frac{\\pi_i}
+{\\sum\_{j\\in E_t}\\pi_j}
+\]
 
 for:
 
-[
-\sum_j\pi_j>0
-]
+\[
+\\sum_j\\pi_j>0
+\]
 
 **Type:** `IMPLEMENTATION_CANDIDATE`
 
 This should not be treated as canonical because it permits broad proportional allocation and may be inappropriate where selective focus is required.
 
----
+______________________________________________________________________
 
-# 13. Top-K Allocation
+## 13. Top-K Allocation
 
 Alternative candidate:
 
 ### EQ-L02-009
 
-[
-A_t
-===
+## \[ A_t
 
-TopK(\Pi_t,k)
-]
+TopK(\\Pi_t,k)
+\]
 
 subject to:
 
-[
-k\le |E_t|
-]
+\[
+k\\le |E_t|
+\]
 
 **Type:** `IMPLEMENTATION_CANDIDATE`
 
@@ -543,29 +525,29 @@ This represents sparse attention.
 
 It competes with proportional allocation.
 
----
+______________________________________________________________________
 
-# 14. Threshold Allocation
+## 14. Threshold Allocation
 
 Alternative:
 
 ### EQ-L02-010
 
-[
+\[
 Attend(x_i)=
-\begin{cases}
-1,&\pi_i\ge\tau\
-0,&\pi_i<\tau
-\end{cases}
-]
+\\begin{cases}
+1,&\\pi_i\\ge\\tau\
+0,&\\pi_i\<\\tau
+\\end{cases}
+\]
 
 **Type:** `IMPLEMENTATION_CANDIDATE`
 
-where (\tau) is a context-dependent threshold.
+where (\\tau) is a context-dependent threshold.
 
----
+______________________________________________________________________
 
-# 15. Competing Allocation Models
+## 15. Competing Allocation Models
 
 Current model must preserve:
 
@@ -579,9 +561,9 @@ COMPETING_005 = expected-decision-value allocation
 
 No source-supported evidence currently licenses selecting one as canonical.
 
----
+______________________________________________________________________
 
-# 16. Expected Decision Value
+## 16. Expected Decision Value
 
 Attention should preferentially reduce uncertainty when doing so can alter a decision.
 
@@ -589,14 +571,12 @@ Candidate:
 
 ### EQ-L02-011
 
-[
-EDV(x_i)
-========
+## \[ EDV(x_i)
 
-P(ChangeDecision\mid ObserveMore_i)
-\times
+P(ChangeDecision\\mid ObserveMore_i)
+\\times
 Impact(ChangeDecision_i)
-]
+\]
 
 **Type:** `AMOS_MODEL`
 
@@ -604,28 +584,24 @@ This formalizes decision-relevant information value.
 
 It is not a calibrated probability equation unless its terms are empirically estimated.
 
----
+______________________________________________________________________
 
-# 17. Uncertainty-Reduction Value
+## 17. Uncertainty-Reduction Value
 
 ### EQ-L02-012
 
-[
-V_U(x_i)
-========
+## \[ V_U(x_i)
 
-EDV(x_i)\cdot
-\Delta U_i
-]
+EDV(x_i)\\cdot
+\\Delta U_i
+\]
 
 where:
 
-[
-\Delta U_i
-==========
+## \[ \\Delta U_i
 
-U_{before}-E[U_{after}\mid Attend(x_i)]
-]
+U\_{before}-E[U\_{after}\\mid Attend(x_i)]
+\]
 
 **Type:** `AMOS_MODEL`
 
@@ -637,54 +613,48 @@ UNCERTAINTY != PRIORITY
 
 Only decision-relevant reducible uncertainty should increase attention pressure.
 
----
+______________________________________________________________________
 
-# 18. Consequence Weighting
+## 18. Consequence Weighting
 
 Candidate consequence term:
 
 ### EQ-L02-013
 
-[
-C_i
-===
+## \[ C_i
 
 Impact_i
-\times
+\\times
 Irreversibility_i
-]
+\]
 
 **Type:** `AMOS_MODEL`
 
 Possible extension:
 
-[
-C_i
-===
+## \[ C_i
 
 Impact_i
-\times
+\\times
 Irreversibility_i
-\times
+\\times
 Exposure_i
-]
+\]
 
 This is a governance heuristic, not an empirical universal law.
 
----
+______________________________________________________________________
 
-# 19. Dependency Criticality
+## 19. Dependency Criticality
 
 ### EQ-L02-014
 
-[
-D_i
-===
+## \[ D_i
 
 Impact(Descendants_i)
-\times
+\\times
 FailureSensitivity_i
-]
+\]
 
 **Type:** `AMOS_MODEL`
 
@@ -698,17 +668,15 @@ Hard boundary:
 DEPENDENCY DEGREE != CAUSAL IMPORTANCE
 ```
 
----
+______________________________________________________________________
 
-# 20. Temporal Urgency
+## 20. Temporal Urgency
 
 Candidate:
 
 ### EQ-L02-015
 
-[
-T_i
-===
+## \[ T_i
 
 f(
 deadline_i,
@@ -716,76 +684,70 @@ decay_i,
 recoverability_i,
 latency_i
 )
-]
+\]
 
 **Type:** `AMOS_MODEL`
 
 No canonical functional form is claimed.
 
----
+______________________________________________________________________
 
-# 21. Freshness
+## 21. Freshness
 
 Let evidence age be:
 
-[
-Age_i=t_{now}-t_{validated,i}
-]
+\[
+Age_i=t\_{now}-t\_{validated,i}
+\]
 
 Candidate freshness:
 
 ### EQ-L02-016
 
-[
-Fresh_i
-=======
+## \[ Fresh_i
 
 f(Age_i,Volatility_i,RegimeChange_i)
-]
+\]
 
 **Type:** `AMOS_MODEL`
 
 Do not assume exponential decay universally.
 
----
+______________________________________________________________________
 
-# 22. Freshness Gate
+## 22. Freshness Gate
 
 For a load-bearing mutable premise:
 
 ### EQ-L02-017
 
-[
-ValidFresh_i
-============
+## \[ ValidFresh_i
 
 Valid_i
-\land
+\\land
 Fresh_i
-]
+\]
 
 If:
 
-[
+\[
 Fresh_i=0
-]
+\]
 
 then dependent attention proposals requiring that premise must be revalidated.
 
----
+______________________________________________________________________
 
-# 23. Scope Compatibility
+## 23. Scope Compatibility
 
 Define:
 
 ### EQ-L02-018
 
-[
-ScopeOK(x_i,S)
-==============
+## \[ ScopeOK(x_i,S)
 
-\mathbf{1}[Scope(x_i)\supseteq RequiredScope(S)]
-]
+\\mathbf{1}[Scope(x_i)\\supseteq RequiredScope(S)]
+\]
 
 **Type:** `AMOS_MODEL`
 
@@ -793,20 +755,18 @@ The actual scope relation may require partial overlap rather than strict set inc
 
 Therefore exact relation remains conditional.
 
----
+______________________________________________________________________
 
-# 24. Regime Compatibility
+## 24. Regime Compatibility
 
 ### EQ-L02-019
 
-[
-RegimeOK(x_i,R_t)
-=================
+## \[ RegimeOK(x_i,R_t)
 
-\mathbf{1}[R_i\sim R_t]
-]
+\\mathbf{1}[R_i\\sim R_t]
+\]
 
-where (\sim) denotes validated compatibility.
+where (\\sim) denotes validated compatibility.
 
 **Type:** `AMOS_MODEL`
 
@@ -816,35 +776,33 @@ Hard boundary:
 SAME DOMAIN != SAME REGIME
 ```
 
----
+______________________________________________________________________
 
-# 25. Provenance Independence
+## 25. Provenance Independence
 
 Let source ancestry sets be:
 
-[
+\[
 Anc(e_i)
-]
+\]
 
 and:
 
-[
+\[
 Anc(e_j)
-]
+\]
 
 Candidate independence check:
 
 ### EQ-L02-020
 
-[
-Independent(e_i,e_j)
-====================
+## \[ Independent(e_i,e_j)
 
-\mathbf{1}
-[
-Anc(e_i)\cap Anc(e_j)=\varnothing
-]
-]
+\\mathbf{1}
+\[
+Anc(e_i)\\cap Anc(e_j)=\\varnothing
+\]
+\]
 
 **Type:** `AMOS_MODEL`
 
@@ -852,22 +810,20 @@ This is deliberately conservative.
 
 Real independence may require more than ancestry disjointness.
 
----
+______________________________________________________________________
 
-# 26. Provenance Correlation Penalty
+## 26. Provenance Correlation Penalty
 
 Candidate:
 
 ### EQ-L02-021
 
-[
-P^{effective}
-=============
+## \[ P^{effective}
 
 ## P^{nominal}
 
 CorrelationRisk
-]
+\]
 
 **Type:** `AMOS_MODEL`
 
@@ -881,17 +837,17 @@ MUST NOT
 INCREASE CONFIDENCE AS IF INDEPENDENT
 ```
 
----
+______________________________________________________________________
 
-# 27. Confidence Ceiling
+## 27. Confidence Ceiling
 
 ### EQ-L02-022
 
-[
+\[
 Conf(C)
-\le
-\min_i Conf(P_i)
-]
+\\le
+\\min_i Conf(P_i)
+\]
 
 **Type:** `SOURCE_FRAMEWORK_EQUATION`
 
@@ -899,18 +855,18 @@ Application to attention:
 
 An attention ranking derived from uncertain load-bearing state cannot claim greater epistemic confidence than that state permits.
 
----
+______________________________________________________________________
 
-# 28. Confidence of Attention Proposal
+## 28. Confidence of Attention Proposal
 
 Candidate:
 
 ### EQ-L02-023
 
-[
+\[
 Conf(A_t)
-\le
-\min
+\\le
+\\min
 {
 Conf(B_t),
 Conf(G_t),
@@ -918,7 +874,7 @@ Conf(D_t),
 Conf(C_t),
 Conf(P_t)
 }
-]
+\]
 
 over whichever terms are actually load-bearing.
 
@@ -926,94 +882,90 @@ over whichever terms are actually load-bearing.
 
 Do not include irrelevant terms merely to lower confidence mechanically.
 
----
+______________________________________________________________________
 
-# 29. Selective Invalidation
+## 29. Selective Invalidation
 
 ### EQ-L02-024
 
-[
+\[
 Invalid(p)
-\Rightarrow
+\\Rightarrow
 Invalidate(Descendants(p))
-]
+\]
 
 **Type:** `SOURCE_FRAMEWORK_EQUATION`
 
 For L02:
 
-[
+\[
 Invalid(p)
-\Rightarrow
+\\Rightarrow
 RecomputeAttention(
 AffectedClosure(p)
 )
-]
+\]
 
 rather than recomputing all cognitive state.
 
----
+______________________________________________________________________
 
-# 30. Affected Closure
+## 30. Affected Closure
 
 ### EQ-L02-025
 
-[
-AffectedClosure(p)
-==================
+## \[ AffectedClosure(p)
 
 {x:
-p\leadsto x}
-]
+p\\leadsto x}
+\]
 
-where (\leadsto) denotes dependency reachability.
+where (\\leadsto) denotes dependency reachability.
 
 **Type:** `AMOS_MODEL`
 
----
+______________________________________________________________________
 
-# 31. Attention Reallocation
+## 31. Attention Reallocation
 
-If candidate \(x_k\) becomes invalid:
+If candidate (x_k) becomes invalid:
 
 ### EQ-L02-026
 
-[
+\[
 a_k'=0
-]
+\]
 
 and freed budget:
 
-[
-\Delta B=a_k
-]
+\[
+\\Delta B=a_k
+\]
 
 may be reallocated:
 
-[
-\sum_{i\neq k}(a_i'-a_i)
-\le
-\Delta B
-]
+\[
+\\sum\_{i\\neq k}(a_i'-a_i)
+\\le
+\\Delta B
+\]
 
 **Type:** `AMOS_MODEL`
 
 unless budget is intentionally reserved rather than reallocated.
 
----
+______________________________________________________________________
 
-# 32. Reserved Attention
+## 32. Reserved Attention
 
 Candidate:
 
 ### EQ-L02-027
 
-[
-B_t
-===
+## \[ B_t
 
 B_H+B_M+B_L+B_R
-]
+\]
 
 where:
 
@@ -1028,56 +980,50 @@ B_R = reserve budget
 
 with:
 
-[
-B_R\ge0
-]
+\[
+B_R\\ge0
+\]
 
 Reserve capacity protects against unexpected high-priority events.
 
----
+______________________________________________________________________
 
-# 33. H/M/L Budget Constraint
+## 33. H/M/L Budget Constraint
 
 ### EQ-L02-028
 
-[
-\sum_{s\in{H,M,L,R}}B_s
-\le
+\[
+\\sum\_{s\\in{H,M,L,R}}B_s
+\\le
 B_t
-]
+\]
 
 **Type:** `AMOS_MODEL`
 
 The actual H/M/L budget partition is not canonical.
 
----
+______________________________________________________________________
 
-# 34. Hierarchical Attention
+## 34. Hierarchical Attention
 
 Candidate hierarchical model:
 
 ### EQ-L02-029
 
-[
-A_H
-===
+## \[ A_H
 
 Allocate(X_H,B_H)
-]
+\]
 
-[
-A_M
-===
+## \[ A_M
 
-Allocate(X_M\mid A_H,B_M)
-]
+Allocate(X_M\\mid A_H,B_M)
+\]
 
-[
-A_L
-===
+## \[ A_L
 
-Allocate(X_L\mid A_H,A_M,B_L)
-]
+Allocate(X_L\\mid A_H,A_M,B_L)
+\]
 
 **Type:** `AMOS_MODEL`
 
@@ -1093,56 +1039,54 @@ L detail
 raw evidence when required
 ```
 
----
+______________________________________________________________________
 
-# 35. H→M Constraint Propagation
+## 35. H→M Constraint Propagation
 
 ### EQ-L02-030
 
-[
-Eligible_M
-==========
+## \[ Eligible_M
 
 Eligible_M
-\cap
+\\cap
 Constraints(A_H)
-]
+\]
 
 **Type:** `AMOS_MODEL`
 
 High-level decisions may constrain subsystem search without predetermining unsupported conclusions.
 
----
+______________________________________________________________________
 
-# 36. L→H Escalation
+## 36. L→H Escalation
 
 A low-level observation may force high-level reassessment.
 
 ### EQ-L02-031
 
-[
+\[
 Critical_L=1
-\land
+\\land
 Invalidates(P_H)
-\Rightarrow
+\\Rightarrow
 Revalidate(H)
-]
+\]
 
 **Type:** `AMOS_MODEL`
 
 This prevents hierarchy from suppressing decisive counterevidence.
 
----
+______________________________________________________________________
 
-# 37. Salience vs Evidence
+## 37. Salience vs Evidence
 
 Candidate separation:
 
-[
+\[
 Salience_i
-\neq
+\\neq
 EvidenceStrength_i
-]
+\]
 
 This is an invariant, not a numerical equation.
 
@@ -1150,9 +1094,7 @@ Possible priority model:
 
 ### EQ-L02-032
 
-[
-\pi_i
-=====
+## \[ \\pi_i
 
 F(
 Salience_i,
@@ -1160,26 +1102,24 @@ EvidenceStrength_i,
 DecisionRelevance_i,
 ...
 )
-]
+\]
 
 with distinct variables.
 
 **Type:** `AMOS_MODEL`
 
----
+______________________________________________________________________
 
-# 38. Novelty
+## 38. Novelty
 
 Candidate novelty measure:
 
 ### EQ-L02-033
 
-[
-N_i
-===
+## \[ N_i
 
-Distance(x_i,M_{known})
-]
+Distance(x_i,M\_{known})
+\]
 
 **Type:** `AMOS_MODEL`
 
@@ -1191,39 +1131,39 @@ Hard boundary:
 NOVEL != TRUE
 ```
 
----
+______________________________________________________________________
 
-# 39. Attention Saturation
+## 39. Attention Saturation
 
 To prevent unlimited allocation to one target:
 
 ### EQ-L02-034
 
-[
-a_i\le a_i^{max}
-]
+\[
+a_i\\le a_i^{max}
+\]
 
 **Type:** `AMOS_MODEL`
 
 unless exclusive-focus mode explicitly permits:
 
-[
+\[
 a_i=B_t
-]
+\]
 
----
+______________________________________________________________________
 
-# 40. Minimum Attention
+## 40. Minimum Attention
 
 Critical targets may require minimum allocation:
 
 ### EQ-L02-035
 
-[
+\[
 Critical_i=1
-\Rightarrow
-a_i\ge a_i^{min}
-]
+\\Rightarrow
+a_i\\ge a_i^{min}
+\]
 
 provided:
 
@@ -1235,196 +1175,179 @@ budget exists
 
 **Type:** `AMOS_MODEL`
 
----
+______________________________________________________________________
 
-# 41. Starvation
+## 41. Starvation
 
 Define starvation:
 
 ### EQ-L02-036
 
-[
-Starved_i
-=========
+## \[ Starved_i
 
-\mathbf{1}
-[
+\\mathbf{1}
+\[
 Eligible_i
-\land
+\\land
 Need_i>0
-\land
+\\land
 a_i=0
-\land
-Duration_i>\tau_s
-]
-]
+\\land
+Duration_i>\\tau_s
+\]
+\]
 
 **Type:** `AMOS_MODEL`
 
 Not all starvation is erroneous; low-priority items may legitimately remain unattended.
 
----
+______________________________________________________________________
 
-# 42. Switching Cost
+## 42. Switching Cost
 
 Attention shifts may incur cost.
 
 ### EQ-L02-037
 
-[
-Cost_{switch}
-=============
+## \[ Cost\_{switch}
 
 f(
-Distance(Context_t,Context_{t+1}),
+Distance(Context_t,Context\_{t+1}),
 StateReload,
 ToolTransition,
 DependencyReload
 )
-]
+\]
 
 **Type:** `AMOS_MODEL`
 
 This formalizes why constant switching may reduce effective capacity.
 
----
+______________________________________________________________________
 
-# 43. Effective Budget
+## 43. Effective Budget
 
 Candidate:
 
 ### EQ-L02-038
 
-[
-B_t^{effective}
-===============
+## \[ B_t^{effective}
 
 ## B_t
 
-## Cost_{switch}
+## Cost\_{switch}
 
-## Cost_{governance}
+## Cost\_{governance}
 
-Cost_{repair}
-]
+Cost\_{repair}
+\]
 
 subject to:
 
-[
-B_t^{effective}\ge0
-]
+\[
+B_t^{effective}\\ge0
+\]
 
 **Type:** `AMOS_MODEL`
 
 These terms are abstract resource quantities unless units are concretely defined.
 
----
+______________________________________________________________________
 
-# 44. Attention Debt
+## 44. Attention Debt
 
 Unresolved deferred items may accumulate attention debt.
 
 ### EQ-L02-039
 
-[
-Debt_{t+1}
-==========
+## \[ Debt\_{t+1}
 
-Debt_t
-+
-DeferredCritical_t
-------------------
+## Debt_t + DeferredCritical_t
 
 ResolvedDeferred_t
-]
+\]
 
 **Type:** `AMOS_MODEL`
 
 This is a bookkeeping model, not a psychological law.
 
----
+______________________________________________________________________
 
-# 45. Escalation Threshold
+## 45. Escalation Threshold
 
 Candidate:
 
 ### EQ-L02-040
 
-[
+\[
 Escalate(x_i)=1
-]
+\]
 
 if:
 
-[
-Risk_i\ge\tau_R
-\lor
+\[
+Risk_i\\ge\\tau_R
+\\lor
 AuthorityAmbiguous_i
-\lor
+\\lor
 CriticalDependencyMissing_i
-\lor
+\\lor
 Contradiction_i
-]
+\]
 
 **Type:** `AMOS_MODEL`
 
 Hard conditions should preferably be Boolean rather than compensatory scores.
 
----
+______________________________________________________________________
 
-# 46. Repair Priority
+## 46. Repair Priority
 
 Candidate repair attention:
 
 ### EQ-L02-041
 
-[
-RepairPriority_i
-================
+## \[ RepairPriority_i
 
 Impact_i
-\times
+\\times
 RecoverabilityWindow_i^{-1}
-\times
+\\times
 DependencyFanout_i
-]
+\]
 
 **Type:** `AMOS_MODEL`
 
 This equation is heuristic and must not override hard safety/authority constraints.
 
----
+______________________________________________________________________
 
-# 47. Repair Success
+## 47. Repair Success
 
 ### EQ-L02-042
 
-[
-RepairValid_i
-=============
+## \[ RepairValid_i
 
 FunctionalRecovery_i
-\land
+\\land
 InvariantPreservation_i
-\land
+\\land
 ProvenancePreservation_i
-\land
+\\land
 NoCriticalRegression_i
-]
+\]
 
 **Type:** `AMOS_MODEL`
 
----
+______________________________________________________________________
 
-# 48. Attention Proposal
+## 48. Attention Proposal
 
 Final L02 output is a proposal:
 
 ### EQ-L02-043
 
-[
-Proposal_t
-==========
+## \[ Proposal_t
 
 (
 A_t,
@@ -1433,7 +1356,7 @@ U_t,
 P_t,
 F_t
 )
-]
+\]
 
 where:
 
@@ -1449,42 +1372,40 @@ F_t = falsifiers
 
 Hard boundary:
 
-[
-Proposal_t\neq Commit_t
-]
+\[
+Proposal_t\\neq Commit_t
+\]
 
----
+______________________________________________________________________
 
-# 49. Commit Eligibility
+## 49. Commit Eligibility
 
 If an attention proposal causes governed durable effects:
 
 ### EQ-L02-044
 
-[
-CommitEligible
-==============
+## \[ CommitEligible
 
 ProposalValid
-\land
+\\land
 AuthorityValid
-\land
+\\land
 ConstraintsFresh
-\land
+\\land
 DependenciesFresh
-\land
+\\land
 ScopeValid
-\land
+\\land
 RegimeValid
-]
+\]
 
 **Type:** `AMOS_MODEL / CONTROL-PLANE CONTRACT`
 
 L02 itself does not gain commit authority from this equation.
 
----
+______________________________________________________________________
 
-# 50. State Variables
+## 50. State Variables
 
 ```text
 X_t       candidate set
@@ -1508,9 +1429,9 @@ Debt_t    attention debt
 
 All are `AMOS_MODEL` variable names unless separately canonical.
 
----
+______________________________________________________________________
 
-# 51. Operators
+## 51. Operators
 
 ```text
 OBSERVE()
@@ -1542,9 +1463,9 @@ REPAIR()
 ROLLBACK()
 ```
 
----
+______________________________________________________________________
 
-# 52. Invariants
+## 52. Invariants
 
 ```text
 L02-EQ-INV-001
@@ -1608,9 +1529,9 @@ L02-EQ-INV-020
 Equation optimization cannot weaken integrity invariants.
 ```
 
----
+______________________________________________________________________
 
-# 53. Dependencies
+## 53. Dependencies
 
 Equation execution may depend on:
 
@@ -1640,9 +1561,9 @@ AMOS Infrastructure Control Plane
 AMOS RSCF
 ```
 
----
+______________________________________________________________________
 
-# 54. H/M/L Applicability
+## 54. H/M/L Applicability
 
 ## H — Governing allocation
 
@@ -1684,9 +1605,9 @@ individual evidence items
 
 Cross-scale allocation must not silently mix units.
 
----
+______________________________________________________________________
 
-# 55. Control-Plane Requirements
+## 55. Control-Plane Requirements
 
 The control plane should validate at minimum:
 
@@ -1722,9 +1643,9 @@ VALID / REJECT / REVALIDATE / ESCALATE
 authorized downstream handling
 ```
 
----
+______________________________________________________________________
 
-# 56. Agents
+## 56. Agents
 
 Candidate logical roles:
 
@@ -1741,9 +1662,9 @@ L02_REPAIR_AGENT
 
 These are model roles, not proof of deployed agents.
 
----
+______________________________________________________________________
 
-# 57. Skills
+## 57. Skills
 
 Relevant capabilities:
 
@@ -1766,9 +1687,9 @@ SKILL EXISTS
 L02 CANONICALLY DEPENDS ON SKILL
 ```
 
----
+______________________________________________________________________
 
-# 58. Workflow
+## 58. Workflow
 
 ```text
 1. RECEIVE candidate targets
@@ -1808,9 +1729,9 @@ L02 CANONICALLY DEPENDS ON SKILL
 18. PRESERVE gaps and falsifiers
 ```
 
----
+______________________________________________________________________
 
-# 59. Protocol
+## 59. Protocol
 
 Suggested equation result envelope:
 
@@ -1866,9 +1787,9 @@ AttentionEquationResult:
       - FAILED
 ```
 
----
+______________________________________________________________________
 
-# 60. Evidence / Provenance
+## 60. Evidence / Provenance
 
 Each equation should retain:
 
@@ -1893,9 +1814,9 @@ version
 
 No equation should gain canonical status through repetition across generated artifacts.
 
----
+______________________________________________________________________
 
-# 61. Failure Modes
+## 61. Failure Modes
 
 ```text
 FM-L02-EQ-001  Budget Overflow
@@ -1925,9 +1846,9 @@ FM-L02-EQ-024  Invalid Global Recompute
 FM-L02-EQ-025  Repair Regression
 ```
 
----
+______________________________________________________________________
 
-# 62. Repair / Recovery
+## 62. Repair / Recovery
 
 ```text
 DETECT equation failure
@@ -1966,9 +1887,9 @@ ROLL BACK
 to nearest valid equation/input state
 ```
 
----
+______________________________________________________________________
 
-# 63. Tests / Validators
+## 63. Tests / Validators
 
 Required validators:
 
@@ -1993,9 +1914,9 @@ VALIDATE_REPAIR
 VALIDATE_ROLLBACK
 ```
 
----
+______________________________________________________________________
 
-# 64. Minimum Tests
+## 64. Minimum Tests
 
 ```text
 TEST-L02-EQ-001
@@ -2059,9 +1980,9 @@ TEST-L02-EQ-020
 Repair preserves unaffected state and provenance.
 ```
 
----
+______________________________________________________________________
 
-# 65. Falsifiers
+## 65. Falsifiers
 
 Revise this artifact if:
 
@@ -2081,9 +2002,9 @@ formal verification falsifies proposed invariants
 empirical/runtime tests show a proposed allocation model systematically violates declared requirements
 ```
 
----
+______________________________________________________________________
 
-# 66. Gap Matrix
+## 66. Gap Matrix
 
 ```yaml
 gap_matrix:
@@ -2148,9 +2069,9 @@ gap_matrix:
     criticality: CRITICAL
 ```
 
----
+______________________________________________________________________
 
-# 67. Cheapest Discriminating Evidence
+## 67. Cheapest Discriminating Evidence
 
 Highest-value retrieval order:
 
@@ -2169,9 +2090,9 @@ Cheapest decisive test:
 
 > Recover any direct canonical equation explicitly bound to `L02_ATTENTION` and compare its variables, operators, constraints, and semantics against EQ-L02-001 through EQ-L02-044.
 
----
+______________________________________________________________________
 
-# 68. RSCF Completion State
+## 68. RSCF Completion State
 
 ```yaml
 rscf:
@@ -2297,9 +2218,9 @@ rscf:
     them against the proposed equation registry
 ```
 
----
+______________________________________________________________________
 
-# 69. Completion State
+## 69. Completion State
 
 ```yaml
 completion_state:
@@ -2377,9 +2298,9 @@ completion_state:
     MODEL / CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
-# 70. Hard Boundaries
+## 70. Hard Boundaries
 
 ```text
 PLACEHOLDER != IMPLEMENTED
@@ -2435,9 +2356,9 @@ MISSING EVIDENCE != NEGATIVE EVIDENCE
 UNEXECUTED TEST != PASS
 ```
 
----
+______________________________________________________________________
 
-# 71. References
+## 71. References
 
 ```text
 PLACEHOLDER
@@ -2474,15 +2395,15 @@ Cosmo_Brain_BRIDGE_INDEX
 Cosmo_Brain_BRIDGE_INDEX
 ```
 
----
+______________________________________________________________________
 
-# 72. Governing Equation Contract
+## 72. Governing Equation Contract
 
 > **L02_ATTENTION is modeled as constrained allocation of finite reasoning/observation resources across admissible targets. Hard invariants govern admission before scoring; allocation cannot exceed available budget; priority remains distinct from truth, authority, and evidence strength; confidence cannot exceed load-bearing premises; invalid state selectively invalidates dependent allocations; and any consequential allocation remains a proposal until separately authorized.**
 
----
+______________________________________________________________________
 
-# 73. Canon Boundary
+## 73. Canon Boundary
 
 ```text
 SOURCE-SUPPORTED:
@@ -2541,22 +2462,27 @@ EMPIRICALLY VALIDATED
 
 The highest-value unresolved gap is the **canonical L02 equation registry**. Until that is recovered, the budget and allocation equations above should remain a coherent AMOS mathematical specification rather than being promoted into Trang Phan’s source canon.
 ```
----
+
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: l02_attention_primitives_cognitive_matrix_equations
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION/L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_EQUATIONS.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION/L02_ATTENTION_MOC|L02_ATTENTION_MOC]]

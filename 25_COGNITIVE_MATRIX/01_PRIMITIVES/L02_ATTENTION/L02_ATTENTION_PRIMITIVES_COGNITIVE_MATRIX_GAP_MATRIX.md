@@ -2,15 +2,15 @@
 type: gap
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION
 tags:
-- amos
-- cognitive-matrix
-- matrix/l02
-- attention
-- gap-matrix
-- rscf
-- hml
-- governance
-- domain/cognitive-matrix
+  - amos
+  - cognitive-matrix
+  - matrix/l02
+  - attention
+  - gap-matrix
+  - rscf
+  - hml
+  - governance
+  - domain/cognitive-matrix
 title: L02_ATTENTION — Gap Matrix
 origin_architect: Trang Phan
 status: MODEL_SPECIFICATION / GAP_VISIBLE / UNVALIDATED
@@ -33,9 +33,9 @@ rscf:
 
 > **Canon boundary:** `L02_ATTENTION` is source-supported at the primitive level as attention allocation over scarce reasoning/observation resources. This artifact records what is established, modeled, unresolved, or validation-blocked. A populated matrix does not convert a gap into implementation or validation.
 
----
+______________________________________________________________________
 
-# 0. Purpose
+## 0. Purpose
 
 Define the authoritative gap-accounting contract for `L02_ATTENTION`.
 
@@ -64,9 +64,9 @@ RESOLVED != VALIDATED
 VALIDATED != AUTHORIZED
 ```
 
----
+______________________________________________________________________
 
-# 1. Source / Canon References
+## 1. Source / Canon References
 
 ## 1.1 Source-supported primitive
 
@@ -103,21 +103,21 @@ UNKNOWN/GAP != PASS
 
 Confidence ceiling:
 
-[
-Conf(C)\leq\min_i Conf(P_i)
-]
+\[
+Conf(C)\\leq\\min_i Conf(P_i)
+\]
 
 Selective invalidation:
 
-[
-Invalid(p)\Rightarrow Invalidate(Descendants(p))
-]
+\[
+Invalid(p)\\Rightarrow Invalidate(Descendants(p))
+\]
 
 Hard-admission form:
 
-[
-Admit(x)=\bigwedge_i HardInvariant_i(x)
-]
+\[
+Admit(x)=\\bigwedge_i HardInvariant_i(x)
+\]
 
 These are governing AMOS framework forms and must not be misrepresented as empirically validated cognitive laws.
 
@@ -152,40 +152,40 @@ Upstream primitive:
 L01_SENSING_OBSERVATION
 ```
 
----
+______________________________________________________________________
 
-# 2. Definition and Scope
+## 2. Definition and Scope
 
 A **gap** is an unresolved requirement, dependency, evidence condition, semantic definition, implementation fact, validation result, provenance requirement, or governance condition whose absence limits what may safely be concluded or executed.
 
 Formally:
 
-[
+\[
 Gap(g)=
 Required(g)
-\land
-\neg Established(g)
-]
+\\land
+\\neg Established(g)
+\]
 
 A gap may be known without being closed:
 
-[
-Known(Gap(g))\neq Resolved(g)
-]
+\[
+Known(Gap(g))\\neq Resolved(g)
+\]
 
 And closure claims require evidence:
 
-[
+\[
 Closed(g)
-\Rightarrow
-Evidence(g)\neq\varnothing
-]
+\\Rightarrow
+Evidence(g)\\neq\\varnothing
+\]
 
 for evidence-bearing gap classes.
 
----
+______________________________________________________________________
 
-# 3. Gap Classes
+## 3. Gap Classes
 
 ```yaml
 GapClass:
@@ -219,9 +219,9 @@ GapClass:
   - UNKNOWN_GAP
 ```
 
----
+______________________________________________________________________
 
-# 4. Gap Criticality
+## 4. Gap Criticality
 
 ```yaml
 GapCriticality:
@@ -258,9 +258,9 @@ EXPLANATORY
 COSMETIC
 ```
 
----
+______________________________________________________________________
 
-# 5. Gap Status
+## 5. Gap Status
 
 ```yaml
 GapStatus:
@@ -284,9 +284,9 @@ Hard boundary:
 MODEL_DEFINED != VALIDATED_FOR_SCOPE
 ```
 
----
+______________________________________________________________________
 
-# 6. Typed Inputs
+## 6. Typed Inputs
 
 ```yaml
 GapMatrixInput:
@@ -362,9 +362,9 @@ GapMatrixInput:
     type: AuthorityState
 ```
 
----
+______________________________________________________________________
 
-# 7. Typed Outputs
+## 7. Typed Outputs
 
 ```yaml
 GapMatrixResult:
@@ -420,9 +420,9 @@ GapMatrixResult:
     type: ConfidenceBound
 ```
 
----
+______________________________________________________________________
 
-# 8. Gap Record Type
+## 8. Gap Record Type
 
 ```yaml
 GapRecord:
@@ -491,9 +491,9 @@ GapRecord:
     type: ConfidenceBound
 ```
 
----
+______________________________________________________________________
 
-# 9. State Variables
+## 9. State Variables
 
 ```text
 G_t        current gap registry
@@ -529,9 +529,9 @@ OPEN
 
 Not all gaps traverse every state.
 
----
+______________________________________________________________________
 
-# 10. Operators
+## 10. Operators
 
 ```text
 REGISTER_GAP()
@@ -560,9 +560,9 @@ PROPAGATE_INVALIDATION()
 RECOMPUTE_CONFIDENCE_CEILING()
 ```
 
----
+______________________________________________________________________
 
-# 11. Invariants
+## 11. Invariants
 
 ```text
 L02-GAP-INV-001
@@ -626,9 +626,9 @@ L02-GAP-INV-020
 Gap resolution must selectively invalidate dependent stale conclusions when necessary.
 ```
 
----
+______________________________________________________________________
 
-# 12. Dependencies
+## 12. Dependencies
 
 The Gap Matrix depends on the full L02 artifact family because gap status is relational.
 
@@ -670,9 +670,9 @@ L02_VALIDATION
 
 `GAP_MATRIX.md` observes this graph but does not itself prove any node valid.
 
----
+______________________________________________________________________
 
-# 13. H/M/L Applicability
+## 13. H/M/L Applicability
 
 ## H — Governing attention architecture
 
@@ -735,9 +735,9 @@ does not validate
 L-level execution.
 ```
 
----
+______________________________________________________________________
 
-# 14. Control-Plane Requirements
+## 14. Control-Plane Requirements
 
 The control plane must preserve the distinction between:
 
@@ -773,9 +773,9 @@ CRITICAL_GAP affecting commit
 
 unless a separately authorized governance policy explicitly permits bounded action under that uncertainty.
 
----
+______________________________________________________________________
 
-# 15. Agents
+## 15. Agents
 
 Candidate logical roles:
 
@@ -798,9 +798,9 @@ MODEL ROLES
 
 unless separately evidenced as implemented runtime agents.
 
----
+______________________________________________________________________
 
-# 16. Skills
+## 16. Skills
 
 Potential capability mappings:
 
@@ -825,9 +825,9 @@ AVAILABLE SKILL
 CANONICAL L02 DEPENDENCY
 ```
 
----
+______________________________________________________________________
 
-# 17. Workflows
+## 17. Workflows
 
 Gap workflow:
 
@@ -855,9 +855,9 @@ RESOLVE or preserve OPEN
 REVALIDATE affected descendants
 ```
 
----
+______________________________________________________________________
 
-# 18. Protocol
+## 18. Protocol
 
 ```yaml
 L02GapCapsule:
@@ -908,9 +908,9 @@ L02GapCapsule:
   confidence_ceiling: 0
 ```
 
----
+______________________________________________________________________
 
-# 19. Evidence / Provenance
+## 19. Evidence / Provenance
 
 Every gap-closing event should retain:
 
@@ -941,9 +941,9 @@ DERIVED evidence
 must retain dependency lineage.
 ```
 
----
+______________________________________________________________________
 
-# 20. Uncertainty Vector
+## 20. Uncertainty Vector
 
 ```yaml
 uncertainty:
@@ -977,19 +977,19 @@ uncertainty:
       do apparently multiple supporting sources share ancestry?
 ```
 
----
+______________________________________________________________________
 
-# 21. Confidence Ceiling
+## 21. Confidence Ceiling
 
-For any L02 conclusion \(C\):
+For any L02 conclusion (C):
 
-[
+\[
 Conf(C)
-\le
-\min(
-Conf(P_1),\ldots,Conf(P_n)
+\\le
+\\min(
+Conf(P_1),\\ldots,Conf(P_n)
 )
-]
+\]
 
 where unresolved load-bearing gaps reduce the admissible confidence ceiling.
 
@@ -1011,9 +1011,9 @@ COSMETIC unresolved gap
 
 This classification is `AMOS_MODEL` governance logic.
 
----
+______________________________________________________________________
 
-# 22. Master Gap Matrix
+## 22. Master Gap Matrix
 
 | ID       | Domain        | Gap                                                       | Criticality       | Current status | Closure requirement                      |
 | -------- | ------------- | --------------------------------------------------------- | ----------------- | -------------- | ---------------------------------------- |
@@ -1058,9 +1058,9 @@ This classification is `AMOS_MODEL` governance logic.
 | L02-G039 | Versioning    | L02 version/supersession lineage                          | DECISION_RELEVANT | PARTIAL        | Versioned canonical history              |
 | L02-G040 | Integration   | Compatibility with L01 output contract                    | CRITICAL          | PARTIAL        | Typed interface validation               |
 
----
+______________________________________________________________________
 
-# 23. Gap Clusters
+## 23. Gap Clusters
 
 ## 23.1 Canon cluster
 
@@ -1082,7 +1082,7 @@ canon_cluster:
     direct canonical L02 contract has not been fully resolved
 ```
 
----
+______________________________________________________________________
 
 ## 23.2 Implementation cluster
 
@@ -1101,7 +1101,7 @@ implementation_cluster:
     executable runtime correspondence has not been established
 ```
 
----
+______________________________________________________________________
 
 ## 23.3 Validation cluster
 
@@ -1119,7 +1119,7 @@ validation_cluster:
     no executed validation evidence is established by this artifact
 ```
 
----
+______________________________________________________________________
 
 ## 23.4 Governance cluster
 
@@ -1141,9 +1141,9 @@ governance_cluster:
     detailed runtime governance mapping remains unresolved
 ```
 
----
+______________________________________________________________________
 
-# 24. Failure Modes
+## 24. Failure Modes
 
 ## FM-GAP-001 — False Closure
 
@@ -1200,9 +1200,9 @@ A local gap causes unnecessary invalidation of unrelated valid work.
 
 Approval or authority is treated as proof that a technical gap is resolved.
 
----
+______________________________________________________________________
 
-# 25. Repair / Recovery
+## 25. Repair / Recovery
 
 Gap repair protocol:
 
@@ -1242,62 +1242,58 @@ CLOSED
 → silently retained
 ```
 
----
+______________________________________________________________________
 
-# 26. Gap Closure Equation
+## 26. Gap Closure Equation
 
 For gap (g):
 
-[
+\[
 Close(g)=
 RequiredEvidence(g)
-\land
+\\land
 ValidProvenance(g)
-\land
+\\land
 ScopeCompatible(g)
-\land
+\\land
 RegimeCompatible(g)
-\land
+\\land
 Fresh(g)
-\land
+\\land
 ValidatorPass(g)
-]
+\]
 
 when all terms are applicable.
 
 For implementation gaps:
 
-[
-Close_{impl}(g)
-===============
+## \[ Close\_{impl}(g)
 
 ExecutableArtifact
-\land
+\\land
 IdentityMatch
-\land
+\\land
 InterfaceMatch
-]
+\]
 
 For validation gaps:
 
-[
-Close_{val}(g)
-==============
+## \[ Close\_{val}(g)
 
 ExecutedTest
-\land
+\\land
 RawResult
-\land
+\\land
 EnvironmentIdentity
-\land
+\\land
 ScopeBoundConclusion
-]
+\]
 
 These are `AMOS_MODEL` closure forms.
 
----
+______________________________________________________________________
 
-# 27. Gap Reopening
+## 27. Gap Reopening
 
 A gap must be reconsidered when:
 
@@ -1316,15 +1312,15 @@ implementation diverges from specification
 
 Formally:
 
-[
+\[
 Invalid(ClosurePremise_g)
-\Rightarrow
+\\Rightarrow
 Reopen(g)
-]
+\]
 
----
+______________________________________________________________________
 
-# 28. Tests / Validators
+## 28. Tests / Validators
 
 ```text
 VALIDATE_GAP_SCHEMA
@@ -1348,9 +1344,9 @@ VALIDATE_AUTHORITY_BOUNDARY
 VALIDATE_REOPEN_CONDITION
 ```
 
----
+______________________________________________________________________
 
-# 29. Minimum Gap-Matrix Tests
+## 29. Minimum Gap-Matrix Tests
 
 ```text
 TEST-L02-GAP-001
@@ -1402,9 +1398,9 @@ TEST-L02-GAP-016
 A runtime artifact must be inspected before IMPLEMENTED is asserted.
 ```
 
----
+______________________________________________________________________
 
-# 30. Falsifiers
+## 30. Falsifiers
 
 Revise this matrix if direct evidence establishes:
 
@@ -1430,9 +1426,9 @@ new canon supersedes current source interpretation
 
 A specific gap record is falsified when its assertion of missing information is contradicted by valid, applicable, fresh evidence.
 
----
+______________________________________________________________________
 
-# 31. Competing Interpretations
+## 31. Competing Interpretations
 
 For any apparent gap preserve these possibilities:
 
@@ -1468,9 +1464,9 @@ COMPETING-010
 the apparent closure is stale
 ```
 
----
+______________________________________________________________________
 
-# 32. Cheapest Discriminating Tests
+## 32. Cheapest Discriminating Tests
 
 Preferred resolution sequence:
 
@@ -1488,9 +1484,9 @@ Preferred resolution sequence:
 
 Do not spend resources closing cosmetic gaps while critical gaps remain unresolved.
 
----
+______________________________________________________________________
 
-# 33. Gap-to-Action Rules
+## 33. Gap-to-Action Rules
 
 ```yaml
 action_rules:
@@ -1516,9 +1512,9 @@ action_rules:
 
 Exception handling must itself be governed and provenance-bound.
 
----
+______________________________________________________________________
 
-# 34. Current L02 Status Summary
+## 34. Current L02 Status Summary
 
 ```yaml
 current_status:
@@ -1599,9 +1595,9 @@ current_status:
     status: UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 35. Critical Open Gaps
+## 35. Critical Open Gaps
 
 ```yaml
 critical_open_gaps:
@@ -1676,9 +1672,9 @@ critical_open_gaps:
     gap: validated L01→L02 interface
 ```
 
----
+______________________________________________________________________
 
-# 36. Minimum Path to Reduce Critical Uncertainty
+## 36. Minimum Path to Reduce Critical Uncertainty
 
 ```text
 DIRECT CANON
@@ -1702,9 +1698,9 @@ run adversarial contradiction checks
 promote only scope-valid claims
 ```
 
----
+______________________________________________________________________
 
-# 37. RSCF Completion State
+## 37. RSCF Completion State
 
 ```yaml
 rscf:
@@ -1812,9 +1808,9 @@ rscf:
     control-plane boundaries against the current model artifact family
 ```
 
----
+______________________________________________________________________
 
-# 38. Completion State
+## 38. Completion State
 
 ```yaml
 completion_state:
@@ -1886,9 +1882,9 @@ completion_state:
     MODEL / UNKNOWN-GAP-PRESERVING
 ```
 
----
+______________________________________________________________________
 
-# 39. Hard Boundaries
+## 39. Hard Boundaries
 
 ```text
 PLACEHOLDER != IMPLEMENTED
@@ -1936,9 +1932,9 @@ GAP CLOSURE != DESCENDANT VALIDATION
 OLD CLOSURE != FRESH CLOSURE
 ```
 
----
+______________________________________________________________________
 
-# 40. References
+## 40. References
 
 ```text
 PLACEHOLDER
@@ -1977,15 +1973,15 @@ Cosmo_Brain_BRIDGE_INDEX
 Cosmo_Brain_BRIDGE_INDEX
 ```
 
----
+______________________________________________________________________
 
-# 41. Governing Gap Contract
+## 41. Governing Gap Contract
 
 > **`L02_ATTENTION` must retain an explicit, dependency-aware registry of unresolved canonical, semantic, implementation, validation, provenance, scope, regime, and governance requirements. A gap is closed only when its declared closure condition is satisfied by applicable, provenance-preserving evidence. Modeling, documentation, implementation, validation, and authority remain separate states. Critical unresolved gaps block unsupported promotion or consequential commit, while resolution invalidates and recomputes only the conclusions that actually depended on the changed gap.**
 
----
+______________________________________________________________________
 
-# 42. Canon Boundary
+## 42. Canon Boundary
 
 ```text
 SOURCE-SUPPORTED:
@@ -2046,23 +2042,27 @@ AUTHORIZATION TO COMMIT
 
 ```text
 ```
----
+
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: l02_attention_primitives_cognitive_matrix_gap_matrix
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION/L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_GAP_MATRIX.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION/L02_ATTENTION_MOC|L02_ATTENTION_MOC]]
-

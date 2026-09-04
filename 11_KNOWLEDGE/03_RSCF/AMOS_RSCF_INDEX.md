@@ -12,17 +12,17 @@ segment: 11_KNOWLEDGE/03_RSCF
 artifact_kind: INDEX
 path: 11_KNOWLEDGE/03_RSCF/AMOS_RSCF_INDEX.md
 tags:
-- amos-os
-- knowledge
-- vault
-- 03_rscf
-- amos_rscf_index
-- proof_capsules
-- rscf_nodes
-- rscf
-- canon_candidate
-- canon/knowledge
-- amos-full-brain-os-architecture
+  - amos-os
+  - knowledge
+  - vault
+  - 03_rscf
+  - amos_rscf_index
+  - proof_capsules
+  - rscf_nodes
+  - rscf
+  - canon_candidate
+  - canon/knowledge
+  - amos-full-brain-os-architecture
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -37,16 +37,16 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - 03_RSCF_MOC
-  - AMOS_CORPUS
+    - 03_RSCF_MOC
+    - AMOS_CORPUS
   scope:
-  - KNOWLEDGE_RSCF
-  - AMOS_RSCF_INDEX
-  - SOURCE_DEFINED_MODEL
+    - KNOWLEDGE_RSCF
+    - AMOS_RSCF_INDEX
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   rscf_moc:
     artifact:
-    - - 03_RSCF_MOC
+      -   - 03_RSCF_MOC
   brain_os:
     artifact: 11_KNOWLEDGE/AMOS_FULL_BRAIN_OS_ARCHITECTURE
 epistemic_boundary:
@@ -62,28 +62,28 @@ epistemic_boundary:
 
 It tracks the verifiable proof headers, epistemic classifications, and confidence bounds of the core AMOS OS subsystems.
 
----
+______________________________________________________________________
 
-# 1. Indexed RSCF Capsules
+## 1. Indexed RSCF Capsules
 
-| Node ID | Subsystem | Claim Class | Invariant / Boundary | Status |
-| :--- | :--- | :--- | :--- | :--- |
-| `RSCF-AMOS-001` | Full Brain OS Architecture | `AMOS_MODEL` | 6 Hard System Constraints | Active |
-| `RSCF-AMOS-002` | Organism OS Architecture | `AMOS_MODEL` | Living Metabolic Substrate | Active |
-| `RSCF-AMOS-003` | Mind OS Architecture | `AMOS_MODEL` | Epistemic Metacognition | Active |
-| `RSCF-AMOS-004` | Canonical Agent Mesh | `SYSTEM_INVARIANT` | $\text{Capability} \neq \text{Authority}$ | Active |
+| Node ID         | Subsystem                  | Claim Class        | Invariant / Boundary                      | Status |
+| :-------------- | :------------------------- | :----------------- | :---------------------------------------- | :----- |
+| `RSCF-AMOS-001` | Full Brain OS Architecture | `AMOS_MODEL`       | 6 Hard System Constraints                 | Active |
+| `RSCF-AMOS-002` | Organism OS Architecture   | `AMOS_MODEL`       | Living Metabolic Substrate                | Active |
+| `RSCF-AMOS-003` | Mind OS Architecture       | `AMOS_MODEL`       | Epistemic Metacognition                   | Active |
+| `RSCF-AMOS-004` | Canonical Agent Mesh       | `SYSTEM_INVARIANT` | $\text{Capability} \neq \text{Authority}$ | Active |
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **RSCF MOC:** [[11_KNOWLEDGE/03_RSCF/03_RSCF_MOC|03_RSCF_MOC]]
 - **Full Brain OS:** [[11_KNOWLEDGE/AMOS_FULL_BRAIN_OS_ARCHITECTURE|AMOS_FULL_BRAIN_OS_ARCHITECTURE]]
 - **Cognitive Matrix:** [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -101,11 +101,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[01_CANON/01_CORE_LAWS/ATOMIC_MULTI_RSCF|ATOMIC_MULTI_RSCF]] · [[02_KERNEL/K_ATOMIC_MULTI_RSCF|K_ATOMIC_MULTI_RSCF]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/03_RSCF/03_RSCF_MOC|03_RSCF_MOC]] · [[11_KNOWLEDGE/AMOS_FULL_BRAIN_OS_ARCHITECTURE|AMOS_FULL_BRAIN_OS_ARCHITECTURE]] · [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]
 
----
+______________________________________________________________________
+
 **MOC:** [[11_KNOWLEDGE/03_RSCF/03_RSCF_MOC|03_RSCF_MOC]]
-
-

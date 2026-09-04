@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Vault Domain Knowledge — Amos Process Compliance Auditor Rscf
 type: reference
 source: 07_SKILLS/amos-process-compliance-auditor-rscf/references
 tags:
-- reference
-- amos-process-compliance-auditor-rscf
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-process-compliance-auditor-rscf
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -24,6 +27,7 @@ rscf:
 ## Vault-Sourced Content
 
 ### Source 1: 3b. Governance
+
 - process v8
 
 > Path: `governance/3b. Governance - process v8.md` | Size: 44077 chars | Match score: 13 | content_hash: eba092d319d1f032
@@ -34,10 +38,11 @@ About TCJ
 Governance
 Thisplaybookcontainsallthepieces andpartsthat
 makeupourapproachtotransforming customer
-| journeys.Thisis | | alivingdocumentandthelatest |
-| --------------- | -------- | ----------------------------- |
-| versioncan | be found | onTCJ’sConfluencesite. |
-Last updated in May 2019
+
+| journeys.Thisis          |          | alivingdocumentandthelatest |
+| ------------------------ | -------- | --------------------------- |
+| versioncan               | be found | onTCJ’sConfluencesite.      |
+| Last updated in May 2019 |          |                             |
 
 How this module fits into overall TCJ Playbook
 Transformation
@@ -103,28 +108,31 @@ McKinsey & Company
 
 TCJ governance bodies
 With wider Bank Within TCJ
-| Scope | Committee | Purpose | Attendees | Frequency |
-| ----- | --------- | ------- | --------- | --------- |
-Program-level TCJ Business Budget allocation based on drawdown approved by DEXCO Chief Strategy and Design (Chair) Monthly
-Review Drawdown for all OPEX and CAPEX expenditures below RM1m (within Group Chief Technology Officer
-budget) Group Technology Leads (e.g. EAS, IT Security, App)
-| | | Overall TCJ program delivery plan (Benefits and timeline by Journey) | Head of TCJ | |
-| --- | --- | -------------------------------------------
 
----
+| Scope                                                                                                                      | Committee | Purpose                                                              | Attendees   | Frequency |
+| -------------------------------------------------------------------------------------------------------------------------- | --------- | -------------------------------------------------------------------- | ----------- | --------- |
+| Program-level TCJ Business Budget allocation based on drawdown approved by DEXCO Chief Strategy and Design (Chair) Monthly |           |                                                                      |             |           |
+| Review Drawdown for all OPEX and CAPEX expenditures below RM1m (within Group Chief Technology Officer                      |           |                                                                      |             |           |
+| budget) Group Technology Leads (e.g. EAS, IT Security, App)                                                                |           |                                                                      |             |           |
+|                                                                                                                            |           | Overall TCJ program delivery plan (Benefits and timeline by Journey) | Head of TCJ |           |
+| ---                                                                                                                        | ---       | -------------------------------------------                          |             |           |
+
+______________________________________________________________________
 
 ### Source 2: NEW PROCESS — 7-Way Transformation Framework
 
 > Path: `misc/N/NEW PROCESS Transformation Framework.md` | Size: 2521 chars | Match score: 10 | content_hash: 423504c964de816c
 
-# NEW PROCESS — 7-Way Transformation Framework
+## NEW PROCESS — 7-Way Transformation Framework
 
 ## Overview
+
 Transforming Customer Journeys (TCJ) Playbook — living document for journey team transformation.
 
 ## Phases
 
 ### 1. Planning (2 months)
+
 - Initial insight analysis (internal + external)
 - Process diagnostic
 - Revenue/cost baselining
@@ -135,6 +143,7 @@ Transforming Customer Journeys (TCJ) Playbook — living document for journey te
 - To-be journeys definition
 
 ### 2. Incubation (2 months)
+
 - Collective understanding of current journey (customer perspective)
 - Zero-based design (leadership choice)
 - Validate change levers
@@ -145,93 +154,103 @@ Transforming Customer Journeys (TCJ) Playbook — living document for journey te
 - Validation through customer insight/research
 
 ### 3. Build & Pilot
+
 - Minimum Viable Product (MVR) — tech or non-tech
 - Test and learn with customers
 - Iterate MVP
 - Prepare for scale
 
 ### 4. Waves MVP (4 waves × 3 months each)
+
 - Roll in volume and people into Lab
 - Deploy, test, learn, iterate
 - New features released regularly
 
 ### 5. Roll-in and Scale
+
 - IT industrialization
 - Roll out to BAU volume
 - Ops model transition
 - Performance and value assurance
 
 ### 6. People
+
 - 6a: Recruiting targets
 - 6b: Onboarding
 - 6c: Capability building
 - 6d: Retention and performance management
 
 ### 7. Culture
+
 - Culture transformation
 - Change management
 - Communication strategy
 
 ## Cross-Journey Elements
+
 - **Transformation Strategy**: 5-year roadmap, economics, org blueprint
 - **Technology**: Target architecture, DevOps
 - **Enablement**: Tech execution plan
 - **Transformation Management**: Org structure, talent, governance, decision-making
 
 ## Key Outputs
+
 Map of sub-journeys, target architecture, business case, roadmap, validated learning, metrics/tracking, aligned leadership purpose.
 
----
+______________________________________________________________________
 
+______________________________________________________________________
 
----
-
----
+______________________________________________________________________
 
 ### Source 3: AMOS Signal Processing Engine
 
 > Path: `signal/Signal_Processing_Model.md` | Size: 1602 chars | Match score: 7 | content_hash: 569fbb641a26162b
 
-# AMOS Signal Processing Engine
-
+## AMOS Signal Processing Engine
 
 The **Signal Processing Engine** treats physical, biological, and socio-technical data as signals, applying rigorous mathematical and structural conditioning.
 
 ## Architecture Layers
+
 1. **L1 Acquisition:**
 
 Time synchronization, unit normalization, metadata.
-2. **L2 Preprocessing:**
+2\. **L2 Preprocessing:**
 
 Filters (low/high/band-pass), outlier rejection, gap masking.
-3. **L3 Feature Extraction:** FFT, wavelets, time-domain morphology, HRV.
-4. **L4 Pattern Detection:**
+3\. **L3 Feature Extraction:** FFT, wavelets, time-domain morphology, HRV.
+4\. **L4 Pattern Detection:**
 
 Regime segmentation (normal, drift, fault, transient).
-5. **L5 Causal Reasoning:**
+5\. **L5 Causal Reasoning:**
 
 Cross-correlation, lag, risk projection.
-6. **L6 Synthesis:**
+6\. **L6 Synthesis:**
 
 Control advisory interface, audience-tailored summaries.
 
 ## Core Pipelines
+
 - **EV Charging Station Telemetry:** Evaluates phase voltage, harmonics, load profiles to recommend derating or maintenance.
 - **Biomedical Advisory:** Smooths HRV/HR to recommend rest or pacing (non-clinical only).
 - **Org & System Telemetry:** Evaluates operational KPIs (latency, SLA drops) as signals to detect systemic load or fragmentation.
 
 ## Constraints
+
 Cannot diagnose medical conditions or bypass hardware control safeties. All outputs are advisory.
 
----
+______________________________________________________________________
 
----
+______________________________________________________________________
+
 **MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -239,12 +258,14 @@ Cannot diagnose medical conditions or bypass hardware control safeties. All outp
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-process-compliance-auditor-rscf-vault-domain-knowledge
 node_type: reference
 path: 07_SKILLS/amos-process-compliance-auditor-rscf/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

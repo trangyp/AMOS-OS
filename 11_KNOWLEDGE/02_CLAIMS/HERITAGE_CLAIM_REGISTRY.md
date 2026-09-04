@@ -12,21 +12,21 @@ segment: 11_KNOWLEDGE/02_CLAIMS
 artifact_kind: REGISTRY
 path: 11_KNOWLEDGE/02_CLAIMS/HERITAGE_CLAIM_REGISTRY.md
 tags:
-- amos-os
-- knowledge
-- vault
-- 02_claims
-- heritage_claim_registry
-- heritage_claims
-- epistemic_claims
-- rscf
-- canon_candidate
-- canon/knowledge
-- heritage-intelligence-master
-- heritage-fractal-mathematics
-- heritage-provenance
-- heritage-music-acoustic-intelligence
-- heritage-handbook
+  - amos-os
+  - knowledge
+  - vault
+  - 02_claims
+  - heritage_claim_registry
+  - heritage_claims
+  - epistemic_claims
+  - rscf
+  - canon_candidate
+  - canon/knowledge
+  - heritage-intelligence-master
+  - heritage-fractal-mathematics
+  - heritage-provenance
+  - heritage-music-acoustic-intelligence
+  - heritage-handbook
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -41,21 +41,21 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - HERITAGE_INTELLIGENCE_CANON
-  - AMOS_CORPUS
+    - HERITAGE_INTELLIGENCE_CANON
+    - AMOS_CORPUS
   scope:
-  - KNOWLEDGE_CLAIMS
-  - HERITAGE_CLAIMS
-  - SOURCE_DEFINED_MODEL
+    - KNOWLEDGE_CLAIMS
+    - HERITAGE_CLAIMS
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   claims_moc:
     artifact:
-    - - 02_CLAIMS_MOC
+      -   - 02_CLAIMS_MOC
   rscf_index:
     artifact: 11_KNOWLEDGE/03_RSCF/HERITAGE_RSCF_INDEX
   heritage_master:
     artifact:
-    - - HERITAGE_INTELLIGENCE_MASTER
+      -   - HERITAGE_INTELLIGENCE_MASTER
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   registry_structure: VERIFIED_SOURCE_STRUCTURE
@@ -69,29 +69,29 @@ epistemic_boundary:
 
 It catalogues and classifies all formal assertions concerning ancestral geometry, historical survival dynamics, fractal typologies, and civilizational memory.
 
----
+______________________________________________________________________
 
-# 1. Registered Heritage Claims
+## 1. Registered Heritage Claims
 
-| Claim ID | Source Artifact | Claim Assertion | Epistemic Class | Status |
-| :--- | :--- | :--- | :--- | :--- |
-| `CLM-HRT-001` | [[11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_INTELLIGENCE_MASTER|HERITAGE_INTELLIGENCE_MASTER]] | 32-Layer Stack: Structural mapping across 10 distinct signal classes | `AMOS_MODEL` | Grounded |
-| `CLM-HRT-002` | [[11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_FRACTAL_MATHEMATICS|HERITAGE_FRACTAL_MATHEMATICS]] | 12 Fractal Typologies: Scale-invariant repeating geometries | `MATHEMATICAL_MODEL` | Grounded |
-| `CLM-HRT-003` | [[01_CANON/07_PROVENANCE/HERITAGE_PROVENANCE|HERITAGE_PROVENANCE]] | Source Independence Law: $\text{Source Count} \neq \text{Independent Provenance}$ | `SYSTEM_INVARIANT` | Grounded |
-| `CLM-HRT-004` | [[11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_MUSIC_ACOUSTIC_INTELLIGENCE|HERITAGE_MUSIC_ACOUSTIC_INTELLIGENCE]] | Harmonic Entrainment: Bronze metallurgy induces theta/alpha neural synchrony | `OBSERVATION_GROUNDED` | Grounded |
+| Claim ID      | Source Artifact                                                     | Claim Assertion                          | Epistemic Class                                                                   | Status                 |
+| :------------ | :------------------------------------------------------------------ | :--------------------------------------- | :-------------------------------------------------------------------------------- | :--------------------- |
+| `CLM-HRT-001` | \[\[11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_INTELLIGENCE_MASTER         | HERITAGE_INTELLIGENCE_MASTER\]\]         | 32-Layer Stack: Structural mapping across 10 distinct signal classes              | `AMOS_MODEL`           |
+| `CLM-HRT-002` | \[\[11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_FRACTAL_MATHEMATICS         | HERITAGE_FRACTAL_MATHEMATICS\]\]         | 12 Fractal Typologies: Scale-invariant repeating geometries                       | `MATHEMATICAL_MODEL`   |
+| `CLM-HRT-003` | \[\[01_CANON/07_PROVENANCE/HERITAGE_PROVENANCE                      | HERITAGE_PROVENANCE\]\]                  | Source Independence Law: $\text{Source Count} \neq \text{Independent Provenance}$ | `SYSTEM_INVARIANT`     |
+| `CLM-HRT-004` | \[\[11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_MUSIC_ACOUSTIC_INTELLIGENCE | HERITAGE_MUSIC_ACOUSTIC_INTELLIGENCE\]\] | Harmonic Entrainment: Bronze metallurgy induces theta/alpha neural synchrony      | `OBSERVATION_GROUNDED` |
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Claims MOC:** [[11_KNOWLEDGE/02_CLAIMS/02_CLAIMS_MOC|02_CLAIMS_MOC]]
 - **RSCF Proof Index:** [[11_KNOWLEDGE/03_RSCF/HERITAGE_RSCF_INDEX|HERITAGE_RSCF_INDEX]]
 - **Heritage Master:** [[11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_INTELLIGENCE_MASTER|HERITAGE_INTELLIGENCE_MASTER]]
 - **Heritage Handbook:** [[11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_HANDBOOK|HERITAGE_HANDBOOK]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -109,11 +109,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[01_CANON/01_CORE_LAWS/ATOMIC_MULTI_RSCF|ATOMIC_MULTI_RSCF]] · [[02_KERNEL/K_ATOMIC_MULTI_RSCF|K_ATOMIC_MULTI_RSCF]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/02_CLAIMS/02_CLAIMS_MOC|02_CLAIMS_MOC]] · [[11_KNOWLEDGE/03_RSCF/HERITAGE_RSCF_INDEX|HERITAGE_RSCF_INDEX]] · [[11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_INTELLIGENCE_MASTER|HERITAGE_INTELLIGENCE_MASTER]] · [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]
 
----
+______________________________________________________________________
+
 **MOC:** [[11_KNOWLEDGE/02_CLAIMS/02_CLAIMS_MOC|02_CLAIMS_MOC]]
-
-

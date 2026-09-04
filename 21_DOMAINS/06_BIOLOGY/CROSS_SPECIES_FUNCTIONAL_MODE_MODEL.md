@@ -12,19 +12,19 @@ segment: 21_DOMAINS/06_BIOLOGY
 artifact_kind: DOMAIN_MODEL
 path: 21_DOMAINS/06_BIOLOGY/CROSS_SPECIES_FUNCTIONAL_MODE_MODEL.md
 tags:
-- amos-os
-- domain
-- vault
-- 06_biology
-- cross_species_functional_mode_model
-- comparative_ethology
-- organismic_adaptation
-- rscf
-- canon_candidate
-- canon/domain
-- uba-framework
-- unified-biological-intelligence
-- amos-organism-os-framework
+  - amos-os
+  - domain
+  - vault
+  - 06_biology
+  - cross_species_functional_mode_model
+  - comparative_ethology
+  - organismic_adaptation
+  - rscf
+  - canon_candidate
+  - canon/domain
+  - uba-framework
+  - unified-biological-intelligence
+  - amos-organism-os-framework
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -39,20 +39,20 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - 11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE
-  - 11_KNOWLEDGE/05_FRAMEWORKS/UBA_FRAMEWORK
-  - AMOS_CORPUS
+    - 11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE
+    - 11_KNOWLEDGE/05_FRAMEWORKS/UBA_FRAMEWORK
+    - AMOS_CORPUS
   scope:
-  - DOMAIN_BIOLOGY
-  - CROSS_SPECIES_MODES
-  - SOURCE_DEFINED_MODEL
+    - DOMAIN_BIOLOGY
+    - CROSS_SPECIES_MODES
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   uba_framework:
     artifact:
-    - - UBA_FRAMEWORK
+      -   - UBA_FRAMEWORK
   biological_master:
     artifact:
-    - - UNIFIED_BIOLOGICAL_INTELLIGENCE
+      -   - UNIFIED_BIOLOGICAL_INTELLIGENCE
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   domain_structure: VERIFIED_SOURCE_STRUCTURE
@@ -64,28 +64,28 @@ epistemic_boundary:
 
 `CROSS_SPECIES_FUNCTIONAL_MODE_MODEL.md` is the canonical Domain Plane specification governing comparative ethology, multi-species behavioral archetypes, and adaptive survival modes within `21_DOMAINS/06_BIOLOGY`.
 
----
+______________________________________________________________________
 
-# 1. Cross-Species Behavioral Mode Matrix
+## 1. Cross-Species Behavioral Mode Matrix
 
-| Species Archetype | Primary Sensory Invariant | Survival Functional Mode | AI Adaptation Mapping |
-| :--- | :--- | :--- | :--- |
-| **Avian Flocking** | Local optical velocity consensus | Distributed spatial coordination | Decentralized Multi-Agent Swarm |
-| **Cephalopod Camouflage** | Direct chromatophore cutaneous feedback | Dynamic environmental mimicry | Context-Adaptive UI Rendering |
-| **Mycelial Network** | Nutrient gradient chemical routing | Non-centralized resource allocation | Distributed Memory Graph Routing |
-| **Hominid Social Loop** | Vagal tone & micro-expression empathy | Polycentric collaborative consensus | Sovereign Human-AI Alignment |
+| Species Archetype         | Primary Sensory Invariant               | Survival Functional Mode            | AI Adaptation Mapping            |
+| :------------------------ | :-------------------------------------- | :---------------------------------- | :------------------------------- |
+| **Avian Flocking**        | Local optical velocity consensus        | Distributed spatial coordination    | Decentralized Multi-Agent Swarm  |
+| **Cephalopod Camouflage** | Direct chromatophore cutaneous feedback | Dynamic environmental mimicry       | Context-Adaptive UI Rendering    |
+| **Mycelial Network**      | Nutrient gradient chemical routing      | Non-centralized resource allocation | Distributed Memory Graph Routing |
+| **Hominid Social Loop**   | Vagal tone & micro-expression empathy   | Polycentric collaborative consensus | Sovereign Human-AI Alignment     |
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **UBA Framework:** [[11_KNOWLEDGE/05_FRAMEWORKS/UBA_FRAMEWORK|UBA_FRAMEWORK]]
 - **Biological Master:** [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]]
 - **Organism OS:** [[11_KNOWLEDGE/05_FRAMEWORKS/AMOS_ORGANISM_OS_FRAMEWORK|AMOS_ORGANISM_OS_FRAMEWORK]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -103,10 +103,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[21_DOMAINS/21_DOMAINS_MOC|21_DOMAINS_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/UBA_FRAMEWORK|UBA_FRAMEWORK]] · [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]]
 
----
-**MOC:** [[21_DOMAINS/21_DOMAINS_MOC|21_DOMAINS_MOC]]
+______________________________________________________________________
 
+**MOC:** [[21_DOMAINS/21_DOMAINS_MOC|21_DOMAINS_MOC]]

@@ -1,14 +1,17 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Vault Domain Knowledge — Amos Human State Ontology Mapper
 type: reference
 source: 07_SKILLS/amos-human-state-ontology-mapper/references
 tags:
-- reference
-- amos-human-state-ontology-mapper
-- type/skill
-- ratpak
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-human-state-ontology-mapper
+  - type/skill
+  - ratpak
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -29,60 +32,60 @@ rscf:
 > Path: `architecture/ai_architecture_factory_v2_ontology (hierarchical_ai_architecture_generator).md` | Size: 2508 chars | Match score: 15 | content_hash: e33a03a4c2519cb9
 
 {
-  "metadata": {
-    "title": "AI Architecture Factory V2 Ontology",
-    "version": "2.0",
-    "purpose": "Architecture compilation from natural language goals",
-    "core_equation": "S_next = C(F(S, U))"
-  },
-  "domain_libraries": {
-    "ai_agent": {
-      "entities": ["agent", "ai", "assistant", "bot", "model", "system"],
-      "architecture_defaults": ["state_machine", "memory_layer", "reasoning_core", "output_generator"],
-      "laws": ["state_update", "memory_consistency", "output_coherence"]
-    },
-    "medical": {
-      "entities": ["medical", "health", "diagnosis", "treatment", "patient", "clinical"],
-      "architecture_defaults": ["safety_gate", "privacy_gate", "audit_trace", "human_override"],
-      "laws": ["risk_assessment", "safety_validation", "privacy_protection"]
-    },
-    "financial": {
-      "entities": ["financial", "trading", "investment", "portfolio", "market", "risk"],
-      "architecture_defaults": ["risk_gate", "audit_trace", "compliance_check", "fraud_detection"],
-      "laws": ["risk_score", "compliance_validation", "fraud_prevention"]
-    },
-    "legal": {
-      "entities": ["legal", "contract", "compliance", "regulation", "jurisdiction", "law"],
-      "architecture_defaults": ["policy_gate", "audit_trace", "compliance_check", "jurisdiction_aware"],
-      "laws": ["policy_validation", "compliance_check", "jurisdiction_respect"]
-    },
-    "data_science": {
-      "entities": ["data", "dataset", "analysis", "statistics", "ml", "model"],
-      "architecture_defaults": ["data_ingestion", "processing_pipeline", "model_training", "evaluation"],
-      "laws": ["data_integrity", "model_validity", "statistical_soundness"]
-    }
-  },
-  "primitive_libraries": {
-    "state_primitives": ["state_vector", "memory_buffer", "context_window", "attention_state"],
-    "equation_primitives": {
-      "state_update": "S(t+1) = F(S(t), I(t))",
-      "risk_score": "R = Σ w_i * risk_factor_i",
-      "schema_validity": "V(schema, data) ∈ {true, false}",
-      "recursive_refine": "S_n = R(S_{n-1}, feedback)",
-      "tool_utility": "U(tool, context) = expected_value",
-      "memory_update": "M(t+1) = M(t) ⊕ new_information",
-      "non_overlap": "O(A, B) = |A ∩ B| = 0",
-      "fractal_scale": "S(k) = S(k-1)^α",
-      "scale_similarity": "Sim(S1, S2) = f(scale_factor)"
-    }
-  }
+"metadata": {
+"title": "AI Architecture Factory V2 Ontology",
+"version": "2.0",
+"purpose": "Architecture compilation from natural language goals",
+"core_equation": "S_next = C(F(S, U))"
+},
+"domain_libraries": {
+"ai_agent": {
+"entities": ["agent", "ai", "assistant", "bot", "model", "system"],
+"architecture_defaults": ["state_machine", "memory_layer", "reasoning_core", "output_generator"],
+"laws": ["state_update", "memory_consistency", "output_coherence"]
+},
+"medical": {
+"entities": ["medical", "health", "diagnosis", "treatment", "patient", "clinical"],
+"architecture_defaults": ["safety_gate", "privacy_gate", "audit_trace", "human_override"],
+"laws": ["risk_assessment", "safety_validation", "privacy_protection"]
+},
+"financial": {
+"entities": ["financial", "trading", "investment", "portfolio", "market", "risk"],
+"architecture_defaults": ["risk_gate", "audit_trace", "compliance_check", "fraud_detection"],
+"laws": ["risk_score", "compliance_validation", "fraud_prevention"]
+},
+"legal": {
+"entities": ["legal", "contract", "compliance", "regulation", "jurisdiction", "law"],
+"architecture_defaults": ["policy_gate", "audit_trace", "compliance_check", "jurisdiction_aware"],
+"laws": ["policy_validation", "compliance_check", "jurisdiction_respect"]
+},
+"data_science": {
+"entities": ["data", "dataset", "analysis", "statistics", "ml", "model"],
+"architecture_defaults": ["data_ingestion", "processing_pipeline", "model_training", "evaluation"],
+"laws": ["data_integrity", "model_validity", "statistical_soundness"]
+}
+},
+"primitive_libraries": {
+"state_primitives": ["state_vector", "memory_buffer", "context_window", "attention_state"],
+"equation_primitives": {
+"state_update": "S(t+1) = F(S(t), I(t))",
+"risk_score": "R = Σ w_i * risk_factor_i",
+"schema_validity": "V(schema, data) ∈ {true, false}",
+"recursive_refine": "S_n = R(S\_{n-1}, feedback)",
+"tool_utility": "U(tool, context) = expected_value",
+"memory_update": "M(t+1) = M(t) ⊕ new_information",
+"non_overlap": "O(A, B) = |A ∩ B| = 0",
+"fractal_scale": "S(k) = S(k-1)^α",
+"scale_similarity": "Sim(S1, S2) = f(scale_factor)"
+}
+}
 }
 
----
+______________________________________________________________________
 
----
+______________________________________________________________________
 
-### Source 3: B The Living State Monetisation Thesis_ A New Economic Paradigm
+### Source 3: B The Living State Monetisation Thesis\_ A New Economic Paradigm
 
 > Path: `economy/B The Living State Monetisation Thesis_ A New Economic Paradigm.md` | Size: 81300 chars | Match score: 12 | content_hash: 9ecae48402aa98be
 
@@ -148,7 +151,6 @@ effectively collaborate with AI systems in maintaining optimal states. It's the 
 
 potential and machine capability.
 
-
 Twenty-One Domains of Living State Monetisation
 
 1. Energy Infrastructure: The Frequency Guarantee
@@ -165,13 +167,15 @@ call for corrective action, precious seconds—sometimes minutes—have been los
 
 Technical Integration: The Symphony of Stability [[11_KNOWLEDGE/05_FRAMEWORKS/RATPAK|RATPAK]] orchestrates a dist
 
----
+______________________________________________________________________
+
 **MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -179,12 +183,14 @@ Technical Integration: The Symphony of Stability [[11_KNOWLEDGE/05_FRAMEWORKS/RA
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-human-state-ontology-mapper-vault-domain-knowledge
 node_type: reference
 path: 07_SKILLS/amos-human-state-ontology-mapper/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

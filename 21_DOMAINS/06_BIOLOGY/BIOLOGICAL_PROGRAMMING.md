@@ -12,19 +12,19 @@ segment: 21_DOMAINS/06_BIOLOGY
 artifact_kind: DOMAIN_ENGINE
 path: 21_DOMAINS/06_BIOLOGY/BIOLOGICAL_PROGRAMMING.md
 tags:
-- amos-os
-- domain
-- vault
-- 06_biology
-- biological_programming
-- non_von_neumann
-- metabolic_computing
-- rscf
-- canon_candidate
-- canon/domain
-- bio-logical-computing
-- bio-logical-architecture
-- amos-organism-os-framework
+  - amos-os
+  - domain
+  - vault
+  - 06_biology
+  - biological_programming
+  - non_von_neumann
+  - metabolic_computing
+  - rscf
+  - canon_candidate
+  - canon/domain
+  - bio-logical-computing
+  - bio-logical-architecture
+  - amos-organism-os-framework
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -39,13 +39,13 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - 11_KNOWLEDGE/05_FRAMEWORKS/BIO_LOGICAL_COMPUTING
-  - 11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE
-  - AMOS_CORPUS
+    - 11_KNOWLEDGE/05_FRAMEWORKS/BIO_LOGICAL_COMPUTING
+    - 11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE
+    - AMOS_CORPUS
   scope:
-  - DOMAIN_BIOLOGY
-  - BIOLOGICAL_PROGRAMMING
-  - SOURCE_DEFINED_MODEL
+    - DOMAIN_BIOLOGY
+    - BIOLOGICAL_PROGRAMMING
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   bio_computing_framework:
     artifact: 11_KNOWLEDGE/05_FRAMEWORKS/BIO_LOGICAL_COMPUTING
@@ -62,25 +62,25 @@ epistemic_boundary:
 
 `BIOLOGICAL_PROGRAMMING.md` is the canonical Domain Plane specification governing the non-von Neumann metabolic computing execution, cellular state machines, and bio-logical syntax compilation within `21_DOMAINS/06_BIOLOGY`.
 
----
+______________________________________________________________________
 
-# 1. Non-von Neumann Metabolic Execution
+## 1. Non-von Neumann Metabolic Execution
 
 1. **Energy-Gated Instruction Processing:** Computations consume simulated metabolic budgets (ATP equivalents) to enforce physical efficiency constraints.
-2. **Self-Healing State Machines:** Algorithmic modules autonomously regenerate degraded memory graphs via biological self-repair routines.
-3. **Bio-Logical Compiling:** Compiles abstract cognitive tasks into biologically plausible biochemical signaling pathways.
+1. **Self-Healing State Machines:** Algorithmic modules autonomously regenerate degraded memory graphs via biological self-repair routines.
+1. **Bio-Logical Compiling:** Compiles abstract cognitive tasks into biologically plausible biochemical signaling pathways.
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Bio-Computing Framework:** 11_KNOWLEDGE/05_FRAMEWORKS/[[11_KNOWLEDGE/05_FRAMEWORKS/BIO_LOGICAL_COMPUTING|BIO_LOGICAL_COMPUTING]]
 - **Biological Architecture:** 11_KNOWLEDGE/05_FRAMEWORKS/[[11_KNOWLEDGE/05_FRAMEWORKS/BIO_LOGICAL_ARCHITECTURE|BIO_LOGICAL_ARCHITECTURE]]
 - **Organism OS:** 11_KNOWLEDGE/05_FRAMEWORKS/[[11_KNOWLEDGE/05_FRAMEWORKS/AMOS_ORGANISM_OS_FRAMEWORK|AMOS_ORGANISM_OS_FRAMEWORK]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -98,10 +98,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[21_DOMAINS/21_DOMAINS_MOC|21_DOMAINS_MOC]] · 11_KNOWLEDGE/05_FRAMEWORKS/[[11_KNOWLEDGE/05_FRAMEWORKS/BIO_LOGICAL_COMPUTING|BIO_LOGICAL_COMPUTING]] · 11_KNOWLEDGE/05_FRAMEWORKS/[[11_KNOWLEDGE/05_FRAMEWORKS/AMOS_ORGANISM_OS_FRAMEWORK|AMOS_ORGANISM_OS_FRAMEWORK]]
 
----
-**MOC:** [[21_DOMAINS/21_DOMAINS_MOC|21_DOMAINS_MOC]]
+______________________________________________________________________
 
+**MOC:** [[21_DOMAINS/21_DOMAINS_MOC|21_DOMAINS_MOC]]

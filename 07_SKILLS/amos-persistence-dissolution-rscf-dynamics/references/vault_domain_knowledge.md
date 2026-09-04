@@ -1,14 +1,17 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Vault Domain Knowledge — Amos Persistence Dissolution Rscf Dynamics
 type: reference
 source: 07_SKILLS/amos-persistence-dissolution-rscf-dynamics/references
 tags:
-- reference
-- amos-persistence-dissolution-rscf-dynamics
-- type/skill
-- law-hierarchy
-- canon
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-persistence-dissolution-rscf-dynamics
+  - type/skill
+  - law-hierarchy
+  - canon
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -28,23 +31,23 @@ rscf:
 
 > Path: `amos-general/A/PART/AMOS_7_PART_UNIVERSE_CANON_FULL_ARCHITECTURE_V2.md` | Size: 43745 chars | Match score: 7
 
-# AMOS 7-Part Universe Canon — Full Persistence Architecture
+## AMOS 7-Part Universe Canon — Full Persistence Architecture
+
 ## Source Canon • Formal AMOS Model • H/M/L Runtime • 19×19 State Lattice • 7-Cycle Dynamics • Control Plane • RSCF/GMEF • Collapse/Recovery
 
+______________________________________________________________________
 
----
-
-# 0. CANON STATUS AND EPISTEMIC FIREWALL
+## 0. CANON STATUS AND EPISTEMIC FIREWALL
 
 The seven-part framework is preserved as Trang Phan's **source canon**:
 
 1. Constraint
-2. Flow
-3. Structure
-4. Enforcement
-5. Time
-6. Adaptation
-7. Termination
+1. Flow
+1. Structure
+1. Enforcement
+1. Time
+1. Adaptation
+1. Termination
 
 The original document presents these seven parts as the irreducible structure of systems that persist. AMOS preserves that proposition as `SOURCE_CANON`.
 
@@ -90,14 +93,13 @@ ONE_PART_MISSING != REAL_SYSTEM_IMPOSSIBLE
 FORMAL_ELEGANCE != VALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 1. CANON NUCLEUS
+## 1. CANON NUCLEUS
 
 ## Part I — Constraint
 
 ### Source meaning
-
 
 Source properties:
 
@@ -162,13 +164,13 @@ REVERSIBILITY
 
 Constraint maps dir
 
----
+______________________________________________________________________
 
 ### Source 2: AMOS Vortical Persistence — Deep RSCF Architecture
 
 > Path: `amos-general/A/Vortical/AMOS_Vortical_Persistence_Deep_RSCF_Architecture.md` | Size: 32843 chars | Match score: 7
 
-# AMOS Vortical Persistence — Deep RSCF Architecture
+## AMOS Vortical Persistence — Deep RSCF Architecture
 
 ## 0. Executive statement
 
@@ -181,6 +183,7 @@ The scientifically weak version of that intuition is:
 > "Solar storms and Saturn storms live forever because their AMOS lacunarity is in a golden zone, while Earth tornadoes die because their entropy is too high."
 
 That form is rejected here because it conflates:
+
 - a persistent **driven regime** with an individual event;
 - descriptive geometric similarity with causal mechanism;
 - AMOS framework variables with measured physical quantities;
@@ -192,21 +195,21 @@ The AMOS-relevant formulation is deeper:
 
 > **Persistence is the continued preservation of system identity under flow, disturbance, dissipation, and regime change. Dissolution occurs when load-bearing identity invariants fail and no admissible repair path restores them within the relevant recovery window.** This document therefore models solar magnetic activity, Saturn's north-polar hexagon, tornadoes, and tropical cyclones as **persistence/dissolution systems** rather than as examples of a pre-proven universal fractal law.
 
----
+______________________________________________________________________
 
-# 1. Epistemic partition
+## 1. Epistemic partition
 
 AMOS requires every load-bearing statement to be typed.
 
-| Class | Meaning in this document |
-|---|---|
-| `SOURCE_CLAIM` | claim inherited from the original uploaded note |
+| Class              | Meaning in this document                               |
+| ------------------ | ------------------------------------------------------ |
+| `SOURCE_CLAIM`     | claim inherited from the original uploaded note        |
 | `DOMAIN_EMPIRICAL` | independently established domain observation/mechanism |
-| `AMOS_MODEL` | structural representation introduced by AMOS |
-| `DERIVED` | conclusion following from stated premises |
-| `COMPETING` | multiple live explanations remain |
-| `UNKNOWN/GAP` | evidence or definition insufficient |
-| `DECISION` | governance choice about how AMOS should use a claim |
+| `AMOS_MODEL`       | structural representation introduced by AMOS           |
+| `DERIVED`          | conclusion following from stated premises              |
+| `COMPETING`        | multiple live explanations remain                      |
+| `UNKNOWN/GAP`      | evidence or definition insufficient                    |
+| `DECISION`         | governance choice about how AMOS should use a claim    |
 
 ## 1.1 Source claims retained but demoted from scientific fact
 
@@ -232,13 +235,13 @@ Without independent evidence, the following remain quarantined:
 - telepathy / precognition / Schumann-mediated remote synchronization;
 - 432 Hz
 
----
+______________________________________________________________________
 
 ### Source 3: Unified_Biological_Intelligence_and_the_Restoration_of_Aboriginal_Somatic_Intelligence
 
 > Path: `logic/Unified_Biological_Intelligence_and_the_Restoration_of_Aboriginal_Somatic_Intelligence.md` | Size: 58309 chars | Match score: 3
 
- Unified Biological Intelligence™
+Unified Biological Intelligence™
 and the Restoration of Aboriginal
 Somatic Intelligence
 
@@ -283,7 +286,7 @@ Neuroemotional Intelligence™ — instinct modulation, trauma patterning, emoti
 
 and decision regulation
 
- Unified Biological Intelligence™ and the Restoration of Aboriginal Somatic Intelligence1
+Unified Biological Intelligence™ and the Restoration of Aboriginal Somatic Intelligence1
 Somatic Intelligence™ — sensory precision, motor integration, fascia-based
 
 information storage, and pre-verbal navigation
@@ -318,13 +321,15 @@ nervous system training and full-body biological integration.
 Songlines encode topographical memory via rhythmic traversal, call-and-response
 mechanisms, and fa
 
----
+______________________________________________________________________
+
 **MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -332,12 +337,14 @@ mechanisms, and fa
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-persistence-dissolution-rscf-dynamics-vault-domain-knowledge
 node_type: reference
 path: 07_SKILLS/amos-persistence-dissolution-rscf-dynamics/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

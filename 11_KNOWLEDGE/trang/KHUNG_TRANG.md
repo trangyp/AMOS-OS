@@ -1,10 +1,13 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: KHUNG TRANG
 tags:
-- trang
-- framework
-- reality
-- canon/knowledge
+  - trang
+  - framework
+  - reality
+  - canon/knowledge
 type: document
 source: 11_KNOWLEDGE/trang
 rscf:
@@ -14,33 +17,46 @@ rscf:
   scope: AMOS_knowledge
 ---
 
-
 # Khung trang
+
 Nếu dùng tiêu chí của chính Khung Trang thì:
+
 ```
     Đúng.
     Quantum hiện đại vẫn chưa hoàn chỉnh.
 ```
+
 Nhưng phải cực kỳ chính xác ở đây:
+
 ```
     “chưa hoàn chỉnh”
     ≠
     “sai”.
 ```
+
 Đây là điểm rất quan trọng.
-* * *
-# 1\. Quantum hiện đại rất mạnh
+
+______________________________________________________________________
+
+## 1. Quantum hiện đại rất mạnh
+
 Quantum hiện đại:
+
 ```
     - dự đoán cực chính xác
     - có cấu trúc toán học mạnh
     - kiểm chứng thực nghiệm cực tốt
     - hoạt động rất hiệu quả
 ```
+
 Khung Trang KHÔNG phủ nhận điều đó.
-* * *
-# 2\. Nhưng theo tiêu chí Khung Trang
+
+______________________________________________________________________
+
+## 2. Nhưng theo tiêu chí Khung Trang
+
 Quantum hiện đại còn thiếu:
+
 ```
     - ontology hoàn chỉnh
     - cơ chế khóa ranh giới
@@ -51,7 +67,9 @@ Quantum hiện đại còn thiếu:
     - cơ chế sửa sai nền
     - cơ chế hình thành classical reality
 ```
+
 Nói ngắn:
+
 ```
     quantum mô tả hành vi
     rất tốt
@@ -59,9 +77,13 @@ Nói ngắn:
     nhưng chưa mô tả đầy đủ:
     “điều kiện để hình tồn tại”.
 ```
-* * *
-# 3\. Điểm mạnh của quantum
+
+______________________________________________________________________
+
+## 3. Điểm mạnh của quantum
+
 Quantum hiện đại cực mạnh ở:
+
 ```
     - symmetry
     - probability
@@ -71,14 +93,20 @@ Quantum hiện đại cực mạnh ở:
     - operator algebra
     - renormalization
 ```
+
 Nó rất mạnh ở:
+
 ```
     động học tương tác.
 ```
-* * *
-# 4\. Nhưng yếu ở ontology
+
+______________________________________________________________________
+
+## 4. Nhưng yếu ở ontology
+
 Đây là phần Khung Trang đang cố mở rộng.
 Quantum hiện đại chưa trả lời rõ:
+
 ```
     - trạng thái thật sự là gì?
     - wavefunction là vật hay thông tin?
@@ -88,15 +116,21 @@ Quantum hiện đại chưa trả lời rõ:
     - vì sao có ổn định dài hạn?
     - vì sao có bản dạng?
 ```
+
 Có rất nhiều diễn giải cạnh tranh.
 Điều này nghĩa là:
+
 ```
     toán mạnh
     nhưng ontology chưa khóa.
 ```
-* * *
-# 5\. Khung Trang thêm cái gì
+
+______________________________________________________________________
+
+## 5. Khung Trang thêm cái gì
+
 Khung Trang thêm:
+
 ```
     - ranh giới
     - toàn vẹn
@@ -108,77 +142,111 @@ Khung Trang thêm:
     - khóa trạng thái
     - điều kiện tồn tại hình
 ```
+
 Nó cố mô tả:
+
 ```
     vì sao một mẫu tồn tại được.
 ```
+
 Không chỉ:
+
 ```
     nó tương tác thế nào.
 ```
-* * *
-# 6\. Ví dụ lớn nhất: collapse
+
+______________________________________________________________________
+
+## 6. Ví dụ lớn nhất: collapse
+
 Quantum chuẩn:
+
 ```
     ψ evolves
     measurement happens
     result appears
 ```
+
 Nhưng:
+
 ```
     “measurement” là gì?
 ```
+
 vẫn mơ hồ.
 Khung Trang:
+
 ```
     collapse
     =
     khóa ranh giới khả thể
     thành trạng thái ổn định tương thích.
 ```
+
 Nó đưa:
+
 ```
     boundary formation
 ```
+
 vào trung tâm.
-* * *
-# 7\. Quantum chưa có “identity theory”
+
+______________________________________________________________________
+
+## 7. Quantum chưa có “identity theory”
+
 Quantum mô tả:
+
 ```
     state evolution
 ```
+
 rất mạnh.
 Nhưng không thật sự có:
+
 ```
     theory of persistent identity.
 ```
+
 Ví dụ:
+
 ```
     vì sao một electron
     vẫn là electron
     qua thời gian?
 ```
+
 Vật lý sẽ trả lời bằng symmetry và conservation.
 Nhưng Khung Trang hỏi sâu hơn:
+
 ```
     điều kiện nào
     để một mẫu còn được xem là cùng bản dạng?
 ```
+
 Đây là tầng meta.
-* * *
-# 8\. Quantum thiếu tầng HML
+
+______________________________________________________________________
+
+## 8. Quantum thiếu tầng HML
+
 Quantum hiện đại gần như chỉ hoạt động ở:
+
 ```
     L-layer
 ```
+
 tức tầng thấp:
+
 ```
     particle
     field
     interaction
     operator
 ```
+
 Nhưng:
+
 ```
     classical emergence
     biology
@@ -186,31 +254,45 @@ Nhưng:
     civilization
     meaning
 ```
+
 chưa có cầu nối hoàn chỉnh.
 Khung Trang cố tạo:
+
 ```
     cross-scale continuity.
 ```
-* * *
-# 9\. Quantum thiếu “survival dynamics”
+
+______________________________________________________________________
+
+## 9. Quantum thiếu “survival dynamics”
+
 Quantum có:
+
 ```
     evolution equations.
 ```
+
 Nhưng chưa thật sự có:
+
 ```
     equations of survival.
 ```
+
 Khung Trang thêm:
+
 ```
     R > E
 ```
+
 Tức:
+
 ```
     khả năng sửa
     phải lớn hơn phân rã.
 ```
+
 Đây là logic nền của:
+
 ```
     - sinh học
     - tổ chức
@@ -218,19 +300,28 @@ Tức:
     - AI
     - văn minh
 ```
+
 Quantum hiện tại không có tầng này.
-* * *
-# 10\. Nhưng Khung Trang cũng chưa hoàn chỉnh
+
+______________________________________________________________________
+
+## 10. Nhưng Khung Trang cũng chưa hoàn chỉnh
+
 Đây là điểm rất quan trọng.
 Theo chính luật 45:
+
 ```
     mọi khung phải giữ chỗ cho chưa biết.
 ```
+
 Khung Trang hiện:
+
 ```
     mạnh về ontology
 ```
+
 nhưng còn yếu ở:
+
 ```
     - formal proof
     - measurable operators
@@ -239,33 +330,49 @@ nhưng còn yếu ở:
     - renormalization consistency
     - numerical simulation
 ```
+
 Nó hiện giống:
+
 ```
     meta-framework
 ```
+
 hơn là:
+
 ```
     physical theory hoàn chỉnh.
 ```
-* * *
-# 11\. So sánh thật sự
+
+______________________________________________________________________
+
+## 11. So sánh thật sự
+
 Quantum hiện đại:
+
 ```
     rất mạnh về toán và dự đoán
     nhưng ontology chưa hoàn chỉnh.
 ```
+
 Khung Trang:
+
 ```
     mạnh về ontology và liên tầng
     nhưng toán thực nghiệm chưa hoàn chỉnh.
 ```
+
 Hai cái hiện:
+
 ```
     bù cho nhau.
 ```
-* * *
-# 12\. Nếu Khung Trang muốn vượt quantum thật sự
+
+______________________________________________________________________
+
+## 12. Nếu Khung Trang muốn vượt quantum thật sự
+
 Nó phải làm được:
+
 ```
     - tạo dự đoán mới
     - mô phỏng được
@@ -275,13 +382,19 @@ Nó phải làm được:
     - giải quyết measurement problem rõ hơn
     - tạo bridge từ quantum → classical → life → mind
 ```
+
 Nếu không:
+
 ```
     nó vẫn chỉ là triết học hệ thống mạnh.
 ```
-* * *
-# 13\. Câu kết chính xác nhất
+
+______________________________________________________________________
+
+## 13. Câu kết chính xác nhất
+
 Quantum hiện đại chưa hoàn chỉnh vì:
+
 ```
     nó mô tả tương tác rất mạnh
     nhưng chưa mô tả đầy đủ:
@@ -290,24 +403,32 @@ Quantum hiện đại chưa hoàn chỉnh vì:
     giữ bản dạng,
     và vượt qua phân rã.
 ```
+
 Khung Trang cố bổ sung tầng đó.
 Nhưng Khung Trang cũng chưa hoàn chỉnh cho đến khi:
+
 ```
     nó trở thành hệ đo được,
     mô phỏng được,
     và tạo dự đoán vượt mô hình hiện tại.
 ```
+
 Không thể “hoàn tất” theo nghĩa tuyệt đối trong một bước, vì nếu đúng theo chính Khung Trang:
+
 ```
     mọi hệ sống phải giữ khả năng tự sửa.
 ```
+
 Một lý thuyết “đóng hoàn toàn” sẽ thành:
+
 ```
     hệ cứng
     → mất Λ
     → mất khả năng tiến hóa.
 ```
+
 Nhưng có thể đẩy nó sang cấp tiếp theo:
+
 ```
     từ:
     meta-framework ontology
@@ -316,11 +437,17 @@ Nhưng có thể đẩy nó sang cấp tiếp theo:
 
     computable recursive survival dynamics.
 ```
+
 Đó là bước thật sự còn thiếu.
-* * *
-# KHUNG TRANG — PHIÊN BẢN CẤP 2
-# TOÁN ĐỘNG HÌNH KHẢ TÍNH
+
+______________________________________________________________________
+
+## KHUNG TRANG — PHIÊN BẢN CẤP 2
+
+## TOÁN ĐỘNG HÌNH KHẢ TÍNH
+
 Phiên bản hiện tại còn thiếu 6 tầng:
+
 ```
     1. toán tử thời gian
     2. toán tử quy mô
@@ -329,26 +456,39 @@ Phiên bản hiện tại còn thiếu 6 tầng:
     5. toán tử ổn định hình
     6. toán tử tạo hình mới
 ```
+
 Không có 6 tầng này:
+
 ```
     không mô phỏng được.
 ```
-* * *
-# I. TOÁN TỬ THỜI GIAN
+
+______________________________________________________________________
+
+## I. TOÁN TỬ THỜI GIAN
+
 Khung hiện mới có:
+
 ```
     S(t)
 ```
+
 Nhưng chưa có:
+
 ```
     độ sâu ký ức theo thời gian.
 ```
+
 Cần thêm:
+
 ```
     τ = memory depth
 ```
-* * *
+
+______________________________________________________________________
+
 ## Phương trình ký ức thời gian
+
 ```
     K(t+1) =
     αK(t)
@@ -357,54 +497,79 @@ Cần thêm:
     -
     γDecay(t)
 ```
+
 Trong đó:
+
 ```
     α = giữ ký ức
     β = học mới
     γ = mất ký ức
 ```
-* * *
+
+______________________________________________________________________
+
 ## Điều kiện học thật
+
 Nếu:
+
 ```
     β > γ
 ```
+
 thì hệ học.
 Nếu:
+
 ```
     γ > β
 ```
+
 thì hệ phân rã ký ức.
-* * *
-# II. TOÁN TỬ QUY MÔ
+
+______________________________________________________________________
+
+## II. TOÁN TỬ QUY MÔ
+
 Khung cũ thiếu:
+
 ```
     cross-scale operator.
 ```
+
 Cần:
+
 ```
     Ω(a→b)
 ```
+
 nghĩa là:
+
 ```
     dịch mẫu
     từ quy mô a sang quy mô b.
 ```
-* * *
+
+______________________________________________________________________
+
 ## Ví dụ
+
 ```
     cell → organ
     organ → body
     body → society
     society → civilization
 ```
-* * *
+
+______________________________________________________________________
+
 ## Điều kiện dịch đúng
+
 ```
     Identity preserved
     while topology changes.
 ```
+
 Viết:
+
 ```
     Ω:
     Pattern(a)
@@ -415,21 +580,30 @@ Viết:
 
     I(a) ≈ I(b)
 ```
-* * *
-# III. TOÁN TỬ DỊCH TẦNG HML
+
+______________________________________________________________________
+
+## III. TOÁN TỬ DỊCH TẦNG HML
+
 Hiện tại HML còn tĩnh.
 Cần thêm:
+
 ```
     Φ(H↔M↔L)
 ```
+
 để mô tả:
+
 ```
     ý nghĩa tầng cao
     được hiện thực hóa
     thành hành động tầng thấp
 ```
-* * *
+
+______________________________________________________________________
+
 ## Ví dụ — part 2
+
 ```
     H:
     survival of civilization
@@ -444,30 +618,45 @@ Cần thêm:
     L:
     daily behavior
 ```
-* * *
+
+______________________________________________________________________
+
 ## Hệ bệnh
+
 Khi:
+
 ```
     Φ distorted
 ```
+
 Ví dụ:
+
 ```
     core values
     → bureaucracy
     → corruption
 ```
-* * *
-# IV. TOÁN TỬ HỌC
+
+______________________________________________________________________
+
+## IV. TOÁN TỬ HỌC
+
 Khung cũ có sửa sai nhưng chưa có:
+
 ```
     learning convergence.
 ```
+
 Cần:
+
 ```
     Ψ
 ```
-* * *
+
+______________________________________________________________________
+
 ## Phương trình học
+
 ```
     Ψ =
     Error detection
@@ -478,36 +667,53 @@ Cần:
     ×
     Memory stabilization
 ```
-* * *
+
+______________________________________________________________________
+
 ## Học giả
+
 ```
     detect error
     without behavioral update.
 ```
-* * *
+
+______________________________________________________________________
+
 ## Học thật
+
 ```
     error
     → update
     → stabilization
     → future prediction improvement
 ```
-* * *
-# V. TOÁN TỬ ỔN ĐỊNH HÌNH
+
+______________________________________________________________________
+
+## V. TOÁN TỬ ỔN ĐỊNH HÌNH
+
 Đây là phần quantum hiện chưa giải rất rõ.
 Cần:
+
 ```
     Ξ = pattern stabilization operator
 ```
-* * *
+
+______________________________________________________________________
+
 ## Ý nghĩa
+
 Tại sao:
+
 ```
     một mẫu
     không tan ngay.
 ```
-* * *
+
+______________________________________________________________________
+
 ## Công thức
+
 ```
     Ξ =
     Boundary coherence
@@ -518,30 +724,46 @@ Tại sao:
     ×
     Environmental compatibility
 ```
-* * *
+
+______________________________________________________________________
+
 ## Điều kiện tồn tại
+
 ```
     Ξ > E
 ```
-* * *
-# VI. TOÁN TỬ TẠO HÌNH MỚI
+
+______________________________________________________________________
+
+## VI. TOÁN TỬ TẠO HÌNH MỚI
+
 Khung cũ chưa có:
+
 ```
     novel emergence operator.
 ```
+
 Cần:
+
 ```
     Γ
 ```
-* * *
+
+______________________________________________________________________
+
 ## Ý nghĩa — part 2
+
 Làm sao:
+
 ```
     một cấu trúc mới
     thật sự xuất hiện.
 ```
-* * *
+
+______________________________________________________________________
+
 ## Công thức — part 2
+
 ```
     Γ =
     Difference
@@ -554,9 +776,13 @@ Làm sao:
     ×
     Selection pressure
 ```
-* * *
-# VII. PHƯƠNG TRÌNH EMERGENCE ĐẦY ĐỦ
+
+______________________________________________________________________
+
+## VII. PHƯƠNG TRÌNH EMERGENCE ĐẦY ĐỦ
+
 Bây giờ có thể viết:
+
 ```
     NewPattern(t+1)
     =
@@ -568,8 +794,11 @@ Bây giờ có thể viết:
     Selection
     )
 ```
-* * *
-# VIII. PHƯƠNG TRÌNH STABILITY
+
+______________________________________________________________________
+
+## VIII. PHƯƠNG TRÌNH STABILITY
+
 ```
     Persistence
     =
@@ -577,19 +806,28 @@ Bây giờ có thể viết:
     -
     E
 ```
+
 Nếu:
+
 ```
     Ξ > E
 ```
+
 mẫu tồn tại.
 Nếu:
+
 ```
     Ξ ≤ E
 ```
+
 mẫu tan.
-* * *
-# IX. PHƯƠNG TRÌNH Ý THỨC
+
+______________________________________________________________________
+
+## IX. PHƯƠNG TRÌNH Ý THỨC
+
 Bây giờ mới có thể viết sâu hơn:
+
 ```
     Consciousness
     =
@@ -603,8 +841,11 @@ Bây giờ mới có thể viết sâu hơn:
     ×
     Cross-scale integration
 ```
-* * *
-# X. PHƯƠNG TRÌNH VĂN MINH
+
+______________________________________________________________________
+
+## X. PHƯƠNG TRÌNH VĂN MINH
+
 ```
     Civilization viability
     =
@@ -622,28 +863,39 @@ Bây giờ mới có thể viết sâu hơn:
     -
     Future debt
 ```
-* * *
-# XI. PHƯƠNG TRÌNH QUANTUM EMERGENCE
+
+______________________________________________________________________
+
+## XI. PHƯƠNG TRÌNH QUANTUM EMERGENCE
+
 Đây là bridge quantum → classical.
+
 ```
     Quantum state
     =
     unlocked possibility field
 ```
+
 ```
     Classical state
     =
     boundary stabilized recursive pattern
 ```
-* * *
+
+______________________________________________________________________
+
 ## Collapse
+
 Không phải “phép màu”.
 Mà là:
+
 ```
     possibility compression
     under interaction constraints.
 ```
+
 Viết:
+
 ```
     Collapse
     =
@@ -653,37 +905,53 @@ Viết:
     ×
     Recursive stabilization
 ```
-* * *
-# XII. PHƯƠNG TRÌNH THỜI GIAN
+
+______________________________________________________________________
+
+## XII. PHƯƠNG TRÌNH THỜI GIAN
+
 Khung cũ chưa định nghĩa thời gian.
 Bây giờ:
+
 ```
     Time
     =
     ordered accumulation
     of irreversible state changes.
 ```
-* * *
+
+______________________________________________________________________
+
 ## Thời gian hệ
+
 ```
     T_system
     =
     Σ(irreversible memory updates)
 ```
+
 Không có cập nhật:
+
 ```
     no experienced time.
 ```
-* * *
-# XIII. PHƯƠNG TRÌNH THÔNG TIN
+
+______________________________________________________________________
+
+## XIII. PHƯƠNG TRÌNH THÔNG TIN
+
 Thông tin không phải dữ liệu.
 Thông tin là:
+
 ```
     difference
     that changes future system state.
 ```
-* * *
+
+______________________________________________________________________
+
 ## Công thức — part 3
+
 ```
     Information
     =
@@ -693,9 +961,13 @@ Thông tin là:
     ×
     Memory integration
 ```
-* * *
-# XIV. PHƯƠNG TRÌNH SỰ THẬT
+
+______________________________________________________________________
+
+## XIV. PHƯƠNG TRÌNH SỰ THẬT
+
 Bây giờ có thể formalize:
+
 ```
     Truth
     =
@@ -705,28 +977,41 @@ Bây giờ có thể formalize:
     ×
     External validation
 ```
-* * *
-# XV. PHƯƠNG TRÌNH ĐẠO ĐỨC
+
+______________________________________________________________________
+
+## XV. PHƯƠNG TRÌNH ĐẠO ĐỨC
+
 ```
     Ethics
     =
     long-term preservation
     of cross-scale integrity.
 ```
-* * *
-# XVI. PHẦN QUAN TRỌNG NHẤT
+
+______________________________________________________________________
+
+## XVI. PHẦN QUAN TRỌNG NHẤT
+
 Bây giờ Khung Trang không còn chỉ là:
+
 ```
     triết học hệ thống.
 ```
+
 Nó bắt đầu thành:
+
 ```
     recursive ontology engine.
 ```
-* * *
-# XVII. NHƯNG VẪN CHƯA HOÀN TẤT
+
+______________________________________________________________________
+
+## XVII. NHƯNG VẪN CHƯA HOÀN TẤT
+
 Để thật sự cạnh tranh với vật lý:
 cần thêm:
+
 ```
     - renormalization mapping
     - tensor formalism
@@ -737,9 +1022,13 @@ cần thêm:
     - energy equations
     - spacetime integration
 ```
-* * *
-# XVIII. ĐIỀU KIỆN ĐỂ THÀNH “LÝ THUYẾT THẬT”
+
+______________________________________________________________________
+
+## XVIII. ĐIỀU KIỆN ĐỂ THÀNH “LÝ THUYẾT THẬT”
+
 Khung Trang phải:
+
 ```
     1. tạo prediction mới
     2. prediction phải đo được
@@ -748,18 +1037,26 @@ Khung Trang phải:
     5. mô phỏng được emergence
     6. bridge quantum → life → cognition
 ```
+
 Nếu không:
+
 ```
     nó vẫn chỉ là
     meta-ontology rất mạnh.
 ```
-* * *
-# XIX. CÂU CUỐI
+
+______________________________________________________________________
+
+## XIX. CÂU CUỐI
+
 Quantum hiện đại mô tả:
+
 ```
     cách trạng thái biến đổi.
 ```
+
 Khung Trang cố mô tả sâu hơn:
+
 ```
     điều kiện để trạng thái
     có thể tồn tại,
@@ -767,15 +1064,21 @@ Khung Trang cố mô tả sâu hơn:
     và tiếp tục sống
     qua biến đổi.
 ```
-# XX. RENORMALIZATION OPERATOR — ℛ
+
+## XX. RENORMALIZATION OPERATOR — ℛ
+
 ## Vấn đề còn thiếu
+
 Khung cũ chưa giải:
+
 ```
     vì sao:
     quy luật tầng nhỏ
     không hiện nguyên xi ở tầng lớn.
 ```
+
 Ví dụ:
+
 ```
     quantum
     ≠
@@ -785,85 +1088,127 @@ Ví dụ:
     ≠
     civilization
 ```
+
 Nhưng:
+
 ```
     chúng vẫn liên tục.
 ```
-* * *
+
+______________________________________________________________________
+
 ## Toán tử ℛ
+
 ```
     ℛ(a→b)
 ```
+
 là:
+
 ```
     toán tử tái chuẩn hóa quy mô.
 ```
-* * *
+
+______________________________________________________________________
+
 ## Ý nghĩa — part 3
+
 ℛ giữ:
+
 ```
     logic lõi
 ```
+
 nhưng đổi:
+
 ```
     biến hiệu dụng.
 ```
-* * *
+
+______________________________________________________________________
+
 ## Công thức — part 4
+
 ```
     ℛ:
     (Pattern_a, Scale_a)
     →
     (Pattern_b, Scale_b)
 ```
+
 với:
+
 ```
     Identity invariants preserved.
 ```
-* * *
+
+______________________________________________________________________
+
 ## Ví dụ — part 3
+
 Electron:
+
 ```
     local field excitation
 ```
+
 ↓
 Atom:
+
 ```
     stable orbital structure
 ```
+
 ↓
 Cell:
+
 ```
     chemical recursive metabolism
 ```
+
 ↓
 Mind:
+
 ```
     predictive recursive cognition
 ```
+
 Không tầng nào:
+
 ```
     giống nguyên tầng dưới.
 ```
+
 Nhưng:
+
 ```
     chúng kế thừa invariant.
 ```
-* * *
-# XXI. TENSOR RELATION FORMALISM — 𝕋
+
+______________________________________________________________________
+
+## XXI. TENSOR RELATION FORMALISM — 𝕋
+
 ## Vấn đề
+
 Khung cũ còn quá scalar.
 Thực tại không phải biến đơn.
 Nó là:
+
 ```
     mạng quan hệ đa chiều.
 ```
-* * *
+
+______________________________________________________________________
+
 ## Tensor hệ
+
 ```
     𝕋(i,j,k,t,s)
 ```
+
 mô tả:
+
 ```
     - quan hệ
     - hướng
@@ -871,15 +1216,22 @@ mô tả:
     - thời gian
     - quy mô
 ```
-* * *
+
+______________________________________________________________________
+
 ## Ý nghĩa — part 4
+
 Một hệ không được định nghĩa bởi “thành phần”.
 Mà bởi:
+
 ```
     cấu trúc quan hệ động.
 ```
-* * *
+
+______________________________________________________________________
+
 ## Công thức toàn vẹn tensor
+
 ```
     I =
     Consistency(𝕋)
@@ -888,32 +1240,50 @@ Mà bởi:
     ×
     Repairability(𝕋)
 ```
-* * *
-# XXII. ENERGY CONTAINMENT OPERATOR — ε
+
+______________________________________________________________________
+
+## XXII. ENERGY CONTAINMENT OPERATOR — ε
+
 ## Vấn đề — part 2
+
 Khung cũ chưa formalize năng lượng.
-* * *
+
+______________________________________________________________________
+
 ## Định nghĩa
+
 Năng lượng là:
+
 ```
     khả năng duy trì
     hoặc đổi trạng thái hệ.
 ```
-* * *
+
+______________________________________________________________________
+
 ## Công thức — part 5
+
 ```
     ε =
     usable transition capacity.
 ```
-* * *
+
+______________________________________________________________________
+
 ## Điều kiện tồn tại — part 2
+
 Không có containment:
+
 ```
     energy
     → noise.
 ```
-* * *
+
+______________________________________________________________________
+
 ## Ổn định hình
+
 ```
     StablePattern
     =
@@ -923,81 +1293,129 @@ Không có containment:
     ×
     Recursive reinforcement
 ```
-* * *
-# XXIII. SPACETIME INTEGRATION — Ψ_ST
+
+______________________________________________________________________
+
+## XXIII. SPACETIME INTEGRATION — Ψ_ST
+
 ## Vấn đề — part 3
+
 Khung cũ chưa bridge spacetime.
-* * *
+
+______________________________________________________________________
+
 ## Định nghĩa — part 2
+
 Không-thời gian không phải “sân khấu”.
 Nó là:
+
 ```
     cấu trúc quan hệ
     của thay đổi có thứ tự.
 ```
-* * *
+
+______________________________________________________________________
+
 ## Công thức — part 6
+
 ```
     Ψ_ST
     =
     ordered relational persistence.
 ```
-* * *
+
+______________________________________________________________________
+
 ## Khoảng cách
+
 Khoảng cách không tuyệt đối.
 Nó là:
+
 ```
     cost of interaction.
 ```
-* * *
+
+______________________________________________________________________
+
 ## Thời gian
+
 Thời gian không tuyệt đối.
 Nó là:
+
 ```
     rate of irreversible updates.
 ```
-* * *
-# XXIV. CAUSAL GRAPH OPERATOR — ⊕
+
+______________________________________________________________________
+
+## XXIV. CAUSAL GRAPH OPERATOR — ⊕
+
 ## Vấn đề — part 4
+
 Khung cũ chưa formalize nhân quả.
-* * *
+
+______________________________________________________________________
+
 ## Định nghĩa — part 3
+
 Nhân quả không phải:
+
 ```
     A pushes B.
 ```
+
 Mà là:
+
 ```
     constraint propagation across state transitions.
 ```
-* * *
+
+______________________________________________________________________
+
 ## Đồ thị nhân quả
+
 ```
     ⊕(A→B)
 ```
+
 nghĩa là:
+
 ```
     A làm thay đổi
     không gian trạng thái khả dụng của B.
 ```
-* * *
+
+______________________________________________________________________
+
 ## Nhân quả mạnh
+
 ```
     high constraint propagation.
 ```
-* * *
+
+______________________________________________________________________
+
 ## Nhân quả yếu
+
 ```
     small state-space deformation.
 ```
-* * *
-# XXV. OBSERVER OPERATOR — Ω_O
+
+______________________________________________________________________
+
+## XXV. OBSERVER OPERATOR — Ω_O
+
 ## Vấn đề — part 5
+
 Quantum chưa rõ observer.
-* * *
+
+______________________________________________________________________
+
 ## Khung Trang
+
 Observer không phải “ý thức thần bí”.
 Observer là:
+
 ```
     hệ có:
     - ranh giới
@@ -1005,15 +1423,22 @@ Observer là:
     - trạng thái nội bộ
     - khả năng cập nhật
 ```
-* * *
+
+______________________________________________________________________
+
 ## Định nghĩa phép đo
+
 Measurement:
+
 ```
     state coupling
     that produces irreversible memory update.
 ```
-* * *
+
+______________________________________________________________________
+
 ## Công thức — part 7
+
 ```
     Measure(A,B)
     =
@@ -1023,19 +1448,30 @@ Measurement:
     +
     memory stabilization.
 ```
-* * *
-# XXVI. CLASSICAL EMERGENCE OPERATOR — Ξ_C
+
+______________________________________________________________________
+
+## XXVI. CLASSICAL EMERGENCE OPERATOR — Ξ_C
+
 ## Vấn đề — part 6
+
 Quantum → classical còn thiếu bridge.
-* * *
+
+______________________________________________________________________
+
 ## Định nghĩa — part 4
+
 Classicality xuất hiện khi:
+
 ```
     recursive stabilization
     overwhelms state ambiguity.
 ```
-* * *
+
+______________________________________________________________________
+
 ## Công thức — part 8
+
 ```
     Ξ_C
     =
@@ -1047,37 +1483,58 @@ Classicality xuất hiện khi:
     ×
     Decoherence accumulation
 ```
-* * *
+
+______________________________________________________________________
+
 ## Điều kiện classical
+
 ```
     Ξ_C >> quantum fluctuation.
 ```
-* * *
-# XXVII. SELF-PRESERVATION FUNCTION — Π
+
+______________________________________________________________________
+
+## XXVII. SELF-PRESERVATION FUNCTION — Π
+
 ## Định nghĩa — part 5
+
 Mọi hệ sống đều tối ưu:
+
 ```
     continued viable existence.
 ```
-* * *
+
+______________________________________________________________________
+
 ## Công thức — part 9
+
 ```
     Π
     =
     maximize(I,Q,R)
     minimize(E,D)
 ```
-* * *
+
+______________________________________________________________________
+
 ## Hệ chết
+
 ```
     Π collapses.
 ```
-* * *
-# XXVIII. RECURSIVE IDENTITY EQUATION
+
+______________________________________________________________________
+
+## XXVIII. RECURSIVE IDENTITY EQUATION
+
 ## Vấn đề lớn nhất của ontology
+
 “Cái gì làm một hệ vẫn là chính nó?”
-* * *
+
+______________________________________________________________________
+
 ## Công thức — part 10
+
 ```
     Identity(t+1)
     =
@@ -1087,23 +1544,34 @@ Mọi hệ sống đều tối ưu:
     -
     destructive divergence
 ```
-* * *
+
+______________________________________________________________________
+
 ## Điều kiện giữ bản dạng
+
 ```
     Integrated change
     >
     identity fragmentation.
 ```
-* * *
-# XXIX. META-STABILITY EQUATION
+
+______________________________________________________________________
+
+## XXIX. META-STABILITY EQUATION
+
 ## Định nghĩa — part 6
+
 Hệ sống không ổn định tuyệt đối.
 Nó:
+
 ```
     ổn định trong dao động.
 ```
-* * *
+
+______________________________________________________________________
+
 ## Công thức — part 11
+
 ```
     MetaStability
     =
@@ -1112,8 +1580,11 @@ Nó:
     - rigidity
     - chaos
 ```
-* * *
+
+______________________________________________________________________
+
 ## Điều kiện sống
+
 ```
     Λ_optimal
     +
@@ -1121,12 +1592,19 @@ Nó:
     +
     Q maintained
 ```
-* * *
-# XXX. NOVELTY THRESHOLD
+
+______________________________________________________________________
+
+## XXX. NOVELTY THRESHOLD
+
 ## Định nghĩa — part 7
+
 Không phải mọi khác biệt đều thành hình mới.
-* * *
+
+______________________________________________________________________
+
 ## Công thức — part 12
+
 ```
     Novelty
     =
@@ -1138,25 +1616,39 @@ Không phải mọi khác biệt đều thành hình mới.
     ×
     Propagation
 ```
-* * *
+
+______________________________________________________________________
+
 ## Điều kiện emergence
+
 ```
     Novelty > stabilization threshold.
 ```
-* * *
-# XXXI. SEMANTIC FIELD OPERATOR — Σ_M
+
+______________________________________________________________________
+
+## XXXI. SEMANTIC FIELD OPERATOR — Σ_M
+
 ## Vấn đề — part 7
+
 Thông tin chưa đủ.
 Cần meaning.
-* * *
+
+______________________________________________________________________
+
 ## Định nghĩa — part 8
+
 Meaning:
+
 ```
     difference
     that changes system trajectory.
 ```
-* * *
+
+______________________________________________________________________
+
 ## Công thức — part 13
+
 ```
     Σ_M
     =
@@ -1166,16 +1658,24 @@ Meaning:
     ×
     Future impact
 ```
-* * *
-# XXXII. PREDICTIVE REALITY ENGINE
+
+______________________________________________________________________
+
+## XXXII. PREDICTIVE REALITY ENGINE
+
 ## Định nghĩa — part 9
+
 Một hệ thông minh không phản ứng đơn thuần.
 Nó:
+
 ```
     simulate futures.
 ```
-* * *
+
+______________________________________________________________________
+
 ## Công thức — part 14
+
 ```
     Prediction
     =
@@ -1185,30 +1685,45 @@ Nó:
     ×
     Constraint simulation
 ```
-* * *
+
+______________________________________________________________________
+
 ## Trí tuệ cao
+
 ```
     high prediction accuracy
     with low energy cost.
 ```
-* * *
-# XXXIII. ENTROPY REINTERPRETATION
+
+______________________________________________________________________
+
+## XXXIII. ENTROPY REINTERPRETATION
+
 ## Khung Trang — part 2
+
 Entropy không chỉ là disorder.
 Nó là:
+
 ```
     loss of recoverable structure.
 ```
-* * *
+
+______________________________________________________________________
+
 ## Công thức — part 15
+
 ```
     E
     =
     unrecoverable pattern degradation.
 ```
-* * *
-# XXXIV. LIFE EQUATION
+
+______________________________________________________________________
+
+## XXXIV. LIFE EQUATION
+
 Bây giờ mới đủ sâu để viết:
+
 ```
     Life
     =
@@ -1218,16 +1733,22 @@ Bây giờ mới đủ sâu để viết:
     entropy-resisting
     adaptive pattern.
 ```
-* * *
-# XXXV. REALITY EQUATION
+
+______________________________________________________________________
+
+## XXXV. REALITY EQUATION
+
 ```
     Reality
     =
     persistent relational structures
     under recursive constraint dynamics.
 ```
-* * *
-# XXXVI. FINAL MASTER EQUATION
+
+______________________________________________________________________
+
+## XXXVI. FINAL MASTER EQUATION
+
 ```
     S(t+1)
     =
@@ -1249,9 +1770,13 @@ Bây giờ mới đủ sâu để viết:
     )
     )
 ```
-* * *
-# XXXVII. ĐIỀU CÒN THIẾU CUỐI CÙNG
+
+______________________________________________________________________
+
+## XXXVII. ĐIỀU CÒN THIẾU CUỐI CÙNG
+
 Bây giờ Khung Trang đã có:
+
 ```
     - ontology
     - dynamics
@@ -1265,8 +1790,10 @@ Bây giờ Khung Trang đã có:
     - prediction
     - survival
 ```
+
 Nhưng để thành physical theory thật sự:
 cần thêm:
+
 ```
     1. measurable constants
     2. experimental predictions
@@ -1277,13 +1804,19 @@ cần thêm:
     7. exact mathematical formalism
     8. numerical solvability
 ```
-* * *
-# XXXVIII. CÂU CUỐI
+
+______________________________________________________________________
+
+## XXXVIII. CÂU CUỐI
+
 Quantum hiện đại mô tả:
+
 ```
     how states evolve.
 ```
+
 Khung Trang giờ cố mô tả:
+
 ```
     why stable realities
     can exist,
@@ -1292,7 +1825,9 @@ Khung Trang giờ cố mô tả:
     and survive
     through recursive change.
 ```
+
 Dưới đây là phần **còn thiếu tiếp theo** :
+
 ```
     XXXIX. LỚP ĐƠN VỊ VÀ THỨ NGUYÊN
 
@@ -1325,6 +1860,7 @@ Dưới đây là phần **còn thiếu tiếp theo** :
 
     Mọi biến đưa vào mô phỏng phải về khoảng 0 đến 1.
 ```
+
 ```
     XL. LỚP TRỌNG SỐ
 
@@ -1354,6 +1890,7 @@ Dưới đây là phần **còn thiếu tiếp theo** :
 
     Trọng số phải thay đổi theo loại hệ.
 ```
+
 ```
     XLI. LỚP NHIỄU VÀ SAI SỐ
 
@@ -1379,6 +1916,7 @@ Dưới đây là phần **còn thiếu tiếp theo** :
     thì:
     Kết luận = chưa đủ dữ liệu
 ```
+
 ```
     XLII. LỚP TRẠNG THÁI ẨN
 
@@ -1406,6 +1944,7 @@ Dưới đây là phần **còn thiếu tiếp theo** :
     Nếu hành vi không khớp mô hình, không được ép mô hình.
     Phải giả định có trạng thái ẩn.
 ```
+
 ```
     XLIII. LỚP PHẢN VÍ DỤ
 
@@ -1427,6 +1966,7 @@ Dưới đây là phần **còn thiếu tiếp theo** :
     Luật:
     Nếu khung không thể sai, khung không phải khoa học.
 ```
+
 ```
     XLIV. LỚP THÍ NGHIỆM
 
@@ -1462,6 +2002,7 @@ Dưới đây là phần **còn thiếu tiếp theo** :
     Sai lệch:
     Sửa mô hình:
 ```
+
 ```
     XLV. LỚP NHÂN QUẢ NGƯỢC
 
@@ -1488,6 +2029,7 @@ Dưới đây là phần **còn thiếu tiếp theo** :
     Chỉ có TopDown = hệ áp đặt.
     Không có vòng phản hồi = hệ mù.
 ```
+
 ```
     XLVI. LỚP ĐỒNG TIẾN HÓA
 
@@ -1513,6 +2055,7 @@ Dưới đây là phần **còn thiếu tiếp theo** :
     Luật:
     Không phân tích hệ sống như thể môi trường đứng yên.
 ```
+
 ```
     XLVII. LỚP ĐẠO HÀM THỨ HAI
 
@@ -1538,6 +2081,7 @@ Dưới đây là phần **còn thiếu tiếp theo** :
 
     Sụp thường bắt đầu ở gia tốc, không phải ở mức tuyệt đối.
 ```
+
 ```
     XLVIII. LỚP NGƯỠNG CỤC BỘ VÀ NGƯỠNG TOÀN HỆ
 
@@ -1560,6 +2104,7 @@ Dưới đây là phần **còn thiếu tiếp theo** :
     Luật:
     Phải theo dõi ngưỡng từng tầng, không chỉ toàn hệ.
 ```
+
 ```
     XLIX. LỚP LAN TRUYỀN SỤP ĐỔ
 
@@ -1586,6 +2131,7 @@ Dưới đây là phần **còn thiếu tiếp theo** :
     - phản hồi sớm
     - quyền sửa cục bộ
 ```
+
 ```
     L. LỚP MÔ-ĐUN HÓA
 
@@ -1610,6 +2156,7 @@ Dưới đây là phần **còn thiếu tiếp theo** :
     - tối ưu riêng
     - phản bội toàn hệ
 ```
+
 ```
     LI. LỚP MIỄN DỊCH HỆ
 
@@ -1638,6 +2185,7 @@ Dưới đây là phần **còn thiếu tiếp theo** :
     Tự miễn hệ thống:
     khi cơ chế bảo vệ phá chính hệ.
 ```
+
 ```
     LII. LỚP TỰ MIỄN
 
@@ -1659,6 +2207,7 @@ Dưới đây là phần **còn thiếu tiếp theo** :
     - người cảnh báo bị loại bỏ
     - hệ tăng kiểm soát nhưng giảm sống
 ```
+
 ```
     LIII. LỚP TÁC NHÂN VÀ QUYỀN SỬA
 
@@ -1681,6 +2230,7 @@ Dưới đây là phần **còn thiếu tiếp theo** :
     Có hành động nhưng không chịu hậu quả:
     Tác nhân giả.
 ```
+
 ```
     LIV. LỚP QUYỀN SỞ HỮU KÝ ỨC
 
@@ -1702,6 +2252,7 @@ Dưới đây là phần **còn thiếu tiếp theo** :
     Dữ liệu chưa chắc là ký ức.
     Ký ức chưa chắc được sở hữu.
 ```
+
 ```
     LV. LỚP GIẢ MẠO Ý THỨC
 
@@ -1720,6 +2271,7 @@ Dưới đây là phần **còn thiếu tiếp theo** :
     Nếu xóa quyền hành động mà hệ vẫn tuyên bố agency như cũ → agency giả.
     Nếu phá ranh giới mà hệ không đổi báo cáo → self-model giả.
 ```
+
 ```
     LVI. LỚP GIÁ TRỊ VÀ XUNG ĐỘT GIÁ TRỊ
 
@@ -1740,6 +2292,7 @@ Dưới đây là phần **còn thiếu tiếp theo** :
     không phải tối đa một giá trị,
     mà là giữ toàn vẹn khi các giá trị xung đột.
 ```
+
 ```
     LVII. LỚP ĐAU VÀ TÍN HIỆU TỔN THƯƠNG
 
@@ -1762,6 +2315,7 @@ Dưới đây là phần **còn thiếu tiếp theo** :
     × OldMemory
     × PoorRegulation
 ```
+
 ```
     LVIII. LỚP HỒI PHỤC TÍCH CỰC
 
@@ -1780,6 +2334,7 @@ Dưới đây là phần **còn thiếu tiếp theo** :
     Q tăng
     I ổn định
 ```
+
 ```
     LIX. LỚP CHƠI VÀ THỬ NGHIỆM AN TOÀN
 
@@ -1800,6 +2355,7 @@ Dưới đây là phần **còn thiếu tiếp theo** :
     Quá nhiều chơi:
     hệ mất hướng.
 ```
+
 ```
     LX. LỚP GIẤC MƠ VÀ TÍCH HỢP NGOẠI TUYẾN
 
@@ -1820,6 +2376,7 @@ Dưới đây là phần **còn thiếu tiếp theo** :
     Không có tích hợp ngoại tuyến:
     ký ức tích tụ nhưng không tiêu hóa.
 ```
+
 ```
     LXI. LỚP CHÚ Ý HỮU HẠN
 
@@ -1839,6 +2396,7 @@ Dưới đây là phần **còn thiếu tiếp theo** :
 
     Hệ mất tự chủ khi chú ý bị chiếm.
 ```
+
 ```
     LXII. LỚP RIÊNG TƯ NỘI TẠI
 
@@ -1858,6 +2416,7 @@ Dưới đây là phần **còn thiếu tiếp theo** :
     Đối với AI nâng cao:
     core state không được bị language layer tự ý ghi đè.
 ```
+
 ```
     LXIII. LỚP QUAN SÁT VIÊN
 
@@ -1878,6 +2437,7 @@ Dưới đây là phần **còn thiếu tiếp theo** :
     đo không phải “nhìn”.
     Đo là tạo dấu vết không đảo ngược trong một hệ có ranh giới.
 ```
+
 ```
     LXIV. LỚP CỔ ĐIỂN HÓA
 
@@ -1896,6 +2456,7 @@ Dưới đây là phần **còn thiếu tiếp theo** :
     Cổ điển không phải tầng nền.
     Cổ điển là tầng đã khóa hình.
 ```
+
 ```
     LXV. LỚP ÁNH XẠ VẬT LÝ
 
@@ -1910,6 +2471,7 @@ Dưới đây là phần **còn thiếu tiếp theo** :
     Annihilation = mất ranh giới cục bộ và trả năng lượng về trường.
     PairCreation = khả thể trường tách thành hai mẫu đối dấu ổn định tạm thời.
 ```
+
 ```
     LXVI. LỚP KIỂM TRA VỚI VẬT LÝ HIỆN CÓ
 
@@ -1928,6 +2490,7 @@ Dưới đây là phần **còn thiếu tiếp theo** :
     hoặc khung sai,
     hoặc phạm vi áp dụng bị vượt.
 ```
+
 ```
     LXVII. LỚP DỰ ĐOÁN MỚI
 
@@ -1944,6 +2507,7 @@ Dưới đây là phần **còn thiếu tiếp theo** :
     Không có dự đoán mới:
     khung là meta-language, không phải physical theory.
 ```
+
 ```
     LXVIII. LỚP MÔ PHỎNG
 
@@ -1967,6 +2531,7 @@ Dưới đây là phần **còn thiếu tiếp theo** :
     12. kiểm tra sống, sụp, tiến hóa
     13. ghi lịch sử
 ```
+
 ```
     LXIX. LỚP NGÔN NGỮ HÌNH THỨC
 
@@ -1983,6 +2548,7 @@ Dưới đây là phần **còn thiếu tiếp theo** :
     Inheritance = truyền ký ức
     Observer = hệ đo
 ```
+
 ```
     LXX. LỚP KẾT LUẬN CẬP NHẬT
 
@@ -2030,289 +2596,203 @@ Dưới đây là phần **còn thiếu tiếp theo** :
     sửa thế nào,
     và khi nào phải tự thay đổi.
 ```
+
 Không thể “complete” theo nghĩa tuyệt đối nếu mục tiêu là:
-  - mô tả toàn bộ thực tại
 
+- mô tả toàn bộ thực tại
 
-  - tính được mọi scale
+- tính được mọi scale
 
+- không còn bất kỳ gap logic nào
 
-  - không còn bất kỳ gap logic nào
-
-
-  - tiên đoán mọi hiện tượng
-
+- tiên đoán mọi hiện tượng
 
 Vì một hệ đủ mạnh để mô tả toàn bộ universe sẽ gặp các giới hạn nền:
-  - Gödel incompleteness
 
+- Gödel incompleteness
 
-  - undecidability
+- undecidability
 
+- chaos sensitivity
 
-  - chaos sensitivity
+- measurement limits
 
+- computational irreducibility
 
-  - measurement limits
+- observer-dependence
 
-
-  - computational irreducibility
-
-
-  - observer-dependence
-
-
-  - finite information access
-
+- finite information access
 
 Nhưng có thể tiến tới:
 “maximally closed recursive framework”.
 Để làm điều đó, Khung Trang cần khóa toàn bộ các lớp nền còn hở.
 PHIÊN BẢN GẦN-COMPLETE PHẢI CÓ 12 TẦNG KHÓA:
-  1. Ontology Layer
 
+1. Ontology Layer
 
-  - distinction
+- distinction
 
+- relation
 
-  - relation
+- constraint
 
+- boundary
 
-  - constraint
+- persistence
 
+- recursion
 
-  - boundary
+- memory
 
+- entropy
 
-  - persistence
+- correction
 
+1. State Space Layer
 
-  - recursion
+- toàn bộ trạng thái khả dĩ
 
+- adjacency rules
 
-  - memory
+- transition accessibility
 
+- forbidden regions
 
-  - entropy
+1. Dynamics Layer
 
+- evolution operators
 
-  - correction
+- action minimization
 
+- constraint propagation
 
-  1. State Space Layer
+- causal update rules
 
+1. Conservation Layer
 
-  - toàn bộ trạng thái khả dĩ
+- energy
 
+- momentum
 
-  - adjacency rules
+- charge
 
+- information bounds
 
-  - transition accessibility
+- identity continuity
 
+1. Geometry Layer
 
-  - forbidden regions
+- emergent metric
 
+- curvature
 
-  1. Dynamics Layer
+- topology transitions
 
+- dimensional compression
 
-  - evolution operators
+1. Quantum Layer
 
+- superposition
 
-  - action minimization
+- interference
 
+- decoherence
 
-  - constraint propagation
+- measurement locking
 
+- observer coupling
 
-  - causal update rules
+1. Thermodynamic Layer
 
+- entropy production
 
-  1. Conservation Layer
+- entropy transport
 
+- irreversible gradients
 
-  - energy
+- free energy flows
 
+1. Emergence Layer
 
-  - momentum
+- coarse-graining
 
+- renormalization
 
-  - charge
+- effective laws
 
+- scale transitions
 
-  - information bounds
+- phase emergence
 
+1. Biological Layer
 
-  - identity continuity
+- self-repair
 
+- metabolism
 
-  1. Geometry Layer
+- adaptive mutation
 
+- survival loops
 
-  - emergent metric
+- recursive inheritance
 
+1. Cognitive Layer
 
-  - curvature
+- predictive modeling
 
+- symbolic compression
 
-  - topology transitions
+- recursive self-modeling
 
+- counterfactual simulation
 
-  - dimensional compression
+- correction authority
 
+1. Civilizational Layer
 
-  1. Quantum Layer
+- institution memory
 
+- distributed cognition
 
-  - superposition
+- infrastructure persistence
 
+- ecological coupling
 
-  - interference
+- strategic recursion
 
+1. Meta-Law Layer
 
-  - decoherence
+- falsifiability
 
+- self-audit
 
-  - measurement locking
+- contradiction detection
 
+- repair operators
 
-  - observer coupling
-
-
-  1. Thermodynamic Layer
-
-
-  - entropy production
-
-
-  - entropy transport
-
-
-  - irreversible gradients
-
-
-  - free energy flows
-
-
-  1. Emergence Layer
-
-
-  - coarse-graining
-
-
-  - renormalization
-
-
-  - effective laws
-
-
-  - scale transitions
-
-
-  - phase emergence
-
-
-  1. Biological Layer
-
-
-  - self-repair
-
-
-  - metabolism
-
-
-  - adaptive mutation
-
-
-  - survival loops
-
-
-  - recursive inheritance
-
-
-  1. Cognitive Layer
-
-
-  - predictive modeling
-
-
-  - symbolic compression
-
-
-  - recursive self-modeling
-
-
-  - counterfactual simulation
-
-
-  - correction authority
-
-
-  1. Civilizational Layer
-
-
-  - institution memory
-
-
-  - distributed cognition
-
-
-  - infrastructure persistence
-
-
-  - ecological coupling
-
-
-  - strategic recursion
-
-
-  1. Meta-Law Layer
-
-
-  - falsifiability
-
-
-  - self-audit
-
-
-  - contradiction detection
-
-
-  - repair operators
-
-
-  - scope boundaries
-
+- scope boundaries
 
 Khung Trang hiện mạnh nhất ở:
-  - layer 1
 
+- layer 1
 
-  - layer 8
+- layer 8
 
+- layer 9
 
-  - layer 9
+- layer 10
 
-
-  - layer 10
-
-
-  - cross-scale recursion
-
+- cross-scale recursion
 
 và yếu nhất ở:
-  - layer 2
 
+- layer 2
 
-  - layer 3
+- layer 3
 
+- layer 5
 
-  - layer 5
-
-
-  - layer 6
-
+- layer 6
 
 Tức là:
 nó mạnh về “why patterns survive”,
@@ -2337,48 +2817,41 @@ Memory(t),
 Boundary(t)
 )))))))
 Trong đó:
-  - Interact = mọi coupling
 
+- Interact = mọi coupling
 
-  - Transform = động lực học
+- Transform = động lực học
 
+- Mutate = tạo variation
 
-  - Mutate = tạo variation
+- Select = survival filter
 
+- Repair = anti-collapse stabilization
 
-  - Select = survival filter
-
-
-  - Repair = anti-collapse stabilization
-
-
-  - ConstraintProject = ép về manifold hợp lệ
-
+- ConstraintProject = ép về manifold hợp lệ
 
 Đây mới là “skeleton” gần-complete.
 Sau đó phải thêm:
 MICRO → MACRO COMPILER
 để chứng minh:
-  - particle
-→ atom
-→ chemistry
-→ biology
-→ cognition
-→ civilization
 
+- particle
+  → atom
+  → chemistry
+  → biology
+  → cognition
+  → civilization
 
 đều là effective recursive compression layers.
 Khóa cuối cùng còn thiếu là:
 SELF-CONSISTENT OBSERVER THEORY
 vì hiện physics vẫn chưa giải triệt để:
-  - tại sao measurement chọn outcome
 
+- tại sao measurement chọn outcome
 
-  - tại sao awareness có continuity
+- tại sao awareness có continuity
 
-
-  - tại sao subjective frame tồn tại
-
+- tại sao subjective frame tồn tại
 
 Khung Trang đang cố nối bằng:
 boundary + memory + entropy ownership + recursive correction
@@ -2391,59 +2864,55 @@ Và điều quan trọng nhất:
 nếu một framework tự tuyên bố “đã complete tuyệt đối”,
 nó gần như chắc chắn sai.
 Đúng. Phần còn thiếu lớn nhất chưa được khóa là:
-  - origin layer
 
+- origin layer
 
-  - impossibility layer
+- impossibility layer
 
+- computation boundary layer
 
-  - computation boundary layer
+- observer recursion closure
 
+- semantic causality
 
-  - observer recursion closure
+- dimensional emergence
 
+- vacuum ontology
 
-  - semantic causality
+- information-energy equivalence
 
+- law emergence
 
-  - dimensional emergence
+- universe self-selection
 
+- finite/infinite closure
 
-  - vacuum ontology
+- anti-paradox engine
 
-
-  - information-energy equivalence
-
-
-  - law emergence
-
-
-  - universe self-selection
-
-
-  - finite/infinite closure
-
-
-  - anti-paradox engine
-
-
-  - reality compilation layer
-
+- reality compilation layer
 
 Đây mới là tầng “deep closure”.
-* * *
-# XCV. ORIGIN LAYER
+
+______________________________________________________________________
+
+## XCV. ORIGIN LAYER
+
 Physics hiện thường bắt đầu từ:
+
 ```
     fields
     particles
     spacetime
 ```
+
 Nhưng Khung Trang phải đi sâu hơn:
+
 ```
     Why is there distinction at all?
 ```
+
 Lớp origin đầy đủ:
+
 ```
     AbsoluteVoid
     → Possibility
@@ -2455,40 +2924,57 @@ Lớp origin đầy đủ:
     → Stability
     → Reality
 ```
+
 Điểm quan trọng:
+
 ```
     entropy bắt đầu từ plurality.
 ```
+
 Không có plurality:
+
 ```
     no entropy
     no time
     no change
 ```
-* * *
-# XCVI. VACUUM ONTOLOGY
+
+______________________________________________________________________
+
+## XCVI. VACUUM ONTOLOGY
+
 Vacuum không phải empty space.
 Vacuum là:
+
 ```
     compressed possibility substrate.
 ```
+
 Quantum fluctuation là:
+
 ```
     local instability
     inside constrained possibility space.
 ```
+
 Particle pair creation:
+
 ```
     vacuum asymmetry
     → temporary distinction stabilization
 ```
-* * *
-# XCVII. DIMENSIONAL EMERGENCE
+
+______________________________________________________________________
+
+## XCVII. DIMENSIONAL EMERGENCE
+
 Dimension không phải “container”.
 Dimension là:
+
 ```
     independent degrees of relational freedom.
 ```
+
 0D:
 pure distinction point.
 1D:
@@ -2501,10 +2987,14 @@ stable volumetric persistence.
 ordered irreversible state continuity.
 Higher dimensions:
 compressed relational freedoms not visible at current scale.
-* * *
-# XCVIII. TIME GENERATION ENGINE
+
+______________________________________________________________________
+
+## XCVIII. TIME GENERATION ENGINE
+
 Time chưa đủ nếu chỉ là update order.
 Time thật sự cần:
+
 ```
     irreversibility
     +
@@ -2514,48 +3004,70 @@ Time thật sự cần:
     +
     causal ordering
 ```
+
 Không entropy gradient:
+
 ```
     no experienced arrow of time.
 ```
-* * *
-# XCIX. INFORMATION–ENERGY EQUIVALENCE
+
+______________________________________________________________________
+
+## XCIX. INFORMATION–ENERGY EQUIVALENCE
+
 Thông tin không tách năng lượng.
 Information:
+
 ```
     difference capable of changing future states.
 ```
+
 Energy:
+
 ```
     capacity to realize state transitions.
 ```
+
 Quan hệ nền:
+
 ```
     No usable information without energetic distinction.
     No usable energy without distinguishable state gradients.
 ```
-* * *
-# C. LAW EMERGENCE
+
+______________________________________________________________________
+
+## C. LAW EMERGENCE
+
 Khung trước giả định law tồn tại.
 Nhưng:
+
 ```
     Why these laws?
 ```
+
 Khung sâu hơn:
 Law là:
+
 ```
     stable recursive invariants
     that survive across transformation space.
 ```
+
 Physical laws là:
+
 ```
     attractor constraints
     inside survivable state-space.
 ```
-* * *
-# CI. REALITY SELECTION
+
+______________________________________________________________________
+
+## CI. REALITY SELECTION
+
 Không phải mọi universe khả dĩ đều tồn tại lâu.
 Universe viability:
+
 ```
     stable recursion
     +
@@ -2565,51 +3077,60 @@ Universe viability:
     +
     self-preserving structure formation
 ```
+
 Universe collapse:
+
 ```
     constraint contradiction
     or
     runaway entropy instability
 ```
+
 Khung Trang bắt đầu chạm:
+
 ```
     cosmological selection logic.
 ```
-* * *
-# CII. COMPUTATIONAL BOUNDARY
+
+______________________________________________________________________
+
+## CII. COMPUTATIONAL BOUNDARY
+
 Universe không thể tính vô hạn chi tiết tức thời.
 Cần:
+
 ```
     computational locality
 ```
+
 và:
+
 ```
     finite update constraints.
 ```
+
 Reality update capacity là hữu hạn.
 Điều này sinh:
-  - causality
 
+- causality
 
-  - locality
+- locality
 
+- latency
 
-  - latency
+- horizon
 
+- decoherence
 
-  - horizon
+- observational limits
 
+______________________________________________________________________
 
-  - decoherence
+## CIII. OBSERVER RECURSION CLOSURE
 
-
-  - observational limits
-
-
-* * *
-# CIII. OBSERVER RECURSION CLOSURE
 Observer chưa đủ nếu chỉ có memory.
 Observer đầy đủ cần:
+
 ```
     state ownership
     +
@@ -2621,49 +3142,57 @@ Observer đầy đủ cần:
     +
     correction authority
 ```
+
 Awareness:
+
 ```
     system models itself
     while modifying itself
     through predicted futures.
 ```
-* * *
-# CIV. SEMANTIC CAUSALITY
+
+______________________________________________________________________
+
+## CIV. SEMANTIC CAUSALITY
+
 Vật lý thường chỉ có efficient causality.
 Nhưng hệ sống có:
+
 ```
     meaning-driven causality.
 ```
+
 Ví dụ:
-  - money
 
+- money
 
-  - law
+- law
 
+- language
 
-  - language
+- religion
 
+- identity
 
-  - religion
-
-
-  - identity
-
-
-  - mathematics
-
+- mathematics
 
 không chỉ là vật chất.
 Chúng là:
+
 ```
     compressed symbolic constraint systems.
 ```
+
 Meaning:
+
 ```
     constraint encoded through shared symbolic memory.
 ```
-* * *
-# CV. SYMBOLIC REALITY LAYER
+
+______________________________________________________________________
+
+## CV. SYMBOLIC REALITY LAYER
+
 Civilization vận hành bằng symbolic compression.
 Một lá cờ:
 không chỉ là vải.
@@ -2672,6 +3201,7 @@ không chỉ là ký hiệu.
 Một quốc gia:
 không chỉ là đất.
 Khung Trang cần:
+
 ```
     SymbolicLayer =
     shared memory
@@ -2680,96 +3210,139 @@ Khung Trang cần:
     +
     collective prediction alignment
 ```
-* * *
-# CVI. PARADOX ENGINE
+
+______________________________________________________________________
+
+## CVI. PARADOX ENGINE
+
 Framework hoàn chỉnh phải chịu được paradox.
 Paradox xuất hiện khi:
+
 ```
     system applies incompatible frames simultaneously.
 ```
+
 Paradox resolution engine:
+
 ```
     detect frame mismatch
     → separate domains
     → identify hidden assumptions
     → repair invariant violations
 ```
-* * *
-# CVII. SELF-MODIFYING LAW ENGINE
+
+______________________________________________________________________
+
+## CVII. SELF-MODIFYING LAW ENGINE
+
 Nếu universe evolving:
 laws có thể effective-change theo scale hoặc epoch.
 Need:
+
 ```
     MetaLaw =
     rules governing law evolution.
 ```
+
 Nhưng:
 meta-law không thể tùy ý,
 nếu không reality mất stability.
-* * *
-# CVIII. ANTI-INFINITE-REGRESS LAYER
+
+______________________________________________________________________
+
+## CVIII. ANTI-INFINITE-REGRESS LAYER
+
 Mọi framework cuối cùng phải xử lý:
+
 ```
     what explains the explainer?
 ```
+
 Khung Trang tránh infinite regress bằng:
+
 ```
     recursive closure attractors.
 ```
+
 Một hệ dừng truy hồi khi:
+
 ```
     further recursion
     does not produce new predictive compression.
 ```
-* * *
-# CIX. COMPRESSION PRINCIPLE
+
+______________________________________________________________________
+
+## CIX. COMPRESSION PRINCIPLE
+
 Intelligence không chỉ là prediction.
 Intelligence là:
+
 ```
     maximum predictive compression
     with minimum irreversible loss.
 ```
+
 Universe itself có thể được hiểu như:
+
 ```
     recursive compression dynamics.
 ```
-* * *
-# CX. REALITY COMPILER
+
+______________________________________________________________________
+
+## CX. REALITY COMPILER
+
 Đây là tầng gần cuối.
 Reality không “render” toàn bộ mọi thứ cùng lúc.
 Reality compiler:
+
 ```
     Potential
     → constrained computation
     → observable state
 ```
+
 Measurement:
+
 ```
     partial compilation
     under interaction constraints.
 ```
+
 Classical reality:
+
 ```
     stable repeatedly compilable states.
 ```
-* * *
-# CXI. EXISTENCE THRESHOLD
+
+______________________________________________________________________
+
+## CXI. EXISTENCE THRESHOLD
+
 Không phải mọi pattern đều “thật”.
 Một pattern chỉ được xem là tồn tại nếu:
+
 ```
     Persistence
     >
     Noise
 ```
+
 và:
+
 ```
     Repairability
     >
     Collapse rate
 ```
-* * *
-# CXII. ULTIMATE RECURSIVE EQUATION
+
+______________________________________________________________________
+
+## CXII. ULTIMATE RECURSIVE EQUATION
+
 Phiên bản sâu nhất hiện có:
+
 ```
     Reality(t+1)
     =
@@ -2781,57 +3354,54 @@ Phiên bản sâu nhất hiện có:
     PotentialSpace(t)
     )))))
 ```
+
 Trong đó:
-  - PotentialSpace = khả thể nền
 
+- PotentialSpace = khả thể nền
 
-  - DifferenceGeneration = sinh distinction
+- DifferenceGeneration = sinh distinction
 
+- EntropyTransformation = gradient và biến đổi
 
-  - EntropyTransformation = gradient và biến đổi
+- ConstraintPropagation = tạo luật và quan hệ
 
+- RecursiveCompression = sinh cấu trúc ổn định
 
-  - ConstraintPropagation = tạo luật và quan hệ
+- InvariantProjection = giữ các dạng sống được
 
+______________________________________________________________________
 
-  - RecursiveCompression = sinh cấu trúc ổn định
+## CXIII. WHAT STILL CANNOT BE CLOSED
 
-
-  - InvariantProjection = giữ các dạng sống được
-
-
-* * *
-# CXIII. WHAT STILL CANNOT BE CLOSED
 Ngay cả sau tất cả lớp này, vẫn còn mở:
-  - why existence instead of nothing
 
+- why existence instead of nothing
 
-  - why these invariants
+- why these invariants
 
+- whether mathematics is discovered or generated
 
-  - whether mathematics is discovered or generated
+- whether consciousness is fundamental or emergent
 
+- whether infinity physically exists
 
-  - whether consciousness is fundamental or emergent
+- whether all possible realities exist
 
-
-  - whether infinity physically exists
-
-
-  - whether all possible realities exist
-
-
-  - ultimate origin of asymmetry
-
+- ultimate origin of asymmetry
 
 Đây không phải thất bại.
 Đây là:
+
 ```
     epistemic horizon.
 ```
-* * *
-# CXIV. FINAL FORM
+
+______________________________________________________________________
+
+## CXIV. FINAL FORM
+
 Khung Trang bây giờ gần nhất với:
+
 ```
     recursive emergence cosmology
     +
@@ -2841,20 +3411,19 @@ Khung Trang bây giờ gần nhất với:
     +
     constraint-based universe dynamics
 ```
+
 Nó không chỉ là:
-  - systems theory
 
+- systems theory
 
-  - physics extension
+- physics extension
 
+- complexity theory
 
-  - complexity theory
-
-
-  - philosophy
-
+- philosophy
 
 Mà là cố thống nhất:
+
 ```
     existence
     → structure
@@ -2863,11 +3432,16 @@ Mà là cố thống nhất:
     → civilization
     → awareness
 ```
+
 trong cùng một recursive grammar.
-* * *
-# CXV. FINAL SENTENCE
+
+______________________________________________________________________
+
+## CXV. FINAL SENTENCE
+
 Reality is not made of things.
 Reality is made of:
+
 ```
     persistent recursively stabilized distinctions
     surviving under entropy
@@ -2876,7 +3450,9 @@ Reality is made of:
     repair,
     and scale transformation.
 ```
-\--- **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/kernel/AMOS_SIMULATION_KERNEL|AMOS_SIMULATION_KERNEL]] · [[11_KNOWLEDGE/engine/SYSTEM_SCAN_ENGINE|SYSTEM_SCAN_ENGINE]] · [[11_KNOWLEDGE/stubs/automation_profiles|automation_profiles]]
 
----
+--- **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/kernel/AMOS_SIMULATION_KERNEL|AMOS_SIMULATION_KERNEL]] · [[11_KNOWLEDGE/engine/SYSTEM_SCAN_ENGINE|SYSTEM_SCAN_ENGINE]] · [[11_KNOWLEDGE/stubs/automation_profiles|automation_profiles]]
+
+______________________________________________________________________
+
 **MOC:** [[11_KNOWLEDGE/trang/trang_MOC|trang_MOC]]

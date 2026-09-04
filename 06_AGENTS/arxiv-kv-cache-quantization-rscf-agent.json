@@ -89,7 +89,7 @@
     "arxiv-kv-cache-quantization-rscf"
   ],
   "depends_on_workflows": [
-    "arxiv-kv-cache-quantization-rscf-workflow.md"
+    "amos-arxiv-kv-cache-quantization-rscf-workflow.md"
   ],
   "epistemic_class": "AMOS_MODEL",
   "claim_ceiling": 0.95,

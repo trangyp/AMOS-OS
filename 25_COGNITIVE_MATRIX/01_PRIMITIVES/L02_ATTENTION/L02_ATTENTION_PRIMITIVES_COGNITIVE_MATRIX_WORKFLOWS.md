@@ -2,15 +2,15 @@
 type: workflow
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION
 tags:
-- amos
-- cognitive-matrix
-- matrix/l02
-- attention
-- workflows
-- rscf
-- hml
-- governance
-- domain/cognitive-matrix
+  - amos
+  - cognitive-matrix
+  - matrix/l02
+  - attention
+  - workflows
+  - rscf
+  - hml
+  - governance
+  - domain/cognitive-matrix
 title: L02_ATTENTION — Workflows
 origin_architect: Trang Phan
 status: MODEL_WORKFLOW_CONTRACT / UNIMPLEMENTED / UNVALIDATED
@@ -33,9 +33,9 @@ rscf:
 
 > **Canon boundary:** recovered L02 material establishes attention allocation over scarce reasoning/observation resources and requires explicit workflow, state, operator, invariant, dependency, provenance, H/M/L, control-plane, failure, repair, and validation treatment. The exact canonical workflow registry and executable orchestration have not been established. Workflow identifiers and transition structures introduced below are therefore `AMOS_MODEL` unless independently source-bound.
 
----
+______________________________________________________________________
 
-# 0. Purpose
+## 0. Purpose
 
 Define how `L02_ATTENTION` moves from an incoming attention demand to a bounded, provenance-preserving allocation proposal without allowing attention selection to silently become:
 
@@ -80,9 +80,9 @@ COMMIT / DEFER / ESCALATE / REPAIR
 
 The workflow is explicitly interruptible and reversible before authoritative commit.
 
----
+______________________________________________________________________
 
-# 1. Source / Canon References
+## 1. Source / Canon References
 
 ## 1.1 Source-supported L02 role
 
@@ -151,9 +151,9 @@ canonical_thresholds: UNKNOWN_GAP
 canonical_runtime_orchestrator: UNKNOWN_GAP
 ```
 
----
+______________________________________________________________________
 
-# 2. Definition and Scope
+## 2. Definition and Scope
 
 An L02 workflow is a governed sequence of state transitions that determines:
 
@@ -172,12 +172,12 @@ when an allocation proposal may proceed to control-plane validation.
 
 Formal model:
 
-[
+\[
 W^{L02}:
 (S_t,I_t,C_t,B_t)
-\rightarrow
-(S_{t+1},A_t,O_t)
-]
+\\rightarrow
+(S\_{t+1},A_t,O_t)
+\]
 
 where:
 
@@ -192,9 +192,9 @@ O_t = workflow outcome
 
 This equation is `AMOS_MODEL`, not recovered canon.
 
----
+______________________________________________________________________
 
-# 3. Typed Inputs
+## 3. Typed Inputs
 
 ```yaml
 AttentionWorkflowInput:
@@ -256,9 +256,9 @@ UNKNOWN/GAP
 
 rather than silently admitted.
 
----
+______________________________________________________________________
 
-# 4. Typed Outputs
+## 4. Typed Outputs
 
 ```yaml
 AttentionWorkflowOutput:
@@ -323,18 +323,16 @@ workflow_status: PROPOSED
 commit_status: COMMITTED
 ```
 
----
+______________________________________________________________________
 
-# 5. State Variables
+## 5. State Variables
 
 Core workflow state:
 
-[
-S_t^{L02}
-=========
+## \[ S_t^{L02}
 
 (C_t,A_t,B_t,G_t,U_t,D_t,K_t,H_t,P_t,F_t,R_t,V_t)
-]
+\]
 
 Proposed meanings:
 
@@ -385,9 +383,9 @@ workflow_state:
   last_valid_checkpoint: null
 ```
 
----
+______________________________________________________________________
 
-# 6. Operators
+## 6. Operators
 
 Workflow operators may invoke the L02 operator layer.
 
@@ -423,9 +421,9 @@ PROPOSE
 
 Canonical names remain `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
-# 7. Governing Admission Workflow
+## 7. Governing Admission Workflow
 
 Every candidate first passes admission.
 
@@ -449,9 +447,9 @@ ADMIT / QUARANTINE / REJECT / UNKNOWN
 
 Model equation:
 
-[
-Admit(x)=\bigwedge_i HardInvariant_i(x)
-]
+\[
+Admit(x)=\\bigwedge_i HardInvariant_i(x)
+\]
 
 This means a hard invariant failure cannot be compensated for by a high score elsewhere.
 
@@ -465,9 +463,9 @@ missing provenance
 automatic admission
 ```
 
----
+______________________________________________________________________
 
-# 8. WF-L02-001 — Primary Attention Allocation
+## 8. WF-L02-001 — Primary Attention Allocation
 
 ```text
 RECEIVE OBJECTIVE
@@ -503,9 +501,9 @@ Primary objective:
 
 > spend scarce attention where additional processing has the highest expected decision value while preserving epistemic and governance integrity.
 
----
+______________________________________________________________________
 
-# 9. WF-L02-002 — Fast Path
+## 9. WF-L02-002 — Fast Path
 
 Use only when dependency closure and compatibility are already established.
 
@@ -545,9 +543,9 @@ ESCALATE_TO_STANDARD_OR_DEEP_PATH
 
 Fast path must never weaken hard invariants.
 
----
+______________________________________________________________________
 
-# 10. WF-L02-003 — Contradiction Workflow
+## 10. WF-L02-003 — Contradiction Workflow
 
 ```text
 DETECT CONTRADICTION
@@ -585,15 +583,15 @@ or:
 choose most repeated claim
 ```
 
----
+______________________________________________________________________
 
-# 11. WF-L02-004 — COMPETING Hypothesis Workflow
+## 11. WF-L02-004 — COMPETING Hypothesis Workflow
 
 Given:
 
-[
-H={h_1,h_2,\ldots,h_n}
-]
+\[
+H={h_1,h_2,\\ldots,h_n}
+\]
 
 run:
 
@@ -627,9 +625,9 @@ COMPETING
 
 must remain visible.
 
----
+______________________________________________________________________
 
-# 12. WF-L02-005 — Critical Gap Workflow
+## 12. WF-L02-005 — Critical Gap Workflow
 
 Gap classes:
 
@@ -666,27 +664,27 @@ CRITICAL GAP
 PASS
 ```
 
----
+______________________________________________________________________
 
-# 13. WF-L02-006 — Attention Switching
+## 13. WF-L02-006 — Attention Switching
 
 Switching should occur only when expected benefit exceeds switching cost or a hard interrupt condition fires.
 
 Conceptual model:
 
-[
-Switch(i\rightarrow j)
-]
+\[
+Switch(i\\rightarrow j)
+\]
 
 when:
 
-[
+\[
 ExpectedValue(j)-SwitchCost(i,j)
 
 >
 
 ExpectedValue(continue(i))
-]
+\]
 
 or a hard condition requires interruption.
 
@@ -705,9 +703,9 @@ budget violation
 dependency failure
 ```
 
----
+______________________________________________________________________
 
-# 14. WF-L02-007 — Attention Reallocation
+## 14. WF-L02-007 — Attention Reallocation
 
 ```text
 CURRENT ALLOCATION
@@ -734,9 +732,9 @@ REALLOCATE
 
 This prevents unnecessary global recomputation.
 
----
+______________________________________________________________________
 
-# 15. WF-L02-008 — Provenance Escalation
+## 15. WF-L02-008 — Provenance Escalation
 
 ```text
 MULTIPLE SUPPORTING ITEMS
@@ -761,9 +759,9 @@ multiple descendants of one origin
 multiple independent confirmations
 ```
 
----
+______________________________________________________________________
 
-# 16. WF-L02-009 — Freshness Revalidation
+## 16. WF-L02-009 — Freshness Revalidation
 
 ```text
 REUSED CLAIM / MEMORY / RESULT
@@ -788,9 +786,9 @@ Hard boundary:
 RECALL != REFRESH
 ```
 
----
+______________________________________________________________________
 
-# 17. WF-L02-010 — H/M/L Escalation
+## 17. WF-L02-010 — H/M/L Escalation
 
 Start at smallest sufficient scale.
 
@@ -822,9 +820,9 @@ L affected candidate
 
 Cross-scale conclusions require explicit mapping.
 
----
+______________________________________________________________________
 
-# 18. WF-L02-011 — Resource Exhaustion
+## 18. WF-L02-011 — Resource Exhaustion
 
 ```text
 MONITOR BUDGET
@@ -850,9 +848,9 @@ budget exhausted
 → fabricate completion
 ```
 
----
+______________________________________________________________________
 
-# 19. WF-L02-012 — Attention Starvation Detection
+## 19. WF-L02-012 — Attention Starvation Detection
 
 ```text
 TRACK DEFERRED CANDIDATES
@@ -872,9 +870,9 @@ STARVATION MATERIAL?
 
 No canonical starvation threshold is asserted.
 
----
+______________________________________________________________________
 
-# 20. WF-L02-013 — Thrashing Detection
+## 20. WF-L02-013 — Thrashing Detection
 
 Signals may include:
 
@@ -905,9 +903,9 @@ RESTORE LAST STABLE PRIORITY SET
 SELECT ONE DISCRIMINATING TARGET
 ```
 
----
+______________________________________________________________________
 
-# 21. WF-L02-014 — Salience Capture Defense
+## 21. WF-L02-014 — Salience Capture Defense
 
 ```text
 HIGH-SALIENCE INPUT
@@ -933,9 +931,9 @@ Hard invariant:
 SALIENCE != TRUTH
 ```
 
----
+______________________________________________________________________
 
-# 22. WF-L02-015 — Memory Reuse
+## 22. WF-L02-015 — Memory Reuse
 
 ```text
 RETRIEVE PRIOR ATTENTION STATE
@@ -958,9 +956,9 @@ REUSE?
 └─ NO → quarantine / ignore
 ```
 
----
+______________________________________________________________________
 
-# 23. WF-L02-016 — Failure Recovery
+## 23. WF-L02-016 — Failure Recovery
 
 ```text
 FAILURE DETECTED
@@ -986,15 +984,15 @@ RESUME
 
 Core dependency rule:
 
-[
+\[
 Invalid(p)
-\Rightarrow
+\\Rightarrow
 Invalidate(Descendants(p))
-]
+\]
 
----
+______________________________________________________________________
 
-# 24. WF-L02-017 — Proposal to Commit
+## 24. WF-L02-017 — Proposal to Commit
 
 L02 itself should normally terminate at proposal.
 
@@ -1033,9 +1031,9 @@ L02 recommendation
 control-plane authority
 ```
 
----
+______________________________________________________________________
 
-# 25. WF-L02-018 — Stop Workflow
+## 25. WF-L02-018 — Stop Workflow
 
 Stop when:
 
@@ -1065,9 +1063,9 @@ BLOCKED
 
 Stopping is not equivalent to claiming certainty.
 
----
+______________________________________________________________________
 
-# 26. Workflow Invariants
+## 26. Workflow Invariants
 
 ```text
 L02-WF-INV-001
@@ -1131,9 +1129,9 @@ L02-WF-INV-020
 Confidence remains bounded by weakest load-bearing premise unless independently revalidated.
 ```
 
----
+______________________________________________________________________
 
-# 27. Dependencies
+## 27. Dependencies
 
 Internal L02 dependencies:
 
@@ -1180,9 +1178,9 @@ repair governance
 
 Exact canonical dependency graph remains `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
-# 28. H/M/L Applicability
+## 28. H/M/L Applicability
 
 ## H — Governing workflow
 
@@ -1231,9 +1229,9 @@ smallest sufficient L
 → H only when governing dependencies require it
 ```
 
----
+______________________________________________________________________
 
-# 29. Control-Plane Requirements
+## 29. Control-Plane Requirements
 
 The control plane should own or validate:
 
@@ -1259,9 +1257,9 @@ switch/defer/escalate proposal
 
 but must not silently acquire commit authority.
 
----
+______________________________________________________________________
 
-# 30. Agents
+## 30. Agents
 
 Candidate logical roles:
 
@@ -1278,9 +1276,9 @@ These are architectural roles only.
 
 No claim is made that each is currently implemented as an autonomous runtime agent.
 
----
+______________________________________________________________________
 
-# 31. Skills
+## 31. Skills
 
 Relevant capability families include:
 
@@ -1309,9 +1307,9 @@ VALIDATION
 AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 32. Protocols
+## 32. Protocols
 
 Candidate workflow protocols:
 
@@ -1334,9 +1332,9 @@ L02_WF_PROPOSE
 
 Protocol names are `AMOS_MODEL`.
 
----
+______________________________________________________________________
 
-# 33. Evidence / Provenance
+## 33. Evidence / Provenance
 
 Each workflow transition should preserve:
 
@@ -1380,9 +1378,9 @@ what remained valid;
 which authority permitted any effect.
 ```
 
----
+______________________________________________________________________
 
-# 34. Uncertainty and Confidence Ceiling
+## 34. Uncertainty and Confidence Ceiling
 
 ```yaml
 uncertainty:
@@ -1428,9 +1426,9 @@ runtime implementation: UNKNOWN/GAP
 runtime correctness: UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 35. Failure Modes
+## 35. Failure Modes
 
 ```text
 FM-L02-WF-001
@@ -1494,9 +1492,9 @@ FM-L02-WF-020
 Fast path bypasses hard invariant.
 ```
 
----
+______________________________________________________________________
 
-# 36. Repair / Recovery
+## 36. Repair / Recovery
 
 Generic repair:
 
@@ -1550,9 +1548,9 @@ CRITICAL_GAP
 → return UNKNOWN/GAP if unresolved
 ```
 
----
+______________________________________________________________________
 
-# 37. Tests / Validators
+## 37. Tests / Validators
 
 Minimum workflow validators:
 
@@ -1603,9 +1601,9 @@ NOT_RUN
 
 unless separate executable evidence is supplied.
 
----
+______________________________________________________________________
 
-# 38. Falsifiers
+## 38. Falsifiers
 
 The model contract must be revised if canonical source establishes:
 
@@ -1651,9 +1649,9 @@ stale state commits;
 failed workflows repeat without changed evidence.
 ```
 
----
+______________________________________________________________________
 
-# 39. Gap Matrix
+## 39. Gap Matrix
 
 ```yaml
 gap_status:
@@ -1728,9 +1726,9 @@ gap_status:
     status: UNKNOWN_GAP
 ```
 
----
+______________________________________________________________________
 
-# 40. RSCF Completion State
+## 40. RSCF Completion State
 
 ```yaml
 rscf:
@@ -1832,9 +1830,9 @@ rscf:
     contradiction preservation, rollback, and proposal/commit separation
 ```
 
----
+______________________________________________________________________
 
-# 41. Completion State
+## 41. Completion State
 
 ```yaml
 completion_state:
@@ -1912,9 +1910,9 @@ completion_state:
     MODEL
 ```
 
----
+______________________________________________________________________
 
-# 42. Hard Boundaries
+## 42. Hard Boundaries
 
 ```text
 PLACEHOLDER != IMPLEMENTED
@@ -1964,15 +1962,15 @@ WORKFLOW_DEFINED != WORKFLOW_IMPLEMENTED
 WORKFLOW_IMPLEMENTED != WORKFLOW_VALIDATED
 ```
 
----
+______________________________________________________________________
 
-# 43. Governing Workflow Contract
+## 43. Governing Workflow Contract
 
 > **`L02_ATTENTION` SHALL operate as a bounded attention-allocation workflow over typed candidates and scarce resources. Every material candidate SHALL pass hard admission invariants; priority SHALL remain distinct from truth and confidence; provenance, scope, regime, freshness, dependencies, contradictions, and COMPETING hypotheses SHALL remain visible; processing SHALL begin at the smallest sufficient H/M/L scope; invalidation SHALL propagate only through dependent state; failed paths SHALL not be repeated without changed evidence; and L02 outputs SHALL remain proposals until an authoritative control-plane gate validates any durable effect.**
 
----
+______________________________________________________________________
 
-# 44. Canon Boundary
+## 44. Canon Boundary
 
 ```text
 SOURCE-SUPPORTED:
@@ -2054,23 +2052,27 @@ AUTHORITY TO COMMIT
 
 The source-grounded attention-governor contract used here preserves Trang Phan as origin architect/steward and explicitly requires H/M/L, hard non-compensatory invariants, weakest-premise confidence ceilings, selective descendant invalidation, `UNKNOWN/GAP`, `COMPETING`, provenance, falsifiers, and repair/rollback.
 ```
----
+
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: l02_attention_primitives_cognitive_matrix_workflows
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION/L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_WORKFLOWS.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION/L02_ATTENTION_MOC|L02_ATTENTION_MOC]]
-

@@ -1,28 +1,51 @@
 ---
-title: MVCC_CAS — Concurrency & Atomic State Transition Specification
-type: kernel-spec
+title: "Mvcc Cas — Plane Governance Specification"
+type: specification
 source: 02_KERNEL
-tags:
-- kernel
-- concurrency
-- mvcc
-- cas
-- atomic
-- k-mvcc
-- k-cas
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
+status: ACTIVE_SPECIFICATION
+epistemic_class: AMOS_MODEL
+conclusion_class: DERIVED
 rscf:
-  state: CANON_SPEC
-  claim_class: AMOS_SYSTEM_CORE
-  provenance: AMOS_KERNEL
+  state: DERIVED
+  claim_class: AMOS_MODEL
+  provenance:
+    - 00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE
+    - 00_ROOT/00_ROOT_MOC
+  scope: plane_governance
+tags:
+  - amos-os
+  - 02-kernel
+  - specification
+  - mvcc-cas
 ---
 
-# MVCC_CAS — Concurrency & Atomic State Transition Specification
+# Mvcc Cas — Plane Governance Specification
 
-Unified specification combining [[02_KERNEL/K_MVCC|K_MVCC]] (multi-version snapshot isolation) and [[02_KERNEL/K_CAS|K_CAS]] (atomic compare-and-swap) to guarantee serializability and zero-drift state progression.
-
-## Related
-- [[02_KERNEL/K_MVCC|K_MVCC]] · [[02_KERNEL/K_CAS|K_CAS]] · [[02_KERNEL/02_KERNEL_MOC|02_KERNEL_MOC]]
+> **Origin Architect / Steward:** Trang Phan  
+> **AMOS_CORE Target:** `v4.4`  
+> **Conclusion Class:** `AMOS_MODEL`  
+> **Status:** `ACTIVE_SPECIFICATION`
 
 ---
 
-**MOC:** [[02_KERNEL/03_CAUSAL/03_CAUSAL_MOC|03_CAUSAL_MOC]] · [[00_ROOT/00_HOME|00_HOME]]
+## 1. Architectural Scope
+
+`MVCC_CAS` defines the typed contracts, invariants, and operational procedures for `02_KERNEL` within the AMOS Full OS MECE architecture.
+
+---
+
+## 2. Governing Invariants
+
+- **Axiom Adherence:** Strictly bound by M01–M20 core laws.
+- **Fail-Closed Execution:** Rejects unverified or malformed inputs into the rollback basin.
+- **Immutable Receipts:** Emits auditable trace logs to `17_OBSERVABILITY`.
+
+---
+
+## 3. Navigation & Bindings
+
+- **Master MOC:** [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]
+- **Partition Architecture:** [[00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE|FULL_BRAIN_OS_MECE_ARCHITECTURE]]

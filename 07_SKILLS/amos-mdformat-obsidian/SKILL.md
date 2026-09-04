@@ -11,23 +11,23 @@ version: 1.1.0
 rscf_state: DERIVED
 hml_level: L
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L5_scope
+  - L0_integrity
+  - L1_epistemic
+  - L5_scope
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L5
+  - L0
+  - L1
+  - L5
 tags:
-- type/skill
-- type/skill
-- domain/knowledge-research
-- epistemic/source_claim
-- hml/m
-- epistemic/source_claim
-- amos-os
+  - type/skill
+  - type/skill
+  - domain/knowledge-research
+  - epistemic/source_claim
+  - hml/m
+  - epistemic/source_claim
+  - amos-os
 steward: Trang Phan
 language: en
 rscf:
@@ -45,7 +45,6 @@ source: 07_SKILLS/amos-mdformat-obsidian
 
 AMOS mdformat-obsidian — Obsidian vault Markdown formatting using mdformat-obsidian and related plugins. Use when formatting Obsidian-flavored Markdown files (callouts, footnotes, task lists, dollar math, wikilinks), fixing broken YAML frontmatter parsing, normalizing thematic breaks/bullet markers/code block fences, or migrating legacy tags to [[01_CANON/04_INFRASTRUCTURE_CANON/RSCF_CANON|RSCF_CANON]] structural-axis taxonomy. Use whenever the user mentions mdformat, obsidian formatting, vault formatting, wikilink normalization, or frontmatter fixing — even without explicitly asking for 'mdformat'. Do not use for non-Obsidian Markdown files, semantic content rewriting, or tasks outside the AMOS_OS vault context.
 
-
 ## Identity
 
 Origin architect: **Trang Phan**.
@@ -62,7 +61,6 @@ Skill for formatting Obsidian vault Markdown files using `mdformat-obsidian` and
 - Use the Obsidian vault as the reasoning brain for canonical formatting and tagging
 - Run the full `amos-vault-formatting-tagging` workflow to batch-normalize frontmatter and tags
 - Verify vault health via Obsidian MCP after formatting
-
 
 ## Validation Gates
 
@@ -88,7 +86,7 @@ Skill for formatting Obsidian vault Markdown files using `mdformat-obsidian` and
 → Identify the 4-backtick wrapping bug, apply mdformat-frontmatter to normalize YAML parsing.
 
 **User says:** "Migrate legacy tags to RSCF structural-axis taxonomy"
-→ Replace old flat tags with nested rscf/* taxonomy tags across vault files using mdformat-obsidian.
+→ Replace old flat tags with nested rscf/\* taxonomy tags across vault files using mdformat-obsidian.
 
 ## Prerequisites
 
@@ -97,15 +95,15 @@ Skill for formatting Obsidian vault Markdown files using `mdformat-obsidian` and
 The vault uses Python 3.12+ for mdformat-obsidian (requires Python >= 3.10).
 
 ```sh
-# Create venv with Python 3.12
+## Create venv with Python 3.12
 /Users/mac/.local/bin/python3.12 -m venv /tmp/mdformat_venv
 
-# Install from local wheels (if pip hangs on resolution)
+## Install from local wheels (if pip hangs on resolution)
 /tmp/mdformat_venv/bin/pip install --no-index --find-links=/tmp/mdformat_wheels \
   mdformat mdformat-obsidian mdformat-frontmatter mdformat-wikilink \
   mdformat-gfm mdit-py-plugins
 
-# Or install from PyPI (if network works)
+## Or install from PyPI (if network works)
 /tmp/mdformat_venv/bin/pip install mdformat mdformat-obsidian mdformat-frontmatter mdformat-wikilink
 ```
 
@@ -126,37 +124,40 @@ The vault uses Python 3.12+ for mdformat-obsidian (requires Python >= 3.10).
 - **tag.migrate_rscf**: Migrate legacy tags to RSCF structural-axis taxonomy
 - **tag.normalize**: Normalize frontmatter tags using Obsidian MCP
 
-
 ## Operations
 
 1. Execute `format.validate` — format validate with appropriate parameters and validate output.
-2. Execute `format.file` — format file with appropriate parameters and validate output.
-3. Execute `format.batch` — format batch with appropriate parameters and validate output.
-4. Execute `format.fix_backtick_wrapping` — format fix backtick wrapping with appropriate parameters and validate output.
-5. Execute `format.fix_thematic_breaks` — format fix thematic breaks with appropriate parameters and validate output.
-6. Execute `tag.migrate_rscf` — tag migrate rscf with appropriate parameters and validate output.
-7. Execute `tag.normalize` — tag normalize with appropriate parameters and validate output.
+1. Execute `format.file` — format file with appropriate parameters and validate output.
+1. Execute `format.batch` — format batch with appropriate parameters and validate output.
+1. Execute `format.fix_backtick_wrapping` — format fix backtick wrapping with appropriate parameters and validate output.
+1. Execute `format.fix_thematic_breaks` — format fix thematic breaks with appropriate parameters and validate output.
+1. Execute `tag.migrate_rscf` — tag migrate rscf with appropriate parameters and validate output.
+1. Execute `tag.normalize` — tag normalize with appropriate parameters and validate output.
+
 ## Formatting Workflow
 
 ### Step 1: Fix 4-Backtick Wrapping Bug
 
-Some vault files have ````markdown` wrapping that encloses YAML frontmatter in a code block, breaking Obsidian's frontmatter parsing.
+Some vault files have \`\`\`\`markdown\` wrapping that encloses YAML frontmatter in a code block, breaking Obsidian's frontmatter parsing.
 
 **Detection**:
-```sh
+
+`````sh
 grep -rl '^````markdown' /Users/mac/Documents/AMOS_OS/ --include='*.md'
-```
+`````
 
 **Fix for line-1 cases** (frontmatter at start of file wrapped in 4-backtick fence):
-1. Remove the ````markdown` line
-2. Find the matching `````` close (first 4+ backtick line after a ```text block)
-3. Change it to ``` (3 backticks) to properly close the inner code block
+
+1. Remove the \`\`\`\`markdown\` line
+1. Find the matching \`\`\`\`\`\` close (first 4+ backtick line after a \`\`\`text block)
+1. Change it to \`\`\` (3 backticks) to properly close the inner code block
 
 **Fix for embedded cases** (frontmatter mid-file, wrapped in 4-backtick fence):
+
 1. Extract the frontmatter block (--- to ---)
-2. Move it to the top of the file
-3. Remove the 4-backtick wrapping
-4. Reassemble: frontmatter + content-before-fence + content-after-close
+1. Move it to the top of the file
+1. Remove the 4-backtick wrapping
+1. Reassemble: frontmatter + content-before-fence + content-after-close
 
 ### Step 2: Run mdformat-obsidian
 
@@ -165,6 +166,7 @@ grep -rl '^````markdown' /Users/mac/Documents/AMOS_OS/ --include='*.md'
 ```
 
 This formats:
+
 - Obsidian callouts (`> [!note]`, `> [!tip]`, etc.)
 - Inline footnotes (`^[footnote]`)
 - Task list markers (`[x]`, `[?]`, `[/]`, `[-]`)
@@ -181,7 +183,7 @@ mdformat converts `---` thematic breaks to `___` (underscores) or long `______..
 ```python
 import re
 content = open(filepath).read()
-# Match lines that are only underscores (3 or more, including long underscore lines)
+## Match lines that are only underscores (3 or more, including long underscore lines)
 new_content = re.sub(r'^_{3,}$', '---', content, flags=re.MULTILINE)
 open(filepath, 'w').write(new_content)
 ```
@@ -193,13 +195,15 @@ This is safe because frontmatter `---` delimiters are already `---` and won't ma
 **CRITICAL**: mdformat-wikilink strips `...` syntax from wikilinks pointing to non-existent notes, converting `NOTE_NAME` to bare `NOTE_NAME`. This is destructive and must be reversed.
 
 **Known stripped wikilink targets** (notes that don't exist in the vault):
+
 - `K_ATOMIC_MULTI_RSCF`
 - `AMOS_FRACTAL_KNOWLEDGE_NETWORK`
 - `AMOS_CORE_RUNTIME_LINEAGE`
 - `PROOF_CAPSULE`
 
 **Restoration script**:
-```python
+
+````python
 import re
 
 STRIPPED_WIKILINKS = [
@@ -225,11 +229,12 @@ def restore_wikilinks(content):
             )
         result.append(line)
     return '\n'.join(result)
-```
+````
 
 **Also restore bare ALL_CAPS names in `**Related:**` lines**:
 
 **Tags:** #amos_os #skill #knowledge #framework #rscf #agent #authority #canon #claim #confidence #drift #epistemic #evidence
+
 ```python
 def fix_related_line(line):
     if '**Related:**' not in line:
@@ -251,7 +256,7 @@ def fix_related_line(line):
     return ' · '.join(result)
 ```
 
-### Step 3b: Restore LaTeX \( \) Inline Math Delimiters
+### Step 3b: Restore LaTeX ( ) Inline Math Delimiters
 
 **CRITICAL**: mdformat strips `\(` and `\)` LaTeX inline math delimiters, converting `\(X\)` to plain `(X)`. This breaks Obsidian's math rendering.
 
@@ -260,6 +265,7 @@ Inside `$$...$$` blocks, plain parentheses ARE math notation. Adding `\(` `\)` i
 `$$` blocks breaks rendering. Only restore `\(` `\)` for **inline math** outside `$$` blocks.
 
 **Restoration patterns** (apply ONLY outside code blocks AND outside `$$` math blocks):
+
 - `\(X\)` where X is a single capital letter: `(C)` → `\(C\)`
 - `\(X_y\)` where X is capital with subscript: `(R_A)` → `\(R_A\)`
 - `\(X^y\)` where X is capital with superscript: `(p^*)` → `\(p^*\)`
@@ -267,6 +273,7 @@ Inside `$$...$$` blocks, plain parentheses ARE math notation. Adding `\(` `\)` i
 - `\(Replay\)` capitalized words in math context: `(Replay)` → `\(Replay\)`
 
 **Do NOT restore** (these are regular parentheses, not LaTeX):
+
 - `ABORT(Conflict)` — function call notation
 - `Preserve(Lineage)` — function call notation
 - `Confidence(Receipt)` — function call notation
@@ -292,7 +299,7 @@ def fix_escaped_asterisks(content):
 
 ### Step 3c: Fix Related Line Spacing
 
-mdformat may remove spaces around `·` (middle dot) in `**Related:**` lines. Ensure consistent ` · ` spacing:
+mdformat may remove spaces around `·` (middle dot) in `**Related:**` lines. Ensure consistent `·` spacing:
 
 ```python
 def fix_related_spacing(line):
@@ -319,27 +326,28 @@ If `frontmatter` returns `null`, the frontmatter is still broken.
 
 Add RSCF structural-axis tags to the frontmatter:
 
-| RSCF Tag | Used For |
-|----------|----------|
-| `rscf/D-distinction` | identity, classification, difference |
-| `rscf/C-constraint` | hard limits, invariants, canon constraints |
-| `rscf/G-relation` | coupling, interconnection, dependency |
-| `rscf/S-state` | runtime condition, formal state |
-| `rscf/T-topology` | architecture, graph structure |
-| `rscf/M-memory` | persistent knowledge, historical state |
-| `rscf/K-compression` | summarization, representation reduction |
-| `rscf/P-repair` | correction, test repair |
-| `rscf/μ-mutation` | evolution, change, version transition |
-| `rscf/B-boundary` | memory boundaries, system boundaries |
-| `rscf/X-cross-scale` | multi-level systems |
-| `rscf/E-entropy` | drift, disorder, lacunarity |
-| `rscf/type-model` | model artifact |
-| `rscf/type-system` | system artifact |
-| `rscf/type-process` | process artifact |
-| `rscf/type-evidence` | evidence artifact |
-| `rscf/type-concept` | conceptual artifact |
+| RSCF Tag             | Used For                                   |
+| -------------------- | ------------------------------------------ |
+| `rscf/D-distinction` | identity, classification, difference       |
+| `rscf/C-constraint`  | hard limits, invariants, canon constraints |
+| `rscf/G-relation`    | coupling, interconnection, dependency      |
+| `rscf/S-state`       | runtime condition, formal state            |
+| `rscf/T-topology`    | architecture, graph structure              |
+| `rscf/M-memory`      | persistent knowledge, historical state     |
+| `rscf/K-compression` | summarization, representation reduction    |
+| `rscf/P-repair`      | correction, test repair                    |
+| `rscf/μ-mutation`    | evolution, change, version transition      |
+| `rscf/B-boundary`    | memory boundaries, system boundaries       |
+| `rscf/X-cross-scale` | multi-level systems                        |
+| `rscf/E-entropy`     | drift, disorder, lacunarity                |
+| `rscf/type-model`    | model artifact                             |
+| `rscf/type-system`   | system artifact                            |
+| `rscf/type-process`  | process artifact                           |
+| `rscf/type-evidence` | evidence artifact                          |
+| `rscf/type-concept`  | conceptual artifact                        |
 
 Use the Obsidian MCP `frontmatter` tool with `action=set` to update tags:
+
 ```
 frontmatter action=set path="<path>" key=tags value=["tag1", "rscf/C-constraint", ...]
 ```
@@ -348,12 +356,12 @@ frontmatter action=set path="<path>" key=tags value=["tag1", "rscf/C-constraint"
 
 For canon files in `01_CANON/03_COGNITION_CANON/`:
 
-| Canon File | RSCF Tags |
-|------------|-----------|
-| AMOS_COGNITIVE_FIELD_CANON | `rscf/C-constraint`, `rscf/D-distinction`, `rscf/S-state`, `rscf/type-model` |
-| AMOS_CONSCIOUSNESS_CANON | `rscf/C-constraint`, `rscf/D-distinction`, `rscf/type-concept` |
-| AMOS_COGNITION_CANON | `rscf/C-constraint`, `rscf/D-distinction`, `rscf/G-relation`, `rscf/type-model` |
-| AMOS_ATTENTION_CANON | `rscf/C-constraint`, `rscf/D-distinction`, `rscf/S-state`, `rscf/type-model` |
+| Canon File                  | RSCF Tags                                                                                           |
+| --------------------------- | --------------------------------------------------------------------------------------------------- |
+| AMOS_COGNITIVE_FIELD_CANON  | `rscf/C-constraint`, `rscf/D-distinction`, `rscf/S-state`, `rscf/type-model`                        |
+| AMOS_CONSCIOUSNESS_CANON    | `rscf/C-constraint`, `rscf/D-distinction`, `rscf/type-concept`                                      |
+| AMOS_COGNITION_CANON        | `rscf/C-constraint`, `rscf/D-distinction`, `rscf/G-relation`, `rscf/type-model`                     |
+| AMOS_ATTENTION_CANON        | `rscf/C-constraint`, `rscf/D-distinction`, `rscf/S-state`, `rscf/type-model`                        |
 | AMOS_COGNITION_MASTER_CANON | `rscf/C-constraint`, `rscf/D-distinction`, `rscf/G-relation`, `rscf/T-topology`, `rscf/type-system` |
 
 ## Vault Health Verification
@@ -361,16 +369,16 @@ For canon files in `01_CANON/03_COGNITION_CANON/`:
 After formatting, verify vault health using Obsidian MCP:
 
 ```
-# Check frontmatter is parsed
+## Check frontmatter is parsed
 frontmatter action=get path="<path>"
 
-# Check note metadata (tags, headings, links)
+## Check note metadata (tags, headings, links)
 note_inspect path="<path>"
 
-# Check for broken wikilinks
+## Check for broken wikilinks
 wikilinks query=broken
 
-# Check vault statistics
+## Check vault statistics
 vault_info
 ```
 
@@ -404,9 +412,13 @@ vault_info
 - **Origin architect**: Trang Phan
 
 - **Skill**: amos-mdformat-obsidian
+
 - **Source**: AMOS_OS Obsidian vault (`/Users/mac/Documents/AMOS_OS`)
+
 - **Vault source**: `11_KNOWLEDGE/rscf/RSCF_STRUCTURAL_TAG_MIGRATION.md`
+
 - **Tool**: [mdformat-obsidian](https://github.com/KyleKing/mdformat-obsidian) v0.3.2
+
 - **Created**: 2026-08-28
 
 ## SOTA Data Trustworthiness (2026)
@@ -418,9 +430,9 @@ vault_info
 Before applying this skill's outputs, validate:
 
 1. **Freshness**: Is the source data current? Check `content_hash` and vault modification dates. If source is >90 days old and domain is fast-moving, flag as STALE_SOURCE.
-2. **Ownership**: Is the source owned by a recognized authority? Vault canon (Trang Phan) = SOURCE_CANON. External papers = SOURCE_CLAIM. User-provided = OBSERVATION. Unattributed = UNKNOWN/GAP.
-3. **Certification**: Has the source been validated? Validated sources have `content_hash` matches. Unvalidated sources require independent corroboration (2+ sources) before consolidation.
-4. **Integrity**: Has the source been modified since last validation? If `content_hash` mismatches recomputed hash, flag as INTEGRITY_GAP and trigger revalidation.
+1. **Ownership**: Is the source owned by a recognized authority? Vault canon (Trang Phan) = SOURCE_CANON. External papers = SOURCE_CLAIM. User-provided = OBSERVATION. Unattributed = UNKNOWN/GAP.
+1. **Certification**: Has the source been validated? Validated sources have `content_hash` matches. Unvalidated sources require independent corroboration (2+ sources) before consolidation.
+1. **Integrity**: Has the source been modified since last validation? If `content_hash` mismatches recomputed hash, flag as INTEGRITY_GAP and trigger revalidation.
 
 ### Trustworthiness Decision
 
@@ -465,10 +477,10 @@ eval_contract:
 ### Regression Test Protocol
 
 1. Run paired trials: with-skill vs without-skill
-2. Measure Skill Lift (improvement) and Regression (worsening)
-3. Track 3 regression modes: osmosis, grounding displacement, verification displacement
-4. If regression rate > 10%, flag skill for review
-5. Executor and grader MUST be structurally separated (no self-grading bias)
+1. Measure Skill Lift (improvement) and Regression (worsening)
+1. Track 3 regression modes: osmosis, grounding displacement, verification displacement
+1. If regression rate > 10%, flag skill for review
+1. Executor and grader MUST be structurally separated (no self-grading bias)
 
 ## SOTA Regression Prevention (2026)
 
@@ -499,10 +511,11 @@ A skill's procedure suppresses checks the agent would otherwise perform on its o
 ### Input-Grounded Reasoning
 
 All outputs from this skill MUST be grounded in:
+
 1. **Input data**: The actual data provided, not the skill's assumptions about what data should look like
-2. **User intent**: What the user actually asked for, not what the skill assumes they want
-3. **Observed context**: The real state of the world, not the skill's model of it
-4. **Source evidence**: Vault sources, empirical data, or established math — not the skill's internal logic
+1. **User intent**: What the user actually asked for, not what the skill assumes they want
+1. **Observed context**: The real state of the world, not the skill's model of it
+1. **Source evidence**: Vault sources, empirical data, or established math — not the skill's internal logic
 
 ### Grounding Checks (execute before output)
 
@@ -517,6 +530,6 @@ If any check fails, downgrade confidence and flag as GROUNDING_GAP.
 
 See references/ directory for detailed sub-files. Read references/ files when deeper context is needed for this capability.
 
----
-**MOC:** [[07_SKILLS/amos-mdformat-obsidian/amos-mdformat-obsidian_MOC|amos-mdformat-obsidian_MOC]]
+______________________________________________________________________
 
+**MOC:** [[07_SKILLS/amos-mdformat-obsidian/amos-mdformat-obsidian_MOC|amos-mdformat-obsidian_MOC]]

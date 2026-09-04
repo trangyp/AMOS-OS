@@ -4,25 +4,22 @@ title: SKILL — Amos Distributed Causal Evolution Rscf Engine
 type: skill
 source: 07_SKILLS/amos-distributed-causal-evolution-rscf-engine
 name: amos-distributed-causal-evolution-rscf-engine
-description: Distributed Causal Evolution — causal reasoning capability. Use when
-  causal analysis, counterfactual reasoning, or intervention design. Use when amos-causal-reasoning-master
-  routes to this specialized capability. Do not use for generic tasks outside causal
-  domain.
+description: Distributed Causal Evolution — causal reasoning capability. Use when causal analysis, counterfactual reasoning, or intervention design. Use when amos-causal-reasoning-master routes to this specialized capability. Do not use for generic tasks outside causal domain.
 parent_skill: amos-causal-reasoning-master
 domain: causal
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
 tags:
-- type/skill
-- type/skill
-- domain/causal-reasoning
-- epistemic/source_claim
-- hml/h
-- epistemic/source_claim
-- amos-os
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/causal-reasoning
+  - epistemic/source_claim
+  - hml/h
+  - epistemic/source_claim
+  - amos-os
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -32,24 +29,24 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: H
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
-- L24_causal_epoch
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
+  - L24_causal_epoch
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L7
-- L16
-- L17
-- L18
-- L24
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L7
+  - L16
+  - L17
+  - L18
+  - L24
 license: MIT
 steward: Trang Phan
 ---
@@ -59,6 +56,7 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: causal. Parent: amos-causal-reasoning-master. Epistemic class: SOURCE_CLAIM. H/M/L: H.
+
 ## When to Use
 
 - When validating causal abstraction across model levels
@@ -83,12 +81,12 @@ Origin architect: **Trang Phan**. Domain: causal. Parent: amos-causal-reasoning-
 ## Operations
 
 1. **distributed_causal.validate_abstraction**: Validate causal abstraction: does the higher-level model preserve causal structure?
-2. **distributed_causal.enforce_closure**: Enforce causal closure: every effect must have a sufficient cause within the system
-3. **distributed_causal.govern_hierarchy**: Govern causal hierarchy: direct, distributed, delayed, and cascading causes
-4. **distributed_causal.reason_counterfactual**: Reason counterfactually: what would happen under alternative interventions
-5. **distributed_causal.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-6. **distributed_causal.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
-7. **distributed_causal.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+1. **distributed_causal.enforce_closure**: Enforce causal closure: every effect must have a sufficient cause within the system
+1. **distributed_causal.govern_hierarchy**: Govern causal hierarchy: direct, distributed, delayed, and cascading causes
+1. **distributed_causal.reason_counterfactual**: Reason counterfactually: what would happen under alternative interventions
+1. **distributed_causal.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+1. **distributed_causal.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+1. **distributed_causal.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## 11_KNOWLEDGE Vault Content
 
@@ -100,6 +98,7 @@ Origin architect: **Trang Phan**. Domain: causal. Parent: amos-causal-reasoning-
 From AMOS Core v3.4.1: Distributed causal evolution runtime for managing causally distributed state across multiple nodes.
 
 **Distributed causal model**:
+
 - **Causal epochs**: time periods defined by causal boundaries, not clock time
 - **Quorum certification**: causal decisions require quorum from participating nodes
 - **Closed membership**: causal evolution operates within declared membership
@@ -107,14 +106,16 @@ From AMOS Core v3.4.1: Distributed causal evolution runtime for managing causall
 - **Compact epoch encoding**: epochs are encoded compactly for efficiency
 
 **Evolution protocol**:
+
 1. **Declare epoch**: declare the causal epoch boundaries
-2. **Distribute state**: distribute causal state to participating nodes
-3. **Quorum check**: verify quorum for causal decisions
-4. **Order conflicts**: order conflicts deterministically
-5. **Commit epoch**: commit the epoch with provenance
-6. **Trace**: trace the full causal chain across nodes
+1. **Distribute state**: distribute causal state to participating nodes
+1. **Quorum check**: verify quorum for causal decisions
+1. **Order conflicts**: order conflicts deterministically
+1. **Commit epoch**: commit the epoch with provenance
+1. **Trace**: trace the full causal chain across nodes
 
 **RSCF laws**:
+
 - `DISTRIBUTED != REPLICATED`: distributed causal state is not replicated state; each node has its own causal perspective
 - `EPOCH != TIME`: a causal epoch is defined by causal boundaries, not clock time
 - `QUORUM != UNANIMITY`: quorum is sufficient; unanimity is not required
@@ -124,6 +125,7 @@ From AMOS Core v3.4.1: Distributed causal evolution runtime for managing causall
 Distributed causal evolution is a runtime architecture. It does not prove all nodes agree, that causal ordering is always possible, or that the system is fault-tolerant in all cases.
 
 ## Focus
+
 - runtime-parent lineage binding
 - exact transition binding
 - causal clocks
@@ -131,25 +133,29 @@ Distributed causal evolution is a runtime architecture. It does not prove all no
 - duplicate/equivocation handling
 
 ## Known gap at this version
+
 Authorization validity not bound to changing environment/evidence regime.
 
 ## Brain adaptation
+
 Treat this runtime stage as a loadable reasoning capability. Preserve the later lineage improvements; never regress to an earlier weakness when a later module corrects it.
 
 ## Benchmark record
+
 > **Reference**: See `references/distributed_causal_spec.md` (content_hash: da5ccf9e36ee988b) for the JSON specification.
 
 Benchmark claims are bounded to the recorded test corpus/environment and must not be generalized universally.
 
----
+______________________________________________________________________
 
----
+______________________________________________________________________
 
 ### Source 3: AMOS_CORE v3.3 — Governed Meta-Evolution Runtime
 
 > Path: `amos-general/A/CORE/AMOS_CORE v3.3 — Governed Meta-Evolution Runtime.md` | Size: 59362 chars | Match sco
 
----
+______________________________________________________________________
+
 **Links:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 ## Related
@@ -159,17 +165,19 @@ Benchmark claims are bounded to the recorded test corpus/environment and must no
 ## Examples
 
 - **Scenario**: When validating causal abstraction across model levels
+
   - **Input**: A query matching this skill's domain (causal)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When enforcing causal closure: every effect has a sufficient cause
+
   - **Input**: A query matching this skill's domain (causal)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When governing causal hierarchy: direct, distributed, delayed, cascading
+
   - **Input**: A query matching this skill's domain (causal)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Validation Gates
 
@@ -186,7 +194,6 @@ Benchmark claims are bounded to the recorded test corpus/environment and must no
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `amos-causal-reasoning-master` — routes to this skill when causal specialization is needed
@@ -194,7 +201,6 @@ Benchmark claims are bounded to the recorded test corpus/environment and must no
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -213,7 +219,6 @@ Benchmark claims are bounded to the recorded test corpus/environment and must no
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -221,7 +226,6 @@ Benchmark claims are bounded to the recorded test corpus/environment and must no
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -234,11 +238,12 @@ Benchmark claims are bounded to the recorded test corpus/environment and must no
 
 - `references/distributed_causal_spec.md` — loaded on demand
 - `references/references_MOC.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `amos-causal-reasoning-master` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `amos-distributed-causal-evolution-rscf-engine-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -246,12 +251,14 @@ Benchmark claims are bounded to the recorded test corpus/environment and must no
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-distributed-causal-evolution-rscf-engine
 node_type: skill
 path: 07_SKILLS/amos-distributed-causal-evolution-rscf-engine/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

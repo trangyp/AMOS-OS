@@ -14,23 +14,23 @@ plane: KERNEL
 scope: AMOS_OS
 updated: 2026-08-26
 tags:
-- kernel
-- authority
-- note
-- canon/kernel
-- readme
-- amos-core-laws
-- law-hierarchy
-- canon-provenance
-- k-core19-logic
-- k-meta-logic
-- k-capability-authorization
-- k-risk-constraint
-- k-system-state
-- k-context-state
-- k-causal-closure
-- k-causal-epoch
-- k-event-bus
+  - kernel
+  - authority
+  - note
+  - canon/kernel
+  - readme
+  - amos-core-laws
+  - law-hierarchy
+  - canon-provenance
+  - k-core19-logic
+  - k-meta-logic
+  - k-capability-authorization
+  - k-risk-constraint
+  - k-system-state
+  - k-context-state
+  - k-causal-closure
+  - k-causal-epoch
+  - k-event-bus
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL
@@ -68,9 +68,9 @@ CURRENT_COMMIT_AUTHORITY
 
 A proposal may have been valid when created and still be invalid to commit later.
 
----
+______________________________________________________________________
 
-# 1. Architectural Boundary
+## 1. Architectural Boundary
 
 AMOS separates:
 
@@ -111,9 +111,9 @@ NO AUTHORITY-SENSITIVE COMMIT
 WITHOUT VALID COMMIT-TIME AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 2. Relationship to Capability Authorization
+## 2. Relationship to Capability Authorization
 
 `K_CAPABILITY_AUTHORIZATION` asks:
 
@@ -146,9 +146,9 @@ COMMIT-TIME AUTHORITY
 
 Neither substitutes for the other.
 
----
+______________________________________________________________________
 
-# 3. Commit
+## 3. Commit
 
 A commit is a governed transition that makes a proposed mutation authoritative within its applicable state domain.
 
@@ -186,9 +186,9 @@ EXTERNAL-EFFECT INTENT
 
 according to the applicable subsystem contract.
 
----
+______________________________________________________________________
 
-# 4. Commit-Time Authority
+## 4. Commit-Time Authority
 
 Commit-time authority is the valid authority envelope governing the exact mutation at the moment it is eligible to become authoritative.
 
@@ -215,9 +215,9 @@ VALID_AUTHORITY(
 
 The presence of earlier authorization does not eliminate this check.
 
----
+______________________________________________________________________
 
-# 5. Fundamental Distinctions
+## 5. Fundamental Distinctions
 
 ```text
 PROPOSAL_AUTHORITY != COMMIT_AUTHORITY
@@ -249,9 +249,9 @@ AGENT_INTENT != COMMIT_AUTHORITY
 SUCCESSFUL_PREPARATION != COMMIT_AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 6. Commit-Time Revalidation Law
+## 6. Commit-Time Revalidation Law
 
 For commit `C`:
 
@@ -306,9 +306,9 @@ COMMIT_PRECONDITIONS_SATISFIED(C)
 
 This is an AMOS architectural contract, not a claim of formal implementation.
 
----
+______________________________________________________________________
 
-# 7. Authority Must Bind the Exact Commit
+## 7. Authority Must Bind the Exact Commit
 
 Authorization for:
 
@@ -339,9 +339,9 @@ POLICY
 RISK
 ```
 
----
+______________________________________________________________________
 
-# 8. Mutation Binding
+## 8. Mutation Binding
 
 Suppose authorization was granted for:
 
@@ -375,9 +375,9 @@ AUTHORIZED_MUTATION
 ARBITRARILY MODIFIED MUTATION
 ```
 
----
+______________________________________________________________________
 
-# 9. Target Binding
+## 9. Target Binding
 
 Authority for:
 
@@ -403,9 +403,9 @@ unless scope explicitly covers both.
 
 Dynamic target resolution must occur before final authority validation when the resolved target affects authorization.
 
----
+______________________________________________________________________
 
-# 10. State Binding
+## 10. State Binding
 
 Suppose:
 
@@ -434,9 +434,9 @@ AUTHORIZATION(S18)
 
 If the state transition can affect authorization, the commit must revalidate.
 
----
+______________________________________________________________________
 
-# 11. MVCC Boundary
+## 11. MVCC Boundary
 
 Conceptually:
 
@@ -468,9 +468,9 @@ OR
 REVALIDATION REQUIRED
 ```
 
----
+______________________________________________________________________
 
-# 12. CAS Boundary
+## 12. CAS Boundary
 
 A commit may carry:
 
@@ -499,9 +499,9 @@ If a load-bearing comparison fails:
 NO BLIND COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 13. Authority Epoch
+## 13. Authority Epoch
 
 Authority may change independently of state.
 
@@ -526,9 +526,9 @@ REVOKED_BEFORE_COMMIT
 → COMMIT_DENIED
 ```
 
----
+______________________________________________________________________
 
-# 14. Policy Epoch
+## 14. Policy Epoch
 
 Likewise:
 
@@ -547,9 +547,9 @@ VALID P18 COMMIT AUTHORITY
 
 unless an explicit grandfathering/pinning contract exists.
 
----
+______________________________________________________________________
 
-# 15. Regime Shift
+## 15. Regime Shift
 
 A proposal created under:
 
@@ -571,9 +571,9 @@ AUTH_TEST
 AUTH_PRODUCTION
 ```
 
----
+______________________________________________________________________
 
-# 16. Temporal Validity
+## 16. Temporal Validity
 
 Commit authority may have:
 
@@ -597,9 +597,9 @@ does not imply:
 VALID_WHEN_COMMITTED
 ```
 
----
+______________________________________________________________________
 
-# 17. Revocation Wins Before Commit
+## 17. Revocation Wins Before Commit
 
 If valid authority is revoked before authoritative commit:
 
@@ -623,9 +623,9 @@ where the revocation applies.
 
 The system must not use stale cached authorization to defeat revocation.
 
----
+______________________________________________________________________
 
-# 18. Commit-Time Scope
+## 18. Commit-Time Scope
 
 Authority must cover the complete authoritative effect.
 
@@ -652,9 +652,9 @@ ATOMIC COMMIT
 
 unless the operation is safely decomposable and partial execution is explicitly permitted.
 
----
+______________________________________________________________________
 
-# 19. Atomic Multi-RSCF Authority
+## 19. Atomic Multi-RSCF Authority
 
 For an atomic operation spanning:
 
@@ -679,9 +679,9 @@ CTA(A)
 
 Failure of one load-bearing authority requirement blocks the atomic authoritative transition.
 
----
+______________________________________________________________________
 
-# 20. Relation Authority
+## 20. Relation Authority
 
 Multi-resource commits may alter not only nodes but dependency edges.
 
@@ -705,9 +705,9 @@ RELATION_AUTHORITY
 
 when relationship mutation is independently governed.
 
----
+______________________________________________________________________
 
-# 21. Causal Epoch Interaction
+## 21. Causal Epoch Interaction
 
 Commit eligibility may depend on causal state.
 
@@ -730,9 +730,9 @@ requires revalidation.
 
 Commit-time authority must not preserve a mutation whose governing causal prerequisites are no longer valid.
 
----
+______________________________________________________________________
 
-# 22. Causal Finality Boundary
+## 22. Causal Finality Boundary
 
 Where AMOS uses causal epoch finality, an authoritative commit must be consistent with the finalized causal context required by that subsystem.
 
@@ -748,9 +748,9 @@ NO COMMIT
 
 Authority cannot override causal inconsistency.
 
----
+______________________________________________________________________
 
-# 23. Authority Cannot Repair Invalid State
+## 23. Authority Cannot Repair Invalid State
 
 Even valid authority does not make an invalid transition valid.
 
@@ -774,9 +774,9 @@ and:
 AUTHORITY != CONSISTENCY
 ```
 
----
+______________________________________________________________________
 
-# 24. Valid State Cannot Create Authority
+## 24. Valid State Cannot Create Authority
 
 Conversely:
 
@@ -798,9 +798,9 @@ SAFE != AUTHORIZED
 USEFUL != AUTHORIZED
 ```
 
----
+______________________________________________________________________
 
-# 25. Commit-Time Risk
+## 25. Commit-Time Risk
 
 Risk may change between proposal and commit.
 
@@ -822,9 +822,9 @@ MATERIAL_RISK_CHANGE
 → REVALIDATE AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 26. Dependency Closure
+## 26. Dependency Closure
 
 Commit-time authority should cover all load-bearing dependencies capable of changing the authorization result.
 
@@ -853,9 +853,9 @@ APPROVAL STATE
 
 Only dependencies capable of changing the result need be load-bearing.
 
----
+______________________________________________________________________
 
-# 27. Smallest Sufficient Proof Scope
+## 27. Smallest Sufficient Proof Scope
 
 AMOS v4.4 fast-path principle applies:
 
@@ -870,9 +870,9 @@ Do not globally recompute unrelated authority.
 
 But local validation is permitted only when locality itself is established.
 
----
+______________________________________________________________________
 
-# 28. Local Commit-Time Validation
+## 28. Local Commit-Time Validation
 
 Local validation is allowed when:
 
@@ -888,9 +888,9 @@ NO MATERIAL CROSS-SHARD COUPLING
 
 Otherwise escalate validation scope.
 
----
+______________________________________________________________________
 
-# 29. Proof-Based Coordination Avoidance
+## 29. Proof-Based Coordination Avoidance
 
 AMOS may avoid unnecessary global coordination when a local proof establishes that unrelated state cannot alter commit authority.
 
@@ -908,9 +908,9 @@ NOT REQUIRED
 
 This is a reasoning/architecture model, not a claim that a deployed distributed protocol currently exists.
 
----
+______________________________________________________________________
 
-# 30. Shard-Local Finalization
+## 30. Shard-Local Finalization
 
 Where a commit is provably shard-local:
 
@@ -930,9 +930,9 @@ NO CROSS-SHARD ATOMICITY REQUIREMENT
 
 Otherwise shard-local finalization is insufficient.
 
----
+______________________________________________________________________
 
-# 31. Hidden Dependency Firewall
+## 31. Hidden Dependency Firewall
 
 A local authorization proof fails if an unmodeled dependency can change authority.
 
@@ -955,9 +955,9 @@ IGNORED LOAD-BEARING DEPENDENCY
 → INVALID PROOF
 ```
 
----
+______________________________________________________________________
 
-# 32. Provenance Requirement
+## 32. Provenance Requirement
 
 Commit-time authority must preserve provenance sufficient to determine:
 
@@ -975,9 +975,9 @@ where those fields are material.
 
 Untraceable authority must not silently become commit authority.
 
----
+______________________________________________________________________
 
-# 33. Correlated Authority Evidence
+## 33. Correlated Authority Evidence
 
 Multiple approval records do not necessarily represent independent authority.
 
@@ -1000,9 +1000,9 @@ INDEPENDENT AUTHORITY SOURCES = 1
 
 Repetition does not repair invalid ancestry.
 
----
+______________________________________________________________________
 
-# 34. Separation of Duties at Commit
+## 34. Separation of Duties at Commit
 
 Where governance requires:
 
@@ -1030,9 +1030,9 @@ CONTROL DOMAIN
 
 depending on policy.
 
----
+______________________________________________________________________
 
-# 35. Self-Commit Firewall
+## 35. Self-Commit Firewall
 
 An actor must not bootstrap commit authority by writing the evidence that supposedly grants that same commit authority.
 
@@ -1057,9 +1057,9 @@ SELF-GENERATED AUTHORITY
 VALID COMMIT AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 36. Authority-Mutating Transactions
+## 36. Authority-Mutating Transactions
 
 Transactions that modify authority itself require special treatment.
 
@@ -1080,9 +1080,9 @@ ITS OWN PRE_STATE TRANSITION
 
 Authority must exist independently before the authority-mutating commit.
 
----
+______________________________________________________________________
 
-# 37. Policy-Mutating Transactions
+## 37. Policy-Mutating Transactions
 
 Likewise:
 
@@ -1107,9 +1107,9 @@ NEW POLICY MAY GOVERN LATER COMMITS
 
 unless canon explicitly defines another governed bootstrap mechanism.
 
----
+______________________________________________________________________
 
-# 38. Canon-Mutating Transactions
+## 38. Canon-Mutating Transactions
 
 Canon promotion has an even stronger boundary.
 
@@ -1130,9 +1130,9 @@ UNAUTHORIZED PROMOTION
 
 Promotion authority must derive from the valid pre-promotion governance state.
 
----
+______________________________________________________________________
 
-# 39. Memory-Mutating Transactions
+## 39. Memory-Mutating Transactions
 
 A memory candidate may be generated without authority to persist it.
 
@@ -1148,9 +1148,9 @@ DELETE
 
 Authority must match the exact operation.
 
----
+______________________________________________________________________
 
-# 40. External Effects
+## 40. External Effects
 
 A state commit may authorize an internal intent without authorizing the external effect itself.
 
@@ -1177,9 +1177,9 @@ EXTERNAL EFFECT AUTHORITY
 
 External-effect authorization must remain separately governed where required.
 
----
+______________________________________________________________________
 
-# 41. Commit Tokens
+## 41. Commit Tokens
 
 If implementations use commit tokens, leases, or proof capsules, possession alone is insufficient.
 
@@ -1204,9 +1204,9 @@ commit_authority_token:
 
 A stale or mismatched token must fail.
 
----
+______________________________________________________________________
 
-# 42. Mutation Digest
+## 42. Mutation Digest
 
 For consequential commits, authority may bind to a digest of the proposed mutation.
 
@@ -1226,9 +1226,9 @@ REVALIDATE
 
 This prevents an authorization for one mutation from being replayed for another.
 
----
+______________________________________________________________________
 
-# 43. Replay Resistance
+## 43. Replay Resistance
 
 A previously valid authorization proof must not automatically authorize repeated commits.
 
@@ -1259,9 +1259,9 @@ CONSUMPTION STATE
 
 where replay is material.
 
----
+______________________________________________________________________
 
-# 44. Idempotency
+## 44. Idempotency
 
 Idempotent execution and authority are separate concerns.
 
@@ -1277,9 +1277,9 @@ RETRY IS STILL AUTHORIZED
 
 Authorization must remain valid for the retry.
 
----
+______________________________________________________________________
 
-# 45. Prepared Transactions
+## 45. Prepared Transactions
 
 A transaction in:
 
@@ -1306,9 +1306,9 @@ PREPARED != IRREVOCABLY AUTHORIZED
 
 unless the protocol explicitly defines and governs such reservation semantics.
 
----
+______________________________________________________________________
 
-# 46. Authority Reservation
+## 46. Authority Reservation
 
 Some systems may intentionally reserve authority for a bounded transaction.
 
@@ -1331,9 +1331,9 @@ Absent such a contract:
 NO IMPLIED AUTHORITY RESERVATION
 ```
 
----
+______________________________________________________________________
 
-# 47. Commit Linearization Point
+## 47. Commit Linearization Point
 
 Where an implementation defines a linearization/finality point, authority must be valid according to the contract governing that point.
 
@@ -1353,9 +1353,9 @@ AFTER LINEARIZATION
 
 Exact distributed semantics remain implementation-dependent.
 
----
+______________________________________________________________________
 
-# 48. No Retroactive Invalid Commit
+## 48. No Retroactive Invalid Commit
 
 If authority becomes invalid **after** a valid finalized commit, that does not automatically mean the historical commit was unauthorized.
 
@@ -1371,9 +1371,9 @@ AUTHORITY REVOKED AFTER VALID COMMIT
 
 Historical state may still require remediation depending on policy, but chronology must remain explicit.
 
----
+______________________________________________________________________
 
-# 49. Commit-Time Conflict
+## 49. Commit-Time Conflict
 
 If current authority evidence contains unresolved:
 
@@ -1392,9 +1392,9 @@ COMMIT
 
 Do not collapse conflict into permission.
 
----
+______________________________________________________________________
 
-# 50. Unknown Commit Authority
+## 50. Unknown Commit Authority
 
 For authority-sensitive commit:
 
@@ -1414,9 +1414,9 @@ until the critical gap is closed or an explicitly governed fallback applies.
 UNKNOWN != ALLOW
 ```
 
----
+______________________________________________________________________
 
-# 51. Commit Decision Classes
+## 51. Commit Decision Classes
 
 Proposed result classes:
 
@@ -1432,9 +1432,9 @@ CTAX — UNKNOWN/GAP
 
 These remain `AMOS_MODEL` until canonically promoted.
 
----
+______________________________________________________________________
 
-# 52. CTA0 — Commit Denied
+## 52. CTA0 — Commit Denied
 
 Use when a decisive hard failure exists:
 
@@ -1448,9 +1448,9 @@ HARD POLICY DENIAL
 SELF-AUTHORIZATION
 ```
 
----
+______________________________________________________________________
 
-# 53. CTA1 — Revalidation Required
+## 53. CTA1 — Revalidation Required
 
 Use when:
 
@@ -1466,9 +1466,9 @@ MUTATION CHANGED
 
 and the change may affect commit authority.
 
----
+______________________________________________________________________
 
-# 54. CTA2 — Escalation Required
+## 54. CTA2 — Escalation Required
 
 Use when local authority is insufficient but higher governance may authorize the commit.
 
@@ -1482,9 +1482,9 @@ CROSS-SHARD GOVERNANCE
 SEPARATION-OF-DUTIES REQUIREMENT
 ```
 
----
+______________________________________________________________________
 
-# 55. CTA3 — Conditionally Committable
+## 55. CTA3 — Conditionally Committable
 
 Example:
 
@@ -1499,9 +1499,9 @@ COMMIT ALLOWED IF:
 
 Failure of any load-bearing condition prevents commit.
 
----
+______________________________________________________________________
 
-# 56. CTA4 — Commit Authority Valid
+## 56. CTA4 — Commit Authority Valid
 
 Means:
 
@@ -1514,9 +1514,9 @@ COMMIT ENVELOPE
 
 It does not mean unlimited future authority.
 
----
+______________________________________________________________________
 
-# 57. CTAC — Competing
+## 57. CTAC — Competing
 
 Use when incompatible current authority claims remain unresolved.
 
@@ -1529,9 +1529,9 @@ DENY
 
 until discriminating evidence or precedence resolves the conflict.
 
----
+______________________________________________________________________
 
-# 58. CTAX — Unknown/Gap
+## 58. CTAX — Unknown/Gap
 
 Use when a load-bearing commit-authority fact cannot be established.
 
@@ -1546,9 +1546,9 @@ UNKNOWN TARGET
 UNKNOWN REGIME
 ```
 
----
+______________________________________________________________________
 
-# 59. Commit-Time Decision Gate
+## 59. Commit-Time Decision Gate
 
 ```text
 COMMIT REQUEST
@@ -1621,9 +1621,9 @@ ALL CONDITIONS SATISFIED?
 CTA4
 ```
 
----
+______________________________________________________________________
 
-# 60. Commit Proof Capsule
+## 60. Commit Proof Capsule
 
 A consequential commit should conceptually carry:
 
@@ -1664,9 +1664,9 @@ commit_authority_proof:
   confidence_ceiling:
 ```
 
----
+______________________________________________________________________
 
-# 61. Confidence Ceiling
+## 61. Confidence Ceiling
 
 For derived commit authority conclusion `C`:
 
@@ -1690,9 +1690,9 @@ MIN(
 
 The weakest load-bearing premise caps the conclusion.
 
----
+______________________________________________________________________
 
-# 62. Sensitivity
+## 62. Sensitivity
 
 Before expensive validation, identify the smallest fact capable of flipping:
 
@@ -1715,9 +1715,9 @@ MUTATION DIGEST
 
 Test those first.
 
----
+______________________________________________________________________
 
-# 63. Adversarial Commit Validation
+## 63. Adversarial Commit Validation
 
 For consequential commits, challenge the authorization through a genuinely different path.
 
@@ -1741,9 +1741,9 @@ CONFUSED DEPUTY
 
 Successful challenge requires downgrade, rejection, revalidation, or escalation.
 
----
+______________________________________________________________________
 
-# 64. Invalidation
+## 64. Invalidation
 
 A commit-authority proof becomes invalid when any load-bearing dependency fails.
 
@@ -1755,9 +1755,9 @@ DEPENDENT COMMIT PROOFS(p)
 
 Unrelated valid work should remain reusable.
 
----
+______________________________________________________________________
 
-# 65. Failure Recovery
+## 65. Failure Recovery
 
 If commit fails because authority changed:
 
@@ -1781,9 +1781,9 @@ REAUTHORIZE / REPLAN / ESCALATE
 
 Do not recompute unrelated state unnecessarily.
 
----
+______________________________________________________________________
 
-# 66. Post-Commit Discovery
+## 66. Post-Commit Discovery
 
 If an apparently valid commit is later discovered to have relied on invalid authority:
 
@@ -1809,9 +1809,9 @@ REVALIDATE DEPENDENT STATE
 
 Do not erase provenance of the invalid commit.
 
----
+______________________________________________________________________
 
-# 67. Observability Events
+## 67. Observability Events
 
 Recommended events:
 
@@ -1838,9 +1838,9 @@ COMMIT_FINALIZED
 
 Observability must not itself leak protected authority credentials.
 
----
+______________________________________________________________________
 
-# 68. Kernel Invariants
+## 68. Kernel Invariants
 
 ```text
 KCTA-01
@@ -1934,9 +1934,9 @@ KCTA-30
 COMMIT AUTHORITY MUST REMAIN PROVENANCE-RECOVERABLE
 ```
 
----
+______________________________________________________________________
 
-# 69. Required Tests
+## 69. Required Tests
 
 ```text
 PROPOSAL-COMMIT-AUTHORITY-SEPARATION TEST
@@ -1973,9 +1973,9 @@ EXTERNAL-EFFECT-SEPARATION TEST
 POST-COMMIT-INVALID-AUTHORITY-RECOVERY TEST
 ```
 
----
+______________________________________________________________________
 
-# 70. Negative Tests
+## 70. Negative Tests
 
 ```text
 AUTHORIZED AT PROPOSAL
@@ -2055,9 +2055,9 @@ UNKNOWN COMMIT AUTHORITY
 MUST FAIL
 ```
 
----
+______________________________________________________________________
 
-# 71. Failure Modes
+## 71. Failure Modes
 
 ```text
 STALE AUTHORIZATION COMMIT
@@ -2085,9 +2085,9 @@ EXTERNAL-EFFECT AUTHORITY LEAK
 PROVENANCE LOSS
 ```
 
----
+______________________________________________________________________
 
-# 72. Interaction Matrix
+## 72. Interaction Matrix
 
 ```text
 K_CAPABILITY_AUTHORIZATION
@@ -2133,9 +2133,9 @@ TESTS
 → VALIDATE COMMIT-TIME INVARIANTS
 ```
 
----
+______________________________________________________________________
 
-# 73. Promotion Gate
+## 73. Promotion Gate
 
 Before promotion beyond `AMOS_MODEL`, evidence should establish:
 
@@ -2189,9 +2189,9 @@ EMPIRICAL_VALIDATION = UNKNOWN/GAP
 FORMAL_VERIFICATION = UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 74. RSCF Node
+## 74. RSCF Node
 
 ```RSCF-NODE
 node_id: AMOS-OS-K-COMMIT-TIME-AUTHORITY
@@ -2234,9 +2234,9 @@ RSCF-RELATIONS:
   - VERIFIED_BY: README
 ```
 
----
+______________________________________________________________________
 
-# 75. Canonical Summary
+## 75. Canonical Summary
 
 ```text
 AMOS DOES NOT ASK ONLY:
@@ -2466,13 +2466,14 @@ README
 **Classification note:** this is substantive replacement content for `02_KERNEL/K_COMMIT_TIME_AUTHORITY.md`, but remains **AMOS_MODEL**. It defines the proposed commit-time authority contract consistent with the AMOS v4.4 lineage—especially proposal/commit separation, MVCC/CAS concepts, causal epochs, atomic multi-RSCF reasoning, hardened shard-local finalization, and proof-based coordination avoidance. It does **not** establish that these mechanisms are implemented, formally verified, distributed, Byzantine-safe, or empirically validated. Those claims remain `UNKNOWN/GAP` until supported by implementation evidence, provenance, tests, and explicit promotion.
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
-**MOC:** [[02_KERNEL/07_AUTHORITY/07_AUTHORITY_MOC|07_AUTHORITY_MOC]]
+______________________________________________________________________
 
+**MOC:** [[02_KERNEL/07_AUTHORITY/07_AUTHORITY_MOC|07_AUTHORITY_MOC]]

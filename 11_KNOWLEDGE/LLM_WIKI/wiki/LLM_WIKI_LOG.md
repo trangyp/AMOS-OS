@@ -1,12 +1,15 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: LLM Wiki Log
 type: log
 source: 11_KNOWLEDGE/LLM_WIKI
 tags:
-- log
-- llm-wiki
-- canon/knowledge
-- karpathy-llm-wiki-summary
+  - log
+  - llm-wiki
+  - canon/knowledge
+  - karpathy-llm-wiki-summary
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -19,13 +22,15 @@ rscf:
 Chronological, append-only record of ingests, queries, and lint passes.
 
 ## [2026-08-28] init | AMOS LLM Wiki created
+
 - Created `00_ROOT/AMOS_LLM_WIKI.md` schema
 - Created `11_KNOWLEDGE/LLM_WIKI/` with `raw/`, `wiki/`, and MOC
-- Added links to `` and ``
+- Added links to `and`
 - First raw source: [Karpathy LLM Wiki gist](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)
 - First wiki page: [[11_KNOWLEDGE/LLM_WIKI/wiki/karpathy_llm_wiki_summary|karpathy_llm_wiki_summary]]
 
 ## [2026-08-28] build | AMOS canonical bindings added
+
 - Created `amos-llm-wiki` skill in `.devin/skills/amos-llm-wiki/`
 - Created `amos-llm-wiki-workflow` in `.devin/workflows/`
 - Created `amos-llm-wiki-agent` in `.devin/agents/`
@@ -34,28 +39,33 @@ Chronological, append-only record of ingests, queries, and lint passes.
 - `agent_sync_validator.py` reports `amos-llm-wiki-agent` as VERIFIED
 
 ## [2026-08-28] populate | Wiki text filled and health checked
-- Filled `` with sources, concepts, entities, syntheses, and tools
-- Created concept page ``
-- Created synthesis page ``
+
+- Filled \`\` with sources, concepts, entities, syntheses, and tools
+- Created concept page \`\`
+- Created synthesis page \`\`
 - Ran `AMOS_OBSIDIAN_MEMORY_BRIDGE` self-test: 43 passed, 0 failed
-- Fixed orphan `08_WORKFLOWS/kimi-k3-in-c-workflow.md` by linking ``
+- Fixed orphan `08_WORKFLOWS/amos-kimi-k3-in-c-workflow.md` by linking \`\`
 
 ## [2026-08-25] research | SOTA agent/skill/workflow repo survey
+
 - Web-searched public GitHub repositories for agent skill, workflow, and orchestration tooling.
 - Captured raw source to [[11_KNOWLEDGE/LLM_WIKI/raw/SOTA_AGENT_SKILL_WORKFLOW_REPOS_2026_08_25|SOTA_AGENT_SKILL_WORKFLOW_REPOS_2026_08_25]]
 - Synthesized top picks and AMOS integration notes to [[11_KNOWLEDGE/LLM_WIKI/wiki/SOTA_AGENT_SKILL_WORKFLOW_REPOS|SOTA_AGENT_SKILL_WORKFLOW_REPOS]]
 - Updated [[11_KNOWLEDGE/LLM_WIKI/wiki/LLM_WIKI_INDEX|LLM_WIKI_INDEX]] catalog and this log.
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: llm_wiki_log
 node_type: log
 path: 11_KNOWLEDGE/LLM_WIKI/wiki/LLM_WIKI_LOG.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[11_KNOWLEDGE/LLM_WIKI/LLM_WIKI_MOC|LLM_WIKI_MOC]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[11_KNOWLEDGE/LLM_WIKI/LLM_WIKI_MOC|LLM_WIKI_MOC]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[11_KNOWLEDGE/LLM_WIKI/LLM_WIKI_MOC|LLM_WIKI_MOC]]
 
 ## [2026-08-29] research | SOTA agent/skill/workflow repo follow-up
@@ -92,9 +102,9 @@ claim_class: AMOS_MODEL
 - `orchestrator-skill.md.tmpl` enforces a 4-phase execution protocol: intent decomposition, execution planning, dispatch, aggregation.
 - AMOS importables identified:
   1. Contract YAML pattern → add `contract.yaml` artifact to `amos-skill-builder` bundles.
-  2. Execution manifest + decision logs → extend `amos-workflow-runner` with `state/execution/{eid}/` logging.
-  3. Expert/worker role hierarchy → map to `amos-agent-orchestrator` subagent dispatch.
-  4. Routing table signal words → reuse in `amos-routing-audit` intent classification.
+  1. Execution manifest + decision logs → extend `amos-workflow-runner` with `state/execution/{eid}/` logging.
+  1. Expert/worker role hierarchy → map to `amos-agent-orchestrator` subagent dispatch.
+  1. Routing table signal words → reuse in `amos-routing-audit` intent classification.
 
 ## [2026-08-29] repo evaluation | SkillOpt README and package structure
 
@@ -105,9 +115,9 @@ claim_class: AMOS_MODEL
 - YAML configs use `_base_` inheritance and canonical/legacy alias normalization.
 - AMOS importables identified:
   1. `best_skill.md` promotion gate → align with `amos-promotion-gates` and `amos-skill-builder`.
-  2. Edit operation taxonomy → use in `skill_operations_enhancer.py` for deterministic skill mutations.
-  3. Held-out validation gate before accepting edits → strengthen `skill_guardrail_checker` and `skill_rscf_canonicalizer`.
-  4. YAML config inheritance with aliases → improve `workflow_operations_enhancer.py` and `amos-integrated-agent` rename maps.
+  1. Edit operation taxonomy → use in `skill_operations_enhancer.py` for deterministic skill mutations.
+  1. Held-out validation gate before accepting edits → strengthen `skill_guardrail_checker` and `skill_rscf_canonicalizer`.
+  1. YAML config inheritance with aliases → improve `workflow_operations_enhancer.py` and `amos-integrated-agent` rename maps.
 
 ## [2026-08-29] repo evaluation | SkillOpt install attempt blocked
 
@@ -128,9 +138,9 @@ claim_class: AMOS_MODEL
   - Immutable SQLite audit trace keyed by `step_instance_id`
 - AMOS importables:
   1. `skillflow-lint` → add `skill-check` lint for workflow YAML
-  2. `edit_*` staging-first baseline model → strengthen `amos_rename_engine.py`
-  3. `step_instance_id` audit trace → extend `amos-observability-driven-harness-evolution-rscf`
-  4. `skillflow-mcp` typed MCP tools → export AMOS `amos-workflow-runner` as MCP
+  1. `edit_*` staging-first baseline model → strengthen `amos_rename_engine.py`
+  1. `step_instance_id` audit trace → extend `amos-observability-driven-harness-evolution-rscf`
+  1. `skillflow-mcp` typed MCP tools → export AMOS `amos-workflow-runner` as MCP
 - Install blocked by Python 3.12 requirement; host has 3.9.6.
 
 ## [2026-08-29] repo evaluation | SkillOS pure-markdown OS
@@ -141,9 +151,9 @@ claim_class: AMOS_MODEL
 - Runtime requires Python 3.11+; host has 3.9.6, so boot not executed.
 - AMOS importables identified:
   1. `Boot.md` + `SkillIndex.md` manifest/router pattern → add `AMOS_BOOT.md` / `SKILL_INDEX.md` to `.devin/` root.
-  2. Hierarchical `system/skills/{domain}/{base,index,...}.md` tree → mirror in `07_SKILLS` domain taxonomies.
-  3. `memory/short_term/` and `memory/long_term/` → extend `11_KNOWLEDGE/LLM_WIKI/` log and synthesis split.
-  4. `projects/[ProjectName]/{components,input,output,memory,state}` workspace template → `amos-integrated-agent` project scaffold.
+  1. Hierarchical `system/skills/{domain}/{base,index,...}.md` tree → mirror in `07_SKILLS` domain taxonomies.
+  1. `memory/short_term/` and `memory/long_term/` → extend `11_KNOWLEDGE/LLM_WIKI/` log and synthesis split.
+  1. `projects/[ProjectName]/{components,input,output,memory,state}` workspace template → `amos-integrated-agent` project scaffold.
 
 ## [2026-08-29] enhance | SkillOpt/SkillOpt-style Edit/Patch engine in `AMOS_OS/scripts`
 
@@ -168,9 +178,9 @@ claim_class: AMOS_MODEL
 - `prompt4cc.txt` tells Claude Code to read each `SKILL.md` before invoking the Python code.
 - AMOS importables:
   1. `entry_file` frontmatter → add to `amos-skill-builder/SKILL.md` frontmatter and `MANIFEST.yaml`.
-  2. `skills/{meta,tools,subagents}/` taxonomy → mirror in `.devin/skills/{meta,tools,subagents}/`.
-  3. On-demand instructions loading → support progressive disclosure already in `references/`.
-  4. `prompt4cc.txt`-style Claude Code prompt → `CLAUDE.md` for `amos-agent-orchestrator`.
+  1. `skills/{meta,tools,subagents}/` taxonomy → mirror in `.devin/skills/{meta,tools,subagents}/`.
+  1. On-demand instructions loading → support progressive disclosure already in `references/`.
+  1. `prompt4cc.txt`-style Claude Code prompt → `CLAUDE.md` for `amos-agent-orchestrator`.
 
 ## [2026-08-29] repo evaluation | Agent Skill Registry catalog generation and comparison
 
@@ -185,9 +195,9 @@ claim_class: AMOS_MODEL
   - Registry skills are dataflow `steps` referencing capabilities by ID; AMOS workflows are narrative `## Steps`.
 - AMOS importables:
   1. Dot-notation `capability.id` → add to `amos-skill-builder` capability naming contract.
-  2. Typed `inputs`/`outputs` → extend `CONTRACT_TEMPLATE.yaml` with per-capability schema.
-  3. `metadata.status` and `metadata.category` → add to `SKILL.md` frontmatter as `status` and `category`.
-  4. Dataflow `steps` referencing capability IDs → `amos-workflow-builder` machine-readable output.
+  1. Typed `inputs`/`outputs` → extend `CONTRACT_TEMPLATE.yaml` with per-capability schema.
+  1. `metadata.status` and `metadata.category` → add to `SKILL.md` frontmatter as `status` and `category`.
+  1. Dataflow `steps` referencing capability IDs → `amos-workflow-builder` machine-readable output.
 
 ## [2026-08-29] repo evaluation | AgentSkills Registry bundle and supply chain
 
@@ -198,9 +208,9 @@ claim_class: AMOS_MODEL
 - Example `SKILL.md` frontmatter: `name`, `version`, `description`, `author`, `tags`.
 - AMOS importables:
   1. Bundle structure (`SKILL.md` + `scripts/` + `references/` + `assets/`) → already close to AMOS skill bundles; formalize in `amos-skill-builder` package spec.
-  2. `agentskills vendor` checksum lock → extend `skill_guardrail_checker.py` to verify `content_hash` lockfiles.
-  3. CLI `push|pull|search` → `amos-skill-registry-gateway` could expose these for `.devin/skills/`.
-  4. Semver versioned skills → `skill_version_manager` and `amos-promotion-gates`.
+  1. `agentskills vendor` checksum lock → extend `skill_guardrail_checker.py` to verify `content_hash` lockfiles.
+  1. CLI `push|pull|search` → `amos-skill-registry-gateway` could expose these for `.devin/skills/`.
+  1. Semver versioned skills → `skill_version_manager` and `amos-promotion-gates`.
 
 ## [2026-08-29] research | SkillOpt README captured and evaluated
 
@@ -426,15 +436,15 @@ claim_class: AMOS_MODEL
 
 ## [2026-08-30] implement | Added Agent Skills spec G13/G14 gates to `sota_skill_validator.py`
 
-- Added `G13` — name format per `agentskills.io` spec (<=64 chars, lowercase alnum/hyphen, no leading/trailing/consecutive hyphens).
-- Added `G14` — description length <=1024 chars per `agentskills.io` spec.
+- Added `G13` — name format per `agentskills.io` spec (\<=64 chars, lowercase alnum/hyphen, no leading/trailing/consecutive hyphens).
+- Added `G14` — description length \<=1024 chars per `agentskills.io` spec.
 - Updated gate list, gate names table, and fix-actions in the validator.
 - Ran `make validate`: 643/643 skills at 100% SOTA, 0 critical, 0 warnings.
 - Out of 643 skills, 0 have name or description length/format drift against the spec.
 
 ## [2026-08-30] implement | Added G15/G16 to `sota_skill_validator.py`
 
-- Added `G15` — `compatibility` <=500 chars.
+- Added `G15` — `compatibility` \<=500 chars.
 - Added `G16` — `allowed-tools` format (known tools or `Bash(scope:*)` scoping).
 - Fixed `amos-0704-3643v1-sabbath-day-home-automation-it-s-like-mixing-te` `allowed-tools` from `Read skill` to `Read`.
 - `make validate`: 643/643 skills, 100% SOTA across 16 gates.

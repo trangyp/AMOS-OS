@@ -16,37 +16,37 @@ authority_scope: source-ancestry-derivation-transformation-and-supersession-line
 created: 2026-08-25
 updated: 2026-08-25
 tags:
-- amos-os
-- canon
-- universe
-- canon-group/meta
-- canon/framework
-- canon/provenance
-- canon/lineage
-- canon/source-lineage
-- canon/supersession
-- rscf/claim
-- rscf/provenance
-- rscf/state/source-claim
-- topic/source-lineage
-- topic/source-ancestry
-- topic/causal-lineage
-- topic/provenance-topology
-- topic/dependency-lineage
-- topic/version-lineage
-- topic/supersession
-- topic/sybil-hardening
-- topic/persistent-provenance
-- readme
-- architecture
-- neural-network
-- amos-core-laws
-- law-hierarchy
-- canon-provenance
-- canonical-glossary
-- deprecated-terms
+  - amos-os
+  - canon
+  - universe
+  - canon-group/meta
+  - canon/framework
+  - canon/provenance
+  - canon/lineage
+  - canon/source-lineage
+  - canon/supersession
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - topic/source-lineage
+  - topic/source-ancestry
+  - topic/causal-lineage
+  - topic/provenance-topology
+  - topic/dependency-lineage
+  - topic/version-lineage
+  - topic/supersession
+  - topic/sybil-hardening
+  - topic/persistent-provenance
+  - readme
+  - architecture
+  - neural-network
+  - amos-core-laws
+  - law-hierarchy
+  - canon-provenance
+  - canonical-glossary
+  - deprecated-terms
 aliases:
-- AMOS Source Lineage - AMOS OS Source Lineage - Source Ancestry - Canon Source Lineage
+  - AMOS Source Lineage - AMOS OS Source Lineage - Source Ancestry - Canon Source Lineage
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -55,13 +55,17 @@ rscf:
 ---
 
 # AMOS OS Source Lineage
+
 > **Origin architect / steward:** Trang Phan
 > **AMOS Core target:** `v4.4`
 > **Conclusion class:** `AMOS_MODEL`
 > **Status:** `SOURCE_CLAIM`
+
 ## 1. Purpose
+
 `SOURCE_LINEAGE.md` defines how AMOS OS represents the ancestry, transformation, derivation, migration, consolidation, version evolution, and supersession of sources.
 Its central question is:
+
 ```text
 HOW DID THIS ARTIFACT,
 CLAIM,
@@ -70,7 +74,9 @@ DECISION,
 OR STATE
 GET HERE?
 ```
+
 Source lineage provides the path:
+
 ```text
 ORIGIN
 ↓
@@ -88,22 +94,19 @@ DEPENDENT CLAIMS
 ↓
 CURRENT STATE
 ```
+
 The governing law is:
+
 ```text
 NO LINEAGE
 → NO ASSUMED ANCESTRY
 UNKNOWN LINEAGE
 → UNKNOWN/GAP
 ```
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
----
 
+## rscf: state: DERIVED claim_class: DERIVED provenance: AMOS_corpus scope: AMOS_general
 
-# 2. Source Lineage Boundary
+## 2. Source Lineage Boundary
 
 Source lineage is related to provenance but is not identical to it.
 
@@ -134,9 +137,9 @@ conceptually.
 
 This notation describes the AMOS model and is not asserted as a universal provenance ontology.
 
----
+______________________________________________________________________
 
-# 3. Source Lineage Is Not Truth
+## 3. Source Lineage Is Not Truth
 
 ```text
 KNOWN_LINEAGE != VERIFIED_TRUTH
@@ -168,9 +171,9 @@ Verification answers:
 HOW WELL IS D SUPPORTED?
 ```
 
----
+______________________________________________________________________
 
-# 4. Source Lineage Is Not Authority
+## 4. Source Lineage Is Not Authority
 
 ```text
 SOURCE_LINEAGE != AUTHORITY
@@ -194,9 +197,9 @@ The historical source remains an ancestor.
 
 Current authority may belong only to the current governed canon.
 
----
+______________________________________________________________________
 
-# 5. Fundamental Lineage Object
+## 5. Fundamental Lineage Object
 
 A lineage record SHOULD be capable of representing:
 
@@ -251,9 +254,9 @@ lineage:
 
 Unknown fields remain explicit rather than inferred.
 
----
+______________________________________________________________________
 
-# 6. Lineage Node Types
+## 6. Lineage Node Types
 
 A lineage graph may contain:
 
@@ -288,9 +291,9 @@ is not semantically identical to:
 CLAIM → DERIVED_CLAIM
 ```
 
----
+______________________________________________________________________
 
-# 7. Lineage Edge Types
+## 7. Lineage Edge Types
 
 Canonical edge vocabulary SHOULD distinguish at least:
 
@@ -326,9 +329,9 @@ RELATED_TO
 
 when lineage semantics matter.
 
----
+______________________________________________________________________
 
-# 8. Direct Parent
+## 8. Direct Parent
 
 For:
 
@@ -354,9 +357,9 @@ root(B) = A
 
 A may itself have ancestors.
 
----
+______________________________________________________________________
 
-# 9. Ancestor
+## 9. Ancestor
 
 An ancestor is any upstream lineage node reachable through lineage-bearing edges.
 
@@ -382,9 +385,9 @@ ancestors = {
 }
 ```
 
----
+______________________________________________________________________
 
-# 10. Root Source
+## 10. Root Source
 
 A root source is the earliest established source for a lineage within the currently resolved provenance scope.
 
@@ -412,9 +415,9 @@ EARLIEST CURRENTLY ESTABLISHED ROOT
 
 If earlier evidence appears, the graph expands.
 
----
+______________________________________________________________________
 
-# 11. Unknown Root
+## 11. Unknown Root
 
 If ancestry terminates because evidence is missing:
 
@@ -434,9 +437,9 @@ UNKNOWN/GAP
 
 Do not silently declare B the original source.
 
----
+______________________________________________________________________
 
-# 12. Original Source
+## 12. Original Source
 
 `ORIGINAL_SOURCE` may be assigned only within a defined lineage scope.
 
@@ -450,9 +453,9 @@ within this evidence corpus
 
 This avoids overstating historical certainty.
 
----
+______________________________________________________________________
 
-# 13. Copy Lineage
+## 13. Copy Lineage
 
 If:
 
@@ -478,9 +481,9 @@ Copying creates another artifact.
 
 It does not create independent evidence.
 
----
+______________________________________________________________________
 
-# 14. Paraphrase Lineage
+## 14. Paraphrase Lineage
 
 ```text
 SOURCE A
@@ -498,9 +501,9 @@ PARAPHRASE
 INDEPENDENT SOURCE
 ```
 
----
+______________________________________________________________________
 
-# 15. Summary Lineage
+## 15. Summary Lineage
 
 ```text
 A
@@ -512,9 +515,9 @@ B may compress A while retaining A as a load-bearing source.
 
 Lossy compression does not break ancestry.
 
----
+______________________________________________________________________
 
-# 16. Translation Lineage
+## 16. Translation Lineage
 
 ```text
 ENGLISH SOURCE A
@@ -532,9 +535,9 @@ LANGUAGE CHANGE
 NEW EVIDENCE ROOT
 ```
 
----
+______________________________________________________________________
 
-# 17. Format Transformation
+## 17. Format Transformation
 
 Examples:
 
@@ -562,9 +565,9 @@ SOURCE INDEPENDENCE
 
 Transformation lineage must survive representation changes.
 
----
+______________________________________________________________________
 
-# 18. Extraction Lineage
+## 18. Extraction Lineage
 
 When a subset is extracted:
 
@@ -580,9 +583,9 @@ the subset retains the master source as ancestry.
 
 Extraction does not create a new origin.
 
----
+______________________________________________________________________
 
-# 19. Consolidation Lineage
+## 19. Consolidation Lineage
 
 When:
 
@@ -604,9 +607,9 @@ parents(D) = {A, B, C}
 
 All materially load-bearing sources should remain recoverable.
 
----
+______________________________________________________________________
 
-# 20. Consolidation Independence
+## 20. Consolidation Independence
 
 If:
 
@@ -630,9 +633,9 @@ independent_root_count <= 2
 
 subject to confirmation that X and Y are independent.
 
----
+______________________________________________________________________
 
-# 21. Merge Lineage
+## 21. Merge Lineage
 
 A merge combines previously distinct semantic or artifact branches.
 
@@ -652,9 +655,9 @@ C
 
 with no parents.
 
----
+______________________________________________________________________
 
-# 22. Split Lineage
+## 22. Split Lineage
 
 A source may split:
 
@@ -675,9 +678,9 @@ canon restructuring
 
 B and C retain A as ancestry.
 
----
+______________________________________________________________________
 
-# 23. Migration Lineage
+## 23. Migration Lineage
 
 Repository migrations should preserve:
 
@@ -705,9 +708,9 @@ migration date
 semantic-change state
 ```
 
----
+______________________________________________________________________
 
-# 24. Rename Lineage
+## 24. Rename Lineage
 
 ```text
 OLD_FILENAME
@@ -727,9 +730,9 @@ unless governance explicitly creates a new semantic identity.
 
 This protects AMOS against filename-based provenance loss.
 
----
+______________________________________________________________________
 
-# 25. Identity Firewall
+## 25. Identity Firewall
 
 These identities are distinct:
 
@@ -768,9 +771,9 @@ does not automatically imply:
 semantic meaning changed
 ```
 
----
+______________________________________________________________________
 
-# 26. Version Lineage
+## 26. Version Lineage
 
 Conceptually:
 
@@ -794,9 +797,9 @@ LINEAGE PROOF
 
 A filename containing `v4.4` does not itself prove descent from `v4.3`.
 
----
+______________________________________________________________________
 
-# 27. Revision Lineage
+## 27. Revision Lineage
 
 Revision history may be represented:
 
@@ -812,9 +815,9 @@ Revision sequence establishes artifact evolution when the underlying revision sy
 
 It does not automatically establish semantic supersession.
 
----
+______________________________________________________________________
 
-# 28. Semantic Lineage
+## 28. Semantic Lineage
 
 Semantic evolution SHOULD distinguish:
 
@@ -850,9 +853,9 @@ ALIASES
 CANON_PROVENANCE
 ```
 
----
+______________________________________________________________________
 
-# 29. Supersession Lineage
+## 29. Supersession Lineage
 
 ```text
 A
@@ -874,9 +877,9 @@ DELETION
 
 Historical reconstruction requires A to remain resolvable.
 
----
+______________________________________________________________________
 
-# 30. Partial Supersession
+## 30. Partial Supersession
 
 Supersession may be scoped.
 
@@ -890,9 +893,9 @@ A
 
 Do not mark the entire artifact obsolete when only one semantic region was replaced.
 
----
+______________________________________________________________________
 
-# 31. Deprecation Lineage
+## 31. Deprecation Lineage
 
 ```text
 ACTIVE
@@ -916,9 +919,9 @@ not:
 never existed
 ```
 
----
+______________________________________________________________________
 
-# 32. Historical Lineage
+## 32. Historical Lineage
 
 AMOS preserves historical lineage because present canon may depend on understanding earlier definitions.
 
@@ -934,9 +937,9 @@ CURRENT
 
 Removing the historical node breaks explanatory provenance.
 
----
+______________________________________________________________________
 
-# 33. AMOS Core Evolution Spine
+## 33. AMOS Core Evolution Spine
 
 The current AMOS architecture preserves this conceptual evolution spine:
 
@@ -976,9 +979,9 @@ This is a conceptual lineage map.
 
 It must not be converted into artifact-level historical assertions unless corresponding source artifacts establish each transition.
 
----
+______________________________________________________________________
 
-# 34. Conceptual vs Artifact Lineage
+## 34. Conceptual vs Artifact Lineage
 
 Critical distinction:
 
@@ -994,9 +997,9 @@ An artifact may contain multiple conceptual lineages.
 
 Therefore the system should not assume a one-to-one mapping.
 
----
+______________________________________________________________________
 
-# 35. Claim Lineage
+## 35. Claim Lineage
 
 Claims may evolve:
 
@@ -1022,9 +1025,9 @@ scope
 
 where material.
 
----
+______________________________________________________________________
 
-# 36. Derived Claim Lineage
+## 36. Derived Claim Lineage
 
 If:
 
@@ -1054,9 +1057,9 @@ Ancestors(P₃)
 
 for materially load-bearing ancestry.
 
----
+______________________________________________________________________
 
-# 37. Confidence Inheritance
+## 37. Confidence Inheritance
 
 Derived confidence cannot exceed the weakest load-bearing premise unless independently revalidated.
 
@@ -1072,9 +1075,9 @@ DERIVED CLAIM
 
 The weakness cannot be erased merely by additional derivation layers.
 
----
+______________________________________________________________________
 
-# 38. Revalidation Branch
+## 38. Revalidation Branch
 
 Independent revalidation may create:
 
@@ -1090,9 +1093,9 @@ If B is genuinely independent, C now has more than one support lineage.
 
 Independence must be established rather than inferred from different storage locations.
 
----
+______________________________________________________________________
 
-# 39. Shared Ancestry
+## 39. Shared Ancestry
 
 Example:
 
@@ -1114,9 +1117,9 @@ MULTIPLE DESCENDANTS
 MULTIPLE INDEPENDENT ROOTS
 ```
 
----
+______________________________________________________________________
 
-# 40. Provenance Sybil Problem
+## 40. Provenance Sybil Problem
 
 A provenance Sybil pattern occurs when one origin appears as many apparently independent sources.
 
@@ -1151,9 +1154,9 @@ SOURCE MULTIPLICATION
 EVIDENCE MULTIPLICATION
 ```
 
----
+______________________________________________________________________
 
-# 41. Independence Firewall
+## 41. Independence Firewall
 
 Sources A and B should not be classified `INDEPENDENT` merely because they have:
 
@@ -1178,9 +1181,9 @@ SHARED_ANCESTRY
 UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 42. Unknown Independence
+## 42. Unknown Independence
 
 Canonical rule:
 
@@ -1198,9 +1201,9 @@ independence_state: UNKNOWN
 
 This is especially important for consequential evidence aggregation.
 
----
+______________________________________________________________________
 
-# 43. Dependency Lineage
+## 43. Dependency Lineage
 
 Source ancestry and dependency ancestry overlap but are not identical.
 
@@ -1230,9 +1233,9 @@ DECISION D
 
 A may simultaneously be source ancestry and a validity dependency.
 
----
+______________________________________________________________________
 
-# 44. Causal Lineage
+## 44. Causal Lineage
 
 AMOS distinguishes:
 
@@ -1252,9 +1255,9 @@ DERIVED_FROM
 CAUSED_BY
 ```
 
----
+______________________________________________________________________
 
-# 45. Causal Firewall
+## 45. Causal Firewall
 
 Sequence alone does not establish causation:
 
@@ -1271,9 +1274,9 @@ A caused B
 
 A lineage edge requires evidence appropriate to the edge type.
 
----
+______________________________________________________________________
 
-# 46. Scope Lineage
+## 46. Scope Lineage
 
 Claims may inherit scope from their sources.
 
@@ -1301,9 +1304,9 @@ LOAD-BEARING SCOPE CONSTRAINTS
 
 unless separately validated beyond them.
 
----
+______________________________________________________________________
 
-# 47. Regime Lineage
+## 47. Regime Lineage
 
 A source established under regime R₁ may not remain valid under R₂.
 
@@ -1320,9 +1323,9 @@ REVALIDATE
 
 Lineage remains historically correct even if validity expires.
 
----
+______________________________________________________________________
 
-# 48. Temporal Lineage
+## 48. Temporal Lineage
 
 Lineage SHOULD distinguish:
 
@@ -1339,9 +1342,9 @@ superseded_at
 
 These are not interchangeable timestamps.
 
----
+______________________________________________________________________
 
-# 49. Freshness Lineage
+## 49. Freshness Lineage
 
 A lineage edge may remain valid while a claim becomes stale.
 
@@ -1365,9 +1368,9 @@ LINEAGE_VALIDITY
 CLAIM_FRESHNESS
 ```
 
----
+______________________________________________________________________
 
-# 50. Model Lineage
+## 50. Model Lineage
 
 A model should retain:
 
@@ -1387,9 +1390,9 @@ DOES NOT ERASE
 MODEL INPUT LINEAGE
 ```
 
----
+______________________________________________________________________
 
-# 51. RSCF Lineage
+## 51. RSCF Lineage
 
 An RSCF node may retain:
 
@@ -1406,9 +1409,9 @@ rscf_lineage:
 
 This allows dependency-aware invalidation.
 
----
+______________________________________________________________________
 
-# 52. Recursive RSCF Lineage
+## 52. Recursive RSCF Lineage
 
 For recursive structures:
 
@@ -1431,9 +1434,9 @@ evidence → dependents
 
 where implementation supports it.
 
----
+______________________________________________________________________
 
-# 53. H/M/L Source Resolution
+## 53. H/M/L Source Resolution
 
 AMOS retrieval should resolve lineage at the smallest sufficient level:
 
@@ -1459,9 +1462,9 @@ scope unclear
 freshness uncertain
 ```
 
----
+______________________________________________________________________
 
-# 54. Persistent Lineage
+## 54. Persistent Lineage
 
 Important lineage must survive transient reasoning.
 
@@ -1486,9 +1489,9 @@ canon records
 audit logs
 ```
 
----
+______________________________________________________________________
 
-# 55. Lineage and Memory
+## 55. Lineage and Memory
 
 Memory may preserve lineage metadata.
 
@@ -1502,9 +1505,9 @@ CANON
 
 Persistence in memory does not itself grant canonical status.
 
----
+______________________________________________________________________
 
-# 56. Lineage and Knowledge
+## 56. Lineage and Knowledge
 
 Knowledge artifacts should retain enough ancestry to distinguish:
 
@@ -1519,9 +1522,9 @@ UNKNOWN
 
 This prevents derived material from masquerading as primary evidence.
 
----
+______________________________________________________________________
 
-# 57. Lineage and Research
+## 57. Lineage and Research
 
 External research lineage should preserve original attribution.
 
@@ -1549,9 +1552,9 @@ INTEGRATION
 ORIGINATION
 ```
 
----
+______________________________________________________________________
 
-# 58. Code Lineage
+## 58. Code Lineage
 
 Code lineage may include:
 
@@ -1567,9 +1570,9 @@ migrated_from
 
 Code derived from generated templates should retain that relationship where it affects interpretation.
 
----
+______________________________________________________________________
 
-# 59. Generated Artifact Lineage
+## 59. Generated Artifact Lineage
 
 Generated artifacts should identify their generator where consequential.
 
@@ -1593,9 +1596,9 @@ generated_from:
   generator_version:
 ```
 
----
+______________________________________________________________________
 
-# 60. Agent Output Lineage
+## 60. Agent Output Lineage
 
 Agent output should not be treated as a primary independent source merely because an agent produced it.
 
@@ -1621,9 +1624,9 @@ AGENT GENERATION
 INDEPENDENT CONFIRMATION
 ```
 
----
+______________________________________________________________________
 
-# 61. Multi-Agent Lineage
+## 61. Multi-Agent Lineage
 
 If five agents consume the same source:
 
@@ -1640,9 +1643,9 @@ then agent count is five.
 
 Independent evidence roots may still be one.
 
----
+______________________________________________________________________
 
-# 62. Tool Output Lineage
+## 62. Tool Output Lineage
 
 Tool output SHOULD distinguish:
 
@@ -1659,9 +1662,9 @@ where material.
 
 A tool is an execution source, not necessarily the epistemic origin of the underlying data.
 
----
+______________________________________________________________________
 
-# 63. Observation Lineage
+## 63. Observation Lineage
 
 Observation lineage may be:
 
@@ -1679,9 +1682,9 @@ DERIVED CLAIM
 
 Preserving each transformation improves falsifiability.
 
----
+______________________________________________________________________
 
-# 64. Decision Lineage
+## 64. Decision Lineage
 
 A consequential decision may require:
 
@@ -1701,9 +1704,9 @@ DECISION
 
 The decision's lineage should preserve all load-bearing inputs.
 
----
+______________________________________________________________________
 
-# 65. State Lineage
+## 65. State Lineage
 
 State evolution may be represented:
 
@@ -1717,9 +1720,9 @@ STATE S₂
 
 This differs from source lineage but can intersect with it when state transitions are evidence-bearing.
 
----
+______________________________________________________________________
 
-# 66. MVCC Lineage
+## 66. MVCC Lineage
 
 MVCC-style reasoning introduces version ancestry:
 
@@ -1742,9 +1745,9 @@ parent_version
 result_version
 ```
 
----
+______________________________________________________________________
 
-# 67. CAS Lineage
+## 67. CAS Lineage
 
 CAS-style mutation should preserve:
 
@@ -1757,9 +1760,9 @@ result
 
 A failed compare operation remains part of execution lineage.
 
----
+______________________________________________________________________
 
-# 68. Atomic Multi-RSCF Lineage
+## 68. Atomic Multi-RSCF Lineage
 
 If a result depends atomically on:
 
@@ -1773,9 +1776,9 @@ then all three belong to the load-bearing lineage.
 
 Dropping one parent produces incomplete dependency closure.
 
----
+______________________________________________________________________
 
-# 69. Causal Epoch Lineage
+## 69. Causal Epoch Lineage
 
 Where causal epoch concepts are used, a lineage record MAY include:
 
@@ -1791,9 +1794,9 @@ This section defines the conceptual lineage requirement.
 
 It does not assert that every AMOS runtime currently implements literal causal epochs.
 
----
+______________________________________________________________________
 
-# 70. Shard-Local Lineage
+## 70. Shard-Local Lineage
 
 Local finalization may use local lineage closure when:
 
@@ -1812,9 +1815,9 @@ LOCAL LINEAGE CLOSURE
 GLOBAL LINEAGE CLOSURE
 ```
 
----
+______________________________________________________________________
 
-# 71. Coordination-Avoidance Lineage
+## 71. Coordination-Avoidance Lineage
 
 Proof-based coordination avoidance requires demonstrating that two operations do not share relevant dependencies.
 
@@ -1828,9 +1831,9 @@ cannot merely be asserted.
 
 The required dependency/provenance graph must support it.
 
----
+______________________________________________________________________
 
-# 72. Lineage Closure
+## 72. Lineage Closure
 
 For a claim C:
 
@@ -1844,9 +1847,9 @@ Closure is decision-relative.
 
 AMOS does not require retrieving every historical ancestor when distant history cannot alter the conclusion.
 
----
+______________________________________________________________________
 
-# 73. Minimal Sufficient Lineage
+## 73. Minimal Sufficient Lineage
 
 The v4.4 fast-path principle is:
 
@@ -1858,9 +1861,9 @@ PROVENANCE CLOSURE
 
 Local reasoning is allowed only when material ancestry has been resolved sufficiently.
 
----
+______________________________________________________________________
 
-# 74. Escalation Conditions
+## 74. Escalation Conditions
 
 Lineage resolution escalates when:
 
@@ -1877,9 +1880,9 @@ authority depends on lineage
 irreversible action depends on the result
 ```
 
----
+______________________________________________________________________
 
-# 75. Lineage Conflict
+## 75. Lineage Conflict
 
 A lineage conflict exists when incompatible ancestry claims exist.
 
@@ -1910,9 +1913,9 @@ COMPETING
 
 may be appropriate.
 
----
+______________________________________________________________________
 
-# 76. Competing Lineages
+## 76. Competing Lineages
 
 AMOS must preserve competing ancestry hypotheses when evidence is insufficient.
 
@@ -1934,9 +1937,9 @@ high-information
 discriminating evidence
 ```
 
----
+______________________________________________________________________
 
-# 77. Lineage Falsifiers
+## 77. Lineage Falsifiers
 
 A lineage claim should be falsifiable where possible.
 
@@ -1957,9 +1960,9 @@ source content cannot support the claimed transformation
 migration records identify another parent
 ```
 
----
+______________________________________________________________________
 
-# 78. Lineage Invalidation
+## 78. Lineage Invalidation
 
 If:
 
@@ -1981,9 +1984,9 @@ is invalidated, then B's ancestry and dependent lineage involving that edge must
 
 Do not automatically invalidate unrelated properties of B.
 
----
+______________________________________________________________________
 
-# 79. Descendant Invalidation
+## 79. Descendant Invalidation
 
 Canonical recovery principle:
 
@@ -2002,9 +2005,9 @@ INVALIDATE ENTIRE KNOWLEDGE GRAPH
 
 unless the failed edge is globally load-bearing.
 
----
+______________________________________________________________________
 
-# 80. Lineage Repair
+## 80. Lineage Repair
 
 ```text
 DETECT GAP
@@ -2026,9 +2029,9 @@ REVALIDATE DESCENDANTS
 
 Never invent a missing parent.
 
----
+______________________________________________________________________
 
-# 81. Broken Lineage States
+## 81. Broken Lineage States
 
 Recommended states:
 
@@ -2051,9 +2054,9 @@ lineage_valid = true
 
 is often insufficient.
 
----
+______________________________________________________________________
 
-# 82. Lineage Gap Classification
+## 82. Lineage Gap Classification
 
 Use:
 
@@ -2080,9 +2083,9 @@ History is incomplete but current decision remains stable.
 
 Missing metadata does not affect semantics or governance.
 
----
+______________________________________________________________________
 
-# 83. Source Identity Collision
+## 83. Source Identity Collision
 
 Two records may appear to describe the same source but differ materially.
 
@@ -2100,9 +2103,9 @@ content
 
 Do not merge them based on title alone.
 
----
+______________________________________________________________________
 
-# 84. Duplicate Source Detection
+## 84. Duplicate Source Detection
 
 Duplicate detection may identify:
 
@@ -2116,9 +2119,9 @@ UNKNOWN_RELATION
 
 Only evidence-supported equivalence should collapse roots.
 
----
+______________________________________________________________________
 
-# 85. Content Similarity Firewall
+## 85. Content Similarity Firewall
 
 ```text
 STRUCTURAL SIMILARITY
@@ -2132,9 +2135,9 @@ Similarity may justify investigation.
 
 It does not prove lineage.
 
----
+______________________________________________________________________
 
-# 86. Temporal Firewall
+## 86. Temporal Firewall
 
 ```text
 A predates B
@@ -2150,9 +2153,9 @@ but does not prove it.
 
 Temporal ordering is a necessary condition for some ancestry claims, not sufficient evidence by itself.
 
----
+______________________________________________________________________
 
-# 87. Citation Firewall
+## 87. Citation Firewall
 
 A citation from B to A is evidence that B references A.
 
@@ -2164,9 +2167,9 @@ all of B derived from A
 
 Edge scope should be as precise as the evidence supports.
 
----
+______________________________________________________________________
 
-# 88. Lineage Granularity
+## 88. Lineage Granularity
 
 Lineage may exist at:
 
@@ -2184,9 +2187,9 @@ state transition
 
 Use the smallest granularity needed to avoid false ancestry claims.
 
----
+______________________________________________________________________
 
-# 89. Claim-Level Lineage
+## 89. Claim-Level Lineage
 
 For high-value canon, claim-level lineage is preferable to assuming:
 
@@ -2198,9 +2201,9 @@ entire source document
 
 when only one section is actually derived.
 
----
+______________________________________________________________________
 
-# 90. Equation Lineage
+## 90. Equation Lineage
 
 Equations may require lineage including:
 
@@ -2223,9 +2226,9 @@ SAME SYMBOLS
 SAME EQUATION LINEAGE
 ```
 
----
+______________________________________________________________________
 
-# 91. Symbol Lineage
+## 91. Symbol Lineage
 
 Symbols may evolve:
 
@@ -2239,9 +2242,9 @@ Symbols may evolve:
 
 If meaning changes, semantic lineage must distinguish the two uses even if the glyph remains identical.
 
----
+______________________________________________________________________
 
-# 92. Unit Lineage
+## 92. Unit Lineage
 
 Unit definitions may derive from:
 
@@ -2259,9 +2262,9 @@ USED BY AMOS
 CREATED BY AMOS
 ```
 
----
+______________________________________________________________________
 
-# 93. Variable Lineage
+## 93. Variable Lineage
 
 A variable registry entry SHOULD preserve where known:
 
@@ -2276,9 +2279,9 @@ superseded_by
 
 This prevents semantic drift across models.
 
----
+______________________________________________________________________
 
-# 94. Canon Harvest Lineage
+## 94. Canon Harvest Lineage
 
 Knowledge promotion follows:
 
@@ -2296,9 +2299,9 @@ GOVERNED CANON
 
 Every transition must preserve upstream ancestry.
 
----
+______________________________________________________________________
 
-# 95. README and Documentation Lineage
+## 95. README and Documentation Lineage
 
 Documentation remains:
 
@@ -2318,9 +2321,9 @@ lineage establishes who/what asserted X.
 
 Implementation/test evidence determines whether X is actually supported.
 
----
+______________________________________________________________________
 
-# 96. Archive Lineage
+## 96. Archive Lineage
 
 Archive artifacts may be upstream ancestors of current canon.
 
@@ -2334,9 +2337,9 @@ DISCONNECTED
 
 Archive placement changes lifecycle status, not historical ancestry.
 
----
+______________________________________________________________________
 
-# 97. Deletion
+## 97. Deletion
 
 Deletion should not erase known lineage.
 
@@ -2356,9 +2359,9 @@ DELETED ARTIFACT
 LINEAGE TOMBSTONE
 ```
 
----
+______________________________________________________________________
 
-# 98. Lineage Tombstone
+## 98. Lineage Tombstone
 
 A lineage tombstone MAY preserve:
 
@@ -2375,9 +2378,9 @@ tombstone:
 
 Exact implementation belongs to state/provenance schemas.
 
----
+______________________________________________________________________
 
-# 99. Lineage Ledger
+## 99. Lineage Ledger
 
 A future append-oriented lineage ledger MAY use events such as:
 
@@ -2404,9 +2407,9 @@ ARCHIVE
 
 Each event should identify its subject and relevant parents.
 
----
+______________________________________________________________________
 
-# 100. Lineage Event Contract
+## 100. Lineage Event Contract
 
 Conceptually:
 
@@ -2435,9 +2438,9 @@ lineage_event:
 
 This is a model contract, not an assertion that a specific ledger implementation already exists.
 
----
+______________________________________________________________________
 
-# 101. Source Lineage Invariants
+## 101. Source Lineage Invariants
 
 ```text
 LIN-001
@@ -2516,9 +2519,9 @@ LIN-025
 LINEAGE REPAIR MUST NOT INVENT HISTORY
 ```
 
----
+______________________________________________________________________
 
-# 102. Minimum Source Lineage Contract
+## 102. Minimum Source Lineage Contract
 
 Every consequential lineage-bearing artifact SHOULD eventually support:
 
@@ -2540,9 +2543,9 @@ Every consequential lineage-bearing artifact SHOULD eventually support:
 
 Missing information remains explicit.
 
----
+______________________________________________________________________
 
-# 103. Validation Checklist
+## 103. Validation Checklist
 
 Before treating lineage as closed:
 
@@ -2568,9 +2571,9 @@ Before treating lineage as closed:
 [ ] unresolved edges exposed
 ```
 
----
+______________________________________________________________________
 
-# 104. Adversarial Tests
+## 104. Adversarial Tests
 
 A mature lineage implementation SHOULD survive:
 
@@ -2618,9 +2621,9 @@ TWO PLAUSIBLE PARENTS
 → COMPETING UNTIL DISCRIMINATED
 ```
 
----
+______________________________________________________________________
 
-# 105. Failure Recovery
+## 105. Failure Recovery
 
 ```text
 DETECT LINEAGE FAILURE
@@ -2644,9 +2647,9 @@ REVALIDATE DEPENDENTS
 
 Do not repeat a failed ancestry hypothesis without changed evidence.
 
----
+______________________________________________________________________
 
-# 106. Current Canonical Gaps
+## 106. Current Canonical Gaps
 
 The following remain `UNKNOWN/GAP` unless separately reconstructed from source artifacts:
 
@@ -2676,9 +2679,9 @@ complete revision hashes for all historical canon
 
 These gaps must not be filled by inference alone.
 
----
+______________________________________________________________________
 
-# 107. Promotion Gate
+## 107. Promotion Gate
 
 Promotion toward stronger canonical status requires:
 
@@ -2710,9 +2713,9 @@ CANON REVIEW
 
 Any unresolved decision-changing lineage remains visible.
 
----
+______________________________________________________________________
 
-# 108. RSCF Node
+## 108. RSCF Node
 
 ```RSCF-NODE
 node_id: AMOS-OS-SOURCE-LINEAGE
@@ -2743,9 +2746,9 @@ RSCF-RELATIONS:
   - PRESERVES: README
 ```
 
----
+______________________________________________________________________
 
-# 109. Canonical Summary
+## 109. Canonical Summary
 
 AMOS source lineage follows:
 
@@ -2882,12 +2885,14 @@ README
 ```text
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 **MOC:** [[01_CANON/07_PROVENANCE/07_PROVENANCE_MOC|07_PROVENANCE_MOC]]

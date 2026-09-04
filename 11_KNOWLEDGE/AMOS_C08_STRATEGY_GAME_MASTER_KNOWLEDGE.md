@@ -14,9 +14,9 @@ architecture: HML_fractal_single_file
 placeholder_status: NONE
 version: 1.1
 tags:
-- knowledge
-- note
-- canon/knowledge
+  - knowledge
+  - note
+  - canon/knowledge
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -45,6 +45,7 @@ rscf:
 ## 0. C08 Knowledge Contract
 
 ### 0.1 Claim classes
+
 - **VERIFIED** — established result under explicitly stated assumptions (e.g., Nash existence in finite games with mixed strategies).
 - **DERIVED** — mathematical/logical consequence of a stated game form or formal system.
 - **MODEL** — representation useful within stated scope (includes all Go-Board formal machinery).
@@ -53,36 +54,41 @@ rscf:
 - **UNKNOWN/GAP** — insufficient specification or unresolved mechanism.
 
 ### 0.2 Evidence classes
+
 `AXIOM`, `THEOREM`, `COMPUTATION`, `SIMULATION`, `CASE_OBSERVATION`, `SOURCE_CLAIM`,
 `MODEL`, `SCENARIO`, `ANALOGY`, `UNKNOWN`.
 
 ### 0.3 C08 H-level ownership
+
 1. Game Structure & Incentive Mapping
-2. Solution Concepts & Equilibrium Analysis
-3. Coalitions, Bargaining & Agreement Design
-4. Credible Commitment, Threats & Enforcement
-5. Information, Belief & Signaling
-6. 19×19 Strategic Field Ontology
-7. Go Board Formal System (State Space, Not Semantics)
-8. Multi-Agent Strategy Dynamics & Recurrence Control
-9. AMOS/Trang Strategy Research Bridge
+1. Solution Concepts & Equilibrium Analysis
+1. Coalitions, Bargaining & Agreement Design
+1. Credible Commitment, Threats & Enforcement
+1. Information, Belief & Signaling
+1. 19×19 Strategic Field Ontology
+1. Go Board Formal System (State Space, Not Semantics)
+1. Multi-Agent Strategy Dynamics & Recurrence Control
+1. AMOS/Trang Strategy Research Bridge
 
 A topic has one primary owner. Cross-links are references, not duplicated substantive sections.
 
 ### 0.4 Standard knowledge node schema
+
 Where applicable:
 **definition → actors/actions/payoffs → governing relations → assumptions → mechanisms →
 observables → test/computation status → empirical status → scope/regime → uncertainty →
 failure modes → competing models → falsifiers → dependencies → decision relevance → AMOS bridge**.
 
----
+______________________________________________________________________
 
-# H1 — Game Structure & Incentive Mapping
+## H1 — Game Structure & Incentive Mapping
 
 ## M1. The Game Being Played
 
 ### L1. Identification before analysis
+
 Before any strategic conclusion, identify:
+
 - who the actors are;
 - what each actor can actually choose;
 - what payoff each combination produces for each actor;
@@ -93,7 +99,9 @@ Before any strategic conclusion, identify:
 A mis-specified game invalidates every downstream equilibrium claim.
 
 ### L2. Canonical game forms
+
 Common structural families:
+
 - prisoner's dilemma (unilateral defection temptation, mutual cooperation best jointly);
 - stag hunt (coordination on efficient outcome vs safe outcome);
 - chicken/hawk–dove (mutual escalation worst);
@@ -107,43 +115,50 @@ Classification is a MODEL judgment: real situations may blend structures, and th
 record why alternatives fail.
 
 ### L3. Payoff matrix discipline
+
 Payoffs must be made explicit as `actor × action-profile → outcome` before conclusions.
 Numbers assumed without a source are marked ASSUMPTION, not fact. Ordinal payoffs support
 equilibrium identification; cardinal claims require a value model.
 
----
+______________________________________________________________________
 
 ## M2. Incentive Structure
 
 ### L1. Dominance
+
 A strategy strictly dominates another if it yields a better outcome regardless of others'
 actions. Iterated elimination of dominated strategies narrows prediction only where dominance
 is genuine.
 
 ### L2. Externalities and incentive misalignment
+
 An actor's choice can impose costs/benefits on others not reflected in that actor's own
 payoff. Misalignment between private and collective payoffs drives many observed failures.
 
 ### L3. Repeated-play effects
+
 Repetition changes incentives when future consequences feed back into present payoffs.
 Cooperation can be sustained by credible future punishment in repeated games under
 discounting conditions — this is conditional, not automatic.
 
----
+______________________________________________________________________
 
-# H2 — Solution Concepts & Equilibrium Analysis
+## H2 — Solution Concepts & Equilibrium Analysis
 
 ## M1. Nash Equilibrium
 
 ### L1. Definition
+
 A profile where no single actor gains by unilateral deviation. Existence in finite games with
 mixed strategies is a VERIFIED theorem class result.
 
 ### L2. Multiplicity
+
 Many games have multiple equilibria. Claiming one outcome without an explicit selection
 argument (focal points, risk dominance vs payoff dominance, history, convention) is an error.
 
 ### L3. Refinements
+
 Subgame-perfect, sequential, trembling-hand, and evolutionary stability refine Nash under
 different assumptions. Each refinement adds assumptions; results do not transfer between them
 without justification.
@@ -151,26 +166,30 @@ without justification.
 ## M2. Equilibrium Honesty Gates
 
 ### L1. Gate list
+
 1. Single equilibrium claimed where multiple exist? → flag selection problem.
-2. Equilibrium computed from guessed payoffs? → mark as scenario, not prediction.
-3. Equilibrium treated as guaranteed outcome? → equilibria describe stable profiles, not
+1. Equilibrium computed from guessed payoffs? → mark as scenario, not prediction.
+1. Equilibrium treated as guaranteed outcome? → equilibria describe stable profiles, not
    guarantees of arrival, especially with bounded rationality or learning frictions.
 
 ### L2. Bounded rationality caveat
+
 Real actors face computation limits, framing, emotion, and time pressure. Nash predictions
 degrade accordingly; behavioral deviations are documented phenomena, not noise to be ignored.
 
----
+______________________________________________________________________
 
-# H3 — Coalitions, Bargaining & Agreement Design
+## H3 — Coalitions, Bargaining & Agreement Design
 
 ## M1. Coalition Analysis
 
 ### L1. Formation and stability
+
 A coalition is stable if no member gains by deviating given expected responses. Test proposed
 alliances against deviation incentives rather than declared intent.
 
 ### L2. Value distribution concepts
+
 Shapley-style value assigns shares based on marginal contribution across orderings; core
 concepts ask whether any subgroup can profitably secede. These are competing allocation
 norms/models, not facts about what will be agreed.
@@ -178,76 +197,89 @@ norms/models, not facts about what will be agreed.
 ## M2. Bargaining
 
 ### L1. BATNA inventory
+
 The credible walk-away alternative largely determines bargaining power. Map every party's
 BATNA before evaluating offers.
 
 ### L2. Zone of agreement
+
 Agreement exists where overlapping reservation values permit mutually acceptable terms.
 Without overlap, no clever tactic creates surplus.
 
 ### L3. Fairness arguments vs power
+
 Fairness rhetoric affects perception but does not move the feasible set. Distinguish
 normative fairness claims (explicitly normative) from power-based splits (structural).
 
 ## M3. Agreement Design
 
 ### L1. Mechanism properties
+
 Incentive compatibility, participation constraints, budget balance, and robustness to
 private information are designable properties — trade-offs among them are structural.
 
 ### L2. Contract incompleteness
+
 Not all future contingencies can be specified. Residual rights, renegotiation clauses, and
 governance fill gaps; assume they matter.
 
----
+______________________________________________________________________
 
-# H4 — Credible Commitment, Threats & Enforcement
+## H4 — Credible Commitment, Threats & Enforcement
 
 ## M1. Credibility
 
 ### L1. Ex-post rationality test
+
 A threat is credible only if carrying it out would be rational for the threatener after the
 fact. Verify the commitment mechanism, not the announcement.
 
 ### L2. Commitment devices
+
 Burning bridges, contracts, escrow, reputation systems, staged payments, and third-party
 enforcement convert cheap talk into binding constraint — each has cost and failure modes.
 
 ### L3. Reputation
+
 Reputation sustains cooperation when future value of the relationship exceeds short-term gain
 from betrayal. Reputation mechanisms require observability, memory, and consequence channels.
 
----
+______________________________________________________________________
 
-# H5 — Information, Belief & Signaling
+## H5 — Information, Belief & Signaling
 
 ## M1. Information Regimes
 
 ### L1. Asymmetry
+
 Actors may differ in what they know (adverse selection) or in actions taken unseen (moral
 hazard). Different problems need different remedies.
 
 ### L2. Common knowledge
+
 Some results require common knowledge of rationality or payoffs. Weakening common-knowledge
 assumptions changes conclusions materially.
 
 ## M2. Signaling and Screening
 
 ### L1. Signal credibility
+
 A signal informs only if it costs less to send for honest types than dishonest types
 (costly-signaling logic). Costless signals are cheap talk.
 
 ### L2. Screening
+
 The uninformed party can design menus that induce self-selection. Menu design quality
 determines separation vs pooling.
 
----
+______________________________________________________________________
 
-# H6 — 19×19 Strategic Field Ontology
+## H6 — 19×19 Strategic Field Ontology
 
 ## M1. Finite Field with Large Future Consequence
 
 ### L1. Core concept [MODEL]
+
 The Trang/AMOS ontology treats a 19×19 field as a finite strategic space where individual
 placements carry recursively expanding consequence. Governing concepts:
 
@@ -262,6 +294,7 @@ placements carry recursively expanding consequence. Governing concepts:
 - ko/dead-loop prevention — recurrence constraints blocking infinite repetition.
 
 ### L2. Epistemic status
+
 This ontology is a governed MODEL for organizing multi-scale strategic reasoning.
 It is not a claim that all strategy is literally a Go game, and board analogies cannot
 prove real-world causation.
@@ -269,41 +302,44 @@ prove real-world causation.
 ## M2. Move Evaluation Discipline
 
 ### L1. Multi-axis comparison
+
 Compare candidate moves by immediate gain, future debt, reversibility, and preserved options
 — not by immediate gain alone.
 
 ### L2. Sacrifice validity
+
 A sacrifice is valid only if evaluated against the full consequence path, including whether
 the conceded material/value can actually be recovered under opponent's best response.
 
 ### L3. Runtime procedure
+
 1. Confirm the 19×19 mapping is useful and explicitly MODEL-scoped.
-2. Map positions, empty options, constraints, irreversible marks.
-3. Identify liberties/future degrees of freedom.
-4. Separate territory from influence.
-5. Detect dead loops and ko-like recurrence constraints.
-6. Evaluate sacrifices by H/M/L consequence.
-7. Compare moves across the four axes above.
-8. Emit recommendation plus invalidation conditions.
+1. Map positions, empty options, constraints, irreversible marks.
+1. Identify liberties/future degrees of freedom.
+1. Separate territory from influence.
+1. Detect dead loops and ko-like recurrence constraints.
+1. Evaluate sacrifices by H/M/L consequence.
+1. Compare moves across the four axes above.
+1. Emit recommendation plus invalidation conditions.
 
----
+______________________________________________________________________
 
-# H7 — Go Board Formal System (State Space, Not Semantics)
+## H7 — Go Board Formal System (State Space, Not Semantics)
 
 ## M1. Static Geometry [SOURCE-derived]
 
-| Property | Value |
-|----------|-------|
-| Board size | 19×19 = 361 cells |
-| Columns | A–T excluding I = 19 |
-| Rows | 1–19 |
-| Corners | 4 (A1, A19, T1, T19) |
-| Side cells | 68 |
-| Interior | 289 |
-| Hoshi points | 9 at {4, 10, 16}² |
-| Center | K10 (id 181) |
-| Adjacency edges | 684 (derived) |
-| D4 symmetry group | 8 transformations |
+| Property          | Value                |
+| ----------------- | -------------------- |
+| Board size        | 19×19 = 361 cells    |
+| Columns           | A–T excluding I = 19 |
+| Rows              | 1–19                 |
+| Corners           | 4 (A1, A19, T1, T19) |
+| Side cells        | 68                   |
+| Interior          | 289                  |
+| Hoshi points      | 9 at {4, 10, 16}²    |
+| Center            | K10 (id 181)         |
+| Adjacency edges   | 684 (derived)        |
+| D4 symmetry group | 8 transformations    |
 
 Zone classification by boundary depth: corner ≤3, side 4–6, center 7–9.
 Nine macro regions: NW, N, NE, W, C, E, SW, S, SE.
@@ -315,11 +351,13 @@ Field measures (AMOS MODEL formulas):
 ## M2. Address-Space Boundary — Critical
 
 ### L1. State space, not archetypes
+
 The 361 coordinates are a **state space**, NOT 361 separately defined semantic archetypes.
 Meaning emerges through geometry, time, relation, and board history. Assigning mystical
 meanings to all 361 cells is canon fabrication and prohibited.
 
 ### L2. B3 discipline: address-space tested, not semantic-equivalence
+
 Structures sharing size (e.g., 19-long axes in different systems) are NOT interchangeable.
 A `cell` axis from Go Board is not compatible with a `variable` axis from another 19-variable
 system despite equal length. Compatibility requires typed-axis validation, never length match.
@@ -329,11 +367,13 @@ registered as cross-system reasoning tools, not proofs of shared meaning.
 ## M3. Cell State and Machinery [AMOS MODEL]
 
 ### L1. Core cell state variables
+
 Possibility, mark, boundary depth, liberty count, aji, territory value, influence value,
 ko state, initiative (sente/gote), group membership, local entropy, strategic value.
 The executable implementation extends these into a 20-variable vector.
 
 ### L2. Supplemental modules (75-section registry, selected)
+
 Eye topology and protected void reserve · initiative differential and ko recurrence graph ·
 territory/influence phase states (open/potential/crystallized/locked) · future debt tensor ·
 memory tensor with decay classes · multi-scale lacunarity · option diversity/concentration ·
@@ -346,6 +386,7 @@ Compositional evaluation pipeline:
 `T = T_O ∘ T_G ∘ T_L ∘ T_E ∘ T_A ∘ T_K ∘ T_Φ ∘ T_Ω ∘ T_M`.
 
 ### L3. Computation status
+
 Formal implementation carries registered self-test suites (Go Board suites totaling ~630
 passing tests per skill record). Passing tests establish executable consistency of the formal
 machinery — they do NOT validate the model against empirical strategic outcomes in external
@@ -354,34 +395,38 @@ domains.
 ## M4. Decision Gates
 
 1. Eye-quality gate — internal void must meet threshold for life claims.
-2. Initiative gate — sente/gote balance computed, not asserted.
-3. Phase-state gate — territory/influence phase identified before evaluation.
-4. Lacunarity gate — multi-scale lacunarity computed where scale claims are made.
-5. Firewall gate — move passes M1/M2/COMPETING evaluation.
-6. Invariant gate — all system invariants hold after update.
+1. Initiative gate — sente/gote balance computed, not asserted.
+1. Phase-state gate — territory/influence phase identified before evaluation.
+1. Lacunarity gate — multi-scale lacunarity computed where scale claims are made.
+1. Firewall gate — move passes M1/M2/COMPETING evaluation.
+1. Invariant gate — all system invariants hold after update.
 
----
+______________________________________________________________________
 
-# H8 — Multi-Agent Strategy Dynamics & Recurrence Control
+## H8 — Multi-Agent Strategy Dynamics & Recurrence Control
 
 ## M1. Sequential Interaction
 
 ### L1. Backward induction
+
 Optimal play in known-horizon sequential games follows backward induction under common
 knowledge assumptions; the centipede-game literature documents tension between this logic
 and observed human play.
 
 ### L2. Finitely vs infinitely repeated
+
 Cooperation-supporting strategies differ sharply by horizon type. Unraveling arguments apply
 only to known finite horizons with common knowledge.
 
 ## M2. Learning and Adaptation
 
 ### L1. Adaptive opponents
+
 Opponents learn; fixed-opponent analysis decays in validity. Strategy against adaptive agents
 requires modeling their update process.
 
 ### L2. Evolutionary dynamics
+
 Replicator-style dynamics describe frequency change of strategies in populations; stable
 states correspond to evolutionarily stable configurations under stated dynamics, not to Nash
 predictions generally.
@@ -389,17 +434,19 @@ predictions generally.
 ## M3. Dead Loops and Ko-Like Recurrence
 
 ### L1. Recurrence constraint
+
 Any iterative strategic system needs a rule forbidding exact-state repetition, else cycles
 can stall progress indefinitely. In the formal system this is the KoRecurrenceGraph storing
 historical state signatures.
 
 ### L2. Pressure economics
+
 Recurrence conflicts resolve through side exchanges whose value ratio determines whether the
 recurrent dispute is worth continuing — compute, don't assume.
 
----
+______________________________________________________________________
 
-# H9 — AMOS/Trang Strategy Research Bridge
+## H9 — AMOS/Trang Strategy Research Bridge
 
 ## M1. Source Family Integration
 
@@ -424,6 +471,7 @@ HML is an AMOS reasoning structure, not a claim that strategy has exactly three 
 ## M3. RSCF Strategy Mapping
 
 A domain-specific RSCF representation encodes:
+
 - **State** — position, resources, beliefs, obligations;
 - **Constraint** — rules, contracts, laws, ethics, capacity limits;
 - **Feedback** — responses, reputation effects, adaptation;
@@ -447,6 +495,7 @@ trust, deferred capability investments, postponed hard conversations.
 ## M6. Credibility Firewall
 
 Never present as credible:
+
 - threats without ex-post-rational execution paths;
 - commitments without enforcement mechanisms;
 - signals without differential cost structure;
@@ -462,9 +511,9 @@ Incorrect:
 
 Board mappings organize hypotheses; domain evidence decides them.
 
----
+______________________________________________________________________
 
-# C08 ↔ CC05 Mind & Behavior Reference Bridge
+## C08 ↔ CC05 Mind & Behavior Reference Bridge
 
 ## Cross-domain reference
 
@@ -509,9 +558,9 @@ cross_domain_refs:
     confidence_rule: weakest_load_bearing_edge
 ```
 
----
+______________________________________________________________________
 
-# C08 Master Dependency Spine
+## C08 Master Dependency Spine
 
 ```text
 actors + available actions
@@ -537,7 +586,7 @@ negotiation + agreement design
 AMOS cross-scale decision architecture
 ```
 
-# C08 Decision Capsule Template
+## C08 Decision Capsule Template
 
 ```text
 Situation:
@@ -575,21 +624,22 @@ Invalidation conditions:
 Revalidation date:
 ```
 
-# C08 Promotion Rule
+## C08 Promotion Rule
 
 A new strategy/game claim may move from `MODEL` toward stronger status only when:
-1. actors, actions, payoffs, and information are operationally defined;
-2. the game structure is identified with rejected alternatives recorded;
-3. assumed payoffs are separated from sourced payoffs;
-4. multiplicity of equilibria is addressed with an explicit selection argument;
-5. credibility claims pass the ex-post-rationality test;
-6. formal-system results cite passing computation and its actual meaning;
-7. analogy-based mappings remain labeled ANALOGY/MODEL and never drive causal claims;
-8. legal and ethical constraints are recorded above strategic advantage;
-9. recommendations preserve uncertainty about other actors' beliefs and adaptation;
-10. governance records contradiction, supersession, and revalidation.
 
-# C08 Final Boundary
+1. actors, actions, payoffs, and information are operationally defined;
+1. the game structure is identified with rejected alternatives recorded;
+1. assumed payoffs are separated from sourced payoffs;
+1. multiplicity of equilibria is addressed with an explicit selection argument;
+1. credibility claims pass the ex-post-rationality test;
+1. formal-system results cite passing computation and its actual meaning;
+1. analogy-based mappings remain labeled ANALOGY/MODEL and never drive causal claims;
+1. legal and ethical constraints are recorded above strategic advantage;
+1. recommendations preserve uncertainty about other actors' beliefs and adaptation;
+1. governance records contradiction, supersession, and revalidation.
+
+## C08 Final Boundary
 
 C08 is not a strategy oracle.
 
@@ -603,22 +653,26 @@ The address space is tested, not semantically sacred. Analogy organizes; evidenc
 The architecture remains open and repairable:
 **integrity > completeness > fluency > speed**.
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos_c08_strategy_game_master_knowledge
 node_type: note
 path: 11_KNOWLEDGE/AMOS_C08_STRATEGY_GAME_MASTER_KNOWLEDGE.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]]

@@ -1,9 +1,6 @@
 ---
 name: obsidian-bases
-description: Create and edit Obsidian Bases (.base files) with valid YAML schemas,
-  filters, formulas, properties, summaries, and views. Use for database-like Obsidian
-  views or when the user mentions Bases, .base files, table/card/list views, filters,
-  formulas, or summaries.
+description: Create and edit Obsidian Bases (.base files) with valid YAML schemas, filters, formulas, properties, summaries, and views. Use for database-like Obsidian views or when the user mentions Bases, .base files, table/card/list views, filters, formulas, or summaries.
 license: MIT
 metadata:
   steward: Trang Phan
@@ -11,7 +8,12 @@ metadata:
   copilot-builtin-version: '1'
   copilot-upstream-revision: a1dc48e68138490d522c04cbf5822214c6eb1202
 tags:
-- my-basebase
+  - my-basebase
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 # Obsidian Bases
@@ -19,15 +21,15 @@ tags:
 ## Workflow
 
 1. Read the existing <code>.base</code> file before editing it.
-2. Define global scope with <code>filters</code>.
-3. Add computed values under <code>formulas</code> only when needed.
-4. Configure property display names and one or more views.
-5. Validate YAML, formula references, quoting, and date/duration operations.
-6. Open or query the Base in Obsidian when the CLI is available.
+1. Define global scope with <code>filters</code>.
+1. Add computed values under <code>formulas</code> only when needed.
+1. Configure property display names and one or more views.
+1. Validate YAML, formula references, quoting, and date/duration operations.
+1. Open or query the Base in Obsidian when the CLI is available.
 
 ## Schema
 
-~~~yaml
+```yaml
 filters:
   and:
     - 'file.ext == "md"'
@@ -61,7 +63,7 @@ views:
       direction: ASC
     summaries:
       formula.days_until_due: Average
-~~~
+```
 
 Views may be <code>table</code>, <code>cards</code>, or <code>list</code>.
 A <code>map</code> view depends on compatible map support.
@@ -112,7 +114,6 @@ task-tracker and daily-notes Bases.
 Adapted from <code>kepano/obsidian-skills</code> at revision
 <code>a1dc48e68138490d522c04cbf5822214c6eb1202</code>. See <code>LICENSE</code>.
 
----
+______________________________________________________________________
 
 **MOC:** [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/00_HOME|00_HOME]]
-

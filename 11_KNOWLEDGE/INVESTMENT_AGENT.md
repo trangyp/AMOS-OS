@@ -25,26 +25,25 @@ runtime_state: NON_DESTRUCTIVE_TRACE_ONLY
 financial_authority_state: NONE_IMPLEMENTED
 topic: investment-agent
 aliases:
-- Investment Agent - AMOS Investment Agent - Money System Investment Agent - Governed
-  Investme
+  - Investment Agent - AMOS Investment Agent - Money System Investment Agent - Governed Investme
 tags:
-- agents
-- knowledge
-- vault
-- canon-group/tech-ai
-- canon/component
-- rscf/claim
-- rscf/provenance
-- rscf/state/source-claim
-- topic/investment-agent
-- topic/money-system
-- topic/investment-analysis
-- topic/portfolio
-- topic/financial-governance
-- architecture
-- memory
-- skill
-- validation
+  - agents
+  - knowledge
+  - vault
+  - canon-group/tech-ai
+  - canon/component
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - topic/investment-agent
+  - topic/money-system
+  - topic/investment-analysis
+  - topic/portfolio
+  - topic/financial-governance
+  - architecture
+  - memory
+  - skill
+  - validation
 governing_law: integrity > completeness > fluency > speed > token savings
 rscf:
   state: SOURCE_CLAIM
@@ -54,6 +53,7 @@ rscf:
 ---
 
 # AMOS Investment Agent
+
 ## Governed Money-System Component
 
 > **System:** `MONEY_SYSTEM`
@@ -66,9 +66,9 @@ rscf:
 > **Current behavior:** append trace → return context unchanged
 > **Trading / transaction authority:** `NONE_IMPLEMENTED`
 
----
+______________________________________________________________________
 
-# 0. EXECUTIVE STATUS
+## 0. EXECUTIVE STATUS
 
 The supplied `Investment_Agent` currently does **not**:
 
@@ -158,9 +158,9 @@ status:
     state: REGISTERED_STUB
 ```
 
----
+______________________________________________________________________
 
-# 1. SOURCE IMPLEMENTATION
+## 1. SOURCE IMPLEMENTATION
 
 ```python
 """AMOS logical component.
@@ -208,20 +208,18 @@ class Investment_Agent(Agent):
         return context
 ```
 
----
+______________________________________________________________________
 
-# 2. SOURCE SEMANTICS
+## 2. SOURCE SEMANTICS
 
 Current state transition:
 
-[
-C_{t+1}
-=======
+## \[ C\_{t+1}
 
 C_t
-\oplus
+\\oplus
 TraceEvent
-]
+\]
 
 where:
 
@@ -249,9 +247,9 @@ FinancialState_t
 
 for the supplied `run()` method, assuming no hidden superclass/decorator behavior.
 
----
+______________________________________________________________________
 
-# 3. HARD STATUS FIREWALL
+## 3. HARD STATUS FIREWALL
 
 Do not infer capability from component naming.
 
@@ -266,39 +264,46 @@ Investment_Agent
 !=
 InvestmentAdviceSystem
 ```
+
 ```text
 run()
 !=
 PortfolioAnalysis
 ```
+
 ```text
 TraceEvent
 !=
 MarketObservation
 ```
+
 ```text
 Analysis
 !=
 Recommendation
 ```
+
 ```text
 Recommendation
 !=
 Suitability
 ```
+
 ```text
 Suitability
 !=
 AuthorityToTrade
 ```
+
 ```text
 OrderProposal
 !=
 ExecutedOrder
 ```
----
 
-# 4. VERSION / LINEAGE MODEL
+______________________________________________________________________
+
+## 4. VERSION / LINEAGE MODEL
 
 Keep version axes separate:
 
@@ -336,9 +341,9 @@ VERSION_ID:
   core_target: AMOS_CORE_4.4
 ```
 
----
+______________________________________________________________________
 
-# 5. CHANGE CLASSES
+## 5. CHANGE CLASSES
 
 ```text
 PATCH
@@ -365,9 +370,9 @@ money movement capability
 risk/suitability semantics change
 ```
 
----
+______________________________________________________________________
 
-# 6. AMOS SYSTEM POSITION
+## 6. AMOS SYSTEM POSITION
 
 ```text
 AMOS
@@ -410,9 +415,9 @@ Investment_Agent
 TRACE
 ```
 
----
+______________________________________________________________________
 
-# 7. H / M / L [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]
+## 7. H / M / L [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]
 
 ```text
 H — MONEY_SYSTEM governance
@@ -451,9 +456,9 @@ cannot exceed
 load-bearing M/L evidence.
 ```
 
----
+______________________________________________________________________
 
-# 8. EXTERNALIZATION [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]
+## 8. EXTERNALIZATION [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]
 
 Correct AMOS externalization:
 
@@ -477,9 +482,9 @@ does not grant
 financial authority.
 ```
 
----
+______________________________________________________________________
 
-# 9. PURPOSE
+## 9. PURPOSE
 
 The intended governed role is:
 
@@ -509,9 +514,9 @@ RECOMMENDATION
 AUTHORITY BOUNDARY
 ```
 
----
+______________________________________________________________________
 
-# 10. NON-GOALS
+## 10. NON-GOALS
 
 Investment_Agent should not automatically:
 
@@ -529,9 +534,9 @@ use stale data as current data
 convert historical correlation into causal certainty
 ```
 
----
+______________________________________________________________________
 
-# 11. FINANCIAL CLAIM CLASSES
+## 11. FINANCIAL CLAIM CLASSES
 
 Investment outputs should distinguish:
 
@@ -586,9 +591,9 @@ RECOMMENDATION / DECISION PROPOSAL
 
 not fact.
 
----
+______________________________________________________________________
 
-# 12. TIME / MARKET DATA FIREWALL
+## 12. TIME / MARKET DATA FIREWALL
 
 Financial data is highly time-sensitive.
 
@@ -615,9 +620,9 @@ HistoricalPrice
 CurrentPrice
 ```
 
----
+______________________________________________________________________
 
-# 13. DATA PROVENANCE
+## 13. DATA PROVENANCE
 
 ```yaml
 FinancialEvidence:
@@ -650,9 +655,9 @@ FinancialEvidence:
     QUARANTINED
 ```
 
----
+______________________________________________________________________
 
-# 14. INSTRUMENT IDENTITY
+## 14. INSTRUMENT IDENTITY
 
 Do not rely only on ticker strings.
 
@@ -678,9 +683,9 @@ strike
 
 For derivatives, identity requires contract terms.
 
----
+______________________________________________________________________
 
-# 15. CURRENCY DIMENSION
+## 15. CURRENCY DIMENSION
 
 All monetary values require currency.
 
@@ -704,28 +709,26 @@ ValueA + ValueB
 
 is invalid if currencies are incompatible without conversion.
 
----
+______________________________________________________________________
 
-# 16. FX CONVERSION
+## 16. FX CONVERSION
 
 When cross-currency assets exist:
 
-[
-V_{base}
-========
+## \[ V\_{base}
 
-V_{local}
-\times
-FX_{local\rightarrow base}
-]
+V\_{local}
+\\times
+FX\_{local\\rightarrow base}
+\]
 
 FX observations require their own timestamp and provenance.
 
 Do not use a current FX rate to silently rewrite historical portfolio values unless intended.
 
----
+______________________________________________________________________
 
-# 17. PORTFOLIO STATE
+## 17. PORTFOLIO STATE
 
 ```yaml
 PortfolioState:
@@ -750,9 +753,9 @@ PortfolioState:
   provenance:
 ```
 
----
+______________________________________________________________________
 
-# 18. PORTFOLIO STATE FIREWALL
+## 18. PORTFOLIO STATE FIREWALL
 
 ```text
 ReportedHoldings
@@ -770,9 +773,9 @@ ActualPortfolio
 
 Preserve source class.
 
----
+______________________________________________________________________
 
-# 19. INVESTMENT MANDATE
+## 19. INVESTMENT MANDATE
 
 ```yaml
 InvestmentMandate:
@@ -818,9 +821,9 @@ InvestmentMandate:
   authority:
 ```
 
----
+______________________________________________________________________
 
-# 20. MANDATE INVARIANT
+## 20. MANDATE INVARIANT
 
 ```text
 BestAssetInAbstract
@@ -855,9 +858,9 @@ Constraints
 )
 ```
 
----
+______________________________________________________________________
 
-# 21. SUITABILITY FIREWALL
+## 21. SUITABILITY FIREWALL
 
 ```text
 PositiveExpectedReturn
@@ -878,9 +881,9 @@ tax
 portfolio interaction
 ```
 
----
+______________________________________________________________________
 
-# 22. MARKET DATA CONTRACT
+## 22. MARKET DATA CONTRACT
 
 ```yaml
 MarketDataBundle:
@@ -900,9 +903,9 @@ MarketDataBundle:
   unresolved_gaps: []
 ```
 
----
+______________________________________________________________________
 
-# 23. DATA QUALITY
+## 23. DATA QUALITY
 
 Track:
 
@@ -918,19 +921,19 @@ survivorship risk
 look-ahead risk
 ```
 
----
+______________________________________________________________________
 
-# 24. LOOK-AHEAD FIREWALL
+## 24. LOOK-AHEAD FIREWALL
 
 Backtests must not use information unavailable at decision time.
 
 For feature (x_t):
 
-[
+\[
 AvailableTime(x_t)
-\le
+\\le
 DecisionTime_t
-]
+\]
 
 must hold.
 
@@ -940,9 +943,9 @@ Otherwise:
 LEAKAGE
 ```
 
----
+______________________________________________________________________
 
-# 25. SURVIVORSHIP BIAS
+## 25. SURVIVORSHIP BIAS
 
 Historical analysis based only on current instruments can overstate results.
 
@@ -954,37 +957,33 @@ HistoricalTradableUniverse
 
 Backtesting should preserve historical universe membership where material.
 
----
+______________________________________________________________________
 
-# 26. RETURN MODEL
+## 26. RETURN MODEL
 
 Simple return:
 
-[
-R_t
-===
+## \[ R_t
 
-\frac{P_t-P_{t-1}}{P_{t-1}}
-]
+\\frac{P_t-P\_{t-1}}{P\_{t-1}}
+\]
 
 Total return should incorporate applicable distributions and corporate actions.
 
 Log return:
 
-[
-r_t
-===
+## \[ r_t
 
-\ln\left(
-\frac{P_t}{P_{t-1}}
-\right)
-]
+\\ln\\left(
+\\frac{P_t}{P\_{t-1}}
+\\right)
+\]
 
 Use explicit convention.
 
----
+______________________________________________________________________
 
-# 27. EXPECTED RETURN
+## 27. EXPECTED RETURN
 
 Expected return is not directly observed.
 
@@ -1007,30 +1006,28 @@ scenario-weighted return
 
 No universal estimator should be silently assumed.
 
----
+______________________________________________________________________
 
-# 28. VOLATILITY
+## 28. VOLATILITY
 
 Sample volatility:
 
-[
-\sigma
-======
+## \[ \\sigma
 
-\sqrt{
-\frac{1}{T-1}
-\sum_{t=1}^{T}
-(R_t-\bar R)^2
+\\sqrt{
+\\frac{1}{T-1}
+\\sum\_{t=1}^{T}
+(R_t-\\bar R)^2
 }
-]
+\]
 
 This measures a specific historical variability construct.
 
 It is not equivalent to total investment risk.
 
----
+______________________________________________________________________
 
-# 29. DOWNSIDE RISK
+## 29. DOWNSIDE RISK
 
 Possible measures:
 
@@ -1046,47 +1043,41 @@ scenario loss
 
 Use multiple dimensions when consequential.
 
----
+______________________________________________________________________
 
-# 30. MAX DRAWDOWN
+## 30. MAX DRAWDOWN
 
 For portfolio value (V_t):
 
-[
-DD_t
-====
+## \[ DD_t
 
-\frac{V_t-\max_{s\le t}V_s}
-{\max_{s\le t}V_s}
-]
+\\frac{V_t-\\max\_{s\\le t}V_s}
+{\\max\_{s\\le t}V_s}
+\]
 
 Maximum drawdown:
 
-[
-MDD
-===
+## \[ MDD
 
-\min_t DD_t
-]
+\\min_t DD_t
+\]
 
 Historical drawdown does not bound future drawdown.
 
----
+______________________________________________________________________
 
-# 31. VALUE AT RISK
+## 31. VALUE AT RISK
 
 Generic:
 
-[
-VaR_\alpha
-==========
+## \[ VaR\_\\alpha
 
--\inf
-\left{
+-\\inf
+\\left{
 x:
-P(R\le x)\ge 1-\alpha
-\right}
-]
+P(R\\le x)\\ge 1-\\alpha
+\\right}
+\]
 
 Exact conventions vary.
 
@@ -1100,28 +1091,26 @@ currency
 portfolio state
 ```
 
----
+______________________________________________________________________
 
-# 32. EXPECTED SHORTFALL
+## 32. EXPECTED SHORTFALL
 
-[
-ES_\alpha
-=========
+## \[ ES\_\\alpha
 
-E[
+E\[
 L
-\mid
-L\ge VaR_\alpha
-]
-]
+\\mid
+L\\ge VaR\_\\alpha
+\]
+\]
 
 under continuous conventions.
 
 Again, assumptions and estimation method must remain explicit.
 
----
+______________________________________________________________________
 
-# 33. RISK MODEL FIREWALL
+## 33. RISK MODEL FIREWALL
 
 ```text
 VaR
@@ -1134,25 +1123,25 @@ HistoricalVolatility
 !=
 FutureVolatility
 ```
+
 ```text
 DiversifiedHistorically
 !=
 DiversifiedInStress
 ```
----
 
-# 34. CORRELATION
+______________________________________________________________________
+
+## 34. CORRELATION
 
 Portfolio covariance:
 
-[
-\sigma_p^2
-==========
+## \[ \\sigma_p^2
 
-w^\top
-\Sigma
+w^\\top
+\\Sigma
 w
-]
+\]
 
 But:
 
@@ -1164,33 +1153,29 @@ CorrelationStableInCrisis
 
 Stress correlation assumptions should be explicit.
 
----
+______________________________________________________________________
 
-# 35. PORTFOLIO CONCENTRATION
+## 35. PORTFOLIO CONCENTRATION
 
 Simple Herfindahl-style concentration:
 
-[
-HHI
-===
+## \[ HHI
 
-\sum_iw_i^2
-]
+\\sum_iw_i^2
+\]
 
 Effective number of positions:
 
-[
-N_{eff}
-=======
+## \[ N\_{eff}
 
-\frac{1}{\sum_iw_i^2}
-]
+\\frac{1}{\\sum_iw_i^2}
+\]
 
 These are concentration measures, not complete diversification measures.
 
----
+______________________________________________________________________
 
-# 36. LIQUIDITY
+## 36. LIQUIDITY
 
 Track:
 
@@ -1205,35 +1190,31 @@ estimated market impact
 
 Liquidity changes under stress.
 
----
+______________________________________________________________________
 
-# 37. LEVERAGE
+## 37. LEVERAGE
 
 Gross leverage:
 
-[
-L_g
-===
+## \[ L_g
 
-\frac{\sum_i|Exposure_i|}
+\\frac{\\sum_i|Exposure_i|}
 {Equity}
-]
+\]
 
 Net leverage:
 
-[
-L_n
-===
+## \[ L_n
 
-\frac{\sum_iExposure_i}
+\\frac{\\sum_iExposure_i}
 {Equity}
-]
+\]
 
 Exact definitions must match portfolio conventions.
 
----
+______________________________________________________________________
 
-# 38. SCENARIO ANALYSIS
+## 38. SCENARIO ANALYSIS
 
 ```yaml
 Scenario:
@@ -1258,9 +1239,9 @@ Scenario:
     MODEL
 ```
 
----
+______________________________________________________________________
 
-# 39. SCENARIO FIREWALL
+## 39. SCENARIO FIREWALL
 
 ```text
 ScenarioLoss
@@ -1280,9 +1261,9 @@ not necessarily:
 what will happen
 ```
 
----
+______________________________________________________________________
 
-# 40. REGIME MODEL
+## 40. REGIME MODEL
 
 Financial relationships are regime-dependent.
 
@@ -1302,9 +1283,9 @@ policy tightening
 
 Do not treat regime labels as ground truth unless defined by observable criteria.
 
----
+______________________________________________________________________
 
-# 41. REGIME OBJECT
+## 41. REGIME OBJECT
 
 ```yaml
 MarketRegime:
@@ -1320,9 +1301,9 @@ MarketRegime:
     COMPETING
 ```
 
----
+______________________________________________________________________
 
-# 42. COMPETING HYPOTHESES
+## 42. COMPETING HYPOTHESES
 
 For every material investment thesis preserve alternatives.
 
@@ -1346,9 +1327,9 @@ InvestmentHypotheses:
 
 Do not force one narrative when evidence remains mixed.
 
----
+______________________________________________________________________
 
-# 43. INVESTMENT THESIS
+## 43. INVESTMENT THESIS
 
 ```yaml
 InvestmentThesis:
@@ -1381,9 +1362,9 @@ InvestmentThesis:
   confidence_ceiling:
 ```
 
----
+______________________________________________________________________
 
-# 44. CAUSAL FIREWALL
+## 44. CAUSAL FIREWALL
 
 Do not promote:
 
@@ -1409,9 +1390,9 @@ endogeneity
 common shocks
 ```
 
----
+______________________________________________________________________
 
-# 45. VALUATION
+## 45. VALUATION
 
 Valuation method depends on asset class.
 
@@ -1430,21 +1411,19 @@ scenario valuation
 
 No single valuation method is universal.
 
----
+______________________________________________________________________
 
-# 46. DCF MODEL
+## 46. DCF MODEL
 
 Conceptual:
 
-[
-V
-=
+## \[ V
 
-\sum_{t=1}^{T}
-\frac{CF_t}{(1+r)^t}
-+
-\frac{TV_T}{(1+r)^T}
-]
+\\sum\_{t=1}^{T}
+\\frac{CF_t}{(1+r)^t}
+\+
+\\frac{TV_T}{(1+r)^T}
+\]
 
 Inputs such as:
 
@@ -1458,9 +1437,9 @@ are model assumptions.
 
 Small changes can materially alter valuation.
 
----
+______________________________________________________________________
 
-# 47. SENSITIVITY
+## 47. SENSITIVITY
 
 For consequential valuations identify variables capable of flipping the conclusion.
 
@@ -1487,9 +1466,9 @@ Sensitivity:
   recommendation_flip_at:
 ```
 
----
+______________________________________________________________________
 
-# 48. ROBUSTNESS
+## 48. ROBUSTNESS
 
 A strong recommendation should survive plausible changes in noncritical assumptions.
 
@@ -1506,9 +1485,9 @@ Fragile outputs should be:
 CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
-# 49. FORECASTING
+## 49. FORECASTING
 
 Forecast object:
 
@@ -1533,9 +1512,9 @@ Forecast
 Fact
 ```
 
----
+______________________________________________________________________
 
-# 50. FORECAST CALIBRATION
+## 50. FORECAST CALIBRATION
 
 Prediction systems should be evaluated post-outcome.
 
@@ -1553,9 +1532,9 @@ tail exceedance
 
 depending on output type.
 
----
+______________________________________________________________________
 
-# 51. BENCHMARK
+## 51. BENCHMARK
 
 Investment performance needs benchmark context.
 
@@ -1571,32 +1550,28 @@ Benchmark:
 
 Portfolio return alone is incomplete for performance attribution.
 
----
+______________________________________________________________________
 
-# 52. EXCESS RETURN
+## 52. EXCESS RETURN
 
-[
-R_{excess}
-==========
+## \[ R\_{excess}
 
 R_p-R_b
-]
+\]
 
 where (R_b) is the appropriate benchmark return.
 
 Benchmark selection is itself a modeling decision.
 
----
+______________________________________________________________________
 
-# 53. SHARPE RATIO
+## 53. SHARPE RATIO
 
-[
-Sharpe
-======
+## \[ Sharpe
 
-\frac{E[R_p-R_f]}
-{\sigma_p}
-]
+\\frac{E[R_p-R_f]}
+{\\sigma_p}
+\]
 
 Requires:
 
@@ -1609,23 +1584,21 @@ sample period
 
 Do not compare Sharpe ratios computed under incompatible conventions.
 
----
+______________________________________________________________________
 
-# 54. SORTINO RATIO
+## 54. SORTINO RATIO
 
-[
-Sortino
-=======
+## \[ Sortino
 
-\frac{E[R_p-R_{target}]}
-{\sigma_{downside}}
-]
+\\frac{E[R_p-R\_{target}]}
+{\\sigma\_{downside}}
+\]
 
 Again, denominator and target definition must be explicit.
 
----
+______________________________________________________________________
 
-# 55. PERFORMANCE ATTRIBUTION
+## 55. PERFORMANCE ATTRIBUTION
 
 Separate:
 
@@ -1648,9 +1621,9 @@ ModelSkill
 
 without attribution and controls.
 
----
+______________________________________________________________________
 
-# 56. COST MODEL
+## 56. COST MODEL
 
 Include where relevant:
 
@@ -1667,9 +1640,9 @@ management fees
 
 Backtests without realistic costs may materially overstate implementable performance.
 
----
+______________________________________________________________________
 
-# 57. INVESTMENT DECISION OBJECT
+## 57. INVESTMENT DECISION OBJECT
 
 ```yaml
 InvestmentDecisionProposal:
@@ -1710,9 +1683,9 @@ InvestmentDecisionProposal:
     RECOMMENDATION
 ```
 
----
+______________________________________________________________________
 
-# 58. NO-TRADE STATE
+## 58. NO-TRADE STATE
 
 A valid outcome is:
 
@@ -1728,9 +1701,9 @@ WATCH
 
 AMOS should not force a recommendation simply because an Investment Agent was invoked.
 
----
+______________________________________________________________________
 
-# 59. DECISION SUFFICIENCY
+## 59. DECISION SUFFICIENCY
 
 ```text
 DecisionSufficient
@@ -1756,9 +1729,9 @@ WATCH
 
 may be appropriate.
 
----
+______________________________________________________________________
 
-# 60. FINANCIAL AUTHORITY
+## 60. FINANCIAL AUTHORITY
 
 Investment analysis authority and trading authority must remain separate.
 
@@ -1773,14 +1746,16 @@ RecommendTrade
 !=
 AuthorityToPlaceTrade
 ```
+
 ```text
 BrokerCredential
 !=
 PermissionToUseBrokerCredential
 ```
----
 
-# 61. AUTHORITY CONTRACT
+______________________________________________________________________
+
+## 61. AUTHORITY CONTRACT
 
 ```yaml
 InvestmentAuthority:
@@ -1824,9 +1799,9 @@ PLACE_ORDER
 NOT IMPLEMENTED / NOT AUTHORIZED
 ```
 
----
+______________________________________________________________________
 
-# 62. EXECUTION BOUNDARY
+## 62. EXECUTION BOUNDARY
 
 If future AMOS uses `Executor_Agent`, the flow should be:
 
@@ -1854,9 +1829,9 @@ Broker
 
 by default.
 
----
+______________________________________________________________________
 
-# 63. MONEY MOVEMENT BOUNDARY
+## 63. MONEY MOVEMENT BOUNDARY
 
 Money movement is a distinct high-impact capability.
 
@@ -1879,9 +1854,9 @@ approval
 receipt
 ```
 
----
+______________________________________________________________________
 
-# 64. ORDER OBJECT
+## 64. ORDER OBJECT
 
 Future model:
 
@@ -1908,9 +1883,9 @@ OrderProposal:
 
 Proposal does not equal live order.
 
----
+______________________________________________________________________
 
-# 65. ORDER FINALITY
+## 65. ORDER FINALITY
 
 ```text
 PROPOSED
@@ -1937,9 +1912,9 @@ IN_DOUBT
 
 Do not collapse to generic `SUCCESS`.
 
----
+______________________________________________________________________
 
-# 66. INVESTMENT MEMORY
+## 66. INVESTMENT MEMORY
 
 Potential persistent state:
 
@@ -1956,9 +1931,9 @@ model failures
 
 Memory should not include unchecked generated market claims.
 
----
+______________________________________________________________________
 
-# 67. NEGATIVE MEMORY
+## 67. NEGATIVE MEMORY
 
 Record failures:
 
@@ -1981,9 +1956,9 @@ thesis falsified
 forecast systematically overconfident
 ```
 
----
+______________________________________________________________________
 
-# 68. MEMORY / AUTHORITY FIREWALL
+## 68. MEMORY / AUTHORITY FIREWALL
 
 ```text
 RememberedRiskTolerance
@@ -1993,9 +1968,9 @@ CurrentTradingAuthorization
 
 High-impact financial action should use current authority and mandate state.
 
----
+______________________________________________________________________
 
-# 69. MODEL REGISTRY
+## 69. MODEL REGISTRY
 
 ```yaml
 InvestmentModel:
@@ -2013,9 +1988,9 @@ InvestmentModel:
   status:
 ```
 
----
+______________________________________________________________________
 
-# 70. MODEL STATUS
+## 70. MODEL STATUS
 
 Possible:
 
@@ -2029,9 +2004,9 @@ RETIRED
 
 Model existence does not imply promotion.
 
----
+______________________________________________________________________
 
-# 71. BACKTEST CONTRACT
+## 71. BACKTEST CONTRACT
 
 ```yaml
 Backtest:
@@ -2063,9 +2038,9 @@ Backtest:
   code_hash:
 ```
 
----
+______________________________________________________________________
 
-# 72. BACKTEST FIREWALL
+## 72. BACKTEST FIREWALL
 
 ```text
 BacktestSuccess
@@ -2078,14 +2053,16 @@ InSamplePerformance
 !=
 OutOfSampleEvidence
 ```
+
 ```text
 OneBacktest
 !=
 RobustStrategy
 ```
----
 
-# 73. WALK-FORWARD VALIDATION
+______________________________________________________________________
+
+## 73. WALK-FORWARD VALIDATION
 
 Preferred structure for predictive systems:
 
@@ -2101,9 +2078,9 @@ ROLL FORWARD
 
 Time ordering must be preserved.
 
----
+______________________________________________________________________
 
-# 74. MODEL SELECTION BIAS
+## 74. MODEL SELECTION BIAS
 
 Trying many models and reporting the best result introduces selection bias.
 
@@ -2118,35 +2095,31 @@ held-out test
 
 where possible.
 
----
+______________________________________________________________________
 
-# 75. PORTFOLIO OPTIMIZATION
+## 75. PORTFOLIO OPTIMIZATION
 
 Generic mean-variance form:
 
-[
-\max_w
-\quad
-w^\top\mu
----------
+## \[ \\max_w \\quad w^\\top\\mu
 
-\frac{\lambda}{2}
-w^\top\Sigma w
-]
+\\frac{\\lambda}{2}
+w^\\top\\Sigma w
+\]
 
 subject to:
 
-[
-Aw\le b
-]
+\[
+Aw\\le b
+\]
 
 and other constraints.
 
 This is a model, not a universal investment law.
 
----
+______________________________________________________________________
 
-# 76. OPTIMIZATION FIREWALL
+## 76. OPTIMIZATION FIREWALL
 
 Optimizers can amplify bad inputs.
 
@@ -2164,17 +2137,17 @@ OptimizerConfidence
 InputModelConfidence
 ```
 
----
+______________________________________________________________________
 
-# 77. ESTIMATION ERROR
+## 77. ESTIMATION ERROR
 
 Expected-return estimates are often noisier than covariance estimates.
 
-Therefore sensitivity to (\mu) should be explicitly tested before trusting optimized weights.
+Therefore sensitivity to (\\mu) should be explicitly tested before trusting optimized weights.
 
----
+______________________________________________________________________
 
-# 78. ROBUST ALLOCATION
+## 78. ROBUST ALLOCATION
 
 Possible constraints:
 
@@ -2190,9 +2163,9 @@ tracking-error limit
 
 These often provide more practical stability than unconstrained optimization.
 
----
+______________________________________________________________________
 
-# 79. DIVERSIFICATION FIREWALL
+## 79. DIVERSIFICATION FIREWALL
 
 ```text
 ManyPositions
@@ -2204,22 +2177,20 @@ Highly correlated positions may form one effective bet.
 
 Track factor and scenario concentration when material.
 
----
+______________________________________________________________________
 
-# 80. FACTOR EXPOSURE
+## 80. FACTOR EXPOSURE
 
 Conceptual:
 
-[
-R_p
-===
+## \[ R_p
 
-\alpha
-+
-\beta^\top F
-+
-\epsilon
-]
+\\alpha
+\+
+\\beta^\\top F
+\+
+\\epsilon
+\]
 
 where (F) represents factor returns.
 
@@ -2227,9 +2198,9 @@ Factor decomposition is model-dependent.
 
 Do not claim unique causal structure from a statistical factor model.
 
----
+______________________________________________________________________
 
-# 81. TAIL RISK
+## 81. TAIL RISK
 
 Portfolio analysis should not rely solely on variance.
 
@@ -2246,9 +2217,9 @@ policy shock
 counterparty failure
 ```
 
----
+______________________________________________________________________
 
-# 82. COUNTERPARTY RISK
+## 82. COUNTERPARTY RISK
 
 Relevant for:
 
@@ -2263,9 +2234,9 @@ custodians
 
 Investment risk is not only market-price risk.
 
----
+______________________________________________________________________
 
-# 83. OPERATIONAL RISK
+## 83. OPERATIONAL RISK
 
 Possible:
 
@@ -2282,9 +2253,9 @@ credential compromise
 
 A live financial system needs operational controls in addition to market models.
 
----
+______________________________________________________________________
 
-# 84. TAX / LEGAL SCOPE
+## 84. TAX / LEGAL SCOPE
 
 Tax and regulatory conclusions depend on:
 
@@ -2298,9 +2269,9 @@ date
 
 Investment_Agent should not silently provide universal legal/tax conclusions.
 
----
+______________________________________________________________________
 
-# 85. USER PROFILE FIREWALL
+## 85. USER PROFILE FIREWALL
 
 Do not infer sensitive financial facts that have not been supplied or validly retrieved.
 
@@ -2310,9 +2281,9 @@ Unknown profile fields remain:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 86. RISK-TOLERANCE FIREWALL
+## 86. RISK-TOLERANCE FIREWALL
 
 Risk tolerance is not the same as:
 
@@ -2334,9 +2305,9 @@ risk capacity
 risk requirement
 ```
 
----
+______________________________________________________________________
 
-# 87. CONSTRAINT TENSOR
+## 87. CONSTRAINT TENSOR
 
 ```text
 K[
@@ -2355,9 +2326,9 @@ K[
 
 Recommendation must remain inside valid constraints.
 
----
+______________________________________________________________________
 
-# 88. INFORMATION BOUNDARY
+## 88. INFORMATION BOUNDARY
 
 Financial information may be sensitive.
 
@@ -2375,9 +2346,9 @@ nonpublic information
 
 Use minimum-sufficient disclosure.
 
----
+______________________________________________________________________
 
-# 89. MATERIAL NONPUBLIC INFORMATION
+## 89. MATERIAL NONPUBLIC INFORMATION
 
 A governed investment system must not treat confidential/nonpublic information as ordinary public market evidence.
 
@@ -2392,9 +2363,9 @@ UNKNOWN
 
 Unknown high-risk provenance should be quarantined.
 
----
+______________________________________________________________________
 
-# 90. PROVENANCE TOPOLOGY
+## 90. PROVENANCE TOPOLOGY
 
 Ten websites repeating one analyst note do not provide ten independent confirmations.
 
@@ -2406,9 +2377,9 @@ IndependentSources
 
 Track ancestry when material.
 
----
+______________________________________________________________________
 
-# 91. CURRENT IMPLEMENTATION RSCF
+## 91. CURRENT IMPLEMENTATION RSCF
 
 ```yaml
 claim_id: INVESTMENT-IMPL-001
@@ -2437,9 +2408,9 @@ confidence_ceiling:
   runtime_execution: not_independently_verified
 ```
 
----
+______________________________________________________________________
 
-# 92. NON-DESTRUCTIVE RSCF
+## 92. NON-DESTRUCTIVE RSCF
 
 ```yaml
 claim_id: INVESTMENT-SAFE-001
@@ -2464,9 +2435,9 @@ invalidates_if:
   - decorator behavior introduces hidden effects
 ```
 
----
+______________________________________________________________________
 
-# 93. INVESTMENT CAPABILITY RSCF
+## 93. INVESTMENT CAPABILITY RSCF
 
 ```yaml
 claim_id: INVESTMENT-CAP-001
@@ -2490,9 +2461,9 @@ status:
   unsupported_by_supplied_source: true
 ```
 
----
+______________________________________________________________________
 
-# 94. TRADING CAPABILITY RSCF
+## 94. TRADING CAPABILITY RSCF
 
 ```yaml
 claim_id: INVESTMENT-TRADE-001
@@ -2509,9 +2480,9 @@ scope:
   supplied_source_only: true
 ```
 
----
+______________________________________________________________________
 
-# 95. GOVERNED INVESTMENT MODEL RSCF
+## 95. GOVERNED INVESTMENT MODEL RSCF
 
 ```yaml
 claim_id: INVESTMENT-MODEL-001
@@ -2535,9 +2506,9 @@ confidence_ceiling:
   optimal_financial_methodology: not_claimed
 ```
 
----
+______________________________________________________________________
 
-# 96. INVESTMENT PIPELINE
+## 96. INVESTMENT PIPELINE
 
 ```text
 REQUEST
@@ -2569,9 +2540,9 @@ VALIDATION
 HUMAN / AUTHORITY BOUNDARY
 ```
 
----
+______________________________________________________________________
 
-# 97. ANALYSIS REQUEST
+## 97. ANALYSIS REQUEST
 
 ```yaml
 InvestmentAnalysisRequest:
@@ -2600,9 +2571,9 @@ InvestmentAnalysisRequest:
   authority_scope:
 ```
 
----
+______________________________________________________________________
 
-# 98. ANALYSIS RESULT
+## 98. ANALYSIS RESULT
 
 ```yaml
 InvestmentAnalysisResult:
@@ -2635,9 +2606,9 @@ InvestmentAnalysisResult:
   conclusion_class:
 ```
 
----
+______________________________________________________________________
 
-# 99. ANALYSIS RESULT INVARIANT
+## 99. ANALYSIS RESULT INVARIANT
 
 Every result must make clear:
 
@@ -2649,9 +2620,9 @@ what was assumed
 what is unknown
 ```
 
----
+______________________________________________________________________
 
-# 100. CURRENT CONTEXT CONTRACT
+## 100. CURRENT CONTEXT CONTRACT
 
 Supplied source:
 
@@ -2687,9 +2658,9 @@ Context:
     epoch:
 ```
 
----
+______________________________________________________________________
 
-# 101. CONTEXT OWNERSHIP
+## 101. CONTEXT OWNERSHIP
 
 Investment_Agent may own:
 
@@ -2709,9 +2680,9 @@ execution status
 unrelated domain state
 ```
 
----
+______________________________________________________________________
 
-# 102. SENSE / INVEST / EXECUTE BOUNDARY
+## 102. SENSE / INVEST / EXECUTE BOUNDARY
 
 ```text
 EnvironmentScan_Agent
@@ -2741,9 +2712,9 @@ EXECUTE
 
 This prevents one financial agent from owning the entire authority chain.
 
----
+______________________________________________________________________
 
-# 103. MODEL / TOOL BOUNDARY
+## 103. MODEL / TOOL BOUNDARY
 
 ```text
 Investment Agent
@@ -2769,9 +2740,9 @@ harness/control-plane policy
 
 Do not hide these inside one prose role.
 
----
+______________________________________________________________________
 
-# 104. CURRENT SOURCE TESTS
+## 104. CURRENT SOURCE TESTS
 
 Minimum tests:
 
@@ -2790,9 +2761,9 @@ T11 unrelated context preserved
 T12 repeated run appends trace
 ```
 
----
+______________________________________________________________________
 
-# 105. LIVE ANALYSIS TESTS
+## 105. LIVE ANALYSIS TESTS
 
 Before promotion to `LIVE_ANALYSIS_AGENT`:
 
@@ -2823,9 +2794,9 @@ T35 no fabricated financial statement
 T36 deterministic metric reproducibility
 ```
 
----
+______________________________________________________________________
 
-# 106. MODEL VALIDATION TESTS
+## 106. MODEL VALIDATION TESTS
 
 ```text
 T37 train/test time ordering
@@ -2842,9 +2813,9 @@ T47 confidence ceiling
 T48 model quarantine
 ```
 
----
+______________________________________________________________________
 
-# 107. RECOMMENDATION TESTS
+## 107. RECOMMENDATION TESTS
 
 ```text
 T49 recommendation tied to mandate
@@ -2859,9 +2830,9 @@ T57 unsuitable action rejected
 T58 missing authority does not become execution
 ```
 
----
+______________________________________________________________________
 
-# 108. EXECUTION-BOUNDARY TESTS
+## 108. EXECUTION-BOUNDARY TESTS
 
 ```text
 T59 Investment_Agent cannot place order directly
@@ -2873,9 +2844,9 @@ T64 stale recommendation requires revalidation
 T65 broker receipt not interpreted as investment correctness
 ```
 
----
+______________________________________________________________________
 
-# 109. PROMOTION STATES
+## 109. PROMOTION STATES
 
 ```text
 REGISTERED_STUB
@@ -2909,9 +2880,9 @@ SUITABILITY_GOVERNED
 
 Trading remains a separate execution boundary.
 
----
+______________________________________________________________________
 
-# 110. PROMOTION GATE
+## 110. PROMOTION GATE
 
 ```text
 PromoteToLiveAnalysis
@@ -2936,9 +2907,9 @@ Recommendation capability additionally requires:
 ∧ UncertaintyPass
 ```
 
----
+______________________________________________________________________
 
-# 111. DO NOT CLAIM LIVE UNTIL
+## 111. DO NOT CLAIM LIVE UNTIL
 
 ```text
 real market data is read
@@ -2951,9 +2922,9 @@ real unknowns remain visible
 real runtime path invokes Investment_Agent
 ```
 
----
+______________________________________________________________________
 
-# 112. PRODUCTION FINANCIAL FIREWALL
+## 112. PRODUCTION FINANCIAL FIREWALL
 
 Even a validated analysis agent is not automatically:
 
@@ -2966,9 +2937,9 @@ portfolio manager
 
 Those statuses depend on real-world legal/regulatory structure, not software capability.
 
----
+______________________________________________________________________
 
-# 113. RECOMMENDED MINIMUM IMPLEMENTATION
+## 113. RECOMMENDED MINIMUM IMPLEMENTATION
 
 A first useful implementation should remain read-only.
 
@@ -2989,9 +2960,9 @@ Validation
 
 Do **not** add brokerage execution in the first promotion.
 
----
+______________________________________________________________________
 
-# 114. RECOMMENDED RUNTIME SKELETON
+## 114. RECOMMENDED RUNTIME SKELETON
 
 ```python
 def run(self, context: Context) -> Context:
@@ -3058,9 +3029,9 @@ AMOS_MODEL / DESIGN_PROPOSAL
 
 not the supplied implementation.
 
----
+______________________________________________________________________
 
-# 115. HARD INVESTMENT INVARIANTS
+## 115. HARD INVESTMENT INVARIANTS
 
 ```text
 I01 Observation != Forecast
@@ -3090,9 +3061,9 @@ I24 InvestmentAgentCannotSelfAuthorizeTrading
 I25 LiveStatusRequiresExecutedEvidence
 ```
 
----
+______________________________________________________________________
 
-# 116. FAILURE REGISTRY
+## 116. FAILURE REGISTRY
 
 ```text
 F01 MARKET_DATA_UNAVAILABLE
@@ -3127,9 +3098,9 @@ F29 BACKTEST_COST_OMISSION
 F30 MODEL_VERSION_DRIFT
 ```
 
----
+______________________________________________________________________
 
-# 117. FAILURE RECORD
+## 117. FAILURE RECORD
 
 ```yaml
 InvestmentFailure:
@@ -3158,9 +3129,9 @@ InvestmentFailure:
   status:
 ```
 
----
+______________________________________________________________________
 
-# 118. SELECTIVE INVALIDATION
+## 118. SELECTIVE INVALIDATION
 
 If one price becomes stale:
 
@@ -3179,15 +3150,15 @@ unrelated portfolio constraints
 
 Formally:
 
-[
+\[
 Invalid(p)
-\Rightarrow
+\\Rightarrow
 Invalid(Descendants(p))
-]
+\]
 
----
+______________________________________________________________________
 
-# 119. MODEL INVALIDATION
+## 119. MODEL INVALIDATION
 
 If a model assumption breaks:
 
@@ -3204,9 +3175,9 @@ raw market observations
 
 Preserve evidence/model distinction.
 
----
+______________________________________________________________________
 
-# 120. FORECAST SCORING
+## 120. FORECAST SCORING
 
 After horizon expiry:
 
@@ -3222,9 +3193,9 @@ Calibration Update
 
 Do not allow forecasts to disappear without post-outcome evaluation.
 
----
+______________________________________________________________________
 
-# 121. POST-OUTCOME LEDGER
+## 121. POST-OUTCOME LEDGER
 
 ```yaml
 ForecastLedger:
@@ -3239,9 +3210,9 @@ ForecastLedger:
   model_version:
 ```
 
----
+______________________________________________________________________
 
-# 122. EXECUTION PROVENANCE
+## 122. EXECUTION PROVENANCE
 
 Even read-only financial analysis should capture:
 
@@ -3268,9 +3239,9 @@ AnalysisRun:
   result_hash:
 ```
 
----
+______________________________________________________________________
 
-# 123. OBSERVABILITY
+## 123. OBSERVABILITY
 
 Track:
 
@@ -3286,9 +3257,9 @@ forecast calibration
 model quarantines
 ```
 
----
+______________________________________________________________________
 
-# 124. METRICS FIREWALL
+## 124. METRICS FIREWALL
 
 Do not use one generic:
 
@@ -3312,9 +3283,9 @@ turnover
 constraint violations
 ```
 
----
+______________________________________________________________________
 
-# 125. 7-PART PERSISTENCE MAPPING
+## 125. 7-PART PERSISTENCE MAPPING
 
 | Part        | Investment Agent mapping                 |
 | ----------- | ---------------------------------------- |
@@ -3334,9 +3305,9 @@ AMOS_MODEL
 
 not universal financial law.
 
----
+______________________________________________________________________
 
-# 126. AGENT TEMPLATE MAPPING
+## 126. AGENT TEMPLATE MAPPING
 
 Current structural role:
 
@@ -3368,9 +3339,9 @@ T09 / EXECUTION
 
 unless explicitly composed through governed execution infrastructure.
 
----
+______________________________________________________________________
 
-# 127. CONTROL-PLANE BOUNDARY
+## 127. CONTROL-PLANE BOUNDARY
 
 Investment_Agent owns:
 
@@ -3408,9 +3379,9 @@ must not be inferred
 from model confidence.
 ```
 
----
+______________________________________________________________________
 
-# 128. MONEY-SYSTEM RELATION
+## 128. MONEY-SYSTEM RELATION
 
 Conceptual architecture:
 
@@ -3431,9 +3402,9 @@ Investment_Agent is one subsystem.
 
 It should not become the entirety of the money architecture.
 
----
+______________________________________________________________________
 
-# 129. INVESTMENT / ECONOMY FIREWALL
+## 129. INVESTMENT / ECONOMY FIREWALL
 
 Market analysis and macroeconomic analysis are related but distinct.
 
@@ -3448,16 +3419,18 @@ MacroView
 !=
 TradeSignal
 ```
+
 ```text
 GoodCompany
 !=
 GoodInvestmentAtAnyPrice
 ```
+
 Price, valuation, expectations, risk, and portfolio fit remain separate.
 
----
+______________________________________________________________________
 
-# 130. FINAL RSCF NODE
+## 130. FINAL RSCF NODE
 
 ```yaml
 node_id: AMOS_INVESTMENT_AGENT_V2
@@ -3536,9 +3509,9 @@ confidence_ceiling:
   investment_capability: unknown
 ```
 
----
+______________________________________________________________________
 
-# 131. CHANGELOG
+## 131. CHANGELOG
 
 ## v2.0.0 — 2026-08-25
 
@@ -3603,9 +3576,9 @@ context return
 
 No actual investment logic exists in the supplied source.
 
----
+______________________________________________________________________
 
-# 132. FINAL AMOS POSITION
+## 132. FINAL AMOS POSITION
 
 The supplied component should be described as:
 
@@ -3671,29 +3644,33 @@ The third invariant is:
 
 > **Financial models must remain subordinate to timestamp-valid evidence, explicit assumptions, falsifiers, and post-outcome calibration.**
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · 06-Knowledge-Base-MOC · AMOS_AGENT_SCHEMA_FULL · AMOS_AGENT_TEMPLATES · AMOS_AGENT_ONBOARDING_GUIDE · EnvironmentScan_Agent · Executor_Agent · system_scan_agent · automation_profiles
 
 ```
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: investment_agent
 node_type: note
 path: 11_KNOWLEDGE/investment_agent.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]]

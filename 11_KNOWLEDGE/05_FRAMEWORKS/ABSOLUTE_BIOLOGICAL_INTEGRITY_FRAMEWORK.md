@@ -12,21 +12,21 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: FRAMEWORK
 path: 11_KNOWLEDGE/05_FRAMEWORKS/ABSOLUTE_BIOLOGICAL_INTEGRITY_FRAMEWORK.md
 tags:
-- amos-os
-- knowledge
-- vault
-- 05_frameworks
-- absolute_biological_integrity_framework
-- biological_firewalls
-- anti_depletion
-- organismic_safety
-- rscf
-- canon_candidate
-- canon/knowledge
-- ubi-absolute-biological-integrity
-- absolute-structural-integrity
-- unified-biological-intelligence
-- consentx
+  - amos-os
+  - knowledge
+  - vault
+  - 05_frameworks
+  - absolute_biological_integrity_framework
+  - biological_firewalls
+  - anti_depletion
+  - organismic_safety
+  - rscf
+  - canon_candidate
+  - canon/knowledge
+  - ubi-absolute-biological-integrity
+  - absolute-structural-integrity
+  - unified-biological-intelligence
+  - consentx
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -41,20 +41,20 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - UBI_ABSOLUTE_BIOLOGICAL_INTEGRITY
-  - ABSOLUTE_STRUCTURAL_INTEGRITY
-  - AMOS_CORPUS
+    - UBI_ABSOLUTE_BIOLOGICAL_INTEGRITY
+    - ABSOLUTE_STRUCTURAL_INTEGRITY
+    - AMOS_CORPUS
   scope:
-  - KNOWLEDGE_FRAMEWORKS
-  - BIOLOGICAL_INTEGRITY
-  - SOURCE_DEFINED_MODEL
+    - KNOWLEDGE_FRAMEWORKS
+    - BIOLOGICAL_INTEGRITY
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   biological_integrity:
     artifact:
-    - - UBI_ABSOLUTE_BIOLOGICAL_INTEGRITY
+      -   - UBI_ABSOLUTE_BIOLOGICAL_INTEGRITY
   structural_integrity:
     artifact:
-    - - ABSOLUTE_STRUCTURAL_INTEGRITY
+      -   - ABSOLUTE_STRUCTURAL_INTEGRITY
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
@@ -68,26 +68,26 @@ epistemic_boundary:
 
 It establishes hard computational firewalls and safety invariants preventing cognitive architectures, AI agents, or operating systems from overriding, exploiting, or depleting the biological substrate ($e = i^2$) of living participants.
 
----
+______________________________________________________________________
 
-# 1. Biological Firewall Invariants
+## 1. Biological Firewall Invariants
 
 1. **Substrate Protection Invariant:** No software optimization or AI workflow may mandate actions that drive any biological domain ($x_k$) below critical survival thresholds ($\tau_{\text{crit}} = 0.2$).
-2. **Anti-Exploitation Intercept:** AI systems are prohibited from utilizing intermittent variable rewards, fear-inducing linguistic loops, or sleep deprivation to force synthetic engagement.
-3. **Biological Veto Authority:** Autonomic nervous system distress signals (high sympathetic tone + low HRV) act as a hard interrupt overriding all external task queues.
+1. **Anti-Exploitation Intercept:** AI systems are prohibited from utilizing intermittent variable rewards, fear-inducing linguistic loops, or sleep deprivation to force synthetic engagement.
+1. **Biological Veto Authority:** Autonomic nervous system distress signals (high sympathetic tone + low HRV) act as a hard interrupt overriding all external task queues.
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Biological Master:** [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]]
 - **Integrity Master:** [[11_KNOWLEDGE/05_FRAMEWORKS/UBI_ABSOLUTE_BIOLOGICAL_INTEGRITY|UBI_ABSOLUTE_BIOLOGICAL_INTEGRITY]]
 - **Structural Integrity:** [[11_KNOWLEDGE/05_FRAMEWORKS/ABSOLUTE_STRUCTURAL_INTEGRITY|ABSOLUTE_STRUCTURAL_INTEGRITY]]
 - **Consent Engine:** [[11_KNOWLEDGE/05_FRAMEWORKS/CONSENTX|CONSENTX]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -105,10 +105,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]] · [[11_KNOWLEDGE/05_FRAMEWORKS/UBI_ABSOLUTE_BIOLOGICAL_INTEGRITY|UBI_ABSOLUTE_BIOLOGICAL_INTEGRITY]] · [[11_KNOWLEDGE/05_FRAMEWORKS/ABSOLUTE_STRUCTURAL_INTEGRITY|ABSOLUTE_STRUCTURAL_INTEGRITY]]
 
----
-**MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]
+______________________________________________________________________
 
+**MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]

@@ -16,38 +16,38 @@ authority_scope: canonical-supersession-lineage-and-history
 created: 2026-08-25
 updated: 2026-08-25
 tags:
-- amos-os
-- canon
-- universe
-- canon-group/meta
-- canon/framework
-- canon/registry
-- canon/supersession
-- canon/provenance
-- canon/lineage
-- rscf/claim
-- rscf/provenance
-- rscf/state/source-claim
-- topic/supersession
-- topic/version-lineage
-- topic/canon-evolution
-- topic/provenance
-- topic/invalidation
-- topic/rollback
-- topic/governed-evolution
-- readme
-- architecture
-- roadmap
-- neural-network
-- amos-core-laws
-- law-hierarchy
-- canon-provenance
-- source-lineage
-- canonical-glossary
-- deprecated-terms
-- authoritative-state
+  - amos-os
+  - canon
+  - universe
+  - canon-group/meta
+  - canon/framework
+  - canon/registry
+  - canon/supersession
+  - canon/provenance
+  - canon/lineage
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - topic/supersession
+  - topic/version-lineage
+  - topic/canon-evolution
+  - topic/provenance
+  - topic/invalidation
+  - topic/rollback
+  - topic/governed-evolution
+  - readme
+  - architecture
+  - roadmap
+  - neural-network
+  - amos-core-laws
+  - law-hierarchy
+  - canon-provenance
+  - source-lineage
+  - canonical-glossary
+  - deprecated-terms
+  - authoritative-state
 aliases:
-- AMOS Supersession Log - AMOS OS Supersession Log - Canon Supersession Log
+  - AMOS Supersession Log - AMOS OS Supersession Log - Canon Supersession Log
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -56,13 +56,17 @@ rscf:
 ---
 
 # AMOS OS Supersession Log
+
 > **Origin architect / steward:** Trang Phan
 > **AMOS Core target:** `v4.4`
 > **Conclusion class:** `AMOS_MODEL`
 > **Status:** `SOURCE_CLAIM`
+
 ## 1. Purpose
+
 `SUPERSESSION_LOG.md` defines the canonical AMOS OS contract for recording governed replacement of one canonical artifact, rule, definition, model, protocol, or other versioned semantic object by another.
 The log preserves:
+
 ```text
 WHAT CHANGED
 WHAT WAS REPLACED
@@ -75,16 +79,10 @@ WHAT BECAME INVALID
 WHAT DEPENDS ON THE CHANGE
 HOW TO RECOVER THE PRIOR STATE
 ```
-Supersession is an explicit lineage operation.
-It is not deletion.
-rscf:
-  state: DERIVED
-  claim_class: CONDITIONAL
-  provenance: AMOS_corpus
-  scope: AMOS_general
----
 
-# SUPERSESSION LOG
+## Supersession is an explicit lineage operation. It is not deletion. rscf: state: DERIVED claim_class: CONDITIONAL provenance: AMOS_corpus scope: AMOS_general
+
+## SUPERSESSION LOG
 
 ## 2. Core Law
 
@@ -104,7 +102,7 @@ HISTORICAL ERASURE
 
 A superseded artifact remains part of AMOS provenance even when it is no longer authoritative for current operation.
 
----
+______________________________________________________________________
 
 ## 3. Canonical Evolution Law
 
@@ -127,7 +125,7 @@ OLD
 
 Existence of a newer artifact does not establish supersession.
 
----
+______________________________________________________________________
 
 ## 4. Supersession Boundary
 
@@ -169,7 +167,7 @@ PROVENANCE_LEDGER
 
 Each serves a different function.
 
----
+______________________________________________________________________
 
 ## 5. Supersession Versus Revision
 
@@ -187,7 +185,7 @@ A typo correction may be a revision without semantic supersession.
 
 A replacement of a governing law is a supersession even if filenames remain unchanged.
 
----
+______________________________________________________________________
 
 ## 6. Supersession Versus Deprecation
 
@@ -213,7 +211,7 @@ SUPERSEDED
 
 An artifact can be deprecated without a successor.
 
----
+______________________________________________________________________
 
 ## 7. Supersession Versus Invalidation
 
@@ -248,7 +246,7 @@ not:
 RULE-A WAS ALWAYS WRONG
 ```
 
----
+______________________________________________________________________
 
 ## 8. Supersession Versus Conflict
 
@@ -266,7 +264,7 @@ A conflict can remain `COMPETING`.
 
 Supersession requires a governed transition of authority or canonical status.
 
----
+______________________________________________________________________
 
 ## 9. Supersession Versus Archive
 
@@ -284,7 +282,7 @@ An archived artifact may still be authoritative for a historical regime.
 
 A superseded artifact may remain outside the archive temporarily.
 
----
+______________________________________________________________________
 
 ## 10. Supersession Versus Filename Version
 
@@ -318,7 +316,7 @@ AMOS_CORE_v4.3
 
 Lineage and governance must establish the relationship.
 
----
+______________________________________________________________________
 
 ## 11. Identity Firewall
 
@@ -339,7 +337,7 @@ A rename must not silently create a new semantic identity.
 
 A copy must not silently create a legitimate successor.
 
----
+______________________________________________________________________
 
 ## 12. Supersession Object Types
 
@@ -370,7 +368,7 @@ DOMAIN ADAPTER
 
 Each event must declare its type.
 
----
+______________________________________________________________________
 
 ## 13. Minimum Supersession Relation
 
@@ -398,7 +396,7 @@ reason
 
 must be recoverable.
 
----
+______________________________________________________________________
 
 ## 14. Canonical Supersession Record
 
@@ -463,7 +461,7 @@ supersession_event:
     unresolved_gaps: []
 ```
 
----
+______________________________________________________________________
 
 ## 15. Event Identity
 
@@ -483,7 +481,7 @@ SUP::AMOS::CORE-0001
 
 This is an architectural naming model, not evidence that such identifiers are currently implemented.
 
----
+______________________________________________________________________
 
 ## 16. Supersession Relation Types
 
@@ -508,7 +506,7 @@ EMERGENCY_SUPERSESSION
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
 ## 17. Full Supersession
 
@@ -530,7 +528,7 @@ for the portion claimed as fully superseded.
 
 Otherwise classify as partial or scoped.
 
----
+______________________________________________________________________
 
 ## 18. Partial Supersession
 
@@ -552,7 +550,7 @@ B PARTIALLY_SUPERSEDES A
 
 Do not mark A globally obsolete.
 
----
+______________________________________________________________________
 
 ## 19. Scoped Supersession
 
@@ -568,7 +566,7 @@ S1 → A remains valid
 S2 → B authoritative
 ```
 
----
+______________________________________________________________________
 
 ## 20. Regime Supersession
 
@@ -589,7 +587,7 @@ REGIME SUPERSESSION
 UNIVERSAL INVALIDATION
 ```
 
----
+______________________________________________________________________
 
 ## 21. Temporal Supersession
 
@@ -602,7 +600,7 @@ The log must preserve the temporal boundary.
 
 Queries about historical state must be able to recover A.
 
----
+______________________________________________________________________
 
 ## 22. Merge Supersession
 
@@ -629,7 +627,7 @@ UNRESOLVED
 
 semantic regions where material.
 
----
+______________________________________________________________________
 
 ## 23. Split Supersession
 
@@ -654,7 +652,7 @@ D = provenance contract
 
 The log must preserve the partition map.
 
----
+______________________________________________________________________
 
 ## 24. Rollback Supersession
 
@@ -673,7 +671,7 @@ A
 
 `A'` may semantically resemble A but should preserve the intervening history.
 
----
+______________________________________________________________________
 
 ## 25. Supersession State Machine
 
@@ -701,7 +699,7 @@ Alternative terminal state:
 REJECTED
 ```
 
----
+______________________________________________________________________
 
 ## 26. Proposal Is Not Commit
 
@@ -723,7 +721,7 @@ Agents, models, tools, researchers, or runtime components may propose a successo
 
 Only the appropriate authority path can establish canonical supersession.
 
----
+______________________________________________________________________
 
 ## 27. Validation Is Not Authority
 
@@ -737,7 +735,7 @@ An artifact may be technically superior and still lack authority to supersede ca
 
 Technical validity and governance authority remain distinct.
 
----
+______________________________________________________________________
 
 ## 28. Authority Is Not Empirical Truth
 
@@ -753,7 +751,7 @@ A governance decision may establish what rule controls operation.
 
 It does not retroactively prove every empirical premise behind that decision.
 
----
+______________________________________________________________________
 
 ## 29. Supersession Preconditions
 
@@ -775,7 +773,7 @@ ROLLBACK PATH
 
 Material unknowns remain explicit.
 
----
+______________________________________________________________________
 
 ## 30. Lineage Requirement
 
@@ -795,7 +793,7 @@ SUCCESSOR
 → PREDECESSOR
 ```
 
----
+______________________________________________________________________
 
 ## 31. Persistent Provenance
 
@@ -821,7 +819,7 @@ EARLIER PREDECESSOR
 
 until the relevant lineage root or an explicit `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
 ## 32. No Orphan Successor
 
@@ -837,7 +835,7 @@ LINEAGE GAP
 
 Do not silently infer missing ancestry.
 
----
+______________________________________________________________________
 
 ## 33. No Orphan Predecessor
 
@@ -853,7 +851,7 @@ or explicitly record:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
 ## 34. No Circular Supersession
 
@@ -869,7 +867,7 @@ unless a highly explicit semantic model explains why these are different scoped 
 
 Canonical supersession lineage should otherwise remain acyclic.
 
----
+______________________________________________________________________
 
 ## 35. No Silent Branch Collapse
 
@@ -891,7 +889,7 @@ COMPETING SUCCESSION
 
 until authority or discriminating evidence resolves the branch.
 
----
+______________________________________________________________________
 
 ## 36. Competing Successors
 
@@ -912,7 +910,7 @@ C = PROPOSED
 
 Neither is canonical merely because it is newer.
 
----
+______________________________________________________________________
 
 ## 37. Canonical Branch Selection
 
@@ -939,7 +937,7 @@ COMPETING
 
 depending on evidence and governance.
 
----
+______________________________________________________________________
 
 ## 38. Provenance Topology
 
@@ -958,7 +956,7 @@ These are correlated descendants.
 
 Multiple derivative documents do not provide independent confirmation of the successor's correctness.
 
----
+______________________________________________________________________
 
 ## 39. Independence Rule
 
@@ -970,7 +968,7 @@ MULTIPLE INDEPENDENT EVIDENCE PATHS
 
 Independence must be demonstrated where it materially affects promotion.
 
----
+______________________________________________________________________
 
 ## 40. Sybil Hardening
 
@@ -984,7 +982,7 @@ ONE ROOT CLAIM
 100 INDEPENDENT CONFIRMATIONS
 ```
 
----
+______________________________________________________________________
 
 ## 41. Conflict Integration
 
@@ -1000,7 +998,7 @@ SUPERSESSION_LOG
 
 Not every supersession requires a prior conflict, but material conflicts motivating a transition should remain traceable.
 
----
+______________________________________________________________________
 
 ## 42. Supersession Reason Classes
 
@@ -1025,7 +1023,7 @@ ROLLBACK
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
 ## 43. Optimization Firewall
 
@@ -1056,7 +1054,7 @@ governance integrity
 
 Otherwise reject or roll back.
 
----
+______________________________________________________________________
 
 ## 44. Anti-Regression Gate
 
@@ -1076,7 +1074,7 @@ RECOVERY
 
 No optimization is accepted merely because one metric improves.
 
----
+______________________________________________________________________
 
 ## 45. Dependency Closure
 
@@ -1101,7 +1099,7 @@ Z becomes invalid
 
 Do not globally invalidate unrelated artifacts.
 
----
+______________________________________________________________________
 
 ## 46. Selective Invalidation
 
@@ -1119,7 +1117,7 @@ FAILED PREMISE
 → INVALIDATE EVERYTHING
 ```
 
----
+______________________________________________________________________
 
 ## 47. Dependency Migration
 
@@ -1137,7 +1135,7 @@ MODEL RECALIBRATION
 
 Each should remain independently auditable.
 
----
+______________________________________________________________________
 
 ## 48. RSCF Invalidation
 
@@ -1153,7 +1151,7 @@ RSCF REVALIDATION
 
 The RSCF is not automatically invalid if the successor preserves the relevant premise.
 
----
+______________________________________________________________________
 
 ## 49. Proof Capsule Revalidation
 
@@ -1170,7 +1168,7 @@ NO MATERIAL CONFLICT
 
 Supersession of a load-bearing dependency triggers revalidation.
 
----
+______________________________________________________________________
 
 ## 50. Scope Inheritance
 
@@ -1184,7 +1182,7 @@ PREDECESSOR_SCOPE
 SUCCESSOR_SCOPE BY DEFAULT
 ```
 
----
+______________________________________________________________________
 
 ## 51. Regime Inheritance
 
@@ -1198,7 +1196,7 @@ SUCCESSOR_REGIME BY DEFAULT
 
 Regime compatibility must be established.
 
----
+______________________________________________________________________
 
 ## 52. Authority Inheritance
 
@@ -1210,7 +1208,7 @@ DERIVED FROM AUTHORITY
 HAS AUTHORITY
 ```
 
----
+______________________________________________________________________
 
 ## 53. Provenance Inheritance
 
@@ -1234,7 +1232,7 @@ not:
 P(B) REPLACES P(A)
 ```
 
----
+______________________________________________________________________
 
 ## 54. Semantic Preservation
 
@@ -1252,7 +1250,7 @@ UNKNOWN/GAP
 
 This prevents a broad supersession statement from hiding substantive change.
 
----
+______________________________________________________________________
 
 ## 55. Canonical Delta
 
@@ -1269,7 +1267,7 @@ delta:
   unresolved: []
 ```
 
----
+______________________________________________________________________
 
 ## 56. Causal Lineage
 
@@ -1286,7 +1284,7 @@ OBSERVATION
 
 Do not rewrite history as though the successor existed independently of the triggering evidence.
 
----
+______________________________________________________________________
 
 ## 57. Epistemic Classification
 
@@ -1303,7 +1301,7 @@ UNKNOWN/GAP
 
 Canonical promotion does not automatically convert all content to `VERIFIED`.
 
----
+______________________________________________________________________
 
 ## 58. Weakest Premise Ceiling
 
@@ -1315,7 +1313,7 @@ SUPERSESSION CONFIDENCE
 WEAKEST LOAD-BEARING PREMISE
 ```
 
----
+______________________________________________________________________
 
 ## 59. Causal Firewall
 
@@ -1344,7 +1342,7 @@ causal effect
 
 when causal language matters.
 
----
+______________________________________________________________________
 
 ## 60. Historical Query Integrity
 
@@ -1365,7 +1363,7 @@ supersession edges
 historical authority state
 ```
 
----
+______________________________________________________________________
 
 ## 61. Current-State Query
 
@@ -1385,7 +1383,7 @@ authority domain
 
 not simply the newest file timestamp.
 
----
+______________________________________________________________________
 
 ## 62. Canonical Head
 
@@ -1403,7 +1401,7 @@ C = CURRENT AUTHORITATIVE HEAD
 
 only within the declared validity envelope.
 
----
+______________________________________________________________________
 
 ## 63. Multiple Heads
 
@@ -1429,7 +1427,7 @@ A_VN
 
 may all be current within different country overlays.
 
----
+______________________________________________________________________
 
 ## 64. Ambiguous Head
 
@@ -1453,7 +1451,7 @@ more copies
 
 without authority evidence.
 
----
+______________________________________________________________________
 
 ## 65. Supersession Atomicity
 
@@ -1473,7 +1471,7 @@ unless an explicit transitional state is defined.
 
 This is a contract requirement, not a claim about current distributed implementation.
 
----
+______________________________________________________________________
 
 ## 66. Multi-Artifact Supersession
 
@@ -1492,7 +1490,7 @@ A partial commit may produce an invalid mixed state.
 
 Such transitions require an atomic or otherwise explicitly coordinated semantic migration contract.
 
----
+______________________________________________________________________
 
 ## 67. Causal Epoch Boundary
 
@@ -1508,7 +1506,7 @@ Artifacts valid only before the boundary must not silently govern after it.
 
 This is an architectural reasoning concept unless implementation evidence exists.
 
----
+______________________________________________________________________
 
 ## 68. Recovery
 
@@ -1522,7 +1520,7 @@ DEPENDENCY RECOVERY
 PROVENANCE PRESERVATION
 ```
 
----
+______________________________________________________________________
 
 ## 69. Rollback Law
 
@@ -1534,7 +1532,7 @@ ERASE FAILED SUCCESSOR
 
 The failed transition remains part of lineage.
 
----
+______________________________________________________________________
 
 ## 70. Nearest Valid State
 
@@ -1546,7 +1544,7 @@ NEAREST VALID STATE
 
 rather than recomputing or reverting unrelated history.
 
----
+______________________________________________________________________
 
 ## 71. Failed Supersession Path
 
@@ -1568,7 +1566,7 @@ environment
 policy
 ```
 
----
+______________________________________________________________________
 
 ## 72. Emergency Supersession
 
@@ -1588,7 +1586,7 @@ later review requirement
 
 Emergency does not mean provenance-free.
 
----
+______________________________________________________________________
 
 ## 73. Security Supersession
 
@@ -1606,7 +1604,7 @@ SECRET PROTECTION
 
 must be jointly maintained.
 
----
+______________________________________________________________________
 
 ## 74. Supersession Query Model
 
@@ -1646,7 +1644,7 @@ GET EVENTS AFFECTING INVARIANT
 GET EVENTS WITH UNKNOWN PROVENANCE
 ```
 
----
+______________________________________________________________________
 
 ## 75. Logical Indexes
 
@@ -1670,7 +1668,7 @@ BY_LINEAGE_ROOT
 
 These are architectural requirements, not implementation claims.
 
----
+______________________________________________________________________
 
 ## 76. Supersession Invariants
 
@@ -1751,7 +1749,7 @@ SUP-025
 OPTIMIZATION MUST NOT WEAKEN INTEGRITY
 ```
 
----
+______________________________________________________________________
 
 ## 77. Integrity Gate
 
@@ -1780,7 +1778,7 @@ Before committing canonical supersession:
 [ ] historical lineage preserved
 ```
 
----
+______________________________________________________________________
 
 ## 78. High-Stakes Gate
 
@@ -1802,7 +1800,7 @@ INSTITUTIONAL GOVERNANCE
 LARGE DOWNSTREAM DEPENDENCY
 ```
 
----
+______________________________________________________________________
 
 ## 79. Supersession Log Entry Template
 
@@ -1874,7 +1872,7 @@ supersession:
   gaps: []
 ```
 
----
+______________________________________________________________________
 
 ## 80. Empty Registry State
 
@@ -1898,7 +1896,7 @@ not:
 NO SUPERSESSIONS HAVE EVER OCCURRED
 ```
 
----
+______________________________________________________________________
 
 ## 81. Current Historical Gap
 
@@ -1914,7 +1912,7 @@ until bound to evidence.
 
 Do not reconstruct missing history from filenames alone.
 
----
+______________________________________________________________________
 
 ## 82. AMOS Core Evolution Spine
 
@@ -1957,7 +1955,7 @@ COMPLETE EVENT-BY-EVENT SUPERSESSION LEDGER
 
 Missing historical transition evidence must remain `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
 ## 83. Current Canonical Gaps
 
@@ -1981,7 +1979,7 @@ complete test evidence for every transition
 
 These require source binding before promotion.
 
----
+______________________________________________________________________
 
 ## 84. Promotion Rule
 
@@ -2007,7 +2005,7 @@ and, where authority is claimed:
 AUTHORITY
 ```
 
----
+______________________________________________________________________
 
 ## 85. RSCF Node
 
@@ -2036,7 +2034,7 @@ RSCF-RELATIONS:
   - PRESERVES_HISTORY_WITH: README
 ```
 
----
+______________________________________________________________________
 
 ## 86. Canonical Summary
 
@@ -2185,12 +2183,14 @@ README
 ```text
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 **MOC:** [[01_CANON/08_SUPERSESSION/08_SUPERSESSION_MOC|08_SUPERSESSION_MOC]]

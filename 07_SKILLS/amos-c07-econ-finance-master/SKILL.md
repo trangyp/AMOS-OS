@@ -4,26 +4,23 @@ title: SKILL — Amos C07 Econ Finance Master
 type: skill
 source: 07_SKILLS/amos-c07-econ-finance-master
 name: amos-c07-econ-finance-master
-description: 'AMOS C07 Econ & Finance — unit economics, forex, investment, wealth,
-  business analysis, market dynamics, trade. BizFin Engine: unit economics first,
-  then scale. Use when financial analysis, economic... Do not use for generic accounting,
-  tax filing, or tasks outside the BizFin unit-economics framework.'
+description: 'AMOS C07 Econ & Finance — unit economics, forex, investment, wealth, business analysis, market dynamics, trade. BizFin Engine: unit economics first, then scale. Use when financial analysis, economic... Do not use for generic accounting, tax filing, or tasks outside the BizFin unit-economics framework.'
 parent_skill: none
 domain: c07
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CANON
 tags:
-- type/skill
-- type/skill
-- domain/econ-finance
-- epistemic/source_claim
-- hml/m
-- epistemic/source_canon
-- amos-os
-- agent-template
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/econ-finance
+  - epistemic/source_claim
+  - hml/m
+  - epistemic/source_canon
+  - amos-os
+  - agent-template
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -33,23 +30,23 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: M
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
-- L7_authority
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
+  - L7_authority
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L7
-- L16
-- L17
-- L18
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L7
+  - L16
+  - L17
+  - L18
 license: MIT
 steward: Trang Phan
 ---
@@ -59,17 +56,25 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: c07. Parent: none. Epistemic class: SOURCE_CANON. H/M/L: M.
+
 ## When to Use
 
 - When assessing unit economics, cash flow consistency, or business model viability
+
 - When analyzing forex markets, investment risk, or wealth management decisions
+
 - When performing scenario and sensitivity analysis on financial plans
+
 - When evaluating capital structure, accounting flows, or balance sheet consistency
+
 - When mapping risk-return profiles and tail risk using conformal prediction
+
 - When a child skill routes an econ, finance, or forex task to this master
 
 - When managing lifecycle operations across classify, validate, trace, assess, and detect
+
 - When detecting drift in evidence chains, provenance freshness, or confidence calibration
+
 - When validating outputs against domain constraints and epistemic class
 
 ## Capabilities
@@ -89,16 +94,16 @@ Origin architect: **Trang Phan**. Domain: c07. Parent: none. Epistemic class: SO
 ## Operations
 
 1. **c07_econ_finance.analyze_market**: Analyze AMOS C07 Econ & Finance market dynamics: price formation, regime shifts, fractal economics, and chaos diagnostics.
-2. **c07_econ_finance.validate_econ**: Validate AMOS C07 Econ & Finance economic claims for scope regime, empirical calibration vs theoretical model, and overclaim.
-3. **c07_econ_finance.compute_risk**: Compute AMOS C07 Econ & Finance financial risk: tail risk, conformal prediction, and investment decision metrics.
-4. **c07_econ_finance.trace_econ_provenance**: Trace AMOS C07 Econ & Finance economic findings to market data, fractal analysis, and vault sources.
-5. **c07_econ_finance.assess_econ_claim**: Assess AMOS C07 Econ & Finance economic claims for empirical support, model validity, scope, and falsifier.
-6. **c07_econ_finance.manage_econ_lifecycle**: Manage AMOS C07 Econ & Finance economic lifecycle: analyze, model, validate, calibrate, and finalize.
-7. **c07_econ_finance.detect_econ_drift**: Detect economic drift: regime shift, model decay, market change, and calibration loss.
-8. **c07_econ_finance.escalate_econ_gaps**: Escalate AMOS C07 Econ & Finance economic gaps: flag model invalidity, require recalibration, trigger repair.
-9. **c07_econ_finance.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-10. **c07_econ_finance.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
-11. **c07_econ_finance.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+1. **c07_econ_finance.validate_econ**: Validate AMOS C07 Econ & Finance economic claims for scope regime, empirical calibration vs theoretical model, and overclaim.
+1. **c07_econ_finance.compute_risk**: Compute AMOS C07 Econ & Finance financial risk: tail risk, conformal prediction, and investment decision metrics.
+1. **c07_econ_finance.trace_econ_provenance**: Trace AMOS C07 Econ & Finance economic findings to market data, fractal analysis, and vault sources.
+1. **c07_econ_finance.assess_econ_claim**: Assess AMOS C07 Econ & Finance economic claims for empirical support, model validity, scope, and falsifier.
+1. **c07_econ_finance.manage_econ_lifecycle**: Manage AMOS C07 Econ & Finance economic lifecycle: analyze, model, validate, calibrate, and finalize.
+1. **c07_econ_finance.detect_econ_drift**: Detect economic drift: regime shift, model decay, market change, and calibration loss.
+1. **c07_econ_finance.escalate_econ_gaps**: Escalate AMOS C07 Econ & Finance economic gaps: flag model invalidity, require recalibration, trigger repair.
+1. **c07_econ_finance.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+1. **c07_econ_finance.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+1. **c07_econ_finance.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## Vault-Sourced Domain Knowledge
 
@@ -139,25 +144,29 @@ The domain is organized into source families:
 ### Epistemic Boundary
 
 Hard boundary (non-negotiable): every output is ana
+
 - AGENT_TEMPLATE
 
----
+______________________________________________________________________
+
 **MOC:** [[07_SKILLS/amos-c07-econ-finance-master/amos-c07-econ-finance-master_MOC|amos-c07-econ-finance-master_MOC]]
 
 ## Examples
 
 - **Scenario**: When assessing unit economics, cash flow consistency, or business model viability
+
   - **Input**: A query matching this skill's domain (c07)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When analyzing forex markets, investment risk, or wealth management decisions
+
   - **Input**: A query matching this skill's domain (c07)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When performing scenario and sensitivity analysis on financial plans
+
   - **Input**: A query matching this skill's domain (c07)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Validation Gates
 
@@ -174,7 +183,6 @@ Hard boundary (non-negotiable): every output is ana
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `none` — routes to this skill when c07 specialization is needed
@@ -182,7 +190,6 @@ Hard boundary (non-negotiable): every output is ana
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -201,7 +208,6 @@ Hard boundary (non-negotiable): every output is ana
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -209,7 +215,6 @@ Hard boundary (non-negotiable): every output is ana
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -254,11 +259,12 @@ Hard boundary (non-negotiable): every output is ana
 - `references/vn_vscci_investment_proposal.md` — loaded on demand
 - `references/wealth_game_hack_5000.md` — loaded on demand
 - `references/wealth_game_hack_50000.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `none` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `amos-c07-econ-finance-master-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -266,12 +272,14 @@ Hard boundary (non-negotiable): every output is ana
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-c07-econ-finance-master
 node_type: skill
 path: 07_SKILLS/amos-c07-econ-finance-master/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

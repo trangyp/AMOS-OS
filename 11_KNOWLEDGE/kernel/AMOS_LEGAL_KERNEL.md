@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: AMOS LEGAL KERNEL V0 ORG RISK POLICY7 4
 tags:
-- canon-group/tech-ai
-- canon/framework
-- rscf/claim
-- rscf/provenance
-- rscf/state/source-claim
-- topic/amos-legal-kernel-v0
-- kernel
+  - canon-group/tech-ai
+  - canon/framework
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - topic/amos-legal-kernel-v0
+  - kernel
 type: data
 source: 11_KNOWLEDGE/kernel
 rscf:
@@ -459,6 +462,6 @@ rscf:
 **Related:** [[11_KNOWLEDGE/kernel/AMOS_CLINICAL_RESEARCH_KERNEL|AMOS_CLINICAL_RESEARCH_KERNEL]] · [[11_KNOWLEDGE/kernel/DOCUMENTATION_KERNEL_V0|DOCUMENTATION_KERNEL_V0]] · [[11_KNOWLEDGE/kernel/AMOS_ETL_PIPELINE_KERNEL_V0_TECH|AMOS_ETL_PIPELINE_KERNEL_V0_TECH]] · [[11_KNOWLEDGE/kernel/AMOS_META_EPISTEMOLOGY_KERNEL|AMOS_META_EPISTEMOLOGY_KERNEL]]
 ```
 
----
-**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]
+______________________________________________________________________
 
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]

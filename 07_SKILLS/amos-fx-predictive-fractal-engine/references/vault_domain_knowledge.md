@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Vault Domain Knowledge — Amos Fx Predictive Fractal Engine
 type: reference
 source: 07_SKILLS/amos-fx-predictive-fractal-engine/references
 tags:
-- reference
-- amos-fx-predictive-fractal-engine
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-fx-predictive-fractal-engine
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -27,10 +30,9 @@ rscf:
 
 > Path: `fractal/AMOS Math Core — Fractal Mathematics & Cognitive Architecture Runtime.md` | Size: 23148 chars | Match score: 13
 
-# AMOS Math Core — Fractal Mathematics & Cognitive Architecture Runtime
+## AMOS Math Core — Fractal Mathematics & Cognitive Architecture Runtime
 
 ## Overview (2)
-
 
 The module combines established mathematical/statistical methods with AMOS architecture adapters while preserving an important boundary:
 
@@ -38,39 +40,37 @@ The module combines established mathematical/statistical methods with AMOS archi
 
 The runtime includes:
 
+______________________________________________________________________
 
----
-
-# 1. Mathematical Runtime Model
+## 1. Mathematical Runtime Model
 
 The central decomposition is:
 
-[
-x_{t+1}=F(x_t)+\varepsilon_t
-]
+\[
+x\_{t+1}=F(x_t)+\\varepsilon_t
+\]
 
 where:
 
-
 Depending on the dataset, additional estimated quantities may include:
 
-[
-D = \text{fractal dimension}
-]
+\[
+D = \\text{fractal dimension}
+\]
 
-[
-H = \text{Hurst exponent}
-]
+\[
+H = \\text{Hurst exponent}
+\]
 
-[
-\alpha = \text{tail or scaling exponent}
-]
+\[
+\\alpha = \\text{tail or scaling exponent}
+\]
 
 These quantities are **estimated from data**. They are not universal constants of the AMOS architecture.
 
----
+______________________________________________________________________
 
-# 2. Epistemic Boundary
+## 2. Epistemic Boundary
 
 AMOS Math Core separates four different kinds of mathematical use.
 
@@ -78,19 +78,18 @@ AMOS Math Core separates four different kinds of mathematical use.
 
 Examples include:
 
-
 ### Numerical Estimation
 
 Finite datasets require numerical approximations of theoretical limits.
 
 For example,
 
-[
+\[
 D_B =
-\lim_{\epsilon\rightarrow0}
-\frac{\log N(\epsilon)}
-{\log(1/\epsilon)}
-]
+\\lim\_{\\epsilon\\rightarrow0}
+\\frac{\\log N(\\epsilon)}
+{\\log(1/\\epsilon)}
+\]
 
 cannot normally be evaluated as a literal limit from finite observations.
 
@@ -106,9 +105,9 @@ The mathematical object and its software approximation should therefore remain d
 
 When mathematical quantities are mapped onto cognitive architecture, architecture entropy, recursive H/M/L organization, or other AMOS structures, that mapping remains an **AMOS MODEL** unless independently validated for the target domain.
 
----
+______________________________________________________________________
 
-# 3. Fractal Parameter State
+## 3. Fractal Parameter State
 
 ```python
 @dataclass
@@ -141,9 +140,9 @@ Observed Data
 
 Each value should retain the dataset, estimator, scale range, preprocessing assumptions, and numerical conditions under which it was obtained.
 
----
+______________________________________________________________________
 
-# 4. Fractal Dimension Estimation
+## 4. Fractal Dimension Estimation
 
 ## Box-Counting Dimension
 
@@ -153,35 +152,34 @@ box_counting_dimension(...)
 
 estimates the Minkowski/box-counting dimension using:
 
-[
-N(\epsilon)\sim\epsilon^{-D}
-]
+\[
+N(\\epsilon)\\sim\\epsilon^{-D}
+\]
 
 and therefore:
 
-[
-D \approx
-\frac{d\log N(\epsilon)}
-{d\log(1/\epsilon)}
-]
+\[
+D \\approx
+\\frac{d\\log N(\\epsilon)}
+{d\\log(1/\\epsilon)}
+\]
 
 The implementation:
 
 1. normalizes the observations;
-2. constructs logarithmically spaced scales;
-3. counts occupied boxes;
-4
+1. constructs logarithmically spaced scales;
+1. counts occupied boxes;
+   4
 
----
+______________________________________________________________________
 
 ### Source 2: AMOS OMEGA FX STRUCTURAL ENGINE — COMPLETE SYSTEM
 
 > Path: `economy/README_FX_STRUCTURAL_ENGINE.md` | Size: 14238 chars | Match score: 10
 
-# AMOS OMEGA FX STRUCTURAL ENGINE — COMPLETE SYSTEM
+## AMOS OMEGA FX STRUCTURAL ENGINE — COMPLETE SYSTEM
 
 ## SYSTEM OVERVIEW
-
 
 This is NOT a signal bot. This is a regime-aware structural operating system that detects macro regimes, computes phase states, maps liquidity loops, calculates fragility, simulates shocks, and makes structural positioning decisions based on invariants and feedback loops.
 
@@ -190,6 +188,7 @@ The engine reasons in: **invariants, feedback loops, tensors, regimes, risk enve
 ## COMPLETE IMPLEMENTATION STATUS
 
 ### Core Components (100% Complete)
+
 - **FX Structural Engine** (`fx_structural_engine.py`)
 - State vectors, invariants, phase space detection
 - **ActionGate System**
@@ -201,6 +200,7 @@ The engine reasons in: **invariants, feedback loops, tensors, regimes, risk enve
 - **Self-Evolution Loop** - Controlled learning with drift detection
 
 ### Visualization System (100% Complete)
+
 - **Graph Visualization** (`fx_graph_visualization.py`)
 - Multi-layer currency coupling + loop graphs
 - **Phase Space Plot**
@@ -212,15 +212,17 @@ The engine reasons in: **invariants, feedback loops, tensors, regimes, risk enve
 - **Real-time Updates** - WebSocket streaming + D3.js v7
 
 ### Automation System (100% Complete)
+
 - **N8n Integration** (`fx_n8n_integration.py`)
 - 5 automated pipelines
- - Pipeline A: Data Ingestion (5-15 min schedule)
- - Pipeline B: Structural Analysis (AMOS computes state vector)
+- Pipeline A: Data Ingestion (5-15 min schedule)
+- Pipeline B: Structural Analysis (AMOS computes state vector)
 - Pipeline C: Trade Execution (Paper First with ActionGate)
- - Pipeline D: Daily Brief (Structural report to Loveable UI)
+- Pipeline D: Daily Brief (Structural report to Loveable UI)
 - Pipeline E: Risk Monitor (Fragility threshold alerts)
 
 ### UI System (100% Complete)
+
 - **Loveable UI Bridge** (`fx_loveable_ui_bridge.py`)
 - Live chat + interactive graph UI
 - **React 18 + TypeScript**
@@ -233,6 +235,7 @@ The engine reasons in: **invariants, feedback loops, tensors, regimes, risk enve
 - Reality Panel - WORLD + FX + REPO + BODY views
 
 ### Main Integration (100% Complete)
+
 - **Main Integration** (`fx_main_integration.py`)
 - Complete system orchestration
 - **24/7 Operation**
@@ -242,12 +245,14 @@ The engine reasons in: **invariants, feedback loops, tensors, regimes, risk enve
 - **Export System**
 - Complete data export for analysis
 
----
+______________________________________________________________________
 
 ## STRUCTURAL FX MODEL (ONLY AMOS CAN DO THIS)
 
 ### State Vector Components
+
 For each currency pair:
+
 - **Liquidity Stress (L)**
 - Market liquidity compression
 - **Policy Divergence (D)**
@@ -262,25 +267,24 @@ For each currency pair:
 - System resilience factors
 
 ### Derived Metrics
+
 - **Fragility Index**
 - Weighted combination of stress factors
-- ** ---
+- \*\* ---
 
 ### Source 3: Fractal Cognitive Architecture v2
 
 > Path: `fractal/fractal_cognitive_architecture.md` | Size: 11128 chars | Match score: 10
 
-# Fractal Cognitive Architecture v2
+## Fractal Cognitive Architecture v2
 
 ## Overview
 
-
 The package combines:
-
 
 The framework is intended for architecture modeling and computational analysis. Fractal, entropy, and cross-scale constructs should be interpreted according to their declared mathematical or model status; structural similarity across scales does not by itself establish an identical real-world mechanism.
 
----
+______________________________________________________________________
 
 ## Architecture Model
 
@@ -292,13 +296,11 @@ Represents the complete cognitive system.
 
 Typical concerns include:
 
-
 ### M — Module Scale
 
 Represents interacting cognitive subsystems.
 
 Typical concerns include:
-
 
 ### L — Feature and State Scale
 
@@ -306,10 +308,9 @@ Represents the smallest modeled cognitive units.
 
 Typical concerns include:
 
-
 Cross-scale projections should preserve identity, scope, assumptions, and relevant invariants.
 
----
+______________________________________________________________________
 
 ## Core Runtime Objects
 
@@ -325,7 +326,6 @@ Defines an atomic architectural feature.
 
 A feature specification may describe:
 
-
 ### `ModuleSpec`
 
 Defines a cognitive module and its relationship to the wider architecture.
@@ -338,7 +338,7 @@ Defines the complete declarative architecture.
 
 It acts as the primary structural input for compilation, analysis, validation, and blueprint generation.
 
----
+______________________________________________________________________
 
 ## Fractal Runtime
 
@@ -362,7 +362,7 @@ The engine is responsible for maintaining meaningful relationships between local
 
 Recursive similarity is treated as an architectural property unless independently demonstrated to constitute a mathematical or empirical fractal.
 
----
+______________________________________________________________________
 
 ## Architecture Compilation
 
@@ -390,7 +390,7 @@ Compiled architecture
 
 Compilation should fail or report an explicit gap when required dependencies, definitions, or constraints cannot be resolved.
 
----
+______________________________________________________________________
 
 ## Deterministic Analysis
 
@@ -399,7 +399,6 @@ Compilation should fail or report an explicit gap when required dependencies, de
 Evaluates architecture behavior against deterministic rules and invariants.
 
 Primary responsibilities include:
-
 
 The associated rule registry is exposed through:
 
@@ -410,15 +409,17 @@ DETERMINISTIC_RULES
 Deterministic analysis should distinguish between:
 
 1. behavior directly guaranteed by explicit rules;
-2. behavior derived from validated architecture struc
+1. behavior derived from validated architecture struc
 
----
+______________________________________________________________________
+
 **MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -426,12 +427,14 @@ Deterministic analysis should distinguish between:
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-fx-predictive-fractal-engine-vault-domain-knowledge
 node_type: reference
 path: 07_SKILLS/amos-fx-predictive-fractal-engine/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

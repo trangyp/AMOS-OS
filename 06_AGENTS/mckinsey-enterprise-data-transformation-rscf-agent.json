@@ -74,7 +74,7 @@
     "mckinsey-enterprise-data-transformation-rscf"
   ],
   "depends_on_workflows": [
-    "mckinsey-enterprise-data-transformation-rscf-workflow.md"
+    "amos-mckinsey-enterprise-data-transformation-rscf-workflow.md"
   ],
   "epistemic_class": "AMOS_MODEL",
   "claim_ceiling": 0.95,

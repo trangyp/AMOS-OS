@@ -12,21 +12,21 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: FRAMEWORK
 path: 11_KNOWLEDGE/05_FRAMEWORKS/METACOGNITIVE_LOOP.md
 tags:
-- amos-os
-- knowledge
-- vault
-- 05_frameworks
-- metacognitive_loop
-- metacognition
-- loop_detection
-- self_reflection
-- epistemic_monitoring
-- rscf
-- canon_candidate
-- canon/knowledge
-- amos-mind-os-framework
-- qls-framework
-- qcla-master
+  - amos-os
+  - knowledge
+  - vault
+  - 05_frameworks
+  - metacognitive_loop
+  - metacognition
+  - loop_detection
+  - self_reflection
+  - epistemic_monitoring
+  - rscf
+  - canon_candidate
+  - canon/knowledge
+  - amos-mind-os-framework
+  - qls-framework
+  - qcla-master
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -41,19 +41,19 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - BOOK_THE_99_PCT_MIND_FROM_BRAIN_MYTHS_TO_META_INTEL
-  - AMOS_CORPUS
+    - BOOK_THE_99_PCT_MIND_FROM_BRAIN_MYTHS_TO_META_INTEL
+    - AMOS_CORPUS
   scope:
-  - KNOWLEDGE_FRAMEWORKS
-  - METACOGNITION
-  - SOURCE_DEFINED_MODEL
+    - KNOWLEDGE_FRAMEWORKS
+    - METACOGNITION
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   mind_os:
     artifact:
-    - - AMOS_MIND_OS_FRAMEWORK
+      -   - AMOS_MIND_OS_FRAMEWORK
   logic_scaffold:
     artifact:
-    - - QLS_FRAMEWORK
+      -   - QLS_FRAMEWORK
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
@@ -67,9 +67,9 @@ epistemic_boundary:
 
 It provides reflective oversight over active reasoning processes, detecting repetitive reasoning loops, epistemic drift, overconfidence, and premature convergence.
 
----
+______________________________________________________________________
 
-# 1. Metacognitive Loop Flow
+## 1. Metacognitive Loop Flow
 
 ```text
 PRIMARY INFERENCE / REASONING CHAIN
@@ -85,18 +85,18 @@ METACOGNITIVE REFLECTIVE MONITOR
 CORRECTIVE STEERING / SAFE STATE COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Mind OS Master:** [[11_KNOWLEDGE/05_FRAMEWORKS/AMOS_MIND_OS_FRAMEWORK|AMOS_MIND_OS_FRAMEWORK]]
 - **Logic Scaffold:** [[11_KNOWLEDGE/05_FRAMEWORKS/QLS_FRAMEWORK|QLS_FRAMEWORK]] and [[11_KNOWLEDGE/05_FRAMEWORKS/QCLA_MASTER|QCLA_MASTER]]
 - **Executable Brain Model:** `07_SKILLS/executable-brain-model/SKILL`
 - **Full Architecture:** `11_KNOWLEDGE/AMOS_FULL_BRAIN_OS_ARCHITECTURE`
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -114,9 +114,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/AMOS_MIND_OS_FRAMEWORK|AMOS_MIND_OS_FRAMEWORK]] · [[11_KNOWLEDGE/05_FRAMEWORKS/QLS_FRAMEWORK|QLS_FRAMEWORK]] · `11_KNOWLEDGE/AMOS_FULL_BRAIN_OS_ARCHITECTURE`
 
----
+______________________________________________________________________
+
 **MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]

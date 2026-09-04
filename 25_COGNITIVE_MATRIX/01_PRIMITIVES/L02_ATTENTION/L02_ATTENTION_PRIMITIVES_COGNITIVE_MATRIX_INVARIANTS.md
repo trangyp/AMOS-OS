@@ -2,14 +2,14 @@
 type: invariant
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION
 tags:
-- amos
-- cognitive-matrix
-- matrix/l02
-- attention
-- invariants
-- rscf
-- governance
-- domain/cognitive-matrix
+  - amos
+  - cognitive-matrix
+  - matrix/l02
+  - attention
+  - invariants
+  - rscf
+  - governance
+  - domain/cognitive-matrix
 title: L02_ATTENTION — Invariants
 origin_architect: Trang Phan
 status: MODEL_SPECIFICATION / SOURCE-BOUNDED / UNVALIDATED
@@ -32,9 +32,9 @@ rscf:
 
 > **Canon boundary:** the available L02 material supports attention as allocation of scarce reasoning/observation resources. The invariant system below formalizes that primitive inside AMOS governance. Unless independently traced to direct L02 canon, individual invariant IDs and equations are `AMOS_MODEL`, not recovered canonical laws.
 
----
+______________________________________________________________________
 
-# 0. Purpose
+## 0. Purpose
 
 Define the conditions that must remain true whenever `L02_ATTENTION` selects, ranks, allocates, sustains, shifts, suppresses, escalates, or terminates attention.
 
@@ -61,9 +61,9 @@ ATTENTION != AUTHORITY
 ATTENTION != COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 1. Source / Canon References
+## 1. Source / Canon References
 
 ## 1.1 Source-supported semantic core
 
@@ -148,39 +148,39 @@ L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_README
 L01_SENSING_OBSERVATION
 ```
 
----
+______________________________________________________________________
 
-# 2. Definition and Scope
+## 2. Definition and Scope
 
 An L02 invariant is a condition that must remain true across admissible attention-state transitions.
 
 Let:
 
-[
+\[
 A_t
-]
+\]
 
 denote attention state at time (t), and:
 
-[
+\[
 T(A_t,o)
-\rightarrow
-A_{t+1}
-]
+\\rightarrow
+A\_{t+1}
+\]
 
 denote application of an attention operator (o).
 
-For invariant \(I_k\):
+For invariant (I_k):
 
-[
+\[
 I_k(A_t)=true
-]
+\]
 
 and any admissible transition must satisfy:
 
-[
-I_k(A_{t+1})=true
-]
+\[
+I_k(A\_{t+1})=true
+\]
 
 unless the transition explicitly enters:
 
@@ -195,9 +195,9 @@ because preservation cannot be established.
 
 This is an `AMOS_MODEL` transition contract.
 
----
+______________________________________________________________________
 
-# 3. Typed Inputs
+## 3. Typed Inputs
 
 ```yaml
 AttentionInvariantInput:
@@ -248,9 +248,9 @@ AttentionInvariantInput:
     type: AttentionOperator
 ```
 
----
+______________________________________________________________________
 
-# 4. Typed Outputs
+## 4. Typed Outputs
 
 ```yaml
 AttentionInvariantResult:
@@ -298,9 +298,9 @@ Invariant evaluation must not silently convert an unresolved check into `true`.
 UNKNOWN != TRUE
 ```
 
----
+______________________________________________________________________
 
-# 5. State Variables
+## 5. State Variables
 
 ```text
 A_t       current attention state
@@ -323,9 +323,9 @@ X_t       unresolved contradiction set
 Gap_t     unresolved gap set
 ```
 
----
+______________________________________________________________________
 
-# 6. Invariant Families
+## 6. Invariant Families
 
 The L02 invariant registry is divided into:
 
@@ -342,9 +342,9 @@ IX.  H/M/L invariants
 X.   Transition/recovery invariants
 ```
 
----
+______________________________________________________________________
 
-# 7. Identity Invariants
+## 7. Identity Invariants
 
 ## L02-INV-001 — Attention Identity
 
@@ -356,27 +356,27 @@ allocation of scarce reasoning/observation resources
 
 An implementation that merely labels information as important without affecting resource allocation does not, by this contract alone, establish implementation of L02.
 
----
+______________________________________________________________________
 
 ## L02-INV-002 — Attention ≠ Truth
 
-[
+\[
 Attend(x)
-\not\Rightarrow
+\\not\\Rightarrow
 True(x)
-]
+\]
 
 A candidate receiving attention does not establish its truth.
 
----
+______________________________________________________________________
 
 ## L02-INV-003 — Attention ≠ Evidence
 
-[
+\[
 Attend(x)
-\not\Rightarrow
+\\not\\Rightarrow
 Evidence(x)
-]
+\]
 
 Attention can be directed toward:
 
@@ -392,41 +392,41 @@ speculation
 
 without promoting them to evidence.
 
----
+______________________________________________________________________
 
 ## L02-INV-004 — Attention ≠ Confidence
 
-[
+\[
 Priority(x)
-\not\Rightarrow
+\\not\\Rightarrow
 Confidence(x)
-]
+\]
 
 Increasing attention priority must not independently raise epistemic confidence.
 
----
+______________________________________________________________________
 
 ## L02-INV-005 — Attention ≠ Causality
 
-[
+\[
 Attend(x)
-\not\Rightarrow
+\\not\\Rightarrow
 Cause(x)
-]
+\]
 
 High attention may reflect risk, uncertainty, novelty, salience, or dependency importance rather than causal importance.
 
----
+______________________________________________________________________
 
-# 8. Resource Invariants
+## 8. Resource Invariants
 
 ## L02-INV-006 — Finite Budget
 
 For a bounded attention cycle:
 
-[
-B_t < \infty
-]
+\[
+B_t < \\infty
+\]
 
 where the relevant budget dimensions are explicitly typed.
 
@@ -443,19 +443,19 @@ working-memory capacity
 human-review capacity
 ```
 
----
+______________________________________________________________________
 
 ## L02-INV-007 — Allocation Conservation
 
 For allocations sharing the same unit:
 
-[
-\sum_i b_i \le B_t
-]
+\[
+\\sum_i b_i \\le B_t
+\]
 
 The system may not allocate more of a bounded resource than is available.
 
----
+______________________________________________________________________
 
 ## L02-INV-008 — Unit Integrity
 
@@ -473,17 +473,17 @@ Therefore:
 
 cannot be treated as one scalar budget without an explicit conversion function.
 
----
+______________________________________________________________________
 
 ## L02-INV-009 — No Negative Allocation
 
-[
-b_i \ge 0
-]
+\[
+b_i \\ge 0
+\]
 
 unless a separately defined signed resource model explicitly requires otherwise.
 
----
+______________________________________________________________________
 
 ## L02-INV-010 — Resource Use Requires Addressable Candidate
 
@@ -496,46 +496,46 @@ allocation
 
 Untraceable resource consumption violates accounting integrity.
 
----
+______________________________________________________________________
 
-# 9. Priority Invariants
+## 9. Priority Invariants
 
 ## L02-INV-011 — Priority Is Decision-Relative
 
 Priority must be interpreted relative to an objective and context.
 
-[
+\[
 P_i =
-P(i\mid Objective,Scope,Regime,t)
-]
+P(i\\mid Objective,Scope,Regime,t)
+\]
 
 There is no required globally context-free priority.
 
----
+______________________________________________________________________
 
 ## L02-INV-012 — Salience ≠ Priority
 
-[
+\[
 Salience_i
-\not\equiv
+\\not\\equiv
 Priority_i
-]
+\]
 
 Highly noticeable information need not deserve high reasoning allocation.
 
----
+______________________________________________________________________
 
 ## L02-INV-013 — Novelty ≠ Priority
 
-[
+\[
 Novelty_i
-\not\Rightarrow
+\\not\\Rightarrow
 HighPriority_i
-]
+\]
 
 Novelty can justify inspection but cannot automatically dominate load-bearing dependencies.
 
----
+______________________________________________________________________
 
 ## L02-INV-014 — Repetition ≠ Priority
 
@@ -551,7 +551,7 @@ retrieval duplication
 narrative reinforcement
 ```
 
----
+______________________________________________________________________
 
 ## L02-INV-015 — Critical Constraints Dominate Preferences
 
@@ -563,9 +563,9 @@ hard constraint
 soft optimization
 ```
 
----
+______________________________________________________________________
 
-# 10. Epistemic Invariants
+## 10. Epistemic Invariants
 
 ## L02-INV-016 — Attention Cannot Promote Claim Class
 
@@ -580,23 +580,23 @@ COMPETING → VERIFIED
 
 Claim-class promotion requires appropriate evidence.
 
----
+______________________________________________________________________
 
 ## L02-INV-017 — Confidence Ceiling Preservation
 
-If conclusion \(C\) depends on load-bearing premises (p_1...p_n):
+If conclusion (C) depends on load-bearing premises (p_1...p_n):
 
-[
+\[
 Conf(C)
-\le
-\min_i Conf(p_i)
-]
+\\le
+\\min_i Conf(p_i)
+\]
 
 unless independent revalidation changes the evidence graph.
 
 Attention expenditure alone does not increase the ceiling.
 
----
+______________________________________________________________________
 
 ## L02-INV-018 — Missing Evidence Remains Missing
 
@@ -608,7 +608,7 @@ new evidence
 
 If a required source or observation is absent, additional internal attention cannot silently fill it.
 
----
+______________________________________________________________________
 
 ## L02-INV-019 — Observation / Inference Separation
 
@@ -622,15 +622,15 @@ ATTENTION_SCORE
 DERIVED_INTERPRETATION
 ```
 
----
+______________________________________________________________________
 
 ## L02-INV-020 — Attention Does Not Repair Evidence Automatically
 
 Attending to stale, corrupted, contradictory, or weak evidence does not make it valid.
 
----
+______________________________________________________________________
 
-# 11. Provenance Invariants
+## 11. Provenance Invariants
 
 ## L02-INV-021 — Provenance Preservation
 
@@ -642,7 +642,7 @@ candidate
 → transformation lineage
 ```
 
----
+______________________________________________________________________
 
 ## L02-INV-022 — Allocation Provenance
 
@@ -659,7 +659,7 @@ operator
 
 where the runtime supports such state.
 
----
+______________________________________________________________________
 
 ## L02-INV-023 — Correlated Evidence Is Not Independent Evidence
 
@@ -673,7 +673,7 @@ E3 ← Source A
 
 then attention to all three does not create three independent confirmations.
 
----
+______________________________________________________________________
 
 ## L02-INV-024 — Reformatting Does Not Reset Origin
 
@@ -686,29 +686,29 @@ agent restatement(Source A)
 
 remain descendants of `Source A` for independence accounting.
 
----
+______________________________________________________________________
 
 ## L02-INV-025 — Provenance Loss Blocks Strong Promotion
 
 If load-bearing provenance becomes unrecoverable, downstream conclusions requiring that provenance must be downgraded, quarantined, or marked `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
-# 12. Scope and Regime Invariants
+## 12. Scope and Regime Invariants
 
 ## L02-INV-026 — Scope Preservation
 
 Candidate evidence retains its applicability envelope through attention processing.
 
-[
-Scope_{out}
-\subseteq
-Scope_{supported}
-]
+\[
+Scope\_{out}
+\\subseteq
+Scope\_{supported}
+\]
 
 unless expansion is independently justified.
 
----
+______________________________________________________________________
 
 ## L02-INV-027 — No Silent Scope Generalization
 
@@ -732,7 +732,7 @@ one benchmark
 general capability
 ```
 
----
+______________________________________________________________________
 
 ## L02-INV-028 — Regime Preservation
 
@@ -749,19 +749,19 @@ forecast
 
 must not be silently merged.
 
----
+______________________________________________________________________
 
 ## L02-INV-029 — Regime Shift Requires Revalidation
 
-If applicability depends on regime \(G_a\) and the system moves to \(G_b\):
+If applicability depends on regime (G_a) and the system moves to (G_b):
 
-[
-G_a \neq G_b
-]
+\[
+G_a \\neq G_b
+\]
 
 then stale attention conclusions must be revalidated where the shift can alter the decision.
 
----
+______________________________________________________________________
 
 ## L02-INV-030 — Freshness Is Not Optional When Material
 
@@ -775,15 +775,15 @@ unknown freshness
 
 must remain distinguishable.
 
----
+______________________________________________________________________
 
-# 13. Dependency Invariants
+## 13. Dependency Invariants
 
 ## L02-INV-031 — Load-Bearing Dependencies Receive Protection
 
 Attention optimization may not discard a premise or dependency whose failure can flip the governing conclusion merely because it is expensive to inspect.
 
----
+______________________________________________________________________
 
 ## L02-INV-032 — Dependency Closure Before Local Fast Path
 
@@ -793,43 +793,43 @@ This does not require loading every dependency.
 
 It requires resolving those capable of materially changing the answer.
 
----
+______________________________________________________________________
 
 ## L02-INV-033 — Selective Invalidation
 
 If dependency (d) fails:
 
-[
+\[
 Invalidate(d)
-\Rightarrow
+\\Rightarrow
 Invalidate(Descendants(d))
-]
+\]
 
 not:
 
-[
+\[
 Invalidate(d)
-\Rightarrow
+\\Rightarrow
 Invalidate(AllState)
-]
+\]
 
 unless (d) is globally load-bearing.
 
----
+______________________________________________________________________
 
 ## L02-INV-034 — Independent Branch Preservation
 
 Failure of one branch must not destroy independent valid branches.
 
----
+______________________________________________________________________
 
 ## L02-INV-035 — No Hidden Dependency Promotion
 
 A conclusion cannot be promoted while an unresolved hidden dependency known to be load-bearing remains omitted from the proof scope.
 
----
+______________________________________________________________________
 
-# 14. Contradiction and Gap Invariants
+## 14. Contradiction and Gap Invariants
 
 ## L02-INV-036 — Contradictions Remain Visible
 
@@ -843,7 +843,7 @@ NOISE
 
 unless explicitly adjudicated with evidence.
 
----
+______________________________________________________________________
 
 ## L02-INV-037 — Competing Hypotheses Remain Competing
 
@@ -857,7 +857,7 @@ must be preserved.
 
 Attention allocation may seek discriminating evidence but cannot force convergence.
 
----
+______________________________________________________________________
 
 ## L02-INV-038 — UNKNOWN/GAP ≠ PASS
 
@@ -869,7 +869,7 @@ PASS
 
 A missing invariant check cannot be treated as a successful invariant check.
 
----
+______________________________________________________________________
 
 ## L02-INV-039 — Critical Gap Priority
 
@@ -884,7 +884,7 @@ EXPLANATORY
 COSMETIC
 ```
 
----
+______________________________________________________________________
 
 ## L02-INV-040 — Gap Closure Requires Evidence
 
@@ -899,9 +899,9 @@ no contradiction was found
 
 Closure requires evidence appropriate to the gap class.
 
----
+______________________________________________________________________
 
-# 15. Governance / Authority Invariants
+## 15. Governance / Authority Invariants
 
 ## L02-INV-041 — Capability ≠ Authority
 
@@ -913,7 +913,7 @@ AUTHORITY
 
 An agent capable of attending to or analyzing an action does not thereby gain permission to perform it.
 
----
+______________________________________________________________________
 
 ## L02-INV-042 — Proposal ≠ Commit
 
@@ -927,25 +927,25 @@ Attention may produce recommendations or candidate actions.
 
 Durable effects require the governing commit path.
 
----
+______________________________________________________________________
 
 ## L02-INV-043 — Priority ≠ Authorization
 
-[
+\[
 HighPriority(x)
-\not\Rightarrow
+\\not\\Rightarrow
 Authorized(x)
-]
+\]
 
 Urgency cannot manufacture authority.
 
----
+______________________________________________________________________
 
 ## L02-INV-044 — Resource Availability ≠ Authority
 
 Available compute, tools, money, time, or agent capacity does not create permission.
 
----
+______________________________________________________________________
 
 ## L02-INV-045 — Attention Cannot Override Control Plane
 
@@ -962,9 +962,9 @@ risk
 
 control-plane requirements.
 
----
+______________________________________________________________________
 
-# 16. H/M/L Invariants
+## 16. H/M/L Invariants
 
 ## L02-INV-046 — H/M/L Distinction
 
@@ -974,7 +974,7 @@ H != M != L
 
 H, M, and L attention states must remain semantically distinguishable.
 
----
+______________________________________________________________________
 
 ## L02-INV-047 — H Constrains M
 
@@ -982,49 +982,49 @@ Governing H-level requirements constrain M-level allocation.
 
 M cannot silently rewrite the governing objective.
 
----
+______________________________________________________________________
 
 ## L02-INV-048 — M Constrains L
 
 L-level resource consumption must remain within M allocation.
 
----
+______________________________________________________________________
 
 ## L02-INV-049 — L Does Not Automatically Generalize to H
 
-[
-L\ evidence
-\not\Rightarrow
-H\ conclusion
-]
+\[
+L\\ evidence
+\\not\\Rightarrow
+H\\ conclusion
+\]
 
 without valid aggregation and applicability.
 
----
+______________________________________________________________________
 
 ## L02-INV-050 — H Does Not Manufacture L
 
-[
-H\ expectation
-\not\Rightarrow
-L\ observation
-]
+\[
+H\\ expectation
+\\not\\Rightarrow
+L\\ observation
+\]
 
 This protects against top-down hallucination.
 
----
+______________________________________________________________________
 
 ## L02-INV-051 — Cross-Level Provenance Preservation
 
 Every decision-relevant H↔M↔L transformation retains recoverable ancestry.
 
----
+______________________________________________________________________
 
 ## L02-INV-052 — Cross-Level Confidence Non-Inflation
 
 Aggregation upward cannot increase confidence solely because multiple dependent lower-level objects were combined.
 
----
+______________________________________________________________________
 
 ## L02-INV-053 — Local Completion ≠ Global Completion
 
@@ -1038,25 +1038,25 @@ M complete
 H complete
 ```
 
----
+______________________________________________________________________
 
-# 17. Transition Invariants
+## 17. Transition Invariants
 
 ## L02-INV-054 — Operators Must Preserve Invariants
 
 For admissible operator (o):
 
-[
+\[
 Valid(A_t)
-\land
+\\land
 Apply(o,A_t)
-\Rightarrow
-Valid(A_{t+1})
-]
+\\Rightarrow
+Valid(A\_{t+1})
+\]
 
 or the transition must fail closed.
 
----
+______________________________________________________________________
 
 ## L02-INV-055 — Unsafe Transition Must Not Silently Succeed
 
@@ -1078,13 +1078,13 @@ REPAIR
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
 ## L02-INV-056 — No Irreversible Attention-Induced Effect Without Governance
 
 If an attention-derived proposal could cause irreversible external effects, L02 must hand off to appropriate authority/commit governance.
 
----
+______________________________________________________________________
 
 ## L02-INV-057 — Stop Requires Sufficiency
 
@@ -1092,18 +1092,18 @@ Attention may stop when relevant sufficiency conditions are met.
 
 Conceptually:
 
-[
+\[
 Stop =
 ClaimSufficient
-\land
+\\land
 DecisionSufficient
-\land
+\\land
 ActionSufficient
-]
+\]
 
 with non-applicable components explicitly marked.
 
----
+______________________________________________________________________
 
 ## L02-INV-058 — Resource Exhaustion ≠ Epistemic Closure
 
@@ -1115,9 +1115,9 @@ BUDGET_EXHAUSTED
 VERIFIED
 ```
 
----
+______________________________________________________________________
 
-# 18. Control-Plane Requirements
+## 18. Control-Plane Requirements
 
 The control plane should enforce or independently validate invariants involving:
 
@@ -1155,9 +1155,9 @@ CONTROL PLANE:
   FINALIZE DURABLE EFFECT
 ```
 
----
+______________________________________________________________________
 
-# 19. Agents
+## 19. Agents
 
 Proposed logical roles:
 
@@ -1176,9 +1176,9 @@ These are architectural roles, not claims of implemented agents.
 
 No auditing agent may self-certify implementation merely because it can describe the invariant.
 
----
+______________________________________________________________________
 
-# 20. Skills
+## 20. Skills
 
 Potential supporting AMOS capabilities:
 
@@ -1207,9 +1207,9 @@ Availability of a skill:
 
 unless independently evidenced.
 
----
+______________________________________________________________________
 
-# 21. Workflow
+## 21. Workflow
 
 ```text
 RECEIVE attention state
@@ -1244,9 +1244,9 @@ ELSE
     block
 ```
 
----
+______________________________________________________________________
 
-# 22. Protocol
+## 22. Protocol
 
 ```yaml
 L02InvariantCapsule:
@@ -1301,9 +1301,9 @@ L02InvariantCapsule:
   confidence_ceiling: 0
 ```
 
----
+______________________________________________________________________
 
-# 23. Evidence / Provenance Requirements
+## 23. Evidence / Provenance Requirements
 
 A validated invariant claim requires more than documentation.
 
@@ -1336,9 +1336,9 @@ formal proof establishes bounded property
 
 These must not be collapsed.
 
----
+______________________________________________________________________
 
-# 24. Uncertainty and Confidence Ceiling
+## 24. Uncertainty and Confidence Ceiling
 
 Current uncertainty profile:
 
@@ -1386,9 +1386,9 @@ confidence in runtime enforcement
 
 Runtime enforcement confidence remains near zero until executable evidence is produced.
 
----
+______________________________________________________________________
 
-# 25. Failure Modes
+## 25. Failure Modes
 
 ## FM-INV-001 — Invariant Omission
 
@@ -1453,9 +1453,9 @@ A local failure destroys unrelated valid work.
 
 The system terminates attention while a critical unresolved gap remains.
 
----
+______________________________________________________________________
 
-# 26. Repair / Recovery
+## 26. Repair / Recovery
 
 Repair must target the smallest violated dependency closure.
 
@@ -1518,9 +1518,9 @@ restore contradictory evidence
 → seek cheapest discriminating evidence
 ```
 
----
+______________________________________________________________________
 
-# 27. Tests / Validators
+## 27. Tests / Validators
 
 Minimum validator registry:
 
@@ -1548,9 +1548,9 @@ VALIDATE_FAIL_CLOSED
 VALIDATE_STOP_SUFFICIENCY
 ```
 
----
+______________________________________________________________________
 
-# 28. Minimum Test Cases
+## 28. Minimum Test Cases
 
 ```text
 TEST-L02-INV-001
@@ -1633,9 +1633,9 @@ attention transition may proceed,
 but no external authority is implied.
 ```
 
----
+______________________________________________________________________
 
-# 29. Falsifiers
+## 29. Falsifiers
 
 This specification must be revised if source/runtime evidence establishes that:
 
@@ -1661,9 +1661,9 @@ a different canonical invariant registry supersedes this model
 
 Runtime enforcement claims are falsified by a reproducible execution in which a documented hard invariant is violated and the transition still commits without authorized exception semantics.
 
----
+______________________________________________________________________
 
-# 30. Gap Matrix
+## 30. Gap Matrix
 
 ```yaml
 gap_status:
@@ -1729,9 +1729,9 @@ Critical gaps:
 4. canonical resource units and thresholds
 ```
 
----
+______________________________________________________________________
 
-# 31. RSCF Completion State
+## 31. RSCF Completion State
 
 ```yaml
 rscf:
@@ -1826,9 +1826,9 @@ rscf:
     transition tests against any identified runtime
 ```
 
----
+______________________________________________________________________
 
-# 32. Completion State
+## 32. Completion State
 
 ```yaml
 completion_state:
@@ -1900,9 +1900,9 @@ completion_state:
     MODEL
 ```
 
----
+______________________________________________________________________
 
-# 33. Hard Boundaries
+## 33. Hard Boundaries
 
 ```text
 PLACEHOLDER != IMPLEMENTED
@@ -1950,15 +1950,15 @@ LOCAL PASS != GLOBAL PASS
 MODEL INVARIANT != CANONICAL INVARIANT
 ```
 
----
+______________________________________________________________________
 
-# 34. Governing Invariant Contract
+## 34. Governing Invariant Contract
 
 > **`L02_ATTENTION` allocates scarce reasoning and observation resources while preserving the epistemic, provenance, scope, regime, dependency, H/M/L, resource, and authority boundaries of the objects it processes. Attention may change what receives processing capacity; it may not, by allocation alone, change what is true, what counts as evidence, how confident AMOS may be, where evidence applies, whether sources are independent, or what actions are authorized. Any transition whose required invariants cannot be established must fail closed into block, quarantine, repair, escalation, or explicit `UNKNOWN/GAP` rather than silently passing.**
 
----
+______________________________________________________________________
 
-# 35. Canon Boundary
+## 35. Canon Boundary
 
 ```text
 SOURCE-SUPPORTED:
@@ -2022,22 +2022,27 @@ AUTHORITY TO COMMIT
 
 ```text
 ```
----
+
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: l02_attention_primitives_cognitive_matrix_invariants
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION/L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_INVARIANTS.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION/L02_ATTENTION_MOC|L02_ATTENTION_MOC]]

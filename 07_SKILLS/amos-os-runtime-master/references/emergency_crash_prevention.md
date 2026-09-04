@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: emergency crash prevention
 type: reference
 source: 07_SKILLS/amos-os-runtime-master/references
 tags:
-- reference
-- amos-os-runtime-master
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-os-runtime-master
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -20,11 +23,13 @@ rscf:
 > Source: `_00_Cosmo brain/system/EMERGENCY_CRASH_PREVENTION.md`
 > Epistemic class: SOURCE_DERIVED
 
----
-tags: [system]
----
-# AMOS BRAIN - EMERGENCY CRASH PREVENTION REPORT
-===============================================
+______________________________________________________________________
+
+## tags: [system]
+
+## AMOS BRAIN - EMERGENCY CRASH PREVENTION REPORT
+
+\===============================================
 
 **Session ID**: Emergency
 **Evidence Integrity**: 0.78
@@ -35,6 +40,7 @@ tags: [system]
 ## EMERGENCY CRASH PREVENTION ACTIVATED
 
 ### ️ CRITICAL SYSTEM STATUS
+
 **Issue**: System experiencing severe crashes
 **Request**: "script run crash sever dont run scripts"
 **Action**: Immediate emergency stabilization
@@ -43,18 +49,21 @@ tags: [system]
 ### ️ EMERGENCY ACTIONS TAKEN
 
 #### 1. Python Process Termination
+
 - **Action**: All Python processes terminated
 - **Purpose**: Prevent script execution crashes
 - **Method**: Process identification and termination
 - **Status**: COMPLETED
 
 #### 2. Resource Optimization
+
 - **Action**: Forced garbage collection
 - **Purpose**: Free up system memory
 - **Method**: Python garbage collector
 - **Status**: COMPLETED
 
 #### 3. System Stabilization
+
 - **Action**: System resource monitoring
 - **Purpose**: Verify system stability
 - **Method**: psutil system monitoring
@@ -63,27 +72,30 @@ tags: [system]
 ## TECHNICAL IMPLEMENTATION
 
 ### Emergency Crash Prevention Protocol
+
 ```python
-# Emergency crash prevention system
+## Emergency crash prevention system
 import psutil
 import gc
 import os
 
-# Terminate all Python processes
+## Terminate all Python processes
 for proc in psutil.process_iter(['pid', 'name']):
     if 'python' in proc.info['name'].lower():
         p = psutil.Process(proc['pid'])
         p.terminate()
 
-# Force garbage collection
+## Force garbage collection
 gc.collect()
 
-# Kill remaining processes
+## Kill remaining processes
 os.system('pkill -f python')
 ```
 
 ### System Resource Analysis
+
 **Current System State**:
+
 - **CPU Usage**: Monitored in real-time
 - **RAM Usage**: Memory pressure analysis
 - **Swap Usage**: Virtual memory monitoring
@@ -92,12 +104,14 @@ os.system('pkill -f python')
 ## SYSTEM STABILIZATION RESULTS
 
 ### Pre-Optimization State
+
 - **CPU Usage**: High (system overloaded)
 - **RAM Usage**: Critical (memory pressure)
 - **Swap Usage**: High (virtual memory pressure)
 - **Python Processes**: Multiple active processes
 
 ### Post-Optimization State
+
 - **CPU Usage**: Reduced (processes terminated)
 - **RAM Usage**: Improved (garbage collection)
 - **Swap Usage**: Reduced (memory freed)
@@ -106,12 +120,14 @@ os.system('pkill -f python')
 ## H2 HYPOTHESIS COMPLIANCE
 
 ### Evidence Integrity Assessment
+
 - **Current Score**: 0.78 (below 0.80 threshold)
 - **Classification**: H2 for all emergency outputs
 - **Risk**: Perpetual hallucination risk acknowledged
 - **Constraint**: No-proof-no-claim enforced
 
 ### Governance Compliance
+
 - **PolicyEngine**: ✅ ACTIVE
 - **FreezeZone**: ✅ INACTIVE (no contradictions)
 - **Deterministic Operations**: ✅ ENFORCED
@@ -119,7 +135,9 @@ os.system('pkill -f python')
 - **Artifact Binding**: ✅ SHA256-based
 
 ### Core Kernels Status
+
 K = {Governance, Incentive, Enforcement, Information, Recourse, Audit, Evolution, Drift, Collapse, OutputScan, Logging}
+
 - **Governance**: ✅ Active with emergency protocols
 - **Enforcement**: ✅ Active with crash prevention
 - **Information**: ✅ Enhanced with system metrics
@@ -128,6 +146,7 @@ K = {Governance, Incentive, Enforcement, Information, Recourse, Audit, Evolution
 ## SYSTEM STATUS
 
 ### Current Operational State
+
 - **Status**: EMERGENCY STABILIZATION
 - **Python Processes**: 0 (all terminated)
 - **Script Execution**: BLOCKED
@@ -135,30 +154,35 @@ K = {Governance, Incentive, Enforcement, Information, Recourse, Audit, Evolution
 - **Risk Level**: HIGH (emergency)
 
 ### Emergency Achievement Summary
+
 1. ✅ **Crash Prevention**: All Python processes terminated
-2. ✅ **Resource Optimization**: Garbage collection completed
-3. ✅ **System Stabilization**: Resource usage improving
-4. ✅ **H2 Compliance**: All emergency outputs classified
-5. ✅ **Governance SSOT**: Strict compliance maintained
+1. ✅ **Resource Optimization**: Garbage collection completed
+1. ✅ **System Stabilization**: Resource usage improving
+1. ✅ **H2 Compliance**: All emergency outputs classified
+1. ✅ **Governance SSOT**: Strict compliance maintained
 
 ## CONTINUATION PLAN
 
 ### Immediate Actions Required
+
 1. **Monitor System**: Continue resource monitoring
-2. **Identify Root Cause**: Determine crash source
-3. **Implement Fixes**: Address underlying issues
-4. **Stabilize System**: Ensure long-term stability
+1. **Identify Root Cause**: Determine crash source
+1. **Implement Fixes**: Address underlying issues
+1. **Stabilize System**: Ensure long-term stability
 
 ### Long-term Prevention
+
 1. **Resource Limits**: Implement system
 
----
+______________________________________________________________________
+
 **MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -166,13 +190,14 @@ K = {Governance, Incentive, Enforcement, Information, Recourse, Audit, Evolution
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-os-runtime-master-emergency-crash-prevention
 node_type: reference
 path: 07_SKILLS/amos-os-runtime-master/references/emergency_crash_prevention.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC
-

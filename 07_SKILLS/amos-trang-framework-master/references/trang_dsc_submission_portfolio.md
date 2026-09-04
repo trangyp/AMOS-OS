@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: trang dsc submission portfolio
 type: reference
 source: 07_SKILLS/amos-trang-framework-master/references
 tags:
-- reference
-- amos-trang-framework-master
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-trang-framework-master
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -20,9 +23,9 @@ rscf:
 > Source: `_00_Cosmo brain/trang/DOCTOR OF SCIENCE (DSc:ScD) SUBMISSION PORTFOLIO-Trang Phan.md`
 > Epistemic class: SOURCE_DERIVED
 
----
-tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/doctor-of-science-dsc-scd-submission-por, trang]
----
+______________________________________________________________________
+
+## tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/doctor-of-science-dsc-scd-submission-por, trang]
 
 DOCTOR OF SCIENCE
 (DSc/ScD) SUBMISSION
@@ -41,7 +44,7 @@ Degree Sought: Doctor of Science DSc / ScD
 University: Faculty and Department (to be inserted to match institutional
 structure) — GAP NOTE: requires actual university affiliation; not available in vault
 
-Submission Date: Insert date]
+Submission Date: Insert date\]
 
 Supervisory Status: Independent submission. No supervisor.
 
@@ -50,7 +53,7 @@ research conducted outside traditional supervision.)
 
 Identifiers:
 
-ORCID Insert]
+ORCID Insert\]
 
 Institutional and Professional Affiliations:
 
@@ -70,28 +73,28 @@ DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO1
 
 I, Trang Phan, declare that:
 
-  The work submitted in this Doctor of Science portfolio is entirely my own
+ The work submitted in this Doctor of Science portfolio is entirely my own
 
 original research, conceived, developed, and executed without academic
 supervision, without university affiliation, and without research funding.
 
-  No part of this portfolio has been previously submitted for a Doctor of
+ No part of this portfolio has been previously submitted for a Doctor of
 Science, Doctor of Philosophy, or any higher degree at any university,
 domestically or internationally.
 
-  All research outputs—mathematical frameworks, deterministic
+ All research outputs—mathematical frameworks, deterministic
 
 architectures, operating systems, scientific canons, and law systems—were
 independently produced, using first-principles reasoning, cross-domain
 systems analysis, and direct structural derivation.
 
-  All intellectual property contained in this submission is owned exclusively
+ All intellectual property contained in this submission is owned exclusively
 
 by the applicant (via AMOS IP Pty Ltd), with a non-exclusive licence granted
 to the university for the purposes of academic examination, archiving, and
 research referencing.
 
-  All work complies with ethical standards, publication integrity requirements,
+ All work complies with ethical standards, publication integrity requirements,
 
 and the regulations governing higher doctorate submissions.
 
@@ -144,13 +147,15 @@ Quantum-Consistent Logic Architecture QCLA — a fully deterministic
 model of quantum information dynamics, including twelve causal modes,
 twenty-eight
 
----
+______________________________________________________________________
+
 **MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -158,12 +163,14 @@ twenty-eight
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-trang-framework-master-trang-dsc-submission-portfolio
 node_type: reference
 path: 07_SKILLS/amos-trang-framework-master/references/trang_dsc_submission_portfolio.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

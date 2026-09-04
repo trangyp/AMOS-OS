@@ -1,4 +1,7 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: AMOS OS INTEGRATED AGENT KERNEL
 type: kernel
 source: 11_KNOWLEDGE/kernel
@@ -7,13 +10,13 @@ canon-type: os-module
 rscf-state: source-claim
 topic: amos-os-integrated-agent
 tags:
-- canon-group/tech-ai
-- canon/framework
-- rscf/claim
-- rscf/provenance
-- rscf/state/observation
-- topic/amos-os-integrated-agent
-- kernel
+  - canon-group/tech-ai
+  - canon/framework
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/observation
+  - topic/amos-os-integrated-agent
+  - kernel
 created: 2026-08-22
 rscf:
   state: SOURCE_CLAIM
@@ -201,6 +204,6 @@ rscf:
 **Related:** [[11_KNOWLEDGE/kernel/AMOS_TOOLCHAIN_INTEGRATION_KERNEL|AMOS_TOOLCHAIN_INTEGRATION_KERNEL]] · [[11_KNOWLEDGE/kernel/AMOS_META_KERNEL_SPECIFICATIONS|AMOS_META_KERNEL_SPECIFICATIONS]] · [[11_KNOWLEDGE/kernel/AMOS_TECH_KERNEL_EXPANSION|AMOS_TECH_KERNEL_EXPANSION]] · [[11_KNOWLEDGE/kernel/AMOS_UNIFIED_CODING_KERNEL_VINFINITY|AMOS_UNIFIED_CODING_KERNEL_VINFINITY]]
 ```
 
----
-**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]
+______________________________________________________________________
 
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]

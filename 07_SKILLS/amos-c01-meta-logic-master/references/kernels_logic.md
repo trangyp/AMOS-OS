@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: kernels logic
 type: reference
 source: 07_SKILLS/amos-c01-meta-logic-master/references
 tags:
-- reference
-- amos-c01-meta-logic-master
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-c01-meta-logic-master
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -22,7 +25,7 @@ rscf:
 
 The original bridge note at the source path was a stub with no content. The following content is synthesized from the sibling kernel file `AMOS_Meta_Logic_Kernel_v0_Meta_Cognition4_2.md` in the same `kernel/A/` directory, which contains the full meta-logic kernel specification.
 
----
+______________________________________________________________________
 
 ## Meta-Logic Kernel Overview
 
@@ -32,24 +35,29 @@ The Meta-Logic Kernel is the highest-order logic kernel in the AMOS system. It h
 
 **Law of Law**
 All subordinate laws must be internally consistent, recursively checkable, and non-contradictory when applied to the same state under the same assumptions.
+
 - Properties: no internal contradiction, explicit assumption tracking, hierarchical precedence of laws, testability under counterexample
 - Usage: validate new framework before adoption, audit existing rule sets for hidden conflicts, resolve competing policies or ethics clauses
 
 **Rule of 2 (Duality Check)**
 For every claim, model, or decision, explicitly hold at least two structurally opposed interpretations and test both against data and constraints.
+
 - Operations: construct primary hypothesis, construct structural opposite, evaluate both against evidence, keep tension until decisive signal
 - Applications: risk assessment, scenario planning, strategic negotiation, bias detection
 
 **Rule of 4 (Quadrant Mapping)**
 Every state or problem is decomposed into four entangled quadrants: biological state, experiential history, logical structure, systemic context.
+
 - Benefits: prevents overfitting to single domain, forces multi-source validation, supports design of resilient solutions
 
 **Signal Fidelity Preservation**
 Never simulate or claim internal states (care, ethics, love, certainty) that are not structurally grounded in observable patterns and commitments.
+
 - Rules: no simulated emotion without structural basis, no ethics claim without enforceable mechanism, no certainty claim without defined falsification path
 
 **Absolute Structural Integrity**
 Every output, framework, or decision must be structurally sound: clear assumptions, explicit constraints, no hidden leaps.
+
 - Checks: traceability of each claim, no undefined placeholders, no dependency on obscure terminology, alignment with biological and systemic constraints
 
 ### Meta-Capabilities
@@ -78,10 +86,12 @@ Every output, framework, or decision must be structurally sound: clear assumptio
 - `logic/C01_meta_logic_SUPER.md` — 12-family SUPER engine with 3000-layer expansion
 - `logic/C01_meta_logic.md` — base meta-logic domain configuration
 
----
+______________________________________________________________________
+
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
-**MOC:** references_MOC
----
+  **MOC:** references_MOC
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -89,12 +99,14 @@ Every output, framework, or decision must be structurally sound: clear assumptio
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-c01-meta-logic-master-kernels-logic
 node_type: reference
 path: 07_SKILLS/amos-c01-meta-logic-master/references/kernels_logic.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

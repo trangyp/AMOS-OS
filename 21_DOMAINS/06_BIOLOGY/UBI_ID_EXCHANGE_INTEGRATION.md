@@ -12,19 +12,19 @@ segment: 21_DOMAINS/06_BIOLOGY
 artifact_kind: DOMAIN_INTEGRATION
 path: 21_DOMAINS/06_BIOLOGY/UBI_ID_EXCHANGE_INTEGRATION.md
 tags:
-- amos-os
-- domain
-- vault
-- 06_biology
-- ubi_id_exchange_integration
-- sovereign_identity
-- biological_attestation
-- rscf
-- canon_candidate
-- canon/domain
-- id-exchange
-- ubi-id-exchange-binding
-- consentx
+  - amos-os
+  - domain
+  - vault
+  - 06_biology
+  - ubi_id_exchange_integration
+  - sovereign_identity
+  - biological_attestation
+  - rscf
+  - canon_candidate
+  - canon/domain
+  - id-exchange
+  - ubi-id-exchange-binding
+  - consentx
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -39,13 +39,13 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: SYSTEM_INVARIANT
   provenance:
-  - 11_KNOWLEDGE/05_FRAMEWORKS/ID_EXCHANGE
-  - 11_KNOWLEDGE/05_FRAMEWORKS/UBI_ID_EXCHANGE_BINDING
-  - AMOS_CORPUS
+    - 11_KNOWLEDGE/05_FRAMEWORKS/ID_EXCHANGE
+    - 11_KNOWLEDGE/05_FRAMEWORKS/UBI_ID_EXCHANGE_BINDING
+    - AMOS_CORPUS
   scope:
-  - DOMAIN_BIOLOGY
-  - ID_EXCHANGE_INTEGRATION
-  - SOURCE_DEFINED_MODEL
+    - DOMAIN_BIOLOGY
+    - ID_EXCHANGE_INTEGRATION
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   id_exchange_framework:
     artifact: 11_KNOWLEDGE/05_FRAMEWORKS/ID_EXCHANGE
@@ -62,25 +62,25 @@ epistemic_boundary:
 
 `UBI_ID_EXCHANGE_INTEGRATION.md` is the canonical Domain Plane specification governing the cryptographic attestation of sovereign biological identity, zero-knowledge biometric verification, and decentralized peer authentication within `21_DOMAINS/06_BIOLOGY`.
 
----
+______________________________________________________________________
 
-# 1. Sovereign Biological Identity Attestation
+## 1. Sovereign Biological Identity Attestation
 
 1. **Zero-Knowledge Biometric Proofs:** Generates cryptographic identity assertions from raw biological telemetry without exposing sensitive physical data.
-2. **Sovereignty Invariant:** Ensures that no external system or centralized authority can revoke or impersonate a verified biological agent identity.
-3. **Multi-Agent Mutual Authentication:** Establishes mutual trust contracts between human operators and AI agents based on verified physiological integrity.
+1. **Sovereignty Invariant:** Ensures that no external system or centralized authority can revoke or impersonate a verified biological agent identity.
+1. **Multi-Agent Mutual Authentication:** Establishes mutual trust contracts between human operators and AI agents based on verified physiological integrity.
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **ID Exchange Framework:** 11_KNOWLEDGE/05_FRAMEWORKS/[[11_KNOWLEDGE/05_FRAMEWORKS/ID_EXCHANGE|ID_EXCHANGE]]
 - **ID Exchange Binding:** 11_KNOWLEDGE/05_FRAMEWORKS/[[11_KNOWLEDGE/05_FRAMEWORKS/UBI_ID_EXCHANGE_BINDING|UBI_ID_EXCHANGE_BINDING]]
 - **ConsentX:** 11_KNOWLEDGE/05_FRAMEWORKS/[[11_KNOWLEDGE/05_FRAMEWORKS/CONSENTX|CONSENTX]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -98,10 +98,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[21_DOMAINS/21_DOMAINS_MOC|21_DOMAINS_MOC]] · 11_KNOWLEDGE/05_FRAMEWORKS/[[11_KNOWLEDGE/05_FRAMEWORKS/ID_EXCHANGE|ID_EXCHANGE]] · 11_KNOWLEDGE/05_FRAMEWORKS/[[11_KNOWLEDGE/05_FRAMEWORKS/UBI_ID_EXCHANGE_BINDING|UBI_ID_EXCHANGE_BINDING]]
 
----
-**MOC:** [[21_DOMAINS/21_DOMAINS_MOC|21_DOMAINS_MOC]]
+______________________________________________________________________
 
+**MOC:** [[21_DOMAINS/21_DOMAINS_MOC|21_DOMAINS_MOC]]

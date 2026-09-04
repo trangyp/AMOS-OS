@@ -1,58 +1,61 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: 25 Cognitive Matrix MOC
 type: moc
 source: 25_COGNITIVE_MATRIX
 tags:
-- 25-cognitive-matrix
-- domain/cognitive-matrix
-- amos-x-heritage
-- amos-x-heritage-matrix
-- amos-x-neurosyncai
-- amos-x-neurosyncai-matrix
-- amos-x-omega
-- amos-x-qcla
-- amos-x-qls
-- amos-x-qls-qcla-matrix
-- amos-x-tpe
-- amos-x-trang-reality
-- amos-x-trang-reality-matrix
-- amos-x-tss
-- amos-x-tss-tpe-matrix
-- amos-x-ubi
-- amos-x-ubi-matrix
-- amos-x-universe-canon-matrix
-- canon-x-domains
-- canon-x-knowledge
-- core-x-control-plane
-- core-x-control-plane-matrix
-- core-x-runtime
-- core-x-runtime-matrix
-- heritage-x-trang-zero
-- heritage-x-trang-zero-matrix
-- heritage-x-tss
-- heritage-x-tss-matrix
-- placeholder-seed-status
-- provenance-x-confidence
-- reality-x-rscf-matrix
-- reality-x-ulk
-- reality-x-ulk-matrix
-- rscf-x-gmef
-- total-canon-matrix
-- total-canon-relation-matrix
-- total-engine-matrix
-- total-framework-matrix
-- total-kernel-matrix
-- ubi-x-cognition
-- ubi-x-cognition-matrix
-- ubi-x-emotion
-- ubi-x-emotion-matrix
-- ubi-x-full-brain
-- ubi-x-full-brain-matrix
-- ubi-x-neurosyncai
-- ubi-x-neurosyncai-matrix
-- ulk-x-rscf
-- universe-x-omega-matrix
-- amos-home
+  - 25-cognitive-matrix
+  - domain/cognitive-matrix
+  - amos-x-heritage
+  - amos-x-heritage-matrix
+  - amos-x-neurosyncai
+  - amos-x-neurosyncai-matrix
+  - amos-x-omega
+  - amos-x-qcla
+  - amos-x-qls
+  - amos-x-qls-qcla-matrix
+  - amos-x-tpe
+  - amos-x-trang-reality
+  - amos-x-trang-reality-matrix
+  - amos-x-tss
+  - amos-x-tss-tpe-matrix
+  - amos-x-ubi
+  - amos-x-ubi-matrix
+  - amos-x-universe-canon-matrix
+  - canon-x-domains
+  - canon-x-knowledge
+  - core-x-control-plane
+  - core-x-control-plane-matrix
+  - core-x-runtime
+  - core-x-runtime-matrix
+  - heritage-x-trang-zero
+  - heritage-x-trang-zero-matrix
+  - heritage-x-tss
+  - heritage-x-tss-matrix
+  - placeholder-seed-status
+  - provenance-x-confidence
+  - reality-x-rscf-matrix
+  - reality-x-ulk
+  - reality-x-ulk-matrix
+  - rscf-x-gmef
+  - total-canon-matrix
+  - total-canon-relation-matrix
+  - total-engine-matrix
+  - total-framework-matrix
+  - total-kernel-matrix
+  - ubi-x-cognition
+  - ubi-x-cognition-matrix
+  - ubi-x-emotion
+  - ubi-x-emotion-matrix
+  - ubi-x-full-brain
+  - ubi-x-full-brain-matrix
+  - ubi-x-neurosyncai
+  - ubi-x-neurosyncai-matrix
+  - ulk-x-rscf
+  - universe-x-omega-matrix
+  - amos-home
 moc: true
 rscf:
   state: DERIVED
@@ -64,9 +67,17 @@ rscf:
 # 25 Cognitive Matrix — Map of Content
 
 **Path:** `25_COGNITIVE_MATRIX`
-**Files:** 50 | **Subdirectories:** 13
+**Files:** 52 | **Subdirectories:** 13
 
-## Files
+## 1. Core Architectural Specifications & Routing Monograph
+
+- [[25_COGNITIVE_MATRIX/AMOS_26_PLANE_COGNITIVE_MATRIX_TENSOR_ROUTING_MONOGRAPH|AMOS_26_PLANE_COGNITIVE_MATRIX_TENSOR_ROUTING_MONOGRAPH]] — **Foundational Architectural Monograph** on 4th-order tensor routing ($\mathcal{T}_{ijkl}$), graph Laplacian spectrum ($\lambda_2 = 3.42$), holographic HRR vector binding, and active inference routing.
+- [[25_COGNITIVE_MATRIX/HOLOGRAPHIC_TENSOR_NETWORK_ROUTING|HOLOGRAPHIC_TENSOR_NETWORK_ROUTING]] — Holographic tensor network routing protocols across discrete & continuous cognitive state spaces.
+- [[25_COGNITIVE_MATRIX/AMOS_COGNITIVE_ARCHITECTURE_MATRIX|AMOS_COGNITIVE_ARCHITECTURE_MATRIX]] — Structural decomposition of Full Brain OS cognitive matrices.
+- [[25_COGNITIVE_MATRIX/COGNITIVE_MATRIX_README|COGNITIVE_MATRIX_README]] — Plane overview, 26-plane topology, and holographic state projections.
+- [[25_COGNITIVE_MATRIX/COGNITIVE_MATRIX_COGNITIVE_MATRIX_CONTRACT|COGNITIVE_MATRIX_COGNITIVE_MATRIX_CONTRACT]] — Invariants governing continuous tensor routing and total graph reachability.
+
+## 2. Cross-Plane Matrix Files
 
 - [[25_COGNITIVE_MATRIX/AMOS_X_HERITAGE|AMOS_X_HERITAGE]]
 - [[25_COGNITIVE_MATRIX/AMOS_X_HERITAGE_MATRIX|AMOS_X_HERITAGE_MATRIX]]
@@ -87,8 +98,6 @@ rscf:
 - [[25_COGNITIVE_MATRIX/AMOS_X_UNIVERSE_CANON_MATRIX|AMOS_X_UNIVERSE_CANON_MATRIX]]
 - [[25_COGNITIVE_MATRIX/CANON_X_DOMAINS|CANON_X_DOMAINS]]
 - [[25_COGNITIVE_MATRIX/CANON_X_KNOWLEDGE|CANON_X_KNOWLEDGE]]
-- [[25_COGNITIVE_MATRIX/COGNITIVE_MATRIX_COGNITIVE_MATRIX_CONTRACT|COGNITIVE_MATRIX_COGNITIVE_MATRIX_CONTRACT]]
-- [[25_COGNITIVE_MATRIX/COGNITIVE_MATRIX_README|COGNITIVE_MATRIX_README]]
 - [[25_COGNITIVE_MATRIX/CORE_X_CONTROL_PLANE|CORE_X_CONTROL_PLANE]]
 - [[25_COGNITIVE_MATRIX/CORE_X_CONTROL_PLANE_MATRIX|CORE_X_CONTROL_PLANE_MATRIX]]
 - [[25_COGNITIVE_MATRIX/CORE_X_RUNTIME|CORE_X_RUNTIME]]
@@ -135,11 +144,10 @@ rscf:
 - [[25_COGNITIVE_MATRIX/11_VALIDATION/11_VALIDATION_MOC|11_VALIDATION_MOC]] — 11_VALIDATION
 - [[25_COGNITIVE_MATRIX/12_GENERATORS/12_GENERATORS_MOC|12_GENERATORS_MOC]] — 12_GENERATORS
 
----
+______________________________________________________________________
 
 **Parent:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]
 
----
+______________________________________________________________________
 
 **Related:** [[01_CANON/01_CANON_MOC|01_CANON_MOC]] · [[02_KERNEL/02_KERNEL_MOC|02_KERNEL_MOC]] · [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE_MOC]] · [[11_KNOWLEDGE/11_KNOWLEDGE_MOC|11_KNOWLEDGE_MOC]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · [[08_WORKFLOWS/08_WORKFLOWS_MOC|08_WORKFLOWS_MOC]]
-

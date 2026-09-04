@@ -1,16 +1,18 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: AGENT NAMING AUDIT
 type: agent
 name: agent-naming-audit
 version: 1.0.0
 source: AGENT_SCHEMA.md, Agent_Templates.md, amos-agent-registry-index.md
-description: AMOS agent naming and structure audit produced from .devin/agents across
-  the vault.
+description: AMOS agent naming and structure audit produced from .devin/agents across the vault.
 tags:
-- note
-- 07-skills
-- type/skill
-- skill
+  - note
+  - 07-skills
+  - type/skill
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -21,44 +23,45 @@ rscf:
 # AMOS Agent Naming Audit
 
 ## Scope
+
 - Tree scanned: `.devin/agents`
 - Total agent JSON files: 834
 - Non-JSON or unreadable: 0
 
 ## Issue Summary (before / after)
 
-| Issue | Before | After | Notes |
-|-------|-------:|------:|-------|
-| Files with `name` not matching filename | 213 | 0 | All `name` fields normalized to filename slug |
-| Files missing required schema fields | 407 | 0 | All 834 now satisfy the Agent Structure Standard |
-| Short `description` (< 80 chars) | 78 | 0 | Re-extracted from `## Description` / `## Identity` / `## Purpose`; fallback contextualized for no-skill cases |
-| Placeholder `Agent for amos-...` descriptions | 209 | 0 | First pass already cleared; re-verified clean |
-| Double `amos-` prefix files | 0 | 0 | Prior pass removed `amos-amos-*` doubles |
-| JSON parse errors | 0 | 0 | — |
+| Issue                                         | Before | After | Notes                                                                                                         |
+| --------------------------------------------- | -----: | ----: | ------------------------------------------------------------------------------------------------------------- |
+| Files with `name` not matching filename       |    213 |     0 | All `name` fields normalized to filename slug                                                                 |
+| Files missing required schema fields          |    407 |     0 | All 834 now satisfy the Agent Structure Standard                                                              |
+| Short `description` (< 80 chars)              |     78 |     0 | Re-extracted from `## Description` / `## Identity` / `## Purpose`; fallback contextualized for no-skill cases |
+| Placeholder `Agent for amos-...` descriptions |    209 |     0 | First pass already cleared; re-verified clean                                                                 |
+| Double `amos-` prefix files                   |      0 |     0 | Prior pass removed `amos-amos-*` doubles                                                                      |
+| JSON parse errors                             |      0 |     0 | —                                                                                                             |
 
 ## Decorative / Source-Protected Filename Terms
 
 228 agent filenames contain decorative or depth/suffix tokens. These were **not** renamed automatically because they may be source-defined:
 
-| Token | Count | Examples |
-|-------|------:|----------|
-| `super` | 31 | `amos-c01-meta-logic-super-agent` |
-| `full` | 19 | `amos-fractal-runtime-cells-full-agent` |
-| `x100k` | 11 | `amos-brain-superxc-ubi-cognitive-max-agent` (compound) |
-| `x1000` | 3 | `amos-orchestrator-routing-x1000-agent` |
-| `x3000` | 3 | `amos-c03-physics-cosmos-x3000-agent` |
-| `50000` | 2 | `amos-wealth-game-50000-fractal-quantum-economy-agent` |
-| `30000` | 2 | `amos-strict-fractal-30000-quantum-atlas-agent` |
-| `25000` | 2 | `amos-math-fractal-25000-quantum-bridge-agent` |
-| `5000` | 1 | `amos-fractal-architecture-framework-5000-agent` |
-| `vinfinity` | 9 | `amos-universe-kernel-vinfinity-agent` |
-| `v0`, `v1`, `v2` | 33 | `amos-control-systems-kernel-v0-agent` |
-| `omega` | 5 | `amos-omega-thinking-engine-with-coding-agent` |
-| `master` | 4 | `amos-quantum-fractal-math-master-agent` |
-| `ultimate` | 2 | `amos-quantum-fractal-math-ultimate-agent` |
-| `core7` | 4 | `amos-quantum-stack-core7-agent` |
-| `domains7` | 2 | `amos-unified-coding-engine-v0-domains7-agent` |
-| `cognitive4` | 3 | `amos-electrical-power-engine-v0-cognitive4-agent` |
+| Token            | Count | Examples                                                |
+| ---------------- | ----: | ------------------------------------------------------- |
+| `super`          |    31 | `amos-c01-meta-logic-super-agent`                       |
+| `full`           |    19 | `amos-fractal-runtime-cells-full-agent`                 |
+| `x100k`          |    11 | `amos-brain-superxc-ubi-cognitive-max-agent` (compound) |
+| `x1000`          |     3 | `amos-orchestrator-routing-x1000-agent`                 |
+| `x3000`          |     3 | `amos-c03-physics-cosmos-x3000-agent`                   |
+| `50000`          |     2 | `amos-wealth-game-50000-fractal-quantum-economy-agent`  |
+| `30000`          |     2 | `amos-strict-fractal-30000-quantum-atlas-agent`         |
+| `25000`          |     2 | `amos-math-fractal-25000-quantum-bridge-agent`          |
+| `5000`           |     1 | `amos-fractal-architecture-framework-5000-agent`        |
+| `vinfinity`      |     9 | `amos-universe-kernel-vinfinity-agent`                  |
+| `v0`, `v1`, `v2` |    33 | `amos-control-systems-kernel-v0-agent`                  |
+| `omega`          |     5 | `amos-omega-thinking-engine-with-coding-agent`          |
+| `master`         |     4 | `amos-quantum-fractal-math-master-agent`                |
+| `ultimate`       |     2 | `amos-quantum-fractal-math-ultimate-agent`              |
+| `core7`          |     4 | `amos-quantum-stack-core7-agent`                        |
+| `domains7`       |     2 | `amos-unified-coding-engine-v0-domains7-agent`          |
+| `cognitive4`     |     3 | `amos-electrical-power-engine-v0-cognitive4-agent`      |
 
 ## Rename / Normalization Manifest
 
@@ -132,9 +135,9 @@ The current canonical count in `amos-agent-registry-index.md` is **674** agents.
 ## Next Steps
 
 1. Review the 228 decorative/suffix agent filenames for source-protected vs cosmetic terms.
-2. Decide whether to rename files to the `amos-{role}-agent` plain form and update any in-vault wikilinks.
-3. Verify `depends_on_workflows` mappings against the actual `.devin/workflows/` inventory.
-4. Refresh `amos-agent-registry-index.md` to reflect the full 834-agent set if desired.
+1. Decide whether to rename files to the `amos-{role}-agent` plain form and update any in-vault wikilinks.
+1. Verify `depends_on_workflows` mappings against the actual `.devin/workflows/` inventory.
+1. Refresh `amos-agent-registry-index.md` to reflect the full 834-agent set if desired.
 
 ### v4 — Filename Rename to Naming Standard
 
@@ -148,5 +151,6 @@ Decorative/suffix tokens removed from filenames: `full`, `complete`, `super`, `u
 
 `depends_on_skills` arrays were re-pointed at the canonical post-rename skill names in each tree. The full manifest is in `07_SKILLS/AGENT_RENAME_PASS.json`.
 
----
+______________________________________________________________________
+
 **MOC:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

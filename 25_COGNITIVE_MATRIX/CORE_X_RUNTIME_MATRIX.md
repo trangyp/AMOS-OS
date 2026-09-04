@@ -12,60 +12,60 @@ segment: 25_COGNITIVE_MATRIX
 artifact_kind: MATRIX_TABLE
 path: 25_COGNITIVE_MATRIX/CORE_X_RUNTIME_MATRIX.md
 tags:
-- amos-os
-- cognitive-matrix
-- vault
-- core_x_runtime_matrix
-- matrix_table
-- runtime_dispatch
-- runtime_pipeline
-- boot
-- router
-- execution
-- finalization
-- deterministic_engine
-- local_proof_finalizer
-- safe_route
-- rollback
-- proof_capsule
-- substrate_integrity
-- null_invariant
-- mece_route_decomposition
-- syntax_invariant_logic
-- law_of_law
-- dependency_closure
-- causal_epoch
-- mvcc
-- cas
-- atomic_multi_rscf
-- shard_local_finalization
-- proof_based_coordination_avoidance
-- provenance
-- scope
-- regime
-- rscf
-- canon_candidate
-- canon/matrix
-- core-x-runtime
-- validation
-- memory
-- full-brain-bootstrap
-- canon
-- law/L19-proof-capsule
-- local-proof-finalizer
-- readme
-- architecture
-- k-rscf
-- k-hml
-- k-gmef
-- k-provenance
-- k-provenance-topology
-- k-failure-recovery
-- k-causal-epoch
-- k-mvcc
-- k-cas
-- k-atomic-multi-rscf
-- amos-core-v4-4
+  - amos-os
+  - cognitive-matrix
+  - vault
+  - core_x_runtime_matrix
+  - matrix_table
+  - runtime_dispatch
+  - runtime_pipeline
+  - boot
+  - router
+  - execution
+  - finalization
+  - deterministic_engine
+  - local_proof_finalizer
+  - safe_route
+  - rollback
+  - proof_capsule
+  - substrate_integrity
+  - null_invariant
+  - mece_route_decomposition
+  - syntax_invariant_logic
+  - law_of_law
+  - dependency_closure
+  - causal_epoch
+  - mvcc
+  - cas
+  - atomic_multi_rscf
+  - shard_local_finalization
+  - proof_based_coordination_avoidance
+  - provenance
+  - scope
+  - regime
+  - rscf
+  - canon_candidate
+  - canon/matrix
+  - core-x-runtime
+  - validation
+  - memory
+  - full-brain-bootstrap
+  - canon
+  - law/L19-proof-capsule
+  - local-proof-finalizer
+  - readme
+  - architecture
+  - k-rscf
+  - k-hml
+  - k-gmef
+  - k-provenance
+  - k-provenance-topology
+  - k-failure-recovery
+  - k-causal-epoch
+  - k-mvcc
+  - k-cas
+  - k-atomic-multi-rscf
+  - amos-core-v4-4
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -82,25 +82,25 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - 25_COGNITIVE_MATRIX/CORE_X_RUNTIME
-  - 04_RUNTIME/04_RUNTIME_MOC
-  - AMOS_CORPUS
+    - 25_COGNITIVE_MATRIX/CORE_X_RUNTIME
+    - 04_RUNTIME/04_RUNTIME_MOC
+    - AMOS_CORPUS
   scope:
-  - COGNITIVE_MATRIX
-  - CROSS_PLANE_MATRIX_TABLE
-  - RUNTIME_STAGE_ROUTING
-  - SOURCE_DEFINED_MODEL
+    - COGNITIVE_MATRIX
+    - CROSS_PLANE_MATRIX_TABLE
+    - RUNTIME_STAGE_ROUTING
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   matrix_spec:
     artifact:
-    - - CORE_X_RUNTIME
+      -   - CORE_X_RUNTIME
   runtime_moc:
     artifact: 04_RUNTIME/04_RUNTIME_MOC
   canon_moc:
     artifact: 01_CANON/01_CANON_MOC
   cognitive_matrix:
     artifact:
-    - - 25_COGNITIVE_MATRIX_MOC
+      -   - 25_COGNITIVE_MATRIX_MOC
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   matrix_structure: VERIFIED_SOURCE_STRUCTURE
@@ -122,7 +122,7 @@ epistemic_boundary:
 
 The source establishes four explicit stage mappings:
 
-```text
+````text
 01_BOOT
    ↓
 02_ROUTER
@@ -139,15 +139,15 @@ SUBSYSTEM MODULE
 PRIMARY INVARIANT ENFORCED
 
 FAILURE ACTION
-```
+````
 
 The matrix is therefore a **cross-plane routing specification**.
 
 It is not, by itself, evidence that the corresponding runtime pipeline is executable, deployed, or formally verified.
 
----
+______________________________________________________________________
 
-# 0. Epistemic Boundary
+## 0. Epistemic Boundary
 
 The supplied source directly establishes the presence and structure of this matrix table.
 
@@ -225,22 +225,22 @@ SpecifiedFailureAction
 ObservedFailureBehavior
 $$
 
----
+______________________________________________________________________
 
-# 1. Core-to-Runtime Stage Routing Grid
+## 1. Core-to-Runtime Stage Routing Grid
 
-| Runtime Stage       | Subsystem Module        | Primary Invariant Enforced                                        | Failure Action                 |
-| :------------------ | :---------------------- | :---------------------------------------------------------------- | :----------------------------- |
-| **01_BOOT**         | Full Brain Bootstrap    | Substrate Integrity & Null Invariant (\(S_0\))                    | System Halts                   |
-| **02_ROUTER**       | Cognitive Matrix Router | MECE Route Decomposition                                          | Fallback to Default Safe Route |
-| **06_EXECUTION**    | Deterministic Engine    | Syntax-Invariant Logic Closure                                    | Emits Error Proof Capsule      |
-| **09_FINALIZATION** | Local Proof Finalizer   | Law of Law (\(\mathcal{C}, \mathcal{E}, \mathcal{F}\)) Compliance | Triggers Automatic Rollback    |
+| Runtime Stage       | Subsystem Module        | Primary Invariant Enforced                                         | Failure Action                 |
+| :------------------ | :---------------------- | :----------------------------------------------------------------- | :----------------------------- |
+| **01_BOOT**         | Full Brain Bootstrap    | Substrate Integrity & Null Invariant ((S_0))                       | System Halts                   |
+| **02_ROUTER**       | Cognitive Matrix Router | MECE Route Decomposition                                           | Fallback to Default Safe Route |
+| **06_EXECUTION**    | Deterministic Engine    | Syntax-Invariant Logic Closure                                     | Emits Error Proof Capsule      |
+| **09_FINALIZATION** | Local Proof Finalizer   | Law of Law ((\\mathcal{C}, \\mathcal{E}, \\mathcal{F})) Compliance | Triggers Automatic Rollback    |
 
 This four-row grid is the decisive source structure of the artifact.
 
----
+______________________________________________________________________
 
-# 2. Matrix Identity
+## 2. Matrix Identity
 
 The matrix can be normalized as:
 
@@ -257,10 +257,10 @@ $$
 
 where:
 
-* \(R_B\) = Boot routing contract;
-* \(R_R\) = Router routing contract;
-* \(R_E\) = Execution routing contract;
-* \(R_F\) = Finalization routing contract.
+- (R_B) = Boot routing contract;
+- (R_R) = Router routing contract;
+- (R_E) = Execution routing contract;
+- (R_F) = Finalization routing contract.
 
 Each route has the conceptual tuple:
 
@@ -277,9 +277,9 @@ $$
 
 This tuple representation is derived from the source table.
 
----
+______________________________________________________________________
 
-# 3. Cross-Plane Architecture
+## 3. Cross-Plane Architecture
 
 The source links:
 
@@ -315,9 +315,9 @@ BOUNDED RUNTIME BEHAVIOR
 
 The final arrow is architectural rather than runtime-verified.
 
----
+______________________________________________________________________
 
-# 4. Runtime Stage Spine
+## 4. Runtime Stage Spine
 
 The source explicitly identifies:
 
@@ -349,9 +349,9 @@ COMPLETE ENUMERATION OF EVERY RUNTIME STAGE
 
 unless the referenced `04_RUNTIME` source establishes that separately.
 
----
+______________________________________________________________________
 
-# 5. Stage Ordering Boundary
+## 5. Stage Ordering Boundary
 
 The numeric identifiers support the source-defined ordering:
 
@@ -393,9 +393,9 @@ COMPLETE DIRECT PIPELINE
 
 is not established by this matrix alone.
 
----
+______________________________________________________________________
 
-# 6. 01_BOOT Route
+## 6. 01_BOOT Route
 
 Source-defined route:
 
@@ -426,9 +426,9 @@ Halt
 \rangle
 $$
 
----
+______________________________________________________________________
 
-# 7. Boot Stage Role
+## 7. Boot Stage Role
 
 The source assigns `01_BOOT` to:
 
@@ -446,9 +446,9 @@ Null Invariant (S₀)
 
 The exact implementation and meaning of "Full Brain" are not established here.
 
----
+______________________________________________________________________
 
-# 8. Substrate Integrity
+## 8. Substrate Integrity
 
 `Substrate Integrity` is explicitly named by the source.
 
@@ -480,9 +480,9 @@ MEMORY BOUNDARY
 
 These remain dependency gaps unless established elsewhere.
 
----
+______________________________________________________________________
 
-# 9. Null Invariant \(S_0\)
+## 9. Null Invariant (S_0)
 
 The source explicitly references:
 
@@ -513,9 +513,9 @@ S₀ FORMAL SEMANTICS:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 10. Boot Failure Action
+## 10. Boot Failure Action
 
 The source defines:
 
@@ -537,9 +537,9 @@ within the source model.
 
 This does not establish that a deployed system actually performs such a halt.
 
----
+______________________________________________________________________
 
-# 11. Boot Fail-Closed Interpretation
+## 11. Boot Fail-Closed Interpretation
 
 The source failure action is stronger than a fallback or warning:
 
@@ -559,9 +559,9 @@ DERIVED
 
 rather than an independently verified runtime property.
 
----
+______________________________________________________________________
 
-# 12. Boot Contract
+## 12. Boot Contract
 
 ```yaml
 Boot_Route:
@@ -586,9 +586,9 @@ Boot_Route:
     NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 13. Boot Proof Capsule
+## 13. Boot Proof Capsule
 
 ```yaml
 Proof_Capsule:
@@ -622,9 +622,9 @@ Proof_Capsule:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 14. 02_ROUTER Route
+## 14. 02_ROUTER Route
 
 Source-defined route:
 
@@ -655,9 +655,9 @@ SafeFallback
 \rangle
 $$
 
----
+______________________________________________________________________
 
-# 15. Cognitive Matrix Router
+## 15. Cognitive Matrix Router
 
 The source explicitly names:
 
@@ -671,9 +671,9 @@ This establishes architectural identity.
 
 It does not establish executable router code or deployed runtime behavior.
 
----
+______________________________________________________________________
 
-# 16. MECE Route Decomposition
+## 16. MECE Route Decomposition
 
 The source defines:
 
@@ -697,9 +697,9 @@ MECE ROUTING ALGORITHM:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 17. Router Decomposition Model
+## 17. Router Decomposition Model
 
 A conservative normalization is:
 
@@ -719,9 +719,9 @@ constraint.
 
 No stronger claim about exhaustive mathematical partitioning should be made without the governing router specification.
 
----
+______________________________________________________________________
 
-# 18. Router Failure Action
+## 18. Router Failure Action
 
 The source defines:
 
@@ -741,9 +741,9 @@ within the model.
 
 The identity and semantics of the Default Safe Route are not supplied here.
 
----
+______________________________________________________________________
 
-# 19. Default Safe Route Gap
+## 19. Default Safe Route Gap
 
 The matrix establishes the existence of the term:
 
@@ -781,9 +781,9 @@ EXACT SAFE ROUTE:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 20. Safe Fallback Boundary
+## 20. Safe Fallback Boundary
 
 A route called "safe" in the source remains a source-defined safety designation.
 
@@ -797,9 +797,9 @@ NamedSafeRoute
 EmpiricallyValidatedSafeRoute
 $$
 
----
+______________________________________________________________________
 
-# 21. Router Contract
+## 21. Router Contract
 
 ```yaml
 Router_Route:
@@ -826,9 +826,9 @@ Router_Route:
     NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 22. Router Proof Capsule
+## 22. Router Proof Capsule
 
 ```yaml
 Proof_Capsule:
@@ -862,9 +862,9 @@ Proof_Capsule:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 23. 06_EXECUTION Route
+## 23. 06_EXECUTION Route
 
 Source-defined route:
 
@@ -895,9 +895,9 @@ ErrorProofCapsule
 \rangle
 $$
 
----
+______________________________________________________________________
 
-# 24. Deterministic Engine
+## 24. Deterministic Engine
 
 The source explicitly assigns:
 
@@ -917,9 +917,9 @@ DETERMINISTIC ENGINE
 
 This does not establish that every possible computation performed by AMOS is deterministic.
 
----
+______________________________________________________________________
 
-# 25. Determinism Scope Firewall
+## 25. Determinism Scope Firewall
 
 The matrix's use of:
 
@@ -955,9 +955,9 @@ NONDETERMINISTIC ENVIRONMENTS
 
 unless independently supported.
 
----
+______________________________________________________________________
 
-# 26. Syntax-Invariant Logic Closure
+## 26. Syntax-Invariant Logic Closure
 
 The source explicitly identifies:
 
@@ -984,9 +984,9 @@ FORMAL DEFINITION:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 27. Logic Closure Boundary
+## 27. Logic Closure Boundary
 
 A conservative derived interpretation is that execution should not depend on superficial syntactic variation where the underlying logic is equivalent.
 
@@ -998,9 +998,9 @@ DERIVED
 
 and must not replace the governing formal definition if another source supplies one.
 
----
+______________________________________________________________________
 
-# 28. Execution Failure Action
+## 28. Execution Failure Action
 
 The source defines:
 
@@ -1020,9 +1020,9 @@ $$
 
 within the source model.
 
----
+______________________________________________________________________
 
-# 29. Error Proof Capsule
+## 29. Error Proof Capsule
 
 The source establishes the artifact type:
 
@@ -1063,9 +1063,9 @@ Error_Proof_Capsule:
 
 This schema is derived, not source-verbatim.
 
----
+______________________________________________________________________
 
-# 30. Proof Capsule Boundary
+## 30. Proof Capsule Boundary
 
 An Error Proof Capsule is not automatically a formal mathematical proof.
 
@@ -1079,9 +1079,9 @@ $$
 
 unless the capsule contains and satisfies an independently established formal proof system.
 
----
+______________________________________________________________________
 
-# 31. Execution Contract
+## 31. Execution Contract
 
 ```yaml
 Execution_Route:
@@ -1105,9 +1105,9 @@ Execution_Route:
     NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 32. Execution Proof Capsule
+## 32. Execution Proof Capsule
 
 ```yaml
 Proof_Capsule:
@@ -1139,9 +1139,9 @@ Proof_Capsule:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 33. 09_FINALIZATION Route
+## 33. 09_FINALIZATION Route
 
 Source-defined route:
 
@@ -1172,9 +1172,9 @@ AutomaticRollback
 \rangle
 $$
 
----
+______________________________________________________________________
 
-# 34. Local Proof Finalizer
+## 34. Local Proof Finalizer
 
 The source explicitly identifies:
 
@@ -1200,9 +1200,9 @@ EXACT LOCALITY SEMANTICS:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 35. Law of Law
+## 35. Law of Law
 
 The source explicitly identifies:
 
@@ -1227,9 +1227,9 @@ $$
 
 Therefore they must remain unresolved symbols rather than being invented.
 
----
+______________________________________________________________________
 
-# 36. Law-of-Law Symbol Boundary
+## 36. Law-of-Law Symbol Boundary
 
 Current classification:
 
@@ -1257,9 +1257,9 @@ Meaning(\mathcal{C},\mathcal{E},\mathcal{F})
 UNKNOWN/GAP
 $$
 
----
+______________________________________________________________________
 
-# 37. Finalization Compliance
+## 37. Finalization Compliance
 
 The source states:
 
@@ -1283,9 +1283,9 @@ $$
 
 The exact compliance predicate is not established.
 
----
+______________________________________________________________________
 
-# 38. Finalization Failure Action
+## 38. Finalization Failure Action
 
 The source specifies:
 
@@ -1305,9 +1305,9 @@ within the source model.
 
 This does not establish an implemented rollback mechanism.
 
----
+______________________________________________________________________
 
-# 39. Automatic Rollback Boundary
+## 39. Automatic Rollback Boundary
 
 The term `Automatic Rollback` establishes a modeled recovery behavior.
 
@@ -1335,9 +1335,9 @@ EXTERNAL-SIDE-EFFECT REVERSAL
 
 These remain unresolved.
 
----
+______________________________________________________________________
 
-# 40. Finalization Contract
+## 40. Finalization Contract
 
 ```yaml
 Finalization_Route:
@@ -1367,9 +1367,9 @@ Finalization_Route:
     NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 41. Finalization Proof Capsule
+## 41. Finalization Proof Capsule
 
 ```yaml
 Proof_Capsule:
@@ -1403,9 +1403,9 @@ Proof_Capsule:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 42. Failure-Action Matrix
+## 42. Failure-Action Matrix
 
 The four source-defined failure actions are deliberately non-identical:
 
@@ -1418,9 +1418,9 @@ The four source-defined failure actions are deliberately non-identical:
 
 The response-class column is a derived categorization.
 
----
+______________________________________________________________________
 
-# 43. Failure Semantics
+## 43. Failure Semantics
 
 The matrix therefore does **not** specify one universal failure policy.
 
@@ -1444,9 +1444,9 @@ PROOF CAPSULE
 ROLLBACK
 ```
 
----
+______________________________________________________________________
 
-# 44. Stage-Local Failure Handling
+## 44. Stage-Local Failure Handling
 
 A derived architectural principle is:
 
@@ -1465,9 +1465,9 @@ SYSTEM HALTS
 
 so stage-local repair must never override an explicit source-defined failure action.
 
----
+______________________________________________________________________
 
-# 45. Failure Escalation Gradient
+## 45. Failure Escalation Gradient
 
 The source supports different responses, but does not explicitly define a severity hierarchy among them.
 
@@ -1485,9 +1485,9 @@ $$
 
 would be a derived model and must not be presented as source canon without additional evidence.
 
----
+______________________________________________________________________
 
-# 46. Runtime Matrix Contract
+## 46. Runtime Matrix Contract
 
 ```yaml
 Core_X_Runtime_Matrix:
@@ -1538,9 +1538,9 @@ Core_X_Runtime_Matrix:
       TRIGGER_AUTOMATIC_ROLLBACK
 ```
 
----
+______________________________________________________________________
 
-# 47. Stage Invariant Principle
+## 47. Stage Invariant Principle
 
 Each source-defined runtime stage carries a primary invariant.
 
@@ -1562,9 +1562,9 @@ Primary Invariant Enforced
 
 Therefore secondary invariants may exist elsewhere.
 
----
+______________________________________________________________________
 
-# 48. Primary-Invariant Boundary
+## 48. Primary-Invariant Boundary
 
 The source supports:
 
@@ -1580,9 +1580,9 @@ ONLY INVARIANT
 
 This distinction must be preserved during canon ingestion.
 
----
+______________________________________________________________________
 
-# 49. Stage Failure Principle
+## 49. Stage Failure Principle
 
 For each routed stage:
 
@@ -1596,9 +1596,9 @@ within the conceptual model.
 
 Runtime enforcement remains unknown.
 
----
+______________________________________________________________________
 
-# 50. Core × Runtime Specification Relationship
+## 50. Core × Runtime Specification Relationship
 
 The matrix counterpart is:
 
@@ -1622,9 +1622,9 @@ RUNTIME STAGE MAPPINGS
 
 The two artifacts should remain distinct.
 
----
+______________________________________________________________________
 
-# 51. Specification vs Matrix
+## 51. Specification vs Matrix
 
 `CORE_X_RUNTIME` is the referenced specification.
 
@@ -1646,9 +1646,9 @@ Specification
 MatrixTable
 $$
 
----
+______________________________________________________________________
 
-# 52. Inter-Plane Connections
+## 52. Inter-Plane Connections
 
 The source explicitly connects:
 
@@ -1677,9 +1677,9 @@ CORE_X_RUNTIME_MATRIX
 
 The exact dependency direction beyond the explicit references should be governed by the authoritative MOCs.
 
----
+______________________________________________________________________
 
-# 53. Canon Plane Boundary
+## 53. Canon Plane Boundary
 
 Referenced:
 
@@ -1699,9 +1699,9 @@ However, the four table rows name runtime invariants rather than explicitly labe
 
 Therefore no exact L0–L3 row mapping should be invented from this artifact alone.
 
----
+______________________________________________________________________
 
-# 54. Runtime Plane Boundary
+## 54. Runtime Plane Boundary
 
 Referenced:
 
@@ -1721,9 +1721,9 @@ DO_NOT_LOAD_UNLESS_REQUIRED
 
 under the artifact policy.
 
----
+______________________________________________________________________
 
-# 55. Cognitive Matrix Boundary
+## 55. Cognitive Matrix Boundary
 
 The artifact belongs to:
 
@@ -1739,9 +1739,9 @@ MATRIX_TABLE
 
 Its function is cross-plane mapping, not runtime execution itself.
 
----
+______________________________________________________________________
 
-# 56. RSCF Stage Frame
+## 56. RSCF Stage Frame
 
 Each routed stage can be represented as:
 
@@ -1773,9 +1773,9 @@ RSCF_Stage:
 
 This is a derived normalization.
 
----
+______________________________________________________________________
 
-# 57. RSCF Boot Frame
+## 57. RSCF Boot Frame
 
 ```yaml
 RSCF:
@@ -1815,9 +1815,9 @@ RSCF:
       UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 58. RSCF Router Frame
+## 58. RSCF Router Frame
 
 ```yaml
 RSCF:
@@ -1856,9 +1856,9 @@ RSCF:
       UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 59. RSCF Execution Frame
+## 59. RSCF Execution Frame
 
 ```yaml
 RSCF:
@@ -1897,9 +1897,9 @@ RSCF:
       UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 60. RSCF Finalization Frame
+## 60. RSCF Finalization Frame
 
 ```yaml
 RSCF:
@@ -1938,9 +1938,9 @@ RSCF:
       UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 61. Atomic Multi-RSCF Runtime Reasoning
+## 61. Atomic Multi-RSCF Runtime Reasoning
 
 For an operation spanning several routed stages, a derived AMOS-compatible representation is:
 
@@ -1970,9 +1970,9 @@ VALIDITY
 
 This is a reasoning representation, not evidence of literal distributed transactions.
 
----
+______________________________________________________________________
 
-# 62. Atomic Finalization Boundary
+## 62. Atomic Finalization Boundary
 
 A consequential finalization should not erase failures in load-bearing upstream stages.
 
@@ -1986,9 +1986,9 @@ $$
 
 If an upstream dependency is invalid, the dependent finalization conclusion must be reconsidered.
 
----
+______________________________________________________________________
 
-# 63. Dependency Closure
+## 63. Dependency Closure
 
 For a route through this matrix, the smallest relevant dependency set may include:
 
@@ -2016,9 +2016,9 @@ PROVENANCE
 
 Only dependencies capable of altering the decision need to be loaded.
 
----
+______________________________________________________________________
 
-# 64. Raw Source Policy
+## 64. Raw Source Policy
 
 The artifact explicitly states:
 
@@ -2041,9 +2041,9 @@ RAW IMPLEMENTATION EVIDENCE
 
 should be traversed only as required by the question or validation need.
 
----
+______________________________________________________________________
 
-# 65. Fast-Path Eligibility
+## 65. Fast-Path Eligibility
 
 A stage-local reasoning fast path is conceptually eligible only when:
 
@@ -2065,9 +2065,9 @@ NO MATERIAL CONFLICT
 FRESHNESS SUFFICIENT
 ```
 
----
+______________________________________________________________________
 
-# 66. Fast-Path Escalation
+## 66. Fast-Path Escalation
 
 Escalate when:
 
@@ -2093,9 +2093,9 @@ CROSS-STAGE DEPENDENCIES ARE UNCLEAR
 PROVENANCE IS CORRELATED OR CONFLICTING
 ```
 
----
+______________________________________________________________________
 
-# 67. Proof-Based Coordination Avoidance
+## 67. Proof-Based Coordination Avoidance
 
 If a decision depends only on one independently closed stage frame:
 
@@ -2111,9 +2111,9 @@ But locality must be demonstrated through dependency closure.
 
 The stage label alone does not prove independence.
 
----
+______________________________________________________________________
 
-# 68. Local Proof Finalization
+## 68. Local Proof Finalization
 
 The source explicitly names:
 
@@ -2135,9 +2135,9 @@ CAUSAL EPOCH FINALITY
 
 unless those are independently bound by the governing Core/Runtime sources.
 
----
+______________________________________________________________________
 
-# 69. Shard-Local Finalization Compatibility
+## 69. Shard-Local Finalization Compatibility
 
 A v4.4-compatible derived interpretation is:
 
@@ -2155,9 +2155,9 @@ This is a derived compatibility model.
 
 It is not a claim that `Local Proof Finalizer` literally implements shard-local distributed finalization.
 
----
+______________________________________________________________________
 
-# 70. Causal Epoch Binding
+## 70. Causal Epoch Binding
 
 A runtime-stage result may conceptually bind to an epoch:
 
@@ -2177,9 +2177,9 @@ then dependent finalization may require revalidation.
 
 No literal causal-epoch runtime implementation is established by this matrix.
 
----
+______________________________________________________________________
 
-# 71. MVCC-Compatible Runtime Reasoning
+## 71. MVCC-Compatible Runtime Reasoning
 
 Conceptually:
 
@@ -2199,9 +2199,9 @@ This is compatible with AMOS MVCC reasoning.
 
 It is not source evidence that the Runtime Plane implements MVCC.
 
----
+______________________________________________________________________
 
-# 72. CAS-Compatible Finalization
+## 72. CAS-Compatible Finalization
 
 Conceptually:
 
@@ -2225,9 +2225,9 @@ then finalization should not silently proceed on stale premises.
 
 The actual rollback/failure semantics remain implementation-dependent.
 
----
+______________________________________________________________________
 
-# 73. Persistent Provenance
+## 73. Persistent Provenance
 
 Each stage should conceptually preserve the lineage of load-bearing inputs and decisions.
 
@@ -2243,9 +2243,9 @@ FINALIZATION DECISION
 
 A later stage should not erase the provenance needed to reconstruct an earlier failure.
 
----
+______________________________________________________________________
 
-# 74. Provenance Topology
+## 74. Provenance Topology
 
 Multiple runtime artifacts do not provide independent confirmation if they descend from the same source.
 
@@ -2267,9 +2267,9 @@ ArtifactCount
 IndependentEvidenceCount
 $$
 
----
+______________________________________________________________________
 
-# 75. Epistemic Type Preservation
+## 75. Epistemic Type Preservation
 
 Runtime routing must preserve distinctions among:
 
@@ -2289,9 +2289,9 @@ UNKNOWN
 
 A value passing through `06_EXECUTION` does not become verified merely because the Deterministic Engine processed it.
 
----
+______________________________________________________________________
 
-# 76. Deterministic Processing Firewall
+## 76. Deterministic Processing Firewall
 
 $$
 DeterministicProcessing(FalsePremise)
@@ -2315,9 +2315,9 @@ LogicClosure
 EvidenceValidity
 $$
 
----
+______________________________________________________________________
 
-# 77. Router Safety Firewall
+## 77. Router Safety Firewall
 
 A default fallback route does not establish the truth of the underlying task assumptions.
 
@@ -2331,9 +2331,9 @@ $$
 
 Routing safety and epistemic correctness are distinct.
 
----
+______________________________________________________________________
 
-# 78. Finalization Truth Firewall
+## 78. Finalization Truth Firewall
 
 A successful Finalization stage does not establish universal truth.
 
@@ -2347,17 +2347,17 @@ Finalized
 UniversallyVerified
 $$
 
----
+______________________________________________________________________
 
-# 79. Rollback Truth Firewall
+## 79. Rollback Truth Firewall
 
 Rollback indicates a modeled failure response.
 
 It does not itself prove which premise caused the failure unless the relevant evidence and dependency lineage identify it.
 
----
+______________________________________________________________________
 
-# 80. Failure Recovery Principle
+## 80. Failure Recovery Principle
 
 AMOS-compatible recovery should invalidate:
 
@@ -2375,9 +2375,9 @@ This is a derived v4.4 reasoning principle.
 
 The source's `Automatic Rollback` term does not by itself establish this exact rollback granularity.
 
----
+______________________________________________________________________
 
-# 81. Boot Failure Recovery Boundary
+## 81. Boot Failure Recovery Boundary
 
 Because the source explicitly says:
 
@@ -2389,9 +2389,9 @@ for Boot failure, derived local repair must not silently replace the source-defi
 
 Any alternative recovery behavior requires authoritative support.
 
----
+______________________________________________________________________
 
-# 82. Router Failure Recovery Boundary
+## 82. Router Failure Recovery Boundary
 
 Because the source explicitly says:
 
@@ -2403,9 +2403,9 @@ the Router stage is modeled as having a continuation path after its primary rout
 
 The exact safe route remains unresolved.
 
----
+______________________________________________________________________
 
-# 83. Execution Failure Recovery Boundary
+## 83. Execution Failure Recovery Boundary
 
 Because the source explicitly says:
 
@@ -2433,9 +2433,9 @@ after emission.
 
 Those behaviors remain unknown.
 
----
+______________________________________________________________________
 
-# 84. Finalization Failure Recovery Boundary
+## 84. Finalization Failure Recovery Boundary
 
 Because the source explicitly says:
 
@@ -2447,9 +2447,9 @@ the Finalization stage is modeled as initiating rollback on failure.
 
 The post-rollback behavior remains unspecified.
 
----
+______________________________________________________________________
 
-# 85. Retry Boundary
+## 85. Retry Boundary
 
 The matrix contains no explicit retry policy.
 
@@ -2462,9 +2462,9 @@ NOT ESTABLISHED
 
 A failed route must not be assumed to retry automatically.
 
----
+______________________________________________________________________
 
-# 86. Reroute Boundary
+## 86. Reroute Boundary
 
 Explicit rerouting exists only in the Router row through:
 
@@ -2474,9 +2474,9 @@ Fallback to Default Safe Route
 
 This artifact does not establish general rerouting after Boot, Execution, or Finalization failure.
 
----
+______________________________________________________________________
 
-# 87. Rollback Boundary
+## 87. Rollback Boundary
 
 Explicit rollback appears only in:
 
@@ -2486,9 +2486,9 @@ Explicit rollback appears only in:
 
 Therefore the matrix does not support a claim that every stage failure automatically rolls back.
 
----
+______________________________________________________________________
 
-# 88. Halt Boundary
+## 88. Halt Boundary
 
 Explicit halt appears only in:
 
@@ -2498,9 +2498,9 @@ Explicit halt appears only in:
 
 Therefore the matrix does not support a claim that every invariant violation halts the system.
 
----
+______________________________________________________________________
 
-# 89. Proof Capsule Boundary
+## 89. Proof Capsule Boundary
 
 Explicit Error Proof Capsule emission appears only in:
 
@@ -2510,9 +2510,9 @@ Explicit Error Proof Capsule emission appears only in:
 
 The artifact does not state that every stage emits a proof capsule on failure.
 
----
+______________________________________________________________________
 
-# 90. Stage Transition Model
+## 90. Stage Transition Model
 
 A derived stage transition representation is:
 
@@ -2546,9 +2546,9 @@ The ellipses are intentional.
 
 They preserve the source gap for unenumerated runtime stages.
 
----
+______________________________________________________________________
 
-# 91. No Fabricated Intermediate Stages
+## 91. No Fabricated Intermediate Stages
 
 Do not transform:
 
@@ -2573,9 +2573,9 @@ without the authoritative Runtime source.
 
 This is a critical anti-fabrication constraint.
 
----
+______________________________________________________________________
 
-# 92. Matrix Completeness Boundary
+## 92. Matrix Completeness Boundary
 
 The matrix is complete with respect to the four rows explicitly supplied.
 
@@ -2591,9 +2591,9 @@ TOTAL RUNTIME [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]:
 UNKNOWN FROM THIS ARTIFACT ALONE
 ```
 
----
+______________________________________________________________________
 
-# 93. Runtime Authority Boundary
+## 93. Runtime Authority Boundary
 
 The artifact specifies routing and failure actions.
 
@@ -2609,9 +2609,9 @@ RuntimeRoute
 ExecutionAuthority
 $$
 
----
+______________________________________________________________________
 
-# 94. Control Plane Boundary
+## 94. Control Plane Boundary
 
 The matrix concerns:
 
@@ -2629,9 +2629,9 @@ Authority-envelope details from `CORE_X_CONTROL_PLANE` should not be silently co
 
 They may be used only as explicitly marked cross-artifact derived context when applicable.
 
----
+______________________________________________________________________
 
-# 95. Runtime / Control Distinction
+## 95. Runtime / Control Distinction
 
 Conceptually:
 
@@ -2645,9 +2645,9 @@ RUNTIME PLANE
 
 This distinction is a cross-artifact synthesis and should remain typed as such unless the authoritative MOCs establish it directly.
 
----
+______________________________________________________________________
 
-# 96. Causal Firewall
+## 96. Causal Firewall
 
 Runtime sequence alone does not prove causation.
 
@@ -2669,9 +2669,9 @@ EXECUTION FAILURE
 
 Causal attribution requires appropriately typed evidence.
 
----
+______________________________________________________________________
 
-# 97. Structural Similarity Firewall
+## 97. Structural Similarity Firewall
 
 Similarity between:
 
@@ -2689,9 +2689,9 @@ MODEL
 
 unless independently validated.
 
----
+______________________________________________________________________
 
-# 98. Scope Firewall
+## 98. Scope Firewall
 
 A conclusion established for:
 
@@ -2709,9 +2709,9 @@ does not automatically apply to:
 
 unless the relevant invariant is demonstrably shared.
 
----
+______________________________________________________________________
 
-# 99. Regime Firewall
+## 99. Regime Firewall
 
 A route validated under one Runtime version or regime may become stale after:
 
@@ -2737,9 +2737,9 @@ Valid(R_1)
 Valid(R_2)
 $$
 
----
+______________________________________________________________________
 
-# 100. Freshness Boundary
+## 100. Freshness Boundary
 
 The artifact timestamp is:
 
@@ -2751,9 +2751,9 @@ This establishes the supplied artifact's declared update date.
 
 It does not establish the current deployment version of any Runtime implementation.
 
----
+______________________________________________________________________
 
-# 101. Runtime Proof Capsule Schema
+## 101. Runtime Proof Capsule Schema
 
 ```yaml
 Runtime_Proof_Capsule:
@@ -2791,9 +2791,9 @@ Runtime_Proof_Capsule:
 
 Derived schema.
 
----
+______________________________________________________________________
 
-# 102. Error Proof Capsule Candidate
+## 102. Error Proof Capsule Candidate
 
 ```yaml
 Error_Proof_Capsule:
@@ -2830,9 +2830,9 @@ Error_Proof_Capsule:
 
 The exact source-defined capsule schema remains unknown.
 
----
+______________________________________________________________________
 
-# 103. Rollback Receipt Candidate
+## 103. Rollback Receipt Candidate
 
 ```yaml
 Rollback_Receipt:
@@ -2864,9 +2864,9 @@ Rollback_Receipt:
 
 Derived schema.
 
----
+______________________________________________________________________
 
-# 104. Safe-Route Receipt Candidate
+## 104. Safe-Route Receipt Candidate
 
 ```yaml
 Safe_Route_Receipt:
@@ -2894,9 +2894,9 @@ Safe_Route_Receipt:
 
 Derived schema.
 
----
+______________________________________________________________________
 
-# 105. Halt Receipt Candidate
+## 105. Halt Receipt Candidate
 
 ```yaml
 Halt_Receipt:
@@ -2921,32 +2921,32 @@ Halt_Receipt:
 
 Derived schema.
 
----
+______________________________________________________________________
 
-# 106. Runtime Validation Matrix
+## 106. Runtime Validation Matrix
 
-| Source Element                         | Source Presence           | Structure          | Runtime | Independent Validation | Formal Verification |
-| -------------------------------------- | ------------------------- | ------------------ | ------- | ---------------------- | ------------------- |
-| `01_BOOT` route                        | Verified                  | Verified           | Unknown | Not established        | Not established     |
-| Full Brain Bootstrap                   | Verified                  | Verified           | Unknown | Not established        | Not established     |
-| \(S_0\) Null Invariant                 | Verified as term          | Role verified      | Unknown | Not established        | Not established     |
-| Boot halt behavior                     | Verified as source action | Verified           | Unknown | Not established        | Not established     |
-| `02_ROUTER` route                      | Verified                  | Verified           | Unknown | Not established        | Not established     |
-| Cognitive Matrix Router                | Verified                  | Verified           | Unknown | Not established        | Not established     |
-| MECE Route Decomposition               | Verified as term          | Role verified      | Unknown | Not established        | Not established     |
-| Default Safe Route                     | Verified as source action | Definition unknown | Unknown | Not established        | Not established     |
-| `06_EXECUTION` route                   | Verified                  | Verified           | Unknown | Not established        | Not established     |
-| Deterministic Engine                   | Verified                  | Verified           | Unknown | Not established        | Not established     |
-| Syntax-Invariant Logic Closure         | Verified as term          | Role verified      | Unknown | Not established        | Not established     |
-| Error Proof Capsule                    | Verified as source action | Schema unknown     | Unknown | Not established        | Not established     |
-| `09_FINALIZATION` route                | Verified                  | Verified           | Unknown | Not established        | Not established     |
-| Local Proof Finalizer                  | Verified                  | Verified           | Unknown | Not established        | Not established     |
-| \((\mathcal C,\mathcal E,\mathcal F)\) | Verified as symbols       | Semantics unknown  | Unknown | Not established        | Not established     |
-| Automatic Rollback                     | Verified as source action | Verified as action | Unknown | Not established        | Not established     |
+| Source Element                          | Source Presence           | Structure          | Runtime | Independent Validation | Formal Verification |
+| --------------------------------------- | ------------------------- | ------------------ | ------- | ---------------------- | ------------------- |
+| `01_BOOT` route                         | Verified                  | Verified           | Unknown | Not established        | Not established     |
+| Full Brain Bootstrap                    | Verified                  | Verified           | Unknown | Not established        | Not established     |
+| (S_0) Null Invariant                    | Verified as term          | Role verified      | Unknown | Not established        | Not established     |
+| Boot halt behavior                      | Verified as source action | Verified           | Unknown | Not established        | Not established     |
+| `02_ROUTER` route                       | Verified                  | Verified           | Unknown | Not established        | Not established     |
+| Cognitive Matrix Router                 | Verified                  | Verified           | Unknown | Not established        | Not established     |
+| MECE Route Decomposition                | Verified as term          | Role verified      | Unknown | Not established        | Not established     |
+| Default Safe Route                      | Verified as source action | Definition unknown | Unknown | Not established        | Not established     |
+| `06_EXECUTION` route                    | Verified                  | Verified           | Unknown | Not established        | Not established     |
+| Deterministic Engine                    | Verified                  | Verified           | Unknown | Not established        | Not established     |
+| Syntax-Invariant Logic Closure          | Verified as term          | Role verified      | Unknown | Not established        | Not established     |
+| Error Proof Capsule                     | Verified as source action | Schema unknown     | Unknown | Not established        | Not established     |
+| `09_FINALIZATION` route                 | Verified                  | Verified           | Unknown | Not established        | Not established     |
+| Local Proof Finalizer                   | Verified                  | Verified           | Unknown | Not established        | Not established     |
+| ((\\mathcal C,\\mathcal E,\\mathcal F)) | Verified as symbols       | Semantics unknown  | Unknown | Not established        | Not established     |
+| Automatic Rollback                      | Verified as source action | Verified as action | Unknown | Not established        | Not established     |
 
----
+______________________________________________________________________
 
-# 107. Runtime Promotion Requirements
+## 107. Runtime Promotion Requirements
 
 Before changing:
 
@@ -2977,9 +2977,9 @@ VERSION BINDING
 TEST RESULTS
 ```
 
----
+______________________________________________________________________
 
-# 108. Boot Validation Requirements
+## 108. Boot Validation Requirements
 
 To validate `01_BOOT` runtime behavior:
 
@@ -3001,9 +3001,9 @@ HALT OBSERVATION
 VERSION / ENVIRONMENT
 ```
 
----
+______________________________________________________________________
 
-# 109. Router Validation Requirements
+## 109. Router Validation Requirements
 
 To validate `02_ROUTER` runtime behavior:
 
@@ -3025,9 +3025,9 @@ FALLBACK OBSERVATION
 VERSION / ENVIRONMENT
 ```
 
----
+______________________________________________________________________
 
-# 110. Execution Validation Requirements
+## 110. Execution Validation Requirements
 
 To validate `06_EXECUTION` runtime behavior:
 
@@ -3049,9 +3049,9 @@ CAPSULE EMISSION OBSERVATION
 VERSION / ENVIRONMENT
 ```
 
----
+______________________________________________________________________
 
-# 111. Finalization Validation Requirements
+## 111. Finalization Validation Requirements
 
 To validate `09_FINALIZATION` runtime behavior:
 
@@ -3079,9 +3079,9 @@ ROLLBACK OBSERVATION
 VERSION / ENVIRONMENT
 ```
 
----
+______________________________________________________________________
 
-# 112. Negative Runtime Tests
+## 112. Negative Runtime Tests
 
 A runtime implementation should be challenged with:
 
@@ -3109,9 +3109,9 @@ ROLLBACK FAILURE
 
 Expected results must follow the actual executable specification, not assumptions.
 
----
+______________________________________________________________________
 
-# 113. Boot Negative Test
+## 113. Boot Negative Test
 
 Source-expected model behavior:
 
@@ -3123,9 +3123,9 @@ SYSTEM HALTS
 
 Runtime validation requires observation that the implementation actually does so.
 
----
+______________________________________________________________________
 
-# 114. Router Negative Test
+## 114. Router Negative Test
 
 Source-expected model behavior:
 
@@ -3137,9 +3137,9 @@ DEFAULT SAFE ROUTE
 
 Runtime validation requires the Default Safe Route to be explicitly identifiable.
 
----
+______________________________________________________________________
 
-# 115. Execution Negative Test
+## 115. Execution Negative Test
 
 Source-expected model behavior:
 
@@ -3151,9 +3151,9 @@ ERROR PROOF CAPSULE
 
 Runtime validation requires evidence that the capsule is actually emitted and correctly bound to the failure.
 
----
+______________________________________________________________________
 
-# 116. Finalization Negative Test
+## 116. Finalization Negative Test
 
 Source-expected model behavior:
 
@@ -3165,9 +3165,9 @@ AUTOMATIC ROLLBACK
 
 Runtime validation requires observation of the rollback and confirmation of its state effects.
 
----
+______________________________________________________________________
 
-# 117. Rollback Failure Gap
+## 117. Rollback Failure Gap
 
 The source does not specify what happens if:
 
@@ -3186,9 +3186,9 @@ UNKNOWN/GAP
 
 This is potentially decision-relevant for an executable implementation.
 
----
+______________________________________________________________________
 
-# 118. Safe-Route Failure Gap
+## 118. Safe-Route Failure Gap
 
 The source does not specify what happens if:
 
@@ -3205,9 +3205,9 @@ SAFE-ROUTE FAILURE POLICY:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 119. Proof-Capsule Failure Gap
+## 119. Proof-Capsule Failure Gap
 
 The source does not specify what happens if:
 
@@ -3224,9 +3224,9 @@ PROOF-CAPSULE EMISSION FAILURE POLICY:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 120. Halt Semantics Gap
+## 120. Halt Semantics Gap
 
 The source does not specify whether:
 
@@ -3252,9 +3252,9 @@ GLOBAL SYSTEM HALT
 
 Therefore exact halt semantics remain unresolved.
 
----
+______________________________________________________________________
 
-# 121. Gap Priority
+## 121. Gap Priority
 
 ## CRITICAL
 
@@ -3294,9 +3294,9 @@ NON-LOAD-BEARING INTERNAL MODULE DETAILS
 
 Formatting or naming differences without routing effect.
 
----
+______________________________________________________________________
 
-# 122. Adversarial Validation — Boot
+## 122. Adversarial Validation — Boot
 
 Challenge the strongest Boot conclusion:
 
@@ -3327,9 +3327,9 @@ Until implementation evidence exists, runtime status remains:
 UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 123. Adversarial Validation — Router
+## 123. Adversarial Validation — Router
 
 Challenge:
 
@@ -3356,9 +3356,9 @@ CAN FALLBACK MASK A CRITICAL FAILURE?
 
 The word `safe` alone is not empirical validation.
 
----
+______________________________________________________________________
 
-# 124. Adversarial Validation — Execution
+## 124. Adversarial Validation — Execution
 
 Challenge:
 
@@ -3384,9 +3384,9 @@ CAN FALSE PREMISES PASS CLOSURE?
 WHAT DOES THE PROOF CAPSULE PROVE?
 ```
 
----
+______________________________________________________________________
 
-# 125. Adversarial Validation — Finalization
+## 125. Adversarial Validation — Finalization
 
 Challenge:
 
@@ -3414,9 +3414,9 @@ WHAT EXACTLY IS ROLLED BACK?
 CAN EXTERNAL EFFECTS BE REVERSED?
 ```
 
----
+______________________________________________________________________
 
-# 126. Sensitivity — Boot
+## 126. Sensitivity — Boot
 
 The smallest premises capable of flipping the Boot result include:
 
@@ -3428,9 +3428,9 @@ S₀ STATUS
 
 If either is load-bearing and unresolved, Boot eligibility becomes conditional or unknown.
 
----
+______________________________________________________________________
 
-# 127. Sensitivity — Router
+## 127. Sensitivity — Router
 
 Potential decision-flipping premises:
 
@@ -3442,9 +3442,9 @@ DEFAULT SAFE ROUTE AVAILABILITY
 SAFE ROUTE SCOPE
 ```
 
----
+______________________________________________________________________
 
-# 128. Sensitivity — Execution
+## 128. Sensitivity — Execution
 
 Potential decision-flipping premises:
 
@@ -3456,9 +3456,9 @@ INPUT VALIDITY
 DETERMINISM ASSUMPTIONS
 ```
 
----
+______________________________________________________________________
 
-# 129. Sensitivity — Finalization
+## 129. Sensitivity — Finalization
 
 Potential decision-flipping premises:
 
@@ -3474,9 +3474,9 @@ STATE FRESHNESS
 DEPENDENCY VALIDITY
 ```
 
----
+______________________________________________________________________
 
-# 130. Runtime Decision Function
+## 130. Runtime Decision Function
 
 A derived runtime-stage decision function is:
 
@@ -3513,9 +3513,9 @@ FAIL_i
 Action_i
 $$
 
----
+______________________________________________________________________
 
-# 131. Boot Decision
+## 131. Boot Decision
 
 Conceptually:
 
@@ -3537,9 +3537,9 @@ $$
 
 Exact predicates remain unspecified.
 
----
+______________________________________________________________________
 
-# 132. Router Decision
+## 132. Router Decision
 
 Conceptually:
 
@@ -3557,9 +3557,9 @@ RouterFail
 DefaultSafeRoute
 $$
 
----
+______________________________________________________________________
 
-# 133. Execution Decision
+## 133. Execution Decision
 
 Conceptually:
 
@@ -3577,9 +3577,9 @@ ExecutionFail
 ErrorProofCapsule
 $$
 
----
+______________________________________________________________________
 
-# 134. Finalization Decision
+## 134. Finalization Decision
 
 Conceptually:
 
@@ -3601,9 +3601,9 @@ FinalizeFail
 AutomaticRollback
 $$
 
----
+______________________________________________________________________
 
-# 135. Commit-Time Revalidation
+## 135. Commit-Time Revalidation
 
 A v4.4-compatible derived extension is:
 
@@ -3621,9 +3621,9 @@ This guards against stale assumptions between execution and finalization.
 
 It is not explicitly specified in the supplied matrix.
 
----
+______________________________________________________________________
 
-# 136. State Version Binding
+## 136. State Version Binding
 
 Conceptually:
 
@@ -3645,9 +3645,9 @@ Runtime_State_Binding:
 
 Derived schema.
 
----
+______________________________________________________________________
 
-# 137. Causal Epoch Finalization
+## 137. Causal Epoch Finalization
 
 Conceptually:
 
@@ -3655,7 +3655,7 @@ $$
 Finality@E_n
 $$
 
-is valid only against the load-bearing dependency state for epoch \(E_n\).
+is valid only against the load-bearing dependency state for epoch (E_n).
 
 If those dependencies materially change:
 
@@ -3669,9 +3669,9 @@ the dependent finalization may require revalidation.
 
 Again, this is AMOS v4.4-compatible reasoning, not a source-established runtime mechanism here.
 
----
+______________________________________________________________________
 
-# 138. Atomic Multi-Stage Finalization
+## 138. Atomic Multi-Stage Finalization
 
 A derived strong finalization condition is:
 
@@ -3691,9 +3691,9 @@ only where all four are actually load-bearing for the operation.
 
 This must not be used to invent direct dependencies where the Runtime specification says otherwise.
 
----
+______________________________________________________________________
 
-# 139. Local Invalidation
+## 139. Local Invalidation
 
 If `MECE Route Decomposition` fails:
 
@@ -3708,9 +3708,9 @@ Do not automatically invalidate an independently established Boot integrity resu
 
 Likewise, Finalization failure need not erase unrelated independent evidence.
 
----
+______________________________________________________________________
 
-# 140. Local Repair
+## 140. Local Repair
 
 Conceptually:
 
@@ -3728,9 +3728,9 @@ where possible and compatible with the source.
 
 For Boot, the explicit failure action remains `System Halts`.
 
----
+______________________________________________________________________
 
-# 141. No Failed-Path Repetition
+## 141. No Failed-Path Repetition
 
 A failed route should not simply be retried with unchanged evidence and unchanged state unless the runtime policy explicitly permits it.
 
@@ -3752,9 +3752,9 @@ UPDATED REGIME
 
 This is a derived failure-recovery principle.
 
----
+______________________________________________________________________
 
-# 142. Runtime Governance Boundary
+## 142. Runtime Governance Boundary
 
 Higher validation is required when Runtime actions carry:
 
@@ -3780,9 +3780,9 @@ LARGE DOWNSTREAM DEPENDENCY
 
 The matrix itself does not define the full governance policy for these cases.
 
----
+______________________________________________________________________
 
-# 143. Reversibility Boundary
+## 143. Reversibility Boundary
 
 `Automatic Rollback` suggests a source-defined recovery model.
 
@@ -3798,9 +3798,9 @@ $$
 
 for an actual implementation unless external side-effect semantics are established.
 
----
+______________________________________________________________________
 
-# 144. External Side-Effect Gap
+## 144. External Side-Effect Gap
 
 The matrix does not define behavior for irreversible external effects produced before `09_FINALIZATION`.
 
@@ -3820,9 +3820,9 @@ IRREVERSIBLE
 OUTSIDE ROLLBACK SCOPE
 ```
 
----
+______________________________________________________________________
 
-# 145. Proof-Capsule Provenance
+## 145. Proof-Capsule Provenance
 
 A useful Error Proof Capsule should preserve enough lineage to answer:
 
@@ -3846,9 +3846,9 @@ WHAT REMAINS VALID?
 
 This is derived proof-capsule discipline.
 
----
+______________________________________________________________________
 
-# 146. Runtime Provenance Contract
+## 146. Runtime Provenance Contract
 
 ```yaml
 Runtime_Provenance:
@@ -3888,9 +3888,9 @@ Runtime_Provenance:
 
 Derived schema.
 
----
+______________________________________________________________________
 
-# 147. Provenance Independence
+## 147. Provenance Independence
 
 Multiple logs generated from one runtime event are correlated descendants.
 
@@ -3904,9 +3904,9 @@ does not automatically constitute three independent confirmations.
 
 Independent validation requires genuinely independent evidence paths where independence matters.
 
----
+______________________________________________________________________
 
-# 148. Runtime Observation Boundary
+## 148. Runtime Observation Boundary
 
 Actual runtime logs, traces, state snapshots, and failure-injection results would be:
 
@@ -3924,9 +3924,9 @@ SOURCE_CLAIM / AMOS_MODEL
 
 The two evidence classes must not be conflated.
 
----
+______________________________________________________________________
 
-# 149. Documentation Boundary
+## 149. Documentation Boundary
 
 Documentation asserting that a failure action works is:
 
@@ -3944,9 +3944,9 @@ READMEClaim
 RuntimeObservation
 $$
 
----
+______________________________________________________________________
 
-# 150. Benchmark Boundary
+## 150. Benchmark Boundary
 
 Even if one implementation passes a benchmark:
 
@@ -3970,9 +3970,9 @@ WORKLOAD
 TEST CONDITIONS
 ```
 
----
+______________________________________________________________________
 
-# 151. Formal-Proof Boundary
+## 151. Formal-Proof Boundary
 
 Even exhaustive testing within a finite test suite does not automatically establish formal proof.
 
@@ -3986,9 +3986,9 @@ $$
 
 unless a formal proof artifact is independently supplied.
 
----
+______________________________________________________________________
 
-# 152. Runtime Scope Contract
+## 152. Runtime Scope Contract
 
 ```yaml
 Scope:
@@ -4019,9 +4019,9 @@ Scope:
     - complete_runtime_architecture
 ```
 
----
+______________________________________________________________________
 
-# 153. Runtime Regime Contract
+## 153. Runtime Regime Contract
 
 ```yaml
 Regime:
@@ -4050,9 +4050,9 @@ Regime:
     - failure_action_change
 ```
 
----
+______________________________________________________________________
 
-# 154. Uncertainty Vector
+## 154. Uncertainty Vector
 
 ```yaml
 Uncertainty:
@@ -4080,9 +4080,9 @@ Uncertainty:
     NOT_ESTABLISHED_FOR_CORPUS_REPETITIONS
 ```
 
----
+______________________________________________________________________
 
-# 155. Conclusion Classes
+## 155. Conclusion Classes
 
 Claims derived from this artifact should use the weakest accurate class:
 
@@ -4122,9 +4122,9 @@ UNKNOWN/GAP
 
 where required semantics or evidence are absent.
 
----
+______________________________________________________________________
 
-# 156. Failure Classes
+## 156. Failure Classes
 
 Candidate derived classifications:
 
@@ -4160,9 +4160,9 @@ RUNTIME_BINDING_MISSING
 
 These labels are not all source-defined terminology.
 
----
+______________________________________________________________________
 
-# 157. Cross-Artifact Conflict Handling
+## 157. Cross-Artifact Conflict Handling
 
 If `CORE_X_RUNTIME` and `CORE_X_RUNTIME_MATRIX` disagree:
 
@@ -4196,9 +4196,9 @@ If unresolved:
 COMPETING
 ```
 
----
+______________________________________________________________________
 
-# 158. Runtime-MOC Conflict Handling
+## 158. Runtime-MOC Conflict Handling
 
 If:
 
@@ -4210,9 +4210,9 @@ defines a stage differently from this matrix, the conflict must remain visible u
 
 Artifact recency alone is insufficient.
 
----
+______________________________________________________________________
 
-# 159. Canon Conflict Handling
+## 159. Canon Conflict Handling
 
 If a Runtime mapping conflicts with a non-negotiable Canon law:
 
@@ -4228,31 +4228,31 @@ CANON AUTHORITY
 
 The exact governance response must follow applicable Canon rules.
 
----
+______________________________________________________________________
 
-# 160. Anti-Fabrication Rules
+## 160. Anti-Fabrication Rules
 
 This matrix MUST NOT by itself be used to claim:
 
 1. that the Runtime pipeline is deployed;
-2. that the four named subsystems are executable;
-3. that stages `03`, `04`, `05`, `07`, or `08` have particular identities;
-4. that \(S_0\) has an invented definition;
-5. that \(\mathcal C,\mathcal E,\mathcal F\) have invented meanings;
-6. that the Default Safe Route is empirically safe;
-7. that the Deterministic Engine makes all AMOS cognition deterministic;
-8. that Error Proof Capsules are formal proofs;
-9. that Automatic Rollback is implemented;
-10. that rollback can reverse all external effects;
-11. that Local Proof Finalizer implements literal distributed shard finality;
-12. that MVCC or CAS is literally implemented;
-13. that causal epoch finality is literally implemented;
-14. that the architecture is empirically validated;
-15. that the architecture is formally verified.
+1. that the four named subsystems are executable;
+1. that stages `03`, `04`, `05`, `07`, or `08` have particular identities;
+1. that (S_0) has an invented definition;
+1. that (\\mathcal C,\\mathcal E,\\mathcal F) have invented meanings;
+1. that the Default Safe Route is empirically safe;
+1. that the Deterministic Engine makes all AMOS cognition deterministic;
+1. that Error Proof Capsules are formal proofs;
+1. that Automatic Rollback is implemented;
+1. that rollback can reverse all external effects;
+1. that Local Proof Finalizer implements literal distributed shard finality;
+1. that MVCC or CAS is literally implemented;
+1. that causal epoch finality is literally implemented;
+1. that the architecture is empirically validated;
+1. that the architecture is formally verified.
 
----
+______________________________________________________________________
 
-# 161. Anti-Regression Rules
+## 161. Anti-Regression Rules
 
 Any revision should preserve or improve:
 
@@ -4288,9 +4288,9 @@ LOCAL INVALIDATION
 FAILURE RECOVERABILITY
 ```
 
----
+______________________________________________________________________
 
-# 162. Runtime Invalidation Conditions
+## 162. Runtime Invalidation Conditions
 
 Revalidate this matrix when:
 
@@ -4322,9 +4322,9 @@ FAILURE ACTIONS CHANGE
 SUPERSESSION OCCURS
 ```
 
----
+______________________________________________________________________
 
-# 163. Local Invalidation Example — Router
+## 163. Local Invalidation Example — Router
 
 If evidence establishes that the Runtime no longer uses:
 
@@ -4342,9 +4342,9 @@ DEPENDENT ROUTING CLAIMS
 
 Do not automatically invalidate the `01_BOOT`, `06_EXECUTION`, or `09_FINALIZATION` rows.
 
----
+______________________________________________________________________
 
-# 164. Local Invalidation Example — Finalization
+## 164. Local Invalidation Example — Finalization
 
 If `Automatic Rollback` is disproven in runtime testing:
 
@@ -4368,9 +4368,9 @@ SourceSpecification
 RuntimeObservation
 $$
 
----
+______________________________________________________________________
 
-# 165. Source-Presence vs Runtime-Falsification
+## 165. Source-Presence vs Runtime-Falsification
 
 A runtime implementation may fail to conform to the matrix.
 
@@ -4394,9 +4394,9 @@ IMPLEMENTATION NON-CONFORMANCE
 
 not source disappearance.
 
----
+______________________________________________________________________
 
-# 166. Runtime Conformance Model
+## 166. Runtime Conformance Model
 
 Conceptually:
 
@@ -4413,9 +4413,9 @@ for the applicable routed stages.
 
 Exact conformance criteria require the executable specification.
 
----
+______________________________________________________________________
 
-# 167. Conformance Receipt
+## 167. Conformance Receipt
 
 ```yaml
 Runtime_Conformance_Receipt:
@@ -4449,9 +4449,9 @@ Runtime_Conformance_Receipt:
 
 Derived schema.
 
----
+______________________________________________________________________
 
-# 168. Canon Candidate Boundary
+## 168. Canon Candidate Boundary
 
 Current status:
 
@@ -4469,9 +4469,9 @@ $$
 
 Promotion requires applicable AMOS governance.
 
----
+______________________________________________________________________
 
-# 169. Canon Promotion Requirements
+## 169. Canon Promotion Requirements
 
 Before promotion, verify at minimum:
 
@@ -4503,9 +4503,9 @@ SUPERSESSION STATUS
 
 Runtime implementation is a separate validation dimension.
 
----
+______________________________________________________________________
 
-# 170. Runtime Promotion Gate
+## 170. Runtime Promotion Gate
 
 Before changing:
 
@@ -4538,9 +4538,9 @@ TEST RESULTS
 NEGATIVE TEST RESULTS
 ```
 
----
+______________________________________________________________________
 
-# 171. Formal Verification Gate
+## 171. Formal Verification Gate
 
 Before changing:
 
@@ -4553,9 +4553,9 @@ require actual formal artifacts sufficient to establish the claimed property.
 
 Documentation, tests, benchmark results, and architectural diagrams are not themselves formal proofs.
 
----
+______________________________________________________________________
 
-# 172. Machine-Readable Matrix
+## 172. Machine-Readable Matrix
 
 ```yaml
 Core_X_Runtime_Matrix:
@@ -4654,9 +4654,9 @@ Core_X_Runtime_Matrix:
     NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 173. Runtime Stage Registry Candidate
+## 173. Runtime Stage Registry Candidate
 
 ```yaml
 Runtime_Stage_Registry:
@@ -4693,9 +4693,9 @@ Runtime_Stage_Registry:
     CORE_X_RUNTIME_MATRIX.md
 ```
 
----
+______________________________________________________________________
 
-# 174. Proof Capsule — Artifact Status
+## 174. Proof Capsule — Artifact Status
 
 ```yaml
 PROOF_CAPSULE:
@@ -4758,9 +4758,9 @@ PROOF_CAPSULE:
       UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 175. Matrix Integrity Contract
+## 175. Matrix Integrity Contract
 
 ```yaml
 Matrix_Integrity:
@@ -4801,9 +4801,9 @@ Matrix_Integrity:
     - runtime_implementation
 ```
 
----
+______________________________________________________________________
 
-# 176. Cross-Plane Audit
+## 176. Cross-Plane Audit
 
 ```yaml
 Cross_Plane_Audit:
@@ -4838,9 +4838,9 @@ Cross_Plane_Audit:
   result:
 ```
 
----
+______________________________________________________________________
 
-# 177. Audit Questions
+## 177. Audit Questions
 
 A full audit should answer:
 
@@ -4882,9 +4882,9 @@ A full audit should answer:
 18. WHAT IS THE SMALLEST PREMISE THAT COULD FLIP THE RESULT?
 ```
 
----
+______________________________________________________________________
 
-# 178. RSCF Contract
+## 178. RSCF Contract
 
 ```yaml
 RSCF:
@@ -5003,9 +5003,9 @@ RSCF:
       UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 179. RSCF Relations
+## 179. RSCF Relations
 
 ```yaml
 RSCF_RELATIONS:
@@ -5052,9 +5052,9 @@ RSCF_RELATIONS:
       "[[00_ROOT/AMOS_CORE_v4_4|AMOS_CORE_v4_4]]"
 ```
 
----
+______________________________________________________________________
 
-# 180. Ingestion Rule
+## 180. Ingestion Rule
 
 ```yaml
 CORE_X_RUNTIME_MATRIX_INGESTION:
@@ -5104,58 +5104,58 @@ CORE_X_RUNTIME_MATRIX_INGESTION:
       - NEVER_INVENT
 ```
 
----
+______________________________________________________________________
 
-# 181. Canon Promotion Checklist
+## 181. Canon Promotion Checklist
 
-* [ ] artifact identity preserved
-* [ ] artifact path preserved
-* [ ] version preserved
-* [ ] origin architect preserved
-* [ ] provenance preserved
-* [ ] `CORE_X_RUNTIME` counterpart resolved
-* [ ] Runtime MOC dependency resolved
-* [ ] Canon MOC dependency resolved
-* [ ] `01_BOOT` row preserved
-* [ ] `02_ROUTER` row preserved
-* [ ] `06_EXECUTION` row preserved
-* [ ] `09_FINALIZATION` row preserved
-* [ ] subsystem names preserved
-* [ ] invariant names preserved
-* [ ] failure actions preserved
-* [ ] \(S_0\) not invented
-* [ ] \(\mathcal C,\mathcal E,\mathcal F\) not invented
-* [ ] unspecified runtime stages not invented
-* [ ] derived extensions explicitly marked
-* [ ] runtime claims not overstated
-* [ ] contradictions preserved
-* [ ] gaps preserved
-* [ ] supersession authority established
+- [ ] artifact identity preserved
+- [ ] artifact path preserved
+- [ ] version preserved
+- [ ] origin architect preserved
+- [ ] provenance preserved
+- [ ] `CORE_X_RUNTIME` counterpart resolved
+- [ ] Runtime MOC dependency resolved
+- [ ] Canon MOC dependency resolved
+- [ ] `01_BOOT` row preserved
+- [ ] `02_ROUTER` row preserved
+- [ ] `06_EXECUTION` row preserved
+- [ ] `09_FINALIZATION` row preserved
+- [ ] subsystem names preserved
+- [ ] invariant names preserved
+- [ ] failure actions preserved
+- [ ] (S_0) not invented
+- [ ] (\\mathcal C,\\mathcal E,\\mathcal F) not invented
+- [ ] unspecified runtime stages not invented
+- [ ] derived extensions explicitly marked
+- [ ] runtime claims not overstated
+- [ ] contradictions preserved
+- [ ] gaps preserved
+- [ ] supersession authority established
 
----
+______________________________________________________________________
 
-# 182. Runtime Validation Checklist
+## 182. Runtime Validation Checklist
 
-* [ ] runtime version identified
-* [ ] executable binding identified
-* [ ] `01_BOOT` implementation located
-* [ ] `02_ROUTER` implementation located
-* [ ] `06_EXECUTION` implementation located
-* [ ] `09_FINALIZATION` implementation located
-* [ ] `S₀` formal semantics established
-* [ ] MECE route semantics established
-* [ ] syntax-invariant logic closure established
-* [ ] \(\mathcal C,\mathcal E,\mathcal F\) semantics established
-* [ ] Boot halt tested
-* [ ] Router fallback tested
-* [ ] Error Proof Capsule emission tested
-* [ ] Automatic Rollback tested
-* [ ] rollback failure tested
-* [ ] safe-route failure tested
-* [ ] provenance persistence tested
-* [ ] state freshness tested
-* [ ] negative cases tested
-* [ ] external side effects characterized
+- [ ] runtime version identified
+- [ ] executable binding identified
+- [ ] `01_BOOT` implementation located
+- [ ] `02_ROUTER` implementation located
+- [ ] `06_EXECUTION` implementation located
+- [ ] `09_FINALIZATION` implementation located
+- [ ] `S₀` formal semantics established
+- [ ] MECE route semantics established
+- [ ] syntax-invariant logic closure established
+- [ ] (\\mathcal C,\\mathcal E,\\mathcal F) semantics established
+- [ ] Boot halt tested
+- [ ] Router fallback tested
+- [ ] Error Proof Capsule emission tested
+- [ ] Automatic Rollback tested
+- [ ] rollback failure tested
+- [ ] safe-route failure tested
+- [ ] provenance persistence tested
+- [ ] state freshness tested
+- [ ] negative cases tested
+- [ ] external side effects characterized
 
 Until then:
 
@@ -5164,9 +5164,9 @@ implementation_status:
 CONCEPTUAL_SOURCE_DEFINED
 ```
 
----
+______________________________________________________________________
 
-# 183. Master Runtime Invariants
+## 183. Master Runtime Invariants
 
 ## RX-I1 — Boot Integrity Precedes Runtime Eligibility
 
@@ -5252,9 +5252,9 @@ Finalized
 UniversallyVerified
 $$
 
----
+______________________________________________________________________
 
-# 184. Master Failure Matrix
+## 184. Master Failure Matrix
 
 ```text
 01_BOOT
@@ -5294,9 +5294,9 @@ $$
            AUTOMATIC ROLLBACK
 ```
 
----
+______________________________________________________________________
 
-# 185. Master Runtime Routing Law
+## 185. Master Runtime Routing Law
 
 The source can be normalized as:
 
@@ -5314,9 +5314,9 @@ $$
 
 This is the central structure of the matrix.
 
----
+______________________________________________________________________
 
-# 186. Master Runtime Integrity Law
+## 186. Master Runtime Integrity Law
 
 A stage should not be treated as successful merely because its subsystem ran.
 
@@ -5330,9 +5330,9 @@ $$
 
 The applicable invariant remains load-bearing.
 
----
+______________________________________________________________________
 
-# 187. Master Failure Law
+## 187. Master Failure Law
 
 $$
 \boxed{
@@ -5346,9 +5346,9 @@ within the source model.
 
 Runtime conformance requires independent evidence that the implementation behaves accordingly.
 
----
+______________________________________________________________________
 
-# 188. Master Finalization Law
+## 188. Master Finalization Law
 
 The source-defined finalization boundary is:
 
@@ -5374,9 +5374,9 @@ $$
 
 The semantics of the symbols and rollback mechanism remain unresolved.
 
----
+______________________________________________________________________
 
-# 189. Master Epistemic Law
+## 189. Master Epistemic Law
 
 $$
 \boxed{
@@ -5405,9 +5405,9 @@ FORMAL VERIFICATION:
 NOT ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 190. Source-to-Derived Boundary
+## 190. Source-to-Derived Boundary
 
 ## Directly source-defined
 
@@ -5499,9 +5499,9 @@ EMPIRICAL VALIDATION
 FORMAL VERIFICATION
 ```
 
----
+______________________________________________________________________
 
-# 191. Final RSCF Contract
+## 191. Final RSCF Contract
 
 ```yaml
 RSCF:
@@ -5607,9 +5607,9 @@ RSCF:
       UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 192. Final Proof Capsule
+## 192. Final Proof Capsule
 
 ```yaml
 PROOF_CAPSULE:
@@ -5672,9 +5672,9 @@ PROOF_CAPSULE:
       UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 193. Final Canonical Candidate Statement
+## 193. Final Canonical Candidate Statement
 
 The **Core × Runtime Cross-Plane Matrix** source-defines four explicit AMOS Runtime routing boundaries:
 
@@ -5840,7 +5840,7 @@ UNKNOWN/GAP.
 
 ---
 
-**Related:**  ·  ·  · `04_RUNTIME/04_RUNTIME_MOC` · `01_CANON/01_CANON_MOC` ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·
+**Related:**  `04_RUNTIME/04_RUNTIME_MOC` · `01_CANON/01_CANON_MOC`
 
 ---
 
@@ -5909,7 +5909,3 @@ RSCF-RELATIONS:
 ---
 
 **END OF `CORE_X_RUNTIME_MATRIX.md`**
-
-
-```
-```

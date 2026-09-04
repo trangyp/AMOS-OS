@@ -1,35 +1,51 @@
 ---
-title: 04 Domain MOC
-type: moc
-source: 13_MODELS/04_DOMAIN
-tags:
-- 04-domain
-- canon/model
-- rscf/claim
-- rscf/provenance
-- rscf/state/observation
-moc: true
+title: "04 Domain Moc — Plane Governance Specification"
+type: specification
+source: 13_MODELS
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
+status: ACTIVE_SPECIFICATION
+epistemic_class: AMOS_MODEL
+conclusion_class: DERIVED
 rscf:
   state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  claim_class: AMOS_MODEL
+  provenance:
+    - 00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE
+    - 00_ROOT/00_ROOT_MOC
+  scope: plane_governance
+tags:
+  - amos-os
+  - 13-models
+  - specification
+  - 04-domain-moc
 ---
 
-# 04 Domain — Map of Content
+# 04 Domain Moc — Plane Governance Specification
 
-**Path:** `13_MODELS/04_DOMAIN`
-**Files:** 7 | **Subdirectories:** 0
-
-## Files
-
-- [[13_MODELS/04_DOMAIN/HERITAGE_MODEL_REGISTRY|HERITAGE_MODEL_REGISTRY]]
-- [[13_MODELS/04_DOMAIN/NEUROSYNCAI_MODEL_REGISTRY|NEUROSYNCAI_MODEL_REGISTRY]]
-- [[13_MODELS/04_DOMAIN/QCLA_MODEL_REGISTRY|QCLA_MODEL_REGISTRY]]
-- [[13_MODELS/04_DOMAIN/QLS_MODEL_REGISTRY|QLS_MODEL_REGISTRY]]
-- [[13_MODELS/04_DOMAIN/TPE_MODEL_REGISTRY|TPE_MODEL_REGISTRY]]
-- [[13_MODELS/04_DOMAIN/TSS_MODEL_REGISTRY|TSS_MODEL_REGISTRY]]
-- [[13_MODELS/04_DOMAIN/UBI_MODEL_REGISTRY|UBI_MODEL_REGISTRY]]
+> **Origin Architect / Steward:** Trang Phan  
+> **AMOS_CORE Target:** `v4.4`  
+> **Conclusion Class:** `AMOS_MODEL`  
+> **Status:** `ACTIVE_SPECIFICATION`
 
 ---
-**Parent:** [[13_MODELS/13_MODELS_MOC|13_MODELS_MOC]]
+
+## 1. Architectural Scope
+
+`04_DOMAIN_MOC` defines the typed contracts, invariants, and operational procedures for `13_MODELS` within the AMOS Full OS MECE architecture.
+
+---
+
+## 2. Governing Invariants
+
+- **Axiom Adherence:** Strictly bound by M01–M20 core laws.
+- **Fail-Closed Execution:** Rejects unverified or malformed inputs into the rollback basin.
+- **Immutable Receipts:** Emits auditable trace logs to `17_OBSERVABILITY`.
+
+---
+
+## 3. Navigation & Bindings
+
+- **Master MOC:** [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]
+- **Partition Architecture:** [[00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE|FULL_BRAIN_OS_MECE_ARCHITECTURE]]

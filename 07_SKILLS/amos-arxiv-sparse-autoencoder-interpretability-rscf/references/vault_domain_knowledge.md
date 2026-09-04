@@ -1,19 +1,22 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Vault Domain Knowledge — Amos Arxiv Sparse Autoencoder Interpretability Rscf
 type: reference
 source: 07_SKILLS/amos-arxiv-sparse-autoencoder-interpretability-rscf/references
 tags:
-- reference
-- amos-arxiv-sparse-autoencoder-interpretability-rscf
-- type/skill
-- amos-build-from-spec
-- 2026-08-22-brain-inventory
-- 2026-08-22-executable-code-internals
-- 2026-08-22-amos-full-brain-os-architecture
-- canon
-- 2026-08-22-amos-go-board-19x19-formal-system
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-arxiv-sparse-autoencoder-interpretability-rscf
+  - type/skill
+  - amos-build-from-spec
+  - 2026-08-22-brain-inventory
+  - 2026-08-22-executable-code-internals
+  - 2026-08-22-amos-full-brain-os-architecture
+  - canon
+  - 2026-08-22-amos-go-board-19x19-formal-system
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -33,8 +36,7 @@ rscf:
 
 > Path: `indexes/INDEX_md_v2.md` | Size: 62031 chars | Match score: 3
 
-# Archive subfolder: md
-
+## Archive subfolder: md
 
 - automation profiles
 - Automation Engine Model
@@ -109,16 +111,15 @@ rscf:
 - 2026-08-22 The Complete Human System — Books One–Six
 - [[11_KNOWLEDGE/stubs/19|19]]
 
----
+______________________________________________________________________
 
 ### Source 2: RSCF Structural Tag Migration
 
 > Path: `rscf/RSCF Structural Tag Migration.md` | Size: 22332 chars | Match score: 3
 
-# RSCF Structural Tag Migration
+## RSCF Structural Tag Migration
 
 ## Overview
-
 
 The migration operates on a bounded registry of Markdown files and transforms:
 
@@ -132,19 +133,19 @@ The source implementation defines migration mappings for AMOS, Cosmo Brain, form
 
 The architectural purpose is:
 
-[
-\boxed{
+\[
+\\boxed{
 LegacyMetadata
-\rightarrow
+\\rightarrow
 TypedRSCFMetadata
 }
-]
+\]
 
 while preserving document content outside the targeted metadata field.
 
----
+______________________________________________________________________
 
-# 1. Migration Objective
+## 1. Migration Objective
 
 The migration replaces legacy tag structures such as:
 
@@ -176,48 +177,44 @@ to:
 typed RSCF structural coordinates
 ```
 
----
+______________________________________________________________________
 
-# 2. Core Transformation
+## 2. Core Transformation
 
 For each registered file:
 
-[
+\[
 F_i=
 (
 Path_i,
 Pattern_i,
 Replacement_i
 )
-]
+\]
 
 the migration performs:
 
-[
-Content'_i
-==========
+## \[ Content'\_i
 
 Replace(
 Content_i,
 Pattern_i,
 Replacement_i
 )
-]
+\]
 
 subject to the invariant:
 
-[
-Body(Content'_i)
-================
+## \[ Body(Content'\_i)
 
 Body(Content_i)
-]
+\]
 
 except for explicitly targeted metadata cleanup.
 
----
+______________________________________________________________________
 
-# 3. Migration Registry
+## 3. Migration Registry
 
 The migration registry is explicit rather than dynamically inferred.
 
@@ -247,9 +244,9 @@ MIGRATIONS
 
 This preserves deterministic behavior.
 
----
+______________________________________________________________________
 
-# 4. RSCF Structural Axes
+## 4. RSCF Structural Axes
 
 The target taxonomy includes multiple RSCF structural dimensions.
 
@@ -269,9 +266,9 @@ inventory boundaries
 canonical separation
 ```
 
----
+______________________________________________________________________
 
-# 5. Constraint
+## 5. Constraint
 
 ```text
 rscf/C-constraint
@@ -286,9 +283,9 @@ canon constraints
 structural admissibility
 ```
 
----
+______________________________________________________________________
 
-# 6. Relation
+## 6. Relation
 
 ```text
 rscf/G-relation
@@ -303,9 +300,9 @@ dependency
 cross-component relation
 ```
 
----
+______________________________________________________________________
 
-# 7. State
+## 7. State
 
 ```text
 rscf/S-state
@@ -321,9 +318,9 @@ system state
 dynamic configuration
 ```
 
----
+______________________________________________________________________
 
-# 8. Topology
+## 8. Topology
 
 ```text
 rscf/T-topology
@@ -339,9 +336,9 @@ connectivity
 spatial organization
 ```
 
----
+______________________________________________________________________
 
-# 9. Memory
+## 9. Memory
 
 ```text
 rscf/M-memory
@@ -357,9 +354,9 @@ memory architecture
 vault persistence
 ```
 
----
+______________________________________________________________________
 
-# 10. Compression
+## 10. Compression
 
 ```text
 rscf/K-compression
@@ -374,9 +371,9 @@ bridge compression
 structural abstraction
 ```
 
----
+______________________________________________________________________
 
-# 11. Repair
+## 11. Repair
 
 ```text
 rscf/P-
@@ -387,7 +384,7 @@ rscf/P-
 
 > Path: `indexes/EQUATION_REGISTRY.md` | Size: 9006 chars | Match score: 3
 
-# Equation Registry
+## Equation Registry
 
 Equations are preserved with their source/framework status. AMOS MODEL equations must not be promoted into established empirical law without independent validation.
 
@@ -430,7 +427,8 @@ Equations are preserved with their source/framework status. AMOS MODEL equations
 ---
 **MOC:**
 ```
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -438,12 +436,14 @@ Equations are preserved with their source/framework status. AMOS MODEL equations
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-arxiv-sparse-autoencoder-interpretability-rscf-vault-domain-knowledge
 node_type: reference
 path: 07_SKILLS/amos-arxiv-sparse-autoencoder-interpretability-rscf/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

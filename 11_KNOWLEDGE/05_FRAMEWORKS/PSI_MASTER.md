@@ -12,20 +12,20 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: MASTER
 path: 11_KNOWLEDGE/05_FRAMEWORKS/PSI_MASTER.md
 tags:
-- amos-os
-- knowledge
-- vault
-- 05_frameworks
-- psi_master
-- integrity_evaluations
-- structural_auditing
-- rscf
-- canon_candidate
-- canon/knowledge
-- psi-framework
-- absolute-structural-integrity
-- heritage-intelligence-master
-- heritage-handbook
+  - amos-os
+  - knowledge
+  - vault
+  - 05_frameworks
+  - psi_master
+  - integrity_evaluations
+  - structural_auditing
+  - rscf
+  - canon_candidate
+  - canon/knowledge
+  - psi-framework
+  - absolute-structural-integrity
+  - heritage-intelligence-master
+  - heritage-handbook
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -40,20 +40,20 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - LAWFUL_SYSTEM_PERCEPTION_MODEL
-  - PSI_FRAMEWORK
-  - AMOS_CORPUS
+    - LAWFUL_SYSTEM_PERCEPTION_MODEL
+    - PSI_FRAMEWORK
+    - AMOS_CORPUS
   scope:
-  - KNOWLEDGE_FRAMEWORKS
-  - INTEGRITY_EVALUATION
-  - SOURCE_DEFINED_MODEL
+    - KNOWLEDGE_FRAMEWORKS
+    - INTEGRITY_EVALUATION
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   primary:
     name: PSI Master Evaluation System
     role: INTEGRITY_AUDITING_AND_EVALUATION_MASTER
   framework:
     artifact:
-    - - PSI_FRAMEWORK
+      -   - PSI_FRAMEWORK
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
@@ -67,9 +67,9 @@ epistemic_boundary:
 
 It oversees cross-system integrity audits, structural health grading, and non-compensatory debt assessments.
 
----
+______________________________________________________________________
 
-# 1. Master Audit Evaluation Flow
+## 1. Master Audit Evaluation Flow
 
 ```text
 SYSTEM OBSERVATION & TELEMETRY
@@ -85,17 +85,17 @@ PSI AUDIT GATES:
 INTEGRITY RECEIPT & COMPLIANCE STAMP
 ```
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Parent Framework:** [[11_KNOWLEDGE/05_FRAMEWORKS/PSI_FRAMEWORK|PSI_FRAMEWORK]]
 - **Structural Integrity:** [[11_KNOWLEDGE/05_FRAMEWORKS/ABSOLUTE_STRUCTURAL_INTEGRITY|ABSOLUTE_STRUCTURAL_INTEGRITY]]
 - **Decision Governance:** [[11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_INTELLIGENCE_MASTER|HERITAGE_INTELLIGENCE_MASTER]] and [[11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_HANDBOOK|HERITAGE_HANDBOOK]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -113,9 +113,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/PSI_FRAMEWORK|PSI_FRAMEWORK]] · [[11_KNOWLEDGE/05_FRAMEWORKS/ABSOLUTE_STRUCTURAL_INTEGRITY|ABSOLUTE_STRUCTURAL_INTEGRITY]] · [[11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_INTELLIGENCE_MASTER|HERITAGE_INTELLIGENCE_MASTER]]
 
----
+______________________________________________________________________
+
 **MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]

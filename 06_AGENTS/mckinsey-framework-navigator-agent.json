@@ -74,7 +74,7 @@
     "mckinsey-framework-navigator"
   ],
   "depends_on_workflows": [
-    "mckinsey-framework-navigator-workflow.md"
+    "amos-mckinsey-framework-navigator-workflow.md"
   ],
   "epistemic_class": "AMOS_MODEL",
   "claim_ceiling": 0.95,

@@ -12,23 +12,23 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: BINDING
 path: 11_KNOWLEDGE/05_FRAMEWORKS/UBI_NEUROSYNCAI_BINDING.md
 tags:
-- amos-os
-- knowledge
-- vault
-- 05_frameworks
-- ubi_neurosyncai_binding
-- ubi
-- neurosyncai
-- human_ai_interface
-- bio_adaptive_pacing
-- rscf
-- canon_candidate
-- canon/knowledge
-- unified-biological-intelligence
-- neurosyncai-framework
-- amos-x-neurosyncai
-- amos-x-neurosyncai-matrix
-- neurosyncai-dual-system-architecture
+  - amos-os
+  - knowledge
+  - vault
+  - 05_frameworks
+  - ubi_neurosyncai_binding
+  - ubi
+  - neurosyncai
+  - human_ai_interface
+  - bio_adaptive_pacing
+  - rscf
+  - canon_candidate
+  - canon/knowledge
+  - unified-biological-intelligence
+  - neurosyncai-framework
+  - amos-x-neurosyncai
+  - amos-x-neurosyncai-matrix
+  - neurosyncai-dual-system-architecture
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -43,27 +43,27 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - UBI_OFFICIAL_MANUAL
-  - NEUROSYNCAI_CANON
-  - AMOS_CORPUS
+    - UBI_OFFICIAL_MANUAL
+    - NEUROSYNCAI_CANON
+    - AMOS_CORPUS
   scope:
-  - KNOWLEDGE_FRAMEWORKS
-  - FRAMEWORK_BINDINGS
-  - SOURCE_DEFINED_MODEL
+    - KNOWLEDGE_FRAMEWORKS
+    - FRAMEWORK_BINDINGS
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   biological_source:
     name: Unified Biological Intelligence™
     artifact:
-    - - UNIFIED_BIOLOGICAL_INTELLIGENCE
+      -   - UNIFIED_BIOLOGICAL_INTELLIGENCE
   ai_interface_target:
     name: NeurosyncAI™ Framework
     artifact:
-    - - NEUROSYNCAI_FRAMEWORK
+      -   - NEUROSYNCAI_FRAMEWORK
   cognitive_matrix_binding:
     artifact:
-    - - AMOS_X_NEUROSYNCAI
+      -   - AMOS_X_NEUROSYNCAI
     matrix:
-    - - AMOS_X_NEUROSYNCAI_MATRIX
+      -   - AMOS_X_NEUROSYNCAI_MATRIX
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   binding_structure: VERIFIED_SOURCE_STRUCTURE
@@ -75,9 +75,9 @@ epistemic_boundary:
 
 `UBI_NEUROSYNCAI_BINDING.md` is the canonical Knowledge Plane reference artifact specifying the operational coupling between **Unified Biological Intelligence™ (UBI)** and **NeurosyncAI™** within `11_KNOWLEDGE/05_FRAMEWORKS`.
 
----
+______________________________________________________________________
 
-# 1. Operational Coupling: Biology $\leftrightarrow$ AI Synchronization
+## 1. Operational Coupling: Biology $\leftrightarrow$ AI Synchronization
 
 ```text
 HUMAN BIOLOGICAL STATE (NBI, NEI, SI, BEI)
@@ -93,17 +93,17 @@ UBI TELEMETRY & FATIGUE GATING:
 NEUROSYNCAI DYNAMIC PACING & TOKEN THROTTLING (Preserving e = i²)
 ```
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Biological Source:** [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]] and `11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/UBI_NEUROBIOLOGICAL_INTELLIGENCE`
 - **AI Interface Target:** [[11_KNOWLEDGE/05_FRAMEWORKS/NEUROSYNCAI_FRAMEWORK|NEUROSYNCAI_FRAMEWORK]] and [[11_KNOWLEDGE/05_FRAMEWORKS/NEUROSYNCAI_DUAL_SYSTEM_ARCHITECTURE|NEUROSYNCAI_DUAL_SYSTEM_ARCHITECTURE]]
 - **Cognitive Matrix:** [[25_COGNITIVE_MATRIX/AMOS_X_NEUROSYNCAI|AMOS_X_NEUROSYNCAI]] and [[25_COGNITIVE_MATRIX/AMOS_X_NEUROSYNCAI_MATRIX|AMOS_X_NEUROSYNCAI_MATRIX]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -123,9 +123,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]] · [[11_KNOWLEDGE/05_FRAMEWORKS/NEUROSYNCAI_FRAMEWORK|NEUROSYNCAI_FRAMEWORK]] · [[25_COGNITIVE_MATRIX/AMOS_X_NEUROSYNCAI|AMOS_X_NEUROSYNCAI]]
 
----
+______________________________________________________________________
+
 **MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]

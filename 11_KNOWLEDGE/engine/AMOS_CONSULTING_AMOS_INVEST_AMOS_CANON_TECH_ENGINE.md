@@ -1,12 +1,15 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: AMOS CONSULTING AMOS INVEST AMOS CANON TECH ENGINE
 tags:
-- engine
-- processing
-- runtime
-- canon/knowledge
-- canon
-- trang-framework-recursive-ontology-dynamics
+  - engine
+  - processing
+  - runtime
+  - canon/knowledge
+  - canon
+  - trang-framework-recursive-ontology-dynamics
 type: data
 source: 11_KNOWLEDGE/engine
 rscf:
@@ -3038,9 +3041,10 @@ rscf:
 **Related:**  ·  ·  ·  ·
 ```
 
----
+______________________________________________________________________
+
 **MOC:** [[11_KNOWLEDGE/engine/ENGINE_MOC|ENGINE_MOC]]
 
----
-**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+______________________________________________________________________
 
+**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: L03 PERCEPT FORMATION PRIMITIVES COGNITIVE MATRIX REPAIR
 type: cognitive
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L03_PERCEPT_FORMATION
 tags:
-- cognitive-matrix
-- primitives
-- matrix/l03-percept-formation
-- note
-- domain/cognitive-matrix
+  - cognitive-matrix
+  - primitives
+  - matrix/l03-percept-formation
+  - note
+  - domain/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -41,7 +44,7 @@ ROLLBACK != PROOF OF CORRECTNESS
 
 The governing repair principle is to identify the correct repair target before optimizing repair strength; a strong repair applied to the wrong target can increase total damage. Repair should remain staged and reversible while causal uncertainty persists.
 
----
+______________________________________________________________________
 
 ## 1. Source / canon references
 
@@ -82,7 +85,7 @@ canonical_runtime_implementation: UNKNOWN_GAP
 
 Therefore all L03-specific repair mechanics below remain `AMOS_MODEL` unless direct canon establishes them.
 
----
+______________________________________________________________________
 
 ## 2. Definition and scope
 
@@ -90,13 +93,13 @@ Therefore all L03-specific repair mechanics below remain `AMOS_MODEL` unless dir
 
 Candidate transformation:
 
-[
+\[
 S^{damaged}*{L03}
-\xrightarrow{\mathcal R}
+\\xrightarrow{\\mathcal R}
 S^{candidate}*{L03}
-\xrightarrow{\mathcal V}
-S^{revalidated}_{L03}
-]
+\\xrightarrow{\\mathcal V}
+S^{revalidated}\_{L03}
+\]
 
 where:
 
@@ -109,7 +112,7 @@ The repair subsystem covers failures involving observations admitted to L03, fea
 
 It does **not** independently authorize durable commits, manufacture missing evidence, rewrite source observations to fit a desired percept, erase legitimate competing hypotheses, or certify empirical correctness.
 
----
+______________________________________________________________________
 
 ## 3. Typed inputs / outputs
 
@@ -211,7 +214,8 @@ L03RepairOutput:
   commit_authority:
     type: NONE
 ```
----
+
+______________________________________________________________________
 
 ## 4. State variables
 
@@ -245,7 +249,7 @@ Auth_t   = authority context
 Ver_t    = state/version identity
 ```
 
----
+______________________________________________________________________
 
 ## 5. Operators
 
@@ -294,7 +298,7 @@ ESCALATE
 
 Canonical identifiers remain `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
 ## 6. Repair invariants
 
@@ -362,7 +366,7 @@ PROPOSAL != COMMIT
 
 The requirement to inspect repair externalities across L/M/H follows the repair-priority discipline that a local repair can displace harm into subsystem or governing layers.
 
----
+______________________________________________________________________
 
 ## 7. Dependencies
 
@@ -402,7 +406,7 @@ version/state governance
 
 A repair cannot be safely promoted if a load-bearing dependency remains unresolved.
 
----
+______________________________________________________________________
 
 ## 8. H/M/L applicability
 
@@ -454,7 +458,7 @@ perceptual regime assumptions
 
 Repair selection must test all three levels rather than assuming the visible failure identifies the correct layer.
 
----
+______________________________________________________________________
 
 ## 9. Control-plane requirements
 
@@ -498,7 +502,7 @@ commit_gate:
   constraints_fresh: required
 ```
 
----
+______________________________________________________________________
 
 ## 10. Agents and skills
 
@@ -521,7 +525,7 @@ Relevant AMOS capabilities include repair-priority governance, collapse/recovery
 
 These remain capabilities or architectural roles, not evidence that an L03 repair runtime exists.
 
----
+______________________________________________________________________
 
 ## 11. Primary workflow
 
@@ -583,7 +587,7 @@ CONTROL-PLANE COMMIT GATE
 
 Repair timing and recoverability windows should remain `UNKNOWN/GAP` unless evidence supports an actual bound; they must not be presented as universal laws.
 
----
+______________________________________________________________________
 
 ## 12. Protocols
 
@@ -621,7 +625,7 @@ AUDIT_TRACE_APPEND
 
 Transport format, canonical message schema, and runtime protocol remain `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
 ## 13. Evidence / provenance
 
@@ -670,7 +674,7 @@ RECOVERY PROPOSAL
 AUTHORIZED COMMIT
 ```
 
----
+______________________________________________________________________
 
 ## 14. Uncertainty and confidence ceiling
 
@@ -694,23 +698,23 @@ repair_uncertainty:
 
 Candidate confidence rule:
 
-[
+\[
 Conf(Recovery)
-\le
-\min(
+\\le
+\\min(
 Conf(FailureDiagnosis),
 Conf(Target),
 Conf(Dependencies),
 Conf(Repair),
 Conf(Revalidation)
 )
-]
+\]
 
 `AMOS_MODEL`.
 
 A repaired output cannot inherit confidence from the intended repair alone.
 
----
+______________________________________________________________________
 
 ## 15. Failure modes of repair
 
@@ -740,7 +744,7 @@ RFM-022 unauthorized commit
 RFM-023 UNKNOWN/GAP treated as recovery
 ```
 
----
+______________________________________________________________________
 
 ## 16. Repair / recovery decision set
 
@@ -774,7 +778,7 @@ repair_decisions:
     meaning: evidence insufficient to choose safely
 ```
 
----
+______________________________________________________________________
 
 ## 17. Tests / validators
 
@@ -844,7 +848,7 @@ runtime_validation: false
 formal_verification: false
 ```
 
----
+______________________________________________________________________
 
 ## 18. Falsifiers
 
@@ -864,7 +868,7 @@ or executable canonical behavior contradicting these rules
 
 A repair model is also falsified for a specific incident if its proposed intervention reproducibly worsens the intended invariant while a supported competing intervention does not.
 
----
+______________________________________________________________________
 
 ## 19. Gap status
 
@@ -923,7 +927,7 @@ gap_status:
     status: CRITICAL_GAP
 ```
 
----
+______________________________________________________________________
 
 ## 20. RSCF completion state
 
@@ -1017,23 +1021,26 @@ gap_status:
 
 > **`L03_PERCEPT_FORMATION` SHALL treat repair as a provenance-preserving transformation of damaged percept state rather than as evidence that the repaired interpretation is true. Repair SHALL distinguish symptom from repair target, inspect candidate targets across H/M/L, preserve unaffected valid state, selectively invalidate load-bearing descendants, retain legitimate competing percepts, and avoid manufacturing observations, provenance, independence, or confidence. When the causal repair target is materially uncertain, L03 SHALL prefer containment, quarantine, rollback, staged reversible intervention, or `UNKNOWN/GAP` over destructive speculative repair. Every repaired candidate SHALL undergo revalidation under current scope, regime, freshness, provenance, dependency, and authority conditions before recovery may be proposed. Successful repair constitutes neither authority nor durable commit.**
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: l03_percept_formation_primitives_cognitive_matrix_repair
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L03_PERCEPT_FORMATION/L03_PERCEPT_FORMATION_PRIMITIVES_COGNITIVE_MATRIX_REPAIR.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L03_PERCEPT_FORMATION/L03_PERCEPT_FORMATION_MOC|L03_PERCEPT_FORMATION_MOC]]
-

@@ -1,12 +1,15 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Amos-C09-Org-Law-Policy-Master MOC
 type: moc
 source: 07_SKILLS/amos-c09-org-law-policy-master
 tags:
-- amos-c09-org-law-policy-master
-- type/skill
-- agent-template
-- skill
+  - amos-c09-org-law-policy-master
+  - type/skill
+  - agent-template
+  - skill
 moc: true
 rscf:
   state: DERIVED
@@ -28,13 +31,16 @@ rscf:
 ## Subdirectories
 
 - `agents/` (no markdown)
-- references_MOC — references
+- [[07_SKILLS/amos-c09-org-law-policy-master/references/references_MOC|references_MOC]] — references
 
----
----
-**References MOC:** [[07_SKILLS/spreadsheets/references/references_MOC|references_MOC]]
+______________________________________________________________________
 
----
+______________________________________________________________________
+
+**References MOC:** [[07_SKILLS/amos-c09-org-law-policy-master/references/references_MOC|references_MOC]]
+
+______________________________________________________________________
+
 **Skill:** [[07_SKILLS/amos-c09-org-law-policy-master/SKILL|SKILL]]
 
 **Agent Template:** [[07_SKILLS/amos-c09-org-law-policy-master/AGENT_TEMPLATE|AGENT_TEMPLATE]]

@@ -1,4 +1,7 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: ORG GOVERNANCE KERNEL
 type: kernel
 source: 11_KNOWLEDGE/kernel
@@ -7,16 +10,16 @@ canon-type: framework
 rscf-state: source-claim
 topic: org-governance-kernel
 tags:
-- canon-group/tech-ai
-- canon/framework
-- rscf/claim
-- rscf/provenance
-- rscf/state/source-claim
-- topic/org-governance-kernel
-- kernel
-- system-scan-agent
-- automation-profiles
-- amos-simulation-kernel-v0-math-foundations
+  - canon-group/tech-ai
+  - canon/framework
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - topic/org-governance-kernel
+  - kernel
+  - system-scan-agent
+  - automation-profiles
+  - amos-simulation-kernel-v0-math-foundations
 created: 2026-08-22
 rscf:
   state: SOURCE_CLAIM
@@ -27,7 +30,7 @@ rscf:
 
 # ORG GOVERNANCE KERNEL
 
-```json
+````json
 {
   "engine_name": "Org_Governance_Engine_vInfinity",
   "version": "v3.0.0",
@@ -409,4 +412,4 @@ rscf:
 
 ---
 **MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]
-```
+````

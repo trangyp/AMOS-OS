@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: 11k executor agent
 type: reference
 source: 07_SKILLS/amos-os-runtime-master/references
 tags:
-- reference
-- amos-os-runtime-master
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-os-runtime-master
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -20,7 +23,8 @@ rscf:
 > Source: `/Users/mac/Documents/AMOS_OS/11_KNOWLEDGE/executor_agent.md`
 > Epistemic class: SOURCE_DERIVED
 
----
+______________________________________________________________________
+
 artifact_id: AMOS-EXECUTOR-AGENT
 name: Executor_Agent
 title: AMOS Executor Agent — Governed Execution-System Component
@@ -47,28 +51,30 @@ implementation_state: "REGISTERED_STUB"
 runtime_state: "NON_DESTRUCTIVE_TRACE_ONLY"
 
 aliases:
-  - Executor Agent
-  - AMOS Executor Agent
-  - Execution System Executor
-  - Governed Effect Executor
+
+- Executor Agent
+- AMOS Executor Agent
+- Execution System Executor
+- Governed Effect Executor
 
 tags:
-  - agents
-  - canon-group/tech-ai
-  - canon/component
-  - rscf/claim
-  - rscf/provenance
-  - rscf/state/source-claim
-  - topic/executor-agent
-  - topic/execution-system
-  - topic/effect-execution
-  - topic/commit-governance
-  - topic/agent-runtime
 
-governing_law: "integrity > completeness > fluency > speed > token savings"
----
+- agents
+- canon-group/tech-ai
+- canon/component
+- rscf/claim
+- rscf/provenance
+- rscf/state/source-claim
+- topic/executor-agent
+- topic/execution-system
+- topic/effect-execution
+- topic/commit-governance
+- topic/agent-runtime
 
-# AMOS Executor Agent
+## governing_law: "integrity > completeness > fluency > speed > token savings"
+
+## AMOS Executor Agent
+
 ## Governed Execution-System Component
 
 > **System:** `EXECUTION_SYSTEM`
@@ -80,9 +86,9 @@ governing_law: "integrity > completeness > fluency > speed > token savings"
 > **Current runtime behavior:** trace append → context return
 > **Effect authority:** `NONE_IMPLEMENTED`
 
----
+______________________________________________________________________
 
-# 0. EXECUTIVE STATUS
+## 0. EXECUTIVE STATUS
 
 The supplied `Executor_Agent` does **not currently execute external or durable actions**.
 
@@ -158,9 +164,9 @@ not:
 LIVE EFFECT EXECUTOR
 ```
 
----
+______________________________________________________________________
 
-# 1. VERSION / LINEAGE MODEL
+## 1. VERSION / LINEAGE MODEL
 
 The component has four separate version axes:
 
@@ -229,10 +235,9 @@ new
 -
 ```
 
----
+______________________________________________________________________
 
-**Related:** [[07_SKILLS/amos-os-runtime-master/amos-os-runtime-master_MOC|amos-os-runtime-master_MOC]]
----
+## **Related:** [[07_SKILLS/amos-os-runtime-master/amos-os-runtime-master_MOC|amos-os-runtime-master_MOC]]
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -240,12 +245,14 @@ new
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-os-runtime-master-11k-executor-agent
 node_type: reference
 path: 07_SKILLS/amos-os-runtime-master/references/11k_executor_agent.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

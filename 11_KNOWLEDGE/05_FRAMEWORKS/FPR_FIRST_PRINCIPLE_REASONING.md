@@ -12,20 +12,20 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: FRAMEWORK
 path: 11_KNOWLEDGE/05_FRAMEWORKS/FPR_FIRST_PRINCIPLE_REASONING.md
 tags:
-- amos-os
-- knowledge
-- vault
-- 05_frameworks
-- fpr
-- first_principle_reasoning
-- foundational_proofs
-- invariant_derivation
-- rscf
-- canon_candidate
-- canon/knowledge
-- first-principles-articulation
-- ldai-logically-deterministic-ai
-- absolute-structural-integrity
+  - amos-os
+  - knowledge
+  - vault
+  - 05_frameworks
+  - fpr
+  - first_principle_reasoning
+  - foundational_proofs
+  - invariant_derivation
+  - rscf
+  - canon_candidate
+  - canon/knowledge
+  - first-principles-articulation
+  - ldai-logically-deterministic-ai
+  - absolute-structural-integrity
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -40,19 +40,19 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - FIRST_PRINCIPLES_ARTICULATION
-  - AMOS_CORPUS
+    - FIRST_PRINCIPLES_ARTICULATION
+    - AMOS_CORPUS
   scope:
-  - KNOWLEDGE_FRAMEWORKS
-  - FIRST_PRINCIPLE_REASONING
-  - SOURCE_DEFINED_MODEL
+    - KNOWLEDGE_FRAMEWORKS
+    - FIRST_PRINCIPLE_REASONING
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   articulation:
     artifact:
-    - - FIRST_PRINCIPLES_ARTICULATION
+      -   - FIRST_PRINCIPLES_ARTICULATION
   deterministic_logic:
     artifact:
-    - - LDAI_LOGICALLY_DETERMINISTIC_AI
+      -   - LDAI_LOGICALLY_DETERMINISTIC_AI
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
@@ -66,28 +66,28 @@ epistemic_boundary:
 
 It details the computational operationalization of first-principles proof generation, linking irreducible physical constraints directly to executable code and decision matrices.
 
----
+______________________________________________________________________
 
-# 1. Computational Pipeline
+## 1. Computational Pipeline
 
 $$\text{Domain Heuristic } (H) \xrightarrow{\text{Axiom Inversion}} \text{Irreducible Physical Constraint } (P_0) \xrightarrow{\text{Proof Derivation}} \text{Constructive Theorem } (T)$$
 
 1. **Axiom Inversion:** Tests whether a conventional heuristic can be contradicted without violating physical or mathematical laws.
-2. **Substrate Rooting:** Binds every functional assertion to measurable energy, entropy, or biological limits ($e = i^2$).
-3. **Formal Synthesis:** Employs LDAI to generate provably correct implementation logic.
+1. **Substrate Rooting:** Binds every functional assertion to measurable energy, entropy, or biological limits ($e = i^2$).
+1. **Formal Synthesis:** Employs LDAI to generate provably correct implementation logic.
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Articulation Master:** [[11_KNOWLEDGE/05_FRAMEWORKS/FIRST_PRINCIPLES_ARTICULATION|FIRST_PRINCIPLES_ARTICULATION]]
 - **Deterministic AI:** [[11_KNOWLEDGE/05_FRAMEWORKS/LDAI_LOGICALLY_DETERMINISTIC_AI|LDAI_LOGICALLY_DETERMINISTIC_AI]]
 - **Absolute Integrity:** [[11_KNOWLEDGE/05_FRAMEWORKS/ABSOLUTE_STRUCTURAL_INTEGRITY|ABSOLUTE_STRUCTURAL_INTEGRITY]]
 - **Cognitive Matrix:** `25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC`
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -105,10 +105,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/FIRST_PRINCIPLES_ARTICULATION|FIRST_PRINCIPLES_ARTICULATION]] · [[11_KNOWLEDGE/05_FRAMEWORKS/LDAI_LOGICALLY_DETERMINISTIC_AI|LDAI_LOGICALLY_DETERMINISTIC_AI]] · [[11_KNOWLEDGE/05_FRAMEWORKS/ABSOLUTE_STRUCTURAL_INTEGRITY|ABSOLUTE_STRUCTURAL_INTEGRITY]]
 
----
-**MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]
+______________________________________________________________________
 
+**MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]

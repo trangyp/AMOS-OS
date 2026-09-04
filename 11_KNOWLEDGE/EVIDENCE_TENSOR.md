@@ -1,12 +1,15 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: AMOS Evidence Tensor Architecture
 type: tensor
 source: 11_KNOWLEDGE
 tags:
-- tensor
-- knowledge
-- vault
-- canon/knowledge
+  - tensor
+  - knowledge
+  - vault
+  - canon/knowledge
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -43,10 +46,10 @@ It carries the structural information required to determine:
 
 The canonical tensor is:
 
-[
-\boxed{
+\[
+\\boxed{
 E =
-T[
+T\[
 id,
 source,
 source_type,
@@ -63,74 +66,71 @@ quality,
 freshness,
 revocation,
 license
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 1. Core Principle
+## 1. Core Principle
 
 Conventional AI reasoning often approximates evidence as:
 
-[
+\[
 Evidence = Source
-]
+\]
 
 AMOS instead requires:
 
-[
-\boxed{
-Evidence
-========
+## \[ \\boxed{ Evidence
 
 Source
-+
+\+
 Type
-+
+\+
 Observation
-+
+\+
 Time
-+
+\+
 Version
-+
+\+
 Environment
-+
+\+
 Scope
-+
+\+
 Regime
-+
+\+
 Ancestry
-+
+\+
 Independence
-+
+\+
 Quality
-+
+\+
 Freshness
-+
+\+
 Revocation
-+
+\+
 UsageRights
 }
-]
+\]
 
 Therefore:
 
-[
-Citation \neq EvidenceTensor
-]
+\[
+Citation \\neq EvidenceTensor
+\]
 
 and:
 
-[
-MultipleSources \neq IndependentEvidence
-]
+\[
+MultipleSources \\neq IndependentEvidence
+\]
 
 unless provenance topology establishes independence.
 
----
+______________________________________________________________________
 
-# 2. Evidence Tensor Schema
+## 2. Evidence Tensor Schema
 
 ```text
 E = T[
@@ -264,15 +264,15 @@ evidence_tensor:
   governance_state:
 ```
 
----
+______________________________________________________________________
 
-# 3. Evidence Identity
+## 3. Evidence Identity
 
 Every evidence object requires stable identity:
 
-[
+\[
 E.id = unique(E)
-]
+\]
 
 Identity should survive:
 
@@ -287,15 +287,15 @@ Identity should survive:
 
 Two evidence objects with identical text are not necessarily identical evidence.
 
-[
+\[
 text(E_i)=text(E_j)
-\not\Rightarrow
+\\not\\Rightarrow
 E_i=E_j
-]
+\]
 
----
+______________________________________________________________________
 
-# 4. Source
+## 4. Source
 
 `source` identifies the immediate origin from which the evidence was obtained.
 
@@ -329,15 +329,15 @@ Paper A
 
 If the evidence originates from Paper A:
 
-[
+\[
 Root(B)=A
-]
+\]
 
 The blog does not automatically constitute independent confirmation.
 
----
+______________________________________________________________________
 
-# 5. Source Type
+## 5. Source Type
 
 `source_type` classifies the evidence-producing object.
 
@@ -368,31 +368,31 @@ Source type influences what conclusions the evidence can support.
 
 For example:
 
-[
+\[
 MODEL_OUTPUT
-\not\equiv
+\\not\\equiv
 OBSERVATION
-]
+\]
 
 and:
 
-[
+\[
 DOCUMENTATION_CLAIM
-\not\equiv
+\\not\\equiv
 EXECUTED_BEHAVIOR
-]
+\]
 
----
+______________________________________________________________________
 
-# 6. Claim Support
+## 6. Claim Support
 
 Evidence exists relative to claims.
 
 Define:
 
-[
+\[
 Support(E,C)
-]
+\]
 
 The same evidence may support different claims with different strengths.
 
@@ -400,21 +400,21 @@ Therefore evidence quality alone is insufficient.
 
 AMOS requires:
 
-[
-\boxed{
+\[
+\\boxed{
 EvidenceStrength = f(E,C)
 }
-]
+\]
 
 not simply:
 
-[
+\[
 EvidenceStrength=f(E)
-]
+\]
 
----
+______________________________________________________________________
 
-# 7. Claim-Support Relation
+## 7. Claim-Support Relation
 
 Possible evidence relations include:
 
@@ -444,22 +444,22 @@ claim_support:
 
 A source should never be labeled simply "evidence" without specifying what claim it bears on.
 
----
+______________________________________________________________________
 
-# 8. Observation Method
+## 8. Observation Method
 
 Evidence must preserve how the observation was generated.
 
-[
+\[
 O(E)=
-[
+\[
 method,
 instrument,
 procedure,
 measurement,
 uncertainty
-]
-]
+\]
+\]
 
 This distinguishes:
 
@@ -476,29 +476,29 @@ automatically logged
 
 Observation method is part of evidence meaning.
 
-[
+\[
 SameValue + DifferentMethod
-\not\Rightarrow
+\\not\\Rightarrow
 SameEvidence
-]
+\]
 
----
+______________________________________________________________________
 
-# 9. Measurement Firewall
+## 9. Measurement Firewall
 
 A measured proxy must not silently become the underlying construct.
 
 If:
 
-[
+\[
 M = measure(X)
-]
+\]
 
 then:
 
-[
-M \neq X
-]
+\[
+M \\neq X
+\]
 
 unless the measurement relation has been independently established.
 
@@ -514,58 +514,58 @@ uncertainty
 
 where relevant.
 
----
+______________________________________________________________________
 
-# 10. Timestamp Tensor
+## 10. Timestamp Tensor
 
 Evidence has multiple relevant times.
 
-[
-\boxed{
+\[
+\\boxed{
 T_E =
-[
-t_{created},
-t_{observed},
-t_{retrieved},
-t_{validated}
-]
+\[
+t\_{created},
+t\_{observed},
+t\_{retrieved},
+t\_{validated}
+\]
 }
-]
+\]
 
 These timestamps are not interchangeable.
 
 For example:
 
-[
-t_{publication}
-\neq
-t_{observation}
-]
+\[
+t\_{publication}
+\\neq
+t\_{observation}
+\]
 
 and:
 
-[
-t_{retrieval}
-\neq
-t_{validation}
-]
+\[
+t\_{retrieval}
+\\neq
+t\_{validation}
+\]
 
----
+______________________________________________________________________
 
-# 11. Version Tensor
+## 11. Version Tensor
 
 Evidence must bind to the version actually observed.
 
-[
+\[
 V_E=
-[
+\[
 source_version,
 artifact_version,
 revision,
 commit,
 hash
-]
-]
+\]
+\]
 
 This is essential for:
 
@@ -580,31 +580,31 @@ This is essential for:
 
 A conclusion established against version (v_1) cannot automatically be applied to (v_2).
 
-[
+\[
 Verified(E|v_1)
-\not\Rightarrow
+\\not\\Rightarrow
 Verified(E|v_2)
-]
+\]
 
----
+______________________________________________________________________
 
-# 12. Environment Tensor
+## 12. Environment Tensor
 
 Evidence generated by execution should preserve its environment.
 
-[
-\boxed{
+\[
+\\boxed{
 Env(E)=
-[
+\[
 system,
 software,
 hardware,
 dataset,
 configuration,
 runtime
-]
+\]
 }
-]
+\]
 
 Example:
 
@@ -625,71 +625,71 @@ environment:
 
 This prevents environment-dependent measurements from becoming environment-independent claims.
 
----
+______________________________________________________________________
 
-# 13. Scope
+## 13. Scope
 
 Every evidence object has an applicability envelope.
 
-[
-\boxed{
+\[
+\\boxed{
 Scope(E)=
-[
+\[
 system,
 population,
 domain,
 scale,
 measurement,
 assumptions
-]
+\]
 }
-]
+\]
 
 Evidence collected from (S_1) does not automatically support a claim in (S_2).
 
-[
+\[
 E|S_1
-\not\Rightarrow
+\\not\\Rightarrow
 E|S_2
-]
+\]
 
 unless compatibility is established.
 
----
+______________________________________________________________________
 
-# 14. Evidence–Claim Scope Compatibility
+## 14. Evidence–Claim Scope Compatibility
 
 For evidence (E) and claim (C):
 
-[
+\[
 SC(E,C)=Compat(Scope(E),Scope(C))
-]
+\]
 
 where:
 
-[
-SC\in{MATCH,PARTIAL,MISMATCH,UNKNOWN}
-]
+\[
+SC\\in{MATCH,PARTIAL,MISMATCH,UNKNOWN}
+\]
 
 Hard rule:
 
-[
+\[
 SC=MISMATCH
-\Rightarrow
-E \notin DirectSupport(C)
-]
+\\Rightarrow
+E \\notin DirectSupport(C)
+\]
 
 unless an explicit translation or generalization argument exists.
 
----
+______________________________________________________________________
 
-# 15. Regime
+## 15. Regime
 
 Evidence may only be informative under a particular regime.
 
-[
+\[
 R(E)=R_i
-]
+\]
 
 Examples:
 
@@ -707,31 +707,31 @@ high-load runtime
 
 Evidence reuse requires:
 
-[
+\[
 Compat(R(E),R(C))
-]
+\]
 
----
+______________________________________________________________________
 
-# 16. Regime Shift
+## 16. Regime Shift
 
 Suppose evidence (E) was validated under:
 
-[
+\[
 R_1
-]
+\]
 
 but the target claim concerns:
 
-[
+\[
 R_2
-]
+\]
 
 If:
 
-[
-R_1 \neq R_2
-]
+\[
+R_1 \\neq R_2
+\]
 
 then evidence must be:
 
@@ -744,22 +744,22 @@ or EXCLUDED
 
 depending on regime compatibility.
 
----
+______________________________________________________________________
 
-# 17. Ancestry
+## 17. Ancestry
 
 Evidence ancestry records where an evidence object ultimately came from.
 
 Define:
 
-[
+\[
 A(E)=
-[
+\[
 parents,
 roots,
 transformations
-]
-]
+\]
+\]
 
 Example:
 
@@ -779,17 +779,17 @@ These are five representations.
 
 They may still represent one evidentiary root.
 
----
+______________________________________________________________________
 
-# 18. Provenance Graph
+## 18. Provenance Graph
 
 Evidence forms a directed provenance graph:
 
-[
-\boxed{
+\[
+\\boxed{
 G_E=(V_E,E_P)
 }
-]
+\]
 
 where:
 
@@ -812,33 +812,31 @@ SUPERSEDES
 REVOKES
 ```
 
----
+______________________________________________________________________
 
-# 19. Root Ancestry
+## 19. Root Ancestry
 
 Define recursive ancestry:
 
-[
-A^*(E)
-======
+## \[ A^\*(E)
 
 Parents(E)
-\cup
-\bigcup_{p\in Parents(E)} A^*(p)
-]
+\\cup
+\\bigcup\_{p\\in Parents(E)} A^\*(p)
+\]
 
 Root sources are:
 
-[
+\[
 Roots(E)=
-{x\in A^*(E):Parents(x)=\emptyset}
-]
+{x\\in A^\*(E):Parents(x)=\\emptyset}
+\]
 
 Evidence independence cannot be assessed safely without resolving enough of this ancestry graph.
 
----
+______________________________________________________________________
 
-# 20. Required Operation — Resolve Ancestry
+## 20. Required Operation — Resolve Ancestry
 
 ```text
 Evidence
@@ -856,11 +854,11 @@ Root provenance
 
 Operation:
 
-[
-\boxed{
-ResolveAncestry(E)\rightarrow A^*(E)
+\[
+\\boxed{
+ResolveAncestry(E)\\rightarrow A^\*(E)
 }
-]
+\]
 
 Output should include:
 
@@ -881,33 +879,33 @@ INDEPENDENCE = UNKNOWN
 
 not independent by default.
 
----
+______________________________________________________________________
 
-# 21. Independence Group
+## 21. Independence Group
 
 `independence_group` identifies evidence objects that should not receive full independent evidentiary weight.
 
-[
+\[
 IG(E)=g
-]
+\]
 
 If:
 
-[
+\[
 IG(E_1)=IG(E_2)
-]
+\]
 
 then:
 
-[
+\[
 Independent(E_1,E_2)=False
-]
+\]
 
 unless further evidence establishes otherwise.
 
----
+______________________________________________________________________
 
-# 22. Correlated Evidence
+## 22. Correlated Evidence
 
 Evidence may be correlated because of:
 
@@ -925,37 +923,37 @@ Evidence may be correlated because of:
 
 Therefore:
 
-[
-\boxed{
+\[
+\\boxed{
 DifferentArtifact
-\not\Rightarrow
+\\not\\Rightarrow
 IndependentEvidence
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 23. Required Operation — Group Correlated Evidence
+## 23. Required Operation — Group Correlated Evidence
 
 Given:
 
-[
-\mathcal{E}={E_1,\ldots,E_n}
-]
+\[
+\\mathcal{E}={E_1,\\ldots,E_n}
+\]
 
 construct independence groups:
 
-[
-\boxed{
-G_I={IG_1,\ldots,IG_k}
+\[
+\\boxed{
+G_I={IG_1,\\ldots,IG_k}
 }
-]
+\]
 
 where:
 
-[
-k\le n
-]
+\[
+k\\le n
+\]
 
 Example:
 
@@ -972,71 +970,68 @@ E6 ─┴── Independence Group C
 
 Effective evidence count must not be assumed equal to artifact count.
 
----
+______________________________________________________________________
 
-# 24. Independence Equation
+## 24. Independence Equation
 
 Naive evidence aggregation:
 
-[
+\[
 N=n
-]
+\]
 
 AMOS provenance-aware aggregation:
 
-[
-\boxed{
-N_{effective}
-\le
-N_{artifacts}
+\[
+\\boxed{
+N\_{effective}
+\\le
+N\_{artifacts}
 }
-]
+\]
 
 A simple structural upper bound is:
 
-[
-N_{effective}
-\le
+\[
+N\_{effective}
+\\le
 |{IG(E_i)}|
-]
+\]
 
 This is not itself a statistical estimator.
 
 It is an anti-double-counting invariant.
 
----
+______________________________________________________________________
 
-# 25. Quality Tensor
+## 25. Quality Tensor
 
 Evidence quality is multidimensional.
 
-[
-\boxed{
+\[
+\\boxed{
 Q_E=
-[
+\[
 reliability,
 completeness,
 reproducibility,
 measurement_quality,
 uncertainty
-]
+\]
 }
-]
+\]
 
 A single scalar quality score should be treated as a compressed representation, not the complete evidence state.
 
----
+______________________________________________________________________
 
-# 26. Quality Is Claim-Relative
+## 26. Quality Is Claim-Relative
 
 High-quality evidence may still be irrelevant to a particular claim.
 
 Therefore:
 
-[
-\boxed{
-Utility(E,C)
-============
+## \[ \\boxed{ Utility(E,C)
 
 f(
 Quality(E),
@@ -1046,23 +1041,23 @@ RegimeFit(E,C),
 Freshness(E,C)
 )
 }
-]
+\]
 
 A strong paper about the wrong population is weak evidence for the target claim.
 
----
+______________________________________________________________________
 
-# 27. Freshness
+## 27. Freshness
 
 Freshness is not an intrinsic universal property of a source.
 
 It is claim-dependent.
 
-[
-\boxed{
+\[
+\\boxed{
 Freshness = F(E,C,t)
 }
-]
+\]
 
 The same evidence may remain fresh for one claim while being stale for another.
 
@@ -1072,16 +1067,13 @@ A mathematical definition may remain current for years.
 
 A market price may become stale within seconds.
 
----
+______________________________________________________________________
 
-# 28. Required Operation — Score Freshness by Claim
+## 28. Required Operation — Score Freshness by Claim
 
 Conceptually:
 
-[
-\boxed{
-F(E,C,t)
-========
+## \[ \\boxed{ F(E,C,t)
 
 f(
 Age(E,t),
@@ -1091,7 +1083,7 @@ SourceUpdateRate,
 ClaimSensitivity
 )
 }
-]
+\]
 
 Possible states:
 
@@ -1106,37 +1098,37 @@ UNKNOWN
 
 No universal decay constant should be assumed across domains.
 
----
+______________________________________________________________________
 
-# 29. Freshness Invariant
+## 29. Freshness Invariant
 
-[
-\boxed{
+\[
+\\boxed{
 Fresh(E,C_1)
-\not\Rightarrow
+\\not\\Rightarrow
 Fresh(E,C_2)
 }
-]
+\]
 
 Freshness must inherit the target claim's temporal requirements.
 
----
+______________________________________________________________________
 
-# 30. Evidence Revalidation
+## 30. Evidence Revalidation
 
 If:
 
-[
+\[
 Freshness(E,C)=STALE
-]
+\]
 
 then:
 
-[
+\[
 Reuse(E,C)
-\rightarrow
+\\rightarrow
 REVALIDATE
-]
+\]
 
 unless the claim is explicitly historical.
 
@@ -1149,20 +1141,18 @@ Revalidation may:
 - revoke,
 - or replace the evidence.
 
----
+______________________________________________________________________
 
-# 31. Required Operation — Compare Scope and Regime
+## 31. Required Operation — Compare Scope and Regime
 
 Define:
 
-[
-Compat(E,C)
-===========
+## \[ Compat(E,C)
 
 SC(E,C)
-\land
+\\land
 RC(E,C)
-]
+\]
 
 where:
 
@@ -1180,9 +1170,9 @@ Decision matrix:
 | any      | Mismatch | reject direct support |
 | Unknown  | Unknown  | unresolved            |
 
----
+______________________________________________________________________
 
-# 32. Falsifier Attachment
+## 32. Falsifier Attachment
 
 Evidence should not only support claims.
 
@@ -1190,9 +1180,9 @@ It should participate in falsification architecture.
 
 Define:
 
-[
-F_E={F_1,\ldots,F_n}
-]
+\[
+F_E={F_1,\\ldots,F_n}
+\]
 
 Possible falsifiers include:
 
@@ -1210,15 +1200,15 @@ fabricated data
 benchmark contamination
 ```
 
----
+______________________________________________________________________
 
-# 33. Required Operation — Attach Falsifier
+## 33. Required Operation — Attach Falsifier
 
-[
-\boxed{
+\[
+\\boxed{
 AttachFalsifier(E,F)
 }
-]
+\]
 
 Example:
 
@@ -1234,16 +1224,16 @@ falsifiers:
 
 Evidence without falsification conditions should not automatically be treated as permanently valid.
 
----
+______________________________________________________________________
 
-# 34. Revocation
+## 34. Revocation
 
 Evidence can be revoked.
 
 Define:
 
-[
-Rev(E)\in
+\[
+Rev(E)\\in
 {
 ACTIVE,
 QUESTIONED,
@@ -1251,7 +1241,7 @@ REVOKED,
 SUPERSEDED,
 UNKNOWN
 }
-]
+\]
 
 Examples:
 
@@ -1263,43 +1253,43 @@ Examples:
 - withdrawn report,
 - falsified measurement.
 
----
+______________________________________________________________________
 
-# 35. Revocation Propagation
+## 35. Revocation Propagation
 
 If:
 
-[
+\[
 Rev(E_r)=REVOKED
-]
+\]
 
 then descendants must be inspected:
 
-[
+\[
 D(E_r)=Descendants(E_r)
-]
+\]
 
 But revocation should propagate selectively.
 
-[
-\boxed{
+\[
+\\boxed{
 Revoke(E_r)
-\Rightarrow
+\\Rightarrow
 Revalidate(DependentDescendants(E_r))
 }
-]
+\]
 
 not:
 
-[
+\[
 Revoke(E_r)
-\Rightarrow
+\\Rightarrow
 DeleteEverything
-]
+\]
 
----
+______________________________________________________________________
 
-# 36. Contamination
+## 36. Contamination
 
 Evidence may be structurally contaminated without formal revocation.
 
@@ -1319,34 +1309,31 @@ measurement corruption
 
 Define:
 
-[
-Cont(E)\in
+\[
+Cont(E)\\in
 {
 CLEAN,
 SUSPECTED,
 CONTAMINATED,
 UNKNOWN
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 37. Required Operation — Quarantine
+## 37. Required Operation — Quarantine
 
 Quarantine gate:
 
-[
-\boxed{
-Quarantine(E)
-=============
+## \[ \\boxed{ Quarantine(E)
 
 Revoked(E)
-\lor
+\\lor
 Contaminated(E)
-\lor
+\\lor
 CriticalProvenanceFailure(E)
 }
-]
+\]
 
 Possible governance states:
 
@@ -1361,25 +1348,25 @@ ARCHIVED
 
 Quarantined evidence remains recoverable for forensic purposes but cannot silently support active conclusions.
 
----
+______________________________________________________________________
 
-# 38. Quarantine Invariant
+## 38. Quarantine Invariant
 
-[
-\boxed{
+\[
+\\boxed{
 QUARANTINED(E)
-\Rightarrow
-E\notin ActiveSupport(C)
+\\Rightarrow
+E\\notin ActiveSupport(C)
 }
-]
+\]
 
 unless an explicit governed exception exists.
 
 Quarantine is not deletion.
 
-[
-Quarantine \neq Erasure
-]
+\[
+Quarantine \\neq Erasure
+\]
 
 It preserves evidence for:
 
@@ -1389,58 +1376,56 @@ It preserves evidence for:
 - audit,
 - possible revalidation.
 
----
+______________________________________________________________________
 
-# 39. License
+## 39. License
 
 Evidence usability also depends on legal and governance constraints.
 
 Define:
 
-[
+\[
 L(E)=
-[
+\[
 license_type,
 holder,
 reuse,
 redistribution,
 derivative_use,
 restrictions
-]
-]
+\]
+\]
 
 Evidence may be epistemically useful while operational reuse remains restricted.
 
 Therefore:
 
-[
-\boxed{
+\[
+\\boxed{
 EpistemicValidity
-\neq
+\\neq
 ReuseAuthority
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 40. Evidence Admission
+## 40. Evidence Admission
 
 Candidate evidence should pass an admission boundary before entering persistent AMOS knowledge.
 
-[
-Admit(E)
-========
+## \[ Admit(E)
 
 IdentityValid
-\land
+\\land
 SourceKnown
-\land
+\\land
 ProvenanceSufficient
-\land
+\\land
 ScopeRepresentable
-\land
+\\land
 GovernanceAcceptable
-]
+\]
 
 Possible states:
 
@@ -1453,16 +1438,13 @@ REJECT
 
 Admission does not mean the evidence proves a claim.
 
----
+______________________________________________________________________
 
-# 41. Evidence Validation Equation
+## 41. Evidence Validation Equation
 
 Define:
 
-[
-\boxed{
-V(E,C)
-======
+## \[ \\boxed{ V(E,C)
 
 f(
 Q,
@@ -1474,7 +1456,7 @@ Rev,
 Cont
 )
 }
-]
+\]
 
 where:
 
@@ -1488,82 +1470,76 @@ where:
 
 For hard gates:
 
-[
+\[
 V(E,C)=0
-]
+\]
 
 if:
 
-[
+\[
 Rev(E)=REVOKED
-]
+\]
 
 or:
 
-[
+\[
 Cont(E)=CONTAMINATED
-]
+\]
 
 or:
 
-[
+\[
 ScopeMismatch(E,C)=1
-]
+\]
 
 for direct-support use.
 
----
+______________________________________________________________________
 
-# 42. Evidence Integrity Tensor
+## 42. Evidence Integrity Tensor
 
 Define:
 
-[
-\boxed{
-\mathcal{I}_E
-=============
+## \[ \\boxed{ \\mathcal{I}\_E
 
-[
-I_{id},
-I_{source},
-I_{method},
-I_{time},
-I_{version},
-I_{environment},
-I_{scope},
-I_{regime},
-I_{ancestry},
-I_{independence},
-I_{quality},
-I_{freshness},
-I_{revocation},
-I_{license}
-]
+\[
+I\_{id},
+I\_{source},
+I\_{method},
+I\_{time},
+I\_{version},
+I\_{environment},
+I\_{scope},
+I\_{regime},
+I\_{ancestry},
+I\_{independence},
+I\_{quality},
+I\_{freshness},
+I\_{revocation},
+I\_{license}
+\]
 }
-]
+\]
 
 This represents the structural integrity of the evidence object.
 
----
+______________________________________________________________________
 
-# 43. Evidence–Claim Binding
+## 43. Evidence–Claim Binding
 
 Evidence becomes reasoning-relevant through a typed binding:
 
-[
-B_{EC}=(E,C,r)
-]
+\[
+B\_{EC}=(E,C,r)
+\]
 
 where (r) is the support relation.
 
 Expanded:
 
-[
-\boxed{
-B_{EC}
-======
+## \[ \\boxed{ B\_{EC}
 
-[
+\[
 evidence_id,
 claim_id,
 relation,
@@ -1572,39 +1548,36 @@ scope_fit,
 regime_fit,
 freshness,
 independence
-]
+\]
 }
-]
+\]
 
 This prevents evidence quality from being confused with claim support.
 
----
+______________________________________________________________________
 
-# 44. Evidence Aggregation
+## 44. Evidence Aggregation
 
 For evidence set:
 
-[
-\mathcal{E}_C={E_1,\ldots,E_n}
-]
+\[
+\\mathcal{E}\_C={E_1,\\ldots,E_n}
+\]
 
 support must account for provenance dependence.
 
 Naive:
 
-[
-Support(C)=\sum_i w_i
-]
+\[
+Support(C)=\\sum_i w_i
+\]
 
 AMOS requires correlation-aware aggregation:
 
-[
-\boxed{
-Support(C)
-==========
+## \[ \\boxed{ Support(C)
 
 Agg(
-\mathcal{E}_C,
+\\mathcal{E}\_C,
 Ancestry,
 IndependenceGroups,
 ScopeFit,
@@ -1612,31 +1585,31 @@ RegimeFit,
 Freshness
 )
 }
-]
+\]
 
 The exact aggregator depends on domain and evidence type.
 
----
+______________________________________________________________________
 
-# 45. Anti-Sybil Evidence Rule
+## 45. Anti-Sybil Evidence Rule
 
 Creating many descendants from one root cannot manufacture independent confirmation.
 
 If:
 
-[
-Root(E_1)=Root(E_2)=\cdots=Root(E_n)
-]
+\[
+Root(E_1)=Root(E_2)=\\cdots=Root(E_n)
+\]
 
 then:
 
-[
-\boxed{
-Multiplicity(E_1,\ldots,E_n)
-\not\Rightarrow
+\[
+\\boxed{
+Multiplicity(E_1,\\ldots,E_n)
+\\not\\Rightarrow
 IndependentConfirmation
 }
-]
+\]
 
 This applies to:
 
@@ -1647,15 +1620,15 @@ This applies to:
 - derivative datasets,
 - repeated benchmark reports.
 
----
+______________________________________________________________________
 
-# 46. Evidence Transformation
+## 46. Evidence Transformation
 
 Evidence may be transformed:
 
-[
-E'=\tau(E)
-]
+\[
+E'=\\tau(E)
+\]
 
 Examples:
 
@@ -1670,19 +1643,19 @@ document → embedding
 
 Transformation must preserve lineage.
 
-[
-\boxed{
+\[
+\\boxed{
 Ancestry(E')
-\supseteq
+\\supseteq
 {E}
 }
-]
+\]
 
 A transformed artifact must never masquerade as an independent source.
 
----
+______________________________________________________________________
 
-# 47. Transformation Tensor
+## 47. Transformation Tensor
 
 ```yaml
 transformation:
@@ -1699,59 +1672,59 @@ transformation:
 
 This allows derived evidence to remain traceable to its roots.
 
----
+______________________________________________________________________
 
-# 48. Evidence Compression
+## 48. Evidence Compression
 
 For compression:
 
-[
+\[
 E'=K(E)
-]
+\]
 
 the following must remain recoverable:
 
-[
+\[
 Source(E)
-]
+\]
 
-[
+\[
 Ancestry(E)
-]
+\]
 
-[
+\[
 Scope(E)
-]
+\]
 
-[
+\[
 Regime(E)
-]
+\]
 
-[
+\[
 Timestamp(E)
-]
+\]
 
-[
+\[
 Version(E)
-]
+\]
 
-[
+\[
 Revocation(E)
-]
+\]
 
 Therefore:
 
-[
-\boxed{
+\[
+\\boxed{
 Compression
-\neq
+\\neq
 ProvenanceLoss
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 49. Evidence Hard Invariants
+## 49. Evidence Hard Invariants
 
 ## ET-INV-01 — Source Identity
 
@@ -1813,9 +1786,9 @@ Evidence validity does not imply authority to reuse or redistribute it.
 
 Compression cannot erase load-bearing provenance or applicability constraints.
 
----
+______________________________________________________________________
 
-# 50. Evidence Failure Modes
+## 50. Evidence Failure Modes
 
 ## ET-FM-01 — Citation Counting
 
@@ -1869,9 +1842,9 @@ High-quality but irrelevant evidence receives strong claim weight.
 
 Accessible evidence is assumed reusable without restriction.
 
----
+______________________________________________________________________
 
-# 51. Evidence State Machine
+## 51. Evidence State Machine
 
 ```text
 DISCOVERED
@@ -1894,18 +1867,15 @@ VALIDATION
 ACTIVE  SUPERSEDED REVOKED
 ```
 
----
+______________________________________________________________________
 
-# 52. Evidence Update Equation
+## 52. Evidence Update Equation
 
 Evidence state evolves as:
 
-[
-\boxed{
-E_{t+1}
-=======
+## \[ \\boxed{ E\_{t+1}
 
-\mathcal{U}
+\\mathcal{U}
 (
 E_t,
 new_provenance,
@@ -1914,51 +1884,51 @@ new_regime,
 new_revocation
 )
 }
-]
+\]
 
 subject to:
 
-[
-\mathcal{I}*E(E*{t+1})=1
-]
+\[
+\\mathcal{I}*E(E*{t+1})=1
+\]
 
----
+______________________________________________________________________
 
-# 53. Selective Invalidation
+## 53. Selective Invalidation
 
 If evidence (E_k) fails:
 
-[
+\[
 Invalidate(E_k)
-]
+\]
 
 then identify:
 
-[
+\[
 Claims(E_k)
-]
+\]
 
 and recursively:
 
-[
+\[
 DescendantClaims(E_k)
-]
+\]
 
 Only dependent conclusions require revalidation.
 
-[
-\boxed{
+\[
+\\boxed{
 EvidenceFailure
-\rightarrow
+\\rightarrow
 SelectiveClaimInvalidation
 }
-]
+\]
 
 not global knowledge deletion.
 
----
+______________________________________________________________________
 
-# 54. Evidence Repair
+## 54. Evidence Repair
 
 ```text
 Evidence anomaly
@@ -1982,9 +1952,9 @@ Revalidate claims
 Restore / downgrade / revoke
 ```
 
----
+______________________________________________________________________
 
-# 55. Required Operations
+## 55. Required Operations
 
 The minimum Evidence Tensor runtime must support:
 
@@ -2034,9 +2004,9 @@ check_license(E, use)
 audit_independence(E*)
 ```
 
----
+______________________________________________________________________
 
-# 56. AI Retrieval Architecture
+## 56. AI Retrieval Architecture
 
 Traditional retrieval:
 
@@ -2072,27 +2042,27 @@ claim-evidence binding
 admissible evidence set
 ```
 
----
+______________________________________________________________________
 
-# 57. Evidence-Aware RAG
+## 57. Evidence-Aware RAG
 
-[
+\[
 Query
-\rightarrow
+\\rightarrow
 Claims
-\rightarrow
+\\rightarrow
 EvidenceCandidates
-\rightarrow
+\\rightarrow
 EvidenceValidation
-\rightarrow
+\\rightarrow
 Synthesis
-]
+\]
 
 The retrieval system should prefer the smallest sufficient set of genuinely discriminating evidence rather than the largest number of semantically similar documents.
 
----
+______________________________________________________________________
 
-# 58. AI Memory Application
+## 58. AI Memory Application
 
 Persistent AI memory should not store:
 
@@ -2126,45 +2096,45 @@ evidence:
 
 This allows later reasoning to determine whether the evidence remains reusable.
 
----
+______________________________________________________________________
 
-# 59. AI Agent Application
+## 59. AI Agent Application
 
 Before an agent uses evidence for a consequential action:
 
-[
-E\rightarrow C\rightarrow D\rightarrow A
-]
+\[
+E\\rightarrow C\\rightarrow D\\rightarrow A
+\]
 
 the evidence should satisfy:
 
-[
+\[
 Valid(E,C)
-]
+\]
 
 and the claim should satisfy:
 
-[
+\[
 Valid(C,D)
-]
+\]
 
 Evidence validity alone does not authorize action.
 
-[
-\boxed{
+\[
+\\boxed{
 Evidence
-\neq
+\\neq
 Claim
-\neq
+\\neq
 Decision
-\neq
+\\neq
 Authority
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 60. Evidence Control Plane
+## 60. Evidence Control Plane
 
 ```text
 External / Internal Source
@@ -2195,29 +2165,29 @@ Claim Binding
 RSCF Proof Graph
 ```
 
----
+______________________________________________________________________
 
-# 61. Evidence and Claim Tensor Integration
+## 61. Evidence and Claim Tensor Integration
 
 Claim Tensor:
 
-[
-C=T[\ldots,evidence_refs,\ldots]
-]
+\[
+C=T[\\ldots,evidence_refs,\\ldots]
+\]
 
 Evidence Tensor:
 
-[
-E=T[\ldots,claim_support,\ldots]
-]
+\[
+E=T[\\ldots,claim_support,\\ldots]
+\]
 
 Together:
 
-[
-\boxed{
-C \leftrightarrow E
+\[
+\\boxed{
+C \\leftrightarrow E
 }
-]
+\]
 
 This is a bidirectional typed relation.
 
@@ -2229,38 +2199,36 @@ Evidence asks:
 
 > Which claims am I licensed to support?
 
----
+______________________________________________________________________
 
-# 62. Evidence–Claim Matrix
+## 62. Evidence–Claim Matrix
 
 For claims:
 
-[
-C_1,\ldots,C_m
-]
+\[
+C_1,\\ldots,C_m
+\]
 
 and evidence:
 
-[
-E_1,\ldots,E_n
-]
+\[
+E_1,\\ldots,E_n
+\]
 
 define:
 
-[
-\boxed{
-M_{EC}\in\mathbb{R}^{n\times m}
+\[
+\\boxed{
+M\_{EC}\\in\\mathbb{R}^{n\\times m}
 }
-]
+\]
 
 where:
 
-[
-M_{ij}
-======
+## \[ M\_{ij}
 
 Support(E_i,C_j)
-]
+\]
 
 subject to masks for:
 
@@ -2273,63 +2241,58 @@ subject to masks for:
 
 Thus effective support becomes:
 
-[
-M^*_{ij}
-========
+## \[ M^\*\_{ij}
 
-M_{ij}
-\cdot
-S_{ij}
-\cdot
-R_{ij}
-\cdot
-F_{ij}
-\cdot
+M\_{ij}
+\\cdot
+S\_{ij}
+\\cdot
+R\_{ij}
+\\cdot
+F\_{ij}
+\\cdot
 G_i
-]
+\]
 
 where (G_i) is the evidence-governance gate.
 
----
+______________________________________________________________________
 
-# 63. Governance Gate
+## 63. Governance Gate
 
 Define:
 
-[
-G(E)\in{0,1}
-]
+\[
+G(E)\\in{0,1}
+\]
 
 for hard admissibility:
 
-[
-\boxed{
-G(E)
-====
+## \[ \\boxed{ G(E)
 
-\neg Revoked(E)
-\land
-\neg Contaminated(E)
-\land
+\\neg Revoked(E)
+\\land
+\\neg Contaminated(E)
+\\land
 LicenseCompatible(E)
 }
-]
+\]
 
 For uncertain evidence, a richer state may be used:
 
-[
-G(E)\in
+\[
+G(E)\\in
 {
 ACTIVE,
 CONDITIONAL,
 QUARANTINED,
 REJECTED
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 64. Evidence Proof Capsule
+## 64. Evidence Proof Capsule
 
 A compressed evidence object may be represented as:
 
@@ -2355,67 +2318,61 @@ evidence_capsule:
 
 All omitted detail must remain recoverable through references.
 
----
+______________________________________________________________________
 
-# 65. Minimum Sufficient Evidence
+## 65. Minimum Sufficient Evidence
 
 AMOS should not maximize evidence volume.
 
 It should seek:
 
-[
-\boxed{
-E^*
-===
+## \[ \\boxed{ E^\*
 
-\arg\min_{\mathcal{E}}
-Cost(\mathcal{E})
+\\arg\\min\_{\\mathcal{E}}
+Cost(\\mathcal{E})
 }
-]
+\]
 
 subject to:
 
-[
-DecisionSufficiency(\mathcal{E})=1
-]
+\[
+DecisionSufficiency(\\mathcal{E})=1
+\]
 
-[
-Integrity(\mathcal{E})=1
-]
+\[
+Integrity(\\mathcal{E})=1
+\]
 
-[
-DependencyClosure(\mathcal{E})=1
-]
+\[
+DependencyClosure(\\mathcal{E})=1
+\]
 
 This produces the smallest sufficient evidence set.
 
----
+______________________________________________________________________
 
-# 66. Evidence Information Value
+## 66. Evidence Information Value
 
 When more evidence is needed:
 
-[
-\boxed{
-E_{next}
-========
+## \[ \\boxed{ E\_{next}
 
-\arg\max_E
-\frac{
+\\arg\\max_E
+\\frac{
 ExpectedUncertaintyReduction(E)
-\times
+\\times
 DecisionImpact(E)
 }{
 AcquisitionCost(E)
 }
 }
-]
+\]
 
 This favors discriminating evidence over redundant accumulation.
 
----
+______________________________________________________________________
 
-# 67. H/M/L Evidence Architecture
+## 67. H/M/L Evidence Architecture
 
 Evidence can be retrieved fractally.
 
@@ -2437,39 +2394,36 @@ H — Evidence conclusion
 
 Raw evidence should be loaded only when required to resolve a decision-changing uncertainty.
 
----
+______________________________________________________________________
 
-# 68. Evidence Confidence Ceiling
+## 68. Evidence Confidence Ceiling
 
 Claim confidence cannot exceed the weakest critical evidence dependency unless independently revalidated.
 
 For critical evidence set:
 
-[
-E_{crit}(C)
-]
+\[
+E\_{crit}(C)
+\]
 
-[
-\boxed{
+\[
+\\boxed{
 Conf(C)
-\le
-\min_{E_i\in E_{crit}(C)}
+\\le
+\\min\_{E_i\\in E\_{crit}(C)}
 Validity(E_i,C)
 }
-]
+\]
 
 This is a structural AMOS confidence rule, not a universal statistical theorem.
 
----
+______________________________________________________________________
 
-# 69. Canonical Evidence Tensor Equation
+## 69. Canonical Evidence Tensor Equation
 
-[
-\boxed{
-E
-=
+## \[ \\boxed{ E
 
-T[
+T\[
 I,
 S,
 S_t,
@@ -2486,9 +2440,9 @@ Q,
 F,
 Rev,
 L
-]
+\]
 }
-]
+\]
 
 where:
 
@@ -2509,48 +2463,45 @@ where:
 - (Rev) = revocation state,
 - (L) = license.
 
----
+______________________________________________________________________
 
-# 70. Canonical Evidence Validity Equation
+## 70. Canonical Evidence Validity Equation
 
 For claim (C):
 
-[
-\boxed{
-Valid(E|C)
-==========
+## \[ \\boxed{ Valid(E|C)
 
 SourceIntegrity
-\land
+\\land
 ObservationIntegrity
-\land
+\\land
 ScopeCompatibility
-\land
+\\land
 RegimeCompatibility
-\land
+\\land
 Freshness
-\land
+\\land
 ProvenanceIntegrity
-\land
-\neg Revoked
-\land
-\neg Contaminated
+\\land
+\\neg Revoked
+\\land
+\\neg Contaminated
 }
-]
+\]
 
 This is an AMOS architectural validity model rather than an empirical universal law.
 
----
+______________________________________________________________________
 
-# 71. Canonical Independence Rule
+## 71. Canonical Independence Rule
 
-[
-\boxed{
+\[
+\\boxed{
 Independent(E_i,E_j)
-\Rightarrow
+\\Rightarrow
 NoMaterialSharedAncestry(E_i,E_j)
 }
-]
+\]
 
 The converse does not automatically hold.
 
@@ -2558,73 +2509,73 @@ Absence of discovered shared ancestry is not proof of independence.
 
 Therefore:
 
-[
+\[
 UnknownAncestry
-\Rightarrow
+\\Rightarrow
 Independence=UNKNOWN
-]
+\]
 
----
+______________________________________________________________________
 
-# 72. Canonical Freshness Rule
+## 72. Canonical Freshness Rule
 
-[
-\boxed{
+\[
+\\boxed{
 Freshness(E)
-\rightarrow
+\\rightarrow
 Freshness(E,C,t)
 }
-]
+\]
 
 Freshness is claim-, domain-, regime- and time-dependent.
 
 No evidence object is universally "fresh."
 
----
+______________________________________________________________________
 
-# 73. Canonical Quarantine Rule
+## 73. Canonical Quarantine Rule
 
-[
-\boxed{
+\[
+\\boxed{
 Revoked(E)
-\lor
+\\lor
 Contaminated(E)
-\lor
+\\lor
 CriticalIntegrityFailure(E)
-\Rightarrow
+\\Rightarrow
 Quarantine(E)
 }
-]
+\]
 
 and:
 
-[
-\boxed{
+\[
+\\boxed{
 Quarantine(E)
-\Rightarrow
+\\Rightarrow
 DisableActiveSupport(E)
 }
-]
+\]
 
 while preserving provenance for audit and repair.
 
----
+______________________________________________________________________
 
-# 74. Canonical Hard Invariant
+## 74. Canonical Hard Invariant
 
-[
-\boxed{
-\textbf{Evidence may not gain authority through duplication, transformation, compression, or loss of provenance.}
+\[
+\\boxed{
+\\textbf{Evidence may not gain authority through duplication, transformation, compression, or loss of provenance.}
 }
-]
+\]
 
 Expanded:
 
-[
-\boxed{
+\[
+\\boxed{
 Transform(E)
-\Rightarrow
-Preserve[
+\\Rightarrow
+Preserve\[
 Identity,
 Ancestry,
 Scope,
@@ -2632,13 +2583,13 @@ Regime,
 Time,
 Version,
 Revocation
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 75. Final Architecture
+## 75. Final Architecture
 
 ```text
                           EVIDENCE
@@ -2687,25 +2638,25 @@ Revocation
                          RSCF GRAPH
 ```
 
----
+______________________________________________________________________
 
-# 76. Canonical Summary
+## 76. Canonical Summary
 
 The AMOS Evidence Tensor converts evidence from a citation or information fragment into a provenance-bound epistemic object:
 
-[
-\boxed{
+\[
+\\boxed{
 Source
-\rightarrow
+\\rightarrow
 EvidenceTensor
-\rightarrow
+\\rightarrow
 ProvenanceGraph
-\rightarrow
+\\rightarrow
 ClaimBinding
-\rightarrow
+\\rightarrow
 RSCF
 }
-]
+\]
 
 Every usable evidence object should permit AMOS to ask:
 
@@ -2742,65 +2693,68 @@ quarantine revoked/contaminated evidence
 
 The governing architectural rules are:
 
-[
-\boxed{
-Citation \neq Evidence
+\[
+\\boxed{
+Citation \\neq Evidence
 }
-]
+\]
 
-[
-\boxed{
-Multiplicity \neq Independence
+\[
+\\boxed{
+Multiplicity \\neq Independence
 }
-]
+\]
 
-[
-\boxed{
-Quality \neq Relevance
+\[
+\\boxed{
+Quality \\neq Relevance
 }
-]
+\]
 
-[
-\boxed{
-HistoricalValidity \neq CurrentValidity
+\[
+\\boxed{
+HistoricalValidity \\neq CurrentValidity
 }
-]
+\]
 
-[
-\boxed{
-EpistemicValidity \neq ReuseAuthority
+\[
+\\boxed{
+EpistemicValidity \\neq ReuseAuthority
 }
-]
+\]
 
 and above all:
 
-[
-\boxed{
-\textbf{Evidence may not gain authority through duplication, transformation, compression, or loss of provenance.}
+\[
+\\boxed{
+\\textbf{Evidence may not gain authority through duplication, transformation, compression, or loss of provenance.}
 }
-]
+\]
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · 06-Knowledge-Base-MOC · Cosmo_Brain_BRIDGE_INDEX · RSCF · Cosmo_Brain_BRIDGE_INDEX · Cosmo_Brain_BRIDGE_INDEX · Cosmo_Brain_BRIDGE_INDEX · Cosmo_Brain_BRIDGE_INDEX · Cosmo_Brain_BRIDGE_INDEX · Cosmo_Brain_BRIDGE_INDEX · AMOS_Simulation_Kernel_v0_Math_Foundations · system_scan_agent · automation_profiles
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: evidence_tensor
 node_type: note
 path: 11_KNOWLEDGE/EVIDENCE_TENSOR.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]]
-

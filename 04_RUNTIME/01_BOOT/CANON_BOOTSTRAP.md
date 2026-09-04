@@ -12,16 +12,16 @@ segment: 04_RUNTIME/01_BOOT
 artifact_kind: BOOTSTRAP_SPEC
 path: 04_RUNTIME/01_BOOT/CANON_BOOTSTRAP.md
 tags:
-- amos-os
-- runtime
-- vault
-- 01_boot
-- canon_bootstrap
-- core_laws_initialization
-- rscf
-- canon_candidate
-- canon/runtime
-- total-canon-matrix
+  - amos-os
+  - runtime
+  - vault
+  - 01_boot
+  - canon_bootstrap
+  - core_laws_initialization
+  - rscf
+  - canon_candidate
+  - canon/runtime
+  - total-canon-matrix
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -36,13 +36,13 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - 01_CANON/01_CANON_MOC
-  - 04_RUNTIME/01_BOOT/01_BOOT_MOC
-  - AMOS_CORPUS
+    - 01_CANON/01_CANON_MOC
+    - 04_RUNTIME/01_BOOT/01_BOOT_MOC
+    - AMOS_CORPUS
   scope:
-  - RUNTIME_BOOT
-  - CANON_BOOTSTRAP
-  - SOURCE_DEFINED_MODEL
+    - RUNTIME_BOOT
+    - CANON_BOOTSTRAP
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   boot_moc:
     artifact: 04_RUNTIME/01_BOOT/01_BOOT_MOC
@@ -61,9 +61,9 @@ epistemic_boundary:
 
 `CANON_BOOTSTRAP.md` is the canonical Runtime Plane specification governing the invariant binding and cryptographic arming of the **01_CANON Core Laws (L0–L3)** during system boot within `04_RUNTIME/01_BOOT`.
 
----
+______________________________________________________________________
 
-# 1. Core Laws Arming Sequence
+## 1. Core Laws Arming Sequence
 
 ```text
   L0 Arming: Structural Integrity & Law of Law
@@ -81,17 +81,17 @@ epistemic_boundary:
   Canon Armed Receipt Emitted
 ```
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Boot MOC:** 04_RUNTIME/01_BOOT/[[04_RUNTIME/01_BOOT/01_BOOT_MOC|01_BOOT_MOC]]
 - **Canon Plane MOC:** 01_CANON/[[01_CANON/01_CANON_MOC|01_CANON_MOC]]
 - **Cognitive Matrix:** 25_COGNITIVE_MATRIX/[[25_COGNITIVE_MATRIX/TOTAL_CANON_MATRIX|TOTAL_CANON_MATRIX]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -109,9 +109,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME_MOC]] · 04_RUNTIME/01_BOOT/[[04_RUNTIME/01_BOOT/01_BOOT_MOC|01_BOOT_MOC]] · 01_CANON/[[01_CANON/01_CANON_MOC|01_CANON_MOC]]
 
----
+______________________________________________________________________
+
 **MOC:** 04_RUNTIME/01_BOOT/[[04_RUNTIME/01_BOOT/01_BOOT_MOC|01_BOOT_MOC]]

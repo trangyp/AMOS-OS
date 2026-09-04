@@ -74,7 +74,7 @@
     "arxiv-flash-attention-io-rscf"
   ],
   "depends_on_workflows": [
-    "arxiv-flash-attention-io-rscf-workflow.md"
+    "amos-arxiv-flash-attention-io-rscf-workflow.md"
   ],
   "epistemic_class": "AMOS_MODEL",
   "claim_ceiling": 0.95,

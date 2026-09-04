@@ -1,10 +1,13 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: KHUNG TRANG FULL MAX DETAIL ARCHITECTURE EQUATIONS
 tags:
-- trang
-- framework
-- reality
-- canon/knowledge
+  - trang
+  - framework
+  - reality
+  - canon/knowledge
 type: data
 source: 11_KNOWLEDGE/trang
 rscf:
@@ -13,6 +16,7 @@ rscf:
   provenance: AMOS_corpus
   scope: AMOS_knowledge
 ---
+
 # KHUNG TRANG FULL MAX DETAIL ARCHITECTURE EQUATIONS
 
 ```json
@@ -11363,6 +11367,6 @@ coarse-grained boundary / observer / system distinction\nWithout plurality:\nnot
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/kernel/AMOS_SIMULATION_KERNEL|AMOS_SIMULATION_KERNEL]] · [[11_KNOWLEDGE/engine/SYSTEM_SCAN_ENGINE|SYSTEM_SCAN_ENGINE]] · [[11_KNOWLEDGE/stubs/automation_profiles|automation_profiles]]
 ```
 
----
-**MOC:** [[11_KNOWLEDGE/trang/trang_MOC|trang_MOC]]
+______________________________________________________________________
 
+**MOC:** [[11_KNOWLEDGE/trang/trang_MOC|trang_MOC]]

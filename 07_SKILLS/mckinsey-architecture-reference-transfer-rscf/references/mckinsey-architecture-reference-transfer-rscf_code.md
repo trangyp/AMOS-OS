@@ -1,14 +1,17 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: mckinsey architecture reference transfer rscf code
 type: reference
 source: 07_SKILLS/mckinsey-architecture-reference-transfer-rscf/references
 tags:
-- reference
-- mckinsey-architecture-reference-transfer-rscf
-- type/skill
-- skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - mckinsey-architecture-reference-transfer-rscf
+  - type/skill
+  - skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -23,18 +26,18 @@ rscf:
 ```python
 from hierarchical_ai_architecture_generator import HierarchicalGenerator, GoalDrivenGenerator
 
-# Hierarchical (rule-based)
+## Hierarchical (rule-based)
 h = HierarchicalGenerator()
 entries = h.generate(limit=100)
 safety = h.query(ai_layer="safety_controller")
 
-# Goal-driven (ontology-based)
+## Goal-driven (ontology-based)
 g = GoalDrivenGenerator()
 archs = g.generate("Build safe multi-agent system", count=50)
 ```
 
 ```python
-# Architecture reference transfer
+## Architecture reference transfer
 class ArchitectureReferenceTransfer:
     """Transfer architectural patterns between domains."""
 
@@ -58,13 +61,16 @@ class ArchitectureReferenceTransfer:
         """Apply the transfer map to produce target architecture."""
         return {"transferred": True, "domain": self.target_domain}
 ```
----
+
+______________________________________________________________________
+
 **MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -72,12 +78,14 @@ class ArchitectureReferenceTransfer:
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: mckinsey-architecture-reference-transfer-rscf-mckinsey-architecture-reference-transfer-rscf-code
 node_type: reference
 path: 07_SKILLS/mckinsey-architecture-reference-transfer-rscf/references/mckinsey-architecture-reference-transfer-rscf_code.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

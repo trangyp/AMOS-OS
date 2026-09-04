@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: omega chart engine
 type: reference
 source: 07_SKILLS/amos-c08-strategy-game-master/references
 tags:
-- reference
-- amos-c08-strategy-game-master
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-c08-strategy-game-master
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -20,10 +23,11 @@ rscf:
 > Source: `_00_Cosmo brain/engine/A/amos_omega_chart_engine.md`
 > Epistemic class: SOURCE_DERIVED
 
----
-tags: [engine]
----
-# amos_omega_chart_engine
+______________________________________________________________________
+
+## tags: [engine]
+
+## amos_omega_chart_engine
 
 ```python
 #!/usr/bin/env python3
@@ -169,10 +173,9 @@ class AMOSOmegaChartEngine:
 -
 ```
 
----
+______________________________________________________________________
 
-**Related:** [[07_SKILLS/amos-c08-strategy-game-master/amos-c08-strategy-game-master_MOC|amos-c08-strategy-game-master_MOC]]
----
+## **Related:** [[07_SKILLS/amos-c08-strategy-game-master/amos-c08-strategy-game-master_MOC|amos-c08-strategy-game-master_MOC]]
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -180,13 +183,14 @@ class AMOSOmegaChartEngine:
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-c08-strategy-game-master-omega-chart-engine
 node_type: reference
 path: 07_SKILLS/amos-c08-strategy-game-master/references/omega_chart_engine.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC
-

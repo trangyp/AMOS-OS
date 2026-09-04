@@ -12,24 +12,24 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: FRAMEWORK
 path: 11_KNOWLEDGE/05_FRAMEWORKS/TRANG_GRAND_SYSTEM.md
 tags:
-- amos-os
-- knowledge
-- vault
-- 05_frameworks
-- trang_grand_system
-- grand_codex
-- grand_logic
-- total_architecture
-- rscf
-- canon_candidate
-- canon/knowledge
-- trang-grand-system-codex
-- trang-grand-system-logic-specification
-- trang-reality-architecture
-- tss-the-trang-system
-- tpe-trang-prediction-engine
-- unified-biological-intelligence
-- heritage-intelligence-master
+  - amos-os
+  - knowledge
+  - vault
+  - 05_frameworks
+  - trang_grand_system
+  - grand_codex
+  - grand_logic
+  - total_architecture
+  - rscf
+  - canon_candidate
+  - canon/knowledge
+  - trang-grand-system-codex
+  - trang-grand-system-logic-specification
+  - trang-reality-architecture
+  - tss-the-trang-system
+  - tpe-trang-prediction-engine
+  - unified-biological-intelligence
+  - heritage-intelligence-master
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -44,23 +44,23 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - TRANG_GRAND_SYSTEM_CODEX
-  - TRANG_GRAND_SYSTEM_LOGIC_SPECIFICATION
-  - AMOS_CORPUS
+    - TRANG_GRAND_SYSTEM_CODEX
+    - TRANG_GRAND_SYSTEM_LOGIC_SPECIFICATION
+    - AMOS_CORPUS
   scope:
-  - KNOWLEDGE_FRAMEWORKS
-  - TOTAL_SYSTEMS
-  - SOURCE_DEFINED_MODEL
+    - KNOWLEDGE_FRAMEWORKS
+    - TOTAL_SYSTEMS
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   primary:
     name: Trang Grand System
     role: TOTAL_ARCHITECTURAL_CONVERGENCE_SYSTEM
   codex:
     artifact:
-    - - TRANG_GRAND_SYSTEM_CODEX
+      -   - TRANG_GRAND_SYSTEM_CODEX
   logic_spec:
     artifact:
-    - - TRANG_GRAND_SYSTEM_LOGIC_SPECIFICATION
+      -   - TRANG_GRAND_SYSTEM_LOGIC_SPECIFICATION
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
@@ -74,9 +74,9 @@ epistemic_boundary:
 
 It constitutes the high-order synthesis that unifies **Trang Reality Architecture**, **The Trang System™ (TSS)**, **Unified Biological Intelligence™ (UBI)**, and **Heritage Decision Intelligence™** into a single computable macro-architecture.
 
----
+______________________________________________________________________
 
-# 1. Macro-Architecture Convergence
+## 1. Macro-Architecture Convergence
 
 ```text
                                 TRANG GRAND SYSTEM
@@ -89,18 +89,18 @@ PRE-SYMBOLIC ONTOLOGY          MACRO DYNAMICS & LIFE           GOVERNANCE & REAS
 • Khung Trang Dynamics         • The Prediction Engine (TPE)   • QLS / QCLA Dual Gating
 ```
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Codex & Logic:** [[11_KNOWLEDGE/05_FRAMEWORKS/TRANG_GRAND_SYSTEM_CODEX|TRANG_GRAND_SYSTEM_CODEX]] and [[11_KNOWLEDGE/05_FRAMEWORKS/TRANG_GRAND_SYSTEM_LOGIC_SPECIFICATION|TRANG_GRAND_SYSTEM_LOGIC_SPECIFICATION]]
 - **Reality Master:** [[11_KNOWLEDGE/trang/TRANG_REALITY_ARCHITECTURE|TRANG_REALITY_ARCHITECTURE]]
 - **Systems & Lifecycle:** [[11_KNOWLEDGE/05_FRAMEWORKS/TSS_THE_TRANG_SYSTEM|TSS_THE_TRANG_SYSTEM]] and [[11_KNOWLEDGE/trang/TPE_TRANG_PREDICTION_ENGINE|TPE_TRANG_PREDICTION_ENGINE]]
 - **Biological Master:** [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -118,9 +118,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]] · [[11_KNOWLEDGE/trang/TRANG_REALITY_ARCHITECTURE|TRANG_REALITY_ARCHITECTURE]] · [[11_KNOWLEDGE/05_FRAMEWORKS/TSS_THE_TRANG_SYSTEM|TSS_THE_TRANG_SYSTEM]] · [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]] · [[11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_INTELLIGENCE_MASTER|HERITAGE_INTELLIGENCE_MASTER]]
 
----
+______________________________________________________________________
+
 **MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]

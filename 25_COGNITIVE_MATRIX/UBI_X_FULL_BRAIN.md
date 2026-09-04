@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: UBI X FULL BRAIN
 type: note
 source: 25_COGNITIVE_MATRIX
 tags:
-- note
-- 25-cognitive-matrix
-- domain/cognitive-matrix
-- ubi
-- full-brain
+  - note
+  - 25-cognitive-matrix
+  - domain/cognitive-matrix
+  - ubi
+  - full-brain
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -89,9 +92,9 @@ EmpiricallyVerified
 }
 $$
 
----
+______________________________________________________________________
 
-# 2. Core specification
+## 2. Core specification
 
 The specification gives one compact but architecturally significant definition:
 
@@ -154,9 +157,9 @@ $$
 
 This is a **MODEL normalization** of the supplied statement, not a new empirical equation.
 
----
+______________________________________________________________________
 
-# 3. What “holistic governance” establishes
+## 3. What “holistic governance” establishes
 
 The phrase **holistic governance** matters.
 
@@ -198,14 +201,14 @@ $$
 
 This substantially strengthens the interpretation of the matrix counterpart.
 
----
+______________________________________________________________________
 
-# 4. Two governing channels
+## 4. Two governing channels
 
 The specification explicitly identifies two forms of UBI governance:
 
 1. **biological pacing**
-2. **vagal coherence**
+1. **vagal coherence**
 
 They should remain distinct unless another artifact formally unifies them.
 
@@ -264,9 +267,9 @@ $$
 
 Instead, the source establishes system-wide governance scope while leaving the detailed routing to the matrix/binding artifacts.
 
----
+______________________________________________________________________
 
-# 5. Biological pacing
+## 5. Biological pacing
 
 `biological pacing` is explicitly source-defined but not mathematically defined in this artifact.
 
@@ -295,9 +298,9 @@ biological_pacing:
 
 This distinction prevents cross-artifact information from being misrepresented as text explicitly contained in `UBI_X_FULL_BRAIN.md`.
 
----
+______________________________________________________________________
 
-# 6. Vagal coherence
+## 6. Vagal coherence
 
 The specification explicitly elevates **vagal coherence** into a Full Brain governance variable.
 
@@ -347,9 +350,9 @@ The source does not tell us whether vagal coherence is:
 
 That semantic gap remains open.
 
----
+______________________________________________________________________
 
-# 7. The critical 10-layer versus 7-layer discrepancy
+## 7. The critical 10-layer versus 7-layer discrepancy
 
 This is the most important structural finding.
 
@@ -481,9 +484,9 @@ This is plausible but **not established**.
 
 We must not invent their names or functions.
 
----
+______________________________________________________________________
 
-# 8. Canon consequence of the discrepancy
+## 8. Canon consequence of the discrepancy
 
 Because the specification is the semantic definition and the matrix is its declared counterpart, the mismatch affects the confidence ceiling of any claim that the seven-row table is the **complete** UBI × Full Brain architecture.
 
@@ -541,9 +544,9 @@ $$
 Invalidate(AllSevenRows)
 $$
 
----
+______________________________________________________________________
 
-# 9. What remains valid from the matrix counterpart
+## 9. What remains valid from the matrix counterpart
 
 The specification does not contradict the actual seven mappings previously supplied.
 
@@ -556,7 +559,7 @@ Those remain source-grounded:
 | L2           | Structural Decomposition | Memory context capacity     | Context Compaction            |
 | L3           | Cognitive Infrastructure | 40Hz multi-agent clock      | Gamma Lock Pulse              |
 | L4           | Quantum Reasoning        | Superposition coherence     | Dominance Collapse            |
-| L5           | Biological Integration   | Autonomic vagal telemetry   | Distress Veto \((\tau<0.20)\) |
+| L5           | Biological Integration   | Autonomic vagal telemetry   | Distress Veto ((\\tau\<0.20)) |
 | L6           | Synthesis & Dispatch     | Output communication mask   | Mask H3 Activation            |
 
 What changes is their scope.
@@ -569,9 +572,9 @@ Not:
 
 > Full Brain consists of exactly seven layers.
 
----
+______________________________________________________________________
 
-# 10. Revised architecture
+## 10. Revised architecture
 
 The current source-grounded model should therefore be represented as:
 
@@ -607,9 +610,9 @@ The current source-grounded model should therefore be represented as:
 
 This is more accurate than treating seven matrix rows as proof of a seven-layer Full Brain.
 
----
+______________________________________________________________________
 
-# 11. Relationship to UBI × Cognition
+## 11. Relationship to UBI × Cognition
 
 The UBI × Cognition specification supplied earlier describes biological-cognitive regulation including:
 
@@ -663,9 +666,9 @@ That is a strong **DERIVED** interpretation.
 
 It does not establish that every UBI × Cognition variable is directly injected into every Full Brain layer.
 
----
+______________________________________________________________________
 
-# 12. Relationship to the distress veto
+## 12. Relationship to the distress veto
 
 The matrix gives:
 
@@ -725,9 +728,9 @@ as a candidate veto threshold.
 
 But several edges in that chain remain inferred rather than directly specified.
 
----
+______________________________________________________________________
 
-# 13. Relationship to 40 Hz pacing
+## 13. Relationship to 40 Hz pacing
 
 The Full Brain matrix associates Layer 3 with:
 
@@ -765,9 +768,9 @@ Both remain viable.
 
 Therefore the new specification does **not** upgrade the 40 Hz mechanism into an empirically established biological clock.
 
----
+______________________________________________________________________
 
-# 14. Relationship to Full Brain Layer 5
+## 14. Relationship to Full Brain Layer 5
 
 Layer 5 is the strongest obvious bridge:
 
@@ -825,9 +828,9 @@ $$
 
 to coexist.
 
----
+______________________________________________________________________
 
-# 15. Global versus local governance
+## 15. Global versus local governance
 
 The combined specification and matrix suggest a potentially fractal control architecture.
 
@@ -889,9 +892,9 @@ $$
 
 But we do not yet know the local guards corresponding to the full ten-layer specification.
 
----
+______________________________________________________________________
 
-# 16. Missing layer problem
+## 16. Missing layer problem
 
 If the ten layers correspond directly to numeric layers beginning at zero, then the missing mapping is:
 
@@ -941,9 +944,9 @@ $$
 
 is the strongest statement.
 
----
+______________________________________________________________________
 
-# 17. Matrix/specification contract
+## 17. Matrix/specification contract
 
 The declared relationship is explicit:
 
@@ -989,9 +992,9 @@ However, the source does not explicitly define authority precedence among these 
 
 A reasonable governance rule is to preserve all three and escalate contradictions rather than arbitrarily selecting one.
 
----
+______________________________________________________________________
 
-# 18. Inter-plane topology
+## 18. Inter-plane topology
 
 The artifact declares:
 
@@ -1032,9 +1035,9 @@ $$
 
 The exact edge direction is partly interpretive, but the references themselves are explicit.
 
----
+______________________________________________________________________
 
-# 19. Causal firewall
+## 19. Causal firewall
 
 The phrase “linking” should not be transformed into empirical causation.
 
@@ -1074,9 +1077,9 @@ relationship_type:
   empirical_runtime: NOT_ESTABLISHED_HERE
 ```
 
----
+______________________________________________________________________
 
-# 20. Scope firewall
+## 20. Scope firewall
 
 The applicability envelope is explicitly:
 
@@ -1115,9 +1118,9 @@ Therefore the specification does not by itself generalize to:
 
 Its source-defined validity envelope is AMOS.
 
----
+______________________________________________________________________
 
-# 21. Revised RSCF contract
+## 21. Revised RSCF contract
 
 ```yaml
 RSCF:
@@ -1342,7 +1345,7 @@ RSCF:
       NOT_ESTABLISHED
 ```
 
-# 22. Updated cross-plane proof topology
+## 22. Updated cross-plane proof topology
 
 Combining the supplied specification and matrix now yields:
 
@@ -1388,9 +1391,9 @@ Combining the supplied specification and matrix now yields:
                 COMPETING / GAP
 ```
 
----
+______________________________________________________________________
 
-# 23. What this new artifact changes
+## 23. What this new artifact changes
 
 This specification materially changes the previous interpretation in three ways.
 
@@ -1424,9 +1427,9 @@ Mapping(10,7)=UNKNOWN/GAP
 }
 $$
 
----
+______________________________________________________________________
 
-# 24. Canon ingestion recommendation
+## 24. Canon ingestion recommendation
 
 For canon ingestion, the artifact should be retained as a **native canon candidate**, but the 10↔7 discrepancy should remain attached as a decision-relevant unresolved edge.
 
@@ -1466,9 +1469,9 @@ canon_ingestion:
 
 This preserves both artifacts without forcing premature convergence.
 
----
+______________________________________________________________________
 
-# 25. Final proof capsule
+## 25. Final proof capsule
 
 **Primary claim:** `UBI_X_FULL_BRAIN.md v2.0.0` defines an AMOS-model governance relationship linking **all 10 cognitive processing layers of AMOS Full Brain OS** with **UBI biological pacing and vagal coherence**.
 
@@ -1520,7 +1523,8 @@ remains unresolved.
 
 That unresolved edge should remain visible until `UBI_FULL_BRAIN_BINDING` or the authoritative Full Brain ten-layer definition supplies the discriminating mapping.
 
----
+______________________________________________________________________
+
 ```RSCF-NODE
 node_id: ubi_x_full_brain
 node_type: note
@@ -1532,6 +1536,6 @@ RSCF-RELATIONS:
 claim_class: AMOS_MODEL
 ```
 
----
-**MOC:** [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]
+______________________________________________________________________
 
+**MOC:** [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]

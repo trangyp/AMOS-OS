@@ -89,7 +89,7 @@
     "mckinsey-transformation-org-structure-rscf"
   ],
   "depends_on_workflows": [
-    "mckinsey-transformation-org-structure-rscf-workflow.md"
+    "amos-mckinsey-transformation-org-structure-rscf-workflow.md"
   ],
   "epistemic_class": "AMOS_MODEL",
   "claim_ceiling": 0.95,

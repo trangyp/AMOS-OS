@@ -12,23 +12,23 @@ segment: 25_COGNITIVE_MATRIX
 artifact_kind: MATRIX_SPEC
 path: 25_COGNITIVE_MATRIX/UBI_X_EMOTION.md
 tags:
-- amos-os
-- cognitive-matrix
-- vault
-- ubi_x_emotion
-- emotion_engine
-- affective_computing
-- affective_vector
-- nei
-- valence
-- arousal
-- dominance
-- cooling_circuit
-- substrate_refusal
-- rscf
-- ubi-x-emotion-matrix
-- ubi-emotion-binding
-- unified-biological-intelligence
+  - amos-os
+  - cognitive-matrix
+  - vault
+  - ubi_x_emotion
+  - emotion_engine
+  - affective_computing
+  - affective_vector
+  - nei
+  - valence
+  - arousal
+  - dominance
+  - cooling_circuit
+  - substrate_refusal
+  - rscf
+  - ubi-x-emotion-matrix
+  - ubi-emotion-binding
+  - unified-biological-intelligence
 version: 2.0.0
 updated: '2026-08-28'
 status: ACTIVE_REFERENCE
@@ -40,17 +40,17 @@ executable_binding: ESTABLISHED
 framework_binding:
   matrix_counterpart:
     artifact:
-    - - UBI_X_EMOTION_MATRIX
+      -   - UBI_X_EMOTION_MATRIX
   knowledge_binding:
     artifact:
-    - - UBI_EMOTION_BINDING
+      -   - UBI_EMOTION_BINDING
 source_integrity:
   equation_rendering: PARTIALLY_CORRUPTED
   recoverable_equation: E_t = <v_t, a_t, d_t> ∈ [-1,1] × [0,1] × [-1,1]
   component_semantics: RECOVERABLE_FROM_LOCAL_SOURCE_CONTEXT
   unresolved_matrix_fields:
-  - FIRST_TRIGGER_VARIABLES
-  - TARGET_PLANES
+    - FIRST_TRIGGER_VARIABLES
+    - TARGET_PLANES
   reconstruction_policy: DO_NOT_INVENT_MISSING_CANON
 ---
 
@@ -83,11 +83,11 @@ $$
 v_t<-0.70\Rightarrow EngageSubstrateRefusal
 $$
 
-This materially resolves the earlier uncertainty around \(v_t\) and \(a_t\), but **does not recover the matrix table's missing first trigger variables or Target Plane cells**.
+This materially resolves the earlier uncertainty around (v_t) and (a_t), but **does not recover the matrix table's missing first trigger variables or Target Plane cells**.
 
----
+______________________________________________________________________
 
-# 5. Dimensional Invariant
+## 5. Dimensional Invariant
 
 Every source-valid affective vector satisfies:
 
@@ -114,9 +114,9 @@ $$
 
 is a structural invariant of this specification.
 
----
+______________________________________________________________________
 
-# 6. Valence
+## 6. Valence
 
 Valence occupies:
 
@@ -133,9 +133,9 @@ The artifact does not further define the calibration of the endpoints.
 Thus it establishes the mathematical range, but not an empirical
 measurement protocol.
 
----
+______________________________________________________________________
 
-# 7. Arousal
+## 7. Arousal
 
 Arousal occupies:
 
@@ -147,11 +147,11 @@ and is source-described as:
 
 `Metabolic activation`.
 
-This resolves the earlier matrix-table ambiguity around \(a_t\).
+This resolves the earlier matrix-table ambiguity around (a_t).
 
----
+______________________________________________________________________
 
-# 8. Dominance
+## 8. Dominance
 
 Dominance occupies:
 
@@ -166,9 +166,9 @@ and is source-described as:
 This dimension was not visible in the preceding matrix table but is
 explicitly part of the underlying affective vector.
 
----
+______________________________________________________________________
 
-# 9. Invariant Guard — High Arousal
+## 9. Invariant Guard — High Arousal
 
 The source explicitly defines:
 
@@ -190,9 +190,9 @@ ActivateCoolingCircuit
 }
 $$
 
----
+______________________________________________________________________
 
-# 10. Strict Arousal Threshold
+## 10. Strict Arousal Threshold
 
 The source uses:
 
@@ -222,9 +222,9 @@ $$
 
 does.
 
----
+______________________________________________________________________
 
-# 11. Cooling Circuit
+## 11. Cooling Circuit
 
 The source establishes the control action:
 
@@ -243,9 +243,9 @@ It does not establish within this artifact:
 
 Those remain dependencies.
 
----
+______________________________________________________________________
 
-# 12. Invariant Guard — Negative Valence
+## 12. Invariant Guard — Negative Valence
 
 The source explicitly defines:
 
@@ -267,9 +267,9 @@ EngageSubstrateRefusal
 }
 $$
 
----
+______________________________________________________________________
 
-# 13. Strict Valence Threshold
+## 13. Strict Valence Threshold
 
 Again the operator is strict:
 
@@ -293,9 +293,9 @@ $$
 
 does.
 
----
+______________________________________________________________________
 
-# 14. Substrate Refusal
+## 14. Substrate Refusal
 
 The source establishes the named action:
 
@@ -311,9 +311,9 @@ EngageSubstrateRefusal
 AutomaticallyKnownImplementation
 $$
 
----
+______________________________________________________________________
 
-# 15. Substrate Refusal ≠ Refusal Firewall
+## 15. Substrate Refusal ≠ Refusal Firewall
 
 The matrix counterpart previously associates:
 
@@ -347,9 +347,9 @@ $$
 
 remains unresolved.
 
----
+______________________________________________________________________
 
-# 16. Cross-Artifact Valence Recovery
+## 16. Cross-Artifact Valence Recovery
 
 The matrix table contained:
 
@@ -376,9 +376,9 @@ $$
 
 This is a genuine source-grounded recovery.
 
----
+______________________________________________________________________
 
-# 17. Two Valence Thresholds
+## 17. Two Valence Thresholds
 
 The combined source now contains at least two distinct valence
 thresholds:
@@ -397,9 +397,9 @@ for `EngageSubstrateRefusal`.
 
 These thresholds must not be collapsed.
 
----
+______________________________________________________________________
 
-# 18. Nested Valence Region
+## 18. Nested Valence Region
 
 Mathematically:
 
@@ -415,9 +415,9 @@ satisfies the **valence component** of the High Threat matrix row.
 It does not necessarily satisfy the complete High Threat predicate,
 because that row still contains an unresolved first trigger variable.
 
----
+______________________________________________________________________
 
-# 19. Valence Control Topology
+## 19. Valence Control Topology
 
 The source-supported topology is:
 
@@ -434,9 +434,9 @@ v_t = VALENCE
       ENGAGE SUBSTRATE REFUSAL
 ```
 
----
+______________________________________________________________________
 
-# 20. Cross-Artifact Arousal Recovery
+## 20. Cross-Artifact Arousal Recovery
 
 The matrix table contains:
 
@@ -468,9 +468,9 @@ $$
 
 within the Optimal Flow predicate.
 
----
+______________________________________________________________________
 
-# 21. Optimal-Flow Arousal Band
+## 21. Optimal-Flow Arousal Band
 
 The source therefore defines an Optimal Flow arousal component:
 
@@ -484,9 +484,9 @@ $$
 0\le a_t\le1.
 $$
 
----
+______________________________________________________________________
 
-# 22. Cooling vs Optimal Flow
+## 22. Cooling vs Optimal Flow
 
 Cooling activates at:
 
@@ -512,21 +512,21 @@ true simultaneously.
 
 This is a mathematically VERIFIED consequence of the supplied source.
 
----
+______________________________________________________________________
 
-# 23. Important Scope Boundary
+## 23. Important Scope Boundary
 
 That disjointness applies specifically to:
 
-- the Optimal Flow row's \(a_t\) component; and
+- the Optimal Flow row's (a_t) component; and
 - the Cooling Circuit invariant.
 
 It does not prove that all aspects of Optimal Flow and cooling are
 globally mutually exclusive under every future specification.
 
----
+______________________________________________________________________
 
-# 24. Arousal Operating Regions
+## 24. Arousal Operating Regions
 
 The source now establishes:
 
@@ -548,9 +548,9 @@ $$
 a_t\in(0.7,0.90].
 $$
 
----
+______________________________________________________________________
 
-# 25. Dominance Has No Visible Guard
+## 25. Dominance Has No Visible Guard
 
 The specification defines:
 
@@ -558,7 +558,7 @@ $$
 d_t=\text{Dominance}
 $$
 
-but supplies no invariant threshold involving \(d_t\).
+but supplies no invariant threshold involving (d_t).
 
 Therefore:
 
@@ -578,9 +578,9 @@ DOMINANCE:
     NOT_VISIBLE_IN_SUPPLIED_MATRIX
 ```
 
----
+______________________________________________________________________
 
-# 26. Do Not Invent a Dominance Threshold
+## 26. Do Not Invent a Dominance Threshold
 
 No canonical rule such as:
 
@@ -596,9 +596,9 @@ $$
 
 may be added from symmetry or affective-model expectations.
 
----
+______________________________________________________________________
 
-# 27. NEI Binding
+## 27. NEI Binding
 
 The introductory statement says the artifact formalizes integration
 between:
@@ -614,18 +614,18 @@ in this artifact.
 
 The expansion or complete definition of `NEI` is not supplied here.
 
----
+______________________________________________________________________
 
-# 28. NEI Must Remain Source Terminology
+## 28. NEI Must Remain Source Terminology
 
 Do not invent an expansion for `NEI` from acronym similarity.
 
 The authoritative expansion should come from the relevant AMOS
 knowledge artifact.
 
----
+______________________________________________________________________
 
-# 29. Core Source Model
+## 29. Core Source Model
 
 The specification can be compactly represented as:
 
@@ -655,9 +655,9 @@ v_t<-0.70
 SubstrateRefusal.
 $$
 
----
+______________________________________________________________________
 
-# 30. Affect-to-Cognition Integration
+## 30. Affect-to-Cognition Integration
 
 The source explicitly states that affective dynamics are mathematically
 integrated with cognitive appraisal mechanisms.
@@ -676,9 +676,9 @@ is source-grounded at the AMOS model level.
 
 The exact mathematical appraisal function is not supplied.
 
----
+______________________________________________________________________
 
-# 31. No Full Transition Equation
+## 31. No Full Transition Equation
 
 The specification defines the affective state vector but does not
 provide a state-transition law such as:
@@ -693,9 +693,9 @@ Therefore the phrase:
 
 does not license invention of a missing dynamical equation.
 
----
+______________________________________________________________________
 
-# 32. No Cognitive Appraisal Equation
+## 32. No Cognitive Appraisal Equation
 
 Likewise, no explicit function:
 
@@ -708,9 +708,9 @@ is supplied.
 The existence of integration is stated, but its complete functional
 form remains unspecified.
 
----
+______________________________________________________________________
 
-# 33. Matrix Counterpart Binding
+## 33. Matrix Counterpart Binding
 
 The specification explicitly binds:
 
@@ -722,9 +722,9 @@ matrix_counterpart:
 Thus the specification and matrix table are authoritative counterparts
 within the supplied corpus.
 
----
+______________________________________________________________________
 
-# 34. Knowledge Binding
+## 34. Knowledge Binding
 
 The specification explicitly binds:
 
@@ -735,33 +735,33 @@ knowledge_binding:
 
 This remains the primary unresolved semantic dependency.
 
----
+______________________________________________________________________
 
-# 35. Biological Master
+## 35. Biological Master
 
 The specification explicitly connects:
 
-``.
+\`\`.
 
 This establishes a declared architectural connection between the
 affective specification and the biological master.
 
 It does not by itself specify the exact dependency direction.
 
----
+______________________________________________________________________
 
-# 36. Cognitive Matrix Plane
+## 36. Cognitive Matrix Plane
 
 The artifact explicitly connects to:
 
-``.
+\`\`.
 
 Thus its placement within the Cognitive Matrix plane is directly
 source-grounded.
 
----
+______________________________________________________________________
 
-# 37. Updated Matrix Recovery
+## 37. Updated Matrix Recovery
 
 The earlier matrix can now be safely strengthened to:
 
@@ -779,9 +779,9 @@ $$
 
 remain noncanonical placeholders.
 
----
+______________________________________________________________________
 
-# 38. What This Specification Resolves
+## 38. What This Specification Resolves
 
 ```yaml
 RESOLVED:
@@ -829,9 +829,9 @@ RESOLVED:
     ENGAGE_SUBSTRATE_REFUSAL
 ```
 
----
+______________________________________________________________________
 
-# 39. What Remains Unresolved
+## 39. What Remains Unresolved
 
 ```yaml
 UNRESOLVED:
@@ -869,16 +869,16 @@ UNRESOLVED:
   - CROSS_PLANE_PRECEDENCE
 ```
 
----
+______________________________________________________________________
 
-# 40. Corrected Retrieval Priority
+## 40. Corrected Retrieval Priority
 
 The previous matrix analysis identified `UBI_X_EMOTION` as the first
 retrieval target.
 
 That dependency is now available.
 
-It resolves \(v_t\) and \(a_t\), but not the missing matrix variables
+It resolves (v_t) and (a_t), but not the missing matrix variables
 or target planes.
 
 Therefore the next smallest sufficient retrieval target becomes:
@@ -895,9 +895,9 @@ $$
 [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]].
 $$
 
----
+______________________________________________________________________
 
-# 41. Source Topology
+## 41. Source Topology
 
 ```text
          UNIFIED BIOLOGICAL INTELLIGENCE
@@ -927,9 +927,9 @@ $$
 The dependency directions beyond explicit links are **DERIVED** and
 should be revalidated against the binding.
 
----
+______________________________________________________________________
 
-# 42. Cross-Plane Proof Capsule
+## 42. Cross-Plane Proof Capsule
 
 ```yaml
 PROOF_CAPSULE:
@@ -1044,9 +1044,9 @@ PROOF_CAPSULE:
       NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 43. Boundary Tests
+## 43. Boundary Tests
 
 ```yaml
 VALENCE_TESTS:
@@ -1106,9 +1106,9 @@ DOMINANCE_TESTS:
     valid: true
 ```
 
----
+______________________________________________________________________
 
-# 44. Domain-Rejection Tests
+## 44. Domain-Rejection Tests
 
 If the vector specification is enforced literally:
 
@@ -1148,9 +1148,9 @@ INVALID_VECTOR_EXAMPLES:
 
 The handling policy for such observations is not supplied.
 
----
+______________________________________________________________________
 
-# 45. Invariant Precedence Gap
+## 45. Invariant Precedence Gap
 
 The word `Invariant Bounds` suggests these rules have strong
 architectural status.
@@ -1173,9 +1173,9 @@ and the matrix's `Refusal Firewall`.
 
 Thus precedence remains unresolved.
 
----
+______________________________________________________________________
 
-# 46. High-Information Conflict Test
+## 46. High-Information Conflict Test
 
 A particularly important future test is:
 
@@ -1193,9 +1193,9 @@ Does EngageSubstrateRefusal:
 
 The current sources cannot discriminate.
 
----
+______________________________________________________________________
 
-# 47. Cooling Conflict Test
+## 47. Cooling Conflict Test
 
 Likewise:
 
@@ -1213,11 +1213,11 @@ Does ActivateCoolingCircuit:
 
 This remains `COMPETING`.
 
----
+______________________________________________________________________
 
-# 48. Dominance Discrimination Test
+## 48. Dominance Discrimination Test
 
-Because \(d_t\) is defined but absent from the visible matrix rows, a
+Because (d_t) is defined but absent from the visible matrix rows, a
 high-information question for `UBI_EMOTION_BINDING` is whether
 dominance affects:
 
@@ -1230,9 +1230,9 @@ dominance affects:
 
 No answer should be invented before retrieval.
 
----
+______________________________________________________________________
 
-# 49. Runtime Schema
+## 49. Runtime Schema
 
 ```yaml
 UBI_EMOTION_STATE:
@@ -1283,15 +1283,15 @@ UBI_EMOTION_STATE:
 
 This is **DERIVED** as an implementation-oriented representation.
 
----
+______________________________________________________________________
 
-# 50. Anti-Fabrication Contract
+## 50. Anti-Fabrication Contract
 
 This specification MUST NOT by itself be used to claim:
 
 1. NEI's full expansion is known;
 1. NEI is empirically validated neuroscience;
-1. \(v_t\), \(a_t\), and \(d_t\) are directly measurable biological quantities;
+1. (v_t), (a_t), and (d_t) are directly measurable biological quantities;
 1. their numerical scales correspond to a standard external affective instrument;
 1. the scales are universally calibrated;
 1. `-1` valence has a universal empirical meaning;
@@ -1315,9 +1315,9 @@ This specification MUST NOT by itself be used to claim:
 1. affective values determine epistemic truth;
 1. the source's constitutional-test status equals independent empirical validation.
 
----
+______________________________________________________________________
 
-# 51. Updated RSCF Relations
+## 51. Updated RSCF Relations
 
 ```yaml
 RSCF_RELATIONS:
@@ -1374,9 +1374,9 @@ RSCF_RELATIONS:
   - LINEAGE_TARGET: ""
 ```
 
----
+______________________________________________________________________
 
-# 52. RSCF Node
+## 52. RSCF Node
 
 ```yaml
 RSCF_NODE:
@@ -1457,9 +1457,9 @@ RSCF_NODE:
       DO_NOT_LOAD_UNLESS_REQUIRED
 ```
 
----
+______________________________________________________________________
 
-# 53. Canonical Machine Representation
+## 53. Canonical Machine Representation
 
 ```yaml
 UBI_X_EMOTION:
@@ -1593,9 +1593,9 @@ UBI_X_EMOTION:
     - MULTI_STATE_ARBITRATION
 ```
 
----
+______________________________________________________________________
 
-# 54. Canonical Compression
+## 54. Canonical Compression
 
 ```text
              AFFECTIVE STATE — NEI
@@ -1630,9 +1630,9 @@ UBI_X_EMOTION:
        SUBSTRATE REFUSAL
 ```
 
----
+______________________________________________________________________
 
-# 55. Final Canonical Candidate Statement
+## 55. Final Canonical Candidate Statement
 
 **UBI × Emotion Cognitive Matrix Specification v2.0.0** source-defines the AMOS affective-state representation:
 
@@ -1685,8 +1685,8 @@ EngageSubstrateRefusal
 }
 $$
 
-This specification **resolves the semantic identity of \(v_t\) and
-\(a_t\)** from the preceding `UBI_X_EMOTION_MATRIX`.
+This specification **resolves the semantic identity of (v_t) and
+(a_t)** from the preceding `UBI_X_EMOTION_MATRIX`.
 
 Consequently:
 
@@ -1737,7 +1737,7 @@ $$
 
 are disjoint. Therefore the visible Optimal-Flow arousal condition and
 the Cooling Circuit condition cannot simultaneously hold for the same
-\(a_t\).
+(a_t).
 
 The specification **does not resolve** the three missing first trigger
 variables or the three missing Target Plane cells in
@@ -1760,7 +1760,7 @@ MetabolicPacing.
 $$
 
 Those remain competing architectural hypotheses pending
-``.
+\`\`.
 
 The updated smallest sufficient retrieval path is therefore:
 
@@ -1839,7 +1839,7 @@ PermissionToInventRemainingCanon
 }
 $$
 
----
+______________________________________________________________________
 
 **MOC:** [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]
 
@@ -1847,6 +1847,6 @@ $$
 
 **Next dependency:** [[11_KNOWLEDGE/05_FRAMEWORKS/UBI_EMOTION_BINDING|UBI_EMOTION_BINDING]]
 
----
+______________________________________________________________________
 
 **END OF `UBI_X_EMOTION.md`**

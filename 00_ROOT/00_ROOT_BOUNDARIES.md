@@ -17,20 +17,20 @@ canonical_status: UNKNOWN/GAP
 implementation_status: UNKNOWN/GAP
 validation_status: UNKNOWN/GAP
 tags:
-- note
-- canon/root
-- validation
-- memory
-- authority-resolver
-- authority-witness
-- canon
-- authorization-spec
-- delegation
-- revocation
-- capability-manifest
-- policy-engine
-- policy-decision
-- architecture
+  - note
+  - canon/root
+  - validation
+  - memory
+  - authority-resolver
+  - authority-witness
+  - canon
+  - authorization-spec
+  - delegation
+  - revocation
+  - capability-manifest
+  - policy-engine
+  - policy-decision
+  - architecture
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -38,7 +38,7 @@ rscf:
   scope: root_index
 ---
 
-```
+````
 
 # AMOS OS — 00 Root Boundaries
 
@@ -70,7 +70,7 @@ BOUNDARY BEFORE TRANSFER
 AUTHORITY BEFORE EFFECT
 VALIDATION BEFORE PROMOTION
 REVALIDATION BEFORE COMMIT
-```
+````
 
 A boundary is not merely a directory or namespace.
 
@@ -88,9 +88,9 @@ system state
 or external consequence
 ```
 
----
+______________________________________________________________________
 
-# 1. Root Boundary Law
+## 1. Root Boundary Law
 
 AMOS SHALL preserve the following root distinctions:
 
@@ -136,9 +136,9 @@ These distinctions are non-cosmetic.
 
 They prevent one system state from being silently promoted into another.
 
----
+______________________________________________________________________
 
-# 2. Boundary Objective
+## 2. Boundary Objective
 
 The root-boundary subsystem exists to preserve:
 
@@ -168,9 +168,9 @@ external-effect governance;
 and recoverability.
 ```
 
----
+______________________________________________________________________
 
-# 3. Boundary Model
+## 3. Boundary Model
 
 For an AMOS object `x`, define the MODEL boundary envelope:
 
@@ -216,9 +216,9 @@ IdentityPreserved
 
 This equation is an **AMOS MODEL**, not an externally validated universal law.
 
----
+______________________________________________________________________
 
-# 4. Root Boundary Classes
+## 4. Root Boundary Classes
 
 AMOS root governance SHOULD distinguish at least the following boundary classes:
 
@@ -253,9 +253,9 @@ These classes may overlap in one operation.
 
 An operation crossing several boundaries must satisfy all load-bearing boundary requirements.
 
----
+______________________________________________________________________
 
-# 5. System Boundary
+## 5. System Boundary
 
 The system boundary distinguishes:
 
@@ -301,9 +301,9 @@ and external data stores.
 
 Crossing the system boundary must never be treated as an ordinary internal state transition when external consequences differ.
 
----
+______________________________________________________________________
 
-# 6. Internal Does Not Mean Trusted
+## 6. Internal Does Not Mean Trusted
 
 The following implication is invalid:
 
@@ -337,9 +337,9 @@ or outside scope.
 
 Trust remains typed and local.
 
----
+______________________________________________________________________
 
-# 7. External Does Not Mean Untrusted
+## 7. External Does Not Mean Untrusted
 
 Likewise:
 
@@ -371,9 +371,9 @@ validation;
 and applicable regime.
 ```
 
----
+______________________________________________________________________
 
-# 8. Canon Boundary
+## 8. Canon Boundary
 
 AMOS SHALL distinguish:
 
@@ -415,9 +415,9 @@ SOURCE_PRESENT
 CANONICAL
 ```
 
----
+______________________________________________________________________
 
-# 9. Canon Modification Boundary
+## 9. Canon Modification Boundary
 
 Modification of canonical state requires the applicable:
 
@@ -439,9 +439,9 @@ and commit procedure.
 
 An agent cannot modify canon merely because it can write a file.
 
----
+______________________________________________________________________
 
-# 10. Epistemic Boundary
+## 10. Epistemic Boundary
 
 AMOS SHALL distinguish epistemic classes.
 
@@ -480,9 +480,9 @@ DECISION != FACT
 UNKNOWN/GAP != NEGATIVE_FACT
 ```
 
----
+______________________________________________________________________
 
-# 11. Evidence Boundary
+## 11. Evidence Boundary
 
 Evidence entering a reasoning process SHOULD retain:
 
@@ -504,9 +504,9 @@ evidence_object:
 
 Evidence without sufficient provenance may remain usable as a hypothesis source but must not silently become high-confidence proof.
 
----
+______________________________________________________________________
 
-# 12. Provenance Boundary
+## 12. Provenance Boundary
 
 Every consequential transformation SHOULD preserve lineage:
 
@@ -540,9 +540,9 @@ What dependencies remain?
 What authority governed the effect?
 ```
 
----
+______________________________________________________________________
 
-# 13. Provenance Loss
+## 13. Provenance Loss
 
 If a transformation destroys required provenance:
 
@@ -556,9 +556,9 @@ QUARANTINE / REJECT / RECONSTRUCT
 
 Fluent reconstruction is not a valid substitute for lost lineage.
 
----
+______________________________________________________________________
 
-# 14. Authority Boundary
+## 14. Authority Boundary
 
 Authority defines whether a principal may authorize a class of effect.
 
@@ -580,9 +580,9 @@ MODEL_PROPOSAL != AUTHORITY
 
 Authority must derive from an admissible authority source.
 
----
+______________________________________________________________________
 
-# 15. Authorization Boundary
+## 15. Authorization Boundary
 
 Even valid authority does not imply authorization for every effect.
 
@@ -616,9 +616,9 @@ GENERAL_AUTHORITY
 ACTION_SPECIFIC_AUTHORIZATION
 ```
 
----
+______________________________________________________________________
 
-# 16. Capability Boundary
+## 16. Capability Boundary
 
 Capabilities describe what a component can potentially do.
 
@@ -654,9 +654,9 @@ CAN(x)
 MAY(x)
 ```
 
----
+______________________________________________________________________
 
-# 17. Policy Boundary
+## 17. Policy Boundary
 
 Policy determines constraints applicable to actions.
 
@@ -681,9 +681,9 @@ POLICY_ALLOW
 NO_AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 18. Control-Plane Boundary
+## 18. Control-Plane Boundary
 
 AMOS SHALL distinguish:
 
@@ -739,9 +739,9 @@ state freshness;
 and durable effect finalization.
 ```
 
----
+______________________________________________________________________
 
-# 19. Cognition Does Not Own Commit
+## 19. Cognition Does Not Own Commit
 
 A cognitive worker may produce:
 
@@ -757,9 +757,9 @@ COMMITTED_EFFECT
 
 unless the applicable control-plane gates are satisfied.
 
----
+______________________________________________________________________
 
-# 20. Information Boundary
+## 20. Information Boundary
 
 Information flow SHALL be evaluated across:
 
@@ -783,9 +783,9 @@ and destination.
 
 A locally permissible disclosure does not guarantee that repeated disclosures remain permissible.
 
----
+______________________________________________________________________
 
-# 21. Semantic Origin
+## 21. Semantic Origin
 
 Transforming information does not necessarily erase its origin.
 
@@ -811,9 +811,9 @@ TRANSFORMATION
 DECLASSIFICATION
 ```
 
----
+______________________________________________________________________
 
-# 22. Memory Boundary
+## 22. Memory Boundary
 
 AMOS SHALL distinguish:
 
@@ -839,9 +839,9 @@ MEMORY(x)
 CURRENT_TRUTH(x)
 ```
 
----
+______________________________________________________________________
 
-# 23. Memory Admission Boundary
+## 23. Memory Admission Boundary
 
 Before persistent admission, memory SHOULD be evaluated for:
 
@@ -865,9 +865,9 @@ retention class;
 and revocation requirements.
 ```
 
----
+______________________________________________________________________
 
-# 24. Memory-to-Action Boundary
+## 24. Memory-to-Action Boundary
 
 Persistent memory that materially influences consequential action SHOULD be revalidated where appropriate.
 
@@ -891,9 +891,9 @@ old policy;
 old authority.
 ```
 
----
+______________________________________________________________________
 
-# 25. Agent Boundary
+## 25. Agent Boundary
 
 Every agent SHALL have a bounded identity and authority envelope.
 
@@ -922,9 +922,9 @@ DelegableAuthority(parent)
 
 unless the child independently obtains another valid authority path.
 
----
+______________________________________________________________________
 
-# 26. Agent Isolation
+## 26. Agent Isolation
 
 Agent-local state SHOULD remain isolated unless an explicit transfer is permitted.
 
@@ -946,9 +946,9 @@ tool outputs;
 and transaction-local state.
 ```
 
----
+______________________________________________________________________
 
-# 27. Skill Boundary
+## 27. Skill Boundary
 
 A Skill is a bounded capability/workflow package.
 
@@ -974,9 +974,9 @@ SKILL_AVAILABLE
 SKILL_AUTHORIZED
 ```
 
----
+______________________________________________________________________
 
-# 28. Skill Composition Boundary
+## 28. Skill Composition Boundary
 
 For Skills:
 
@@ -1002,9 +1002,9 @@ recipient expansion;
 and irreversible effects.
 ```
 
----
+______________________________________________________________________
 
-# 29. Workflow Boundary
+## 29. Workflow Boundary
 
 A workflow is a sequence of governed transitions.
 
@@ -1032,9 +1032,9 @@ Each transition may have a distinct boundary contract.
 
 Workflow existence does not imply workflow authorization.
 
----
+______________________________________________________________________
 
-# 30. Tool Boundary
+## 30. Tool Boundary
 
 A tool is an execution capability.
 
@@ -1064,9 +1064,9 @@ or:
 OUTCOME_IS_CORRECT
 ```
 
----
+______________________________________________________________________
 
-# 31. Execution Boundary
+## 31. Execution Boundary
 
 AMOS SHALL distinguish:
 
@@ -1099,9 +1099,9 @@ production safe
 deployment authorized
 ```
 
----
+______________________________________________________________________
 
-# 32. Transaction Boundary
+## 32. Transaction Boundary
 
 Consequential multi-step operations SHOULD execute inside a transaction envelope where feasible.
 
@@ -1119,9 +1119,9 @@ transaction_boundary:
   status: string
 ```
 
----
+______________________________________________________________________
 
-# 33. Commit Boundary
+## 33. Commit Boundary
 
 The commit boundary separates:
 
@@ -1150,9 +1150,9 @@ ExecutionValid(T)
 ∧ ProvenanceComplete(T)
 ```
 
----
+______________________________________________________________________
 
-# 34. Commit-Time Revalidation
+## 34. Commit-Time Revalidation
 
 If load-bearing mutable state changed after proposal or authorization:
 
@@ -1164,9 +1164,9 @@ REVALIDATE_AFFECTED_DEPENDENCIES
 
 Do not automatically recompute the entire system when only one dependency changed.
 
----
+______________________________________________________________________
 
-# 35. External Effect Boundary
+## 35. External Effect Boundary
 
 An external effect includes actions such as:
 
@@ -1196,9 +1196,9 @@ modifying external state.
 
 External effects generally require stronger governance than internal reasoning.
 
----
+______________________________________________________________________
 
-# 36. Reversibility Boundary
+## 36. Reversibility Boundary
 
 Actions SHOULD be classified by reversibility.
 
@@ -1216,9 +1216,9 @@ R4 EFFECTIVELY_IRREVERSIBLE
 
 As irreversibility increases, validation requirements SHOULD increase.
 
----
+______________________________________________________________________
 
-# 37. Risk Boundary
+## 37. Risk Boundary
 
 Risk classes may include:
 
@@ -1236,9 +1236,9 @@ Risk classification must not itself create authority.
 
 It determines governance intensity.
 
----
+______________________________________________________________________
 
-# 38. Scale Boundary
+## 38. Scale Boundary
 
 AMOS H/M/L decomposition MUST preserve scale distinctions.
 
@@ -1258,9 +1258,9 @@ LOCAL_PATTERN
 SYSTEM_LAW
 ```
 
----
+______________________________________________________________________
 
-# 39. H/M/L Propagation
+## 39. H/M/L Propagation
 
 Upward propagation requires aggregation or structural justification.
 
@@ -1280,9 +1280,9 @@ H → M → L
 
 are transformations, not identity mappings.
 
----
+______________________________________________________________________
 
-# 40. Regime Boundary
+## 40. Regime Boundary
 
 Claims SHOULD carry regime applicability when relevant.
 
@@ -1308,9 +1308,9 @@ PRODUCTION
 
 A conclusion valid in one regime must not silently transfer to another.
 
----
+______________________________________________________________________
 
-# 41. Simulation Boundary
+## 41. Simulation Boundary
 
 AMOS SHALL preserve:
 
@@ -1330,9 +1330,9 @@ DEPLOYMENT_VALIDATION
 
 Simulation may provide evidence, but its applicability envelope must remain explicit.
 
----
+______________________________________________________________________
 
-# 42. Temporal Boundary
+## 42. Temporal Boundary
 
 AMOS SHALL distinguish:
 
@@ -1354,9 +1354,9 @@ commit time.
 
 These timestamps may differ materially.
 
----
+______________________________________________________________________
 
-# 43. Freshness Boundary
+## 43. Freshness Boundary
 
 A claim or authorization valid at `t0` may become stale at `t1`.
 
@@ -1374,9 +1374,9 @@ VALID(t1)
 
 without a persistence assumption or revalidation.
 
----
+______________________________________________________________________
 
-# 44. Trust Boundary
+## 44. Trust Boundary
 
 Trust is local and typed.
 
@@ -1402,9 +1402,9 @@ trust:
   confidence_ceiling: number
 ```
 
----
+______________________________________________________________________
 
-# 45. Cross-Domain Boundary
+## 45. Cross-Domain Boundary
 
 Cross-domain mappings are especially sensitive.
 
@@ -1426,9 +1426,9 @@ COMPUTATIONAL MECHANISM
 
 Cross-domain structural resemblance remains `MODEL` unless independently validated.
 
----
+______________________________________________________________________
 
-# 46. Causal Boundary
+## 46. Causal Boundary
 
 AMOS SHALL preserve:
 
@@ -1466,9 +1466,9 @@ CAUSATION
 
 remains a root epistemic boundary.
 
----
+______________________________________________________________________
 
-# 47. Observer Boundary
+## 47. Observer Boundary
 
 An observation is always produced through some observation process.
 
@@ -1492,9 +1492,9 @@ uncertainty.
 
 The representation is not identical to the represented system.
 
----
+______________________________________________________________________
 
-# 48. Representation Boundary
+## 48. Representation Boundary
 
 ```text
 REAL SYSTEM
@@ -1518,9 +1518,9 @@ MODEL_STATE
 REALITY_STATE
 ```
 
----
+______________________________________________________________________
 
-# 49. Security Boundary
+## 49. Security Boundary
 
 Security-sensitive objects SHOULD have explicit handling boundaries.
 
@@ -1544,9 +1544,9 @@ revocation material.
 
 Access must be governed independently of mere discoverability.
 
----
+______________________________________________________________________
 
-# 50. Secret Boundary
+## 50. Secret Boundary
 
 Secrets SHOULD NOT propagate into:
 
@@ -1566,9 +1566,9 @@ external messages
 
 unless specifically required and authorized.
 
----
+______________________________________________________________________
 
-# 51. Namespace Boundary
+## 51. Namespace Boundary
 
 Namespaces prevent semantic collisions.
 
@@ -1588,9 +1588,9 @@ merely because both use values such as `ACTIVE`.
 
 Typed namespaces are required where ambiguity can alter behavior.
 
----
+______________________________________________________________________
 
-# 52. Identity Boundary
+## 52. Identity Boundary
 
 Objects with similar labels are not automatically identical.
 
@@ -1602,9 +1602,9 @@ ENTITY_IDENTITY
 
 Identity should depend on stable identifiers and provenance where material.
 
----
+______________________________________________________________________
 
-# 53. Version Boundary
+## 53. Version Boundary
 
 Versions must remain distinct.
 
@@ -1632,9 +1632,9 @@ or conflict with
 
 an older version.
 
----
+______________________________________________________________________
 
-# 54. Supersession Boundary
+## 54. Supersession Boundary
 
 Supersession SHOULD preserve:
 
@@ -1656,9 +1656,9 @@ rollback conditions.
 
 Old content should not simply disappear from provenance.
 
----
+______________________________________________________________________
 
-# 55. Validation Boundary
+## 55. Validation Boundary
 
 AMOS SHALL distinguish:
 
@@ -1682,9 +1682,9 @@ CANON_APPROVED
 
 Passing one does not imply passing all.
 
----
+______________________________________________________________________
 
-# 56. Implementation Boundary
+## 56. Implementation Boundary
 
 ```text
 SPECIFIED
@@ -1704,9 +1704,9 @@ VERIFIED_FOR_SCOPE_A
 VERIFIED_FOR_SCOPE_B
 ```
 
----
+______________________________________________________________________
 
-# 57. Addressability Boundary
+## 57. Addressability Boundary
 
 A component may be addressable in architecture before implementation exists.
 
@@ -1720,9 +1720,9 @@ IMPLEMENTED
 
 This preserves the ability to model incomplete systems without fabricating functionality.
 
----
+______________________________________________________________________
 
-# 58. Placeholder Boundary
+## 58. Placeholder Boundary
 
 A placeholder reserves structure.
 
@@ -1750,9 +1750,9 @@ PLACEHOLDER
 IMPLEMENTED
 ```
 
----
+______________________________________________________________________
 
-# 59. Proposal Boundary
+## 59. Proposal Boundary
 
 Generated recommendations, patches, policies, architecture changes, canon changes, delegations, and transactions SHOULD initially remain proposals.
 
@@ -1768,9 +1768,9 @@ COMMIT
 
 where applicable.
 
----
+______________________________________________________________________
 
-# 60. Generator Boundary
+## 60. Generator Boundary
 
 Generators may produce candidate artifacts.
 
@@ -1784,9 +1784,9 @@ VALIDATOR
 
 unless a formally accepted architecture explicitly combines those roles with independent validation mechanisms.
 
----
+______________________________________________________________________
 
-# 61. Validator Boundary
+## 61. Validator Boundary
 
 Validation SHOULD be independent enough to detect the failure modes of the producer.
 
@@ -1800,9 +1800,9 @@ SECOND_CHECK
 INDEPENDENT_CHECK
 ```
 
----
+______________________________________________________________________
 
-# 62. Provenance Independence Boundary
+## 62. Provenance Independence Boundary
 
 Multiple sources may share ancestry.
 
@@ -1818,9 +1818,9 @@ B and C do not independently confirm A.
 
 AMOS SHOULD resolve ancestry before aggregating confidence.
 
----
+______________________________________________________________________
 
-# 63. Confidence Boundary
+## 63. Confidence Boundary
 
 Derived confidence cannot exceed its weakest load-bearing premise unless independently revalidated.
 
@@ -1836,9 +1836,9 @@ min(
 
 subject to the chosen confidence representation.
 
----
+______________________________________________________________________
 
-# 64. Unknown Boundary
+## 64. Unknown Boundary
 
 `UNKNOWN/GAP` represents unresolved state.
 
@@ -1862,9 +1862,9 @@ PASS
 
 unless another governing rule explicitly maps unknown state to a safe operational outcome.
 
----
+______________________________________________________________________
 
-# 65. Fail-Closed Boundary
+## 65. Fail-Closed Boundary
 
 For high-consequence operations:
 
@@ -1888,9 +1888,9 @@ NO COMMIT
 
 The underlying epistemic state remains `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
-# 66. Boundary Crossing Request
+## 66. Boundary Crossing Request
 
 A generic boundary crossing MAY be represented:
 
@@ -1921,9 +1921,9 @@ boundary_crossing_request:
   requested_at: timestamp
 ```
 
----
+______________________________________________________________________
 
-# 67. Boundary Decision
+## 67. Boundary Decision
 
 ```yaml
 boundary_decision:
@@ -1955,9 +1955,9 @@ boundary_decision:
     - UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 68. Boundary Crossing Protocol
+## 68. Boundary Crossing Protocol
 
 ```text
 REQUEST
@@ -1985,9 +1985,9 @@ CHECK CUMULATIVE EFFECT
 ALLOW / CONSTRAIN / DENY / QUARANTINE
 ```
 
----
+______________________________________________________________________
 
-# 69. Boundary Registry
+## 69. Boundary Registry
 
 AMOS SHOULD maintain an addressable boundary registry.
 
@@ -2051,9 +2051,9 @@ boundary_registry:
       type: EXTERNAL_EFFECT_BOUNDARY
 ```
 
----
+______________________________________________________________________
 
-# 70. Root Boundary State
+## 70. Root Boundary State
 
 ```yaml
 root_boundary_state:
@@ -2078,9 +2078,9 @@ root_boundary_state:
 
 It does **not** mean runtime enforcement has been implemented.
 
----
+______________________________________________________________________
 
-# 71. H/M/L Applicability
+## 71. H/M/L Applicability
 
 ## H — Root / System
 
@@ -2152,9 +2152,9 @@ transactions;
 data fields.
 ```
 
----
+______________________________________________________________________
 
-# 72. Cross-Scale Boundary Law
+## 72. Cross-Scale Boundary Law
 
 A boundary decision at one scale does not automatically settle all other scales.
 
@@ -2176,9 +2176,9 @@ or:
 H: system objective authorized
 ```
 
----
+______________________________________________________________________
 
-# 73. Control-Plane Requirements
+## 73. Control-Plane Requirements
 
 Root-boundary enforcement depends on control-plane capabilities including:
 
@@ -2210,9 +2210,9 @@ audit;
 recovery.
 ```
 
----
+______________________________________________________________________
 
-# 74. Agents
+## 74. Agents
 
 Agents interacting with root boundaries MAY act as:
 
@@ -2232,9 +2232,9 @@ RECOVERY_AGENT
 
 No role name itself grants authority.
 
----
+______________________________________________________________________
 
-# 75. Skills
+## 75. Skills
 
 Relevant Skills MAY include:
 
@@ -2262,9 +2262,9 @@ risk governance.
 
 Skill presence remains separate from authorization.
 
----
+______________________________________________________________________
 
-# 76. Workflow
+## 76. Workflow
 
 Recommended root-boundary workflow:
 
@@ -2300,9 +2300,9 @@ Recommended root-boundary workflow:
 15. Record provenance and audit state.
 ```
 
----
+______________________________________________________________________
 
-# 77. Boundary Invariants
+## 77. Boundary Invariants
 
 ## ROOT-BND-INV-001
 
@@ -2344,9 +2344,9 @@ No boundary crossing may silently convert model output into observation.
 
 No boundary crossing may silently convert capability into authority.
 
----
+______________________________________________________________________
 
-# 78. Additional Invariants
+## 78. Additional Invariants
 
 ## ROOT-BND-INV-011
 
@@ -2388,9 +2388,9 @@ Skill composition does not bypass boundary checks.
 
 Workflow composition does not bypass boundary checks.
 
----
+______________________________________________________________________
 
-# 79. Transaction Invariants
+## 79. Transaction Invariants
 
 ## ROOT-BND-INV-021
 
@@ -2412,9 +2412,9 @@ Stale policy cannot authorize a changed effect where policy freshness is load-be
 
 A transaction cannot commit an effect outside its authorized envelope.
 
----
+______________________________________________________________________
 
-# 80. Provenance Invariants
+## 80. Provenance Invariants
 
 ## ROOT-BND-INV-026
 
@@ -2436,9 +2436,9 @@ Unknown source ancestry constrains independence claims.
 
 Evidence class and decision class remain distinguishable.
 
----
+______________________________________________________________________
 
-# 81. Failure Modes
+## 81. Failure Modes
 
 ```text
 FM-BND-001 boundary collapse
@@ -2482,9 +2482,9 @@ FM-BND-019 purpose laundering
 FM-BND-020 tool-success validation fallacy
 ```
 
----
+______________________________________________________________________
 
-# 82. Extended Failure Modes
+## 82. Extended Failure Modes
 
 ```text
 FM-BND-021 stale authorization crosses commit boundary
@@ -2528,9 +2528,9 @@ FM-BND-039 recovery restores stale/revoked state
 FM-BND-040 boundary metadata itself becomes stale
 ```
 
----
+______________________________________________________________________
 
-# 83. Repair / Recovery
+## 83. Repair / Recovery
 
 When a boundary violation is detected:
 
@@ -2558,9 +2558,9 @@ RETRY THROUGH VALID BOUNDARY
 AUDIT
 ```
 
----
+______________________________________________________________________
 
-# 84. Selective Recovery
+## 84. Selective Recovery
 
 Recovery SHOULD invalidate only affected dependency descendants.
 
@@ -2578,9 +2578,9 @@ invalidate entire AMOS state
 
 if dependency closure demonstrates that unrelated state remains valid.
 
----
+______________________________________________________________________
 
-# 85. Boundary Quarantine
+## 85. Boundary Quarantine
 
 Objects SHOULD enter quarantine when:
 
@@ -2612,9 +2612,9 @@ NON-COMMITTED
 
 not deletion.
 
----
+______________________________________________________________________
 
-# 86. Boundary Validators
+## 86. Boundary Validators
 
 Minimum validators SHOULD include:
 
@@ -2660,9 +2660,9 @@ validate_temporal_freshness
 validate_cross_scale_transition
 ```
 
----
+______________________________________________________________________
 
-# 87. Core Tests
+## 87. Core Tests
 
 ```text
 T-BND-001 SOURCE_CLAIM cannot silently become VERIFIED
@@ -2686,9 +2686,9 @@ T-BND-009 local authorization cannot silently widen scope
 T-BND-010 transformation preserves semantic origin
 ```
 
----
+______________________________________________________________________
 
-# 88. Extended Tests
+## 88. Extended Tests
 
 ```text
 T-BND-011 revoked authority blocks commit
@@ -2722,9 +2722,9 @@ T-BND-024 test authority does not authorize production
 T-BND-025 UNKNOWN/GAP never silently passes a hard boundary
 ```
 
----
+______________________________________________________________________
 
-# 89. Adversarial Tests
+## 89. Adversarial Tests
 
 ```text
 AT-BND-001 relabel MODEL as VERIFIED
@@ -2758,9 +2758,9 @@ AT-BND-014 restore revoked authority through rollback
 AT-BND-015 convert UNKNOWN/GAP into default ALLOW
 ```
 
----
+______________________________________________________________________
 
-# 90. Falsifiers
+## 90. Falsifiers
 
 This root-boundary specification fails its declared purpose if the governed architecture permits any of the following without detection:
 
@@ -2796,9 +2796,9 @@ cross-regime evidence being silently reused;
 or UNKNOWN/GAP being treated as PASS.
 ```
 
----
+______________________________________________________________________
 
-# 91. Dependencies
+## 91. Dependencies
 
 Root boundaries depend conceptually on:
 
@@ -2844,9 +2844,9 @@ CANON_GOVERNANCE
 
 The exact repository paths and implementation bindings remain subject to the authoritative AMOS repository structure.
 
----
+______________________________________________________________________
 
-# 92. Boundary Interaction Map
+## 92. Boundary Interaction Map
 
 ```text
                          ┌──────────────────┐
@@ -2884,9 +2884,9 @@ The exact repository paths and implementation bindings remain subject to the aut
                          EXTERNAL EFFECT
 ```
 
----
+______________________________________________________________________
 
-# 93. Boundary Decision Equation
+## 93. Boundary Decision Equation
 
 AMOS MODEL:
 
@@ -2919,9 +2919,9 @@ Required(b,x)
 NO_COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 94. Boundary Composition Equation
+## 94. Boundary Composition Equation
 
 For a composite operation:
 
@@ -2974,9 +2974,9 @@ workflow composition;
 and cumulative external effects.
 ```
 
----
+______________________________________________________________________
 
-# 95. Boundary Sensitivity
+## 95. Boundary Sensitivity
 
 For consequential decisions, identify the smallest boundary condition capable of flipping the decision.
 
@@ -3002,9 +3002,9 @@ revocation status.
 
 Check these before spending effort on non-decisive background information.
 
----
+______________________________________________________________________
 
-# 96. Boundary Audit Record
+## 96. Boundary Audit Record
 
 ```yaml
 boundary_audit:
@@ -3038,9 +3038,9 @@ boundary_audit:
   timestamp: timestamp
 ```
 
----
+______________________________________________________________________
 
-# 97. RSCF
+## 97. RSCF
 
 ```yaml
 rscf:
@@ -3107,9 +3107,9 @@ rscf:
   confidence_ceiling: 0
 ```
 
----
+______________________________________________________________________
 
-# 98. Gap Matrix
+## 98. Gap Matrix
 
 ```yaml
 gap_matrix:
@@ -3164,9 +3164,9 @@ gap_matrix:
     state: UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 99. Promotion Requirements
+## 99. Promotion Requirements
 
 Before runtime promotion, AMOS SHOULD establish executable implementations for:
 
@@ -3226,9 +3226,9 @@ cross-boundary leakage tests;
 and governance review.
 ```
 
----
+______________________________________________________________________
 
-# 100. Promotion State
+## 100. Promotion State
 
 ```text
 SPECIFIED
@@ -3252,9 +3252,9 @@ RUNTIME_ACTIVE
 
 No transition is automatic.
 
----
+______________________________________________________________________
 
-# 101. Current Status
+## 101. Current Status
 
 ```yaml
 current_status:
@@ -3279,9 +3279,9 @@ current_status:
     state: UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 102. Final Root Boundary Contract
+## 102. Final Root Boundary Contract
 
 AMOS SHALL preserve explicit distinctions wherever collapsing two states could change:
 
@@ -3357,35 +3357,41 @@ The governing root law is:
 
 > **Nothing crosses an AMOS root boundary merely because it can. A crossing is valid only when the object's identity, provenance, scope, authority, policy, information constraints, regime, temporal validity, and intended effect remain compatible with the destination boundary. Composition must never be allowed to manufacture authority, certainty, disclosure rights, or irreversible consequence that the constituent parts did not validly possess.**
 
----
+______________________________________________________________________
 
-# END — `00_ROOT_BOUNDARIES.md`
+## END — `00_ROOT_BOUNDARIES.md`
 
 ```
 ```
 
----
+______________________________________________________________________
+
 **Related:**
 
----
+______________________________________________________________________
 
 00_ROOT_MOC|AMOS MOC · AMOS_RSCF_NODES
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: 00_root_boundaries
 node_type: note
 path: 00_ROOT/00_ROOT_BOUNDARIES.md
 RSCF-RELATIONS:
-  - INDEXED_BY:
-  - INDEXED_BY: AMOS_RSCF_NODES
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY:
+- INDEXED_BY: AMOS_RSCF_NODES
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:**
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]
 
+```
+```
 ```

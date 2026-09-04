@@ -12,22 +12,22 @@ segment: 01_CANON/01_CORE_LAWS
 artifact_kind: CANON
 path: 01_CANON/01_CORE_LAWS/ABSOLUTE_INTEGRITY_CANON.md
 tags:
-- amos-os
-- canon
-- core_laws
-- absolute_integrity
-- integrity
-- epistemic_integrity
-- provenance
-- causal_integrity
-- scope_integrity
-- governance
-- anti_fabrication
-- anti_regression
-- rscf
-- canon/core_laws
-- readme
-- law-hierarchy
+  - amos-os
+  - canon
+  - core_laws
+  - absolute_integrity
+  - integrity
+  - epistemic_integrity
+  - provenance
+  - causal_integrity
+  - scope_integrity
+  - governance
+  - anti_fabrication
+  - anti_regression
+  - rscf
+  - canon/core_laws
+  - readme
+  - law-hierarchy
 version: 1.0.0
 updated: '2026-08-27'
 status: CANON_CANDIDATE
@@ -96,9 +96,9 @@ canonical_status:
 CANDIDATE_PENDING_VALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 1. Purpose
+## 1. Purpose
 
 Absolute Integrity defines the highest-order AMOS constraint governing:
 
@@ -137,9 +137,9 @@ This ordering is normative within AMOS.
 
 No lower-order optimization may knowingly weaken a higher-order integrity requirement.
 
----
+______________________________________________________________________
 
-# 2. Absolute Integrity Law
+## 2. Absolute Integrity Law
 
 Define an AMOS operation:
 
@@ -149,9 +149,9 @@ $$
 
 where:
 
-- \(S_t\) is the valid pre-operation state;
-- \(O\) is a reasoning, knowledge, governance, or execution operation;
-- \(S_{t+1}\) is the proposed resulting state.
+- (S_t) is the valid pre-operation state;
+- (O) is a reasoning, knowledge, governance, or execution operation;
+- (S\_{t+1}) is the proposed resulting state.
 
 An operation is integrity-admissible only if all applicable integrity invariants remain satisfied.
 
@@ -163,7 +163,7 @@ Admit(O)
 \bigwedge_{i=1}^{n} I_i(O)=PASS
 $$
 
-where \(I_i\) represents an applicable integrity invariant.
+where (I_i) represents an applicable integrity invariant.
 
 If any load-bearing invariant is:
 
@@ -185,9 +185,9 @@ the operation MUST NOT silently convert that unknown into:
 PASS
 ```
 
----
+______________________________________________________________________
 
-# 3. Integrity Is Constraint, Not Confidence
+## 3. Integrity Is Constraint, Not Confidence
 
 Integrity is not synonymous with confidence.
 
@@ -217,9 +217,9 @@ UNKNOWN/GAP
 
 rather than invent a confident answer.
 
----
+______________________________________________________________________
 
-# 4. Integrity Priority
+## 4. Integrity Priority
 
 AMOS uses the following precedence:
 
@@ -247,9 +247,9 @@ if COMPRESSION hides MATERIAL_CONTRADICTION:
     reject compression
 ```
 
----
+______________________________________________________________________
 
-# 5. Absolute Does Not Mean Omniscient
+## 5. Absolute Does Not Mean Omniscient
 
 The word **Absolute** refers to the priority of integrity constraints inside AMOS.
 
@@ -281,9 +281,9 @@ CANNOT_BE_SILENTLY_TRADED_AWAY
 FOR LOWER_ORDER_OPTIMIZATION
 ```
 
----
+______________________________________________________________________
 
-# 6. Core Integrity Boundaries
+## 6. Core Integrity Boundaries
 
 The following distinctions are load-bearing:
 
@@ -333,9 +333,9 @@ UNKNOWN/GAP != PASS
 
 Any reasoning operation that silently collapses one of these distinctions violates Absolute Integrity.
 
----
+______________________________________________________________________
 
-# 7. Integrity Domains
+## 7. Integrity Domains
 
 Absolute Integrity applies across at least the following domains:
 
@@ -359,9 +359,9 @@ OBSERVABILITY_INTEGRITY
 
 These domains interact but MUST remain distinguishable.
 
----
+______________________________________________________________________
 
-# 8. Epistemic Integrity
+## 8. Epistemic Integrity
 
 Epistemic integrity requires that claims remain correctly typed according to what their evidence actually supports.
 
@@ -416,13 +416,13 @@ UNKNOWN/GAP
 
 without new evidence.
 
----
+______________________________________________________________________
 
-# 9. Evidence Integrity
+## 9. Evidence Integrity
 
 Evidence must remain distinguishable from conclusions derived from it.
 
-For evidence \(E\) and conclusion \(C\):
+For evidence (E) and conclusion (C):
 
 $$
 C=f(E,A,M)
@@ -430,9 +430,9 @@ $$
 
 where:
 
-- \(E\) = evidence;
-- \(A\) = assumptions;
-- \(M\) = model/reasoning method.
+- (E) = evidence;
+- (A) = assumptions;
+- (M) = model/reasoning method.
 
 Therefore:
 
@@ -444,9 +444,9 @@ RAW_EVIDENCE
 
 A derived conclusion MUST retain dependency links to its load-bearing evidence.
 
----
+______________________________________________________________________
 
-# 10. Confidence Ceiling
+## 10. Confidence Ceiling
 
 A derived conclusion cannot exceed the weakest load-bearing premise unless that premise is independently revalidated.
 
@@ -464,7 +464,7 @@ C(P_n)
 \right)
 $$
 
-for load-bearing premises \(P_i\).
+for load-bearing premises (P_i).
 
 This is a governance abstraction rather than a requirement that confidence always be represented numerically.
 
@@ -478,9 +478,9 @@ WEAKEST_LOAD_BEARING_PREMISE
 
 unless independent validation changes the evidential basis.
 
----
+______________________________________________________________________
 
-# 11. Provenance Integrity
+## 11. Provenance Integrity
 
 Every consequential claim SHOULD retain enough provenance to answer:
 
@@ -506,9 +506,9 @@ Provenance is part of epistemic state.
 
 It is not decorative metadata.
 
----
+______________________________________________________________________
 
-# 12. Provenance Topology
+## 12. Provenance Topology
 
 Evidence count is not equivalent to independent evidence count.
 
@@ -545,9 +545,9 @@ OF_ONE_SOURCE
 MULTIPLE_INDEPENDENT_SOURCES
 ```
 
----
+______________________________________________________________________
 
-# 13. Sybil Hardening
+## 13. Sybil Hardening
 
 Absolute Integrity prohibits confidence inflation through apparent multiplicity when evidence shares ancestry.
 
@@ -583,9 +583,9 @@ CORRELATED_PROVENANCE
 INDEPENDENT_CONFIRMATION
 ```
 
----
+______________________________________________________________________
 
-# 14. Provenance Independence
+## 14. Provenance Independence
 
 Independence MUST be demonstrated where it materially affects confidence.
 
@@ -612,9 +612,9 @@ CORRELATED
 
 as supported.
 
----
+______________________________________________________________________
 
-# 15. Logical Integrity
+## 15. Logical Integrity
 
 Logical integrity requires that conclusions follow from premises under declared reasoning rules.
 
@@ -635,9 +635,9 @@ the reasoning chain MUST preserve:
 
 Missing logical links MUST NOT be replaced with plausible prose.
 
----
+______________________________________________________________________
 
-# 16. Anti-Fabrication Law
+## 16. Anti-Fabrication Law
 
 The fundamental anti-fabrication rule is:
 
@@ -668,9 +668,9 @@ MODEL
 
 depending on available support.
 
----
+______________________________________________________________________
 
-# 17. Absence of Contradiction
+## 17. Absence of Contradiction
 
 Failure to discover contradiction is not proof.
 
@@ -690,9 +690,9 @@ THEOREM
 
 unless the relevant formal proof standard has actually been satisfied.
 
----
+______________________________________________________________________
 
-# 18. Contradiction Integrity
+## 18. Contradiction Integrity
 
 Contradictions MUST remain visible until resolved.
 
@@ -719,9 +719,9 @@ may be required.
 
 AMOS MUST NOT delete one side merely to produce a cleaner narrative.
 
----
+______________________________________________________________________
 
-# 19. Contradiction Object
+## 19. Contradiction Object
 
 ```yaml
 contradiction:
@@ -748,9 +748,9 @@ contradiction:
   state: COMPETING
 ```
 
----
+______________________________________________________________________
 
-# 20. Contradiction Resolution
+## 20. Contradiction Resolution
 
 A contradiction may result from:
 
@@ -768,9 +768,9 @@ GENUINE_EVIDENCE_CONFLICT
 
 Resolution requires evidence capable of discriminating among relevant explanations.
 
----
+______________________________________________________________________
 
-# 21. Competing Hypothesis Integrity
+## 21. Competing Hypothesis Integrity
 
 Absolute Integrity prohibits forced convergence when evidence does not support convergence.
 
@@ -790,9 +790,9 @@ when hypotheses remain materially viable.
 
 Narrative simplicity is not sufficient reason to choose a winner.
 
----
+______________________________________________________________________
 
-# 22. Discriminating Evidence
+## 22. Discriminating Evidence
 
 When hypotheses compete, prefer evidence with high expected discrimination.
 
@@ -821,9 +821,9 @@ REDUNDANT_EVIDENCE_ACCUMULATION
 
 when it offers greater decision value.
 
----
+______________________________________________________________________
 
-# 23. Causal Integrity
+## 23. Causal Integrity
 
 Absolute Integrity requires strict separation of:
 
@@ -843,9 +843,9 @@ CAUSAL_EFFECT
 
 A causal conclusion requires evidence appropriate to the claimed causal strength.
 
----
+______________________________________________________________________
 
-# 24. Causal Firewall
+## 24. Causal Firewall
 
 Forbidden inference:
 
@@ -882,9 +882,9 @@ CONDITIONAL
 
 as supported.
 
----
+______________________________________________________________________
 
-# 25. Structural Similarity Firewall
+## 25. Structural Similarity Firewall
 
 Structural similarity can license analogy.
 
@@ -918,11 +918,11 @@ STRUCTURAL_SIMILARITY
 CAUSAL_IDENTITY
 ```
 
----
+______________________________________________________________________
 
-# 26. Cross-Domain Integrity
+## 26. Cross-Domain Integrity
 
-A model transferred from domain \(D_1\) to \(D_2\) remains a model until independently validated in \(D_2\).
+A model transferred from domain (D_1) to (D_2) remains a model until independently validated in (D_2).
 
 ```text
 VALIDATED_IN_D1
@@ -943,9 +943,9 @@ SOURCE_DOMAIN
 → VALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 27. Scope Integrity
+## 27. Scope Integrity
 
 Every important claim inherits an applicability envelope.
 
@@ -965,11 +965,11 @@ Assumptions
 )
 $$
 
-A conclusion validated under \(\Omega_1\) MUST NOT silently generalize to incompatible \(\Omega_2\).
+A conclusion validated under (\\Omega_1) MUST NOT silently generalize to incompatible (\\Omega_2).
 
----
+______________________________________________________________________
 
-# 28. Scope Firewall
+## 28. Scope Firewall
 
 Before reusing an important conclusion, check:
 
@@ -998,9 +998,9 @@ UNKNOWN/GAP
 
 may be required.
 
----
+______________________________________________________________________
 
-# 29. Regime Integrity
+## 29. Regime Integrity
 
 Knowledge may be regime-dependent.
 
@@ -1010,7 +1010,7 @@ $$
 R_t \neq R_{t+1}
 $$
 
-If a conclusion depends on \(R_t\), a regime shift may invalidate it.
+If a conclusion depends on (R_t), a regime shift may invalidate it.
 
 Canonical behavior:
 
@@ -1022,9 +1022,9 @@ DETECT_REGIME_SHIFT
 → REVALIDATE_WHERE_REQUIRED
 ```
 
----
+______________________________________________________________________
 
-# 30. Temporal Integrity
+## 30. Temporal Integrity
 
 Evidence has temporal validity.
 
@@ -1049,9 +1049,9 @@ STALE_FOR_DECISION
 SUFFICIENT_FOR_DECISION
 ```
 
----
+______________________________________________________________________
 
-# 31. Freshness-Bounded Trust
+## 31. Freshness-Bounded Trust
 
 Trust is:
 
@@ -1075,9 +1075,9 @@ A previously trusted artifact may require revalidation when:
 - its dependencies change;
 - its freshness window expires.
 
----
+______________________________________________________________________
 
-# 32. Uncertainty Integrity
+## 32. Uncertainty Integrity
 
 Uncertainty SHOULD remain multidimensional where material.
 
@@ -1098,19 +1098,19 @@ $$
 
 where:
 
-- \(U_e\) = evidence uncertainty;
-- \(U_m\) = model uncertainty;
-- \(U_s\) = scope uncertainty;
-- \(U_t\) = temporal uncertainty;
-- \(U_c\) = causal uncertainty;
-- \(U_x\) = execution uncertainty;
-- \(U_p\) = provenance-independence uncertainty.
+- (U_e) = evidence uncertainty;
+- (U_m) = model uncertainty;
+- (U_s) = scope uncertainty;
+- (U_t) = temporal uncertainty;
+- (U_c) = causal uncertainty;
+- (U_x) = execution uncertainty;
+- (U_p) = provenance-independence uncertainty.
 
 Do not compress materially different uncertainty types into a misleading single confidence number.
 
----
+______________________________________________________________________
 
-# 33. Sensitivity Integrity
+## 33. Sensitivity Integrity
 
 For consequential conclusions, identify the smallest premise, assumption, observation, or threshold capable of flipping the result.
 
@@ -1120,7 +1120,7 @@ $$
 Y=f(P_1,\dots,P_n)
 $$
 
-find the most decision-sensitive \(P_i\).
+find the most decision-sensitive (P_i).
 
 Canonical strategy:
 
@@ -1130,9 +1130,9 @@ TEST_RESULT_FLIPPING_PREMISE_FIRST
 
 when practical and safe.
 
----
+______________________________________________________________________
 
-# 34. Fragility Classification
+## 34. Fragility Classification
 
 Results SHOULD distinguish:
 
@@ -1145,9 +1145,9 @@ UNKNOWN
 
 A fragile conclusion MUST NOT be presented as unconditional.
 
----
+______________________________________________________________________
 
-# 35. RSCF Integrity
+## 35. RSCF Integrity
 
 Important conclusions SHOULD be represented through RSCF-compatible structures.
 
@@ -1181,9 +1181,9 @@ rscf_node:
   governance:
 ```
 
----
+______________________________________________________________________
 
-# 36. Proof Capsule Integrity
+## 36. Proof Capsule Integrity
 
 Important conclusions SHOULD conceptually carry:
 
@@ -1212,9 +1212,9 @@ proof_capsule:
 
 A proof capsule is reusable only while its validity conditions remain satisfied.
 
----
+______________________________________________________________________
 
-# 37. Dependency Integrity
+## 37. Dependency Integrity
 
 Derived claims MUST preserve dependency relationships.
 
@@ -1224,7 +1224,7 @@ $$
 C \leftarrow P_1,P_2,P_3
 $$
 
-and \(P_2\) fails:
+and (P_2) fails:
 
 ```text
 INVALIDATE:
@@ -1237,9 +1237,9 @@ DESCENDANTS_DEPENDING_ON_P2
 
 Do not invalidate unrelated conclusions.
 
----
+______________________________________________________________________
 
-# 38. Selective Invalidation
+## 38. Selective Invalidation
 
 Absolute Integrity requires minimal necessary invalidation.
 
@@ -1257,9 +1257,9 @@ FAILED_PREMISE
 
 This preserves valid unaffected work.
 
----
+______________________________________________________________________
 
-# 39. Recovery Integrity
+## 39. Recovery Integrity
 
 Failure recovery follows:
 
@@ -1280,9 +1280,9 @@ NEAREST_VALID_STATE
 
 Global recomputation is a last resort.
 
----
+______________________________________________________________________
 
-# 40. Failed Path Rule
+## 40. Failed Path Rule
 
 AMOS MUST NOT repeat a failed path without changed conditions.
 
@@ -1299,9 +1299,9 @@ CORRECTED_DEPENDENCY
 
 Otherwise repetition merely reproduces the same failure conditions.
 
----
+______________________________________________________________________
 
-# 41. Adaptive Complexity Integrity
+## 41. Adaptive Complexity Integrity
 
 Reasoning depth is adaptive.
 
@@ -1317,9 +1317,9 @@ C4 — MAXIMUM
 
 Integrity governs escalation and de-escalation.
 
----
+______________________________________________________________________
 
-# 42. Complexity Escalation
+## 42. Complexity Escalation
 
 Escalate when materially affected by:
 
@@ -1339,9 +1339,9 @@ PROVENANCE_CORRELATION
 AMBIGUOUS_DEPENDENCIES
 ```
 
----
+______________________________________________________________________
 
-# 43. Complexity De-Escalation
+## 43. Complexity De-Escalation
 
 De-escalate once decision-changing uncertainty has been resolved.
 
@@ -1359,9 +1359,9 @@ The target is:
 SMALLEST_SUFFICIENT_PROOF_SCOPE
 ```
 
----
+______________________________________________________________________
 
-# 44. Fast-Path Integrity
+## 44. Fast-Path Integrity
 
 Local fast-path reasoning is permitted only when relevant conditions are established.
 
@@ -1384,9 +1384,9 @@ If any load-bearing field is unknown:
 DO_NOT_ASSUME_FAST_PATH_SAFE
 ```
 
----
+______________________________________________________________________
 
-# 45. Fractal Retrieval Integrity
+## 45. Fractal Retrieval Integrity
 
 AMOS retrieves only the knowledge needed to resolve decision-changing uncertainty.
 
@@ -1410,9 +1410,9 @@ Integrity requires neither maximal retrieval nor minimal retrieval.
 
 It requires sufficient retrieval.
 
----
+______________________________________________________________________
 
-# 46. H/M/L Integrity
+## 46. H/M/L Integrity
 
 ### H — Domain
 
@@ -1435,9 +1435,9 @@ IF_RESULT_CAN_CHANGE → LOAD_L
 IF_STILL_REQUIRED → LOAD_RAW
 ```
 
----
+______________________________________________________________________
 
-# 47. Adversarial Validation
+## 47. Adversarial Validation
 
 Consequential conclusions SHOULD be challenged through a genuinely different reasoning path.
 
@@ -1456,9 +1456,9 @@ STRONGER_ALTERNATIVE
 GOVERNANCE_FAILURE
 ```
 
----
+______________________________________________________________________
 
-# 48. Adversarial Failure
+## 48. Adversarial Failure
 
 If challenge succeeds:
 
@@ -1480,9 +1480,9 @@ Integrity requires downgrade when evidence requires downgrade.
 
 Status preservation is never more important than correctness.
 
----
+______________________________________________________________________
 
-# 49. Independent Challenge Path
+## 49. Independent Challenge Path
 
 Two validation paths are not independent merely because they are expressed differently.
 
@@ -1504,9 +1504,9 @@ MUST_BE_DEMONSTRATED
 NOT_ASSUMED
 ```
 
----
+______________________________________________________________________
 
-# 50. Decision Integrity
+## 50. Decision Integrity
 
 A valid conclusion does not automatically authorize action.
 
@@ -1525,9 +1525,9 @@ EVIDENCE
 
 Each boundary matters.
 
----
+______________________________________________________________________
 
-# 51. Decision Object
+## 51. Decision Object
 
 ```yaml
 decision:
@@ -1553,9 +1553,9 @@ decision:
   receipt:
 ```
 
----
+______________________________________________________________________
 
-# 52. Authority Integrity
+## 52. Authority Integrity
 
 Absolute Integrity requires:
 
@@ -1573,9 +1573,9 @@ ARCHITECTURAL_IMPORTANCE != AUTHORITY
 
 Authority MUST come from an appropriate governance source.
 
----
+______________________________________________________________________
 
-# 53. Authorization Integrity
+## 53. Authorization Integrity
 
 An authorization MUST be:
 
@@ -1595,9 +1595,9 @@ CURRENT_AUTHORIZATION
 
 unless continued validity is established.
 
----
+______________________________________________________________________
 
-# 54. Proposal / Commit Integrity
+## 54. Proposal / Commit Integrity
 
 Candidate state is not authoritative state.
 
@@ -1618,9 +1618,9 @@ Mandatory distinction:
 PROPOSAL != COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 55. Commit Integrity
+## 55. Commit Integrity
 
 Commit requires all load-bearing preconditions to pass.
 
@@ -1646,9 +1646,9 @@ HOLD
 
 or fail closed where required.
 
----
+______________________________________________________________________
 
-# 56. Reversibility Integrity
+## 56. Reversibility Integrity
 
 Under material uncertainty, AMOS prefers staged, reversible action where expected outcomes are otherwise comparable.
 
@@ -1660,9 +1660,9 @@ IRREVERSIBLE
 
 is a governance preference, not a universal theorem.
 
----
+______________________________________________________________________
 
-# 57. Rollback Basin
+## 57. Rollback Basin
 
 Before consequential mutation, define a rollback basin where practical.
 
@@ -1679,9 +1679,9 @@ rollback_basin:
 
 Unknown rollback behavior MUST be visible before high-consequence commit.
 
----
+______________________________________________________________________
 
-# 58. Consequence-Weighted Validation
+## 58. Consequence-Weighted Validation
 
 Validation depth SHOULD increase with:
 
@@ -1699,16 +1699,16 @@ $$
 
 where:
 
-- \(S\) = stakes;
-- \(I_r\) = irreversibility;
-- \(D\) = downstream dependency;
-- \(U\) = uncertainty.
+- (S) = stakes;
+- (I_r) = irreversibility;
+- (D) = downstream dependency;
+- (U) = uncertainty.
 
 This is an AMOS governance model, not a universal physical equation.
 
----
+______________________________________________________________________
 
-# 59. High-Stakes Integrity
+## 59. High-Stakes Integrity
 
 Increase validation for:
 
@@ -1726,9 +1726,9 @@ LARGE_DOWNSTREAM_DEPENDENCY
 
 Integrity requirements become stricter as consequences increase.
 
----
+______________________________________________________________________
 
-# 60. Transactional Integrity
+## 60. Transactional Integrity
 
 Consequential state transitions SHOULD preserve transactional semantics where applicable.
 
@@ -1743,9 +1743,9 @@ RECEIPT
 ROLLBACK_OR_RECOVERY_PATH
 ```
 
----
+______________________________________________________________________
 
-# 61. MVCC/CAS Integrity Pattern
+## 61. MVCC/CAS Integrity Pattern
 
 AMOS may use MVCC/CAS concepts to protect state integrity.
 
@@ -1774,9 +1774,9 @@ CAS_FAILURE
 
 This is an architectural reasoning pattern unless an executable implementation is established.
 
----
+______________________________________________________________________
 
-# 62. Atomic Multi-RSCF Integrity
+## 62. Atomic Multi-RSCF Integrity
 
 Some conclusions depend on multiple RSCF nodes that must be jointly consistent.
 
@@ -1794,9 +1794,9 @@ If a load-bearing node changes during evaluation:
 ABORT_OR_REVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 63. Causal Epoch Integrity
+## 63. Causal Epoch Integrity
 
 A causal epoch defines a bounded validity context.
 
@@ -1813,9 +1813,9 @@ causal_epoch:
 
 Finalization applies to the declared epoch and scope.
 
----
+______________________________________________________________________
 
-# 64. Finality Integrity
+## 64. Finality Integrity
 
 Finality is bounded.
 
@@ -1833,9 +1833,9 @@ FINALIZED
 UNIVERSALLY_TRUE_FOREVER
 ```
 
----
+______________________________________________________________________
 
-# 65. Shard-Local Integrity
+## 65. Shard-Local Integrity
 
 Local finalization is allowed only when the relevant dependency closure is demonstrably local or otherwise safe.
 
@@ -1851,9 +1851,9 @@ ASSUMED_LOCALITY
 → LOCAL_FINALIZATION
 ```
 
----
+______________________________________________________________________
 
-# 66. Proof-Based Coordination Avoidance
+## 66. Proof-Based Coordination Avoidance
 
 Coordination may be avoided only when proof establishes that the operation cannot violate relevant shared invariants.
 
@@ -1873,9 +1873,9 @@ ASSUME_INDEPENDENCE
 
 The second path violates integrity when independence is load-bearing.
 
----
+______________________________________________________________________
 
-# 67. Observability Integrity
+## 67. Observability Integrity
 
 Observability records system state and events.
 
@@ -1895,9 +1895,9 @@ A log can provide evidence that an operation occurred.
 
 It cannot prove that the operation was correct or authorized without additional evidence.
 
----
+______________________________________________________________________
 
-# 68. Receipt Integrity
+## 68. Receipt Integrity
 
 Consequential effects SHOULD produce receipts sufficient to establish what occurred.
 
@@ -1922,9 +1922,9 @@ RECEIPT_EXISTS
 ACTION_VALIDATED
 ```
 
----
+______________________________________________________________________
 
-# 69. Implementation Integrity
+## 69. Implementation Integrity
 
 Documentation does not establish implementation.
 
@@ -1942,9 +1942,9 @@ Implementation evidence may include:
 - traces;
 - deployed bindings.
 
----
+______________________________________________________________________
 
-# 70. Validation Integrity
+## 70. Validation Integrity
 
 Implementation does not establish correctness.
 
@@ -1956,9 +1956,9 @@ VALIDATED
 
 Validation requires executed evidence appropriate to the claim.
 
----
+______________________________________________________________________
 
-# 71. Validation Receipt Integrity
+## 71. Validation Receipt Integrity
 
 A validation receipt MUST correspond to actual validation.
 
@@ -1988,9 +1988,9 @@ validation_receipt:
 
 A template is not a completed validation receipt.
 
----
+______________________________________________________________________
 
-# 72. Negative Validation
+## 72. Negative Validation
 
 Integrity requires testing failure behavior, not only successful behavior.
 
@@ -2010,9 +2010,9 @@ FAILED_COMMIT
 FAILED_ROLLBACK
 ```
 
----
+______________________________________________________________________
 
-# 73. Canon Integrity
+## 73. Canon Integrity
 
 Canon artifacts MUST preserve:
 
@@ -2033,9 +2033,9 @@ CANONICAL
 EMPIRICALLY_VERIFIED
 ```
 
----
+______________________________________________________________________
 
-# 74. Canon Ingestion Integrity
+## 74. Canon Ingestion Integrity
 
 ```yaml
 AMOS_CANON_INGESTION_RULE:
@@ -2081,9 +2081,9 @@ AMOS_CANON_INGESTION_RULE:
       - NEVER_INVENT_CANON
 ```
 
----
+______________________________________________________________________
 
-# 75. Add-Only Integrity
+## 75. Add-Only Integrity
 
 Where ingestion policy specifies ADD_ONLY:
 
@@ -2102,9 +2102,9 @@ SUPERSEDED_BY_GOVERNED_PROCESS
 
 but MUST NOT silently overwrite existing canon.
 
----
+______________________________________________________________________
 
-# 76. Duplicate Integrity
+## 76. Duplicate Integrity
 
 Duplicate filenames or overlapping frameworks require comparison.
 
@@ -2131,9 +2131,9 @@ DIFFERENT_FILENAME
 DIFFERENT_FRAMEWORK
 ```
 
----
+______________________________________________________________________
 
-# 77. External Research Boundary
+## 77. External Research Boundary
 
 External evidence MAY:
 
@@ -2151,9 +2151,9 @@ EXTERNAL_RESEARCH
 NATIVE_CANON
 ```
 
----
+______________________________________________________________________
 
-# 78. Evolution Integrity
+## 78. Evolution Integrity
 
 AMOS evolution is governed.
 
@@ -2165,9 +2165,9 @@ $$
 
 may be accepted only if required invariants survive.
 
----
+______________________________________________________________________
 
-# 79. Anti-Regression Law
+## 79. Anti-Regression Law
 
 Optimization MUST preserve or improve:
 
@@ -2190,9 +2190,9 @@ If a candidate improves speed but reduces factual integrity:
 REJECT
 ```
 
----
+______________________________________________________________________
 
-# 80. Evolution Receipt
+## 80. Evolution Receipt
 
 ```yaml
 evolution_record:
@@ -2216,9 +2216,9 @@ evolution_record:
   lineage:
 ```
 
----
+______________________________________________________________________
 
-# 81. Causal Lineage
+## 81. Causal Lineage
 
 Changes MUST preserve enough lineage to answer:
 
@@ -2238,9 +2238,9 @@ WHAT DEPENDS ON THE CHANGE?
 HOW CAN IT BE REVERSED?
 ```
 
----
+______________________________________________________________________
 
-# 82. Canonical Evolution Spine
+## 82. Canonical Evolution Spine
 
 Absolute Integrity governs the broader AMOS evolution spine:
 
@@ -2265,9 +2265,9 @@ These are AMOS architecture and reasoning patterns.
 
 Their presence in canon does not establish that every AMOS interface literally implements all corresponding distributed-system mechanisms.
 
----
+______________________________________________________________________
 
-# 83. Knowledge Harvest Integrity
+## 83. Knowledge Harvest Integrity
 
 Knowledge promotion follows:
 
@@ -2303,9 +2303,9 @@ knowledge_object:
   lineage:
 ```
 
----
+______________________________________________________________________
 
-# 84. Documentation Integrity
+## 84. Documentation Integrity
 
 README, documentation, architecture descriptions, and comments remain:
 
@@ -2327,9 +2327,9 @@ It does not necessarily establish:
 RUNTIME_BEHAVIOR
 ```
 
----
+______________________________________________________________________
 
-# 85. Benchmark Integrity
+## 85. Benchmark Integrity
 
 Benchmark success is bounded by benchmark scope.
 
@@ -2350,9 +2350,9 @@ Benchmark results SHOULD preserve:
 - measurement method;
 - date.
 
----
+______________________________________________________________________
 
-# 86. Performance Integrity
+## 86. Performance Integrity
 
 Reported latency is environment-dependent unless demonstrated otherwise.
 
@@ -2372,9 +2372,9 @@ THROUGHPUT_ON_SYSTEM_B
 
 without validation.
 
----
+______________________________________________________________________
 
-# 87. Formal-Proof Integrity
+## 87. Formal-Proof Integrity
 
 Testing and formal proof are different evidence classes.
 
@@ -2394,9 +2394,9 @@ UNIVERSAL_BYZANTINE_PROOF
 
 unless a formal proof actually exists.
 
----
+______________________________________________________________________
 
-# 88. Simulation Integrity
+## 88. Simulation Integrity
 
 Simulation validates behavior within the simulated environment.
 
@@ -2408,9 +2408,9 @@ REAL_WORLD_RESULT
 
 unless transfer is independently validated.
 
----
+______________________________________________________________________
 
-# 89. Prediction Integrity
+## 89. Prediction Integrity
 
 Prediction is distinct from observation.
 
@@ -2428,9 +2428,9 @@ PREDICTIVE_ACCURACY
 CAUSAL_VERIFICATION
 ```
 
----
+______________________________________________________________________
 
-# 90. Model Integrity
+## 90. Model Integrity
 
 Models are useful abstractions.
 
@@ -2450,9 +2450,9 @@ CONSISTENT_MODEL
 EMPIRICALLY_VALIDATED_MODEL
 ```
 
----
+______________________________________________________________________
 
-# 91. Decision-Relevant Gap Integrity
+## 91. Decision-Relevant Gap Integrity
 
 Gaps are classified:
 
@@ -2475,9 +2475,9 @@ EXPLANATORY
 COSMETIC
 $$
 
----
+______________________________________________________________________
 
-# 92. Critical Gap Law
+## 92. Critical Gap Law
 
 If a critical gap remains unresolved:
 
@@ -2488,13 +2488,13 @@ DO_NOT_INVENT_COMPLETION
 Expose:
 
 1. the missing information;
-2. why it matters;
-3. what conclusion depends on it;
-4. the minimum evidence needed to close it.
+1. why it matters;
+1. what conclusion depends on it;
+1. the minimum evidence needed to close it.
 
----
+______________________________________________________________________
 
-# 93. UNKNOWN/GAP Integrity
+## 93. UNKNOWN/GAP Integrity
 
 `UNKNOWN/GAP` is a valid epistemic result.
 
@@ -2508,9 +2508,9 @@ FABRICATED_CERTAINTY
 
 under Absolute Integrity.
 
----
+______________________________________________________________________
 
-# 94. Safe Failure
+## 94. Safe Failure
 
 When integrity cannot be established:
 
@@ -2524,9 +2524,9 @@ Fail-closed does not mean every unknown blocks every operation.
 
 The relevant question is whether the unknown is load-bearing for that operation.
 
----
+______________________________________________________________________
 
-# 95. Locality of Failure
+## 95. Locality of Failure
 
 A failure propagates only through actual dependencies.
 
@@ -2544,9 +2544,9 @@ FAILED_NODE
 
 This is the canonical local-repair principle.
 
----
+______________________________________________________________________
 
-# 96. Integrity and Efficiency
+## 96. Integrity and Efficiency
 
 Integrity does not require maximal computation.
 
@@ -2560,23 +2560,23 @@ MINIMUM_SUFFICIENT_VALIDATION
 
 subject to stakes and uncertainty.
 
----
+______________________________________________________________________
 
-# 97. Claim Sufficiency
+## 97. Claim Sufficiency
 
 Claim Sufficiency is reached when available evidence supports the required conclusion class strongly enough for the task.
 
 It does not require eliminating every conceivable uncertainty.
 
----
+______________________________________________________________________
 
-# 98. Decision Sufficiency
+## 98. Decision Sufficiency
 
 Decision Sufficiency is reached when unresolved uncertainty is unlikely to change the decision, subject to governance requirements.
 
----
+______________________________________________________________________
 
-# 99. Action Sufficiency
+## 99. Action Sufficiency
 
 Action Sufficiency is reached when:
 
@@ -2586,9 +2586,9 @@ Action Sufficiency is reached when:
 - relevant risks are acceptable;
 - rollback or recovery is adequate where required.
 
----
+______________________________________________________________________
 
-# 100. Stopping Rule
+## 100. Stopping Rule
 
 Stop analysis when:
 
@@ -2604,9 +2604,9 @@ are satisfied.
 
 Continue only if additional reasoning has positive expected decision value or is required by governance.
 
----
+______________________________________________________________________
 
-# 101. Integrity Invariant Registry
+## 101. Integrity Invariant Registry
 
 ```yaml
 ABSOLUTE_INTEGRITY_INVARIANTS:
@@ -2708,9 +2708,9 @@ ABSOLUTE_INTEGRITY_INVARIANTS:
     severity: HIGH
 ```
 
----
+______________________________________________________________________
 
-# 102. Integrity Gate
+## 102. Integrity Gate
 
 A generic integrity gate MAY be represented as:
 
@@ -2738,9 +2738,9 @@ integrity_gate:
       - UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 103. Gate Semantics
+## 103. Gate Semantics
 
 ```text
 PASS
@@ -2767,9 +2767,9 @@ UNKNOWN/GAP
 → PASS
 ```
 
----
+______________________________________________________________________
 
-# 104. Worked Semantics — Knowledge Claim
+## 104. Worked Semantics — Knowledge Claim
 
 Given:
 
@@ -2794,9 +2794,9 @@ AMOS SHOULD:
 12. Assign weakest accurate conclusion class.
 ```
 
----
+______________________________________________________________________
 
-# 105. Worked Semantics — Canon Mutation
+## 105. Worked Semantics — Canon Mutation
 
 Given a proposed mutation to:
 
@@ -2824,9 +2824,9 @@ AMOS SHOULD:
 15. Record receipt and lineage.
 ```
 
----
+______________________________________________________________________
 
-# 106. Worked Semantics — Failed Premise
+## 106. Worked Semantics — Failed Premise
 
 Suppose:
 
@@ -2859,9 +2859,9 @@ DELETE ALL REASONING STATE
 
 unless dependency topology truly requires global invalidation.
 
----
+______________________________________________________________________
 
-# 107. Worked Semantics — Conflicting Evidence
+## 107. Worked Semantics — Conflicting Evidence
 
 Given:
 
@@ -2880,9 +2880,9 @@ COMPETING
 
 Then seek the cheapest high-information discriminating test.
 
----
+______________________________________________________________________
 
-# 108. Worked Semantics — Causal Claim
+## 108. Worked Semantics — Causal Claim
 
 Given:
 
@@ -2910,9 +2910,9 @@ feedback
 
 Do not promote one to VERIFIED causal effect without appropriate evidence.
 
----
+______________________________________________________________________
 
-# 109. Worked Semantics — Scope Change
+## 109. Worked Semantics — Scope Change
 
 Validated claim:
 
@@ -2939,9 +2939,9 @@ C remains valid for ENVIRONMENT_A
 C for ENVIRONMENT_B = UNKNOWN/GAP or CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
-# 110. Worked Semantics — Stale Evidence
+## 110. Worked Semantics — Stale Evidence
 
 Evidence:
 
@@ -2969,9 +2969,9 @@ but
 E is insufficiently fresh for this decision
 ```
 
----
+______________________________________________________________________
 
-# 111. Worked Semantics — Authorization
+## 111. Worked Semantics — Authorization
 
 Given:
 
@@ -3000,9 +3000,9 @@ CAN_DO
 MAY_DO
 ```
 
----
+______________________________________________________________________
 
-# 112. Worked Semantics — Optimization
+## 112. Worked Semantics — Optimization
 
 Candidate optimization:
 
@@ -3032,9 +3032,9 @@ INTEGRITY_LOSS
 
 within AMOS ordering.
 
----
+______________________________________________________________________
 
-# 113. Worked Semantics — Compression
+## 113. Worked Semantics — Compression
 
 A long proof capsule is compressed.
 
@@ -3057,9 +3057,9 @@ If compression hides a load-bearing caveat:
 REJECT_COMPRESSION
 ```
 
----
+______________________________________________________________________
 
-# 114. Integrity Failure Classes
+## 114. Integrity Failure Classes
 
 ```yaml
 integrity_failure_classes:
@@ -3115,9 +3115,9 @@ integrity_failure_classes:
     - INTEGRITY_REGRESSION
 ```
 
----
+______________________________________________________________________
 
-# 115. Failure Recovery Contract
+## 115. Failure Recovery Contract
 
 ```yaml
 failure_recovery_contract:
@@ -3150,9 +3150,9 @@ failure_recovery_contract:
       required_for_consequential_failure: true
 ```
 
----
+______________________________________________________________________
 
-# 116. Promotion Gate
+## 116. Promotion Gate
 
 Before `ABSOLUTE_INTEGRITY_CANON.md` may be promoted beyond candidate status:
 
@@ -3183,9 +3183,9 @@ CANONICAL_STATUS
 CANDIDATE_PENDING_VALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 117. Known Gaps
+## 117. Known Gaps
 
 ```yaml
 known_gaps:
@@ -3227,9 +3227,9 @@ known_gaps:
     state: UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 118. Cross-Plane Bindings
+## 118. Cross-Plane Bindings
 
 Target topology:
 
@@ -3262,9 +3262,9 @@ OPERATIONS
 └── revalidation
 ```
 
----
+______________________________________________________________________
 
-# 119. Cross-Plane Integrity Rule
+## 119. Cross-Plane Integrity Rule
 
 No downstream plane may reinterpret a higher-order integrity law in a way that weakens its load-bearing constraint without governed supersession.
 
@@ -3282,9 +3282,9 @@ RUNTIME_OPERATION
 
 Every translation MUST preserve required semantics.
 
----
+______________________________________________________________________
 
-# 120. Law Hierarchy Relationship
+## 120. Law Hierarchy Relationship
 
 Absolute Integrity is governed through:
 
@@ -3319,9 +3319,9 @@ TOKEN SAVINGS
 
 as its governing model.
 
----
+______________________________________________________________________
 
-# 121. Runtime Binding Contract
+## 121. Runtime Binding Contract
 
 A future executable binding SHOULD identify:
 
@@ -3354,9 +3354,9 @@ EXECUTABLE_BINDING:
 NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 122. Integrity Receipt
+## 122. Integrity Receipt
 
 A consequential integrity decision MAY produce:
 
@@ -3389,9 +3389,9 @@ integrity_receipt:
   timestamp:
 ```
 
----
+______________________________________________________________________
 
-# 123. RSCF Root
+## 123. RSCF Root
 
 ```yaml
 RSCF_ROOT:
@@ -3423,9 +3423,9 @@ RSCF_ROOT:
     state: NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 124. RSCF — Anti-Fabrication
+## 124. RSCF — Anti-Fabrication
 
 ```yaml
 RSCF_ANTI_FABRICATION:
@@ -3450,9 +3450,9 @@ RSCF_ANTI_FABRICATION:
     - COMPETING
 ```
 
----
+______________________________________________________________________
 
-# 125. RSCF — Confidence Ceiling
+## 125. RSCF — Confidence Ceiling
 
 ```yaml
 RSCF_CONFIDENCE_CEILING:
@@ -3475,9 +3475,9 @@ RSCF_CONFIDENCE_CEILING:
     - unsupported_confidence_inflation
 ```
 
----
+______________________________________________________________________
 
-# 126. RSCF — Provenance Integrity
+## 126. RSCF — Provenance Integrity
 
 ```yaml
 RSCF_PROVENANCE_INTEGRITY:
@@ -3501,9 +3501,9 @@ RSCF_PROVENANCE_INTEGRITY:
     - source_count_as_independence
 ```
 
----
+______________________________________________________________________
 
-# 127. RSCF — Causal Integrity
+## 127. RSCF — Causal Integrity
 
 ```yaml
 RSCF_CAUSAL_INTEGRITY:
@@ -3523,9 +3523,9 @@ RSCF_CAUSAL_INTEGRITY:
     - similarity_as_causation
 ```
 
----
+______________________________________________________________________
 
-# 128. RSCF — Scope Integrity
+## 128. RSCF — Scope Integrity
 
 ```yaml
 RSCF_SCOPE_INTEGRITY:
@@ -3548,9 +3548,9 @@ RSCF_SCOPE_INTEGRITY:
     - assumptions
 ```
 
----
+______________________________________________________________________
 
-# 129. RSCF — Contradiction Integrity
+## 129. RSCF — Contradiction Integrity
 
 ```yaml
 RSCF_CONTRADICTION_INTEGRITY:
@@ -3568,9 +3568,9 @@ RSCF_CONTRADICTION_INTEGRITY:
     - forced_convergence
 ```
 
----
+______________________________________________________________________
 
-# 130. RSCF — Governance Integrity
+## 130. RSCF — Governance Integrity
 
 ```yaml
 RSCF_GOVERNANCE_INTEGRITY:
@@ -3588,9 +3588,9 @@ RSCF_GOVERNANCE_INTEGRITY:
     - PROPOSAL_NE_COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 131. RSCF — Recovery Integrity
+## 131. RSCF — Recovery Integrity
 
 ```yaml
 RSCF_RECOVERY_INTEGRITY:
@@ -3611,9 +3611,9 @@ RSCF_RECOVERY_INTEGRITY:
     - revalidate
 ```
 
----
+______________________________________________________________________
 
-# 132. RSCF — Anti-Regression
+## 132. RSCF — Anti-Regression
 
 ```yaml
 RSCF_ANTI_REGRESSION:
@@ -3637,9 +3637,9 @@ RSCF_ANTI_REGRESSION:
     - rollback_capability
 ```
 
----
+______________________________________________________________________
 
-# 133. Dependency Graph
+## 133. Dependency Graph
 
 ```text
 ABSOLUTE_INTEGRITY
@@ -3696,9 +3696,9 @@ ABSOLUTE_INTEGRITY
     └── VALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 134. State Machine
+## 134. State Machine
 
 ```text
 UNRESOLVED
@@ -3745,9 +3745,9 @@ LOAD_BEARING_FAILURE
 → NEAREST_VALID_STATE
 ```
 
----
+______________________________________________________________________
 
-# 135. Integrity Decision Table
+## 135. Integrity Decision Table
 
 | Condition                                     | Required AMOS State                        |
 | --------------------------------------------- | ------------------------------------------ |
@@ -3765,9 +3765,9 @@ LOAD_BEARING_FAILURE
 | Validation receipt absent                     | NOT_ESTABLISHED                            |
 | Optimization weakens integrity                | REJECT                                     |
 
----
+______________________________________________________________________
 
-# 136. Canonical Summary Capsule
+## 136. Canonical Summary Capsule
 
 ```yaml
 ABSOLUTE_INTEGRITY_CAPSULE:
@@ -3839,9 +3839,9 @@ ABSOLUTE_INTEGRITY_CAPSULE:
     state: CANDIDATE_PENDING_VALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 137. Absolute Integrity Compact Law
+## 137. Absolute Integrity Compact Law
 
 The complete operational principle may be compressed as:
 
@@ -3873,9 +3873,9 @@ PREFER REVERSIBLE REPAIRABLE ACTION UNDER UNCERTAINTY.
 ALLOW OPTIMIZATION ONLY WHEN INTEGRITY SURVIVES.
 ```
 
----
+______________________________________________________________________
 
-# 138. Canon Final Boundary
+## 138. Canon Final Boundary
 
 The strongest conclusion licensed by this artifact is:
 
@@ -3891,9 +3891,9 @@ AMOS_MODEL
 
 until specific claims receive stronger independently valid evidence.
 
----
+______________________________________________________________________
 
-# 139. Final Gaps
+## 139. Final Gaps
 
 Current load-bearing gaps:
 
@@ -3913,9 +3913,9 @@ EXPLANATORY
 
 These gaps MUST remain visible until resolved.
 
----
+______________________________________________________________________
 
-# 140. MOC
+## 140. MOC
 
 **MOC:** [[01_CANON/01_CORE_LAWS/01_CORE_LAWS_MOC|01_CORE_LAWS_MOC]]
 
@@ -3925,9 +3925,9 @@ These gaps MUST remain visible until resolved.
 
 **Law Hierarchy:** [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
 
----
+______________________________________________________________________
 
-# RSCF-NODE
+## RSCF-NODE
 
 ```yaml
 RSCF_NODE:
@@ -4000,8 +4000,8 @@ RSCF_NODE:
       target: ""
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/01_CORE_LAWS_MOC|01_CORE_LAWS_MOC]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
 
----
+______________________________________________________________________

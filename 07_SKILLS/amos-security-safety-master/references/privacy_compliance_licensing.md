@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: privacy compliance licensing
 type: reference
 source: 07_SKILLS/amos-security-safety-master/references
 tags:
-- reference
-- amos-security-safety-master
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-security-safety-master
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -20,17 +23,11 @@ rscf:
 > Source: `_00_Cosmo brain/dated/2026-08-22/2026-08-22 AMOS Privacy Compliance Licensing.md`
 > Epistemic class: SOURCE_DERIVED
 
----
-title: AMOS Privacy Compliance Licensing
-created: "2026-08-22"
-type: "note"
-tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/amos-privacy-compliance, dated, dated/2026-08-22]
-status: "living"
-provenance: "MODEL"
-confidence: "VERIFIED"
----
+______________________________________________________________________
 
-# AMOS Privacy, Compliance & Licensing (Gaps 258-269)
+## title: AMOS Privacy Compliance Licensing created: "2026-08-22" type: "note" tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/amos-privacy-compliance, dated, dated/2026-08-22] status: "living" provenance: "MODEL" confidence: "VERIFIED"
+
+## AMOS Privacy, Compliance & Licensing (Gaps 258-269)
 
 > Epistemic class: MODEL (code artifact + test verification).
 > Related: 2026-08-22 AMOS Uncertainty Calibration · 2026-08-22 AMOS Adversarial Robustness · amos-completion-graph-workflow
@@ -43,24 +40,25 @@ governance gate in `AmosKernel.run()`, evaluated post-execution.
 
 ## 12 Subsystems
 
-| Gap | Subsystem | Class | Purpose |
-|-----|-----------|-------|---------|
-| 258 | Consent lifecycle | `ConsentLifecycleManager` | Consent grant/withdraw/expire |
-| 259 | Purpose limitation | `PurposeLimitationEnforcer` | Purpose limitation enforcement |
-| 260 | Data minimization | `DataMinimizationEngine` | Data minimization assessment |
-| 261 | Right-to-delete | `RightToDeleteManager` | Right-to-delete mechanics |
-| 262 | Deletion-audit conflict | `DeletionAuditResolver` | Deletion vs audit retention conflict |
-| 263 | Data residency | `DataResidencyManager` | Data residency + cross-border transfer |
-| 264 | Jurisdiction engine | `JurisdictionEngine` | Jurisdiction registration + deadlines |
-| 265 | Compliance policy | `CompliancePolicyCompiler` | Compliance policy compilation |
-| 266 | Regulatory change | `RegulatoryChangeMonitor` | Regulatory change monitoring |
-| 267 | Licensing/IP | `LicensingIPTracker` | Licensing/IP lineage tracking |
-| 268 | Derivative work | `DerivativeWorkTracker` | Derivative work tracking |
-| 269 | Export control | `ExportControlChecker` | Export-control/sanctions checks |
+| Gap | Subsystem               | Class                       | Purpose                                |
+| --- | ----------------------- | --------------------------- | -------------------------------------- |
+| 258 | Consent lifecycle       | `ConsentLifecycleManager`   | Consent grant/withdraw/expire          |
+| 259 | Purpose limitation      | `PurposeLimitationEnforcer` | Purpose limitation enforcement         |
+| 260 | Data minimization       | `DataMinimizationEngine`    | Data minimization assessment           |
+| 261 | Right-to-delete         | `RightToDeleteManager`      | Right-to-delete mechanics              |
+| 262 | Deletion-audit conflict | `DeletionAuditResolver`     | Deletion vs audit retention conflict   |
+| 263 | Data residency          | `DataResidencyManager`      | Data residency + cross-border transfer |
+| 264 | Jurisdiction engine     | `JurisdictionEngine`        | Jurisdiction registration + deadlines  |
+| 265 | Compliance policy       | `CompliancePolicyCompiler`  | Compliance policy compilation          |
+| 266 | Regulatory change       | `RegulatoryChangeMonitor`   | Regulatory change monitoring           |
+| 267 | Licensing/IP            | `LicensingIPTracker`        | Licensing/IP lineage tracking          |
+| 268 | Derivative work         | `DerivativeWorkTracker`     | Derivative work tracking               |
+| 269 | Export control          | `ExportControlChecker`      | Export-control/sanctions checks        |
 
 ## Gate Evaluation
 
 `PrivacyComplianceGovernor.evaluate_post()` returns 12 gate results:
+
 - `privacy-258-consent-lifecycle` — FAIL if withdrawn, CONDITIONAL if expired
 - `privacy-259-purpose-limitation` — CONDITIONAL if incompatible purposes
 - `privacy-260-data-minimization` — CONDITIONAL if excess data
@@ -77,26 +75,28 @@ governance gate in `AmosKernel.run()`, evaluated post-execution.
 ## Key Semantics
 
 1. **Consent states**: PENDING → GRANTED → WITHDRAWN/EXPIRED
-2. **Export control status**: APPROVED, RESTRICTED, DENIED, REQUIRES_LICENSE, UNDER_REVIEW
-3. **Empty state behavior**: Jurisdiction and licensing gates return CONDITIONAL when empty (no records = unregistered/unlicensed)
-4. **Cross-border transfer**: Auto-approved if no cross-border; requires explicit approval otherwise
-5. **Governor attribute names**: `consent`, `purpose`, `minimization`, `right_to_delete`, `deletion_conflict`, `residency`, `jurisdiction`, `compliance`, `regulatory`, `licensing`, `derivative`, `export_control`
-6. **API pattern**: All subsystems use `record()` to create entries, plus domain-specific methods like `grant()`, `withdraw()`, `complete()`, `block()`, `resolve()`
-7. **PrivacyConsentManager alias**: `PrivacyConsentManager = ConsentLifecycleManager` to avoid conflict with `ConsentManager` from `human_interaction` module
+1. **Export control status**: APPROVED, RESTRICTED, DENIED, REQUIRES_LICENSE, UNDER_REVIEW
+1. **Empty state behavior**: Jurisdiction and licensing gates return CONDITIONAL when empty (no records = unregistered/unlicensed)
+1. **Cross-border transfer**: Auto-approved if no cross-border; requires explicit approval otherwise
+1. **Governor attribute names**: `consent`, `purpose`, `minimization`, `right_to_delete`, `deletion_conflict`, `residency`, `jurisdiction`, `compliance`, `regulatory`, `licensing`, `derivative`, `export_control`
+1. **API pattern**: All subsystems use `record()` to create entries, plus domain-specific methods like `grant()`, `withdraw()`, `complete()`, `block()`, `resolve()`
+1. **PrivacyConsentManager alias**: `PrivacyConsentManager = ConsentLifecycleManager` to avoid conflict with `ConsentManager` from `human_interaction` module
 
 ## Implementation Chain
 
 - **Types**: `amos/core/types.py` — 11 dataclasses + 8 enums
 - **Schema**: `amos/state/store.py` — 11 tables + 11 put/list method pairs
-- *
+- -
 
----
+______________________________________________________________________
+
 **MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -104,12 +104,14 @@ governance gate in `AmosKernel.run()`, evaluated post-execution.
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-security-safety-master-privacy-compliance-licensing
 node_type: reference
 path: 07_SKILLS/amos-security-safety-master/references/privacy_compliance_licensing.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

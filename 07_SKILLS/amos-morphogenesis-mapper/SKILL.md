@@ -4,25 +4,22 @@ title: SKILL — Amos Morphogenesis Mapper
 type: skill
 source: 07_SKILLS/amos-morphogenesis-mapper
 name: amos-morphogenesis-mapper
-description: Morphogenesis Mapper — biology and neuroscience capability. Use when
-  biological reasoning, neuroscience, or medical analysis. Use when amos-c04-bio-neuro-master
-  routes to this specialized capability. Do not use for generic tasks outside c04
-  domain.
+description: Morphogenesis Mapper — biology and neuroscience capability. Use when biological reasoning, neuroscience, or medical analysis. Use when amos-c04-bio-neuro-master routes to this specialized capability. Do not use for generic tasks outside c04 domain.
 parent_skill: amos-c04-bio-neuro-master
 domain: c04
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
 tags:
-- type/skill
-- type/skill
-- domain/bio-neuro
-- epistemic/source_claim
-- hml/m
-- epistemic/source_claim
-- amos-os
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/bio-neuro
+  - epistemic/source_claim
+  - hml/m
+  - epistemic/source_claim
+  - amos-os
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -32,23 +29,23 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: M
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
-- L7_authority
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
+  - L7_authority
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L7
-- L16
-- L17
-- L18
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L7
+  - L16
+  - L17
+  - L18
 license: MIT
 steward: Trang Phan
 ---
@@ -58,6 +55,7 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: c04. Parent: amos-c04-bio-neuro-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
 ## When to Use
 
 - When mapping biological mechanisms: cellular, neural, developmental
@@ -82,11 +80,11 @@ Origin architect: **Trang Phan**. Domain: c04. Parent: amos-c04-bio-neuro-master
 ## Operations
 
 1. **morphogenesis.map_mechanism**: Map biological mechanisms: cellular, neural, developmental, and evolutionary
-2. **morphogenesis.assess_cognition**: Assess cross-species cognition: comparative neural computation and intelligence
-3. **morphogenesis.model_morphogenesis**: Model morphogenesis: pattern formation, self-organization, and development
-4. **morphogenesis.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-5. **morphogenesis.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
-6. **morphogenesis.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+1. **morphogenesis.assess_cognition**: Assess cross-species cognition: comparative neural computation and intelligence
+1. **morphogenesis.model_morphogenesis**: Model morphogenesis: pattern formation, self-organization, and development
+1. **morphogenesis.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+1. **morphogenesis.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+1. **morphogenesis.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## 11_KNOWLEDGE Vault Content
 
@@ -97,12 +95,14 @@ Origin architect: **Trang Phan**. Domain: c04. Parent: amos-c04-bio-neuro-master
 From C04 Bio & Neuro: Biological development and form generation.
 
 **Morphogenesis model**:
+
 - **Pattern formation**: how biological patterns emerge (Turing patterns, reaction-diffusion)
 - **Cell differentiation**: how cells specialize from a single fertilized egg
 - **Morphogen gradients**: how concentration gradients guide development
 - **Apoptosis**: how programmed cell death shapes structures
 
 **Mapping to AMOS**:
+
 - **Pattern formation -> Structure emergence**: how AMOS structures emerge from simple rules
 - **Cell differentiation -> Capability specialization**: how generic capabilities specialize
 - **Morphogen gradients -> Signal gradients**: how signals guide system development
@@ -139,9 +139,10 @@ Morphogenesis mapping is an analytical analogy. It does not prove the system dev
 - **Origin architect**: Trang Phan
 - **Vault sources**:
 - `brain/A/amos_brain_performance_optimizer.md` — -*- coding: utf-8 -*- (48128 chars, score: 3), content_hash: 7371c326ec17ca19
-  - `brain/A/amos_brain_
+  - \`brain/A/amos_brain\_
 
----
+______________________________________________________________________
+
 **Links:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 ## Related
@@ -151,17 +152,19 @@ Morphogenesis mapping is an analytical analogy. It does not prove the system dev
 ## Examples
 
 - **Scenario**: When mapping biological mechanisms: cellular, neural, developmental
+
   - **Input**: A query matching this skill's domain (c04)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When assessing cross-species cognition and comparative intelligence
+
   - **Input**: A query matching this skill's domain (c04)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When modeling morphogenesis: pattern formation and self-organization
+
   - **Input**: A query matching this skill's domain (c04)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Anti-Patterns
 
@@ -171,7 +174,6 @@ Morphogenesis mapping is an analytical analogy. It does not prove the system dev
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `amos-c04-bio-neuro-master` — routes to this skill when c04 specialization is needed
@@ -179,7 +181,6 @@ Morphogenesis mapping is an analytical analogy. It does not prove the system dev
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -198,7 +199,6 @@ Morphogenesis mapping is an analytical analogy. It does not prove the system dev
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -206,7 +206,6 @@ Morphogenesis mapping is an analytical analogy. It does not prove the system dev
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -219,11 +218,12 @@ Morphogenesis mapping is an analytical analogy. It does not prove the system dev
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `amos-c04-bio-neuro-master` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `amos-morphogenesis-mapper-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -231,12 +231,14 @@ Morphogenesis mapping is an analytical analogy. It does not prove the system dev
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-morphogenesis-mapper
 node_type: skill
 path: 07_SKILLS/amos-morphogenesis-mapper/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

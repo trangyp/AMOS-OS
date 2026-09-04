@@ -12,21 +12,21 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: FRAMEWORK
 path: 11_KNOWLEDGE/05_FRAMEWORKS/RATPAK.md
 tags:
-- amos-os
-- knowledge
-- vault
-- 05_frameworks
-- ratpak
-- relational_adaptive_toolkit
-- adaptive_protocol
-- rscf
-- canon_candidate
-- canon/knowledge
-- ubi-ratpak-binding
-- unified-biological-intelligence
-- id-exchange
-- consentx
-- ubi-wearable-framework
+  - amos-os
+  - knowledge
+  - vault
+  - 05_frameworks
+  - ratpak
+  - relational_adaptive_toolkit
+  - adaptive_protocol
+  - rscf
+  - canon_candidate
+  - canon/knowledge
+  - ubi-ratpak-binding
+  - unified-biological-intelligence
+  - id-exchange
+  - consentx
+  - ubi-wearable-framework
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -41,19 +41,19 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - RATPAK_SPECIFICATION
-  - AMOS_CORPUS
+    - RATPAK_SPECIFICATION
+    - AMOS_CORPUS
   scope:
-  - KNOWLEDGE_FRAMEWORKS
-  - ADAPTIVE_TOOLKITS
-  - SOURCE_DEFINED_MODEL
+    - KNOWLEDGE_FRAMEWORKS
+    - ADAPTIVE_TOOLKITS
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   primary:
     name: RATPAK — Relational Adaptive Toolkit & Protocol Architecture
     role: RELATIONAL_DATA_PACKAGING_AND_INTERFACE_ADAPTATION
   biological_binding:
     artifact:
-    - - UBI_RATPAK_BINDING
+      -   - UBI_RATPAK_BINDING
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
@@ -67,25 +67,25 @@ epistemic_boundary:
 
 It provides a modular, relationally-typed communication protocol and data serialization format designed to package complex state tensors, biological telemetry, and multi-agent reasoning chains across heterogeneous devices.
 
----
+______________________________________________________________________
 
-# 1. Core Technical Architecture
+## 1. Core Technical Architecture
 
 1. **Relational Packing:** Serialization of multi-dimensional tensor states ($P, D, R, C, F, M$) into minimal byte payloads for edge transmission.
-2. **Schema Resilience:** Self-describing schema envelopes that adapt gracefully to missing or corrupted peripheral fields without failing closed.
-3. **Biological Telemetry Envelopes:** High-fidelity encoding of UBI 4-domain telemetry (HRV, EMG, EEG oscillations) with tamper-evident cryptographic checksums.
+1. **Schema Resilience:** Self-describing schema envelopes that adapt gracefully to missing or corrupted peripheral fields without failing closed.
+1. **Biological Telemetry Envelopes:** High-fidelity encoding of UBI 4-domain telemetry (HRV, EMG, EEG oscillations) with tamper-evident cryptographic checksums.
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Biological Coupling:** [[11_KNOWLEDGE/05_FRAMEWORKS/UBI_RATPAK_BINDING|UBI_RATPAK_BINDING]] and [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]]
 - **Identity & Consent:** [[11_KNOWLEDGE/05_FRAMEWORKS/ID_EXCHANGE|ID_EXCHANGE]] and [[11_KNOWLEDGE/05_FRAMEWORKS/CONSENTX|CONSENTX]]
 - **Wearable Sensors:** [[11_KNOWLEDGE/05_FRAMEWORKS/UBI_WEARABLE_FRAMEWORK|UBI_WEARABLE_FRAMEWORK]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -103,10 +103,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/UBI_RATPAK_BINDING|UBI_RATPAK_BINDING]] · [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]] · [[11_KNOWLEDGE/05_FRAMEWORKS/ID_EXCHANGE|ID_EXCHANGE]]
 
----
-**MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]
+______________________________________________________________________
 
+**MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]

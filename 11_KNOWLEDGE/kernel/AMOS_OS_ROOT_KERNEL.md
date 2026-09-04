@@ -1,4 +1,7 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: AMOS OS ROOT KERNEL
 type: kernel
 source: 11_KNOWLEDGE/kernel
@@ -7,13 +10,13 @@ canon-type: os-module
 rscf-state: source-claim
 topic: amos-os-root
 tags:
-- canon-group/tech-ai
-- canon/framework
-- rscf/claim
-- rscf/provenance
-- rscf/state/source-claim
-- topic/amos-os-root
-- kernel
+  - canon-group/tech-ai
+  - canon/framework
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - topic/amos-os-root
+  - kernel
 created: 2026-08-22
 rscf:
   state: SOURCE_CLAIM
@@ -273,6 +276,6 @@ rscf:
 **Related:** [[11_KNOWLEDGE/kernel/AMOS_PREDICTION_FORECASTING_KERNEL_V0|AMOS_PREDICTION_FORECASTING_KERNEL_V0]] · [[11_KNOWLEDGE/kernel/AMOS_TECH_AMOS_CORE_KERNEL_V1_TECH4|AMOS_TECH_AMOS_CORE_KERNEL_V1_TECH4]] · [[11_KNOWLEDGE/kernel/AMOS_PROBABILITY_STATISTICS_KERNEL|AMOS_PROBABILITY_STATISTICS_KERNEL]] · [[11_KNOWLEDGE/kernel/IP_KERNEL_SHIELD_SECURITY|IP_KERNEL_SHIELD_SECURITY]]
 ```
 
----
-**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]
+______________________________________________________________________
 
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]

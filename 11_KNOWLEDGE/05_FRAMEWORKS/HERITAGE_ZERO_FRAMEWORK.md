@@ -12,23 +12,23 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: FRAMEWORK
 path: 11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_ZERO_FRAMEWORK.md
 tags:
-- amos-os
-- knowledge
-- vault
-- 05_frameworks
-- heritage_zero_framework
-- zero_state
-- invariant_origin
-- anti_autopoisoning
-- ground_state
-- rscf
-- canon_candidate
-- canon/knowledge
-- heritage-intelligence-master
-- trang-zero-framework
-- heritage-x-trang-zero
-- heritage-to-trang-zero-binding
-- heritage-x-trang-zero-matrix
+  - amos-os
+  - knowledge
+  - vault
+  - 05_frameworks
+  - heritage_zero_framework
+  - zero_state
+  - invariant_origin
+  - anti_autopoisoning
+  - ground_state
+  - rscf
+  - canon_candidate
+  - canon/knowledge
+  - heritage-intelligence-master
+  - trang-zero-framework
+  - heritage-x-trang-zero
+  - heritage-to-trang-zero-binding
+  - heritage-x-trang-zero-matrix
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -43,23 +43,23 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - HERITAGE_INTELLIGENCE_CANON
-  - TRANG_ZERO_FRAMEWORK_CANON
-  - AMOS_CORPUS
+    - HERITAGE_INTELLIGENCE_CANON
+    - TRANG_ZERO_FRAMEWORK_CANON
+    - AMOS_CORPUS
   scope:
-  - KNOWLEDGE_FRAMEWORKS
-  - NULL_STATE_GOVERNANCE
-  - SOURCE_DEFINED_MODEL
+    - KNOWLEDGE_FRAMEWORKS
+    - NULL_STATE_GOVERNANCE
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   master_framework:
     artifact:
-    - - HERITAGE_INTELLIGENCE_MASTER
+      -   - HERITAGE_INTELLIGENCE_MASTER
   trang_zero_coupling:
     artifact:
-    - - TRANG_ZERO_FRAMEWORK
+      -   - TRANG_ZERO_FRAMEWORK
   cognitive_matrix_binding:
     artifact:
-    - - HERITAGE_X_TRANG_ZERO
+      -   - HERITAGE_X_TRANG_ZERO
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
@@ -73,25 +73,25 @@ epistemic_boundary:
 
 It formalizes the application of null-state invariant grounding ($\emptyset$) to long-horizon decision intelligence, ensuring that governance decisions retain the ability to cleanly reset corrupted states without losing foundational civilizational continuity.
 
----
+______________________________________________________________________
 
-# 1. Core Principles
+## 1. Core Principles
 
 1. **Zero-Point Reset:** When institutional complexity or debt becomes terminal ($C_6 \to C_7$), the system must execute an orderly reset to ground invariants rather than attempting to preserve corrupted superstructure.
-2. **Anti-Autopoisoning:** Continuous auditing of internal models to eliminate circular self-justification loops.
-3. **The Unbroken Thread:** Preserving the minimal viable core of knowledge and identity through zero-state transitions.
+1. **Anti-Autopoisoning:** Continuous auditing of internal models to eliminate circular self-justification loops.
+1. **The Unbroken Thread:** Preserving the minimal viable core of knowledge and identity through zero-state transitions.
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Master Framework:** [[11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_INTELLIGENCE_MASTER|HERITAGE_INTELLIGENCE_MASTER]]
 - **Trang ∅ Invariant Root:** [[01_CANON/02_UNIVERSE_CANON/TRANG_ZERO_FRAMEWORK|TRANG_ZERO_FRAMEWORK]] and [[11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_TO_TRANG_ZERO_BINDING|HERITAGE_TO_TRANG_ZERO_BINDING]]
 - **Cognitive Matrix:** [[25_COGNITIVE_MATRIX/HERITAGE_X_TRANG_ZERO|HERITAGE_X_TRANG_ZERO]] and [[25_COGNITIVE_MATRIX/HERITAGE_X_TRANG_ZERO_MATRIX|HERITAGE_X_TRANG_ZERO_MATRIX]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -109,10 +109,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_INTELLIGENCE_MASTER|HERITAGE_INTELLIGENCE_MASTER]] · [[01_CANON/02_UNIVERSE_CANON/TRANG_ZERO_FRAMEWORK|TRANG_ZERO_FRAMEWORK]] · [[25_COGNITIVE_MATRIX/HERITAGE_X_TRANG_ZERO|HERITAGE_X_TRANG_ZERO]]
 
----
-**MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]
+______________________________________________________________________
 
+**MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]

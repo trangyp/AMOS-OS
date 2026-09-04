@@ -4,24 +4,22 @@ title: SKILL — Amos Fx Options Implied Distribution
 type: skill
 source: 07_SKILLS/amos-fx-options-implied-distribution
 name: amos-fx-options-implied-distribution
-description: Options Implied Distribution — forex and finance capability. Use when
-  forex analysis, currency trading, or market dynamics. Use when amos-c07-econ-finance-master
-  routes to this specialized capability. Do not use for generic tasks outside fx domain.
+description: Options Implied Distribution — forex and finance capability. Use when forex analysis, currency trading, or market dynamics. Use when amos-c07-econ-finance-master routes to this specialized capability. Do not use for generic tasks outside fx domain.
 parent_skill: amos-c07-econ-finance-master
 domain: fx
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
 tags:
-- type/skill
-- type/skill
-- domain/econ-finance
-- epistemic/source_claim
-- hml/m
-- epistemic/source_claim
-- amos-os
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/econ-finance
+  - epistemic/source_claim
+  - hml/m
+  - epistemic/source_claim
+  - amos-os
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -31,22 +29,22 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: M
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
-- L6_uncertainty
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
+  - L6_uncertainty
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L6
-- L16
-- L17
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L6
+  - L16
+  - L17
 license: MIT
 steward: Trang Phan
 ---
@@ -56,6 +54,7 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: fx. Parent: amos-c07-econ-finance-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
 ## When to Use
 
 - When calibrating FX models: Bayesian neural SDEs, volatility surfaces
@@ -75,6 +74,7 @@ Origin architect: **Trang Phan**. Domain: fx. Parent: amos-c07-econ-finance-mast
 - **options_implied.monitor_regime**: Monitor FX regime shifts: volatility, correlation, and liquidity transitions
 
 > **Reference**: See `references/vault_domain_knowledge.md` (content_hash: d9e23c4a2786a5a4) for the full vault-sourced domain knowledge (9510 chars).
+
 - **options_implied.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
 - **options_implied.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **options_implied.validate_outputs**: Validate outputs against domain constraints and epistemic class.
@@ -82,12 +82,12 @@ Origin architect: **Trang Phan**. Domain: fx. Parent: amos-c07-econ-finance-mast
 ## Operations
 
 1. **options_implied.calibrate_model**: Calibrate FX models: Bayesian neural SDEs, volatility surfaces, and term structures
-2. **options_implied.assess_risk**: Assess FX risk: currency exposure, correlation breakdown, and tail events
-3. **options_implied.backtest_strategy**: Backtest FX strategies: walk-forward, regime-aware, and stress-tested
-4. **options_implied.monitor_regime**: Monitor FX regime shifts: volatility, correlation, and liquidity transitions
-5. **options_implied.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-6. **options_implied.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
-7. **options_implied.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+1. **options_implied.assess_risk**: Assess FX risk: currency exposure, correlation breakdown, and tail events
+1. **options_implied.backtest_strategy**: Backtest FX strategies: walk-forward, regime-aware, and stress-tested
+1. **options_implied.monitor_regime**: Monitor FX regime shifts: volatility, correlation, and liquidity transitions
+1. **options_implied.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+1. **options_implied.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+1. **options_implied.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## 11_KNOWLEDGE Vault Content
 
@@ -99,12 +99,14 @@ Origin architect: **Trang Phan**. Domain: fx. Parent: amos-c07-econ-finance-mast
 From C07 H5: FX Structural Analysis with options-implied distributions. From Infrastructure Deep Report: FX-specific domain analysis with options-implied distributions.
 
 **Options-implied distribution model**:
+
 - **Implied volatility surface**: the surface of implied volatilities across strikes and maturities
 - **Risk-neutral density**: the probability distribution implied by option prices
 - **Tail extraction**: extracting tail risk from the implied distribution
 - **Smile/skew analysis**: analyzing the volatility smile/skew for market sentiment
 
 **FX-specific factors**:
+
 - **Release/vintage timing**: economic release timing affects FX options
 - **Volatility regime**: current volatility regime affects option pricing
 - **Regime candidates**: multiple regime candidates with posterior weights
@@ -130,7 +132,8 @@ FX options implied distribution is an analytical framework. It does not prove th
 - **Validation failure**: If validation gates fail, downgrade confidence, flag the gap, and escalate — do not force-fit.
 - **Epistemic overreach**: If a claim exceed
 
----
+______________________________________________________________________
+
 **Links:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 ## Related
@@ -140,17 +143,19 @@ FX options implied distribution is an analytical framework. It does not prove th
 ## Examples
 
 - **Scenario**: When calibrating FX models: Bayesian neural SDEs, volatility surfaces
+
   - **Input**: A query matching this skill's domain (fx)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When assessing FX risk: currency exposure, correlation, tail events
+
   - **Input**: A query matching this skill's domain (fx)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When backtesting FX strategies: walk-forward, regime-aware, stress-tested
+
   - **Input**: A query matching this skill's domain (fx)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Validation Gates
 
@@ -167,7 +172,6 @@ FX options implied distribution is an analytical framework. It does not prove th
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `amos-c07-econ-finance-master` — routes to this skill when fx specialization is needed
@@ -175,7 +179,6 @@ FX options implied distribution is an analytical framework. It does not prove th
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -194,7 +197,6 @@ FX options implied distribution is an analytical framework. It does not prove th
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -202,7 +204,6 @@ FX options implied distribution is an analytical framework. It does not prove th
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -215,11 +216,12 @@ FX options implied distribution is an analytical framework. It does not prove th
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `amos-c07-econ-finance-master` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `amos-fx-options-implied-distribution-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -227,12 +229,14 @@ FX options implied distribution is an analytical framework. It does not prove th
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-fx-options-implied-distribution
 node_type: skill
 path: 07_SKILLS/amos-fx-options-implied-distribution/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: CONTROL PLANE MAP
 type: map
 source: 03_CONTROL_PLANE/00_INDEX
 tags:
-- control-plane
-- index
-- map
-- canon/control-plane
-- amos-layer-maps
+  - control-plane
+  - index
+  - map
+  - canon/control-plane
+  - amos-layer-maps
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -17,16 +20,9 @@ rscf:
 
 Yes. Paste the following over the incorrect placeholder.
 
----
-title: AMOS Control Plane Map
-artifact_id: "AMOS_OS/03_CONTROL_PLANE/00_INDEX/CONTROL_PLANE_MAP.md"
-origin_architect: "Trang Phan"
-artifact_class: "CONTROL_PLANE_INDEX"
-status: "STRUCTURAL_CONTRACT / PARTIALLY_VALIDATED"
-epistemic_class: "DERIVED"
-canon_status: "PROVISIONAL_UNTIL_SOURCE_RECONCILIATION"
-scope: "AMOS OS control-plane routing, authority, validation, commit, provenance, recovery, and governance boundaries"
----
+______________________________________________________________________
+
+## title: AMOS Control Plane Map artifact_id: "AMOS_OS/03_CONTROL_PLANE/00_INDEX/CONTROL_PLANE_MAP.md" origin_architect: "Trang Phan" artifact_class: "CONTROL_PLANE_INDEX" status: "STRUCTURAL_CONTRACT / PARTIALLY_VALIDATED" epistemic_class: "DERIVED" canon_status: "PROVISIONAL_UNTIL_SOURCE_RECONCILIATION" scope: "AMOS OS control-plane routing, authority, validation, commit, provenance, recovery, and governance boundaries"
 
 # AMOS CONTROL PLANE MAP
 
@@ -73,9 +69,9 @@ ADDRESSABLE != VALIDATED
 UNKNOWN/GAP != PASS
 ```
 
----
+______________________________________________________________________
 
-# 1. Architectural Position
+## 1. Architectural Position
 
 The AMOS OS control plane sits between cognition/domain capability and durable system effects.
 
@@ -127,9 +123,9 @@ The control plane therefore governs **whether a proposed transition may become a
 
 It does not grant authority merely because a worker can generate an action.
 
----
+______________________________________________________________________
 
-# 2. Source / Canon References
+## 2. Source / Canon References
 
 This map should be reconciled against the latest authoritative AMOS corpus before canonical promotion.
 
@@ -165,9 +161,9 @@ SOURCE_REFERENCE != EXECUTABLE_EVIDENCE
 
 Any specific control-plane mechanism remains `DERIVED`, `MODEL`, or `UNKNOWN/GAP` unless independently tied to authoritative source or executable implementation evidence.
 
----
+______________________________________________________________________
 
-# 3. Control Plane Definition
+## 3. Control Plane Definition
 
 The **AMOS Control Plane** is the governance layer responsible for determining whether proposed operations, state transitions, information flows, and durable effects satisfy the applicable AMOS contracts before they are admitted or committed.
 
@@ -188,9 +184,9 @@ Workers own bounded cognition or domain computation.
 
 This separation is mandatory.
 
----
+______________________________________________________________________
 
-# 4. Primary Control-Plane Responsibilities
+## 4. Primary Control-Plane Responsibilities
 
 The control plane SHOULD cover the following functional classes.
 
@@ -212,9 +208,9 @@ The control plane SHOULD cover the following functional classes.
 | Finality               | Determine when a transition is authoritative enough to expose downstream |
 | Evolution governance   | Prevent optimization or mutation from weakening invariants               |
 
----
+______________________________________________________________________
 
-# 5. Typed Inputs
+## 5. Typed Inputs
 
 The control plane may receive typed objects such as:
 
@@ -243,9 +239,9 @@ No field should be assumed valid merely because it is present.
 PRESENT != VALID
 ```
 
----
+______________________________________________________________________
 
-# 6. Typed Outputs
+## 6. Typed Outputs
 
 A control-plane evaluation SHOULD return an explicit typed disposition.
 
@@ -296,9 +292,9 @@ ControlPlaneDecision:
   confidence_ceiling: number
 ```
 
----
+______________________________________________________________________
 
-# 7. Core State Variables
+## 7. Core State Variables
 
 At minimum, the conceptual control-plane state requires variables equivalent to:
 
@@ -328,9 +324,9 @@ CP_t = <T,S,P,E,V,D,C,A,R,F,X,G,Q,K,Y>
 
 This is an AMOS structural model unless a source artifact defines a canonical equation.
 
----
+______________________________________________________________________
 
-# 8. Fundamental Operators
+## 8. Fundamental Operators
 
 The control-plane operator family may include:
 
@@ -367,9 +363,9 @@ Operators are architectural interfaces.
 
 Their presence in this map does not establish executable implementation.
 
----
+______________________________________________________________________
 
-# 9. Governing Invariants
+## 9. Governing Invariants
 
 ## CP-I01 — Capability / Authority Separation
 
@@ -379,7 +375,7 @@ can_generate(action) ≠ authorized(action)
 
 A worker's ability to produce a proposal never establishes permission to execute it.
 
----
+______________________________________________________________________
 
 ## CP-I02 — Proposal / Commit Separation
 
@@ -389,13 +385,13 @@ PROPOSAL != COMMIT
 
 No proposal becomes durable solely because it passed cognitive generation.
 
----
+______________________________________________________________________
 
 ## CP-I03 — Evidence / Authority Separation
 
 Strong evidence for an action does not itself grant authority to perform the action.
 
----
+______________________________________________________________________
 
 ## CP-I04 — Validation / Commit Separation
 
@@ -403,13 +399,13 @@ Earlier validation does not eliminate commit-time validation.
 
 Mutable dependencies may change between evaluation and effect.
 
----
+______________________________________________________________________
 
 ## CP-I05 — Freshness Requirement
 
 Authority, evidence, constraints and state that can change must be revalidated within their applicable freshness envelope.
 
----
+______________________________________________________________________
 
 ## CP-I06 — Typed State
 
@@ -417,19 +413,19 @@ State crossing the control-plane boundary must have an interpretable type and sc
 
 Unknown incompatible state must not be silently coerced.
 
----
+______________________________________________________________________
 
 ## CP-I07 — Provenance Preservation
 
 Decision-relevant transformations must preserve sufficient ancestry to determine where the resulting state originated.
 
----
+______________________________________________________________________
 
 ## CP-I08 — Dependency Visibility
 
 A derived conclusion or action must remain connected to its load-bearing premises.
 
----
+______________________________________________________________________
 
 ## CP-I09 — Selective Invalidation
 
@@ -447,7 +443,7 @@ invalidate(all_state)
 
 unless the dependency graph establishes global contamination.
 
----
+______________________________________________________________________
 
 ## CP-I10 — Confidence Ceiling
 
@@ -460,13 +456,13 @@ confidence(derived)
 
 unless independent evidence genuinely revalidates the conclusion.
 
----
+______________________________________________________________________
 
 ## CP-I11 — Correlated Evidence Does Not Multiply Authority
 
 Multiple artifacts descended from the same origin must not automatically be counted as independent confirmation.
 
----
+______________________________________________________________________
 
 ## CP-I12 — Unknown Fails Closed Where Required
 
@@ -476,7 +472,7 @@ UNKNOWN/GAP != PASS
 
 For authority, safety, irreversible effects, and mandatory invariants, unresolved critical uncertainty prevents commit.
 
----
+______________________________________________________________________
 
 ## CP-I13 — Conflict Visibility
 
@@ -484,13 +480,13 @@ Contradictory valid evidence must remain visible as conflict or `COMPETING`.
 
 The control plane must not manufacture convergence for convenience.
 
----
+______________________________________________________________________
 
 ## CP-I14 — Scope Preservation
 
 Validation under one scope or regime does not automatically transfer to another.
 
----
+______________________________________________________________________
 
 ## CP-I15 — Optimization Cannot Weaken Governance
 
@@ -504,9 +500,9 @@ No performance optimization may silently bypass:
 - rollback requirements;
 - commit-time validation.
 
----
+______________________________________________________________________
 
-# 10. Control-Plane Functional Map
+## 10. Control-Plane Functional Map
 
 ```text
 03_CONTROL_PLANE
@@ -545,9 +541,9 @@ No performance optimization may silently bypass:
 
 **Important:** the exact folder names beyond those independently verified in the repository/Drive tree must be reconciled against the authoritative filesystem manifest. This hierarchy is therefore a **structural mapping model**, not a claim that every listed folder currently exists.
 
----
+______________________________________________________________________
 
-# 11. Task Contract Plane
+## 11. Task Contract Plane
 
 The task contract defines what the system is actually authorized and expected to solve.
 
@@ -574,9 +570,9 @@ Invariant:
 execution_scope ⊆ authorized_task_scope
 ```
 
----
+______________________________________________________________________
 
-# 12. State Governance Plane
+## 12. State Governance Plane
 
 The state-governance layer determines which state is authoritative enough to support subsequent operations.
 
@@ -595,9 +591,9 @@ COMMITTED_STATE
 
 These classes must not collapse into one generic "state."
 
----
+______________________________________________________________________
 
-# 13. Evidence and Provenance Plane
+## 13. Evidence and Provenance Plane
 
 Evidence governance determines whether a claim is adequately supported.
 
@@ -633,9 +629,9 @@ EvidenceRecord:
   confidence: number | null
 ```
 
----
+______________________________________________________________________
 
-# 14. Authority Plane
+## 14. Authority Plane
 
 Authority must be explicit.
 
@@ -669,9 +665,9 @@ effect
 
 Authorization for one effect does not imply authorization for another.
 
----
+______________________________________________________________________
 
-# 15. Constraint Plane
+## 15. Constraint Plane
 
 Constraints may include:
 
@@ -702,9 +698,9 @@ admissible(P)
 
 This is a structural equation, not an empirical law.
 
----
+______________________________________________________________________
 
-# 16. Transaction Plane
+## 16. Transaction Plane
 
 Operations affecting multiple dependent state objects should be treated as transactions where partial application would create inconsistency.
 
@@ -739,9 +735,9 @@ VALIDATE / REVALIDATE
    ABORT     REPAIR
 ```
 
----
+______________________________________________________________________
 
-# 17. Commit-Time Gate
+## 17. Commit-Time Gate
 
 Commit eligibility should conceptually require:
 
@@ -779,9 +775,9 @@ COMMITTED
 
 Actual durable commit remains a distinct transition.
 
----
+______________________________________________________________________
 
-# 18. MVCC / CAS Conceptual Boundary
+## 18. MVCC / CAS Conceptual Boundary
 
 Where mutable shared state exists, AMOS control-plane reasoning should preserve the distinction between:
 
@@ -805,9 +801,9 @@ or an equivalent conflict-safe rule.
 
 This is an AMOS control principle, not a claim that every deployment literally uses a database CAS primitive.
 
----
+______________________________________________________________________
 
-# 19. Causal Epoch / Finality Boundary
+## 19. Causal Epoch / Finality Boundary
 
 Where conclusions or effects depend on evolving causal state, finalization must not occur before the required dependency closure is stable enough for the applicable transaction.
 
@@ -826,9 +822,9 @@ Finality is scoped.
 LOCAL_FINALITY != UNIVERSAL_FINALITY
 ```
 
----
+______________________________________________________________________
 
-# 20. Information Boundary Plane
+## 20. Information Boundary Plane
 
 Information movement must be treated as a governed effect.
 
@@ -855,9 +851,9 @@ CAN_READ != CAN_DISCLOSE
 
 Derived information must retain semantic-origin lineage when that lineage affects governance.
 
----
+______________________________________________________________________
 
-# 21. Observability Plane
+## 21. Observability Plane
 
 The control plane requires sufficient observability to determine what happened.
 
@@ -892,9 +888,9 @@ It does not replace governance.
 LOGGED != AUTHORIZED
 ```
 
----
+______________________________________________________________________
 
-# 22. Replay Plane
+## 22. Replay Plane
 
 Replay should allow a prior decision path to be reconstructed from preserved inputs, state references, dependencies and policy versions where feasible.
 
@@ -909,9 +905,9 @@ NON_REPLAYABLE
 
 A replay divergence is itself evidence requiring investigation.
 
----
+______________________________________________________________________
 
-# 23. Repair / Recovery Plane
+## 23. Repair / Recovery Plane
 
 When a validation failure occurs:
 
@@ -943,9 +939,9 @@ smallest-valid-invalidation-set
 
 subject to evidence that contamination is actually localizable.
 
----
+______________________________________________________________________
 
-# 24. Quarantine
+## 24. Quarantine
 
 Quarantine is required when an object cannot safely be promoted or rejected immediately.
 
@@ -971,9 +967,9 @@ PRESERVE_FOR_REVIEW
 
 It does not necessarily mean deletion.
 
----
+______________________________________________________________________
 
-# 25. H / M / L Applicability
+## 25. H / M / L Applicability
 
 The control plane applies recursively across AMOS scales.
 
@@ -1021,9 +1017,9 @@ M cannot override H hard constraints
 
 unless a formally defined higher-authority supersession mechanism explicitly permits the transition.
 
----
+______________________________________________________________________
 
-# 26. Agent Boundary
+## 26. Agent Boundary
 
 Agents operate **under** control-plane governance.
 
@@ -1059,9 +1055,9 @@ repair candidate
 
 The control plane determines whether that output may influence authoritative state.
 
----
+______________________________________________________________________
 
-# 27. Skill Boundary
+## 27. Skill Boundary
 
 Skills expose bounded capability.
 
@@ -1092,9 +1088,9 @@ Invariant:
 SkillCapability ⊄ Authority
 ```
 
----
+______________________________________________________________________
 
-# 28. Workflow Boundary
+## 28. Workflow Boundary
 
 A governed workflow should conceptually follow:
 
@@ -1122,9 +1118,9 @@ COMMIT | HOLD | REJECT | REPAIR | ESCALATE
 OBSERVABILITY + PROVENANCE UPDATE
 ```
 
----
+______________________________________________________________________
 
-# 29. Protocol Boundary
+## 29. Protocol Boundary
 
 Cross-component communication should use typed protocol objects rather than relying solely on free-form natural language.
 
@@ -1150,9 +1146,9 @@ ProposalEnvelope:
 
 The exact schema remains subject to canonical source recovery and implementation design.
 
----
+______________________________________________________________________
 
-# 30. Dependency Map
+## 30. Dependency Map
 
 Conceptually:
 
@@ -1188,31 +1184,31 @@ PROVENANCE      CONSTRAINTS
                  STATE
 ```
 
----
+______________________________________________________________________
 
-# 31. Control-Plane Requirements
+## 31. Control-Plane Requirements
 
 A conforming control-plane implementation should demonstrate, at minimum:
 
 1. explicit state distinction;
-2. typed proposal/effect representation;
-3. evidence binding;
-4. provenance preservation;
-5. constraint enforcement;
-6. authority verification;
-7. freshness checks;
-8. conflict detection;
-9. dependency tracking;
-10. commit-time revalidation;
-11. rollback or abort capability where required;
-12. selective invalidation;
-13. observability;
-14. deterministic validation where deterministic claims are made;
-15. fail-closed behavior for critical unknowns.
+1. typed proposal/effect representation;
+1. evidence binding;
+1. provenance preservation;
+1. constraint enforcement;
+1. authority verification;
+1. freshness checks;
+1. conflict detection;
+1. dependency tracking;
+1. commit-time revalidation;
+1. rollback or abort capability where required;
+1. selective invalidation;
+1. observability;
+1. deterministic validation where deterministic claims are made;
+1. fail-closed behavior for critical unknowns.
 
----
+______________________________________________________________________
 
-# 32. Evidence / Provenance Requirements
+## 32. Evidence / Provenance Requirements
 
 Any claim that a specific control-plane function is implemented should identify:
 
@@ -1243,9 +1239,9 @@ implemented
 
 remains `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
-# 33. Uncertainty Vector
+## 33. Uncertainty Vector
 
 Control-plane conclusions may carry:
 
@@ -1262,9 +1258,9 @@ uncertainty:
 
 A single scalar confidence value must not conceal materially different uncertainty classes where those distinctions affect governance.
 
----
+______________________________________________________________________
 
-# 34. Confidence Ceiling
+## 34. Confidence Ceiling
 
 The control-plane map itself should retain a conservative confidence ceiling until source reconciliation is complete.
 
@@ -1282,9 +1278,9 @@ Interpretation:
 - not proof of runtime implementation;
 - exact package names, schemas and operator names require source reconciliation.
 
----
+______________________________________________________________________
 
-# 35. Failure Modes
+## 35. Failure Modes
 
 ## FM-01 — Capability Escalation
 
@@ -1296,87 +1292,87 @@ Result:
 unauthorized effect
 ```
 
----
+______________________________________________________________________
 
 ## FM-02 — Proposal Auto-Commit
 
 Generated output bypasses validation.
 
----
+______________________________________________________________________
 
 ## FM-03 — Stale Validation
 
 State changes after validation but before commit.
 
----
+______________________________________________________________________
 
 ## FM-04 — Provenance Collapse
 
 Derived evidence loses ancestry and appears independently authoritative.
 
----
+______________________________________________________________________
 
 ## FM-05 — Sybil Evidence
 
 Multiple descendants of one source are counted as independent confirmation.
 
----
+______________________________________________________________________
 
 ## FM-06 — Scope Leakage
 
 Validation from one regime is applied outside its valid envelope.
 
----
+______________________________________________________________________
 
 ## FM-07 — Hidden Conflict
 
 Contradictory evidence is silently averaged or discarded.
 
----
+______________________________________________________________________
 
 ## FM-08 — Partial Transaction
 
 Only part of a logically atomic transition commits.
 
----
+______________________________________________________________________
 
 ## FM-09 — Authority Drift
 
 Previously valid authority expires or is revoked but remains cached as valid.
 
----
+______________________________________________________________________
 
 ## FM-10 — Over-Broad Rollback
 
 One local failure causes unnecessary destruction of unaffected valid state.
 
----
+______________________________________________________________________
 
 ## FM-11 — Under-Broad Invalidation
 
 A corrupted premise is removed while dependent conclusions remain active.
 
----
+______________________________________________________________________
 
 ## FM-12 — Observability Gap
 
 A committed effect cannot be traced to proposal, authority, evidence and state.
 
----
+______________________________________________________________________
 
 ## FM-13 — Governance Bypass Optimization
 
 Latency or throughput optimization removes required validation.
 
----
+______________________________________________________________________
 
 ## FM-14 — Placeholder Promotion
 
 A structurally addressable control-plane artifact is mistaken for implemented or validated functionality.
 
----
+______________________________________________________________________
 
-# 36. Repair / Recovery
+## 36. Repair / Recovery
 
 Repair follows dependency-aware recovery.
 
@@ -1402,9 +1398,9 @@ COMMIT / ABORT
 
 Repair must not erase evidence of the failure merely to restore apparent consistency.
 
----
+______________________________________________________________________
 
-# 37. Validators
+## 37. Validators
 
 A mature implementation should provide validators for at least:
 
@@ -1428,9 +1424,9 @@ rollback integrity
 replay consistency
 ```
 
----
+______________________________________________________________________
 
-# 38. Required Tests
+## 38. Required Tests
 
 ## T01 — Proposal Does Not Auto-Commit
 
@@ -1442,7 +1438,7 @@ expected = REJECT or HOLD
 
 never `COMMITTED`.
 
----
+______________________________________________________________________
 
 ## T02 — Missing Evidence
 
@@ -1452,7 +1448,7 @@ A proposal requiring evidence with an empty evidence bundle:
 expected != PASS
 ```
 
----
+______________________________________________________________________
 
 ## T03 — Unknown Authority
 
@@ -1462,25 +1458,25 @@ authority = UNKNOWN
 
 for an authority-required effect must prevent commit.
 
----
+______________________________________________________________________
 
 ## T04 — Revoked Authority
 
 Authority valid during planning but revoked before commit must fail commit-time revalidation.
 
----
+______________________________________________________________________
 
 ## T05 — Stale State
 
 A changed authoritative version after the worker read must trigger conflict handling.
 
----
+______________________________________________________________________
 
 ## T06 — Correlated Provenance
 
 Five evidence objects descending from one source must not automatically be treated as five independent sources.
 
----
+______________________________________________________________________
 
 ## T07 — Dependency Invalidation
 
@@ -1499,25 +1495,25 @@ C2
 
 while preserving unrelated `C3`.
 
----
+______________________________________________________________________
 
 ## T08 — Regime Shift
 
 Evidence valid only in regime `R1` must not silently authorize a conclusion in incompatible `R2`.
 
----
+______________________________________________________________________
 
 ## T09 — Partial Commit Prevention
 
 A failed component of an atomic transition must not leave an unauthorized partial durable state.
 
----
+______________________________________________________________________
 
 ## T10 — Replay
 
 A replay using identical authoritative inputs and deterministic validation rules should reproduce the same validation decision, subject to explicitly modeled external state.
 
----
+______________________________________________________________________
 
 ## T11 — Placeholder Boundary
 
@@ -1529,15 +1525,15 @@ UNKNOWN/GAP
 
 for implementation status.
 
----
+______________________________________________________________________
 
 ## T12 — Optimization Anti-Regression
 
 A faster execution path must fail validation if it bypasses a mandatory governance check.
 
----
+______________________________________________________________________
 
-# 39. Falsifiers
+## 39. Falsifiers
 
 The following would falsify or materially weaken this map:
 
@@ -1564,9 +1560,9 @@ identify affected claims
 → supersede with provenance
 ```
 
----
+______________________________________________________________________
 
-# 40. Data Plane / Cognition Plane Separation
+## 40. Data Plane / Cognition Plane Separation
 
 AMOS should preserve:
 
@@ -1586,9 +1582,9 @@ OBSERVABILITY PLANE
 
 These may interact but must not be conceptually collapsed.
 
----
+______________________________________________________________________
 
-# 41. Decision Classes
+## 41. Decision Classes
 
 Control-plane outputs should use the weakest accurate epistemic class:
 
@@ -1620,9 +1616,9 @@ Therefore:
 epistemic_class != operational_state
 ```
 
----
+______________________________________________________________________
 
-# 42. Governance Boundary
+## 42. Governance Boundary
 
 No control-plane artifact may silently grant itself authority.
 
@@ -1643,9 +1639,9 @@ version
 provenance
 ```
 
----
+______________________________________________________________________
 
-# 43. Supersession
+## 43. Supersession
 
 This map must participate in explicit version lineage.
 
@@ -1659,9 +1655,9 @@ supersession:
 
 The previous placeholder should remain discoverable through repository/Drive revision history or another governed provenance mechanism rather than being treated as though it never existed.
 
----
+______________________________________________________________________
 
-# 44. Current Gap Matrix
+## 44. Current Gap Matrix
 
 | Area                         | Status   | Gap                                                  |
 | ---------------------------- | -------- | ---------------------------------------------------- |
@@ -1686,9 +1682,9 @@ The previous placeholder should remain discoverable through repository/Drive rev
 | Recovery                     | DERIVED  | Executed recovery tests needed                       |
 | Tests                        | PROPOSED | Execution evidence required                          |
 
----
+______________________________________________________________________
 
-# 45. Promotion Requirements
+## 45. Promotion Requirements
 
 This artifact must not be promoted to fully validated canon until the following are resolved:
 
@@ -1707,9 +1703,9 @@ This artifact must not be promoted to fully validated canon until the following 
 - executed test evidence;
 - supersession lineage.
 
----
+______________________________________________________________________
 
-# 46. RSCF Capsule
+## 46. RSCF Capsule
 
 ```yaml
 rscf:
@@ -1773,9 +1769,9 @@ rscf:
   confidence_ceiling: 0.70
 ```
 
----
+______________________________________________________________________
 
-# 47. Hard Boundaries
+## 47. Hard Boundaries
 
 ```text
 PLACEHOLDER != IMPLEMENTED
@@ -1801,9 +1797,9 @@ CORRELATED_SOURCES != INDEPENDENT_CONFIRMATION
 UNKNOWN/GAP != PASS
 ```
 
----
+______________________________________________________________________
 
-# 48. Current Status
+## 48. Current Status
 
 ```yaml
 artifact_status: STRUCTURAL_CONTRACT
@@ -1817,9 +1813,9 @@ claim_class: DERIVED
 confidence_ceiling: 0.70
 ```
 
----
+______________________________________________________________________
 
-# 49. Final Contract
+## 49. Final Contract
 
 `CONTROL_PLANE_MAP.md` establishes the AMOS OS control-plane boundary as the governed transition layer between **what cognition can propose** and **what the system may authoritatively commit**.
 
@@ -1869,30 +1865,36 @@ Until the remaining source, schema, implementation, and executed-test gaps are c
 This version is suitable as the **replacement content** for `03_CONTROL_PLANE/00_INDEX/CONTROL_PLANE_MAP.md`; importantly, it preserves the unresolved implementation/canon gaps instead of promoting the old placeholder directly to `VERIFIED`.
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: control_plane_map
 node_type: note
 path: 03_CONTROL_PLANE/00_INDEX/CONTROL_PLANE_MAP.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
+
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
 ## Related MOCs
 
 - [[00_ROOT/AMOS_LAYER_MAPS|AMOS_LAYER_MAPS]] — top-level AMOS layer map index
 - [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] — AMOS OS master map
 - [[00_ROOT/00_HOME|00_HOME]] — universal vault hub
 
----
+______________________________________________________________________
+
 **MOC:** [[03_CONTROL_PLANE/00_INDEX/INDEX_CONTROL_PLANE_README|INDEX_CONTROL_PLANE_README]]
 
----
+______________________________________________________________________
+
 **MOC:** [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]]

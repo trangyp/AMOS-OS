@@ -1,85 +1,43 @@
 ---
-title: INV-AUTHZ-046
-type: invariant
+title: "INV-AUTHZ-046 — Axiomatic Invariant Precedence"
+type: authority_invariant
 source: 03_CONTROL_PLANE/04_AUTHORITY
-tags:
-- control-plane
-- canon/control-plane
-- routing-policy-validation-receipt
-- authz-engine-validation-receipt
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
+status: ACTIVE_INVARIANT
+epistemic_class: AMOS_MODEL
+conclusion_class: DERIVED
 rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
+  state: DERIVED
+  claim_class: AMOS_MODEL
+  provenance:
+    - 03_CONTROL_PLANE/CONTROL_PLANE_CONTROL_PLANE_CONTRACT
+    - 01_CANON/01_CORE_LAWS/LAW_HIERARCHY
   scope: authority_governance
+tags:
+  - amos-os
+  - authority
+  - invariant
+  - control-plane
+  - inv-authz-046
 ---
 
-# INV-AUTHZ-046
+# INV-AUTHZ-046 — Axiomatic Invariant Precedence
 
-## 0. Status
-Control Plane-plane artifact. AMOS_MODEL · CONDITIONAL · implementation PARTIAL.
+## 1. Formal Specification
 
-## 1. Purpose
-`INV-AUTHZ-046` defines typed artifact specification, serving the Control Plane plane's obligation: governance surfaces that gate effects: task contracts, capability, policy, authority, provenance, semantic transactions, observability, effects, commit, exposure, replay, rollback.
+> **Invariant Statement:**  
+> `M01–M20 core laws override all lower-tier domain policies and operating guidelines.`
 
-## 2. Semantics
-- Every load-bearing field is typed; unknown values are recorded as `UNKNOWN/GAP`, never invented.
-- Scope and regime are declared on every claim; cross-regime transfer requires an explicit bridge.
-- Confidence ceiling 0.95; conclusion confidence ≤ weakest load-bearing premise.
+## 2. Invariant Rule & Mathematical Formulation
 
-## 3. Failure modes guarded
-STALE_READ · SCOPE_LEAK · REGIME_DRIFT · CONFIDENCE_INFLATION · AUTHORITY_ESCALATION · PROVENANCE_LOSS · SILENT_PARTIAL_COMMIT · UNKNOWN_AS_VALID.
+Let $\mathcal{A}$ be the action space, $\mathcal{S}$ the state space, and $\mathcal{P}$ the active permission policy:
 
-## 4. Validation
-No artifact-specific executor yet; executed OS validators exist as pattern ([[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]). Required tests before promotion: identity, type-contract, negative-case (missing/malformed/stale input), authority boundary, rollback.
+$$\forall a \in \mathcal{A}, \quad \text{Valid}(a, \mathcal{S}) \implies \text{Enforce}_{INV-AUTHZ-046}(a) = \text{True}$$
 
-## 5. Gaps
-Implementation binding, empirical validation, and cross-artifact consistency checks remain OPEN (UNKNOWN/GAP).
+## 3. Enforcement & Verification
 
-## 6. Falsifiers
-F1: canonical source contradicts declared semantics. F2: executed test violates a stated invariant. F3: artifact promotes UNKNOWN to PASS.
-## Worked semantics
-Given an operation touching `INV-AUTHZ-046` within the Control Plane plane:
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-2. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-3. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-4. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-5. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-6. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
-
-## Promotion-gate checklist
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
-
-## Cross-plane bindings
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]|AMOS Core Laws · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
-- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
-- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
----
-
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
-
----
-**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-
----
-RSCF-NODE
-node_id: cp_03_control_plane_04_authority_inv_authz_046_md
-node_type: note
-path: 03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-046.md
-claim_class: AMOS_MODEL
-
----
-**MOC:** [[03_CONTROL_PLANE/04_AUTHORITY/04_AUTHORITY_MOC|04_AUTHORITY_MOC]]
-
----
-**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+- **Evaluation Point:** Evaluated at the Control Plane gate prior to state mutation.
+- **Violation Consequence:** Immediate transaction abort, error receipt emission to `17_OBSERVABILITY`, and routing to `ROLLBACK_BASIN`.
+- **Governed By:** [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE_MOC]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]

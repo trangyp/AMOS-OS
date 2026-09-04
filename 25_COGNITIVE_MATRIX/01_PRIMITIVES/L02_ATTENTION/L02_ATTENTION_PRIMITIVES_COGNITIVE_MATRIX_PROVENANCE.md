@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: L02 ATTENTION PRIMITIVES COGNITIVE MATRIX PROVENANCE
 type: provenance
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION
 tags:
-- cognitive-matrix
-- primitives
-- matrix/l02-attention
-- note
-- domain/cognitive-matrix
+  - cognitive-matrix
+  - primitives
+  - matrix/l02-attention
+  - note
+  - domain/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -52,7 +55,7 @@ not
 recovered canonical L02 provenance implementation
 ```
 
----
+______________________________________________________________________
 
 ## 1. Definition and Scope
 
@@ -60,13 +63,11 @@ recovered canonical L02 provenance implementation
 
 Conceptually:
 
-[
-Prov_{L02}(x)
-=============
+## \[ Prov\_{L02}(x)
 
 (origin, ancestry, transformations, evidence, scope,
 regime, time, HML, authority, dependencies, status)
-]
+\]
 
 where `x` may be:
 
@@ -100,7 +101,7 @@ SOURCE IDENTITY != SOURCE INDEPENDENCE
 MULTIPLE REFERENCES != MULTIPLE ORIGINS
 ```
 
----
+______________________________________________________________________
 
 ## 2. Typed Inputs
 
@@ -158,7 +159,7 @@ ProvenanceInput:
     type: ConfidenceBound
 ```
 
----
+______________________________________________________________________
 
 ## 3. Typed Outputs
 
@@ -209,7 +210,7 @@ ProvenanceRecord:
       - UNKNOWN_GAP
 ```
 
----
+______________________________________________________________________
 
 ## 4. State Variables
 
@@ -249,7 +250,7 @@ ProvenanceNode:
   confidence_ceiling: 0
 ```
 
----
+______________________________________________________________________
 
 ## 5. Operators
 
@@ -283,7 +284,7 @@ SUPERSEDE()
 REPAIR_LINEAGE()
 ```
 
----
+______________________________________________________________________
 
 ## 6. Core Provenance Invariants
 
@@ -361,23 +362,23 @@ L02-PROV-INV-024
 MODEL-derived provenance cannot be relabelled CANON without source evidence.
 ```
 
----
+______________________________________________________________________
 
 ## 7. Independence / Sybil Hardening
 
 For evidence items:
 
-[
-E_1,E_2,\ldots,E_n
-]
+\[
+E_1,E_2,\\ldots,E_n
+\]
 
 the count of references must be distinguished from the count of independent origins:
 
-[
-N_{independent}
-\leq
-N_{references}
-]
+\[
+N\_{independent}
+\\leq
+N\_{references}
+\]
 
 Example:
 
@@ -398,7 +399,7 @@ because all three may descend from `S`.
 
 L02 attention allocation should therefore avoid giving additional epistemic weight merely because the same semantic origin appears repeatedly.
 
----
+______________________________________________________________________
 
 ## 8. Semantic-Origin Resolution
 
@@ -432,18 +433,16 @@ may represent several artifacts but one load-bearing semantic origin.
 
 Candidate relation:
 
-[
-Origin(summary)
-===============
+## \[ Origin(summary)
 
-# Origin(RSCF)
+## Origin(RSCF)
 
 Origin(skill_claim)
-]
+\]
 
 where all are faithful descendants of the same original claim.
 
----
+______________________________________________________________________
 
 ## 9. Dependency Provenance
 
@@ -461,11 +460,11 @@ Allocation Proposal
 
 If observation `O` is invalidated:
 
-[
+\[
 Invalid(O)
-\Rightarrow
+\\Rightarrow
 Invalidate(Descendants(O))
-]
+\]
 
 but:
 
@@ -479,7 +478,7 @@ must not automatically be invalidated.
 
 This implements selective rather than global rollback.
 
----
+______________________________________________________________________
 
 ## 10. Scope Provenance
 
@@ -507,7 +506,7 @@ SOURCE VALID IN SCOPE B
 
 without transfer evidence.
 
----
+______________________________________________________________________
 
 ## 11. Regime Provenance
 
@@ -531,7 +530,7 @@ historically valid
 currently applicable
 ```
 
----
+______________________________________________________________________
 
 ## 12. Temporal Provenance
 
@@ -562,7 +561,7 @@ TemporalProvenance:
 
 These timestamps must not be silently collapsed.
 
----
+______________________________________________________________________
 
 ## 13. H/M/L Provenance
 
@@ -613,7 +612,7 @@ L observation
 
 The H-level synthesis must not erase the L/M evidence chain.
 
----
+______________________________________________________________________
 
 ## 14. Provenance Across Compression
 
@@ -648,7 +647,7 @@ Compression may remove noncritical detail.
 
 It may not remove load-bearing provenance.
 
----
+______________________________________________________________________
 
 ## 15. Control-Plane Requirements
 
@@ -684,7 +683,7 @@ L02 may propose provenance-bearing state.
 
 It must not self-create authority merely because provenance exists.
 
----
+______________________________________________________________________
 
 ## 16. Agents
 
@@ -704,7 +703,7 @@ L02_PROVENANCE_REPAIR_AGENT
 
 These are `AMOS_MODEL` roles, not proof of implemented autonomous agents.
 
----
+______________________________________________________________________
 
 ## 17. Skills
 
@@ -735,7 +734,7 @@ not:
 AUTHORITY GRANTED
 ```
 
----
+______________________________________________________________________
 
 ## 18. Workflow
 
@@ -771,7 +770,7 @@ ADMIT / QUARANTINE / REVALIDATE / REJECT
 PRESERVE LINEAGE
 ```
 
----
+______________________________________________________________________
 
 ## 19. Protocols
 
@@ -796,7 +795,7 @@ PROVENANCE_NACK
 
 These remain `AMOS_MODEL` pending canonical recovery.
 
----
+______________________________________________________________________
 
 ## 20. Evidence Classes
 
@@ -841,17 +840,17 @@ UNKNOWN/GAP
 
 No transformation may silently upgrade these classes.
 
----
+______________________________________________________________________
 
 ## 21. Confidence Ceiling
 
 Candidate rule:
 
-[
-C_{derived}
-\le
-\min(C_{load-bearing})
-]
+\[
+C\_{derived}
+\\le
+\\min(C\_{load-bearing})
+\]
 
 unless the conclusion has genuinely independent revalidation.
 
@@ -872,7 +871,7 @@ uncertainty:
 
 Overall confidence must be bounded by material unresolved uncertainty.
 
----
+______________________________________________________________________
 
 ## 22. Failure Modes
 
@@ -904,7 +903,7 @@ FM-L02-PROV-024   Stale Provenance Reuse
 FM-L02-PROV-025   Model Provenance Reported as Canon
 ```
 
----
+______________________________________________________________________
 
 ## 23. Repair / Recovery
 
@@ -936,7 +935,7 @@ RESUME / QUARANTINE / INVALIDATE
 
 No failed path should be retried without changed evidence or corrected lineage.
 
----
+______________________________________________________________________
 
 ## 24. Tests / Validators
 
@@ -1002,7 +1001,7 @@ TEST-L02-PROV-020
 Missing provenance cannot return PASS.
 ```
 
----
+______________________________________________________________________
 
 ## 25. Adversarial Validators
 
@@ -1027,7 +1026,7 @@ fabricated independence
 confidence inflation
 ```
 
----
+______________________________________________________________________
 
 ## 26. Falsifiers
 
@@ -1051,7 +1050,7 @@ canonical source-independence rules differ;
 or runtime behavior materially contradicts this MODEL.
 ```
 
----
+______________________________________________________________________
 
 ## 27. Gap Matrix
 
@@ -1122,7 +1121,7 @@ gap_status:
     status: UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
 ## 28. RSCF Completion State
 
@@ -1230,22 +1229,26 @@ IMPLEMENTED != VALIDATED
 
 **Conclusion class: `MODEL`.** The provenance contract is structurally specified, but canonical L02 provenance semantics, executable implementation, and executed validation remain `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: l02_attention_primitives_cognitive_matrix_provenance
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION/L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_PROVENANCE.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION/L02_ATTENTION_MOC|L02_ATTENTION_MOC]]

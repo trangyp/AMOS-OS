@@ -1,17 +1,20 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: 03 Causal MOC
 type: moc
 source: 02_KERNEL/03_CAUSAL
 tags:
-- 03-causal
-- canon/kernel
-- k-biological-causality
-- k-causal-closure
-- k-causal-epoch
-- k-causal-hierarchy
-- k-cross-scale-causality
-- k-quantum-causality
-- k-reality-causality
+  - 03-causal
+  - canon/kernel
+  - k-biological-causality
+  - k-causal-closure
+  - k-causal-epoch
+  - k-causal-hierarchy
+  - k-cross-scale-causality
+  - k-quantum-causality
+  - k-reality-causality
 moc: true
 rscf:
   state: DERIVED
@@ -41,5 +44,6 @@ rscf:
 
 - [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]] — 00_INDEX
 
----
+______________________________________________________________________
+
 **Parent:** [[02_KERNEL/02_KERNEL_MOC|02_KERNEL_MOC]]

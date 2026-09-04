@@ -4,25 +4,22 @@ title: SKILL — Arxiv Cdfm Causal Discovery Foundation Rscf
 type: skill
 source: 07_SKILLS/arxiv-cdfm-causal-discovery-foundation-rscf
 name: arxiv-cdfm-causal-discovery-foundation-rscf
-description: Cdfm Causal Discovery Foundation — arxiv research capability. Use when
-  arxiv research, paper analysis, or literature review. Use when amos-knowledge-research-master
-  routes to this specialized capability. Do not use for generic tasks outside arxiv
-  domain.
+description: Cdfm Causal Discovery Foundation — arxiv research capability. Use when arxiv research, paper analysis, or literature review. Use when amos-knowledge-research-master routes to this specialized capability. Do not use for generic tasks outside arxiv domain.
 parent_skill: amos-knowledge-research-master
 domain: arxiv
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
 tags:
-- type/skill
-- type/skill
-- domain/knowledge-research
-- epistemic/source_claim
-- hml/m
-- epistemic/source_claim
-- amos-os
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/knowledge-research
+  - epistemic/source_claim
+  - hml/m
+  - epistemic/source_claim
+  - amos-os
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -32,20 +29,20 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: M
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L16
-- L17
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L16
+  - L17
 license: MIT
 steward: Trang Phan
 ---
@@ -55,6 +52,7 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: arxiv. Parent: amos-knowledge-research-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
 ## When to Use
 
 - When arxiv research paper rscf skill for arxiv: cdfm causal discovery foundation rscf is needed within the arxiv domain
@@ -77,12 +75,12 @@ Origin architect: **Trang Phan**. Domain: arxiv. Parent: amos-knowledge-research
 ## Operations
 
 1. **cdfm_causal.analyze_paper**: Analyze arxiv papers: extract claims, methods, evidence, and limitations
-2. **cdfm_causal.classify_research**: Classify research by epistemic state: established, emerging, speculative, refuted
-3. **cdfm_causal.assess_reproducibility**: Assess reproducibility: can the results be independently verified?
-4. **cdfm_causal.trace_literature**: Trace literature chains: citations, dependencies, and influence networks
-5. **cdfm_causal.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-6. **cdfm_causal.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
-7. **cdfm_causal.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+1. **cdfm_causal.classify_research**: Classify research by epistemic state: established, emerging, speculative, refuted
+1. **cdfm_causal.assess_reproducibility**: Assess reproducibility: can the results be independently verified?
+1. **cdfm_causal.trace_literature**: Trace literature chains: citations, dependencies, and influence networks
+1. **cdfm_causal.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+1. **cdfm_causal.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+1. **cdfm_causal.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## 11_KNOWLEDGE Vault Content
 
@@ -94,18 +92,21 @@ Origin architect: **Trang Phan**. Domain: arxiv. Parent: amos-knowledge-research
 From arxiv research: Causal Discovery Foundation Models for identifying causal structure from data.
 
 **Causal discovery model**:
+
 - **Observational data**: identify causal structure from observational data (no interventions)
 - **Interventional data**: identify causal structure from interventional data (with interventions)
 - **Hybrid data**: combine observational and interventional data for better discovery
 
 **Foundation model approach**:
+
 - **Pre-training**: pre-train on large datasets to learn causal patterns
 - **Fine-tuning**: fine-tune on specific domains for better performance
 - **Transfer**: transfer causal knowledge across domains
 
 **RSCF integration**:
+
 - Causal claims are DERIVED from data, not OBSERVED
-- Confidence ceiling: causal discovery confidence <= data quality * method reliability
+- Confidence ceiling: causal discovery confidence \<= data quality * method reliability
 - Falsifier: alternative causal structures that fit the data equally well
 - Scope: causal claims valid only within the data's scope and regime
 
@@ -119,6 +120,7 @@ CDFM causal discovery is an analytical method. It does not prove causation, that
 
 Implemented the 3 remaining placeholder discovery modes in
 `AMOS_GapRegistry.py`'s `GapDiscoveryEngine` class:
+
 - **Compliance-driven**: diffs current capabilities against external requirements
 - **Contradiction-driven**: maps detected conflicts to missing resolution mechanisms
 - **Temporal**: re-verifies claims whose validity has expired
@@ -131,6 +133,7 @@ upgraded from NOT_COVERED to COVERED.
 ### 3 New Discovery Methods
 
 #### 1. `discover_compliance_driven(compliance_spec)`
+
 - **Input**: compliance spec with standard name and requirements list
 - **Each requirement**: id, description, component, current_coverage
 - **Output**: gap candidates for NOT_COVERED and PARTIALLY_COVERED requirements
@@ -138,15 +141,18 @@ upgraded from NOT_COVERED to COVERED.
 - **Provenance**: `compliance_driven:{standard}`
 
 #### 2. `discover_contradiction_driven(conflict)`
+
 - **Input**: conflict dict with type, description, component, resolution_attempted, missing_mechanism
 - **Output**: gap candidate for missing resolution mechanism
 - **Impact**: from conflict severity (default MEDIUM)
 - **Provenance**: `contradiction_driven:{conflict_type}`
 
 #### 3. `discover_temporal(expiry_report)`
+
 - **Input**:
 
----
+______________________________________________________________________
+
 **Links:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 ## Related
@@ -156,17 +162,19 @@ upgraded from NOT_COVERED to COVERED.
 ## Examples
 
 - **Scenario**: When arxiv research paper rscf skill for arxiv: cdfm causal discovery foundation rscf is needed within the arxiv domain
+
   - **Input**: A query matching this skill's domain (arxiv)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When the parent skill (`amos-knowledge-research-master`) routes to this specialized capability
+
   - **Input**: A query matching this skill's domain (arxiv)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When a query requires arxiv-specific reasoning grounded in vault sources
+
   - **Input**: A query matching this skill's domain (arxiv)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Validation Gates
 
@@ -183,7 +191,6 @@ upgraded from NOT_COVERED to COVERED.
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `amos-knowledge-research-master` — routes to this skill when arxiv specialization is needed
@@ -191,7 +198,6 @@ upgraded from NOT_COVERED to COVERED.
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -210,7 +216,6 @@ upgraded from NOT_COVERED to COVERED.
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -218,7 +223,6 @@ upgraded from NOT_COVERED to COVERED.
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -231,11 +235,12 @@ upgraded from NOT_COVERED to COVERED.
 
 - `references/cdfm_causal_spec.md` — loaded on demand
 - `references/references_MOC.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `amos-knowledge-research-master` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `arxiv-cdfm-causal-discovery-foundation-rscf-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -243,12 +248,14 @@ upgraded from NOT_COVERED to COVERED.
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: arxiv-cdfm-causal-discovery-foundation-rscf
 node_type: skill
 path: 07_SKILLS/arxiv-cdfm-causal-discovery-foundation-rscf/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

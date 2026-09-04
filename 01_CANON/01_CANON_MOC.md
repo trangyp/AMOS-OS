@@ -1,11 +1,14 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: 01 Canon MOC
 type: moc
 source: 01_CANON
 tags:
-- canon/universe
-- amos-home
-- trang-framework-recursive-ontology-dynamics
+  - canon/universe
+  - amos-home
+  - trang-framework-recursive-ontology-dynamics
 moc: true
 rscf:
   state: DERIVED
@@ -36,8 +39,10 @@ rscf:
 - [[01_CANON/07_PROVENANCE/07_PROVENANCE_MOC|07_PROVENANCE_MOC]] — 07_PROVENANCE
 - [[01_CANON/08_SUPERSESSION/08_SUPERSESSION_MOC|08_SUPERSESSION_MOC]] — 08_SUPERSESSION
 
----
-**Parent:** [[AMOS_HOME|AMOS_HOME]]
+______________________________________________________________________
 
----
+**Parent:** [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/00_HOME|00_HOME]]
+
+______________________________________________________________________
+
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

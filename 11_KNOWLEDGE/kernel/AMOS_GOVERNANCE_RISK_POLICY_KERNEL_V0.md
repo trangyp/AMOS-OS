@@ -1,16 +1,19 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: AMOS GOVERNANCE RISK POLICY KERNEL V0
 tags:
-- canon-group/human-system
-- canon/framework
-- rscf/claim
-- rscf/provenance
-- rscf/state/source-claim
-- topic/amos-governance-risk-policy-kernel-v0
-- kernel
-- system-scan-agent
-- automation-profiles
-- amos-simulation-kernel-v0-math-foundations
+  - canon-group/human-system
+  - canon/framework
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - topic/amos-governance-risk-policy-kernel-v0
+  - kernel
+  - system-scan-agent
+  - automation-profiles
+  - amos-simulation-kernel-v0-math-foundations
 type: document
 source: 11_KNOWLEDGE/kernel
 rscf:
@@ -29,7 +32,7 @@ rscf:
 **Category:** Governance_Risk
 **Source:** md/Kernels/Governance_Risk/AMOS_Governance_Risk_Policy_Kernel_v0.md
 
----
+______________________________________________________________________
 
 ## 1. Overview
 
@@ -38,6 +41,7 @@ The AMOS Governance, Risk, and Policy Kernel is a governance, risk management, a
 **Primary function:** Provide structured frameworks, analysis methods, and reasoning capabilities for governance design, risk identification and assessment, and policy analysis across organizational, institutional, and systemic contexts.
 
 **Scope:**
+
 - Governance frameworks and principles
 - Risk identification, assessment, and management
 - Policy analysis, design, and evaluation
@@ -48,7 +52,7 @@ The AMOS Governance, Risk, and Policy Kernel is a governance, risk management, a
 
 **Not in scope:** Legal advice (Legal kernel), financial analysis (Finance kernel), operational exection (Execution system), strategic analysis (Strategy kernel), or country-specific legal analysis (Unipower country packs). Those are handled by their respective kernels and agents.
 
----
+______________________________________________________________________
 
 ## 2. Sub-Kernels
 
@@ -59,6 +63,7 @@ The Governance_Risk kernel integrates multiple sub-kernels, each addressing a di
 **Purpose:** Frameworks for managing organizational and institutional change.
 
 **Key capabilities:**
+
 - Change management models (Kotter 8-step, ADKAR, McKinsey 7-S, Lewin's 3-stage, Agile change)
 - Stakeholder impact analysis
 - Resistance management
@@ -67,23 +72,25 @@ The Governance_Risk kernel integrates multiple sub-kernels, each addressing a di
 - Change measurement and reinforcement
 
 **Output structure:**
+
 1. Current state analysis
-2. Change objectives and scope
-3. Stakeholder mapping and impact analysis
-4. Change strategy selection and adaptation
-5. Implementation roadmap with milestones
-6. Risk and resistance mitigation plan
-7. Success metrics and reinforcement plan
+1. Change objectives and scope
+1. Stakeholder mapping and impact analysis
+1. Change strategy selection and adaptation
+1. Implementation roadmap with milestones
+1. Risk and resistance mitigation plan
+1. Success metrics and reinforcement plan
 
 **When to use:** Tasks involving organizational change, transformation, restructuring, process change, culture change, or any situation where the current state needs to shift to a desired future state.
 
----
+______________________________________________________________________
 
 ### 2.2 Crisis Management Kernel
 
 **Purpose:** Frameworks for managing crises, disruptions, and high-stakes urgent situations.
 
 **Key capabilities:**
+
 - Crisis typology and severity classification
 - Crisis response frameworks and activation triggers
 - Crisis communication planning
@@ -93,23 +100,25 @@ The Governance_Risk kernel integrates multiple sub-kernels, each addressing a di
 - Crisis preparedness and planning
 
 **Output structure:**
+
 1. Crisis classification and severity assessment
-2. Immediate response priorities and actions
-3. Stakeholder impact and notification matrix
-4. Crisis communication plan
-5. Resource and coordination requirements
-6. Recovery pathway
-7. Post-crisis learning and improvement
+1. Immediate response priorities and actions
+1. Stakeholder impact and notification matrix
+1. Crisis communication plan
+1. Resource and coordination requirements
+1. Recovery pathway
+1. Post-crisis learning and improvement
 
 **When to use:** Tasks involving crisis scenarios, emergency response, disruption management, high-stakes urgent decision-making, or post-crisis review and learning.
 
----
+______________________________________________________________________
 
 ### 2.3 Governance Economy Kernel
 
 **Purpose:** Analysis of governance from an economic and institutional perspective — how governance structures create, allocate, and govern value, incentives, and power.
 
 **Key capabilities:**
+
 - Governance economy mapping: value creation, capture, and distribution
 - Incentive structure analysis
 - Power dynamics and governance
@@ -118,22 +127,24 @@ The Governance_Risk kernel integrates multiple sub-kernels, each addressing a di
 - Governance reform economic analysis
 
 **Output structure:**
+
 1. Governance system mapping (institutions, actors, rules, incentives)
-2. Value and incentive flow analysis
-3. Power and incentive alignment assessment
-4. Economic efficiency and equity analysis
-5. Governance reform options with economic implications
-6. Trade-off analysis
+1. Value and incentive flow analysis
+1. Power and incentive alignment assessment
+1. Economic efficiency and equity analysis
+1. Governance reform options with economic implications
+1. Trade-off analysis
 
 **When to use:** Tasks involving governance from an economic/institutional perspective, incentive design, governance reform, or analysis of how governance structures affect value, incentives, and power.
 
----
+______________________________________________________________________
 
 ### 2.4 Legal Kernel
 
 **Purpose:** Legal analysis across jurisdictions, including regulatory analysis, legal frameworks, and legal reasoning.
 
 **Key capabilities:**
+
 - Legal framework analysis
 - Regulatory analysis
 - Legal reasoning and interpretation
@@ -142,22 +153,24 @@ The Governance_Risk kernel integrates multiple sub-kernels, each addressing a di
 - Legal structure and compliance frameworks
 
 **Output structure:**
+
 1. Legal issue identification
-2. Applicable legal framework identification
-3. Legal analysis and interpretation
-4. Cross-jurisdiction comparison (if relevant)
-5. Legal risk assessment
-6. Recommendations with legal basis
+1. Applicable legal framework identification
+1. Legal analysis and interpretation
+1. Cross-jurisdiction comparison (if relevant)
+1. Legal risk assessment
+1. Recommendations with legal basis
 
 **When to use:** Tasks involving legal analysis, regulatory frameworks, legal risk, or legal reasoning. Note: this provides legal analysis and frameworks — it does not provide legal advice.
 
----
+______________________________________________________________________
 
 ### 2.5 Operational Risk Kernel
 
 **Purpose:** Operational risk identification, assessment, and management.
 
 **Key capabilities:**
+
 - Operational risk identification (events, processes, systems, people, external factors)
 - Risk assessment (likelihood, impact, risk matrix)
 - Risk mitigation planning
@@ -166,22 +179,24 @@ The Governance_Risk kernel integrates multiple sub-kernels, each addressing a di
 - Risk appetite and tolerance analysis
 
 **Output structure:**
+
 1. Operational context and process mapping
-2. Risk identification (events, causes, controls)
-3. Risk assessment (likelihood, impact, inherent and residual risk)
-4. Control and mitigation design
-5. Risk monitoring and review framework
-6. Risk appetite alignment assessment
+1. Risk identification (events, causes, controls)
+1. Risk assessment (likelihood, impact, inherent and residual risk)
+1. Control and mitigation design
+1. Risk monitoring and review framework
+1. Risk appetite alignment assessment
 
 **When to use:** Tasks involving operational risk assessment, risk management, operational resilience, or risk control design.
 
----
+______________________________________________________________________
 
 ### 2.6 Organizational Governance Kernel
 
 **Purpose:** Organizational governance frameworks — board governance, decision rights, accountability, and organizational oversight.
 
 **Key capabilities:**
+
 - Organizational governance models (board structures, committees, decision rights)
 - Governance framework design
 - Accountability and oversight mechanisms
@@ -189,22 +204,24 @@ The Governance_Risk kernel integrates multiple sub-kernels, each addressing a di
 - Governance policy and procedure design
 
 **Output structure:**
+
 1. Current governance structure analysis
-2. Governance objectives and principles
-3. Governance framework design (board, committees, decision rights, oversight)
-4. Accountability and oversight mechanism design
-5. Governance policy and procedure recommendations
-6. Implementation considerations
+1. Governance objectives and principles
+1. Governance framework design (board, committees, decision rights, oversight)
+1. Accountability and oversight mechanism design
+1. Governance policy and procedure recommendations
+1. Implementation considerations
 
 **When to use:** Tasks involving organizational governance design, board governance, governance frameworks, accountability mechanisms, or governance evaluation.
 
----
+______________________________________________________________________
 
 ### 2.7 Policy Design Kernel
 
 **Purpose:** Policy design and analysis — designing, analyzing, and evaluating policies.
 
 **Key capabilities:**
+
 - Policy design frameworks
 - Policy analysis methods
 - Stakeholder and impact analysis for policy
@@ -213,22 +230,24 @@ The Governance_Risk kernel integrates multiple sub-kernels, each addressing a di
 - Policy communication and adoption
 
 **Output structure:**
+
 1. Policy issue and objectives framing
-2. Stakeholder and context analysis
-3. Policy options development
-4. Policy impact analysis
-5. Policy recommendation with rationale
-6. Implementation and evaluation considerations
+1. Stakeholder and context analysis
+1. Policy options development
+1. Policy impact analysis
+1. Policy recommendation with rationale
+1. Implementation and evaluation considerations
 
 **When to use:** Tasks involving policy design, policy analysis, policy evaluation, or policy recommendation.
 
----
+______________________________________________________________________
 
 ### 2.8 Policy Geostrategy Kernel
 
 **Purpose:** Geostrategic policy analysis — the intersection of policy, strategy, and geopolitics.
 
 **Key capabilities:**
+
 - Geostrategic analysis frameworks
 - Policy-geopolitics intersection analysis
 - Strategic policy positioning
@@ -236,22 +255,24 @@ The Governance_Risk kernel integrates multiple sub-kernels, each addressing a di
 - Policy strategy alignment
 
 **Output structure:**
+
 1. Geostrategic context analysis
-2. Policy-geopolitics mapping
-3. Strategic policy options
-4. Geopolitical risk and opportunity assessment
-5. Policy strategy alignment recommendations
-6. Implementation considerations in geostrategic context
+1. Policy-geopolitics mapping
+1. Strategic policy options
+1. Geopolitical risk and opportunity assessment
+1. Policy strategy alignment recommendations
+1. Implementation considerations in geostrategic context
 
 **When to use:** Tasks involving policy from a geostrategic perspective, geopolitical risk analysis, strategic policy positioning, or the intersection of policy and geopolitics.
 
----
+______________________________________________________________________
 
 ### 2.9 Risk Compliance Kernel
 
 **Purpose:** Risk and compliance management, including compliance frameworks, risk compliance integration, and regulatory compliance analysis.
 
 **Key capabilities:**
+
 - Compliance framework design and analysis
 - Risk compliance integration
 - Regulatory compliance assessment
@@ -260,22 +281,24 @@ The Governance_Risk kernel integrates multiple sub-kernels, each addressing a di
 - Compliance improvement frameworks
 
 **Output structure:**
+
 1. Compliance context and requirements analysis
-2. Compliance framework assessment
-3. Risk compliance integration analysis
-4. Compliance gaps and issues identification
-5. Compliance improvement recommendations
-6. Monitoring and reporting framework
+1. Compliance framework assessment
+1. Risk compliance integration analysis
+1. Compliance gaps and issues identification
+1. Compliance improvement recommendations
+1. Monitoring and reporting framework
 
 **When to use:** Tasks involving compliance frameworks, regulatory compliance, risk compliance integration, or compliance assessment and improvement.
 
----
+______________________________________________________________________
 
 ### 2.10 VN Legal Kernel
 
 **Purpose:** Vietnam-specific legal and regulatory analysis.
 
 **Key capabilities:**
+
 - Vietnamese legal framework analysis
 - Vietnamese regulatory analysis
 - Vietnam-specific legal risk assessment
@@ -283,15 +306,16 @@ The Governance_Risk kernel integrates multiple sub-kernels, each addressing a di
 - Cross-border legal considerations involving Vietnam
 
 **Output structure:**
+
 1. Vietnamese legal/regulatory context analysis
-2. Applicable Vietnamese legal frameworks
-3. Legal and regulatory risk assessment
-4. Compliance considerations
-5. Recommendations with Vietnamese legal basis
+1. Applicable Vietnamese legal frameworks
+1. Legal and regulatory risk assessment
+1. Compliance considerations
+1. Recommendations with Vietnamese legal basis
 
 **When to use:** Tasks involving Vietnamese legal or regulatory analysis, Vietnam compliance, or cross-border matters involving Vietnam. This kernel draws on the Vietnam country pack and Vietnam legal engines in the Unipower system.
 
----
+______________________________________________________________________
 
 ## 3. Governance, Risk, and Policy Analysis Methodology
 
@@ -342,7 +366,7 @@ The kernel applies a structured methodology for governance, risk, and policy ana
 - L5 Post-Theory Communication: Use clear, grounded language; avoid "field," "sovereignty"
 - L6 UBI Biological Alignment: Ensure alignment with biological intelligence principles where relevant
 
----
+______________________________________________________________________
 
 ## 4. Kernel Registration
 
@@ -353,7 +377,7 @@ The kernel applies a structured methodology for governance, risk, and policy ana
 - **Output mode:** Written analysis with structured frameworks, recommendations, and caveats
 - **IP protection:** High-level frameworks and analysis allowed; no verbatim internal architecture dumps
 
----
+______________________________________________________________________
 
 ## 5. Safety and Scope
 
@@ -362,7 +386,7 @@ The kernel applies a structured methodology for governance, risk, and policy ana
 - **High-risk domains:** Risk assessment in safety-critical contexts, compliance in regulated industries, crisis management — apply appropriate caveats and recommend professional review where needed
 - **Hard prohibitions:** No harm design, no weapon modeling, no criminal planning, no surveillance, no self-harm, no real-time medical/legal replacement
 
----
+______________________________________________________________________
 
 ## 6. Integration with Other Kernels
 
@@ -377,46 +401,49 @@ The Governance_Risk kernel integrates with:
 - **Change Management kernel:** For change-related risk and governance
 - **Unipower country packs:** For country-specific governance, risk, and legal context (e.g., VN Legal kernel for Vietnam)
 
----
+______________________________________________________________________
 
 ## 7. Example Outputs
 
 ### Governance Framework Design
 
 A governance framework design output would include:
+
 1. Governance objectives and principles
-2. Current governance state analysis
-3. Governance gap identification
-4. Proposed governance framework (structures, roles, processes, policies)
-5. Implementation roadmap
-6. Governance monitoring and evaluation framework
-7. Caveats and assumptions
+1. Current governance state analysis
+1. Governance gap identification
+1. Proposed governance framework (structures, roles, processes, policies)
+1. Implementation roadmap
+1. Governance monitoring and evaluation framework
+1. Caveats and assumptions
 
 ### Risk Assessment
 
 A risk assessment output would include:
+
 1. Risk context and scope
-2. Risk identification (risk events, causes, controls)
-3. Risk analysis (likelihood, impact, risk rating)
-4. Risk prioritization
-5. Risk treatment recommendations (avoid, reduce, transfer, accept)
-6. Risk monitoring and review framework
-7. Risk appetite and tolerance alignment
-8. Caveats and assumptions
+1. Risk identification (risk events, causes, controls)
+1. Risk analysis (likelihood, impact, risk rating)
+1. Risk prioritization
+1. Risk treatment recommendations (avoid, reduce, transfer, accept)
+1. Risk monitoring and review framework
+1. Risk appetite and tolerance alignment
+1. Caveats and assumptions
 
 ### Policy Analysis
 
 A policy analysis output would include:
-1. Policy issue framing
-2. Stakeholder and context analysis
-3. Policy options development
-4. Policy impact analysis (benefits, costs, risks, distributional effects)
-5. Policy recommendation with rationale
-6. Implementation considerations
-7. Evaluation framework
-8. Caveats and assumptions
 
----
+1. Policy issue framing
+1. Stakeholder and context analysis
+1. Policy options development
+1. Policy impact analysis (benefits, costs, risks, distributional effects)
+1. Policy recommendation with rationale
+1. Implementation considerations
+1. Evaluation framework
+1. Caveats and assumptions
+
+______________________________________________________________________
 
 ## 8. Kernel Status
 
@@ -425,7 +452,7 @@ A policy analysis output would include:
 - **Last updated:** 2026-08-22
 - **Source:** md/Kernels/Governance_Risk/AMOS_Governance_Risk_Policy_Kernel_v0.md
 
----
+______________________________________________________________________
 
 ## 9. See Also
 
@@ -437,8 +464,10 @@ A policy analysis output would include:
 - AMOS_Kernel_Risk_Governance_Compliance_Log.md — Session log of Governance_Risk kernel expansion
 - AMOS_Brain_Learning_Session_Summary.md — Session summary
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS · SYSTEM_SCAN_AGENT · AUTOMATION_PROFILES · [[11_KNOWLEDGE/kernel/AMOS_CONTROL_SYSTEMS_KERNEL|AMOS_CONTROL_SYSTEMS_KERNEL]] · [[11_KNOWLEDGE/kernel/AMOS_WORKFLOW_ORCHESTRATION_KERNEL_V0_TECH|AMOS_WORKFLOW_ORCHESTRATION_KERNEL_V0_TECH]] · [[11_KNOWLEDGE/kernel/AMOS_QA_TESTING_KERNEL_V0_TECH|AMOS_QA_TESTING_KERNEL_V0_TECH]] · [[11_KNOWLEDGE/kernel/AMOS_TECH_KERNEL_EXPANSION|AMOS_TECH_KERNEL_EXPANSION]]
 
----
+______________________________________________________________________
+
 **MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]

@@ -1,32 +1,35 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: 11k cosmo brain moc
 type: reference
 source: 07_SKILLS/amos-knowledge-research-master/references
 tags:
-- reference
-- amos-knowledge-research-master
-- type/skill
-- architecture
-- fractal-runtime
-- logic-kernel
-- constraint-engine
-- tensor-contracts
-- claim-tensor
-- evidence-tensor
-- relation-tensor
-- memory-architecture
-- boundary-identity
-- governance-tensor
-- rscf-proof-capsule
-- regime-freshness
-- adversarial-validation
-- sensitivity-falsifiers
-- error-recovery
-- cognition-kernel
-- final-gate
-- speed-governor
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-knowledge-research-master
+  - type/skill
+  - architecture
+  - fractal-runtime
+  - logic-kernel
+  - constraint-engine
+  - tensor-contracts
+  - claim-tensor
+  - evidence-tensor
+  - relation-tensor
+  - memory-architecture
+  - boundary-identity
+  - governance-tensor
+  - rscf-proof-capsule
+  - regime-freshness
+  - adversarial-validation
+  - sensitivity-falsifiers
+  - error-recovery
+  - cognition-kernel
+  - final-gate
+  - speed-governor
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 moc: true
 rscf:
   state: SOURCE_CLAIM
@@ -40,18 +43,11 @@ rscf:
 > Source: `/Users/mac/Documents/AMOS_OS/11_KNOWLEDGE/Cosmo_Brain_MOC.md`
 > Epistemic class: SOURCE_DERIVED
 
----
-title: 00 Cosmo Brain MOC
-created: "2026-08-22"
-origin_architect: "Trang Phan"
-type: "moc"
-tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/00-cosmo-brain-moc, moc, index]
-status: "living"
-provenance: "MODEL"
-confidence: "DERIVED"
----
+______________________________________________________________________
 
-# 00 Cosmo Brain MOC
+## title: 00 Cosmo Brain MOC created: "2026-08-22" origin_architect: "Trang Phan" type: "moc" tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/00-cosmo-brain-moc, moc, index] status: "living" provenance: "MODEL" confidence: "DERIVED"
+
+## 00 Cosmo Brain MOC
 
 > Epistemic class: MODEL (an index the agent maintains; not a claim about the corpus).
 > Core law: `integrity > completeness > fluency > speed > token savings`
@@ -70,27 +66,29 @@ answer the question, expand only when outcome-changing uncertainty remains.
 - **Agent skills:** `.devin/skills/` (20,324 skills — **~100% coverage** of all ~81,700 brain spec Markdown files including subdirectories, 2026-08-24)
 - **Always-on contract:** `.github/copilot-instructions.md`, `GEMINI.md`
 
-
 ### Obsidian linking stack
 
 - AMOS Obsidian Linking Plugins — configured plugin IDs, Templater starter, and linking checklist
+
 ### Layer map index
 
 - AMOS Layer Maps — top-level AMOS layer map index
+
 ### Templates
 
 - AMOS Templates — AMOS template index
 - linked-note template
 - AMOS Home — universal vault hub
+
 ## Operational brain — module map
 
 - 00_boot: brain/00_boot/BOOTSTRAP · ROUTER · LOAD_MAP · OS_Agent_Model
-- 10_core: INVARIANTS · CLAIM_CLASSES · [[04_RUNTIME/06_EXECUTION/FRACTAL_RUNTIME|FRACTAL_RUNTIME]] · [[11_KNOWLEDGE/kernel/LOGIC_KERNEL|LOGIC_KERNEL]] · EQUATION_* · VARIABLE_REGISTRY · [[11_KNOWLEDGE/engine/CONSTRAINT_ENGINE|CONSTRAINT_ENGINE]] · Consciousness_Engine_Model · Personality_Engine_Model · Emotion_Engine_Model · Cognition_Engine_Model · Mind_OS_Model
+- 10_core: INVARIANTS · CLAIM_CLASSES · [[04_RUNTIME/06_EXECUTION/FRACTAL_RUNTIME|FRACTAL_RUNTIME]] · [[11_KNOWLEDGE/kernel/LOGIC_KERNEL|LOGIC_KERNEL]] · EQUATION\_\* · VARIABLE_REGISTRY · [[11_KNOWLEDGE/engine/CONSTRAINT_ENGINE|CONSTRAINT_ENGINE]] · Consciousness_Engine_Model · Personality_Engine_Model · Emotion_Engine_Model · Cognition_Engine_Model · Mind_OS_Model
 - 20_state: [[11_KNOWLEDGE/TENSOR_CONTRACTS|TENSOR_CONTRACTS]] · [[11_KNOWLEDGE/CLAIM_TENSOR|CLAIM_TENSOR]] · [[11_KNOWLEDGE/EVIDENCE_TENSOR|EVIDENCE_TENSOR]] · [[11_KNOWLEDGE/RELATION_TENSOR|RELATION_TENSOR]] · MEMORY_ARCHITECTURE · WORKING_MEMORY · BOUNDARY_IDENTITY · UNCERTAINTY_VECTOR · ENTROPY_LACUNARITY · STATE_MACHINE · CONTEXT_ORIENTATION · GOVERNANCE_TENSOR
 - 30_epistemics: PROVENANCE_TOPOLOGY · RSCF_PROOF_CAPSULE · COMPETING_HYPOTHESES · REGIME_FRESHNESS · ADVERSARIAL_VALIDATION · SENSITIVITY_FALSIFIERS · CAUSAL_FIREWALL · ERROR_RECOVERY · SYBIL_HARDENING
 - 40_runtime: RUNTIME_LINEAGE · TRANSACTION_PROTOCOL · V3_0…V4_4 (MVCC/CAS, causal epoch, coordination avoidance)
 - 50_governance: GMEF · AUTHORITY_GOVERNOR · EVOLUTION_DEBT · EVOLUTION_MEMORY · REPAIR_ROLLBACK
-- 60_execution: REPOSITORY_REASONING · KNOWLEDGE_HARVEST · EXECUTION_HARNESS · EXECUTION_PROVENANCE · BENCHMARK_FIREWALL · *_EVIDENCE_SCHEMA
+- 60_execution: REPOSITORY_REASONING · KNOWLEDGE_HARVEST · EXECUTION_HARNESS · EXECUTION_PROVENANCE · BENCHMARK_FIREWALL · \*\_EVIDENCE_SCHEMA
 - 70_domain: [[11_KNOWLEDGE/kernel/COGNITION_KERNEL|COGNITION_KERNEL]] · UNIVERSAL_FIELD_MODEL · SOURCE_MODEL_BOUNDARY
 - 90_output: FINAL_GATE · OUTPUT_PROTOCOL · CONTEXT_BUDGET · TOKEN_GOVERNOR · SPEED_GOVERNOR
 - 95_meta: SELF_REVIEW (self-review loop — hardens reasoning before any consequential output or brain write)
@@ -101,9 +99,9 @@ answer the question, expand only when outcome-changing uncertainty remains.
 - Evidence & trust: amos-provenance-trust · amos-rscf-claims · amos-memory-reconstruction-rscf
 - Reasoning improvement (NEW): amos-self-review-loop · amos-knowledge-gap-scan · amos-cogni
 
----
-**MOC:** references_MOC
----
+______________________________________________________________________
+
+## **MOC:** references_MOC
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -111,12 +109,14 @@ answer the question, expand only when outcome-changing uncertainty remains.
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-knowledge-research-master-11k-cosmo-brain-moc
 node_type: reference
 path: 07_SKILLS/amos-knowledge-research-master/references/11k_cosmo_brain_moc.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

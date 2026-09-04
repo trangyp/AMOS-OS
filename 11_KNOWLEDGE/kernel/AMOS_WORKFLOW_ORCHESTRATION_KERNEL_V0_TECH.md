@@ -1,14 +1,17 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: AMOS WORKFLOW ORCHESTRATION KERNEL V0 TECH
 tags:
-- canon-group/tech-ai
-- canon/framework
-- rscf/claim
-- rscf/provenance
-- rscf/state/observation
-- topic/amos-workflow-orchestration-kernel-v0
-- kernel
-- workflow
+  - canon-group/tech-ai
+  - canon/framework
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/observation
+  - topic/amos-workflow-orchestration-kernel-v0
+  - kernel
+  - workflow
 type: data
 source: 11_KNOWLEDGE/kernel
 rscf:
@@ -259,6 +262,6 @@ rscf:
 **Related:** [[11_KNOWLEDGE/kernel/AMOS_MBB_CONSULTING_KERNEL_V0|AMOS_MBB_CONSULTING_KERNEL_V0]] · [[11_KNOWLEDGE/kernel/AMOS_UNIVERSE_DOMAIN_KERNELS|AMOS_UNIVERSE_DOMAIN_KERNELS]] · [[11_KNOWLEDGE/kernel/AMOS_BUSINESS_ANALYSIS_KERNEL_V0_TECH|AMOS_BUSINESS_ANALYSIS_KERNEL_V0_TECH]] · [[11_KNOWLEDGE/kernel/AMOS_PUBLIC_HEALTH_KERNEL|AMOS_PUBLIC_HEALTH_KERNEL]]
 ```
 
----
-**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]
+______________________________________________________________________
 
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]

@@ -1,14 +1,17 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Vault Domain Knowledge — Amos Tensor Train Sketching Rscf Engine
 type: reference
 source: 07_SKILLS/amos-tensor-train-sketching-rscf-engine/references
 tags:
-- reference
-- amos-tensor-train-sketching-rscf-engine
-- type/skill
-- architecture
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-tensor-train-sketching-rscf-engine
+  - type/skill
+  - architecture
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -29,98 +32,98 @@ rscf:
 > Path: `misc/U/UniTaxi_X200_Training.md` | Size: 87150 chars | Match score: 10
 
 {
- "UniTaxi_Training_Engine_X200": {
- "version": "4.0_X200",
- "layers": {
- "layer_001": {
- "title": "Expanded Training Layer 1",
- "description": "Detailed enrichment content for training module 1 of the UniTaxi X200 program.",
- "modules": [
- "Module 1.1 advanced behaviors",
- "Module 1.2 safety extensions",
- "Module 1.3 service protocols",
- "Module 1.4 scenario bank",
- "Module 1.5 performance refinement"
- ]
- },
- "layer_002": {
- "title": "Expanded Training Layer 2",
- "description": "Detailed enrichment content for training module 2 of the UniTaxi X200 program.",
- "modules": [
- "Module 2.1 advanced behaviors",
- "Module 2.2 safety extensions",
- "Module 2.3 service protocols",
- "Module 2.4 scenario bank",
- "Module 2.5 performance refinement"
- ]
- },
- "layer_003": {
- "title": "Expanded Training Layer 3",
- "description": "Detailed enrichment content for training module 3 of the UniTaxi X200 program.",
- "modules": [
- "Module 3.1 advanced behaviors",
- "Module 3.2 safety extensions",
- "Module 3.3 service protocols",
- "Module 3.4 scenario bank",
- "Module 3.5 performance refinement"
- ]
- },
- "layer_004": {
- "title": "Expanded Training Layer 4",
- "description": "Detailed enrichment content for training module 4 of the UniTaxi X200 program.",
- "modules": [
- "Module 4.1 advanced behaviors",
- "Module 4.2 safety extensions",
- "Module 4.3 service protocols",
- "Module 4.4 scenario bank",
- "Module 4.5 performance refinement"
- ]
- },
- "layer_005": {
- "title": "Expanded Training Layer 5",
- "description": "Detailed enrichment content for training module 5 of the UniTaxi X200 program.",
- "modules": [
- "Module 5.1 advanced behaviors",
- "Module 5.2 safety extensions",
- "Module 5.3 service protocols",
- "Module 5.4 scenario bank",
- "Module 5.5 performance refinement"
- ]
- },
- "layer_006": {
- "title": "Expanded Training Layer 6",
- "description": "Detailed enrichment content for training module 6 of the UniTaxi X200 program.",
- "modules": [
- "Module 6.1 advanced behaviors",
- "Module 6.2 safety extensions",
- "Module 6.3 service protocols",
- "Module 6.4 scenario bank",
- "Module 6.5 performance refinement"
- ]
- },
- "layer_007": {
- "title": "Expanded Training Layer 7",
- "description": "Detailed enrichment content for training module 7 of the UniTaxi X200 program.",
- "modules": [
- "Module 7.1 advanced behaviors",
- "Module 7.2 safety extensions",
- "Module 7.3 service protocols",
- "Module 7.4 scenario bank",
- "Module 7.5 p
+"UniTaxi_Training_Engine_X200": {
+"version": "4.0_X200",
+"layers": {
+"layer_001": {
+"title": "Expanded Training Layer 1",
+"description": "Detailed enrichment content for training module 1 of the UniTaxi X200 program.",
+"modules": \[
+"Module 1.1 advanced behaviors",
+"Module 1.2 safety extensions",
+"Module 1.3 service protocols",
+"Module 1.4 scenario bank",
+"Module 1.5 performance refinement"
+\]
+},
+"layer_002": {
+"title": "Expanded Training Layer 2",
+"description": "Detailed enrichment content for training module 2 of the UniTaxi X200 program.",
+"modules": \[
+"Module 2.1 advanced behaviors",
+"Module 2.2 safety extensions",
+"Module 2.3 service protocols",
+"Module 2.4 scenario bank",
+"Module 2.5 performance refinement"
+\]
+},
+"layer_003": {
+"title": "Expanded Training Layer 3",
+"description": "Detailed enrichment content for training module 3 of the UniTaxi X200 program.",
+"modules": \[
+"Module 3.1 advanced behaviors",
+"Module 3.2 safety extensions",
+"Module 3.3 service protocols",
+"Module 3.4 scenario bank",
+"Module 3.5 performance refinement"
+\]
+},
+"layer_004": {
+"title": "Expanded Training Layer 4",
+"description": "Detailed enrichment content for training module 4 of the UniTaxi X200 program.",
+"modules": \[
+"Module 4.1 advanced behaviors",
+"Module 4.2 safety extensions",
+"Module 4.3 service protocols",
+"Module 4.4 scenario bank",
+"Module 4.5 performance refinement"
+\]
+},
+"layer_005": {
+"title": "Expanded Training Layer 5",
+"description": "Detailed enrichment content for training module 5 of the UniTaxi X200 program.",
+"modules": \[
+"Module 5.1 advanced behaviors",
+"Module 5.2 safety extensions",
+"Module 5.3 service protocols",
+"Module 5.4 scenario bank",
+"Module 5.5 performance refinement"
+\]
+},
+"layer_006": {
+"title": "Expanded Training Layer 6",
+"description": "Detailed enrichment content for training module 6 of the UniTaxi X200 program.",
+"modules": \[
+"Module 6.1 advanced behaviors",
+"Module 6.2 safety extensions",
+"Module 6.3 service protocols",
+"Module 6.4 scenario bank",
+"Module 6.5 performance refinement"
+\]
+},
+"layer_007": {
+"title": "Expanded Training Layer 7",
+"description": "Detailed enrichment content for training module 7 of the UniTaxi X200 program.",
+"modules": \[
+"Module 7.1 advanced behaviors",
+"Module 7.2 safety extensions",
+"Module 7.3 service protocols",
+"Module 7.4 scenario bank",
+"Module 7.5 p
 
----
+______________________________________________________________________
 
 ### Source 2: AMOS Protected Knowledge & Training Control Architecture
 
 > Path: `amos-general/A/PROTECTED/AMOS_PROTECTED_KNOWLEDGE_TRAINING_CONTROL_ARCHITECTURE_MAX_DETAIL.md` | Size: 59641 chars | Match score: 10
 
-# AMOS Protected Knowledge & Training Control Architecture
+## AMOS Protected Knowledge & Training Control Architecture
+
 ## Maximum-Detail AMOS Refinement of “The Uncopyable Training Architecture”
 
+______________________________________________________________________
 
----
-
-# 0. Executive Reframing
+## 0. Executive Reframing
 
 The source architecture is valuable because it recognizes a real problem:
 
@@ -129,12 +132,12 @@ The source architecture is valuable because it recognizes a real problem:
 The source solves this through seven layers:
 
 1. Identity Framework
-2. Structural Laws
-3. Implicit Constraints
-4. Ephemeral Enforcement
-5. Anti-Exfiltration
-6. Output-Only Behavioral Definition
-7. Human-Embedded Final Enforcement
+1. Structural Laws
+1. Implicit Constraints
+1. Ephemeral Enforcement
+1. Anti-Exfiltration
+1. Output-Only Behavioral Definition
+1. Human-Embedded Final Enforcement
 
 AMOS preserves those seven source layers, but replaces absolute claims such as:
 
@@ -187,9 +190,9 @@ MULTIPLE_FRAGMENTS != INDEPENDENT_ORIGINS
 NO_KNOWN_EXTRACTION != PROOF_OF_UNCOPYABILITY
 ```
 
----
+______________________________________________________________________
 
-# 1. Architectural Objective
+## 1. Architectural Objective
 
 ## 1.1 Primary objective
 
@@ -210,19 +213,20 @@ The system should also:
 - permit legitimate declassification;
 - permit reproducible validation without revealing unnecessary
 
----
+______________________________________________________________________
 
 ### Source 3: THE UNCOPYABLE TRAINING [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]
 
 > Path: `amos-general/A/UNCOPYABLE/AMOS_UNCOPYABLE_TRAINING_ARCHITECTURE_v2.0.0_CORE-v4.4.md` | Size: 25142 chars | Match score: 10
 
-# THE UNCOPYABLE TRAINING [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]
+## THE UNCOPYABLE TRAINING [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]
+
 ## AMOS Governed Edition v2.0.0 · CORE target v4.4
 
 > **Canonical status:** governed derivative of the source architecture.
 > **Security status:** `CONDITIONAL`; no absolute non-copyability or jail-break-immunity claim is promoted without executed evidence.
 
-# 0. VERSION / LINEAGE CONTROL
+## 0. VERSION / LINEAGE CONTROL
 
 This artifact has **two independent version axes**:
 
@@ -236,32 +240,32 @@ updating CORE does not automatically validate this document.
 
 ## 0.1 Document releases
 
-| Release | Status | Meaning |
-|---|---|---|
-| Source / pre-AMOS | SOURCE_CLAIM | Original seven-layer training architecture |
-| v1.0.0 | SUPERSEDED | Initial cleaned AMOS mapping; insufficient version/control depth |
-| **v2.0.0** | **CURRENT** | Full governed edition with explicit lineage, state, exposure, authority, finality, tests, rollback |
-| v2.x | RESERVED | backward-compatible architecture hardening |
-| v3.0.0 | RESERVED | breaking semantic/control-contract change |
+| Release           | Status       | Meaning                                                                                            |
+| ----------------- | ------------ | -------------------------------------------------------------------------------------------------- |
+| Source / pre-AMOS | SOURCE_CLAIM | Original seven-layer training architecture                                                         |
+| v1.0.0            | SUPERSEDED   | Initial cleaned AMOS mapping; insufficient version/control depth                                   |
+| **v2.0.0**        | **CURRENT**  | Full governed edition with explicit lineage, state, exposure, authority, finality, tests, rollback |
+| v2.x              | RESERVED     | backward-compatible architecture hardening                                                         |
+| v3.0.0            | RESERVED     | breaking semantic/control-contract change                                                          |
 
 ## 0.2 AMOS_CORE compatibility spine
 
 The document preserves the supplied AMOS evolution spine as a **compatibility contract**:
 
-| CORE lineage | Capability inherited by this artifact |
-|---|---|
-| v3.0 | deterministic logic baseline |
-| v3.x | recursive RSCF + H/M/L reasoning |
-| v3.x | governed evolution and selective repair |
-| v3.x | causal lineage / dependency-aware invalidation |
-| v3.x | epistemic regimes + competing hypotheses |
-| v3.7.x | provenance topology / Sybil-hardening direction |
-| v4.x | persistent provenance + transactional state concepts |
-| v4.x | MVCC/CAS-style freshness and conflict semantics |
-| v4.x | atomic multi-RSCF reasoning |
-| v4.x | causal epoch finality |
-| v4.x | hardened shard-local finalization |
-| **v4.4** | **proof-based coordination avoidance / smallest-sufficient valid proof scope** |
+| CORE lineage | Capability inherited by this artifact                                          |
+| ------------ | ------------------------------------------------------------------------------ |
+| v3.0         | deterministic logic baseline                                                   |
+| v3.x         | recursive RSCF + H/M/L reasoning                                               |
+| v3.x         | governed evolution and selective repair                                        |
+| v3.x         | causal lineage / dependency-aware invalidation                                 |
+| v3.x         | epistemic regimes + competing hypotheses                                       |
+| v3.7.x       | provenance topology / Sybil-hardening direction                                |
+| v4.x         | persistent provenance + transactional state concepts                           |
+| v4.x         | MVCC/CAS-style freshness and conflict semantics                                |
+| v4.x         | atomic multi-RSCF reasoning                                                    |
+| v4.x         | causal epoch finality                                                          |
+| v4.x         | hardened shard-local finalization                                              |
+| **v4.4**     | **proof-based coordination avoidance / smallest-sufficient valid proof scope** |
 
 > This table is a lineage-preservation map, not a claim that ChatGPT literally runs
 > the archived distributed runtime.
@@ -318,10 +322,9 @@ SourceLineagePreserved
 -
 ```
 
----
+______________________________________________________________________
 
-**Related:** [[07_SKILLS/amos-tensor-train-sketching-rscf-engine/amos-tensor-train-sketching-rscf-engine_MOC|amos-tensor-train-sketching-rscf-engine_MOC]]
----
+## **Related:** [[07_SKILLS/amos-tensor-train-sketching-rscf-engine/amos-tensor-train-sketching-rscf-engine_MOC|amos-tensor-train-sketching-rscf-engine_MOC]]
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -329,13 +332,14 @@ SourceLineagePreserved
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-tensor-train-sketching-rscf-engine-vault-domain-knowledge
 node_type: reference
 path: 07_SKILLS/amos-tensor-train-sketching-rscf-engine/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC
-

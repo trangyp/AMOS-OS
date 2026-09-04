@@ -18,30 +18,29 @@ version: 1.0.0
 created: 2026-08-25
 updated: 2026-08-25
 tags:
-- amos-os
-- canon
-- universe
-- canon-group/meta
-- canon/glossary
-- canon/semantics
-- canon/terminology
-- canon/registry
-- rscf/claim
-- rscf/provenance
-- rscf/state/source-claim
-- topic/canonical-glossary
-- topic/semantic-integrity
-- topic/identity
-- topic/provenance
-- topic/epistemics
-- readme
-- architecture
-- neural-network
-- amos-core-laws
-- law-hierarchy
+  - amos-os
+  - canon
+  - universe
+  - canon-group/meta
+  - canon/glossary
+  - canon/semantics
+  - canon/terminology
+  - canon/registry
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - topic/canonical-glossary
+  - topic/semantic-integrity
+  - topic/identity
+  - topic/provenance
+  - topic/epistemics
+  - readme
+  - architecture
+  - neural-network
+  - amos-core-laws
+  - law-hierarchy
 aliases:
-- AMOS Canonical Glossary - AMOS OS Glossary - Canonical Terminology Registry - AMOS
-  Semantic
+  - AMOS Canonical Glossary - AMOS OS Glossary - Canonical Terminology Registry - AMOS Semantic
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -50,15 +49,19 @@ rscf:
 ---
 
 # AMOS OS Canonical Glossary
+
 > **Origin architect / steward:** Trang Phan
 > **AMOS Core target:** v4.4
 > **Conclusion class:** `AMOS_MODEL`
 > **Authority:** canonical terminology, semantic distinctions, and vocabulary resolution
+
 ## 1. Purpose
+
 The **AMOS OS Canonical Glossary** establishes the governed vocabulary used across AMOS OS.
 Its role is not merely to provide dictionary definitions.
 It protects semantic boundaries between concepts that may appear similar while performing materially different architectural, epistemic, causal, governance, or runtime roles.
 The governing law is:
+
 ```text
 TERM
 → DEFINITION
@@ -67,7 +70,9 @@ TERM
 → RELATIONS
 → PROVENANCE
 ```
+
 A term is not canonical merely because it appears frequently in code, notes, memory, research, or generated content.
+
 ```text
 USAGE != CANON
 POPULARITY != CANON
@@ -76,15 +81,10 @@ NAME != IDENTITY
 TERM != IMPLEMENTATION
 MODEL != REALITY
 ```
-rscf:
-  state: DERIVED
-  claim_class: EMPIRICAL
-  provenance: AMOS_corpus
-  scope: AMOS_general
----
 
+## rscf: state: DERIVED claim_class: EMPIRICAL provenance: AMOS_corpus scope: AMOS_general
 
-# 2. Glossary Authority Boundary
+## 2. Glossary Authority Boundary
 
 This glossary has authority over:
 
@@ -116,9 +116,9 @@ DEFINITION != VALIDATION
 DEFINITION != AUTHORITY GRANT
 ```
 
----
+______________________________________________________________________
 
-# 3. Canonical Term Contract
+## 3. Canonical Term Contract
 
 A mature glossary entry SHOULD contain:
 
@@ -148,9 +148,9 @@ UNKNOWN/GAP
 
 is preferable to invention.
 
----
+______________________________________________________________________
 
-# 4. Term Classes
+## 4. Term Classes
 
 AMOS terms may be typed as:
 
@@ -176,9 +176,9 @@ RELATIONAL
 
 A term may participate in more than one domain, but its primary semantic role SHOULD remain explicit.
 
----
+______________________________________________________________________
 
-# 5. AMOS
+## 5. AMOS
 
 **Class:** `ARCHITECTURAL`
 
@@ -192,9 +192,9 @@ AMOS ARCHITECTURE
 IMPLEMENTED AMOS RUNTIME
 ```
 
----
+______________________________________________________________________
 
-# 6. AMOS OS
+## 6. AMOS OS
 
 **Class:** `ARCHITECTURAL`
 
@@ -233,9 +233,9 @@ Current repository-level decomposition:
 
 The existence of a directory does not prove operational completeness.
 
----
+______________________________________________________________________
 
-# 7. Origin Architect
+## 7. Origin Architect
 
 **Class:** `GOVERNANCE / PROVENANCE`
 
@@ -251,9 +251,9 @@ This field establishes provenance attribution.
 
 It does not imply that every external source, empirical observation, library, research result, or incorporated concept originated within AMOS.
 
----
+______________________________________________________________________
 
-# 8. Steward
+## 8. Steward
 
 **Class:** `GOVERNANCE`
 
@@ -267,9 +267,9 @@ STEWARDSHIP != AUTOMATIC COMMIT AUTHORITY
 
 Authority remains explicitly scoped.
 
----
+______________________________________________________________________
 
-# 9. Canon
+## 9. Canon
 
 **Class:** `ARCHITECTURAL / GOVERNANCE`
 
@@ -296,9 +296,9 @@ CANON != MEMORY
 CANON != RESEARCH
 ```
 
----
+______________________________________________________________________
 
-# 10. Source Claim
+## 10. Source Claim
 
 **Class:** `EPISTEMIC`
 
@@ -321,9 +321,9 @@ C = VERIFIED
 
 Documentation, README files, design notes, generated specifications, and repository comments remain `SOURCE_CLAIM` unless independently validated.
 
----
+______________________________________________________________________
 
-# 11. Observation
+## 11. Observation
 
 **Class:** `EPISTEMIC`
 
@@ -343,9 +343,9 @@ measurement uncertainty
 
 An observation may support a claim but does not automatically establish causation.
 
----
+______________________________________________________________________
 
-# 12. Derived Claim
+## 12. Derived Claim
 
 **Class:** `EPISTEMIC`
 
@@ -368,9 +368,9 @@ weakest load-bearing premise
 
 when no independent validation breaks that dependency.
 
----
+______________________________________________________________________
 
-# 13. Model
+## 13. Model
 
 **Class:** `EPISTEMIC / MODEL`
 
@@ -384,9 +384,9 @@ MODEL != VERIFIED FACT
 
 Cross-domain mappings remain models unless independently validated.
 
----
+______________________________________________________________________
 
-# 14. Decision
+## 14. Decision
 
 **Class:** `GOVERNANCE`
 
@@ -402,9 +402,9 @@ EVIDENCE
 
 The decision must retain its dependency and authority context when consequential.
 
----
+______________________________________________________________________
 
-# 15. Unknown / Gap
+## 15. Unknown / Gap
 
 **Class:** `EPISTEMIC`
 
@@ -435,9 +435,9 @@ Core law:
 UNKNOWN/GAP != PASS
 ```
 
----
+______________________________________________________________________
 
-# 16. Conclusion Class
+## 16. Conclusion Class
 
 **Class:** `EPISTEMIC`
 
@@ -478,9 +478,9 @@ Multiple incompatible or materially distinct hypotheses remain viable.
 
 Available evidence is insufficient for responsible resolution.
 
----
+______________________________________________________________________
 
-# 17. Integrity
+## 17. Integrity
 
 **Class:** `GOVERNANCE / EPISTEMIC`
 
@@ -502,9 +502,9 @@ TOKEN SAVINGS
 
 Optimization may not weaken integrity.
 
----
+______________________________________________________________________
 
-# 18. Completeness
+## 18. Completeness
 
 **Class:** `EPISTEMIC`
 
@@ -520,9 +520,9 @@ INCOMPLETE BUT CORRECT
 
 A visible gap is preferable to invented closure.
 
----
+______________________________________________________________________
 
-# 19. Provenance
+## 19. Provenance
 
 **Class:** `PROVENANCE`
 
@@ -547,9 +547,9 @@ license/IP status
 
 Provenance supports recoverability and trust calibration.
 
----
+______________________________________________________________________
 
-# 20. Provenance Topology
+## 20. Provenance Topology
 
 **Class:** `PROVENANCE`
 
@@ -572,9 +572,9 @@ MULTIPLE DESCENDANTS
 MULTIPLE INDEPENDENT SOURCES
 ```
 
----
+______________________________________________________________________
 
-# 21. Provenance Independence
+## 21. Provenance Independence
 
 **Class:** `PROVENANCE / EPISTEMIC`
 
@@ -590,9 +590,9 @@ MULTIPLE AGENTS != INDEPENDENT EVIDENCE
 
 if all ultimately derive from the same source.
 
----
+______________________________________________________________________
 
-# 22. Sybil Hardening
+## 22. Sybil Hardening
 
 **Class:** `PROVENANCE / SECURITY`
 
@@ -607,9 +607,9 @@ Conceptually:
 100 INDEPENDENT CONFIRMATIONS
 ```
 
----
+______________________________________________________________________
 
-# 23. Scope
+## 23. Scope
 
 **Class:** `EPISTEMIC`
 
@@ -632,9 +632,9 @@ domain
 
 A claim must not silently escape its validated scope.
 
----
+______________________________________________________________________
 
-# 24. Regime
+## 24. Regime
 
 **Class:** `EPISTEMIC / MODEL`
 
@@ -652,9 +652,9 @@ does not imply:
 VALID IN R₂
 ```
 
----
+______________________________________________________________________
 
-# 25. Freshness
+## 25. Freshness
 
 **Class:** `EPISTEMIC / TEMPORAL`
 
@@ -664,9 +664,9 @@ Freshness is claim-specific.
 
 A source can remain historically accurate while becoming unsuitable for a current-state decision.
 
----
+______________________________________________________________________
 
-# 26. Epistemic Regime
+## 26. Epistemic Regime
 
 **Class:** `EPISTEMIC`
 
@@ -686,9 +686,9 @@ adversarial
 
 Evidence valid in one epistemic regime must not automatically be promoted across another.
 
----
+______________________________________________________________________
 
-# 27. Competing Hypotheses
+## 27. Competing Hypotheses
 
 **Class:** `EPISTEMIC / COGNITIVE`
 
@@ -710,9 +710,9 @@ until evidence discriminates among them.
 
 AMOS does not force convergence merely for narrative neatness.
 
----
+______________________________________________________________________
 
-# 28. Discriminating Evidence
+## 28. Discriminating Evidence
 
 **Class:** `EPISTEMIC`
 
@@ -730,9 +730,9 @@ outcome-changing
 
 rather than redundant evidence accumulation.
 
----
+______________________________________________________________________
 
-# 29. Falsifier
+## 29. Falsifier
 
 **Class:** `EPISTEMIC`
 
@@ -740,9 +740,9 @@ An observation or condition that would invalidate or materially weaken a claim.
 
 A robust important conclusion SHOULD expose its falsifiers where known.
 
----
+______________________________________________________________________
 
-# 30. Confidence Ceiling
+## 30. Confidence Ceiling
 
 **Class:** `EPISTEMIC`
 
@@ -750,9 +750,9 @@ The maximum justified confidence for a conclusion given its load-bearing premise
 
 A downstream conclusion does not gain certainty merely because it is expressed more fluently.
 
----
+______________________________________________________________________
 
-# 31. Dependency
+## 31. Dependency
 
 **Class:** `RELATIONAL`
 
@@ -766,9 +766,9 @@ means B depends on A only when that relationship is explicitly defined.
 
 Visual adjacency or similarity does not prove dependency.
 
----
+______________________________________________________________________
 
-# 32. Dependency Closure
+## 32. Dependency Closure
 
 **Class:** `RELATIONAL / RUNTIME`
 
@@ -776,9 +776,9 @@ The set of dependencies that must remain valid for a conclusion or operation to 
 
 Local reasoning is safe only when material dependency closure is known sufficiently well.
 
----
+______________________________________________________________________
 
-# 33. Load-Bearing Premise
+## 33. Load-Bearing Premise
 
 **Class:** `EPISTEMIC`
 
@@ -788,9 +788,9 @@ Not every premise is load-bearing.
 
 AMOS prioritizes validation of load-bearing premises over background detail.
 
----
+______________________________________________________________________
 
-# 34. Sensitivity
+## 34. Sensitivity
 
 **Class:** `EPISTEMIC / MODEL`
 
@@ -805,9 +805,9 @@ small premise change
 
 Such results should normally be classified `CONDITIONAL`.
 
----
+______________________________________________________________________
 
-# 35. Causal Claim
+## 35. Causal Claim
 
 **Class:** `CAUSAL`
 
@@ -830,9 +830,9 @@ causal effect
 
 These terms are not interchangeable.
 
----
+______________________________________________________________________
 
-# 36. Association
+## 36. Association
 
 **Class:** `CAUSAL`
 
@@ -840,9 +840,9 @@ A relationship in which variables or events appear together according to some de
 
 Association alone does not establish causation.
 
----
+______________________________________________________________________
 
-# 37. Correlation
+## 37. Correlation
 
 **Class:** `CAUSAL / STATISTICAL`
 
@@ -865,9 +865,9 @@ chance
 measurement structure
 ```
 
----
+______________________________________________________________________
 
-# 38. Mechanism
+## 38. Mechanism
 
 **Class:** `CAUSAL`
 
@@ -875,9 +875,9 @@ A specified process through which one state or event could produce another.
 
 A plausible mechanism strengthens causal reasoning but does not automatically prove the causal effect occurred in a specific case.
 
----
+______________________________________________________________________
 
-# 39. Confounder
+## 39. Confounder
 
 **Class:** `CAUSAL`
 
@@ -885,9 +885,9 @@ A variable or process capable of producing or distorting an observed relationshi
 
 Potential confounding must be considered when causal conclusions matter.
 
----
+______________________________________________________________________
 
-# 40. Causal Firewall
+## 40. Causal Firewall
 
 **Class:** `CAUSAL / GOVERNANCE`
 
@@ -900,9 +900,9 @@ CORRELATION != CAUSATION
 ANALOGY != CAUSATION
 ```
 
----
+______________________________________________________________________
 
-# 41. RSCF
+## 41. RSCF
 
 **Class:** `COGNITIVE / RELATIONAL`
 
@@ -924,9 +924,9 @@ falsifiers
 
 The glossary does not claim that every RSCF artifact has all of these fields implemented.
 
----
+______________________________________________________________________
 
-# 42. RSCF Node
+## 42. RSCF Node
 
 **Class:** `RELATIONAL`
 
@@ -948,9 +948,9 @@ dependency
 
 according to its declared functional type.
 
----
+______________________________________________________________________
 
-# 43. RSCF Relation
+## 43. RSCF Relation
 
 **Class:** `RELATIONAL`
 
@@ -973,9 +973,9 @@ CONSUMED_BY
 
 Typed relations are preferred over generic semantic proximity when the actual relationship is known.
 
----
+______________________________________________________________________
 
-# 44. H/M/L
+## 44. H/M/L
 
 **Class:** `COGNITIVE / ARCHITECTURAL`
 
@@ -1001,9 +1001,9 @@ only as required.
 
 Raw evidence is not loaded merely because it exists.
 
----
+______________________________________________________________________
 
-# 45. Fractal Knowledge Network
+## 45. Fractal Knowledge Network
 
 **Class:** `KNOWLEDGE / COGNITIVE`
 
@@ -1017,9 +1017,9 @@ retrieve smallest sufficient dependency path
 
 rather than loading the entire knowledge corpus for every question.
 
----
+______________________________________________________________________
 
-# 46. Proof Capsule
+## 46. Proof Capsule
 
 **Class:** `EPISTEMIC / COGNITIVE`
 
@@ -1044,9 +1044,9 @@ confidence ceiling
 
 A proof capsule is reusable only while those validity conditions remain intact.
 
----
+______________________________________________________________________
 
-# 47. Invalidation
+## 47. Invalidation
 
 **Class:** `EPISTEMIC / STATE`
 
@@ -1062,9 +1062,9 @@ FAILED PREMISE
 
 rather than indiscriminate global recomputation.
 
----
+______________________________________________________________________
 
-# 48. Kernel
+## 48. Kernel
 
 **Class:** `ARCHITECTURAL / RUNTIME`
 
@@ -1086,9 +1086,9 @@ Kernel operationalizes deterministic mechanisms.
 CANON != KERNEL
 ```
 
----
+______________________________________________________________________
 
-# 49. Invariant
+## 49. Invariant
 
 **Class:** `ARCHITECTURAL / VERIFICATION`
 
@@ -1106,9 +1106,9 @@ atomicity conditions
 
 An invariant must state its scope.
 
----
+______________________________________________________________________
 
-# 50. Control Plane
+## 50. Control Plane
 
 **Class:** `ARCHITECTURAL / GOVERNANCE`
 
@@ -1124,9 +1124,9 @@ RUNTIME
 
 The control plane is not equivalent to execution workers.
 
----
+______________________________________________________________________
 
-# 51. Runtime
+## 51. Runtime
 
 **Class:** `ARCHITECTURAL / OPERATIONAL`
 
@@ -1139,9 +1139,9 @@ RUNTIME != COGNITION
 
 Runtime ability does not imply governance authority.
 
----
+______________________________________________________________________
 
-# 52. Cognitive Organism
+## 52. Cognitive Organism
 
 **Class:** `COGNITIVE / ARCHITECTURAL`
 
@@ -1166,9 +1166,9 @@ The term is architectural/model-level unless a specific implementation is explic
 ORGAN != AGENT
 ```
 
----
+______________________________________________________________________
 
-# 53. Agent
+## 53. Agent
 
 **Class:** `RUNTIME / ARCHITECTURAL`
 
@@ -1182,9 +1182,9 @@ An agent does not gain authority simply by possessing a capability.
 CAPABILITY != AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 54. Skill
+## 54. Skill
 
 **Class:** `RUNTIME / PROCEDURAL`
 
@@ -1198,9 +1198,9 @@ An agent may invoke or apply skills.
 
 The skill remains a procedural artifact rather than a worker identity.
 
----
+______________________________________________________________________
 
-# 55. Workflow
+## 55. Workflow
 
 **Class:** `RUNTIME / ORCHESTRATION`
 
@@ -1212,9 +1212,9 @@ SKILL != WORKFLOW
 
 A skill can be a node in a workflow without becoming the workflow itself.
 
----
+______________________________________________________________________
 
-# 56. Protocol
+## 56. Protocol
 
 **Class:** `INTERFACE / ARCHITECTURAL`
 
@@ -1228,9 +1228,9 @@ It is not the same as the orchestration that uses it.
 WORKFLOW != PROTOCOL
 ```
 
----
+______________________________________________________________________
 
-# 57. Capability
+## 57. Capability
 
 **Class:** `GOVERNANCE / RUNTIME`
 
@@ -1244,9 +1244,9 @@ CAPABILITY != AUTHORITY
 
 This is a hard AMOS boundary.
 
----
+______________________________________________________________________
 
-# 58. Authority
+## 58. Authority
 
 **Class:** `GOVERNANCE`
 
@@ -1265,9 +1265,9 @@ time-bounded where required
 
 Authority must never be inferred solely from capability.
 
----
+______________________________________________________________________
 
-# 59. Permission
+## 59. Permission
 
 **Class:** `SECURITY / GOVERNANCE`
 
@@ -1279,9 +1279,9 @@ TOOL != PERMISSION
 
 Possessing access to a tool does not imply permission to use every function it exposes.
 
----
+______________________________________________________________________
 
-# 60. Proposal
+## 60. Proposal
 
 **Class:** `GOVERNANCE`
 
@@ -1293,9 +1293,9 @@ PROPOSAL != COMMIT
 
 Generation of a proposal does not mutate authoritative state.
 
----
+______________________________________________________________________
 
-# 61. Commit
+## 61. Commit
 
 **Class:** `GOVERNANCE / STATE`
 
@@ -1303,9 +1303,9 @@ A governed transition that makes an approved change authoritative within a defin
 
 Commit requires appropriate authority and integrity checks.
 
----
+______________________________________________________________________
 
-# 62. State
+## 62. State
 
 **Class:** `STATE`
 
@@ -1324,9 +1324,9 @@ historical state
 
 These states must not be silently conflated.
 
----
+______________________________________________________________________
 
-# 63. Authoritative State
+## 63. Authoritative State
 
 **Class:** `STATE / GOVERNANCE`
 
@@ -1334,9 +1334,9 @@ The currently governed state accepted as authoritative for a particular scope.
 
 Not every cached, generated, candidate, or working state is authoritative.
 
----
+______________________________________________________________________
 
-# 64. Working State
+## 64. Working State
 
 **Class:** `STATE`
 
@@ -1346,9 +1346,9 @@ Mutable state used during computation, planning, simulation, or preparation befo
 WORKING STATE != AUTHORITATIVE STATE
 ```
 
----
+______________________________________________________________________
 
-# 65. Shadow State
+## 65. Shadow State
 
 **Class:** `STATE`
 
@@ -1356,9 +1356,9 @@ A non-authoritative parallel state used for comparison, testing, migration, eval
 
 A shadow result cannot silently replace authoritative state.
 
----
+______________________________________________________________________
 
-# 66. Recovery State
+## 66. Recovery State
 
 **Class:** `STATE / OPERATIONS`
 
@@ -1366,9 +1366,9 @@ A known state used to restore system integrity after failure.
 
 Recovery should prefer the nearest valid state over unnecessary global reconstruction.
 
----
+______________________________________________________________________
 
-# 67. Memory
+## 67. Memory
 
 **Class:** `MEMORY`
 
@@ -1391,9 +1391,9 @@ Memory is not canon.
 MEMORY != CANON
 ```
 
----
+______________________________________________________________________
 
-# 68. Knowledge
+## 68. Knowledge
 
 **Class:** `KNOWLEDGE`
 
@@ -1411,9 +1411,9 @@ VERIFIED FACT
 
 Each consequential knowledge item should retain provenance and conclusion class.
 
----
+______________________________________________________________________
 
-# 69. Knowledge Harvest
+## 69. Knowledge Harvest
 
 **Class:** `KNOWLEDGE / PROVENANCE`
 
@@ -1427,9 +1427,9 @@ EPHEMERAL CODE
 
 Promotion requires preservation of material provenance, dependencies, validity, environment fit, and governance state.
 
----
+______________________________________________________________________
 
-# 70. Model Registry
+## 70. Model Registry
 
 **Class:** `MODEL / ARCHITECTURAL`
 
@@ -1445,9 +1445,9 @@ empirically proven
 authorized for every decision
 ```
 
----
+______________________________________________________________________
 
-# 71. Tool
+## 71. Tool
 
 **Class:** `RUNTIME / INTERFACE`
 
@@ -1459,9 +1459,9 @@ TOOL != AUTHORITY
 TOOL != PERMISSION
 ```
 
----
+______________________________________________________________________
 
-# 72. Interface
+## 72. Interface
 
 **Class:** `INTERFACE`
 
@@ -1477,9 +1477,9 @@ agent interface
 internal service contract
 ```
 
----
+______________________________________________________________________
 
-# 73. Schema
+## 73. Schema
 
 **Class:** `ARCHITECTURAL / DATA`
 
@@ -1493,9 +1493,9 @@ VALID JSON
 VALID CLAIM
 ```
 
----
+______________________________________________________________________
 
-# 74. Observability
+## 74. Observability
 
 **Class:** `OBSERVABILITY`
 
@@ -1514,9 +1514,9 @@ Observability describes what can be inspected.
 
 It does not itself guarantee correctness.
 
----
+______________________________________________________________________
 
-# 75. Trace
+## 75. Trace
 
 **Class:** `OBSERVABILITY / PROVENANCE`
 
@@ -1526,9 +1526,9 @@ A trace may support diagnosis and provenance.
 
 It is not automatically a complete causal explanation.
 
----
+______________________________________________________________________
 
-# 76. Metric
+## 76. Metric
 
 **Class:** `OBSERVABILITY`
 
@@ -1542,9 +1542,9 @@ without measurement contract
 → potentially ambiguous
 ```
 
----
+______________________________________________________________________
 
-# 77. Security
+## 77. Security
 
 **Class:** `SECURITY`
 
@@ -1562,9 +1562,9 @@ auditability
 provenance integrity
 ```
 
----
+______________________________________________________________________
 
-# 78. Authentication
+## 78. Authentication
 
 **Class:** `SECURITY`
 
@@ -1576,17 +1576,17 @@ AUTHENTICATION != AUTHORIZATION
 
 Knowing who an actor is does not determine what the actor may do.
 
----
+______________________________________________________________________
 
-# 79. Authorization
+## 79. Authorization
 
 **Class:** `SECURITY / GOVERNANCE`
 
 Determining whether an authenticated or otherwise identified actor may perform a specific action under applicable policy.
 
----
+______________________________________________________________________
 
-# 80. Test
+## 80. Test
 
 **Class:** `VERIFICATION`
 
@@ -1600,9 +1600,9 @@ TEST PASS
 UNIVERSAL CORRECTNESS
 ```
 
----
+______________________________________________________________________
 
-# 81. Verification
+## 81. Verification
 
 **Class:** `VERIFICATION / EPISTEMIC`
 
@@ -1610,9 +1610,9 @@ Evaluation against defined requirements, invariants, or expected behavior.
 
 Verification scope must remain explicit.
 
----
+______________________________________________________________________
 
-# 82. Validation
+## 82. Validation
 
 **Class:** `VERIFICATION / EPISTEMIC`
 
@@ -1620,9 +1620,9 @@ Evaluation of whether an artifact, model, or behavior is suitable for its intend
 
 Verification and validation overlap operationally but are not identical.
 
----
+______________________________________________________________________
 
-# 83. Benchmark
+## 83. Benchmark
 
 **Class:** `VERIFICATION`
 
@@ -1636,17 +1636,17 @@ UNIVERSAL VALIDITY
 
 Benchmark conclusions inherit the benchmark's environment, dataset, assumptions, and measurement regime.
 
----
+______________________________________________________________________
 
-# 84. Operations
+## 84. Operations
 
 **Class:** `OPERATIONAL`
 
 The deployment, maintenance, incident, recovery, runbook, and lifecycle layer associated with operating AMOS systems.
 
----
+______________________________________________________________________
 
-# 85. Domain
+## 85. Domain
 
 **Class:** `ARCHITECTURAL`
 
@@ -1660,9 +1660,9 @@ DOMAIN ADAPTER
 ROOT CANON
 ```
 
----
+______________________________________________________________________
 
-# 86. Domain Adapter
+## 86. Domain Adapter
 
 **Class:** `ARCHITECTURAL / RUNTIME`
 
@@ -1672,9 +1672,9 @@ Adapters inherit applicable upstream laws.
 
 They may add local constraints but cannot silently violate root invariants.
 
----
+______________________________________________________________________
 
-# 87. Research
+## 87. Research
 
 **Class:** `EPISTEMIC`
 
@@ -1692,9 +1692,9 @@ RESEARCH
 → CANON
 ```
 
----
+______________________________________________________________________
 
-# 88. Archive
+## 88. Archive
 
 **Class:** `ARCHITECTURAL / PROVENANCE`
 
@@ -1705,9 +1705,9 @@ ARCHIVED != DELETED
 ARCHIVED != CURRENT CANON
 ```
 
----
+______________________________________________________________________
 
-# 89. Supersession
+## 89. Supersession
 
 **Class:** `PROVENANCE / GOVERNANCE`
 
@@ -1723,9 +1723,9 @@ does not mean A and B are aliases.
 SUPERSEDES != ALIAS_OF
 ```
 
----
+______________________________________________________________________
 
-# 90. Alias
+## 90. Alias
 
 **Class:** `IDENTITY`
 
@@ -1737,9 +1737,9 @@ ALIAS != IDENTITY
 
 Alias semantics are governed by `ALIASES.md`.
 
----
+______________________________________________________________________
 
-# 91. Identity
+## 91. Identity
 
 **Class:** `IDENTITY / ARCHITECTURAL`
 
@@ -1761,9 +1761,9 @@ ALIAS
 VERSION
 ```
 
----
+______________________________________________________________________
 
-# 92. Version
+## 92. Version
 
 **Class:** `PROVENANCE / LIFECYCLE`
 
@@ -1779,9 +1779,9 @@ UNKNOWN/GAP
 
 It must not be inferred solely from a filename or modification timestamp.
 
----
+______________________________________________________________________
 
-# 93. Lineage
+## 93. Lineage
 
 **Class:** `PROVENANCE`
 
@@ -1809,9 +1809,9 @@ v3.0
 
 This is an architectural lineage model, not a claim that every conversational runtime literally implements distributed-system mechanisms described by the source architecture.
 
----
+______________________________________________________________________
 
-# 94. MVCC
+## 94. MVCC
 
 **Class:** `STATE / MODEL`
 
@@ -1830,9 +1830,9 @@ READ VERSION
 
 This glossary does not claim that all AMOS implementations use a database-grade MVCC implementation.
 
----
+______________________________________________________________________
 
-# 95. CAS
+## 95. CAS
 
 **Class:** `STATE / MODEL`
 
@@ -1850,9 +1850,9 @@ Within AMOS, CAS concepts support guarded transitions and conflict awareness.
 
 Conceptual use must not be confused with proof of a specific hardware or storage primitive.
 
----
+______________________________________________________________________
 
-# 96. Atomicity
+## 96. Atomicity
 
 **Class:** `STATE / RUNTIME`
 
@@ -1870,9 +1870,9 @@ otherwise
 
 The exact implementation depends on the relevant runtime.
 
----
+______________________________________________________________________
 
-# 97. Causal Epoch
+## 97. Causal Epoch
 
 **Class:** `STATE / CAUSAL`
 
@@ -1888,9 +1888,9 @@ distributed consensus round
 
 unless the implementation explicitly defines that equivalence.
 
----
+______________________________________________________________________
 
-# 98. Finality
+## 98. Finality
 
 **Class:** `STATE / GOVERNANCE`
 
@@ -1910,9 +1910,9 @@ depending on the architecture.
 
 The scope must be stated.
 
----
+______________________________________________________________________
 
-# 99. Shard
+## 99. Shard
 
 **Class:** `ARCHITECTURAL / MODEL`
 
@@ -1926,9 +1926,9 @@ LOCAL FINALITY
 GLOBAL FINALITY
 ```
 
----
+______________________________________________________________________
 
-# 100. Coordination Avoidance
+## 100. Coordination Avoidance
 
 **Class:** `ARCHITECTURAL / RUNTIME`
 
@@ -1948,9 +1948,9 @@ proof of safe locality
 → coordination may be unnecessary
 ```
 
----
+______________________________________________________________________
 
-# 101. Proof-Based Coordination Avoidance
+## 101. Proof-Based Coordination Avoidance
 
 **Class:** `ARCHITECTURAL / GOVERNANCE`
 
@@ -1971,9 +1971,9 @@ authority scope
 
 If these cannot be established, escalation is required.
 
----
+______________________________________________________________________
 
-# 102. Fast Path
+## 102. Fast Path
 
 **Class:** `COGNITIVE / RUNTIME`
 
@@ -1987,9 +1987,9 @@ LOW-QUALITY PATH
 
 A fast path is permitted only when uncertainty and dependency conditions support locality.
 
----
+______________________________________________________________________
 
-# 103. Escalation
+## 103. Escalation
 
 **Class:** `COGNITIVE / GOVERNANCE`
 
@@ -2008,9 +2008,9 @@ irreversible stakes
 ambiguous dependencies
 ```
 
----
+______________________________________________________________________
 
-# 104. Adaptive Complexity
+## 104. Adaptive Complexity
 
 **Class:** `COGNITIVE`
 
@@ -2026,9 +2026,9 @@ C4 Maximum
 
 The system should begin at the lowest sufficient level and escalate only when decision-changing uncertainty warrants additional reasoning.
 
----
+______________________________________________________________________
 
-# 105. Adversarial Validation
+## 105. Adversarial Validation
 
 **Class:** `EPISTEMIC / COGNITIVE`
 
@@ -2048,9 +2048,9 @@ stronger alternatives
 
 If the challenge succeeds, the conclusion must be downgraded, conditioned, preserved as competing, or returned as unknown.
 
----
+______________________________________________________________________
 
-# 106. Contradiction
+## 106. Contradiction
 
 **Class:** `EPISTEMIC`
 
@@ -2064,9 +2064,9 @@ CONTRADICTION
 NOISE TO DELETE
 ```
 
----
+______________________________________________________________________
 
-# 107. Conflict
+## 107. Conflict
 
 **Class:** `STATE / GOVERNANCE`
 
@@ -2076,9 +2076,9 @@ Conflict must be explicitly handled.
 
 It is not resolved merely by choosing the newest or most confident candidate.
 
----
+______________________________________________________________________
 
-# 108. Recovery
+## 108. Recovery
 
 **Class:** `OPERATIONS / STATE`
 
@@ -2096,9 +2096,9 @@ INVALIDATE FAILED PREMISE
 
 Global recomputation is a last resort.
 
----
+______________________________________________________________________
 
-# 109. Rollback
+## 109. Rollback
 
 **Class:** `STATE / OPERATIONS`
 
@@ -2113,9 +2113,9 @@ what was restored
 what remains valid
 ```
 
----
+______________________________________________________________________
 
-# 110. Reversibility
+## 110. Reversibility
 
 **Class:** `GOVERNANCE / OPERATIONS`
 
@@ -2132,9 +2132,9 @@ observable
 
 actions over irreversible commitments when expected decision value permits.
 
----
+______________________________________________________________________
 
-# 111. Governance
+## 111. Governance
 
 **Class:** `GOVERNANCE`
 
@@ -2156,9 +2156,9 @@ Governance does not mean all decisions require centralized control.
 
 It defines who or what is authorized under which conditions.
 
----
+______________________________________________________________________
 
-# 112. Promotion
+## 112. Promotion
 
 **Class:** `GOVERNANCE / LIFECYCLE`
 
@@ -2177,9 +2177,9 @@ only where evidence supports each transition.
 
 File existence alone cannot trigger promotion.
 
----
+______________________________________________________________________
 
-# 113. Placeholder
+## 113. Placeholder
 
 **Class:** `LIFECYCLE`
 
@@ -2197,9 +2197,9 @@ FINAL CANON
 
 A placeholder must not be treated as evidence merely because it exists in a canonical directory.
 
----
+______________________________________________________________________
 
-# 114. Registry
+## 114. Registry
 
 **Class:** `ARCHITECTURAL`
 
@@ -2218,9 +2218,9 @@ CANONICAL_GLOSSARY
 
 Registry authority is local to its declared domain.
 
----
+______________________________________________________________________
 
-# 115. Symbol
+## 115. Symbol
 
 **Class:** `MATHEMATICAL / IDENTITY`
 
@@ -2233,9 +2233,9 @@ SYMBOL != SEMANTIC IDENTITY
 
 Symbol meaning is governed by the Symbol Registry.
 
----
+______________________________________________________________________
 
-# 116. Unit
+## 116. Unit
 
 **Class:** `MATHEMATICAL / MEASUREMENT`
 
@@ -2243,9 +2243,9 @@ A defined measurement unit associated with a quantity.
 
 A numeric value without an applicable unit or measurement contract may be semantically incomplete.
 
----
+______________________________________________________________________
 
-# 117. Universal Variable
+## 117. Universal Variable
 
 **Class:** `MATHEMATICAL / IDENTITY`
 
@@ -2259,9 +2259,9 @@ VARIABLE IDENTITY
 DISPLAY SYMBOL
 ```
 
----
+______________________________________________________________________
 
-# 118. Cognitive Matrix
+## 118. Cognitive Matrix
 
 **Class:** `COGNITIVE / MODEL`
 
@@ -2277,9 +2277,9 @@ SHARED 19×19 GEOMETRY
 SHARED SEMANTICS
 ```
 
----
+______________________________________________________________________
 
-# 119. Structural Model
+## 119. Structural Model
 
 **Class:** `MODEL`
 
@@ -2293,9 +2293,9 @@ STRUCTURAL_MODEL
 
 until stronger evidence exists.
 
----
+______________________________________________________________________
 
-# 120. Semantic Identity
+## 120. Semantic Identity
 
 **Class:** `IDENTITY`
 
@@ -2303,9 +2303,9 @@ The meaning-preserving identity of a concept independently of its filename, alia
 
 Canonical identity resolution must protect semantic identity from accidental renaming or structural similarity.
 
----
+______________________________________________________________________
 
-# 121. Semantic Drift
+## 121. Semantic Drift
 
 **Class:** `EPISTEMIC / GOVERNANCE`
 
@@ -2320,9 +2320,9 @@ TERM T at time₁
 
 without an explicit semantic revision.
 
----
+______________________________________________________________________
 
-# 122. Semantic Collision
+## 122. Semantic Collision
 
 **Class:** `IDENTITY / GOVERNANCE`
 
@@ -2341,9 +2341,9 @@ UNKNOWN/GAP
 
 Silent merging is not permitted.
 
----
+______________________________________________________________________
 
-# 123. Structural Similarity
+## 123. Structural Similarity
 
 **Class:** `MODEL`
 
@@ -2361,9 +2361,9 @@ CAUSATION
 
 Structural similarity may motivate a model or hypothesis but cannot establish equivalence by itself.
 
----
+______________________________________________________________________
 
-# 124. Applicability Envelope
+## 124. Applicability Envelope
 
 **Class:** `EPISTEMIC`
 
@@ -2386,9 +2386,9 @@ E = {
 
 Important conclusions inherit the envelope of their load-bearing evidence.
 
----
+______________________________________________________________________
 
-# 125. Local Trust
+## 125. Local Trust
 
 **Class:** `EPISTEMIC / GOVERNANCE`
 
@@ -2416,9 +2416,9 @@ does not imply:
 TRUSTED FOR EVERYTHING
 ```
 
----
+______________________________________________________________________
 
-# 126. Decision-Relevant Uncertainty
+## 126. Decision-Relevant Uncertainty
 
 **Class:** `EPISTEMIC`
 
@@ -2426,9 +2426,9 @@ Uncertainty capable of changing the selected decision, conclusion, or action.
 
 AMOS prioritizes resolving decision-relevant uncertainty over exhaustive background completeness.
 
----
+______________________________________________________________________
 
-# 127. Uncertainty Vector
+## 127. Uncertainty Vector
 
 **Class:** `EPISTEMIC`
 
@@ -2446,9 +2446,9 @@ provenance-independence uncertainty
 
 Collapsing all uncertainty into one confidence number can conceal materially different failure modes.
 
----
+______________________________________________________________________
 
-# 128. Gap Class
+## 128. Gap Class
 
 **Class:** `EPISTEMIC`
 
@@ -2465,9 +2465,9 @@ Resolution order follows the same sequence.
 
 A critical unresolved gap can block a conclusion or action.
 
----
+______________________________________________________________________
 
-# 129. Action Sufficiency
+## 129. Action Sufficiency
 
 **Class:** `GOVERNANCE / COGNITIVE`
 
@@ -2483,9 +2483,9 @@ ACTION SUFFICIENCY
 
 They need not occur simultaneously.
 
----
+______________________________________________________________________
 
-# 130. Anti-Regression
+## 130. Anti-Regression
 
 **Class:** `GOVERNANCE / VERIFICATION`
 
@@ -2506,9 +2506,9 @@ user fit
 
 An optimization failing these gates should be rejected or rolled back.
 
----
+______________________________________________________________________
 
-# 131. Canonical Semantic Firewalls
+## 131. Canonical Semantic Firewalls
 
 The following inequalities are canonical AMOS semantic boundaries:
 
@@ -2556,9 +2556,9 @@ LOCAL_FINALITY != GLOBAL_FINALITY
 
 These distinctions should remain stable unless explicitly superseded through canon governance.
 
----
+______________________________________________________________________
 
-# 132. Semantic Resolution Procedure
+## 132. Semantic Resolution Procedure
 
 When an AMOS term is encountered:
 
@@ -2588,9 +2588,9 @@ Semantic similarity may aid discovery.
 
 It must not silently establish canon.
 
----
+______________________________________________________________________
 
-# 133. Definition Precedence
+## 133. Definition Precedence
 
 Where definitions conflict, resolution should consider:
 
@@ -2607,9 +2607,9 @@ Where definitions conflict, resolution should consider:
 
 A lower layer cannot silently overwrite a higher authoritative definition.
 
----
+______________________________________________________________________
 
-# 134. Domain Specialization
+## 134. Domain Specialization
 
 A domain MAY specialize a canonical term.
 
@@ -2645,9 +2645,9 @@ DOMAIN USAGE
 → silently rewrite root canon
 ```
 
----
+______________________________________________________________________
 
-# 135. Cross-Version Semantic Continuity
+## 135. Cross-Version Semantic Continuity
 
 When AMOS evolves:
 
@@ -2674,9 +2674,9 @@ This protects reasoning and provenance across versions.
 
 A filename change alone is insufficient evidence of semantic change.
 
----
+______________________________________________________________________
 
-# 136. Glossary Change Contract
+## 136. Glossary Change Contract
 
 Canonical terminology changes SHOULD record:
 
@@ -2696,9 +2696,9 @@ approved_by: ""
 
 Consequential semantic changes require dependency review.
 
----
+______________________________________________________________________
 
-# 137. Failure Modes
+## 137. Failure Modes
 
 | Failure                                     | Required response              |
 | ------------------------------------------- | ------------------------------ |
@@ -2716,9 +2716,9 @@ Consequential semantic changes require dependency review.
 | Source claim mistaken for verification      | downgrade                      |
 | Deprecated definition used as current       | follow supersession            |
 
----
+______________________________________________________________________
 
-# 138. Integrity Invariants
+## 138. Integrity Invariants
 
 ### G1 — Canonical meaning is explicit
 
@@ -2782,9 +2782,9 @@ Definitions and changes should retain source lineage.
 
 Conflicting definitions cannot be silently averaged or merged.
 
----
+______________________________________________________________________
 
-# 139. Validation Checklist
+## 139. Validation Checklist
 
 Before promoting this glossary beyond its current model/source-claim state:
 
@@ -2813,9 +2813,9 @@ Before promoting this glossary beyond its current model/source-claim state:
 [ ] unresolved terms marked UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 140. Canonical Summary
+## 140. Canonical Summary
 
 The glossary's core semantic contract is:
 
@@ -2866,7 +2866,7 @@ UNKNOWN/GAP
 
 is the canonical safe state.
 
----
+______________________________________________________________________
 
 ## RSCF Node
 
@@ -2930,12 +2930,14 @@ ALIASES ·
 ```text
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 **MOC:** [[01_CANON/06_GLOSSARY/06_GLOSSARY_MOC|06_GLOSSARY_MOC]]

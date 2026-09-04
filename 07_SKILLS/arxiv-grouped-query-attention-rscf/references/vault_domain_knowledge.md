@@ -1,19 +1,22 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Vault Domain Knowledge — Arxiv Grouped Query Attention Rscf
 type: reference
 source: 07_SKILLS/arxiv-grouped-query-attention-rscf/references
 tags:
-- reference
-- arxiv-grouped-query-attention-rscf
-- type/skill
-- amos-build-from-spec
-- 2026-08-22-brain-inventory
-- 2026-08-22-executable-code-internals
-- 2026-08-22-amos-full-brain-os-architecture
-- canon
-- 2026-08-22-amos-go-board-19x19-formal-system
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - arxiv-grouped-query-attention-rscf
+  - type/skill
+  - amos-build-from-spec
+  - 2026-08-22-brain-inventory
+  - 2026-08-22-executable-code-internals
+  - 2026-08-22-amos-full-brain-os-architecture
+  - canon
+  - 2026-08-22-amos-go-board-19x19-formal-system
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -33,7 +36,7 @@ rscf:
 
 > Path: `dated/2026-08-23/2026-08-23 AMOS Cognitive Substrate Query and Tag Retrieval.md` | Size: 5905 chars | Match score: 10
 
-# AMOS Cognitive Substrate Query and Tag Retrieval
+## AMOS Cognitive Substrate Query and Tag Retrieval
 
 > Epistemic class: OBSERVATION
 > Conclusion label: `VERIFIED` — Added query() and retrieve_by_tag() methods with
@@ -100,26 +103,25 @@ captures transitions. The `transition_mode()` method now appends a
    means "applies everywhere". Only objects with explicit scope values are
    filtered by scope mismatch.
 
-2. **Trust state filtering**: `query()` only returns TRUSTED and PROVISIONAL
+1. **Trust state filtering**: `query()` only returns TRUSTED and PROVISIONAL
    objects by default. QUARANTINED, REVOKED, FALSIFIED, and STALE objects are
    excluded unless explicitly requested via `trust_states` parameter.
 
-3. **Lexical matching**: The query uses simple term overlap scoring. This is
+1. **Lexical matching**: The query uses simple term overlap scoring. This is
    intentionally simple — the cognitive substrate is a mechanistic reasoning
    layer, not a search engine. Semantic matching would require embedding
    comparison which is a higher-level concern.
 
-4. **MetaCognitiveEvent vs MetaCognitiveSnapshot**: Events capture transitions
+1. **MetaCognitiveEvent vs MetaCognitiveSnapshot**: Events capture transitions
    (w
 
----
+______________________________________________________________________
 
 ### Source 2: Archive subfolder: md
 
 > Path: `indexes/INDEX_md_v2.md` | Size: 62031 chars | Match score: 3
 
-# Archive subfolder: md
-
+## Archive subfolder: md
 
 - automation profiles
 - Automation Engine Model
@@ -194,16 +196,15 @@ captures transitions. The `transition_mode()` method now appends a
 - 2026-08-22 The Complete Human System — Books One–Six
 - [[11_KNOWLEDGE/stubs/19|19]]
 
----
+______________________________________________________________________
 
 ### Source 3: RSCF Structural Tag Migration
 
 > Path: `rscf/RSCF Structural Tag Migration.md` | Size: 22332 chars | Match score: 3
 
-# RSCF Structural Tag Migration
+## RSCF Structural Tag Migration
 
 ## Overview
-
 
 The migration operates on a bounded registry of Markdown files and transforms:
 
@@ -217,19 +218,19 @@ The source implementation defines migration mappings for AMOS, Cosmo Brain, form
 
 The architectural purpose is:
 
-[
-\boxed{
+\[
+\\boxed{
 LegacyMetadata
-\rightarrow
+\\rightarrow
 TypedRSCFMetadata
 }
-]
+\]
 
 while preserving document content outside the targeted metadata field.
 
----
+______________________________________________________________________
 
-# 1. Migration Objective
+## 1. Migration Objective
 
 The migration replaces legacy tag structures such as:
 
@@ -261,48 +262,44 @@ to:
 typed RSCF structural coordinates
 ```
 
----
+______________________________________________________________________
 
-# 2. Core Transformation
+## 2. Core Transformation
 
 For each registered file:
 
-[
+\[
 F_i=
 (
 Path_i,
 Pattern_i,
 Replacement_i
 )
-]
+\]
 
 the migration performs:
 
-[
-Content'_i
-==========
+## \[ Content'\_i
 
 Replace(
 Content_i,
 Pattern_i,
 Replacement_i
 )
-]
+\]
 
 subject to the invariant:
 
-[
-Body(Content'_i)
-================
+## \[ Body(Content'\_i)
 
 Body(Content_i)
-]
+\]
 
 except for explicitly targeted metadata cleanup.
 
----
+______________________________________________________________________
 
-# 3. Migration Registry
+## 3. Migration Registry
 
 The migration registry is explicit rather than dynamically inferred.
 
@@ -332,9 +329,9 @@ MIGRATIONS
 
 This preserves deterministic behavior.
 
----
+______________________________________________________________________
 
-# 4. RSCF Structural Axes
+## 4. RSCF Structural Axes
 
 The target taxonomy includes multiple RSCF structural dimensions.
 
@@ -354,9 +351,9 @@ inventory boundaries
 canonical separation
 ```
 
----
+______________________________________________________________________
 
-# 5. Constraint
+## 5. Constraint
 
 ```text
 rscf/C-constraint
@@ -371,9 +368,9 @@ canon constraints
 structural admissibility
 ```
 
----
+______________________________________________________________________
 
-# 6. Relation
+## 6. Relation
 
 ```text
 rscf/G-relation
@@ -388,9 +385,9 @@ dependency
 cross-component relation
 ```
 
----
+______________________________________________________________________
 
-# 7. State
+## 7. State
 
 ```text
 rscf/S-state
@@ -406,9 +403,9 @@ system state
 dynamic configuration
 ```
 
----
+______________________________________________________________________
 
-# 8. Topology
+## 8. Topology
 
 ```text
 rscf/T-topology
@@ -424,9 +421,9 @@ connectivity
 spatial organization
 ```
 
----
+______________________________________________________________________
 
-# 9. Memory
+## 9. Memory
 
 ```text
 rscf/M-memory
@@ -442,9 +439,9 @@ memory architecture
 vault persistence
 ```
 
----
+______________________________________________________________________
 
-# 10. Compression
+## 10. Compression
 
 ```text
 rscf/K-compression
@@ -459,9 +456,9 @@ bridge compression
 structural abstraction
 ```
 
----
+______________________________________________________________________
 
-# 11. Repair
+## 11. Repair
 
 ```text
 rscf/P-
@@ -469,7 +466,8 @@ rscf/P-
 ---
 **MOC:**
 ```
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -477,13 +475,14 @@ rscf/P-
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: arxiv-grouped-query-attention-rscf-vault-domain-knowledge
 node_type: reference
 path: 07_SKILLS/arxiv-grouped-query-attention-rscf/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC
-

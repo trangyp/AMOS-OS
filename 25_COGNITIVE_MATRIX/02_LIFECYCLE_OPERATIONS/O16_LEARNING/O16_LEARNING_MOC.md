@@ -1,26 +1,29 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: O16 Learning MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O16_LEARNING
 tags:
-- o16-learning
-- domain/cognitive-matrix
-- cognitive-matrix-input-output
-- cognitive-matrix-postconditions
-- cognitive-matrix-preconditions
-- cognitive-matrix-state-transitions
-- lifecycle-operations-cognitive-matrix-agents
-- lifecycle-operations-cognitive-matrix-definition
-- lifecycle-operations-cognitive-matrix-dependencies
-- lifecycle-operations-cognitive-matrix-gap-matrix
-- lifecycle-operations-cognitive-matrix-hml
-- lifecycle-operations-cognitive-matrix-invariants
-- lifecycle-operations-cognitive-matrix-protocols
-- lifecycle-operations-cognitive-matrix-rscf
-- lifecycle-operations-cognitive-matrix-semantics
-- lifecycle-operations-cognitive-matrix-skills
-- lifecycle-operations-cognitive-matrix-tests
-- lifecycle-operations-cognitive-matrix-workflows
+  - o16-learning
+  - domain/cognitive-matrix
+  - cognitive-matrix-input-output
+  - cognitive-matrix-postconditions
+  - cognitive-matrix-preconditions
+  - cognitive-matrix-state-transitions
+  - lifecycle-operations-cognitive-matrix-agents
+  - lifecycle-operations-cognitive-matrix-definition
+  - lifecycle-operations-cognitive-matrix-dependencies
+  - lifecycle-operations-cognitive-matrix-gap-matrix
+  - lifecycle-operations-cognitive-matrix-hml
+  - lifecycle-operations-cognitive-matrix-invariants
+  - lifecycle-operations-cognitive-matrix-protocols
+  - lifecycle-operations-cognitive-matrix-rscf
+  - lifecycle-operations-cognitive-matrix-semantics
+  - lifecycle-operations-cognitive-matrix-skills
+  - lifecycle-operations-cognitive-matrix-tests
+  - lifecycle-operations-cognitive-matrix-workflows
 moc: true
 rscf:
   state: DERIVED
@@ -61,5 +64,6 @@ rscf:
 
 - [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]] — 00_INDEX
 
----
+______________________________________________________________________
+
 **Parent:** [[25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/02_LIFECYCLE_OPERATIONS_MOC|02_LIFECYCLE_OPERATIONS_MOC]]

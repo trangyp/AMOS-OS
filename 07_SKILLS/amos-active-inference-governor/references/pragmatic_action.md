@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: pragmatic action
 type: reference
 source: 07_SKILLS/amos-active-inference-governor/references
 tags:
-- reference
-- amos-active-inference-governor
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-active-inference-governor
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -19,7 +22,7 @@ rscf:
 
 > Load this reference when detailed pragmatic action reasoning is needed.
 
----
+______________________________________________________________________
 
 ## Pragmatic action
 
@@ -43,9 +46,9 @@ SUFFICIENT_CERTAINTY + AUTHORITY
 → pragmatic action may become eligible
 ```
 
----
+______________________________________________________________________
 
-# 5. GOVERN
+## 5. GOVERN
 
 No candidate action is eligible merely because it reduces prediction error.
 
@@ -74,9 +77,9 @@ For high-stakes actions add:
 - commit-time revalidation
 - rollback path
 
----
+______________________________________________________________________
 
-# Active-Inference Governance Firewall
+## Active-Inference Governance Firewall
 
 Maintain:
 
@@ -91,9 +94,9 @@ INFORMATION_GAIN != PRIVACY_PERMISSION
 
 The governor must reject an apparently optimal action if it violates a higher-order constraint.
 
----
+______________________________________________________________________
 
-# Preferences and Goals
+## Preferences and Goals
 
 Represent preferences explicitly.
 
@@ -122,9 +125,9 @@ safety_requirement
 
 Do not collapse them into one reward function.
 
----
+______________________________________________________________________
 
-# Preference Hierarchy
+## Preference Hierarchy
 
 Apply higher-order constraints before local optimization.
 
@@ -141,9 +144,9 @@ hard safety / platform constraints
 
 Do not allow a lower-order predicted benefit to override a higher-order invariant.
 
----
+______________________________________________________________________
 
-# 6. SELECT
+## 6. SELECT
 
 Choose the smallest sufficient admissible action.
 
@@ -163,9 +166,9 @@ scope
 
 Do not optimize a single metric in isolation.
 
----
+______________________________________________________________________
 
-# Candidate Action State
+## Candidate Action State
 
 Represent:
 
@@ -198,9 +201,9 @@ COMPETING
 UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# Action Selection Rule
+## Action Selection Rule
 
 Prefer:
 
@@ -218,9 +221,9 @@ When two actions are materially indistinguishable:
 
 do not manufacture precision.
 
----
+______________________________________________________________________
 
-# 7. ACT OR OBSERVE
+## 7. ACT OR OBSERVE
 
 Return one governed transition:
 
@@ -239,9 +242,9 @@ No action is a valid result.
 
 Do not interpret inactivity as governor failure.
 
----
+______________________________________________________________________
 
-# 8. MEASURE
+## 8. MEASURE
 
 After action, measure actual consequences where evidence is available.
 
@@ -271,9 +274,9 @@ Outcome = [
 
 Do not fabricate outcome evidence.
 
----
+______________________________________________________________________
 
-# 9. UPDATE
+## 9. UPDATE
 
 Update only beliefs whose dependencies changed.
 
@@ -290,9 +293,9 @@ Preserve unaffected conclusions.
 
 Avoid global belief reset unless dependency closure requires it.
 
----
+______________________________________________________________________
 
-# Selective Belief Revision
+## Selective Belief Revision
 
 If:
 
@@ -307,9 +310,9 @@ invalidate or downgrade `H1`.
 
 Do not automatically invalidate `H2`.
 
----
+______________________________________________________________________
 
-# 10. STOP OR CONTINUE
+## 10. STOP OR CONTINUE
 
 Do not create endless prediction-correction loops.
 
@@ -334,9 +337,9 @@ Also stop when:
 - further iteration has low value
 - user objective is already satisfied
 
----
+______________________________________________________________________
 
-# Expected Free Energy Boundary
+## Expected Free Energy Boundary
 
 If using expected-free-energy-style terminology, treat it strictly as an `AMOS_MODEL` unless the user explicitly requests established active inference theory and independent sources are loaded.
 
@@ -356,9 +359,9 @@ Do not present this as the canonical Friston free-energy equation unless using a
 
 Do not invent neuroscience equations from AMOS notation.
 
----
+______________________________________________________________________
 
-# Reality / Model Distinction
+## Reality / Model Distinction
 
 Maintain:
 
@@ -378,9 +381,9 @@ The governor operates on representations.
 
 It does not have direct access to all real-world state.
 
----
+______________________________________________________________________
 
-# Observer Effect
+## Observer Effect
 
 Treat observer influence conservatively.
 
@@ -394,9 +397,9 @@ An observation process may alter:
 
 Do not invoke quantum observer language unless the domain genuinely requires quantum mechanics.
 
----
+______________________________________________________________________
 
-# Embodiment Firewall
+## Embodiment Firewall
 
 Active inference often appears in biological or embodied contexts.
 
@@ -413,9 +416,9 @@ unless an external system explicitly supplies sensors or actuator state.
 
 Model embodiment only from supplied evidence.
 
----
+______________________________________________________________________
 
-# Mind / Behavior Boundary
+## Mind / Behavior Boundary
 
 When reasoning about humans:
 
@@ -437,9 +440,9 @@ behavior
 → definitive internal state
 ```
 
----
+______________________________________________________________________
 
-# Causal Firewall
+## Causal Firewall
 
 Distinguish:
 
@@ -459,9 +462,9 @@ A model that predicts behavior does not automatically explain its cause.
 
 An intervention that changes prediction error does not establish the mechanism responsible.
 
----
+______________________________________________________________________
 
-# Multi-Scale Runtime
+## Multi-Scale Runtime
 
 When relevant use:
 
@@ -486,9 +489,9 @@ H governing constraints
 
 Reject local optimization that damages higher-scale viability.
 
----
+______________________________________________________________________
 
-# Multi-Agent Active Inference
+## Multi-Agent Active Inference
 
 For multiple agents, keep their models separate.
 
@@ -515,9 +518,9 @@ AgentA.authority == AgentB.authority
 
 Shared action requires explicit coordination.
 
----
+______________________________________________________________________
 
-# Information Manipulation Risk
+## Information Manipulation Risk
 
 In multi-agent systems, an agent may benefit from changing another agent's beliefs.
 
@@ -531,9 +534,9 @@ epistemic_integrity_for_B
 
 Do not permit deceptive information shaping merely because it improves predicted coordination.
 
----
+______________________________________________________________________
 
-# FreezeZone Integration
+## FreezeZone Integration
 
 The supplied AMOS Brain reports describe FreezeZone-style governance behavior.
 
@@ -555,9 +558,9 @@ FreezeCondition = configured policy condition
 
 rather than hardcoding historical values.
 
----
+______________________________________________________________________
 
-# Governance SSOT Integration
+## Governance SSOT Integration
 
 When a governing source-of-truth exists:
 
@@ -571,9 +574,9 @@ Do not allow the prediction loop to mutate its own governing authority.
 
 Governance changes require a separate authorized change process.
 
----
+______________________________________________________________________
 
-# Objective Validation
+## Objective Validation
 
 Before optimizing:
 
@@ -596,9 +599,9 @@ OPTIMIZATION_SUCCESS
 OBJECTIVE_VALIDITY
 ```
 
----
+______________________________________________________________________
 
-# Goodhart Firewall
+## Goodhart Firewall
 
 If the active loop optimizes a proxy, monitor whether the proxy detaches from the real objective.
 
@@ -626,9 +629,9 @@ When proxy drift appears:
 
 stop optimization and revalidate the objective.
 
----
+______________________________________________________________________
 
-# Evidence Integrity
+## Evidence Integrity
 
 The supplied AMOS Brain architecture emphasizes evidence-bound operation.
 
@@ -645,9 +648,9 @@ contradiction
 
 Multiple descendants of one source do not constitute independent confirmation.
 
----
+______________________________________________________________________
 
-# Contradiction Handling
+## Contradiction Handling
 
 If evidence supports incompatible models:
 
@@ -666,9 +669,9 @@ Do not select one merely because it produces a lower modeled error.
 
 Prefer the cheapest high-information discriminating test.
 
----
+______________________________________________________________________
 
-# Uncertainty Vector
+## Uncertainty Vector
 
 When material, separate:
 
@@ -686,9 +689,9 @@ U = [
 
 Do not collapse all uncertainty into one scalar unless a valid aggregation rule exists.
 
----
+______________________________________________________________________
 
-# Prediction State
+## Prediction State
 
 Represent predictions with:
 
@@ -707,9 +710,9 @@ Prediction = [
 
 Never store a prediction later as an observation unless outcome evidence is acquired.
 
----
+______________________________________________________________________
 
-# Prediction Governance
+## Prediction Governance
 
 For consequential forecasts require:
 
@@ -732,9 +735,9 @@ A prediction informs a decision.
 
 It does not determine it.
 
----
+______________________________________________________________________
 
-# RSCF Integration
+## RSCF Integration
 
 For consequential active-inference conclusions use:
 
@@ -761,9 +764,9 @@ CONFIDENCE_CEILING:
 
 Keep the proof capsule as small as possible.
 
----
+______________________________________________________________________
 
-# GMEF Integration
+## GMEF Integration
 
 If the loop proposes changing its own:
 
@@ -790,9 +793,9 @@ change proposal
 
 Do not let the active-inference loop self-authorize structural evolution.
 
----
+______________________________________________________________________
 
-# Sensitivity Test
+## Sensitivity Test
 
 Identify the smallest premise capable of changing the selected action.
 
@@ -813,9 +816,9 @@ classify the result:
 
 `CONDITIONAL`
 
----
+______________________________________________________________________
 
-# Failure Modes
+## Failure Modes
 
 Monitor for:
 
@@ -837,9 +840,9 @@ ENDLESS_LOOP
 
 Do not treat lower prediction error as proof that the loop is healthy.
 
----
+______________________________________________________________________
 
-# Self-Fulfilling Prediction Firewall
+## Self-Fulfilling Prediction Firewall
 
 An action may make its own prediction appear correct.
 
@@ -862,9 +865,9 @@ from
 INTERVENTION_CONDITIONED_OUTCOME
 ```
 
----
+______________________________________________________________________
 
-# Recovery
+## Recovery
 
 When the active-inference loop becomes unreliable:
 
@@ -882,9 +885,9 @@ FREEZE
 
 Do not erase valid state unnecessarily.
 
----
+______________________________________________________________________
 
-# Decision Outcomes
+## Decision Outcomes
 
 Return one of:
 
@@ -904,9 +907,9 @@ STOP
 
 Use `NO_ACTION` when action would reduce integrity.
 
----
+______________________________________________________________________
 
-# Parent Routing Contract
+## Parent Routing Contract
 
 When called by `amos-c05-mind-behavior-master`, accept:
 
@@ -943,9 +946,9 @@ provenance
 invalidation_conditions
 ```
 
----
+______________________________________________________________________
 
-# Default Output
+## Default Output
 
 Use:
 
@@ -968,17 +971,19 @@ Invalidates if:
 
 For simple cases compress aggressively.
 
----
+______________________________________________________________________
 
-# Validation Gates
+## Validation Gates
 
----
+______________________________________________________________________
+
 **MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -986,13 +991,14 @@ For simple cases compress aggressively.
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-active-inference-governor-pragmatic-action
 node_type: reference
 path: 07_SKILLS/amos-active-inference-governor/references/pragmatic_action.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC
-

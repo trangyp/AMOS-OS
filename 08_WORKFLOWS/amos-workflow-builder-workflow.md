@@ -5,17 +5,16 @@ source: 08_WORKFLOWS
 Type: Workflow
 Skill: amos-workflow-builder
 Agent: amos-workflow-builder-agent
-Trigger: When creating, updating, auditing, or packaging AMOS-aligned workflows with
-  validation gates and agent bindings
+Trigger: When creating, updating, auditing, or packaging AMOS-aligned workflows with validation gates and agent bindings
 Version: 1.0.0
 tags:
-- type/workflow
-- type/workflow
-- domain/os-runtime
-- epistemic/source_claim
-- hml/m
-- epistemic/source_claim
-- amos-os
+  - type/workflow
+  - type/workflow
+  - domain/os-runtime
+  - epistemic/source_claim
+  - hml/m
+  - epistemic/source_claim
+  - amos-os
 rscf:
   state: AMOS_MODEL
   claim_class: EMPIRICAL
@@ -27,23 +26,23 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: M
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
-- L7_authority
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
+  - L7_authority
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L7
-- L16
-- L17
-- L18
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L7
+  - L16
+  - L17
+  - L18
 domain: workflow
 ---
 
@@ -52,7 +51,6 @@ domain: workflow
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
-
 
 ## Preconditions
 
@@ -65,24 +63,28 @@ Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic clas
 ## Phases
 
 ### Phase 1: ORIENT
+
 - **Gate**: skill_loaded
 - Load the amos-workflow-builder skill and its content
 - Classify the query against workflow builder sub-capabilities
 - Confirm domain, scope, and binding
 
 ### Phase 2: GAP
+
 - **Gate**: domain_confirmed
 - Identify the workflow gap or requirement
 - Classify gap type: missing workflow, broken workflow, incomplete workflow
 - Assess severity and urgency
 
 ### Phase 3: SOURCE
+
 - **Gate**: epistemic_labeled
 - Gather source material from skill content, vault, and existing workflows
 - Label all sources with epistemic class (SOURCE / DERIVED / AMOS_MODEL / EMPIRICAL)
 - Record provenance for every source
 
 ### Phase 4: ARCHITECT
+
 - **Gate**: gates_passed
 - Design workflow step sequence with validation gates
 - Define 1:1:1 binding (workflow -> agent -> skill)
@@ -90,12 +92,12 @@ Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic clas
 - Apply G1-G10 hard gates
 
 ### Phase 5: BUILD
+
 - **Gate**: output_validated
 - Generate workflow content with steps, gates, and bindings
 - Validate against frontmatter, binding, steps, gates, failure paths, provenance
 - Package with provenance and confidence ceiling
 - Present results with epistemic labels
-
 
 ## Output
 
@@ -111,6 +113,7 @@ The workflow produces a structured result containing:
 - `provenance` — list of provenance references tracing to source evidence
 
 ## Validation Gates
+
 - G1: Frontmatter complete and valid
 - G2: Agent and skill bindings exist (1:1:1)
 - G3: Steps are ordered and non-empty
@@ -130,7 +133,8 @@ The workflow produces a structured result containing:
 - If failure paths are missing from target workflow: block validation, require explicit failure paths.
 - If authority witness is stale or missing: block write-classified capabilities, fail closed.
 
----
+______________________________________________________________________
+
 **MOC:** [[08_WORKFLOWS/08_WORKFLOWS_MOC|08_WORKFLOWS_MOC]]
 
 ## Orchestration Pattern
@@ -138,42 +142,43 @@ The workflow produces a structured result containing:
 **Pattern**: Single-Agent with Validation Gates
 
 This workflow follows a single-agent orchestration with explicit validation gates between steps:
-1. **Intake** -> validation gate -> **Skill Invocation** -> validation gate -> **Application** -> validation gate -> **Output**
-2. Each gate checks: epistemic labeling, provenance, scope compliance, confidence ceiling
-3. On gate failure: route to error handling or escalate to parent workflow
 
+1. **Intake** -> validation gate -> **Skill Invocation** -> validation gate -> **Application** -> validation gate -> **Output**
+1. Each gate checks: epistemic labeling, provenance, scope compliance, confidence ceiling
+1. On gate failure: route to error handling or escalate to parent workflow
 
 ## Evaluation Gates
 
 ### Gate 1: Intake Validation
+
 - Query matches skill scope
 - Required inputs present
 - No scope violations detected
 
 ### Gate 2: Skill Load Validation
+
 - Skill file exists and is valid
 - Agent binding is valid
 - Required vault sources accessible
 
 ### Gate 3: Output Validation
+
 - Epistemic class labels present
 - Provenance recorded for all derived claims
 - Confidence ceiling not exceeded
 - No unresolved CRITICAL_GAPs
 - Scope compliance verified
 
-
 ## Error Handling
 
-| Error Type | Detection | Recovery |
-|---|---|---|
-| Scope violation | Gate 1 check | Route to parent skill |
-| Missing evidence | Gate 3 check | Flag as GAP, reduce confidence to 0.5 |
-| Contradiction | Gate 3 check | Flag as CRITICAL_GAP, halt |
-| Provenance loss | Gate 3 check | Mark as UNKNOWN, request human review |
-| Timeout | Step budget exceeded | Return partial result with warnings |
-| Drift | Confidence calibration check | Trigger drift alignment governor |
-
+| Error Type       | Detection                    | Recovery                              |
+| ---------------- | ---------------------------- | ------------------------------------- |
+| Scope violation  | Gate 1 check                 | Route to parent skill                 |
+| Missing evidence | Gate 3 check                 | Flag as GAP, reduce confidence to 0.5 |
+| Contradiction    | Gate 3 check                 | Flag as CRITICAL_GAP, halt            |
+| Provenance loss  | Gate 3 check                 | Mark as UNKNOWN, request human review |
+| Timeout          | Step budget exceeded         | Return partial result with warnings   |
+| Drift            | Confidence calibration check | Trigger drift alignment governor      |
 
 ## Human-in-the-Loop
 
@@ -185,14 +190,12 @@ This workflow follows a single-agent orchestration with explicit validation gate
   - Contradiction that cannot be auto-resolved
 - **Review checkpoint**: After Gate 3, if any warnings are present
 
-
 ## Monitoring
 
 - **Trace level**: Full (inputs, outputs, intermediate steps)
 - **Metrics**: Step count, token usage, confidence, gap count, execution time
 - **Alerts**: CRITICAL_GAP, confidence < 0.3, scope violation, timeout
 - **Provenance**: Every output traces back to source evidence via provenance chain
-
 
 ## Composition
 

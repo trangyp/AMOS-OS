@@ -1,86 +1,76 @@
 ---
-title: RESEARCH PAPERS CONTRACT
-type: research
+title: "Research Papers Ingestion & Peer Review Contract"
+type: control_contract
 source: 22_RESEARCH/01_PAPERS
-tags:
-- amos-os
-- canon/research
-- routing-policy-validation-receipt
-- authz-engine-validation-receipt
-- law-hierarchy
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
+status: ACTIVE_GOVERNING_CONTRACT
+epistemic_class: AMOS_MODEL
+conclusion_class: DERIVED
 rscf:
   state: DERIVED
-  claim_class: EMPIRICAL
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  claim_class: AMOS_MODEL
+  provenance:
+    - 22_RESEARCH/RESEARCH_RESEARCH_CONTRACT
+    - 20_OPERATIONS/AMOS_OS_AUDIT_2026-09-03
+  scope: papers_ingestion
+tags:
+  - amos-os
+  - research
+  - papers
+  - arxiv
+  - peer-review
 ---
 
-# RESEARCH PAPERS CONTRACT
+# Research Papers Ingestion & Peer Review Contract
 
-## 0. Status
-Research-plane contract for **PAPERS CONTRACT**. AMOS_MODEL; canonical status CONDITIONAL; implementation PARTIAL.
-
-## 1. Scope
-Governs research questions, experiments, competing models, validation, benchmarks as they bear on `PAPERS CONTRACT`. Bounded by dependency closure: conclusions inherit the weakest load-bearing premise.
-
-## 2. Contract terms
-- **Typed artifacts** — every artifact declares artifact_type, epistemic class, scope, regime.
-- **Firewalls preserved** — CAPABILITY ≠ AUTHORITY · PROPOSAL ≠ COMMIT · OBSERVED ≠ CURRENT · TEST_PASS ≠ TRUTH.
-- **Epochs distinct** — state_version ≠ causal_epoch ≠ policy_epoch ≠ provenance_epoch unless an explicit mapping licenses equivalence.
-- **Local finality requires proof** — demonstrated dependency closure may avoid coordination; assumed independence may not.
-- **Selective invalidation** — failure invalidates dependent descendants only; unrelated state is preserved.
-
-## 3. Invariants
-- Fail closed on UNKNOWN/GAP; gaps stay visible, never promoted to PASS.
-- Confidence of any conclusion ≤ confidence of its weakest load-bearing premise (ceiling 0.95).
-- Consequential effects emit receipts; rollback basin exists before mutation.
-- Competing hypotheses remain visible when evidence does not discriminate.
-
-## 4. Executed reference
-No subsystem-local executor yet. Existing executed validators for the OS: routing-policy validator 19/19 ([[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]]) and authz invariant engine 17/17 ([[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]) — cited as pattern, not as evidence for this artifact.
-
-## 5. Gaps
-Runtime enforcement, persistence binding, and empirical validation remain OPEN (UNKNOWN/GAP). Promotion beyond AMOS_MODEL requires the promotion-gate checklist plus an executed receipt specific to this contract.
-
-## 6. Falsifiers
-F1: canonical source defines different semantics for this surface. F2: an executed test contradicts a declared invariant. F3: this contract silently collapses a protected firewall.
-## Worked semantics
-Given an operation touching `RESEARCH · PAPERS CONTRACT` within the Research plane:
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-2. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-3. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-4. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-5. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-6. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
-
-## Promotion-gate checklist
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
-
-## Cross-plane bindings
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]|AMOS Core Laws · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
-- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
-- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
----
-
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+> **Origin Architect / Steward:** Trang Phan  
+> **AMOS_CORE Target:** `v4.4`  
+> **Status:** `ACTIVE_GOVERNING_CONTRACT`
 
 ---
-**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+
+## 1. Mandate & Epistemic Scope
+Governs the intake, structural normalization, formula parsing, algorithmic extraction, and rigorous peer review of scientific publications, arXiv preprints, technical monographs, and laboratory discovery reports across the AMOS Research Substrate (`22_RESEARCH`).
+
+```
++------------------------------------------------------------------------------------+
+|               RESEARCH PAPERS INGESTION & AUDIT PIPELINE                           |
+|                                                                                    |
+|  [ Raw Paper / ArXiv Source ] ===> [ Metadata & Mathematical Extraction Engine ]   |
+|                                                     ||                             |
+|                                                     \/                             |
+|  [ Epistemic Labeling (SOURCE_CLAIM) ] <=== [ LaTeX Proof AST Dissection ]         |
+|                 ||                                                                 |
+|                 \/                                                                 |
+|  [ 9-Part Contract Validation ] ===> [ Formal Lean 4 / Python Simulation Sandbox ] |
+|                                                     ||                             |
+|                                                     \/                             |
+|                                     [ Vault Ingestion Receipt Sealed ]             |
++------------------------------------------------------------------------------------+
+```
 
 ---
-RSCF-NODE
-node_id: amos_22_research_01_papers_research_papers_contract_md
-node_type: note
-path: 22_RESEARCH/01_PAPERS/RESEARCH_PAPERS_CONTRACT.md
-claim_class: AMOS_MODEL
+
+## 2. Ingestion & Admission Invariants
+
+1. **Immutable RSCF Identity (`INV-PAPER-01`):** Every ingested paper must be assigned an immutable RSCF identity formatted as `arxiv-{arxiv_id}-{slug}` or `paper-{doi_hash}-{slug}`.
+2. **Epistemic Classification (`INV-PAPER-02`):** Unreproduced scientific claims must carry `epistemic_class: SOURCE_CLAIM` and `conclusion_class: UNKNOWN/GAP` until verified through numerical simulation or formal theorem checking.
+3. **Venues Do Not Dictate Truth (`INV-PAPER-03`):** In accordance with AMOS Master Axiom `SOURCE_CLAIM != VERIFIED`, publication in high-impact venues (Nature, Science, Physical Review Letters, NeurIPS) confers high prior hypothesis interest, but does not bypass empirical validation within the AMOS runtime.
+4. **Mathematical AST Extraction (`INV-PAPER-04`):** All mathematical theorems, dynamical equations, and loss formulations must be extracted into computable AST representations capable of unit and dimensional analysis.
+5. **Confidence Ceiling (`INV-PAPER-05`):** External preprints carry an absolute confidence ceiling $\mathcal{C} \le 0.85$ until independent verification yields $\mathcal{C} \to 0.99$.
 
 ---
-**MOC:** [[22_RESEARCH/01_PAPERS/01_PAPERS_MOC|01_PAPERS_MOC]]
+
+## 3. Mandatory Nine-Part Contract Specification
+
+1. **ROLE:** Authoritative control contract regulating scientific paper ingestion, structural parsing, LaTeX equation verification, and peer-review synthesis.
+2. **INTERFACES:** `IF-PAPER-INGEST` (PDF/Markdown raw stream), `IF-PAPER-VALIDATE` (LaTeX AST, Python test suite runner).
+3. **DEPENDENCIES:** `03_CONTROL_PLANE/CONTROL_PLANE_CONTROL_PLANE_CONTRACT.md`, `19_TESTS/TESTS_TEST_CONTRACT.md`, `22_RESEARCH/22_RESEARCH_MOC.md`.
+4. **INVARIANTS:** `INV-PAPER-01` through `INV-PAPER-05` as defined in Section 2.
+5. **AUTHORITY:** AMOS Core Research & Epistemics Plane (`22_RESEARCH`).
+6. **PROVENANCE:** Scientific Epistemics Directorate (Trang Phan).
+7. **TESTS:** Automated syntax validation, equation parser checks, and citation graph cycle detection (`scripts/verify_137_math_formulas.py`).
+8. **FAILURE:** Ingesting malformed YAML, unescaped LaTeX collisions, or unverified claims marked as canon results in immediate quarantine into `24_ARCHIVE/03_EXPERIMENTAL/`.
+9. **RECOVERY:** Automatic schema patcher execution via `scripts/master_vault_validator_2026.py` and re-ingestion audit.

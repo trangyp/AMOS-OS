@@ -1,14 +1,17 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: L00_REALITY_ENVIRONMENT — Definition
 type: definition
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT
 tags:
-- cognitive-matrix
-- primitives
-- matrix/l00-reality-environment
-- note
-- domain/cognitive-matrix
-- amos-simulation-kernel-v0-math-foundations
+  - cognitive-matrix
+  - primitives
+  - matrix/l00-reality-environment
+  - note
+  - domain/cognitive-matrix
+  - amos-simulation-kernel-v0-math-foundations
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -22,9 +25,9 @@ rscf:
 **Origin architect / steward:** Trang Phan
 **Status:** `ARCHITECTURE CONTRACT / IMPLEMENTATION-DEPENDENT`
 
----
+______________________________________________________________________
 
-# 1. Definition
+## 1. Definition
 
 `L00_REALITY_ENVIRONMENT` is the AMOS boundary layer representing the external or authoritative environment against which observations, evidence, model states, decisions, actions, and outcomes are grounded.
 
@@ -45,64 +48,64 @@ POST-EFFECT OBSERVATION
 
 The fundamental architectural chain is:
 
-[
-\boxed{
+\[
+\\boxed{
 Reality
-\rightarrow
+\\rightarrow
 Observation
-\rightarrow
+\\rightarrow
 Representation
-\rightarrow
+\\rightarrow
 Evidence
-\rightarrow
+\\rightarrow
 Reasoning
-\rightarrow
+\\rightarrow
 Proposal
-\rightarrow
+\\rightarrow
 Governance
-\rightarrow
+\\rightarrow
 Action
-\rightarrow
+\\rightarrow
 Effect
-\rightarrow
+\\rightarrow
 Reality'
 }
-]
+\]
 
 AMOS must preserve the distinction between every transition in this chain.
 
----
+______________________________________________________________________
 
-# 2. Architectural Purpose
+## 2. Architectural Purpose
 
 `L00_REALITY_ENVIRONMENT` prevents an AI system from confusing its internal representations with the environment they describe.
 
 Its primary functions are:
 
 1. establish the external grounding boundary;
-2. distinguish observed state from inferred state;
-3. preserve measurement and observation provenance;
-4. represent environmental state relevant to reasoning;
-5. constrain what may enter AMOS as evidence;
-6. expose environmental uncertainty and partial observability;
-7. provide authoritative state identities where available;
-8. receive governed effects from higher AMOS layers;
-9. observe consequences after action;
-10. close the reality-feedback loop.
+1. distinguish observed state from inferred state;
+1. preserve measurement and observation provenance;
+1. represent environmental state relevant to reasoning;
+1. constrain what may enter AMOS as evidence;
+1. expose environmental uncertainty and partial observability;
+1. provide authoritative state identities where available;
+1. receive governed effects from higher AMOS layers;
+1. observe consequences after action;
+1. close the reality-feedback loop.
 
 The central invariant is:
 
-[
-\boxed{
-Representation(x) \neq x
+\[
+\\boxed{
+Representation(x) \\neq x
 }
-]
+\]
 
 A representation of reality is not reality itself.
 
----
+______________________________________________________________________
 
-# 3. Reality Contact Architecture
+## 3. Reality Contact Architecture
 
 ```text
 ┌──────────────────────────────────────────────┐
@@ -157,29 +160,29 @@ A representation of reality is not reality itself.
                        └──────► observe again
 ```
 
----
+______________________________________________________________________
 
-# 4. Fundamental Distinctions
+## 4. Fundamental Distinctions
 
 The layer must preserve:
 
-[
-\boxed{
+\[
+\\boxed{
 Reality
-\neq
+\\neq
 Observation
-\neq
+\\neq
 Evidence
-\neq
+\\neq
 Model
-\neq
+\\neq
 Prediction
-\neq
+\\neq
 Decision
-\neq
+\\neq
 Effect
 }
-]
+\]
 
 More explicitly:
 
@@ -207,9 +210,9 @@ UNKNOWN != FALSE
 UNKNOWN != PASS
 ```
 
----
+______________________________________________________________________
 
-# 5. Scope
+## 5. Scope
 
 `L00_REALITY_ENVIRONMENT` applies wherever AMOS interacts with state not generated solely by the current reasoning operation.
 
@@ -240,18 +243,15 @@ The layer provides a common architecture.
 
 It does **not** claim that all environments expose identical observability, causality, authority, or measurement properties.
 
----
+______________________________________________________________________
 
-# 6. Reality Environment Tensor
+## 6. Reality Environment Tensor
 
 Define:
 
-[
-\boxed{
-T_{RE}
-======
+## \[ \\boxed{ T\_{RE}
 
-T[
+T\[
 entity,
 state,
 environment,
@@ -267,9 +267,9 @@ constraints,
 provenance,
 authority,
 state_identity
-]
+\]
 }
-]
+\]
 
 Expanded:
 
@@ -321,16 +321,13 @@ reality_environment_tensor:
     content_hash:
 ```
 
----
+______________________________________________________________________
 
-# 7. Observation Tensor
+## 7. Observation Tensor
 
-[
-\boxed{
-T_O
-===
+## \[ \\boxed{ T_O
 
-T[
+T\[
 observation_id,
 target,
 observer,
@@ -344,22 +341,19 @@ uncertainty,
 scope,
 regime,
 provenance
-]
+\]
 }
-]
+\]
 
 An observation must not silently lose its observer, method, temporal identity, or uncertainty during downstream reasoning.
 
----
+______________________________________________________________________
 
-# 8. Environment State Tensor
+## 8. Environment State Tensor
 
-[
-\boxed{
-T_S
-===
+## \[ \\boxed{ T_S
 
-T[
+T\[
 environment_id,
 state_id,
 variables,
@@ -370,9 +364,9 @@ version,
 hash,
 observability,
 provenance
-]
+\]
 }
-]
+\]
 
 For mutable digital environments:
 
@@ -400,18 +394,15 @@ environment_state:
   provenance:
 ```
 
----
+______________________________________________________________________
 
-# 9. Reality-Contact Tensor
+## 9. Reality-Contact Tensor
 
 AMOS requires an explicit representation of how strongly a claim contacts external evidence.
 
-[
-\boxed{
-T_{RC}
-======
+## \[ \\boxed{ T\_{RC}
 
-T[
+T\[
 claim,
 representation,
 observation_refs,
@@ -423,21 +414,21 @@ regime,
 freshness,
 uncertainty,
 provenance
-]
+\]
 }
-]
+\]
 
 This tensor prevents a deeply transformed inference from being presented as a direct observation.
 
----
+______________________________________________________________________
 
-# 10. Representation Depth
+## 10. Representation Depth
 
 Let:
 
-[
+\[
 d_R(x)
-]
+\]
 
 denote the number or class of transformations separating a representation from its originating observation.
 
@@ -463,16 +454,13 @@ Transformation depth does not automatically imply lower validity.
 
 It means provenance must remain recoverable.
 
----
+______________________________________________________________________
 
-# 11. Reality-Contact Equation
+## 11. Reality-Contact Equation
 
 For a representation (r):
 
-[
-\boxed{
-RC(r)
-=====
+## \[ \\boxed{ RC(r)
 
 f(
 O,
@@ -483,90 +471,88 @@ G,
 U
 )
 }
-]
+\]
 
 where:
 
-- \(O\) = observational support,
-- \(P\) = provenance integrity,
-- \(F\) = freshness,
-- \(S\) = scope compatibility,
-- \(G\) = regime compatibility,
-- \(U\) = uncertainty.
+- (O) = observational support,
+- (P) = provenance integrity,
+- (F) = freshness,
+- (S) = scope compatibility,
+- (G) = regime compatibility,
+- (U) = uncertainty.
 
 `RC` is an AMOS architectural construct, not a universal empirical metric unless a domain supplies a validated operationalization.
 
----
+______________________________________________________________________
 
-# 12. Observation Operator
+## 12. Observation Operator
 
 Define:
 
-[
-\boxed{
-\mathcal{O}:
+\[
+\\boxed{
+\\mathcal{O}:
 R_t
-\rightarrow
+\\rightarrow
 O_t
 }
-]
+\]
 
 where:
 
-- \(R_t\) = environmental state,
-- \(O_t\) = observation produced from that state.
+- (R_t) = environmental state,
+- (O_t) = observation produced from that state.
 
 In general:
 
-[
-\boxed{
-O_t \neq R_t
+\[
+\\boxed{
+O_t \\neq R_t
 }
-]
+\]
 
 because observation may be partial, noisy, delayed, transformed, filtered, or observer-dependent.
 
----
+______________________________________________________________________
 
-# 13. Representation Operator
+## 13. Representation Operator
 
-[
-\boxed{
-\mathcal{R}:
+\[
+\\boxed{
+\\mathcal{R}:
 O_t
-\rightarrow
+\\rightarrow
 X_t
 }
-]
+\]
 
-where \(X_t\) is an internal representation.
+where (X_t) is an internal representation.
 
 Therefore:
 
-[
-X_t
-===
+## \[ X_t
 
-\mathcal{R}(\mathcal{O}\(R_t\))
-]
+\\mathcal{R}(\\mathcal{O}(R_t))
+\]
 
 and not:
 
-[
+\[
 X_t = R_t
-]
+\]
 
 unless identity has been explicitly established for the relevant representation.
 
----
+______________________________________________________________________
 
-# 14. Evidence Admission Operator
+## 14. Evidence Admission Operator
 
-[
-\boxed{
-\mathcal{A}_E:
+\[
+\\boxed{
+\\mathcal{A}\_E:
 O
-\rightarrow
+\\rightarrow
 {
 ADMIT,
 CONDITIONAL,
@@ -574,7 +560,7 @@ QUARANTINE,
 REJECT
 }
 }
-]
+\]
 
 Admission depends on:
 
@@ -591,135 +577,124 @@ contamination
 required evidence class
 ```
 
----
+______________________________________________________________________
 
-# 15. Environment Transition Operator
+## 15. Environment Transition Operator
 
 External state changes through:
 
-[
-\boxed{
-R_{t+1}
-=======
+## \[ \\boxed{ R\_{t+1}
 
-\mathcal{T}(R_t,A_t,\Xi_t)
+\\mathcal{T}(R_t,A_t,\\Xi_t)
 }
-]
+\]
 
 where:
 
-- \(A_t\) = AMOS or agent action,
-- (\Xi_t) = external influences not controlled by AMOS.
+- (A_t) = AMOS or agent action,
+- (\\Xi_t) = external influences not controlled by AMOS.
 
 Therefore:
 
-[
-\boxed{
-R_{t+1}
-\neq
+\[
+\\boxed{
+R\_{t+1}
+\\neq
 f(A_t)
 }
-]
+\]
 
 in general.
 
 Observed change after an action does not by itself prove that the action caused the change.
 
----
+______________________________________________________________________
 
-# 16. Action Operator
+## 16. Action Operator
 
 A governed action is represented as:
 
-[
-\boxed{
-\mathcal{G}:
+\[
+\\boxed{
+\\mathcal{G}:
 Proposal
-\times
+\\times
 Authority
-\times
+\\times
 Constraints
-\times
+\\times
 FreshState
-\rightarrow
+\\rightarrow
 Action
 }
-]
+\]
 
 No reasoning layer should bypass this transition for consequential effects.
 
----
+______________________________________________________________________
 
-# 17. Feedback Operator
+## 17. Feedback Operator
 
 After action:
 
-[
-\boxed{
-O_{t+1}
-=======
+## \[ \\boxed{ O\_{t+1}
 
-\mathcal{O}(R_{t+1})
+\\mathcal{O}(R\_{t+1})
 }
-]
+\]
 
 The AMOS feedback loop is therefore:
 
-[
-\boxed{
+\[
+\\boxed{
 R_t
-\rightarrow
+\\rightarrow
 O_t
-\rightarrow
+\\rightarrow
 X_t
-\rightarrow
+\\rightarrow
 D_t
-\rightarrow
+\\rightarrow
 A_t
-\rightarrow
-R_{t+1}
-\rightarrow
-O_{t+1}
+\\rightarrow
+R\_{t+1}
+\\rightarrow
+O\_{t+1}
 }
-]
+\]
 
-where \(D_t\) is a governed decision state.
+where (D_t) is a governed decision state.
 
----
+______________________________________________________________________
 
-# 18. Partial Observability
+## 18. Partial Observability
 
 AMOS must assume that many environments are only partially observable.
 
 Let:
 
-[
-\Omega_t
-\subseteq
+\[
+\\Omega_t
+\\subseteq
 R_t
-]
+\]
 
 represent the observable projection.
 
 Then:
 
-[
-\boxed{
-O_t
-===
+## \[ \\boxed{ O_t
 
-\mathcal{O}(\Omega_t)
+\\mathcal{O}(\\Omega_t)
 }
-]
+\]
 
 not necessarily:
 
-[
-O_t
-===
+## \[ O_t
 
 R_t
-]
+\]
 
 This creates a hard boundary:
 
@@ -727,134 +702,119 @@ This creates a hard boundary:
 NOT_OBSERVED != NONEXISTENT
 ```
 
----
+______________________________________________________________________
 
-# 19. Observation Uncertainty
+## 19. Observation Uncertainty
 
 Observation uncertainty may include:
 
-[
-U_O
-===
+## \[ U_O
 
-[
-U_{measurement},
-U_{sampling},
-U_{observer},
-U_{temporal},
-U_{representation},
-U_{coverage}
-]
-]
+\[
+U\_{measurement},
+U\_{sampling},
+U\_{observer},
+U\_{temporal},
+U\_{representation},
+U\_{coverage}
+\]
+\]
 
 These uncertainty classes should remain distinguishable where decision-relevant.
 
----
+______________________________________________________________________
 
-# 20. Temporal Architecture
+## 20. Temporal Architecture
 
 Reality-related state requires multiple temporal axes.
 
-[
-\boxed{
-T_{time}
-========
+## \[ \\boxed{ T\_{time}
 
-T[
+T\[
 event_time,
 observation_time,
 ingestion_time,
 decision_time,
 commit_time
-]
+\]
 }
-]
+\]
 
 Hard invariant:
 
-[
-\boxed{
+\[
+\\boxed{
 event_time
-\neq
+\\neq
 observation_time
-\neq
+\\neq
 commit_time
 }
-]
+\]
 
 unless explicitly demonstrated.
 
----
+______________________________________________________________________
 
-# 21. Freshness
+## 21. Freshness
 
 For observation (o):
 
-[
-Age(o,t)
-========
+## \[ Age(o,t)
 
 t-t_o
-]
+\]
 
 Freshness is claim-dependent:
 
-[
-\boxed{
-Fresh(o,c,t)
-============
+## \[ \\boxed{ Fresh(o,c,t)
 
 Age(o,t)
-\leq
-\tau_c
+\\leq
+\\tau_c
 }
-]
+\]
 
-where (\tau_c) is the acceptable freshness horizon for claim or decision (c).
+where (\\tau_c) is the acceptable freshness horizon for claim or decision (c).
 
 There is no universal freshness threshold across all domains.
 
----
+______________________________________________________________________
 
-# 22. Regime
+## 22. Regime
 
 Environmental observations are interpreted inside a regime:
 
-[
-G_t
-===
+## \[ G_t
 
-[
+\[
 environment,
 conditions,
 rules,
 measurement_system,
 operational_state
-]
-]
+\]
+\]
 
-A conclusion valid under \(G_1\) does not automatically transfer to \(G_2\).
+A conclusion valid under (G_1) does not automatically transfer to (G_2).
 
-[
-\boxed{
+\[
+\\boxed{
 Valid(c,G_1)
-\not\Rightarrow
+\\not\\Rightarrow
 Valid(c,G_2)
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 23. Scope
+## 23. Scope
 
 Every reality-grounded claim inherits an applicability envelope.
 
-[
-\boxed{
-Scope(c)
-========
+## \[ \\boxed{ Scope(c)
 
-[
+\[
 system,
 population,
 environment,
@@ -862,22 +822,19 @@ scale,
 time,
 measurement,
 assumptions
-]
+\]
 }
-]
+\]
 
 No downstream layer may silently widen this envelope.
 
----
+______________________________________________________________________
 
-# 24. Observer Tensor
+## 24. Observer Tensor
 
-[
-\boxed{
-T_{OBS}
-=======
+## \[ \\boxed{ T\_{OBS}
 
-T[
+T\[
 observer_id,
 observer_type,
 access,
@@ -888,9 +845,9 @@ bias_risk,
 limitations,
 time,
 provenance
-]
+\]
 }
-]
+\]
 
 Possible observer classes include:
 
@@ -908,17 +865,17 @@ measurement instrument
 
 Observer identity matters whenever observation is not invariant across observers.
 
----
+______________________________________________________________________
 
-# 25. Observer Dependence
+## 25. Observer Dependence
 
 For observers (i) and (j):
 
-[
+\[
 O_i(R)
-\neq
+\\neq
 O_j(R)
-]
+\]
 
 may occur because of:
 
@@ -933,16 +890,13 @@ Disagreement must not automatically be interpreted as corruption.
 
 It may represent legitimate observer variance.
 
----
+______________________________________________________________________
 
-# 26. Measurement Tensor
+## 26. Measurement Tensor
 
-[
-\boxed{
-T_M
-===
+## \[ \\boxed{ T_M
 
-T[
+T\[
 quantity,
 value,
 unit,
@@ -955,9 +909,9 @@ timestamp,
 uncertainty,
 scope,
 provenance
-]
+\]
 }
-]
+\]
 
 Hard invariant:
 
@@ -973,77 +927,71 @@ FULLY GROUNDED OBSERVATION
 
 where the method is decision-relevant.
 
----
+______________________________________________________________________
 
-# 27. State Identity
+## 27. State Identity
 
 For authoritative digital objects:
 
-[
-\boxed{
-I(x)
-====
+## \[ \\boxed{ I(x)
 
-[
+\[
 object_id,
 version,
 content_hash
-]
+\]
 }
-]
+\]
 
 For some infrastructure state, additional identity dimensions may be required.
 
 State identity must be sufficient to detect decision-relevant mutation.
 
----
+______________________________________________________________________
 
-# 28. Reality-State Freshness
+## 28. Reality-State Freshness
 
 Suppose reasoning reads state:
 
-[
+\[
 I_t(x)
-]
+\]
 
 and action later depends upon that state.
 
 Before commit:
 
-[
-I_{commit}(x)
-]
+\[
+I\_{commit}(x)
+\]
 
 must be compared where freshness is required.
 
 If:
 
-[
+\[
 I_t(x)
-\neq
-I_{commit}(x)
-]
+\\neq
+I\_{commit}(x)
+\]
 
 then:
 
-[
-\boxed{
+\[
+\\boxed{
 REVALIDATE
 }
-]
+\]
 
 rather than silently acting on stale reality.
 
----
+______________________________________________________________________
 
-# 29. Environmental Constraint Tensor
+## 29. Environmental Constraint Tensor
 
-[
-\boxed{
-T_C
-===
+## \[ \\boxed{ T_C
 
-T[
+T\[
 constraint_id,
 environment,
 type,
@@ -1055,9 +1003,9 @@ time,
 regime,
 authority,
 provenance
-]
+\]
 }
-]
+\]
 
 Constraint classes may include:
 
@@ -1078,16 +1026,13 @@ capacity
 
 Domain-specific meaning remains delegated to the appropriate domain layer.
 
----
+______________________________________________________________________
 
-# 30. Boundary Tensor
+## 30. Boundary Tensor
 
-[
-\boxed{
-T_B
-===
+## \[ \\boxed{ T_B
 
-T[
+T\[
 inside,
 outside,
 interface,
@@ -1098,9 +1043,9 @@ authority,
 observation,
 effect,
 provenance
-]
+\]
 }
-]
+\]
 
 `L00` is fundamentally a boundary architecture.
 
@@ -1116,47 +1061,47 @@ who authorizes crossing
 how crossings are recorded
 ```
 
----
+______________________________________________________________________
 
-# 31. Reality Boundary Invariant
+## 31. Reality Boundary Invariant
 
-[
-\boxed{
+\[
+\\boxed{
 InternalState
-\neq
+\\neq
 ExternalState
 }
-]
+\]
 
 A model may maintain an internal mirror of an external resource.
 
 That mirror becomes stale unless synchronized or revalidated.
 
----
+______________________________________________________________________
 
-# 32. Simulation Boundary
+## 32. Simulation Boundary
 
 Let:
 
-[
+\[
 S_t
-]
+\]
 
 represent simulated state and:
 
-[
+\[
 R_t
-]
+\]
 
 represent external state.
 
 Then:
 
-[
-\boxed{
-S_t \neq R_t
+\[
+\\boxed{
+S_t \\neq R_t
 }
-]
+\]
 
 unless the task explicitly defines the simulation as the environment under consideration.
 
@@ -1168,57 +1113,53 @@ MODEL
 
 until externally validated.
 
----
+______________________________________________________________________
 
-# 33. Digital Twin Boundary
+## 33. Digital Twin Boundary
 
-A digital twin \(D_t\) is a representation:
+A digital twin (D_t) is a representation:
 
-[
-D_t
-===
+## \[ D_t
 
-\Phi(R_t)
-]
+\\Phi(R_t)
+\]
 
 Its fidelity may be high, but:
 
-[
-\boxed{
-D_t \neq R_t
+\[
+\\boxed{
+D_t \\neq R_t
 }
-]
+\]
 
-The mapping (\Phi), update latency, omitted variables, calibration, and synchronization state remain load-bearing.
+The mapping (\\Phi), update latency, omitted variables, calibration, and synchronization state remain load-bearing.
 
----
+______________________________________________________________________
 
-# 34. Prediction Boundary
+## 34. Prediction Boundary
 
 Prediction:
 
-[
-\hat{R}_{t+h}
-=============
+## \[ \\hat{R}\_{t+h}
 
 P(X_t)
-]
+\]
 
 is not observation:
 
-[
-\boxed{
-\hat{R}*{t+h}
-\neq
+\[
+\\boxed{
+\\hat{R}*{t+h}
+\\neq
 R*{t+h}
 }
-]
+\]
 
 After horizon (h), the outcome must be independently observed before prediction accuracy is scored.
 
----
+______________________________________________________________________
 
-# 35. Causal Firewall
+## 35. Causal Firewall
 
 The following chain is prohibited:
 
@@ -1248,16 +1189,13 @@ The environment layer preserves observations.
 
 Causal promotion requires appropriately typed evidence.
 
----
+______________________________________________________________________
 
-# 36. Causal Environment Tensor
+## 36. Causal Environment Tensor
 
-[
-\boxed{
-T_{CE}
-======
+## \[ \\boxed{ T\_{CE}
 
-T[
+T\[
 variables,
 interventions,
 outcomes,
@@ -1269,60 +1207,57 @@ regime,
 measurement,
 evidence,
 provenance
-]
+\]
 }
-]
+\]
 
 This tensor represents the evidence structure required for causal reasoning.
 
 It does not itself prove causality.
 
----
+______________________________________________________________________
 
-# 37. Evidence Provenance
+## 37. Evidence Provenance
 
 Every admitted external observation should preserve a provenance path:
 
-[
-\boxed{
+\[
+\\boxed{
 Environment
-\rightarrow
+\\rightarrow
 Source
-\rightarrow
+\\rightarrow
 Observation
-\rightarrow
+\\rightarrow
 Transformation
-\rightarrow
+\\rightarrow
 Evidence
 }
-]
+\]
 
 For derived claims:
 
-[
-\boxed{
+\[
+\\boxed{
 Environment
-\rightarrow
+\\rightarrow
 Observation
-\rightarrow
+\\rightarrow
 Evidence
-\rightarrow
+\\rightarrow
 Premise
-\rightarrow
+\\rightarrow
 Claim
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 38. Provenance Tensor
+## 38. Provenance Tensor
 
-[
-\boxed{
-T_P
-===
+## \[ \\boxed{ T_P
 
-T[
+T\[
 origin,
 source,
 observer,
@@ -1335,56 +1270,53 @@ ancestry,
 scope,
 regime,
 revocation
-]
+\]
 }
-]
+\]
 
 Provenance must survive compression when it remains decision-relevant.
 
----
+______________________________________________________________________
 
-# 39. Evidence Independence
+## 39. Evidence Independence
 
 Multiple observations do not automatically represent independent evidence.
 
 For evidence items:
 
-[
-E_1,E_2,\ldots,E_n
-]
+\[
+E_1,E_2,\\ldots,E_n
+\]
 
 AMOS must inspect ancestry.
 
 If:
 
-[
+\[
 Ancestor(E_1)=Ancestor(E_2)
-]
+\]
 
 then they cannot automatically be counted as two independent confirmations.
 
 Thus:
 
-[
-\boxed{
+\[
+\\boxed{
 Multiplicity
-\neq
+\\neq
 Independence
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 40. Reality Environment State
+## 40. Reality Environment State
 
 Define:
 
-[
-\boxed{
-S_{RE}(t)
-=========
+## \[ \\boxed{ S\_{RE}(t)
 
-[
+\[
 E_t,
 O_t,
 X_t,
@@ -1393,24 +1325,24 @@ G_t,
 B_t,
 A_t,
 P_t
-]
+\]
 }
-]
+\]
 
 where:
 
-- \(E_t\) = environment state,
-- \(O_t\) = observation state,
-- \(X_t\) = internal representation,
-- \(C_t\) = active constraints,
-- \(G_t\) = regime,
-- \(B_t\) = boundary state,
-- \(A_t\) = action/effect state,
-- \(P_t\) = provenance state.
+- (E_t) = environment state,
+- (O_t) = observation state,
+- (X_t) = internal representation,
+- (C_t) = active constraints,
+- (G_t) = regime,
+- (B_t) = boundary state,
+- (A_t) = action/effect state,
+- (P_t) = provenance state.
 
----
+______________________________________________________________________
 
-# 41. Core Operators
+## 41. Core Operators
 
 ```text
 OBSERVE
@@ -1435,55 +1367,55 @@ REPAIR
 
 Formally:
 
-[
-\mathcal{O}: Reality \rightarrow Observation
-]
+\[
+\\mathcal{O}: Reality \\rightarrow Observation
+\]
 
-[
-\mathcal{M}: Observation \rightarrow Measurement
-]
+\[
+\\mathcal{M}: Observation \\rightarrow Measurement
+\]
 
-[
-\mathcal{R}: Observation \rightarrow Representation
-]
+\[
+\\mathcal{R}: Observation \\rightarrow Representation
+\]
 
-[
-\mathcal{A}: Evidence \rightarrow AdmissionState
-]
+\[
+\\mathcal{A}: Evidence \\rightarrow AdmissionState
+\]
 
-[
-\mathcal{V}: State_t \times State_{t'} \rightarrow FreshnessState
-]
+\[
+\\mathcal{V}: State_t \\times State\_{t'} \\rightarrow FreshnessState
+\]
 
-[
-\mathcal{G}: Proposal \rightarrow GovernedAction
-]
+\[
+\\mathcal{G}: Proposal \\rightarrow GovernedAction
+\]
 
-[
-\mathcal{F}: Action \times Environment \rightarrow EffectState
-]
+\[
+\\mathcal{F}: Action \\times Environment \\rightarrow EffectState
+\]
 
----
+______________________________________________________________________
 
-# 42. Core Architectural Invariants
+## 42. Core Architectural Invariants
 
 ## L00-INV-01 — Reality / Representation Separation
 
-[
-Representation(x)\neq x
-]
+\[
+Representation(x)\\neq x
+\]
 
----
+______________________________________________________________________
 
 ## L00-INV-02 — Observation / Reality Separation
 
-[
-Observation(R)\neq R
-]
+\[
+Observation(R)\\neq R
+\]
 
 unless identity is explicitly established.
 
----
+______________________________________________________________________
 
 ## L00-INV-03 — Observation / Inference Separation
 
@@ -1491,7 +1423,7 @@ unless identity is explicitly established.
 OBSERVED != INFERRED
 ```
 
----
+______________________________________________________________________
 
 ## L00-INV-04 — Prediction Separation
 
@@ -1499,7 +1431,7 @@ OBSERVED != INFERRED
 PREDICTED != OBSERVED
 ```
 
----
+______________________________________________________________________
 
 ## L00-INV-05 — Simulation Separation
 
@@ -1507,37 +1439,37 @@ PREDICTED != OBSERVED
 SIMULATION != DEPLOYMENT
 ```
 
----
+______________________________________________________________________
 
 ## L00-INV-06 — Provenance Preservation
 
 Every decision-relevant observation retains sufficient ancestry to reconstruct its origin.
 
----
+______________________________________________________________________
 
 ## L00-INV-07 — Scope Preservation
 
 Derived claims cannot silently broaden the scope of their evidence.
 
----
+______________________________________________________________________
 
 ## L00-INV-08 — Regime Preservation
 
 Evidence valid in one regime is not automatically valid in another.
 
----
+______________________________________________________________________
 
 ## L00-INV-09 — Temporal Identity
 
 Event time, observation time, and commit time remain distinct when material.
 
----
+______________________________________________________________________
 
 ## L00-INV-10 — Freshness
 
 Mutable state must be revalidated before consequential use when stale state could alter the action.
 
----
+______________________________________________________________________
 
 ## L00-INV-11 — Unknown Preservation
 
@@ -1547,7 +1479,7 @@ UNKNOWN != TRUE
 UNKNOWN != PASS
 ```
 
----
+______________________________________________________________________
 
 ## L00-INV-12 — Causal Firewall
 
@@ -1557,7 +1489,7 @@ SEQUENCE != CAUSATION
 STRUCTURAL_SIMILARITY != CAUSATION
 ```
 
----
+______________________________________________________________________
 
 ## L00-INV-13 — Capability / Authority Separation
 
@@ -1565,7 +1497,7 @@ STRUCTURAL_SIMILARITY != CAUSATION
 CAPABILITY != AUTHORITY
 ```
 
----
+______________________________________________________________________
 
 ## L00-INV-14 — Proposal / Commit Separation
 
@@ -1573,7 +1505,7 @@ CAPABILITY != AUTHORITY
 PROPOSAL != COMMIT
 ```
 
----
+______________________________________________________________________
 
 ## L00-INV-15 — Effect Verification
 
@@ -1581,7 +1513,7 @@ PROPOSAL != COMMIT
 EXPECTED_EFFECT != OBSERVED_EFFECT
 ```
 
----
+______________________________________________________________________
 
 ## L00-INV-16 — Partial Observability
 
@@ -1589,7 +1521,7 @@ EXPECTED_EFFECT != OBSERVED_EFFECT
 NOT_OBSERVED != NONEXISTENT
 ```
 
----
+______________________________________________________________________
 
 ## L00-INV-17 — Evidence Independence
 
@@ -1599,15 +1531,15 @@ MULTIPLE_SOURCES != INDEPENDENT_SOURCES
 
 unless provenance topology establishes independence.
 
----
+______________________________________________________________________
 
 ## L00-INV-18 — Environment Mutation
 
 A mutable environment may change between observation and action.
 
----
+______________________________________________________________________
 
-# 43. H/M/L Applicability
+## 43. H/M/L Applicability
 
 ## L — Local Reality
 
@@ -1626,11 +1558,9 @@ single environmental event
 
 Local tensor:
 
-[
-T_L
-===
+## \[ T_L
 
-T[
+T\[
 object,
 state,
 observation,
@@ -1638,10 +1568,10 @@ time,
 method,
 uncertainty,
 provenance
-]
-]
+\]
+\]
 
----
+______________________________________________________________________
 
 ## M — Subsystem Environment
 
@@ -1661,11 +1591,9 @@ agent environment
 
 Medium tensor:
 
-[
-T_M
-===
+## \[ T_M
 
-T[
+T\[
 components,
 relations,
 constraints,
@@ -1674,10 +1602,10 @@ states,
 regime,
 time,
 provenance
-]
-]
+\]
+\]
 
----
+______________________________________________________________________
 
 ## H — Governing Environment
 
@@ -1696,11 +1624,9 @@ cross-subsystem constraints
 
 High tensor:
 
-[
-T_H
-===
+## \[ T_H
 
-T[
+T\[
 system,
 constraints,
 authority,
@@ -1708,60 +1634,60 @@ regime,
 topology,
 cross_scale_effects,
 provenance
-]
-]
+\]
+\]
 
----
+______________________________________________________________________
 
-# 44. Cross-Scale Reality Invariant
+## 44. Cross-Scale Reality Invariant
 
-[
-\boxed{
+\[
+\\boxed{
 Observation_L
-\not\Rightarrow
+\\not\\Rightarrow
 Conclusion_H
 }
-]
+\]
 
 A local observation does not automatically justify a system-wide conclusion.
 
 Likewise:
 
-[
-\boxed{
+\[
+\\boxed{
 Policy_H
-\not\Rightarrow
+\\not\\Rightarrow
 Observation_L
 }
-]
+\]
 
 A high-level rule does not manufacture low-level evidence.
 
----
+______________________________________________________________________
 
-# 45. Cross-Scale Mapping
+## 45. Cross-Scale Mapping
 
-[
-\boxed{
-\Phi_{L\rightarrow M}
+\[
+\\boxed{
+\\Phi\_{L\\rightarrow M}
 :
 T_L
-\rightarrow
+\\rightarrow
 T_M
 }
-]
+\]
 
 and:
 
-[
-\boxed{
-\Phi_{M\rightarrow H}
+\[
+\\boxed{
+\\Phi\_{M\\rightarrow H}
 :
 T_M
-\rightarrow
+\\rightarrow
 T_H
 }
-]
+\]
 
 must declare:
 
@@ -1776,9 +1702,9 @@ assumptions
 
 Cross-scale translation is not automatic equivalence.
 
----
+______________________________________________________________________
 
-# 46. Dependencies
+## 46. Dependencies
 
 `L00_REALITY_ENVIRONMENT` depends conceptually on:
 
@@ -1800,9 +1726,9 @@ Action Governance
 Recovery Architecture
 ```
 
----
+______________________________________________________________________
 
-# 47. Downstream Dependencies
+## 47. Downstream Dependencies
 
 Higher AMOS layers may depend on `L00` for:
 
@@ -1822,19 +1748,19 @@ effect verification
 
 Therefore:
 
-[
-\boxed{
+\[
+\\boxed{
 Corrupt(L00)
-\Rightarrow
+\\Rightarrow
 PotentiallyCorrupt(Descendants(L00))
 }
-]
+\]
 
 but invalidation should remain dependency-selective.
 
----
+______________________________________________________________________
 
-# 48. Control-Plane Requirements
+## 48. Control-Plane Requirements
 
 `L00` supplies environmental state to the control plane.
 
@@ -1877,9 +1803,9 @@ release state
 receipt / completion
 ```
 
----
+______________________________________________________________________
 
-# 49. Reality / Control Plane Boundary
+## 49. Reality / Control Plane Boundary
 
 The environment layer answers:
 
@@ -1895,9 +1821,9 @@ The control plane answers:
 
 These must remain separate.
 
----
+______________________________________________________________________
 
-# 50. Agents
+## 50. Agents
 
 Conceptual L00 roles may include:
 
@@ -1922,9 +1848,9 @@ They do not require one autonomous LLM per role.
 
 Deterministic infrastructure should own functions where deterministic execution is stronger.
 
----
+______________________________________________________________________
 
-# 51. AI Application
+## 51. AI Application
 
 For an AI system, `L00_REALITY_ENVIRONMENT` prevents the model's context from becoming its definition of reality.
 
@@ -1955,17 +1881,17 @@ INFERENCE
 
 The critical rule is:
 
-[
-\boxed{
+\[
+\\boxed{
 ModelContext
-\neq
+\\neq
 WorldState
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 52. AI Grounding Contract
+## 52. AI Grounding Contract
 
 An AI-relevant environmental observation should ideally preserve:
 
@@ -2003,22 +1929,19 @@ ai_grounding_contract:
 
 This permits later reasoning to distinguish actual observation from inherited or generated text.
 
----
+______________________________________________________________________
 
-# 53. Tool Grounding
+## 53. Tool Grounding
 
 A tool result is an observation channel.
 
 It is not automatically ground truth.
 
-[
-\boxed{
-ToolOutput
-==========
+## \[ \\boxed{ ToolOutput
 
 ObservationArtifact
 }
-]
+\]
 
 Its reliability depends on:
 
@@ -2036,9 +1959,9 @@ failure state
 provenance
 ```
 
----
+______________________________________________________________________
 
-# 54. Retrieval Grounding
+## 54. Retrieval Grounding
 
 Retrieved text should be represented as:
 
@@ -2050,27 +1973,27 @@ unless the source is itself a direct measurement artifact appropriate to the cla
 
 Retrieval does not perform this promotion:
 
-[
-\boxed{
+\[
+\\boxed{
 RetrievedText
-\not\Rightarrow
+\\not\\Rightarrow
 VerifiedFact
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 55. Memory Grounding
+## 55. Memory Grounding
 
 Persistent memory is internal stored state.
 
-[
-\boxed{
+\[
+\\boxed{
 Memory
-\neq
+\\neq
 CurrentReality
 }
-]
+\]
 
 A memory item may become:
 
@@ -2085,69 +2008,66 @@ contradicted
 
 Therefore memory requiring current-world validity must be revalidated against `L00`.
 
----
+______________________________________________________________________
 
-# 56. Model Grounding
+## 56. Model Grounding
 
 A model state:
 
-[
+\[
 M_t
-]
+\]
 
 may estimate environmental state:
 
-[
-\hat{R}_t
-]
+\[
+\\hat{R}\_t
+\]
 
 but:
 
-[
-\boxed{
-\hat{R}_t
-\neq
+\[
+\\boxed{
+\\hat{R}\_t
+\\neq
 R_t
 }
-]
+\]
 
 The difference must remain epistemically visible.
 
----
+______________________________________________________________________
 
-# 57. Agent Environment Contract
+## 57. Agent Environment Contract
 
 For an agent:
 
-[
-\boxed{
-AgentEnvironment
-================
+## \[ \\boxed{ AgentEnvironment
 
-[
+\[
 Observations,
 Actions,
 Constraints,
 Authority,
 State,
 Feedback
-]
+\]
 }
-]
+\]
 
 An agent must not infer action permission merely from action availability.
 
-[
-\boxed{
+\[
+\\boxed{
 AvailableAction
-\neq
+\\neq
 AuthorizedAction
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 58. Reality Feedback Loop
+## 58. Reality Feedback Loop
 
 A complete AI loop requires:
 
@@ -2173,16 +2093,13 @@ UPDATE
 
 Without post-action observation, the loop has execution but not verified environmental closure.
 
----
+______________________________________________________________________
 
-# 59. Reality Error Tensor
+## 59. Reality Error Tensor
 
-[
-\boxed{
-T_{\epsilon}
-============
+## \[ \\boxed{ T\_{\\epsilon}
 
-T[
+T\[
 expected,
 observed,
 difference,
@@ -2192,112 +2109,105 @@ environmental_variance,
 time,
 regime,
 provenance
-]
+\]
 }
-]
+\]
 
 A conceptual prediction error may be written:
 
-[
-\epsilon_t
-==========
+## \[ \\epsilon_t
 
-O_t-\hat{O}_t
-]
+O_t-\\hat{O}\_t
+\]
 
 where subtraction must be replaced by a domain-valid difference operator for non-numeric state.
 
----
+______________________________________________________________________
 
-# 60. Update Rule
+## 60. Update Rule
 
 A generic governed update is:
 
-[
-\boxed{
-X_{t+1}
-=======
+## \[ \\boxed{ X\_{t+1}
 
 Update(
 X_t,
-O_{t+1},
+O\_{t+1},
 P,
 U,
 G
 )
 }
-]
+\]
 
 where:
 
-- \(P\) = provenance,
-- \(U\) = uncertainty,
-- \(G\) = regime.
+- (P) = provenance,
+- (U) = uncertainty,
+- (G) = regime.
 
 New observation should update only dependent internal state.
 
----
+______________________________________________________________________
 
-# 61. Selective Invalidation
+## 61. Selective Invalidation
 
 If observation (o) becomes invalid:
 
-[
+\[
 Invalidate(o)
-]
+\]
 
 then:
 
-[
-\boxed{
+\[
+\\boxed{
 Invalidate(Descendants(o))
 }
-]
+\]
 
 not all AMOS state.
 
 Unaffected reasoning remains reusable if its dependency closure remains valid.
 
----
+______________________________________________________________________
 
-# 62. Reality Drift
+## 62. Reality Drift
 
 Let:
 
-[
-D_R(t_1,t_2)
-============
+## \[ D_R(t_1,t_2)
 
-d(R_{t_1},R_{t_2})
-]
+d(R\_{t_1},R\_{t_2})
+\]
 
 for a domain-valid distance (d).
 
-Large drift may invalidate assumptions made at \(t_1\).
+Large drift may invalidate assumptions made at (t_1).
 
 However:
 
-[
+\[
 d
-]
+\]
 
 must be explicitly defined.
 
 Structural change cannot be assigned a numeric distance without a justified metric.
 
----
+______________________________________________________________________
 
-# 63. Regime Shift
+## 63. Regime Shift
 
 A regime shift occurs when the validity conditions of prior mappings materially change.
 
 Conceptually:
 
-[
-\boxed{
-G_t \rightarrow G_{t+1}
+\[
+\\boxed{
+G_t \\rightarrow G\_{t+1}
 }
-]
+\]
 
 may invalidate:
 
@@ -2313,18 +2223,16 @@ historical analogies
 
 even if the underlying data format remains unchanged.
 
----
+______________________________________________________________________
 
-# 64. Reality Entropy
+## 64. Reality Entropy
 
 AMOS may use an environment entropy proxy:
 
-[
-H_E
-===
+## \[ H_E
 
-\mathcal{H}(StateDistribution)
-]
+\\mathcal{H}(StateDistribution)
+\]
 
 only where a legitimate probability distribution exists.
 
@@ -2337,15 +2245,13 @@ AMOS_ENTROPY_PROXY != SHANNON_ENTROPY
 
 unless mathematically defined as such.
 
----
+______________________________________________________________________
 
-# 65. Environment Lacunarity
+## 65. Environment Lacunarity
 
 AMOS may represent structured gaps:
 
-[
-\Lambda_E
-=========
+## \[ \\Lambda_E
 
 L(
 coverage,
@@ -2353,7 +2259,7 @@ missingness,
 distribution,
 scale
 )
-]
+\]
 
 as an architectural lacunarity proxy.
 
@@ -2370,9 +2276,9 @@ unobserved regions
 
 It must not be presented as a validated universal physical quantity without domain evidence.
 
----
+______________________________________________________________________
 
-# 66. Reality Environment Failure Modes
+## 66. Reality Environment Failure Modes
 
 ```text
 L00-FM-01
@@ -2436,16 +2342,13 @@ L00-FM-20
 UNKNOWN STATE COLLAPSED INTO PASS
 ```
 
----
+______________________________________________________________________
 
-# 67. Failure Detection Tensor
+## 67. Failure Detection Tensor
 
-[
-\boxed{
-T_F
-===
+## \[ \\boxed{ T_F
 
-T[
+T\[
 failure_id,
 object,
 failure_class,
@@ -2455,15 +2358,15 @@ affected_actions,
 severity,
 recoverability,
 provenance
-]
+\]
 }
-]
+\]
 
 This permits repair to target dependent state instead of resetting the whole architecture.
 
----
+______________________________________________________________________
 
-# 68. Repair / Recovery
+## 68. Repair / Recovery
 
 Canonical L00 recovery:
 
@@ -2489,32 +2392,29 @@ RECOMPUTE ONLY REQUIRED DESCENDANTS
 RESTORE
 ```
 
----
+______________________________________________________________________
 
-# 69. Repair Equation
+## 69. Repair Equation
 
 For corrupted state (x):
 
-[
-\boxed{
-RepairScope(x)
-==============
+## \[ \\boxed{ RepairScope(x)
 
 SmallestSafeDependencyClosure(x)
 }
-]
+\]
 
 Global recomputation should occur only when the dependency structure cannot safely isolate the failure.
 
----
+______________________________________________________________________
 
-# 70. Reconciliation
+## 70. Reconciliation
 
 If internal state and external observation disagree:
 
-[
-X_t \neq O_t
-]
+\[
+X_t \\neq O_t
+\]
 
 AMOS must not automatically choose either one.
 
@@ -2550,9 +2450,9 @@ or:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 71. Tests / Validators
+## 71. Tests / Validators
 
 Minimum L00 validation suite:
 
@@ -2618,9 +2518,9 @@ L00-T29 UNKNOWN fail-closed behavior
 L00-T30 Reality-feedback closure
 ```
 
----
+______________________________________________________________________
 
-# 72. Validator Contract
+## 72. Validator Contract
 
 ```yaml
 l00_validator:
@@ -2654,32 +2554,32 @@ l00_validator:
   confidence_ceiling:
 ```
 
----
+______________________________________________________________________
 
-# 73. Falsifiers
+## 73. Falsifiers
 
 The architecture is incomplete or incorrectly implemented if:
 
 1. an internal model state can be presented as externally observed without provenance;
-2. a simulation result automatically becomes deployment evidence;
-3. predictions are stored as outcomes before observation;
-4. observations lose their timestamps;
-5. observations lose their source or measurement method where material;
-6. stale state can drive consequential action without required revalidation;
-7. multiple descendants of one source are counted as independent confirmation;
-8. absence of observation is automatically converted to evidence of absence;
-9. cross-scale conclusions can silently exceed source scope;
-10. regime changes do not invalidate regime-dependent conclusions;
-11. causal claims can be promoted from structural similarity alone;
-12. memory is automatically treated as current environmental state;
-13. tool output is automatically treated as verified truth;
-14. action availability automatically grants authority;
-15. an expected effect is accepted as an observed effect;
-16. `UNKNOWN` is treated as successful validation.
+1. a simulation result automatically becomes deployment evidence;
+1. predictions are stored as outcomes before observation;
+1. observations lose their timestamps;
+1. observations lose their source or measurement method where material;
+1. stale state can drive consequential action without required revalidation;
+1. multiple descendants of one source are counted as independent confirmation;
+1. absence of observation is automatically converted to evidence of absence;
+1. cross-scale conclusions can silently exceed source scope;
+1. regime changes do not invalidate regime-dependent conclusions;
+1. causal claims can be promoted from structural similarity alone;
+1. memory is automatically treated as current environmental state;
+1. tool output is automatically treated as verified truth;
+1. action availability automatically grants authority;
+1. an expected effect is accepted as an observed effect;
+1. `UNKNOWN` is treated as successful validation.
 
----
+______________________________________________________________________
 
-# 74. Gap Classes
+## 74. Gap Classes
 
 Unresolved L00 gaps must be classified:
 
@@ -2692,41 +2592,41 @@ COSMETIC
 
 A critical reality-contact gap means:
 
-[
-\boxed{
+\[
+\\boxed{
 GroundedDecision = FALSE
 }
-]
+\]
 
 for any decision that depends on that missing state.
 
----
+______________________________________________________________________
 
-# 75. Confidence Ceiling
+## 75. Confidence Ceiling
 
 For conclusion (c):
 
-[
-\boxed{
+\[
+\\boxed{
 Conf(c)
-\leq
-\min
+\\leq
+\\min
 (
 Conf(O_1),
 Conf(O_2),
-\ldots,
+\\ldots,
 Conf(O_n)
 )
 }
-]
+\]
 
 for load-bearing observations unless independent evidence or a validated transformation justifies another aggregation rule.
 
 Confidence cannot be raised merely because downstream reasoning is internally coherent.
 
----
+______________________________________________________________________
 
-# 76. Minimum Reality Proof Capsule
+## 76. Minimum Reality Proof Capsule
 
 ```yaml
 reality_proof_capsule:
@@ -2772,9 +2672,9 @@ reality_proof_capsule:
   confidence_ceiling:
 ```
 
----
+______________________________________________________________________
 
-# 77. RSCF Completion State
+## 77. RSCF Completion State
 
 ```yaml
 claim_class: MODEL
@@ -2843,9 +2743,9 @@ confidence_ceiling:
   empirical_universality: unverified
 ```
 
----
+______________________________________________________________________
 
-# 78. Hard Boundaries
+## 78. Hard Boundaries
 
 ```text
 REALITY != REPRESENTATION
@@ -2891,93 +2791,92 @@ PROPOSAL != COMMIT
 UNKNOWN/GAP != PASS
 ```
 
----
+______________________________________________________________________
 
-# 79. Canonical L00 Architecture
+## 79. Canonical L00 Architecture
 
 The complete L00 cycle is:
 
-[
-\boxed{
+\[
+\\boxed{
 R_t
-\xrightarrow{\mathcal O}
+\\xrightarrow{\\mathcal O}
 O_t
-\xrightarrow{\mathcal R}
+\\xrightarrow{\\mathcal R}
 X_t
-\xrightarrow{\mathcal A_E}
+\\xrightarrow{\\mathcal A_E}
 E_t
-\xrightarrow{Reason}
+\\xrightarrow{Reason}
 P_t
-\xrightarrow{Govern}
+\\xrightarrow{Govern}
 A_t
-\xrightarrow{\mathcal T}
-R_{t+1}
-\xrightarrow{\mathcal O}
-O_{t+1}
+\\xrightarrow{\\mathcal T}
+R\_{t+1}
+\\xrightarrow{\\mathcal O}
+O\_{t+1}
 }
-]
+\]
 
 where:
 
-- \(R_t\) = external/environment state,
-- \(O_t\) = observation,
-- \(X_t\) = internal representation,
-- \(E_t\) = admitted evidence,
-- \(P_t\) = proposal,
-- \(A_t\) = governed action.
+- (R_t) = external/environment state,
+- (O_t) = observation,
+- (X_t) = internal representation,
+- (E_t) = admitted evidence,
+- (P_t) = proposal,
+- (A_t) = governed action.
 
 The architecture must preserve the type of every state transition.
 
----
+______________________________________________________________________
 
-# 80. L00 Governing Law
+## 80. L00 Governing Law
 
-[
-\boxed{
-AMOSKnowledge
-=============
+## \[ \\boxed{ AMOSKnowledge
 
 GroundedObservation
-+
+\+
 TypedTransformation
-+
+\+
 RecoverableProvenance
-+
+\+
 ExplicitUncertainty
 }
-]
+\]
 
 not:
 
-[
-AMOSKnowledge
-=============
+## \[ AMOSKnowledge
 
 InternallyCoherentRepresentation
-]
+\]
 
 The architectural purpose of `L00_REALITY_ENVIRONMENT` is therefore to keep AMOS coupled to what can actually be observed, measured, sourced, constrained, acted upon, and re-observed without collapsing model state into reality.
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · 06-Knowledge-Base-MOC · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · AMOS_Typed_Tensor_Contracts · AMOS_Evidence_Tensor_Architecture · Cosmo_Brain_BRIDGE_INDEX · AMOS_Relation_Tensor_Architecture · AMOS_Reality_Simulation_Distinction · AMOS_Measurement_Integrity · AMOS_Information_Boundary_Governor · Cosmo_Brain_BRIDGE_INDEX · AMOS_Execution_Provenance_Replay · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations|AMOS_Simulation_Kernel_v0_Math_Foundations]] · system_scan_agent · automation_profiles
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: l00_reality_environment_primitives_cognitive_matrix_definition
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_DEFINITION.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_MOC|L00_REALITY_ENVIRONMENT_MOC]]

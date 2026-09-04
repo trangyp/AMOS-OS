@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: stability reference
 type: reference
 source: 07_SKILLS/amos-adaptive-stability-balancer/references
 tags:
-- reference
-- amos-adaptive-stability-balancer
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-adaptive-stability-balancer
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -20,9 +23,9 @@ rscf:
 > Load this reference only when detailed stability equations, containment patterns, adaptation classes, or decision logic are needed.
 > Source: AMOS_OS vault — `system/AMOS_MAC_STABILITY_COMPLETE.md`, `misc/C0/C201–C300 Resilience Operational Stability Burnout.md`, `misc/M/Meta-Laws Stability Equations Multi-Scale.md`
 
----
+______________________________________________________________________
 
-# Stability Budget
+## Stability Budget
 
 Maintain separate budgets where relevant:
 
@@ -56,9 +59,9 @@ measurement_time
 
 Do not aggregate incompatible units into one pseudo-precise number unless a justified normalization exists.
 
----
+______________________________________________________________________
 
-# Headroom
+## Headroom
 
 For a resource `r`, conceptually:
 
@@ -89,9 +92,9 @@ Status:
 
 Never spend recovery reserve on optional optimization.
 
----
+______________________________________________________________________
 
-# Source-Grounded Containment Pattern
+## Source-Grounded Containment Pattern
 
 The supplied AMOS stability protocol establishes a concrete source pattern:
 
@@ -126,9 +129,9 @@ are source-environment parameters.
 
 They are not universal AMOS constants.
 
----
+______________________________________________________________________
 
-# Hardware / Environment Firewall
+## Hardware / Environment Firewall
 
 Every resource rule inherits its environment.
 
@@ -157,9 +160,9 @@ THRESHOLD_VALID_IN_ENV_B
 
 Do not copy Mac-specific thresholds to cloud servers, mobile devices, Windows hosts, Linux hosts, or larger hardware without revalidation.
 
----
+______________________________________________________________________
 
-# Hard Limit vs Soft Limit
+## Hard Limit vs Soft Limit
 
 Distinguish:
 
@@ -184,9 +187,9 @@ resource crosses hard safety boundary
 
 Do not treat all thresholds as equally authoritative.
 
----
+______________________________________________________________________
 
-# Trend Matters
+## Trend Matters
 
 Current utilization alone is insufficient.
 
@@ -204,9 +207,9 @@ PressureState = [
 
 A system at moderate utilization with rapidly worsening pressure may be riskier than one at high but stable utilization.
 
----
+______________________________________________________________________
 
-# Time-to-Critical
+## Time-to-Critical
 
 The supplied stability protocol uses linear extrapolation for time-to-critical.
 
@@ -230,9 +233,9 @@ Use only when:
 
 Do not extrapolate linearly through regime changes.
 
----
+______________________________________________________________________
 
-# Dependency Health
+## Dependency Health
 
 The supplied resilience constraints state that resilience increases with dependency health and decreases as dependency health deteriorates.
 
@@ -253,9 +256,9 @@ DependencyState = [
 
 A locally healthy runtime may still be globally fragile when a critical dependency is degraded.
 
----
+______________________________________________________________________
 
-# Dependency Stability Rule
+## Dependency Stability Rule
 
 Conceptually:
 
@@ -268,9 +271,9 @@ CriticalDependencyFailure
 
 Do not scale aggressively through dependency instability merely because local compute remains available.
 
----
+______________________________________________________________________
 
-# Resilience
+## Resilience
 
 Treat resilience as the ability to absorb disturbance and recover while preserving essential function.
 
@@ -296,9 +299,9 @@ recovery capacity
 runbooks
 ```
 
----
+______________________________________________________________________
 
-# Resilience Saturation
+## Resilience Saturation
 
 The source framework explicitly includes diminishing returns.
 
@@ -314,9 +317,9 @@ When stabilizing controls already dominate the failure mode, further containment
 
 At that point, evaluate whether controlled adaptation can safely resume.
 
----
+______________________________________________________________________
 
-# Bounded Recovery
+## Bounded Recovery
 
 The source framework states that resilience-driven recovery is bounded until root causes are fixed.
 
@@ -332,9 +335,9 @@ A runtime repeatedly surviving the same failure is not necessarily healthy.
 
 Repeated recovery without causal repair should increase concern.
 
----
+______________________________________________________________________
 
-# Recovery Debt
+## Recovery Debt
 
 Conceptually track:
 
@@ -362,9 +365,9 @@ allowed adaptation
 
 until structural repair occurs.
 
----
+______________________________________________________________________
 
-# Observability Invariant
+## Observability Invariant
 
 The source resilience framework states that resilience requires observability.
 
@@ -389,9 +392,9 @@ or
 NO_CHANGE
 ```
 
----
+______________________________________________________________________
 
-# Runbook Principle
+## Runbook Principle
 
 Recovery under stress should not depend entirely on improvisation.
 
@@ -405,9 +408,9 @@ When the source or system supplies runbooks:
 
 Do not blindly execute stale runbooks across incompatible regimes.
 
----
+______________________________________________________________________
 
-# Multi-Scale Stability
+## Multi-Scale Stability
 
 The supplied framework defines a multi-scale stability model.
 
@@ -429,9 +432,9 @@ H = runtime / host / governing system
 
 Check stability at each relevant level.
 
----
+______________________________________________________________________
 
-# Cross-Scale Firewall
+## Cross-Scale Firewall
 
 Maintain:
 
@@ -459,9 +462,9 @@ but recovery reserve exhausted
 
 Never infer global health from one healthy layer.
 
----
+______________________________________________________________________
 
-# Multiplicative Stability Model
+## Multiplicative Stability Model
 
 The supplied Meta-Laws source states:
 
@@ -478,9 +481,9 @@ Within this Skill, use it only as a framework model illustrating that severe ins
 
 Do not present it as established universal systems mathematics.
 
----
+______________________________________________________________________
 
-# Gain and Damping
+## Gain and Damping
 
 The supplied framework uses:
 
@@ -510,9 +513,9 @@ stabilizing capacity
 
 Do not claim universal quantitative thresholds without validation.
 
----
+______________________________________________________________________
 
-# Runtime Gain
+## Runtime Gain
 
 Potential runtime gain sources include:
 
@@ -545,9 +548,9 @@ rollback
 resource reservations
 ```
 
----
+______________________________________________________________________
 
-# Oscillation Detection
+## Oscillation Detection
 
 Look for:
 
@@ -573,9 +576,9 @@ Repeated alternating control states indicate possible control instability.
 
 Do not mistake repeated activity for adaptation success.
 
----
+______________________________________________________________________
 
-# Hysteresis
+## Hysteresis
 
 To prevent rapid state flapping, use separate entry and exit conditions when appropriate.
 
@@ -600,9 +603,9 @@ pressure falls slightly
 → repeat
 ```
 
----
+______________________________________________________________________
 
-# Stability Window
+## Stability Window
 
 Before leaving recovery or SAFE_MODE, require evidence across a sufficient observation window.
 
@@ -621,9 +624,9 @@ The exact window is environment-specific.
 
 Do not invent a universal duration.
 
----
+______________________________________________________________________
 
-# Adaptation Classes
+## Adaptation Classes
 
 Classify proposed changes:
 
@@ -665,9 +668,9 @@ Route to higher governance.
 
 The Adaptive Stability Balancer must not self-authorize A5.
 
----
+______________________________________________________________________
 
-# Adaptation Admission
+## Adaptation Admission
 
 Before adaptation, evaluate:
 
@@ -698,9 +701,9 @@ REJECT
 ESCALATE
 ```
 
----
+______________________________________________________________________
 
-# Adaptation Reserve Invariant
+## Adaptation Reserve Invariant
 
 Never consume the resources required to recover from the adaptation itself.
 
@@ -725,9 +728,9 @@ or
 REJECT
 ```
 
----
+______________________________________________________________________
 
-# Stability Before Optimization
+## Stability Before Optimization
 
 Apply:
 
@@ -743,9 +746,9 @@ Do not optimize a runtime that is actively losing viability.
 
 Do not benchmark optional improvements while the system is in emergency containment unless the benchmark itself is part of diagnosis.
 
----
+______________________________________________________________________
 
-# SAFE_MODE
+## SAFE_MODE
 
 SAFE_MODE is a legitimate governed operating state.
 
@@ -771,9 +774,9 @@ SYSTEM_DEATH
 
 Its purpose is preservation.
 
----
+______________________________________________________________________
 
-# SAFE_MODE Entry
+## SAFE_MODE Entry
 
 Enter or recommend SAFE_MODE when evidence indicates:
 
@@ -791,9 +794,9 @@ Use actual configured thresholds when available.
 
 Do not invent them.
 
----
+______________________________________________________________________
 
-# SAFE_MODE Exit
+## SAFE_MODE Exit
 
 Exit only when:
 
@@ -810,9 +813,9 @@ Resume capabilities incrementally.
 
 Do not restore all disabled functions simultaneously unless validated.
 
----
+______________________________________________________________________
 
-# Graceful Degradation
+## Graceful Degradation
 
 Before shutdown, determine whether nonessential capability can be removed while preserving core function.
 
@@ -833,9 +836,9 @@ Some failure modes require immediate stop rather than gradual degradation.
 
 Safety constraints override graceful-degradation preference.
 
----
+______________________________________________________________________
 
-# Load Shedding
+## Load Shedding
 
 When demand exceeds safe capacity:
 
@@ -863,9 +866,9 @@ Possible shedding targets:
 
 Do not shed integrity checks required for safe operation.
 
----
+______________________________________________________________________
 
-# Bounded Containers
+## Bounded Containers
 
 The source stability protocol uses bounded lists and bounded registries.
 
@@ -891,9 +894,9 @@ depending on semantics.
 
 Do not silently discard load-bearing evidence.
 
----
+______________________________________________________________________
 
-# Lazy Loading
+## Lazy Loading
 
 Source runtime architecture favors lazy loading.
 
@@ -918,9 +921,9 @@ when:
 
 Do not lazy-load something required for immediate safety enforcement.
 
----
+______________________________________________________________________
 
-# Cache Governance
+## Cache Governance
 
 Caching can improve performance but consumes memory and risks stale state.
 
@@ -941,9 +944,9 @@ Do not increase cache size merely because hit rate improves.
 
 Evaluate the resource tradeoff.
 
----
+______________________________________________________________________
 
-# Concurrency Governance
+## Concurrency Governance
 
 Concurrency should scale with actual headroom.
 
@@ -968,9 +971,9 @@ Adapt worker count according to:
 - contention
 - recovery reserve
 
----
+______________________________________________________________________
 
-# Recursive Execution Firewall
+## Recursive Execution Firewall
 
 Recursive agent/runtime work can amplify resource use.
 
@@ -996,9 +999,9 @@ TERMINATE
 
 Do not preserve recursive autonomy at the cost of runtime viability.
 
----
+______________________________________________________________________
 
-# Retry Stability
+## Retry Stability
 
 Retries can transform local failure into systemic overload.
 
@@ -1023,9 +1026,9 @@ Prefer:
 
 Do not retry indefinitely.
 
----
+______________________________________________________________________
 
-# Operational Pressure
+## Operational Pressure
 
 The source resilience constraints state that high operational pressure erodes resilience.
 
@@ -1044,9 +1047,9 @@ toil
 
 Do not treat sustained emergency operation as normal capacity.
 
----
+______________________________________________________________________
 
-# Burnout / Human Capacity Boundary
+## Burnout / Human Capacity Boundary
 
 The supplied resilience source includes sustainable throughput and burnout concepts.
 
@@ -1064,9 +1067,9 @@ Repeated manual intervention can itself become a stability risk.
 
 Do not design resilience that depends on permanent emergency labor.
 
----
+______________________________________________________________________
 
-# Collapse Risk
+## Collapse Risk
 
 The supplied framework includes collapse-threshold concepts.
 
@@ -1082,9 +1085,9 @@ UNKNOWN
 
 Do not generate pseudo-probabilities without data.
 
----
+______________________________________________________________________
 
-# Collapse Path
+## Collapse Path
 
 When relevant map:
 
@@ -1100,9 +1103,9 @@ TRIGGER
 
 Identify the earliest practical interruption point.
 
----
+______________________________________________________________________
 
-# Recovery Path
+## Recovery Path
 
 Prefer:
 
@@ -1119,9 +1122,9 @@ CONTAIN
 
 Do not jump directly from containment to full adaptation.
 
----
+______________________________________________________________________
 
-# Repair vs Adaptation
+## Repair vs Adaptation
 
 Distinguish:
 
@@ -1137,9 +1140,9 @@ Do not call every repair an adaptation.
 
 Do not call uncontrolled drift adaptation.
 
----
+______________________________________________________________________
 
-# Adaptive Mutation Gate
+## Adaptive Mutation Gate
 
 A mutation is admissible only if:
 
@@ -1162,9 +1165,9 @@ or
 ESCALATE
 ```
 
----
+______________________________________________________________________
 
-# Anti-Rigidity Check
+## Anti-Rigidity Check
 
 Containment can become excessive.
 
@@ -1180,9 +1183,9 @@ After stability returns, ask:
 
 Do not preserve emergency restrictions indefinitely without revalidation.
 
----
+______________________________________________________________________
 
-# Anti-Overadaptation Check
+## Anti-Overadaptation Check
 
 Before additional change ask:
 
@@ -1193,9 +1196,9 @@ Before additional change ask:
 
 Avoid stacking mutations faster than their effects can be measured.
 
----
+______________________________________________________________________
 
-# One-Mutation-at-a-Time Preference
+## One-Mutation-at-a-Time Preference
 
 When diagnosis is uncertain and changes interact:
 
@@ -1214,9 +1217,9 @@ Parallel changes are acceptable when independence is established.
 
 Do not assume independence.
 
----
+______________________________________________________________________
 
-# Provenance
+## Provenance
 
 For consequential stability decisions preserve:
 
@@ -1232,9 +1235,9 @@ change_history
 
 A historical threshold without environment provenance is weak evidence.
 
----
+______________________________________________________________________
 
-# Freshness
+## Freshness
 
 Runtime state becomes stale quickly.
 
@@ -1248,9 +1251,9 @@ CURRENT_RESOURCE_STATE
 
 Re-read load-bearing metrics before consequential runtime changes when conditions are volatile.
 
----
+______________________________________________________________________
 
-# Commit-Time Revalidation
+## Commit-Time Revalidation
 
 Before applying a consequential adaptation:
 
@@ -1273,9 +1276,9 @@ SAFE_WHEN_PLANNED
 SAFE_WHEN_COMMITTED
 ```
 
----
+______________________________________________________________________
 
-# Competing Hypotheses
+## Competing Hypotheses
 
 When instability has multiple plausible causes, preserve them.
 
@@ -1293,9 +1296,9 @@ Do not immediately optimize for one.
 
 Seek the cheapest evidence capable of discriminating them.
 
----
+______________________________________________________________________
 
-# Root Cause Firewall
+## Root Cause Firewall
 
 Maintain:
 
@@ -1315,9 +1318,9 @@ does not prove excessive worker count was the original root cause.
 
 It may only reduce amplification.
 
----
+______________________________________________________________________
 
-# RSCF Integration
+## RSCF Integration
 
 For consequential decisions use:
 
@@ -1348,9 +1351,9 @@ CONFIDENCE_CEILING:
 
 Use the smallest sufficient capsule.
 
----
+______________________________________________________________________
 
-# H/M/L Integration
+## H/M/L Integration
 
 Use:
 
@@ -1370,9 +1373,9 @@ L optimization
 
 Do not permit a local improvement that materially destabilizes its parent system.
 
----
+______________________________________________________________________
 
-# GMEF Integration
+## GMEF Integration
 
 Structural runtime changes should be treated as governed evolution.
 
@@ -1393,9 +1396,9 @@ proposal
 
 The balancer does not self-authorize governing-system mutation.
 
----
+______________________________________________________________________
 
-# Decision Outcomes
+## Decision Outcomes
 
 Return one of:
 
@@ -1423,9 +1426,9 @@ UNKNOWN
 
 `UNKNOWN` is preferable to unsupported precision.
 
----
+______________________________________________________________________
 
-# Decision Logic
+## Decision Logic
 
 Conceptually:
 
@@ -1461,9 +1464,9 @@ Status:
 
 Actual policy and environment-specific constraints override this generic sequence.
 
----
+______________________________________________________________________
 
-# Sensitivity Test
+## Sensitivity Test
 
 Identify the smallest premise capable of flipping the stability decision.
 
@@ -1490,9 +1493,9 @@ CONDITIONAL
 
 and prefer the safer reversible action.
 
----
+______________________________________________________________________
 
-# Failure Modes
+## Failure Modes
 
 Monitor for:
 
@@ -1519,9 +1522,9 @@ THRESHOLD_STALENESS
 ENVIRONMENT_MISMATCH
 ```
 
----
+______________________________________________________________________
 
-# Failure Recovery
+## Failure Recovery
 
 On failure:
 
@@ -1540,9 +1543,9 @@ detect
 
 Do not repeat the same failed adaptation without changed evidence.
 
----
+______________________________________________________________________
 
-# Selective Rollback
+## Selective Rollback
 
 If one adaptation causes instability:
 
@@ -1566,9 +1569,9 @@ FAILED_CHANGE
 
 unless dependency boundaries cannot be trusted.
 
----
+______________________________________________________________________
 
-# Parent Routing Contract
+## Parent Routing Contract
 
 When called by `amos-os-runtime-master`, accept:
 
@@ -1605,9 +1608,9 @@ provenance
 invalidation_conditions
 ```
 
----
+______________________________________________________________________
 
-# Default Output
+## Default Output
 
 Use:
 
@@ -1632,11 +1635,11 @@ Invalidates if:
 
 Compress for low-complexity cases.
 
----
+______________________________________________________________________
 
----
+______________________________________________________________________
 
-# Recommended Claim Language
+## Recommended Claim Language
 
 Prefer:
 
@@ -1662,13 +1665,15 @@ Avoid:
 - "Maximum stability is always optimal."
 - "Adaptation should continue until performance stops improving."
 
----
+______________________________________________________________________
+
 **MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -1676,12 +1681,14 @@ Avoid:
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-adaptive-stability-balancer-stability-reference
 node_type: reference
 path: 07_SKILLS/amos-adaptive-stability-balancer/references/stability_reference.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

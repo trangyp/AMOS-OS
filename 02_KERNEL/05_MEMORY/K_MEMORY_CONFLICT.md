@@ -15,44 +15,44 @@ kernel_family: MEMORY
 scope: AMOS_OS
 updated: 2026-08-26
 tags:
-- amos-os
-- kernel
-- core
-- canon-group/tech-ai
-- kernel/memory
-- kernel/memory-conflict
-- kernel/contradiction
-- kernel/provenance
-- kernel/epistemics
-- kernel/dependency
-- kernel/recovery
-- rscf/conflict
-- rscf/provenance
-- topic/memory
-- topic/conflict
-- topic/competing-hypotheses
-- topic/invalidation
-- topic/supersession
-- topic/provenance-topology
-- canon/kernel
-- memory
-- readme
-- amos-core-laws
-- law-hierarchy
-- canon-provenance
-- source-lineage
-- supersession-log
-- k-identity
-- k-meta-logic
-- k-multi-hypothesis
-- k-memory-admission
-- k-context-state
-- k-context-compaction
-- k-system-state
-- k-world-model
-- k-causal-closure
-- k-causal-epoch
-- k-causal-hierarchy
+  - amos-os
+  - kernel
+  - core
+  - canon-group/tech-ai
+  - kernel/memory
+  - kernel/memory-conflict
+  - kernel/contradiction
+  - kernel/provenance
+  - kernel/epistemics
+  - kernel/dependency
+  - kernel/recovery
+  - rscf/conflict
+  - rscf/provenance
+  - topic/memory
+  - topic/conflict
+  - topic/competing-hypotheses
+  - topic/invalidation
+  - topic/supersession
+  - topic/provenance-topology
+  - canon/kernel
+  - memory
+  - readme
+  - amos-core-laws
+  - law-hierarchy
+  - canon-provenance
+  - source-lineage
+  - supersession-log
+  - k-identity
+  - k-meta-logic
+  - k-multi-hypothesis
+  - k-memory-admission
+  - k-context-state
+  - k-context-compaction
+  - k-system-state
+  - k-world-model
+  - k-causal-closure
+  - k-causal-epoch
+  - k-causal-hierarchy
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -87,7 +87,7 @@ UNKNOWN/GAP != PASS
 
 AMOS must preserve genuine unresolved conflict until evidence, scope, regime, authority, provenance, or supersession semantics legitimately discriminate between alternatives.
 
----
+______________________________________________________________________
 
 ## 1. Core Law
 
@@ -115,7 +115,7 @@ DETECT
 
 The default under unresolved material conflict is preservation, not convergence.
 
----
+______________________________________________________________________
 
 ## 2. Memory Conflict Definition
 
@@ -135,7 +135,7 @@ Incompatible(M1,M2)
 
 This definition is an AMOS architectural model, not a claim of formal implementation.
 
----
+______________________________________________________________________
 
 ## 3. Conflict Object
 
@@ -162,7 +162,7 @@ memory_conflict:
   updated_at:
 ```
 
----
+______________________________________________________________________
 
 ## 4. Conflict States
 
@@ -182,7 +182,7 @@ UNKNOWN/GAP
 
 These states must not be conflated with conclusion classes.
 
----
+______________________________________________________________________
 
 ## 5. Conflict Classes
 
@@ -208,7 +208,7 @@ MEASUREMENT_CONFLICT
 
 Classification matters because different conflict types require different discriminating tests.
 
----
+______________________________________________________________________
 
 ## 6. Semantic Conflict
 
@@ -224,7 +224,7 @@ is responsible for the apparent disagreement.
 
 Canonical identity, aliases, units, symbols, and semantic definitions should be resolved first where possible.
 
----
+______________________________________________________________________
 
 ## 7. Identity Conflict
 
@@ -253,7 +253,7 @@ VERSION_IDENTITY
 
 Identity ambiguity should be resolved before substantive conflict resolution.
 
----
+______________________________________________________________________
 
 ## 8. Factual Conflict
 
@@ -272,7 +272,7 @@ STATUS = COMPETING
 
 until discriminating evidence exists.
 
----
+______________________________________________________________________
 
 ## 9. Temporal Conflict
 
@@ -301,7 +301,7 @@ MEMORY CONFLICT
 
 unless both objects claim validity over overlapping time.
 
----
+______________________________________________________________________
 
 ## 10. Scope Conflict
 
@@ -327,7 +327,7 @@ NOT P
 
 without preserving their scope envelopes.
 
----
+______________________________________________________________________
 
 ## 11. Regime Conflict
 
@@ -348,7 +348,7 @@ CROSS_REGIME DIFFERENCE
 INTRA_REGIME CONTRADICTION
 ```
 
----
+______________________________________________________________________
 
 ## 12. Measurement Conflict
 
@@ -366,7 +366,7 @@ ERROR / UNCERTAINTY WHEN AVAILABLE
 
 before concluding one observation is invalid.
 
----
+______________________________________________________________________
 
 ## 13. Model Conflict
 
@@ -391,7 +391,7 @@ into:
 FACTUAL CERTAINTY
 ```
 
----
+______________________________________________________________________
 
 ## 14. Causal Conflict
 
@@ -418,7 +418,7 @@ SAME OBSERVATIONS
 SAME CAUSAL MODEL
 ```
 
----
+______________________________________________________________________
 
 ## 15. Provenance Conflict
 
@@ -436,7 +436,7 @@ UNVERIFIED AUTHORITY ATTRIBUTION
 
 These conflicts must not be repaired by guessing lineage.
 
----
+______________________________________________________________________
 
 ## 16. Authority Conflict
 
@@ -461,7 +461,7 @@ AUTHORITY
 EMPIRICAL TRUTH
 ```
 
----
+______________________________________________________________________
 
 ## 17. Version Conflict
 
@@ -487,7 +487,7 @@ must be raised.
 
 Do not silently select the latest encountered copy.
 
----
+______________________________________________________________________
 
 ## 18. Dependency Conflict
 
@@ -513,7 +513,7 @@ before treating `C` and `NOT C` as primitive contradictions.
 
 Conflict resolution should descend to the smallest load-bearing disagreement.
 
----
+______________________________________________________________________
 
 ## 19. Conflict Localization
 
@@ -541,7 +541,7 @@ RESOLVE MINIMUM CONFLICT CUT
 
 where possible.
 
----
+______________________________________________________________________
 
 ## 20. Conflict Preservation
 
@@ -567,7 +567,7 @@ DELETE(M2)
 
 merely to restore apparent consistency.
 
----
+______________________________________________________________________
 
 ## 21. Competing Hypotheses
 
@@ -599,7 +599,7 @@ REGIME(H_i)
 
 for each hypothesis.
 
----
+______________________________________________________________________
 
 ## 22. No Forced Convergence
 
@@ -620,7 +620,7 @@ COMPETING
 
 indefinitely until new evidence appears.
 
----
+______________________________________________________________________
 
 ## 23. Evidence Topology
 
@@ -652,7 +652,7 @@ M4
 
 by count.
 
----
+______________________________________________________________________
 
 ## 24. Sybil-Hardening
 
@@ -668,7 +668,7 @@ A thousand descendants of one source remain correlated evidence.
 
 Conflict resolution must operate on provenance topology, not naive vote counts.
 
----
+______________________________________________________________________
 
 ## 25. Independence Gate
 
@@ -688,7 +688,7 @@ INDEPENDENCE = UNKNOWN/GAP
 
 Do not assume it.
 
----
+______________________________________________________________________
 
 ## 26. Popularity Firewall
 
@@ -714,7 +714,7 @@ SHARED DATASET
 
 rather than independent validation.
 
----
+______________________________________________________________________
 
 ## 27. Authority Firewall
 
@@ -738,7 +738,7 @@ and:
 GOVERNANCE AUTHORITY
 ```
 
----
+______________________________________________________________________
 
 ## 28. Recency Firewall
 
@@ -754,7 +754,7 @@ CORRECT(M2)
 
 Recency resolves conflict only where temporal supersession or freshness is genuinely relevant.
 
----
+______________________________________________________________________
 
 ## 29. Confidence Firewall
 
@@ -770,7 +770,7 @@ TRUE(M1)
 
 Confidence is constrained by evidence quality, dependency strength, scope, freshness, and provenance independence.
 
----
+______________________________________________________________________
 
 ## 30. Derived Confidence
 
@@ -786,7 +786,7 @@ unless independently revalidated.
 
 Conflict resolution must not inflate confidence merely because one branch contains more derived descendants.
 
----
+______________________________________________________________________
 
 ## 31. Conflict Detection Pipeline
 
@@ -814,7 +814,7 @@ CONFLICT CLASSIFICATION
 RESOLUTION STATE
 ```
 
----
+______________________________________________________________________
 
 ## 32. Conflict Relation
 
@@ -834,7 +834,7 @@ SHARES_SOURCE_WITH
 
 These relations must remain distinct.
 
----
+______________________________________________________________________
 
 ## 33. Contradiction vs Supersession
 
@@ -861,7 +861,7 @@ Supersession requires evidence.
 
 Do not infer it merely from file order.
 
----
+______________________________________________________________________
 
 ## 34. Supersession Contract
 
@@ -882,7 +882,7 @@ supersession:
 
 where applicable.
 
----
+______________________________________________________________________
 
 ## 35. Supersession Does Not Erase History
 
@@ -908,7 +908,7 @@ Therefore:
 SUPERSEDED != DELETED
 ```
 
----
+______________________________________________________________________
 
 ## 36. Conflict Resolution Methods
 
@@ -933,7 +933,7 @@ EMPIRICAL DISCRIMINATION
 
 The method must match the conflict type.
 
----
+______________________________________________________________________
 
 ## 37. Cheapest Discriminating Test
 
@@ -952,7 +952,7 @@ E* = cheapest high-information test
 
 rather than accumulating redundant support already shared by both hypotheses.
 
----
+______________________________________________________________________
 
 ## 38. Discriminating Evidence
 
@@ -972,7 +972,7 @@ Conceptually, the best next test separates hypotheses rather than merely adding 
 
 This is a reasoning model, not a requirement for numerical Bayesian implementation.
 
----
+______________________________________________________________________
 
 ## 39. Adversarial Validation
 
@@ -1004,7 +1004,7 @@ RESOLUTION → CONDITIONAL
 
 as appropriate.
 
----
+______________________________________________________________________
 
 ## 40. Conflict Resolution Classes
 
@@ -1024,7 +1024,7 @@ COMPETING
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
 ## 41. Conditional Resolution
 
@@ -1045,7 +1045,7 @@ Correct result:
 CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
 ## 42. Conflict and Memory Admission
 
@@ -1075,7 +1075,7 @@ QUARANTINED
 
 depending on integrity conditions.
 
----
+______________________________________________________________________
 
 ## 43. Conflict During Admission
 
@@ -1095,7 +1095,7 @@ CLASSIFY
 ADMIT AS COMPETING / CONDITIONED / QUARANTINED
 ```
 
----
+______________________________________________________________________
 
 ## 44. Conflict During Retrieval
 
@@ -1116,7 +1116,7 @@ COMPETING CLAIMS
 
 when material to the reasoning task.
 
----
+______________________________________________________________________
 
 ## 45. Conflict During Reasoning
 
@@ -1143,7 +1143,7 @@ VERIFIED
 
 unless an independent path establishes it.
 
----
+______________________________________________________________________
 
 ## 46. Conflict Propagation
 
@@ -1167,7 +1167,7 @@ NOT Depends(D,P)
 
 does not alter `D`.
 
----
+______________________________________________________________________
 
 ## 47. Local Invalidation
 
@@ -1187,7 +1187,7 @@ that depend materially on it.
 
 Do not globally purge memories associated merely by topic.
 
----
+______________________________________________________________________
 
 ## 48. Recovery
 
@@ -1213,7 +1213,7 @@ SEEK NEW DISCRIMINATING EVIDENCE
 
 where historical state permits.
 
----
+______________________________________________________________________
 
 ## 49. Rollback
 
@@ -1229,7 +1229,7 @@ AUTHORITY
 TIME
 ```
 
----
+______________________________________________________________________
 
 ## 50. No Global Recompute by Default
 
@@ -1249,7 +1249,7 @@ LOCAL REPAIR
 
 Global recomputation is a last resort.
 
----
+______________________________________________________________________
 
 ## 51. Conflict Epoch
 
@@ -1267,7 +1267,7 @@ EPOCH_n != EPOCH_n+1
 
 when load-bearing state changed.
 
----
+______________________________________________________________________
 
 ## 52. Causal Epoch Interaction
 
@@ -1285,7 +1285,7 @@ must remain linked.
 
 A conclusion finalized in one causal epoch must not silently transfer into another.
 
----
+______________________________________________________________________
 
 ## 53. MVCC/CAS Compatibility
 
@@ -1317,7 +1317,7 @@ rather than overwriting the newer conflict state.
 
 This is an architectural compatibility rule, not an assertion of implemented MVCC/CAS.
 
----
+______________________________________________________________________
 
 ## 54. Atomic Multi-RSCF Conflict
 
@@ -1339,7 +1339,7 @@ RESOLUTION
 
 If one load-bearing RSCF changes before finalization, the resolution requires revalidation.
 
----
+______________________________________________________________________
 
 ## 55. Persistent Provenance
 
@@ -1357,7 +1357,7 @@ HOW IT WAS RESOLVED
 WHY THAT RESOLUTION REMAINS VALID
 ```
 
----
+______________________________________________________________________
 
 ## 56. Context Compaction Firewall
 
@@ -1373,7 +1373,7 @@ CONFLICT RESOLVED
 
 Known unresolved conflict must not disappear epistemically because context was compacted.
 
----
+______________________________________________________________________
 
 ## 57. H/M/L Conflict Representation
 
@@ -1388,7 +1388,7 @@ RAW: EVIDENCE CONFLICT
 
 Resolution should descend only as far as required to identify the discriminating dependency.
 
----
+______________________________________________________________________
 
 ## 58. Conflict Escalation
 
@@ -1409,7 +1409,7 @@ Raw evidence remains:
 DO_NOT_LOAD_UNLESS_REQUIRED
 ```
 
----
+______________________________________________________________________
 
 ## 59. Conflict Compression
 
@@ -1432,7 +1432,7 @@ conflict_capsule:
 
 Do not discard underlying lineage needed for recovery.
 
----
+______________________________________________________________________
 
 ## 60. Conflict Reopening
 
@@ -1452,7 +1452,7 @@ CAUSAL EPOCH CHANGES
 
 when relevant.
 
----
+______________________________________________________________________
 
 ## 61. Conflict Sensitivity
 
@@ -1476,7 +1476,7 @@ CONDITIONAL
 
 rather than overstated.
 
----
+______________________________________________________________________
 
 ## 62. Conflict and Confidence
 
@@ -1498,7 +1498,7 @@ ROBUST
 
 depending on support.
 
----
+______________________________________________________________________
 
 ## 63. Conflict and Unknown
 
@@ -1510,7 +1510,7 @@ CONFLICT_STATE = UNKNOWN/GAP
 
 Do not fabricate compatibility or contradiction.
 
----
+______________________________________________________________________
 
 ## 64. Critical Gap
 
@@ -1530,7 +1530,7 @@ may make conflict resolution impossible.
 
 Return the minimum missing information required.
 
----
+______________________________________________________________________
 
 ## 65. Conflict Priority
 
@@ -1548,7 +1548,7 @@ COSMETIC
 
 Resolve only gaps capable of changing the outcome before spending effort on background completeness.
 
----
+______________________________________________________________________
 
 ## 66. Governance Escalation
 
@@ -1566,7 +1566,7 @@ INSTITUTIONAL STATE
 LARGE DEPENDENCY SUBTREES
 ```
 
----
+______________________________________________________________________
 
 ## 67. Reversible Action
 
@@ -1588,7 +1588,7 @@ IRREVERSIBLE COMMIT
 
 unless governance explicitly authorizes the risk.
 
----
+______________________________________________________________________
 
 ## 68. Conflict Registry Interaction
 
@@ -1602,7 +1602,7 @@ only through the appropriate authority/provenance process.
 
 Kernel detection does not itself canonize a conflict.
 
----
+______________________________________________________________________
 
 ## 69. Canon Conflict
 
@@ -1631,7 +1631,7 @@ If those are insufficient:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
 ## 70. Memory vs Canon Conflict
 
@@ -1655,7 +1655,7 @@ APPLY CANON AUTHORITY WHERE REQUIRED
 ESCALATE CANON REVALIDATION IF WARRANTED
 ```
 
----
+______________________________________________________________________
 
 ## 71. Observation vs Decision Conflict
 
@@ -1671,7 +1671,7 @@ DECISION
 
 and conflict handling must preserve type.
 
----
+______________________________________________________________________
 
 ## 72. Model vs Observation Conflict
 
@@ -1686,7 +1686,7 @@ the default target of revalidation is the model or its assumptions, not the obse
 
 Observation quality must still be checked.
 
----
+______________________________________________________________________
 
 ## 73. Source Claim vs Observation
 
@@ -1699,7 +1699,7 @@ must remain separately typed.
 
 Do not convert source reputation into direct observation.
 
----
+______________________________________________________________________
 
 ## 74. Conflict Invariants
 
@@ -1765,7 +1765,7 @@ MC-20
 UNKNOWN/GAP MUST REMAIN VISIBLE
 ```
 
----
+______________________________________________________________________
 
 ## 75. Failure Modes
 
@@ -1795,7 +1795,7 @@ CONFLICT_CONTEXT_LOSS
 UNKNOWN_PASS_COLLAPSE
 ```
 
----
+______________________________________________________________________
 
 ## 76. Required Tests
 
@@ -1834,7 +1834,7 @@ CAUSAL-EPOCH TEST
 UNKNOWN-GAP TEST
 ```
 
----
+______________________________________________________________________
 
 ## 77. Negative Tests
 
@@ -1897,7 +1897,7 @@ UNKNOWN/GAP
 MUST FAIL
 ```
 
----
+______________________________________________________________________
 
 ## 78. Promotion Gate
 
@@ -1943,7 +1943,7 @@ FORMAL_VERIFICATION = UNKNOWN/GAP
 EMPIRICAL_VALIDATION = UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
 ## 79. Authority Boundary
 
@@ -1996,7 +1996,7 @@ K_MEMORY_CONFLICT
 MEMORY WRITE AUTHORITY
 ```
 
----
+______________________________________________________________________
 
 ## 80. RSCF Node
 
@@ -2044,7 +2044,7 @@ RSCF-RELATIONS:
   - VERIFIED_BY: README
 ```
 
----
+______________________________________________________________________
 
 ## 81. Canonical Summary
 
@@ -2228,12 +2228,14 @@ README
 ```text
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 **MOC:** [[02_KERNEL/05_MEMORY/05_MEMORY_MOC|05_MEMORY_MOC]]

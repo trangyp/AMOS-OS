@@ -4,25 +4,22 @@ title: SKILL — Amos Repair Priority Governor
 type: skill
 source: 07_SKILLS/amos-repair-priority-governor
 name: amos-repair-priority-governor
-description: Repair Priority Governor — audit and repair capability. Use when auditing,
-  failure analysis, gap discovery, or repair allocation. Use when amos-audit-repair-master
-  routes to this specialized capability. Do not use for generic tasks outside audit
-  domain.
+description: Repair Priority Governor — audit and repair capability. Use when auditing, failure analysis, gap discovery, or repair allocation. Use when amos-audit-repair-master routes to this specialized capability. Do not use for generic tasks outside audit domain.
 parent_skill: amos-audit-repair-master
 domain: audit
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
 tags:
-- type/skill
-- type/skill
-- domain/audit-repair
-- epistemic/source_claim
-- hml/m
-- epistemic/source_claim
-- amos-os
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/audit-repair
+  - epistemic/source_claim
+  - hml/m
+  - epistemic/source_claim
+  - amos-os
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -32,25 +29,25 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: M
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
-- L7_authority
-- L22_replayability
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
+  - L7_authority
+  - L22_replayability
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L7
-- L16
-- L17
-- L18
-- L22
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L7
+  - L16
+  - L17
+  - L18
+  - L22
 license: MIT
 steward: Trang Phan
 ---
@@ -60,6 +57,7 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: audit. Parent: amos-audit-repair-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
 ## When to Use
 
 - When auditing claims against evidence and provenance
@@ -87,13 +85,13 @@ Origin architect: **Trang Phan**. Domain: audit. Parent: amos-audit-repair-maste
 ## Operations
 
 1. **repair_priority.audit_claim**: Audit claims against evidence, provenance, and epistemic class
-2. **repair_priority.detect_gap**: Detect gaps: missing capabilities, missing evidence, missing tests, missing monitors
-3. **repair_priority.allocate_repair**: Allocate repair resources to highest-leverage gaps and failure modes
-4. **repair_priority.verify_closure**: Verify gap closure: requirement → capability → component → test → evidence
-5. **repair_priority.benchmark_forensics**: Benchmark forensic analysis: trace performance regressions to root causes
-6. **repair_priority.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-7. **repair_priority.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
-8. **repair_priority.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+1. **repair_priority.detect_gap**: Detect gaps: missing capabilities, missing evidence, missing tests, missing monitors
+1. **repair_priority.allocate_repair**: Allocate repair resources to highest-leverage gaps and failure modes
+1. **repair_priority.verify_closure**: Verify gap closure: requirement → capability → component → test → evidence
+1. **repair_priority.benchmark_forensics**: Benchmark forensic analysis: trace performance regressions to root causes
+1. **repair_priority.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+1. **repair_priority.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+1. **repair_priority.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## 11_KNOWLEDGE Vault Content
 
@@ -105,12 +103,15 @@ Origin architect: **Trang Phan**. Domain: audit. Parent: amos-audit-repair-maste
 From Cosmo Brain Distinction-Mutation-Entropy-Repair: Repair priority formula and selective repair. Global recomputation is last resort.
 
 **Repair priority formula** (SOURCE_DERIVED):
+
 ```
 Priority_i = Impact_i × DependencyFanout_i × Irreversibility_i × UncertaintyReduction_i
 ```
+
 subject to hard safety constraints.
 
 **Priority factors**:
+
 - **Impact**: how much does the issue affect the system?
 - **Dependency fanout**: how many other components depend on this one?
 - **Irreversibility**: how hard is it to undo the repair if it's wrong?
@@ -119,6 +120,7 @@ subject to hard safety constraints.
 **Selective repair principle**: `Invalid(p) => Repair(p)` not `Invalid(p) => ResetEverything`. Global recomputation is last resort.
 
 **5 Priority levels** (P0-P4):
+
 - **P0 CRITICAL**: system cannot function; repair immediately, block all other work
 - **P1 HIGH**: core capability degraded; repair before any non-repair work
 - **P2 MEDIUM**: secondary capability degraded; repair within current cycle
@@ -126,10 +128,11 @@ subject to hard safety constraints.
 - **P4 DEFERRED**: known issue, no current impact; log and monitor
 
 **Repair laws**:
+
 - `RepairCapacity > RepairDemand` required for autonomous repair
 - `REPAIR != IMPROVEMENT`: repair fixes a specific issue; it does not improve the system
-- `SYMPTOM != CAUSE**: repairing the symptom does not repair the cause
-- `SELECTIVE != GLOBAL**: selective repair targets the specific issue; global recomputation is last resort
+- \`SYMPTOM != CAUSE\*\*: repairing the symptom does not repair the cause
+- \`SELECTIVE != GLOBAL\*\*: selective repair targets the specific issue; global recomputation is last resort
 
 ### Epistemic Boundary
 
@@ -145,7 +148,8 @@ Repair priority governance is an operational construct. It does not prove optima
 
 ## V
 
----
+______________________________________________________________________
+
 **Links:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 ## Related
@@ -155,17 +159,19 @@ Repair priority governance is an operational construct. It does not prove optima
 ## Examples
 
 - **Scenario**: When auditing claims against evidence and provenance
+
   - **Input**: A query matching this skill's domain (audit)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When detecting gaps in capabilities, evidence, tests, or monitors
+
   - **Input**: A query matching this skill's domain (audit)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When allocating repair resources to highest-leverage gaps
+
   - **Input**: A query matching this skill's domain (audit)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Validation Gates
 
@@ -182,7 +188,6 @@ Repair priority governance is an operational construct. It does not prove optima
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `amos-audit-repair-master` — routes to this skill when audit specialization is needed
@@ -190,7 +195,6 @@ Repair priority governance is an operational construct. It does not prove optima
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -209,7 +213,6 @@ Repair priority governance is an operational construct. It does not prove optima
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -217,7 +220,6 @@ Repair priority governance is an operational construct. It does not prove optima
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -230,11 +232,12 @@ Repair priority governance is an operational construct. It does not prove optima
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `amos-audit-repair-master` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `amos-repair-priority-governor-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -242,12 +245,14 @@ Repair priority governance is an operational construct. It does not prove optima
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-repair-priority-governor
 node_type: skill
 path: 07_SKILLS/amos-repair-priority-governor/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

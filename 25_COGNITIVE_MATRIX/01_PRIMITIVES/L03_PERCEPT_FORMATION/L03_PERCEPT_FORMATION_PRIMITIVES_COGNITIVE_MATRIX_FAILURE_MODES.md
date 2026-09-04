@@ -2,16 +2,16 @@
 type: failure-mode
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L03_PERCEPT_FORMATION
 tags:
-- amos
-- cognitive-matrix
-- matrix/l03
-- percept-formation
-- failure-modes
-- rscf
-- hml
-- provenance
-- repair
-- domain/cognitive-matrix
+  - amos
+  - cognitive-matrix
+  - matrix/l03
+  - percept-formation
+  - failure-modes
+  - rscf
+  - hml
+  - provenance
+  - repair
+  - domain/cognitive-matrix
 title: L03_PERCEPT_FORMATION — Failure Modes
 origin_architect: Trang Phan
 status: MODEL_FAILURE_CONTRACT / UNIMPLEMENTED / UNVALIDATED
@@ -34,9 +34,9 @@ rscf:
 
 > **Source boundary:** The AMOS Multimodal Perception Layer requires H/M/L decomposition, typed invariants, tensors, RSCF, equation registries, falsifiers, provenance, competing hypotheses, confidence ceilings, and repair paths. It also requires hard invariants to remain non-compensatory and explicitly warns that `SOURCE_DEFINED` does not establish external empirical validation.
 
----
+______________________________________________________________________
 
-# 0. Purpose
+## 0. Purpose
 
 Define how `L03_PERCEPT_FORMATION` failures are represented, detected, contained, propagated, repaired, revalidated, and escalated.
 
@@ -62,9 +62,9 @@ REPAIR != VALIDATION
 RECOVERY != EMPIRICAL TRUTH
 ```
 
----
+______________________________________________________________________
 
-# 1. Source / Canon References
+## 1. Source / Canon References
 
 ## 1.1 Source-aligned requirements
 
@@ -101,9 +101,9 @@ canonical_runtime_failure_handlers: UNKNOWN_GAP
 
 Therefore the taxonomy below is an `AMOS_MODEL` contract, not recovered canonical L03 implementation.
 
----
+______________________________________________________________________
 
-# 2. Definition and Scope
+## 2. Definition and Scope
 
 An L03 failure object is modeled as:
 
@@ -154,9 +154,9 @@ revalidation
 control-plane handoff
 ```
 
----
+______________________________________________________________________
 
-# 3. Typed Inputs
+## 3. Typed Inputs
 
 ```yaml
 FailureDetectionInput:
@@ -210,9 +210,9 @@ FailureDetectionInput:
     type: AuthorityContext
 ```
 
----
+______________________________________________________________________
 
-# 4. Typed Outputs
+## 4. Typed Outputs
 
 ```yaml
 FailureDetectionOutput:
@@ -260,18 +260,18 @@ FailureDetectionOutput:
     type: NONE
 ```
 
----
+______________________________________________________________________
 
-# 5. Failure State Variables
+## 5. Failure State Variables
 
 Candidate failure-state tensor:
 
-[
+\[
 F^{L03}*t =
-(f*{obs},f_{att},f_{feat},f_{bind},f_{perc},
-f_{prov},f_{scope},f_{reg},f_{fresh},
-f_{hml},f_{dep},f_{conf},f_{auth})
-]
+(f*{obs},f\_{att},f\_{feat},f\_{bind},f\_{perc},
+f\_{prov},f\_{scope},f\_{reg},f\_{fresh},
+f\_{hml},f\_{dep},f\_{conf},f\_{auth})
+\]
 
 Each component represents a typed failure state, not necessarily a scalar.
 
@@ -301,9 +301,9 @@ Classification:
 AMOS_MODEL
 ```
 
----
+______________________________________________________________________
 
-# 6. Failure Severity
+## 6. Failure Severity
 
 Candidate severity classes:
 
@@ -332,9 +332,9 @@ uncertainty
 
 not merely error count.
 
----
+______________________________________________________________________
 
-# 7. FM-L03-001 — Observation Admission Failure
+## 7. FM-L03-001 — Observation Admission Failure
 
 **Condition**
 
@@ -352,11 +352,11 @@ scope-incompatible observation
 
 Detection:
 
-[
-\neg Admit(O_i)
-\land
-O_i\in Inputs(P)
-]
+\[
+\\neg Admit(O_i)
+\\land
+O_i\\in Inputs(P)
+\]
 
 Impact:
 
@@ -378,9 +378,9 @@ re-run admission
 reconstruct affected percepts
 ```
 
----
+______________________________________________________________________
 
-# 8. FM-L03-002 — Attention Selection Corruption
+## 8. FM-L03-002 — Attention Selection Corruption
 
 **Condition**
 
@@ -415,9 +415,9 @@ control-plane configuration error
 
 Do not attribute automatically to L03.
 
----
+______________________________________________________________________
 
-# 9. FM-L03-003 — Feature Transformation Failure
+## 9. FM-L03-003 — Feature Transformation Failure
 
 **Condition**
 
@@ -435,9 +435,9 @@ unsupported inference
 
 Detection candidate:
 
-[
-Prov(F_i)\not\supseteq RequiredAnc(F_i)
-]
+\[
+Prov(F_i)\\not\\supseteq RequiredAnc(F_i)
+\]
 
 Repair:
 
@@ -449,9 +449,9 @@ re-run transformation
 revalidate
 ```
 
----
+______________________________________________________________________
 
-# 10. FM-L03-004 — Binding Failure
+## 10. FM-L03-004 — Binding Failure
 
 **Condition**
 
@@ -480,9 +480,9 @@ Hard boundary:
 BINDING SCORE != OBJECT IDENTITY
 ```
 
----
+______________________________________________________________________
 
-# 11. FM-L03-005 — Percept Hallucination
+## 11. FM-L03-005 — Percept Hallucination
 
 Operational AMOS definition:
 
@@ -490,11 +490,11 @@ Operational AMOS definition:
 
 Candidate condition:
 
-[
+\[
 RequiredSupport(P_i)
-\not\subseteq
+\\not\\subseteq
 AvailableValidSupport(P_i)
-]
+\]
 
 Status:
 
@@ -516,9 +516,9 @@ model inference presented as observation
 
 Repair must identify the earliest unsupported dependency rather than merely delete the final percept.
 
----
+______________________________________________________________________
 
-# 12. FM-L03-006 — Percept Omission
+## 12. FM-L03-006 — Percept Omission
 
 A material admitted observation fails to contribute to a percept where the declared L03 contract requires it.
 
@@ -547,9 +547,9 @@ Otherwise status remains:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 13. FM-L03-007 — Provenance Loss
+## 13. FM-L03-007 — Provenance Loss
 
 **Condition**
 
@@ -557,9 +557,9 @@ A percept or derivative cannot be traced to its required semantic origins.
 
 Candidate invariant violation:
 
-[
+\[
 Anc(P_i)=UNKNOWN
-]
+\]
 
 for a percept whose validity requires known ancestry.
 
@@ -571,9 +571,9 @@ QUARANTINE
 
 rather than reconstruct provenance by guesswork.
 
----
+______________________________________________________________________
 
-# 14. FM-L03-008 — Provenance Multiplication / Sybil Evidence
+## 14. FM-L03-008 — Provenance Multiplication / Sybil Evidence
 
 One source is transformed into multiple descendants and mistakenly counted as independent confirmation.
 
@@ -601,19 +601,19 @@ Correct:
 
 Failure can inflate confidence and suppress legitimate competing percepts.
 
----
+______________________________________________________________________
 
-# 15. FM-L03-009 — Confidence Inflation
+## 15. FM-L03-009 — Confidence Inflation
 
 Condition:
 
-[
+\[
 Conf(P)
 
 >
 
-\min_{d\in LB(P)}Conf(d)
-]
+\\min\_{d\\in LB(P)}Conf(d)
+\]
 
 without independent revalidation.
 
@@ -636,9 +636,9 @@ restore confidence ceiling
 propagate downgrade
 ```
 
----
+______________________________________________________________________
 
-# 16. FM-L03-010 — Uncertainty Collapse
+## 16. FM-L03-010 — Uncertainty Collapse
 
 Distinct uncertainty dimensions are collapsed into a single confidence value and material ambiguity disappears.
 
@@ -662,17 +662,17 @@ regime uncertainty
 
 Repair restores the uncertainty vector.
 
----
+______________________________________________________________________
 
-# 17. FM-L03-011 — Scope Leakage
+## 17. FM-L03-011 — Scope Leakage
 
-A percept valid for scope \(S_1\) is silently reused in \(S_2\).
+A percept valid for scope (S_1) is silently reused in (S_2).
 
 Candidate failure:
 
-[
-Scope(P)\not\supseteq S_{target}
-]
+\[
+Scope(P)\\not\\supseteq S\_{target}
+\]
 
 yet the percept is applied there.
 
@@ -695,9 +695,9 @@ or INVALID
 
 depending on transfer evidence.
 
----
+______________________________________________________________________
 
-# 18. FM-L03-012 — Regime Drift
+## 18. FM-L03-012 — Regime Drift
 
 The environment or processing regime changes while the percept remains treated as unchanged.
 
@@ -713,9 +713,9 @@ model version change
 
 Candidate:
 
-[
-Regime_t \neq Regime_{validated}
-]
+\[
+Regime_t \\neq Regime\_{validated}
+\]
 
 without valid transfer evidence.
 
@@ -725,9 +725,9 @@ Response:
 STALE / REVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 19. FM-L03-013 — Freshness Failure
+## 19. FM-L03-013 — Freshness Failure
 
 A newly generated percept is based on stale load-bearing evidence.
 
@@ -747,9 +747,9 @@ refresh where possible
 otherwise lower validity/confidence
 ```
 
----
+______________________________________________________________________
 
-# 20. FM-L03-014 — Modality Absence Confusion
+## 20. FM-L03-014 — Modality Absence Confusion
 
 Failure:
 
@@ -779,23 +779,23 @@ UNKNOWN WITH RESPECT TO THAT MODALITY
 
 unless other evidence independently resolves the proposition.
 
----
+______________________________________________________________________
 
-# 21. FM-L03-015 — Temporal Binding Failure
+## 21. FM-L03-015 — Temporal Binding Failure
 
 Features from incompatible temporal windows are bound into one percept.
 
 Candidate:
 
-[
+\[
 Compat_T(F_i,F_j)=0
-]
+\]
 
 yet:
 
-[
+\[
 Bind(F_i,F_j)=1
-]
+\]
 
 Possible result:
 
@@ -807,9 +807,9 @@ cross-time identity error
 
 Temporal sequence alone must not be promoted into causal structure.
 
----
+______________________________________________________________________
 
-# 22. FM-L03-016 — Spatial Binding Failure
+## 22. FM-L03-016 — Spatial Binding Failure
 
 Spatially incompatible features are treated as co-located or belonging to one object/event.
 
@@ -823,9 +823,9 @@ UNKNOWN
 
 rather than automatically compatible.
 
----
+______________________________________________________________________
 
-# 23. FM-L03-017 — Context Overwrite
+## 23. FM-L03-017 — Context Overwrite
 
 Prior context, memory, expectation, or semantic framing overrides contradictory current observations without licensed evidence.
 
@@ -849,9 +849,9 @@ or REVALIDATE
 
 rather than silent overwrite.
 
----
+______________________________________________________________________
 
-# 24. FM-L03-018 — Observation / Inference Collapse
+## 24. FM-L03-018 — Observation / Inference Collapse
 
 A derived interpretation is relabeled as direct observation.
 
@@ -878,17 +878,17 @@ DERIVED
 MODEL
 ```
 
----
+______________________________________________________________________
 
-# 25. FM-L03-019 — Forced Percept Convergence
+## 25. FM-L03-019 — Forced Percept Convergence
 
 Multiple percept candidates remain plausible but the system forces one winner without discriminating evidence.
 
 Given:
 
-[
-\Omega={P_1,P_2,\dots,P_n}
-]
+\[
+\\Omega={P_1,P_2,\\dots,P_n}
+\]
 
 if evidence does not discriminate sufficiently:
 
@@ -905,9 +905,9 @@ COMPETING
 → arbitrary VERIFIED winner
 ```
 
----
+______________________________________________________________________
 
-# 26. FM-L03-020 — Contradiction Suppression
+## 26. FM-L03-020 — Contradiction Suppression
 
 Evidence contradicting the active percept is deleted, ignored, down-weighted without justification, or absorbed into a self-sealing explanation.
 
@@ -920,31 +920,31 @@ construct competing percept
 seek discriminating test
 ```
 
----
+______________________________________________________________________
 
-# 27. FM-L03-021 — H/M/L Promotion Error
+## 27. FM-L03-021 — H/M/L Promotion Error
 
 Local evidence is promoted directly into high-level percept structure without a valid cross-scale mapping.
 
 Failure:
 
-[
-L\rightarrow H
-]
+\[
+L\\rightarrow H
+\]
 
 without validated:
 
-[
-L\rightarrow M\rightarrow H
-]
+\[
+L\\rightarrow M\\rightarrow H
+\]
 
 or another explicit admissible mapping.
 
 Structural similarity alone does not justify promotion.
 
----
+______________________________________________________________________
 
-# 28. FM-L03-022 — H/M/L Downward Overwrite
+## 28. FM-L03-022 — H/M/L Downward Overwrite
 
 High-level interpretation overwrites contradictory lower-level evidence.
 
@@ -966,39 +966,39 @@ preserve contradiction
 revalidate H
 ```
 
----
+______________________________________________________________________
 
-# 29. FM-L03-023 — Dependency Lineage Loss
+## 29. FM-L03-023 — Dependency Lineage Loss
 
 A percept remains active after one of its load-bearing premises disappears because the dependency edge was lost.
 
 Candidate:
 
-[
-d\in LB(P)
-\land
+\[
+d\\in LB(P)
+\\land
 Invalid(d)
-\land
+\\land
 Status(P)=VALID
-]
+\]
 
 This is a critical selective-invalidation failure.
 
----
+______________________________________________________________________
 
-# 30. FM-L03-024 — Over-Invalidation
+## 30. FM-L03-024 — Over-Invalidation
 
 One failed premise causes unrelated percept branches to be discarded.
 
 Failure:
 
-[
+\[
 Invalid(d)
-\Rightarrow
+\\Rightarrow
 Invalidate(X)
-]
+\]
 
-for nodes \(X\) not dependent on (d).
+for nodes (X) not dependent on (d).
 
 Repair principle:
 
@@ -1007,9 +1007,9 @@ invalidate descendants only
 preserve unaffected branches
 ```
 
----
+______________________________________________________________________
 
-# 31. FM-L03-025 — Under-Invalidation
+## 31. FM-L03-025 — Under-Invalidation
 
 The inverse condition:
 
@@ -1020,9 +1020,9 @@ but dependent percept survives unchanged
 
 Potentially more dangerous than over-invalidation because invalid percepts may remain authoritative.
 
----
+______________________________________________________________________
 
-# 32. FM-L03-026 — Repair Contamination
+## 32. FM-L03-026 — Repair Contamination
 
 Repair changes valid observations, provenance, or unaffected dependencies merely to make the percept internally coherent again.
 
@@ -1042,9 +1042,9 @@ PERCEPT FAILED
 
 unless upstream evidence itself is independently shown to be invalid.
 
----
+______________________________________________________________________
 
-# 33. FM-L03-027 — Repair Loop
+## 33. FM-L03-027 — Repair Loop
 
 Repeated repair attempts reproduce the same failure without changed evidence or mechanism.
 
@@ -1067,9 +1067,9 @@ ESCALATE
 or CHANGE HYPOTHESIS
 ```
 
----
+______________________________________________________________________
 
-# 34. FM-L03-028 — Premature Recovery
+## 34. FM-L03-028 — Premature Recovery
 
 A repaired percept is immediately marked valid without revalidation.
 
@@ -1089,9 +1089,9 @@ REPAIRED
 → RECOVERED
 ```
 
----
+______________________________________________________________________
 
-# 35. FM-L03-029 — Unknown-as-Pass
+## 35. FM-L03-029 — Unknown-as-Pass
 
 Any required field has:
 
@@ -1103,11 +1103,11 @@ but a validator treats absence of known failure as success.
 
 Forbidden inference:
 
-[
-\neg KnownFailure
-\Rightarrow
+\[
+\\neg KnownFailure
+\\Rightarrow
 PASS
-]
+\]
 
 Correct:
 
@@ -1115,19 +1115,19 @@ Correct:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 36. FM-L03-030 — Capability / Authority Collapse
+## 36. FM-L03-030 — Capability / Authority Collapse
 
 A percept-forming component can technically generate or alter state and therefore is assumed authorized to commit it.
 
 Forbidden:
 
-[
+\[
 Capability(a,e)
-\Rightarrow
+\\Rightarrow
 Authority(a,e)
-]
+\]
 
 Required:
 
@@ -1135,9 +1135,9 @@ Required:
 CAPABILITY != AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 37. FM-L03-031 — Proposal / Commit Collapse
+## 37. FM-L03-031 — Proposal / Commit Collapse
 
 A valid percept proposal is mistaken for durable committed state.
 
@@ -1150,9 +1150,9 @@ PROPOSED
 
 Commit requires independent control-plane evidence.
 
----
+______________________________________________________________________
 
-# 38. FM-L03-032 — Implementation Status Inflation
+## 38. FM-L03-032 — Implementation Status Inflation
 
 An addressable L03 interface, schema, equation, workflow, agent, or test is described as implemented without executable evidence.
 
@@ -1164,9 +1164,9 @@ ADDRESSABLE != IMPLEMENTED
 IMPLEMENTED != VALIDATED
 ```
 
----
+______________________________________________________________________
 
-# 39. FM-L03-033 — Validation Status Inflation
+## 39. FM-L03-033 — Validation Status Inflation
 
 Passing local tests is presented as empirical validation of perception.
 
@@ -1179,9 +1179,9 @@ UNIT TEST PASS
 
 Tests may establish only the properties they actually exercise.
 
----
+______________________________________________________________________
 
-# 40. FM-L03-034 — Causal Overreach
+## 40. FM-L03-034 — Causal Overreach
 
 Percept formation infers causal relationships from:
 
@@ -1204,9 +1204,9 @@ TEMPORAL ORDER != CAUSATION
 BINDING != CAUSATION
 ```
 
----
+______________________________________________________________________
 
-# 41. FM-L03-035 — Memory Contamination
+## 41. FM-L03-035 — Memory Contamination
 
 Retrieved memory contributes to percept formation but is:
 
@@ -1228,9 +1228,9 @@ re-form percept without contaminated memory
 compare outputs
 ```
 
----
+______________________________________________________________________
 
-# 42. FM-L03-036 — Observer Context Loss
+## 42. FM-L03-036 — Observer Context Loss
 
 The percept is detached from the observer/context under which it was formed.
 
@@ -1248,9 +1248,9 @@ restore observer coordinate
 downgrade unsupported universalization
 ```
 
----
+______________________________________________________________________
 
-# 43. FM-L03-037 — Semantic Identity Drift
+## 43. FM-L03-037 — Semantic Identity Drift
 
 A symbol, object identity, percept ID, or concept changes meaning while retaining the same identifier.
 
@@ -1265,9 +1265,9 @@ without versioning.
 
 This corrupts replay and provenance.
 
----
+______________________________________________________________________
 
-# 44. FM-L03-038 — Percept Persistence Error
+## 44. FM-L03-038 — Percept Persistence Error
 
 A percept is treated as persistent merely because it has been repeatedly regenerated.
 
@@ -1280,9 +1280,9 @@ REPETITION
 
 Persistence requires continuing validity of load-bearing conditions.
 
----
+______________________________________________________________________
 
-# 45. FM-L03-039 — Resource-Truncation Failure
+## 45. FM-L03-039 — Resource-Truncation Failure
 
 Finite context, compute, bandwidth, or time silently removes load-bearing observations or competing percepts.
 
@@ -1296,9 +1296,9 @@ downgrade affected conclusions
 
 not pretend full evaluation occurred.
 
----
+______________________________________________________________________
 
-# 46. FM-L03-040 — Control-Plane Bypass
+## 46. FM-L03-040 — Control-Plane Bypass
 
 The L03 worker directly performs durable state mutation without required authority, freshness, or constraint validation.
 
@@ -1318,9 +1318,9 @@ revalidate state
 escalate
 ```
 
----
+______________________________________________________________________
 
-# 47. Failure Interaction Graph
+## 47. Failure Interaction Graph
 
 Failures may compose.
 
@@ -1358,9 +1358,9 @@ minimal causal cut
 repair
 ```
 
----
+______________________________________________________________________
 
-# 48. H/M/L Failure Applicability
+## 48. H/M/L Failure Applicability
 
 ## L — Local failures
 
@@ -1413,9 +1413,9 @@ FAILURE AT EVERY SCALE
 
 unless dependency propagation establishes it.
 
----
+______________________________________________________________________
 
-# 49. Control-Plane Requirements
+## 49. Control-Plane Requirements
 
 L03 may:
 
@@ -1453,9 +1453,9 @@ FAIL CLOSED
 
 where required evidence or authority is unresolved.
 
----
+______________________________________________________________________
 
-# 50. Agents
+## 50. Agents
 
 Candidate roles:
 
@@ -1480,9 +1480,9 @@ ARCHITECTURAL ROLES ONLY
 
 No runtime implementation is implied.
 
----
+______________________________________________________________________
 
-# 51. Skills
+## 51. Skills
 
 Potential supporting skills:
 
@@ -1504,9 +1504,9 @@ RSCF Modeler
 
 Presence of a capability does not prove L03 integration.
 
----
+______________________________________________________________________
 
-# 52. Failure Workflow
+## 52. Failure Workflow
 
 ```text
 DETECT ANOMALY
@@ -1544,9 +1544,9 @@ REVALIDATE
 RECOVER / CONDITIONAL / COMPETING / GAP
 ```
 
----
+______________________________________________________________________
 
-# 53. Protocols
+## 53. Protocols
 
 Candidate protocol surface:
 
@@ -1567,9 +1567,9 @@ L03_FAILURE_REPORT
 
 Canonical protocol names remain `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
-# 54. Evidence / Provenance
+## 54. Evidence / Provenance
 
 Every material failure claim should retain:
 
@@ -1605,9 +1605,9 @@ FailureEvidenceBundle:
 
 Failure claims inherit uncertainty from their load-bearing evidence.
 
----
+______________________________________________________________________
 
-# 55. Uncertainty and Confidence Ceiling
+## 55. Uncertainty and Confidence Ceiling
 
 A detected symptom may have:
 
@@ -1625,16 +1625,16 @@ These must remain separate.
 
 Candidate vector:
 
-[
+\[
 U_F =
-(u_{detection},
-u_{localization},
-u_{cause},
-u_{scope},
-u_{temporal},
-u_{provenance},
-u_{repair})
-]
+(u\_{detection},
+u\_{localization},
+u\_{cause},
+u\_{scope},
+u\_{temporal},
+u\_{provenance},
+u\_{repair})
+\]
 
 Confidence in root-cause attribution must not exceed its weakest load-bearing evidence without independent validation.
 
@@ -1657,9 +1657,9 @@ COMPETING ROOT CAUSES
 
 not falsely precise attribution.
 
----
+______________________________________________________________________
 
-# 56. Repair / Recovery Contract
+## 56. Repair / Recovery Contract
 
 Repair obeys:
 
@@ -1681,22 +1681,20 @@ RECOVERY REQUIRES VALID DEPENDENCIES
 
 Candidate recovery predicate:
 
-[
-Recovered(P)
-============
+## \[ Recovered(P)
 
 RepairApplied(P)
-\land
+\\land
 DependenciesValid(P)
-\land
+\\land
 ConstraintsValid(P)
-\land
+\\land
 ScopeValid(P)
-\land
+\\land
 RegimeValid(P)
-\land
+\\land
 Revalidated(P)
-]
+\]
 
 Classification:
 
@@ -1704,9 +1702,9 @@ Classification:
 AMOS_MODEL
 ```
 
----
+______________________________________________________________________
 
-# 57. Tests / Validators
+## 57. Tests / Validators
 
 ```text
 VALIDATE_FAILURE_SCHEMA
@@ -1792,9 +1790,9 @@ formal_validation: false
 empirical_validation: false
 ```
 
----
+______________________________________________________________________
 
-# 58. Falsifiers
+## 58. Falsifiers
 
 Revise this failure contract if:
 
@@ -1828,9 +1826,9 @@ revalidation
 
 is insufficient for this contract.
 
----
+______________________________________________________________________
 
-# 59. Gap Matrix
+## 59. Gap Matrix
 
 ```yaml
 gap_status:
@@ -1896,11 +1894,11 @@ gap_status:
     status: CRITICAL_GAP
 ```
 
----
+______________________________________________________________________
 
-# 60. Competing Failure Hypotheses
+## 60. Competing Failure Hypotheses
 
-For any failed percept \(P\), preserve at minimum:
+For any failed percept (P), preserve at minimum:
 
 ```text
 H1 — upstream observation failure
@@ -1921,9 +1919,9 @@ Preferred next test:
 
 > Choose the cheapest test that most strongly separates the surviving hypotheses.
 
----
+______________________________________________________________________
 
-# 61. RSCF Completion State
+## 61. RSCF Completion State
 
 ```yaml
 rscf:
@@ -2037,9 +2035,9 @@ rscf:
     implementation.
 ```
 
----
+______________________________________________________________________
 
-# 62. Completion State
+## 62. Completion State
 
 ```yaml
 completion_state:
@@ -2117,9 +2115,9 @@ completion_state:
     MODEL
 ```
 
----
+______________________________________________________________________
 
-# 63. Hard Boundaries
+## 63. Hard Boundaries
 
 ```text
 PLACEHOLDER != IMPLEMENTED
@@ -2175,15 +2173,15 @@ DEFINED FAILURE HANDLER != IMPLEMENTED HANDLER
 IMPLEMENTED HANDLER != VALIDATED HANDLER
 ```
 
----
+______________________________________________________________________
 
-# 64. Governing Failure Contract
+## 64. Governing Failure Contract
 
 > **`L03_PERCEPT_FORMATION` SHALL preserve percept-formation failures as typed, provenance-bound, scope- and regime-aware states. Failure handling SHALL distinguish observed symptom from supported root cause; preserve genuinely competing causal explanations; identify load-bearing dependency paths; propagate invalidation only through affected descendants; preserve unaffected state; prevent stale, unavailable, correlated, or inferred information from being silently promoted; and prevent high-level percept structure from overwriting contradictory lower-level evidence. Repair SHALL target the earliest supported defective dependency where practical, SHALL NOT alter valid evidence merely to preserve an existing percept, and SHALL require revalidation before recovery. L03 workers MAY detect, classify, quarantine, and propose repairs, but SHALL NOT infer durable authority from capability or treat a proposal as a commit. Unknown load-bearing state SHALL remain `UNKNOWN/GAP`, never `PASS`.**
 
----
+______________________________________________________________________
 
-# 65. Canon Boundary
+## 65. Canon Boundary
 
 ```text
 SOURCE-ALIGNED:
@@ -2343,22 +2341,27 @@ AUTHORITY TO INVALIDATE OR COMMIT DURABLE STATE
 
 ```text
 ```
----
+
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: l03_percept_formation_primitives_cognitive_matrix_failure_modes
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L03_PERCEPT_FORMATION/L03_PERCEPT_FORMATION_PRIMITIVES_COGNITIVE_MATRIX_FAILURE_MODES.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L03_PERCEPT_FORMATION/L03_PERCEPT_FORMATION_MOC|L03_PERCEPT_FORMATION_MOC]]

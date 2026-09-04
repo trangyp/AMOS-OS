@@ -1,51 +1,62 @@
 ---
-title: C09 ORG LAW POLICY DOMAINS C09 ORG LAW POLICY CONTRACT
-type: law
-source: 21_DOMAINS/19_C09_ORG_LAW_POLICY/00_INDEX
-tags:
-- amos-os
-- canon/domain
-- routing-policy-validation-receipt
-- authz-engine-validation-receipt
+title: "C09 Org Law Policy Domains C09 Org Law Policy Contract — Specialist Domain Specification"
+type: domain_specification
+source: 21_DOMAINS
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
+status: ACTIVE_SPECIFICATION
+epistemic_class: AMOS_MODEL
+conclusion_class: DERIVED
 rscf:
   state: DERIVED
-  claim_class: CONDITIONAL
-  provenance: AMOS_corpus
-  scope: index_navigation
+  claim_class: AMOS_MODEL
+  provenance:
+    - 21_DOMAINS/00_INDEX/DOMAIN_EXTENSION_PROTOCOL
+    - 00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE
+  scope: domain_specialization
+tags:
+  - amos-os
+  - domains
+  - c01-c12
+  - c09-org-law-policy-domains-c09-org-law-policy-contract
 ---
 
-# C09 ORG LAW POLICY DOMAINS C09 ORG LAW POLICY CONTRACT
+# C09 Org Law Policy Domains C09 Org Law Policy Contract — Specialist Domain Specification
 
-STATUS: PROPOSED_SPECIFICATION
-epistemic_class: AMOS_MODEL
-canonical_status: CONDITIONAL
-updated: 2026-08-26
-
-## Purpose
-Index navigation stub; canonical content in package contract.
-
-## Contract discipline
-Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
-
-## Gaps
-Executable binding PARTIAL unless an executed validation receipt exists for this subsystem (see [[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]], [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]).
+> **Origin Architect / Steward:** Trang Phan  
+> **AMOS_CORE Target:** `v4.4`  
+> **Conclusion Class:** `AMOS_MODEL`  
+> **Status:** `ACTIVE_SPECIFICATION`
 
 ---
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+## 1. Domain Scope & Objectives
+
+`C09_ORG_LAW_POLICY_DOMAINS_C09_ORG_LAW_POLICY_CONTRACT` defines the specialized domain models, ontologies, regulatory frameworks, and operational packages under `21_DOMAINS`.
+
+Governed under **Partition C: Cognitive Capability & Orchestration** and the [[21_DOMAINS/00_INDEX/DOMAIN_EXTENSION_PROTOCOL|DOMAIN_EXTENSION_PROTOCOL]].
 
 ---
-**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+
+## 2. Domain Rules & Invariants
+
+1. **Non-Contradiction with Canon:** Specialist domain rules cannot supersede root axioms in `01_CANON`.
+2. **Explicit Confidence Attenuation:** Conclusions derived within `C09_ORG_LAW_POLICY_DOMAINS_C09_ORG_LAW_POLICY_CONTRACT` must declare confidence ceilings ($\mathcal{C} \le 0.95$).
+3. **Cross-Regime Bridges:** Transfers from this domain to adjacent domains require formal translation penalties.
 
 ---
-RSCF-NODE
-node_id: amos_icy_00_index_c09_org_law_policy_domains_c09_org_law_policy_contract_md
-node_type: note
-path: 21_DOMAINS/19_C09_ORG_LAW_POLICY/00_INDEX/C09_ORG_LAW_POLICY_DOMAINS_C09_ORG_LAW_POLICY_CONTRACT.md
-claim_class: AMOS_MODEL
+
+## 3. Operational Mechanics & Datasets
+
+- **Domain Models:** Mathematical, empirical, or statistical formulations specific to `C09 Org Law Policy Domains C09 Org Law Policy Contract`.
+- **Allowed Tooling:** Strictly sandboxed Tier 1 and Tier 2 adapters.
+- **Verification Gates:** Invariant tests codified in `19_TESTS/`.
 
 ---
-**MOC:** [[21_DOMAINS/19_C09_ORG_LAW_POLICY/00_INDEX/INDEX_C09_ORG_LAW_POLICY_DOMAINS_README|INDEX_C09_ORG_LAW_POLICY_DOMAINS_README]]
 
----
-**MOC:** [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]]
+## 4. Integration
+
+- **Master Domain Hub:** [[21_DOMAINS/21_DOMAINS_MOC|21_DOMAINS_MOC]]
+- **Protocol Standard:** [[21_DOMAINS/00_INDEX/DOMAIN_EXTENSION_PROTOCOL|DOMAIN_EXTENSION_PROTOCOL]]
+- **Agent Roles:** [[06_AGENTS/AGENT_ROLE_REGISTRY|AGENT_ROLE_REGISTRY]]

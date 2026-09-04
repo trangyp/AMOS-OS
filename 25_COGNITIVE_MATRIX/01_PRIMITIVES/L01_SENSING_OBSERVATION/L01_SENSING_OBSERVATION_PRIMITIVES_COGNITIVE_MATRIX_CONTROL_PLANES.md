@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: L01 SENSING OBSERVATION PRIMITIVES COGNITIVE MATRIX CONTROL PLANES
 type: control-plane
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION
 tags:
-- cognitive-matrix
-- primitives
-- matrix/l01-sensing-observation
-- note
-- domain/cognitive-matrix
+  - cognitive-matrix
+  - primitives
+  - matrix/l01-sensing-observation
+  - note
+  - domain/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -17,23 +20,26 @@ rscf:
 
 Here is the full paste-ready `L01_SENSING_OBSERVATION/CONTROL_PLANES.md`. Direct L01-specific control-plane canon remains source-gap bounded; the operational structure below is therefore an AMOS `MODEL / CONDITIONAL` contract rather than a claim of recovered canon.
 
----
+______________________________________________________________________
+
 tags:
-  - amos
-  - cognitive-matrix
-  - l01
-  - sensing-observation
-  - control-plane
-  - governance
-  - authority
-  - provenance
-  - validation
-  - observation
-  - commit
-  - mvcc
-  - cas
-  - rscf
----
+
+- amos
+- cognitive-matrix
+- l01
+- sensing-observation
+- control-plane
+- governance
+- authority
+- provenance
+- validation
+- observation
+- commit
+- mvcc
+- cas
+- rscf
+
+______________________________________________________________________
 
 # L01_SENSING_OBSERVATION — Control Planes
 
@@ -47,9 +53,9 @@ tags:
 
 > **Canon boundary:** The supplied placeholder establishes the required contract surface and hard boundaries but does not itself establish an authoritative executable L01 control-plane implementation. The architecture below conservatively applies AMOS control-plane, provenance, authority, evidence, freshness, RSCF, selective-invalidation, and commit-gating principles to L01 sensing and observation. It must not be represented as verified runtime behavior until implementation and executable validation evidence exist.
 
----
+______________________________________________________________________
 
-# 0. Purpose
+## 0. Purpose
 
 `L01_SENSING_OBSERVATION/CONTROL_PLANES.md` defines the governance layer controlling how sensing and observation capabilities are requested, authorized, executed, validated, admitted, quarantined, revalidated, and released into downstream AMOS cognition.
 
@@ -117,17 +123,15 @@ PROPOSAL
 COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 1. Definition
+## 1. Definition
 
 The L01 control plane is the infrastructure-owned governance boundary surrounding sensing and observation operations.
 
 Conceptually:
 
-[
-CP_{L01}
-========
+## \[ CP\_{L01}
 
 (
 Task,
@@ -144,7 +148,7 @@ Conflict,
 Admission,
 Release
 )
-]
+\]
 
 Its job is not primarily to perform sensing.
 
@@ -172,17 +176,17 @@ REVOCABLE
 
 The control plane therefore governs the transition:
 
-[
+\[
 PotentialObservation
-\rightarrow
+\\rightarrow
 GovernedObservation
-]
+\]
 
 without claiming that governance itself proves external-world truth.
 
----
+______________________________________________________________________
 
-# 2. Scope
+## 2. Scope
 
 The L01 control plane governs:
 
@@ -252,16 +256,13 @@ truth itself
 
 Domain-specific validators should remain in domain capabilities rather than being silently embedded into the universal infrastructure layer.
 
----
+______________________________________________________________________
 
-# 3. Control-Plane Tensor
+## 3. Control-Plane Tensor
 
-[
-\boxed{
-T_{CP}^{L01}
-============
+## \[ \\boxed{ T\_{CP}^{L01}
 
-T[
+T\[
 task,
 principal,
 agent,
@@ -283,17 +284,15 @@ admission,
 release,
 rollback,
 state
-]
+\]
 }
-]
+\]
 
 This tensor must remain compatible with the wider AMOS governance tensor:
 
-[
-T_G
-===
+## \[ T_G
 
-T[
+T\[
 action,
 capability,
 authority,
@@ -303,12 +302,12 @@ approval,
 rollback,
 evidence_threshold,
 mutation_class
-]
-]
+\]
+\]
 
----
+______________________________________________________________________
 
-# 4. Universal Tensor Compatibility
+## 4. Universal Tensor Compatibility
 
 L01 control-plane objects may compose with:
 
@@ -336,15 +335,15 @@ SAME AXIS SEMANTICS
 
 Therefore:
 
-[
+\[
 Compatible(T_a,T_b)=FALSE
-\Rightarrow
+\\Rightarrow
 Compose(T_a,T_b)=PROHIBITED
-]
+\]
 
----
+______________________________________________________________________
 
-# 5. Core Control Objects
+## 5. Core Control Objects
 
 The L01 control plane should conceptually support the following typed objects:
 
@@ -392,9 +391,9 @@ These names describe control-plane contracts.
 
 They do not imply that executable implementations currently exist.
 
----
+______________________________________________________________________
 
-# 6. Task Contract
+## 6. Task Contract
 
 Every consequential sensing request should begin with an explicit task contract.
 
@@ -443,9 +442,9 @@ TASK_CONTRACT:
 
 Invalid or materially incomplete task contracts should not silently proceed.
 
----
+______________________________________________________________________
 
-# 7. Capability Manifest
+## 7. Capability Manifest
 
 A sensing implementation should declare what it can do.
 
@@ -491,9 +490,9 @@ CAPABILITY MANIFEST
 AUTHORIZATION
 ```
 
----
+______________________________________________________________________
 
-# 8. Resolved Capability Contract
+## 8. Resolved Capability Contract
 
 Before execution, the requested capability should be resolved into a task-specific frozen contract.
 
@@ -533,22 +532,20 @@ RESOLVED_CAPABILITY_CONTRACT:
 
 Conceptually:
 
-[
-RCC
-===
+## \[ RCC
 
 Resolve(
 Task,
 CapabilityManifest,
 Constraints
 )
-]
+\]
 
 The resolved contract prevents downstream workers from silently expanding their sensing scope.
 
----
+______________________________________________________________________
 
-# 9. Observation Intent
+## 9. Observation Intent
 
 Before a sensing action occurs, the intended operation should be explicit.
 
@@ -586,38 +583,35 @@ OBSERVATION_INTENT:
   reversibility:
 ```
 
----
+______________________________________________________________________
 
-# 10. Authority Model
+## 10. Authority Model
 
 Authority should be externally governed.
 
-[
-\boxed{
-Executable(A,op)
-================
+## \[ \\boxed{ Executable(A,op)
 
 Capability(A,op)
-\land
+\\land
 Authority(A,op)
-\land
+\\land
 ScopeValid
-\land
+\\land
 ConstraintsSatisfied
 }
-]
+\]
 
 Capability alone is insufficient.
 
-[
+\[
 Capability(A,op)
-\not\Rightarrow
+\\not\\Rightarrow
 Authority(A,op)
-]
+\]
 
----
+______________________________________________________________________
 
-# 11. Authorization Specification
+## 11. Authorization Specification
 
 ```yaml
 AUTHORIZATION_SPEC:
@@ -653,9 +647,9 @@ AUTHORIZATION_SPEC:
   provenance:
 ```
 
----
+______________________________________________________________________
 
-# 12. Authority Witness
+## 12. Authority Witness
 
 A consequential observation operation may require evidence that current authority actually exists.
 
@@ -693,24 +687,22 @@ AUTHORITY EXISTED BEFORE
 AUTHORITY EXISTS NOW
 ```
 
----
+______________________________________________________________________
 
-# 13. Authority Freshness
+## 13. Authority Freshness
 
 At execution or release time:
 
-[
-AuthorityValid_t
-================
+## \[ AuthorityValid_t
 
 ValidIdentity
-\land
+\\land
 ValidScope
-\land
+\\land
 NotExpired_t
-\land
+\\land
 NotRevoked_t
-]
+\]
 
 Stale authority must trigger:
 
@@ -726,9 +718,9 @@ BLOCK_AUTHORITY
 
 rather than silent continuation.
 
----
+______________________________________________________________________
 
-# 14. Observation Execution Envelope
+## 14. Observation Execution Envelope
 
 The control plane should bind each sensing execution to an explicit envelope.
 
@@ -766,9 +758,9 @@ OBSERVABILITY_ENVELOPE:
   authority_binding:
 ```
 
----
+______________________________________________________________________
 
-# 15. Read / Effect Separation
+## 15. Read / Effect Separation
 
 L01 is primarily observational.
 
@@ -786,19 +778,19 @@ ENVIRONMENT MUTATION
 
 If a sensing operation can alter the environment, the effect must be declared.
 
-[
+\[
 ObservationOperation
-\cap
+\\cap
 MutationOperation
-\neq
-\varnothing
-]
+\\neq
+\\varnothing
+\]
 
 requires stronger governance.
 
----
+______________________________________________________________________
 
-# 16. Observation Side Effects
+## 16. Observation Side Effects
 
 Examples of potentially state-changing observation operations include:
 
@@ -822,9 +814,9 @@ external service requests
 
 The control plane should model these as effects where materially relevant.
 
----
+______________________________________________________________________
 
-# 17. Observation Request
+## 17. Observation Request
 
 ```yaml
 OBSERVATION_REQUEST:
@@ -860,9 +852,9 @@ OBSERVATION_REQUEST:
   constraint_context:
 ```
 
----
+______________________________________________________________________
 
-# 18. Raw Observation
+## 18. Raw Observation
 
 The first returned object should preserve raw status.
 
@@ -912,9 +904,9 @@ RAW_OBSERVATION
 VALIDATED_OBSERVATION
 ```
 
----
+______________________________________________________________________
 
-# 19. Evidence Bundle
+## 19. Evidence Bundle
 
 ```yaml
 DOMAIN_EVIDENCE:
@@ -952,11 +944,9 @@ DOMAIN_EVIDENCE:
 
 This maps naturally onto:
 
-[
-T_E
-===
+## \[ T_E
 
-T[
+T\[
 evidence_id,
 source_id,
 source_type,
@@ -969,12 +959,12 @@ measurement,
 quality,
 independence,
 revocation_state
-]
-]
+\]
+\]
 
----
+______________________________________________________________________
 
-# 20. Provenance Bundle
+## 20. Provenance Bundle
 
 ```yaml
 PROVENANCE_BUNDLE:
@@ -1016,21 +1006,21 @@ PROVENANCE_BUNDLE:
   hashes: []
 ```
 
----
+______________________________________________________________________
 
-# 21. Provenance Invariant
+## 21. Provenance Invariant
 
 Every transformation should preserve the ability to trace the observation backward.
 
-[
-Prov(O_{n})
-\rightarrow
-Prov(O_{n-1})
-\rightarrow
+\[
+Prov(O\_{n})
+\\rightarrow
+Prov(O\_{n-1})
+\\rightarrow
 ...
-\rightarrow
+\\rightarrow
 Prov(O_0)
-]
+\]
 
 Loss of load-bearing lineage should trigger:
 
@@ -1046,22 +1036,19 @@ UNKNOWN/GAP
 
 depending on consequence.
 
----
+______________________________________________________________________
 
-# 22. Observed Read Set
+## 22. Observed Read Set
 
 The control plane should record the authoritative resources actually consulted when forming a consequential observation decision.
 
-[
-\boxed{
-ReadSet
-=======
+## \[ \\boxed{ ReadSet
 
 {
 (object_id,version,content_hash)
 }
 }
-]
+\]
 
 Example:
 
@@ -1083,35 +1070,35 @@ OBSERVED_READ_SET:
       observed_at:
 ```
 
----
+______________________________________________________________________
 
-# 23. Fine-Grained Freshness Rule
+## 23. Fine-Grained Freshness Rule
 
 A change to an unread object should not automatically invalidate an observation.
 
 A change to a load-bearing read object should invalidate only dependent conclusions.
 
-[
+\[
 Changed(x)
-\land
-x \notin ReadSet(C)
-\Rightarrow
+\\land
+x \\notin ReadSet(C)
+\\Rightarrow
 NoAutomaticInvalidation(C)
-]
+\]
 
 while:
 
-[
+\[
 Changed(x)
-\land
-x \in ReadSet(C)
-\Rightarrow
+\\land
+x \\in ReadSet(C)
+\\Rightarrow
 Revalidate(Desc_x)
-]
+\]
 
----
+______________________________________________________________________
 
-# 24. MVCC / CAS Analogy
+## 24. MVCC / CAS Analogy
 
 Where mutable authoritative state matters, L01 may use an AMOS model analogous to MVCC/CAS freshness checking.
 
@@ -1129,9 +1116,9 @@ COMPARE CURRENT VERSION
 
 If:
 
-[
-V_{read} \neq V_{current}
-]
+\[
+V\_{read} \\neq V\_{current}
+\]
 
 for a load-bearing resource:
 
@@ -1141,9 +1128,9 @@ REVALIDATE_STALE_READ
 
 This is a reasoning/control-plane pattern, not a claim that every AMOS deployment implements database-level MVCC.
 
----
+______________________________________________________________________
 
-# 25. Validation Pipeline
+## 25. Validation Pipeline
 
 ```text
 RAW OBSERVATION
@@ -1173,9 +1160,9 @@ CONFLICT VALIDATION
 ADMISSION DECISION
 ```
 
----
+______________________________________________________________________
 
-# 26. Validation Result
+## 26. Validation Result
 
 ```yaml
 VALIDATION_RESULT:
@@ -1225,17 +1212,17 @@ FAIL
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 27. Unknown Gate
+## 27. Unknown Gate
 
-[
-\boxed{
+\[
+\\boxed{
 CriticalUnknown
-\Rightarrow
+\\Rightarrow
 NoTrustedAdmission
 }
-]
+\]
 
 Therefore:
 
@@ -1247,15 +1234,15 @@ PASS
 
 A control plane must not translate lack of evidence into successful validation.
 
----
+______________________________________________________________________
 
-# 28. Scope Gate
+## 28. Scope Gate
 
-[
+\[
 Scope(O)
-\supseteq
+\\supseteq
 Scope(Request)
-]
+\]
 
 must hold where direct applicability is required.
 
@@ -1271,27 +1258,25 @@ or:
 BLOCK_SCOPE
 ```
 
----
+______________________________________________________________________
 
-# 29. Regime Gate
+## 29. Regime Gate
 
-An observation valid in regime \(R_1\) is not automatically valid in \(R_2\).
+An observation valid in regime (R_1) is not automatically valid in (R_2).
 
-[
+\[
 Valid(O,R_1)
-\not\Rightarrow
+\\not\\Rightarrow
 Valid(O,R_2)
-]
+\]
 
 A regime mismatch requires explicit compatibility evidence.
 
----
+______________________________________________________________________
 
-# 30. Freshness Gate
+## 30. Freshness Gate
 
-[
-Fresh(O,q)
-==========
+## \[ Fresh(O,q)
 
 f(
 ObservationAge,
@@ -1299,7 +1284,7 @@ EnvironmentChangeRate,
 DecisionHorizon,
 Regime
 )
-]
+\]
 
 Possible results:
 
@@ -1317,9 +1302,9 @@ Stale does not always mean false.
 
 It means the observation cannot automatically satisfy a current-state claim.
 
----
+______________________________________________________________________
 
-# 31. Independence Gate
+## 31. Independence Gate
 
 Multiple observations may share ancestry.
 
@@ -1331,17 +1316,17 @@ O3 ← Summary(Source X)
 
 Therefore:
 
-[
+\[
 Count(O)
-\neq
+\\neq
 IndependentEvidenceCount(O)
-]
+\]
 
 The control plane should resolve provenance roots before confidence aggregation.
 
----
+______________________________________________________________________
 
-# 32. Conflict Set
+## 32. Conflict Set
 
 ```yaml
 CONFLICT_SET:
@@ -1370,19 +1355,19 @@ CONFLICT_SET:
     COMPETING
 ```
 
----
+______________________________________________________________________
 
-# 33. Conflict Gate
+## 33. Conflict Gate
 
 Material unresolved conflict should not be hidden by averaging.
 
-[
+\[
 MaterialConflict
-\land
+\\land
 NoDiscriminator
-\Rightarrow
+\\Rightarrow
 COMPETING
-]
+\]
 
 or:
 
@@ -1392,9 +1377,9 @@ QUARANTINE
 
 when downstream action requires a single trusted state.
 
----
+______________________________________________________________________
 
-# 34. Semantic Transaction
+## 34. Semantic Transaction
 
 Where multiple observation-derived objects must remain mutually consistent, the control plane may treat them as one semantic transaction.
 
@@ -1422,27 +1407,27 @@ SEMANTIC_TRANSACTION:
   validation_epoch:
 ```
 
----
+______________________________________________________________________
 
-# 35. Transaction Invariant
+## 35. Transaction Invariant
 
 Either the required semantic set is valid together, or none of its dependent durable effects should be promoted.
 
 Conceptually:
 
-[
+\[
 Commit(T)
-\iff
-\bigwedge_{i=1}^{n} Valid(x_i)
-]
+\\iff
+\\bigwedge\_{i=1}^{n} Valid(x_i)
+\]
 
 for the transaction's required load-bearing members.
 
 This does not require unrelated state to be recomputed.
 
----
+______________________________________________________________________
 
-# 36. Proposal / Commit Separation
+## 36. Proposal / Commit Separation
 
 L01 workers may propose:
 
@@ -1464,17 +1449,17 @@ REPAIR
 
 but:
 
-[
+\[
 Proposal
-\neq
+\\neq
 Commit
-]
+\]
 
 Final durable admission belongs to the governing control plane or other authorized infrastructure.
 
----
+______________________________________________________________________
 
-# 37. Admission Decision
+## 37. Admission Decision
 
 ```yaml
 ADMISSION_DECISION:
@@ -1522,9 +1507,9 @@ REJECT
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 38. Observation Release State
+## 38. Observation Release State
 
 ```yaml
 RELEASE_STATE:
@@ -1570,46 +1555,43 @@ REVOKED
 UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 39. Commit Gate
+## 39. Commit Gate
 
 A simplified L01 commit condition:
 
-[
-\boxed{
-CommitAllowed
-=============
+## \[ \\boxed{ CommitAllowed
 
 EvidenceValid
-\land
+\\land
 ProvenanceValid
-\land
+\\land
 AuthorityValid
-\land
+\\land
 ScopeValid
-\land
+\\land
 RegimeValid
-\land
+\\land
 FreshnessValid
-\land
+\\land
 NoBlockingConflict
-\land
+\\land
 ConstraintsValid
 }
-]
+\]
 
 If any hard term fails:
 
-[
+\[
 CommitAllowed = FALSE
-]
+\]
 
 A hard-gate failure is not converted into a prose warning.
 
----
+______________________________________________________________________
 
-# 40. Commit-Time Revalidation
+## 40. Commit-Time Revalidation
 
 For mutable or consequential observations, the control plane should re-check immediately before durable release:
 
@@ -1633,9 +1615,9 @@ conflicts
 transaction consistency
 ```
 
----
+______________________________________________________________________
 
-# 41. Control-Plane Outcomes
+## 41. Control-Plane Outcomes
 
 Candidate outcomes:
 
@@ -1683,9 +1665,9 @@ REJECT
 UNKNOWN_GAP
 ```
 
----
+______________________________________________________________________
 
-# 42. Agents
+## 42. Agents
 
 Candidate L01 control-plane participants:
 
@@ -1743,9 +1725,9 @@ AUDIT_LOGGER
 
 These are architectural roles, not claims of deployed agents.
 
----
+______________________________________________________________________
 
-# 43. Agent / Control-Plane Separation
+## 43. Agent / Control-Plane Separation
 
 ```text
 MODEL WORKER
@@ -1765,9 +1747,9 @@ WORKER CONFIDENCE
 CONTROL-PLANE AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 44. Skills
+## 44. Skills
 
 Candidate skills used beneath the control plane include:
 
@@ -1803,29 +1785,29 @@ Skill output is evidence input.
 
 It does not own final infrastructure authority.
 
----
+______________________________________________________________________
 
-# 45. Skill Boundary
+## 45. Skill Boundary
 
-[
+\[
 SkillResult
-\neq
+\\neq
 ControlPlaneDecision
-]
+\]
 
 and:
 
-[
+\[
 DomainValidator
-\neq
+\\neq
 InfrastructureAuthority
-]
+\]
 
 This prevents domain logic from silently taking ownership of universal governance.
 
----
+______________________________________________________________________
 
-# 46. Workflows
+## 46. Workflows
 
 Candidate control-plane workflows:
 
@@ -1861,9 +1843,9 @@ OBSERVATION_REVOCATION
 OBSERVATION_REPLAY
 ```
 
----
+______________________________________________________________________
 
-# 47. Primary Workflow
+## 47. Primary Workflow
 
 ```text
 REQUEST
@@ -1901,9 +1883,9 @@ COMMIT-TIME REVALIDATION
 ADMIT / QUARANTINE / BLOCK / REOBSERVE
 ```
 
----
+______________________________________________________________________
 
-# 48. Protocols
+## 48. Protocols
 
 Candidate protocol messages:
 
@@ -1955,9 +1937,9 @@ RepairRequest
 RevocationEvent
 ```
 
----
+______________________________________________________________________
 
-# 49. Protocol Invariant
+## 49. Protocol Invariant
 
 Every message crossing a control boundary should carry enough information to establish:
 
@@ -1983,9 +1965,9 @@ where material.
 
 Untyped cross-boundary messages should not be trusted by default.
 
----
+______________________________________________________________________
 
-# 50. H/M/L Applicability
+## 50. H/M/L Applicability
 
 ## H — System-Level Control
 
@@ -2045,31 +2027,31 @@ single source extraction
 single admission event
 ```
 
----
+______________________________________________________________________
 
-# 51. H/M/L Control Invariant
+## 51. H/M/L Control Invariant
 
 A local authorization does not imply global authorization.
 
-[
+\[
 Authority_L
-\not\Rightarrow
+\\not\\Rightarrow
 Authority_H
-]
+\]
 
 Likewise:
 
-[
+\[
 ValidObservation_L
-\not\Rightarrow
+\\not\\Rightarrow
 ValidState_H
-]
+\]
 
 without validated aggregation and coverage.
 
----
+______________________________________________________________________
 
-# 52. Dependencies
+## 52. Dependencies
 
 ```yaml
 dependencies:
@@ -2121,9 +2103,9 @@ dependencies:
 
 Exact downstream primitive identifiers remain source-dependent.
 
----
+______________________________________________________________________
 
-# 53. State Variables
+## 53. State Variables
 
 ```text
 CP_task       current task contract
@@ -2163,9 +2145,9 @@ CP_repair     recovery state
 CP_epoch      validation epoch
 ```
 
----
+______________________________________________________________________
 
-# 54. Operators
+## 54. Operators
 
 ```text
 NORMALIZE_TASK
@@ -2221,9 +2203,9 @@ ROLLBACK
 AUDIT
 ```
 
----
+______________________________________________________________________
 
-# 55. Core Invariants
+## 55. Core Invariants
 
 ## CP-I01 — Capability / Authority Separation
 
@@ -2315,17 +2297,17 @@ An observation is not validated solely because its producing agent says it is va
 
 Model-derived control-plane design is not automatically source canon.
 
----
+______________________________________________________________________
 
-# 56. Confidence Ceiling
+## 56. Confidence Ceiling
 
-For a control-plane-approved observation \(O\):
+For a control-plane-approved observation (O):
 
-[
-\boxed{
+\[
+\\boxed{
 Conf(O)
-\le
-\min(
+\\le
+\\min(
 E,
 P,
 A,
@@ -2336,7 +2318,7 @@ I,
 V
 )
 }
-]
+\]
 
 where:
 
@@ -2360,14 +2342,11 @@ V = validation integrity
 
 Unknown load-bearing terms constrain promotion.
 
----
+______________________________________________________________________
 
-# 57. Uncertainty Vector
+## 57. Uncertainty Vector
 
-[
-\boxed{
-U_{CP}
-======
+## \[ \\boxed{ U\_{CP}
 
 (
 U_e,
@@ -2381,7 +2360,7 @@ U_v,
 U_x
 )
 }
-]
+\]
 
 where:
 
@@ -2405,9 +2384,9 @@ U_v = validation uncertainty
 U_x = execution uncertainty
 ```
 
----
+______________________________________________________________________
 
-# 58. Failure Modes
+## 58. Failure Modes
 
 ## CP-F01 — Capability Escalation
 
@@ -2489,9 +2468,9 @@ Dependent claims survive invalidated evidence.
 
 Architectural model is represented as implemented or canonical fact.
 
----
+______________________________________________________________________
 
-# 59. Repair / Recovery
+## 59. Repair / Recovery
 
 Generic control-plane recovery:
 
@@ -2523,29 +2502,29 @@ COMMIT-TIME CHECK
 RESTORE OR REJECT
 ```
 
----
+______________________________________________________________________
 
-# 60. Selective Recovery
+## 60. Selective Recovery
 
-[
+\[
 Failure(p)
-\Rightarrow
+\\Rightarrow
 Invalidate(Desc(p))
-]
+\]
 
 not:
 
-[
+\[
 Failure(p)
-\Rightarrow
+\\Rightarrow
 Invalidate(AllState)
-]
+\]
 
 Global recomputation is a last resort.
 
----
+______________________________________________________________________
 
-# 61. Rollback
+## 61. Rollback
 
 Rollback should restore the nearest valid state while preserving:
 
@@ -2573,9 +2552,9 @@ ROLLBACK
 ERASE HISTORY
 ```
 
----
+______________________________________________________________________
 
-# 62. Validators
+## 62. Validators
 
 ```text
 VALIDATOR_TASK_CONTRACT
@@ -2621,9 +2600,9 @@ VALIDATOR_REVOCATION
 VALIDATOR_ROLLBACK
 ```
 
----
+______________________________________________________________________
 
-# 63. Minimum Tests
+## 63. Minimum Tests
 
 ```text
 TEST_CP_001
@@ -2702,9 +2681,9 @@ TEST_CP_025
 model-derived architecture cannot be labeled implemented without evidence
 ```
 
----
+______________________________________________________________________
 
-# 64. Adversarial Validators
+## 64. Adversarial Validators
 
 Test against:
 
@@ -2752,9 +2731,9 @@ quarantine bypass
 repair fabrication
 ```
 
----
+______________________________________________________________________
 
-# 65. Falsifiers
+## 65. Falsifiers
 
 The L01 control-plane contract fails its intended architecture if an implementation permits:
 
@@ -2798,9 +2777,9 @@ domain skills to override infrastructure authority
 control-plane availability to be presented as implementation evidence
 ```
 
----
+______________________________________________________________________
 
-# 66. Gap Matrix
+## 66. Gap Matrix
 
 ```yaml
 gap_status:
@@ -2836,9 +2815,9 @@ gap_status:
     - diagram conventions
 ```
 
----
+______________________________________________________________________
 
-# 67. Hard Boundaries
+## 67. Hard Boundaries
 
 ```text
 PLACEHOLDER != IMPLEMENTED
@@ -2892,110 +2871,101 @@ IMPLEMENTATION != VALIDATION
 TESTED PATH != UNIVERSAL PROOF
 ```
 
----
+______________________________________________________________________
 
-# 68. Canonical Control Equations
+## 68. Canonical Control Equations
 
 ### Capability gate
 
-[
-\boxed{
-Executable
-==========
+## \[ \\boxed{ Executable
 
 Capability
-\land
+\\land
 Authority
-\land
+\\land
 Scope
-\land
+\\land
 Constraints
 }
-]
+\]
 
 ### Admission gate
 
-[
-\boxed{
-Admissible
-==========
+## \[ \\boxed{ Admissible
 
 Evidence
-\land
+\\land
 Provenance
-\land
+\\land
 Freshness
-\land
+\\land
 Scope
-\land
+\\land
 Regime
-\land
+\\land
 Validation
-\land
-\neg BlockingConflict
+\\land
+\\neg BlockingConflict
 }
-]
+\]
 
 ### Commit gate
 
-[
-\boxed{
-Commit
-======
+## \[ \\boxed{ Commit
 
 Admissible
-\land
-Authority_{current}
-\land
-ReadSet_{fresh}
-\land
+\\land
+Authority\_{current}
+\\land
+ReadSet\_{fresh}
+\\land
 TransactionValid
 }
-]
+\]
 
 ### Fine-grained invalidation
 
-[
-\boxed{
+\[
+\\boxed{
 Changed(p)
-\Rightarrow
+\\Rightarrow
 Invalidate(Desc(p))
 }
-]
+\]
 
 ### Independence
 
-[
-\boxed{
+\[
+\\boxed{
 IndependentEvidenceCount
-\neq
+\\neq
 AgentCount
 }
-]
+\]
 
 ### Proposal boundary
 
-[
-\boxed{
+\[
+\\boxed{
 Proposal
-\neq
+\\neq
 Commit
 }
-]
+\]
 
 ### Unknown boundary
 
-[
-\boxed{
+\[
+\\boxed{
 CriticalUnknown
-\Rightarrow
+\\Rightarrow
 UNKNOWN/GAP
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 69. RSCF Capsule
+## 69. RSCF Capsule
 
 ```yaml
 rscf:
@@ -3097,9 +3067,9 @@ rscf:
     durable state semantics, and executed validation remain unresolved
 ```
 
----
+______________________________________________________________________
 
-# 70. Completion State
+## 70. Completion State
 
 ```yaml
 completion_state:
@@ -3186,81 +3156,81 @@ completion_state:
     MODEL / CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
-# 71. Final Control-Plane Contract
+## 71. Final Control-Plane Contract
 
 `L01_SENSING_OBSERVATION/CONTROL_PLANES.md` defines the governance boundary between the existence of a sensing capability and the admission of an observation into trusted AMOS state.
 
 The required architecture is:
 
-[
-\boxed{
+\[
+\\boxed{
 Intent
-\rightarrow
+\\rightarrow
 Capability
-\rightarrow
+\\rightarrow
 Authority
-\rightarrow
+\\rightarrow
 Observation
-\rightarrow
+\\rightarrow
 Evidence
-\rightarrow
+\\rightarrow
 Provenance
-\rightarrow
+\\rightarrow
 Validation
-\rightarrow
+\\rightarrow
 Admission
 }
-]
+\]
 
 with commit-time protection:
 
-[
-\boxed{
+\[
+\\boxed{
 Admission
-\rightarrow
+\\rightarrow
 FreshnessCheck
-\rightarrow
+\\rightarrow
 AuthorityCheck
-\rightarrow
+\\rightarrow
 ConflictCheck
-\rightarrow
+\\rightarrow
 Commit
 }
-]
+\]
 
 and the mandatory laws:
 
-[
-\boxed{
-Capability \neq Authority
+\[
+\\boxed{
+Capability \\neq Authority
 }
-]
+\]
 
-[
-\boxed{
-RawObservation \neq ValidatedObservation
+\[
+\\boxed{
+RawObservation \\neq ValidatedObservation
 }
-]
+\]
 
-[
-\boxed{
-Observation \neq GroundTruth
+\[
+\\boxed{
+Observation \\neq GroundTruth
 }
-]
+\]
 
-[
-\boxed{
-Proposal \neq Commit
+\[
+\\boxed{
+Proposal \\neq Commit
 }
-]
+\]
 
-[
-\boxed{
-CriticalUnknown \Rightarrow UNKNOWN/GAP
+\[
+\\boxed{
+CriticalUnknown \\Rightarrow UNKNOWN/GAP
 }
-]
+\]
 
 The control plane must preserve:
 
@@ -3298,30 +3268,33 @@ Until direct authoritative L01 canon, executable control-plane implementation, o
 MODEL / CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · L01_SENSING_OBSERVATION — HML · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · L01_SENSING_OBSERVATION — RSCF · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[00_ROOT/00_HOME|00_HOME]] · 06-Knowledge-Base-MOC
 
 ```
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: l01_sensing_observation_primitives_cognitive_matrix_control_planes
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_CONTROL_PLANES.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_MOC|L01_SENSING_OBSERVATION_MOC]]
-

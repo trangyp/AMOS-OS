@@ -4,25 +4,22 @@ title: SKILL — Amos Genetic Stability Auditor
 type: skill
 source: 07_SKILLS/amos-genetic-stability-auditor
 name: amos-genetic-stability-auditor
-description: Genetic Stability Auditor — audit and repair capability. Use when auditing,
-  failure analysis, gap discovery, or repair allocation. Use when amos-audit-repair-master
-  routes to this specialized capability. Do not use for generic tasks outside audit
-  domain.
+description: Genetic Stability Auditor — audit and repair capability. Use when auditing, failure analysis, gap discovery, or repair allocation. Use when amos-audit-repair-master routes to this specialized capability. Do not use for generic tasks outside audit domain.
 parent_skill: amos-audit-repair-master
 domain: audit
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
 tags:
-- type/skill
-- type/skill
-- domain/audit-repair
-- epistemic/source_claim
-- hml/m
-- epistemic/source_claim
-- amos-os
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/audit-repair
+  - epistemic/source_claim
+  - hml/m
+  - epistemic/source_claim
+  - amos-os
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -32,25 +29,25 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: M
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
-- L7_authority
-- L22_replayability
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
+  - L7_authority
+  - L22_replayability
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L7
-- L16
-- L17
-- L18
-- L22
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L7
+  - L16
+  - L17
+  - L18
+  - L22
 license: MIT
 steward: Trang Phan
 ---
@@ -60,6 +57,7 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: audit. Parent: amos-audit-repair-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
 ## When to Use
 
 - When auditing claims against evidence and provenance
@@ -85,13 +83,13 @@ Origin architect: **Trang Phan**. Domain: audit. Parent: amos-audit-repair-maste
 ## Operations
 
 1. **genetic_stability.audit_claim**: Audit claims against evidence, provenance, and epistemic class
-2. **genetic_stability.detect_gap**: Detect gaps: missing capabilities, missing evidence, missing tests, missing monitors
-3. **genetic_stability.allocate_repair**: Allocate repair resources to highest-leverage gaps and failure modes
-4. **genetic_stability.verify_closure**: Verify gap closure: requirement → capability → component → test → evidence
-5. **genetic_stability.benchmark_forensics**: Benchmark forensic analysis: trace performance regressions to root causes
-6. **genetic_stability.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-7. **genetic_stability.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
-8. **genetic_stability.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+1. **genetic_stability.detect_gap**: Detect gaps: missing capabilities, missing evidence, missing tests, missing monitors
+1. **genetic_stability.allocate_repair**: Allocate repair resources to highest-leverage gaps and failure modes
+1. **genetic_stability.verify_closure**: Verify gap closure: requirement → capability → component → test → evidence
+1. **genetic_stability.benchmark_forensics**: Benchmark forensic analysis: trace performance regressions to root causes
+1. **genetic_stability.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+1. **genetic_stability.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+1. **genetic_stability.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## 11_KNOWLEDGE Vault Content
 
@@ -103,12 +101,14 @@ Origin architect: **Trang Phan**. Domain: audit. Parent: amos-audit-repair-maste
 From C04 Bio & Neuro: Genetic stability and biological integrity. From Cognitive Organism OS: Structural integrity under stress.
 
 **Genetic stability model**:
+
 - **Genome integrity**: the genome remains intact and functional
 - **Mutation rate**: mutations occur at a sustainable rate (not too high, not too low)
 - **Repair mechanisms**: DNA repair mechanisms maintain genome integrity
 - **Selection pressure**: selection removes deleterious mutations
 
 **Auditing dimensions**:
+
 - **Integrity**: is the genetic material intact?
 - **Stability**: is the mutation rate within sustainable bounds?
 - **Repair**: are repair mechanisms functioning?
@@ -133,7 +133,7 @@ If any layer destabilizes → compensation shifts to other layers.
 
 If one approaches zero → total stability collapses.
 
----
+______________________________________________________________________
 
 ## II. MICRO LAYER (Cellular / Endothelial)
 
@@ -145,7 +145,7 @@ Where: Glycocalyx integrity (G), Nitric oxide (NO), Oxidative load (Ox), Shear s
 
 Micro drifts → meso compensates → macro shifts.
 
----
+______________________________________________________________________
 
 ## III. MESO LAYER (Autonomic + Vascular Coordination)
 
@@ -155,7 +155,7 @@ Where: Parasympathetic tone (Para), Baroreflex sensitivity (Br), Sympathetic ton
 
 High Sym + high Pv = oscillatory instability.
 
----
+______________________________________________________________________
 
 ## IV. MACRO LAYER (Environment + Social + Structure)
 
@@ -165,7 +165,7 @@ Where: Resource reliability (R), Relational coherence (Rc), Environmental noise 
 
 This is why environment shifts physiology directly.
 
----
+______________________________________________________________________
 
 ## V. Meta Law of Gain
 
@@ -175,7 +175,8 @@ Every system has Input gain (G_i) and Damping coefficient (D).
 - $$G_i \gg D \rightarrow instability$$
 - $$G_i
 
----
+______________________________________________________________________
+
 **Links:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 ## Related
@@ -185,17 +186,19 @@ Every system has Input gain (G_i) and Damping coefficient (D).
 ## Examples
 
 - **Scenario**: When auditing claims against evidence and provenance
+
   - **Input**: A query matching this skill's domain (audit)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When detecting gaps in capabilities, evidence, tests, or monitors
+
   - **Input**: A query matching this skill's domain (audit)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When allocating repair resources to highest-leverage gaps
+
   - **Input**: A query matching this skill's domain (audit)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Validation Gates
 
@@ -212,7 +215,6 @@ Every system has Input gain (G_i) and Damping coefficient (D).
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `amos-audit-repair-master` — routes to this skill when audit specialization is needed
@@ -220,7 +222,6 @@ Every system has Input gain (G_i) and Damping coefficient (D).
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -239,7 +240,6 @@ Every system has Input gain (G_i) and Damping coefficient (D).
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -247,7 +247,6 @@ Every system has Input gain (G_i) and Damping coefficient (D).
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -260,11 +259,12 @@ Every system has Input gain (G_i) and Damping coefficient (D).
 
 - `references/amos-genetic-stability-auditor_code.md` — loaded on demand
 - `references/references_MOC.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `amos-audit-repair-master` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `amos-genetic-stability-auditor-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -272,12 +272,14 @@ Every system has Input gain (G_i) and Damping coefficient (D).
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-genetic-stability-auditor
 node_type: skill
 path: 07_SKILLS/amos-genetic-stability-auditor/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

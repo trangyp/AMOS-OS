@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: L00_REALITY_ENVIRONMENT — Operators
 type: cognitive
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT
 tags:
-- cognitive-matrix
-- primitives
-- matrix/l00-reality-environment
-- note
-- domain/cognitive-matrix
+  - cognitive-matrix
+  - primitives
+  - matrix/l00-reality-environment
+  - note
+  - domain/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -21,9 +24,9 @@ rscf:
 **Origin architect / steward:** Trang Phan
 **Status:** `ARCHITECTURE CONTRACT / IMPLEMENTATION-DEPENDENT`
 
----
+______________________________________________________________________
 
-# 1. Purpose
+## 1. Purpose
 
 `L00_REALITY_ENVIRONMENT / OPERATORS` defines the typed transformations through which AMOS may observe, represent, compare, update, test, act upon, and reason about an external or operational environment.
 
@@ -31,14 +34,14 @@ Operators are not merely functions.
 
 An AMOS operator is a governed transformation:
 
-[
-\boxed{
+\[
+\\boxed{
 O:
 (State, Input, Context, Authority)
-\rightarrow
+\\rightarrow
 (State', Output, Evidence, Provenance)
 }
-]
+\]
 
 Every material operator must preserve enough information to determine:
 
@@ -54,9 +57,9 @@ Every material operator must preserve enough information to determine:
 - whether it was reversible;
 - and what would invalidate its result.
 
----
+______________________________________________________________________
 
-# 2. Operator Architecture
+## 2. Operator Architecture
 
 ```text
 REALITY / ENVIRONMENT
@@ -126,14 +129,14 @@ The chain is not mandatory for every operation.
 
 It defines separable operator classes that must not be silently collapsed.
 
----
+______________________________________________________________________
 
-# 3. Universal Operator Tensor
+## 3. Universal Operator Tensor
 
-[
-\boxed{
+\[
+\\boxed{
 T_O =
-T[
+T\[
 operator_id,
 operator_class,
 actor,
@@ -156,13 +159,13 @@ confidence,
 reversibility,
 consequence,
 falsifiers
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 4. Operator Signature
+## 4. Operator Signature
 
 Every material operator should expose a typed contract:
 
@@ -189,32 +192,32 @@ OPERATOR
 
 Formally:
 
-[
-\boxed{
+\[
+\\boxed{
 O_i:
 X_i
-\times
+\\times
 S_i
-\times
+\\times
 C_i
-\rightarrow
+\\rightarrow
 Y_i
-\times
-S'_i
+\\times
+S'\_i
 }
-]
+\]
 
 where:
 
-- \(X_i\) = typed inputs;
-- \(S_i\) = pre-operation state;
-- \(C_i\) = operating context;
-- \(Y_i\) = typed outputs;
-- (S'_i) = post-operation state.
+- (X_i) = typed inputs;
+- (S_i) = pre-operation state;
+- (C_i) = operating context;
+- (Y_i) = typed outputs;
+- (S'\_i) = post-operation state.
 
----
+______________________________________________________________________
 
-# 5. Operator Classes
+## 5. Operator Classes
 
 Primary L00 operator classes:
 
@@ -261,30 +264,28 @@ AUDIT
 
 These classes may compose but remain semantically distinct.
 
----
+______________________________________________________________________
 
-# 6. Observation Operator
+## 6. Observation Operator
 
-[
-\boxed{
-O_{obs}:
+\[
+\\boxed{
+O\_{obs}:
 RealityState
-\times
+\\times
 Observer
-\times
+\\times
 ObservationMethod
-\rightarrow
+\\rightarrow
 Observation
 }
-]
+\]
 
 Tensor:
 
-[
-T_{obs}
-=======
+## \[ T\_{obs}
 
-T[
+T\[
 target,
 observer,
 method,
@@ -294,8 +295,8 @@ resolution,
 observation,
 uncertainty,
 provenance
-]
-]
+\]
+\]
 
 Hard boundary:
 
@@ -305,28 +306,26 @@ OBSERVATION != REALITY ITSELF
 
 Observation is observer-, method-, time-, and resolution-dependent.
 
----
+______________________________________________________________________
 
-# 7. Measurement Operator
+## 7. Measurement Operator
 
-[
-\boxed{
-O_{measure}:
+\[
+\\boxed{
+O\_{measure}:
 ObservedState
-\times
+\\times
 MeasurementMethod
-\rightarrow
+\\rightarrow
 MeasuredProxy
 }
-]
+\]
 
 Tensor:
 
-[
-T_{measure}
-===========
+## \[ T\_{measure}
 
-T[
+T\[
 variable,
 instrument,
 method,
@@ -337,33 +336,33 @@ timestamp,
 value,
 uncertainty,
 provenance
-]
-]
+\]
+\]
 
 Invariant:
 
-[
-\boxed{
+\[
+\\boxed{
 MeasuredProxy(x)
-\neq
+\\neq
 UnderlyingReality(x)
 }
-]
+\]
 
 unless equivalence is independently justified.
 
----
+______________________________________________________________________
 
-# 8. Distinction Operator
+## 8. Distinction Operator
 
-[
-\boxed{
-O_{\Delta}:
+\[
+\\boxed{
+O\_{\\Delta}:
 X
-\rightarrow
+\\rightarrow
 {x_i}
 }
-]
+\]
 
 The distinction operator creates addressable separation between states or entities.
 
@@ -390,20 +389,20 @@ and:
 DIFFERENT NAME != PROVEN DIFFERENCE
 ```
 
----
+______________________________________________________________________
 
-# 9. Identification Operator
+## 9. Identification Operator
 
-[
-\boxed{
-O_{id}:
+\[
+\\boxed{
+O\_{id}:
 Observation
-\times
+\\times
 IdentityCriteria
-\rightarrow
+\\rightarrow
 IdentityHypothesis
 }
-]
+\]
 
 Identification may return:
 
@@ -417,55 +416,53 @@ UNKNOWN
 
 Identity must not be inferred solely from superficial similarity.
 
----
+______________________________________________________________________
 
-# 10. Classification Operator
+## 10. Classification Operator
 
-[
-\boxed{
-O_{class}:
+\[
+\\boxed{
+O\_{class}:
 x
-\times
+\\times
 ClassificationSchema
-\rightarrow
+\\rightarrow
 Class(x)
 }
-]
+\]
 
 The classification schema must remain recoverable.
 
 Invariant:
 
-[
-\boxed{
+\[
+\\boxed{
 Class(x)
-\neq
+\\neq
 Essence(x)
 }
-]
+\]
 
 Classification is a representation operation, not ontological proof.
 
----
+______________________________________________________________________
 
-# 11. Relation Operator
+## 11. Relation Operator
 
-[
-\boxed{
+\[
+\\boxed{
 O_R:
-\(x_i,x_j\)
-\rightarrow
-R_{ij}
+(x_i,x_j)
+\\rightarrow
+R\_{ij}
 }
-]
+\]
 
 with:
 
-[
-R_{ij}
-======
+## \[ R\_{ij}
 
-T[
+T\[
 type,
 direction,
 strength,
@@ -480,8 +477,8 @@ repair_coupling,
 mutation_transfer,
 observer_variance,
 provenance
-]
-]
+\]
+\]
 
 Relation classes may include:
 
@@ -503,24 +500,21 @@ analogy
 governance
 ```
 
----
+______________________________________________________________________
 
-# 12. Causal Promotion Gate
+## 12. Causal Promotion Gate
 
 A relation cannot become causal merely because it is strong.
 
-[
-\boxed{
-PromoteToCausal(R)
-==================
+## \[ \\boxed{ PromoteToCausal(R)
 
 MechanisticOrInterventionalEvidence
-\land
+\\land
 ConfounderControlAdequate
-\land
+\\land
 ScopeCompatible
 }
-]
+\]
 
 as required by the causal claim.
 
@@ -536,49 +530,49 @@ SIMILARITY != CAUSATION
 DEPENDENCY != CAUSATION
 ```
 
----
+______________________________________________________________________
 
-# 13. Comparison Operator
+## 13. Comparison Operator
 
-[
-\boxed{
-O_{cmp}:
+\[
+\\boxed{
+O\_{cmp}:
 x_i
-\times
+\\times
 x_j
-\times
+\\times
 CoordinateFrame
-\rightarrow
+\\rightarrow
 Comparison
 }
-]
+\]
 
 Comparison requires compatible coordinates.
 
-[
-\boxed{
+\[
+\\boxed{
 Comparable(x_i,x_j)
-\Rightarrow
+\\Rightarrow
 CoordinateCompatible(x_i,x_j)
 }
-]
+\]
 
 Same-name variables do not guarantee comparability.
 
----
+______________________________________________________________________
 
-# 14. Boundary Operator
+## 14. Boundary Operator
 
-[
-\boxed{
+\[
+\\boxed{
 O_B:
 StateSpace
-\times
+\\times
 BoundaryRule
-\rightarrow
-Inside \cup Outside \cup Boundary
+\\rightarrow
+Inside \\cup Outside \\cup Boundary
 }
-]
+\]
 
 The operator defines admission or exclusion relative to an explicit boundary.
 
@@ -590,50 +584,48 @@ BOUNDARY != ABSOLUTE ISOLATION
 
 unless the boundary is explicitly impermeable.
 
----
+______________________________________________________________________
 
-# 15. Filter Operator
+## 15. Filter Operator
 
-[
-\boxed{
+\[
+\\boxed{
 O_F:
 X
-\times
+\\times
 Predicate
-\rightarrow
+\\rightarrow
 X'
 }
-]
+\]
 
 where:
 
-[
-X'
-==
+## \[ X'
 
-{x\in X:P(x)=TRUE}
-]
+{x\\in X:P(x)=TRUE}
+\]
 
 Filtering must preserve the predicate used.
 
 Otherwise downstream systems cannot reconstruct why information disappeared.
 
----
+______________________________________________________________________
 
-# 16. Selection Operator
+## 16. Selection Operator
 
-[
-\boxed{
+\[
+\\boxed{
 O_S:
 CandidateSet
-\times
+\\times
 Objective
-\times
+\\times
 Constraints
-\rightarrow
+\\rightarrow
 SelectedSet
 }
-]
+\]
 
 Selection is not proof of correctness.
 
@@ -645,18 +637,18 @@ SELECTED != BEST UNIVERSALLY
 SELECTED != AUTHORIZED
 ```
 
----
+______________________________________________________________________
 
-# 17. Transformation Operator
+## 17. Transformation Operator
 
-[
-\boxed{
+\[
+\\boxed{
 O_T:
 X
-\xrightarrow{\tau}
+\\xrightarrow{\\tau}
 Y
 }
-]
+\]
 
 Transformation metadata must preserve:
 
@@ -669,60 +661,57 @@ assumptions
 provenance
 ```
 
----
+______________________________________________________________________
 
-# 18. Translation Operator
+## 18. Translation Operator
 
-[
-\boxed{
-O_{trans}:
+\[
+\\boxed{
+O\_{trans}:
 Representation_A
-\rightarrow
+\\rightarrow
 Representation_B
 }
-]
+\]
 
 with semantic preservation condition:
 
-[
-\boxed{
+\[
+\\boxed{
 Meaning_B
-\approx
+\\approx
 Meaning_A
 }
-]
+\]
 
 within an explicit translation envelope.
 
 Translation may introduce loss:
 
-[
-\boxed{
-L_{trans}
-=========
+## \[ \\boxed{ L\_{trans}
 
 ## Information_A
 
 RecoverableInformation_B
 }
-]
+\]
 
 where this quantity is defined for the representation.
 
----
+______________________________________________________________________
 
-# 19. Normalization Operator
+## 19. Normalization Operator
 
-[
-\boxed{
+\[
+\\boxed{
 O_N:
 X
-\times
+\\times
 ReferenceFrame
-\rightarrow
+\\rightarrow
 X_N
 }
-]
+\]
 
 Normalization must preserve enough metadata to reverse or interpret the transformation.
 
@@ -730,18 +719,18 @@ Normalization must preserve enough metadata to reverse or interpret the transfor
 NORMALIZED VALUE != RAW OBSERVATION
 ```
 
----
+______________________________________________________________________
 
-# 20. Aggregation Operator
+## 20. Aggregation Operator
 
-[
-\boxed{
+\[
+\\boxed{
 O_A:
 {x_1,...,x_n}
-\rightarrow
+\\rightarrow
 X_A
 }
-]
+\]
 
 Aggregation must expose:
 
@@ -761,35 +750,35 @@ Hard boundary:
 AGGREGATE != EVERY COMPONENT
 ```
 
----
+______________________________________________________________________
 
-# 21. Decomposition Operator
+## 21. Decomposition Operator
 
-[
-\boxed{
+\[
+\\boxed{
 O_D:
 X
-\rightarrow
+\\rightarrow
 {x_1,...,x_n}
 }
-]
+\]
 
 A decomposition is valid only relative to its decomposition rule.
 
 Different valid decompositions may coexist.
 
----
+______________________________________________________________________
 
-# 22. Mapping Operator
+## 22. Mapping Operator
 
-[
-\boxed{
+\[
+\\boxed{
 O_M:
 X_A
-\rightarrow
+\\rightarrow
 X_B
 }
-]
+\]
 
 Mapping across domains or scales must preserve mapping assumptions.
 
@@ -801,55 +790,53 @@ MODEL
 
 unless independently validated.
 
----
+______________________________________________________________________
 
-# 23. Inference Operator
+## 23. Inference Operator
 
-[
-\boxed{
+\[
+\\boxed{
 O_I:
 Premises
-\times
+\\times
 Rules
-\rightarrow
+\\rightarrow
 Conclusion
 }
-]
+\]
 
 The resulting conclusion must retain dependencies.
 
-[
-\boxed{
+\[
+\\boxed{
 Conf(C)
-\leq
-\min_i Conf(P_i)
+\\leq
+\\min_i Conf(P_i)
 }
-]
+\]
 
 for unresolved load-bearing premises unless independent revalidation supports a higher ceiling.
 
----
+______________________________________________________________________
 
-# 24. Estimation Operator
+## 24. Estimation Operator
 
-[
-\boxed{
+\[
+\\boxed{
 O_E:
 Evidence
-\times
+\\times
 Estimator
-\rightarrow
+\\rightarrow
 Estimate
 }
-]
+\]
 
 Estimate tensor:
 
-[
-T_E
-===
+## \[ T_E
 
-T[
+T\[
 target,
 estimator,
 data,
@@ -860,8 +847,8 @@ scope,
 regime,
 time,
 provenance
-]
-]
+\]
+\]
 
 Hard boundary:
 
@@ -869,22 +856,22 @@ Hard boundary:
 ESTIMATE != OBSERVATION
 ```
 
----
+______________________________________________________________________
 
-# 25. Validation Operator
+## 25. Validation Operator
 
-[
-\boxed{
+\[
+\\boxed{
 O_V:
 Claim
-\times
+\\times
 Evidence
-\times
+\\times
 Criteria
-\rightarrow
+\\rightarrow
 ValidationState
 }
-]
+\]
 
 Possible outputs:
 
@@ -902,20 +889,20 @@ Validation is claim-specific.
 
 Evidence valid for one claim does not automatically validate another.
 
----
+______________________________________________________________________
 
-# 26. Falsification Operator
+## 26. Falsification Operator
 
-[
-\boxed{
-O_{\neg}:
+\[
+\\boxed{
+O\_{\\neg}:
 Claim
-\times
+\\times
 Falsifier
-\rightarrow
+\\rightarrow
 ClaimState'
 }
-]
+\]
 
 A falsifier may include:
 
@@ -930,22 +917,22 @@ reproduction failure
 hard-invariant violation
 ```
 
----
+______________________________________________________________________
 
-# 27. Model Operator
+## 27. Model Operator
 
-[
-\boxed{
-O_{model}:
+\[
+\\boxed{
+O\_{model}:
 Evidence
-\times
+\\times
 Assumptions
-\times
+\\times
 ModelClass
-\rightarrow
+\\rightarrow
 ModelState
 }
-]
+\]
 
 Hard invariant:
 
@@ -955,32 +942,30 @@ MODEL_STATE != OBSERVED_REALITY
 
 A model remains a representation even when predictive performance is high.
 
----
+______________________________________________________________________
 
-# 28. Simulation Operator
+## 28. Simulation Operator
 
-[
-\boxed{
-O_{sim}:
+\[
+\\boxed{
+O\_{sim}:
 Model
-\times
+\\times
 InitialState
-\times
+\\times
 Parameters
-\times
+\\times
 Scenario
-\rightarrow
+\\rightarrow
 SimulatedTrajectory
 }
-]
+\]
 
 Tensor:
 
-[
-T_{sim}
-=======
+## \[ T\_{sim}
 
-T[
+T\[
 model,
 initial_state,
 parameters,
@@ -990,8 +975,8 @@ trajectory,
 environment,
 validation,
 provenance
-]
-]
+\]
+\]
 
 Hard boundary:
 
@@ -999,22 +984,22 @@ Hard boundary:
 SIMULATION CONSISTENCY != REAL-WORLD CONFIRMATION
 ```
 
----
+______________________________________________________________________
 
-# 29. Counterfactual Operator
+## 29. Counterfactual Operator
 
-[
-\boxed{
-O_{cf}:
+\[
+\\boxed{
+O\_{cf}:
 ObservedState
-\times
+\\times
 InterventionHypothesis
-\times
+\\times
 CausalModel
-\rightarrow
+\\rightarrow
 CounterfactualState
 }
-]
+\]
 
 Counterfactual output must remain typed:
 
@@ -1028,30 +1013,28 @@ not:
 OBSERVED_HISTORY
 ```
 
----
+______________________________________________________________________
 
-# 30. Prediction Operator
+## 30. Prediction Operator
 
-[
-\boxed{
+\[
+\\boxed{
 O_P:
 State_t
-\times
+\\times
 Model
-\times
+\\times
 Horizon
-\rightarrow
-Forecast_{t+h}
+\\rightarrow
+Forecast\_{t+h}
 }
-]
+\]
 
 Prediction tensor:
 
-[
-T_P
-===
+## \[ T_P
 
-T[
+T\[
 target,
 forecast_origin,
 horizon,
@@ -1062,8 +1045,8 @@ distribution,
 confidence,
 assumptions,
 provenance
-]
-]
+\]
+\]
 
 Hard invariant:
 
@@ -1071,62 +1054,59 @@ Hard invariant:
 FORECAST != FUTURE OBSERVATION
 ```
 
----
+______________________________________________________________________
 
-# 31. Reality-Contact Operator
+## 31. Reality-Contact Operator
 
-[
-\boxed{
-O_{RC}:
+\[
+\\boxed{
+O\_{RC}:
 Representation
-\times
+\\times
 ExternalEvidence
-\rightarrow
+\\rightarrow
 RealityContactState
 }
-]
+\]
 
 Gate:
 
-[
-\boxed{
-RealityContact
-==============
+## \[ \\boxed{ RealityContact
 
 ExternalObservationPresent
-\land
+\\land
 MeasurementMethodKnown
-\land
+\\land
 ProvenanceRecoverable
-\land
+\\land
 RegimeCompatible
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 32. Update Operator
+## 32. Update Operator
 
-[
-\boxed{
+\[
+\\boxed{
 O_U:
 State_t
-\times
+\\times
 NewEvidence
-\rightarrow
-State_{t+1}
+\\rightarrow
+State\_{t+1}
 }
-]
+\]
 
 Update must preserve lineage:
 
-[
-\boxed{
+\[
+\\boxed{
 State_t
-\rightarrow
-State_{t+1}
+\\rightarrow
+State\_{t+1}
 }
-]
+\]
 
 with:
 
@@ -1140,20 +1120,20 @@ timestamp
 version
 ```
 
----
+______________________________________________________________________
 
-# 33. Retrieval Operator
+## 33. Retrieval Operator
 
-[
-\boxed{
-O_{ret}:
+\[
+\\boxed{
+O\_{ret}:
 Store
-\times
+\\times
 Query
-\rightarrow
+\\rightarrow
 CandidateEvidence
 }
-]
+\]
 
 Hard invariant:
 
@@ -1165,20 +1145,20 @@ Retrieval creates candidates for reasoning.
 
 It does not create epistemic authority.
 
----
+______________________________________________________________________
 
-# 34. Admission Operator
+## 34. Admission Operator
 
-[
-\boxed{
-O_{adm}:
+\[
+\\boxed{
+O\_{adm}:
 Candidate
-\times
+\\times
 AdmissionPolicy
-\rightarrow
+\\rightarrow
 AdmissionState
 }
-]
+\]
 
 Possible states:
 
@@ -1190,18 +1170,18 @@ REJECT
 UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 35. Quarantine Operator
+## 35. Quarantine Operator
 
-[
-\boxed{
+\[
+\\boxed{
 O_Q:
 Candidate
-\rightarrow
+\\rightarrow
 QuarantinedState
 }
-]
+\]
 
 Quarantine preserves information while preventing unsafe promotion or propagation.
 
@@ -1211,55 +1191,55 @@ QUARANTINED != DELETED
 QUARANTINED != VALIDATED
 ```
 
----
+______________________________________________________________________
 
-# 36. Invalidation Operator
+## 36. Invalidation Operator
 
-[
-\boxed{
-O_{inv}:
+\[
+\\boxed{
+O\_{inv}:
 PremiseFailure
-\times
+\\times
 DependencyGraph
-\rightarrow
+\\rightarrow
 InvalidationSet
 }
-]
+\]
 
 Selective invalidation rule:
 
-[
-\boxed{
+\[
+\\boxed{
 Invalidate(P)
-\Rightarrow
+\\Rightarrow
 Invalidate(Dependent(P))
 }
-]
+\]
 
 while:
 
-[
-\boxed{
+\[
+\\boxed{
 Independent(X,P)
-\Rightarrow
+\\Rightarrow
 Preserve(X)
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 37. Proposal Operator
+## 37. Proposal Operator
 
-[
-\boxed{
-O_{prop}:
+\[
+\\boxed{
+O\_{prop}:
 State
-\times
+\\times
 Objective
-\rightarrow
+\\rightarrow
 ProposedAction
 }
-]
+\]
 
 Hard boundary:
 
@@ -1267,24 +1247,24 @@ Hard boundary:
 PROPOSAL != AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 38. Authorization Operator
+## 38. Authorization Operator
 
-[
-\boxed{
-O_{auth}:
+\[
+\\boxed{
+O\_{auth}:
 Proposal
-\times
+\\times
 Principal
-\times
+\\times
 Policy
-\times
+\\times
 CurrentState
-\rightarrow
+\\rightarrow
 AuthorizationState
 }
-]
+\]
 
 Possible states:
 
@@ -1297,54 +1277,51 @@ REVOKED
 UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 39. Commit Operator
+## 39. Commit Operator
 
-[
-\boxed{
+\[
+\\boxed{
 O_C:
 AuthorizedProposal
-\times
+\\times
 CurrentState
-\rightarrow
+\\rightarrow
 CommittedEffect
 }
-]
+\]
 
 Commit requires current validity.
 
-[
-\boxed{
-Commit
-======
+## \[ \\boxed{ Commit
 
 ProposalValid
-\land
+\\land
 AuthorityValid
-\land
+\\land
 ConstraintsPass
-\land
+\\land
 StateFresh
 }
-]
+\]
 
 where those gates are required.
 
----
+______________________________________________________________________
 
-# 40. Action Operator
+## 40. Action Operator
 
-[
-\boxed{
-O_{act}:
+\[
+\\boxed{
+O\_{act}:
 CommittedEffect
-\times
+\\times
 Environment
-\rightarrow
+\\rightarrow
 Environment'
 }
-]
+\]
 
 Action is the operator class capable of changing external or durable operational state.
 
@@ -1360,41 +1337,41 @@ AUTHORIZATION != ACTION
 COMMIT INTENT != SUCCESSFUL EFFECT
 ```
 
----
+______________________________________________________________________
 
-# 41. Outcome Observation Operator
+## 41. Outcome Observation Operator
 
 After action:
 
-[
-\boxed{
-O_{out}:
+\[
+\\boxed{
+O\_{out}:
 Environment'
-\times
+\\times
 ObservationMethod
-\rightarrow
+\\rightarrow
 ObservedOutcome
 }
-]
+\]
 
 Expected consequence and observed consequence must remain distinct.
 
----
+______________________________________________________________________
 
-# 42. Evaluation Operator
+## 42. Evaluation Operator
 
-[
-\boxed{
-O_{eval}:
+\[
+\\boxed{
+O\_{eval}:
 ExpectedOutcome
-\times
+\\times
 ObservedOutcome
-\times
+\\times
 Criteria
-\rightarrow
+\\rightarrow
 Evaluation
 }
-]
+\]
 
 Evaluation may update:
 
@@ -1408,22 +1385,22 @@ future action selection
 
 but may not rewrite the historical expectation.
 
----
+______________________________________________________________________
 
-# 43. Repair Operator
+## 43. Repair Operator
 
-[
-\boxed{
-O_{repair}:
+\[
+\\boxed{
+O\_{repair}:
 FailureState
-\times
+\\times
 RepairTarget
-\times
+\\times
 RepairPlan
-\rightarrow
+\\rightarrow
 CandidateRecoveredState
 }
-]
+\]
 
 Repair must itself be validated.
 
@@ -1431,47 +1408,47 @@ Repair must itself be validated.
 REPAIR APPLIED != RECOVERY VERIFIED
 ```
 
----
+______________________________________________________________________
 
-# 44. Rollback Operator
+## 44. Rollback Operator
 
-[
-\boxed{
-O_{rollback}:
-State_{t+1}
-\times
+\[
+\\boxed{
+O\_{rollback}:
+State\_{t+1}
+\\times
 RecoveryReference
-\rightarrow
+\\rightarrow
 State_t'
 }
-]
+\]
 
 Rollback success requires:
 
-[
-\boxed{
+\[
+\\boxed{
 RequiredInvariants(State_t') = PASS
 }
-]
+\]
 
 A rollback target may require revalidation because the environment may have changed.
 
----
+______________________________________________________________________
 
-# 45. Audit Operator
+## 45. Audit Operator
 
-[
-\boxed{
-O_{audit}:
+\[
+\\boxed{
+O\_{audit}:
 OperationHistory
-\times
+\\times
 Policy
-\times
+\\times
 Evidence
-\rightarrow
+\\rightarrow
 AuditState
 }
-]
+\]
 
 Audit checks:
 
@@ -1486,49 +1463,43 @@ what failures occurred
 whether rollback remains possible
 ```
 
----
+______________________________________________________________________
 
-# 46. Operator Composition
+## 46. Operator Composition
 
 For compatible operators:
 
-[
-\boxed{
-O_{chain}
-=========
+## \[ \\boxed{ O\_{chain}
 
 O_n
-\circ
-O_{n-1}
-\circ
+\\circ
+O\_{n-1}
+\\circ
 ...
-\circ
+\\circ
 O_1
 }
-]
+\]
 
 Composition is permitted only if adjacent contracts are compatible.
 
-[
-\boxed{
+\[
+\\boxed{
 OutputType(O_i)
-\sim
-InputType(O_{i+1})
+\\sim
+InputType(O\_{i+1})
 }
-]
+\]
 
 and scope/regime semantics remain valid.
 
----
+______________________________________________________________________
 
-# 47. Operator Composition Tensor
+## 47. Operator Composition Tensor
 
-[
-\boxed{
-T_{OC}
-======
+## \[ \\boxed{ T\_{OC}
 
-T[
+T\[
 operator_chain,
 input_contract,
 intermediate_states,
@@ -1539,23 +1510,23 @@ dependencies,
 authority_path,
 provenance_path,
 failure_edges
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 48. Non-Commutativity
+## 48. Non-Commutativity
 
 AMOS operators must not be assumed commutative.
 
-[
-\boxed{
+\[
+\\boxed{
 O_A(O_B(x))
-\neq
+\\neq
 O_B(O_A(x))
 }
-]
+\]
 
 in general.
 
@@ -1577,17 +1548,17 @@ RETRIEVE → INVALIDATE
 
 Operator order is part of provenance.
 
----
+______________________________________________________________________
 
-# 49. Operator Idempotence
+## 49. Operator Idempotence
 
 Some operators may be idempotent:
 
-[
-\boxed{
+\[
+\\boxed{
 O(O(x)) = O(x)
 }
-]
+\]
 
 only when explicitly defined.
 
@@ -1595,17 +1566,17 @@ Examples may include certain canonicalization or quarantine operations.
 
 Idempotence must not be assumed globally.
 
----
+______________________________________________________________________
 
-# 50. Operator Reversibility
+## 50. Operator Reversibility
 
-For reversible operator \(O\):
+For reversible operator (O):
 
-[
-\boxed{
+\[
+\\boxed{
 O^{-1}(O(x)) = x
 }
-]
+\]
 
 within the defined fidelity envelope.
 
@@ -1619,14 +1590,14 @@ IRREVERSIBLE
 UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 51. Information-Loss Tensor
+## 51. Information-Loss Tensor
 
-[
-\boxed{
+\[
+\\boxed{
 T_L =
-T[
+T\[
 operator,
 input_information,
 preserved_information,
@@ -1634,130 +1605,118 @@ discarded_information,
 recoverability,
 decision_relevance,
 provenance
-]
+\]
 }
-]
+\]
 
 Loss of noncritical detail may be acceptable.
 
 Loss of load-bearing distinctions is not.
 
----
+______________________________________________________________________
 
-# 52. Operator Integrity Function
+## 52. Operator Integrity Function
 
-[
-\boxed{
-Integrity(O)
-============
+## \[ \\boxed{ Integrity(O)
 
 TypeSafety
-\land
+\\land
 ScopeSafety
-\land
+\\land
 RegimeSafety
-\land
+\\land
 ProvenancePreservation
-\land
+\\land
 InvariantPreservation
-\land
+\\land
 AuthoritySafety
 }
-]
+\]
 
 where each dimension is applicable to the operator.
 
----
+______________________________________________________________________
 
-# 53. State Transition Equation
+## 53. State Transition Equation
 
-Let environment state be \(S_t\).
+Let environment state be (S_t).
 
-[
-\boxed{
-S_{t+1}
-=======
+## \[ \\boxed{ S\_{t+1}
 
 O(S_t,X_t,C_t)
 }
-]
+\]
 
 This is an architectural state-transition form, not a claim that all real-world dynamics are deterministic.
 
 For stochastic operators:
 
-[
-\boxed{
-S_{t+1}
-\sim
+\[
+\\boxed{
+S\_{t+1}
+\\sim
 P(
-S_{t+1}
-\mid
+S\_{t+1}
+\\mid
 S_t,X_t,C_t,O
 )
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 54. Operator Precondition Gate
+## 54. Operator Precondition Gate
 
-[
-\boxed{
-Executable(O)
-=============
+## \[ \\boxed{ Executable(O)
 
 InputsValid
-\land
+\\land
 PreconditionsPass
-\land
+\\land
 ConstraintsPass
-\land
+\\land
 DependenciesAvailable
 }
-]
+\]
 
 For effectful operations:
 
-[
-\boxed{
-Executable(O_{effect})
-\Rightarrow
+\[
+\\boxed{
+Executable(O\_{effect})
+\\Rightarrow
 AuthorityValid
 }
-]
+\]
 
 where authority is required.
 
----
+______________________________________________________________________
 
-# 55. Postcondition Gate
+## 55. Postcondition Gate
 
 After operation:
 
-[
-\boxed{
-Accept(O)
-=========
+## \[ \\boxed{ Accept(O)
 
 PostconditionsPass
-\land
+\\land
 HardInvariantsPass
 }
-]
+\]
 
 A successful function return is not sufficient evidence of semantic correctness.
 
----
+______________________________________________________________________
 
-# 56. Operator Provenance
+## 56. Operator Provenance
 
 Every consequential operation should preserve:
 
-[
-\boxed{
+\[
+\\boxed{
 P_O =
-[
+\[
 operator,
 actor,
 input,
@@ -1768,15 +1727,15 @@ authority,
 output,
 evidence,
 version
-]
+\]
 }
-]
+\]
 
 This supports replay, audit, repair, and invalidation.
 
----
+______________________________________________________________________
 
-# 57. H/M/L Operator Architecture
+## 57. H/M/L Operator Architecture
 
 ## H — Governing Operators
 
@@ -1820,16 +1779,13 @@ local validation
 specific state mutation
 ```
 
----
+______________________________________________________________________
 
-# 58. H/M/L Operator Tensor
+## 58. H/M/L Operator Tensor
 
-[
-\boxed{
-T_{HML-O}
-=========
+## \[ \\boxed{ T\_{HML-O}
 
-T[
+T\[
 operator,
 scale,
 target,
@@ -1840,85 +1796,79 @@ downward_constraints,
 scope,
 regime,
 provenance
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 59. Cross-Scale Operator Invariant
+## 59. Cross-Scale Operator Invariant
 
-[
-\boxed{
+\[
+\\boxed{
 LocalSuccess
-\not\Rightarrow
+\\not\\Rightarrow
 GlobalValidity
 }
-]
+\]
 
 and:
 
-[
-\boxed{
+\[
+\\boxed{
 GlobalConstraint
-\Rightarrow
+\\Rightarrow
 Constrain(LocalOperator)
 }
-]
+\]
 
 where the constraint applies.
 
----
+______________________________________________________________________
 
-# 60. Upward Propagation
+## 60. Upward Propagation
 
-For local operations (O_{L_i}):
+For local operations (O\_{L_i}):
 
-[
-\boxed{
-\Delta S_H
-==========
+## \[ \\boxed{ \\Delta S_H
 
 A(
-\Delta S_{L_1},
+\\Delta S\_{L_1},
 ...,
-\Delta S_{L_n}
+\\Delta S\_{L_n}
 )
 }
-]
+\]
 
 only through an explicit aggregation or propagation rule.
 
 Local effects do not automatically imply system-level effects.
 
----
+______________________________________________________________________
 
-# 61. Downward Constraint Propagation
+## 61. Downward Constraint Propagation
 
-[
-\boxed{
+\[
+\\boxed{
 C_H
-\rightarrow
+\\rightarrow
 C_M
-\rightarrow
+\\rightarrow
 C_L
 }
-]
+\]
 
 Higher-level hard constraints may restrict lower-level operator admissibility.
 
 Lower-level optimization may not override applicable higher-level invariants.
 
----
+______________________________________________________________________
 
-# 62. Observer Operator Tensor
+## 62. Observer Operator Tensor
 
-[
-\boxed{
-T_{OO}
-======
+## \[ \\boxed{ T\_{OO}
 
-T[
+T\[
 observer,
 operator,
 target,
@@ -1930,24 +1880,21 @@ time,
 scope,
 regime,
 provenance
-]
+\]
 }
-]
+\]
 
 Different observers may produce different valid observations of the same system under different access conditions.
 
 Observer disagreement does not automatically imply one observer is wrong.
 
----
+______________________________________________________________________
 
-# 63. Temporal Operator Tensor
+## 63. Temporal Operator Tensor
 
-[
-\boxed{
-T_{OT}
-======
+## \[ \\boxed{ T\_{OT}
 
-T[
+T\[
 operator,
 event_time,
 observation_time,
@@ -1957,9 +1904,9 @@ validation_time,
 lag,
 expiry,
 temporal_regime
-]
+\]
 }
-]
+\]
 
 Hard invariant:
 
@@ -1969,92 +1916,92 @@ EVENT TIME != OBSERVATION TIME != COMMIT TIME
 
 unless explicitly equal.
 
----
+______________________________________________________________________
 
-# 64. Regime Operator
+## 64. Regime Operator
 
-[
-\boxed{
+\[
+\\boxed{
 O_R^{regime}:
 State
-\times
+\\times
 Evidence
-\rightarrow
+\\rightarrow
 RegimeState
 }
-]
+\]
 
 A regime transition may invalidate previously valid operator assumptions.
 
-[
-\boxed{
+\[
+\\boxed{
 RegimeChange
-\Rightarrow
+\\Rightarrow
 Revalidate(RegimeDependentOperators)
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 65. Constraint Propagation Operator
+## 65. Constraint Propagation Operator
 
-[
-\boxed{
+\[
+\\boxed{
 O_C^{prop}:
 Constraint
-\times
+\\times
 DependencyGraph
-\rightarrow
+\\rightarrow
 AffectedSet
 }
-]
+\]
 
 Hard constraints propagate through applicable dependency edges.
 
----
+______________________________________________________________________
 
-# 66. Dependency Resolution Operator
+## 66. Dependency Resolution Operator
 
-[
-\boxed{
+\[
+\\boxed{
 O_D^{resolve}:
 Target
-\times
+\\times
 DependencyGraph
-\rightarrow
+\\rightarrow
 DependencyClosure
 }
-]
+\]
 
 AMOS should resolve the smallest sufficient dependency closure rather than loading the entire system when unnecessary.
 
----
+______________________________________________________________________
 
-# 67. Provenance Resolution Operator
+## 67. Provenance Resolution Operator
 
-[
-\boxed{
+\[
+\\boxed{
 O_P^{resolve}:
 EvidenceSet
-\rightarrow
+\\rightarrow
 AncestryGraph
 }
-]
+\]
 
 This operator determines whether apparently separate evidence shares ancestry.
 
----
+______________________________________________________________________
 
-# 68. Independence Operator
+## 68. Independence Operator
 
-[
-\boxed{
-O_{ind}:
+\[
+\\boxed{
+O\_{ind}:
 (E_i,E_j)
-\rightarrow
+\\rightarrow
 IndependenceState
 }
-]
+\]
 
 Possible states:
 
@@ -2073,26 +2020,24 @@ INDEPENDENCE MUST BE DEMONSTRATED
 WHEN INDEPENDENT SUPPORT IS CLAIMED
 ```
 
----
+______________________________________________________________________
 
-# 69. Contradiction Detection Operator
+## 69. Contradiction Detection Operator
 
-[
-\boxed{
-O_{conflict}:
+\[
+\\boxed{
+O\_{conflict}:
 ClaimSet
-\rightarrow
+\\rightarrow
 ConflictGraph
 }
-]
+\]
 
 Conflict tensor:
 
-[
-T_C
-===
+## \[ T_C
 
-T[
+T\[
 claim_i,
 claim_j,
 conflict_type,
@@ -2101,23 +2046,23 @@ regime_overlap,
 temporal_overlap,
 provenance_relation,
 resolution_state
-]
-]
+\]
+\]
 
----
+______________________________________________________________________
 
-# 70. Competing-Hypothesis Operator
+## 70. Competing-Hypothesis Operator
 
-[
-\boxed{
-O_{comp}:
+\[
+\\boxed{
+O\_{comp}:
 Evidence
-\times
+\\times
 HypothesisSet
-\rightarrow
+\\rightarrow
 CompetitionState
 }
-]
+\]
 
 When discriminating evidence is insufficient:
 
@@ -2127,81 +2072,75 @@ PRESERVE COMPETING
 
 rather than forcing convergence.
 
----
+______________________________________________________________________
 
-# 71. Discriminating-Test Operator
+## 71. Discriminating-Test Operator
 
-[
-\boxed{
-O_{test}:
+\[
+\\boxed{
+O\_{test}:
 HypothesisSet
-\times
+\\times
 CandidateTests
-\rightarrow
-Test^*
+\\rightarrow
+Test^\*
 }
-]
+\]
 
 where:
 
-[
-\boxed{
-Test^*
-======
+## \[ \\boxed{ Test^\*
 
-\arg\max_T
-\frac{
+\\arg\\max_T
+\\frac{
 ExpectedDiscrimination(T)
 }{
 Cost(T)+Risk(T)
 }
 }
-]
+\]
 
 This is an AMOS decision model, not a universal empirical equation.
 
----
+______________________________________________________________________
 
-# 72. Sensitivity Operator
+## 72. Sensitivity Operator
 
-[
-\boxed{
-O_{sens}:
+\[
+\\boxed{
+O\_{sens}:
 Conclusion
-\times
+\\times
 Premises
-\rightarrow
+\\rightarrow
 FlipSet
 }
-]
+\]
 
 where:
 
-[
-\boxed{
-FlipSet
-=======
+## \[ \\boxed{ FlipSet
 
 {
 p_i:
 Change(p_i)
-\Rightarrow
+\\Rightarrow
 Change(Conclusion)
 }
 }
-]
+\]
 
 Load-bearing sensitive premises receive higher validation priority.
 
----
+______________________________________________________________________
 
-# 73. Uncertainty Update Operator
+## 73. Uncertainty Update Operator
 
 Let:
 
-[
+\[
 U =
-[
+\[
 U_E,
 U_M,
 U_S,
@@ -2209,8 +2148,8 @@ U_T,
 U_C,
 U_X,
 U_P
-]
-]
+\]
+\]
 
 where:
 
@@ -2226,27 +2165,24 @@ U_P = provenance-independence uncertainty
 
 Then:
 
-[
-\boxed{
+\[
+\\boxed{
 O_U^{uncertainty}:
-(U_t,E_{new})
-\rightarrow
-U_{t+1}
+(U_t,E\_{new})
+\\rightarrow
+U\_{t+1}
 }
-]
+\]
 
 Uncertainty dimensions should not be collapsed into one scalar when their distinctions affect decisions.
 
----
+______________________________________________________________________
 
-# 74. Operator Risk Tensor
+## 74. Operator Risk Tensor
 
-[
-\boxed{
-T_{OR}
-======
+## \[ \\boxed{ T\_{OR}
 
-T[
+T\[
 operator,
 failure_probability,
 impact,
@@ -2257,18 +2193,15 @@ scope_risk,
 regime_risk,
 epistemic_risk,
 repairability
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 75. Consequence Radius
+## 75. Consequence Radius
 
-[
-\boxed{
-CR(O)
-=====
+## \[ \\boxed{ CR(O)
 
 f(
 stateFanout,
@@ -2278,18 +2211,18 @@ stakeMagnitude,
 authorityImpact
 )
 }
-]
+\]
 
 Higher consequence radius requires stronger validation and governance.
 
----
+______________________________________________________________________
 
-# 76. Operator Governance Tensor
+## 76. Operator Governance Tensor
 
-[
-\boxed{
+\[
+\\boxed{
 T_G =
-T[
+T\[
 operator,
 capability,
 authority,
@@ -2302,13 +2235,13 @@ approval,
 rollback,
 evidence_threshold,
 validation_epoch
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 77. Capability / Authority Firewall
+## 77. Capability / Authority Firewall
 
 ```text
 CAN EXECUTE != MAY EXECUTE
@@ -2324,26 +2257,26 @@ TOOL ACCESS != PERMISSION
 PROPOSAL != COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 78. Commit-Time Validation
+## 78. Commit-Time Validation
 
 For mutable environments:
 
-[
-\boxed{
-Validate_{proposal}
-\not\Rightarrow
-Valid_{commit}
+\[
+\\boxed{
+Validate\_{proposal}
+\\not\\Rightarrow
+Valid\_{commit}
 }
-]
+\]
 
 Therefore:
 
-[
-\boxed{
+\[
+\\boxed{
 Commit(O)
-\Rightarrow
+\\Rightarrow
 Revalidate(
 Authority,
 Constraints,
@@ -2351,39 +2284,33 @@ RelevantState,
 Dependencies
 )
 }
-]
+\]
 
 when these may have changed.
 
----
+______________________________________________________________________
 
-# 79. Atomic Operator Transaction
+## 79. Atomic Operator Transaction
 
 For semantically coupled operations:
 
-[
-\boxed{
-Transaction(O_1,...,O_n)
-========================
+## \[ \\boxed{ Transaction(O_1,...,O_n)
 
 ALL
-\lor
+\\lor
 NONE
 }
-]
+\]
 
 when partial completion would violate invariants.
 
----
+______________________________________________________________________
 
-# 80. Operator Transaction Tensor
+## 80. Operator Transaction Tensor
 
-[
-\boxed{
-T_{TX}
-======
+## \[ \\boxed{ T\_{TX}
 
-T[
+T\[
 transaction_id,
 operators,
 read_set,
@@ -2395,13 +2322,13 @@ constraints,
 commit_state,
 rollback,
 provenance
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 81. AI Application — Perception Operators
+## 81. AI Application — Perception Operators
 
 AI systems may implement operators that transform:
 
@@ -2427,9 +2354,9 @@ RAW INPUT != EXTERNAL REALITY
 
 unless the representation relationship is explicitly established.
 
----
+______________________________________________________________________
 
-# 82. AI Application — Retrieval Operators
+## 82. AI Application — Retrieval Operators
 
 ```text
 QUERY
@@ -2452,9 +2379,9 @@ EVIDENCE ADMISSION
 
 Retrieval score must not become truth score.
 
----
+______________________________________________________________________
 
-# 83. AI Application — Reasoning Operators
+## 83. AI Application — Reasoning Operators
 
 AI reasoning may use:
 
@@ -2476,18 +2403,15 @@ These operators generate candidate reasoning state.
 
 They do not independently create empirical evidence.
 
----
+______________________________________________________________________
 
-# 84. AI Application — Tool Operators
+## 84. AI Application — Tool Operators
 
 Tool invocation tensor:
 
-[
-\boxed{
-T_{tool}
-========
+## \[ \\boxed{ T\_{tool}
 
-T[
+T\[
 tool,
 operation,
 arguments,
@@ -2500,13 +2424,13 @@ result,
 post_state,
 execution_status,
 provenance
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 85. AI Application — Agent Operators
+## 85. AI Application — Agent Operators
 
 Agent operators should distinguish:
 
@@ -2525,9 +2449,9 @@ ROLLBACK
 
 A worker capable of generating an action proposal should not automatically own the commit boundary.
 
----
+______________________________________________________________________
 
-# 86. AI Application — Model Worker / Control Plane Separation
+## 86. AI Application — Model Worker / Control Plane Separation
 
 ```text
 MODEL WORKER
@@ -2556,9 +2480,9 @@ Hard invariant:
 COGNITION != CONTROL
 ```
 
----
+______________________________________________________________________
 
-# 87. AI Application — Self-Modification
+## 87. AI Application — Self-Modification
 
 Any operator capable of modifying:
 
@@ -2575,27 +2499,24 @@ persistent model state
 
 must be treated as a mutation operator.
 
-[
-\boxed{
-O_{\mu}:
+\[
+\\boxed{
+O\_{\\mu}:
 System_t
-\rightarrow
-System_{t+1}
+\\rightarrow
+System\_{t+1}
 }
-]
+\]
 
 Mutation requires stronger governance than ordinary inference.
 
----
+______________________________________________________________________
 
-# 88. Mutation Tensor
+## 88. Mutation Tensor
 
-[
-\boxed{
-T_{\mu}
-=======
+## \[ \\boxed{ T\_{\\mu}
 
-T[
+T\[
 target,
 mutation_class,
 proposal,
@@ -2608,24 +2529,24 @@ reversibility,
 validation,
 rollback,
 provenance
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 89. AI Application — Learning Operator
+## 89. AI Application — Learning Operator
 
-[
-\boxed{
+\[
+\\boxed{
 O_L:
 SystemState
-\times
+\\times
 Feedback
-\rightarrow
+\\rightarrow
 CandidateUpdatedState
 }
-]
+\]
 
 Learning does not imply improvement.
 
@@ -2637,20 +2558,20 @@ ADAPTATION != ALIGNMENT
 LOWER LOSS != HIGHER INTEGRITY
 ```
 
----
+______________________________________________________________________
 
-# 90. Anti-Feedback-Bias Operator
+## 90. Anti-Feedback-Bias Operator
 
 Before feedback modifies persistent policy or memory:
 
-[
-\boxed{
-O_{AFB}:
+\[
+\\boxed{
+O\_{AFB}:
 Feedback
-\rightarrow
+\\rightarrow
 FeedbackValidity
 }
-]
+\]
 
 checks may include:
 
@@ -2664,9 +2585,9 @@ regime validity
 adversarial manipulation
 ```
 
----
+______________________________________________________________________
 
-# 91. Operator Failure Modes
+## 91. Operator Failure Modes
 
 ## OP-F01 — Type Collapse
 
@@ -2740,11 +2661,11 @@ Successful execution becomes proof of correctness.
 
 `UNKNOWN/GAP` becomes `PASS`.
 
----
+______________________________________________________________________
 
-# 92. Failure Recovery
+## 92. Failure Recovery
 
-When operator \(O_i\) fails:
+When operator (O_i) fails:
 
 ```text
 1. identify failed operator;
@@ -2770,37 +2691,34 @@ When operator \(O_i\) fails:
 11. restore operation only if invariants pass.
 ```
 
----
+______________________________________________________________________
 
-# 93. Recovery Equation
+## 93. Recovery Equation
 
 Let:
 
-- \(S_V\) = unaffected valid state;
-- \(S_F\) = failed state;
-- \(D_F\) = dependent state;
-- \(R_F\) = repaired state.
+- (S_V) = unaffected valid state;
+- (S_F) = failed state;
+- (D_F) = dependent state;
+- (R_F) = repaired state.
 
 Then:
 
-[
-\boxed{
-S_{recovered}
-=============
+## \[ \\boxed{ S\_{recovered}
 
 S_V
-\cup
+\\cup
 R_F
-\cup
+\\cup
 Revalidated(D_F)
 }
-]
+\]
 
 Global recomputation is last resort.
 
----
+______________________________________________________________________
 
-# 94. Operator Audit Record
+## 94. Operator Audit Record
 
 ```yaml
 operator_record:
@@ -2858,9 +2776,9 @@ operator_record:
   validation_status:
 ```
 
----
+______________________________________________________________________
 
-# 95. Skill Operator Contract
+## 95. Skill Operator Contract
 
 Every AMOS skill exposing operators should declare:
 
@@ -2902,9 +2820,9 @@ operator_contract:
   falsifiers: []
 ```
 
----
+______________________________________________________________________
 
-# 96. Agent Operator Contract
+## 96. Agent Operator Contract
 
 ```yaml
 agent_operator_contract:
@@ -2936,9 +2854,9 @@ agent_operator_contract:
   audit_required: true
 ```
 
----
+______________________________________________________________________
 
-# 97. Operator Workflow
+## 97. Operator Workflow
 
 ```text
 OBJECTIVE
@@ -2986,9 +2904,9 @@ OBSERVE RESULT
 AUDIT
 ```
 
----
+______________________________________________________________________
 
-# 98. Core Operator Invariants
+## 98. Core Operator Invariants
 
 ## OP-I01 — Typed Transformation
 
@@ -3050,9 +2968,9 @@ Material transformation loss must remain detectable.
 
 Unknown states cannot silently become successful states.
 
----
+______________________________________________________________________
 
-# 99. Validators
+## 99. Validators
 
 ```text
 L00-OP-T01 operator type validation
@@ -3082,36 +3000,36 @@ L00-OP-T24 UNKNOWN/GAP preservation
 L00-OP-T25 postcondition validation
 ```
 
----
+______________________________________________________________________
 
-# 100. Falsifiers
+## 100. Falsifiers
 
 This architecture is falsified as an implemented L00 operator system if:
 
 1. operators have no stable semantic type;
-2. outputs cannot be traced to inputs;
-3. provenance disappears through transformations;
-4. scope constraints disappear after operations;
-5. regime constraints disappear after operations;
-6. simulation outputs can silently become observations;
-7. correlation can silently become causation;
-8. operator order is ignored where order changes semantics;
-9. irreversible operations require no additional governance;
-10. capability automatically grants authority;
-11. proposals automatically create durable effects;
-12. commit occurs against stale mutable state;
-13. semantic transactions can partially commit despite atomicity requirements;
-14. local failure forces unnecessary destruction of independent valid state;
-15. contradictions disappear during aggregation;
-16. shared-source evidence becomes falsely independent;
-17. operator-generated information recursively validates itself;
-18. model updates are automatically classified as improvements;
-19. successful execution is treated as semantic validation;
-20. `UNKNOWN/GAP` can become `PASS` without evidence.
+1. outputs cannot be traced to inputs;
+1. provenance disappears through transformations;
+1. scope constraints disappear after operations;
+1. regime constraints disappear after operations;
+1. simulation outputs can silently become observations;
+1. correlation can silently become causation;
+1. operator order is ignored where order changes semantics;
+1. irreversible operations require no additional governance;
+1. capability automatically grants authority;
+1. proposals automatically create durable effects;
+1. commit occurs against stale mutable state;
+1. semantic transactions can partially commit despite atomicity requirements;
+1. local failure forces unnecessary destruction of independent valid state;
+1. contradictions disappear during aggregation;
+1. shared-source evidence becomes falsely independent;
+1. operator-generated information recursively validates itself;
+1. model updates are automatically classified as improvements;
+1. successful execution is treated as semantic validation;
+1. `UNKNOWN/GAP` can become `PASS` without evidence.
 
----
+______________________________________________________________________
 
-# 101. Gap Matrix
+## 101. Gap Matrix
 
 | Area              | Required capability         | Status                   |
 | ----------------- | --------------------------- | ------------------------ |
@@ -3132,33 +3050,31 @@ This architecture is falsified as an implemented L00 operator system if:
 | Mutation          | governed self-change        | implementation-dependent |
 | Audit             | replayable operation record | implementation-dependent |
 
----
+______________________________________________________________________
 
-# 102. Operator Algebra
+## 102. Operator Algebra
 
 For operator set:
 
-[
-\mathcal{O}
-===========
+## \[ \\mathcal{O}
 
 {
 O_1,O_2,...,O_n
 }
-]
+\]
 
 AMOS operator composition forms a typed partial algebra:
 
-[
-\boxed{
-O_j \circ O_i
+\[
+\\boxed{
+O_j \\circ O_i
 }
-]
+\]
 
 exists only when:
 
-[
-\boxed{
+\[
+\\boxed{
 Compatible(
 Output(O_i),
 Input(O_j),
@@ -3168,22 +3084,19 @@ Authority,
 Constraints
 )
 }
-]
+\]
 
 Therefore operator composition is not universally closed.
 
----
+______________________________________________________________________
 
-# 103. Operator State Equation
+## 103. Operator State Equation
 
 The generalized L00 transition is:
 
-[
-\boxed{
-S_{t+1}
-=======
+## \[ \\boxed{ S\_{t+1}
 
-\Phi_O(
+\\Phi_O(
 S_t,
 X_t,
 O_t,
@@ -3191,7 +3104,7 @@ C_t,
 G_t
 )
 }
-]
+\]
 
 where:
 
@@ -3205,14 +3118,11 @@ G = governance constraints
 
 `Φ_O` is an AMOS architectural transition model.
 
----
+______________________________________________________________________
 
-# 104. Evidence-Producing Operator Equation
+## 104. Evidence-Producing Operator Equation
 
-[
-\boxed{
-E_{t+1}
-=======
+## \[ \\boxed{ E\_{t+1}
 
 O_E(
 S_t,
@@ -3221,78 +3131,75 @@ MeasurementMethod,
 Provenance
 )
 }
-]
+\]
 
 Evidence generated by an operator remains bounded by the operator's observation and measurement envelope.
 
----
+______________________________________________________________________
 
-# 105. Governed Action Equation
+## 105. Governed Action Equation
 
-[
-\boxed{
-ActionAllowed
-=============
+## \[ \\boxed{ ActionAllowed
 
 Capability
-\land
+\\land
 Authority
-\land
+\\land
 ConstraintPass
-\land
+\\land
 EvidenceThresholdPass
-\land
+\\land
 StateFresh
 }
-]
+\]
 
 for actions requiring all such conditions.
 
----
+______________________________________________________________________
 
-# 106. Reality Interaction Equation
+## 106. Reality Interaction Equation
 
 The complete conceptual loop is:
 
-[
-\boxed{
+\[
+\\boxed{
 R_t
-\xrightarrow{Observe}
+\\xrightarrow{Observe}
 O_t
-\xrightarrow{Measure}
+\\xrightarrow{Measure}
 E_t
-\xrightarrow{Infer}
+\\xrightarrow{Infer}
 C_t
-\xrightarrow{Model}
+\\xrightarrow{Model}
 M_t
-\xrightarrow{Decide}
+\\xrightarrow{Decide}
 D_t
-\xrightarrow{Authorize}
+\\xrightarrow{Authorize}
 A_t
-\xrightarrow{Commit}
+\\xrightarrow{Commit}
 X_t
-\xrightarrow{Act}
-R_{t+1}
+\\xrightarrow{Act}
+R\_{t+1}
 }
-]
+\]
 
 followed by:
 
-[
-\boxed{
-R_{t+1}
-\xrightarrow{Observe}
+\[
+\\boxed{
+R\_{t+1}
+\\xrightarrow{Observe}
 Outcome
-\xrightarrow{Evaluate}
+\\xrightarrow{Evaluate}
 Update
 }
-]
+\]
 
 This is an architectural reasoning loop, not a universal physical law.
 
----
+______________________________________________________________________
 
-# 107. RSCF Completion State
+## 107. RSCF Completion State
 
 ```yaml
 claim_class: MODEL
@@ -3389,9 +3296,9 @@ confidence_ceiling:
   ontological_universality: unverified
 ```
 
----
+______________________________________________________________________
 
-# 108. Hard Boundaries
+## 108. Hard Boundaries
 
 ```text
 OPERATOR != RESULT
@@ -3463,136 +3370,136 @@ UNKNOWN != FALSE
 UNKNOWN/GAP != PASS
 ```
 
----
+______________________________________________________________________
 
-# 109. Canonical Operator Law
+## 109. Canonical Operator Law
 
-[
-\boxed{
-ValidOperatorExecution
-======================
+## \[ \\boxed{ ValidOperatorExecution
 
 TypedInput
-\land
+\\land
 ValidPreconditions
-\land
+\\land
 ScopeCompatibility
-\land
+\\land
 RegimeCompatibility
-\land
+\\land
 DependencyValidity
-\land
+\\land
 ConstraintCompliance
-\land
+\\land
 RequiredAuthority
-\land
+\\land
 ProvenancePreservation
 }
-]
+\]
 
 For effectful execution:
 
-[
-\boxed{
+\[
+\\boxed{
 Proposal
-\rightarrow
+\\rightarrow
 Validation
-\rightarrow
+\\rightarrow
 Authorization
-\rightarrow
+\\rightarrow
 Commit
-\rightarrow
+\\rightarrow
 Action
-\rightarrow
+\\rightarrow
 OutcomeObservation
 }
-]
+\]
 
 For epistemic execution:
 
-[
-\boxed{
+\[
+\\boxed{
 Observation
-\rightarrow
+\\rightarrow
 Evidence
-\rightarrow
+\\rightarrow
 Inference
-\rightarrow
+\\rightarrow
 Claim
 }
-]
+\]
 
 with representation classes preserved.
 
 For failure:
 
-[
-\boxed{
+\[
+\\boxed{
 OperatorFailure
-\Rightarrow
+\\Rightarrow
 Invalidate(DependentState)
-+
+\+
 Preserve(IndependentState)
-+
+\+
 Repair(SmallestCausalFailure)
 }
-]
+\]
 
 For composition:
 
-[
-\boxed{
+\[
+\\boxed{
 Compose(O_i,O_j)
-\iff
+\\iff
 TypeCompatible
-\land
+\\land
 ScopeCompatible
-\land
+\\land
 RegimeCompatible
-\land
+\\land
 ConstraintCompatible
 }
-]
+\]
 
 For AI:
 
-[
-\boxed{
+\[
+\\boxed{
 Cognition
-\neq
+\\neq
 Authority
-\neq
+\\neq
 Commit
-\neq
+\\neq
 ExternalEffect
 }
-]
+\]
 
 The central architectural rule is:
 
 > **AMOS operators must transform state without erasing the semantic type, provenance, scope, regime, temporal context, dependencies, authority conditions, uncertainty, or invalidation structure required to interpret the transformation. An operator may generate a representation, inference, proposal, or effect; it may never silently promote that output into reality, causality, validation, authority, or successful outcome.**
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · 06-Knowledge-Base-MOC · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · AMOS_Typed_Tensor_Contracts · AMOS_Evidence_Tensor_Architecture · Cosmo_Brain_BRIDGE_INDEX · AMOS_Relation_Tensor_Architecture · AMOS_Reality_Simulation_Distinction · AMOS_Constraint_Propagation · Cosmo_Brain_BRIDGE_INDEX · AMOS_Infrastructure_Control_Plane
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: l00_reality_environment_primitives_cognitive_matrix_operators
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_OPERATORS.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_MOC|L00_REALITY_ENVIRONMENT_MOC]]
-

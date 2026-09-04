@@ -1,23 +1,26 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: 02 Cognition MOC
 type: moc
 source: 02_KERNEL/02_COGNITION
 tags:
-- 02-cognition
-- canon/kernel
-- k-bioelectromagnetic-bei
-- k-cognition
-- k-cognition-nbi
-- k-consciousness
-- k-counterfactual
-- k-emotion-nei
-- k-human-intelligence
-- k-metacognition
-- k-metacognitive-loop
-- k-multi-hypothesis
-- k-personality
-- k-somatic-si
-- k-structural-reasoning
+  - 02-cognition
+  - canon/kernel
+  - k-bioelectromagnetic-bei
+  - k-cognition
+  - k-cognition-nbi
+  - k-consciousness
+  - k-counterfactual
+  - k-emotion-nei
+  - k-human-intelligence
+  - k-metacognition
+  - k-metacognitive-loop
+  - k-multi-hypothesis
+  - k-personality
+  - k-somatic-si
+  - k-structural-reasoning
 moc: true
 rscf:
   state: DERIVED
@@ -53,5 +56,6 @@ rscf:
 
 - [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]] — 00_INDEX
 
----
+______________________________________________________________________
+
 **Parent:** [[02_KERNEL/02_KERNEL_MOC|02_KERNEL_MOC]]

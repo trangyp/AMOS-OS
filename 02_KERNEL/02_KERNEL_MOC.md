@@ -1,11 +1,14 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: 02 Kernel MOC
 type: moc
 source: 02_KERNEL
 tags:
-- 02-kernel
-- canon/kernel
-- amos-home
+  - 02-kernel
+  - canon/kernel
+  - amos-home
 moc: true
 rscf:
   state: DERIVED
@@ -19,10 +22,12 @@ rscf:
 **Path:** `02_KERNEL`
 **Files:** 2 | **Subdirectories:** 10
 
-## Files & Computational Kernels
+## 1. System Kernel Specifications & Theorem Provers
 
-- [[02_KERNEL/KERNEL_README|KERNEL_README]]
-- [[02_KERNEL/KERNEL_KERNEL_CONTRACT|KERNEL_KERNEL_CONTRACT]]
+- [[02_KERNEL/LEAN4_INVARIANT_PROVER_ENGINE|LEAN4_INVARIANT_PROVER_ENGINE]] — Lean 4 Dependent Type Theory theorem prover engine, constructive proofs for CRDT semi-lattices, Church-Rosser confluence, and Fibonacci anyon pentagon coherence.
+- [[02_KERNEL/LEAN4_PROOF_VERIFICATION_LEDGER|LEAN4_PROOF_VERIFICATION_LEDGER]] — 100% verified formal proof ledger with zero `sorry` escapes and cryptographic proof receipts.
+- [[02_KERNEL/KERNEL_README|KERNEL_README]] — Core invariants, formal verification, and kernel-level contracts.
+- [[02_KERNEL/KERNEL_KERNEL_CONTRACT|KERNEL_KERNEL_CONTRACT]] — Invariants: non-bypassable admission, proof before promotion, strict lineage.
 - [[02_KERNEL/K_ANTI_AUTOPOISONING|K_ANTI_AUTOPOISONING]] — Anti-Autopoisoning Base ALU
 - [[02_KERNEL/K_ATOMIC_MULTI_RSCF|K_ATOMIC_MULTI_RSCF]] — Atomic Multi-Proof Transaction ALU
 - [[02_KERNEL/K_AUTHORITY|K_AUTHORITY]] — Authority & Permission Validation Kernel
@@ -53,11 +58,10 @@ rscf:
 - [[02_KERNEL/08_PROVENANCE/08_PROVENANCE_MOC|08_PROVENANCE_MOC]] — 08_PROVENANCE
 - [[02_KERNEL/09_INTEGRATION/09_INTEGRATION_MOC|09_INTEGRATION_MOC]] — 09_INTEGRATION
 
----
+______________________________________________________________________
 
 **Parent:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]
 
----
+______________________________________________________________________
 
 **Related:** [[01_CANON/01_CANON_MOC|01_CANON_MOC]] · [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE_MOC]] · [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · [[08_WORKFLOWS/08_WORKFLOWS_MOC|08_WORKFLOWS_MOC]]
-

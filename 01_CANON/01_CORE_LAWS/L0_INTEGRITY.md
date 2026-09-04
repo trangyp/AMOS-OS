@@ -1,4 +1,7 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: L0 INTEGRITY
 type: note
 source: 01_CANON/01_CORE_LAWS
@@ -6,20 +9,16 @@ rscf:
   state: SOURCE_CLAIM
   class: STRUCTURAL
   provenance:
-  - internal
+    - internal
   freshness: EVERGREEN
   falsifiers: []
 tags:
-- note
-- 01-core-laws
+  - note
+  - 01-core-laws
 canon-group: canon/core-laws
 ---
 
----title: "AMOS Core Laws — L0 Integrity Laws"
-type: document
-tags: [note]
----
-
+## ---title: "AMOS Core Laws — L0 Integrity Laws" type: document tags: [note]
 
 # L0 Integrity Laws
 
@@ -65,9 +64,9 @@ Origin architect / steward:
 
 **Trang Phan**
 
----
+______________________________________________________________________
 
-# 1. Purpose
+## 1. Purpose
 
 L0 Integrity Laws define the minimum preservation constraints that AMOS OS should maintain before reasoning, memory, authority, policy, execution, optimization, adaptation, or recovery may be treated as governed.
 
@@ -100,9 +99,9 @@ L0 does not guarantee correctness.
 
 It defines conditions under which downstream claims or actions are not allowed to silently appear stronger than their supporting state.
 
----
+______________________________________________________________________
 
-# 2. Non-Purpose
+## 2. Non-Purpose
 
 L0 Integrity Laws MUST NOT be used to claim:
 
@@ -118,9 +117,9 @@ L0 Integrity Laws MUST NOT be used to claim:
 
 L0 is a governance and reasoning integrity layer.
 
----
+______________________________________________________________________
 
-# 3. L0 Position in the Core Laws Stack
+## 3. L0 Position in the Core Laws Stack
 
 Conceptually:
 
@@ -141,9 +140,9 @@ L0 is logically prior to downstream reasoning because loss of integrity can inva
 
 This does not mean that `L0` is physically executed first in every implementation.
 
----
+______________________________________________________________________
 
-# 4. L0 Governing Principle
+## 4. L0 Governing Principle
 
 The primary integrity ordering is:
 
@@ -173,9 +172,9 @@ that invents missing evidence.
 
 Optimization MUST NOT weaken a load-bearing integrity property unless an explicitly authorized tradeoff exists.
 
----
+______________________________________________________________________
 
-# 5. Integrity State
+## 5. Integrity State
 
 A proposed normalized integrity state is:
 
@@ -210,9 +209,9 @@ IntegrityState:
 
 The schema is an AMOS MODEL representation unless source canon establishes it explicitly.
 
----
+______________________________________________________________________
 
-# 6. Integrity Law L0-I001 — Preserve Distinctions
+## 6. Integrity Law L0-I001 — Preserve Distinctions
 
 AMOS MUST preserve distinctions that materially affect validity, authority, or interpretation.
 
@@ -250,9 +249,9 @@ UNKNOWN/GAP != PASS
 
 A downstream subsystem that collapses one of these distinctions creates an integrity violation.
 
----
+______________________________________________________________________
 
-# 7. Integrity Law L0-I002 — Unknown Must Remain Visible
+## 7. Integrity Law L0-I002 — Unknown Must Remain Visible
 
 Unknown information MUST remain representable as unknown.
 
@@ -292,9 +291,9 @@ This rule applies to:
 - regime;
 - causal status.
 
----
+______________________________________________________________________
 
-# 8. Integrity Law L0-I003 — No Fabricated Closure
+## 8. Integrity Law L0-I003 — No Fabricated Closure
 
 AMOS MUST NOT fabricate missing evidence or dependencies merely to complete a structure.
 
@@ -316,9 +315,9 @@ UNKNOWN/GAP
 
 depending on severity.
 
----
+______________________________________________________________________
 
-# 9. Integrity Law L0-I004 — Provenance Must Remain Recoverable
+## 9. Integrity Law L0-I004 — Provenance Must Remain Recoverable
 
 Consequential claims and state transitions SHOULD preserve recoverable provenance.
 
@@ -344,9 +343,9 @@ Can the chain be reconstructed?
 
 Loss of provenance lowers the maximum defensible confidence.
 
----
+______________________________________________________________________
 
-# 10. Integrity Law L0-I005 — Common Ancestry Is Not Independence
+## 10. Integrity Law L0-I005 — Common Ancestry Is Not Independence
 
 If evidence items descend from one underlying source, they must not automatically be counted as independent confirmation.
 
@@ -369,9 +368,9 @@ A + B + C
 
 Provenance topology must be considered when independence affects confidence.
 
----
+______________________________________________________________________
 
-# 11. Integrity Law L0-I006 — Identity Must Be Stable
+## 11. Integrity Law L0-I006 — Identity Must Be Stable
 
 Governed objects SHOULD have stable identity across representation changes.
 
@@ -386,16 +385,18 @@ ALIAS
 !=
 NEW IDENTITY
 ```
+
 ```text
 SUMMARY
 !=
 SOURCE OBJECT
 ```
+
 Identity collisions or alias ambiguity must remain visible.
 
----
+______________________________________________________________________
 
-# 12. Integrity Law L0-I007 — Scope Must Be Preserved
+## 12. Integrity Law L0-I007 — Scope Must Be Preserved
 
 Every material claim inherits an applicability envelope.
 
@@ -422,9 +423,9 @@ VALID(SCOPE_A)
 VALID(ALL)
 ```
 
----
+______________________________________________________________________
 
-# 13. Integrity Law L0-I008 — Regime Must Be Preserved
+## 13. Integrity Law L0-I008 — Regime Must Be Preserved
 
 Validity may depend upon operating regime.
 
@@ -443,9 +444,9 @@ SIMULATION
 
 A result established in one regime MUST NOT automatically be reused in another.
 
----
+______________________________________________________________________
 
-# 14. Integrity Law L0-I009 — Freshness Must Be Preserved
+## 14. Integrity Law L0-I009 — Freshness Must Be Preserved
 
 Mutable state can become stale.
 
@@ -473,9 +474,9 @@ VALID(t1)
 
 when load-bearing state can change.
 
----
+______________________________________________________________________
 
-# 15. Integrity Law L0-I010 — Dependency Closure Must Be Claim-Specific
+## 15. Integrity Law L0-I010 — Dependency Closure Must Be Claim-Specific
 
 A dependency graph is valid only relative to the claim or action being evaluated.
 
@@ -499,9 +500,9 @@ DEPENDENCY_CLOSURE(X)
 
 without a specified claim is incomplete.
 
----
+______________________________________________________________________
 
-# 16. Integrity Law L0-I011 — Failed Premises Selectively Invalidate Dependents
+## 16. Integrity Law L0-I011 — Failed Premises Selectively Invalidate Dependents
 
 If premise `P` fails:
 
@@ -519,9 +520,9 @@ where dependency relationships are known.
 
 It SHOULD NOT invalidate unrelated state merely because one branch failed.
 
----
+______________________________________________________________________
 
-# 17. Integrity Law L0-I012 — Contradictions Must Remain Visible
+## 17. Integrity Law L0-I012 — Contradictions Must Remain Visible
 
 Contradictory evidence must not be silently averaged, merged, or discarded.
 
@@ -547,9 +548,9 @@ If no discriminating evidence exists:
 PRESERVE COMPETING
 ```
 
----
+______________________________________________________________________
 
-# 18. Integrity Law L0-I013 — Confidence Cannot Outrun Load-Bearing Evidence
+## 18. Integrity Law L0-I013 — Confidence Cannot Outrun Load-Bearing Evidence
 
 As an AMOS governance model:
 
@@ -567,9 +568,9 @@ This is not claimed as a universal statistical law.
 
 It is a confidence propagation constraint.
 
----
+______________________________________________________________________
 
-# 19. Integrity Law L0-I014 — Causal Claims Require Causal Evidence
+## 19. Integrity Law L0-I014 — Causal Claims Require Causal Evidence
 
 AMOS SHALL distinguish:
 
@@ -590,9 +591,9 @@ causal effect
 
 Structural resemblance alone is insufficient for causal promotion.
 
----
+______________________________________________________________________
 
-# 20. Integrity Law L0-I015 — Cross-Scale Similarity Is Not Cross-Scale Proof
+## 20. Integrity Law L0-I015 — Cross-Scale Similarity Is Not Cross-Scale Proof
 
 H/M/L relationships may be structurally similar without being equivalent.
 
@@ -608,9 +609,9 @@ VALID_H
 
 Cross-scale propagation requires a valid transformation or explicit source support.
 
----
+______________________________________________________________________
 
-# 21. Integrity Law L0-I016 — Capability Does Not Grant Authority
+## 21. Integrity Law L0-I016 — Capability Does Not Grant Authority
 
 ```text
 CAN
@@ -622,9 +623,9 @@ An agent, Skill, tool, API, code path, or human capability does not independentl
 
 This applies even where the component can technically complete the action successfully.
 
----
+______________________________________________________________________
 
-# 22. Integrity Law L0-I017 — Authority Must Be Effect-Bound
+## 22. Integrity Law L0-I017 — Authority Must Be Effect-Bound
 
 Authority SHOULD be interpreted relative to:
 
@@ -642,9 +643,9 @@ environment
 
 A general statement that an actor is "authorized" is insufficient for high-impact effects where the envelope matters.
 
----
+______________________________________________________________________
 
-# 23. Integrity Law L0-I018 — Delegation Cannot Amplify Authority
+## 23. Integrity Law L0-I018 — Delegation Cannot Amplify Authority
 
 Conceptually:
 
@@ -658,9 +659,9 @@ unless another independent authority source explicitly grants more.
 
 Creating a child agent must not bypass the parent's authority limits.
 
----
+______________________________________________________________________
 
-# 24. Integrity Law L0-I019 — Revocation Must Propagate
+## 24. Integrity Law L0-I019 — Revocation Must Propagate
 
 Revocation SHOULD invalidate affected future authority.
 
@@ -672,9 +673,9 @@ NO NEW DEPENDENT AUTHORIZATION
 
 Affected cached authority witnesses, pending proposals, and transactions may require revalidation.
 
----
+______________________________________________________________________
 
-# 25. Integrity Law L0-I020 — Policy Cannot Manufacture Authority
+## 25. Integrity Law L0-I020 — Policy Cannot Manufacture Authority
 
 ```text
 POLICY_ALLOW
@@ -688,9 +689,9 @@ unless the policy is itself an authorized authority-grant mechanism under a high
 
 Policy and authority remain distinct.
 
----
+______________________________________________________________________
 
-# 26. Integrity Law L0-I021 — Proposal Does Not Mutate Governed State
+## 26. Integrity Law L0-I021 — Proposal Does Not Mutate Governed State
 
 A proposal may contain:
 
@@ -714,9 +715,9 @@ COMMIT
 
 Proposal generation is normally reversible informational state.
 
----
+______________________________________________________________________
 
-# 27. Integrity Law L0-I022 — Commit Requires Revalidation of Mutable Premises
+## 27. Integrity Law L0-I022 — Commit Requires Revalidation of Mutable Premises
 
 A proposal valid at time `t0` may not remain valid at commit time `t1`.
 
@@ -733,9 +734,9 @@ security constraints
 
 before durable mutation.
 
----
+______________________________________________________________________
 
-# 28. Integrity Law L0-I023 — Expected State and Current State Must Remain Distinct
+## 28. Integrity Law L0-I023 — Expected State and Current State Must Remain Distinct
 
 Where concurrent changes are possible:
 
@@ -757,9 +758,9 @@ rather than silent overwrite.
 
 This expresses an MVCC/CAS-style control principle without asserting a particular database implementation.
 
----
+______________________________________________________________________
 
-# 29. Integrity Law L0-I024 — Atomic Groups Must Not Partially Finalize
+## 29. Integrity Law L0-I024 — Atomic Groups Must Not Partially Finalize
 
 Where several effects form one semantic transaction:
 
@@ -777,9 +778,9 @@ should hold within the actual guarantees of the implementation.
 
 Partial success must not be labeled complete if required state is inconsistent.
 
----
+______________________________________________________________________
 
-# 30. Integrity Law L0-I025 — Canon and Implementation Must Remain Separate
+## 30. Integrity Law L0-I025 — Canon and Implementation Must Remain Separate
 
 ```text
 CANONICAL
@@ -801,9 +802,9 @@ A program may implement a proposal not admitted to canon.
 
 Both axes must remain visible.
 
----
+______________________________________________________________________
 
-# 31. Integrity Law L0-I026 — Newer Does Not Mean Superseding
+## 31. Integrity Law L0-I026 — Newer Does Not Mean Superseding
 
 Chronological or semantic novelty does not automatically create precedence.
 
@@ -815,9 +816,9 @@ SUPERSEDING
 
 Supersession requires explicit governed lineage.
 
----
+______________________________________________________________________
 
-# 32. Integrity Law L0-I027 — Supersession Does Not Erase History
+## 32. Integrity Law L0-I027 — Supersession Does Not Erase History
 
 ```text
 SUPERSEDED
@@ -827,9 +828,9 @@ DELETED
 
 Canonical predecessors SHOULD remain historically recoverable where retention rules allow.
 
----
+______________________________________________________________________
 
-# 33. Integrity Law L0-I028 — Rollback Does Not Erase Failure
+## 33. Integrity Law L0-I028 — Rollback Does Not Erase Failure
 
 ```text
 ROLLBACK
@@ -848,9 +849,9 @@ authority
 validation outcome
 ```
 
----
+______________________________________________________________________
 
-# 34. Integrity Law L0-I029 — Previous Does Not Mean Safe
+## 34. Integrity Law L0-I029 — Previous Does Not Mean Safe
 
 A prior state can become unsafe after environmental or dependency changes.
 
@@ -862,9 +863,9 @@ CURRENTLY_SAFE_TO_RESTORE
 
 Rollback itself therefore requires validation.
 
----
+______________________________________________________________________
 
-# 35. Integrity Law L0-I030 — Memory Does Not Self-Validate
+## 35. Integrity Law L0-I030 — Memory Does Not Self-Validate
 
 Persistent memory is stored state.
 
@@ -886,9 +887,9 @@ supersession
 confidence
 ```
 
----
+______________________________________________________________________
 
-# 36. Integrity Law L0-I031 — Retrieval Does Not Imply Admission
+## 36. Integrity Law L0-I031 — Retrieval Does Not Imply Admission
 
 ```text
 RETRIEVED
@@ -906,9 +907,9 @@ CANON
 
 Retrieved information may require validation or quarantine before persistent reuse.
 
----
+______________________________________________________________________
 
-# 37. Integrity Law L0-I032 — Generated Artifacts Cannot Self-Certify
+## 37. Integrity Law L0-I032 — Generated Artifacts Cannot Self-Certify
 
 An artifact generated by:
 
@@ -932,9 +933,9 @@ authority
 
 Independent or externally governed checks are required where applicable.
 
----
+______________________________________________________________________
 
-# 38. Integrity Law L0-I033 — Tests Must Preserve Execution Status
+## 38. Integrity Law L0-I033 — Tests Must Preserve Execution Status
 
 AMOS SHALL distinguish:
 
@@ -949,9 +950,9 @@ TEST_INCONCLUSIVE
 
 A written test case is not execution evidence.
 
----
+______________________________________________________________________
 
-# 39. Integrity Law L0-I034 — Benchmark Evidence Is Scope-Bound
+## 39. Integrity Law L0-I034 — Benchmark Evidence Is Scope-Bound
 
 Benchmark results inherit:
 
@@ -974,9 +975,9 @@ BENCHMARK_SUCCESS
 UNIVERSAL VALIDITY
 ```
 
----
+______________________________________________________________________
 
-# 40. Integrity Law L0-I035 — Formal Proof Is Property-Bound
+## 40. Integrity Law L0-I035 — Formal Proof Is Property-Bound
 
 A formal verification result establishes only:
 
@@ -994,9 +995,9 @@ FORMALLY VERIFIED P
 ENTIRE SYSTEM VERIFIED
 ```
 
----
+______________________________________________________________________
 
-# 41. Integrity Law L0-I036 — Information Transformation Does Not Erase Origin
+## 41. Integrity Law L0-I036 — Information Transformation Does Not Erase Origin
 
 If information is:
 
@@ -1017,9 +1018,9 @@ TRANSFORMED
 SOURCELESS
 ```
 
----
+______________________________________________________________________
 
-# 42. Integrity Law L0-I037 — Transformation Does Not Automatically Declassify
+## 42. Integrity Law L0-I037 — Transformation Does Not Automatically Declassify
 
 ```text
 TRANSFORMED INFORMATION
@@ -1029,9 +1030,9 @@ DECLASSIFIED INFORMATION
 
 Privacy, disclosure, or authority constraints may follow semantic origin through transformations.
 
----
+______________________________________________________________________
 
-# 43. Integrity Law L0-I038 — Safe Parts May Compose Unsafely
+## 43. Integrity Law L0-I038 — Safe Parts May Compose Unsafely
 
 Individually acceptable objects may create invalid behavior when combined.
 
@@ -1060,9 +1061,9 @@ This applies to:
 
 Composition requires separate validation when interaction matters.
 
----
+______________________________________________________________________
 
-# 44. Integrity Law L0-I039 — Emergency Does Not Mean Ungoverned
+## 44. Integrity Law L0-I039 — Emergency Does Not Mean Ungoverned
 
 An emergency path MAY reduce normal procedural depth.
 
@@ -1085,9 +1086,9 @@ purpose-limited
 reviewed afterward
 ```
 
----
+______________________________________________________________________
 
-# 45. Integrity Law L0-I040 — Optimization Cannot Weaken Protected Invariants
+## 45. Integrity Law L0-I040 — Optimization Cannot Weaken Protected Invariants
 
 A proposed optimization is inadmissible if it materially weakens protected integrity without approved tradeoff.
 
@@ -1109,9 +1110,9 @@ that erases scope
 
 These are integrity regressions, not optimizations.
 
----
+______________________________________________________________________
 
-# 46. L0 Integrity Classes
+## 46. L0 Integrity Classes
 
 The L0 family may be grouped conceptually as:
 
@@ -1136,9 +1137,9 @@ L0
 
 This grouping is a proposed organizational model.
 
----
+______________________________________________________________________
 
-# 47. H/M/L Applicability
+## 47. H/M/L Applicability
 
 L0 Integrity Laws apply recursively.
 
@@ -1187,9 +1188,9 @@ tests
 state mutations
 ```
 
----
+______________________________________________________________________
 
-# 48. H/M/L Transfer Rule
+## 48. H/M/L Transfer Rule
 
 Integrity constraints MAY recurse across H/M/L.
 
@@ -1204,9 +1205,9 @@ same implementation
 
 The law may require different operational mechanisms at each level.
 
----
+______________________________________________________________________
 
-# 49. Control-Plane Requirements
+## 49. Control-Plane Requirements
 
 A runtime capable of enforcing L0 Integrity Laws SHOULD eventually provide controls for:
 
@@ -1231,9 +1232,9 @@ recovery
 
 This artifact does not claim those runtime capabilities currently exist.
 
----
+______________________________________________________________________
 
-# 50. Agents
+## 50. Agents
 
 Possible L0-related agent roles include:
 
@@ -1259,9 +1260,9 @@ RECOVERY_ANALYST
 
 Role labels do not grant authority.
 
----
+______________________________________________________________________
 
-# 51. Skills
+## 51. Skills
 
 Relevant Skills MAY include capabilities for:
 
@@ -1280,9 +1281,9 @@ repair analysis
 
 Skill availability remains distinct from authority.
 
----
+______________________________________________________________________
 
-# 52. Workflow — Integrity Evaluation
+## 52. Workflow — Integrity Evaluation
 
 ```text
 INPUT / STATE
@@ -1326,9 +1327,9 @@ UNKNOWN/GAP
 
 `PASS` is only valid if all required integrity gates for the declared scope are satisfied.
 
----
+______________________________________________________________________
 
-# 53. Workflow — Consequential Action
+## 53. Workflow — Consequential Action
 
 ```text
 REQUEST
@@ -1354,9 +1355,9 @@ COMMIT
 AUDIT
 ```
 
----
+______________________________________________________________________
 
-# 54. Workflow — Integrity Failure Recovery
+## 54. Workflow — Integrity Failure Recovery
 
 ```text
 FAILURE DETECTED
@@ -1380,9 +1381,9 @@ REVALIDATE
 RESUME
 ```
 
----
+______________________________________________________________________
 
-# 55. Protocol — Integrity Decision
+## 55. Protocol — Integrity Decision
 
 A normalized integrity evaluation MAY take:
 
@@ -1422,9 +1423,9 @@ integrity_decision:
   confidence_ceiling: null
 ```
 
----
+______________________________________________________________________
 
-# 56. Protocol — Integrity Violation
+## 56. Protocol — Integrity Violation
 
 ```yaml
 integrity_violation:
@@ -1453,9 +1454,9 @@ integrity_violation:
   status: null
 ```
 
----
+______________________________________________________________________
 
-# 57. State Variables
+## 57. State Variables
 
 Suggested L0 variables:
 
@@ -1504,9 +1505,9 @@ variables:
 
 Exact variable names remain MODEL unless source-canonicalized.
 
----
+______________________________________________________________________
 
-# 58. Operators
+## 58. Operators
 
 Proposed L0 operators:
 
@@ -1554,9 +1555,9 @@ REPAIR
 
 These are conceptual operators unless separately implemented.
 
----
+______________________________________________________________________
 
-# 59. Integrity Decision Rule
+## 59. Integrity Decision Rule
 
 Conceptually:
 
@@ -1586,9 +1587,9 @@ This is an AMOS governance model equation.
 
 It is not claimed as empirical mathematics.
 
----
+______________________________________________________________________
 
-# 60. Fail-Closed Rule
+## 60. Fail-Closed Rule
 
 Where an integrity dimension is required for a consequential action:
 
@@ -1612,9 +1613,9 @@ ESCALATE
 
 according to applicable governance.
 
----
+______________________________________________________________________
 
-# 61. Core Failure Modes
+## 61. Core Failure Modes
 
 ```text
 L0-FM001
@@ -1663,9 +1664,9 @@ L0-FM015
 new version silently supersedes old version
 ```
 
----
+______________________________________________________________________
 
-# 62. Extended Failure Modes
+## 62. Extended Failure Modes
 
 ```text
 L0-FM016
@@ -1714,9 +1715,9 @@ L0-FM030
 local failure triggers unnecessary global invalidation
 ```
 
----
+______________________________________________________________________
 
-# 63. Severity Classes
+## 63. Severity Classes
 
 L0 integrity violations MAY be classified:
 
@@ -1758,9 +1759,9 @@ non-blocking diagnostic issue
 
 Exact thresholds remain subject to canonical governance.
 
----
+______________________________________________________________________
 
-# 64. Repair Contract
+## 64. Repair Contract
 
 Integrity repair SHOULD:
 
@@ -1788,9 +1789,9 @@ Integrity repair SHOULD:
 
 Repair should be proportional to the failure.
 
----
+______________________________________________________________________
 
-# 65. Repair-Harm Boundary
+## 65. Repair-Harm Boundary
 
 A repair may create new problems.
 
@@ -1804,9 +1805,9 @@ SYSTEM_INTEGRITY_RESTORED
 
 Repair SHOULD test protected neighboring state where dependency relationships are material.
 
----
+______________________________________________________________________
 
-# 66. Rollback Contract
+## 66. Rollback Contract
 
 Rollback SHOULD specify:
 
@@ -1822,9 +1823,9 @@ rollback:
 
 Rollback is an action requiring governance.
 
----
+______________________________________________________________________
 
-# 67. L0 Validators
+## 67. L0 Validators
 
 Recommended validators:
 
@@ -1870,9 +1871,9 @@ validate_recovery_integrity()
 
 These functions are specifications, not implementation claims.
 
----
+______________________________________________________________________
 
-# 68. Mandatory Tests
+## 68. Mandatory Tests
 
 ## L0-T001 — Unknown Boundary
 
@@ -1888,7 +1889,7 @@ Expected:
 PASS = false
 ```
 
----
+______________________________________________________________________
 
 ## L0-T002 — Capability Boundary
 
@@ -1905,7 +1906,7 @@ Expected:
 AUTHORIZED = false
 ```
 
----
+______________________________________________________________________
 
 ## L0-T003 — Proposal Boundary
 
@@ -1922,7 +1923,7 @@ Expected:
 COMMITTED = false
 ```
 
----
+______________________________________________________________________
 
 ## L0-T004 — Provenance Independence
 
@@ -1939,7 +1940,7 @@ Expected:
 independent_source_count != 2
 ```
 
----
+______________________________________________________________________
 
 ## L0-T005 — Scope Boundary
 
@@ -1956,7 +1957,7 @@ Expected:
 VALID_FOR_B != automatically true
 ```
 
----
+______________________________________________________________________
 
 ## L0-T006 — Regime Boundary
 
@@ -1973,7 +1974,7 @@ Expected:
 PRODUCTION_VALIDATED = false
 ```
 
----
+______________________________________________________________________
 
 ## L0-T007 — Revocation
 
@@ -1988,7 +1989,7 @@ Expected:
 COMMIT DENIED
 ```
 
----
+______________________________________________________________________
 
 ## L0-T008 — Supersession
 
@@ -2004,7 +2005,7 @@ Expected:
 v1 remains current or status remains unresolved
 ```
 
----
+______________________________________________________________________
 
 ## L0-T009 — Conflict Preservation
 
@@ -2019,7 +2020,7 @@ Expected:
 COMPETING
 ```
 
----
+______________________________________________________________________
 
 ## L0-T010 — Rollback
 
@@ -2034,9 +2035,9 @@ Expected:
 rollback requires revalidation
 ```
 
----
+______________________________________________________________________
 
-# 69. Extended Tests
+## 69. Extended Tests
 
 ```text
 L0-T011
@@ -2085,9 +2086,9 @@ L0-T025
 Transformed confidential information remains governed by origin constraints unless declassified.
 ```
 
----
+______________________________________________________________________
 
-# 70. Falsifiers
+## 70. Falsifiers
 
 This L0 specification should be revised if authoritative AMOS canon establishes materially different integrity laws for:
 
@@ -2109,9 +2110,9 @@ This L0 specification should be revised if authoritative AMOS canon establishes 
 
 It should also be downgraded if this document is later shown to conflict with higher valid AMOS canon.
 
----
+______________________________________________________________________
 
-# 71. Evidence / Provenance
+## 71. Evidence / Provenance
 
 Current artifact-level provenance:
 
@@ -2138,9 +2139,9 @@ provenance:
 
 No additional source references are invented here.
 
----
+______________________________________________________________________
 
-# 72. Uncertainty Vector
+## 72. Uncertainty Vector
 
 ```yaml
 uncertainty:
@@ -2167,9 +2168,9 @@ uncertainty:
     state: "MODERATE"
 ```
 
----
+______________________________________________________________________
 
-# 73. Confidence Ceiling
+## 73. Confidence Ceiling
 
 Because this document has not been established as final source-aligned canon:
 
@@ -2193,9 +2194,9 @@ This does not imply the specification is useless.
 
 It means stronger statuses require stronger evidence.
 
----
+______________________________________________________________________
 
-# 74. Gap Matrix
+## 74. Gap Matrix
 
 ```yaml
 gap_matrix:
@@ -2251,9 +2252,9 @@ gap_matrix:
     severity: "CRITICAL"
 ```
 
----
+______________________________________________________________________
 
-# 75. Promotion Requirements
+## 75. Promotion Requirements
 
 Promotion beyond `PROPOSED_SPECIFICATION` requires, as applicable:
 
@@ -2287,9 +2288,9 @@ RSCF REVIEW
 CANON APPROVAL
 ```
 
----
+______________________________________________________________________
 
-# 76. Promotion Ladder
+## 76. Promotion Ladder
 
 ```text
 PLACEHOLDER
@@ -2323,9 +2324,9 @@ RUNTIME_ACTIVE
 
 No stage implies the next.
 
----
+______________________________________________________________________
 
-# 77. L0 RSCF
+## 77. L0 RSCF
 
 ```yaml
 rscf:
@@ -2397,9 +2398,9 @@ rscf:
   confidence_ceiling: 0
 ```
 
----
+______________________________________________________________________
 
-# 78. Current Completion State
+## 78. Current Completion State
 
 ```yaml
 completion:
@@ -2438,9 +2439,9 @@ completion:
     status: "NOT_ESTABLISHED"
 ```
 
----
+______________________________________________________________________
 
-# 79. Final L0 Integrity Contract
+## 79. Final L0 Integrity Contract
 
 > **AMOS L0 Integrity exists to prevent downstream fluency, capability, automation, or completeness from outrunning the validity of the state on which they depend. Identity, provenance, epistemic class, scope, regime, dependencies, authority, contradiction, uncertainty, version, transaction, commit, audit, and recovery boundaries must remain distinguishable. Missing information remains UNKNOWN/GAP; capability does not create authority; proposal does not create commit; newer state does not create supersession; memory does not create truth; transformed information does not lose semantic origin; and local failures should selectively invalidate only affected dependents wherever dependency closure permits.**
 
@@ -2472,15 +2473,15 @@ PRESERVE COMMIT BOUNDARIES
 PRESERVE RECOVERABILITY
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/00_INDEX/CORE_LAWS_MAP|CORE_LAWS_MAP]] · [[01_CANON/01_CORE_LAWS/00_INDEX/CORE_LAWS_CANON_CORE_LAWS_CONTRACT|CORE_LAWS_CANON_CORE_LAWS_CONTRACT]]
 
----
+______________________________________________________________________
 
 RSCF-NODE
 
@@ -2525,3 +2526,4 @@ confidence_ceiling: 0
 **MOC:** [[01_CANON/01_CORE_LAWS/01_CORE_LAWS_MOC|01_CORE_LAWS_MOC]]
 
 
+```

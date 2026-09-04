@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Vault Domain Knowledge — Mckinsey Transformation Org Structure Rscf
 type: reference
 source: 07_SKILLS/mckinsey-transformation-org-structure-rscf/references
 tags:
-- reference
-- mckinsey-transformation-org-structure-rscf
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - mckinsey-transformation-org-structure-rscf
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -24,6 +27,7 @@ rscf:
 ## Vault-Sourced Content
 
 ### Source 1: 3a. Governance
+
 - org structure
 - v5
 
@@ -35,10 +39,11 @@ About TCJ
 Organization
 Thisplaybookcontainsallthepieces andpartsthat
 makeupourapproachtotransforming customer
-| journeys.Thisis | | alivingdocumentandthelatest |
-| --------------- | -------- | ----------------------------- |
-| versioncan | be found | onTCJ’sConfluencesite. |
-Last updated in May 2019
+
+| journeys.Thisis          |          | alivingdocumentandthelatest |
+| ------------------------ | -------- | --------------------------- |
+| versioncan               | be found | onTCJ’sConfluencesite.      |
+| Last updated in May 2019 |          |                             |
 
 How this module fits into overall TCJ Playbook
 Transformation
@@ -110,43 +115,44 @@ McKinsey & Company 4
 
 Roles of the three groups
 Group Description
- Grouping of TCJ members that is accountable to design and deliver new customer journey
- Consists of members assigned to a particular journey at a certain time
- Consists of TCJ employees + CIMB SMEs that are seconded to TCJ; covering full set of capabilities required to
+Grouping of TCJ members that is accountable to design and deliver new customer journey
+Consists of members assigned to a particular journey at a certain time
+Consists of TCJ employees + CIMB SMEs that are seconded to TCJ; covering full set of capabilities required to
 Journey Team
 deliver E2E journey
- Example: Retail CASA, Commercial Lending (10 defined in total)
- Grouping of TCJ resources that focuses on capability development (incl. sharing of best practices, maintaining
+Example: Retail CASA, Commercial Lending (10 defined in total)
+Grouping of TCJ resources that focuses on capability development (incl. sharing of best practices, maintaining
 consistent standards and methodologies across TCJ)
- Consists of members with similar competency areas
+Consists of members with similar competency areas
 Chapter
- Chapter members are a pool of resources that are assigned to Journey Teams and gather periodically to align
- Example: Technology Developers, Technology DevOps, Value Assurance
- Group
+Chapter members are a pool of resources that are assigned to Journey Teams and gather periodically to align
+Example: Technology Developers, Technology DevOps, Value Assurance
+Group
 
----
+______________________________________________________________________
 
 ### Source 2: AMOS BRAIN STRUCTURE REORGANIZATION PLAN
 
 > Path: `reports/AMOS_BRAIN_STRUCTURE_REORGANIZATION_PLAN.md` | Size: 9284 chars | Match score: 17 | content_hash: c5ce201a0c852e2e
 
-# AMOS BRAIN STRUCTURE REORGANIZATION PLAN
-==========================================
+## AMOS BRAIN STRUCTURE REORGANIZATION PLAN
 
+\==========================================
 
 ## CURRENT STRUCTURE ANALYSIS
 
 ### **Identified Issues**
 
 1. **Hallucination Directories**: Multiple output directories that don't exist or are artifacts
-2. **Scattered Components**: Related functionality spread across multiple directories
-3. **Broken Links**: References to non-existent directories
-4. **Inconsistent Naming**: Mixed naming conventions
-5. **Redundant Structure**: Multiple similar directories (kernel vs kernels)
+1. **Scattered Components**: Related functionality spread across multiple directories
+1. **Broken Links**: References to non-existent directories
+1. **Inconsistent Naming**: Mixed naming conventions
+1. **Redundant Structure**: Multiple similar directories (kernel vs kernels)
 
 ### **Directory Status Assessment** #### **Legitimate Core Directories**
 
 `.amos/` - AMOS configuration and scan ledger
+
 - `agents/` - Agent implementations
 - `SSOT/` - Single Source of Truth
 - `kernel/` - Core kernel implementations
@@ -155,6 +161,7 @@ Chapter
 - `tests/` - Test suites
 
 #### **Questionable/Hallucination Directories** - `amos_brain_omega_evolution_outputs`
+
 - Hallucination artifact
 - `amos_brain_omega_outputs`
 - Hallucination artifact
@@ -166,6 +173,7 @@ Chapter
 - Hallucination artifact
 
 #### **Needs Verification** - `amos_capital_engine/`
+
 - May be legitimate capital engine components
 - `brain/`
 - May be redundant with kernel/
@@ -176,7 +184,8 @@ Chapter
 
 ## PROPOSED REORGANIZATION STRUCTURE
 
-### **Core AMOS Brain Structure** ```
+### **Core AMOS Brain Structure** \`\`\`
+
 /Users/trangphan/AMOS/01_BRAIN/
 ├── .amos/ # AMOS configuration (KEEP)
 ├── agents/ # Agent implementations (KEEP)
@@ -200,35 +209,37 @@ Chapter
 ├── legal/ # Legal systems (KEEP)
 ├── logic/ # Logic systems (MERGE f
 
----
+______________________________________________________________________
 
 ### Source 3: AMOS Org Governance Engine
 
 > Path: `governance/Org_Governance_Model.md` | Size: 1584 chars | Match score: 15 | content_hash: 5793849c66ffcc1c
 
-# AMOS Org Governance Engine
-
+## AMOS Org Governance Engine
 
 The **Org Governance Engine** is an end-to-end kernel for diagnosing, designing, stress-testing, and executing organizational structures and operating models.
 
 ## Identity and Scope
+
 - It operates strictly on structure, decision rights, controls, incentives, culture, risk, and accountability.
 - It is NOT a motivational coach, generic HR advisor, or brand storyteller.
 - It surfaces structural risk and distinguishes facts from assumptions.
 
 ## The 10 Governance Pillars
+
 1. Structure and Roles
-2. Decision Rights and Authority
-3. Processes and Workflows
-4. Information and Reporting
-5. People, Incentives, and Capability
-6. Risk Management and Controls
-7. Compliance and Policy Framework
-8. Culture and Behaviours
-9. Stakeholder Accountability
-10. Change and Learning
+1. Decision Rights and Authority
+1. Processes and Workflows
+1. Information and Reporting
+1. People, Incentives, and Capability
+1. Risk Management and Controls
+1. Compliance and Policy Framework
+1. Culture and Behaviours
+1. Stakeholder Accountability
+1. Change and Learning
 
 ## Engine Outputs
+
 - **Structure Map:** Levels, spans, groupings.
 - **Decision Rights Map:** RACI, delegation limits.
 - **Risk & Control Map:** Risk taxonomy, three lines of defence.
@@ -236,15 +247,17 @@ The **Org Governance Engine** is an end-to-end kernel for diagnosing, designing,
 - **Health Evaluation:** 20 dimensions scored from 0-100.
 - **Evolution Path:** Phased roadmap (12m, 3y, 7y+).
 
----
+______________________________________________________________________
 
----
+______________________________________________________________________
+
 **MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -252,12 +265,14 @@ The **Org Governance Engine** is an end-to-end kernel for diagnosing, designing,
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: mckinsey-transformation-org-structure-rscf-vault-domain-knowledge
 node_type: reference
 path: 07_SKILLS/mckinsey-transformation-org-structure-rscf/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

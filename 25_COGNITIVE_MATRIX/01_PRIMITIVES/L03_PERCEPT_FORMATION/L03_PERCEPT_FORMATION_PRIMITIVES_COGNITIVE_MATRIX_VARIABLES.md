@@ -2,15 +2,15 @@
 type: variable
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L03_PERCEPT_FORMATION
 tags:
-- amos
-- cognitive-matrix
-- matrix/l03
-- percept-formation
-- variables
-- rscf
-- provenance
-- governance
-- domain/cognitive-matrix
+  - amos
+  - cognitive-matrix
+  - matrix/l03
+  - percept-formation
+  - variables
+  - rscf
+  - provenance
+  - governance
+  - domain/cognitive-matrix
 title: L03_PERCEPT_FORMATION — Variables
 origin_architect: Trang Phan
 status: MODEL_CONTRACT / UNVALIDATED
@@ -112,9 +112,9 @@ PROPOSAL != COMMIT
 UNKNOWN/GAP != PASS
 ```
 
----
+______________________________________________________________________
 
-# 1. Source / Canon References
+## 1. Source / Canon References
 
 ## 1.1 Source-aligned variable architecture
 
@@ -210,9 +210,9 @@ canonical_L03_thresholds: UNKNOWN_GAP
 
 Therefore the L03-specific variable names below are `AMOS_MODEL` unless later recovered from direct canon.
 
----
+______________________________________________________________________
 
-# 2. Definition and Scope
+## 2. Definition and Scope
 
 `L03_PERCEPT_FORMATION_VARIABLE_CONTRACT` governs variables required to represent the transformation from admitted observations and attention-conditioned information into candidate perceptual structures.
 
@@ -258,9 +258,9 @@ physical laws
 empirical cognitive primitives
 ```
 
----
+______________________________________________________________________
 
-# 3. Canonical Variable Object
+## 3. Canonical Variable Object
 
 Every L03 variable SHOULD resolve to an object compatible with:
 
@@ -343,9 +343,9 @@ L03Variable:
 
 This specializes the Universal Variable Registry object for L03 while preserving its source-aligned dimensions.
 
----
+______________________________________________________________________
 
-# 4. Typed Inputs
+## 4. Typed Inputs
 
 Candidate L03 input variables:
 
@@ -398,9 +398,9 @@ L03InputVariables:
 
 These symbols are proposed convenience symbols, not recovered canonical L03 notation.
 
----
+______________________________________________________________________
 
-# 5. Typed Outputs
+## 5. Typed Outputs
 
 Candidate outputs:
 
@@ -468,9 +468,9 @@ P_star != COMMITTED_PERCEPT_STATE
 
 unless an authorized control plane performs the commit.
 
----
+______________________________________________________________________
 
-# 6. Core State Variables
+## 6. Core State Variables
 
 Candidate state vector:
 
@@ -521,9 +521,9 @@ Expanded registry:
 | `Gap_t`    | unresolved gaps         | `GapState[]`          | EPISTEMIC      |
 | `Fail_t`   | active failures         | `FailureState[]`      | CONTROL        |
 
----
+______________________________________________________________________
 
-# 7. Observation Variables
+## 7. Observation Variables
 
 Observation variables MUST retain source semantics.
 
@@ -583,9 +583,9 @@ MUST NOT
 be silently replaced by interpretation(P).
 ```
 
----
+______________________________________________________________________
 
-# 8. Attention Variables
+## 8. Attention Variables
 
 Candidate attention variables:
 
@@ -616,9 +616,9 @@ a_i != evidence_strength_i
 
 Attention may affect processing allocation without automatically changing epistemic status.
 
----
+______________________________________________________________________
 
-# 9. Feature Variables
+## 9. Feature Variables
 
 Candidate:
 
@@ -659,9 +659,9 @@ retain_provenance(parents(F_i))
 
 This directly follows the Universal Variable Registry requirement that derived variables retain parent provenance.
 
----
+______________________________________________________________________
 
-# 10. Relation Variables
+## 10. Relation Variables
 
 Candidate relation tensor:
 
@@ -702,9 +702,9 @@ Hard boundary:
 CO_OCCURRENCE != CAUSATION
 ```
 
----
+______________________________________________________________________
 
-# 11. Binding Variables
+## 11. Binding Variables
 
 Candidate:
 
@@ -751,9 +751,9 @@ BOUND(X,Y) != IDENTICAL(X,Y)
 
 unless identity is separately established.
 
----
+______________________________________________________________________
 
-# 12. Percept Variables
+## 12. Percept Variables
 
 Candidate percept object:
 
@@ -815,9 +815,9 @@ PerceptCandidate:
 
 A percept candidate is not automatically typed as `OBSERVATION`.
 
----
+______________________________________________________________________
 
-# 13. Competing-Hypothesis Variables
+## 13. Competing-Hypothesis Variables
 
 ```yaml
 CompetingPerceptSet:
@@ -857,9 +857,9 @@ NoDiscriminator
 Preserve(COMPETING)
 ```
 
----
+______________________________________________________________________
 
-# 14. Memory Variables
+## 14. Memory Variables
 
 Candidate:
 
@@ -887,9 +887,9 @@ RETRIEVED != VALID
 REMEMBERED != OBSERVED_NOW
 ```
 
----
+______________________________________________________________________
 
-# 15. H/M/L Variables
+## 15. H/M/L Variables
 
 Candidate scale variable:
 
@@ -925,9 +925,9 @@ T_ML : M → L
 
 All are `AMOS_MODEL` until canonical L03 transforms are recovered.
 
----
+______________________________________________________________________
 
-# 16. Provenance Variables
+## 16. Provenance Variables
 
 ```text
 Prov_src    = direct source provenance
@@ -949,9 +949,9 @@ DERIVED_WITHOUT_RECOVERABLE_PARENT_PROVENANCE
 QUARANTINE | UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 17. Uncertainty Variables
+## 17. Uncertainty Variables
 
 Candidate vector:
 
@@ -978,9 +978,9 @@ U_L03 → one scalar
 
 when doing so hides a load-bearing uncertainty dimension.
 
----
+______________________________________________________________________
 
-# 18. Confidence Variables
+## 18. Confidence Variables
 
 ```text
 Conf_obs
@@ -995,20 +995,20 @@ Conf_regime
 
 Source-aligned confidence ceiling:
 
-[
+\[
 Conf(C)
-\leq
-\min Conf(\text{load-bearing premises})
-]
+\\leq
+\\min Conf(\\text{load-bearing premises})
+\]
 
 unless independently revalidated.
 
 Candidate percept specialization:
 
-[
+\[
 Conf(P)
-\leq
-\min(
+\\leq
+\\min(
 Conf(O),
 Conf(F),
 Conf(Rel),
@@ -1017,13 +1017,13 @@ Conf(Prov),
 Conf(Scope),
 Conf(Regime)
 )
-]
+\]
 
 `AMOS_MODEL`.
 
----
+______________________________________________________________________
 
-# 19. Freshness Variables
+## 19. Freshness Variables
 
 ```yaml
 FreshnessState:
@@ -1059,9 +1059,9 @@ STALE != CURRENT
 
 and stale load-bearing variables require revalidation before reuse where freshness matters.
 
----
+______________________________________________________________________
 
-# 20. Scope / Regime Variables
+## 20. Scope / Regime Variables
 
 Candidate:
 
@@ -1089,9 +1089,9 @@ Regime =
 
 Variables inherited from one envelope MUST NOT silently cross into another incompatible envelope.
 
----
+______________________________________________________________________
 
-# 21. Dependency Variables
+## 21. Dependency Variables
 
 Candidate dependency edge:
 
@@ -1140,9 +1140,9 @@ E = (
 )
 ```
 
----
+______________________________________________________________________
 
-# 22. Equation Binding
+## 22. Equation Binding
 
 Every equation involving L03 variables SHOULD declare bindings explicitly.
 
@@ -1165,9 +1165,9 @@ UNBOUND_VARIABLE
 
 and SHOULD fail validation when load-bearing.
 
----
+______________________________________________________________________
 
-# 23. Alias Rules
+## 23. Alias Rules
 
 Aliases are permitted only where semantic identity and scope equivalence are established.
 
@@ -1196,9 +1196,9 @@ scope
 provenance
 ```
 
----
+______________________________________________________________________
 
-# 24. Operators
+## 24. Operators
 
 Candidate variable-management operators:
 
@@ -1229,32 +1229,32 @@ PROPOSE_STATE_UPDATE
 
 These are model-level names.
 
----
+______________________________________________________________________
 
-# 25. Variable Admission Gate
+## 25. Variable Admission Gate
 
 Source-aligned general gate:
 
-[
-Admit(x)=\bigwedge_i I_i(x)
-]
+\[
+Admit(x)=\\bigwedge_i I_i(x)
+\]
 
 Candidate L03 specialization:
 
-[
+\[
 Admit(V)=
 TypeValid
-\land
+\\land
 SemanticDefined
-\land
+\\land
 ScopeValid
-\land
+\\land
 RegimeValid
-\land
+\\land
 ProvenanceSufficient
-\land
+\\land
 NoHardConflict
-]
+\]
 
 `AMOS_MODEL`.
 
@@ -1270,15 +1270,15 @@ For derived variables:
 AND ParentLineageRecoverable
 ```
 
----
+______________________________________________________________________
 
-# 26. Governed State Transition
+## 26. Governed State Transition
 
 The Universal Variable Registry provides:
 
-[
-X_{t+1}=P_I(F(X_t,U_t,E_t,M_t))
-]
+\[
+X\_{t+1}=P_I(F(X_t,U_t,E_t,M_t))
+\]
 
 as an AMOS formal contract.
 
@@ -1299,9 +1299,9 @@ memory
 
 This does not establish a biological law of perception.
 
----
+______________________________________________________________________
 
-# 27. Variable Invariants
+## 27. Variable Invariants
 
 ```text
 VAR-L03-001
@@ -1395,9 +1395,9 @@ VAR-L03-030
 UNKNOWN/GAP != VALID DEFAULT.
 ```
 
----
+______________________________________________________________________
 
-# 28. Dependencies
+## 28. Dependencies
 
 ## Upstream
 
@@ -1444,9 +1444,9 @@ AMOS Control Plane
 AMOS Context / Memory Governance
 ```
 
----
+______________________________________________________________________
 
-# 29. H/M/L Applicability
+## 29. H/M/L Applicability
 
 ## L — Local variables
 
@@ -1492,9 +1492,9 @@ V_M or V_H
 without explicit transform.
 ```
 
----
+______________________________________________________________________
 
-# 30. Control-Plane Requirements
+## 30. Control-Plane Requirements
 
 The variable layer may define and propose variable transformations.
 
@@ -1531,9 +1531,9 @@ REVALIDATE:
   authority
 ```
 
----
+______________________________________________________________________
 
-# 31. Agents
+## 31. Agents
 
 Candidate agents:
 
@@ -1556,9 +1556,9 @@ AGENT_CAN_EDIT_VARIABLE
 AGENT_AUTHORIZED_TO_COMMIT_VARIABLE
 ```
 
----
+______________________________________________________________________
 
-# 32. Skills
+## 32. Skills
 
 Relevant capability families:
 
@@ -1577,9 +1577,9 @@ AMOS Repair Architecture
 
 A Skill's existence establishes addressable capability only.
 
----
+______________________________________________________________________
 
-# 33. Workflow
+## 33. Workflow
 
 ```text
 RECEIVE VARIABLE
@@ -1623,9 +1623,9 @@ CONTROL-PLANE REVALIDATION
 COMMIT OR REJECT
 ```
 
----
+______________________________________________________________________
 
-# 34. Protocols
+## 34. Protocols
 
 Candidate protocols:
 
@@ -1648,9 +1648,9 @@ L03_VAR_STATE_PROPOSAL
 
 Canonical protocol names remain `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
-# 35. Evidence / Provenance
+## 35. Evidence / Provenance
 
 Every material variable SHOULD retain:
 
@@ -1688,9 +1688,9 @@ VariableProvenance:
 
 Derived variables without sufficient lineage cannot receive stronger epistemic status merely because their values appear plausible.
 
----
+______________________________________________________________________
 
-# 36. Failure Modes
+## 36. Failure Modes
 
 ```text
 VFM-001
@@ -1784,9 +1784,9 @@ VFM-030
 Canonical variable invented to fill a corpus gap.
 ```
 
----
+______________________________________________________________________
 
-# 37. Repair / Recovery
+## 37. Repair / Recovery
 
 Candidate repair sequence:
 
@@ -1828,15 +1828,15 @@ CONTROL-PLANE REVALIDATION
 
 The source-aligned selective invalidation rule is:
 
-[
-Invalid(p)\Rightarrow invalidate(descendants(p))
-]
+\[
+Invalid(p)\\Rightarrow invalidate(descendants(p))
+\]
 
 Global recomputation should not be the default where dependency closure permits local repair.
 
----
+______________________________________________________________________
 
-# 38. Tests / Validators
+## 38. Tests / Validators
 
 Minimum variable test suite:
 
@@ -1916,9 +1916,9 @@ Expected: ADDRESSABLE/DEFINED, not IMPLEMENTED.
 
 No execution evidence for these proposed L03 tests is established here.
 
----
+______________________________________________________________________
 
-# 39. Falsifiers
+## 39. Falsifiers
 
 Revise this model if direct canonical evidence establishes:
 
@@ -1952,9 +1952,9 @@ different authority semantics
 
 A canonical runtime demonstrating incompatible variable behavior should invalidate only affected model mappings and their descendants.
 
----
+______________________________________________________________________
 
-# 40. Gap Matrix
+## 40. Gap Matrix
 
 ```yaml
 gap_status:
@@ -2050,9 +2050,9 @@ gap_status:
     status: CRITICAL_GAP
 ```
 
----
+______________________________________________________________________
 
-# 41. RSCF Completion State
+## 41. RSCF Completion State
 
 ```yaml
 rscf:
@@ -2169,9 +2169,9 @@ rscf:
     into canon.
 ```
 
----
+______________________________________________________________________
 
-# 42. Completion State
+## 42. Completion State
 
 ```yaml
 completion_state:
@@ -2252,9 +2252,9 @@ completion_state:
     MODEL
 ```
 
----
+______________________________________________________________________
 
-# 43. Hard Boundaries
+## 43. Hard Boundaries
 
 ```text
 PLACEHOLDER != IMPLEMENTED
@@ -2314,15 +2314,15 @@ MUTABILITY != AUTHORITY
 PROPOSED UPDATE != COMMITTED STATE
 ```
 
----
+______________________________________________________________________
 
-# 44. Governing Variable Contract
+## 44. Governing Variable Contract
 
 > **`L03_PERCEPT_FORMATION` SHALL represent material state through typed, semantically defined, scope-bound, regime-aware, provenance-preserving variables. Variable identity SHALL NOT be inferred from symbol or label equality; type or unit mismatch SHALL fail composition where applicable; unknown semantics SHALL block load-bearing composition; derived variables SHALL retain parent provenance; aliases SHALL NOT erase version, regime, scope, observer, or provenance differences; and cross-scale mappings SHALL require explicit transforms. Observation, attention, memory, feature, relation, binding, percept, uncertainty, and authority variables SHALL remain epistemically distinct. Attention SHALL NOT function as truth, memory SHALL NOT function as current observation, relation SHALL NOT function as causal proof, binding SHALL NOT function as identity proof, and registry presence SHALL NOT function as empirical validation. Invalid load-bearing variables SHALL selectively invalidate dependent descendants while preserving unaffected state. Variable transformations MAY generate proposals, but durable state mutation SHALL remain subject to control-plane authority and commit-time revalidation. `UNKNOWN/GAP` SHALL remain explicit and SHALL NOT be converted into a passing default.**
 
----
+______________________________________________________________________
 
-# 45. Canon Boundary
+## 45. Canon Boundary
 
 ```text
 SOURCE / ARCHITECTURE-ALIGNED:
@@ -2484,23 +2484,26 @@ EMPIRICAL PERCEPTUAL VALIDITY:
 NOT ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: l03_percept_formation_primitives_cognitive_matrix_variables
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L03_PERCEPT_FORMATION/L03_PERCEPT_FORMATION_PRIMITIVES_COGNITIVE_MATRIX_VARIABLES.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L03_PERCEPT_FORMATION/L03_PERCEPT_FORMATION_MOC|L03_PERCEPT_FORMATION_MOC]]
-

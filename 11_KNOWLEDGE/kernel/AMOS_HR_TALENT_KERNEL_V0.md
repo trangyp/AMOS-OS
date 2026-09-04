@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: AMOS HR TALENT KERNEL V0
 tags:
-- canon-group/tech-ai
-- canon/framework
-- rscf/claim
-- rscf/provenance
-- rscf/state/source-claim
-- topic/amos-hr-talent-kernel-v0
-- kernel
+  - canon-group/tech-ai
+  - canon/framework
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - topic/amos-hr-talent-kernel-v0
+  - kernel
 type: data
 source: 11_KNOWLEDGE/kernel
 rscf:
@@ -356,6 +359,6 @@ rscf:
 **Related:** [[11_KNOWLEDGE/kernel/AMOS_CLINICAL_RESEARCH_KERNEL|AMOS_CLINICAL_RESEARCH_KERNEL]] · [[11_KNOWLEDGE/kernel/AMOS_TECH_KERNEL_EXPANSION|AMOS_TECH_KERNEL_EXPANSION]] · [[11_KNOWLEDGE/kernel/ORG_GOVERNANCE_KERNEL|ORG_GOVERNANCE_KERNEL]] · [[11_KNOWLEDGE/kernel/AMOS_GOVERNANCE_RISK_POLICY_KERNEL_V0|AMOS_GOVERNANCE_RISK_POLICY_KERNEL_V0]]
 ```
 
----
-**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]
+______________________________________________________________________
 
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]

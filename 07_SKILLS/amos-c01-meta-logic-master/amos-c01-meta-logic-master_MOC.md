@@ -1,12 +1,15 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Amos-C01-Meta-Logic-Master MOC
 type: moc
 source: 07_SKILLS/amos-c01-meta-logic-master
 tags:
-- amos-c01-meta-logic-master
-- type/skill
-- agent-template
-- skill
+  - amos-c01-meta-logic-master
+  - type/skill
+  - agent-template
+  - skill
 moc: true
 rscf:
   state: DERIVED
@@ -22,19 +25,24 @@ rscf:
 
 ## Files
 
+- [[07_SKILLS/amos-c01-meta-logic-master/references/detailed-references|detailed-references]]
+
 - AGENT_TEMPLATE
 - SKILL
 
 ## Subdirectories
 
 - `agents/` (no markdown)
-- references_MOC — references
+- [[07_SKILLS/amos-c01-meta-logic-master/references/references_MOC|references_MOC]] — references
 
----
----
-**References MOC:** [[07_SKILLS/spreadsheets/references/references_MOC|references_MOC]]
+______________________________________________________________________
 
----
+______________________________________________________________________
+
+**References MOC:** [[07_SKILLS/amos-c01-meta-logic-master/references/references_MOC|references_MOC]]
+
+______________________________________________________________________
+
 **Skill:** [[07_SKILLS/amos-c01-meta-logic-master/SKILL|SKILL]]
 
 **Agent Template:** [[07_SKILLS/amos-c01-meta-logic-master/AGENT_TEMPLATE|AGENT_TEMPLATE]]

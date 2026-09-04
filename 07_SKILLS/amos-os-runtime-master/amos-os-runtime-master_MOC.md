@@ -1,12 +1,15 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Amos-Os-Runtime-Master MOC
 type: moc
 source: 07_SKILLS/amos-os-runtime-master
 tags:
-- amos-os-runtime-master
-- type/skill
-- agent-template
-- skill
+  - amos-os-runtime-master
+  - type/skill
+  - agent-template
+  - skill
 moc: true
 rscf:
   state: DERIVED
@@ -28,13 +31,16 @@ rscf:
 ## Subdirectories
 
 - `agents/` (no markdown)
-- references_MOC — references
+- [[07_SKILLS/amos-os-runtime-master/references/references_MOC|references_MOC]] — references
 
----
----
-**References MOC:** [[07_SKILLS/spreadsheets/references/references_MOC|references_MOC]]
+______________________________________________________________________
 
----
+______________________________________________________________________
+
+**References MOC:** [[07_SKILLS/amos-os-runtime-master/references/references_MOC|references_MOC]]
+
+______________________________________________________________________
+
 **Skill:** [[07_SKILLS/amos-os-runtime-master/SKILL|SKILL]]
 
 **Agent Template:** [[07_SKILLS/amos-os-runtime-master/AGENT_TEMPLATE|AGENT_TEMPLATE]]

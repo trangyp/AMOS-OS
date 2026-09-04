@@ -1,10 +1,13 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: 92 Comparison Benchmark Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/92_COMPARISON_BENCHMARK_MODES
 tags:
-- 92-comparison-benchmark-modes
-- canon/control-plane
+  - 92-comparison-benchmark-modes
+  - canon/control-plane
 moc: true
 rscf:
   state: DERIVED
@@ -24,5 +27,6 @@ rscf:
 - [[03_CONTROL_PLANE/09_COMMIT/92_COMPARISON_BENCHMARK_MODES/COMPARISON_BENCHMARK_MODES_COMMIT_CONTROL_PLANE_MODE_FAMILY_SPEC|COMPARISON_BENCHMARK_MODES_COMMIT_CONTROL_PLANE_MODE_FAMILY_SPEC]]
 - [[03_CONTROL_PLANE/09_COMMIT/92_COMPARISON_BENCHMARK_MODES/COMPARISON_BENCHMARK_MODES_COMMIT_CONTROL_PLANE_README|COMPARISON_BENCHMARK_MODES_COMMIT_CONTROL_PLANE_README]]
 
----
+______________________________________________________________________
+
 **Parent:** [[03_CONTROL_PLANE/09_COMMIT/09_COMMIT_MOC|09_COMMIT_MOC]]

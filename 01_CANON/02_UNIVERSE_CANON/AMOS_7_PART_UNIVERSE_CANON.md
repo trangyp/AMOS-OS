@@ -3,8 +3,7 @@ type: canon
 source: 01_CANON/02_UNIVERSE_CANON
 artifact_id: AMOS-7-PART-UNIVERSE-CANON
 name: AMOS_7_PART_UNIVERSE_CANON
-title: AMOS 7-Part Universe Canon — Universal Partition, Boundary, and Integration
-  Model
+title: AMOS 7-Part Universe Canon — Universal Partition, Boundary, and Integration Model
 document_version: 2.0.0
 canon_version: 4.4
 amos_core_target: v4.4
@@ -18,45 +17,44 @@ steward: Trang Phan
 created: 2026-08-25
 updated: 2026-08-25
 tags:
-- amos
-- canon
-- universe
-- amos-os
-- amos-core
-- amos-core-v4-4
-- seven-part-universe
-- architecture
-- system-boundary
-- decomposition
-- integration
-- authority
-- provenance
-- state
-- cognition
-- execution
-- environment
-- governance
-- rscf
-- hml
-- canon-group/tech-ai
-- canon/framework
-- canon/model
-- rscf/claim
-- rscf/provenance
-- rscf/state/derived
-- topic/amos-7-part-universe
-- readme
-- neural-network
-- authoritative-state
-- placement-rules
-- amos-core-laws
-- law-hierarchy
-- amos-full-brain-os-architecture
-- operating-model
-- cognitive-matrix-architecture
+  - amos
+  - canon
+  - universe
+  - amos-os
+  - amos-core
+  - amos-core-v4-4
+  - seven-part-universe
+  - architecture
+  - system-boundary
+  - decomposition
+  - integration
+  - authority
+  - provenance
+  - state
+  - cognition
+  - execution
+  - environment
+  - governance
+  - rscf
+  - hml
+  - canon-group/tech-ai
+  - canon/framework
+  - canon/model
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/derived
+  - topic/amos-7-part-universe
+  - readme
+  - neural-network
+  - authoritative-state
+  - placement-rules
+  - amos-core-laws
+  - law-hierarchy
+  - amos-full-brain-os-architecture
+  - operating-model
+  - cognitive-matrix-architecture
 aliases:
-- AMOS 7-Part Universe - AMOS Seven-Part Universe - AMOS Universe Canon - AMOS Universal
-  Parti
+  - AMOS 7-Part Universe - AMOS Seven-Part Universe - AMOS Universe Canon - AMOS Universal Parti
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -65,18 +63,21 @@ rscf:
 ---
 
 # AMOS 7-Part Universe Canon
+
 **Origin architect / steward:** Trang Phan
+
 > **Status:** `ACTIVE_CANON_CANDIDATE`
 > **AMOS Core target:** `v4.4`
 > **Conclusion class:** `AMOS_MODEL`
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: universe_canon
----
+> rscf:
+> state: SOURCE_CLAIM
+> claim_class: SOURCE_CLAIM
+> provenance: AMOS_corpus
+> scope: universe_canon
 
-# AMOS 7-Part Universe Canon — Universal Partition, Boundary, and Integration Model
+______________________________________________________________________
+
+## AMOS 7-Part Universe Canon — Universal Partition, Boundary, and Integration Model
 
 ## 0. Purpose
 
@@ -85,12 +86,12 @@ The **AMOS 7-Part Universe Canon** defines a canonical seven-part decomposition 
 It provides a stable conceptual partition between:
 
 1. **Reality / Environment**
-2. **Sense / Evidence**
-3. **Knowledge / Memory**
-4. **Cognition / Models**
-5. **Governance / Authority**
-6. **Execution / Agency**
-7. **Evolution / Learning**
+1. **Sense / Evidence**
+1. **Knowledge / Memory**
+1. **Cognition / Models**
+1. **Governance / Authority**
+1. **Execution / Agency**
+1. **Evolution / Learning**
 
 The seven parts are not merely repository folders.
 
@@ -117,7 +118,7 @@ The architecture is recursive rather than strictly linear.
 
 Every transition remains subject to provenance, scope, regime, authority, and integrity constraints.
 
----
+______________________________________________________________________
 
 ## 1. Canonical Seven-Part Model
 
@@ -166,7 +167,7 @@ Every transition remains subject to provenance, scope, regime, authority, and in
                        └──────────────↺
 ```
 
----
+______________________________________________________________________
 
 ## 2. Core Separation Laws
 
@@ -198,7 +199,7 @@ UNKNOWN/GAP != PASS
 
 These distinctions are load-bearing.
 
----
+______________________________________________________________________
 
 ## 3. P1 — Reality / Environment
 
@@ -227,7 +228,7 @@ REALITY
 INTERNAL_MODEL_OF_REALITY
 ```
 
----
+______________________________________________________________________
 
 ### Boundary
 
@@ -245,7 +246,7 @@ unless supported through valid inference.
 
 Inference remains inference.
 
----
+______________________________________________________________________
 
 ## 4. P2 — Sense / Evidence
 
@@ -280,7 +281,7 @@ DECISION
 UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 ### Evidence Firewall
 
@@ -302,7 +303,7 @@ AUTHORITATIVE
 
 Evidence should retain material provenance.
 
----
+______________________________________________________________________
 
 ## 5. P3 — Knowledge / Memory
 
@@ -324,7 +325,7 @@ H/M/L KNOWLEDGE NETWORK
 HISTORICAL STATE
 ```
 
----
+______________________________________________________________________
 
 ### Knowledge Firewall
 
@@ -346,7 +347,7 @@ AUTHORITATIVE
 
 Knowledge retains epistemic class.
 
----
+______________________________________________________________________
 
 ## 6. Fractal Knowledge Structure
 
@@ -378,7 +379,7 @@ DO_NOT_LOAD_UNLESS_REQUIRED
 
 unless needed to resolve a load-bearing uncertainty.
 
----
+______________________________________________________________________
 
 ## 7. P4 — Cognition / Models
 
@@ -402,7 +403,7 @@ CONTRADICTION DETECTION
 DECISION SUPPORT
 ```
 
----
+______________________________________________________________________
 
 ## 8. RSCF as a Cognitive Structure
 
@@ -442,7 +443,7 @@ DEPENDENT CLAIMS INVALIDATED
 
 while unrelated branches remain reusable.
 
----
+______________________________________________________________________
 
 ## 9. Epistemic Conclusion Classes
 
@@ -467,7 +468,7 @@ VERIFIED
 
 without appropriate validation.
 
----
+______________________________________________________________________
 
 ## 10. Competing Hypotheses
 
@@ -489,7 +490,7 @@ not artificial convergence.
 
 The preferred next action is the cheapest high-information discriminating test.
 
----
+______________________________________________________________________
 
 ## 11. Causal Firewall
 
@@ -517,7 +518,7 @@ ANALOGY != CAUSATION
 STRUCTURAL SIMILARITY != CAUSATION
 ```
 
----
+______________________________________________________________________
 
 ## 12. P5 — Governance / Authority
 
@@ -542,7 +543,7 @@ FINALIZATION
 ROLLBACK AUTHORIZATION
 ```
 
----
+______________________________________________________________________
 
 ## 13. Governance Firewall
 
@@ -560,7 +561,7 @@ EXECUTABLE != AUTHORIZED
 
 This prevents cognition and execution capability from becoming self-authorizing.
 
----
+______________________________________________________________________
 
 ## 14. Authority Is Typed
 
@@ -585,7 +586,7 @@ AUTHORITY(SCOPE_A)
 AUTHORITY(SCOPE_B)
 ```
 
----
+______________________________________________________________________
 
 ## 15. P6 — Execution / Agency
 
@@ -608,7 +609,7 @@ ROUTERS
 EFFECTORS
 ```
 
----
+______________________________________________________________________
 
 ## 16. Execution Hierarchy
 
@@ -640,7 +641,7 @@ PROTOCOL
 
 defines interaction contracts.
 
----
+______________________________________________________________________
 
 ## 17. Execution Firewall
 
@@ -668,7 +669,7 @@ EXECUTION_COMPLETE
 CAUSAL_FINALITY
 ```
 
----
+______________________________________________________________________
 
 ## 18. P7 — Evolution / Learning
 
@@ -698,7 +699,7 @@ Evolution is governed change.
 
 It is not uncontrolled self-modification.
 
----
+______________________________________________________________________
 
 ## 19. Evolution Firewall
 
@@ -726,7 +727,7 @@ CANONICAL
 
 Any optimization must preserve integrity.
 
----
+______________________________________________________________________
 
 ## 20. Anti-Regression Law
 
@@ -751,7 +752,7 @@ ROLLBACK
 
 or preserve the candidate as non-authoritative.
 
----
+______________________________________________________________________
 
 ## 21. Seven-Part Transformation Chain
 
@@ -792,7 +793,7 @@ Not every operation requires every part.
 
 The smallest sufficient path should be used.
 
----
+______________________________________________________________________
 
 ## 22. Feedback Is Typed
 
@@ -816,7 +817,7 @@ EXECUTION_RESULT
 TRUTH
 ```
 
----
+______________________________________________________________________
 
 ## 23. Seven-Part Input/Output Contracts
 
@@ -830,7 +831,7 @@ TRUTH
 | P6 Execution  | authorized intent          | actions / effects / traces                  |
 | P7 Evolution  | results / tests / feedback | validated updates / repair / supersession   |
 
----
+______________________________________________________________________
 
 ## 24. Cross-Cutting Substrates
 
@@ -850,7 +851,7 @@ These are not an eighth universe part.
 
 They cross multiple parts.
 
----
+______________________________________________________________________
 
 ## 25. Provenance Substrate
 
@@ -868,7 +869,7 @@ WHAT TRANSFORMATIONS OCCURRED?
 
 Provenance must survive transitions where material.
 
----
+______________________________________________________________________
 
 ## 26. State Substrate
 
@@ -885,7 +886,7 @@ HISTORICAL STATE
 
 State class must not be silently changed.
 
----
+______________________________________________________________________
 
 ## 27. Security Substrate
 
@@ -907,7 +908,7 @@ EXTERNAL EFFECT CONTROL
 
 Security is not merely an execution concern.
 
----
+______________________________________________________________________
 
 ## 28. Observability Substrate
 
@@ -934,7 +935,7 @@ OBSERVED_EXECUTION
 VALID_EXECUTION
 ```
 
----
+______________________________________________________________________
 
 ## 29. Schema Substrate
 
@@ -959,7 +960,7 @@ SCHEMA_VALID
 TRUE
 ```
 
----
+______________________________________________________________________
 
 ## 30. Tests Substrate
 
@@ -980,7 +981,7 @@ REPRODUCIBILITY
 
 Passing a bounded test suite does not establish universal correctness.
 
----
+______________________________________________________________________
 
 ## 31. Repository Mapping
 
@@ -1041,7 +1042,7 @@ SEMANTIC PART
 DIRECTORY
 ```
 
----
+______________________________________________________________________
 
 ## 32. Canon / Universe Relationship
 
@@ -1067,7 +1068,7 @@ CANON
 COMPLETE SYSTEM
 ```
 
----
+______________________________________________________________________
 
 ## 33. H/M/L Recursion
 
@@ -1096,7 +1097,7 @@ H: P4 COGNITION
 
 The same fractal principle may apply to every part.
 
----
+______________________________________________________________________
 
 ## 34. Recursive Universe Law
 
@@ -1118,7 +1119,7 @@ This recursion is a structural model.
 
 It does not imply that every subsystem must instantiate seven physical modules.
 
----
+______________________________________________________________________
 
 ## 35. Atomic Multi-RSCF Reasoning
 
@@ -1142,7 +1143,7 @@ PARTIAL DEPENDENCY CLOSURE
 FULL DECISION SUPPORT
 ```
 
----
+______________________________________________________________________
 
 ## 36. Provenance Independence
 
@@ -1167,7 +1168,7 @@ COUNT(INDEPENDENT_ORIGINS)
 
 Independence must be demonstrated where load-bearing.
 
----
+______________________________________________________________________
 
 ## 37. Sybil Hardening
 
@@ -1189,7 +1190,7 @@ MANY INDEPENDENT CONFIRMATIONS
 
 without evidence of independence.
 
----
+______________________________________________________________________
 
 ## 38. Freshness
 
@@ -1207,7 +1208,7 @@ FRESHNESS(P5)
 
 Each load-bearing dependency may require its own freshness bound.
 
----
+______________________________________________________________________
 
 ## 39. Regime Firewall
 
@@ -1235,7 +1236,7 @@ DECISION
 
 without invalidating unrelated historical evidence.
 
----
+______________________________________________________________________
 
 ## 40. Scope Firewall
 
@@ -1255,7 +1256,7 @@ scope:
 
 No silent generalization is permitted outside the supported envelope.
 
----
+______________________________________________________________________
 
 ## 41. Confidence Ceiling
 
@@ -1273,7 +1274,7 @@ MIN(
 
 subject to valid independent revalidation.
 
----
+______________________________________________________________________
 
 ## 42. Sensitivity
 
@@ -1293,7 +1294,7 @@ Fragile conclusions remain:
 CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
 ## 43. Adaptive Complexity
 
@@ -1322,7 +1323,7 @@ PROVENANCE RISK
 AUTHORITY AMBIGUITY
 ```
 
----
+______________________________________________________________________
 
 ## 44. Fast Path
 
@@ -1354,7 +1355,7 @@ FAST
 WEAK
 ```
 
----
+______________________________________________________________________
 
 ## 45. Coordination Avoidance
 
@@ -1374,7 +1375,7 @@ LOCAL FINALIZATION MAY BE SUFFICIENT
 
 Independence must be demonstrated rather than assumed.
 
----
+______________________________________________________________________
 
 ## 46. Causal Epoch Finality
 
@@ -1394,7 +1395,7 @@ FINALITY
 
 Material unresolved dependencies prevent finality.
 
----
+______________________________________________________________________
 
 ## 47. Failure Recovery
 
@@ -1420,7 +1421,7 @@ LOCAL FAILURE
 GLOBAL INVALIDATION
 ```
 
----
+______________________________________________________________________
 
 ## 48. Seven-Part Failure Taxonomy
 
@@ -1436,7 +1437,7 @@ GLOBAL INVALIDATION
 
 Failure type determines recovery path.
 
----
+______________________________________________________________________
 
 ## 49. Gap Classes
 
@@ -1461,7 +1462,7 @@ EXPLANATORY
 COSMETIC
 ```
 
----
+______________________________________________________________________
 
 ## 50. Universe Integrity Gate
 
@@ -1490,7 +1491,7 @@ P7 → SYSTEM UPDATE
 VALIDATION + ANTI-REGRESSION + PROVENANCE
 ```
 
----
+______________________________________________________________________
 
 ## 51. Seven-Part Minimal Invariants
 
@@ -1536,7 +1537,7 @@ VALIDATION + ANTI-REGRESSION + PROVENANCE
 7U-020 REGIME SHIFT REQUIRES REVALIDATION WHERE MATERIAL
 ```
 
----
+______________________________________________________________________
 
 ## 52. Universe Transition Contract
 
@@ -1574,7 +1575,7 @@ transition:
   trace:
 ```
 
----
+______________________________________________________________________
 
 ## 53. Example — Evidence to Action
 
@@ -1613,7 +1614,7 @@ automatically become:
 VERIFIED CAUSE
 ```
 
----
+______________________________________________________________________
 
 ## 54. Example — Canon Evolution
 
@@ -1645,7 +1646,7 @@ NEW IDEA
 NEW CANON
 ```
 
----
+______________________________________________________________________
 
 ## 55. Seven-Part Universe and AMOS OS Planes
 
@@ -1667,7 +1668,7 @@ SYSTEM PLANE
 
 may therefore form a matrix rather than a single hierarchy.
 
----
+______________________________________________________________________
 
 ## 56. Cognitive Matrix Relationship
 
@@ -1693,7 +1694,7 @@ MATRIX CONNECTION
 SEMANTIC IDENTITY
 ```
 
----
+______________________________________________________________________
 
 ## 57. AMOS v4.4 Alignment
 
@@ -1733,7 +1734,7 @@ This is an architectural mapping.
 
 It does not independently prove that every mechanism is fully implemented in the runtime.
 
----
+______________________________________________________________________
 
 ## 58. RSCF Node
 
@@ -1794,7 +1795,7 @@ does_not_establish:
   - equivalence between semantic parts and repository directories
 ```
 
----
+______________________________________________________________________
 
 ## 59. Canon Status Boundary
 
@@ -1820,7 +1821,7 @@ EMPIRICALLY VERIFIED ONTOLOGY OF REALITY
 
 This distinction is mandatory.
 
----
+______________________________________________________________________
 
 ## 60. Promotion Gate
 
@@ -1865,7 +1866,7 @@ COMPETING
 
 rather than being silently filled.
 
----
+______________________________________________________________________
 
 ## 61. Changelog
 
@@ -1911,7 +1912,7 @@ Added:
 
 Initial placeholder reserved the canonical AMOS OS location.
 
----
+______________________________________________________________________
 
 ## 62. Canonical Summary
 
@@ -1984,26 +1985,30 @@ LEARNING != CANON
 UNKNOWN/GAP != PASS
 ```
 
----
+______________________________________________________________________
 
 **Related:** README|AMOS OS · [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|MOC · [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]|Architecture · [[00_ROOT/SYSTEM_MAP|SYSTEM_MAP]]|System Map · [[00_ROOT/NEURAL_NETWORK|NEURAL_NETWORK]]|AMOS Neural Network · [[00_ROOT/AUTHORITATIVE_STATE|AUTHORITATIVE_STATE]]|Authoritative State · [[00_ROOT/PLACEMENT_RULES|PLACEMENT_RULES]]|Placement Rules · AMOS Canon · [[01_CANON/00_INDEX/CANON_MAP|CANON_MAP]]|Canon Map · [[01_CANON/01_CORE_LAWS/AMOS_CORE_LAWS|AMOS Core Laws]] · [[01_CANON/01_CORE_LAWS/INVARIANT_REGISTRY|INVARIANT_REGISTRY]]|Invariant Registry · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]|Law Hierarchy · [[02_KERNEL/00_INDEX/KERNEL_MAP|KERNEL_MAP]]|Kernel Map · [[03_CONTROL_PLANE/00_INDEX/CONTROL_PLANE_MAP|CONTROL_PLANE_MAP]]|Control Plane Map · [[04_RUNTIME/00_INDEX/RUNTIME_MAP|RUNTIME_MAP]]|Runtime Map · [[05_COGNITIVE_ORGANISM/00_INDEX/COGNITIVE_ORGANISM_MAP|COGNITIVE_ORGANISM_MAP]]|Cognitive Organism · [[06_AGENTS/00_INDEX/AGENT_MAP|AGENT_MAP]]|Agents · [[07_SKILLS/00_INDEX/SKILL_MAP|SKILL_MAP]]|Skills · [[08_WORKFLOWS/00_INDEX/WORKFLOW_MAP|WORKFLOW_MAP]]|Workflows · [[10_MEMORY/00_INDEX/MEMORY_MEMORY_MAP|MEMORY_MEMORY_MAP]]|Memory · [[11_KNOWLEDGE/AMOS_FULL_BRAIN_OS_ARCHITECTURE|AMOS Full Brain OS Architecture]] · [[12_STATE/00_INDEX/STATE_STATE_MAP|STATE_STATE_MAP]]|State · [[13_MODELS/00_INDEX/MODEL_MAP|MODEL_MAP]]|Models · [[14_TOOLS/00_INDEX/TOOL_MAP|TOOL_MAP]]|Tools · [[17_OBSERVABILITY/00_INDEX/OBSERVABILITY_OBSERVABILITY_MAP|OBSERVABILITY_OBSERVABILITY_MAP]]|Observability · [[18_SECURITY/00_INDEX/SECURITY_MAP|SECURITY_MAP]]|Security · [[19_TESTS/00_INDEX/TEST_MAP|TEST_MAP]]|Tests · [[20_OPERATIONS/00_INDEX/OPERATIONS_MAP|OPERATIONS_MAP]]|Operations · [[21_DOMAINS/00_INDEX/DOMAIN_ALIAS_MAP|DOMAIN_ALIAS_MAP]]|Domains · [[22_RESEARCH/00_INDEX/INDEX_RESEARCH_README|INDEX_RESEARCH_README]]|Research · [[23_OPERATING_MODEL/00_INDEX/OPERATING_MODEL|OPERATING_MODEL]]|Operating Model · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_ARCHITECTURE|COGNITIVE_MATRIX_ARCHITECTURE]]|Cognitive Matrix
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos_7_part_universe_canon
 node_type: note
 path: 01_CANON/02_UNIVERSE_CANON/AMOS_7_PART_UNIVERSE_CANON.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[01_CANON/02_UNIVERSE_CANON/02_UNIVERSE_CANON_MOC|02_UNIVERSE_CANON_MOC]]

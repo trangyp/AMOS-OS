@@ -12,22 +12,22 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: EVOLUTION
 path: 11_KNOWLEDGE/05_FRAMEWORKS/ASEA_ADAPTIVE_SELF_EVOLUTION_AI.md
 tags:
-- amos-os
-- knowledge
-- vault
-- 05_frameworks
-- asea
-- adaptive_self_evolution_ai
-- self_repair
-- self_evolution
-- lacunarity_tuning
-- anti_hallucination
-- rscf
-- canon_candidate
-- canon/knowledge
-- frai-fractal-reasoning-ai
-- trang-lmh-architecture
-- trang-lacunarity
+  - amos-os
+  - knowledge
+  - vault
+  - 05_frameworks
+  - asea
+  - adaptive_self_evolution_ai
+  - self_repair
+  - self_evolution
+  - lacunarity_tuning
+  - anti_hallucination
+  - rscf
+  - canon_candidate
+  - canon/knowledge
+  - frai-fractal-reasoning-ai
+  - trang-lmh-architecture
+  - trang-lacunarity
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -42,12 +42,12 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - TRANG_FRAMEWORK_UNG_DUNG_VAO_AI_TU_SUA_VA_TU_T
-  - AMOS_CORPUS
+    - TRANG_FRAMEWORK_UNG_DUNG_VAO_AI_TU_SUA_VA_TU_T
+    - AMOS_CORPUS
   scope:
-  - KNOWLEDGE_FRAMEWORKS
-  - AUTONOMOUS_EVOLUTION
-  - SOURCE_DEFINED_ASEA_MODEL
+    - KNOWLEDGE_FRAMEWORKS
+    - AUTONOMOUS_EVOLUTION
+    - SOURCE_DEFINED_ASEA_MODEL
 framework_binding:
   primary:
     name: Trang ASEA (Adaptive Self-Evolution AI)
@@ -55,13 +55,13 @@ framework_binding:
     role: SELF_REPAIRING_AND_SELF_EVOLVING_AI_ARCHITECTURE
   fractal_reasoning:
     artifact:
-    - - FRAI_FRACTAL_REASONING_AI
+      -   - FRAI_FRACTAL_REASONING_AI
   tri_layer_stack:
     artifact:
-    - - TRANG_LMH_ARCHITECTURE
+      -   - TRANG_LMH_ARCHITECTURE
   lacunarity_model:
     artifact:
-    - - TRANG_LACUNARITY
+      -   - TRANG_LACUNARITY
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
@@ -75,9 +75,9 @@ epistemic_boundary:
 
 ASEA models a self-repairing, self-optimizing cognitive architecture structured around recursive $[L, M, H]$ dynamics, real-time lacunarity tuning ($\Lambda$), and $\mathcal{T}_2$ anti-hallucination verification.
 
----
+______________________________________________________________________
 
-# 1. Tri-Layer Operational Architecture
+## 1. Tri-Layer Operational Architecture
 
 ```text
                ┌────────────────────────────────────────────────────────┐
@@ -92,36 +92,42 @@ LAYER L (CORE MEMORY)              LAYER M (COORDINATION)            LAYER H (GE
 • Target: Λ_L ≈ 0.05, E_L < 0.1    • Target: 0.1 ≤ Λ_M ≤ 0.2         • Target: 0.2 ≤ Λ_H ≤ 0.4
 ```
 
----
+______________________________________________________________________
 
-# 2. Key Operational Equations
+## 2. Key Operational Equations
 
 ### 2.1 Dynamic Lacunarity Tuning
+
 $$\Lambda_i(t+1) = \Lambda_i(t) + \eta_i (\Lambda_{i,\text{opt}} - \Lambda_i(t)) + \kappa_i \xi(t), \quad i \in \{L, M, H\}$$
 
 ### 2.2 Formal Hallucination Detection & Auto-Recovery
+
 $$\text{Hallucination} \iff (E_H > 0.3) \lor (\Lambda_H > 0.5) \lor (\mathcal{T}_2 = \text{False})$$
+
 When triggered:
+
 1. Automatically contract exploratory porosity ($\Lambda_H \downarrow$).
-2. Force reconnect to Layer L immutable ground memory ($S_0$).
-3. Mandate dual independent cross-validation paths before state commit.
+1. Force reconnect to Layer L immutable ground memory ($S_0$).
+1. Mandate dual independent cross-validation paths before state commit.
 
 ### 2.3 Mutation-Survival Evolution Loop
+
 $$\text{ASEA}(t+1) = \sigma\Big( \mu\big( \text{ASEA}(t) \big) \Big)$$
+
 Where $\mu$ is bounded mutation constrained by Law of Law, and $\sigma$ is viability selection filtering against $e = i^2$.
 
----
+______________________________________________________________________
 
-# 3. Inter-Plane & Vault Connections
+## 3. Inter-Plane & Vault Connections
 
 - **Fractal Engine:** [[11_KNOWLEDGE/05_FRAMEWORKS/FRAI_FRACTAL_REASONING_AI|FRAI_FRACTAL_REASONING_AI]]
 - **Tri-Layer Architecture:** [[11_KNOWLEDGE/05_FRAMEWORKS/TRANG_LMH_ARCHITECTURE|TRANG_LMH_ARCHITECTURE]]
 - **Lacunarity Dynamics:** [[11_KNOWLEDGE/05_FRAMEWORKS/TRANG_LACUNARITY|TRANG_LACUNARITY]]
 - **Native Vault Source:** `11_KNOWLEDGE/trang/TRANG_FRAMEWORK_UNG_DUNG_VAO_AI_TU_SUA_VA_TU_T`
 
----
+______________________________________________________________________
 
-# 4. RSCF Contract
+## 4. RSCF Contract
 
 ```yaml
 RSCF:
@@ -140,9 +146,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/FRAI_FRACTAL_REASONING_AI|FRAI_FRACTAL_REASONING_AI]] · [[11_KNOWLEDGE/05_FRAMEWORKS/TRANG_LMH_ARCHITECTURE|TRANG_LMH_ARCHITECTURE]] · [[11_KNOWLEDGE/05_FRAMEWORKS/TRANG_LACUNARITY|TRANG_LACUNARITY]]
 
----
+______________________________________________________________________
+
 **MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]

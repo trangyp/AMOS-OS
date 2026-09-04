@@ -12,29 +12,29 @@ segment: 01_CANON/01_CORE_LAWS
 artifact_kind: CORE_LAW
 path: 01_CANON/01_CORE_LAWS/FAIL_CLOSED_GOVERNANCE.md
 tags:
-- amos-os
-- canon
-- core_law
-- fail_closed
-- governance
-- authority
-- ambiguity
-- invariant
-- execution
-- suspension
-- admission
-- authorization
-- commit
-- rollback
-- repair
-- provenance
-- freshness
-- rscf
-- transactions
-- safety
-- canon/core
-- law-hierarchy
-- atomic-multi-rscf-reasoning
+  - amos-os
+  - canon
+  - core_law
+  - fail_closed
+  - governance
+  - authority
+  - ambiguity
+  - invariant
+  - execution
+  - suspension
+  - admission
+  - authorization
+  - commit
+  - rollback
+  - repair
+  - provenance
+  - freshness
+  - rscf
+  - transactions
+  - safety
+  - canon/core
+  - law-hierarchy
+  - atomic-multi-rscf-reasoning
 version: 1.0.0
 updated: '2026-08-28'
 status: ACTIVE_REFERENCE
@@ -49,14 +49,14 @@ rscf:
   state: SOURCE_GROUNDED
   claim_class: AMOS_MODEL
   provenance:
-  - AMOS_corpus
-  - 01_CANON/01_CORE_LAWS
+    - AMOS_corpus
+    - 01_CANON/01_CORE_LAWS
   scope:
-  - CORE_LAWS
-  - GOVERNANCE
-  - EXECUTION_GATING
-  - AUTHORITY
-  - INVARIANT_ENFORCEMENT
+    - CORE_LAWS
+    - GOVERNANCE
+    - EXECUTION_GATING
+    - AUTHORITY
+    - INVARIANT_ENFORCEMENT
   regime: governed_execution
   confidence_ceiling:
     source_rule: SOURCE_GROUNDED
@@ -118,9 +118,9 @@ EXACT EXCEPTION TYPE
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 1. Core Law
+## 1. Core Law
 
 The law can be expressed structurally as:
 
@@ -149,9 +149,9 @@ CANNOT BE ESTABLISHED,
 HOLD THE EFFECT.
 ```
 
----
+______________________________________________________________________
 
-# 2. Primary Purpose
+## 2. Primary Purpose
 
 FAIL_CLOSED_GOVERNANCE protects AMOS from converting uncertainty into unauthorized or structurally invalid action.
 
@@ -181,9 +181,9 @@ PROVEN SAFE TO COMMIT
 
 The law therefore governs the transition from reasoning to consequential execution.
 
----
+______________________________________________________________________
 
-# 3. Core Integrity Boundary
+## 3. Core Integrity Boundary
 
 The following distinctions are mandatory:
 
@@ -219,9 +219,9 @@ NO ERROR OBSERVED != INVARIANT SATISFIED
 PARTIAL VALIDATION != COMPLETE VALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 4. Fail-Closed vs Fail-Open
+## 4. Fail-Closed vs Fail-Open
 
 A fail-open system behaves conceptually as:
 
@@ -255,9 +255,9 @@ Unknown
 Allow
 $$
 
----
+______________________________________________________________________
 
-# 5. Scope
+## 5. Scope
 
 This law applies wherever AMOS execution depends on a governance-relevant state such as:
 
@@ -295,9 +295,9 @@ The exact required gates depend on the operation.
 
 The law does not imply that every informational query requires every possible gate.
 
----
+______________________________________________________________________
 
-# 6. Ambiguous State
+## 6. Ambiguous State
 
 An `ambiguous state` exists when a load-bearing condition cannot be resolved to a single admissible governance state.
 
@@ -335,9 +335,9 @@ SUSPEND
 
 until ambiguity is resolved or safely isolated.
 
----
+______________________________________________________________________
 
-# 7. Ambiguity Is Not Necessarily Error
+## 7. Ambiguity Is Not Necessarily Error
 
 Ambiguity may arise from:
 
@@ -371,9 +371,9 @@ CORRUPTION
 
 But it may still block execution.
 
----
+______________________________________________________________________
 
-# 8. Invariant Violation
+## 8. Invariant Violation
 
 An invariant violation occurs when a required structural, epistemic, transactional, authority, or safety property does not hold.
 
@@ -395,9 +395,9 @@ $$
 SuspendExecution
 $$
 
----
+______________________________________________________________________
 
-# 9. Candidate Invariant Classes
+## 9. Candidate Invariant Classes
 
 Applicable invariant classes may include:
 
@@ -433,9 +433,9 @@ Only the invariants actually defined for the target operation are authoritative.
 
 This file does not invent the entire registry.
 
----
+______________________________________________________________________
 
-# 10. Authority Mismatch
+## 10. Authority Mismatch
 
 An authority mismatch occurs when the actor, token, capability, operation, target, epoch, or effect does not align with the required authorization relation.
 
@@ -463,9 +463,9 @@ Mismatch at a load-bearing gate yields:
 SUSPEND EXECUTION
 ```
 
----
+______________________________________________________________________
 
-# 11. Capability / Authority Firewall
+## 11. Capability / Authority Firewall
 
 Canonical distinction:
 
@@ -493,9 +493,9 @@ CAN EXECUTE
 MAY EXECUTE
 ```
 
----
+______________________________________________________________________
 
-# 12. Authorization / Commit Firewall
+## 12. Authorization / Commit Firewall
 
 Even valid authorization does not automatically imply commit.
 
@@ -521,9 +521,9 @@ $$
 
 The law may still suspend after authorization if another invariant fails.
 
----
+______________________________________________________________________
 
-# 13. Fresh Authority
+## 13. Fresh Authority
 
 Where authority is temporally bounded, authority must be current for the effect.
 
@@ -549,9 +549,9 @@ AUTHORITY WAS VALID
 AUTHORITY IS VALID NOW
 ```
 
----
+______________________________________________________________________
 
-# 14. Authority Applicability
+## 14. Authority Applicability
 
 A governance check should establish:
 
@@ -591,9 +591,9 @@ UNKNOWN/GAP
 SUSPEND
 ```
 
----
+______________________________________________________________________
 
-# 15. State Admission
+## 15. State Admission
 
 Before execution, governed state should be admitted explicitly.
 
@@ -619,9 +619,9 @@ ADMIT OR HOLD
 
 No unresolved load-bearing state should silently enter the execution path.
 
----
+______________________________________________________________________
 
-# 16. Typed Governance
+## 16. Typed Governance
 
 Governance decisions should be typed.
 
@@ -655,9 +655,9 @@ into:
 ALLOW
 ```
 
----
+______________________________________________________________________
 
-# 17. Fail-Closed Decision Function
+## 17. Fail-Closed Decision Function
 
 A conceptual governance predicate is:
 
@@ -693,9 +693,9 @@ $$
 Suspend(E)
 $$
 
----
+______________________________________________________________________
 
-# 18. Suspension
+## 18. Suspension
 
 Execution suspension means:
 
@@ -731,9 +731,9 @@ SAFE RETRY
 
 depending on the governing runtime.
 
----
+______________________________________________________________________
 
-# 19. Suspension Is Not Global Shutdown
+## 19. Suspension Is Not Global Shutdown
 
 Canonical boundary:
 
@@ -753,9 +753,9 @@ BLOCK THAT EFFECT
 
 not necessarily every unrelated task.
 
----
+______________________________________________________________________
 
-# 20. Selective Containment
+## 20. Selective Containment
 
 Suppose:
 
@@ -795,9 +795,9 @@ FAIL CLOSED
 FAIL EVERYTHING
 ```
 
----
+______________________________________________________________________
 
-# 21. Dependency-Scoped Suspension
+## 21. Dependency-Scoped Suspension
 
 Given:
 
@@ -821,9 +821,9 @@ where independence is demonstrated.
 
 This aligns fail-closed behavior with selective invalidation.
 
----
+______________________________________________________________________
 
-# 22. Unknown/GAP Semantics
+## 22. Unknown/GAP Semantics
 
 `UNKNOWN/GAP` is a first-class governance outcome.
 
@@ -850,9 +850,9 @@ $$
 
 for load-bearing gates.
 
----
+______________________________________________________________________
 
-# 23. Missing Data
+## 23. Missing Data
 
 Examples:
 
@@ -880,9 +880,9 @@ UNKNOWN/GAP
 SUSPEND
 ```
 
----
+______________________________________________________________________
 
-# 24. Malformed Data
+## 24. Malformed Data
 
 Malformed governance state should fail closed.
 
@@ -906,9 +906,9 @@ INVALID CLAIM CLASS
 
 The system must not guess intended semantics for a consequential effect.
 
----
+______________________________________________________________________
 
-# 25. Stale State
+## 25. Stale State
 
 A state may be structurally valid but too old to authorize current execution.
 
@@ -928,9 +928,9 @@ STALE / UNKNOWN
 SUSPEND
 ```
 
----
+______________________________________________________________________
 
-# 26. Version Mismatch
+## 26. Version Mismatch
 
 Example:
 
@@ -955,9 +955,9 @@ BLOCKED
 
 until revalidation or reconciliation occurs.
 
----
+______________________________________________________________________
 
-# 27. MVCC / CAS Compatibility
+## 27. MVCC / CAS Compatibility
 
 FAIL_CLOSED_GOVERNANCE is compatible with MVCC/CAS-style reasoning.
 
@@ -989,9 +989,9 @@ rather than committing a stale proposal.
 
 This is a compatibility pattern, not evidence of a particular runtime implementation in this file.
 
----
+______________________________________________________________________
 
-# 28. Policy Epoch Mismatch
+## 28. Policy Epoch Mismatch
 
 If an operation was authorized under:
 
@@ -1013,9 +1013,9 @@ If this cannot be established:
 SUSPEND
 ```
 
----
+______________________________________________________________________
 
-# 29. Causal Priority
+## 29. Causal Priority
 
 An authority record may need to be causally prior to the effect it authorizes.
 
@@ -1041,9 +1041,9 @@ SUSPEND / INVALIDATE
 
 depending on the transaction state.
 
----
+______________________________________________________________________
 
-# 30. Effect Binding
+## 30. Effect Binding
 
 Authorization should be bound to the effect it permits.
 
@@ -1065,9 +1065,9 @@ TOKEN FOR TARGET_B
 
 unless the authority schema explicitly grants both.
 
----
+______________________________________________________________________
 
-# 31. Proposal Path
+## 31. Proposal Path
 
 A proposed effect is non-authoritative.
 
@@ -1087,9 +1087,9 @@ NO WORLD EFFECT YET
 
 The proposal proceeds only after applicable fail-closed gates pass.
 
----
+______________________________________________________________________
 
-# 32. Commit Path
+## 32. Commit Path
 
 A conceptual commit path is:
 
@@ -1119,9 +1119,9 @@ Failure at any load-bearing gate:
 HOLD / SUSPEND
 ```
 
----
+______________________________________________________________________
 
-# 33. Atomic Multi-RSCF Governance
+## 33. Atomic Multi-RSCF Governance
 
 If one governed effect depends on multiple RSCFs:
 
@@ -1143,9 +1143,9 @@ $$
 
 This does not imply that unrelated RSCFs must also be checked.
 
----
+______________________________________________________________________
 
-# 34. Partial Commit Firewall
+## 34. Partial Commit Firewall
 
 When atomicity is required:
 
@@ -1161,9 +1161,9 @@ may represent an invalid structural state.
 
 Therefore fail-closed governance should prevent partial authoritative completion where semantic atomicity is required.
 
----
+______________________________________________________________________
 
-# 35. Rollback
+## 35. Rollback
 
 If failure is discovered after provisional mutation, the system should return to the nearest valid repair state when rollback is available.
 
@@ -1179,9 +1179,9 @@ ROLL BACK
 PRESERVE FAILURE EVIDENCE
 ```
 
----
+______________________________________________________________________
 
-# 36. Rollback Boundary
+## 36. Rollback Boundary
 
 ```text
 ROLLBACK
@@ -1207,9 +1207,9 @@ INVALIDATION REASON
 
 where material.
 
----
+______________________________________________________________________
 
-# 37. Repair
+## 37. Repair
 
 Suspension should create an opportunity for repair.
 
@@ -1235,9 +1235,9 @@ REVALIDATE POLICY
 
 Repair must not fabricate missing evidence.
 
----
+______________________________________________________________________
 
-# 38. Retry Rule
+## 38. Retry Rule
 
 A failed path should not simply repeat without changed state.
 
@@ -1261,9 +1261,9 @@ FAILED
 RETRY IDENTICALLY FOREVER
 ```
 
----
+______________________________________________________________________
 
-# 39. Provenance Requirement
+## 39. Provenance Requirement
 
 Governance outcomes should preserve why execution was allowed, denied, or suspended.
 
@@ -1311,9 +1311,9 @@ governance_receipt:
   created_at:
 ```
 
----
+______________________________________________________________________
 
-# 40. Receipt Result
+## 40. Receipt Result
 
 Possible receipt outcomes:
 
@@ -1339,9 +1339,9 @@ ROLLED_BACK
 
 These are normalized target states, not source-defined literal enums unless separately implemented.
 
----
+______________________________________________________________________
 
-# 41. Provenance at Governance Boundary
+## 41. Provenance at Governance Boundary
 
 A governance result without provenance is weaker than a recoverable governance decision.
 
@@ -1365,9 +1365,9 @@ WHICH INVARIANT FAILED?
 WHY WAS EXECUTION SUSPENDED?
 ```
 
----
+______________________________________________________________________
 
-# 42. Causal Firewall
+## 42. Causal Firewall
 
 Governance correlation must not be confused with causation.
 
@@ -1383,9 +1383,9 @@ occurring together does not establish that one caused the other.
 
 The governance result should state only the failure type actually established.
 
----
+______________________________________________________________________
 
-# 43. Scope Firewall
+## 43. Scope Firewall
 
 A fail-closed result is scoped.
 
@@ -1413,9 +1413,9 @@ DEPENDENCY / EFFECT SCOPE
 
 where determinable.
 
----
+______________________________________________________________________
 
-# 44. Regime Firewall
+## 44. Regime Firewall
 
 Governance validity may depend on regime.
 
@@ -1441,9 +1441,9 @@ $$
 
 without an explicit regime bridge.
 
----
+______________________________________________________________________
 
-# 45. High-Stakes Escalation
+## 45. High-Stakes Escalation
 
 Validation requirements should increase when execution is:
 
@@ -1475,9 +1475,9 @@ ADDITIONAL VALIDATION
 EXPLICIT AUTHORITY CONFIRMATION
 ```
 
----
+______________________________________________________________________
 
-# 46. Reversible Action Preference
+## 46. Reversible Action Preference
 
 Under uncertainty:
 
@@ -1495,9 +1495,9 @@ ones.
 
 But reversibility does not itself eliminate authority requirements.
 
----
+______________________________________________________________________
 
-# 47. Read vs Write
+## 47. Read vs Write
 
 A suspended write operation may still permit safe read-only inspection.
 
@@ -1519,9 +1519,9 @@ ALLOWED
 
 if those reads themselves are permitted and non-consequential.
 
----
+______________________________________________________________________
 
-# 48. Fail-Closed Does Not Mean Fail-Silent
+## 48. Fail-Closed Does Not Mean Fail-Silent
 
 When execution is suspended, the system should expose the material reason.
 
@@ -1542,9 +1542,9 @@ without explanation.
 
 Material gaps must remain visible.
 
----
+______________________________________________________________________
 
-# 49. Gap Visibility
+## 49. Gap Visibility
 
 A fail-closed system should distinguish:
 
@@ -1566,9 +1566,9 @@ These mean different things.
 
 Both may block execution, but for different reasons.
 
----
+______________________________________________________________________
 
-# 50. Ambiguity Taxonomy
+## 50. Ambiguity Taxonomy
 
 A useful target taxonomy is:
 
@@ -1600,9 +1600,9 @@ ambiguity:
     - commit_state_unknown
 ```
 
----
+______________________________________________________________________
 
-# 51. Invariant Violation Taxonomy
+## 51. Invariant Violation Taxonomy
 
 ```yaml
 invariant_violation:
@@ -1630,9 +1630,9 @@ invariant_violation:
     - expired_state_used_as_current
 ```
 
----
+______________________________________________________________________
 
-# 52. Authority Mismatch Taxonomy
+## 52. Authority Mismatch Taxonomy
 
 ```yaml
 authority_mismatch:
@@ -1662,9 +1662,9 @@ authority_mismatch:
     - authority_not_prior_to_effect
 ```
 
----
+______________________________________________________________________
 
-# 53. Hard Gate
+## 53. Hard Gate
 
 FAIL_CLOSED_GOVERNANCE is conceptually a **hard gate**, not merely advisory guidance.
 
@@ -1686,9 +1686,9 @@ NOT_ESTABLISHED
 
 unless an executable binding is independently evidenced.
 
----
+______________________________________________________________________
 
-# 54. Soft Advice vs Hard Governance
+## 54. Soft Advice vs Hard Governance
 
 ```text
 "YOU SHOULD PROBABLY NOT EXECUTE"
@@ -1708,9 +1708,9 @@ The file defines the law.
 
 It does not by itself prove the runtime enforces it.
 
----
+______________________________________________________________________
 
-# 55. Enforcement Boundary
+## 55. Enforcement Boundary
 
 Therefore:
 
@@ -1736,9 +1736,9 @@ ROLLBACK / HOLD BEHAVIOR
 STATE OBSERVABILITY
 ```
 
----
+______________________________________________________________________
 
-# 56. Negative Cases
+## 56. Negative Cases
 
 A mature validator should cover at least:
 
@@ -1783,9 +1783,9 @@ negative_cases:
     - failed_gate_bypassed
 ```
 
----
+______________________________________________________________________
 
-# 57. Falsifiers
+## 57. Falsifiers
 
 This law's claimed runtime enforcement would be falsified by any path that permits consequential commit after a required load-bearing condition resolves to:
 
@@ -1807,9 +1807,9 @@ A safe override, if one exists, would itself require explicit canonical definiti
 
 None is established by the supplied source.
 
----
+______________________________________________________________________
 
-# 58. Override Boundary
+## 58. Override Boundary
 
 No emergency override semantics are supplied.
 
@@ -1837,9 +1837,9 @@ or equivalent semantics.
 
 If such canon exists elsewhere, it must be linked explicitly.
 
----
+______________________________________________________________________
 
-# 59. Escalation
+## 59. Escalation
 
 When fail-closed suspension occurs, escalation may include:
 
@@ -1863,9 +1863,9 @@ ROLL BACK
 
 The exact escalation path is operation-specific.
 
----
+______________________________________________________________________
 
-# 60. Human Review Boundary
+## 60. Human Review Boundary
 
 Human intervention does not automatically convert an invalid operation into a valid one.
 
@@ -1877,9 +1877,9 @@ AUTOMATIC AUTHORIZATION
 
 The reviewing authority must itself have applicable authority where required.
 
----
+______________________________________________________________________
 
-# 61. Multi-Agent Governance
+## 61. Multi-Agent Governance
 
 In multi-agent operation, one agent's authority must not silently propagate to another.
 
@@ -1899,9 +1899,9 @@ SHARED MEMORY
 SHARED AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 62. Delegation
+## 62. Delegation
 
 A valid delegation model would need at least:
 
@@ -1929,9 +1929,9 @@ delegation:
 
 No specific delegation schema is established by the source law itself.
 
----
+______________________________________________________________________
 
-# 63. Multi-RSCF Authority
+## 63. Multi-RSCF Authority
 
 When atomic reasoning spans multiple RSCFs, authority may also span multiple governed resources.
 
@@ -1945,9 +1945,9 @@ AUTHORITY FOR R2
 
 without explicit scope coverage.
 
----
+______________________________________________________________________
 
-# 64. Provenance and Authority Independence
+## 64. Provenance and Authority Independence
 
 An authority record may be validly sourced but still wrong for the requested effect.
 
@@ -1963,9 +1963,9 @@ Provenance answers origin.
 
 Authorization answers permission.
 
----
+______________________________________________________________________
 
-# 65. Decision vs Execution
+## 65. Decision vs Execution
 
 A system may validly reach a decision while being unable to execute it.
 
@@ -1987,9 +1987,9 @@ EXECUTION AUTHORITY
 
 This distinction is central to fail-closed governance.
 
----
+______________________________________________________________________
 
-# 66. Knowledge vs Permission
+## 66. Knowledge vs Permission
 
 Likewise:
 
@@ -2003,9 +2003,9 @@ operation may not be performed
 
 The architecture must preserve both.
 
----
+______________________________________________________________________
 
-# 67. Observation vs Authorization
+## 67. Observation vs Authorization
 
 An observed state may indicate that an effect is desirable.
 
@@ -2017,9 +2017,9 @@ Observation
 Authority
 $$
 
----
+______________________________________________________________________
 
-# 68. Model vs Authorization
+## 68. Model vs Authorization
 
 A model may predict a successful result.
 
@@ -2031,9 +2031,9 @@ PredictionSuccess
 Permission
 $$
 
----
+______________________________________________________________________
 
-# 69. Confidence Boundary
+## 69. Confidence Boundary
 
 High model confidence cannot substitute for governance validity.
 
@@ -2045,9 +2045,9 @@ NO AUTHORITY
 NO AUTHORIZED COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 70. Failure Receipt
+## 70. Failure Receipt
 
 Every consequential suspension should ideally generate a recoverable failure receipt.
 
@@ -2087,9 +2087,9 @@ FAIL_CLOSED_RECEIPT:
     SUSPENDED
 ```
 
----
+______________________________________________________________________
 
-# 71. Successful Governance Receipt
+## 71. Successful Governance Receipt
 
 A successful governed execution may record:
 
@@ -2126,9 +2126,9 @@ This receipt records the decision.
 
 It does not by itself prove the effect succeeded.
 
----
+______________________________________________________________________
 
-# 72. Governance Pass vs Execution Success
+## 72. Governance Pass vs Execution Success
 
 ```text
 GOVERNANCE PASS
@@ -2148,9 +2148,9 @@ GOVERNANCE PASS
 
 An unauthorized operation might technically succeed while remaining governance-invalid.
 
----
+______________________________________________________________________
 
-# 73. Observability
+## 73. Observability
 
 Fail-closed state should be observable.
 
@@ -2174,9 +2174,9 @@ RETRY CONDITION
 
 Observability does not itself authorize repair or commit.
 
----
+______________________________________________________________________
 
-# 74. Logging Boundary
+## 74. Logging Boundary
 
 ```text
 LOGGED
@@ -2194,9 +2194,9 @@ AUDITED
 AUTHORIZED
 ```
 
----
+______________________________________________________________________
 
-# 75. Auditability
+## 75. Auditability
 
 The governance path should be reconstructable.
 
@@ -2222,9 +2222,9 @@ RECEIPT
 
 Auditability requires recoverable lineage across these steps.
 
----
+______________________________________________________________________
 
-# 76. Replay
+## 76. Replay
 
 Where deterministic replay is applicable, a fail-closed event should retain enough state to explain why the gate failed.
 
@@ -2240,9 +2240,9 @@ Replay reproduces behavior.
 
 It does not validate the policy semantics by itself.
 
----
+______________________________________________________________________
 
-# 77. Cross-Plane Relationship
+## 77. Cross-Plane Relationship
 
 FAIL_CLOSED_GOVERNANCE conceptually binds:
 
@@ -2268,9 +2268,9 @@ Runtime executes the process.
 
 No layer may silently treat conceptual presence as executable enforcement.
 
----
+______________________________________________________________________
 
-# 78. Canon / Kernel Boundary
+## 78. Canon / Kernel Boundary
 
 This file is a core law.
 
@@ -2300,9 +2300,9 @@ NOT_ESTABLISHED
 
 unless linked by native canon.
 
----
+______________________________________________________________________
 
-# 79. Control-Plane Boundary
+## 79. Control-Plane Boundary
 
 The infrastructure control plane may implement concepts such as:
 
@@ -2320,9 +2320,9 @@ ROLLBACK
 
 But FAIL_CLOSED_GOVERNANCE remains the higher-level law that invalid or unresolved required state must not become an authoritative effect.
 
----
+______________________________________________________________________
 
-# 80. RSCF Boundary
+## 80. RSCF Boundary
 
 Every consequential RSCF operation may inherit fail-closed governance.
 
@@ -2346,9 +2346,9 @@ If a load-bearing check cannot resolve:
 HOLD
 ```
 
----
+______________________________________________________________________
 
-# 81. Proof Capsule
+## 81. Proof Capsule
 
 A governance proof capsule may conceptually carry:
 
@@ -2399,9 +2399,9 @@ If the capsule cannot prove an applicable required gate:
 NO UNCONDITIONAL COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 82. Proof Reuse
+## 82. Proof Reuse
 
 A prior governance proof capsule may be reused only while:
 
@@ -2425,9 +2425,9 @@ NO NEW CONFLICT
 
 Otherwise revalidation is required.
 
----
+______________________________________________________________________
 
-# 83. Sensitivity
+## 83. Sensitivity
 
 For a governance decision, the most sensitive premise may be:
 
@@ -2445,9 +2445,9 @@ ONE BROKEN DEPENDENCY
 
 These should be tested before noncritical background checks when possible.
 
----
+______________________________________________________________________
 
-# 84. Smallest Sufficient Proof
+## 84. Smallest Sufficient Proof
 
 Fail-closed governance should not require irrelevant global validation.
 
@@ -2471,9 +2471,9 @@ EFFICIENCY
 
 without over-coordination.
 
----
+______________________________________________________________________
 
-# 85. Coordination Avoidance
+## 85. Coordination Avoidance
 
 Local execution may avoid wider coordination only when independence and dependency closure are demonstrated.
 
@@ -2489,9 +2489,9 @@ If cross-shard dependency is ambiguous:
 SUSPEND / ESCALATE
 ```
 
----
+______________________________________________________________________
 
-# 86. Fail-Closed Fast Path
+## 86. Fail-Closed Fast Path
 
 A fast path may be valid when:
 
@@ -2515,9 +2515,9 @@ Then the system may avoid unnecessary escalation.
 
 Fast does not mean weaker.
 
----
+______________________________________________________________________
 
-# 87. Failure Recovery State Machine
+## 87. Failure Recovery State Machine
 
 A target recovery state machine may be:
 
@@ -2545,9 +2545,9 @@ REPAIR     REAUTHORIZE    REVALIDATE    ROLLBACK
 
 This is a normalized target model, not a claim of current implementation.
 
----
+______________________________________________________________________
 
-# 88. No Silent Bypass
+## 88. No Silent Bypass
 
 A required gate must not be bypassed because:
 
@@ -2569,9 +2569,9 @@ Urgency may change escalation policy.
 
 It does not erase required authority or invariants.
 
----
+______________________________________________________________________
 
-# 89. No Confidence Override
+## 89. No Confidence Override
 
 ```text
 HIGH CONFIDENCE
@@ -2603,9 +2603,9 @@ NO GOVERNANCE REQUIRED
 
 unless policy says so.
 
----
+______________________________________________________________________
 
-# 90. No Popularity Override
+## 90. No Popularity Override
 
 Repeated execution history:
 
@@ -2627,9 +2627,9 @@ REGIME
 
 has changed.
 
----
+______________________________________________________________________
 
-# 91. No Historical-Pass Override
+## 91. No Historical-Pass Override
 
 $$
 Pass(Epoch_n)
@@ -2639,9 +2639,9 @@ $$
 
 when load-bearing validity conditions changed.
 
----
+______________________________________________________________________
 
-# 92. No Documentation Override
+## 92. No Documentation Override
 
 A document saying:
 
@@ -2659,9 +2659,9 @@ DOCUMENTED AUTHORITY
 CURRENT AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 93. Anti-Fabrication Rule
+## 93. Anti-Fabrication Rule
 
 If the exact meaning of a governance field is missing:
 
@@ -2687,9 +2687,9 @@ If current state is ambiguous:
 DO NOT COLLAPSE TO CONVENIENT VALUE
 ```
 
----
+______________________________________________________________________
 
-# 94. Relationship to Integrity Priority
+## 94. Relationship to Integrity Priority
 
 FAIL_CLOSED_GOVERNANCE operationalizes the AMOS priority:
 
@@ -2707,9 +2707,9 @@ $$
 
 A slower hold is preferable to a fast unauthorized mutation.
 
----
+______________________________________________________________________
 
-# 95. Relationship to Reversibility
+## 95. Relationship to Reversibility
 
 When uncertainty remains but action is needed, governance should prefer actions that are:
 
@@ -2729,9 +2729,9 @@ Reversibility reduces downstream cost.
 
 It does not eliminate the fail-closed law.
 
----
+______________________________________________________________________
 
-# 96. Relationship to Competing Hypotheses
+## 96. Relationship to Competing Hypotheses
 
 If authority or state depends on unresolved competing interpretations:
 
@@ -2753,9 +2753,9 @@ SUSPEND
 
 for consequential execution.
 
----
+______________________________________________________________________
 
-# 97. Relationship to Provenance
+## 97. Relationship to Provenance
 
 Governance decisions should not rely on apparent source multiplicity without ancestry analysis.
 
@@ -2769,9 +2769,9 @@ MULTIPLE POLICY DOCUMENTS
 MULTIPLE INDEPENDENT AUTHORITIES
 ```
 
----
+______________________________________________________________________
 
-# 98. Relationship to Memory
+## 98. Relationship to Memory
 
 Remembered authority is not current authority.
 
@@ -2795,9 +2795,9 @@ MEMORY
 AUTHORITY VALIDATOR
 ```
 
----
+______________________________________________________________________
 
-# 99. Relationship to Reality / Evidence
+## 99. Relationship to Reality / Evidence
 
 A world observation may falsify an internal state assumption.
 
@@ -2821,19 +2821,19 @@ SUSPEND EXECUTION
 
 P1/P2 evidence can therefore trigger fail-closed behavior downstream.
 
----
+______________________________________________________________________
 
-# 100. Formal Governance Predicate
+## 100. Formal Governance Predicate
 
 Let:
 
-- \(A\) = ambiguity-free state,
-- \(I\) = invariant validity,
-- \(U\) = authority validity,
-- \(F\) = freshness,
-- \(D\) = dependency validity,
-- \(S\) = scope compatibility,
-- \(R\) = regime compatibility.
+- (A) = ambiguity-free state,
+- (I) = invariant validity,
+- (U) = authority validity,
+- (F) = freshness,
+- (D) = dependency validity,
+- (S) = scope compatibility,
+- (R) = regime compatibility.
 
 Then a conceptual permit condition is:
 
@@ -2865,9 +2865,9 @@ $$
 
 This is the normalized model of the source law.
 
----
+______________________________________________________________________
 
-# 101. Three Primary Triggers
+## 101. Three Primary Triggers
 
 The source explicitly identifies three trigger classes:
 
@@ -2897,9 +2897,9 @@ $$
 
 These are the strongest directly supported substantive semantics in the source.
 
----
+______________________________________________________________________
 
-# 102. Expanded Trigger Graph
+## 102. Expanded Trigger Graph
 
 ```text
                     GOVERNED EFFECT
@@ -2930,9 +2930,9 @@ These are the strongest directly supported substantive semantics in the source.
                   RESUME      HOLD
 ```
 
----
+______________________________________________________________________
 
-# 103. Machine-Readable Core Law
+## 103. Machine-Readable Core Law
 
 ```yaml
 FAIL_CLOSED_GOVERNANCE:
@@ -2980,9 +2980,9 @@ FAIL_CLOSED_GOVERNANCE:
     UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 104. Proof Capsule
+## 104. Proof Capsule
 
 ```yaml
 PROOF_CAPSULE:
@@ -3032,9 +3032,9 @@ PROOF_CAPSULE:
     SOURCE_GROUNDED
 ```
 
----
+______________________________________________________________________
 
-# 105. H-Level RSCF
+## 105. H-Level RSCF
 
 ```yaml
 H:
@@ -3064,9 +3064,9 @@ H:
     SOURCE_GROUNDED_CANON_CANDIDATE
 ```
 
----
+______________________________________________________________________
 
-# 106. M-Level RSCF
+## 106. M-Level RSCF
 
 ```yaml
 M:
@@ -3095,9 +3095,9 @@ M:
     - HISTORICAL_PASS_NE_CURRENT_PASS
 ```
 
----
+______________________________________________________________________
 
-# 107. L-Level RSCF
+## 107. L-Level RSCF
 
 ```yaml
 L:
@@ -3135,9 +3135,9 @@ L:
     NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 108. Full RSCF Contract
+## 108. Full RSCF Contract
 
 ```yaml
 RSCF:
@@ -3230,9 +3230,9 @@ RSCF:
       UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 109. Gap Register
+## 109. Gap Register
 
 ```yaml
 FAIL_CLOSED_GOVERNANCE_GAPS:
@@ -3272,9 +3272,9 @@ FAIL_CLOSED_GOVERNANCE_GAPS:
     state: NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 110. Promotion Gate
+## 110. Promotion Gate
 
 Promotion to an executable/enforced core-law status requires:
 
@@ -3313,9 +3313,9 @@ VALIDATION_STATUS
 SOURCE_BOUND
 ```
 
----
+______________________________________________________________________
 
-# 111. Cross-Plane Bindings
+## 111. Cross-Plane Bindings
 
 ```yaml
 FAIL_CLOSED_GOVERNANCE_BINDINGS:
@@ -3349,9 +3349,9 @@ FAIL_CLOSED_GOVERNANCE_BINDINGS:
 
 Cross-plane links do not themselves prove enforcement.
 
----
+______________________________________________________________________
 
-# 112. Canonical Compression
+## 112. Canonical Compression
 
 The source-defined law compresses to:
 
@@ -3429,9 +3429,9 @@ DO NOT GUESS YOUR WAY
 INTO A CONSEQUENTIAL COMMIT.
 ```
 
----
+______________________________________________________________________
 
-# 113. RSCF Node
+## 113. RSCF Node
 
 RSCF-NODE
 
@@ -3519,19 +3519,19 @@ RSCF-RELATIONS:
 - REQUIRES:
   VALIDATION_RECEIPT
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
 
 **Related:** [[01_CANON/01_CORE_LAWS/01_CORE_LAWS_MOC|01_CORE_LAWS_MOC]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[01_CANON/01_CORE_LAWS/ATOMIC_MULTI_RSCF_REASONING|ATOMIC_MULTI_RSCF_REASONING]] · [[02_KERNEL/KERNEL_README|KERNEL_README]] · [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[00_ROOT/00_HOME|00_HOME]]
 
----
+______________________________________________________________________
 
 **MOC:** [[01_CANON/01_CORE_LAWS/01_CORE_LAWS_MOC|01_CORE_LAWS_MOC]]
 
----
+______________________________________________________________________
 
 **Origin architect / steward:** **Trang Phan**
 

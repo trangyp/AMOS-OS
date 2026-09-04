@@ -12,21 +12,21 @@ segment: 01_CANON/02_UNIVERSE_CANON
 artifact_kind: CANON
 path: 01_CANON/02_UNIVERSE_CANON/ABSOLUTE_OMNIVERSE_U_INFINITY_CANON.md
 native_source_candidate:
-- ABSOLUTE OMNIVERSE U∞.txt
+  - ABSOLUTE OMNIVERSE U∞.txt
 tags:
-- amos-os
-- canon
-- universe
-- absolute_omniverse
-- u_infinity
-- rscf
-- provenance
-- canon/universe
-- architecture
-- law-hierarchy
-- routing-policy-validation-receipt
-- authz-engine-validation-receipt
-- validation
+  - amos-os
+  - canon
+  - universe
+  - absolute_omniverse
+  - u_infinity
+  - rscf
+  - provenance
+  - canon/universe
+  - architecture
+  - law-hierarchy
+  - routing-policy-validation-receipt
+  - authz-engine-validation-receipt
+  - validation
 version: 0.1.0
 updated: '2026-08-27'
 status: SOURCE_IDENTIFIED_CONTENT_PENDING
@@ -41,8 +41,8 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
   provenance:
-  - ABSOLUTE OMNIVERSE U∞.txt
-  - AMOS_corpus
+    - ABSOLUTE OMNIVERSE U∞.txt
+    - AMOS_corpus
   scope: universe_canon
   confidence_ceiling: SOURCE_CLAIM
 integrity:
@@ -62,14 +62,14 @@ integrity:
 
 `ABSOLUTE_OMNIVERSE_U_INFINITY_CANON.md` is the reserved canonical artifact for the AMOS framework family identified as:
 
-```text
+````text
 ABSOLUTE OMNIVERSE / U∞
 
 A native corpus source has been identified:
 
 ```text
 ABSOLUTE OMNIVERSE U∞.txt
-```
+````
 
 However, its substantive contents have not been safely retrieved in the present reconstruction context.
 
@@ -95,9 +95,9 @@ UNKNOWN/GAP
 
 This artifact MUST NOT manufacture the missing architecture from its title.
 
----
+______________________________________________________________________
 
-# 1. Integrity Boundary
+## 1. Integrity Boundary
 
 Until the native U∞ source is ingested:
 
@@ -151,9 +151,9 @@ PROPOSAL
 COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 2. Source-Bound Reconstruction Rule
+## 2. Source-Bound Reconstruction Rule
 
 The native source is load-bearing.
 
@@ -186,9 +186,9 @@ ABSOLUTE_OMNIVERSE_U_INFINITY_CANON
 
 No intermediate stage may silently infer missing native content.
 
----
+______________________________________________________________________
 
-# 3. Required Native Extraction
+## 3. Required Native Extraction
 
 When the source becomes readable, extract at minimum:
 
@@ -247,9 +247,9 @@ native_extraction:
     related_frameworks: []
 ```
 
----
+______________________________________________________________________
 
-# 4. Epistemic Classification
+## 4. Epistemic Classification
 
 Each extracted proposition MUST receive the weakest accurate class:
 
@@ -283,9 +283,9 @@ claim:
   external_validation: NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 5. Equation Firewall
+## 5. Equation Firewall
 
 Any equation recovered from U∞ must preserve its native semantics.
 
@@ -319,9 +319,9 @@ $$
 
 unless independent evidence establishes that status.
 
----
+______________________________________________________________________
 
-# 6. Universe / Reality Firewall
+## 6. Universe / Reality Firewall
 
 Because this artifact occupies `UNIVERSE_CANON`, special discipline applies.
 
@@ -345,9 +345,9 @@ VERIFIED SCIENTIFIC RESULT
 
 These categories MUST NOT be collapsed.
 
----
+______________________________________________________________________
 
-# 7. U∞ Terminology Boundary
+## 7. U∞ Terminology Boundary
 
 Until defined by the native source:
 
@@ -371,9 +371,9 @@ all possible worlds
 
 unless the source explicitly makes that binding.
 
----
+______________________________________________________________________
 
-# 8. Competing Interpretations
+## 8. Competing Interpretations
 
 If multiple native AMOS sources define `U∞` differently:
 
@@ -398,9 +398,9 @@ resolution:
 
 Repetition across derivative AMOS documents is not independent confirmation.
 
----
+______________________________________________________________________
 
-# 9. Provenance Topology
+## 9. Provenance Topology
 
 Target:
 
@@ -424,9 +424,9 @@ NATIVE SOURCE
 
 Every derived node SHOULD retain ancestry to the originating source fragment.
 
----
+______________________________________________________________________
 
-# 10. RSCF Normalization
+## 10. RSCF Normalization
 
 ```yaml
 RSCF:
@@ -463,9 +463,9 @@ RSCF:
   invalidation_conditions: []
 ```
 
----
+______________________________________________________________________
 
-# 11. Proof Capsule
+## 11. Proof Capsule
 
 Consequential U∞ conclusions SHOULD carry:
 
@@ -502,9 +502,9 @@ proof_capsule:
   invalidation_conditions: []
 ```
 
----
+______________________________________________________________________
 
-# 12. Confidence Ceiling
+## 12. Confidence Ceiling
 
 The standard AMOS ceiling applies:
 
@@ -518,9 +518,9 @@ unless that premise is independently revalidated.
 
 Multiple descendants of one U∞ source cannot raise confidence merely through repetition.
 
----
+______________________________________________________________________
 
-# 13. Causal Firewall
+## 13. Causal Firewall
 
 Any U∞ relation must be typed where material:
 
@@ -550,9 +550,9 @@ CAUSAL EFFECT
 
 Structural resemblance alone does not establish causal relation.
 
----
+______________________________________________________________________
 
-# 14. Scale Firewall
+## 14. Scale Firewall
 
 A native relationship at one scale cannot automatically propagate to another.
 
@@ -574,9 +574,9 @@ $$
 
 without a validated cross-scale mapping.
 
----
+______________________________________________________________________
 
-# 15. Regime Firewall
+## 15. Regime Firewall
 
 Every important law or equation SHOULD preserve its regime:
 
@@ -592,9 +592,9 @@ validity:
 
 A regime change invalidates dependent conclusions when their validity conditions fail.
 
----
+______________________________________________________________________
 
-# 16. Canon Ingestion Rule
+## 16. Canon Ingestion Rule
 
 ```yaml
 AMOS_CANON_INGESTION_RULE:
@@ -642,57 +642,57 @@ AMOS_CANON_INGESTION_RULE:
       - NEVER_INVENT_CANON
 ```
 
----
+______________________________________________________________________
 
-# 17. Promotion Gates
+## 17. Promotion Gates
 
 Before `SOURCE_BOUND_CANON_CANDIDATE`:
 
-* [x] native source identified
-* [ ] native source content retrieved
-* [ ] native framework identity extracted
-* [ ] native version extracted
-* [ ] root architecture extracted
-* [ ] native terminology preserved
-* [ ] laws extracted
-* [ ] equations extracted
-* [ ] variables extracted
-* [ ] provenance mapped
-* [ ] duplicate definitions compared
-* [ ] supersession lineage resolved
-* [ ] empirical/model distinctions applied
-* [ ] unresolved contradictions preserved
+- [x] native source identified
+- [ ] native source content retrieved
+- [ ] native framework identity extracted
+- [ ] native version extracted
+- [ ] root architecture extracted
+- [ ] native terminology preserved
+- [ ] laws extracted
+- [ ] equations extracted
+- [ ] variables extracted
+- [ ] provenance mapped
+- [ ] duplicate definitions compared
+- [ ] supersession lineage resolved
+- [ ] empirical/model distinctions applied
+- [ ] unresolved contradictions preserved
 
 Before `CANONICAL`:
 
-* [ ] canonical source precedence established
-* [ ] all critical lineage gaps resolved
-* [ ] canonical definitions normalized
-* [ ] RSCF nodes generated
-* [ ] dependency topology generated
-* [ ] validation receipt executed
-* [ ] governance promotion recorded
+- [ ] canonical source precedence established
+- [ ] all critical lineage gaps resolved
+- [ ] canonical definitions normalized
+- [ ] RSCF nodes generated
+- [ ] dependency topology generated
+- [ ] validation receipt executed
+- [ ] governance promotion recorded
 
----
+______________________________________________________________________
 
-# 18. Implementation Gates
+## 18. Implementation Gates
 
 Before `IMPLEMENTED`:
 
-* [ ] typed executable schema
-* [ ] identity/version binding
-* [ ] variable registry binding
-* [ ] dependency resolution
-* [ ] deterministic hard gates where applicable
-* [ ] provenance persistence
-* [ ] state-transition semantics
-* [ ] failure handling
-* [ ] rollback semantics
-* [ ] observability binding
+- [ ] typed executable schema
+- [ ] identity/version binding
+- [ ] variable registry binding
+- [ ] dependency resolution
+- [ ] deterministic hard gates where applicable
+- [ ] provenance persistence
+- [ ] state-transition semantics
+- [ ] failure handling
+- [ ] rollback semantics
+- [ ] observability binding
 
----
+______________________________________________________________________
 
-# 19. Validation Gates
+## 19. Validation Gates
 
 Before `VALIDATED`:
 
@@ -730,9 +730,9 @@ FAILED ROLLBACK
 
 must be explicitly exercised where applicable.
 
----
+______________________________________________________________________
 
-# 20. Gap Register
+## 20. Gap Register
 
 ```yaml
 gaps:
@@ -780,9 +780,9 @@ gaps:
     status: NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 21. Canon Claim Register
+## 21. Canon Claim Register
 
 ```yaml
 claims:
@@ -819,9 +819,9 @@ claims:
     class: DERIVED
 ```
 
----
+______________________________________________________________________
 
-# 22. Machine-Readable Canon Contract
+## 22. Machine-Readable Canon Contract
 
 ```yaml
 ABSOLUTE_OMNIVERSE_U_INFINITY_CANON:
@@ -884,9 +884,9 @@ ABSOLUTE_OMNIVERSE_U_INFINITY_CANON:
       - UINF-GAP-006
 ```
 
----
+______________________________________________________________________
 
-# 23. RSCF Node
+## 23. RSCF Node
 
 ```text
 RSCF-NODE
@@ -951,9 +951,9 @@ RSCF-RELATIONS:
       [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]
 ```
 
----
+______________________________________________________________________
 
-# 24. Completion Matrix
+## 24. Completion Matrix
 
 ```text
 ┌──────────────────────────────────────┬──────────────────────────────┐
@@ -979,9 +979,9 @@ RSCF-RELATIONS:
 └──────────────────────────────────────┴──────────────────────────────┘
 ```
 
----
+______________________________________________________________________
 
-# 25. Current Integrity Declaration
+## 25. Current Integrity Declaration
 
 ```text
 ABSOLUTE_OMNIVERSE_U_INFINITY_CANON
@@ -1031,19 +1031,20 @@ MissingNativeEvidence
 InferCanonFromName
 $$
 
----
+______________________________________________________________________
 
 00_ROOT_MOC|AMOS MOC
 
----
+______________________________________________________________________
 
-**Related:**  ·  ·  ·  ·  ·  ·
+**Related:** · · · · · ·
 
----
+______________________________________________________________________
 
 **MOC:**
 
-
 **Critical gap:** the actual contents of `ABSOLUTE OMNIVERSE U∞.txt` are required to produce the **full substantive version** analogous to the Super Mind OS reconstruction. The filename is known, but its contents are not exposed to the retrievable-file interface in this turn. Supplying/re-uploading that native text as a readable attachment would permit extraction of its actual U∞ hierarchy, definitions, equations, laws, variables, and lineage without fabrication.
 
+```
+```
 ```

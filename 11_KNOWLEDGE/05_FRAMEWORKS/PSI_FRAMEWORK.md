@@ -12,22 +12,22 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: FRAMEWORK
 path: 11_KNOWLEDGE/05_FRAMEWORKS/PSI_FRAMEWORK.md
 tags:
-- amos-os
-- knowledge
-- vault
-- 05_frameworks
-- psi_framework
-- perceived_system_integrity
-- psi
-- integrity_metrics
-- structural_auditing
-- rscf
-- canon_candidate
-- canon/knowledge
-- psi-master
-- absolute-structural-integrity
-- design-for-absolute-integrity
-- lawful-system-perception-model
+  - amos-os
+  - knowledge
+  - vault
+  - 05_frameworks
+  - psi_framework
+  - perceived_system_integrity
+  - psi
+  - integrity_metrics
+  - structural_auditing
+  - rscf
+  - canon_candidate
+  - canon/knowledge
+  - psi-master
+  - absolute-structural-integrity
+  - design-for-absolute-integrity
+  - lawful-system-perception-model
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -42,12 +42,12 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - LAWFUL_SYSTEM_PERCEPTION_MODEL
-  - AMOS_CORPUS
+    - LAWFUL_SYSTEM_PERCEPTION_MODEL
+    - AMOS_CORPUS
   scope:
-  - KNOWLEDGE_FRAMEWORKS
-  - SYSTEMIC_INTEGRITY
-  - SOURCE_DEFINED_MODEL
+    - KNOWLEDGE_FRAMEWORKS
+    - SYSTEMIC_INTEGRITY
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   primary:
     name: Perceived System Integrity (PSI) Framework
@@ -55,10 +55,10 @@ framework_binding:
     role: SYSTEMIC_INTEGRITY_AND_COHERENCE_EVALUATION
   psi_master:
     artifact:
-    - - PSI_MASTER
+      -   - PSI_MASTER
   structural_integrity:
     artifact:
-    - - ABSOLUTE_STRUCTURAL_INTEGRITY
+      -   - ABSOLUTE_STRUCTURAL_INTEGRITY
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
@@ -72,28 +72,28 @@ epistemic_boundary:
 
 PSI evaluates whether a complex organization, software architecture, or cognitive system maintains genuine structural coherence versus superficial cosmetic performance.
 
----
+______________________________________________________________________
 
-# 1. Structural Diagnostic Layers
+## 1. Structural Diagnostic Layers
 
 $$\text{PSI Score } = \frac{\text{Structural Grounding } \times \text{Cohesion } (H)}{\text{Hidden Debt } \times \text{Fragmentation } (F)}$$
 
 1. **Substrate Depth:** Does the architecture rest on validated physical and logical foundations or ephemeral prompt abstractions?
-2. **Boundary Enforcement:** Are domain separations, authority boundaries (`CAPABILITY != AUTHORITY`), and access gates strictly observed?
-3. **Drift Resistance:** Can the system detect and correct internal degradation without external intervention?
+1. **Boundary Enforcement:** Are domain separations, authority boundaries (`CAPABILITY != AUTHORITY`), and access gates strictly observed?
+1. **Drift Resistance:** Can the system detect and correct internal degradation without external intervention?
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **PSI Master:** [[11_KNOWLEDGE/05_FRAMEWORKS/PSI_MASTER|PSI_MASTER]]
 - **Structural Integrity:** [[11_KNOWLEDGE/05_FRAMEWORKS/ABSOLUTE_STRUCTURAL_INTEGRITY|ABSOLUTE_STRUCTURAL_INTEGRITY]] and [[11_KNOWLEDGE/05_FRAMEWORKS/DESIGN_FOR_ABSOLUTE_INTEGRITY|DESIGN_FOR_ABSOLUTE_INTEGRITY]]
 - **Lawful Perception:** [[11_KNOWLEDGE/05_FRAMEWORKS/LAWFUL_SYSTEM_PERCEPTION_MODEL|LAWFUL_SYSTEM_PERCEPTION_MODEL]]
 - **Cognitive Matrix:** [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -111,10 +111,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/PSI_MASTER|PSI_MASTER]] · [[11_KNOWLEDGE/05_FRAMEWORKS/ABSOLUTE_STRUCTURAL_INTEGRITY|ABSOLUTE_STRUCTURAL_INTEGRITY]] · [[11_KNOWLEDGE/05_FRAMEWORKS/LAWFUL_SYSTEM_PERCEPTION_MODEL|LAWFUL_SYSTEM_PERCEPTION_MODEL]]
 
----
-**MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]
+______________________________________________________________________
 
+**MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]

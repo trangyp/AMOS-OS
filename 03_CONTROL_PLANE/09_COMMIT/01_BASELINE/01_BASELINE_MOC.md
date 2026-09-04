@@ -1,31 +1,34 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: 01 Baseline MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/01_BASELINE
 tags:
-- 01-baseline
-- canon/control-plane
-- baseline-commit-control-plane-aliases
-- baseline-commit-control-plane-benchmarks
-- baseline-commit-control-plane-governance
-- baseline-commit-control-plane-mode-spec
-- baseline-commit-control-plane-provenance
-- baseline-commit-control-plane-activation-rules
-- baseline-commit-control-plane-composition
-- baseline-commit-control-plane-domain-weights
-- baseline-commit-control-plane-engine-weights
-- baseline-commit-control-plane-exit-criteria
-- baseline-commit-control-plane-failure-recovery
-- baseline-commit-control-plane-layer-weights
-- baseline-commit-control-plane-mode-family-spec
-- baseline-commit-control-plane-observability
-- baseline-commit-control-plane-preconditions
-- baseline-commit-control-plane-purpose-scope
-- baseline-commit-control-plane-routing-bindings
-- baseline-commit-control-plane-safety-gates
-- baseline-commit-control-plane-tests
-- baseline-commit-control-plane-transition-rules
-- baseline-commit-control-plane-validation
+  - 01-baseline
+  - canon/control-plane
+  - baseline-commit-control-plane-aliases
+  - baseline-commit-control-plane-benchmarks
+  - baseline-commit-control-plane-governance
+  - baseline-commit-control-plane-mode-spec
+  - baseline-commit-control-plane-provenance
+  - baseline-commit-control-plane-activation-rules
+  - baseline-commit-control-plane-composition
+  - baseline-commit-control-plane-domain-weights
+  - baseline-commit-control-plane-engine-weights
+  - baseline-commit-control-plane-exit-criteria
+  - baseline-commit-control-plane-failure-recovery
+  - baseline-commit-control-plane-layer-weights
+  - baseline-commit-control-plane-mode-family-spec
+  - baseline-commit-control-plane-observability
+  - baseline-commit-control-plane-preconditions
+  - baseline-commit-control-plane-purpose-scope
+  - baseline-commit-control-plane-routing-bindings
+  - baseline-commit-control-plane-safety-gates
+  - baseline-commit-control-plane-tests
+  - baseline-commit-control-plane-transition-rules
+  - baseline-commit-control-plane-validation
 moc: true
 rscf:
   state: DERIVED
@@ -68,5 +71,6 @@ rscf:
 - [[03_CONTROL_PLANE/09_COMMIT/01_BASELINE/BASELINE_COMMIT_CONTROL_PLANE_TRANSITION_RULES|BASELINE_COMMIT_CONTROL_PLANE_TRANSITION_RULES]]
 - [[03_CONTROL_PLANE/09_COMMIT/01_BASELINE/BASELINE_COMMIT_CONTROL_PLANE_VALIDATION|BASELINE_COMMIT_CONTROL_PLANE_VALIDATION]]
 
----
+______________________________________________________________________
+
 **Parent:** [[03_CONTROL_PLANE/09_COMMIT/09_COMMIT_MOC|09_COMMIT_MOC]]

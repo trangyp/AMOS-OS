@@ -12,21 +12,21 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: INTELLIGENCE
 path: 11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_PATTERN_INTELLIGENCE.md
 tags:
-- amos-os
-- knowledge
-- vault
-- 05_frameworks
-- heritage_pattern_intelligence
-- pattern_recognition
-- civilizational_patterns
-- deep_invariants
-- rscf
-- canon_candidate
-- canon/knowledge
-- heritage-intelligence-master
-- heritage-fractal-mathematics
-- heritage-spatial-intelligence
-- heritage-civilization-system
+  - amos-os
+  - knowledge
+  - vault
+  - 05_frameworks
+  - heritage_pattern_intelligence
+  - pattern_recognition
+  - civilizational_patterns
+  - deep_invariants
+  - rscf
+  - canon_candidate
+  - canon/knowledge
+  - heritage-intelligence-master
+  - heritage-fractal-mathematics
+  - heritage-spatial-intelligence
+  - heritage-civilization-system
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -41,19 +41,19 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - HERITAGE_INTELLIGENCE_CANON
-  - AMOS_CORPUS
+    - HERITAGE_INTELLIGENCE_CANON
+    - AMOS_CORPUS
   scope:
-  - KNOWLEDGE_FRAMEWORKS
-  - PATTERN_INTELLIGENCE
-  - SOURCE_DEFINED_MODEL
+    - KNOWLEDGE_FRAMEWORKS
+    - PATTERN_INTELLIGENCE
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   master_framework:
     artifact:
-    - - HERITAGE_INTELLIGENCE_MASTER
+      -   - HERITAGE_INTELLIGENCE_MASTER
   fractal_math:
     artifact:
-    - - HERITAGE_FRACTAL_MATHEMATICS
+      -   - HERITAGE_FRACTAL_MATHEMATICS
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
@@ -67,26 +67,26 @@ epistemic_boundary:
 
 It focuses on identifying recurrent structural patterns across long historical cycles, technological transitions, and institutional dynamics.
 
----
+______________________________________________________________________
 
-# 1. Pattern Recognition Engines
+## 1. Pattern Recognition Engines
 
 1. **Cycle Signature Detection:** Recognizing early indicators of cycle transitions ($C_1 \to C_2 \to \dots \to C_7$).
-2. **Structural Fragility Patterns:** Identifying dangerous configurations where high Overload ($\Omega$) intersects with high Fragmentation ($F$).
-3. **Resilience & Regeneration Patterns:** Extracting motifs from historical institutions that successfully survived multi-century systemic shocks.
+1. **Structural Fragility Patterns:** Identifying dangerous configurations where high Overload ($\Omega$) intersects with high Fragmentation ($F$).
+1. **Resilience & Regeneration Patterns:** Extracting motifs from historical institutions that successfully survived multi-century systemic shocks.
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Master Framework:** [[11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_INTELLIGENCE_MASTER|HERITAGE_INTELLIGENCE_MASTER]]
 - **Fractal Math:** [[11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_FRACTAL_MATHEMATICS|HERITAGE_FRACTAL_MATHEMATICS]]
 - **Spatial Intelligence:** [[11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/HERITAGE_SPATIAL_INTELLIGENCE|HERITAGE_SPATIAL_INTELLIGENCE]]
 - **Civilization Models:** [[11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_CIVILIZATION_SYSTEM|HERITAGE_CIVILIZATION_SYSTEM]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -104,10 +104,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_INTELLIGENCE_MASTER|HERITAGE_INTELLIGENCE_MASTER]] · [[11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_FRACTAL_MATHEMATICS|HERITAGE_FRACTAL_MATHEMATICS]] · [[11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/HERITAGE_SPATIAL_INTELLIGENCE|HERITAGE_SPATIAL_INTELLIGENCE]]
 
----
-**MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]
+______________________________________________________________________
 
+**MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]

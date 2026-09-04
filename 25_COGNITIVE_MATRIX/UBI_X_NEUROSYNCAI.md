@@ -12,27 +12,27 @@ segment: 25_COGNITIVE_MATRIX
 artifact_kind: MATRIX
 path: 25_COGNITIVE_MATRIX/UBI_X_NEUROSYNCAI.md
 tags:
-- amos-os
-- cognitive-matrix
-- canon/matrix
-- rscf
-- provenance
-- ubi-x-neurosyncai-matrix
-- ubi-neurosyncai-binding
-- unified-biological-intelligence
-- amos-x-neurosyncai
-- validation
-- ubi-x-cognition
-- ubi-x-emotion
-- ubi-x-full-brain
-- ubi-x-neurosyncai
-- ubi-x-cognition-matrix
-- ubi-x-emotion-matrix
-- ubi-x-full-brain-matrix
-- law-hierarchy
-- k-provenance
-- k-fail-closed
-- amos-core-v4-4
+  - amos-os
+  - cognitive-matrix
+  - canon/matrix
+  - rscf
+  - provenance
+  - ubi-x-neurosyncai-matrix
+  - ubi-neurosyncai-binding
+  - unified-biological-intelligence
+  - amos-x-neurosyncai
+  - validation
+  - ubi-x-cognition
+  - ubi-x-emotion
+  - ubi-x-full-brain
+  - ubi-x-neurosyncai
+  - ubi-x-cognition-matrix
+  - ubi-x-emotion-matrix
+  - ubi-x-full-brain-matrix
+  - law-hierarchy
+  - k-provenance
+  - k-fail-closed
+  - amos-core-v4-4
 version: 1.0.0
 updated: '2026-08-28'
 status: CANON_CANDIDATE
@@ -53,7 +53,7 @@ rscf:
 
 Below is a full Obsidian-ready, heavily tagged version that preserves the supplied source as the canonical load-bearing content while expanding its vault structure, RSCF representation, cross-plane relationships, epistemic boundaries, implementation contract, validation surfaces, and explicit gaps.
 
-```markdown
+````markdown
 ---
 title: UBI x NeuroSyncAI Cognitive Matrix Specification
 aliases:
@@ -282,7 +282,7 @@ epistemic_boundary:
 
 ---
 
-# 1. Source-Defined Purpose
+## 1. Source-Defined Purpose
 
 The canonical source statement is:
 
@@ -312,7 +312,7 @@ This equation is a **structural normalization of the source statement**, not an 
 
 ---
 
-# 2. Core Specification
+## 2. Core Specification
 
 The artifact establishes the Cognitive Matrix specification layer for the UBI × NeuroSyncAI relationship.
 
@@ -329,7 +329,7 @@ NEUROSYNCAI
  ├── Vagal Nerve Modulation Feedback
  │
  └── Bio-Coherent State Synchronization
-```
+````
 
 The source therefore places NeuroSyncAI at an interface between:
 
@@ -350,9 +350,9 @@ The existence of these three specification concerns is **source-grounded**.
 
 Their detailed mechanisms are not fully defined by this artifact.
 
----
+______________________________________________________________________
 
-# 3. Specification vs Matrix Table
+## 3. Specification vs Matrix Table
 
 This artifact is the:
 
@@ -361,8 +361,6 @@ MATRIX_SPEC
 ```
 
 while:
-
-
 
 is the:
 
@@ -402,13 +400,11 @@ The matrix counterpart defines the currently supplied operational rows:
 
 These values belong to the linked matrix artifact and should remain synchronized with:
 
-
-
 rather than being independently modified here.
 
----
+______________________________________________________________________
 
-# 4. Specification–Matrix Contract
+## 4. Specification–Matrix Contract
 
 The two artifacts form a natural pair:
 
@@ -435,13 +431,11 @@ The two artifacts form a natural pair:
 
 This distinction prevents the specification from becoming overloaded with row-level implementation detail.
 
----
+______________________________________________________________________
 
-# 5. Knowledge Binding
+## 5. Knowledge Binding
 
 The artifact explicitly references:
-
-
 
 as its knowledge binding.
 
@@ -458,13 +452,13 @@ is a source-defined dependency edge.
 
 The binding should be treated as the preferred authority for questions such as:
 
-* how UBI concepts map to NeuroSyncAI constructs;
-* how telemetry becomes UBI state;
-* how biological signals affect cognitive policy;
-* whether feedback is direct or mediated;
-* how synchronization is represented;
-* how cross-plane authority is governed;
-* what executable bindings exist.
+- how UBI concepts map to NeuroSyncAI constructs;
+- how telemetry becomes UBI state;
+- how biological signals affect cognitive policy;
+- whether feedback is direct or mediated;
+- how synchronization is represented;
+- how cross-plane authority is governed;
+- what executable bindings exist.
 
 If the binding is unavailable, those details remain:
 
@@ -474,9 +468,9 @@ UNKNOWN / GAP
 
 rather than being invented.
 
----
+______________________________________________________________________
 
-# 6. Neural Telemetry Capture
+## 6. Neural Telemetry Capture
 
 ## 6.1 Source Status
 
@@ -496,9 +490,9 @@ neural_telemetry_capture:
 
 The phrase establishes a telemetry function but does not define the complete acquisition stack.
 
----
+______________________________________________________________________
 
-# 7. Neural Telemetry Concept
+## 7. Neural Telemetry Concept
 
 At the architectural level:
 
@@ -533,9 +527,9 @@ is **not established**.
 
 The specification may support additional telemetry streams outside the three-row matrix, but this artifact does not enumerate them.
 
----
+______________________________________________________________________
 
-# 8. EEG Gamma Channel
+## 8. EEG Gamma Channel
 
 The matrix counterpart specifies:
 
@@ -573,9 +567,9 @@ $$
 
 This is an **AMOS source-defined model rule**.
 
----
+______________________________________________________________________
 
-# 9. Neural Telemetry Boundary
+## 9. Neural Telemetry Boundary
 
 The specification does not define:
 
@@ -615,9 +609,9 @@ neural_telemetry_details:
 
 These are therefore implementation dependencies, not permission to infer defaults.
 
----
+______________________________________________________________________
 
-# 10. Vagal Nerve Modulation Feedback
+## 10. Vagal Nerve Modulation Feedback
 
 ## 10.1 Source Status
 
@@ -637,9 +631,9 @@ vagal_nerve_modulation_feedback:
   epistemic_class: AMOS_MODEL
 ```
 
----
+______________________________________________________________________
 
-# 11. Vagal Feedback Architecture
+## 11. Vagal Feedback Architecture
 
 The safest structural interpretation is:
 
@@ -675,9 +669,9 @@ $$
 CognitiveLoadPolicy.
 $$
 
----
+______________________________________________________________________
 
-# 12. HRV Channel
+## 12. HRV Channel
 
 The matrix counterpart defines:
 
@@ -705,9 +699,9 @@ This remains an **AMOS model rule**.
 
 It is not established here as a universal clinical threshold.
 
----
+______________________________________________________________________
 
-# 13. Meaning of “Modulation”
+## 13. Meaning of “Modulation”
 
 The specification uses the phrase:
 
@@ -759,9 +753,9 @@ UNKNOWN
 
 in this artifact.
 
----
+______________________________________________________________________
 
-# 14. Cognitive Load Coupling
+## 14. Cognitive Load Coupling
 
 The matrix establishes:
 
@@ -799,9 +793,9 @@ The model defines the routing relationship.
 
 It does not independently establish the physiological causal claim.
 
----
+______________________________________________________________________
 
-# 15. Bio-Coherent State Synchronization
+## 15. Bio-Coherent State Synchronization
 
 The third source-defined responsibility is:
 
@@ -819,9 +813,9 @@ bio_coherent_state_synchronization:
 
 At minimum, the phrase establishes a model in which biological state and synchronization are coupled.
 
----
+______________________________________________________________________
 
-# 16. Bio-Coherent State
+## 16. Bio-Coherent State
 
 The exact state vector is not defined here.
 
@@ -835,19 +829,19 @@ $$
 
 The source does not specify whether it is calculated from:
 
-* EEG alone;
-* HRV alone;
-* GSR alone;
-* all three;
-* UBI domain values;
-* a separate NeuroSyncAI state model;
-* a multimodal fusion function.
+- EEG alone;
+- HRV alone;
+- GSR alone;
+- all three;
+- UBI domain values;
+- a separate NeuroSyncAI state model;
+- a multimodal fusion function.
 
 All remain unresolved.
 
----
+______________________________________________________________________
 
-# 17. Candidate State Representation
+## 17. Candidate State Representation
 
 For indexing and reasoning only, the supplied matrix can be normalized into:
 
@@ -885,9 +879,9 @@ This is a **DERIVED representation**, not source-defined canon.
 
 No source-provided fusion function is available.
 
----
+______________________________________________________________________
 
-# 18. Synchronization vs Fusion
+## 18. Synchronization vs Fusion
 
 These concepts must remain distinct.
 
@@ -913,9 +907,9 @@ $$
 
 Therefore no weighted average, geometric mean, neural network, or other fusion mechanism should be invented.
 
----
+______________________________________________________________________
 
-# 19. Electrodermal Channel
+## 19. Electrodermal Channel
 
 The matrix counterpart defines:
 
@@ -945,9 +939,9 @@ $$
 StressCoolDownTrigger.
 $$
 
----
+______________________________________________________________________
 
-# 20. Stress Regulation Route
+## 20. Stress Regulation Route
 
 This provides a model-level route:
 
@@ -971,9 +965,9 @@ Nor does it establish that every change in electrodermal activity has a single p
 
 The matrix defines a control relationship inside the AMOS model.
 
----
+______________________________________________________________________
 
-# 21. Three Functional Domains
+## 21. Three Functional Domains
 
 The supplied specification and matrix together support three functional domains:
 
@@ -997,9 +991,9 @@ $$
 
 This three-domain decomposition is **DERIVED from the matrix roles**.
 
----
+______________________________________________________________________
 
-# 22. Cross-Plane Control Loop
+## 22. Cross-Plane Control Loop
 
 A useful architectural normalization is:
 
@@ -1030,11 +1024,11 @@ The first four stages are strongly implied by the specification + matrix.
 
 The exact re-evaluation and recovery mechanism is not supplied.
 
----
+______________________________________________________________________
 
-# 23. Specification Logic
+## 23. Specification Logic
 
-For telemetry channel \(i\):
+For telemetry channel (i):
 
 $$
 T_i
@@ -1049,10 +1043,10 @@ $$
 
 where:
 
-* \(S_i\) = signal stream;
-* \(B_i\) = frequency / observation band;
-* \(I_i\) = signal invariant;
-* \(A_i\) = anomaly action.
+- (S_i) = signal stream;
+- (B_i) = frequency / observation band;
+- (I_i) = signal invariant;
+- (A_i) = anomaly action.
 
 Then:
 
@@ -1072,9 +1066,9 @@ $$
 
 This is the smallest deterministic abstraction consistent with the matrix.
 
----
+______________________________________________________________________
 
-# 24. Matrix Functions
+## 24. Matrix Functions
 
 The three source-defined functions can be represented as:
 
@@ -1107,9 +1101,9 @@ $$
 
 These are literal mathematical normalizations of the strict inequality operators supplied by the matrix.
 
----
+______________________________________________________________________
 
-# 25. Threshold Boundaries
+## 25. Threshold Boundaries
 
 The matrix uses strict operators.
 
@@ -1145,9 +1139,9 @@ $$
 
 These boundary semantics are mathematically derived from the source syntax.
 
----
+______________________________________________________________________
 
-# 26. Missing Temporal Semantics
+## 26. Missing Temporal Semantics
 
 The specification does not define how long a threshold violation must persist.
 
@@ -1177,9 +1171,9 @@ temporal_semantics:
 
 This is a material executable-binding gap.
 
----
+______________________________________________________________________
 
-# 27. Missing Recovery Semantics
+## 27. Missing Recovery Semantics
 
 The artifact defines anomaly actions but not their release conditions.
 
@@ -1227,9 +1221,9 @@ UNKNOWN / GAP
 
 for all three channels.
 
----
+______________________________________________________________________
 
-# 28. Missing Multi-Anomaly Arbitration
+## 28. Missing Multi-Anomaly Arbitration
 
 The matrix defines one response per telemetry stream.
 
@@ -1279,9 +1273,9 @@ multi_anomaly_arbitration:
   UNKNOWN_GAP
 ```
 
----
+______________________________________________________________________
 
-# 29. Signal Quality Firewall
+## 29. Signal Quality Firewall
 
 The source does not define the difference between:
 
@@ -1317,9 +1311,9 @@ OUT_OF_RANGE_SIGNAL
 
 The specification does not define their routing.
 
----
+______________________________________________________________________
 
-# 30. Missing-Data Firewall
+## 30. Missing-Data Firewall
 
 No source rule says:
 
@@ -1345,9 +1339,9 @@ MISSING = UNKNOWN
 
 unless another binding establishes a policy.
 
----
+______________________________________________________________________
 
-# 31. Freshness Firewall
+## 31. Freshness Firewall
 
 Biological telemetry is time-dependent.
 
@@ -1369,9 +1363,9 @@ freshness_policy:
 
 A stale measurement must not automatically be treated as a current biological state.
 
----
+______________________________________________________________________
 
-# 32. Calibration Firewall
+## 32. Calibration Firewall
 
 The source does not state whether thresholds are:
 
@@ -1404,9 +1398,9 @@ and:
 Tonic drift < 1.5 μS/min.
 ```
 
----
+______________________________________________________________________
 
-# 33. Causal Firewall
+## 33. Causal Firewall
 
 The source establishes control routes.
 
@@ -1442,9 +1436,9 @@ BIOLOGICAL IDENTITY
 
 Any causal upgrade requires separately typed evidence.
 
----
+______________________________________________________________________
 
-# 34. Clinical Firewall
+## 34. Clinical Firewall
 
 This artifact is:
 
@@ -1480,9 +1474,9 @@ is not established here as a diagnostic stress boundary.
 
 The matrix is an AMOS architectural specification.
 
----
+______________________________________________________________________
 
-# 35. NeuroSyncAI Action Firewall
+## 35. NeuroSyncAI Action Firewall
 
 The action names must be preserved without inventing mechanisms.
 
@@ -1539,9 +1533,9 @@ duration
 release condition
 ```
 
----
+______________________________________________________________________
 
-# 36. UBI Relationship
+## 36. UBI Relationship
 
 The specification explicitly identifies itself as:
 
@@ -1571,9 +1565,9 @@ UNIFIED BIOLOGICAL INTELLIGENCE
 
 The exact mapping into UBI domains is not supplied here.
 
----
+______________________________________________________________________
 
-# 37. UBI Domain Mapping Gap
+## 37. UBI Domain Mapping Gap
 
 If the UBI model contains domains such as:
 
@@ -1596,15 +1590,11 @@ or any other one-to-one mapping.
 
 Therefore all such mappings remain dependent on:
 
-
-
 and/or:
 
+______________________________________________________________________
 
-
----
-
-# 38. Candidate Domain Relationships
+## 38. Candidate Domain Relationships
 
 For navigation only, not canonical identity:
 
@@ -1618,9 +1608,9 @@ These are cross-artifact hypotheses.
 
 They must not be promoted to canon without discriminating evidence.
 
----
+______________________________________________________________________
 
-# 39. Cognition Relationship
+## 39. Cognition Relationship
 
 The HRV row explicitly routes anomaly to:
 
@@ -1638,19 +1628,15 @@ $$
 
 This supports linking:
 
-
-
 and:
-
-
 
 as related artifacts.
 
 It does not prove that the two systems share identical internal variables.
 
----
+______________________________________________________________________
 
-# 40. Emotion Relationship
+## 40. Emotion Relationship
 
 The GSR row routes anomaly to:
 
@@ -1660,11 +1646,7 @@ Stress Cool-down Trigger
 
 which makes:
 
-
-
 and:
-
-
 
 relevant neighboring artifacts.
 
@@ -1684,19 +1666,15 @@ Status:
 COMPETING / UNRESOLVED
 ```
 
----
+______________________________________________________________________
 
-# 41. Full Brain Relationship
+## 41. Full Brain Relationship
 
 Neural telemetry, vagal feedback, biological synchronization, cognitive-load adaptation, and stress regulation are all potentially relevant to whole-system cognitive governance.
 
 Therefore:
 
-
-
 and:
-
-
 
 are appropriate related links.
 
@@ -1712,9 +1690,9 @@ is not established.
 
 The systems should remain distinct unless a binding explicitly merges them.
 
----
+______________________________________________________________________
 
-# 42. Candidate Cross-Plane Architecture
+## 42. Candidate Cross-Plane Architecture
 
 ```text
                     AMOS OS
@@ -1747,9 +1725,9 @@ The systems should remain distinct unless a binding explicitly merges them.
 
 The bottom-level convergence into a unified adaptive-cognition state is **DERIVED**, not explicitly specified by the source.
 
----
+______________________________________________________________________
 
-# 43. Fast Loop / Slow Loop Hypothesis
+## 43. Fast Loop / Slow Loop Hypothesis
 
 A plausible architecture is:
 
@@ -1779,9 +1757,9 @@ COMPETING HYPOTHESIS
 
 until the knowledge binding establishes it.
 
----
+______________________________________________________________________
 
-# 44. Repair-Before-Escalation Pattern
+## 44. Repair-Before-Escalation Pattern
 
 The three anomaly actions are:
 
@@ -1811,9 +1789,9 @@ This is a **DERIVED architecture pattern** consistent with the action names.
 
 It should not be upgraded into a hard runtime law without the binding.
 
----
+______________________________________________________________________
 
-# 45. Reversibility Principle
+## 45. Reversibility Principle
 
 The supplied actions are also structurally compatible with reversible governance.
 
@@ -1841,9 +1819,9 @@ $$
 
 Again, this is a governance interpretation, not an additional source claim.
 
----
+______________________________________________________________________
 
-# 46. Telemetry Is Not Authority
+## 46. Telemetry Is Not Authority
 
 Biological telemetry is evidence input.
 
@@ -1867,9 +1845,9 @@ $$
 
 This distinction is especially important when the model affects cognitive pacing.
 
----
+______________________________________________________________________
 
-# 47. Consent Boundary
+## 47. Consent Boundary
 
 The source does not define:
 
@@ -1891,9 +1869,9 @@ consent_governance:
 
 Any executable human-facing implementation requires separate governance.
 
----
+______________________________________________________________________
 
-# 48. Privacy Boundary
+## 48. Privacy Boundary
 
 Neural and physiological telemetry can be sensitive data.
 
@@ -1917,9 +1895,9 @@ privacy_governance:
   NOT_DEFINED_IN_THIS_ARTIFACT
 ```
 
----
+______________________________________________________________________
 
-# 49. Provenance Requirements
+## 49. Provenance Requirements
 
 A runtime telemetry observation should conceptually preserve:
 
@@ -1940,9 +1918,9 @@ These fields are **DERIVED implementation requirements** under provenance-aware 
 
 They are not directly specified by the source artifact.
 
----
+______________________________________________________________________
 
-# 50. Provenance Independence
+## 50. Provenance Independence
 
 Three signals do not automatically equal three independent sources.
 
@@ -1956,11 +1934,11 @@ $$
 
 may be captured by:
 
-* separate sensors;
-* one integrated device;
-* one preprocessing pipeline;
-* correlated acquisition hardware;
-* common derived-state logic.
+- separate sensors;
+- one integrated device;
+- one preprocessing pipeline;
+- correlated acquisition hardware;
+- common derived-state logic.
 
 Thus:
 
@@ -1972,9 +1950,9 @@ $$
 
 Provenance independence must be established, not assumed.
 
----
+______________________________________________________________________
 
-# 51. Correlation Risk
+## 51. Correlation Risk
 
 The specification does not establish:
 
@@ -1986,9 +1964,9 @@ Therefore signal fusion must account for possible shared causes and correlation.
 
 Repeated correlated evidence must not artificially inflate confidence.
 
----
+______________________________________________________________________
 
-# 52. RSCF H-Level
+## 52. RSCF H-Level
 
 ```yaml
 H:
@@ -2013,9 +1991,9 @@ H:
     BIOLOGICAL_TELEMETRY_TO_ADAPTIVE_COGNITIVE_GOVERNANCE
 ```
 
----
+______________________________________________________________________
 
-# 53. RSCF M-Level
+## 53. RSCF M-Level
 
 ```yaml
 M:
@@ -2060,9 +2038,9 @@ M:
         UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 54. RSCF L-Level
+## 54. RSCF L-Level
 
 ```yaml
 L:
@@ -2089,9 +2067,9 @@ L:
     DO_NOT_LOAD_UNLESS_REQUIRED
 ```
 
----
+______________________________________________________________________
 
-# 55. RSCF Core Claim
+## 55. RSCF Core Claim
 
 ```yaml
 RSCF_CORE_CLAIM:
@@ -2127,9 +2105,9 @@ RSCF_CORE_CLAIM:
     SOURCE_GROUNDED
 ```
 
----
+______________________________________________________________________
 
-# 56. Proof Capsule — Neural Telemetry
+## 56. Proof Capsule — Neural Telemetry
 
 ```yaml
 PROOF_CAPSULE_NEURAL_TELEMETRY:
@@ -2169,9 +2147,9 @@ PROOF_CAPSULE_NEURAL_TELEMETRY:
     SOURCE_GROUNDED
 ```
 
----
+______________________________________________________________________
 
-# 57. Proof Capsule — Vagal Feedback
+## 57. Proof Capsule — Vagal Feedback
 
 ```yaml
 PROOF_CAPSULE_VAGAL_FEEDBACK:
@@ -2209,9 +2187,9 @@ PROOF_CAPSULE_VAGAL_FEEDBACK:
     SOURCE_GROUNDED
 ```
 
----
+______________________________________________________________________
 
-# 58. Proof Capsule — Bio-Coherent Synchronization
+## 58. Proof Capsule — Bio-Coherent Synchronization
 
 ```yaml
 PROOF_CAPSULE_BIO_COHERENT_SYNC:
@@ -2248,9 +2226,9 @@ PROOF_CAPSULE_BIO_COHERENT_SYNC:
     UNKNOWN_FOR_IMPLEMENTATION
 ```
 
----
+______________________________________________________________________
 
-# 59. Specification-Level Proof Capsule
+## 59. Specification-Level Proof Capsule
 
 ```yaml
 PROOF_CAPSULE:
@@ -2356,9 +2334,9 @@ PROOF_CAPSULE:
       NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 60. Competing Hypotheses Registry
+## 60. Competing Hypotheses Registry
 
 ```yaml
 COMPETING_HYPOTHESES:
@@ -2425,29 +2403,23 @@ COMPETING_HYPOTHESES:
 
 No hypothesis should be forced into `VERIFIED` without discriminating evidence.
 
----
+______________________________________________________________________
 
-# 61. Cheapest Discriminating Evidence
+## 61. Cheapest Discriminating Evidence
 
 The highest-value dependency for resolving the competing architectures is:
-
-
 
 because it should define the knowledge-level mapping between UBI and NeuroSyncAI.
 
 The next highest-value dependencies are:
 
-
-
 and:
-
-
 
 Only after those dependencies fail to resolve a material question should raw implementation evidence be loaded.
 
----
+______________________________________________________________________
 
-# 62. Gaps Registry
+## 62. Gaps Registry
 
 ```yaml
 GAPS:
@@ -2492,9 +2464,9 @@ GAPS:
     - SYMBOL_NORMALIZATION
 ```
 
----
+______________________________________________________________________
 
-# 63. Sensitivity Registry
+## 63. Sensitivity Registry
 
 The matrix counterpart contains threshold-sensitive decisions.
 
@@ -2547,9 +2519,9 @@ Because tiny perturbations near these values can flip a binary rule, executable 
 
 Those semantics are not supplied here.
 
----
+______________________________________________________________________
 
-# 64. Uncertainty Vector
+## 64. Uncertainty Vector
 
 ```yaml
 UNCERTAINTY_VECTOR:
@@ -2583,9 +2555,9 @@ UNCERTAINTY_VECTOR:
     HIGH
 ```
 
----
+______________________________________________________________________
 
-# 65. Confidence Ceiling
+## 65. Confidence Ceiling
 
 ```yaml
 CONFIDENCE_CEILING:
@@ -2627,9 +2599,9 @@ CONFIDENCE_CEILING:
     NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 66. Validation Surface
+## 66. Validation Surface
 
 The supplied metadata states:
 
@@ -2668,9 +2640,9 @@ not:
 ALL EXTERNAL VALIDATION COMPLETE.
 ```
 
----
+______________________________________________________________________
 
-# 67. Executable Binding Surface
+## 67. Executable Binding Surface
 
 The metadata states:
 
@@ -2704,9 +2676,9 @@ runtime_status:
     NOT_ESTABLISHED_BY_THIS_ARTIFACT
 ```
 
----
+______________________________________________________________________
 
-# 68. Constitutional Test Candidate Set
+## 68. Constitutional Test Candidate Set
 
 The metadata does not enumerate the tests.
 
@@ -2753,46 +2725,46 @@ CONSTITUTIONAL_VALIDATION_SURFACE:
 
 This checklist is **DERIVED governance scaffolding**, not the source's undisclosed constitutional test implementation.
 
----
+______________________________________________________________________
 
-# 69. Anti-Fabrication Contract
+## 69. Anti-Fabrication Contract
 
 This specification MUST NOT be used to claim, without additional evidence:
 
 1. NeuroSyncAI is a clinically validated medical system.
-2. NeuroSyncAI performs physical brain stimulation.
-3. NeuroSyncAI performs electrical vagus nerve stimulation.
-4. EEG Gamma Coherence uniquely measures consciousness.
-5. 38–42 Hz is universally optimal for human cognition.
-6. Phase sync above 0.65 proves healthy cognition.
-7. Phase sync below 0.65 proves neurological impairment.
-8. RMSSD above 35 ms universally proves adequate vagal tone.
-9. RMSSD below 35 ms proves cognitive overload.
-10. GSR directly measures a person's emotions.
-11. GSR directly measures truthfulness.
-12. Tonic drift above 1.5 μS/min universally proves stress.
-13. EEG, HRV, and GSR are independent evidence sources.
-14. The three telemetry channels are the complete NeuroSyncAI signal set.
-15. Bio-coherent state has a known fusion equation.
-16. UBI domain values can be directly computed from these signals.
-17. Frequency Re-Pacing means physical neural stimulation.
-18. Cognitive Load De-escalation has a known runtime implementation.
-19. Stress Cool-down has a known medical implementation.
-20. Missing telemetry equals healthy state.
-21. Missing telemetry equals anomalous state.
-22. A signal anomaly authorizes irreversible intervention.
-23. A signal anomaly overrides consent.
-24. `PASSED_CONSTITUTIONAL_TESTS` means clinical validation.
-25. `executable_binding: ESTABLISHED` proves deployment.
-26. Source-defined correlation establishes physiological causation.
-27. Structural similarity to another AMOS module establishes identity.
-28. NeuroSyncAI and UBI are the same subsystem.
-29. NeuroSyncAI and Full Brain are the same subsystem.
-30. Unknown implementation details may be filled from general assumptions.
+1. NeuroSyncAI performs physical brain stimulation.
+1. NeuroSyncAI performs electrical vagus nerve stimulation.
+1. EEG Gamma Coherence uniquely measures consciousness.
+1. 38–42 Hz is universally optimal for human cognition.
+1. Phase sync above 0.65 proves healthy cognition.
+1. Phase sync below 0.65 proves neurological impairment.
+1. RMSSD above 35 ms universally proves adequate vagal tone.
+1. RMSSD below 35 ms proves cognitive overload.
+1. GSR directly measures a person's emotions.
+1. GSR directly measures truthfulness.
+1. Tonic drift above 1.5 μS/min universally proves stress.
+1. EEG, HRV, and GSR are independent evidence sources.
+1. The three telemetry channels are the complete NeuroSyncAI signal set.
+1. Bio-coherent state has a known fusion equation.
+1. UBI domain values can be directly computed from these signals.
+1. Frequency Re-Pacing means physical neural stimulation.
+1. Cognitive Load De-escalation has a known runtime implementation.
+1. Stress Cool-down has a known medical implementation.
+1. Missing telemetry equals healthy state.
+1. Missing telemetry equals anomalous state.
+1. A signal anomaly authorizes irreversible intervention.
+1. A signal anomaly overrides consent.
+1. `PASSED_CONSTITUTIONAL_TESTS` means clinical validation.
+1. `executable_binding: ESTABLISHED` proves deployment.
+1. Source-defined correlation establishes physiological causation.
+1. Structural similarity to another AMOS module establishes identity.
+1. NeuroSyncAI and UBI are the same subsystem.
+1. NeuroSyncAI and Full Brain are the same subsystem.
+1. Unknown implementation details may be filled from general assumptions.
 
----
+______________________________________________________________________
 
-# 70. Scope Firewall
+## 70. Scope Firewall
 
 The specification is valid within the declared envelope:
 
@@ -2827,9 +2799,9 @@ APPLICABILITY_ENVELOPE:
     NOT_LICENSED
 ```
 
----
+______________________________________________________________________
 
-# 71. State Machine — Specification Level
+## 71. State Machine — Specification Level
 
 ```text
 ┌──────────────────┐
@@ -2869,9 +2841,9 @@ APPLICABILITY_ENVELOPE:
 
 The final recovery semantics remain an explicit gap.
 
----
+______________________________________________________________________
 
-# 72. Machine-Readable Specification
+## 72. Machine-Readable Specification
 
 ```yaml
 UBI_X_NEUROSYNCAI:
@@ -2992,9 +2964,9 @@ UBI_X_NEUROSYNCAI:
     - CLINICAL_VALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 73. Obsidian Properties — Recommended Extended Form
+## 73. Obsidian Properties — Recommended Extended Form
 
 For vault implementations using Obsidian Properties, the preferred top-level searchable fields are:
 
@@ -3037,11 +3009,11 @@ epistemic_state:
 
 These fields may be merged into the frontmatter if the vault uses Dataview or Bases heavily.
 
----
+______________________________________________________________________
 
-# 74. Dataview Query — Related UBI × NeuroSyncAI Artifacts
+## 74. Dataview Query — Related UBI × NeuroSyncAI Artifacts
 
-```dataview
+```text
 TABLE
   artifact_kind AS "Kind",
   version AS "Version",
@@ -3052,11 +3024,11 @@ FROM #ubi_x_neurosyncai
 SORT artifact_kind ASC
 ```
 
----
+______________________________________________________________________
 
-# 75. Dataview Query — Cognitive Matrix Family
+## 75. Dataview Query — Cognitive Matrix Family
 
-```dataview
+```text
 TABLE
   artifact AS "Artifact",
   artifact_kind AS "Kind",
@@ -3067,11 +3039,11 @@ WHERE system = "AMOS OS"
 SORT artifact ASC
 ```
 
----
+______________________________________________________________________
 
-# 76. Dataview Query — NeuroSyncAI
+## 76. Dataview Query — NeuroSyncAI
 
-```dataview
+```text
 TABLE
   title AS "Artifact",
   plane AS "Plane",
@@ -3081,11 +3053,11 @@ FROM #neurosyncai
 SORT plane ASC, title ASC
 ```
 
----
+______________________________________________________________________
 
-# 77. Dataview Query — Biological Telemetry
+## 77. Dataview Query — Biological Telemetry
 
-```dataview
+```text
 TABLE
   title AS "Artifact",
   artifact_kind AS "Kind",
@@ -3094,11 +3066,11 @@ FROM #biological_telemetry
 SORT title ASC
 ```
 
----
+______________________________________________________________________
 
-# 78. Dataview Query — Canon Candidates
+## 78. Dataview Query — Canon Candidates
 
-```dataview
+```text
 TABLE
   title AS "Artifact",
   plane AS "Plane",
@@ -3109,9 +3081,9 @@ WHERE canonical_status = "SOURCE_GROUNDED_CANON_CANDIDATE"
 SORT updated DESC
 ```
 
----
+______________________________________________________________________
 
-# 79. Obsidian Search Tags
+## 79. Obsidian Search Tags
 
 Primary navigation:
 
@@ -3170,9 +3142,9 @@ Canonical navigation:
 #canon/neurosyncai
 ```
 
----
+______________________________________________________________________
 
-# 80. Obsidian Link Graph
+## 80. Obsidian Link Graph
 
 ```mermaid
 graph TD
@@ -3206,9 +3178,9 @@ Solid edges represent explicit source links from the supplied artifact.
 
 Dashed edges represent extended vault relationships and should remain semantically weaker unless confirmed by their respective artifacts.
 
----
+______________________________________________________________________
 
-# 81. Functional Graph
+## 81. Functional Graph
 
 ```mermaid
 flowchart TD
@@ -3238,57 +3210,57 @@ flowchart TD
     COOL --> SYNC
 ```
 
-> [!warning] Derived visualization
+> [!WARNING] Derived visualization
 > The matrix thresholds and named actions are source-defined. The convergence of all three actions into a single `Bio-Coherent State Synchronization` node is an architectural visualization and is not explicitly specified as the runtime topology.
 
----
+______________________________________________________________________
 
-# 82. Callout — Canon
+## 82. Callout — Canon
 
-> [!success] Source-Grounded Canon Candidate
+> [!SUCCESS] Source-Grounded Canon Candidate
 > The source explicitly establishes:
 >
-> * neural telemetry capture;
-> * vagal nerve modulation feedback;
-> * bio-coherent state synchronization;
-> *  as the matrix counterpart;
-> *  as the knowledge binding;
-> *  as the parent plane.
+> - neural telemetry capture;
+> - vagal nerve modulation feedback;
+> - bio-coherent state synchronization;
+> - as the matrix counterpart;
+> - as the knowledge binding;
+> - as the parent plane.
 
----
+______________________________________________________________________
 
-# 83. Callout — Model Boundary
+## 83. Callout — Model Boundary
 
-> [!warning] AMOS Model Boundary
+> [!WARNING] AMOS Model Boundary
 > This artifact describes the architecture of the AMOS UBI × NeuroSyncAI model.
 >
 > It does not independently establish clinical efficacy, universal physiological thresholds, a physical neuromodulation mechanism, or deployed runtime behavior.
 
----
+______________________________________________________________________
 
-# 84. Callout — Critical Gap
+## 84. Callout — Critical Gap
 
-> [!danger] Critical Dependency
+> [!DANGER] Critical Dependency
 > The detailed meaning of the UBI ↔ NeuroSyncAI relationship depends on:
 >
-> ****
+> ______________________________________________________________________
 >
 > Missing binding details must remain `UNKNOWN/GAP` rather than being reconstructed from structural similarity.
 
----
+______________________________________________________________________
 
-# 85. Callout — Matrix Counterpart
+## 85. Callout — Matrix Counterpart
 
-> [!info] Matrix Counterpart
+> [!INFO] Matrix Counterpart
 > Operational telemetry thresholds and anomaly actions belong to:
 >
-> ****
+> ______________________________________________________________________
 >
 > Keep this specification focused on architectural responsibilities and use the matrix artifact for row-level control semantics.
 
----
+______________________________________________________________________
 
-# 86. Canonical Dependency Topology
+## 86. Canonical Dependency Topology
 
 ```text
 [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]
@@ -3307,9 +3279,9 @@ MATRIX]]
        KNOWLEDGE MODEL
 ```
 
----
+______________________________________________________________________
 
-# 87. Fractal Retrieval Contract
+## 87. Fractal Retrieval Contract
 
 ```yaml
 FRACTAL_RETRIEVAL:
@@ -3350,9 +3322,9 @@ FRACTAL_RETRIEVAL:
     DO_NOT_LOAD_UNLESS_REQUIRED
 ```
 
----
+______________________________________________________________________
 
-# 88. Canonical Compression
+## 88. Canonical Compression
 
 The entire specification can be compressed into:
 
@@ -3410,9 +3382,9 @@ UBI\_NEUROSYNCAI\_BINDING
 }
 $$
 
----
+______________________________________________________________________
 
-# 89. Epistemic Compression
+## 89. Epistemic Compression
 
 ```text
 SOURCE DEFINES:
@@ -3446,9 +3418,9 @@ SOURCE DOES NOT YET DEFINE HERE:
 ? Clinical validation
 ```
 
----
+______________________________________________________________________
 
-# 90. Canonical Candidate Statement
+## 90. Canonical Candidate Statement
 
 `UBI_X_NEUROSYNCAI.md v2.0.0` is the AMOS OS Cognitive Matrix specification for the UBI × NeuroSyncAI relationship.
 
@@ -3465,8 +3437,6 @@ BIO-COHERENT STATE SYNCHRONIZATION
 for the NeuroSyncAI platform.
 
 Its operational matrix counterpart is:
-
-
 
 which currently defines the explicit telemetry routes:
 
@@ -3492,8 +3462,6 @@ Tonic drift < 1.5 μS/min
 ```
 
 Its explicit knowledge dependency is:
-
-
 
 and its parent Cognitive Matrix plane is:
 
@@ -3584,30 +3552,30 @@ PermissionToInventCanon.
 }
 $$
 
----
+______________________________________________________________________
 
-# 91. Connections
+## 91. Connections
 
 ## Inter-Plane Connections
 
-* **Matrix Table:**
-* **Knowledge Binding:**
-* **Cognitive Matrix Plane:**
+- **Matrix Table:**
+- **Knowledge Binding:**
+- **Cognitive Matrix Plane:**
 
 ## Extended Vault Connections
 
-* **UBI:**
-* **NeuroSyncAI:**
-* **UBI × Cognition:**
-* **UBI × Cognition Matrix:**
-* **UBI × Emotion:**
-* **UBI × Emotion Matrix:**
-* **UBI × Full Brain:**
-* **UBI × Full Brain Matrix:**
+- **UBI:**
+- **NeuroSyncAI:**
+- **UBI × Cognition:**
+- **UBI × Cognition Matrix:**
+- **UBI × Emotion:**
+- **UBI × Emotion Matrix:**
+- **UBI × Full Brain:**
+- **UBI × Full Brain Matrix:**
 
----
+______________________________________________________________________
 
-# 92. Obsidian Navigation Footer
+## 92. Obsidian Navigation Footer
 
 **Home:**
 
@@ -3623,9 +3591,9 @@ $$
 
 **NeuroSyncAI:**
 
----
+______________________________________________________________________
 
-# 93. RSCF-NODE
+## 93. RSCF-NODE
 
 ```yaml
 RSCF-NODE:
@@ -3676,9 +3644,9 @@ RSCF-NODE:
     DO_NOT_LOAD_UNLESS_REQUIRED
 ```
 
----
+______________________________________________________________________
 
-# 94. RSCF-RELATIONS
+## 94. RSCF-RELATIONS
 
 ```yaml
 RSCF-RELATIONS:
@@ -3732,13 +3700,13 @@ RSCF-RELATIONS:
   - LINEAGE_TARGET: "[[00_ROOT/AMOS_CORE_v4_4|AMOS_CORE_v4_4]]"
 ```
 
----
+______________________________________________________________________
 
-# 95. Final Vault Tags
+## 95. Final Vault Tags
 
 #amos_os #cognitive_matrix #25_cognitive_matrix #ubi_x_neurosyncai #ubi_neurosyncai #neurosyncai #ubi #unified_biological_intelligence #cognitive_matrix_spec #matrix_spec #cross_plane #inter_plane #biological_intelligence #biological_telemetry #neural_telemetry #neural_telemetry_capture #vagal_nerve #vagal_feedback #vagal_modulation #bio_coherence #bio_coherent_state #bio_coherent_synchronization #state_synchronization #physiological_feedback #adaptive_feedback #adaptive_pacing #eeg #eeg_gamma #gamma_coherence #phase_sync #hrv #rmssd #vagal_tone #gsr #electrodermal #stress_regulation #cognitive_load #frequency_re_pacing #cognitive_load_de_escalation #stress_cool_down #telemetry_governance #cognitive_governance #biological_governance #rscf #rscf_node #fractal_knowledge_network #provenance #source_grounded #source_claim #amos_model #canon_candidate #active_reference #causal_firewall #scope_firewall #epistemic_boundary #competing_hypotheses #fail_closed
 
----
+______________________________________________________________________
 
 **MOC:**
 
@@ -3746,9 +3714,8 @@ RSCF-RELATIONS:
 
 **Knowledge Binding:**
 
----
+______________________________________________________________________
 
 **END OF `UBI_X_NEUROSYNCAI.md`**
-
 
 ```

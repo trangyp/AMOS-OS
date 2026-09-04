@@ -1,4 +1,7 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: COGNITIVE MATRIX GENERATORS CONTRACT
 type: note
 source: 25_COGNITIVE_MATRIX/12_GENERATORS
@@ -6,31 +9,27 @@ rscf:
   state: SOURCE_CLAIM
   class: STRUCTURAL
   provenance:
-  - internal
+    - internal
   freshness: EVERGREEN
   falsifiers: []
 tags:
-- note
-- 12-generators
-- validation
-- routing-policy-validation-receipt
-- authz-engine-validation-receipt
-- matrix/l00-reality-validation-receipt
-- generator-output
-- generator-validation
-- generator-falsification
-- generator-promotion
-- law-hierarchy
-- promotion-gates
-- binding-rules
+  - note
+  - 12-generators
+  - validation
+  - routing-policy-validation-receipt
+  - authz-engine-validation-receipt
+  - matrix/l00-reality-validation-receipt
+  - generator-output
+  - generator-validation
+  - generator-falsification
+  - generator-promotion
+  - law-hierarchy
+  - promotion-gates
+  - binding-rules
 canon-group: canon/cognitive-matrix
 ---
 
----title: "Cognitive Matrix Validation Contract"
-type: document
-tags: [note]
----
-
+## ---title: "Cognitive Matrix Validation Contract" type: document tags: [note]
 
 # COGNITIVE MATRIX VALIDATION CONTRACT
 
@@ -64,9 +63,9 @@ TEST_PASS ≠ TRUTH
 VALIDATION ≠ CANONICAL_AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 1. Purpose
+## 1. Purpose
 
 The purpose of this contract is to establish a common validation discipline across the Cognitive Matrix.
 
@@ -93,9 +92,9 @@ $$\boxed{ Integrity > Completeness > Fluency > Speed }$$
 
 Optimization, compression, caching, routing, local finalization, generation, and coordination avoidance MUST NOT weaken validation integrity.
 
----
+______________________________________________________________________
 
-# 2. Scope
+## 2. Scope
 
 This contract governs validation behavior across the Cognitive Matrix plane, including where applicable:
 
@@ -132,9 +131,9 @@ governs
 
 and the conflict MUST remain visible until resolved through the applicable supersession process.
 
----
+______________________________________________________________________
 
-# 3. Validation Objective
+## 3. Validation Objective
 
 For a candidate claim $C$, validation determines whether sufficient evidence exists to license $C$ within a declared applicability envelope.
 
@@ -161,9 +160,9 @@ It MUST answer the narrower and more useful question:
 
 > “What conclusion does this evidence license, under what scope, regime, dependencies, provenance, and temporal conditions?”
 
----
+______________________________________________________________________
 
-# 4. Core Validation Law
+## 4. Core Validation Law
 
 For any conclusion $C$ supported by load-bearing premises:
 
@@ -187,9 +186,9 @@ Independent revalidation may replace or strengthen a weak premise.
 
 Repeated descendants of the same evidence source do not.
 
----
+______________________________________________________________________
 
-# 5. Validation Conclusion Classes
+## 5. Validation Conclusion Classes
 
 Every consequential validation conclusion MUST use the weakest accurate class.
 
@@ -236,9 +235,9 @@ Core invariant:
 
 $$\boxed{ UNKNOWN/GAP \neq PASS }$$
 
----
+______________________________________________________________________
 
-# 6. Typed Artifact Requirement
+## 6. Typed Artifact Requirement
 
 Every governed artifact SHOULD declare, where applicable:
 
@@ -271,9 +270,9 @@ UNKNOWN/GAP
 FAIL CLOSED
 ```
 
----
+______________________________________________________________________
 
-# 7. Artifact Identity
+## 7. Artifact Identity
 
 Validation MUST bind to an identifiable artifact instance.
 
@@ -290,9 +289,9 @@ applicable epoch
 
 Filename equality alone is not sufficient proof of semantic identity.
 
----
+______________________________________________________________________
 
-# 8. Version Binding
+## 8. Version Binding
 
 Validation evidence applies to the version actually tested.
 
@@ -302,9 +301,9 @@ $$Validated(A,v_1) \not\Rightarrow Validated(A,v_2)$$
 
 unless the differences between $v_1$ and $v_2$ are demonstrated to be irrelevant to the validated properties.
 
----
+______________________________________________________________________
 
-# 9. Epoch Separation
+## 9. Epoch Separation
 
 The following epochs MUST remain distinct unless an explicit valid mapping licenses equivalence:
 
@@ -327,9 +326,9 @@ A fresh policy epoch does not prove fresh provenance.
 
 A fresh provenance epoch does not prove causal validity.
 
----
+______________________________________________________________________
 
-# 10. Protected Firewalls
+## 10. Protected Firewalls
 
 Validation MUST preserve the following distinctions:
 
@@ -363,9 +362,9 @@ EXECUTION ≠ UNIVERSAL_PROOF
 
 A validation implementation that silently collapses one of these protected distinctions violates this contract.
 
----
+______________________________________________________________________
 
-# 11. Evidence Classes
+## 11. Evidence Classes
 
 Validation SHOULD distinguish at least:
 
@@ -404,9 +403,9 @@ A governed action selection.
 
 A required state that cannot currently be resolved.
 
----
+______________________________________________________________________
 
-# 12. Provenance Requirement
+## 12. Provenance Requirement
 
 Every consequential evidence item SHOULD preserve enough provenance to answer:
 
@@ -426,9 +425,9 @@ Where provenance cannot be recovered and provenance is load-bearing:
 provenance state = UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 13. Provenance Independence
+## 13. Provenance Independence
 
 Multiple pieces of evidence MUST NOT be counted as independent merely because they appear in multiple artifacts.
 
@@ -454,9 +453,9 @@ not:
 
 $$f(number\ of\ documents)$$
 
----
+______________________________________________________________________
 
-# 14. Sybil / Duplication Resistance
+## 14. Sybil / Duplication Resistance
 
 The validation layer MUST resist confidence inflation caused by:
 
@@ -473,9 +472,9 @@ Repetition MAY increase evidence that a statement is widely repeated.
 
 It does not automatically increase evidence that the statement is true.
 
----
+______________________________________________________________________
 
-# 15. Scope Binding
+## 15. Scope Binding
 
 Every important validation claim MUST inherit an applicability envelope.
 
@@ -501,9 +500,9 @@ $$Valid(C,S_1) \not\Rightarrow Valid(C,S_2)$$
 
 without a bridge that licenses the transfer.
 
----
+______________________________________________________________________
 
-# 16. Regime Isolation
+## 16. Regime Isolation
 
 Validation MUST identify material regime assumptions.
 
@@ -521,9 +520,9 @@ governance regime
 
 A regime shift invalidates conclusions whose load-bearing validity conditions depended on the prior regime.
 
----
+______________________________________________________________________
 
-# 17. Temporal Validity
+## 17. Temporal Validity
 
 Evidence MUST be freshness-bounded where time materially affects validity.
 
@@ -541,9 +540,9 @@ unless explicitly revalidated.
 
 A universal freshness threshold MUST NOT be invented where none is canonically defined.
 
----
+______________________________________________________________________
 
-# 18. OBSERVED ≠ CURRENT
+## 18. OBSERVED ≠ CURRENT
 
 An observation records a state at an observation time.
 
@@ -555,9 +554,9 @@ $$Observed(X,t_0) \not\Rightarrow Current(X,t_1)$$
 
 when the freshness condition is unresolved.
 
----
+______________________________________________________________________
 
-# 19. Dependency Closure
+## 19. Dependency Closure
 
 Validation MUST traverse the smallest sufficient dependency closure capable of changing the conclusion.
 
@@ -569,9 +568,9 @@ Validation SHOULD avoid irrelevant global traversal.
 
 It MUST NOT omit a load-bearing dependency merely for speed.
 
----
+______________________________________________________________________
 
-# 20. Smallest Sufficient Proof Scope
+## 20. Smallest Sufficient Proof Scope
 
 Local validation is permitted when the system can establish:
 
@@ -586,9 +585,9 @@ Local validation is permitted when the system can establish:
 
 This is the Cognitive Matrix validation fast path.
 
----
+______________________________________________________________________
 
-# 21. Coordination Avoidance
+## 21. Coordination Avoidance
 
 Coordination MAY be avoided only when local finality is proven safe.
 
@@ -598,9 +597,9 @@ $$LocalFinalityAllowed \iff ClosureKnown \land NoRelevantConflict \land ScopeCom
 
 Assumed independence is insufficient.
 
----
+______________________________________________________________________
 
-# 22. Local Finality
+## 22. Local Finality
 
 A local validation decision is final only for the proven dependency and applicability envelope.
 
@@ -608,9 +607,9 @@ Local finality MUST NOT silently become global finality.
 
 $$LocalFinality(S) \not\Rightarrow GlobalFinality$$
 
----
+______________________________________________________________________
 
-# 23. Atomic Multi-Dependency Validation
+## 23. Atomic Multi-Dependency Validation
 
 Where a conclusion depends on multiple coupled RSCF structures or artifacts, validation MUST treat the load-bearing dependency set atomically when partial evaluation could produce an invalid state.
 
@@ -624,9 +623,9 @@ RSCF C ─┘
 
 If all three are jointly load-bearing, validating only A and B cannot license C.
 
----
+______________________________________________________________________
 
-# 24. Causal Firewall
+## 24. Causal Firewall
 
 Validation MUST distinguish:
 
@@ -646,9 +645,9 @@ causal effect
 
 These are not interchangeable.
 
----
+______________________________________________________________________
 
-# 25. Causal Promotion
+## 25. Causal Promotion
 
 A causal conclusion requires appropriately typed evidence.
 
@@ -671,9 +670,9 @@ and:
 
 $$X\ precedes\ Y \not\Rightarrow X\ causes\ Y$$
 
----
+______________________________________________________________________
 
-# 26. Cross-Domain Mapping
+## 26. Cross-Domain Mapping
 
 Mappings across domains, scales, or systems remain MODEL unless independently validated.
 
@@ -681,9 +680,9 @@ Structural similarity MAY motivate a hypothesis.
 
 It MUST NOT by itself establish causal equivalence.
 
----
+______________________________________________________________________
 
-# 27. Competing Hypotheses
+## 27. Competing Hypotheses
 
 Validation MUST preserve materially supported competing hypotheses when available evidence does not discriminate between them.
 
@@ -699,9 +698,9 @@ state = COMPETING
 
 not arbitrary forced convergence.
 
----
+______________________________________________________________________
 
-# 28. Discriminating Evidence
+## 28. Discriminating Evidence
 
 When competing hypotheses exist, validation SHOULD prefer the cheapest high-information test capable of discriminating between them.
 
@@ -717,9 +716,9 @@ but:
 collect the evidence most likely to change the decision
 ```
 
----
+______________________________________________________________________
 
-# 29. Adversarial Validation
+## 29. Adversarial Validation
 
 For consequential conclusions, validation SHOULD challenge the strongest supported conclusion using a materially different path.
 
@@ -748,9 +747,9 @@ or return UNKNOWN/GAP
 
 as appropriate.
 
----
+______________________________________________________________________
 
-# 30. Negative Testing
+## 30. Negative Testing
 
 Validation suites for consequential artifacts SHOULD include negative cases covering, where applicable:
 
@@ -771,9 +770,9 @@ invalid epoch
 
 Positive-path testing alone is insufficient for strong validation claims.
 
----
+______________________________________________________________________
 
-# 31. Fail-Closed Requirement
+## 31. Fail-Closed Requirement
 
 If a required validation premise cannot be established:
 
@@ -797,9 +796,9 @@ HOLD / DENY / REQUIRE_EVIDENCE
 
 according to the applicable operation.
 
----
+______________________________________________________________________
 
-# 32. Malformed Input
+## 32. Malformed Input
 
 Malformed consequential input MUST NOT crash open.
 
@@ -827,9 +826,9 @@ malformed
 → implicit approval
 ```
 
----
+______________________________________________________________________
 
-# 33. Capability / Authority Firewall
+## 33. Capability / Authority Firewall
 
 Possessing the technical capability to perform an operation does not authorize the operation.
 
@@ -837,9 +836,9 @@ $$Capability(A) \not\Rightarrow Authority(A)$$
 
 Consequential mutation requires an applicable valid authority reference.
 
----
+______________________________________________________________________
 
-# 34. Authority Validation
+## 34. Authority Validation
 
 Before consequential mutation, the validator SHOULD verify:
 
@@ -860,9 +859,9 @@ AUTHORITY_REQUIRED
 
 or equivalent fail-closed state.
 
----
+______________________________________________________________________
 
-# 35. Proposal / Commit Firewall
+## 35. Proposal / Commit Firewall
 
 A proposed candidate state is not authoritative state.
 
@@ -882,9 +881,9 @@ Therefore:
 
 $$Proposal \neq Commit$$
 
----
+______________________________________________________________________
 
-# 36. Validation / Promotion Firewall
+## 36. Validation / Promotion Firewall
 
 Passing a validator does not itself grant canonical promotion.
 
@@ -904,9 +903,9 @@ Therefore:
 
 $$TestPass \not\Rightarrow Promotion$$
 
----
+______________________________________________________________________
 
-# 37. Consequential Effects
+## 37. Consequential Effects
 
 A consequential operation SHOULD NOT mutate authoritative state until:
 
@@ -918,9 +917,9 @@ A consequential operation SHOULD NOT mutate authoritative state until:
 - rollback requirements are satisfied;
 - required receipts can be emitted.
 
----
+______________________________________________________________________
 
-# 38. Rollback Basin
+## 38. Rollback Basin
 
 Before a consequential reversible mutation, the system SHOULD identify a rollback basin.
 
@@ -936,9 +935,9 @@ $$S_1^{invalid} \rightarrow S_0$$
 
 or another proven valid recovery state.
 
----
+______________________________________________________________________
 
-# 39. Selective Invalidation
+## 39. Selective Invalidation
 
 Failure of a premise invalidates only dependent conclusions.
 
@@ -965,24 +964,24 @@ C3
 
 if `C3` does not depend on `P1`.
 
----
+______________________________________________________________________
 
-# 40. Failure Recovery
+## 40. Failure Recovery
 
 Validation failure SHOULD:
 
 1. identify the failed premise or edge;
-2. mark dependent conclusions invalid;
-3. preserve unrelated valid state;
-4. return to the nearest valid state;
-5. reroute through an alternative path if available;
-6. avoid repeating the failed path unless evidence or conditions change.
+1. mark dependent conclusions invalid;
+1. preserve unrelated valid state;
+1. return to the nearest valid state;
+1. reroute through an alternative path if available;
+1. avoid repeating the failed path unless evidence or conditions change.
 
 Global recomputation is a last resort.
 
----
+______________________________________________________________________
 
-# 41. Gap Classes
+## 41. Gap Classes
 
 Validation gaps SHOULD be classified as:
 
@@ -997,9 +996,9 @@ Resolution order:
 
 $$CRITICAL > DECISION\text{-}RELEVANT > EXPLANATORY > COSMETIC$$
 
----
+______________________________________________________________________
 
-# 42. Critical Gaps
+## 42. Critical Gaps
 
 A CRITICAL gap prevents a safe or valid conclusion.
 
@@ -1011,33 +1010,33 @@ conclusion = UNKNOWN/GAP
 
 or the applicable operation MUST be held.
 
----
+______________________________________________________________________
 
-# 43. Decision-Relevant Gaps
+## 43. Decision-Relevant Gaps
 
 A decision-relevant gap can materially change the selected decision.
 
 These SHOULD be resolved before lower-value explanatory uncertainty.
 
----
+______________________________________________________________________
 
-# 44. Explanatory Gaps
+## 44. Explanatory Gaps
 
 An explanatory gap affects understanding but not the current decision.
 
 It SHOULD remain visible but need not block action unless another contract requires it.
 
----
+______________________________________________________________________
 
-# 45. Cosmetic Gaps
+## 45. Cosmetic Gaps
 
 A cosmetic gap affects presentation or convenience without changing the validated result.
 
 Cosmetic completeness MUST NOT be prioritized over integrity.
 
----
+______________________________________________________________________
 
-# 46. Sensitivity Testing
+## 46. Sensitivity Testing
 
 For consequential conclusions, validation SHOULD identify the smallest premise, threshold, assumption, or observation capable of changing the result.
 
@@ -1055,9 +1054,9 @@ $$P_i \text{ can flip } C$$
 
 This is the decision-changing sensitivity point.
 
----
+______________________________________________________________________
 
-# 47. Fragility
+## 47. Fragility
 
 If plausible variation of a load-bearing assumption changes the result:
 
@@ -1067,9 +1066,9 @@ conclusion = CONDITIONAL
 
 The condition SHOULD be stated explicitly.
 
----
+______________________________________________________________________
 
-# 48. Robustness
+## 48. Robustness
 
 A result is comparatively robust when plausible perturbation of noncritical assumptions does not materially change it.
 
@@ -1077,9 +1076,9 @@ Robustness is not universal truth.
 
 It is stability within the tested perturbation envelope.
 
----
+______________________________________________________________________
 
-# 49. Validation Receipt Requirement
+## 49. Validation Receipt Requirement
 
 Consequential executed validation SHOULD emit a validation receipt.
 
@@ -1108,9 +1107,9 @@ receipt:
 
 Unknown fields MUST remain unknown rather than being invented.
 
----
+______________________________________________________________________
 
-# 50. Receipt Integrity
+## 50. Receipt Integrity
 
 A validation receipt is evidence about an execution.
 
@@ -1120,17 +1119,17 @@ Thus:
 
 $$Execution + Receipt \neq 2\ independent\ validations$$
 
----
+______________________________________________________________________
 
-# 51. Executed Validation Evidence
+## 51. Executed Validation Evidence
 
 A subsystem may claim `EXECUTED-VALIDATED` only for properties actually exercised by an executed validator or equivalent validation procedure.
 
 It MUST NOT expand the claim to untested properties.
 
----
+______________________________________________________________________
 
-# 52. TEST_PASS ≠ TRUTH
+## 52. TEST_PASS ≠ TRUTH
 
 A passing test establishes:
 
@@ -1144,9 +1143,9 @@ Thus:
 
 $$TestPass \not\Rightarrow EmpiricalTruth$$
 
----
+______________________________________________________________________
 
-# 53. Benchmark Boundary
+## 53. Benchmark Boundary
 
 Benchmark success is evidence only within the benchmark's applicability envelope.
 
@@ -1166,9 +1165,9 @@ known limitations
 
 where available.
 
----
+______________________________________________________________________
 
-# 54. Formal Proof Boundary
+## 54. Formal Proof Boundary
 
 A finite test suite is not automatically a formal proof.
 
@@ -1186,9 +1185,9 @@ MUST NOT silently become:
 FORMALLY PROVEN
 ```
 
----
+______________________________________________________________________
 
-# 55. Reference Validation Evidence
+## 55. Reference Validation Evidence
 
 At the time represented by this contract, subsystem-local validation for the contract itself remains incomplete.
 
@@ -1242,9 +1241,9 @@ This receipt demonstrates an executed validator binding for L00.
 
 It does not validate L01–L29 or this validation contract as a whole.
 
----
+______________________________________________________________________
 
-# 56. Reference Evidence Topology
+## 56. Reference Evidence Topology
 
 These receipts SHOULD be interpreted as:
 
@@ -1272,9 +1271,9 @@ entire Cognitive Matrix validated
 
 without evidence covering the missing dependency closure.
 
----
+______________________________________________________________________
 
-# 57. Current Implementation State
+## 57. Current Implementation State
 
 Current contract-level status:
 
@@ -1291,9 +1290,9 @@ implementation:
 
 Where repository evidence provides a stronger state, this table SHOULD be superseded by a specific receipt rather than silently edited into a stronger claim.
 
----
+______________________________________________________________________
 
-# 58. Promotion Gate
+## 58. Promotion Gate
 
 Promotion beyond `AMOS_MODEL / CONDITIONAL` requires, at minimum:
 
@@ -1307,9 +1306,9 @@ Promotion beyond `AMOS_MODEL / CONDITIONAL` requires, at minimum:
 - contract-specific executed validation receipt;
 - visible registration of unresolved critical gaps.
 
----
+______________________________________________________________________
 
-# 59. Promotion Checklist
+## 59. Promotion Checklist
 
 ```text
 [ ] artifact schema defined
@@ -1361,9 +1360,9 @@ Until the required gate is satisfied:
 canonical_status = CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
-# 60. Falsifiers
+## 60. Falsifiers
 
 This contract SHOULD be downgraded, amended, or superseded if any of the following occurs.
 
@@ -1409,9 +1408,9 @@ A required fail-closed path demonstrably fails open.
 
 A local premise failure forces unnecessary global invalidation contrary to dependency topology.
 
----
+______________________________________________________________________
 
-# 61. Worked Semantics
+## 61. Worked Semantics
 
 Given an operation touching:
 
@@ -1543,9 +1542,9 @@ as appropriate.
 
 Record consequential validation and mutation evidence.
 
----
+______________________________________________________________________
 
-# 62. Validation State Machine
+## 62. Validation State Machine
 
 ```text
               ┌──────────────┐
@@ -1592,9 +1591,9 @@ Record consequential validation and mutation evidence.
        COMMIT              HOLD
 ```
 
----
+______________________________________________________________________
 
-# 63. Validation Invariants
+## 63. Validation Invariants
 
 The contract defines the following validation invariants.
 
@@ -1672,9 +1671,9 @@ VAL-INV-024
 Validation evidence does not itself create canonical authority.
 ```
 
----
+______________________________________________________________________
 
-# 64. Failure Modes
+## 64. Failure Modes
 
 ```text
 VAL-FM-001
@@ -1750,9 +1749,9 @@ VAL-FM-024
 Optimization weakens a protected validation invariant.
 ```
 
----
+______________________________________________________________________
 
-# 65. Minimum Contract Test Table
+## 65. Minimum Contract Test Table
 
 A future contract-specific executor SHOULD include at least:
 
@@ -1795,9 +1794,9 @@ Until such an executor is actually implemented and executed:
 contract_specific_execution = UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 66. Generator Interaction
+## 66. Generator Interaction
 
 Generated artifacts are candidates.
 
@@ -1829,9 +1828,9 @@ See:
 [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_FALSIFICATION|GENERATOR_FALSIFICATION]]
 [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_PROMOTION|GENERATOR_PROMOTION]]
 
----
+______________________________________________________________________
 
-# 67. Routing Interaction
+## 67. Routing Interaction
 
 Routing determines where work should be evaluated.
 
@@ -1851,9 +1850,9 @@ Related:
 
 [[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]]
 
----
+______________________________________________________________________
 
-# 68. Observability Interaction
+## 68. Observability Interaction
 
 Observability may provide evidence about system state.
 
@@ -1876,9 +1875,9 @@ Related:
 
 [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]]
 
----
+______________________________________________________________________
 
-# 69. Control-Plane Interaction
+## 69. Control-Plane Interaction
 
 Control-plane gates may admit, deny, hold, or condition operations.
 
@@ -1890,9 +1889,9 @@ Related:
 
 [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
 
----
+______________________________________________________________________
 
-# 70. Kernel Interaction
+## 70. Kernel Interaction
 
 Kernel-level operations consuming validation results MUST preserve:
 
@@ -1912,9 +1911,9 @@ Related:
 
 [[02_KERNEL/KERNEL_README|KERNEL_README]]
 
----
+______________________________________________________________________
 
-# 71. Operations / Recovery Interaction
+## 71. Operations / Recovery Interaction
 
 Failure recovery and selective invalidation bind to the operations plane.
 
@@ -1924,9 +1923,9 @@ Related:
 
 [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
 
----
+______________________________________________________________________
 
-# 72. RSCF Binding
+## 72. RSCF Binding
 
 Validation evidence SHOULD participate in RSCF dependency topology.
 
@@ -1944,9 +1943,9 @@ CONCLUSION NODE
 
 Invalidation follows dependency edges rather than global erasure.
 
----
+______________________________________________________________________
 
-# 73. Proof Capsule Template
+## 73. Proof Capsule Template
 
 Important validated conclusions SHOULD be representable as:
 
@@ -1986,9 +1985,9 @@ proof_capsule:
 
 A field with unavailable evidence remains UNKNOWN.
 
----
+______________________________________________________________________
 
-# 74. Contract Proof Capsule
+## 74. Contract Proof Capsule
 
 ```yaml
 proof_capsule:
@@ -2040,9 +2039,9 @@ proof_capsule:
     PARTIAL
 ```
 
----
+______________________________________________________________________
 
-# 75. Gap Register
+## 75. Gap Register
 
 ```yaml
 gaps:
@@ -2103,26 +2102,26 @@ gaps:
     state: UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 76. Current Evidence Matrix
+## 76. Current Evidence Matrix
 
-| Surface                                   | Evidence                              | Supported state           |
-| ----------------------------------------- | ------------------------------------- | ------------------------- |
-| Validation contract specification         | this artifact                         | AMOS_MODEL                |
-| Routing policy validation                 | [[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] | EXECUTED within its scope |
-| Authorization validation                  | [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]   | EXECUTED within its scope |
-| L00 validation                            | [[25_COGNITIVE_MATRIX/11_VALIDATION/L00_REALITY_VALIDATION_RECEIPT|L00_REALITY_VALIDATION_RECEIPT]]    | EXECUTED within its scope |
-| Full validation-contract executor         | none established here                 | UNKNOWN/GAP               |
-| Full Cognitive Matrix runtime enforcement | none established here                 | UNKNOWN/GAP               |
-| Full L00–L29 validation                   | incomplete                            | PARTIAL                   |
-| Full O00–O16 validation                   | not established here                  | UNKNOWN/GAP               |
-| Full C01–C09 validation                   | not established here                  | UNKNOWN/GAP               |
-| Empirical universality                    | not established                       | UNKNOWN/GAP               |
+| Surface                                   | Evidence                                                                | Supported state                       |
+| ----------------------------------------- | ----------------------------------------------------------------------- | ------------------------------------- |
+| Validation contract specification         | this artifact                                                           | AMOS_MODEL                            |
+| Routing policy validation                 | \[\[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT | ROUTING_POLICY_VALIDATION_RECEIPT\]\] |
+| Authorization validation                  | \[\[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT       | AUTHZ_ENGINE_VALIDATION_RECEIPT\]\]   |
+| L00 validation                            | \[\[25_COGNITIVE_MATRIX/11_VALIDATION/L00_REALITY_VALIDATION_RECEIPT    | L00_REALITY_VALIDATION_RECEIPT\]\]    |
+| Full validation-contract executor         | none established here                                                   | UNKNOWN/GAP                           |
+| Full Cognitive Matrix runtime enforcement | none established here                                                   | UNKNOWN/GAP                           |
+| Full L00–L29 validation                   | incomplete                                                              | PARTIAL                               |
+| Full O00–O16 validation                   | not established here                                                    | UNKNOWN/GAP                           |
+| Full C01–C09 validation                   | not established here                                                    | UNKNOWN/GAP                           |
+| Empirical universality                    | not established                                                         | UNKNOWN/GAP                           |
 
----
+______________________________________________________________________
 
-# 77. Anti-Regression Requirements
+## 77. Anti-Regression Requirements
 
 Any future optimization or supersession MUST preserve or improve:
 
@@ -2147,9 +2146,9 @@ If an optimization improves speed while weakening one of these properties:
 REJECT / ROLLBACK
 ```
 
----
+______________________________________________________________________
 
-# 78. Supersession
+## 78. Supersession
 
 This contract may be superseded only through a governed process preserving:
 
@@ -2168,9 +2167,9 @@ rollback or compatibility information
 
 Supersession MUST NOT erase historical provenance.
 
----
+______________________________________________________________________
 
-# 79. Final Contract Statement
+## 79. Final Contract Statement
 
 The Cognitive Matrix Validation Contract establishes the following governing principle:
 
@@ -2247,7 +2246,7 @@ Subsystem-specific executed receipts MAY strengthen their own bounded surfaces.
 
 They MUST NOT silently promote this entire contract or the entire Cognitive Matrix.
 
----
+______________________________________________________________________
 
 ## Cross-Plane Bindings
 
@@ -2262,15 +2261,15 @@ They MUST NOT silently promote this entire contract or the entire Cognitive Matr
 - Promotion governance — [[25_COGNITIVE_MATRIX/11_VALIDATION/PROMOTION_GATES|PROMOTION_GATES]]
 - Binding governance — [[25_COGNITIVE_MATRIX/10_ROUTING/BINDING_RULES|BINDING_RULES]]
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
 
 **Related:** [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[25_COGNITIVE_MATRIX/11_VALIDATION/PROMOTION_GATES|PROMOTION_GATES]] · [[25_COGNITIVE_MATRIX/10_ROUTING/BINDING_RULES|BINDING_RULES]] · [[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]] · [[25_COGNITIVE_MATRIX/11_VALIDATION/L00_REALITY_VALIDATION_RECEIPT|L00_REALITY_VALIDATION_RECEIPT]]
 
----
+______________________________________________________________________
 
 RSCF-NODE
 
@@ -2347,6 +2346,6 @@ claim_class: AMOS_MODEL
 ```
 ```
 
----
-**MOC:** [[25_COGNITIVE_MATRIX/12_GENERATORS/12_GENERATORS_MOC|12_GENERATORS_MOC]]
+______________________________________________________________________
 
+**MOC:** [[25_COGNITIVE_MATRIX/12_GENERATORS/12_GENERATORS_MOC|12_GENERATORS_MOC]]

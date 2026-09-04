@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: error recovery
 type: reference
 source: 07_SKILLS/amos-os-runtime-master/references
 tags:
-- reference
-- amos-os-runtime-master
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-os-runtime-master
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -20,14 +23,11 @@ rscf:
 > Source: `_00_Cosmo brain/misc/E/ERROR_RECOVERY.md`
 > Epistemic class: SOURCE_DERIVED
 
----
-type: doc
-title: Epistemic Error Recovery — Failure Handling, Equation Firewall, and Execution Provenance
-created: 2026-08-22
-tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/error-recovery, misc]
----
+______________________________________________________________________
 
-# Epistemic Error Recovery
+## type: doc title: Epistemic Error Recovery — Failure Handling, Equation Firewall, and Execution Provenance created: 2026-08-22 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/error-recovery, misc]
+
+## Epistemic Error Recovery
 
 The AMOS error recovery system provides a structured approach to handling failures in the epistemic reasoning pipeline. When evidence or a premise fails, the system follows a deterministic recovery protocol that preserves graph integrity while minimizing recomputation cost.
 
@@ -36,12 +36,12 @@ The AMOS error recovery system provides a structured approach to handling failur
 When evidence or a premise fails, the system executes the following 7-step protocol:
 
 1. **Mark failed node** — Identify and flag the specific node that has failed validation
-2. **Identify descendants** — Trace all downstream conclusions that depend on the failed node
-3. **Preserve unrelated nodes** — Protect all nodes not dependent on the failed evidence
-4. **Roll back to nearest valid proof state** — Restore the system to the last known-good reasoning state
-5. **Reroute around failed evidence** — Find alternative reasoning paths that bypass the failure
-6. **Revalidate only affected conclusions** — Selectively re-check only the conclusions impacted by the failure
-7. **Preserve failure history** — Record the failure for future reference and anti-regression checks
+1. **Identify descendants** — Trace all downstream conclusions that depend on the failed node
+1. **Preserve unrelated nodes** — Protect all nodes not dependent on the failed evidence
+1. **Roll back to nearest valid proof state** — Restore the system to the last known-good reasoning state
+1. **Reroute around failed evidence** — Find alternative reasoning paths that bypass the failure
+1. **Revalidate only affected conclusions** — Selectively re-check only the conclusions impacted by the failure
+1. **Preserve failure history** — Record the failure for future reference and anti-regression checks
 
 **Global recomputation is last resort.** The system is designed to minimize unnecessary recomputation by isolating failures and only revalidating the affected subgraph.
 
@@ -53,13 +53,13 @@ The Equation Firewall provides validation for every equation used in the reasoni
 
 ### Status Levels
 
-| Status | Description |
-|--------|-------------|
-| ESTABLISHED_MATH | Standard mathematics under stated definitions |
-| SOURCE_DERIVED | Quoted or reconstructed from source |
-| AMOS_MODEL | Framework equation or symbolic model |
-| EMPIRICALLY_CALIBRATED | Parameters fitted to evidence |
-| UNVERIFIED | Formal expression without validation |
+| Status                 | Description                                   |
+| ---------------------- | --------------------------------------------- |
+| ESTABLISHED_MATH       | Standard mathematics under stated definitions |
+| SOURCE_DERIVED         | Quoted or reconstructed from source           |
+| AMOS_MODEL             | Framework equation or symbolic model          |
+| EMPIRICALLY_CALIBRATED | Parameters fitted to evidence                 |
+| UNVERIFIED             | Formal expression without validation          |
 
 ### Firewall Rules
 
@@ -126,10 +126,12 @@ Reproduction requires compatible environment, inputs, versions, and execution se
 - `_00_Cosmo brain/misc/E/EXECUTION_HARNESS.md` — Execution harness loop and maintained state
 - `_00_Cosmo brain/misc/E/EXECUTION_PROVENANCE.md` — Execution provenance ledger specification
 
----
+______________________________________________________________________
+
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
-**MOC:** references_MOC
----
+  **MOC:** references_MOC
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -137,12 +139,14 @@ Reproduction requires compatible environment, inputs, versions, and execution se
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-os-runtime-master-error-recovery
 node_type: reference
 path: 07_SKILLS/amos-os-runtime-master/references/error_recovery.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

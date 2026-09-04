@@ -1,10 +1,13 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: 79 Coordination Independence Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/79_COORDINATION_INDEPENDENCE_MODES
 tags:
-- 79-coordination-independence-modes
-- canon/control-plane
+  - 79-coordination-independence-modes
+  - canon/control-plane
 moc: true
 rscf:
   state: DERIVED
@@ -24,5 +27,6 @@ rscf:
 - [[03_CONTROL_PLANE/09_COMMIT/79_COORDINATION_INDEPENDENCE_MODES/COORDINATION_INDEPENDENCE_MODES_COMMIT_CONTROL_PLANE_MODE_FAMILY_SPEC|COORDINATION_INDEPENDENCE_MODES_COMMIT_CONTROL_PLANE_MODE_FAMILY_SPEC]]
 - [[03_CONTROL_PLANE/09_COMMIT/79_COORDINATION_INDEPENDENCE_MODES/COORDINATION_INDEPENDENCE_MODES_COMMIT_CONTROL_PLANE_README|COORDINATION_INDEPENDENCE_MODES_COMMIT_CONTROL_PLANE_README]]
 
----
+______________________________________________________________________
+
 **Parent:** [[03_CONTROL_PLANE/09_COMMIT/09_COMMIT_MOC|09_COMMIT_MOC]]

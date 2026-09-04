@@ -2,11 +2,7 @@
 schema_version: 1.0
 title: SKILL
 name: amos-llm-wiki
-description: AMOS LLM Wiki — ingest, query, lint, and maintain a compounding LLM-maintained
-  markdown wiki inside the AMOS Obsidian vault. Use when adding a new source to the
-  wiki, answering questions from the wiki, running a wiki health check, or filing
-  a synthesized answer back into 11_KNOWLEDGE/LLM_WIKI/. Do not use for generic note
-  taking, non-AMOS vaults, or tasks outside the LLM_WIKI subsystem.
+description: AMOS LLM Wiki — ingest, query, lint, and maintain a compounding LLM-maintained markdown wiki inside the AMOS Obsidian vault. Use when adding a new source to the wiki, answering questions from the wiki, running a wiki health check, or filing a synthesized answer back into 11_KNOWLEDGE/LLM_WIKI/. Do not use for generic note taking, non-AMOS vaults, or tasks outside the LLM_WIKI subsystem.
 license: MIT
 parent_skill: amos-knowledge-research-master
 domain: knowledge
@@ -16,25 +12,25 @@ version: 1.1.0
 rscf_state: DERIVED
 hml_level: M
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L5_scope
+  - L0_integrity
+  - L1_epistemic
+  - L5_scope
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L5
+  - L0
+  - L1
+  - L5
 tags:
-- type/skill
-- type/skill
-- domain/knowledge-research
-- epistemic/source_claim
-- hml/m
-- epistemic/source_claim
-- amos-os
-- amos-llm-wiki-workflow
-- amos-llm-wiki-agent
+  - type/skill
+  - type/skill
+  - domain/knowledge-research
+  - epistemic/source_claim
+  - hml/m
+  - epistemic/source_claim
+  - amos-os
+  - amos-llm-wiki-workflow
+  - amos-llm-wiki-agent
 steward: Trang Phan
 rscf:
   state: DERIVED
@@ -92,11 +88,11 @@ Skill for maintaining an LLM-managed, compounding knowledge wiki inside the AMOS
 ## Operations
 
 1. `wiki.ingest`: Read a raw source and integrate it into the wiki
-2. `wiki.query`: Answer questions from the wiki and optionally file the answer
-3. `wiki.lint`: Health-check the wiki and flag issues
-4. `wiki.index`: Maintain `LLM_WIKI_INDEX` content catalog
-5. `wiki.log`: Append structured entries to `LLM_WIKI_LOG`
-6. `wiki.clip`: Convert a web source into a raw-source markdown file ready for ingest
+1. `wiki.query`: Answer questions from the wiki and optionally file the answer
+1. `wiki.lint`: Health-check the wiki and flag issues
+1. `wiki.index`: Maintain `LLM_WIKI_INDEX` content catalog
+1. `wiki.log`: Append structured entries to `LLM_WIKI_LOG`
+1. `wiki.clip`: Convert a web source into a raw-source markdown file ready for ingest
 
 ## Validation Gates
 
@@ -118,15 +114,15 @@ This skill is governed by the AMOS constitutional law hierarchy. See `01_CANON/0
 
 ### Law Compliance
 
-| Law | Family | This Skill's Obligation |
-|-----|--------|------------------------|
-| **L0.01** Integrity Dominance | Integrity | RAW > WIKI; raw sources are immutable |
-| **L0.02** No Fabricated Closure | Integrity | Missing evidence stays missing; no placeholder concept pages |
-| **L1.01** Evidence Typing | Epistemic | Distinguish `SOURCE_CLAIM` from `DERIVED` / `AMOS_MODEL` |
-| **L1.03** Model ≠ Reality | Epistemic | Wiki syntheses are AMOS_MODEL, not empirical truth |
-| **L1.05** Competing Hypotheses | Epistemic | Incompatible source claims stay `COMPETING` |
-| **L2** Provenance | Provenance | Every derived claim traces to a raw source |
-| **L5** Scope/Regime | Scope | Valid only within the LLM_WIKI subsystem |
+| Law                             | Family     | This Skill's Obligation                                      |
+| ------------------------------- | ---------- | ------------------------------------------------------------ |
+| **L0.01** Integrity Dominance   | Integrity  | RAW > WIKI; raw sources are immutable                        |
+| **L0.02** No Fabricated Closure | Integrity  | Missing evidence stays missing; no placeholder concept pages |
+| **L1.01** Evidence Typing       | Epistemic  | Distinguish `SOURCE_CLAIM` from `DERIVED` / `AMOS_MODEL`     |
+| **L1.03** Model ≠ Reality       | Epistemic  | Wiki syntheses are AMOS_MODEL, not empirical truth           |
+| **L1.05** Competing Hypotheses  | Epistemic  | Incompatible source claims stay `COMPETING`                  |
+| **L2** Provenance               | Provenance | Every derived claim traces to a raw source                   |
+| **L5** Scope/Regime             | Scope      | Valid only within the LLM_WIKI subsystem                     |
 
 ## References
 
@@ -137,6 +133,6 @@ This skill is governed by the AMOS constitutional law hierarchy. See `01_CANON/0
 - [[08_WORKFLOWS/amos-llm-wiki-workflow|amos-llm-wiki-workflow]] — bound workflow
 - [[11_KNOWLEDGE/stubs/amos-llm-wiki-agent|amos-llm-wiki-agent]] — bound agent
 
----
+______________________________________________________________________
 
 **MOC:** references_MOC · [[00_ROOT/00_HOME|00_HOME]]

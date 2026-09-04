@@ -4,25 +4,22 @@ title: SKILL — Amos Adversarial Entropy Accountant
 type: skill
 source: 07_SKILLS/amos-adversarial-entropy-accountant
 name: amos-adversarial-entropy-accountant
-description: Adversarial Entropy Accountant — security and safety capability. Use
-  when security analysis, safety verification, or adversarial defense. Use when amos-security-safety-master
-  routes to this specialized capability. Do not use for generic tasks outside security
-  domain.
+description: Adversarial Entropy Accountant — security and safety capability. Use when security analysis, safety verification, or adversarial defense. Use when amos-security-safety-master routes to this specialized capability. Do not use for generic tasks outside security domain.
 parent_skill: amos-security-safety-master
 domain: security
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
 tags:
-- type/skill
-- type/skill
-- domain/security-safety
-- epistemic/source_claim
-- hml/h
-- epistemic/source_claim
-- amos-os
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/security-safety
+  - epistemic/source_claim
+  - hml/h
+  - epistemic/source_claim
+  - amos-os
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -32,25 +29,25 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: H
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
-- L7_authority
-- L23_mvcc_cas
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
+  - L7_authority
+  - L23_mvcc_cas
 collapse_class: fail_closed
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L7
-- L16
-- L17
-- L18
-- L23
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L7
+  - L16
+  - L17
+  - L18
+  - L23
 license: MIT
 steward: Trang Phan
 ---
@@ -60,6 +57,7 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: security. Parent: amos-security-safety-master. Epistemic class: SOURCE_CLAIM. H/M/L: H.
+
 ## When to Use
 
 - When detecting adversarial activity: attacks, probes, manipulation
@@ -80,6 +78,7 @@ Origin architect: **Trang Phan**. Domain: security. Parent: amos-security-safety
 - **adversarial_entropy.replay_provenance**: Replay execution provenance: trace and verify every action for integrity
 
 > **Reference**: See `references/vault_domain_knowledge.md` (content_hash: 62451434613b51d8) for the full vault-sourced domain knowledge (8755 chars).
+
 - **adversarial_entropy.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
 - **adversarial_entropy.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **adversarial_entropy.validate_outputs**: Validate outputs against domain constraints and epistemic class.
@@ -87,13 +86,13 @@ Origin architect: **Trang Phan**. Domain: security. Parent: amos-security-safety
 ## Operations
 
 1. **adversarial_entropy.detect_adversary**: Detect adversarial activity: attacks, probes, and manipulation attempts
-2. **adversarial_entropy.quantify_entropy**: Quantify adversarial entropy: uncertainty, information leakage, and attack surface
-3. **adversarial_entropy.govern_trust**: Govern principal-trust relationships: delegation, revocation, and audit
-4. **adversarial_entropy.monitor_attack**: Monitor distributed attack composition: multi-stage, multi-vector threats
-5. **adversarial_entropy.replay_provenance**: Replay execution provenance: trace and verify every action for integrity
-6. **adversarial_entropy.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-7. **adversarial_entropy.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
-8. **adversarial_entropy.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+1. **adversarial_entropy.quantify_entropy**: Quantify adversarial entropy: uncertainty, information leakage, and attack surface
+1. **adversarial_entropy.govern_trust**: Govern principal-trust relationships: delegation, revocation, and audit
+1. **adversarial_entropy.monitor_attack**: Monitor distributed attack composition: multi-stage, multi-vector threats
+1. **adversarial_entropy.replay_provenance**: Replay execution provenance: trace and verify every action for integrity
+1. **adversarial_entropy.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+1. **adversarial_entropy.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+1. **adversarial_entropy.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## 11_KNOWLEDGE Vault Content
 
@@ -105,6 +104,7 @@ Origin architect: **Trang Phan**. Domain: security. Parent: amos-security-safety
 From Cosmo Brain Overlooked: Adversarial Entropy Accounting as a new AMOS module. Repair cannot assume the system is honestly broken. Some failures are injected, hidden, delayed, or strategically shaped.
 
 **Adversarial Entropy Accounting tracks**:
+
 - **Accidental entropy**: entropy from normal system operation
 - **Adversarial entropy**: entropy intentionally injected by an adversary
 - **Latent poison**: delayed-activation corruption planted for future trigger
@@ -114,14 +114,16 @@ From Cosmo Brain Overlooked: Adversarial Entropy Accounting as a new AMOS module
 **Key principle**: Repair cannot assume the system is honestly broken. Some failures are injected, hidden, delayed, or strategically shaped. This is deeper than normal repair.
 
 **Accounting protocol**:
+
 1. **Detect**: detect entropy type (accidental vs adversarial)
-2. **Classify**: classify the adversarial entropy type (latent, coordinated, delayed)
-3. **Trace**: trace the entropy to its source (accidental source vs adversarial source)
-4. **Quantify**: quantify the entropy impact
-5. **Repair**: repair with adversarial awareness (don't just fix the symptom; find the adversary)
-6. **Record**: log with provenance and adversarial classification
+1. **Classify**: classify the adversarial entropy type (latent, coordinated, delayed)
+1. **Trace**: trace the entropy to its source (accidental source vs adversarial source)
+1. **Quantify**: quantify the entropy impact
+1. **Repair**: repair with adversarial awareness (don't just fix the symptom; find the adversary)
+1. **Record**: log with provenance and adversarial classification
 
 **Accounting laws**:
+
 - `ACCIDENTAL != ADVERSARIAL`: accidental entropy is from normal operation; adversarial entropy is injected
 - `REPAIR != ADVERSARIAL_REPAIR`: normal repair fixes accidental entropy; adversarial repair also finds the adversary
 - `LATENT != ACTIVE`: latent poison is not yet active; it must be detected before activation
@@ -136,7 +138,8 @@ Adversarial entropy accounting is a security construct. It does not prove all ad
 - **Scope violation**: If the query falls outside the skill's declared scope, escalate to the parent skill or steward.
 - **Binding broken**: If 1:1:1 binding (skill→agent→workflow) is broken, flag routing
 
----
+______________________________________________________________________
+
 **Links:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 ## Related
@@ -146,17 +149,19 @@ Adversarial entropy accounting is a security construct. It does not prove all ad
 ## Examples
 
 - **Scenario**: When detecting adversarial activity: attacks, probes, manipulation
+
   - **Input**: A query matching this skill's domain (security)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When quantifying adversarial entropy and attack surface
+
   - **Input**: A query matching this skill's domain (security)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When governing principal-trust relationships: delegation, revocation
+
   - **Input**: A query matching this skill's domain (security)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Validation Gates
 
@@ -173,7 +178,6 @@ Adversarial entropy accounting is a security construct. It does not prove all ad
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `amos-security-safety-master` — routes to this skill when security specialization is needed
@@ -181,7 +185,6 @@ Adversarial entropy accounting is a security construct. It does not prove all ad
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -200,7 +203,6 @@ Adversarial entropy accounting is a security construct. It does not prove all ad
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -208,7 +210,6 @@ Adversarial entropy accounting is a security construct. It does not prove all ad
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -221,11 +222,12 @@ Adversarial entropy accounting is a security construct. It does not prove all ad
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `amos-security-safety-master` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `amos-adversarial-entropy-accountant-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -233,12 +235,14 @@ Adversarial entropy accounting is a security construct. It does not prove all ad
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-adversarial-entropy-accountant
 node_type: skill
 path: 07_SKILLS/amos-adversarial-entropy-accountant/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

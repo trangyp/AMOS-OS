@@ -12,22 +12,22 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: MASTER
 path: 11_KNOWLEDGE/05_FRAMEWORKS/UBI_MASTER.md
 tags:
-- amos-os
-- knowledge
-- vault
-- 05_frameworks
-- ubi_master
-- biological_master
-- four_domains
-- governance
-- rscf
-- canon_candidate
-- canon/knowledge
-- ubi-framework
-- amos-ubi-super-engine
-- ubi-score-framework
-- unified-biological-intelligence
-- ubi-wearable-framework
+  - amos-os
+  - knowledge
+  - vault
+  - 05_frameworks
+  - ubi_master
+  - biological_master
+  - four_domains
+  - governance
+  - rscf
+  - canon_candidate
+  - canon/knowledge
+  - ubi-framework
+  - amos-ubi-super-engine
+  - ubi-score-framework
+  - unified-biological-intelligence
+  - ubi-wearable-framework
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -42,23 +42,23 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - UBI_OFFICIAL_MANUAL
-  - UNIFIED_BIOLOGICAL_INTELLIGENCE
-  - AMOS_CORPUS
+    - UBI_OFFICIAL_MANUAL
+    - UNIFIED_BIOLOGICAL_INTELLIGENCE
+    - AMOS_CORPUS
   scope:
-  - KNOWLEDGE_FRAMEWORKS
-  - BIOLOGICAL_MASTER
-  - SOURCE_DEFINED_MODEL
+    - KNOWLEDGE_FRAMEWORKS
+    - BIOLOGICAL_MASTER
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   framework:
     artifact:
-    - - UBI_FRAMEWORK
+      -   - UBI_FRAMEWORK
   super_engine:
     artifact:
-    - - AMOS_UBI_SUPER_ENGINE
+      -   - AMOS_UBI_SUPER_ENGINE
   score_framework:
     artifact:
-    - - UBI_SCORE_FRAMEWORK
+      -   - UBI_SCORE_FRAMEWORK
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
@@ -72,9 +72,9 @@ epistemic_boundary:
 
 It coordinates biological intelligence across diagnostic scoring, real-time wearable telemetry, multi-species functional modes, and AMOS OS control-plane governors.
 
----
+______________________________________________________________________
 
-# 1. Master Control Grid
+## 1. Master Control Grid
 
 ```text
                ┌────────────────────────────────────────────────────────┐
@@ -89,18 +89,18 @@ DIAGNOSTIC SCORING     WEARABLE TELEMETRY   CROSS-SPECIES MODES  OS CONTROL PLAN
 • Pinpoints bottlenecks• Live HRV & EMG        MODES`             • Sustains flow state
 ```
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Framework:** [[11_KNOWLEDGE/05_FRAMEWORKS/UBI_FRAMEWORK|UBI_FRAMEWORK]] and [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]]
 - **Super Engine:** [[11_KNOWLEDGE/05_FRAMEWORKS/AMOS_UBI_SUPER_ENGINE|AMOS_UBI_SUPER_ENGINE]]
 - **Diagnostic Scoring:** [[11_KNOWLEDGE/05_FRAMEWORKS/UBI_SCORE_FRAMEWORK|UBI_SCORE_FRAMEWORK]]
 - **Wearable Telemetry:** [[11_KNOWLEDGE/05_FRAMEWORKS/UBI_WEARABLE_FRAMEWORK|UBI_WEARABLE_FRAMEWORK]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -118,9 +118,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/UBI_FRAMEWORK|UBI_FRAMEWORK]] · [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]] · [[11_KNOWLEDGE/05_FRAMEWORKS/AMOS_UBI_SUPER_ENGINE|AMOS_UBI_SUPER_ENGINE]]
 
----
+______________________________________________________________________
+
 **MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]

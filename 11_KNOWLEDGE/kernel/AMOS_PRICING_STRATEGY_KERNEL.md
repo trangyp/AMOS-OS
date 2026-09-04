@@ -1,4 +1,7 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: AMOS PRICING STRATEGY KERNEL V0 BIZ MARKET2
 type: kernel
 source: 11_KNOWLEDGE/kernel
@@ -7,13 +10,13 @@ canon-type: framework
 rscf-state: source-claim
 topic: amos-pricing-strategy-kernel-v0
 tags:
-- canon-group/tech-ai
-- canon/framework
-- rscf/claim
-- rscf/provenance
-- rscf/state/source-claim
-- topic/amos-pricing-strategy-kernel-v0
-- kernel
+  - canon-group/tech-ai
+  - canon/framework
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - topic/amos-pricing-strategy-kernel-v0
+  - kernel
 created: 2026-08-22
 rscf:
   state: SOURCE_CLAIM
@@ -24,7 +27,7 @@ rscf:
 
 # AMOS_Pricing_Strategy_Kernel_v0
 
-> [!warning] GAP — No vault-sourced content available
+> [!WARNING] GAP — No vault-sourced content available
 > Stub in `_LEGACY BRAIN2/Domains/Biz_Market` — no substantive content found in vault.
 > Canon group: meta
 > **Epistemic class**: UNKNOWN/GAP
@@ -32,11 +35,13 @@ rscf:
 > **Action required**: Populate from external source or generate spec from the Marketing GTM Kernel (which contains pricing_strategy cluster) and Sales Kernel (which contains pricing cluster).
 
 ## Status
+
 - **Type**: Stub (GAP)
 - **Content**: None (no vault source found)
 - **Action**: Escalate — source spec needed before population
 
 ## Related Kernels (with content)
+
 - [[11_KNOWLEDGE/kernel/AMOS_INTEGRATION_PLATFORM_KERNEL_V0_TECH|AMOS_INTEGRATION_PLATFORM_KERNEL_V0_TECH]]
 - [[11_KNOWLEDGE/kernel/AMOS_IP_SHIELD_KERNEL_V0_WEB7|AMOS_IP_SHIELD_KERNEL_V0_WEB7]]
 - [[11_KNOWLEDGE/kernel/NEGOTIATION_DIPLOMACY_KERNEL|NEGOTIATION_DIPLOMACY_KERNEL]]
@@ -46,8 +51,10 @@ rscf:
 - AMOS_Product_Strategy_Kernel_v0 — contains value_proposition_design
 
 ## Related
+
 - RSCF-Brain-MOC
 - [[00_ROOT/00_COSMO_BRAIN_MOC|00_COSMO_BRAIN_MOC]]
 
----
+______________________________________________________________________
+
 **MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]

@@ -1,4 +1,7 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 date: 2026-08-29
 epistemic_class: OBSERVATION
 provenance: GitHub README, not independently verified
@@ -10,13 +13,14 @@ rscf:
 source: https://raw.githubusercontent.com/EvolvingAgentsLabs/ai-os/main/README.md
 title: ai-os README — Raw Capture
 ---
+
 # ai-os README — Raw Capture
 
 Source: `https://github.com/EvolvingAgentsLabs/ai-os`
 
 <img src="doc/assets/icon.png" alt="" width="76" align="left" hspace="14">
 
-# ai-os
+## ai-os
 
 **Why another agent framework?** It isn't one.
 
@@ -29,13 +33,13 @@ another model, and keeps it checked. It is
 **an agent-based operating system**, built on [QM](https://github.com/yc-software/qm),
 and the operating-system part is *how*; the sentence above is *why*.
 
-| | |
-|---|---|
-| **Truth from outside the code** | `truth/` must not import `src/`. The value a gate checks **cannot be produced by the code under test** |
-| **A kernel that ignores the language of the work** | Python writes a JSON gate report; a TypeScript kernel parses, summarises and decides, and runs nothing |
-| **"Did not run" is not "passed"** | the freeze verdict returns `blockers` and `unknown` separately and refuses on either |
-| **Attestation, not assertion** | content-addressed runs, a hash-chained ledger, `make reproduce`, and the environment recorded in the artifact |
-| **Every published number tied to its producer** | five of the nine numbers on this page and in `doc/` are checked against the artifact that produced them, nightly |
+|                                                    |                                                                                                                  |
+| -------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| **Truth from outside the code**                    | `truth/` must not import `src/`. The value a gate checks **cannot be produced by the code under test**           |
+| **A kernel that ignores the language of the work** | Python writes a JSON gate report; a TypeScript kernel parses, summarises and decides, and runs nothing           |
+| **"Did not run" is not "passed"**                  | the freeze verdict returns `blockers` and `unknown` separately and refuses on either                             |
+| **Attestation, not assertion**                     | content-addressed runs, a hash-chained ledger, `make reproduce`, and the environment recorded in the artifact    |
+| **Every published number tied to its producer**    | five of the nine numbers on this page and in `doc/` are checked against the artifact that produced them, nightly |
 
 **And the honest limit of "prove it to a stranger", since this page makes the
 claim.** A hash chain inside our own repository demonstrates **integrity** —
@@ -100,12 +104,12 @@ Español: [Correr ai-os](doc/es/manual.md).
 
 ## Documentation
 
-| | |
-|---|---|
+|                             |                                                                                                |
+| --------------------------- | ---------------------------------------------------------------------------------------------- |
 | [**Manual**](doc/manual.md) | Running it, gesture by gesture, with screenshots from a live instance · [es](doc/es/manual.md) |
-| [**Specifications**](doc/) | One document per pillar and per problem. These are the specs the code follows |
-| [**Decisions**](doc/adr/) | One file per architectural decision, superseded rather than edited |
-| [**Next**](NEXT.md) | What to pick up next, and how to get the stack back up |
+| [**Specifications**](doc/)  | One document per pillar and per problem. These are the specs the code follows                  |
+| [**Decisions**](doc/adr/)   | One file per architectural decision, superseded rather than edited                             |
+| [**Next**](NEXT.md)         | What to pick up next, and how to get the stack back up                                         |
 
 ## State
 
@@ -139,14 +143,14 @@ every screenshot is from a live instance.
 
 ## Layout
 
-| | | |
-|---|---|---|
-| [`ai-base/`](ai-base/) | QM, vendored as a subtree and pulled weekly | MIT, upstream's |
-| [`ai-flows/`](ai-flows/) | Flows, composition, the measurement harness, the knowledge base and the [system agents](ai-flows/agents/system/memory/) | Apache 2.0 |
-| [`ai-memory/`](ai-memory/) | The memory agents, as a tree that runs as a tree | Apache 2.0 |
-| [`ai-ui/`](ai-ui/) | The desk | Apache 2.0 |
-| [`projects/`](projects/) | Work running **on** the OS. Two: [`coclea-sr/`](projects/coclea-sr/), Python, **28 gates / 135 checks**, and [`hemo-verified/`](projects/hemo-verified/), whose kill gate survived at AUC 0.906 | Apache 2.0 |
-| [`ai-storage/`](ai-storage/) | The local model's memory: notes with verified provenance, a token-bounded index, five specialists, and the benchmark whose first result went **against** the design | Apache 2.0 |
+|                              |                                                                                                                                                                                                 |                 |
+| ---------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------- |
+| [`ai-base/`](ai-base/)       | QM, vendored as a subtree and pulled weekly                                                                                                                                                     | MIT, upstream's |
+| [`ai-flows/`](ai-flows/)     | Flows, composition, the measurement harness, the knowledge base and the [system agents](ai-flows/agents/system/memory/)                                                                         | Apache 2.0      |
+| [`ai-memory/`](ai-memory/)   | The memory agents, as a tree that runs as a tree                                                                                                                                                | Apache 2.0      |
+| [`ai-ui/`](ai-ui/)           | The desk                                                                                                                                                                                        | Apache 2.0      |
+| [`projects/`](projects/)     | Work running **on** the OS. Two: [`coclea-sr/`](projects/coclea-sr/), Python, **28 gates / 135 checks**, and [`hemo-verified/`](projects/hemo-verified/), whose kill gate survived at AUC 0.906 | Apache 2.0      |
+| [`ai-storage/`](ai-storage/) | The local model's memory: notes with verified provenance, a token-bounded index, five specialists, and the benchmark whose first result went **against** the design                             | Apache 2.0      |
 
 `ai-base/` stays byte-identical to upstream. Anything we change there needs a
 line in [`ai-base/AI-OS-PATCHES.md`](ai-base/AI-OS-PATCHES.md), and CI enforces
@@ -160,8 +164,7 @@ was false for two documents until 2026-08-24, so
 [`check-doc-mirrors.py`](scripts/check-doc-mirrors.py) now checks it, and a
 document that is deliberately English-only has to say why.
 
----
+______________________________________________________________________
 
 The primary project of [Evolving Agents Lab](https://github.com/EvolvingAgentsLabs).
 Everything else in the organisation is frozen — [why](doc/07-freeze-policy.md).
-

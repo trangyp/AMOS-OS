@@ -4,43 +4,40 @@ title: SKILL — Amos Knowledge Research Master
 type: skill
 source: 07_SKILLS/amos-knowledge-research-master
 name: amos-knowledge-research-master
-description: AMOS Knowledge & Research — Obsidian vault integration, arxiv research,
-  knowledge indexing, curation, RAG best practices. 68,979-note vault as reasoning
-  brain. Use when knowledge management, researc. Do not use for generic tasks outside
-  knowledge domain.
+description: AMOS Knowledge & Research — Obsidian vault integration, arxiv research, knowledge indexing, curation, RAG best practices. 68,979-note vault as reasoning brain. Use when knowledge management, researc. Do not use for generic tasks outside knowledge domain.
 parent_skill: none
 domain: knowledge
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CANON
 tags:
-- type/skill
-- type/skill
-- domain/knowledge-research
-- epistemic/source_claim
-- hml/m
-- epistemic/source_canon
-- amos-os
-- amos-c01-meta-logic-master-knowledge
-- amos-c12-earth-ecology-master-knowledge
-- amos-c02-math-compute-master-knowledge
-- amos-c03-physics-cosmos-master-knowledge
-- amos-c04-bio-neuro-master-knowledge
-- amos-c10-tech-engineering-master-knowledge
-- amos-c11-design-language-master-knowledge
-- amos-c05-mind-behavior-master-knowledge
-- amos-c06-society-culture-master-knowledge
-- amos-c07-econ-finance-master-knowledge
-- amos-c08-strategy-game-master-knowledge
-- amos-c09-org-law-policy-master-knowledge
-- agent-onboarding-guide
-- agent-schema
-- agent-templates
-- amos-content-agent-matrix-system
-- environment-scan-agent
-- agent-template
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/knowledge-research
+  - epistemic/source_claim
+  - hml/m
+  - epistemic/source_canon
+  - amos-os
+  - amos-c01-meta-logic-master-knowledge
+  - amos-c12-earth-ecology-master-knowledge
+  - amos-c02-math-compute-master-knowledge
+  - amos-c03-physics-cosmos-master-knowledge
+  - amos-c04-bio-neuro-master-knowledge
+  - amos-c10-tech-engineering-master-knowledge
+  - amos-c11-design-language-master-knowledge
+  - amos-c05-mind-behavior-master-knowledge
+  - amos-c06-society-culture-master-knowledge
+  - amos-c07-econ-finance-master-knowledge
+  - amos-c08-strategy-game-master-knowledge
+  - amos-c09-org-law-policy-master-knowledge
+  - agent-onboarding-guide
+  - agent-schema
+  - agent-templates
+  - amos-content-agent-matrix-system
+  - environment-scan-agent
+  - agent-template
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -50,20 +47,20 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: M
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L16
-- L17
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L16
+  - L17
 license: MIT
 steward: Trang Phan
 ---
@@ -73,6 +70,7 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: knowledge. Parent: none. Epistemic class: SOURCE_CANON. H/M/L: M.
+
 ## When to Use
 
 AMOS Knowledge & Research — Obsidian vault integration, arxiv research, knowledge indexing, curation, RAG best practices. 68,979-note vault as reasoning brain. Use for knowledge management, researc...
@@ -98,16 +96,16 @@ AMOS Knowledge & Research — Obsidian vault integration, arxiv research, knowle
 ## Operations
 
 1. **knowle_research.integrate_vault**: Integrate AMOS Knowledge & Research vault knowledge: read, parse, index Markdown files with provenance and epistemic class.
-2. **knowle_research.validate_knowledge**: Validate AMOS Knowledge & Research knowledge entries for provenance, epistemic class, freshness, and dependency chain.
-3. **knowle_research.analyze_knowledge**: Analyze AMOS Knowledge & Research knowledge graph: MOC structure, orphan notes, wikilink health, and knowledge frontier.
-4. **knowle_research.trace_knowledge_provenance**: Trace AMOS Knowledge & Research knowledge to vault source paths, arxiv papers, and derivation chain.
-5. **knowle_research.assess_knowledge_claim**: Assess AMOS Knowledge & Research knowledge claims for source quality, citation completeness, and scope validity.
-6. **knowle_research.manage_knowledge_lifecycle**: Manage AMOS Knowledge & Research knowledge lifecycle: ingest, index, curate, validate, update, and archive.
-7. **knowle_research.detect_knowledge_drift**: Detect knowledge drift: stale entries, broken wikilinks, orphan notes, and provenance decay.
-8. **knowle_research.escalate_knowledge_gaps**: Escalate AMOS Knowledge & Research knowledge gaps: flag missing sources, broken links, trigger vault repair.
-9. **knowle_research.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-10. **knowle_research.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
-11. **knowle_research.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+1. **knowle_research.validate_knowledge**: Validate AMOS Knowledge & Research knowledge entries for provenance, epistemic class, freshness, and dependency chain.
+1. **knowle_research.analyze_knowledge**: Analyze AMOS Knowledge & Research knowledge graph: MOC structure, orphan notes, wikilink health, and knowledge frontier.
+1. **knowle_research.trace_knowledge_provenance**: Trace AMOS Knowledge & Research knowledge to vault source paths, arxiv papers, and derivation chain.
+1. **knowle_research.assess_knowledge_claim**: Assess AMOS Knowledge & Research knowledge claims for source quality, citation completeness, and scope validity.
+1. **knowle_research.manage_knowledge_lifecycle**: Manage AMOS Knowledge & Research knowledge lifecycle: ingest, index, curate, validate, update, and archive.
+1. **knowle_research.detect_knowledge_drift**: Detect knowledge drift: stale entries, broken wikilinks, orphan notes, and provenance decay.
+1. **knowle_research.escalate_knowledge_gaps**: Escalate AMOS Knowledge & Research knowledge gaps: flag missing sources, broken links, trigger vault repair.
+1. **knowle_research.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+1. **knowle_research.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+1. **knowle_research.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## Consolidated Sub-Skills (143)
 
@@ -120,47 +118,60 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 > **Source**: `11_KNOWLEDGE/11_KNOWLEDGE_MOC.md` (content_hash: 665f1b63068333a0) from the AMOS_OS Obsidian vault.
 > This is substantive domain knowledge, not script-generated content.
 
-# 11_KNOWLEDGE MOC — part 2
+## 11_KNOWLEDGE MOC — part 2
 
 > Index of 40 top-level knowledge notes.
 
 ## C1
+
 - [[11_KNOWLEDGE/AMOS_C01_META_LOGIC_MASTER_KNOWLEDGE|AMOS_C01_META_LOGIC_MASTER_KNOWLEDGE]] — AMOS C01 META LOGIC MASTER KNOWLEDGE
 
 ## C10
+
 - [[11_KNOWLEDGE/AMOS_C10_TECH_ENGINEERING_MASTER_KNOWLEDGE|AMOS_C10_TECH_ENGINEERING_MASTER_KNOWLEDGE]] — AMOS C10 TECH ENGINEERING MASTER KNOWLEDGE
 
 ## C11
+
 - [[11_KNOWLEDGE/AMOS_C11_DESIGN_LANGUAGE_MASTER_KNOWLEDGE|AMOS_C11_DESIGN_LANGUAGE_MASTER_KNOWLEDGE]] — AMOS C11 DESIGN LANGUAGE MASTER KNOWLEDGE
 
 ## C12
+
 - [[11_KNOWLEDGE/AMOS_C12_EARTH_ECOLOGY_MASTER_KNOWLEDGE|AMOS_C12_EARTH_ECOLOGY_MASTER_KNOWLEDGE]] — AMOS C12 — Earth & Ecology Master Knowledge
 
 ## C2
+
 - [[11_KNOWLEDGE/AMOS_C02_MATH_COMPUTE_MASTER_KNOWLEDGE|AMOS_C02_MATH_COMPUTE_MASTER_KNOWLEDGE]] — AMOS C02 MATH COMPUTE MASTER KNOWLEDGE
 
 ## C3
+
 - [[11_KNOWLEDGE/AMOS_C03_PHYSICS_COSMOS_MASTER_KNOWLEDGE|AMOS_C03_PHYSICS_COSMOS_MASTER_KNOWLEDGE]] — AMOS C03 — Physics & Cosmos Master Knowledge
 
 ## C4
+
 - [[11_KNOWLEDGE/AMOS_C04_BIO_NEURO_MASTER_KNOWLEDGE|AMOS_C04_BIO_NEURO_MASTER_KNOWLEDGE]] — AMOS C04 BIO NEURO MASTER KNOWLEDGE
 
 ## C5
+
 - [[11_KNOWLEDGE/AMOS_C05_MIND_BEHAVIOR_MASTER_KNOWLEDGE|AMOS_C05_MIND_BEHAVIOR_MASTER_KNOWLEDGE]] — AMOS C05 MIND BEHAVIOR MASTER KNOWLEDGE
 
 ## C6
+
 - [[11_KNOWLEDGE/AMOS_C06_SOCIETY_CULTURE_MASTER_KNOWLEDGE|AMOS_C06_SOCIETY_CULTURE_MASTER_KNOWLEDGE]] — AMOS C06 SOCIETY CULTURE MASTER KNOWLEDGE
 
 ## C7
+
 - [[11_KNOWLEDGE/AMOS_C07_ECON_FINANCE_MASTER_KNOWLEDGE|AMOS_C07_ECON_FINANCE_MASTER_KNOWLEDGE]] — AMOS C07 ECON FINANCE MASTER KNOWLEDGE
 
 ## C8
+
 - [[11_KNOWLEDGE/AMOS_C08_STRATEGY_GAME_MASTER_KNOWLEDGE|AMOS_C08_STRATEGY_GAME_MASTER_KNOWLEDGE]] — AMOS C08 STRATEGY GAME MASTER KNOWLEDGE
 
 ## C9
+
 - [[11_KNOWLEDGE/AMOS_C09_ORG_LAW_POLICY_MASTER_KNOWLEDGE|AMOS_C09_ORG_LAW_POLICY_MASTER_KNOWLEDGE]] — AMOS C09 ORG LAW POLICY MASTER KNOWLEDGE
 
 ## agent
+
 - [[11_KNOWLEDGE/AGENT_ONBOARDING_GUIDE|AGENT_ONBOARDING_GUIDE]] — AMOS AGENT ONBOARDING GUIDE
 - [[11_KNOWLEDGE/AGENT_SCHEMA|AGENT_SCHEMA]] — AMOS Agent Schema — Full Governed Specification
 - [[11_KNOWLEDGE/AGENT_TEMPLATES|AGENT_TEMPLATES]] — AMOS Agent Templates
@@ -170,23 +181,26 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 - EXECUTOR
 - AGENT_TEMPLATE
 
----
+______________________________________________________________________
+
 **MOC:** [[07_SKILLS/amos-knowledge-research-master/amos-knowledge-research-master_MOC|amos-knowledge-research-master_MOC]]
 
 ## Examples
 
 - **Scenario**: When managing lifecycle operations across classify, validate, trace, assess, and detect
+
   - **Input**: A query matching this skill's domain (knowledge)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When detecting drift in evidence chains, provenance freshness, or confidence calibration
+
   - **Input**: A query matching this skill's domain (knowledge)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When validating outputs against domain constraints and epistemic class
+
   - **Input**: A query matching this skill's domain (knowledge)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Validation Gates
 
@@ -203,7 +217,6 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `none` — routes to this skill when knowledge specialization is needed
@@ -211,7 +224,6 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -230,7 +242,6 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -238,7 +249,6 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -265,11 +275,12 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 - `references/science_engine_sector_packs.md` — loaded on demand
 - `references/scientific_engine_layer.md` — loaded on demand
 - `references/scientific_engine_vinfinity.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `none` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `amos-knowledge-research-master-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -277,12 +288,14 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-knowledge-research-master
 node_type: skill
 path: 07_SKILLS/amos-knowledge-research-master/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

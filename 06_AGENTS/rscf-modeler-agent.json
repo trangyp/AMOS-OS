@@ -74,7 +74,7 @@
     "rscf-modeler"
   ],
   "depends_on_workflows": [
-    "rscf-modeler-workflow.md"
+    "amos-rscf-modeler-workflow.md"
   ],
   "epistemic_class": "AMOS_MODEL",
   "claim_ceiling": 0.95,

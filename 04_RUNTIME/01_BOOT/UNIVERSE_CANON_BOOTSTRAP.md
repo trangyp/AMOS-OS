@@ -12,15 +12,15 @@ segment: 04_RUNTIME/01_BOOT
 artifact_kind: BOOTSTRAP_SPEC
 path: 04_RUNTIME/01_BOOT/UNIVERSE_CANON_BOOTSTRAP.md
 tags:
-- amos-os
-- runtime
-- vault
-- 01_boot
-- universe_canon_bootstrap
-- 7_part_universe_init
-- rscf
-- canon_candidate
-- canon/runtime
+  - amos-os
+  - runtime
+  - vault
+  - 01_boot
+  - universe_canon_bootstrap
+  - 7_part_universe_init
+  - rscf
+  - canon_candidate
+  - canon/runtime
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -35,13 +35,13 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - 01_CANON/07_PART_UNIVERSE_CANON
-  - 04_RUNTIME/01_BOOT/01_BOOT_MOC
-  - AMOS_CORPUS
+    - 01_CANON/07_PART_UNIVERSE_CANON
+    - 04_RUNTIME/01_BOOT/01_BOOT_MOC
+    - AMOS_CORPUS
   scope:
-  - RUNTIME_BOOT
-  - UNIVERSE_BOOTSTRAP
-  - SOURCE_DEFINED_MODEL
+    - RUNTIME_BOOT
+    - UNIVERSE_BOOTSTRAP
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   boot_moc:
     artifact: 04_RUNTIME/01_BOOT/01_BOOT_MOC
@@ -60,9 +60,9 @@ epistemic_boundary:
 
 `UNIVERSE_CANON_BOOTSTRAP.md` is the canonical Runtime Plane specification governing the cold-start registration and scale-invariant grounding of the **7-Part Universe Total Canon** within `04_RUNTIME/01_BOOT`.
 
----
+______________________________________________________________________
 
-# 1. Cosmological Strata Registration Sequence
+## 1. Cosmological Strata Registration Sequence
 
 ```text
   Part 1 Ingestion: Absolute Physical Substrate & Energy Conservation
@@ -82,17 +82,17 @@ epistemic_boundary:
   Universe Canon Convergence Lock Confirmed
 ```
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Boot MOC:** 04_RUNTIME/01_BOOT/[[04_RUNTIME/01_BOOT/01_BOOT_MOC|01_BOOT_MOC]]
 - **Universe Canon MOC:** 01_CANON/07_PART_UNIVERSE_CANON/07_PART_UNIVERSE_CANON_MOC
 - **Cognitive Matrix:** 25_COGNITIVE_MATRIX/[[25_COGNITIVE_MATRIX/AMOS_X_UNIVERSE_CANON|AMOS_X_UNIVERSE_CANON]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -110,9 +110,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME_MOC]] · 04_RUNTIME/01_BOOT/[[04_RUNTIME/01_BOOT/01_BOOT_MOC|01_BOOT_MOC]] · 01_CANON/07_PART_UNIVERSE_CANON/07_PART_UNIVERSE_CANON_MOC
 
----
+______________________________________________________________________
+
 **MOC:** 04_RUNTIME/01_BOOT/[[04_RUNTIME/01_BOOT/01_BOOT_MOC|01_BOOT_MOC]]

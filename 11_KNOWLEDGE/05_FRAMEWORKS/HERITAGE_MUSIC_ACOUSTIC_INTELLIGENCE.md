@@ -12,23 +12,23 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: INTELLIGENCE
 path: 11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_MUSIC_ACOUSTIC_INTELLIGENCE.md
 tags:
-- amos-os
-- knowledge
-- vault
-- 05_frameworks
-- heritage_music_acoustic
-- acoustic_intelligence
-- harmonic_resonance
-- dong_son_acoustics
-- frequency_ladders
-- rscf
-- canon_candidate
-- canon/knowledge
-- heritage-intelligence-master
-- heritage-fractal-mathematics
-- unified-biological-intelligence
-- ubi-bioelectromagnetic-intelligence
-- heritage-music-acoustic-rules
+  - amos-os
+  - knowledge
+  - vault
+  - 05_frameworks
+  - heritage_music_acoustic
+  - acoustic_intelligence
+  - harmonic_resonance
+  - dong_son_acoustics
+  - frequency_ladders
+  - rscf
+  - canon_candidate
+  - canon/knowledge
+  - heritage-intelligence-master
+  - heritage-fractal-mathematics
+  - unified-biological-intelligence
+  - ubi-bioelectromagnetic-intelligence
+  - heritage-music-acoustic-rules
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -43,22 +43,22 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - HERITAGE_INTELLIGENCE_CANON
-  - AMOS_CORPUS
+    - HERITAGE_INTELLIGENCE_CANON
+    - AMOS_CORPUS
   scope:
-  - KNOWLEDGE_FRAMEWORKS
-  - ACOUSTIC_INTELLIGENCE
-  - SOURCE_DEFINED_MODEL
+    - KNOWLEDGE_FRAMEWORKS
+    - ACOUSTIC_INTELLIGENCE
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   master_framework:
     artifact:
-    - - HERITAGE_INTELLIGENCE_MASTER
+      -   - HERITAGE_INTELLIGENCE_MASTER
   fractal_math:
     artifact:
-    - - HERITAGE_FRACTAL_MATHEMATICS
+      -   - HERITAGE_FRACTAL_MATHEMATICS
   biological_rhythm:
     artifact:
-    - - UNIFIED_BIOLOGICAL_INTELLIGENCE
+      -   - UNIFIED_BIOLOGICAL_INTELLIGENCE
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
@@ -72,26 +72,26 @@ epistemic_boundary:
 
 It models harmonic resonance, acoustic frequency ladders, and vibrational synchronization discovered in ancient metallurgical and musical artifacts (such as Đông Sơn bronze drums), bridging physical sound waves to biological entrainment and collective coordination.
 
----
+______________________________________________________________________
 
-# 1. Acoustic & Harmonic Principles
+## 1. Acoustic & Harmonic Principles
 
 1. **Harmonic Ratios & Entrainment:** Utilizing mathematical integer ratios ($1:2, 2:3, 3:4$) to induce neural oscillatory phase-locking (BEI coherence).
-2. **Acoustic Wave Topology:** Designing physical geometries that amplify constructive acoustic interference while dampening dissonant noise.
-3. **Collective Coordination Rhythms:** Utilizing synchronized percussive frequencies to align group social cohesion ($H$) and reduce cognitive friction.
+1. **Acoustic Wave Topology:** Designing physical geometries that amplify constructive acoustic interference while dampening dissonant noise.
+1. **Collective Coordination Rhythms:** Utilizing synchronized percussive frequencies to align group social cohesion ($H$) and reduce cognitive friction.
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Master Framework:** [[11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_INTELLIGENCE_MASTER|HERITAGE_INTELLIGENCE_MASTER]]
 - **Fractal Math:** [[11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_FRACTAL_MATHEMATICS|HERITAGE_FRACTAL_MATHEMATICS]]
 - **Bioelectromagnetics:** [[11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/UBI_BIOELECTROMAGNETIC_INTELLIGENCE|UBI_BIOELECTROMAGNETIC_INTELLIGENCE]]
 - **Domain Rules:** [[11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/HERITAGE_MUSIC_ACOUSTIC_RULES|HERITAGE_MUSIC_ACOUSTIC_RULES]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -109,10 +109,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_INTELLIGENCE_MASTER|HERITAGE_INTELLIGENCE_MASTER]] · [[11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_FRACTAL_MATHEMATICS|HERITAGE_FRACTAL_MATHEMATICS]]
 
----
-**MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]
+______________________________________________________________________
 
+**MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]

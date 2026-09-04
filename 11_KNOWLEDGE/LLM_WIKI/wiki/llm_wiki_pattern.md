@@ -1,12 +1,15 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: LLM Wiki Pattern
 type: concept
 source: 11_KNOWLEDGE/LLM_WIKI
 tags:
-- concept
-- llm-wiki
-- canon/knowledge
-- karpathy-llm-wiki-summary
+  - concept
+  - llm-wiki
+  - canon/knowledge
+  - karpathy-llm-wiki-summary
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -37,17 +40,20 @@ RAG retrieves raw text at query time and re-reasons each time. A wiki is a persi
 
 ## AMOS instantiation
 
-The AMOS vault realizes this pattern as the `LLM_WIKI` subsystem under `11_KNOWLEDGE/LLM_WIKI/`, governed by `` and supported by the `` guide.
+The AMOS vault realizes this pattern as the `LLM_WIKI` subsystem under `11_KNOWLEDGE/LLM_WIKI/`, governed by `and supported by the` guide.
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: llm_wiki_pattern
 node_type: concept
 path: 11_KNOWLEDGE/LLM_WIKI/wiki/llm_wiki_pattern.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[11_KNOWLEDGE/LLM_WIKI/wiki/LLM_WIKI_INDEX|LLM_WIKI_INDEX]]
-  - DERIVED_FROM: [[11_KNOWLEDGE/LLM_WIKI/wiki/karpathy_llm_wiki_summary|karpathy_llm_wiki_summary]]
-claim_class: DERIVED
 
----
+- INDEXED_BY: [[11_KNOWLEDGE/LLM_WIKI/wiki/LLM_WIKI_INDEX|LLM_WIKI_INDEX]]
+- DERIVED_FROM: [[11_KNOWLEDGE/LLM_WIKI/wiki/karpathy_llm_wiki_summary|karpathy_llm_wiki_summary]]
+  claim_class: DERIVED
+
+______________________________________________________________________
+
 **MOC:** [[11_KNOWLEDGE/LLM_WIKI/LLM_WIKI_MOC]]

@@ -12,21 +12,21 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: FRAMEWORK
 path: 11_KNOWLEDGE/05_FRAMEWORKS/UBI_ABSOLUTE_BIOLOGICAL_INTEGRITY.md
 tags:
-- amos-os
-- knowledge
-- vault
-- 05_frameworks
-- ubi_absolute_integrity
-- biological_integrity
-- substrate_preservation
-- non_violable_boundaries
-- rscf
-- canon_candidate
-- canon/knowledge
-- unified-biological-intelligence
-- absolute-structural-integrity
-- ubi-wearable-framework
-- amos-x-ubi
+  - amos-os
+  - knowledge
+  - vault
+  - 05_frameworks
+  - ubi_absolute_integrity
+  - biological_integrity
+  - substrate_preservation
+  - non_violable_boundaries
+  - rscf
+  - canon_candidate
+  - canon/knowledge
+  - unified-biological-intelligence
+  - absolute-structural-integrity
+  - ubi-wearable-framework
+  - amos-x-ubi
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -41,20 +41,20 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - UBI_OFFICIAL_MANUAL
-  - ABSOLUTE_STRUCTURAL_INTEGRITY
-  - AMOS_CORPUS
+    - UBI_OFFICIAL_MANUAL
+    - ABSOLUTE_STRUCTURAL_INTEGRITY
+    - AMOS_CORPUS
   scope:
-  - KNOWLEDGE_FRAMEWORKS
-  - BIOLOGICAL_INTEGRITY
-  - SOURCE_DEFINED_MODEL
+    - KNOWLEDGE_FRAMEWORKS
+    - BIOLOGICAL_INTEGRITY
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   master_framework:
     artifact:
-    - - UNIFIED_BIOLOGICAL_INTELLIGENCE
+      -   - UNIFIED_BIOLOGICAL_INTELLIGENCE
   structural_integrity:
     artifact:
-    - - ABSOLUTE_STRUCTURAL_INTEGRITY
+      -   - ABSOLUTE_STRUCTURAL_INTEGRITY
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
@@ -68,26 +68,26 @@ epistemic_boundary:
 
 It establishes non-violable boundary conditions ensuring that technological, artificial, or economic optimization loops cannot degrade the living biological substrate below regenerative recovery thresholds.
 
----
+______________________________________________________________________
 
-# 1. Non-Violable Biological Boundaries
+## 1. Non-Violable Biological Boundaries
 
 1. **Substrate Primacy:** No computational efficiency gain licenses chronic neurological, somatic, or affective destruction of human biological operators.
-2. **Regenerative Envelope:** All system workloads must guarantee sufficient refractory time for biological homeostatic reset ($i \ge i_{\text{threshold}}$).
-3. **Biological Alignment Law:** Synthetic systems interacting with human biology must conform to human biological rhythms (BEI) and cognitive load ceilings (NBI).
+1. **Regenerative Envelope:** All system workloads must guarantee sufficient refractory time for biological homeostatic reset ($i \ge i_{\text{threshold}}$).
+1. **Biological Alignment Law:** Synthetic systems interacting with human biology must conform to human biological rhythms (BEI) and cognitive load ceilings (NBI).
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Master Framework:** [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]]
 - **Structural Integrity:** [[11_KNOWLEDGE/05_FRAMEWORKS/ABSOLUTE_STRUCTURAL_INTEGRITY|ABSOLUTE_STRUCTURAL_INTEGRITY]]
 - **Wearable Monitoring:** [[11_KNOWLEDGE/05_FRAMEWORKS/UBI_WEARABLE_FRAMEWORK|UBI_WEARABLE_FRAMEWORK]]
 - **Cognitive Matrix:** [[25_COGNITIVE_MATRIX/AMOS_X_UBI|AMOS_X_UBI]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -105,10 +105,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]] · [[11_KNOWLEDGE/05_FRAMEWORKS/ABSOLUTE_STRUCTURAL_INTEGRITY|ABSOLUTE_STRUCTURAL_INTEGRITY]] · [[25_COGNITIVE_MATRIX/AMOS_X_UBI|AMOS_X_UBI]]
 
----
-**MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]
+______________________________________________________________________
 
+**MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]

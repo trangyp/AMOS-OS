@@ -14,9 +14,9 @@ architecture: HML_fractal_single_file
 placeholder_status: NONE
 version: 1.1
 tags:
-- knowledge
-- note
-- canon/knowledge
+  - knowledge
+  - note
+  - canon/knowledge
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -45,6 +45,7 @@ rscf:
 ## 0. C11 Knowledge Contract
 
 ### 0.1 Claim classes
+
 - **VERIFIED** — strongly supported linguistic/typographic observation within a stated corpus or regime.
 - **DERIVED** — consequence of stated premises, conventions, or engine rules.
 - **MODEL** — representation useful within stated scope (e.g., fractal language analogy).
@@ -55,34 +56,38 @@ rscf:
 - **UNKNOWN/GAP** — insufficient evidence or unresolved mechanism.
 
 ### 0.2 Evidence classes
+
 `CORPUS`, `OBSERVATION`, `SOURCE_SPEC` (documented engine specification), `DERIVED`,
 `MODEL`, `INTERPRETIVE`, `STYLE_VALUE`, `UNKNOWN`.
 
 ### 0.3 C11 H-level ownership
+
 1. Design Engine Lineage & Architecture
-2. Visual & Structural Design Language Systems
-3. Vietnamese Fractal Language Analysis
-4. Vietnamese Executive Writing Engine
-5. Academic Writing Kernel
-6. Expression Translation Constrained Envelopes
-7. Tone, Style & Aesthetic Governance
-8. Evaluation, Falsification & Quality Gates
+1. Visual & Structural Design Language Systems
+1. Vietnamese Fractal Language Analysis
+1. Vietnamese Executive Writing Engine
+1. Academic Writing Kernel
+1. Expression Translation Constrained Envelopes
+1. Tone, Style & Aesthetic Governance
+1. Evaluation, Falsification & Quality Gates
 
 A topic has one primary owner. Cross-links are references, not duplicated substantive sections.
 
 ### 0.4 Standard knowledge node schema
+
 Where applicable:
 **definition → state variables → governing relations → assumptions → mechanisms → observables →
 data sources → empirical status → scope/regime → uncertainty → failure modes → competing models →
 falsifiers → dependencies → decision relevance → AMOS bridge**.
 
----
+______________________________________________________________________
 
-# H1 — Design Engine Lineage & Architecture
+## H1 — Design Engine Lineage & Architecture
 
 ## M1. Lineage Map
 
 ### L1. Documented lineage chain
+
 The design-language family descends from `_00_Cosmo brain/C11_design_language_SUPER.md`
 (SOURCE_SPEC) and its descendants:
 
@@ -102,7 +107,9 @@ Adjacent but separately owned: `amos-design-strategic-systems` (strategy/design 
 relative maturity or capability across versions.
 
 ### L2. Canonical integration points
+
 Per the super-skill specification (SOURCE_SPEC):
+
 - Parent Kernel: `AMOS_KERNEL_SUPER_vInfinity`;
 - Parent Brain: `AMOS_BRAIN_ROOT`;
 - Governing Laws: Law of Law, Rule of 2, Rule of 4, E=I²;
@@ -112,20 +119,23 @@ These are declared architecture facts of the AMOS canon, not externally verifiab
 claims.
 
 ### L3. Safety posture
+
 Design outputs are educational and analytical only; no medical, legal, or financial guarantees.
 All architecture credited to Trang Phan; no proprietary canon exposure. (SOURCE_SPEC.)
 
----
+______________________________________________________________________
 
 ## M2. Governing Principles as Applied to Design
 
 ### L1. Law of Law
+
 Every generated design artifact must be checkable against a governing rule set. In practice:
 a design decision should name the constraint it satisfies or violates.
 
 **Class:** DERIVED from canon law stack.
 
 ### L2. Rule of 2 / Rule of 4
+
 Structural decomposition discipline: prefer binary splits at one level and quaternary grouping
 at another when organizing components. This is a canonical convention for keeping hierarchies
 auditable.
@@ -134,19 +144,22 @@ auditable.
 design theorem.
 
 ### L3. Integrity ordering
+
 The AMOS ordering `integrity > completeness > fluency > speed` applies to design artifacts:
 a partially specified but honest component beats a fluent but fabricated one.
 
 **Class:** VALUE (architectural value commitment), applied as policy.
 
----
+______________________________________________________________________
 
-# H2 — Visual & Structural Design Language Systems
+## H2 — Visual & Structural Design Language Systems
 
 ## M1. Design Tokens and Structure
 
 ### L1. Token layering
+
 A standard structural design system separates:
+
 - primitive tokens (raw color, spacing, type scale);
 - semantic tokens (roles: surface, text-primary, accent);
 - component tokens (button, card, input);
@@ -157,16 +170,18 @@ This layering is a widely used industry pattern (VERIFIED as common practice), t
 token vocabularies vary by system (DESIGN.md, Material, etc.).
 
 ### L2. Consistency mechanism
+
 Consistency is achieved by constraining choices: fewer primitives, mapped roles, and a single
 source of truth per token. Drift occurs when components hard-code raw values.
 
 **Class:** DERIVED from token architecture.
 
----
+______________________________________________________________________
 
 ## M2. Component Architecture
 
 ### L1. Component contracts
+
 A component has inputs (props/content), states (default, hover, focus, disabled, loading,
 error), variants (size, emphasis), and accessibility requirements (contrast, focus order,
 screen-reader labels).
@@ -174,16 +189,18 @@ screen-reader labels).
 **Class:** VERIFIED as established practice in modern UI systems.
 
 ### L2. Composition over duplication
+
 Systems favor composable primitives over near-duplicate components, because duplicated
 components diverge under maintenance pressure.
 
 **Class:** DERIVED / widely held engineering judgment (VALUE-adjacent).
 
----
+______________________________________________________________________
 
 ## M3. Accessibility Constraints
 
 ### L1. Hard constraints
+
 Accessibility imposes objective constraints, e.g., minimum contrast ratios (WCAG specifies
 numeric thresholds), keyboard operability, focus visibility, and non-color-dependent signaling.
 
@@ -191,26 +208,29 @@ numeric thresholds), keyboard operability, focus visibility, and non-color-depen
 the standard version in use.
 
 ### L2. Aesthetic tension
+
 Meeting contrast or focus requirements can constrain visual styling. Whether the resulting look
 is "good" is a VALUE judgment by audience and brand — not decidable by measurement alone.
 
----
+______________________________________________________________________
 
-# H3 — Vietnamese Fractal Language Analysis
+## H3 — Vietnamese Fractal Language Analysis
 
 ## M1. The Fractal Language Hypothesis
 
 ### L1. Claim as stated (from amos-fractal-vietnamese-language)
+
 Beyond phonetics: the Vietnamese compounding system builds meaning recursively — syllables
 combine into words by construction principles similar to those combining words into idioms and
 idioms into proverbs.
 
 Four layers:
+
 1. **Syllable layer** — tonal + segmental base units;
-2. **Compound layer** — semantic recombination (e.g., cơm + gạo yields meanings not predicted
+1. **Compound layer** — semantic recombination (e.g., cơm + gạo yields meanings not predicted
    from parts alone);
-3. **Idiom layer** — cultural compression (thành ngữ pack narratives into ~4 syllables);
-4. **Proverb layer** — civilizational memory (tục ngữ encode accumulated survival wisdom).
+1. **Idiom layer** — cultural compression (thành ngữ pack narratives into ~4 syllables);
+1. **Proverb layer** — civilizational memory (tục ngữ encode accumulated survival wisdom).
 
 Recurrence claim: modifier-head construction, parallelism, and tonal contrast repeat measurably
 across all four layers.
@@ -221,46 +241,52 @@ The *fractal self-similarity* claim is an ANALOGY whose strength depends on corp
 recurrence measurement, not impression.
 
 ### L2. Required gates
-| Gate | Check |
-|------|-------|
-| G1 | Corpus-based recurrence checks, not impressionistic claims |
-| G2 | Cultural-meaning claims labeled INTERPRETIVE |
+
+| Gate | Check                                                      |
+| ---- | ---------------------------------------------------------- |
+| G1   | Corpus-based recurrence checks, not impressionistic claims |
+| G2   | Cultural-meaning claims labeled INTERPRETIVE               |
 
 ### L3. Falsifiers
+
 The fractal hypothesis weakens if measured construction-principle recurrence rates differ
 substantially across layers (e.g., compound formation obeys different statistical laws than
 idiom formation after controlling for length and frequency).
 
----
+______________________________________________________________________
 
 ## M2. Cultural Interpretation Layer
 
 ### L1. Proverbs as memory
+
 The claim that tục ngữ encode civilizational/survival memory is plausible and widely asserted
 (INTERPRETIVE). It becomes testable only when a proverb corpus is dated, sourced, and thematically
 classified against historical conditions — rarely done rigorously.
 
 ### L2. Boundary
+
 Cultural-meaning statements ("Vietnamese speakers perceive X because Y") must never be output as
 fact. They are hypotheses about collective representation requiring corpus and behavioral evidence.
 
----
+______________________________________________________________________
 
 ## M3. Related Vietnamese Language Assets
 
 ### L1. Phonetics sibling
+
 `amos-fractal-vietnamese-phonetics` handles the 6/7-tone phonemic substrate (Northern 6-tone
 analysis vs Southern merger debates exist — COMPETING analyses depending on dialect and analytic
 convention).
 
 ### L2. Root-language skills
+
 `amos-vietnamese-root-language` and `-quantum` treat Vietnamese as a cognitive tool with somatic/
 phonemic grounding. These are MODEL-layer abstractions; their biological claims are not
 empirically validated and must be tagged accordingly.
 
----
+______________________________________________________________________
 
-# H4 — Vietnamese Executive Writing Engine
+## H4 — Vietnamese Executive Writing Engine
 
 Source: TRANG_SUPERWRITER_ENGINE (amos-vietnamese-writing-engine), 8 phases (v1.0–v8.0),
 88+ sections (SOURCE_SPEC).
@@ -268,6 +294,7 @@ Source: TRANG_SUPERWRITER_ENGINE (amos-vietnamese-writing-engine), 8 phases (v1.
 ## M1. Core Doctrine
 
 ### L1. Stated principles (Phase 1)
+
 - Structure before writing; every sentence answers a question;
 - write to be clear, not beautiful (**VALUE**, stated as doctrine);
 - executive-level conciseness; avoid emotion/literature in business prose (**VALUE/regime choice**);
@@ -277,11 +304,13 @@ Universal structure: ~40% diagnosis / 40% solution / 20% recommendation (house c
 DERIVED).
 
 ### L2. Signature style
+
 "Trang Signature Style" — Sắc-Gọn-Chắc (sharp-concise-solid): flat, standard, compact language.
 **Class:** STYLE_VALUE. It is a deliberate authorial identity, appropriate for Vietnamese
 executive/boardroom registers; it is not a claim that other styles are wrong in other contexts.
 
 ### L3. Reader model
+
 Leaders read to decide, not to understand everything; patience decreases at higher levels;
 every sentence carries decision weight (data/impact/comparison/urgency); persuasion = prove you
 see more, clearer, further; write as system coordinator, not executor.
@@ -292,6 +321,7 @@ measured psychological law.
 ## M2. Phase Progression
 
 ### L1. Phases 1–5 (individual → high-stakes)
+
 - P2: executive psychology & persuasion, ambiguity removal (numbers/ranges/timestamps),
   rhythm patterns, risk engineering;
 - P3: 30x persuasion enhancement, decision stacks (big picture → feasibility → risk → cost → roadmap);
@@ -299,6 +329,7 @@ measured psychological law.
 - P5: CEO reading behavior, sentence precision, signal-to-noise ratio, clarity tests, rewrite engine.
 
 ### L2. Phases 6–8 (national scale)
+
 - P6: VN executive specialization (tone core, boardroom clarity, cultural alignment, ownership voice);
 - P7: national/state-level writing (policy alignment, interagency coordination, socioeconomic context);
 - P8: prime-ministerial directive writing (action language, escalation, assignment, realism engines).
@@ -307,6 +338,7 @@ measured psychological law.
 Effectiveness of any phase's heuristics on real readers is UNKNOWN/GAP unless separately tested.
 
 ## M3. Document-Type Engines
+
 Internal email, meeting minutes, board paper, business proposal, policy/SOP, contract/legal
 drafting support, PR, government/regulator communication, advanced corporate writing — each with
 formatting standards and tone rules (SOURCE_SPEC).
@@ -314,46 +346,52 @@ formatting standards and tone rules (SOURCE_SPEC).
 Boundary note: legal documents produced here are drafts for professional review; no legal advice
 or guarantee.
 
----
+______________________________________________________________________
 
-# H5 — Academic Writing Kernel
+## H5 — Academic Writing Kernel
 
 Source: amos-academic-writing-kernel v1.1 (SOURCE conventions / DERIVED procedures).
 
 ## M1. Four Disciplines
 
 ### L1. Claim-evidence pairing
+
 Every paragraph carries ≤1 major claim; supporting evidence appears in the same paragraph.
 Paragraph-level audit catches orphan claims document-level reviews miss. (DERIVED procedure;
 motivated by the observation that unsupported claims read exactly as confidently as supported ones.)
 
 ### L2. Hedging calibration
+
 Verb strength matched to evidence class:
+
 - replicated experiments → "shows/demonstrates";
 - single studies → "found/reports";
 - correlational data → "is associated with";
 - theoretical models → "suggests/is consistent with".
-Overhedging also fails: weak language on strong results misrepresents too. (DERIVED mapping;
-specific verb inventories are conventions, not standards.)
+  Overhedging also fails: weak language on strong results misrepresents too. (DERIVED mapping;
+  specific verb inventories are conventions, not standards.)
 
 ### L3. Citation placement
+
 Citation at the CLAIM SITE, not a paragraph-end catch-all — the reader must see which support
 backs which assertion. (DERIVED discipline.)
 
 ### L4. Reviewer self-check
+
 Before submission: read as a hostile reviewer; list every objection; verify each is addressed or
 explicitly conceded. (DERIVED procedure.)
 
 ## M2. Operations and Gates
+
 Operations: `pair_claims`, `calibrate_hedging`, `structure_check(doc, convention)` (IMRaD and
 variants), `reviewer_pass`. Gates:
 
-| Gate | Check |
-|------|-------|
-| G1 | Zero unsupported claims survive |
-| G2 | Hedge ≤ evidence everywhere |
-| G3 | Citations at claim sites |
-| G4 | All reviewer objections addressed |
+| Gate | Check                             |
+| ---- | --------------------------------- |
+| G1   | Zero unsupported claims survive   |
+| G2   | Hedge ≤ evidence everywhere       |
+| G3   | Citations at claim sites          |
+| G4   | All reviewer objections addressed |
 
 Worked example: "meditation reduces anxiety" citing one pilot study (n=24) downgrades to "a
 pilot study found reduced anxiety measures", plus sample-size caveat in limitations.
@@ -361,9 +399,9 @@ pilot study found reduced anxiety measures", plus sample-size caveat in limitati
 MECE boundaries: Vietnamese executive prose → H4; corporate docs governance →
 `amos-corp-doc-engine-super`.
 
----
+______________________________________________________________________
 
-# H6 — Expression Translation Constrained Envelopes
+## H6 — Expression Translation Constrained Envelopes
 
 Source: AMOS_EXPRESSION_TRANSLATION_vInfinity_v4 (amos-expression-translation-engine;
 amos-expression-translation-vinfinity batch-11 wrapper).
@@ -371,6 +409,7 @@ amos-expression-translation-vinfinity batch-11 wrapper).
 ## M1. Role and Envelope
 
 ### L1. Role definition
+
 The Expression Translation Engine is the universal expression-to-logic gateway for the AMOS
 stack: receive human, symbolic, or hybrid expression; emit clean, deterministic, structurally
 precise logic usable by downstream engines (UBI, TSS, TPE, PSI, PISync, NEI/NBI/SI/BEI, brain
@@ -379,19 +418,22 @@ and domain engines).
 It is explicitly **NOT** a domain-answer engine — translation and normalization only.
 
 ### L2. Constrained envelope (what stays inside)
+
 Inputs handled: conversational language; strong emotional expression; narrative/story form;
 symbolic/spiritual language (tam linh, karma, tử vi, phong thủy, scripture references); cultural-coded
 Vietnamese patterns (lễ nghĩa, vai vế, hiếu, sĩ diện, giữ thể diện, "ngại", nói vòng/nói tránh);
 Western emotional framing; four cognitive-style groups + systemic outlier; mixed VI+EN input.
 
 Outputs (mandatory structure):
+
 1. MEANING_CORE — 1–3 short neutral sentences;
-2. INTENT_STRUCTURE;
-3. LOGIC_MAP (actors, systems, variables, constraints, time, direction + UBI/TSS/TPE/PSI mapping);
-4. SIGNAL_PROFILE (emotion/culture/symbolism → signal categories; effects on Ω/H/F/S variables);
-5. TRANSLATED_EXPRESSION.
+1. INTENT_STRUCTURE;
+1. LOGIC_MAP (actors, systems, variables, constraints, time, direction + UBI/TSS/TPE/PSI mapping);
+1. SIGNAL_PROFILE (emotion/culture/symbolism → signal categories; effects on Ω/H/F/S variables);
+1. TRANSLATED_EXPRESSION.
 
 ### L3. Hard constraints (must-not list)
+
 - No medical or clinical-psychological diagnosis;
 - no individual legal advice presented as guaranteed outcome;
 - never encourage self-harm/revenge/violence;
@@ -424,51 +466,54 @@ Law of Law, Rule of 2/4 (SOURCE_SPEC declaration).
 Known gap: the engine skill records `[UNKNOWN/GAP]` for its original source path — do not invent
 one.
 
----
+______________________________________________________________________
 
-# H7 — Tone, Style & Aesthetic Governance
+## H7 — Tone, Style & Aesthetic Governance
 
 ## M1. Register Matrix
 
-| Register | Owner | Governing value | Evidence basis |
-|---|---|---|---|
-| Vietnamese executive/national | H4 | decisiveness, density | SOURCE_SPEC + house doctrine |
-| Academic | H5 | claim-evidence visibility | DERIVED discipline |
-| Human-input translation | H6 | fidelity, neutrality | SOURCE_SPEC constraints |
-| Visual/UI design | H2 | consistency, accessibility | VERIFIED standards + practice |
-| Cultural/language analysis | H3 | corpus discipline, labeled interpretation | MODEL |
+| Register                      | Owner | Governing value                           | Evidence basis                |
+| ----------------------------- | ----- | ----------------------------------------- | ----------------------------- |
+| Vietnamese executive/national | H4    | decisiveness, density                     | SOURCE_SPEC + house doctrine  |
+| Academic                      | H5    | claim-evidence visibility                 | DERIVED discipline            |
+| Human-input translation       | H6    | fidelity, neutrality                      | SOURCE_SPEC constraints       |
+| Visual/UI design              | H2    | consistency, accessibility                | VERIFIED standards + practice |
+| Cultural/language analysis    | H3    | corpus discipline, labeled interpretation | MODEL                         |
 
 ## M2. Aesthetic Firewall
 
 ### L1. Value/fact separation
+
 Any statement of visual or literary taste must be typed STYLE_VALUE. Examples of VALUE claims:
 "Sắc-Gọn-Chắc is superior for boardroom prose"; "flat minimal design is better"; "this palette is
 beautiful". None may be presented as fact.
 
 ### L2. Regime dependence
+
 Style rules bind only within their declared regime. Executive conciseness doctrine must not leak
 into academic hedging discipline; academic caution must not paralyze directive prose; translation
 neutrality must not flatten culturally coded input before mapping.
 
 ## M3. IP and Attribution
+
 All architecture credited to Trang Phan; no proprietary canon exposure; educational/analytical
 posture throughout (SOURCE_SPEC).
 
----
+______________________________________________________________________
 
-# H8 — Evaluation, Falsification & Quality Gates
+## H8 — Evaluation, Falsification & Quality Gates
 
 ## M1. Universal Gate Set for C11 Outputs
 
-| Gate | Applies to | Check |
-|------|-----------|-------|
-| GA1 | All prose | Every factual claim typed (VERIFIED/DERIVED/MODEL/…) |
-| GA2 | Cultural analysis | INTERPRETIVE label present; corpus citation where claimed |
-| GA3 | Style guidance | Regime scope stated; VALUE vs fact separated |
-| GA4 | Translation | Mandatory 5-part output; must-not constraints honored |
-| GA5 | Academic draft | G1–G4 of H5 passed |
-| GA6 | Design artifact | Accessibility constraints checked against named standard version |
-| GA7 | Fractal-language claims | Recurrence backed by measurable corpus statistic, else downgraded |
+| Gate | Applies to              | Check                                                             |
+| ---- | ----------------------- | ----------------------------------------------------------------- |
+| GA1  | All prose               | Every factual claim typed (VERIFIED/DERIVED/MODEL/…)              |
+| GA2  | Cultural analysis       | INTERPRETIVE label present; corpus citation where claimed         |
+| GA3  | Style guidance          | Regime scope stated; VALUE vs fact separated                      |
+| GA4  | Translation             | Mandatory 5-part output; must-not constraints honored             |
+| GA5  | Academic draft          | G1–G4 of H5 passed                                                |
+| GA6  | Design artifact         | Accessibility constraints checked against named standard version  |
+| GA7  | Fractal-language claims | Recurrence backed by measurable corpus statistic, else downgraded |
 
 ## M2. Falsifiers Summary
 
@@ -486,9 +531,9 @@ posture throughout (SOURCE_SPEC).
 - fabricating source paths for skills that record UNKNOWN/GAP;
 - letting aesthetic preference masquerade as measurement.
 
----
+______________________________________________________________________
 
-# C11 ↔ CC05 Mind & Behavior Reference Bridge
+## C11 ↔ CC05 Mind & Behavior Reference Bridge
 
 ## Cross-domain reference
 
@@ -521,9 +566,9 @@ cross_domain_refs:
     confidence_rule: weakest_load_bearing_edge
 ```
 
----
+______________________________________________________________________
 
-# C11 Master Dependency Spine
+## C11 Master Dependency Spine
 
 ```text
 human expression (messy input)
@@ -547,7 +592,7 @@ evaluation gates & falsifiers [H8]
 AMOS cross-domain decision architecture
 ```
 
-# C11 Decision Capsule Template
+## C11 Decision Capsule Template
 
 ```text
 Artifact:
@@ -572,21 +617,22 @@ Falsifiers:
 Revalidation date:
 ```
 
-# C11 Promotion Rule
+## C11 Promotion Rule
 
 A new design/language claim may move from `MODEL`/`INTERPRETIVE` toward stronger status only when:
-1. terms and corpus/artifact boundary are operationally defined;
-2. register and audience scope are explicit;
-3. data provenance (corpus, standard version, spec path) is available;
-4. aesthetic judgments remain typed as VALUE and excluded from promotion;
-5. competing interpretations/styles are considered;
-6. causal claims identify mechanism and confounders;
-7. engine effectiveness is evaluated in the relevant regime, not assumed;
-8. cultural claims carry INTERPRETIVE labeling until corpus-tested;
-9. irreversible publications undergo reviewer-pass validation;
-10. governance records contradiction, supersession, and revalidation.
 
-# C11 Final Boundary
+1. terms and corpus/artifact boundary are operationally defined;
+1. register and audience scope are explicit;
+1. data provenance (corpus, standard version, spec path) is available;
+1. aesthetic judgments remain typed as VALUE and excluded from promotion;
+1. competing interpretations/styles are considered;
+1. causal claims identify mechanism and confounders;
+1. engine effectiveness is evaluated in the relevant regime, not assumed;
+1. cultural claims carry INTERPRETIVE labeling until corpus-tested;
+1. irreversible publications undergo reviewer-pass validation;
+1. governance records contradiction, supersession, and revalidation.
+
+## C11 Final Boundary
 
 C11 is not a style oracle and not a mind-reader.
 
@@ -598,22 +644,26 @@ preference.
 The architecture should remain open and repairable:
 **integrity > completeness > fluency > speed**.
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos_c11_design_language_master_knowledge
 node_type: note
 path: 11_KNOWLEDGE/AMOS_C11_DESIGN_LANGUAGE_MASTER_KNOWLEDGE.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]]

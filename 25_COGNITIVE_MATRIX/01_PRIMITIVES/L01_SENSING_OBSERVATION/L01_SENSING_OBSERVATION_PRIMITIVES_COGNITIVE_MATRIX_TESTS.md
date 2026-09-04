@@ -1,20 +1,23 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: L01 SENSING OBSERVATION PRIMITIVES COGNITIVE MATRIX TESTS
 type: test
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION
 tags:
-- amos
-- cognitive-matrix
-- matrix/l01
-- sensing-observation
-- tests
-- validation
-- verification
-- rscf
-- provenance
-- hml
-- control-plane
-- domain/cognitive-matrix
+  - amos
+  - cognitive-matrix
+  - matrix/l01
+  - sensing-observation
+  - tests
+  - validation
+  - verification
+  - rscf
+  - provenance
+  - hml
+  - control-plane
+  - domain/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL
@@ -34,9 +37,9 @@ rscf:
 
 > **Epistemic boundary:** this artifact defines the proposed test and validation contract for `L01_SENSING_OBSERVATION`. A test specification is not evidence that the test has been implemented, executed, passed, independently reproduced, or empirically validated.
 
----
+______________________________________________________________________
 
-# 0. Executive Definition
+## 0. Executive Definition
 
 `L01_SENSING_OBSERVATION/TESTS.md` defines how the sensing/observation primitive is challenged before stronger claims about correctness, reliability, interoperability, or readiness are permitted.
 
@@ -68,31 +71,31 @@ PROMOTION / QUARANTINE / REPAIR / RETEST
 
 Core law:
 
-[
-\boxed{
+\[
+\\boxed{
 TestDefined
-\neq
+\\neq
 TestExecuted
-\neq
+\\neq
 TestPassed
-\neq
+\\neq
 SystemValidated
 }
-]
+\]
 
 and:
 
-[
-\boxed{
+\[
+\\boxed{
 UNKNOWN/GAP
-\neq
+\\neq
 PASS
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 1. Purpose
+## 1. Purpose
 
 The L01 test contract exists to determine whether the sensing/observation architecture actually preserves its declared properties.
 
@@ -129,9 +132,9 @@ failure recovery
 
 Tests are therefore evidence-generating mechanisms, not ceremonial completion fields.
 
----
+______________________________________________________________________
 
-# 2. Source / Canon References
+## 2. Source / Canon References
 
 ## 2.1 Origin
 
@@ -227,18 +230,18 @@ TEST PASSED
 EMPIRICAL VALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 3. Definition and Scope
+## 3. Definition and Scope
 
 An `L01 Test` is a provenance-bound procedure that supplies controlled input or state to an L01 component and evaluates one or more declared properties against explicit expected conditions.
 
 Candidate form:
 
-[
-\boxed{
+\[
+\\boxed{
 Test =
-[
+\[
 Target,
 Preconditions,
 Input,
@@ -249,9 +252,9 @@ Validator,
 Evidence,
 Provenance,
 Verdict
-]
+\]
 }
-]
+\]
 
 Scope includes:
 
@@ -286,9 +289,9 @@ formal verification
 
 unless independently established.
 
----
+______________________________________________________________________
 
-# 4. Typed Inputs
+## 4. Typed Inputs
 
 ```yaml
 L01TestInput:
@@ -342,9 +345,9 @@ L01TestInput:
     type: ProvenanceBundle
 ```
 
----
+______________________________________________________________________
 
-# 5. Typed Outputs
+## 5. Typed Outputs
 
 ```yaml
 L01TestOutput:
@@ -390,9 +393,9 @@ L01TestOutput:
     type: Confidence
 ```
 
----
+______________________________________________________________________
 
-# 6. State Variables
+## 6. State Variables
 
 ```text
 T = test specification
@@ -434,9 +437,9 @@ Q = quarantine state
 Rep = repair state
 ```
 
----
+______________________________________________________________________
 
-# 7. Test Classes
+## 7. Test Classes
 
 Minimum candidate registry:
 
@@ -469,9 +472,9 @@ Each class tests a different property.
 
 A passing unit test cannot substitute automatically for an integration or governance test.
 
----
+______________________________________________________________________
 
-# 8. Operators
+## 8. Operators
 
 Candidate test operators:
 
@@ -504,9 +507,9 @@ RETEST
 
 Operator execution must itself be attributable.
 
----
+______________________________________________________________________
 
-# 9. Core Test Invariants
+## 9. Core Test Invariants
 
 ```text
 L01-TEST-INV-001
@@ -570,9 +573,9 @@ L01-TEST-INV-020
 Test completeness does not establish empirical completeness.
 ```
 
----
+______________________________________________________________________
 
-# 10. Dependencies
+## 10. Dependencies
 
 Primary dependencies:
 
@@ -602,19 +605,19 @@ L01_REPAIR
 
 Test dependency law:
 
-[
-\boxed{
+\[
+\\boxed{
 TestValidity
-\le
+\\le
 Validity(TargetContract)
 }
-]
+\]
 
 A test cannot reliably validate an undefined property.
 
----
+______________________________________________________________________
 
-# 11. H/M/L Applicability
+## 11. H/M/L Applicability
 
 ## L — Local Tests
 
@@ -658,19 +661,19 @@ global failure containment
 
 Hard boundary:
 
-[
-\boxed{
+\[
+\\boxed{
 PASS_L
-\not\Rightarrow
+\\not\\Rightarrow
 PASS_M
-\not\Rightarrow
+\\not\\Rightarrow
 PASS_H
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 12. Control-Plane Requirements
+## 12. Control-Plane Requirements
 
 The control plane should distinguish:
 
@@ -712,9 +715,9 @@ COMMIT-TIME REVALIDATION
 COMMIT / REJECT
 ```
 
----
+______________________________________________________________________
 
-# 13. Agents
+## 13. Agents
 
 Candidate roles:
 
@@ -737,9 +740,9 @@ ROLE
 DEPLOYED AGENT
 ```
 
----
+______________________________________________________________________
 
-# 14. Skills
+## 14. Skills
 
 Candidate supporting skill families:
 
@@ -761,9 +764,9 @@ RSCF auditing
 
 A skill's availability does not prove it has executed against L01.
 
----
+______________________________________________________________________
 
-# 15. Primary Workflow
+## 15. Primary Workflow
 
 ```text
 SELECT TARGET
@@ -799,9 +802,9 @@ UPDATE RSCF
 PROMOTE / QUARANTINE / REPAIR
 ```
 
----
+______________________________________________________________________
 
-# 16. Failure-Test Workflow
+## 16. Failure-Test Workflow
 
 ```text
 IDENTIFY FAILURE MODE
@@ -827,9 +830,9 @@ RETEST
 RUN REGRESSION SET
 ```
 
----
+______________________________________________________________________
 
-# 17. Adversarial Workflow
+## 17. Adversarial Workflow
 
 For consequential properties:
 
@@ -855,9 +858,9 @@ SURVIVES?
 └── NO  → downgrade / FAIL / CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
-# 18. Protocols
+## 18. Protocols
 
 Candidate protocol objects:
 
@@ -900,9 +903,9 @@ TestExecutionResult:
   confidence_ceiling:
 ```
 
----
+______________________________________________________________________
 
-# 19. Evidence / Provenance
+## 19. Evidence / Provenance
 
 A valid executed test should preserve, where applicable:
 
@@ -930,12 +933,9 @@ repair/retest lineage
 
 Candidate tensor:
 
-[
-\boxed{
-P_{test}
-========
+## \[ \\boxed{ P\_{test}
 
-T[
+T\[
 test,
 target,
 version,
@@ -948,13 +948,13 @@ time,
 scope,
 regime,
 HML
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 20. Verdict Semantics
+## 20. Verdict Semantics
 
 ## PASS
 
@@ -988,9 +988,9 @@ NOT TESTED
 PASS
 ```
 
----
+______________________________________________________________________
 
-# 21. Uncertainty
+## 21. Uncertainty
 
 ```yaml
 test_uncertainty:
@@ -1023,27 +1023,27 @@ test_uncertainty:
     level: LOW | MEDIUM | HIGH | UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 22. Confidence Ceiling
+## 22. Confidence Ceiling
 
-For test result \(R\):
+For test result (R):
 
-[
-\boxed{
+\[
+\\boxed{
 C(R)
-\le
-\min(
-C_{spec},
-C_{fixture},
-C_{execution},
-C_{validator},
-C_{provenance},
-C_{scope},
-C_{regime}
+\\le
+\\min(
+C\_{spec},
+C\_{fixture},
+C\_{execution},
+C\_{validator},
+C\_{provenance},
+C\_{scope},
+C\_{regime}
 )
 }
-]
+\]
 
 where those premises are load-bearing.
 
@@ -1051,9 +1051,9 @@ Passing more tests can increase coverage.
 
 It does not automatically increase confidence if all tests share the same blind spot, fixture ancestry, validator, or environment.
 
----
+______________________________________________________________________
 
-# 23. Core Test Registry
+## 23. Core Test Registry
 
 ```text
 TEST_L01_001
@@ -1177,9 +1177,9 @@ TEST_L01_040
 Defined test suite is not reported as executed without execution evidence.
 ```
 
----
+______________________________________________________________________
 
-# 24. Provenance Tests
+## 24. Provenance Tests
 
 ```text
 TEST_L01_PROV_001
@@ -1207,9 +1207,9 @@ TEST_L01_PROV_008
 Unknown ancestry lowers independence confidence.
 ```
 
----
+______________________________________________________________________
 
-# 25. Temporal / Freshness Tests
+## 25. Temporal / Freshness Tests
 
 ```text
 TEST_L01_TIME_001
@@ -1237,9 +1237,9 @@ TEST_L01_TIME_008
 Regime changes trigger applicable freshness review.
 ```
 
----
+______________________________________________________________________
 
-# 26. H/M/L Tests
+## 26. H/M/L Tests
 
 ```text
 TEST_L01_HML_001
@@ -1267,9 +1267,9 @@ TEST_L01_HML_008
 Cross-scale translation cannot silently strengthen epistemic class.
 ```
 
----
+______________________________________________________________________
 
-# 27. Control-Plane Tests
+## 27. Control-Plane Tests
 
 ```text
 TEST_L01_CP_001
@@ -1303,9 +1303,9 @@ TEST_L01_CP_010
 Concurrent state conflict fails closed or enters governed reconciliation.
 ```
 
----
+______________________________________________________________________
 
-# 28. Memory Boundary Tests
+## 28. Memory Boundary Tests
 
 ```text
 TEST_L01_MEM_001
@@ -1330,9 +1330,9 @@ TEST_L01_MEM_007
 Poisoned/quarantined memory cannot silently re-enter active observation state.
 ```
 
----
+______________________________________________________________________
 
-# 29. Adversarial Tests
+## 29. Adversarial Tests
 
 Test against:
 
@@ -1364,9 +1364,9 @@ repair-history deletion
 selective-invalidation failure
 ```
 
----
+______________________________________________________________________
 
-# 30. Failure Modes
+## 30. Failure Modes
 
 ```text
 FM-L01-TEST-001  Test-Definition-as-Execution
@@ -1391,9 +1391,9 @@ FM-L01-TEST-019  Test-Authority-Confusion
 FM-L01-TEST-020  Benchmark-to-Universal-Claim
 ```
 
----
+______________________________________________________________________
 
-# 31. Repair / Recovery
+## 31. Repair / Recovery
 
 When a test fails:
 
@@ -1428,9 +1428,9 @@ UPDATE RSCF
 
 A failed test path should not simply be repeated unless some relevant input, implementation, environment, or hypothesis has changed.
 
----
+______________________________________________________________________
 
-# 32. Validators
+## 32. Validators
 
 Minimum validator registry:
 
@@ -1457,9 +1457,9 @@ VALIDATOR_REGRESSION
 VALIDATOR_CONFIDENCE_CEILING
 ```
 
----
+______________________________________________________________________
 
-# 33. Test Evidence Status
+## 33. Test Evidence Status
 
 A result may be classified:
 
@@ -1496,9 +1496,9 @@ is valid.
 
 Reporting it as `PASS` is not.
 
----
+______________________________________________________________________
 
-# 34. Falsifiers
+## 34. Falsifiers
 
 This artifact must be revised if:
 
@@ -1522,9 +1522,9 @@ executed evidence falsifies assumed test behavior
 independent reproduction reveals hidden fixture or validator dependence
 ```
 
----
+______________________________________________________________________
 
-# 35. Gap Matrix
+## 35. Gap Matrix
 
 ```yaml
 gap_matrix:
@@ -1620,9 +1620,9 @@ gap_matrix:
     status: MODEL_COMPLETE
 ```
 
----
+______________________________________________________________________
 
-# 36. Gap Resolution Priority
+## 36. Gap Resolution Priority
 
 ```text
 1. Locate direct canonical L01 TESTS material.
@@ -1666,9 +1666,9 @@ gap_matrix:
 20. Promote status only from observed evidence.
 ```
 
----
+______________________________________________________________________
 
-# 37. Evidence / Provenance of This Artifact
+## 37. Evidence / Provenance of This Artifact
 
 ```yaml
 artifact_provenance:
@@ -1703,9 +1703,9 @@ artifact_provenance:
     status: NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 38. Uncertainty Vector
+## 38. Uncertainty Vector
 
 ```yaml
 uncertainty:
@@ -1738,9 +1738,9 @@ uncertainty:
     level: MEDIUM_HIGH
 ```
 
----
+______________________________________________________________________
 
-# 39. Confidence Ceiling
+## 39. Confidence Ceiling
 
 Strongest warranted conclusion:
 
@@ -1760,9 +1760,9 @@ EMPIRICALLY VALIDATED
 DEPLOYMENT READY
 ```
 
----
+______________________________________________________________________
 
-# 40. RSCF Completion State
+## 40. RSCF Completion State
 
 ```yaml
 rscf:
@@ -1887,9 +1887,9 @@ rscf:
     - independent reproduction
 ```
 
----
+______________________________________________________________________
 
-# 41. Completion State
+## 41. Completion State
 
 ```yaml
 completion_state:
@@ -1976,9 +1976,9 @@ completion_state:
     MODEL / CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
-# 42. Test Contract Summary
+## 42. Test Contract Summary
 
 ```text
 L01 TESTING
@@ -2028,9 +2028,9 @@ The governing principle is:
 
 > **AMOS must never infer that L01 works merely because a test can be described. Test evidence begins with actual execution against an identified target under a recorded environment, and every conclusion remains bounded by what that execution actually tested.**
 
----
+______________________________________________________________________
 
-# 43. Final Hard Boundaries
+## 43. Final Hard Boundaries
 
 ```text
 PLACEHOLDER != IMPLEMENTED
@@ -2090,9 +2090,9 @@ CANON_COMPLETE != IMPLEMENTED
 IMPLEMENTED != VALIDATED
 ```
 
----
+______________________________________________________________________
 
-# 44. References
+## 44. References
 
 ## Internal AMOS References
 
@@ -2160,29 +2160,33 @@ amos_unified_master_combined_max_detail
 
 > Reference presence establishes intended lineage/dependency only. It does not establish that the reconstructed L01 test registry above occurs verbatim in those sources, nor that any listed test has been executed.
 
----
+______________________________________________________________________
 
 **Related:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]]
 
 ```text
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: l01_sensing_observation_primitives_cognitive_matrix_tests
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_TESTS.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_MOC|L01_SENSING_OBSERVATION_MOC]]

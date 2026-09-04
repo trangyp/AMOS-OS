@@ -12,21 +12,21 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: FRAMEWORK
 path: 11_KNOWLEDGE/05_FRAMEWORKS/TRANG_EQUATION_REGISTRY.md
 tags:
-- amos-os
-- knowledge
-- vault
-- 05_frameworks
-- trang_equation_registry
-- equations
-- master_equations
-- e_equals_i_squared
-- alignment
-- rscf
-- canon_candidate
-- canon/knowledge
-- tss-the-trang-system
-- unified-biological-intelligence
-- trang-reality-architecture
+  - amos-os
+  - knowledge
+  - vault
+  - 05_frameworks
+  - trang_equation_registry
+  - equations
+  - master_equations
+  - e_equals_i_squared
+  - alignment
+  - rscf
+  - canon_candidate
+  - canon/knowledge
+  - tss-the-trang-system
+  - unified-biological-intelligence
+  - trang-reality-architecture
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -41,20 +41,20 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - EQUATION_REGISTRY
-  - KHUNG_TRANG_FULL_EQUATIONS
-  - AMOS_CORPUS
+    - EQUATION_REGISTRY
+    - KHUNG_TRANG_FULL_EQUATIONS
+    - AMOS_CORPUS
   scope:
-  - KNOWLEDGE_FRAMEWORKS
-  - EQUATION_REGISTRY
-  - SOURCE_DEFINED_MODEL
+    - KNOWLEDGE_FRAMEWORKS
+    - EQUATION_REGISTRY
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   primary:
     name: Trang Master Equation Registry
     role: CANONICAL_EQUATION_CATALOG
   index_binding:
     artifact:
-    - - EQUATION_REGISTRY
+      -   - EQUATION_REGISTRY
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
@@ -66,32 +66,32 @@ epistemic_boundary:
 
 `TRANG_EQUATION_REGISTRY.md` is the canonical Knowledge Plane reference artifact for the **Trang Master Equation Registry** within `11_KNOWLEDGE/05_FRAMEWORKS`.
 
----
+______________________________________________________________________
 
-# 1. Canonical Master Equations
+## 1. Canonical Master Equations
 
 1. **Effectiveness Equation:**
    $$e = i^2$$
-2. **Biological Alignment Equation (UBI):**
+1. **Biological Alignment Equation (UBI):**
    $$i = (\text{NBI} \cdot \text{NEI} \cdot \text{SI} \cdot \text{BEI})^{1/4}$$
-3. **Macro-System Alignment Equation (TSS):**
+1. **Macro-System Alignment Equation (TSS):**
    $$i = [H(1 - \Omega)(1 - F)(1 - S)]^{1/4}$$
-4. **Recursive State Update Law:**
+1. **Recursive State Update Law:**
    $$S_{t+1} = \mathcal{C}\left(\mathcal{F}(S_t, U_t)\right)$$
-5. **Structural Vulnerability Function:**
+1. **Structural Vulnerability Function:**
    $$\mathcal{V} = \frac{\Omega \cdot F}{H} \cdot S$$
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Master Index:** `11_KNOWLEDGE/indexes/EQUATION_REGISTRY`
 - **Frameworks:** [[11_KNOWLEDGE/05_FRAMEWORKS/TSS_THE_TRANG_SYSTEM|TSS_THE_TRANG_SYSTEM]], [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]], [[11_KNOWLEDGE/trang/TRANG_REALITY_ARCHITECTURE|TRANG_REALITY_ARCHITECTURE]]
 - **Cognitive Matrix:** `25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC`
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -109,10 +109,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/TSS_THE_TRANG_SYSTEM|TSS_THE_TRANG_SYSTEM]] · [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]]
 
----
-**MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]
+______________________________________________________________________
 
+**MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]

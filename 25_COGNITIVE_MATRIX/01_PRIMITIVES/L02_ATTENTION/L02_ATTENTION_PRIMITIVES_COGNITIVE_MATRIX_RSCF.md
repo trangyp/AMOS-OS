@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: L02 ATTENTION PRIMITIVES COGNITIVE MATRIX RSCF
 type: cognitive
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION
 tags:
-- cognitive-matrix
-- primitives
-- matrix/l02-attention
-- note
-- domain/cognitive-matrix
+  - cognitive-matrix
+  - primitives
+  - matrix/l02-attention
+  - note
+  - domain/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -19,25 +22,22 @@ rscf:
 
 The direct `L02_ATTENTION` source currently exposes only the placeholder: it defines L02 as **attention allocation / budgeting scarce reasoning-observation resources** and explicitly requires **RSCF/GMEF links, provenance, repair, tests, governance, freshness, and version lineage** before promotion. No canonical `RSCF.md` was recovered, so the detailed capsule below is intentionally classified as `AMOS_MODEL`, with unresolved canon/runtime fields left visible.
 
----
+______________________________________________________________________
+
 tags:
-  - amos
-  - cognitive-matrix
-  - l02
-  - attention
-  - rscf
-  - hml
-  - provenance
-  - governance
 
-title: L02_ATTENTION — RSCF
-origin_architect: "Trang Phan"
-status: "MODEL_SPECIFICATION / SOURCE-BOUNDED / UNVALIDATED"
-epistemic_class: "MODEL"
-runtime_alignment: "AMOS Full Brain OS / AMOS_CORE v4.4 lineage"
----
+- amos
+- cognitive-matrix
+- l02
+- attention
+- rscf
+- hml
+- provenance
+- governance
 
-# L02_ATTENTION — RSCF
+## title: L02_ATTENTION — RSCF origin_architect: "Trang Phan" status: "MODEL_SPECIFICATION / SOURCE-BOUNDED / UNVALIDATED" epistemic_class: "MODEL" runtime_alignment: "AMOS Full Brain OS / AMOS_CORE v4.4 lineage"
+
+## L02_ATTENTION — RSCF
 
 **Class:** `COGNITIVE_PRIMITIVE_RSCF_CONTRACT`
 **Origin architect / steward:** Trang Phan
@@ -47,9 +47,9 @@ runtime_alignment: "AMOS Full Brain OS / AMOS_CORE v4.4 lineage"
 
 > **Canon boundary:** direct L02 source currently supports the primitive role—attention allocation and budgeting scarce reasoning/observation resources—and requires an RSCF integration surface before promotion. The detailed RSCF graph, node IDs, equations, confidence rules, reuse semantics, and runtime mappings below are an AMOS model completion unless independently recovered from direct canon or executable evidence.
 
----
+______________________________________________________________________
 
-# 0. Purpose
+## 0. Purpose
 
 Define the Recursive Structured Claim Framework contract for `L02_ATTENTION`.
 
@@ -95,9 +95,9 @@ RSCF COMPLETENESS
 EMPIRICAL VALIDITY
 ```
 
----
+______________________________________________________________________
 
-# 1. Source / Canon References
+## 1. Source / Canon References
 
 ## 1.1 Source-supported L02 semantic core
 
@@ -169,16 +169,16 @@ conclusion class = CONDITIONAL
 
 is valid.
 
----
+______________________________________________________________________
 
-# 2. Definition
+## 2. Definition
 
 An RSCF is a recursive dependency structure:
 
-[
+\[
 R =
 (V,E,A,P,F)
-]
+\]
 
 where:
 
@@ -194,9 +194,9 @@ For `L02_ATTENTION`, the RSCF constrains which attention candidate may receive r
 
 A candidate claim node:
 
-[
+\[
 C_i =
-T[
+T\[
 id,
 text,
 class,
@@ -209,12 +209,12 @@ causalLevel,
 competing,
 falsifiers,
 confidence
-]
-]
+\]
+\]
 
----
+______________________________________________________________________
 
-# 3. Scope
+## 3. Scope
 
 This contract applies to RSCF objects involved in:
 
@@ -245,9 +245,9 @@ durable commit permission
 canonical L02 implementation
 ```
 
----
+______________________________________________________________________
 
-# 4. Typed Inputs
+## 4. Typed Inputs
 
 ```yaml
 L02RSCFInput:
@@ -298,9 +298,9 @@ L02RSCFInput:
     type: AuthorityContext
 ```
 
----
+______________________________________________________________________
 
-# 5. Typed Outputs
+## 5. Typed Outputs
 
 ```yaml
 L02RSCFOutput:
@@ -375,9 +375,9 @@ L02RSCFOutput:
       - UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 6. Core State Variables
+## 6. Core State Variables
 
 ```text
 R_t        = current RSCF graph
@@ -399,9 +399,9 @@ Auth_t     = authority state
 Epoch_t    = validation/revalidation epoch
 ```
 
----
+______________________________________________________________________
 
-# 7. Claim Node Contract
+## 7. Claim Node Contract
 
 ```yaml
 ClaimNode:
@@ -463,9 +463,9 @@ invalidation conditions
 WHEN COMPRESSED.
 ```
 
----
+______________________________________________________________________
 
-# 8. Evidence Node Contract
+## 8. Evidence Node Contract
 
 ```yaml
 EvidenceNode:
@@ -511,9 +511,9 @@ MULTIPLE EVIDENCE REFERENCES
 MULTIPLE INDEPENDENT SOURCES
 ```
 
----
+______________________________________________________________________
 
-# 9. Relation Edge Contract
+## 9. Relation Edge Contract
 
 ```yaml
 RSCFEdge:
@@ -545,9 +545,9 @@ RSCFEdge:
 
 A semantic, temporal, or structural edge must never be silently promoted into a causal edge.
 
----
+______________________________________________________________________
 
-# 10. RSCF Operators
+## 10. RSCF Operators
 
 Candidate L02 RSCF operators:
 
@@ -600,9 +600,9 @@ REPAIR_RSCF()
 
 Operator names remain `AMOS_MODEL`.
 
----
+______________________________________________________________________
 
-# 11. RSCF Invariants
+## 11. RSCF Invariants
 
 ```text
 L02-RSCF-INV-001
@@ -681,9 +681,9 @@ L02-RSCF-INV-025
 RSCF structure does not create action authority.
 ```
 
----
+______________________________________________________________________
 
-# 12. Dependency Semantics
+## 12. Dependency Semantics
 
 A basic proof path:
 
@@ -699,25 +699,25 @@ Root conclusion
 
 Suppose:
 
-[
-C \leftarrow P_1,P_2,P_3
-]
+\[
+C \\leftarrow P_1,P_2,P_3
+\]
 
 and:
 
-[
-P_2 \leftarrow E_4,E_5
-]
+\[
+P_2 \\leftarrow E_4,E_5
+\]
 
-Then the load-bearing closure for \(C\) includes (P_2,E_4,E_5) if failure of that branch can change \(C\).
+Then the load-bearing closure for (C) includes (P_2,E_4,E_5) if failure of that branch can change (C).
 
 L02 attention should preferentially inspect dependency nodes that can change the root decision.
 
 It should not automatically load every ancestor.
 
----
+______________________________________________________________________
 
-# 13. Smallest Sufficient Proof Scope
+## 13. Smallest Sufficient Proof Scope
 
 The RSCF fast path is:
 
@@ -733,25 +733,23 @@ stop when sufficiency is established
 
 Conceptually:
 
-[
-ProofScope^*
-============
+## \[ ProofScope^\*
 
-\arg\min_{S}
+\\arg\\min\_{S}
 Cost(S)
-]
+\]
 
 subject to:
 
-[
+\[
 DecisionSufficiency(S)=true
-]
+\]
 
 and:
 
-[
+\[
 Integrity(S)=true
-]
+\]
 
 This is `AMOS_MODEL`.
 
@@ -763,9 +761,9 @@ SMALLEST SUFFICIENT PROOF SCOPE
 SMALLEST POSSIBLE CONTEXT
 ```
 
----
+______________________________________________________________________
 
-# 14. H/M/L Mapping
+## 14. H/M/L Mapping
 
 ## H — Governing RSCF
 
@@ -814,47 +812,47 @@ one failure
 
 Recursive form:
 
-[
+\[
 R_H
-\rightarrow
-{R_{M1},R_{M2},...}
-\rightarrow
-{R_{L1},R_{L2},...}
-]
+\\rightarrow
+{R\_{M1},R\_{M2},...}
+\\rightarrow
+{R\_{L1},R\_{L2},...}
+\]
 
 Only decision-relevant branches need expansion.
 
----
+______________________________________________________________________
 
-# 15. H/M/L Confidence Propagation
+## 15. H/M/L Confidence Propagation
 
-For H claim \(C_H\) depending on M claims:
+For H claim (C_H) depending on M claims:
 
-[
+\[
 Conf(C_H)
-\le
-\min_j Conf(C_{M_j})
-]
+\\le
+\\min_j Conf(C\_{M_j})
+\]
 
-for load-bearing \(M_j\).
+for load-bearing (M_j).
 
 For M claim depending on L claims:
 
-[
+\[
 Conf(C_M)
-\le
-\min_k Conf(C_{L_k})
-]
+\\le
+\\min_k Conf(C\_{L_k})
+\]
 
-for load-bearing \(L_k\).
+for load-bearing (L_k).
 
 Aggregation itself cannot increase confidence.
 
 Independent new evidence may change the underlying graph and therefore the ceiling.
 
----
+______________________________________________________________________
 
-# 16. Competing Hypotheses
+## 16. Competing Hypotheses
 
 RSCF must preserve incompatible candidate explanations.
 
@@ -903,17 +901,17 @@ not:
 collect more redundant confirmation
 ```
 
----
+______________________________________________________________________
 
-# 17. Contradiction Handling
+## 17. Contradiction Handling
 
 Contradiction:
 
-[
+\[
 C_i
-\land
-\neg C_i
-]
+\\land
+\\neg C_i
+\]
 
 or materially incompatible claims under the same applicability envelope must remain explicit.
 
@@ -949,9 +947,9 @@ recency alone
 fluency
 ```
 
----
+______________________________________________________________________
 
-# 18. Causal Firewall
+## 18. Causal Firewall
 
 RSCF causal levels should distinguish:
 
@@ -986,9 +984,9 @@ STRUCTURAL SIMILARITY
 CAUSAL MECHANISM
 ```
 
----
+______________________________________________________________________
 
-# 19. Scope / Regime Firewall
+## 19. Scope / Regime Firewall
 
 Every load-bearing claim should inherit an applicability envelope.
 
@@ -1007,25 +1005,25 @@ ApplicabilityEnvelope:
 
 Claim transfer:
 
-[
-C_{scope=A}
-\not\Rightarrow
-C_{scope=B}
-]
+\[
+C\_{scope=A}
+\\not\\Rightarrow
+C\_{scope=B}
+\]
 
 without transfer evidence.
 
 Regime shift:
 
-[
-R_a \rightarrow R_b
-]
+\[
+R_a \\rightarrow R_b
+\]
 
 requires revalidation where regime is load-bearing.
 
----
+______________________________________________________________________
 
-# 20. Freshness
+## 20. Freshness
 
 Each mutable claim/evidence node should declare freshness conditions.
 
@@ -1063,9 +1061,9 @@ PREVIOUSLY VALID
 CURRENTLY VALID
 ```
 
----
+______________________________________________________________________
 
-# 21. Provenance Topology
+## 21. Provenance Topology
 
 RSCF should represent semantic ancestry, not merely document count.
 
@@ -1083,26 +1081,26 @@ These may constitute one provenance family.
 
 Therefore:
 
-[
+\[
 IndependentCount
-\le
+\\le
 ArtifactCount
-]
+\]
 
 Independence must be established, not presumed.
 
----
+______________________________________________________________________
 
-# 22. Confidence Ceiling
+## 22. Confidence Ceiling
 
-For claim \(C\):
+For claim (C):
 
-[
+\[
 Conf(C)
-\le
-\min_{p \in LoadBearing(C)}
+\\le
+\\min\_{p \\in LoadBearing(C)}
 Conf(p)
-]
+\]
 
 unless independent validation supplies a stronger proof path.
 
@@ -1119,11 +1117,11 @@ provenance independence uncertainty
 
 Attention allocation does not change the ceiling unless it actually obtains new evidence or removes uncertainty.
 
----
+______________________________________________________________________
 
-# 23. Sensitivity
+## 23. Sensitivity
 
-For consequential claim \(C\), identify the smallest premise/threshold capable of flipping its conclusion.
+For consequential claim (C), identify the smallest premise/threshold capable of flipping its conclusion.
 
 Candidate:
 
@@ -1145,9 +1143,9 @@ SensitivityRecord:
 
 Attention priority should favor high-impact sensitivity points before low-value background detail.
 
----
+______________________________________________________________________
 
-# 24. Gap Classification
+## 24. Gap Classification
 
 Every material RSCF gap should be classified:
 
@@ -1186,30 +1184,28 @@ formatting inconsistency
 → COSMETIC
 ```
 
----
+______________________________________________________________________
 
-# 25. Attention Allocation From RSCF
+## 25. Attention Allocation From RSCF
 
 RSCF can provide attention candidates:
 
-[
+\[
 Candidates =
 CriticalGaps
-\cup
+\\cup
 FragilePremises
-\cup
+\\cup
 Contradictions
-\cup
+\\cup
 CompetingDiscriminators
-\cup
+\\cup
 StaleLoadBearingNodes
-]
+\]
 
 Candidate priority model:
 
-[
-Priority(x)
-===========
+## \[ Priority(x)
 
 F(
 DecisionImpact,
@@ -1219,13 +1215,13 @@ Consequence,
 Freshness,
 Cost
 )
-]
+\]
 
 No canonical weighting is asserted.
 
----
+______________________________________________________________________
 
-# 26. RSCF Attention Loop
+## 26. RSCF Attention Loop
 
 ```text
 ROOT OBJECTIVE
@@ -1251,9 +1247,9 @@ STOP / CONTINUE / ESCALATE
 
 This creates a closed reasoning-allocation loop without treating model-generated structure as evidence.
 
----
+______________________________________________________________________
 
-# 27. Stop Conditions
+## 27. Stop Conditions
 
 Candidate stop conditions:
 
@@ -1280,9 +1276,9 @@ STOP
 UNIVERSAL CERTAINTY
 ```
 
----
+______________________________________________________________________
 
-# 28. Control-Plane Requirements
+## 28. Control-Plane Requirements
 
 L02/RSCF reasoning may propose:
 
@@ -1320,9 +1316,9 @@ RSCF SAYS "SUPPORTED"
 ACTION AUTHORIZED
 ```
 
----
+______________________________________________________________________
 
-# 29. Agents
+## 29. Agents
 
 Candidate RSCF roles:
 
@@ -1343,9 +1339,9 @@ These are architectural roles.
 
 Different agents do not automatically constitute independent epistemic sources.
 
----
+______________________________________________________________________
 
-# 30. Skills
+## 30. Skills
 
 Potential supporting capabilities:
 
@@ -1366,9 +1362,9 @@ Skill invocation produces candidate evidence/analysis.
 
 It does not automatically validate the RSCF node.
 
----
+______________________________________________________________________
 
-# 31. Workflow
+## 31. Workflow
 
 ```text
 NORMALIZE TARGET
@@ -1412,9 +1408,9 @@ UPDATE GRAPH
 ISSUE WEAKEST ACCURATE CONCLUSION CLASS
 ```
 
----
+______________________________________________________________________
 
-# 32. Protocols
+## 32. Protocols
 
 Candidate RSCF protocol family:
 
@@ -1441,9 +1437,9 @@ RSCF_REHYDRATION_REQUEST
 
 Canonical protocol names remain `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
-# 33. Evidence / Provenance Requirements
+## 33. Evidence / Provenance Requirements
 
 Every important conclusion should retain at least:
 
@@ -1475,9 +1471,9 @@ REHYDRATABLE
 
 for load-bearing evidence.
 
----
+______________________________________________________________________
 
-# 34. Compression Contract
+## 34. Compression Contract
 
 RSCF compression may remove:
 
@@ -1512,9 +1508,9 @@ COMPRESSION
 EPISTEMIC DELETION
 ```
 
----
+______________________________________________________________________
 
-# 35. Reuse Contract
+## 35. Reuse Contract
 
 An RSCF may be reused only when:
 
@@ -1529,20 +1525,18 @@ no superseding contradiction exists
 
 Candidate:
 
-[
-Reusable(R)
-===========
+## \[ Reusable(R)
 
 DepsValid
-\land
+\\land
 ScopeMatch
-\land
+\\land
 RegimeMatch
-\land
+\\land
 Fresh
-\land
+\\land
 NoBlockingConflict
-]
+\]
 
 If one load-bearing condition fails:
 
@@ -1552,9 +1546,9 @@ invalidate only dependent descendants
 
 rather than discarding unrelated RSCFs.
 
----
+______________________________________________________________________
 
-# 36. Failure Modes
+## 36. Failure Modes
 
 ```text
 FM-L02-RSCF-001   Missing Root Claim
@@ -1583,9 +1577,9 @@ FM-L02-RSCF-023   Attention Priority Treated as Proof
 FM-L02-RSCF-024   Model RSCF Reported as Canon
 ```
 
----
+______________________________________________________________________
 
-# 37. Repair / Recovery
+## 37. Repair / Recovery
 
 RSCF repair sequence:
 
@@ -1615,9 +1609,9 @@ REISSUE CONCLUSION CLASS
 
 Repair must not rewrite source evidence merely to restore graph consistency.
 
----
+______________________________________________________________________
 
-# 38. Tests / Validators
+## 38. Tests / Validators
 
 Required validators:
 
@@ -1724,9 +1718,9 @@ Expected:
 FAIL.
 ```
 
----
+______________________________________________________________________
 
-# 39. Falsifiers
+## 39. Falsifiers
 
 This artifact should be revised if direct canon establishes that:
 
@@ -1750,9 +1744,9 @@ canonical source provides incompatible RSCF schema.
 runtime evidence falsifies modeled reuse/repair behavior.
 ```
 
----
+______________________________________________________________________
 
-# 40. Gap Matrix
+## 40. Gap Matrix
 
 ```yaml
 gap_status:
@@ -1821,9 +1815,9 @@ gap_status:
     status: UNKNOWN_GAP
 ```
 
----
+______________________________________________________________________
 
-# 41. Critical Gaps
+## 41. Critical Gaps
 
 ```text
 CRITICAL GAP 1:
@@ -1840,9 +1834,9 @@ Executable validation that selective invalidation, confidence ceilings,
 provenance preservation, and COMPETING state are enforced.
 ```
 
----
+______________________________________________________________________
 
-# 42. Cheapest Discriminating Evidence
+## 42. Cheapest Discriminating Evidence
 
 Highest-value evidence sequence:
 
@@ -1873,9 +1867,9 @@ Primary question:
 
 Preserve these as `COMPETING` until direct evidence resolves them.
 
----
+______________________________________________________________________
 
-# 43. Competing Architecture Models
+## 43. Competing Architecture Models
 
 ## COMPETING-001 — L02 Owns RSCF
 
@@ -1923,9 +1917,9 @@ COMPETING-004
 
 as a MODEL only.
 
----
+______________________________________________________________________
 
-# 44. Canonical RSCF Capsule Template
+## 44. Canonical RSCF Capsule Template
 
 ```yaml
 rscf:
@@ -2005,9 +1999,9 @@ rscf:
   invalidation_conditions: []
 ```
 
----
+______________________________________________________________________
 
-# 45. L02 Master RSCF
+## 45. L02 Master RSCF
 
 ```yaml
 rscf:
@@ -2175,9 +2169,9 @@ rscf:
       - do not infer runtime implementation
 ```
 
----
+______________________________________________________________________
 
-# 46. Completion State
+## 46. Completion State
 
 ```yaml
 completion_state:
@@ -2258,9 +2252,9 @@ completion_state:
     MODEL
 ```
 
----
+______________________________________________________________________
 
-# 47. Hard Boundaries
+## 47. Hard Boundaries
 
 ```text
 PLACEHOLDER != IMPLEMENTED
@@ -2314,9 +2308,9 @@ TEST DEFINED != TEST EXECUTED
 RSCF REPAIRED != RUNTIME VALIDATED
 ```
 
----
+______________________________________________________________________
 
-# 48. References
+## 48. References
 
 ```text
 L02_ATTENTION — Readme
@@ -2355,15 +2349,15 @@ Cosmo_Brain_BRIDGE_INDEX
 Cosmo_Brain_BRIDGE_INDEX
 ```
 
----
+______________________________________________________________________
 
-# 49. Governing RSCF Contract
+## 49. Governing RSCF Contract
 
 > **`L02_ATTENTION` uses RSCF-compatible reasoning to allocate scarce processing resources without confusing attention with epistemic promotion. Every consequential attended claim must retain its premises, evidence, provenance, dependency structure, scope, regime, freshness, H/M/L coordinate, competing hypotheses, contradictions, falsifiers, sensitivity, and confidence ceiling. Attention should preferentially target load-bearing uncertainty, critical gaps, fragile premises, stale state, and discriminating evidence. RSCF compression may reduce redundancy but may not erase decision-relevant structure. Failed premises invalidate only dependent descendants, and no RSCF result creates authority or durable commit permission by itself.**
 
----
+______________________________________________________________________
 
-# 50. Canon Boundary
+## 50. Canon Boundary
 
 ```text
 SOURCE-SUPPORTED:
@@ -2474,22 +2468,27 @@ AUTHORIZATION TO COMMIT
 
 ```text
 ```
----
+
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: l02_attention_primitives_cognitive_matrix_rscf
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION/L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_RSCF.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION/L02_ATTENTION_MOC|L02_ATTENTION_MOC]]

@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: fractal math core
 type: reference
 source: 07_SKILLS/amos-fractal-systems-master/references
 tags:
-- reference
-- amos-fractal-systems-master
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-fractal-systems-master
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -20,7 +23,7 @@ rscf:
 > Source: `_00_Cosmo brain/fractal/AMOS Math Core — Fractal Mathematics & Cognitive Architecture Runtime.md`
 > Epistemic class: SOURCE_CANON
 
-# AMOS Math Core — Fractal Mathematics & Cognitive Architecture Runtime
+## AMOS Math Core — Fractal Mathematics & Cognitive Architecture Runtime
 
 ## Overview
 
@@ -48,41 +51,41 @@ The runtime includes:
 - Fractal Cognitive Architecture v2 integration; and
 - Fractal Cognitive Programming integration.
 
----
+______________________________________________________________________
 
-# 1. Mathematical Runtime Model
+## 1. Mathematical Runtime Model
 
 The central decomposition is:
 
-[
-x_{t+1}=F(x_t)+\varepsilon_t
-]
+\[
+x\_{t+1}=F(x_t)+\\varepsilon_t
+\]
 
 where:
 
 - (x_t) is the observed or modeled state at time (t);
 - (F) is the deterministic or estimated structural component;
-- (\varepsilon_t) is the residual/noise component.
+- (\\varepsilon_t) is the residual/noise component.
 
 Depending on the dataset, additional estimated quantities may include:
 
-[
-D = \text{fractal dimension}
-]
+\[
+D = \\text{fractal dimension}
+\]
 
-[
-H = \text{Hurst exponent}
-]
+\[
+H = \\text{Hurst exponent}
+\]
 
-[
-\alpha = \text{tail or scaling exponent}
-]
+\[
+\\alpha = \\text{tail or scaling exponent}
+\]
 
 These quantities are **estimated from data**. They are not universal constants of the AMOS architecture.
 
----
+______________________________________________________________________
 
-# 2. Epistemic Boundary
+## 2. Epistemic Boundary
 
 AMOS Math Core separates four different kinds of mathematical use.
 
@@ -107,12 +110,12 @@ Finite datasets require numerical approximations of theoretical limits.
 
 For example,
 
-[
+\[
 D_B =
-\lim_{\epsilon\rightarrow0}
-\frac{\log N(\epsilon)}
-{\log(1/\epsilon)}
-]
+\\lim\_{\\epsilon\\rightarrow0}
+\\frac{\\log N(\\epsilon)}
+{\\log(1/\\epsilon)}
+\]
 
 cannot normally be evaluated as a literal limit from finite observations.
 
@@ -128,13 +131,15 @@ The mathematical object and its software approximation should therefore remain d
 
 When mathematical quantities are mapped onto cognitive architecture, architecture entropy, recursive H/M/L organization, or other AMOS structures, that mapping remains an **AMOS MODEL** unless independently validate
 
----
+______________________________________________________________________
+
 **MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -142,12 +147,14 @@ When mathematical quantities are mapped onto cognitive architecture, architectur
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-fractal-systems-master-fractal-math-core
 node_type: reference
 path: 07_SKILLS/amos-fractal-systems-master/references/fractal_math_core.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

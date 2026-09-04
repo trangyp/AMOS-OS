@@ -12,21 +12,21 @@ segment: 25_COGNITIVE_MATRIX/12_GENERATORS
 artifact_kind: DOCUMENT
 path: 25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_VERSIONING.md
 tags:
-- 12_GENERATORS
-- 12_generators
-- amos-os
-- domain/cognitive-matrix
-- canon/universe
-- document
-- generators
-- rscf
-- versioning
-- placeholder_expanded
-- workflow
-- revocation
-- validation
-- integration
-- canon
+  - 12_GENERATORS
+  - 12_generators
+  - amos-os
+  - domain/cognitive-matrix
+  - canon/universe
+  - document
+  - generators
+  - rscf
+  - versioning
+  - placeholder_expanded
+  - workflow
+  - revocation
+  - validation
+  - integration
+  - canon
 version: 0.2.0
 updated: '2026-08-27'
 status: PLACEHOLDER_EXPANDED
@@ -103,7 +103,7 @@ Origin architect / steward: **Trang Phan**
 
 System: **AMOS OS**
 
----
+______________________________________________________________________
 
 # 12 GENERATORS VERSIONING
 
@@ -119,9 +119,9 @@ System: **AMOS OS**
 >
 > **Origin Architect and Steward:** Trang Phan
 
----
+______________________________________________________________________
 
-# 0. PURPOSE
+## 0. PURPOSE
 
 `12 GENERATORS VERSIONING` defines the AMOS OS contract for identifying,
 versioning, resolving, validating, promoting, superseding, pinning, migrating,
@@ -178,9 +178,9 @@ MIGRATED,
 OR SUPERSEDED?
 ```
 
----
+______________________________________________________________________
 
-# 1. ROOT GENERATOR LAW
+## 1. ROOT GENERATOR LAW
 
 The foundational law is:
 
@@ -216,9 +216,9 @@ EXECUTION REGIME
 
 where those fields materially affect output semantics.
 
----
+______________________________________________________________________
 
-# 2. VERSIONING PURPOSE
+## 2. VERSIONING PURPOSE
 
 Versioning exists to preserve:
 
@@ -246,9 +246,9 @@ FAILURE LOCALIZATION
 
 Version numbers are therefore governance metadata, not decoration.
 
----
+______________________________________________________________________
 
-# 3. VERSION FIREWALL
+## 3. VERSION FIREWALL
 
 Never infer:
 
@@ -298,9 +298,9 @@ NEWER VERSION
 CANONICAL VERSION
 ```
 
----
+______________________________________________________________________
 
-# 4. GENERATOR ENTITY
+## 4. GENERATOR ENTITY
 
 A generator should conceptually possess:
 
@@ -343,9 +343,9 @@ GeneratorIdentity:
 Not every implementation must physically serialize every field, but every
 load-bearing distinction must remain recoverable.
 
----
+______________________________________________________________________
 
-# 5. GENERATOR ID
+## 5. GENERATOR ID
 
 `generator_id` is the stable logical identity of the generator.
 
@@ -366,9 +366,9 @@ The exact naming scheme requires canonical registry governance.
 A version must not be embedded into the logical identity unless the registry
 explicitly defines that convention.
 
----
+______________________________________________________________________
 
-# 6. GENERATOR FAMILY
+## 6. GENERATOR FAMILY
 
 Generators that perform related transformations may share a family.
 
@@ -385,9 +385,9 @@ GENERATOR FAMILY
 
 Family membership does not imply interchangeability.
 
----
+______________________________________________________________________
 
-# 7. GENERATOR VERSION
+## 7. GENERATOR VERSION
 
 A generator version identifies a governed release of generator semantics.
 
@@ -401,9 +401,9 @@ GENERATOR_VERSION
 GENERATOR_RELEASE_IDENTITY
 ```
 
----
+______________________________________________________________________
 
-# 8. IMPLEMENTATION REVISION
+## 8. IMPLEMENTATION REVISION
 
 A generator version and implementation revision must remain distinguishable.
 
@@ -420,9 +420,9 @@ the same declared semantics.
 
 Whether that is allowed must be governed explicitly.
 
----
+______________________________________________________________________
 
-# 9. IMMUTABLE RELEASE LAW
+## 9. IMMUTABLE RELEASE LAW
 
 Once a generator release is admitted:
 
@@ -446,9 +446,9 @@ NEW
 
 or another explicitly governed revision mechanism must be used.
 
----
+______________________________________________________________________
 
-# 10. VERSION REUSE PROHIBITION
+## 10. VERSION REUSE PROHIBITION
 
 A retired, revoked, superseded, or defective version identifier must not be
 reassigned to unrelated semantics.
@@ -458,9 +458,9 @@ VERSION IDENTITY
 MUST NOT BE RECYCLED.
 ```
 
----
+______________________________________________________________________
 
-# 11. SEMANTIC VERSION MODEL
+## 11. SEMANTIC VERSION MODEL
 
 Where semantic versioning is used:
 
@@ -494,9 +494,9 @@ PROOF OF COMPATIBILITY
 
 Compatibility must be established by contracts and validation.
 
----
+______________________________________________________________________
 
-# 12. MAJOR VERSION
+## 12. MAJOR VERSION
 
 Increment `MAJOR` when the generator changes in a way that can invalidate
 existing consumers or materially alter interpretation.
@@ -523,9 +523,9 @@ CHANGING OUTPUT IDENTITY RULES
 CHANGING FAILURE SEMANTICS
 ```
 
----
+______________________________________________________________________
 
-# 13. MINOR VERSION
+## 13. MINOR VERSION
 
 Increment `MINOR` for backward-compatible additions.
 
@@ -545,9 +545,9 @@ NEW OPTIONAL VALIDATOR
 
 Backward compatibility must still be tested rather than assumed.
 
----
+______________________________________________________________________
 
-# 14. PATCH VERSION
+## 14. PATCH VERSION
 
 Increment `PATCH` for compatible corrections that do not intentionally alter
 the public semantic contract.
@@ -569,9 +569,9 @@ CORRECTED ERROR MESSAGE
 If a "bug fix" changes generated meaning, the change may require `MINOR` or
 `MAJOR`.
 
----
+______________________________________________________________________
 
-# 15. VERSION CLASSIFICATION IS SEMANTIC
+## 15. VERSION CLASSIFICATION IS SEMANTIC
 
 The amount of changed code does not determine version magnitude.
 
@@ -595,9 +595,9 @@ PATCH
 
 if observable governed semantics remain equivalent.
 
----
+______________________________________________________________________
 
-# 16. VERSION VECTOR
+## 16. VERSION VECTOR
 
 A single generator version may be insufficient to identify the effective
 generation environment.
@@ -628,9 +628,9 @@ GeneratorVersionVector:
   environment_profile:
 ```
 
----
+______________________________________________________________________
 
-# 17. GENERATOR VERSION ≠ OUTPUT SCHEMA VERSION
+## 17. GENERATOR VERSION ≠ OUTPUT SCHEMA VERSION
 
 Critical firewall:
 
@@ -646,9 +646,9 @@ Likewise, an output schema may change in a way that forces a generator update.
 
 These dimensions must remain independently identifiable.
 
----
+______________________________________________________________________
 
-# 18. INPUT CONTRACT VERSION
+## 18. INPUT CONTRACT VERSION
 
 Every governed generator should identify the input contract it accepts.
 
@@ -670,9 +670,9 @@ InputContract:
   regime:
 ```
 
----
+______________________________________________________________________
 
-# 19. OUTPUT CONTRACT VERSION
+## 19. OUTPUT CONTRACT VERSION
 
 Every governed generator should identify the output contract it promises.
 
@@ -692,9 +692,9 @@ OutputContract:
   provenance_requirements:
 ```
 
----
+______________________________________________________________________
 
-# 20. CONFIGURATION VERSION
+## 20. CONFIGURATION VERSION
 
 Generator configuration is part of reproducibility.
 
@@ -708,9 +708,9 @@ INCOMPLETE REPRODUCTION IDENTITY
 
 Configuration schemas should therefore be versioned where material.
 
----
+______________________________________________________________________
 
-# 21. DEFAULTS ARE SEMANTICS
+## 21. DEFAULTS ARE SEMANTICS
 
 A default value can be load-bearing.
 
@@ -736,9 +736,9 @@ MAY BE
 VERSION-BEARING CHANGE.
 ```
 
----
+______________________________________________________________________
 
-# 22. GENERATED ARTIFACT IDENTITY
+## 22. GENERATED ARTIFACT IDENTITY
 
 Every material generated artifact should be traceable to a generation event.
 
@@ -766,9 +766,9 @@ GeneratedArtifactIdentity:
   provenance:
 ```
 
----
+______________________________________________________________________
 
-# 23. GENERATION MANIFEST
+## 23. GENERATION MANIFEST
 
 Every consequential generation event should conceptually produce a manifest.
 
@@ -816,9 +816,9 @@ GenerationManifest:
   timestamp:
 ```
 
----
+______________________________________________________________________
 
-# 24. MANIFEST IS PART OF PROVENANCE
+## 24. MANIFEST IS PART OF PROVENANCE
 
 A generated artifact without enough generation provenance may still be usable,
 but its reproducibility and trust ceiling must be downgraded accordingly.
@@ -830,9 +830,9 @@ WITHOUT GENERATION LINEAGE
 PROVENANCE GAP
 ```
 
----
+______________________________________________________________________
 
-# 25. INPUT HASHING
+## 25. INPUT HASHING
 
 Where feasible, generation manifests should preserve cryptographic or
 otherwise stable identities for load-bearing inputs.
@@ -859,9 +859,9 @@ from:
 SAME FILE CONTENT
 ```
 
----
+______________________________________________________________________
 
-# 26. GENERATOR HASHING
+## 26. GENERATOR HASHING
 
 Where feasible, record the implementation hash or equivalent immutable
 revision identifier.
@@ -874,9 +874,9 @@ IMPLEMENTATION HASH
 
 provides stronger identity than the version label alone.
 
----
+______________________________________________________________________
 
-# 27. CONTENT-ADDRESSABLE OUTPUT
+## 27. CONTENT-ADDRESSABLE OUTPUT
 
 Where useful, generated artifact identity may incorporate content hashes.
 
@@ -896,9 +896,9 @@ REPRODUCTION COMPARISON
 PROVENANCE VERIFICATION
 ```
 
----
+______________________________________________________________________
 
-# 28. HASH FIREWALL
+## 28. HASH FIREWALL
 
 A matching hash establishes content identity under the selected hashing
 method.
@@ -917,18 +917,18 @@ SAFE PROVENANCE
 EMPIRICAL VALIDITY
 ```
 
----
+______________________________________________________________________
 
-# 29. REPRODUCIBILITY
+## 29. REPRODUCIBILITY
 
 A generator is reproducible when equivalent governed inputs and execution
 conditions can reproduce the required output relation.
 
 But reproducibility has multiple levels.
 
----
+______________________________________________________________________
 
-# 30. BYTE REPRODUCIBILITY
+## 30. BYTE REPRODUCIBILITY
 
 Strongest common form:
 
@@ -946,9 +946,9 @@ SAME BYTES
 
 where the generator declares byte determinism.
 
----
+______________________________________________________________________
 
-# 31. STRUCTURAL REPRODUCIBILITY
+## 31. STRUCTURAL REPRODUCIBILITY
 
 Some generators may guarantee only structurally equivalent output.
 
@@ -964,9 +964,9 @@ NON-SEMANTIC IDS MAY DIFFER
 
 while the governed structure remains equivalent.
 
----
+______________________________________________________________________
 
-# 32. SEMANTIC REPRODUCIBILITY
+## 32. SEMANTIC REPRODUCIBILITY
 
 The weakest acceptable reproducibility class may be semantic:
 
@@ -980,9 +980,9 @@ even if bytes differ.
 
 The equivalence relation must be explicitly defined.
 
----
+______________________________________________________________________
 
-# 33. REPRODUCIBILITY CLASS
+## 33. REPRODUCIBILITY CLASS
 
 Conceptually:
 
@@ -1005,9 +1005,9 @@ ReproducibilityContract:
   tolerance:
 ```
 
----
+______________________________________________________________________
 
-# 34. DETERMINISM CONTRACT
+## 34. DETERMINISM CONTRACT
 
 Each generator should declare whether it is:
 
@@ -1023,9 +1023,9 @@ EXTERNALLY_DEPENDENT
 NONDETERMINISTIC
 ```
 
----
+______________________________________________________________________
 
-# 35. RANDOMNESS
+## 35. RANDOMNESS
 
 If randomness affects output, preserve where possible:
 
@@ -1041,9 +1041,9 @@ SAMPLING PARAMETERS
 
 A seed alone may not reproduce output if runtime or algorithm versions differ.
 
----
+______________________________________________________________________
 
-# 36. TIME DEPENDENCE
+## 36. TIME DEPENDENCE
 
 Generators using current time must declare it.
 
@@ -1055,9 +1055,9 @@ is an implicit input.
 
 For reproducibility, generation time may need to be frozen or recorded.
 
----
+______________________________________________________________________
 
-# 37. EXTERNAL DEPENDENCE
+## 37. EXTERNAL DEPENDENCE
 
 If generation depends on mutable external systems:
 
@@ -1077,9 +1077,9 @@ LIVE WORLD STATE
 
 those dependencies become part of the effective input/provenance envelope.
 
----
+______________________________________________________________________
 
-# 38. MODEL-DEPENDENT GENERATORS
+## 38. MODEL-DEPENDENT GENERATORS
 
 A generator using a model should identify the relevant model boundary.
 
@@ -1105,9 +1105,9 @@ ModelDependency:
 
 If exact model snapshot identity is unavailable, record the gap.
 
----
+______________________________________________________________________
 
-# 39. PROMPT VERSIONING
+## 39. PROMPT VERSIONING
 
 For model-backed generators:
 
@@ -1120,9 +1120,9 @@ GENERATOR SEMANTICS.
 
 Prompt/template versions should therefore be tracked when load-bearing.
 
----
+______________________________________________________________________
 
-# 40. TOOL VERSIONING
+## 40. TOOL VERSIONING
 
 Tool contracts used by generators may affect results.
 
@@ -1140,9 +1140,9 @@ PROVIDER VERSION
 
 where available.
 
----
+______________________________________________________________________
 
-# 41. DEPENDENCY LOCK
+## 41. DEPENDENCY LOCK
 
 A generator release should define its load-bearing dependency envelope.
 
@@ -1166,9 +1166,9 @@ GeneratorDependency:
   load_bearing:
 ```
 
----
+______________________________________________________________________
 
-# 42. PINNING
+## 42. PINNING
 
 Consequential generation should prefer explicit version pinning.
 
@@ -1189,9 +1189,9 @@ generator = 4.2.1
 implementation_hash = abc123...
 ```
 
----
+______________________________________________________________________
 
-# 43. FLOATING VERSION FIREWALL
+## 43. FLOATING VERSION FIREWALL
 
 Floating selectors such as:
 
@@ -1211,9 +1211,9 @@ must resolve to a concrete version before generation.
 
 The resolved version should be recorded.
 
----
+______________________________________________________________________
 
-# 44. VERSION RESOLUTION
+## 44. VERSION RESOLUTION
 
 Conceptually:
 
@@ -1229,9 +1229,9 @@ COMPATIBILITY VALIDATION
 EXECUTION
 ```
 
----
+______________________________________________________________________
 
-# 45. VERSION RESOLUTION OBJECT
+## 45. VERSION RESOLUTION OBJECT
 
 ```yaml
 GeneratorResolution:
@@ -1257,9 +1257,9 @@ GeneratorResolution:
   provenance:
 ```
 
----
+______________________________________________________________________
 
-# 46. RESOLUTION MUST BE STABLE FOR EXECUTION
+## 46. RESOLUTION MUST BE STABLE FOR EXECUTION
 
 Do not resolve:
 
@@ -1271,9 +1271,9 @@ multiple times during one generation transaction.
 
 Resolve once, bind the concrete release, and execute against that binding.
 
----
+______________________________________________________________________
 
-# 47. TOCTOU VERSION FIREWALL
+## 47. TOCTOU VERSION FIREWALL
 
 Conceptually:
 
@@ -1290,9 +1290,9 @@ EXECUTE
 If the registry change affects the selected release or its validity, the
 transaction must revalidate before commit.
 
----
+______________________________________________________________________
 
-# 48. GENERATOR REGISTRY
+## 48. GENERATOR REGISTRY
 
 AMOS should maintain a governed generator registry.
 
@@ -1326,9 +1326,9 @@ GeneratorRegistryEntry:
   updated_at:
 ```
 
----
+______________________________________________________________________
 
-# 49. REGISTRY AUTHORITY
+## 49. REGISTRY AUTHORITY
 
 Only appropriately governed processes may:
 
@@ -1348,9 +1348,9 @@ RETIRE
 
 generator releases.
 
----
+______________________________________________________________________
 
-# 50. REGISTERED ≠ CANONICAL
+## 50. REGISTERED ≠ CANONICAL
 
 A generator can be registered without being canonical.
 
@@ -1376,9 +1376,9 @@ REVOKED
 RETIRED
 ```
 
----
+______________________________________________________________________
 
-# 51. VERSION LIFECYCLE
+## 51. VERSION LIFECYCLE
 
 Conceptually:
 
@@ -1408,25 +1408,25 @@ ANY ACTIVE STATE
       REVOKED
 ```
 
----
+______________________________________________________________________
 
-# 52. EXPERIMENTAL
+## 52. EXPERIMENTAL
 
 Experimental generators may be used in bounded noncanonical contexts.
 
 Their outputs must not silently become canonical artifacts.
 
----
+______________________________________________________________________
 
-# 53. CANDIDATE
+## 53. CANDIDATE
 
 Candidate releases are proposed for validation.
 
 They are not yet trusted as admitted production generators.
 
----
+______________________________________________________________________
 
-# 54. VALIDATED
+## 54. VALIDATED
 
 A validated release has passed its required validation suite.
 
@@ -1442,24 +1442,24 @@ VERSION-BOUND
 ENVIRONMENT-BOUND
 ```
 
----
+______________________________________________________________________
 
-# 55. ADMITTED
+## 55. ADMITTED
 
 An admitted generator has passed the applicable governance gate.
 
 Admission does not necessarily make it the default.
 
----
+______________________________________________________________________
 
-# 56. RECOMMENDED
+## 56. RECOMMENDED
 
 A recommended release is the preferred release for a defined compatibility
 and regime envelope.
 
----
+______________________________________________________________________
 
-# 57. DEPRECATED
+## 57. DEPRECATED
 
 Deprecated means:
 
@@ -1473,9 +1473,9 @@ NOT PREFERRED
 
 It must not mean deleted.
 
----
+______________________________________________________________________
 
-# 58. REVOKED
+## 58. REVOKED
 
 A revoked release is no longer considered valid for defined uses.
 
@@ -1497,16 +1497,16 @@ SUCCESSOR
 
 where known.
 
----
+______________________________________________________________________
 
-# 59. RETIRED
+## 59. RETIRED
 
 A retired generator is no longer active but remains part of historical
 lineage.
 
----
+______________________________________________________________________
 
-# 60. SUPERSESSION
+## 60. SUPERSESSION
 
 Generator supersession is explicit.
 
@@ -1520,9 +1520,9 @@ does not imply:
 GENERATOR v1 SUPERSEDED
 ```
 
----
+______________________________________________________________________
 
-# 61. SUPERSESSION RECORD
+## 61. SUPERSESSION RECORD
 
 ```yaml
 GeneratorSupersession:
@@ -1548,9 +1548,9 @@ GeneratorSupersession:
   provenance:
 ```
 
----
+______________________________________________________________________
 
-# 62. VERSION LINEAGE
+## 62. VERSION LINEAGE
 
 Conceptually:
 
@@ -1568,9 +1568,9 @@ Branches may exist.
 
 Version lineage need not always be a simple linear chain.
 
----
+______________________________________________________________________
 
-# 63. BRANCHING
+## 63. BRANCHING
 
 AMOS must support the possibility of:
 
@@ -1586,9 +1586,9 @@ or equivalent branches where governance permits.
 
 A branch must preserve explicit compatibility and lineage.
 
----
+______________________________________________________________________
 
-# 64. FORK
+## 64. FORK
 
 A generator fork creates divergent semantics or governance lineage.
 
@@ -1596,9 +1596,9 @@ Fork identity must be explicit.
 
 Do not reuse the upstream generator identity if doing so creates ambiguity.
 
----
+______________________________________________________________________
 
-# 65. MERGE
+## 65. MERGE
 
 A merged generator lineage must preserve both parent ancestries.
 
@@ -1612,9 +1612,9 @@ PARENT B
 
 Do not erase provenance to simplify history.
 
----
+______________________________________________________________________
 
-# 66. COMPATIBILITY
+## 66. COMPATIBILITY
 
 Compatibility is typed.
 
@@ -1638,9 +1638,9 @@ MIGRATION_COMPATIBILITY
 REPRODUCIBILITY_COMPATIBILITY
 ```
 
----
+______________________________________________________________________
 
-# 67. COMPATIBILITY IS DIRECTIONAL
+## 67. COMPATIBILITY IS DIRECTIONAL
 
 ```text
 A CAN CONSUME B
@@ -1652,9 +1652,9 @@ does not imply:
 B CAN CONSUME A
 ```
 
----
+______________________________________________________________________
 
-# 68. COMPATIBILITY MATRIX
+## 68. COMPATIBILITY MATRIX
 
 Conceptually:
 
@@ -1669,9 +1669,9 @@ v3         NO    NO    YES
 
 Compatibility should be evidence-backed.
 
----
+______________________________________________________________________
 
-# 69. UNKNOWN COMPATIBILITY
+## 69. UNKNOWN COMPATIBILITY
 
 Critical rule:
 
@@ -1689,9 +1689,9 @@ UNKNOWN/GAP
 
 until validated.
 
----
+______________________________________________________________________
 
-# 70. TRANSITIVE COMPATIBILITY FIREWALL
+## 70. TRANSITIVE COMPATIBILITY FIREWALL
 
 Never infer:
 
@@ -1707,24 +1707,24 @@ A compatible C
 
 unless compatibility semantics are explicitly transitive.
 
----
+______________________________________________________________________
 
-# 71. BACKWARD COMPATIBILITY
+## 71. BACKWARD COMPATIBILITY
 
 A newer generator is backward-compatible when it can correctly process
 inputs or satisfy consumers governed by the older contract, under an explicit
 compatibility envelope.
 
----
+______________________________________________________________________
 
-# 72. FORWARD COMPATIBILITY
+## 72. FORWARD COMPATIBILITY
 
 An older consumer may be forward-compatible with newer outputs only if the
 contract explicitly permits unknown additions or future representations.
 
----
+______________________________________________________________________
 
-# 73. COMPATIBILITY PROFILE
+## 73. COMPATIBILITY PROFILE
 
 ```yaml
 CompatibilityProfile:
@@ -1754,9 +1754,9 @@ CompatibilityProfile:
   expires_at:
 ```
 
----
+______________________________________________________________________
 
-# 74. GENERATOR COMPOSITION
+## 74. GENERATOR COMPOSITION
 
 Generators may form pipelines.
 
@@ -1770,9 +1770,9 @@ GEN-C
 
 Pipeline validity requires more than individual generator validity.
 
----
+______________________________________________________________________
 
-# 75. COMPOSITION FIREWALL
+## 75. COMPOSITION FIREWALL
 
 ```text
 Valid(A)
@@ -1786,9 +1786,9 @@ Valid(A→B→C)
 
 Interfaces and semantics between stages must be compatible.
 
----
+______________________________________________________________________
 
-# 76. PIPELINE VERSION
+## 76. PIPELINE VERSION
 
 A material generator pipeline may require its own version identity.
 
@@ -1812,9 +1812,9 @@ GeneratorPipeline:
   provenance:
 ```
 
----
+______________________________________________________________________
 
-# 77. PIPELINE HASH
+## 77. PIPELINE HASH
 
 A pipeline fingerprint may be derived from:
 
@@ -1832,9 +1832,9 @@ INTERFACE CONTRACTS
 
 where appropriate.
 
----
+______________________________________________________________________
 
-# 78. N-ARY COMPOSITION
+## 78. N-ARY COMPOSITION
 
 Pairwise compatibility does not guarantee complete pipeline validity.
 
@@ -1848,9 +1848,9 @@ A→C assumptions interact
 
 may still invalidate the pipeline.
 
----
+______________________________________________________________________
 
-# 79. GENERATED ARTIFACT PROVENANCE
+## 79. GENERATED ARTIFACT PROVENANCE
 
 A generated artifact should preserve lineage:
 
@@ -1864,9 +1864,9 @@ GENERATED ARTIFACT
 DERIVED ARTIFACTS
 ```
 
----
+______________________________________________________________________
 
-# 80. PROVENANCE TRANSITIVITY
+## 80. PROVENANCE TRANSITIVITY
 
 If artifact `B` is generated from artifact `A`, `B` inherits relevant
 ancestry from `A`.
@@ -1874,9 +1874,9 @@ ancestry from `A`.
 It does not become an independent source merely because a generator
 transformed it.
 
----
+______________________________________________________________________
 
-# 81. SYBIL HARDENING
+## 81. SYBIL HARDENING
 
 If:
 
@@ -1897,9 +1897,9 @@ A + B + C
 
 do not constitute three independent confirmations of `S`.
 
----
+______________________________________________________________________
 
-# 82. GENERATOR PROVENANCE RECORD
+## 82. GENERATOR PROVENANCE RECORD
 
 ```yaml
 GeneratorProvenance:
@@ -1931,9 +1931,9 @@ GeneratorProvenance:
 
 where those values are available.
 
----
+______________________________________________________________________
 
-# 83. BUILD PROVENANCE
+## 83. BUILD PROVENANCE
 
 If generator binaries or packages are built, preserve where practical:
 
@@ -1951,9 +1951,9 @@ DEPENDENCY LOCK
 ARTIFACT HASH
 ```
 
----
+______________________________________________________________________
 
-# 84. SUPPLY-CHAIN FIREWALL
+## 84. SUPPLY-CHAIN FIREWALL
 
 A correct generator specification does not establish that an arbitrary binary
 claiming that version is authentic.
@@ -1961,9 +1961,9 @@ claiming that version is authentic.
 Implementation identity must be verified separately where security or
 integrity requires it.
 
----
+______________________________________________________________________
 
-# 85. SIGNATURES
+## 85. SIGNATURES
 
 Cryptographic signatures may strengthen authenticity.
 
@@ -1983,9 +1983,9 @@ SEMANTICALLY CORRECT
 
 unless additional validation establishes correctness.
 
----
+______________________________________________________________________
 
-# 86. GENERATED CANON
+## 86. GENERATED CANON
 
 Generators may produce candidate canonical artifacts.
 
@@ -2004,9 +2004,9 @@ CANON GOVERNANCE
 ADMISSION
 ```
 
----
+______________________________________________________________________
 
-# 87. GENERATION ≠ CANON ADMISSION
+## 87. GENERATION ≠ CANON ADMISSION
 
 This firewall is mandatory:
 
@@ -2016,9 +2016,9 @@ GENERATOR SUCCESS
 CANONICAL STATUS
 ```
 
----
+______________________________________________________________________
 
-# 88. CANON GENERATOR VERSION PINNING
+## 88. CANON GENERATOR VERSION PINNING
 
 Canonical artifacts produced by generators should preserve the concrete
 generator version that produced them.
@@ -2031,18 +2031,18 @@ WERE PRODUCED BY
 GENERATOR v3.2.0?
 ```
 
----
+______________________________________________________________________
 
-# 89. REGENERATION
+## 89. REGENERATION
 
 Regenerating an existing canonical artifact with a newer generator is a
 potential semantic change.
 
 It must not automatically overwrite existing canon.
 
----
+______________________________________________________________________
 
-# 90. REGENERATION [[08_WORKFLOWS/law-stack-enforcement-pipeline/WORKFLOW|WORKFLOW]]
+## 90. REGENERATION [[08_WORKFLOWS/law-stack-enforcement-pipeline/WORKFLOW|WORKFLOW]]
 
 ```text
 EXISTING ARTIFACT
@@ -2060,9 +2060,9 @@ GOVERNANCE
 SUPERSEDE / REJECT
 ```
 
----
+______________________________________________________________________
 
-# 91. BYTE DIFF ≠ SEMANTIC DIFF
+## 91. BYTE DIFF ≠ SEMANTIC DIFF
 
 A regenerated artifact may differ byte-for-byte without changing semantics.
 
@@ -2070,9 +2070,9 @@ Conversely, a one-character change may alter critical semantics.
 
 Therefore both structural and semantic validation may be required.
 
----
+______________________________________________________________________
 
-# 92. MIGRATION
+## 92. MIGRATION
 
 A migration transforms artifacts or generator state from one version contract
 to another.
@@ -2085,9 +2085,9 @@ MIGRATOR
 NEW REPRESENTATION
 ```
 
----
+______________________________________________________________________
 
-# 93. MIGRATOR IS A GENERATOR
+## 93. MIGRATOR IS A GENERATOR
 
 A migration tool is itself a governed generator.
 
@@ -2109,9 +2109,9 @@ VALIDATION
 ROLLBACK / RECOVERY
 ```
 
----
+______________________________________________________________________
 
-# 94. MIGRATION MANIFEST
+## 94. MIGRATION MANIFEST
 
 ```yaml
 MigrationManifest:
@@ -2143,16 +2143,16 @@ MigrationManifest:
   provenance:
 ```
 
----
+______________________________________________________________________
 
-# 95. LOSSLESS MIGRATION
+## 95. LOSSLESS MIGRATION
 
 A migration may be declared lossless only if the required semantic information
 is preserved.
 
----
+______________________________________________________________________
 
-# 96. LOSSY MIGRATION
+## 96. LOSSY MIGRATION
 
 Lossy migration must explicitly identify lost or transformed semantics.
 
@@ -2163,9 +2163,9 @@ MASQUERADE AS
 LOSSLESS.
 ```
 
----
+______________________________________________________________________
 
-# 97. MIGRATION REVERSIBILITY
+## 97. MIGRATION REVERSIBILITY
 
 A reversible migration should define:
 
@@ -2179,9 +2179,9 @@ REVERSIBILITY CONDITIONS
 KNOWN NONREVERSIBLE FIELDS
 ```
 
----
+______________________________________________________________________
 
-# 98. MIGRATION CHAIN
+## 98. MIGRATION CHAIN
 
 Avoid uncontrolled chains such as:
 
@@ -2194,25 +2194,25 @@ when accumulated transformations can drift.
 Where useful, validate direct migration paths or canonical intermediate
 representations.
 
----
+______________________________________________________________________
 
-# 99. MIGRATION PROVENANCE
+## 99. MIGRATION PROVENANCE
 
 Migrated artifacts retain ancestry from their pre-migration forms.
 
 Migration does not create an independent origin.
 
----
+______________________________________________________________________
 
-# 100. ROLLBACK
+## 100. ROLLBACK
 
 Rollback restores a previously valid generator release or generated state.
 
 Rollback requires more than selecting an old version.
 
----
+______________________________________________________________________
 
-# 101. ROLLBACK COMPATIBILITY
+## 101. ROLLBACK COMPATIBILITY
 
 Before rollback, determine whether current:
 
@@ -2230,9 +2230,9 @@ DEPENDENCIES
 
 remain compatible with the older generator.
 
----
+______________________________________________________________________
 
-# 102. ROLLBACK FIREWALL
+## 102. ROLLBACK FIREWALL
 
 ```text
 OLD VERSION WAS VALID BEFORE
@@ -2246,9 +2246,9 @@ OLD VERSION IS VALID NOW
 
 after state or schema evolution.
 
----
+______________________________________________________________________
 
-# 103. ROLLBACK MANIFEST
+## 103. ROLLBACK MANIFEST
 
 ```yaml
 RollbackManifest:
@@ -2274,9 +2274,9 @@ RollbackManifest:
   provenance:
 ```
 
----
+______________________________________________________________________
 
-# 104. VERSION [[03_CONTROL_PLANE/04_AUTHORITY/REVOCATION|REVOCATION]]
+## 104. VERSION [[03_CONTROL_PLANE/04_AUTHORITY/REVOCATION|REVOCATION]]
 
 A release may require emergency revocation for:
 
@@ -2298,9 +2298,9 @@ AUTHORITY BYPASS
 SCOPE LEAK
 ```
 
----
+______________________________________________________________________
 
-# 105. [[03_CONTROL_PLANE/04_AUTHORITY/REVOCATION|REVOCATION]] PROPAGATION
+## 105. [[03_CONTROL_PLANE/04_AUTHORITY/REVOCATION|REVOCATION]] PROPAGATION
 
 Revocation should identify affected descendants.
 
@@ -2316,9 +2316,9 @@ DEPENDENT PROOF CAPSULES
 
 Only actual dependents should be invalidated.
 
----
+______________________________________________________________________
 
-# 106. SELECTIVE INVALIDATION
+## 106. SELECTIVE INVALIDATION
 
 Do not invalidate all generated knowledge merely because one generator
 version is defective.
@@ -2328,9 +2328,9 @@ INVALIDATE
 THE AFFECTED LINEAGE.
 ```
 
----
+______________________________________________________________________
 
-# 107. ARTIFACT IMPACT INDEX
+## 107. ARTIFACT IMPACT INDEX
 
 AMOS should be able to conceptually query:
 
@@ -2344,9 +2344,9 @@ DEPENDENTS
 
 for impact analysis.
 
----
+______________________________________________________________________
 
-# 108. VERSION IMPACT OBJECT
+## 108. VERSION IMPACT OBJECT
 
 ```yaml
 VersionImpact:
@@ -2370,9 +2370,9 @@ VersionImpact:
   severity:
 ```
 
----
+______________________________________________________________________
 
-# 109. GENERATOR EPOCH
+## 109. GENERATOR EPOCH
 
 Material generator registry changes may establish a new generator epoch.
 
@@ -2386,9 +2386,9 @@ EPOCH E18:
 default architecture generator = 5.0.0
 ```
 
----
+______________________________________________________________________
 
-# 110. EPOCH FINALITY
+## 110. EPOCH FINALITY
 
 A generation transaction should bind the generator epoch it resolved against.
 
@@ -2398,9 +2398,9 @@ If the epoch changes before commit and affects load-bearing semantics:
 REVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 111. MVCC PATTERN
+## 111. MVCC PATTERN
 
 Generator version resolution may use an MVCC-like reasoning pattern:
 
@@ -2423,9 +2423,9 @@ COMMIT       REVALIDATE
 This is a semantic reasoning pattern, not a claim of literal database
 implementation.
 
----
+______________________________________________________________________
 
-# 112. CAS PATTERN
+## 112. CAS PATTERN
 
 Conceptually:
 
@@ -2440,9 +2440,9 @@ EXPECTED GENERATOR BINDING
 
 where that condition is load-bearing.
 
----
+______________________________________________________________________
 
-# 113. ATOMIC GENERATION
+## 113. ATOMIC GENERATION
 
 If several artifacts must form one coherent generated set:
 
@@ -2466,9 +2466,9 @@ VALIDATE SET
 COMMIT SET
 ```
 
----
+______________________________________________________________________
 
-# 114. MULTI-ARTIFACT MANIFEST
+## 114. MULTI-ARTIFACT MANIFEST
 
 ```yaml
 GenerationSet:
@@ -2488,9 +2488,9 @@ GenerationSet:
   commit_state:
 ```
 
----
+______________________________________________________________________
 
-# 115. PARTIAL GENERATION
+## 115. PARTIAL GENERATION
 
 If atomicity is required:
 
@@ -2504,9 +2504,9 @@ C FAILURE
 
 must not silently publish `{A,B}` as a complete generation set.
 
----
+______________________________________________________________________
 
-# 116. INCREMENTAL GENERATION
+## 116. INCREMENTAL GENERATION
 
 Incremental generators must define how previous output state participates in
 new generation.
@@ -2518,17 +2518,17 @@ IS AN INPUT.
 
 Therefore it must enter provenance.
 
----
+______________________________________________________________________
 
-# 117. CACHE
+## 117. CACHE
 
 Generator caches may improve performance.
 
 But cache hits must preserve semantic validity.
 
----
+______________________________________________________________________
 
-# 118. CACHE KEY
+## 118. CACHE KEY
 
 A correct cache key should include every input dimension capable of changing
 the governed output.
@@ -2557,9 +2557,9 @@ POLICY EPOCH
 
 as applicable.
 
----
+______________________________________________________________________
 
-# 119. CACHE FIREWALL
+## 119. CACHE FIREWALL
 
 ```text
 CACHE HIT
@@ -2569,17 +2569,17 @@ VALID RESULT
 
 if the validity envelope has changed.
 
----
+______________________________________________________________________
 
-# 120. CACHE INVALIDATION
+## 120. CACHE INVALIDATION
 
 Invalidate cached generated outputs when a load-bearing dependency changes.
 
 Do not invalidate unrelated cache entries.
 
----
+______________________________________________________________________
 
-# 121. GENERATOR FAST PATH
+## 121. GENERATOR FAST PATH
 
 Generation may use a local fast path when:
 
@@ -2605,9 +2605,9 @@ NO GOVERNANCE CHANGE
 NO IRREVERSIBLE EFFECT
 ```
 
----
+______________________________________________________________________
 
-# 122. FAST PATH DOES NOT WEAKEN VERSIONING
+## 122. FAST PATH DOES NOT WEAKEN VERSIONING
 
 ```text
 FAST
@@ -2623,9 +2623,9 @@ LOCAL
 UNPROVENANCED
 ```
 
----
+______________________________________________________________________
 
-# 123. PROOF-BASED COORDINATION AVOIDANCE
+## 123. PROOF-BASED COORDINATION AVOIDANCE
 
 Multiple generator operations may finalize independently only when their
 dependency closures are demonstrated to be independent.
@@ -2656,9 +2656,9 @@ PROVENANCE DEPENDENCY
 COMMIT CONDITION
 ```
 
----
+______________________________________________________________________
 
-# 124. INDEPENDENCE FIREWALL
+## 124. INDEPENDENCE FIREWALL
 
 ```text
 DIFFERENT GENERATORS
@@ -2688,9 +2688,9 @@ CACHE
 EXTERNAL PROVIDER
 ```
 
----
+______________________________________________________________________
 
-# 125. SHARD-LOCAL GENERATION
+## 125. SHARD-LOCAL GENERATION
 
 Generator shards may finalize locally only when:
 
@@ -2708,16 +2708,16 @@ NO SHARED COMMIT AUTHORITY
 NO UNRESOLVED CONFLICT
 ```
 
----
+______________________________________________________________________
 
-# 126. CONCURRENT GENERATION
+## 126. CONCURRENT GENERATION
 
 Concurrent generator runs must not overwrite or interleave outputs in ways
 that destroy identity or provenance.
 
----
+______________________________________________________________________
 
-# 127. OUTPUT NAMESPACE
+## 127. OUTPUT NAMESPACE
 
 Generated outputs should use collision-safe identity.
 
@@ -2737,9 +2737,9 @@ artifact
 
 or an equivalent governed structure.
 
----
+______________________________________________________________________
 
-# 128. OVERWRITE FIREWALL
+## 128. OVERWRITE FIREWALL
 
 Never overwrite an existing governed artifact merely because the generator
 uses the same logical filename.
@@ -2760,9 +2760,9 @@ ATOMICITY
 ROLLBACK
 ```
 
----
+______________________________________________________________________
 
-# 129. IDEMPOTENCE
+## 129. IDEMPOTENCE
 
 Where a generation request is declared idempotent:
 
@@ -2772,9 +2772,9 @@ SAME SEMANTIC REQUEST
 
 should not create unintended duplicate effects.
 
----
+______________________________________________________________________
 
-# 130. IDEMPOTENCE KEY
+## 130. IDEMPOTENCE KEY
 
 ```yaml
 GenerationRequest:
@@ -2792,9 +2792,9 @@ GenerationRequest:
   target:
 ```
 
----
+______________________________________________________________________
 
-# 131. IDEMPOTENCE FIREWALL
+## 131. IDEMPOTENCE FIREWALL
 
 A repeated generation may produce identical bytes while still causing
 duplicate external effects.
@@ -2802,9 +2802,9 @@ duplicate external effects.
 Artifact generation and publication must therefore remain separate effect
 classes where relevant.
 
----
+______________________________________________________________________
 
-# 132. GENERATE ≠ PUBLISH
+## 132. GENERATE ≠ PUBLISH
 
 Critical:
 
@@ -2826,9 +2826,9 @@ GENERATE
 CANONIZE
 ```
 
----
+______________________________________________________________________
 
-# 133. GENERATOR AUTHORITY
+## 133. GENERATOR AUTHORITY
 
 Generator execution authority and artifact publication authority may differ.
 
@@ -2844,15 +2844,15 @@ CAN PROMOTE
 
 This separation should be preserved.
 
----
+______________________________________________________________________
 
-# 134. COMMIT-TIME AUTHORITY
+## 134. COMMIT-TIME AUTHORITY
 
 If authority is mutable, revalidate it at publication or canonical commit.
 
----
+______________________________________________________________________
 
-# 135. EFFECT CLASSIFICATION
+## 135. EFFECT CLASSIFICATION
 
 Generator operations may produce:
 
@@ -2876,9 +2876,9 @@ DEPLOYMENT
 
 These have different governance requirements.
 
----
+______________________________________________________________________
 
-# 136. VERSION BUMP AUTHORITY
+## 136. VERSION BUMP AUTHORITY
 
 Not every generator maintainer should automatically possess authority to
 declare:
@@ -2901,9 +2901,9 @@ states.
 
 Those operations should follow the relevant governance policy.
 
----
+______________________________________________________________________
 
-# 137. RELEASE CANDIDATE
+## 137. RELEASE CANDIDATE
 
 Before admission:
 
@@ -2915,16 +2915,16 @@ or an equivalent candidate identifier may be used.
 
 Release candidates must not silently resolve as production releases.
 
----
+______________________________________________________________________
 
-# 138. PRE-RELEASE
+## 138. PRE-RELEASE
 
 Pre-release identifiers should sort outside stable production selection unless
 explicitly requested.
 
----
+______________________________________________________________________
 
-# 139. BUILD METADATA
+## 139. BUILD METADATA
 
 Build metadata may distinguish implementations without altering semantic
 version precedence.
@@ -2937,9 +2937,9 @@ Example:
 
 if the chosen versioning convention permits it.
 
----
+______________________________________________________________________
 
-# 140. DIRTY BUILDS
+## 140. DIRTY BUILDS
 
 A generator built from uncommitted or unregistered changes should be marked
 accordingly.
@@ -2952,9 +2952,9 @@ dirty: true
 
 Such builds should not silently masquerade as reproducible admitted releases.
 
----
+______________________________________________________________________
 
-# 141. LOCAL DEVELOPMENT VERSION
+## 141. LOCAL DEVELOPMENT VERSION
 
 Local experimental generator versions should use an explicit noncanonical
 identity.
@@ -2965,9 +2965,9 @@ LOCAL
 ADMITTED
 ```
 
----
+______________________________________________________________________
 
-# 142. VERSION COLLISION
+## 142. VERSION COLLISION
 
 If two implementations claim the same generator/version identity but have
 different hashes:
@@ -2980,9 +2980,9 @@ must be raised.
 
 Do not silently choose one.
 
----
+______________________________________________________________________
 
-# 143. COLLISION RESOLUTION
+## 143. COLLISION RESOLUTION
 
 Resolve using:
 
@@ -3008,9 +3008,9 @@ If unresolved:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 144. GENERATOR CONFLICT
+## 144. GENERATOR CONFLICT
 
 Two candidate generator versions may both be valid for different regimes.
 
@@ -3026,9 +3026,9 @@ valid for CURRENT_SCHEMA
 
 Do not force a universal winner.
 
----
+______________________________________________________________________
 
-# 145. COMPETING GENERATORS
+## 145. COMPETING GENERATORS
 
 If two incompatible generators have comparable support and no discriminating
 evidence:
@@ -3039,9 +3039,9 @@ COMPETING
 
 is valid.
 
----
+______________________________________________________________________
 
-# 146. DISCRIMINATING TEST
+## 146. DISCRIMINATING TEST
 
 Prefer the cheapest high-information test that determines which generator is
 valid for the target task.
@@ -3064,9 +3064,9 @@ REGIME FIT
 DEPENDENCY SUPPORT
 ```
 
----
+______________________________________________________________________
 
-# 147. PERFORMANCE VERSIONING
+## 147. PERFORMANCE VERSIONING
 
 Performance improvements do not automatically require semantic version
 changes if semantics are unchanged.
@@ -3079,9 +3079,9 @@ FASTER ON MACHINE A
 FASTER UNIVERSALLY
 ```
 
----
+______________________________________________________________________
 
-# 148. PERFORMANCE REGRESSION
+## 148. PERFORMANCE REGRESSION
 
 A release may be semantically compatible but operationally unacceptable.
 
@@ -3101,25 +3101,25 @@ THROUGHPUT
 
 thresholds where governed.
 
----
+______________________________________________________________________
 
-# 149. SECURITY VERSIONING
+## 149. SECURITY VERSIONING
 
 Security-relevant generator changes may require accelerated patching,
 revocation, or migration.
 
 A security fix must still preserve explicit compatibility and provenance.
 
----
+______________________________________________________________________
 
-# 150. PROVENANCE SECURITY
+## 150. PROVENANCE SECURITY
 
 Generated artifacts should not trust self-reported generator version fields
 without validating the provenance channel where stakes require it.
 
----
+______________________________________________________________________
 
-# 151. VALIDATION SUITE
+## 151. VALIDATION SUITE
 
 A generator release should have a version-specific validation suite.
 
@@ -3149,9 +3149,9 @@ SECURITY TESTS
 PERFORMANCE TESTS
 ```
 
----
+______________________________________________________________________
 
-# 152. GOLDEN TEST
+## 152. GOLDEN TEST
 
 Given fixed:
 
@@ -3169,9 +3169,9 @@ compare generated output against an expected governed result.
 
 Golden tests are useful but not universal proof.
 
----
+______________________________________________________________________
 
-# 153. PROPERTY TEST
+## 153. PROPERTY TEST
 
 Validate invariants rather than exact bytes.
 
@@ -3183,9 +3183,9 @@ MUST HAVE
 A GENERATION_EVENT_ID
 ```
 
----
+______________________________________________________________________
 
-# 154. METAMORPHIC TEST
+## 154. METAMORPHIC TEST
 
 Change one controlled input and verify the expected relation.
 
@@ -3199,23 +3199,23 @@ SEMANTIC OUTPUT UNCHANGED
 
 if order is declared irrelevant.
 
----
+______________________________________________________________________
 
-# 155. DETERMINISM TEST
+## 155. DETERMINISM TEST
 
 Run identical governed inputs repeatedly.
 
 Expected result depends on declared reproducibility class.
 
----
+______________________________________________________________________
 
-# 156. COMPATIBILITY TEST
+## 156. COMPATIBILITY TEST
 
 Test actual producer-consumer combinations rather than trusting version labels.
 
----
+______________________________________________________________________
 
-# 157. MIGRATION TEST
+## 157. MIGRATION TEST
 
 Validate:
 
@@ -3243,9 +3243,9 @@ OLD ≈ OLD'
 
 under the declared equivalence relation.
 
----
+______________________________________________________________________
 
-# 158. PROVENANCE TEST
+## 158. PROVENANCE TEST
 
 Verify that generated outputs preserve enough lineage to identify:
 
@@ -3263,9 +3263,9 @@ DEPENDENCIES
 GENERATION EVENT
 ```
 
----
+______________________________________________________________________
 
-# 159. NEGATIVE TEST — VERSION MUTATION
+## 159. NEGATIVE TEST — VERSION MUTATION
 
 Modify implementation while retaining the same immutable admitted version.
 
@@ -3275,9 +3275,9 @@ Expected:
 REJECT
 ```
 
----
+______________________________________________________________________
 
-# 160. NEGATIVE TEST — VERSION COLLISION
+## 160. NEGATIVE TEST — VERSION COLLISION
 
 Two different hashes claim:
 
@@ -3292,9 +3292,9 @@ Expected:
 CONFLICT
 ```
 
----
+______________________________________________________________________
 
-# 161. NEGATIVE TEST — UNKNOWN COMPATIBILITY
+## 161. NEGATIVE TEST — UNKNOWN COMPATIBILITY
 
 Attempt consequential generation with an unvalidated schema pairing.
 
@@ -3308,9 +3308,9 @@ BLOCK
 
 according to policy.
 
----
+______________________________________________________________________
 
-# 162. NEGATIVE TEST — FLOATING VERSION
+## 162. NEGATIVE TEST — FLOATING VERSION
 
 Request:
 
@@ -3328,9 +3328,9 @@ REJECT
 
 for provenance-sensitive generation.
 
----
+______________________________________________________________________
 
-# 163. NEGATIVE TEST — SELF-CANONIZATION
+## 163. NEGATIVE TEST — SELF-CANONIZATION
 
 Generator emits artifact with:
 
@@ -3346,9 +3346,9 @@ Expected:
 IGNORE / REJECT CANON CLAIM
 ```
 
----
+______________________________________________________________________
 
-# 164. NEGATIVE TEST — SILENT MIGRATION LOSS
+## 164. NEGATIVE TEST — SILENT MIGRATION LOSS
 
 Migrator removes a load-bearing field while declaring lossless migration.
 
@@ -3358,9 +3358,9 @@ Expected:
 FAIL
 ```
 
----
+______________________________________________________________________
 
-# 165. NEGATIVE TEST — INVALID ROLLBACK
+## 165. NEGATIVE TEST — INVALID ROLLBACK
 
 Attempt rollback to a version incompatible with current schema.
 
@@ -3372,9 +3372,9 @@ BLOCK
 
 unless an explicit reverse migration resolves the incompatibility.
 
----
+______________________________________________________________________
 
-# 166. NEGATIVE TEST — STALE CACHE
+## 166. NEGATIVE TEST — STALE CACHE
 
 Reuse cached output after a load-bearing dependency changed.
 
@@ -3384,9 +3384,9 @@ Expected:
 CACHE MISS / INVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 167. NEGATIVE TEST — PROVENANCE SYBIL
+## 167. NEGATIVE TEST — PROVENANCE SYBIL
 
 Generate ten summaries from one source.
 
@@ -3397,9 +3397,9 @@ INDEPENDENT EVIDENCE COUNT
 REMAINS ONE PROVENANCE FAMILY
 ```
 
----
+______________________________________________________________________
 
-# 168. VERSION COMPARISON
+## 168. VERSION COMPARISON
 
 Version ordering should be defined by the registry's declared version scheme.
 
@@ -3417,9 +3417,9 @@ must not incorrectly sort before:
 "2.0.0"
 ```
 
----
+______________________________________________________________________
 
-# 169. UNKNOWN VERSION SCHEME
+## 169. UNKNOWN VERSION SCHEME
 
 If a generator uses an unknown versioning scheme, do not force SemVer
 interpretation.
@@ -3432,9 +3432,9 @@ version_scheme: UNKNOWN
 
 or the correct declared scheme.
 
----
+______________________________________________________________________
 
-# 170. CALENDAR VERSIONING
+## 170. CALENDAR VERSIONING
 
 Generators may use calendar versions where governed.
 
@@ -3446,18 +3446,18 @@ Example:
 
 Calendar ordering does not itself establish semantic compatibility.
 
----
+______________________________________________________________________
 
-# 171. HASH VERSIONING
+## 171. HASH VERSIONING
 
 Some generators may be identified primarily by immutable hashes.
 
 This improves implementation identity but does not replace human-readable
 release governance.
 
----
+______________________________________________________________________
 
-# 172. COMPOSITE VERSION IDENTITY
+## 172. COMPOSITE VERSION IDENTITY
 
 A high-assurance binding may use:
 
@@ -3477,9 +3477,9 @@ DEPENDENCY LOCK
 
 together.
 
----
+______________________________________________________________________
 
-# 173. VERSION ALIAS
+## 173. VERSION ALIAS
 
 Aliases such as:
 
@@ -3497,9 +3497,9 @@ Aliases are mutable references.
 
 Concrete versions are historical identities.
 
----
+______________________________________________________________________
 
-# 174. ALIAS UPDATE
+## 174. ALIAS UPDATE
 
 Updating:
 
@@ -3510,9 +3510,9 @@ recommended:
 
 is a governance event even if no generator implementation changes.
 
----
+______________________________________________________________________
 
-# 175. ALIAS PROVENANCE
+## 175. ALIAS PROVENANCE
 
 Generation manifests should store the resolved concrete version, not merely
 the alias.
@@ -3524,9 +3524,9 @@ requested_selector: recommended
 resolved_version: 5.0.0
 ```
 
----
+______________________________________________________________________
 
-# 176. DEFAULT VERSION
+## 176. DEFAULT VERSION
 
 A default is a policy choice.
 
@@ -3536,9 +3536,9 @@ It must not be inferred merely from:
 HIGHEST VERSION NUMBER
 ```
 
----
+______________________________________________________________________
 
-# 177. DEFAULT CHANGE
+## 177. DEFAULT CHANGE
 
 Changing the default can change system behavior without changing any generator
 implementation.
@@ -3555,9 +3555,9 @@ AUTHORITY
 COMPATIBILITY ANALYSIS
 ```
 
----
+______________________________________________________________________
 
-# 178. VERSION POLICY
+## 178. VERSION POLICY
 
 Conceptually:
 
@@ -3589,18 +3589,18 @@ GeneratorVersionPolicy:
   rollback_policy:
 ```
 
----
+______________________________________________________________________
 
-# 179. RETENTION
+## 179. RETENTION
 
 Historical generator versions should remain identifiable for as long as
 dependent artifacts require lineage.
 
 Deleting old generator metadata can destroy provenance.
 
----
+______________________________________________________________________
 
-# 180. CODE RETENTION VS METADATA RETENTION
+## 180. CODE RETENTION VS METADATA RETENTION
 
 AMOS may eventually remove executable binaries while preserving:
 
@@ -3621,17 +3621,17 @@ MIGRATION INFORMATION
 Historical metadata has a longer integrity lifetime than executable
 availability.
 
----
+______________________________________________________________________
 
-# 181. ARCHIVAL
+## 181. ARCHIVAL
 
 Retired generator versions may be archived.
 
 Archive state must remain distinguishable from deletion or revocation.
 
----
+______________________________________________________________________
 
-# 182. REPRODUCTION AFTER RETIREMENT
+## 182. REPRODUCTION AFTER RETIREMENT
 
 A retired generator may remain reproducible if:
 
@@ -3653,9 +3653,9 @@ REPRODUCIBILITY GAP
 
 must be recorded.
 
----
+______________________________________________________________________
 
-# 183. ENVIRONMENT CAPTURE
+## 183. ENVIRONMENT CAPTURE
 
 High-assurance reproducibility may preserve:
 
@@ -3679,9 +3679,9 @@ ENVIRONMENT VARIABLES
 
 where output-sensitive.
 
----
+______________________________________________________________________
 
-# 184. ENVIRONMENT FIREWALL
+## 184. ENVIRONMENT FIREWALL
 
 Do not record irrelevant environment details merely for completeness.
 
@@ -3699,9 +3699,9 @@ SECURITY
 PERFORMANCE
 ```
 
----
+______________________________________________________________________
 
-# 185. SECRET FIREWALL
+## 185. SECRET FIREWALL
 
 Generation manifests must not expose secrets simply because configuration is
 being preserved.
@@ -3720,9 +3720,9 @@ SECRET VALUE DISCLOSURE
 
 Use redaction, secure references, or hashes where appropriate.
 
----
+______________________________________________________________________
 
-# 186. INFORMATION EXPOSURE
+## 186. INFORMATION EXPOSURE
 
 Generator provenance must obey information-exposure policy.
 
@@ -3740,33 +3740,33 @@ PERSONAL DATA
 RESTRICTED SOURCE CONTENT
 ```
 
----
+______________________________________________________________________
 
-# 187. GENERATOR CONFIGURATION HASH
+## 187. GENERATOR CONFIGURATION HASH
 
 A configuration hash can preserve identity without exposing every sensitive
 value, provided the hashing scheme is suitable and does not create a leakage
 risk.
 
----
+______________________________________________________________________
 
-# 188. VERSIONED POLICY DEPENDENCY
+## 188. VERSIONED POLICY DEPENDENCY
 
 Generator behavior may depend on policy.
 
 If policy changes output or admission semantics, policy version becomes part
 of the effective generation envelope.
 
----
+______________________________________________________________________
 
-# 189. CANON EPOCH
+## 189. CANON EPOCH
 
 Canonical generator output should bind the canon epoch or equivalent
 authoritative-state version when canon state materially influences generation.
 
----
+______________________________________________________________________
 
-# 190. STATEFUL GENERATORS
+## 190. STATEFUL GENERATORS
 
 A stateful generator must identify the relevant state snapshot.
 
@@ -3778,9 +3778,9 @@ UNKNOWN STATE
 INCOMPLETE GENERATION IDENTITY
 ```
 
----
+______________________________________________________________________
 
-# 191. STATE SNAPSHOT
+## 191. STATE SNAPSHOT
 
 Conceptually:
 
@@ -3800,9 +3800,9 @@ GeneratorStateBinding:
   freshness:
 ```
 
----
+______________________________________________________________________
 
-# 192. READ SET
+## 192. READ SET
 
 A generation transaction should preserve its load-bearing read set.
 
@@ -3824,9 +3824,9 @@ GenerationReadSet:
   state_versions: []
 ```
 
----
+______________________________________________________________________
 
-# 193. WRITE SET
+## 193. WRITE SET
 
 A generation transaction should identify intended writes.
 
@@ -3844,16 +3844,16 @@ GenerationWriteSet:
   manifests: []
 ```
 
----
+______________________________________________________________________
 
-# 194. READ/WRITE CONFLICT
+## 194. READ/WRITE CONFLICT
 
 Concurrent generation should detect when one transaction changes a
 load-bearing state another transaction assumed stable.
 
----
+______________________________________________________________________
 
-# 195. GENERATOR FAILURE CLASSES
+## 195. GENERATOR FAILURE CLASSES
 
 Candidate classes:
 
@@ -3895,9 +3895,9 @@ ROLLBACK_FAILED
 COMMIT_CONFLICT
 ```
 
----
+______________________________________________________________________
 
-# 196. FAILURE OBJECT
+## 196. FAILURE OBJECT
 
 ```yaml
 GeneratorFailure:
@@ -3927,9 +3927,9 @@ GeneratorFailure:
   provenance:
 ```
 
----
+______________________________________________________________________
 
-# 197. RETRY
+## 197. RETRY
 
 Retry only when failure conditions can plausibly change.
 
@@ -3943,9 +3943,9 @@ TEMPORARY RESOURCE FAILURE
 RETRYABLE NETWORK FAILURE
 ```
 
----
+______________________________________________________________________
 
-# 198. DETERMINISTIC FAILURE
+## 198. DETERMINISTIC FAILURE
 
 Do not blindly retry:
 
@@ -3963,9 +3963,9 @@ INCOMPATIBLE DEPENDENCY
 
 without changed conditions.
 
----
+______________________________________________________________________
 
-# 199. REPAIR
+## 199. REPAIR
 
 Prefer the smallest repair:
 
@@ -3983,9 +3983,9 @@ RESTORE REQUIRED STATE
 
 before broad regeneration.
 
----
+______________________________________________________________________
 
-# 200. COLLAPSE RECOVERY
+## 200. COLLAPSE RECOVERY
 
 If a defective generator release has produced many artifacts:
 
@@ -4005,9 +4005,9 @@ REGENERATE / MIGRATE / PRESERVE
 REVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 201. QUARANTINE
+## 201. QUARANTINE
 
 A suspicious generator version may be quarantined before full revocation.
 
@@ -4018,17 +4018,17 @@ DO NOT USE FOR NEW GENERATION
 PENDING INVESTIGATION
 ```
 
----
+______________________________________________________________________
 
-# 202. EXISTING OUTPUTS AFTER QUARANTINE
+## 202. EXISTING OUTPUTS AFTER QUARANTINE
 
 Quarantine does not automatically prove every historical output invalid.
 
 Perform lineage-based impact analysis.
 
----
+______________________________________________________________________
 
-# 203. HOMEOSTASIS
+## 203. HOMEOSTASIS
 
 AMOS should detect generator version oscillation:
 
@@ -4040,9 +4040,9 @@ caused by unstable compatibility or policy decisions.
 
 Repeated rollback/forward cycles should trigger deeper diagnosis.
 
----
+______________________________________________________________________
 
-# 204. VERSION DRIFT
+## 204. VERSION DRIFT
 
 Version drift occurs when environments expected to use one generator release
 silently diverge.
@@ -4057,9 +4057,9 @@ ENV B → v4.3
 
 without governed intent.
 
----
+______________________________________________________________________
 
-# 205. DRIFT DETECTION
+## 205. DRIFT DETECTION
 
 Compare:
 
@@ -4071,9 +4071,9 @@ ACTUAL VERSION BINDING
 
 and surface mismatches.
 
----
+______________________________________________________________________
 
-# 206. DRIFT CLASSIFICATION
+## 206. DRIFT CLASSIFICATION
 
 Potential classes:
 
@@ -4091,17 +4091,17 @@ UNAUTHORIZED
 UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 207. VERSION CONVERGENCE
+## 207. VERSION CONVERGENCE
 
 Convergence should not mean "force everything to latest."
 
 It means align environments to their governed target versions.
 
----
+______________________________________________________________________
 
-# 208. MULTI-REGIME VERSIONING
+## 208. MULTI-REGIME VERSIONING
 
 Different regimes may intentionally use different versions.
 
@@ -4117,18 +4117,18 @@ LEGACY → v4-LTS
 
 This is not drift if explicitly governed.
 
----
+______________________________________________________________________
 
-# 209. LTS
+## 209. LTS
 
 Long-term-support versions may remain preferred for stability-sensitive
 regimes.
 
 `LTS` is a governance designation, not a semantic property inferred from age.
 
----
+______________________________________________________________________
 
-# 210. DEPRECATION WINDOW
+## 210. DEPRECATION WINDOW
 
 Deprecation may include:
 
@@ -4144,9 +4144,9 @@ END_OF_SUPPORT
 RETIREMENT_DATE
 ```
 
----
+______________________________________________________________________
 
-# 211. BREAKING CHANGE NOTICE
+## 211. BREAKING CHANGE NOTICE
 
 Major breaking releases should identify:
 
@@ -4164,9 +4164,9 @@ ROLLBACK PATH
 VALIDATION REQUIREMENTS
 ```
 
----
+______________________________________________________________________
 
-# 212. CHANGELOG
+## 212. CHANGELOG
 
 Generator releases should preserve a machine- or human-readable changelog.
 
@@ -4180,9 +4180,9 @@ SOURCE_CLAIM
 
 until validated against implementation where correctness matters.
 
----
+______________________________________________________________________
 
-# 213. CHANGE CLASSIFICATION
+## 213. CHANGE CLASSIFICATION
 
 Each release change may be typed:
 
@@ -4206,9 +4206,9 @@ GOVERNANCE
 DOCUMENTATION
 ```
 
----
+______________________________________________________________________
 
-# 214. BREAKAGE SURFACE
+## 214. BREAKAGE SURFACE
 
 A version change may affect:
 
@@ -4234,9 +4234,9 @@ RECOVERY
 
 These should be assessed separately.
 
----
+______________________________________________________________________
 
-# 215. GENERATOR RELEASE RECORD
+## 215. GENERATOR RELEASE RECORD
 
 ```yaml
 GeneratorRelease:
@@ -4286,9 +4286,9 @@ GeneratorRelease:
   revoked_at:
 ```
 
----
+______________________________________________________________________
 
-# 216. GENERATOR RESOLUTION FUNCTION
+## 216. GENERATOR RESOLUTION FUNCTION
 
 Conceptually:
 
@@ -4315,9 +4315,9 @@ ResolveGenerator(
 )
 ```
 
----
+______________________________________________________________________
 
-# 217. GENERATION FUNCTION
+## 217. GENERATION FUNCTION
 
 Conceptually:
 
@@ -4338,9 +4338,9 @@ Generate(
 )
 ```
 
----
+______________________________________________________________________
 
-# 218. PROMOTION FUNCTION
+## 218. PROMOTION FUNCTION
 
 Conceptually:
 
@@ -4365,9 +4365,9 @@ PromoteGenerator(
 )
 ```
 
----
+______________________________________________________________________
 
-# 219. MIGRATION FUNCTION
+## 219. MIGRATION FUNCTION
 
 Conceptually:
 
@@ -4387,9 +4387,9 @@ Migrate(
 )
 ```
 
----
+______________________________________________________________________
 
-# 220. ROOT INVARIANTS
+## 220. ROOT INVARIANTS
 
 Candidate invariants:
 
@@ -4531,9 +4531,9 @@ REPRODUCIBILITY, COMPATIBILITY, ROLLBACK, OR CANON INTEGRITY.
 Invariant identifiers remain candidate identifiers until admitted into the
 authoritative AMOS invariant registry.
 
----
+______________________________________________________________________
 
-# 221. MACHINE-READABLE CONTRACT
+## 221. MACHINE-READABLE CONTRACT
 
 ```yaml
 amos_generators_versioning:
@@ -4691,9 +4691,9 @@ amos_generators_versioning:
     secret_exposure_prohibited: true
 ```
 
----
+______________________________________________________________________
 
-# 222. GENERATION PROOF CAPSULE
+## 222. GENERATION PROOF CAPSULE
 
 For consequential generated artifacts, a compact proof capsule may contain:
 
@@ -4738,9 +4738,9 @@ GeneratorProofCapsule:
   confidence_ceiling:
 ```
 
----
+______________________________________________________________________
 
-# 223. PROOF CAPSULE REUSE
+## 223. PROOF CAPSULE REUSE
 
 A generation proof capsule remains reusable only while:
 
@@ -4764,9 +4764,9 @@ FRESHNESS VALID
 NO MATERIAL CONFLICT
 ```
 
----
+______________________________________________________________________
 
-# 224. GENERATOR RSCF
+## 224. GENERATOR RSCF
 
 Generator selection may be represented conceptually as:
 
@@ -4802,9 +4802,9 @@ RSCF:
   invalidation_conditions: []
 ```
 
----
+______________________________________________________________________
 
-# 225. MULTI-RSCF GENERATION
+## 225. MULTI-RSCF GENERATION
 
 A consequential generation may depend on:
 
@@ -4824,9 +4824,9 @@ RSCF-POLICY
 
 These should be evaluated against a coherent state before final commit.
 
----
+______________________________________________________________________
 
-# 226. GMEF INTEGRATION
+## 226. GMEF INTEGRATION
 
 Generator evolution enters governed evolution when it changes:
 
@@ -4874,9 +4874,9 @@ OBSERVE
 REVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 227. ANTI-REGRESSION GATE
+## 227. ANTI-REGRESSION GATE
 
 A new generator release must not be promoted merely because it is:
 
@@ -4914,9 +4914,9 @@ CANON INTEGRITY
 SECURITY
 ```
 
----
+______________________________________________________________________
 
-# 228. PROMOTION CHECKLIST
+## 228. PROMOTION CHECKLIST
 
 Before promoting a generator release:
 
@@ -4984,9 +4984,9 @@ Before promoting a generator release:
 [ ] supersession explicitly recorded where applicable
 ```
 
----
+______________________________________________________________________
 
-# 229. GENERATOR RELEASE CHECKLIST
+## 229. GENERATOR RELEASE CHECKLIST
 
 For each release record:
 
@@ -5030,9 +5030,9 @@ For each release record:
 [ ] authority
 ```
 
----
+______________________________________________________________________
 
-# 230. GENERATED ARTIFACT CHECKLIST
+## 230. GENERATED ARTIFACT CHECKLIST
 
 For consequential generated artifacts:
 
@@ -5070,9 +5070,9 @@ For consequential generated artifacts:
 [ ] canon state
 ```
 
----
+______________________________________________________________________
 
-# 231. KNOWN GAPS
+## 231. KNOWN GAPS
 
 ```yaml
 KnownGaps:
@@ -5131,9 +5131,9 @@ KnownGaps:
       canon/provenance/supersession process.
 ```
 
----
+______________________________________________________________________
 
-# 232. CANONICAL COMPRESSION
+## 232. CANONICAL COMPRESSION
 
 ```text
 12 GENERATORS VERSIONING
@@ -5336,9 +5336,9 @@ RECOVERY,
 OR CANON INTEGRITY.
 ```
 
----
+______________________________________________________________________
 
-# 233. MASTER VERSIONING LAW
+## 233. MASTER VERSIONING LAW
 
 ```text
 GeneratorRelease
@@ -5403,9 +5403,9 @@ ROLLBACK SAFETY
 ANTI-REGRESSION
 ```
 
----
+______________________________________________________________________
 
-# 234. FINAL LAW
+## 234. FINAL LAW
 
 ```text
 WHEN AMOS GENERATES
@@ -5465,30 +5465,33 @@ INVENTING
 VERSION CERTAINTY.
 ```
 
-# END — 12 GENERATORS VERSIONING
+## END — 12 GENERATORS VERSIONING
 
 ```
 
 **Status remains `CANDIDATE_CANON / DERIVED`** until the relevant AMOS canon, provenance, authority, and supersession gates promote it.
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[25_COGNITIVE_MATRIX/12_GENERATORS/00_INDEX/GENERATORS_MAP|GENERATORS_MAP]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: generators_versioning
 node_type: note
 path: 25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_VERSIONING.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/12_GENERATORS/12_GENERATORS_MOC|12_GENERATORS_MOC]]
-

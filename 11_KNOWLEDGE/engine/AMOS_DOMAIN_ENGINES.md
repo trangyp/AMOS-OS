@@ -5,23 +5,23 @@ origin: Google Drive — _00_AMOS_CANON/Domains/
 origin_architect: Trang Phan
 type: reference
 tags:
-- canon-group/tech-ai
-- domain-engines
-- tech-systems
-- science-health
-- org-risk-policy
-- sub-domains
-- canon-group/human-system
-- governance
-- risk
-- compliance
-- scientific
-- medical-clinical
-- academic-writing
-- vietnamese-writing
-- engine
-- canon/knowledge
-- canon
+  - canon-group/tech-ai
+  - domain-engines
+  - tech-systems
+  - science-health
+  - org-risk-policy
+  - sub-domains
+  - canon-group/human-system
+  - governance
+  - risk
+  - compliance
+  - scientific
+  - medical-clinical
+  - academic-writing
+  - vietnamese-writing
+  - engine
+  - canon/knowledge
+  - canon
 status: active
 provenance: VERIFIED
 confidence: VERIFIED
@@ -38,7 +38,7 @@ rscf:
 Full inventory of domain engines from `_00_AMOS_CANON/Domains/`.
 Organized into 4 subfolders: Tech_Systems, Science_Health, Org_Risk_Policy, Sub.
 
----
+______________________________________________________________________
 
 ## Tech_Systems (8 engines)
 
@@ -48,7 +48,7 @@ Organized into 4 subfolders: Tech_Systems, Science_Health, Org_Risk_Policy, Sub.
 
 **Role**: Tech architecture control layer.
 
----
+______________________________________________________________________
 
 ### 2. AMOS_Design_Kernel
 
@@ -56,7 +56,7 @@ Organized into 4 subfolders: Tech_Systems, Science_Health, Org_Risk_Policy, Sub.
 
 **Role**: Maximum-power design reasoning.
 
----
+______________________________________________________________________
 
 ### 3. AMOS_Automation_Kernel
 
@@ -64,7 +64,7 @@ Organized into 4 subfolders: Tech_Systems, Science_Health, Org_Risk_Policy, Sub.
 
 **Role**: Self-auditing automation.
 
----
+______________________________________________________________________
 
 ### 4. AMOS_Coding_Kernel
 
@@ -72,7 +72,7 @@ Organized into 4 subfolders: Tech_Systems, Science_Health, Org_Risk_Policy, Sub.
 
 **Role**: Coding kernel (lightweight).
 
----
+______________________________________________________________________
 
 ### 5. AMOS_Design_Engine
 
@@ -80,7 +80,7 @@ Organized into 4 subfolders: Tech_Systems, Science_Health, Org_Risk_Policy, Sub.
 
 **Role**: Full-power design engine.
 
----
+______________________________________________________________________
 
 ### 6. AMOS_Documentation_Kernel
 
@@ -88,7 +88,7 @@ Organized into 4 subfolders: Tech_Systems, Science_Health, Org_Risk_Policy, Sub.
 
 **Role**: Documentation generation and management.
 
----
+______________________________________________________________________
 
 ### 7. AMOS_Coding_Engine
 
@@ -96,7 +96,7 @@ Organized into 4 subfolders: Tech_Systems, Science_Health, Org_Risk_Policy, Sub.
 
 **Role**: Full coding engine.
 
----
+______________________________________________________________________
 
 ### 8. AMOS_Engineering_Math_Kernel
 
@@ -104,7 +104,7 @@ Organized into 4 subfolders: Tech_Systems, Science_Health, Org_Risk_Policy, Sub.
 
 **Role**: Engineering mathematics.
 
----
+______________________________________________________________________
 
 ## Science_Health (2 engines)
 
@@ -114,7 +114,7 @@ Organized into 4 subfolders: Tech_Systems, Science_Health, Org_Risk_Policy, Sub.
 
 **Role**: Scientific reasoning and evaluation.
 
----
+______________________________________________________________________
 
 ### 10. AMOS_Medical_Clinical_Kernel
 
@@ -122,7 +122,7 @@ Organized into 4 subfolders: Tech_Systems, Science_Health, Org_Risk_Policy, Sub.
 
 **Role**: Clinical structuring (non-diagnostic).
 
----
+______________________________________________________________________
 
 ## Org_Risk_Policy (5 engines)
 
@@ -132,7 +132,7 @@ Organized into 4 subfolders: Tech_Systems, Science_Health, Org_Risk_Policy, Sub.
 
 **Role**: Organizational governance design and analysis.
 
----
+______________________________________________________________________
 
 ### 12. AMOS_Policy_Geostrategy_Engine
 
@@ -140,7 +140,7 @@ Organized into 4 subfolders: Tech_Systems, Science_Health, Org_Risk_Policy, Sub.
 
 **Role**: Policy analysis and geostrategy.
 
----
+______________________________________________________________________
 
 ### 13. AMOS_Risk_Compliance_Engine
 
@@ -148,7 +148,7 @@ Organized into 4 subfolders: Tech_Systems, Science_Health, Org_Risk_Policy, Sub.
 
 **Role**: Risk and compliance management.
 
----
+______________________________________________________________________
 
 ### 14. AMOS_Governance_Economy_Engine
 
@@ -156,7 +156,7 @@ Organized into 4 subfolders: Tech_Systems, Science_Health, Org_Risk_Policy, Sub.
 
 **Role**: Governance economy analysis at scale.
 
----
+______________________________________________________________________
 
 ### 15. AMOS_Legal_Kernel
 
@@ -164,7 +164,7 @@ Organized into 4 subfolders: Tech_Systems, Science_Health, Org_Risk_Policy, Sub.
 
 **Role**: Legal reasoning foundation layer.
 
----
+______________________________________________________________________
 
 ## Sub (2 engines)
 
@@ -174,7 +174,7 @@ Organized into 4 subfolders: Tech_Systems, Science_Health, Org_Risk_Policy, Sub.
 
 **Role**: Academic writing and structuring.
 
----
+______________________________________________________________________
 
 ### 17. AMOS_Vietnamese_Writing_Engine
 
@@ -182,48 +182,48 @@ Organized into 4 subfolders: Tech_Systems, Science_Health, Org_Risk_Policy, Sub.
 
 **Role**: Vietnamese language writing and structuring.
 
----
+______________________________________________________________________
 
 ## Summary Table
 
-| # | Engine | Subfolder | Domain | Key Feature |
-|---|--------|----------|--------|-------------|
-| 1 | Tech_Architecture_Kernel | Tech_Systems | Tech | Control brain for tech reasoning |
-| 2 | Design_Kernel | Tech_Systems | Design | 96 clusters × 20 dims, x100k |
-| 3 | Automation_Kernel | Tech_Systems | Automation | Self-auditing, SUPER_CODE+Tech+Design |
-| 4 | Coding_Kernel | Tech_Systems | Coding | Lightweight kernel version |
-| 5 | Design_Engine | Tech_Systems | Design | 100% coverage, MAX variant |
-| 6 | Documentation_Kernel | Tech_Systems | Docs | Documentation generation |
-| 7 | Coding_Engine | Tech_Systems | Coding | Full coding engine |
-| 8 | Engineering_Math_Kernel | Tech_Systems | Math/Eng | Control, signal, optimization, simulation |
-| 9 | Scientific_Kernel | Science_Health | Science | DSc-level scientific reasoning |
-| 10 | Medical_Clinical_Kernel | Science_Health | Medical | Non-prescriptive clinical structuring |
-| 11 | Org_Governance_Engine | Org_Risk_Policy | Governance | Organizational governance |
-| 12 | Policy_Geostrategy_Engine | Org_Risk_Policy | Policy | State-level options, geostrategy |
-| 13 | Risk_Compliance_Engine | Org_Risk_Policy | Risk | Credit, operational, AML/KYC |
-| 14 | Governance_Economy_Engine | Org_Risk_Policy | Economy | MAX, linked to TSS/TPE/AMOS |
-| 15 | Legal_Kernel | Org_Risk_Policy | Legal | 24 dimensions, reasoning tensor |
-| 16 | Academic_Writing_Kernal_Engine | Sub | Writing | Academic writing |
-| 17 | Vietnamese_Writing_Engine | Sub | Writing | Vietnamese writing |
+| #   | Engine                         | Subfolder       | Domain     | Key Feature                               |
+| --- | ------------------------------ | --------------- | ---------- | ----------------------------------------- |
+| 1   | Tech_Architecture_Kernel       | Tech_Systems    | Tech       | Control brain for tech reasoning          |
+| 2   | Design_Kernel                  | Tech_Systems    | Design     | 96 clusters × 20 dims, x100k              |
+| 3   | Automation_Kernel              | Tech_Systems    | Automation | Self-auditing, SUPER_CODE+Tech+Design     |
+| 4   | Coding_Kernel                  | Tech_Systems    | Coding     | Lightweight kernel version                |
+| 5   | Design_Engine                  | Tech_Systems    | Design     | 100% coverage, MAX variant                |
+| 6   | Documentation_Kernel           | Tech_Systems    | Docs       | Documentation generation                  |
+| 7   | Coding_Engine                  | Tech_Systems    | Coding     | Full coding engine                        |
+| 8   | Engineering_Math_Kernel        | Tech_Systems    | Math/Eng   | Control, signal, optimization, simulation |
+| 9   | Scientific_Kernel              | Science_Health  | Science    | DSc-level scientific reasoning            |
+| 10  | Medical_Clinical_Kernel        | Science_Health  | Medical    | Non-prescriptive clinical structuring     |
+| 11  | Org_Governance_Engine          | Org_Risk_Policy | Governance | Organizational governance                 |
+| 12  | Policy_Geostrategy_Engine      | Org_Risk_Policy | Policy     | State-level options, geostrategy          |
+| 13  | Risk_Compliance_Engine         | Org_Risk_Policy | Risk       | Credit, operational, AML/KYC              |
+| 14  | Governance_Economy_Engine      | Org_Risk_Policy | Economy    | MAX, linked to TSS/TPE/AMOS               |
+| 15  | Legal_Kernel                   | Org_Risk_Policy | Legal      | 24 dimensions, reasoning tensor           |
+| 16  | Academic_Writing_Kernal_Engine | Sub             | Writing    | Academic writing                          |
+| 17  | Vietnamese_Writing_Engine      | Sub             | Writing    | Vietnamese writing                        |
 
----
+______________________________________________________________________
 
 ## Relationship to AMOS Core
 
 The 17 domain engines form the **application layer** of AMOS — they consume the cognitive stack (13 engines) and the core logic/law layer to provide domain-specific reasoning, analysis, and output generation.
 
 **Hierarchy**:
-1. **Core**: Deterministic Logic & Law Engine (top-level enforcement)
-2. **Cognitive Stack**: 13 domain-neutral reasoning engines
-3. **Domain Engines**: 17 domain-specific engines (this document)
-4. **Unipower Engines**: 20 country/sector-specific engines (next document)
 
----
+1. **Core**: Deterministic Logic & Law Engine (top-level enforcement)
+1. **Cognitive Stack**: 13 domain-neutral reasoning engines
+1. **Domain Engines**: 17 domain-specific engines (this document)
+1. **Unipower Engines**: 20 country/sector-specific engines (next document)
+
+______________________________________________________________________
 
 ## Source
 
 All engine specs from: `Google Drive /_00_AMOS_CANON/Domains/` (4 subfolders, 15 JSON files + 2 Sub engines)
-
 
 ## RSCF Links
 
@@ -232,9 +232,10 @@ All engine specs from: `Google Drive /_00_AMOS_CANON/Domains/` (4 subfolders, 15
 - amos-core-brain-os-engines
 - amos-21-domain-agent
 
----
+______________________________________________________________________
+
 **Links:** [[11_KNOWLEDGE/engine/ENGINE_MOC|ENGINE_MOC]] | [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]]
 
----
+______________________________________________________________________
 
 **MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]] · [[00_ROOT/00_HOME|00_HOME]]

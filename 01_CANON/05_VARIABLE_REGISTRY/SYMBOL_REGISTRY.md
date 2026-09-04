@@ -3,8 +3,7 @@ type: registry
 source: 01_CANON/05_VARIABLE_REGISTRY
 artifact_id: AMOS-SYMBOL-REGISTRY
 name: SYMBOL_REGISTRY
-title: AMOS Symbol Registry — Canonical Symbols, Operators, Types, States, and Semantic
-  Identity
+title: AMOS Symbol Registry — Canonical Symbols, Operators, Types, States, and Semantic Identity
 document_version: 1.0.0
 canon_version: 4.4
 amos_core_target: v4.4
@@ -18,44 +17,43 @@ steward: Trang Phan
 created: 2026-08-25
 updated: 2026-08-25
 tags:
-- amos
-- canon
-- universe
-- amos-os
-- amos-core
-- amos-core-v4-4
-- registry
-- symbols
-- notation
-- operators
-- semantics
-- identity
-- types
-- states
-- rscf
-- gmef
-- hml
-- provenance
-- epistemic-regime
-- causal-lineage
-- mvcc
-- cas
-- finality
-- invariants
-- canon-group/meta
-- canon/registry
-- rscf/provenance
-- rscf/state/derived
-- readme
-- architecture
-- placement-rules
-- amos-core-laws
-- law-hierarchy
-- amos-full-brain-os-architecture
-- operating-model
+  - amos
+  - canon
+  - universe
+  - amos-os
+  - amos-core
+  - amos-core-v4-4
+  - registry
+  - symbols
+  - notation
+  - operators
+  - semantics
+  - identity
+  - types
+  - states
+  - rscf
+  - gmef
+  - hml
+  - provenance
+  - epistemic-regime
+  - causal-lineage
+  - mvcc
+  - cas
+  - finality
+  - invariants
+  - canon-group/meta
+  - canon/registry
+  - rscf/provenance
+  - rscf/state/derived
+  - readme
+  - architecture
+  - placement-rules
+  - amos-core-laws
+  - law-hierarchy
+  - amos-full-brain-os-architecture
+  - operating-model
 aliases:
-- AMOS Symbol Registry - Symbol Registry - AMOS Notation Registry - AMOS Semantic
-  Symbol Table
+  - AMOS Symbol Registry - Symbol Registry - AMOS Notation Registry - AMOS Semantic Symbol Table
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -64,19 +62,21 @@ rscf:
 ---
 
 # AMOS Symbol Registry
+
 **Origin architect / steward:** Trang Phan
+
 > **Status:** `ACTIVE_CANON_CANDIDATE`
 > **AMOS Core target:** `v4.4`
 > **Conclusion class:** `AMOS_MODEL`
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
----
+> rscf:
+> state: DERIVED
+> claim_class: DERIVED
+> provenance: AMOS_corpus
+> scope: AMOS_general
 
+______________________________________________________________________
 
-# 0. Purpose
+## 0. Purpose
 
 The **AMOS Symbol Registry** provides the canonical location for registering symbols, abbreviations, operators, state labels, conclusion classes, structural identifiers, and formal notation used throughout AMOS OS.
 
@@ -115,9 +115,9 @@ SEMANTICS
 
 Meaning is determined by its registered definition, scope, type, version, and applicable canon.
 
----
+______________________________________________________________________
 
-# 1. Registry Boundary
+## 1. Registry Boundary
 
 The Symbol Registry records semantic identities.
 
@@ -145,9 +145,9 @@ SYMBOL
 AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 2. Core Identity Law
+## 2. Core Identity Law
 
 AMOS distinguishes:
 
@@ -171,9 +171,9 @@ These identities may reference one another.
 
 They must not be silently collapsed.
 
----
+______________________________________________________________________
 
-# 3. Symbol Record
+## 3. Symbol Record
 
 Every consequential registered symbol should eventually support:
 
@@ -205,9 +205,9 @@ UNKNOWN/GAP
 
 They must not be inferred merely from notation.
 
----
+______________________________________________________________________
 
-# 4. Symbol Types
+## 4. Symbol Types
 
 Canonical symbol classes may include:
 
@@ -238,9 +238,9 @@ CAUSAL_TYPE
 
 Additional classes require explicit registration.
 
----
+______________________________________________________________________
 
-# 5. AMOS Core Structural Symbols
+## 5. AMOS Core Structural Symbols
 
 | Symbol      | Canonical meaning                                                                              |
 | ----------- | ---------------------------------------------------------------------------------------------- |
@@ -268,9 +268,9 @@ PRESERVE SYMBOL
 MARK GAP
 ```
 
----
+______________________________________________________________________
 
-# 6. H/M/L Symbols
+## 6. H/M/L Symbols
 
 Canonical structural interpretation:
 
@@ -313,9 +313,9 @@ H
 
 may itself contain further H/M/L decomposition where canon permits.
 
----
+______________________________________________________________________
 
-# 7. RSCF Symbols
+## 7. RSCF Symbols
 
 The registry reserves:
 
@@ -334,9 +334,9 @@ for RSCF-related semantic identities.
 
 A registered RSCF reference should not be reduced to an untyped text label where its identity is load-bearing.
 
----
+______________________________________________________________________
 
-# 8. Evidence Classes
+## 8. Evidence Classes
 
 Canonical evidence/knowledge typing includes:
 
@@ -351,9 +351,9 @@ UNKNOWN
 
 These labels are semantically distinct.
 
----
+______________________________________________________________________
 
-# 9. SOURCE_CLAIM
+## 9. SOURCE_CLAIM
 
 ```text
 SOURCE_CLAIM
@@ -371,9 +371,9 @@ SOURCE_CLAIM
 VERIFIED
 ```
 
----
+______________________________________________________________________
 
-# 10. OBSERVATION
+## 10. OBSERVATION
 
 ```text
 OBSERVATION
@@ -401,9 +401,9 @@ PROVENANCE
 
 where material.
 
----
+______________________________________________________________________
 
-# 11. DERIVED
+## 11. DERIVED
 
 ```text
 DERIVED
@@ -421,9 +421,9 @@ WEAKEST LOAD-BEARING PREMISE
 
 unless independent revalidation exists.
 
----
+______________________________________________________________________
 
-# 12. MODEL
+## 12. MODEL
 
 ```text
 MODEL
@@ -447,9 +447,9 @@ MODEL
 AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 13. DECISION
+## 13. DECISION
 
 ```text
 DECISION
@@ -467,9 +467,9 @@ EVIDENCE
 
 A decision may depend on evidence but remains a different semantic type.
 
----
+______________________________________________________________________
 
-# 14. UNKNOWN
+## 14. UNKNOWN
 
 ```text
 UNKNOWN
@@ -501,9 +501,9 @@ Canonical law:
 UNKNOWN/GAP != PASS
 ```
 
----
+______________________________________________________________________
 
-# 15. Conclusion Classes
+## 15. Conclusion Classes
 
 AMOS conclusion classes include:
 
@@ -518,9 +518,9 @@ UNKNOWN/GAP
 
 Use the weakest accurate class.
 
----
+______________________________________________________________________
 
-# 16. VERIFIED
+## 16. VERIFIED
 
 ```text
 VERIFIED
@@ -536,9 +536,9 @@ VERIFIED IN SCOPE S
 VERIFIED IN ALL SCOPES
 ```
 
----
+______________________________________________________________________
 
-# 17. CONDITIONAL
+## 17. CONDITIONAL
 
 ```text
 CONDITIONAL
@@ -555,9 +555,9 @@ IF P
 
 where failure of `P` may invalidate `C`.
 
----
+______________________________________________________________________
 
-# 18. COMPETING
+## 18. COMPETING
 
 ```text
 COMPETING
@@ -581,9 +581,9 @@ INSUFFICIENT DISCRIMINATING EVIDENCE
 PRESERVE COMPETING
 ```
 
----
+______________________________________________________________________
 
-# 19. UNKNOWN/GAP
+## 19. UNKNOWN/GAP
 
 ```text
 UNKNOWN/GAP
@@ -600,9 +600,9 @@ EXPLANATORY
 COSMETIC
 ```
 
----
+______________________________________________________________________
 
-# 20. Core Logical Operators
+## 20. Core Logical Operators
 
 The registry recognizes the following notation conventions.
 
@@ -626,9 +626,9 @@ The registry recognizes the following notation conventions.
 
 Context must disambiguate overloaded mathematical notation.
 
----
+______________________________________________________________________
 
-# 21. Non-Equivalence Operator
+## 21. Non-Equivalence Operator
 
 AMOS uses:
 
@@ -672,9 +672,9 @@ PROPOSAL != COMMIT
 
 It expresses architectural non-equivalence.
 
----
+______________________________________________________________________
 
-# 22. Direction Operator
+## 22. Direction Operator
 
 ```text
 A → B
@@ -704,9 +704,9 @@ A → B
 
 alone does not prove causality.
 
----
+______________________________________________________________________
 
-# 23. Causal Firewall
+## 23. Causal Firewall
 
 A causal edge must be distinguished from:
 
@@ -736,9 +736,9 @@ STRUCTURAL EDGE
 CAUSAL EDGE
 ```
 
----
+______________________________________________________________________
 
-# 24. Dependency Symbols
+## 24. Dependency Symbols
 
 Conceptual dependency notation:
 
@@ -769,9 +769,9 @@ dependency:
   freshness:
 ```
 
----
+______________________________________________________________________
 
-# 25. Provenance Symbols
+## 25. Provenance Symbols
 
 Reserved provenance concepts include:
 
@@ -797,9 +797,9 @@ MULTIPLE DESCENDANTS
 MULTIPLE INDEPENDENT SOURCES
 ```
 
----
+______________________________________________________________________
 
-# 26. Independence Symbol
+## 26. Independence Symbol
 
 Where useful:
 
@@ -819,9 +819,9 @@ must not be assigned merely because A and B have different names.
 
 Independence requires evidence.
 
----
+______________________________________________________________________
 
-# 27. Correlated Provenance
+## 27. Correlated Provenance
 
 Conceptually:
 
@@ -854,9 +854,9 @@ does not imply:
 INDEPENDENT_CONFIRMATIONS = 3
 ```
 
----
+______________________________________________________________________
 
-# 28. Confidence Symbols
+## 28. Confidence Symbols
 
 Where numerical confidence is used, reserve:
 
@@ -884,9 +884,9 @@ MIN(C_load_bearing_premises)
 
 unless independently revalidated.
 
----
+______________________________________________________________________
 
-# 29. Uncertainty Symbols
+## 29. Uncertainty Symbols
 
 AMOS uncertainty may be represented as a vector:
 
@@ -950,9 +950,9 @@ U_provenance
 
 provenance-independence uncertainty.
 
----
+______________________________________________________________________
 
-# 30. Scope Symbol
+## 30. Scope Symbol
 
 Reserve:
 
@@ -984,9 +984,9 @@ VALID(S2)
 
 unless scope transfer is established.
 
----
+______________________________________________________________________
 
-# 31. Regime Symbol
+## 31. Regime Symbol
 
 Reserve:
 
@@ -1012,9 +1012,9 @@ R_recovery
 
 Conclusions inherit regime validity.
 
----
+______________________________________________________________________
 
-# 32. Temporal Symbols
+## 32. Temporal Symbols
 
 Canonical temporal notation may include:
 
@@ -1044,9 +1044,9 @@ VALID AT t2
 
 when freshness conditions may have changed.
 
----
+______________________________________________________________________
 
-# 33. Freshness
+## 33. Freshness
 
 Reserve:
 
@@ -1072,9 +1072,9 @@ temporal_validity:
 
 where applicable.
 
----
+______________________________________________________________________
 
-# 34. Version Symbols
+## 34. Version Symbols
 
 Version identity must be explicitly typed.
 
@@ -1102,9 +1102,9 @@ STATE_VERSION
 RUNTIME_VERSION
 ```
 
----
+______________________________________________________________________
 
-# 35. AMOS Core Version
+## 35. AMOS Core Version
 
 ```text
 v4.4
@@ -1118,9 +1118,9 @@ AMOS_CORE_VERSION
 
 A filename containing `v4.4` does not independently establish canonical version identity.
 
----
+______________________________________________________________________
 
-# 36. State Version
+## 36. State Version
 
 Reserve:
 
@@ -1145,9 +1145,9 @@ represents a state transition.
 
 It does not necessarily represent a software release.
 
----
+______________________________________________________________________
 
-# 37. MVCC
+## 37. MVCC
 
 ```text
 MVCC
@@ -1163,9 +1163,9 @@ when used in its standard concurrency-control meaning.
 
 Within AMOS reasoning architecture it denotes the associated version-aware concurrency concept, not proof that a specific database implementation exists.
 
----
+______________________________________________________________________
 
-# 38. CAS
+## 38. CAS
 
 ```text
 CAS
@@ -1199,9 +1199,9 @@ CURRENT_VERSION
 CONFLICT
 ```
 
----
+______________________________________________________________________
 
-# 39. Conflict
+## 39. Conflict
 
 Reserve:
 
@@ -1217,9 +1217,9 @@ Conflict must not silently become:
 PASS
 ```
 
----
+______________________________________________________________________
 
-# 40. Epoch
+## 40. Epoch
 
 Reserve:
 
@@ -1243,9 +1243,9 @@ indicates an epoch transition.
 
 It does not by itself indicate causality or finality.
 
----
+______________________________________________________________________
 
-# 41. Causal Epoch
+## 41. Causal Epoch
 
 ```text
 CAUSAL_EPOCH
@@ -1267,9 +1267,9 @@ E2
 
 when load-bearing conditions changed.
 
----
+______________________________________________________________________
 
-# 42. Finality
+## 42. Finality
 
 Reserve:
 
@@ -1299,9 +1299,9 @@ GLOBAL FINALITY
 
 unless the applicable proof establishes equivalence.
 
----
+______________________________________________________________________
 
-# 43. Shard Symbols
+## 43. Shard Symbols
 
 Where shard notation is required:
 
@@ -1324,9 +1324,9 @@ SHARD_1
 
 where collision with scope notation `S` is possible.
 
----
+______________________________________________________________________
 
-# 44. Atomicity
+## 44. Atomicity
 
 Reserve:
 
@@ -1347,9 +1347,9 @@ ATOMIC(SCOPE_B)
 
 unless equivalence is established.
 
----
+______________________________________________________________________
 
-# 45. Multi-RSCF Atomicity
+## 45. Multi-RSCF Atomicity
 
 Conceptually:
 
@@ -1365,9 +1365,9 @@ means those RSCFs participate in one declared atomic reasoning/finalization boun
 
 This notation does not itself prove implementation-level atomicity.
 
----
+______________________________________________________________________
 
-# 46. Authority Symbols
+## 46. Authority Symbols
 
 Reserved authority concepts:
 
@@ -1394,9 +1394,9 @@ PROPOSAL != COMMIT
 EXECUTION != AUTHORIZATION
 ```
 
----
+______________________________________________________________________
 
-# 47. Canon Symbols
+## 47. Canon Symbols
 
 Reserved:
 
@@ -1417,9 +1417,9 @@ CANON LOCATION
 CANON VALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 48. Lifecycle States
+## 48. Lifecycle States
 
 Common lifecycle labels may include:
 
@@ -1436,9 +1436,9 @@ RETIRED
 
 Exact permitted transitions should be defined by the relevant lifecycle canon or registry.
 
----
+______________________________________________________________________
 
-# 49. PLACEHOLDER
+## 49. PLACEHOLDER
 
 ```text
 PLACEHOLDER
@@ -1462,9 +1462,9 @@ PLACEHOLDER
 VALIDATED
 ```
 
----
+______________________________________________________________________
 
-# 50. ACTIVE_CANON_CANDIDATE
+## 50. ACTIVE_CANON_CANDIDATE
 
 ```text
 ACTIVE_CANON_CANDIDATE
@@ -1478,9 +1478,9 @@ It does not equal:
 ACTIVE_CANON
 ```
 
----
+______________________________________________________________________
 
-# 51. Supersession
+## 51. Supersession
 
 Reserved relationships:
 
@@ -1503,9 +1503,9 @@ ARTIFACT B
 
 does not permit erasing A's provenance.
 
----
+______________________________________________________________________
 
-# 52. Status and Conclusion Class
+## 52. Status and Conclusion Class
 
 These fields are distinct.
 
@@ -1526,9 +1526,9 @@ The first describes artifact lifecycle/governance state.
 
 The second describes epistemic classification.
 
----
+______________________________________________________________________
 
-# 53. Registry Naming
+## 53. Registry Naming
 
 Registry artifacts use:
 
@@ -1548,9 +1548,9 @@ MODEL_REGISTRY.md
 
 Naming convention does not itself grant registry authority.
 
----
+______________________________________________________________________
 
-# 54. Prefix Registry
+## 54. Prefix Registry
 
 Current architectural prefixes include:
 
@@ -1567,9 +1567,9 @@ Current architectural prefixes include:
 
 Prefix meaning is contextual to artifact naming and must not silently override mathematical notation.
 
----
+______________________________________________________________________
 
-# 55. Namespace Firewall
+## 55. Namespace Firewall
 
 The same visible symbol may exist in separate namespaces.
 
@@ -1605,9 +1605,9 @@ VISIBLE SIMILARITY
 SEMANTIC IDENTITY
 ```
 
----
+______________________________________________________________________
 
-# 56. Collision Handling
+## 56. Collision Handling
 
 When two meanings compete for the same symbol:
 
@@ -1625,9 +1625,9 @@ REGISTER ALIAS OR REPLACEMENT
 
 Do not silently redefine the older symbol.
 
----
+______________________________________________________________________
 
-# 57. Qualified Symbols
+## 57. Qualified Symbols
 
 Preferred qualification patterns include:
 
@@ -1644,9 +1644,9 @@ or implementation-compatible equivalents.
 
 Qualification should be introduced when it materially reduces ambiguity.
 
----
+______________________________________________________________________
 
-# 58. Alias Rules
+## 58. Alias Rules
 
 Aliases may improve discoverability.
 
@@ -1666,9 +1666,9 @@ ALIAS
 NEW UNTRACKED DEFINITION
 ```
 
----
+______________________________________________________________________
 
-# 59. Deprecated Symbols
+## 59. Deprecated Symbols
 
 A deprecated symbol should preserve:
 
@@ -1684,9 +1684,9 @@ deprecated_symbol:
 
 Deprecated symbols should remain resolvable for historical interpretation.
 
----
+______________________________________________________________________
 
-# 60. Symbol Evolution
+## 60. Symbol Evolution
 
 Symbol evolution should follow:
 
@@ -1706,9 +1706,9 @@ PRESERVE LINEAGE
 
 Do not mutate historical semantics silently.
 
----
+______________________________________________________________________
 
-# 61. Semantic Immutability
+## 61. Semantic Immutability
 
 Once a symbol has been used in canonical historical material, changing its meaning is a provenance event.
 
@@ -1724,9 +1724,9 @@ SAME SEMANTIC IDENTITY
 
 A new semantic identity should be versioned, namespaced, or explicitly superseded.
 
----
+______________________________________________________________________
 
-# 62. Mathematical Symbols
+## 62. Mathematical Symbols
 
 Mathematical notation used in AMOS equations should be locally declared where ambiguity exists.
 
@@ -1748,9 +1748,9 @@ F
 
 This registry must not assign universal AMOS meanings to conventional mathematical variables without canonical evidence.
 
----
+______________________________________________________________________
 
-# 63. Local Definitions
+## 63. Local Definitions
 
 A document may introduce a local symbol:
 
@@ -1768,9 +1768,9 @@ does not conflict with a canonical reserved symbol within the same semantic scop
 
 Local definitions should not automatically enter this global registry.
 
----
+______________________________________________________________________
 
-# 64. Symbol Promotion
+## 64. Symbol Promotion
 
 A local symbol should be promoted into the Symbol Registry when it becomes:
 
@@ -1788,9 +1788,9 @@ ARCHITECTURALLY SIGNIFICANT
 REQUIRED FOR INTEROPERABILITY
 ```
 
----
+______________________________________________________________________
 
-# 65. Machine-Readable Registry Contract
+## 65. Machine-Readable Registry Contract
 
 A future machine-readable registry may use:
 
@@ -1829,9 +1829,9 @@ symbols:
 
 Exact schema remains subject to `16_SCHEMAS`.
 
----
+______________________________________________________________________
 
-# 66. Minimum Registry Invariants
+## 66. Minimum Registry Invariants
 
 ```text
 SYM-001  SYMBOL != SEMANTICS
@@ -1875,9 +1875,9 @@ SYM-019  LOCAL FINALITY != GLOBAL FINALITY
 SYM-020  SYMBOL EVOLUTION MUST PRESERVE LINEAGE
 ```
 
----
+______________________________________________________________________
 
-# 67. Validation Rules
+## 67. Validation Rules
 
 Before registering a new canonical symbol, determine:
 
@@ -1911,9 +1911,9 @@ UNKNOWN/GAP
 
 must remain visible.
 
----
+______________________________________________________________________
 
-# 68. Anti-Fabrication Rule
+## 68. Anti-Fabrication Rule
 
 The registry must never create plausible acronym expansions merely to make the registry appear complete.
 
@@ -1943,9 +1943,9 @@ GMEF
 → INVENT PLAUSIBLE EXPANSION
 ```
 
----
+______________________________________________________________________
 
-# 69. Registry Resolution
+## 69. Registry Resolution
 
 Conceptual resolution:
 
@@ -1973,9 +1973,9 @@ COMPETING / AMBIGUOUS
 
 must be returned rather than selecting arbitrarily.
 
----
+______________________________________________________________________
 
-# 70. Symbol Dependency
+## 70. Symbol Dependency
 
 Some symbols depend on other registered semantics.
 
@@ -1991,9 +1991,9 @@ CAUSAL / DEPENDENCY SEMANTICS
 
 A dependent symbol should not silently remain valid if its load-bearing definition is superseded incompatibly.
 
----
+______________________________________________________________________
 
-# 71. Symbol Provenance
+## 71. Symbol Provenance
 
 Consequential symbols should eventually preserve:
 
@@ -2015,9 +2015,9 @@ CURRENT STATUS
 
 This allows historical AMOS artifacts to be interpreted according to the semantics active when they were produced.
 
----
+______________________________________________________________________
 
-# 72. RSCF Registry Node
+## 72. RSCF Registry Node
 
 ```yaml
 node_id: AMOS_SYMBOL_REGISTRY
@@ -2086,9 +2086,9 @@ does_not_establish:
   - complete historical symbol inventory
 ```
 
----
+______________________________________________________________________
 
-# 73. Promotion Gate
+## 73. Promotion Gate
 
 Promotion:
 
@@ -2120,9 +2120,9 @@ REGISTRY REVIEW
 
 No symbol should be assigned a fabricated history to satisfy this gate.
 
----
+______________________________________________________________________
 
-# 74. Canonical Summary
+## 74. Canonical Summary
 
 ```text
 AMOS SYMBOL
@@ -2207,29 +2207,33 @@ WHEN SEMANTICS ARE UNKNOWN,
 REGISTER THE GAP RATHER THAN FABRICATE THE MEANING.
 ```
 
----
+______________________________________________________________________
 
 **Related:** README|AMOS OS · [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]|Architecture · [[00_ROOT/00_ROOT_NAMING_STANDARD|00_ROOT_NAMING_STANDARD]]|Naming Standard · [[00_ROOT/PLACEMENT_RULES|PLACEMENT_RULES]]|Placement Rules · [[01_CANON/00_INDEX/CANON_MAP|CANON_MAP]]|Canon Map · [[01_CANON/01_CORE_LAWS/AMOS_CORE_LAWS|AMOS Core Laws]] · [[01_CANON/01_CORE_LAWS/INVARIANT_REGISTRY|INVARIANT_REGISTRY]]|Invariant Registry · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]|Law Hierarchy · [[01_CANON/02_UNIVERSE_CANON/HML_CANON|HML_CANON]]|HML Canon · [[01_CANON/02_UNIVERSE_CANON/PERSISTENCE_CANON|PERSISTENCE_CANON]]|Persistence Canon · [[01_CANON/04_INFRASTRUCTURE_CANON/AUTHORITY_CANON|AUTHORITY_CANON]]|Authority Canon · [[01_CANON/04_INFRASTRUCTURE_CANON/CONTROL_PLANE_CANON|CONTROL_PLANE_CANON]]|Control Plane Canon · [[01_CANON/04_INFRASTRUCTURE_CANON/INFRASTRUCTURE_CANON|INFRASTRUCTURE_CANON]]|Infrastructure Canon · [[02_KERNEL/00_INDEX/KERNEL_MAP|KERNEL_MAP]]|Kernel Map · [[03_CONTROL_PLANE/00_INDEX/CONTROL_PLANE_MAP|CONTROL_PLANE_MAP]]|Control Plane Map · [[11_KNOWLEDGE/AMOS_FULL_BRAIN_OS_ARCHITECTURE|AMOS Full Brain OS Architecture]] · [[16_SCHEMAS/00_INDEX/SCHEMA_MAP|SCHEMA_MAP]]|Schema Map · Registry Schemas · [[17_OBSERVABILITY/00_INDEX/OBSERVABILITY_OBSERVABILITY_MAP|OBSERVABILITY_OBSERVABILITY_MAP]]|Observability Map · [[23_OPERATING_MODEL/00_INDEX/OPERATING_MODEL|OPERATING_MODEL]]|Operating Model
 
 ```text
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: symbol_registry
 node_type: note
 path: 01_CANON/05_VARIABLE_REGISTRY/SYMBOL_REGISTRY.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[01_CANON/05_VARIABLE_REGISTRY/05_VARIABLE_REGISTRY_MOC|05_VARIABLE_REGISTRY_MOC]]

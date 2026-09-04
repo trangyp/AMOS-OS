@@ -1,17 +1,20 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Vault Domain Knowledge — Amos Action Memory Firewall
 type: reference
 source: 07_SKILLS/amos-action-memory-firewall/references
 tags:
-- reference
-- amos-action-memory-firewall
-- type/skill
-- 2026-08-22-amos-obsidian-memory-bridge
-- law-hierarchy
-- 2026-08-22-cognitive-substrate-reality-gate
-- 2026-08-22-cognitive-substrate-reasoning-graph
-- 2026-08-22-amos-go-board-19x19-formal-system
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-action-memory-firewall
+  - type/skill
+  - 2026-08-22-amos-obsidian-memory-bridge
+  - law-hierarchy
+  - 2026-08-22-cognitive-substrate-reality-gate
+  - 2026-08-22-cognitive-substrate-reasoning-graph
+  - 2026-08-22-amos-go-board-19x19-formal-system
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -31,7 +34,7 @@ rscf:
 
 > Path: `dated/2026-08-22/2026-08-22 Cognitive Substrate Memory Graph.md` | Size: 5699 chars | Match score: 10
 
-# Cognitive Substrate Memory Operation Graph
+## Cognitive Substrate Memory Operation Graph
 
 > Slice 3 of the AMOS Cognitive Substrate Layer. Implements the memory side of
 > `M_t = (V_t, E_t, O_t, I_t, Q_t, L_t)` with field-level lineage, epistemic-class
@@ -54,14 +57,14 @@ reconstructed as an operation-variable execution graph and attributed to the
 M_t = (V_t, E_t, O_t, I_t, Q_t, L_t)
 ```
 
-| Component | Meaning | Gaps |
-|-----------|---------|------|
-| V_t | Memory-object graph (fields with lineage) | 810–815 |
-| E_t | Semantic / provenance / dependency edges | 825–826 |
-| O_t | Memory operation history | 801–802 |
-| I_t | Indexes | 801 |
-| Q_t | Quarantine / trust state | 827–830 |
-| L_t | Lifecycle state (active, superseded, retracted, archived) | 822–824 |
+| Component | Meaning                                                   | Gaps    |
+| --------- | --------------------------------------------------------- | ------- |
+| V_t       | Memory-object graph (fields with lineage)                 | 810–815 |
+| E_t       | Semantic / provenance / dependency edges                  | 825–826 |
+| O_t       | Memory operation history                                  | 801–802 |
+| I_t       | Indexes                                                   | 801     |
+| Q_t       | Quarantine / trust state                                  | 827–830 |
+| L_t       | Lifecycle state (active, superseded, retracted, archived) | 822–824 |
 
 Memory evolution: `M_{t+1} = Pi_admission(R_reconcile(C_consolidate(U_update(M_t, E_t))))`
 
@@ -81,15 +84,15 @@ are stale or wrong.
 
 ## 5. Epistemic-class preservation (gaps 831–837)
 
-| Gap | Preservation rule |
-|-----|-------------------|
-| 831 | SOURCE_CLAIM, OBSERVATION, DERIVED, MODEL, DECISION survive storage unchanged |
+| Gap | Preservation rule                                                                    |
+| --- | ------------------------------------------------------------------------------------ |
+| 831 | SOURCE_CLAIM, OBSERVATION, DERIVED, MODEL, DECISION survive storage unchanged        |
 | 832 | Modality ("may", "likely", "must", "observed", "predicted") must survive compression |
-| 833 | Negation ("not", exceptions, exclusion conditions) must not be dropped |
-| 834 | Quantifiers ("some", "most", "all", thresholds) must remain explicit |
-| 835 | Correlation cannot become cause during consolidation |
-| 836 | Future forecast cannot become present observation after time passes |
-| 837 | "Agent A believes X" cannot become "X is true" |
+| 833 | Negation ("not", exceptions, exclusion conditions) must not be dropped               |
+| 834 | Quantifiers ("some", "most", "all", thresholds) must remain explicit                 |
+| 835 | Correlation cannot become cause during consolidation                                 |
+| 836 | Future forecast cannot become present observation after time passes                  |
+| 837 | "Agent A believes X" cannot become "X is true"                                       |
 
 ## 6. Consolidation (gaps 841–844)
 
@@ -100,15 +103,15 @@ are stale or wrong.
 ## 7. Retrieval graph (gaps 873–878)
 
 Retrieval is modeled as graph traversal with path provenance. Failure is separated into:
-`STORE_FAILURE | INDEX_FAILURE | QUERY_FAIL
+\`STORE_FAILURE | INDEX_FAILURE | QUERY_FAIL
 
----
+______________________________________________________________________
 
 ### Source 2: AMOS Obsidian Memory Bridge — Brain as Vault
 
 > Path: `dated/2026-08-22/2026-08-22 AMOS Obsidian Memory Bridge.md` | Size: 4525 chars | Match score: 10
 
-# AMOS Obsidian Memory Bridge — Brain as Vault
+## AMOS Obsidian Memory Bridge — Brain as Vault
 
 > The Obsidian vault IS the brain. This bridge module provides programmatic access to the vault as durable, queryable memory. 43 self-tests pass; 0 failures. 0 KB orphans.
 >
@@ -158,55 +161,56 @@ class VaultNote:
 ## 3. Orphan detection (file-based)
 
 The `orphan_notes()` method uses **file-based resolution**:
+
 1. Build `basename → set of filepaths` index
-2. Build `relpath_noext → filepath` index
-3. For each note, resolve wikilinks to filepaths via both indexes
-4. A note is orphan if it has 0 outgoing AND 0 incoming resolved links
+1. Build `relpath_noext → filepath` index
+1. For each note, resolve wikilinks to filepaths via both indexes
+1. A note is orphan if it has 0 outgoing AND 0 incoming resolved links
 
 This matches the external file-based audit script exactly. Both report **0 KB orphans**.
 
 ## 4. Brain introspection methods
 
-| Method | Returns | Purpose |
-|--------|---------|---------|
-| `vault_summary()` | dict | MOC exists, total notes/tags, orphan count, graph connected, top tags |
-| `tag_statistics()` | dict | Total tags, top 10, singleton count, avg notes per tag |
-| `tag_cloud(min_count)` | list | Tag frequency cloud filtered by minimum note count |
-| `recent_notes(limit)` | list | Recently modified notes sorted by file mtime |
-| `knowledge_frontier(min, max)` | list | Weakly-connected notes that need more links |
-| `search_notes(query)` | list | Text search across all notes with snippets |
+| Method                         | Returns | Purpose                                                               |
+| ------------------------------ | ------- | --------------------------------------------------------------------- |
+| `vault_summary()`              | dict    | MOC exists, total notes/tags, orphan count, graph connected, top tags |
+| `tag_statistics()`             | dict    | Total tags, top 10, singleton count, avg notes per tag                |
+| `tag_cloud(min_count)`         | list    | Tag frequency cloud filtered by minimum note count                    |
+| `recent_notes(limit)`          | list    | Recently modified notes sorted by file mtime                          |
+| `knowledge_frontier(min, max)` | list    | Weakly-connected notes that need more links                           |
+| `search_notes(query)`          | list    | Text search across all notes with snippets                            |
 
 ## 5. Test results
 
-| Suite | Tests | Status |
-|-------|-------|--------|
-| `AMOS_OBSIDIAN_MEMORY_BRIDGE.py` self-test | 43 | PASS |
-| MURK Engine | 10 | PASS |
-| Brain Integration | 9 | PASS |
-| MURK Comprehensive | 110 | PASS |
-| Go Board self-test | 226 | PASS |
-| Go Board comprehensive | 190 | PASS |
-| MURK↔GoBoard integration | 251 | PASS |
-| **Grand total** | **839** | **PASS** |
+| Suite                                      | Tests   | Status   |
+| ------------------------------------------ | ------- | -------- |
+| `AMOS_OBSIDIAN_MEMORY_BRIDGE.py` self-test | 43      | PASS     |
+| MURK Engine                                | 10      | PASS     |
+| Brain Integration                          | 9       | PASS     |
+| MURK Comprehensive                         | 110     | PASS     |
+| Go Board self-test                         | 226     | PASS     |
+| Go Board comprehensive                     | 190     | PASS     |
+| MURK↔GoBoard integration                   | 251     | PASS     |
+| **Grand total**                            | **839** | **PASS** |
 
 ## 6. Vault graph health
 
 - **KB orphans: 0** (was 1
 
----
+______________________________________________________________________
 
 ### Source 3: Memory — AMOS Kafka Brain Buffer
 
 > Path: `dated/2026-08-23/2026-08-23 Memory — AMOS Kafka Brain Buffer.md` | Size: 4133 chars | Match score: 10
 
-# Memory — AMOS Kafka Brain Buffer
+## Memory — AMOS Kafka Brain Buffer
 
-
----
+______________________________________________________________________
 
 ## Key Facts
 
 ### Module Architecture
+
 - 2001-line TypeScript module operationalizing verbena's 71-concept map into a Kafka-backed brain buffer
 - 4-layer consciousness model: D5 Manas (channels) → D6 Citta (buffer/stream) → D7 Buddhi (decision) → D8 Jnana (scoring)
 - 16 channels total: 4 ingest + 5 routing + 4 output (D4 union has 8 but filtered to 4 + 4 deploy + 3 telemetry = 16 unique)
@@ -216,20 +220,24 @@ This matches the external file-based audit script exactly. Both report **0 KB or
 - `CHANNEL_ACL_TABLE` has 16 channels × 6 dimensions = 96 precise ACL entries — the verbena differentiator
 
 ### Test Suite
+
 - 6 test categories, 130+ individual tests:
   1. D5 Manas — Channels (21 tests): channel enum construction, union acceptance, category mapping, ALL_CHANNELS count, validation accept/reject
+
 2. D6 Citta — Entry State (8 tests): priority/activity/nominal/retention/cache/frame enums, default entry, filler entry
-  3. Kafka Topic/Topology (16 tests): KafkaTopicConfig, KafkaPartition, KafkaBrainLogImpl, KafkaTopology
-4. Buffer Config + Helpers (14 tests): BufferConfig, generateEntryId, generateDedupKey, generateTransientKey, factories
-  5. Buffer CRUD + Dedup + TTL + Eviction + Health (40 tests): add/remove/get/has/entriesList/clear, dedup hit/preserve, TTL valid/expired/zero, evict capacity/LRU/FIFO/priority/empty/count, health empty/populated/util/averages
-6. D7 Buddhi (11 tests): RoutingDecisionType, RoutingDecisionMessage, D7State, ObserverFrameType, ObserverFrame, IntentClassification, OutputType, D7GatingResult
+1. Kafka Topic/Topology (16 tests): KafkaTopicConfig, KafkaPartition, KafkaBrainLogImpl, KafkaTopology
+1. Buffer Config + Helpers (14 tests): BufferConfig, generateEntryId, generateDedupKey, generateTransientKey, factories
+1. Buffer CRUD + Dedup + TTL + Eviction + Health (40 tests): add/remove/get/has/entriesList/clear, dedup hit/preserve, TTL valid/expired/zero, evict capacity/LRU/FIFO/priority/empty/count, health empty/populated/util/averages
+1. D7 Buddhi (11 tests): RoutingDecisionType, RoutingDecisionMessage, D7State, ObserverFrameType, ObserverFrame, IntentClassification, OutputType, D7GatingResult
 
 ### Synthetic Generator
+
 - 8 orchestrator patterns: heartbeat, burst, synthesis, mixed, canonical, fork, retry, lifecycle
 - Outputs JSONL by default, supports json / kafka-events / json-raw formats
 - Reproducible via --seed
 
 ### Storage Locations
+
 - Module: `cosmo-brain/AMOS_Kafka_Brain_Buffer_v1.0.ts`
 - Tests: `cosmo-brain/AMOS_Kafka_Brain_Buffer_v1.0.test.ts`
 - Generator: `cosmo-brain/test_kafka_brain_buffer_generator.py`
@@ -239,6 +247,7 @@ This matches the external file-based audit script exactly. Both report **0 KB or
 - Workflow: `kafka-brain-buffer-build.md` (path may vary)
 
 ### Epistemic Labels
+
 - SOURCE: channel taxonomy (D5 Manas), D5-D8 mapping (mapped from existing verbena concepts)
 - DERIVED: D5→D6→D7→D8 flow (follows from consciousness model architecture)
 - AMOS_MODEL: scoring formulas, buffer implementation, ACL table entries, flow orchestration logic
@@ -248,20 +257,21 @@ This matches the external file-based audit script exactly. Both report **0 KB or
 ```bash
 cd cosmo-brain
 
-# Type-check module
+## Type-check module
 npx tsc --noEmit AMOS_Kafka_Brain_Buffer_v1.0.ts
 
-# Run test suite
+## Run test suite
 npx ts-node --transpile-only AMOS_Kafka_Brain_Buffer_v1.0.test.ts
 
-# Generate sample events
+## Generate sample events
 python3 test_kafka_brain_buffer_generator.py --pattern all --output jsonl
 python3
 
 ---
 **MOC:**
 ```
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -269,12 +279,14 @@ python3
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-action-memory-firewall-vault-domain-knowledge
 node_type: reference
 path: 07_SKILLS/amos-action-memory-firewall/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

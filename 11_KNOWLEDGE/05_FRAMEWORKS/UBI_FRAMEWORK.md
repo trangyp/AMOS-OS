@@ -12,22 +12,22 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: FRAMEWORK
 path: 11_KNOWLEDGE/05_FRAMEWORKS/UBI_FRAMEWORK.md
 tags:
-- amos-os
-- knowledge
-- vault
-- 05_frameworks
-- ubi_framework
-- unified_biological_intelligence
-- ubi
-- non_compensatory_law
-- rscf
-- canon_candidate
-- canon/knowledge
-- unified-biological-intelligence
-- ubi-master
-- amos-ubi-super-engine
-- amos-x-ubi
-- amos-x-ubi-matrix
+  - amos-os
+  - knowledge
+  - vault
+  - 05_frameworks
+  - ubi_framework
+  - unified_biological_intelligence
+  - ubi
+  - non_compensatory_law
+  - rscf
+  - canon_candidate
+  - canon/knowledge
+  - unified-biological-intelligence
+  - ubi-master
+  - amos-ubi-super-engine
+  - amos-x-ubi
+  - amos-x-ubi-matrix
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -42,23 +42,23 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - UBI_OFFICIAL_MANUAL
-  - UNIFIED_BIOLOGICAL_INTELLIGENCE
-  - AMOS_CORPUS
+    - UBI_OFFICIAL_MANUAL
+    - UNIFIED_BIOLOGICAL_INTELLIGENCE
+    - AMOS_CORPUS
   scope:
-  - KNOWLEDGE_FRAMEWORKS
-  - BIOLOGICAL_INTELLIGENCE
-  - SOURCE_DEFINED_MODEL
+    - KNOWLEDGE_FRAMEWORKS
+    - BIOLOGICAL_INTELLIGENCE
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   primary:
     name: Unified Biological Intelligence (UBI) Framework
     role: FOUR_DOMAIN_BIOLOGICAL_INTELLIGENCE_FOUNDATION
   master_specification:
     artifact:
-    - - UNIFIED_BIOLOGICAL_INTELLIGENCE
+      -   - UNIFIED_BIOLOGICAL_INTELLIGENCE
   ubi_master:
     artifact:
-    - - UBI_MASTER
+      -   - UBI_MASTER
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
@@ -72,31 +72,31 @@ epistemic_boundary:
 
 It establishes intelligence as a **physical and biological living system** governed by four irreducible, non-compensatory domains: **NBI**, **NEI**, **SI**, and **BEI**.
 
----
+______________________________________________________________________
 
-# 1. The Four Non-Compensatory Domains
+## 1. The Four Non-Compensatory Domains
 
 $$i_{\text{UBI}} = (\text{NBI} \cdot \text{NEI} \cdot \text{SI} \cdot \text{BEI})^{1/4}, \quad e = i_{\text{UBI}}^2$$
 
-| Domain | Biological Basis | Core Function | Influence on System |
-| :--- | :--- | :--- | :--- |
-| **NBI** | Cortical processing, CNS | Thought, perception, pattern recognition | Reasoning, decision loops, memory |
-| **NEI** | Limbic pathways, vagal tone | Autonomic & emotional regulation | Stress resistance, empathy, interpersonal accuracy |
-| **SI** | Fascial tensegrity, biomechanics | Proprioception, embodied stability | Physical action, coordination, resilience |
-| **BEI** | Cardiac rhythms, neural fields | Oscillatory synchrony & EM timing | Systemic coherence, phase locking, timing |
+| Domain  | Biological Basis                 | Core Function                            | Influence on System                                |
+| :------ | :------------------------------- | :--------------------------------------- | :------------------------------------------------- |
+| **NBI** | Cortical processing, CNS         | Thought, perception, pattern recognition | Reasoning, decision loops, memory                  |
+| **NEI** | Limbic pathways, vagal tone      | Autonomic & emotional regulation         | Stress resistance, empathy, interpersonal accuracy |
+| **SI**  | Fascial tensegrity, biomechanics | Proprioception, embodied stability       | Physical action, coordination, resilience          |
+| **BEI** | Cardiac rhythms, neural fields   | Oscillatory synchrony & EM timing        | Systemic coherence, phase locking, timing          |
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Master Specification:** [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]]
 - **UBI Master:** [[11_KNOWLEDGE/05_FRAMEWORKS/UBI_MASTER|UBI_MASTER]]
 - **Super Engine:** [[11_KNOWLEDGE/05_FRAMEWORKS/AMOS_UBI_SUPER_ENGINE|AMOS_UBI_SUPER_ENGINE]]
 - **Cognitive Matrix:** [[25_COGNITIVE_MATRIX/AMOS_X_UBI|AMOS_X_UBI]] and [[25_COGNITIVE_MATRIX/AMOS_X_UBI_MATRIX|AMOS_X_UBI_MATRIX]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -115,10 +115,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]] · [[11_KNOWLEDGE/05_FRAMEWORKS/UBI_MASTER|UBI_MASTER]] · [[11_KNOWLEDGE/05_FRAMEWORKS/AMOS_UBI_SUPER_ENGINE|AMOS_UBI_SUPER_ENGINE]] · [[25_COGNITIVE_MATRIX/AMOS_X_UBI|AMOS_X_UBI]]
 
----
-**MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]
+______________________________________________________________________
 
+**MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]

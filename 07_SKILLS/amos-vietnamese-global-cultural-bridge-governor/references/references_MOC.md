@@ -1,22 +1,25 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: References MOC — References — Amos Vietnamese Global Cultural Bridge Governor
 type: moc
 source: 07_SKILLS/amos-vietnamese-global-cultural-bridge-governor/references
 tags:
-- references
-- type/skill
-- vault-domain-knowledge
-- vn-20-impossible-competitions
-- vn-akashic-thong-thien
-- vn-amos-absolute-architecture
-- vn-amos-absolute-integration
-- vn-cross-time-civilization-journey
-- vn-gia-he-dieu-tiet
-- vn-map-of-everything
-- vn-neural-invariance-silence
-- vn-what-you-discovered
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - references
+  - type/skill
+  - vault-domain-knowledge
+  - vn-20-impossible-competitions
+  - vn-akashic-thong-thien
+  - vn-amos-absolute-architecture
+  - vn-amos-absolute-integration
+  - vn-cross-time-civilization-journey
+  - vn-gia-he-dieu-tiet
+  - vn-map-of-everything
+  - vn-neural-invariance-silence
+  - vn-what-you-discovered
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 moc: true
 rscf:
   state: SOURCE_CLAIM
@@ -43,9 +46,9 @@ rscf:
 - [[07_SKILLS/amos-vietnamese-global-cultural-bridge-governor/references/vn_neural_invariance_silence|vn_neural_invariance_silence]]
 - [[07_SKILLS/amos-vietnamese-global-cultural-bridge-governor/references/vn_what_you_discovered|vn_what_you_discovered]]
 
----
-**Parent:** [[07_SKILLS/amos-vietnamese-global-cultural-bridge-governor/amos-vietnamese-global-cultural-bridge-governor_MOC|amos-vietnamese-global-cultural-bridge-governor_MOC]]
----
+______________________________________________________________________
+
+## **Parent:** [[07_SKILLS/amos-vietnamese-global-cultural-bridge-governor/amos-vietnamese-global-cultural-bridge-governor_MOC|amos-vietnamese-global-cultural-bridge-governor_MOC]]
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -53,12 +56,14 @@ rscf:
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-vietnamese-global-cultural-bridge-governor-references-MOC
 node_type: reference
 path: 07_SKILLS/amos-vietnamese-global-cultural-bridge-governor/references/references_MOC.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

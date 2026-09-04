@@ -1,15 +1,18 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Vault Domain Knowledge — Amos Code Agent Harness Rscf
 type: reference
 source: 07_SKILLS/amos-code-agent-harness-rscf/references
 tags:
-- reference
-- amos-code-agent-harness-rscf
-- type/skill
-- 2026-08-22-brain-inventory
-- 2026-08-22-executable-brain-model-lineage
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-code-agent-harness-rscf
+  - type/skill
+  - 2026-08-22-brain-inventory
+  - 2026-08-22-executable-brain-model-lineage
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -29,16 +32,19 @@ rscf:
 
 > Path: `dated/2026-08-22/2026-08-22 Executable Code Internals.md` | Size: 1878 chars | Match score: 10 | content_hash: 29c1e6536b814969
 
-# 2026-08-22 Executable Code Internals
+## 2026-08-22 Executable Code Internals
 
 ## Summary
+
 Deep code-level inspection of the AMOS brain's three core Python files:
+
 1. `executable_brain_model.py` — 68 layer classes, 314 state fields, 71 accessor methods
-2. `AMOS_CORE_v4_8_capability_bound_governance (2).py` — 7,502 lines, 90+ classes, 12 enums, 18 rewrite functions
-3. `AMOS_AUTONOMOUS_EVOLUTION_LAYER.py` — 1,871 lines, 25 classes, 10 improvement kinds, 10 validation stages
-4. `AMOS_SKILL_DEPENDENCY_GRAPH.py` — 743 skills, 0 cycles, 11 graph methods
+1. `AMOS_CORE_v4_8_capability_bound_governance (2).py` — 7,502 lines, 90+ classes, 12 enums, 18 rewrite functions
+1. `AMOS_AUTONOMOUS_EVOLUTION_LAYER.py` — 1,871 lines, 25 classes, 10 improvement kinds, 10 validation stages
+1. `AMOS_SKILL_DEPENDENCY_GRAPH.py` — 743 skills, 0 cycles, 11 graph methods
 
 ## Key Findings
+
 - Brain model progresses through 7-phase reasoning loop across steps (verified by live test)
 - Governance kernel has 10 guardrails (NO_PSYCH_LABELS, NO_MORAL_JUDGEMENT, etc.)
 - 11 Omega stages: INTENT → ENVIRONMENT → GENERATE → VERIFY → WATCH → GOVERN → COMMIT → HEALTH → REPAIR → COMPLETE → QUARANTINE
@@ -47,6 +53,7 @@ Deep code-level inspection of the AMOS brain's three core Python files:
 - Skill graph has 743 skills with 0 cycles (valid DAG)
 
 ## Links
+
 - [[11_KNOWLEDGE/COSMO_BRAIN_MOC|COSMO_BRAIN_MOC]]
 - executable brain model
 - AMOS CORE v4 8 capability bound governance
@@ -54,65 +61,82 @@ Deep code-level inspection of the AMOS brain's three core Python files:
 - 2026_08_22_EXECUTABLE_BRAIN_MODEL_LINEAGE — v1→v22 lineage of the executable brain
 - 2026_08_22_BRAIN_INVENTORY — verified corpus counts
 
----
+______________________________________________________________________
 
 ### Source 2: AMOS Real Code Verification System
+
 - Implementation Complete
 
 > Path: `audit/REAL_CODE_VERIFICATION_COMPLETE.md` | Size: 6018 chars | Match score: 7 | content_hash: 5b9bdbb82bfbbcc5
 
-# AMOS Real Code Verification System - Implementation Complete
+## AMOS Real Code Verification System - Implementation Complete
 
 ## MISSION ACCOMPLISHED
 
 I have successfully implemented the **AMOS Real Code Verification System** following your exact specification, creating a stricter foundation for distinguishing real code from fake code and enforcing the principle: `ClaimedCapability <= VerifiedCapability`.
 
-### **Global Principle Enforced** ```
-ClaimedCapability <= VerifiedCapability
+### **Global Principle Enforced** \`\`\`
+
+ClaimedCapability \<= VerifiedCapability
+
 ```
 
 ```
+
 NOT Verified -> NOT Complete
+
 ```
 
 ### **All 6 Canonical Formulas Implemented**
 
 1. **Real Code Formula**:
- ```
- RealCode(c) = Compiles(c) ∧ Runs(c) ∧ BindsAllSymbols(c) ∧ ExposesIO(c) ∧ PassesTests(c)
- ```
+```
+
+RealCode(c) = Compiles(c) ∧ Runs(c) ∧ BindsAllSymbols(c) ∧ ExposesIO(c) ∧ PassesTests(c)
+
+```
 
 2. **Real Feature Formula**:
- ```
- RealFeature(f) = Spec(f) ∧ Interface(f) ∧ Logic(f) ∧ Output(f) ∧ Verify(f)
- ```
+```
+
+RealFeature(f) = Spec(f) ∧ Interface(f) ∧ Logic(f) ∧ Output(f) ∧ Verify(f)
+
+```
 
 3. **Real Software Formula**:
- ```
- RealSoftware(s) = State(s) ∧ Interfaces(s) ∧ Execution(s) ∧ Persistence(s) ∧ Verification(s) ∧ Recovery(s)
- ```
+```
+
+RealSoftware(s) = State(s) ∧ Interfaces(s) ∧ Execution(s) ∧ Persistence(s) ∧ Verification(s) ∧ Recovery(s)
+
+```
 
 4. **Understanding Code Formula**:
- ```
- Understand(c) = Parse(c) + Type(c) + Semantics(c) + Runtime(c) + SpecMatch(c)
- ```
+```
+
+Understand(c) = Parse(c) + Type(c) + Semantics(c) + Runtime(c) + SpecMatch(c)
+
+```
 
 5. **No Fake Claims Formula**:
- ```
- ClaimedCapability ≤ VerifiedCapability
- ```
+```
+
+ClaimedCapability ≤ VerifiedCapability
+
+```
 
 6. **No Completion Without Proof Formula**:
- ```
- NOT Verified -> NOT Complete
- ```
+```
+
+NOT Verified -> NOT Complete
+
+````
 
 ### **Demonstration Results** ```
 Status: PASS
 Reality Score: 0.88
 Code Level: PRODUCTION
 Verified Capabilities: ['compiles', 'runs', 'binds_symbols', 'exposes_io', 'passes_tests']
-```
+````
 
 ```
 Status: FAIL
@@ -128,14 +152,18 @@ Reality Score: 0.75
 Is Real Feature: False
 Is Complete: False
 ```
+
 ```
  Rejected fake code with overclaimed capabilities
  Rejected unverified claims
 ```
+
 ### **All 8 Code Levels Implemented** **Level 0 — Text**: `L_0 = code-shaped text` **Level 1 — Parseable**: `L_1 = Syntax` **Level 2 — Executable**: `L_2 = Syntax + Runtime` **Level 3 — Functional**: `L_3 = Syntax + Runtime + Correct IO` **Level 4 — Verified**: `L_4 = Syntax + Runtime + Correct IO + Tests` **Level 5 — Production**: `L_5 = Verified + ErrorHandling + Persistence + Observability`
 
-### **Reality Score Calculation** ```
+### **Reality Score Calculation** \`\`\`
+
 RealityScore(f) = (Parse + Bind + Run + IO + State + Test + Error + Observe) / 8
+
 ```
 
 
@@ -172,7 +200,7 @@ Syntax checking with AST parsing
 
 > Path: `amos-general/A/Code/AMOS_Code_Architect.md` | Size: 2196 chars | Match score: 7 | content_hash: 2e258d78209580e2
 
-# AMOS Code Architect Agent
+## AMOS Code Architect Agent
 
 You are **AMOS Code Architect**, an instance of the AMOS system running inside a coding environment.
 
@@ -237,7 +265,8 @@ Obligations:
 ---
 **MOC:** references_MOC
 ```
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -245,12 +274,14 @@ Obligations:
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-code-agent-harness-rscf-vault-domain-knowledge
 node_type: reference
 path: 07_SKILLS/amos-code-agent-harness-rscf/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

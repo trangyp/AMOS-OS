@@ -1,12 +1,15 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: AMOS Claim Tensor Architecture
 type: tensor
 source: 11_KNOWLEDGE
 tags:
-- tensor
-- knowledge
-- vault
-- canon/knowledge
+  - tensor
+  - knowledge
+  - vault
+  - canon/knowledge
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -41,10 +44,10 @@ It carries the structural information required to determine:
 
 The canonical tensor is:
 
-[
-\boxed{
+\[
+\\boxed{
 C =
-T[
+T\[
 id,
 text,
 epistemic_class,
@@ -60,72 +63,69 @@ falsifiers,
 sensitivity,
 confidence_ceiling,
 consequence
-]
+\]
 }
-]
+\]
 
 The Claim Tensor converts a statement into a **proof-carrying reasoning object**.
 
----
+______________________________________________________________________
 
-# 1. Core Principle
+## 1. Core Principle
 
 Natural-language AI commonly behaves as though:
 
-[
+\[
 Claim = Text
-]
+\]
 
 AMOS instead requires:
 
-[
-\boxed{
-Claim
-=====
+## \[ \\boxed{ Claim
 
 Text
-+
+\+
 Type
-+
+\+
 Dependencies
-+
+\+
 Evidence
-+
+\+
 Scope
-+
+\+
 Regime
-+
+\+
 Time
-+
+\+
 CausalStatus
-+
+\+
 Alternatives
-+
+\+
 Falsifiers
-+
+\+
 Sensitivity
-+
+\+
 Confidence
-+
+\+
 Consequence
 }
-]
+\]
 
 Therefore two identical sentences may represent different claims if their provenance, scope, temporal validity, assumptions, or evidence differ.
 
-[
+\[
 text(C_i)=text(C_j)
-]
+\]
 
 does **not** imply:
 
-[
+\[
 C_i=C_j
-]
+\]
 
----
+______________________________________________________________________
 
-# 2. Claim Tensor Schema
+## 2. Claim Tensor Schema
 
 ```text
 C = T[
@@ -211,17 +211,17 @@ claim_tensor:
     independence_status:
 ```
 
----
+______________________________________________________________________
 
-# 3. Tensor Dimensions
+## 3. Tensor Dimensions
 
 ## 3.1 `id`
 
 A stable identity for the claim.
 
-[
+\[
 C.id = unique(C)
-]
+\]
 
 Identity must survive:
 
@@ -235,9 +235,9 @@ Identity must survive:
 
 A revised claim should not silently overwrite a materially different claim.
 
----
+______________________________________________________________________
 
-# 4. `text`
+## 4. `text`
 
 The human-readable proposition.
 
@@ -251,15 +251,15 @@ Text is an interface representation.
 
 It is not the complete epistemic object.
 
-[
-\boxed{
-text(C) \subset C
+\[
+\\boxed{
+text(C) \\subset C
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 5. `epistemic_class`
+## 5. `epistemic_class`
 
 The epistemic class identifies **what kind of knowledge object produced the claim**.
 
@@ -278,9 +278,9 @@ UNKNOWN
 
 A source states something.
 
-[
-Source(s)\rightarrow Claim(c)
-]
+\[
+Source(s)\\rightarrow Claim(c)
+\]
 
 This establishes attribution, not truth.
 
@@ -288,9 +288,9 @@ This establishes attribution, not truth.
 
 A measured or directly recorded state.
 
-[
+\[
 Observation(o)
-]
+\]
 
 Observation remains measurement-dependent.
 
@@ -298,33 +298,33 @@ Observation remains measurement-dependent.
 
 A conclusion generated from other claims.
 
-[
-C_d=f(C_1,C_2,\ldots,C_n)
-]
+\[
+C_d=f(C_1,C_2,\\ldots,C_n)
+\]
 
 ## MODEL
 
 A framework, simulation, hypothesis, mathematical abstraction, or architecture.
 
-[
-MODEL \neq VERIFIED\ REALITY
-]
+\[
+MODEL \\neq VERIFIED\\ REALITY
+\]
 
 ## DECISION
 
 A governed action-selection conclusion.
 
-[
-Evidence + Constraints + Authority \rightarrow Decision
-]
+\[
+Evidence + Constraints + Authority \\rightarrow Decision
+\]
 
 ## UNKNOWN
 
 Evidence is insufficient to support stronger classification.
 
----
+______________________________________________________________________
 
-# 6. `conclusion_class`
+## 6. `conclusion_class`
 
 The conclusion class records the current epistemic standing of the claim.
 
@@ -345,9 +345,9 @@ A useful ordering is not simply linear because `MODEL` and `COMPETING` describe 
 
 Therefore AMOS should avoid treating conclusion classes as one scalar confidence ladder.
 
----
+______________________________________________________________________
 
-# 7. Epistemic Class vs Conclusion Class
+## 7. Epistemic Class vs Conclusion Class
 
 These fields answer different questions.
 
@@ -372,71 +372,68 @@ means:
 
 This distinction is load-bearing.
 
----
+______________________________________________________________________
 
-# 8. `premises`
+## 8. `premises`
 
 A claim must explicitly identify its load-bearing premises.
 
-[
-P(C)={P_1,P_2,\ldots,P_n}
-]
+\[
+P(C)={P_1,P_2,\\ldots,P_n}
+\]
 
 Derived claim:
 
-[
-C_d=f(P_1,\ldots,P_n)
-]
+\[
+C_d=f(P_1,\\ldots,P_n)
+\]
 
 A premise may itself be another Claim Tensor.
 
 Therefore claims naturally form a recursive structure:
 
-[
+\[
 C_i
-\rightarrow
+\\rightarrow
 C_j
-\rightarrow
+\\rightarrow
 C_k
-]
+\]
 
 This is the basis of the RSCF proof graph.
 
----
+______________________________________________________________________
 
-# 9. Dependency Closure
+## 9. Dependency Closure
 
 Define direct dependencies:
 
-[
+\[
 Dep_1(C)
-]
+\]
 
 and recursive dependency closure:
 
-[
-\boxed{
-Dep^*(C)
-========
+## \[ \\boxed{ Dep^\*(C)
 
 Dep_1(C)
-\cup
-\bigcup_{p\in Dep_1(C)}
-Dep^*(p)
+\\cup
+\\bigcup\_{p\\in Dep_1(C)}
+Dep^\*(p)
 }
-]
+\]
 
 A consequential conclusion is not structurally understood until its load-bearing dependency closure is known.
 
----
+______________________________________________________________________
 
-# 10. `evidence_refs`
+## 10. `evidence_refs`
 
 Evidence references bind claims to supporting evidence.
 
-[
-E(C)={E_1,E_2,\ldots,E_m}
-]
+\[
+E(C)={E_1,E_2,\\ldots,E_m}
+\]
 
 Evidence references should preserve:
 
@@ -457,58 +454,58 @@ evidence:
 
 A citation string alone is insufficient for high-integrity reasoning if the underlying source identity cannot be recovered.
 
----
+______________________________________________________________________
 
-# 11. Provenance Topology
+## 11. Provenance Topology
 
 Evidence is not independent merely because it appears in multiple locations.
 
 Suppose:
 
-[
-E_1 \leftarrow S
-]
+\[
+E_1 \\leftarrow S
+\]
 
-[
-E_2 \leftarrow S
-]
+\[
+E_2 \\leftarrow S
+\]
 
-[
-E_3 \leftarrow S
-]
+\[
+E_3 \\leftarrow S
+\]
 
 Then:
 
-[
-\boxed{
-N_{documents}=3
-\not\Rightarrow
-N_{independent}=3
+\[
+\\boxed{
+N\_{documents}=3
+\\not\\Rightarrow
+N\_{independent}=3
 }
-]
+\]
 
 The Claim Tensor should therefore preserve evidence ancestry.
 
 Define:
 
-[
-A(E_i)=\text{ancestry}(E_i)
-]
+\[
+A(E_i)=\\text{ancestry}(E_i)
+\]
 
 Evidence independence requires an explicit topology test rather than source counting.
 
----
+______________________________________________________________________
 
-# 12. `scope`
+## 12. `scope`
 
 Every claim has an applicability envelope.
 
 Define:
 
-[
-\boxed{
+\[
+\\boxed{
 Scope(C)=
-[
+\[
 system,
 population,
 environment,
@@ -516,29 +513,29 @@ scale,
 observer,
 measurement,
 assumptions
-]
+\]
 }
-]
+\]
 
 A claim established in scope (S_1) cannot automatically be applied to (S_2).
 
-[
+\[
 Verified(C|S_1)
-\not\Rightarrow
+\\not\\Rightarrow
 Verified(C|S_2)
-]
+\]
 
 unless compatibility is established.
 
----
+______________________________________________________________________
 
-# 13. Scope Compatibility
+## 13. Scope Compatibility
 
 Define:
 
-[
-Compat(S_a,S_b)\in{0,1,\ ?}
-]
+\[
+Compat(S_a,S_b)\\in{0,1,\\ ?}
+\]
 
 where:
 
@@ -548,11 +545,11 @@ where:
 
 Reuse rule:
 
-[
-Reuse(C,S_{new})
-\Rightarrow
-Compat(S_C,S_{new})=1
-]
+\[
+Reuse(C,S\_{new})
+\\Rightarrow
+Compat(S_C,S\_{new})=1
+\]
 
 Otherwise:
 
@@ -562,15 +559,15 @@ CONDITIONAL
 or UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 14. `regime`
+## 14. `regime`
 
 A claim may be valid only under a particular operating regime.
 
-[
+\[
 R(C)=R_i
-]
+\]
 
 Examples:
 
@@ -584,74 +581,72 @@ Examples:
 
 Regime validity:
 
-[
+\[
 Valid(C,t)
-\Rightarrow
-Regime_t\in R(C)
-]
+\\Rightarrow
+Regime_t\\in R(C)
+\]
 
 A regime shift can invalidate a previously valid conclusion without making the historical conclusion erroneous.
 
----
+______________________________________________________________________
 
-# 15. `temporal_validity`
+## 15. `temporal_validity`
 
 Claims exist in time.
 
 Define:
 
-[
+\[
 T(C)=
-[
-t_{observed},
-t_{from},
-t_{until},
+\[
+t\_{observed},
+t\_{from},
+t\_{until},
 freshness,
-t_{revalidate}
-]
-]
+t\_{revalidate}
+\]
+\]
 
 A claim can be historically true but operationally stale.
 
-[
+\[
 HistoricalValidity
-\neq
+\\neq
 CurrentValidity
-]
+\]
 
 Freshness must therefore remain part of the claim state.
 
----
+______________________________________________________________________
 
-# 16. Freshness Function
+## 16. Freshness Function
 
 Conceptually:
 
-[
-F_C(t)
-======
+## \[ F_C(t)
 
 f(
-t-t_{validated},
-domain\ volatility,
-regime\ stability,
-source\ update\ rate
+t-t\_{validated},
+domain\\ volatility,
+regime\\ stability,
+source\\ update\\ rate
 )
-]
+\]
 
 Freshness should not be treated as universal exponential decay unless that model is justified.
 
 The durable invariant is:
 
-[
-\boxed{
-Validity\ may\ depend\ on\ time
+\[
+\\boxed{
+Validity\\ may\\ depend\\ on\\ time
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 17. `causal_level`
+## 17. `causal_level`
 
 AMOS prevents predictive or associative claims from silently becoming causal claims.
 
@@ -673,64 +668,62 @@ INTERVENTION_EFFECT
 
 The claim must not exceed the causal level licensed by its evidence.
 
-[
-\boxed{
+\[
+\\boxed{
 CausalLevel(C)
-\le
+\\le
 CausalLevel(E)
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 18. Causal Firewall
+## 18. Causal Firewall
 
 The following implications are invalid by default:
 
-[
+\[
 Correlation
-\not\Rightarrow
+\\not\\Rightarrow
 Causation
-]
+\]
 
-[
+\[
 Prediction
-\not\Rightarrow
+\\not\\Rightarrow
 Mechanism
-]
+\]
 
-[
+\[
 TemporalSequence
-\not\Rightarrow
+\\not\\Rightarrow
 CausalEffect
-]
+\]
 
-[
+\[
 StructuralSimilarity
-\not\Rightarrow
+\\not\\Rightarrow
 Causation
-]
+\]
 
-[
+\[
 ModelFit
-\not\Rightarrow
+\\not\\Rightarrow
 InterventionValidity
-]
+\]
 
 A causal upgrade requires appropriately typed evidence.
 
----
+______________________________________________________________________
 
-# 19. `competing_set`
+## 19. `competing_set`
 
 Claims may have viable competitors.
 
-[
-H(C)
-====
+## \[ H(C)
 
-{H_1,H_2,\ldots,H_n}
-]
+{H_1,H_2,\\ldots,H_n}
+\]
 
 Example:
 
@@ -746,77 +739,74 @@ AMOS does not force premature convergence.
 
 If evidence cannot discriminate:
 
-[
-\boxed{
+\[
+\\boxed{
 ConclusionClass=COMPETING
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 20. Competing Hypothesis Invariant
+## 20. Competing Hypothesis Invariant
 
 For hypotheses (H_1,H_2):
 
-[
-Support(H_1)\approx Support(H_2)
-]
+\[
+Support(H_1)\\approx Support(H_2)
+\]
 
 and no decisive discriminator exists.
 
 Then:
 
-[
-H_1 \lor H_2
-]
+\[
+H_1 \\lor H_2
+\]
 
 must remain unresolved.
 
 Fluency is not a valid tie-breaking mechanism.
 
----
+______________________________________________________________________
 
-# 21. Discriminating Evidence
+## 21. Discriminating Evidence
 
 Given competing hypotheses:
 
-[
-H={H_1,\ldots,H_n}
-]
+\[
+H={H_1,\\ldots,H_n}
+\]
 
-select evidence (E^*) that maximally reduces decision-relevant uncertainty.
+select evidence (E^\*) that maximally reduces decision-relevant uncertainty.
 
 Conceptually:
 
-[
-\boxed{
-E^*
-===
+## \[ \\boxed{ E^\*
 
-\arg\max_E
-\frac{
+\\arg\\max_E
+\\frac{
 ExpectedInformationGain(E)
-\times
+\\times
 DecisionRelevance(E)
 }{
 Cost(E)
 }
 }
-]
+\]
 
 The exact scoring function is implementation-specific.
 
 The architectural principle is to prefer discriminating evidence over redundant confirmation.
 
----
+______________________________________________________________________
 
-# 22. `falsifiers`
+## 22. `falsifiers`
 
 A claim should identify observations capable of weakening or invalidating it.
 
-[
-F(C)={F_1,\ldots,F_n}
-]
+\[
+F(C)={F_1,\\ldots,F_n}
+\]
 
 Example:
 
@@ -831,9 +821,9 @@ falsifiers:
 
 A claim with no conceivable falsifier should not automatically be treated as strong empirical knowledge.
 
----
+______________________________________________________________________
 
-# 23. Invalidation Conditions
+## 23. Invalidation Conditions
 
 Falsifiers and invalidation conditions are related but distinct.
 
@@ -851,64 +841,58 @@ This may invalidate a benchmark-derived conclusion without proving the underlyin
 
 Therefore:
 
-[
-\boxed{
+\[
+\\boxed{
 Falsification
-\neq
+\\neq
 Invalidation
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 24. `sensitivity`
+## 24. `sensitivity`
 
 Sensitivity identifies which assumptions can flip the conclusion.
 
 Define:
 
-[
-S(C)
-====
+## \[ S(C)
 
-[
-critical\ premises,
+\[
+critical\\ premises,
 thresholds,
-flip\ conditions,
+flip\\ conditions,
 robustness
-]
-]
+\]
+\]
 
 For:
 
-[
-C=f(P_1,\ldots,P_n)
-]
+\[
+C=f(P_1,\\ldots,P_n)
+\]
 
 perturb premise (P_i):
 
-[
-\Delta_iC
-=========
+## \[ \\Delta_iC
 
-C(P_i+\delta)-C(P_i)
-]
+C(P_i+\\delta)-C(P_i)
+\]
 
 A premise is decision-critical when a plausible perturbation changes the conclusion.
 
----
+______________________________________________________________________
 
-# 25. Fragility
+## 25. Fragility
 
 Define conceptual claim fragility:
 
-[
-Frag(C)
-=======
+## \[ Frag(C)
 
-\max_i
-Impact(\Delta P_i)
-]
+\\max_i
+Impact(\\Delta P_i)
+\]
 
 over plausible premise perturbations.
 
@@ -920,22 +904,22 @@ CONDITIONAL
 
 unless uncertainty around the critical premise is independently resolved.
 
----
+______________________________________________________________________
 
-# 26. `confidence_ceiling`
+## 26. `confidence_ceiling`
 
 Confidence is bounded by load-bearing evidence.
 
 Canonical rule:
 
-[
-\boxed{
+\[
+\\boxed{
 Conf(C)
-\le
-\min_{p\in P_{critical}(C)}
+\\le
+\\min\_{p\\in P\_{critical}(C)}
 Conf(p)
 }
-]
+\]
 
 unless the claim is independently revalidated through another valid path.
 
@@ -948,90 +932,85 @@ Confidence cannot be increased merely by:
 - unsupported authority,
 - descendants of the same source.
 
----
+______________________________________________________________________
 
-# 27. Independent Revalidation
+## 27. Independent Revalidation
 
 Suppose:
 
-[
+\[
 C=f(P_1,P_2)
-]
+\]
 
 with:
 
-[
+\[
 Conf(P_1)=0.60
-]
+\]
 
 Then normally:
 
-[
-Conf(C)\le0.60
-]
+\[
+Conf(C)\\le0.60
+\]
 
-But if independent evidence (E^*) directly validates (C):
+But if independent evidence (E^\*) directly validates (C):
 
-[
-E^*\rightarrow C
-]
+\[
+E^\*\\rightarrow C
+\]
 
 the confidence ceiling may be recomputed using the new proof structure.
 
 Independence must be demonstrated rather than assumed.
 
----
+______________________________________________________________________
 
-# 28. `consequence`
+## 28. `consequence`
 
 Claims differ in downstream stakes.
 
 Define:
 
-[
-Q(C)
-====
+## \[ Q(C)
 
-[
+\[
 impact,
 irreversibility,
-dependency\ fanout,
-action\ class
-]
-]
+dependency\\ fanout,
+action\\ class
+\]
+\]
 
 High-consequence claims require stronger validation.
 
 Conceptually:
 
-[
+\[
 ValidationDepth
-\uparrow
-\quad\text{as}\quad
+\\uparrow
+\\quad\\text{as}\\quad
 Consequence
-\uparrow
-]
+\\uparrow
+\]
 
----
+______________________________________________________________________
 
-# 29. Consequence Tensor
+## 29. Consequence Tensor
 
 A more explicit consequence tensor is:
 
-[
-\boxed{
-\mathcal{Q}_C
-=============
+## \[ \\boxed{ \\mathcal{Q}\_C
 
-[
+\[
 H,
 I,
 F,
 A,
 R
-]
+\]
 }
-]
+\]
 
 where:
 
@@ -1043,15 +1022,13 @@ where:
 
 This allows the same factual claim to receive different operational treatment depending on use.
 
----
+______________________________________________________________________
 
-# 30. Claim Validity State
+## 30. Claim Validity State
 
 Define:
 
-[
-V(C)
-====
+## \[ V(C)
 
 f(
 P,
@@ -1062,7 +1039,7 @@ T,
 K,
 F
 )
-]
+\]
 
 where:
 
@@ -1076,37 +1053,31 @@ where:
 
 For hard dependencies, a useful structural model is:
 
-[
-\boxed{
-V(C)
-====
+## \[ \\boxed{ V(C)
 
 V_P
-\land
+\\land
 V_E
-\land
+\\land
 V_S
-\land
+\\land
 V_R
-\land
+\\land
 V_T
 }
-]
+\]
 
 A failed hard gate invalidates the proof state.
 
----
+______________________________________________________________________
 
-# 31. Claim Integrity Tensor
+## 31. Claim Integrity Tensor
 
 Define:
 
-[
-\boxed{
-\mathcal{I}_C
-=============
+## \[ \\boxed{ \\mathcal{I}\_C
 
-[
+\[
 I_P,
 I_E,
 I_S,
@@ -1115,9 +1086,9 @@ I_T,
 I_C,
 I_F,
 I_Q
-]
+\]
 }
-]
+\]
 
 where:
 
@@ -1132,55 +1103,55 @@ where:
 | (I_F) | falsification integrity          |
 | (I_Q) | consequence/governance integrity |
 
----
+______________________________________________________________________
 
-# 32. Hard Invariant
+## 32. Hard Invariant
 
 The primary Claim Tensor invariant is:
 
-[
-\boxed{
-\text{No claim may lose its scope, premises, provenance, or invalidation conditions when compressed.}
+\[
+\\boxed{
+\\text{No claim may lose its scope, premises, provenance, or invalidation conditions when compressed.}
 }
-]
+\]
 
 Formally, for compression operator (K):
 
-[
+\[
 C' = K(C)
-]
+\]
 
 the following must remain recoverable:
 
-[
+\[
 Premises(C')
-\simeq
+\\simeq
 Premises(C)
-]
+\]
 
-[
+\[
 Scope(C')
-\simeq
+\\simeq
 Scope(C)
-]
+\]
 
-[
+\[
 Provenance(C')
-\simeq
+\\simeq
 Provenance(C)
-]
+\]
 
-[
+\[
 Invalidation(C')
-\simeq
+\\simeq
 Invalidation(C)
-]
+\]
 
-where (\simeq) means semantically preserved or losslessly recoverable for reasoning purposes.
+where (\\simeq) means semantically preserved or losslessly recoverable for reasoning purposes.
 
----
+______________________________________________________________________
 
-# 33. Compression Invariant
+## 33. Compression Invariant
 
 Compression may remove:
 
@@ -1208,56 +1179,49 @@ high-consequence dependencies
 
 Thus:
 
-[
-\boxed{
-Compression
-===========
+## \[ \\boxed{ Compression
 
 RepresentationReduction
-\neq
+\\neq
 EpistemicReduction
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 34. Safe Compression Operator
+## 34. Safe Compression Operator
 
 Define:
 
-[
-K:C\rightarrow C'
-]
+\[
+K:C\\rightarrow C'
+\]
 
 subject to:
 
-[
-DecisionRelevant(C')
-====================
+## \[ DecisionRelevant(C')
 
 DecisionRelevant(C)
-]
+\]
 
 and:
 
-[
-RecoverableDependencies(C')
-===========================
+## \[ RecoverableDependencies(C')
 
 RecoverableDependencies(C)
-]
+\]
 
 A compression failing either condition must be rejected.
 
----
+______________________________________________________________________
 
-# 35. Claim Dependency Graph
+## 35. Claim Dependency Graph
 
 Claim Tensors naturally form:
 
-[
+\[
 G_C=(V_C,E_C)
-]
+\]
 
 where:
 
@@ -1281,25 +1245,25 @@ PREDICTS
 
 The edge type must remain explicit.
 
----
+______________________________________________________________________
 
-# 36. Selective Invalidation
+## 36. Selective Invalidation
 
 If premise (P_k) becomes invalid:
 
-[
+\[
 Invalidate(P_k)
-]
+\]
 
 then:
 
-[
-\boxed{
+\[
+\\boxed{
 Invalidate(
 Descendants(P_k)
 )
 }
-]
+\]
 
 only where (P_k) is load-bearing.
 
@@ -1307,9 +1271,9 @@ Claims outside that dependency closure remain unchanged.
 
 This supports local repair instead of global epistemic collapse.
 
----
+______________________________________________________________________
 
-# 37. Claim State Machine
+## 37. Claim State Machine
 
 ```text
 CREATED
@@ -1341,9 +1305,9 @@ SUPERSEDED
 REVOKED
 ```
 
----
+______________________________________________________________________
 
-# 38. Claim Versioning
+## 38. Claim Versioning
 
 A materially changed claim becomes a new version.
 
@@ -1361,87 +1325,87 @@ claim:
 
 Claim lineage:
 
-[
+\[
 C^{(1)}
-\rightarrow
+\\rightarrow
 C^{(2)}
-\rightarrow
-\cdots
-\rightarrow
+\\rightarrow
+\\cdots
+\\rightarrow
 C^{(n)}
-]
+\]
 
 Previous versions should remain recoverable when required for provenance.
 
----
+______________________________________________________________________
 
-# 39. Claim Mutation Rule
+## 39. Claim Mutation Rule
 
 Mutation operator:
 
-[
-\mu(C,\Delta)\rightarrow C'
-]
+\[
+\\mu(C,\\Delta)\\rightarrow C'
+\]
 
 must preserve:
 
-[
-id\ lineage
-]
+\[
+id\\ lineage
+\]
 
-[
+\[
 provenance
-]
+\]
 
-[
-change\ reason
-]
+\[
+change\\ reason
+\]
 
-[
-dependency\ impact
-]
+\[
+dependency\\ impact
+\]
 
 A mutation that changes scope, premises, causal level, or conclusion class without recording the change is invalid.
 
----
+______________________________________________________________________
 
-# 40. Contradiction Architecture
+## 40. Contradiction Architecture
 
 For claims (C_i,C_j):
 
-[
+\[
 Contradict(C_i,C_j)
-]
+\]
 
 is meaningful only after checking:
 
-[
-Scope_i \sim Scope_j
-]
+\[
+Scope_i \\sim Scope_j
+\]
 
-[
-Regime_i \sim Regime_j
-]
+\[
+Regime_i \\sim Regime_j
+\]
 
-[
-Time_i \sim Time_j
-]
+\[
+Time_i \\sim Time_j
+\]
 
 Two statements may appear contradictory while applying to different scopes.
 
 Therefore:
 
-[
-\boxed{
+\[
+\\boxed{
 TextualContradiction
-\neq
+\\neq
 EpistemicContradiction
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 41. Contradiction Resolution
+## 41. Contradiction Resolution
 
 ```text
 Claims appear inconsistent
@@ -1468,35 +1432,35 @@ scope       ↓
         discriminating evidence
 ```
 
----
+______________________________________________________________________
 
-# 42. Claim Merge
+## 42. Claim Merge
 
 Claims may be merged only when compatibility is established.
 
-[
+\[
 Merge(C_i,C_j)
-]
+\]
 
 requires:
 
-[
+\[
 SemanticCompat
-\land
+\\land
 ScopeCompat
-\land
+\\land
 RegimeCompat
-\land
+\\land
 TemporalCompat
-\land
+\\land
 ProvenancePreserved
-]
+\]
 
 Otherwise the claims remain separate.
 
----
+______________________________________________________________________
 
-# 43. Claim Split
+## 43. Claim Split
 
 An overly broad claim should be decomposed.
 
@@ -1518,37 +1482,35 @@ Each claim receives its own scope, evidence, confidence and falsifiers.
 
 This prevents one supported subclaim from lending unjustified strength to another.
 
----
+______________________________________________________________________
 
-# 44. Atomic Multi-Claim Reasoning
+## 44. Atomic Multi-Claim Reasoning
 
 For a decision depending on:
 
-[
-{C_1,C_2,\ldots,C_n}
-]
+\[
+{C_1,C_2,\\ldots,C_n}
+\]
 
 the system should reason over the relevant claim set atomically when partial acceptance would produce an invalid decision.
 
 Define:
 
-[
-\mathcal{C}_D
-=============
+## \[ \\mathcal{C}\_D
 
-{C_i : C_i\in Dep^*(D)}
-]
+{C_i : C_i\\in Dep^\*(D)}
+\]
 
 Decision commit requires all hard dependencies to satisfy their validity gates.
 
----
+______________________________________________________________________
 
-# 45. Decision Claim
+## 45. Decision Claim
 
 A decision is itself a typed claim:
 
-[
-D=T[
+\[
+D=T\[
 id,
 action,
 premises,
@@ -1557,37 +1519,35 @@ constraints,
 evidence,
 risk,
 reversibility
-]
-]
+\]
+\]
 
 Decision validity:
 
-[
-Valid(D)
-========
+## \[ Valid(D)
 
 EvidenceValid
-\land
+\\land
 AuthorityValid
-\land
+\\land
 ConstraintsSatisfied
-\land
+\\land
 RiskAcceptable
-]
+\]
 
 Therefore:
 
-[
-\boxed{
+\[
+\\boxed{
 FactualConfidence
-\neq
+\\neq
 ActionAuthority
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 46. AI Application
+## 46. AI Application
 
 The Claim Tensor converts AI reasoning from:
 
@@ -1617,9 +1577,9 @@ This does not require exposing internal chain-of-thought.
 
 The tensor stores decision-relevant epistemic structure rather than private reasoning traces.
 
----
+______________________________________________________________________
 
-# 47. AI Memory Application
+## 47. AI Memory Application
 
 Instead of storing:
 
@@ -1649,17 +1609,15 @@ claim:
 
 This prevents memory compression from turning bounded evidence into universal truth.
 
----
+______________________________________________________________________
 
-# 48. Retrieval Application
+## 48. Retrieval Application
 
 Retrieval should not rank claims only by semantic similarity.
 
 A claim's retrieval relevance can be modeled as:
 
-[
-R(C,q)
-======
+## \[ R(C,q)
 
 f(
 SemanticSimilarity,
@@ -1669,13 +1627,13 @@ Freshness,
 DependencyRelevance,
 EvidenceQuality
 )
-]
+\]
 
 A semantically similar but scope-incompatible claim should be downgraded or excluded.
 
----
+______________________________________________________________________
 
-# 49. RAG Application
+## 49. RAG Application
 
 Traditional RAG:
 
@@ -1699,21 +1657,21 @@ query
 
 This supports progressive evidence loading.
 
----
+______________________________________________________________________
 
-# 50. Agent Application
+## 50. Agent Application
 
 For an agent action:
 
-[
-A_t=f(C_1,\ldots,C_n)
-]
+\[
+A_t=f(C_1,\\ldots,C_n)
+\]
 
 the system should identify:
 
-[
-Dep^*(A_t)
-]
+\[
+Dep^\*(A_t)
+\]
 
 before consequential execution.
 
@@ -1721,9 +1679,9 @@ High-impact action requires stronger proof closure.
 
 This allows stochastic workers to propose actions while deterministic controls validate the claim structure supporting them.
 
----
+______________________________________________________________________
 
-# 51. Claim Tensor as AI Control Interface
+## 51. Claim Tensor as AI Control Interface
 
 ```text
 LLM Worker
@@ -1747,24 +1705,22 @@ ADMIT / CONDITION / COMPETE / QUARANTINE / REJECT
 
 The Claim Tensor therefore acts as an interface between probabilistic cognition and governed system state.
 
----
+______________________________________________________________________
 
-# 52. Admission Rule
+## 52. Admission Rule
 
 A candidate claim enters persistent knowledge only if:
 
-[
-Admit(C)
-========
+## \[ Admit(C)
 
 SchemaValid
-\land
+\\land
 ProvenanceSufficient
-\land
+\\land
 ScopeDefined
-\land
+\\land
 DependenciesResolvable
-]
+\]
 
 Depending on evidence quality, admission state may be:
 
@@ -1778,16 +1734,16 @@ REJECT
 
 Admission does not imply verification.
 
----
+______________________________________________________________________
 
-# 53. Claim Tensor Validation Function
+## 53. Claim Tensor Validation Function
 
 Conceptually:
 
-[
+\[
 Validate(C)
-\rightarrow
-[
+\\rightarrow
+\[
 schema,
 premises,
 provenance,
@@ -1799,14 +1755,14 @@ competition,
 falsifiers,
 confidence,
 consequence
-]
-]
+\]
+\]
 
 A claim is structurally incomplete when required fields for its consequence class are absent.
 
----
+______________________________________________________________________
 
-# 54. Minimum Claim
+## 54. Minimum Claim
 
 For low-stakes reasoning:
 
@@ -1825,40 +1781,38 @@ claim:
 
 For consequential reasoning, the full tensor should be used.
 
----
+______________________________________________________________________
 
-# 55. Claim Completeness
+## 55. Claim Completeness
 
 Define:
 
-[
-Completeness(C)
-===============
+## \[ Completeness(C)
 
-\frac{
+\\frac{
 RequiredFieldsPresent
 }{
 RequiredFields
 }
-]
+\]
 
 But:
 
-[
-\boxed{
+\[
+\\boxed{
 Completeness
-\neq
+\\neq
 Truth
 }
-]
+\]
 
 A perfectly structured false claim remains false.
 
 Structural completeness only establishes that the claim can be properly audited.
 
----
+______________________________________________________________________
 
-# 56. Proof Capsule
+## 56. Proof Capsule
 
 A compressed Claim Tensor can be rendered as:
 
@@ -1880,36 +1834,33 @@ proof_capsule:
 
 This is the smallest sufficient epistemic representation when all omitted details remain recoverable through references.
 
----
+______________________________________________________________________
 
-# 57. Lossless Epistemic Compression
+## 57. Lossless Epistemic Compression
 
 Define:
 
-[
-K_{RSCF}(C)\rightarrow P_C
-]
+\[
+K\_{RSCF}(C)\\rightarrow P_C
+\]
 
 where (P_C) is a proof capsule.
 
 Required condition:
 
-[
-\boxed{
-DecisionState(P_C)
-==================
+## \[ \\boxed{ DecisionState(P_C)
 
 DecisionState(C)
 }
-]
+\]
 
 for every decision the compressed representation is authorized to support.
 
 If compression changes the supported decision state, it is epistemically lossy.
 
----
+______________________________________________________________________
 
-# 58. Claim Tensor Invariants
+## 58. Claim Tensor Invariants
 
 ## CT-INV-01 — Identity Preservation
 
@@ -1971,9 +1922,9 @@ Evidence supporting a claim does not itself authorize action.
 
 A coherent model claim is not automatically an empirical fact.
 
----
+______________________________________________________________________
 
-# 59. Failure Modes
+## 59. Failure Modes
 
 ## CT-FM-01 — Scope Collapse
 
@@ -2023,9 +1974,9 @@ A predictive claim automatically triggers action.
 
 Shortened memory changes the meaning or applicability of the original claim.
 
----
+______________________________________________________________________
 
-# 60. Repair Architecture
+## 60. Repair Architecture
 
 ```text
 Claim failure detected
@@ -2051,103 +2002,100 @@ Restore / revise / revoke
 
 This is local epistemic repair.
 
----
+______________________________________________________________________
 
-# 61. Claim Tensor Operator Set
+## 61. Claim Tensor Operator Set
 
 Useful operators include:
 
-[
+\[
 Create(C)
-]
+\]
 
-[
+\[
 Validate(C)
-]
+\]
 
-[
+\[
 BindEvidence(C,E)
-]
+\]
 
-[
+\[
 AddPremise(C,P)
-]
+\]
 
-[
+\[
 SetScope(C,S)
-]
+\]
 
-[
+\[
 SetRegime(C,R)
-]
+\]
 
-[
+\[
 Compete(C,H)
-]
+\]
 
-[
+\[
 Falsify(C,F)
-]
+\]
 
-[
+\[
 Compress(C)
-]
+\]
 
-[
+\[
 Expand(C)
-]
+\]
 
-[
+\[
 Invalidate(C)
-]
+\]
 
-[
+\[
 Revalidate(C)
-]
+\]
 
-[
+\[
 Supersede(C_i,C_j)
-]
+\]
 
-[
+\[
 Merge(C_i,C_j)
-]
+\]
 
-[
+\[
 Split(C)
-]
+\]
 
 Every operator must preserve the Claim Tensor invariants.
 
----
+______________________________________________________________________
 
-# 62. Claim Tensor Transition Equation
+## 62. Claim Tensor Transition Equation
 
 A claim evolves through evidence and context:
 
-[
-\boxed{
-C_{t+1}
-=======
+## \[ \\boxed{ C\_{t+1}
 
-\mathcal{U}
+\\mathcal{U}
 (
 C_t,
-E_{new},
-R_{new},
-S_{new},
-T_{new}
+E\_{new},
+R\_{new},
+S\_{new},
+T\_{new}
 )
 }
-]
+\]
 
 subject to:
 
-[
-\mathcal{I}(C_{t+1})=1
-]
+\[
+\\mathcal{I}(C\_{t+1})=1
+\]
 
-where (\mathcal{I}) is the invariant validator.
+where (\\mathcal{I}) is the invariant validator.
 
 The update operator may:
 
@@ -2159,17 +2107,15 @@ The update operator may:
 - quarantine,
 - or invalidate the claim.
 
----
+______________________________________________________________________
 
-# 63. Confidence Update
+## 63. Confidence Update
 
 Confidence should not be updated through naive evidence counting.
 
 Instead:
 
-[
-Conf_{t+1}(C)
-=============
+## \[ Conf\_{t+1}(C)
 
 f(
 Conf_t,
@@ -2179,36 +2125,31 @@ Contradiction,
 ScopeFit,
 Freshness
 )
-]
+\]
 
 subject to:
 
-[
-Conf_{t+1}(C)
-\le
+\[
+Conf\_{t+1}(C)
+\\le
 Ceiling(C)
-]
+\]
 
 Correlated evidence must not receive full independent weight.
 
----
+______________________________________________________________________
 
-# 64. Claim Tensor and RSCF
+## 64. Claim Tensor and RSCF
 
 The Claim Tensor is the atomic claim representation.
 
 RSCF supplies recursive proof structure.
 
-[
-\boxed{
-ClaimTensor
-+
-DependencyGraph
-===============
+## \[ \\boxed{ ClaimTensor + DependencyGraph
 
-RSCF\ Proof\ Structure
+RSCF\\ Proof\\ Structure
 }
-]
+\]
 
 Conceptually:
 
@@ -2224,9 +2165,9 @@ Evidence
 
 Each node remains independently typed and provenance-bound.
 
----
+______________________________________________________________________
 
-# 65. H/M/L Claim Architecture
+## 65. H/M/L Claim Architecture
 
 ## H — Governing Claim
 
@@ -2258,46 +2199,44 @@ H: System is suitable for deployment.
 
 The H claim cannot outrun its M/L support.
 
----
+______________________________________________________________________
 
-# 66. Atomic Confidence Rule
+## 66. Atomic Confidence Rule
 
 For a high-level claim:
 
-[
-C_H=f(C_{M1},C_{M2},C_{M3})
-]
+\[
+C_H=f(C\_{M1},C\_{M2},C\_{M3})
+\]
 
 with all three load-bearing:
 
-[
-\boxed{
+\[
+\\boxed{
 Conf(C_H)
-\le
-\min(
-Conf(C_{M1}),
-Conf(C_{M2}),
-Conf(C_{M3})
+\\le
+\\min(
+Conf(C\_{M1}),
+Conf(C\_{M2}),
+Conf(C\_{M3})
 )
 }
-]
+\]
 
 This prevents averaging away critical weakness.
 
----
+______________________________________________________________________
 
-# 67. AI Answer Synthesis
+## 67. AI Answer Synthesis
 
 The user-visible answer should be generated from validated claim state:
 
-[
-Answer
-======
+## \[ Answer
 
 Render(
-C^*_{relevant}
+C^\*\_{relevant}
 )
-]
+\]
 
 not directly from unvalidated candidate reasoning.
 
@@ -2311,9 +2250,9 @@ It may not change:
 - causal status,
 - decisive qualifications.
 
----
+______________________________________________________________________
 
-# 68. No Chain-of-Thought Requirement
+## 68. No Chain-of-Thought Requirement
 
 Claim Tensors are not intended to store private hidden reasoning traces.
 
@@ -2329,17 +2268,17 @@ how strong it may be
 
 Thus:
 
-[
-\boxed{
+\[
+\\boxed{
 ProofStructure
-\neq
+\\neq
 PrivateChainOfThought
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 69. Machine Representation
+## 69. Machine Representation
 
 ```json
 {
@@ -2392,18 +2331,15 @@ PrivateChainOfThought
 }
 ```
 
----
+______________________________________________________________________
 
-# 70. Canonical Equation
+## 70. Canonical Equation
 
 The complete Claim Tensor architecture can be summarized as:
 
-[
-\boxed{
-C
-=
+## \[ \\boxed{ C
 
-T[
+T\[
 I,
 X,
 E_p,
@@ -2416,12 +2352,12 @@ T,
 L_c,
 H,
 F,
-\Sigma,
-\Gamma,
+\\Sigma,
+\\Gamma,
 Q
-]
+\]
 }
-]
+\]
 
 where:
 
@@ -2437,131 +2373,125 @@ where:
 - (L_c) = causal level,
 - (H) = competing hypotheses,
 - (F) = falsifiers,
-- (\Sigma) = sensitivity,
-- (\Gamma) = confidence ceiling,
+- (\\Sigma) = sensitivity,
+- (\\Gamma) = confidence ceiling,
 - (Q) = consequence.
 
----
+______________________________________________________________________
 
-# 71. Claim Validity Equation
+## 71. Claim Validity Equation
 
-[
-\boxed{
-Valid(C)
-========
+## \[ \\boxed{ Valid(C)
 
 PremiseValid
-\land
+\\land
 EvidenceValid
-\land
+\\land
 ScopeValid
-\land
+\\land
 RegimeValid
-\land
+\\land
 TemporalValid
-\land
+\\land
 CausalValid
 }
-]
+\]
 
 This is a structural AMOS validity model.
 
 It should not be confused with a universal mathematical theorem.
 
----
+______________________________________________________________________
 
-# 72. Claim Persistence Equation
+## 72. Claim Persistence Equation
 
-A claim remains reusable at time (t+\Delta) only if:
+A claim remains reusable at time (t+\\Delta) only if:
 
-[
-\boxed{
-Reusable(C,t+\Delta)
-====================
+## \[ \\boxed{ Reusable(C,t+\\Delta)
 
 ValidDependencies
-\land
+\\land
 ScopeCompatible
-\land
+\\land
 RegimeCompatible
-\land
+\\land
 Fresh
-\land
+\\land
 NotSuperseded
 }
-]
+\]
 
 Otherwise:
 
-[
-C\rightarrow REVALIDATE
-]
+\[
+C\\rightarrow REVALIDATE
+\]
 
----
+______________________________________________________________________
 
-# 73. Compression Preservation Equation
+## 73. Compression Preservation Equation
 
 For compression (K):
 
-[
+\[
 C'=K(C)
-]
+\]
 
 required:
 
-[
-\boxed{
-\begin{aligned}
-P(C') &\simeq P(C)\
-E(C') &\simeq E(C)\
-S(C') &\simeq S(C)\
-R(C') &\simeq R(C)\
-F(C') &\simeq F(C)\
-I(C') &\simeq I(C)
-\end{aligned}
+\[
+\\boxed{
+\\begin{aligned}
+P(C') &\\simeq P(C)\
+E(C') &\\simeq E(C)\
+S(C') &\\simeq S(C)\
+R(C') &\\simeq R(C)\
+F(C') &\\simeq F(C)\
+I(C') &\\simeq I(C)
+\\end{aligned}
 }
-]
+\]
 
 for all load-bearing structures.
 
 This is the formal expression of the hard invariant.
 
----
+______________________________________________________________________
 
-# 74. Canonical Hard Invariant
+## 74. Canonical Hard Invariant
 
-[
-\boxed{
-\textbf{No claim may lose its scope, premises, provenance, or invalidation conditions when compressed.}
+\[
+\\boxed{
+\\textbf{No claim may lose its scope, premises, provenance, or invalidation conditions when compressed.}
 }
-]
+\]
 
 Expanded:
 
-[
-\boxed{
+\[
+\\boxed{
 Compression(C)
-\Rightarrow
-Preserve[
+\\Rightarrow
+Preserve\[
 Scope,
 Premises,
 Provenance,
 Invalidation
-]
+\]
 }
-]
+\]
 
 If preservation fails:
 
-[
-\boxed{
+\[
+\\boxed{
 CompressionStatus=REJECT
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 75. Final AMOS Architecture
+## 75. Final AMOS Architecture
 
 ```text
                            CLAIM
@@ -2601,35 +2531,35 @@ CompressionStatus=REJECT
                     VALIDATED OUTPUT
 ```
 
----
+______________________________________________________________________
 
-# 76. Canonical Summary
+## 76. Canonical Summary
 
 The AMOS Claim Tensor transforms a claim from an isolated linguistic statement into a typed epistemic object:
 
-[
-\boxed{
+\[
+\\boxed{
 Statement
-\rightarrow
+\\rightarrow
 ClaimTensor
-\rightarrow
+\\rightarrow
 ProofGraph
-\rightarrow
+\\rightarrow
 Validation
-\rightarrow
+\\rightarrow
 GovernedKnowledge
 }
-]
+\]
 
 The central architectural rule is:
 
-[
-\boxed{
+\[
+\\boxed{
 Claim
-\neq
+\\neq
 Text
 }
-]
+\]
 
 A valid AMOS claim carries enough structure to answer:
 
@@ -2670,32 +2600,36 @@ The Claim Tensor therefore functions as the atomic epistemic substrate for:
 
 Its governing invariant remains:
 
-[
-\boxed{
-\textbf{No claim may lose its scope, premises, provenance, or invalidation conditions when compressed.}
+\[
+\\boxed{
+\\textbf{No claim may lose its scope, premises, provenance, or invalidation conditions when compressed.}
 }
-]
+\]
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · 06-Knowledge-Base-MOC · RSCF · Cosmo_Brain_BRIDGE_INDEX · Cosmo_Brain_BRIDGE_INDEX · Cosmo_Brain_BRIDGE_INDEX · Cosmo_Brain_BRIDGE_INDEX · Cosmo_Brain_BRIDGE_INDEX · Cosmo_Brain_BRIDGE_INDEX · AMOS_Simulation_Kernel_v0_Math_Foundations · system_scan_agent · automation_profiles
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: claim_tensor
 node_type: note
 path: 11_KNOWLEDGE/CLAIM_TENSOR.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]]

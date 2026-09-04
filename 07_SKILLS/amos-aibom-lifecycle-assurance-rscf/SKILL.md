@@ -4,25 +4,22 @@ title: SKILL — Amos Aibom Lifecycle Assurance Rscf
 type: skill
 source: 07_SKILLS/amos-aibom-lifecycle-assurance-rscf
 name: amos-aibom-lifecycle-assurance-rscf
-description: AIBOM Lifecycle Assurance — RSCF epistemic capability. Use when classifying
-  claims by epistemic state, validating outputs against epistemic and scope constraints,
-  or analyzing evidence structure. Use when amos-rscf-epistemic-master routes to this
-  . Do not use for generic tasks outside rscf domain.
+description: AIBOM Lifecycle Assurance — RSCF epistemic capability. Use when classifying claims by epistemic state, validating outputs against epistemic and scope constraints, or analyzing evidence structure. Use when amos-rscf-epistemic-master routes to this . Do not use for generic tasks outside rscf domain.
 parent_skill: amos-rscf-epistemic-master
 domain: rscf
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
 tags:
-- type/skill
-- type/skill
-- domain/rscf-epistemic
-- epistemic/source_claim
-- hml/h
-- epistemic/source_claim
-- amos-os
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/rscf-epistemic
+  - epistemic/source_claim
+  - hml/h
+  - epistemic/source_claim
+  - amos-os
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -32,24 +29,24 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: H
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
-- L7_authority
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
+  - L7_authority
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L7
-- L16
-- L17
-- L18
-- L19
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L7
+  - L16
+  - L17
+  - L18
+  - L19
 license: MIT
 steward: Trang Phan
 ---
@@ -59,6 +56,7 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: rscf. Parent: amos-rscf-epistemic-master. Epistemic class: SOURCE_CLAIM. H/M/L: H.
+
 ## When to Use
 
 - When classifying AIBOM lifecycle claims by epistemic state and binding them to evidence
@@ -85,13 +83,13 @@ Origin architect: **Trang Phan**. Domain: rscf. Parent: amos-rscf-epistemic-mast
 ## Operations
 
 1. **aibom_lifecycle.classify_claim**: Classify claims by epistemic state (VERIFIED, DERIVED, MODEL, UNKNOWN/GAP) and bind to evidence
-2. **aibom_lifecycle.validate_evidence**: Validate evidence chains: provenance, freshness, scope, and regime validity
-3. **aibom_lifecycle.trace_provenance**: Trace output provenance to vault sources and tag with content_hash
-4. **aibom_lifecycle.assess_confidence**: Assess confidence ceiling based on epistemic class and evidence strength
-5. **aibom_lifecycle.detect_falsifier**: Detect falsifiers and downgrade confidence when counter-evidence emerges
-6. **aibom_lifecycle.manage_lifecycle**: Manage AIBOM lifecycle: classify, validate, trace, assess, detect
-7. **aibom_lifecycle.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration
-8. **aibom_lifecycle.validate_outputs**: Validate AIBOM outputs against domain constraints and epistemic class
+1. **aibom_lifecycle.validate_evidence**: Validate evidence chains: provenance, freshness, scope, and regime validity
+1. **aibom_lifecycle.trace_provenance**: Trace output provenance to vault sources and tag with content_hash
+1. **aibom_lifecycle.assess_confidence**: Assess confidence ceiling based on epistemic class and evidence strength
+1. **aibom_lifecycle.detect_falsifier**: Detect falsifiers and downgrade confidence when counter-evidence emerges
+1. **aibom_lifecycle.manage_lifecycle**: Manage AIBOM lifecycle: classify, validate, trace, assess, detect
+1. **aibom_lifecycle.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration
+1. **aibom_lifecycle.validate_outputs**: Validate AIBOM outputs against domain constraints and epistemic class
 
 ## Vault-Sourced Content
 
@@ -99,8 +97,7 @@ Origin architect: **Trang Phan**. Domain: rscf. Parent: amos-rscf-epistemic-mast
 
 > Path: `dated/2026-08-22/2026-08-22 Assurance Debt Governance.md` | Size: 3711 chars | Match score: 5 | content_hash: a774828e5c7e1e7d
 
-# Assurance, Debt Registers & Maturity Governance
-
+## Assurance, Debt Registers & Maturity Governance
 
 ## Overview
 
@@ -114,52 +111,64 @@ opportunities are pursued.
 ## Subsystems
 
 ### 301 — Independent Falsifier Manager
+
 Tracks independent falsifier access for scientific claims.
 Gate: CONDITIONAL if pending falsifier access.
 
 ### 302 — Red-Team Independence Manager
+
 Ensures red teams are independent from the development team.
 Gate: FAIL if non-independent red teams detected.
 
 ### 303 — Assurance Case Manager
+
 Manages assurance cases (draft/under_review/approved/rejected/expired).
 Gate: CONDITIONAL if unapproved or expired cases.
 
 ### 304 — Certification Profile Manager
+
 Tracks certifications (standard/level/certifier/valid_until).
 Gate: CONDITIONAL if expired certifications.
 
 ### 305 — Residual Risk Acceptance Manager
+
 Tracks residual risk acceptance by designated authority.
 Gate: CONDITIONAL if unaccepted residual risks.
 
 ### 306 — Known Gap Disclosure Manager
+
 Ensures known gaps are disclosed to appropriate audiences.
 Gate: FAIL if undisclosed known gaps.
 
 ### 307-310 — Debt Register Manager
+
 Tracks four types of debt: epistemic, governance, security, architecture.
 Gate: FAIL if debt amount > 0.75 threshold.
 
 ### 311 — Debt Interaction Manager
+
 Analyzes interactions between different types of debt.
 Gate: CONDITIONAL if high-severity interactions (> 0.5).
 
 ### 312 — Maturity State Manager
+
 Tracks component maturity (experimental/prototype/beta/production/legacy/deprecated).
 Gate: CONDITIONAL if immature components in use.
 
 ### 313 — Promotion Evidence Manager
+
 Manages promotion evidence standards (pending/promoted/demoted/quarantined/rejected).
 Gate: CONDITIONAL if pending promotions.
 
 ### 314 — Demotion/Quarantine Manager
+
 Manages demotion and quarantine rules with authority tracking.
 Gate: FAIL if quarantined without authority; CONDITIONAL if quarantined with authority.
 
 ### 315 — Continuous Re
 
----
+______________________________________________________________________
+
 **Links:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 ## Related
@@ -169,17 +178,19 @@ Gate: FAIL if quarantined without authority; CONDITIONAL if quarantined with aut
 ## Examples
 
 - **Scenario**: When classifying AIBOM lifecycle claims by epistemic state and binding them to evidence
+
   - **Input**: A query matching this skill's domain (rscf)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When validating evidence chains for provenance, freshness, scope, and regime validity
+
   - **Input**: A query matching this skill's domain (rscf)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When tracing AIBOM output provenance to vault sources and content hashes
+
   - **Input**: A query matching this skill's domain (rscf)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Validation Gates
 
@@ -196,7 +207,6 @@ Gate: FAIL if quarantined without authority; CONDITIONAL if quarantined with aut
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `amos-rscf-epistemic-master` — routes to this skill when rscf specialization is needed
@@ -204,7 +214,6 @@ Gate: FAIL if quarantined without authority; CONDITIONAL if quarantined with aut
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -223,7 +232,6 @@ Gate: FAIL if quarantined without authority; CONDITIONAL if quarantined with aut
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -231,7 +239,6 @@ Gate: FAIL if quarantined without authority; CONDITIONAL if quarantined with aut
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -244,11 +251,12 @@ Gate: FAIL if quarantined without authority; CONDITIONAL if quarantined with aut
 
 - `references/aibom_subsystems.md` — loaded on demand
 - `references/references_MOC.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `amos-rscf-epistemic-master` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `amos-aibom-lifecycle-assurance-rscf-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -256,12 +264,14 @@ Gate: FAIL if quarantined without authority; CONDITIONAL if quarantined with aut
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-aibom-lifecycle-assurance-rscf
 node_type: skill
 path: 07_SKILLS/amos-aibom-lifecycle-assurance-rscf/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

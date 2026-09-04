@@ -4,30 +4,27 @@ title: SKILL — Amos Agent Systems Master
 type: skill
 source: 07_SKILLS/amos-agent-systems-master
 name: amos-agent-systems-master
-description: AMOS Agent Systems — agent fabrication, delegation, agency-consequence
-  tensors, agent economy governance, agent-to-agent protocols. Use when agent design,
-  delegation reasoning, or multi-agent govern. Do not use for generic tasks outside
-  agent domain.
+description: AMOS Agent Systems — agent fabrication, delegation, agency-consequence tensors, agent economy governance, agent-to-agent protocols. Use when agent design, delegation reasoning, or multi-agent govern. Do not use for generic tasks outside agent domain.
 parent_skill: none
 domain: agent
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CANON
 tags:
-- type/skill
-- type/skill
-- domain/agent-systems
-- epistemic/source_claim
-- hml/m
-- epistemic/source_canon
-- amos-os
-- agents
-- readme
-- routing-policy-validation-receipt
-- authz-engine-validation-receipt
-- agent-template
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/agent-systems
+  - epistemic/source_claim
+  - hml/m
+  - epistemic/source_canon
+  - amos-os
+  - agents
+  - readme
+  - routing-policy-validation-receipt
+  - authz-engine-validation-receipt
+  - agent-template
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -37,23 +34,23 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: M
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
-- L7_authority
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
+  - L7_authority
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L7
-- L16
-- L17
-- L18
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L7
+  - L16
+  - L17
+  - L18
 license: MIT
 steward: Trang Phan
 ---
@@ -63,6 +60,7 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: agent. Parent: none. Epistemic class: SOURCE_CANON. H/M/L: M.
+
 ## When to Use
 
 AMOS Agent Systems — agent fabrication, delegation, agency-consequence tensors, agent economy governance, agent-to-agent protocols. Use for agent design, delegation reasoning, or multi-agent govern...
@@ -88,16 +86,16 @@ AMOS Agent Systems — agent fabrication, delegation, agency-consequence tensors
 ## Operations
 
 1. **agent_systems.fabricate_agent**: Fabricate agents with proper schema: capabilities, side-effect classification, governance metadata, and content hash.
-2. **agent_systems.delegate_task**: Delegate tasks to subordinate agents with scope bounds, authority gates, and consequence tensor tracking.
-3. **agent_systems.validate_agent_composition**: Validate agent composition: MECE coverage, skill binding integrity, capability bounds, and governance metadata.
-4. **agent_systems.trace_agent_provenance**: Trace agent capabilities, content, and delegation chain to source skills and vault provenance.
-5. **agent_systems.assess_agent_claim**: Assess agent claims for epistemic class, capability scope, authority bounds, and lifecycle status.
-6. **agent_systems.manage_agent_lifecycle**: Manage agent lifecycle: fabricate, activate, promote, retire, and archive with provenance tracking.
-7. **agent_systems.detect_agent_drift**: Detect agent drift: capability creep, scope expansion, governance decay, and content hash tampering.
-8. **agent_systems.escalate_agent_gaps**: Escalate agent gaps: flag orphan agents, broken skill bindings, missing capabilities, trigger repair.
-9. **agent_systems.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-10. **agent_systems.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
-11. **agent_systems.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+1. **agent_systems.delegate_task**: Delegate tasks to subordinate agents with scope bounds, authority gates, and consequence tensor tracking.
+1. **agent_systems.validate_agent_composition**: Validate agent composition: MECE coverage, skill binding integrity, capability bounds, and governance metadata.
+1. **agent_systems.trace_agent_provenance**: Trace agent capabilities, content, and delegation chain to source skills and vault provenance.
+1. **agent_systems.assess_agent_claim**: Assess agent claims for epistemic class, capability scope, authority bounds, and lifecycle status.
+1. **agent_systems.manage_agent_lifecycle**: Manage agent lifecycle: fabricate, activate, promote, retire, and archive with provenance tracking.
+1. **agent_systems.detect_agent_drift**: Detect agent drift: capability creep, scope expansion, governance decay, and content hash tampering.
+1. **agent_systems.escalate_agent_gaps**: Escalate agent gaps: flag orphan agents, broken skill bindings, missing capabilities, trigger repair.
+1. **agent_systems.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+1. **agent_systems.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+1. **agent_systems.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## Consolidated Sub-Skills (11)
 
@@ -108,31 +106,38 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 > **Source**: `06_AGENTS/AGENTS_README.md` from the AMOS_OS Obsidian vault.
 > This is substantive domain knowledge, not script-generated content.
 
-# [[AGENTS|AGENTS]] README — part 2
+## [[AGENTS|AGENTS]] README — part 2
 
 ## Purpose
+
 `AGENTS README` is the package readme for the **Agents** plane segment at `06_AGENTS`.
 The Agents plane governs agent specifications, capability envelopes, and delegation boundaries. Normative load-bearing content lives in the sibling contract(s); this readme orients navigation.
 
 ## Sibling artifacts
+
 - [[06_AGENTS/AGENTS_AGENT_CONTRACT|AGENTS_AGENT_CONTRACT]]
 
 ## Contract discipline
+
 Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
 
 ## Gaps
+
 Executable binding PARTIAL unless an executed validation receipt exists for this subsystem ([[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]).
 
 ## Worked semantics
+
 Given an operation touching `AGENTS README` within the Agents plane:
+
 1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-2. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-3. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-4. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-5. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-6. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
+1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
+1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
+1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
+1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
+1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
 
 ## Promotion-gate checklist
+
 - [ ] typed schema bound to this artifact
 - [ ] identity + versioning implemented
 - [ ] negative cases covered (missing · malformed · stale · unauthorized input)
@@ -142,25 +147,29 @@ Given an operation touching `AGENTS README` within the Agents plane:
 - [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
 ## Cross-plane binding
+
 - AGENT_TEMPLATE
 
----
+______________________________________________________________________
+
 **MOC:** [[07_SKILLS/amos-agent-systems-master/amos-agent-systems-master_MOC|amos-agent-systems-master_MOC]]
 
 ## Examples
 
 - **Scenario**: When managing lifecycle operations across classify, validate, trace, assess, and detect
+
   - **Input**: A query matching this skill's domain (agent)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When detecting drift in evidence chains, provenance freshness, or confidence calibration
+
   - **Input**: A query matching this skill's domain (agent)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When validating outputs against domain constraints and epistemic class
+
   - **Input**: A query matching this skill's domain (agent)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Validation Gates
 
@@ -177,7 +186,6 @@ Given an operation touching `AGENTS README` within the Agents plane:
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `none` — routes to this skill when agent specialization is needed
@@ -185,7 +193,6 @@ Given an operation touching `AGENTS README` within the Agents plane:
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -204,7 +211,6 @@ Given an operation touching `AGENTS README` within the Agents plane:
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -212,7 +218,6 @@ Given an operation touching `AGENTS README` within the Agents plane:
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -233,11 +238,12 @@ Given an operation touching `AGENTS README` within the Agents plane:
 - `references/fabrication_engine_layer.md` — loaded on demand
 - `references/os_agent_model.md` — loaded on demand
 - `references/references_MOC.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `none` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `amos-agent-systems-master-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -245,12 +251,14 @@ Given an operation touching `AGENTS README` within the Agents plane:
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-agent-systems-master
 node_type: skill
 path: 07_SKILLS/amos-agent-systems-master/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

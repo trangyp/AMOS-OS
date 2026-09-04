@@ -17,45 +17,44 @@ steward: Trang Phan
 created: 2026-08-25
 updated: 2026-08-25
 tags:
-- amos
-- canon
-- universe
-- amos-os
-- amos-core
-- amos-core-v4-4
-- cognition
-- cognitive-organism
-- cognitive-architecture
-- cognitive-organs
-- reasoning
-- perception
-- memory
-- learning
-- planning
-- decision
-- metacognition
-- rscf
-- hml
-- provenance
-- uncertainty
-- adaptive-complexity
-- governed-evolution
-- canon-group/tech-ai
-- canon/framework
-- canon/model
-- rscf/claim
-- rscf/provenance
-- rscf/state/derived
-- readme
-- architecture
-- neural-network
-- amos-core-laws
-- law-hierarchy
-- amos-full-brain-os-architecture
-- cognitive-matrix-architecture
+  - amos
+  - canon
+  - universe
+  - amos-os
+  - amos-core
+  - amos-core-v4-4
+  - cognition
+  - cognitive-organism
+  - cognitive-architecture
+  - cognitive-organs
+  - reasoning
+  - perception
+  - memory
+  - learning
+  - planning
+  - decision
+  - metacognition
+  - rscf
+  - hml
+  - provenance
+  - uncertainty
+  - adaptive-complexity
+  - governed-evolution
+  - canon-group/tech-ai
+  - canon/framework
+  - canon/model
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/derived
+  - readme
+  - architecture
+  - neural-network
+  - amos-core-laws
+  - law-hierarchy
+  - amos-full-brain-os-architecture
+  - cognitive-matrix-architecture
 aliases:
-- AMOS Cognitive Organism Canon - Cognitive Organism Canon - AMOS Cognitive Organism
-  - Cogniti
+  - AMOS Cognitive Organism Canon - Cognitive Organism Canon - AMOS Cognitive Organism - Cogniti
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -64,19 +63,21 @@ rscf:
 ---
 
 # AMOS Cognitive Organism Canon
+
 **Origin architect / steward:** Trang Phan
+
 > **Status:** `ACTIVE_CANON_CANDIDATE`
 > **AMOS Core target:** `v4.4`
 > **Conclusion class:** `AMOS_MODEL`
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
----
+> rscf:
+> state: DERIVED
+> claim_class: DERIVED
+> provenance: AMOS_corpus
+> scope: AMOS_general
 
+______________________________________________________________________
 
-# 0. Purpose
+## 0. Purpose
 
 The **AMOS Cognitive Organism Canon** defines the canonical architectural role of the `05_COGNITIVE_ORGANISM` plane.
 
@@ -130,9 +131,9 @@ The Cognitive Organism exists to coordinate cognition.
 
 It does **not** possess unrestricted authority to act.
 
----
+______________________________________________________________________
 
-# 1. Canonical Position in AMOS OS
+## 1. Canonical Position in AMOS OS
 
 The Cognitive Organism occupies a specific architectural plane:
 
@@ -158,9 +159,9 @@ This ordering defines architectural responsibility, not necessarily a literal sy
 
 The Cognitive Organism consumes governed capabilities from lower infrastructure layers and exposes cognitive capability to higher role/execution structures.
 
----
+______________________________________________________________________
 
-# 2. Hard Architectural Boundaries
+## 2. Hard Architectural Boundaries
 
 ```text
 CANON != COGNITIVE ORGANISM
@@ -192,9 +193,9 @@ PROPOSAL != COMMIT
 
 These separations are load-bearing.
 
----
+______________________________________________________________________
 
-# 3. Cognitive Organism Definition
+## 3. Cognitive Organism Definition
 
 Conceptually:
 
@@ -233,9 +234,9 @@ Missing implementation evidence remains:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 4. Organism != Monolith
+## 4. Organism != Monolith
 
 AMOS should not model cognition as one opaque undifferentiated block.
 
@@ -265,9 +266,9 @@ TESTS
 RECOVERY
 ```
 
----
+______________________________________________________________________
 
-# 5. Organ Contract
+## 5. Organ Contract
 
 Canonical conceptual schema:
 
@@ -309,9 +310,9 @@ cognitive_organ:
 
 A directory or filename alone does not prove this contract exists operationally.
 
----
+______________________________________________________________________
 
-# 6. Capability / Authority Firewall
+## 6. Capability / Authority Firewall
 
 A cognitive organ can be highly capable without possessing execution authority.
 
@@ -326,6 +327,7 @@ AUTHORITY
 =
 WHAT THE ORGAN IS PERMITTED TO COMMIT OR EFFECT
 ```
+
 Therefore:
 
 ```text
@@ -344,9 +346,9 @@ A learning organ may propose an update.
 
 That does not authorize canon mutation.
 
----
+______________________________________________________________________
 
-# 7. Organ != Agent
+## 7. Organ != Agent
 
 An organ represents a cognitive function.
 
@@ -400,9 +402,9 @@ And:
 
 is also valid.
 
----
+______________________________________________________________________
 
-# 8. Organ != Skill
+## 8. Organ != Skill
 
 A skill is a reusable procedure or bounded operational method.
 
@@ -419,15 +421,16 @@ SKILL
 =
 REUSABLE PROCEDURE
 ```
+
 A skill may invoke an organ.
 
 An organ may use skills.
 
 Neither identity should silently replace the other.
 
----
+______________________________________________________________________
 
-# 9. Organ != Workflow
+## 9. Organ != Workflow
 
 A workflow defines orchestration across steps.
 
@@ -447,9 +450,9 @@ ORGAN != WORKFLOW
 
 Even when an organ internally contains multiple processing stages.
 
----
+______________________________________________________________________
 
-# 10. Organ != Model
+## 10. Organ != Model
 
 Models may support cognition.
 
@@ -474,9 +477,9 @@ A model supplies computational or representational capability.
 
 An organ governs how that capability participates in cognition.
 
----
+______________________________________________________________________
 
-# 11. Organ != Memory
+## 11. Organ != Memory
 
 Memory is persistent or session-bounded information state.
 
@@ -494,9 +497,9 @@ MEMORY != COGNITION
 
 Stored information does not reason merely because it is available.
 
----
+______________________________________________________________________
 
-# 12. Organ != Knowledge
+## 12. Organ != Knowledge
 
 Knowledge provides evidence, claims, frameworks, RSCFs, and validated structures.
 
@@ -510,9 +513,9 @@ KNOWLEDGE != COGNITIVE ORGANISM
 
 The organism must not silently convert every retrieved knowledge object into verified truth.
 
----
+______________________________________________________________________
 
-# 13. Organ != Runtime
+## 13. Organ != Runtime
 
 Runtime executes.
 
@@ -535,15 +538,16 @@ COGNITIVE FUNCTION
 COGNITIVE COMPOSITION
 REASONING CONTROL
 ```
+
 Therefore:
 
 ```text
 RUNTIME != COGNITION
 ```
 
----
+______________________________________________________________________
 
-# 14. Organ != Control Plane
+## 14. Organ != Control Plane
 
 The control plane governs:
 
@@ -571,9 +575,9 @@ AUTHORITY / POLICY CHECK
 COMMIT OR REJECT
 ```
 
----
+______________________________________________________________________
 
-# 15. Organ != Canon
+## 15. Organ != Canon
 
 Cognitive outputs do not become canon automatically.
 
@@ -595,9 +599,9 @@ GOVERNANCE
 
 process.
 
----
+______________________________________________________________________
 
-# 16. Canonical Organ Families
+## 16. Canonical Organ Families
 
 The following are architectural families rather than assertions that every named implementation already exists.
 
@@ -621,9 +625,9 @@ The following are architectural families rather than assertions that every named
 
 Specific implementation names must be bound separately.
 
----
+______________________________________________________________________
 
-# 17. Perception Organ Family
+## 17. Perception Organ Family
 
 Purpose:
 
@@ -645,9 +649,9 @@ QUALITY CHECKING
 
 Perception must not automatically convert observations into conclusions.
 
----
+______________________________________________________________________
 
-# 18. Attention Organ Family
+## 18. Attention Organ Family
 
 Purpose:
 
@@ -676,9 +680,9 @@ Attention priority does not establish truth.
 SALIENCE != VALIDITY
 ```
 
----
+______________________________________________________________________
 
-# 19. Context Organ Family
+## 19. Context Organ Family
 
 Context establishes the active reasoning envelope.
 
@@ -699,9 +703,9 @@ Context leakage must be controlled.
 
 A conclusion derived under one context must not silently migrate into another incompatible context.
 
----
+______________________________________________________________________
 
-# 20. Memory Access Organ Family
+## 20. Memory Access Organ Family
 
 Memory-access organs mediate retrieval from memory systems.
 
@@ -723,9 +727,9 @@ Retrieval does not establish validity.
 REMEMBERED != VERIFIED
 ```
 
----
+______________________________________________________________________
 
-# 21. Knowledge Retrieval Organ Family
+## 21. Knowledge Retrieval Organ Family
 
 Knowledge retrieval should use the smallest sufficient path.
 
@@ -756,9 +760,9 @@ REVALIDATION
 
 without weakening integrity.
 
----
+______________________________________________________________________
 
-# 22. Reasoning Organ Family
+## 22. Reasoning Organ Family
 
 Reasoning organs transform premises into derived conclusions.
 
@@ -777,9 +781,9 @@ UNCERTAINTY
 
 where load-bearing.
 
----
+______________________________________________________________________
 
-# 23. Recursive RSCF Integration
+## 23. Recursive RSCF Integration
 
 RSCF is a primary reasoning structure.
 
@@ -794,9 +798,9 @@ CLAIM
 
 The Cognitive Organism should permit local reasoning over these structures without requiring global recomputation where dependency closure is established.
 
----
+______________________________________________________________________
 
-# 24. Atomic Multi-RSCF Cognition
+## 24. Atomic Multi-RSCF Cognition
 
 Complex conclusions may depend on multiple RSCFs.
 
@@ -824,9 +828,9 @@ is required within the applicable envelope.
 
 Partial validity must not silently become composite validity.
 
----
+______________________________________________________________________
 
-# 25. Causal Analysis Organ Family
+## 25. Causal Analysis Organ Family
 
 Causal cognition must distinguish:
 
@@ -845,9 +849,9 @@ CAUSAL EFFECT
 
 Structural resemblance alone cannot establish causation.
 
----
+______________________________________________________________________
 
-# 26. Hypothesis Organ Family
+## 26. Hypothesis Organ Family
 
 Hypothesis cognition should generate multiple plausible explanations when evidence permits.
 
@@ -862,9 +866,9 @@ H3
 
 Generation should not immediately force selection.
 
----
+______________________________________________________________________
 
-# 27. Competing Hypothesis Preservation
+## 27. Competing Hypothesis Preservation
 
 When incompatible hypotheses remain materially supported:
 
@@ -882,9 +886,9 @@ H1 vs H2
 
 into a single narrative merely because one answer is stylistically easier.
 
----
+______________________________________________________________________
 
-# 28. Discriminating-Test Selection
+## 28. Discriminating-Test Selection
 
 The organism should prefer:
 
@@ -900,9 +904,9 @@ Evidence quantity alone is not the objective.
 
 Decision-changing information is.
 
----
+______________________________________________________________________
 
-# 29. Simulation Organ Family
+## 29. Simulation Organ Family
 
 Simulation may evaluate:
 
@@ -929,9 +933,9 @@ and:
 SIMULATION RESULT != EMPIRICAL VALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 30. Planning Organ Family
+## 30. Planning Organ Family
 
 Planning converts objectives and constraints into candidate action structures.
 
@@ -955,9 +959,9 @@ PROPOSAL
 
 until authorized.
 
----
+______________________________________________________________________
 
-# 31. Decision-Support Organ Family
+## 31. Decision-Support Organ Family
 
 Decision-support cognition compares alternatives under uncertainty.
 
@@ -976,9 +980,9 @@ GOVERNANCE
 
 The output should remain typed as recommendation or decision support unless authority explicitly grants more.
 
----
+______________________________________________________________________
 
-# 32. Metacognition Organ Family
+## 32. Metacognition Organ Family
 
 Metacognition reasons about reasoning.
 
@@ -999,9 +1003,9 @@ GAP DETECTION
 
 Metacognition is a critical integrity layer.
 
----
+______________________________________________________________________
 
-# 33. Adversarial Cognition
+## 33. Adversarial Cognition
 
 Consequential conclusions should support a genuinely different challenge path.
 
@@ -1032,9 +1036,9 @@ CAUSAL OVERREACH
 STRONGER ALTERNATIVE
 ```
 
----
+______________________________________________________________________
 
-# 34. Learning Organ Family
+## 34. Learning Organ Family
 
 Learning changes reusable cognitive state based on new evidence.
 
@@ -1056,9 +1060,9 @@ CANON MUTATION
 
 A proposed learned update should pass appropriate validation.
 
----
+______________________________________________________________________
 
-# 35. Governed Learning
+## 35. Governed Learning
 
 Canonical pattern:
 
@@ -1080,9 +1084,9 @@ ACCEPT / REJECT / QUARANTINE
 
 High-impact learning requires stronger governance.
 
----
+______________________________________________________________________
 
-# 36. Adaptation Organ Family
+## 36. Adaptation Organ Family
 
 Adaptation modifies cognitive strategy rather than necessarily modifying knowledge.
 
@@ -1098,9 +1102,9 @@ CHANGE TOOL SELECTION
 
 Adaptation must remain within policy and authority boundaries.
 
----
+______________________________________________________________________
 
-# 37. Adaptive Complexity
+## 37. Adaptive Complexity
 
 The Cognitive Organism should support:
 
@@ -1116,9 +1120,9 @@ Start at the lowest sufficient level.
 
 Escalate only where material uncertainty or stakes justify it.
 
----
+______________________________________________________________________
 
-# 38. Complexity Escalation Conditions
+## 38. Complexity Escalation Conditions
 
 Escalation triggers include:
 
@@ -1138,9 +1142,9 @@ LOW TRUST
 AMBIGUOUS DEPENDENCIES
 ```
 
----
+______________________________________________________________________
 
-# 39. Cognitive Fast Path
+## 39. Cognitive Fast Path
 
 AMOS v4.4 permits local fast-path cognition when sufficient conditions are satisfied.
 
@@ -1164,9 +1168,9 @@ NO MATERIAL CONFLICT
 LOCAL REASONING
 ```
 
----
+______________________________________________________________________
 
-# 40. Fast Path Firewall
+## 40. Fast Path Firewall
 
 Fast-path reasoning must escalate when:
 
@@ -1187,9 +1191,9 @@ Therefore:
 FAST PATH != LOWER INTEGRITY
 ```
 
----
+______________________________________________________________________
 
-# 41. Cognitive Integration Organ
+## 41. Cognitive Integration Organ
 
 A cognitive organism requires integration across specialized organs.
 
@@ -1215,9 +1219,9 @@ INTEGRATED COGNITIVE STATE
 
 Integration must preserve disagreement rather than overwrite it.
 
----
+______________________________________________________________________
 
-# 42. No Forced Consensus
+## 42. No Forced Consensus
 
 Different organs may produce conflicting outputs.
 
@@ -1244,9 +1248,9 @@ PRESERVE COMPETING
 
 until discriminating evidence exists.
 
----
+______________________________________________________________________
 
-# 43. Cognitive State Model
+## 43. Cognitive State Model
 
 Conceptual state:
 
@@ -1284,9 +1288,9 @@ cognitive_state:
 
 This is an architectural model, not an assertion of current serialized implementation.
 
----
+______________________________________________________________________
 
-# 44. Provenance as Cognitive Substrate
+## 44. Provenance as Cognitive Substrate
 
 Cognition must remain provenance-aware.
 
@@ -1306,9 +1310,9 @@ TRANSFORMATION
 
 A conclusion without recoverable load-bearing provenance should be downgraded where provenance is necessary.
 
----
+______________________________________________________________________
 
-# 45. Evidence Independence
+## 45. Evidence Independence
 
 Multiple cognitive organs using the same source do not create independent evidence.
 
@@ -1330,9 +1334,9 @@ MULTIPLE ORGANS
 MULTIPLE INDEPENDENT SOURCES
 ```
 
----
+______________________________________________________________________
 
-# 46. Sybil-Hardened Cognition
+## 46. Sybil-Hardened Cognition
 
 The organism must resist false confidence created by duplicated evidence.
 
@@ -1348,9 +1352,9 @@ may still constitute one provenance family.
 
 Repetition does not manufacture independence.
 
----
+______________________________________________________________________
 
-# 47. Scope Firewall
+## 47. Scope Firewall
 
 Each material cognitive result inherits an applicability envelope.
 
@@ -1368,9 +1372,9 @@ applicability:
 
 No organ may silently widen this scope.
 
----
+______________________________________________________________________
 
-# 48. Regime Firewall
+## 48. Regime Firewall
 
 The organism must detect when cognitive reuse crosses regimes.
 
@@ -1394,9 +1398,9 @@ or:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 49. Freshness Firewall
+## 49. Freshness Firewall
 
 Cognitive reuse is freshness-bounded.
 
@@ -1414,9 +1418,9 @@ DEPENDENCY CHANGED
 
 Freshness is part of validity.
 
----
+______________________________________________________________________
 
-# 50. Sensitivity Organ Function
+## 50. Sensitivity Organ Function
 
 The organism should identify the smallest change capable of flipping an important conclusion.
 
@@ -1436,9 +1440,9 @@ CONCLUSION = CONDITIONAL
 
 where appropriate.
 
----
+______________________________________________________________________
 
-# 51. Uncertainty Vector
+## 51. Uncertainty Vector
 
 Cognitive uncertainty should remain multidimensional:
 
@@ -1457,9 +1461,9 @@ U =
 
 Collapsing all uncertainty into one score may destroy useful information.
 
----
+______________________________________________________________________
 
-# 52. Proof Capsules
+## 52. Proof Capsules
 
 Reusable cognitive conclusions should conceptually carry:
 
@@ -1487,9 +1491,9 @@ proof_capsule:
 
 Proof capsules support safe reuse across the organism.
 
----
+______________________________________________________________________
 
-# 53. Proof Capsule Routing
+## 53. Proof Capsule Routing
 
 An organ may reuse a proof capsule only when:
 
@@ -1509,9 +1513,9 @@ NO MATERIAL CONFLICT
 
 Otherwise the capsule must be revalidated.
 
----
+______________________________________________________________________
 
-# 54. Confidence Ceiling
+## 54. Confidence Ceiling
 
 A composite cognitive result cannot be stronger than its weakest load-bearing premise unless independently revalidated.
 
@@ -1527,9 +1531,9 @@ MIN(
 
 This applies across organ composition.
 
----
+______________________________________________________________________
 
-# 55. Cognitive Failure Localization
+## 55. Cognitive Failure Localization
 
 When an organ fails:
 
@@ -1553,9 +1557,9 @@ LOCAL COGNITIVE FAILURE
 GLOBAL COGNITIVE RESET
 ```
 
----
+______________________________________________________________________
 
-# 56. Cognitive Recovery
+## 56. Cognitive Recovery
 
 Recovery should prefer:
 
@@ -1577,9 +1581,9 @@ COMPETING RESULT
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 57. No Blind Cognitive Retry
+## 57. No Blind Cognitive Retry
 
 If:
 
@@ -1603,9 +1607,9 @@ P + E + A + M
 
 without material change should not be treated as new validation.
 
----
+______________________________________________________________________
 
-# 58. Cognitive Degradation
+## 58. Cognitive Degradation
 
 When some cognitive capability is unavailable, the organism should degrade explicitly.
 
@@ -1621,9 +1625,9 @@ CAUSAL CLAIMS DISALLOWED
 
 Capability loss must narrow permitted conclusions.
 
----
+______________________________________________________________________
 
-# 59. Fail-Closed Principle
+## 59. Fail-Closed Principle
 
 For integrity-critical cognitive functions:
 
@@ -1646,14 +1650,16 @@ NO CONFLICT CHECK
 !=
 NO CONFLICT
 ```
+
 ```text
 NO CAUSAL EVIDENCE
 !=
 CAUSAL VALIDATION
 ```
----
 
-# 60. Cognitive Lifecycle
+______________________________________________________________________
+
+## 60. Cognitive Lifecycle
 
 Canonical lifecycle:
 
@@ -1691,9 +1697,9 @@ RECOVER
 REVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 61. Organ Registration
+## 61. Organ Registration
 
 Every implemented organ should eventually be discoverable through a typed registry.
 
@@ -1713,9 +1719,9 @@ IMPLEMENTATION REFERENCE
 
 Existence in the registry does not prove operational health.
 
----
+______________________________________________________________________
 
-# 62. Organ Version Identity
+## 62. Organ Version Identity
 
 File identity and semantic version identity are distinct.
 
@@ -1733,9 +1739,9 @@ Canonical filenames should not require version suffixes.
 
 Version evolution belongs in metadata, provenance, hashes, revisions, and supersession records.
 
----
+______________________________________________________________________
 
-# 63. Cognitive Organ Health
+## 63. Cognitive Organ Health
 
 Potential health states:
 
@@ -1751,9 +1757,9 @@ RETIRED
 
 Health should be observable rather than inferred from file presence.
 
----
+______________________________________________________________________
 
-# 64. Observability
+## 64. Observability
 
 Cognitive observability may include:
 
@@ -1772,9 +1778,9 @@ RECOVERY
 
 Observability must respect privacy and IP boundaries.
 
----
+______________________________________________________________________
 
-# 65. Traceability
+## 65. Traceability
 
 Important cognitive outputs should be traceable to:
 
@@ -1793,9 +1799,9 @@ where material.
 
 Traceability does not require exposing private hidden reasoning.
 
----
+______________________________________________________________________
 
-# 66. Security Boundary
+## 66. Security Boundary
 
 Cognitive capability does not grant access.
 
@@ -1819,9 +1825,9 @@ COGNITIVE NEED
 UNRESTRICTED ACCESS
 ```
 
----
+______________________________________________________________________
 
-# 67. Tool Boundary
+## 67. Tool Boundary
 
 Tools create capabilities for observation or effect.
 
@@ -1833,9 +1839,9 @@ A cognitive organ may recommend tool use.
 
 Tool execution still requires the appropriate runtime and authority path.
 
----
+______________________________________________________________________
 
-# 68. External Effect Firewall
+## 68. External Effect Firewall
 
 The Cognitive Organism should not directly create uncontrolled external effects.
 
@@ -1859,9 +1865,9 @@ EXTERNAL EFFECT
 
 Exact implementation routing may differ, but authority must not disappear.
 
----
+______________________________________________________________________
 
-# 69. Cognitive Safety
+## 69. Cognitive Safety
 
 Validation intensity increases with consequence.
 
@@ -1887,9 +1893,9 @@ INSTITUTIONAL IMPACT
 DOWNSTREAM DEPENDENCY
 ```
 
----
+______________________________________________________________________
 
-# 70. Reversibility
+## 70. Reversibility
 
 Under unresolved uncertainty, cognition should prefer recommendations that are:
 
@@ -1902,9 +1908,9 @@ REPAIRABLE
 
 when these preserve the objective.
 
----
+______________________________________________________________________
 
-# 71. Cognitive Finality
+## 71. Cognitive Finality
 
 A cognitive result reaches purpose-relative finality when:
 
@@ -1922,9 +1928,9 @@ REQUIRED CHALLENGE COMPLETED
 DECISION-CHANGING UNCERTAINTY ACCEPTABLE
 ```
 
----
+______________________________________________________________________
 
-# 72. Finality != Immutability
+## 72. Finality != Immutability
 
 A cognitively final result may later become invalid.
 
@@ -1948,9 +1954,9 @@ FINAL
 FOREVER TRUE
 ```
 
----
+______________________________________________________________________
 
-# 73. Cognitive Finality != Canon Finality
+## 73. Cognitive Finality != Canon Finality
 
 ```text
 COGNITIVE FINALITY
@@ -1967,9 +1973,9 @@ CONDITIONAL
 COMPETING
 ```
 
----
+______________________________________________________________________
 
-# 74. Persistent Provenance
+## 74. Persistent Provenance
 
 Where cognitive outputs are persisted, provenance should persist with them.
 
@@ -1990,9 +1996,9 @@ SOURCE LINEAGE
 
 weakens safe reuse.
 
----
+______________________________________________________________________
 
-# 75. MVCC / CAS Alignment
+## 75. MVCC / CAS Alignment
 
 Where AMOS implementation uses MVCC/CAS-style state concepts, cognition should respect versioned state boundaries.
 
@@ -2012,9 +2018,9 @@ COMMIT OR RETRY / REVALIDATE
 
 This section is an architectural alignment model, not proof that every cognitive organ implements literal MVCC/CAS primitives.
 
----
+______________________________________________________________________
 
-# 76. Stale-State Firewall
+## 76. Stale-State Firewall
 
 If cognitive reasoning was derived from:
 
@@ -2036,9 +2042,9 @@ STALE INPUT
 CURRENT VALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 77. Proof-Based Coordination Avoidance
+## 77. Proof-Based Coordination Avoidance
 
 Cognitive organs need not globally coordinate when local independence is established.
 
@@ -2058,9 +2064,9 @@ are demonstrated.
 
 This is a reasoning pattern aligned with AMOS v4.4, not a claim that all cognition is literally distributed.
 
----
+______________________________________________________________________
 
-# 78. Cognitive Shards
+## 78. Cognitive Shards
 
 A cognitive problem may be decomposed into local reasoning shards.
 
@@ -2082,9 +2088,9 @@ OUTPUT CLASS
 
 before composition.
 
----
+______________________________________________________________________
 
-# 79. Shard-Local Finalization
+## 79. Shard-Local Finalization
 
 A shard may finalize locally only if its relevant dependency closure is established.
 
@@ -2096,9 +2102,9 @@ GLOBAL FINALITY
 
 Composite reasoning must still validate cross-shard dependencies.
 
----
+______________________________________________________________________
 
-# 80. Causal Epoch Alignment
+## 80. Causal Epoch Alignment
 
 Where causal epoch concepts are used by AMOS Core v4.4, cognitive reuse should not silently cross an invalidated causal epoch.
 
@@ -2114,9 +2120,9 @@ CAUSAL COMPATIBILITY CHECK
 
 Exact implementation semantics must remain bound to authoritative AMOS Core sources.
 
----
+______________________________________________________________________
 
-# 81. Cognitive Evolution
+## 81. Cognitive Evolution
 
 The Cognitive Organism may evolve through:
 
@@ -2140,9 +2146,9 @@ PROMOTION
 
 No organ should self-promote structural changes without governance.
 
----
+______________________________________________________________________
 
-# 82. Anti-Regression
+## 82. Anti-Regression
 
 An optimization must not weaken:
 
@@ -2165,9 +2171,9 @@ OR
 ROLL BACK
 ```
 
----
+______________________________________________________________________
 
-# 83. Organ Replacement
+## 83. Organ Replacement
 
 Replacement should preserve lineage.
 
@@ -2192,9 +2198,9 @@ ROLLBACK PATH
 
 Deletion without lineage destroys recoverability.
 
----
+______________________________________________________________________
 
-# 84. Cognitive Organism Invariants
+## 84. Cognitive Organism Invariants
 
 ```text
 COGORG-001 COGNITION != AUTHORITY
@@ -2248,9 +2254,9 @@ COGORG-024 SALIENCE != VALIDITY
 COGORG-025 STALE INPUT != CURRENT VALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 85. Minimum Organ Validation Contract
+## 85. Minimum Organ Validation Contract
 
 Every production-grade cognitive organ should eventually answer:
 
@@ -2277,9 +2283,9 @@ Every production-grade cognitive organ should eventually answer:
 | Version       | What semantic implementation/version is active? |
 | Supersession  | What replaces it when evolved?                  |
 
----
+______________________________________________________________________
 
-# 86. Cognitive Organ Test Families
+## 86. Cognitive Organ Test Families
 
 Expected test families include:
 
@@ -2309,9 +2315,9 @@ OBSERVABILITY TESTS
 SECURITY TESTS
 ```
 
----
+______________________________________________________________________
 
-# 87. Organ Composition Tests
+## 87. Organ Composition Tests
 
 Composition tests should verify that valid individual organs do not create invalid aggregate cognition.
 
@@ -2337,9 +2343,9 @@ CIRCULAR REASONING
 AUTHORITY ESCALATION
 ```
 
----
+______________________________________________________________________
 
-# 88. Adversarial Cognitive Organism Tests
+## 88. Adversarial Cognitive Organism Tests
 
 High-value adversarial scenarios include:
 
@@ -2369,9 +2375,9 @@ MODEL UPDATE INVALIDATING OLD PROOF CAPSULE
 COMPETING HYPOTHESES FORCED INTO CONSENSUS
 ```
 
----
+______________________________________________________________________
 
-# 89. Required Cognitive Organism Index
+## 89. Required Cognitive Organism Index
 
 The `05_COGNITIVE_ORGANISM` plane should eventually maintain a map comparable to:
 
@@ -2405,9 +2411,9 @@ This is a **placement model**, not proof these directories are currently canonic
 
 Exact tree promotion requires reconciliation with the authoritative repository tree.
 
----
+______________________________________________________________________
 
-# 90. Cognitive Organism Map Contract
+## 90. Cognitive Organism Map Contract
 
 `COGNITIVE_ORGANISM_MAP.md` should eventually answer:
 
@@ -2423,9 +2429,9 @@ WHAT AUTHORITY DOES EACH ORGAN HAVE?
 WHAT STATE CAN EACH ORGAN ACCESS?
 ```
 
----
+______________________________________________________________________
 
-# 91. Organ Registry Contract
+## 91. Organ Registry Contract
 
 `ORGAN_REGISTRY.md` should eventually maintain typed entries such as:
 
@@ -2445,9 +2451,9 @@ organ:
 
 Registry membership alone is not validation.
 
----
+______________________________________________________________________
 
-# 92. Dependency Map Contract
+## 92. Dependency Map Contract
 
 The dependency map should distinguish:
 
@@ -2466,9 +2472,9 @@ dependency edges where relevant.
 
 This enables selective failure propagation.
 
----
+______________________________________________________________________
 
-# 93. Authority Map Contract
+## 93. Authority Map Contract
 
 The authority map should explicitly identify:
 
@@ -2494,9 +2500,9 @@ NO AUTHORITY
 
 for privileged operations.
 
----
+______________________________________________________________________
 
-# 94. Conclusion Classes
+## 94. Conclusion Classes
 
 Cognitive Organism outputs must use the weakest accurate class:
 
@@ -2511,9 +2517,9 @@ UNKNOWN/GAP
 
 Organ complexity does not justify stronger conclusion classes.
 
----
+______________________________________________________________________
 
-# 95. Implementation Firewall
+## 95. Implementation Firewall
 
 This canon defines the intended AMOS Cognitive Organism architecture.
 
@@ -2552,9 +2558,9 @@ UNKNOWN/GAP
 
 as appropriate.
 
----
+______________________________________________________________________
 
-# 96. Promotion Gate
+## 96. Promotion Gate
 
 Promotion:
 
@@ -2599,9 +2605,9 @@ Any unresolved implementation question remains explicitly:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 97. RSCF Node
+## 97. RSCF Node
 
 ```yaml
 node_id: AMOS_COGNITIVE_ORGANISM_CANON
@@ -2665,9 +2671,9 @@ does_not_establish:
   - implementation of every conceptual organ
 ```
 
----
+______________________________________________________________________
 
-# 98. Changelog
+## 98. Changelog
 
 ## v2.0.0 — 2026-08-25
 
@@ -2731,9 +2737,9 @@ Added:
 
 Initial placeholder reserved the canonical AMOS OS location.
 
----
+______________________________________________________________________
 
-# 99. Canonical Summary
+## 99. Canonical Summary
 
 ```text
 AMOS COGNITIVE ORGANISM
@@ -2851,29 +2857,33 @@ TO SILENTLY BECOME
 EXECUTION AUTHORITY.
 ```
 
----
+______________________________________________________________________
 
 **Related:** README|AMOS OS · [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|MOC · [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]|Architecture · [[00_ROOT/SYSTEM_MAP|SYSTEM_MAP]]|System Map · [[00_ROOT/NEURAL_NETWORK|NEURAL_NETWORK]]|AMOS Neural Network · AMOS Canon · [[01_CANON/00_INDEX/CANON_MAP|CANON_MAP]]|Canon Map · [[01_CANON/01_CORE_LAWS/AMOS_CORE_LAWS|AMOS Core Laws]] · [[01_CANON/01_CORE_LAWS/INVARIANT_REGISTRY|INVARIANT_REGISTRY]]|Invariant Registry · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]|Law Hierarchy · [[01_CANON/03_COGNITION_CANON/COGNITION_CANON|COGNITION_CANON]]|Cognition Canon · [[01_CANON/02_UNIVERSE_CANON/HML_CANON|HML_CANON]]|H/M/L Canon · [[01_CANON/02_UNIVERSE_CANON/PERSISTENCE_CANON|PERSISTENCE_CANON]]|Persistence Canon · [[02_KERNEL/00_INDEX/KERNEL_MAP|KERNEL_MAP]]|Kernel Map · [[03_CONTROL_PLANE/00_INDEX/CONTROL_PLANE_MAP|CONTROL_PLANE_MAP]]|Control Plane Map · [[04_RUNTIME/00_INDEX/RUNTIME_MAP|RUNTIME_MAP]]|Runtime Map · [[05_COGNITIVE_ORGANISM/00_INDEX/COGNITIVE_ORGANISM_MAP|COGNITIVE_ORGANISM_MAP]]|Cognitive Organism Map · Organ Registry · [[00_ROOT/DEPENDENCY_MAP|DEPENDENCY_MAP]]|Cognitive Dependency Map · Cognitive Authority Map · [[06_AGENTS/00_INDEX/AGENT_MAP|AGENT_MAP]]|Agent Map · [[07_SKILLS/00_INDEX/SKILL_MAP|SKILL_MAP]]|Skill Map · [[08_WORKFLOWS/00_INDEX/WORKFLOW_MAP|WORKFLOW_MAP]]|Workflow Map · [[09_PROTOCOLS/00_INDEX/PROTOCOL_MAP|PROTOCOL_MAP]]|Protocol Map · [[10_MEMORY/00_INDEX/MEMORY_MEMORY_MAP|MEMORY_MEMORY_MAP]]|Memory Map · Knowledge Map · [[11_KNOWLEDGE/AMOS_FULL_BRAIN_OS_ARCHITECTURE|AMOS Full Brain OS Architecture]] · [[12_STATE/00_INDEX/STATE_STATE_MAP|STATE_STATE_MAP]]|State Map · [[13_MODELS/00_INDEX/MODEL_MAP|MODEL_MAP]]|Model Map · [[14_TOOLS/00_INDEX/TOOL_MAP|TOOL_MAP]]|Tool Map · [[16_SCHEMAS/00_INDEX/SCHEMA_MAP|SCHEMA_MAP]]|Schema Map · [[17_OBSERVABILITY/00_INDEX/OBSERVABILITY_OBSERVABILITY_MAP|OBSERVABILITY_OBSERVABILITY_MAP]]|Observability Map · [[18_SECURITY/00_INDEX/SECURITY_MAP|SECURITY_MAP]]|Security Map · [[19_TESTS/00_INDEX/TEST_MAP|TEST_MAP]]|Test Map · [[20_OPERATIONS/00_INDEX/OPERATIONS_MAP|OPERATIONS_MAP]]|Operations Map · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_ARCHITECTURE|COGNITIVE_MATRIX_ARCHITECTURE]]|Cognitive Matrix
 
 ```
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: cognitive_organism_canon
 node_type: note
 path: 01_CANON/03_COGNITION_CANON/COGNITIVE_ORGANISM_CANON.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[01_CANON/03_COGNITION_CANON/03_COGNITION_CANON_MOC|03_COGNITION_CANON_MOC]]

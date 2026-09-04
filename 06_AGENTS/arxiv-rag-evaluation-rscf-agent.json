@@ -89,7 +89,7 @@
     "arxiv-rag-evaluation-rscf"
   ],
   "depends_on_workflows": [
-    "arxiv-rag-evaluation-rscf-workflow.md"
+    "amos-arxiv-rag-evaluation-rscf-workflow.md"
   ],
   "epistemic_class": "AMOS_MODEL",
   "claim_ceiling": 0.95,

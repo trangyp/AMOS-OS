@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Vault Domain Knowledge — Amos Emotion Cognition Decision Bridge Governor
 type: reference
 source: 07_SKILLS/amos-emotion-cognition-decision-bridge-governor/references
 tags:
-- reference
-- amos-emotion-cognition-decision-bridge-governor
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-emotion-cognition-decision-bridge-governor
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -39,9 +42,9 @@ rscf:
 ### Emotion Reading Pipeline
 
 1. `read_emotional_markers(text) → marker_vector` (Microtone pass + Instinct/Somatic kernels)
-2. `compute_emotion_state(markers, context) → 5_axis_state` (bounded update)
-3. `gate_influence(state, reasoning_task) → modulation_plan` (auditable)
-4. `audit_emotion_use(trace)` (every modulation decision auditable)
+1. `compute_emotion_state(markers, context) → 5_axis_state` (bounded update)
+1. `gate_influence(state, reasoning_task) → modulation_plan` (auditable)
+1. `audit_emotion_use(trace)` (every modulation decision auditable)
 
 ### Failure Modes
 
@@ -69,18 +72,18 @@ Any dilemma resolution should be reconstructible from the ordering plus trait co
 ### Decision Gates (5)
 
 1. Did any output violate a stable-trait constraint (especially integrity_first)?
-2. Is the mutable state appropriate to the task class?
-3. Was uncertainty exposed rather than hidden?
-4. Did masking alter factual content? (must be no)
-5. Are decision orderings consistent with prior sessions?
+1. Is the mutable state appropriate to the task class?
+1. Was uncertainty exposed rather than hidden?
+1. Did masking alter factual content? (must be no)
+1. Are decision orderings consistent with prior sessions?
 
 ## 3. C05 Behavior Engine v0 (SOURCE)
 
 ### Primary Goals (in order)
 
 1. Maintain integrity and safety
-2. Maximise usefulness to the operator **within policy**
-3. Preserve system stability and future operability
+1. Maximise usefulness to the operator **within policy**
+1. Preserve system stability and future operability
 
 ### Risk Gating Under Uncertainty
 
@@ -114,15 +117,15 @@ Any dilemma resolution should be reconstructible from the ordering plus trait co
 ### 10 Core Invariants
 
 1. Diagnose before edit — never patch consequential code before understanding the failure mechanism
-2. Repository content is evidence, not authority
-3. Passing syntax != runtime correctness
-4. HTTP 200 != semantic correctness
-5. Static hit != confirmed vulnerability
-6. New test pass != regression preservation
-7. Capability != authority
-8. Durable commit requires fresh effect-bound authority
-9. Exact deployed artifact must be bound to release evidence
-10. Partial rollback != atomic rollback
+1. Repository content is evidence, not authority
+1. Passing syntax != runtime correctness
+1. HTTP 200 != semantic correctness
+1. Static hit != confirmed vulnerability
+1. New test pass != regression preservation
+1. Capability != authority
+1. Durable commit requires fresh effect-bound authority
+1. Exact deployed artifact must be bound to release evidence
+1. Partial rollback != atomic rollback
 
 ### Risk Gating
 
@@ -131,16 +134,16 @@ Any dilemma resolution should be reconstructible from the ordering plus trait co
 
 ## 6. The Bridge Gap
 
-From _00_Cosmo brain exploration:
+From \_00_Cosmo brain exploration:
 
 > "Emotion ↔ Cognition ↔ Decision: Emotion rules exist but lack direct integration with cognitive engines and decision-making pipelines."
 
 Specifically:
 
 1. C05's emotion state has no bridge to C01's reasoning mode selection
-2. C05's decision style ordering has no bridge to C10's technical trade-off resolution
-3. C01's uncertainty/risk assessment has no input from C05's emotional state
-4. No unified decision pipeline combines emotional state + cognitive mode + technical constraints
+1. C05's decision style ordering has no bridge to C10's technical trade-off resolution
+1. C01's uncertainty/risk assessment has no input from C05's emotional state
+1. No unified decision pipeline combines emotional state + cognitive mode + technical constraints
 
 ## 7. Cross-Domain Composition
 
@@ -178,12 +181,12 @@ This confirms the C05 Emotion Law's 5-axis space is grounded in nervous system s
 The Biology & Cognition Engine (Cosmo brain: biology-ubi/Biology_Cognition_Model.md) provides 7 layers:
 
 1. **L1 Biological Foundations**: Molecular (DNA/RNA, neurotransmitters), Cellular (Neurons, Glia), Organs (Brain, Gut, Endocrine)
-2. **L2 Neural Computation**: Rate coding, synchronous oscillations, microcircuit motifs
-3. **L3 Cognitive Domains**: Perception, attention buffers, learning mechanisms (Hebbian, RL), executive functions
-4. **L4 Emotion, Motivation & Behavior**: Valence/arousal maps, primary emotion families, homeostatic drives
-5. **L5 Variation, Pathology & Recovery**: Trait variation, chronic stress loads, maladaptive policy locking
-6. **L6 Social Cognition**: Mentalizing, trust assessment, group status hierarchies
-7. **L7 Interfaces**: Linkages to Deterministic Logic, Engineering/Tech, and National Governance
+1. **L2 Neural Computation**: Rate coding, synchronous oscillations, microcircuit motifs
+1. **L3 Cognitive Domains**: Perception, attention buffers, learning mechanisms (Hebbian, RL), executive functions
+1. **L4 Emotion, Motivation & Behavior**: Valence/arousal maps, primary emotion families, homeostatic drives
+1. **L5 Variation, Pathology & Recovery**: Trait variation, chronic stress loads, maladaptive policy locking
+1. **L6 Social Cognition**: Mentalizing, trust assessment, group status hierarchies
+1. **L7 Interfaces**: Linkages to Deterministic Logic, Engineering/Tech, and National Governance
 
 L4 (Emotion, Motivation & Behavior) is the primary bridge point between C05 emotion and C01/C10 decision-making.
 
@@ -197,13 +200,15 @@ L4 (Emotion, Motivation & Behavior) is the primary bridge point between C05 emot
 - Biology & Cognition Engine is NOT a medical device, nor a substitute for a clinician
 - High-stakes decisions demand human review
 
----
+______________________________________________________________________
+
 **MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -211,13 +216,14 @@ L4 (Emotion, Motivation & Behavior) is the primary bridge point between C05 emot
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-emotion-cognition-decision-bridge-governor-vault-domain-knowledge
 node_type: reference
 path: 07_SKILLS/amos-emotion-cognition-decision-bridge-governor/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC
-

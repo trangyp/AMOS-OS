@@ -12,18 +12,18 @@ segment: 21_DOMAINS/02_RESEARCH
 artifact_kind: DOMAIN_METHODOLOGY
 path: 21_DOMAINS/02_RESEARCH/HERITAGE_RESEARCH_METHOD.md
 tags:
-- amos-os
-- domain
-- vault
-- 02_research
-- heritage_research_method
-- historical_epistemology
-- civilizational_archiving
-- rscf
-- canon_candidate
-- canon/domain
-- heritage-provenance
-- heritage-civilization-history
+  - amos-os
+  - domain
+  - vault
+  - 02_research
+  - heritage_research_method
+  - historical_epistemology
+  - civilizational_archiving
+  - rscf
+  - canon_candidate
+  - canon/domain
+  - heritage-provenance
+  - heritage-civilization-history
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -38,20 +38,20 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: SYSTEM_INVARIANT
   provenance:
-  - 11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_PROVENANCE
-  - 21_DOMAINS/02_RESEARCH/02_RESEARCH_MOC
-  - AMOS_CORPUS
+    - 11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_PROVENANCE
+    - 21_DOMAINS/02_RESEARCH/02_RESEARCH_MOC
+    - AMOS_CORPUS
   scope:
-  - DOMAIN_RESEARCH
-  - HERITAGE_METHODOLOGY
-  - SOURCE_DEFINED_MODEL
+    - DOMAIN_RESEARCH
+    - HERITAGE_METHODOLOGY
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   provenance_framework:
     artifact:
-    - - HERITAGE_PROVENANCE
+      -   - HERITAGE_PROVENANCE
   research_moc:
     artifact:
-    - - 02_RESEARCH_MOC
+      -   - 02_RESEARCH_MOC
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   domain_structure: VERIFIED_SOURCE_STRUCTURE
@@ -63,25 +63,25 @@ epistemic_boundary:
 
 `HERITAGE_RESEARCH_METHOD.md` is the canonical Domain Plane specification governing the historical epistemological auditing, multi-century source provenance tracing, and oral/written tradition reconciliation within `21_DOMAINS/02_RESEARCH`.
 
----
+______________________________________________________________________
 
-# 1. Historical Epistemological Auditing Protocol
+## 1. Historical Epistemological Auditing Protocol
 
 1. **Source Independence Audit:** Enforces $\text{Source Count} \neq \text{Independent Provenance}$ across historical archives.
-2. **Material Artifact Grounding:** Cross-verifies textual and symbolic claims against archaeological, hydrological, and acoustic evidence.
-3. **Transmission Invariant Filter:** Separates transient cultural noise from multi-generational survival invariants.
+1. **Material Artifact Grounding:** Cross-verifies textual and symbolic claims against archaeological, hydrological, and acoustic evidence.
+1. **Transmission Invariant Filter:** Separates transient cultural noise from multi-generational survival invariants.
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Provenance Framework:** [[01_CANON/07_PROVENANCE/HERITAGE_PROVENANCE|HERITAGE_PROVENANCE]]
 - **Civilization History:** [[11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/HERITAGE_CIVILIZATION_HISTORY|HERITAGE_CIVILIZATION_HISTORY]]
 - **Research MOC:** [[21_DOMAINS/02_RESEARCH/02_RESEARCH_MOC|02_RESEARCH_MOC]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -99,10 +99,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[21_DOMAINS/21_DOMAINS_MOC|21_DOMAINS_MOC]] · [[01_CANON/07_PROVENANCE/HERITAGE_PROVENANCE|HERITAGE_PROVENANCE]] · [[11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/HERITAGE_CIVILIZATION_HISTORY|HERITAGE_CIVILIZATION_HISTORY]]
 
----
-**MOC:** [[21_DOMAINS/02_RESEARCH/02_RESEARCH_MOC|02_RESEARCH_MOC]]
+______________________________________________________________________
 
+**MOC:** [[21_DOMAINS/02_RESEARCH/02_RESEARCH_MOC|02_RESEARCH_MOC]]

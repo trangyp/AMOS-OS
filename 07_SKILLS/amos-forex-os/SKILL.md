@@ -4,24 +4,22 @@ title: SKILL — Amos Forex Os
 type: skill
 source: 07_SKILLS/amos-forex-os
 name: amos-forex-os
-description: Forex Os — forex and finance capability. Use when forex analysis, currency
-  trading, or market dynamics. Use when amos-c07-econ-finance-master routes to this
-  specialized capability. Do not use for generic tasks outside fx domain.
+description: Forex Os — forex and finance capability. Use when forex analysis, currency trading, or market dynamics. Use when amos-c07-econ-finance-master routes to this specialized capability. Do not use for generic tasks outside fx domain.
 parent_skill: amos-c07-econ-finance-master
 domain: fx
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
 tags:
-- type/skill
-- type/skill
-- domain/econ-finance
-- epistemic/source_claim
-- hml/m
-- epistemic/source_claim
-- amos-os
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/econ-finance
+  - epistemic/source_claim
+  - hml/m
+  - epistemic/source_claim
+  - amos-os
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: EMPIRICAL
@@ -31,22 +29,22 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: M
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
-- L6_uncertainty
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
+  - L6_uncertainty
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L6
-- L16
-- L17
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L6
+  - L16
+  - L17
 license: MIT
 steward: Trang Phan
 ---
@@ -56,6 +54,7 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: fx. Parent: amos-c07-econ-finance-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
 ## When to Use
 
 - When calibrating FX models: Bayesian neural SDEs, volatility surfaces
@@ -82,12 +81,12 @@ Origin architect: **Trang Phan**. Domain: fx. Parent: amos-c07-econ-finance-mast
 ## Operations
 
 1. **forex.calibrate_model**: Calibrate FX models: Bayesian neural SDEs, volatility surfaces, and term structures
-2. **forex.assess_risk**: Assess FX risk: currency exposure, correlation breakdown, and tail events
-3. **forex.backtest_strategy**: Backtest FX strategies: walk-forward, regime-aware, and stress-tested
-4. **forex.monitor_regime**: Monitor FX regime shifts: volatility, correlation, and liquidity transitions
-5. **forex.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-6. **forex.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
-7. **forex.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+1. **forex.assess_risk**: Assess FX risk: currency exposure, correlation breakdown, and tail events
+1. **forex.backtest_strategy**: Backtest FX strategies: walk-forward, regime-aware, and stress-tested
+1. **forex.monitor_regime**: Monitor FX regime shifts: volatility, correlation, and liquidity transitions
+1. **forex.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+1. **forex.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+1. **forex.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## 11_KNOWLEDGE Vault Content
 
@@ -99,6 +98,7 @@ Origin architect: **Trang Phan**. Domain: fx. Parent: amos-c07-econ-finance-mast
 From Cosmo Brain Infrastructure Deep Report: Forex belongs beneath a larger infrastructure that already owns global structure, integrity limits, capability limits, cross-domain routing, and interface/expression behavior. From Heritage Patterns: Full Forex System Stress test.
 
 **Architectural positioning**: Forex OS is NOT the AMOS root. Forex belongs beneath a larger infrastructure that owns:
+
 - Global structure
 - Integrity limits
 - Capability limits
@@ -106,6 +106,7 @@ From Cosmo Brain Infrastructure Deep Report: Forex belongs beneath a larger infr
 - Interface/expression behavior
 
 **Full Forex System Stress test** (TEST 10, 10,000 simulations):
+
 - Trade 28 pairs simultaneously
 - All 7 regimes active
 - All 14 central banks active
@@ -118,9 +119,10 @@ From Cosmo Brain Infrastructure Deep Report: Forex belongs beneath a larger infr
 - 50% novelty events
 
 **Forex OS laws**:
+
 - `FOREX_OS != AMOS_ROOT`: Forex OS is a subsystem; it is not the root OS
-- `FOREX != MARKET**: Forex is the foreign exchange system; it is not the entire market
-- `STRESS_TEST != PRODUCTION**: stress test validates under extreme conditions; production has different requirements
+- \`FOREX != MARKET\*\*: Forex is the foreign exchange system; it is not the entire market
+- \`STRESS_TEST != PRODUCTION\*\*: stress test validates under extreme conditions; production has different requirements
 
 ### Epistemic Boundary
 
@@ -143,7 +145,8 @@ Forex OS is a domain-specific subsystem. It does not prove Forex is the most imp
 - **G5 (Equation firewall)**: Equations carry status tags (ESTABLISHED_MATH / SOURCE_DERIVED / AMOS_MODEL / EMPIRICALLY_CALIBRATED / UNVERIFIED).
 - **G6 (Failure mode)**: On validation f
 
----
+______________________________________________________________________
+
 **Links:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 ## Related
@@ -153,17 +156,19 @@ Forex OS is a domain-specific subsystem. It does not prove Forex is the most imp
 ## Examples
 
 - **Scenario**: When calibrating FX models: Bayesian neural SDEs, volatility surfaces
+
   - **Input**: A query matching this skill's domain (fx)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When assessing FX risk: currency exposure, correlation, tail events
+
   - **Input**: A query matching this skill's domain (fx)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When backtesting FX strategies: walk-forward, regime-aware, stress-tested
+
   - **Input**: A query matching this skill's domain (fx)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Anti-Patterns
 
@@ -173,7 +178,6 @@ Forex OS is a domain-specific subsystem. It does not prove Forex is the most imp
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `amos-c07-econ-finance-master` — routes to this skill when fx specialization is needed
@@ -181,7 +185,6 @@ Forex OS is a domain-specific subsystem. It does not prove Forex is the most imp
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -200,7 +203,6 @@ Forex OS is a domain-specific subsystem. It does not prove Forex is the most imp
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -208,7 +210,6 @@ Forex OS is a domain-specific subsystem. It does not prove Forex is the most imp
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -221,11 +222,12 @@ Forex OS is a domain-specific subsystem. It does not prove Forex is the most imp
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `amos-c07-econ-finance-master` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `amos-forex-os-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -233,12 +235,14 @@ Forex OS is a domain-specific subsystem. It does not prove Forex is the most imp
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-forex-os
 node_type: skill
 path: 07_SKILLS/amos-forex-os/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

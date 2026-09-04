@@ -1,4 +1,7 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 date: 2026-08-30
 epistemic_class: OBSERVATION
 provenance: GitHub README, not independently verified
@@ -10,17 +13,17 @@ rscf:
 source: https://raw.githubusercontent.com/HoangNguyen0403/agent-skills-standard/main/README.md
 title: Agent Skills Standard README — Raw Capture
 ---
+
 # Agent Skills Standard README — Raw Capture
 
 Source: `https://github.com/HoangNguyen0403/agent-skills-standard`
 
-# Agent Skills Standard
+## Agent Skills Standard
 
-[![NPM Version](https://img.shields.io/npm/v/agent-skills-standard.svg?style=flat-square)](https://www.npmjs.com/package/agent-skills-standard)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](LICENSE)
-[![GitHub Stars](https://img.shields.io/github/stars/HoangNguyen0403/agent-skills-standard?style=flat-square)](https://github.com/HoangNguyen0403/agent-skills-standard/stargazers)
-[![SkillSpector Verified](https://img.shields.io/badge/SkillSpector-Verified-76b900?style=flat-square&logo=nvidia&logoColor=white)](https://github.com/HoangNguyen0403/agent-skills-standard/security/code-scanning)
-
+[![NPM VERSION]
+[![LICENSE: MIT]
+[![GITHUB STARS]
+[![SKILLSPECTOR VERIFIED]
 **The portable SDLC standards layer for AI coding agents. Sync once, then work in your own runtime.**
 
 **Current release:** `cli-v2.6.2` — OWASP Agentic Skills Top 10 hardening: skill-content lockfile (`ags verify`), opt-in enforcing hooks, blocking secret/dependency scanning, and a per-category governance/revocation model. See [CHANGELOG.md](CHANGELOG.md).
@@ -30,14 +33,14 @@ Source: `https://github.com/HoangNguyen0403/agent-skills-standard`
 ```bash
 npx agent-skills-standard@latest init
 npx agent-skills-standard@latest sync
-# Done. Your AI now has portable team standards and SDLC workflows.
+## Done. Your AI now has portable team standards and SDLC workflows.
 ```
 
 If `ags -V` still shows an old version after reinstalling, check your PATH order. `~/Library/pnpm` must come before `~/Library/pnpm/bin`, then run `hash -r` and verify with `ags -V` again.
 
 **Not an engineer?** You don't need to run any of the above — just describe your idea to your AI agent. See [Getting Started: Product Owner](docs/getting-started-product-owner.md).
 
----
+______________________________________________________________________
 
 ## The Problem
 
@@ -93,7 +96,7 @@ What your AI gets:
 
 The AI loads **only the skills that match** the file being edited and the task at hand. No wasted tokens. No forgotten rules.
 
----
+______________________________________________________________________
 
 ## Architecture & Token Economy
 
@@ -206,7 +209,7 @@ Now any sub-agent in any runtime can call `load_skills_for_files`, `audit_sessio
 
 Use both when you want enforcement receipts: the CLI installs the rules, the MCP makes sure agents load them.
 
----
+______________________________________________________________________
 
 ## SDLC Workflow Spine
 
@@ -292,7 +295,7 @@ Every skill is audited for token efficiency (averaging ~500 tokens) and tested w
 
 > Full skill list with token metrics: [Skills Directory](./skills/README.md) | [Benchmark Report](./benchmark-report.md) | [Public Proof](./docs/public-proof.md)
 
----
+______________________________________________________________________
 
 ## Configuration
 
@@ -301,7 +304,7 @@ The `.skillsrc` file controls what gets synced:
 ```yaml
 registry: https://github.com/HoangNguyen0403/agent-skills-standard
 agents: [cursor, copilot, claude, gemini]
-# Standard registry skills
+## Standard registry skills
 skills:
   flutter:
     ref: flutter-v1.6.3
@@ -314,7 +317,7 @@ skills:
   common:
     ref: common-v2.0.3
 
-# Local custom standalone skills
+## Local custom standalone skills
 custom_skills:
   - path: "./.skills/my-custom-rule.md"
     triggers: ["*.ts", "keyword"]
@@ -341,7 +344,7 @@ workflows:
 
 Workflows sync to the native surface for each selected agent. Keep `.agents/workflows` as the canonical source in this registry; Codex receives generated workflow skills under `.codex/skills/<workflow>/SKILL.md`.
 
----
+______________________________________________________________________
 
 ## How AI Agents Find Skills
 
@@ -369,7 +372,7 @@ Your AI writes code that follows your standards.
 
 This means editing a `.ts` file loads **6 relevant skills** instead of 27 — no confusion, no token waste.
 
----
+______________________________________________________________________
 
 ## Walkthrough — NestJS backend feature
 
@@ -434,7 +437,7 @@ composite via nestjs/nestjs-transport        common/common-system-design
 ```
 
 ```text
-# Session compliance
+## Session compliance
 Skills loaded: 11
 - common/common-api-design
 - common/common-best-practices
@@ -473,7 +476,7 @@ Agent Skills Standard supports **Specialist Sub-Agents**. These are focused pers
 - **Context Hygiene**: By delegating to a sub-agent, the "noise" of granular implementation stays out of your main chat context.
 - **Unified Sync**: Specialists sync to native agent folders such as `.claude/agents`, `.codex/agents`, `.cursor/agents`, `.gemini/agents`, and `.github/copilot-agents`.
 
----
+______________________________________________________________________
 
 ## Security & Trust
 
@@ -516,7 +519,7 @@ See [docs/SECURITY.md](./docs/SECURITY.md) for the full security policy, thresho
 - **Supply chain** — pinned secret scanning (gitleaks), blocking dependency review, Dependabot, and `npm publish --provenance` on every published package
 - **Governance** — [CODEOWNERS](./.github/CODEOWNERS) on security-sensitive paths, per-category owners, and a `revocations` list checked on every sync (`ags audit` prints the current inventory)
 
----
+______________________________________________________________________
 
 ## FAQ
 
@@ -550,17 +553,17 @@ Create a <code>SKILL.md</code> file in your agent's skills directory (e.g., <cod
 Each skill averages ~500 tokens (vs ~3,600 for a typical architect prompt). The hierarchical index adds only ~25 lines of scanning overhead per edit. Teams report <b>86% reduction</b> in prompt-related token usage.
 </details>
 
----
+______________________________________________________________________
 
 ## Contributing
 
 1. **Propose**: Open an [issue](https://github.com/HoangNguyen0403/agent-skills-standard/issues) with your skill idea.
-2. **Build**: Fork the repo, add your skill to `skills/<category>/`, include `evals.json`.
-3. **PR**: CI validates format, token count, and injection safety before merge.
+1. **Build**: Fork the repo, add your skill to `skills/<category>/`, include `evals.json`.
+1. **PR**: CI validates format, token count, and injection safety before merge.
 
 See [ARCHITECTURE.md](./ARCHITECTURE.md) for design details and [CLI Architecture](./cli/ARCHITECTURE.md) for service internals.
 
----
+______________________________________________________________________
 
 ## 🧪 Live Evals — Measured, Not Just Structural
 
@@ -574,7 +577,7 @@ pnpm evals:verify -- --all   # re-score every committed run, no API key, no LLM 
 
 See [docs/EVALS.md](./docs/EVALS.md) for the full protocol, the trust model, and how to run your own category.
 
----
+______________________________________________________________________
 
 ## License & Credits
 
@@ -595,4 +598,3 @@ See [docs/EVALS.md](./docs/EVALS.md) for the full protocol, the trust model, and
 | v2.2.0  | 2026-04-22 | 242    | 538        | 85%         | [Report](benchmarks/archive/v2.2.0.md) |
 | v2.1.2  | 2026-04-11 | 237    | 516        | 86%         | [Report](benchmarks/archive/v2.1.2.md) |
 | v2.1.1  | 2026-04-11 | 237    | 516        | 86%         | [Report](benchmarks/archive/v2.1.1.md) |
-

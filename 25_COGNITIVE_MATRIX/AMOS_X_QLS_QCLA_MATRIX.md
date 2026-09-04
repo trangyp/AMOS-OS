@@ -12,29 +12,29 @@ segment: 25_COGNITIVE_MATRIX
 artifact_kind: MATRIX
 path: 25_COGNITIVE_MATRIX/AMOS_X_QLS_QCLA_MATRIX.md
 tags:
-- amos-os
-- cognitive-matrix
-- matrix
-- qls
-- qcla
-- quantum_logic_scaffold
-- quantum_logic_system
-- quantum_causality_layer_architecture
-- logic
-- causality
-- multi_state_reasoning
-- causal_propagation
-- collapse
-- constraints
-- causal_firewall
-- deterministic_logic
-- rscf
-- canon_candidate
-- domain/cognitive-matrix
-- amos-x-qls
-- amos-x-qcla
-- law-hierarchy
-- ubi
+  - amos-os
+  - cognitive-matrix
+  - matrix
+  - qls
+  - qcla
+  - quantum_logic_scaffold
+  - quantum_logic_system
+  - quantum_causality_layer_architecture
+  - logic
+  - causality
+  - multi_state_reasoning
+  - causal_propagation
+  - collapse
+  - constraints
+  - causal_firewall
+  - deterministic_logic
+  - rscf
+  - canon_candidate
+  - domain/cognitive-matrix
+  - amos-x-qls
+  - amos-x-qcla
+  - law-hierarchy
+  - ubi
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -49,8 +49,8 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - AMOS_QLS_CORPUS
-  - AMOS_QCLA_CAUSALITY_CORPUS
+    - AMOS_QLS_CORPUS
+    - AMOS_QCLA_CAUSALITY_CORPUS
   scope: QLS_QCLA_INTEGRATION_MODEL
 framework_binding:
   QLS:
@@ -147,9 +147,9 @@ Origin architect / steward:
 
 **Trang Phan**
 
----
+______________________________________________________________________
 
-# 1. Purpose
+## 1. Purpose
 
 This matrix defines the source-grounded relationship between the AMOS logic layer and causal layer.
 
@@ -183,9 +183,9 @@ VALIDATED MODEL CANDIDATE
 
 The matrix does not establish that either framework's domain-general claims are empirically universal.
 
----
+______________________________________________________________________
 
-# 2. Canonical Identity
+## 2. Canonical Identity
 
 ## 2.1 QLS
 
@@ -213,7 +213,7 @@ QLS_SYSTEM
 
 while recognizing their stated parent/subsystem relation.
 
----
+______________________________________________________________________
 
 ## 2.2 QCLA
 
@@ -233,17 +233,16 @@ Quantum–Chemical Logic Architecture
 
 The latter belongs to a separate QCLA acronym branch.
 
----
+______________________________________________________________________
 
-# 3. QLS × QCLA Core Law
+## 3. QLS × QCLA Core Law
 
 The source-defined integration can be normalized as:
 
-\[
-VALID(x)
-=
+## \[ VALID(x)
+
 L(x)
-\land
+\\land
 C(x)
 \]
 
@@ -268,26 +267,26 @@ its causal story appears plausible.
 Both gates must pass.
 ```
 
----
+______________________________________________________________________
 
-# 4. Fundamental Matrix
+## 4. Fundamental Matrix
 
-| Dimension | QLS | QCLA | Combined Requirement |
-|---|---|---|---|
-| Primary concern | Logic | Causality | Valid reasoning |
-| Object | State / interpretation | Cause-effect pathway | Causal interpretation |
-| Core failure | Contradiction | Invalid causal inference | Invalid conclusion |
-| Uncertainty | Multi-state | Multi-path | Competing hypotheses |
-| Transition | Logical transition | Causal propagation | Causally licensed transition |
-| Collapse | State selection | Pathway selection | Evidence-supported conclusion |
-| Constraint | Structural validity | Causal validity | Dual validation |
-| Time | State evolution | Delay/propagation | Temporal reasoning |
-| Scale | Multi-scale state | Multi-scale causality | Scoped inference |
-| Output | Admissible state | Admissible path | Candidate conclusion |
+| Dimension       | QLS                    | QCLA                     | Combined Requirement          |
+| --------------- | ---------------------- | ------------------------ | ----------------------------- |
+| Primary concern | Logic                  | Causality                | Valid reasoning               |
+| Object          | State / interpretation | Cause-effect pathway     | Causal interpretation         |
+| Core failure    | Contradiction          | Invalid causal inference | Invalid conclusion            |
+| Uncertainty     | Multi-state            | Multi-path               | Competing hypotheses          |
+| Transition      | Logical transition     | Causal propagation       | Causally licensed transition  |
+| Collapse        | State selection        | Pathway selection        | Evidence-supported conclusion |
+| Constraint      | Structural validity    | Causal validity          | Dual validation               |
+| Time            | State evolution        | Delay/propagation        | Temporal reasoning            |
+| Scale           | Multi-scale state      | Multi-scale causality    | Scoped inference              |
+| Output          | Admissible state       | Admissible path          | Candidate conclusion          |
 
----
+______________________________________________________________________
 
-# 5. QLS Role
+## 5. QLS Role
 
 The native QLS framework supplies four principal logic functions:
 
@@ -315,9 +314,9 @@ QLS:
   structural_constraint_gate:
 ```
 
----
+______________________________________________________________________
 
-# 6. QCLA Role
+## 6. QCLA Role
 
 The native QCLA framework supplies four causal modes:
 
@@ -345,9 +344,9 @@ QCLA:
   cascading:
 ```
 
----
+______________________________________________________________________
 
-# 7. Core Complementarity
+## 7. Core Complementarity
 
 ```text
 QLS
@@ -382,16 +381,15 @@ QLS + QCLA
 creates a dual-gated reasoning model.
 ```
 
----
+______________________________________________________________________
 
-# 8. Shared State Space
+## 8. Shared State Space
 
 Both source families use the state structure:
 
-\[
-x(t)
-=
-(C(t),\Omega(t),H(t),F(t),S(t))
+## \[ x(t)
+
+(C(t),\\Omega(t),H(t),F(t),S(t))
 \]
 
 where:
@@ -411,47 +409,46 @@ S = shock
 with source-defined normalized variables:
 
 \[
-\Omega,H,F,S\in[0,1]
+\\Omega,H,F,S\\in[0,1]
 \]
 
 This shared tuple is the primary source-defined mathematical bridge between QLS and QCLA.
 
----
+______________________________________________________________________
 
-# 9. State-Space Matrix
+## 9. State-Space Matrix
 
-| State Component | QLS Interpretation | QCLA Interpretation |
-|---|---|---|
-| `C` | admissible cycle state | causal transition position |
-| `Ω` | logical/system overload constraint | causal driver |
-| `H` | consistency/cohesion condition | causal buffer |
-| `F` | contradiction/fragmentation condition | causal amplifier |
-| `S` | disruption constraint | causal trigger/amplifier |
+| State Component | QLS Interpretation                    | QCLA Interpretation        |
+| --------------- | ------------------------------------- | -------------------------- |
+| `C`             | admissible cycle state                | causal transition position |
+| `Ω`             | logical/system overload constraint    | causal driver              |
+| `H`             | consistency/cohesion condition        | causal buffer              |
+| `F`             | contradiction/fragmentation condition | causal amplifier           |
+| `S`             | disruption constraint                 | causal trigger/amplifier   |
 
 These interpretations remain corpus models.
 
----
+______________________________________________________________________
 
-# 10. QLS Multi-State Model
+## 10. QLS Multi-State Model
 
 The QLS source defines:
 
-\[
-\Sigma
-=
-\{p_1x_1,p_2x_2,\ldots,p_nx_n\}
+## \[ \\Sigma
+
+{p_1x_1,p_2x_2,\\ldots,p_nx_n}
 \]
 
 with:
 
 \[
-\sum_i p_i=1
+\\sum_i p_i=1
 \]
 
 and:
 
 \[
-p_i\ge0
+p_i\\ge0
 \]
 
 AMOS interpretation:
@@ -464,9 +461,9 @@ current competing state hypotheses
 
 not physical quantum superposition.
 
----
+______________________________________________________________________
 
-# 11. Quantum Terminology Firewall
+## 11. Quantum Terminology Firewall
 
 Despite the QLS name:
 
@@ -502,24 +499,22 @@ QUANTUM TERMINOLOGY
 QUANTUM PHYSICS
 ```
 
----
+______________________________________________________________________
 
-# 12. QCLA Causal Path Space
+## 12. QCLA Causal Path Space
 
 Let:
 
-\[
-\Pi
-=
-\{\pi_1,\pi_2,\ldots,\pi_m\}
+## \[ \\Pi
+
+{\\pi_1,\\pi_2,\\ldots,\\pi_m}
 \]
 
 where each:
 
-\[
-\pi_j
-=
-X_0\rightarrow X_1\rightarrow\ldots\rightarrow X_k
+## \[ \\pi_j
+
+X_0\\rightarrow X_1\\rightarrow\\ldots\\rightarrow X_k
 \]
 
 is a candidate causal pathway.
@@ -532,35 +527,34 @@ QCLA operates over candidate causal graphs/paths.
 QLS operates over candidate logical states.
 ```
 
----
+______________________________________________________________________
 
-# 13. Combined Candidate Space
+## 13. Combined Candidate Space
 
 The joint reasoning object is:
 
-\[
-\mathcal{M}
-=
-\Sigma\times\Pi
+## \[ \\mathcal{M}
+
+\\Sigma\\times\\Pi
 \]
 
 subject to:
 
 \[
-QLS(\Sigma)=PASS
+QLS(\\Sigma)=PASS
 \]
 
 and:
 
 \[
-QCLA(\Pi)=PASS
+QCLA(\\Pi)=PASS
 \]
 
 This is an AMOS-derived integration model.
 
----
+______________________________________________________________________
 
-# 14. Dual-Gate Architecture
+## 14. Dual-Gate Architecture
 
 ```text
 RAW CLAIM
@@ -580,9 +574,9 @@ COMPETING / CONDITIONAL / DERIVED
 DECISION
 ```
 
----
+______________________________________________________________________
 
-# 15. Critical Correction
+## 15. Critical Correction
 
 The native corpus sometimes describes QLS/QCLA as producing deterministic, drift-proof, or causally deterministic reasoning.
 
@@ -608,9 +602,9 @@ CAUSAL MODEL CONSISTENCY
 CAUSAL TRUTH
 ```
 
----
+______________________________________________________________________
 
-# 16. Logic Validity vs Truth
+## 16. Logic Validity vs Truth
 
 A statement may be:
 
@@ -624,7 +618,7 @@ Therefore:
 
 \[
 LogicalValidity
-\not\Rightarrow
+\\not\\Rightarrow
 Truth
 \]
 
@@ -638,9 +632,9 @@ C:  A causes Y
 
 The inference may be structurally valid while `P1` remains unsupported.
 
----
+______________________________________________________________________
 
-# 17. Causal Validity vs Truth
+## 17. Causal Validity vs Truth
 
 Likewise:
 
@@ -655,23 +649,22 @@ Therefore:
 
 \[
 CausalAdmissibility
-\not\Rightarrow
+\\not\\Rightarrow
 CausalTruth
 \]
 
----
+______________________________________________________________________
 
-# 18. Three-Gate AMOS Upgrade
+## 18. Three-Gate AMOS Upgrade
 
 AMOS therefore adds an evidence gate:
 
-\[
-Accept(C)
-=
+## \[ Accept(C)
+
 L(C)
-\land
+\\land
 K(C)
-\land
+\\land
 E(C)
 \]
 
@@ -687,9 +680,9 @@ E = evidential sufficiency
 
 This is an AMOS-derived hardening.
 
----
+______________________________________________________________________
 
-# 19. QLS Gate
+## 19. QLS Gate
 
 ```yaml
 QLSGate:
@@ -716,9 +709,9 @@ QLSGate:
     - UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 20. QCLA Gate
+## 20. QCLA Gate
 
 ```yaml
 QCLAGate:
@@ -756,9 +749,9 @@ QCLAGate:
     - UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 21. Evidence Gate
+## 21. Evidence Gate
 
 ```yaml
 EvidenceGate:
@@ -790,38 +783,38 @@ EvidenceGate:
     - CONFLICTED
 ```
 
----
+______________________________________________________________________
 
-# 22. QLS × QCLA × Evidence
+## 22. QLS × QCLA × Evidence
 
-| Logic | Causality | Evidence | AMOS Result |
-|---|---|---|---|
-| Pass | Pass | Strong | DERIVED / possibly VERIFIED |
-| Pass | Pass | Weak | MODEL / CONDITIONAL |
-| Pass | Competing | Strong mixed | COMPETING |
-| Pass | Unknown | Any | UNKNOWN/GAP |
-| Fail | Any | Any | REJECT |
-| Pass | Fail | Any | REJECT causal claim |
-| Unknown | Any | Any | UNKNOWN/GAP |
+| Logic   | Causality | Evidence     | AMOS Result                 |
+| ------- | --------- | ------------ | --------------------------- |
+| Pass    | Pass      | Strong       | DERIVED / possibly VERIFIED |
+| Pass    | Pass      | Weak         | MODEL / CONDITIONAL         |
+| Pass    | Competing | Strong mixed | COMPETING                   |
+| Pass    | Unknown   | Any          | UNKNOWN/GAP                 |
+| Fail    | Any       | Any          | REJECT                      |
+| Pass    | Fail      | Any          | REJECT causal claim         |
+| Unknown | Any       | Any          | UNKNOWN/GAP                 |
 
----
+______________________________________________________________________
 
-# 23. Four QCLA Causal Modes
+## 23. Four QCLA Causal Modes
 
 The source defines:
 
-| Mode | Source Meaning |
-|---|---|
-| Direct | `A → B` |
+| Mode        | Source Meaning                      |
+| ----------- | ----------------------------------- |
+| Direct      | `A → B`                             |
 | Distributed | effects spread across nodes/domains |
-| Delayed | effects manifest after lag |
-| Cascading | `A → B → C → D` |
+| Delayed     | effects manifest after lag          |
+| Cascading   | `A → B → C → D`                     |
 
 AMOS retains these as source-defined causal categories.
 
----
+______________________________________________________________________
 
-# 24. Causal Type Expansion
+## 24. Causal Type Expansion
 
 AMOS hardens QCLA by distinguishing:
 
@@ -857,9 +850,9 @@ CASCADE
 
 These must not be conflated.
 
----
+______________________________________________________________________
 
-# 25. Causal Firewall
+## 25. Causal Firewall
 
 ```text
 SEQUENCE
@@ -887,38 +880,34 @@ CAUSAL POSSIBILITY
 OBSERVED CAUSAL EFFECT
 ```
 
----
+______________________________________________________________________
 
-# 26. QCLA Source Operators
+## 26. QCLA Source Operators
 
 The QCLA mathematical source defines operator forms including:
 
-\[
-D(A\rightarrow B)
-=
-\frac{\partial B}{\partial A}
+## \[ D(A\\rightarrow B)
+
+\\frac{\\partial B}{\\partial A}
 \]
 
-\[
-W(A\rightarrow B)
-=
-\sum_i w_i
-\frac{\partial B_i}{\partial A}
+## \[ W(A\\rightarrow B)
+
+\\sum_i w_i
+\\frac{\\partial B_i}{\\partial A}
 \]
 
-\[
-L(A\rightarrow B,\tau)
-=
-A(t)\text{ influences }B(t+\tau)
+## \[ L(A\\rightarrow B,\\tau)
+
+A(t)\\text{ influences }B(t+\\tau)
 \]
 
 and:
 
-\[
-K(A\rightarrow B\rightarrow C\rightarrow\cdots)
-=
-\prod_i
-\frac{\partial X_i}{\partial X_{i-1}}
+## \[ K(A\\rightarrow B\\rightarrow C\\rightarrow\\cdots)
+
+\\prod_i
+\\frac{\\partial X_i}{\\partial X\_{i-1}}
 \]
 
 Classification:
@@ -927,16 +916,16 @@ Classification:
 SOURCE_DEFINED_MODEL
 ```
 
----
+______________________________________________________________________
 
-# 27. Operator Firewall
+## 27. Operator Firewall
 
 These expressions do not independently establish causal effects.
 
 For example:
 
 \[
-\frac{\partial B}{\partial A}
+\\frac{\\partial B}{\\partial A}
 \]
 
 can represent a functional sensitivity without proving that intervention on `A` causes `B`.
@@ -951,9 +940,9 @@ CAUSAL EFFECT
 
 unless causal identification assumptions are satisfied.
 
----
+______________________________________________________________________
 
-# 28. Intervention Boundary
+## 28. Intervention Boundary
 
 A stronger causal formulation requires distinguishing:
 
@@ -969,9 +958,9 @@ AMOS uses this distinction conceptually when evaluating causal claims.
 
 This is external causal-inference discipline, not asserted as native QCLA canon.
 
----
+______________________________________________________________________
 
-# 29. Causal Edge Contract
+## 29. Causal Edge Contract
 
 ```yaml
 CausalEdge:
@@ -1013,9 +1002,9 @@ CausalEdge:
   confidence:
 ```
 
----
+______________________________________________________________________
 
-# 30. Logical Edge Contract
+## 30. Logical Edge Contract
 
 ```yaml
 LogicalEdge:
@@ -1039,9 +1028,9 @@ LogicalEdge:
   provenance:
 ```
 
----
+______________________________________________________________________
 
-# 31. Matrix Edge
+## 31. Matrix Edge
 
 ```yaml
 QLSQCLAEdge:
@@ -1059,9 +1048,9 @@ QLSQCLAEdge:
   final_state:
 ```
 
----
+______________________________________________________________________
 
-# 32. QLS Non-Contradiction
+## 32. QLS Non-Contradiction
 
 Native QLS requires non-contradiction.
 
@@ -1091,9 +1080,9 @@ A is not X at t2
 
 need not conflict.
 
----
+______________________________________________________________________
 
-# 33. Typed Contradiction
+## 33. Typed Contradiction
 
 ```yaml
 ContradictionCheck:
@@ -1121,9 +1110,9 @@ ContradictionCheck:
     - UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 34. QLS Constraint Integrity
+## 34. QLS Constraint Integrity
 
 The native source constrains reasoning using inherited system boundaries.
 
@@ -1136,9 +1125,9 @@ the applicability envelope
 of its premises.
 ```
 
----
+______________________________________________________________________
 
-# 35. Scope Firewall
+## 35. Scope Firewall
 
 ```text
 VALID IN ONE POPULATION
@@ -1158,39 +1147,38 @@ VALID AT t1
 VALID AT t2
 ```
 
----
+______________________________________________________________________
 
-# 36. QLS Collapse
+## 36. QLS Collapse
 
 Native QLS defines:
 
 \[
-\kappa(\Sigma)\rightarrow x^*
+\\kappa(\\Sigma)\\rightarrow x^\*
 \]
 
 and proposes:
 
 \[
-\max(p_i)\ge\theta
+\\max(p_i)\\ge\\theta
 \]
 
 with a recommended source threshold near:
 
 \[
-\theta=0.65
+\\theta=0.65
 \]
 
 and:
 
-\[
-x^*
-=
-\arg\max_i p_i
+## \[ x^\*
+
+\\arg\\max_i p_i
 \]
 
----
+______________________________________________________________________
 
-# 37. Threshold Status
+## 37. Threshold Status
 
 The `0.65` threshold is:
 
@@ -1214,20 +1202,20 @@ collapse_threshold:
   calibration_required: true
 ```
 
----
+______________________________________________________________________
 
-# 38. QCLA Causal Collapse
+## 38. QCLA Causal Collapse
 
 The QCLA source independently uses candidate pathway probabilities:
 
 \[
-\sum_iP_i=1
+\\sum_iP_i=1
 \]
 
 and:
 
 \[
-x^*=\arg\max(P_i)
+x^\*=\\arg\\max(P_i)
 \]
 
 with a similar threshold.
@@ -1242,22 +1230,22 @@ QCLA:
 candidate causal paths collapse
 ```
 
----
+______________________________________________________________________
 
-# 39. Shared Collapse Matrix
+## 39. Shared Collapse Matrix
 
-| Phase | QLS | QCLA |
-|---|---|---|
-| Generate | candidate states | candidate causal paths |
-| Weight | `pᵢ` | `Pᵢ` |
-| Filter | logical constraints | causal constraints |
-| Preserve | admissible states | admissible paths |
-| Resolve | `κ(Σ)` | causal collapse |
-| Output | dominant state | dominant causal pathway |
+| Phase    | QLS                 | QCLA                    |
+| -------- | ------------------- | ----------------------- |
+| Generate | candidate states    | candidate causal paths  |
+| Weight   | `pᵢ`                | `Pᵢ`                    |
+| Filter   | logical constraints | causal constraints      |
+| Preserve | admissible states   | admissible paths        |
+| Resolve  | `κ(Σ)`              | causal collapse         |
+| Output   | dominant state      | dominant causal pathway |
 
----
+______________________________________________________________________
 
-# 40. AMOS Collapse Correction
+## 40. AMOS Collapse Correction
 
 AMOS does not force collapse solely because:
 
@@ -1278,28 +1266,27 @@ stakes are irreversible
 
 Therefore:
 
-\[
-CollapseAllowed
-=
+## \[ CollapseAllowed
+
 Threshold
-\land
+\\land
 Integrity
-\land
+\\land
 Provenance
-\land
+\\land
 Scope
-\land
+\\land
 NonConflict
 \]
 
----
+______________________________________________________________________
 
-# 41. COMPETING Preservation
+## 41. COMPETING Preservation
 
 If:
 
 \[
-P(H_1)\approx P(H_2)
+P(H_1)\\approx P(H_2)
 \]
 
 or support is incomparable:
@@ -1316,9 +1303,9 @@ COMPETING
 
 until discriminating evidence exists.
 
----
+______________________________________________________________________
 
-# 42. QLS × QCLA Competing Hypotheses
+## 42. QLS × QCLA Competing Hypotheses
 
 ```yaml
 HypothesisSet:
@@ -1342,9 +1329,9 @@ HypothesisSet:
   resolution_state:
 ```
 
----
+______________________________________________________________________
 
-# 43. Candidate Generation
+## 43. Candidate Generation
 
 ```text
 OBSERVATION
@@ -1360,9 +1347,9 @@ EVIDENCE COMPARISON
 COMPETING / RESOLVED
 ```
 
----
+______________________________________________________________________
 
-# 44. QLS Constraint-Audit Protocol
+## 44. QLS Constraint-Audit Protocol
 
 The source defines a QLS Constraint-Audit Protocol (`QCAP`) containing checks for:
 
@@ -1390,9 +1377,9 @@ AMOS stores QCAP as:
 SOURCE_DEFINED_VALIDATION_PROTOCOL
 ```
 
----
+______________________________________________________________________
 
-# 45. QCLA Application Protocol
+## 45. QCLA Application Protocol
 
 The QCLA source provides an application sequence resembling:
 
@@ -1418,9 +1405,9 @@ validate inheritance
 
 This directly establishes the QLS/QCLA source binding.
 
----
+______________________________________________________________________
 
-# 46. Combined Application Protocol
+## 46. Combined Application Protocol
 
 AMOS normalization:
 
@@ -1452,21 +1439,21 @@ AMOS normalization:
 13. ACT OR HOLD
 ```
 
----
+______________________________________________________________________
 
-# 47. Source Variable Matrix
+## 47. Source Variable Matrix
 
 The QCLA source proposes relationships including:
 
-| Cause | Effect | Source Relationship |
-|---|---|---|
-| Ω overload | F fragmentation | positive |
-| F fragmentation | H cohesion | negative |
-| S shock | Ω overload | positive |
-| H cohesion | F fragmentation | negative |
-| Ω overload | shock severity | positive |
-| H cohesion | collapse risk | negative |
-| S shock | cycle transitions | positive |
+| Cause           | Effect            | Source Relationship |
+| --------------- | ----------------- | ------------------- |
+| Ω overload      | F fragmentation   | positive            |
+| F fragmentation | H cohesion        | negative            |
+| S shock         | Ω overload        | positive            |
+| H cohesion      | F fragmentation   | negative            |
+| Ω overload      | shock severity    | positive            |
+| H cohesion      | collapse risk     | negative            |
+| S shock         | cycle transitions | positive            |
 
 These remain:
 
@@ -1476,9 +1463,9 @@ SOURCE_DEFINED_CAUSAL_MODEL
 
 unless independently validated for a specified system.
 
----
+______________________________________________________________________
 
-# 48. Matrix Causal Firewall
+## 48. Matrix Causal Firewall
 
 The existence of a row:
 
@@ -1504,20 +1491,20 @@ data
 alternative models
 ```
 
----
+______________________________________________________________________
 
-# 49. QLS Variable Constraints
+## 49. QLS Variable Constraints
 
 QLS source rules include claims such as:
 
 \[
-\frac{\partial H}{\partial F}<0
+\\frac{\\partial H}{\\partial F}\<0
 \]
 
 and:
 
 \[
-\frac{\partial F}{\partial\Omega}>0
+\\frac{\\partial F}{\\partial\\Omega}>0
 \]
 
 These are stored as:
@@ -1528,9 +1515,9 @@ SOURCE_DEFINED_RELATION
 
 not universal empirical laws.
 
----
+______________________________________________________________________
 
-# 50. Shared Variable Registry
+## 50. Shared Variable Registry
 
 ```yaml
 QLSQCLAVariables:
@@ -1556,9 +1543,9 @@ QLSQCLAVariables:
     range: [0,1]
 ```
 
----
+______________________________________________________________________
 
-# 51. Measurement Requirement
+## 51. Measurement Requirement
 
 Before any variable becomes empirical:
 
@@ -1586,9 +1573,9 @@ VariableMeasurement:
   scope:
 ```
 
----
+______________________________________________________________________
 
-# 52. Normalization Firewall
+## 52. Normalization Firewall
 
 The fact that variables are normalized to `[0,1]` does not imply:
 
@@ -1606,23 +1593,23 @@ Thus:
 
 unless a valid cross-scale mapping exists.
 
----
+______________________________________________________________________
 
-# 53. Multi-Scale Matrix
+## 53. Multi-Scale Matrix
 
-| Scale | QLS Function | QCLA Function |
-|---|---|---|
-| Individual | logical/cognitive state | candidate micro causality |
-| Institutional | policy/system logic | institutional propagation |
-| Social | collective interpretation | distributed causality |
-| Civilizational | structural reasoning | long causal chains |
-| Planetary | constraint validity | environmental pathways |
+| Scale          | QLS Function              | QCLA Function             |
+| -------------- | ------------------------- | ------------------------- |
+| Individual     | logical/cognitive state   | candidate micro causality |
+| Institutional  | policy/system logic       | institutional propagation |
+| Social         | collective interpretation | distributed causality     |
+| Civilizational | structural reasoning      | long causal chains        |
+| Planetary      | constraint validity       | environmental pathways    |
 
 This is source-derived architecture, not empirical equivalence.
 
----
+______________________________________________________________________
 
-# 54. Cross-Scale Firewall
+## 54. Cross-Scale Firewall
 
 ```text
 MICRO CAUSE
@@ -1640,9 +1627,9 @@ SAME CAUSAL PROCESS
 
 Cross-scale mappings remain `MODEL` unless validated.
 
----
+______________________________________________________________________
 
-# 55. Delay Matrix
+## 55. Delay Matrix
 
 QCLA source distinguishes causal delay by scale.
 
@@ -1666,9 +1653,9 @@ CausalDelay:
   evidence:
 ```
 
----
+______________________________________________________________________
 
-# 56. Delay Firewall
+## 56. Delay Firewall
 
 ```text
 CAUSE BEFORE EFFECT
@@ -1681,14 +1668,14 @@ alone
 does not prove causation.
 ```
 
----
+______________________________________________________________________
 
-# 57. Cascade Matrix
+## 57. Cascade Matrix
 
 A cascade:
 
 \[
-A\rightarrow B\rightarrow C\rightarrow D
+A\\rightarrow B\\rightarrow C\\rightarrow D
 \]
 
 requires each edge to be independently admissible.
@@ -1696,37 +1683,37 @@ requires each edge to be independently admissible.
 Therefore:
 
 \[
-Conf(A\rightarrow D)
-\le
-\min
-\{
-Conf(A\rightarrow B),
-Conf(B\rightarrow C),
-Conf(C\rightarrow D)
-\}
+Conf(A\\rightarrow D)
+\\le
+\\min
+{
+Conf(A\\rightarrow B),
+Conf(B\\rightarrow C),
+Conf(C\\rightarrow D)
+}
 \]
 
 unless independent end-to-end validation exists.
 
----
+______________________________________________________________________
 
-# 58. Weakest-Link Law
+## 58. Weakest-Link Law
 
 For any QLS/QCLA conclusion:
 
 \[
 Conf(C)
-\le
-\min_i Conf(P_i)
+\\le
+\\min_i Conf(P_i)
 \]
 
 for load-bearing premises.
 
 This prevents a long causal chain from becoming more certain merely through narrative fluency.
 
----
+______________________________________________________________________
 
-# 59. Cascade Failure
+## 59. Cascade Failure
 
 If:
 
@@ -1748,9 +1735,9 @@ UNKNOWN / CONDITIONAL
 
 not verified.
 
----
+______________________________________________________________________
 
-# 60. Distributed Causality
+## 60. Distributed Causality
 
 QCLA proposes effects spreading across multiple nodes/domains.
 
@@ -1758,15 +1745,15 @@ AMOS represents:
 
 \[
 A
-\rightarrow
-\{B_1,B_2,\ldots,B_n\}
+\\rightarrow
+{B_1,B_2,\\ldots,B_n}
 \]
 
 Each edge requires separate support.
 
----
+______________________________________________________________________
 
-# 61. Distributed Provenance
+## 61. Distributed Provenance
 
 Evidence supporting multiple branches may share one origin.
 
@@ -1779,23 +1766,23 @@ FROM ONE SOURCE
 MULTIPLE INDEPENDENT CONFIRMATIONS
 ```
 
----
+______________________________________________________________________
 
-# 62. Feedback
+## 62. Feedback
 
 The native QCLA categories focus on propagation and cascades.
 
 AMOS additionally requires feedback detection:
 
 \[
-A\rightarrow B\rightarrow A
+A\\rightarrow B\\rightarrow A
 \]
 
 because feedback can invalidate simple forward-chain assumptions.
 
----
+______________________________________________________________________
 
-# 63. Feedback Contract
+## 63. Feedback Contract
 
 ```yaml
 FeedbackLoop:
@@ -1817,9 +1804,9 @@ FeedbackLoop:
   scope:
 ```
 
----
+______________________________________________________________________
 
-# 64. Confounding
+## 64. Confounding
 
 Candidate structure:
 
@@ -1839,9 +1826,9 @@ Z
 
 explains the apparent causal edge.
 
----
+______________________________________________________________________
 
-# 65. Mediation
+## 65. Mediation
 
 ```text
 A → M → B
@@ -1855,9 +1842,9 @@ A → B
 
 when the mediator changes intervention semantics.
 
----
+______________________________________________________________________
 
-# 66. Necessary vs Sufficient
+## 66. Necessary vs Sufficient
 
 ```text
 A necessary for B
@@ -1871,9 +1858,9 @@ A sufficient for B.
 
 QCLA edges must type this distinction when material.
 
----
+______________________________________________________________________
 
-# 67. Enabling Conditions
+## 67. Enabling Conditions
 
 An enabling condition:
 
@@ -1905,9 +1892,9 @@ CausalContext:
   moderators:
 ```
 
----
+______________________________________________________________________
 
-# 68. QLS Forbidden State
+## 68. QLS Forbidden State
 
 The QLS source defines forbidden states and transition rules.
 
@@ -1923,9 +1910,9 @@ EMPIRICALLY IMPOSSIBLE
 
 These are not automatically the same.
 
----
+______________________________________________________________________
 
-# 69. Forbidden-State Firewall
+## 69. Forbidden-State Firewall
 
 A QLS rule may say:
 
@@ -1945,9 +1932,9 @@ It does not automatically mean:
 X cannot exist in reality.
 ```
 
----
+______________________________________________________________________
 
-# 70. QCLA Forbidden Path
+## 70. QCLA Forbidden Path
 
 Similarly:
 
@@ -1963,9 +1950,9 @@ means:
 
 unless external evidence establishes physical impossibility.
 
----
+______________________________________________________________________
 
-# 71. Model Failure Handling
+## 71. Model Failure Handling
 
 If observation repeatedly produces a state/path forbidden by the model:
 
@@ -1984,9 +1971,9 @@ MODEL-CONFLICT
 → revise if necessary
 ```
 
----
+______________________________________________________________________
 
-# 72. Evidence Priority
+## 72. Evidence Priority
 
 For empirical questions:
 
@@ -1998,24 +1985,24 @@ MODEL PRESERVATION
 
 provided the observation itself survives validation.
 
----
+______________________________________________________________________
 
-# 73. QLS/QCLA Integrity Matrix
+## 73. QLS/QCLA Integrity Matrix
 
-| Failure | QLS | QCLA | AMOS Response |
-|---|---|---|---|
-| Contradiction | detect | — | reject/branch |
-| Correlation-only claim | may pass | challenge | downgrade |
-| Missing cause | — | detect | UNKNOWN |
-| Missing scope | challenge | challenge | CONDITIONAL |
-| Stale evidence | — | — | invalidate |
-| Shared provenance | — | — | reduce independence |
-| Feedback ignored | may pass | challenge | rebuild causal graph |
-| Competing mechanisms | preserve | preserve | COMPETING |
+| Failure                | QLS       | QCLA      | AMOS Response        |
+| ---------------------- | --------- | --------- | -------------------- |
+| Contradiction          | detect    | —         | reject/branch        |
+| Correlation-only claim | may pass  | challenge | downgrade            |
+| Missing cause          | —         | detect    | UNKNOWN              |
+| Missing scope          | challenge | challenge | CONDITIONAL          |
+| Stale evidence         | —         | —         | invalidate           |
+| Shared provenance      | —         | —         | reduce independence  |
+| Feedback ignored       | may pass  | challenge | rebuild causal graph |
+| Competing mechanisms   | preserve  | preserve  | COMPETING            |
 
----
+______________________________________________________________________
 
-# 74. Causal Epoch
+## 74. Causal Epoch
 
 A causal model is valid only while its governing regime remains stable.
 
@@ -2039,9 +2026,9 @@ CausalEpoch:
   invalidators:
 ```
 
----
+______________________________________________________________________
 
-# 75. Regime Shift
+## 75. Regime Shift
 
 If a structural change alters causal relationships:
 
@@ -2062,9 +2049,9 @@ climate regime shift
 measurement change
 ```
 
----
+______________________________________________________________________
 
-# 76. Freshness
+## 76. Freshness
 
 ```yaml
 QLSQCLAFreshness:
@@ -2082,9 +2069,9 @@ QLSQCLAFreshness:
   revalidation_trigger:
 ```
 
----
+______________________________________________________________________
 
-# 77. Provenance Topology
+## 77. Provenance Topology
 
 ```yaml
 QLSQCLAProvenance:
@@ -2104,9 +2091,9 @@ QLSQCLAProvenance:
   correlation_risk:
 ```
 
----
+______________________________________________________________________
 
-# 78. Sybil Hardening
+## 78. Sybil Hardening
 
 ```text
 10 documents
@@ -2122,9 +2109,9 @@ remain:
 
 for independence accounting.
 
----
+______________________________________________________________________
 
-# 79. Proof Capsule
+## 79. Proof Capsule
 
 ```yaml
 QLSQCLAProofCapsule:
@@ -2162,9 +2149,9 @@ QLSQCLAProofCapsule:
   conclusion:
 ```
 
----
+______________________________________________________________________
 
-# 80. Conclusion Classes
+## 80. Conclusion Classes
 
 ```text
 VERIFIED
@@ -2182,9 +2169,9 @@ UNKNOWN/GAP
 
 Use the weakest accurate class.
 
----
+______________________________________________________________________
 
-# 81. Worked Example — Correlation
+## 81. Worked Example — Correlation
 
 Observation:
 
@@ -2234,9 +2221,9 @@ MODEL / COMPETING
 
 until discriminating evidence exists.
 
----
+______________________________________________________________________
 
-# 82. Worked Example — Shock
+## 82. Worked Example — Shock
 
 Claim:
 
@@ -2272,9 +2259,9 @@ SOURCE-MODEL CONSISTENT
 
 but not empirically verified.
 
----
+______________________________________________________________________
 
-# 83. Worked Example — Cascade
+## 83. Worked Example — Cascade
 
 Claim:
 
@@ -2302,9 +2289,9 @@ check regime changes
 
 Only then evaluate end-to-end cascade.
 
----
+______________________________________________________________________
 
-# 84. Worked Example — Collapse
+## 84. Worked Example — Collapse
 
 Candidates:
 
@@ -2340,9 +2327,9 @@ H1 remains CONDITIONAL
 
 despite `0.68 > 0.65`.
 
----
+______________________________________________________________________
 
-# 85. Worked Example — Competing Causality
+## 85. Worked Example — Competing Causality
 
 ```text
 H1:
@@ -2367,9 +2354,9 @@ temporal discriminator,
 or mechanism-specific observation.
 ```
 
----
+______________________________________________________________________
 
-# 86. Worked Example — Structural Constraint
+## 86. Worked Example — Structural Constraint
 
 Claim:
 
@@ -2392,9 +2379,9 @@ EMPIRICALLY IMPOSSIBLE
 
 unless external evidence establishes impossibility.
 
----
+______________________________________________________________________
 
-# 87. Worked Example — Prediction
+## 87. Worked Example — Prediction
 
 Prediction:
 
@@ -2429,9 +2416,9 @@ CONDITIONAL
 
 even if the causal graph is coherent.
 
----
+______________________________________________________________________
 
-# 88. Prediction Firewall
+## 88. Prediction Firewall
 
 ```text
 VALID CAUSAL MODEL
@@ -2447,9 +2434,9 @@ STRUCTURAL PRESSURE
 DETERMINISTIC OUTCOME
 ```
 
----
+______________________________________________________________________
 
-# 89. QLS × QCLA Runtime Target
+## 89. QLS × QCLA Runtime Target
 
 ```text
 INPUT
@@ -2477,9 +2464,9 @@ This is a target architecture.
 
 Executable binding remains `NOT_ESTABLISHED`.
 
----
+______________________________________________________________________
 
-# 90. QLS Runtime Contract
+## 90. QLS Runtime Contract
 
 ```yaml
 QLSRuntime:
@@ -2501,9 +2488,9 @@ QLSRuntime:
   receipt:
 ```
 
----
+______________________________________________________________________
 
-# 91. QCLA Runtime Contract
+## 91. QCLA Runtime Contract
 
 ```yaml
 QCLARuntime:
@@ -2529,9 +2516,9 @@ QCLARuntime:
   receipt:
 ```
 
----
+______________________________________________________________________
 
-# 92. Combined Receipt
+## 92. Combined Receipt
 
 ```yaml
 QLSQCLAValidationReceipt:
@@ -2569,9 +2556,9 @@ QLSQCLAValidationReceipt:
   confidence:
 ```
 
----
+______________________________________________________________________
 
-# 93. Failure Recovery
+## 93. Failure Recovery
 
 If QLS fails:
 
@@ -2588,9 +2575,9 @@ depending on that edge.
 
 Do not discard unrelated valid reasoning.
 
----
+______________________________________________________________________
 
-# 94. Local Repair
+## 94. Local Repair
 
 ```text
 FAILED PREMISE
@@ -2602,9 +2589,9 @@ DEPENDENT CONCLUSIONS ONLY
 
 This preserves unaffected state.
 
----
+______________________________________________________________________
 
-# 95. QLS/QCLA Dependency Graph
+## 95. QLS/QCLA Dependency Graph
 
 ```text
 P1 ──┐
@@ -2630,9 +2617,9 @@ CausalEdge2
 ConclusionB
 ```
 
----
+______________________________________________________________________
 
-# 96. Sensitivity
+## 96. Sensitivity
 
 For a conclusion:
 
@@ -2652,9 +2639,9 @@ DERIVED → COMPETING
 
 Test it first.
 
----
+______________________________________________________________________
 
-# 97. Sensitivity Examples
+## 97. Sensitivity Examples
 
 ```text
 collapse threshold
@@ -2672,9 +2659,9 @@ scope boundary
 provenance independence
 ```
 
----
+______________________________________________________________________
 
-# 98. Robustness
+## 98. Robustness
 
 A conclusion is stronger when it survives:
 
@@ -2692,9 +2679,9 @@ source removal
 scope tightening
 ```
 
----
+______________________________________________________________________
 
-# 99. QLS/QCLA Fast Path
+## 99. QLS/QCLA Fast Path
 
 Local reasoning is allowed only when:
 
@@ -2718,9 +2705,9 @@ stakes reversible
 
 Otherwise escalate.
 
----
+______________________________________________________________________
 
-# 100. Escalation Triggers
+## 100. Escalation Triggers
 
 ```text
 causal ambiguity
@@ -2746,9 +2733,9 @@ unvalidated threshold
 missing mechanism
 ```
 
----
+______________________________________________________________________
 
-# 101. QLS/QCLA Adaptive Complexity
+## 101. QLS/QCLA Adaptive Complexity
 
 ```text
 C0
@@ -2767,9 +2754,9 @@ C4
 high-stakes multi-scale causal decision
 ```
 
----
+______________________________________________________________________
 
-# 102. H/M/L Retrieval
+## 102. H/M/L Retrieval
 
 ## H — Integration
 
@@ -2814,9 +2801,9 @@ exact source
 
 Load native manuals only when exact source wording materially changes the answer.
 
----
+______________________________________________________________________
 
-# 103. Retrieval Examples
+## 103. Retrieval Examples
 
 ```yaml
 "How do QLS and QCLA interact?":
@@ -2862,9 +2849,9 @@ Load native manuals only when exact source wording materially changes the answer
     - qcla_disambiguation
 ```
 
----
+______________________________________________________________________
 
-# 104. QCLA Name Collision
+## 104. QCLA Name Collision
 
 The AMOS corpus contains at least:
 
@@ -2890,9 +2877,9 @@ qcla_branch:
 
 or equivalent identity.
 
----
+______________________________________________________________________
 
-# 105. Matrix Branch Identity
+## 105. Matrix Branch Identity
 
 For this artifact:
 
@@ -2912,9 +2899,9 @@ qcla_branch:
     Quantum–Chemical Logic Architecture
 ```
 
----
+______________________________________________________________________
 
-# 106. Canon Ingestion Rule
+## 106. Canon Ingestion Rule
 
 ```yaml
 AMOS_CANON_INGESTION_RULE:
@@ -2961,9 +2948,9 @@ AMOS_CANON_INGESTION_RULE:
       - NEVER_INVENT_CANON
 ```
 
----
+______________________________________________________________________
 
-# 107. Contract Discipline
+## 107. Contract Discipline
 
 ```text
 typed claims
@@ -2981,9 +2968,9 @@ typed claims
 · UNKNOWN/GAP fails closed
 ```
 
----
+______________________________________________________________________
 
-# 108. Promotion Gate — Canon
+## 108. Promotion Gate — Canon
 
 - [ ] QLS Scaffold vs QLS-System lineage finalized
 - [ ] Causality-QCLA branch identity persisted
@@ -2994,9 +2981,9 @@ typed claims
 - [ ] AMOS-derived extensions separately typed
 - [ ] contradictions registered
 
----
+______________________________________________________________________
 
-# 109. Promotion Gate — Runtime
+## 109. Promotion Gate — Runtime
 
 - [ ] QLS schema implemented
 - [ ] QCLA causal-edge schema implemented
@@ -3009,9 +2996,9 @@ typed claims
 - [ ] validation receipt generated
 - [ ] rollback demonstrated
 
----
+______________________________________________________________________
 
-# 110. Negative Tests
+## 110. Negative Tests
 
 Runtime must correctly reject or hold:
 
@@ -3041,9 +3028,9 @@ forced probability collapse
 unknown QCLA branch
 ```
 
----
+______________________________________________________________________
 
-# 111. Critical Gaps
+## 111. Critical Gaps
 
 ```yaml
 gaps:
@@ -3089,9 +3076,9 @@ gaps:
     state: NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 112. RSCF
+## 112. RSCF
 
 ```yaml
 RSCF:
@@ -3156,9 +3143,9 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 113. Canonical Capsule
+## 113. Canonical Capsule
 
 ```yaml
 QLS_QCLA_MATRIX_CAPSULE:
@@ -3214,9 +3201,9 @@ QLS_QCLA_MATRIX_CAPSULE:
     empirical_validation: NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 114. Proof Capsule
+## 114. Proof Capsule
 
 ```yaml
 PROOF_CAPSULE:
@@ -3277,9 +3264,9 @@ PROOF_CAPSULE:
     runtime_enforcement: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 115. Final Canonical Statement
+## 115. Final Canonical Statement
 
 AMOS × QLS/QCLA Matrix represents the source-defined complementary architecture:
 
@@ -3380,15 +3367,15 @@ UNKNOWN/GAP
 REMAINS VISIBLE.
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|AMOS MOC]]
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[25_COGNITIVE_MATRIX/AMOS_X_QLS|AMOS_X_QLS]] · [[25_COGNITIVE_MATRIX/AMOS_X_QCLA|AMOS_X_QCLA]] · [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]
 
----
+______________________________________________________________________
 
 RSCF-NODE
 
@@ -3406,38 +3393,38 @@ canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
 
 RSCF-RELATIONS:
 
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
-  - GOVERNED_BY: [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- GOVERNED_BY: [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
 
-  - BINDS: [[25_COGNITIVE_MATRIX/AMOS_X_QLS|AMOS_X_QLS]]
+- BINDS: [[25_COGNITIVE_MATRIX/AMOS_X_QLS|AMOS_X_QLS]]
 
-  - BINDS: `QUANTUM_LOGIC_SCAFFOLD`
+- BINDS: `QUANTUM_LOGIC_SCAFFOLD`
 
-  - BINDS: `QUANTUM_LOGIC_SYSTEM`
+- BINDS: `QUANTUM_LOGIC_SYSTEM`
 
-  - BINDS: `QUANTUM_CAUSALITY_LAYER_ARCHITECTURE`
+- BINDS: `QUANTUM_CAUSALITY_LAYER_ARCHITECTURE`
 
-  - DISTINGUISHES_FROM: `QUANTUM_CHEMICAL_LOGIC_ARCHITECTURE`
+- DISTINGUISHES_FROM: `QUANTUM_CHEMICAL_LOGIC_ARCHITECTURE`
 
-  - RELATED_TO: `TSS`
+- RELATED_TO: `TSS`
 
-  - RELATED_TO: `TPE`
+- RELATED_TO: `TPE`
 
-  - RELATED_TO: `ULF`
+- RELATED_TO: `ULF`
 
-  - RELATED_TO: `UCP`
+- RELATED_TO: `UCP`
 
-  - RELATED_TO: UBI
+- RELATED_TO: UBI
 
-  - RELATED_TO: `PSI`
+- RELATED_TO: `PSI`
 
-  - RELATED_TO: `CCI`
+- RELATED_TO: `CCI`
 
-  - INDEXED_BY: [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]
+- INDEXED_BY: [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]
 
----
+______________________________________________________________________
 
 **MOC:** [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]

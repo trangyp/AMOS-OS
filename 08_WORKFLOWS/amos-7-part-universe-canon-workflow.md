@@ -5,19 +5,17 @@ source: 08_WORKFLOWS
 Type: Workflow
 Skill: amos-7-part-universe-canon
 Agent: amos-7-part-universe-canon-agent
-Trigger: When canon and universe engine is needed within the canon domain, including
-  structural coverage analysis, persistence function mapping, canon compliance validation,
-  or 7-part canon testing.
+Trigger: When canon and universe engine is needed within the canon domain, including structural coverage analysis, persistence function mapping, canon compliance validation, or 7-part canon testing.
 Version: 1.0.0
 tags:
-- type/workflow
-- type/workflow
-- domain/canon-universe
-- epistemic/source_claim
-- hml/m
-- epistemic/source_claim
-- amos-os
-- validation
+  - type/workflow
+  - type/workflow
+  - domain/canon-universe
+  - epistemic/source_claim
+  - hml/m
+  - epistemic/source_claim
+  - amos-os
+  - validation
 rscf:
   state: AMOS_MODEL
   claim_class: EMPIRICAL
@@ -29,23 +27,23 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: M
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
-- L7_authority
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
+  - L7_authority
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L7
-- L16
-- L17
-- L18
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L7
+  - L16
+  - L17
+  - L18
 domain: canon
 ---
 
@@ -54,7 +52,6 @@ domain: canon
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
-
 
 ## Preconditions
 
@@ -73,22 +70,26 @@ ORIENT -> MAP -> TEST -> CHALLENGE -> SYNTHESIZE
 ## Steps
 
 1. **ORIENT**: Identify the target system and confirm canon scope.
+
    - Classify the query against the 8 `canon.*` capabilities
    - Confirm target system, scope, scale, regime, and time horizon
    - Gate: `scope_confirmed` — target and scope identified
 
-2. **MAP**: Map the target to the seven persistence functions.
+1. **MAP**: Map the target to the seven persistence functions.
+
    - Map each of the 7 parts: Constraint, Flow, Structure, Enforcement, Time, Adaptation, Termination
    - For each part: record evidence, scope, mechanism, gap, confidence, epistemic_class
    - Gate: `seven_parts_mapped` — all 7 parts have state records
 
-3. **TEST**: Test each part for evidence, scope, mechanism, and gap.
+1. **TEST**: Test each part for evidence, scope, mechanism, and gap.
+
    - Verify each part has evidence, mechanism, and scope
    - Flag parts with UNKNOWN/GAP epistemic class
    - Identify missing parts
    - Gate: `parts_tested` — all parts tested for completeness
 
-4. **CHALLENGE**: Challenge epistemic firewall.
+1. **CHALLENGE**: Challenge epistemic firewall.
+
    - Verify SOURCE_CANON != EMPIRICAL_LAW
    - Verify STRUCTURAL_MAPPING != CAUSAL_PROOF
    - Verify FORMAL_ELEGANCE != VALIDATION
@@ -96,7 +97,8 @@ ORIENT -> MAP -> TEST -> CHALLENGE -> SYNTHESIZE
    - Verify CROSS_DOMAIN_ANALOGY != MECHANISM
    - Gate: `firewall_passed` — no epistemic firewall violations
 
-5. **SYNTHESIZE**: Synthesize canon test result with provenance and confidence ceiling.
+1. **SYNTHESIZE**: Synthesize canon test result with provenance and confidence ceiling.
+
    - Build canon test result: all_seven_present, missing_parts, structural_validity
    - Record provenance for every claim
    - Set confidence ceiling (max 0.95)
@@ -105,10 +107,10 @@ ORIENT -> MAP -> TEST -> CHALLENGE -> SYNTHESIZE
 ## Operations
 
 1. **ORIENT**: Identify the target system and confirm canon scope. - Classify the query against the 8 `canon.*` capabilities - Confirm target system, scope, scale, regime, and time horizon - Gate: `scope_confirmed` — target and scope identi...
-2. **MAP**: Map the target to the seven persistence functions. - Map each of the 7 parts: Constraint, Flow, Structure, Enforcement, Time, Adaptation, Termination - For each part: record evidence, scope, mechanism, gap, confidence, epistemic...
-3. **TEST**: Test each part for evidence, scope, mechanism, and gap. - Verify each part has evidence, mechanism, and scope - Flag parts with UNKNOWN/GAP epistemic class - Identify missing parts - Gate: `parts_tested` — all parts tested for...
-4. **CHALLENGE**: Challenge epistemic firewall. - Verify SOURCE_CANON != EMPIRICAL_LAW - Verify STRUCTURAL_MAPPING != CAUSAL_PROOF - Verify FORMAL_ELEGANCE != VALIDATION - Verify ALL_SEVEN_PRESENT != SYSTEM_TRUE - Verify CROSS_DOMAIN_ANALOG...
-5. **SYNTHESIZE**: Synthesize canon test result with provenance and confidence ceiling. - Build canon test result: all_seven_present, missing_parts, structural_validity - Record provenance for every claim - Set confidence ceiling (max 0.95)...
+1. **MAP**: Map the target to the seven persistence functions. - Map each of the 7 parts: Constraint, Flow, Structure, Enforcement, Time, Adaptation, Termination - For each part: record evidence, scope, mechanism, gap, confidence, epistemic...
+1. **TEST**: Test each part for evidence, scope, mechanism, and gap. - Verify each part has evidence, mechanism, and scope - Flag parts with UNKNOWN/GAP epistemic class - Identify missing parts - Gate: `parts_tested` — all parts tested for...
+1. **CHALLENGE**: Challenge epistemic firewall. - Verify SOURCE_CANON != EMPIRICAL_LAW - Verify STRUCTURAL_MAPPING != CAUSAL_PROOF - Verify FORMAL_ELEGANCE != VALIDATION - Verify ALL_SEVEN_PRESENT != SYSTEM_TRUE - Verify CROSS_DOMAIN_ANALOG...
+1. **SYNTHESIZE**: Synthesize canon test result with provenance and confidence ceiling. - Build canon test result: all_seven_present, missing_parts, structural_validity - Record provenance for every claim - Set confidence ceiling (max 0.95)...
 
 ## Validation Gates
 
@@ -147,7 +149,8 @@ The workflow produces an `AgentResult` containing:
 - **Implementation**: `cosmo-brain/amos_v1_production/seven_part_universe_canon_agent.py`
 - **Origin architect**: Trang Phan
 
----
+______________________________________________________________________
+
 **MOC:** [[08_WORKFLOWS/08_WORKFLOWS_MOC|08_WORKFLOWS_MOC]]
 
 ## Orchestration Pattern
@@ -155,42 +158,43 @@ The workflow produces an `AgentResult` containing:
 **Pattern**: Single-Agent with Validation Gates
 
 This workflow follows a single-agent orchestration with explicit validation gates between steps:
-1. **Intake** -> validation gate -> **Skill Invocation** -> validation gate -> **Application** -> validation gate -> **Output**
-2. Each gate checks: epistemic labeling, provenance, scope compliance, confidence ceiling
-3. On gate failure: route to error handling or escalate to parent workflow
 
+1. **Intake** -> validation gate -> **Skill Invocation** -> validation gate -> **Application** -> validation gate -> **Output**
+1. Each gate checks: epistemic labeling, provenance, scope compliance, confidence ceiling
+1. On gate failure: route to error handling or escalate to parent workflow
 
 ## Evaluation Gates
 
 ### Gate 1: Intake Validation
+
 - Query matches skill scope
 - Required inputs present
 - No scope violations detected
 
 ### Gate 2: Skill Load Validation
+
 - Skill file exists and is valid
 - Agent binding is valid
 - Required vault sources accessible
 
 ### Gate 3: Output Validation
+
 - Epistemic class labels present
 - Provenance recorded for all derived claims
 - Confidence ceiling not exceeded
 - No unresolved CRITICAL_GAPs
 - Scope compliance verified
 
-
 ## Error Handling
 
-| Error Type | Detection | Recovery |
-|---|---|---|
-| Scope violation | Gate 1 check | Route to parent skill |
-| Missing evidence | Gate 3 check | Flag as GAP, reduce confidence to 0.5 |
-| Contradiction | Gate 3 check | Flag as CRITICAL_GAP, halt |
-| Provenance loss | Gate 3 check | Mark as UNKNOWN, request human review |
-| Timeout | Step budget exceeded | Return partial result with warnings |
-| Drift | Confidence calibration check | Trigger drift alignment governor |
-
+| Error Type       | Detection                    | Recovery                              |
+| ---------------- | ---------------------------- | ------------------------------------- |
+| Scope violation  | Gate 1 check                 | Route to parent skill                 |
+| Missing evidence | Gate 3 check                 | Flag as GAP, reduce confidence to 0.5 |
+| Contradiction    | Gate 3 check                 | Flag as CRITICAL_GAP, halt            |
+| Provenance loss  | Gate 3 check                 | Mark as UNKNOWN, request human review |
+| Timeout          | Step budget exceeded         | Return partial result with warnings   |
+| Drift            | Confidence calibration check | Trigger drift alignment governor      |
 
 ## Human-in-the-Loop
 
@@ -202,14 +206,12 @@ This workflow follows a single-agent orchestration with explicit validation gate
   - Contradiction that cannot be auto-resolved
 - **Review checkpoint**: After Gate 3, if any warnings are present
 
-
 ## Monitoring
 
 - **Trace level**: Full (inputs, outputs, intermediate steps)
 - **Metrics**: Step count, token usage, confidence, gap count, execution time
 - **Alerts**: CRITICAL_GAP, confidence < 0.3, scope violation, timeout
 - **Provenance**: Every output traces back to source evidence via provenance chain
-
 
 ## Composition
 

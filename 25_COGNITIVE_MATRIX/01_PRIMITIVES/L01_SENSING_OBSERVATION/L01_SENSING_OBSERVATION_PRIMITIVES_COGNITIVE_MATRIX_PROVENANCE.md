@@ -1,18 +1,21 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: L01 SENSING OBSERVATION PRIMITIVES COGNITIVE MATRIX PROVENANCE
 type: provenance
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION
 tags:
-- amos
-- cognitive-matrix
-- matrix/l01
-- sensing-observation
-- provenance
-- evidence-topology
-- rscf
-- hml
-- control-plane
-- domain/cognitive-matrix
+  - amos
+  - cognitive-matrix
+  - matrix/l01
+  - sensing-observation
+  - provenance
+  - evidence-topology
+  - rscf
+  - hml
+  - control-plane
+  - domain/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL
@@ -32,9 +35,9 @@ rscf:
 
 > **Epistemic boundary:** this document defines the proposed provenance contract for `L01_SENSING_OBSERVATION`. It preserves the distinction between reality, source, observer, sensor, observation, transformation, validation, derived state, and downstream use. Exact canonical L01 provenance schemas, identifiers, trust rules, cryptographic mechanisms, storage implementations, and runtime behavior remain subject to direct-canon confirmation and executable validation.
 
----
+______________________________________________________________________
 
-# 0. Purpose
+## 0. Purpose
 
 `L01_SENSING_OBSERVATION/PROVENANCE.md` defines how AMOS records, preserves, validates, propagates, audits, invalidates, and repairs the lineage of sensing and observation state.
 
@@ -65,23 +68,23 @@ can the lineage be reconstructed?
 
 The conceptual chain is:
 
-[
-\boxed{
+\[
+\\boxed{
 Reality
-\rightarrow
+\\rightarrow
 Source
-\rightarrow
+\\rightarrow
 Sensing
-\rightarrow
+\\rightarrow
 Observation
-\rightarrow
+\\rightarrow
 Transformation
-\rightarrow
+\\rightarrow
 Validation
-\rightarrow
+\\rightarrow
 DerivedState
 }
-]
+\]
 
 with provenance attached to every material transition.
 
@@ -98,9 +101,9 @@ stale evidence from appearing current
 invalidated evidence from remaining silently active
 ```
 
----
+______________________________________________________________________
 
-# 1. Source / Canon References
+## 1. Source / Canon References
 
 ## 1.1 Origin
 
@@ -225,16 +228,16 @@ TRACEABLE LINEAGE
 TRUE CONTENT
 ```
 
----
+______________________________________________________________________
 
-# 2. Definition
+## 2. Definition
 
 `L01 Provenance` is the typed lineage state describing the origin, observation event, transformations, validations, dependencies, custody, applicability envelope, and downstream derivations of an observation-bearing object.
 
 General form:
 
-[
-\boxed{
+\[
+\\boxed{
 P(O)=
 (
 Origin,
@@ -249,16 +252,16 @@ Validation,
 Uncertainty
 )
 }
-]
+\]
 
-where \(O\) is an observation-bearing state.
+where (O) is an observation-bearing state.
 
 More generally:
 
-[
-\boxed{
+\[
+\\boxed{
 P_x =
-P[
+P\[
 identity,
 origin,
 ancestry,
@@ -274,17 +277,17 @@ validation,
 authority,
 uncertainty,
 status
-]
+\]
 }
-]
+\]
 
 Provenance is not merely metadata.
 
 It is part of the admissibility state of evidence.
 
----
+______________________________________________________________________
 
-# 3. Scope
+## 3. Scope
 
 This contract governs provenance for:
 
@@ -335,9 +338,9 @@ retraction
 revocation
 ```
 
----
+______________________________________________________________________
 
-# 4. What Provenance Does Not Prove
+## 4. What Provenance Does Not Prove
 
 A valid provenance chain does not independently prove:
 
@@ -356,27 +359,27 @@ fitness for a new regime
 
 Therefore:
 
-[
-\boxed{
+\[
+\\boxed{
 Traceable(x)
-\not\Rightarrow
+\\not\\Rightarrow
 True(x)
 }
-]
+\]
 
 and:
 
-[
-\boxed{
+\[
+\\boxed{
 Traceable(x)
-\not\Rightarrow
+\\not\\Rightarrow
 Trusted(x)
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 5. Typed Inputs
+## 5. Typed Inputs
 
 ```yaml
 ProvenanceInput:
@@ -433,9 +436,9 @@ ProvenanceInput:
     type: AuthorityContext | null
 ```
 
----
+______________________________________________________________________
 
-# 6. Typed Outputs
+## 6. Typed Outputs
 
 ```yaml
 ProvenanceOutput:
@@ -493,9 +496,9 @@ ProvenanceOutput:
     type: GapRecord[]
 ```
 
----
+______________________________________________________________________
 
-# 7. Provenance Bundle
+## 7. Provenance Bundle
 
 Minimum conceptual provenance bundle:
 
@@ -554,9 +557,9 @@ ProvenanceBundle:
 
 Exact fields remain `AMOS_MODEL` until direct canon confirms them.
 
----
+______________________________________________________________________
 
-# 8. State Variables
+## 8. State Variables
 
 ```text
 P = provenance state
@@ -608,12 +611,9 @@ W = authority witness state
 
 Provenance tensor:
 
-[
-\boxed{
-T_{prov}
-========
+## \[ \\boxed{ T\_{prov}
 
-T[
+T\[
 object,
 source,
 ancestry,
@@ -628,21 +628,21 @@ dependency,
 validation,
 uncertainty,
 lifecycle
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 9. Provenance Graph
+## 9. Provenance Graph
 
 Represent provenance as a directed graph:
 
-[
-\boxed{
+\[
+\\boxed{
 G_P=(V_P,E_P)
 }
-]
+\]
 
 where nodes may include:
 
@@ -676,9 +676,9 @@ INVALIDATES
 DEPENDS_ON
 ```
 
----
+______________________________________________________________________
 
-# 10. Core Operators
+## 10. Core Operators
 
 Candidate provenance operators:
 
@@ -712,9 +712,9 @@ REPAIR_LINEAGE
 
 These are proposed architectural operators, not claims of deployed implementations.
 
----
+______________________________________________________________________
 
-# 11. REGISTER_SOURCE
+## 11. REGISTER_SOURCE
 
 Purpose:
 
@@ -722,11 +722,11 @@ Create an addressable source identity.
 
 Conceptual operation:
 
-[
+\[
 REGISTER_SOURCE(S)
-\rightarrow
-S_{ref}
-]
+\\rightarrow
+S\_{ref}
+\]
 
 Suggested source fields:
 
@@ -756,15 +756,15 @@ SourceRecord:
 
 Addressability does not imply validation.
 
----
+______________________________________________________________________
 
-# 12. REGISTER_OBSERVATION
+## 12. REGISTER_OBSERVATION
 
-[
+\[
 REGISTER_OBSERVATION(O,P)
-\rightarrow
+\\rightarrow
 O'
-]
+\]
 
 The operation binds an observation to provenance at creation or ingestion.
 
@@ -779,15 +779,15 @@ source:
 
 must remain explicit.
 
----
+______________________________________________________________________
 
-# 13. TRACE_ANCESTRY
+## 13. TRACE_ANCESTRY
 
-[
+\[
 TRACE_ANCESTRY(O)
-\rightarrow
+\\rightarrow
 Ancestors(O)
-]
+\]
 
 The operation attempts to reconstruct all material upstream dependencies.
 
@@ -805,16 +805,16 @@ ancestry_status = UNKNOWN
 
 not `INDEPENDENT`.
 
----
+______________________________________________________________________
 
-# 14. TRACE_ROOT_SOURCE
+## 14. TRACE_ROOT_SOURCE
 
 Root sources are provenance nodes with no known evidence parent inside the currently available lineage graph.
 
-[
+\[
 Root(O)=
-{v\in Ancestors(O): Parent(v)=\varnothing}
-]
+{v\\in Ancestors(O): Parent(v)=\\varnothing}
+\]
 
 Important:
 
@@ -826,9 +826,9 @@ PROVEN INDEPENDENT ORIGIN
 
 The parent may simply be unavailable.
 
----
+______________________________________________________________________
 
-# 15. Transformation Provenance
+## 15. Transformation Provenance
 
 Every material transformation should record:
 
@@ -847,27 +847,23 @@ uncertainty introduced
 
 Conceptual form:
 
-[
-O'
-==
+## \[ O'
 
 T_k(O)
-]
+\]
 
 with:
 
-[
-P(O')
-=====
+## \[ P(O')
 
 P(O)
-\cup
+\\cup
 Record(T_k)
-]
+\]
 
----
+______________________________________________________________________
 
-# 16. Transformation Chain
+## 16. Transformation Chain
 
 Example:
 
@@ -889,9 +885,9 @@ Each edge must remain recoverable at the level required for audit.
 
 The summary must not masquerade as the raw observation.
 
----
+______________________________________________________________________
 
-# 17. Lossy Transformation
+## 17. Lossy Transformation
 
 If transformation loses information:
 
@@ -919,34 +915,34 @@ A lossy transformation may lower downstream confidence.
 
 It cannot silently increase it.
 
----
+______________________________________________________________________
 
-# 18. Provenance Merge
+## 18. Provenance Merge
 
 When multiple observations combine:
 
-[
-O^* =
-Merge(O_1,\ldots,O_n)
-]
+\[
+O^\* =
+Merge(O_1,\\ldots,O_n)
+\]
 
 then:
 
-[
-\boxed{
-P(O^*)
-\supseteq
-\bigcup_i P(O_i)
+\[
+\\boxed{
+P(O^\*)
+\\supseteq
+\\bigcup_i P(O_i)
 }
-]
+\]
 
 at sufficient resolution to recover load-bearing ancestry.
 
 Merge must preserve shared ancestry.
 
----
+______________________________________________________________________
 
-# 19. Provenance Fork
+## 19. Provenance Fork
 
 When one observation generates multiple derivatives:
 
@@ -961,38 +957,34 @@ each derivative inherits the load-bearing provenance of `O`.
 
 The derivatives are not independent evidence.
 
----
+______________________________________________________________________
 
-# 20. Provenance Independence
+## 20. Provenance Independence
 
 Independence is a property to establish, not a default.
 
 For observations (O_i,O_j):
 
-[
+\[
 Independent(O_i,O_j)
-]
+\]
 
 requires sufficient evidence that their material evidential ancestry does not collapse onto the same origin or dependency.
 
 A conservative conceptual test is:
 
-[
-Root(O_i)
-\cap
-Root(O_j)
-=========
+## \[ Root(O_i) \\cap Root(O_j)
 
-\varnothing
-]
+\\varnothing
+\]
 
 but even disjoint recorded roots do not prove real-world independence when hidden common causes or common data pipelines may exist.
 
 Therefore provenance independence remains bounded.
 
----
+______________________________________________________________________
 
-# 21. Sybil / Duplicate Ancestry
+## 21. Sybil / Duplicate Ancestry
 
 Example:
 
@@ -1009,27 +1001,27 @@ Five retrieval paths may still represent one evidential origin.
 
 Therefore:
 
-[
-\boxed{
-N_{documents}
-\neq
-N_{independent_sources}
+\[
+\\boxed{
+N\_{documents}
+\\neq
+N\_{independent_sources}
 }
-]
+\]
 
 and:
 
-[
-\boxed{
+\[
+\\boxed{
 Repetition
-\neq
+\\neq
 Corroboration
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 22. Source Identity
+## 22. Source Identity
 
 Source identity should distinguish:
 
@@ -1060,9 +1052,9 @@ different versions
 
 may represent materially different source states.
 
----
+______________________________________________________________________
 
-# 23. Source Fingerprint
+## 23. Source Fingerprint
 
 Where available, a source fingerprint may include:
 
@@ -1082,9 +1074,9 @@ Fingerprint availability is implementation-dependent.
 
 Missing fingerprint must remain a provenance gap.
 
----
+______________________________________________________________________
 
-# 24. Observation Event Provenance
+## 24. Observation Event Provenance
 
 Observation provenance should distinguish:
 
@@ -1099,53 +1091,53 @@ commit time
 
 These timestamps must not be silently collapsed.
 
----
+______________________________________________________________________
 
-# 25. Temporal Provenance
+## 25. Temporal Provenance
 
 Conceptual timeline:
 
-[
-t_{event}
-\le
-t_{observe}
-\le
-t_{record}
-\le
-t_{ingest}
-\le
-t_{validate}
-]
+\[
+t\_{event}
+\\le
+t\_{observe}
+\\le
+t\_{record}
+\\le
+t\_{ingest}
+\\le
+t\_{validate}
+\]
 
 This ordering is not universally guaranteed.
 
 Delayed or retrospective observations must explicitly preserve the actual temporal relationship.
 
----
+______________________________________________________________________
 
-# 26. Freshness
+## 26. Freshness
 
 Freshness depends on intended use.
 
 Conceptually:
 
-[
+\[
 F =
 f(
-t_{now}-t_{observe},
+t\_{now}-t\_{observe},
 change_rate,
 regime,
 use
 )
-]
+\]
 
 This is an AMOS MODEL relation, not a universal empirical equation.
 
 Freshness must not be inferred solely from retrieval time.
 
----
+______________________________________________________________________
 
-# 27. Scope Provenance
+## 27. Scope Provenance
 
 Every observation should inherit an applicability envelope.
 
@@ -1163,11 +1155,11 @@ domain
 task
 ```
 
-An observation valid for scope \(C_1\) cannot silently become evidence for broader scope \(C_2\).
+An observation valid for scope (C_1) cannot silently become evidence for broader scope (C_2).
 
----
+______________________________________________________________________
 
-# 28. Regime Provenance
+## 28. Regime Provenance
 
 Provenance must preserve the regime under which evidence was produced.
 
@@ -1185,9 +1177,9 @@ experimental regime
 
 Evidence crossing regimes requires explicit compatibility analysis.
 
----
+______________________________________________________________________
 
-# 29. H/M/L Provenance
+## 29. H/M/L Provenance
 
 Every observation should identify its scale where material.
 
@@ -1199,9 +1191,9 @@ H = system / governing observation
 
 Cross-scale transformations must record their aggregation or projection operators.
 
----
+______________________________________________________________________
 
-# 30. H/M/L — L Provenance
+## 30. H/M/L — L Provenance
 
 L-level provenance may track:
 
@@ -1216,9 +1208,9 @@ single interaction
 
 Highest lineage resolution is generally expected here.
 
----
+______________________________________________________________________
 
-# 31. H/M/L — M Provenance
+## 31. H/M/L — M Provenance
 
 M-level provenance may track:
 
@@ -1233,9 +1225,9 @@ aggregated measurements
 
 M-level aggregation must retain recoverable links to load-bearing L evidence.
 
----
+______________________________________________________________________
 
-# 32. H/M/L — H Provenance
+## 32. H/M/L — H Provenance
 
 H-level provenance may track:
 
@@ -1249,35 +1241,35 @@ system-wide conditions
 
 H-level compression must not destroy the ability to inspect decisive M/L premises.
 
----
+______________________________________________________________________
 
-# 33. Cross-Scale Provenance Invariant
+## 33. Cross-Scale Provenance Invariant
 
 If:
 
-[
+\[
 O_L
-\rightarrow
+\\rightarrow
 O_M
-\rightarrow
+\\rightarrow
 O_H
-]
+\]
 
 then the H-level object should retain a recoverable path to the load-bearing lower-level evidence.
 
-[
-\boxed{
+\[
+\\boxed{
 P(O_H)
-\rightsquigarrow
+\\rightsquigarrow
 P(O_M)
-\rightsquigarrow
+\\rightsquigarrow
 P(O_L)
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 34. Epistemic Class Provenance
+## 34. Epistemic Class Provenance
 
 Every provenance object should preserve epistemic class.
 
@@ -1306,9 +1298,9 @@ DECISION → EVIDENCE
 
 unless a new appropriately typed evidence event occurs.
 
----
+______________________________________________________________________
 
-# 35. Source Claim vs Observation
+## 35. Source Claim vs Observation
 
 A source saying:
 
@@ -1328,9 +1320,9 @@ DIRECT OBSERVATION
 
 This distinction must remain in provenance.
 
----
+______________________________________________________________________
 
-# 36. Observation vs Derived State
+## 36. Observation vs Derived State
 
 Example:
 
@@ -1346,9 +1338,9 @@ The derived state depends on at least two observations and a comparison operator
 
 Its provenance must include both.
 
----
+______________________________________________________________________
 
-# 37. Model Output Provenance
+## 37. Model Output Provenance
 
 Model output should preserve:
 
@@ -1364,9 +1356,9 @@ uncertainty
 
 Model output remains `MODEL` or `DERIVED` unless separately grounded.
 
----
+______________________________________________________________________
 
-# 38. Simulation Provenance
+## 38. Simulation Provenance
 
 Simulation state must explicitly identify:
 
@@ -1385,9 +1377,9 @@ SIMULATED OBSERVATION
 OBSERVED REALITY
 ```
 
----
+______________________________________________________________________
 
-# 39. Human Observation Provenance
+## 39. Human Observation Provenance
 
 Human-origin observations may include:
 
@@ -1403,9 +1395,9 @@ possible interpretation layer
 
 Privacy requirements may limit identity disclosure while preserving sufficient provenance.
 
----
+______________________________________________________________________
 
-# 40. Tool Observation Provenance
+## 40. Tool Observation Provenance
 
 Tool-generated evidence should identify:
 
@@ -1422,9 +1414,9 @@ environment
 
 A tool response is not automatically true merely because execution succeeded.
 
----
+______________________________________________________________________
 
-# 41. Retrieval Provenance
+## 41. Retrieval Provenance
 
 Retrieved information should preserve:
 
@@ -1440,9 +1432,9 @@ ranking/filtering transformations where material
 
 Retrieval provenance and source provenance are distinct.
 
----
+______________________________________________________________________
 
-# 42. Memory Provenance
+## 42. Memory Provenance
 
 When observation enters persistent memory:
 
@@ -1468,9 +1460,9 @@ invalidation conditions
 
 Memory persistence does not increase evidential truth.
 
----
+______________________________________________________________________
 
-# 43. RSCF Provenance
+## 43. RSCF Provenance
 
 When an observation becomes evidence for an RSCF:
 
@@ -1483,17 +1475,17 @@ CLAIM C
 
 the RSCF should preserve a dependency edge:
 
-[
-\boxed{
-C \xleftarrow{depends_on} O
+\[
+\\boxed{
+C \\xleftarrow{depends_on} O
 }
-]
+\]
 
 If `O` becomes invalid, claims materially dependent on `O` require revalidation.
 
----
+______________________________________________________________________
 
-# 44. Provenance Invariants
+## 44. Provenance Invariants
 
 Minimum proposed invariant registry:
 
@@ -1525,9 +1517,9 @@ L01-PROV-INV-024  Supersession Preservation
 L01-PROV-INV-025  Audit Recoverability
 ```
 
----
+______________________________________________________________________
 
-# 45. Provenance Presence Invariant
+## 45. Provenance Presence Invariant
 
 Every consequential observation should have either:
 
@@ -1543,9 +1535,9 @@ PROVENANCE_UNKNOWN
 
 Absence must not be silently interpreted as trusted provenance.
 
----
+______________________________________________________________________
 
-# 46. Source Identity Preservation Invariant
+## 46. Source Identity Preservation Invariant
 
 Transformation must not silently replace the original source with the transforming component.
 
@@ -1570,23 +1562,23 @@ not:
 SOURCE B
 ```
 
----
+______________________________________________________________________
 
-# 47. Ancestry Preservation Invariant
+## 47. Ancestry Preservation Invariant
 
-For derived object \(D\):
+For derived object (D):
 
-[
-\boxed{
+\[
+\\boxed{
 LoadBearingAncestors(D)
-\subseteq
+\\subseteq
 RecoverableProvenance(D)
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 48. Transformation Traceability Invariant
+## 48. Transformation Traceability Invariant
 
 If a transformation can materially change meaning, it must be represented.
 
@@ -1604,9 +1596,9 @@ classification
 inference
 ```
 
----
+______________________________________________________________________
 
-# 49. Temporal Preservation Invariant
+## 49. Temporal Preservation Invariant
 
 ```text
 OBSERVED_AT
@@ -1620,9 +1612,9 @@ COMMITTED_AT
 
 unless explicitly equal.
 
----
+______________________________________________________________________
 
-# 50. Unknown Preservation Invariant
+## 50. Unknown Preservation Invariant
 
 Missing provenance fields remain unknown.
 
@@ -1638,25 +1630,25 @@ UNKNOWN REGIME → APPLICABLE
 UNKNOWN ANCESTRY → INDEPENDENT
 ```
 
----
+______________________________________________________________________
 
-# 51. Shared-Ancestry Invariant
+## 51. Shared-Ancestry Invariant
 
 If:
 
-[
+\[
 Ancestor(O_1)
-\cap
+\\cap
 Ancestor(O_2)
-\neq
-\varnothing
-]
+\\neq
+\\varnothing
+\]
 
 the shared ancestry must remain visible when relevant to evidence aggregation.
 
----
+______________________________________________________________________
 
-# 52. Independence Non-Assumption Invariant
+## 52. Independence Non-Assumption Invariant
 
 Default state for unresolved independence:
 
@@ -1670,29 +1662,29 @@ not:
 INDEPENDENT
 ```
 
----
+______________________________________________________________________
 
-# 53. Confidence Ceiling
+## 53. Confidence Ceiling
 
 A derived object's confidence cannot exceed the weakest load-bearing premise merely because provenance is complete.
 
 Conceptually:
 
-[
-\boxed{
+\[
+\\boxed{
 C(D)
-\le
-\min_{p\in LB(D)} C(p)
+\\le
+\\min\_{p\\in LB(D)} C(p)
 }
-]
+\]
 
 unless independent revalidation supplies additional evidence.
 
 This is an AMOS governance relation, not a universal statistical theorem.
 
----
+______________________________________________________________________
 
-# 54. Validation Provenance
+## 54. Validation Provenance
 
 Validation itself requires provenance.
 
@@ -1724,9 +1716,9 @@ ValidationRecord:
   authority_context:
 ```
 
----
+______________________________________________________________________
 
-# 55. Validator Independence
+## 55. Validator Independence
 
 Multiple validators may share:
 
@@ -1749,9 +1741,9 @@ INDEPENDENT VALIDATION
 
 unless independence is demonstrated.
 
----
+______________________________________________________________________
 
-# 56. Control-Plane Requirements
+## 56. Control-Plane Requirements
 
 The control plane should govern:
 
@@ -1773,9 +1765,9 @@ Provenance workers may propose state changes.
 
 They do not automatically possess commit authority.
 
----
+______________________________________________________________________
 
-# 57. Append-First Provenance
+## 57. Append-First Provenance
 
 Material lineage history should conceptually prefer append/supersede semantics over destructive rewriting.
 
@@ -1791,11 +1783,11 @@ rather than erasing `P_v1` without trace.
 
 Exact persistence semantics belong to the implementation/control plane.
 
----
+______________________________________________________________________
 
-# 58. Commit-Time Provenance Validation
+## 58. Commit-Time Provenance Validation
 
-Before a durable effect depending on observation \(O\):
+Before a durable effect depending on observation (O):
 
 ```text
 check source status
@@ -1816,9 +1808,9 @@ STOP
 REVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 59. Agents
+## 59. Agents
 
 Candidate provenance roles:
 
@@ -1846,9 +1838,9 @@ ROLE
 DEPLOYED AGENT
 ```
 
----
+______________________________________________________________________
 
-# 60. Skills
+## 60. Skills
 
 Candidate supporting skills:
 
@@ -1871,9 +1863,9 @@ repair/recovery
 
 Skill availability does not grant authority.
 
----
+______________________________________________________________________
 
-# 61. Workflow — Observation Provenance Capture
+## 61. Workflow — Observation Provenance Capture
 
 ```text
 SENSING EVENT
@@ -1903,9 +1895,9 @@ VALIDATE PROVENANCE
 ADMIT / CONDITIONAL / QUARANTINE
 ```
 
----
+______________________________________________________________________
 
-# 62. Workflow — Derived Observation
+## 62. Workflow — Derived Observation
 
 ```text
 INPUT OBSERVATION(S)
@@ -1925,9 +1917,9 @@ RECORD NEW UNCERTAINTY
 VALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 63. Workflow — Independence Check
+## 63. Workflow — Independence Check
 
 ```text
 OBSERVATION A
@@ -1959,9 +1951,9 @@ PARTIAL
 UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 64. Workflow — Source Revocation
+## 64. Workflow — Source Revocation
 
 ```text
 SOURCE REVOKED
@@ -1983,9 +1975,9 @@ REQUEST REPLACEMENT EVIDENCE
 REVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 65. Workflow — Provenance Repair
+## 65. Workflow — Provenance Repair
 
 ```text
 PROVENANCE GAP DETECTED
@@ -2005,9 +1997,9 @@ MARK REMAINING GAP
 REVALIDATE DESCENDANTS
 ```
 
----
+______________________________________________________________________
 
-# 66. Protocols
+## 66. Protocols
 
 Provenance participates in:
 
@@ -2031,9 +2023,9 @@ AuditEvent
 
 Every protocol carrying evidence should preserve a sufficient provenance reference or bundle.
 
----
+______________________________________________________________________
 
-# 67. Evidence / Provenance of This Artifact
+## 67. Evidence / Provenance of This Artifact
 
 This artifact itself should be treated according to the same provenance discipline.
 
@@ -2066,9 +2058,9 @@ artifact_provenance:
 
 Therefore this document must not cite itself as proof that its proposed schema is canonical.
 
----
+______________________________________________________________________
 
-# 68. Uncertainty Vector
+## 68. Uncertainty Vector
 
 ```yaml
 uncertainty:
@@ -2098,9 +2090,9 @@ uncertainty:
     level: MEDIUM_HIGH
 ```
 
----
+______________________________________________________________________
 
-# 69. Confidence Ceiling
+## 69. Confidence Ceiling
 
 The strongest warranted confidence is:
 
@@ -2122,19 +2114,19 @@ RUNTIME VERIFIED
 
 Conceptually:
 
-[
-\boxed{
-C_{artifact}
-\le
-C_{weakest\ load-bearing\ source}
+\[
+\\boxed{
+C\_{artifact}
+\\le
+C\_{weakest\\ load-bearing\\ source}
 }
-]
+\]
 
 unless independently revalidated.
 
----
+______________________________________________________________________
 
-# 70. Failure Modes
+## 70. Failure Modes
 
 ## FM-PROV-01 — Missing Provenance
 
@@ -2236,9 +2228,9 @@ Missing lineage is treated as validated lineage.
 
 Provenance exposes protected source or observer information improperly.
 
----
+______________________________________________________________________
 
-# 71. Repair / Recovery
+## 71. Repair / Recovery
 
 General provenance repair:
 
@@ -2268,9 +2260,9 @@ REVALIDATE
 SELECTIVELY RESTORE OR INVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 72. Repair Principle
+## 72. Repair Principle
 
 Repair should target the earliest material provenance defect.
 
@@ -2290,26 +2282,24 @@ If the source identity is wrong, repairing only the claim label is insufficient.
 
 The repair must propagate through dependent lineage.
 
----
+______________________________________________________________________
 
-# 73. Selective Invalidation
+## 73. Selective Invalidation
 
-For provenance graph \(G_P\), if node (v) fails:
+For provenance graph (G_P), if node (v) fails:
 
-[
-Affected(v)
-===========
+## \[ Affected(v)
 
-Descendants_{load-bearing}(v)
-]
+Descendants\_{load-bearing}(v)
+\]
 
 Only materially dependent descendants should be invalidated.
 
 This prevents global recomputation when unrelated evidence remains valid.
 
----
+______________________________________________________________________
 
-# 74. Revocation
+## 74. Revocation
 
 A source may become:
 
@@ -2326,9 +2316,9 @@ Revocation is itself an event requiring provenance.
 
 It should not erase the historical fact that the source was previously used.
 
----
+______________________________________________________________________
 
-# 75. Supersession
+## 75. Supersession
 
 Supersession should preserve:
 
@@ -2344,25 +2334,25 @@ affected descendants
 
 Conceptually:
 
-[
-O_{old}
-\xrightarrow{SUPERSEDED_BY}
-O_{new}
-]
+\[
+O\_{old}
+\\xrightarrow{SUPERSEDED_BY}
+O\_{new}
+\]
 
 not:
 
-[
-O_{old}
-\rightarrow
-\varnothing
-]
+\[
+O\_{old}
+\\rightarrow
+\\varnothing
+\]
 
 by default.
 
----
+______________________________________________________________________
 
-# 76. Quarantine
+## 76. Quarantine
 
 Quarantine is appropriate when provenance is materially unresolved.
 
@@ -2389,9 +2379,9 @@ ProvenanceQuarantine:
     - COMMIT_AS_VALIDATED
 ```
 
----
+______________________________________________________________________
 
-# 77. Tests / Validators
+## 77. Tests / Validators
 
 Minimum validators:
 
@@ -2443,9 +2433,9 @@ VALIDATOR_AUTHORITY
 VALIDATOR_AUDIT_RECOVERABILITY
 ```
 
----
+______________________________________________________________________
 
-# 78. Minimum Tests
+## 78. Minimum Tests
 
 ```text
 TEST_PROV_001
@@ -2539,9 +2529,9 @@ TEST_PROV_030
 audit can reconstruct load-bearing lineage
 ```
 
----
+______________________________________________________________________
 
-# 79. Adversarial Tests
+## 79. Adversarial Tests
 
 Test against:
 
@@ -2607,9 +2597,9 @@ quarantine bypass
 memory persistence after invalidation
 ```
 
----
+______________________________________________________________________
 
-# 80. Falsifiers
+## 80. Falsifiers
 
 This contract must be revised if:
 
@@ -2637,9 +2627,9 @@ formal verification identifies inconsistent invariants
 empirical implementation demonstrates unrecoverable lineage under this design
 ```
 
----
+______________________________________________________________________
 
-# 81. Gap Matrix
+## 81. Gap Matrix
 
 ```yaml
 provenance_gap_status:
@@ -2728,9 +2718,9 @@ provenance_gap_status:
     status: GAP
 ```
 
----
+______________________________________________________________________
 
-# 82. Gap Priority
+## 82. Gap Priority
 
 Highest-priority unresolved work:
 
@@ -2766,9 +2756,9 @@ Highest-priority unresolved work:
 15. Validate selective invalidation against executable dependency graphs.
 ```
 
----
+______________________________________________________________________
 
-# 83. Hard Boundaries
+## 83. Hard Boundaries
 
 ```text
 PLACEHOLDER
@@ -2876,9 +2866,9 @@ REVOCATION
 HISTORICAL NONEXISTENCE
 ```
 
----
+______________________________________________________________________
 
-# 84. RSCF Completion State
+## 84. RSCF Completion State
 
 ```yaml
 rscf:
@@ -2981,9 +2971,9 @@ rscf:
     not empirical proof
 ```
 
----
+______________________________________________________________________
 
-# 85. Completion State
+## 85. Completion State
 
 ```yaml
 completion_state:
@@ -3067,9 +3057,9 @@ completion_state:
     MODEL / CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
-# 86. Final Contract
+## 86. Final Contract
 
 `L01_SENSING_OBSERVATION/PROVENANCE.md` defines the lineage discipline through which AMOS can distinguish an observation from its source, transformations, copies, summaries, derivations, validations, and downstream uses.
 
@@ -3131,65 +3121,65 @@ WHAT DOWNSTREAM STATE BREAKS IF IT FAILS?
 
 Its strongest governing distinctions are:
 
-[
-\boxed{
-Provenance \neq Truth
+\[
+\\boxed{
+Provenance \\neq Truth
 }
-]
+\]
 
-[
-\boxed{
-Traceability \neq Trust
+\[
+\\boxed{
+Traceability \\neq Trust
 }
-]
+\]
 
-[
-\boxed{
-Repetition \neq IndependentConfirmation
+\[
+\\boxed{
+Repetition \\neq IndependentConfirmation
 }
-]
+\]
 
-[
-\boxed{
-Transformation \neq NewEvidence
+\[
+\\boxed{
+Transformation \\neq NewEvidence
 }
-]
+\]
 
-[
-\boxed{
-Retrieval \neq Observation
+\[
+\\boxed{
+Retrieval \\neq Observation
 }
-]
+\]
 
-[
-\boxed{
-Simulation \neq Reality
+\[
+\\boxed{
+Simulation \\neq Reality
 }
-]
+\]
 
-[
-\boxed{
-UnknownAncestry \neq Independence
+\[
+\\boxed{
+UnknownAncestry \\neq Independence
 }
-]
+\]
 
-[
-\boxed{
-Capability \neq Authority
+\[
+\\boxed{
+Capability \\neq Authority
 }
-]
+\]
 
-[
-\boxed{
-Proposal \neq Commit
+\[
+\\boxed{
+Proposal \\neq Commit
 }
-]
+\]
 
-[
-\boxed{
-Unknown \neq Pass
+\[
+\\boxed{
+Unknown \\neq Pass
 }
-]
+\]
 
 The strongest warranted status is:
 
@@ -3241,30 +3231,33 @@ IMPLEMENTED
 VALIDATED
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[00_ROOT/00_HOME|00_HOME]] · 06-Knowledge-Base-MOC
 
 ```
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: l01_sensing_observation_primitives_cognitive_matrix_provenance
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_PROVENANCE.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_MOC|L01_SENSING_OBSERVATION_MOC]]
-

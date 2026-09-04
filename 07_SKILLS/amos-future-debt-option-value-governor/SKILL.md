@@ -4,24 +4,22 @@ title: SKILL — Amos Future Debt Option Value Governor
 type: skill
 source: 07_SKILLS/amos-future-debt-option-value-governor
 name: amos-future-debt-option-value-governor
-description: Future Debt Option Value Governor — econ capability. Use when executing
-  the core capability within this domain. Use when amos-c07-econ-finance-master routes
-  to this specialized capability. Do not use for generic tasks outside econ domain.
+description: Future Debt Option Value Governor — econ capability. Use when executing the core capability within this domain. Use when amos-c07-econ-finance-master routes to this specialized capability. Do not use for generic tasks outside econ domain.
 parent_skill: amos-c07-econ-finance-master
 domain: econ
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
 tags:
-- type/skill
-- type/skill
-- domain/econ-finance
-- epistemic/source_claim
-- hml/m
-- epistemic/source_claim
-- amos-os
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/econ-finance
+  - epistemic/source_claim
+  - hml/m
+  - epistemic/source_claim
+  - amos-os
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -31,22 +29,22 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: M
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
-- L6_uncertainty
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
+  - L6_uncertainty
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L6
-- L16
-- L17
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L6
+  - L16
+  - L17
 license: MIT
 steward: Trang Phan
 ---
@@ -56,6 +54,7 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: econ. Parent: amos-c07-econ-finance-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
 ## When to Use
 
 - When governing agent economy: constitutional rules, monetary policy
@@ -73,6 +72,7 @@ Origin architect: **Trang Phan**. Domain: econ. Parent: amos-c07-econ-finance-ma
 - **future_debt.assess_debt**: Assess future debt and option value: intertemporal tradeoffs and commitments
 
 > **Reference**: See `references/vault_domain_knowledge.md` (content_hash: 5fac92564417cc9c) for the full vault-sourced domain knowledge (9543 chars).
+
 - **future_debt.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
 - **future_debt.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **future_debt.validate_outputs**: Validate outputs against domain constraints and epistemic class.
@@ -80,11 +80,11 @@ Origin architect: **Trang Phan**. Domain: econ. Parent: amos-c07-econ-finance-ma
 ## Operations
 
 1. **future_debt.govern_economy**: Govern agent economy: constitutional rules, monetary policy, and allocation
-2. **future_debt.model_economic**: Model economic dynamics: supply, demand, price formation, and equilibrium
-3. **future_debt.assess_debt**: Assess future debt and option value: intertemporal tradeoffs and commitments
-4. **future_debt.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-5. **future_debt.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
-6. **future_debt.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+1. **future_debt.model_economic**: Model economic dynamics: supply, demand, price formation, and equilibrium
+1. **future_debt.assess_debt**: Assess future debt and option value: intertemporal tradeoffs and commitments
+1. **future_debt.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+1. **future_debt.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+1. **future_debt.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## 11_KNOWLEDGE Vault Content
 
@@ -97,9 +97,11 @@ Origin architect: **Trang Phan**. Domain: econ. Parent: amos-c07-econ-finance-ma
 From Cosmo Brain Evolutionary Debt: Evolutionary debt formula and repair model. From Trang Reality Architecture: Future debt in 19x19 strategic field ontology.
 
 **Evolutionary debt formula** (SOURCE_DERIVED):
+
 ```
 ED_t = TD + CD + GD + UD
 ```
+
 - TD = technical debt
 - CD = contradiction debt
 - GD = governance debt
@@ -110,6 +112,7 @@ ED_t = TD + CD + GD + UD
 **Principle**: Immediate performance gain does not justify uncontrolled future debt.
 
 **Future debt in 19x19 strategic field** (from Trang):
+
 - Every move creates memory, future debt, entropy pressure, and altered field consequence
 - Territory = crystallized gain
 - Influence = uncollapsed future potential
@@ -117,12 +120,14 @@ ED_t = TD + CD + GD + UD
 - Future debt governance: every action has a future debt cost that must be declared
 
 **Option value model**:
+
 - **Option value**: the value of keeping options open
 - **Irreversibility cost**: the cost of making an irreversible decision
 - **Flexibility premium**: the premium for maintaining flexibility
 - **Timing option**: the value of waiting for more information
 
 **Governance laws**:
+
 - `DEBT != FREE`: future debt is not free; it has compounding costs
 - `OPTION != OBLIGATION`: an option is not an obligation; it can be exercised or not
 - `IRREVERSIBLE != REVERSIBLE`: irreversible decisions require higher evidence thresholds
@@ -143,9 +148,10 @@ Future debt option value governance is a decision-support construct. It does not
 ## Validation Gates
 
 - **G1 (Law of Law)**: No unresolved contradictions within the skill's scope.
-- **G
+- \*\*G
 
----
+______________________________________________________________________
+
 **Links:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 ## Related
@@ -155,17 +161,19 @@ Future debt option value governance is a decision-support construct. It does not
 ## Examples
 
 - **Scenario**: When governing agent economy: constitutional rules, monetary policy
+
   - **Input**: A query matching this skill's domain (econ)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When modeling economic dynamics: supply, demand, price formation
+
   - **Input**: A query matching this skill's domain (econ)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When assessing future debt and option value: intertemporal tradeoffs
+
   - **Input**: A query matching this skill's domain (econ)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Anti-Patterns
 
@@ -175,7 +183,6 @@ Future debt option value governance is a decision-support construct. It does not
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `amos-c07-econ-finance-master` — routes to this skill when econ specialization is needed
@@ -183,7 +190,6 @@ Future debt option value governance is a decision-support construct. It does not
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -202,7 +208,6 @@ Future debt option value governance is a decision-support construct. It does not
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -210,7 +215,6 @@ Future debt option value governance is a decision-support construct. It does not
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -223,11 +227,12 @@ Future debt option value governance is a decision-support construct. It does not
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `amos-c07-econ-finance-master` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `amos-future-debt-option-value-governor-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -235,12 +240,14 @@ Future debt option value governance is a decision-support construct. It does not
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-future-debt-option-value-governor
 node_type: skill
 path: 07_SKILLS/amos-future-debt-option-value-governor/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

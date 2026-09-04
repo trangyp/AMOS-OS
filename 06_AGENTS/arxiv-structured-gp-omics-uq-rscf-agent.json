@@ -89,7 +89,7 @@
     "arxiv-structured-gp-omics-uq-rscf"
   ],
   "depends_on_workflows": [
-    "arxiv-structured-gp-omics-uq-rscf-workflow.md"
+    "amos-arxiv-structured-gp-omics-uq-rscf-workflow.md"
   ],
   "epistemic_class": "AMOS_MODEL",
   "claim_ceiling": 0.95,

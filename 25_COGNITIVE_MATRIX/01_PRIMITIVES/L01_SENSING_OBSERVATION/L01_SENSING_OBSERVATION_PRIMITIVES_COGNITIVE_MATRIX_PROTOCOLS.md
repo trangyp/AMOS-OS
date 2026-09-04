@@ -1,17 +1,20 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: L01 SENSING OBSERVATION PRIMITIVES COGNITIVE MATRIX PROTOCOLS
 type: protocol
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION
 tags:
-- amos
-- cognitive-matrix
-- matrix/l01
-- sensing-observation
-- protocols
-- provenance
-- control-plane
-- rscf
-- domain/cognitive-matrix
+  - amos
+  - cognitive-matrix
+  - matrix/l01
+  - sensing-observation
+  - protocols
+  - provenance
+  - control-plane
+  - rscf
+  - domain/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL
@@ -31,9 +34,9 @@ rscf:
 
 > **Epistemic boundary:** this document defines the proposed protocol contract for `L01_SENSING_OBSERVATION`. It specifies how sensing requests, observation candidates, validation results, provenance, uncertainty, conflicts, reobservation requests, routing decisions, and state-transition proposals may move between L01 components and adjacent AMOS layers. Exact canonical L01 protocol names, message schemas, state machines, transport semantics, and runtime implementations remain subject to direct-canon confirmation and executable validation.
 
----
+______________________________________________________________________
 
-# 0. Purpose
+## 0. Purpose
 
 `L01_SENSING_OBSERVATION/PROTOCOLS.md` defines the communication and state-transition rules through which L01 components exchange observation-bearing information.
 
@@ -63,39 +66,39 @@ The protocol layer exists to prevent an otherwise valid observation from becomin
 
 The conceptual communication path is:
 
-[
-\boxed{
+\[
+\\boxed{
 Sender
-\xrightarrow{ProtocolMessage}
+\\xrightarrow{ProtocolMessage}
 Receiver
-\xrightarrow{Validation}
+\\xrightarrow{Validation}
 StateTransition
 }
-]
+\]
 
 but never:
 
-[
-\boxed{
+\[
+\\boxed{
 MessageReceived
-\Rightarrow
+\\Rightarrow
 MessageTrue
 }
-]
+\]
 
 and never:
 
-[
-\boxed{
+\[
+\\boxed{
 MessageReceived
-\Rightarrow
+\\Rightarrow
 ActionAuthorized
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 1. Source / Canon References
+## 1. Source / Canon References
 
 ## 1.1 Origin
 
@@ -205,22 +208,22 @@ PROTOCOL CONTRACT
 RUNTIME VALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 2. Definition
+## 2. Definition
 
 An `L01 Protocol` is a typed rule governing communication, validation, routing, acknowledgement, rejection, quarantine, retry, recovery, or state-transition coordination involving sensing and observation state.
 
 General form:
 
-[
-\boxed{
+\[
+\\boxed{
 P:
 (S,M,R,C,A)
-\rightarrow
+\\rightarrow
 (R',E)
 }
-]
+\]
 
 where:
 
@@ -261,9 +264,9 @@ failure handling
 replay handling
 ```
 
----
+______________________________________________________________________
 
-# 3. Scope
+## 3. Scope
 
 This contract governs communication involving:
 
@@ -320,9 +323,9 @@ persistent storage engine
 
 unless those are separately specified by canonical AMOS infrastructure.
 
----
+______________________________________________________________________
 
-# 4. Typed Protocol Envelope
+## 4. Typed Protocol Envelope
 
 All consequential L01 messages should conceptually conform to a common envelope.
 
@@ -405,9 +408,9 @@ L01ProtocolEnvelope:
     type: ConfidenceCeiling
 ```
 
----
+______________________________________________________________________
 
-# 5. Protocol State Variables
+## 5. Protocol State Variables
 
 ```text
 M = message state
@@ -459,10 +462,10 @@ X = execution/result state
 
 Protocol-state tensor:
 
-[
-\boxed{
+\[
+\\boxed{
 T_P =
-T[
+T\[
 message,
 type,
 sender,
@@ -478,13 +481,13 @@ dependencies,
 authority,
 validation,
 lifecycle
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 6. Core Protocol Families
+## 6. Core Protocol Families
 
 The proposed protocol families are:
 
@@ -507,9 +510,9 @@ The proposed protocol families are:
 
 These are architectural categories, not direct-canon claims.
 
----
+______________________________________________________________________
 
-# 7. Candidate Message Registry
+## 7. Candidate Message Registry
 
 ```text
 SensingRequest
@@ -582,9 +585,9 @@ MESSAGE NAME PRESENT HERE
 DIRECT CANON CONFIRMATION
 ```
 
----
+______________________________________________________________________
 
-# 8. Message Identity Protocol
+## 8. Message Identity Protocol
 
 Every consequential message should possess a stable message identity.
 
@@ -611,9 +614,9 @@ Message identity must not be inferred solely from payload equality.
 
 Two messages containing identical payloads may still represent distinct transmission events.
 
----
+______________________________________________________________________
 
-# 9. Correlation Protocol
+## 9. Correlation Protocol
 
 Messages belonging to one workflow may share a `correlation_id`.
 
@@ -637,9 +640,9 @@ Correlation identifies workflow relationship.
 
 It does not establish causal responsibility.
 
----
+______________________________________________________________________
 
-# 10. Causation-Link Protocol
+## 10. Causation-Link Protocol
 
 Where a message directly causes another protocol transition, a `causation_id` may reference the triggering message.
 
@@ -659,9 +662,9 @@ This is protocol lineage.
 
 It is not equivalent to an empirical causal claim about the external world.
 
----
+______________________________________________________________________
 
-# 11. SensingRequest Protocol
+## 11. SensingRequest Protocol
 
 Purpose:
 
@@ -711,9 +714,9 @@ boundary compatibility
 
 before execution.
 
----
+______________________________________________________________________
 
-# 12. SensingAccepted Protocol
+## 12. SensingAccepted Protocol
 
 Indicates that a request is admissible for execution.
 
@@ -747,9 +750,9 @@ SensingAccepted:
   expected_result_type:
 ```
 
----
+______________________________________________________________________
 
-# 13. SensingRejected Protocol
+## 13. SensingRejected Protocol
 
 A sensing request should be rejected when execution is not admissible.
 
@@ -771,9 +774,9 @@ UNSUPPORTED_OPERATION
 
 Rejection should be explicit rather than represented as an empty observation.
 
----
+______________________________________________________________________
 
-# 14. SensingResult Protocol
+## 14. SensingResult Protocol
 
 ```yaml
 SensingResult:
@@ -807,9 +810,9 @@ SensingResult:
 
 A sensing result is normally an observation candidate until validation requirements are satisfied.
 
----
+______________________________________________________________________
 
-# 15. SensingFailure Protocol
+## 15. SensingFailure Protocol
 
 A failed sensing operation must not generate fabricated observational content.
 
@@ -849,9 +852,9 @@ NO RESULT
 NORMAL
 ```
 
----
+______________________________________________________________________
 
-# 16. ObservationCandidate Protocol
+## 16. ObservationCandidate Protocol
 
 Represents observation-bearing state not yet fully admitted.
 
@@ -894,9 +897,9 @@ ObservationCandidate:
     default: PENDING
 ```
 
----
+______________________________________________________________________
 
-# 17. Observation Validation Protocol
+## 17. Observation Validation Protocol
 
 Conceptual sequence:
 
@@ -928,9 +931,9 @@ UNKNOWN
 PASS
 ```
 
----
+______________________________________________________________________
 
-# 18. ObservationValidationRequest
+## 18. ObservationValidationRequest
 
 ```yaml
 ObservationValidationRequest:
@@ -958,9 +961,9 @@ ObservationValidationRequest:
   authority:
 ```
 
----
+______________________________________________________________________
 
-# 19. ObservationValidationResult
+## 19. ObservationValidationResult
 
 ```yaml
 ObservationValidationResult:
@@ -990,9 +993,9 @@ ObservationValidationResult:
   validator_provenance:
 ```
 
----
+______________________________________________________________________
 
-# 20. Provenance Validation Protocol
+## 20. Provenance Validation Protocol
 
 Before consequential reuse, the protocol may request validation of:
 
@@ -1009,13 +1012,13 @@ independence
 
 Conceptually:
 
-[
-\boxed{
+\[
+\\boxed{
 VALIDATE_PROVENANCE(P)
-\rightarrow
+\\rightarrow
 P'
 }
-]
+\]
 
 Possible status:
 
@@ -1028,9 +1031,9 @@ UNKNOWN
 QUARANTINED
 ```
 
----
+______________________________________________________________________
 
-# 21. Provenance Independence Protocol
+## 21. Provenance Independence Protocol
 
 Multiple messages must not be treated as independent merely because they arrived through different paths.
 
@@ -1051,17 +1054,17 @@ shared_origin = SOURCE A
 
 Therefore:
 
-[
-\boxed{
+\[
+\\boxed{
 MessageCount
-\neq
+\\neq
 IndependentEvidenceCount
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 22. Quality Assessment Protocol
+## 22. Quality Assessment Protocol
 
 ```yaml
 ObservationQualityAssessment:
@@ -1095,9 +1098,9 @@ Unknown dimensions remain `UNKNOWN`.
 
 They are not assigned invented values.
 
----
+______________________________________________________________________
 
-# 23. Uncertainty Assessment Protocol
+## 23. Uncertainty Assessment Protocol
 
 ```yaml
 ObservationUncertaintyAssessment:
@@ -1129,9 +1132,9 @@ ObservationUncertaintyAssessment:
   confidence_ceiling:
 ```
 
----
+______________________________________________________________________
 
-# 24. Freshness Assessment Protocol
+## 24. Freshness Assessment Protocol
 
 ```yaml
 ObservationFreshnessAssessment:
@@ -1159,9 +1162,9 @@ ObservationFreshnessAssessment:
 
 Freshness is purpose- and regime-dependent.
 
----
+______________________________________________________________________
 
-# 25. Conflict Detection Protocol
+## 25. Conflict Detection Protocol
 
 When two observations appear incompatible:
 
@@ -1188,9 +1191,9 @@ same H/M/L?
 
 Only then should a contradiction be declared.
 
----
+______________________________________________________________________
 
-# 26. ObservationConflictEvent
+## 26. ObservationConflictEvent
 
 ```yaml
 ObservationConflictEvent:
@@ -1222,9 +1225,9 @@ ObservationConflictEvent:
     - UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 27. Competing Observation Protocol
+## 27. Competing Observation Protocol
 
 If incompatible observations cannot yet be resolved:
 
@@ -1254,9 +1257,9 @@ COMPETING
 FAILURE
 ```
 
----
+______________________________________________________________________
 
-# 28. Discrimination Protocol
+## 28. Discrimination Protocol
 
 Purpose:
 
@@ -1296,9 +1299,9 @@ DiscriminationResult:
 
 Exact numerical information-gain semantics require domain-specific definition.
 
----
+______________________________________________________________________
 
-# 29. Reobservation Protocol
+## 29. Reobservation Protocol
 
 Reobservation creates a new observation state.
 
@@ -1314,19 +1317,19 @@ O_t2
 
 with:
 
-[
-\boxed{
-O_{t1}
-\neq
-O_{t2}
+\[
+\\boxed{
+O\_{t1}
+\\neq
+O\_{t2}
 }
-]
+\]
 
 even if their measured values are equal.
 
----
+______________________________________________________________________
 
-# 30. ObservationReobservationRequest
+## 30. ObservationReobservationRequest
 
 ```yaml
 ObservationReobservationRequest:
@@ -1353,9 +1356,9 @@ ObservationReobservationRequest:
   authority:
 ```
 
----
+______________________________________________________________________
 
-# 31. ObservationReobservationResult
+## 31. ObservationReobservationResult
 
 ```yaml
 ObservationReobservationResult:
@@ -1375,9 +1378,9 @@ ObservationReobservationResult:
   validation_state:
 ```
 
----
+______________________________________________________________________
 
-# 32. Revalidation Protocol
+## 32. Revalidation Protocol
 
 Revalidation is required when material validity conditions change.
 
@@ -1397,9 +1400,9 @@ control-policy change
 
 Revalidation produces a new validation state without erasing prior validation history.
 
----
+______________________________________________________________________
 
-# 33. Routing Protocol
+## 33. Routing Protocol
 
 Routing determines where an observation may go next.
 
@@ -1431,9 +1434,9 @@ privacy/exposure boundary
 dependency state
 ```
 
----
+______________________________________________________________________
 
-# 34. ObservationRoutingRequest
+## 34. ObservationRoutingRequest
 
 ```yaml
 ObservationRoutingRequest:
@@ -1457,9 +1460,9 @@ ObservationRoutingRequest:
   provenance:
 ```
 
----
+______________________________________________________________________
 
-# 35. ObservationRoutingResult
+## 35. ObservationRoutingResult
 
 ```yaml
 ObservationRoutingResult:
@@ -1482,9 +1485,9 @@ ObservationRoutingResult:
   routed_at:
 ```
 
----
+______________________________________________________________________
 
-# 36. Memory Admission Protocol
+## 36. Memory Admission Protocol
 
 Observation existence does not automatically authorize persistent memory.
 
@@ -1512,9 +1515,9 @@ MEMORY-ELIGIBLE
 AUTHORIZED TO WRITE
 ```
 
----
+______________________________________________________________________
 
-# 37. MemoryAdmissionProposal
+## 37. MemoryAdmissionProposal
 
 ```yaml
 MemoryAdmissionProposal:
@@ -1540,9 +1543,9 @@ MemoryAdmissionProposal:
   invalidation_conditions:
 ```
 
----
+______________________________________________________________________
 
-# 38. MemoryAdmissionResult
+## 38. MemoryAdmissionResult
 
 ```yaml
 MemoryAdmissionResult:
@@ -1576,9 +1579,9 @@ COMMITTED WRITE
 
 unless commit is explicitly confirmed.
 
----
+______________________________________________________________________
 
-# 39. State Transition Protocol
+## 39. State Transition Protocol
 
 Any durable mutation should conceptually follow:
 
@@ -1602,9 +1605,9 @@ PROPOSE
 COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 40. StateTransitionProposal
+## 40. StateTransitionProposal
 
 ```yaml
 StateTransitionProposal:
@@ -1632,9 +1635,9 @@ StateTransitionProposal:
   expected_effects:
 ```
 
----
+______________________________________________________________________
 
-# 41. StateTransitionValidation
+## 41. StateTransitionValidation
 
 ```yaml
 StateTransitionValidation:
@@ -1658,9 +1661,9 @@ StateTransitionValidation:
   confidence_ceiling:
 ```
 
----
+______________________________________________________________________
 
-# 42. StateTransitionCommit
+## 42. StateTransitionCommit
 
 ```yaml
 StateTransitionCommit:
@@ -1684,28 +1687,25 @@ StateTransitionCommit:
 
 A commit message must not exist merely because a proposal succeeded locally.
 
----
+______________________________________________________________________
 
-# 43. Commit-Time Freshness Protocol
+## 43. Commit-Time Freshness Protocol
 
 Before durable effects:
 
-[
-\boxed{
-CommitEligible
-==============
+## \[ \\boxed{ CommitEligible
 
 Validated
-\land
+\\land
 Authorized
-\land
+\\land
 Fresh
-\land
+\\land
 DependencyValid
-\land
+\\land
 ConstraintCompatible
 }
-]
+\]
 
 This is an AMOS MODEL gate.
 
@@ -1717,9 +1717,9 @@ STOP
 REVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 44. Invalidation Protocol
+## 44. Invalidation Protocol
 
 Invalidation should be explicit and dependency-aware.
 
@@ -1753,9 +1753,9 @@ invalidate affected descendants
 preserve unrelated state
 ```
 
----
+______________________________________________________________________
 
-# 45. Supersession Protocol
+## 45. Supersession Protocol
 
 Supersession preserves lineage.
 
@@ -1769,9 +1769,9 @@ NEW OBSERVATION
 
 The old record remains historically addressable unless separate retention governance requires removal.
 
----
+______________________________________________________________________
 
-# 46. Quarantine Protocol
+## 46. Quarantine Protocol
 
 Quarantine is used when:
 
@@ -1810,9 +1810,9 @@ ProtocolQuarantine:
     - COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 47. Acknowledgement Protocol
+## 47. Acknowledgement Protocol
 
 Messages requiring reliable handoff may require acknowledgement.
 
@@ -1842,9 +1842,9 @@ PROCESSED
 VALIDATED
 ```
 
----
+______________________________________________________________________
 
-# 48. Retry Protocol
+## 48. Retry Protocol
 
 Retry is allowed only when:
 
@@ -1865,9 +1865,9 @@ previous failure
 changed conditions
 ```
 
----
+______________________________________________________________________
 
-# 49. Idempotency Protocol
+## 49. Idempotency Protocol
 
 Where duplicate delivery is possible, state-changing requests should expose an idempotency key or equivalent identity mechanism.
 
@@ -1883,9 +1883,9 @@ must not accidentally create multiple durable mutations.
 
 Exact runtime semantics remain `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
-# 50. Replay Protocol
+## 50. Replay Protocol
 
 A repeated historical message must not automatically be treated as a fresh observation.
 
@@ -1904,9 +1904,9 @@ replay
 reobservation
 ```
 
----
+______________________________________________________________________
 
-# 51. Temporal Ordering Protocol
+## 51. Temporal Ordering Protocol
 
 Where ordering matters:
 
@@ -1922,23 +1922,23 @@ must remain distinct.
 
 Expected ordering often resembles:
 
-[
-t_{observed}
-\le
-t_{sent}
-\le
-t_{received}
-\le
-t_{processed}
-\le
-t_{commit}
-]
+\[
+t\_{observed}
+\\le
+t\_{sent}
+\\le
+t\_{received}
+\\le
+t\_{processed}
+\\le
+t\_{commit}
+\]
 
 but exceptions such as delayed ingestion require explicit representation rather than silent correction.
 
----
+______________________________________________________________________
 
-# 52. H/M/L Protocol Applicability
+## 52. H/M/L Protocol Applicability
 
 ## L — Local Protocols
 
@@ -1974,9 +1974,9 @@ global regime observation
 system-level reobservation coordination
 ```
 
----
+______________________________________________________________________
 
-# 53. Cross-Scale Protocol Rule
+## 53. Cross-Scale Protocol Rule
 
 A message changing scale must identify the transformation.
 
@@ -2002,9 +2002,9 @@ MESSAGE FORWARDED UPWARD
 EVIDENCE VALID AT HIGHER SCALE
 ```
 
----
+______________________________________________________________________
 
-# 54. Protocol Invariants
+## 54. Protocol Invariants
 
 Minimum proposed invariant registry:
 
@@ -2036,9 +2036,9 @@ L01-PROTO-INV-024  Version Traceability
 L01-PROTO-INV-025  Failure Explicitness
 ```
 
----
+______________________________________________________________________
 
-# 55. Typed Message Invariant
+## 55. Typed Message Invariant
 
 A receiver must either:
 
@@ -2054,9 +2054,9 @@ reject / quarantine / return UNKNOWN
 
 It must not silently reinterpret incompatible messages.
 
----
+______________________________________________________________________
 
-# 56. Epistemic Preservation Invariant
+## 56. Epistemic Preservation Invariant
 
 Transport must not upgrade epistemic class.
 
@@ -2076,41 +2076,41 @@ OBSERVATION
 
 Transport is not independent validation.
 
----
+______________________________________________________________________
 
-# 57. Provenance Preservation Invariant
+## 57. Provenance Preservation Invariant
 
-For message \(M\) derived from observation \(O\):
+For message (M) derived from observation (O):
 
-[
-\boxed{
+\[
+\\boxed{
 P(M)
-\supseteq
+\\supseteq
 P(O)
 }
-]
+\]
 
 at sufficient resolution for downstream audit.
 
----
+______________________________________________________________________
 
-# 58. Temporal Preservation Invariant
+## 58. Temporal Preservation Invariant
 
 A receiver must not replace observation time with receive time.
 
-[
-\boxed{
+\[
+\\boxed{
 ObservedAt
-\neq
+\\neq
 ReceivedAt
 }
-]
+\]
 
 unless explicitly equal.
 
----
+______________________________________________________________________
 
-# 59. Scope Preservation Invariant
+## 59. Scope Preservation Invariant
 
 A protocol cannot silently widen the applicability envelope of its payload.
 
@@ -2128,29 +2128,29 @@ local observation
 → global fact
 ```
 
----
+______________________________________________________________________
 
-# 60. Regime Preservation Invariant
+## 60. Regime Preservation Invariant
 
-A message valid in regime \(R_1\) does not automatically become valid in regime \(R_2\).
+A message valid in regime (R_1) does not automatically become valid in regime (R_2).
 
----
+______________________________________________________________________
 
-# 61. Uncertainty Preservation Invariant
+## 61. Uncertainty Preservation Invariant
 
 Protocol transport cannot legitimately increase confidence solely because multiple components forwarded the same observation.
 
-[
-\boxed{
+\[
+\\boxed{
 Forwarding
-\neq
+\\neq
 IndependentConfirmation
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 62. Unknown Preservation Invariant
+## 62. Unknown Preservation Invariant
 
 Forbidden transformations include:
 
@@ -2164,9 +2164,9 @@ UNKNOWN → AUTHORIZED
 
 without explicit evidence or policy.
 
----
+______________________________________________________________________
 
-# 63. Conflict Visibility Invariant
+## 63. Conflict Visibility Invariant
 
 If the sender provides competing states:
 
@@ -2176,9 +2176,9 @@ If the sender provides competing states:
 
 the receiver must not silently collapse them into one conclusion unless discriminating evidence supports convergence.
 
----
+______________________________________________________________________
 
-# 64. Capability / Authority Invariant
+## 64. Capability / Authority Invariant
 
 ```text
 CAN_SEND
@@ -2194,9 +2194,9 @@ CAN_WRITE
 AUTHORIZED_TO_COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 65. Proposal / Commit Invariant
+## 65. Proposal / Commit Invariant
 
 ```text
 PROPOSAL
@@ -2206,9 +2206,9 @@ COMMIT
 
 must remain explicit in message type and lifecycle.
 
----
+______________________________________________________________________
 
-# 66. Causal Firewall
+## 66. Causal Firewall
 
 Protocol lineage may establish:
 
@@ -2226,9 +2226,9 @@ external phenomenon A caused phenomenon B
 
 without appropriately typed causal evidence.
 
----
+______________________________________________________________________
 
-# 67. Simulation Boundary
+## 67. Simulation Boundary
 
 Messages originating from:
 
@@ -2249,9 +2249,9 @@ SIMULATION_RESULT
 → OBSERVED_REALITY
 ```
 
----
+______________________________________________________________________
 
-# 68. Protocol Versioning
+## 68. Protocol Versioning
 
 Every protocol family should support explicit version identity.
 
@@ -2273,9 +2273,9 @@ protocol:
 
 A message produced under one incompatible schema must not silently enter another.
 
----
+______________________________________________________________________
 
-# 69. Backward Compatibility
+## 69. Backward Compatibility
 
 Compatibility may be:
 
@@ -2289,9 +2289,9 @@ UNKNOWN
 
 Schema translation requires explicit transformation provenance.
 
----
+______________________________________________________________________
 
-# 70. Dependencies
+## 70. Dependencies
 
 Primary dependencies:
 
@@ -2335,9 +2335,9 @@ VALIDATION / CONTROL
 MEMORY / DOWNSTREAM COGNITION
 ```
 
----
+______________________________________________________________________
 
-# 71. Control-Plane Requirements
+## 71. Control-Plane Requirements
 
 The control plane should govern:
 
@@ -2357,9 +2357,9 @@ which messages require revalidation
 which external disclosures are permitted
 ```
 
----
+______________________________________________________________________
 
-# 72. Authority Witness
+## 72. Authority Witness
 
 Consequential messages should conceptually bind an authority witness sufficient to answer:
 
@@ -2376,9 +2376,9 @@ is authority still valid?
 
 Missing authority must fail closed for authority-required effects.
 
----
+______________________________________________________________________
 
-# 73. Agents
+## 73. Agents
 
 Candidate protocol participants:
 
@@ -2406,9 +2406,9 @@ ROLE
 DEPLOYED AGENT
 ```
 
----
+______________________________________________________________________
 
-# 74. Skills
+## 74. Skills
 
 Candidate supporting skills:
 
@@ -2431,9 +2431,9 @@ repair/recovery
 
 Skill availability does not grant authority.
 
----
+______________________________________________________________________
 
-# 75. Workflow — Standard Observation Exchange
+## 75. Workflow — Standard Observation Exchange
 
 ```text
 SENSING REQUEST
@@ -2459,9 +2459,9 @@ ROUTING RESULT
 DOWNSTREAM CONSUMER
 ```
 
----
+______________________________________________________________________
 
-# 76. Workflow — Observation to Memory
+## 76. Workflow — Observation to Memory
 
 ```text
 VALIDATED OBSERVATION
@@ -2483,9 +2483,9 @@ COMMIT-TIME REVALIDATION
 MEMORY COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 77. Workflow — Conflicting Observations
+## 77. Workflow — Conflicting Observations
 
 ```text
 OBSERVATION A
@@ -2512,9 +2512,9 @@ CAN RESOLVE?
     NEW OBSERVATION
 ```
 
----
+______________________________________________________________________
 
-# 78. Workflow — Stale Observation
+## 78. Workflow — Stale Observation
 
 ```text
 OBSERVATION REQUESTED FOR USE
@@ -2537,9 +2537,9 @@ FRESH?
     SUPERSEDE OR PRESERVE BOTH
 ```
 
----
+______________________________________________________________________
 
-# 79. Workflow — Protocol Failure
+## 79. Workflow — Protocol Failure
 
 ```text
 MESSAGE RECEIVED
@@ -2563,9 +2563,9 @@ REVALIDATE
 RESUME OR REJECT
 ```
 
----
+______________________________________________________________________
 
-# 80. Failure Modes
+## 80. Failure Modes
 
 ## FM-PROTO-01 — Untyped Message
 
@@ -2667,9 +2667,9 @@ Messages recursively trigger each other without valid termination.
 
 Observation crosses privacy, exposure, recipient, or authority boundary.
 
----
+______________________________________________________________________
 
-# 81. Repair / Recovery
+## 81. Repair / Recovery
 
 General recovery protocol:
 
@@ -2703,9 +2703,9 @@ REVALIDATE
 RESUME OR TERMINATE
 ```
 
----
+______________________________________________________________________
 
-# 82. Selective Invalidation
+## 82. Selective Invalidation
 
 If:
 
@@ -2721,20 +2721,17 @@ and `M1` is invalidated, invalidate only dependent states whose validity require
 
 Unrelated message branches remain valid.
 
-[
-\boxed{
-InvalidationScope
-=================
+## \[ \\boxed{ InvalidationScope
 
 DependencyClosure(FailedState)
 }
-]
+\]
 
 This is an AMOS MODEL rule.
 
----
+______________________________________________________________________
 
-# 83. Termination Protocol
+## 83. Termination Protocol
 
 Every bounded workflow should have explicit terminal states.
 
@@ -2752,9 +2749,9 @@ UNKNOWN/GAP
 
 Protocol loops must not continue indefinitely merely because uncertainty remains.
 
----
+______________________________________________________________________
 
-# 84. Validators
+## 84. Validators
 
 Minimum proposed validators:
 
@@ -2808,9 +2805,9 @@ VALIDATOR_SIMULATION_BOUNDARY
 VALIDATOR_TERMINATION
 ```
 
----
+______________________________________________________________________
 
-# 85. Minimum Tests
+## 85. Minimum Tests
 
 ```text
 TEST_PROTO_001
@@ -2904,9 +2901,9 @@ TEST_PROTO_030
 bounded workflow reaches valid terminal state
 ```
 
----
+______________________________________________________________________
 
-# 86. Adversarial Tests
+## 86. Adversarial Tests
 
 Test against:
 
@@ -2974,9 +2971,9 @@ unauthorized external disclosure
 recursive protocol loop
 ```
 
----
+______________________________________________________________________
 
-# 87. Falsifiers
+## 87. Falsifiers
 
 This protocol contract must be revised if:
 
@@ -3002,9 +2999,9 @@ executed tests demonstrate unsafe or internally inconsistent protocol behavior
 domain-specific sensing requires stronger transport or validation semantics
 ```
 
----
+______________________________________________________________________
 
-# 88. Gap Matrix
+## 88. Gap Matrix
 
 ```yaml
 protocol_gap_status:
@@ -3095,9 +3092,9 @@ protocol_gap_status:
     status: GAP
 ```
 
----
+______________________________________________________________________
 
-# 89. Gap Priority
+## 89. Gap Priority
 
 Highest-priority unresolved items:
 
@@ -3131,9 +3128,9 @@ Highest-priority unresolved items:
 14. Execute adversarial and regression tests.
 ```
 
----
+______________________________________________________________________
 
-# 90. Hard Boundaries
+## 90. Hard Boundaries
 
 ```text
 PLACEHOLDER
@@ -3233,9 +3230,9 @@ SIMULATION
 OBSERVATION
 ```
 
----
+______________________________________________________________________
 
-# 91. RSCF Completion State
+## 91. RSCF Completion State
 
 ```yaml
 rscf:
@@ -3337,9 +3334,9 @@ rscf:
     not empirically universal
 ```
 
----
+______________________________________________________________________
 
-# 92. Completion State
+## 92. Completion State
 
 ```yaml
 completion_state:
@@ -3420,9 +3417,9 @@ completion_state:
     MODEL / CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
-# 93. Final Contract
+## 93. Final Contract
 
 `L01_SENSING_OBSERVATION/PROTOCOLS.md` defines the proposed governed communication surface surrounding sensing and observation.
 
@@ -3479,59 +3476,59 @@ lifecycle state
 
 Its strongest governing distinctions are:
 
-[
-\boxed{
-Message \neq Truth
+\[
+\\boxed{
+Message \\neq Truth
 }
-]
+\]
 
-[
-\boxed{
-Transport \neq Validation
+\[
+\\boxed{
+Transport \\neq Validation
 }
-]
+\]
 
-[
-\boxed{
-Forwarding \neq IndependentEvidence
+\[
+\\boxed{
+Forwarding \\neq IndependentEvidence
 }
-]
+\]
 
-[
-\boxed{
-Received \neq Accepted
+\[
+\\boxed{
+Received \\neq Accepted
 }
-]
+\]
 
-[
-\boxed{
-Correlation \neq Causation
+\[
+\\boxed{
+Correlation \\neq Causation
 }
-]
+\]
 
-[
-\boxed{
-Replay \neq Reobservation
+\[
+\\boxed{
+Replay \\neq Reobservation
 }
-]
+\]
 
-[
-\boxed{
-Capability \neq Authority
+\[
+\\boxed{
+Capability \\neq Authority
 }
-]
+\]
 
-[
-\boxed{
-Proposal \neq Commit
+\[
+\\boxed{
+Proposal \\neq Commit
 }
-]
+\]
 
-[
-\boxed{
-Unknown \neq Pass
+\[
+\\boxed{
+Unknown \\neq Pass
 }
-]
+\]
 
 The strongest warranted status is:
 
@@ -3579,29 +3576,33 @@ IMPLEMENTED
 VALIDATED
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[00_ROOT/00_HOME|00_HOME]] · 06-Knowledge-Base-MOC
 
 ```
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: l01_sensing_observation_primitives_cognitive_matrix_protocols
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_PROTOCOLS.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_MOC|L01_SENSING_OBSERVATION_MOC]]

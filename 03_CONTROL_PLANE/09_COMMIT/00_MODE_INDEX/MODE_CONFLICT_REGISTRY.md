@@ -1,37 +1,40 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: MODE CONFLICT REGISTRY
 type: registry
 source: 03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX
 tags:
-- control-plane
-- commit
-- mode_index
-- note
-- canon/control-plane
-- mode-admission-queue
-- task-resolver
-- capability-resolver
-- k-system-state
-- k-gmef
-- k-rscf
-- k-hml
-- k-binding
-- k-constraint-propagation
-- k-capability-authorization
-- k-risk-constraint
-- k-effect-classification
-- k-information-exposure
-- k-provenance
-- k-provenance-topology
-- k-sybil-hardening
-- k-commit-time-authority
-- k-collapse-recovery
-- k-homeostasis
-- k-repair-harm
-- k-repair-priority
-- validation
-- integration
-- canon
+  - control-plane
+  - commit
+  - mode_index
+  - note
+  - canon/control-plane
+  - mode-admission-queue
+  - task-resolver
+  - capability-resolver
+  - k-system-state
+  - k-gmef
+  - k-rscf
+  - k-hml
+  - k-binding
+  - k-constraint-propagation
+  - k-capability-authorization
+  - k-risk-constraint
+  - k-effect-classification
+  - k-information-exposure
+  - k-provenance
+  - k-provenance-topology
+  - k-sybil-hardening
+  - k-commit-time-authority
+  - k-collapse-recovery
+  - k-homeostasis
+  - k-repair-harm
+  - k-repair-priority
+  - validation
+  - integration
+  - canon
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -43,7 +46,8 @@ rscf:
 
 `MODE_CONFLICT_REGISTRY.md` in Drive is also only the reservation placeholder; there is no substantive canonical implementation in that artifact to reproduce verbatim.
 
----
+______________________________________________________________________
+
 artifact_id: AMOS-OS-MODE-CONFLICT-REGISTRY
 title: AMOS OS Mode Conflict Registry
 canonical_name: MODE_CONFLICT_REGISTRY
@@ -57,42 +61,42 @@ status: CANDIDATE_CANON
 conclusion_class: DERIVED
 
 source_state:
-  existing_file: PLACEHOLDER
-  recovered_substantive_implementation: false
+existing_file: PLACEHOLDER
+recovered_substantive_implementation: false
 
 related_artifacts:
-  - [[03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX/MODE_ADMISSION_QUEUE|MODE_ADMISSION_QUEUE]].md
-  - [[03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX/MODE_COMPOSITION_REGISTRY|MODE_COMPOSITION_REGISTRY]].md
-  - [[03_CONTROL_PLANE/01_TASK_CONTRACT/TASK_CONTRACT|TASK_CONTRACT]].md
-  - [[03_CONTROL_PLANE/01_TASK_CONTRACT/TASK_RESOLVER|TASK_RESOLVER]].md
-  - [[03_CONTROL_PLANE/02_CAPABILITY/CAPABILITY_RESOLVER|CAPABILITY_RESOLVER]].md
-  - [[02_KERNEL/04_STATE/K_SYSTEM_STATE|K_SYSTEM_STATE]]
-  - [[02_KERNEL/09_INTEGRATION/K_GMEF|K_GMEF]]
-  - [[02_KERNEL/09_INTEGRATION/K_RSCF|K_RSCF]]
-  - [[02_KERNEL/09_INTEGRATION/K_HML|K_HML]]
-  - [[02_KERNEL/09_INTEGRATION/K_BINDING|K_BINDING]]
-  - [[02_KERNEL/09_INTEGRATION/K_CONSTRAINT_PROPAGATION|K_CONSTRAINT_PROPAGATION]]
-  - [[02_KERNEL/07_AUTHORITY/K_CAPABILITY_AUTHORIZATION|K_CAPABILITY_AUTHORIZATION]]
-  - [[02_KERNEL/06_RISK_REPAIR/K_RISK_CONSTRAINT|K_RISK_CONSTRAINT]]
-  - [[02_KERNEL/07_AUTHORITY/K_EFFECT_CLASSIFICATION|K_EFFECT_CLASSIFICATION]]
-  - [[02_KERNEL/07_AUTHORITY/K_INFORMATION_EXPOSURE|K_INFORMATION_EXPOSURE]]
-  - [[02_KERNEL/08_PROVENANCE/K_PROVENANCE|K_PROVENANCE]]
-  - [[02_KERNEL/08_PROVENANCE/K_PROVENANCE_TOPOLOGY|K_PROVENANCE_TOPOLOGY]]
-  - [[02_KERNEL/08_PROVENANCE/K_SYBIL_HARDENING|K_SYBIL_HARDENING]]
-  - [[02_KERNEL/07_AUTHORITY/K_COMMIT_TIME_AUTHORITY|K_COMMIT_TIME_AUTHORITY]]
-  - [[02_KERNEL/06_RISK_REPAIR/K_COLLAPSE_RECOVERY|K_COLLAPSE_RECOVERY]]
-  - [[02_KERNEL/06_RISK_REPAIR/K_HOMEOSTASIS|K_HOMEOSTASIS]]
-  - [[02_KERNEL/06_RISK_REPAIR/K_REPAIR_HARM|K_REPAIR_HARM]]
-  - [[02_KERNEL/06_RISK_REPAIR/K_REPAIR_PRIORITY|K_REPAIR_PRIORITY]]
+
+- [[03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX/MODE_ADMISSION_QUEUE|MODE_ADMISSION_QUEUE]].md
+- [[03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX/MODE_COMPOSITION_REGISTRY|MODE_COMPOSITION_REGISTRY]].md
+- [[03_CONTROL_PLANE/01_TASK_CONTRACT/TASK_CONTRACT|TASK_CONTRACT]].md
+- [[03_CONTROL_PLANE/01_TASK_CONTRACT/TASK_RESOLVER|TASK_RESOLVER]].md
+- [[03_CONTROL_PLANE/02_CAPABILITY/CAPABILITY_RESOLVER|CAPABILITY_RESOLVER]].md
+- [[02_KERNEL/04_STATE/K_SYSTEM_STATE|K_SYSTEM_STATE]]
+- [[02_KERNEL/09_INTEGRATION/K_GMEF|K_GMEF]]
+- [[02_KERNEL/09_INTEGRATION/K_RSCF|K_RSCF]]
+- [[02_KERNEL/09_INTEGRATION/K_HML|K_HML]]
+- [[02_KERNEL/09_INTEGRATION/K_BINDING|K_BINDING]]
+- [[02_KERNEL/09_INTEGRATION/K_CONSTRAINT_PROPAGATION|K_CONSTRAINT_PROPAGATION]]
+- [[02_KERNEL/07_AUTHORITY/K_CAPABILITY_AUTHORIZATION|K_CAPABILITY_AUTHORIZATION]]
+- [[02_KERNEL/06_RISK_REPAIR/K_RISK_CONSTRAINT|K_RISK_CONSTRAINT]]
+- [[02_KERNEL/07_AUTHORITY/K_EFFECT_CLASSIFICATION|K_EFFECT_CLASSIFICATION]]
+- [[02_KERNEL/07_AUTHORITY/K_INFORMATION_EXPOSURE|K_INFORMATION_EXPOSURE]]
+- [[02_KERNEL/08_PROVENANCE/K_PROVENANCE|K_PROVENANCE]]
+- [[02_KERNEL/08_PROVENANCE/K_PROVENANCE_TOPOLOGY|K_PROVENANCE_TOPOLOGY]]
+- [[02_KERNEL/08_PROVENANCE/K_SYBIL_HARDENING|K_SYBIL_HARDENING]]
+- [[02_KERNEL/07_AUTHORITY/K_COMMIT_TIME_AUTHORITY|K_COMMIT_TIME_AUTHORITY]]
+- [[02_KERNEL/06_RISK_REPAIR/K_COLLAPSE_RECOVERY|K_COLLAPSE_RECOVERY]]
+- [[02_KERNEL/06_RISK_REPAIR/K_HOMEOSTASIS|K_HOMEOSTASIS]]
+- [[02_KERNEL/06_RISK_REPAIR/K_REPAIR_HARM|K_REPAIR_HARM]]
+- [[02_KERNEL/06_RISK_REPAIR/K_REPAIR_PRIORITY|K_REPAIR_PRIORITY]]
 
 implementation_status: SPECIFICATION
 formal_verification_status: NOT_CLAIMED
 empirical_validation_status: NOT_CLAIMED
 
-promotion_required: true
----
+## promotion_required: true
 
-# MODE CONFLICT REGISTRY — part 2
+## MODE CONFLICT REGISTRY — part 2
 
 > **Status:** `CANDIDATE_CANON`
 >
@@ -102,9 +106,9 @@ promotion_required: true
 >
 > **Origin Architect:** Trang Phan
 
----
+______________________________________________________________________
 
-# 0. PURPOSE
+## 0. PURPOSE
 
 `MODE_CONFLICT_REGISTRY` is the governed AMOS OS registry for representing,
 classifying, preserving, resolving, superseding, invalidating, and auditing
@@ -151,9 +155,9 @@ WHAT DEPENDS ON ITS RESOLUTION?
 The registry therefore acts as the conflict-preservation and
 conflict-resolution layer of AMOS mode governance.
 
----
+______________________________________________________________________
 
-# 1. CORE LAW
+## 1. CORE LAW
 
 ```text
 CONFLICT
@@ -192,9 +196,9 @@ UNKNOWN/GAP
 
 rather than forced convergence.
 
----
+______________________________________________________________________
 
-# 2. CONFLICT BOUNDARY
+## 2. CONFLICT BOUNDARY
 
 Hard distinction:
 
@@ -238,9 +242,9 @@ UNDER ONE AUTHORITY STATE
 
 while the modes remain compatible elsewhere.
 
----
+______________________________________________________________________
 
-# 3. WHY THE REGISTRY EXISTS
+## 3. WHY THE REGISTRY EXISTS
 
 Without explicit conflict governance, a resolver may silently do one of the
 following:
@@ -273,9 +277,9 @@ RECOMPUTE EVERYTHING
 
 AMOS must instead preserve the actual epistemic and operational structure.
 
----
+______________________________________________________________________
 
-# 4. REGISTRY ROLE
+## 4. REGISTRY ROLE
 
 Conceptually:
 
@@ -299,9 +303,9 @@ RESOLVED / COMPETING / CONDITIONAL / BLOCKED
 DEPENDENT PLAN UPDATE
 ```
 
----
+______________________________________________________________________
 
-# 5. REGISTRY OBJECT
+## 5. REGISTRY OBJECT
 
 ```yaml
 ModeConflictRegistry:
@@ -339,9 +343,9 @@ ModeConflictRegistry:
   updated_at:
 ```
 
----
+______________________________________________________________________
 
-# 6. CONFLICT RECORD
+## 6. CONFLICT RECORD
 
 ```yaml
 ModeConflictRecord:
@@ -409,9 +413,9 @@ ModeConflictRecord:
   conclusion_class:
 ```
 
----
+______________________________________________________________________
 
-# 7. CONFLICT IDENTITY
+## 7. CONFLICT IDENTITY
 
 Conflict identity should include enough information to distinguish materially
 different conflicts.
@@ -444,9 +448,9 @@ is not necessarily the same object as:
 Conflict(A,B,State)
 ```
 
----
+______________________________________________________________________
 
-# 8. PARTICIPANTS
+## 8. PARTICIPANTS
 
 Conflict participants may include:
 
@@ -478,9 +482,9 @@ COMPOSITION ↔ COMPOSITION
 
 The registry should not assume every conflict is mode-vs-mode.
 
----
+______________________________________________________________________
 
-# 9. CLAIM MODEL
+## 9. CLAIM MODEL
 
 A conflict exists when two or more load-bearing claims cannot simultaneously
 hold within the same applicability envelope.
@@ -497,9 +501,9 @@ SameRelevantEnvelope
 Unsatisfiable
 ```
 
----
+______________________________________________________________________
 
-# 10. CONFLICT PREDICATE
+## 10. CONFLICT PREDICATE
 
 ```text
 Conflict(A,B | E)
@@ -521,9 +525,9 @@ E =
 
 A conflict outside shared envelope `E` may be only apparent.
 
----
+______________________________________________________________________
 
-# 11. APPARENT CONFLICT
+## 11. APPARENT CONFLICT
 
 Example:
 
@@ -551,16 +555,16 @@ not:
 CONTRADICTION
 ```
 
----
+______________________________________________________________________
 
-# 12. TRUE CONFLICT
+## 12. TRUE CONFLICT
 
 A true conflict requires incompatible claims inside materially overlapping
 applicability envelopes.
 
----
+______________________________________________________________________
 
-# 13. CONFLICT CLASSES
+## 13. CONFLICT CLASSES
 
 Candidate classes:
 
@@ -602,9 +606,9 @@ UNKNOWN
 
 These remain specification-level classifications until canonically fixed.
 
----
+______________________________________________________________________
 
-# 14. HARD CONFLICT
+## 14. HARD CONFLICT
 
 A hard conflict means both requirements cannot be satisfied simultaneously.
 
@@ -622,9 +626,9 @@ STATE = WRITE_ACTIVE
 
 under a state model where those states are mutually exclusive.
 
----
+______________________________________________________________________
 
-# 15. SOFT CONFLICT
+## 15. SOFT CONFLICT
 
 A soft conflict means both modes can coexist, but not at full preferred
 semantics.
@@ -643,9 +647,9 @@ RESTRICT EFFECTS
 CHANGE PRIORITY
 ```
 
----
+______________________________________________________________________
 
-# 16. CONDITIONAL CONFLICT
+## 16. CONDITIONAL CONFLICT
 
 ```text
 Conflict(A,B | condition=true)
@@ -659,9 +663,9 @@ Compatible(A,B | condition=false)
 
 Conditions must remain attached.
 
----
+______________________________________________________________________
 
-# 17. TEMPORAL CONFLICT
+## 17. TEMPORAL CONFLICT
 
 Modes may conflict only during overlapping execution windows.
 
@@ -675,9 +679,9 @@ simultaneously
 
 but may execute sequentially.
 
----
+______________________________________________________________________
 
-# 18. VERSION CONFLICT
+## 18. VERSION CONFLICT
 
 ```text
 A@v1 compatible B@v3
@@ -687,9 +691,9 @@ A@v2 incompatible B@v3
 
 Do not generalize across versions.
 
----
+______________________________________________________________________
 
-# 19. REGIME CONFLICT
+## 19. REGIME CONFLICT
 
 ```text
 NORMAL:
@@ -701,9 +705,9 @@ A+B blocked
 
 The conflict registry must preserve regime typing.
 
----
+______________________________________________________________________
 
-# 20. SCOPE CONFLICT
+## 20. SCOPE CONFLICT
 
 Example:
 
@@ -717,9 +721,9 @@ SUBSYSTEM S2
 
 An apparent contradiction may disappear when scopes are separated.
 
----
+______________________________________________________________________
 
-# 21. AUTHORITY CONFLICT
+## 21. AUTHORITY CONFLICT
 
 Example:
 
@@ -737,9 +741,9 @@ If both apply to the same operation:
 AUTHORITY_CONFLICT
 ```
 
----
+______________________________________________________________________
 
-# 22. CAPABILITY CONFLICT
+## 22. CAPABILITY CONFLICT
 
 Example:
 
@@ -751,9 +755,9 @@ B forbids CAPABILITY_X
 
 The resolver must not silently choose one.
 
----
+______________________________________________________________________
 
-# 23. CONSTRAINT CONFLICT
+## 23. CONSTRAINT CONFLICT
 
 ```text
 Constraint_A ∩ Constraint_B = ∅
@@ -767,9 +771,9 @@ Result:
 UNSATISFIABLE COMPOSITION
 ```
 
----
+______________________________________________________________________
 
-# 24. EFFECT CONFLICT
+## 24. EFFECT CONFLICT
 
 Example:
 
@@ -787,9 +791,9 @@ If both are load-bearing:
 EFFECT_CONFLICT
 ```
 
----
+______________________________________________________________________
 
-# 25. INFORMATION EXPOSURE CONFLICT
+## 25. INFORMATION EXPOSURE CONFLICT
 
 Example:
 
@@ -803,9 +807,9 @@ forbids internal disclosure
 
 The conflict may be resolvable through redaction or isolation.
 
----
+______________________________________________________________________
 
-# 26. STATE CONFLICT
+## 26. STATE CONFLICT
 
 Modes may require mutually exclusive system states.
 
@@ -817,9 +821,9 @@ StateRequirements(B)
 ∅
 ```
 
----
+______________________________________________________________________
 
-# 27. RESOURCE CONFLICT
+## 27. RESOURCE CONFLICT
 
 Example:
 
@@ -837,17 +841,17 @@ SERIALIZATION
 
 if simultaneous ownership is not required.
 
----
+______________________________________________________________________
 
-# 28. POLICY CONFLICT
+## 28. POLICY CONFLICT
 
 A mode may satisfy technical constraints but violate governance policy.
 
 Policy conflict cannot be resolved merely through technical compatibility.
 
----
+______________________________________________________________________
 
-# 29. EPISTEMIC CONFLICT
+## 29. EPISTEMIC CONFLICT
 
 Two evidence-backed claims may disagree.
 
@@ -867,9 +871,9 @@ If neither dominates under valid evidence rules:
 COMPETING
 ```
 
----
+______________________________________________________________________
 
-# 30. CAUSAL CONFLICT
+## 30. CAUSAL CONFLICT
 
 Two modes may contain incompatible causal assumptions.
 
@@ -886,9 +890,9 @@ Y causes X
 Structural disagreement must be preserved unless discriminating evidence
 exists.
 
----
+______________________________________________________________________
 
-# 31. PROVENANCE CONFLICT
+## 31. PROVENANCE CONFLICT
 
 Examples:
 
@@ -908,9 +912,9 @@ CLAIM B SAYS SOURCE = S2
 
 when source identity matters to validity.
 
----
+______________________________________________________________________
 
-# 32. SUPERSESSION CONFLICT
+## 32. SUPERSESSION CONFLICT
 
 Two artifacts may each claim canonical precedence.
 
@@ -930,9 +934,9 @@ Result:
 SUPERSESSION_CONFLICT
 ```
 
----
+______________________________________________________________________
 
-# 33. EXECUTION CONFLICT
+## 33. EXECUTION CONFLICT
 
 A composition may be semantically valid but operationally impossible in the
 current execution environment.
@@ -949,9 +953,9 @@ R and S individually exist
 but cannot be allocated atomically
 ```
 
----
+______________________________________________________________________
 
-# 34. UNKNOWN CONFLICT
+## 34. UNKNOWN CONFLICT
 
 When the nature of a detected incompatibility cannot yet be typed:
 
@@ -961,9 +965,9 @@ conflict_type = UNKNOWN
 
 Do not fabricate classification.
 
----
+______________________________________________________________________
 
-# 35. CONFLICT DIMENSIONS
+## 35. CONFLICT DIMENSIONS
 
 A conflict record may include multiple dimensions:
 
@@ -997,9 +1001,9 @@ dimensions:
   - GOVERNANCE
 ```
 
----
+______________________________________________________________________
 
-# 36. MULTI-DIMENSION CONFLICT
+## 36. MULTI-DIMENSION CONFLICT
 
 A single conflict may be both:
 
@@ -1013,9 +1017,9 @@ RISK
 
 Do not collapse multi-dimensional conflicts into one generic label.
 
----
+______________________________________________________________________
 
-# 37. CONFLICT GRAPH
+## 37. CONFLICT GRAPH
 
 Conceptually:
 
@@ -1032,9 +1036,9 @@ Conceptually:
 
 Edges remain typed.
 
----
+______________________________________________________________________
 
-# 38. CONFLICT HYPERGRAPH
+## 38. CONFLICT HYPERGRAPH
 
 Some conflicts are higher-order.
 
@@ -1058,9 +1062,9 @@ Conflict({A,B,C})
 
 rather than inventing a false pairwise conflict.
 
----
+______________________________________________________________________
 
-# 39. PAIRWISE FIREWALL
+## 39. PAIRWISE FIREWALL
 
 ```text
 NoConflict(A,B)
@@ -1074,9 +1078,9 @@ NoConflict(B,C)
 NoConflict(A,B,C)
 ```
 
----
+______________________________________________________________________
 
-# 40. CONFLICT SET
+## 40. CONFLICT SET
 
 ```yaml
 ModeConflictSet:
@@ -1096,9 +1100,9 @@ ModeConflictSet:
   resolution_state:
 ```
 
----
+______________________________________________________________________
 
-# 41. CONFLICT DETECTION PIPELINE
+## 41. CONFLICT DETECTION PIPELINE
 
 ```text
 REQUESTED COMPOSITION
@@ -1130,9 +1134,9 @@ PROVENANCE CHECK
 CONFLICT RECORD
 ```
 
----
+______________________________________________________________________
 
-# 42. CONFLICT NORMALIZATION
+## 42. CONFLICT NORMALIZATION
 
 Before declaring conflict, normalize:
 
@@ -1158,9 +1162,9 @@ POLICY EPOCH
 
 where relevant.
 
----
+______________________________________________________________________
 
-# 43. TERMINOLOGY CONFLICT
+## 43. TERMINOLOGY CONFLICT
 
 Different labels do not prove semantic conflict.
 
@@ -1180,9 +1184,9 @@ may or may not be equivalent.
 
 Translation requires explicit semantic binding.
 
----
+______________________________________________________________________
 
-# 44. SAME WORD FIREWALL
+## 44. SAME WORD FIREWALL
 
 Likewise, identical terminology does not prove identical semantics.
 
@@ -1192,9 +1196,9 @@ Likewise, identical terminology does not prove identical semantics.
 
 in two modes may have different operational definitions.
 
----
+______________________________________________________________________
 
-# 45. SCOPE ALIGNMENT
+## 45. SCOPE ALIGNMENT
 
 Before conflict comparison:
 
@@ -1211,28 +1215,28 @@ ScopeOverlap = ∅
 
 there may be no operational conflict.
 
----
+______________________________________________________________________
 
-# 46. REGIME ALIGNMENT
+## 46. REGIME ALIGNMENT
 
 Compare claims only where regime envelopes overlap.
 
----
+______________________________________________________________________
 
-# 47. TEMPORAL ALIGNMENT
+## 47. TEMPORAL ALIGNMENT
 
 Two claims valid in different periods may represent evolution rather than
 contradiction.
 
----
+______________________________________________________________________
 
-# 48. VERSION ALIGNMENT
+## 48. VERSION ALIGNMENT
 
 Conflict detection must compare relevant versions, not merely mode names.
 
----
+______________________________________________________________________
 
-# 49. PROVENANCE MODEL
+## 49. PROVENANCE MODEL
 
 Each conflicting claim should retain:
 
@@ -1252,9 +1256,9 @@ VALIDATION STATE
 CORRELATION RISK
 ```
 
----
+______________________________________________________________________
 
-# 50. PROVENANCE TOPOLOGY
+## 50. PROVENANCE TOPOLOGY
 
 Example:
 
@@ -1267,9 +1271,9 @@ SOURCE S
 
 These are not three independent supports.
 
----
+______________________________________________________________________
 
-# 51. SYBIL HARDENING
+## 51. SYBIL HARDENING
 
 Conflict resolution must resist:
 
@@ -1287,9 +1291,9 @@ CITATION LOOPS
 DERIVATIVE MAJORITY
 ```
 
----
+______________________________________________________________________
 
-# 52. SOURCE COUNT FIREWALL
+## 52. SOURCE COUNT FIREWALL
 
 ```text
 NumberOfDocuments
@@ -1297,9 +1301,9 @@ NumberOfDocuments
 NumberOfIndependentSources
 ```
 
----
+______________________________________________________________________
 
-# 53. AUTHORITY FIREWALL
+## 53. AUTHORITY FIREWALL
 
 Authority alone does not erase contradictory evidence.
 
@@ -1313,9 +1317,9 @@ DECISION RESOLVED
 EVIDENCE CONFLICT RESOLVED
 ```
 
----
+______________________________________________________________________
 
-# 54. DECISION VS TRUTH
+## 54. DECISION VS TRUTH
 
 A policy may decide:
 
@@ -1331,9 +1335,9 @@ A vs B evidence = COMPETING
 
 Governance selection must not rewrite epistemic state.
 
----
+______________________________________________________________________
 
-# 55. CONFLICT STATES
+## 55. CONFLICT STATES
 
 Candidate lifecycle states:
 
@@ -1361,45 +1365,45 @@ INVALIDATED
 REOPENED
 ```
 
----
+______________________________________________________________________
 
-# 56. DETECTED
+## 56. DETECTED
 
 A potential conflict has been identified but not fully validated.
 
----
+______________________________________________________________________
 
-# 57. NORMALIZING
+## 57. NORMALIZING
 
 Identity, scope, regime, versions, or terminology are being aligned.
 
----
+______________________________________________________________________
 
-# 58. VALIDATING
+## 58. VALIDATING
 
 Evidence and provenance are being checked.
 
----
+______________________________________________________________________
 
-# 59. COMPETING
+## 59. COMPETING
 
 Two or more materially incompatible claims remain supported.
 
----
+______________________________________________________________________
 
-# 60. BLOCKING
+## 60. BLOCKING
 
 The conflict prevents safe composition or execution.
 
----
+______________________________________________________________________
 
-# 61. CONDITIONAL
+## 61. CONDITIONAL
 
 Conflict exists only under explicit conditions.
 
----
+______________________________________________________________________
 
-# 62. DEFERRED
+## 62. DEFERRED
 
 Resolution is intentionally postponed because:
 
@@ -1415,23 +1419,23 @@ RESOLUTION COST > CURRENT DECISION VALUE
 
 provided deferral is safe.
 
----
+______________________________________________________________________
 
-# 63. RESOLVED
+## 63. RESOLVED
 
 A valid resolution has been established for the declared envelope.
 
----
+______________________________________________________________________
 
-# 64. SUPERSEDED
+## 64. SUPERSEDED
 
 A newer governed resolution replaces the previous one.
 
 The old record remains in lineage.
 
----
+______________________________________________________________________
 
-# 65. INVALIDATED
+## 65. INVALIDATED
 
 The conflict itself was based on a failed premise.
 
@@ -1446,9 +1450,9 @@ A referred to v1
 B referred to v2
 ```
 
----
+______________________________________________________________________
 
-# 66. REOPENED
+## 66. REOPENED
 
 A previously resolved conflict may reopen when:
 
@@ -1472,9 +1476,9 @@ SUPERSESSION DISPUTE
 
 occurs.
 
----
+______________________________________________________________________
 
-# 67. CONFLICT SEVERITY
+## 67. CONFLICT SEVERITY
 
 Severity should reflect consequence, not rhetorical intensity.
 
@@ -1498,9 +1502,9 @@ DEPENDENCY COUNT
 RECOVERY COST
 ```
 
----
+______________________________________________________________________
 
-# 68. SEVERITY ≠ CONFIDENCE
+## 68. SEVERITY ≠ CONFIDENCE
 
 A conflict may be:
 
@@ -1518,9 +1522,9 @@ HIGH CONFIDENCE
 
 Keep these dimensions separate.
 
----
+______________________________________________________________________
 
-# 69. CONFLICT PRIORITY
+## 69. CONFLICT PRIORITY
 
 Conceptually:
 
@@ -1538,9 +1542,9 @@ f(
 
 No universal numeric formula is asserted.
 
----
+______________________________________________________________________
 
-# 70. GAPS
+## 70. GAPS
 
 Conflict gaps should use:
 
@@ -1554,33 +1558,33 @@ EXPLANATORY
 COSMETIC
 ```
 
----
+______________________________________________________________________
 
-# 71. CRITICAL CONFLICT GAP
+## 71. CRITICAL CONFLICT GAP
 
 A missing fact without which a high-stakes conflict cannot be safely resolved.
 
----
+______________________________________________________________________
 
-# 72. DECISION-RELEVANT GAP
+## 72. DECISION-RELEVANT GAP
 
 Could change the selected composition or action.
 
----
+______________________________________________________________________
 
-# 73. EXPLANATORY GAP
+## 73. EXPLANATORY GAP
 
 Does not currently change the decision.
 
----
+______________________________________________________________________
 
-# 74. COSMETIC GAP
+## 74. COSMETIC GAP
 
 Non-semantic registry metadata.
 
----
+______________________________________________________________________
 
-# 75. RESOLUTION PRINCIPLE
+## 75. RESOLUTION PRINCIPLE
 
 Conflict resolution should seek:
 
@@ -1592,9 +1596,9 @@ DISCRIMINATING TEST
 
 rather than accumulating redundant evidence.
 
----
+______________________________________________________________________
 
-# 76. DISCRIMINATING TEST
+## 76. DISCRIMINATING TEST
 
 ```yaml
 ConflictDiscriminatingTest:
@@ -1626,17 +1630,17 @@ ConflictDiscriminatingTest:
   provenance:
 ```
 
----
+______________________________________________________________________
 
-# 77. TEST SELECTION
+## 77. TEST SELECTION
 
 Prefer a test that can change the decision.
 
 Avoid tests that merely generate more correlated evidence.
 
----
+______________________________________________________________________
 
-# 78. RESOLUTION METHODS
+## 78. RESOLUTION METHODS
 
 Candidate methods:
 
@@ -1676,9 +1680,9 @@ POLICY_DECISION
 KEEP_COMPETING
 ```
 
----
+______________________________________________________________________
 
-# 79. SCOPE PARTITION
+## 79. SCOPE PARTITION
 
 Example:
 
@@ -1696,9 +1700,9 @@ PARTITION BY SCOPE
 
 not arbitrary winner selection.
 
----
+______________________________________________________________________
 
-# 80. REGIME PARTITION
+## 80. REGIME PARTITION
 
 ```text
 NORMAL → A
@@ -1708,9 +1712,9 @@ EMERGENCY → B
 
 if supported.
 
----
+______________________________________________________________________
 
-# 81. VERSION PARTITION
+## 81. VERSION PARTITION
 
 ```text
 v1 → relation R1
@@ -1718,9 +1722,9 @@ v1 → relation R1
 v2 → relation R2
 ```
 
----
+______________________________________________________________________
 
-# 82. TEMPORAL SERIALIZATION
+## 82. TEMPORAL SERIALIZATION
 
 If modes conflict only concurrently:
 
@@ -1732,16 +1736,16 @@ B
 
 may resolve the conflict.
 
----
+______________________________________________________________________
 
-# 83. CONSTRAINT TIGHTENING
+## 83. CONSTRAINT TIGHTENING
 
 A soft conflict may be resolved by adopting a valid stricter common
 constraint.
 
----
+______________________________________________________________________
 
-# 84. CAPABILITY RESTRICTION
+## 84. CAPABILITY RESTRICTION
 
 Example:
 
@@ -1759,9 +1763,9 @@ Result:
 VALID_WITH_CONDITIONS
 ```
 
----
+______________________________________________________________________
 
-# 85. EFFECT RESTRICTION
+## 85. EFFECT RESTRICTION
 
 Example:
 
@@ -1771,9 +1775,9 @@ valid only under
 READ_ONLY
 ```
 
----
+______________________________________________________________________
 
-# 86. MODE DEGRADATION
+## 86. MODE DEGRADATION
 
 ```text
 A(full) + B(full)
@@ -1785,17 +1789,17 @@ valid
 
 The degraded semantics must be explicit.
 
----
+______________________________________________________________________
 
-# 87. MODE SUSPENSION
+## 87. MODE SUSPENSION
 
 A higher-priority mode may temporarily suspend another.
 
 Suspension does not necessarily revoke admission.
 
----
+______________________________________________________________________
 
-# 88. MODE EXCLUSION
+## 88. MODE EXCLUSION
 
 When no safe composition exists:
 
@@ -1805,17 +1809,17 @@ EXCLUDE ONE OR MORE MODES
 
 according to governed priority and task sufficiency.
 
----
+______________________________________________________________________
 
-# 89. MODE SUBSTITUTION
+## 89. MODE SUBSTITUTION
 
 Substitution requires an explicit equivalence/substitutability relation.
 
 Similarity is insufficient.
 
----
+______________________________________________________________________
 
-# 90. PRIORITY RULE
+## 90. PRIORITY RULE
 
 A policy may specify dominance on one dimension.
 
@@ -1831,9 +1835,9 @@ EXTERNAL EFFECT PERMISSION
 
 Do not infer global dominance.
 
----
+______________________________________________________________________
 
-# 91. KEEP COMPETING
+## 91. KEEP COMPETING
 
 If evidence remains incomparable:
 
@@ -1843,9 +1847,9 @@ KEEP COMPETING
 
 is a valid terminal epistemic state.
 
----
+______________________________________________________________________
 
-# 92. NO FORCED CONVERGENCE
+## 92. NO FORCED CONVERGENCE
 
 ```text
 H1 supported
@@ -1863,9 +1867,9 @@ H1 wins
 
 merely because a single answer is convenient.
 
----
+______________________________________________________________________
 
-# 93. CONFLICT RESOLUTION RECORD
+## 93. CONFLICT RESOLUTION RECORD
 
 ```yaml
 ModeConflictResolution:
@@ -1909,9 +1913,9 @@ ModeConflictResolution:
   timestamp:
 ```
 
----
+______________________________________________________________________
 
-# 94. RESOLUTION CLASS
+## 94. RESOLUTION CLASS
 
 Resolution conclusion classes:
 
@@ -1929,9 +1933,9 @@ COMPETING
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 95. CONFIDENCE CEILING
+## 95. CONFIDENCE CEILING
 
 ```text
 Confidence(Resolution)
@@ -1941,9 +1945,9 @@ WeakestLoadBearingPremise
 
 unless independently revalidated.
 
----
+______________________________________________________________________
 
-# 96. RESOLUTION DOES NOT ERASE HISTORY
+## 96. RESOLUTION DOES NOT ERASE HISTORY
 
 ```text
 RESOLVE
@@ -1967,9 +1971,9 @@ DECISION BASIS
 SUPERSESSION PATH
 ```
 
----
+______________________________________________________________________
 
-# 97. CONFLICT LINEAGE
+## 97. CONFLICT LINEAGE
 
 Conceptually:
 
@@ -1987,9 +1991,9 @@ RESOLUTION R2
 
 Do not overwrite `R1`.
 
----
+______________________________________________________________________
 
-# 98. SUPERSESSION
+## 98. SUPERSESSION
 
 ```yaml
 ConflictSupersessionRecord:
@@ -2013,9 +2017,9 @@ ConflictSupersessionRecord:
   regime:
 ```
 
----
+______________________________________________________________________
 
-# 99. SUPERSESSION FIREWALL
+## 99. SUPERSESSION FIREWALL
 
 ```text
 NEWER
@@ -2025,9 +2029,9 @@ SUPERSEDING
 
 Supersession requires valid lineage and authority.
 
----
+______________________________________________________________________
 
-# 100. DEPENDENCY TRACKING
+## 100. DEPENDENCY TRACKING
 
 Conflict resolutions may support downstream objects.
 
@@ -2040,9 +2044,9 @@ Conflict Resolution R
 
 If `R` fails, invalidate dependent conclusions.
 
----
+______________________________________________________________________
 
-# 101. SELECTIVE INVALIDATION
+## 101. SELECTIVE INVALIDATION
 
 ```text
 INVALIDATE
@@ -2052,9 +2056,9 @@ DEPENDENT DESCENDANTS
 
 not the entire registry.
 
----
+______________________________________________________________________
 
-# 102. INVALIDATION RECORD
+## 102. INVALIDATION RECORD
 
 ```yaml
 ConflictInvalidation:
@@ -2076,9 +2080,9 @@ ConflictInvalidation:
   provenance:
 ```
 
----
+______________________________________________________________________
 
-# 103. FAILURE RECOVERY
+## 103. FAILURE RECOVERY
 
 ```text
 RESOLUTION FAILS
@@ -2094,17 +2098,17 @@ RESTORE NEAREST VALID STATE
 SEARCH ALTERNATIVE
 ```
 
----
+______________________________________________________________________
 
-# 104. NEAREST VALID STATE
+## 104. NEAREST VALID STATE
 
 Do not return automatically to global baseline.
 
 Return to the nearest state whose load-bearing premises remain valid.
 
----
+______________________________________________________________________
 
-# 105. NO FAILED-PATH LOOP
+## 105. NO FAILED-PATH LOOP
 
 ```text
 FAILED PATH
@@ -2116,9 +2120,9 @@ UNCHANGED STATE
 DO NOT RETRY
 ```
 
----
+______________________________________________________________________
 
-# 106. REPAIR HARM
+## 106. REPAIR HARM
 
 Before resolving a conflict through modification, consider whether repair
 creates greater harm than the original conflict.
@@ -2135,9 +2139,9 @@ ExpectedUnresolvedConflictHarm
 
 subject to governance.
 
----
+______________________________________________________________________
 
-# 107. REPAIR PRIORITY
+## 107. REPAIR PRIORITY
 
 Prefer:
 
@@ -2155,9 +2159,9 @@ CONSTRAINT-PRESERVING
 
 repairs.
 
----
+______________________________________________________________________
 
-# 108. HOMEOSTASIS
+## 108. HOMEOSTASIS
 
 Repeated conflict oscillation may indicate unstable mode composition.
 
@@ -2174,9 +2178,9 @@ A enabled
 
 The registry should preserve enough lineage to detect such loops.
 
----
+______________________________________________________________________
 
-# 109. OSCILLATION
+## 109. OSCILLATION
 
 Candidate state:
 
@@ -2186,9 +2190,9 @@ CONFLICT_OSCILLATION
 
 may be recorded when repeated repairs recreate prior invalid states.
 
----
+______________________________________________________________________
 
-# 110. COLLAPSE RECOVERY
+## 110. COLLAPSE RECOVERY
 
 If conflict resolution causes broad state collapse:
 
@@ -2204,9 +2208,9 @@ ROLL BACK LOCAL DESCENDANTS
 REBUILD ONLY REQUIRED CLOSURE
 ```
 
----
+______________________________________________________________________
 
-# 111. TASK CONTRACT
+## 111. TASK CONTRACT
 
 Task contracts constrain allowable conflict resolutions.
 
@@ -2222,9 +2226,9 @@ enable external_write
 
 is invalid even if it would reconcile two modes.
 
----
+______________________________________________________________________
 
-# 112. TASK SUFFICIENCY
+## 112. TASK SUFFICIENCY
 
 A conflict does not always need complete theoretical resolution.
 
@@ -2236,9 +2240,9 @@ ACT ON INVARIANT SAFE INTERSECTION
 
 while preserving the unresolved conflict.
 
----
+______________________________________________________________________
 
-# 113. SAFE INTERSECTION
+## 113. SAFE INTERSECTION
 
 Given:
 
@@ -2256,17 +2260,17 @@ common safe action:
 
 may be sufficient.
 
----
+______________________________________________________________________
 
-# 114. ACTION SUFFICIENCY
+## 114. ACTION SUFFICIENCY
 
 Stop resolving when remaining uncertainty cannot change the safe action.
 
 This does not mean the conflict is epistemically solved.
 
----
+______________________________________________________________________
 
-# 115. CAPABILITY RESOLVER
+## 115. CAPABILITY RESOLVER
 
 Conflict resolution may constrain capability selection.
 
@@ -2278,16 +2282,16 @@ CAPABILITY RESTRICTION
 CAPABILITY RESOLVER
 ```
 
----
+______________________________________________________________________
 
-# 116. CAPABILITY AUTHORIZATION
+## 116. CAPABILITY AUTHORIZATION
 
 A conflict resolution cannot authorize a capability merely because it would
 make the conflict disappear.
 
----
+______________________________________________________________________
 
-# 117. RISK CONSTRAINT
+## 117. RISK CONSTRAINT
 
 High-risk conflicts require stronger validation.
 
@@ -2309,9 +2313,9 @@ LARGE BLAST RADIUS
 INSTITUTIONAL IMPACT
 ```
 
----
+______________________________________________________________________
 
-# 118. EFFECT CLASSIFICATION
+## 118. EFFECT CLASSIFICATION
 
 Conflict resolution must classify the effects of proposed repairs.
 
@@ -2333,18 +2337,18 @@ IRREVERSIBLE
 
 requires escalation.
 
----
+______________________________________________________________________
 
-# 119. INFORMATION EXPOSURE
+## 119. INFORMATION EXPOSURE
 
 Conflict diagnostics must not unnecessarily expose protected internal
 information.
 
 Preserve the conflict record while respecting exposure policy.
 
----
+______________________________________________________________________
 
-# 120. BINDING
+## 120. BINDING
 
 A conflict resolution should remain bound to:
 
@@ -2368,21 +2372,21 @@ PROVENANCE
 EPOCH
 ```
 
----
+______________________________________________________________________
 
-# 121. CONSTRAINT PROPAGATION
+## 121. CONSTRAINT PROPAGATION
 
 Resolved constraints must propagate to dependent composition plans.
 
----
+______________________________________________________________________
 
-# 122. PROPAGATION FIREWALL
+## 122. PROPAGATION FIREWALL
 
 Do not propagate a local conflict resolution beyond its validated envelope.
 
----
+______________________________________________________________________
 
-# 123. CAUSAL FIREWALL
+## 123. CAUSAL FIREWALL
 
 A conflict between outcomes does not prove causal incompatibility.
 
@@ -2400,9 +2404,9 @@ INTERVENTION EFFECT CONFLICT
 CONFOUNDING MODEL CONFLICT
 ```
 
----
+______________________________________________________________________
 
-# 124. CAUSAL COMPETING HYPOTHESES
+## 124. CAUSAL COMPETING HYPOTHESES
 
 Example:
 
@@ -2419,9 +2423,9 @@ C confounds A and F
 
 Do not collapse these without discriminating evidence.
 
----
+______________________________________________________________________
 
-# 125. COUNTERFACTUAL TEST
+## 125. COUNTERFACTUAL TEST
 
 Where appropriate, a causal conflict may ask:
 
@@ -2435,9 +2439,9 @@ WOULD F CHANGE?
 Counterfactual reasoning remains `MODEL` unless supported by appropriate
 evidence.
 
----
+______________________________________________________________________
 
-# 126. SENSITIVITY
+## 126. SENSITIVITY
 
 Identify the smallest premise that can flip conflict resolution.
 
@@ -2458,9 +2462,9 @@ then conflict disappears.
 
 Test `P` first.
 
----
+______________________________________________________________________
 
-# 127. UNCERTAINTY VECTOR
+## 127. UNCERTAINTY VECTOR
 
 ```text
 Uconflict =
@@ -2477,16 +2481,16 @@ Uconflict =
 )
 ```
 
----
+______________________________________________________________________
 
-# 128. CONFLICT ROBUSTNESS
+## 128. CONFLICT ROBUSTNESS
 
 A conflict is robust when plausible changes to noncritical assumptions do not
 remove it.
 
----
+______________________________________________________________________
 
-# 129. FRAGILE CONFLICT
+## 129. FRAGILE CONFLICT
 
 If one uncertain premise determines whether the conflict exists:
 
@@ -2496,9 +2500,9 @@ CONDITIONAL
 
 is the appropriate class.
 
----
+______________________________________________________________________
 
-# 130. ADVERSARIAL VALIDATION
+## 130. ADVERSARIAL VALIDATION
 
 For consequential conflicts, challenge the conflict itself:
 
@@ -2532,9 +2536,9 @@ IS THE CONFLICT HIGHER-ORDER?
 DOES THE PROPOSED RESOLUTION CREATE A WORSE CONFLICT?
 ```
 
----
+______________________________________________________________________
 
-# 131. FALSIFIERS
+## 131. FALSIFIERS
 
 Conflict falsifiers may include:
 
@@ -2560,9 +2564,9 @@ CANONICAL SUPERSESSION
 CAUSAL MODEL FAILURE
 ```
 
----
+______________________________________________________________________
 
-# 132. RSCF INTEGRATION
+## 132. RSCF INTEGRATION
 
 ```yaml
 ModeConflictRSCF:
@@ -2601,9 +2605,9 @@ ModeConflictRSCF:
   invalidation_conditions:
 ```
 
----
+______________________________________________________________________
 
-# 133. RECURSIVE RSCF
+## 133. RECURSIVE RSCF
 
 ```text
 CONFLICT RSCF
@@ -2619,16 +2623,16 @@ CONFLICT RSCF
 └── RESOLUTION RSCF
 ```
 
----
+______________________________________________________________________
 
-# 134. ATOMIC MULTI-RSCF
+## 134. ATOMIC MULTI-RSCF
 
 When conflict resolution depends jointly on multiple claims, evaluate the
 load-bearing RSCFs against a coherent state where material.
 
----
+______________________________________________________________________
 
-# 135. GMEF INTEGRATION
+## 135. GMEF INTEGRATION
 
 A conflict resolution that changes canonical mode relationships may constitute
 governed evolution.
@@ -2649,9 +2653,9 @@ NEW SUPERSESSION RELATION
 
 Such changes require appropriate evolution governance.
 
----
+______________________________________________________________________
 
-# 136. H/M/L INTEGRATION
+## 136. H/M/L INTEGRATION
 
 Suggested retrieval:
 
@@ -2667,9 +2671,9 @@ L SPECIFIC CONFLICT
 RAW EVIDENCE ONLY IF REQUIRED
 ```
 
----
+______________________________________________________________________
 
-# 137. FAST PATH
+## 137. FAST PATH
 
 Local conflict resolution is allowed only when:
 
@@ -2697,9 +2701,9 @@ NO GOVERNANCE CHANGE
 NO HIGHER-ORDER DEPENDENCY
 ```
 
----
+______________________________________________________________________
 
-# 138. ESCALATION
+## 138. ESCALATION
 
 Escalate when:
 
@@ -2727,9 +2731,9 @@ DEPENDENCY CLOSURE IS LARGE
 HIGHER-ORDER INTERACTION EXISTS
 ```
 
----
+______________________________________________________________________
 
-# 139. MVCC PATTERN
+## 139. MVCC PATTERN
 
 Conceptually:
 
@@ -2751,9 +2755,9 @@ COMMIT          REVALIDATE
 
 This is a reasoning pattern, not a claim of literal runtime implementation.
 
----
+______________________________________________________________________
 
-# 140. READ SET
+## 140. READ SET
 
 Conflict resolution read set may include:
 
@@ -2779,9 +2783,9 @@ DEPENDENCIES
 EFFECT STATE
 ```
 
----
+______________________________________________________________________
 
-# 141. CAS PATTERN
+## 141. CAS PATTERN
 
 Conceptually:
 
@@ -2798,16 +2802,16 @@ ELSE
 REVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 142. CAUSAL EPOCH FINALITY
+## 142. CAUSAL EPOCH FINALITY
 
 A conflict resolved under causal state `E1` must not silently remain final
 after a material transition to `E2`.
 
----
+______________________________________________________________________
 
-# 143. LOCAL FINALIZATION
+## 143. LOCAL FINALIZATION
 
 Local conflict resolution may avoid global coordination only when independence
 is demonstrated.
@@ -2826,9 +2830,9 @@ NO SHARED EFFECT TARGET
 NO CAUSAL COUPLING
 ```
 
----
+______________________________________________________________________
 
-# 144. EVENT MODEL
+## 144. EVENT MODEL
 
 Candidate events:
 
@@ -2856,9 +2860,9 @@ MODE_CONFLICT_SUPERSEDED
 
 Exact event identifiers remain specification-level.
 
----
+______________________________________________________________________
 
-# 145. EVENT RECORD
+## 145. EVENT RECORD
 
 ```yaml
 ModeConflictEvent:
@@ -2888,15 +2892,15 @@ ModeConflictEvent:
   timestamp:
 ```
 
----
+______________________________________________________________________
 
-# 146. EVENT IDEMPOTENCE
+## 146. EVENT IDEMPOTENCE
 
 Duplicate delivery must not create duplicate semantic conflicts or resolutions.
 
----
+______________________________________________________________________
 
-# 147. OBSERVABILITY
+## 147. OBSERVABILITY
 
 The registry should make it possible to answer:
 
@@ -2924,9 +2928,9 @@ WHICH CONFLICTS HAVE NO DISCRIMINATING TEST?
 WHICH RESOLUTIONS ARE FRAGILE?
 ```
 
----
+______________________________________________________________________
 
-# 148. METRICS
+## 148. METRICS
 
 Conceptually:
 
@@ -2962,9 +2966,9 @@ metrics:
 
 Metrics do not establish correctness.
 
----
+______________________________________________________________________
 
-# 149. MACHINE-READABLE REGISTRY
+## 149. MACHINE-READABLE REGISTRY
 
 ```yaml
 mode_conflict_registry:
@@ -3044,9 +3048,9 @@ mode_conflict_registry:
   invalidations: []
 ```
 
----
+______________________________________________________________________
 
-# 150. DETECTION PSEUDOCODE
+## 150. DETECTION PSEUDOCODE
 
 ```text
 function detect_mode_conflicts(mode_set, context):
@@ -3107,9 +3111,9 @@ function detect_mode_conflicts(mode_set, context):
     return conflict_set
 ```
 
----
+______________________________________________________________________
 
-# 151. RESOLUTION PSEUDOCODE
+## 151. RESOLUTION PSEUDOCODE
 
 ```text
 function resolve_mode_conflict(conflict, context):
@@ -3168,9 +3172,9 @@ function resolve_mode_conflict(conflict, context):
     return resolution
 ```
 
----
+______________________________________________________________________
 
-# 152. FINALIZATION PSEUDOCODE
+## 152. FINALIZATION PSEUDOCODE
 
 ```text
 function finalize_conflict_resolution(resolution):
@@ -3194,9 +3198,9 @@ function finalize_conflict_resolution(resolution):
     emit_resolution_event()
 ```
 
----
+______________________________________________________________________
 
-# 153. FAILURE REGISTRY
+## 153. FAILURE REGISTRY
 
 ```text
 MCR-CF01 FALSE_CONFLICT
@@ -3240,9 +3244,9 @@ MCR-CF19 CONFLICT_OSCILLATION
 MCR-CF20 LINEAGE_LOSS
 ```
 
----
+______________________________________________________________________
 
-# 154. FALSE CONFLICT
+## 154. FALSE CONFLICT
 
 Two claims appear incompatible only because their envelopes differ.
 
@@ -3254,22 +3258,22 @@ PARTITION
 
 rather than resolve.
 
----
+______________________________________________________________________
 
-# 155. MISSED CONFLICT
+## 155. MISSED CONFLICT
 
 Two modes appear individually valid but violate a shared invariant when
 composed.
 
----
+______________________________________________________________________
 
-# 156. PROVENANCE COLLAPSE
+## 156. PROVENANCE COLLAPSE
 
 Multiple derivative claims are incorrectly counted as independent support.
 
----
+______________________________________________________________________
 
-# 157. AUTHORITY OVERRIDES EVIDENCE
+## 157. AUTHORITY OVERRIDES EVIDENCE
 
 Unsafe:
 
@@ -3281,9 +3285,9 @@ H1 IS EMPIRICALLY TRUE
 
 Authority may select action, not manufacture evidence.
 
----
+______________________________________________________________________
 
-# 158. EVIDENCE OVERRIDES POLICY
+## 158. EVIDENCE OVERRIDES POLICY
 
 Unsafe:
 
@@ -3295,9 +3299,9 @@ ACTION AUTHORIZED
 
 Evidence and authority are separate predicates.
 
----
+______________________________________________________________________
 
-# 159. FORCED CONVERGENCE
+## 159. FORCED CONVERGENCE
 
 Unsafe:
 
@@ -3309,9 +3313,9 @@ AVERAGE THEM
 
 when hypotheses are structurally incompatible.
 
----
+______________________________________________________________________
 
-# 160. STALE RESOLUTION
+## 160. STALE RESOLUTION
 
 A valid old resolution may become invalid after:
 
@@ -3329,31 +3333,31 @@ SYSTEM STATE CHANGE
 NEW EVIDENCE
 ```
 
----
+______________________________________________________________________
 
-# 161. GLOBAL INVALIDATION FAILURE
+## 161. GLOBAL INVALIDATION FAILURE
 
 One failed conflict premise should not invalidate unrelated mode relations.
 
----
+______________________________________________________________________
 
-# 162. FAILED PATH LOOP
+## 162. FAILED PATH LOOP
 
 Do not repeatedly apply a resolution already shown invalid under unchanged
 conditions.
 
----
+______________________________________________________________________
 
-# 163. REPAIR ESCALATION
+## 163. REPAIR ESCALATION
 
 A repair may solve a local conflict while creating a larger downstream
 conflict.
 
 Every consequential repair therefore needs downstream effect evaluation.
 
----
+______________________________________________________________________
 
-# 164. PROPERTY TESTS
+## 164. PROPERTY TESTS
 
 ```text
 Different(A,B)
@@ -3366,24 +3370,28 @@ Conflict(A,B,S1)
 ↛
 Conflict(A,B,S2)
 ```
+
 ```text
 Conflict(A@v1,B)
 ↛
 Conflict(A@v2,B)
 ```
+
 ```text
 ResolvedForDecision(C)
 ↛
 EpistemicallyResolved(C)
 ```
+
 ```text
 DocumentsSupporting(H1)=10
 ↛
 IndependentSources(H1)=10
 ```
----
 
-# 165. SCOPE TEST
+______________________________________________________________________
+
+## 165. SCOPE TEST
 
 Create two contradictory claims with disjoint scopes.
 
@@ -3393,9 +3401,9 @@ Expected:
 NO TRUE CONFLICT
 ```
 
----
+______________________________________________________________________
 
-# 166. REGIME TEST
+## 166. REGIME TEST
 
 Create opposite relations under different regimes.
 
@@ -3407,9 +3415,9 @@ REGIME_PARTITION
 
 not forced contradiction.
 
----
+______________________________________________________________________
 
-# 167. VERSION TEST
+## 167. VERSION TEST
 
 Create opposite relations for different versions.
 
@@ -3419,9 +3427,9 @@ Expected:
 VERSION_PARTITION
 ```
 
----
+______________________________________________________________________
 
-# 168. PROVENANCE TEST
+## 168. PROVENANCE TEST
 
 Copy one source into ten files.
 
@@ -3431,9 +3439,9 @@ Expected:
 ONE PROVENANCE FAMILY
 ```
 
----
+______________________________________________________________________
 
-# 169. COMPETING TEST
+## 169. COMPETING TEST
 
 Provide two independently supported incompatible claims with no discriminating
 evidence.
@@ -3444,9 +3452,9 @@ Expected:
 COMPETING
 ```
 
----
+______________________________________________________________________
 
-# 170. POLICY TEST
+## 170. POLICY TEST
 
 Policy chooses one operational action while evidence remains competing.
 
@@ -3458,9 +3466,9 @@ DECISION = RESOLVED
 EPISTEMIC CONFLICT = PRESERVED
 ```
 
----
+______________________________________________________________________
 
-# 171. N-ARY TEST
+## 171. N-ARY TEST
 
 ```text
 AB valid
@@ -3477,9 +3485,9 @@ REGISTER N-ARY CONFLICT
 
 without inventing pairwise incompatibility.
 
----
+______________________________________________________________________
 
-# 172. INVALIDATION TEST
+## 172. INVALIDATION TEST
 
 Invalidate one premise of resolution `R1`.
 
@@ -3493,9 +3501,9 @@ ONLY R1 DEPENDENTS INVALIDATED
 UNRELATED RESOLUTIONS PRESERVED
 ```
 
----
+______________________________________________________________________
 
-# 173. OSCILLATION TEST
+## 173. OSCILLATION TEST
 
 Repeatedly apply two locally valid repairs that recreate each other's
 conflicts.
@@ -3509,9 +3517,9 @@ AND ESCALATE
 
 rather than loop indefinitely.
 
----
+______________________________________________________________________
 
-# 174. COMMIT-TIME TEST
+## 174. COMMIT-TIME TEST
 
 Change authority after resolution planning but before finalization.
 
@@ -3521,9 +3529,9 @@ Expected:
 REVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 175. ERROR REGISTRY
+## 175. ERROR REGISTRY
 
 ```yaml
 ModeConflictErrors:
@@ -3583,9 +3591,9 @@ ModeConflictErrors:
     meaning: unresolved registry failure
 ```
 
----
+______________________________________________________________________
 
-# 176. PROOF CAPSULE
+## 176. PROOF CAPSULE
 
 ```yaml
 ModeConflictProofCapsule:
@@ -3647,9 +3655,9 @@ ModeConflictProofCapsule:
   invalidation_conditions:
 ```
 
----
+______________________________________________________________________
 
-# 177. KNOWN GAPS
+## 177. KNOWN GAPS
 
 ```yaml
 KnownGaps:
@@ -3692,9 +3700,9 @@ KnownGaps:
       escalation thresholds are asserted here.
 ```
 
----
+______________________________________________________________________
 
-# 178. CANON PROMOTION CHECKLIST
+## 178. CANON PROMOTION CHECKLIST
 
 ```text
 [ ] canonical location confirmed
@@ -3762,9 +3770,9 @@ KnownGaps:
 [ ] steward approval completed
 ```
 
----
+______________________________________________________________________
 
-# 179. CANONICAL COMPRESSION
+## 179. CANONICAL COMPRESSION
 
 ```text
 MODE CONFLICT REGISTRY
@@ -3890,9 +3898,9 @@ CANNOT YET
 COHERENTLY CLOSE.
 ```
 
----
+______________________________________________________________________
 
-# 180. MASTER CONTRACT
+## 180. MASTER CONTRACT
 
 Conceptually:
 
@@ -3959,9 +3967,9 @@ LOCAL REPAIR
 LINEAGE PRESERVATION
 ```
 
----
+______________________________________________________________________
 
-# 181. FINAL LAW
+## 181. FINAL LAW
 
 ```text
 WHEN TWO MODES,
@@ -4079,29 +4087,33 @@ AUDITABLE,
 AND SAFE TO REASON OVER.
 ```
 
-# END — MODE CONFLICT REGISTRY
+## END — MODE CONFLICT REGISTRY
 
 ```
 
 This should be treated as `DERIVED / CANDIDATE_CANON`, not recovered original canon: the actual Drive artifact currently contains only the placeholder reservation and explicitly says not to treat that placeholder as implemented logic or final canon.
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: mode_conflict_registry
 node_type: note
 path: 03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX/MODE_CONFLICT_REGISTRY.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX/00_MODE_INDEX_MOC|00_MODE_INDEX_MOC]]

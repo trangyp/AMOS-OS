@@ -4,25 +4,22 @@ title: SKILL — Amos Memory Immune System
 type: skill
 source: 07_SKILLS/amos-memory-immune-system
 name: amos-memory-immune-system
-description: Memory Immune System — memory systems capability. Use when memory management,
-  context continuity, or memory conflict resolution. Use when amos-memory-systems-master
-  routes to this specialized capability. Do not use for generic tasks outside memory
-  domain.
+description: Memory Immune System — memory systems capability. Use when memory management, context continuity, or memory conflict resolution. Use when amos-memory-systems-master routes to this specialized capability. Do not use for generic tasks outside memory domain.
 parent_skill: amos-memory-systems-master
 domain: memory
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
 tags:
-- type/skill
-- type/skill
-- domain/memory-systems
-- epistemic/source_claim
-- hml/m
-- epistemic/source_claim
-- amos-os
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/memory-systems
+  - epistemic/source_claim
+  - hml/m
+  - epistemic/source_claim
+  - amos-os
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -32,20 +29,20 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: M
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L16
-- L17
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L16
+  - L17
 license: MIT
 steward: Trang Phan
 ---
@@ -55,6 +52,7 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: memory. Parent: amos-memory-systems-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
 ## When to Use
 
 - When managing memory: storage, retrieval, decay, consolidation
@@ -81,13 +79,13 @@ Origin architect: **Trang Phan**. Domain: memory. Parent: amos-memory-systems-ma
 ## Operations
 
 1. **memory_immune.manage_memory**: Manage memory: storage, retrieval, decay, and consolidation
-2. **memory_immune.resolve_conflict**: Resolve memory conflicts: contradictions, staleness, and priority
-3. **memory_immune.enforce_firewall**: Enforce memory firewall: prevent unauthorized access and tampering
-4. **memory_immune.track_dynamics**: Track memory dynamics: formation, consolidation, and forgetting curves
-5. **memory_immune.assess_integrity**: Assess immune system integrity: activation, threat, recovery capacity
-6. **memory_immune.detect_drift**: Detect drift in memory integrity, conflict patterns, or firewall coverage
-7. **memory_immune.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-8. **memory_immune.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+1. **memory_immune.resolve_conflict**: Resolve memory conflicts: contradictions, staleness, and priority
+1. **memory_immune.enforce_firewall**: Enforce memory firewall: prevent unauthorized access and tampering
+1. **memory_immune.track_dynamics**: Track memory dynamics: formation, consolidation, and forgetting curves
+1. **memory_immune.assess_integrity**: Assess immune system integrity: activation, threat, recovery capacity
+1. **memory_immune.detect_drift**: Detect drift in memory integrity, conflict patterns, or firewall coverage
+1. **memory_immune.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+1. **memory_immune.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## 11_KNOWLEDGE Vault Content
 
@@ -100,6 +98,7 @@ Origin architect: **Trang Phan**. Domain: memory. Parent: amos-memory-systems-ma
 From Cosmo Brain UBI Immune Integrity: Immune system integrity invariant. From Bio-Immune Self-Healing Auditor: Raw write site detection and Kernel.persist routing enforcement.
 
 **Immune integrity invariant** (computational metric, not medical assessment):
+
 ```
 immune.activation_level ∈ [0.0, 1.0]
 immune.threat_index ∈ [0.0, 1.0]
@@ -110,6 +109,7 @@ immune.integrity_score() ∈ [0.0, 1.0]
 **Integrity score computation**: `integrity_score = f(activation_level, threat_index, recovery_capacity)` where all inputs are bounded [0.0, 1.0].
 
 **Detection patterns** (from Bio-Immune Auditor):
+
 - **Raw write detection**: scan for raw file writes that bypass canonical kernel routing
 - **Provenance contamination**: detect entries with broken or missing provenance
 - **Staleness detection**: detect entries past their validity window
@@ -117,14 +117,16 @@ immune.integrity_score() ∈ [0.0, 1.0]
 - **Sybil detection**: detect correlated entries from the same root source
 
 **Quarantine protocol**:
+
 1. **Detect**: identify the corrupted memory entry
-2. **Classify**: classify the corruption type (provenance, staleness, conflict, sybil)
-3. **Quarantine**: move the entry to QUARANTINED retention class
-4. **Trace**: trace the corruption to its source
-5. **Repair**: repair the source if possible, or remove the entry
-6. **Record**: log the immune response with provenance
+1. **Classify**: classify the corruption type (provenance, staleness, conflict, sybil)
+1. **Quarantine**: move the entry to QUARANTINED retention class
+1. **Trace**: trace the corruption to its source
+1. **Repair**: repair the source if possible, or remove the entry
+1. **Record**: log the immune response with provenance
 
 **Immune laws**:
+
 - `DETECT != PREVENT`: detection catches corruption after it occurs; it does not prevent it
 - `QUARANTINE != DELETE`: quarantine isolates; it does not destroy (evidence is preserved)
 - `IMMUNE != PERFECT`: the immune system catches known patterns; novel corruption may escape
@@ -139,7 +141,8 @@ The memory immune system is an operational construct. It does not prove all corr
 - **Scope violation**: If the query falls outside the skill's declared scope, escalate to the parent skill or steward.
 - **Binding broken**: If 1:1:1 binding (skill→agent→workflow) is broken, flag routing
 
----
+______________________________________________________________________
+
 **Links:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 ## Related
@@ -149,17 +152,19 @@ The memory immune system is an operational construct. It does not prove all corr
 ## Examples
 
 - **Scenario**: When managing memory: storage, retrieval, decay, consolidation
+
   - **Input**: A query matching this skill's domain (memory)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When resolving memory conflicts: contradictions, staleness, priority
+
   - **Input**: A query matching this skill's domain (memory)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When enforcing memory firewall: preventing unauthorized access and tampering
+
   - **Input**: A query matching this skill's domain (memory)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Validation Gates
 
@@ -176,7 +181,6 @@ The memory immune system is an operational construct. It does not prove all corr
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `amos-memory-systems-master` — routes to this skill when memory specialization is needed
@@ -184,7 +188,6 @@ The memory immune system is an operational construct. It does not prove all corr
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -203,7 +206,6 @@ The memory immune system is an operational construct. It does not prove all corr
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -211,7 +213,6 @@ The memory immune system is an operational construct. It does not prove all corr
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -224,11 +225,12 @@ The memory immune system is an operational construct. It does not prove all corr
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `amos-memory-systems-master` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `amos-memory-immune-system-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -236,12 +238,14 @@ The memory immune system is an operational construct. It does not prove all corr
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-memory-immune-system
 node_type: skill
 path: 07_SKILLS/amos-memory-immune-system/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

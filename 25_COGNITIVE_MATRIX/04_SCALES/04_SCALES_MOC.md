@@ -1,10 +1,13 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: 04 Scales MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/04_SCALES
 tags:
-- 04-scales
-- domain/cognitive-matrix
+  - 04-scales
+  - domain/cognitive-matrix
 moc: true
 rscf:
   state: DERIVED
@@ -30,5 +33,6 @@ rscf:
 - [[25_COGNITIVE_MATRIX/04_SCALES/L_LOW_SCALE/L_LOW_SCALE_MOC|L_LOW_SCALE_MOC]] — L_LOW_SCALE
 - [[25_COGNITIVE_MATRIX/04_SCALES/M_MID_SCALE/M_MID_SCALE_MOC|M_MID_SCALE_MOC]] — M_MID_SCALE
 
----
+______________________________________________________________________
+
 **Parent:** [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]

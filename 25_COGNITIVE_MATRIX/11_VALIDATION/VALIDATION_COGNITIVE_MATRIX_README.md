@@ -12,27 +12,27 @@ segment: 25_COGNITIVE_MATRIX/11_VALIDATION
 artifact_kind: COGNITIVE
 path: 25_COGNITIVE_MATRIX/11_VALIDATION/VALIDATION_COGNITIVE_MATRIX_README.md
 tags:
-- 11_validation
-- AMOS
-- AMOS_CORE_v4_4
-- AMOS_OS
-- COGNITIVE_MATRIX
-- - - VALIDATION
-- VALIDATION_CONTRACT
-- VALIDATOR
-- amos-os
-- domain/cognitive-matrix
-- canon/universe
-- cognitive
-- cognitive-matrix
-- contract
-- infrastructure
-- matrix
-- rscf
-- validation
-- identity: -None
-- placeholder_expanded
-- readme
+  - 11_validation
+  - AMOS
+  - AMOS_CORE_v4_4
+  - AMOS_OS
+  - COGNITIVE_MATRIX
+  -   -   - VALIDATION
+  - VALIDATION_CONTRACT
+  - VALIDATOR
+  - amos-os
+  - domain/cognitive-matrix
+  - canon/universe
+  - cognitive
+  - cognitive-matrix
+  - contract
+  - infrastructure
+  - matrix
+  - rscf
+  - validation
+  - identity: -None
+  - placeholder_expanded
+  - readme
 version: 0.2.0
 updated: '2026-08-27'
 status: PLACEHOLDER_EXPANDED
@@ -109,7 +109,7 @@ Origin architect / steward: **Trang Phan**
 
 System: **AMOS OS**
 
----
+______________________________________________________________________
 
 # 11_VALIDATION — Validation Infrastructure Contract
 
@@ -122,15 +122,15 @@ System: **AMOS OS**
 > **Conclusion class:** `UNKNOWN/GAP`
 >
 > **AMOS_CORE target:** `v4.4`
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
----
+> rscf:
+> state: DERIVED
+> claim_class: DERIVED
+> provenance: AMOS_corpus
+> scope: AMOS_general
 
+______________________________________________________________________
 
-# 0. Purpose
+## 0. Purpose
 
 `11_VALIDATION` defines the AMOS contract surface for deciding whether an artifact, claim, state transition, binding, mode, dependency, generated object, workflow, runtime action, or promotion candidate satisfies a declared set of validation requirements.
 
@@ -192,9 +192,9 @@ candidate
 → accepted
 ```
 
----
+______________________________________________________________________
 
-# 1. Core validation law
+## 1. Core validation law
 
 The primary AMOS validation rule is:
 
@@ -218,15 +218,15 @@ does not imply
 
 The AMOS_CORE lineage explicitly preserves benchmark scope and warns against silent generalization beyond tested operationalization.
 
----
+______________________________________________________________________
 
-# 2. Validation definition
+## 2. Validation definition
 
 A validation operation can be modeled as:
 
-[
+\[
 V =
-\langle
+\\langle
 Target,
 Contract,
 Checks,
@@ -239,17 +239,15 @@ Regime,
 Freshness,
 Validator,
 Receipts
-\rangle
-]
+\\rangle
+\]
 
 The result is:
 
-[
-Result_V
-========
+## \[ Result_V
 
-Validate(Target \mid Contract, Context)
-]
+Validate(Target \\mid Contract, Context)
+\]
 
 Possible outcomes:
 
@@ -267,9 +265,9 @@ QUARANTINED
 
 `UNKNOWN/GAP` must never collapse to `PASS`.
 
----
+______________________________________________________________________
 
-# 3. Validation object types
+## 3. Validation object types
 
 The subsystem may validate:
 
@@ -302,9 +300,9 @@ finalization receipts
 
 Listing these does not assert every validator currently exists.
 
----
+______________________________________________________________________
 
-# 4. Validation classes
+## 4. Validation classes
 
 AMOS should distinguish at least the following classes.
 
@@ -430,9 +428,9 @@ validation_classes:
 
 No single validator automatically covers all classes.
 
----
+______________________________________________________________________
 
-# 5. Validation lattice
+## 5. Validation lattice
 
 Validation should form a lattice rather than one boolean.
 
@@ -474,9 +472,9 @@ ADVERSARIAL VALIDATION
 
 A candidate may pass one branch and fail another.
 
----
+______________________________________________________________________
 
-# 6. Validation result tensor
+## 6. Validation result tensor
 
 Instead of:
 
@@ -512,41 +510,39 @@ validation_result:
 
 Overall status must be bounded by load-bearing checks.
 
----
+______________________________________________________________________
 
-# 7. Overall validation rule
+## 7. Overall validation rule
 
 Let load-bearing validators be:
 
-[
-L = {v_1,v_2,\dots,v_n}
-]
+\[
+L = {v_1,v_2,\\dots,v_n}
+\]
 
 Then:
 
-[
-OverallPass
-===========
+## \[ OverallPass
 
-\bigwedge_{v_i \in L}
+\\bigwedge\_{v_i \\in L}
 Pass(v_i)
-]
+\]
 
 For graded confidence:
 
-[
-C_{overall}
-\le
-\min_i C(v_i)
-]
+\[
+C\_{overall}
+\\le
+\\min_i C(v_i)
+\]
 
 unless independently revalidated.
 
 This implements the AMOS confidence ceiling.
 
----
+______________________________________________________________________
 
-# 8. Typed validation input
+## 8. Typed validation input
 
 ```yaml
 validation_request:
@@ -596,9 +592,9 @@ validation_request:
     authority_ref: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 9. Typed validation output
+## 9. Typed validation output
 
 ```yaml
 validation_receipt:
@@ -661,9 +657,9 @@ validation_receipt:
     UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 10. Validation state machine
+## 10. Validation state machine
 
 ```text
 REQUESTED
@@ -699,9 +695,9 @@ CANCELLED
 ERROR
 ```
 
----
+______________________________________________________________________
 
-# 11. State variables
+## 11. State variables
 
 ```yaml
 validator_state:
@@ -749,9 +745,9 @@ validator_state:
     rollback_required: false
 ```
 
----
+______________________________________________________________________
 
-# 12. Validation operators
+## 12. Validation operators
 
 Candidate deterministic operators:
 
@@ -785,9 +781,9 @@ invalidate_receipt()
 
 These are structural contract candidates, not verified implementation claims.
 
----
+______________________________________________________________________
 
-# 13. Hard validation invariants
+## 13. Hard validation invariants
 
 ## I-VAL-001 — Unknown fails closed
 
@@ -881,9 +877,9 @@ A different validator cannot replace the required validator without explicit com
 
 Consequential validation should include an independent contradiction path.
 
----
+______________________________________________________________________
 
-# 14. H/M/L applicability
+## 14. H/M/L applicability
 
 ## H — Governance validation
 
@@ -928,9 +924,9 @@ syntax
 
 A local L-level `PASS` cannot imply H-level validity.
 
----
+______________________________________________________________________
 
-# 15. Recursive H/M/L validation
+## 15. Recursive H/M/L validation
 
 Each level may recursively contain H/M/L.
 
@@ -945,9 +941,9 @@ M-level workflow validator
 
 AMOS should validate only the dependency closure required by the target.
 
----
+______________________________________________________________________
 
-# 16. Validation registry
+## 16. Validation registry
 
 Validators should eventually be addressable through a governed registry.
 
@@ -986,15 +982,15 @@ validator_registry_entry:
 
 Addressability does not imply correctness.
 
----
+______________________________________________________________________
 
-# 17. Validator routing
+## 17. Validator routing
 
-[
+\[
 ResolveValidator(Target,Class,Context)
-\rightarrow
-V^*
-]
+\\rightarrow
+V^\*
+\]
 
 Selection should consider:
 
@@ -1017,9 +1013,9 @@ AMBIGUOUS_VALIDATOR
 
 not arbitrary registration-order routing.
 
----
+______________________________________________________________________
 
-# 18. Source / canon references
+## 18. Source / canon references
 
 The final implementation should bind to actual AMOS/Trang sources.
 
@@ -1048,9 +1044,9 @@ proof-based coordination avoidance
 
 These are reasoning patterns and lineage concepts, not proof that this exact validation subsystem is implemented.
 
----
+______________________________________________________________________
 
-# 19. Validation versus verification
+## 19. Validation versus verification
 
 Use separate semantics.
 
@@ -1067,9 +1063,9 @@ EMPIRICAL VALIDATION
 
 The terms should not be used interchangeably without a declared convention.
 
----
+______________________________________________________________________
 
-# 20. Syntax validation
+## 20. Syntax validation
 
 Checks:
 
@@ -1089,9 +1085,9 @@ SYNTAX_PASS
 
 does not imply semantic correctness.
 
----
+______________________________________________________________________
 
-# 21. Schema validation
+## 21. Schema validation
 
 Checks:
 
@@ -1109,9 +1105,9 @@ Hard boundary:
 SCHEMA_VALID != SEMANTICALLY_VALID
 ```
 
----
+______________________________________________________________________
 
-# 22. Semantic validation
+## 22. Semantic validation
 
 Semantic validation asks:
 
@@ -1125,33 +1121,33 @@ Are dependencies correctly interpreted?
 
 Semantic validation may require corpus references, not only code.
 
----
+______________________________________________________________________
 
-# 23. Dependency validation
+## 23. Dependency validation
 
-For a target \(T\):
+For a target (T):
 
-[
-Deps(T)={d_1,\dots,d_n}
-]
+\[
+Deps(T)={d_1,\\dots,d_n}
+\]
 
 Validation should identify load-bearing subset:
 
-[
-LB(T)\subseteq Deps(T)
-]
+\[
+LB(T)\\subseteq Deps(T)
+\]
 
 The target is admissible only if all load-bearing dependencies are valid enough for the target's purpose.
 
----
+______________________________________________________________________
 
-# 24. Provenance validation
+## 24. Provenance validation
 
 A provenance graph:
 
-[
+\[
 G_P=(V,E)
-]
+\]
 
 should be checked for:
 
@@ -1169,9 +1165,9 @@ scope mismatch
 
 Independent support must be demonstrated, not inferred from count.
 
----
+______________________________________________________________________
 
-# 25. Provenance independence
+## 25. Provenance independence
 
 Example:
 
@@ -1192,9 +1188,9 @@ three independent confirmations
 
 The validator should collapse correlated descendants.
 
----
+______________________________________________________________________
 
-# 26. Epistemic validation
+## 26. Epistemic validation
 
 A claim should carry:
 
@@ -1220,33 +1216,33 @@ SOURCE_CLAIM
 
 merely through repetition or formatting.
 
----
+______________________________________________________________________
 
-# 27. Confidence ceiling validation
+## 27. Confidence ceiling validation
 
 If:
 
-[
+\[
 C(p_1)=0.8
-]
+\]
 
 and:
 
-[
+\[
 C(p_2)=0.6
-]
+\]
 
 and both are load-bearing, then ordinarily:
 
-[
-C(conclusion)\le0.6
-]
+\[
+C(conclusion)\\le0.6
+\]
 
 unless the weak premise is independently revalidated.
 
----
+______________________________________________________________________
 
-# 28. Causal validation
+## 28. Causal validation
 
 Every causal claim should be typed.
 
@@ -1268,9 +1264,9 @@ Structural similarity does not prove mechanism.
 
 Temporal sequence does not prove causation.
 
----
+______________________________________________________________________
 
-# 29. Scope validation
+## 29. Scope validation
 
 Scope dimensions may include:
 
@@ -1286,9 +1282,9 @@ scope:
 
 A result outside this envelope becomes at least `CONDITIONAL`.
 
----
+______________________________________________________________________
 
-# 30. Regime validation
+## 30. Regime validation
 
 ```yaml
 regime:
@@ -1301,9 +1297,9 @@ regime:
 
 If the regime changes, prior validation may become stale.
 
----
+______________________________________________________________________
 
-# 31. Freshness validation
+## 31. Freshness validation
 
 ```yaml
 freshness:
@@ -1325,9 +1321,9 @@ source expired
 authority revoked
 ```
 
----
+______________________________________________________________________
 
-# 32. MVCC / CAS validation
+## 32. MVCC / CAS validation
 
 For state-dependent objects:
 
@@ -1339,17 +1335,17 @@ before commit verify current target still V1
 
 Formally:
 
-[
+\[
 CommitAllowed
-\Rightarrow
+\\Rightarrow
 CurrentVersion = ObservedVersion
-]
+\]
 
 A stale read set invalidates only dependent conclusions.
 
----
+______________________________________________________________________
 
-# 33. Read-set validation
+## 33. Read-set validation
 
 ```yaml
 read_set:
@@ -1367,9 +1363,9 @@ read_set:
 
 A change to a non-load-bearing dependency should not force unnecessary global recomputation.
 
----
+______________________________________________________________________
 
-# 34. Write-set validation
+## 34. Write-set validation
 
 ```yaml
 write_set:
@@ -1381,9 +1377,9 @@ write_set:
 
 Validators should ensure proposed writes match declared scope and authority.
 
----
+______________________________________________________________________
 
-# 35. Atomic multi-artifact validation
+## 35. Atomic multi-artifact validation
 
 If an operation spans multiple dependent artifacts:
 
@@ -1406,9 +1402,9 @@ validation_transaction:
 
 Partial success cannot masquerade as full transaction validity.
 
----
+______________________________________________________________________
 
-# 36. Policy validation
+## 36. Policy validation
 
 Policy checks may include:
 
@@ -1424,9 +1420,9 @@ environment restrictions
 
 A policy file itself may also require validation.
 
----
+______________________________________________________________________
 
-# 37. Authority validation
+## 37. Authority validation
 
 Validation of authority should bind:
 
@@ -1449,9 +1445,9 @@ AUTHORITY_PRESENT
 != AUTHORITY_VALID
 ```
 
----
+______________________________________________________________________
 
-# 38. Execution validation
+## 38. Execution validation
 
 For world effects:
 
@@ -1476,9 +1472,9 @@ FAILED
 UNKNOWN_EXTERNALIZATION
 ```
 
----
+______________________________________________________________________
 
-# 39. Finality validation
+## 39. Finality validation
 
 Finality may require:
 
@@ -1499,9 +1495,9 @@ COMMITTED != FINAL
 
 where the architecture distinguishes these stages.
 
----
+______________________________________________________________________
 
-# 40. Empirical validation
+## 40. Empirical validation
 
 For empirical/model claims:
 
@@ -1520,9 +1516,9 @@ Benchmark success is scoped.
 
 No benchmark should silently become universal proof.
 
----
+______________________________________________________________________
 
-# 41. Security validation
+## 41. Security validation
 
 Potential checks:
 
@@ -1541,9 +1537,9 @@ unsafe external action
 
 Security validation should be threat-model-aware.
 
----
+______________________________________________________________________
 
-# 42. Validation workflow — artifact
+## 42. Validation workflow — artifact
 
 ```text
 VALIDATION_REQUESTED
@@ -1567,9 +1563,9 @@ RESULT_AGGREGATED
 RECEIPT_EMITTED
 ```
 
----
+______________________________________________________________________
 
-# 43. Validation workflow — claim
+## 43. Validation workflow — claim
 
 ```text
 CLAIM_RECEIVED
@@ -1593,9 +1589,9 @@ CONFIDENCE_CEILING_APPLIED
 CONCLUSION_CLASS_EMITTED
 ```
 
----
+______________________________________________________________________
 
-# 44. Validation workflow — state transition
+## 44. Validation workflow — state transition
 
 ```text
 TRANSITION_PROPOSED
@@ -1617,9 +1613,9 @@ TRANSITION_ELIGIBLE
 
 Validation does not itself commit the transition.
 
----
+______________________________________________________________________
 
-# 45. Validation workflow — generated artifact
+## 45. Validation workflow — generated artifact
 
 ```text
 GENERATOR_OUTPUT
@@ -1641,9 +1637,9 @@ GOVERNANCE
 PROMOTION_ELIGIBILITY
 ```
 
----
+______________________________________________________________________
 
-# 46. Validation workflow — mode activation
+## 46. Validation workflow — mode activation
 
 ```text
 MODE_CONTRACT_EXISTS
@@ -1669,9 +1665,9 @@ Therefore:
 MODE_FILE_EXISTS != MODE_ACTIVE
 ```
 
----
+______________________________________________________________________
 
-# 47. Validation workflow — cognitive cell
+## 47. Validation workflow — cognitive cell
 
 ```text
 CELL_ADDRESS_EXISTS
@@ -1693,9 +1689,9 @@ CELL_VALIDATED
 
 If the registry says `UNVALIDATED_BINDING`, structural presence alone must not clear that status.
 
----
+______________________________________________________________________
 
-# 48. Agents
+## 48. Agents
 
 Possible agent roles:
 
@@ -1731,9 +1727,9 @@ Preserves or resolves competing candidates where evidence supports resolution.
 
 No agent may mint validation truth solely from its own confidence.
 
----
+______________________________________________________________________
 
-# 49. Skills
+## 49. Skills
 
 Possible Skills:
 
@@ -1759,9 +1755,9 @@ compare-competing-hypotheses
 
 Skill execution produces evidence or receipts, not authority.
 
----
+______________________________________________________________________
 
-# 50. Engine layer
+## 50. Engine layer
 
 Possible engines:
 
@@ -1779,9 +1775,9 @@ Adversarial Validation Engine
 
 An engine composes kernels but does not independently grant authority.
 
----
+______________________________________________________________________
 
-# 51. Kernel layer
+## 51. Kernel layer
 
 Candidate deterministic kernels:
 
@@ -1804,9 +1800,9 @@ verify_receipt_binding()
 invalidate_descendants()
 ```
 
----
+______________________________________________________________________
 
-# 52. Worker boundary
+## 52. Worker boundary
 
 Where validation requires execution of external tests or processes:
 
@@ -1829,9 +1825,9 @@ Agent != Worker
 Capability != Authority
 ```
 
----
+______________________________________________________________________
 
-# 53. Protocols
+## 53. Protocols
 
 Potential validation protocols include:
 
@@ -1851,9 +1847,9 @@ rollback validation
 
 These remain `UNKNOWN/GAP` until explicitly defined.
 
----
+______________________________________________________________________
 
-# 54. Validation events
+## 54. Validation events
 
 Suggested event taxonomy:
 
@@ -1876,9 +1872,9 @@ REVALIDATION_REQUESTED
 
 Event receipt is not validation by itself.
 
----
+______________________________________________________________________
 
-# 55. Event envelope
+## 55. Event envelope
 
 ```yaml
 validation_event:
@@ -1909,15 +1905,15 @@ validation_event:
   timestamp: null
 ```
 
----
+______________________________________________________________________
 
-# 56. Validation receipt integrity
+## 56. Validation receipt integrity
 
 A receipt should be cryptographically/hash bindable where infrastructure supports it.
 
 Minimum conceptual binding:
 
-[
+\[
 ReceiptHash =
 H(
 TargetHash,
@@ -1926,13 +1922,13 @@ ContractHash,
 ContextHash,
 Result
 )
-]
+\]
 
 This is a model-level contract, not evidence that such cryptographic receipts are currently implemented.
 
----
+______________________________________________________________________
 
-# 57. Receipt freshness
+## 57. Receipt freshness
 
 A receipt should become stale if any load-bearing bound state changes.
 
@@ -1948,9 +1944,9 @@ required dependency changed
 
 Receipt reuse requires compatibility.
 
----
+______________________________________________________________________
 
-# 58. Receipt reuse
+## 58. Receipt reuse
 
 v4.4 fast-path reasoning permits reuse only when:
 
@@ -1966,9 +1962,9 @@ no authority-sensitive change
 
 Otherwise revalidation is required.
 
----
+______________________________________________________________________
 
-# 59. Adversarial validation
+## 59. Adversarial validation
 
 Consequential claims should have a challenge path.
 
@@ -1998,9 +1994,9 @@ COMPETING → UNKNOWN/GAP
 
 where appropriate.
 
----
+______________________________________________________________________
 
-# 60. Competing hypotheses
+## 60. Competing hypotheses
 
 Validation must not force convergence.
 
@@ -2024,9 +2020,9 @@ competing_set:
 
 Resolution requires discriminating evidence.
 
----
+______________________________________________________________________
 
-# 61. Falsifier contract
+## 61. Falsifier contract
 
 Each important claim should expose:
 
@@ -2039,9 +2035,9 @@ falsifier:
 
 A claim with no conceivable invalidation condition should not be treated as empirically validated.
 
----
+______________________________________________________________________
 
-# 62. Failure modes
+## 62. Failure modes
 
 ```yaml
 failure_modes:
@@ -2115,9 +2111,9 @@ failure_modes:
     description: validator validates its own correctness without independent basis
 ```
 
----
+______________________________________________________________________
 
-# 63. Recovery
+## 63. Recovery
 
 ```text
 VALIDATION FAILURE
@@ -2137,9 +2133,9 @@ RE-RUN MINIMUM NECESSARY CHECKS
 
 Global revalidation is last resort.
 
----
+______________________________________________________________________
 
-# 64. Retry policy
+## 64. Retry policy
 
 A failed validation should only be retried when something changed.
 
@@ -2157,9 +2153,9 @@ OR PreviousFailureWasTransient
 
 Repeated identical failure paths are prohibited.
 
----
+______________________________________________________________________
 
-# 65. Selective invalidation
+## 65. Selective invalidation
 
 Example:
 
@@ -2172,9 +2168,9 @@ provenance receipt fails
 
 This reflects AMOS dependency-local repair.
 
----
+______________________________________________________________________
 
-# 66. Tests of the validation subsystem
+## 66. Tests of the validation subsystem
 
 The validator itself requires validation.
 
@@ -2197,9 +2193,9 @@ receipt-binding tests
 recovery tests
 ```
 
----
+______________________________________________________________________
 
-# 67. Constitutional validation tests
+## 67. Constitutional validation tests
 
 ```text
 T-VAL-001
@@ -2252,9 +2248,9 @@ regime changes
 → regime-dependent receipt becomes stale
 ```
 
----
+______________________________________________________________________
 
-# 68. Mutation testing
+## 68. Mutation testing
 
 Inject defects:
 
@@ -2273,28 +2269,28 @@ mark UNKNOWN as PASS
 
 The validation system should detect or fail closed.
 
----
+______________________________________________________________________
 
-# 69. Replay testing
+## 69. Replay testing
 
 For deterministic validator classes:
 
-[
+\[
 Same(
 Target,
 ValidatorVersion,
 Contract,
 Context
 )
-\Rightarrow
+\\Rightarrow
 Same(Result)
-]
+\]
 
 If nondeterminism exists, it must be declared and bounded.
 
----
+______________________________________________________________________
 
-# 70. Observability
+## 70. Observability
 
 Validation traces should expose:
 
@@ -2322,9 +2318,9 @@ FAIL
 UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 71. Metrics
+## 71. Metrics
 
 Operational metrics may include:
 
@@ -2347,9 +2343,9 @@ adversarial_downgrade_rate
 
 Metrics are evidence about validator behavior, not automatic proof of correctness.
 
----
+______________________________________________________________________
 
-# 72. Validator quality
+## 72. Validator quality
 
 A validator can itself have:
 
@@ -2373,30 +2369,30 @@ validator_quality:
 
 A validator's confidence ceiling should reflect its own validation quality.
 
----
+______________________________________________________________________
 
-# 73. Validation debt
+## 73. Validation debt
 
 AMOS may track unresolved validation burden:
 
-[
+\[
 ValidationDebt =
 UnvalidatedCriticalArtifacts
-+
+\+
 StaleReceipts
-+
+\+
 UnknownDependencies
-+
+\+
 UnresolvedConflicts
-+
+\+
 MissingFalsifiers
-]
+\]
 
 This is a model-level metric unless formally specified elsewhere.
 
----
+______________________________________________________________________
 
-# 74. Priority model
+## 74. Priority model
 
 Resolve gaps by:
 
@@ -2409,9 +2405,9 @@ CRITICAL
 
 Validation resources should follow expected decision value.
 
----
+______________________________________________________________________
 
-# 75. Validation and generators
+## 75. Validation and generators
 
 Relationship to `12_GENERATORS`:
 
@@ -2431,9 +2427,9 @@ PROMOTION / REJECTION
 
 Validation must remain independent enough that a generator cannot self-certify its output as authoritative.
 
----
+______________________________________________________________________
 
-# 76. Validation and registry
+## 76. Validation and registry
 
 A registry should store status but not invent it.
 
@@ -2446,9 +2442,9 @@ Registry record
 != source of validation truth
 ```
 
----
+______________________________________________________________________
 
-# 77. Validation and modes
+## 77. Validation and modes
 
 Mode validation should determine:
 
@@ -2463,9 +2459,9 @@ freshness valid?
 
 Mode activation is separately governed.
 
----
+______________________________________________________________________
 
-# 78. Validation and cognitive cells
+## 78. Validation and cognitive cells
 
 Each matrix cell may require:
 
@@ -2483,9 +2479,9 @@ cell_validation:
 
 Presence of an address is not sufficient.
 
----
+______________________________________________________________________
 
-# 79. Validation and RSCF
+## 79. Validation and RSCF
 
 RSCF validation should inspect:
 
@@ -2505,9 +2501,9 @@ confidence ceiling
 
 A syntactically complete RSCF may still be epistemically invalid.
 
----
+______________________________________________________________________
 
-# 80. Validation and GMEF
+## 80. Validation and GMEF
 
 GMEF validation may require:
 
@@ -2524,9 +2520,9 @@ finality
 
 Governance fields left `UNKNOWN` block consequential promotion.
 
----
+______________________________________________________________________
 
-# 81. Validation and event bus
+## 81. Validation and event bus
 
 Events may carry validation state, but event transport must not certify truth.
 
@@ -2538,9 +2534,9 @@ must reference a real validation receipt.
 
 The bus itself does not validate the receipt's semantics.
 
----
+______________________________________________________________________
 
-# 82. Validation and workers
+## 82. Validation and workers
 
 Workers should only execute bounded validation tasks.
 
@@ -2558,21 +2554,21 @@ Worker success produces evidence.
 
 The validation engine interprets that evidence within the declared contract.
 
----
+______________________________________________________________________
 
-# 83. Validation and authority
+## 83. Validation and authority
 
 Hard rule:
 
-[
-Capability \neq Authority
-]
+\[
+Capability \\neq Authority
+\]
 
 and:
 
-[
-Validation \neq Authority
-]
+\[
+Validation \\neq Authority
+\]
 
 A validated patch can still be unauthorized.
 
@@ -2580,9 +2576,9 @@ A validated policy candidate can still be inactive.
 
 A validated canon candidate can still be unadmitted.
 
----
+______________________________________________________________________
 
-# 84. Validation and finality
+## 84. Validation and finality
 
 A validation receipt proves a check result.
 
@@ -2590,9 +2586,9 @@ A finality receipt proves a committed state under a finalization protocol.
 
 These are different proof objects.
 
----
+______________________________________________________________________
 
-# 85. Validation and deployment
+## 85. Validation and deployment
 
 Before production/canary deployment, validation may need:
 
@@ -2609,9 +2605,9 @@ security validation
 
 Deployment success cannot retroactively validate unsupported architecture claims.
 
----
+______________________________________________________________________
 
-# 86. Validation and knowledge harvest
+## 86. Validation and knowledge harvest
 
 For knowledge promotion:
 
@@ -2629,9 +2625,9 @@ CANON ADMISSION
 
 Documentation and README claims remain `SOURCE_CLAIM` until validated.
 
----
+______________________________________________________________________
 
-# 87. Security boundary
+## 87. Security boundary
 
 Validation results can be attacked.
 
@@ -2653,9 +2649,9 @@ Required future controls may include signed receipts, immutable audit records, v
 
 Those mechanisms remain `UNKNOWN/GAP` until implementation evidence exists.
 
----
+______________________________________________________________________
 
-# 88. Resource governance
+## 88. Resource governance
 
 ```yaml
 validation_resource_budget:
@@ -2669,9 +2665,9 @@ validation_resource_budget:
 
 Resource limits must not silently remove load-bearing checks.
 
----
+______________________________________________________________________
 
-# 89. Adaptive complexity
+## 89. Adaptive complexity
 
 Validation depth can map to AMOS complexity levels:
 
@@ -2706,9 +2702,9 @@ regime shift
 stale validation
 ```
 
----
+______________________________________________________________________
 
-# 90. Stop conditions
+## 90. Stop conditions
 
 Validation may stop when:
 
@@ -2722,9 +2718,9 @@ are achieved for the requested scope.
 
 It should not continue collecting redundant evidence after outcome-changing uncertainty is resolved.
 
----
+______________________________________________________________________
 
-# 91. Gap registry
+## 91. Gap registry
 
 ```yaml
 gaps:
@@ -2754,9 +2750,9 @@ gaps:
     - README formatting
 ```
 
----
+______________________________________________________________________
 
-# 92. Required completion field status
+## 92. Required completion field status
 
 ```yaml
 completion_status:
@@ -2846,9 +2842,9 @@ completion_status:
     status: UNBOUND
 ```
 
----
+______________________________________________________________________
 
-# 93. RSCF completion state
+## 93. RSCF completion state
 
 ```yaml
 rscf:
@@ -2912,9 +2908,9 @@ rscf:
     PLACEHOLDER
 ```
 
----
+______________________________________________________________________
 
-# 94. GMEF completion state
+## 94. GMEF completion state
 
 ```yaml
 gmef:
@@ -2957,9 +2953,9 @@ gmef:
     UNFINALIZED
 ```
 
----
+______________________________________________________________________
 
-# 95. Validation proof capsule
+## 95. Validation proof capsule
 
 ```yaml
 proof_capsule:
@@ -2996,9 +2992,9 @@ proof_capsule:
     - receipt revoked
 ```
 
----
+______________________________________________________________________
 
-# 96. Related artifacts
+## 96. Related artifacts
 
 ```yaml
 related:
@@ -3029,9 +3025,9 @@ related:
     UNVERIFIED
 ```
 
----
+______________________________________________________________________
 
-# 97. Related tag ontology
+## 97. Related tag ontology
 
 ```text
 Identity:
@@ -3105,9 +3101,9 @@ Assurance:
 #Recovery
 ```
 
----
+______________________________________________________________________
 
-# 98. Hard boundaries
+## 98. Hard boundaries
 
 ```text
 PLACEHOLDER != IMPLEMENTED
@@ -3143,9 +3139,9 @@ STALE_PASS != CURRENT_PASS
 COMPETING != RESOLVED
 ```
 
----
+______________________________________________________________________
 
-# 99. Current decision
+## 99. Current decision
 
 ```yaml
 decision:
@@ -3176,9 +3172,9 @@ decision:
     - declare finality
 ```
 
----
+______________________________________________________________________
 
-# 100. Final conclusion
+## 100. Final conclusion
 
 **Claim**
 
@@ -3255,23 +3251,27 @@ NON_AUTHORITATIVE
 
 This keeps the validation subsystem aligned with the Full Brain OS integrity rule: validation must remain scoped, provenance-aware, gap-visible, and incapable of silently turning missing evidence into `PASS`.
 ```
----
+
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: validation_cognitive_matrix_readme
 node_type: note
 path: 25_COGNITIVE_MATRIX/11_VALIDATION/VALIDATION_COGNITIVE_MATRIX_README.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/11_VALIDATION/11_VALIDATION_MOC|11_VALIDATION_MOC]]
-

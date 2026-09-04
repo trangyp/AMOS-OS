@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: L03 PERCEPT FORMATION PRIMITIVES COGNITIVE MATRIX RSCF
 type: cognitive
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L03_PERCEPT_FORMATION
 tags:
-- cognitive-matrix
-- primitives
-- matrix/l03-percept-formation
-- note
-- domain/cognitive-matrix
+  - cognitive-matrix
+  - primitives
+  - matrix/l03-percept-formation
+  - note
+  - domain/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: EMPIRICAL
@@ -40,7 +43,7 @@ PERCEPT != OBSERVATION
 CONFIDENCE != EVIDENCE
 ```
 
----
+______________________________________________________________________
 
 ## 1. Source / canon references
 
@@ -73,7 +76,7 @@ canonical_L03_confidence_equation: UNKNOWN_GAP
 canonical_L03_runtime_binding: UNKNOWN_GAP
 ```
 
----
+______________________________________________________________________
 
 ## 2. Definition and scope
 
@@ -83,14 +86,12 @@ Its purpose is to prevent a formed percept from becoming an unsupported fact mer
 
 Conceptually:
 
-[
-RSCF_{L03}
-==========
+## \[ RSCF\_{L03}
 
-\langle
+\\langle
 C,T,HML,P,E,D,A,K,F,U,G
-\rangle
-]
+\\rangle
+\]
 
 where:
 
@@ -110,7 +111,7 @@ G   = gaps
 
 This equation is `AMOS_MODEL`, not an established external scientific equation.
 
----
+______________________________________________________________________
 
 ## 3. Typed inputs / outputs
 
@@ -205,7 +206,8 @@ L03RSCFOutput:
   commit_authority:
     type: NONE
 ```
----
+
+______________________________________________________________________
 
 ## 4. State variables
 
@@ -238,7 +240,7 @@ Conf_t    = confidence ceiling
 Ver_t     = state/version identity
 ```
 
----
+______________________________________________________________________
 
 ## 5. Epistemic node types
 
@@ -274,7 +276,7 @@ sensor_record:
   type: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 ## 6. Operators
 
@@ -325,7 +327,7 @@ PROPOSE_RSCF
 
 Canonical operator names remain `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
 ## 7. Invariants
 
@@ -394,7 +396,7 @@ PROPOSAL != COMMIT
 
 The confidence, provenance-independence, competing-hypothesis, and selective-invalidation rules directly align with the governing RSCF model.
 
----
+______________________________________________________________________
 
 ## 8. Dependencies
 
@@ -427,7 +429,7 @@ cross_cutting:
   - control_plane
 ```
 
----
+______________________________________________________________________
 
 ## 9. H/M/L applicability
 
@@ -478,7 +480,7 @@ alter proof sufficiency or the conclusion
 
 This follows the smallest-sufficient-proof rule of the RSCF architecture.
 
----
+______________________________________________________________________
 
 ## 10. Control-plane requirements
 
@@ -510,7 +512,7 @@ override governing constraints
 
 Commit requires external control-plane authorization.
 
----
+______________________________________________________________________
 
 ## 11. Agents
 
@@ -531,7 +533,7 @@ L03_RSCF_VALIDATOR
 
 These are architectural roles, not evidence of deployed agents.
 
----
+______________________________________________________________________
 
 ## 12. Skills
 
@@ -553,7 +555,7 @@ control-plane governance
 
 Skill availability constitutes capability, not execution or authority.
 
----
+______________________________________________________________________
 
 ## 13. Workflow
 
@@ -601,7 +603,7 @@ PROPOSE RSCF
 CONTROL-PLANE GATE
 ```
 
----
+______________________________________________________________________
 
 ## 14. Protocols
 
@@ -642,7 +644,7 @@ RSCF_COMMIT_RESULT
 
 Canonical wire schemas remain `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
 ## 15. Evidence / provenance
 
@@ -672,7 +674,7 @@ state/version identity
 
 Independence must be demonstrated rather than inferred from source count. Correlated descendants of one source cannot be counted as independent confirmation.
 
----
+______________________________________________________________________
 
 ## 16. Uncertainty and confidence ceiling
 
@@ -689,17 +691,17 @@ uncertainty_vector:
 
 Candidate governing relation:
 
-[
+\[
 Conf(C)
-\leq
-\min_{p\in LB(C)} Conf(p)
-]
+\\leq
+\\min\_{p\\in LB(C)} Conf(p)
+\]
 
 where `LB(C)` is the set of load-bearing premises for conclusion `C`, unless a weak premise has been independently revalidated.
 
 This is an `AMOS_MODEL` representation of the RSCF confidence rule, not a universal statistical confidence equation.
 
----
+______________________________________________________________________
 
 ## 17. Competing percepts
 
@@ -728,7 +730,7 @@ competing:
 
 When evidence is equal, incomparable, correlated, or insufficient, competing hypotheses remain explicit until discriminating evidence exists.
 
----
+______________________________________________________________________
 
 ## 18. Gap classification
 
@@ -741,12 +743,12 @@ COSMETIC
 
 Priority:
 
-[
+\[
 CRITICAL
 
 >
 
-DECISION\text{-}RELEVANT
+DECISION\\text{-}RELEVANT
 
 >
 
@@ -755,7 +757,7 @@ EXPLANATORY
 >
 
 COSMETIC
-]
+\]
 
 This is a governance ordering, not a physical equation.
 
@@ -775,7 +777,7 @@ COSMETIC:
 missing human-readable label
 ```
 
----
+______________________________________________________________________
 
 ## 19. Failure modes
 
@@ -802,7 +804,7 @@ RFM-019 version ambiguity
 RFM-020 unauthorized commit
 ```
 
----
+______________________________________________________________________
 
 ## 20. Repair / recovery
 
@@ -838,7 +840,7 @@ REISSUE CONCLUSION CLASS
 
 A failed premise should invalidate only dependent descendants rather than trigger indiscriminate global recomputation.
 
----
+______________________________________________________________________
 
 ## 21. Tests / validators
 
@@ -906,7 +908,7 @@ formal_verification: false
 empirical_validation: false
 ```
 
----
+______________________________________________________________________
 
 ## 22. Falsifiers / invalidation conditions
 
@@ -926,7 +928,7 @@ or executable canonical behavior contradicts this model
 
 Individual RSCFs become stale or invalid when a load-bearing premise fails, provenance is revoked, applicability changes, a regime shift occurs, freshness expires, or new discriminating evidence defeats the current percept.
 
----
+______________________________________________________________________
 
 ## 23. Gap status
 
@@ -982,7 +984,7 @@ gap_status:
     status: CRITICAL_GAP
 ```
 
----
+______________________________________________________________________
 
 ## 24. RSCF completion state
 
@@ -1073,22 +1075,26 @@ gap_status:
 
 > **`L03_PERCEPT_FORMATION` SHALL NOT treat a formed percept, coherent interpretation, or completed RSCF as proof of reality. Every material percept SHALL preserve its epistemic class, observation lineage, load-bearing premises, H/M/L location, dependency edges, provenance ancestry, scope, regime, freshness, competing interpretations, falsifiers, unresolved gaps, and confidence ceiling where available. Correlated descendants SHALL NOT be counted as independent confirmation; structural similarity or temporal sequence SHALL NOT independently license causation; and incompatible adequately supported percepts SHALL remain `COMPETING` until discriminating evidence exists. A failed premise SHALL selectively invalidate dependent conclusions while preserving unaffected valid branches. `UNKNOWN/GAP` SHALL remain non-passing. RSCF construction may produce a governed proposal, but neither the RSCF nor its confidence score grants authority or constitutes durable commit.**
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: l03_percept_formation_primitives_cognitive_matrix_rscf
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L03_PERCEPT_FORMATION/L03_PERCEPT_FORMATION_PRIMITIVES_COGNITIVE_MATRIX_RSCF.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L03_PERCEPT_FORMATION/L03_PERCEPT_FORMATION_MOC|L03_PERCEPT_FORMATION_MOC]]

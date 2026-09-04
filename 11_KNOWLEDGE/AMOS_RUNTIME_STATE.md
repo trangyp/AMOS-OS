@@ -1,11 +1,14 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: AMOS OS Runtime State Snapshot
 type: state
 source: 11_KNOWLEDGE
 tags:
-- knowledge
-- note
-- canon/knowledge
+  - knowledge
+  - note
+  - canon/knowledge
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -47,12 +50,12 @@ rscf:
 ## AMOS OS Interpretation Rules
 
 1. Treat this file as a **state observation**, not a persistent truth claim.
-2. Fields such as `alive`, `health`, `category`, and `health: unknown` retain the semantics of the source runtime.
-3. Registry membership does not prove successful import, execution, test coverage, correctness, or independence.
-4. File names containing terms such as `consciousness`, `quantum`, `divine`, `ultimate`, `supreme`, or similar are identifiers from the source registry; names alone do not establish empirical capability.
-5. A later snapshot supersedes this snapshot only for time-dependent state, not for provenance.
-6. State differences should be computed against hashes/timestamps rather than inferred from naming.
-7. Failed or stale state should invalidate only dependent state conclusions where possible.
+1. Fields such as `alive`, `health`, `category`, and `health: unknown` retain the semantics of the source runtime.
+1. Registry membership does not prove successful import, execution, test coverage, correctness, or independence.
+1. File names containing terms such as `consciousness`, `quantum`, `divine`, `ultimate`, `supreme`, or similar are identifiers from the source registry; names alone do not establish empirical capability.
+1. A later snapshot supersedes this snapshot only for time-dependent state, not for provenance.
+1. State differences should be computed against hashes/timestamps rather than inferred from naming.
+1. Failed or stale state should invalidate only dependent state conclusions where possible.
 
 ## Raw State Payload
 
@@ -172079,23 +172082,26 @@ AMOS_OS/
 
 For machine consumption, retain the raw JSON sidecar in the same folder.
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos_runtime_state
 node_type: note
 path: 11_KNOWLEDGE/AMOS_RUNTIME_STATE.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]]
-

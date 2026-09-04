@@ -17,61 +17,70 @@ scope: AMOS_OS
 created: 2026-08-25
 updated: 2026-08-25
 tags:
-- amos-os
-- kernel
-- core
-- canon-group/tech-ai
-- canon/model
-- kernel/reasoning
-- kernel/multi-hypothesis
-- kernel/competing-hypotheses
-- kernel/epistemic
-- kernel/provenance
-- kernel/evidence-topology
-- kernel/dependency
-- kernel/causal
-- kernel/counterfactual
-- kernel/metacognition
-- kernel/scope
-- kernel/regime
-- kernel/freshness
-- kernel/sensitivity
-- kernel/validation
-- kernel/rscf
-- rscf/claim
-- rscf/provenance
-- rscf/state/model
-- topic/multi-hypothesis
-- topic/competing-hypotheses
-- topic/discriminating-evidence
-- readme
-- architecture
-- placement-rules
-- amos-core-laws
-- law-hierarchy
-- canon-provenance
-- source-lineage
-- supersession-log
-- k-core19-logic
-- k-distinction-relation-constraint
-- k-law-hierarchy
-- k-meta-logic
-- k-counterfactual
-- k-metacognition
-- authoritative-state
+  - amos-os
+  - kernel
+  - core
+  - canon-group/tech-ai
+  - canon/model
+  - kernel/reasoning
+  - kernel/multi-hypothesis
+  - kernel/competing-hypotheses
+  - kernel/epistemic
+  - kernel/provenance
+  - kernel/evidence-topology
+  - kernel/dependency
+  - kernel/causal
+  - kernel/counterfactual
+  - kernel/metacognition
+  - kernel/scope
+  - kernel/regime
+  - kernel/freshness
+  - kernel/sensitivity
+  - kernel/validation
+  - kernel/rscf
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/model
+  - topic/multi-hypothesis
+  - topic/competing-hypotheses
+  - topic/discriminating-evidence
+  - readme
+  - architecture
+  - placement-rules
+  - amos-core-laws
+  - law-hierarchy
+  - canon-provenance
+  - source-lineage
+  - supersession-log
+  - k-core19-logic
+  - k-distinction-relation-constraint
+  - k-law-hierarchy
+  - k-meta-logic
+  - k-counterfactual
+  - k-metacognition
+  - authoritative-state
 aliases:
-- AMOS Multi Hypothesis Kernel - Multi Hypothesis Kernel - K Multi Hypothesis - K_MULTI_HYPOTH
+  - AMOS Multi Hypothesis Kernel - Multi Hypothesis Kernel - K Multi Hypothesis - K_MULTI_HYPOTH
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 # K_MULTI_HYPOTHESIS
+
 > **AMOS Core target:** `v4.4`
 > **Origin architect / steward:** Trang Phan
 > **Plane:** `02_KERNEL`
 > **Status:** `AMOS_MODEL`
 > **Conclusion class:** `AMOS_MODEL`
+
 ## Purpose
+
 `K_MULTI_HYPOTHESIS` defines the AMOS kernel contract for maintaining, comparing, challenging, discriminating, updating, and resolving multiple plausible explanations or predictions without forcing premature convergence.
 Its core function is:
+
 ```text
 QUESTION / OBSERVATION / ANOMALY
 ↓
@@ -93,27 +102,26 @@ PRESERVE COMPETING
 OR
 RETURN UNKNOWN/GAP
 ```
+
 The kernel exists to prevent:
+
 ```text
 FIRST PLAUSIBLE EXPLANATION
 →
 UNJUSTIFIED CONCLUSION
 ```
+
 and:
+
 ```text
 MOST REPEATED EXPLANATION
 →
 FALSE CONSENSUS
 ```
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
----
 
+## rscf: state: DERIVED claim_class: DERIVED provenance: AMOS_corpus scope: AMOS_general
 
-# 1. Architectural Position
+## 1. Architectural Position
 
 ```text
 01_CANON
@@ -138,9 +146,9 @@ EPISTEMIC / PROVENANCE / CAUSAL / DEPENDENCY / VALIDATION
 
 It coordinates their outputs around competing explanatory states.
 
----
+______________________________________________________________________
 
-# 2. Core Law
+## 2. Core Law
 
 ```text
 PLAUSIBLE
@@ -170,9 +178,9 @@ When material alternatives remain viable:
 PRESERVE COMPETING
 ```
 
----
+______________________________________________________________________
 
-# 3. Hard Boundary
+## 3. Hard Boundary
 
 ```text
 HYPOTHESIS != FACT
@@ -190,9 +198,9 @@ COMPETING != FAILURE
 UNKNOWN/GAP != PASS
 ```
 
----
+______________________________________________________________________
 
-# 4. Hypothesis Object
+## 4. Hypothesis Object
 
 A material hypothesis should conceptually carry:
 
@@ -227,9 +235,9 @@ hypothesis:
   status:
 ```
 
----
+______________________________________________________________________
 
-# 5. Hypothesis Types
+## 5. Hypothesis Types
 
 AMOS may distinguish:
 
@@ -252,9 +260,9 @@ IMPLEMENTATION
 
 Hypothesis type determines which evidence can legitimately discriminate it.
 
----
+______________________________________________________________________
 
-# 6. Hypothesis Identity
+## 6. Hypothesis Identity
 
 Each hypothesis must have stable identity.
 
@@ -282,9 +290,9 @@ SAME HYPOTHESIS
 
 if assumptions or scope differ.
 
----
+______________________________________________________________________
 
-# 7. Semantic Normalization
+## 7. Semantic Normalization
 
 Before counting hypotheses, normalize:
 
@@ -315,9 +323,9 @@ may normalize to one proposition.
 
 Do not manufacture diversity from paraphrases.
 
----
+______________________________________________________________________
 
-# 8. Hypothesis Distinction Firewall
+## 8. Hypothesis Distinction Firewall
 
 Conversely, apparently similar claims may differ materially.
 
@@ -337,9 +345,9 @@ CORRELATION HYPOTHESIS
 CAUSAL HYPOTHESIS
 ```
 
----
+______________________________________________________________________
 
-# 9. Initial Hypothesis Set
+## 9. Initial Hypothesis Set
 
 The initial hypothesis set should include every materially supported explanation that can change the answer.
 
@@ -357,9 +365,9 @@ H =
 
 Do not expand into arbitrary possibilities with no support or decision value.
 
----
+______________________________________________________________________
 
-# 10. Completeness Boundary
+## 10. Completeness Boundary
 
 The kernel seeks:
 
@@ -383,9 +391,9 @@ AND
 CAPABLE OF CHANGING THE OUTCOME
 ```
 
----
+______________________________________________________________________
 
-# 11. Null Hypothesis
+## 11. Null Hypothesis
 
 Where appropriate, preserve a null or minimal explanation.
 
@@ -403,9 +411,9 @@ The null hypothesis should not be privileged automatically.
 
 It is simply another explicitly modeled alternative where relevant.
 
----
+______________________________________________________________________
 
-# 12. Unknown Hypothesis Class
+## 12. Unknown Hypothesis Class
 
 If evidence indicates:
 
@@ -422,9 +430,9 @@ H_UNKNOWN
 
 rather than forcing one known hypothesis to absorb unexplained evidence.
 
----
+______________________________________________________________________
 
-# 13. Open-World Firewall
+## 13. Open-World Firewall
 
 ```text
 H1 REJECTED
@@ -457,9 +465,9 @@ UNKNOWN/GAP
 
 may be the correct outcome.
 
----
+______________________________________________________________________
 
-# 14. Evidence Partition
+## 14. Evidence Partition
 
 For each hypothesis, evidence should be classified as:
 
@@ -475,9 +483,9 @@ FALSIFYING
 
 Do not treat every relevant source as support.
 
----
+______________________________________________________________________
 
-# 15. Evidence Typing
+## 15. Evidence Typing
 
 Evidence topology distinguishes:
 
@@ -492,9 +500,9 @@ UNKNOWN
 
 A hypothesis supported only by model outputs has a different epistemic basis from one supported by independent observations.
 
----
+______________________________________________________________________
 
-# 16. Provenance Topology
+## 16. Provenance Topology
 
 Each evidence item should preserve ancestry.
 
@@ -518,9 +526,9 @@ DOCUMENT COUNT
 INDEPENDENT EVIDENCE COUNT
 ```
 
----
+______________________________________________________________________
 
-# 17. Sybil Hardening
+## 17. Sybil Hardening
 
 A hypothesis supported by:
 
@@ -542,9 +550,9 @@ if all descend from one origin.
 
 Repetition must not inflate hypothesis support.
 
----
+______________________________________________________________________
 
-# 18. Independence States
+## 18. Independence States
 
 Recommended evidence-independence states:
 
@@ -564,9 +572,9 @@ UNKNOWN
 INDEPENDENT
 ```
 
----
+______________________________________________________________________
 
-# 19. Evidence Correlation
+## 19. Evidence Correlation
 
 Evidence may be correlated through:
 
@@ -584,9 +592,9 @@ SAME TRANSFORMATION
 
 Correlation risk should remain visible.
 
----
+______________________________________________________________________
 
-# 20. Hypothesis Support Structure
+## 20. Hypothesis Support Structure
 
 Conceptually:
 
@@ -613,9 +621,9 @@ support_state:
 
 No universal scalar score is required.
 
----
+______________________________________________________________________
 
-# 21. No Naive Vote Counting
+## 21. No Naive Vote Counting
 
 Invalid reasoning:
 
@@ -640,9 +648,9 @@ EVIDENCE TYPE
 FRESHNESS
 ```
 
----
+______________________________________________________________________
 
-# 22. No Authority-by-Majority
+## 22. No Authority-by-Majority
 
 ```text
 MOST PEOPLE SAY H1
@@ -658,9 +666,9 @@ POPULAR BELIEF
 EXTERNAL TRUTH
 ```
 
----
+______________________________________________________________________
 
-# 23. Scope Firewall
+## 23. Scope Firewall
 
 Each hypothesis has an applicability envelope.
 
@@ -677,9 +685,9 @@ scope:
 
 Two hypotheses may both be correct in different scopes.
 
----
+______________________________________________________________________
 
-# 24. Scope Partition
+## 24. Scope Partition
 
 Example:
 
@@ -696,9 +704,9 @@ BOTH CONDITIONAL
 
 rather than selecting one globally.
 
----
+______________________________________________________________________
 
-# 25. Regime Firewall
+## 25. Regime Firewall
 
 A hypothesis may dominate in one regime and fail in another.
 
@@ -722,9 +730,9 @@ H1 GIVEN R1
 H2 GIVEN R2
 ```
 
----
+______________________________________________________________________
 
-# 26. Regime Shift Detection
+## 26. Regime Shift Detection
 
 When observations once supporting `H1` stop fitting:
 
@@ -741,9 +749,9 @@ REGIME CHANGED
 
 A previously valid model may become stale without being historically invalid.
 
----
+______________________________________________________________________
 
-# 27. Temporal Hypotheses
+## 27. Temporal Hypotheses
 
 Hypotheses may differ only by time.
 
@@ -759,9 +767,9 @@ System state changed after T.
 
 Temporal discrimination may resolve the conflict without rejecting the underlying mechanism.
 
----
+______________________________________________________________________
 
-# 28. Freshness
+## 28. Freshness
 
 Evidence supporting a current hypothesis must be current enough for the domain.
 
@@ -773,9 +781,9 @@ may remain historically valid but stale for current decision-making.
 
 Freshness is typed and claim-specific.
 
----
+______________________________________________________________________
 
-# 29. Causal Hypotheses
+## 29. Causal Hypotheses
 
 Causal hypotheses require stronger discipline.
 
@@ -803,9 +811,9 @@ NO STABLE CAUSAL RELATION
 
 AMOS should preserve plausible alternatives until discrimination is possible.
 
----
+______________________________________________________________________
 
-# 30. Causal Firewall
+## 30. Causal Firewall
 
 The following cannot independently resolve causal competition:
 
@@ -820,9 +828,9 @@ NARRATIVE COHERENCE
 
 Causal hypotheses require appropriately typed evidence.
 
----
+______________________________________________________________________
 
-# 31. Mechanism Hypotheses
+## 31. Mechanism Hypotheses
 
 For the same observed effect:
 
@@ -847,9 +855,9 @@ OUTCOME VERIFIED
 MECHANISM VERIFIED
 ```
 
----
+______________________________________________________________________
 
-# 32. Counterfactual Integration
+## 32. Counterfactual Integration
 
 Each causal hypothesis may generate different counterfactual predictions.
 
@@ -861,9 +869,9 @@ H3 → CF3
 
 A discriminating intervention should ideally yield different expected outcomes across hypotheses.
 
----
+______________________________________________________________________
 
-# 33. Prediction Table
+## 33. Prediction Table
 
 Conceptually:
 
@@ -875,9 +883,9 @@ Conceptually:
 
 `T3` has more discriminating value if predictions diverge strongly.
 
----
+______________________________________________________________________
 
-# 34. Discriminating Evidence
+## 34. Discriminating Evidence
 
 Evidence is discriminating when:
 
@@ -895,9 +903,9 @@ differ materially.
 
 This notation is conceptual and does not require every implementation to use Bayesian probability.
 
----
+______________________________________________________________________
 
-# 35. Cheap High-Information Test
+## 35. Cheap High-Information Test
 
 Preferred next step:
 
@@ -912,9 +920,9 @@ HIGHEST EXPECTED DECISION-RELEVANT DISCRIMINATION
 
 Avoid redundant evidence that every surviving hypothesis already predicts.
 
----
+______________________________________________________________________
 
-# 36. Redundant Evidence
+## 36. Redundant Evidence
 
 If:
 
@@ -928,9 +936,9 @@ observing `A` may have low discrimination value.
 
 It may validate shared premises without ranking the competing hypotheses.
 
----
+______________________________________________________________________
 
-# 37. Falsifiers
+## 37. Falsifiers
 
 Each hypothesis should identify observations capable of weakening it.
 
@@ -944,9 +952,9 @@ hypothesis:
 
 A hypothesis without a meaningful falsifier may remain a model or interpretive frame rather than a strongly empirical claim.
 
----
+______________________________________________________________________
 
-# 38. Strong Falsification
+## 38. Strong Falsification
 
 If hypothesis `H1` entails:
 
@@ -962,9 +970,9 @@ NOT A
 
 then `H1` may be invalidated or downgraded, subject to checking auxiliary assumptions.
 
----
+______________________________________________________________________
 
-# 39. Auxiliary Assumption Firewall
+## 39. Auxiliary Assumption Firewall
 
 Failure of a prediction may arise from:
 
@@ -980,9 +988,9 @@ REGIME MISMATCH
 
 Therefore one failed prediction does not always uniquely identify the failed premise.
 
----
+______________________________________________________________________
 
-# 40. Assumption Map
+## 40. Assumption Map
 
 Hypotheses should expose material assumptions.
 
@@ -995,9 +1003,9 @@ H1
 
 If `A2` is fragile, confidence in `H1` must reflect that dependence.
 
----
+______________________________________________________________________
 
-# 41. Common Assumption Risk
+## 41. Common Assumption Risk
 
 Suppose:
 
@@ -1013,9 +1021,9 @@ It does not discriminate among them.
 
 Likewise, failure of `A` may invalidate all three.
 
----
+______________________________________________________________________
 
-# 42. Dependency Graph
+## 42. Dependency Graph
 
 Conceptually:
 
@@ -1031,9 +1039,9 @@ P_H3 ───→ H3
 
 Metacognitive and validation layers should target `P_H1/P_H2/P_H3` when seeking discrimination.
 
----
+______________________________________________________________________
 
-# 43. Hypothesis Confidence Ceiling
+## 43. Hypothesis Confidence Ceiling
 
 For hypothesis `H`:
 
@@ -1045,9 +1053,9 @@ WEAKEST LOAD-BEARING PREMISE
 
 unless that premise is independently revalidated or bypassed.
 
----
+______________________________________________________________________
 
-# 44. No Probability Fabrication
+## 44. No Probability Fabrication
 
 If the evidence does not justify numerical probabilities:
 
@@ -1069,9 +1077,9 @@ COMPETING
 UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 45. Relative Support States
+## 45. Relative Support States
 
 Recommended states:
 
@@ -1089,9 +1097,9 @@ UNKNOWN
 
 These describe comparative evidence state, not universal truth.
 
----
+______________________________________________________________________
 
-# 46. Dominant Hypothesis
+## 46. Dominant Hypothesis
 
 `DOMINANT` means:
 
@@ -1115,9 +1123,9 @@ SCOPE SHIFT
 REGIME SHIFT
 ```
 
----
+______________________________________________________________________
 
-# 47. Comparable Support
+## 47. Comparable Support
 
 If two hypotheses have materially comparable evidence:
 
@@ -1133,9 +1141,9 @@ COMPETING
 
 unless a decision rule explicitly permits provisional action.
 
----
+______________________________________________________________________
 
-# 48. Incomparable Support
+## 48. Incomparable Support
 
 Evidence may be strong but incomparable.
 
@@ -1148,9 +1156,9 @@ H2 supported by field observation in different regime
 
 Do not force these into a single scalar without a justified comparison model.
 
----
+______________________________________________________________________
 
-# 49. Conflict Registry Integration
+## 49. Conflict Registry Integration
 
 Material unresolved hypothesis conflicts should bind to:
 
@@ -1172,9 +1180,9 @@ The hypothesis kernel manages competition.
 
 The conflict registry preserves the incompatibility as a governed artifact.
 
----
+______________________________________________________________________
 
-# 50. Source Registry Integration
+## 50. Source Registry Integration
 
 Every load-bearing evidence source should resolve through:
 
@@ -1197,17 +1205,17 @@ DEPENDENCY
 
 checks.
 
----
+______________________________________________________________________
 
-# 51. Source Lineage Integration
+## 51. Source Lineage Integration
 
 `SOURCE_LINEAGE` determines ancestry relationships.
 
 This is essential for detecting false independent support.
 
----
+______________________________________________________________________
 
-# 52. RSCF Integration
+## 52. RSCF Integration
 
 Each hypothesis may be represented as an RSCF.
 
@@ -1233,9 +1241,9 @@ DEPENDENCIES
 CONFIDENCE CEILING
 ```
 
----
+______________________________________________________________________
 
-# 53. Multi-RSCF Competition
+## 53. Multi-RSCF Competition
 
 The kernel may reason over:
 
@@ -1251,9 +1259,9 @@ RSCF_SET =
 
 A change to shared evidence may require atomic re-evaluation of several hypothesis states.
 
----
+______________________________________________________________________
 
-# 54. Atomic Hypothesis Update
+## 54. Atomic Hypothesis Update
 
 If a new observation changes relative support across multiple hypotheses:
 
@@ -1269,9 +1277,9 @@ the resulting hypothesis set should remain internally coherent.
 
 A partially updated set can misrepresent relative support.
 
----
+______________________________________________________________________
 
-# 55. Multi-Hypothesis State
+## 55. Multi-Hypothesis State
 
 Conceptually:
 
@@ -1298,9 +1306,9 @@ hypothesis_set:
   unresolved_gaps: []
 ```
 
----
+______________________________________________________________________
 
-# 56. Hypothesis Set States
+## 56. Hypothesis Set States
 
 Recommended set states:
 
@@ -1314,9 +1322,9 @@ ALL_REJECTED
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 57. OPEN
+## 57. OPEN
 
 `OPEN` means:
 
@@ -1326,9 +1334,9 @@ hypothesis construction or evidence binding remains incomplete
 
 Do not interpret it as epistemic failure.
 
----
+______________________________________________________________________
 
-# 58. COMPETING
+## 58. COMPETING
 
 `COMPETING` means:
 
@@ -1338,9 +1346,9 @@ two or more incompatible hypotheses remain materially viable
 
 This is a legitimate stable state.
 
----
+______________________________________________________________________
 
-# 59. PARTIALLY_DISCRIMINATED
+## 59. PARTIALLY_DISCRIMINATED
 
 Example:
 
@@ -1352,17 +1360,17 @@ H3 viable
 
 The competition narrows but is not resolved.
 
----
+______________________________________________________________________
 
-# 60. DOMINANT_HYPOTHESIS
+## 60. DOMINANT_HYPOTHESIS
 
 Use when one hypothesis has substantially stronger support but meaningful alternatives remain.
 
 The output should still expose those alternatives where decision-relevant.
 
----
+______________________________________________________________________
 
-# 61. RESOLVED_FOR_SCOPE
+## 61. RESOLVED_FOR_SCOPE
 
 Resolution must be scoped.
 
@@ -1376,9 +1384,9 @@ TIME T
 
 does not imply universal resolution.
 
----
+______________________________________________________________________
 
-# 62. ALL_REJECTED
+## 62. ALL_REJECTED
 
 If all active hypotheses are invalidated:
 
@@ -1396,9 +1404,9 @@ RETURN UNKNOWN/GAP
 
 Do not resurrect the least-bad rejected hypothesis merely to fill the gap.
 
----
+______________________________________________________________________
 
-# 63. Hypothesis Generation
+## 63. Hypothesis Generation
 
 New hypotheses may originate from:
 
@@ -1423,9 +1431,9 @@ according to origin.
 
 Generation is not validation.
 
----
+______________________________________________________________________
 
-# 64. Novel Hypothesis Firewall
+## 64. Novel Hypothesis Firewall
 
 A newly generated explanation must not gain confidence merely because it is elegant, novel, or internally coherent.
 
@@ -1436,9 +1444,9 @@ COMPLEXITY != EVIDENCE
 SIMPLICITY != TRUTH
 ```
 
----
+______________________________________________________________________
 
-# 65. Parsimony
+## 65. Parsimony
 
 When hypotheses explain the evidence equally well and have otherwise comparable support, lower unsupported assumption burden may be preferable as a heuristic.
 
@@ -1452,9 +1460,9 @@ PROOF
 
 A more complex hypothesis may be correct.
 
----
+______________________________________________________________________
 
-# 66. Explanatory Coverage
+## 66. Explanatory Coverage
 
 A hypothesis may explain more observations than another.
 
@@ -1468,9 +1476,9 @@ SUPPORTED OBSERVATIONS EXPLAINED BY H
 
 But high coverage alone does not establish causation, independence, or predictive validity.
 
----
+______________________________________________________________________
 
-# 67. Contradiction Burden
+## 67. Contradiction Burden
 
 A hypothesis should record evidence it fails to explain.
 
@@ -1480,9 +1488,9 @@ UNEXPLAINED OBSERVATIONS
 
 must not be hidden merely because the hypothesis explains many other facts.
 
----
+______________________________________________________________________
 
-# 68. Exception Burden
+## 68. Exception Burden
 
 A hypothesis requiring many unvalidated exceptions may be fragile.
 
@@ -1496,9 +1504,9 @@ AUTOMATICALLY FALSE
 
 Some domains are genuinely heterogeneous.
 
----
+______________________________________________________________________
 
-# 69. Predictive Discrimination
+## 69. Predictive Discrimination
 
 Where possible, prefer hypotheses making different testable predictions.
 
@@ -1515,9 +1523,9 @@ P1 != P2
 
 creates a higher-information test opportunity.
 
----
+______________________________________________________________________
 
-# 70. Retrodiction Firewall
+## 70. Retrodiction Firewall
 
 A hypothesis explaining already-known observations may have weaker discriminating value than one making successful novel predictions.
 
@@ -1529,9 +1537,9 @@ NOVEL PREDICTION
 
 still requires correct measurement, scope, and provenance.
 
----
+______________________________________________________________________
 
-# 71. Counterfactual Discrimination
+## 71. Counterfactual Discrimination
 
 For causal hypotheses:
 
@@ -1545,9 +1553,9 @@ do(X) → Y2
 
 an intervention capable of distinguishing `Y1` from `Y2` has high causal decision value.
 
----
+______________________________________________________________________
 
-# 72. Sensitivity Analysis
+## 72. Sensitivity Analysis
 
 Ask:
 
@@ -1558,9 +1566,9 @@ THAT CHANGES WHICH HYPOTHESIS IS PREFERRED?
 
 This identifies the load-bearing discriminator.
 
----
+______________________________________________________________________
 
-# 73. Ranking Fragility
+## 73. Ranking Fragility
 
 If a small plausible change reverses:
 
@@ -1584,9 +1592,9 @@ COMPETING / CONDITIONAL
 
 rather than falsely stable ranking.
 
----
+______________________________________________________________________
 
-# 74. Robust Dominance
+## 74. Robust Dominance
 
 A dominant hypothesis is more robust when it remains preferred under plausible variation of:
 
@@ -1599,9 +1607,9 @@ MODEL PARAMETERS
 
 Robust dominance still remains scope-bounded.
 
----
+______________________________________________________________________
 
-# 75. Metacognitive Challenge
+## 75. Metacognitive Challenge
 
 Before accepting a dominant hypothesis, ask:
 
@@ -1614,9 +1622,9 @@ Then inspect those premises.
 
 This prevents premature lock-in.
 
----
+______________________________________________________________________
 
-# 76. Hypothesis Lock-In Firewall
+## 76. Hypothesis Lock-In Firewall
 
 Once a hypothesis becomes preferred, later evidence must still be allowed to challenge it.
 
@@ -1628,9 +1636,9 @@ PERMANENT WINNER
 
 Avoid interpretation of all later evidence through one locked model.
 
----
+______________________________________________________________________
 
-# 77. Confirmation Bias Firewall
+## 77. Confirmation Bias Firewall
 
 For a preferred hypothesis:
 
@@ -1650,9 +1658,9 @@ and:
 SEARCH STRONGER ALTERNATIVE
 ```
 
----
+______________________________________________________________________
 
-# 78. Search Allocation
+## 78. Search Allocation
 
 Evidence gathering should prioritize:
 
@@ -1664,9 +1672,9 @@ between hypotheses.
 
 Do not spend effort collecting facts that all hypotheses already explain.
 
----
+______________________________________________________________________
 
-# 79. Information-Value Rule
+## 79. Information-Value Rule
 
 Conceptually:
 
@@ -1680,9 +1688,9 @@ FROM OBSERVING E
 
 High-information evidence deserves priority.
 
----
+______________________________________________________________________
 
-# 80. Adaptive Complexity
+## 80. Adaptive Complexity
 
 Reasoning depth:
 
@@ -1696,9 +1704,9 @@ C4 MAXIMUM
 
 should escalate as hypothesis competition becomes more consequential.
 
----
+______________________________________________________________________
 
-# 81. Escalation Conditions
+## 81. Escalation Conditions
 
 Escalate when:
 
@@ -1715,9 +1723,9 @@ AMBIGUOUS DEPENDENCIES
 GOVERNANCE IMPACT
 ```
 
----
+______________________________________________________________________
 
-# 82. Fast Path
+## 82. Fast Path
 
 A multi-hypothesis fast path is admissible when:
 
@@ -1735,9 +1743,9 @@ NO MATERIAL CONFLICT REMAINS
 
 Then local resolution may be sufficient.
 
----
+______________________________________________________________________
 
-# 83. Fast-Path Firewall
+## 83. Fast-Path Firewall
 
 ```text
 NO ALTERNATIVE FOUND QUICKLY
@@ -1747,9 +1755,9 @@ NO MATERIAL ALTERNATIVE
 
 Fast path cannot skip hypothesis challenge when stakes or ambiguity require it.
 
----
+______________________________________________________________________
 
-# 84. H/M/L Retrieval
+## 84. H/M/L Retrieval
 
 Hypothesis reasoning should retrieve evidence recursively:
 
@@ -1765,9 +1773,9 @@ RAW EVIDENCE
 
 Only traverse branches capable of changing hypothesis ranking.
 
----
+______________________________________________________________________
 
-# 85. Raw Evidence Rule
+## 85. Raw Evidence Rule
 
 Raw evidence should be loaded when needed to resolve:
 
@@ -1784,9 +1792,9 @@ DISCRIMINATING PREDICTION
 
 Do not load exhaustive raw evidence by default.
 
----
+______________________________________________________________________
 
-# 86. Hypothesis Invalidation
+## 86. Hypothesis Invalidation
 
 A hypothesis may be invalidated when:
 
@@ -1802,9 +1810,9 @@ PROVENANCE BASIS FAILS
 
 Invalidation must be scoped.
 
----
+______________________________________________________________________
 
-# 87. Partial Invalidation
+## 87. Partial Invalidation
 
 A hypothesis may fail in one scope and survive in another.
 
@@ -1823,9 +1831,9 @@ H1 = CONDITIONAL / SCOPED
 
 not globally false.
 
----
+______________________________________________________________________
 
-# 88. Hypothesis Recovery
+## 88. Hypothesis Recovery
 
 A previously rejected hypothesis may re-enter if:
 
@@ -1841,9 +1849,9 @@ changes the load-bearing state.
 
 Historical invalidation should remain traceable.
 
----
+______________________________________________________________________
 
-# 89. No Identical Retry
+## 89. No Identical Retry
 
 A failed hypothesis path should not simply be reconsidered without changed evidence.
 
@@ -1857,9 +1865,9 @@ NO NEW ASSUMPTION
 DO NOT RE-RUN SAME PATH
 ```
 
----
+______________________________________________________________________
 
-# 90. Decision Use
+## 90. Decision Use
 
 Hypothesis competition may inform action even before epistemic resolution.
 
@@ -1880,9 +1888,9 @@ WITHOUT
 EXPLANATORY SUFFICIENCY
 ```
 
----
+______________________________________________________________________
 
-# 91. Decision-Robust Hypothesis Sets
+## 91. Decision-Robust Hypothesis Sets
 
 If all viable hypotheses recommend the same reversible action:
 
@@ -1894,9 +1902,9 @@ may be stronger than any individual explanatory hypothesis.
 
 But the unresolved hypothesis conflict must remain visible.
 
----
+______________________________________________________________________
 
-# 92. Divergent Action Sets
+## 92. Divergent Action Sets
 
 If:
 
@@ -1909,9 +1917,9 @@ and actions are materially different, discrimination has high decision value.
 
 Escalate evidence gathering before irreversible action where feasible.
 
----
+______________________________________________________________________
 
-# 93. Governance Boundary
+## 93. Governance Boundary
 
 `K_MULTI_HYPOTHESIS` may determine:
 
@@ -1933,9 +1941,9 @@ BEST-SUPPORTED HYPOTHESIS
 AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 94. Runtime Boundary
+## 94. Runtime Boundary
 
 Runtime may execute tests, queries, simulations, or workflows generated from the hypothesis kernel.
 
@@ -1949,9 +1957,9 @@ RUNTIME ACTION
 
 Execution requires proper authority and tool paths.
 
----
+______________________________________________________________________
 
-# 95. Agent Boundary
+## 95. Agent Boundary
 
 Multiple agents generating the same hypothesis do not create independent evidence.
 
@@ -1966,9 +1974,9 @@ If both use the same source ancestry:
 NOT TWO INDEPENDENT CONFIRMATIONS
 ```
 
----
+______________________________________________________________________
 
-# 96. Model Boundary
+## 96. Model Boundary
 
 Multiple models agreeing may still share:
 
@@ -1981,9 +1989,9 @@ PROMPT ASSUMPTIONS
 
 Model agreement must not automatically be treated as independent empirical confirmation.
 
----
+______________________________________________________________________
 
-# 97. Simulation Boundary
+## 97. Simulation Boundary
 
 Simulation may discriminate hypotheses only relative to the simulation's assumptions.
 
@@ -1997,9 +2005,9 @@ does not automatically mean:
 REAL WORLD VERIFIES H1
 ```
 
----
+______________________________________________________________________
 
-# 98. Formal Proof Boundary
+## 98. Formal Proof Boundary
 
 If a hypothesis concerns a formally defined system, formal proof may resolve it within that formal system.
 
@@ -2013,9 +2021,9 @@ EXTERNAL SYSTEM VALIDATION
 
 unless model correspondence is independently established.
 
----
+______________________________________________________________________
 
-# 99. Multi-Hypothesis Uncertainty Vector
+## 99. Multi-Hypothesis Uncertainty Vector
 
 Conceptually:
 
@@ -2037,9 +2045,9 @@ U_discrimination
 
 Different dimensions require different remedies.
 
----
+______________________________________________________________________
 
-# 100. Hypothesis-Set Gap Types
+## 100. Hypothesis-Set Gap Types
 
 ```text
 CRITICAL
@@ -2066,9 +2074,9 @@ MISSING LABEL
 
 depending on objective.
 
----
+______________________________________________________________________
 
-# 101. Stop Conditions
+## 101. Stop Conditions
 
 Multi-hypothesis reasoning may stop when:
 
@@ -2084,9 +2092,9 @@ are met.
 
 Full explanatory convergence is not always necessary.
 
----
+______________________________________________________________________
 
-# 102. Resolution Proof Capsule
+## 102. Resolution Proof Capsule
 
 A hypothesis resolution should conceptually carry:
 
@@ -2116,9 +2124,9 @@ resolution:
   conclusion_class:
 ```
 
----
+______________________________________________________________________
 
-# 103. Resolution Reuse
+## 103. Resolution Reuse
 
 A resolution may be reused only while:
 
@@ -2134,9 +2142,9 @@ NO NEW MATERIAL CONFLICT
 
 Otherwise re-open.
 
----
+______________________________________________________________________
 
-# 104. Reopening Condition
+## 104. Reopening Condition
 
 A resolved set should reopen when:
 
@@ -2151,9 +2159,9 @@ FALSIFIER TRIGGERS
 LOAD-BEARING ASSUMPTION FAILS
 ```
 
----
+______________________________________________________________________
 
-# 105. Multi-Hypothesis Invariants
+## 105. Multi-Hypothesis Invariants
 
 ```text
 MH-01
@@ -2232,9 +2240,9 @@ MH-25
 RESOLUTION MUST REMAIN REOPENABLE WHEN INVALIDATION CONDITIONS FIRE
 ```
 
----
+______________________________________________________________________
 
-# 106. Failure Modes
+## 106. Failure Modes
 
 ```text
 FIRST_HYPOTHESIS_LOCK_IN
@@ -2263,9 +2271,9 @@ HYPOTHESIS_RESURRECTION_WITHOUT_NEW_EVIDENCE
 AUTHORITY_LEAKAGE
 ```
 
----
+______________________________________________________________________
 
-# 107. Conceptual Evaluation Algorithm
+## 107. Conceptual Evaluation Algorithm
 
 ```python
 def evaluate_hypothesis_set(hypothesis_set, context):
@@ -2318,9 +2326,9 @@ def evaluate_hypothesis_set(hypothesis_set, context):
 
 This is architectural pseudocode, not a claim of deployed implementation.
 
----
+______________________________________________________________________
 
-# 108. Hypothesis Update Algorithm
+## 108. Hypothesis Update Algorithm
 
 Conceptually:
 
@@ -2346,9 +2354,9 @@ UPDATE SET STATE
 
 This preserves local reasoning and selective invalidation.
 
----
+______________________________________________________________________
 
-# 109. Current Lifecycle
+## 109. Current Lifecycle
 
 ```text
 PLACEHOLDER
@@ -2386,9 +2394,9 @@ VALIDATED
 AUTHORIZED
 ```
 
----
+______________________________________________________________________
 
-# 110. Promotion Gate
+## 110. Promotion Gate
 
 Before promotion beyond `AMOS_MODEL`:
 
@@ -2421,9 +2429,9 @@ Until these are evidenced:
 IMPLEMENTATION_STATUS = UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 111. Required Tests
+## 111. Required Tests
 
 Future verification should include:
 
@@ -2452,9 +2460,9 @@ RESOLUTION-REOPENING TEST
 AUTHORITY-FIREWALL TEST
 ```
 
----
+______________________________________________________________________
 
-# 112. Negative Tests
+## 112. Negative Tests
 
 ```text
 FIRST PLAUSIBLE HYPOTHESIS
@@ -2515,9 +2523,9 @@ AUTHORITY
 MUST FAIL
 ```
 
----
+______________________________________________________________________
 
-# 113. Integrity Note
+## 113. Integrity Note
 
 This artifact replaces an empty repository placeholder with a structured AMOS v4.4-aligned multi-hypothesis reasoning contract.
 
@@ -2550,9 +2558,9 @@ RUNTIME_AUTHORITY = NONE
 
 until canonical source lineage, implementation evidence, tests, and governance promotion establish stronger status.
 
----
+______________________________________________________________________
 
-# 114. RSCF Node
+## 114. RSCF Node
 
 ```RSCF-NODE
 node_id: AMOS-OS-K-MULTI-HYPOTHESIS
@@ -2602,9 +2610,9 @@ RSCF-RELATIONS:
   - VERIFIED_BY: README
 ```
 
----
+______________________________________________________________________
 
-# 115. Canonical Summary
+## 115. Canonical Summary
 
 ```text
 OBSERVATION / QUESTION
@@ -2769,13 +2777,14 @@ README
 ```text
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
-**MOC:** [[02_KERNEL/02_COGNITION/02_COGNITION_MOC|02_COGNITION_MOC]]
+______________________________________________________________________
 
+**MOC:** [[02_KERNEL/02_COGNITION/02_COGNITION_MOC|02_COGNITION_MOC]]

@@ -1,67 +1,58 @@
 ---
-title: COGNITIVE MATRIX L14 VALUATION CONTRACT
-type: cognitive
-source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L14_VALUATION
-tags:
-- cognitive-matrix
-- primitives
-- matrix/l14-valuation
-- contract
-- domain/cognitive-matrix
-- trang-framework-recursive-ontology-dynamics
+title: Cognitive Matrix L14 Valuation Contract — Cognitive Matrix Cell & Coordinate Specification
+type: cognitive_matrix_specification
+source: 25_COGNITIVE_MATRIX
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
+status: ACTIVE_SPECIFICATION
+epistemic_class: AMOS_MODEL
+conclusion_class: DERIVED
 rscf:
   state: DERIVED
-  claim_class: CONDITIONAL
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  claim_class: AMOS_MODEL
+  provenance:
+    - 25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC
+    - 00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE
+  scope: cognitive_matrix_routing
+tags:
+  - amos-os
+  - cognitive-matrix
+  - 19x19-matrix
+  - cognitive-matrix-l14-valuation-contract
 ---
 
-# L14_VALUATION — Valuation Contract
+# Cognitive Matrix L14 Valuation Contract — Cognitive Matrix Cell & Coordinate Specification
 
-STATUS: PROPOSED_SPECIFICATION
-epistemic_class: AMOS_MODEL
-canonical_status: CONDITIONAL
-updated: 2026-08-26
-
-## 0. Purpose
-Assigning worth: benefit vs cost at break-even or better; reversibility weighting..
-
-## 1. Canonical home
-Related canon: Decision value laws L29.
-
-## 2. Contract surface
-- **Inputs**: upstream layer outputs (typed, provenance-stamped)
-- **Outputs**: typed artifacts carrying SOURCE/DERIVED/MODEL/UNKNOWN class + confidence ceiling
-- **Invariants**: scope containment, regime isolation, freshness, fail-closed on unknown
-- **Failure modes**: stale input, class mixing, silent scope expansion — each fails closed
-
-## 3. H/M/L applicability
-- **H**: contract integrity, epistemic class discipline
-- **M**: domain-specific tuning
-- **L**: mechanical checks (types, epochs, digests)
-
-## 4. Gaps
-Runtime binding to executable engines is PARTIAL; see subsystem validation receipts.
+> **Origin Architect / Steward:** Trang Phan
+> **AMOS_CORE Target:** `v4.4`
+> **Conclusion Class:** `AMOS_MODEL`
+> **Status:** `ACTIVE_SPECIFICATION`
 
 ---
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+## 1. Coordinate Architecture & Role
+
+`COGNITIVE_MATRIX_L14_VALUATION_CONTRACT` establishes a formal cognitive cell coordinate within the 19x19 AMOS Cognitive Matrix, enabling fractal task routing, tensor decomposition, and multi-agent coordination.
+
+```text
+CELL != MONOLITH
+ROUTING != ARBITRARY_DISPATCH
+COORDINATE != ABSOLUTE_TRUTH
+```
 
 ---
-**Related:** [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+
+## 2. Tensor Composition & Routing Invariants
+
+1. **Deterministic Coordinate Hashing:** Every task vector maps to a deterministic set of matrix cells.
+2. **Zero Coordinate Collision:** Shard-local matrix states maintain disjoint write namespaces.
+3. **Receipt Validation:** Handoffs across matrix cells require proof-of-grounding receipts.
 
 ---
-RSCF-NODE
-node_id: cognitive_matrix_l14_valuation_contract
-node_type: note
-path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L14_VALUATION/COGNITIVE_MATRIX_L14_VALUATION_CONTRACT.md
-RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - CHILD_OF: [[25_COGNITIVE_MATRIX/01_PRIMITIVES/COGNITIVE_MATRIX_PRIMITIVES_CONTRACT|COGNITIVE_MATRIX_PRIMITIVES_CONTRACT]]
-claim_class: AMOS_MODEL
 
----
-**MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L14_VALUATION/L14_VALUATION_MOC|L14_VALUATION_MOC]]
+## 3. Integration & Navigation
 
----
-**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+- **Matrix MOC:** [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]
+- **137 Math Integration:** [[22_RESEARCH/01_MATHEMATICS/AMOS_137_MATH_REGISTRY|AMOS_137_MATH_REGISTRY]]
+- **Cognitive Organism:** [[05_COGNITIVE_ORGANISM/05_COGNITIVE_ORGANISM_MOC|05_COGNITIVE_ORGANISM_MOC]]

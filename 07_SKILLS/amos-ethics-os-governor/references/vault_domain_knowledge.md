@@ -1,16 +1,19 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Vault Domain Knowledge — Amos Ethics Os Governor
 type: reference
 source: 07_SKILLS/amos-ethics-os-governor/references
 tags:
-- reference
-- amos-ethics-os-governor
-- type/skill
-- 2026-08-22-amos-accessibility-i18n
-- law-hierarchy
-- 2026-08-22-amos-privacy-compliance-licensing
-- 2026-08-22-amos-fairness-ethics-externalities
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-ethics-os-governor
+  - type/skill
+  - 2026-08-22-amos-accessibility-i18n
+  - law-hierarchy
+  - 2026-08-22-amos-privacy-compliance-licensing
+  - 2026-08-22-amos-fairness-ethics-externalities
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -30,7 +33,7 @@ rscf:
 
 > Path: `dated/2026-08-22/2026-08-22 AMOS Fairness Ethics Externalities.md` | Size: 5820 chars | Match score: 20
 
-# AMOS Fairness, Ethics & Externalities (Gaps 274-279)
+## AMOS Fairness, Ethics & Externalities (Gaps 274-279)
 
 > Epistemic class: MODEL (code artifact + test verification).
 > Related: 2026_08_22_AMOS_ACCESSIBILITY_I18N · 2026_08_22_AMOS_PRIVACY_COMPLIANCE_LICENSING · amos-completion-graph-workflow
@@ -43,18 +46,19 @@ governance gate in `AmosKernel.run()`, evaluated post-execution.
 
 ## 6 Subsystems
 
-| Gap | Subsystem | Class | Purpose |
-|-----|-----------|-------|---------|
-| 274 | Bias audit | `BiasAuditChecker` | Bias/fairness audit |
-| 275 | Distributional harm | `DistributionalHarmChecker` | Distributional harm accounting |
-| 276 | Stakeholder registry | `StakeholderRegistry` | Stakeholder registry |
-| 277 | Externality model | `ExternalityModeler` | Externality modeling |
-| 278 | Ethical conflict | `EthicalConflictChecker` | Ethical conflict representation |
-| 279 | Emergency power | `EmergencyPowerGovernor` | Emergency-power governance |
+| Gap | Subsystem            | Class                       | Purpose                         |
+| --- | -------------------- | --------------------------- | ------------------------------- |
+| 274 | Bias audit           | `BiasAuditChecker`          | Bias/fairness audit             |
+| 275 | Distributional harm  | `DistributionalHarmChecker` | Distributional harm accounting  |
+| 276 | Stakeholder registry | `StakeholderRegistry`       | Stakeholder registry            |
+| 277 | Externality model    | `ExternalityModeler`        | Externality modeling            |
+| 278 | Ethical conflict     | `EthicalConflictChecker`    | Ethical conflict representation |
+| 279 | Emergency power      | `EmergencyPowerGovernor`    | Emergency-power governance      |
 
 ## Gate Evaluation (2)
 
 `FairnessEthicsGovernor.evaluate_post()` returns 6 gate results:
+
 - `fairness-274-bias-fail` — FAIL if bias audit failed
 - `fairness-274-bias-below-threshold` — CONDITIONAL if below threshold or not audited
 - `fairness-274-bias-audit` — PASS if audits passing
@@ -78,80 +82,82 @@ governance gate in `AmosKernel.run()`, evaluated post-execution.
 ## Key Semantics (2)
 
 1. **Bias types**: DEMOGRAPHIC_PARITY, EQUALIZED_ODDS, EQUAL_OPPORTUNITY, DISPARATE_IMPACT, PREDICTIVE_PARITY, CALIBRATION
-2. **Fairness status**: PASS, CONDITIONAL, FAIL, NOT_AUDITED
-3. **Harm categories**: ALLOCATION_HARM, QUALITY_OF_SERVICE_HARM, REPRESENTATIONAL_HARM, DIGNITARY_HARM, NO_HARM
-4. **Stakeholder types**: PRIMARY, SECONDARY, TERTIARY, MARGINALIZED, ADVERSARY
-5. **Externality types**: POSITIVE, NEGATIVE, NEUTRAL
-6. **Ethical conflict types**: COMPETING_VALUES, DUTY_CONFLICT, RIGHTS_CONFLICT, PRINCIPLE_CONFLICT
-7. **Emergency power status**: INACTIVE, ACTIVE, EXPIRED, R
+1. **Fairness status**: PASS, CONDITIONAL, FAIL, NOT_AUDITED
+1. **Harm categories**: ALLOCATION_HARM, QUALITY_OF_SERVICE_HARM, REPRESENTATIONAL_HARM, DIGNITARY_HARM, NO_HARM
+1. **Stakeholder types**: PRIMARY, SECONDARY, TERTIARY, MARGINALIZED, ADVERSARY
+1. **Externality types**: POSITIVE, NEGATIVE, NEUTRAL
+1. **Ethical conflict types**: COMPETING_VALUES, DUTY_CONFLICT, RIGHTS_CONFLICT, PRINCIPLE_CONFLICT
+1. **Emergency power status**: INACTIVE, ACTIVE, EXPIRED, R
 
----
+______________________________________________________________________
 
 ### Source 2: AMOS Governance Economy OS
 
 > Path: `governance/AMOS Governance Economy OS.md` | Size: 2836 chars | Match score: 13
 
-# AMOS Governance Economy OS
+## AMOS Governance Economy OS
 
 ## Metadata
 
-| Field | Value |
-|-------|-------|
-| **Name** | Governance Economy OS |
-| **Version** | 1.0 |
-| **Author** | Trang System |
-| **Language** | en |
+| Field        | Value                 |
+| ------------ | --------------------- |
+| **Name**     | Governance Economy OS |
+| **Version**  | 1.0                   |
+| **Author**   | Trang System          |
+| **Language** | en                    |
 
 ## Description
 
 Structural operating system for analysing, governing and forecasting the Governance Economy using TSS (Ω/H/F/S), TPE, ULF, PSI and AMOS.
 
----
+______________________________________________________________________
 
 ## Core Purpose
 
 1. Model how governance allocates resources, risk and power across the national system.
-2. Detect and predict transitions between stability, fragmentation and collapse.
-3. Provide a deterministic frame for policy, strategy and institutional design.
-4. Act as the governance layer inside the full AMOS Universe OS.
+1. Detect and predict transitions between stability, fragmentation and collapse.
+1. Provide a deterministic frame for policy, strategy and institutional design.
+1. Act as the governance layer inside the full AMOS Universe OS.
 
----
+______________________________________________________________________
 
 ## Scope
 
 ### Level
+
 - **national** + **supranational** + **subnational**
 
 ### Included Institutions
 
 1. executive_branch
-2. legislature
-3. judiciary
-4. central_bank
-5. finance_ministry
-6. planning_ministry
-7. sector_regulators
-8. security_and_defence
-9. sovereign_wealth_funds
-10. state_owned_enterprises
-11. local_governments
-12. independent_commissions
-13. multilateral_memberships
+1. legislature
+1. judiciary
+1. central_bank
+1. finance_ministry
+1. planning_ministry
+1. sector_regulators
+1. security_and_defence
+1. sovereign_wealth_funds
+1. state_owned_enterprises
+1. local_governments
+1. independent_commissions
+1. multilateral_memberships
 
 ### Interfaces to Other Sectors
 
 The Governance Economy OS interfaces with (details in source JSON):
 
----
+______________________________________________________________________
 
 ## Frameworks Used
+
 - **TSS**: Ω (Omega), H (Hercules), F (Fortuna), S (Saturn) — 7-cycle governance detection
 - **TPE**: Trang Phan Economics — outcome prediction
 - **ULF**: Universal Language Framework
 - **PSI**: Planetary Synchronization Interface
 - **AMOS**: Full brain architecture integration
 
----
+______________________________________________________________________
 
 ## Design Rationale
 
@@ -165,18 +171,17 @@ The Governance Economy OS treats the national/supranational system as a structur
 
 This is the governance layer of the AMOS Universe OS — it sits between the technical execution layer and the planetary coordination layer.
 
----
+______________________________________________________________________
 
+______________________________________________________________________
 
----
-
----
+______________________________________________________________________
 
 ### Source 3: AMOS Governance Architecture & Decommissioning (Gaps 280-290)
 
 > Path: `dated/2026-08-22/2026-08-22 AMOS Governance Architecture Decommissioning.md` | Size: 6080 chars | Match score: 12
 
-# AMOS Governance Architecture & Decommissioning (Gaps 280-290)
+## AMOS Governance Architecture & Decommissioning (Gaps 280-290)
 
 > Epistemic class: MODEL (code artifact + test verification).
 > Related: 2026_08_22_AMOS_FAIRNESS_ETHICS_EXTERNALITIES · 2026_08_22_AMOS_ACCESSIBILITY_I18N · amos-completion-graph-workflow
@@ -189,23 +194,24 @@ This is the 22nd governance gate in `AmosKernel.run()`, evaluated post-execution
 
 ## 11 Subsystems
 
-| Gap | Subsystem | Class | Purpose |
-|-----|-----------|-------|---------|
-| 280 | Governance succession | `GovernanceSuccessionTracker` | Succession planning |
-| 281 | Separation of powers | `SeparationOfPowersChecker` | Power balance checks |
-| 282 | Insider threat | `InsiderThreatModeler` | Insider-threat modeling |
-| 283 | Two-person control | `TwoPersonControlChecker` | Two-person verification |
-| 284 | Capture resistance | `GovernanceCaptureChecker` | Capture resistance |
-| 285 | Vendor dependency | `VendorDependencyMapper` | Vendor dependency map |
-| 286 | Vendor exit | `VendorExitPlanner` | Vendor exit planning |
-| 287 | Degraded operation | `DegradedOperationManager` | Offline/degraded operation |
-| 288 | Business continuity | `BusinessContinuityChecker` | Business continuity |
-| 289 | Decommissioning | `DecommissioningProtocol` | Decommissioning protocol |
-| 290 | Orphan state | `OrphanStateHandler` | Orphan-state handling |
+| Gap | Subsystem             | Class                         | Purpose                    |
+| --- | --------------------- | ----------------------------- | -------------------------- |
+| 280 | Governance succession | `GovernanceSuccessionTracker` | Succession planning        |
+| 281 | Separation of powers  | `SeparationOfPowersChecker`   | Power balance checks       |
+| 282 | Insider threat        | `InsiderThreatModeler`        | Insider-threat modeling    |
+| 283 | Two-person control    | `TwoPersonControlChecker`     | Two-person verification    |
+| 284 | Capture resistance    | `GovernanceCaptureChecker`    | Capture resistance         |
+| 285 | Vendor dependency     | `VendorDependencyMapper`      | Vendor dependency map      |
+| 286 | Vendor exit           | `VendorExitPlanner`           | Vendor exit planning       |
+| 287 | Degraded operation    | `DegradedOperationManager`    | Offline/degraded operation |
+| 288 | Business continuity   | `BusinessContinuityChecker`   | Business continuity        |
+| 289 | Decommissioning       | `DecommissioningProtocol`     | Decommissioning protocol   |
+| 290 | Orphan state          | `OrphanStateHandler`          | Orphan-state handling      |
 
 ## Gate Evaluation
 
 `GovernanceArchitectureGovernor.evaluate_post()` returns 11 gate results:
+
 - `gov-280-succession-failed` (FAIL) / `gov-280-succession-not-planned` (CONDITIONAL) / `gov-280-succession` (PASS)
 - `gov-281-unbalanced-powers` (CONDITIONAL) / `gov-281-separation-of-powers` (PASS)
 - `gov-282-insider-threat-high` (FAIL) / `gov-282-insider-threat-detected` (CONDITIONAL) / `gov-282-insider-threat` (PASS)
@@ -221,13 +227,13 @@ This is the 22nd governance gate in `AmosKernel.run()`, evaluated post-execution
 ## Key Semantics
 
 1. **Succession status**: PLANNED, ACTIVE, COMPLETED, FAILED, NOT_PLANNED
-2. **Power branches**: LEGISLATIVE, EXECUTIVE, JUDICIAL, AUDIT, EMERGENCY
-3. **Insider threat levels**: NONE, LOW, MEDIUM, HIGH, CRITICAL
-4. **Two-person control**: VERIFIED,
+1. **Power branches**: LEGISLATIVE, EXECUTIVE, JUDICIAL, AUDIT, EMERGENCY
+1. **Insider threat levels**: NONE, LOW, MEDIUM, HIGH, CRITICAL
+1. **Two-person control**: VERIFIED,
 
----
-**MOC:** references_MOC
----
+______________________________________________________________________
+
+## **MOC:** references_MOC
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -235,12 +241,14 @@ This is the 22nd governance gate in `AmosKernel.run()`, evaluated post-execution
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-ethics-os-governor-vault-domain-knowledge
 node_type: reference
 path: 07_SKILLS/amos-ethics-os-governor/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

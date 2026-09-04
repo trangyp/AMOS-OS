@@ -12,21 +12,21 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: BINDING
 path: 11_KNOWLEDGE/05_FRAMEWORKS/UBI_EMOTION_BINDING.md
 tags:
-- amos-os
-- knowledge
-- vault
-- 05_frameworks
-- ubi_emotion_binding
-- nei
-- affect_regulation
-- emotion_bridge
-- decision_dynamics
-- rscf
-- canon_candidate
-- canon/knowledge
-- unified-biological-intelligence
-- amos-x-ubi
-- ubi-cognition-binding
+  - amos-os
+  - knowledge
+  - vault
+  - 05_frameworks
+  - ubi_emotion_binding
+  - nei
+  - affect_regulation
+  - emotion_bridge
+  - decision_dynamics
+  - rscf
+  - canon_candidate
+  - canon/knowledge
+  - unified-biological-intelligence
+  - amos-x-ubi
+  - ubi-cognition-binding
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -41,17 +41,17 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - UBI_OFFICIAL_MANUAL
-  - AMOS_EMOTION_COGNITION_DECISION_BRIDGE_GOVERNOR
-  - AMOS_CORPUS
+    - UBI_OFFICIAL_MANUAL
+    - AMOS_EMOTION_COGNITION_DECISION_BRIDGE_GOVERNOR
+    - AMOS_CORPUS
   scope:
-  - KNOWLEDGE_FRAMEWORKS
-  - EMOTIONAL_BINDING
-  - SOURCE_DEFINED_MODEL
+    - KNOWLEDGE_FRAMEWORKS
+    - EMOTIONAL_BINDING
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   biological_source:
     artifact:
-    - - UNIFIED_BIOLOGICAL_INTELLIGENCE
+      -   - UNIFIED_BIOLOGICAL_INTELLIGENCE
   domain_knowledge:
     artifact: UBI_NEUROEMOTIONAL_INTELLIGENCE
   bridge_governor:
@@ -67,9 +67,9 @@ epistemic_boundary:
 
 `UBI_EMOTION_BINDING.md` is the canonical Knowledge Plane reference artifact specifying the coupling between **Neuroemotional Intelligence™ (NEI)** and affective decision-making within `11_KNOWLEDGE/05_FRAMEWORKS`.
 
----
+______________________________________________________________________
 
-# 1. Affective Decision Loop
+## 1. Affective Decision Loop
 
 ```text
 SENSORY / SITUATIONAL INPUT
@@ -87,18 +87,18 @@ EMOTION-COGNITION-DECISION BRIDGE GOVERNOR
 GOVERNED STRATEGIC ACTION (e = i²)
 ```
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Biological Master:** [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]]
 - **Domain Knowledge:** `UBI_NEUROEMOTIONAL_INTELLIGENCE`
 - **Bridge Governor:** `AMOS_EMOTION_COGNITION_DECISION_BRIDGE_GOVERNOR`
 - **Cognitive Matrix:** [[25_COGNITIVE_MATRIX/AMOS_X_UBI|AMOS_X_UBI]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -116,9 +116,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]] · `AMOS_EMOTION_COGNITION_DECISION_BRIDGE_GOVERNOR` · [[11_KNOWLEDGE/05_FRAMEWORKS/UBI_COGNITION_BINDING|UBI_COGNITION_BINDING]]
 
----
+______________________________________________________________________
+
 **MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]

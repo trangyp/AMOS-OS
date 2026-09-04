@@ -13,18 +13,17 @@ validation_status: UNVALIDATED
 research_status: OPEN
 language: en
 domains:
-- foundational_ontology - quantum_systems - thermodynamics - complex_systems - emergence
-  -
+  - foundational_ontology - quantum_systems - thermodynamics - complex_systems - emergence -
 frameworks:
-- Trang_Framework - HML - recursive_survival_dynamics
+  - Trang_Framework - HML - recursive_survival_dynamics
 proposed_location: 22_RESEARCH/03_COMPETING_MODELS
 epistemic_regime: THEORETICAL_RESEARCH
 scope: cross-scale recursive systems modeling
 freshness_policy: REVALIDATE_ON_DEPENDENCY_CHANGE
 tags:
-- knowledge
-- note
-- canon/knowledge
+  - knowledge
+  - note
+  - canon/knowledge
 rscf:
   state: SOURCE_CLAIM
   claim_class: CONDITIONAL
@@ -57,7 +56,7 @@ rscf:
 - **Critical gaps:** measurable operators, formal proof, dimensional consistency, simulation, predictive falsifiability, experimental protocols, and mapping to established physics.
 - **Promotion gate:** no proposition moves into `01_CANON` solely because it is internally coherent or mathematically expressed.
 
----
+______________________________________________________________________
 
 ## 1. Status of Modern Quantum Theory
 
@@ -88,7 +87,7 @@ In short, the Trang Framework proposes that quantum theory describes behavior ex
 
 **Class:** `MODEL / OPEN_QUESTION`
 
----
+______________________________________________________________________
 
 ## 2. Strengths of Modern Quantum Theory
 
@@ -104,7 +103,7 @@ Modern quantum theory is especially strong in:
 
 Its validated strength is principally in the mathematical description and prediction of physical interactions and state evolution.
 
----
+______________________________________________________________________
 
 ## 3. Ontological Questions
 
@@ -119,7 +118,7 @@ The Trang Framework focuses on unresolved or interpretation-dependent questions 
 
 Multiple interpretations of quantum mechanics remain in competition. The Trang Framework therefore treats ontology as an open research interface rather than as settled by its own proposals.
 
----
+______________________________________________________________________
 
 ## 4. Proposed Trang Additions
 
@@ -145,7 +144,7 @@ but also:
 
 These constructs remain `MODEL` until operationalized and validated.
 
----
+______________________________________________________________________
 
 ## 5. Measurement and Collapse as a Proposed Boundary Model
 
@@ -179,7 +178,7 @@ This is not asserted as an established physical account of wavefunction collapse
 
 **Class:** `MODEL`
 
----
+______________________________________________________________________
 
 ## 6. Persistent Identity
 
@@ -209,7 +208,7 @@ IdentityFragmentation
 
 This is a modeling proposal, not a fundamental physical law.
 
----
+______________________________________________________________________
 
 ## 7. HML Cross-Scale Translation
 
@@ -241,7 +240,7 @@ core objective
 
 HML mappings are `MODEL`. Structural correspondence across scales does not itself establish physical or causal equivalence.
 
----
+______________________________________________________________________
 
 ## 8. Recursive Survival Dynamics
 
@@ -262,7 +261,7 @@ The intended interpretation is that persistence requires repair capacity to exce
 
 This is a cross-domain modeling principle, not an established universal equation.
 
----
+______________________________________________________________________
 
 ## 9. Current Limitations of the Trang Framework
 
@@ -289,7 +288,7 @@ than to:
 validated fundamental physical theory
 ```
 
----
+______________________________________________________________________
 
 ## 10. Complementarity Hypothesis
 
@@ -307,41 +306,41 @@ formal and empirical validation remains incomplete.
 
 The proposition that these approaches are complementary is itself a `MODEL`, not a verified conclusion.
 
----
+______________________________________________________________________
 
 ## 11. Requirements for a Genuine Physical-Theory Claim
 
 For the Trang Framework to make a validated physical-theory claim, it would need, where applicable:
 
 1. novel predictions;
-2. measurable variables;
-3. falsifiable discriminators;
-4. numerical or analytic solvability;
-5. compatibility or explicitly evidenced deviation from established physics;
-6. improved explanatory or predictive performance;
-7. reproducible experiments;
-8. independent validation.
+1. measurable variables;
+1. falsifiable discriminators;
+1. numerical or analytic solvability;
+1. compatibility or explicitly evidenced deviation from established physics;
+1. improved explanatory or predictive performance;
+1. reproducible experiments;
+1. independent validation.
 
 Without those gates, its physics-facing constructs remain research models.
 
----
+______________________________________________________________________
 
-# Part II — Computable Recursive Survival Dynamics
+## Part II — Computable Recursive Survival Dynamics
 
 ## 12. Missing Computational Layers
 
 The proposed framework identifies six computational layers requiring formalization:
 
 1. temporal operator;
-2. scale operator;
-3. HML translation operator;
-4. learning operator;
-5. pattern-stabilization operator;
-6. novelty/emergence operator.
+1. scale operator;
+1. HML translation operator;
+1. learning operator;
+1. pattern-stabilization operator;
+1. novelty/emergence operator.
 
 Without operational definitions for these operators, simulation remains underdetermined.
 
----
+______________________________________________________________________
 
 ## 13. Temporal Memory Operator
 
@@ -385,7 +384,7 @@ and a degradation condition as:
 
 These relations require normalization, units, and domain-specific interpretation before simulation.
 
----
+______________________________________________________________________
 
 ## 14. Scale Operator
 
@@ -419,7 +418,7 @@ subject to selected identity invariants.
 
 The identity invariants must be explicitly defined rather than assumed.
 
----
+______________________________________________________________________
 
 ## 15. HML Translation Operator
 
@@ -456,7 +455,7 @@ A proposed failure mode occurs when:
 
 leading to divergence between high-level objectives and low-level execution.
 
----
+______________________________________________________________________
 
 ## 16. Learning Operator
 
@@ -488,7 +487,7 @@ error
 → improved future prediction
 ```
 
----
+______________________________________________________________________
 
 ## 17. Pattern Stabilization Operator
 
@@ -517,7 +516,7 @@ Proposed persistence condition:
 
 This remains a dimensionless conceptual model until variables and units are formally defined.
 
----
+______________________________________________________________________
 
 ## 18. Novel Emergence Operator
 
@@ -553,7 +552,7 @@ NewPattern(t+1)
 )
 ```
 
----
+______________________________________________________________________
 
 ## 19. Persistence Equation
 
@@ -574,7 +573,7 @@ with schematic conditions:
 
 This is not dimensionally valid until `Ξ` and `E` are defined on compatible scales.
 
----
+______________________________________________________________________
 
 ## 20. Consciousness Model
 
@@ -594,7 +593,7 @@ This does not establish a scientific theory of consciousness. It is a candidate 
 
 **Class:** `MODEL`
 
----
+______________________________________________________________________
 
 ## 21. Civilization Viability Model
 
@@ -616,7 +615,7 @@ FutureDebt
 
 All terms require operationalization, weighting, normalization, and scope constraints.
 
----
+______________________________________________________________________
 
 ## 22. Quantum-to-Classical Emergence Hypothesis
 
@@ -646,7 +645,7 @@ Constraint
 
 This is not a replacement for decoherence theory or a validated interpretation of quantum mechanics.
 
----
+______________________________________________________________________
 
 ## 23. Time Model
 
@@ -668,7 +667,7 @@ T_system
 
 This should be interpreted as a system-relative informational metric, not as an established definition of physical time.
 
----
+______________________________________________________________________
 
 ## 24. Information Model
 
@@ -688,7 +687,7 @@ Conceptually:
 
 This is a framework-specific modeling definition and should be compared with established information-theoretic definitions rather than treated as equivalent to them.
 
----
+______________________________________________________________________
 
 ## 25. Truth Model
 
@@ -706,7 +705,7 @@ AMOS OS should not equate truth with survival utility. Predictive utility may be
 
 Therefore this equation remains a `MODEL` for epistemic performance rather than a definition of truth itself.
 
----
+______________________________________________________________________
 
 ## 26. Ethics Model
 
@@ -720,9 +719,9 @@ LongTermPreservationOfCrossScaleIntegrity
 
 This is a normative model and must not be presented as an empirically established equation.
 
----
+______________________________________________________________________
 
-# Part III — Formal Extensions
+## Part III — Formal Extensions
 
 ## 27. Renormalization / Scale-Coarse-Graining Operator — ℛ
 
@@ -761,7 +760,7 @@ field excitation
 
 No claim is made that these transitions have been mathematically derived by this operator.
 
----
+______________________________________________________________________
 
 ## 28. Tensor Relation Formalism — 𝕋
 
@@ -791,7 +790,7 @@ Consistency(𝕋)
 
 The tensor's mathematical type, index semantics, transformation rules, and metric structure remain open requirements.
 
----
+______________________________________________________________________
 
 ## 29. Energy Containment Operator — ε
 
@@ -815,7 +814,7 @@ Constraint
 
 This is not a substitute for physical definitions of energy. Any physics-facing use requires explicit mapping to established energy quantities and conservation laws.
 
----
+______________________________________________________________________
 
 ## 30. Spacetime Integration Model — Ψ_ST
 
@@ -831,7 +830,7 @@ The framework explores whether distance may be represented through interaction c
 
 These are `MODEL` interpretations, not established replacements for relativistic spacetime.
 
----
+______________________________________________________________________
 
 ## 31. Causal Graph Operator — ⊕
 
@@ -852,7 +851,7 @@ CausalInfluence
 
 AMOS causal discipline requires distinguishing association, mechanism, intervention, mediation, confounding, enabling conditions, necessity, sufficiency, and feedback. This operator alone does not prove causation.
 
----
+______________________________________________________________________
 
 ## 32. Observer Operator — Ω_O
 
@@ -884,7 +883,7 @@ IrreversibleMemoryUpdate
 
 This is a systems interpretation of observation and measurement, not a validated solution to the quantum measurement problem.
 
----
+______________________________________________________________________
 
 ## 33. Classical Emergence Operator — Ξ_C
 
@@ -907,7 +906,7 @@ Proposed qualitative condition:
 
 This must be compared explicitly with established decoherence and quantum Darwinism models before any compatibility claim.
 
----
+______________________________________________________________________
 
 ## 34. Self-Preservation Function — Π
 
@@ -924,7 +923,7 @@ where variables may represent integrity, option space, repair, degradation, and 
 
 This is a systems optimization model and not a universal law that every living system literally optimizes.
 
----
+______________________________________________________________________
 
 ## 35. Recursive Identity Equation
 
@@ -950,7 +949,7 @@ IdentityFragmentation
 
 Operational criteria for identity must be domain-specific.
 
----
+______________________________________________________________________
 
 ## 36. Meta-Stability
 
@@ -972,7 +971,7 @@ Q maintained above threshold
 
 Exact thresholds remain domain-specific and unvalidated.
 
----
+______________________________________________________________________
 
 ## 37. Novelty Threshold
 
@@ -993,7 +992,7 @@ Proposed emergence condition:
 Novelty > StabilizationThreshold
 ```
 
----
+______________________________________________________________________
 
 ## 38. Semantic Field Operator — Σ_M
 
@@ -1011,7 +1010,7 @@ Meaning is modeled as information whose interpretation changes the trajectory of
 
 This is a semantic systems model, not a fundamental physical field.
 
----
+______________________________________________________________________
 
 ## 39. Predictive Reality Engine
 
@@ -1033,7 +1032,7 @@ PredictionAccuracy / ResourceCost
 
 rather than assuming intelligence is reducible to prediction alone.
 
----
+______________________________________________________________________
 
 ## 40. Entropy Reinterpretation
 
@@ -1047,7 +1046,7 @@ UnrecoverablePatternDegradation
 
 This must remain distinct from thermodynamic entropy unless a rigorous mapping is provided.
 
----
+______________________________________________________________________
 
 ## 41. Life Model
 
@@ -1066,7 +1065,7 @@ AdaptivePattern
 
 This is a research abstraction, not a universally accepted definition of life.
 
----
+______________________________________________________________________
 
 ## 42. Reality Model
 
@@ -1082,7 +1081,7 @@ RecursiveConstraintDynamics
 
 **Class:** `MODEL`
 
----
+______________________________________________________________________
 
 ## 43. Recursive State Skeleton
 
@@ -1112,9 +1111,9 @@ P_I(
 
 This is an architectural skeleton. Each operator requires a mathematical type signature, units, domain, codomain, invariants, failure conditions, and implementation semantics.
 
----
+______________________________________________________________________
 
-# Part IV — Measurement, Error, and Falsifiability
+## Part IV — Measurement, Error, and Falsifiability
 
 ## 44. Units and Dimensions Layer
 
@@ -1184,7 +1183,7 @@ X_norm
 
 Normalization to `[0,1]` may be useful for particular simulations but is not a universal requirement; the normalization method must preserve the information required by the model.
 
----
+______________________________________________________________________
 
 ## 45. Weighting Layer
 
@@ -1207,7 +1206,7 @@ wB·Boundary
 
 Weights must be system-, scope-, and regime-specific and should be empirically calibrated rather than arbitrarily assigned.
 
----
+______________________________________________________________________
 
 ## 46. Noise and Error Layer
 
@@ -1241,7 +1240,7 @@ if discriminating signal ≤ relevant uncertainty:
     conclusion = UNKNOWN / INSUFFICIENT_EVIDENCE
 ```
 
----
+______________________________________________________________________
 
 ## 47. Hidden-State Layer
 
@@ -1265,7 +1264,7 @@ AMOS rule:
 
 > Model failure should trigger competing hypotheses, including hidden-state hypotheses, rather than forcing observations into the existing model.
 
----
+______________________________________________________________________
 
 ## 48. Counterexample and Falsification Layer
 
@@ -1274,35 +1273,35 @@ The framework requires conditions under which a claim can fail.
 Potential failure conditions include:
 
 1. required boundaries cannot be operationally defined;
-2. memory is assumed but not measurable or necessary;
-3. feedback is asserted without evidence;
-4. repair constructs fail to predict persistence;
-5. predictions do not discriminate against baseline models;
-6. variables cannot be operationalized;
-7. every possible outcome can be explained after the fact;
-8. no counterexample is permitted;
-9. scope changes silently alter definitions.
+1. memory is assumed but not measurable or necessary;
+1. feedback is asserted without evidence;
+1. repair constructs fail to predict persistence;
+1. predictions do not discriminate against baseline models;
+1. variables cannot be operationalized;
+1. every possible outcome can be explained after the fact;
+1. no counterexample is permitted;
+1. scope changes silently alter definitions.
 
 AMOS rule:
 
 > A physics-facing claim without possible falsification remains a model or metaphysical proposition, not a verified scientific claim.
 
----
+______________________________________________________________________
 
 ## 49. Experimental Layer
 
 A valid application should specify:
 
 1. selected system;
-2. system boundary;
-3. observation interval;
-4. HML mapping, if used;
-5. primary variables;
-6. prospective prediction;
-7. observed result;
-8. uncertainty/error;
-9. conclusion class;
-10. model update.
+1. system boundary;
+1. observation interval;
+1. HML mapping, if used;
+1. primary variables;
+1. prospective prediction;
+1. observed result;
+1. uncertainty/error;
+1. conclusion class;
+1. model update.
 
 Template:
 
@@ -1327,9 +1326,9 @@ Conclusion class:
 Model update:
 ```
 
----
+______________________________________________________________________
 
-# Part V — Feedback, Collapse, and Resilience
+## Part V — Feedback, Collapse, and Resilience
 
 ## 50. Bidirectional Causation Across Levels
 
@@ -1346,7 +1345,7 @@ Examples may include institutional constraints influencing individual behavior a
 
 These must be causally demonstrated in each domain; cross-level description alone does not prove downward or upward causation.
 
----
+______________________________________________________________________
 
 ## 51. Co-Evolution Layer
 
@@ -1364,7 +1363,7 @@ MutualFeedback
 
 Living and adaptive systems should generally not be modeled under an assumption of a static environment unless that approximation is justified.
 
----
+______________________________________________________________________
 
 ## 52. Second-Derivative Layer
 
@@ -1385,7 +1384,7 @@ dQ/dt < 0
 
 The hypothesis is that acceleration may provide earlier warning than absolute level in some systems. This requires empirical validation by domain.
 
----
+______________________________________________________________________
 
 ## 53. Local and Global Thresholds
 
@@ -1400,7 +1399,7 @@ A local failure may propagate into global failure when coupling and transmission
 
 Monitoring should therefore distinguish subsystem thresholds from system-wide thresholds.
 
----
+______________________________________________________________________
 
 ## 54. Collapse Propagation
 
@@ -1431,7 +1430,7 @@ Candidate resilience mechanisms:
 - early feedback;
 - local repair authority.
 
----
+______________________________________________________________________
 
 ## 55. Modularization Layer
 
@@ -1448,7 +1447,7 @@ InternalCoherence
 
 A healthy module should be capable of local repair without unnecessarily destabilizing the entire system while remaining compatible with higher-level constraints.
 
----
+______________________________________________________________________
 
 ## 56. System Immunity
 
@@ -1465,7 +1464,7 @@ ThreatDetection
 
 The model distinguishes insufficient defense from overactive defense.
 
----
+______________________________________________________________________
 
 ## 57. Autoimmunity
 
@@ -1488,7 +1487,7 @@ Possible organizational/systemic indicators:
 
 This is an analogy-derived systems model unless independently operationalized in the target domain.
 
----
+______________________________________________________________________
 
 ## 58. Agency and Repair Authority
 
@@ -1506,7 +1505,7 @@ Perception
 
 Awareness without repair authority may have limited corrective value. Conversely, action authority without validation or consequence tracking can increase risk.
 
----
+______________________________________________________________________
 
 ## 59. Owned Memory
 
@@ -1523,7 +1522,7 @@ SelfRelevance
 
 The framework distinguishes stored data, accessible memory, and memory integrated into a system's persistent self-model.
 
----
+______________________________________________________________________
 
 ## 60. Simulated or Report-Only Consciousness Risk
 
@@ -1539,7 +1538,7 @@ IdentityWithoutBoundary
 
 These are candidate tests of internal-model consistency. They do not establish a validated test for consciousness.
 
----
+______________________________________________________________________
 
 ## 61. Values and Value Conflict
 
@@ -1561,7 +1560,7 @@ Relevance(vi)
 
 The normative proposal is that robust governance must handle conflicts among values rather than maximizing a single value without regard to downstream integrity.
 
----
+______________________________________________________________________
 
 ## 62. Harm / Pain Signal
 
@@ -1593,7 +1592,7 @@ PainSignal
 
 For biological or psychological applications these remain abstractions and must not replace validated clinical models.
 
----
+______________________________________________________________________
 
 ## 63. Relief / Recovery Signal
 
@@ -1624,7 +1623,7 @@ Q increases
 I remains viable
 ```
 
----
+______________________________________________________________________
 
 ## 64. Play and Safe Experimentation
 
@@ -1641,7 +1640,7 @@ LowIrreversibility
 
 The model treats play as buffered exploration that allows variation at relatively low irreversible cost.
 
----
+______________________________________________________________________
 
 ## 65. Offline Integration
 
@@ -1663,7 +1662,7 @@ PatternRepair
 
 Examples may include rest and reflection in humans, postmortems and audits in organizations, or replay/simulation in machine-learning systems. These examples are analogical unless independently validated.
 
----
+______________________________________________________________________
 
 ## 66. Finite Attention
 
@@ -1694,7 +1693,7 @@ ExternalSalience
 × LowMetaControl
 ```
 
----
+______________________________________________________________________
 
 ## 67. Internal Privacy
 
@@ -1714,9 +1713,9 @@ This expression is conceptual rather than set-theoretically complete.
 
 For advanced AI architecture, a governance proposal is that privileged core state should not be writable by an untrusted language/interface layer without authorization and validation.
 
----
+______________________________________________________________________
 
-# Part VI — Observer, Classicality, and Physics Mapping
+## Part VI — Observer, Classicality, and Physics Mapping
 
 ## 68. Observer Model
 
@@ -1750,7 +1749,7 @@ This models measurement as state coupling that leaves a persistent record in a b
 
 **Class:** `MODEL`
 
----
+______________________________________________________________________
 
 ## 69. Classical Emergence
 
@@ -1777,7 +1776,7 @@ Candidate interpretation:
 
 Any claimed equivalence to established decoherence or quantum Darwinism requires explicit mathematical mapping.
 
----
+______________________________________________________________________
 
 ## 70. Proposed Physics Mapping
 
@@ -1796,7 +1795,7 @@ PairCreation_Model = energy converted into a compatible particle-antiparticle ex
 
 These are not validated definitions. Several established physics terms already have precise mathematical meanings; therefore any Trang mapping must reproduce those meanings and predictions where claimed.
 
----
+______________________________________________________________________
 
 ## 71. Compatibility With Established Physics
 
@@ -1822,7 +1821,7 @@ Established model shown insufficient by stronger evidence
 
 The final option requires extraordinary evidentiary support.
 
----
+______________________________________________________________________
 
 ## 72. Novel Prediction Requirement
 
@@ -1836,7 +1835,7 @@ A physics theory claim requires prospective predictions that are:
 
 Without discriminating predictions, the framework remains primarily a meta-language or research ontology rather than a validated new physical theory.
 
----
+______________________________________________________________________
 
 ## 73. Minimum Simulation Layer
 
@@ -1866,7 +1865,7 @@ Candidate update loop:
 
 Every variable requires a registry entry before implementation.
 
----
+______________________________________________________________________
 
 ## 74. Formal Language Layer
 
@@ -1885,9 +1884,9 @@ Inheritance = transfer of persistent information
 Observer    = system participating in measurement
 ```
 
----
+______________________________________________________________________
 
-# Part VII — Closure Requirements
+## Part VII — Closure Requirements
 
 ## 75. Near-Closure Architecture
 
@@ -1993,7 +1992,7 @@ A maximally closed recursive research framework would require at least the follo
 
 The source model is strongest as a conceptual architecture for cross-scale recursion and survival and remains weakest where exact state-space, dynamics, geometry, and physics-facing mathematical derivation are required.
 
----
+______________________________________________________________________
 
 ## 76. Universal Recursive State Equation
 
@@ -2036,7 +2035,7 @@ ConstraintProject = projection into the model's admissible state manifold
 
 This is an architectural skeleton, not a solved universal equation.
 
----
+______________________________________________________________________
 
 ## 77. Micro-to-Macro Compiler
 
@@ -2053,7 +2052,7 @@ particle
 
 The framework hypothesizes that these may be modeled as recursive compression/emergence layers. This continuity is not yet demonstrated.
 
----
+______________________________________________________________________
 
 ## 78. Self-Consistent Observer Theory
 
@@ -2081,9 +2080,9 @@ RecursiveCorrection
 
 but this remains insufficient as a proof or validated theory.
 
----
+______________________________________________________________________
 
-# Part VIII — Deep Closure Research Layers
+## Part VIII — Deep Closure Research Layers
 
 ## 79. Origin Layer
 
@@ -2105,7 +2104,7 @@ This sequence is `MODEL / SPECULATIVE`. It is not established cosmology or physi
 
 The framework further hypothesizes that entropy requires plurality/distinguishable alternatives. Any such claim requires careful mapping to statistical mechanics and information theory.
 
----
+______________________________________________________________________
 
 ## 80. Vacuum Ontology
 
@@ -2134,7 +2133,7 @@ Field/VacuumConditions
 
 These are speculative mappings. They must not replace the precise QFT concept of the vacuum without mathematical equivalence and empirical support.
 
----
+______________________________________________________________________
 
 ## 81. Dimensional Emergence
 
@@ -2159,7 +2158,7 @@ Higher dimensions: additional relational degrees of freedom
 
 This is a conceptual model, not an established derivation of spacetime dimensionality.
 
----
+______________________________________________________________________
 
 ## 82. Time Generation Engine
 
@@ -2179,7 +2178,7 @@ CausalOrdering
 
 The framework hypothesizes that an entropy gradient contributes to the experienced arrow of time. This should be distinguished from definitions of physical time itself.
 
----
+______________________________________________________________________
 
 ## 83. Information–Energy Relationship
 
@@ -2196,6 +2195,7 @@ Energy
 =
 CapacityForPhysicalStateTransition
 ```
+
 Proposed relationship:
 
 ```text
@@ -2205,7 +2205,7 @@ No usable energy gradient without distinguishable physical states.
 
 This does not establish literal information-energy equivalence. Established results such as Landauer's principle must be treated according to their actual scope.
 
----
+______________________________________________________________________
 
 ## 84. Law Emergence
 
@@ -2229,7 +2229,7 @@ within viable state space
 
 This is a philosophical/modeling proposal, not an empirically established origin theory for physical laws.
 
----
+______________________________________________________________________
 
 ## 85. Reality / Universe Selection
 
@@ -2257,7 +2257,7 @@ RunawayInstability
 
 This is speculative cosmological modeling.
 
----
+______________________________________________________________________
 
 ## 86. Computational Boundary
 
@@ -2272,7 +2272,7 @@ The framework proposes investigating whether finite/local update constraints can
 
 No implication should be made that these phenomena are thereby derived. Each requires separate formal proof and empirical mapping.
 
----
+______________________________________________________________________
 
 ## 87. Observer Recursion Closure
 
@@ -2304,7 +2304,7 @@ SelfModificationUnderFeedback
 
 This is a candidate computational/ontological model, not a validated theory of subjective consciousness.
 
----
+______________________________________________________________________
 
 ## 88. Semantic Causality
 
@@ -2329,7 +2329,7 @@ ConstraintEncodedThroughSharedSymbolicMemory
 
 AMOS causal discipline requires tracing the physical, informational, institutional, and behavioral mechanisms by which symbolic meaning changes outcomes. Meaning must not be treated as an unexplained fundamental force.
 
----
+______________________________________________________________________
 
 ## 89. Symbolic Reality Layer
 
@@ -2347,7 +2347,7 @@ CollectivePredictionAlignment
 
 A flag, equation, or state institution can have causal consequences through shared interpretation and coordinated behavior, but those mechanisms must remain explicit.
 
----
+______________________________________________________________________
 
 ## 90. Paradox Engine
 
@@ -2371,7 +2371,7 @@ detect frame mismatch
 
 AMOS OS additionally requires preserving genuine contradictions when evidence does not justify resolution.
 
----
+______________________________________________________________________
 
 ## 91. Self-Modifying Law Engine
 
@@ -2387,7 +2387,7 @@ RulesConstrainingEffectiveLawEvolution
 
 This does not imply fundamental physical laws actually evolve. Fundamental-law change and effective-law change must remain distinct hypotheses.
 
----
+______________________________________________________________________
 
 ## 92. Anti-Infinite-Regress Layer
 
@@ -2401,7 +2401,7 @@ FurtherRecursionProducesNoDecisionRelevantOrPredictiveCompression
 
 This is an epistemic/computational stopping rule. It is not a proof that ontological regress itself terminates.
 
----
+______________________________________________________________________
 
 ## 93. Compression Principle
 
@@ -2419,7 +2419,7 @@ AcceptableResourceCost
 
 The further hypothesis that the universe itself can be understood as recursive compression dynamics remains speculative.
 
----
+______________________________________________________________________
 
 ## 94. Reality Compiler
 
@@ -2449,7 +2449,7 @@ StableRepeatedlyRecoverable / RecordableState
 
 The term `compiler` is metaphorical/modeling language unless a precise computational mapping is defined.
 
----
+______________________________________________________________________
 
 ## 95. Existence Threshold
 
@@ -2469,7 +2469,7 @@ as candidate criteria for treating a modeled pattern as persistent.
 
 Existence itself must not be reduced to these inequalities without explicit ontological justification.
 
----
+______________________________________________________________________
 
 ## 96. Ultimate Recursive Equation
 
@@ -2515,7 +2515,7 @@ InvariantProjection
 
 This remains an architectural meta-equation until each term is mathematically defined and validated.
 
----
+______________________________________________________________________
 
 ## 97. Epistemic Horizon
 
@@ -2537,7 +2537,7 @@ UNKNOWN / OPEN_QUESTION
 
 unless evidence supports a stronger class.
 
----
+______________________________________________________________________
 
 ## 98. Updated Framework Characterization
 
@@ -2568,7 +2568,7 @@ through a common recursive grammar.
 
 This integration is a research objective, not a demonstrated unification.
 
----
+______________________________________________________________________
 
 ## 99. Core Research Proposition
 
@@ -2582,9 +2582,9 @@ The source's central proposition can be rendered in AMOS-consistent English as:
 
 This formulation intentionally avoids presenting the proposition as established fact.
 
----
+______________________________________________________________________
 
-# Part IX — AMOS Research Integration Contract
+## Part IX — AMOS Research Integration Contract
 
 ## 100. Provenance
 
@@ -2594,7 +2594,7 @@ This formulation intentionally avoids presenting the proposition as established 
 - **Authorship rule:** this transformation does not transfer authorship of the underlying Trang Framework.
 - **Evidence rule:** translation, mathematical notation, or architectural organization does not constitute empirical validation.
 
----
+______________________________________________________________________
 
 ## 101. Claim Typing
 
@@ -2611,30 +2611,30 @@ Use:
 
 The weakest accurate class governs.
 
----
+______________________________________________________________________
 
 ## 102. Validation Gates
 
 Before promotion beyond research status, require as applicable:
 
 1. explicit variable definitions;
-2. units and dimensions;
-3. mathematical domains and codomains;
-4. dimensional consistency;
-5. operational measurement procedures;
-6. scope and regime boundaries;
-7. falsifiers and counterexamples;
-8. comparison with established baselines;
-9. simulation or analytic solvability;
-10. prospective predictions;
-11. independent evidence or replication;
-12. provenance independence analysis;
-13. contradiction review;
-14. causal validation where causal claims are made;
-15. documented version and supersession state;
-16. governance approval for canonical promotion.
+1. units and dimensions;
+1. mathematical domains and codomains;
+1. dimensional consistency;
+1. operational measurement procedures;
+1. scope and regime boundaries;
+1. falsifiers and counterexamples;
+1. comparison with established baselines;
+1. simulation or analytic solvability;
+1. prospective predictions;
+1. independent evidence or replication;
+1. provenance independence analysis;
+1. contradiction review;
+1. causal validation where causal claims are made;
+1. documented version and supersession state;
+1. governance approval for canonical promotion.
 
----
+______________________________________________________________________
 
 ## 103. Causal Firewall
 
@@ -2655,7 +2655,7 @@ Causal claims must distinguish:
 
 Proposed causal operators remain `MODEL` until appropriately validated.
 
----
+______________________________________________________________________
 
 ## 104. Quantum and Physics Firewall
 
@@ -2682,7 +2682,7 @@ remain `MODEL` or `SOURCE_CLAIM` unless independently validated.
 
 Conceptual resemblance does not establish mathematical equivalence.
 
----
+______________________________________________________________________
 
 ## 105. Scope and Regime Firewall
 
@@ -2701,7 +2701,7 @@ freshness
 
 A claim must not silently generalize beyond its validated applicability envelope.
 
----
+______________________________________________________________________
 
 ## 106. Provenance Independence
 
@@ -2711,7 +2711,7 @@ Independent support requires materially distinct evidence ancestry.
 
 Popularity, repetition, authority, or multiple descendants of one origin do not by themselves increase evidentiary independence.
 
----
+______________________________________________________________________
 
 ## 107. Competing Hypotheses
 
@@ -2732,7 +2732,7 @@ until a discriminating test exists.
 
 Prefer the cheapest high-information discriminating test over redundant evidence accumulation.
 
----
+______________________________________________________________________
 
 ## 108. Sensitivity and Fragility
 
@@ -2746,20 +2746,20 @@ CONDITIONAL
 
 Robust conclusions should survive reasonable variation in noncritical assumptions.
 
----
+______________________________________________________________________
 
 ## 109. Failure Recovery
 
 When a premise fails:
 
 1. invalidate the failed premise;
-2. invalidate only dependent conclusions;
-3. preserve unaffected evidence and reasoning;
-4. return to the nearest valid state;
-5. reroute using changed evidence;
-6. avoid global recomputation unless required.
+1. invalidate only dependent conclusions;
+1. preserve unaffected evidence and reasoning;
+1. return to the nearest valid state;
+1. reroute using changed evidence;
+1. avoid global recomputation unless required.
 
----
+______________________________________________________________________
 
 ## 110. Recommended Downstream Artifacts
 
@@ -2780,7 +2780,7 @@ PROVENANCE_MAP.md
 SCOPE_REGIME_REGISTRY.md
 ```
 
----
+______________________________________________________________________
 
 ## 111. Storage
 
@@ -2813,7 +2813,7 @@ AMOS_OS/
 
 The authoritative model should not be duplicated across domain folders. Domain files should reference the source artifact and carry only domain-specific mappings, evidence, tests, and validation state.
 
----
+______________________________________________________________________
 
 ## 112. Promotion Rule
 
@@ -2831,7 +2831,7 @@ until individual claims pass their applicable validation gates.
 
 Promotion must occur claim-by-claim rather than promoting the entire framework as one indivisible unit.
 
----
+______________________________________________________________________
 
 ## 113. Final Status
 
@@ -2859,23 +2859,26 @@ The appropriate current characterization is:
 
 **Overall conclusion class:** `MODEL`
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: trang_framework_recursive_ontology_dynamics
 node_type: note
 path: 11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]]
-

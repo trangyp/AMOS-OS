@@ -89,7 +89,7 @@
     "mckinsey-transaction-banking-diagnostic-rscf"
   ],
   "depends_on_workflows": [
-    "mckinsey-transaction-banking-diagnostic-rscf-workflow.md"
+    "amos-mckinsey-transaction-banking-diagnostic-rscf-workflow.md"
   ],
   "epistemic_class": "AMOS_MODEL",
   "claim_ceiling": 0.95,

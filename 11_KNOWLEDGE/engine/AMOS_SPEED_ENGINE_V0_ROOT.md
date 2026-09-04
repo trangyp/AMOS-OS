@@ -1,12 +1,15 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: AMOS SPEED ENGINE V0 ROOT
 tags:
-- canon-group/tech-ai
-- canon/framework
-- rscf/claim
-- rscf/state/observation
-- topic/amos-speed-engine-v0
-- engine
+  - canon-group/tech-ai
+  - canon/framework
+  - rscf/claim
+  - rscf/state/observation
+  - topic/amos-speed-engine-v0
+  - engine
 type: data
 source: 11_KNOWLEDGE/engine
 rscf:
@@ -230,6 +233,6 @@ rscf:
 **Related:**  ·  ·  ·  ·
 ```
 
----
-**MOC:** [[11_KNOWLEDGE/engine/ENGINE_MOC|ENGINE_MOC]]
+______________________________________________________________________
 
+**MOC:** [[11_KNOWLEDGE/engine/ENGINE_MOC|ENGINE_MOC]]

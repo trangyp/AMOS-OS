@@ -1,4 +1,7 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 date: 2026-08-30
 epistemic_class: OBSERVATION
 provenance: GitHub README, not independently verified
@@ -10,16 +13,16 @@ rscf:
 source: https://raw.githubusercontent.com/microsoft/SkillOpt/main/README.md
 title: Microsoft SkillOpt README — Raw Capture
 ---
+
 # Microsoft SkillOpt README — Raw Capture
 
 Source: `https://github.com/microsoft/SkillOpt`
 
-# SkillOpt: Executive Strategy for Self-Evolving Agent Skills
+## SkillOpt: Executive Strategy for Self-Evolving Agent Skills
 
 *Train agent skills like you train neural networks — with epochs, (mini-)batchsize, learning rates, and validation gates — but without touching model weights.*
 
-[![Project Page](https://img.shields.io/badge/Project%20Page-SkillOpt-8dbb3c)](https://microsoft.github.io/SkillOpt/) [![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b)](https://arxiv.org/abs/2605.23904) [![Project Video](https://img.shields.io/badge/Project%20Video-Watch%20Demo-ff0000)](https://youtu.be/JUBMDTCiM0M) [![PyPI](https://img.shields.io/badge/PyPI-skillopt-green.svg)](https://pypi.org/project/skillopt/) [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-
+[![PROJECT PAGE]
 <p align="center">
   <a href="https://trendshift.io/repositories/38498?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-38498" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/repositories/38498" alt="microsoft%2FSkillOpt | Trendshift" width="250" height="55"/></a>
   <a href="https://trendshift.io/repositories/38498?utm_source=trendshift-badge&utm_medium=badge&utm_campaign=badge-trendshift-38498" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/trendshift/repositories/38498/weekly?language=Python" alt="microsoft%2FSkillOpt | Trendshift" width="250" height="55"/></a>
@@ -27,16 +30,17 @@ Source: `https://github.com/microsoft/SkillOpt`
 
 > 📖 **For installation, data preparation, training/eval commands, configuration, and framework internals, start with the versioned [SkillOpt documentation](https://github.com/microsoft/SkillOpt/blob/main/docs/index.md). A concise rendered overview is available in the [Documentation & Reproduction Guide](https://microsoft.github.io/SkillOpt/docs/guideline.html), and longer-form engineering analysis appears on the [Technical Blog](https://microsoft.github.io/SkillOpt/blog/). We also maintain a [Changelog](CHANGELOG.md) for released and unreleased changes.**
 
----
+______________________________________________________________________
 
 ## News 🔥🔥🔥
+
 - **[2026-07-24]** 📰 **SkillOpt in the news.** Read the official [Microsoft Research feature](https://www.microsoft.com/en-us/research/blog/skillopt-agent-skills-as-trainable-parameters/), along with recent coverage from [VentureBeat](https://venturebeat.com/orchestration/microsofts-open-source-skillopt-automatically-upgrades-ai-agent-skills-without-touching-model-weights), [Synced (机器之心)](https://mp.weixin.qq.com/s/pMlyj3a3KOh8L7cIHClRXA), [Flowtivity](https://flowtivity.ai/blog/microsoft-skillopt-train-ai-agent-skills/), and [The Decoder](https://the-decoder.com/microsofts-skillopt-boosts-gpt-5-5-by-using-nothing-but-a-trained-markdown-file/).
 - **[2026-07-02]** 🚀 **SkillOpt [v0.2.0](https://github.com/microsoft/SkillOpt/releases/tag/v0.2.0) is out on [PyPI](https://pypi.org/project/skillopt/)!** Headline feature: **SkillOpt-Sleep**, a nightly offline self-evolution engine (harvest → mine → replay → consolidate behind a held-out validation gate), now shipped as the `skillopt-sleep` CLI. It also includes experimental multi-objective, replay, and dream-rollout controls; the main CLI keeps conservative defaults and does not expose every experiment-harness control as a flag. The release source adds integration shells for **Claude Code, Codex, Copilot, and Devin**, plus an **OpenClaw reference adaptation**; these plugin/MCP files live in the repository rather than the PyPI wheel. It also adds SearchQA split materialization, Windows robustness, and hardened JSON parsing. See the [release notes](https://github.com/microsoft/SkillOpt/releases/tag/v0.2.0) for full release details and contributor acknowledgements.
 - **[2026-06-15]** 😴 **SkillOpt-Sleep (preview)** — a nightly offline self-evolution companion for local coding agents (Claude Code / Codex / Copilot): review past sessions, replay recurring tasks, and consolidate validated skills behind a held-out gate. See **[`docs/sleep/README.md`](docs/sleep/README.md)** for what it is, how to use it, and results.
 - **[2026-06-03]** 🎉 **[gbrain](https://github.com/garrytan/gbrain), [gbrain-evals](https://github.com/garrytan/gbrain-evals/blob/main/docs/benchmarks/2026-06-03-skillopt.md), and [darwin-skill](https://github.com/alchaincyf/darwin-skill) have all integrated SkillOpt.**
 - **[2026-06-02]** 🎉 **SkillOpt [v0.1.0](https://github.com/microsoft/SkillOpt/releases/tag/v0.1.0) is now available on [PyPI](https://pypi.org/project/skillopt/)!** Install with `pip install skillopt`. This initial release includes the full training loop (rollout → reflect → aggregate → select → update → evaluate), multi-backend support (OpenAI / Azure / Claude / Qwen / MiniMax), six built-in benchmarks, and WebUI dashboard.
 
----
+______________________________________________________________________
 
 ## Overview
 
@@ -74,7 +78,7 @@ https://github.com/user-attachments/assets/eb12d3bc-371c-467f-904d-91b61f339ed7
   <a href="https://youtu.be/JUBMDTCiM0M"><b>▶ Watch the full demo on YouTube</b></a>
 </p>
 
----
+______________________________________________________________________
 
 ## Extensibility & WebUI
 
@@ -107,16 +111,16 @@ pip install -e ".[webui]"
 python -m skillopt_webui.app
 ```
 
-| Flag | Default | Description |
-|---|---|---|
-| `--port` | 7860 | Server port |
-| `--host` | `0.0.0.0` | Bind address |
-| `--share` | off | Create a public Gradio share link |
+| Flag      | Default   | Description                       |
+| --------- | --------- | --------------------------------- |
+| `--port`  | 7860      | Server port                       |
+| `--host`  | `0.0.0.0` | Bind address                      |
+| `--share` | off       | Create a public Gradio share link |
 
 The default host listens on every network interface. Use
 `--host 127.0.0.1` for local-only access.
 
----
+______________________________________________________________________
 
 ## Citation
 

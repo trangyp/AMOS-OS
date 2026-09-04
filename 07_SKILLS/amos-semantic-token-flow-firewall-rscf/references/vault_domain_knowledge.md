@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Vault Domain Knowledge — Amos Semantic Token Flow Firewall Rscf
 type: reference
 source: 07_SKILLS/amos-semantic-token-flow-firewall-rscf/references
 tags:
-- reference
-- amos-semantic-token-flow-firewall-rscf
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-semantic-token-flow-firewall-rscf
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -28,6 +31,7 @@ rscf:
 > Path: `misc/CS/CSRF--CSRF_tokens.md` | Size: 1703 chars | Match score: 10 | content_hash: c03504fb30225ae0
 
 ## CSRF tokens
+
 What are they?
 
 How should the tokens be generated
@@ -36,39 +40,45 @@ How are the tokens transmitted?
 
 How should the tokens be validated?
 
----
+______________________________________________________________________
 
----
+______________________________________________________________________
 
 ### Source 2: AMOS Token and Context Governor
 
 > Path: `misc/TO/TOKEN.md` | Size: 1147 chars | Match score: 10 | content_hash: 1b42a1453132a3d6
 
-# AMOS Token and Context Governor
+## AMOS Token and Context Governor
 
 ## Objective
+
 Maximize decision-relevant information per token without deleting load-bearing structure.
 
 ## Priority score
+
 Retain context in this order:
+
 1. objective and hard constraints
-2. decision-changing evidence
-3. unresolved contradictions
-4. load-bearing premises
-5. provenance/freshness/scope
-6. active hypotheses
-7. required implementation details
-8. reusable summaries
-9. examples/background
-10. redundant narrative
+1. decision-changing evidence
+1. unresolved contradictions
+1. load-bearing premises
+1. provenance/freshness/scope
+1. active hypotheses
+1. required implementation details
+1. reusable summaries
+1. examples/background
+1. redundant narrative
 
 ## Progressive disclosure
+
 Do not load raw evidence by default.
 Use:
 `capsule -> relevant H -> relevant M -> relevant L -> raw`
 
 ## Drop rule
+
 Drop an item only if removing it cannot reasonably change:
+
 - answer
 - decision
 - confidence
@@ -77,28 +87,29 @@ Drop an item only if removing it cannot reasonably change:
 - implementation correctness
 
 ## Context pressure
+
 When context is near capacity:
+
 - preserve constraints over prose,
 - preserve dependency edges over explanations,
 - preserve unresolved conflict over resolved history,
 - snapshot before major compression.
 
----
+______________________________________________________________________
 
----
+______________________________________________________________________
 
 ### Source 3: ArenaSim — Resource Consumption Across AMOS Semantic Types
 
 > Path: `dated/2026-08-22/2026-08-22-ArenaSim-Resource-Consumption-Semantic-Types.md` | Size: 36424 chars | Match score: 7 | content_hash: 6792fec113e6fa9d
 
-# ArenaSim — Resource Consumption Across AMOS Semantic Types
-
+## ArenaSim — Resource Consumption Across AMOS Semantic Types
 
 semantic type's resource consumption (time, memory, social bandwidth) under
 competitive pressure. Founding claim: semantic type distinctions (MODEL ≠ ENGINE
-≠ AGENT ≠ PROTOCOL) produce empirically distinct resource consumption signatures.*
+≠ AGENT ≠ PROTOCOL) produce empirically distinct resource consumption signatures.\*
 
----
+______________________________________________________________________
 
 ## tl;dr
 
@@ -124,30 +135,32 @@ Plus: Arena Composition Algebra v2 (`cosmo/composition_algebra_v2.py`, 272 lines
 formalises all three type-pair compositions. KEY FINDING: each type pair produces a unique
 composition signature; composition is NOT commutative.
 
----
+______________________________________________________________________
 
 ## The 7+ Arenas
 
-| Arena Class | AMOS Semantic Type | Competitive Regime | What It Tests |
-|:------------|:-------------------|:-------------------|:--------------|
-| `MarketArena` | MODEL | Order book, price/volume/volatility | Do MODEL arenas consume zero social bandwidth? |
-| `EcoArena` | MODEL | Organisms, energy, births/deaths | Does population survive under resource constraints? |
-| `EcoSystemArena` | MODEL + PROTOCOL (alliances) | Ecology + social hierarchy + alliances | Does social bandwidth emerge when alliances are added? |
-| `CivilArena` | ENGINE | 5 institutions with authority/knowledge/rules | Does ENGINE produce the highest memory consumption? |
-| `NetworkArena` | PROTOCOL | Nodes, edges, messages, bandwidth | Does PROTOCOL produce moderate social bandwidth? |
-| `DecisionArena` | AGENT | Weighted voting, authority+knowledge | Does AGENT produce the highest time consumption? |
-| `CollectiveArena` | AGENT | Specializations, shared memory, tasks | Does AGENT produce the highest social bandwidth? |
-| `HybridArena` | MODEL + AGENT | Ecology competition + agent specialization | Does MODEL substrate boost AGENT social? (Answer: YES, ×2) |
-| `CivilizationWithSpecialists` | ENGINE + AGENT | Institutions + specialization + shared memory | Does ENGINE structure constrain AGENT time? (Answer: YES, -14%) |
-| `NetworkedEcology` | PROTOCOL + MODEL | Ecology competition + network message passing | Does PRO
+| Arena Class                   | AMOS Semantic Type           | Competitive Regime                            | What It Tests                                                   |
+| :---------------------------- | :--------------------------- | :-------------------------------------------- | :-------------------------------------------------------------- |
+| `MarketArena`                 | MODEL                        | Order book, price/volume/volatility           | Do MODEL arenas consume zero social bandwidth?                  |
+| `EcoArena`                    | MODEL                        | Organisms, energy, births/deaths              | Does population survive under resource constraints?             |
+| `EcoSystemArena`              | MODEL + PROTOCOL (alliances) | Ecology + social hierarchy + alliances        | Does social bandwidth emerge when alliances are added?          |
+| `CivilArena`                  | ENGINE                       | 5 institutions with authority/knowledge/rules | Does ENGINE produce the highest memory consumption?             |
+| `NetworkArena`                | PROTOCOL                     | Nodes, edges, messages, bandwidth             | Does PROTOCOL produce moderate social bandwidth?                |
+| `DecisionArena`               | AGENT                        | Weighted voting, authority+knowledge          | Does AGENT produce the highest time consumption?                |
+| `CollectiveArena`             | AGENT                        | Specializations, shared memory, tasks         | Does AGENT produce the highest social bandwidth?                |
+| `HybridArena`                 | MODEL + AGENT                | Ecology competition + agent specialization    | Does MODEL substrate boost AGENT social? (Answer: YES, ×2)      |
+| `CivilizationWithSpecialists` | ENGINE + AGENT               | Institutions + specialization + shared memory | Does ENGINE structure constrain AGENT time? (Answer: YES, -14%) |
+| `NetworkedEcology`            | PROTOCOL + MODEL             | Ecology competition + network message passing | Does PRO                                                        |
 
----
+______________________________________________________________________
+
 **MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -155,12 +168,14 @@ composition signature; composition is NOT commutative.
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-semantic-token-flow-firewall-rscf-vault-domain-knowledge
 node_type: reference
 path: 07_SKILLS/amos-semantic-token-flow-firewall-rscf/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

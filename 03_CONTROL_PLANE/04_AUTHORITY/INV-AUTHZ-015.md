@@ -1,85 +1,95 @@
 ---
-title: INV-AUTHZ-015
-type: invariant
+title: "INV-AUTHZ-015 — Coordination Avoidance Verification"
+type: authority_invariant
 source: 03_CONTROL_PLANE/04_AUTHORITY
-tags:
-- control-plane
-- canon/control-plane
-- routing-policy-validation-receipt
-- authz-engine-validation-receipt
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
+status: ACTIVE_INVARIANT
+epistemic_class: AMOS_MODEL
+conclusion_class: DERIVED
 rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
+  state: DERIVED
+  claim_class: AMOS_MODEL
+  provenance:
+    - 03_CONTROL_PLANE/CONTROL_PLANE_CONTROL_PLANE_CONTRACT
+    - 01_CANON/01_CORE_LAWS/LAW_HIERARCHY
   scope: authority_governance
+tags:
+  - amos-os
+  - authority
+  - invariant
+  - control-plane
+  - inv-authz-015
 ---
 
-# INV-AUTHZ-015
+# INV-AUTHZ-015 — Coordination Avoidance Verification
 
-## 0. Status
-Control Plane-plane artifact. AMOS_MODEL · CONDITIONAL · implementation PARTIAL.
+## 1. Formal Specification
 
-## 1. Purpose
-`INV-AUTHZ-015` defines typed artifact specification, serving the Control Plane plane's obligation: governance surfaces that gate effects: task contracts, capability, policy, authority, provenance, semantic transactions, observability, effects, commit, exposure, replay, rollback.
+> **Invariant Statement:**
+> `Coordination-free execution is permitted only when I-confluence is formally proven for the operation.`
 
-## 2. Semantics
-- Every load-bearing field is typed; unknown values are recorded as `UNKNOWN/GAP`, never invented.
-- Scope and regime are declared on every claim; cross-regime transfer requires an explicit bridge.
-- Confidence ceiling 0.95; conclusion confidence ≤ weakest load-bearing premise.
+## 2. Invariant Rule & Mathematical Formulation
 
-## 3. Failure modes guarded
-STALE_READ · SCOPE_LEAK · REGIME_DRIFT · CONFIDENCE_INFLATION · AUTHORITY_ESCALATION · PROVENANCE_LOSS · SILENT_PARTIAL_COMMIT · UNKNOWN_AS_VALID.
+Let $\text{CoordFree}(op)$ denote that operation $op$ is permitted to execute without distributed coordination, and $\text{IConfluent}(op)$ the I-confluence property:
 
-## 4. Validation
-No artifact-specific executor yet; executed OS validators exist as pattern ([[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]). Required tests before promotion: identity, type-contract, negative-case (missing/malformed/stale input), authority boundary, rollback.
+$$\forall op \in \mathcal{O}, \quad \text{CoordFree}(op) \implies \text{IConfluent}(op) = \text{True}$$
 
-## 5. Gaps
-Implementation binding, empirical validation, and cross-artifact consistency checks remain OPEN (UNKNOWN/GAP).
+I-confluence is defined as: for any two concurrent operations $op_1, op_2$ with compatible states $s_1, s_2$:
 
-## 6. Falsifiers
-F1: canonical source contradicts declared semantics. F2: executed test violates a stated invariant. F3: artifact promotes UNKNOWN to PASS.
-## Worked semantics
-Given an operation touching `INV-AUTHZ-015` within the Control Plane plane:
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-2. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-3. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-4. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-5. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-6. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
+$$\text{IConfluent}(op) \iff \forall s_1, s_2 : \text{Compatible}(s_1, s_2), \quad \text{Merge}(\text{Apply}(op, s_1), \text{Apply}(op, s_2)) = \text{Apply}(op, \text{Merge}(s_1, s_2))$$
 
-## Promotion-gate checklist
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
+The proof obligation requires a formal certificate:
 
-## Cross-plane bindings
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]|AMOS Core Laws · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
-- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
-- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
----
+$$\text{CoordFree}(op) \implies \exists \pi : \text{ProofCertificate}(\pi, op) \land \text{Verify}(\pi) = \text{True}$$
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+Operations without a proof certificate must use coordinated execution:
 
----
-**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+$$\neg \exists \pi : \text{ProofCertificate}(\pi, op) \implies \text{Coordinated}(op) = \text{True}$$
 
----
-RSCF-NODE
-node_id: cp_03_control_plane_04_authority_inv_authz_015_md
-node_type: note
-path: 03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-015.md
-claim_class: AMOS_MODEL
+## 3. Enforcement & Verification
 
----
-**MOC:** [[03_CONTROL_PLANE/04_AUTHORITY/04_AUTHORITY_MOC|04_AUTHORITY_MOC]]
+- **Evaluation Point:** Evaluated at the Control Plane gate when an operation requests coordination-free execution. The gate checks for a valid I-confluence proof certificate.
+- **Violation Consequence:** If no proof certificate is presented, the operation is forced into coordinated execution mode (two-phase commit). A `COORDINATION_REQUIRED` receipt is emitted to `17_OBSERVABILITY`.
+- **Recovery Procedure:** The operation proceeds under coordinated execution, which is slower but safe. Alternatively, a proof certificate may be generated and the operation resubmitted for coordination-free execution.
+- **Verification Cadence:** Synchronous at every coordination-free execution request. Proof certificates are verified once at submission and cached for subsequent executions of the same operation type.
+- **Governed By:** [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE_MOC]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
 
----
-**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+## 4. Attack Vectors & Mitigations
+
+- **False I-Confluence Claim:** An operation claims I-confluence without a proof certificate to avoid coordination overhead. Mitigated by the mandatory proof certificate check at the Control Plane gate.
+- **Proof Certificate Forgery:** An attacker forges a proof certificate for a non-I-confluent operation. Mitigated by the proof verification step that checks the certificate against the operation's formal specification.
+- **I-Confluence Breakdown Under New Semantics:** An operation that was I-confluent under old semantics loses this property after a schema change. Mitigated by proof certificate invalidation on schema changes, requiring re-certification.
+- **Coordinated Execution Starvation:** Operations that cannot prove I-confluence are starved by the coordination overhead. Mitigated by fair scheduling that ensures coordinated operations receive adequate resources.
+
+## 5. Dependencies & Prerequisites
+
+- **Depends On:** [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-007|INV-AUTHZ-007]] — Atomic state transition barrier provides the coordinated execution fallback.
+- **Depends On:** [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-029|INV-AUTHZ-029]] — Snapshot isolation consistency ensures consistent reads for coordination-free operations.
+- **Depends On:** [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-038|INV-AUTHZ-038]] — Causal cycle prevention ensures the operation dependency graph remains a DAG.
+- **Requires:** A formal proof system capable of generating and verifying I-confluence certificates.
+- **Requires:** A coordinated execution fallback mechanism (two-phase commit).
+
+## 6. Provenance & Audit Trail
+
+- **Receipt Type:** `COORDINATION_AVOIDANCE_RECEIPT` — emitted for every coordination-free execution request, recording the proof certificate, verification result, and execution mode.
+- **Storage Location:** `17_OBSERVABILITY` with operation-type-indexed partitions.
+- **Receipt Fields:** Operation type, proof certificate hash, verification result, execution mode (coordination-free or coordinated), epoch, BLAKE3 hash.
+- **Immutability:** Coordination avoidance receipts are append-only per [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-014|INV-AUTHZ-014]].
+
+## 7. Related Invariants
+
+- [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-007|INV-AUTHZ-007]] — Atomic State Transition Barrier
+- [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-028|INV-AUTHZ-028]] — Single Writer per Shard
+- [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-029|INV-AUTHZ-029]] — Snapshot Isolation Consistency
+- [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-038|INV-AUTHZ-038]] — Causal Cycle Prevention
+- [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-043|INV-AUTHZ-043]] — Non-Interference in Shard Reads
+
+## 8. Navigation & Bindings
+
+- **Control Plane:** [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE_MOC]]
+- **Control Plane Contract:** [[03_CONTROL_PLANE/CONTROL_PLANE_CONTROL_PLANE_CONTRACT|CONTROL_PLANE_CONTRACT]]
+- **Canon Law Hierarchy:** [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- **Kernel:** [[02_KERNEL/02_KERNEL_MOC|02_KERNEL_MOC]]
+- **Observability:** [[17_OBSERVABILITY/17_OBSERVABILITY_MOC|17_OBSERVABILITY_MOC]]

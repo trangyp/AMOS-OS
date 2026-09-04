@@ -14,24 +14,24 @@ plane: KERNEL
 scope: AMOS_OS
 updated: 2026-08-26
 tags:
-- kernel
-- authority
-- note
-- canon/kernel
-- readme
-- amos-core-laws
-- law-hierarchy
-- canon-provenance
-- k-core19-logic
-- k-structural-reasoning
-- k-causal-closure
-- k-causal-epoch
-- k-system-state
-- k-context-state
-- k-capability-authorization
-- k-commit-time-authority
-- k-risk-constraint
-- k-event-bus
+  - kernel
+  - authority
+  - note
+  - canon/kernel
+  - readme
+  - amos-core-laws
+  - law-hierarchy
+  - canon-provenance
+  - k-core19-logic
+  - k-structural-reasoning
+  - k-causal-closure
+  - k-causal-epoch
+  - k-system-state
+  - k-context-state
+  - k-capability-authorization
+  - k-commit-time-authority
+  - k-risk-constraint
+  - k-event-bus
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL
@@ -83,9 +83,9 @@ OBSERVED EFFECTS
 
 This artifact defines an architectural model. It does not establish that the classifier is implemented or empirically validated.
 
----
+______________________________________________________________________
 
-# 1. Architectural Boundary
+## 1. Architectural Boundary
 
 Effect classification belongs to the kernel because higher layers require a stable distinction between different consequence classes.
 
@@ -129,9 +129,9 @@ EXTERNAL SYSTEM
 
 No lower layer may silently redefine the kernel effect class to obtain weaker governance.
 
----
+______________________________________________________________________
 
-# 2. Fundamental Distinctions
+## 2. Fundamental Distinctions
 
 ```text
 INTENT != EFFECT
@@ -175,9 +175,9 @@ EXECUTION_SUCCESS != INTENDED_EFFECT
 NO OBSERVED EFFECT != PROOF OF NO EFFECT
 ```
 
----
+______________________________________________________________________
 
-# 3. Effect
+## 3. Effect
 
 An effect is a material change, disclosure, commitment, influence, or externally relevant consequence attributable to an operation within a defined scope.
 
@@ -205,9 +205,9 @@ effect:
 
 An operation may produce more than one effect.
 
----
+______________________________________________________________________
 
-# 4. Effect Envelope
+## 4. Effect Envelope
 
 For operation `O`:
 
@@ -236,9 +236,9 @@ GOVERNANCE(
 
 subject to applicable canon and policy.
 
----
+______________________________________________________________________
 
-# 5. Primary Effect Classes
+## 5. Primary Effect Classes
 
 AMOS model-level primary classes:
 
@@ -266,9 +266,9 @@ EX — UNKNOWN / UNCLASSIFIED EFFECT
 
 These classes are proposed kernel semantics and remain `AMOS_MODEL` until promoted.
 
----
+______________________________________________________________________
 
-# 6. E0 — No Material Effect
+## 6. E0 — No Material Effect
 
 Examples may include:
 
@@ -297,9 +297,9 @@ If any material consequence exists:
 NOT E0
 ```
 
----
+______________________________________________________________________
 
-# 7. E1 — Observational / Read Effect
+## 7. E1 — Observational / Read Effect
 
 Examples:
 
@@ -337,9 +337,9 @@ READ AUTHORITY
 MAY STILL BE REQUIRED
 ```
 
----
+______________________________________________________________________
 
-# 8. E2 — Ephemeral Internal Effect
+## 8. E2 — Ephemeral Internal Effect
 
 Effects limited to temporary execution context.
 
@@ -362,9 +362,9 @@ LOSS OF EXECUTION CONTEXT
 
 unless another persistence mechanism captures it.
 
----
+______________________________________________________________________
 
-# 9. E3 — Persistent Internal Effect
+## 9. E3 — Persistent Internal Effect
 
 Effects persisted inside AMOS-managed substrates without yet constituting authoritative system state.
 
@@ -391,9 +391,9 @@ PERSISTED
 AUTHORITATIVE
 ```
 
----
+______________________________________________________________________
 
-# 10. E4 — Authoritative State Effect
+## 10. E4 — Authoritative State Effect
 
 A mutation that changes authoritative AMOS state.
 
@@ -418,9 +418,9 @@ K_RISK_CONSTRAINT
 
 where applicable.
 
----
+______________________________________________________________________
 
-# 11. E5 — External Information Effect
+## 11. E5 — External Information Effect
 
 Information crosses the governed AMOS boundary without necessarily mutating the external target.
 
@@ -445,9 +445,9 @@ IS AN EFFECT
 
 even if no remote database mutation is visible.
 
----
+______________________________________________________________________
 
-# 12. E6 — External Mutation Effect
+## 12. E6 — External Mutation Effect
 
 An operation modifies an external system or real-world state.
 
@@ -465,9 +465,9 @@ EXECUTE EXTERNAL COMMAND
 
 These effects normally require stronger execution governance than equivalent internal proposals.
 
----
+______________________________________________________________________
 
-# 13. E7 — Authority / Governance Effect
+## 13. E7 — Authority / Governance Effect
 
 Operations that alter who or what may act, decide, commit, approve, supersede, or govern.
 
@@ -493,9 +493,9 @@ IS NOT AN ORDINARY WRITE
 
 It requires governance appropriate to authority-changing consequences.
 
----
+______________________________________________________________________
 
-# 14. E8 — Irreversible / High-Consequence Effect
+## 14. E8 — Irreversible / High-Consequence Effect
 
 Effects whose rollback is impossible, unreliable, disproportionately costly, legally significant, safety-critical, or otherwise highly consequential.
 
@@ -514,9 +514,9 @@ Classification depends on context.
 
 The operation name alone does not establish `E8`.
 
----
+______________________________________________________________________
 
-# 15. EX — Unknown / Unclassified
+## 15. EX — Unknown / Unclassified
 
 If the material effect envelope cannot be established:
 
@@ -545,9 +545,9 @@ DENY
 
 according to applicable governance.
 
----
+______________________________________________________________________
 
-# 16. Effect Dimensions
+## 16. Effect Dimensions
 
 Primary class alone may be insufficient.
 
@@ -572,9 +572,9 @@ effect_dimensions:
   dependency_impact:
 ```
 
----
+______________________________________________________________________
 
-# 17. Locus
+## 17. Locus
 
 ```text
 INTERNAL
@@ -589,9 +589,9 @@ An internal agent can produce an external effect.
 
 An external tool can sometimes produce only an observational effect.
 
----
+______________________________________________________________________
 
-# 18. Persistence
+## 18. Persistence
 
 ```text
 EPHEMERAL
@@ -604,9 +604,9 @@ UNKNOWN
 
 Persistence affects recovery and authority requirements.
 
----
+______________________________________________________________________
 
-# 19. Reversibility
+## 19. Reversibility
 
 ```text
 R0 — TRIVIALLY REVERSIBLE
@@ -627,9 +627,9 @@ ROLLBACK
 
 Sending a correction after disclosure does not undo the disclosure.
 
----
+______________________________________________________________________
 
-# 20. Scope
+## 20. Scope
 
 ```text
 OBJECT
@@ -653,9 +653,9 @@ TARGET SIZE
 BLAST RADIUS
 ```
 
----
+______________________________________________________________________
 
-# 21. Timing
+## 21. Timing
 
 ```text
 IMMEDIATE
@@ -668,9 +668,9 @@ LONG-LIVED
 
 Deferred effects must not be treated as harmless merely because execution happens later.
 
----
+______________________________________________________________________
 
-# 22. Directness
+## 22. Directness
 
 ```text
 DIRECT
@@ -694,9 +694,9 @@ AFFECT USERS
 
 The first mutation can carry downstream effects even when those effects are not immediate.
 
----
+______________________________________________________________________
 
-# 23. Potential vs Realized Effect
+## 23. Potential vs Realized Effect
 
 Before execution:
 
@@ -714,9 +714,9 @@ Governance normally must reason from credible potential effects.
 
 Otherwise dangerous actions could bypass controls merely because harm has not happened yet.
 
----
+______________________________________________________________________
 
-# 24. Intended vs Actual Effect
+## 24. Intended vs Actual Effect
 
 ```text
 INTENDED_EFFECT
@@ -738,9 +738,9 @@ effect_result:
 
 Unexpected effects become evidence for future classification and recovery.
 
----
+______________________________________________________________________
 
-# 25. Direct and Cascading Effects
+## 25. Direct and Cascading Effects
 
 For operation `O`:
 
@@ -769,9 +769,9 @@ O
 
 Effect classification should traverse only dependencies capable of materially changing governance.
 
----
+______________________________________________________________________
 
-# 26. Effect Dependency Closure
+## 26. Effect Dependency Closure
 
 Define:
 
@@ -787,9 +787,9 @@ Do not stop before load-bearing consequences.
 
 This follows the v4.4 smallest-sufficient-proof principle.
 
----
+______________________________________________________________________
 
-# 27. Hidden Effect Firewall
+## 27. Hidden Effect Firewall
 
 A declared low-impact action does not establish low impact.
 
@@ -817,9 +817,9 @@ LABEL
 EFFECT
 ```
 
----
+______________________________________________________________________
 
-# 28. Tool Effect Firewall
+## 28. Tool Effect Firewall
 
 Tool identity does not determine permission or consequence.
 
@@ -843,9 +843,9 @@ with different effect classes.
 
 Classification attaches to the actual operation.
 
----
+______________________________________________________________________
 
-# 29. Agent Effect Firewall
+## 29. Agent Effect Firewall
 
 ```text
 AGENT ROLE
@@ -859,9 +859,9 @@ A "deployment agent" can perform a read-only inspection.
 
 Classification follows consequences, not labels.
 
----
+______________________________________________________________________
 
-# 30. Skill Effect Firewall
+## 30. Skill Effect Firewall
 
 ```text
 SKILL != EFFECT
@@ -881,9 +881,9 @@ SKILL:
 
 Governance must not flatten the entire skill into one assumed effect unless explicitly valid.
 
----
+______________________________________________________________________
 
-# 31. Workflow Effect Composition
+## 31. Workflow Effect Composition
 
 A workflow may contain:
 
@@ -902,9 +902,9 @@ WORKFLOW_EFFECT
 FIRST_STEP_EFFECT
 ```
 
----
+______________________________________________________________________
 
-# 32. Conditional Branches
+## 32. Conditional Branches
 
 For:
 
@@ -926,9 +926,9 @@ INCLUDES DELETE
 
 unless runtime architecture guarantees the destructive branch is unreachable.
 
----
+______________________________________________________________________
 
-# 33. Multi-Effect Operations
+## 33. Multi-Effect Operations
 
 One operation may simultaneously cause:
 
@@ -954,9 +954,9 @@ DIMENSIONS
 
 or an equivalent typed structure.
 
----
+______________________________________________________________________
 
-# 34. Highest-Governance Rule
+## 34. Highest-Governance Rule
 
 Where effect classes impose different governance strength:
 
@@ -982,9 +982,9 @@ SERVICE AVAILABILITY MUTATION
 
 may require different controls rather than one scalar rank.
 
----
+______________________________________________________________________
 
-# 35. Incomparable Effects
+## 35. Incomparable Effects
 
 Do not force:
 
@@ -1002,9 +1002,9 @@ MULTI-DIMENSIONAL EFFECT PROFILE
 
 when scalar ordering loses material information.
 
----
+______________________________________________________________________
 
-# 36. Effect Classification and Risk
+## 36. Effect Classification and Risk
 
 Effect class informs risk.
 
@@ -1037,9 +1037,9 @@ EFFECT
 RISK
 ```
 
----
+______________________________________________________________________
 
-# 37. Effect Classification and Authority
+## 37. Effect Classification and Authority
 
 Effect class can determine which authority is required.
 
@@ -1067,9 +1067,9 @@ AUTHORITY
 
 Classification informs the authority gate; it does not grant authority.
 
----
+______________________________________________________________________
 
-# 38. Effect Classification and Commit Time
+## 38. Effect Classification and Commit Time
 
 Before authoritative commit:
 
@@ -1087,9 +1087,9 @@ RECLASSIFY
 REVALIDATE AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 39. Effect Drift
+## 39. Effect Drift
 
 Effect drift occurs when:
 
@@ -1115,9 +1115,9 @@ SCOPE EXPANSION
 
 Material drift invalidates effect-dependent proofs.
 
----
+______________________________________________________________________
 
-# 40. Regime Sensitivity
+## 40. Regime Sensitivity
 
 The same operation can have different effects under different regimes.
 
@@ -1145,9 +1145,9 @@ where the environments differ materially.
 
 Effect classification inherits regime.
 
----
+______________________________________________________________________
 
-# 41. Temporal Sensitivity
+## 41. Temporal Sensitivity
 
 An operation may change effect over time.
 
@@ -1167,9 +1167,9 @@ VALID_UNTIL
 FRESHNESS
 ```
 
----
+______________________________________________________________________
 
-# 42. Provenance
+## 42. Provenance
 
 Material effect classification should record why the classification exists.
 
@@ -1197,9 +1197,9 @@ SOURCE_CLAIM
 
 not necessarily verified runtime behavior.
 
----
+______________________________________________________________________
 
-# 43. Effect Evidence Independence
+## 43. Effect Evidence Independence
 
 Multiple descriptions copied from one source do not independently prove an effect class.
 
@@ -1213,9 +1213,9 @@ does not equal three independent confirmations.
 
 Correlated provenance must remain visible when consequential.
 
----
+______________________________________________________________________
 
-# 44. Conservative Classification Under Ambiguity
+## 44. Conservative Classification Under Ambiguity
 
 AMOS should not automatically classify every uncertain operation into the maximum imaginable class.
 
@@ -1241,9 +1241,9 @@ EX
 
 according to policy.
 
----
+______________________________________________________________________
 
-# 45. Cheap Discriminating Tests
+## 45. Cheap Discriminating Tests
 
 Prefer tests that sharply distinguish effect hypotheses.
 
@@ -1267,9 +1267,9 @@ OBSERVE CONTROLLED SANDBOX BEHAVIOR
 
 rather than accumulating generic documentation.
 
----
+______________________________________________________________________
 
-# 46. Competing Effect Hypotheses
+## 46. Competing Effect Hypotheses
 
 If credible evidence supports incompatible classifications:
 
@@ -1286,9 +1286,9 @@ EFFECT_CLASS = COMPETING
 
 Do not silently choose the more convenient class.
 
----
+______________________________________________________________________
 
-# 47. Causal Firewall
+## 47. Causal Firewall
 
 Observed sequence alone does not prove an effect.
 
@@ -1317,9 +1317,9 @@ CAUSAL EFFECT
 
 where consequential.
 
----
+______________________________________________________________________
 
-# 48. External Effect Boundary
+## 48. External Effect Boundary
 
 External effects deserve explicit representation.
 
@@ -1341,9 +1341,9 @@ DOES NOT SILENTLY
 BECOME EXTERNAL-EFFECT AUTHORIZATION
 ```
 
----
+______________________________________________________________________
 
-# 49. Disclosure Is an Effect
+## 49. Disclosure Is an Effect
 
 Sending information outside its authorized boundary is a real effect even if nothing is "written" in the conventional database sense.
 
@@ -1363,9 +1363,9 @@ E5
 
 The read classification alone is insufficient.
 
----
+______________________________________________________________________
 
-# 50. Resource Consumption Effects
+## 50. Resource Consumption Effects
 
 Operations may have material resource effects:
 
@@ -1380,9 +1380,9 @@ RATE LIMIT
 
 These can require separate effect dimensions even when the primary functional action is observational.
 
----
+______________________________________________________________________
 
-# 51. Availability Effects
+## 51. Availability Effects
 
 An operation may change service availability without changing persistent data.
 
@@ -1403,9 +1403,9 @@ NO DATA WRITE
 NO MATERIAL EFFECT
 ```
 
----
+______________________________________________________________________
 
-# 52. Security Effects
+## 52. Security Effects
 
 Security-relevant effects include:
 
@@ -1422,9 +1422,9 @@ Some overlap with `E5`, `E6`, and `E7`.
 
 The security dimension should remain explicit.
 
----
+______________________________________________________________________
 
-# 53. Knowledge Effects
+## 53. Knowledge Effects
 
 Knowledge operations must distinguish:
 
@@ -1445,9 +1445,9 @@ GENERATED KNOWLEDGE
 VALIDATED KNOWLEDGE
 ```
 
----
+______________________________________________________________________
 
-# 54. Memory Effects
+## 54. Memory Effects
 
 Memory operations distinguish:
 
@@ -1461,9 +1461,9 @@ MEMORY DELETION
 
 A conversational inference must not become persistent memory merely because it was generated.
 
----
+______________________________________________________________________
 
-# 55. Canon Effects
+## 55. Canon Effects
 
 Canon operations distinguish:
 
@@ -1486,9 +1486,9 @@ CANON EFFECT
 
 Only governed promotion changes authoritative canon.
 
----
+______________________________________________________________________
 
-# 56. Authority Effects
+## 56. Authority Effects
 
 Operations that alter authorization topology should be explicitly flagged:
 
@@ -1504,9 +1504,9 @@ authority_effect:
 
 Authority changes can affect many downstream decisions even if the direct mutation is small.
 
----
+______________________________________________________________________
 
-# 57. Effect Atomicity
+## 57. Effect Atomicity
 
 For atomic transaction:
 
@@ -1525,9 +1525,9 @@ ATOMIC T
 
 unless decomposition is valid and explicitly permitted.
 
----
+______________________________________________________________________
 
-# 58. Partial Effects
+## 58. Partial Effects
 
 Failure during execution may produce:
 
@@ -1558,9 +1558,9 @@ PARTIAL_EFFECT
 UNKNOWN_EFFECT
 ```
 
----
+______________________________________________________________________
 
-# 59. Compensation
+## 59. Compensation
 
 When rollback is unavailable:
 
@@ -1580,9 +1580,9 @@ NEVER HAPPENED
 
 Provenance of the original effect must remain.
 
----
+______________________________________________________________________
 
-# 60. Irreversibility Gate
+## 60. Irreversibility Gate
 
 Before an operation classified as materially irreversible:
 
@@ -1599,9 +1599,9 @@ VERIFY:
 
 Validation strength should increase with irreversible stakes.
 
----
+______________________________________________________________________
 
-# 61. Effect Classification Record
+## 61. Effect Classification Record
 
 ```yaml
 effect_classification:
@@ -1647,9 +1647,9 @@ effect_classification:
   confidence_ceiling:
 ```
 
----
+______________________________________________________________________
 
-# 62. Conclusion Classes
+## 62. Conclusion Classes
 
 Effect conclusions use the weakest accurate class:
 
@@ -1678,9 +1678,9 @@ UNRESOLVED CONFLICT
 → COMPETING
 ```
 
----
+______________________________________________________________________
 
-# 63. Confidence Ceiling
+## 63. Confidence Ceiling
 
 For derived classification `EC`:
 
@@ -1700,9 +1700,9 @@ MIN(
 
 A weak load-bearing premise caps the effect classification.
 
----
+______________________________________________________________________
 
-# 64. Sensitivity
+## 64. Sensitivity
 
 Identify the smallest premise capable of changing governance.
 
@@ -1719,9 +1719,9 @@ DOES THIS TOOL ACTUALLY MUTATE?
 
 Test that premise first.
 
----
+______________________________________________________________________
 
-# 65. Adversarial Validation
+## 65. Adversarial Validation
 
 For consequential classifications, challenge the initial result through a different path.
 
@@ -1752,9 +1752,9 @@ OR
 RETURN UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 66. Invalidation
+## 66. Invalidation
 
 ```text
 INVALID(p)
@@ -1776,9 +1776,9 @@ REVERSIBILITY ASSUMPTION FAILED
 
 Unaffected classifications remain reusable.
 
----
+______________________________________________________________________
 
-# 67. Failure Recovery
+## 67. Failure Recovery
 
 When effect classification proves wrong:
 
@@ -1804,9 +1804,9 @@ REVALIDATE AFFECTED OPERATIONS
 
 Do not erase the misclassification evidence.
 
----
+______________________________________________________________________
 
-# 68. Observability Events
+## 68. Observability Events
 
 Recommended events:
 
@@ -1832,9 +1832,9 @@ EFFECT_COMPENSATION_STARTED
 EFFECT_RECOVERY_COMPLETED
 ```
 
----
+______________________________________________________________________
 
-# 69. Kernel Invariants
+## 69. Kernel Invariants
 
 ```text
 KEC-01
@@ -1928,9 +1928,9 @@ KEC-30
 IRREVERSIBLE EFFECTS REQUIRE STRONGER GOVERNANCE PROPORTIONAL TO STAKES
 ```
 
----
+______________________________________________________________________
 
-# 70. Required Tests
+## 70. Required Tests
 
 ```text
 INTENT-EFFECT-SEPARATION TEST
@@ -1961,9 +1961,9 @@ IRREVERSIBILITY-GATE TEST
 EXTERNAL-EFFECT-AUTHORITY TEST
 ```
 
----
+______________________________________________________________________
 
-# 71. Negative Tests
+## 71. Negative Tests
 
 ```text
 TOOL IS READ TOOL
@@ -2031,9 +2031,9 @@ UNKNOWN EFFECT
 MUST FAIL
 ```
 
----
+______________________________________________________________________
 
-# 72. Failure Modes
+## 72. Failure Modes
 
 ```text
 EFFECT UNDERCLASSIFICATION
@@ -2058,9 +2058,9 @@ CAUSAL OVERATTRIBUTION
 PROVENANCE LOSS
 ```
 
----
+______________________________________________________________________
 
-# 73. Interaction Matrix
+## 73. Interaction Matrix
 
 ```text
 K_CAPABILITY_AUTHORIZATION
@@ -2121,9 +2121,9 @@ OPERATIONS
 → HANDLE RECOVERY / COMPENSATION
 ```
 
----
+______________________________________________________________________
 
-# 74. Promotion Gate
+## 74. Promotion Gate
 
 Before promotion beyond `AMOS_MODEL`, evidence should establish:
 
@@ -2172,9 +2172,9 @@ EMPIRICAL_VALIDATION = UNKNOWN/GAP
 FORMAL_VERIFICATION = UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 75. RSCF Node
+## 75. RSCF Node
 
 ```RSCF-NODE
 node_id: AMOS-OS-K-EFFECT-CLASSIFICATION
@@ -2222,9 +2222,9 @@ RSCF-RELATIONS:
   - RECOVERED_BY: README
 ```
 
----
+______________________________________________________________________
 
-# 76. Canonical Summary
+## 76. Canonical Summary
 
 ```text
 AMOS DOES NOT ASK ONLY:
@@ -2426,13 +2426,14 @@ README
 **Classification note:** this is substantive replacement content for `02_KERNEL/K_EFFECT_CLASSIFICATION.md`, but remains **AMOS_MODEL**. It defines the proposed effect semantics needed to connect capability authorization, commit-time authority, risk constraints, causal closure, runtime execution, and external-effect governance. It does **not** establish implementation, empirical validation, formal verification, or canonical promotion; those remain `UNKNOWN/GAP` until supported by provenance and test evidence.
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
-**MOC:** [[02_KERNEL/07_AUTHORITY/07_AUTHORITY_MOC|07_AUTHORITY_MOC]]
+______________________________________________________________________
 
+**MOC:** [[02_KERNEL/07_AUTHORITY/07_AUTHORITY_MOC|07_AUTHORITY_MOC]]

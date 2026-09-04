@@ -12,23 +12,23 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: MASTER
 path: 11_KNOWLEDGE/05_FRAMEWORKS/NEUROSYNCAI_MASTER.md
 tags:
-- amos-os
-- knowledge
-- vault
-- 05_frameworks
-- neurosyncai_master
-- bio_adaptive_ai
-- cognitive_synchrony
-- fatigue_mitigation
-- rscf
-- canon_candidate
-- canon/knowledge
-- neurosyncai-framework
-- ubi-neurosyncai-binding
-- unified-biological-intelligence
-- consentx
-- id-exchange
-- amos-x-neurosyncai
+  - amos-os
+  - knowledge
+  - vault
+  - 05_frameworks
+  - neurosyncai_master
+  - bio_adaptive_ai
+  - cognitive_synchrony
+  - fatigue_mitigation
+  - rscf
+  - canon_candidate
+  - canon/knowledge
+  - neurosyncai-framework
+  - ubi-neurosyncai-binding
+  - unified-biological-intelligence
+  - consentx
+  - id-exchange
+  - amos-x-neurosyncai
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -43,23 +43,23 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - NEUROSYNCAI_FRAMEWORK
-  - UBI_NEUROSYNCAI_BINDING
-  - AMOS_CORPUS
+    - NEUROSYNCAI_FRAMEWORK
+    - UBI_NEUROSYNCAI_BINDING
+    - AMOS_CORPUS
   scope:
-  - KNOWLEDGE_FRAMEWORKS
-  - ADAPTIVE_AI_MASTER
-  - SOURCE_DEFINED_MODEL
+    - KNOWLEDGE_FRAMEWORKS
+    - ADAPTIVE_AI_MASTER
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   primary:
     name: NeurosyncAI Master Architecture
     role: COGNITIVE_PACING_AND_BIO_SYNCHRONY_MASTER
   framework:
     artifact:
-    - - NEUROSYNCAI_FRAMEWORK
+      -   - NEUROSYNCAI_FRAMEWORK
   biological_bridge:
     artifact:
-    - - UBI_NEUROSYNCAI_BINDING
+      -   - UBI_NEUROSYNCAI_BINDING
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
@@ -73,9 +73,9 @@ epistemic_boundary:
 
 It oversees all real-time bio-synchrony, autonomic fatigue monitoring, token pacing throttling, and cognitive recovery loops across human-machine interfaces.
 
----
+______________________________________________________________________
 
-# 1. Master Control Architecture
+## 1. Master Control Architecture
 
 ```text
 REAL-TIME BIOLOGICAL TELEMETRY (HRV, EMG, EEG)
@@ -91,18 +91,18 @@ NEUROSYNCAI MASTER CONTROLLER:
 HARMONIZED HUMAN-AI FLOW STATE
 ```
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Parent Framework:** [[11_KNOWLEDGE/05_FRAMEWORKS/NEUROSYNCAI_FRAMEWORK|NEUROSYNCAI_FRAMEWORK]]
 - **Biological Binding:** [[11_KNOWLEDGE/05_FRAMEWORKS/UBI_NEUROSYNCAI_BINDING|UBI_NEUROSYNCAI_BINDING]] and [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]]
 - **Consent Engine:** [[11_KNOWLEDGE/05_FRAMEWORKS/CONSENTX|CONSENTX]] and [[11_KNOWLEDGE/05_FRAMEWORKS/ID_EXCHANGE|ID_EXCHANGE]]
 - **Cognitive Matrix:** [[25_COGNITIVE_MATRIX/AMOS_X_NEUROSYNCAI|AMOS_X_NEUROSYNCAI]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -120,9 +120,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/NEUROSYNCAI_FRAMEWORK|NEUROSYNCAI_FRAMEWORK]] · [[11_KNOWLEDGE/05_FRAMEWORKS/UBI_NEUROSYNCAI_BINDING|UBI_NEUROSYNCAI_BINDING]] · [[11_KNOWLEDGE/05_FRAMEWORKS/CONSENTX|CONSENTX]]
 
----
+______________________________________________________________________
+
 **MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]

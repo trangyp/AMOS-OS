@@ -1,4 +1,7 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 date: 2026-08-29
 epistemic_class: OBSERVATION
 provenance: GitHub README, not independently verified
@@ -10,6 +13,7 @@ rscf:
 source: https://raw.githubusercontent.com/zjunlp/SkillNet/main/README.md
 title: SkillNet README — Raw Capture
 ---
+
 # SkillNet README — Raw Capture
 
 Source: `https://github.com/zjunlp/SkillNet`
@@ -57,14 +61,14 @@ skillnet download <skill_url> -d ./my_skills
 
 ## What you can build
 
-| Layer | Capability | Enables |
-|-------|------------|---------|
-| Skill library | Search and download | Reuse existing skills |
-| Skill authoring | Create | Turn traces/prompts/repos into packages |
-| Skill quality | Evaluate | Compare skill readiness |
-| Skill graph | Analyze | Discover `compose_with`, `depend_on` |
-| Orchestration | Orchestrate | Pick skills for a scene and return a prompt |
-| Integrations | Agent skills, MCP, OpenClaw, JiuwenClaw | Use inside existing runtimes |
+| Layer           | Capability                              | Enables                                     |
+| --------------- | --------------------------------------- | ------------------------------------------- |
+| Skill library   | Search and download                     | Reuse existing skills                       |
+| Skill authoring | Create                                  | Turn traces/prompts/repos into packages     |
+| Skill quality   | Evaluate                                | Compare skill readiness                     |
+| Skill graph     | Analyze                                 | Discover `compose_with`, `depend_on`        |
+| Orchestration   | Orchestrate                             | Pick skills for a scene and return a prompt |
+| Integrations    | Agent skills, MCP, OpenClaw, JiuwenClaw | Use inside existing runtimes                |
 
 ## Configuration and credentials
 
@@ -83,4 +87,3 @@ skillnet download <skill_url> -d ./my_skills
 ## Confidence ceiling
 
 README claims only. Empirical benchmarks (SkillNet-Gym) mentioned but not reproduced.
-

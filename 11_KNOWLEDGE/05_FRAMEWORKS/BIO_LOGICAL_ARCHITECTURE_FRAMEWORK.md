@@ -12,19 +12,19 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: FRAMEWORK
 path: 11_KNOWLEDGE/05_FRAMEWORKS/BIO_LOGICAL_ARCHITECTURE_FRAMEWORK.md
 tags:
-- amos-os
-- knowledge
-- vault
-- 05_frameworks
-- bio_logical_architecture_framework
-- biological_design
-- living_systems_design
-- rscf
-- canon_candidate
-- canon/knowledge
-- bio-logical-architecture
-- uba-framework
-- amos-organism-os-framework
+  - amos-os
+  - knowledge
+  - vault
+  - 05_frameworks
+  - bio_logical_architecture_framework
+  - biological_design
+  - living_systems_design
+  - rscf
+  - canon_candidate
+  - canon/knowledge
+  - bio-logical-architecture
+  - uba-framework
+  - amos-organism-os-framework
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -39,19 +39,19 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - BIO_LOGICAL_ARCHITECTURE
-  - AMOS_CORPUS
+    - BIO_LOGICAL_ARCHITECTURE
+    - AMOS_CORPUS
   scope:
-  - KNOWLEDGE_FRAMEWORKS
-  - ARCHITECTURE_FRAMEWORKS
-  - SOURCE_DEFINED_MODEL
+    - KNOWLEDGE_FRAMEWORKS
+    - ARCHITECTURE_FRAMEWORKS
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   bio_logical_architecture:
     artifact:
-    - - BIO_LOGICAL_ARCHITECTURE
+      -   - BIO_LOGICAL_ARCHITECTURE
   uba:
     artifact:
-    - - UBA_FRAMEWORK
+      -   - UBA_FRAMEWORK
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
@@ -65,25 +65,25 @@ epistemic_boundary:
 
 It provides systemic design guidelines for transforming rigid, brittle monolithic software into flexible, living, organ-like modular topologies.
 
----
+______________________________________________________________________
 
-# 1. Framework Guidelines
+## 1. Framework Guidelines
 
 1. **Organ-Level Encapsulation:** Modules operate as semi-autonomous organs with distinct metabolic boundaries and clear input/output hormone-like signaling.
-2. **Dynamic Homeostasis Regulation:** Subsystems automatically throttle throughput and adjust resource allocation to maintain steady-state equilibrium.
-3. **Graceful Functional Degradation:** Under partial failure, non-essential services go dormant while core metabolic life-support layers ($S_0$) remain active.
+1. **Dynamic Homeostasis Regulation:** Subsystems automatically throttle throughput and adjust resource allocation to maintain steady-state equilibrium.
+1. **Graceful Functional Degradation:** Under partial failure, non-essential services go dormant while core metabolic life-support layers ($S_0$) remain active.
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Core Architecture:** [[11_KNOWLEDGE/05_FRAMEWORKS/BIO_LOGICAL_ARCHITECTURE|BIO_LOGICAL_ARCHITECTURE]]
 - **Universal Biological Architecture:** [[11_KNOWLEDGE/05_FRAMEWORKS/UBA_FRAMEWORK|UBA_FRAMEWORK]]
 - **Organism OS:** [[11_KNOWLEDGE/05_FRAMEWORKS/AMOS_ORGANISM_OS_FRAMEWORK|AMOS_ORGANISM_OS_FRAMEWORK]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -101,10 +101,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/BIO_LOGICAL_ARCHITECTURE|BIO_LOGICAL_ARCHITECTURE]] · [[11_KNOWLEDGE/05_FRAMEWORKS/UBA_FRAMEWORK|UBA_FRAMEWORK]] · [[11_KNOWLEDGE/05_FRAMEWORKS/AMOS_ORGANISM_OS_FRAMEWORK|AMOS_ORGANISM_OS_FRAMEWORK]]
 
----
-**MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]
+______________________________________________________________________
 
+**MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]

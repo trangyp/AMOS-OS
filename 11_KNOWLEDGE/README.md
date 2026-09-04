@@ -1,8 +1,11 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: README
 tags:
-- knowledge
-- readme
+  - knowledge
+  - readme
 type: note
 source: 11_KNOWLEDGE
 rscf:
@@ -29,7 +32,7 @@ This subsystem handles...
 
 ## Usage
 
-```python
+`````python
 from 01_BRAIN.main import BRAINSubsystem
 
 subsystem = BRAINSubsystem()
@@ -226,17 +229,17 @@ Configuration options...
 
 Follow AMOS development guidelines...
 
-````
+`````
 
 Source links:
 
 ```markdown
 **Links:**  |
-````
+```
 
----
+______________________________________________________________________
 
-# 4. Epistemic Classification
+## 4. Epistemic Classification
 
 The frontmatter explicitly declares:
 
@@ -266,15 +269,15 @@ In particular:
 
 is a **SOURCE_CLAIM about operational status**, not independent runtime evidence.
 
----
+______________________________________________________________________
 
-# 5. Canonical Purpose Boundary
+## 5. Canonical Purpose Boundary
 
 The artifact visibly performs at least three documentation roles:
 
 1. README-style subsystem description.
-2. Index/MOC participation through its tags and links.
-3. AMOS knowledge-corpus source claim.
+1. Index/MOC participation through its tags and links.
+1. AMOS knowledge-corpus source claim.
 
 This can be represented as:
 
@@ -294,9 +297,9 @@ Classification:
 
 It does not establish that these are the only roles.
 
----
+______________________________________________________________________
 
-# 6. 01_BRAIN Overview
+## 6. 01_BRAIN Overview
 
 ## Source Claim
 
@@ -317,9 +320,9 @@ scope: AMOS_knowledge
 
 The source does not define what **core component** means operationally.
 
----
+______________________________________________________________________
 
-# 7. Core Component Semantics
+## 7. Core Component Semantics
 
 The phrase:
 
@@ -346,9 +349,9 @@ core_component:
   exact_semantics: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 8. AMOS System Identity
+## 8. AMOS System Identity
 
 The source explicitly refers to:
 
@@ -369,9 +372,9 @@ Do not infer from this README alone:
 
 Those require external canon.
 
----
+______________________________________________________________________
 
-# 9. Purpose Section
+## 9. Purpose Section
 
 ## Source
 
@@ -392,9 +395,9 @@ purpose:
 
 The ellipsis must not be filled with invented responsibilities.
 
----
+______________________________________________________________________
 
-# 10. Purpose Gap
+## 10. Purpose Gap
 
 The missing purpose is a **DECISION-RELEVANT GAP** if this README is used to determine:
 
@@ -411,9 +414,9 @@ Minimum missing information:
 What exactly does 01_BRAIN handle?
 ```
 
----
+______________________________________________________________________
 
-# 11. Components Section
+## 11. Components Section
 
 The source gives:
 
@@ -442,9 +445,9 @@ components:
   completeness: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 12. Component Count Firewall
+## 12. Component Count Firewall
 
 The presence of two placeholder bullets does **not** prove that `01_BRAIN` has exactly two components.
 
@@ -466,9 +469,9 @@ $$
 ActualComponentCount=2.
 $$
 
----
+______________________________________________________________________
 
-# 13. Usage Section
+## 13. Usage Section
 
 The source provides:
 
@@ -492,9 +495,9 @@ $$
 
 That sequence is source-grounded at the documentation level.
 
----
+______________________________________________________________________
 
-# 14. Python Syntax Boundary
+## 14. Python Syntax Boundary
 
 The supplied import statement is:
 
@@ -516,9 +519,9 @@ usage_example:
   import_path_issue: PRESENT
 ```
 
----
+______________________________________________________________________
 
-# 15. Do Not Silently Repair Import Path
+## 15. Do Not Silently Repair Import Path
 
 Potential alternatives might include forms such as:
 
@@ -541,9 +544,9 @@ from 01_BRAIN.main import BRAINSubsystem
 
 as the source claim while marking executable resolution as a gap.
 
----
+______________________________________________________________________
 
-# 16. BRAINSubsystem
+## 16. BRAINSubsystem
 
 The source names:
 
@@ -564,9 +567,9 @@ It does **not** independently establish:
 - initialization contract;
 - shutdown contract.
 
----
+______________________________________________________________________
 
-# 17. Constructor
+## 17. Constructor
 
 Source:
 
@@ -589,9 +592,9 @@ BRAINSubsystem_constructor:
     status: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 18. Async Initialization
+## 18. Async Initialization
 
 Source:
 
@@ -613,9 +616,9 @@ with asynchronous invocation semantics implied by `await`.
 
 Actual implementation remains unverified.
 
----
+______________________________________________________________________
 
-# 19. Initialization State Machine
+## 19. Initialization State Machine
 
 A minimal derived model is:
 
@@ -640,9 +643,9 @@ The final state is marked with `?` because the source does not define:
 - rollback;
 - idempotence.
 
----
+______________________________________________________________________
 
-# 20. Initialization Gaps
+## 20. Initialization Gaps
 
 Missing contract:
 
@@ -660,9 +663,9 @@ initialize:
   dependencies_initialized_first: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 21. Configuration
+## 21. Configuration
 
 Source:
 
@@ -685,9 +688,9 @@ configuration:
   secrets_policy: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 22. Configuration Must Not Be Invented
+## 22. Configuration Must Not Be Invented
 
 Do not fabricate fields such as:
 
@@ -701,9 +704,9 @@ brain:
 
 unless supplied by an authoritative configuration artifact.
 
----
+______________________________________________________________________
 
-# 23. Dependencies
+## 23. Dependencies
 
 The source declares two dependency categories:
 
@@ -724,9 +727,9 @@ $$
 
 But exact dependency identities are absent.
 
----
+______________________________________________________________________
 
-# 24. Internal Dependencies
+## 24. Internal Dependencies
 
 Source:
 
@@ -746,9 +749,9 @@ internal_dependencies:
 
 Do not infer particular subsystems from general AMOS architecture without an explicit dependency binding.
 
----
+______________________________________________________________________
 
-# 25. External Dependencies
+## 25. External Dependencies
 
 Source:
 
@@ -766,9 +769,9 @@ external_dependencies:
   licenses: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 26. Dependency Direction
+## 26. Dependency Direction
 
 The source does not specify whether other AMOS subsystems:
 
@@ -782,9 +785,9 @@ Therefore dependency direction is:
 
 `UNKNOWN`.
 
----
+______________________________________________________________________
 
-# 27. Dependency Graph
+## 27. Dependency Graph
 
 Only this abstract topology is licensed:
 
@@ -802,9 +805,9 @@ Only this abstract topology is licensed:
 
 Exact edges remain unresolved.
 
----
+______________________________________________________________________
 
-# 28. Status
+## 28. Status
 
 Source:
 
@@ -824,9 +827,9 @@ status_claim:
   independent_runtime_verification: NOT_PROVIDED
 ```
 
----
+______________________________________________________________________
 
-# 29. Operational ≠ Independently Verified
+## 29. Operational ≠ Independently Verified
 
 The artifact does not provide:
 
@@ -849,9 +852,9 @@ SourceSaysOperational
 IndependentRuntimeVerification.
 $$
 
----
+______________________________________________________________________
 
-# 30. Operational Freshness
+## 30. Operational Freshness
 
 No date is supplied for the operational-status statement.
 
@@ -867,9 +870,9 @@ operational_status:
 
 The status cannot safely be generalized to the present runtime without additional evidence.
 
----
+______________________________________________________________________
 
-# 31. Contributing
+## 31. Contributing
 
 Source:
 
@@ -889,9 +892,9 @@ contributing:
   exact_artifact: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 32. Contribution Governance Gap
+## 32. Contribution Governance Gap
 
 Missing details include:
 
@@ -906,9 +909,9 @@ Missing details include:
 
 Do not invent them here.
 
----
+______________________________________________________________________
 
-# 33. Links
+## 33. Links
 
 Source:
 
@@ -932,9 +935,9 @@ links:
 
 The source does not specify stronger edge types.
 
----
+______________________________________________________________________
 
-# 34. [[11_KNOWLEDGE/COSMO_BRAIN_MOC|COSMO_BRAIN_MOC]]
+## 34. [[11_KNOWLEDGE/COSMO_BRAIN_MOC|COSMO_BRAIN_MOC]]
 
 The link:
 
@@ -957,9 +960,9 @@ Therefore:
 
 `DO_NOT_INVENT`.
 
----
+______________________________________________________________________
 
-# 35. [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]]
+## 35. [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]]
 
 The link:
 
@@ -983,9 +986,9 @@ This provides stronger evidence that the artifact participates in the AMOS knowl
 
 It still does not resolve why the body is headed `01_BRAIN`.
 
----
+______________________________________________________________________
 
-# 36. MOC Role
+## 36. MOC Role
 
 The source tags include:
 
@@ -1018,9 +1021,9 @@ $$
 
 This distinction should be preserved.
 
----
+______________________________________________________________________
 
-# 37. Document vs Index
+## 37. Document vs Index
 
 The source simultaneously indicates:
 
@@ -1048,9 +1051,9 @@ moc_role:
   indicated_by_tags: true
 ```
 
----
+______________________________________________________________________
 
-# 38. Canon/Knowledge Tag
+## 38. Canon/Knowledge Tag
 
 The source tag:
 
@@ -1076,9 +1079,9 @@ CanonTag
 EmpiricalVerification.
 $$
 
----
+______________________________________________________________________
 
-# 39. Knowledge Canon Boundary
+## 39. Knowledge Canon Boundary
 
 A safe distinction is:
 
@@ -1090,9 +1093,9 @@ verified outside corpus
 
 Thus a canonical AMOS model may be authoritative for AMOS architecture while remaining a model/source claim regarding external reality or runtime state.
 
----
+______________________________________________________________________
 
-# 40. RSCF Receipt
+## 40. RSCF Receipt
 
 The supplied RSCF block is:
 
@@ -1119,9 +1122,9 @@ $$
 
 No additional RSCF fields should be silently added to the source layer.
 
----
+______________________________________________________________________
 
-# 41. RSCF State
+## 41. RSCF State
 
 ```text
 SOURCE_CLAIM
@@ -1147,9 +1150,9 @@ or:
 EMPIRICALLY_VALIDATED.
 ```
 
----
+______________________________________________________________________
 
-# 42. RSCF Claim Class
+## 42. RSCF Claim Class
 
 The claim class is also:
 
@@ -1159,9 +1162,9 @@ SOURCE_CLAIM.
 
 Therefore source-level assertions should inherit this epistemic ceiling unless separately validated.
 
----
+______________________________________________________________________
 
-# 43. RSCF Provenance
+## 43. RSCF Provenance
 
 Source:
 
@@ -1182,9 +1185,9 @@ It does not specify:
 
 Those remain provenance gaps.
 
----
+______________________________________________________________________
 
-# 44. RSCF Scope
+## 44. RSCF Scope
 
 Source:
 
@@ -1202,9 +1205,9 @@ Valid_{AMOS\_knowledge}(C)
 Valid_{ExternalDomain}(C).
 $$
 
----
+______________________________________________________________________
 
-# 45. H/M/L Structural Representation
+## 45. H/M/L Structural Representation
 
 A conservative derived H/M/L view is:
 
@@ -1238,9 +1241,9 @@ L:
 
 This is a **DERIVED retrieval structure**, not source frontmatter.
 
----
+______________________________________________________________________
 
-# 46. RSCF/HML Retrieval Capsule
+## 46. RSCF/HML Retrieval Capsule
 
 ```yaml
 RSCF_RETRIEVAL:
@@ -1277,27 +1280,27 @@ RSCF_RETRIEVAL:
     policy: DO_NOT_LOAD_UNLESS_REQUIRED
 ```
 
----
+______________________________________________________________________
 
-# 47. Structural Completeness Matrix
+## 47. Structural Completeness Matrix
 
 | Section       | Present? | Semantically Complete? |
 | ------------- | :------: | :--------------------: |
-| Overview      |     ✓    |         Partial        |
-| Purpose       |     ✓    |           No           |
-| Components    |     ✓    |           No           |
-| Usage         |     ✓    |         Partial        |
-| Configuration |     ✓    |           No           |
-| Dependencies  |     ✓    |           No           |
-| Status        |     ✓    |         Partial        |
-| Contributing  |     ✓    |           No           |
-| Links         |     ✓    |         Partial        |
+| Overview      |    ✓     |        Partial         |
+| Purpose       |    ✓     |           No           |
+| Components    |    ✓     |           No           |
+| Usage         |    ✓     |        Partial         |
+| Configuration |    ✓     |           No           |
+| Dependencies  |    ✓     |           No           |
+| Status        |    ✓     |        Partial         |
+| Contributing  |    ✓     |           No           |
+| Links         |    ✓     |        Partial         |
 
 The README is therefore structurally scaffolded but semantically incomplete.
 
----
+______________________________________________________________________
 
-# 48. Scaffold Signature
+## 48. Scaffold Signature
 
 The pattern:
 
@@ -1318,9 +1321,9 @@ Classification:
 
 But whether the artifact was actually produced by a generator is not established.
 
----
+______________________________________________________________________
 
-# 49. Competing Artifact Hypotheses
+## 49. Competing Artifact Hypotheses
 
 ```yaml
 COMPETING_HYPOTHESES:
@@ -1348,24 +1351,24 @@ COMPETING_HYPOTHESES:
 
 No supplied evidence discriminates decisively among them.
 
----
+______________________________________________________________________
 
-# 50. Cheapest Discriminating Evidence
+## 50. Cheapest Discriminating Evidence
 
 The highest-information next artifacts would be:
 
 1. the directory listing or MOC for `11_KNOWLEDGE`;
-2. ``;
-3. ``;
-4. the canonical `01_BRAIN` README/path;
-5. the implementation containing `BRAINSubsystem`;
-6. the repository/module layout.
+1. \`\`;
+1. \`\`;
+1. the canonical `01_BRAIN` README/path;
+1. the implementation containing `BRAINSubsystem`;
+1. the repository/module layout.
 
 The first evidence that establishes intended artifact identity could collapse several competing hypotheses at once.
 
----
+______________________________________________________________________
 
-# 51. Proof Capsule — Artifact Location
+## 51. Proof Capsule — Artifact Location
 
 ```yaml
 PROOF_CAPSULE:
@@ -1393,9 +1396,9 @@ PROOF_CAPSULE:
     SOURCE_GROUNDED
 ```
 
----
+______________________________________________________________________
 
-# 52. Proof Capsule — Body Subject
+## 52. Proof Capsule — Body Subject
 
 ```yaml
 PROOF_CAPSULE:
@@ -1419,9 +1422,9 @@ PROOF_CAPSULE:
     SOURCE_GROUNDED
 ```
 
----
+______________________________________________________________________
 
-# 53. Proof Capsule — Core Component
+## 53. Proof Capsule — Core Component
 
 ```yaml
 PROOF_CAPSULE:
@@ -1450,9 +1453,9 @@ PROOF_CAPSULE:
     SOURCE_CLAIM
 ```
 
----
+______________________________________________________________________
 
-# 54. Proof Capsule — Operational
+## 54. Proof Capsule — Operational
 
 ```yaml
 PROOF_CAPSULE:
@@ -1482,9 +1485,9 @@ PROOF_CAPSULE:
     SOURCE_CLAIM
 ```
 
----
+______________________________________________________________________
 
-# 55. Proof Capsule — Usage
+## 55. Proof Capsule — Usage
 
 ```yaml
 PROOF_CAPSULE:
@@ -1512,9 +1515,9 @@ PROOF_CAPSULE:
     SOURCE_GROUNDED_DOCUMENTATION
 ```
 
----
+______________________________________________________________________
 
-# 56. Adversarial Validation — Operational Claim
+## 56. Adversarial Validation — Operational Claim
 
 Strongest source-supported conclusion:
 
@@ -1536,9 +1539,9 @@ not:
 INDEPENDENTLY VERIFIED RUNTIME FACT.
 ```
 
----
+______________________________________________________________________
 
-# 57. Adversarial Validation — Executable Example
+## 57. Adversarial Validation — Executable Example
 
 Strongest source-supported conclusion:
 
@@ -1555,9 +1558,9 @@ documentation_intent: SUPPORTED
 literal_example_executability: NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 58. Adversarial Validation — Two Components
+## 58. Adversarial Validation — Two Components
 
 Strongest superficial conclusion:
 
@@ -1573,9 +1576,9 @@ Result:
 
 Only two placeholder rows are visible.
 
----
+______________________________________________________________________
 
-# 59. Adversarial Validation — README Identity
+## 59. Adversarial Validation — README Identity
 
 Potential conclusion:
 
@@ -1594,9 +1597,9 @@ Result:
 
 `COMPETING / GAP`.
 
----
+______________________________________________________________________
 
-# 60. Adversarial Validation — Knowledge README
+## 60. Adversarial Validation — Knowledge README
 
 Potential conclusion:
 
@@ -1610,9 +1613,9 @@ Result:
 
 `NOT ESTABLISHED`.
 
----
+______________________________________________________________________
 
-# 61. Causal Firewall
+## 61. Causal Firewall
 
 Nothing in this README establishes causal claims about cognition, brain function, intelligence, or external biological systems.
 
@@ -1632,9 +1635,9 @@ must not be interpreted as evidence that the subsystem:
 
 `BRAIN` is a source-defined subsystem label unless further canon establishes additional semantics.
 
----
+______________________________________________________________________
 
-# 62. Scope Firewall
+## 62. Scope Firewall
 
 Canonical applicability envelope:
 
@@ -1649,9 +1652,9 @@ external_generalization:
   allowed_from_this_source_alone: false
 ```
 
----
+______________________________________________________________________
 
-# 63. Runtime Firewall
+## 63. Runtime Firewall
 
 Documentation statements do not prove deployment.
 
@@ -1681,9 +1684,9 @@ ClassName
 ClassImplementation.
 $$
 
----
+______________________________________________________________________
 
-# 64. Provenance Firewall
+## 64. Provenance Firewall
 
 The only explicit provenance is:
 
@@ -1700,9 +1703,9 @@ Do not invent:
 - release version;
 - artifact checksum.
 
----
+______________________________________________________________________
 
-# 65. Freshness Firewall
+## 65. Freshness Firewall
 
 No `updated`, `created`, `version`, or runtime verification timestamp is supplied.
 
@@ -1716,9 +1719,9 @@ freshness:
   dependencies: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 66. Dependency Firewall
+## 66. Dependency Firewall
 
 The generic statement:
 
@@ -1736,9 +1739,9 @@ External: Required libraries
 
 does not license package guesses.
 
----
+______________________________________________________________________
 
-# 67. Configuration Firewall
+## 67. Configuration Firewall
 
 The presence of a Configuration heading does not prove any specific configuration mechanism.
 
@@ -1756,9 +1759,9 @@ Preserve as:
 
 `UNKNOWN`.
 
----
+______________________________________________________________________
 
-# 68. Governance Boundary
+## 68. Governance Boundary
 
 The source contains no explicit governance tensor or authorization policy for the subsystem.
 
@@ -1772,9 +1775,9 @@ Therefore do not infer:
 
 These are governance gaps.
 
----
+______________________________________________________________________
 
-# 69. Failure Semantics
+## 69. Failure Semantics
 
 No failure behavior is supplied for:
 
@@ -1795,9 +1798,9 @@ failure_semantics:
   fail_open: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 70. Lifecycle Semantics
+## 70. Lifecycle Semantics
 
 Only initialization appears.
 
@@ -1817,9 +1820,9 @@ reload
 
 Do not invent them.
 
----
+______________________________________________________________________
 
-# 71. State Semantics
+## 71. State Semantics
 
 `Operational` is a status label, but no state machine is provided.
 
@@ -1836,9 +1839,9 @@ STOPPED
 
 would be proposed implementation states, not source canon.
 
----
+______________________________________________________________________
 
-# 72. Interface Boundary
+## 72. Interface Boundary
 
 The visible API surface consists only of:
 
@@ -1859,9 +1862,9 @@ $$
 
 The subset relationship itself is plausible but not formally proven because actual API is unknown.
 
----
+______________________________________________________________________
 
-# 73. Completeness Classification
+## 73. Completeness Classification
 
 ```yaml
 completeness:
@@ -1897,9 +1900,9 @@ completeness:
     level: PRESENT
 ```
 
----
+______________________________________________________________________
 
-# 74. Gap Registry
+## 74. Gap Registry
 
 ```yaml
 GAPS:
@@ -1931,9 +1934,9 @@ GAPS:
     - README_FORMATTING_NORMALIZATION
 ```
 
----
+______________________________________________________________________
 
-# 75. Gap Priority
+## 75. Gap Priority
 
 The most important gap is:
 
@@ -1957,9 +1960,9 @@ $$
 
 These three gaps dominate most downstream architecture questions.
 
----
+______________________________________________________________________
 
-# 76. Dependency Closure
+## 76. Dependency Closure
 
 A minimal dependency path for further resolution is:
 
@@ -1979,9 +1982,9 @@ README — 11 Knowledge
 
 This is a derived retrieval order based on explicit links and unresolved questions.
 
----
+______________________________________________________________________
 
-# 77. Canonical Navigation Model
+## 77. Canonical Navigation Model
 
 ```mermaid
 flowchart TD
@@ -2002,9 +2005,9 @@ Solid edges are source-defined links.
 
 Dashed edges are derived candidate resolution paths.
 
----
+______________________________________________________________________
 
-# 78. Artifact Identity Graph
+## 78. Artifact Identity Graph
 
 ```mermaid
 flowchart TD
@@ -2028,9 +2031,9 @@ flowchart TD
     G -->|"No source binding"| U
 ```
 
----
+______________________________________________________________________
 
-# 79. Documentation Completeness Graph
+## 79. Documentation Completeness Graph
 
 ```mermaid
 flowchart LR
@@ -2047,9 +2050,9 @@ flowchart LR
     O --> P --> C --> U --> CFG --> D --> S --> CT
 ```
 
----
+______________________________________________________________________
 
-# 80. Intended Usage Graph
+## 80. Intended Usage Graph
 
 ```mermaid
 flowchart LR
@@ -2066,9 +2069,9 @@ flowchart LR
 
 The final runtime state is not source-defined.
 
----
+______________________________________________________________________
 
-# 81. Knowledge Graph Representation
+## 81. Knowledge Graph Representation
 
 ```yaml
 knowledge_graph:
@@ -2098,9 +2101,9 @@ knowledge_graph:
     - ""
 ```
 
----
+______________________________________________________________________
 
-# 82. Source-Only Machine Representation
+## 82. Source-Only Machine Representation
 
 ```yaml
 README_11_KNOWLEDGE:
@@ -2163,9 +2166,9 @@ README_11_KNOWLEDGE:
     - ""
 ```
 
----
+______________________________________________________________________
 
-# 83. Derived Validation Representation
+## 83. Derived Validation Representation
 
 ```yaml
 DERIVED_VALIDATION:
@@ -2199,51 +2202,51 @@ DERIVED_VALIDATION:
     freshness: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 84. Anti-Fabrication Contract
+## 84. Anti-Fabrication Contract
 
 Do not claim from this artifact alone that:
 
 1. `01_BRAIN` is the same thing as `11_KNOWLEDGE`;
-2. this is definitely the canonical `01_BRAIN` README;
-3. this is definitely the complete `11_KNOWLEDGE` README;
-4. `01_BRAIN` has exactly two components;
-5. Component 1 has a known identity;
-6. Component 2 has a known identity;
-7. the subsystem purpose is known;
-8. the subsystem performs neuroscience;
-9. the subsystem reproduces human cognition;
-10. the subsystem implements the full AMOS brain architecture;
-11. `BRAINSubsystem` has been independently verified;
-12. the literal import statement has been executed successfully;
-13. `01_BRAIN` is a valid ordinary Python package identifier;
-14. the constructor has no runtime parameters;
-15. `initialize()` has a known return type;
-16. initialization is idempotent;
-17. initialization is fail-closed;
-18. initialization supports rollback;
-19. configuration options are known;
-20. configuration format is known;
-21. internal dependencies are known;
-22. external libraries are known;
-23. library versions are known;
-24. licenses are known;
-25. operational status is current;
-26. operational status applies to every environment;
-27. the subsystem passed tests;
-28. the subsystem is deployed;
-29. the subsystem has production traffic;
-30. the subsystem has a known uptime;
-31. the AMOS development guidelines are identified;
-32. the linked MOCs define particular relationships not supplied here;
-33. `moc` tag means `type: moc`;
-34. `canon/knowledge` means empirical verification;
-35. corpus membership proves runtime implementation.
+1. this is definitely the canonical `01_BRAIN` README;
+1. this is definitely the complete `11_KNOWLEDGE` README;
+1. `01_BRAIN` has exactly two components;
+1. Component 1 has a known identity;
+1. Component 2 has a known identity;
+1. the subsystem purpose is known;
+1. the subsystem performs neuroscience;
+1. the subsystem reproduces human cognition;
+1. the subsystem implements the full AMOS brain architecture;
+1. `BRAINSubsystem` has been independently verified;
+1. the literal import statement has been executed successfully;
+1. `01_BRAIN` is a valid ordinary Python package identifier;
+1. the constructor has no runtime parameters;
+1. `initialize()` has a known return type;
+1. initialization is idempotent;
+1. initialization is fail-closed;
+1. initialization supports rollback;
+1. configuration options are known;
+1. configuration format is known;
+1. internal dependencies are known;
+1. external libraries are known;
+1. library versions are known;
+1. licenses are known;
+1. operational status is current;
+1. operational status applies to every environment;
+1. the subsystem passed tests;
+1. the subsystem is deployed;
+1. the subsystem has production traffic;
+1. the subsystem has a known uptime;
+1. the AMOS development guidelines are identified;
+1. the linked MOCs define particular relationships not supplied here;
+1. `moc` tag means `type: moc`;
+1. `canon/knowledge` means empirical verification;
+1. corpus membership proves runtime implementation.
 
----
+______________________________________________________________________
 
-# 85. Anti-Regression Contract
+## 85. Anti-Regression Contract
 
 Any normalization should preserve:
 
@@ -2283,9 +2286,9 @@ ANTI_REGRESSION:
     - UPGRADE_OPERATIONAL_TO_VERIFIED
 ```
 
----
+______________________________________________________________________
 
-# 86. Invalidation Conditions
+## 86. Invalidation Conditions
 
 This analysis should be revalidated if any of the following becomes available:
 
@@ -2305,9 +2308,9 @@ INVALIDATION_CONDITIONS:
   - VERSIONED_PROVENANCE_RECORD
 ```
 
----
+______________________________________________________________________
 
-# 87. Canonical Integrity Compression
+## 87. Canonical Integrity Compression
 
 The safest compact interpretation is:
 
@@ -2354,9 +2357,9 @@ $$
 
 The question marks indicate semantically incomplete placeholder sections.
 
----
+______________________________________________________________________
 
-# 88. Source Claim Model
+## 88. Source Claim Model
 
 The principal explicit subsystem claim is:
 
@@ -2388,9 +2391,9 @@ $$
 
 Neither is independently runtime-verified by this artifact.
 
----
+______________________________________________________________________
 
-# 89. Intended API Model
+## 89. Intended API Model
 
 The source usage suggests:
 
@@ -2414,9 +2417,9 @@ $$
 
 It does not license deeper lifecycle semantics.
 
----
+______________________________________________________________________
 
-# 90. Knowledge-Vault Position
+## 90. Knowledge-Vault Position
 
 Source-grounded graph:
 
@@ -2445,11 +2448,11 @@ The body then introduces:
 
 whose exact relationship to the path remains unresolved.
 
----
+______________________________________________________________________
 
-# 91. Proposed Obsidian Aliases
+## 91. Proposed Obsidian Aliases
 
-> [!warning]
+> [!WARNING]
 > These aliases are **PROPOSED**, not present in the supplied frontmatter.
 
 ```yaml
@@ -2467,9 +2470,9 @@ Do **not** add:
 
 as a canonical alias until the metadata/body mismatch is resolved.
 
----
+______________________________________________________________________
 
-# 92. Proposed Vault Tags
+## 92. Proposed Vault Tags
 
 The following tags are **DERIVED / PROPOSED** for retrieval and should remain separate from the original source tags:
 
@@ -2539,9 +2542,9 @@ The following tags are **DERIVED / PROPOSED** for retrieval and should remain se
 #canon/knowledge/index
 ```
 
----
+______________________________________________________________________
 
-# 93. Recommended Tag Layers
+## 93. Recommended Tag Layers
 
 For a cleaner Obsidian vault, tags can be divided into five layers.
 
@@ -2593,11 +2596,11 @@ For a cleaner Obsidian vault, tags can be divided into five layers.
 #dependencies
 ```
 
----
+______________________________________________________________________
 
-# 94. Proposed Obsidian Properties
+## 94. Proposed Obsidian Properties
 
-> [!warning]
+> [!WARNING]
 > DERIVED vault augmentation.
 
 ```yaml
@@ -2615,11 +2618,11 @@ dependency_definition: INCOMPLETE
 
 These properties should not be confused with source metadata.
 
----
+______________________________________________________________________
 
-# 95. Proposed Enriched Frontmatter
+## 95. Proposed Enriched Frontmatter
 
-> [!danger] Derived Frontmatter
+> [!DANGER] Derived Frontmatter
 > The following is an optional **PROPOSED VAULT AUGMENTATION**.
 > It is intentionally separated from the normalized source frontmatter above.
 
@@ -2691,7 +2694,7 @@ rscf:
   provenance: AMOS_corpus
   scope: AMOS_knowledge
 
-# DERIVED / PROPOSED VAULT PROPERTIES
+## DERIVED / PROPOSED VAULT PROPERTIES
 body_subject: "01_BRAIN"
 artifact_identity_state: "UNRESOLVED"
 body_completeness: "PARTIAL_SCAFFOLD"
@@ -2718,11 +2721,11 @@ explicit_links:
 ---
 ```
 
----
+______________________________________________________________________
 
-# 96. Dataview — Find 11 Knowledge Notes
+## 96. Dataview — Find 11 Knowledge Notes
 
-```dataview
+```text
 TABLE
   type AS "Type",
   source AS "Source"
@@ -2731,11 +2734,11 @@ WHERE contains(source, "11_KNOWLEDGE")
 SORT file.name ASC
 ```
 
----
+______________________________________________________________________
 
-# 97. Dataview — Find Source Claims
+## 97. Dataview — Find Source Claims
 
-```dataview
+```text
 TABLE
   rscf.state AS "RSCF State",
   rscf.provenance AS "Provenance",
@@ -2744,23 +2747,23 @@ FROM #source_claim
 SORT file.name ASC
 ```
 
----
+______________________________________________________________________
 
-# 98. Dataview — Find Brain-Related Knowledge
+## 98. Dataview — Find Brain-Related Knowledge
 
-```dataview
+```text
 LIST
 FROM #01_brain OR #brain_subsystem OR #cosmo_brain
 SORT file.name ASC
 ```
 
----
+______________________________________________________________________
 
-# 99. Dataview — Find Incomplete Documentation
+## 99. Dataview — Find Incomplete Documentation
 
 If the derived tag is adopted:
 
-```dataview
+```text
 TABLE
   body_subject AS "Subject",
   artifact_identity_state AS "Identity",
@@ -2769,11 +2772,11 @@ FROM #incomplete_documentation
 SORT file.name ASC
 ```
 
----
+______________________________________________________________________
 
-# 100. Dataview — Runtime-Unverified Claims
+## 100. Dataview — Runtime-Unverified Claims
 
-```dataview
+```text
 TABLE
   runtime.source_status AS "Source Status",
   runtime.independently_verified AS "Verified",
@@ -2782,9 +2785,9 @@ FROM #runtime_unverified
 SORT file.name ASC
 ```
 
----
+______________________________________________________________________
 
-# 101. Search Anchors
+## 101. Search Anchors
 
 Recommended textual anchors for vault retrieval:
 
@@ -2803,9 +2806,9 @@ AMOS_knowledge
 SOURCE_CLAIM
 ```
 
----
+______________________________________________________________________
 
-# 102. Proposed RSCF Node
+## 102. Proposed RSCF Node
 
 The source did not provide a separate `RSCF-NODE` block.
 
@@ -2834,9 +2837,9 @@ RSCF-NODE:
 
 The exact filename/path beyond `11_KNOWLEDGE/root` is not supplied, so `11_KNOWLEDGE/README.md` remains a proposed path only.
 
----
+______________________________________________________________________
 
-# 103. Proposed Relations
+## 103. Proposed Relations
 
 Source-grounded:
 
@@ -2868,9 +2871,9 @@ PROPOSED_RELATIONS:
     status: PROPOSED_FROM_BODY
 ```
 
----
+______________________________________________________________________
 
-# 104. Canonical README Reconstruction
+## 104. Canonical README Reconstruction
 
 The strongest source-preserving normalized README remains:
 
@@ -2961,9 +2964,9 @@ The exact development-guidelines artifact is not supplied.
 - [[11_KNOWLEDGE/COSMO_BRAIN_MOC|COSMO_BRAIN_MOC]]
 - [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]]
 
----
+______________________________________________________________________
 
-# 105. Canonical Boundary Equations
+## 105. Canonical Boundary Equations
 
 $$
 \boxed{
@@ -2985,7 +2988,7 @@ Relationship(11\_KNOWLEDGE,01\_BRAIN)=UNKNOWN
 }
 $$
 
----
+______________________________________________________________________
 
 $$
 \boxed{
@@ -3003,7 +3006,7 @@ IndependentRuntimeVerification
 }
 $$
 
----
+______________________________________________________________________
 
 $$
 \boxed{
@@ -3019,7 +3022,7 @@ ActualComponentCount=UNKNOWN
 }
 $$
 
----
+______________________________________________________________________
 
 $$
 \boxed{
@@ -3038,9 +3041,9 @@ LiteralExampleExecutable=NOT\ ESTABLISHED
 }
 $$
 
----
+______________________________________________________________________
 
-# 106. Final Proof Capsule
+## 106. Final Proof Capsule
 
 ```yaml
 FINAL_PROOF_CAPSULE:
@@ -3082,9 +3085,9 @@ FINAL_PROOF_CAPSULE:
     SOURCE_GROUNDED_DERIVATION
 ```
 
----
+______________________________________________________________________
 
-# 107. Final Canonical Conclusion
+## 107. Final Canonical Conclusion
 
 `README — 11 Knowledge` is source-grounded as an AMOS knowledge-corpus document with:
 
@@ -3146,27 +3149,27 @@ BRAINSubsystem implementation
 
 Those sources can determine whether the current body is intentional, misplaced, templated, or incomplete.
 
----
+______________________________________________________________________
 
-# Navigation
+## Navigation
 
 **Knowledge:** [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]]
 **Brain:** [[11_KNOWLEDGE/COSMO_BRAIN_MOC|COSMO_BRAIN_MOC]]
 
----
+______________________________________________________________________
 
-# Source Tags
+## Source Tags
 
 #moc #index #canon/knowledge
 
-# Derived / Proposed Full Tags
+## Derived / Proposed Full Tags
 
 #amos #amos_os #amos_corpus #amos_knowledge #knowledge #knowledge_base #knowledge_vault #knowledge_index #readme #documentation #11_knowledge #01_brain #brain_subsystem #brain_architecture #subsystem #subsystem_documentation #source_claim #rscf #rscf/source_claim #provenance #provenance/amos_corpus #scope #scope/amos_knowledge #artifact_identity #artifact_identity_gap #metadata_body_mismatch #structural_gap #placeholder_content #incomplete_documentation #configuration #dependencies #internal_dependencies #external_dependencies #runtime #runtime_status #operational #operational_source_claim #runtime_unverified #python #python_import #async #initialization #brain_subsystem_api #cosmo_brain #cosmo_brain_moc #knowledge_moc #epistemic_boundary #scope_firewall #runtime_firewall #provenance_firewall #freshness #freshness_unknown #competing_hypotheses #anti_fabrication #anti_regression #proof_capsule #gap_registry #canon/documentation #canon/knowledge/readme #canon/knowledge/index
 
----
+______________________________________________________________________
 
 **END — `README — 11 Knowledge`**
 
----
+______________________________________________________________________
 
 **MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]] · [[00_ROOT/00_HOME|00_HOME]]

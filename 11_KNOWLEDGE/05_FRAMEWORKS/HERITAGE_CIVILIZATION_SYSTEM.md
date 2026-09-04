@@ -12,23 +12,23 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: FRAMEWORK
 path: 11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_CIVILIZATION_SYSTEM.md
 tags:
-- amos-os
-- knowledge
-- vault
-- 05_frameworks
-- heritage_civilization_system
-- civilization_dynamics
-- institutional_memory
-- cultural_dna
-- long_horizon_governance
-- rscf
-- canon_candidate
-- canon/knowledge
-- heritage-intelligence-master
-- tss-the-trang-system
-- tss-seven-cycles
-- heritage-vietnamese-history
-- heritage-civilization-history
+  - amos-os
+  - knowledge
+  - vault
+  - 05_frameworks
+  - heritage_civilization_system
+  - civilization_dynamics
+  - institutional_memory
+  - cultural_dna
+  - long_horizon_governance
+  - rscf
+  - canon_candidate
+  - canon/knowledge
+  - heritage-intelligence-master
+  - tss-the-trang-system
+  - tss-seven-cycles
+  - heritage-vietnamese-history
+  - heritage-civilization-history
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -43,19 +43,19 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - HERITAGE_INTELLIGENCE_CANON
-  - AMOS_CORPUS
+    - HERITAGE_INTELLIGENCE_CANON
+    - AMOS_CORPUS
   scope:
-  - KNOWLEDGE_FRAMEWORKS
-  - CIVILIZATION_SYSTEMS
-  - SOURCE_DEFINED_MODEL
+    - KNOWLEDGE_FRAMEWORKS
+    - CIVILIZATION_SYSTEMS
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   master_framework:
     artifact:
-    - - HERITAGE_INTELLIGENCE_MASTER
+      -   - HERITAGE_INTELLIGENCE_MASTER
   tss_coupling:
     artifact:
-    - - TSS_THE_TRANG_SYSTEM
+      -   - TSS_THE_TRANG_SYSTEM
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
@@ -69,9 +69,9 @@ epistemic_boundary:
 
 It models the macro-scale evolutionary mechanisms that enable civilizations to maintain identity, accumulate knowledge, and recover from collapse across multi-millennial horizons.
 
----
+______________________________________________________________________
 
-# 1. Structural Architecture
+## 1. Structural Architecture
 
 ```text
                ┌────────────────────────────────────────────────────────┐
@@ -85,18 +85,18 @@ INSTITUTIONAL MEMORY               CULTURAL DNA RECOVERY            RESOURCE & S
  dark ages and political resets)   invariants during Cycle C7)       for post-crisis rebirth)
 ```
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Master Framework:** [[11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_INTELLIGENCE_MASTER|HERITAGE_INTELLIGENCE_MASTER]]
 - **Macro Dynamics:** [[11_KNOWLEDGE/05_FRAMEWORKS/TSS_THE_TRANG_SYSTEM|TSS_THE_TRANG_SYSTEM]] and [[11_KNOWLEDGE/05_FRAMEWORKS/TSS_SEVEN_CYCLES|TSS_SEVEN_CYCLES]]
 - **Historical Analysis:** [[11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_VIETNAMESE_HISTORY|HERITAGE_VIETNAMESE_HISTORY]]
 - **Domain Node:** [[11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/HERITAGE_CIVILIZATION_HISTORY|HERITAGE_CIVILIZATION_HISTORY]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -114,9 +114,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_INTELLIGENCE_MASTER|HERITAGE_INTELLIGENCE_MASTER]] · [[11_KNOWLEDGE/05_FRAMEWORKS/TSS_THE_TRANG_SYSTEM|TSS_THE_TRANG_SYSTEM]] · [[11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_VIETNAMESE_HISTORY|HERITAGE_VIETNAMESE_HISTORY]]
 
----
+______________________________________________________________________
+
 **MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]

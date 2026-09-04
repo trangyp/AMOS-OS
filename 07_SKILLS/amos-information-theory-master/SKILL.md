@@ -4,26 +4,23 @@ title: SKILL — Amos Information Theory Master
 type: skill
 source: 07_SKILLS/amos-information-theory-master
 name: amos-information-theory-master
-description: AMOS Information Theory — entropy, complexity, information boundaries,
-  information collapse topology, exposure control. Use when information-theoretic
-  analysis, entropy reasoning, or complexity meas... Do not use for generic statistics,
-  probability theory, or tasks outside AMOS information-theoretic framework.
+description: AMOS Information Theory — entropy, complexity, information boundaries, information collapse topology, exposure control. Use when information-theoretic analysis, entropy reasoning, or complexity meas... Do not use for generic statistics, probability theory, or tasks outside AMOS information-theoretic framework.
 parent_skill: none
 domain: information
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CANON
 tags:
-- type/skill
-- type/skill
-- domain/information-theory
-- epistemic/source_claim
-- hml/m
-- epistemic/source_canon
-- amos-os
-- agent-template
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/information-theory
+  - epistemic/source_claim
+  - hml/m
+  - epistemic/source_canon
+  - amos-os
+  - agent-template
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -33,20 +30,20 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: M
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L16
-- L17
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L16
+  - L17
 license: MIT
 steward: Trang Phan
 ---
@@ -56,6 +53,7 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: information. Parent: none. Epistemic class: SOURCE_CANON. H/M/L: M.
+
 ## When to Use
 
 - When performing information-theoretic analysis, entropy reasoning, or complexity measurement
@@ -79,13 +77,13 @@ Origin architect: **Trang Phan**. Domain: information. Parent: none. Epistemic c
 ## Operations
 
 1. **info_theory.measure_entropy**: Measure Shannon entropy, conditional entropy, and mutual information for distributions and signals
-2. **info_theory.analyze_complexity**: Analyze Kolmogorov complexity, computational complexity, and information-theoretic complexity bounds
-3. **info_theory.map_boundaries**: Map information boundaries: exposure control, information collapse topology, and information geometry
-4. **info_theory.assess_claim**: Assess information theory claims for epistemic class, evidence strength, and regime validity
-5. **info_theory.manage_lifecycle**: Manage information theory lifecycle: measure, analyze, map, validate, and govern
-6. **info_theory.detect_drift**: Detect drift in entropy measurements, complexity bounds, or information boundary consistency
-7. **info_theory.classify_claim**: Classify information-theoretic claims by epistemic state (VERIFIED, DERIVED, MODEL, UNKNOWN/GAP)
-8. **info_theory.validate_outputs**: Validate information theory outputs against domain constraints and epistemic class
+1. **info_theory.analyze_complexity**: Analyze Kolmogorov complexity, computational complexity, and information-theoretic complexity bounds
+1. **info_theory.map_boundaries**: Map information boundaries: exposure control, information collapse topology, and information geometry
+1. **info_theory.assess_claim**: Assess information theory claims for epistemic class, evidence strength, and regime validity
+1. **info_theory.manage_lifecycle**: Manage information theory lifecycle: measure, analyze, map, validate, and govern
+1. **info_theory.detect_drift**: Detect drift in entropy measurements, complexity bounds, or information boundary consistency
+1. **info_theory.classify_claim**: Classify information-theoretic claims by epistemic state (VERIFIED, DERIVED, MODEL, UNKNOWN/GAP)
+1. **info_theory.validate_outputs**: Validate information theory outputs against domain constraints and epistemic class
 
 ## Vault-Sourced Domain Knowledge
 
@@ -113,6 +111,7 @@ Core law: `AI = Intent + Context + Memory + Reasoning + Tooling + Entropy + Vali
 **Main law**: AI output is not trusted because it is fluent. It is trusted only when intent, grounding, validation, calibration, and permission align.
 
 **H/M/L Integrity Levels**:
+
 - **L (low)**: unclear intent, missing context, high hallucination risk
 - **M (medium)**: fluent but uncertain, plausible output, weak grounding, hidden entropy
 - **H (high)**: grounded, scoped, validated, calibrated output
@@ -121,13 +120,13 @@ Core law: `AI = Intent + Context + Memory + Reasoning + Tooling + Entropy + Vali
 
 ### Key Templates
 
-| ID | Name | Formula | Layer |
-|----|------|---------|-------|
-| AIE001 | intent_alignment | IA = match(user_intent, model_interpretation) | intent |
-| AIE002 | context_completeness | CC = available_context / required_context | context |
-| AIE003 | memory_relevance | MR = relevant_memory / used_memory | memory |
-| AIE004 | memory_conflict | MC = conflicting_memory / total_memory | memory_entropy |
-| AIE005 | retrieval_grounding | RG = grounded_claims / total_claims | grounding |
+| ID     | Name                 | Formula                                       | Layer          |
+| ------ | -------------------- | --------------------------------------------- | -------------- |
+| AIE001 | intent_alignment     | IA = match(user_intent, model_interpretation) | intent         |
+| AIE002 | context_completeness | CC = available_context / required_context     | context        |
+| AIE003 | memory_relevance     | MR = relevant_memory / used_memory            | memory         |
+| AIE004 | memory_conflict      | MC = conflicting_memory / total_memory        | memory_entropy |
+| AIE005 | retrieval_grounding  | RG = grounded_claims / total_claims           | grounding      |
 
 ## Consolidated Sub-Skills (3)
 
@@ -136,27 +135,30 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 > **Reference**: See `references/vault_domain_knowledge.md` (content_hash: b0dda351f49405e2) for detailed vault-sourced domain knowledge.
 > Load only when specific domain detail is decision-relevant.
 
-
 > **Reference**: Se
+
 - AGENT_TEMPLATE
 
----
+______________________________________________________________________
+
 **MOC:** [[07_SKILLS/amos-information-theory-master/amos-information-theory-master_MOC|amos-information-theory-master_MOC]]
 
 ## Examples
 
 - **Scenario**: When performing information-theoretic analysis, entropy reasoning, or complexity measurement
+
   - **Input**: A query matching this skill's domain (information)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When evaluating information boundaries, exposure control, or information collapse topology
+
   - **Input**: A query matching this skill's domain (information)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When analyzing entropy-lacunarity relationships and structural persistence
+
   - **Input**: A query matching this skill's domain (information)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Validation Gates
 
@@ -173,7 +175,6 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `none` — routes to this skill when information specialization is needed
@@ -181,7 +182,6 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -200,7 +200,6 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -208,7 +207,6 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -227,11 +225,12 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 - `references/signals.md` — loaded on demand
 - `references/types_of_signals.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `none` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `amos-information-theory-master-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -239,12 +238,14 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-information-theory-master
 node_type: skill
 path: 07_SKILLS/amos-information-theory-master/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

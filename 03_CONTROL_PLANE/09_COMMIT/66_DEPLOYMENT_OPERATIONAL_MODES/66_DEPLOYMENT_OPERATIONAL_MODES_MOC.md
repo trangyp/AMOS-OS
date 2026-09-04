@@ -1,10 +1,13 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: 66 Deployment Operational Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/66_DEPLOYMENT_OPERATIONAL_MODES
 tags:
-- 66-deployment-operational-modes
-- canon/control-plane
+  - 66-deployment-operational-modes
+  - canon/control-plane
 moc: true
 rscf:
   state: DERIVED
@@ -24,5 +27,6 @@ rscf:
 - [[03_CONTROL_PLANE/09_COMMIT/66_DEPLOYMENT_OPERATIONAL_MODES/DEPLOYMENT_OPERATIONAL_MODES_COMMIT_CONTROL_PLANE_MODE_FAMILY_SPEC|DEPLOYMENT_OPERATIONAL_MODES_COMMIT_CONTROL_PLANE_MODE_FAMILY_SPEC]]
 - [[03_CONTROL_PLANE/09_COMMIT/66_DEPLOYMENT_OPERATIONAL_MODES/DEPLOYMENT_OPERATIONAL_MODES_COMMIT_CONTROL_PLANE_README|DEPLOYMENT_OPERATIONAL_MODES_COMMIT_CONTROL_PLANE_README]]
 
----
+______________________________________________________________________
+
 **Parent:** [[03_CONTROL_PLANE/09_COMMIT/09_COMMIT_MOC|09_COMMIT_MOC]]

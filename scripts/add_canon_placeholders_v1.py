@@ -22,7 +22,7 @@ import os
 import sys
 from datetime import date
 
-ROOT = "/Users/mac/Documents/AMOS_OS"
+ROOT = str(__import__("pathlib").Path(__file__).resolve().parents[1])
 TODAY = date.today().isoformat()
 
 # ---------------------------------------------------------------------------

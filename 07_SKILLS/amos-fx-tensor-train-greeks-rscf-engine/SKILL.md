@@ -4,24 +4,22 @@ title: SKILL — Amos Fx Tensor Train Greeks Rscf Engine
 type: skill
 source: 07_SKILLS/amos-fx-tensor-train-greeks-rscf-engine
 name: amos-fx-tensor-train-greeks-rscf-engine
-description: Tensor Train Greeks — forex and finance capability. Use when forex analysis,
-  currency trading, or market dynamics. Use when amos-c07-econ-finance-master routes
-  to this specialized capability. Do not use for generic tasks outside fx domain.
+description: Tensor Train Greeks — forex and finance capability. Use when forex analysis, currency trading, or market dynamics. Use when amos-c07-econ-finance-master routes to this specialized capability. Do not use for generic tasks outside fx domain.
 parent_skill: amos-c07-econ-finance-master
 domain: fx
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
 tags:
-- type/skill
-- type/skill
-- domain/econ-finance
-- epistemic/source_claim
-- hml/m
-- epistemic/source_claim
-- amos-os
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/econ-finance
+  - epistemic/source_claim
+  - hml/m
+  - epistemic/source_claim
+  - amos-os
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -31,22 +29,22 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: M
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
-- L6_uncertainty
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
+  - L6_uncertainty
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L6
-- L16
-- L17
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L6
+  - L16
+  - L17
 license: MIT
 steward: Trang Phan
 ---
@@ -56,6 +54,7 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: fx. Parent: amos-c07-econ-finance-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
 ## When to Use
 
 - When calibrating FX models: Bayesian neural SDEs, volatility surfaces
@@ -75,6 +74,7 @@ Origin architect: **Trang Phan**. Domain: fx. Parent: amos-c07-econ-finance-mast
 - **tensor_train.monitor_regime**: Monitor FX regime shifts: volatility, correlation, and liquidity transitions
 
 > **Reference**: See `references/vault_domain_knowledge.md` (content_hash: ccf92581c954c2a3) for the full vault-sourced domain knowledge (8836 chars).
+
 - **tensor_train.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
 - **tensor_train.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **tensor_train.validate_outputs**: Validate outputs against domain constraints and epistemic class.
@@ -82,12 +82,12 @@ Origin architect: **Trang Phan**. Domain: fx. Parent: amos-c07-econ-finance-mast
 ## Operations
 
 1. **tensor_train.calibrate_model**: Calibrate FX models: Bayesian neural SDEs, volatility surfaces, and term structures
-2. **tensor_train.assess_risk**: Assess FX risk: currency exposure, correlation breakdown, and tail events
-3. **tensor_train.backtest_strategy**: Backtest FX strategies: walk-forward, regime-aware, and stress-tested
-4. **tensor_train.monitor_regime**: Monitor FX regime shifts: volatility, correlation, and liquidity transitions
-5. **tensor_train.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-6. **tensor_train.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
-7. **tensor_train.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+1. **tensor_train.assess_risk**: Assess FX risk: currency exposure, correlation breakdown, and tail events
+1. **tensor_train.backtest_strategy**: Backtest FX strategies: walk-forward, regime-aware, and stress-tested
+1. **tensor_train.monitor_regime**: Monitor FX regime shifts: volatility, correlation, and liquidity transitions
+1. **tensor_train.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+1. **tensor_train.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+1. **tensor_train.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## 11_KNOWLEDGE Vault Content
 
@@ -102,6 +102,7 @@ This RSCF engine operates on the AMOS RSCF (Reasoning, Scope, Claim, Falsifier) 
 **RSCF state kinds**: OBSERVATION, SOURCE_CLAIM, DERIVED, MODEL, DECISION, UNKNOWN.
 
 **RSCF laws**:
+
 - `CLAIM != FACT`: a claim is not a fact; it must be labeled with epistemic class
 - `CONFIDENCE <= EVIDENCE`: confidence cannot exceed evidence support
 - `FALSIFIER_REQUIRED`: every claim must declare its falsifier
@@ -109,6 +110,7 @@ This RSCF engine operates on the AMOS RSCF (Reasoning, Scope, Claim, Falsifier) 
 - `PROVENANCE_REQUIRED`: every claim must have traceable provenance
 
 **RSCF validation gates**:
+
 - G1 (Law of Law): no unresolved contradictions
 - G2 (Epistemic class): all claims labeled, no class promotion without evidence
 - G3 (Provenance): source path recorded for every derived claim
@@ -137,7 +139,8 @@ This RSCF engine is an epistemic governance tool. It does not prove claims are t
 - **G5 (Equation firewall)**: Equations carry status tags (ESTABLISHED_MATH / SOURCE_DERIVED / AMOS_MODEL / EMPIRICALLY_CALIBRATED / UNVERIFIED).
 - **G6 (Failure mode)**: On validation fai
 
----
+______________________________________________________________________
+
 **Links:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 ## Related
@@ -147,17 +150,19 @@ This RSCF engine is an epistemic governance tool. It does not prove claims are t
 ## Examples
 
 - **Scenario**: When calibrating FX models: Bayesian neural SDEs, volatility surfaces
+
   - **Input**: A query matching this skill's domain (fx)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When assessing FX risk: currency exposure, correlation, tail events
+
   - **Input**: A query matching this skill's domain (fx)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When backtesting FX strategies: walk-forward, regime-aware, stress-tested
+
   - **Input**: A query matching this skill's domain (fx)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Anti-Patterns
 
@@ -167,7 +172,6 @@ This RSCF engine is an epistemic governance tool. It does not prove claims are t
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `amos-c07-econ-finance-master` — routes to this skill when fx specialization is needed
@@ -175,7 +179,6 @@ This RSCF engine is an epistemic governance tool. It does not prove claims are t
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -194,7 +197,6 @@ This RSCF engine is an epistemic governance tool. It does not prove claims are t
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -202,7 +204,6 @@ This RSCF engine is an epistemic governance tool. It does not prove claims are t
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -215,11 +216,12 @@ This RSCF engine is an epistemic governance tool. It does not prove claims are t
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `amos-c07-econ-finance-master` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `amos-fx-tensor-train-greeks-rscf-engine-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -227,12 +229,14 @@ This RSCF engine is an epistemic governance tool. It does not prove claims are t
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-fx-tensor-train-greeks-rscf-engine
 node_type: skill
 path: 07_SKILLS/amos-fx-tensor-train-greeks-rscf-engine/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

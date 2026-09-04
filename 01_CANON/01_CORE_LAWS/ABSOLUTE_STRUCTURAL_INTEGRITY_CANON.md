@@ -12,23 +12,23 @@ segment: 01_CANON/01_CORE_LAWS
 artifact_kind: CANON
 path: 01_CANON/01_CORE_LAWS/ABSOLUTE_STRUCTURAL_INTEGRITY_CANON.md
 tags:
-- amos-os
-- canon
-- core_laws
-- structural_integrity
-- absolute_structural_integrity
-- dependency_integrity
-- topology
-- invariants
-- provenance
-- lineage
-- rscf
-- fractal_knowledge
-- atomic_reasoning
-- governed_evolution
-- rollback
-- canon/core_laws
-- law-hierarchy
+  - amos-os
+  - canon
+  - core_laws
+  - structural_integrity
+  - absolute_structural_integrity
+  - dependency_integrity
+  - topology
+  - invariants
+  - provenance
+  - lineage
+  - rscf
+  - fractal_knowledge
+  - atomic_reasoning
+  - governed_evolution
+  - rollback
+  - canon/core_laws
+  - law-hierarchy
 version: 1.0.0
 updated: '2026-08-27'
 status: CANON_CANDIDATE
@@ -98,9 +98,9 @@ canonical_status:
 CANDIDATE_PENDING_VALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 1. Purpose
+## 1. Purpose
 
 Absolute Structural Integrity defines the AMOS-native discipline for preserving the validity of structures while they are:
 
@@ -145,9 +145,9 @@ LOAD-BEARING STRUCTURAL INVARIANTS
 THROUGH CHANGE.
 ```
 
----
+______________________________________________________________________
 
-# 2. Absolute Structural Integrity Core Law
+## 2. Absolute Structural Integrity Core Law
 
 Within AMOS:
 
@@ -162,7 +162,7 @@ SCOPE BOUNDARY,
 OR RECOVERY PATH.
 ```
 
-For structure \(S\) transformed by operation \(T\):
+For structure (S) transformed by operation (T):
 
 $$
 S' = T(S)
@@ -177,9 +177,9 @@ $$
 
 or when an explicitly governed migration changes the invariant itself.
 
----
+______________________________________________________________________
 
-# 3. Structural Integrity Is Not Structural Immutability
+## 3. Structural Integrity Is Not Structural Immutability
 
 Absolute Structural Integrity does not prohibit change.
 
@@ -207,9 +207,9 @@ VALID_STATE
 → ASSUME_VALID
 ```
 
----
+______________________________________________________________________
 
-# 4. Meaning of Absolute
+## 4. Meaning of Absolute
 
 The word **Absolute** means that structural integrity constraints cannot be silently weakened for:
 
@@ -229,9 +229,9 @@ ABSOLUTE_DISCIPLINE
 ABSOLUTE_KNOWLEDGE
 ```
 
----
+______________________________________________________________________
 
-# 5. Structural Object
+## 5. Structural Object
 
 A structural object SHOULD conceptually expose:
 
@@ -267,9 +267,9 @@ structural_object:
   rollback:
 ```
 
----
+______________________________________________________________________
 
-# 6. Structural Identity
+## 6. Structural Identity
 
 Every consequential structural artifact requires stable identity.
 
@@ -297,9 +297,9 @@ A filename may change while identity persists.
 
 Two files may have identical names while representing different artifacts.
 
----
+______________________________________________________________________
 
-# 7. Identity Tuple
+## 7. Identity Tuple
 
 Conceptually:
 
@@ -314,9 +314,9 @@ $$
 
 with path and filename treated as locators or representations unless governing canon specifies otherwise.
 
----
+______________________________________________________________________
 
-# 8. Identity Collision
+## 8. Identity Collision
 
 If two objects claim the same identity but contain incompatible state:
 
@@ -332,9 +332,9 @@ IDENTITY_CONFLICT
 
 until lineage or authoritative versioning resolves the conflict.
 
----
+______________________________________________________________________
 
-# 9. Structural Typing
+## 9. Structural Typing
 
 Every structure SHOULD declare its type.
 
@@ -362,11 +362,11 @@ SAME_SHAPE
 SAME_TYPE
 ```
 
----
+______________________________________________________________________
 
-# 10. Schema Integrity
+## 10. Schema Integrity
 
-A structure conforming to schema \(Σ\) must preserve required schema invariants.
+A structure conforming to schema (Σ) must preserve required schema invariants.
 
 $$
 S \models \Sigma
@@ -380,9 +380,9 @@ $$
 
 must not be silently accepted as structurally valid.
 
----
+______________________________________________________________________
 
-# 11. Schema Versioning
+## 11. Schema Versioning
 
 Schema compatibility MUST be checked across versions.
 
@@ -396,9 +396,9 @@ does not imply compatibility.
 
 Migration may be required.
 
----
+______________________________________________________________________
 
-# 12. Structural Completeness
+## 12. Structural Completeness
 
 A structure is complete only relative to its declared contract.
 
@@ -420,9 +420,9 @@ STRUCTURALLY_VALID_ARTIFACT
 
 if required identity, provenance, schema, or bindings are missing.
 
----
+______________________________________________________________________
 
-# 13. Structural Integrity vs Epistemic Integrity
+## 13. Structural Integrity vs Epistemic Integrity
 
 These dimensions interact but remain distinct.
 
@@ -440,9 +440,9 @@ SUPPORTED TO ITS DECLARED CLASS?
 
 Both may be required for consequential use.
 
----
+______________________________________________________________________
 
-# 14. Structural Integrity vs Logical Integrity
+## 14. Structural Integrity vs Logical Integrity
 
 Absolute Logic governs inference.
 
@@ -462,9 +462,9 @@ valid representation and dependency topology
 
 A logically valid inference stored in a corrupted dependency graph may become operationally unsafe.
 
----
+______________________________________________________________________
 
-# 15. Structural Integrity vs Absolute Integrity
+## 15. Structural Integrity vs Absolute Integrity
 
 Absolute Structural Integrity is constrained by the higher-order integrity discipline represented by:
 
@@ -480,9 +480,9 @@ Exact precedence MUST be inherited from:
 
 and is not independently established here.
 
----
+______________________________________________________________________
 
-# 16. Foundational Structural Distinctions
+## 16. Foundational Structural Distinctions
 
 Absolute Structural Integrity preserves:
 
@@ -532,13 +532,13 @@ CANONICAL != EMPIRICAL_TRUTH
 UNKNOWN/GAP != PASS
 ```
 
----
+______________________________________________________________________
 
-# 17. Structural Invariant
+## 17. Structural Invariant
 
 An invariant is a property that must remain valid across a declared class of transformations.
 
-For transformation \(T\):
+For transformation (T):
 
 $$
 I(S)=true
@@ -550,11 +550,11 @@ $$
 I(T(S))=true
 $$
 
-unless \(T\) is explicitly authorized to migrate or supersede that invariant.
+unless (T) is explicitly authorized to migrate or supersede that invariant.
 
----
+______________________________________________________________________
 
-# 18. Invariant Classes
+## 18. Invariant Classes
 
 Canonical invariant classes may include:
 
@@ -574,9 +574,9 @@ RECOVERY
 CANON
 ```
 
----
+______________________________________________________________________
 
-# 19. Load-Bearing Structural Invariant
+## 19. Load-Bearing Structural Invariant
 
 An invariant is load-bearing when its violation can materially alter:
 
@@ -596,9 +596,9 @@ STRUCTURAL INVARIANTS
 BEFORE MUTATION.
 ```
 
----
+______________________________________________________________________
 
-# 20. Structural Dependency
+## 20. Structural Dependency
 
 A dependency means the validity or behavior of one node materially relies on another.
 
@@ -614,9 +614,9 @@ A ──RELATED_TO──→ B
 
 Absolute Structural Integrity requires relation types to remain distinguishable.
 
----
+______________________________________________________________________
 
-# 21. Typed Relations
+## 21. Typed Relations
 
 Relations SHOULD be typed.
 
@@ -639,9 +639,9 @@ RECOVERED_VIA
 
 Untyped edges risk semantic corruption.
 
----
+______________________________________________________________________
 
-# 22. Relation Semantics
+## 22. Relation Semantics
 
 Each relation type SHOULD define:
 
@@ -664,9 +664,9 @@ relation_contract:
   invalidation_behavior:
 ```
 
----
+______________________________________________________________________
 
-# 23. Dependency Direction
+## 23. Dependency Direction
 
 Dependency direction matters.
 
@@ -682,11 +682,11 @@ B DEPENDS_ON A
 
 unless explicitly represented.
 
----
+______________________________________________________________________
 
-# 24. Dependency Closure
+## 24. Dependency Closure
 
-For structure \(S\), define:
+For structure (S), define:
 
 $$
 Closure(S)
@@ -703,9 +703,9 @@ RESULT-CHANGING
 DEPENDENCY CLOSURE.
 ```
 
----
+______________________________________________________________________
 
-# 25. Dependency Integrity
+## 25. Dependency Integrity
 
 A dependency edge is structurally valid only when:
 
@@ -718,9 +718,9 @@ A dependency edge is structurally valid only when:
 - no forbidden cycle is created;
 - provenance is preserved.
 
----
+______________________________________________________________________
 
-# 26. Dangling Dependency
+## 26. Dangling Dependency
 
 If a required dependency target cannot be resolved:
 
@@ -731,9 +731,9 @@ UNKNOWN/GAP
 
 Consequential operations depending on that edge SHOULD fail closed.
 
----
+______________________________________________________________________
 
-# 27. Optional Dependency
+## 27. Optional Dependency
 
 Not every missing reference is fatal.
 
@@ -750,9 +750,9 @@ Missing `REQUIRED` dependencies affect validity.
 
 Missing `OPTIONAL` dependencies may not.
 
----
+______________________________________________________________________
 
-# 28. Dependency Strength
+## 28. Dependency Strength
 
 Conceptually:
 
@@ -769,9 +769,9 @@ dependency:
 
 This prevents unnecessary global invalidation.
 
----
+______________________________________________________________________
 
-# 29. Graph Integrity
+## 29. Graph Integrity
 
 AMOS structures form graphs.
 
@@ -783,14 +783,14 @@ $$
 
 where:
 
-- \(V\) = structural nodes;
-- \(E\) = typed relations.
+- (V) = structural nodes;
+- (E) = typed relations.
 
 Graph integrity requires valid nodes and valid relation semantics.
 
----
+______________________________________________________________________
 
-# 30. Graph Corruption
+## 30. Graph Corruption
 
 Structural graph corruption may include:
 
@@ -808,9 +808,9 @@ SCOPE_LEAKAGE
 STALE_BINDING
 ```
 
----
+______________________________________________________________________
 
-# 31. Hierarchy Integrity
+## 31. Hierarchy Integrity
 
 Hierarchy is a special structural relation.
 
@@ -831,9 +831,9 @@ PARENT
 AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 32. Parent/Child Integrity
+## 32. Parent/Child Integrity
 
 For strict hierarchical relations:
 
@@ -851,9 +851,9 @@ where bidirectional indexing is part of the schema.
 
 Mismatch is structural inconsistency.
 
----
+______________________________________________________________________
 
-# 33. Orphan Integrity
+## 33. Orphan Integrity
 
 An artifact requiring a parent but lacking one is:
 
@@ -863,9 +863,9 @@ ORPHAN
 
 It must not be silently attached to a guessed parent.
 
----
+______________________________________________________________________
 
-# 34. Multiple Parentage
+## 34. Multiple Parentage
 
 Multiple parents may be valid in graph structures but invalid in strict trees.
 
@@ -877,9 +877,9 @@ MULTIPLE_PARENTS
 
 requires schema-aware interpretation.
 
----
+______________________________________________________________________
 
-# 35. Cycle Integrity
+## 35. Cycle Integrity
 
 Cycles may be:
 
@@ -901,9 +901,9 @@ should normally be acyclic.
 
 A causal feedback graph may legitimately contain cycles.
 
----
+______________________________________________________________________
 
-# 36. Structural Cycle Firewall
+## 36. Structural Cycle Firewall
 
 Do not treat all cycles as equivalent.
 
@@ -917,9 +917,9 @@ MUTUAL_REFERENCE
 
 Each requires relation-specific semantics.
 
----
+______________________________________________________________________
 
-# 37. RSCF Structural Integrity
+## 37. RSCF Structural Integrity
 
 An RSCF node must preserve:
 
@@ -937,9 +937,9 @@ INVALIDATION CONDITIONS
 
 where required by its governing schema.
 
----
+______________________________________________________________________
 
-# 38. RSCF Node Structure
+## 38. RSCF Node Structure
 
 ```yaml
 rscf_node:
@@ -969,9 +969,9 @@ rscf_node:
 
 Exact serialization MUST be inherited from governing RSCF canon if one exists.
 
----
+______________________________________________________________________
 
-# 39. RSCF Dependency Integrity
+## 39. RSCF Dependency Integrity
 
 If:
 
@@ -983,9 +983,9 @@ RSCF_A + RSCF_B
 
 then `RSCF_C` must not be considered current if a load-bearing version of A or B has changed without revalidation.
 
----
+______________________________________________________________________
 
-# 40. Recursive Structural Integrity
+## 40. Recursive Structural Integrity
 
 Because RSCF is recursive, integrity is recursive.
 
@@ -1003,9 +1003,9 @@ $$
 
 for all load-bearing dependencies.
 
----
+______________________________________________________________________
 
-# 41. Fractal H/M/L Integrity
+## 41. Fractal H/M/L Integrity
 
 AMOS structures may be decomposed:
 
@@ -1017,25 +1017,25 @@ L — DETAIL
 
 Structural integrity requires mappings between levels to remain valid.
 
----
+______________________________________________________________________
 
-# 42. H→M Integrity
+## 42. H→M Integrity
 
 An M node must belong to, specialize, or validly relate to its H context according to the declared schema.
 
 Do not infer H/M membership from naming similarity alone.
 
----
+______________________________________________________________________
 
-# 43. M→L Integrity
+## 43. M→L Integrity
 
 An L detail must preserve its M-level applicability.
 
 A detail extracted from one subsystem must not silently migrate into another subsystem as though structurally equivalent.
 
----
+______________________________________________________________________
 
-# 44. Fractal Compression Integrity
+## 44. Fractal Compression Integrity
 
 A compressed H-level representation may omit detail only if omitted L-level structure cannot alter the H-level conclusion or contract.
 
@@ -1045,9 +1045,9 @@ MUST NOT REMOVE
 LOAD-BEARING STRUCTURE.
 ```
 
----
+______________________________________________________________________
 
-# 45. Fractal Expansion Integrity
+## 45. Fractal Expansion Integrity
 
 Expansion from H to M to L must preserve ancestry.
 
@@ -1067,17 +1067,17 @@ Each descent SHOULD retain:
 - version;
 - provenance.
 
----
+______________________________________________________________________
 
-# 46. Provenance Structural Integrity
+## 46. Provenance Structural Integrity
 
 Provenance is part of structure, not decorative metadata.
 
 A structural artifact without required provenance is incomplete for operations requiring provenance-aware reasoning.
 
----
+______________________________________________________________________
 
-# 47. Provenance Edge
+## 47. Provenance Edge
 
 ```yaml
 provenance_edge:
@@ -1096,9 +1096,9 @@ provenance_edge:
   transform:
 ```
 
----
+______________________________________________________________________
 
-# 48. Persistent Provenance
+## 48. Persistent Provenance
 
 When an artifact is transformed:
 
@@ -1111,9 +1111,9 @@ SOURCE
 
 the ancestry chain SHOULD remain recoverable.
 
----
+______________________________________________________________________
 
-# 49. Provenance Loss
+## 49. Provenance Loss
 
 Forbidden transformation:
 
@@ -1125,9 +1125,9 @@ SOURCE A
 
 when provenance was available and required to be preserved.
 
----
+______________________________________________________________________
 
-# 50. Provenance Topology
+## 50. Provenance Topology
 
 Multiple descendants from one origin remain structurally related.
 
@@ -1139,9 +1139,9 @@ Multiple descendants from one origin remain structurally related.
 
 B, C, and D do not become independent origins merely because they are separate artifacts.
 
----
+______________________________________________________________________
 
-# 51. Sybil Structural Hardening
+## 51. Sybil Structural Hardening
 
 A system must resist false multiplicity.
 
@@ -1158,9 +1158,9 @@ MANY INDEPENDENT ORIGINS
 
 through structural duplication.
 
----
+______________________________________________________________________
 
-# 52. Lineage Integrity
+## 52. Lineage Integrity
 
 Lineage records evolution across versions or descendants.
 
@@ -1180,9 +1180,9 @@ Each transition SHOULD preserve:
 - validation state;
 - supersession status.
 
----
+______________________________________________________________________
 
-# 53. Causal Lineage
+## 53. Causal Lineage
 
 Where transformations have causal dependency:
 
@@ -1198,9 +1198,9 @@ This is not a claim that sequence alone proves causation.
 
 The causal edge itself requires appropriate evidence.
 
----
+______________________________________________________________________
 
-# 54. Supersession Integrity
+## 54. Supersession Integrity
 
 If artifact B supersedes artifact A:
 
@@ -1216,9 +1216,9 @@ SUPERSEDED
 ERASED
 ```
 
----
+______________________________________________________________________
 
-# 55. Version Integrity
+## 55. Version Integrity
 
 Version state is load-bearing when semantics or compatibility can change.
 
@@ -1232,9 +1232,9 @@ version_state:
   supersession:
 ```
 
----
+______________________________________________________________________
 
-# 56. Stale Version
+## 56. Stale Version
 
 A structurally valid old version may still be stale.
 
@@ -1246,9 +1246,9 @@ CURRENT_VERSION
 
 Operations requiring current state must check freshness.
 
----
+______________________________________________________________________
 
-# 57. Version Compatibility
+## 57. Version Compatibility
 
 Compatibility may be:
 
@@ -1263,9 +1263,9 @@ UNKNOWN/GAP
 
 Unknown compatibility MUST NOT be silently treated as compatible.
 
----
+______________________________________________________________________
 
-# 58. MVCC Structural Pattern
+## 58. MVCC Structural Pattern
 
 Conceptually:
 
@@ -1286,9 +1286,9 @@ REVALIDATE
 
 This remains an architectural model unless executable implementation is separately established.
 
----
+______________________________________________________________________
 
-# 59. CAS Structural Pattern
+## 59. CAS Structural Pattern
 
 Compare-and-swap style reasoning:
 
@@ -1302,9 +1302,9 @@ COMMIT ONLY IF EXPECTATION HOLDS
 
 prevents silent overwrite of newer state.
 
----
+______________________________________________________________________
 
-# 60. Lost Update Firewall
+## 60. Lost Update Firewall
 
 Forbidden:
 
@@ -1316,9 +1316,9 @@ READ V1
 
 without explicit conflict handling.
 
----
+______________________________________________________________________
 
-# 61. Atomic Structural Transformation
+## 61. Atomic Structural Transformation
 
 A multi-node transformation should be treated atomically when partial application would violate invariants.
 
@@ -1332,9 +1332,9 @@ B'
 
 then committing A' without B' may be invalid.
 
----
+______________________________________________________________________
 
-# 62. Atomic Multi-RSCF Integrity
+## 62. Atomic Multi-RSCF Integrity
 
 For operation touching:
 
@@ -1355,9 +1355,9 @@ $$
 
 A mixed-version state may require revalidation.
 
----
+______________________________________________________________________
 
-# 63. Partial Commit Firewall
+## 63. Partial Commit Firewall
 
 If a governed mutation requires all components:
 
@@ -1385,9 +1385,9 @@ ATOMIC COMMIT
 
 or a defined compensation/rollback protocol.
 
----
+______________________________________________________________________
 
-# 64. Causal Epoch Integrity
+## 64. Causal Epoch Integrity
 
 A causal epoch groups structurally compatible state for reasoning or finalization.
 
@@ -1402,9 +1402,9 @@ causal_epoch:
   finalization_state:
 ```
 
----
+______________________________________________________________________
 
-# 65. Epoch Boundary
+## 65. Epoch Boundary
 
 Crossing an epoch boundary may invalidate assumptions about:
 
@@ -1422,9 +1422,9 @@ FINALIZED_IN_EPOCH_E1
 AUTOMATICALLY_FINAL_IN_E2
 ```
 
----
+______________________________________________________________________
 
-# 66. Epoch Finality
+## 66. Epoch Finality
 
 Finality is bounded.
 
@@ -1446,9 +1446,9 @@ FINALIZED
 IMMUTABLE UNIVERSAL TRUTH
 ```
 
----
+______________________________________________________________________
 
-# 67. Shard-Local Structural Integrity
+## 67. Shard-Local Structural Integrity
 
 A local shard may finalize independently only when required nonlocal dependencies cannot invalidate the result.
 
@@ -1458,9 +1458,9 @@ PROVEN_DEPENDENCY_CLOSURE
 LOCAL_FINALIZATION_ALLOWED
 ```
 
----
+______________________________________________________________________
 
-# 68. Coordination Avoidance
+## 68. Coordination Avoidance
 
 Coordination is not required merely for ceremony.
 
@@ -1480,9 +1480,9 @@ COORDINATION IS EXPENSIVE
 ASSUME INDEPENDENCE
 ```
 
----
+______________________________________________________________________
 
-# 69. Proof-Based Coordination Avoidance
+## 69. Proof-Based Coordination Avoidance
 
 A proof capsule for local finalization SHOULD identify:
 
@@ -1504,9 +1504,9 @@ coordination_avoidance_proof:
   conclusion:
 ```
 
----
+______________________________________________________________________
 
-# 70. Scope Structural Integrity
+## 70. Scope Structural Integrity
 
 Every structure may have an applicability envelope.
 
@@ -1524,9 +1524,9 @@ scope:
 
 Moving an object across scope boundaries may require transformation or revalidation.
 
----
+______________________________________________________________________
 
-# 71. Scope Leakage
+## 71. Scope Leakage
 
 Forbidden:
 
@@ -1538,11 +1538,11 @@ ASSUME VALID IN S2
 
 without compatibility evidence.
 
----
+______________________________________________________________________
 
-# 72. Regime Structural Integrity
+## 72. Regime Structural Integrity
 
-A structure may be valid only under regime \(R\).
+A structure may be valid only under regime (R).
 
 Examples:
 
@@ -1557,9 +1557,9 @@ AMOS_MODEL
 
 A regime change may alter valid topology or constraints.
 
----
+______________________________________________________________________
 
-# 73. Regime Shift Handling
+## 73. Regime Shift Handling
 
 When:
 
@@ -1577,9 +1577,9 @@ ARE REGIME-SENSITIVE?
 
 Invalidate only affected structural conclusions.
 
----
+______________________________________________________________________
 
-# 74. Temporal Structural Integrity
+## 74. Temporal Structural Integrity
 
 Structural validity may be freshness-bounded.
 
@@ -1593,9 +1593,9 @@ freshness:
 
 A once-valid binding can become stale.
 
----
+______________________________________________________________________
 
-# 75. Cross-Plane Structural Integrity
+## 75. Cross-Plane Structural Integrity
 
 AMOS planes interact through typed bindings.
 
@@ -1616,9 +1616,9 @@ cross_plane_binding:
   validation:
 ```
 
----
+______________________________________________________________________
 
-# 76. Canon → Kernel Binding
+## 76. Canon → Kernel Binding
 
 Conceptually:
 
@@ -1638,9 +1638,9 @@ CANON_BINDING_DOCUMENTED
 RUNTIME_ENFORCEMENT_VERIFIED
 ```
 
----
+______________________________________________________________________
 
-# 77. Kernel → Control Plane Binding
+## 77. Kernel → Control Plane Binding
 
 Kernel capability does not create authority.
 
@@ -1652,9 +1652,9 @@ CONTROL PLANE AUTHORIZES
 MAY COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 78. Observability Binding
+## 78. Observability Binding
 
 Observability may report structure.
 
@@ -1671,9 +1671,9 @@ OBSERVED_BY
 AUTHORIZED_BY
 ```
 
----
+______________________________________________________________________
 
-# 79. Operations Binding
+## 79. Operations Binding
 
 Recovery procedures belong to operational structure.
 
@@ -1685,9 +1685,9 @@ INVALID_STATE
 
 Recovery must preserve unaffected structure where possible.
 
----
+______________________________________________________________________
 
-# 80. Authority Structural Integrity
+## 80. Authority Structural Integrity
 
 Authority itself must be structurally bound.
 
@@ -1704,9 +1704,9 @@ authority_binding:
 
 An authority reference outside its scope or epoch is invalid.
 
----
+______________________________________________________________________
 
-# 81. Capability/Authority Firewall
+## 81. Capability/Authority Firewall
 
 ```text
 STRUCTURE SUPPORTS OPERATION X
@@ -1720,9 +1720,9 @@ OPERATION X IS AUTHORIZED
 
 This distinction is structural and governance-critical.
 
----
+______________________________________________________________________
 
-# 82. Proposal Structure
+## 82. Proposal Structure
 
 ```yaml
 proposal:
@@ -1743,9 +1743,9 @@ proposal:
   status: PROPOSAL
 ```
 
----
+______________________________________________________________________
 
-# 83. Proposal/Commit Firewall
+## 83. Proposal/Commit Firewall
 
 ```text
 PROPOSAL
@@ -1755,9 +1755,9 @@ COMMIT
 
 A proposal must not appear in authoritative state until applicable gates pass.
 
----
+______________________________________________________________________
 
-# 84. Commit Structure
+## 84. Commit Structure
 
 ```yaml
 commit:
@@ -1776,9 +1776,9 @@ commit:
   rollback_ref:
 ```
 
----
+______________________________________________________________________
 
-# 85. Structural Mutation Lifecycle
+## 85. Structural Mutation Lifecycle
 
 Canonical lifecycle:
 
@@ -1797,9 +1797,9 @@ RESOLVE
 → OBSERVE
 ```
 
----
+______________________________________________________________________
 
-# 86. Rollback Basin
+## 86. Rollback Basin
 
 Before consequential mutation, define a recoverable basin where practical.
 
@@ -1819,9 +1819,9 @@ rollback_basin:
   verification:
 ```
 
----
+______________________________________________________________________
 
-# 87. Structural Reversibility
+## 87. Structural Reversibility
 
 Operations may be:
 
@@ -1834,9 +1834,9 @@ UNKNOWN
 
 Validation requirements increase with irreversibility.
 
----
+______________________________________________________________________
 
-# 88. Irreversible Boundary
+## 88. Irreversible Boundary
 
 Crossing an irreversible boundary requires stronger validation.
 
@@ -1846,11 +1846,11 @@ HIGH_IRREVERSIBILITY
 HIGHER_VALIDATION_REQUIREMENT
 ```
 
----
+______________________________________________________________________
 
-# 89. Selective Structural Invalidation
+## 89. Selective Structural Invalidation
 
-If node \(N\) becomes invalid:
+If node (N) becomes invalid:
 
 ```text
 INVALIDATE N
@@ -1862,9 +1862,9 @@ INVALIDATE ONLY AFFECTED DESCENDANTS
 
 Do not globally invalidate unrelated state.
 
----
+______________________________________________________________________
 
-# 90. Structural Recovery
+## 90. Structural Recovery
 
 Canonical recovery:
 
@@ -1879,9 +1879,9 @@ DETECT CORRUPTION
 → RESUME
 ```
 
----
+______________________________________________________________________
 
-# 91. Failed Repair Rule
+## 91. Failed Repair Rule
 
 A failed repair path must not be repeated unchanged.
 
@@ -1898,9 +1898,9 @@ OR
 RECOVERY TARGET
 ```
 
----
+______________________________________________________________________
 
-# 92. Canon Structural Integrity
+## 92. Canon Structural Integrity
 
 Canon artifacts require particularly strong structural guarantees because downstream systems may depend on them.
 
@@ -1918,9 +1918,9 @@ UNRESOLVED CONFLICT
 VALIDATION STATE
 ```
 
----
+______________________________________________________________________
 
-# 93. Add-Only Integrity
+## 93. Add-Only Integrity
 
 For artifacts governed by:
 
@@ -1936,9 +1936,9 @@ PRESERVE EXISTING ARTIFACT
 
 unless a separately authorized supersession or migration rule applies.
 
----
+______________________________________________________________________
 
-# 94. No Silent Overwrite
+## 94. No Silent Overwrite
 
 Forbidden:
 
@@ -1960,9 +1960,9 @@ COMPARE
 → SUPERSEDE OR HOLD
 ```
 
----
+______________________________________________________________________
 
-# 95. Duplicate Artifact Integrity
+## 95. Duplicate Artifact Integrity
 
 When duplicate filenames or framework names appear:
 
@@ -1988,9 +1988,9 @@ DUPLICATES
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 96. Canon Ingestion Rule
+## 96. Canon Ingestion Rule
 
 ```yaml
 AMOS_CANON_INGESTION_RULE:
@@ -2035,9 +2035,9 @@ AMOS_CANON_INGESTION_RULE:
       - NEVER_INVENT_CANON
 ```
 
----
+______________________________________________________________________
 
-# 97. Canonical Node Uniqueness
+## 97. Canonical Node Uniqueness
 
 If one framework appears in multiple sources:
 
@@ -2056,9 +2056,9 @@ MULTIPLE SOURCES
 → DUPLICATE CANON
 ```
 
----
+______________________________________________________________________
 
-# 98. Canonical Conflict
+## 98. Canonical Conflict
 
 If identity equivalence cannot be established or substantive sources conflict:
 
@@ -2080,9 +2080,9 @@ UNKNOWN/GAP
 
 until resolved.
 
----
+______________________________________________________________________
 
-# 99. Supersession Chain
+## 99. Supersession Chain
 
 Canonical evolution SHOULD preserve:
 
@@ -2096,9 +2096,9 @@ CANON_V3
 
 Historical nodes remain lineage-addressable.
 
----
+______________________________________________________________________
 
-# 100. Structural Evolution Spine
+## 100. Structural Evolution Spine
 
 Absolute Structural Integrity participates in the AMOS evolution spine:
 
@@ -2123,9 +2123,9 @@ This is an AMOS architecture/reasoning lineage.
 
 It does not independently prove implementation of every mechanism.
 
----
+______________________________________________________________________
 
-# 101. Governed Evolution
+## 101. Governed Evolution
 
 For structure:
 
@@ -2148,9 +2148,9 @@ RECOVERY DEFINED
 
 where applicable.
 
----
+______________________________________________________________________
 
-# 102. Anti-Regression
+## 102. Anti-Regression
 
 A structural optimization must not weaken:
 
@@ -2167,9 +2167,9 @@ AUTHORITY BOUNDARIES
 CANON LINEAGE
 ```
 
----
+______________________________________________________________________
 
-# 103. Structural Compression
+## 103. Structural Compression
 
 Compression is admissible only if load-bearing structural information survives.
 
@@ -2191,9 +2191,9 @@ Must preserve when load-bearing:
 - authority;
 - rollback.
 
----
+______________________________________________________________________
 
-# 104. Structural Normalization
+## 104. Structural Normalization
 
 Normalization may change representation without changing semantic identity.
 
@@ -2205,9 +2205,9 @@ REPRESENTATION_A
 
 requires preservation of declared invariant semantics.
 
----
+______________________________________________________________________
 
-# 105. Lossless Normalization
+## 105. Lossless Normalization
 
 A normalization is structurally lossless when all required semantics can be recovered.
 
@@ -2217,17 +2217,17 @@ $$
 
 with equivalence defined over required structural semantics, not byte identity.
 
----
+______________________________________________________________________
 
-# 106. Lossy Transformation
+## 106. Lossy Transformation
 
 A transformation is structurally lossy if it removes information required to reconstruct or validate load-bearing relations.
 
 Lossy transformation MUST be explicit.
 
----
+______________________________________________________________________
 
-# 107. Structural Equivalence
+## 107. Structural Equivalence
 
 Two structures may be structurally equivalent without being byte-identical.
 
@@ -2239,9 +2239,9 @@ only under a declared equivalence contract.
 
 Do not infer equivalence from superficial similarity.
 
----
+______________________________________________________________________
 
-# 108. Semantic Preservation
+## 108. Semantic Preservation
 
 Structural transformation SHOULD preserve meaning when declared semantic preservation is required.
 
@@ -2251,9 +2251,9 @@ SAME DATA SHAPE
 SAME SEMANTICS
 ```
 
----
+______________________________________________________________________
 
-# 109. Structural Similarity Firewall
+## 109. Structural Similarity Firewall
 
 ```text
 STRUCTURE A RESEMBLES STRUCTURE B
@@ -2269,9 +2269,9 @@ unless identity or equivalence is independently established.
 
 It does not establish common causation, origin, or semantics.
 
----
+______________________________________________________________________
 
-# 110. Cross-Domain Structural Mapping
+## 110. Cross-Domain Structural Mapping
 
 Transfer pattern:
 
@@ -2289,9 +2289,9 @@ STRUCTURE IN D1
 → ASSUME SAME MEANING IN D2
 ```
 
----
+______________________________________________________________________
 
-# 111. Structural Proof Capsule
+## 111. Structural Proof Capsule
 
 Important structural conclusions SHOULD conceptually carry:
 
@@ -2322,9 +2322,9 @@ structural_proof_capsule:
   confidence_ceiling:
 ```
 
----
+______________________________________________________________________
 
-# 112. Proof Capsule Reuse
+## 112. Proof Capsule Reuse
 
 A structural proof capsule may be reused only while:
 
@@ -2338,9 +2338,9 @@ FRESHNESS VALID
 NO NEW MATERIAL CONFLICT
 ```
 
----
+______________________________________________________________________
 
-# 113. Proof Capsule Invalidation
+## 113. Proof Capsule Invalidation
 
 If one load-bearing structural premise changes:
 
@@ -2350,9 +2350,9 @@ ONLY CAPSULES
 THAT DEPEND ON IT.
 ```
 
----
+______________________________________________________________________
 
-# 114. Competing Structures
+## 114. Competing Structures
 
 Different structures may both be internally valid while incompatible.
 
@@ -2375,9 +2375,9 @@ COMPETING
 
 is structurally valid.
 
----
+______________________________________________________________________
 
-# 115. Structural Contradiction
+## 115. Structural Contradiction
 
 Contradictions may occur in:
 
@@ -2395,9 +2395,9 @@ SCHEMA
 
 A conflict must remain visible until resolved.
 
----
+______________________________________________________________________
 
-# 116. Contradiction Preservation
+## 116. Contradiction Preservation
 
 ```text
 STRUCTURE_A
@@ -2415,9 +2415,9 @@ merely because A is preferred.
 
 Preference is not structural resolution.
 
----
+______________________________________________________________________
 
-# 117. Structural Adversarial Validation
+## 117. Structural Adversarial Validation
 
 For consequential structures, challenge the candidate through an independent reasoning path seeking:
 
@@ -2434,9 +2434,9 @@ For consequential structures, challenge the candidate through an independent rea
 - rollback failure;
 - unauthorized mutation.
 
----
+______________________________________________________________________
 
-# 118. Independence Requirement
+## 118. Independence Requirement
 
 An adversarial validation path is stronger when it does not merely replay the same assumptions or provenance.
 
@@ -2446,9 +2446,9 @@ DIFFERENT WORDING
 INDEPENDENT VALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 119. Structural Sensitivity
+## 119. Structural Sensitivity
 
 Identify the smallest structural element whose change can invalidate the result.
 
@@ -2464,9 +2464,9 @@ ONE REGIME FLAG
 
 Test that first where practical.
 
----
+______________________________________________________________________
 
-# 120. Structural Robustness
+## 120. Structural Robustness
 
 A structure is robust when plausible noncritical variation does not violate its load-bearing invariants.
 
@@ -2478,9 +2478,9 @@ A structure is fragile when minor variation can cause:
 - version conflict;
 - inconsistent commit.
 
----
+______________________________________________________________________
 
-# 121. Adaptive Structural Complexity
+## 121. Adaptive Structural Complexity
 
 Use:
 
@@ -2492,9 +2492,9 @@ C3 — CROSS-PLANE / MULTI-RSCF CHECK
 C4 — GOVERNANCE-CRITICAL STRUCTURAL AUDIT
 ```
 
----
+______________________________________________________________________
 
-# 122. Escalation Conditions
+## 122. Escalation Conditions
 
 Escalate structural validation for:
 
@@ -2513,9 +2513,9 @@ UNKNOWN DEPENDENCY
 SHARD-LOCAL FINALIZATION
 ```
 
----
+______________________________________________________________________
 
-# 123. Fast Path
+## 123. Fast Path
 
 Structural fast path is allowed only when:
 
@@ -2535,9 +2535,9 @@ structural_fast_path:
 
 Unknown load-bearing state requires escalation.
 
----
+______________________________________________________________________
 
-# 124. Structural Failure Classes
+## 124. Structural Failure Classes
 
 ```yaml
 STRUCTURAL_FAILURE_CLASSES:
@@ -2592,9 +2592,9 @@ STRUCTURAL_FAILURE_CLASSES:
     - REPEATED_FAILED_PATH
 ```
 
----
+______________________________________________________________________
 
-# 125. Structural Integrity Gate
+## 125. Structural Integrity Gate
 
 ```yaml
 structural_integrity_gate:
@@ -2623,9 +2623,9 @@ structural_integrity_gate:
       - UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 126. Gate Semantics
+## 126. Gate Semantics
 
 ```text
 PASS
@@ -2645,9 +2645,9 @@ UNKNOWN/GAP
 structural validity cannot currently be established
 ```
 
----
+______________________________________________________________________
 
-# 127. Fail-Closed Rule
+## 127. Fail-Closed Rule
 
 For consequential operations:
 
@@ -2663,9 +2663,9 @@ must not silently become:
 PASS
 ```
 
----
+______________________________________________________________________
 
-# 128. Worked Example — Missing Dependency
+## 128. Worked Example — Missing Dependency
 
 Artifact A declares:
 
@@ -2686,9 +2686,9 @@ for operations requiring that dependency.
 
 Do not invent B.
 
----
+______________________________________________________________________
 
-# 129. Worked Example — Duplicate Filename
+## 129. Worked Example — Duplicate Filename
 
 Two files:
 
@@ -2714,9 +2714,9 @@ SAME NAME
 → SAME ARTIFACT
 ```
 
----
+______________________________________________________________________
 
-# 130. Worked Example — Version Conflict
+## 130. Worked Example — Version Conflict
 
 Transaction reads:
 
@@ -2745,9 +2745,9 @@ OVERWRITE v4
 WITH v3-BASED RESULT
 ```
 
----
+______________________________________________________________________
 
-# 131. Worked Example — Selective Invalidation
+## 131. Worked Example — Selective Invalidation
 
 Graph:
 
@@ -2773,9 +2773,9 @@ F
 
 assuming no hidden dependency.
 
----
+______________________________________________________________________
 
-# 132. Worked Example — Provenance Multiplicity
+## 132. Worked Example — Provenance Multiplicity
 
 ```text
 SOURCE_A
@@ -2797,9 +2797,9 @@ Not:
 FOUR INDEPENDENT SOURCES
 ```
 
----
+______________________________________________________________________
 
-# 133. Worked Example — Structural Scope Leak
+## 133. Worked Example — Structural Scope Leak
 
 A schema binding is validated for:
 
@@ -2826,9 +2826,9 @@ CONDITIONAL
 
 until validated.
 
----
+______________________________________________________________________
 
-# 134. Worked Example — Canon Ingestion
+## 134. Worked Example — Canon Ingestion
 
 New source appears for an existing framework.
 
@@ -2851,9 +2851,9 @@ CREATE DUPLICATE CANON
 
 when identity equivalence is established.
 
----
+______________________________________________________________________
 
-# 135. Worked Example — Partial Commit
+## 135. Worked Example — Partial Commit
 
 Mutation requires:
 
@@ -2880,9 +2880,9 @@ OR
 COMPLETE ATOMICALLY
 ```
 
----
+______________________________________________________________________
 
-# 136. Worked Example — Shard-Local Finalization
+## 136. Worked Example — Shard-Local Finalization
 
 Shard X wants to finalize node A.
 
@@ -2905,9 +2905,9 @@ If dependency on remote D is unknown:
 ESCALATE
 ```
 
----
+______________________________________________________________________
 
-# 137. Worked Example — Regime Shift
+## 137. Worked Example — Regime Shift
 
 Topology valid in:
 
@@ -2931,9 +2931,9 @@ STRUCTURES
 
 Do not invalidate unrelated regime-insensitive nodes.
 
----
+______________________________________________________________________
 
-# 138. Structural Invariants Registry
+## 138. Structural Invariants Registry
 
 ```yaml
 ABSOLUTE_STRUCTURAL_INTEGRITY_INVARIANTS:
@@ -3035,9 +3035,9 @@ ABSOLUTE_STRUCTURAL_INTEGRITY_INVARIANTS:
     severity: CRITICAL
 ```
 
----
+______________________________________________________________________
 
-# 139. Structural State Machine
+## 139. Structural State Machine
 
 ```text
 SOURCE
@@ -3088,9 +3088,9 @@ FAILED NODE / EDGE
 → REVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 140. Structural Decision Table
+## 140. Structural Decision Table
 
 | Situation                         | Required Structural Response               |
 | --------------------------------- | ------------------------------------------ |
@@ -3112,9 +3112,9 @@ FAILED NODE / EDGE
 | Rollback impossible               | Increase governance/validation             |
 | Validation receipt absent         | NOT_ESTABLISHED                            |
 
----
+______________________________________________________________________
 
-# 141. Promotion Gate
+## 141. Promotion Gate
 
 Before `ABSOLUTE_STRUCTURAL_INTEGRITY_CANON.md` may be promoted beyond candidate status:
 
@@ -3145,9 +3145,9 @@ Before `ABSOLUTE_STRUCTURAL_INTEGRITY_CANON.md` may be promoted beyond candidate
 - [ ] unresolved critical gaps remain visible
 - [ ] steward approval recorded where required
 
----
+______________________________________________________________________
 
-# 142. Known Gaps
+## 142. Known Gaps
 
 ```yaml
 known_gaps:
@@ -3203,9 +3203,9 @@ known_gaps:
     state: UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 143. Cross-Plane Bindings
+## 143. Cross-Plane Bindings
 
 Target topology:
 
@@ -3246,9 +3246,9 @@ OPERATIONS
 └── revalidation
 ```
 
----
+______________________________________________________________________
 
-# 144. Cross-Plane Integrity Rule
+## 144. Cross-Plane Integrity Rule
 
 No downstream plane may silently reinterpret a canonical structural relation into a stronger semantic relation.
 
@@ -3272,9 +3272,9 @@ IMPLEMENTS
 VALIDATES
 ```
 
----
+______________________________________________________________________
 
-# 145. Runtime Binding Contract
+## 145. Runtime Binding Contract
 
 ```yaml
 runtime_binding:
@@ -3306,9 +3306,9 @@ EXECUTABLE_BINDING:
 NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 146. Validation Receipt Requirements
+## 146. Validation Receipt Requirements
 
 Expected receipts may include:
 
@@ -3344,9 +3344,9 @@ never:
 PASS
 ```
 
----
+______________________________________________________________________
 
-# 147. RSCF Root
+## 147. RSCF Root
 
 ```yaml
 RSCF_ROOT:
@@ -3378,9 +3378,9 @@ RSCF_ROOT:
     state: NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 148. RSCF — Identity Integrity
+## 148. RSCF — Identity Integrity
 
 ```yaml
 RSCF_IDENTITY_INTEGRITY:
@@ -3399,9 +3399,9 @@ RSCF_IDENTITY_INTEGRITY:
     - similarity_as_identity
 ```
 
----
+______________________________________________________________________
 
-# 149. RSCF — Dependency Integrity
+## 149. RSCF — Dependency Integrity
 
 ```yaml
 RSCF_DEPENDENCY_INTEGRITY:
@@ -3420,9 +3420,9 @@ RSCF_DEPENDENCY_INTEGRITY:
     - relation_type_collapse
 ```
 
----
+______________________________________________________________________
 
-# 150. RSCF — Provenance Integrity
+## 150. RSCF — Provenance Integrity
 
 ```yaml
 RSCF_PROVENANCE_INTEGRITY:
@@ -3440,9 +3440,9 @@ RSCF_PROVENANCE_INTEGRITY:
     - lineage_break
 ```
 
----
+______________________________________________________________________
 
-# 151. RSCF — Version Integrity
+## 151. RSCF — Version Integrity
 
 ```yaml
 RSCF_VERSION_INTEGRITY:
@@ -3460,9 +3460,9 @@ RSCF_VERSION_INTEGRITY:
     - governed_merge
 ```
 
----
+______________________________________________________________________
 
-# 152. RSCF — Atomic Structural Integrity
+## 152. RSCF — Atomic Structural Integrity
 
 ```yaml
 RSCF_ATOMIC_STRUCTURAL_INTEGRITY:
@@ -3479,9 +3479,9 @@ RSCF_ATOMIC_STRUCTURAL_INTEGRITY:
     - mixed_state_finalization
 ```
 
----
+______________________________________________________________________
 
-# 153. RSCF — Selective Invalidation
+## 153. RSCF — Selective Invalidation
 
 ```yaml
 RSCF_SELECTIVE_STRUCTURAL_INVALIDATION:
@@ -3501,9 +3501,9 @@ RSCF_SELECTIVE_STRUCTURAL_INVALIDATION:
     - revalidate_local_branch
 ```
 
----
+______________________________________________________________________
 
-# 154. RSCF — Scope / Regime Integrity
+## 154. RSCF — Scope / Regime Integrity
 
 ```yaml
 RSCF_STRUCTURAL_SCOPE_REGIME:
@@ -3521,9 +3521,9 @@ RSCF_STRUCTURAL_SCOPE_REGIME:
     - silent_regime_transfer
 ```
 
----
+______________________________________________________________________
 
-# 155. RSCF — Local Finalization
+## 155. RSCF — Local Finalization
 
 ```yaml
 RSCF_LOCAL_FINALIZATION:
@@ -3541,9 +3541,9 @@ RSCF_LOCAL_FINALIZATION:
     - unknown_external_dependency
 ```
 
----
+______________________________________________________________________
 
-# 156. RSCF — Structural Evolution
+## 156. RSCF — Structural Evolution
 
 ```yaml
 RSCF_STRUCTURAL_EVOLUTION:
@@ -3561,9 +3561,9 @@ RSCF_STRUCTURAL_EVOLUTION:
     - ungoverned_schema_break
 ```
 
----
+______________________________________________________________________
 
-# 157. Dependency Graph
+## 157. Dependency Graph
 
 ```text
 ABSOLUTE_STRUCTURAL_INTEGRITY
@@ -3629,9 +3629,9 @@ ABSOLUTE_STRUCTURAL_INTEGRITY
     └── VALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 158. Canonical Structural Proof
+## 158. Canonical Structural Proof
 
 For a consequential transformation:
 
@@ -3687,9 +3687,9 @@ $$
 
 before authoritative commit.
 
----
+______________________________________________________________________
 
-# 159. Canonical Structural Integrity Capsule
+## 159. Canonical Structural Integrity Capsule
 
 ```yaml
 ABSOLUTE_STRUCTURAL_INTEGRITY_CAPSULE:
@@ -3756,9 +3756,9 @@ ABSOLUTE_STRUCTURAL_INTEGRITY_CAPSULE:
     validation_status: NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 160. Compact Structural Law
+## 160. Compact Structural Law
 
 ```text
 RESOLVE IDENTITY.
@@ -3817,9 +3817,9 @@ PRESERVE CANON LINEAGE THROUGH EVOLUTION.
 UNKNOWN/GAP MUST REMAIN VISIBLE.
 ```
 
----
+______________________________________________________________________
 
-# 161. Canon Final Boundary
+## 161. Canon Final Boundary
 
 The strongest conclusion licensed by this artifact is:
 
@@ -3846,9 +3846,9 @@ Its current canonical status remains:
 CANDIDATE_PENDING_VALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 162. Final Gaps
+## 162. Final Gaps
 
 ```text
 CRITICAL
@@ -3873,9 +3873,9 @@ EXPLANATORY
 
 No downstream system may silently convert these gaps into `PASS`.
 
----
+______________________________________________________________________
 
-# 163. MOC
+## 163. MOC
 
 **MOC:** [[01_CANON/01_CORE_LAWS/01_CORE_LAWS_MOC|01_CORE_LAWS_MOC]]
 
@@ -3889,9 +3889,9 @@ No downstream system may silently convert these gaps into `PASS`.
 
 **Logic Canon:** [[01_CANON/01_CORE_LAWS/ABSOLUTE_LOGIC_CANON|ABSOLUTE_LOGIC_CANON]]
 
----
+______________________________________________________________________
 
-# RSCF-NODE
+## RSCF-NODE
 
 ```yaml
 RSCF_NODE:
@@ -3987,8 +3987,8 @@ RSCF_NODE:
       target: ""
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/01_CORE_LAWS_MOC|01_CORE_LAWS_MOC]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[01_CANON/01_CORE_LAWS/ABSOLUTE_INTEGRITY_CANON|ABSOLUTE_INTEGRITY_CANON]] · [[01_CANON/01_CORE_LAWS/ABSOLUTE_LOGIC_CANON|ABSOLUTE_LOGIC_CANON]]
 
----
+______________________________________________________________________

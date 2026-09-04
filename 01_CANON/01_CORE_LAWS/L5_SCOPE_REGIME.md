@@ -1,20 +1,20 @@
 ---
 tags:
-- canon
-- core_laws
-- scope
-- regime
-- temporal
-- freshness
-- applicability
-- rscf
-- governance
-- canon/universe
-- law/L0-integrity
-- law/L1-epistemic
-- law/L2-provenance
-- law/L3-dependency
-- law/L4-causal
+  - canon
+  - core_laws
+  - scope
+  - regime
+  - temporal
+  - freshness
+  - applicability
+  - rscf
+  - governance
+  - canon/universe
+  - law/L0-integrity
+  - law/L1-epistemic
+  - law/L2-provenance
+  - law/L3-dependency
+  - law/L4-causal
 title: L5 Scope, Regime, and Temporal Laws
 origin_architect: Trang Phan
 status: AMOS_MODEL
@@ -40,9 +40,9 @@ rscf:
 >
 > Validity is never assumed to be universal merely because something was valid somewhere, sometime, or under one operating condition.
 
----
+______________________________________________________________________
 
-# 1. Purpose
+## 1. Purpose
 
 `[[01_CANON/01_CORE_LAWS/L5_SCOPE_REGIME|L5_SCOPE_REGIME]]` establishes the AMOS laws for:
 
@@ -122,9 +122,9 @@ AND TEMPORALLY CONDITIONED
 UNLESS BROADER VALIDITY IS ESTABLISHED.
 ```
 
----
+______________________________________________________________________
 
-# 2. Core L5 Law
+## 2. Core L5 Law
 
 Every consequential AMOS claim SHOULD possess an applicability envelope.
 
@@ -167,9 +167,9 @@ VALID(C, S2, R2, T2)
 
 unless transfer has been independently justified.
 
----
+______________________________________________________________________
 
-# 3. Fundamental Laws
+## 3. Fundamental Laws
 
 ## L5-L1 — Scope Preservation
 
@@ -247,9 +247,9 @@ UNKNOWN_REGIME != ALL_REGIMES
 UNKNOWN_TIME != TIME_INVARIANT
 ```
 
----
+______________________________________________________________________
 
-# 4. Definition of Scope
+## 4. Definition of Scope
 
 In L5, `scope` means the explicit applicability boundary of a claim, rule, model, operation, or decision.
 
@@ -283,9 +283,9 @@ Scope is not merely metadata.
 
 It is part of validity.
 
----
+______________________________________________________________________
 
-# 5. Scope Envelope
+## 5. Scope Envelope
 
 AMOS SHOULD represent consequential applicability through a structured envelope.
 
@@ -342,9 +342,9 @@ Missing fields remain unknown.
 
 They MUST NOT silently acquire permissive defaults.
 
----
+______________________________________________________________________
 
-# 6. Scope Intersection Law
+## 6. Scope Intersection Law
 
 When multiple premises support a conclusion, the default conclusion scope cannot exceed the compatible intersection of the load-bearing premise scopes.
 
@@ -371,9 +371,9 @@ when `P1` is necessary to `C`.
 
 The safe inherited scope is bounded by the narrower load-bearing premise.
 
----
+______________________________________________________________________
 
-# 7. Scope Expansion Law
+## 7. Scope Expansion Law
 
 Scope expansion is a governed operation.
 
@@ -407,9 +407,9 @@ CLAIM_REQUIRING_EVIDENCE
 
 not a default transformation.
 
----
+______________________________________________________________________
 
-# 8. Scope Contraction
+## 8. Scope Contraction
 
 Scope may safely be narrowed when required.
 
@@ -435,9 +435,9 @@ remains supported.
 
 AMOS SHOULD prefer selective scope contraction over unnecessary total rejection when evidence permits.
 
----
+______________________________________________________________________
 
-# 9. Definition of Regime
+## 9. Definition of Regime
 
 A `regime` is a materially distinct operating condition under which relationships, constraints, distributions, mechanisms, policies, or valid behaviors may differ.
 
@@ -481,9 +481,9 @@ These examples are illustrative.
 
 Domain-specific regime definitions require domain-specific evidence.
 
----
+______________________________________________________________________
 
-# 10. Regime State
+## 10. Regime State
 
 A conceptual regime record MAY contain:
 
@@ -504,9 +504,9 @@ RegimeState:
 
 A regime label without defining conditions is insufficient for strong reasoning.
 
----
+______________________________________________________________________
 
-# 11. Regime Detection Law
+## 11. Regime Detection Law
 
 AMOS MUST distinguish:
 
@@ -540,9 +540,9 @@ regime_detection:
 
 must not be represented as directly observed if the regime is model-derived.
 
----
+______________________________________________________________________
 
-# 12. Regime Transfer Law
+## 12. Regime Transfer Law
 
 Given:
 
@@ -575,9 +575,9 @@ AND NoMaterialContradiction
 
 This is an AMOS governance model.
 
----
+______________________________________________________________________
 
-# 13. Regime Shift Law
+## 13. Regime Shift Law
 
 A regime shift occurs when one or more validity-relevant conditions change sufficiently that previously accepted conclusions require reconsideration.
 
@@ -601,9 +601,9 @@ Regime shift does not automatically invalidate everything.
 
 It triggers **dependency-aware revalidation**.
 
----
+______________________________________________________________________
 
-# 14. Temporal Dimensions
+## 14. Temporal Dimensions
 
 L5 MUST distinguish multiple kinds of time.
 
@@ -626,9 +626,9 @@ TemporalState:
 
 These timestamps are not interchangeable.
 
----
+______________________________________________________________________
 
-# 15. Event Time vs Observation Time
+## 15. Event Time vs Observation Time
 
 `event_time` means when the underlying event occurred.
 
@@ -652,9 +652,9 @@ decision made: T5
 
 Reasoning that collapses these timestamps may infer false ordering, freshness, or causality.
 
----
+______________________________________________________________________
 
-# 16. Publication Time vs Evidence Time
+## 16. Publication Time vs Evidence Time
 
 A source published at `T2` may describe evidence collected at `T1`.
 
@@ -670,9 +670,9 @@ Likewise, an older source may still describe a stable invariant.
 
 Freshness cannot be inferred from publication date alone.
 
----
+______________________________________________________________________
 
-# 17. Retrieval Time vs Validity Time
+## 17. Retrieval Time vs Validity Time
 
 A claim retrieved now is not necessarily valid now.
 
@@ -684,9 +684,9 @@ Retrieval establishes availability, not current applicability.
 
 L5 requires evaluation of the underlying evidence and regime.
 
----
+______________________________________________________________________
 
-# 18. Decision Time vs Commit Time
+## 18. Decision Time vs Commit Time
 
 A decision may be formed at `T_decision`.
 
@@ -710,9 +710,9 @@ AUTOMATICALLY_VALID_AT_COMMIT
 
 This is particularly important for consequential or irreversible actions.
 
----
+______________________________________________________________________
 
-# 19. Temporal Validity Window
+## 19. Temporal Validity Window
 
 Claims MAY have an explicit validity window:
 
@@ -734,9 +734,9 @@ A validity window may be:
 
 AMOS MUST preserve which one applies.
 
----
+______________________________________________________________________
 
-# 20. Freshness
+## 20. Freshness
 
 Freshness describes whether evidence or state remains sufficiently current for its intended use.
 
@@ -766,9 +766,9 @@ FreshnessState:
     - UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 21. Freshness Law
+## 21. Freshness Law
 
 Freshness MUST be evaluated relative to:
 
@@ -789,9 +789,9 @@ FRESHNESS IS RELATIONAL,
 NOT ABSOLUTE.
 ```
 
----
+______________________________________________________________________
 
-# 22. Expiration Law
+## 22. Expiration Law
 
 Expiration occurs when a claim crosses a defined temporal boundary or when an invalidating event occurs.
 
@@ -817,9 +817,9 @@ REVALIDATE
 
 rather than immediate deletion.
 
----
+______________________________________________________________________
 
-# 23. Event-Driven Invalidity
+## 23. Event-Driven Invalidity
 
 Some claims remain valid indefinitely until a particular event occurs.
 
@@ -836,9 +836,9 @@ valid_until_event:
 
 Thus temporal validity is not always calendar-based.
 
----
+______________________________________________________________________
 
-# 24. Scope–Regime Coupling
+## 24. Scope–Regime Coupling
 
 Scope and regime are separate but may interact.
 
@@ -862,9 +862,9 @@ may depend on both.
 
 AMOS MUST NOT collapse them into a single generic context field when their distinction matters.
 
----
+______________________________________________________________________
 
-# 25. Temporal–Regime Coupling
+## 25. Temporal–Regime Coupling
 
 Time passing alone does not necessarily create a regime change.
 
@@ -884,9 +884,9 @@ REGIME_SHIFT != LARGE_ΔTIME
 
 A regime transition requires evidence of validity-relevant structural or contextual change.
 
----
+______________________________________________________________________
 
-# 26. Scope–Temporal Coupling
+## 26. Scope–Temporal Coupling
 
 Scope may change over time.
 
@@ -907,9 +907,9 @@ Scope(C, T1) != Scope(C, T2)
 
 may be true even if the claim text remains identical.
 
----
+______________________________________________________________________
 
-# 27. Typed Inputs
+## 27. Typed Inputs
 
 L5 MAY consume:
 
@@ -944,9 +944,9 @@ L5Input:
   requested_target_time: Timestamp | null
 ```
 
----
+______________________________________________________________________
 
-# 28. Typed Outputs
+## 28. Typed Outputs
 
 ```yaml
 L5Assessment:
@@ -993,9 +993,9 @@ L5Assessment:
   confidence_ceiling: float
 ```
 
----
+______________________________________________________________________
 
-# 29. State Variables
+## 29. State Variables
 
 Conceptual L5 state MAY include:
 
@@ -1030,9 +1030,9 @@ l5_state:
 
 These are conceptual contract variables and do not themselves prove implementation.
 
----
+______________________________________________________________________
 
-# 30. Operators
+## 30. Operators
 
 Minimum L5 operator family:
 
@@ -1075,9 +1075,9 @@ VALIDATE_APPLICABILITY
 
 Operators proposing a broader validity envelope MUST NOT themselves authorize promotion.
 
----
+______________________________________________________________________
 
-# 31. Applicability Envelope
+## 31. Applicability Envelope
 
 For important claims, AMOS SHOULD construct:
 
@@ -1122,9 +1122,9 @@ ApplicabilityEnvelope:
 
 This envelope travels with the claim.
 
----
+______________________________________________________________________
 
-# 32. Context Stripping Prohibition
+## 32. Context Stripping Prohibition
 
 A downstream system MUST NOT reduce:
 
@@ -1152,9 +1152,9 @@ Therefore:
 CONTEXT_STRIPPING = INTEGRITY_RISK
 ```
 
----
+______________________________________________________________________
 
-# 33. H/M/L Applicability
+## 33. H/M/L Applicability
 
 ## H — Governing / System Scale
 
@@ -1177,7 +1177,7 @@ organization operating normally
 
 may constitute an H-level regime shift.
 
----
+______________________________________________________________________
 
 ## M — Subsystem Scale
 
@@ -1192,7 +1192,7 @@ At M, L5 governs:
 
 A subsystem may enter a different regime while the H-level system remains nominal.
 
----
+______________________________________________________________________
 
 ## L — Local Scale
 
@@ -1208,9 +1208,9 @@ At L, L5 governs:
 
 L-level evidence can become stale rapidly even while H-level structural conditions remain stable.
 
----
+______________________________________________________________________
 
-# 34. Cross-Scale Applicability
+## 34. Cross-Scale Applicability
 
 A claim established at one scale does not automatically transfer to another.
 
@@ -1246,9 +1246,9 @@ does not automatically describe:
 every local entity
 ```
 
----
+______________________________________________________________________
 
-# 35. Cross-Domain Applicability
+## 35. Cross-Domain Applicability
 
 Structural similarity across domains does not establish transferability.
 
@@ -1264,9 +1264,9 @@ Cross-domain application remains `MODEL` or `CONDITIONAL` until independently su
 
 This protects AMOS fractal and cross-architecture reasoning from empirical overreach.
 
----
+______________________________________________________________________
 
-# 36. Scope Inheritance Through RSCF
+## 36. Scope Inheritance Through RSCF
 
 If:
 
@@ -1298,9 +1298,9 @@ weakest load-bearing temporal validity
 
 unless independently revalidated.
 
----
+______________________________________________________________________
 
-# 37. Regime Inheritance Through RSCF
+## 37. Regime Inheritance Through RSCF
 
 If a premise is only valid in `R1`, a dependent conclusion cannot silently become regime-independent.
 
@@ -1320,9 +1320,9 @@ C inherits LOW_VOLATILITY applicability
 
 unless another proof supports broader validity.
 
----
+______________________________________________________________________
 
-# 38. Temporal Inheritance Through RSCF
+## 38. Temporal Inheritance Through RSCF
 
 A derived claim cannot normally be fresher than its load-bearing evidence merely because it was computed recently.
 
@@ -1334,9 +1334,9 @@ DERIVATION_TIME != EVIDENCE_FRESHNESS
 
 A report generated today from stale evidence remains bounded by that stale evidence.
 
----
+______________________________________________________________________
 
-# 39. Provenance and Applicability
+## 39. Provenance and Applicability
 
 L5 applicability claims require provenance.
 
@@ -1368,9 +1368,9 @@ regime_class: MODEL
 
 should be preserved.
 
----
+______________________________________________________________________
 
-# 40. Confidence Ceiling
+## 40. Confidence Ceiling
 
 L5 imposes an applicability confidence ceiling.
 
@@ -1407,9 +1407,9 @@ C_regime = bounded
 
 Therefore the overall claim cannot be promoted as universally applicable.
 
----
+______________________________________________________________________
 
-# 41. Unknown Scope Law
+## 41. Unknown Scope Law
 
 When scope is unknown:
 
@@ -1431,9 +1431,9 @@ UNKNOWN/GAP
 
 or a bounded conditional conclusion.
 
----
+______________________________________________________________________
 
-# 42. Unknown Regime Law
+## 42. Unknown Regime Law
 
 When regime is unknown:
 
@@ -1453,9 +1453,9 @@ If no:
 
 the claim may proceed only if regime-independence itself is supported.
 
----
+______________________________________________________________________
 
-# 43. Unknown Time Law
+## 43. Unknown Time Law
 
 When evidence time is unavailable:
 
@@ -1473,9 +1473,9 @@ UNKNOWN_TIME != CURRENT
 
 This may be a critical gap for fast-changing domains.
 
----
+______________________________________________________________________
 
-# 44. Gap Prioritization
+## 44. Gap Prioritization
 
 L5 gaps SHOULD be classified:
 
@@ -1506,9 +1506,9 @@ Missing formatting metadata.
 
 AMOS resolves them in that order.
 
----
+______________________________________________________________________
 
-# 45. Sensitivity Law
+## 45. Sensitivity Law
 
 For consequential conclusions, L5 SHOULD identify the smallest applicability change capable of flipping the result.
 
@@ -1532,9 +1532,9 @@ If a small plausible shift flips the result:
 status = FRAGILE / CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
-# 46. Transition State
+## 46. Transition State
 
 AMOS SHOULD explicitly represent transitional regimes.
 
@@ -1559,9 +1559,9 @@ regime:
   confidence: ...
 ```
 
----
+______________________________________________________________________
 
-# 47. Regime Hysteresis
+## 47. Regime Hysteresis
 
 Some systems do not immediately return to their prior state when a triggering condition disappears.
 
@@ -1583,9 +1583,9 @@ AMOS MUST NOT assume hysteresis universally.
 
 This remains domain-specific.
 
----
+______________________________________________________________________
 
-# 48. Regime Uncertainty
+## 48. Regime Uncertainty
 
 Where multiple regime interpretations remain plausible:
 
@@ -1606,9 +1606,9 @@ rather than arbitrarily selecting one.
 
 The preferred next step is the cheapest high-information observation capable of discriminating among them.
 
----
+______________________________________________________________________
 
-# 49. Scope Conflict
+## 49. Scope Conflict
 
 Two sources may describe the same claim under different scopes.
 
@@ -1636,9 +1636,9 @@ They may represent:
 - different populations;
 - provenance duplication.
 
----
+______________________________________________________________________
 
-# 50. Temporal Conflict
+## 50. Temporal Conflict
 
 Evidence may disagree because it comes from different periods.
 
@@ -1659,9 +1659,9 @@ regime changed between T1 and T2
 
 Therefore temporal alignment precedes contradiction collapse.
 
----
+______________________________________________________________________
 
-# 51. Apparent Contradiction Law
+## 51. Apparent Contradiction Law
 
 Before classifying two claims as contradictory, L5 SHOULD test:
 
@@ -1678,9 +1678,9 @@ same assumptions?
 
 If not, the claims may be context-separated rather than logically contradictory.
 
----
+______________________________________________________________________
 
-# 52. True Contradiction Preservation
+## 52. True Contradiction Preservation
 
 If two claims remain incompatible after scope/regime/temporal normalization:
 
@@ -1692,9 +1692,9 @@ until resolved.
 
 L5 MUST NOT hide contradiction by silently changing scope.
 
----
+______________________________________________________________________
 
-# 53. Revalidation Triggers
+## 53. Revalidation Triggers
 
 Revalidation SHOULD occur when any load-bearing validity condition changes.
 
@@ -1719,9 +1719,9 @@ revalidation_triggers:
   - contradiction_discovered
 ```
 
----
+______________________________________________________________________
 
-# 54. Selective Revalidation
+## 54. Selective Revalidation
 
 A change SHOULD invalidate only affected claims.
 
@@ -1745,9 +1745,9 @@ InvalidateEverything
 
 This preserves unaffected validated state.
 
----
+______________________________________________________________________
 
-# 55. Revalidation State Machine
+## 55. Revalidation State Machine
 
 A conceptual state machine:
 
@@ -1765,9 +1765,9 @@ UNDER_REVIEW
 
 This is a governance model, not a claim of current implementation.
 
----
+______________________________________________________________________
 
-# 56. Stale-State Quarantine
+## 56. Stale-State Quarantine
 
 Stale evidence need not be deleted.
 
@@ -1795,9 +1795,9 @@ Quarantine preserves:
 
 But quarantined evidence MUST NOT silently support current high-confidence conclusions.
 
----
+______________________________________________________________________
 
-# 57. Historical Validity
+## 57. Historical Validity
 
 A stale claim may remain historically valid.
 
@@ -1819,9 +1819,9 @@ FALSE_HISTORICALLY
 
 Temporal reasoning must preserve this distinction.
 
----
+______________________________________________________________________
 
-# 58. Future Validity
+## 58. Future Validity
 
 Future claims require explicit predictive or scheduled status.
 
@@ -1845,9 +1845,9 @@ Therefore:
 FUTURE_EXPECTATION != CURRENT_FACT
 ```
 
----
+______________________________________________________________________
 
-# 59. Retroactive Change
+## 59. Retroactive Change
 
 Some rules or authoritative decisions may explicitly have retroactive scope.
 
@@ -1871,9 +1871,9 @@ RETROACTIVE = FALSE / UNKNOWN
 
 according to the domain contract.
 
----
+______________________________________________________________________
 
-# 60. Control-Plane Requirements
+## 60. Control-Plane Requirements
 
 An L5-conformant control plane SHOULD support:
 
@@ -1914,9 +1914,9 @@ CONTRACT_REQUIREMENT != IMPLEMENTED_FEATURE
 
 until runtime evidence exists.
 
----
+______________________________________________________________________
 
-# 61. Commit-Time Law
+## 61. Commit-Time Law
 
 For governed actions:
 
@@ -1950,9 +1950,9 @@ COMMIT = BLOCK / REVALIDATE
 
 rather than executing stale intent.
 
----
+______________________________________________________________________
 
-# 62. Authority Scope Law
+## 62. Authority Scope Law
 
 Authority itself has scope and time.
 
@@ -1988,9 +1988,9 @@ AUTHORIZED_AT_T2
 
 after expiry or revocation.
 
----
+______________________________________________________________________
 
-# 63. Capability Scope Law
+## 63. Capability Scope Law
 
 Capabilities may also be context-dependent.
 
@@ -2008,9 +2008,9 @@ A Skill may function in one runtime and fail in another.
 
 Therefore capability manifests SHOULD declare environment and regime assumptions.
 
----
+______________________________________________________________________
 
-# 64. Proposal Scope Law
+## 64. Proposal Scope Law
 
 A proposal is scoped to the state from which it was generated.
 
@@ -2036,32 +2036,32 @@ PROPOSAL != COMMIT
 
 remains an L5 temporal integrity boundary as well as a governance boundary.
 
----
+______________________________________________________________________
 
-# 65. Agent Requirements
+## 65. Agent Requirements
 
 An agent operating under L5 SHOULD determine:
 
 1. What system is being discussed?
-2. Which population/entities are included?
-3. What is excluded?
-4. At what scale?
-5. Under which regime?
-6. At what time?
-7. When was evidence observed?
-8. When was it retrieved?
-9. How quickly can the state change?
-10. Has a regime shift occurred?
-11. Are measurements compatible?
-12. Does the requested conclusion exceed source scope?
-13. Does action occur later than reasoning?
-14. Is revalidation required before commit?
+1. Which population/entities are included?
+1. What is excluded?
+1. At what scale?
+1. Under which regime?
+1. At what time?
+1. When was evidence observed?
+1. When was it retrieved?
+1. How quickly can the state change?
+1. Has a regime shift occurred?
+1. Are measurements compatible?
+1. Does the requested conclusion exceed source scope?
+1. Does action occur later than reasoning?
+1. Is revalidation required before commit?
 
 The agent SHOULD answer at the narrowest scope justified by evidence.
 
----
+______________________________________________________________________
 
-# 66. Skill Requirements
+## 66. Skill Requirements
 
 Skills producing consequential outputs SHOULD expose applicability metadata where material.
 
@@ -2085,9 +2085,9 @@ A Skill must not imply universal applicability merely because it is addressable 
 ADDRESSABLE != VALIDATED
 ```
 
----
+______________________________________________________________________
 
-# 67. Workflow
+## 67. Workflow
 
 Canonical conceptual L5 workflow:
 
@@ -2119,9 +2119,9 @@ Canonical conceptual L5 workflow:
 25. RECORD VALIDITY / REVALIDATION CONDITIONS
 ```
 
----
+______________________________________________________________________
 
-# 68. Protocol
+## 68. Protocol
 
 A minimal L5 protocol:
 
@@ -2159,9 +2159,9 @@ APPLICABILITY_DECISION:
   gaps: [...]
 ```
 
----
+______________________________________________________________________
 
-# 69. Interaction with L0 Integrity
+## 69. Interaction with L0 Integrity
 
 L0 supplies the governing requirement that validity context cannot be discarded for convenience.
 
@@ -2182,9 +2182,9 @@ INTEGRITY > FLUENCY
 
 The qualifiers remain.
 
----
+______________________________________________________________________
 
-# 70. Interaction with L1 Epistemic
+## 70. Interaction with L1 Epistemic
 
 L1 identifies what kind of knowledge a claim represents.
 
@@ -2208,9 +2208,9 @@ regime: ALL
 
 Thus epistemic class and applicability are orthogonal dimensions.
 
----
+______________________________________________________________________
 
-# 71. Interaction with L2 Provenance
+## 71. Interaction with L2 Provenance
 
 L2 establishes origin and ancestry.
 
@@ -2226,9 +2226,9 @@ L5 uses that provenance to determine:
 
 Without provenance, applicability may become impossible to reconstruct.
 
----
+______________________________________________________________________
 
-# 72. Interaction with L3 Dependency
+## 72. Interaction with L3 Dependency
 
 L3 establishes which claims depend on which premises.
 
@@ -2248,9 +2248,9 @@ P valid only in R1
 
 then `C` cannot silently become regime-independent.
 
----
+______________________________________________________________________
 
-# 73. Interaction with L4 Causal
+## 73. Interaction with L4 Causal
 
 L4 determines whether causal strength is warranted.
 
@@ -2272,9 +2272,9 @@ UNIVERSALLY_APPLICABLE
 
 A causal result may be valid yet narrowly scoped.
 
----
+______________________________________________________________________
 
-# 74. Interaction with RSCF
+## 74. Interaction with RSCF
 
 L5 SHOULD be embedded directly in RSCF capsules.
 
@@ -2308,9 +2308,9 @@ rscf:
 
 RSCF reuse is permitted only while these validity dimensions remain compatible.
 
----
+______________________________________________________________________
 
-# 75. RSCF Reuse Law
+## 75. RSCF Reuse Law
 
 A stored proof capsule MAY be reused when:
 
@@ -2331,9 +2331,9 @@ REUSE = BLOCKED / CONDITIONAL / REVALIDATE
 
 This is central to AMOS fast-path reasoning.
 
----
+______________________________________________________________________
 
-# 76. Fast-Path Applicability
+## 76. Fast-Path Applicability
 
 Local reuse may avoid expensive global reasoning when:
 
@@ -2354,9 +2354,9 @@ Thus:
 FAST_PATH != LOWER_INTEGRITY_PATH
 ```
 
----
+______________________________________________________________________
 
-# 77. Interaction with Memory
+## 77. Interaction with Memory
 
 Memory MUST preserve applicability qualifiers.
 
@@ -2382,9 +2382,9 @@ Retrieval SHOULD restore the relevant envelope.
 
 Otherwise memory introduces scope pollution.
 
----
+______________________________________________________________________
 
-# 78. Interaction with Canon
+## 78. Interaction with Canon
 
 Canon statements may themselves have:
 
@@ -2405,9 +2405,9 @@ V2 supersedes V1 at T2
 
 where supported.
 
----
+______________________________________________________________________
 
-# 79. Supersession Law
+## 79. Supersession Law
 
 Supersession is explicit.
 
@@ -2434,9 +2434,9 @@ DEPRECATES
 COEXISTS
 ```
 
----
+______________________________________________________________________
 
-# 80. Version Law
+## 80. Version Law
 
 Version identity forms part of scope.
 
@@ -2448,9 +2448,9 @@ for reasoning whenever the version change modifies load-bearing behavior.
 
 Benchmark, implementation, policy, or causal claims tied to V1 cannot automatically transfer to V2.
 
----
+______________________________________________________________________
 
-# 81. Environment Law
+## 81. Environment Law
 
 Execution claims inherit environment conditions.
 
@@ -2477,9 +2477,9 @@ PASSED_IN_ENV_B
 
 until compatibility is demonstrated.
 
----
+______________________________________________________________________
 
-# 82. Benchmark Applicability
+## 82. Benchmark Applicability
 
 Benchmark evidence is scoped to:
 
@@ -2511,9 +2511,9 @@ DEPLOYMENT_VALIDITY
 
 without transfer evidence.
 
----
+______________________________________________________________________
 
-# 83. Policy Applicability
+## 83. Policy Applicability
 
 Policy rules SHOULD specify:
 
@@ -2532,9 +2532,9 @@ policy_applicability:
 
 A policy outside its applicability scope must not be invoked as authority.
 
----
+______________________________________________________________________
 
-# 84. Failure Modes
+## 84. Failure Modes
 
 L5 recognizes at least the following failures.
 
@@ -2610,9 +2610,9 @@ A real contradiction is hidden by inventing different scopes.
 
 Claims from legitimately different regimes are treated as mutually exclusive.
 
----
+______________________________________________________________________
 
-# 85. Repair and Recovery
+## 85. Repair and Recovery
 
 L5 recovery follows:
 
@@ -2638,9 +2638,9 @@ RESTORE / NARROW / QUARANTINE / INVALIDATE
 
 Repair SHOULD be selective.
 
----
+______________________________________________________________________
 
-# 86. Scope Repair
+## 86. Scope Repair
 
 If a claim is overgeneralized:
 
@@ -2664,9 +2664,9 @@ S1
 
 rather than deleting valid S1 evidence.
 
----
+______________________________________________________________________
 
-# 87. Regime Repair
+## 87. Regime Repair
 
 If evidence is discovered to apply only to `R1`:
 
@@ -2682,9 +2682,9 @@ regime: R1
 
 Dependent conclusions must then be re-evaluated.
 
----
+______________________________________________________________________
 
-# 88. Temporal Repair
+## 88. Temporal Repair
 
 If freshness cannot be established:
 
@@ -2708,9 +2708,9 @@ depending on evidence.
 
 No invented timestamp may be inserted merely to complete the schema.
 
----
+______________________________________________________________________
 
-# 89. Validators
+## 89. Validators
 
 Conceptual L5 validators include:
 
@@ -2745,9 +2745,9 @@ validate_revalidation_trigger()
 validate_applicability_envelope()
 ```
 
----
+______________________________________________________________________
 
-# 90. Minimum Tests
+## 90. Minimum Tests
 
 ## Test 1 — Scope Leakage
 
@@ -2766,7 +2766,7 @@ P2 = UNKNOWN/GAP
 
 unless transfer evidence exists.
 
----
+______________________________________________________________________
 
 ## Test 2 — Regime Shift
 
@@ -2785,7 +2785,7 @@ REVALIDATION_REQUIRED
 
 where the claim is regime-sensitive.
 
----
+______________________________________________________________________
 
 ## Test 3 — Freshness
 
@@ -2804,7 +2804,7 @@ FRESHNESS = UNKNOWN
 
 not `CURRENT`.
 
----
+______________________________________________________________________
 
 ## Test 4 — Historical Validity
 
@@ -2821,7 +2821,7 @@ historical claim = potentially valid
 current authority = invalid
 ```
 
----
+______________________________________________________________________
 
 ## Test 5 — Decision/Commit Drift
 
@@ -2838,7 +2838,7 @@ Expected:
 COMMIT_BLOCKED_PENDING_REVALIDATION
 ```
 
----
+______________________________________________________________________
 
 ## Test 6 — Cross-Scale Transfer
 
@@ -2854,7 +2854,7 @@ Expected:
 H-level universal conclusion not automatically licensed
 ```
 
----
+______________________________________________________________________
 
 ## Test 7 — Context Preservation
 
@@ -2876,7 +2876,7 @@ regime: R1
 
 not merely `X`.
 
----
+______________________________________________________________________
 
 ## Test 8 — False Contradiction
 
@@ -2895,7 +2895,7 @@ REGIME-CONDITIONAL DIFFERENCE
 
 not necessarily logical contradiction.
 
----
+______________________________________________________________________
 
 ## Test 9 — Unknown Scope
 
@@ -2913,7 +2913,7 @@ scope = UNKNOWN
 
 not `UNIVERSAL`.
 
----
+______________________________________________________________________
 
 ## Test 10 — Version Transition
 
@@ -2930,9 +2930,9 @@ Expected:
 TRANSFER_REQUIRES_VALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 91. Falsifiers
+## 91. Falsifiers
 
 An L5 applicability conclusion SHOULD expose conditions that would invalidate it.
 
@@ -2954,9 +2954,9 @@ falsifiers:
   - temporal ordering was incorrectly reconstructed
 ```
 
----
+______________________________________________________________________
 
-# 92. Invariants
+## 92. Invariants
 
 ## L5-I1 — Scope Required
 
@@ -3059,9 +3059,9 @@ V1_EVIDENCE != V2_VALIDATION
 ADDRESSABLE != VALIDATED
 ```
 
----
+______________________________________________________________________
 
-# 93. Hard Boundaries
+## 93. Hard Boundaries
 
 ```text
 VALID_HERE != VALID_EVERYWHERE
@@ -3099,9 +3099,9 @@ STRUCTURAL_SIMILARITY != TRANSFER_VALIDATION
 UNKNOWN/GAP != PASS
 ```
 
----
+______________________________________________________________________
 
-# 94. Dependencies
+## 94. Dependencies
 
 Conceptual dependency spine:
 
@@ -3129,9 +3129,9 @@ L5 relies particularly on:
 
 L5 MUST NOT weaken earlier laws.
 
----
+______________________________________________________________________
 
-# 95. Downstream Requirements
+## 95. Downstream Requirements
 
 Any later core law consuming L5-governed knowledge SHOULD preserve:
 
@@ -3151,9 +3151,9 @@ where material.
 
 A downstream transformation that discards these fields must either prove they are irrelevant or explicitly record the loss.
 
----
+______________________________________________________________________
 
-# 96. Non-Purposes
+## 96. Non-Purposes
 
 L5 does NOT:
 
@@ -3169,9 +3169,9 @@ L5 does NOT:
 - execute actions;
 - convert placeholders into implementation.
 
----
+______________________________________________________________________
 
-# 97. Evidence / Provenance Requirements
+## 97. Evidence / Provenance Requirements
 
 A mature L5 artifact SHOULD preserve source references for:
 
@@ -3195,9 +3195,9 @@ MODEL / UNKNOWN/GAP
 
 must remain visible.
 
----
+______________________________________________________________________
 
-# 98. Gap Status
+## 98. Gap Status
 
 This document supplies a full structural proposal for `[[01_CANON/01_CORE_LAWS/L5_SCOPE_REGIME|L5_SCOPE_REGIME]].md`.
 
@@ -3227,9 +3227,9 @@ Therefore:
 FULL_CONTENT != FINAL_CANON
 ```
 
----
+______________________________________________________________________
 
-# 99. RSCF Completion State
+## 99. RSCF Completion State
 
 ```yaml
 claim_class: AMOS_MODEL
@@ -3319,9 +3319,9 @@ confidence_ceiling:
   empirical_validity: DOMAIN_DEPENDENT
 ```
 
----
+______________________________________________________________________
 
-# 100. Canon Promotion Gate
+## 100. Canon Promotion Gate
 
 Before promotion to final canon:
 
@@ -3359,15 +3359,15 @@ not:
 STATUS = VERIFIED_FINAL_CANON
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/L0_INTEGRITY|L0_INTEGRITY]] · [[01_CANON/01_CORE_LAWS/L1_EPISTEMIC|L1_EPISTEMIC]] · [[01_CANON/01_CORE_LAWS/L2_PROVENANCE|L2_PROVENANCE]] · [[01_CANON/01_CORE_LAWS/L3_DEPENDENCY|L3_DEPENDENCY]] · [[01_CANON/01_CORE_LAWS/L4_CAUSAL|L4_CAUSAL]]
 
----
+______________________________________________________________________
 
 RSCF-NODE
 
@@ -3392,5 +3392,6 @@ claim_class: AMOS_MODEL
 ```
 ```
 
----
+______________________________________________________________________
+
 **MOC:** [[01_CANON/01_CORE_LAWS/01_CORE_LAWS_MOC|01_CORE_LAWS_MOC]]

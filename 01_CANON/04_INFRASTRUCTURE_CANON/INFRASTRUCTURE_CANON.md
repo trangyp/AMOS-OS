@@ -3,8 +3,7 @@ type: canon
 source: 01_CANON/04_INFRASTRUCTURE_CANON
 artifact_id: AMOS-INFRASTRUCTURE-CANON
 name: INFRASTRUCTURE_CANON
-title: AMOS Infrastructure Canon — Substrate, Resource, Deployment, Resilience, and
-  Operational Foundations
+title: AMOS Infrastructure Canon — Substrate, Resource, Deployment, Resilience, and Operational Foundations
 document_version: 2.0.0
 canon_version: 4.4
 amos_core_target: v4.4
@@ -18,50 +17,49 @@ steward: Trang Phan
 created: 2026-08-25
 updated: 2026-08-25
 tags:
-- amos
-- canon
-- universe
-- amos-os
-- amos-core
-- amos-core-v4-4
-- infrastructure
-- substrate
-- compute
-- storage
-- network
-- deployment
-- runtime
-- resilience
-- availability
-- durability
-- resource-governance
-- topology
-- isolation
-- fault-domain
-- persistence
-- state
-- provenance
-- observability
-- security
-- recovery
-- rollback
-- rscf
-- causal-lineage
-- canon-group/infrastructure
-- canon/framework
-- canon/model
-- rscf/claim
-- rscf/provenance
-- rscf/state/derived
-- readme
-- architecture
-- placement-rules
-- amos-core-laws
-- law-hierarchy
-- operating-model
+  - amos
+  - canon
+  - universe
+  - amos-os
+  - amos-core
+  - amos-core-v4-4
+  - infrastructure
+  - substrate
+  - compute
+  - storage
+  - network
+  - deployment
+  - runtime
+  - resilience
+  - availability
+  - durability
+  - resource-governance
+  - topology
+  - isolation
+  - fault-domain
+  - persistence
+  - state
+  - provenance
+  - observability
+  - security
+  - recovery
+  - rollback
+  - rscf
+  - causal-lineage
+  - canon-group/infrastructure
+  - canon/framework
+  - canon/model
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/derived
+  - readme
+  - architecture
+  - placement-rules
+  - amos-core-laws
+  - law-hierarchy
+  - operating-model
 aliases:
-- AMOS Infrastructure Canon - Infrastructure Canon - AMOS Infrastructure Foundation
-  - AMOS Ope
+  - AMOS Infrastructure Canon - Infrastructure Canon - AMOS Infrastructure Foundation - AMOS Ope
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -70,19 +68,21 @@ rscf:
 ---
 
 # AMOS Infrastructure Canon
+
 **Origin architect / steward:** Trang Phan
+
 > **Status:** `ACTIVE_CANON_CANDIDATE`
 > **AMOS Core target:** `v4.4`
 > **Conclusion class:** `AMOS_MODEL`
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
----
+> rscf:
+> state: DERIVED
+> claim_class: DERIVED
+> provenance: AMOS_corpus
+> scope: AMOS_general
 
+______________________________________________________________________
 
-# 0. Purpose
+## 0. Purpose
 
 The **AMOS Infrastructure Canon** defines the architectural rules governing the physical, virtual, computational, storage, network, deployment, and operational substrates upon which AMOS OS components may execute.
 
@@ -114,9 +114,9 @@ Supporting law:
 CAPABILITY != AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 1. Architectural Position
+## 1. Architectural Position
 
 AMOS OS separates logical authority from execution substrate.
 
@@ -158,9 +158,9 @@ Conceptually:
 
 Infrastructure must not silently redefine higher-level canon.
 
----
+______________________________________________________________________
 
-# 2. Infrastructure Boundary
+## 2. Infrastructure Boundary
 
 ```text
 INFRASTRUCTURE != CANON
@@ -186,9 +186,9 @@ Infrastructure may host these components.
 
 Hosting does not make them equivalent.
 
----
+______________________________________________________________________
 
-# 3. Core Infrastructure Law
+## 3. Core Infrastructure Law
 
 ```text
 RESOURCE AVAILABILITY
@@ -222,9 +222,9 @@ RESOURCE EXISTS
 USE RESOURCE
 ```
 
----
+______________________________________________________________________
 
-# 4. Infrastructure Domains
+## 4. Infrastructure Domains
 
 The infrastructure canon conceptually covers:
 
@@ -274,9 +274,9 @@ EXTERNAL CONNECTIVITY
 
 Exact implementations remain environment-specific.
 
----
+______________________________________________________________________
 
-# 5. H/M/L Infrastructure Decomposition
+## 5. H/M/L Infrastructure Decomposition
 
 Infrastructure should support AMOS fractal decomposition.
 
@@ -310,9 +310,9 @@ L: WORKER INSTANCE
 
 The H/M/L model is architectural organization, not proof that a particular deployment implements these exact layers.
 
----
+______________________________________________________________________
 
-# 6. Infrastructure Topology
+## 6. Infrastructure Topology
 
 Conceptual topology:
 
@@ -333,9 +333,9 @@ INFRASTRUCTURE
 
 Each branch may recursively decompose.
 
----
+______________________________________________________________________
 
-# 7. Compute Substrate
+## 7. Compute Substrate
 
 Compute provides execution capacity for:
 
@@ -365,9 +365,9 @@ OBSERVABILITY SERVICES
 
 Compute capacity does not imply authorization to execute arbitrary work.
 
----
+______________________________________________________________________
 
-# 8. Compute Identity
+## 8. Compute Identity
 
 Every consequential compute unit should eventually have a distinguishable identity.
 
@@ -393,9 +393,9 @@ Identity and authority remain separate.
 RESOURCE_IDENTITY != RESOURCE_AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 9. Compute Classes
+## 9. Compute Classes
 
 Possible conceptual classes:
 
@@ -425,9 +425,9 @@ These classes describe functional placement.
 
 They do not assert a specific deployment topology.
 
----
+______________________________________________________________________
 
-# 10. Resource Isolation
+## 10. Resource Isolation
 
 Components with different trust, authority, failure, or workload characteristics should not be assumed safe to colocate.
 
@@ -459,9 +459,9 @@ SECURITY DOMAIN
 
 Required isolation depends on risk and implementation evidence.
 
----
+______________________________________________________________________
 
-# 11. Isolation Firewall
+## 11. Isolation Firewall
 
 ```text
 LOGICAL SEPARATION
@@ -487,9 +487,9 @@ PROVEN SECURITY BOUNDARY
 
 No stronger infrastructure guarantee should be inferred without supporting evidence.
 
----
+______________________________________________________________________
 
-# 12. Storage Substrate
+## 12. Storage Substrate
 
 Storage may support:
 
@@ -527,9 +527,9 @@ TEST EVIDENCE
 
 These categories must not be silently conflated.
 
----
+______________________________________________________________________
 
-# 13. Storage Firewall
+## 13. Storage Firewall
 
 ```text
 STORED
@@ -542,24 +542,28 @@ PERSISTED
 !=
 CANONICAL
 ```
+
 ```text
 AVAILABLE
 !=
 CURRENT
 ```
+
 ```text
 BACKED UP
 !=
 VALIDATED
 ```
+
 ```text
 REPLICATED
 !=
 INDEPENDENTLY PROVEN
 ```
----
 
-# 14. Persistence Boundary
+______________________________________________________________________
+
+## 14. Persistence Boundary
 
 Persistence describes survival across a defined lifecycle boundary.
 
@@ -591,9 +595,9 @@ PERSISTENT
 
 without a scope is incomplete.
 
----
+______________________________________________________________________
 
-# 15. Durability Boundary
+## 15. Durability Boundary
 
 ```text
 PERSISTENCE != DURABILITY
@@ -611,9 +615,9 @@ DURABLE
 
 must inherit a failure envelope.
 
----
+______________________________________________________________________
 
-# 16. Authoritative State Storage
+## 16. Authoritative State Storage
 
 Authoritative state must remain distinguishable from:
 
@@ -643,9 +647,9 @@ AUTHORITATIVE STATE
 
 unless authority is explicitly transferred or established.
 
----
+______________________________________________________________________
 
-# 17. State Identity
+## 17. State Identity
 
 Consequential state should conceptually preserve:
 
@@ -664,9 +668,9 @@ state_identity:
   validity_conditions: []
 ```
 
----
+______________________________________________________________________
 
-# 18. Storage Versioning
+## 18. Storage Versioning
 
 Infrastructure storage must not silently erase semantic version identity.
 
@@ -686,9 +690,9 @@ RUNTIME VERSION
 
 A storage revision may contain a semantic change, but the two identities remain distinct.
 
----
+______________________________________________________________________
 
-# 19. MVCC Infrastructure Support
+## 19. MVCC Infrastructure Support
 
 AMOS Core v4.4 includes MVCC concepts.
 
@@ -718,9 +722,9 @@ V43
 
 the caller must not silently overwrite the newer state.
 
----
+______________________________________________________________________
 
-# 20. CAS Infrastructure Support
+## 20. CAS Infrastructure Support
 
 Conceptual compare-and-swap:
 
@@ -746,9 +750,9 @@ Infrastructure may provide primitives supporting this pattern.
 
 This canon does not claim a specific implementation exists.
 
----
+______________________________________________________________________
 
-# 21. Atomicity Boundary
+## 21. Atomicity Boundary
 
 Atomicity must be explicitly scoped.
 
@@ -780,9 +784,9 @@ ATOMIC LOCALLY
 ATOMIC GLOBALLY
 ```
 
----
+______________________________________________________________________
 
-# 22. Multi-RSCF Infrastructure
+## 22. Multi-RSCF Infrastructure
 
 Where atomic multi-RSCF reasoning requires persistent coordination, infrastructure must preserve the relevant dependency relationship.
 
@@ -799,9 +803,9 @@ ATOMIC DECISION BOUNDARY
 
 Infrastructure must not expose partial persistence as successful composite finalization where all components are load-bearing.
 
----
+______________________________________________________________________
 
-# 23. Network Substrate
+## 23. Network Substrate
 
 Network infrastructure enables communication between:
 
@@ -833,9 +837,9 @@ NETWORK REACHABILITY
 AUTHORIZATION
 ```
 
----
+______________________________________________________________________
 
-# 24. Network Trust Firewall
+## 24. Network Trust Firewall
 
 ```text
 REACHABLE
@@ -848,21 +852,24 @@ INTERNAL
 !=
 SAFE
 ```
+
 ```text
 ENCRYPTED
 !=
 AUTHORIZED
 ```
+
 ```text
 AUTHENTICATED
 !=
 AUTHORIZED FOR EVERY ACTION
 ```
+
 Trust remains local and typed.
 
----
+______________________________________________________________________
 
-# 25. Network Dependency
+## 25. Network Dependency
 
 Network dependencies should be represented where they can alter correctness.
 
@@ -884,9 +891,9 @@ NETWORK FAILURE
 
 may invalidate or defer A's operation.
 
----
+______________________________________________________________________
 
-# 26. Partial Failure
+## 26. Partial Failure
 
 Distributed infrastructure must assume partial failure is possible.
 
@@ -907,9 +914,9 @@ SYSTEM RESPONDING
 SYSTEM FULLY HEALTHY
 ```
 
----
+______________________________________________________________________
 
-# 27. Fault Domains
+## 27. Fault Domains
 
 Infrastructure should explicitly model fault domains where consequential.
 
@@ -939,9 +946,9 @@ DEPENDENCY SERVICE
 
 Independence between replicas or workers must not be assumed merely because identifiers differ.
 
----
+______________________________________________________________________
 
-# 28. Correlated Failure
+## 28. Correlated Failure
 
 Canonical law:
 
@@ -961,9 +968,9 @@ INSTANCE C ─┘
 
 These instances share host-level failure ancestry.
 
----
+______________________________________________________________________
 
-# 29. Provenance Topology Applied to Infrastructure
+## 29. Provenance Topology Applied to Infrastructure
 
 Infrastructure redundancy should use the same independence discipline as evidence provenance.
 
@@ -991,9 +998,9 @@ where:
 M <= N
 ```
 
----
+______________________________________________________________________
 
-# 30. Resource Provenance
+## 30. Resource Provenance
 
 Consequential infrastructure resources should eventually preserve provenance such as:
 
@@ -1014,9 +1021,9 @@ resource_provenance:
 
 Missing fields remain `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
-# 31. Artifact Integrity
+## 31. Artifact Integrity
 
 Executable or load-bearing artifacts should eventually support integrity verification.
 
@@ -1040,9 +1047,9 @@ LOAD
 
 A filename alone is insufficient proof of identity.
 
----
+______________________________________________________________________
 
-# 32. Infrastructure Identity Firewall
+## 32. Infrastructure Identity Firewall
 
 ```text
 FILENAME
@@ -1068,9 +1075,9 @@ HASH
 
 These may be linked but must not be silently collapsed.
 
----
+______________________________________________________________________
 
-# 33. Configuration
+## 33. Configuration
 
 Infrastructure configuration is operational state.
 
@@ -1084,9 +1091,9 @@ Canon may constrain configuration.
 
 Configuration realizes a particular environment-specific choice.
 
----
+______________________________________________________________________
 
-# 34. Configuration Provenance
+## 34. Configuration Provenance
 
 Consequential configuration should eventually preserve:
 
@@ -1110,9 +1117,9 @@ ROLLBACK TARGET
 
 Configuration without provenance should not automatically be treated as authoritative.
 
----
+______________________________________________________________________
 
-# 35. Configuration Drift
+## 35. Configuration Drift
 
 Conceptually:
 
@@ -1130,9 +1137,9 @@ DRIFT
 
 Drift should become observable when it can materially affect system correctness or security.
 
----
+______________________________________________________________________
 
-# 36. Environment Identity
+## 36. Environment Identity
 
 Infrastructure decisions inherit environment.
 
@@ -1162,9 +1169,9 @@ VALID IN TEST
 VALID IN PRODUCTION
 ```
 
----
+______________________________________________________________________
 
-# 37. Environment Promotion
+## 37. Environment Promotion
 
 Promotion should conceptually follow:
 
@@ -1186,9 +1193,9 @@ OBSERVATION
 
 Existence in one environment does not automatically authorize promotion to another.
 
----
+______________________________________________________________________
 
-# 38. Deployment
+## 38. Deployment
 
 Deployment is the realization of an approved artifact/configuration into an environment.
 
@@ -1206,9 +1213,9 @@ ACTIVATION
 VALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 39. Deployment Envelope
+## 39. Deployment Envelope
 
 A consequential deployment should eventually carry:
 
@@ -1228,9 +1235,9 @@ deployment:
   created_at:
 ```
 
----
+______________________________________________________________________
 
-# 40. Deployment Atomicity
+## 40. Deployment Atomicity
 
 Deployment atomicity must be scoped.
 
@@ -1248,9 +1255,9 @@ is not.
 
 Do not infer system-wide atomicity from component-level deployment success.
 
----
+______________________________________________________________________
 
-# 41. Rollout Strategy
+## 41. Rollout Strategy
 
 Infrastructure may support staged rollout patterns such as:
 
@@ -1272,9 +1279,9 @@ FEATURE-GATED
 
 These are implementation strategies, not mandatory claims about current AMOS deployment.
 
----
+______________________________________________________________________
 
-# 42. Reversibility Preference
+## 42. Reversibility Preference
 
 Under uncertainty, infrastructure changes should prefer:
 
@@ -1294,9 +1301,9 @@ where practical.
 
 This follows AMOS action governance.
 
----
+______________________________________________________________________
 
-# 43. Rollback
+## 43. Rollback
 
 Infrastructure rollback should restore the nearest valid recoverable deployment or state rather than blindly reverting everything.
 
@@ -1316,9 +1323,9 @@ PRESERVE UNAFFECTED COMPONENTS
 REVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 44. Recovery
+## 44. Recovery
 
 Canonical recovery pattern:
 
@@ -1338,9 +1345,9 @@ REVALIDATE
 RESUME
 ```
 
----
+______________________________________________________________________
 
-# 45. No Blind Restart
+## 45. No Blind Restart
 
 ```text
 FAILED COMPONENT
@@ -1352,9 +1359,9 @@ DO NOT EXPECT RESTART TO SOLVE ROOT CAUSE
 
 Restart may be a valid action only when its assumptions are justified.
 
----
+______________________________________________________________________
 
-# 46. Failure Locality
+## 46. Failure Locality
 
 AMOS recovery law applies to infrastructure:
 
@@ -1370,9 +1377,9 @@ PRESERVE UNAFFECTED INFRASTRUCTURE
 
 Global teardown is a last resort.
 
----
+______________________________________________________________________
 
-# 47. Dependency Graph
+## 47. Dependency Graph
 
 Infrastructure should eventually expose load-bearing dependency relationships.
 
@@ -1406,9 +1413,9 @@ AUTHORITY STORE
 
 Dependency edges should be typed where material.
 
----
+______________________________________________________________________
 
-# 48. Dependency Types
+## 48. Dependency Types
 
 Possible infrastructure dependency types:
 
@@ -1438,9 +1445,9 @@ CAPACITY
 
 A dependency's existence alone does not specify its semantics.
 
----
+______________________________________________________________________
 
-# 49. Dependency Closure
+## 49. Dependency Closure
 
 Before declaring a service operational, load-bearing dependencies should be resolved sufficiently.
 
@@ -1458,9 +1465,9 @@ DEPENDENCY CLOSURE
 
 Do not traverse unrelated infrastructure.
 
----
+______________________________________________________________________
 
-# 50. Health
+## 50. Health
 
 Health is typed and scoped.
 
@@ -1490,9 +1497,9 @@ PROCESS ALIVE
 SERVICE HEALTHY
 ```
 
----
+______________________________________________________________________
 
-# 51. Readiness
+## 51. Readiness
 
 ```text
 ALIVE
@@ -1504,9 +1511,9 @@ A component may be running but unable to safely serve work.
 
 Readiness should account for load-bearing dependencies.
 
----
+______________________________________________________________________
 
-# 52. Liveness
+## 52. Liveness
 
 ```text
 READY
@@ -1527,9 +1534,10 @@ CAN THE COMPONENT CONTINUE OPERATING?
 READINESS:
 CAN THE COMPONENT SAFELY ACCEPT WORK?
 ```
----
 
-# 53. Observability
+______________________________________________________________________
+
+## 53. Observability
 
 Infrastructure observability should eventually expose:
 
@@ -1567,9 +1575,9 @@ SECURITY EVENTS
 
 Metrics must be interpreted within environment and workload scope.
 
----
+______________________________________________________________________
 
-# 54. Observability Firewall
+## 54. Observability Firewall
 
 ```text
 METRIC
@@ -1582,16 +1590,18 @@ ALERT
 !=
 ROOT CAUSE
 ```
+
 ```text
 CORRELATION
 !=
 CAUSATION
 ```
+
 Infrastructure telemetry is observation until stronger inference is justified.
 
----
+______________________________________________________________________
 
-# 55. Capacity
+## 55. Capacity
 
 Capacity must be typed.
 
@@ -1623,9 +1633,9 @@ WORKER COUNT
 
 A single aggregate capacity number is usually insufficient.
 
----
+______________________________________________________________________
 
-# 56. Capacity Envelope
+## 56. Capacity Envelope
 
 A capacity claim should specify:
 
@@ -1655,9 +1665,9 @@ BENCHMARK RESULT
 UNIVERSAL CAPACITY
 ```
 
----
+______________________________________________________________________
 
-# 57. Scaling
+## 57. Scaling
 
 Scaling may be:
 
@@ -1679,9 +1689,9 @@ Scaling increases resources.
 
 It does not automatically improve correctness, availability, or independence.
 
----
+______________________________________________________________________
 
-# 58. Scaling Firewall
+## 58. Scaling Firewall
 
 ```text
 MORE INSTANCES
@@ -1694,19 +1704,22 @@ MORE COMPUTE
 !=
 MORE AUTHORITY
 ```
+
 ```text
 MORE REPLICAS
 !=
 MORE TRUTH
 ```
+
 ```text
 MORE CAPACITY
 !=
 LOWER RISK
 ```
----
 
-# 59. Resource Governance
+______________________________________________________________________
+
+## 59. Resource Governance
 
 Resource allocation should remain governed.
 
@@ -1728,9 +1741,9 @@ ALLOCATION
 
 This prevents uncontrolled consumption from becoming implicit policy.
 
----
+______________________________________________________________________
 
-# 60. Resource Limits
+## 60. Resource Limits
 
 Potential controls:
 
@@ -1756,9 +1769,9 @@ COST LIMIT
 
 Limits should be explicit where exhaustion can affect system integrity.
 
----
+______________________________________________________________________
 
-# 61. Backpressure
+## 61. Backpressure
 
 Infrastructure should support bounded behavior under load.
 
@@ -1780,9 +1793,9 @@ UNBOUNDED QUEUE GROWTH
 
 where unbounded growth creates failure risk.
 
----
+______________________________________________________________________
 
-# 62. Load Shedding
+## 62. Load Shedding
 
 Under constrained conditions, controlled rejection may be safer than uncontrolled collapse.
 
@@ -1798,9 +1811,9 @@ PRESERVE CRITICAL PATHS
 
 Exact priority policy belongs to governance/control layers.
 
----
+______________________________________________________________________
 
-# 63. Availability
+## 63. Availability
 
 Availability is scoped.
 
@@ -1828,9 +1841,9 @@ SERVICE LEVEL
 FAILURE DOMAIN
 ```
 
----
+______________________________________________________________________
 
-# 64. Resilience
+## 64. Resilience
 
 Resilience concerns the system's ability to preserve or recover required function under specified disturbance.
 
@@ -1848,9 +1861,9 @@ RECOVERY CAPABILITY
 NO FAILURE
 ```
 
----
+______________________________________________________________________
 
-# 65. Redundancy
+## 65. Redundancy
 
 Redundancy may improve resilience only when failure correlation is sufficiently controlled.
 
@@ -1862,9 +1875,9 @@ SHARED FAILURE DOMAIN
 
 may provide less protection than apparent instance count suggests.
 
----
+______________________________________________________________________
 
-# 66. Replication
+## 66. Replication
 
 Replication may support:
 
@@ -1896,9 +1909,9 @@ REPLICATION
 INDEPENDENT PROVENANCE
 ```
 
----
+______________________________________________________________________
 
-# 67. Backup
+## 67. Backup
 
 Backup should be treated as a recovery artifact.
 
@@ -1910,9 +1923,9 @@ BACKUP RESTORABLE
 
 Therefore restore validation is required before strong recoverability claims.
 
----
+______________________________________________________________________
 
-# 68. Restore
+## 68. Restore
 
 A restore process should conceptually validate:
 
@@ -1934,9 +1947,9 @@ TARGET ENVIRONMENT
 RESTORED STATE
 ```
 
----
+______________________________________________________________________
 
-# 69. Recovery Point and Recovery Time
+## 69. Recovery Point and Recovery Time
 
 Where relevant, infrastructure may define:
 
@@ -1951,11 +1964,12 @@ RTO
 =
 ACCEPTABLE RECOVERY TIME TARGET
 ```
+
 These remain operational targets until validated by evidence.
 
----
+______________________________________________________________________
 
-# 70. Disaster Recovery
+## 70. Disaster Recovery
 
 Disaster recovery should eventually define:
 
@@ -1981,9 +1995,9 @@ RETURN-TO-NORMAL PROCEDURE
 
 A document alone does not prove disaster recovery capability.
 
----
+______________________________________________________________________
 
-# 71. Security Substrate
+## 71. Security Substrate
 
 Infrastructure provides security-enabling primitives such as:
 
@@ -2019,9 +2033,9 @@ SECURITY POLICY
 
 Policy and authority remain governed separately.
 
----
+______________________________________________________________________
 
-# 72. Secret Handling
+## 72. Secret Handling
 
 Secrets should remain distinct from ordinary configuration.
 
@@ -2047,9 +2061,9 @@ MINIMUM EXPOSURE
 LIFETIME CONTROL
 ```
 
----
+______________________________________________________________________
 
-# 73. Least Privilege
+## 73. Least Privilege
 
 Infrastructure permissions should be bounded to the smallest sufficient scope.
 
@@ -2067,9 +2081,9 @@ MINIMUM DURATION
 
 This is an architectural principle, not proof of implementation.
 
----
+______________________________________________________________________
 
-# 74. External Connectivity
+## 74. External Connectivity
 
 External infrastructure edges are trust-boundary crossings.
 
@@ -2095,9 +2109,9 @@ THIRD-PARTY TOOL
 
 Every external edge should be treated as independently governed where consequential.
 
----
+______________________________________________________________________
 
-# 75. External Dependency Firewall
+## 75. External Dependency Firewall
 
 ```text
 EXTERNAL SERVICE AVAILABLE
@@ -2110,14 +2124,16 @@ API RESPONSE
 !=
 VERIFIED FACT
 ```
+
 ```text
 THIRD-PARTY SLA
 !=
 AMOS GUARANTEE
 ```
----
 
-# 76. Infrastructure Provenance and RSCF
+______________________________________________________________________
+
+## 76. Infrastructure Provenance and RSCF
 
 Infrastructure observations may enter RSCFs as:
 
@@ -2149,9 +2165,9 @@ DERIVED CLAIM
 DECISION
 ```
 
----
+______________________________________________________________________
 
-# 77. Evidence Typing
+## 77. Evidence Typing
 
 Infrastructure evidence should distinguish:
 
@@ -2179,9 +2195,9 @@ SOURCE_CLAIM
 
 until the claim's status and applicability are independently established.
 
----
+______________________________________________________________________
 
-# 78. Freshness
+## 78. Freshness
 
 Infrastructure state is often highly time-sensitive.
 
@@ -2193,9 +2209,9 @@ HEALTHY AT T2
 
 Therefore infrastructure observations require freshness bounds appropriate to their use.
 
----
+______________________________________________________________________
 
-# 79. Regime Awareness
+## 79. Regime Awareness
 
 Infrastructure behavior may change across regimes such as:
 
@@ -2219,9 +2235,9 @@ SECURITY INCIDENT
 
 A conclusion valid under normal operation may fail during another regime.
 
----
+______________________________________________________________________
 
-# 80. Causal Firewall
+## 80. Causal Firewall
 
 Infrastructure correlation must not be automatically interpreted as cause.
 
@@ -2254,9 +2270,9 @@ DOWNSTREAM FAILURE
 COMMON LOAD DRIVER
 ```
 
----
+______________________________________________________________________
 
-# 81. Sensitivity
+## 81. Sensitivity
 
 For consequential infrastructure decisions, identify the smallest condition capable of changing the decision.
 
@@ -2282,9 +2298,9 @@ STATE VERSION
 
 Test decision-flipping conditions first.
 
----
+______________________________________________________________________
 
-# 82. Causal Epoch Integration
+## 82. Causal Epoch Integration
 
 Infrastructure may provide state and topology information used by causal epoch reasoning.
 
@@ -2304,9 +2320,9 @@ EPOCH E2
 
 dependent conclusions may require revalidation.
 
----
+______________________________________________________________________
 
-# 83. Infrastructure and Local Finality
+## 83. Infrastructure and Local Finality
 
 Shard-local finalization may depend on infrastructure guarantees such as:
 
@@ -2328,9 +2344,9 @@ Infrastructure can support finalization.
 
 It does not independently define semantic finality.
 
----
+______________________________________________________________________
 
-# 84. Coordination Avoidance
+## 84. Coordination Avoidance
 
 Infrastructure should not force global coordination where proof establishes safe locality.
 
@@ -2350,9 +2366,9 @@ LOCAL EXECUTION MAY PROCEED
 
 This supports AMOS v4.4 proof-based coordination avoidance.
 
----
+______________________________________________________________________
 
-# 85. Coordination Escalation
+## 85. Coordination Escalation
 
 Infrastructure coordination becomes necessary where operations share:
 
@@ -2378,9 +2394,9 @@ SECURITY AUTHORITY
 
 and the shared dependency is load-bearing.
 
----
+______________________________________________________________________
 
-# 86. Infrastructure Lifecycle
+## 86. Infrastructure Lifecycle
 
 Conceptual resource lifecycle:
 
@@ -2406,9 +2422,9 @@ ARCHIVED / DESTROYED
 
 Not every resource requires every state.
 
----
+______________________________________________________________________
 
-# 87. Provisioning
+## 87. Provisioning
 
 ```text
 PROVISIONED
@@ -2434,9 +2450,9 @@ REGISTRATION
 
 before use.
 
----
+______________________________________________________________________
 
-# 88. Decommissioning
+## 88. Decommissioning
 
 Resource retirement should preserve required lineage.
 
@@ -2460,9 +2476,9 @@ DESTROY
 
 Deletion must not silently erase required audit history.
 
----
+______________________________________________________________________
 
-# 89. Infrastructure Registry
+## 89. Infrastructure Registry
 
 A future infrastructure registry should minimally track:
 
@@ -2485,9 +2501,9 @@ resource:
   updated_at:
 ```
 
----
+______________________________________________________________________
 
-# 90. Topology Registry
+## 90. Topology Registry
 
 A topology registry should represent:
 
@@ -2511,9 +2527,9 @@ RECOVERY RELATIONSHIPS
 
 where these relationships materially affect system reasoning.
 
----
+______________________________________________________________________
 
-# 91. Infrastructure Invariants
+## 91. Infrastructure Invariants
 
 ```text
 INF-001  INFRASTRUCTURE != AUTHORITY
@@ -2577,9 +2593,9 @@ INF-029  INFRASTRUCTURE OBSERVATIONS ARE FRESHNESS-BOUNDED
 INF-030  OPTIMIZATION MUST NOT WEAKEN INTEGRITY
 ```
 
----
+______________________________________________________________________
 
-# 92. Infrastructure Failure Classes
+## 92. Infrastructure Failure Classes
 
 Conceptual classes:
 
@@ -2621,9 +2637,9 @@ CORRELATED_FAILURE
 UNKNOWN_FAILURE
 ```
 
----
+______________________________________________________________________
 
-# 93. Failure Severity
+## 93. Failure Severity
 
 Severity should depend on impact, not merely component type.
 
@@ -2643,9 +2659,9 @@ CRITICAL
 
 Severity thresholds require operational definition.
 
----
+______________________________________________________________________
 
-# 94. Degraded Mode
+## 94. Degraded Mode
 
 Infrastructure may support degraded operation when:
 
@@ -2665,9 +2681,9 @@ DEGRADED SAFE MODE
 
 rather than uncontrolled partial behavior.
 
----
+______________________________________________________________________
 
-# 95. Fail Closed vs Fail Open
+## 95. Fail Closed vs Fail Open
 
 The correct failure posture depends on function.
 
@@ -2686,9 +2702,9 @@ DEGRADED READ
 
 Exact behavior belongs to policy and risk classification.
 
----
+______________________________________________________________________
 
-# 96. Infrastructure Governance Boundary
+## 96. Infrastructure Governance Boundary
 
 Infrastructure components may enforce decisions.
 
@@ -2712,9 +2728,9 @@ ENFORCEMENT MECHANISM
 POLICY SOURCE
 ```
 
----
+______________________________________________________________________
 
-# 97. Runtime Boundary
+## 97. Runtime Boundary
 
 ```text
 INFRASTRUCTURE
@@ -2727,11 +2743,12 @@ RUNTIME
 =
 HOW AUTHORIZED COMPUTATION IS ORCHESTRATED
 ```
+
 The two interact but remain distinct.
 
----
+______________________________________________________________________
 
-# 98. Operations Boundary
+## 98. Operations Boundary
 
 ```text
 INFRASTRUCTURE
@@ -2757,9 +2774,9 @@ SERVICE MANAGEMENT
 RECOVERY PROCEDURES
 ```
 
----
+______________________________________________________________________
 
-# 99. Security Boundary
+## 99. Security Boundary
 
 ```text
 INFRASTRUCTURE SECURITY PRIMITIVE
@@ -2771,9 +2788,9 @@ Infrastructure may provide encryption or isolation.
 
 Security architecture determines required protections, threat models, and policies.
 
----
+______________________________________________________________________
 
-# 100. Observability Boundary
+## 100. Observability Boundary
 
 ```text
 INFRASTRUCTURE TELEMETRY
@@ -2785,9 +2802,9 @@ Infrastructure emits signals.
 
 The observability plane defines collection, semantics, retention, correlation, and interpretation.
 
----
+______________________________________________________________________
 
-# 101. Minimum Infrastructure Contract
+## 101. Minimum Infrastructure Contract
 
 Every consequential AMOS infrastructure implementation should eventually define:
 
@@ -2811,9 +2828,9 @@ Every consequential AMOS infrastructure implementation should eventually define:
 | Security             | Identity/access/isolation integration |
 | Lifecycle            | Provision-to-retirement states        |
 
----
+______________________________________________________________________
 
-# 102. Infrastructure Test Families
+## 102. Infrastructure Test Families
 
 Expected test families include:
 
@@ -2877,9 +2894,9 @@ CONFIGURATION DRIFT TESTS
 OBSERVABILITY FAILURE TESTS
 ```
 
----
+______________________________________________________________________
 
-# 103. Adversarial Infrastructure Tests
+## 103. Adversarial Infrastructure Tests
 
 High-value adversarial scenarios:
 
@@ -2921,9 +2938,9 @@ SECRET ROTATION LEAVES OLD AUTHORITY ACTIVE
 RESOURCE DECOMMISSIONING ERASES REQUIRED PROVENANCE
 ```
 
----
+______________________________________________________________________
 
-# 104. Proof Obligations
+## 104. Proof Obligations
 
 Strong infrastructure claims require corresponding evidence.
 
@@ -2945,9 +2962,9 @@ Examples:
 | Secure               | threat-model-specific evidence      |
 | Disaster recoverable | tested recovery evidence            |
 
----
+______________________________________________________________________
 
-# 105. Implementation Firewall
+## 105. Implementation Firewall
 
 This canon does **not** by itself establish:
 
@@ -3001,9 +3018,9 @@ FORMAL SECURITY ISOLATION
 
 These require separate repository, runtime, deployment, test, or operational evidence.
 
----
+______________________________________________________________________
 
-# 106. Known Gaps
+## 106. Known Gaps
 
 Current canon-level gaps include:
 
@@ -3051,9 +3068,9 @@ UNKNOWN/GAP
 
 until canonical or implementation evidence is bound.
 
----
+______________________________________________________________________
 
-# 107. Promotion Gate
+## 107. Promotion Gate
 
 Promotion:
 
@@ -3099,9 +3116,9 @@ RECOVERY CONTRACTS
 TEST EVIDENCE
 ```
 
----
+______________________________________________________________________
 
-# 108. RSCF Node
+## 108. RSCF Node
 
 ```yaml
 node_id: AMOS_INFRASTRUCTURE_CANON
@@ -3184,9 +3201,9 @@ does_not_establish:
   - formal security guarantees
 ```
 
----
+______________________________________________________________________
 
-# 109. Changelog
+## 109. Changelog
 
 ## v2.0.0 — 2026-08-25
 
@@ -3232,9 +3249,9 @@ Added:
 
 Initial placeholder reserved the canonical AMOS OS infrastructure location.
 
----
+______________________________________________________________________
 
-# 110. Canonical Summary
+## 110. Canonical Summary
 
 ```text
 AMOS LOGICAL PLANES
@@ -3369,30 +3386,33 @@ WHEN AN INFRASTRUCTURE GUARANTEE IS NOT ESTABLISHED,
 KEEP IT UNKNOWN/GAP.
 ```
 
----
+______________________________________________________________________
 
 **Related:** README|AMOS OS · [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]|Architecture · [[00_ROOT/SYSTEM_MAP|SYSTEM_MAP]]|System Map · [[00_ROOT/PLACEMENT_RULES|PLACEMENT_RULES]]|Placement Rules · [[01_CANON/00_INDEX/CANON_MAP|CANON_MAP]]|Canon Map · [[01_CANON/01_CORE_LAWS/AMOS_CORE_LAWS|AMOS Core Laws]] · [[01_CANON/01_CORE_LAWS/INVARIANT_REGISTRY|INVARIANT_REGISTRY]]|Invariant Registry · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]|Law Hierarchy · [[01_CANON/02_UNIVERSE_CANON/PERSISTENCE_CANON|PERSISTENCE_CANON]]|Persistence Canon · [[01_CANON/04_INFRASTRUCTURE_CANON/AUTHORITY_CANON|AUTHORITY_CANON]]|Authority Canon · [[01_CANON/04_INFRASTRUCTURE_CANON/CONTROL_PLANE_CANON|CONTROL_PLANE_CANON]]|Control Plane Canon · [[02_KERNEL/00_INDEX/KERNEL_MAP|KERNEL_MAP]]|Kernel Map · [[03_CONTROL_PLANE/00_INDEX/CONTROL_PLANE_MAP|CONTROL_PLANE_MAP]]|Control Plane Map · [[04_RUNTIME/00_INDEX/RUNTIME_MAP|RUNTIME_MAP]]|Runtime Map · [[10_MEMORY/00_INDEX/MEMORY_MEMORY_MAP|MEMORY_MEMORY_MAP]]|Memory Map · [[12_STATE/00_INDEX/STATE_STATE_MAP|STATE_STATE_MAP]]|State Map · [[14_TOOLS/00_INDEX/TOOL_MAP|TOOL_MAP]]|Tool Map · [[15_INTERFACES/00_INDEX/INTERFACE_MAP|INTERFACE_MAP]]|Interface Map · [[16_SCHEMAS/00_INDEX/SCHEMA_MAP|SCHEMA_MAP]]|Schema Map · [[17_OBSERVABILITY/00_INDEX/OBSERVABILITY_OBSERVABILITY_MAP|OBSERVABILITY_OBSERVABILITY_MAP]]|Observability Map · [[18_SECURITY/00_INDEX/SECURITY_MAP|SECURITY_MAP]]|Security Map · [[19_TESTS/00_INDEX/TEST_MAP|TEST_MAP]]|Test Map · [[20_OPERATIONS/00_INDEX/OPERATIONS_MAP|OPERATIONS_MAP]]|Operations Map · [[23_OPERATING_MODEL/00_INDEX/OPERATING_MODEL|OPERATING_MODEL]]|Operating Model
 
 ```text
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: infrastructure_canon
 node_type: note
 path: 01_CANON/04_INFRASTRUCTURE_CANON/INFRASTRUCTURE_CANON.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[01_CANON/04_INFRASTRUCTURE_CANON/04_INFRASTRUCTURE_CANON_MOC|04_INFRASTRUCTURE_CANON_MOC]]
-

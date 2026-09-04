@@ -2,7 +2,7 @@
   "file-explorer": true,
   "global-search": true,
   "switcher": true,
-  "graph": true,
+  "graph": false,
   "backlink": true,
   "canvas": true,
   "outgoing-link": true,
@@ -30,5 +30,5 @@
   "sync": true,
   "bases": true,
   "webviewer": false,
-  "localgraph": true
+  "localgraph": false
 }

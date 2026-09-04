@@ -12,19 +12,19 @@ segment: 21_DOMAINS/04_STRATEGY
 artifact_kind: DOMAIN_MODEL
 path: 21_DOMAINS/04_STRATEGY/TPE_DOMAIN_MODEL.md
 tags:
-- amos-os
-- domain
-- vault
-- 04_strategy
-- tpe_domain_model
-- predictive_foresight
-- structural_forecasting
-- rscf
-- canon_candidate
-- canon/domain
-- tpe-trang-prediction-engine
-- amos-x-tpe
-- tss-seven-cycles
+  - amos-os
+  - domain
+  - vault
+  - 04_strategy
+  - tpe_domain_model
+  - predictive_foresight
+  - structural_forecasting
+  - rscf
+  - canon_candidate
+  - canon/domain
+  - tpe-trang-prediction-engine
+  - amos-x-tpe
+  - tss-seven-cycles
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -39,23 +39,23 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - 11_KNOWLEDGE/05_FRAMEWORKS/TPE_TRANG_PREDICTION_ENGINE
-  - 21_DOMAINS/04_STRATEGY/04_STRATEGY_MOC
-  - AMOS_CORPUS
+    - 11_KNOWLEDGE/05_FRAMEWORKS/TPE_TRANG_PREDICTION_ENGINE
+    - 21_DOMAINS/04_STRATEGY/04_STRATEGY_MOC
+    - AMOS_CORPUS
   scope:
-  - DOMAIN_STRATEGY
-  - TPE_STRATEGY_MODEL
-  - SOURCE_DEFINED_MODEL
+    - DOMAIN_STRATEGY
+    - TPE_STRATEGY_MODEL
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   tpe_master:
     artifact:
-    - - TPE_TRANG_PREDICTION_ENGINE
+      -   - TPE_TRANG_PREDICTION_ENGINE
   strategy_moc:
     artifact:
-    - - 04_STRATEGY_MOC
+      -   - 04_STRATEGY_MOC
   matrix_binding:
     artifact:
-    - - AMOS_X_TPE
+      -   - AMOS_X_TPE
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   domain_structure: VERIFIED_SOURCE_STRUCTURE
@@ -67,9 +67,9 @@ epistemic_boundary:
 
 `TPE_DOMAIN_MODEL.md` is the canonical Domain Plane specification governing multi-horizon structural foresight, phase-transition prediction, and dynamic risk lattice forecasting within `21_DOMAINS/04_STRATEGY`.
 
----
+______________________________________________________________________
 
-# 1. 7-Layer Structural Foresight Pipeline
+## 1. 7-Layer Structural Foresight Pipeline
 
 ```text
   Raw Environmental Signal
@@ -89,17 +89,17 @@ epistemic_boundary:
   Layer 7: Strategic Intervention Recommendation & Signed Foresight Capsule
 ```
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **TPE Master:** [[11_KNOWLEDGE/trang/TPE_TRANG_PREDICTION_ENGINE|TPE_TRANG_PREDICTION_ENGINE]]
 - **Seven Cycles:** [[11_KNOWLEDGE/05_FRAMEWORKS/TSS_SEVEN_CYCLES|TSS_SEVEN_CYCLES]]
 - **Cognitive Matrix:** [[25_COGNITIVE_MATRIX/AMOS_X_TPE|AMOS_X_TPE]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -117,9 +117,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[21_DOMAINS/21_DOMAINS_MOC|21_DOMAINS_MOC]] · [[11_KNOWLEDGE/trang/TPE_TRANG_PREDICTION_ENGINE|TPE_TRANG_PREDICTION_ENGINE]] · [[25_COGNITIVE_MATRIX/AMOS_X_TPE|AMOS_X_TPE]]
 
----
+______________________________________________________________________
+
 **MOC:** 04_STRATEGY_MOC

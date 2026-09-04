@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: AMOS SECURITY ARCHITECTURE KERNEL V0 TECH
 tags:
-- canon-group/tech-ai
-- canon/framework
-- rscf/claim
-- rscf/state/observation
-- topic/amos-security-architecture-kernel-v0
-- kernel
-- architecture
+  - canon-group/tech-ai
+  - canon/framework
+  - rscf/claim
+  - rscf/state/observation
+  - topic/amos-security-architecture-kernel-v0
+  - kernel
+  - architecture
 type: data
 source: 11_KNOWLEDGE/kernel
 rscf:
@@ -100,6 +103,6 @@ rscf:
 **Related:** [[11_KNOWLEDGE/kernel/COGNITION_KERNEL|COGNITION_KERNEL]] · [[11_KNOWLEDGE/kernel/MOOD_KERNEL|MOOD_KERNEL]] · [[11_KNOWLEDGE/kernel/AMOS_UBI_KERNEL|AMOS_UBI_KERNEL]] · [[11_KNOWLEDGE/kernel/AMOS_POLICY_DESIGN_KERNEL_V0_GOVERNANCE_RISK|AMOS_POLICY_DESIGN_KERNEL_V0_GOVERNANCE_RISK]]
 ```
 
----
-**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]
+______________________________________________________________________
 
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]

@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Vault Domain Knowledge — Executive Deck Decision System
 type: reference
 source: 07_SKILLS/executive-deck-decision-system/references
 tags:
-- reference
-- executive-deck-decision-system
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - executive-deck-decision-system
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -27,7 +30,7 @@ rscf:
 
 > Path: `dated/2026-08-22/2026-08-22 The Complete Human System — Distilled Executive Summary.md` | Size: 26685 chars | Match score: 10
 
-# The Complete Human System — Distilled Executive Summary
+## The Complete Human System — Distilled Executive Summary
 
 > **One model. All equations grounded in biology/neuroscience. No fluff.**
 >
@@ -42,7 +45,7 @@ rscf:
 >
 > Vault files: 7 notes (53.9 KB) + Memory (11.3 KB) + Epistemic Audit v2 (27.7 KB)
 
----
+______________________________________________________________________
 
 ## I. The Core (Immutable)
 
@@ -54,12 +57,11 @@ Potential ⇄ Distinction ⇄ Observer ⇄ Inquiry ⇄ Higher Distinction
 
 This single loop is the deepest known structure. Every scale — quantum field, cell, brain, mind, society, civilization — is this loop running at a different level of compression.
 
-
-| Level | What it is | Neural substrate | Measurable via |
-|-------|-----------|-----------------|----------------|
-| Self/Other discrimination | Self-generated vs external signals | TPJ, mPFC, precuneus | Social cognition tasks, self/other attribution paradigms |
-| Signal/Noise separation | Meaningful signal vs background | Thalamic gating, NMDA-dependent sensory gating | P50 suppression, PPI, MMN, sensory gating tasks |
-| Boundary clarity | Where "me" ends and "world" begins | Insula-ACC-PFC, interoceptive integration | Interoceptive accuracy, body ownership illusions, agency measures |
+| Level                     | What it is                         | Neural substrate                               | Measurable via                                                    |
+| ------------------------- | ---------------------------------- | ---------------------------------------------- | ----------------------------------------------------------------- |
+| Self/Other discrimination | Self-generated vs external signals | TPJ, mPFC, precuneus                           | Social cognition tasks, self/other attribution paradigms          |
+| Signal/Noise separation   | Meaningful signal vs background    | Thalamic gating, NMDA-dependent sensory gating | P50 suppression, PPI, MMN, sensory gating tasks                   |
+| Boundary clarity          | Where "me" ends and "world" begins | Insula-ACC-PFC, interoceptive integration      | Interoceptive accuracy, body ownership illusions, agency measures |
 
 "Anxiety = Potential / Distinction" → most likely boundary clarity (c).
 "Schizophrenia = Boundary_Coherence failure" → most likely signal/noise separation (b).
@@ -95,29 +97,30 @@ Suffering = Fractal layer misalignment
 ↓
 Healing = Layer re-alignment from the bottom
 ```
----
+
+______________________________________________________________________
 
 ## II. The Anatomical Stack (Biological Grounding)
 
 ### 10-Layer Memory Architecture (top → bottom, slow → fast)
 
-| Layer | Structure | Timescale |
-|-------|-----------|-----------|
+| Layer                 | Structure                                 | Timescale           |
+| --------------------- | ----------------------------------------- | ------------------- |
 | Civilizational Memory | Written records, architecture, technology | Centuries–millennia |
-| Cultural Memory | Language, institutions, artifacts | Decades–centuries |
-| Narrative Memory | DMN (mPFC, PCC, precuneus, IP
+| Cultural Memory       | Language, institutions, artifacts         | Decades–centuries   |
+| Narrative Memory      | DMN (mPFC, PCC, precuneus, IP             |                     |
 
----
+______________________________________________________________________
 
 ### Source 2: VIETNAMESE EXECUTIVE SUMMARY — 19×19 AMOS System Model
 
 > Path: `amos-general/V/VIETNAMESE Executive Summary 19x19 AMOS.md` | Size: 6211 chars | Match score: 10
 
-# VIETNAMESE EXECUTIVE SUMMARY — 19×19 AMOS System Model
+## VIETNAMESE EXECUTIVE SUMMARY — 19×19 AMOS System Model
 
 Bản tóm tắt này là **lớp sâu hơn** theo đúng logic **19×19 (ma trận liên kết)**: không thêm "thông tin truyền thông", mà thêm **invariants (bất biến cấu trúc)** + **patterns (mẫu vòng phản hồi)** + **định luật/đại lượng hệ thống** để đọc đúng trạng thái C6/C7.
 
----
+______________________________________________________________________
 
 ## 1. Invariants cấp hệ (không phụ thuộc câu chuyện)
 
@@ -145,13 +148,13 @@ $$LVR = \frac{\tau_{policy/enforcement}}{\sigma_{noise}}$$
 
 $$LVR \uparrow \Rightarrow overshoot$$
 
-### (I4) Buffer Half-life (t_{1/2})
+### (I4) Buffer Half-life (t\_{1/2})
 
 Vùng đệm (Buf) có "chu kỳ bán rã": tốc độ mất đệm nhanh hơn tốc độ tái tạo là tín hiệu nguy nhất.
 
 $$\frac{dBuf}{dt} < 0 \text{ bền vững} \Rightarrow t_{1/2} \downarrow$$
 
----
+______________________________________________________________________
 
 ## 2. Các mẫu vòng bị bỏ qua (không trùng 48 link trước)
 
@@ -189,7 +192,7 @@ $$H(t) = \int (under\_maintenance) \, dt$$
 
 $$H > H^* \Rightarrow E \downarrow \downarrow$$
 
----
+______________________________________________________________________
 
 ## 3. Meta-đại lượng để đọc đúng hệ thống
 
@@ -211,32 +214,31 @@ $$|TE| \uparrow \Rightarrow hệ rất gần ngưỡng$$
 
 ### (M4) Credit Allocation Purity (CAP)
 
-
----
+______________________________________________________________________
 
 ### Source 3: Executive System Model — G–N–D–C–B Dynamical Architecture
 
 > Path: `system/Executive System Model G-N-D-C-B.md` | Size: 3890 chars | Match score: 10
 
-# Executive System Model — G–N–D–C–B Dynamical Architecture
+## Executive System Model — G–N–D–C–B Dynamical Architecture
 
 Formalized control-system abstraction. Applies to: nervous systems, individuals, institutions, civilizations, financial systems, power grids, ecologies.
 
----
+______________________________________________________________________
 
 ## I. Core State Variables
 
 $$S(t) = [G(t), N(t), D(t), C(t), B(t)]$$
 
-| Variable | Meaning |
-|----------|---------|
-| G | Gain (reactivity / amplification factor) |
-| N | Noise (unstructured perturbation) |
-| D | Damping (stabilization capacity) |
-| C | Connectivity (coupling density between nodes) |
-| B | Buffer (stored resilience / reserve capacity) |
+| Variable | Meaning                                       |
+| -------- | --------------------------------------------- |
+| G        | Gain (reactivity / amplification factor)      |
+| N        | Noise (unstructured perturbation)             |
+| D        | Damping (stabilization capacity)              |
+| C        | Connectivity (coupling density between nodes) |
+| B        | Buffer (stored resilience / reserve capacity) |
 
----
+______________________________________________________________________
 
 ## II. Fundamental Stability Equation
 
@@ -248,10 +250,9 @@ Stabilization capacity:
 
 $$R(t) = D(t) + B(t)$$
 
-
 Universal across scales.
 
----
+______________________________________________________________________
 
 ## III. Dynamic Evolution Laws
 
@@ -285,7 +286,7 @@ $$\frac{dC}{dt} = \kappa T - \rho F$$
 
 Connectivity increases with technology, decreases with fragmentation.
 
----
+______________________________________________________________________
 
 ## IV. Phase Transition Threshold
 
@@ -296,20 +297,22 @@ $$G \cdot N > D + B$$
 When crossed:
 
 1. Nonlinear cascades begin
-2. Local failures propagate
-3. System enters runaway amplification
+1. Local failures propagate
+1. System enters runaway amplification
 
----
+______________________________________________________________________
 
 ## V. Collapse Cascade Equation
 
 $$\frac{dC}{dt} \rightarrow -\infty \quad \text{(rapid decoupling)}$$
+
 $$\frac{dD}{dt} \rightarrow -\infty$$
+
 $$G \rightarrow \text{spike then crash}$$
 
 Observed in: financial crashes, autonomic collapse, power grid failure, institutional breakdown, civilizational fragmentation.
 
----
+______________________________________________________________________
 
 ## VI. Stage Classification
 
@@ -325,7 +328,7 @@ $$G \downarrow, N \downarrow, D \uparrow, B \uparrow$$
 
 Requires deliberate structural intervention.
 
----
+______________________________________________________________________
 
 ## VII. Electromagnetic Extension (EM Layer)
 
@@ -337,7 +340,7 @@ $$\Phi \propto \frac{D}{G \cdot N}$$
 
 Higher damping relative to amplified noise = higher coherence. Low coherence → fragmentation.
 
----
+______________________________________________________________________
 
 ## VIII. Micro-to-Macro Scaling Law
 
@@ -350,31 +353,33 @@ Where $k$ = number of tightly coupled nodes.
 
 High connectivity makes small instability propagate.
 
----
+______________________________________________________________________
 
 ## IX. Civilization Meta-Equation
 
 $$CSI = \frac{D + B}{G \cdot N}$$
 
-| CSI | State |
-|-----|-------|
-| CSI > 1 | Stable |
-| CSI ≈ 1 | Fragile |
+| CSI     | State          |
+| ------- | -------------- |
+| CSI > 1 | Stable         |
+| CSI ≈ 1 | Fragile        |
 | CSI < 1 | Collapse phase |
 
----
+______________________________________________________________________
 
 ## X. Key Insight
 
 Collapse is not caused by evil
 
----
+______________________________________________________________________
+
 **MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -382,13 +387,14 @@ Collapse is not caused by evil
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: executive-deck-decision-system-vault-domain-knowledge
 node_type: reference
 path: 07_SKILLS/executive-deck-decision-system/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC
-

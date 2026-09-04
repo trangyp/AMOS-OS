@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: AMOS NEGOTIATION DIPLOMACY KERNEL V0
 tags:
-- canon-group/tech-ai
-- canon/framework
-- rscf/claim
-- rscf/provenance
-- rscf/state/source-claim
-- topic/amos-negotiation-diplomacy-kernel-v0
-- kernel
+  - canon-group/tech-ai
+  - canon/framework
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - topic/amos-negotiation-diplomacy-kernel-v0
+  - kernel
 type: data
 source: 11_KNOWLEDGE/kernel
 rscf:
@@ -206,6 +209,6 @@ rscf:
 **Related:** [[11_KNOWLEDGE/kernel/AMOS_OS_ROOT_KERNEL|AMOS_OS_ROOT_KERNEL]] · [[11_KNOWLEDGE/kernel/AMOS_TECH_AMOS_CORE_KERNEL_V1_TECH4|AMOS_TECH_AMOS_CORE_KERNEL_V1_TECH4]] · [[11_KNOWLEDGE/kernel/AMOS_MULTI_AGENT_COORDINATION_KERNEL|AMOS_MULTI_AGENT_COORDINATION_KERNEL]] · [[11_KNOWLEDGE/kernel/AMOS_CHANGE_MANAGEMENT_KERNEL_V0_GOVERNANCE_RISK|AMOS_CHANGE_MANAGEMENT_KERNEL_V0_GOVERNANCE_RISK]]
 ```
 
----
-**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]
+______________________________________________________________________
 
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]

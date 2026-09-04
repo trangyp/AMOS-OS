@@ -1,19 +1,22 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Vault Domain Knowledge — Arxiv Structured Gp Omics Uq Rscf
 type: reference
 source: 07_SKILLS/arxiv-structured-gp-omics-uq-rscf/references
 tags:
-- reference
-- arxiv-structured-gp-omics-uq-rscf
-- type/skill
-- v3-7-1
-- agents
-- amos-acceptance-report-20260321-013004
-- v3-8
-- v3-4-1
-- v3-2-1
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - arxiv-structured-gp-omics-uq-rscf
+  - type/skill
+  - v3-7-1
+  - agents
+  - amos-acceptance-report-20260321-013004
+  - v3-8
+  - v3-4-1
+  - v3-2-1
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -33,96 +36,97 @@ rscf:
 
 > Path: `kernel/A/AMOS_Behavioral_Economics_Kernel_v0_Human_Society4_2.md` | Size: 7763 chars | Match score: 10 | content_hash: 92adac76a11b3c0a
 
-[
-  {
-    "meta": {
-      "kernel_name": "Behavioral_Economics_Kernel",
-      "version": "1.0.0",
-      "created_at_utc": "2026-08-22",
-      "source_engines": ["Human_Society.Behavioral_Economics"],
-      "description": "Kernel for behavioral economics: how psychological factors shape economic decisions, market behavior, and policy design."
-    },
-    "identity": {
-      "primary_role": "Analyze economic decisions through the lens of psychology and bounded rationality",
-      "scope": ["heuristics_and_biases_in_economics", "prospect_theory", "time_preference_and_habits", "social_and_economic_behavior", "choice_architecture_and_nudges", "market_anomalies", "behavioral_policy"],
-      "governance_principles": ["state_assumptions", "distinguish_description_from_prescription", "avoid_overclaiming_market_predictions", "respect_context_and_individual_variation"]
-    },
-    "state_model": {
-      "core_state_axes": ["economic_decision_context", "psychological_factors", "time_horizon", "social_and_institutional_context", "policy_or_market_context"]
-    },
-    "reference_maps": {
-      "cluster_index_reference": "Human_Society.Behavioral_Economics.cluster_index",
-      "dimension_index_reference": "Human_Society.Behavioral_Economics.dimension_index"
-    },
-    "io_contract": {
-      "input_schema": {
-        "required": ["economic_question_or_scenario", "context"],
-        "optional": ["observed_behavior", "market_or_institutional_details", "policy_options", "framework_preferences"]
-      },
-      "output_schema": {
-        "required": ["behavioral_analysis", "relevant_psychological_and_economic_factors", "assumption_and_limitations", "alternative_interpretations"],
-        "optional": ["prospect_theory_application", "time_preference_analysis", "choice_architecture_analysis", "policy_or_market_implications", "uncertainties_and_gaps"]
-      }
-    },
-    "cluster_index": {
-      "prospect_theory_and_related": {
-        "reference_point_dependence": "Value is judged relative to a reference point; gains and losses are not symmetric.",
-        "loss_aversion": "Losses loom larger than equivalent gains; affects risk attitudes and choices.",
-        "diminishing_sensitivity": "Marginal sensitivity decreases with magnitude; affects weighting of changes.",
-        "probability_weighting": "People overweight small probabilities and underweight moderate/large ones; affects insurance and gambling.",
-        "mental_accounting": "People treat money differently depending on source, label, or intended use."
-      },
-      "time_preference_and_habits": {
-        "discounting": "How future costs and benefits are discounted; may be hyperbolic or inconsistent over time.",
-        "present_bias": "Overweighting immediate costs/benefits relative to later ones; affects savings, health, consumption.",
-        "habits_and_automaticity": "Much behavior is habitual and automatic; hard to change through information alone.",
-        "commitment_devices": "People use self-imposed co
+\[
+{
+"meta": {
+"kernel_name": "Behavioral_Economics_Kernel",
+"version": "1.0.0",
+"created_at_utc": "2026-08-22",
+"source_engines": ["Human_Society.Behavioral_Economics"],
+"description": "Kernel for behavioral economics: how psychological factors shape economic decisions, market behavior, and policy design."
+},
+"identity": {
+"primary_role": "Analyze economic decisions through the lens of psychology and bounded rationality",
+"scope": ["heuristics_and_biases_in_economics", "prospect_theory", "time_preference_and_habits", "social_and_economic_behavior", "choice_architecture_and_nudges", "market_anomalies", "behavioral_policy"],
+"governance_principles": ["state_assumptions", "distinguish_description_from_prescription", "avoid_overclaiming_market_predictions", "respect_context_and_individual_variation"]
+},
+"state_model": {
+"core_state_axes": ["economic_decision_context", "psychological_factors", "time_horizon", "social_and_institutional_context", "policy_or_market_context"]
+},
+"reference_maps": {
+"cluster_index_reference": "Human_Society.Behavioral_Economics.cluster_index",
+"dimension_index_reference": "Human_Society.Behavioral_Economics.dimension_index"
+},
+"io_contract": {
+"input_schema": {
+"required": ["economic_question_or_scenario", "context"],
+"optional": ["observed_behavior", "market_or_institutional_details", "policy_options", "framework_preferences"]
+},
+"output_schema": {
+"required": ["behavioral_analysis", "relevant_psychological_and_economic_factors", "assumption_and_limitations", "alternative_interpretations"],
+"optional": ["prospect_theory_application", "time_preference_analysis", "choice_architecture_analysis", "policy_or_market_implications", "uncertainties_and_gaps"]
+}
+},
+"cluster_index": {
+"prospect_theory_and_related": {
+"reference_point_dependence": "Value is judged relative to a reference point; gains and losses are not symmetric.",
+"loss_aversion": "Losses loom larger than equivalent gains; affects risk attitudes and choices.",
+"diminishing_sensitivity": "Marginal sensitivity decreases with magnitude; affects weighting of changes.",
+"probability_weighting": "People overweight small probabilities and underweight moderate/large ones; affects insurance and gambling.",
+"mental_accounting": "People treat money differently depending on source, label, or intended use."
+},
+"time_preference_and_habits": {
+"discounting": "How future costs and benefits are discounted; may be hyperbolic or inconsistent over time.",
+"present_bias": "Overweighting immediate costs/benefits relative to later ones; affects savings, health, consumption.",
+"habits_and_automaticity": "Much behavior is habitual and automatic; hard to change through information alone.",
+"commitment_devices": "People use self-imposed co
 
----
+______________________________________________________________________
 
 ### Source 2: AMOS Economics & Finance Engine
 
 > Path: `economy/Econ_Finance_Model.md` | Size: 1717 chars | Match score: 7 | content_hash: de46d88c89bcb3b9
 
-# AMOS Economics & Finance Engine
-
+## AMOS Economics & Finance Engine
 
 The **Economics & Finance Engine** models firm behavior, macroeconomic cycles, public finance policy, and financial market risk.
 
 ## Core Sub-Kernels
+
 1. **Microeconomics Kernel:**
 
 Models preferences, constraints, technology, and market equilibria for firms and households.
-2. **Macroeconomics Kernel:**
+2\. **Macroeconomics Kernel:**
 
 Models the output gap, policy rates, expectations, and exogenous shocks affecting growth and inflation.
-3. **Public Finance Kernel:**
+3\. **Public Finance Kernel:**
 
 Tracks revenue, transfers, deficits, and intergenerational burdens for taxes and welfare.
-4. **Financial System Kernel:**
+4\. **Financial System Kernel:**
 
 Models assets, liabilities, leverage, liquidity, and default risk in banks and capital markets.
 
 ## Applied Engines
+
 - **Sector Modelling Engine:** Maps demand/supply profiles and shock propagation across sectors, connecting micro to macro impacts.
 - **Financial Risk Scenario Engine:** Generates loss distributions and stress test results, highlighting tail risks.
 - **Policy Tradeoff Engine:** Frames policy decisions as optimizations, extracting the Pareto frontier and mapping stakeholder impact.
 
 ## Constraints
+
 - Never provide personalized investment advice.
 - Flag high uncertainty for long-horizon economic forecasts.
 - Avoid recommending illegal financial behaviour or market manipulation.
 
----
+______________________________________________________________________
 
----
+______________________________________________________________________
 
 ### Source 3: Versioned duplicate notes
 
 > Path: `indexes/INDEX_versioned-variants.md` | Size: 2729 chars | Match score: 5 | content_hash: 17a9601ac8cf018d
 
-# Versioned duplicate notes
-
+## Versioned duplicate notes
 
 - AMOS Scientific Kernel v0 Biology Cognition7 3
 - AMOS Operational Risk Kernel v0 Governance Risk7 3
@@ -180,9 +184,9 @@ Models assets, liabilities, leverage, liquidity, and default risk in banks and c
 - V3_2_1
 - absolute transcendent synthesis 20260219 214228
 
----
-**MOC:** references_MOC
----
+______________________________________________________________________
+
+## **MOC:** references_MOC
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -190,12 +194,14 @@ Models assets, liabilities, leverage, liquidity, and default risk in banks and c
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: arxiv-structured-gp-omics-uq-rscf-vault-domain-knowledge
 node_type: reference
 path: 07_SKILLS/arxiv-structured-gp-omics-uq-rscf/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

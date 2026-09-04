@@ -1,3 +1,19 @@
+---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
+title: Zjunlp Skillnet Readme 2026 08 30
+type: note
+source: .
+tags:
+  - note
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+---
+
 <div align="center">
 <a href="http://skillnet.openkg.cn/">
     <img src="images/skillnet.png" width="190" alt="SkillNet Logo">
@@ -11,19 +27,18 @@
 SkillNet treats agent skills as software assets: searchable, installable, inspectable, evaluable, and composable.
 </p>
 
-[![PyPI version](https://badge.fury.io/py/skillnet-ai.svg)](https://pypi.org/project/skillnet-ai/)
-[![GitHub stars](https://img.shields.io/github/stars/zjunlp/SkillNet?style=social)](https://github.com/zjunlp/SkillNet)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
-[![arXiv](https://img.shields.io/badge/arXiv-b5212f.svg?logo=arxiv)](https://arxiv.org/abs/2603.04448)
-[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-FFD21E)](https://huggingface.co/blog/xzwnlp/skillnet)
-[![Website](https://img.shields.io/badge/Website-skillnet.openkg.cn-0078D4.svg)](http://skillnet.openkg.cn/)
-
+[![PYPI VERSION]
+[![GITHUB STARS]
+[![LICENSE: MIT]
+[![PYTHON 3.10+]
+[![ARXIV]
+[![HUGGING FACE]
+[![WEBSITE]
 [Website](http://skillnet.openkg.cn/) · [Python SDK](./skillnet-ai) · [Examples](./examples) · [Experiments](./experiments) · [Paper](https://arxiv.org/abs/2603.04448)
 
 </div>
 
----
+______________________________________________________________________
 
 ## Why SkillNet?
 
@@ -38,7 +53,7 @@ Agents should not rebuild the same capability from scratch every time. SkillNet 
 
 Search and public skill installation are credential-free. Create, evaluate, and analyze work with OpenAI-compatible endpoints. Orchestration runs through Claude Agent SDK and requires a compatible gateway configured with the same `API_KEY`, `BASE_URL`, and `SKILLNET_MODEL` variables.
 
----
+______________________________________________________________________
 
 ## Quick Start
 
@@ -71,7 +86,7 @@ skillnet download <skill_url> -d ./my_skills
 
 No API key is required for search or public GitHub downloads.
 
----
+______________________________________________________________________
 
 ## News
 
@@ -84,20 +99,20 @@ No API key is required for search or public GitHub downloads.
 - **[2026-03-04] Technical report released.** Read the SkillNet report on [arXiv](https://arxiv.org/abs/2603.04448).
 - **[2026-02-23] OpenClaw integration released.** SkillNet is available as a built-in skill for [OpenClaw](https://github.com/openclaw/openclaw).
 
----
+______________________________________________________________________
 
 ## What You Can Build
 
-| Layer | Capability | What it enables |
-| :-- | :-- | :-- |
-| Skill library | Search and download | Reuse existing agent skills instead of rebuilding them |
-| Skill authoring | Create | Turn traces, prompts, repositories, and documents into portable skill packages |
-| Skill quality | Evaluate | Compare skill readiness before putting it in an agent workflow |
-| Skill graph | Analyze | Discover `compose_with`, `depend_on`, and scenario-level handoff relationships |
-| Orchestration | Orchestrate | Pick skills for a task in a curated scene and return an execution-ready prompt |
-| Integrations | Agent skills, MCP, OpenClaw, JiuwenClaw | Use SkillNet inside existing agent runtimes |
+| Layer           | Capability                              | What it enables                                                                |
+| :-------------- | :-------------------------------------- | :----------------------------------------------------------------------------- |
+| Skill library   | Search and download                     | Reuse existing agent skills instead of rebuilding them                         |
+| Skill authoring | Create                                  | Turn traces, prompts, repositories, and documents into portable skill packages |
+| Skill quality   | Evaluate                                | Compare skill readiness before putting it in an agent workflow                 |
+| Skill graph     | Analyze                                 | Discover `compose_with`, `depend_on`, and scenario-level handoff relationships |
+| Orchestration   | Orchestrate                             | Pick skills for a task in a curated scene and return an execution-ready prompt |
+| Integrations    | Agent skills, MCP, OpenClaw, JiuwenClaw | Use SkillNet inside existing agent runtimes                                    |
 
----
+______________________________________________________________________
 
 ## SkillNet Explorer
 
@@ -124,7 +139,7 @@ https://github.com/user-attachments/assets/9f9d35b0-36fd-4d7d-a072-39afa380b241
 
 </div>
 
----
+______________________________________________________________________
 
 ## Python SDK
 
@@ -254,20 +269,20 @@ print([skill.name for skill in result.skills])
 print(result.prompt)
 ```
 
----
+______________________________________________________________________
 
 ## CLI
 
 The CLI ships with `skillnet-ai`.
 
-| Command | What it does | Example |
-| :-- | :-- | :-- |
-| `search` | Search SkillNet | `skillnet search "pdf" --mode vector` |
-| `download` | Install a skill | `skillnet download <url> -d ./skills` |
-| `create` | Create a skill package | `skillnet create --prompt "A skill for table extraction"` |
-| `evaluate` | Evaluate a local or remote skill | `skillnet evaluate ./my_skill` |
-| `analyze` | Analyze local skill relationships | `skillnet analyze ./my_skills` |
-| `orchestrate` | Build a scene skill handoff | `skillnet orchestrate "search papers about RAG"` |
+| Command       | What it does                      | Example                                                   |
+| :------------ | :-------------------------------- | :-------------------------------------------------------- |
+| `search`      | Search SkillNet                   | `skillnet search "pdf" --mode vector`                     |
+| `download`    | Install a skill                   | `skillnet download <url> -d ./skills`                     |
+| `create`      | Create a skill package            | `skillnet create --prompt "A skill for table extraction"` |
+| `evaluate`    | Evaluate a local or remote skill  | `skillnet evaluate ./my_skill`                            |
+| `analyze`     | Analyze local skill relationships | `skillnet analyze ./my_skills`                            |
+| `orchestrate` | Build a scene skill handoff       | `skillnet orchestrate "search papers about RAG"`          |
 
 Use `skillnet <command> --help` for full options.
 
@@ -310,20 +325,20 @@ skillnet orchestrate "Find recent RAG papers and propose three follow-up ideas" 
 
 The command returns the SciAtlas skill collection URL, selected skills, and a downstream agent prompt. Use `--json` for machine-readable output.
 
----
+______________________________________________________________________
 
 ## Configuration
 
-| Variable | Required for | Default |
-| :-- | :-- | :-- |
-| `API_KEY` | `create`, `evaluate`, `analyze`, `orchestrate` | unset |
-| `BASE_URL` | Custom LLM endpoint; orchestration requires a Claude Agent SDK-compatible gateway | `https://api.openai.com/v1` |
-| `SKILLNET_MODEL` | Default LLM model | `gpt-4o` |
-| `GITHUB_TOKEN` | Private repos or higher GitHub rate limits | unset |
-| `GITHUB_MIRROR` | GitHub download mirror | unset |
-| `EMBEDDING_API_KEY` | `analyze --mode scenario` | unset |
-| `EMBEDDING_BASE_URL` | `analyze --mode scenario` | unset |
-| `EMBEDDING_MODEL` | `analyze --mode scenario` | unset |
+| Variable             | Required for                                                                      | Default                     |
+| :------------------- | :-------------------------------------------------------------------------------- | :-------------------------- |
+| `API_KEY`            | `create`, `evaluate`, `analyze`, `orchestrate`                                    | unset                       |
+| `BASE_URL`           | Custom LLM endpoint; orchestration requires a Claude Agent SDK-compatible gateway | `https://api.openai.com/v1` |
+| `SKILLNET_MODEL`     | Default LLM model                                                                 | `gpt-4o`                    |
+| `GITHUB_TOKEN`       | Private repos or higher GitHub rate limits                                        | unset                       |
+| `GITHUB_MIRROR`      | GitHub download mirror                                                            | unset                       |
+| `EMBEDDING_API_KEY`  | `analyze --mode scenario`                                                         | unset                       |
+| `EMBEDDING_BASE_URL` | `analyze --mode scenario`                                                         | unset                       |
+| `EMBEDDING_MODEL`    | `analyze --mode scenario`                                                         | unset                       |
 
 Linux and macOS:
 
@@ -343,7 +358,7 @@ $env:SKILLNET_MODEL = "gpt-4o"
 
 `search` and public GitHub downloads require no credentials.
 
----
+______________________________________________________________________
 
 ## REST API
 
@@ -359,20 +374,20 @@ curl "http://api-skillnet.openkg.cn/v1/search?q=reading%20charts&mode=vector&thr
 
 **Endpoint:** `GET http://api-skillnet.openkg.cn/v1/search`
 
-| Parameter | Type | Default | Description |
-| :-- | :-- | :-- | :-- |
-| `q` | string | required | Search query, keywords or natural language |
-| `mode` | string | `keyword` | `keyword` or `vector` |
-| `category` | string | unset | Filter by category |
-| `limit` | int | `10` | Results per page, max 50 |
-| `page` | int | `1` | Page number, keyword mode only |
-| `min_stars` | int | `0` | Minimum star count, keyword mode only |
-| `sort_by` | string | `stars` | `stars` or `recent`, keyword mode only |
-| `threshold` | float | `0.8` | Similarity threshold, vector mode only |
+| Parameter   | Type   | Default   | Description                                |
+| :---------- | :----- | :-------- | :----------------------------------------- |
+| `q`         | string | required  | Search query, keywords or natural language |
+| `mode`      | string | `keyword` | `keyword` or `vector`                      |
+| `category`  | string | unset     | Filter by category                         |
+| `limit`     | int    | `10`      | Results per page, max 50                   |
+| `page`      | int    | `1`       | Page number, keyword mode only             |
+| `min_stars` | int    | `0`       | Minimum star count, keyword mode only      |
+| `sort_by`   | string | `stars`   | `stars` or `recent`, keyword mode only     |
+| `threshold` | float  | `0.8`     | Similarity threshold, vector mode only     |
 
 </details>
 
----
+______________________________________________________________________
 
 ## Use SkillNet Inside Agents
 
@@ -433,7 +448,7 @@ docker pull fmdogancan/skillnet-mcp:latest
 
 SkillNet integrates with [OpenClaw](https://github.com/openclaw/openclaw) and [JiuwenClaw](https://github.com/openJiuwen-ai/jiuwenclaw) as a built-in skill marketplace. See the [JiuwenClaw guide](./examples/JiuwenClaw/README.md).
 
----
+______________________________________________________________________
 
 ## Examples and Experiments
 
@@ -449,7 +464,7 @@ python scienceworld_run.py --model o4-mini --split test --max_workers 5 --exp_na
 python webshop_run.py --model o4-mini --max_workers 3 --exp_name web_test --use_skill
 ```
 
----
+______________________________________________________________________
 
 ## Roadmap
 
@@ -459,13 +474,13 @@ python webshop_run.py --model o4-mini --max_workers 3 --exp_name web_test --use_
 - SkillFabric workflow substrates for routing across skill collections.
 - SkillGym lifecycle evaluation and training environments.
 
----
+______________________________________________________________________
 
 ## Contributing
 
 Contributions are welcome: bug fixes, documentation, examples, integrations, and new skills all help. Please keep pull requests focused and include reproduction steps or examples when possible.
 
----
+______________________________________________________________________
 
 ## Citation
 
@@ -480,7 +495,7 @@ If SkillNet is useful in your research or agent system, please cite:
 }
 ```
 
----
+______________________________________________________________________
 
 ## License
 

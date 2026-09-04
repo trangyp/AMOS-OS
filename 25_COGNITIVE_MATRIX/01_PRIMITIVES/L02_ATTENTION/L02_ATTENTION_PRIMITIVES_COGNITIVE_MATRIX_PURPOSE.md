@@ -17,58 +17,67 @@ scope: AMOS_OS
 created: 2026-08-25
 updated: 2026-08-25
 tags:
-- amos-os
-- canon-group/tech-ai
-- canon/model
-- kernel
-- kernel/foundation
-- kernel/meta-logic
-- kernel/reasoning
-- kernel/inference
-- kernel/validation
-- kernel/constraints
-- kernel/epistemic
-- kernel/provenance
-- kernel/dependency
-- kernel/contradiction
-- kernel/scope
-- kernel/regime
-- kernel/causality
-- kernel/uncertainty
-- kernel/proof
-- kernel/rscf
-- rscf/claim
-- rscf/provenance
-- rscf/state/model
-- topic/meta-logic
-- k-meta-logic
-- k-core19-logic
-- k-distinction-relation-constraint
-- k-law-hierarchy
-- readme
-- architecture
-- placement-rules
-- amos-core-laws
-- law-hierarchy
-- canon-provenance
-- source-lineage
-- supersession-log
-- authoritative-state
+  - amos-os
+  - canon-group/tech-ai
+  - canon/model
+  - kernel
+  - kernel/foundation
+  - kernel/meta-logic
+  - kernel/reasoning
+  - kernel/inference
+  - kernel/validation
+  - kernel/constraints
+  - kernel/epistemic
+  - kernel/provenance
+  - kernel/dependency
+  - kernel/contradiction
+  - kernel/scope
+  - kernel/regime
+  - kernel/causality
+  - kernel/uncertainty
+  - kernel/proof
+  - kernel/rscf
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/model
+  - topic/meta-logic
+  - k-meta-logic
+  - k-core19-logic
+  - k-distinction-relation-constraint
+  - k-law-hierarchy
+  - readme
+  - architecture
+  - placement-rules
+  - amos-core-laws
+  - law-hierarchy
+  - canon-provenance
+  - source-lineage
+  - supersession-log
+  - authoritative-state
 aliases:
-- AMOS Meta Logic Kernel - Meta Logic Kernel - K Meta Logic - K_META_LOGIC
+  - AMOS Meta Logic Kernel - Meta Logic Kernel - K Meta Logic - K_META_LOGIC
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 # [[02_KERNEL/01_META_LOGIC/K_META_LOGIC|K_META_LOGIC]]
+
 > **AMOS Core target:** `v4.4`
 > **Origin architect / steward:** Trang Phan
 > **Plane:** `02_KERNEL`
 > **Status:** `AMOS_MODEL`
 > **Conclusion class:** `AMOS_MODEL`
+
 ## Purpose
+
 `K_META_LOGIC` defines the kernel-level rules governing **how AMOS reasons about reasoning itself**.
 It operates above individual inference operators and below canonical authority.
 Its responsibility is to determine whether a reasoning operation, proof structure, inference path, dependency graph, conclusion, or reasoning shortcut is structurally admissible.
 Conceptually:
+
 ```text
 CLAIMS / OBSERVATIONS / MODELS / RULES
 ↓
@@ -82,21 +91,18 @@ VALID / CONDITIONAL / COMPETING / UNKNOWN
 ↓
 DERIVED CONCLUSION
 ```
+
 The kernel does not determine truth merely by producing a logically coherent argument.
+
 ```text
 LOGICAL COHERENCE
 !=
 EMPIRICAL TRUTH
 ```
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
----
 
+## rscf: state: DERIVED claim_class: DERIVED provenance: AMOS_corpus scope: AMOS_general
 
-# 1. Architectural Position
+## 1. Architectural Position
 
 ```text
 01_CANON
@@ -132,9 +138,9 @@ META LOGIC
 rules governing valid use of reasoning operators
 ```
 
----
+______________________________________________________________________
 
-# 2. Core Meta-Law
+## 2. Core Meta-Law
 
 ```text
 VALID INFERENCE
@@ -170,9 +176,9 @@ INVALID INFERENCE
 INVALID CONCLUSION
 ```
 
----
+______________________________________________________________________
 
-# 3. Integrity Ordering
+## 3. Integrity Ordering
 
 The kernel inherits the AMOS integrity ordering:
 
@@ -190,9 +196,9 @@ TOKEN SAVINGS
 
 Meta-logic therefore forbids reasoning optimizations that weaken the validity of load-bearing inference.
 
----
+______________________________________________________________________
 
-# 4. Hard Boundaries
+## 4. Hard Boundaries
 
 ```text
 CLAIM != EVIDENCE
@@ -215,9 +221,9 @@ DERIVED != OBSERVED
 UNKNOWN/GAP != PASS
 ```
 
----
+______________________________________________________________________
 
-# 5. Meta-Logic Object
+## 5. Meta-Logic Object
 
 A reasoning operation may conceptually be represented as:
 
@@ -251,9 +257,9 @@ reasoning_operation:
   validation_state:
 ```
 
----
+______________________________________________________________________
 
-# 6. Typed Epistemic Inputs
+## 6. Typed Epistemic Inputs
 
 Meta-logic must preserve distinctions among:
 
@@ -296,9 +302,9 @@ VERIFIED
 
 because it explains available observations.
 
----
+______________________________________________________________________
 
-# 7. Conclusion Classes
+## 7. Conclusion Classes
 
 The kernel recognizes:
 
@@ -313,9 +319,9 @@ UNKNOWN/GAP
 
 The weakest accurate class must be used.
 
----
+______________________________________________________________________
 
-# 8. Proof Capsule
+## 8. Proof Capsule
 
 Important conclusions should conceptually carry:
 
@@ -349,9 +355,9 @@ This is a reasoning structure.
 
 It does not imply every runtime implementation must serialize proof capsules exactly in this format.
 
----
+______________________________________________________________________
 
-# 9. Premise Sufficiency
+## 9. Premise Sufficiency
 
 For conclusion `C` derived from premises:
 
@@ -380,9 +386,9 @@ suggests
 C
 ```
 
----
+______________________________________________________________________
 
-# 10. Confidence Ceiling
+## 10. Confidence Ceiling
 
 Derived confidence cannot exceed the weakest load-bearing premise unless independent revalidation exists.
 
@@ -403,9 +409,9 @@ for load-bearing premises.
 
 A downstream argument cannot manufacture certainty absent upstream support.
 
----
+______________________________________________________________________
 
-# 11. Dependency Principle
+## 11. Dependency Principle
 
 Every derived conclusion has a dependency closure.
 
@@ -435,9 +441,9 @@ REASSESS(C)
 
 Unrelated conclusions remain intact.
 
----
+______________________________________________________________________
 
-# 12. Dependency Closure
+## 12. Dependency Closure
 
 For a conclusion `C`:
 
@@ -451,9 +457,9 @@ This supports AMOS v4.4 smallest-sufficient-proof reasoning.
 
 Global dependency expansion is unnecessary when independence is demonstrated.
 
----
+______________________________________________________________________
 
-# 13. Independence Must Be Demonstrated
+## 13. Independence Must Be Demonstrated
 
 ```text
 NO KNOWN DEPENDENCY
@@ -473,9 +479,9 @@ ESTABLISHED PROPERTY
 
 not a default assumption.
 
----
+______________________________________________________________________
 
-# 14. Provenance Topology
+## 14. Provenance Topology
 
 Evidence forms a graph.
 
@@ -512,9 +518,9 @@ COUNT(DOCUMENTS)
 COUNT(INDEPENDENT_EVIDENCE_ROOTS)
 ```
 
----
+______________________________________________________________________
 
-# 15. Sybil / Duplication Firewall
+## 15. Sybil / Duplication Firewall
 
 The following do not establish independent confirmation:
 
@@ -539,9 +545,9 @@ COUNT(INDEPENDENT_PROVENANCE_ROOTS)
 
 not raw repetition.
 
----
+______________________________________________________________________
 
-# 16. Contradiction
+## 16. Contradiction
 
 For propositions:
 
@@ -577,9 +583,9 @@ NOT A(scope=Y)
 
 may not actually conflict.
 
----
+______________________________________________________________________
 
-# 17. Contradiction Preservation
+## 17. Contradiction Preservation
 
 When genuine contradiction remains unresolved:
 
@@ -600,9 +606,9 @@ PRESERVE CONFLICT
 IDENTIFY DISCRIMINATING EVIDENCE
 ```
 
----
+______________________________________________________________________
 
-# 18. Competing Hypotheses
+## 18. Competing Hypotheses
 
 For hypotheses:
 
@@ -626,9 +632,9 @@ COMPETING {
 
 This state remains valid until discriminating evidence changes the balance.
 
----
+______________________________________________________________________
 
-# 19. No Forced Convergence
+## 19. No Forced Convergence
 
 Do not force convergence where hypotheses have:
 
@@ -651,9 +657,9 @@ or:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 20. Discriminating Evidence
+## 20. Discriminating Evidence
 
 Given competing hypotheses:
 
@@ -677,9 +683,9 @@ COST(E)
 
 This is an optimization model, not a claim of literal runtime computation.
 
----
+______________________________________________________________________
 
-# 21. Adversarial Validation
+## 21. Adversarial Validation
 
 For consequential conclusion `C`:
 
@@ -713,9 +719,9 @@ OR
 RETURN UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 22. Different-Path Requirement
+## 22. Different-Path Requirement
 
 Adversarial validation should not merely repeat the original reasoning with different wording.
 
@@ -731,9 +737,9 @@ NOT STRONG INDEPENDENT CHALLENGE
 
 A useful challenge changes at least one material reasoning dimension.
 
----
+______________________________________________________________________
 
-# 23. Causal Firewall
+## 23. Causal Firewall
 
 Meta-logic distinguishes:
 
@@ -752,9 +758,9 @@ CAUSAL EFFECT
 
 These relations have different evidentiary requirements.
 
----
+______________________________________________________________________
 
-# 24. Structural Similarity Firewall
+## 24. Structural Similarity Firewall
 
 ```text
 STRUCTURE(A)
@@ -776,9 +782,9 @@ or:
 A AND B SHARE MECHANISM
 ```
 
----
+______________________________________________________________________
 
-# 25. Sequence Firewall
+## 25. Sequence Firewall
 
 ```text
 A BEFORE B
@@ -792,9 +798,9 @@ A CAUSED B
 
 Temporal precedence may be necessary for some causal claims but is not sufficient.
 
----
+______________________________________________________________________
 
-# 26. Correlation Firewall
+## 26. Correlation Firewall
 
 ```text
 CORR(A,B) != 0
@@ -817,9 +823,9 @@ COINCIDENCE
 FEEDBACK
 ```
 
----
+______________________________________________________________________
 
-# 27. Necessary vs Sufficient
+## 27. Necessary vs Sufficient
 
 ```text
 NECESSARY(X,Y)
@@ -841,9 +847,9 @@ SUFFICIENT(X,Y)
 
 does not imply `X` is necessary.
 
----
+______________________________________________________________________
 
-# 28. Scope Firewall
+## 28. Scope Firewall
 
 Every consequential conclusion inherits an applicability envelope.
 
@@ -862,9 +868,9 @@ scope:
 
 A conclusion cannot silently escape this envelope.
 
----
+______________________________________________________________________
 
-# 29. Scope Inheritance
+## 29. Scope Inheritance
 
 If:
 
@@ -882,9 +888,9 @@ SCOPE_A
 
 unless independently validated beyond it.
 
----
+______________________________________________________________________
 
-# 30. Regime Firewall
+## 30. Regime Firewall
 
 A reasoning result valid under:
 
@@ -910,9 +916,9 @@ does not imply:
 VALID(C | R_B)
 ```
 
----
+______________________________________________________________________
 
-# 31. Regime Shift
+## 31. Regime Shift
 
 When a material regime shift occurs:
 
@@ -936,9 +942,9 @@ REVALIDATION_REQUIRED
 
 depending on dependency semantics.
 
----
+______________________________________________________________________
 
-# 32. Temporal Validity
+## 32. Temporal Validity
 
 Reasoning may depend on freshness.
 
@@ -956,9 +962,9 @@ Old evidence is not automatically invalid.
 
 But time-sensitive conclusions cannot silently reuse stale premises.
 
----
+______________________________________________________________________
 
-# 33. Freshness Is Typed
+## 33. Freshness Is Typed
 
 Freshness requirements differ by claim.
 
@@ -984,9 +990,9 @@ LOWER TEMPORAL VOLATILITY
 
 Therefore no universal freshness threshold should be assumed.
 
----
+______________________________________________________________________
 
-# 34. Assumption Registry
+## 34. Assumption Registry
 
 Material assumptions should be explicit.
 
@@ -1002,9 +1008,9 @@ assumption:
 
 Hidden assumptions are reasoning debt.
 
----
+______________________________________________________________________
 
-# 35. Assumption Firewall
+## 35. Assumption Firewall
 
 ```text
 UNSTATED ASSUMPTION
@@ -1024,9 +1030,9 @@ MAKE EXPLICIT
 TEST OR CONDITION
 ```
 
----
+______________________________________________________________________
 
-# 36. Sensitivity
+## 36. Sensitivity
 
 For consequential conclusion `C`, identify the smallest premise, threshold, observation, or assumption capable of flipping it.
 
@@ -1039,9 +1045,9 @@ MINIMUM MATERIAL PERTURBATION
 THAT CHANGES C
 ```
 
----
+______________________________________________________________________
 
-# 37. Fragility
+## 37. Fragility
 
 If small plausible changes in non-established assumptions reverse the conclusion:
 
@@ -1057,9 +1063,9 @@ CONDITIONAL
 
 rather than presented as robust.
 
----
+______________________________________________________________________
 
-# 38. Robustness
+## 38. Robustness
 
 A conclusion is comparatively robust when it survives plausible perturbation of noncritical assumptions.
 
@@ -1071,9 +1077,9 @@ CERTAIN
 
 Robustness concerns sensitivity, not absolute truth.
 
----
+______________________________________________________________________
 
-# 39. Uncertainty Vector
+## 39. Uncertainty Vector
 
 AMOS should avoid collapsing all uncertainty into one scalar when dimensions matter.
 
@@ -1094,9 +1100,9 @@ U_provenance
 
 Different uncertainties require different remedies.
 
----
+______________________________________________________________________
 
-# 40. Evidence Uncertainty
+## 40. Evidence Uncertainty
 
 ```text
 U_evidence
@@ -1104,9 +1110,9 @@ U_evidence
 
 captures uncertainty about observations, measurements, source reliability, completeness, or evidentiary strength.
 
----
+______________________________________________________________________
 
-# 41. Model Uncertainty
+## 41. Model Uncertainty
 
 ```text
 U_model
@@ -1116,9 +1122,9 @@ captures uncertainty about the explanatory or predictive structure used to inter
 
 Strong evidence can coexist with model uncertainty.
 
----
+______________________________________________________________________
 
-# 42. Scope Uncertainty
+## 42. Scope Uncertainty
 
 ```text
 U_scope
@@ -1128,9 +1134,9 @@ captures uncertainty about where a conclusion applies.
 
 This is distinct from whether the conclusion is internally valid in the observed scope.
 
----
+______________________________________________________________________
 
-# 43. Temporal Uncertainty
+## 43. Temporal Uncertainty
 
 ```text
 U_temporal
@@ -1138,9 +1144,9 @@ U_temporal
 
 captures uncertainty arising from stale, changing, delayed, or time-dependent evidence.
 
----
+______________________________________________________________________
 
-# 44. Causal Uncertainty
+## 44. Causal Uncertainty
 
 ```text
 U_causal
@@ -1148,9 +1154,9 @@ U_causal
 
 captures uncertainty over causal direction, mechanisms, confounding, mediation, feedback, and intervention effects.
 
----
+______________________________________________________________________
 
-# 45. Execution Uncertainty
+## 45. Execution Uncertainty
 
 ```text
 U_execution
@@ -1170,9 +1176,9 @@ SUCCESSFUL REAL-WORLD EXECUTION
 
 A logically valid plan may still fail operationally.
 
----
+______________________________________________________________________
 
-# 46. Provenance-Independence Uncertainty
+## 46. Provenance-Independence Uncertainty
 
 ```text
 U_provenance
@@ -1182,9 +1188,9 @@ captures uncertainty over whether supporting evidence is genuinely independent.
 
 This is critical where apparent consensus may share ancestry.
 
----
+______________________________________________________________________
 
-# 47. Adaptive Complexity
+## 47. Adaptive Complexity
 
 Reasoning depth should match problem requirements.
 
@@ -1198,9 +1204,9 @@ C4 = MAXIMUM
 
 Start at the lowest sufficient level.
 
----
+______________________________________________________________________
 
-# 48. Escalation Conditions
+## 48. Escalation Conditions
 
 Increase reasoning depth for:
 
@@ -1221,9 +1227,9 @@ AMBIGUOUS PROVENANCE
 EXPLICIT DEEP-ANALYSIS REQUEST
 ```
 
----
+______________________________________________________________________
 
-# 49. De-Escalation
+## 49. De-Escalation
 
 Reasoning may de-escalate once outcome-changing uncertainty is resolved.
 
@@ -1241,9 +1247,9 @@ SMALLEST SUFFICIENT PROOF
 
 not maximal computation.
 
----
+______________________________________________________________________
 
-# 50. v4.4 Fast Path
+## 50. v4.4 Fast Path
 
 Local reasoning is admissible only when:
 
@@ -1267,9 +1273,9 @@ Otherwise:
 ESCALATE
 ```
 
----
+______________________________________________________________________
 
-# 51. Fast-Path Firewall
+## 51. Fast-Path Firewall
 
 Fast path must not be used when:
 
@@ -1284,9 +1290,9 @@ ACTION IS HARD TO REVERSE
 DEPENDENCIES ARE AMBIGUOUS
 ```
 
----
+______________________________________________________________________
 
-# 52. Branching Rule
+## 52. Branching Rule
 
 Branch reasoning only when alternative paths can materially alter the outcome.
 
@@ -1298,9 +1304,9 @@ ALTERNATIVE_CAN_CHANGE_DECISION
 
 Equivalent branches should be merged.
 
----
+______________________________________________________________________
 
-# 53. Synthesis Rule
+## 53. Synthesis Rule
 
 Do not postpone synthesis until every possible fact is collected.
 
@@ -1318,9 +1324,9 @@ TARGETED RETRIEVAL
 UPDATE SYNTHESIS
 ```
 
----
+______________________________________________________________________
 
-# 54. Retrieval Rule
+## 54. Retrieval Rule
 
 Meta-logic supports fractal retrieval:
 
@@ -1338,9 +1344,9 @@ RAW EVIDENCE
 
 Raw evidence is loaded only when required to resolve material uncertainty.
 
----
+______________________________________________________________________
 
-# 55. H/M/L Boundary
+## 55. H/M/L Boundary
 
 ```text
 H
@@ -1364,9 +1370,9 @@ If required detail is unavailable:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 56. Recursive Reasoning
+## 56. Recursive Reasoning
 
 An RSCF may itself depend on other RSCFs.
 
@@ -1382,9 +1388,9 @@ RSCF_A
 
 Meta-logic governs dependency closure across this recursive structure.
 
----
+______________________________________________________________________
 
-# 57. Atomic Multi-RSCF Reasoning
+## 57. Atomic Multi-RSCF Reasoning
 
 When several RSCF updates form one logical decision:
 
@@ -1406,9 +1412,9 @@ NONE
 
 This is a reasoning contract aligned with AMOS atomicity semantics.
 
----
+______________________________________________________________________
 
-# 58. Persistent Provenance
+## 58. Persistent Provenance
 
 A reasoning result should remain traceable after derivation.
 
@@ -1428,9 +1434,9 @@ TRANSFORMATIONS
 
 Loss of this chain reduces revalidation capability.
 
----
+______________________________________________________________________
 
-# 59. Proof Reuse
+## 59. Proof Reuse
 
 A proof capsule may be reused only while:
 
@@ -1448,9 +1454,9 @@ Otherwise:
 REVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 60. Selective Invalidation
+## 60. Selective Invalidation
 
 When premise `P` fails:
 
@@ -1464,9 +1470,9 @@ INVALIDATE ONLY DEPENDENTS
 
 Do not discard unrelated validated work.
 
----
+______________________________________________________________________
 
-# 61. Recovery
+## 61. Recovery
 
 Reasoning recovery follows:
 
@@ -1484,9 +1490,9 @@ REROUTE
 REVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 62. No Identical Retry
+## 62. No Identical Retry
 
 ```text
 FAILED PATH
@@ -1502,9 +1508,9 @@ should not simply be rerun expecting a different epistemic result.
 
 A retry requires changed conditions.
 
----
+______________________________________________________________________
 
-# 63. Gap Classification
+## 63. Gap Classification
 
 Gaps are classified:
 
@@ -1527,9 +1533,9 @@ EXPLANATORY
 COSMETIC
 ```
 
----
+______________________________________________________________________
 
-# 64. Critical Gap
+## 64. Critical Gap
 
 A gap is `CRITICAL` when the conclusion cannot be responsibly supported without resolving it.
 
@@ -1541,33 +1547,33 @@ UNKNOWN/GAP
 
 or explicit conditionalization.
 
----
+______________________________________________________________________
 
-# 65. Decision-Relevant Gap
+## 65. Decision-Relevant Gap
 
 A gap is decision-relevant when different plausible values can change the selected action.
 
 These gaps receive priority over explanatory completeness.
 
----
+______________________________________________________________________
 
-# 66. Explanatory Gap
+## 66. Explanatory Gap
 
 An explanatory gap reduces understanding but does not currently change the decision.
 
 It may remain unresolved once action sufficiency is reached.
 
----
+______________________________________________________________________
 
-# 67. Cosmetic Gap
+## 67. Cosmetic Gap
 
 Cosmetic gaps affect presentation rather than reasoning validity.
 
 They have the lowest priority.
 
----
+______________________________________________________________________
 
-# 68. Stop Conditions
+## 68. Stop Conditions
 
 Reasoning may stop when:
 
@@ -1583,23 +1589,23 @@ are achieved for the requested scope.
 
 This prevents unbounded analysis.
 
----
+______________________________________________________________________
 
-# 69. Claim Sufficiency
+## 69. Claim Sufficiency
 
 Claim sufficiency means the requested conclusion has enough support for its stated conclusion class.
 
 It does not require universal proof.
 
----
+______________________________________________________________________
 
-# 70. Decision Sufficiency
+## 70. Decision Sufficiency
 
 Decision sufficiency means remaining uncertainty is unlikely to change the selected decision enough to justify additional reasoning cost.
 
----
+______________________________________________________________________
 
-# 71. Action Sufficiency
+## 71. Action Sufficiency
 
 Action sufficiency means a safe, appropriately governed next action can be identified.
 
@@ -1614,9 +1620,9 @@ REPAIRABLE
 
 actions.
 
----
+______________________________________________________________________
 
-# 72. Governance Sensitivity
+## 72. Governance Sensitivity
 
 Validation requirements increase with:
 
@@ -1632,9 +1638,9 @@ DOWNSTREAM DEPENDENCY
 
 Meta-logic therefore links epistemic rigor to action stakes.
 
----
+______________________________________________________________________
 
-# 73. Reversibility Principle
+## 73. Reversibility Principle
 
 When uncertainty is material:
 
@@ -1648,9 +1654,9 @@ all else equal.
 
 This is a governance preference, not a universal empirical law.
 
----
+______________________________________________________________________
 
-# 74. Anti-Fabrication Laws
+## 74. Anti-Fabrication Laws
 
 ```text
 MISSING PREMISE
@@ -1674,9 +1680,9 @@ MUST NOT
 BECOME INDEPENDENT CONFIRMATION
 ```
 
----
+______________________________________________________________________
 
-# 75. Benchmark Firewall
+## 75. Benchmark Firewall
 
 ```text
 SUCCESS ON BENCHMARK B
@@ -1690,9 +1696,9 @@ It does not establish:
 UNIVERSAL VALIDITY
 ```
 
----
+______________________________________________________________________
 
-# 76. Simulation Firewall
+## 76. Simulation Firewall
 
 ```text
 SIMULATION RESULT
@@ -1706,9 +1712,9 @@ It is not automatically:
 REAL-WORLD OBSERVATION
 ```
 
----
+______________________________________________________________________
 
-# 77. Distributed-System Claim Firewall
+## 77. Distributed-System Claim Firewall
 
 Reported behavior under particular distributed or Byzantine tests does not automatically constitute universal formal proof.
 
@@ -1721,9 +1727,9 @@ FORMAL PROOF
 PRODUCTION OBSERVATION
 ```
 
----
+______________________________________________________________________
 
-# 78. Mathematical Proof Boundary
+## 78. Mathematical Proof Boundary
 
 A formal proof can establish a proposition relative to:
 
@@ -1736,9 +1742,9 @@ ASSUMPTIONS
 
 It does not by itself establish that the formal model perfectly represents an external physical or social system.
 
----
+______________________________________________________________________
 
-# 79. Model Boundary
+## 79. Model Boundary
 
 ```text
 MODEL FIT
@@ -1754,9 +1760,9 @@ are distinct.
 
 Multiple models may fit the same observations.
 
----
+______________________________________________________________________
 
-# 80. Explanation Boundary
+## 80. Explanation Boundary
 
 A coherent explanation may be:
 
@@ -1772,9 +1778,9 @@ VERIFIED
 
 Meta-logic preserves that distinction.
 
----
+______________________________________________________________________
 
-# 81. Unknown Handling
+## 81. Unknown Handling
 
 `UNKNOWN/GAP` is a valid epistemic state.
 
@@ -1788,9 +1794,9 @@ FABRICATED CERTAINTY
 
 under the AMOS integrity ordering.
 
----
+______________________________________________________________________
 
-# 82. Meta-Logic Invariants
+## 82. Meta-Logic Invariants
 
 ```text
 ML-01
@@ -1866,9 +1872,9 @@ ML-24
 REASONING MAY STOP ON SUFFICIENCY RATHER THAN EXHAUSTIVENESS
 ```
 
----
+______________________________________________________________________
 
-# 83. Failure Modes
+## 83. Failure Modes
 
 ```text
 PREMISE_ESCALATION
@@ -1895,9 +1901,9 @@ IDENTICAL_FAILED_RETRY
 FAST_PATH_SCOPE_ESCAPE
 ```
 
----
+______________________________________________________________________
 
-# 84. Validation Algorithm
+## 84. Validation Algorithm
 
 Conceptually:
 
@@ -1940,9 +1946,9 @@ def validate_reasoning(operation, context):
 
 This is architectural pseudocode, not a claim of deployed implementation.
 
----
+______________________________________________________________________
 
-# 85. Reasoning State Machine
+## 85. Reasoning State Machine
 
 ```text
 UNEXAMINED
@@ -1971,9 +1977,9 @@ UNKNOWN/GAP
 INVALID
 ```
 
----
+______________________________________________________________________
 
-# 86. Proof Reuse State Machine
+## 86. Proof Reuse State Machine
 
 ```text
 VALID_PROOF
@@ -2003,9 +2009,9 @@ Otherwise:
 REVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 87. Reasoning Trace
+## 87. Reasoning Trace
 
 A material reasoning trace may record:
 
@@ -2038,9 +2044,9 @@ reasoning_trace:
 
 Traceability does not require disclosure of private internal chain-of-thought.
 
----
+______________________________________________________________________
 
-# 88. Explainability Boundary
+## 88. Explainability Boundary
 
 AMOS may expose:
 
@@ -2062,9 +2068,9 @@ AUDITABLE BASIS
 PRIVATE CHAIN-OF-THOUGHT
 ```
 
----
+______________________________________________________________________
 
-# 89. Integration with [[02_KERNEL/01_META_LOGIC/K_CORE19_LOGIC|K_CORE19_LOGIC]]
+## 89. Integration with [[02_KERNEL/01_META_LOGIC/K_CORE19_LOGIC|K_CORE19_LOGIC]]
 
 ```text
 K_CORE19_LOGIC
@@ -2086,9 +2092,9 @@ K_META_LOGIC
 VALIDATE OPERATION
 ```
 
----
+______________________________________________________________________
 
-# 90. Integration with [[02_KERNEL/01_META_LOGIC/K_DISTINCTION_RELATION_CONSTRAINT|K_DISTINCTION_RELATION_CONSTRAINT]]
+## 90. Integration with [[02_KERNEL/01_META_LOGIC/K_DISTINCTION_RELATION_CONSTRAINT|K_DISTINCTION_RELATION_CONSTRAINT]]
 
 Meta-logic depends on stable distinctions.
 
@@ -2118,9 +2124,9 @@ A = B
 
 and corrupt downstream reasoning.
 
----
+______________________________________________________________________
 
-# 91. Integration with [[02_KERNEL/01_META_LOGIC/K_LAW_HIERARCHY|K_LAW_HIERARCHY]]
+## 91. Integration with [[02_KERNEL/01_META_LOGIC/K_LAW_HIERARCHY|K_LAW_HIERARCHY]]
 
 `K_META_LOGIC` does not independently determine authoritative precedence among laws.
 
@@ -2134,9 +2140,9 @@ K_LAW_HIERARCHY
 RESOLVED / COMPETING / UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 92. Integration with Epistemic Kernels
+## 92. Integration with Epistemic Kernels
 
 Meta-logic delegates detailed epistemic classification to the relevant epistemic structures while enforcing cross-kernel consistency.
 
@@ -2152,9 +2158,9 @@ CLAIM CLASS
 CONFIDENCE CEILING
 ```
 
----
+______________________________________________________________________
 
-# 93. Integration with Provenance
+## 93. Integration with Provenance
 
 ```text
 META LOGIC
@@ -2172,9 +2178,9 @@ REVALIDATION
 CONFLICT ANALYSIS
 ```
 
----
+______________________________________________________________________
 
-# 94. Integration with Dependency
+## 94. Integration with Dependency
 
 ```text
 META LOGIC
@@ -2192,9 +2198,9 @@ FAILURE RECOVERY
 SMALLEST SUFFICIENT PROOF
 ```
 
----
+______________________________________________________________________
 
-# 95. Integration with State
+## 95. Integration with State
 
 Reasoning output should not silently become authoritative state.
 
@@ -2216,9 +2222,9 @@ DERIVED CONCLUSION
 AUTHORITATIVE STATE
 ```
 
----
+______________________________________________________________________
 
-# 96. Integration with Control Plane
+## 96. Integration with Control Plane
 
 The control plane decides whether a validated reasoning output is authorized for governed transition.
 
@@ -2232,9 +2238,9 @@ does not imply:
 CONTROL-PLANE AUTHORIZED
 ```
 
----
+______________________________________________________________________
 
-# 97. Integration with Runtime
+## 97. Integration with Runtime
 
 Runtime may execute a reasoning plan only within granted authority.
 
@@ -2250,9 +2256,9 @@ still does not equal:
 AUTHORIZED
 ```
 
----
+______________________________________________________________________
 
-# 98. Integration with Tests
+## 98. Integration with Tests
 
 Required future test families include:
 
@@ -2274,9 +2280,9 @@ FAILED-PATH REROUTING
 UNKNOWN PRESERVATION
 ```
 
----
+______________________________________________________________________
 
-# 99. Negative Tests
+## 99. Negative Tests
 
 ```text
 SOURCE CLAIM → OBSERVATION
@@ -2322,9 +2328,9 @@ FAILED PATH → IDENTICAL RETRY
 MUST FAIL
 ```
 
----
+______________________________________________________________________
 
-# 100. Lifecycle
+## 100. Lifecycle
 
 ```text
 PLACEHOLDER
@@ -2350,9 +2356,9 @@ IMPLEMENTATION != VALIDATION
 VALIDATION != AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 101. Promotion Gate
+## 101. Promotion Gate
 
 Before promotion beyond `AMOS_MODEL`:
 
@@ -2386,9 +2392,9 @@ Until then:
 IMPLEMENTATION_STATUS = UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 102. Integrity Note
+## 102. Integrity Note
 
 This artifact replaces an empty repository placeholder with a structured AMOS v4.4-aligned meta-logic model.
 
@@ -2422,9 +2428,9 @@ CONCLUSION_CLASS = AMOS_MODEL
 
 until canonical source binding, implementation evidence, tests, and promotion records establish stronger status.
 
----
+______________________________________________________________________
 
-# 103. RSCF Node
+## 103. RSCF Node
 
 ```RSCF-NODE
 node_id: AMOS-OS-K-META-LOGIC
@@ -2469,7 +2475,7 @@ RSCF-RELATIONS:
   - VERIFIED_BY: README
 ```
 
----
+______________________________________________________________________
 
 ## Related
 
@@ -2513,12 +2519,14 @@ README
 ```text
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION/L02_ATTENTION_MOC|L02_ATTENTION_MOC]]

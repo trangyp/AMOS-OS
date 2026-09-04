@@ -1,14 +1,17 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Vault Domain Knowledge — Amos Source Reading Rscf
 type: reference
 source: 07_SKILLS/amos-source-reading-rscf/references
 tags:
-- reference
-- amos-source-reading-rscf
-- type/skill
-- workflow
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-source-reading-rscf
+  - type/skill
+  - workflow
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -28,10 +31,9 @@ rscf:
 
 > Path: `amos-general/A/PART/AMOS_7_PART_UNIVERSE_CANON_REFINED.md` | Size: 19986 chars | Match score: 7
 
-# AMOS 7-Part Universe Canon — Source Canon + Infrastructure Mapping
+## AMOS 7-Part Universe Canon — Source Canon + Infrastructure Mapping
 
-
----
+______________________________________________________________________
 
 ## 1. What the 7-Part Canon is for in AMOS
 
@@ -44,13 +46,13 @@ It asks:
 The seven parts are:
 
 1. **Constraint**
-2. **Flow**
-3. **Structure**
-4. **Enforcement**
-5. **Time**
-6. **Adaptation**
-7. **Termination**
-AMOS uses this canon to test **structural coverage**, not to convert source-canon statements into empirical proof.
+1. **Flow**
+1. **Structure**
+1. **Enforcement**
+1. **Time**
+1. **Adaptation**
+1. **Termination**
+   AMOS uses this canon to test **structural coverage**, not to convert source-canon statements into empirical proof.
 
 ### Core distinction
 
@@ -61,12 +63,11 @@ ALL_SEVEN_MAPPED != CAUSAL_PROOF
 ANALOGY_ACROSS_DOMAINS != MECHANISM
 ```
 
----
+______________________________________________________________________
 
-# PART I — CONSTRAINT
+## PART I — CONSTRAINT
 
 ## Source definition (3)
-
 
 The source canon associates Constraint with:
 
@@ -123,12 +124,11 @@ ConstraintPass =
  AND EffectClassKnown
 ```
 
----
+______________________________________________________________________
 
-# PART II — FLOW
+## PART II — FLOW
 
 ## Source definition (2)
-
 
 The source canon emphasizes:
 
@@ -179,6 +179,7 @@ MODEL_PROPOSAL != COMMITTED_ACTION
 ```
 
 ### Failure signature
+
 - bottleneck
 - stale queue
 - provenance loss
@@ -186,12 +187,11 @@ MODEL_PROPOSAL != COMMITTED_ACTION
 - evidence/action conflation
 - partial state transfer
 
----
+______________________________________________________________________
 
-# PART III — STRUCTURE
+## PART III — STRUCTURE
 
 ## Source definition
-
 
 The source canon associates Structure with:
 
@@ -205,113 +205,122 @@ The source canon associates Structure with:
 
 > Flow without structu
 
----
+______________________________________________________________________
 
-### Source 2: **MANDATORY READING
-- AGENT WORKING INSTRUCTIONS**
+### Source 2: \*\*MANDATORY READING
+
+- AGENT WORKING INSTRUCTIONS\*\*
+
 > Path: `agents/AGENT_WORKING_INSTRUCTIONS.md` | Size: 8637 chars | Match score: 7
 
-# **MANDATORY READING - AGENT WORKING INSTRUCTIONS**
+## **MANDATORY READING - AGENT WORKING INSTRUCTIONS**
+
 ## IMMEDIATE ACTIONS REQUIRED
 
 ### **Step 1: Read the System Architecture Report**
 
 Complete system architecture overview
+
 - Status of all 10 vertical slices
 - API endpoint reference
 - Component performance metrics
 - Working guidelines for agents
 
 ### **Step 2: Verify Component Status**
+
 Before working on any component:
 
 1. **Check Health Status**: Use `/health` endpoint to verify component is operational
-2. **Identify Vertical Slice**: Know which component you're working with
-3. **Understand Limitations**: Know what works and what doesn't
-4. **Use Bridge Layers**: Access components through bridge layers, not directly
+1. **Identify Vertical Slice**: Know which component you're working with
+1. **Understand Limitations**: Know what works and what doesn't
+1. **Use Bridge Layers**: Access components through bridge layers, not directly
 
 ### **Step 3: Follow Working Guidelines**
 
 Use established vertical slice architecture
+
 - Follow bridge layer and API patterns
 - Implement proper error handling
 - Use audit logging for important operations
 - Run acceptance tests before deploying
 - Document any architectural changes
 
----
+______________________________________________________________________
 
 ## COMPONENT STATUS SUMMARY
 
-### ** FULLY OPERATIONAL COMPONENTS (Safe for Production)**
+### \*\* FULLY OPERATIONAL COMPONENTS (Safe for Production)\*\*
 
 1. **Runtime Vertical Slice** (100% pass rate)
-2. **Tools Vertical Slice** (functional integration)
-3. **Governance Vertical Slice** (85% pass rate)
-4. **Memory Vertical Slice** (84.2% pass rate)
-5. **Brain Intelligence Vertical Slice** (91.3% pass rate)
-6. **Audit & Security Vertical Slice** (91.7% pass rate)
+1. **Tools Vertical Slice** (functional integration)
+1. **Governance Vertical Slice** (85% pass rate)
+1. **Memory Vertical Slice** (84.2% pass rate)
+1. **Brain Intelligence Vertical Slice** (91.3% pass rate)
+1. **Audit & Security Vertical Slice** (91.7% pass rate)
 
-### ** NEAR-COMPLETE COMPONENTS (Use with Caution)**
+### \*\* NEAR-COMPLETE COMPONENTS (Use with Caution)\*\*
 
 7. **Quantum Meta-Cognitive** (72.0% pass rate) - Minor syntax issues
-8. **Metrics & Monitoring** (77.8% pass rate) - Minor syntax issues
+1. **Metrics & Monitoring** (77.8% pass rate) - Minor syntax issues
 
-### ** PARTIAL SUCCESS COMPONENTS (Limited Functionality)**
+### \*\* PARTIAL SUCCESS COMPONENTS (Limited Functionality)\*\*
 
 9. **Organ System** (42.1% pass rate) - Syntax errors in source files
-10. **Super-Agent & Energy** (52.9% pass rate) - Syntax errors in source files
+1. **Super-Agent & Energy** (52.9% pass rate) - Syntax errors in source files
 
----
+______________________________________________________________________
 
 ## CRITICAL WARNINGS
 
-### ** HIGH RISK COMPONENTS**
+### \*\* HIGH RISK COMPONENTS\*\*
 
 Have syntax errors in source files
+
 - Limited functionality available
 - Use only for testing, not production
 - Bridge layers provide basic fallback functionality
 
-### ** MODERATE RISK COMPONENTS**
+### \*\* MODERATE RISK COMPONENTS\*\*
 
 Minor syntax issues in source files
+
 - Near-complete functionality available
 - Bridge layers provide fallback functionality
 - Use with caution
 
-### ** LOW RISK COMPONENTS**
+### \*\* LOW RISK COMPONENTS\*\*
 
 Fully operational and tested
+
 - Safe for production use
 - Recommended for all production work
 
----
+______________________________________________________________________
 
 ## RECOMMENDED [[08_WORKFLOWS/law-stack-enforcement-pipeline/WORKFLOW|WORKFLOW]]
 
 ### **For Production Work:**
 
 1. **Use Fully Operational Components** only
-2. **Check Health Status** before use
-3. **Follow API Patterns** exactly
-4. **Implement Error Handling** with fallbacks
-5. **Log All Operations** via audit endpoints
-6. **Run Acceptance Tests** before deployment
+1. **Check Health Status** before use
+1. **Follow API Patterns** exactly
+1. **Implement Error Handling** with fallbacks
+1. **Log All Operations** via audit endpoints
+1. **Run Acceptance Tests** before deployment
 
 ### **For Development/Testing:**
 
 1. **Can Use All Components** with appropriate caution
-2. **Understand Limitations** of partial components
-3. **Use Bridge Layers** for integration
-4. **Test Fallback Systems** thoroughly
-5. **Document Issues** found during testing
+1. **Understand Limitations** of partial components
+1. **Use Bridge Layers** for integration
+1. **Test Fallback Systems** thoroughly
+1. **Document Issues** found during testing
 
----
+______________________________________________________________________
 
 ## Quick
 
----
+______________________________________________________________________
 
 ### Source 3: 1) Resolve source folder (from cleaned zip in Downloads)
 
@@ -323,7 +332,7 @@ set -euo pipefail
 
 echo "=== AMOS MEGA SETUP START ==="
 
-# 1) Resolve source folder (from cleaned zip in Downloads)
+## 1) Resolve source folder (from cleaned zip in Downloads)
 SRC_BASE="$HOME/Downloads/AMOS-PUBLIC-AUTO-CLEAN"
 if [ -d "$SRC_BASE/AMOS-PUBLIC" ]; then
  SRC="$SRC_BASE/AMOS-PUBLIC"
@@ -337,7 +346,7 @@ fi
 
 echo "Source repo: $SRC"
 
-# 2) Destination in Documents/GitHub
+## 2) Destination in Documents/GitHub
 DEST_ROOT="$HOME/Documents/GitHub"
 mkdir -p "$DEST_ROOT"
 
@@ -357,7 +366,7 @@ rsync -a "$SRC"/ "$DEST"/
 cd "$DEST"
 echo "Now in: $(pwd)"
 
-# 3) Virtual environment
+## 3) Virtual environment
 if [ ! -d "amos_env" ]; then
  echo "Creating virtualenv amos_env..."
  python3 -m venv amos_env
@@ -377,10 +386,10 @@ fi
 echo "Installing core runtime packages..."
 ./amos_env/bin/python -m pip install requests flask rich psutil uvicorn || true
 
-# 4) Core folders
+## 4) Core folders
 mkdir -p _AMOS_REPORTS _AMOS_QUARANTINE _AMOS_STATE_LOG
 
-# 5) Reports + cleanup (if scripts exist)
+## 5) Reports + cleanup (if scripts exist)
 if [ -f "scripts/dev/amos_reports_scan.py" ]; then
  echo "Running scripts/dev/amos_reports_scan.py..."
  ./amos_env/bin/python scripts/dev/amos_reports_scan.py || true
@@ -391,7 +400,7 @@ if [ -x "scripts/dev/amos_clean_mega.sh" ]; then
  bash scripts/dev/amos_clean_mega.sh || true
 fi
 
-# 6) Restart GOD_MODE + dashboards if scripts exist
+## 6) Restart GOD_MODE + dashboards if scripts exist
 echo "Restarting GOD_MODE + dashboards (if available)..."
 
 pkill -f "AMOS_ORGANISM_OS.runtime_core.god_mode_ultra_core" >/dev/null 2>&1 || true
@@ -415,13 +424,15 @@ if [ -x "scripts/run/god_mode_introspect_daemon.sh" ]; then
  scripts/run/god_mode_introspect_daemon.sh > /tmp/god_mode_introspect_daemon.log 2>&1 &
 ```
 
----
+______________________________________________________________________
+
 **MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -429,12 +440,14 @@ if [ -x "scripts/run/god_mode_introspect_daemon.sh" ]; then
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-source-reading-rscf-vault-domain-knowledge
 node_type: reference
 path: 07_SKILLS/amos-source-reading-rscf/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

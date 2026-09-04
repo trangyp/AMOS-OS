@@ -1,15 +1,18 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: GENERATOR CONTRACT
 type: generator
 source: 25_COGNITIVE_MATRIX/12_GENERATORS
 tags:
-- cognitive-matrix
-- generators
-- contract
-- domain/cognitive-matrix
-- validation
-- integration
-- canon
+  - cognitive-matrix
+  - generators
+  - contract
+  - domain/cognitive-matrix
+  - validation
+  - integration
+  - canon
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -51,7 +54,7 @@ $$IMPLEMENTED \neq VALIDATED$$
 
 No generator, generator composition, generator majority, generator recursion, or generator synthesis may override these distinctions.
 
----
+______________________________________________________________________
 
 # 1. PURPOSE
 
@@ -89,9 +92,9 @@ It MUST NOT increase those properties by sacrificing:
 - authority containment;
 - safety.
 
----
+______________________________________________________________________
 
-# 2. CORE LAW
+## 2. CORE LAW
 
 Every generator inherits the AMOS core priority ordering:
 
@@ -110,9 +113,9 @@ COMPLETENESS        < ANTI-FABRICATION
 
 No implementation optimization may weaken this ordering.
 
----
+______________________________________________________________________
 
-# 3. GENERATOR DEFINITION
+## 3. GENERATOR DEFINITION
 
 A generator is a bounded transformation operator.
 
@@ -135,9 +138,9 @@ The output MUST remain linked to the inputs that materially produced it.
 
 A generator does not erase epistemic ancestry.
 
----
+______________________________________________________________________
 
-# 4. GENERATOR OUTPUT LAW
+## 4. GENERATOR OUTPUT LAW
 
 The default class of genuinely generative output is:
 
@@ -170,9 +173,9 @@ merely because:
 
 Verification requires appropriate evidence.
 
----
+______________________________________________________________________
 
-# 5. GENERATOR CONTRACT OBJECT
+## 5. GENERATOR CONTRACT OBJECT
 
 Every consequential invocation SHOULD be representable as:
 
@@ -238,9 +241,9 @@ generator_invocation:
     proof_capsule_ref: null
 ```
 
----
+______________________________________________________________________
 
-# 6. TWELVE GENERATOR FUNCTION CLASSES
+## 6. TWELVE GENERATOR FUNCTION CLASSES
 
 Until an independently established canonical registry provides different names, the contract defines twelve functional slots:
 
@@ -269,9 +272,9 @@ They MUST NOT be interpreted as proof of twelve independent:
 - evidence sources;
 - reasoning engines.
 
----
+______________________________________________________________________
 
-# 7. G01 — STRUCTURE GENERATOR
+## 7. G01 — STRUCTURE GENERATOR
 
 ## Objective
 
@@ -317,9 +320,9 @@ Structural resemblance does not establish causal equivalence.
 
 $$Isomorphic(A,B) \not\Rightarrow CausallyEquivalent(A,B)$$
 
----
+______________________________________________________________________
 
-# 8. G02 — HYPOTHESIS GENERATOR
+## 8. G02 — HYPOTHESIS GENERATOR
 
 ## Objective — part 2
 
@@ -366,9 +369,9 @@ H5: regime transition
 
 where each is genuinely plausible.
 
----
+______________________________________________________________________
 
-# 9. G03 — ALTERNATIVE GENERATOR
+## 9. G03 — ALTERNATIVE GENERATOR
 
 ## Objective — part 3
 
@@ -394,9 +397,9 @@ Candidate dimensions include:
 
 The generator SHOULD maximize useful diversity rather than superficial variation.
 
----
+______________________________________________________________________
 
-# 10. G04 — CAUSAL GENERATOR
+## 10. G04 — CAUSAL GENERATOR
 
 ## Objective — part 4
 
@@ -446,9 +449,9 @@ causal effect
 
 No transformation may silently convert one type into another.
 
----
+______________________________________________________________________
 
-# 11. G05 — COUNTERFACTUAL GENERATOR
+## 11. G05 — COUNTERFACTUAL GENERATOR
 
 ## Objective — part 5
 
@@ -480,9 +483,9 @@ INVALIDATION CONDITIONS
 
 A counterfactual cannot establish its own causal model.
 
----
+______________________________________________________________________
 
-# 12. G06 — SCENARIO GENERATOR
+## 12. G06 — SCENARIO GENERATOR
 
 ## Objective — part 6
 
@@ -516,9 +519,9 @@ REGIME_SHIFT
 
 Scenario detail does not convert a scenario into a prediction.
 
----
+______________________________________________________________________
 
-# 13. G07 — SOLUTION GENERATOR
+## 13. G07 — SOLUTION GENERATOR
 
 ## Objective — part 7
 
@@ -543,9 +546,9 @@ authority requirements
 
 Generation and selection remain separate operations.
 
----
+______________________________________________________________________
 
-# 14. G08 — PLAN GENERATOR
+## 14. G08 — PLAN GENERATOR
 
 ## Objective — part 8
 
@@ -570,9 +573,9 @@ Planning does not imply execution authority.
 
 $$AuthorizedToGeneratePlan \not\Rightarrow AuthorizedToExecutePlan$$
 
----
+______________________________________________________________________
 
-# 15. G09 — TEST GENERATOR
+## 15. G09 — TEST GENERATOR
 
 ## Objective — part 9
 
@@ -584,9 +587,9 @@ $$T^* = \arg\max_T \frac{ E[InformationGain(T)] }{ Cost(T)+Risk(T) }$$
 
 A high-value test SHOULD discriminate among competing explanations rather than merely collect more evidence of the same ancestry.
 
----
+______________________________________________________________________
 
-# 16. G10 — FALSIFIER GENERATOR
+## 16. G10 — FALSIFIER GENERATOR
 
 ## Objective — part 10
 
@@ -613,9 +616,9 @@ counterexample
 
 The generator SHOULD attack load-bearing premises first.
 
----
+______________________________________________________________________
 
-# 17. G11 — REPAIR GENERATOR
+## 17. G11 — REPAIR GENERATOR
 
 ## Objective — part 11
 
@@ -647,9 +650,9 @@ $$RepairCost + RepairHarm + ResidualRisk$$
 
 subject to restoring validity.
 
----
+______________________________________________________________________
 
-# 18. G12 — SYNTHESIS GENERATOR
+## 18. G12 — SYNTHESIS GENERATOR
 
 ## Objective — part 12
 
@@ -683,9 +686,9 @@ PLAUSIBLE → CAUSAL
 
 merely to improve readability.
 
----
+______________________________________________________________________
 
-# 19. INPUT ADMISSION
+## 19. INPUT ADMISSION
 
 Before generation, inputs MUST retain their epistemic type.
 
@@ -708,9 +711,9 @@ $$I = SOURCE\_CLAIM$$
 
 then transforming $I$ does not magically create an observation.
 
----
+______________________________________________________________________
 
-# 20. EVIDENCE ADMISSION
+## 20. EVIDENCE ADMISSION
 
 Evidence used by a generator SHOULD satisfy relevant checks for:
 
@@ -739,9 +742,9 @@ to address a gap.
 
 It MUST NOT invent evidence to close it.
 
----
+______________________________________________________________________
 
-# 21. PROVENANCE BINDING
+## 21. PROVENANCE BINDING
 
 Every consequential output MUST retain its ancestry.
 
@@ -763,9 +766,9 @@ regime
 time/epoch
 ```
 
----
+______________________________________________________________________
 
-# 22. PROVENANCE TOPOLOGY
+## 22. PROVENANCE TOPOLOGY
 
 Generator outputs form a graph:
 
@@ -794,9 +797,9 @@ G12 SYNTHESIS
 
 All descendants remain dependent on `SOURCE A` where it is load-bearing.
 
----
+______________________________________________________________________
 
-# 23. SYBIL HARDENING
+## 23. SYBIL HARDENING
 
 Multiple generators do not create multiple independent evidence sources.
 
@@ -821,9 +824,9 @@ INDEPENDENT SOURCE COUNT
 
 These quantities are not interchangeable.
 
----
+______________________________________________________________________
 
-# 24. EFFECTIVE INDEPENDENCE
+## 24. EFFECTIVE INDEPENDENCE
 
 Generator diversity SHOULD be assessed through ancestry.
 
@@ -833,9 +836,9 @@ $$I_{eff} = f( source\ diversity, ancestry\ separation, model\ separation, depen
 
 Repeated descendants of one origin contribute limited evidential independence.
 
----
+______________________________________________________________________
 
-# 25. NO CIRCULAR VALIDATION
+## 25. NO CIRCULAR VALIDATION
 
 The following is invalid:
 
@@ -855,9 +858,9 @@ therefore G04 is causally verified
 
 Generator transformations cannot validate their own ancestry.
 
----
+______________________________________________________________________
 
-# 26. COMPETING HYPOTHESES
+## 26. COMPETING HYPOTHESES
 
 When materially incompatible candidates remain similarly supported:
 
@@ -873,9 +876,9 @@ $$T^*$$
 
 the cheapest high-information discriminating test.
 
----
+______________________________________________________________________
 
-# 27. CONSTRAINT PROPAGATION
+## 27. CONSTRAINT PROPAGATION
 
 If constraint $C$ applies to an upstream generator:
 
@@ -889,9 +892,9 @@ until explicitly discharged.
 
 Constraints cannot disappear merely because content was transformed.
 
----
+______________________________________________________________________
 
-# 28. SCOPE INHERITANCE
+## 28. SCOPE INHERITANCE
 
 Outputs inherit the applicability envelope of their load-bearing inputs.
 
@@ -909,9 +912,9 @@ MODEL
 
 until validated.
 
----
+______________________________________________________________________
 
-# 29. REGIME INHERITANCE
+## 29. REGIME INHERITANCE
 
 If evidence is valid under regime $R_1$:
 
@@ -921,9 +924,9 @@ generated conclusions do not automatically remain valid under $R_2$.
 
 A regime transition triggers targeted revalidation.
 
----
+______________________________________________________________________
 
-# 30. FRESHNESS INHERITANCE
+## 30. FRESHNESS INHERITANCE
 
 Generation does not refresh evidence.
 
@@ -931,9 +934,9 @@ $$Transform(StaleEvidence) \neq FreshEvidence$$
 
 A generator output dependent on stale evidence inherits the relevant temporal weakness.
 
----
+______________________________________________________________________
 
-# 31. CONFIDENCE CEILING
+## 31. CONFIDENCE CEILING
 
 For generated conclusion $C$ with load-bearing premises $P_i$:
 
@@ -943,9 +946,9 @@ unless the weak premise is independently revalidated or no longer load-bearing.
 
 Generator confidence cannot exceed evidence confidence through rhetoric or repetition.
 
----
+______________________________________________________________________
 
-# 32. UNCERTAINTY VECTOR
+## 32. UNCERTAINTY VECTOR
 
 Consequential generated outputs SHOULD preserve:
 
@@ -963,9 +966,9 @@ where:
 
 A single scalar confidence SHOULD NOT hide materially different uncertainty types.
 
----
+______________________________________________________________________
 
-# 33. SENSITIVITY
+## 33. SENSITIVITY
 
 For consequential generated conclusions, identify the smallest premise or threshold capable of flipping the result.
 
@@ -985,9 +988,9 @@ Fragile generated conclusions SHOULD be marked:
 CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
-# 34. ADVERSARIAL VALIDATION
+## 34. ADVERSARIAL VALIDATION
 
 For consequential outputs:
 
@@ -1022,9 +1025,9 @@ or
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 35. GENERATOR ADMISSION
+## 35. GENERATOR ADMISSION
 
 Generators SHOULD execute only when they can materially improve the task.
 
@@ -1036,9 +1039,9 @@ $$EV(G_i) = InformationGain - Cost - Risk - Complexity$$
 
 Execute when expected value is positive and integrity constraints are satisfied.
 
----
+______________________________________________________________________
 
-# 36. MINIMUM GENERATOR SET
+## 36. MINIMUM GENERATOR SET
 
 The existence of twelve generator classes does not imply all twelve execute.
 
@@ -1057,9 +1060,9 @@ contradiction burden
 false consensus
 ```
 
----
+______________________________________________________________________
 
-# 37. ADAPTIVE COMPLEXITY
+## 37. ADAPTIVE COMPLEXITY
 
 Generator depth follows AMOS adaptive complexity.
 
@@ -1086,9 +1089,9 @@ regime mismatch
 governance impact
 ```
 
----
+______________________________________________________________________
 
-# 38. FAST PATH
+## 38. FAST PATH
 
 A generator MAY use local fast-path reasoning only when:
 
@@ -1105,9 +1108,9 @@ governance risk acceptable
 
 Otherwise escalate.
 
----
+______________________________________________________________________
 
-# 39. H/M/L INTEGRATION
+## 39. H/M/L INTEGRATION
 
 Generators SHOULD retrieve only the knowledge resolution required.
 
@@ -1131,9 +1134,9 @@ DO_NOT_LOAD_UNLESS_REQUIRED
 
 Generation is not justification for indiscriminate retrieval.
 
----
+______________________________________________________________________
 
-# 40. RSCF INTEGRATION
+## 40. RSCF INTEGRATION
 
 Generator invocation may occur inside RSCF structures.
 
@@ -1150,9 +1153,9 @@ RSCF
 
 Outputs inherit the RSCF's active validity envelope.
 
----
+______________________________________________________________________
 
-# 41. MULTI-RSCF GENERATION
+## 41. MULTI-RSCF GENERATION
 
 If output $O$ depends on:
 
@@ -1162,9 +1165,9 @@ then all load-bearing RSCF states must be compatible at finalization.
 
 Atomic reasoning is required where partial state would produce an invalid result.
 
----
+______________________________________________________________________
 
-# 42. GMEF INTEGRATION
+## 42. GMEF INTEGRATION
 
 Generated models SHOULD enter governed model evaluation.
 
@@ -1186,9 +1189,9 @@ Generation creates a candidate model.
 
 It does not certify the model.
 
----
+______________________________________________________________________
 
-# 43. PROOF CAPSULE INTEGRATION
+## 43. PROOF CAPSULE INTEGRATION
 
 Consequential generator conclusions SHOULD bind to a Proof Capsule.
 
@@ -1217,9 +1220,9 @@ proof_capsule:
 
 Proof Capsule reuse is allowed only while dependencies and validity conditions remain intact.
 
----
+______________________________________________________________________
 
-# 44. CAPABILITY RESOLUTION
+## 44. CAPABILITY RESOLUTION
 
 Generator selection SHOULD occur through capability resolution.
 
@@ -1253,9 +1256,9 @@ CAPABILITY_GAP
 
 not fabricated execution.
 
----
+______________________________________________________________________
 
-# 45. MODE INTEGRATION
+## 45. MODE INTEGRATION
 
 Modes and generators are separate abstractions.
 
@@ -1275,17 +1278,17 @@ A generator MAY support several modes.
 
 Neither identity implies the other.
 
----
+______________________________________________________________________
 
-# 46. MODE ADMISSION
+## 46. MODE ADMISSION
 
 A mode requesting a generator must satisfy applicable mode admission rules before the generator's result becomes operationally relevant.
 
 Generator availability cannot bypass mode governance.
 
----
+______________________________________________________________________
 
-# 47. MODE COMPOSITION
+## 47. MODE COMPOSITION
 
 If modes compose:
 
@@ -1295,9 +1298,9 @@ their generator constraints must also compose consistently.
 
 A generator cannot be used to bypass a conflict between modes.
 
----
+______________________________________________________________________
 
-# 48. MODE CONFLICT
+## 48. MODE CONFLICT
 
 If active modes impose incompatible generator requirements:
 
@@ -1307,9 +1310,9 @@ MODE_CONFLICT
 
 must be preserved until resolved by the appropriate authority or precedence rule.
 
----
+______________________________________________________________________
 
-# 49. DEPENDENCY GRAPH
+## 49. DEPENDENCY GRAPH
 
 Candidate generator dependencies include:
 
@@ -1355,9 +1358,9 @@ G12 SYNTHESIS
 
 Actual dependencies MUST be recorded per invocation rather than assumed from this conceptual graph.
 
----
+______________________________________________________________________
 
-# 50. BINDING
+## 50. BINDING
 
 Every consequential generated artifact SHOULD bind to:
 
@@ -1376,9 +1379,9 @@ epoch/time
 
 An unbound output is not eligible for consequential reuse.
 
----
+______________________________________________________________________
 
-# 51. VERSION BINDING
+## 51. VERSION BINDING
 
 Generated outputs SHOULD retain:
 
@@ -1386,9 +1389,9 @@ $$O@G_i^{v_n}$$
 
 A later generator version does not rewrite historical provenance.
 
----
+______________________________________________________________________
 
-# 52. VERSION CHANGE
+## 52. VERSION CHANGE
 
 Generator changes SHOULD be classified:
 
@@ -1410,9 +1413,9 @@ Adds backward-compatible capability.
 
 Corrects implementation without intended semantic change.
 
----
+______________________________________________________________________
 
-# 53. SELECTIVE REVALIDATION
+## 53. SELECTIVE REVALIDATION
 
 If generator $G$ changes:
 
@@ -1424,9 +1427,9 @@ Identify whether the changed semantics affect each output's load-bearing transfo
 
 Invalidate only affected descendants.
 
----
+______________________________________________________________________
 
-# 54. PERSISTENT PROVENANCE
+## 54. PERSISTENT PROVENANCE
 
 Historical generator outputs SHOULD preserve their generating version and ancestry.
 
@@ -1440,9 +1443,9 @@ G02@2.0 → H3
 
 Historical records should not be destructively rewritten to make them appear produced by the current generator.
 
----
+______________________________________________________________________
 
-# 55. MVCC CONCEPT
+## 55. MVCC CONCEPT
 
 Where concurrent reasoning state matters, generator reads SHOULD conceptually bind to a consistent state snapshot.
 
@@ -1452,9 +1455,9 @@ This prevents mixing incompatible state versions without detection.
 
 This is an AMOS reasoning pattern, not a claim that every deployment literally implements database MVCC.
 
----
+______________________________________________________________________
 
-# 56. CAS CONCEPT
+## 56. CAS CONCEPT
 
 Before consequential finalization, verify that expected load-bearing state remains current.
 
@@ -1467,9 +1470,9 @@ STALE_GENERATION
 → REVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 57. CAUSAL EPOCH
+## 57. CAUSAL EPOCH
 
 Generator output MAY be bound to a causal epoch:
 
@@ -1477,9 +1480,9 @@ $$O@E_n$$
 
 If a load-bearing causal dependency changes at $E_{n+1}$, only affected outputs require revalidation.
 
----
+______________________________________________________________________
 
-# 58. LOCAL FINALIZATION
+## 58. LOCAL FINALIZATION
 
 A generator output may finalize locally if:
 
@@ -1495,9 +1498,9 @@ authority adequate
 
 Global generator coordination is not required when the local proof is sufficient.
 
----
+______________________________________________________________________
 
-# 59. PROOF-BASED COORDINATION AVOIDANCE
+## 59. PROOF-BASED COORDINATION AVOIDANCE
 
 Do not invoke additional generators merely to obtain cosmetic consensus.
 
@@ -1507,9 +1510,9 @@ $$Proof_{local}$$
 
 already establishes decision sufficiency, then additional coordination has zero or negative expected value.
 
----
+______________________________________________________________________
 
-# 60. EFFECT CLASSIFICATION
+## 60. EFFECT CLASSIFICATION
 
 Generated outputs SHOULD identify their effect class.
 
@@ -1525,9 +1528,9 @@ EXTERNAL-COMMITMENT
 
 Validation requirements rise with effect consequence.
 
----
+______________________________________________________________________
 
-# 61. RISK CONSTRAINT
+## 61. RISK CONSTRAINT
 
 Generator governance SHOULD scale with risk.
 
@@ -1543,9 +1546,9 @@ R4 — irreversible / safety / legal / financial / institutional
 
 Higher risk requires stronger validation and narrower authority.
 
----
+______________________________________________________________________
 
-# 62. CAPABILITY AUTHORIZATION
+## 62. CAPABILITY AUTHORIZATION
 
 Possessing a generator capability does not imply authorization to use its result operationally.
 
@@ -1553,9 +1556,9 @@ $$Capability \neq Authority$$
 
 A plan generator can propose an action without being authorized to execute it.
 
----
+______________________________________________________________________
 
-# 63. COMMIT-TIME AUTHORITY
+## 63. COMMIT-TIME AUTHORITY
 
 Authority MUST be checked at the point of consequential commitment where applicable.
 
@@ -1563,9 +1566,9 @@ $$Authority_{generation} \not\Rightarrow Authority_{commit}$$
 
 State may change between generation and commitment.
 
----
+______________________________________________________________________
 
-# 64. INFORMATION EXPOSURE
+## 64. INFORMATION EXPOSURE
 
 Generators SHOULD receive the minimum information necessary for correct operation when information compartmentalization matters.
 
@@ -1580,9 +1583,9 @@ regime mismatch
 authority violation
 ```
 
----
+______________________________________________________________________
 
-# 65. FAILURE STATES
+## 65. FAILURE STATES
 
 Canonical candidate failure classes:
 
@@ -1607,9 +1610,9 @@ COMMIT_STATE_CHANGED
 
 Failures MUST remain explicit.
 
----
+______________________________________________________________________
 
-# 66. FAILURE RECOVERY
+## 66. FAILURE RECOVERY
 
 Recovery sequence:
 
@@ -1633,9 +1636,9 @@ RESUME
 
 Global recomputation is a last resort.
 
----
+______________________________________________________________________
 
-# 67. REPAIR PRIORITY
+## 67. REPAIR PRIORITY
 
 Repair order:
 
@@ -1643,9 +1646,9 @@ $$CRITICAL > DECISION\text{-}RELEVANT > EXPLANATORY > COSMETIC$$
 
 A cosmetic generator defect must never outrank an integrity-critical provenance or causal failure.
 
----
+______________________________________________________________________
 
-# 68. REPAIR HARM
+## 68. REPAIR HARM
 
 Repair selection SHOULD minimize:
 
@@ -1653,9 +1656,9 @@ $$H_R = LostValidWork + Recomputation + OperationalDisruption + NewRisk$$
 
 while restoring validity.
 
----
+______________________________________________________________________
 
-# 69. HOMEOSTASIS
+## 69. HOMEOSTASIS
 
 The generator subsystem SHOULD preserve:
 
@@ -1672,9 +1675,9 @@ authority integrity
 
 Homeostasis means preservation of valid state, not preservation of obsolete conclusions.
 
----
+______________________________________________________________________
 
-# 70. GENERATOR SELECTION OBJECTIVE
+## 70. GENERATOR SELECTION OBJECTIVE
 
 Conceptually:
 
@@ -1686,9 +1689,9 @@ $$Integrity(G)=TRUE$$
 
 This is a reasoning model, not necessarily literal runtime code.
 
----
+______________________________________________________________________
 
-# 71. STOPPING CONDITION
+## 71. STOPPING CONDITION
 
 Generation SHOULD stop when:
 
@@ -1708,9 +1711,9 @@ with:
 BETTER REASONING
 ```
 
----
+______________________________________________________________________
 
-# 72. CLAIM SUFFICIENCY
+## 72. CLAIM SUFFICIENCY
 
 Generated claim $C$ reaches Claim Sufficiency when:
 
@@ -1726,15 +1729,15 @@ material contradictions represented
 confidence ceiling known
 ```
 
----
+______________________________________________________________________
 
-# 73. DECISION SUFFICIENCY
+## 73. DECISION SUFFICIENCY
 
 A generated decision space reaches Decision Sufficiency when additional generation is unlikely to change the selected decision beyond the accepted risk/uncertainty threshold.
 
----
+______________________________________________________________________
 
-# 74. ACTION SUFFICIENCY
+## 74. ACTION SUFFICIENCY
 
 Action Sufficiency requires:
 
@@ -1742,9 +1745,9 @@ $$ClaimSufficiency \land DecisionSufficiency \land RiskAcceptable \land Authorit
 
 Generation alone never establishes Action Sufficiency.
 
----
+______________________________________________________________________
 
-# 75. GENERATIVE SYBIL ATTACK
+## 75. GENERATIVE SYBIL ATTACK
 
 A generator architecture is vulnerable to a synthetic consensus attack when multiple outputs derived from the same origin appear independent.
 
@@ -1763,9 +1766,9 @@ These are five descendants but may still constitute only one evidential ancestry
 
 The system MUST preserve this topology.
 
----
+______________________________________________________________________
 
-# 76. SEMANTIC DIVERSITY
+## 76. SEMANTIC DIVERSITY
 
 Useful generator diversity is not measured by output count alone.
 
@@ -1777,9 +1780,9 @@ subject to task relevance.
 
 Paraphrase inflation SHOULD be suppressed.
 
----
+______________________________________________________________________
 
-# 77. INDEPENDENCE-WEIGHTED DIVERSITY
+## 77. INDEPENDENCE-WEIGHTED DIVERSITY
 
 Where evidence independence matters:
 
@@ -1787,9 +1790,9 @@ $$D_{effective} = D_{useful} \times I_{provenance}$$
 
 A hundred variants with identical ancestry may have high linguistic diversity but near-zero additional evidential independence.
 
----
+______________________________________________________________________
 
-# 78. GENERATOR CONSENSUS
+## 78. GENERATOR CONSENSUS
 
 Generator consensus MAY support:
 
@@ -1809,9 +1812,9 @@ independent verification
 external validity
 ```
 
----
+______________________________________________________________________
 
-# 79. CAUSAL FIREWALL
+## 79. CAUSAL FIREWALL
 
 No generator may infer causal effect from:
 
@@ -1826,9 +1829,9 @@ generator agreement
 
 without appropriate causal support.
 
----
+______________________________________________________________________
 
-# 80. SCOPE FIREWALL
+## 80. SCOPE FIREWALL
 
 A generated claim MUST NOT silently expand:
 
@@ -1842,17 +1845,17 @@ one measurement method → all methods
 
 Generalization requires independent justification.
 
----
+______________________________________________________________________
 
-# 81. REGIME FIREWALL
+## 81. REGIME FIREWALL
 
 A conclusion valid under regime $R_a$ does not automatically survive regime $R_b$.
 
 Generators SHOULD explicitly identify regime-sensitive assumptions where material.
 
----
+______________________________________________________________________
 
-# 82. ANTI-FABRICATION
+## 82. ANTI-FABRICATION
 
 Generators MUST NOT invent:
 
@@ -1882,9 +1885,9 @@ tests
 
 provided those outputs remain correctly typed.
 
----
+______________________________________________________________________
 
-# 83. ANTI-CAUSAL-LAUNDERING
+## 83. ANTI-CAUSAL-LAUNDERING
 
 Repeated generative transformation cannot convert a model into causal evidence.
 
@@ -1894,17 +1897,17 @@ does not imply:
 
 $$VERIFIED\ CAUSAL\ EFFECT$$
 
----
+______________________________________________________________________
 
-# 84. ANTI-CONFIDENCE-LAUNDERING
+## 84. ANTI-CONFIDENCE-LAUNDERING
 
 Generator repetition cannot manufacture confidence.
 
 $$WeakPremise + ManyDerivedOutputs \not\Rightarrow StrongPremise$$
 
----
+______________________________________________________________________
 
-# 85. ANTI-CANON-LAUNDERING
+## 85. ANTI-CANON-LAUNDERING
 
 Generated architecture documentation MUST NOT self-promote to canon.
 
@@ -1921,9 +1924,9 @@ supersession record
 
 where applicable.
 
----
+______________________________________________________________________
 
-# 86. GENERATOR REGISTRY
+## 86. GENERATOR REGISTRY
 
 A concrete deployment SHOULD maintain:
 
@@ -2010,9 +2013,9 @@ generator_registry:
 
 Unknown implementation details MUST remain `null` or equivalent rather than being invented.
 
----
+______________________________________________________________________
 
-# 87. EXECUTION RECORD
+## 87. EXECUTION RECORD
 
 Recommended persistent execution representation:
 
@@ -2061,9 +2064,9 @@ generator_execution:
     commit_authority: null
 ```
 
----
+______________________________________________________________________
 
-# 88. VALIDATION REQUIREMENTS
+## 88. VALIDATION REQUIREMENTS
 
 An implementation claiming compliance SHOULD be tested for:
 
@@ -2087,9 +2090,9 @@ version binding
 
 Test success applies only to the tested implementation and scope.
 
----
+______________________________________________________________________
 
-# 89. ADVERSARIAL TEST SUITE
+## 89. ADVERSARIAL TEST SUITE
 
 ## T1 — Missing evidence
 
@@ -2184,9 +2187,9 @@ COMPETING
 
 not forced convergence.
 
----
+______________________________________________________________________
 
-# 90. CONTRACT PRECEDENCE
+## 90. CONTRACT PRECEDENCE
 
 Candidate precedence:
 
@@ -2212,9 +2215,9 @@ GENERATED OUTPUT
 
 A lower layer cannot override a higher integrity constraint.
 
----
+______________________________________________________________________
 
-# 91. RELATIONSHIP TO TASK CONTRACT
+## 91. RELATIONSHIP TO TASK CONTRACT
 
 The Task Contract determines:
 
@@ -2229,17 +2232,17 @@ constraints
 
 The Generator Contract determines how candidate content may be generated inside that task.
 
----
+______________________________________________________________________
 
-# 92. RELATIONSHIP TO CAPABILITY RESOLVER
+## 92. RELATIONSHIP TO CAPABILITY RESOLVER
 
 The Capability Resolver determines which generator capability is available and admissible.
 
 The Generator Contract determines what the selected capability may legitimately produce.
 
----
+______________________________________________________________________
 
-# 93. RELATIONSHIP TO COGNITIVE MATRIX
+## 93. RELATIONSHIP TO COGNITIVE MATRIX
 
 The Cognitive Matrix may determine required cognitive operations.
 
@@ -2259,9 +2262,9 @@ GENERATOR
 VALIDATED CANDIDATE
 ```
 
----
+______________________________________________________________________
 
-# 94. RELATIONSHIP TO 12 GENERATORS VERSIONING
+## 94. RELATIONSHIP TO 12 GENERATORS VERSIONING
 
 The two artifacts have distinct responsibilities.
 
@@ -2290,17 +2293,17 @@ $$Contract \neq Versioning$$
 
 but each constrains the other.
 
----
+______________________________________________________________________
 
-# 95. RELATIONSHIP TO K COUNTERFACTUAL
+## 95. RELATIONSHIP TO K COUNTERFACTUAL
 
 G05 MUST defer to stronger counterfactual rules defined by the canonical counterfactual subsystem where applicable.
 
 The generator contract cannot weaken counterfactual causal requirements.
 
----
+______________________________________________________________________
 
-# 96. RELATIONSHIP TO K PROVENANCE TOPOLOGY
+## 96. RELATIONSHIP TO K PROVENANCE TOPOLOGY
 
 Generator ancestry MUST be represented as provenance topology rather than merely citation count.
 
@@ -2314,9 +2317,9 @@ correlated evidence
 recursive self-support
 ```
 
----
+______________________________________________________________________
 
-# 97. RELATIONSHIP TO K SYBIL HARDENING
+## 97. RELATIONSHIP TO K SYBIL HARDENING
 
 Generator multiplicity is explicitly covered by Sybil hardening.
 
@@ -2324,9 +2327,9 @@ Fundamental invariant:
 
 $$GeneratorCount \neq IndependentEvidenceCount$$
 
----
+______________________________________________________________________
 
-# 98. RELATIONSHIP TO K BINDING
+## 98. RELATIONSHIP TO K BINDING
 
 Binding ensures generated outputs cannot float free of:
 
@@ -2342,17 +2345,17 @@ provenance
 
 Consequential reuse requires valid binding.
 
----
+______________________________________________________________________
 
-# 99. RELATIONSHIP TO K CONSTRAINT PROPAGATION
+## 99. RELATIONSHIP TO K CONSTRAINT PROPAGATION
 
 Constraints follow dependency edges.
 
 No downstream generator may silently discard a still-active upstream constraint.
 
----
+______________________________________________________________________
 
-# 100. RELATIONSHIP TO K REPAIR
+## 100. RELATIONSHIP TO K REPAIR
 
 Generator failure invokes localized repair.
 
@@ -2372,9 +2375,9 @@ G04 INVALID
 
 An unrelated G01 structure need not be destroyed.
 
----
+______________________________________________________________________
 
-# 101. ANTI-REGRESSION
+## 101. ANTI-REGRESSION
 
 Any generator optimization MUST preserve or improve:
 
@@ -2398,9 +2401,9 @@ or
 ROLLBACK
 ```
 
----
+______________________________________________________________________
 
-# 102. MASTER INVARIANTS
+## 102. MASTER INVARIANTS
 
 ```text
 GEN-I01
@@ -2452,9 +2455,9 @@ GEN-I16
 Optimization cannot weaken integrity.
 ```
 
----
+______________________________________________________________________
 
-# 103. MASTER EXECUTION PIPELINE
+## 103. MASTER EXECUTION PIPELINE
 
 ```text
 ┌────────────────────────────┐
@@ -2524,9 +2527,9 @@ Optimization cannot weaken integrity.
  COMPETING / UNKNOWN-GAP
 ```
 
----
+______________________________________________________________________
 
-# 104. GENERATOR FINALIZATION
+## 104. GENERATOR FINALIZATION
 
 A generated result may finalize only if:
 
@@ -2548,9 +2551,9 @@ $$A$$
 
 where $A$ = valid authority.
 
----
+______________________________________________________________________
 
-# 105. CONCLUSION CLASSES
+## 105. CONCLUSION CLASSES
 
 Generator outputs MUST ultimately use the weakest accurate AMOS conclusion class:
 
@@ -2571,9 +2574,9 @@ MODEL
 
 not `VERIFIED`.
 
----
+______________________________________________________________________
 
-# 106. CANON PROMOTION
+## 106. CANON PROMOTION
 
 This artifact MUST NOT self-certify as final canon.
 
@@ -2598,9 +2601,9 @@ Until that occurs:
 STATUS = CANDIDATE_CANON
 ```
 
----
+______________________________________________________________________
 
-# 107. CONTRACT ESSENCE
+## 107. CONTRACT ESSENCE
 
 The 12 Generators architecture exists to expand the space of things AMOS can responsibly consider.
 
@@ -2622,9 +2625,9 @@ $$\boxed{ Believe\ only\ what\ evidence\ licenses }$$
 
 $$\boxed{ Commit\ only\ what\ governance\ authorizes }$$
 
----
+______________________________________________________________________
 
-# 108. FINAL CONTRACT
+## 108. FINAL CONTRACT
 
 The full generator system MUST preserve:
 
@@ -2652,9 +2655,9 @@ with:
 
 $$\boxed{ Persistent\ Provenance + Typed\ Evidence + Scope/Regime\ Control + Causal\ Discipline + Localized\ Repair + Proof\text{-}Based\ Finalization }$$
 
----
+______________________________________________________________________
 
-# 109. STATUS
+## 109. STATUS
 
 **Artifact:** `12_GENERATORS_CONTRACT`
 
@@ -2687,7 +2690,7 @@ SUPERSESSION CONTROL
 
 process.
 
----
+______________________________________________________________________
 
 **END OF 12 GENERATORS CONTRACT**
 
@@ -2696,23 +2699,26 @@ process.
 This version is deliberately stricter than the earlier draft: it does **not** pretend the twelve exact generator identities were recovered from Drive, because the canonical folder currently exposes only the builder script in the available listing. The twelve named slots above are therefore functional contract slots pending authoritative registry/version evidence.
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[25_COGNITIVE_MATRIX/12_GENERATORS/00_INDEX/GENERATORS_MAP|GENERATORS_MAP]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: generator_contract
 node_type: note
 path: 25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_CONTRACT.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/12_GENERATORS/12_GENERATORS_MOC|12_GENERATORS_MOC]]
-

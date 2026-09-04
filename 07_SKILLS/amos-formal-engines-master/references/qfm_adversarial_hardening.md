@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: qfm adversarial hardening
 type: reference
 source: 07_SKILLS/amos-formal-engines-master/references
 tags:
-- reference
-- amos-formal-engines-master
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-formal-engines-master
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: EMPIRICAL
@@ -20,17 +23,14 @@ rscf:
 > Source: `_00_Cosmo brain/dated/2026-08-25/2026-08-25 QFM Adversarial Hardening.md`
 > Epistemic class: SOURCE_DERIVED
 
----
-title: 2026-08-25 QFM Adversarial Hardening
-type: daily-learning
-date: 2026-08-25
-epistemic: DERIVED/TESTED
-tags: [quantum, fractal, math, adversarial, enforcement-root-attestation, dated, dated/2026-08-25]
----
+______________________________________________________________________
 
-# 2026-08-25 — QFM Adversarial Hardening Pass
+## title: 2026-08-25 QFM Adversarial Hardening type: daily-learning date: 2026-08-25 epistemic: DERIVED/TESTED tags: [quantum, fractal, math, adversarial, enforcement-root-attestation, dated, dated/2026-08-25]
+
+## 2026-08-25 — QFM Adversarial Hardening Pass
 
 ## Context
+
 QFM (quantum-fractal-math) stack consolidated into master skill + engine + workflows. This pass stress-tested the *enforcement* layer above model cognition and stored the results as durable infrastructure learning.
 
 ## Two falsifications
@@ -48,36 +48,43 @@ Fields: control_plane_identity · policy_compiler_identity · policy_hash · ref
 Gate: `MayExternalize` now includes `∧ EnforcementRootAttested`. No model-confidence term.
 
 ## Law upgraded (AMOS MODEL, tested)
+
 Capability ≠ Reachability ≠ Identity ≠ Authority ≠ Observability ≠ Enforcement ≠ Commitment ≠ Consequence — each transition needs an explicit proof boundary.
 
 ## Layered isolation
+
 semantic authority → effect-path authz → ERA → OS reference monitor → sandbox (gVisor) → microVM (Firecracker) → host egress → external. No layer infallible; compromising one boundary must not create authority at the next.
 
 External substrates verified as capabilities (not embedded canon): SPIFFE/SPIRE, ActPlane (ToolCallObserved < SystemEffectObserved), gVisor, Firecracker.
 
 ## Release finality recap (v42 contract)
+
 same key+digest → EFFECT_ALREADY_COMMITTED; key equivocation / rekey → BLOCK_EFFECT_IDEMPOTENCY; ambiguous dispatch → RECONCILE_EFFECT (never blind retry).
 
 ## Epistemic boundaries (unchanged)
+
 Zero-day impossibility: UNKNOWN/GAP. Universal containment: NOT ESTABLISHED. Stored regression: 50/50 + 10k stress + 90k validator execs, 0 failures.
 
 ## Artifacts created this pass
-| Channel | Artifact |
-|---|---|
-| Skill | `~/.hermes/skills/amos/amos-qfm-adversarial-hardening/` |
-| Workflow | `.devin/workflows/qfm-adversarial-fuzz-workflow.md` |
-| Agent | `.devin/agents/amos-qfm-adversarial-agent.json` |
-| Memory | QFM hardening entry |
+
+| Channel  | Artifact                                                |
+| -------- | ------------------------------------------------------- |
+| Skill    | `~/.hermes/skills/amos/amos-qfm-adversarial-hardening/` |
+| Workflow | `.devin/workflows/qfm-adversarial-fuzz-workflow.md`     |
+| Agent    | `.devin/agents/amos-qfm-adversarial-agent.json`         |
+| Memory   | QFM hardening entry                                     |
 
 ## Cross-scale bridge discipline (QFM relevance)
+
 Anti-overreach guards apply to the fuzz results too: repeated pattern ≠ fractal dimension; entropy proxy ≠ thermodynamic entropy; analogy ≠ causation; synthetic escape count ≠ empirical failure rate. Rényi-q ↔ D_q family and RG ↔ scale-invariance bridges remain the canonical quantum↔fractal↔math connectors (`amos-quantum-fractal-math-master` Part IV).
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · AMOS Simulation Kernel v0 Math Foundations · system scan agent · automation profiles
 
----
-**MOC:** references_MOC
----
+______________________________________________________________________
+
+## **MOC:** references_MOC
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -85,12 +92,14 @@ Anti-overreach guards apply to the fuzz results too: repeated pattern ≠ fracta
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-formal-engines-master-qfm-adversarial-hardening
 node_type: reference
 path: 07_SKILLS/amos-formal-engines-master/references/qfm_adversarial_hardening.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

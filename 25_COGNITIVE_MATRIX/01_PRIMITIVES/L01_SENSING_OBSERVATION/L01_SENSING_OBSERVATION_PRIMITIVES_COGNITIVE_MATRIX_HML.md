@@ -1,19 +1,22 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: L01 SENSING OBSERVATION PRIMITIVES COGNITIVE MATRIX HML
 type: cognitive
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION
 tags:
-- amos
-- cognitive-matrix
-- matrix/l01
-- sensing-observation
-- hml
-- cross-scale
-- observation
-- provenance
-- rscf
-- control-plane
-- domain/cognitive-matrix
+  - amos
+  - cognitive-matrix
+  - matrix/l01
+  - sensing-observation
+  - hml
+  - cross-scale
+  - observation
+  - provenance
+  - rscf
+  - control-plane
+  - domain/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL
@@ -33,9 +36,9 @@ rscf:
 
 > **Epistemic boundary:** this document defines the proposed H/M/L contract for `L01_SENSING_OBSERVATION`. H/M/L is used as an AMOS multiscale reasoning architecture. It does not establish that every empirical sensing system naturally decomposes into exactly three levels, nor that aggregation across those levels preserves meaning, identity, causality, or completeness.
 
----
+______________________________________________________________________
 
-# 0. Purpose
+## 0. Purpose
 
 `L01_SENSING_OBSERVATION/HML.md` defines how sensing and observation are represented across AMOS High / Medium / Low (`H/M/L`) scales.
 
@@ -87,9 +90,9 @@ SYSTEM-LEVEL EXPECTATION
 FABRICATED LOCAL OBSERVATION
 ```
 
----
+______________________________________________________________________
 
-# 1. Source / Canon References
+## 1. Source / Canon References
 
 ## 1.1 Origin
 
@@ -164,19 +167,19 @@ source_status:
 
 No proposed L01-specific H/M/L equation in this artifact should be promoted to `SOURCE_CANON` without direct source evidence.
 
----
+______________________________________________________________________
 
-# 2. Definition
+## 2. Definition
 
 `L01_SENSING_OBSERVATION` H/M/L is a typed multiscale observation architecture in which observations are represented at different resolutions without assuming that information can be losslessly or causally transferred between them.
 
 Define the scale set:
 
-[
-\boxed{
+\[
+\\boxed{
 S = {H,M,L}
 }
-]
+\]
 
 where:
 
@@ -194,9 +197,9 @@ They do not imply fixed physical size.
 
 A subsystem may be `H` relative to its own components while being `M` or `L` relative to a larger system.
 
----
+______________________________________________________________________
 
-# 3. Scope
+## 3. Scope
 
 This contract applies to multiscale handling of:
 
@@ -246,35 +249,35 @@ memory truth
 authority to act
 ```
 
----
+______________________________________________________________________
 
-# 4. Core H/M/L Law
+## 4. Core H/M/L Law
 
 The core relation is:
 
-[
-\boxed{
+\[
+\\boxed{
 O_L
-\rightarrow
+\\rightarrow
 O_M
-\rightarrow
+\\rightarrow
 O_H
 }
-]
+\]
 
 only when valid aggregation mappings exist.
 
 The reverse relation:
 
-[
-\boxed{
+\[
+\\boxed{
 C_H
-\rightarrow
+\\rightarrow
 C_M
-\rightarrow
+\\rightarrow
 C_L
 }
-]
+\]
 
 represents constraints, expectations, query scopes, or observational requirements flowing downward.
 
@@ -296,17 +299,17 @@ MACRO EXPECTATION
 MICRO OBSERVATION
 ```
 
----
+______________________________________________________________________
 
-# 5. H/M/L Observation Tensor
+## 5. H/M/L Observation Tensor
 
 Define:
 
-[
-\boxed{
+\[
+\\boxed{
 O[s,t,r,o,f]
 }
-]
+\]
 
 where:
 
@@ -324,12 +327,9 @@ f = observed feature / field
 
 Extended L01 representation:
 
-[
-\boxed{
-T_{OBS}^{L01}
-=============
+## \[ \\boxed{ T\_{OBS}^{L01}
 
-T[
+T\[
 scale,
 target,
 feature,
@@ -348,15 +348,15 @@ quality,
 uncertainty,
 freshness,
 validation
-]
+\]
 }
-]
+\]
 
 Every decision-relevant tensor cell should remain bound to an RSCF evidence node.
 
----
+______________________________________________________________________
 
-# 6. Typed Inputs
+## 6. Typed Inputs
 
 ```yaml
 HMLObservationInput:
@@ -398,9 +398,9 @@ HMLObservationInput:
     type: UncertaintyVector | UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 7. Typed Outputs
+## 7. Typed Outputs
 
 ```yaml
 HMLObservationOutput:
@@ -460,9 +460,9 @@ HMLObservationOutput:
       - REJECTED
 ```
 
----
+______________________________________________________________________
 
-# 8. State Variables
+## 8. State Variables
 
 ```text
 O_L = local observation state
@@ -500,9 +500,9 @@ X_s = observation coverage at scale s
 D_s = dependency state at scale s
 ```
 
----
+______________________________________________________________________
 
-# 9. Low Scale — L
+## 9. Low Scale — L
 
 `L` represents the smallest observation unit currently relevant to the reasoning task.
 
@@ -528,10 +528,7 @@ single local subsystem state
 
 Canonical conceptual form:
 
-[
-\boxed{
-O_L
-===
+## \[ \\boxed{ O_L
 
 (value,
 feature,
@@ -543,13 +540,13 @@ scope,
 provenance,
 uncertainty)
 }
-]
+\]
 
 An L observation should remain local unless an explicit transformation licenses promotion.
 
----
+______________________________________________________________________
 
-# 10. L-Level Invariants
+## 10. L-Level Invariants
 
 ```text
 L01-L-INV-01
@@ -574,9 +571,9 @@ L01-L-INV-07
 Local correlation does not establish higher-scale causation.
 ```
 
----
+______________________________________________________________________
 
-# 11. Medium Scale — M
+## 11. Medium Scale — M
 
 `M` represents an observational state composed from or referring to a subsystem, region, cluster, modality group, or intermediate structure.
 
@@ -600,23 +597,20 @@ time-window observation summary
 
 Conceptual form:
 
-[
-\boxed{
-O_M
-===
+## \[ \\boxed{ O_M
 
-A_{L\rightarrow M}
+A\_{L\\rightarrow M}
 (
-O_{L,1},...,O_{L,n}
+O\_{L,1},...,O\_{L,n}
 )
 }
-]
+\]
 
 provided aggregation is admissible.
 
----
+______________________________________________________________________
 
-# 12. M-Level Requirements
+## 12. M-Level Requirements
 
 Before L observations may form M state, check:
 
@@ -646,9 +640,9 @@ dependency structure
 uncertainty propagation
 ```
 
----
+______________________________________________________________________
 
-# 13. M-Level Invariants
+## 13. M-Level Invariants
 
 ```text
 L01-M-INV-01
@@ -673,9 +667,9 @@ L01-M-INV-07
 M scope cannot silently exceed contributing evidence coverage.
 ```
 
----
+______________________________________________________________________
 
-# 14. High Scale — H
+## 14. High Scale — H
 
 `H` represents system-level, environment-level, governing, population-level, or global observational state relative to the declared analysis.
 
@@ -699,23 +693,20 @@ high-level situational picture
 
 Conceptual form:
 
-[
-\boxed{
-O_H
-===
+## \[ \\boxed{ O_H
 
-A_{M\rightarrow H}
+A\_{M\\rightarrow H}
 (
-O_{M,1},...,O_{M,k}
+O\_{M,1},...,O\_{M,k}
 )
 }
-]
+\]
 
 subject to admissibility.
 
----
+______________________________________________________________________
 
-# 15. H-Level Invariants
+## 15. H-Level Invariants
 
 ```text
 L01-H-INV-01
@@ -740,25 +731,25 @@ L01-H-INV-07
 H-level conclusions must expose incomplete coverage when material.
 ```
 
----
+______________________________________________________________________
 
-# 16. Upward Aggregation
+## 16. Upward Aggregation
 
 The generic AMOS multiscale structure is:
 
-[
-\boxed{
-O_M=A_{L\rightarrow M}\(O_L\)
+\[
+\\boxed{
+O_M=A\_{L\\rightarrow M}(O_L)
 }
-]
+\]
 
-[
-\boxed{
-O_H=A_{M\rightarrow H}\(O_M\)
+\[
+\\boxed{
+O_H=A\_{M\\rightarrow H}(O_M)
 }
-]
+\]
 
-where each \(A\) is typed.
+where each (A) is typed.
 
 An aggregation operator should bind:
 
@@ -786,15 +777,15 @@ uncertainty transform
 validation state
 ```
 
----
+______________________________________________________________________
 
-# 17. Aggregation Is a Transformation
+## 17. Aggregation Is a Transformation
 
 If:
 
-[
-O_M=A_{L\rightarrow M}\(O_L\)
-]
+\[
+O_M=A\_{L\\rightarrow M}(O_L)
+\]
 
 then generally:
 
@@ -806,9 +797,9 @@ unless `O_M` is independently observed at M scale.
 
 Similarly:
 
-[
-O_H=A_{M\rightarrow H}\(O_M\)
-]
+\[
+O_H=A\_{M\\rightarrow H}(O_M)
+\]
 
 generally yields:
 
@@ -824,9 +815,9 @@ OBSERVATION
 
 merely because its inputs were observations.
 
----
+______________________________________________________________________
 
-# 18. Direct vs Derived Scale Observation
+## 18. Direct vs Derived Scale Observation
 
 AMOS must distinguish:
 
@@ -863,29 +854,23 @@ observation:
 
 This distinction is mandatory.
 
----
+______________________________________________________________________
 
-# 19. Downward Constraint
+## 19. Downward Constraint
 
 The generic downward AMOS structure is:
 
-[
-\boxed{
-O'_M
-====
+## \[ \\boxed{ O'\_M
 
-C_{H\rightarrow M}(O_H,O_M)
+C\_{H\\rightarrow M}(O_H,O_M)
 }
-]
+\]
 
-[
-\boxed{
-O'_L
-====
+## \[ \\boxed{ O'\_L
 
-C_{M\rightarrow L}(O'_M,O_L)
+C\_{M\\rightarrow L}(O'\_M,O_L)
 }
-]
+\]
 
 For L01, `C` should normally be interpreted as:
 
@@ -907,9 +892,9 @@ sampling instruction
 
 not as fabricated evidence.
 
----
+______________________________________________________________________
 
-# 20. Downward Constraint Invariant
+## 20. Downward Constraint Invariant
 
 A high-level expectation may request:
 
@@ -927,34 +912,27 @@ without observation.
 
 Therefore:
 
-[
-\boxed{
+\[
+\\boxed{
 Constraint_H
-\not\Rightarrow
+\\not\\Rightarrow
 Observation_L
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 21. Cross-Scale General Update
+## 21. Cross-Scale General Update
 
 A general AMOS MODEL representation is:
 
-[
-\boxed{
-\Delta O_s(t+1)
-===============
+## \[ \\boxed{ \\Delta O_s(t+1)
 
-\sum_q
-T_{q\rightarrow s}\Delta O_q(t)
-+
-u_s
----
+## \\sum_q T\_{q\\rightarrow s}\\Delta O_q(t) + u_s
 
 d_s
 }
-]
+\]
 
 where:
 
@@ -972,16 +950,13 @@ d_s = invalidated / decayed / revoked contribution
 
 This equation is an AMOS structural model, not a universal empirical law of sensing.
 
----
+______________________________________________________________________
 
-# 22. Cross-Scale Transformation Tensor
+## 22. Cross-Scale Transformation Tensor
 
-[
-\boxed{
-T_{HML}
-=======
+## \[ \\boxed{ T\_{HML}
 
-T[
+T\[
 source_scale,
 target_scale,
 operator,
@@ -993,15 +968,15 @@ coverage,
 provenance,
 uncertainty,
 validation
-]
+\]
 }
-]
+\]
 
 A transformation is admissible only if its required dimensions are compatible.
 
----
+______________________________________________________________________
 
-# 23. Scale Translation Contract
+## 23. Scale Translation Contract
 
 ```yaml
 ScaleTransform:
@@ -1041,19 +1016,19 @@ ScaleTransform:
   falsifiers: []
 ```
 
----
+______________________________________________________________________
 
-# 24. Scope Propagation
+## 24. Scope Propagation
 
-If evidence has scope \(S_L\), aggregation must not silently produce broader scope \(S_H\).
+If evidence has scope (S_L), aggregation must not silently produce broader scope (S_H).
 
-[
-\boxed{
+\[
+\\boxed{
 Scope(O_H)
-\subseteq
+\\subseteq
 LicensedScope(Evidence)
 }
-]
+\]
 
 unless independent evidence justifies expansion.
 
@@ -1065,9 +1040,9 @@ OBSERVED SAMPLE
 UNOBSERVED POPULATION
 ```
 
----
+______________________________________________________________________
 
-# 25. Regime Propagation
+## 25. Regime Propagation
 
 Each scale state inherits regime applicability.
 
@@ -1091,17 +1066,17 @@ DO NOT AUTO-AGGREGATE
 
 unless the transformation explicitly models regime differences.
 
----
+______________________________________________________________________
 
-# 26. Temporal Alignment
+## 26. Temporal Alignment
 
 For cross-scale aggregation:
 
-[
-\boxed{
+\[
+\\boxed{
 CompatibleTime(O_i,O_j)
 }
-]
+\]
 
 must hold to the degree required by the domain.
 
@@ -1123,17 +1098,17 @@ UNKNOWN
 
 Asynchronous observations must not be presented as simultaneous state without a valid temporal model.
 
----
+______________________________________________________________________
 
-# 27. Resolution Compatibility
+## 27. Resolution Compatibility
 
 Higher-scale summaries often compress lower-scale resolution.
 
 Define:
 
-[
-R_L \rightarrow R_M \rightarrow R_H
-]
+\[
+R_L \\rightarrow R_M \\rightarrow R_H
+\]
 
 but:
 
@@ -1149,24 +1124,21 @@ HIGHER SYSTEM COVERAGE
 
 Resolution and coverage are distinct variables.
 
----
+______________________________________________________________________
 
-# 28. Coverage
+## 28. Coverage
 
 Define conceptual coverage:
 
-[
-\boxed{
-Cov_s
-=====
+## \[ \\boxed{ Cov_s
 
-\frac{
+\\frac{
 ObservedRelevantRegion_s
 }{
 DeclaredRelevantRegion_s
 }
 }
-]
+\]
 
 only when numerator and denominator are operationally definable.
 
@@ -1178,17 +1150,17 @@ coverage = UNKNOWN
 
 Do not invent a percentage.
 
----
+______________________________________________________________________
 
-# 29. Coverage Invariant
+## 29. Coverage Invariant
 
-[
-\boxed{
+\[
+\\boxed{
 Unobserved
-\neq
+\\neq
 Absent
 }
-]
+\]
 
 unless observation design guarantees detection.
 
@@ -1202,9 +1174,9 @@ NEGATIVE EVIDENCE
 
 without a detection/coverage model.
 
----
+______________________________________________________________________
 
-# 30. Heterogeneity Preservation
+## 30. Heterogeneity Preservation
 
 Suppose:
 
@@ -1228,17 +1200,17 @@ may conceal the decision-relevant `L4` failure.
 
 Therefore:
 
-[
-\boxed{
+\[
+\\boxed{
 Aggregate
-\neq
+\\neq
 PermissionToEraseCriticalVariation
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 31. Cross-Scale Exception Channel
+## 31. Cross-Scale Exception Channel
 
 Every aggregation should support:
 
@@ -1275,9 +1247,9 @@ M_state:
     conditional
 ```
 
----
+______________________________________________________________________
 
-# 32. Macro Stability / Local Collapse
+## 32. Macro Stability / Local Collapse
 
 Mandatory invariant:
 
@@ -1289,33 +1261,33 @@ LOCAL COLLAPSE
 
 Therefore:
 
-[
+\[
 Stable(O_H)
-\not\Rightarrow
-\forall l,\ Stable(O_l)
-]
+\\not\\Rightarrow
+\\forall l,\\ Stable(O_l)
+\]
 
 This is a structural logical safeguard.
 
----
+______________________________________________________________________
 
-# 33. Local Failure / Macro Stability
+## 33. Local Failure / Macro Stability
 
 Conversely:
 
-[
+\[
 Failure(O_l)
-\not\Rightarrow
+\\not\\Rightarrow
 Failure(O_H)
-]
+\]
 
 unless the local node is load-bearing for the high-scale state.
 
 Dependency topology determines propagation.
 
----
+______________________________________________________________________
 
-# 34. Cross-Scale Causal Firewall
+## 34. Cross-Scale Causal Firewall
 
 Observation propagation must not become causal inference.
 
@@ -1343,9 +1315,9 @@ L caused H
 
 Causal promotion requires separately typed causal evidence.
 
----
+______________________________________________________________________
 
-# 35. Downward Causal Firewall
+## 35. Downward Causal Firewall
 
 Likewise:
 
@@ -1377,9 +1349,9 @@ measurement change
 selection effect
 ```
 
----
+______________________________________________________________________
 
-# 36. Provenance Across Scales
+## 36. Provenance Across Scales
 
 Each cross-scale state should preserve ancestry.
 
@@ -1397,16 +1369,13 @@ H_01
 
 This allows downstream claims to recover their evidence lineage.
 
----
+______________________________________________________________________
 
-# 37. Provenance Tensor
+## 37. Provenance Tensor
 
-[
-\boxed{
-P_{HML}
-=======
+## \[ \\boxed{ P\_{HML}
 
-T[
+T\[
 node,
 scale,
 source,
@@ -1418,13 +1387,13 @@ time,
 scope,
 regime,
 version
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 38. Provenance Independence
+## 38. Provenance Independence
 
 If:
 
@@ -1440,26 +1409,23 @@ all descend from the same source root, they do not provide three independent con
 
 Therefore:
 
-[
-\boxed{
+\[
+\\boxed{
 IndependentSupport
-\neq
+\\neq
 Count(Observations)
 }
-]
+\]
 
 Ancestry must be checked before confidence aggregation.
 
----
+______________________________________________________________________
 
-# 39. Uncertainty Vector
+## 39. Uncertainty Vector
 
 At each scale:
 
-[
-\boxed{
-U_s
-===
+## \[ \\boxed{ U_s
 
 (
 U_e,
@@ -1471,7 +1437,7 @@ U_x,
 U_p
 )
 }
-]
+\]
 
 where:
 
@@ -1491,9 +1457,9 @@ U_x = execution uncertainty
 U_p = provenance-independence uncertainty
 ```
 
----
+______________________________________________________________________
 
-# 40. Uncertainty Propagation
+## 40. Uncertainty Propagation
 
 For derived M/H states:
 
@@ -1529,27 +1495,27 @@ DOES NOT
 AUTOMATICALLY REDUCE UNCERTAINTY
 ```
 
----
+______________________________________________________________________
 
-# 41. Confidence Ceiling
+## 41. Confidence Ceiling
 
-For a derived cross-scale conclusion \(C\):
+For a derived cross-scale conclusion (C):
 
-[
-\boxed{
+\[
+\\boxed{
 Conf(C)
-\le
-\min_{p\in LB(C)} Conf(p)
+\\le
+\\min\_{p\\in LB(C)} Conf(p)
 }
-]
+\]
 
 unless an independent validation path provides stronger evidence.
 
 This prevents aggregation itself from manufacturing confidence.
 
----
+______________________________________________________________________
 
-# 42. Cross-Scale RSCF Node
+## 42. Cross-Scale RSCF Node
 
 ```yaml
 RSCFNode:
@@ -1583,9 +1549,9 @@ RSCFNode:
 
 Every decision-relevant H/M/L state should map to such a node.
 
----
+______________________________________________________________________
 
-# 43. Cross-Scale RSCF Edge
+## 43. Cross-Scale RSCF Edge
 
 ```yaml
 RSCFEdge:
@@ -1617,9 +1583,9 @@ RSCFEdge:
   validation:
 ```
 
----
+______________________________________________________________________
 
-# 44. Dependency Model
+## 44. Dependency Model
 
 Core dependencies:
 
@@ -1677,9 +1643,9 @@ AMOS uncertainty governance
 AMOS control plane
 ```
 
----
+______________________________________________________________________
 
-# 45. L00 Dependency
+## 45. L00 Dependency
 
 L01 observations require a declared observation environment.
 
@@ -1696,9 +1662,9 @@ performs sensing / observation
 
 L01 must not silently redefine reality/environment state merely because an observation conflicts with expectation.
 
----
+______________________________________________________________________
 
-# 46. H/M/L Dependency Closure
+## 46. H/M/L Dependency Closure
 
 Before scale promotion:
 
@@ -1736,9 +1702,9 @@ or:
 PROMOTION = UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 47. Control-Plane Requirements
+## 47. Control-Plane Requirements
 
 The control plane should govern:
 
@@ -1760,16 +1726,13 @@ which state requires revalidation
 which state must be quarantined
 ```
 
----
+______________________________________________________________________
 
-# 48. Control-Plane Tensor
+## 48. Control-Plane Tensor
 
-[
-\boxed{
-CP_{HML}
-========
+## \[ \\boxed{ CP\_{HML}
 
-T[
+T\[
 actor,
 capability,
 authority,
@@ -1781,13 +1744,13 @@ regime,
 time,
 constraints,
 commit_state
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 49. Capability / Authority Boundary
+## 49. Capability / Authority Boundary
 
 An agent may have technical capability to aggregate:
 
@@ -1813,9 +1776,9 @@ CAPABILITY
 AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 50. Proposal / Commit Boundary
+## 50. Proposal / Commit Boundary
 
 Cross-scale output should pass:
 
@@ -1841,9 +1804,9 @@ TRANSFORM
 COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 51. Commit-Time Revalidation
+## 51. Commit-Time Revalidation
 
 Before durable H/M/L state admission, validate:
 
@@ -1875,9 +1838,9 @@ or return:
 REVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 52. Agents
+## 52. Agents
 
 Candidate architectural roles:
 
@@ -1911,9 +1874,9 @@ ROLE
 IMPLEMENTED AGENT
 ```
 
----
+______________________________________________________________________
 
-# 53. HML Observation Coordinator
+## 53. HML Observation Coordinator
 
 Responsibilities:
 
@@ -1931,9 +1894,9 @@ route aggregation
 preserve dependency lineage
 ```
 
----
+______________________________________________________________________
 
-# 54. L-Level Acquisition Agent
+## 54. L-Level Acquisition Agent
 
 Responsibilities:
 
@@ -1953,9 +1916,9 @@ report uncertainty
 avoid unsupported aggregation
 ```
 
----
+______________________________________________________________________
 
-# 55. M-Level Aggregation Agent
+## 55. M-Level Aggregation Agent
 
 Responsibilities:
 
@@ -1973,9 +1936,9 @@ propagate uncertainty
 mark output DERIVED where applicable
 ```
 
----
+______________________________________________________________________
 
-# 56. H-Level Synthesis Agent
+## 56. H-Level Synthesis Agent
 
 Responsibilities:
 
@@ -1993,9 +1956,9 @@ avoid false global completeness
 produce system-level synthesis
 ```
 
----
+______________________________________________________________________
 
-# 57. Cross-Scale Validator
+## 57. Cross-Scale Validator
 
 Checks:
 
@@ -2019,9 +1982,9 @@ epistemic-class preservation
 critical exception preservation
 ```
 
----
+______________________________________________________________________
 
-# 58. Skills
+## 58. Skills
 
 Candidate relevant Skill capabilities:
 
@@ -2047,9 +2010,9 @@ repair auditing
 
 Skill invocation must not imply authority.
 
----
+______________________________________________________________________
 
-# 59. Skill Contract
+## 59. Skill Contract
 
 ```yaml
 HMLSkillBinding:
@@ -2077,9 +2040,9 @@ HMLSkillBinding:
   provenance_behavior:
 ```
 
----
+______________________________________________________________________
 
-# 60. Workflow — Bottom-Up Observation
+## 60. Workflow — Bottom-Up Observation
 
 ```text
 DEFINE TARGET
@@ -2111,9 +2074,9 @@ PROPOSE
 COMMIT IF AUTHORIZED
 ```
 
----
+______________________________________________________________________
 
-# 61. Workflow — Top-Down Observation Planning
+## 61. Workflow — Top-Down Observation Planning
 
 ```text
 DEFINE H QUESTION
@@ -2137,9 +2100,9 @@ TOP-DOWN PLANNING
 TOP-DOWN EVIDENCE GENERATION
 ```
 
----
+______________________________________________________________________
 
-# 62. Workflow — Cross-Scale Conflict
+## 62. Workflow — Cross-Scale Conflict
 
 ```text
 DETECT H/M/L INCONSISTENCY
@@ -2167,9 +2130,9 @@ REOBSERVE
 REVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 63. Workflow — Selective Invalidation
+## 63. Workflow — Selective Invalidation
 
 ```text
 PREMISE FAILS
@@ -2187,9 +2150,9 @@ REOBSERVE MINIMUM REQUIRED REGION
 RECOMPUTE ONLY AFFECTED TRANSFORMS
 ```
 
----
+______________________________________________________________________
 
-# 64. Protocols
+## 64. Protocols
 
 Candidate messages:
 
@@ -2219,9 +2182,9 @@ HMLCommitProposal
 HMLCommitDecision
 ```
 
----
+______________________________________________________________________
 
-# 65. Protocol Example
+## 65. Protocol Example
 
 ```yaml
 ScaleAggregationRequest:
@@ -2253,9 +2216,9 @@ ScaleAggregationRequest:
   validation_requirements: []
 ```
 
----
+______________________________________________________________________
 
-# 66. Evidence / Provenance
+## 66. Evidence / Provenance
 
 Every scale transformation should preserve:
 
@@ -2283,9 +2246,9 @@ uncertainty transform
 
 Derived H/M/L state without recoverable ancestry should be treated as degraded evidence.
 
----
+______________________________________________________________________
 
-# 67. Evidence Classes
+## 67. Evidence Classes
 
 Allowed epistemic classes:
 
@@ -2323,9 +2286,9 @@ L OBSERVATION
 
 are distinct.
 
----
+______________________________________________________________________
 
-# 68. Direct Observation Invariant
+## 68. Direct Observation Invariant
 
 If an H-level measurement directly observes an H-level quantity:
 
@@ -2343,9 +2306,9 @@ class = DERIVED
 
 unless independently observed.
 
----
+______________________________________________________________________
 
-# 69. Competing Cross-Scale States
+## 69. Competing Cross-Scale States
 
 AMOS must preserve:
 
@@ -2367,24 +2330,21 @@ until discriminating evidence exists.
 
 Do not force convergence because one hypothesis is narratively cleaner.
 
----
+______________________________________________________________________
 
-# 70. Sensitivity Flip Set
+## 70. Sensitivity Flip Set
 
 For conclusion (c):
 
-[
-\boxed{
-F_c
-===
+## \[ \\boxed{ F_c
 
 {
-p\mid
-plausible\ change\ in\ p
-\ flips\ c
+p\\mid
+plausible\\ change\\ in\\ p
+\\ flips\\ c
 }
 }
-]
+\]
 
 For H/M/L observation, likely flip premises include:
 
@@ -2408,9 +2368,9 @@ outlier treatment
 
 Test these before accumulating redundant evidence.
 
----
+______________________________________________________________________
 
-# 71. Failure Modes
+## 71. Failure Modes
 
 ## FM-HML-01 — Scale Collapse
 
@@ -2426,7 +2386,7 @@ H conclusion
 
 without transformation.
 
----
+______________________________________________________________________
 
 ## FM-HML-02 — Local-to-Global Overreach
 
@@ -2438,94 +2398,91 @@ whole system claim
 
 without coverage.
 
----
+______________________________________________________________________
 
 ## FM-HML-03 — Ecological Inference Error
 
 Group/system-level observation is incorrectly applied to individual/local state.
 
----
+______________________________________________________________________
 
 ## FM-HML-04 — Aggregation Masking
 
 Critical local variation disappears inside averages or summaries.
 
----
+______________________________________________________________________
 
 ## FM-HML-05 — Provenance Loss
 
 Derived M/H state cannot recover contributing evidence.
 
----
+______________________________________________________________________
 
 ## FM-HML-06 — Regime Mixing
 
 Evidence from incompatible regimes is aggregated as one state.
 
----
+______________________________________________________________________
 
 ## FM-HML-07 — Temporal Mixing
 
 Observations from materially different times are represented as simultaneous.
 
----
+______________________________________________________________________
 
 ## FM-HML-08 — Resolution Confusion
 
 High measurement precision is mistaken for broad coverage.
 
----
+______________________________________________________________________
 
 ## FM-HML-09 — Confidence Inflation
 
 Aggregation creates higher confidence without independent support.
 
----
+______________________________________________________________________
 
 ## FM-HML-10 — Downward Fabrication
 
 High-level expectation becomes alleged low-level evidence.
 
----
+______________________________________________________________________
 
 ## FM-HML-11 — False Independence
 
 Multiple observations derived from one source are counted as independent.
 
----
+______________________________________________________________________
 
 ## FM-HML-12 — Cross-Scale Causal Overreach
 
 Scale association is promoted to causation.
 
----
+______________________________________________________________________
 
 ## FM-HML-13 — Over-Invalidation
 
 One local failure causes the entire H state to be discarded despite limited dependency.
 
----
+______________________________________________________________________
 
 ## FM-HML-14 — Under-Invalidation
 
 A load-bearing local failure does not invalidate dependent M/H state.
 
----
+______________________________________________________________________
 
 ## FM-HML-15 — Unknown-to-Pass
 
 Missing scale evidence is treated as normal state.
 
----
+______________________________________________________________________
 
-# 72. Failure Detection Tensor
+## 72. Failure Detection Tensor
 
-[
-\boxed{
-F_{HML}
-=======
+## \[ \\boxed{ F\_{HML}
 
-T[
+T\[
 failure_id,
 scale,
 source_scale,
@@ -2536,13 +2493,13 @@ dependency_fanout,
 detectability,
 repairability,
 status
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 73. Repair / Recovery
+## 73. Repair / Recovery
 
 General recovery:
 
@@ -2568,9 +2525,9 @@ REVALIDATE
 RESTORE
 ```
 
----
+______________________________________________________________________
 
-# 74. Scale Repair Invariant
+## 74. Scale Repair Invariant
 
 Repair should target the smallest causal failure region.
 
@@ -2584,9 +2541,9 @@ unless dependency fanout requires broader recovery.
 
 Global recomputation is a last resort.
 
----
+______________________________________________________________________
 
-# 75. Repair Examples
+## 75. Repair Examples
 
 ### Bad aggregation
 
@@ -2622,9 +2579,9 @@ recover source lineage
 revalidate dependent nodes
 ```
 
----
+______________________________________________________________________
 
-# 76. Validators
+## 76. Validators
 
 ```text
 VALIDATOR_HML_SCALE_TYPE
@@ -2656,9 +2613,9 @@ VALIDATOR_HML_AUTHORITY
 VALIDATOR_HML_DEPENDENCY_CLOSURE
 ```
 
----
+______________________________________________________________________
 
-# 77. Minimum Tests
+## 77. Minimum Tests
 
 ```text
 TEST_HML_001
@@ -2722,9 +2679,9 @@ TEST_HML_020
 unknown transform validity blocks validated promotion
 ```
 
----
+______________________________________________________________________
 
-# 78. Adversarial Tests
+## 78. Adversarial Tests
 
 Test against:
 
@@ -2754,9 +2711,9 @@ source revoked after H aggregation
 partial coverage presented as full coverage
 ```
 
----
+______________________________________________________________________
 
-# 79. Falsifiers
+## 79. Falsifiers
 
 This H/M/L contract must be revised if:
 
@@ -2778,9 +2735,9 @@ a proposed transformation cannot preserve required provenance or scope
 domain evidence demonstrates an assumed scale mapping is invalid
 ```
 
----
+______________________________________________________________________
 
-# 80. Gap Matrix
+## 80. Gap Matrix
 
 ```yaml
 HML_gap_status:
@@ -2861,9 +2818,9 @@ HML_gap_status:
     status: GAP
 ```
 
----
+______________________________________________________________________
 
-# 81. Gap Priority
+## 81. Gap Priority
 
 Current highest-priority gaps:
 
@@ -2889,9 +2846,9 @@ Current highest-priority gaps:
 10. Execute H/M/L adversarial and regression tests.
 ```
 
----
+______________________________________________________________________
 
-# 82. Hard Boundaries
+## 82. Hard Boundaries
 
 ```text
 PLACEHOLDER
@@ -2963,9 +2920,9 @@ MODEL
 REALITY
 ```
 
----
+______________________________________________________________________
 
-# 83. RSCF Completion State
+## 83. RSCF Completion State
 
 ```yaml
 rscf:
@@ -3061,9 +3018,9 @@ rscf:
     not empirically universal
 ```
 
----
+______________________________________________________________________
 
-# 84. Completion State
+## 84. Completion State
 
 ```yaml
 completion_state:
@@ -3144,9 +3101,9 @@ completion_state:
     MODEL / CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
-# 85. Final Contract
+## 85. Final Contract
 
 `L01_SENSING_OBSERVATION/HML.md` defines a multiscale sensing and observation architecture in which:
 
@@ -3166,27 +3123,27 @@ system / environment observational state
 
 with controlled upward transformation:
 
-[
-\boxed{
+\[
+\\boxed{
 O_L
-\xrightarrow{A_{L\rightarrow M}}
+\\xrightarrow{A\_{L\\rightarrow M}}
 O_M
-\xrightarrow{A_{M\rightarrow H}}
+\\xrightarrow{A\_{M\\rightarrow H}}
 O_H
 }
-]
+\]
 
 and controlled downward observational constraint:
 
-[
-\boxed{
+\[
+\\boxed{
 C_H
-\rightarrow
+\\rightarrow
 C_M
-\rightarrow
+\\rightarrow
 C_L
 }
-]
+\]
 
 subject to the decisive invariants:
 
@@ -3248,29 +3205,33 @@ VALIDATED_FOR_ONE_SCOPE
 UNIVERSALLY VALID
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[00_ROOT/00_HOME|00_HOME]] · 06-Knowledge-Base-MOC
 
 ```
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: l01_sensing_observation_primitives_cognitive_matrix_hml
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_HML.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_MOC|L01_SENSING_OBSERVATION_MOC]]

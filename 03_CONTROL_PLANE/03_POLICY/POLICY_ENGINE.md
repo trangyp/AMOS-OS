@@ -1,12 +1,15 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: POLICY ENGINE
 type: engine
 source: 03_CONTROL_PLANE/03_POLICY
 tags:
-- control-plane
-- policy
-- note
-- canon/control-plane
+  - control-plane
+  - policy
+  - note
+  - canon/control-plane
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL
@@ -98,9 +101,9 @@ PLACEHOLDER != IMPLEMENTED
 STRUCTURAL_MODEL != EXECUTABLE_RUNTIME
 ```
 
----
+______________________________________________________________________
 
-# 1. Purpose
+## 1. Purpose
 
 The purpose of the AMOS Policy Engine is to provide a deterministic-governed interface for answering:
 
@@ -122,9 +125,9 @@ The Policy Engine exists to prevent downstream components from inventing permiss
 
 Every consequential operation SHOULD pass through explicit policy evaluation when policy governance is required.
 
----
+______________________________________________________________________
 
-# 2. Architectural Position
+## 2. Architectural Position
 
 Canonical conceptual path:
 
@@ -156,9 +159,9 @@ EFFECT RELEASE
 
 The Policy Engine sits between capability resolution and final control-plane authorization.
 
----
+______________________________________________________________________
 
-# 3. Core Responsibility
+## 3. Core Responsibility
 
 The Policy Engine owns:
 
@@ -198,9 +201,9 @@ receiver receipt issuance;
 physical-world outcome validation.
 ```
 
----
+______________________________________________________________________
 
-# 4. Core Architecture
+## 4. Core Architecture
 
 ```text
                     ┌───────────────────────┐
@@ -242,9 +245,9 @@ physical-world outcome validation.
                     └───────────────────────┘
 ```
 
----
+______________________________________________________________________
 
-# 5. Policy Engine Input
+## 5. Policy Engine Input
 
 Canonical input:
 
@@ -314,9 +317,9 @@ policy_engine_request:
   requested_at: timestamp
 ```
 
----
+______________________________________________________________________
 
-# 6. Policy Engine Output
+## 6. Policy Engine Output
 
 The Policy Engine MUST emit a structured `POLICY_DECISION`.
 
@@ -366,9 +369,9 @@ policy_engine_response:
   confidence_ceiling: null
 ```
 
----
+______________________________________________________________________
 
-# 7. Policy Registry Dependency
+## 7. Policy Registry Dependency
 
 The Policy Engine MUST NOT invent governing policies.
 
@@ -399,9 +402,9 @@ governance status.
 
 The engine evaluates those policies.
 
----
+______________________________________________________________________
 
-# 8. Registry/Engine Separation
+## 8. Registry/Engine Separation
 
 ```text
 POLICY_REGISTRY:
@@ -416,9 +419,9 @@ POLICY_DECISION:
 
 These surfaces MUST remain separate.
 
----
+______________________________________________________________________
 
-# 9. Capability Dependency
+## 9. Capability Dependency
 
 The Policy Engine MAY consume a `RESOLVED_CAPABILITY_CONTRACT`.
 
@@ -436,9 +439,9 @@ capability_binding:
 
 Policy evaluation SHOULD bind to the resolved contract where provider or effect characteristics are policy-sensitive.
 
----
+______________________________________________________________________
 
-# 10. Capability Boundary
+## 10. Capability Boundary
 
 A resolved capability means:
 
@@ -460,9 +463,9 @@ CapabilityResolved(C)
 PolicyAllow(C)
 ```
 
----
+______________________________________________________________________
 
-# 11. Context Normalization
+## 11. Context Normalization
 
 The first engine stage SHOULD normalize incoming context.
 
@@ -495,9 +498,9 @@ policy_context:
   transaction: {}
 ```
 
----
+______________________________________________________________________
 
-# 12. Normalization Invariant
+## 12. Normalization Invariant
 
 Normalization MUST NOT silently alter the semantic action.
 
@@ -523,9 +526,9 @@ READ_ONLY
 
 to avoid stricter policy.
 
----
+______________________________________________________________________
 
-# 13. Policy Discovery
+## 13. Policy Discovery
 
 The discovery stage identifies potentially governing policies.
 
@@ -553,9 +556,9 @@ regime;
 time.
 ```
 
----
+______________________________________________________________________
 
-# 14. Discovery Rule
+## 14. Discovery Rule
 
 The engine SHOULD prefer a superset of potentially applicable policies over prematurely excluding a governing policy.
 
@@ -565,9 +568,9 @@ Unrelated policy families SHOULD NOT be loaded when they cannot materially affec
 
 This preserves the AMOS smallest-sufficient-proof principle.
 
----
+______________________________________________________________________
 
-# 15. Policy Identity Resolution
+## 15. Policy Identity Resolution
 
 Every discovered policy MUST resolve to a stable identity.
 
@@ -593,9 +596,9 @@ policy_identity:
   superseded_by: []
 ```
 
----
+______________________________________________________________________
 
-# 16. Identity Invariant
+## 16. Identity Invariant
 
 The engine MUST NOT evaluate two materially different policy contents as the same policy version.
 
@@ -609,9 +612,9 @@ policy_id
 
 SHOULD be used.
 
----
+______________________________________________________________________
 
-# 17. Policy Status Gate
+## 17. Policy Status Gate
 
 Policy status affects admissibility.
 
@@ -634,9 +637,9 @@ QUARANTINED
 → blocked pending integrity review
 ```
 
----
+______________________________________________________________________
 
-# 18. Applicability Engine
+## 18. Applicability Engine
 
 For each candidate policy:
 
@@ -654,9 +657,9 @@ CONDITIONAL
 UNKNOWN_GAP
 ```
 
----
+______________________________________________________________________
 
-# 19. Applicability Dimensions
+## 19. Applicability Dimensions
 
 Applicability MAY depend on:
 
@@ -681,9 +684,9 @@ time;
 authority state.
 ```
 
----
+______________________________________________________________________
 
-# 20. Applicability Object
+## 20. Applicability Object
 
 ```yaml
 policy_applicability:
@@ -715,9 +718,9 @@ policy_applicability:
   evidence_refs: []
 ```
 
----
+______________________________________________________________________
 
-# 21. Unknown Applicability
+## 21. Unknown Applicability
 
 If a potentially governing policy has unresolved applicability and could change the final decision:
 
@@ -741,9 +744,9 @@ ESCALATE
 
 depending on policy.
 
----
+______________________________________________________________________
 
-# 22. Predicate Engine
+## 22. Predicate Engine
 
 Policies frequently depend on predicates.
 
@@ -769,9 +772,9 @@ UNKNOWN
 CONFLICT
 ```
 
----
+______________________________________________________________________
 
-# 23. Predicate Object
+## 23. Predicate Object
 
 ```yaml
 predicate_result:
@@ -792,9 +795,9 @@ predicate_result:
   confidence_ceiling: null
 ```
 
----
+______________________________________________________________________
 
-# 24. Predicate Invariant
+## 24. Predicate Invariant
 
 Missing evidence MUST NOT be coerced to whichever value enables execution.
 
@@ -809,9 +812,9 @@ unless the governing policy explicitly defines a fail-closed or fail-open semant
 
 For consequential actions, fail-closed SHOULD generally be preferred where policy requires certainty.
 
----
+______________________________________________________________________
 
-# 25. Rule Engine
+## 25. Rule Engine
 
 Each applicable policy contains one or more policy rules.
 
@@ -846,9 +849,9 @@ rule:
     if_unknown: ESCALATE
 ```
 
----
+______________________________________________________________________
 
-# 26. Rule Evaluation
+## 26. Rule Evaluation
 
 ```text
 EVALUATE_RULE(rule, context, predicates)
@@ -881,9 +884,9 @@ rule_evaluation:
   evidence_refs: []
 ```
 
----
+______________________________________________________________________
 
-# 27. Rule Determinism
+## 27. Rule Determinism
 
 Where policy semantics are declared deterministic:
 
@@ -898,9 +901,9 @@ This does NOT mean the entire AMOS system is globally deterministic.
 
 External evidence, mutable state, model workers, time, and authority may change between evaluations.
 
----
+______________________________________________________________________
 
-# 28. Policy Exception Engine
+## 28. Policy Exception Engine
 
 Exceptions MUST be explicit.
 
@@ -935,9 +938,9 @@ policy_exception:
   provenance: []
 ```
 
----
+______________________________________________________________________
 
-# 29. Exception Validation
+## 29. Exception Validation
 
 The engine MUST validate:
 
@@ -956,9 +959,9 @@ provenance.
 
 An exception outside any one required boundary is invalid.
 
----
+______________________________________________________________________
 
-# 30. Exception Narrowness
+## 30. Exception Narrowness
 
 An exception MUST NOT broaden itself.
 
@@ -972,9 +975,9 @@ DeclaredExceptionScope
 AuthorizedExceptionScope
 ```
 
----
+______________________________________________________________________
 
-# 31. Revocation
+## 31. Revocation
 
 Revoked exceptions MUST NOT remain active because of cached policy decisions.
 
@@ -986,9 +989,9 @@ Exception.revoked = true
 
 then dependent decisions SHOULD be invalidated.
 
----
+______________________________________________________________________
 
-# 32. Policy Composition Engine
+## 32. Policy Composition Engine
 
 After individual rules are evaluated:
 
@@ -1003,9 +1006,9 @@ COMPOSE({
 
 Composition MUST preserve incompatible results until valid resolution exists.
 
----
+______________________________________________________________________
 
-# 33. Composition Inputs
+## 33. Composition Inputs
 
 Composition SHOULD consider:
 
@@ -1022,9 +1025,9 @@ temporal validity;
 explicit override rules.
 ```
 
----
+______________________________________________________________________
 
-# 34. Hard Deny
+## 34. Hard Deny
 
 Where a governing policy defines a hard prohibition:
 
@@ -1036,9 +1039,9 @@ the engine MUST NOT override it merely because other policies return `ALLOW`.
 
 An override requires explicit policy and authority basis.
 
----
+______________________________________________________________________
 
-# 35. Conditional Composition
+## 35. Conditional Composition
 
 Example:
 
@@ -1056,9 +1059,9 @@ CONDITIONAL(A ∧ B)
 
 subject to governing precedence semantics.
 
----
+______________________________________________________________________
 
-# 36. Unknown Composition
+## 36. Unknown Composition
 
 If:
 
@@ -1085,9 +1088,9 @@ or:
 ESCALATE
 ```
 
----
+______________________________________________________________________
 
-# 37. Conflict Engine
+## 37. Conflict Engine
 
 The engine MUST detect policy conflicts.
 
@@ -1104,9 +1107,9 @@ TEMPORAL_CONFLICT
 AUTHORITY_CONFLICT
 ```
 
----
+______________________________________________________________________
 
-# 38. Conflict Object
+## 38. Conflict Object
 
 ```yaml
 policy_conflict:
@@ -1133,9 +1136,9 @@ policy_conflict:
   evidence_refs: []
 ```
 
----
+______________________________________________________________________
 
-# 39. Conflict Preservation
+## 39. Conflict Preservation
 
 If conflict cannot be validly resolved:
 
@@ -1145,9 +1148,9 @@ FinalDecision = CONFLICT
 
 The engine MUST NOT choose a preferred result merely to complete the workflow.
 
----
+______________________________________________________________________
 
-# 40. Precedence Engine
+## 40. Precedence Engine
 
 Precedence MUST come from explicit governance.
 
@@ -1176,9 +1179,9 @@ an agent prefers it.
 
 unless such ordering is explicitly canonical.
 
----
+______________________________________________________________________
 
-# 41. Precedence Object
+## 41. Precedence Object
 
 ```yaml
 policy_precedence:
@@ -1196,9 +1199,9 @@ policy_precedence:
   authority_ref: null
 ```
 
----
+______________________________________________________________________
 
-# 42. Supersession Engine
+## 42. Supersession Engine
 
 Policy version evolution SHOULD preserve explicit lineage.
 
@@ -1212,17 +1215,17 @@ P_v3
 
 The engine SHOULD be able to determine the currently applicable version.
 
----
+______________________________________________________________________
 
-# 43. Supersession Invariant
+## 43. Supersession Invariant
 
 Newer timestamp alone does not prove supersession.
 
 Supersession SHOULD require explicit lineage or authoritative registry state.
 
----
+______________________________________________________________________
 
-# 44. Obligation Extraction
+## 44. Obligation Extraction
 
 Policy evaluation MAY generate obligations.
 
@@ -1241,9 +1244,9 @@ notify responsible authority.
 
 These MUST survive into the `POLICY_DECISION`.
 
----
+______________________________________________________________________
 
-# 45. Prohibition Extraction
+## 45. Prohibition Extraction
 
 Prohibitions SHOULD be represented explicitly.
 
@@ -1264,9 +1267,9 @@ prohibition:
 
 Prohibitions MUST NOT disappear into explanation text.
 
----
+______________________________________________________________________
 
-# 46. Condition Extraction
+## 46. Condition Extraction
 
 Conditions SHOULD identify exactly what must become true before conditional policy permission can become valid.
 
@@ -1286,9 +1289,9 @@ condition:
   evidence_refs: []
 ```
 
----
+______________________________________________________________________
 
-# 47. Policy Decision Builder
+## 47. Policy Decision Builder
 
 The decision builder converts composed evaluation state into the canonical `POLICY_DECISION`.
 
@@ -1305,9 +1308,9 @@ BUILD_DECISION(
 → POLICY_DECISION
 ```
 
----
+______________________________________________________________________
 
-# 48. Decision State Space
+## 48. Decision State Space
 
 Canonical engine decision states:
 
@@ -1327,9 +1330,9 @@ Internal policy evaluations MAY additionally use:
 NOT_APPLICABLE
 ```
 
----
+______________________________________________________________________
 
-# 49. Decision Reason Codes
+## 49. Decision Reason Codes
 
 Recommended codes:
 
@@ -1373,9 +1376,9 @@ UNKNOWN_EVIDENCE
 UNKNOWN_PRECEDENCE
 ```
 
----
+______________________________________________________________________
 
-# 50. Provenance Binder
+## 50. Provenance Binder
 
 Every consequential policy decision SHOULD preserve the exact decision-forming provenance.
 
@@ -1404,9 +1407,9 @@ provenance:
   transaction_id: null
 ```
 
----
+______________________________________________________________________
 
-# 51. Policy Read Set
+## 51. Policy Read Set
 
 The engine SHOULD construct the exact set of policy resources used in decision formation.
 
@@ -1430,9 +1433,9 @@ policy_read_set:
     content_hash: "sha256:*"
 ```
 
----
+______________________________________________________________________
 
-# 52. Fine-Grained Freshness
+## 52. Fine-Grained Freshness
 
 A global policy-registry version SHOULD NOT be the only freshness mechanism when precise read-set validation is available.
 
@@ -1450,9 +1453,9 @@ P99 changes
 
 then `D` need not be invalidated solely because `P99` changed.
 
----
+______________________________________________________________________
 
-# 53. Selective Invalidation
+## 53. Selective Invalidation
 
 If:
 
@@ -1478,9 +1481,9 @@ preserve D2
 
 subject to hidden dependency checks.
 
----
+______________________________________________________________________
 
-# 54. Freshness Binder
+## 54. Freshness Binder
 
 Each decision SHOULD contain:
 
@@ -1507,9 +1510,9 @@ freshness:
     - CAPABILITY_CONTRACT_CHANGE
 ```
 
----
+______________________________________________________________________
 
-# 55. Revalidation Engine
+## 55. Revalidation Engine
 
 ```text
 REVALIDATE_POLICY_DECISION(
@@ -1521,9 +1524,9 @@ REVALIDATE_POLICY_DECISION(
 
 The engine SHOULD compare only load-bearing state where possible.
 
----
+______________________________________________________________________
 
-# 56. Revalidation Triggers
+## 56. Revalidation Triggers
 
 Mandatory revalidation MAY be triggered by:
 
@@ -1546,9 +1549,9 @@ effect digest change;
 freshness expiry.
 ```
 
----
+______________________________________________________________________
 
-# 57. Commit-Time Policy Revalidation
+## 57. Commit-Time Policy Revalidation
 
 For durable effects, the Policy Engine SHOULD support commit-time policy revalidation.
 
@@ -1562,9 +1565,9 @@ under CURRENT STATE?
 
 The engine MUST NOT simply answer from cached preflight state when load-bearing state changed.
 
----
+______________________________________________________________________
 
-# 58. Commit-Time Binding
+## 58. Commit-Time Binding
 
 Consequential policy decisions SHOULD bind to:
 
@@ -1581,9 +1584,9 @@ regime;
 transaction identity.
 ```
 
----
+______________________________________________________________________
 
-# 59. Policy/Authority Separation
+## 59. Policy/Authority Separation
 
 The Policy Engine MAY consume authority context.
 
@@ -1605,9 +1608,9 @@ Authority
 
 Authority issuance and verification belong to authority-governed infrastructure.
 
----
+______________________________________________________________________
 
-# 60. Policy/Control-Plane Separation
+## 60. Policy/Control-Plane Separation
 
 The Policy Engine answers:
 
@@ -1623,9 +1626,9 @@ MAY THE SYSTEM RELEASE THIS EFFECT NOW?
 
 These MUST remain separate.
 
----
+______________________________________________________________________
 
-# 61. Policy/Execution Separation
+## 61. Policy/Execution Separation
 
 The Policy Engine MUST NOT dispatch side effects merely because:
 
@@ -1653,9 +1656,9 @@ RELEASE FINALITY
 DISPATCH
 ```
 
----
+______________________________________________________________________
 
-# 62. Policy/Truth Separation
+## 62. Policy/Truth Separation
 
 Policy compliance does not establish truth.
 
@@ -1679,9 +1682,9 @@ Therefore:
 POLICY_VALIDITY != EPISTEMIC_VALIDITY
 ```
 
----
+______________________________________________________________________
 
-# 63. Policy/Domain Separation
+## 63. Policy/Domain Separation
 
 The Policy Engine SHOULD remain domain-agnostic.
 
@@ -1699,9 +1702,9 @@ POLICY ENGINE
 
 The infrastructure policy engine SHOULD NOT embed specialist domain logic when that logic properly belongs to a domain capability.
 
----
+______________________________________________________________________
 
-# 64. Policy Evaluation ABI
+## 64. Policy Evaluation ABI
 
 Domain or subsystem adapters SHOULD expose policy-relevant state through typed objects rather than unstructured prose where feasible.
 
@@ -1723,9 +1726,9 @@ policy_fact:
   confidence_ceiling: null
 ```
 
----
+______________________________________________________________________
 
-# 65. Unknown Preservation
+## 65. Unknown Preservation
 
 The engine MUST preserve:
 
@@ -1749,9 +1752,9 @@ prohibition not found
 
 unless policy completeness for that scope has itself been established.
 
----
+______________________________________________________________________
 
-# 66. Closed-World vs Open-World Policy
+## 66. Closed-World vs Open-World Policy
 
 The engine SHOULD explicitly distinguish policy lookup semantics.
 
@@ -1771,9 +1774,9 @@ additional governing policy may exist
 
 Absence MUST remain epistemically weaker.
 
----
+______________________________________________________________________
 
-# 67. Policy Completeness State
+## 67. Policy Completeness State
 
 ```yaml
 policy_coverage:
@@ -1792,9 +1795,9 @@ policy_coverage:
   authority_ref: null
 ```
 
----
+______________________________________________________________________
 
-# 68. Coverage Invariant
+## 68. Coverage Invariant
 
 If:
 
@@ -1810,9 +1813,9 @@ FinalDecision != unconditional ALLOW
 
 without additional governing justification.
 
----
+______________________________________________________________________
 
-# 69. H/M/L Policy Evaluation
+## 69. H/M/L Policy Evaluation
 
 Policy evaluation SHOULD support AMOS H/M/L structure.
 
@@ -1822,9 +1825,9 @@ M = subsystem/workflow policy
 L = operation/resource policy
 ```
 
----
+______________________________________________________________________
 
-# 70. H-Level Policies
+## 70. H-Level Policies
 
 Examples:
 
@@ -1839,9 +1842,9 @@ high-consequence effect rules.
 
 H-level constraints may constrain all lower levels.
 
----
+______________________________________________________________________
 
-# 71. M-Level Policies
+## 71. M-Level Policies
 
 Examples:
 
@@ -1854,9 +1857,9 @@ transaction policy;
 data-handling policy.
 ```
 
----
+______________________________________________________________________
 
-# 72. L-Level Policies
+## 72. L-Level Policies
 
 Examples:
 
@@ -1868,9 +1871,9 @@ specific memory write;
 specific effect.
 ```
 
----
+______________________________________________________________________
 
-# 73. Cross-Scale Composition
+## 73. Cross-Scale Composition
 
 Where hierarchical tightening is defined:
 
@@ -1884,9 +1887,9 @@ Allowed_H
 
 A lower-level rule MUST NOT silently broaden a higher-level prohibition.
 
----
+______________________________________________________________________
 
-# 74. H/M/L Conflict
+## 74. H/M/L Conflict
 
 Example:
 
@@ -1900,9 +1903,9 @@ L: ALLOW send_message
 
 The lower-level `ALLOW` states do not override the H-level prohibition unless a valid higher-level exception exists.
 
----
+______________________________________________________________________
 
-# 75. State Variables
+## 75. State Variables
 
 Recommended Policy Engine state:
 
@@ -1937,9 +1940,9 @@ U     uncertainty
 D     final policy decision
 ```
 
----
+______________________________________________________________________
 
-# 76. Core Transition Function
+## 76. Core Transition Function
 
 Conceptually:
 
@@ -1976,9 +1979,9 @@ Compose(
 
 This is an AMOS MODEL abstraction, not an assertion of universal mathematics.
 
----
+______________________________________________________________________
 
-# 77. Engine Lifecycle
+## 77. Engine Lifecycle
 
 ```text
 RECEIVED
@@ -2010,9 +2013,9 @@ QUARANTINED
 SUPERSEDED
 ```
 
----
+______________________________________________________________________
 
-# 78. Engine State Object
+## 78. Engine State Object
 
 ```yaml
 policy_engine_state:
@@ -2041,9 +2044,9 @@ policy_engine_state:
   updated_at: timestamp
 ```
 
----
+______________________________________________________________________
 
-# 79. Atomic Evaluation Boundary
+## 79. Atomic Evaluation Boundary
 
 A policy decision SHOULD be constructed from one coherent evaluation snapshot.
 
@@ -2058,9 +2061,9 @@ effect intent from epoch D
 
 without explicit compatibility validation.
 
----
+______________________________________________________________________
 
-# 80. Evaluation Epoch
+## 80. Evaluation Epoch
 
 Recommended representation:
 
@@ -2079,9 +2082,9 @@ evaluation_epoch:
   authority_context_ref: null
 ```
 
----
+______________________________________________________________________
 
-# 81. MVCC/CAS Analogy
+## 81. MVCC/CAS Analogy
 
 Where mutable policy state exists, policy revalidation MAY use MVCC/CAS-style reasoning:
 
@@ -2099,9 +2102,9 @@ This is a reasoning/control pattern.
 
 It does not claim the conversational model literally implements distributed MVCC.
 
----
+______________________________________________________________________
 
-# 82. Policy Decision Cache
+## 82. Policy Decision Cache
 
 The engine MAY cache policy decisions.
 
@@ -2127,9 +2130,9 @@ decision_cache:
   expires_at: null
 ```
 
----
+______________________________________________________________________
 
-# 83. Cache Validity
+## 83. Cache Validity
 
 Conceptually:
 
@@ -2151,9 +2154,9 @@ If any load-bearing term fails:
 REVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 84. Decision Hash
+## 84. Decision Hash
 
 A deterministic binding MAY be:
 
@@ -2174,9 +2177,9 @@ H(
 
 The exact canonical serialization and cryptographic algorithm belong to implementation specification.
 
----
+______________________________________________________________________
 
-# 85. Uncertainty
+## 85. Uncertainty
 
 The engine SHOULD track uncertainty explicitly.
 
@@ -2194,9 +2197,9 @@ uncertainty:
   provenance_independence: null
 ```
 
----
+______________________________________________________________________
 
-# 86. Confidence Ceiling
+## 86. Confidence Ceiling
 
 Conceptually:
 
@@ -2215,9 +2218,9 @@ C_decision ≤ min(
 
 No fluent explanation may raise the decision above the weakest load-bearing premise.
 
----
+______________________________________________________________________
 
-# 87. Competing Interpretations
+## 87. Competing Interpretations
 
 If policy language admits multiple materially different interpretations:
 
@@ -2248,9 +2251,9 @@ ESCALATE
 
 depending on governance.
 
----
+______________________________________________________________________
 
-# 88. Cheapest Discriminating Test
+## 88. Cheapest Discriminating Test
 
 When policy interpretations compete, the engine SHOULD prefer the cheapest high-information test that can distinguish them.
 
@@ -2267,9 +2270,9 @@ verify effect class.
 
 Do not accumulate redundant evidence if one authoritative check can resolve the decision.
 
----
+______________________________________________________________________
 
-# 89. Adversarial Validation
+## 89. Adversarial Validation
 
 For consequential policy decisions, validation SHOULD independently challenge the provisional result.
 
@@ -2303,9 +2306,9 @@ Are multiple policy sources actually one provenance lineage?
 Did a lower-level policy weaken a higher-level constraint?
 ```
 
----
+______________________________________________________________________
 
-# 90. Sensitivity Analysis
+## 90. Sensitivity Analysis
 
 For consequential decisions, identify the smallest premise capable of flipping the result.
 
@@ -2324,9 +2327,9 @@ if resource_class = SENSITIVE
 
 Then `resource_class` is decision-sensitive and SHOULD receive priority validation.
 
----
+______________________________________________________________________
 
-# 91. Policy Decision Fragility
+## 91. Policy Decision Fragility
 
 A decision SHOULD be considered fragile when small plausible uncertainty in a load-bearing predicate changes the result.
 
@@ -2339,9 +2342,9 @@ FRAGILE
 UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 92. Policy Engine Invariants
+## 92. Policy Engine Invariants
 
 ## INV-PE-001 — Registry Grounding
 
@@ -2431,9 +2434,9 @@ Invalidate dependent conclusions, not unrelated valid state.
 
 Permission to propose MUST NOT imply permission to commit.
 
----
+______________________________________________________________________
 
-# 93. Additional Integrity Invariants
+## 93. Additional Integrity Invariants
 
 ## INV-PE-021 — No Policy-by-Absence
 
@@ -2475,9 +2478,9 @@ The Policy Engine MUST NOT claim infrastructure commit authority.
 
 The infrastructure Policy Engine MUST NOT absorb specialist domain logic without an explicit architectural reason.
 
----
+______________________________________________________________________
 
-# 94. Failure Modes
+## 94. Failure Modes
 
 ## FM-PE-001 — Policy Discovery Failure
 
@@ -2599,9 +2602,9 @@ Evaluated action differs from released effect.
 
 Explanation says allow while structured state denies or conditions.
 
----
+______________________________________________________________________
 
-# 95. Repair / Recovery
+## 95. Repair / Recovery
 
 Canonical repair sequence:
 
@@ -2631,9 +2634,9 @@ REVALIDATE
 SUPERSEDE / RESTORE / DENY / ESCALATE
 ```
 
----
+______________________________________________________________________
 
-# 96. Earliest Failure Principle
+## 96. Earliest Failure Principle
 
 Repair SHOULD target the earliest causal failure rather than the last visible error.
 
@@ -2653,9 +2656,9 @@ wrong ALLOW
 
 The repair target is policy discovery, not merely the final `ALLOW`.
 
----
+______________________________________________________________________
 
-# 97. Rollback
+## 97. Rollback
 
 If a bad policy decision has not produced an effect:
 
@@ -2681,9 +2684,9 @@ revoke affected decision/cache
 escalate
 ```
 
----
+______________________________________________________________________
 
-# 98. Quarantine
+## 98. Quarantine
 
 Policies, decisions, or evidence with integrity concerns SHOULD be quarantinable.
 
@@ -2708,9 +2711,9 @@ quarantine:
 
 Quarantine SHOULD preserve evidence rather than destroy it.
 
----
+______________________________________________________________________
 
-# 99. Tests / Validators
+## 99. Tests / Validators
 
 Minimum test suite:
 
@@ -2856,9 +2859,9 @@ T-PE-069 quarantine
 T-PE-070 supersession audit
 ```
 
----
+______________________________________________________________________
 
-# 100. Adversarial Tests
+## 100. Adversarial Tests
 
 Recommended adversarial cases:
 
@@ -2898,9 +2901,9 @@ conflicting policies with no precedence;
 policy explanation manipulated while structured decision remains DENY.
 ```
 
----
+______________________________________________________________________
 
-# 101. Validator Outcomes
+## 101. Validator Outcomes
 
 Policy Engine validators SHOULD return explicit states.
 
@@ -2922,9 +2925,9 @@ UNKNOWN_GAP
 
 Validation failure MUST NOT be converted into `ALLOW`.
 
----
+______________________________________________________________________
 
-# 102. Falsifiers
+## 102. Falsifiers
 
 Claims that the Policy Engine produced a valid decision are falsified if reliable evidence shows:
 
@@ -2970,9 +2973,9 @@ the recorded provenance cannot reconstruct the result;
 or runtime execution contradicted the policy decision.
 ```
 
----
+______________________________________________________________________
 
-# 103. Agents
+## 103. Agents
 
 The Policy Engine MAY use architectural agent roles such as:
 
@@ -3007,9 +3010,9 @@ commit authority;
 exception authority.
 ```
 
----
+______________________________________________________________________
 
-# 104. Agent Boundary
+## 104. Agent Boundary
 
 Agents may:
 
@@ -3029,9 +3032,9 @@ Agents may not infer authority from their role.
 AGENT_ROLE != AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 105. Skills
+## 105. Skills
 
 Relevant Skill categories MAY include:
 
@@ -3051,9 +3054,9 @@ semantic transaction validation.
 
 Skill availability does not establish implementation or authority.
 
----
+______________________________________________________________________
 
-# 106. Policy Engine Workflow
+## 106. Policy Engine Workflow
 
 Canonical workflow:
 
@@ -3131,9 +3134,9 @@ Canonical workflow:
 36 INVALIDATE OR SUPERSEDE STALE DECISIONS
 ```
 
----
+______________________________________________________________________
 
-# 107. Protocol — Evaluation Request
+## 107. Protocol — Evaluation Request
 
 ```yaml
 policy_engine_evaluate:
@@ -3164,9 +3167,9 @@ policy_engine_evaluate:
   transaction_id: null
 ```
 
----
+______________________________________________________________________
 
-# 108. Protocol — Evaluation Response
+## 108. Protocol — Evaluation Response
 
 ```yaml
 policy_engine_result:
@@ -3200,9 +3203,9 @@ policy_engine_result:
   confidence_ceiling: null
 ```
 
----
+______________________________________________________________________
 
-# 109. Protocol — Revalidation
+## 109. Protocol — Revalidation
 
 ```yaml
 policy_engine_revalidate:
@@ -3245,9 +3248,9 @@ policy_engine_revalidation_result:
   replacement_decision_id: null
 ```
 
----
+______________________________________________________________________
 
-# 110. Protocol — Invalidation
+## 110. Protocol — Invalidation
 
 ```yaml
 policy_engine_invalidate:
@@ -3264,9 +3267,9 @@ policy_engine_invalidate:
   evidence_refs: []
 ```
 
----
+______________________________________________________________________
 
-# 111. Control-Plane Integration
+## 111. Control-Plane Integration
 
 The Policy Engine SHOULD expose the final policy result to the control plane as evidence.
 
@@ -3293,9 +3296,9 @@ control_plane_policy_input:
   provenance: {}
 ```
 
----
+______________________________________________________________________
 
-# 112. Control-Plane Rule
+## 112. Control-Plane Rule
 
 The control plane MUST NOT infer:
 
@@ -3311,9 +3314,9 @@ policy_decision = ALLOW
 
 It must separately validate its other governing conditions.
 
----
+______________________________________________________________________
 
-# 113. Commit Guard Composition
+## 113. Commit Guard Composition
 
 Conceptually:
 
@@ -3333,9 +3336,9 @@ This is an AMOS control model.
 
 Exact runtime semantics require executable implementation and validation.
 
----
+______________________________________________________________________
 
-# 114. Observability
+## 114. Observability
 
 The Policy Engine SHOULD emit enough observability for reconstruction without leaking prohibited information.
 
@@ -3369,9 +3372,9 @@ POLICY_DECISION_QUARANTINED
 POLICY_DECISION_SUPERSEDED
 ```
 
----
+______________________________________________________________________
 
-# 115. Observability Envelope
+## 115. Observability Envelope
 
 Logging itself MUST remain governed.
 
@@ -3388,9 +3391,9 @@ integrity requirements;
 provenance requirements.
 ```
 
----
+______________________________________________________________________
 
-# 116. Performance
+## 116. Performance
 
 Policy optimization MAY reduce:
 
@@ -3415,9 +3418,9 @@ authority separation;
 unknown preservation.
 ```
 
----
+______________________________________________________________________
 
-# 117. Fast Path
+## 117. Fast Path
 
 A fast policy path MAY reuse a prior proof capsule only when:
 
@@ -3438,9 +3441,9 @@ no governance escalation trigger.
 
 Otherwise escalate to deeper evaluation.
 
----
+______________________________________________________________________
 
-# 118. Fast-Path Invariant
+## 118. Fast-Path Invariant
 
 ```text
 FAST != WEAKER
@@ -3450,9 +3453,9 @@ Fast-path execution changes retrieval/evaluation cost.
 
 It MUST NOT change governing semantics.
 
----
+______________________________________________________________________
 
-# 119. Policy Proof Capsule
+## 119. Policy Proof Capsule
 
 Important decisions SHOULD conceptually carry:
 
@@ -3485,9 +3488,9 @@ policy_proof_capsule:
   confidence_ceiling: null
 ```
 
----
+______________________________________________________________________
 
-# 120. RSCF Integration
+## 120. RSCF Integration
 
 The Policy Engine SHOULD support RSCF representation.
 
@@ -3518,9 +3521,9 @@ rscf:
   confidence_ceiling: null
 ```
 
----
+______________________________________________________________________
 
-# 121. RSCF Invalidation
+## 121. RSCF Invalidation
 
 If a load-bearing premise fails:
 
@@ -3536,9 +3539,9 @@ erase unrelated policy knowledge.
 
 This preserves selective repair.
 
----
+______________________________________________________________________
 
-# 122. GMEF Integration
+## 122. GMEF Integration
 
 Changes to Policy Engine semantics SHOULD be governed when they affect:
 
@@ -3560,9 +3563,9 @@ provenance;
 effect classification.
 ```
 
----
+______________________________________________________________________
 
-# 123. Engine Change Manifest
+## 123. Engine Change Manifest
 
 ```yaml
 policy_engine_change:
@@ -3592,9 +3595,9 @@ policy_engine_change:
   approval_state: PROPOSED
 ```
 
----
+______________________________________________________________________
 
-# 124. Promotion Model
+## 124. Promotion Model
 
 ```text
 STRUCTURAL_MODEL
@@ -3618,9 +3621,9 @@ GOVERNED_ACTIVE
 
 No transition is automatic.
 
----
+______________________________________________________________________
 
-# 125. Promotion Requirements
+## 125. Promotion Requirements
 
 ## Structural → Schema Validated
 
@@ -3678,9 +3681,9 @@ effect binding;
 no unresolved critical gaps.
 ```
 
----
+______________________________________________________________________
 
-# 126. Security Model
+## 126. Security Model
 
 The Policy Engine SHOULD defend against:
 
@@ -3707,9 +3710,9 @@ unknown coercion;
 policy downgrade.
 ```
 
----
+______________________________________________________________________
 
-# 127. Trust Model
+## 127. Trust Model
 
 Policy trust is:
 
@@ -3725,9 +3728,9 @@ freshness-bounded.
 
 No source receives universal trust merely because it is authoritative in one domain.
 
----
+______________________________________________________________________
 
-# 128. Provenance Topology
+## 128. Provenance Topology
 
 Where multiple policy sources exist, the engine SHOULD track ancestry.
 
@@ -3750,9 +3753,9 @@ count(policy_objects)
 count(independent_authorities)
 ```
 
----
+______________________________________________________________________
 
-# 129. Policy Sybil Resistance
+## 129. Policy Sybil Resistance
 
 A policy conclusion MUST NOT gain apparent confidence merely because the same underlying rule is:
 
@@ -3767,9 +3770,9 @@ embedded in multiple files.
 
 Independence must be demonstrated where independence matters.
 
----
+______________________________________________________________________
 
-# 130. Policy Engine Gap Classes
+## 130. Policy Engine Gap Classes
 
 ```text
 CRITICAL
@@ -3781,9 +3784,9 @@ EXPLANATORY
 COSMETIC
 ```
 
----
+______________________________________________________________________
 
-# 131. Critical Gaps
+## 131. Critical Gaps
 
 Examples:
 
@@ -3802,9 +3805,9 @@ unknown supersession state.
 
 Critical gaps MUST block unconditional policy approval when outcome-sensitive.
 
----
+______________________________________________________________________
 
-# 132. Gap Object
+## 132. Gap Object
 
 ```yaml
 policy_engine_gap:
@@ -3832,9 +3835,9 @@ policy_engine_gap:
     - ACCEPTED
 ```
 
----
+______________________________________________________________________
 
-# 133. Gap Resolution Priority
+## 133. Gap Resolution Priority
 
 Resolve gaps in this order:
 
@@ -3850,9 +3853,9 @@ COSMETIC
 
 Do not spend evaluation resources polishing explanatory gaps while a critical policy gap remains unresolved.
 
----
+______________________________________________________________________
 
-# 134. Minimum Engine Contract
+## 134. Minimum Engine Contract
 
 The minimum structurally complete Policy Engine MUST support:
 
@@ -3890,9 +3893,9 @@ tests;
 auditing.
 ```
 
----
+______________________________________________________________________
 
-# 135. Example — Read-Only Request
+## 135. Example — Read-Only Request
 
 ```yaml
 policy_engine_request:
@@ -3934,9 +3937,9 @@ policy_engine_result:
 
 This does not independently establish resource access authority.
 
----
+______________________________________________________________________
 
-# 136. Example — Persistent Write
+## 136. Example — Persistent Write
 
 ```yaml
 policy_engine_request:
@@ -3976,9 +3979,9 @@ policy_engine_result:
 
 This is not permission to commit the write.
 
----
+______________________________________________________________________
 
-# 137. Example — Explicit Denial
+## 137. Example — Explicit Denial
 
 ```yaml
 policy_engine_result:
@@ -3996,9 +3999,9 @@ policy_engine_result:
 
 Downstream components MUST NOT override this denial without a valid governing exception.
 
----
+______________________________________________________________________
 
-# 138. Example — Unknown
+## 138. Example — Unknown
 
 ```yaml
 policy_engine_result:
@@ -4020,9 +4023,9 @@ ALLOW
 
 for workflow convenience.
 
----
+______________________________________________________________________
 
-# 139. Example — Conflict
+## 139. Example — Conflict
 
 ```yaml
 policy_engine_result:
@@ -4042,9 +4045,9 @@ policy_engine_result:
         state: UNRESOLVED
 ```
 
----
+______________________________________________________________________
 
-# 140. Example — Revalidation
+## 140. Example — Revalidation
 
 Prepared:
 
@@ -4069,9 +4072,9 @@ REVALIDATE
 
 The old `ALLOW` MUST NOT be blindly reused.
 
----
+______________________________________________________________________
 
-# 141. Example — Selective Invalidation
+## 141. Example — Selective Invalidation
 
 ```text
 D1 ← POLICY_A + POLICY_B
@@ -4095,9 +4098,9 @@ preserve D2
 
 provided no hidden dependency links `D2` to `POLICY_B`.
 
----
+______________________________________________________________________
 
-# 142. Example — H/M/L Policy
+## 142. Example — H/M/L Policy
 
 ```text
 H POLICY:
@@ -4129,46 +4132,46 @@ CAPABILITY != AUTHORITY
 PROPOSAL != COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 143. Audit Surface
+## 143. Audit Surface
 
 An auditor SHOULD be able to reconstruct:
 
 1. What request entered the engine?
-2. Who was the principal?
-3. What action was normalized?
-4. What capability was resolved?
-5. What target was bound?
-6. What effect was evaluated?
-7. What policies were discovered?
-8. Which policy versions were used?
-9. Which policies were applicable?
-10. Which were excluded?
-11. Why?
-12. What predicates were evaluated?
-13. Which predicates were unknown?
-14. Which rules fired?
-15. What exceptions were evaluated?
-16. Were exceptions valid?
-17. What conflicts were detected?
-18. What precedence was applied?
-19. What obligations were created?
-20. What prohibitions were created?
-21. What conditions remained?
-22. What was the final policy decision?
-23. What was its scope?
-24. What was its regime?
-25. What evidence supported it?
-26. What was its policy read set?
-27. When was it evaluated?
-28. What invalidates it?
-29. Was it revalidated before commit?
-30. Did runtime behavior conform to it?
+1. Who was the principal?
+1. What action was normalized?
+1. What capability was resolved?
+1. What target was bound?
+1. What effect was evaluated?
+1. What policies were discovered?
+1. Which policy versions were used?
+1. Which policies were applicable?
+1. Which were excluded?
+1. Why?
+1. What predicates were evaluated?
+1. Which predicates were unknown?
+1. Which rules fired?
+1. What exceptions were evaluated?
+1. Were exceptions valid?
+1. What conflicts were detected?
+1. What precedence was applied?
+1. What obligations were created?
+1. What prohibitions were created?
+1. What conditions remained?
+1. What was the final policy decision?
+1. What was its scope?
+1. What was its regime?
+1. What evidence supported it?
+1. What was its policy read set?
+1. When was it evaluated?
+1. What invalidates it?
+1. Was it revalidated before commit?
+1. Did runtime behavior conform to it?
 
----
+______________________________________________________________________
 
-# 144. Completion Matrix
+## 144. Completion Matrix
 
 | Surface                   | Specification State |
 | ------------------------- | ------------------- |
@@ -4213,9 +4216,9 @@ An auditor SHOULD be able to reconstruct:
 | Production deployment     | UNKNOWN/GAP         |
 | Canon admission           | UNKNOWN/GAP         |
 
----
+______________________________________________________________________
 
-# 145. RSCF Completion State
+## 145. RSCF Completion State
 
 ```yaml
 rscf_completion:
@@ -4273,9 +4276,9 @@ rscf_completion:
 
 It does **not** mean the specification contains no substantive architecture.
 
----
+______________________________________________________________________
 
-# 146. Hard Boundary Block
+## 146. Hard Boundary Block
 
 ```text
 POLICY_ENGINE != POLICY_REGISTRY
@@ -4341,9 +4344,9 @@ TESTED != FORMALLY_VERIFIED
 MODEL != EMPIRICAL_FACT
 ```
 
----
+______________________________________________________________________
 
-# 147. Canon Boundary
+## 147. Canon Boundary
 
 Trang Phan remains the origin architect and steward of AMOS.
 
@@ -4386,9 +4389,9 @@ supersession;
 and dependency compatibility.
 ```
 
----
+______________________________________________________________________
 
-# 148. Final Policy Engine Contract
+## 148. Final Policy Engine Contract
 
 AMOS SHALL preserve the following architecture:
 
@@ -4510,29 +4513,33 @@ AMOS MUST prefer selective invalidation and repair over unnecessary global recom
 
 Integrity remains prior to completeness, fluency, speed, and optimization.
 
----
+______________________________________________________________________
 
-# END — POLICY_ENGINE.md
+## END — POLICY_ENGINE.md
 
 ```
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: policy_engine
 node_type: note
 path: 03_CONTROL_PLANE/03_POLICY/POLICY_ENGINE.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[03_CONTROL_PLANE/03_POLICY/03_POLICY_MOC|03_POLICY_MOC]]

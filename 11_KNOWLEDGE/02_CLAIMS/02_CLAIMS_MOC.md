@@ -1,29 +1,58 @@
 ---
-title: 02 Claims MOC
-type: moc
-source: 11_KNOWLEDGE/02_CLAIMS
-tags:
-- 02-claims
-- canon/knowledge
-moc: true
+title: "02 Claims Moc — Knowledge Base Synthesis & Reference"
+type: knowledge_specification
+source: 11_KNOWLEDGE
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
+status: ACTIVE_SPECIFICATION
+epistemic_class: AMOS_MODEL
+conclusion_class: DERIVED
 rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: AMOS_knowledge
+  state: DERIVED
+  claim_class: AMOS_MODEL
+  provenance:
+    - 11_KNOWLEDGE/11_KNOWLEDGE_MOC
+    - 00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE
+  scope: knowledge_synthesis
+tags:
+  - amos-os
+  - knowledge
+  - reference
+  - 02-claims-moc
 ---
 
-# 02 Claims — Map of Content
+# 02 Claims Moc — Knowledge Base Synthesis & Reference
 
-**Path:** `11_KNOWLEDGE/02_CLAIMS`
-**Files:** 4 | **Subdirectories:** 0
-
-## Files
-
-- [[11_KNOWLEDGE/02_CLAIMS/CANON_CLAIM_REGISTRY|CANON_CLAIM_REGISTRY]]
-- [[11_KNOWLEDGE/02_CLAIMS/FRAMEWORK_CLAIM_REGISTRY|FRAMEWORK_CLAIM_REGISTRY]]
-- [[11_KNOWLEDGE/02_CLAIMS/HERITAGE_CLAIM_REGISTRY|HERITAGE_CLAIM_REGISTRY]]
-- [[11_KNOWLEDGE/02_CLAIMS/UBI_CLAIM_REGISTRY|UBI_CLAIM_REGISTRY]]
+> **Origin Architect / Steward:** Trang Phan  
+> **AMOS_CORE Target:** `v4.4`  
+> **Conclusion Class:** `AMOS_MODEL`  
+> **Status:** `ACTIVE_SPECIFICATION`
 
 ---
-**Parent:** [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]]
+
+## 1. Domain Overview & Substrate Role
+
+`02_CLAIMS_MOC` provides synthesized knowledge representations, cross-corpus embeddings, and structured reference material supporting AMOS OS cognitive reasoning under `11_KNOWLEDGE`.
+
+```text
+KNOWLEDGE != TRUTH
+OBSERVATION != VERIFICATION
+SYNTHESIS != CANONICAL_LAW
+```
+
+---
+
+## 2. Knowledge Graph & Epistemic Boundaries
+
+1. **Source Grounding:** All claims cite primary literature, experimental data, or canonical definitions.
+2. **Epistemic Invalidation:** Invalidation of foundational premises propagates downward through the semantic graph.
+3. **Confidence Upper Bound:** Capped at $\mathcal{C} \le 0.95$.
+
+---
+
+## 3. Integration & Navigation
+
+- **Knowledge MOC:** [[11_KNOWLEDGE/11_KNOWLEDGE_MOC|11_KNOWLEDGE_MOC]]
+- **Episodic Substrate:** [[10_MEMORY/EPISODIC_MEMORY_SUBSTRATE|EPISODIC_MEMORY_SUBSTRATE]]
+- **Research Foundations:** [[22_RESEARCH/22_RESEARCH_MOC|22_RESEARCH_MOC]]

@@ -1,4 +1,7 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: EV SUPER ENGINE
 type: engine
 source: 11_KNOWLEDGE/engine
@@ -7,17 +10,17 @@ canon-type: framework
 rscf-state: source-claim
 topic: ev-super-engine
 tags:
-- canon-group/tech-ai
-- canon/framework
-- rscf/claim
-- rscf/provenance
-- rscf/state/observation
-- topic/ev-super-engine
-- engine
-- system-scan-agent
-- automation-profiles
-- amos-simulation-kernel-v0-math-foundations
-- trang-framework-recursive-ontology-dynamics
+  - canon-group/tech-ai
+  - canon/framework
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/observation
+  - topic/ev-super-engine
+  - engine
+  - system-scan-agent
+  - automation-profiles
+  - amos-simulation-kernel-v0-math-foundations
+  - trang-framework-recursive-ontology-dynamics
 created: 2026-08-22
 rscf:
   state: AMOS_MODEL
@@ -28,7 +31,7 @@ rscf:
 
 # EV SUPER ENGINE
 
-```json
+````json
 {
   "engine_name": "AMOS_EV_INFRASTRUCTURE_AGENTS_SUPER_ENGINE",
   "version": "vInfinity_X100k_GLOBAL_C_REFACTORED_v4",
@@ -834,4 +837,4 @@ rscf:
 
 ---
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
-```
+````

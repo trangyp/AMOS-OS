@@ -89,7 +89,7 @@
     "arxiv-future-confidence-distillation-rscf"
   ],
   "depends_on_workflows": [
-    "arxiv-future-confidence-distillation-rscf-workflow.md"
+    "amos-arxiv-future-confidence-distillation-rscf-workflow.md"
   ],
   "epistemic_class": "AMOS_MODEL",
   "claim_ceiling": 0.95,

@@ -12,55 +12,55 @@ segment: 25_COGNITIVE_MATRIX
 artifact_kind: MATRIX
 path: 25_COGNITIVE_MATRIX/CORE_X_CONTROL_PLANE.md
 tags:
-- amos-os
-- cognitive-matrix
-- vault
-- core_x_control_plane
-- control_plane_governance
-- authority_routing
-- authority_envelopes
-- canonical_core_invariants
-- control_harness_router
-- capability_authority_separation
-- governance
-- integrity
-- reality
-- cognition
-- multi_agent
-- cryptographic_envelopes
-- biological_substrate_firewalls
-- provenance
-- scope
-- regime
-- rscf
-- gmef
-- proof_capsules
-- dependency_closure
-- causal_epoch
-- mvcc
-- cas
-- atomic_multi_rscf
-- shard_local_finalization
-- proof_based_coordination_avoidance
-- canon_candidate
-- canon/matrix
-- core-x-control-plane-matrix
-- agents
-- validation
-- skill
-- canon
-- revocation
-- delegation
-- law/L0-integrity
-- references
-- k-rscf
-- k-hml
-- k-gmef
-- k-provenance
-- k-provenance-topology
-- k-capability-authorization
-- k-commit-time-authority
-- amos-core-v4-4
+  - amos-os
+  - cognitive-matrix
+  - vault
+  - core_x_control_plane
+  - control_plane_governance
+  - authority_routing
+  - authority_envelopes
+  - canonical_core_invariants
+  - control_harness_router
+  - capability_authority_separation
+  - governance
+  - integrity
+  - reality
+  - cognition
+  - multi_agent
+  - cryptographic_envelopes
+  - biological_substrate_firewalls
+  - provenance
+  - scope
+  - regime
+  - rscf
+  - gmef
+  - proof_capsules
+  - dependency_closure
+  - causal_epoch
+  - mvcc
+  - cas
+  - atomic_multi_rscf
+  - shard_local_finalization
+  - proof_based_coordination_avoidance
+  - canon_candidate
+  - canon/matrix
+  - core-x-control-plane-matrix
+  - agents
+  - validation
+  - skill
+  - canon
+  - revocation
+  - delegation
+  - law/L0-integrity
+  - references
+  - k-rscf
+  - k-hml
+  - k-gmef
+  - k-provenance
+  - k-provenance-topology
+  - k-capability-authorization
+  - k-commit-time-authority
+  - amos-core-v4-4
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -77,26 +77,26 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - 01_CANON/01_CANON_MOC
-  - 03_CONTROL_PLANE/03_CONTROL_PLANE_MOC
-  - AMOS_CORPUS
+    - 01_CANON/01_CANON_MOC
+    - 03_CONTROL_PLANE/03_CONTROL_PLANE_MOC
+    - AMOS_CORPUS
   scope:
-  - COGNITIVE_MATRIX
-  - CONTROL_PLANE_INTEGRATION
-  - AUTHORITY_ROUTING
-  - CROSS_PLANE_GOVERNANCE
-  - SOURCE_DEFINED_MODEL
+    - COGNITIVE_MATRIX
+    - CONTROL_PLANE_INTEGRATION
+    - AUTHORITY_ROUTING
+    - CROSS_PLANE_GOVERNANCE
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   matrix_counterpart:
     artifact:
-    - - CORE_X_CONTROL_PLANE_MATRIX
+      -   - CORE_X_CONTROL_PLANE_MATRIX
   control_plane:
     artifact: 03_CONTROL_PLANE/03_CONTROL_PLANE_MOC
   canon_plane:
     artifact: 01_CANON/01_CANON_MOC
   cognitive_matrix:
     artifact:
-    - - 25_COGNITIVE_MATRIX_MOC
+      -   - 25_COGNITIVE_MATRIX_MOC
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   matrix_structure: VERIFIED_SOURCE_STRUCTURE
@@ -119,7 +119,7 @@ epistemic_boundary:
 
 Its primary architectural purpose is to preserve the distinction between:
 
-```text
+````text
 CANONICAL LAW
         ↓
 AUTHORITY ENVELOPE
@@ -132,15 +132,15 @@ and:
 CANONICAL LAW
         ↓
 UNBOUNDED EXECUTION
-```
+````
 
 The latter is not licensed by this specification.
 
 The matrix establishes three principal source-defined primitives:
 
 1. **Canonical Core Invariants**
-2. **Authority Envelopes**
-3. **Control Harness Router**
+1. **Authority Envelopes**
+1. **Control Harness Router**
 
 The specification's governing boundary is:
 
@@ -150,9 +150,9 @@ Capability \neq Authority
 }
 $$
 
----
+______________________________________________________________________
 
-# 0. Epistemic Boundary
+## 0. Epistemic Boundary
 
 The supplied source establishes the presence and structure of this AMOS architectural specification.
 
@@ -216,9 +216,9 @@ DocumentedCapability
 EstablishedExecution
 $$
 
----
+______________________________________________________________________
 
-# 1. Authority Separation & Control Invariants
+## 1. Authority Separation & Control Invariants
 
 Source-defined structure:
 
@@ -237,9 +237,9 @@ CANONICAL CORE INVARIANTS          AUTHORITY ENVELOPES                CONTROL HA
 
 This structure defines three distinct responsibilities.
 
----
+______________________________________________________________________
 
-# 2. Cognitive Mesh
+## 2. Cognitive Mesh
 
 The Core × Control Plane Cognitive Mesh can be normalized as:
 
@@ -255,9 +255,9 @@ $$
 
 where:
 
-* \(I_C\) = Canonical Core Invariants;
-* \(E_A\) = Authority Envelopes;
-* \(R_H\) = Control Harness Router.
+- (I_C) = Canonical Core Invariants;
+- (E_A) = Authority Envelopes;
+- (R_H) = Control Harness Router.
 
 Conceptually:
 
@@ -281,9 +281,9 @@ The authority envelope is therefore not merely transport metadata.
 
 It is the conceptual boundary separating capability from authorization.
 
----
+______________________________________________________________________
 
-# 3. Master Authority Law
+## 3. Master Authority Law
 
 The central source-defined law is:
 
@@ -305,8 +305,8 @@ $$
 
 where:
 
-* \(X\) = actor, agent, harness, or subsystem;
-* \(A\) = action.
+- (X) = actor, agent, harness, or subsystem;
+- (A) = action.
 
 Therefore:
 
@@ -336,9 +336,9 @@ CAN REASON
 CAN COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 4. Canonical Core Invariants
+## 4. Canonical Core Invariants
 
 The first primitive is:
 
@@ -371,9 +371,9 @@ L3 GOVERNANCE
 
 That counterpart relationship should remain explicit rather than silently merging the two artifacts.
 
----
+______________________________________________________________________
 
-# 5. L0–L3 Canonical Spine
+## 5. L0–L3 Canonical Spine
 
 Within the cross-plane model:
 
@@ -403,9 +403,9 @@ ControlExecution
 CanonMutation
 $$
 
----
+______________________________________________________________________
 
-# 6. L0 Integrity Boundary
+## 6. L0 Integrity Boundary
 
 L0 governs integrity constraints.
 
@@ -445,9 +445,9 @@ The detailed routing belongs to:
 
 rather than being silently promoted into the original specification.
 
----
+______________________________________________________________________
 
-# 7. L1 Reality Boundary
+## 7. L1 Reality Boundary
 
 L1 governs the reality boundary.
 
@@ -479,9 +479,9 @@ OVERRIDING PHYSICAL BOUNDS
 
 This does not establish actual sensor integration.
 
----
+______________________________________________________________________
 
-# 8. L2 Cognition Boundary
+## 8. L2 Cognition Boundary
 
 L2 governs cognitive operations.
 
@@ -511,11 +511,11 @@ and prohibits:
 CONTEXT HALLUCINATION (S0)
 ```
 
-The exact formal semantics of \(S_0\) are not established by this specification alone.
+The exact formal semantics of (S_0) are not established by this specification alone.
 
----
+______________________________________________________________________
 
-# 9. L3 Governance Boundary
+## 9. L3 Governance Boundary
 
 L3 governs authorization and governed action.
 
@@ -545,9 +545,9 @@ and prohibits:
 DIRECT UNAUTHORIZED MUTATION
 ```
 
----
+______________________________________________________________________
 
-# 10. Biological Substrate Firewalls
+## 10. Biological Substrate Firewalls
 
 The source explicitly includes:
 
@@ -587,9 +587,9 @@ NOT ESTABLISHED
 
 No stronger empirical or biological claim should be inferred solely from the term.
 
----
+______________________________________________________________________
 
-# 11. Authority Envelopes
+## 11. Authority Envelopes
 
 The second principal primitive is:
 
@@ -623,9 +623,9 @@ $$
 
 with additional implementation-specific fields loaded only where supported.
 
----
+______________________________________________________________________
 
-# 12. Authority Envelope Contract
+## 12. Authority Envelope Contract
 
 ```yaml
 Authority_Envelope:
@@ -659,9 +659,9 @@ This schema is a derived normalization.
 
 The original source does not enumerate these exact fields.
 
----
+______________________________________________________________________
 
-# 13. Capability / Authority Separation
+## 13. Capability / Authority Separation
 
 A capability answers:
 
@@ -697,9 +697,9 @@ into:
 AUTHORIZED
 ```
 
----
+______________________________________________________________________
 
-# 14. Authority Non-Manufacture
+## 14. Authority Non-Manufacture
 
 Routing cannot create authority merely because downstream capability exists.
 
@@ -727,9 +727,9 @@ DISPATCH
 AUTHORITY ESCALATION
 ```
 
----
+______________________________________________________________________
 
-# 15. Authority Non-Transitivity
+## 15. Authority Non-Transitivity
 
 Authority granted for one capability does not automatically transfer to another.
 
@@ -757,9 +757,9 @@ $$
 
 This is a derived governance constraint consistent with scoped authority envelopes.
 
----
+______________________________________________________________________
 
-# 16. Signed Cryptographic Tokens
+## 16. Signed Cryptographic Tokens
 
 The source explicitly identifies:
 
@@ -813,9 +813,9 @@ SignedTokenConcept
 VerifiedCryptographicImplementation
 $$
 
----
+______________________________________________________________________
 
-# 17. Cryptographic Authority Boundary
+## 17. Cryptographic Authority Boundary
 
 Conceptually, a signed token may represent an authority assertion.
 
@@ -851,9 +851,9 @@ may be required.
 
 This is derived architecture, not source-established token semantics.
 
----
+______________________________________________________________________
 
-# 18. Token Authenticity vs Authorization
+## 18. Token Authenticity vs Authorization
 
 The system must conceptually distinguish:
 
@@ -877,9 +877,9 @@ Authentic(T)
 Authorized(T,A)
 $$
 
----
+______________________________________________________________________
 
-# 19. Token Freshness
+## 19. Token Freshness
 
 If authority is time- or state-bounded:
 
@@ -897,9 +897,9 @@ This is compatible with causal epoch and freshness-bounded reasoning.
 
 Literal implementation is not established.
 
----
+______________________________________________________________________
 
-# 20. Token Scope
+## 20. Token Scope
 
 A conceptual authority token should not silently expand beyond its envelope.
 
@@ -919,9 +919,9 @@ ALL TARGETS
 ALL SCOPES
 ```
 
----
+______________________________________________________________________
 
-# 21. Control Harness Router
+## 21. Control Harness Router
 
 The third principal primitive is:
 
@@ -946,9 +946,9 @@ VERIFIED DEPLOYMENT OF 678+ [[AGENTS|AGENTS]]
 
 without runtime evidence.
 
----
+______________________________________________________________________
 
-# 22. 678+ Agent Claim Boundary
+## 22. 678+ Agent Claim Boundary
 
 Source statement:
 
@@ -997,9 +997,9 @@ $$
 678+_{runtime\ verified}
 $$
 
----
+______________________________________________________________________
 
-# 23. Strict-Bounds Principle
+## 23. Strict-Bounds Principle
 
 The source qualifies dispatch with:
 
@@ -1023,9 +1023,9 @@ $$
 
 The exact bound-checking algorithm remains unspecified.
 
----
+______________________________________________________________________
 
-# 24. Control Harness Routing Contract
+## 24. Control Harness Routing Contract
 
 ```yaml
 Control_Harness_Route:
@@ -1059,9 +1059,9 @@ Control_Harness_Route:
 
 Derived schema.
 
----
+______________________________________________________________________
 
-# 25. Router Non-Authority Principle
+## 25. Router Non-Authority Principle
 
 The router selects or dispatches capabilities.
 
@@ -1081,9 +1081,9 @@ Selection
 Authorization
 $$
 
----
+______________________________________________________________________
 
-# 26. Agent Non-Authority Principle
+## 26. Agent Non-Authority Principle
 
 An agent's ability to perform an action does not grant it permission to perform that action.
 
@@ -1095,9 +1095,9 @@ AGENT AUTHORITY
 
 This is a direct application of the source-defined master invariant.
 
----
+______________________________________________________________________
 
-# 27. Multi-Agent Authority Isolation
+## 27. Multi-Agent Authority Isolation
 
 In a multi-agent architecture:
 
@@ -1111,9 +1111,9 @@ unless an applicable authority relationship explicitly establishes transfer or d
 
 Thus one agent's authority should not silently contaminate another agent's authority envelope.
 
----
+______________________________________________________________________
 
-# 28. Delegation Boundary
+## 28. Delegation Boundary
 
 Conceptually:
 
@@ -1137,9 +1137,9 @@ UNBOUNDED AUTHORITY
 
 A delegation mechanism would need explicit semantics before being treated as established.
 
----
+______________________________________________________________________
 
-# 29. Authority Intersection
+## 29. Authority Intersection
 
 Where multiple authority constraints apply:
 
@@ -1156,9 +1156,9 @@ This conservative intersection model prevents one permissive envelope from silen
 
 It is a derived governance pattern.
 
----
+______________________________________________________________________
 
-# 30. Canon × Authority × Router Composition
+## 30. Canon × Authority × Router Composition
 
 The source-defined architecture can be represented:
 
@@ -1193,9 +1193,9 @@ CANONICAL CORE INVARIANTS
      BOUNDED DISPATCH
 ```
 
----
+______________________________________________________________________
 
-# 31. Plane Separation
+## 31. Plane Separation
 
 The specification connects:
 
@@ -1233,9 +1233,9 @@ Conceptually:
 CONTROLLED ACTION
 ```
 
----
+______________________________________________________________________
 
-# 32. Canon Plane
+## 32. Canon Plane
 
 Referenced artifact:
 
@@ -1247,9 +1247,9 @@ The Canon Plane provides the upstream source context for Core laws.
 
 The full Canon architecture should not be reconstructed from this matrix alone.
 
----
+______________________________________________________________________
 
-# 33. Cognitive Matrix Plane
+## 33. Cognitive Matrix Plane
 
 Referenced artifact:
 
@@ -1261,9 +1261,9 @@ This plane carries the cross-plane authority/routing model.
 
 It acts as a specification layer rather than evidence that the downstream execution stack exists.
 
----
+______________________________________________________________________
 
-# 34. Control Plane
+## 34. Control Plane
 
 Referenced artifact:
 
@@ -1279,9 +1279,9 @@ MULTI-AGENT EXECUTION HARNESSES
 
 The exact runtime architecture remains dependent on the referenced Control Plane source.
 
----
+______________________________________________________________________
 
-# 35. Matrix Counterpart
+## 35. Matrix Counterpart
 
 The specification's table counterpart is:
 
@@ -1303,9 +1303,9 @@ CORE_X_CONTROL_PLANE
 L0–L3 ROUTES
 ```
 
----
+______________________________________________________________________
 
-# 36. Specification vs Matrix Table
+## 36. Specification vs Matrix Table
 
 The two artifacts have distinct roles.
 
@@ -1347,9 +1347,9 @@ Specification
 RoutingTable
 $$
 
----
+______________________________________________________________________
 
-# 37. Source-Level Matrix Relationship
+## 37. Source-Level Matrix Relationship
 
 The specification references the matrix table explicitly.
 
@@ -1359,24 +1359,24 @@ Therefore their bidirectional artifact relationship is source-grounded.
 
 This does not mean all derived details in one artifact automatically become original source statements of the other.
 
----
+______________________________________________________________________
 
-# 38. Core × Control Plane Routing Grid
+## 38. Core × Control Plane Routing Grid
 
 From the counterpart source:
 
-| Core Law      | Control Plane Harness  | Permitted Action        | Prohibited Action               | Enforcement Gate       |
-| ------------- | ---------------------- | ----------------------- | ------------------------------- | ---------------------- |
-| L0 Integrity  | State Validator        | Invariant check         | Unverified state commit         | Pre-Commit Audit       |
-| L1 Reality    | Telemetry Ingestion    | Sensor observation read | Overriding physical bounds      | Sensor Boundary Gate   |
-| L2 Cognition  | Prompt / Skill Harness | Hypothesis generation   | Context hallucination (\(S_0\)) | Anti-Autopoisoning     |
-| L3 Governance | Multi-Agent Dispatcher | Proposal generation     | Direct unauthorized mutation    | Cryptographic Envelope |
+| Core Law      | Control Plane Harness  | Permitted Action        | Prohibited Action             | Enforcement Gate       |
+| ------------- | ---------------------- | ----------------------- | ----------------------------- | ---------------------- |
+| L0 Integrity  | State Validator        | Invariant check         | Unverified state commit       | Pre-Commit Audit       |
+| L1 Reality    | Telemetry Ingestion    | Sensor observation read | Overriding physical bounds    | Sensor Boundary Gate   |
+| L2 Cognition  | Prompt / Skill Harness | Hypothesis generation   | Context hallucination ((S_0)) | Anti-Autopoisoning     |
+| L3 Governance | Multi-Agent Dispatcher | Proposal generation     | Direct unauthorized mutation  | Cryptographic Envelope |
 
 This table belongs canonically to the counterpart matrix artifact and is reproduced here as an explicit cross-reference.
 
----
+______________________________________________________________________
 
-# 39. L0 Control Contract
+## 39. L0 Control Contract
 
 ```yaml
 L0_Control_Contract:
@@ -1403,9 +1403,9 @@ L0_Control_Contract:
     NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 40. L1 Control Contract
+## 40. L1 Control Contract
 
 ```yaml
 L1_Control_Contract:
@@ -1432,9 +1432,9 @@ L1_Control_Contract:
     NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 41. L2 Control Contract
+## 41. L2 Control Contract
 
 ```yaml
 L2_Control_Contract:
@@ -1461,9 +1461,9 @@ L2_Control_Contract:
     NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 42. L3 Control Contract
+## 42. L3 Control Contract
 
 ```yaml
 L3_Control_Contract:
@@ -1490,9 +1490,9 @@ L3_Control_Contract:
     NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 43. Proposal / Execution Firewall
+## 43. Proposal / Execution Firewall
 
 For L3:
 
@@ -1534,9 +1534,9 @@ DIRECT UNAUTHORIZED MUTATION
 
 violates the source-defined boundary.
 
----
+______________________________________________________________________
 
-# 44. Observation / Cognition Firewall
+## 44. Observation / Cognition Firewall
 
 L1 and L2 must remain epistemically distinct.
 
@@ -1568,9 +1568,9 @@ Hypothesis
 Observation
 $$
 
----
+______________________________________________________________________
 
-# 45. Cognition / Governance Firewall
+## 45. Cognition / Governance Firewall
 
 A generated hypothesis can inform a proposal.
 
@@ -1590,9 +1590,9 @@ Hypothesis
 AuthorizedMutation
 $$
 
----
+______________________________________________________________________
 
-# 46. Governance / Integrity Firewall
+## 46. Governance / Integrity Firewall
 
 Governance authorization does not eliminate integrity requirements.
 
@@ -1612,9 +1612,9 @@ AUTHORIZED
 
 Both may be required.
 
----
+______________________________________________________________________
 
-# 47. Control Mesh Pipeline
+## 47. Control Mesh Pipeline
 
 A derived full cross-plane pipeline is:
 
@@ -1650,9 +1650,9 @@ This is a synthesis of the source architecture.
 
 It is not claimed as a verified runtime sequence.
 
----
+______________________________________________________________________
 
-# 48. Authority Evaluation Function
+## 48. Authority Evaluation Function
 
 Conceptually:
 
@@ -1681,9 +1681,9 @@ $$
 
 This is a derived formalization.
 
----
+______________________________________________________________________
 
-# 49. Routing Eligibility
+## 49. Routing Eligibility
 
 Conceptually:
 
@@ -1713,9 +1713,9 @@ must not silently become:
 AUTHORIZED
 ```
 
----
+______________________________________________________________________
 
-# 50. Default Authority Boundary
+## 50. Default Authority Boundary
 
 For consequential or state-changing actions:
 
@@ -1737,9 +1737,9 @@ UnknownAuthority
 Authorized
 $$
 
----
+______________________________________________________________________
 
-# 51. Scope-Bounded Authority
+## 51. Scope-Bounded Authority
 
 Authority should conceptually inherit an applicability envelope.
 
@@ -1767,9 +1767,9 @@ Authority_Scope:
 
 Authority outside this envelope requires revalidation.
 
----
+______________________________________________________________________
 
-# 52. Regime-Bounded Authority
+## 52. Regime-Bounded Authority
 
 A token, route, or authority decision valid under one regime may become invalid under another.
 
@@ -1779,7 +1779,7 @@ Authority(R_1)
 Authority(R_2)
 $$
 
-where \(R_1\neq R_2\).
+where (R_1\\neq R_2).
 
 Regime changes may include:
 
@@ -1797,9 +1797,9 @@ SECURITY POLICY CHANGE
 STATE EPOCH CHANGE
 ```
 
----
+______________________________________________________________________
 
-# 53. Freshness-Bounded Authority
+## 53. Freshness-Bounded Authority
 
 Authority may be valid only while its load-bearing premises remain current.
 
@@ -1817,9 +1817,9 @@ must remain compatible.
 
 A stale authority decision should be revalidated where material.
 
----
+______________________________________________________________________
 
-# 54. Commit-Time Authority
+## 54. Commit-Time Authority
 
 For state mutation, authority should conceptually be checked at the point where the action becomes irreversible or externally effective.
 
@@ -1835,9 +1835,9 @@ if the underlying state, policy, or authority envelope changed.
 
 This is consistent with AMOS commit-time authority reasoning.
 
----
+______________________________________________________________________
 
-# 55. MVCC-Compatible Authority
+## 55. MVCC-Compatible Authority
 
 Authority decisions may conceptually bind to a version:
 
@@ -1855,9 +1855,9 @@ This is a reasoning pattern.
 
 No literal MVCC implementation is established by this source.
 
----
+______________________________________________________________________
 
-# 56. CAS-Compatible Authority
+## 56. CAS-Compatible Authority
 
 Conceptually:
 
@@ -1885,9 +1885,9 @@ REVALIDATE
 
 rather than silently executing against stale authorization.
 
----
+______________________________________________________________________
 
-# 57. Causal Epoch Authority
+## 57. Causal Epoch Authority
 
 A route may conceptually bind to:
 
@@ -1905,9 +1905,9 @@ E_{n+1}
 
 then the dependent route may require revalidation.
 
----
+______________________________________________________________________
 
-# 58. Persistent Provenance
+## 58. Persistent Provenance
 
 A control action should conceptually retain:
 
@@ -1933,9 +1933,9 @@ where these are load-bearing.
 
 This enables later reconstruction of why a control action was considered admissible.
 
----
+______________________________________________________________________
 
-# 59. Provenance Topology
+## 59. Provenance Topology
 
 Multiple authority assertions are not independent merely because they appear in separate artifacts.
 
@@ -1951,9 +1951,9 @@ all descend from one authority source, they do not constitute three independent 
 
 This matters when corroboration is required.
 
----
+______________________________________________________________________
 
-# 60. Sybil-Hardened Authority Reasoning
+## 60. Sybil-Hardened Authority Reasoning
 
 Repetition of an authorization claim does not increase authority.
 
@@ -1971,9 +1971,9 @@ MultipleDescendants(Source_1)
 MultipleIndependentSources
 $$
 
----
+______________________________________________________________________
 
-# 61. RSCF Cross-Plane Contract
+## 61. RSCF Cross-Plane Contract
 
 ```yaml
 RSCF:
@@ -2022,9 +2022,9 @@ RSCF:
   invalidation_conditions:
 ```
 
----
+______________________________________________________________________
 
-# 62. Atomic Multi-RSCF Authority
+## 62. Atomic Multi-RSCF Authority
 
 A consequential control operation may require several RSCF frames simultaneously.
 
@@ -2045,9 +2045,9 @@ CONTROL ACTION ELIGIBILITY
 
 The operation should not finalize merely because one frame passes.
 
----
+______________________________________________________________________
 
-# 63. Atomicity Principle
+## 63. Atomicity Principle
 
 Conceptually:
 
@@ -2068,9 +2068,9 @@ DO NOT FINALIZE
 
 while preserving unaffected independent conclusions.
 
----
+______________________________________________________________________
 
-# 64. Dependency Closure
+## 64. Dependency Closure
 
 Before dispatch or commit, determine the smallest set of dependencies that can alter the outcome.
 
@@ -2104,9 +2104,9 @@ ENFORCEMENT GATE
 
 Do not load unrelated raw evidence by default.
 
----
+______________________________________________________________________
 
-# 65. Fast-Path Eligibility
+## 65. Fast-Path Eligibility
 
 Local bounded routing is conceptually eligible only where:
 
@@ -2128,9 +2128,9 @@ NO MATERIAL CONFLICT
 NO CROSS-PLANE AUTHORITY AMBIGUITY
 ```
 
----
+______________________________________________________________________
 
-# 66. Fast-Path Escalation
+## 66. Fast-Path Escalation
 
 Escalate where:
 
@@ -2156,9 +2156,9 @@ AMBIGUOUS DEPENDENCY
 UNKNOWN ENFORCEMENT STATE
 ```
 
----
+______________________________________________________________________
 
-# 67. Proof-Based Coordination Avoidance
+## 67. Proof-Based Coordination Avoidance
 
 Where authority and dependency closure are demonstrably local:
 
@@ -2180,9 +2180,9 @@ must be established.
 
 Architectural naming alone does not prove independence.
 
----
+______________________________________________________________________
 
-# 68. Shard-Local Finalization
+## 68. Shard-Local Finalization
 
 A shard-local control action may be conceptually finalizable only if:
 
@@ -2198,9 +2198,9 @@ $$
 
 This is v4.4-compatible reasoning, not evidence of literal distributed runtime behavior.
 
----
+______________________________________________________________________
 
-# 69. Causal Epoch Finality
+## 69. Causal Epoch Finality
 
 A route may be finalized against a causal epoch only while its dependency conditions remain valid.
 
@@ -2216,11 +2216,11 @@ STATE @ E_n
 FINALITY @ E_n
 ```
 
-A material transition to \(E_{n+1}\) may invalidate the prior finality basis.
+A material transition to (E\_{n+1}) may invalidate the prior finality basis.
 
----
+______________________________________________________________________
 
-# 70. GMEF Boundary
+## 70. GMEF Boundary
 
 Generated models entering the Control Plane should preserve their epistemic identity.
 
@@ -2260,9 +2260,9 @@ L1 OBSERVATION
 
 through routing.
 
----
+______________________________________________________________________
 
-# 71. Causal Firewall
+## 71. Causal Firewall
 
 Control routing does not establish causal truth.
 
@@ -2288,9 +2288,9 @@ GENERAL CAUSAL LAW
 
 Appropriately typed causal evidence is separately required.
 
----
+______________________________________________________________________
 
-# 72. Epistemic Type Firewall
+## 72. Epistemic Type Firewall
 
 Cross-plane routing must preserve:
 
@@ -2310,9 +2310,9 @@ UNKNOWN
 
 Routing itself does not upgrade claim class.
 
----
+______________________________________________________________________
 
-# 73. Source Claim Boundary
+## 73. Source Claim Boundary
 
 The following remain source claims unless independently validated:
 
@@ -2330,9 +2330,9 @@ Their presence in AMOS canon-candidate architecture is source-grounded.
 
 Their runtime realization is not established here.
 
----
+______________________________________________________________________
 
-# 74. Authority Proof Capsule
+## 74. Authority Proof Capsule
 
 ```yaml
 Proof_Capsule:
@@ -2364,9 +2364,9 @@ Proof_Capsule:
     SOURCE_BOUND
 ```
 
----
+______________________________________________________________________
 
-# 75. Router Proof Capsule
+## 75. Router Proof Capsule
 
 ```yaml
 Proof_Capsule:
@@ -2397,9 +2397,9 @@ Proof_Capsule:
     runtime_agent_count: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 76. Cryptographic Token Proof Capsule
+## 76. Cryptographic Token Proof Capsule
 
 ```yaml
 Proof_Capsule:
@@ -2432,9 +2432,9 @@ Proof_Capsule:
     implementation: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 77. Biological Firewall Proof Capsule
+## 77. Biological Firewall Proof Capsule
 
 ```yaml
 Proof_Capsule:
@@ -2462,9 +2462,9 @@ Proof_Capsule:
     SOURCE_BOUND
 ```
 
----
+______________________________________________________________________
 
-# 78. Authority Decision Classes
+## 78. Authority Decision Classes
 
 A route decision should resolve to one of:
 
@@ -2482,9 +2482,9 @@ UNKNOWN/GAP
 
 `UNKNOWN/GAP` must remain distinct from both authorization and denial when evidence is insufficient.
 
----
+______________________________________________________________________
 
-# 79. Competing Authority Claims
+## 79. Competing Authority Claims
 
 If two authority envelopes conflict:
 
@@ -2524,9 +2524,9 @@ Until resolved:
 COMPETING
 ```
 
----
+______________________________________________________________________
 
-# 80. Authority Supersession
+## 80. Authority Supersession
 
 A newer authority artifact does not automatically supersede an older one.
 
@@ -2546,9 +2546,9 @@ SUPERSEDING
 
 unless the governance model establishes that relationship.
 
----
+______________________________________________________________________
 
-# 81. Canon Supersession Boundary
+## 81. Canon Supersession Boundary
 
 The Control Plane cannot silently supersede Canon merely because it contains executable capability.
 
@@ -2560,9 +2560,9 @@ $$
 
 This preserves upstream governance.
 
----
+______________________________________________________________________
 
-# 82. Canon Mutation Boundary
+## 82. Canon Mutation Boundary
 
 Any action that changes Canon requires authority beyond ordinary task dispatch.
 
@@ -2580,9 +2580,9 @@ CANON MUTATION
 
 belong to different governance classes.
 
----
+______________________________________________________________________
 
-# 83. Irreversibility Escalation
+## 83. Irreversibility Escalation
 
 Validation should increase with:
 
@@ -2608,9 +2608,9 @@ LARGE DOWNSTREAM DEPENDENCY
 
 The source matrix does not specify a numeric risk function.
 
----
+______________________________________________________________________
 
-# 84. Reversibility Preference
+## 84. Reversibility Preference
 
 Under unresolved uncertainty:
 
@@ -2628,9 +2628,9 @@ actions should be preferred over irreversible mutation where objectives permit.
 
 This is a governance extension consistent with AMOS Core reasoning.
 
----
+______________________________________________________________________
 
-# 85. Adversarial Authority Validation
+## 85. Adversarial Authority Validation
 
 For consequential dispatch, test:
 
@@ -2660,9 +2660,9 @@ DO MULTIPLE AUTHORITY CLAIMS SHARE ANCESTRY?
 IS THE ROUTER CONFUSING CAPABILITY WITH AUTHORITY?
 ```
 
----
+______________________________________________________________________
 
-# 86. Sensitivity Analysis
+## 86. Sensitivity Analysis
 
 The smallest premise capable of flipping a dispatch decision is often one of:
 
@@ -2686,9 +2686,9 @@ ENFORCEMENT GATE
 
 These should be checked before low-value background detail.
 
----
+______________________________________________________________________
 
-# 87. Control Decision Function
+## 87. Control Decision Function
 
 Conceptually:
 
@@ -2708,14 +2708,14 @@ $$
 
 where:
 
-* \(L\) = Core law;
-* \(A\) = authority;
-* \(C\) = capability;
-* \(H\) = harness;
-* \(T\) = target;
-* \(S\) = state/scope;
-* \(R\) = regime;
-* \(E\) = enforcement condition.
+- (L) = Core law;
+- (A) = authority;
+- (C) = capability;
+- (H) = harness;
+- (T) = target;
+- (S) = state/scope;
+- (R) = regime;
+- (E) = enforcement condition.
 
 Possible outputs:
 
@@ -2730,9 +2730,9 @@ Unknown
 \}
 $$
 
----
+______________________________________________________________________
 
-# 88. Control Harness Selection
+## 88. Control Harness Selection
 
 Harness selection should be based on required capability rather than authority inference.
 
@@ -2752,9 +2752,9 @@ ROUTE
 
 This prevents selection from manufacturing permission.
 
----
+______________________________________________________________________
 
-# 89. Capability Resolver Boundary
+## 89. Capability Resolver Boundary
 
 Conceptually:
 
@@ -2782,9 +2782,9 @@ WHO / WHAT MAY DO THIS?
 
 They should not be conflated.
 
----
+______________________________________________________________________
 
-# 90. Agent Selection Boundary
+## 90. Agent Selection Boundary
 
 The highest-capability agent is not automatically the correct agent.
 
@@ -2802,9 +2802,9 @@ REGIME
 TASK CLASS
 ```
 
----
+______________________________________________________________________
 
-# 91. Least-Authority Routing
+## 91. Least-Authority Routing
 
 Where multiple agents can perform a task, a derived governance principle is to select a route whose authority envelope is sufficient but not unnecessarily broad.
 
@@ -2820,9 +2820,9 @@ subject to task sufficiency.
 
 This is a derived least-authority rule, not an explicit source statement.
 
----
+______________________________________________________________________
 
-# 92. Authority Escalation
+## 92. Authority Escalation
 
 If the available envelope is insufficient:
 
@@ -2838,9 +2838,9 @@ ESCALATE
 
 to an applicable authority mechanism.
 
----
+______________________________________________________________________
 
-# 93. Authority Failure Recovery
+## 93. Authority Failure Recovery
 
 If authority fails:
 
@@ -2853,9 +2853,9 @@ and dependent actions.
 
 Do not invalidate unrelated observations, models, or routes unless dependency topology requires it.
 
----
+______________________________________________________________________
 
-# 94. Router Failure Recovery
+## 94. Router Failure Recovery
 
 If one harness fails:
 
@@ -2880,9 +2880,9 @@ NO PROHIBITED BYPASS
 
 A reroute must not be used to evade governance.
 
----
+______________________________________________________________________
 
-# 95. Anti-Bypass Invariant
+## 95. Anti-Bypass Invariant
 
 $$
 FailedGate(A)
@@ -2892,9 +2892,9 @@ $$
 
 A different route is valid only if it independently satisfies the applicable authority and integrity conditions.
 
----
+______________________________________________________________________
 
-# 96. Anti-Autopoisoning Across Planes
+## 96. Anti-Autopoisoning Across Planes
 
 A Control Plane result should not automatically become trusted Core context.
 
@@ -2920,9 +2920,9 @@ CONTROL OUTPUT
 AUTOMATIC CANON FACT
 ```
 
----
+______________________________________________________________________
 
-# 97. Knowledge Harvest Boundary
+## 97. Knowledge Harvest Boundary
 
 Control-plane outputs may enter:
 
@@ -2938,9 +2938,9 @@ only through applicable provenance and validation gates.
 
 Execution success alone does not make an output canonical knowledge.
 
----
+______________________________________________________________________
 
-# 98. Persistent Evidence Contract
+## 98. Persistent Evidence Contract
 
 ```yaml
 Persistent_Control_Evidence:
@@ -2978,9 +2978,9 @@ Persistent_Control_Evidence:
 
 Derived schema.
 
----
+______________________________________________________________________
 
-# 99. Runtime Binding Contract
+## 99. Runtime Binding Contract
 
 ```yaml
 Runtime_Binding:
@@ -3013,9 +3013,9 @@ Runtime_Binding:
 
 No completed binding is established by the source.
 
----
+______________________________________________________________________
 
-# 100. Validation Matrix
+## 100. Validation Matrix
 
 | Component                      | Source Presence            | Source Structure             | Runtime                 | Independent Validation        | Formal Verification |
 | ------------------------------ | -------------------------- | ---------------------------- | ----------------------- | ----------------------------- | ------------------- |
@@ -3027,9 +3027,9 @@ No completed binding is established by the source.
 | 678+ agent dispatch            | Verified as source claim   | Verified as source statement | Unknown                 | Not established               | Not established     |
 | Biological substrate firewalls | Verified as source element | Verified as source statement | Unknown                 | Not established               | Not established     |
 
----
+______________________________________________________________________
 
-# 101. Runtime Validation Requirements
+## 101. Runtime Validation Requirements
 
 To promote runtime status, evidence should establish at least:
 
@@ -3055,9 +3055,9 @@ SCOPE VIOLATION REJECTION
 PROVENANCE PERSISTENCE
 ```
 
----
+______________________________________________________________________
 
-# 102. Negative Validation Tests
+## 102. Negative Validation Tests
 
 A robust implementation should test attempts to:
 
@@ -3083,9 +3083,9 @@ PROMOTE AGENT OUTPUT INTO CANON WITHOUT VALIDATION
 
 Expected behavior must be defined by the actual implementation specification.
 
----
+______________________________________________________________________
 
-# 103. Cryptographic Validation Gap
+## 103. Cryptographic Validation Gap
 
 A claim such as:
 
@@ -3117,9 +3117,9 @@ IMPLEMENTATION
 SECURITY TESTING
 ```
 
----
+______________________________________________________________________
 
-# 104. Agent Count Validation Gap
+## 104. Agent Count Validation Gap
 
 To establish the `678+` claim empirically, the cheapest discriminating evidence would be an authoritative runtime or implementation registry showing:
 
@@ -3143,9 +3143,9 @@ Without such evidence:
 SOURCE CLAIM
 ```
 
----
+______________________________________________________________________
 
-# 105. Biological Firewall Validation Gap
+## 105. Biological Firewall Validation Gap
 
 The term:
 
@@ -3177,9 +3177,9 @@ Until resolved:
 SOURCE_DEFINED_MODEL ELEMENT
 ```
 
----
+______________________________________________________________________
 
-# 106. Matrix Consistency Contract
+## 106. Matrix Consistency Contract
 
 The specification and matrix table should remain mutually consistent on:
 
@@ -3203,9 +3203,9 @@ DO NOT AUTO-MERGE
 
 Preserve the conflict and resolve through authority/version/supersession analysis.
 
----
+______________________________________________________________________
 
-# 107. Cross-Artifact Integrity
+## 107. Cross-Artifact Integrity
 
 A derived expansion must distinguish:
 
@@ -3221,9 +3221,9 @@ UNKNOWN/GAP
 
 This prevents expanded vault artifacts from retroactively becoming false source evidence.
 
----
+______________________________________________________________________
 
-# 108. Provenance Contract
+## 108. Provenance Contract
 
 ```yaml
 Provenance:
@@ -3252,9 +3252,9 @@ Provenance:
     ACTIVE_REFERENCE
 ```
 
----
+______________________________________________________________________
 
-# 109. Scope Contract
+## 109. Scope Contract
 
 ```yaml
 Scope:
@@ -3280,9 +3280,9 @@ Scope:
     - formal_verification
 ```
 
----
+______________________________________________________________________
 
-# 110. Regime Contract
+## 110. Regime Contract
 
 ```yaml
 Regime:
@@ -3309,9 +3309,9 @@ Regime:
     - matrix_supersession
 ```
 
----
+______________________________________________________________________
 
-# 111. Uncertainty Vector
+## 111. Uncertainty Vector
 
 For this artifact:
 
@@ -3342,9 +3342,9 @@ Uncertainty:
     NOT_ESTABLISHED_FOR_CORPUS_REPETITIONS
 ```
 
----
+______________________________________________________________________
 
-# 112. Failure Classes
+## 112. Failure Classes
 
 ```text
 CAPABILITY_AUTHORITY_CONFUSION
@@ -3384,9 +3384,9 @@ RUNTIME_BINDING_MISSING
 
 Some failure labels above are derived candidate classifications rather than source-defined vocabulary.
 
----
+______________________________________________________________________
 
-# 113. Gap Classes
+## 113. Gap Classes
 
 ## CRITICAL
 
@@ -3426,9 +3426,9 @@ NON-LOAD-BEARING AGENT TAXONOMY
 
 Formatting or naming differences with no governance effect.
 
----
+______________________________________________________________________
 
-# 114. RSCF Contract
+## 114. RSCF Contract
 
 ```yaml
 RSCF:
@@ -3517,9 +3517,9 @@ RSCF:
       UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 115. RSCF Relations
+## 115. RSCF Relations
 
 ```yaml
 RSCF_RELATIONS:
@@ -3556,9 +3556,9 @@ RSCF_RELATIONS:
       "[[00_ROOT/AMOS_CORE_v4_4|AMOS_CORE_v4_4]]"
 ```
 
----
+______________________________________________________________________
 
-# 116. Proof Capsule — Artifact Status
+## 116. Proof Capsule — Artifact Status
 
 ```yaml
 PROOF_CAPSULE:
@@ -3621,9 +3621,9 @@ PROOF_CAPSULE:
       UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 117. Machine-Readable Cognitive Matrix
+## 117. Machine-Readable Cognitive Matrix
 
 ```yaml
 Core_X_Control_Plane:
@@ -3690,9 +3690,9 @@ Core_X_Control_Plane:
     NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 118. Authority Evaluation Schema
+## 118. Authority Evaluation Schema
 
 ```yaml
 Authority_Evaluation:
@@ -3733,9 +3733,9 @@ Authority_Evaluation:
   proof_capsule:
 ```
 
----
+______________________________________________________________________
 
-# 119. Dispatch Schema
+## 119. Dispatch Schema
 
 ```yaml
 Control_Dispatch:
@@ -3769,9 +3769,9 @@ Control_Dispatch:
   finalization_status:
 ```
 
----
+______________________________________________________________________
 
-# 120. Authority Receipt
+## 120. Authority Receipt
 
 ```yaml
 Authority_Receipt:
@@ -3809,9 +3809,9 @@ Authority_Receipt:
 
 This is a derived candidate schema.
 
----
+______________________________________________________________________
 
-# 121. Dispatch Receipt
+## 121. Dispatch Receipt
 
 ```yaml
 Dispatch_Receipt:
@@ -3839,9 +3839,9 @@ Dispatch_Receipt:
   runtime_environment:
 ```
 
----
+______________________________________________________________________
 
-# 122. Commit Receipt
+## 122. Commit Receipt
 
 ```yaml
 Commit_Receipt:
@@ -3869,9 +3869,9 @@ Commit_Receipt:
   invalidation_conditions:
 ```
 
----
+______________________________________________________________________
 
-# 123. Cross-Plane Audit
+## 123. Cross-Plane Audit
 
 ```yaml
 Cross_Plane_Audit:
@@ -3904,9 +3904,9 @@ Cross_Plane_Audit:
   result:
 ```
 
----
+______________________________________________________________________
 
-# 124. Audit Questions
+## 124. Audit Questions
 
 A full audit should answer:
 
@@ -3948,26 +3948,26 @@ A full audit should answer:
 18. CAN THE DECISION BE INVALIDATED LOCALLY?
 ```
 
----
+______________________________________________________________________
 
-# 125. Anti-Fabrication Rules
+## 125. Anti-Fabrication Rules
 
 This artifact MUST NOT be used by itself to claim:
 
 1. that 678+ agents are currently deployed;
-2. that 678+ agents are simultaneously executable;
-3. that signed cryptographic tokens have a specific implementation;
-4. that a particular cryptographic algorithm is used;
-5. that authority tokens are secure against replay;
-6. that biological substrate firewalls are implemented;
-7. that the Control Harness Router is deployed;
-8. that the Control Plane is operational;
-9. that the matrix is empirically validated;
-10. that the architecture is formally verified.
+1. that 678+ agents are simultaneously executable;
+1. that signed cryptographic tokens have a specific implementation;
+1. that a particular cryptographic algorithm is used;
+1. that authority tokens are secure against replay;
+1. that biological substrate firewalls are implemented;
+1. that the Control Harness Router is deployed;
+1. that the Control Plane is operational;
+1. that the matrix is empirically validated;
+1. that the architecture is formally verified.
 
----
+______________________________________________________________________
 
-# 126. Anti-Regression Rules
+## 126. Anti-Regression Rules
 
 Any future revision must preserve or improve:
 
@@ -4001,9 +4001,9 @@ RUNTIME / MODEL SEPARATION
 
 An optimization that weakens these should be rejected or rolled back.
 
----
+______________________________________________________________________
 
-# 127. Invalidation Conditions
+## 127. Invalidation Conditions
 
 Revalidate this artifact when:
 
@@ -4031,9 +4031,9 @@ AMOS CORE LINEAGE CHANGES
 SUPERSESSION OCCURS
 ```
 
----
+______________________________________________________________________
 
-# 128. Local Invalidation
+## 128. Local Invalidation
 
 If only the `678+` agent count is disproven or superseded:
 
@@ -4054,9 +4054,9 @@ if its source support remains intact.
 
 Likewise, failure of a token implementation does not automatically invalidate the conceptual distinction between capability and authority.
 
----
+______________________________________________________________________
 
-# 129. Local Repair
+## 129. Local Repair
 
 Example:
 
@@ -4078,9 +4078,9 @@ REPLACE / REVALIDATE ENFORCEMENT MECHANISM
 
 rather than recomputing the entire Cognitive Matrix.
 
----
+______________________________________________________________________
 
-# 130. Canon Candidate Boundary
+## 130. Canon Candidate Boundary
 
 Current canonical status:
 
@@ -4098,9 +4098,9 @@ $$
 
 Promotion requires applicable AMOS governance authority.
 
----
+______________________________________________________________________
 
-# 131. Runtime Promotion Gate
+## 131. Runtime Promotion Gate
 
 Before changing:
 
@@ -4135,9 +4135,9 @@ NEGATIVE TESTS
 PROVENANCE
 ```
 
----
+______________________________________________________________________
 
-# 132. Cryptographic Promotion Gate
+## 132. Cryptographic Promotion Gate
 
 Before promoting:
 
@@ -4173,9 +4173,9 @@ TESTS
 THREAT MODEL
 ```
 
----
+______________________________________________________________________
 
-# 133. Agent Deployment Promotion Gate
+## 133. Agent Deployment Promotion Gate
 
 Before interpreting:
 
@@ -4201,9 +4201,9 @@ TIMESTAMP
 DEPLOYMENT ENVIRONMENT
 ```
 
----
+______________________________________________________________________
 
-# 134. Biological Firewall Promotion Gate
+## 134. Biological Firewall Promotion Gate
 
 Before treating biological substrate firewalls as validated operational controls, establish:
 
@@ -4225,9 +4225,9 @@ EMPIRICAL EVIDENCE
 IMPLEMENTATION
 ```
 
----
+______________________________________________________________________
 
-# 135. Formal Verification Boundary
+## 135. Formal Verification Boundary
 
 No formal proof is supplied.
 
@@ -4240,9 +4240,9 @@ NOT_ESTABLISHED
 
 Testing, documentation, and architecture diagrams are not substitutes for formal proof.
 
----
+______________________________________________________________________
 
-# 136. Inter-Plane & Vault Connections
+## 136. Inter-Plane & Vault Connections
 
 **Matrix Table:**
 
@@ -4268,9 +4268,9 @@ Testing, documentation, and architecture diagrams are not substitutes for formal
 [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]
 ```
 
----
+______________________________________________________________________
 
-# 137. Cross-Plane Dependency Graph
+## 137. Cross-Plane Dependency Graph
 
 ```text
                          ┌──────────────────┐
@@ -4301,9 +4301,9 @@ Testing, documentation, and architecture diagrams are not substitutes for formal
                     └────────────────────────┘
 ```
 
----
+______________________________________________________________________
 
-# 138. Matrix Pair Architecture
+## 138. Matrix Pair Architecture
 
 ```text
 CORE_X_CONTROL_PLANE.md
@@ -4330,9 +4330,9 @@ CORE_X_CONTROL_PLANE.md
 └───────────────────────────────┘
 ```
 
----
+______________________________________________________________________
 
-# 139. Master Governance Invariants
+## 139. Master Governance Invariants
 
 ## CP-I1 — Capability Is Not Authority
 
@@ -4390,9 +4390,9 @@ SourceModel
 RuntimeVerification
 $$
 
----
+______________________________________________________________________
 
-# 140. Master Epistemic Invariants
+## 140. Master Epistemic Invariants
 
 ```text
 SOURCE CLAIM
@@ -4420,9 +4420,9 @@ ARCHITECTURAL FIREWALL
 EMPIRICALLY VALIDATED FIREWALL
 ```
 
----
+______________________________________________________________________
 
-# 141. Master Control Invariants
+## 141. Master Control Invariants
 
 ```text
 NO UNVERIFIED STATE COMMIT
@@ -4444,9 +4444,9 @@ NO SILENT REGIME EXPANSION
 NO SILENT EPISTEMIC UPGRADE
 ```
 
----
+______________________________________________________________________
 
-# 142. Master Dispatch Law
+## 142. Master Dispatch Law
 
 The source architecture can be conservatively normalized as:
 
@@ -4472,9 +4472,9 @@ Dispatch
 }
 $$
 
----
+______________________________________________________________________
 
-# 143. Master Authority Law
+## 143. Master Authority Law
 
 $$
 \boxed{
@@ -4494,9 +4494,9 @@ This expression is a derived AMOS-compatible normalization.
 
 The source directly establishes the capability/authority distinction and authority-envelope concept.
 
----
+______________________________________________________________________
 
-# 144. Master Cross-Plane Law
+## 144. Master Cross-Plane Law
 
 $$
 \boxed{
@@ -4518,9 +4518,9 @@ UnrestrictedExecution
 }
 $$
 
----
+______________________________________________________________________
 
-# 145. Master Finalization Law
+## 145. Master Finalization Law
 
 For consequential control-plane action:
 
@@ -4548,9 +4548,9 @@ FINALIZATION ELIGIBLE
 
 This is a derived governed-finalization model.
 
----
+______________________________________________________________________
 
-# 146. Source-to-Derived Boundary
+## 146. Source-to-Derived Boundary
 
 ## Directly source-defined
 
@@ -4631,9 +4631,9 @@ EMPIRICAL VALIDATION
 FORMAL VERIFICATION
 ```
 
----
+______________________________________________________________________
 
-# 147. Ingestion Rule
+## 147. Ingestion Rule
 
 ```yaml
 CORE_X_CONTROL_PLANE_INGESTION:
@@ -4681,48 +4681,48 @@ CORE_X_CONTROL_PLANE_INGESTION:
       - NEVER_INVENT
 ```
 
----
+______________________________________________________________________
 
-# 148. Canon Promotion Checklist
+## 148. Canon Promotion Checklist
 
-* [ ] artifact identity preserved
-* [ ] artifact version preserved
-* [ ] origin architect preserved
-* [ ] provenance preserved
-* [ ] matrix counterpart resolved
-* [ ] Canon MOC dependency resolved
-* [ ] Control Plane MOC dependency resolved
-* [ ] L0–L3 semantics compatible
-* [ ] capability/authority invariant preserved
-* [ ] biological firewall terminology preserved
-* [ ] signed-token terminology preserved
-* [ ] 678+ claim preserved as source claim
-* [ ] derived expansions clearly marked
-* [ ] runtime claims not overstated
-* [ ] conflicts preserved
-* [ ] gaps preserved
-* [ ] supersession authority established
+- [ ] artifact identity preserved
+- [ ] artifact version preserved
+- [ ] origin architect preserved
+- [ ] provenance preserved
+- [ ] matrix counterpart resolved
+- [ ] Canon MOC dependency resolved
+- [ ] Control Plane MOC dependency resolved
+- [ ] L0–L3 semantics compatible
+- [ ] capability/authority invariant preserved
+- [ ] biological firewall terminology preserved
+- [ ] signed-token terminology preserved
+- [ ] 678+ claim preserved as source claim
+- [ ] derived expansions clearly marked
+- [ ] runtime claims not overstated
+- [ ] conflicts preserved
+- [ ] gaps preserved
+- [ ] supersession authority established
 
----
+______________________________________________________________________
 
-# 149. Runtime Validation Checklist
+## 149. Runtime Validation Checklist
 
-* [ ] executable Control Harness Router exists
-* [ ] harness registry exists
-* [ ] authoritative agent registry exists
-* [ ] authority envelope runtime exists
-* [ ] token verifier exists
-* [ ] token issuer model established
-* [ ] scope enforcement tested
-* [ ] stale authority rejection tested
-* [ ] unauthorized dispatch rejection tested
-* [ ] direct unauthorized mutation rejection tested
-* [ ] Core invariant enforcement tested
-* [ ] provenance persistence tested
-* [ ] failure recovery tested
-* [ ] rerouting cannot bypass governance
-* [ ] commit-time authority tested
-* [ ] state freshness tested
+- [ ] executable Control Harness Router exists
+- [ ] harness registry exists
+- [ ] authoritative agent registry exists
+- [ ] authority envelope runtime exists
+- [ ] token verifier exists
+- [ ] token issuer model established
+- [ ] scope enforcement tested
+- [ ] stale authority rejection tested
+- [ ] unauthorized dispatch rejection tested
+- [ ] direct unauthorized mutation rejection tested
+- [ ] Core invariant enforcement tested
+- [ ] provenance persistence tested
+- [ ] failure recovery tested
+- [ ] rerouting cannot bypass governance
+- [ ] commit-time authority tested
+- [ ] state freshness tested
 
 Until then:
 
@@ -4731,9 +4731,9 @@ implementation_status:
 CONCEPTUAL_SOURCE_DEFINED
 ```
 
----
+______________________________________________________________________
 
-# 150. Final RSCF Contract
+## 150. Final RSCF Contract
 
 ```yaml
 RSCF:
@@ -4830,9 +4830,9 @@ RSCF:
       UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 151. Final Proof Capsule
+## 151. Final Proof Capsule
 
 ```yaml
 PROOF_CAPSULE:
@@ -4888,9 +4888,9 @@ PROOF_CAPSULE:
       UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 152. Final Canonical Candidate Statement
+## 152. Final Canonical Candidate Statement
 
 The **Core × Control Plane Cognitive Matrix** defines the AMOS source-model boundary between:
 
@@ -5023,7 +5023,7 @@ UNKNOWN/GAP.
 
 ---
 
-**Related:**  ·  ·  · `03_CONTROL_PLANE/03_CONTROL_PLANE_MOC` · `01_CANON/01_CANON_MOC` ·  ·  ·  ·  ·  ·  ·  ·
+**Related:**  `03_CONTROL_PLANE/03_CONTROL_PLANE_MOC` · `01_CANON/01_CANON_MOC`
 
 ---
 
@@ -5084,7 +5084,3 @@ RSCF-RELATIONS:
 ---
 
 **END OF `CORE_X_CONTROL_PLANE.md`**
-
-
-```
-```

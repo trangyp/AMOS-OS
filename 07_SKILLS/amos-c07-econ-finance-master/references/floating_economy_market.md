@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: floating economy market
 type: reference
 source: 07_SKILLS/amos-c07-econ-finance-master/references
 tags:
-- reference
-- amos-c07-econ-finance-master
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-c07-econ-finance-master
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -20,9 +23,9 @@ rscf:
 > Source: `_00_Cosmo brain/economy/How_The_Floating_Economy_Uses_the_Market.md`
 > Epistemic class: SOURCE_DERIVED
 
----
-tags: [canon-group/planetary, canon/narrative, rscf/claim, rscf/state/observation, topic/how-the-floating-economy-uses-the-market, economy]
----
+______________________________________________________________________
+
+## tags: [canon-group/planetary, canon/narrative, rscf/claim, rscf/state/observation, topic/how-the-floating-economy-uses-the-market, economy]
 
 🔹 How The Floating Economy
 Uses the Market
@@ -179,13 +182,15 @@ Security → breach frequency, latency, resilience.
 
 Planetary → atmospheric, seismic, ecological signal st
 
----
+______________________________________________________________________
+
 **MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -193,12 +198,14 @@ Planetary → atmospheric, seismic, ecological signal st
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-c07-econ-finance-master-floating-economy-market
 node_type: reference
 path: 07_SKILLS/amos-c07-econ-finance-master/references/floating_economy_market.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

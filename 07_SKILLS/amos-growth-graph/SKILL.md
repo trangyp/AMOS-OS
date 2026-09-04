@@ -4,25 +4,22 @@ title: SKILL — Amos Growth Graph
 type: skill
 source: 07_SKILLS/amos-growth-graph
 name: amos-growth-graph
-description: Growth Graph — society and culture capability. Use when social analysis,
-  cultural reasoning, or anthropological study. Use when amos-c06-society-culture-master
-  routes to this specialized capability. Do not use for generic tasks outside c06
-  domain.
+description: Growth Graph — society and culture capability. Use when social analysis, cultural reasoning, or anthropological study. Use when amos-c06-society-culture-master routes to this specialized capability. Do not use for generic tasks outside c06 domain.
 parent_skill: amos-c06-society-culture-master
 domain: c06
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
 tags:
-- type/skill
-- type/skill
-- domain/society-culture
-- epistemic/source_claim
-- hml/m
-- epistemic/source_claim
-- amos-os
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/society-culture
+  - epistemic/source_claim
+  - hml/m
+  - epistemic/source_claim
+  - amos-os
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -32,23 +29,23 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: M
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
-- L7_authority
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
+  - L7_authority
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L7
-- L16
-- L17
-- L18
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L7
+  - L16
+  - L17
+  - L18
 license: MIT
 steward: Trang Phan
 ---
@@ -58,6 +55,7 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: c06. Parent: amos-c06-society-culture-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
 ## When to Use
 
 - When modeling cognitive substrate memory graphs: field-level lineage, consolidation
@@ -82,12 +80,12 @@ Origin architect: **Trang Phan**. Domain: c06. Parent: amos-c06-society-culture-
 ## Operations
 
 1. **growth_graph.analyze_social**: Analyze emergent social intelligence: norms, networks, and cultural dynamics
-2. **growth_graph.model_memory_graph**: Model cognitive substrate memory graphs: field-level lineage and consolidation
-3. **growth_graph.manage_forgetting**: Manage dependency-safe forgetting and reconsolidation governance
-4. **growth_graph.track_growth**: Track growth patterns across knowledge and social networks
-5. **growth_graph.detect_drift**: Detect drift in memory graphs, lineage chains, or growth patterns
-6. **growth_graph.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-7. **growth_graph.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+1. **growth_graph.model_memory_graph**: Model cognitive substrate memory graphs: field-level lineage and consolidation
+1. **growth_graph.manage_forgetting**: Manage dependency-safe forgetting and reconsolidation governance
+1. **growth_graph.track_growth**: Track growth patterns across knowledge and social networks
+1. **growth_graph.detect_drift**: Detect drift in memory graphs, lineage chains, or growth patterns
+1. **growth_graph.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+1. **growth_graph.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## Vault-Sourced Domain Knowledge
 
@@ -107,6 +105,7 @@ Origin architect: **Trang Phan**. Domain: c06. Parent: amos-c06-society-culture-
 ### Field-Level Lineage
 
 Partial-memory validity is tracked at the field level, not just the record level. Each field has its own lineage chain, enabling:
+
 - Partial validity: some fields can be valid while others are stale
 - Targeted reconsolidation: only invalid fields need refreshing
 - Contradiction retention: conflicting values preserved with provenance
@@ -114,22 +113,22 @@ Partial-memory validity is tracked at the field level, not just the record level
 ### Epistemic-Class Preservation Rules (8)
 
 1. Class preservation: memory class must be preserved through operations
-2. Modality: modal claims (possible, necessary) preserved
-3. Negation: negative facts preserved as explicitly negated
-4. Quantifier: universal vs existential quantifiers preserved
-5. Correlation ≠ cause: correlations never promoted to causation
-6. Future ≠ present: future predictions never stored as present facts
-7. Perspective: observer perspective preserved
-8. Provenance: source chain preserved for every field
+1. Modality: modal claims (possible, necessary) preserved
+1. Negation: negative facts preserved as explicitly negated
+1. Quantifier: universal vs existential quantifiers preserved
+1. Correlation ≠ cause: correlations never promoted to causation
+1. Future ≠ present: future predictions never stored as present facts
+1. Perspective: observer perspective preserved
+1. Provenance: source chain preserved for every field
 
 ### Retrieval Failure Attribution (6 types)
 
 1. Missing index — no retrieval path exists
-2. Stale entry — entry exists but is outdated
-3. Scope violation — entry exists but outside query scope
-4. Contradiction — multiple conflicting entries
-5. Provenance gap — entry exists but provenance is broken
-6. Epistemic class mismatch — entry class doesn't match query class
+1. Stale entry — entry exists but is outdated
+1. Scope violation — entry exists but outside query scope
+1. Contradiction — multiple conflicting entries
+1. Provenance gap — entry exists but provenance is broken
+1. Epistemic class mismatch — entry class doesn't match query class
 
 ### 4-Slice Cognitive Architecture
 
@@ -150,7 +149,8 @@ Memory graph formalization is AMOS_MODEL. The cognitive substrate is a structura
 - **Validation failure**: If validation gates fail, downgrade confidence, flag the gap, and escalate — do not force-fit.
 - **Epistemic overreach**: If a claim exceeds the established evide
 
----
+______________________________________________________________________
+
 **Links:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 ## Related
@@ -160,17 +160,19 @@ Memory graph formalization is AMOS_MODEL. The cognitive substrate is a structura
 ## Examples
 
 - **Scenario**: When modeling cognitive substrate memory graphs: field-level lineage, consolidation
+
   - **Input**: A query matching this skill's domain (c06)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When analyzing memory operation graphs: vertices, edges, operations, queries
+
   - **Input**: A query matching this skill's domain (c06)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When managing dependency-safe forgetting and reconsolidation
+
   - **Input**: A query matching this skill's domain (c06)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Validation Gates
 
@@ -187,7 +189,6 @@ Memory graph formalization is AMOS_MODEL. The cognitive substrate is a structura
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `amos-c06-society-culture-master` — routes to this skill when c06 specialization is needed
@@ -195,7 +196,6 @@ Memory graph formalization is AMOS_MODEL. The cognitive substrate is a structura
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -214,7 +214,6 @@ Memory graph formalization is AMOS_MODEL. The cognitive substrate is a structura
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -222,7 +221,6 @@ Memory graph formalization is AMOS_MODEL. The cognitive substrate is a structura
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -235,11 +233,12 @@ Memory graph formalization is AMOS_MODEL. The cognitive substrate is a structura
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `amos-c06-society-culture-master` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `amos-growth-graph-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -247,12 +246,14 @@ Memory graph formalization is AMOS_MODEL. The cognitive substrate is a structura
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-growth-graph
 node_type: skill
 path: 07_SKILLS/amos-growth-graph/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

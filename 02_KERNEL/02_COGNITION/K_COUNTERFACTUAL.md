@@ -17,60 +17,71 @@ scope: AMOS_OS
 created: 2026-08-25
 updated: 2026-08-25
 tags:
-- amos-os
-- kernel
-- core
-- canon-group/tech-ai
-- canon/model
-- kernel/reasoning
-- kernel/counterfactual
-- kernel/causal
-- kernel/epistemic
-- kernel/provenance
-- kernel/dependency
-- kernel/scope
-- kernel/regime
-- kernel/sensitivity
-- kernel/uncertainty
-- kernel/simulation
-- kernel/validation
-- kernel/rscf
-- rscf/claim
-- rscf/provenance
-- rscf/state/model
-- topic/counterfactual-reasoning
-- readme
-- architecture
-- amos-core-laws
-- law-hierarchy
-- canon-provenance
-- source-lineage
-- supersession-log
-- k-core19-logic
-- k-distinction-relation-constraint
-- k-law-hierarchy
-- k-meta-logic
-- authoritative-state
+  - amos-os
+  - kernel
+  - core
+  - canon-group/tech-ai
+  - canon/model
+  - kernel/reasoning
+  - kernel/counterfactual
+  - kernel/causal
+  - kernel/epistemic
+  - kernel/provenance
+  - kernel/dependency
+  - kernel/scope
+  - kernel/regime
+  - kernel/sensitivity
+  - kernel/uncertainty
+  - kernel/simulation
+  - kernel/validation
+  - kernel/rscf
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/model
+  - topic/counterfactual-reasoning
+  - readme
+  - architecture
+  - amos-core-laws
+  - law-hierarchy
+  - canon-provenance
+  - source-lineage
+  - supersession-log
+  - k-core19-logic
+  - k-distinction-relation-constraint
+  - k-law-hierarchy
+  - k-meta-logic
+  - authoritative-state
 aliases:
-- AMOS Counterfactual Kernel - Counterfactual Kernel - K Counterfactual - K_COUNTERFACTUAL
+  - AMOS Counterfactual Kernel - Counterfactual Kernel - K Counterfactual - K_COUNTERFACTUAL
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 # K_COUNTERFACTUAL
+
 > **AMOS Core target:** `v4.4`
 > **Origin architect / steward:** Trang Phan
 > **Plane:** `02_KERNEL`
 > **Status:** `AMOS_MODEL`
 > **Conclusion class:** `AMOS_MODEL`
+
 ## Purpose
+
 `K_COUNTERFACTUAL` defines the AMOS kernel contract for reasoning about alternatives to an observed, assumed, modeled, or proposed state.
 Its central question is:
+
 ```text
 GIVEN ACTUAL / BASELINE STATE X
 WHAT WOULD FOLLOW
 IF
 A MATERIAL CONDITION WERE DIFFERENT?
 ```
+
 Counterfactual reasoning is used for:
+
 - causal discrimination
 - competing-hypothesis testing
 - sensitivity analysis
@@ -81,16 +92,16 @@ Counterfactual reasoning is used for:
 - falsifier construction
 - robustness testing
 - scenario discrimination
-It must never convert an imagined alternative into evidence that the alternative actually occurred.
-rscf:
+  It must never convert an imagined alternative into evidence that the alternative actually occurred.
+  rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
----
 
+______________________________________________________________________
 
-# 1. Architectural Position
+## 1. Architectural Position
 
 ```text
 CANON
@@ -110,9 +121,9 @@ VALIDATION / DECISION / RECOVERY
 
 It does not create those facts merely by constructing a scenario.
 
----
+______________________________________________________________________
 
-# 2. Core Counterfactual Form
+## 2. Core Counterfactual Form
 
 Let:
 
@@ -149,9 +160,9 @@ MODEL
 
 not observation.
 
----
+______________________________________________________________________
 
-# 3. Fundamental Firewall
+## 3. Fundamental Firewall
 
 ```text
 ACTUAL != COUNTERFACTUAL
@@ -177,9 +188,9 @@ requires stronger support than:
 
 and neither follows automatically from the other.
 
----
+______________________________________________________________________
 
-# 4. Counterfactual Object
+## 4. Counterfactual Object
 
 A counterfactual should conceptually carry:
 
@@ -223,9 +234,9 @@ counterfactual:
   confidence_ceiling:
 ```
 
----
+______________________________________________________________________
 
-# 5. Baseline Requirement
+## 5. Baseline Requirement
 
 Counterfactual analysis requires a baseline.
 
@@ -253,9 +264,9 @@ UNKNOWN/GAP
 
 or explicitly conditional.
 
----
+______________________________________________________________________
 
-# 6. Baseline Provenance
+## 6. Baseline Provenance
 
 The baseline must distinguish:
 
@@ -269,9 +280,9 @@ ASSUMED BASELINE
 
 A modeled baseline cannot silently become an observed baseline.
 
----
+______________________________________________________________________
 
-# 7. Intervention Identity
+## 7. Intervention Identity
 
 Every counterfactual must identify what changed.
 
@@ -286,9 +297,9 @@ X = x'
 
 If the intervention cannot be specified clearly, causal interpretation is unsafe.
 
----
+______________________________________________________________________
 
-# 8. Minimal Intervention Principle
+## 8. Minimal Intervention Principle
 
 Prefer the smallest intervention sufficient to answer the question.
 
@@ -302,9 +313,9 @@ PROPAGATE NECESSARY CONSEQUENCES
 
 Do not silently redesign the entire system.
 
----
+______________________________________________________________________
 
-# 9. Ceteris Paribus Firewall
+## 9. Ceteris Paribus Firewall
 
 The phrase:
 
@@ -330,9 +341,9 @@ CHANGE(R)
 
 Therefore variables may only be held constant when doing so is structurally admissible.
 
----
+______________________________________________________________________
 
-# 10. Dependency Propagation
+## 10. Dependency Propagation
 
 If:
 
@@ -350,9 +361,9 @@ Y
 
 A counterfactual cannot alter an upstream variable while arbitrarily freezing downstream dependencies.
 
----
+______________________________________________________________________
 
-# 11. Structural Consistency
+## 11. Structural Consistency
 
 Counterfactual state `W1` must satisfy applicable invariants.
 
@@ -364,9 +375,9 @@ CONSTRAINTS(W1) = SATISFIED
 
 An internally impossible counterfactual is not a valid comparison state unless the explicit purpose is impossibility analysis.
 
----
+______________________________________________________________________
 
-# 12. Distinction Preservation
+## 12. Distinction Preservation
 
 Counterfactual reasoning must preserve:
 
@@ -382,9 +393,9 @@ REGIME
 
 Changing one variable does not authorize semantic mutation of unrelated entities.
 
----
+______________________________________________________________________
 
-# 13. Causal Firewall
+## 13. Causal Firewall
 
 Counterfactual reasoning is especially sensitive to causal overreach.
 
@@ -406,9 +417,9 @@ CAUSAL EFFECT
 
 Only appropriately supported causal structure licenses strong causal counterfactual conclusions.
 
----
+______________________________________________________________________
 
-# 14. Correlation Is Insufficient
+## 14. Correlation Is Insufficient
 
 Given:
 
@@ -436,9 +447,9 @@ FEEDBACK
 COINCIDENCE
 ```
 
----
+______________________________________________________________________
 
-# 15. Temporal Sequence Is Insufficient
+## 15. Temporal Sequence Is Insufficient
 
 ```text
 X BEFORE Y
@@ -452,9 +463,9 @@ Y(X') != Y(X)
 
 Temporal precedence may constrain causal possibilities, but does not independently establish counterfactual effect.
 
----
+______________________________________________________________________
 
-# 16. Structural Similarity Is Insufficient
+## 16. Structural Similarity Is Insufficient
 
 ```text
 SYSTEM_A ≈ SYSTEM_B
@@ -470,9 +481,9 @@ INTERVENTION_EFFECT_B
 
 Cross-system transfer remains `MODEL` unless validated.
 
----
+______________________________________________________________________
 
-# 17. Necessary Condition Counterfactual
+## 17. Necessary Condition Counterfactual
 
 If evidence establishes:
 
@@ -492,9 +503,9 @@ may be licensed within the validated applicability envelope.
 
 But the necessary-condition claim itself must be established.
 
----
+______________________________________________________________________
 
-# 18. Sufficient Condition Counterfactual
+## 18. Sufficient Condition Counterfactual
 
 If evidence establishes:
 
@@ -514,9 +525,9 @@ may support an intervention prediction.
 
 This does not imply that `X` is necessary.
 
----
+______________________________________________________________________
 
-# 19. Enabling Conditions
+## 19. Enabling Conditions
 
 An enabling condition may permit an outcome without determining it.
 
@@ -536,9 +547,9 @@ ADD ENABLEMENT
 
 may still not guarantee it.
 
----
+______________________________________________________________________
 
-# 20. Confounding
+## 20. Confounding
 
 Suppose:
 
@@ -557,9 +568,9 @@ may disappear under intervention.
 
 Counterfactual analysis must therefore test plausible confounders before treating observed association as intervention effect.
 
----
+______________________________________________________________________
 
-# 21. Mediation
+## 21. Mediation
 
 For:
 
@@ -577,9 +588,9 @@ MEDIATED EFFECT
 
 when the distinction is decision-relevant.
 
----
+______________________________________________________________________
 
-# 22. Feedback
+## 22. Feedback
 
 For:
 
@@ -592,9 +603,9 @@ simple one-direction counterfactual propagation may be invalid.
 
 Feedback systems may require iterative or dynamic modeling.
 
----
+______________________________________________________________________
 
-# 23. Counterfactual Time
+## 23. Counterfactual Time
 
 Counterfactuals must specify temporal placement.
 
@@ -610,9 +621,9 @@ INTERVENE AT t_j
 
 because the dependency state may have changed between them.
 
----
+______________________________________________________________________
 
-# 24. Path Dependence
+## 24. Path Dependence
 
 Where state evolution depends on history:
 
@@ -639,9 +650,9 @@ do not necessarily imply:
 SAME FINAL STATE
 ```
 
----
+______________________________________________________________________
 
-# 25. Regime Dependence
+## 25. Regime Dependence
 
 A counterfactual valid in:
 
@@ -666,9 +677,9 @@ REGIME_B
 
 then regime-specific rules must be reevaluated.
 
----
+______________________________________________________________________
 
-# 26. Scope Inheritance
+## 26. Scope Inheritance
 
 Counterfactual conclusions inherit the scope of their load-bearing premises.
 
@@ -686,9 +697,9 @@ INTERSECTION(
 
 unless independently validated beyond that envelope.
 
----
+______________________________________________________________________
 
-# 27. Freshness
+## 27. Freshness
 
 A counterfactual built from stale baseline information may no longer represent the current system.
 
@@ -702,9 +713,9 @@ requires current-enough load-bearing premises for the relevant domain.
 
 Freshness requirements are claim-specific.
 
----
+______________________________________________________________________
 
-# 28. Provenance
+## 28. Provenance
 
 Counterfactual reasoning must retain provenance for:
 
@@ -719,9 +730,9 @@ CALIBRATION DATA
 
 Otherwise later revalidation cannot determine which counterfactual conclusions remain reusable.
 
----
+______________________________________________________________________
 
-# 29. Provenance Independence
+## 29. Provenance Independence
 
 Multiple sources supporting the same causal edge are not independent merely because they are separate documents.
 
@@ -743,9 +754,9 @@ DOCUMENT COUNT
 INDEPENDENT CAUSAL SUPPORT
 ```
 
----
+______________________________________________________________________
 
-# 30. Counterfactual Proof Capsule
+## 30. Counterfactual Proof Capsule
 
 Important counterfactual conclusions should conceptually carry:
 
@@ -783,9 +794,9 @@ counterfactual_proof_capsule:
   conclusion_class:
 ```
 
----
+______________________________________________________________________
 
-# 31. Confidence Ceiling
+## 31. Confidence Ceiling
 
 A counterfactual conclusion cannot be more certain than its weakest load-bearing causal or baseline premise without independent revalidation.
 
@@ -802,9 +813,9 @@ MIN(
 )
 ```
 
----
+______________________________________________________________________
 
-# 32. Counterfactual Classes
+## 32. Counterfactual Classes
 
 Counterfactual outputs should normally resolve to one of:
 
@@ -820,9 +831,9 @@ UNKNOWN/GAP
 
 A purely hypothetical scenario should not be labeled `VERIFIED`.
 
----
+______________________________________________________________________
 
-# 33. Competing Counterfactuals
+## 33. Competing Counterfactuals
 
 Where causal structure is unresolved:
 
@@ -855,9 +866,9 @@ CF_H3
 
 rather than average them into artificial certainty.
 
----
+______________________________________________________________________
 
-# 34. No Forced Counterfactual Convergence
+## 34. No Forced Counterfactual Convergence
 
 If multiple causal models remain viable:
 
@@ -871,9 +882,9 @@ may be the correct state.
 
 Do not select the most narratively convenient alternative.
 
----
+______________________________________________________________________
 
-# 35. Discriminating Counterfactual Test
+## 35. Discriminating Counterfactual Test
 
 Prefer the cheapest test capable of distinguishing competing causal models.
 
@@ -890,9 +901,9 @@ COST
 
 This is an architectural optimization principle, not a claim of literal runtime calculation.
 
----
+______________________________________________________________________
 
-# 36. Falsifiers
+## 36. Falsifiers
 
 Every consequential counterfactual should identify evidence that would weaken or invalidate it.
 
@@ -906,9 +917,9 @@ falsifiers:
   - causal edge fails outside calibration sample
 ```
 
----
+______________________________________________________________________
 
-# 37. Sensitivity Analysis
+## 37. Sensitivity Analysis
 
 Counterfactual reasoning should identify the smallest assumption capable of changing the result.
 
@@ -921,9 +932,9 @@ MINIMUM PLAUSIBLE CHANGE
 THAT FLIPS COUNTERFACTUAL CONCLUSION
 ```
 
----
+______________________________________________________________________
 
-# 38. Fragile Counterfactuals
+## 38. Fragile Counterfactuals
 
 If:
 
@@ -945,9 +956,9 @@ and should normally be classified:
 CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
-# 39. Robust Counterfactuals
+## 39. Robust Counterfactuals
 
 A counterfactual is comparatively robust when:
 
@@ -961,9 +972,9 @@ survives plausible variation in noncritical assumptions.
 ROBUST != CERTAIN
 ```
 
----
+______________________________________________________________________
 
-# 40. Intervention Feasibility
+## 40. Intervention Feasibility
 
 Counterfactual possibility and executable intervention are different.
 
@@ -979,9 +990,9 @@ AUTHORIZED
 
 The kernel must preserve these distinctions.
 
----
+______________________________________________________________________
 
-# 41. Impossible Counterfactuals
+## 41. Impossible Counterfactuals
 
 A proposed intervention may violate:
 
@@ -1001,9 +1012,9 @@ COUNTERFACTUAL_STATE = INADMISSIBLE
 
 unless intentionally used as a boundary probe.
 
----
+______________________________________________________________________
 
-# 42. Boundary-Probe Counterfactuals
+## 42. Boundary-Probe Counterfactuals
 
 Impossible or extreme counterfactuals may still be useful for testing conceptual boundaries.
 
@@ -1015,9 +1026,9 @@ BOUNDARY_MODEL
 
 not realistic prediction.
 
----
+______________________________________________________________________
 
-# 43. Decision Counterfactuals
+## 43. Decision Counterfactuals
 
 For candidate actions:
 
@@ -1047,9 +1058,9 @@ AUTHORIZED ACTION
 
 Authority remains outside the counterfactual kernel.
 
----
+______________________________________________________________________
 
-# 44. Action Reversibility
+## 44. Action Reversibility
 
 Under uncertainty, counterfactual comparison should consider reversibility.
 
@@ -1067,9 +1078,9 @@ may justify staged preference for `A` even when modeled expected outcomes are si
 
 This is a governance-sensitive decision model, not a universal law.
 
----
+______________________________________________________________________
 
-# 45. Failure Counterfactual
+## 45. Failure Counterfactual
 
 For an observed failure `F`:
 
@@ -1089,9 +1100,9 @@ RISK REDUCTION
 CORRELATED CONDITION
 ```
 
----
+______________________________________________________________________
 
-# 46. Root-Cause Firewall
+## 46. Root-Cause Firewall
 
 A factor whose removal would have prevented an event is not automatically the unique root cause.
 
@@ -1106,9 +1117,9 @@ B → F
 
 Removing `A` may prevent one pathway while `B` remains independently sufficient.
 
----
+______________________________________________________________________
 
-# 47. Recovery Counterfactual
+## 47. Recovery Counterfactual
 
 Recovery reasoning may ask:
 
@@ -1120,9 +1131,9 @@ WHAT DESCENDANTS BECOME RECOVERABLE?
 
 This integrates counterfactual reasoning with selective invalidation.
 
----
+______________________________________________________________________
 
-# 48. Selective Recalculation
+## 48. Selective Recalculation
 
 If intervention affects only dependency subgraph `G_i`:
 
@@ -1138,9 +1149,9 @@ RECOMPUTE(ENTIRE_SYSTEM)
 
 provided dependency closure is established.
 
----
+______________________________________________________________________
 
-# 49. v4.4 Local Counterfactual Fast Path
+## 49. v4.4 Local Counterfactual Fast Path
 
 Local counterfactual evaluation is admissible when:
 
@@ -1168,9 +1179,9 @@ REASON LOCALLY
 
 without global expansion.
 
----
+______________________________________________________________________
 
-# 50. Escalation Conditions
+## 50. Escalation Conditions
 
 Escalate counterfactual reasoning when:
 
@@ -1187,9 +1198,9 @@ IRREVERSIBILITY IS HIGH
 COMPETING MODELS DISAGREE
 ```
 
----
+______________________________________________________________________
 
-# 51. Counterfactual Branching
+## 51. Counterfactual Branching
 
 Branch only when alternative models can materially change the result.
 
@@ -1202,9 +1213,9 @@ BASELINE
 
 Equivalent branches should be merged.
 
----
+______________________________________________________________________
 
-# 52. Branch Explosion Firewall
+## 52. Branch Explosion Firewall
 
 Do not enumerate every imaginable world.
 
@@ -1219,9 +1230,9 @@ DISCRIMINATING
 
 alternatives.
 
----
+______________________________________________________________________
 
-# 53. H/M/L Counterfactual Retrieval
+## 53. H/M/L Counterfactual Retrieval
 
 Counterfactual analysis follows smallest-sufficient retrieval:
 
@@ -1241,9 +1252,9 @@ only if required
 
 Do not fabricate missing lower-level causal detail.
 
----
+______________________________________________________________________
 
-# 54. RSCF Integration
+## 54. RSCF Integration
 
 A counterfactual may operate over recursive RSCF structures.
 
@@ -1259,9 +1270,9 @@ RSCF_A
 
 Intervening on `RSCF_D` requires tracing only materially dependent descendants.
 
----
+______________________________________________________________________
 
-# 55. Multi-RSCF Counterfactual
+## 55. Multi-RSCF Counterfactual
 
 Some interventions are atomic across multiple RSCFs.
 
@@ -1283,9 +1294,9 @@ OR
 NONE
 ```
 
----
+______________________________________________________________________
 
-# 56. Counterfactual and MVCC/CAS Concepts
+## 56. Counterfactual and MVCC/CAS Concepts
 
 Where AMOS reasoning models concurrent state evolution, a counterfactual must bind to an explicit baseline state or epoch.
 
@@ -1307,9 +1318,9 @@ the counterfactual may require revalidation.
 
 This is an architectural reasoning analogy and does not assert that every AMOS runtime literally implements MVCC/CAS.
 
----
+______________________________________________________________________
 
-# 57. Epoch Boundary
+## 57. Epoch Boundary
 
 Counterfactuals spanning causal epochs must not silently assume unchanged system semantics.
 
@@ -1325,9 +1336,9 @@ A hypothetical alteration in `EPOCH_1` may imply a different `EPOCH_2`.
 
 That requires explicit propagation.
 
----
+______________________________________________________________________
 
-# 58. Finalized State Firewall
+## 58. Finalized State Firewall
 
 A counterfactual about finalized history does not rewrite authoritative history.
 
@@ -1339,9 +1350,9 @@ MUTATION(HISTORY)
 
 It creates an analytical branch only.
 
----
+______________________________________________________________________
 
-# 59. Simulation Firewall
+## 59. Simulation Firewall
 
 A simulation may implement counterfactual propagation.
 
@@ -1364,9 +1375,9 @@ SCOPE
 REGIME
 ```
 
----
+______________________________________________________________________
 
-# 60. Twin-World Interpretation
+## 60. Twin-World Interpretation
 
 Conceptually:
 
@@ -1390,9 +1401,9 @@ where downstream dependencies diverge.
 
 This is a reasoning model, not an empirical claim that alternate worlds physically exist.
 
----
+______________________________________________________________________
 
-# 61. Counterfactual Distance
+## 61. Counterfactual Distance
 
 Prefer minimal changes when identifying explanatory counterfactuals.
 
@@ -1412,9 +1423,9 @@ CONSTRAINTS_SATISFIED
 
 This reduces arbitrary scenario mutation.
 
----
+______________________________________________________________________
 
-# 62. Nearest Admissible World
+## 62. Nearest Admissible World
 
 A useful explanatory counterfactual is often:
 
@@ -1433,9 +1444,9 @@ VALID(W)
 
 The distance function is domain-dependent and must not be assumed universal.
 
----
+______________________________________________________________________
 
-# 63. Counterfactual Necessity Test
+## 63. Counterfactual Necessity Test
 
 To test whether `X` is necessary for observed `Y`:
 
@@ -1458,9 +1469,9 @@ this supports a necessity claim within that model and scope.
 
 It does not automatically prove universal necessity.
 
----
+______________________________________________________________________
 
-# 64. Counterfactual Sufficiency Test
+## 64. Counterfactual Sufficiency Test
 
 To test whether `X` is sufficient:
 
@@ -1483,9 +1494,9 @@ under applicable conditions, this may support sufficiency.
 
 Scope and hidden enabling conditions remain material.
 
----
+______________________________________________________________________
 
-# 65. Overdetermination
+## 65. Overdetermination
 
 Where:
 
@@ -1510,9 +1521,9 @@ BUT-FOR CAUSE
 
 must not be silently equated.
 
----
+______________________________________________________________________
 
-# 66. Prevention vs Explanation
+## 66. Prevention vs Explanation
 
 A condition useful for preventing an outcome is not necessarily the best historical explanation of why it occurred.
 
@@ -1524,9 +1535,9 @@ HISTORICAL CAUSE
 
 This distinction is essential for operational reasoning.
 
----
+______________________________________________________________________
 
-# 67. Counterfactual vs Forecast
+## 67. Counterfactual vs Forecast
 
 ```text
 FORECAST:
@@ -1540,9 +1551,9 @@ A forecast may assume no intervention.
 
 A counterfactual explicitly modifies conditions.
 
----
+______________________________________________________________________
 
-# 68. Counterfactual vs Scenario
+## 68. Counterfactual vs Scenario
 
 ```text
 SCENARIO
@@ -1562,9 +1573,9 @@ STRUCTURED SCENARIO REASONING
 
 conceptually, not necessarily as a repository type hierarchy.
 
----
+______________________________________________________________________
 
-# 69. Counterfactual vs Hypothesis
+## 69. Counterfactual vs Hypothesis
 
 A hypothesis proposes an explanation or relationship.
 
@@ -1579,9 +1590,9 @@ IF X WERE REMOVED,
 WOULD Y CHANGE?
 ```
 
----
+______________________________________________________________________
 
-# 70. Counterfactual vs Falsifier
+## 70. Counterfactual vs Falsifier
 
 A counterfactual can generate a falsifier:
 
@@ -1597,9 +1608,9 @@ Observed failure of that prediction may weaken `H`.
 
 The strength of falsification depends on auxiliary assumptions.
 
----
+______________________________________________________________________
 
-# 71. Counterfactual vs Decision
+## 71. Counterfactual vs Decision
 
 ```text
 COUNTERFACTUAL:
@@ -1622,9 +1633,9 @@ CONSTRAINTS
 REVERSIBILITY
 ```
 
----
+______________________________________________________________________
 
-# 72. Uncertainty Vector
+## 72. Uncertainty Vector
 
 Counterfactual analysis should separately track:
 
@@ -1645,9 +1656,9 @@ U_execution
 
 Do not collapse these dimensions when they imply different actions.
 
----
+______________________________________________________________________
 
-# 73. Counterfactual Gaps
+## 73. Counterfactual Gaps
 
 Gaps should be classified:
 
@@ -1676,9 +1687,9 @@ MISSING LABEL
 
 depending on objective.
 
----
+______________________________________________________________________
 
-# 74. Unknown Handling
+## 74. Unknown Handling
 
 If the available structure cannot distinguish:
 
@@ -1706,9 +1717,9 @@ UNKNOWN/GAP
 
 Do not manufacture a single outcome.
 
----
+______________________________________________________________________
 
-# 75. Counterfactual Stop Condition
+## 75. Counterfactual Stop Condition
 
 Counterfactual reasoning may stop when:
 
@@ -1724,9 +1735,9 @@ are reached.
 
 It need not model every downstream possibility.
 
----
+______________________________________________________________________
 
-# 76. Anti-Fabrication Rules
+## 76. Anti-Fabrication Rules
 
 ```text
 MISSING CAUSAL EDGE
@@ -1754,9 +1765,9 @@ MUST NOT
 BECOME OBSERVATION
 ```
 
----
+______________________________________________________________________
 
-# 77. Counterfactual Invariants
+## 77. Counterfactual Invariants
 
 ```text
 CF-01
@@ -1832,9 +1843,9 @@ CF-24
 MODEL ASSUMPTIONS MUST REMAIN EXPLICIT
 ```
 
----
+______________________________________________________________________
 
-# 78. Failure Modes
+## 78. Failure Modes
 
 ```text
 BASELINE_FABRICATION
@@ -1861,9 +1872,9 @@ FINALIZED_STATE_MUTATION
 AUTHORITY_LEAKAGE
 ```
 
----
+______________________________________________________________________
 
-# 79. Validation Algorithm
+## 79. Validation Algorithm
 
 Conceptually:
 
@@ -1909,9 +1920,9 @@ def evaluate_counterfactual(cf, context):
 
 This is architectural pseudocode, not an assertion of deployed runtime behavior.
 
----
+______________________________________________________________________
 
-# 80. Lifecycle
+## 80. Lifecycle
 
 ```text
 PLACEHOLDER
@@ -1945,9 +1956,9 @@ VALIDATED MODEL
 AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 81. Required Tests
+## 81. Required Tests
 
 Future verification should include:
 
@@ -1973,9 +1984,9 @@ SELECTIVE RECOMPUTATION TEST
 UNKNOWN-PRESERVATION TEST
 ```
 
----
+______________________________________________________________________
 
-# 82. Negative Tests
+## 82. Negative Tests
 
 ```text
 CORRELATION
@@ -2029,9 +2040,9 @@ FORCED SINGLE RESULT
 MUST FAIL
 ```
 
----
+______________________________________________________________________
 
-# 83. Promotion Gate
+## 83. Promotion Gate
 
 Before promotion beyond `AMOS_MODEL`:
 
@@ -2061,9 +2072,9 @@ Until then:
 IMPLEMENTATION_STATUS = UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 84. Integrity Note
+## 84. Integrity Note
 
 This artifact replaces an empty repository placeholder with a structured counterfactual reasoning model aligned with the AMOS v4.4 reasoning architecture.
 
@@ -2077,9 +2088,9 @@ IMPLEMENTATION = UNKNOWN/GAP
 EMPIRICAL_VALIDATION = UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 85. RSCF Node
+## 85. RSCF Node
 
 ```RSCF-NODE
 node_id: AMOS-OS-K-COUNTERFACTUAL
@@ -2125,7 +2136,7 @@ RSCF-RELATIONS:
   - VERIFIED_BY: README
 ```
 
----
+______________________________________________________________________
 
 ## Related
 
@@ -2167,12 +2178,14 @@ README
 ```text
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 **MOC:** [[02_KERNEL/02_COGNITION/02_COGNITION_MOC|02_COGNITION_MOC]]

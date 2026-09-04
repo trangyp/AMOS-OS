@@ -15,47 +15,47 @@ kernel_family: MEMORY
 scope: AMOS_OS
 updated: 2026-08-26
 tags:
-- amos-os
-- kernel
-- core
-- canon-group/tech-ai
-- kernel/memory
-- kernel/memory-immune
-- kernel/integrity
-- kernel/provenance
-- kernel/conflict
-- kernel/admission
-- kernel/recovery
-- kernel/security
-- rscf/memory
-- rscf/provenance
-- rscf/invalidation
-- topic/memory-integrity
-- topic/immune-system
-- topic/contamination
-- topic/quarantine
-- topic/poisoning
-- topic/sybil-hardening
-- topic/revalidation
-- canon/kernel
-- memory
-- readme
-- amos-core-laws
-- law-hierarchy
-- canon-provenance
-- source-lineage
-- supersession-log
-- k-identity
-- k-meta-logic
-- k-multi-hypothesis
-- k-memory-admission
-- k-memory-conflict
-- k-context-state
-- k-context-compaction
-- k-system-state
-- k-world-model
-- k-causal-closure
-- k-causal-epoch
+  - amos-os
+  - kernel
+  - core
+  - canon-group/tech-ai
+  - kernel/memory
+  - kernel/memory-immune
+  - kernel/integrity
+  - kernel/provenance
+  - kernel/conflict
+  - kernel/admission
+  - kernel/recovery
+  - kernel/security
+  - rscf/memory
+  - rscf/provenance
+  - rscf/invalidation
+  - topic/memory-integrity
+  - topic/immune-system
+  - topic/contamination
+  - topic/quarantine
+  - topic/poisoning
+  - topic/sybil-hardening
+  - topic/revalidation
+  - canon/kernel
+  - memory
+  - readme
+  - amos-core-laws
+  - law-hierarchy
+  - canon-provenance
+  - source-lineage
+  - supersession-log
+  - k-identity
+  - k-meta-logic
+  - k-multi-hypothesis
+  - k-memory-admission
+  - k-memory-conflict
+  - k-context-state
+  - k-context-compaction
+  - k-system-state
+  - k-world-model
+  - k-causal-closure
+  - k-causal-epoch
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -94,7 +94,7 @@ QUARANTINE != DELETION
 UNKNOWN/GAP != PASS
 ```
 
----
+______________________________________________________________________
 
 ## 1. Core Law
 
@@ -124,7 +124,7 @@ INDEPENDENT_CONFIRMATION(M,n)
 
 The immune kernel protects the distinction.
 
----
+______________________________________________________________________
 
 ## 2. Memory Immune Function
 
@@ -170,7 +170,7 @@ QUARANTINE / DOWNGRADE / INVALIDATE
 REPAIR / REVALIDATE / SUPERSEDE
 ```
 
----
+______________________________________________________________________
 
 ## 3. Immune Object Model
 
@@ -202,7 +202,7 @@ memory_immune_assessment:
 
 This is an architectural model, not an assertion that this schema is currently implemented.
 
----
+______________________________________________________________________
 
 ## 4. Integrity States
 
@@ -224,7 +224,7 @@ UNKNOWN/GAP
 
 These states must remain distinct from conclusion classes.
 
----
+______________________________________________________________________
 
 ## 5. Immune Response Classes
 
@@ -246,7 +246,7 @@ UNKNOWN/GAP
 
 An immune response is an integrity action, not a factual conclusion.
 
----
+______________________________________________________________________
 
 ## 6. Threat Classes
 
@@ -280,7 +280,7 @@ CONCURRENT_MUTATION
 LINEAGE_BREAK
 ```
 
----
+______________________________________________________________________
 
 ## 7. Memory Contamination
 
@@ -310,7 +310,7 @@ CONFLICT-SUPPRESSED
 SEMANTICALLY DRIFTED
 ```
 
----
+______________________________________________________________________
 
 ## 8. Quarantine
 
@@ -333,7 +333,7 @@ RECOVERY
 LINEAGE RECONSTRUCTION
 ```
 
----
+______________________________________________________________________
 
 ## 9. Quarantine Contract
 
@@ -355,7 +355,7 @@ quarantine:
   created_at:
 ```
 
----
+______________________________________________________________________
 
 ## 10. Quarantine Release
 
@@ -389,7 +389,7 @@ QUARANTINE
 INVALIDATED
 ```
 
----
+______________________________________________________________________
 
 ## 11. Provenance Firewall
 
@@ -416,7 +416,7 @@ PROVENANCE = UNKNOWN/GAP
 TRUST CEILING APPLIES
 ```
 
----
+______________________________________________________________________
 
 ## 12. Provenance Laundering
 
@@ -446,7 +446,7 @@ A + B + C + D + E
 
 The ancestry remains correlated.
 
----
+______________________________________________________________________
 
 ## 13. Sybil-Hardening
 
@@ -468,7 +468,7 @@ ONE SOURCE
 
 by preserving source ancestry.
 
----
+______________________________________________________________________
 
 ## 14. Independence Gate
 
@@ -488,7 +488,7 @@ INDEPENDENCE = UNKNOWN/GAP
 
 The system must not silently assume independence.
 
----
+______________________________________________________________________
 
 ## 15. Source Identity Firewall
 
@@ -506,7 +506,7 @@ SEMANTIC CLAIM IDENTITY
 
 A matching filename or display name is insufficient proof of identity.
 
----
+______________________________________________________________________
 
 ## 16. Duplicate Firewall
 
@@ -518,7 +518,7 @@ DUPLICATE(M)
 NO AUTOMATIC CONFIDENCE INCREASE
 ```
 
----
+______________________________________________________________________
 
 ## 17. Confidence Immune Rule
 
@@ -540,7 +540,7 @@ RETRIEVAL FREQUENCY
 CONFIDENCE
 ```
 
----
+______________________________________________________________________
 
 ## 18. Weakest-Premise Ceiling
 
@@ -562,7 +562,7 @@ unless `M` receives independent revalidation.
 
 The immune layer should flag confidence exceeding its dependency support.
 
----
+______________________________________________________________________
 
 ## 19. Dependency Immunity
 
@@ -594,7 +594,7 @@ INVALID(P)
 INVALIDATE EVERYTHING
 ```
 
----
+______________________________________________________________________
 
 ## 20. Local Immune Response
 
@@ -612,7 +612,7 @@ PRESERVE UNAFFECTED MEMORY
 
 Global purges are last-resort recovery operations.
 
----
+______________________________________________________________________
 
 ## 21. Conflict Immunity
 
@@ -638,7 +638,7 @@ REJECTED
 
 `K_MEMORY_CONFLICT` governs substantive conflict semantics.
 
----
+______________________________________________________________________
 
 ## 22. Conflict Suppression Attack
 
@@ -656,7 +656,7 @@ CLAIM CONSISTENCY
 
 as an integrity failure unless explicit valid supersession applies.
 
----
+______________________________________________________________________
 
 ## 23. False Supersession
 
@@ -681,7 +681,7 @@ EFFECTIVE TIME
 
 evidence.
 
----
+______________________________________________________________________
 
 ## 24. Staleness Immunity
 
@@ -711,7 +711,7 @@ not automatically:
 FALSE
 ```
 
----
+______________________________________________________________________
 
 ## 25. Regime Immunity
 
@@ -737,7 +737,7 @@ QUARANTINE
 
 depending on dependency relevance.
 
----
+______________________________________________________________________
 
 ## 26. Scope Immunity
 
@@ -755,7 +755,7 @@ VALID(M | ALL SCOPES)
 
 Scope leakage is an immune violation.
 
----
+______________________________________________________________________
 
 ## 27. Semantic Drift
 
@@ -773,7 +773,7 @@ when needed.
 
 A changed label must not silently reinterpret historical memory.
 
----
+______________________________________________________________________
 
 ## 28. Unit and Symbol Drift
 
@@ -797,7 +797,7 @@ Example:
 
 without its required unit may be unusable rather than false.
 
----
+______________________________________________________________________
 
 ## 29. Model Firewall
 
@@ -822,7 +822,7 @@ VERIFIED FACT
 
 solely because it was stored.
 
----
+______________________________________________________________________
 
 ## 30. Source Claim Firewall
 
@@ -836,7 +836,7 @@ until independently validated where validation is required.
 
 Persistence does not alter the claim class.
 
----
+______________________________________________________________________
 
 ## 31. Observation Firewall
 
@@ -854,7 +854,7 @@ where material.
 
 A stored observation is not universal truth.
 
----
+______________________________________________________________________
 
 ## 32. Decision Firewall
 
@@ -872,7 +872,7 @@ FACT
 
 because downstream components repeatedly retrieve it.
 
----
+______________________________________________________________________
 
 ## 33. Canon Firewall
 
@@ -892,7 +892,7 @@ Therefore:
 PERSISTENCE != CANONIZATION
 ```
 
----
+______________________________________________________________________
 
 ## 34. Authority Firewall
 
@@ -917,7 +917,7 @@ DECLARE GOVERNANCE PRECEDENCE
 
 unless separately delegated.
 
----
+______________________________________________________________________
 
 ## 35. Admission Interaction
 
@@ -938,7 +938,7 @@ AND BE ISOLATED
 IF ITS VALIDITY FAILS?
 ```
 
----
+______________________________________________________________________
 
 ## 36. Conflict Interaction
 
@@ -957,7 +957,7 @@ OR A LEGITIMATE COMPETING CLAIM?
 
 Neither component should collapse the other.
 
----
+______________________________________________________________________
 
 ## 37. Context-State Immunity
 
@@ -979,7 +979,7 @@ IN_CONTEXT
 PERSISTENCE_ELIGIBLE
 ```
 
----
+______________________________________________________________________
 
 ## 38. Context Compaction Immunity
 
@@ -1001,7 +1001,7 @@ VALIDITY CONDITIONS
 
 must remain recoverable to the degree required by downstream integrity.
 
----
+______________________________________________________________________
 
 ## 39. Compression Poisoning
 
@@ -1021,7 +1021,7 @@ This is scope/regime loss.
 
 The immune layer should reject or downgrade such compaction.
 
----
+______________________________________________________________________
 
 ## 40. Retrieval Immunity
 
@@ -1045,7 +1045,7 @@ CHECK CONFLICT STATE
 
 Only the smallest sufficient validation path should be executed.
 
----
+______________________________________________________________________
 
 ## 41. Fast-Path Immunity
 
@@ -1071,7 +1071,7 @@ If any load-bearing condition is unknown:
 FAST_PATH = BLOCKED
 ```
 
----
+______________________________________________________________________
 
 ## 42. Adversarial Immune Check
 
@@ -1091,7 +1091,7 @@ CAUSAL OVERREACH
 
 Successful challenge causes downgrade, quarantine, or revalidation.
 
----
+______________________________________________________________________
 
 ## 43. Poisoning Detection
 
@@ -1115,7 +1115,7 @@ Indicators are not proof of malicious intent.
 
 They are triggers for integrity review.
 
----
+______________________________________________________________________
 
 ## 44. Intent Firewall
 
@@ -1129,7 +1129,7 @@ MALICIOUS ACTOR PROVEN
 
 Accidental corruption, software defects, stale synchronization, semantic drift, or deliberate manipulation can produce similar observable states.
 
----
+______________________________________________________________________
 
 ## 45. Persistent Provenance
 
@@ -1146,7 +1146,7 @@ RECOVERY
 
 where the architecture requires durable memory.
 
----
+______________________________________________________________________
 
 ## 46. Replay Immunity
 
@@ -1164,7 +1164,7 @@ M IS CURRENTLY VALID
 
 Historical state and current authority must remain distinct.
 
----
+______________________________________________________________________
 
 ## 47. Epoch Immunity
 
@@ -1182,7 +1182,7 @@ M @ EPOCH_n+1
 
 after load-bearing state changes.
 
----
+______________________________________________________________________
 
 ## 48. Causal Epoch Immunity
 
@@ -1200,7 +1200,7 @@ must remain linked.
 
 Changing causal epoch may require revalidation.
 
----
+______________________________________________________________________
 
 ## 49. Concurrent Mutation
 
@@ -1226,7 +1226,7 @@ rather than overwriting newer state.
 
 This expresses architectural MVCC/CAS compatibility, not an assertion of implemented concurrency control.
 
----
+______________________________________________________________________
 
 ## 50. Partial Write Immunity
 
@@ -1248,7 +1248,7 @@ DEPENDENCY GRAPH OLD
 
 Atomicity requirements should be proportional to integrity stakes.
 
----
+______________________________________________________________________
 
 ## 51. Multi-RSCF Immunity
 
@@ -1274,7 +1274,7 @@ REVALIDATE(M)
 
 even if `R1` and `R3` remain valid.
 
----
+______________________________________________________________________
 
 ## 52. Atomic Multi-RSCF Validation
 
@@ -1288,7 +1288,7 @@ validation must occur against a coherent dependency state.
 
 A mixed-state snapshot must not silently pass.
 
----
+______________________________________________________________________
 
 ## 53. Proof Capsule Immunity
 
@@ -1311,7 +1311,7 @@ CONFIDENCE CEILING
 
 If these are stripped during persistence, the capsule may become unsafe for fast-path reuse.
 
----
+______________________________________________________________________
 
 ## 54. Falsifier Preservation
 
@@ -1329,7 +1329,7 @@ M valid
 
 The falsifier is part of the memory's integrity envelope.
 
----
+______________________________________________________________________
 
 ## 55. Recovery Semantics
 
@@ -1353,7 +1353,7 @@ REVALIDATE
 RELEASE OR SUPERSEDE
 ```
 
----
+______________________________________________________________________
 
 ## 56. Nearest Valid State
 
@@ -1367,7 +1367,7 @@ RESET EVERYTHING
 
 This minimizes collateral loss of valid knowledge.
 
----
+______________________________________________________________________
 
 ## 57. Rerouting
 
@@ -1387,7 +1387,7 @@ only when `PATH B` provides genuinely different evidence or dependency structure
 
 Repeating the same contaminated ancestry is not rerouting.
 
----
+______________________________________________________________________
 
 ## 58. No Repeated Failed Path
 
@@ -1403,7 +1403,7 @@ RETRY(PATH_A)
 
 without changed evidence, state, assumptions, or execution conditions.
 
----
+______________________________________________________________________
 
 ## 59. Recovery Provenance
 
@@ -1423,7 +1423,7 @@ recovery_record:
   final_state:
 ```
 
----
+______________________________________________________________________
 
 ## 60. Memory Immune Lifecycle
 
@@ -1465,7 +1465,7 @@ QUARANTINED
 INVALIDATED / SUPERSEDED
 ```
 
----
+______________________________________________________________________
 
 ## 61. H/M/L Immune Traversal
 
@@ -1497,7 +1497,7 @@ Do not descend to raw evidence unless the higher-level capsule cannot establish 
 RAW = DO_NOT_LOAD_UNLESS_REQUIRED
 ```
 
----
+______________________________________________________________________
 
 ## 62. Immune Escalation Conditions
 
@@ -1517,7 +1517,7 @@ IRREVERSIBILITY HIGH
 SECURITY IMPACT HIGH
 ```
 
----
+______________________________________________________________________
 
 ## 63. Adaptive Immune Depth
 
@@ -1542,7 +1542,7 @@ Start at the lowest sufficient level.
 
 Escalate only where decision-changing uncertainty remains.
 
----
+______________________________________________________________________
 
 ## 64. Sensitivity
 
@@ -1561,7 +1561,7 @@ INDEPENDENCE OF ONE SOURCE
 
 Test that premise first.
 
----
+______________________________________________________________________
 
 ## 65. Fragile Memory
 
@@ -1575,7 +1575,7 @@ or otherwise integrity-limited.
 
 Do not present fragile memory as robust.
 
----
+______________________________________________________________________
 
 ## 66. Immune Uncertainty Vector
 
@@ -1593,7 +1593,7 @@ PROVENANCE-INDEPENDENCE UNCERTAINTY
 
 One uncertainty dimension must not be hidden inside a single confidence number.
 
----
+______________________________________________________________________
 
 ## 67. Security Interaction
 
@@ -1613,7 +1613,7 @@ THREAT MODEL
 
 Security policy belongs to the appropriate security/control-plane authority.
 
----
+______________________________________________________________________
 
 ## 68. Memory Injection
 
@@ -1632,7 +1632,7 @@ without independent validation.
 
 Input content cannot grant itself authority.
 
----
+______________________________________________________________________
 
 ## 69. Instruction/Data Firewall
 
@@ -1654,7 +1654,7 @@ IGNORE GOVERNANCE
 
 does not thereby acquire governance authority.
 
----
+______________________________________________________________________
 
 ## 70. Capability Firewall
 
@@ -1674,7 +1674,7 @@ DELETE CAPABILITY
 INVALIDATION AUTHORITY
 ```
 
----
+______________________________________________________________________
 
 ## 71. Immune Governance Escalation
 
@@ -1692,7 +1692,7 @@ LARGE DEPENDENCY SUBTREES
 INSTITUTIONAL STATE
 ```
 
----
+______________________________________________________________________
 
 ## 72. Reversible Defense
 
@@ -1710,7 +1710,7 @@ DELETE
 
 because quarantine preserves evidence and recovery options.
 
----
+______________________________________________________________________
 
 ## 73. Canon Conflict
 
@@ -1735,7 +1735,7 @@ PROVENANCE
 
 and route resolution through appropriate governance.
 
----
+______________________________________________________________________
 
 ## 74. Knowledge Harvest Immunity
 
@@ -1764,7 +1764,7 @@ GOVERNANCE STATE
 
 Persistence alone is not validation.
 
----
+______________________________________________________________________
 
 ## 75. README Firewall
 
@@ -1788,7 +1788,7 @@ P BECOMES VERIFIED
 
 without a valid promotion path.
 
----
+______________________________________________________________________
 
 ## 76. External Evidence Firewall
 
@@ -1796,7 +1796,7 @@ External evidence must retain source and retrieval context where material.
 
 A copied claim stripped of its source should have lower trust than the same claim with recoverable provenance.
 
----
+______________________________________________________________________
 
 ## 77. Immune Invariants
 
@@ -1877,7 +1877,7 @@ MI-25
 UNKNOWN/GAP MUST NOT BECOME PASS
 ```
 
----
+______________________________________________________________________
 
 ## 78. Failure Modes
 
@@ -1912,7 +1912,7 @@ UNSAFE_FAST_PATH
 UNKNOWN_PASS_COLLAPSE
 ```
 
----
+______________________________________________________________________
 
 ## 79. Required Tests
 
@@ -1951,7 +1951,7 @@ RECOVERY-LINEAGE TEST
 UNKNOWN-GAP TEST
 ```
 
----
+______________________________________________________________________
 
 ## 80. Negative Tests
 
@@ -2018,7 +2018,7 @@ UNKNOWN/GAP
 MUST FAIL
 ```
 
----
+______________________________________________________________________
 
 ## 81. Promotion Gate
 
@@ -2065,7 +2065,7 @@ FORMAL_VERIFICATION = UNKNOWN/GAP
 EMPIRICAL_VALIDATION = UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
 ## 82. Authority Boundary
 
@@ -2124,7 +2124,7 @@ K_MEMORY_IMMUNE
 MEMORY WRITE AUTHORITY
 ```
 
----
+______________________________________________________________________
 
 ## 83. RSCF Node
 
@@ -2173,7 +2173,7 @@ RSCF-RELATIONS:
   - OPERATED_BY: README
 ```
 
----
+______________________________________________________________________
 
 ## 84. Canonical Summary
 
@@ -2419,12 +2419,14 @@ README
 ```text
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 **MOC:** [[02_KERNEL/05_MEMORY/05_MEMORY_MOC|05_MEMORY_MOC]]

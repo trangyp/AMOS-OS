@@ -1,59 +1,62 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: References MOC — References — Amos C09 Org Law Policy Master
 type: moc
 source: 07_SKILLS/amos-c09-org-law-policy-master/references
 tags:
-- references
-- type/skill
-- advanced-governance-report
-- bio-data-ownership-charter
-- bio-data-ownership-legal-tech
-- bod-engine-v0
-- brain-governance-ssot-report
-- change-management-engine
-- chinese-legal-engine
-- core-v47-hardened-governance
-- crisis-management-kernel
-- deterministic-organisation-governance
-- domain-config
-- ethical-reasoning-kernel
-- ethics-as-infrastructure
-- global-legal-engine
-- global-legal-engine-layer
-- global-legal-engine-model
-- gov-engine-sector-packs
-- governance-economy-engine
-- governance-politics-pack-au
-- governance-tensor
-- hse-ceo-engine-layer
-- kernels-governance-risk
-- law-stack-enforcement
-- legal-check-agent
-- legal-engine-layer-v2
-- legal-kernel
-- legal-kernel-org-risk
-- legal-risk-agent
-- legal-super-engine
-- omega-governance-ssot
-- org-engine
-- org-governance-engine
-- org-governance-engine-layer
-- org-governance-engine-v0
-- policy-design-engine
-- trang-ip-protection-plan
-- ubi-law-families
-- uni-power-strategic-governance
-- unified-org-systems-engine
-- vault-domain-knowledge
-- vn-legal-engine
-- vn-legal-engine-domains
-- vn-legal-engine-v0-domains
-- vn-legal-engine-vinfinity
-- vn-nab-legal-audit-report
-- vn-shareholder-board-report
-- vn-technical-legal-terms
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - references
+  - type/skill
+  - advanced-governance-report
+  - bio-data-ownership-charter
+  - bio-data-ownership-legal-tech
+  - bod-engine-v0
+  - brain-governance-ssot-report
+  - change-management-engine
+  - chinese-legal-engine
+  - core-v47-hardened-governance
+  - crisis-management-kernel
+  - deterministic-organisation-governance
+  - domain-config
+  - ethical-reasoning-kernel
+  - ethics-as-infrastructure
+  - global-legal-engine
+  - global-legal-engine-layer
+  - global-legal-engine-model
+  - gov-engine-sector-packs
+  - governance-economy-engine
+  - governance-politics-pack-au
+  - governance-tensor
+  - hse-ceo-engine-layer
+  - kernels-governance-risk
+  - law-stack-enforcement
+  - legal-check-agent
+  - legal-engine-layer-v2
+  - legal-kernel
+  - legal-kernel-org-risk
+  - legal-risk-agent
+  - legal-super-engine
+  - omega-governance-ssot
+  - org-engine
+  - org-governance-engine
+  - org-governance-engine-layer
+  - org-governance-engine-v0
+  - policy-design-engine
+  - trang-ip-protection-plan
+  - ubi-law-families
+  - uni-power-strategic-governance
+  - unified-org-systems-engine
+  - vault-domain-knowledge
+  - vn-legal-engine
+  - vn-legal-engine-domains
+  - vn-legal-engine-v0-domains
+  - vn-legal-engine-vinfinity
+  - vn-nab-legal-audit-report
+  - vn-shareholder-board-report
+  - vn-technical-legal-terms
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 moc: true
 rscf:
   state: SOURCE_CLAIM
@@ -117,13 +120,13 @@ rscf:
 - [[07_SKILLS/amos-c09-org-law-policy-master/references/vn_shareholder_board_report|vn_shareholder_board_report]]
 - [[07_SKILLS/amos-c09-org-law-policy-master/references/vn_technical_legal_terms|vn_technical_legal_terms]]
 
----
+______________________________________________________________________
+
 ## Reference Notes
 
 - [[07_SKILLS/amos-c09-org-law-policy-master/references/detailed-content|detailed-content]]
 
-**Parent:** [[07_SKILLS/amos-c09-org-law-policy-master/amos-c09-org-law-policy-master_MOC|amos-c09-org-law-policy-master_MOC]]
----
+## **Parent:** [[07_SKILLS/amos-c09-org-law-policy-master/amos-c09-org-law-policy-master_MOC|amos-c09-org-law-policy-master_MOC]]
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -131,12 +134,14 @@ rscf:
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-c09-org-law-policy-master-references-MOC
 node_type: reference
 path: 07_SKILLS/amos-c09-org-law-policy-master/references/references_MOC.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

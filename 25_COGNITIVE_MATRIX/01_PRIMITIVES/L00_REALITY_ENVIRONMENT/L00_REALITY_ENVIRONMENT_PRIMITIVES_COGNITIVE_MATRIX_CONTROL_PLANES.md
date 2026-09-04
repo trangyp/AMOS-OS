@@ -1,14 +1,17 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: L00_REALITY_ENVIRONMENT — Control Planes
 type: control-plane
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT
 tags:
-- cognitive-matrix
-- primitives
-- matrix/l00-reality-environment
-- note
-- domain/cognitive-matrix
-- amos-simulation-kernel-v0-math-foundations
+  - cognitive-matrix
+  - primitives
+  - matrix/l00-reality-environment
+  - note
+  - domain/cognitive-matrix
+  - amos-simulation-kernel-v0-math-foundations
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -22,9 +25,9 @@ rscf:
 **Origin architect / steward:** Trang Phan
 **Status:** `ARCHITECTURE CONTRACT / IMPLEMENTATION-DEPENDENT`
 
----
+______________________________________________________________________
 
-# 1. Purpose
+## 1. Purpose
 
 `L00_REALITY_ENVIRONMENT / CONTROL_PLANES` defines the infrastructure layer that separates AI reasoning from authoritative system effects.
 
@@ -71,59 +74,59 @@ RECEIPT / OBSERVATION / NEW STATE
 
 The governing separation is:
 
-[
-\boxed{
+\[
+\\boxed{
 Cognition
-\neq
+\\neq
 Control
-\neq
+\\neq
 Authority
-\neq
+\\neq
 Commit
-\neq
+\\neq
 ObservedEffect
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 2. Architectural Position
+## 2. Architectural Position
 
 `L00_REALITY_ENVIRONMENT` is the boundary between AMOS internal reasoning structures and externally consequential state.
 
 Conceptually:
 
-[
+\[
 Environment
-\rightarrow
+\\rightarrow
 Observation
-\rightarrow
+\\rightarrow
 Reasoning
-\rightarrow
+\\rightarrow
 Proposal
-\rightarrow
+\\rightarrow
 ControlPlane
-\rightarrow
+\\rightarrow
 Commit
-\rightarrow
+\\rightarrow
 Effect
-\rightarrow
+\\rightarrow
 Observation'
-]
+\]
 
 The control plane governs the transition:
 
-[
-\boxed{
-Proposal \rightarrow Effect
+\[
+\\boxed{
+Proposal \\rightarrow Effect
 }
-]
+\]
 
 It must not silently redefine the domain conclusion that produced the proposal.
 
----
+______________________________________________________________________
 
-# 3. Core Separation Invariant
+## 3. Core Separation Invariant
 
 The most important architectural distinction is:
 
@@ -151,27 +154,27 @@ OBSERVED EXTERNAL COMPLETION
 
 Therefore:
 
-[
-\boxed{
+\[
+\\boxed{
 Proposal(a)
-\not\Rightarrow
+\\not\\Rightarrow
 Commit(a)
 }
-]
+\]
 
 and:
 
-[
-\boxed{
+\[
+\\boxed{
 Capability(a)
-\not\Rightarrow
+\\not\\Rightarrow
 Authority(a)
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 4. Control Plane Responsibility Boundary
+## 4. Control Plane Responsibility Boundary
 
 The infrastructure control plane owns:
 
@@ -211,20 +214,17 @@ idempotency             → control plane
 release ledger          → control plane
 ```
 
----
+______________________________________________________________________
 
-# 5. Typed Inputs
+## 5. Typed Inputs
 
 The control plane consumes typed objects rather than unrestricted reasoning text.
 
 Core input tensor:
 
-[
-\boxed{
-T_{CP}^{in}
-===========
+## \[ \\boxed{ T\_{CP}^{in}
 
-T[
+T\[
 task,
 capability,
 domain_evidence,
@@ -235,9 +235,9 @@ constraints,
 observability,
 effect_intent,
 release_state
-]
+\]
 }
-]
+\]
 
 Minimum input classes:
 
@@ -257,16 +257,13 @@ EFFECT_RELEASE_STATE
 RECEIVER_TRUST_REGISTRY
 ```
 
----
+______________________________________________________________________
 
-# 6. Typed Outputs
+## 6. Typed Outputs
 
-[
-\boxed{
-T_{CP}^{out}
-============
+## \[ \\boxed{ T\_{CP}^{out}
 
-T[
+T\[
 decision,
 effect_state,
 invalidations,
@@ -274,9 +271,9 @@ revalidation_requirements,
 receipt,
 provenance,
 audit_state
-]
+\]
 }
-]
+\]
 
 Representative decisions:
 
@@ -318,24 +315,21 @@ UNKNOWN_GAP
 
 Unknown states must remain explicit.
 
-[
-\boxed{
+\[
+\\boxed{
 UNKNOWN_GAP
-\neq
+\\neq
 COMMITTABLE
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 7. Control Plane Tensor
+## 7. Control Plane Tensor
 
-[
-\boxed{
-T_{CP}
-======
+## \[ \\boxed{ T\_{CP}
 
-T[
+T\[
 task_id,
 principal,
 capability,
@@ -351,9 +345,9 @@ receipt,
 epoch,
 provenance,
 decision
-]
+\]
 }
-]
+\]
 
 Expanded:
 
@@ -426,17 +420,15 @@ control_plane_tensor:
   decision:
 ```
 
----
+______________________________________________________________________
 
-# 8. Core State Variables
+## 8. Core State Variables
 
 Let control-plane state be:
 
-[
-S_{CP}(t)
-=========
+## \[ S\_{CP}(t)
 
-[
+\[
 Q_t,
 C_t,
 E_t,
@@ -447,25 +439,25 @@ O_t,
 L_t,
 Y_t,
 P_t
-]
-]
+\]
+\]
 
 where:
 
-- \(Q_t\) = task state,
-- \(C_t\) = resolved capability contract,
-- \(E_t\) = validated evidence state,
-- \(R_t\) = observed read set,
-- \(X_t\) = semantic transaction,
-- \(A_t\) = authority state,
-- \(O_t\) = observability state,
-- \(L_t\) = effect-release ledger state,
-- \(Y_t\) = receiver/effect completion state,
-- \(P_t\) = provenance state.
+- (Q_t) = task state,
+- (C_t) = resolved capability contract,
+- (E_t) = validated evidence state,
+- (R_t) = observed read set,
+- (X_t) = semantic transaction,
+- (A_t) = authority state,
+- (O_t) = observability state,
+- (L_t) = effect-release ledger state,
+- (Y_t) = receiver/effect completion state,
+- (P_t) = provenance state.
 
----
+______________________________________________________________________
 
-# 9. Control State Machine
+## 9. Control State Machine
 
 ```text
 RECEIVED
@@ -511,39 +503,39 @@ COMMIT_REVALIDATION
            COMMITTED   RECONCILE  BLOCK
 ```
 
----
+______________________________________________________________________
 
-# 10. Task Contract
+## 10. Task Contract
 
 Every governed operation begins with a task contract.
 
-[
+\[
 TASK=
-[
+\[
 objective,
 principal,
 requested_capability,
 resources,
 constraints,
 expected_effects
-]
-]
+\]
+\]
 
 Hard invariant:
 
-[
-\boxed{
+\[
+\\boxed{
 UndefinedTaskScope
-\Rightarrow
+\\Rightarrow
 NoCommit
 }
-]
+\]
 
 A control plane must know what is being authorized before validating whether it may occur.
 
----
+______________________________________________________________________
 
-# 11. Capability Manifest
+## 11. Capability Manifest
 
 Domain skills expose capabilities through manifests.
 
@@ -573,47 +565,37 @@ capability_manifest:
 
 The infrastructure layer resolves this into a frozen capability contract.
 
----
+______________________________________________________________________
 
-# 12. Resolved Capability Contract
+## 12. Resolved Capability Contract
 
-[
-C^*
-===
+## \[ C^\*
 
 Resolve(
 Task,
 CapabilityManifest
 )
-]
+\]
 
 The resolved contract should be bound to a stable digest:
 
-[
-\boxed{
-H_C
-===
+## \[ \\boxed{ H_C
 
-Hash(C^*)
+Hash(C^\*)
 }
-]
+\]
 
 Commit must operate against the resolved contract, not an unversioned interpretation of the capability.
 
----
+______________________________________________________________________
 
-# 13. Domain Separation Invariant
+## 13. Domain Separation Invariant
 
-[
-\boxed{
-InfrastructurePolicy
-\cap
-DomainSemantics
-===============
+## \[ \\boxed{ InfrastructurePolicy \\cap DomainSemantics
 
-\varnothing
+\\varnothing
 }
-]
+\]
 
 conceptually, except for the typed interface contract required to govern the domain capability.
 
@@ -623,17 +605,15 @@ The control plane asks:
 
 It should not independently invent the specialist domain test.
 
----
+______________________________________________________________________
 
-# 14. Evidence Contract
+## 14. Evidence Contract
 
 Domain reasoning returns a typed evidence bundle.
 
-[
-E_D
-===
+## \[ E_D
 
-[
+\[
 claims,
 observations,
 validators,
@@ -641,8 +621,8 @@ provenance,
 scope,
 regime,
 freshness
-]
-]
+\]
+\]
 
 The infrastructure layer validates the bundle structure and declared requirements.
 
@@ -655,54 +635,46 @@ ASSOCIATION → CAUSAL EFFECT
 UNKNOWN → PASS
 ```
 
----
+______________________________________________________________________
 
-# 15. Evidence Gate
+## 15. Evidence Gate
 
-[
-\boxed{
-EvidenceGate
-============
+## \[ \\boxed{ EvidenceGate
 
 RequiredEvidencePresent
-\land
+\\land
 EvidenceTyped
-\land
+\\land
 ProvenanceValid
-\land
+\\land
 ScopeCompatible
-\land
+\\land
 RegimeCompatible
 }
-]
+\]
 
 If false:
 
-[
-Decision
-========
+## \[ Decision
 
 BLOCK_EVIDENCE
-]
+\]
 
 or `UNKNOWN_GAP` when the required status cannot be established.
 
----
+______________________________________________________________________
 
-# 16. Observed Read Set
+## 16. Observed Read Set
 
 The control plane tracks the exact authoritative resources that actually informed the decision.
 
-[
-\boxed{
-R
-=
+## \[ \\boxed{ R
 
 {
 (object_i,version_i,hash_i)
-}_{i=1}^{n}
+}\_{i=1}^{n}
 }
-]
+\]
 
 This is the authoritative observed read set.
 
@@ -724,116 +696,110 @@ observed_read_set:
     content_hash: sha256:...
 ```
 
----
+______________________________________________________________________
 
-# 17. Fine-Grained Freshness Invariant
+## 17. Fine-Grained Freshness Invariant
 
 A change to an unread resource must not automatically invalidate the transaction.
 
-[
-x\notin R
-\land
+\[
+x\\notin R
+\\land
 Change(x)
-\not\Rightarrow
+\\not\\Rightarrow
 Invalidate(Transaction)
-]
+\]
 
 But:
 
-[
-x\in R
-\land
-Identity_t(x)\neq Identity_{commit}(x)
-]
+\[
+x\\in R
+\\land
+Identity_t(x)\\neq Identity\_{commit}(x)
+\]
 
 implies:
 
-[
-\boxed{
+\[
+\\boxed{
 REVALIDATE_STALE_READ
 }
-]
+\]
 
 This is the fine-grained AMOS freshness rule.
 
----
+______________________________________________________________________
 
-# 18. MVCC / CAS Analogue
+## 18. MVCC / CAS Analogue
 
 AMOS uses MVCC/CAS concepts as control-plane reasoning patterns.
 
 For resource (r):
 
-[
+\[
 I_r=
-[
+\[
 object_id,
 version,
 content_hash
-]
-]
+\]
+\]
 
 Commit requires:
 
-[
-\boxed{
-I_r^{read}
-==========
+## \[ \\boxed{ I_r^{read}
 
 I_r^{commit}
 }
-]
+\]
 
 for decision-forming authoritative reads unless the contract explicitly permits otherwise.
 
----
+______________________________________________________________________
 
-# 19. Selective Invalidation
+## 19. Selective Invalidation
 
 If resource (r) changes:
 
-[
+\[
 Change(r)
-]
+\]
 
 invalidate only:
 
-[
+\[
 Descendants(r)
-]
+\]
 
 not the entire reasoning state.
 
-[
-\boxed{
+\[
+\\boxed{
 Invalidate(r)
-\Rightarrow
+\\Rightarrow
 Invalidate(Dependent(r))
 }
-]
+\]
 
 while:
 
-[
+\[
 Independent(x,r)
-\Rightarrow
+\\Rightarrow
 Preserve(x)
-]
+\]
 
 This prevents unnecessary global recomputation.
 
----
+______________________________________________________________________
 
-# 20. Semantic Transaction
+## 20. Semantic Transaction
 
 A semantic transaction binds reasoning lineage to the intended effect.
 
-[
-\boxed{
-X
-=
+## \[ \\boxed{ X
 
-[
+\[
 transaction_id,
 task,
 inputs,
@@ -842,9 +808,9 @@ derived_results,
 parameters,
 effect,
 provenance
-]
+\]
 }
-]
+\]
 
 The transaction answers:
 
@@ -858,82 +824,78 @@ Which parameter produced which proposed effect?
 Which authority permits that effect?
 ```
 
----
+______________________________________________________________________
 
-# 21. Semantic Transaction Invariant
+## 21. Semantic Transaction Invariant
 
-[
-\boxed{
+\[
+\\boxed{
 Effect
-\rightarrow
+\\rightarrow
 Parameter
-\rightarrow
+\\rightarrow
 Result
-\rightarrow
+\\rightarrow
 Evidence
 }
-]
+\]
 
 must remain traceable.
 
 If this chain breaks:
 
-[
-Decision
-========
+## \[ Decision
 
 BLOCK_SEMANTIC_TRANSACTION
-]
+\]
 
----
+______________________________________________________________________
 
-# 22. Provenance Alignment
+## 22. Provenance Alignment
 
 Let:
 
-[
+\[
 P_E
-]
+\]
 
 be evidence provenance,
 
-[
+\[
 P_R
-]
+\]
 
 result provenance,
 
 and:
 
-[
+\[
 P_A
-]
+\]
 
 authorization-permitted provenance.
 
 A governed effect requires compatible lineage:
 
-[
-\boxed{
-P_{actual}
-\subseteq
-P_{authorized}
+\[
+\\boxed{
+P\_{actual}
+\\subseteq
+P\_{authorized}
 }
-]
+\]
 
 where the authorization contract constrains permissible sources or transformations.
 
----
+______________________________________________________________________
 
-# 23. Authority Witness
+## 23. Authority Witness
 
 Authority is represented explicitly.
 
-[
-A_W
-===
+## \[ A_W
 
-[
+\[
 authority_id,
 issuer,
 principal,
@@ -943,42 +905,42 @@ constraints,
 validity,
 signature,
 revocation
-]
-]
+\]
+\]
 
 Authority must bind to the actual effect rather than merely to the agent identity.
 
----
+______________________________________________________________________
 
-# 24. Capability–Authority Firewall
+## 24. Capability–Authority Firewall
 
-[
-\boxed{
+\[
+\\boxed{
 CanExecute(a)
-\neq
+\\neq
 MayExecute(a)
 }
-]
+\]
 
 Therefore:
 
-[
+\[
 Capability(a)=1
-]
+\]
 
 is insufficient.
 
 Commit requires:
 
-[
+\[
 Authority(a)=1
-]
+\]
 
 for the exact relevant action envelope.
 
----
+______________________________________________________________________
 
-# 25. Authority Scope
+## 25. Authority Scope
 
 Authority should constrain at least where relevant:
 
@@ -997,15 +959,15 @@ cumulative limits
 
 A broad identity credential is not automatically authorization for every operation available to that identity.
 
----
+______________________________________________________________________
 
-# 26. Authority Freshness
+## 26. Authority Freshness
 
 Authority is temporal state.
 
-[
+\[
 A(t)
-]
+\]
 
 may become invalid through:
 
@@ -1019,25 +981,23 @@ may become invalid through:
 
 Therefore:
 
-[
-\boxed{
-Authority_{prepare}
-\not\Rightarrow
-Authority_{commit}
+\[
+\\boxed{
+Authority\_{prepare}
+\\not\\Rightarrow
+Authority\_{commit}
 }
-]
+\]
 
 Commit-time revalidation is required for mutable authority.
 
----
+______________________________________________________________________
 
-# 27. Constraint Context
+## 27. Constraint Context
 
-[
-C_X
-===
+## \[ C_X
 
-[
+\[
 policy,
 limits,
 environment,
@@ -1045,49 +1005,45 @@ resource_state,
 safety,
 governance,
 time
-]
-]
+\]
+\]
 
 Constraints are evaluated during preparation and rechecked when freshness matters.
 
 A prepared transaction does not own the future state of its constraints.
 
----
+______________________________________________________________________
 
-# 28. Constraint Freshness
+## 28. Constraint Freshness
 
 For each load-bearing constraint (c):
 
-[
-Identity(c,t_{prepare})
-]
+\[
+Identity(c,t\_{prepare})
+\]
 
 must remain compatible with:
 
-[
-Identity(c,t_{commit})
-]
+\[
+Identity(c,t\_{commit})
+\]
 
 Otherwise:
 
-[
-Decision
-========
+## \[ Decision
 
 REVALIDATE_CONSTRAINTS
-]
+\]
 
----
+______________________________________________________________________
 
-# 29. Effect Intent
+## 29. Effect Intent
 
 An effect must be represented before execution.
 
-[
-E_I
-===
+## \[ E_I
 
-[
+\[
 operation,
 target,
 parameters,
@@ -1095,74 +1051,67 @@ principal,
 recipient,
 transaction,
 idempotency_key
-]
-]
+\]
+\]
 
 The control plane authorizes the effect intent, not a vague description of what the agent hopes to accomplish.
 
----
+______________________________________________________________________
 
-# 30. Effect Digest
+## 30. Effect Digest
 
 Canonical effect identity may be represented by:
 
-[
-\boxed{
-D_E
-===
+## \[ \\boxed{ D_E
 
 Hash(
 operation
-\Vert
+\\Vert
 target
-\Vert
+\\Vert
 parameters
-\Vert
+\\Vert
 principal
-\Vert
+\\Vert
 transaction
 )
 }
-]
+\]
 
 The digest binds governance state to the intended effect.
 
----
+______________________________________________________________________
 
-# 31. Idempotency
+## 31. Idempotency
 
 For effects that must not execute twice:
 
-[
-Key(E)
-======
+## \[ Key(E)
 
 idempotency_key
-]
+\]
 
 Required invariant:
 
-[
-\boxed{
+\[
+\\boxed{
 SameEffectIdentity
-\Rightarrow
+\\Rightarrow
 AtMostOneLogicalCommit
 }
-]
+\]
 
 Retries must not silently create duplicate external effects.
 
----
+______________________________________________________________________
 
-# 32. Effect Release State
+## 32. Effect Release State
 
 The control plane maintains authoritative release state.
 
-[
-L_E
-===
+## \[ L_E
 
-[
+\[
 ledger_id,
 generation,
 version,
@@ -1170,8 +1119,8 @@ canonical_hash,
 effect_digest,
 idempotency_key,
 state
-]
-]
+\]
+\]
 
 Possible states:
 
@@ -1185,36 +1134,31 @@ RECONCILING
 REVOKED
 ```
 
----
+______________________________________________________________________
 
-# 33. Release Ledger Identity
+## 33. Release Ledger Identity
 
 A scalar version alone is insufficient when authoritative ledger state may change through multiple dimensions.
 
 Use:
 
-[
-\boxed{
-I_L
-===
+## \[ \\boxed{ I_L
 
-[
+\[
 ledger_id,
 ledger_generation,
 ledger_version,
 Hash(ledger)
-]
+\]
 }
-]
+\]
 
 Commit requires:
 
-[
-I_L^{prepare}
-=============
+## \[ I_L^{prepare}
 
 I_L^{commit}
-]
+\]
 
 where applicable.
 
@@ -1224,102 +1168,97 @@ Mismatch yields:
 REVALIDATE_EFFECT_LEDGER
 ```
 
----
+______________________________________________________________________
 
-# 34. Commit Gate
+## 34. Commit Gate
 
 The core commit equation is:
 
-[
-\boxed{
-CommitAllowed(a)
-================
+## \[ \\boxed{ CommitAllowed(a)
 
 T
-\land
+\\land
 C
-\land
+\\land
 E
-\land
+\\land
 R
-\land
+\\land
 X
-\land
+\\land
 A
-\land
+\\land
 K
-\land
+\\land
 O
-\land
+\\land
 L
 }
-]
+\]
 
 where:
 
-- \(T\) = task valid,
-- \(C\) = capability contract valid,
-- \(E\) = evidence valid,
-- \(R\) = authoritative reads fresh,
-- \(X\) = semantic transaction valid,
-- \(A\) = authority current,
-- \(K\) = constraints current,
-- \(O\) = observability sufficient,
-- \(L\) = release state safe.
+- (T) = task valid,
+- (C) = capability contract valid,
+- (E) = evidence valid,
+- (R) = authoritative reads fresh,
+- (X) = semantic transaction valid,
+- (A) = authority current,
+- (K) = constraints current,
+- (O) = observability sufficient,
+- (L) = release state safe.
 
 If any required hard term is false:
 
-[
-\boxed{
+\[
+\\boxed{
 CommitAllowed=0
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 35. Proposal / Commit Separation
+## 35. Proposal / Commit Separation
 
 Reasoning produces:
 
-[
+\[
 Proposal(a)
-]
+\]
 
 The control plane produces:
 
-[
+\[
 CommitDecision(a)
-]
+\]
 
 Only:
 
-[
+\[
 CommitDecision(a)=COMMITTABLE
-]
+\]
 
 permits transition toward effect execution.
 
 Thus:
 
-[
-\boxed{
+\[
+\\boxed{
 Proposal
-\neq
+\\neq
 Commit
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 36. Observability Envelope
+## 36. Observability Envelope
 
 A consequential action requires sufficient observation to determine what happened.
 
-[
-O_E
-===
+## \[ O_E
 
-[
+\[
 required_events,
 logs,
 receipts,
@@ -1327,22 +1266,22 @@ identifiers,
 timestamps,
 state_checks,
 retention
-]
-]
+\]
+\]
 
 Observability is an infrastructure responsibility because recovery depends on knowing whether an effect occurred.
 
----
+______________________________________________________________________
 
-# 37. Observability Invariant
+## 37. Observability Invariant
 
-[
-\boxed{
+\[
+\\boxed{
 IrreversibleOrExternalEffect
-\Rightarrow
+\\Rightarrow
 SufficientObservability
 }
-]
+\]
 
 If the required observability envelope cannot be established:
 
@@ -1358,17 +1297,15 @@ REVALIDATE_OBSERVABILITY
 
 when the envelope has become stale.
 
----
+______________________________________________________________________
 
-# 38. Receiver Receipt
+## 38. Receiver Receipt
 
 A receipt is evidence about external completion.
 
-[
-R_R
-===
+## \[ R_R
 
-[
+\[
 receiver,
 effect_digest,
 idempotency_key,
@@ -1377,36 +1314,36 @@ authority_id,
 principal,
 operation,
 attestation
-]
-]
+\]
+\]
 
 A receipt identifier alone is insufficient proof.
 
----
+______________________________________________________________________
 
-# 39. Receiver-Attested Completion
+## 39. Receiver-Attested Completion
 
 For a committed external effect, completion should be established through a trusted receiver/service attestation where the capability requires it.
 
 The receipt should bind:
 
-[
-\boxed{
+\[
+\\boxed{
 service
-+
+\+
 effect_digest
-+
+\+
 idempotency_key
-+
+\+
 transaction
-+
+\+
 authority
-+
+\+
 principal
-+
+\+
 operation
 }
-]
+\]
 
 Missing or unverifiable required receipts produce:
 
@@ -1416,38 +1353,38 @@ BLOCK_RECEIPT
 
 or a reconciliation state where execution outcome is ambiguous.
 
----
+______________________________________________________________________
 
-# 40. Trust Registry
+## 40. Trust Registry
 
 Receipt verification depends on an infrastructure-owned trust registry.
 
-[
+\[
 T_R=
-[
+\[
 service,
 key,
 validity,
 revocation,
 trust_epoch
-]
-]
+\]
+\]
 
 A cryptographically valid signature is not necessarily currently trusted.
 
 Therefore:
 
-[
-\boxed{
+\[
+\\boxed{
 SignatureValid
-\neq
+\\neq
 CurrentTrust
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 41. Temporal Trust
+## 41. Temporal Trust
 
 Receiver trust must account for:
 
@@ -1461,9 +1398,9 @@ trust_registry_epoch
 
 A previously valid receiver key may no longer be acceptable.
 
----
+______________________________________________________________________
 
-# 42. Completion Boundary
+## 42. Completion Boundary
 
 The control plane distinguishes:
 
@@ -1477,29 +1414,29 @@ EFFECT_RECONCILED
 
 These are separate states.
 
-[
-\boxed{
+\[
+\\boxed{
 RecordedCommit
-\neq
+\\neq
 ReceiverObservedCompletion
 }
-]
+\]
 
 unless the capability contract explicitly defines the record itself as the final effect.
 
----
+______________________________________________________________________
 
-# 43. Crash Ambiguity
+## 43. Crash Ambiguity
 
 A critical failure case occurs when the process crashes after sending an external request but before recording its completion.
 
 Then:
 
-[
+\[
 EffectOccurred
-\in
+\\in
 {TRUE,FALSE,UNKNOWN}
-]
+\]
 
 If unknown:
 
@@ -1509,9 +1446,9 @@ RECONCILE_EFFECT
 
 not blind retry.
 
----
+______________________________________________________________________
 
-# 44. Recovery Rule
+## 44. Recovery Rule
 
 For ambiguous external effects:
 
@@ -1529,15 +1466,15 @@ DO:
 
 The recovery goal is:
 
-[
-\boxed{
+\[
+\\boxed{
 DetermineEffectStateBeforeRetry
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 45. Control Plane Agents
+## 45. Control Plane Agents
 
 Conceptual agent roles may include:
 
@@ -1564,27 +1501,27 @@ They do not imply that each must be implemented as an independent LLM agent.
 
 A deterministic service may own any role where appropriate.
 
----
+______________________________________________________________________
 
-# 46. Agent Authority Invariant
+## 46. Agent Authority Invariant
 
 No worker agent owns authority merely because it generated the proposed action.
 
-[
-\boxed{
+\[
+\\boxed{
 ProposalAuthor
-\neq
+\\neq
 AuthorityIssuer
 }
-]
+\]
 
 where independent authority is required.
 
 The control plane remains external to worker cognition.
 
----
+______________________________________________________________________
 
-# 47. Skills Interface
+## 47. Skills Interface
 
 Domain skills connect through a typed capability ABI.
 
@@ -1605,9 +1542,9 @@ A skill may declare domain requirements.
 
 It may not override infrastructure authority or release-ledger state.
 
----
+______________________________________________________________________
 
-# 48. Skill Contract
+## 48. Skill Contract
 
 ```yaml
 skill_control_contract:
@@ -1635,9 +1572,9 @@ skill_control_contract:
     - receiver_trust
 ```
 
----
+______________________________________________________________________
 
-# 49. Workflow
+## 49. Workflow
 
 Canonical workflow:
 
@@ -1666,9 +1603,9 @@ Canonical workflow:
 22 SELECTIVELY INVALIDATE DEPENDENTS IF REQUIRED
 ```
 
----
+______________________________________________________________________
 
-# 50. Protocol Stack
+## 50. Protocol Stack
 
 ```text
 L00 REALITY / ENVIRONMENT
@@ -1701,9 +1638,9 @@ RECEIPT PROTOCOL
 RECOVERY / RECONCILIATION PROTOCOL
 ```
 
----
+______________________________________________________________________
 
-# 51. H/M/L Applicability
+## 51. H/M/L Applicability
 
 ## L — Local
 
@@ -1721,13 +1658,13 @@ single receipt
 
 Local invariant:
 
-[
+\[
 LocalCommit
-\Rightarrow
+\\Rightarrow
 LocalDependencyClosure
-]
+\]
 
----
+______________________________________________________________________
 
 ## M — Subsystem
 
@@ -1744,13 +1681,13 @@ dependent commits
 
 Medium-scale invariant:
 
-[
+\[
 MCommit
-\Rightarrow
-Compatible(L_1,\ldots,L_n)
-]
+\\Rightarrow
+Compatible(L_1,\\ldots,L_n)
+\]
 
----
+______________________________________________________________________
 
 ## H — Governing
 
@@ -1769,41 +1706,41 @@ recovery policy
 
 High-level invariant:
 
-[
+\[
 H
-\rightarrow
+\\rightarrow
 Constraints(M,L)
-]
+\]
 
 but high-level policy does not fabricate low-level evidence.
 
----
+______________________________________________________________________
 
-# 52. Cross-Scale Invariant
+## 52. Cross-Scale Invariant
 
-[
-\boxed{
+\[
+\\boxed{
 HPolicy
-\neq
+\\neq
 LEvidence
 }
-]
+\]
 
 and:
 
-[
-\boxed{
+\[
+\\boxed{
 LSuccess
-\neq
+\\neq
 HSystemValidity
 }
-]
+\]
 
 A successful local action does not prove that the governing architecture is correct.
 
----
+______________________________________________________________________
 
-# 53. Control Plane Dependency Graph
+## 53. Control Plane Dependency Graph
 
 ```text
 TASK
@@ -1847,16 +1784,13 @@ RECEIPT
 FINALITY / RECONCILIATION
 ```
 
----
+______________________________________________________________________
 
-# 54. Provenance Tensor
+## 54. Provenance Tensor
 
-[
-\boxed{
-T_P
-===
+## \[ \\boxed{ T_P
 
-T[
+T\[
 object,
 origin,
 ancestry,
@@ -1868,39 +1802,39 @@ principal,
 transaction,
 authority,
 effect
-]
+\]
 }
-]
+\]
 
 Every consequential effect should remain traceable backward toward its decision-forming evidence and authority.
 
----
+______________________________________________________________________
 
-# 55. Control Plane Provenance Invariant
+## 55. Control Plane Provenance Invariant
 
-[
-\boxed{
+\[
+\\boxed{
 Effect
-\rightarrow
+\\rightarrow
 Transaction
-\rightarrow
+\\rightarrow
 Decision
-\rightarrow
+\\rightarrow
 Evidence
 }
-]
+\]
 
 and separately:
 
-[
-\boxed{
+\[
+\\boxed{
 Effect
-\rightarrow
+\\rightarrow
 Authority
-\rightarrow
+\\rightarrow
 Issuer
 }
-]
+\]
 
 These chains must not be conflated.
 
@@ -1908,27 +1842,27 @@ Evidence explains why an action was proposed.
 
 Authority explains why it was permitted.
 
----
+______________________________________________________________________
 
-# 56. Evidence and Authority Separation
+## 56. Evidence and Authority Separation
 
-[
-\boxed{
+\[
+\\boxed{
 StrongEvidence
-\not\Rightarrow
+\\not\\Rightarrow
 Authority
 }
-]
+\]
 
 and:
 
-[
-\boxed{
+\[
+\\boxed{
 Authority
-\not\Rightarrow
+\\not\\Rightarrow
 ClaimTruth
 }
-]
+\]
 
 A highly authorized action may still be based on weak evidence.
 
@@ -1936,9 +1870,9 @@ A strongly evidenced proposal may still be unauthorized.
 
 Both gates matter.
 
----
+______________________________________________________________________
 
-# 57. Control Plane Invariants
+## 57. Control Plane Invariants
 
 ## CP-INV-01 — Cognition Separation
 
@@ -2012,9 +1946,9 @@ Domain workers may not author authoritative effect-release state.
 
 Ambiguous effects must be reconciled before unsafe repetition.
 
----
+______________________________________________________________________
 
-# 58. Failure Modes
+## 58. Failure Modes
 
 ```text
 CP-FM-01  worker output treated as authority
@@ -2058,67 +1992,62 @@ CP-FM-19  UNKNOWN interpreted as successful validation
 CP-FM-20  successful local execution interpreted as system-wide correctness
 ```
 
----
+______________________________________________________________________
 
-# 59. Repair / Recovery
+## 59. Repair / Recovery
 
 Recovery follows:
 
-[
-\boxed{
+\[
+\\boxed{
 Detect
-\rightarrow
+\\rightarrow
 Localize
-\rightarrow
+\\rightarrow
 Invalidate
-\rightarrow
+\\rightarrow
 Rollback/Reconcile
-\rightarrow
+\\rightarrow
 Revalidate
-\rightarrow
+\\rightarrow
 Resume
 }
-]
+\]
 
 not:
 
-[
+\[
 Failure
-\rightarrow
+\\rightarrow
 GlobalReset
-]
+\]
 
 unless dependency closure requires global invalidation.
 
----
+______________________________________________________________________
 
-# 60. Selective Repair
+## 60. Selective Repair
 
 For failed premise (p):
 
-[
-Affected(p)
-===========
+## \[ Affected(p)
 
 Descendants(p)
-]
+\]
 
 Repair scope should approximate:
 
-[
-\boxed{
-RepairScope
-===========
+## \[ \\boxed{ RepairScope
 
 SmallestSafeDependencyClosure(p)
 }
-]
+\]
 
 Unaffected state should remain valid.
 
----
+______________________________________________________________________
 
-# 61. Recovery States
+## 61. Recovery States
 
 ```text
 VALID
@@ -2146,9 +2075,9 @@ BLOCKED
 UNKNOWN_GAP
 ```
 
----
+______________________________________________________________________
 
-# 62. Tests and Validators
+## 62. Tests and Validators
 
 Minimum architecture tests should include:
 
@@ -2214,9 +2143,9 @@ CP-T29 Selective invalidation
 CP-T30 UNKNOWN/GAP fail-closed behavior
 ```
 
----
+______________________________________________________________________
 
-# 63. Validator Contract
+## 63. Validator Contract
 
 ```yaml
 validator_result:
@@ -2250,36 +2179,36 @@ validator_result:
 
 Hard invariant:
 
-[
-\boxed{
+\[
+\\boxed{
 UNKNOWN
-\neq
+\\neq
 PASS
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 64. Falsifiers
+## 64. Falsifiers
 
 This architecture should be considered incomplete or incorrectly implemented if evidence shows that:
 
 1. a worker can directly create durable effects without the required control-plane gate;
-2. capability automatically grants authority;
-3. commit proceeds using stale decision-forming reads;
-4. unrelated state changes invalidate every transaction;
-5. action parameters can diverge from authorized parameters without detection;
-6. domain workers can rewrite authoritative release-ledger state;
-7. duplicate retries can create duplicate logical effects;
-8. required external completion can be asserted from an unverifiable receipt;
-9. ambiguous effects are automatically retried without reconciliation;
-10. provenance cannot reconstruct the effect's decision lineage;
-11. `UNKNOWN` validator states are accepted as successful validation;
-12. domain-specific assumptions are silently embedded in infrastructure policy.
+1. capability automatically grants authority;
+1. commit proceeds using stale decision-forming reads;
+1. unrelated state changes invalidate every transaction;
+1. action parameters can diverge from authorized parameters without detection;
+1. domain workers can rewrite authoritative release-ledger state;
+1. duplicate retries can create duplicate logical effects;
+1. required external completion can be asserted from an unverifiable receipt;
+1. ambiguous effects are automatically retried without reconciliation;
+1. provenance cannot reconstruct the effect's decision lineage;
+1. `UNKNOWN` validator states are accepted as successful validation;
+1. domain-specific assumptions are silently embedded in infrastructure policy.
 
----
+______________________________________________________________________
 
-# 65. AI Application
+## 65. AI Application
 
 For an AI system:
 
@@ -2315,45 +2244,45 @@ COMMIT / BLOCK / REVALIDATE
 
 The AI therefore remains a cognition/proposal worker rather than the final source of authority.
 
----
+______________________________________________________________________
 
-# 66. Deterministic Governance Objective
+## 66. Deterministic Governance Objective
 
 The architectural objective is not:
 
-[
+\[
 DeterministicAIModel
-]
+\]
 
 A probabilistic model may remain probabilistic.
 
 The objective is:
 
-[
-\boxed{
+\[
+\\boxed{
 DeterministicallyGovernedEffects
 }
-]
+\]
 
 where effect admission follows explicit typed rules even when cognition is stochastic.
 
----
+______________________________________________________________________
 
-# 67. Control Equation
+## 67. Control Equation
 
 Let worker proposal be:
 
-[
-a^*=f_\theta(x)
-]
+\[
+a^\*=f\_\\theta(x)
+\]
 
-where (f_\theta) may be stochastic.
+where (f\_\\theta) may be stochastic.
 
 The control plane applies:
 
-[
-g(a^*,S_{CP})
-\rightarrow
+\[
+g(a^\*,S\_{CP})
+\\rightarrow
 {
 COMMIT,
 BLOCK,
@@ -2361,25 +2290,25 @@ REVALIDATE,
 RECONCILE,
 UNKNOWN
 }
-]
+\]
 
 Thus:
 
-[
-\boxed{
+\[
+\\boxed{
 StochasticProposal
-+
+\+
 DeterministicGovernance
-\rightarrow
+\\rightarrow
 BoundedActionSystem
 }
-]
+\]
 
 This is an AMOS architecture model, not a claim that probabilistic cognition itself becomes deterministic.
 
----
+______________________________________________________________________
 
-# 68. Minimum Commit Proof Capsule
+## 68. Minimum Commit Proof Capsule
 
 A consequential effect should conceptually carry:
 
@@ -2426,9 +2355,9 @@ commit_proof:
   confidence_ceiling:
 ```
 
----
+______________________________________________________________________
 
-# 69. Gap Classification
+## 69. Gap Classification
 
 Use:
 
@@ -2441,17 +2370,17 @@ COSMETIC
 
 A critical unresolved gap implies:
 
-[
-\boxed{
+\[
+\\boxed{
 CommitAllowed=0
 }
-]
+\]
 
 unless the operation's contract explicitly proves that the missing information is irrelevant to that effect.
 
----
+______________________________________________________________________
 
-# 70. RSCF Completion State
+## 70. RSCF Completion State
 
 ```yaml
 claim_class: MODEL
@@ -2515,9 +2444,9 @@ confidence_ceiling:
   empirical_system_correctness: unverified
 ```
 
----
+______________________________________________________________________
 
-# 71. Hard Boundaries
+## 71. Hard Boundaries
 
 ```text
 PLACEHOLDER != IMPLEMENTED
@@ -2543,96 +2472,96 @@ UNKNOWN/GAP != PASS
 LOCAL_SUCCESS != SYSTEM_VALIDITY
 ```
 
----
+______________________________________________________________________
 
-# 72. Canonical Control Plane Law
+## 72. Canonical Control Plane Law
 
-[
-\boxed{
-Effect
-======
+## \[ \\boxed{ Effect
 
 Proposal
-\cap
+\\cap
 Evidence
-\cap
+\\cap
 FreshState
-\cap
+\\cap
 ValidTransaction
-\cap
+\\cap
 Authority
-\cap
+\\cap
 Constraints
-\cap
+\\cap
 Observability
-\cap
+\\cap
 SafeRelease
 }
-]
+\]
 
 No single term substitutes for the others.
 
 The control plane exists to ensure that cognition cannot silently collapse:
 
-[
-\boxed{
+\[
+\\boxed{
 Reasoning
-\rightarrow
+\\rightarrow
 Authority
-\rightarrow
+\\rightarrow
 Reality
 }
-]
+\]
 
 into one uncontrolled operation.
 
 The required AMOS separation is:
 
-[
-\boxed{
+\[
+\\boxed{
 Reality
-\rightarrow
+\\rightarrow
 Observation
-\rightarrow
+\\rightarrow
 Evidence
-\rightarrow
+\\rightarrow
 Reasoning
-\rightarrow
+\\rightarrow
 Proposal
-\rightarrow
+\\rightarrow
 Governance
-\rightarrow
+\\rightarrow
 Commit
-\rightarrow
+\\rightarrow
 Effect
-\rightarrow
+\\rightarrow
 Observation'
 }
-]
+\]
 
 with provenance, authority, freshness, reversibility, and recovery preserved across the transition.
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · 06-Knowledge-Base-MOC · AMOS_Typed_Tensor_Contracts · AMOS_Evidence_Tensor_Architecture · Cosmo_Brain_BRIDGE_INDEX · AMOS_Relation_Tensor_Architecture · AMOS_Infrastructure_Control_Plane · AMOS_Deterministic_AI_Control_Plane · AMOS_Commit_Time_Authorization · AMOS_Execution_Provenance_Replay · AMOS_Semantic_Workflow_Persistence · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations|AMOS_Simulation_Kernel_v0_Math_Foundations]] · system_scan_agent · automation_profiles
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: l00_reality_environment_primitives_cognitive_matrix_control_planes
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_CONTROL_PLANES.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_MOC|L00_REALITY_ENVIRONMENT_MOC]]
-

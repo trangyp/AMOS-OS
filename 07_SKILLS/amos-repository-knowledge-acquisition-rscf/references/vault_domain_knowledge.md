@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Vault Domain Knowledge — Amos Repository Knowledge Acquisition Rscf
 type: reference
 source: 07_SKILLS/amos-repository-knowledge-acquisition-rscf/references
 tags:
-- reference
-- amos-repository-knowledge-acquisition-rscf
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-repository-knowledge-acquisition-rscf
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -27,13 +30,13 @@ rscf:
 
 > Path: `amos-general/A/PROTECTED/AMOS_PROTECTED_KNOWLEDGE_TRAINING_CONTROL_ARCHITECTURE_MAX_DETAIL.md` | Size: 59641 chars | Match score: 10
 
-# AMOS Protected Knowledge & Training Control Architecture
+## AMOS Protected Knowledge & Training Control Architecture
+
 ## Maximum-Detail AMOS Refinement of “The Uncopyable Training Architecture”
 
+______________________________________________________________________
 
----
-
-# 0. Executive Reframing
+## 0. Executive Reframing
 
 The source architecture is valuable because it recognizes a real problem:
 
@@ -42,12 +45,12 @@ The source architecture is valuable because it recognizes a real problem:
 The source solves this through seven layers:
 
 1. Identity Framework
-2. Structural Laws
-3. Implicit Constraints
-4. Ephemeral Enforcement
-5. Anti-Exfiltration
-6. Output-Only Behavioral Definition
-7. Human-Embedded Final Enforcement
+1. Structural Laws
+1. Implicit Constraints
+1. Ephemeral Enforcement
+1. Anti-Exfiltration
+1. Output-Only Behavioral Definition
+1. Human-Embedded Final Enforcement
 
 AMOS preserves those seven source layers, but replaces absolute claims such as:
 
@@ -100,9 +103,9 @@ MULTIPLE_FRAGMENTS != INDEPENDENT_ORIGINS
 NO_KNOWN_EXTRACTION != PROOF_OF_UNCOPYABILITY
 ```
 
----
+______________________________________________________________________
 
-# 1. Architectural Objective
+## 1. Architectural Objective
 
 ## 1.1 Primary objective
 
@@ -123,36 +126,36 @@ The system should also:
 - permit legitimate declassification;
 - permit reproducible validation without revealing unnecessary
 
----
+______________________________________________________________________
 
 ### Source 2: The Complete Human System — Book Knowledge Base
 
 > Path: `dated/2026-08-22/2026-08-22 The Complete Human System — Book Knowledge Base.md` | Size: 21469 chars | Match score: 10
 
-# The Complete Human System — Book Knowledge Base
+## The Complete Human System — Book Knowledge Base
 
 > **One model. All equations grounded in biology/neuroscience. No fluff.** >
 > Core claim: Humans are nested memory architectures across 10+ layers (genetic → cellular → immune → metabolic → ANS → emotional → narrative → cultural → civilizational). Every equation maps to specific anatomy, neurotransmitters, hormones, or cell types.
 
-> [!info] Epistemic Audit (post-ingestion test, 2026-08-22 — v2, full cross-note audit)
->
+> [!INFO] Epistemic Audit (post-ingestion test, 2026-08-22 — v2, full cross-note audit)
 > **Internal consistency:** PASS — 3/3 tests pass (equation set, distress equation, repair protocol identical across both versions)
 >
 > **Cross-note audit (65 equations cataloged):** > - Shared equations: 21
+>
 > - Canonical-only: 19
 > - Books-only: 25
 > - Formulation clashes: 5 (all resolved as complementary, not contradictory)
 > - Actual contradictions: **0** >
-> **Unverified claims flagged:** 6 claims need epistemic qualification before citing
+>   **Unverified claims flagged:** 6 claims need epistemic qualification before citing
 >
-> | Claim | Problem | Qualification |
-> |-------|---------|---------------|
-> | "Humans are not primarily rational" | 'Primarily' undefined | MODEL — supported by dual-process theory but no ratio given |
-> | "80-90% vagal fibers afferent" | No citation, range varies by source | OBSERVATION — well-supported anatomically but needs citation |
-> | "Social pain = physical pain (same network)" | 'Same' too strong for overlapping activation | OBSERVATION — better stated as "overlapping substrates in ACC/insula" (Eisenberger et al. 2003) |
-> | "Manipulation = control through regulation below awareness" | Definitional overreach; some manipulation is conscious | MODEL — applies to digital/commercial manipulation, not all manipulation |
-> | "Depression = Distinction_Collapse across Future_Space" | Not operationalizable; metaphors | MODEL — structural interpretation, not clinical diagnostic model |
-> | "Platform_Model(User) > User_Model(Self)" | Not true for all platforms | MODEL — true for engagement-optimized platforms, not generally |
+> | Claim                                                       | Problem                                                | Qualification                                                                                   |
+> | ----------------------------------------------------------- | ------------------------------------------------------ | ----------------------------------------------------------------------------------------------- |
+> | "Humans are not primarily rational"                         | 'Primarily' undefined                                  | MODEL — supported by dual-process theory but no ratio given                                     |
+> | "80-90% vagal fibers afferent"                              | No citation, range varies by source                    | OBSERVATION — well-supported anatomically but needs citation                                    |
+> | "Social pain = physical pain (same network)"                | 'Same' too strong for overlapping activation           | OBSERVATION — better stated as "overlapping substrates in ACC/insula" (Eisenberger et al. 2003) |
+> | "Manipulation = control through regulation below awareness" | Definitional overreach; some manipulation is conscious | MODEL — applies to digital/commercial manipulation, not all manipulation                        |
+> | "Depression = Distinction_Collapse across Future_Space"     | Not operationalizable; metaphors                       | MODEL — structural interpretation, not clinical diagnostic model                                |
+> | "Platform_Model(User) > User_Model(Self)"                   | Not true for all platforms                             | MODEL — true for engagement-optimized platforms, not generally                                  |
 >
 > **Falsifiability:** 2 easy-to-falsify, 2 moderate, 2 hard
 >
@@ -162,19 +165,20 @@ The system should also:
 
 ## Core Architecture
 
-
 ```
 Reality = Persistence of Distinction
 ```
+
 ```
 Potential ⇄ Distinction ⇄ Observer ⇄ Inquiry ⇄ Higher Distinction
 ```
-Everything else—physics, biology, mind, civilization, suffering, healing—is a fractal expression of this at different scales.
 
+Everything else—physics, biology, mind, civilization, suffering, healing—is a fractal expression of this at different scales.
 
 ```
 Human = Nested Memory Architecture
 ```
+
 ```
 BAD: Humans are not primarily rational creatures
 GOOD: The majority of human cognitive processing is automatic, affective, and regulatory
@@ -189,7 +193,7 @@ GOOD: Approximately 80% of the ~100,000 vag
 
 > Path: `dated/2026-08-22/2026-08-22 AMOS Quantum Physics Knowledge Base.md` | Size: 3338 chars | Match score: 10
 
-# AMOS Quantum Physics Knowledge Base
+## AMOS Quantum Physics Knowledge Base
 
 > Epistic class: OBSERVATION
 > Conclusion label: `VERIFIED` — 80+ quantum physics knowledge entries added to the approved knowledge base with full test coverage.
@@ -264,10 +268,10 @@ Total knowledge tests: 33 (was 29, +4 new)
 ---
 **MOC:**
 ```
----
 
-**Related:** [[07_SKILLS/amos-repository-knowledge-acquisition-rscf/amos-repository-knowledge-acquisition-rscf_MOC|amos-repository-knowledge-acquisition-rscf_MOC]]
----
+______________________________________________________________________
+
+## **Related:** [[07_SKILLS/amos-repository-knowledge-acquisition-rscf/amos-repository-knowledge-acquisition-rscf_MOC|amos-repository-knowledge-acquisition-rscf_MOC]]
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -275,13 +279,14 @@ Total knowledge tests: 33 (was 29, +4 new)
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-repository-knowledge-acquisition-rscf-vault-domain-knowledge
 node_type: reference
 path: 07_SKILLS/amos-repository-knowledge-acquisition-rscf/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC
-

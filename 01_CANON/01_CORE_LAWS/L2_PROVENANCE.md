@@ -1,4 +1,7 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: L2 PROVENANCE
 type: note
 source: 01_CANON/01_CORE_LAWS
@@ -6,22 +9,18 @@ rscf:
   state: SOURCE_CLAIM
   class: STRUCTURAL
   provenance:
-  - internal
+    - internal
   freshness: EVERGREEN
   falsifiers: []
 tags:
-- note
-- 01-core-laws
-- law/L0-integrity
-- law/L1-epistemic
+  - note
+  - 01-core-laws
+  - law/L0-integrity
+  - law/L1-epistemic
 canon-group: canon/core-laws
 ---
 
----title: "AMOS Core Laws — L2 Provenance Laws"
-type: document
-tags: [note]
----
-
+## ---title: "AMOS Core Laws — L2 Provenance Laws" type: document tags: [note]
 
 # L2 Provenance Laws
 
@@ -34,11 +33,13 @@ It replaces the previous structural placeholder with a substantive provenance co
 The artifact combines two explicitly separated classes of material:
 
 1. **SOURCE-DERIVED AMOS lineage**
+
    - provenance-topology hardening exists in the AMOS_CORE lineage;
    - AMOS_CORE v3.7.1 explicitly introduces hardened provenance topology;
    - exact-root content fingerprints may collapse provenance aliases representing the same root.
 
-2. **AMOS_MODEL formalization**
+1. **AMOS_MODEL formalization**
+
    - generalized provenance tensors;
    - provenance graphs;
    - independence matrices;
@@ -54,9 +55,9 @@ Origin architect / steward:
 
 **Trang Phan**
 
----
+______________________________________________________________________
 
-# 1. Hard Boundaries
+## 1. Hard Boundaries
 
 ```text
 SOURCE != CLAIM
@@ -102,9 +103,9 @@ PROPOSAL != COMMIT
 UNKNOWN/GAP != PASS
 ```
 
----
+______________________________________________________________________
 
-# 2. Purpose
+## 2. Purpose
 
 L2 governs the origin, ancestry, transformation history, identity, independence, version lineage, trust boundaries, supersession, revocation, and downstream propagation of information used by AMOS.
 
@@ -146,9 +147,9 @@ effective independent roots ≈ 1
 
 for the information inherited from that root.
 
----
+______________________________________________________________________
 
-# 3. Relationship to L0 and L1
+## 3. Relationship to L0 and L1
 
 The core-law dependency chain is:
 
@@ -188,9 +189,9 @@ TRUST / CONFIDENCE CEILING
 
 L2 therefore constrains downstream epistemic confidence.
 
----
+______________________________________________________________________
 
-# 4. Core Provenance Principle
+## 4. Core Provenance Principle
 
 The governing principle is:
 
@@ -198,9 +199,9 @@ The governing principle is:
 
 AMOS MUST NOT infer independence merely because evidence appears in separate files, URLs, agents, repositories, memories, reports, or outputs.
 
----
+______________________________________________________________________
 
-# 5. Provenance Object
+## 5. Provenance Object
 
 The proposed normalized provenance object is:
 
@@ -266,9 +267,9 @@ ProvenanceObject:
 
 This schema is an `AMOS_MODEL` formalization.
 
----
+______________________________________________________________________
 
-# 6. Source-Derived Provenance Tensor Anchor
+## 6. Source-Derived Provenance Tensor Anchor
 
 AMOS provenance may be represented conceptually as:
 
@@ -324,9 +325,9 @@ records current provenance validity.
 
 The generalized tensor is an `AMOS_MODEL` representation of the provenance architecture.
 
----
+______________________________________________________________________
 
-# 7. L2-P001 — Every Material Evidence Object Should Have Provenance
+## 7. L2-P001 — Every Material Evidence Object Should Have Provenance
 
 For consequential reasoning:
 
@@ -366,9 +367,9 @@ Missing provenance does not necessarily make evidence false.
 
 It lowers what AMOS may safely infer from it.
 
----
+______________________________________________________________________
 
-# 8. L2-P002 — Immediate Source and Root Source Must Remain Distinct
+## 8. L2-P002 — Immediate Source and Root Source Must Remain Distinct
 
 Suppose:
 
@@ -394,9 +395,9 @@ root_source(B) = R
 
 These identities must not be collapsed.
 
----
+______________________________________________________________________
 
-# 9. L2-P003 — Source Identity Is Not Root Identity
+## 9. L2-P003 — Source Identity Is Not Root Identity
 
 Two objects may have different source identifiers while sharing the same root.
 
@@ -412,9 +413,9 @@ root(A) != root(B)
 
 This is a fundamental anti-Sybil rule.
 
----
+______________________________________________________________________
 
-# 10. L2-P004 — Exact-Root Fingerprint Collapse
+## 10. L2-P004 — Exact-Root Fingerprint Collapse
 
 Where fingerprint assumptions are valid, exact-root equivalence may be represented:
 
@@ -434,9 +435,9 @@ for claims inherited from that root.
 
 This is a source-anchored AMOS provenance-hardening principle.
 
----
+______________________________________________________________________
 
-# 11. L2-P005 — Fingerprint Equality Has Limited Meaning
+## 11. L2-P005 — Fingerprint Equality Has Limited Meaning
 
 Fingerprint equality establishes identity under the applicable fingerprint method.
 
@@ -462,9 +463,9 @@ FINGERPRINT_EQUALITY
 
 is an identity rule, not a universal semantic-equivalence rule.
 
----
+______________________________________________________________________
 
-# 12. L2-P006 — Different Fingerprints Do Not Automatically Prove Independent Origins
+## 12. L2-P006 — Different Fingerprints Do Not Automatically Prove Independent Origins
 
 ```text
 Fingerprint(A) != Fingerprint(B)
@@ -494,9 +495,9 @@ A and B may share an upstream institution
 
 Fingerprint inequality is therefore insufficient for provenance independence.
 
----
+______________________________________________________________________
 
-# 13. L2-P007 — Alias Collapse
+## 13. L2-P007 — Alias Collapse
 
 If:
 
@@ -522,9 +523,9 @@ EffectiveRoots = 1
 
 not `3`.
 
----
+______________________________________________________________________
 
-# 14. L2-P008 — Paraphrase Does Not Create Independence
+## 14. L2-P008 — Paraphrase Does Not Create Independence
 
 If:
 
@@ -547,9 +548,9 @@ A
  └── PARAPHRASED_AS → B
 ```
 
----
+______________________________________________________________________
 
-# 15. L2-P009 — Summarization Does Not Create Independence
+## 15. L2-P009 — Summarization Does Not Create Independence
 
 ```text
 SUMMARY(S)
@@ -567,9 +568,9 @@ root(S)
 
 unless the summary independently incorporates additional evidence.
 
----
+______________________________________________________________________
 
-# 16. L2-P010 — Translation Does Not Create Independence
+## 16. L2-P010 — Translation Does Not Create Independence
 
 If:
 
@@ -581,9 +582,9 @@ then `B` remains provenance-dependent on `A`.
 
 Translation may introduce semantic uncertainty, but not independent confirmation.
 
----
+______________________________________________________________________
 
-# 17. L2-P011 — Format Conversion Does Not Create Independence
+## 17. L2-P011 — Format Conversion Does Not Create Independence
 
 Conversions such as:
 
@@ -601,9 +602,9 @@ web page → screenshot
 
 do not create new evidentiary roots.
 
----
+______________________________________________________________________
 
-# 18. L2-P012 — Model Restatement Does Not Create Independence
+## 18. L2-P012 — Model Restatement Does Not Create Independence
 
 If a model generates a statement based entirely on source `S`:
 
@@ -619,9 +620,9 @@ then `O` does not independently corroborate `S`.
 
 The model output is a descendant.
 
----
+______________________________________________________________________
 
-# 19. L2-P013 — Memory Storage Does Not Create Independence
+## 19. L2-P013 — Memory Storage Does Not Create Independence
 
 If:
 
@@ -639,9 +640,9 @@ root(M) = root(S)
 
 for the inherited claim.
 
----
+______________________________________________________________________
 
-# 20. L2-P014 — Canon Storage Does Not Erase Provenance
+## 20. L2-P014 — Canon Storage Does Not Erase Provenance
 
 Admission into AMOS canon must not erase source ancestry.
 
@@ -661,9 +662,9 @@ governance metadata
 
 but must preserve the lineage of the admitted material.
 
----
+______________________________________________________________________
 
-# 21. L2-P015 — Derived Claims Preserve Ancestry
+## 21. L2-P015 — Derived Claims Preserve Ancestry
 
 Suppose:
 
@@ -685,9 +686,9 @@ ancestry(C)
 
 The derived claim cannot legitimately present itself as originless.
 
----
+______________________________________________________________________
 
-# 22. L2-P016 — Transformation History Must Be Recoverable
+## 22. L2-P016 — Transformation History Must Be Recoverable
 
 Where material, provenance SHOULD preserve transformations such as:
 
@@ -727,9 +728,9 @@ CANONICALIZE
 
 The transformation sequence may affect interpretation and trust.
 
----
+______________________________________________________________________
 
-# 23. L2-P017 — Transformation May Introduce New Uncertainty
+## 23. L2-P017 — Transformation May Introduce New Uncertainty
 
 If:
 
@@ -769,9 +770,9 @@ normalization mistake
 aggregation bias
 ```
 
----
+______________________________________________________________________
 
-# 24. L2-P018 — Provenance Is a Graph, Not Merely a Citation List
+## 24. L2-P018 — Provenance Is a Graph, Not Merely a Citation List
 
 AMOS provenance SHOULD support:
 
@@ -804,9 +805,9 @@ root diversity
 downstream impact
 ```
 
----
+______________________________________________________________________
 
-# 25. Provenance Node
+## 25. Provenance Node
 
 A normalized provenance node MAY contain:
 
@@ -838,9 +839,9 @@ node:
   status: null
 ```
 
----
+______________________________________________________________________
 
-# 26. Provenance Edge
+## 26. Provenance Edge
 
 A normalized provenance edge MAY contain:
 
@@ -874,9 +875,9 @@ edge:
   time: null
 ```
 
----
+______________________________________________________________________
 
-# 27. L2-P019 — Load-Bearing Ancestry Matters More Than Incidental Ancestry
+## 27. L2-P019 — Load-Bearing Ancestry Matters More Than Incidental Ancestry
 
 Not every ancestor materially supports every claim.
 
@@ -894,9 +895,9 @@ INCIDENTAL_ANCESTOR
 
 Confidence calculations should focus on ancestry actually required for the conclusion.
 
----
+______________________________________________________________________
 
-# 28. L2-P020 — Shared Load-Bearing Ancestry Reduces Independence
+## 28. L2-P020 — Shared Load-Bearing Ancestry Reduces Independence
 
 Define:
 
@@ -912,9 +913,9 @@ This does not imply a universal numeric independence formula.
 
 It defines a structural provenance constraint.
 
----
+______________________________________________________________________
 
-# 29. Independence Classes
+## 29. Independence Classes
 
 AMOS provenance SHOULD support at least:
 
@@ -932,9 +933,9 @@ UNKNOWN
 
 These classes describe provenance relationships, not necessarily statistical independence in the mathematical sense.
 
----
+______________________________________________________________________
 
-# 30. INDEPENDENT
+## 30. INDEPENDENT
 
 `INDEPENDENT` should require positive evidence that material support does not share the same relevant root ancestry.
 
@@ -942,9 +943,9 @@ Independence must be demonstrated.
 
 It must not be assumed from surface differences.
 
----
+______________________________________________________________________
 
-# 31. PARTIAL
+## 31. PARTIAL
 
 `PARTIAL` applies where sources contain both shared and independent ancestry.
 
@@ -958,9 +959,9 @@ B uses dataset D + independent experiment Y
 
 Their evidence is not fully independent and not fully identical.
 
----
+______________________________________________________________________
 
-# 32. CORRELATED
+## 32. CORRELATED
 
 `CORRELATED` applies when evidence shares material upstream dependencies.
 
@@ -986,17 +987,17 @@ Correlation does not automatically invalidate evidence.
 
 It constrains corroboration claims.
 
----
+______________________________________________________________________
 
-# 33. SAME_ROOT
+## 33. SAME_ROOT
 
 `SAME_ROOT` applies where evidence resolves to the same relevant origin.
 
 Multiple descendants of one root must not be counted as multiple independent roots.
 
----
+______________________________________________________________________
 
-# 34. UNKNOWN
+## 34. UNKNOWN
 
 When ancestry cannot be established:
 
@@ -1012,9 +1013,9 @@ independence = INDEPENDENT
 
 Unknown ancestry therefore imposes a confidence ceiling.
 
----
+______________________________________________________________________
 
-# 35. L2-P021 — Independence Must Be Demonstrated, Never Assumed
+## 35. L2-P021 — Independence Must Be Demonstrated, Never Assumed
 
 The default relationship for unresolved ancestry is:
 
@@ -1026,9 +1027,9 @@ This is one of the strongest provenance safeguards.
 
 Surface diversity is insufficient.
 
----
+______________________________________________________________________
 
-# 36. L2-P022 — Effective Corroboration Is Root-Bounded
+## 36. L2-P022 — Effective Corroboration Is Root-Bounded
 
 AMOS MODEL rule:
 
@@ -1040,9 +1041,9 @@ number_of_distinct_load_bearing_roots
 
 Therefore ten descendant reports from one original source cannot create ten independent confirmations of the inherited claim.
 
----
+______________________________________________________________________
 
-# 37. L2-P023 — Source Count Must Not Be Used as Independence Count
+## 37. L2-P023 — Source Count Must Not Be Used as Independence Count
 
 ```text
 N_sources
@@ -1064,9 +1065,9 @@ N_independent_roots
 N_sources
 ```
 
----
+______________________________________________________________________
 
-# 38. L2-P024 — Provenance Confidence Ceiling
+## 38. L2-P024 — Provenance Confidence Ceiling
 
 AMOS MODEL:
 
@@ -1092,9 +1093,9 @@ where applicable.
 
 This is a governance formalization, not an externally established statistical theorem.
 
----
+______________________________________________________________________
 
-# 39. L2-P025 — Confidence Cannot Be Amplified by Provenance Sybils
+## 39. L2-P025 — Confidence Cannot Be Amplified by Provenance Sybils
 
 Suppose:
 
@@ -1115,9 +1116,9 @@ confidence_gain_from_independent_corroboration
 
 must not be calculated as if five independent roots exist.
 
----
+______________________________________________________________________
 
-# 40. L2-P026 — Provenance Must Survive Agent Boundaries
+## 40. L2-P026 — Provenance Must Survive Agent Boundaries
 
 If information moves:
 
@@ -1133,9 +1134,9 @@ the source ancestry must remain recoverable.
 
 Agent handoff must not reset provenance.
 
----
+______________________________________________________________________
 
-# 41. L2-P027 — Provenance Must Survive Skill Boundaries
+## 41. L2-P027 — Provenance Must Survive Skill Boundaries
 
 ```text
 Skill A
@@ -1149,9 +1150,9 @@ must preserve evidence lineage where claims are reused.
 
 A new Skill invocation does not create a new source.
 
----
+______________________________________________________________________
 
-# 42. L2-P028 — Provenance Must Survive Session Boundaries
+## 42. L2-P028 — Provenance Must Survive Session Boundaries
 
 Persistent claims reused across sessions SHOULD preserve:
 
@@ -1167,9 +1168,9 @@ validation state
 
 when material.
 
----
+______________________________________________________________________
 
-# 43. L2-P029 — Provenance Must Survive Memory Boundaries
+## 43. L2-P029 — Provenance Must Survive Memory Boundaries
 
 Writing evidence into memory must not detach it from:
 
@@ -1187,9 +1188,9 @@ status
 
 Otherwise memory may become provenance laundering.
 
----
+______________________________________________________________________
 
-# 44. L2-P030 — Provenance Must Survive Compression
+## 44. L2-P030 — Provenance Must Survive Compression
 
 Context compression may shorten provenance representation.
 
@@ -1211,9 +1212,9 @@ material uncertainty
 
 where needed.
 
----
+______________________________________________________________________
 
-# 45. L2-P031 — Provenance Must Survive RSCF Composition
+## 45. L2-P031 — Provenance Must Survive RSCF Composition
 
 When RSCF nodes compose:
 
@@ -1225,9 +1226,9 @@ N1 + N2 → N3
 
 RSCF composition must not create epistemic independence.
 
----
+______________________________________________________________________
 
-# 46. L2-P032 — Provenance Must Survive H/M/L Translation
+## 46. L2-P032 — Provenance Must Survive H/M/L Translation
 
 If evidence moves:
 
@@ -1239,9 +1240,9 @@ its ancestry remains attached.
 
 Scale translation cannot reset origin.
 
----
+______________________________________________________________________
 
-# 47. L2-P033 — Scope Must Be Attached to Provenance
+## 47. L2-P033 — Scope Must Be Attached to Provenance
 
 A source may be valid for one scope and irrelevant for another.
 
@@ -1253,9 +1254,9 @@ scope(source)
 
 rather than source identity alone.
 
----
+______________________________________________________________________
 
-# 48. L2-P034 — Regime Must Be Attached to Provenance
+## 48. L2-P034 — Regime Must Be Attached to Provenance
 
 Evidence originating under regime `R1` may not support conclusions under `R2`.
 
@@ -1267,9 +1268,9 @@ regime
 
 must remain jointly inspectable where regime matters.
 
----
+______________________________________________________________________
 
-# 49. L2-P035 — Time Must Be Attached to Provenance
+## 49. L2-P035 — Time Must Be Attached to Provenance
 
 Relevant temporal fields MAY include:
 
@@ -1293,9 +1294,9 @@ supersession_time
 
 These times have different meanings and should not be collapsed where material.
 
----
+______________________________________________________________________
 
-# 50. L2-P036 — Version Must Be Attached to Mutable Sources
+## 50. L2-P036 — Version Must Be Attached to Mutable Sources
 
 For mutable sources:
 
@@ -1313,9 +1314,9 @@ source_id + version
 
 or an equivalent immutable reference.
 
----
+______________________________________________________________________
 
-# 51. L2-P037 — Hashes Are Evidence of Byte Identity Under Their Assumptions
+## 51. L2-P037 — Hashes Are Evidence of Byte Identity Under Their Assumptions
 
 A cryptographic hash can support:
 
@@ -1339,9 +1340,9 @@ semantic correctness
 independence
 ```
 
----
+______________________________________________________________________
 
-# 52. L2-P038 — Provenance Identity and Semantic Identity Are Distinct
+## 52. L2-P038 — Provenance Identity and Semantic Identity Are Distinct
 
 Two byte-identical files may have different:
 
@@ -1361,9 +1362,9 @@ Conversely, two semantically equivalent statements may have different byte repre
 
 AMOS must preserve the distinction.
 
----
+______________________________________________________________________
 
-# 53. L2-P039 — Provenance and Authorship Are Distinct
+## 53. L2-P039 — Provenance and Authorship Are Distinct
 
 Knowing where an artifact came from does not necessarily prove who authored its intellectual content.
 
@@ -1387,9 +1388,9 @@ data producer
 
 These roles should not be silently collapsed.
 
----
+______________________________________________________________________
 
-# 54. L2-P040 — Provenance and Ownership Are Distinct
+## 54. L2-P040 — Provenance and Ownership Are Distinct
 
 ```text
 SOURCE_OF_INFORMATION
@@ -1413,9 +1414,9 @@ or:
 EXECUTION_AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 55. L2-P041 — Provenance and Authority Are Distinct
+## 55. L2-P041 — Provenance and Authority Are Distinct
 
 A source may have valid provenance but insufficient authority for an action.
 
@@ -1427,9 +1428,9 @@ AUTHORIZED
 
 This preserves the boundary between epistemic evidence and control-plane authority.
 
----
+______________________________________________________________________
 
-# 56. L2-P042 — Canon Authority Must Be Provenance-Bound
+## 56. L2-P042 — Canon Authority Must Be Provenance-Bound
 
 Canon promotion SHOULD preserve:
 
@@ -1459,9 +1460,9 @@ from:
 CANONICAL ADMISSION
 ```
 
----
+______________________________________________________________________
 
-# 57. L2-P043 — Canonical Admission Does Not Rewrite Source History
+## 57. L2-P043 — Canonical Admission Does Not Rewrite Source History
 
 When an artifact becomes canonical:
 
@@ -1475,9 +1476,9 @@ Canon admission adds a governance event.
 
 It does not replace provenance.
 
----
+______________________________________________________________________
 
-# 58. L2-P044 — Supersession Must Preserve the Predecessor
+## 58. L2-P044 — Supersession Must Preserve the Predecessor
 
 When:
 
@@ -1495,9 +1496,9 @@ A → SUPERSEDED_BY → B
 
 rather than rewriting `A` into `B`.
 
----
+______________________________________________________________________
 
-# 59. L2-P045 — Supersession Is Not Deletion
+## 59. L2-P045 — Supersession Is Not Deletion
 
 A superseded source may remain necessary for:
 
@@ -1523,9 +1524,9 @@ SUPERSEDED
 NONEXISTENT
 ```
 
----
+______________________________________________________________________
 
-# 60. L2-P046 — Revocation Must Be Explicit
+## 60. L2-P046 — Revocation Must Be Explicit
 
 A provenance root may enter:
 
@@ -1551,9 +1552,9 @@ scope
 affected dependencies
 ```
 
----
+______________________________________________________________________
 
-# 61. L2-P047 — Revocation Must Propagate Selectively
+## 61. L2-P047 — Revocation Must Propagate Selectively
 
 Core rule:
 
@@ -1565,9 +1566,9 @@ invalidate(load-bearing descendants of p)
 
 Only descendants materially dependent on the invalidated premise should be invalidated where dependency structure is known.
 
----
+______________________________________________________________________
 
-# 62. L2-P048 — Revocation Must Not Destroy Independent Support
+## 62. L2-P048 — Revocation Must Not Destroy Independent Support
 
 Suppose:
 
@@ -1589,9 +1590,9 @@ requires reassessment.
 
 It does not necessarily become false.
 
----
+______________________________________________________________________
 
-# 63. L2-P049 — Provenance Graphs Must Support Selective Invalidation
+## 63. L2-P049 — Provenance Graphs Must Support Selective Invalidation
 
 A valid provenance system should answer:
 
@@ -1609,9 +1610,9 @@ Which have independent surviving support?
 
 Without this capability, safe repair becomes difficult.
 
----
+______________________________________________________________________
 
-# 64. L2-P050 — Unknown Provenance Must Remain Visible
+## 64. L2-P050 — Unknown Provenance Must Remain Visible
 
 Evidence with missing ancestry should be labeled:
 
@@ -1623,9 +1624,9 @@ or equivalent.
 
 It must not silently inherit trusted provenance from neighboring evidence.
 
----
+______________________________________________________________________
 
-# 65. L2-P051 — Provenance Gaps Are Epistemic Gaps
+## 65. L2-P051 — Provenance Gaps Are Epistemic Gaps
 
 If the root source cannot be established:
 
@@ -1647,9 +1648,9 @@ UNKNOWN/GAP
 
 depending on stakes.
 
----
+______________________________________________________________________
 
-# 66. L2-P052 — Provenance Must Be Immutable in History, Mutable in Status
+## 66. L2-P052 — Provenance Must Be Immutable in History, Mutable in Status
 
 Historical events should remain append-only conceptually:
 
@@ -1667,9 +1668,9 @@ Current status may change.
 
 Historical provenance should not be rewritten to match the current status.
 
----
+______________________________________________________________________
 
-# 67. L2-P053 — Provenance Updates Require Versioned State
+## 67. L2-P053 — Provenance Updates Require Versioned State
 
 Changes to:
 
@@ -1691,9 +1692,9 @@ status
 
 SHOULD produce a new provenance state or equivalent auditable revision.
 
----
+______________________________________________________________________
 
-# 68. L2-P054 — Root Resolution May Be Revised
+## 68. L2-P054 — Root Resolution May Be Revised
 
 A source initially classified:
 
@@ -1713,9 +1714,9 @@ SAME_ROOT
 
 plus downstream confidence revalidation.
 
----
+______________________________________________________________________
 
-# 69. L2-P055 — Independence Is Claim-Relative
+## 69. L2-P055 — Independence Is Claim-Relative
 
 Two sources may be independent for one claim and correlated for another.
 
@@ -1741,9 +1742,9 @@ Independence(A,B,C)
 
 may be more precise than a universal independence label.
 
----
+______________________________________________________________________
 
-# 70. L2-P056 — Provenance Independence Is Not Statistical Independence
+## 70. L2-P056 — Provenance Independence Is Not Statistical Independence
 
 AMOS provenance independence concerns evidentiary ancestry.
 
@@ -1755,9 +1756,9 @@ P(A,B)=P(A)P(B)
 
 unless separately established.
 
----
+______________________________________________________________________
 
-# 71. L2-P057 — Common Tooling Can Create Correlation
+## 71. L2-P057 — Common Tooling Can Create Correlation
 
 Two apparently separate evidence pipelines may share:
 
@@ -1779,9 +1780,9 @@ measurement device
 
 Shared tooling may introduce correlated failure.
 
----
+______________________________________________________________________
 
-# 72. L2-P058 — Common Validator Does Not Create Independent Validation
+## 72. L2-P058 — Common Validator Does Not Create Independent Validation
 
 If:
 
@@ -1795,9 +1796,9 @@ then validation paths share `V`.
 
 This matters when `V` itself may be systematically wrong.
 
----
+______________________________________________________________________
 
-# 73. L2-P059 — Shared Fixtures Can Create False Independence
+## 73. L2-P059 — Shared Fixtures Can Create False Independence
 
 Two tests may appear independent while using the same:
 
@@ -1815,9 +1816,9 @@ expected outputs
 
 Provenance should expose this correlation when consequential.
 
----
+______________________________________________________________________
 
-# 74. L2-P060 — Provenance Must Include Negative Lineage Where Material
+## 74. L2-P060 — Provenance Must Include Negative Lineage Where Material
 
 AMOS may preserve not only what produced a claim but also:
 
@@ -1833,9 +1834,9 @@ revoked ancestors
 
 when these affect interpretation.
 
----
+______________________________________________________________________
 
-# 75. Provenance State Machine
+## 75. Provenance State Machine
 
 ```text
 DISCOVERED
@@ -1864,29 +1865,34 @@ IDENTIFIED
     ↓
 QUARANTINED
 ```
+
 ```text
 VALID
     ↓
 SUPERSEDED
 ```
+
 ```text
 VALID
     ↓
 REVOKED
 ```
+
 ```text
 VALID
     ↓
 STALE
 ```
+
 ```text
 UNKNOWN
     ↓
 ROOT_RESOLVED
 ```
----
 
-# 76. Provenance Status Vocabulary
+______________________________________________________________________
+
+## 76. Provenance Status Vocabulary
 
 Proposed statuses:
 
@@ -1916,9 +1922,9 @@ INVALID
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 77. H/M/L Applicability
+## 77. H/M/L Applicability
 
 L2 applies recursively across all AMOS scales.
 
@@ -1942,7 +1948,7 @@ canonical supersession
 
 Errors at H may contaminate many downstream systems.
 
----
+______________________________________________________________________
 
 ## M — Subsystem Provenance
 
@@ -1964,7 +1970,7 @@ benchmark lineage
 repository evidence
 ```
 
----
+______________________________________________________________________
 
 ## L — Local Provenance
 
@@ -1988,9 +1994,9 @@ source fragment
 individual claim
 ```
 
----
+______________________________________________________________________
 
-# 78. Cross-Scale Provenance Rule
+## 78. Cross-Scale Provenance Rule
 
 For:
 
@@ -2002,9 +2008,9 @@ the root ancestry must remain traceable.
 
 A higher-scale summary does not become an independent origin merely because it aggregates lower-scale evidence.
 
----
+______________________________________________________________________
 
-# 79. Control-Plane Requirements
+## 79. Control-Plane Requirements
 
 A runtime enforcing L2 SHOULD eventually support:
 
@@ -2044,9 +2050,9 @@ revalidation
 
 This document does not claim these functions are currently implemented.
 
----
+______________________________________________________________________
 
-# 80. Typed Provenance Tensor
+## 80. Typed Provenance Tensor
 
 AMOS MODEL:
 
@@ -2080,9 +2086,9 @@ knowledge class
 
 Exact axis semantics require registry-level normalization before runtime implementation.
 
----
+______________________________________________________________________
 
-# 81. Typed Provenance Relation
+## 81. Typed Provenance Relation
 
 AMOS MODEL:
 
@@ -2110,9 +2116,9 @@ CONTRADICTS
 SHARES_ROOT_WITH
 ```
 
----
+______________________________________________________________________
 
-# 82. Hard Admission Gate
+## 82. Hard Admission Gate
 
 Proposed invariant gate:
 
@@ -2142,9 +2148,9 @@ status not revoked
 
 Not every evidence class requires identical gates.
 
----
+______________________________________________________________________
 
-# 83. Provenance RSCF Node
+## 83. Provenance RSCF Node
 
 Normalized RSCF node:
 
@@ -2166,9 +2172,9 @@ N =
 )
 ```
 
----
+______________________________________________________________________
 
-# 84. Provenance RSCF Edge
+## 84. Provenance RSCF Edge
 
 Normalized RSCF edge:
 
@@ -2186,9 +2192,9 @@ E =
 
 These structures allow epistemic reasoning to preserve ancestry.
 
----
+______________________________________________________________________
 
-# 85. Provenance Operators
+## 85. Provenance Operators
 
 Proposed operators:
 
@@ -2232,9 +2238,9 @@ REVALIDATE
 AUDIT_PROVENANCE
 ```
 
----
+______________________________________________________________________
 
-# 86. Agents
+## 86. Agents
 
 Potential provenance roles:
 
@@ -2260,9 +2266,9 @@ RSCF_PROVENANCE_AUDITOR
 
 Agent capability does not grant canon or execution authority.
 
----
+______________________________________________________________________
 
-# 87. Skills
+## 87. Skills
 
 Relevant AMOS capabilities include:
 
@@ -2290,9 +2296,9 @@ canon compilation
 
 Each Skill remains subject to its own provenance and authority boundaries.
 
----
+______________________________________________________________________
 
-# 88. Workflow — Source Intake
+## 88. Workflow — Source Intake
 
 ```text
 SOURCE DISCOVERED
@@ -2316,9 +2322,9 @@ CLASSIFY STATUS
 ADMIT / QUARANTINE
 ```
 
----
+______________________________________________________________________
 
-# 89. Workflow — Root Resolution
+## 89. Workflow — Root Resolution
 
 ```text
 EVIDENCE OBJECT
@@ -2340,9 +2346,9 @@ RESOLVE / UNKNOWN
 
 Unknown must remain a valid output.
 
----
+______________________________________________________________________
 
-# 90. Workflow — Sybil Collapse
+## 90. Workflow — Sybil Collapse
 
 ```text
 ENUMERATE EVIDENCE
@@ -2362,9 +2368,9 @@ CALCULATE EFFECTIVE SUPPORT
 APPLY CONFIDENCE CEILING
 ```
 
----
+______________________________________________________________________
 
-# 91. Workflow — Independence Audit
+## 91. Workflow — Independence Audit
 
 ```text
 E1 + E2 + ... + En
@@ -2382,9 +2388,9 @@ INDEPENDENCE CLASSIFICATION
 EFFECTIVE CORROBORATION
 ```
 
----
+______________________________________________________________________
 
-# 92. Workflow — Revocation
+## 92. Workflow — Revocation
 
 ```text
 ROOT R REVOKED
@@ -2404,9 +2410,9 @@ PRESERVE UNAFFECTED CLAIMS
 REVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 93. Workflow — Supersession
+## 93. Workflow — Supersession
 
 ```text
 NEW VERSION V2
@@ -2424,9 +2430,9 @@ MAP DEPENDENT CLAIMS
 CHECK WHETHER REVALIDATION REQUIRED
 ```
 
----
+______________________________________________________________________
 
-# 94. Workflow — Provenance Repair
+## 94. Workflow — Provenance Repair
 
 ```text
 PROVENANCE FAILURE DETECTED
@@ -2446,9 +2452,9 @@ RECOMPUTE CONFIDENCE CEILINGS
 REVALIDATE DESCENDANTS
 ```
 
----
+______________________________________________________________________
 
-# 95. Protocol — Source Registration
+## 95. Protocol — Source Registration
 
 ```yaml
 source_registration:
@@ -2484,9 +2490,9 @@ source_registration:
   provenance_refs: []
 ```
 
----
+______________________________________________________________________
 
-# 96. Protocol — Independence Assessment
+## 96. Protocol — Independence Assessment
 
 ```yaml
 independence_assessment:
@@ -2523,9 +2529,9 @@ independence_assessment:
   confidence_ceiling: null
 ```
 
----
+______________________________________________________________________
 
-# 97. Protocol — Revocation Record
+## 97. Protocol — Revocation Record
 
 ```yaml
 revocation:
@@ -2553,9 +2559,9 @@ revocation:
   resulting_status: null
 ```
 
----
+______________________________________________________________________
 
-# 98. Protocol — Supersession Record
+## 98. Protocol — Supersession Record
 
 ```yaml
 supersession:
@@ -2577,9 +2583,9 @@ supersession:
   revalidation_required: null
 ```
 
----
+______________________________________________________________________
 
-# 99. Provenance Invariants
+## 99. Provenance Invariants
 
 ```text
 L2-INV001
@@ -2643,9 +2649,9 @@ L2-INV020
 Provenance must survive H/M/L transformation.
 ```
 
----
+______________________________________________________________________
 
-# 100. Failure Modes
+## 100. Failure Modes
 
 ```text
 L2-FM001
@@ -2694,9 +2700,9 @@ L2-FM015
 Shared benchmark ignored.
 ```
 
----
+______________________________________________________________________
 
-# 101. Extended Failure Modes
+## 101. Extended Failure Modes
 
 ```text
 L2-FM016
@@ -2760,9 +2766,9 @@ L2-FM035
 Compression removes load-bearing ancestry.
 ```
 
----
+______________________________________________________________________
 
-# 102. Repair Principles
+## 102. Repair Principles
 
 Provenance repair SHOULD follow:
 
@@ -2792,9 +2798,9 @@ RECALCULATE CONFIDENCE CEILING
 REVALIDATE DESCENDANTS
 ```
 
----
+______________________________________________________________________
 
-# 103. Quarantine Conditions
+## 103. Quarantine Conditions
 
 A provenance object SHOULD be considered for quarantine when:
 
@@ -2836,9 +2842,9 @@ not:
 FALSE
 ```
 
----
+______________________________________________________________________
 
-# 104. Tests
+## 104. Tests
 
 ## L2-T001 — Exact Root Alias Collapse
 
@@ -2864,7 +2870,7 @@ and:
 independence != INDEPENDENT
 ```
 
----
+______________________________________________________________________
 
 ## L2-T002 — Paraphrase Independence
 
@@ -2883,7 +2889,7 @@ root(B) = root(A)
 
 for inherited content.
 
----
+______________________________________________________________________
 
 ## L2-T003 — Translation Independence
 
@@ -2900,7 +2906,7 @@ Expected:
 B does not count as independent corroboration of A.
 ```
 
----
+______________________________________________________________________
 
 ## L2-T004 — Summary Independence
 
@@ -2916,7 +2922,7 @@ Expected:
 independence(A,B) != INDEPENDENT
 ```
 
----
+______________________________________________________________________
 
 ## L2-T005 — Hidden Shared Root
 
@@ -2937,7 +2943,7 @@ effective_root_count = 1
 
 for root-dependent evidence.
 
----
+______________________________________________________________________
 
 ## L2-T006 — Unknown Ancestry
 
@@ -2956,7 +2962,7 @@ independence = UNKNOWN
 
 not `INDEPENDENT`.
 
----
+______________________________________________________________________
 
 ## L2-T007 — Selective Revocation
 
@@ -2977,7 +2983,7 @@ C3 requires invalidation/revalidation
 C2 remains unaffected
 ```
 
----
+______________________________________________________________________
 
 ## L2-T008 — Independent Surviving Root
 
@@ -3008,7 +3014,7 @@ but:
 C != automatically false
 ```
 
----
+______________________________________________________________________
 
 ## L2-T009 — Supersession Preservation
 
@@ -3024,7 +3030,7 @@ Expected:
 V1 remains historically recoverable.
 ```
 
----
+______________________________________________________________________
 
 ## L2-T010 — Agent Handoff
 
@@ -3045,9 +3051,9 @@ root(output_C) = S
 
 for claims solely inherited from `S`.
 
----
+______________________________________________________________________
 
-# 105. Extended Validators
+## 105. Extended Validators
 
 ```text
 validate_source_identity()
@@ -3087,9 +3093,9 @@ validate_rscf_provenance()
 
 These are required validation surfaces, not claims of existing executable functions.
 
----
+______________________________________________________________________
 
-# 106. Falsifiers
+## 106. Falsifiers
 
 This specification should be revised if authoritative AMOS source material establishes that:
 
@@ -3109,9 +3115,9 @@ or later valid AMOS canon explicitly supersedes these rules.
 
 The generalized AMOS_MODEL equations should also be revised if source canon defines materially different tensors, independence classes, confidence equations, or provenance semantics.
 
----
+______________________________________________________________________
 
-# 107. Dependencies
+## 107. Dependencies
 
 ```yaml
 dependencies:
@@ -3138,9 +3144,9 @@ dependencies:
     - "SELECTIVE_INVALIDATION"
 ```
 
----
+______________________________________________________________________
 
-# 108. Evidence / Provenance
+## 108. Evidence / Provenance
 
 Current artifact-level provenance:
 
@@ -3182,9 +3188,9 @@ provenance:
     status: "UNKNOWN/GAP"
 ```
 
----
+______________________________________________________________________
 
-# 109. Source/Model Firewall
+## 109. Source/Model Firewall
 
 The following distinction MUST remain explicit:
 
@@ -3225,9 +3231,9 @@ min(
 
 The AMOS_MODEL formalizations MUST NOT be retroactively described as exact source equations unless source recovery establishes that fact.
 
----
+______________________________________________________________________
 
-# 110. Uncertainty Vector
+## 110. Uncertainty Vector
 
 ```yaml
 uncertainty:
@@ -3263,9 +3269,9 @@ uncertainty:
     state: "NOT_CLAIMED"
 ```
 
----
+______________________________________________________________________
 
-# 111. Confidence Ceiling
+## 111. Confidence Ceiling
 
 ```yaml
 confidence_ceiling:
@@ -3292,9 +3298,9 @@ confidence_ceiling:
     value: 0
 ```
 
----
+______________________________________________________________________
 
-# 112. Gap Matrix
+## 112. Gap Matrix
 
 ```yaml
 gap_matrix:
@@ -3342,9 +3348,9 @@ gap_matrix:
     severity: "CRITICAL"
 ```
 
----
+______________________________________________________________________
 
-# 113. Promotion Requirements
+## 113. Promotion Requirements
 
 Promotion beyond this state requires recovery or explicit approval of:
 
@@ -3380,9 +3386,9 @@ VERSION / SUPERSESSION LINEAGE
 CANON AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 114. Promotion Ladder
+## 114. Promotion Ladder
 
 Canonical lifecycle:
 
@@ -3420,9 +3426,9 @@ RUNTIME_ACTIVE
 
 These axes remain independent.
 
----
+______________________________________________________________________
 
-# 115. L2 RSCF
+## 115. L2 RSCF
 
 ```yaml
 rscf:
@@ -3545,9 +3551,9 @@ rscf:
     final_canon: 0
 ```
 
----
+______________________________________________________________________
 
-# 116. Current Completion State
+## 116. Current Completion State
 
 ```yaml
 completion:
@@ -3586,9 +3592,9 @@ completion:
     status: "NOT_ESTABLISHED"
 ```
 
----
+______________________________________________________________________
 
-# 117. Final L2 Provenance Contract
+## 117. Final L2 Provenance Contract
 
 > **AMOS must preserve where information came from, what root it descends from, what transformations it underwent, what version and regime it belongs to, and whether apparently separate evidence is genuinely independent. Multiple aliases, copies, translations, summaries, memories, agents, Skills, or model outputs derived from one root do not become independent corroboration merely through transformation or repetition. Unknown ancestry must remain unknown. Provenance must remain versioned, inspectable, and attached to downstream claims. When a root fails, only its load-bearing descendants should be invalidated, while independently supported knowledge is preserved.**
 
@@ -3636,15 +3642,15 @@ PROPAGATE REVOCATION SELECTIVELY
 KEEP THE PROVENANCE GRAPH INSPECTABLE
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/L0_INTEGRITY|L0_INTEGRITY]] · [[01_CANON/01_CORE_LAWS/L1_EPISTEMIC|L1_EPISTEMIC]] · [[01_CANON/01_CORE_LAWS/00_INDEX/CORE_LAWS_MAP|CORE_LAWS_MAP]] · [[01_CANON/01_CORE_LAWS/00_INDEX/CORE_LAWS_CANON_CORE_LAWS_CONTRACT|CORE_LAWS_CANON_CORE_LAWS_CONTRACT]]
 
----
+______________________________________________________________________
 
 RSCF-NODE
 
@@ -3687,5 +3693,6 @@ final_canon_confidence_ceiling: 0
 ```
 ```
 
----
+______________________________________________________________________
+
 **MOC:** [[01_CANON/01_CORE_LAWS/01_CORE_LAWS_MOC|01_CORE_LAWS_MOC]]

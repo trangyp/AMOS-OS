@@ -2,16 +2,16 @@
 type: cognitive
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L03_PERCEPT_FORMATION
 tags:
-- amos
-- cognitive-matrix
-- matrix/l03
-- percept-formation
-- operators
-- rscf
-- provenance
-- hml
-- governance
-- domain/cognitive-matrix
+  - amos
+  - cognitive-matrix
+  - matrix/l03
+  - percept-formation
+  - operators
+  - rscf
+  - provenance
+  - hml
+  - governance
+  - domain/cognitive-matrix
 title: L03_PERCEPT_FORMATION — Operators
 origin_architect: Trang Phan
 status: MODEL_OPERATOR_CONTRACT / UNIMPLEMENTED / UNVALIDATED
@@ -34,9 +34,9 @@ rscf:
 
 > **Source boundary:** The AMOS Information Operator Engine treats information operators as structural transformations unless a domain-specific mechanism is independently established. Its source-aligned workflow requires explicit input state, target state, representation, minimal operator selection, ordered application, invariant tracking, information-loss/reversibility tracking, invalid-composition detection, and an explicit operator trace with output state and failure conditions.
 
----
+______________________________________________________________________
 
-# 0. Purpose
+## 0. Purpose
 
 Define the operator contract for `L03_PERCEPT_FORMATION`.
 
@@ -79,9 +79,9 @@ OPERATOR EXECUTED != RESULT VALIDATED
 VALID RESULT != AUTHORIZED COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 1. Source / Canon References
+## 1. Source / Canon References
 
 ## 1.1 Source-aligned operator requirements
 
@@ -138,18 +138,18 @@ canonical_runtime_operators: UNKNOWN_GAP
 
 Therefore, L03-specific operators below are `AMOS_MODEL` unless explicitly identified as generic source-aligned operator principles.
 
----
+______________________________________________________________________
 
-# 2. Definition and Scope
+## 2. Definition and Scope
 
 An L03 operator is a typed transformation:
 
-[
-\mathcal O_i :
-(X,\Gamma)
-\rightarrow
-(Y,\Delta)
-]
+\[
+\\mathcal O_i :
+(X,\\Gamma)
+\\rightarrow
+(Y,\\Delta)
+\]
 
 where:
 
@@ -215,9 +215,9 @@ OperatorContract:
       - UNKNOWN_GAP
 ```
 
----
+______________________________________________________________________
 
-# 3. Typed Inputs
+## 3. Typed Inputs
 
 ```yaml
 L03OperatorInput:
@@ -277,9 +277,9 @@ L03OperatorInput:
     type: AuthorityContext
 ```
 
----
+______________________________________________________________________
 
-# 4. Typed Outputs
+## 4. Typed Outputs
 
 ```yaml
 L03OperatorOutput:
@@ -335,9 +335,9 @@ L03OperatorOutput:
     type: NONE
 ```
 
----
+______________________________________________________________________
 
-# 5. State Variables
+## 5. State Variables
 
 ```text
 O_t       = admitted observation state
@@ -370,9 +370,7 @@ Gap_t     = unresolved gaps
 
 Candidate composite:
 
-[
-S_t^{L03}
-=========
+## \[ S_t^{L03}
 
 (
 O_t,A_t,F_t,B_t,P_t,Comp_t,
@@ -380,11 +378,11 @@ M_t,T_t,X_t,ObsCtx_t,Mem_t,
 Scope_t,Reg_t,Fresh_t,
 Prov_t,Dep_t,U_t,Conf_t
 )
-]
+\]
 
----
+______________________________________________________________________
 
-# 6. Operator Classes
+## 6. Operator Classes
 
 Candidate operator taxonomy:
 
@@ -432,9 +430,9 @@ SELECT ONLY OPERATORS REQUIRED
 FOR THE TRANSFORMATION
 ```
 
----
+______________________________________________________________________
 
-# 7. OP-L03-001 — `ADMIT_OBSERVATION`
+## 7. OP-L03-001 — `ADMIT_OBSERVATION`
 
 Purpose:
 
@@ -442,12 +440,12 @@ Purpose:
 
 Signature:
 
-[
+\[
 ADMIT_OBSERVATION :
 Observation
-\rightarrow
+\\rightarrow
 AdmittedObservation ;|; Reject
-]
+\]
 
 Preconditions:
 
@@ -472,9 +470,9 @@ Hard boundary:
 ADMITTED != TRUE
 ```
 
----
+______________________________________________________________________
 
-# 8. OP-L03-002 — `NORMALIZE_OBSERVATION`
+## 8. OP-L03-002 — `NORMALIZE_OBSERVATION`
 
 Purpose:
 
@@ -482,13 +480,13 @@ Purpose:
 
 Signature:
 
-[
+\[
 NORMALIZE(O,R_s,R_t)
-\rightarrow
+\\rightarrow
 O'
-]
+\]
 
-where \(R_s\) and \(R_t\) are source and target representations.
+where (R_s) and (R_t) are source and target representations.
 
 Invariant:
 
@@ -499,9 +497,9 @@ BUT SOURCE IDENTITY MUST REMAIN RECOVERABLE
 
 Information loss must be declared.
 
----
+______________________________________________________________________
 
-# 9. OP-L03-003 — `SELECT_ATTENDED`
+## 9. OP-L03-003 — `SELECT_ATTENDED`
 
 Purpose:
 
@@ -509,11 +507,11 @@ Purpose:
 
 Signature:
 
-[
+\[
 SELECT(O,A)
-\rightarrow
+\\rightarrow
 O^{att}
-]
+\]
 
 Hard boundaries:
 
@@ -524,9 +522,9 @@ UNSELECTED != FALSE
 
 Attention modifies processing allocation, not epistemic status.
 
----
+______________________________________________________________________
 
-# 10. OP-L03-004 — `DISTINGUISH_FEATURE`
+## 10. OP-L03-004 — `DISTINGUISH_FEATURE`
 
 Purpose:
 
@@ -534,11 +532,11 @@ Purpose:
 
 Signature:
 
-[
+\[
 DISTINGUISH(O,c)
-\rightarrow
+\\rightarrow
 F
-]
+\]
 
 where (c) is the distinction criterion.
 
@@ -558,9 +556,9 @@ Hard boundary:
 DISTINCTION != ENTITY
 ```
 
----
+______________________________________________________________________
 
-# 11. OP-L03-005 — `EXTRACT_FEATURE`
+## 11. OP-L03-005 — `EXTRACT_FEATURE`
 
 Purpose:
 
@@ -568,11 +566,11 @@ Purpose:
 
 Signature:
 
-[
-EXTRACT(O,\phi)
-\rightarrow
+\[
+EXTRACT(O,\\phi)
+\\rightarrow
 F
-]
+\]
 
 Required trace:
 
@@ -593,9 +591,9 @@ FEATURE != INDEPENDENT OBSERVATION
 
 when derived from one observation.
 
----
+______________________________________________________________________
 
-# 12. OP-L03-006 — `RELATE_FEATURES`
+## 12. OP-L03-006 — `RELATE_FEATURES`
 
 Purpose:
 
@@ -603,11 +601,11 @@ Purpose:
 
 Signature:
 
-[
+\[
 RELATE(F_i,F_j,r)
-\rightarrow
-R_{ij}
-]
+\\rightarrow
+R\_{ij}
+\]
 
 Relation types may include:
 
@@ -631,9 +629,9 @@ RELATION != CAUSAL EFFECT
 
 unless independently evidenced.
 
----
+______________________________________________________________________
 
-# 13. OP-L03-007 — `GROUP_FEATURES`
+## 13. OP-L03-007 — `GROUP_FEATURES`
 
 Purpose:
 
@@ -641,11 +639,11 @@ Purpose:
 
 Signature:
 
-[
+\[
 GROUP({F_i},g)
-\rightarrow
+\\rightarrow
 G
-]
+\]
 
 Hard invariant:
 
@@ -655,9 +653,9 @@ GROUP != OBJECT
 
 Group membership must retain individual feature identities where decision-relevant.
 
----
+______________________________________________________________________
 
-# 14. OP-L03-008 — `BIND_FEATURES`
+## 14. OP-L03-008 — `BIND_FEATURES`
 
 Purpose:
 
@@ -665,11 +663,11 @@ Purpose:
 
 Signature:
 
-[
-BIND(F_{1:n},R,C)
-\rightarrow
+\[
+BIND(F\_{1:n},R,C)
+\\rightarrow
 B
-]
+\]
 
 where:
 
@@ -694,9 +692,9 @@ Hard boundary:
 BINDING != IDENTITY PROOF
 ```
 
----
+______________________________________________________________________
 
-# 15. OP-L03-009 — `UNBIND_FEATURES`
+## 15. OP-L03-009 — `UNBIND_FEATURES`
 
 Purpose:
 
@@ -704,11 +702,11 @@ Purpose:
 
 Signature:
 
-[
+\[
 UNBIND(B,e)
-\rightarrow
+\\rightarrow
 {F_i}
-]
+\]
 
 where (e) identifies the invalidated binding basis.
 
@@ -720,9 +718,9 @@ preserve prior binding history
 record reason for unbinding
 ```
 
----
+______________________________________________________________________
 
-# 16. OP-L03-010 — `PARTITION`
+## 16. OP-L03-010 — `PARTITION`
 
 Purpose:
 
@@ -730,19 +728,19 @@ Purpose:
 
 Signature:
 
-[
-PARTITION(X,\pi)
-\rightarrow
-{X_1,\ldots,X_n}
-]
+\[
+PARTITION(X,\\pi)
+\\rightarrow
+{X_1,\\ldots,X_n}
+\]
 
 Information-loss status must be explicit.
 
 Partitioning does not prove that the partitions correspond to real-world entities.
 
----
+______________________________________________________________________
 
-# 17. OP-L03-011 — `TEMPORAL_ALIGN`
+## 17. OP-L03-011 — `TEMPORAL_ALIGN`
 
 Purpose:
 
@@ -750,11 +748,11 @@ Purpose:
 
 Signature:
 
-[
-TEMPORAL_ALIGN(F_{1:n},T)
-\rightarrow
+\[
+TEMPORAL_ALIGN(F\_{1:n},T)
+\\rightarrow
 A_T
-]
+\]
 
 Must distinguish:
 
@@ -771,9 +769,9 @@ Hard boundary:
 TEMPORAL ORDER != CAUSATION
 ```
 
----
+______________________________________________________________________
 
-# 18. OP-L03-012 — `SPATIAL_ALIGN`
+## 18. OP-L03-012 — `SPATIAL_ALIGN`
 
 Purpose:
 
@@ -781,13 +779,13 @@ Purpose:
 
 Signature:
 
-[
-SPATIAL_ALIGN(F_{1:n},\mathcal F)
-\rightarrow
+\[
+SPATIAL_ALIGN(F\_{1:n},\\mathcal F)
+\\rightarrow
 A_X
-]
+\]
 
-where (\mathcal F) is the spatial frame.
+where (\\mathcal F) is the spatial frame.
 
 If spatial state is unavailable:
 
@@ -797,9 +795,9 @@ return UNKNOWN / NOT_AVAILABLE
 
 not fabricated compatibility.
 
----
+______________________________________________________________________
 
-# 19. OP-L03-013 — `ALIGN_OBSERVER`
+## 19. OP-L03-013 — `ALIGN_OBSERVER`
 
 Purpose:
 
@@ -807,11 +805,11 @@ Purpose:
 
 Signature:
 
-[
+\[
 ALIGN_OBSERVER(X,O_s,O_t)
-\rightarrow
+\\rightarrow
 X'
-]
+\]
 
 Hard rule:
 
@@ -820,9 +818,9 @@ OBSERVER TRANSFORM
 MUST NOT SILENTLY REMOVE OBSERVER DEPENDENCE
 ```
 
----
+______________________________________________________________________
 
-# 20. OP-L03-014 — `ALIGN_MODALITIES`
+## 20. OP-L03-014 — `ALIGN_MODALITIES`
 
 Purpose:
 
@@ -830,14 +828,14 @@ Purpose:
 
 Signature:
 
-[
+\[
 ALIGN_MODALITIES
 (
-X^{(1)},\ldots,X^{(k)}
+X^{(1)},\\ldots,X^{(k)}
 )
-\rightarrow
+\\rightarrow
 A_M
-]
+\]
 
 Precondition:
 
@@ -855,9 +853,9 @@ MULTIMODAL != INDEPENDENT
 UNAVAILABLE MODALITY != NEGATIVE EVIDENCE
 ```
 
----
+______________________________________________________________________
 
-# 21. OP-L03-015 — `INTEGRATE_MODALITIES`
+## 21. OP-L03-015 — `INTEGRATE_MODALITIES`
 
 Purpose:
 
@@ -865,11 +863,11 @@ Purpose:
 
 Signature:
 
-[
+\[
 INTEGRATE(A_M,C)
-\rightarrow
+\\rightarrow
 P^{multi}
-]
+\]
 
 Required output:
 
@@ -883,9 +881,9 @@ confidence ceiling
 
 Cross-modal conflict must not be silently removed.
 
----
+______________________________________________________________________
 
-# 22. OP-L03-016 — `CONTEXTUALIZE`
+## 22. OP-L03-016 — `CONTEXTUALIZE`
 
 Purpose:
 
@@ -893,11 +891,11 @@ Purpose:
 
 Signature:
 
-[
+\[
 CONTEXTUALIZE(P,C)
-\rightarrow
+\\rightarrow
 P'
-]
+\]
 
 Possible context:
 
@@ -916,9 +914,9 @@ Hard boundary:
 CONTEXT != OBSERVATION
 ```
 
----
+______________________________________________________________________
 
-# 23. OP-L03-017 — `COMBINE`
+## 23. OP-L03-017 — `COMBINE`
 
 Purpose:
 
@@ -926,11 +924,11 @@ Purpose:
 
 Signature:
 
-[
-COMBINE(X_1,\ldots,X_n,c)
-\rightarrow
+\[
+COMBINE(X_1,\\ldots,X_n,c)
+\\rightarrow
 Y
-]
+\]
 
 Must track:
 
@@ -948,9 +946,9 @@ Hard boundary:
 COMBINATION != INDEPENDENT CONFIRMATION
 ```
 
----
+______________________________________________________________________
 
-# 24. OP-L03-018 — `SEPARATE`
+## 24. OP-L03-018 — `SEPARATE`
 
 Purpose:
 
@@ -958,11 +956,11 @@ Purpose:
 
 Signature:
 
-[
+\[
 SEPARATE(P,s)
-\rightarrow
-{P_1,\ldots,P_n}
-]
+\\rightarrow
+{P_1,\\ldots,P_n}
+\]
 
 Required:
 
@@ -972,9 +970,9 @@ preserve source ancestry
 do not duplicate evidence confidence
 ```
 
----
+______________________________________________________________________
 
-# 25. OP-L03-019 — `ORDER`
+## 25. OP-L03-019 — `ORDER`
 
 Purpose:
 
@@ -982,11 +980,11 @@ Purpose:
 
 Signature:
 
-[
-ORDER(X,\prec)
-\rightarrow
+\[
+ORDER(X,\\prec)
+\\rightarrow
 X'
-]
+\]
 
 Order can represent:
 
@@ -1000,9 +998,9 @@ containment order
 
 Must not be confused across domains.
 
----
+______________________________________________________________________
 
-# 26. OP-L03-020 — `THRESHOLD`
+## 26. OP-L03-020 — `THRESHOLD`
 
 Purpose:
 
@@ -1010,11 +1008,11 @@ Purpose:
 
 Signature:
 
-[
-THRESHOLD(x,\theta)
-\rightarrow
+\[
+THRESHOLD(x,\\theta)
+\\rightarrow
 class(x)
-]
+\]
 
 Preconditions:
 
@@ -1035,9 +1033,9 @@ CANONICAL THRESHOLD
 
 All numeric thresholds remain `UNKNOWN/GAP` unless sourced.
 
----
+______________________________________________________________________
 
-# 27. OP-L03-021 — `GENERATE_PERCEPT_CANDIDATE`
+## 27. OP-L03-021 — `GENERATE_PERCEPT_CANDIDATE`
 
 Purpose:
 
@@ -1045,7 +1043,7 @@ Purpose:
 
 Signature:
 
-[
+\[
 GENERATE_PERCEPT
 (
 O^{att},
@@ -1053,9 +1051,9 @@ F,
 B,
 C
 )
-\rightarrow
+\\rightarrow
 P_i
-]
+\]
 
 Required fields:
 
@@ -1084,9 +1082,9 @@ Hard boundary:
 GENERATED PERCEPT != FACT
 ```
 
----
+______________________________________________________________________
 
-# 28. OP-L03-022 — `GENERATE_COMPETING_PERCEPTS`
+## 28. OP-L03-022 — `GENERATE_COMPETING_PERCEPTS`
 
 Purpose:
 
@@ -1094,14 +1092,10 @@ Purpose:
 
 Signature:
 
-[
-GEN_COMPETING(X)
-\rightarrow
-\Omega
-======
+## \[ GEN_COMPETING(X) \\rightarrow \\Omega
 
-{P_1,\ldots,P_n}
-]
+{P_1,\\ldots,P_n}
+\]
 
 Hard rule:
 
@@ -1111,9 +1105,9 @@ MUST NOT BE REMOVED
 MERELY FOR FLUENCY OR SIMPLICITY
 ```
 
----
+______________________________________________________________________
 
-# 29. OP-L03-023 — `COMPARE_PERCEPTS`
+## 29. OP-L03-023 — `COMPARE_PERCEPTS`
 
 Purpose:
 
@@ -1121,11 +1115,11 @@ Purpose:
 
 Signature:
 
-[
+\[
 COMPARE(P_i,P_j)
-\rightarrow
+\\rightarrow
 Comparison
-]
+\]
 
 Comparison dimensions:
 
@@ -1141,9 +1135,9 @@ uncertainty
 falsifiers
 ```
 
----
+______________________________________________________________________
 
-# 30. OP-L03-024 — `DISCRIMINATE`
+## 30. OP-L03-024 — `DISCRIMINATE`
 
 Purpose:
 
@@ -1151,11 +1145,11 @@ Purpose:
 
 Signature:
 
-[
-DISCRIMINATE(\Omega,E)
-\rightarrow
+\[
+DISCRIMINATE(\\Omega,E)
+\\rightarrow
 D
-]
+\]
 
 Output:
 
@@ -1173,9 +1167,9 @@ If no discriminator is available:
 COMPETING remains
 ```
 
----
+______________________________________________________________________
 
-# 31. OP-L03-025 — `AGGREGATE_L_TO_M`
+## 31. OP-L03-025 — `AGGREGATE_L_TO_M`
 
 Purpose:
 
@@ -1183,11 +1177,11 @@ Purpose:
 
 Signature:
 
-[
-A_{L\rightarrow M}\(X_L\)
-\rightarrow
+\[
+A\_{L\\rightarrow M}(X_L)
+\\rightarrow
 X_M
-]
+\]
 
 Hard boundaries:
 
@@ -1198,9 +1192,9 @@ LOCAL CORRELATION != MACRO CAUSATION
 
 Decision-relevant heterogeneity must remain recoverable.
 
----
+______________________________________________________________________
 
-# 32. OP-L03-026 — `AGGREGATE_M_TO_H`
+## 32. OP-L03-026 — `AGGREGATE_M_TO_H`
 
 Purpose:
 
@@ -1208,11 +1202,11 @@ Purpose:
 
 Signature:
 
-[
-A_{M\rightarrow H}\(X_M\)
-\rightarrow
+\[
+A\_{M\\rightarrow H}(X_M)
+\\rightarrow
 X_H
-]
+\]
 
 Hard boundary:
 
@@ -1220,9 +1214,9 @@ Hard boundary:
 HIGH-LEVEL COHERENCE != GLOBAL TRUTH
 ```
 
----
+______________________________________________________________________
 
-# 33. OP-L03-027 — `CONSTRAIN_H_TO_M`
+## 33. OP-L03-027 — `CONSTRAIN_H_TO_M`
 
 Purpose:
 
@@ -1230,11 +1224,11 @@ Purpose:
 
 Signature:
 
-[
-C_{H\rightarrow M}(X_H,X_M)
-\rightarrow
-X'_M
-]
+\[
+C\_{H\\rightarrow M}(X_H,X_M)
+\\rightarrow
+X'\_M
+\]
 
 Hard boundary:
 
@@ -1242,9 +1236,9 @@ Hard boundary:
 DOWNWARD CONSTRAINT != DOWNWARD CAUSATION
 ```
 
----
+______________________________________________________________________
 
-# 34. OP-L03-028 — `CONSTRAIN_M_TO_L`
+## 34. OP-L03-028 — `CONSTRAIN_M_TO_L`
 
 Purpose:
 
@@ -1252,11 +1246,11 @@ Purpose:
 
 Signature:
 
-[
-C_{M\rightarrow L}(X_M,X_L)
-\rightarrow
-X'_L
-]
+\[
+C\_{M\\rightarrow L}(X_M,X_L)
+\\rightarrow
+X'\_L
+\]
 
 Hard boundary:
 
@@ -1264,9 +1258,9 @@ Hard boundary:
 CONSTRAINT != OBSERVATION REWRITE
 ```
 
----
+______________________________________________________________________
 
-# 35. OP-L03-029 — `CHECK_PROVENANCE`
+## 35. OP-L03-029 — `CHECK_PROVENANCE`
 
 Purpose:
 
@@ -1274,11 +1268,11 @@ Purpose:
 
 Signature:
 
-[
+\[
 CHECK_PROVENANCE(P)
-\rightarrow
+\\rightarrow
 PASS|CONDITIONAL|FAIL|UNKNOWN
-]
+\]
 
 Checks:
 
@@ -1291,9 +1285,9 @@ correlation risk
 version/freshness
 ```
 
----
+______________________________________________________________________
 
-# 36. OP-L03-030 — `CHECK_INDEPENDENCE`
+## 36. OP-L03-030 — `CHECK_INDEPENDENCE`
 
 Purpose:
 
@@ -1301,11 +1295,11 @@ Purpose:
 
 Signature:
 
-[
+\[
 CHECK_INDEPENDENCE(e_i,e_j)
-\rightarrow
+\\rightarrow
 INDEPENDENT|CORRELATED|UNKNOWN
-]
+\]
 
 Hard boundary:
 
@@ -1318,9 +1312,9 @@ DIFFERENT FEATURE
 
 do not independently establish evidential independence.
 
----
+______________________________________________________________________
 
-# 37. OP-L03-031 — `CHECK_SCOPE`
+## 37. OP-L03-031 — `CHECK_SCOPE`
 
 Purpose:
 
@@ -1328,17 +1322,17 @@ Purpose:
 
 Candidate:
 
-[
+\[
 Scope(P)
-\subseteq
-\bigcap_i Scope(d_i)
-]
+\\subseteq
+\\bigcap_i Scope(d_i)
+\]
 
 unless a validated scope-transfer operation exists.
 
----
+______________________________________________________________________
 
-# 38. OP-L03-032 — `CHECK_REGIME`
+## 38. OP-L03-032 — `CHECK_REGIME`
 
 Purpose:
 
@@ -1346,15 +1340,15 @@ Purpose:
 
 Signature:
 
-[
+\[
 CHECK_REGIME(P,R_t)
-\rightarrow
+\\rightarrow
 PASS|REVALIDATE|FAIL|UNKNOWN
-]
+\]
 
----
+______________________________________________________________________
 
-# 39. OP-L03-033 — `CHECK_FRESHNESS`
+## 39. OP-L03-033 — `CHECK_FRESHNESS`
 
 Purpose:
 
@@ -1368,9 +1362,9 @@ NEW COMPUTATION != NEW EVIDENCE
 
 A stale input cannot be made fresh simply by rerunning an operator.
 
----
+______________________________________________________________________
 
-# 40. OP-L03-034 — `PROPAGATE_UNCERTAINTY`
+## 40. OP-L03-034 — `PROPAGATE_UNCERTAINTY`
 
 Purpose:
 
@@ -1378,12 +1372,10 @@ Purpose:
 
 Signature:
 
-[
-U(P)
-====
+## \[ U(P)
 
-PROPAGATE(U(d_1),\ldots,U(d_n))
-]
+PROPAGATE(U(d_1),\\ldots,U(d_n))
+\]
 
 No canonical scalarization is asserted.
 
@@ -1394,9 +1386,9 @@ UNCERTAINTY PROPAGATION
 MUST NOT SILENTLY DROP MATERIAL DIMENSIONS
 ```
 
----
+______________________________________________________________________
 
-# 41. OP-L03-035 — `CALCULATE_CONFIDENCE_CEILING`
+## 41. OP-L03-035 — `CALCULATE_CONFIDENCE_CEILING`
 
 Purpose:
 
@@ -1404,11 +1396,11 @@ Purpose:
 
 Candidate:
 
-[
+\[
 Conf(P)
-\le
-\min_{d\in LB(P)} Conf(d)
-]
+\\le
+\\min\_{d\\in LB(P)} Conf(d)
+\]
 
 unless independent revalidation establishes a stronger path.
 
@@ -1422,9 +1414,9 @@ AGENT CONSENSUS
 
 cannot independently raise the ceiling.
 
----
+______________________________________________________________________
 
-# 42. OP-L03-036 — `PRESERVE_COMPETING`
+## 42. OP-L03-036 — `PRESERVE_COMPETING`
 
 Purpose:
 
@@ -1432,17 +1424,17 @@ Purpose:
 
 Signature:
 
-[
-PRESERVE_COMPETING(\Omega)
-\rightarrow
-\Omega'
-]
+\[
+PRESERVE_COMPETING(\\Omega)
+\\rightarrow
+\\Omega'
+\]
 
 where unresolved material alternatives remain explicitly represented.
 
----
+______________________________________________________________________
 
-# 43. OP-L03-037 — `INVALIDATE_DEPENDENT`
+## 43. OP-L03-037 — `INVALIDATE_DEPENDENT`
 
 Purpose:
 
@@ -1450,11 +1442,11 @@ Purpose:
 
 Candidate:
 
-[
+\[
 INVALIDATE(d)
-\rightarrow
-Desc_{LB}(d)
-]
+\\rightarrow
+Desc\_{LB}(d)
+\]
 
 Hard boundary:
 
@@ -1464,9 +1456,9 @@ LOCAL FAILURE != GLOBAL RESET
 
 unless dependency closure establishes global impact.
 
----
+______________________________________________________________________
 
-# 44. OP-L03-038 — `QUARANTINE`
+## 44. OP-L03-038 — `QUARANTINE`
 
 Purpose:
 
@@ -1474,11 +1466,11 @@ Purpose:
 
 Signature:
 
-[
+\[
 QUARANTINE(X,reason)
-\rightarrow
+\\rightarrow
 Q(X)
-]
+\]
 
 Use when:
 
@@ -1492,9 +1484,9 @@ operator chain invalid
 
 Quarantine is reversible by revalidation.
 
----
+______________________________________________________________________
 
-# 45. OP-L03-039 — `REPAIR`
+## 45. OP-L03-039 — `REPAIR`
 
 Purpose:
 
@@ -1502,11 +1494,11 @@ Purpose:
 
 Signature:
 
-[
-REPAIR(P,E_{bad},E_{new})
-\rightarrow
+\[
+REPAIR(P,E\_{bad},E\_{new})
+\\rightarrow
 P'
-]
+\]
 
 Hard boundaries:
 
@@ -1516,9 +1508,9 @@ REPAIR != EVIDENCE REWRITE
 REPAIR != REVALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 46. OP-L03-040 — `REVALIDATE`
+## 46. OP-L03-040 — `REVALIDATE`
 
 Purpose:
 
@@ -1526,11 +1518,11 @@ Purpose:
 
 Signature:
 
-[
+\[
 REVALIDATE(P,t)
-\rightarrow
+\\rightarrow
 Status(P,t)
-]
+\]
 
 Possible status:
 
@@ -1542,9 +1534,9 @@ INVALID
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 47. OP-L03-041 — `PROPOSE_STATE`
+## 47. OP-L03-041 — `PROPOSE_STATE`
 
 Purpose:
 
@@ -1552,11 +1544,11 @@ Purpose:
 
 Signature:
 
-[
+\[
 PROPOSE_STATE(P,D,Prov,U)
-\rightarrow
+\\rightarrow
 Proposal
-]
+\]
 
 Hard boundary:
 
@@ -1564,9 +1556,9 @@ Hard boundary:
 PROPOSAL != COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 48. Operator Ordering
+## 48. Operator Ordering
 
 Candidate default sequence:
 
@@ -1628,18 +1620,16 @@ Source-aligned principle:
 USE THE SMALLEST SUFFICIENT OPERATOR CHAIN
 ```
 
----
+______________________________________________________________________
 
-# 49. Operator Composition
+## 49. Operator Composition
 
 Let:
 
-[
-\mathcal O
-==========
+## \[ \\mathcal O
 
-O_n\circ O_{n-1}\circ\dots\circ O_1
-]
+O_n\\circ O\_{n-1}\\circ\\dots\\circ O_1
+\]
 
 A composition is admissible only when:
 
@@ -1653,24 +1643,22 @@ and all load-bearing invariants remain valid.
 
 Candidate:
 
-[
-Admissible(O_j\circ O_i)
-========================
+## \[ Admissible(O_j\\circ O_i)
 
 TypeCompatible
-\land
+\\land
 InvariantCompatible
-\land
+\\land
 ScopeCompatible
-\land
+\\land
 RegimeCompatible
-]
+\]
 
 `AMOS_MODEL`.
 
----
+______________________________________________________________________
 
-# 50. Invalid Operator Compositions
+## 50. Invalid Operator Compositions
 
 Examples:
 
@@ -1700,9 +1688,9 @@ UNKNOWN/GAP
 
 not implicit repair.
 
----
+______________________________________________________________________
 
-# 51. Information-Loss Contract
+## 51. Information-Loss Contract
 
 Every lossy operator must report:
 
@@ -1735,9 +1723,9 @@ LOSSY TRANSFORM
 MUST NOT CLAIM LOSSLESS REVERSIBILITY
 ```
 
----
+______________________________________________________________________
 
-# 52. Reversibility Contract
+## 52. Reversibility Contract
 
 Operator reversibility classes:
 
@@ -1766,9 +1754,9 @@ may be irreversible or externally consequential
 
 L03 cognitive operators should prefer reversible representations where practical.
 
----
+______________________________________________________________________
 
-# 53. Operator Trace
+## 53. Operator Trace
 
 Required candidate trace:
 
@@ -1811,9 +1799,9 @@ OperatorTrace:
 
 This directly follows the source operator principle that explicit operator ordering, invariant preservation, loss, reversibility, and failure conditions must be traceable.
 
----
+______________________________________________________________________
 
-# 54. Core Operator Invariants
+## 54. Core Operator Invariants
 
 ```text
 L03-OP-INV-001
@@ -1913,9 +1901,9 @@ L03-OP-INV-032
 Operator completion does not equal state commit.
 ```
 
----
+______________________________________________________________________
 
-# 55. Dependencies
+## 55. Dependencies
 
 Upstream:
 
@@ -1954,9 +1942,9 @@ AMOS constraint propagation
 AMOS infrastructure control plane
 ```
 
----
+______________________________________________________________________
 
-# 56. H/M/L Applicability
+## 56. H/M/L Applicability
 
 ## L — Local operators
 
@@ -2034,9 +2022,9 @@ REVALIDATE
 
 Cross-scale operators must preserve provenance and typed scale transitions.
 
----
+______________________________________________________________________
 
-# 57. Control-Plane Requirements
+## 57. Control-Plane Requirements
 
 L03 operators may transform cognitive state and emit proposals.
 
@@ -2081,9 +2069,9 @@ OPERATOR INVOCATION
 AUTHORITY TO COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 58. Agents
+## 58. Agents
 
 Candidate operator-related roles:
 
@@ -2103,9 +2091,9 @@ These are `AMOS_MODEL` roles.
 
 No implemented-agent claim is made.
 
----
+______________________________________________________________________
 
-# 59. Skills
+## 59. Skills
 
 Relevant capability families:
 
@@ -2134,9 +2122,9 @@ OPERATOR IMPLEMENTED
 OPERATOR VALIDATED
 ```
 
----
+______________________________________________________________________
 
-# 60. Workflow
+## 60. Workflow
 
 Source-aligned operator workflow:
 
@@ -2202,9 +2190,9 @@ TRACE OPERATORS
 PROPOSE STATE
 ```
 
----
+______________________________________________________________________
 
-# 61. Protocols
+## 61. Protocols
 
 Candidate operator protocol surface:
 
@@ -2233,9 +2221,9 @@ L03_OP_STATE_PROPOSAL
 
 Canonical protocol names remain `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
-# 62. Evidence / Provenance
+## 62. Evidence / Provenance
 
 Every operator result should preserve:
 
@@ -2280,9 +2268,9 @@ OperatorEvidence:
   failures: []
 ```
 
----
+______________________________________________________________________
 
-# 63. Uncertainty and Confidence Ceiling
+## 63. Uncertainty and Confidence Ceiling
 
 Operator uncertainty may arise from:
 
@@ -2322,17 +2310,17 @@ operator_uncertainty:
 
 Candidate propagation:
 
-[
+\[
 Conf(Output)
-\le
-\min
+\\le
+\\min
 (
 Conf(Input),
 Conf(Operator),
 Conf(Parameters),
 Conf(Context)
 )
-]
+\]
 
 for unresolved load-bearing components.
 
@@ -2340,9 +2328,9 @@ for unresolved load-bearing components.
 
 No confidence increase is licensed merely because many operators have been applied.
 
----
+______________________________________________________________________
 
-# 64. Failure Modes
+## 64. Failure Modes
 
 ```text
 FM-L03-OP-001
@@ -2451,9 +2439,9 @@ FM-L03-OP-035
 Proposal operator treated as commit.
 ```
 
----
+______________________________________________________________________
 
-# 65. Repair / Recovery
+## 65. Repair / Recovery
 
 Operator repair workflow:
 
@@ -2505,9 +2493,9 @@ WITHOUT CHANGED EVIDENCE, STATE, PARAMETER,
 OR TRANSFORMATION SEMANTICS
 ```
 
----
+______________________________________________________________________
 
-# 66. Tests / Validators
+## 66. Tests / Validators
 
 Minimum validators:
 
@@ -2624,9 +2612,9 @@ formal_verification: false
 empirical_validation: false
 ```
 
----
+______________________________________________________________________
 
-# 67. Falsifiers
+## 67. Falsifiers
 
 Revise this contract if direct canonical evidence establishes:
 
@@ -2656,9 +2644,9 @@ or executable runtime evidence contradicts these modeled operators.
 
 A modeled operator claim is falsified within its stated scope if an executable counterexample shows that the operator cannot preserve the declared postconditions or invariants under admissible input.
 
----
+______________________________________________________________________
 
-# 68. Gap Matrix
+## 68. Gap Matrix
 
 ```yaml
 gap_status:
@@ -2745,9 +2733,9 @@ gap_status:
     status: CRITICAL_GAP
 ```
 
----
+______________________________________________________________________
 
-# 69. Competing Operator Architectures
+## 69. Competing Operator Architectures
 
 ## COMPETING-001 — Fixed Linear Pipeline
 
@@ -2773,7 +2761,7 @@ poor ambiguity handling
 weak feedback support
 ```
 
----
+______________________________________________________________________
 
 ## COMPETING-002 — Dynamic Operator Graph
 
@@ -2795,7 +2783,7 @@ harder provenance
 operator-selection instability
 ```
 
----
+______________________________________________________________________
 
 ## COMPETING-003 — Bidirectional Percept Graph
 
@@ -2818,7 +2806,7 @@ source/inference contamination
 feedback loops
 ```
 
----
+______________________________________________________________________
 
 ## COMPETING-004 — Governed Typed Operator DAG
 
@@ -2850,9 +2838,9 @@ because it best aligns with the AMOS Information Operator Engine's explicit-stat
 
 This remains `MODEL`.
 
----
+______________________________________________________________________
 
-# 70. RSCF Completion State
+## 70. RSCF Completion State
 
 ```yaml
 rscf:
@@ -2966,9 +2954,9 @@ rscf:
     →competing-percept operator DAG with full trace and fault injection.
 ```
 
----
+______________________________________________________________________
 
-# 71. Completion State
+## 71. Completion State
 
 ```yaml
 completion_state:
@@ -3049,9 +3037,9 @@ completion_state:
     MODEL
 ```
 
----
+______________________________________________________________________
 
-# 72. Hard Boundaries
+## 72. Hard Boundaries
 
 ```text
 PLACEHOLDER != IMPLEMENTED
@@ -3113,15 +3101,15 @@ VALIDATED OPERATOR != EMPIRICAL PERCEPTUAL LAW
 OPERATOR EXECUTION != AUTHORIZED COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 73. Governing Operator Contract
+## 73. Governing Operator Contract
 
 > **`L03_PERCEPT_FORMATION` SHALL represent percept formation through explicit typed operators whose inputs, outputs, preconditions, postconditions, ordering, provenance effects, dependency effects, information loss, reversibility, uncertainty effects, invariant requirements, and failure conditions remain inspectable. Operators SHALL be selected only as required for the current transformation and SHALL execute in an explicit order when order affects semantics. Observation admission, feature extraction, relation formation, grouping, binding, temporal/spatial alignment, multimodal integration, contextualization, percept generation, competing-hypothesis handling, H/M/L aggregation, validation, invalidation, repair, and revalidation SHALL preserve the distinction between observation, derived representation, percept, and external reality. Structural transformations SHALL NOT be promoted into causal claims without independently typed causal evidence. Aggregation or binding SHALL NOT prove identity. Repeated or correlated derivations SHALL NOT become independent corroboration. Material information loss and irreversibility SHALL be declared. `UNKNOWN/GAP` SHALL not satisfy a hard operator precondition. Operator capability SHALL NOT confer authority, and a completed percept-state proposal SHALL NOT become a durable commit without the governing control plane.**
 
----
+______________________________________________________________________
 
-# 74. Canon Boundary
+## 74. Canon Boundary
 
 ```text
 SOURCE-ALIGNED:
@@ -3307,23 +3295,27 @@ NOT ESTABLISHED
 
 ```text
 ```
----
+
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: l03_percept_formation_primitives_cognitive_matrix_operators
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L03_PERCEPT_FORMATION/L03_PERCEPT_FORMATION_PRIMITIVES_COGNITIVE_MATRIX_OPERATORS.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L03_PERCEPT_FORMATION/L03_PERCEPT_FORMATION_MOC|L03_PERCEPT_FORMATION_MOC]]
-

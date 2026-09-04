@@ -12,26 +12,26 @@ segment: 11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE
 artifact_kind: DOMAIN_KNOWLEDGE
 path: 11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/UBI_NEUROEMOTIONAL_INTELLIGENCE.md
 tags:
-- amos-os
-- knowledge
-- vault
-- 06_domain_knowledge
-- ubi
-- nei
-- neuroemotional
-- affect_regulation
-- empathy
-- vagus_nerve
-- autonomic_balance
-- rscf
-- canon_candidate
-- canon/knowledge
-- unified-biological-intelligence
-- amos-x-ubi
-- amos-x-ubi-matrix
-- ubi-neurobiological-intelligence
-- ubi-somatic-intelligence
-- ubi-bioelectromagnetic-intelligence
+  - amos-os
+  - knowledge
+  - vault
+  - 06_domain_knowledge
+  - ubi
+  - nei
+  - neuroemotional
+  - affect_regulation
+  - empathy
+  - vagus_nerve
+  - autonomic_balance
+  - rscf
+  - canon_candidate
+  - canon/knowledge
+  - unified-biological-intelligence
+  - amos-x-ubi
+  - amos-x-ubi-matrix
+  - ubi-neurobiological-intelligence
+  - ubi-somatic-intelligence
+  - ubi-bioelectromagnetic-intelligence
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -46,24 +46,24 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - UBI_OFFICIAL_MANUAL
-  - UNIFIED_BIOLOGICAL_INTELLIGENCE_UBI_OFFICIAL
-  - AMOS_CORPUS
+    - UBI_OFFICIAL_MANUAL
+    - UNIFIED_BIOLOGICAL_INTELLIGENCE_UBI_OFFICIAL
+    - AMOS_CORPUS
   scope:
-  - BIOLOGICAL_INTELLIGENCE
-  - NEUROEMOTION
-  - SOURCE_DEFINED_NEI_MODEL
+    - BIOLOGICAL_INTELLIGENCE
+    - NEUROEMOTION
+    - SOURCE_DEFINED_NEI_MODEL
 framework_binding:
   parent_framework:
     name: Unified Biological Intelligence™
     acronym: UBI
     artifact:
-    - - UNIFIED_BIOLOGICAL_INTELLIGENCE
+      -   - UNIFIED_BIOLOGICAL_INTELLIGENCE
   matrix_binding:
     artifact:
-    - - AMOS_X_UBI
+      -   - AMOS_X_UBI
     matrix:
-    - - AMOS_X_UBI_MATRIX
+      -   - AMOS_X_UBI_MATRIX
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   domain_structure: VERIFIED_SOURCE_STRUCTURE
@@ -77,32 +77,33 @@ epistemic_boundary:
 
 NEI governs emotional awareness, autonomic balance, and interpersonal affect modulation within the Unified Biological Intelligence (UBI) architecture.
 
----
+______________________________________________________________________
 
-# 1. Biological Foundations
+## 1. Biological Foundations
 
 - **Substrate:** Limbic networks, insular cortex, ventromedial prefrontal cortex, vagal nerve complexes, hypothalamic-pituitary-adrenal (HPA) axis.
 - **Core Functions:** Affective regulation, empathy, interpersonal resonance, modulation of threat reactivity, distinguishing instinctive reaction from chosen intentional response.
 - **Biological Markers:** Heart Rate Variability (HRV), respiratory sinus arrhythmia, autonomic balance, salivary cortisol profiles.
 
----
+______________________________________________________________________
 
-# 2. Epistemic Guardrail: Emotion as Signal, Not Truth
+## 2. Epistemic Guardrail: Emotion as Signal, Not Truth
 
 $$\text{Emotion } (\text{NEI}) = \text{Relevance & Biological Significance Signal} \neq \text{Objective Factual Truth}$$
+
 - Emotion alerts the cognitive system to threat, affiliation, meaning, or boundary violation, but must be cross-checked through NBI logic before translating into action.
 
----
+______________________________________________________________________
 
-# 3. Inter-Plane & Vault Connections
+## 3. Inter-Plane & Vault Connections
 
 - **Parent Framework:** [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]]
 - **Cognitive Matrix:** [[25_COGNITIVE_MATRIX/AMOS_X_UBI|AMOS_X_UBI]] and [[25_COGNITIVE_MATRIX/AMOS_X_UBI_MATRIX|AMOS_X_UBI_MATRIX]]
 - **Domain Siblings:** [[11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/UBI_NEUROBIOLOGICAL_INTELLIGENCE|UBI_NEUROBIOLOGICAL_INTELLIGENCE]], [[11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/UBI_SOMATIC_INTELLIGENCE|UBI_SOMATIC_INTELLIGENCE]], [[11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/UBI_BIOELECTROMAGNETIC_INTELLIGENCE|UBI_BIOELECTROMAGNETIC_INTELLIGENCE]]
 
----
+______________________________________________________________________
 
-# 4. RSCF Contract
+## 4. RSCF Contract
 
 ```yaml
 RSCF:
@@ -120,10 +121,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/06_DOMAIN_KNOWLEDGE_MOC|06_DOMAIN_KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]] · [[25_COGNITIVE_MATRIX/AMOS_X_UBI|AMOS_X_UBI]]
 
----
-**MOC:** [[11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/06_DOMAIN_KNOWLEDGE_MOC|06_DOMAIN_KNOWLEDGE_MOC]]
+______________________________________________________________________
 
+**MOC:** [[11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/06_DOMAIN_KNOWLEDGE_MOC|06_DOMAIN_KNOWLEDGE_MOC]]

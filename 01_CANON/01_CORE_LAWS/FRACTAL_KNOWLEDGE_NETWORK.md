@@ -1,33 +1,36 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: FRACTAL_KNOWLEDGE_NETWORK Specification
 aliases:
-- FRACTAL_KNOWLEDGE_NETWORK
-- Fractal Knowledge Network
-- FKN
-- H/M/L Knowledge Network
+  - FRACTAL_KNOWLEDGE_NETWORK
+  - Fractal Knowledge Network
+  - FKN
+  - H/M/L Knowledge Network
 type: law
 source: 01_CANON/01_CORE_LAWS
 tags:
-- core_law
-- fractal
-- knowledge_network
-- hml
-- hierarchical_resolution
-- traversal
-- retrieval
-- dependency
-- provenance
-- rscf
-- gmef
-- knowledge_graph
-- adaptive_resolution
-- selective_loading
-- context_efficiency
-- canon
-- canon/universe
-- law/L22-replayability
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - core_law
+  - fractal
+  - knowledge_network
+  - hml
+  - hierarchical_resolution
+  - traversal
+  - retrieval
+  - dependency
+  - provenance
+  - rscf
+  - gmef
+  - knowledge_graph
+  - adaptive_resolution
+  - selective_loading
+  - context_efficiency
+  - canon
+  - canon/universe
+  - law/L22-replayability
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
@@ -39,7 +42,7 @@ rscf:
 
 # FRACTAL_KNOWLEDGE_NETWORK Specification
 
-> [!abstract]
+> [!ABSTRACT]
 > Specifies scale-invariant knowledge graph traversal across
 > **H / M / L resolutions**.
 >
@@ -48,9 +51,9 @@ rscf:
 > representation and descends into greater detail only when that detail
 > can materially alter the result.
 
----
+______________________________________________________________________
 
-# 0. Status
+## 0. Status
 
 ```yaml
 status:
@@ -103,9 +106,9 @@ UNKNOWN/GAP
 
 rather than invented canon.
 
----
+______________________________________________________________________
 
-# 1. Purpose
+## 1. Purpose
 
 The Fractal Knowledge Network exists to prevent two symmetric
 reasoning failures:
@@ -135,11 +138,11 @@ capable of supporting the decision
 while preserving the ability to descend recursively when uncertainty,
 contradiction, dependency, or stakes require greater resolution.
 
----
+______________________________________________________________________
 
-# 2. Core Law
+## 2. Core Law
 
-For knowledge object \(K\), define three resolution projections:
+For knowledge object (K), define three resolution projections:
 
 $$
 H(K),\quad M(K),\quad L(K)
@@ -159,9 +162,9 @@ The exact formal semantics of each resolution are not defined in the
 terse source and therefore the definitions above are normalized AMOS
 model semantics.
 
----
+______________________________________________________________________
 
-# 3. Fractal Principle
+## 3. Fractal Principle
 
 A knowledge structure is fractal when the same navigation discipline
 can recur at multiple scales.
@@ -193,9 +196,9 @@ is not necessarily one fixed three-layer global tree.
 
 It may recur recursively.
 
----
+______________________________________________________________________
 
-# 4. Scale Invariance
+## 4. Scale Invariance
 
 The supplied phrase:
 
@@ -228,9 +231,9 @@ or that each layer contains equal information.
 
 Scale invariance concerns traversal structure, not semantic identity.
 
----
+______________________________________________________________________
 
-# 5. H — High Resolution Layer
+## 5. H — High Resolution Layer
 
 Within this reconstruction, `H` represents the high-level orientation
 surface.
@@ -258,9 +261,9 @@ Which subsystem may contain the answer?
 What are the major dependencies?
 ```
 
----
+______________________________________________________________________
 
-# 6. H Is Not the Final Answer by Default
+## 6. H Is Not the Final Answer by Default
 
 H can sometimes be sufficient.
 
@@ -290,9 +293,9 @@ AVAILABLE DETAIL
 != REQUIRED DETAIL
 ```
 
----
+______________________________________________________________________
 
-# 7. M — Middle Resolution Layer
+## 7. M — Middle Resolution Layer
 
 `M` represents subsystem or mechanism resolution.
 
@@ -316,9 +319,9 @@ Which mechanism changes the outcome?
 Which branch contains the load-bearing dependency?
 ```
 
----
+______________________________________________________________________
 
-# 8. M as Selective Expansion
+## 8. M as Selective Expansion
 
 Conceptually:
 
@@ -345,9 +348,9 @@ M1 + M2 + M3 + M4
 
 Selective expansion is central to efficient fractal traversal.
 
----
+______________________________________________________________________
 
-# 9. L — Low Resolution Layer
+## 9. L — Low Resolution Layer
 
 `L` represents detailed resolution.
 
@@ -371,9 +374,9 @@ L answers:
 What exact detail resolves the remaining uncertainty?
 ```
 
----
+______________________________________________________________________
 
-# 10. L Is Not Raw Evidence
+## 10. L Is Not Raw Evidence
 
 Critical boundary:
 
@@ -403,9 +406,9 @@ RAW EVIDENCE
 
 Raw evidence should be loaded only when required.
 
----
+______________________________________________________________________
 
-# 11. Raw Evidence Boundary
+## 11. Raw Evidence Boundary
 
 Default:
 
@@ -432,9 +435,9 @@ This does not mean raw evidence is unimportant.
 It means raw evidence is retrieved when it can materially alter
 validation.
 
----
+______________________________________________________________________
 
-# 12. Bootstrap Capsule
+## 12. Bootstrap Capsule
 
 A fractal traversal can begin from a compact bootstrap representation.
 
@@ -456,9 +459,9 @@ The exact bootstrap schema is not supplied by the terse source.
 
 It is an architectural model.
 
----
+______________________________________________________________________
 
-# 13. Canonical Retrieval Direction
+## 13. Canonical Retrieval Direction
 
 Normalized traversal:
 
@@ -506,9 +509,9 @@ BOOTSTRAP -> H -> M -> L -> RAW EVIDENCE
 
 depending on decision sufficiency.
 
----
+______________________________________________________________________
 
-# 14. Smallest Sufficient Proof Scope
+## 14. Smallest Sufficient Proof Scope
 
 The Fractal Knowledge Network should seek:
 
@@ -524,7 +527,7 @@ $$
 Sufficiency(R)=TRUE
 $$
 
-where \(R\) is the retrieved knowledge region.
+where (R) is the retrieved knowledge region.
 
 This is a normalized optimization model.
 
@@ -537,9 +540,9 @@ do not minimize retrieval
 past the point of evidentiary sufficiency
 ```
 
----
+______________________________________________________________________
 
-# 15. Integrity Dominates Compression
+## 15. Integrity Dominates Compression
 
 The system must never interpret:
 
@@ -574,9 +577,9 @@ $$
 Integrity > RetrievalCompression
 $$
 
----
+______________________________________________________________________
 
-# 16. Dependency-Directed Traversal
+## 16. Dependency-Directed Traversal
 
 Traversal should follow dependencies capable of changing the answer.
 
@@ -610,9 +613,9 @@ H -> M2 -> L2
 
 not exhaustive traversal of every branch.
 
----
+______________________________________________________________________
 
-# 17. Materiality Rule
+## 17. Materiality Rule
 
 A dependency is material when changing it could:
 
@@ -630,11 +633,11 @@ change safety or reversibility
 
 If none apply, deeper traversal may have low decision value.
 
----
+______________________________________________________________________
 
-# 18. Branch Expansion Rule
+## 18. Branch Expansion Rule
 
-Expand branch \(B\) when:
+Expand branch (B) when:
 
 $$
 EV_{information}(B) > Cost(B)
@@ -647,9 +650,9 @@ This is not a source-defined numerical formula.
 It represents the AMOS principle that retrieval effort should be spent
 where uncertainty reduction has positive decision value.
 
----
+______________________________________________________________________
 
-# 19. Fractal Stop Rule
+## 19. Fractal Stop Rule
 
 Stop descending when:
 
@@ -665,9 +668,9 @@ are achieved.
 
 Do not continue retrieving merely because deeper nodes exist.
 
----
+______________________________________________________________________
 
-# 20. Claim Sufficiency
+## 20. Claim Sufficiency
 
 Claim sufficiency exists when the available knowledge is adequate to
 state the conclusion at the correct epistemic class and confidence
@@ -684,9 +687,9 @@ hidden contradiction
 material provenance ambiguity
 ```
 
----
+______________________________________________________________________
 
-# 21. Decision Sufficiency
+## 21. Decision Sufficiency
 
 Decision sufficiency exists when unresolved uncertainty is unlikely to
 change the decision.
@@ -703,9 +706,9 @@ but weaker than:
 we know everything
 ```
 
----
+______________________________________________________________________
 
-# 22. Action Sufficiency
+## 22. Action Sufficiency
 
 Action sufficiency exists when the evidence supports a safe next action
 at the appropriate reversibility level.
@@ -714,9 +717,9 @@ A complete theory is not always necessary for a reversible action.
 
 Conversely, an irreversible action may require deeper traversal.
 
----
+______________________________________________________________________
 
-# 23. Adaptive Depth
+## 23. Adaptive Depth
 
 Traversal depth should scale with:
 
@@ -742,9 +745,9 @@ H -> M -> L -> evidence
 
 even when H alone appears plausible.
 
----
+______________________________________________________________________
 
-# 24. C0–C4 Complexity Integration
+## 24. C0–C4 Complexity Integration
 
 Conceptual integration:
 
@@ -770,9 +773,9 @@ The FKN determines **where to traverse**.
 
 Adaptive complexity determines **how deeply to reason**.
 
----
+______________________________________________________________________
 
-# 25. Resolution Is Not Confidence
+## 25. Resolution Is Not Confidence
 
 Critical firewall:
 
@@ -794,9 +797,9 @@ They do not encode epistemic strength.
 An H-level canonical fact may be stronger than an L-level speculative
 detail.
 
----
+______________________________________________________________________
 
-# 26. Resolution Is Not Epistemic Class
+## 26. Resolution Is Not Epistemic Class
 
 Likewise:
 
@@ -833,9 +836,9 @@ node:
   epistemic_class: DERIVED
 ```
 
----
+______________________________________________________________________
 
-# 27. Resolution Is Not Scope
+## 27. Resolution Is Not Scope
 
 ```text
 H
@@ -853,9 +856,9 @@ Resolution concerns detail.
 
 Scope concerns where the claim applies.
 
----
+______________________________________________________________________
 
-# 28. Resolution Is Not Regime
+## 28. Resolution Is Not Regime
 
 ```text
 H/M/L
@@ -872,9 +875,9 @@ speculative
 
 A traversal must preserve regime independently.
 
----
+______________________________________________________________________
 
-# 29. Resolution Is Not Provenance
+## 29. Resolution Is Not Provenance
 
 A high-level summary can preserve strong provenance.
 
@@ -887,9 +890,9 @@ DEPTH
 != PROVENANCE QUALITY
 ```
 
----
+______________________________________________________________________
 
-# 30. Resolution Is Not Truth
+## 30. Resolution Is Not Truth
 
 Deep retrieval can still retrieve false information.
 
@@ -903,9 +906,9 @@ MORE DETAIL
 The purpose of fractal traversal is relevant resolution, not automatic
 truth generation.
 
----
+______________________________________________________________________
 
-# 31. Recursive Structure
+## 31. Recursive Structure
 
 A subsystem can itself become an H-level object relative to its
 children.
@@ -930,9 +933,9 @@ GLOBAL M = PROVENANCE
 
 This is the primary meaning of fractal recursion in this architecture.
 
----
+______________________________________________________________________
 
-# 32. Relative Resolution
+## 32. Relative Resolution
 
 Therefore:
 
@@ -958,9 +961,9 @@ H relative to its descendants
 
 unless authoritative canon defines globally fixed levels.
 
----
+______________________________________________________________________
 
-# 33. Fractal Address
+## 33. Fractal Address
 
 Illustrative addressing:
 
@@ -980,9 +983,9 @@ H.recovery
 
 The exact path syntax is not source-defined.
 
----
+______________________________________________________________________
 
-# 34. Fractal Node
+## 34. Fractal Node
 
 Illustrative node:
 
@@ -1009,9 +1012,9 @@ fractal_node:
     load_policy: DO_NOT_LOAD_UNLESS_REQUIRED
 ```
 
----
+______________________________________________________________________
 
-# 35. Parent Summary Contract
+## 35. Parent Summary Contract
 
 A parent should summarize children without erasing material
 distinctions.
@@ -1030,9 +1033,9 @@ $$
 
 Compression that hides an outcome-changing contradiction is invalid.
 
----
+______________________________________________________________________
 
-# 36. Child Expansion Contract
+## 36. Child Expansion Contract
 
 A child expands information represented at the parent level.
 
@@ -1062,11 +1065,11 @@ expected state mismatch -> abort
 The child should add resolution rather than silently redefine the
 parent.
 
----
+______________________________________________________________________
 
-# 37. Parent-Child Consistency
+## 37. Parent-Child Consistency
 
-For parent \(P\) and child set \(C\):
+For parent (P) and child set (C):
 
 ```text
 child detail
@@ -1084,9 +1087,9 @@ must be surfaced.
 
 Do not automatically prefer the parent or child.
 
----
+______________________________________________________________________
 
-# 38. Lossy Compression Boundary
+## 38. Lossy Compression Boundary
 
 H-level compression is inherently capable of losing detail.
 
@@ -1103,9 +1106,9 @@ OUTCOME-CHANGING LOSS
 is not acceptable
 ```
 
----
+______________________________________________________________________
 
-# 39. Expansion Trigger — Ambiguity
+## 39. Expansion Trigger — Ambiguity
 
 Descend when H is ambiguous.
 
@@ -1124,9 +1127,9 @@ What counts as independent provenance?
 
 requires M/L expansion.
 
----
+______________________________________________________________________
 
-# 40. Expansion Trigger — Contradiction
+## 40. Expansion Trigger — Contradiction
 
 If two H summaries conflict:
 
@@ -1147,9 +1150,9 @@ dependency
 
 Do not resolve by summary preference.
 
----
+______________________________________________________________________
 
-# 41. Expansion Trigger — Weak Provenance
+## 41. Expansion Trigger — Weak Provenance
 
 If an H conclusion rests on:
 
@@ -1168,9 +1171,9 @@ raw artifact
 
 as required.
 
----
+______________________________________________________________________
 
-# 42. Expansion Trigger — Staleness
+## 42. Expansion Trigger — Staleness
 
 If the H capsule is stale:
 
@@ -1188,9 +1191,9 @@ descend or refresh the affected branch.
 
 Do not invalidate unrelated branches automatically.
 
----
+______________________________________________________________________
 
-# 43. Expansion Trigger — Scope Leakage
+## 43. Expansion Trigger — Scope Leakage
 
 If H appears to generalize beyond its supporting scope:
 
@@ -1207,9 +1210,9 @@ population = P1 only
 
 then H must be narrowed or revalidated.
 
----
+______________________________________________________________________
 
-# 44. Expansion Trigger — Regime Crossing
+## 44. Expansion Trigger — Regime Crossing
 
 If H combines:
 
@@ -1227,9 +1230,9 @@ descend into the regime boundary.
 
 Cross-regime conclusions require an explicit bridge.
 
----
+______________________________________________________________________
 
-# 45. Expansion Trigger — Causal Claim
+## 45. Expansion Trigger — Causal Claim
 
 Causal conclusions generally justify deeper inspection of:
 
@@ -1245,9 +1248,9 @@ alternative explanations
 
 Structural resemblance at H is insufficient.
 
----
+______________________________________________________________________
 
-# 46. Expansion Trigger — Irreversibility
+## 46. Expansion Trigger — Irreversibility
 
 If action is irreversible:
 
@@ -1271,9 +1274,9 @@ state mutation
 
 effects.
 
----
+______________________________________________________________________
 
-# 47. Expansion Trigger — Governance
+## 47. Expansion Trigger — Governance
 
 A local knowledge branch may appear sufficient for factual reasoning
 while still requiring governance-level expansion before action.
@@ -1285,9 +1288,9 @@ KNOWLEDGE SUFFICIENCY
 != AUTHORITY TO MUTATE
 ```
 
----
+______________________________________________________________________
 
-# 48. De-Escalation
+## 48. De-Escalation
 
 Once outcome-changing uncertainty is resolved:
 
@@ -1299,9 +1302,9 @@ Do not continue to deeper resolution solely because it is available.
 
 This prevents exhaustive retrieval from becoming the default.
 
----
+______________________________________________________________________
 
-# 49. Horizontal Traversal
+## 49. Horizontal Traversal
 
 FKN is not limited to vertical descent.
 
@@ -1323,9 +1326,9 @@ freshness
 
 if stale provenance changes evidence validity.
 
----
+______________________________________________________________________
 
-# 50. Cross-Branch Traversal
+## 50. Cross-Branch Traversal
 
 Suppose:
 
@@ -1350,9 +1353,9 @@ then dependency traversal may cross branches.
 
 Fractal hierarchy must not hide graph edges.
 
----
+______________________________________________________________________
 
-# 51. Tree vs Graph Boundary
+## 51. Tree vs Graph Boundary
 
 The network is a knowledge **graph**.
 
@@ -1372,9 +1375,9 @@ knowledge graph
 
 A node can have multiple meaningful relations.
 
----
+______________________________________________________________________
 
-# 52. Graph Relation Types
+## 52. Graph Relation Types
 
 Possible relation classes include:
 
@@ -1398,9 +1401,9 @@ treated as canonical enumerations.
 
 This list is an integration model.
 
----
+______________________________________________________________________
 
-# 53. Dependency Closure
+## 53. Dependency Closure
 
 Local reasoning is safe only when the load-bearing dependency closure
 is known sufficiently.
@@ -1419,9 +1422,9 @@ $$
 but traversal should stop at dependencies that cannot materially change
 the conclusion.
 
----
+______________________________________________________________________
 
-# 54. Minimal Dependency Closure
+## 54. Minimal Dependency Closure
 
 Do not interpret dependency closure as:
 
@@ -1437,9 +1440,9 @@ load the transitive material dependency closure
 
 This is a central FKN efficiency principle.
 
----
+______________________________________________________________________
 
-# 55. Hidden Dependency Hazard
+## 55. Hidden Dependency Hazard
 
 Suppose:
 
@@ -1469,9 +1472,9 @@ DEPENDENCY CLOSURE
 
 not merely local coherence.
 
----
+______________________________________________________________________
 
-# 56. Dependency Materiality
+## 56. Dependency Materiality
 
 A dependency may be ignored only if changing it cannot materially alter:
 
@@ -1487,9 +1490,9 @@ safety
 
 This should be demonstrated where stakes justify it.
 
----
+______________________________________________________________________
 
-# 57. RSCF Integration
+## 57. RSCF Integration
 
 RSCF can serve as a compact knowledge capsule at any resolution.
 
@@ -1521,9 +1524,9 @@ falsifiers
 confidence ceiling
 ```
 
----
+______________________________________________________________________
 
-# 58. RSCF as Fractal Node
+## 58. RSCF as Fractal Node
 
 Illustrative:
 
@@ -1557,9 +1560,9 @@ rscf:
 
 The exact schema remains governed by RSCF canon.
 
----
+______________________________________________________________________
 
-# 59. GMEF Integration
+## 59. GMEF Integration
 
 GMEF can represent a structured mapping of relevant environment,
 mechanism, or governing context around an RSCF node where applicable.
@@ -1575,9 +1578,9 @@ FKN  = traversal topology
 This relationship is architectural unless a dedicated canonical GMEF
 specification defines stronger semantics.
 
----
+______________________________________________________________________
 
-# 60. Proof Capsule Integration
+## 60. Proof Capsule Integration
 
 A proof capsule can be retrieved at H first.
 
@@ -1607,9 +1610,9 @@ If P2 is uncertain:
 DESCEND P2
 ```
 
----
+______________________________________________________________________
 
-# 61. Proof-Guided Traversal
+## 61. Proof-Guided Traversal
 
 Traversal priority:
 
@@ -1622,9 +1625,9 @@ BACKGROUND CONTEXT
 A premise that can flip the conclusion should be inspected before
 noncritical explanatory material.
 
----
+______________________________________________________________________
 
-# 62. Weakest-Premise Traversal
+## 62. Weakest-Premise Traversal
 
 If:
 
@@ -1644,9 +1647,9 @@ because P2 controls the confidence ceiling.
 
 This is sensitivity-directed fractal retrieval.
 
----
+______________________________________________________________________
 
-# 63. Contradiction-Guided Traversal
+## 63. Contradiction-Guided Traversal
 
 When contradiction exists:
 
@@ -1660,9 +1663,9 @@ retrieve the smallest nodes capable of discriminating between them.
 
 Do not expand unrelated graph regions.
 
----
+______________________________________________________________________
 
-# 64. Competing-Hypothesis Traversal
+## 64. Competing-Hypothesis Traversal
 
 Suppose:
 
@@ -1684,9 +1687,9 @@ and traverse toward that evidence.
 
 Avoid collecting more evidence that all hypotheses predict equally.
 
----
+______________________________________________________________________
 
-# 65. Provenance-Guided Traversal
+## 65. Provenance-Guided Traversal
 
 If three nodes support C:
 
@@ -1714,9 +1717,9 @@ then support is correlated.
 
 The FKN must preserve provenance topology across resolution levels.
 
----
+______________________________________________________________________
 
-# 66. Provenance Compression
+## 66. Provenance Compression
 
 H may summarize:
 
@@ -1735,9 +1738,9 @@ the H summary is misleading.
 Therefore H-level provenance summaries should preserve material
 correlation information.
 
----
+______________________________________________________________________
 
-# 67. Sybil Resistance
+## 67. Sybil Resistance
 
 Fractal traversal must resist evidence inflation through duplicated
 descendants.
@@ -1757,9 +1760,9 @@ does not automatically mean:
 
 The graph must allow traversal upstream to common ancestry.
 
----
+______________________________________________________________________
 
-# 68. Freshness-Guided Traversal
+## 68. Freshness-Guided Traversal
 
 If only one branch is stale:
 
@@ -1781,11 +1784,11 @@ and dependent descendants.
 
 Do not recompute M1/M3 unless dependency edges require it.
 
----
+______________________________________________________________________
 
-# 69. Selective Invalidation
+## 69. Selective Invalidation
 
-If node \(N\) fails:
+If node (N) fails:
 
 ```text
 invalidate N
@@ -1803,9 +1806,9 @@ unless N is globally load-bearing.
 
 This enables local repair.
 
----
+______________________________________________________________________
 
-# 70. Local Repair
+## 70. Local Repair
 
 Conceptual process:
 
@@ -1827,9 +1830,9 @@ revalidate local capsule
 
 Global recomputation is last resort.
 
----
+______________________________________________________________________
 
-# 71. Failed-Path Rule
+## 71. Failed-Path Rule
 
 Do not repeat a failed traversal path unless something material changed.
 
@@ -1847,9 +1850,9 @@ new retrieval method
 
 Otherwise repeated traversal is unlikely to add value.
 
----
+______________________________________________________________________
 
-# 72. Cycle Detection
+## 72. Cycle Detection
 
 Because FKN is a graph, cycles may exist as relations.
 
@@ -1871,9 +1874,9 @@ RECURSIVE STRUCTURE
 != CIRCULAR PROOF
 ```
 
----
+______________________________________________________________________
 
-# 73. Fractal Recursion vs Circular Reasoning
+## 73. Fractal Recursion vs Circular Reasoning
 
 Valid fractal recursion:
 
@@ -1891,9 +1894,9 @@ B is true because A
 
 These must remain distinct.
 
----
+______________________________________________________________________
 
-# 74. Scale-Invariant Traversal Rule
+## 74. Scale-Invariant Traversal Rule
 
 Normalized generic traversal:
 
@@ -1910,9 +1913,9 @@ Normalized generic traversal:
 
 The same pattern can operate at H, M, or L.
 
----
+______________________________________________________________________
 
-# 75. Traversal Pseudocode
+## 75. Traversal Pseudocode
 
 ```python
 def traverse(node, objective):
@@ -1943,9 +1946,9 @@ Illustrative only.
 No literal executable implementation is established by the terse
 source.
 
----
+______________________________________________________________________
 
-# 76. Raw Evidence Escalation
+## 76. Raw Evidence Escalation
 
 ```python
 def maybe_load_raw_evidence(node):
@@ -1966,9 +1969,9 @@ IS ESCALATION,
 NOT DEFAULT
 ```
 
----
+______________________________________________________________________
 
-# 77. Traversal Priority Function
+## 77. Traversal Priority Function
 
 Illustrative:
 
@@ -1994,9 +1997,9 @@ This equation is not source canon.
 
 It formalizes the preference for cheap, high-information checks.
 
----
+______________________________________________________________________
 
-# 78. Sensitivity-First Traversal
+## 78. Sensitivity-First Traversal
 
 Given assumptions:
 
@@ -2016,9 +2019,9 @@ and inspect that branch first.
 
 This can dramatically reduce unnecessary traversal.
 
----
+______________________________________________________________________
 
-# 79. Fractal Retrieval Under Uncertainty
+## 79. Fractal Retrieval Under Uncertainty
 
 Track uncertainty dimensions separately where material:
 
@@ -2035,9 +2038,9 @@ provenance independence
 Then traverse the branch corresponding to the uncertainty that can
 actually change the decision.
 
----
+______________________________________________________________________
 
-# 80. Evidence Uncertainty
+## 80. Evidence Uncertainty
 
 If uncertainty is:
 
@@ -2053,9 +2056,9 @@ provenance/source branch
 
 not unrelated model details.
 
----
+______________________________________________________________________
 
-# 81. Model Uncertainty
+## 81. Model Uncertainty
 
 If uncertainty is:
 
@@ -2071,9 +2074,9 @@ predictions
 discriminating observations
 ```
 
----
+______________________________________________________________________
 
-# 82. Scope Uncertainty
+## 82. Scope Uncertainty
 
 If uncertainty is:
 
@@ -2090,9 +2093,9 @@ environment
 measurement conditions
 ```
 
----
+______________________________________________________________________
 
-# 83. Temporal Uncertainty
+## 83. Temporal Uncertainty
 
 If uncertainty is:
 
@@ -2109,9 +2112,9 @@ timestamp
 supersession
 ```
 
----
+______________________________________________________________________
 
-# 84. Causal Uncertainty
+## 84. Causal Uncertainty
 
 If uncertainty is:
 
@@ -2131,9 +2134,9 @@ alternative causes
 
 rather than collecting more structural analogies.
 
----
+______________________________________________________________________
 
-# 85. Provenance-Independence Uncertainty
+## 85. Provenance-Independence Uncertainty
 
 If uncertainty is:
 
@@ -2153,9 +2156,9 @@ pipeline ancestry
 This is an example where optimal traversal may move **upstream**, not
 deeper into content.
 
----
+______________________________________________________________________
 
-# 86. Bidirectional Traversal
+## 86. Bidirectional Traversal
 
 FKN therefore supports conceptual movement:
 
@@ -2178,9 +2181,9 @@ dependent consequence
 
 Fractal traversal is graph navigation, not merely top-down expansion.
 
----
+______________________________________________________________________
 
-# 87. Query-Relative Traversal
+## 87. Query-Relative Traversal
 
 The same network may produce different paths for different questions.
 
@@ -2225,9 +2228,9 @@ raw implementation evidence
 
 if available.
 
----
+______________________________________________________________________
 
-# 88. Context Budget
+## 88. Context Budget
 
 FKN should treat reasoning context as finite.
 
@@ -2244,9 +2247,9 @@ rather than every retrievable node.
 This is a resource discipline, not permission to omit load-bearing
 evidence.
 
----
+______________________________________________________________________
 
-# 89. Context Pollution
+## 89. Context Pollution
 
 Overloading context with unrelated nodes can create:
 
@@ -2261,9 +2264,9 @@ higher synthesis cost
 
 Fractal selective retrieval mitigates this.
 
----
+______________________________________________________________________
 
-# 90. Compression Integrity
+## 90. Compression Integrity
 
 A compressed H capsule must preserve at minimum any feature capable of
 changing downstream reasoning.
@@ -2284,9 +2287,9 @@ provenance independence
 
 when relevant.
 
----
+______________________________________________________________________
 
-# 91. H Capsule
+## 91. H Capsule
 
 Illustrative:
 
@@ -2312,9 +2315,9 @@ H:
     - scope_crossing
 ```
 
----
+______________________________________________________________________
 
-# 92. M Capsule
+## 92. M Capsule
 
 ```yaml
 M:
@@ -2336,9 +2339,9 @@ M:
     - L.source_B_ancestry
 ```
 
----
+______________________________________________________________________
 
-# 93. L Capsule
+## 93. L Capsule
 
 ```yaml
 L:
@@ -2363,9 +2366,9 @@ L:
 
 Illustrative only.
 
----
+______________________________________________________________________
 
-# 94. Raw Evidence Pointer
+## 94. Raw Evidence Pointer
 
 ```yaml
 raw_evidence:
@@ -2385,9 +2388,9 @@ raw_evidence:
 
 FKN should prefer pointers over unnecessary raw duplication.
 
----
+______________________________________________________________________
 
-# 95. Pointer Integrity
+## 95. Pointer Integrity
 
 A pointer must remain resolvable enough to support later retrieval.
 
@@ -2407,9 +2410,9 @@ must preserve
 RECOVERABILITY
 ```
 
----
+______________________________________________________________________
 
-# 96. Persistent Provenance
+## 96. Persistent Provenance
 
 When knowledge is compressed from L to M or H:
 
@@ -2436,9 +2439,9 @@ source
 
 A future validator should be able to descend back toward the source.
 
----
+______________________________________________________________________
 
-# 97. Evidence Topology Preservation
+## 97. Evidence Topology Preservation
 
 The FKN should preserve whether support is:
 
@@ -2459,9 +2462,9 @@ unknown
 
 Compression must not flatten these distinctions.
 
----
+______________________________________________________________________
 
-# 98. Regime Preservation
+## 98. Regime Preservation
 
 Suppose L says:
 
@@ -2483,9 +2486,9 @@ regime = simulation
 
 Likewise H must not erase the regime boundary.
 
----
+______________________________________________________________________
 
-# 99. Scope Preservation
+## 99. Scope Preservation
 
 Suppose:
 
@@ -2502,9 +2505,9 @@ all populations
 
 unless a validated generalization exists.
 
----
+______________________________________________________________________
 
-# 100. Freshness Preservation
+## 100. Freshness Preservation
 
 If a load-bearing L node expires:
 
@@ -2517,9 +2520,9 @@ its M/H summaries may also become stale if they depend on it.
 Selective invalidation should follow dependency edges upward and
 downstream as required.
 
----
+______________________________________________________________________
 
-# 101. Confidence Preservation
+## 101. Confidence Preservation
 
 If H is derived from:
 
@@ -2539,9 +2542,9 @@ unless independently revalidated.
 
 Compression must not inflate confidence.
 
----
+______________________________________________________________________
 
-# 102. Contradiction Preservation
+## 102. Contradiction Preservation
 
 If:
 
@@ -2566,9 +2569,9 @@ COMPETING
 
 or a scoped resolution if evidence distinguishes them.
 
----
+______________________________________________________________________
 
-# 103. Competing Hypothesis Preservation
+## 103. Competing Hypothesis Preservation
 
 Suppose:
 
@@ -2587,9 +2590,9 @@ COMPETING
 
 rather than manufacturing one unified answer.
 
----
+______________________________________________________________________
 
-# 104. Falsifier Preservation
+## 104. Falsifier Preservation
 
 If L contains a critical falsifier:
 
@@ -2602,9 +2605,9 @@ that could invalidate H, then H should retain at least a pointer to F.
 A summary that hides its own invalidation condition is epistemically
 fragile.
 
----
+______________________________________________________________________
 
-# 105. H/M/L Update Propagation
+## 105. H/M/L Update Propagation
 
 When L changes:
 
@@ -2636,9 +2639,9 @@ H2
 
 remain valid if dependency closure proves independence.
 
----
+______________________________________________________________________
 
-# 106. Incremental Revalidation
+## 106. Incremental Revalidation
 
 Preferred:
 
@@ -2658,9 +2661,9 @@ local change
 
 unless global dependency exists.
 
----
+______________________________________________________________________
 
-# 107. Cache Boundary
+## 107. Cache Boundary
 
 A previously generated H/M/L capsule may be reused only while:
 
@@ -2679,9 +2682,9 @@ Otherwise:
 REVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 108. Cached Summary Hazard
+## 108. Cached Summary Hazard
 
 A cached H summary can become stale while underlying L nodes change.
 
@@ -2694,9 +2697,9 @@ CACHE HIT
 
 Cache reuse requires validity checks.
 
----
+______________________________________________________________________
 
-# 109. Version Binding
+## 109. Version Binding
 
 Conceptually:
 
@@ -2722,9 +2725,9 @@ before reuse.
 
 Exact version mechanics are not supplied by this source.
 
----
+______________________________________________________________________
 
-# 110. Epoch Binding
+## 110. Epoch Binding
 
 Where causal epochs are used, a knowledge capsule may also carry an
 epoch binding.
@@ -2747,9 +2750,9 @@ does not automatically invalidate every capsule.
 Only validity conditions and dependencies determine whether
 revalidation is needed.
 
----
+______________________________________________________________________
 
-# 111. MVCC/CAS Integration Boundary
+## 111. MVCC/CAS Integration Boundary
 
 FKN knowledge capsules can conceptually participate in snapshot-based
 reasoning.
@@ -2781,9 +2784,9 @@ FKN defines knowledge traversal.
 
 Concurrency control belongs to its own governing law.
 
----
+______________________________________________________________________
 
-# 112. Replayability Integration
+## 112. Replayability Integration
 
 A traversal can be made replayable if the relevant:
 
@@ -2808,9 +2811,9 @@ and this terse source does not define bit-for-bit replay mechanics.
 
 Those belong to [[01_CANON/01_CORE_LAWS/L22_REPLAYABILITY|L22_REPLAYABILITY]] where applicable.
 
----
+______________________________________________________________________
 
-# 113. Causal Epoch Integration
+## 113. Causal Epoch Integration
 
 FKN can traverse causal lineage:
 
@@ -2829,9 +2832,9 @@ graph edge
 
 Only appropriately typed causal evidence licenses causal conclusions.
 
----
+______________________________________________________________________
 
-# 114. Recovery Integration
+## 114. Recovery Integration
 
 When a knowledge node becomes invalid:
 
@@ -2847,9 +2850,9 @@ This supports selective recovery.
 
 It does not itself define the complete recovery protocol.
 
----
+______________________________________________________________________
 
-# 115. DMER Integration Boundary
+## 115. DMER Integration Boundary
 
 A D/M/E/R recovery architecture may use FKN to locate:
 
@@ -2871,9 +2874,9 @@ FKN traversal
 
 The relationship is complementary.
 
----
+______________________________________________________________________
 
-# 116. Local Reasoning Fast Path
+## 116. Local Reasoning Fast Path
 
 Local reasoning can remain local when all of the following are
 sufficiently established:
@@ -2895,9 +2898,9 @@ do not expand globally
 
 This is the FKN fast path.
 
----
+______________________________________________________________________
 
-# 117. Escalation Conditions
+## 117. Escalation Conditions
 
 Escalate traversal when:
 
@@ -2917,9 +2920,9 @@ weak load-bearing premise
 Escalation may mean deeper, broader, upstream, or cross-branch
 navigation.
 
----
+______________________________________________________________________
 
-# 118. Fast Path Is Not Shortcutting Integrity
+## 118. Fast Path Is Not Shortcutting Integrity
 
 Incorrect:
 
@@ -2942,9 +2945,9 @@ Efficiency follows proof of locality.
 
 It is not assumed.
 
----
+______________________________________________________________________
 
-# 119. Independence Requirement
+## 119. Independence Requirement
 
 Suppose:
 
@@ -2972,9 +2975,9 @@ causal dependency
 
 if independence matters.
 
----
+______________________________________________________________________
 
-# 120. Cross-Domain Traversal
+## 120. Cross-Domain Traversal
 
 A structural pattern found in domain A may suggest a model for domain B.
 
@@ -2996,9 +2999,9 @@ therefore same causal law
 FKN can traverse cross-domain analogies without converting analogy into
 fact.
 
----
+______________________________________________________________________
 
-# 121. Cross-Scale Mapping
+## 121. Cross-Scale Mapping
 
 Likewise:
 
@@ -3023,9 +3026,9 @@ SCALE-INVARIANT NAVIGATION
 SCALE-INVARIANT PHYSICAL LAW
 ```
 
----
+______________________________________________________________________
 
-# 122. Fractal Architecture vs Universal Fractality
+## 122. Fractal Architecture vs Universal Fractality
 
 The name:
 
@@ -3049,9 +3052,9 @@ all knowledge domains possess literal mathematical fractal geometry
 
 unless separately supported.
 
----
+______________________________________________________________________
 
-# 123. Mathematical Fractal Boundary
+## 123. Mathematical Fractal Boundary
 
 The word `fractal` here should not automatically be interpreted as a
 claim of:
@@ -3070,9 +3073,9 @@ scale-invariant knowledge graph traversal
 
 not a formal fractal-dimension theorem.
 
----
+______________________________________________________________________
 
-# 124. H/M/L Completeness Boundary
+## 124. H/M/L Completeness Boundary
 
 The source establishes traversal across H/M/L resolutions.
 
@@ -3087,9 +3090,9 @@ in exactly three levels
 Recursive H/M/L decomposition can provide additional resolution, but
 formal universal completeness is not established.
 
----
+______________________________________________________________________
 
-# 125. Fixed-Level Boundary
+## 125. Fixed-Level Boundary
 
 The terse source does not establish whether:
 
@@ -3108,9 +3111,9 @@ MODEL elaboration based on the term `fractal`.
 
 This distinction remains falsifiable by authoritative canon.
 
----
+______________________________________________________________________
 
-# 126. Granularity Boundary
+## 126. Granularity Boundary
 
 No exact threshold is supplied for deciding:
 
@@ -3124,9 +3127,9 @@ domain-specific convention.
 
 Do not invent universal numeric thresholds.
 
----
+______________________________________________________________________
 
-# 127. Traversal Cost Boundary
+## 127. Traversal Cost Boundary
 
 The source does not define:
 
@@ -3140,9 +3143,9 @@ maximum breadth
 
 Any such limits are implementation parameters, not established canon.
 
----
+______________________________________________________________________
 
-# 128. Retrieval Engine Boundary
+## 128. Retrieval Engine Boundary
 
 The specification does not establish a particular:
 
@@ -3162,9 +3165,9 @@ as the literal FKN implementation.
 FKN is an architectural reasoning/retrieval specification unless
 implementation evidence establishes otherwise.
 
----
+______________________________________________________________________
 
-# 129. Runtime Boundary
+## 129. Runtime Boundary
 
 The existence of this canonical architecture does not prove that the
 underlying ChatGPT runtime literally implements:
@@ -3180,9 +3183,9 @@ distributed CAS
 These remain reasoning architecture concepts unless independently
 verified.
 
----
+______________________________________________________________________
 
-# 130. Hidden Chain-of-Thought Boundary
+## 130. Hidden Chain-of-Thought Boundary
 
 Fractal knowledge retrieval does not require disclosure of private
 chain-of-thought.
@@ -3202,9 +3205,9 @@ classification
 
 without exposing hidden reasoning tokens.
 
----
+______________________________________________________________________
 
-# 131. Failure Mode — Flat Retrieval
+## 131. Failure Mode — Flat Retrieval
 
 ```text
 FM-FKN-001
@@ -3230,9 +3233,9 @@ Repair:
 restore H/M/L decomposition
 ```
 
----
+______________________________________________________________________
 
-# 132. Failure Mode — Premature Descent
+## 132. Failure Mode — Premature Descent
 
 ```text
 FM-FKN-002
@@ -3259,9 +3262,9 @@ Repair:
 return to H/M orientation
 ```
 
----
+______________________________________________________________________
 
-# 133. Failure Mode — Insufficient Descent
+## 133. Failure Mode — Insufficient Descent
 
 ```text
 FM-FKN-003
@@ -3286,9 +3289,9 @@ Repair:
 descend into material dependency
 ```
 
----
+______________________________________________________________________
 
-# 134. Failure Mode — Exhaustive Traversal
+## 134. Failure Mode — Exhaustive Traversal
 
 ```text
 FM-FKN-004
@@ -3316,9 +3319,9 @@ Repair:
 dependency-directed traversal
 ```
 
----
+______________________________________________________________________
 
-# 135. Failure Mode — Hidden Dependency
+## 135. Failure Mode — Hidden Dependency
 
 ```text
 FM-FKN-005
@@ -3343,9 +3346,9 @@ Repair:
 dependency closure analysis
 ```
 
----
+______________________________________________________________________
 
-# 136. Failure Mode — Provenance Collapse
+## 136. Failure Mode — Provenance Collapse
 
 ```text
 FM-FKN-006
@@ -3369,9 +3372,9 @@ Repair:
 restore provenance pointers/topology
 ```
 
----
+______________________________________________________________________
 
-# 137. Failure Mode — Scope Collapse
+## 137. Failure Mode — Scope Collapse
 
 ```text
 FM-FKN-007
@@ -3390,9 +3393,9 @@ Repair:
 restore applicability envelope
 ```
 
----
+______________________________________________________________________
 
-# 138. Failure Mode — Regime Collapse
+## 138. Failure Mode — Regime Collapse
 
 ```text
 FM-FKN-008
@@ -3411,9 +3414,9 @@ Repair:
 restore regime label and bridge requirement
 ```
 
----
+______________________________________________________________________
 
-# 139. Failure Mode — Confidence Inflation
+## 139. Failure Mode — Confidence Inflation
 
 ```text
 FM-FKN-009
@@ -3432,9 +3435,9 @@ Repair:
 restore dependency-aware confidence ceiling
 ```
 
----
+______________________________________________________________________
 
-# 140. Failure Mode — Fractal Reification
+## 140. Failure Mode — Fractal Reification
 
 ```text
 FM-FKN-010
@@ -3453,9 +3456,9 @@ Repair:
 restore MODEL boundary
 ```
 
----
+______________________________________________________________________
 
-# 141. Failure Mode — Recursive Loop
+## 141. Failure Mode — Recursive Loop
 
 ```text
 FM-FKN-011
@@ -3476,9 +3479,9 @@ detect circular dependency
 require external grounding
 ```
 
----
+______________________________________________________________________
 
-# 142. Failure Mode — Stale Parent
+## 142. Failure Mode — Stale Parent
 
 ```text
 FM-FKN-012
@@ -3497,9 +3500,9 @@ Repair:
 dependency-driven invalidation
 ```
 
----
+______________________________________________________________________
 
-# 143. Failure Mode — Raw Evidence Default
+## 143. Failure Mode — Raw Evidence Default
 
 ```text
 FM-FKN-013
@@ -3517,9 +3520,9 @@ Repair:
 restore DO_NOT_LOAD_UNLESS_REQUIRED policy
 ```
 
----
+______________________________________________________________________
 
-# 144. Failure Mode — False Independence
+## 144. Failure Mode — False Independence
 
 ```text
 FM-FKN-014
@@ -3538,9 +3541,9 @@ Repair:
 trace provenance and causal ancestry
 ```
 
----
+______________________________________________________________________
 
-# 145. Failure Mode — Search Popularity Substitution
+## 145. Failure Mode — Search Popularity Substitution
 
 ```text
 FM-FKN-015
@@ -3563,9 +3566,9 @@ freshness,
 and dependency
 ```
 
----
+______________________________________________________________________
 
-# 146. Anti-Pattern Register
+## 146. Anti-Pattern Register
 
 ```yaml
 anti_patterns:
@@ -3616,9 +3619,9 @@ anti_patterns:
     name: FRACTAL_ARCHITECTURE_AS_UNIVERSAL_CAUSAL_LAW
 ```
 
----
+______________________________________________________________________
 
-# 147. Traversal Decision Matrix
+## 147. Traversal Decision Matrix
 
 | Condition                                | Preferred Traversal              |
 | ---------------------------------------- | -------------------------------- |
@@ -3637,9 +3640,9 @@ anti_patterns:
 | Cached capsule dependencies unchanged    | reuse                            |
 | Load-bearing dependency changed          | selectively invalidate/recompute |
 
----
+______________________________________________________________________
 
-# 148. Traversal State Machine
+## 148. Traversal State Machine
 
 ```text
 START
@@ -3685,9 +3688,9 @@ STOP       v
                          STOP
 ```
 
----
+______________________________________________________________________
 
-# 149. Contradiction State Machine
+## 149. Contradiction State Machine
 
 ```text
 CLAIM C
@@ -3714,9 +3717,9 @@ traverse smallest sufficient branch
    CONDITION     COMPETING
 ```
 
----
+______________________________________________________________________
 
-# 150. Local Repair State Machine
+## 150. Local Repair State Machine
 
 ```text
 VALID CAPSULE
@@ -3742,9 +3745,9 @@ PASS      FAIL
 REUSE      ESCALATE
 ```
 
----
+______________________________________________________________________
 
-# 151. FKN Query Contract
+## 151. FKN Query Contract
 
 Illustrative:
 
@@ -3773,9 +3776,9 @@ fkn_query:
     - action_sufficiency
 ```
 
----
+______________________________________________________________________
 
-# 152. FKN Traversal Receipt
+## 152. FKN Traversal Receipt
 
 Illustrative:
 
@@ -3815,9 +3818,9 @@ fkn_receipt:
 
 The exact receipt schema is not source-established.
 
----
+______________________________________________________________________
 
-# 153. Minimal Node Schema
+## 153. Minimal Node Schema
 
 ```yaml
 fkn_node:
@@ -3847,9 +3850,9 @@ fkn_node:
 
 Illustrative.
 
----
+______________________________________________________________________
 
-# 154. Full Node Schema
+## 154. Full Node Schema
 
 ```yaml
 fkn_node:
@@ -3909,9 +3912,9 @@ fkn_node:
 
 Model-level schema only.
 
----
+______________________________________________________________________
 
-# 155. Fractal Index
+## 155. Fractal Index
 
 A compact index can map H nodes:
 
@@ -3947,9 +3950,9 @@ H_INDEX:
 
 This is illustrative and does not replace authoritative AMOS maps.
 
----
+______________________________________________________________________
 
-# 156. Navigation by Objective
+## 156. Navigation by Objective
 
 Instead of retrieving by keyword alone:
 
@@ -3969,9 +3972,9 @@ dependency
 Two semantically similar queries may require different graph paths
 because their decision stakes differ.
 
----
+______________________________________________________________________
 
-# 157. Search vs Traversal
+## 157. Search vs Traversal
 
 Search asks:
 
@@ -3997,9 +4000,9 @@ Search can locate candidate nodes.
 
 Dependency-aware traversal establishes support.
 
----
+______________________________________________________________________
 
-# 158. Retrieval vs Validation
+## 158. Retrieval vs Validation
 
 Likewise:
 
@@ -4021,9 +4024,9 @@ source-only
 
 Validation remains necessary where material.
 
----
+______________________________________________________________________
 
-# 159. Retrieval vs Authority
+## 159. Retrieval vs Authority
 
 A node's presence in the network does not itself grant authority.
 
@@ -4040,9 +4043,9 @@ RETRIEVED
 
 Each property must remain typed.
 
----
+______________________________________________________________________
 
-# 160. Traversal and Canon Priority
+## 160. Traversal and Canon Priority
 
 When multiple nodes conflict, canonical authority may matter within
 canon-governed questions.
@@ -4062,9 +4065,9 @@ it.
 
 Do not infer supersession from recency alone.
 
----
+______________________________________________________________________
 
-# 161. Temporal Lineage
+## 161. Temporal Lineage
 
 Knowledge evolution should preserve:
 
@@ -4091,9 +4094,9 @@ relationships where known.
 
 The latest node should not silently erase historical lineage.
 
----
+______________________________________________________________________
 
-# 162. Version Search
+## 162. Version Search
 
 If a current node appears incomplete:
 
@@ -4112,9 +4115,9 @@ removed boundaries
 
 Do not load all historical versions by default.
 
----
+______________________________________________________________________
 
-# 163. Historical Evidence Boundary
+## 163. Historical Evidence Boundary
 
 Older canon can explain:
 
@@ -4136,9 +4139,9 @@ not:
 silent rollback of canon
 ```
 
----
+______________________________________________________________________
 
-# 164. Knowledge Harvest Integration
+## 164. Knowledge Harvest Integration
 
 FKN can support:
 
@@ -4157,9 +4160,9 @@ provenance.
 
 However, harvesting does not automatically validate source claims.
 
----
+______________________________________________________________________
 
-# 165. Source Claim Harvest
+## 165. Source Claim Harvest
 
 Documentation statement:
 
@@ -4185,9 +4188,9 @@ can be added as a separate node.
 
 The FKN preserves both.
 
----
+______________________________________________________________________
 
-# 166. Observation Harvest
+## 166. Observation Harvest
 
 Directly inspected evidence can enter an L node:
 
@@ -4200,9 +4203,9 @@ and later support M/H summaries.
 
 The summary must preserve the observation's scope.
 
----
+______________________________________________________________________
 
-# 167. Derived Knowledge Harvest
+## 167. Derived Knowledge Harvest
 
 A stable inference can be stored as:
 
@@ -4223,9 +4226,9 @@ confidence ceiling
 
 so future traversal can reuse it without rebuilding everything.
 
----
+______________________________________________________________________
 
-# 168. Model Harvest
+## 168. Model Harvest
 
 Architectural mappings can be stored as:
 
@@ -4238,9 +4241,9 @@ without being silently promoted to empirical truth.
 This is especially important for cross-domain and cross-scale
 structures.
 
----
+______________________________________________________________________
 
-# 169. Reuse Rule
+## 169. Reuse Rule
 
 Reuse a stored capsule only while:
 
@@ -4255,9 +4258,9 @@ no defeating contradiction
 
 Otherwise descend and revalidate.
 
----
+______________________________________________________________________
 
-# 170. Revalidation Trigger
+## 170. Revalidation Trigger
 
 Trigger revalidation when:
 
@@ -4273,9 +4276,9 @@ falsifier fires
 freshness expires
 ```
 
----
+______________________________________________________________________
 
-# 171. FKN and Causal Firewall
+## 171. FKN and Causal Firewall
 
 A graph naturally contains edges.
 
@@ -4300,9 +4303,9 @@ CAUSES
 
 unless causal evidence licenses it.
 
----
+______________________________________________________________________
 
-# 172. FKN and Scope Firewall
+## 172. FKN and Scope Firewall
 
 A child can be narrower than its parent.
 
@@ -4315,9 +4318,9 @@ CONNECTED
 != SAME SCOPE
 ```
 
----
+______________________________________________________________________
 
-# 173. FKN and Regime Firewall
+## 173. FKN and Regime Firewall
 
 Likewise:
 
@@ -4329,9 +4332,9 @@ CONNECTED
 A simulation node and empirical node may be adjacent while remaining
 epistemically separated.
 
----
+______________________________________________________________________
 
-# 174. FKN and Provenance Firewall
+## 174. FKN and Provenance Firewall
 
 ```text
 CONNECTED
@@ -4347,9 +4350,9 @@ SEPARATE NODE
 
 Provenance ancestry must remain explicit.
 
----
+______________________________________________________________________
 
-# 175. FKN and Freshness Firewall
+## 175. FKN and Freshness Firewall
 
 ```text
 PARENT FRESH
@@ -4365,9 +4368,9 @@ and vice versa.
 
 Freshness propagation depends on actual dependencies.
 
----
+______________________________________________________________________
 
-# 176. FKN and Causal Epochs
+## 176. FKN and Causal Epochs
 
 An epoch transition may alter the validity of selected nodes.
 
@@ -4388,9 +4391,9 @@ e_{k+1}
 Only dependent summaries need revalidation unless broader coupling
 exists.
 
----
+______________________________________________________________________
 
-# 177. FKN and No Time Travel
+## 177. FKN and No Time Travel
 
 When a node is superseded:
 
@@ -4408,9 +4411,9 @@ Do not silently rewrite the historical graph.
 
 This preserves causal lineage.
 
----
+______________________________________________________________________
 
-# 178. FKN and Multi-Epoch Recovery
+## 178. FKN and Multi-Epoch Recovery
 
 During recovery, FKN can identify:
 
@@ -4425,9 +4428,9 @@ This can support coordinated recovery.
 
 The exact rollback algorithm remains governed elsewhere.
 
----
+______________________________________________________________________
 
-# 179. Fractal Recovery
+## 179. Fractal Recovery
 
 A recovery problem itself can be traversed fractally:
 
@@ -4447,9 +4450,9 @@ What artifact proves it?
 
 The same traversal discipline therefore applies to diagnosis.
 
----
+______________________________________________________________________
 
-# 180. Fractal Governance
+## 180. Fractal Governance
 
 Governance can also use H/M/L:
 
@@ -4467,9 +4470,9 @@ What exact permission or prohibition controls it?
 This demonstrates scale-invariant traversal without claiming identical
 content across scales.
 
----
+______________________________________________________________________
 
-# 181. Fractal Epistemics
+## 181. Fractal Epistemics
 
 ```text
 H:
@@ -4489,9 +4492,9 @@ same traversal grammar
 different semantic content
 ```
 
----
+______________________________________________________________________
 
-# 182. Fractal Causality
+## 182. Fractal Causality
 
 ```text
 H:
@@ -4506,9 +4509,9 @@ What mechanism/confounder/intervention evidence licenses it?
 
 This protects against causal overreach.
 
----
+______________________________________________________________________
 
-# 183. Fractal Scope Analysis
+## 183. Fractal Scope Analysis
 
 ```text
 H:
@@ -4521,9 +4524,9 @@ L:
 What exact population/environment/time constraint applies?
 ```
 
----
+______________________________________________________________________
 
-# 184. Fractal Provenance Analysis
+## 184. Fractal Provenance Analysis
 
 ```text
 H:
@@ -4539,9 +4542,9 @@ RAW:
 What original artifact anchors the lineage?
 ```
 
----
+______________________________________________________________________
 
-# 185. Fractal Contradiction Analysis
+## 185. Fractal Contradiction Analysis
 
 ```text
 H:
@@ -4557,9 +4560,9 @@ RAW:
 Which evidence can discriminate?
 ```
 
----
+______________________________________________________________________
 
-# 186. Fractal Sensitivity Analysis
+## 186. Fractal Sensitivity Analysis
 
 ```text
 H:
@@ -4574,9 +4577,9 @@ Threshold or assumption capable of flipping C
 
 This supports efficient decision-focused validation.
 
----
+______________________________________________________________________
 
-# 187. Fractal Action Analysis
+## 187. Fractal Action Analysis
 
 ```text
 H:
@@ -4591,9 +4594,9 @@ What evidence would permit escalation?
 
 This supports reversible action under uncertainty.
 
----
+______________________________________________________________________
 
-# 188. Promotion Gate for Knowledge Capsules
+## 188. Promotion Gate for Knowledge Capsules
 
 Before promoting a detailed node into a reusable higher-resolution
 capsule, check:
@@ -4615,9 +4618,9 @@ If material information is lost:
 DO NOT PROMOTE
 ```
 
----
+______________________________________________________________________
 
-# 189. Compression Gate
+## 189. Compression Gate
 
 Conceptually:
 
@@ -4636,9 +4639,9 @@ def safe_to_compress(node):
 
 Illustrative only.
 
----
+______________________________________________________________________
 
-# 190. Expansion Gate
+## 190. Expansion Gate
 
 ```python
 def should_expand(node, decision):
@@ -4656,9 +4659,9 @@ def should_expand(node, decision):
 
 Illustrative only.
 
----
+______________________________________________________________________
 
-# 191. Raw-Evidence Gate
+## 191. Raw-Evidence Gate
 
 ```python
 def should_load_raw(node):
@@ -4670,9 +4673,9 @@ def should_load_raw(node):
 
 This prevents both evidence starvation and evidence flooding.
 
----
+______________________________________________________________________
 
-# 192. Traversal Invariants
+## 192. Traversal Invariants
 
 ```text
 FKN-I1
@@ -4721,9 +4724,9 @@ FKN-I15
 STOP WHEN CLAIM, DECISION, AND ACTION SUFFICIENCY ARE ACHIEVED.
 ```
 
----
+______________________________________________________________________
 
-# 193. Source-Established Claims
+## 193. Source-Established Claims
 
 The supplied node directly establishes:
 
@@ -4777,9 +4780,9 @@ source_established:
     - TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS
 ```
 
----
+______________________________________________________________________
 
-# 194. Corpus Corroboration Boundary
+## 194. Corpus Corroboration Boundary
 
 A Drive corpus search shows `FRACTAL_KNOWLEDGE_NETWORK` also appears in
 AMOS reasoning/infrastructure materials alongside structures such as:
@@ -4814,9 +4817,9 @@ INDEPENDENT EMPIRICAL VALIDATION
 The terse source node remains the direct basis for the canonical
 statement.
 
----
+______________________________________________________________________
 
-# 195. Not Established by This Node
+## 195. Not Established by This Node
 
 The supplied terse source does **not** independently establish:
 
@@ -4879,9 +4882,9 @@ not_established:
 These remain implementation/model questions unless separately
 established.
 
----
+______________________________________________________________________
 
-# 196. Gap Register
+## 196. Gap Register
 
 ```yaml
 gaps:
@@ -4951,9 +4954,9 @@ gaps:
     status: OPEN
 ```
 
----
+______________________________________________________________________
 
-# 197. Falsifiers
+## 197. Falsifiers
 
 ```yaml
 falsifiers:
@@ -4989,9 +4992,9 @@ falsifiers:
       for H, M, or L.
 ```
 
----
+______________________________________________________________________
 
-# 198. Proof Capsule
+## 198. Proof Capsule
 
 ```yaml
 proof_capsule:
@@ -5054,9 +5057,9 @@ proof_capsule:
     expanded_mechanics: MODEL_DERIVED
 ```
 
----
+______________________________________________________________________
 
-# 199. Dependency Graph
+## 199. Dependency Graph
 
 ```text
 
@@ -5089,9 +5092,9 @@ Only the supplied index/parent relations are directly source-defined.
 
 The internal dependency architecture is model-level expansion.
 
----
+______________________________________________________________________
 
-# 200. Extended Architecture
+## 200. Extended Architecture
 
 ```text
                      OBJECTIVE
@@ -5124,9 +5127,9 @@ L2 -------- DERIVED_FROM ------> SOURCE
 The architecture is a graph despite its hierarchical resolution
 surface.
 
----
+______________________________________________________________________
 
-# 201. Operational Contract
+## 201. Operational Contract
 
 ```yaml
 operational_contract:
@@ -5181,9 +5184,9 @@ operational_contract:
     - governance_impact
 ```
 
----
+______________________________________________________________________
 
-# 202. Compact Canon Contract
+## 202. Compact Canon Contract
 
 ```text
 FRACTAL_KNOWLEDGE_NETWORK
@@ -5260,9 +5263,9 @@ AND ACTION SUFFICIENCY
 ARE ACHIEVED.
 ```
 
----
+______________________________________________________________________
 
-# 203. RSCF Contract
+## 203. RSCF Contract
 
 ```yaml
 RSCF-CONTRACT:
@@ -5317,9 +5320,9 @@ RSCF-CONTRACT:
     expanded_architecture: MODEL_DERIVED
 ```
 
----
+______________________________________________________________________
 
-# 204. RSCF-NODE
+## 204. RSCF-NODE
 
 ```yaml
 RSCF-NODE:
@@ -5353,9 +5356,9 @@ RSCF-NODE:
     - L_resolution
 ```
 
----
+______________________________________________________________________
 
-# 205. RSCF-RELATIONS
+## 205. RSCF-RELATIONS
 
 ```yaml
 RSCF-RELATIONS:
@@ -5372,9 +5375,9 @@ RSCF-RELATIONS:
 
 ```
 
----
+______________________________________________________________________
 
-# 206. Canon Preservation Rule
+## 206. Canon Preservation Rule
 
 The exact supplied source spine must remain recoverable:
 
@@ -5389,7 +5392,7 @@ tags:
 - knowledge_network
 ---
 
-# FRACTAL_KNOWLEDGE_NETWORK Specification
+## FRACTAL_KNOWLEDGE_NETWORK Specification
 
 Specifies scale-invariant knowledge graph traversal across H/M/L resolutions.
 ```
@@ -5397,12 +5400,11 @@ Specifies scale-invariant knowledge graph traversal across H/M/L resolutions.
 Expansion must not silently rewrite that source statement into a
 stronger empirical claim.
 
----
+______________________________________________________________________
 
-# 207. Canon Boundary
+## 207. Canon Boundary
 
-> [!important] Canon Boundary
->
+> [!IMPORTANT] Canon Boundary
 > The supplied source directly establishes:
 >
 > **FRACTAL_KNOWLEDGE_NETWORK specifies scale-invariant knowledge graph
@@ -5421,9 +5423,9 @@ stronger empirical claim.
 > `MODEL` / `DERIVED` elaborations unless separately supported by
 > authoritative AMOS canon.
 
----
+______________________________________________________________________
 
-# 208. Final Integrity Rule
+## 208. Final Integrity Rule
 
 ```text
 FRACTAL_KNOWLEDGE_NETWORK
@@ -5557,7 +5559,7 @@ FLUENCY
 SPEED.
 ```
 
----
+______________________________________________________________________
 
 ## Related
 
@@ -5565,15 +5567,15 @@ SPEED.
 [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] ·
 [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
 
----
+______________________________________________________________________
 
 **MOC:** [[01_CANON/01_CORE_LAWS/01_CORE_LAWS_MOC|01_CORE_LAWS_MOC]]
 
----
+______________________________________________________________________
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
 
 RSCF-NODE
 node_id: fractal_knowledge_network
@@ -5586,7 +5588,6 @@ RSCF-RELATIONS:
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|AMOS MOC]]
-

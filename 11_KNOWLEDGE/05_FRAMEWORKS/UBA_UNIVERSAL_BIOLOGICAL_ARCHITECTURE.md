@@ -12,21 +12,21 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: SPECIFICATION
 path: 11_KNOWLEDGE/05_FRAMEWORKS/UBA_UNIVERSAL_BIOLOGICAL_ARCHITECTURE.md
 tags:
-- amos-os
-- knowledge
-- vault
-- 05_frameworks
-- uba_specification
-- universal_biological_architecture
-- living_morphology
-- biological_tensegrity
-- rscf
-- canon_candidate
-- canon/knowledge
-- uba-framework
-- unified-biological-intelligence
-- ubi-fractal-architecture
-- ubi-homeostasis
+  - amos-os
+  - knowledge
+  - vault
+  - 05_frameworks
+  - uba_specification
+  - universal_biological_architecture
+  - living_morphology
+  - biological_tensegrity
+  - rscf
+  - canon_candidate
+  - canon/knowledge
+  - uba-framework
+  - unified-biological-intelligence
+  - ubi-fractal-architecture
+  - ubi-homeostasis
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -41,23 +41,23 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - UBA_FRAMEWORK
-  - UBI_OFFICIAL_MANUAL
-  - AMOS_CORPUS
+    - UBA_FRAMEWORK
+    - UBI_OFFICIAL_MANUAL
+    - AMOS_CORPUS
   scope:
-  - KNOWLEDGE_FRAMEWORKS
-  - BIOLOGICAL_SPECIFICATION
-  - SOURCE_DEFINED_MODEL
+    - KNOWLEDGE_FRAMEWORKS
+    - BIOLOGICAL_SPECIFICATION
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   framework:
     artifact:
-    - - UBA_FRAMEWORK
+      -   - UBA_FRAMEWORK
   biological_master:
     artifact:
-    - - UNIFIED_BIOLOGICAL_INTELLIGENCE
+      -   - UNIFIED_BIOLOGICAL_INTELLIGENCE
   fractal_biology:
     artifact:
-    - - UBI_FRACTAL_ARCHITECTURE
+      -   - UBI_FRACTAL_ARCHITECTURE
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
@@ -71,9 +71,9 @@ epistemic_boundary:
 
 It formalizes the morphological, tensegrity, and bioelectromagnetic laws governing multi-cellular organization, metabolic channel formation, and organismic coherence.
 
----
+______________________________________________________________________
 
-# 1. Morphological Invariants
+## 1. Morphological Invariants
 
 ```text
                ┌────────────────────────────────────────────────────────┐
@@ -87,18 +87,18 @@ CELLULAR COHERENCE      FASCIAL TENSEGRITY  CIRCULATORY RHYTHM   NEURAL INTEGRAT
 • Gap junction currents • Biotensegrity     • Wave entrainment   • Top-down / bottom-up
 ```
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Parent Framework:** [[11_KNOWLEDGE/05_FRAMEWORKS/UBA_FRAMEWORK|UBA_FRAMEWORK]]
 - **Biological Master:** [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]]
 - **Fractal Biology:** [[11_KNOWLEDGE/05_FRAMEWORKS/UBI_FRACTAL_ARCHITECTURE|UBI_FRACTAL_ARCHITECTURE]]
 - **Homeostasis:** [[05_COGNITIVE_ORGANISM/15_HOMEOSTASIS/UBI_HOMEOSTASIS|UBI_HOMEOSTASIS]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -116,9 +116,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/UBA_FRAMEWORK|UBA_FRAMEWORK]] · [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]] · [[11_KNOWLEDGE/05_FRAMEWORKS/UBI_FRACTAL_ARCHITECTURE|UBI_FRACTAL_ARCHITECTURE]]
 
----
+______________________________________________________________________
+
 **MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]

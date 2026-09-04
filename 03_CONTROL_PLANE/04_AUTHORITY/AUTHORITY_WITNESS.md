@@ -1,12 +1,15 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: AUTHORITY WITNESS
 type: authority
 source: 03_CONTROL_PLANE/04_AUTHORITY
 tags:
-- control-plane
-- authority
-- note
-- canon/control-plane
+  - control-plane
+  - authority
+  - note
+  - canon/control-plane
 rscf:
   state: SOURCE_CLAIM
   claim_class: CONDITIONAL
@@ -16,22 +19,11 @@ rscf:
 
 # AUTHORITY_WITNESS.md
 
----
-title: AMOS Authority Witness
-artifact: "AUTHORITY_WITNESS.md"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-artifact_class: "GOVERNED_AUTHORITY_EVIDENCE_CONTRACT"
-status: "PROPOSED / STRUCTURALLY_COMPLETE / IMPLEMENTATION-UNVALIDATED"
-epistemic_class: "MODEL"
-version: "1.0.0"
-updated: "2026-08-26"
-default_state: "UNKNOWN_GAP"
-authority_semantics: "EVIDENCE_OF_RESOLVED_AUTHORITY_NOT_AUTHORITY_CREATION"
----
+______________________________________________________________________
 
-# AMOS Authority Witness
+## title: AMOS Authority Witness artifact: "AUTHORITY_WITNESS.md" origin_architect: "Trang Phan" steward: "Trang Phan" system: "AMOS OS" artifact_class: "GOVERNED_AUTHORITY_EVIDENCE_CONTRACT" status: "PROPOSED / STRUCTURALLY_COMPLETE / IMPLEMENTATION-UNVALIDATED" epistemic_class: "MODEL" version: "1.0.0" updated: "2026-08-26" default_state: "UNKNOWN_GAP" authority_semantics: "EVIDENCE_OF_RESOLVED_AUTHORITY_NOT_AUTHORITY_CREATION"
+
+## AMOS Authority Witness
 
 ## 0. Status
 
@@ -85,9 +77,9 @@ WITNESS EXISTS
 ACTION AUTHORIZED FOREVER
 ```
 
----
+______________________________________________________________________
 
-# 1. Purpose
+## 1. Purpose
 
 The Authority Witness exists to preserve the decision-relevant authority state established by the Authority Resolver so downstream AMOS control-plane components do not have to rely on:
 
@@ -133,9 +125,9 @@ COMMIT-TIME AUTHORITY VALIDATION
 EFFECT RELEASE
 ```
 
----
+______________________________________________________________________
 
-# 2. Core Laws
+## 2. Core Laws
 
 ```text
 AUTHORITY_WITNESS != AUTHORITY
@@ -181,9 +173,9 @@ PROPOSAL != COMMIT
 UNKNOWN/GAP != AUTHORIZED
 ```
 
----
+______________________________________________________________________
 
-# 3. Architectural Position
+## 3. Architectural Position
 
 ```text
 PRINCIPAL / IDENTITY
@@ -227,9 +219,9 @@ Domain Skills MAY request authority-dependent actions.
 
 Domain Skills MUST NOT manufacture their own authoritative witness and then treat that self-authored witness as infrastructure authority.
 
----
+______________________________________________________________________
 
-# 4. Responsibility Boundary
+## 4. Responsibility Boundary
 
 The Authority Witness owns representation of:
 
@@ -313,9 +305,9 @@ cryptographic trust-root administration;
 domain-specific business rules.
 ```
 
----
+______________________________________________________________________
 
-# 5. Authority Witness Definition
+## 5. Authority Witness Definition
 
 Conceptually:
 
@@ -341,9 +333,9 @@ The witness is therefore a bounded evidence object.
 
 It is not a bearer token whose mere possession grants unrestricted authority.
 
----
+______________________________________________________________________
 
-# 6. Canonical Witness Object
+## 6. Canonical Witness Object
 
 ```yaml
 authority_witness:
@@ -460,9 +452,9 @@ authority_witness:
   commit_revalidation_required: true
 ```
 
----
+______________________________________________________________________
 
-# 7. Witness Identity
+## 7. Witness Identity
 
 A witness MUST possess stable identity sufficient to distinguish:
 
@@ -491,9 +483,9 @@ WitnessIdentity =
 
 A `witness_id` alone is insufficient where witness contents may change.
 
----
+______________________________________________________________________
 
-# 8. Witness Digest
+## 8. Witness Digest
 
 Conceptually:
 
@@ -524,9 +516,9 @@ Exact serialization, canonicalization, hashing, and cryptographic algorithms bel
 
 The architecture requires deterministic binding semantics, not one particular hash algorithm.
 
----
+______________________________________________________________________
 
-# 9. Witness Integrity Law
+## 9. Witness Integrity Law
 
 If any load-bearing field changes:
 
@@ -556,9 +548,9 @@ ledger identity
 
 then the prior witness MUST NOT silently remain valid for the modified request.
 
----
+______________________________________________________________________
 
-# 10. Principal Binding
+## 10. Principal Binding
 
 The witness MUST identify the principal for whom authority was resolved.
 
@@ -578,9 +570,9 @@ CurrentRequest.principal
 
 unless an independently validated principal substitution or delegation mechanism explicitly permits otherwise.
 
----
+______________________________________________________________________
 
-# 11. Principal Substitution Failure
+## 11. Principal Substitution Failure
 
 The following is invalid:
 
@@ -610,9 +602,9 @@ share a team;
 or have similar names.
 ```
 
----
+______________________________________________________________________
 
-# 12. Operation Binding
+## 12. Operation Binding
 
 The witness MUST bind the authority decision to the operation that was evaluated.
 
@@ -654,9 +646,9 @@ WitnessOperation
 
 or current operation MUST be proven to be contained within the witness's explicitly authorized operation envelope.
 
----
+______________________________________________________________________
 
-# 13. Operation Non-Equivalence
+## 13. Operation Non-Equivalence
 
 ```text
 READ != WRITE
@@ -676,9 +668,9 @@ PROPOSE != EXECUTE
 
 A witness for one MUST NOT silently authorize another.
 
----
+______________________________________________________________________
 
-# 14. Capability Binding
+## 14. Capability Binding
 
 Where a capability is material, the witness SHOULD bind:
 
@@ -701,9 +693,9 @@ capability:
 
 This ensures that authority was evaluated against the capability contract actually intended for use.
 
----
+______________________________________________________________________
 
-# 15. Resolved Capability Contract Binding
+## 15. Resolved Capability Contract Binding
 
 For effectful capabilities, the witness SHOULD bind the resolved capability contract rather than only a human-readable capability name.
 
@@ -721,9 +713,9 @@ REVALIDATE
 
 is required where that change can affect authority requirements.
 
----
+______________________________________________________________________
 
-# 16. Target Binding
+## 16. Target Binding
 
 Where a target/resource matters:
 
@@ -736,9 +728,9 @@ target:
 
 The witness SHOULD bind the narrowest stable target identity sufficient for the operation.
 
----
+______________________________________________________________________
 
-# 17. Target Substitution
+## 17. Target Substitution
 
 A witness authorizing:
 
@@ -754,9 +746,9 @@ UPDATE RESOURCE_B
 
 even when both resources have the same type.
 
----
+______________________________________________________________________
 
-# 18. Target Digest
+## 18. Target Digest
 
 For consequential mutations, a target digest MAY be used to bind authority to a particular resource state.
 
@@ -768,9 +760,9 @@ REVALIDATE
 
 rather than blindly reusing the witness.
 
----
+______________________________________________________________________
 
-# 19. Effect Binding
+## 19. Effect Binding
 
 For durable, external, irreversible, or model-promotion operations, the witness SHOULD bind the proposed effect.
 
@@ -782,9 +774,9 @@ effect:
 
 This prevents authority for one effect from being replayed for a materially different effect.
 
----
+______________________________________________________________________
 
-# 20. Effect Digest Invariant
+## 20. Effect Digest Invariant
 
 Where effect binding is required:
 
@@ -810,9 +802,9 @@ REVALIDATE
 
 depending on whether a new authority resolution can validly cover the changed effect.
 
----
+______________________________________________________________________
 
-# 21. Idempotency Binding
+## 21. Idempotency Binding
 
 For durable/external/model-promotion effects, authority SHOULD bind the stable idempotency key where infrastructure finality depends upon it.
 
@@ -832,9 +824,9 @@ CurrentEffect.idempotency_key
 
 where idempotency binding is part of authority.
 
----
+______________________________________________________________________
 
-# 22. Idempotency Boundary
+## 22. Idempotency Boundary
 
 The witness MUST NOT be used to authorize:
 
@@ -848,9 +840,9 @@ when the authority resolution was explicitly bound to the original key.
 
 Nor may the same idempotency key be silently reused for a different effect digest.
 
----
+______________________________________________________________________
 
-# 23. Transaction Binding
+## 23. Transaction Binding
 
 Where the action belongs to a semantic transaction:
 
@@ -870,9 +862,9 @@ TransactionBoundWitness(T1)
 Transaction(T2)
 ```
 
----
+______________________________________________________________________
 
-# 24. Semantic Transaction Binding
+## 24. Semantic Transaction Binding
 
 A transaction ID alone may be insufficient if transaction semantics are mutable.
 
@@ -892,9 +884,9 @@ If the semantic transaction changes materially:
 REVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 25. Scope
+## 25. Scope
 
 The witness MUST preserve the effective authority scope used by the resolver.
 
@@ -917,9 +909,9 @@ scope:
 
 Unknown dimensions MUST remain unknown.
 
----
+______________________________________________________________________
 
-# 26. Scope Containment
+## 26. Scope Containment
 
 For witness reuse:
 
@@ -945,9 +937,9 @@ REVALIDATE
 
 depending on whether broader valid authority may exist.
 
----
+______________________________________________________________________
 
-# 27. Unknown Scope
+## 27. Unknown Scope
 
 ```text
 UNKNOWN_SCOPE
@@ -957,9 +949,9 @@ GLOBAL_SCOPE
 
 A missing scope field cannot be interpreted as wildcard authority unless the governing schema explicitly defines that field as unrestricted.
 
----
+______________________________________________________________________
 
-# 28. Regime Binding
+## 28. Regime Binding
 
 Authority validity may depend upon regime.
 
@@ -985,9 +977,9 @@ EMERGENCY
 
 The witness SHOULD preserve the regime under which authority was resolved.
 
----
+______________________________________________________________________
 
-# 29. Regime Shift
+## 29. Regime Shift
 
 If:
 
@@ -1003,9 +995,9 @@ REVALIDATE
 
 The prior witness does not silently cross regimes.
 
----
+______________________________________________________________________
 
-# 30. Environment Binding
+## 30. Environment Binding
 
 Authority may differ across:
 
@@ -1029,9 +1021,9 @@ PRODUCTION
 
 unless explicit authority covers both.
 
----
+______________________________________________________________________
 
-# 31. Recipient Binding
+## 31. Recipient Binding
 
 For disclosure, transfer, messaging, sharing, or external effects, the witness SHOULD bind permitted recipient identity or recipient scope.
 
@@ -1043,9 +1035,9 @@ scope:
 
 Authority to disclose to `A` does not imply authority to disclose to `B`.
 
----
+______________________________________________________________________
 
-# 32. Constraint Binding
+## 32. Constraint Binding
 
 Applicable authority constraints MUST remain visible in the witness.
 
@@ -1060,9 +1052,9 @@ constraints:
 
 The witness does not erase constraints after authority resolution.
 
----
+______________________________________________________________________
 
-# 33. Constraint Preservation
+## 33. Constraint Preservation
 
 Downstream components MUST NOT reinterpret:
 
@@ -1078,9 +1070,9 @@ UNCONDITIONALLY_AUTHORIZED
 
 A valid witness remains conditional on its load-bearing constraints.
 
----
+______________________________________________________________________
 
-# 34. Delegation Lineage
+## 34. Delegation Lineage
 
 Where authority is delegated, the witness SHOULD preserve sufficient lineage to reconstruct the authority chain.
 
@@ -1093,9 +1085,9 @@ delegation:
     - "DELEGATION_2"
 ```
 
----
+______________________________________________________________________
 
-# 35. Delegation Invariant
+## 35. Delegation Invariant
 
 ```text
 DelegatedAuthority
@@ -1105,9 +1097,9 @@ DelegatingAuthority
 
 A witness MUST NOT conceal delegation expansion.
 
----
+______________________________________________________________________
 
-# 36. Delegation Dependency
+## 36. Delegation Dependency
 
 If:
 
@@ -1125,9 +1117,9 @@ then the witness depends on all load-bearing authority links.
 
 Revocation or invalidation of a required ancestor requires witness revalidation or invalidation.
 
----
+______________________________________________________________________
 
-# 37. Authority Read Set
+## 37. Authority Read Set
 
 The witness SHOULD preserve the exact authoritative authority objects used to form the resolution.
 
@@ -1147,9 +1139,9 @@ AuthorityReadSet =
 }
 ```
 
----
+______________________________________________________________________
 
-# 38. Fine-Grained Freshness
+## 38. Fine-Grained Freshness
 
 A change to an authority object not in the witness's dependency closure SHOULD NOT automatically invalidate the witness.
 
@@ -1172,9 +1164,9 @@ W2 → PRESERVE
 
 assuming no hidden dependency exists.
 
----
+______________________________________________________________________
 
-# 39. Authority Registry Identity
+## 39. Authority Registry Identity
 
 A scalar registry version is insufficient where authoritative state can change without a version bump.
 
@@ -1201,9 +1193,9 @@ registry_version
 registry_hash
 ```
 
----
+______________________________________________________________________
 
-# 40. Registry Freshness
+## 40. Registry Freshness
 
 At revalidation:
 
@@ -1223,9 +1215,9 @@ REVALIDATE
 
 unless fine-grained authoritative read-set comparison establishes that no load-bearing authority dependency changed.
 
----
+______________________________________________________________________
 
-# 41. Registry Rollback
+## 41. Registry Rollback
 
 Unexpected rollback or generation regression MUST NOT silently restore old authority.
 
@@ -1243,9 +1235,9 @@ UNKNOWN_GAP
 
 depending on available evidence.
 
----
+______________________________________________________________________
 
-# 42. Effect Release State Binding
+## 42. Effect Release State Binding
 
 For durable/external/model-promotion effects, the witness MAY be required to bind the infrastructure-owned release-ledger identity.
 
@@ -1270,9 +1262,9 @@ ledger_version
 ledger_hash
 ```
 
----
+______________________________________________________________________
 
-# 43. Why Ledger Binding Matters
+## 43. Why Ledger Binding Matters
 
 A valid authority decision does not prove that releasing the effect remains safe.
 
@@ -1296,9 +1288,9 @@ or changed release state.
 
 Therefore authority for durable effects may depend on the exact observed release-ledger state.
 
----
+______________________________________________________________________
 
-# 44. Ledger Freshness
+## 44. Ledger Freshness
 
 If authority was explicitly bound to release state:
 
@@ -1318,9 +1310,9 @@ before effect release.
 
 The Authority Witness MUST NOT override infrastructure-owned finality state.
 
----
+______________________________________________________________________
 
-# 45. Authority/Ledger Separation
+## 45. Authority/Ledger Separation
 
 ```text
 VALID AUTHORITY
@@ -1338,9 +1330,9 @@ NO PRIOR EFFECT
 
 Deduplication and external-effect finality remain infrastructure responsibilities.
 
----
+______________________________________________________________________
 
-# 46. Observability Binding
+## 46. Observability Binding
 
 For consequential capabilities, authority MAY depend upon an infrastructure-owned observability envelope.
 
@@ -1354,9 +1346,9 @@ This permits authority to express:
 
 > This operation is authorized only under this observability boundary.
 
----
+______________________________________________________________________
 
-# 47. Observability Invariant
+## 47. Observability Invariant
 
 If required observability weakens materially after witness issuance:
 
@@ -1374,9 +1366,9 @@ may be required.
 
 Authority MUST NOT silently survive removal of a load-bearing audit/observability condition.
 
----
+______________________________________________________________________
 
-# 48. Capability-to-Observability Composition
+## 48. Capability-to-Observability Composition
 
 A capability may declare required observability.
 
@@ -1400,9 +1392,9 @@ observability_envelope_hash
 
 where observability is load-bearing.
 
----
+______________________________________________________________________
 
-# 49. Temporal Envelope
+## 49. Temporal Envelope
 
 ```yaml
 temporal:
@@ -1414,9 +1406,9 @@ temporal:
 
 The witness MUST preserve relevant temporal validity.
 
----
+______________________________________________________________________
 
-# 50. Witness Expiry
+## 50. Witness Expiry
 
 If:
 
@@ -1434,9 +1426,9 @@ where `valid_until` exists.
 
 Expiry MUST NOT silently become authorization.
 
----
+______________________________________________________________________
 
-# 51. Revalidation Deadline
+## 51. Revalidation Deadline
 
 A witness MAY have:
 
@@ -1448,9 +1440,9 @@ even when the underlying authority itself has not expired.
 
 This permits freshness-sensitive authority to require periodic rechecking.
 
----
+______________________________________________________________________
 
-# 52. Authority Expiry vs Witness Expiry
+## 52. Authority Expiry vs Witness Expiry
 
 These are distinct.
 
@@ -1470,17 +1462,17 @@ A witness may expire before the underlying authority.
 
 It may never extend underlying authority beyond its own valid envelope.
 
----
+______________________________________________________________________
 
-# 53. Trusted Time
+## 53. Trusted Time
 
 For consequential authority checks, infrastructure SHOULD provide the evaluation time.
 
 A witness issuer's self-asserted timestamp MUST NOT be treated as sufficient trusted time where revocation or temporal key validity matters.
 
----
+______________________________________________________________________
 
-# 54. Signature
+## 54. Signature
 
 A witness MAY carry a cryptographic signature.
 
@@ -1493,9 +1485,9 @@ integrity:
 
 The signature SHOULD bind the canonical witness digest.
 
----
+______________________________________________________________________
 
-# 55. Signature Boundary
+## 55. Signature Boundary
 
 ```text
 SIGNATURE_PRESENT
@@ -1529,9 +1521,9 @@ bound to the wrong transaction;
 or invalid in the current regime.
 ```
 
----
+______________________________________________________________________
 
-# 56. Signer Authority
+## 56. Signer Authority
 
 A valid signature proves only what the applicable cryptographic trust model establishes.
 
@@ -1539,9 +1531,9 @@ It does not by itself prove the signer was authorized to issue an AMOS authority
 
 Signer trust and issuer authority must be governed separately.
 
----
+______________________________________________________________________
 
-# 57. Trust Registry
+## 57. Trust Registry
 
 Where witness verification relies on cryptographic signer trust, the infrastructure MAY maintain a trust registry.
 
@@ -1549,9 +1541,9 @@ The witness SHOULD preserve enough information to identify the trust state used 
 
 A stale trust registry SHOULD NOT be treated as current proof where key rotation or revocation is material.
 
----
+______________________________________________________________________
 
-# 58. Revocation
+## 58. Revocation
 
 The underlying authority may be revoked after witness issuance.
 
@@ -1573,9 +1565,9 @@ T0 < T1 < T2
 
 must not produce current authorization.
 
----
+______________________________________________________________________
 
-# 59. Commit-Time Revalidation
+## 59. Commit-Time Revalidation
 
 For durable, external, irreversible, or model-promotion effects:
 
@@ -1597,9 +1589,9 @@ COMMIT-TIME VALIDATION
 COMMITTABLE OR BLOCK
 ```
 
----
+______________________________________________________________________
 
-# 60. Plan-Time/Commit-Time Law
+## 60. Plan-Time/Commit-Time Law
 
 ```text
 VALID_WITNESS_AT_PLAN
@@ -1609,9 +1601,9 @@ VALID_AUTHORITY_AT_COMMIT
 
 when authority state can change.
 
----
+______________________________________________________________________
 
-# 61. Commit-Time Witness Validation
+## 61. Commit-Time Witness Validation
 
 Conceptually:
 
@@ -1636,9 +1628,9 @@ ValidateWitnessAtCommit(W, C) =
 
 AMOS MODEL expression.
 
----
+______________________________________________________________________
 
-# 62. Commit-Time Result
+## 62. Commit-Time Result
 
 ```yaml
 authority_witness_validation:
@@ -1668,9 +1660,9 @@ authority_witness_validation:
   evaluated_at: timestamp
 ```
 
----
+______________________________________________________________________
 
-# 63. Durable Effect Requirements
+## 63. Durable Effect Requirements
 
 For durable/external/model-promotion effects, a sufficient witness SHOULD bind where applicable:
 
@@ -1712,9 +1704,9 @@ constraints
 
 Missing load-bearing fields MUST remain visible as gaps.
 
----
+______________________________________________________________________
 
-# 64. Receiver Receipt Separation
+## 64. Receiver Receipt Separation
 
 The Authority Witness is upstream of effect completion.
 
@@ -1744,9 +1736,9 @@ Therefore:
 AUTHORITY_WITNESS != RECEIVER_RECEIPT
 ```
 
----
+______________________________________________________________________
 
-# 65. Receipt Non-Substitution
+## 65. Receipt Non-Substitution
 
 A valid receipt does not retroactively create authority.
 
@@ -1768,9 +1760,9 @@ NO RECEIVER EVIDENCE
 PROVEN COMPLETION
 ```
 
----
+______________________________________________________________________
 
-# 66. Receiver-Attested Finality
+## 66. Receiver-Attested Finality
 
 For external effects where AMOS requires receiver-attested completion, a non-empty receipt ID is insufficient.
 
@@ -1794,9 +1786,9 @@ operation
 
 The Authority Witness provides the authority-side values against which the receipt can later be compared.
 
----
+______________________________________________________________________
 
-# 67. Receipt Lineage Check
+## 67. Receipt Lineage Check
 
 Conceptually:
 
@@ -1830,9 +1822,9 @@ where those fields are required.
 
 Mismatch means the receipt does not prove completion of the exact witnessed effect.
 
----
+______________________________________________________________________
 
-# 68. Temporal Trust for Receipts
+## 68. Temporal Trust for Receipts
 
 A valid receiver signature is not sufficient to establish current receiver signing authority after:
 
@@ -1850,9 +1842,9 @@ Receipt validation belongs to the receiver-trust/finality layer, not the Authori
 
 The witness MUST NOT pretend to solve that downstream trust problem.
 
----
+______________________________________________________________________
 
-# 69. Historical Witnesses
+## 69. Historical Witnesses
 
 Historical witnesses MAY remain useful for:
 
@@ -1872,9 +1864,9 @@ A historical witness marked expired or revoked may still be valid historical evi
 
 It does not regain current action authority.
 
----
+______________________________________________________________________
 
-# 70. Witness States
+## 70. Witness States
 
 ## VALID
 
@@ -1916,9 +1908,9 @@ The witness is isolated because integrity, provenance, or trust is suspect.
 
 Available evidence cannot establish safe witness validity.
 
----
+______________________________________________________________________
 
-# 71. State Transition Model
+## 71. State Transition Model
 
 ```text
 ISSUED
@@ -1966,9 +1958,9 @@ REVALIDATE
 UNKNOWN_GAP
 ```
 
----
+______________________________________________________________________
 
-# 72. State Transition Boundary
+## 72. State Transition Boundary
 
 No transition to `VALID` is allowed merely because:
 
@@ -1986,9 +1978,9 @@ the agent is confident;
 or the same witness worked previously.
 ```
 
----
+______________________________________________________________________
 
-# 73. Witness Creation Workflow
+## 73. Witness Creation Workflow
 
 ```text
 01 RECEIVE AUTHORITY RESOLUTION
@@ -2040,9 +2032,9 @@ or the same witness worked previously.
 24 ISSUE WITNESS
 ```
 
----
+______________________________________________________________________
 
-# 74. Witness Consumption Workflow
+## 74. Witness Consumption Workflow
 
 ```text
 01 RECEIVE WITNESS
@@ -2096,9 +2088,9 @@ or the same witness worked previously.
 25 RETURN VALIDATION STATE
 ```
 
----
+______________________________________________________________________
 
-# 75. Commit Workflow
+## 75. Commit Workflow
 
 ```text
 TASK
@@ -2136,9 +2128,9 @@ COMMITTABLE
 EFFECT RELEASE
 ```
 
----
+______________________________________________________________________
 
-# 76. Fast Path
+## 76. Fast Path
 
 Witness reuse MAY use a fast path only when all decision-relevant dependencies remain demonstrably fresh.
 
@@ -2178,9 +2170,9 @@ required observability current;
 no material conflict.
 ```
 
----
+______________________________________________________________________
 
-# 77. Fast-Path Law
+## 77. Fast-Path Law
 
 ```text
 FAST_PATH
@@ -2196,9 +2188,9 @@ FAST_PATH
 SKIP_VALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 78. Witness Cache
+## 78. Witness Cache
 
 A witness MAY be cached with:
 
@@ -2232,9 +2224,9 @@ witness_cache_entry:
   cached_at: timestamp
 ```
 
----
+______________________________________________________________________
 
-# 79. Cache Invalidation
+## 79. Cache Invalidation
 
 A cached witness MUST be invalidated or revalidated on relevant:
 
@@ -2274,9 +2266,9 @@ observability change;
 release-ledger change.
 ```
 
----
+______________________________________________________________________
 
-# 80. Witness Replay
+## 80. Witness Replay
 
 Witness replay occurs when a previously valid witness is reused outside its authorized binding.
 
@@ -2302,9 +2294,9 @@ same witness → different environment.
 
 Replay MUST fail closed where the changed dimension is authority-relevant.
 
----
+______________________________________________________________________
 
-# 81. Witness Confusion Attack
+## 81. Witness Confusion Attack
 
 An implementation MUST resist replacing:
 
@@ -2332,9 +2324,9 @@ even when these objects contain similar fields.
 
 Typed object identity is required.
 
----
+______________________________________________________________________
 
-# 82. Witness Forgery
+## 82. Witness Forgery
 
 Potential forgery indicators include:
 
@@ -2378,9 +2370,9 @@ INVALID
 
 and block consequential effect release.
 
----
+______________________________________________________________________
 
-# 83. Witness Equivocation
+## 83. Witness Equivocation
 
 Equivocation occurs when supposedly identical witness identity maps to materially different content.
 
@@ -2407,9 +2399,9 @@ QUARANTINED
 
 until resolved.
 
----
+______________________________________________________________________
 
-# 84. Supersession
+## 84. Supersession
 
 A witness MAY be superseded by a later valid resolution.
 
@@ -2423,9 +2415,9 @@ supersession:
   effective_at: timestamp
 ```
 
----
+______________________________________________________________________
 
-# 85. Supersession Boundary
+## 85. Supersession Boundary
 
 ```text
 NEWER
@@ -2437,9 +2429,9 @@ A later timestamp alone does not prove a witness invalidates an earlier one.
 
 Supersession requires governed lineage or changed authority state.
 
----
+______________________________________________________________________
 
-# 86. Witness Provenance
+## 86. Witness Provenance
 
 Minimum provenance SHOULD include:
 
@@ -2467,9 +2459,9 @@ generation process;
 witness signer where applicable.
 ```
 
----
+______________________________________________________________________
 
-# 87. Provenance Topology
+## 87. Provenance Topology
 
 Suppose:
 
@@ -2494,9 +2486,9 @@ not `3`.
 
 Copies of a witness do not provide independent authority evidence.
 
----
+______________________________________________________________________
 
-# 88. Sybil Hardening
+## 88. Sybil Hardening
 
 ```text
 MULTIPLE_WITNESS_FILES
@@ -2506,9 +2498,9 @@ MULTIPLE_INDEPENDENT_AUTHORITY_PATHS
 
 Authority independence must be determined from ancestry.
 
----
+______________________________________________________________________
 
-# 89. Evidence Classes
+## 89. Evidence Classes
 
 Witness-related evidence SHOULD preserve type.
 
@@ -2541,9 +2533,9 @@ Example:
 
 Do not flatten these into one undifferentiated truth value.
 
----
+______________________________________________________________________
 
-# 90. H/M/L Applicability
+## 90. H/M/L Applicability
 
 ## H — Governing/System Level
 
@@ -2605,9 +2597,9 @@ exact ledger identity;
 exact commit attempt.
 ```
 
----
+______________________________________________________________________
 
-# 91. H/M/L Law
+## 91. H/M/L Law
 
 Higher-level authority does not automatically imply unrestricted lower-level authority.
 
@@ -2625,9 +2617,9 @@ H_GOVERNANCE_AUTHORITY
 
 Cross-scale authority requires explicit mapping.
 
----
+______________________________________________________________________
 
-# 92. Control-Plane Requirements
+## 92. Control-Plane Requirements
 
 The infrastructure control plane SHOULD own or independently validate:
 
@@ -2657,9 +2649,9 @@ witness validation result.
 
 Domain components MUST NOT override these values after validation.
 
----
+______________________________________________________________________
 
-# 93. Domain Skill Boundary
+## 93. Domain Skill Boundary
 
 Domain Skills MAY provide:
 
@@ -2683,9 +2675,9 @@ They MUST NOT self-assert:
 
 unless the infrastructure authority contract explicitly delegates that authority-resolution function.
 
----
+______________________________________________________________________
 
-# 94. Agent Roles
+## 94. Agent Roles
 
 Functional roles MAY include:
 
@@ -2713,9 +2705,9 @@ These are functional roles only.
 ROLE_NAME != AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 95. Skill Interfaces
+## 95. Skill Interfaces
 
 Relevant AMOS Skills MAY include:
 
@@ -2743,9 +2735,9 @@ repair/recovery.
 
 Skill availability does not itself authorize an effect.
 
----
+______________________________________________________________________
 
-# 96. Protocol — Issue Witness
+## 96. Protocol — Issue Witness
 
 ```yaml
 issue_authority_witness:
@@ -2785,9 +2777,9 @@ issue_authority_witness_result:
   gaps: []
 ```
 
----
+______________________________________________________________________
 
-# 97. Protocol — Validate Witness
+## 97. Protocol — Validate Witness
 
 ```yaml
 validate_authority_witness:
@@ -2806,9 +2798,9 @@ validate_authority_witness:
   current_time: timestamp
 ```
 
----
+______________________________________________________________________
 
-# 98. Protocol — Revalidate Witness
+## 98. Protocol — Revalidate Witness
 
 ```yaml
 revalidate_authority_witness:
@@ -2829,9 +2821,9 @@ revalidate_authority_witness:
   current_time: timestamp
 ```
 
----
+______________________________________________________________________
 
-# 99. Protocol — Invalidate Witness
+## 99. Protocol — Invalidate Witness
 
 ```yaml
 invalidate_authority_witness:
@@ -2846,9 +2838,9 @@ invalidate_authority_witness:
   effective_at: timestamp
 ```
 
----
+______________________________________________________________________
 
-# 100. Protocol — Quarantine Witness
+## 100. Protocol — Quarantine Witness
 
 ```yaml
 quarantine_authority_witness:
@@ -2868,9 +2860,9 @@ quarantine_authority_witness:
   quarantined_at: timestamp
 ```
 
----
+______________________________________________________________________
 
-# 101. Protocol — Supersede Witness
+## 101. Protocol — Supersede Witness
 
 ```yaml
 supersede_authority_witness:
@@ -2885,9 +2877,9 @@ supersede_authority_witness:
   effective_at: timestamp
 ```
 
----
+______________________________________________________________________
 
-# 102. Protocol — Commit-Time Validation
+## 102. Protocol — Commit-Time Validation
 
 ```yaml
 commit_time_authority_witness_check:
@@ -2922,9 +2914,9 @@ commit_time_authority_witness_check:
   verification_time: timestamp
 ```
 
----
+______________________________________________________________________
 
-# 103. Commit-Time Output
+## 103. Commit-Time Output
 
 ```yaml
 commit_time_authority_witness_result:
@@ -2950,9 +2942,9 @@ commit_time_authority_witness_result:
   current_authority_resolution_ref: null
 ```
 
----
+______________________________________________________________________
 
-# 104. Control-Plane Result Mapping
+## 104. Control-Plane Result Mapping
 
 Authority Witness failures SHOULD map conservatively.
 
@@ -2985,9 +2977,9 @@ insufficient evidence
 → UNKNOWN_GAP
 ```
 
----
+______________________________________________________________________
 
-# 105. Core Invariants
+## 105. Core Invariants
 
 ## INV-AW-001 — Witness/Authority Separation
 
@@ -3033,9 +3025,9 @@ RequestedScope ⊆ WitnessScope
 
 Witness reuse MUST remain inside its applicable regime.
 
----
+______________________________________________________________________
 
-# 106. Freshness Invariants
+## 106. Freshness Invariants
 
 ## INV-AW-011 — Temporal Validity
 
@@ -3077,9 +3069,9 @@ Authority-bound release-ledger changes require revalidation.
 
 Mutable authority MUST be current at commit.
 
----
+______________________________________________________________________
 
-# 107. Integrity Invariants
+## 107. Integrity Invariants
 
 ## INV-AW-021 — Digest Integrity
 
@@ -3127,9 +3119,9 @@ Past authorization does not establish present authorization.
 VALID_WITNESS != COMMITTED_EFFECT
 ```
 
----
+______________________________________________________________________
 
-# 108. Durable-Effect Invariants
+## 108. Durable-Effect Invariants
 
 ## INV-AW-031 — Idempotency Binding
 
@@ -3173,9 +3165,9 @@ Domain Skills MUST NOT override infrastructure-owned authority/finality state.
 PROPOSAL != COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 109. Failure Modes
+## 109. Failure Modes
 
 ```text
 FM-AW-001 witness missing
@@ -3279,9 +3271,9 @@ FM-AW-049 successful execution treated as authority proof
 FM-AW-050 UNKNOWN/GAP treated as VALID
 ```
 
----
+______________________________________________________________________
 
-# 110. Repair / Recovery
+## 110. Repair / Recovery
 
 Canonical recovery:
 
@@ -3319,9 +3311,9 @@ ISSUE NEW WITNESS
 REVALIDATE DOWNSTREAM GATES
 ```
 
----
+______________________________________________________________________
 
-# 111. Selective Repair
+## 111. Selective Repair
 
 If only one dependency changes:
 
@@ -3341,9 +3333,9 @@ invalidate A2-dependent authority conclusion
 
 rather than globally discarding unrelated system state.
 
----
+______________________________________________________________________
 
-# 112. No Failed-Path Repetition
+## 112. No Failed-Path Repetition
 
 If witness validation failed because:
 
@@ -3355,9 +3347,9 @@ re-running the same witness without changed evidence is not repair.
 
 Repair requires changed state or a different valid authority path.
 
----
+______________________________________________________________________
 
-# 113. Recovery From Stale Registry
+## 113. Recovery From Stale Registry
 
 ```text
 STALE REGISTRY
@@ -3373,9 +3365,9 @@ ISSUE / REFRESH WITNESS
 
 Do not simply update the timestamp on the old witness.
 
----
+______________________________________________________________________
 
-# 114. Recovery From Effect Change
+## 114. Recovery From Effect Change
 
 If the proposed effect changes:
 
@@ -3399,9 +3391,9 @@ NEW WITNESS
 
 where effect binding is authority-relevant.
 
----
+______________________________________________________________________
 
-# 115. Recovery From Transaction Change
+## 115. Recovery From Transaction Change
 
 Likewise:
 
@@ -3413,9 +3405,9 @@ TRANSACTION_2
 
 requires revalidation where authority is transaction-bound.
 
----
+______________________________________________________________________
 
-# 116. Recovery From Conflict
+## 116. Recovery From Conflict
 
 ```text
 CONFLICT
@@ -3431,9 +3423,9 @@ RE-RUN RESOLUTION
 
 Do not treat additional descendants of the same authority source as independent confirmation.
 
----
+______________________________________________________________________
 
-# 117. Validators
+## 117. Validators
 
 Minimum validator surface:
 
@@ -3499,9 +3491,9 @@ validate_provenance
 validate_commit_time_authority
 ```
 
----
+______________________________________________________________________
 
-# 118. Minimum Test Suite
+## 118. Minimum Test Suite
 
 ```text
 T-AW-001 valid witness schema
@@ -3645,9 +3637,9 @@ T-AW-069 selective invalidation
 T-AW-070 audit reconstruction
 ```
 
----
+______________________________________________________________________
 
-# 119. Adversarial Tests
+## 119. Adversarial Tests
 
 ```text
 valid witness copied to another principal;
@@ -3707,9 +3699,9 @@ ledger version matches but generation/hash differs;
 authority read object changes without version bump but hash differs.
 ```
 
----
+______________________________________________________________________
 
-# 120. Falsifiers
+## 120. Falsifiers
 
 A claim that an Authority Witness remains valid is falsified by reliable evidence establishing any load-bearing condition such as:
 
@@ -3759,9 +3751,9 @@ witness supersession;
 or unresolved authority conflict.
 ```
 
----
+______________________________________________________________________
 
-# 121. Confidence Model
+## 121. Confidence Model
 
 Conceptually:
 
@@ -3789,9 +3781,9 @@ AMOS MODEL equation.
 
 A witness cannot be more trustworthy than its weakest load-bearing dependency.
 
----
+______________________________________________________________________
 
-# 122. Uncertainty Vector
+## 122. Uncertainty Vector
 
 ```yaml
 authority_witness_uncertainty:
@@ -3813,9 +3805,9 @@ authority_witness_uncertainty:
   execution: null
 ```
 
----
+______________________________________________________________________
 
-# 123. Confidence Ceiling
+## 123. Confidence Ceiling
 
 Until executable implementation and validation evidence exists for this specification:
 
@@ -3829,9 +3821,9 @@ confidence_ceiling:
 
 No architectural completeness claim may be converted into runtime validation.
 
----
+______________________________________________________________________
 
-# 124. RSCF Capsule
+## 124. RSCF Capsule
 
 ```yaml
 rscf:
@@ -3900,9 +3892,9 @@ rscf:
   confidence_ceiling: 0
 ```
 
----
+______________________________________________________________________
 
-# 125. GMEF Integration
+## 125. GMEF Integration
 
 Changes to any of the following SHOULD be treated as governed changes:
 
@@ -3934,9 +3926,9 @@ signature/trust semantics;
 witness state transitions.
 ```
 
----
+______________________________________________________________________
 
-# 126. Change Manifest
+## 126. Change Manifest
 
 ```yaml
 authority_witness_change:
@@ -3972,9 +3964,9 @@ authority_witness_change:
   approval_state: PROPOSED
 ```
 
----
+______________________________________________________________________
 
-# 127. Promotion Model
+## 127. Promotion Model
 
 ```text
 STRUCTURAL_MODEL
@@ -4010,9 +4002,9 @@ GOVERNED_ACTIVE
 
 No transition is automatic.
 
----
+______________________________________________________________________
 
-# 128. Implementation Requirements
+## 128. Implementation Requirements
 
 An executable implementation SHOULD provide:
 
@@ -4080,9 +4072,9 @@ audit logging.
 
 This document does not claim these components are currently implemented.
 
----
+______________________________________________________________________
 
-# 129. Example — Basic Witness
+## 129. Example — Basic Witness
 
 ```yaml
 authority_witness:
@@ -4120,9 +4112,9 @@ authority_witness:
 
 Architectural example only.
 
----
+______________________________________________________________________
 
-# 130. Example — Durable External Effect
+## 130. Example — Durable External Effect
 
 ```yaml
 authority_witness:
@@ -4172,9 +4164,9 @@ authority_witness:
   commit_revalidation_required: true
 ```
 
----
+______________________________________________________________________
 
-# 131. Example — Revocation Between Plan and Commit
+## 131. Example — Revocation Between Plan and Commit
 
 At preparation:
 
@@ -4199,9 +4191,9 @@ COMMIT GUARD → BLOCK_AUTHORITY
 
 The witness does not freeze authority in time.
 
----
+______________________________________________________________________
 
-# 132. Example — Unrelated Registry Change
+## 132. Example — Unrelated Registry Change
 
 Witness dependencies:
 
@@ -4225,9 +4217,9 @@ subject to registry integrity and applicable freshness rules.
 
 This prevents unnecessary global invalidation.
 
----
+______________________________________________________________________
 
-# 133. Example — Load-Bearing Read Change
+## 133. Example — Load-Bearing Read Change
 
 ```text
 W1 ← AUTH_A + AUTH_B
@@ -4249,9 +4241,9 @@ W1 → REVALIDATE
 
 because a load-bearing authority dependency changed.
 
----
+______________________________________________________________________
 
-# 134. Example — Ledger Change
+## 134. Example — Ledger Change
 
 Prepared witness:
 
@@ -4277,9 +4269,9 @@ REVALIDATE_EFFECT_LEDGER
 
 The witness MUST NOT declare the effect safe to release based on stale finality state.
 
----
+______________________________________________________________________
 
-# 135. Example — Witness Replay
+## 135. Example — Witness Replay
 
 Original:
 
@@ -4309,9 +4301,9 @@ BLOCK_AUTHORITY
 
 or a new authority resolution is required.
 
----
+______________________________________________________________________
 
-# 136. Example — Valid Witness, Already-Committed Effect
+## 136. Example — Valid Witness, Already-Committed Effect
 
 ```text
 AUTHORITY_WITNESS = VALID
@@ -4336,9 +4328,9 @@ DISPATCH AGAIN
 
 Authority does not override idempotent finality.
 
----
+______________________________________________________________________
 
-# 137. Example — Valid Witness, Ambiguous Externalization
+## 137. Example — Valid Witness, Ambiguous Externalization
 
 ```text
 AUTHORITY_WITNESS = VALID
@@ -4355,9 +4347,9 @@ RECONCILE_EFFECT
 
 not blind retry.
 
----
+______________________________________________________________________
 
-# 138. Example — Policy Allow but Missing Witness
+## 138. Example — Policy Allow but Missing Witness
 
 ```text
 POLICY = ALLOW
@@ -4381,9 +4373,9 @@ UNKNOWN_GAP
 
 depending on whether authority evidence is definitively absent or merely unavailable.
 
----
+______________________________________________________________________
 
-# 139. Example — Witness Valid but Policy Denied
+## 139. Example — Witness Valid but Policy Denied
 
 ```text
 AUTHORITY_WITNESS = VALID
@@ -4399,9 +4391,9 @@ BLOCK
 
 Authority does not supersede policy unless explicit governing precedence says otherwise.
 
----
+______________________________________________________________________
 
-# 140. Example — Witness Valid but Capability Missing
+## 140. Example — Witness Valid but Capability Missing
 
 ```text
 AUTHORITY_WITNESS = VALID
@@ -4419,9 +4411,9 @@ NO_EXECUTION
 
 Authority does not create technical capability.
 
----
+______________________________________________________________________
 
-# 141. Example — Witness Valid but Observability Invalid
+## 141. Example — Witness Valid but Observability Invalid
 
 ```text
 AUTHORITY_WITNESS = VALID
@@ -4447,9 +4439,9 @@ BLOCK_OBSERVABILITY
 
 depending on control-plane state.
 
----
+______________________________________________________________________
 
-# 142. Example — Correlated Witnesses
+## 142. Example — Correlated Witnesses
 
 ```text
 AUTHORITY_ROOT
@@ -4465,9 +4457,9 @@ WITNESS_B
 
 If both witnesses derive from the same load-bearing authority root, they do not automatically provide independent authority confirmation.
 
----
+______________________________________________________________________
 
-# 143. Authority Witness Decision Table
+## 143. Authority Witness Decision Table
 
 | Condition                                 | Witness Result           |
 | ----------------------------------------- | ------------------------ |
@@ -4488,9 +4480,9 @@ If both witnesses derive from the same load-bearing authority root, they do not 
 | Conflicting authority                     | BLOCK_CONFLICT           |
 | Evidence insufficient                     | UNKNOWN_GAP              |
 
----
+______________________________________________________________________
 
-# 144. Control-Plane Composition Table
+## 144. Control-Plane Composition Table
 
 | Witness | Policy | Capability | Ledger               | Result                   |
 | ------- | ------ | ---------- | -------------------- | ------------------------ |
@@ -4504,46 +4496,46 @@ If both witnesses derive from the same load-bearing authority root, they do not 
 | VALID   | ALLOW  | VALID      | EXTERNALIZED_UNKNOWN | RECONCILE_EFFECT         |
 | UNKNOWN | ALLOW  | VALID      | FRESH                | UNKNOWN_GAP              |
 
----
+______________________________________________________________________
 
-# 145. Audit Questions
+## 145. Audit Questions
 
 An auditor SHOULD be able to answer:
 
 1. What witness was used?
-2. Which witness version and digest?
-3. Which authority resolution produced it?
-4. Which authority object supported it?
-5. Who was the principal?
-6. Which operation was authorized?
-7. Which capability contract was bound?
-8. Which target was bound?
-9. Which effect digest was bound?
-10. Which idempotency key was bound?
-11. Which transaction was bound?
-12. Which semantic transaction hash was bound?
-13. What scope applied?
-14. What regime applied?
-15. Which constraints applied?
-16. What delegation lineage supported authority?
-17. Which authority objects were actually read?
-18. What authority-registry identity was observed?
-19. What effect-ledger identity was observed?
-20. What observability envelope was bound?
-21. When was the witness issued?
-22. When did it expire or require revalidation?
-23. Was the underlying authority revoked?
-24. Was the witness cryptographically intact?
-25. Was the signer trusted where required?
-26. Did any load-bearing dependency change?
-27. Was commit-time authority revalidated?
-28. Did the witness match the exact committed effect?
-29. Did a downstream receipt match witness lineage?
-30. What unresolved authority gaps remained?
+1. Which witness version and digest?
+1. Which authority resolution produced it?
+1. Which authority object supported it?
+1. Who was the principal?
+1. Which operation was authorized?
+1. Which capability contract was bound?
+1. Which target was bound?
+1. Which effect digest was bound?
+1. Which idempotency key was bound?
+1. Which transaction was bound?
+1. Which semantic transaction hash was bound?
+1. What scope applied?
+1. What regime applied?
+1. Which constraints applied?
+1. What delegation lineage supported authority?
+1. Which authority objects were actually read?
+1. What authority-registry identity was observed?
+1. What effect-ledger identity was observed?
+1. What observability envelope was bound?
+1. When was the witness issued?
+1. When did it expire or require revalidation?
+1. Was the underlying authority revoked?
+1. Was the witness cryptographically intact?
+1. Was the signer trusted where required?
+1. Did any load-bearing dependency change?
+1. Was commit-time authority revalidated?
+1. Did the witness match the exact committed effect?
+1. Did a downstream receipt match witness lineage?
+1. What unresolved authority gaps remained?
 
----
+______________________________________________________________________
 
-# 146. Completion Matrix
+## 146. Completion Matrix
 
 | Surface                        | Specification State |
 | ------------------------------ | ------------------- |
@@ -4595,9 +4587,9 @@ An auditor SHOULD be able to answer:
 | Formal verification            | UNKNOWN/GAP         |
 | Canon admission                | UNKNOWN/GAP         |
 
----
+______________________________________________________________________
 
-# 147. Hard Boundary Block
+## 147. Hard Boundary Block
 
 ```text
 AUTHORITY_WITNESS != AUTHORITY
@@ -4687,9 +4679,9 @@ TESTED != FORMALLY_VERIFIED
 MODEL != EMPIRICAL_FACT
 ```
 
----
+______________________________________________________________________
 
-# 148. Canon Boundary
+## 148. Canon Boundary
 
 Trang Phan remains the origin architect and steward of AMOS.
 
@@ -4755,9 +4747,9 @@ supersession;
 and dependency compatibility.
 ```
 
----
+______________________________________________________________________
 
-# 149. Final Authority Witness Contract
+## 149. Final Authority Witness Contract
 
 AMOS SHALL preserve the authority-evidence chain:
 
@@ -4818,6 +4810,7 @@ CHANGED EFFECT
 =
 REVALIDATE / BLOCK
 ```
+
 ```text
 VALID WITNESS
 +
@@ -4825,6 +4818,7 @@ REVOKED AUTHORITY
 =
 BLOCK_AUTHORITY
 ```
+
 ```text
 VALID WITNESS
 +
@@ -4832,6 +4826,7 @@ STALE LOAD-BEARING READ
 =
 REVALIDATE_STALE_READ
 ```
+
 ```text
 VALID WITNESS
 +
@@ -4839,6 +4834,7 @@ CHANGED EFFECT LEDGER
 =
 REVALIDATE_EFFECT_LEDGER
 ```
+
 ```text
 VALID WITNESS
 +
@@ -4846,6 +4842,7 @@ POLICY DENY
 =
 NO EFFECT
 ```
+
 and:
 
 ```text
@@ -4960,30 +4957,33 @@ according to the failure.
 
 Integrity remains prior to completeness, fluency, speed, convenience, and optimization.
 
----
+______________________________________________________________________
 
-# END — AUTHORITY_WITNESS.md
+## END — AUTHORITY_WITNESS.md
 
 ```
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: authority_witness
 node_type: note
 path: 03_CONTROL_PLANE/04_AUTHORITY/AUTHORITY_WITNESS.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[03_CONTROL_PLANE/04_AUTHORITY/04_AUTHORITY_MOC|04_AUTHORITY_MOC]]
-

@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Vault Domain Knowledge — Amos Closed Loop Learning Governor
 type: reference
 source: 07_SKILLS/amos-closed-loop-learning-governor/references
 tags:
-- reference
-- amos-closed-loop-learning-governor
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-closed-loop-learning-governor
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -27,7 +30,8 @@ rscf:
 
 > Path: `amos-general/A/DMER/AMOS_DMER_Dual_Loop_Architecture.md` | Size: 32263 chars | Match score: 10
 
-# AMOS D/M/E/R Dual-Loop Architecture
+## AMOS D/M/E/R Dual-Loop Architecture
+
 ## 1. Purpose
 
 This note formalizes the source mapping of:
@@ -70,9 +74,9 @@ module-to-primitive fit     DERIVED / CONDITIONAL
 universal validity          UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 2. Epistemic Boundary
+## 2. Epistemic Boundary
 
 The source makes several different kinds of claims.
 
@@ -121,9 +125,9 @@ Claims about:
 
 must not be promoted from framework terms into empirical truth without independent domain evidence.
 
----
+______________________________________________________________________
 
-# 3. Core Primitive System
+## 3. Core Primitive System
 
 The base architecture is:
 
@@ -137,9 +141,9 @@ $$\boxed{ X_{t+1} = F( D_t, M_t, E_t, R_t, X_t, U_t ) }$$
 
 where $U_t$ represents external input or environment.
 
----
+______________________________________________________________________
 
-# 4. D — Distinction
+## 4. D — Distinction
 
 Distinction defines observable or model-relevant separations.
 
@@ -164,9 +168,9 @@ $$\boxed{ D_i= ( id, left, right, criterion, scope, observer, provenance, status
 
 A distinction is valid only if the separation criterion is explicit.
 
----
+______________________________________________________________________
 
-# 5. Distinction Invariants
+## 5. Distinction Invariants
 
 ```text
 D01  A label is not automatically a valid distinction.
@@ -179,7 +183,7 @@ D02  A d
 
 > Path: `system/AMOS_Agent_Systems_Learning_Record.md` | Size: 6184 chars | Match score: 10
 
-# AMOS Brain: Consolidated Learning Record — All Agent Systems
+## AMOS Brain: Consolidated Learning Record — All Agent Systems
 
 
 ---
@@ -239,7 +243,7 @@ Life agents default to `stabilise_nervous_system`; Legal/Money to `warn` for ris
 
 > Path: `dated/2026-08-22/2026-08-22 human_interaction cluster closed.md` | Size: 4699 chars | Match score: 10
 
-# human_interaction cluster closed — gaps 250-257
+## human_interaction cluster closed — gaps 250-257
 
 > Epistic class: OBSERVATION
 > Conclusion label: `VERIFIED` — implementation, tests, and seed counts all green.
@@ -250,14 +254,16 @@ Life agents default to `stabilise_nervous_system`; Legal/Money to `warn` for ris
 The `human_interaction` cluster (gaps 250-257) was implemented in the AMOS OS Kernel:
 
 ```
+
 cosmo-brain/AMOS_OS_KERNEL/
-├── amos/core/types.py                       (8 new dataclasses + enums)
-├── amos/state/store.py                      (8 tables + 8 put/list method pairs)
-├── amos/governance/human_interaction.py     (8 subsystems + governor)
-├── tests/test_human_interaction.py          (8 gap-level test classes)
-├── amos/kernel.py                           (HumanInteractionGovernor wired)
-└── amos/__init__.py                         (8 subsystems + governor exported)
-```
+├── amos/core/types.py (8 new dataclasses + enums)
+├── amos/state/store.py (8 tables + 8 put/list method pairs)
+├── amos/governance/human_interaction.py (8 subsystems + governor)
+├── tests/test_human_interaction.py (8 gap-level test classes)
+├── amos/kernel.py (HumanInteractionGovernor wired)
+└── amos/__init__.py (8 subsystems + governor exported)
+
+````
 
 ### Subsystems
 
@@ -291,9 +297,10 @@ cosmo-brain/AMOS_OS_KERNEL/
 cd cosmo-brain/AMOS_OS_KERNEL
 python3 -m pytest tests/test_human_interaction.py -q
 python3 -m pytest tests/ -q
-```
+````
 
 Results:
+
 - `tests/test_human_interaction.py`: **32 passed**
 - `tests/` full suite: **1533 passed in 54.34s, 0 failures**
 
@@ -332,5 +339,8 @@ RSCF-RELATIONS:
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC
 
+```
+
+```
 ```
 ```

@@ -1,10 +1,13 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: 05 Variable Registry MOC
 type: moc
 source: 01_CANON/05_VARIABLE_REGISTRY
 tags:
-- canon/universe
-- cross-canon-symbol-crosswalk
+  - canon/universe
+  - cross-canon-symbol-crosswalk
 moc: true
 rscf:
   state: DERIVED
@@ -40,5 +43,6 @@ rscf:
 
 - [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]] — 00_INDEX
 
----
+______________________________________________________________________
+
 **Parent:** [[01_CANON/01_CANON_MOC|01_CANON_MOC]]

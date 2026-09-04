@@ -1,20 +1,23 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: AMOS_OBSIDIAN_LINKING_PLUGINS
 tags:
-- knowledge
-- obsidian
-- linking
-- plugins
-- canonical-node-a
-- canonical-node-b
-- integration
-- note-b
-- reality
-- canon
-- amos-home
-- amos-layer-maps
-- amos-templates
-- validation
+  - knowledge
+  - obsidian
+  - linking
+  - plugins
+  - canonical-node-a
+  - canonical-node-b
+  - integration
+  - note-b
+  - reality
+  - canon
+  - amos-home
+  - amos-layer-maps
+  - amos-templates
+  - validation
 type: note
 source: 11_KNOWLEDGE
 rscf:
@@ -33,7 +36,7 @@ rscf:
 
 ## Dynamic Discovery
 
-```dataview
+````text
 LIST
 FROM #domain/example
 SORT file.name ASC
@@ -772,7 +775,7 @@ SORT file.name ASC
 >
 > The source example is:
 >
-> ```dataview
+> ```text
 > TABLE file.mtime AS Updated, tags
 > FROM #moc OR #canon-group/tech-ai
 > SORT file.name ASC
@@ -2193,16 +2196,16 @@ SORT file.name ASC
 
 This separates curated canon from computed discovery.
 
----
+______________________________________________________________________
 
-# 87. Graph Hygiene
+## 87. Graph Hygiene
 
 Source maintenance operations include:
 
 ```text
 find orphaned files
 find broken links
-````
+```
 
 Derived extensions may include:
 
@@ -2217,9 +2220,9 @@ untyped high-stakes relations
 
 These are proposed hygiene checks.
 
----
+______________________________________________________________________
 
-# 88. Overlinking Failure Mode
+## 88. Overlinking Failure Mode
 
 Too many automatic links can reduce signal quality.
 
@@ -2233,9 +2236,9 @@ $$
 
 An overly dense graph can make every concept appear related to everything else.
 
----
+______________________________________________________________________
 
-# 89. Link Precision vs Recall
+## 89. Link Precision vs Recall
 
 Derived trade-off:
 
@@ -2253,9 +2256,9 @@ Different plugins may occupy different positions on this spectrum.
 
 No numeric precision/recall values are supplied.
 
----
+______________________________________________________________________
 
-# 90. Plugin Composition
+## 90. Plugin Composition
 
 The source recommends combinations rather than a single plugin.
 
@@ -2279,9 +2282,9 @@ graph analysis
 
 No one plugin is source-defined as performing all functions.
 
----
+______________________________________________________________________
 
-# 91. Redundancy vs Complementarity
+## 91. Redundancy vs Complementarity
 
 Some capabilities overlap:
 
@@ -2303,9 +2306,9 @@ THREE INDEPENDENT EVIDENCE SOURCES
 
 They may rely on the same underlying note corpus and similar signals.
 
----
+______________________________________________________________________
 
-# 92. Provenance Correlation
+## 92. Provenance Correlation
 
 If multiple plugins derive suggestions from the same vault:
 
@@ -2320,9 +2323,9 @@ then all outputs share ancestry.
 
 Their agreement may increase practical salience, but not necessarily epistemic independence.
 
----
+______________________________________________________________________
 
-# 93. Plugin Output Types
+## 93. Plugin Output Types
 
 Derived:
 
@@ -2357,9 +2360,9 @@ plugin_output_classes:
     output: topology_analysis
 ```
 
----
+______________________________________________________________________
 
-# 94. RSCF H-Level
+## 94. RSCF H-Level
 
 ```yaml
 H:
@@ -2372,9 +2375,9 @@ H:
 
 This is a derived RSCF normalization of the source purpose.
 
----
+______________________________________________________________________
 
-# 95. RSCF M-Level
+## 95. RSCF M-Level
 
 ```yaml
 M:
@@ -2409,9 +2412,9 @@ M:
 
 Derived classification.
 
----
+______________________________________________________________________
 
-# 96. RSCF L-Level
+## 96. RSCF L-Level
 
 Only load when required:
 
@@ -2431,9 +2434,9 @@ L:
   - orphan_report
 ```
 
----
+______________________________________________________________________
 
-# 97. Raw Evidence Policy
+## 97. Raw Evidence Policy
 
 ```yaml
 raw_evidence:
@@ -2448,9 +2451,9 @@ raw_evidence:
     - automation_will_mutate_many_notes
 ```
 
----
+______________________________________________________________________
 
-# 98. Proof Capsule — Artifact Purpose
+## 98. Proof Capsule — Artifact Purpose
 
 ```yaml
 proof_capsule:
@@ -2473,9 +2476,9 @@ proof_capsule:
     - architecture revision
 ```
 
----
+______________________________________________________________________
 
-# 99. Proof Capsule — Plugin Stack
+## 99. Proof Capsule — Plugin Stack
 
 ```yaml
 proof_capsule:
@@ -2494,9 +2497,9 @@ proof_capsule:
     bounded_by_plugin_registry_freshness: true
 ```
 
----
+______________________________________________________________________
 
-# 100. Proof Capsule — Template
+## 100. Proof Capsule — Template
 
 ```yaml
 proof_capsule:
@@ -2516,9 +2519,9 @@ proof_capsule:
       rather than explicit wikilink syntax.
 ```
 
----
+______________________________________________________________________
 
-# 101. Proof Capsule — Dataview
+## 101. Proof Capsule — Dataview
 
 ```yaml
 proof_capsule:
@@ -2535,9 +2538,9 @@ proof_capsule:
     - supplied Dataview query
 ```
 
----
+______________________________________________________________________
 
-# 102. Proof Capsule — Preconfigured Templates Folder
+## 102. Proof Capsule — Preconfigured Templates Folder
 
 ```yaml
 proof_capsule:
@@ -2558,9 +2561,9 @@ proof_capsule:
     UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 103. Proof Capsule — MOC Relations
+## 103. Proof Capsule — MOC Relations
 
 ```yaml
 proof_capsule:
@@ -2575,9 +2578,9 @@ proof_capsule:
     - supplied RSCF-RELATIONS block
 ```
 
----
+______________________________________________________________________
 
-# 104. Adversarial Validation — Plugin Recommendation
+## 104. Adversarial Validation — Plugin Recommendation
 
 Initial conclusion:
 
@@ -2616,9 +2619,9 @@ DECISION / AMOS_MODEL
 
 rather than `VERIFIED`.
 
----
+______________________________________________________________________
 
-# 105. Competing Hypothesis — Note Linker ID
+## 105. Competing Hypothesis — Note Linker ID
 
 Raw:
 
@@ -2650,9 +2653,9 @@ COMPETING / UNKNOWN
 
 until registry evidence discriminates.
 
----
+______________________________________________________________________
 
-# 106. Competing Hypothesis — “Pre-links”
+## 106. Competing Hypothesis — “Pre-links”
 
 Source says the template pre-links MOCs.
 
@@ -2676,9 +2679,9 @@ The displayed source lost brackets during rendering.
 
 No evidence here resolves these hypotheses.
 
----
+______________________________________________________________________
 
-# 107. Competing Hypothesis — Provenance
+## 107. Competing Hypothesis — Provenance
 
 Top-level:
 
@@ -2712,9 +2715,9 @@ Current safe state:
 PRESERVE BOTH
 ```
 
----
+______________________________________________________________________
 
-# 108. Scope Firewall
+## 108. Scope Firewall
 
 This artifact applies to:
 
@@ -2736,9 +2739,9 @@ all note-taking systems
 all AI memory
 ```
 
----
+______________________________________________________________________
 
-# 109. Plugin Security Gap
+## 109. Plugin Security Gap
 
 The artifact does not provide:
 
@@ -2756,9 +2759,9 @@ maintainer verification
 
 Therefore plugin security remains outside the verified scope.
 
----
+______________________________________________________________________
 
-# 110. Automation Safety Gap
+## 110. Automation Safety Gap
 
 The artifact recommends automation but does not define:
 
@@ -2774,9 +2777,9 @@ conflict resolution
 
 The sample-folder recommendation partially mitigates this but does not define full transactional safety.
 
----
+______________________________________________________________________
 
-# 111. Proposed Bulk-Link Safety Contract
+## 111. Proposed Bulk-Link Safety Contract
 
 ```yaml
 bulk_link_governance:
@@ -2802,9 +2805,9 @@ bulk_link_governance:
 
 **PROPOSED**, not source-defined.
 
----
+______________________________________________________________________
 
-# 112. Link Provenance Model — DERIVED
+## 112. Link Provenance Model — DERIVED
 
 ```yaml
 link:
@@ -2835,9 +2838,9 @@ link:
     - rejected
 ```
 
----
+______________________________________________________________________
 
-# 113. Typed Relations — PROPOSED
+## 113. Typed Relations — PROPOSED
 
 For AMOS, high-value links may use types such as:
 
@@ -2858,9 +2861,9 @@ BRIDGES
 
 These are proposed for this artifact's linking-governance context; do not assume all are supplied by the note.
 
----
+______________________________________________________________________
 
-# 114. Relation Type Firewall
+## 114. Relation Type Firewall
 
 ```text
 RELATED_TO
@@ -2884,9 +2887,9 @@ INDEXED_BY
 PARENT_OF
 ```
 
----
+______________________________________________________________________
 
-# 115. Suggested Note Creation Pipeline
+## 115. Suggested Note Creation Pipeline
 
 ```text
 QuickAdd
@@ -2910,9 +2913,9 @@ graph hygiene
 
 **DERIVED / PROPOSED.**
 
----
+______________________________________________________________________
 
-# 116. Proposed Canonical Templater Template
+## 116. Proposed Canonical Templater Template
 
 For stronger RSCF compatibility:
 
@@ -2952,7 +2955,7 @@ rscf:
   scope: AMOS_knowledge
 ---
 
-# <% tp.file.title %>
+## <% tp.file.title %>
 
 > [!abstract] Epistemic Receipt
 > **Class:** MODEL
@@ -2988,11 +2991,11 @@ rscf:
 
 This is a **PROPOSED AMOS augmentation**, not the supplied source template.
 
----
+______________________________________________________________________
 
-# 117. Dataview — AMOS Linking Notes
+## 117. Dataview — AMOS Linking Notes
 
-```dataview
+```text
 TABLE
   file.mtime AS Updated,
   type,
@@ -3004,13 +3007,13 @@ FROM #topic/obsidian-linking
 SORT file.name ASC
 ```
 
----
+______________________________________________________________________
 
-# 118. Dataview — MOC / Tech-AI
+## 118. Dataview — MOC / Tech-AI
 
 Source query:
 
-```dataview
+```text
 TABLE file.mtime AS Updated, tags
 FROM #moc OR #canon-group/tech-ai
 SORT file.name ASC
@@ -3018,13 +3021,13 @@ SORT file.name ASC
 
 Preserved exactly in meaning from the source.
 
----
+______________________________________________________________________
 
-# 119. Dataview — Orphan Candidates
+## 119. Dataview — Orphan Candidates
 
 A **PROPOSED** vault-maintenance query:
 
-```dataview
+```text
 TABLE
   file.mtime AS Updated,
   length(file.inlinks) AS Inlinks,
@@ -3036,11 +3039,11 @@ SORT file.mtime DESC
 
 This identifies zero-inlink notes, which are only **orphan candidates**, not necessarily errors.
 
----
+______________________________________________________________________
 
-# 120. Dataview — RSCF Nodes
+## 120. Dataview — RSCF Nodes
 
-```dataview
+```text
 TABLE
   type,
   status,
@@ -3050,11 +3053,11 @@ FROM #rscf/node
 SORT file.name ASC
 ```
 
----
+______________________________________________________________________
 
-# 121. Dataview — Derived Claims
+## 121. Dataview — Derived Claims
 
-```dataview
+```text
 TABLE
   conclusion_class,
   confidence,
@@ -3064,11 +3067,11 @@ FROM #rscf/state/derived
 SORT file.name ASC
 ```
 
----
+______________________________________________________________________
 
-# 122. Dataview — Plugin Notes
+## 122. Dataview — Plugin Notes
 
-```dataview
+```text
 TABLE
   status,
   document_version,
@@ -3078,9 +3081,9 @@ WHERE contains(tags, "obsidian")
 SORT file.name ASC
 ```
 
----
+______________________________________________________________________
 
-# 123. Mermaid — Full AMOS Obsidian Stack
+## 123. Mermaid — Full AMOS Obsidian Stack
 
 ```mermaid
 flowchart TD
@@ -3128,9 +3131,9 @@ flowchart TD
     MOC --> KGA
 ```
 
----
+______________________________________________________________________
 
-# 124. Mermaid — Epistemic Link Promotion
+## 124. Mermaid — Epistemic Link Promotion
 
 ```mermaid
 flowchart LR
@@ -3151,9 +3154,9 @@ flowchart LR
 
 This is **DERIVED / PROPOSED**.
 
----
+______________________________________________________________________
 
-# 125. Mermaid — Source Navigation
+## 125. Mermaid — Source Navigation
 
 ```mermaid
 flowchart TD
@@ -3177,9 +3180,9 @@ flowchart TD
     A --> RSCF
 ```
 
----
+______________________________________________________________________
 
-# 126. Failure Modes
+## 126. Failure Modes
 
 ### FM-01 — False Semantic Link
 
@@ -3236,9 +3239,9 @@ Several plugins recommend the same link from the same underlying corpus and are 
 
 An unresolved link is redirected to a similar but incorrect note.
 
----
+______________________________________________________________________
 
-# 127. Validation Gates — PROPOSED
+## 127. Validation Gates — PROPOSED
 
 ```yaml
 validation_gates:
@@ -3284,9 +3287,9 @@ validation_gates:
     requirement: high-value relations preserve claim class and provenance
 ```
 
----
+______________________________________________________________________
 
-# 128. Boundary Tests
+## 128. Boundary Tests
 
 ```yaml
 boundary_tests:
@@ -3316,56 +3319,56 @@ boundary_tests:
     forbidden: "No data can ever leave the machine"
 ```
 
----
+______________________________________________________________________
 
-# 129. Anti-Fabrication Contract
+## 129. Anti-Fabrication Contract
 
 Do not claim from this artifact alone that:
 
 1. every listed plugin currently exists;
-2. every plugin ID is correct;
-3. every plugin is currently maintained;
-4. every plugin is secure;
-5. every plugin is compatible with the current Obsidian release;
-6. Smart Connections is objectively the smartest plugin;
-7. Smart Connections is fully local;
-8. Smart Connections never sends data externally;
-9. Autolink always links correctly;
-10. Note Linker's supplied plugin ID is verified;
-11. Copilot's current behavior exactly matches the description;
-12. Dataview membership is canonical truth;
-13. graph centrality measures truth;
-14. backlinks prove support;
-15. multiple links prove independent confirmation;
-16. semantic similarity proves identity;
-17. semantic similarity proves causation;
-18. AI-generated links are canon;
-19. Templater validates note content;
-20. QuickAdd validates provenance;
-21. a generated note is canonical merely because it uses the template;
-22. all MOC relationships are hierarchical;
-23. `INDEXED_BY` means `CHILD_OF`;
-24. plain text is automatically an Obsidian wikilink;
-25. the supplied template literally creates all claimed links;
-26. `.obsidian/plugins/templater-obsidian/data.json` currently contains the stated setting;
-27. `USER_REQUEST / COMMUNITY_PLUGIN_REGISTRY` means current registry verification occurred;
-28. `AMOS_corpus` and `COMMUNITY_PLUGIN_REGISTRY` are independent sources;
-29. all plugin outputs are independent evidence;
-30. the plugin ranking is an empirical benchmark;
-31. rank 1 universally outperforms rank 2;
-32. all notes should have maximum link density;
-33. orphan notes are invalid;
-34. broken links can be safely auto-repaired without identity checking;
-35. automatic bulk linking is risk-free;
-36. plugin-generated metadata is automatically correct;
-37. the vault graph itself constitutes reasoning proof;
-38. Obsidian is literally the complete AMOS runtime;
-39. the vault is a complete representation of AMOS knowledge;
-40. missing plugin evidence may be filled with assumptions.
+1. every plugin ID is correct;
+1. every plugin is currently maintained;
+1. every plugin is secure;
+1. every plugin is compatible with the current Obsidian release;
+1. Smart Connections is objectively the smartest plugin;
+1. Smart Connections is fully local;
+1. Smart Connections never sends data externally;
+1. Autolink always links correctly;
+1. Note Linker's supplied plugin ID is verified;
+1. Copilot's current behavior exactly matches the description;
+1. Dataview membership is canonical truth;
+1. graph centrality measures truth;
+1. backlinks prove support;
+1. multiple links prove independent confirmation;
+1. semantic similarity proves identity;
+1. semantic similarity proves causation;
+1. AI-generated links are canon;
+1. Templater validates note content;
+1. QuickAdd validates provenance;
+1. a generated note is canonical merely because it uses the template;
+1. all MOC relationships are hierarchical;
+1. `INDEXED_BY` means `CHILD_OF`;
+1. plain text is automatically an Obsidian wikilink;
+1. the supplied template literally creates all claimed links;
+1. `.obsidian/plugins/templater-obsidian/data.json` currently contains the stated setting;
+1. `USER_REQUEST / COMMUNITY_PLUGIN_REGISTRY` means current registry verification occurred;
+1. `AMOS_corpus` and `COMMUNITY_PLUGIN_REGISTRY` are independent sources;
+1. all plugin outputs are independent evidence;
+1. the plugin ranking is an empirical benchmark;
+1. rank 1 universally outperforms rank 2;
+1. all notes should have maximum link density;
+1. orphan notes are invalid;
+1. broken links can be safely auto-repaired without identity checking;
+1. automatic bulk linking is risk-free;
+1. plugin-generated metadata is automatically correct;
+1. the vault graph itself constitutes reasoning proof;
+1. Obsidian is literally the complete AMOS runtime;
+1. the vault is a complete representation of AMOS knowledge;
+1. missing plugin evidence may be filled with assumptions.
 
----
+______________________________________________________________________
 
-# 130. Anti-Regression Contract
+## 130. Anti-Regression Contract
 
 ```yaml
 anti_regression:
@@ -3402,9 +3405,9 @@ anti_regression:
     - source_claim_to_runtime_fact
 ```
 
----
+______________________________________________________________________
 
-# 131. Critical Gaps
+## 131. Critical Gaps
 
 ```yaml
 gaps:
@@ -3437,9 +3440,9 @@ gaps:
     - display_name_normalization
 ```
 
----
+______________________________________________________________________
 
-# 132. Sensitivity
+## 132. Sensitivity
 
 The smallest facts capable of materially changing the recommendation are:
 
@@ -3455,9 +3458,9 @@ template does not create actual wikilinks
 
 These should be checked before irreversible vault-wide deployment.
 
----
+______________________________________________________________________
 
-# 133. Governance Decision Classes
+## 133. Governance Decision Classes
 
 For each plugin:
 
@@ -3472,9 +3475,9 @@ plugin_decision:
 
 These are **PROPOSED** decision states.
 
----
+______________________________________________________________________
 
-# 134. Recommended Deployment Philosophy
+## 134. Recommended Deployment Philosophy
 
 The source itself already supports a staged approach for bulk linking.
 
@@ -3498,9 +3501,9 @@ MONITOR
 
 This minimizes irreversible graph corruption.
 
----
+______________________________________________________________________
 
-# 135. Suggested Plugin Role Matrix — DERIVED
+## 135. Suggested Plugin Role Matrix — DERIVED
 
 | Plugin                   | Primary Role          | Mutation Risk | Epistemic Role       |
 | ------------------------ | --------------------- | ------------: | -------------------- |
@@ -3516,9 +3519,9 @@ This minimizes irreversible graph corruption.
 
 Risk classifications are **DERIVED**, not supplied ratings.
 
----
+______________________________________________________________________
 
-# 136. Core Plugin Role Matrix
+## 136. Core Plugin Role Matrix
 
 | Core Feature   | Function                   | Epistemic Limitation |
 | -------------- | -------------------------- | -------------------- |
@@ -3527,9 +3530,9 @@ Risk classifications are **DERIVED**, not supplied ratings.
 | Graph          | topology                   | centrality ≠ truth   |
 | Page Preview   | navigation                 | preview ≠ validation |
 
----
+______________________________________________________________________
 
-# 137. Source vs Derived Tag Registry
+## 137. Source vs Derived Tag Registry
 
 ## Source Tags
 
@@ -3591,9 +3594,9 @@ proposed_tags:
   - canon/obsidian
 ```
 
----
+______________________________________________________________________
 
-# 138. Canonical RSCF Node — DERIVED NORMALIZATION
+## 138. Canonical RSCF Node — DERIVED NORMALIZATION
 
 ```yaml
 RSCF-NODE:
@@ -3658,9 +3661,9 @@ RSCF-NODE:
     - ""
 ```
 
----
+______________________________________________________________________
 
-# 139. Machine-Readable Stack — DERIVED
+## 139. Machine-Readable Stack — DERIVED
 
 ```yaml
 AMOS_OBSIDIAN_LINKING_STACK:
@@ -3710,9 +3713,9 @@ AMOS_OBSIDIAN_LINKING_STACK:
       - various-complements
 ```
 
----
+______________________________________________________________________
 
-# 140. Full RSCF Relations — Source + Derived Boundary
+## 140. Full RSCF Relations — Source + Derived Boundary
 
 ```yaml
 RSCF_RELATIONS:
@@ -3743,9 +3746,9 @@ RSCF_RELATIONS:
       - AMOS_MOC_NETWORK
 ```
 
----
+______________________________________________________________________
 
-# 141. Canonical Compression
+## 141. Canonical Compression
 
 The source-defined plugin architecture can be compressed into:
 
@@ -3803,9 +3806,9 @@ Analyze
 Graph + KnowledgeGraphAnalysis
 $$
 
----
+______________________________________________________________________
 
-# 142. AMOS Linking Invariant
+## 142. AMOS Linking Invariant
 
 The most important governance rule is:
 
@@ -3835,9 +3838,9 @@ $$
 
 for relations whose semantic importance justifies validation.
 
----
+______________________________________________________________________
 
-# 143. Automation Invariant
+## 143. Automation Invariant
 
 For high-mutation operations:
 
@@ -3853,9 +3856,9 @@ $$
 
 This is directly aligned with the source recommendation to test Autolink or Note Linker on a sample folder before bulk linking.
 
----
+______________________________________________________________________
 
-# 144. Graph Invariant
+## 144. Graph Invariant
 
 $$
 \boxed{
@@ -3885,9 +3888,9 @@ EpistemicAuthority
 }
 $$
 
----
+______________________________________________________________________
 
-# 145. Persistence Invariant
+## 145. Persistence Invariant
 
 Obsidian provides the source-defined **persistent brain surface**.
 
@@ -3914,9 +3917,9 @@ NOTE EXISTS
 → NOTE IS TRUE
 ```
 
----
+______________________________________________________________________
 
-# 146. Final Proof Receipt
+## 146. Final Proof Receipt
 
 ```yaml
 FINAL_PROOF_RECEIPT:
@@ -3965,9 +3968,9 @@ FINAL_PROOF_RECEIPT:
     - SOURCE_CLAIM_NE_RUNTIME_VERIFICATION
 ```
 
----
+______________________________________________________________________
 
-# 147. Final Canonical Conclusion
+## 147. Final Canonical Conclusion
 
 **AMOS Obsidian — Linking Plugin Stack** defines a source-supplied tooling architecture for using Obsidian as the persistent AMOS knowledge surface.
 
@@ -4102,7 +4105,7 @@ $$
 
 rather than allowing bulk automation, AI suggestions, semantic similarity, or graph topology to silently redefine AMOS canon.
 
----
+______________________________________________________________________
 
 ## Source Tags — part 2
 
@@ -4112,7 +4115,7 @@ rather than allowing bulk automation, AI suggestions, semantic similarity, or gr
 
 `#amos` · `#amos-os` · `#amos-knowledge` · `#amos-vault` · `#11-knowledge` · `#persistent-knowledge` · `#obsidian-automation` · `#obsidian-community-plugin` · `#obsidian-core-plugin` · `#semantic-linking` · `#automatic-linking` · `#wikilinks` · `#backlinks` · `#outgoing-links` · `#link-discovery` · `#link-governance` · `#quickadd` · `#various-complements` · `#note-linker` · `#copilot` · `#knowledge-graph-analysis` · `#graph-analysis` · `#graph-hygiene` · `#map-of-content` · `#auto-moc` · `#provenance-governance` · `#tooling-governance` · `#automation-governance` · `#anti-fabrication` · `#anti-regression` · `#scope-firewall` · `#rscf/node` · `#rscf/relations` · `#canon/knowledge` · `#canon/obsidian`
 
----
+______________________________________________________________________
 
 ## Related
 
@@ -4122,7 +4125,7 @@ rather than allowing bulk automation, AI suggestions, semantic similarity, or gr
 **RSCF indexes:**
 [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
 
 **MOC:** [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]]
 
@@ -4135,4 +4138,3 @@ rather than allowing bulk automation, AI suggestions, semantic similarity, or gr
 **Canonical principle:** `CONNECTIVITY ≠ EPISTEMIC VALIDITY`
 
 **END — `AMOS_Obsidian_Linking_Plugins.md`**
-

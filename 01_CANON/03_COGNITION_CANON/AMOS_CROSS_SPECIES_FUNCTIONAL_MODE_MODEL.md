@@ -18,26 +18,26 @@ schema_family: RSCF
 schema_role: CROSS_SPECIES_FUNCTIONAL_MODE_RSCF
 schema_version: AMOS_CORE_v4.4-compatible-conceptual
 tags:
-- amos-os
-- canon
-- cognition
-- cross_species
-- functional_mode
-- comparative_model
-- 03_cognition_canon
-- spec
-- canon_placeholder
-- rscf
-- provenance
-- scope
-- regime
-- validation
-- canon/universe
-- placeholder_expanded
-- law-hierarchy
-- routing-policy-validation-receipt
-- authz-engine-validation-receipt
-- trang-framework-recursive-ontology-dynamics
+  - amos-os
+  - canon
+  - cognition
+  - cross_species
+  - functional_mode
+  - comparative_model
+  - 03_cognition_canon
+  - spec
+  - canon_placeholder
+  - rscf
+  - provenance
+  - scope
+  - regime
+  - validation
+  - canon/universe
+  - placeholder_expanded
+  - law-hierarchy
+  - routing-policy-validation-receipt
+  - authz-engine-validation-receipt
+  - trang-framework-recursive-ontology-dynamics
 version: 0.2.0
 updated: '2026-08-27'
 status: PLACEHOLDER_EXPANDED
@@ -215,9 +215,9 @@ System:
 
 **AMOS OS**
 
----
+______________________________________________________________________
 
-# 1. Governing Integrity Boundary
+## 1. Governing Integrity Boundary
 
 The supplied artifact explicitly establishes:
 
@@ -262,61 +262,72 @@ CROSS-SPECIES VALIDITY
 !=
 FUNCTIONAL MODE DEFINED
 ```
+
 ```text
 MODEL
 !=
 BIOLOGICAL TAXONOMY
 ```
+
 ```text
 FUNCTIONAL SIMILARITY
 !=
 BIOLOGICAL IDENTITY
 ```
+
 ```text
 FUNCTIONAL SIMILARITY
 !=
 EVOLUTIONARY HOMOLOGY
 ```
+
 ```text
 FUNCTIONAL SIMILARITY
 !=
 COMMON MECHANISM
 ```
+
 ```text
 SIMILAR BEHAVIOR
 !=
 SAME COGNITIVE PROCESS
 ```
+
 ```text
 SIMILAR COGNITIVE PROCESS
 !=
 SAME NEURAL IMPLEMENTATION
 ```
+
 ```text
 SAME FUNCTIONAL LABEL
 !=
 SAME BIOLOGICAL FUNCTION
 ```
+
 ```text
 CROSS-SPECIES MAPPING
 !=
 CAUSAL GENERALIZATION
 ```
+
 ```text
 STRUCTURAL SIMILARITY
 !=
 FUNCTIONAL EQUIVALENCE
 ```
+
 ```text
 FUNCTIONAL EQUIVALENCE
 !=
 CONSCIOUSNESS EQUIVALENCE
 ```
+
 These are integrity-preserving derived constraints pending native-canon evidence.
 
----
+______________________________________________________________________
 
-# 2. Strongest Supported Claim
+## 2. Strongest Supported Claim
 
 The strongest currently supported conclusion is:
 
@@ -363,9 +374,9 @@ UNKNOWN/GAP
 
 beyond their presence in the framework/artifact name.
 
----
+______________________________________________________________________
 
-# 3. Artifact Identity
+## 3. Artifact Identity
 
 ```yaml
 amos_cross_species_functional_mode_model_identity:
@@ -410,9 +421,9 @@ amos_cross_species_functional_mode_model_identity:
     UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 4. Identifier Consistency
+## 4. Identifier Consistency
 
 The supplied artifact gives the same textual value for:
 
@@ -461,9 +472,9 @@ TEXTUAL IDENTIFIER MATCH
 VALIDATED CANON IDENTITY RESOLUTION
 ```
 
----
+______________________________________________________________________
 
-# 5. Term Firewall
+## 5. Term Firewall
 
 The composite term:
 
@@ -503,9 +514,9 @@ Current native meaning:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 6. Species Firewall
+## 6. Species Firewall
 
 The term:
 
@@ -549,9 +560,9 @@ UNKNOWN/GAP
 
 at the substantive model level.
 
----
+______________________________________________________________________
 
-# 7. Cross-Species Firewall
+## 7. Cross-Species Firewall
 
 ```text
 CROSS-SPECIES
@@ -564,35 +575,40 @@ CROSS-SPECIES
 !=
 ALL SPECIES
 ```
+
 ```text
 CROSS-SPECIES
 !=
 SPECIES-INVARIANT
 ```
+
 ```text
 CROSS-SPECIES
 !=
 BIOLOGICALLY EQUIVALENT
 ```
+
 ```text
 CROSS-SPECIES COMPARISON
 !=
 CROSS-SPECIES GENERALIZATION
 ```
+
 ```text
 CROSS-SPECIES GENERALIZATION
 !=
 CAUSAL TRANSFER
 ```
+
 The applicable species set remains:
 
 ```text
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 8. Function Firewall
+## 8. Function Firewall
 
 The word:
 
@@ -630,9 +646,9 @@ Current state:
 COMPETING / UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 9. Mode Firewall
+## 9. Mode Firewall
 
 The word:
 
@@ -672,9 +688,9 @@ Current:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 10. Functional Similarity Firewall
+## 10. Functional Similarity Firewall
 
 ```text
 SAME OBSERVED OUTPUT
@@ -687,24 +703,28 @@ SAME FUNCTION
 !=
 SAME MECHANISM
 ```
+
 ```text
 SAME MECHANISM
 !=
 SAME EVOLUTIONARY ORIGIN
 ```
+
 ```text
 SAME FUNCTIONAL LABEL
 !=
 SAME INTERNAL STATE
 ```
+
 ```text
 SIMILAR PERFORMANCE
 !=
 FUNCTIONAL EQUIVALENCE
 ```
----
 
-# 11. Behavior-vs-Cognition Firewall
+______________________________________________________________________
+
+## 11. Behavior-vs-Cognition Firewall
 
 ```text
 BEHAVIORAL SIMILARITY
@@ -724,9 +744,9 @@ COGNITIVE NONEQUIVALENCE
 
 unless the measurement model licenses that inference.
 
----
+______________________________________________________________________
 
-# 12. Cognition-vs-Biology Firewall
+## 12. Cognition-vs-Biology Firewall
 
 ```text
 COGNITIVE SIMILARITY
@@ -739,14 +759,16 @@ FUNCTIONAL COGNITIVE EQUIVALENCE
 !=
 NEURAL EQUIVALENCE
 ```
+
 ```text
 SAME TASK SOLUTION
 !=
 SAME BIOLOGICAL IMPLEMENTATION
 ```
----
 
-# 13. Homology Firewall
+______________________________________________________________________
+
+## 13. Homology Firewall
 
 Do not infer:
 
@@ -774,9 +796,9 @@ COMMON FUNCTION
 COMMON ANCESTRAL ORIGIN
 ```
 
----
+______________________________________________________________________
 
-# 14. Analogy Firewall
+## 14. Analogy Firewall
 
 ```text
 ANALOGOUS FUNCTION
@@ -789,14 +811,16 @@ ANALOGOUS BEHAVIOR
 !=
 IDENTICAL COGNITION
 ```
+
 ```text
 ANALOGY
 !=
 CAUSAL EVIDENCE
 ```
----
 
-# 15. Convergence Firewall
+______________________________________________________________________
+
+## 15. Convergence Firewall
 
 Do not infer:
 
@@ -808,9 +832,9 @@ CONVERGENT EVOLUTION
 
 Convergence is an evolutionary claim requiring evidence beyond functional resemblance.
 
----
+______________________________________________________________________
 
-# 16. Consciousness Firewall
+## 16. Consciousness Firewall
 
 A cross-species functional mapping must not silently become a consciousness mapping.
 
@@ -825,21 +849,24 @@ BEHAVIORAL SIMILARITY
 !=
 SIMILAR SUBJECTIVE EXPERIENCE
 ```
+
 ```text
 COGNITIVE SIMILARITY
 !=
 SIMILAR PHENOMENOLOGY
 ```
+
 ```text
 SPECIES COMPARISON
 !=
 CONSCIOUSNESS COMPARISON
 ```
+
 Any relation to `AMOS_CONSCIOUSNESS_CANON` requires independent native evidence.
 
----
+______________________________________________________________________
 
-# 17. Purpose
+## 17. Purpose
 
 This artifact reserves the canonical SPEC slot for future verified native content associated with:
 
@@ -897,9 +924,9 @@ VALIDATION
 PROMOTION
 ```
 
----
+______________________________________________________________________
 
-# 18. Non-Purpose
+## 18. Non-Purpose
 
 This placeholder MUST NOT be used to claim:
 
@@ -923,9 +950,9 @@ This placeholder MUST NOT be used to claim:
 - runtime enforcement;
 - or validated cross-species implementation.
 
----
+______________________________________________________________________
 
-# 19. Canon-Ingestion Rule
+## 19. Canon-Ingestion Rule
 
 ```yaml
 AMOS_CANON_INGESTION_RULE:
@@ -973,9 +1000,9 @@ AMOS_CANON_INGESTION_RULE:
       - NEVER_INVENT_CANON
 ```
 
----
+______________________________________________________________________
 
-# 20. Contract Discipline
+## 20. Contract Discipline
 
 ```text
 Typed artifacts
@@ -1014,9 +1041,9 @@ cross_species_functional_mode_contract:
     ROLLBACK_BASIN_REQUIRED
 ```
 
----
+______________________________________________________________________
 
-# 21. Native Model Definition Schema
+## 21. Native Model Definition Schema
 
 ```yaml
 amos_cross_species_functional_mode_definition:
@@ -1145,9 +1172,9 @@ function_definition = UNKNOWN/GAP
 functional_mode_definition = UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 22. Species Registry Slot
+## 22. Species Registry Slot
 
 ```yaml
 species_registry:
@@ -1188,9 +1215,9 @@ species_registry:
 
 No species list may be invented merely to populate the model.
 
----
+______________________________________________________________________
 
-# 23. Functional-Mode Registry Slot
+## 23. Functional-Mode Registry Slot
 
 ```yaml
 functional_mode_registry:
@@ -1229,9 +1256,9 @@ functional_mode_registry:
     UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 24. Mode Identity
+## 24. Mode Identity
 
 A future functional mode requires stable identity criteria.
 
@@ -1275,9 +1302,9 @@ Current native mode identity rules:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 25. Cross-Species Mapping Slot
+## 25. Cross-Species Mapping Slot
 
 ```yaml
 cross_species_mapping:
@@ -1325,9 +1352,9 @@ cross_species_mapping:
     UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 26. Mapping-Type Registry
+## 26. Mapping-Type Registry
 
 Potential mapping types must remain uncommitted until native evidence exists.
 
@@ -1367,9 +1394,9 @@ mapping_type_candidates:
 
 This is a target discrimination schema, not recovered canon.
 
----
+______________________________________________________________________
 
-# 27. Equivalence Firewall
+## 27. Equivalence Firewall
 
 ```text
 SIMILAR
@@ -1382,34 +1409,40 @@ EQUIVALENT UNDER METRIC M
 !=
 EQUIVALENT UNDER ALL METRICS
 ```
+
 ```text
 EQUIVALENT FOR TASK T
 !=
 GLOBALLY EQUIVALENT
 ```
+
 ```text
 EQUIVALENT IN ENVIRONMENT E1
 !=
 EQUIVALENT IN ENVIRONMENT E2
 ```
+
 ```text
 BEHAVIORALLY EQUIVALENT
 !=
 COGNITIVELY EQUIVALENT
 ```
+
 ```text
 COGNITIVELY EQUIVALENT
 !=
 NEURALLY EQUIVALENT
 ```
+
 ```text
 FUNCTIONALLY EQUIVALENT
 !=
 EVOLUTIONARILY HOMOLOGOUS
 ```
----
 
-# 28. Similarity Metric Slot
+______________________________________________________________________
+
+## 28. Similarity Metric Slot
 
 ```yaml
 cross_species_similarity_metric:
@@ -1448,9 +1481,9 @@ cross_species_similarity_metric:
     UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 29. Similarity-Score Firewall
+## 29. Similarity-Score Firewall
 
 ```text
 HIGH SIMILARITY SCORE
@@ -1471,9 +1504,10 @@ HIGH CROSS-SPECIES SCORE
 !=
 BIOLOGICAL EQUIVALENCE
 ```
----
 
-# 30. Measurement-Invariance Slot
+______________________________________________________________________
+
+## 30. Measurement-Invariance Slot
 
 Cross-species comparison requires explicit treatment of whether measurements mean the same thing across compared systems.
 
@@ -1505,9 +1539,9 @@ measurement_invariance:
     UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 31. Measurement-Invariance Firewall
+## 31. Measurement-Invariance Firewall
 
 ```text
 SAME TEST
@@ -1520,19 +1554,22 @@ SAME SCORE
 !=
 SAME FUNCTION
 ```
+
 ```text
 SAME OBSERVABLE
 !=
 SAME LATENT STATE
 ```
+
 ```text
 SAME THRESHOLD
 !=
 VALID THRESHOLD ACROSS SPECIES
 ```
----
 
-# 32. Behavioral Measurement Slot
+______________________________________________________________________
+
+## 32. Behavioral Measurement Slot
 
 ```yaml
 behavioral_measurement:
@@ -1565,9 +1602,9 @@ behavioral_measurement:
     UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 33. Behavioral Proxy Firewall
+## 33. Behavioral Proxy Firewall
 
 ```text
 BEHAVIOR
@@ -1588,9 +1625,10 @@ TASK PERFORMANCE
 !=
 DIRECT MEASUREMENT OF COGNITION
 ```
----
 
-# 34. Cognitive Mode Slot
+______________________________________________________________________
+
+## 34. Cognitive Mode Slot
 
 If native evidence establishes that functional modes are cognitive:
 
@@ -1628,9 +1666,9 @@ Current applicability:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 35. Biological Mode Slot
+## 35. Biological Mode Slot
 
 If native evidence establishes biological semantics:
 
@@ -1665,9 +1703,9 @@ Current applicability:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 36. Neural Mapping Slot
+## 36. Neural Mapping Slot
 
 ```yaml
 neural_mapping:
@@ -1700,9 +1738,9 @@ neural_mapping:
     UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 37. Neural Firewall
+## 37. Neural Firewall
 
 ```text
 SAME FUNCTION
@@ -1715,19 +1753,22 @@ ANATOMICAL SIMILARITY
 !=
 FUNCTIONAL EQUIVALENCE
 ```
+
 ```text
 FUNCTIONAL EQUIVALENCE
 !=
 ANATOMICAL HOMOLOGY
 ```
+
 ```text
 NEURAL CORRELATION
 !=
 CAUSAL MECHANISM
 ```
----
 
-# 38. Evolutionary Slot
+______________________________________________________________________
+
+## 38. Evolutionary Slot
 
 ```yaml
 evolutionary_semantics:
@@ -1757,9 +1798,9 @@ evolutionary_semantics:
     UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 39. Evolutionary Firewall
+## 39. Evolutionary Firewall
 
 ```text
 FUNCTIONAL SIMILARITY
@@ -1772,19 +1813,22 @@ FUNCTIONAL DIFFERENCE
 !=
 EVOLUTIONARY DIVERGENCE
 ```
+
 ```text
 CROSS-SPECIES PATTERN
 !=
 ADAPTATION
 ```
+
 ```text
 APPARENT CONVERGENCE
 !=
 DEMONSTRATED CONVERGENT EVOLUTION
 ```
----
 
-# 40. Variable Registry Slot
+______________________________________________________________________
+
+## 40. Variable Registry Slot
 
 ```yaml
 cross_species_functional_mode_variables:
@@ -1825,9 +1869,9 @@ cross_species_functional_mode_variables:
 
 No variables may be invented merely to complete the schema.
 
----
+______________________________________________________________________
 
-# 41. Equation Slot
+## 41. Equation Slot
 
 ```yaml
 cross_species_functional_mode_equations:
@@ -1863,9 +1907,9 @@ cross_species_functional_mode_equations:
     UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 42. Equation Firewall
+## 42. Equation Firewall
 
 ```text
 CROSS-SPECIES EQUATION
@@ -1878,19 +1922,22 @@ SPECIES-INDEPENDENT SYMBOL
 !=
 SPECIES-INDEPENDENT QUANTITY
 ```
+
 ```text
 MATHEMATICAL INVARIANCE
 !=
 BIOLOGICAL INVARIANCE
 ```
+
 ```text
 MODEL FIT
 !=
 MECHANISTIC TRUTH
 ```
----
 
-# 43. Dynamics Slot
+______________________________________________________________________
+
+## 43. Dynamics Slot
 
 ```yaml
 functional_mode_dynamics:
@@ -1923,9 +1970,9 @@ functional_mode_dynamics:
     UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 44. Transition Firewall
+## 44. Transition Firewall
 
 ```text
 SAME MODE LABEL
@@ -1938,14 +1985,16 @@ SAME TRANSITION ORDER
 !=
 SAME CAUSAL MECHANISM
 ```
+
 ```text
 SIMILAR TEMPORAL PATTERN
 !=
 SHARED BIOLOGICAL CLOCK
 ```
----
 
-# 45. Causal Slot
+______________________________________________________________________
+
+## 45. Causal Slot
 
 ```yaml
 cross_species_causality:
@@ -1981,9 +2030,9 @@ cross_species_causality:
     UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 46. Causal Firewall
+## 46. Causal Firewall
 
 Distinguish:
 
@@ -2029,9 +2078,9 @@ X CAUSES MODE M IN SPECIES A
 X CAUSES ANALOGOUS MODE IN SPECIES B
 ```
 
----
+______________________________________________________________________
 
-# 47. Causal Transport Firewall
+## 47. Causal Transport Firewall
 
 ```text
 CAUSAL EFFECT IN SPECIES A
@@ -2059,9 +2108,9 @@ POPULATION
 REGIME
 ```
 
----
+______________________________________________________________________
 
-# 48. Environmental Context Slot
+## 48. Environmental Context Slot
 
 ```yaml
 environmental_context:
@@ -2085,9 +2134,9 @@ environmental_context:
     UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 49. Environment Firewall
+## 49. Environment Firewall
 
 ```text
 MODE OBSERVED IN ENVIRONMENT E1
@@ -2100,16 +2149,18 @@ LABORATORY PERFORMANCE
 !=
 ECOLOGICAL FUNCTION
 ```
+
 ```text
 CAPTIVE BEHAVIOR
 !=
 WILD BEHAVIOR
 ```
+
 unless appropriately validated.
 
----
+______________________________________________________________________
 
-# 50. Individual-vs-Species Firewall
+## 50. Individual-vs-Species Firewall
 
 ```text
 OBSERVED IN INDIVIDUAL
@@ -2122,16 +2173,18 @@ OBSERVED IN SAMPLE
 !=
 SPECIES UNIVERSAL
 ```
+
 ```text
 POPULATION MEAN
 !=
 EVERY INDIVIDUAL
 ```
+
 Cross-species inference must preserve population and individual scope.
 
----
+______________________________________________________________________
 
-# 51. Developmental Firewall
+## 51. Developmental Firewall
 
 ```text
 ADULT MODE
@@ -2144,16 +2197,18 @@ JUVENILE PERFORMANCE
 !=
 ADULT PERFORMANCE
 ```
+
 ```text
 SPECIES DIFFERENCE
 !=
 DEVELOPMENTAL-STAGE DIFFERENCE
 ```
+
 without controlled evidence.
 
----
+______________________________________________________________________
 
-# 52. Trait-vs-State Firewall
+## 52. Trait-vs-State Firewall
 
 ```text
 FUNCTIONAL MODE
@@ -2174,9 +2229,10 @@ REPEATED STATE
 !=
 HERITABLE TRAIT
 ```
----
 
-# 53. Capability Firewall
+______________________________________________________________________
+
+## 53. Capability Firewall
 
 ```text
 SPECIES CAN PERFORM TASK T
@@ -2189,14 +2245,16 @@ CAPABILITY
 !=
 DEFAULT MODE
 ```
+
 ```text
 CAPABILITY
 !=
 BIOLOGICAL NECESSITY
 ```
----
 
-# 54. Absence-of-Evidence Firewall
+______________________________________________________________________
+
+## 54. Absence-of-Evidence Firewall
 
 ```text
 MODE NOT OBSERVED
@@ -2206,9 +2264,9 @@ MODE ABSENT
 
 unless observation power, task validity, measurement sensitivity, and relevant context are sufficient.
 
----
+______________________________________________________________________
 
-# 55. Negative-Evidence Slot
+## 55. Negative-Evidence Slot
 
 ```yaml
 negative_evidence:
@@ -2232,9 +2290,9 @@ negative_evidence:
     UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 56. Anthropomorphism Firewall
+## 56. Anthropomorphism Firewall
 
 Do not infer human-like internal states merely from human-interpretable behavior.
 
@@ -2249,14 +2307,16 @@ HUMAN-LIKE COGNITION
 !=
 HUMAN-LIKE SUBJECTIVE EXPERIENCE
 ```
+
 ```text
 HUMAN-LIKE FUNCTIONAL LABEL
 !=
 HUMAN-LIKE BIOLOGICAL IMPLEMENTATION
 ```
----
 
-# 57. Anthropocentrism Firewall
+______________________________________________________________________
+
+## 57. Anthropocentrism Firewall
 
 Likewise, absence of a human-like behavior does not establish absence of function.
 
@@ -2271,14 +2331,16 @@ DIFFERENT STRATEGY
 !=
 ABSENT CAPABILITY
 ```
+
 ```text
 DIFFERENT OBSERVABLE
 !=
 ABSENT FUNCTION
 ```
----
 
-# 58. Ranking Firewall
+______________________________________________________________________
+
+## 58. Ranking Firewall
 
 The placeholder does not license species ranking by:
 
@@ -2300,9 +2362,9 @@ EVOLUTIONARY ADVANCEMENT
 
 No ordinal species hierarchy is established.
 
----
+______________________________________________________________________
 
-# 59. Evolutionary-Progress Firewall
+## 59. Evolutionary-Progress Firewall
 
 ```text
 EVOLUTION
@@ -2315,14 +2377,16 @@ LATER-DIVERGING LINEAGE
 !=
 MORE ADVANCED
 ```
+
 ```text
 MORE COMPLEX PERFORMANCE
 !=
 HIGHER EVOLUTIONARY STATUS
 ```
----
 
-# 60. External Research Firewall
+______________________________________________________________________
+
+## 60. External Research Firewall
 
 External research must remain:
 
@@ -2364,9 +2428,9 @@ PHYLOGENETICS
 
 unless explicitly incorporated through AMOS canon governance.
 
----
+______________________________________________________________________
 
-# 61. Empirical Firewall
+## 61. Empirical Firewall
 
 Even if future native canon states:
 
@@ -2388,9 +2452,9 @@ It does not automatically establish:
 EMPIRICALLY VERIFIED CROSS-SPECIES EQUIVALENCE
 ```
 
----
+______________________________________________________________________
 
-# 62. Comparative Evidence Contract
+## 62. Comparative Evidence Contract
 
 A consequential cross-species equivalence claim should distinguish:
 
@@ -2432,9 +2496,9 @@ FALSIFIERS
 
 The placeholder provides none of these substantive values.
 
----
+______________________________________________________________________
 
-# 63. Phylogenetic Non-Independence
+## 63. Phylogenetic Non-Independence
 
 Cross-species observations may be correlated through shared ancestry.
 
@@ -2466,9 +2530,9 @@ phylogenetic_dependence:
     UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 64. Provenance Non-Independence
+## 64. Provenance Non-Independence
 
 Likewise, documentary evidence may share ancestry.
 
@@ -2490,9 +2554,9 @@ BIOLOGICAL / PHYLOGENETIC DEPENDENCE
 
 Neither may be silently ignored when material.
 
----
+______________________________________________________________________
 
-# 65. Confidence Ceiling
+## 65. Confidence Ceiling
 
 ```text
 DERIVED CONFIDENCE
@@ -2513,9 +2577,9 @@ UNCERTAIN EQUIVALENCE CLAIM
 
 A large dataset cannot repair an undefined construct by itself.
 
----
+______________________________________________________________________
 
-# 66. Native Provenance Topology
+## 66. Native Provenance Topology
 
 Target:
 
@@ -2556,9 +2620,9 @@ AMOS CROSS-SPECIES FUNCTIONAL MODE MODEL
 
 This is a target schema, not recovered substantive canon.
 
----
+______________________________________________________________________
 
-# 67. Provenance Independence
+## 67. Provenance Independence
 
 ```yaml
 cross_species_provenance_independence:
@@ -2576,9 +2640,9 @@ cross_species_provenance_independence:
     false
 ```
 
----
+______________________________________________________________________
 
-# 68. Competing Interpretations
+## 68. Competing Interpretations
 
 Until native evidence resolves the framework, preserve:
 
@@ -2624,9 +2688,9 @@ Current:
 COMPETING / UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 69. Cheapest Discriminating Evidence
+## 69. Cheapest Discriminating Evidence
 
 The highest-information evidence is:
 
@@ -2683,9 +2747,9 @@ WHAT IS THE RELATION TO AMOS CONSCIOUSNESS?
 WHAT ARE THE SCOPE AND REGIME CONDITIONS?
 ```
 
----
+______________________________________________________________________
 
-# 70. Scope Slot
+## 70. Scope Slot
 
 ```yaml
 cross_species_scope:
@@ -2745,9 +2809,9 @@ cross_species_scope:
     UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 71. Scope Firewall
+## 71. Scope Firewall
 
 ```text
 VALID FOR SPECIES A + B
@@ -2760,24 +2824,28 @@ VALID FOR ONE POPULATION
 !=
 SPECIES-WIDE VALIDITY
 ```
+
 ```text
 VALID FOR ONE TASK
 !=
 DOMAIN-GENERAL VALIDITY
 ```
+
 ```text
 VALID IN LAB
 !=
 VALID IN NATURAL ECOLOGY
 ```
+
 ```text
 VALID FOR ADULTS
 !=
 VALID ACROSS DEVELOPMENT
 ```
----
 
-# 72. Regime Slot
+______________________________________________________________________
+
+## 72. Regime Slot
 
 ```yaml
 cross_species_regime:
@@ -2816,9 +2884,9 @@ cross_species_regime:
     UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 73. Regime Firewall
+## 73. Regime Firewall
 
 ```text
 MAPPING VALID @ R1
@@ -2842,9 +2910,9 @@ MEASUREMENT CHANGES
 ECOLOGICAL CONTEXT CHANGES
 ```
 
----
+______________________________________________________________________
 
-# 74. Temporal Slot
+## 74. Temporal Slot
 
 ```yaml
 cross_species_temporal_semantics:
@@ -2880,9 +2948,9 @@ cross_species_temporal_semantics:
     UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 75. Temporal Firewall
+## 75. Temporal Firewall
 
 ```text
 ARTIFACT VERSION TIME
@@ -2895,14 +2963,16 @@ BEHAVIORAL TRANSITION TIME
 !=
 EVOLUTIONARY TIME
 ```
+
 ```text
 MODE PERSISTENCE
 !=
 SPECIES TRAIT PERSISTENCE
 ```
----
 
-# 76. Dependency Slot
+______________________________________________________________________
+
+## 76. Dependency Slot
 
 ```yaml
 cross_species_dependencies:
@@ -2947,9 +3017,9 @@ cross_species_dependencies:
     UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 77. Dependency Firewall
+## 77. Dependency Firewall
 
 ```text
 REFERENCE
@@ -2962,24 +3032,28 @@ SAME SEGMENT
 !=
 DEPENDENCY
 ```
+
 ```text
 DEPENDENCY
 !=
 CAUSATION
 ```
+
 ```text
 DEPENDENCY
 !=
 AUTHORITY
 ```
+
 ```text
 COMPARATIVE USE
 !=
 ONTOLOGICAL DEPENDENCE
 ```
----
 
-# 78. Relation to AMOS Cognition Canon
+______________________________________________________________________
+
+## 78. Relation to AMOS Cognition Canon
 
 Co-location in:
 
@@ -3027,9 +3101,9 @@ cross_species_to_cognition_canon:
     UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 79. Relation to AMOS Consciousness Canon
+## 79. Relation to AMOS Consciousness Canon
 
 If `AMOS_CONSCIOUSNESS_CANON.md` exists in the same segment:
 
@@ -3057,9 +3131,9 @@ cross_species_to_consciousness_canon:
     NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 80. Relation to AMOS Cognitive Field Canon
+## 80. Relation to AMOS Cognitive Field Canon
 
 ```yaml
 cross_species_to_cognitive_field_canon:
@@ -3079,9 +3153,9 @@ cross_species_to_cognitive_field_canon:
 
 No field-based cross-species theory is established by naming or co-location.
 
----
+______________________________________________________________________
 
-# 81. Relation to AMOS Cognition Master Canon
+## 81. Relation to AMOS Cognition Master Canon
 
 ```yaml
 cross_species_to_cognition_master:
@@ -3105,9 +3179,9 @@ cross_species_to_cognition_master:
     UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 82. Relation Firewall
+## 82. Relation Firewall
 
 ```text
 SAME DIRECTORY
@@ -3120,19 +3194,22 @@ SAME COGNITION SEGMENT
 !=
 PARENT-CHILD RELATION
 ```
+
 ```text
 SHARED "COGNITION" CONTEXT
 !=
 SHARED VARIABLES
 ```
+
 ```text
 SHARED "MODE" TERMINOLOGY
 !=
 SHARED MODE SEMANTICS
 ```
----
 
-# 83. RSCF Binding
+______________________________________________________________________
+
+## 83. RSCF Binding
 
 The artifact has an RSCF node representation.
 
@@ -3166,9 +3243,9 @@ Current semantic binding:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 84. H/M/L Binding
+## 84. H/M/L Binding
 
 Target mutation semantics requires declaration of:
 
@@ -3196,9 +3273,9 @@ L = BEHAVIOR
 
 or any alternative without native evidence.
 
----
+______________________________________________________________________
 
-# 85. Canon-Operation Target Semantics
+## 85. Canon-Operation Target Semantics
 
 The supplied source supports:
 
@@ -3224,9 +3301,9 @@ This is target governance for operations touching:
 
 It is not itself a biological or cognitive functional-mode sequence.
 
----
+______________________________________________________________________
 
-# 86. Admit
+## 86. Admit
 
 Resolve:
 
@@ -3242,9 +3319,9 @@ UNKNOWN/GAP
 FAIL CLOSED
 ```
 
----
+______________________________________________________________________
 
-# 87. Bind Scope
+## 87. Bind Scope
 
 Before mutation declare:
 
@@ -3276,9 +3353,9 @@ MEASUREMENT
 
 where material.
 
----
+______________________________________________________________________
 
-# 88. Authority Check
+## 88. Authority Check
 
 Target:
 
@@ -3300,9 +3377,9 @@ ABILITY TO GENERATE A SPECIES COMPARISON
 AUTHORITY TO COMMIT CROSS-SPECIES CANON
 ```
 
----
+______________________________________________________________________
 
-# 89. Preconditions
+## 89. Preconditions
 
 Traverse:
 
@@ -3332,9 +3409,9 @@ PHYLOGENETIC DEPENDENCE
 COMPARISON METRIC
 ```
 
----
+______________________________________________________________________
 
-# 90. Proposal
+## 90. Proposal
 
 Candidate state remains:
 
@@ -3350,9 +3427,9 @@ PROPOSED SPECIES MAPPING
 COMMITTED CANON
 ```
 
----
+______________________________________________________________________
 
-# 91. Commit or Hold
+## 91. Commit or Hold
 
 On failed premise:
 
@@ -3364,9 +3441,9 @@ INVALIDATE DEPENDENT DESCENDANTS ONLY
 RECORD RECEIPT
 ```
 
----
+______________________________________________________________________
 
-# 92. Selective Invalidation
+## 92. Selective Invalidation
 
 Suppose:
 
@@ -3395,9 +3472,9 @@ AND ITS DEPENDENT DESCENDANTS
 
 Do not invalidate unrelated species mappings or unrelated cognition canon.
 
----
+______________________________________________________________________
 
-# 93. Failure Recovery
+## 93. Failure Recovery
 
 ```text
 FAILED PREMISE / EDGE
@@ -3413,9 +3490,9 @@ PRESERVE UNAFFECTED WORK
 REROUTE WITH CHANGED EVIDENCE
 ```
 
----
+______________________________________________________________________
 
-# 94. Framework Identity Test
+## 94. Framework Identity Test
 
 Before merging material from multiple sources compare:
 
@@ -3465,9 +3542,9 @@ COMPETING
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 95. Duplicate-Canon Firewall
+## 95. Duplicate-Canon Firewall
 
 If multiple sources contain material called:
 
@@ -3489,9 +3566,9 @@ DO_NOT_CREATE_DUPLICATE_CANON
 
 only after identity is established.
 
----
+______________________________________________________________________
 
-# 96. Historical Preservation
+## 96. Historical Preservation
 
 Historical source:
 
@@ -3505,9 +3582,9 @@ PRESERVE HERITAGE
 
 A newer comparative model must not erase historical variants solely because it is newer.
 
----
+______________________________________________________________________
 
-# 97. Supersession Firewall
+## 97. Supersession Firewall
 
 ```text
 NEWER
@@ -3520,19 +3597,22 @@ MORE SPECIES
 !=
 MORE CANONICAL
 ```
+
 ```text
 LARGER DATASET
 !=
 BETTER CONSTRUCT VALIDITY
 ```
+
 ```text
 MORE COMPLEX MODEL
 !=
 MORE BIOLOGICALLY TRUE
 ```
----
 
-# 98. Version Slot
+______________________________________________________________________
+
+## 98. Version Slot
 
 ```yaml
 cross_species_model_version:
@@ -3559,9 +3639,9 @@ cross_species_model_version:
     required
 ```
 
----
+______________________________________________________________________
 
-# 99. Version Firewall
+## 99. Version Firewall
 
 ```text
 LATEST
@@ -3574,14 +3654,16 @@ NEW VERSION
 !=
 VALIDATED VERSION
 ```
+
 ```text
 MORE SPECIES COVERAGE
 !=
 GREATER CROSS-SPECIES VALIDITY
 ```
----
 
-# 100. MVCC Concept
+______________________________________________________________________
+
+## 100. MVCC Concept
 
 A future implementation may conceptually use:
 
@@ -3611,9 +3693,9 @@ Literal implementation:
 NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 101. CAS Concept
+## 101. CAS Concept
 
 Conceptually:
 
@@ -3628,9 +3710,9 @@ NO STALE MODEL COMMIT
 
 This is an architectural reasoning pattern only.
 
----
+______________________________________________________________________
 
-# 102. Atomic Multi-RSCF Concept
+## 102. Atomic Multi-RSCF Concept
 
 A future cross-species mutation may involve:
 
@@ -3664,9 +3746,9 @@ SUCCESS
 
 Literal implementation is not established.
 
----
+______________________________________________________________________
 
-# 103. Causal Epoch Concept
+## 103. Causal Epoch Concept
 
 Conceptually:
 
@@ -3686,9 +3768,9 @@ MODEL STATE@E+1
 
 No literal causal-epoch runtime is asserted.
 
----
+______________________________________________________________________
 
-# 104. Proof-Based Coordination Avoidance
+## 104. Proof-Based Coordination Avoidance
 
 Local reasoning is safe only when proof establishes:
 
@@ -3720,9 +3802,9 @@ ENVIRONMENTAL COMPATIBILITY
 POPULATION COMPATIBILITY
 ```
 
----
+______________________________________________________________________
 
-# 105. Adversarial Validation
+## 105. Adversarial Validation
 
 For a consequential cross-species claim challenge:
 
@@ -3800,9 +3882,9 @@ OR
 RETURN UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 106. Sensitivity
+## 106. Sensitivity
 
 The smallest premise capable of flipping most substantive interpretations is:
 
@@ -3827,9 +3909,9 @@ BIOLOGICAL, OR OTHER?
 
 Until resolved, downstream claims remain fragile.
 
----
+______________________________________________________________________
 
-# 107. Uncertainty Vector
+## 107. Uncertainty Vector
 
 ```yaml
 uncertainty:
@@ -3928,9 +4010,9 @@ uncertainty:
     HIGH
 ```
 
----
+______________________________________________________________________
 
-# 108. Observability Boundary
+## 108. Observability Boundary
 
 Target relation:
 
@@ -3961,9 +4043,10 @@ LOGGED CROSS-SPECIES SIMILARITY
 !=
 APPROVED CANONICAL MAPPING
 ```
----
 
-# 109. Kernel Boundary
+______________________________________________________________________
+
+## 109. Kernel Boundary
 
 Target:
 
@@ -3985,9 +4068,9 @@ Current:
 NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 110. Control-Plane Boundary
+## 110. Control-Plane Boundary
 
 Target:
 
@@ -4003,9 +4086,9 @@ TARGET CONTROL-PLANE GATE
 EXECUTABLE CROSS-SPECIES ENFORCEMENT
 ```
 
----
+______________________________________________________________________
 
-# 111. Operations Boundary
+## 111. Operations Boundary
 
 Target:
 
@@ -4021,25 +4104,9 @@ TARGET RECOVERY PATH
 VALIDATED MODEL-RECOVERY IMPLEMENTATION
 ```
 
----
+______________________________________________________________________
 
-# 112. Routing Validation Boundary
-
-Required before promotion:
-
-```text
-
-```
-
-Current:
-
-```text
-NOT_ESTABLISHED
-```
-
----
-
-# 113. Authorization Validation Boundary
+## 112. Routing Validation Boundary
 
 Required before promotion:
 
@@ -4053,9 +4120,25 @@ Current:
 NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 114. Promotion Validation Contract
+## 113. Authorization Validation Boundary
+
+Required before promotion:
+
+```text
+
+```
+
+Current:
+
+```text
+NOT_ESTABLISHED
+```
+
+______________________________________________________________________
+
+## 114. Promotion Validation Contract
 
 Promotion requires validation of:
 
@@ -4137,9 +4220,9 @@ RECEIPTS
 EXECUTABLE BINDING IF CLAIMED
 ```
 
----
+______________________________________________________________________
 
-# 115. Negative Validation Matrix
+## 115. Negative Validation Matrix
 
 ```text
 MISSING ARTIFACT
@@ -4241,9 +4324,9 @@ MISSING RECEIPT
 COMPETING DEFINITIONS HIDDEN
 ```
 
----
+______________________________________________________________________
 
-# 116. Validation Receipt Target
+## 116. Validation Receipt Target
 
 ```yaml
 amos_cross_species_functional_mode_validation_receipt:
@@ -4384,9 +4467,9 @@ Current:
 NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 117. Critical Gap — Functional Mode Definition
+## 117. Critical Gap — Functional Mode Definition
 
 ```yaml
 gap:
@@ -4411,9 +4494,9 @@ gap:
     - native_functional_mode_definition
 ```
 
----
+______________________________________________________________________
 
-# 118. Critical Gap — Cross-Species Semantics
+## 118. Critical Gap — Cross-Species Semantics
 
 ```yaml
 gap:
@@ -4433,9 +4516,9 @@ gap:
     by "cross-species."
 ```
 
----
+______________________________________________________________________
 
-# 119. Critical Gap — Function Semantics
+## 119. Critical Gap — Function Semantics
 
 ```yaml
 gap:
@@ -4455,9 +4538,9 @@ gap:
     ecological, control, or another native AMOS construct.
 ```
 
----
+______________________________________________________________________
 
-# 120. Critical Gap — Mapping Semantics
+## 120. Critical Gap — Mapping Semantics
 
 ```yaml
 gap:
@@ -4476,9 +4559,9 @@ gap:
     threshold, or validation rule is established.
 ```
 
----
+______________________________________________________________________
 
-# 121. Critical Gap — Measurement Invariance
+## 121. Critical Gap — Measurement Invariance
 
 ```yaml
 gap:
@@ -4498,9 +4581,9 @@ gap:
     across species.
 ```
 
----
+______________________________________________________________________
 
-# 122. Critical Gap — Biological / Evolutionary Semantics
+## 122. Critical Gap — Biological / Evolutionary Semantics
 
 ```yaml
 gap:
@@ -4520,9 +4603,9 @@ gap:
     neural equivalence, or evolutionary interpretation.
 ```
 
----
+______________________________________________________________________
 
-# 123. Critical Gap — Cognition Relation
+## 123. Critical Gap — Cognition Relation
 
 ```yaml
 gap:
@@ -4542,9 +4625,9 @@ gap:
     native AMOS Cognition Canon.
 ```
 
----
+______________________________________________________________________
 
-# 124. Critical Gap — Consciousness Relation
+## 124. Critical Gap — Consciousness Relation
 
 ```yaml
 gap:
@@ -4564,9 +4647,9 @@ gap:
     is established.
 ```
 
----
+______________________________________________________________________
 
-# 125. Critical Gap — Scope / Regime
+## 125. Critical Gap — Scope / Regime
 
 ```yaml
 gap:
@@ -4586,9 +4669,9 @@ gap:
     are not established.
 ```
 
----
+______________________________________________________________________
 
-# 126. Critical Gap — Executable Binding
+## 126. Critical Gap — Executable Binding
 
 ```yaml
 gap:
@@ -4607,9 +4690,9 @@ gap:
     implementation is established.
 ```
 
----
+______________________________________________________________________
 
-# 127. Critical Gap — Validation
+## 127. Critical Gap — Validation
 
 ```yaml
 gap:
@@ -4628,9 +4711,9 @@ gap:
     establishes substantive Cross-Species Functional Mode canon.
 ```
 
----
+______________________________________________________________________
 
-# 128. Worked Semantics — Artifact Label
+## 128. Worked Semantics — Artifact Label
 
 Given:
 
@@ -4657,9 +4740,9 @@ Substantive semantics:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 129. Worked Semantics — Similar Behavior
+## 129. Worked Semantics — Similar Behavior
 
 Suppose:
 
@@ -4695,9 +4778,9 @@ nor:
 EVOLUTIONARY HOMOLOGY
 ```
 
----
+______________________________________________________________________
 
-# 130. Worked Semantics — Same Mode Label
+## 130. Worked Semantics — Same Mode Label
 
 Suppose a future source assigns:
 
@@ -4725,9 +4808,9 @@ EVOLUTIONARY HOMOLOGY
 CONSCIOUSNESS EQUIVALENCE
 ```
 
----
+______________________________________________________________________
 
-# 131. Worked Semantics — Same Score
+## 131. Worked Semantics — Same Score
 
 Suppose:
 
@@ -4751,9 +4834,9 @@ EQUAL FUNCTIONAL MODE
 
 unless metric semantics and invariance are validated.
 
----
+______________________________________________________________________
 
-# 132. Worked Semantics — Individual to Species
+## 132. Worked Semantics — Individual to Species
 
 Suppose one individual of species A demonstrates behavior `B`.
 
@@ -4773,9 +4856,9 @@ UNDER CONDITIONS E.
 
 Species-level inference requires additional support.
 
----
+______________________________________________________________________
 
-# 133. Worked Semantics — Homology
+## 133. Worked Semantics — Homology
 
 Suppose species A and B perform similar functions.
 
@@ -4792,9 +4875,9 @@ FUNCTIONAL SIMILARITY IS OBSERVED OR MODELED;
 EVOLUTIONARY HOMOLOGY REQUIRES SEPARATE EVIDENCE.
 ```
 
----
+______________________________________________________________________
 
-# 134. Worked Semantics — Causal Transport
+## 134. Worked Semantics — Causal Transport
 
 Suppose intervention `X` changes mode `M` in species A.
 
@@ -4811,9 +4894,9 @@ THE EFFECT IN SPECIES B REMAINS UNKNOWN
 UNTIL TRANSPORT CONDITIONS ARE ESTABLISHED.
 ```
 
----
+______________________________________________________________________
 
-# 135. Worked Semantics — Consciousness
+## 135. Worked Semantics — Consciousness
 
 Suppose species A and B share a functional-mode classification.
 
@@ -4830,9 +4913,9 @@ FUNCTIONAL-MODE CLASSIFICATION DOES NOT,
 BY ITSELF, ESTABLISH PHENOMENOLOGICAL EQUIVALENCE.
 ```
 
----
+______________________________________________________________________
 
-# 136. Worked Semantics — Source Correlation
+## 136. Worked Semantics — Source Correlation
 
 Suppose ten AMOS files repeat the same species mapping and all descend from one master source.
 
@@ -4850,9 +4933,9 @@ ONE ROOT PROVENANCE
 TEN DESCENDANTS.
 ```
 
----
+______________________________________________________________________
 
-# 137. Worked Semantics — Phylogenetic Correlation
+## 137. Worked Semantics — Phylogenetic Correlation
 
 Suppose ten closely related species exhibit mode `M`.
 
@@ -4870,9 +4953,9 @@ EVOLUTIONARY INDEPENDENCE REQUIRES
 PHYLOGENETIC ANALYSIS.
 ```
 
----
+______________________________________________________________________
 
-# 138. Worked Semantics — Mutation
+## 138. Worked Semantics — Mutation
 
 Suppose a candidate species-to-mode mapping passes schema validation but authority is stale.
 
@@ -4886,9 +4969,9 @@ HOLD
 
 not commit.
 
----
+______________________________________________________________________
 
-# 139. Worked Semantics — Selective Failure
+## 139. Worked Semantics — Selective Failure
 
 Suppose mapping:
 
@@ -4907,9 +4990,9 @@ AND ITS DEPENDENT CONCLUSIONS
 
 Do not invalidate unrelated mappings.
 
----
+______________________________________________________________________
 
-# 140. Cross-Plane Bindings
+## 140. Cross-Plane Bindings
 
 Source-supported governance:
 
@@ -4945,9 +5028,9 @@ Target integration:
 
 These are target references, not validated executable bindings.
 
----
+______________________________________________________________________
 
-# 141. Promotion Gate
+## 141. Promotion Gate
 
 Before promotion:
 
@@ -5023,9 +5106,9 @@ Before promotion:
 - [ ] artifact-specific validation receipt executed;
 - [ ] unresolved critical gaps remain visible.
 
----
+______________________________________________________________________
 
-# 142. Current Proof Capsule
+## 142. Current Proof Capsule
 
 ```yaml
 proof_capsule:
@@ -5178,9 +5261,9 @@ proof_capsule:
     false
 ```
 
----
+______________________________________________________________________
 
-# 143. Canonical Knowledge Capsule
+## 143. Canonical Knowledge Capsule
 
 **Class: DERIVED / AMOS_MODEL**
 
@@ -5297,9 +5380,9 @@ NOT_ESTABLISHED
 
 as appropriate.
 
----
+______________________________________________________________________
 
-# 144. Canonical Invariants
+## 144. Canonical Invariants
 
 ```text
 INTEGRITY > COMPLETENESS > FLUENCY > SPEED > TOKEN SAVINGS
@@ -5471,9 +5554,9 @@ VALID IN LAB != VALID IN NATURAL ECOLOGY
 ONE FAILED MAPPING != ALL CROSS-SPECIES CANON INVALID
 ```
 
----
+______________________________________________________________________
 
-# 145. Status Matrix
+## 145. Status Matrix
 
 | Dimension                         | Current status             | Promotion requirement            |
 | --------------------------------- | -------------------------- | -------------------------------- |
@@ -5526,9 +5609,9 @@ ONE FAILED MAPPING != ALL CROSS-SPECIES CANON INVALID
 | Artifact validation               | NOT_ESTABLISHED            | executed validation receipt      |
 | Empirical validity                | NOT_ESTABLISHED            | appropriately typed evidence     |
 
----
+______________________________________________________________________
 
-# 146. Minimum Missing Information
+## 146. Minimum Missing Information
 
 The minimum evidence required to resolve the artifact's central ambiguity is:
 
@@ -5606,9 +5689,9 @@ NEVER_INVENT_CANON
 
 remains controlling.
 
----
+______________________________________________________________________
 
-# 147. Final Integrity Rule
+## 147. Final Integrity Rule
 
 Until verified native content is recovered:
 
@@ -5619,107 +5702,141 @@ DO NOT INFER CROSS-SPECIES VALIDITY FROM THE ARTIFACT TITLE
 ```text
 DO NOT INVENT A DEFINITION OF FUNCTIONAL MODE
 ```
+
 ```text
 DO NOT INVENT A SPECIES REGISTRY
 ```
+
 ```text
 DO NOT INVENT FUNCTIONAL MODES
 ```
+
 ```text
 DO NOT INVENT SPECIES-TO-MODE MAPPINGS
 ```
+
 ```text
 DO NOT INVENT SIMILARITY METRICS
 ```
+
 ```text
 DO NOT INVENT EQUIVALENCE THRESHOLDS
 ```
+
 ```text
 DO NOT INFER SAME FUNCTION FROM SAME BEHAVIOR
 ```
+
 ```text
 DO NOT INFER SAME COGNITION FROM SAME BEHAVIOR
 ```
+
 ```text
 DO NOT INFER SAME MECHANISM FROM SAME FUNCTION
 ```
+
 ```text
 DO NOT INFER HOMOLOGY FROM FUNCTIONAL SIMILARITY
 ```
+
 ```text
 DO NOT INFER CONVERGENT EVOLUTION FROM FUNCTIONAL SIMILARITY
 ```
+
 ```text
 DO NOT TREAT ANALOGY AS HOMOLOGY
 ```
+
 ```text
 DO NOT TREAT SIMILARITY AS EQUIVALENCE
 ```
+
 ```text
 DO NOT TREAT TASK-SPECIFIC EQUIVALENCE AS GLOBAL EQUIVALENCE
 ```
+
 ```text
 DO NOT ASSUME MEASUREMENT INVARIANCE
 ```
+
 ```text
 DO NOT TREAT SAME SCORE AS SAME FUNCTION
 ```
+
 ```text
 DO NOT GENERALIZE AN INDIVIDUAL TO A SPECIES
 ```
+
 ```text
 DO NOT GENERALIZE A SAMPLE TO EVERY MEMBER OF A SPECIES
 ```
+
 ```text
 DO NOT GENERALIZE LABORATORY PERFORMANCE TO NATURAL ECOLOGY
 WITHOUT VALIDATION
 ```
+
 ```text
 DO NOT TREAT ABSENCE OF OBSERVATION AS ABSENCE OF FUNCTION
 ```
+
 ```text
 DO NOT INFER HUMAN-LIKE COGNITION FROM HUMAN-LIKE BEHAVIOR
 ```
+
 ```text
 DO NOT INFER COGNITIVE ABSENCE FROM NON-HUMAN-LIKE BEHAVIOR
 ```
+
 ```text
 DO NOT INVENT A SPECIES INTELLIGENCE HIERARCHY
 ```
+
 ```text
 DO NOT INVENT AN EVOLUTIONARY PROGRESS HIERARCHY
 ```
+
 ```text
 DO NOT IGNORE PHYLOGENETIC DEPENDENCE
 ```
+
 ```text
 DO NOT TREAT MULTIPLE DESCENDANT DOCUMENTS AS INDEPENDENT SOURCES
 ```
+
 ```text
 DO NOT INFER CAUSATION FROM CORRELATION
 ```
+
 ```text
 DO NOT TRANSPORT CAUSAL EFFECTS ACROSS SPECIES WITHOUT SUPPORT
 ```
+
 ```text
 DO NOT INFER CONSCIOUSNESS EQUIVALENCE FROM FUNCTIONAL EQUIVALENCE
 ```
+
 ```text
 DO NOT INFER SUBJECTIVE-EXPERIENCE EQUIVALENCE FROM BEHAVIOR
 ```
+
 ```text
 DO NOT IMPORT EXTERNAL COMPARATIVE-COGNITION RESEARCH
 AS NATIVE AMOS CANON
 ```
+
 ```text
 DO NOT ASSUME RELATIONS TO SIBLING COGNITION ARTIFACTS
 ```
+
 ```text
 DO NOT CLAIM IMPLEMENTATION
 ```
+
 ```text
 DO NOT CLAIM VALIDATION
 ```
+
 Instead:
 
 ```text
@@ -5794,15 +5911,15 @@ EXECUTE RECEIPTS
 PROMOTE ONLY AFTER VALIDATION
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[01_CANON/03_COGNITION_CANON/AMOS_COGNITION_CANON|AMOS_COGNITION_CANON]] · [[01_CANON/03_COGNITION_CANON/AMOS_CONSCIOUSNESS_CANON|AMOS_CONSCIOUSNESS_CANON]] · [[01_CANON/03_COGNITION_CANON/AMOS_COGNITIVE_FIELD_CANON|AMOS_COGNITIVE_FIELD_CANON]] · [[01_CANON/03_COGNITION_CANON/AMOS_COGNITION_MASTER_CANON|AMOS_COGNITION_MASTER_CANON]]
 
----
+______________________________________________________________________
 
 RSCF-NODE
 
@@ -5926,11 +6043,11 @@ RSCF-RELATIONS:
 
 - TARGET_VALIDATED_BY: [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]
 
----
+______________________________________________________________________
 
 **MOC:** [[01_CANON/03_COGNITION_CANON/03_COGNITION_CANON_MOC|03_COGNITION_CANON_MOC]]
 
----
+______________________________________________________________________
 
 **Origin Architect / Steward:** Trang Phan
 

@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: brain engine specs
 type: reference
 source: 07_SKILLS/amos-memory-systems-master/references
 tags:
-- reference
-- amos-memory-systems-master
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-memory-systems-master
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -20,10 +23,11 @@ rscf:
 > Source: `_00_Cosmo brain/brain/A/AMOS Brain Engine Specs.md`
 > Epistemic class: SOURCE_DERIVED
 
----
+______________________________________________________________________
+
 title: AMOS Brain Engine Specs
 created: "2026-08-22"
-origin: "Google Drive — _00_AMOS_CANON/Core/"
+origin: "Google Drive — \_00_AMOS_CANON/Core/"
 origin_architect: "Trang Phan"
 type: "reference"
 tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/amos-brain-engine-specs, brain]
@@ -31,21 +35,23 @@ status: "active"
 provenance: "VERIFIED"
 confidence: "VERIFIED"
 sources:
-  - "_00_AMOS_CANON/Core/AMOS_Cognition_Engine_v0.json"
-  - "_00_AMOS_CANON/Core/AMOS_Mind_Os_v0.json"
-  - "_00_AMOS_CANON/Core/AMOS_Emotion_Engine_v0.json"
-  - "_00_AMOS_CANON/Core/AMOS_Consciousness_Engine_v0.json"
-  - "_00_AMOS_CANON/Core/AMOS_Os_Agent_v0.json"
-  - "_00_AMOS_CANON/AMOS_MAX_EXPANDED.json"
-  - "_00_AMOS_CANON/AMOS_Speed_Engine_v0.json"
----
 
-# AMOS Brain Engine Specs — part 2
+- "\_00_AMOS_CANON/Core/AMOS_Cognition_Engine_v0.json"
+- "\_00_AMOS_CANON/Core/AMOS_Mind_Os_v0.json"
+- "\_00_AMOS_CANON/Core/AMOS_Emotion_Engine_v0.json"
+- "\_00_AMOS_CANON/Core/AMOS_Consciousness_Engine_v0.json"
+- "\_00_AMOS_CANON/Core/AMOS_Os_Agent_v0.json"
+- "\_00_AMOS_CANON/AMOS_MAX_EXPANDED.json"
+- "\_00_AMOS_CANON/AMOS_Speed_Engine_v0.json"
+
+______________________________________________________________________
+
+## AMOS Brain Engine Specs — part 2
 
 Ingest summary of key AMOS brain engine specs from Google Drive (`_00_AMOS_CANON/Core/`).
 All specs authored by **Trang Phan**.
 
----
+______________________________________________________________________
 
 ## 1. AMOS_Cognition_Engine_v0 (AMOS_COGNITION_INFINITY_KERNEL)
 
@@ -77,7 +83,7 @@ Human processing limits: attention, stress impairs executive function, sleep/nut
 **Layer 6 — Integration Kernel**
 7-step integration pipeline, quality checks, interfaces to coding/design/scientific engines
 
----
+______________________________________________________________________
 
 ## 2. AMOS_Mind_Os_v0 (AMOS_SUPER_MIND_OS)
 
@@ -85,7 +91,7 @@ Human processing limits: attention, stress impairs executive function, sleep/nut
 **Role**: Integrated cognition + emotion + consciousness stack for AMOS.
 **Components**: cognition (AMOS_COGNITION_INFINITY_KERNEL), emotion (AMOS_MEGA_HUMAN_ENGINE), consciousness (AMOS_SUPER_CONSCIOUSNESS_ENGINE_vInfinity)
 
----
+______________________________________________________________________
 
 ## 3. AMOS_Emotion_Engine_v0 (AMOS_MEGA_HUMAN_ENGINE)
 
@@ -93,6 +99,7 @@ Human processing limits: attention, stress impairs executive function, sleep/nut
 **Role**: Unified affective–somatic–instinct engine for AMOS OS
 **Creator**: Trang Phan
 **Coverage targets**:
+
 - Emotional signal detection (text): 0.99
 - Empathy and validation patterns: 0.99
 - Instinct and fast patterning: 0.98
@@ -106,22 +113,27 @@ Human processing limits: attention, stress impairs executive function, sleep/nut
 - Meta-state tracking and cycles: 0.99
 
 ### 8 State Layers
+
 emotional_layer, instinct_layer, somatic_layer, motivation_layer, relational_layer, collective_layer, developmental_layer, cycle_layer
 
 ### 12 Core Variables
+
 valence, arousal, safety_estimate, agency_level, cognitive_capacity, load_level, hope_level, trust_level, defensiveness, playfulness, attachment_activation, group_tension
 
 ### Kernels
+
 - **microtone_engine**: High-resolution reading of written emotional/somatic signals (9 text features, 5 conversation features)
 - **emotional_kernel**: 10 primary emotion clusters, 5 dimens
 
----
+______________________________________________________________________
+
 **MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -129,12 +141,14 @@ valence, arousal, safety_estimate, agency_level, cognitive_capacity, load_level,
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-memory-systems-master-brain-engine-specs
 node_type: reference
 path: 07_SKILLS/amos-memory-systems-master/references/brain_engine_specs.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

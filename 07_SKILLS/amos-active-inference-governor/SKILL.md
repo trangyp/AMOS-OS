@@ -4,33 +4,22 @@ title: SKILL — Amos Active Inference Governor
 type: skill
 source: 07_SKILLS/amos-active-inference-governor
 name: amos-active-inference-governor
-description: Govern active-inference-style perception-belief-action loops inside AMOS
-  by separating observations, latent-state beliefs, uncertainty, preferences or goals,
-  candidate actions, expected consequences, prediction error, evidence updates, authority,
-  and actual effects. Use when an AMOS agent must decide whether to update beliefs,
-  gather information, act, continue observing, or stop; when prediction-error minimization
-  could conflict with truth, safety, authority, or user intent; when perception and
-  action form a feedback loop; or when amos-c05-mind-behavior-master routes a cognition/behavior
-  task requiring bounded active inference. Treat active inference as an AMOS_MODEL
-  unless independently grounded in established domain theory; never use it to claim
-  consciousness, neuroscience proof, free-energy-theory validation, or autonomous
-  authority. Do not use for consciousness claims, neuroscience proof, free-energy-theory
-  validation, or autonomous authority beyond declared scope.
+description: Govern active-inference-style perception-belief-action loops inside AMOS by separating observations, latent-state beliefs, uncertainty, preferences or goals, candidate actions, expected consequences, prediction error, evidence updates, authority, and actual effects. Use when an AMOS agent must decide whether to update beliefs, gather information, act, continue observing, or stop; when prediction-error minimization could conflict with truth, safety, authority, or user intent; when perception and action form a feedback loop; or when amos-c05-mind-behavior-master routes a cognition/behavior task requiring bounded active inference. Treat active inference as an AMOS_MODEL unless independently grounded in established domain theory; never use it to claim consciousness, neuroscience proof, free-energy-theory validation, or autonomous authority. Do not use for consciousness claims, neuroscience proof, free-energy-theory validation, or autonomous authority beyond declared scope.
 parent_skill: amos-c05-mind-behavior-master
 domain: mind_behavior
 origin_architect: Trang Phan
 epistemic_class: AMOS_MODEL
 tags:
-- type/skill
-- type/skill
-- domain/mind-behavior
-- epistemic/source_claim
-- hml/m
-- epistemic/amos_model
-- amos-os
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/mind-behavior
+  - epistemic/source_claim
+  - hml/m
+  - epistemic/amos_model
+  - amos-os
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -40,20 +29,20 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: M
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L16
-- L17
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L16
+  - L17
 license: MIT
 steward: Trang Phan
 ---
@@ -63,7 +52,9 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: mind_behavior. Parent: amos-c05-mind-behavior-master. Epistemic class: AMOS_MODEL. H/M/L: M.
+
 ## When to Use
+
 - When an AMOS agent must decide whether to update beliefs, gather information, act, continue observing, or stop
 - When prediction-error minimization could conflict with truth, safety, authority, or user intent
 - When perception and action form a feedback loop requiring governed selection
@@ -86,8 +77,7 @@ Origin architect: **Trang Phan**. Domain: mind_behavior. Parent: amos-c05-mind-b
 - **aig.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **aig.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
-
-# Epistemic Firewall
+## Epistemic Firewall
 
 Use:
 
@@ -123,17 +113,19 @@ BELIEF_UPDA
 ## Examples
 
 - **Scenario**: When an AMOS agent must decide whether to update beliefs, gather information, act, continue observing, or stop
+
   - **Input**: A query matching this skill's domain (mind_behavior)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When prediction-error minimization could conflict with truth, safety, authority, or user intent
+
   - **Input**: A query matching this skill's domain (mind_behavior)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When perception and action form a feedback loop requiring governed selection
+
   - **Input**: A query matching this skill's domain (mind_behavior)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Validation Gates
 
@@ -150,7 +142,6 @@ BELIEF_UPDA
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `amos-c05-mind-behavior-master` — routes to this skill when mind_behavior specialization is needed
@@ -158,7 +149,6 @@ BELIEF_UPDA
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -177,7 +167,6 @@ BELIEF_UPDA
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -185,7 +174,6 @@ BELIEF_UPDA
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -198,11 +186,12 @@ BELIEF_UPDA
 
 - `references/pragmatic_action.md` — loaded on demand
 - `references/references_MOC.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `amos-c05-mind-behavior-master` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `amos-active-inference-governor-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -210,13 +199,14 @@ BELIEF_UPDA
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-active-inference-governor
 node_type: skill
 path: 07_SKILLS/amos-active-inference-governor/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
-

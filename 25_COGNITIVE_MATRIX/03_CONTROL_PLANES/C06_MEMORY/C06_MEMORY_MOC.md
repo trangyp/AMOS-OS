@@ -1,29 +1,32 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: C06 Memory MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C06_MEMORY
 tags:
-- c06-memory
-- domain/cognitive-matrix
-- cognitive-matrix-authority
-- cognitive-matrix-decision-rules
-- cognitive-matrix-observability
-- cognitive-matrix-policies
-- cognitive-matrix-scope
-- control-planes-cognitive-matrix-agents
-- control-planes-cognitive-matrix-definition
-- control-planes-cognitive-matrix-dependencies
-- control-planes-cognitive-matrix-failure-modes
-- control-planes-cognitive-matrix-gap-matrix
-- control-planes-cognitive-matrix-invariants
-- control-planes-cognitive-matrix-protocols
-- control-planes-cognitive-matrix-provenance
-- control-planes-cognitive-matrix-repair
-- control-planes-cognitive-matrix-rscf
-- control-planes-cognitive-matrix-skills
-- control-planes-cognitive-matrix-state
-- control-planes-cognitive-matrix-tests
-- control-planes-cognitive-matrix-workflows
+  - c06-memory
+  - domain/cognitive-matrix
+  - cognitive-matrix-authority
+  - cognitive-matrix-decision-rules
+  - cognitive-matrix-observability
+  - cognitive-matrix-policies
+  - cognitive-matrix-scope
+  - control-planes-cognitive-matrix-agents
+  - control-planes-cognitive-matrix-definition
+  - control-planes-cognitive-matrix-dependencies
+  - control-planes-cognitive-matrix-failure-modes
+  - control-planes-cognitive-matrix-gap-matrix
+  - control-planes-cognitive-matrix-invariants
+  - control-planes-cognitive-matrix-protocols
+  - control-planes-cognitive-matrix-provenance
+  - control-planes-cognitive-matrix-repair
+  - control-planes-cognitive-matrix-rscf
+  - control-planes-cognitive-matrix-skills
+  - control-planes-cognitive-matrix-state
+  - control-planes-cognitive-matrix-tests
+  - control-planes-cognitive-matrix-workflows
 moc: true
 rscf:
   state: DERIVED
@@ -65,5 +68,6 @@ rscf:
 
 - [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]] — 00_INDEX
 
----
+______________________________________________________________________
+
 **Parent:** [[25_COGNITIVE_MATRIX/03_CONTROL_PLANES/03_CONTROL_PLANES_MOC|03_CONTROL_PLANES_MOC]]

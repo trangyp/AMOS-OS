@@ -1,10 +1,13 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: 03 Control Planes MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES
 tags:
-- 03-control-planes
-- domain/cognitive-matrix
+  - 03-control-planes
+  - domain/cognitive-matrix
 moc: true
 rscf:
   state: DERIVED
@@ -36,5 +39,6 @@ rscf:
 - [[25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C08_EXECUTION/C08_EXECUTION_MOC|C08_EXECUTION_MOC]] — C08_EXECUTION
 - [[25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C09_KERNEL_CONTROL/C09_KERNEL_CONTROL_MOC|C09_KERNEL_CONTROL_MOC]] — C09_KERNEL_CONTROL
 
----
+______________________________________________________________________
+
 **Parent:** [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]

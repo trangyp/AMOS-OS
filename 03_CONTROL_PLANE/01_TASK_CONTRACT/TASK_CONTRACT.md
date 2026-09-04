@@ -1,12 +1,15 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: TASK CONTRACT
 type: task
 source: 03_CONTROL_PLANE/01_TASK_CONTRACT
 tags:
-- control-plane
-- task_contract
-- contract
-- canon/control-plane
+  - control-plane
+  - task_contract
+  - contract
+  - canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -26,9 +29,9 @@ rscf:
 >
 > **Origin Architect:** Trang Phan
 
----
+______________________________________________________________________
 
-# 0. Purpose
+## 0. Purpose
 
 The Task Contract is the canonical Control Plane representation of a bounded
 piece of requested work.
@@ -84,9 +87,9 @@ and:
 CONTROLLED EXECUTION
 ```
 
----
+______________________________________________________________________
 
-# 1. Core Law
+## 1. Core Law
 
 ```text
 NO CONSEQUENTIAL EXECUTION
@@ -115,9 +118,9 @@ CONTROL-PLANE RESOLUTION
 
 A request is not automatically a valid Task Contract.
 
----
+______________________________________________________________________
 
-# 2. Fundamental Distinctions
+## 2. Fundamental Distinctions
 
 The following must remain separate:
 
@@ -163,9 +166,9 @@ RESOLVED INTENT
 UNLIMITED AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 3. Role in the Control Plane
+## 3. Role in the Control Plane
 
 The Task Contract is the first typed object consumed by downstream Control
 Plane components.
@@ -194,9 +197,9 @@ TASK_CONTRACT
 The Task Contract establishes the semantic boundary within which those
 systems operate.
 
----
+______________________________________________________________________
 
-# 4. Task Contract Principle
+## 4. Task Contract Principle
 
 A valid Task Contract must be:
 
@@ -224,9 +227,9 @@ INVALIDATABLE
 
 when those dimensions are material.
 
----
+______________________________________________________________________
 
-# 5. Canonical Conceptual Structure
+## 5. Canonical Conceptual Structure
 
 ```yaml
 TaskContract:
@@ -348,9 +351,9 @@ TaskContract:
 This schema is conceptual unless separately bound to an implementation
 schema.
 
----
+______________________________________________________________________
 
-# 6. Task Identity
+## 6. Task Identity
 
 Every governed task should have stable identity.
 
@@ -376,9 +379,9 @@ SESSION_ID
 These fields permit task lineage without assuming every runtime uses all
 identifiers.
 
----
+______________________________________________________________________
 
-# 7. Task ID
+## 7. Task ID
 
 `task_id` identifies one logical task instance.
 
@@ -398,9 +401,9 @@ unless explicitly versioned otherwise.
 
 Task IDs should not silently be reused for semantically unrelated work.
 
----
+______________________________________________________________________
 
-# 8. Task Version
+## 8. Task Version
 
 Tasks may evolve.
 
@@ -438,9 +441,9 @@ include external verification
 
 Those versions are not semantically identical.
 
----
+______________________________________________________________________
 
-# 9. Parent / Child Tasks
+## 9. Parent / Child Tasks
 
 Complex work may decompose:
 
@@ -466,9 +469,9 @@ AUTHORIZED_PARENT_SCOPE
 
 unless explicit expansion is separately authorized.
 
----
+______________________________________________________________________
 
-# 10. Task Origin
+## 10. Task Origin
 
 A Task Contract must retain where the task came from.
 
@@ -496,9 +499,9 @@ GOVERNANCE_ACTION
 
 Origin affects provenance and potentially authority.
 
----
+______________________________________________________________________
 
-# 11. Request Preservation
+## 11. Request Preservation
 
 The source request should remain recoverable where practical.
 
@@ -526,9 +529,9 @@ RESOLUTION
 
 so divergence can later be audited.
 
----
+______________________________________________________________________
 
-# 12. Objective
+## 12. Objective
 
 The objective defines the desired semantic outcome.
 
@@ -567,9 +570,9 @@ determine whether X satisfies conditions A, B, and C
 using evidence current to T
 ```
 
----
+______________________________________________________________________
 
-# 13. Primary Objective
+## 13. Primary Objective
 
 Every task should have one identifiable primary objective.
 
@@ -585,9 +588,9 @@ WHAT IS THIS TASK FUNDAMENTALLY TRYING TO ACHIEVE?
 
 If no answer exists, the task is under-specified.
 
----
+______________________________________________________________________
 
-# 14. Secondary Objectives
+## 14. Secondary Objectives
 
 Secondary objectives are subordinate goals.
 
@@ -605,9 +608,9 @@ COSMETIC PREFERENCES
 
 subject to hard constraints.
 
----
+______________________________________________________________________
 
-# 15. Objective Conflict
+## 15. Objective Conflict
 
 If objectives conflict:
 
@@ -634,9 +637,9 @@ ESCALATE
 
 depending on materiality.
 
----
+______________________________________________________________________
 
-# 16. Deliverable
+## 16. Deliverable
 
 The deliverable defines what must be produced.
 
@@ -670,9 +673,9 @@ PROOF CAPSULE
 
 The deliverable is not identical to the objective.
 
----
+______________________________________________________________________
 
-# 17. Objective vs Deliverable
+## 17. Objective vs Deliverable
 
 Example:
 
@@ -685,6 +688,7 @@ determine which option is safest
 DELIVERABLE:
 comparison table + recommendation
 ```
+
 Therefore:
 
 ```text
@@ -695,9 +699,9 @@ OUTPUT FORMAT
 
 The distinction must remain explicit.
 
----
+______________________________________________________________________
 
-# 18. Acceptance Criteria
+## 18. Acceptance Criteria
 
 A deliverable should define what qualifies as acceptable.
 
@@ -716,9 +720,9 @@ acceptance_criteria:
 
 Acceptance criteria should be testable where possible.
 
----
+______________________________________________________________________
 
-# 19. Scope
+## 19. Scope
 
 Scope defines the applicability envelope of the task.
 
@@ -748,9 +752,9 @@ Not every task requires every dimension.
 
 Only material dimensions should be activated.
 
----
+______________________________________________________________________
 
-# 20. Included Scope
+## 20. Included Scope
 
 Explicitly define what is included.
 
@@ -766,9 +770,9 @@ scope:
 
 This prevents uncontrolled expansion.
 
----
+______________________________________________________________________
 
-# 21. Excluded Scope
+## 21. Excluded Scope
 
 Explicit exclusion is important.
 
@@ -784,9 +788,9 @@ scope:
 
 An excluded item must not silently enter the conclusion as a premise.
 
----
+______________________________________________________________________
 
-# 22. Scope Expansion
+## 22. Scope Expansion
 
 Scope expansion is a semantic task mutation.
 
@@ -810,9 +814,9 @@ or a child task.
 
 It should not occur invisibly.
 
----
+______________________________________________________________________
 
-# 23. Scope Contraction
+## 23. Scope Contraction
 
 Scope may also contract.
 
@@ -824,9 +828,9 @@ REMOVE OUT-OF-SCOPE DEPENDENCIES
 
 and invalidate conclusions that relied on removed scope where necessary.
 
----
+______________________________________________________________________
 
-# 24. Regime Scope
+## 24. Regime Scope
 
 A task may only be valid under a specific regime.
 
@@ -850,9 +854,9 @@ organizational state
 
 A regime shift may invalidate the Task Contract.
 
----
+______________________________________________________________________
 
-# 25. Temporal Scope
+## 25. Temporal Scope
 
 The task should identify relevant time semantics.
 
@@ -884,9 +888,9 @@ has different freshness requirements from:
 what was documented in v3.0?
 ```
 
----
+______________________________________________________________________
 
-# 26. Inputs
+## 26. Inputs
 
 Task inputs are the resources required or permitted for resolution.
 
@@ -922,9 +926,9 @@ runtime state
 canonical artifacts
 ```
 
----
+______________________________________________________________________
 
-# 27. Required Inputs
+## 27. Required Inputs
 
 If a required input is missing:
 
@@ -950,9 +954,9 @@ RETURN UNKNOWN/GAP
 
 Do not invent the missing input.
 
----
+______________________________________________________________________
 
-# 28. Optional Inputs
+## 28. Optional Inputs
 
 Optional inputs may improve quality but are not load-bearing.
 
@@ -964,9 +968,9 @@ TASK MAY STILL COMPLETE
 
 provided acceptance criteria remain satisfied.
 
----
+______________________________________________________________________
 
-# 29. Prohibited Inputs
+## 29. Prohibited Inputs
 
 Some inputs must not be used.
 
@@ -992,9 +996,9 @@ user instruction
 
 The Task Contract should preserve such restrictions.
 
----
+______________________________________________________________________
 
-# 30. Assumptions
+## 30. Assumptions
 
 Assumptions must be explicit when load-bearing.
 
@@ -1019,9 +1023,9 @@ Noncritical assumption:
 plausible changes do not materially alter the result
 ```
 
----
+______________________________________________________________________
 
-# 31. Assumption Ceiling
+## 31. Assumption Ceiling
 
 A derived conclusion cannot silently exceed the reliability of a
 load-bearing assumption.
@@ -1038,9 +1042,9 @@ MIN(
 
 unless independently revalidated.
 
----
+______________________________________________________________________
 
-# 32. Constraints
+## 32. Constraints
 
 Constraints define what execution must respect.
 
@@ -1064,9 +1068,9 @@ Soft constraint:
 OPTIMIZE IF POSSIBLE
 ```
 
----
+______________________________________________________________________
 
-# 33. Hard Constraints
+## 33. Hard Constraints
 
 Examples:
 
@@ -1086,9 +1090,9 @@ MUST PRESERVE CANONICAL TERMINOLOGY
 
 Hard constraints dominate ordinary optimization preferences.
 
----
+______________________________________________________________________
 
-# 34. Soft Constraints
+## 34. Soft Constraints
 
 Examples:
 
@@ -1110,9 +1114,9 @@ Soft constraints may be traded against one another.
 
 They may not override hard integrity constraints.
 
----
+______________________________________________________________________
 
-# 35. Constraint Hierarchy
+## 35. Constraint Hierarchy
 
 Conceptually:
 
@@ -1130,9 +1134,9 @@ OPTIMIZATION
 
 Exact law hierarchy remains governed by upstream canon.
 
----
+______________________________________________________________________
 
-# 36. Constraint Conflict
+## 36. Constraint Conflict
 
 If:
 
@@ -1158,9 +1162,9 @@ DETERMINE PRECEDENCE IF CANONICAL
 OTHERWISE ESCALATE / PRESERVE GAP
 ```
 
----
+______________________________________________________________________
 
-# 37. Freshness
+## 37. Freshness
 
 Tasks that depend on mutable state require freshness semantics.
 
@@ -1175,9 +1179,9 @@ freshness:
   refresh_trigger:
 ```
 
----
+______________________________________________________________________
 
-# 38. Freshness Is Local
+## 38. Freshness Is Local
 
 Not every premise has the same freshness requirement.
 
@@ -1203,9 +1207,9 @@ IS
 PREMISE-SPECIFIC
 ```
 
----
+______________________________________________________________________
 
-# 39. Freshness Failure
+## 39. Freshness Failure
 
 If a load-bearing premise exceeds its freshness bound:
 
@@ -1221,9 +1225,9 @@ INVALIDATE DEPENDENT CONCLUSIONS
 
 not necessarily the entire task.
 
----
+______________________________________________________________________
 
-# 40. Stakes
+## 40. Stakes
 
 The Task Contract should classify stakes where they affect governance depth.
 
@@ -1249,9 +1253,9 @@ INFORMATION EXPOSURE
 DOWNSTREAM DEPENDENCY
 ```
 
----
+______________________________________________________________________
 
-# 41. Stakes Are Multi-Dimensional
+## 41. Stakes Are Multi-Dimensional
 
 Do not reduce all stakes to one number when dimensions matter.
 
@@ -1267,9 +1271,9 @@ stakes:
 
 may require different governance than a simple `MEDIUM` label suggests.
 
----
+______________________________________________________________________
 
-# 42. Irreversibility
+## 42. Irreversibility
 
 Irreversibility increases required validation.
 
@@ -1285,9 +1289,9 @@ IRREVERSIBILITY
 
 all else equal.
 
----
+______________________________________________________________________
 
-# 43. Reversible Preference
+## 43. Reversible Preference
 
 When two paths satisfy the objective:
 
@@ -1305,9 +1309,9 @@ PREFER B
 
 under unresolved uncertainty.
 
----
+______________________________________________________________________
 
-# 44. Uncertainty Vector
+## 44. Uncertainty Vector
 
 Material uncertainty should not be collapsed into one vague confidence score.
 
@@ -1329,9 +1333,9 @@ EXECUTION UNCERTAINTY
 PROVENANCE-INDEPENDENCE UNCERTAINTY
 ```
 
----
+______________________________________________________________________
 
-# 45. Evidence Uncertainty
+## 45. Evidence Uncertainty
 
 Question:
 
@@ -1343,9 +1347,9 @@ This differs from model uncertainty.
 
 Strong evidence may still support multiple models.
 
----
+______________________________________________________________________
 
-# 46. Model Uncertainty
+## 46. Model Uncertainty
 
 Question:
 
@@ -1363,9 +1367,9 @@ unknown model misspecification
 insufficient abstraction fit
 ```
 
----
+______________________________________________________________________
 
-# 47. Scope Uncertainty
+## 47. Scope Uncertainty
 
 Question:
 
@@ -1375,9 +1379,9 @@ DOES THE EVIDENCE APPLY TO THIS TASK'S ACTUAL SCOPE?
 
 Scope uncertainty prevents silent generalization.
 
----
+______________________________________________________________________
 
-# 48. Temporal Uncertainty
+## 48. Temporal Uncertainty
 
 Question:
 
@@ -1387,9 +1391,9 @@ IS THE EVIDENCE STILL CURRENT?
 
 This may trigger retrieval or commit-time revalidation.
 
----
+______________________________________________________________________
 
-# 49. Causal Uncertainty
+## 49. Causal Uncertainty
 
 Question:
 
@@ -1399,9 +1403,9 @@ DO WE KNOW THE CAUSAL RELATIONSHIP REQUIRED BY THE TASK?
 
 Association must not be silently upgraded to causation.
 
----
+______________________________________________________________________
 
-# 50. Execution Uncertainty
+## 50. Execution Uncertainty
 
 Question:
 
@@ -1411,9 +1415,9 @@ CAN THE PLANNED ACTION ACTUALLY PRODUCE THE INTENDED EFFECT?
 
 This concerns execution semantics rather than epistemic truth alone.
 
----
+______________________________________________________________________
 
-# 51. Provenance-Independence Uncertainty
+## 51. Provenance-Independence Uncertainty
 
 Question:
 
@@ -1424,9 +1428,9 @@ ARE MULTIPLE SUPPORTING SOURCES ACTUALLY INDEPENDENT?
 Repeated descendants of one origin do not constitute independent
 confirmation.
 
----
+______________________________________________________________________
 
-# 52. Gap Classification
+## 52. Gap Classification
 
 Task gaps should be classified:
 
@@ -1452,9 +1456,9 @@ EXPLANATORY
 COSMETIC
 ```
 
----
+______________________________________________________________________
 
-# 53. Critical Gap
+## 53. Critical Gap
 
 A critical gap prevents safe or valid completion.
 
@@ -1474,9 +1478,9 @@ hard constraint unresolved
 
 A critical gap generally blocks consequential execution.
 
----
+______________________________________________________________________
 
-# 54. Decision-Relevant Gap
+## 54. Decision-Relevant Gap
 
 A gap is decision-relevant when resolving it could flip:
 
@@ -1494,17 +1498,17 @@ EFFECT
 
 Such gaps deserve priority.
 
----
+______________________________________________________________________
 
-# 55. Explanatory Gap
+## 55. Explanatory Gap
 
 An explanatory gap affects understanding but not the decision.
 
 It may remain unresolved if further investigation has low decision value.
 
----
+______________________________________________________________________
 
-# 56. Cosmetic Gap
+## 56. Cosmetic Gap
 
 A cosmetic gap affects presentation but not substance.
 
@@ -1520,9 +1524,9 @@ optional metadata
 
 Do not spend high-cost reasoning on cosmetic gaps before critical ones.
 
----
+______________________________________________________________________
 
-# 57. Decision-Changing Uncertainty
+## 57. Decision-Changing Uncertainty
 
 The Task Contract should identify:
 
@@ -1534,9 +1538,9 @@ IS MOST LIKELY TO CHANGE THE OUTCOME?
 
 This drives efficient retrieval and reasoning.
 
----
+______________________________________________________________________
 
-# 58. Sensitivity
+## 58. Sensitivity
 
 For consequential tasks, identify the smallest premise or threshold capable
 of flipping the result.
@@ -1559,9 +1563,9 @@ in conceptual terms.
 
 Test that premise first when feasible.
 
----
+______________________________________________________________________
 
-# 59. Fragility
+## 59. Fragility
 
 A task result is fragile when small plausible perturbations in a
 load-bearing premise change the outcome.
@@ -1574,9 +1578,9 @@ CONDITIONAL
 
 rather than presenting the result as robust.
 
----
+______________________________________________________________________
 
-# 60. Robustness
+## 60. Robustness
 
 A result is more robust when it survives plausible changes to noncritical
 assumptions.
@@ -1585,9 +1589,9 @@ Robustness does not imply universal validity.
 
 It remains bounded by task scope and regime.
 
----
+______________________________________________________________________
 
-# 61. Effect Envelope
+## 61. Effect Envelope
 
 The Task Contract should anticipate what kinds of effects are allowed.
 
@@ -1610,9 +1614,9 @@ effects:
 
 Actual effect classification remains downstream.
 
----
+______________________________________________________________________
 
-# 62. Effect Expansion
+## 62. Effect Expansion
 
 If execution discovers a required effect outside the Task Contract:
 
@@ -1641,9 +1645,9 @@ ESCALATE
 
 as appropriate.
 
----
+______________________________________________________________________
 
-# 63. Side Effects
+## 63. Side Effects
 
 The task should identify known material side effects.
 
@@ -1657,9 +1661,9 @@ UNKNOWN
 
 when necessary.
 
----
+______________________________________________________________________
 
-# 64. Authority Anticipation
+## 64. Authority Anticipation
 
 The Task Contract does not itself grant authority.
 
@@ -1676,9 +1680,9 @@ authority:
 
 Actual authorization belongs to the authority subsystem.
 
----
+______________________________________________________________________
 
-# 65. Task Contract ≠ Authorization
+## 65. Task Contract ≠ Authorization
 
 Critical invariant:
 
@@ -1690,9 +1694,9 @@ AUTHORIZED EXECUTION
 
 A perfectly specified task may still be denied.
 
----
+______________________________________________________________________
 
-# 66. Capability Anticipation
+## 66. Capability Anticipation
 
 The Task Contract may specify required semantic capabilities.
 
@@ -1710,9 +1714,9 @@ SEND MESSAGE
 
 Capability resolution determines whether such capabilities exist.
 
----
+______________________________________________________________________
 
-# 67. Task Contract ≠ Capability
+## 67. Task Contract ≠ Capability
 
 Likewise:
 
@@ -1728,9 +1732,9 @@ SYSTEM CAN DO X
 
 The distinction must remain explicit.
 
----
+______________________________________________________________________
 
-# 68. Dependencies
+## 68. Dependencies
 
 A task may depend on:
 
@@ -1752,9 +1756,9 @@ EXTERNAL SYSTEMS
 
 Dependencies should be explicit when load-bearing.
 
----
+______________________________________________________________________
 
-# 69. Dependency Closure
+## 69. Dependency Closure
 
 Before local fast-path execution, the system should know the material
 dependency closure.
@@ -1771,9 +1775,9 @@ D2
 
 If `D2` can materially alter the task result, it belongs in the closure.
 
----
+______________________________________________________________________
 
-# 70. Hidden Dependency
+## 70. Hidden Dependency
 
 A hidden dependency is a load-bearing dependency not represented in the
 contract.
@@ -1788,9 +1792,9 @@ but policy version is not tracked.
 
 Hidden dependencies create stale-result risk.
 
----
+______________________________________________________________________
 
-# 71. Dependency Independence
+## 71. Dependency Independence
 
 Independent subtasks may execute locally or concurrently when independence is
 demonstrated.
@@ -1805,9 +1809,9 @@ INDEPENDENT TASK
 
 Shared provenance, state, authority, or effects may couple them.
 
----
+______________________________________________________________________
 
-# 72. Competing Hypotheses
+## 72. Competing Hypotheses
 
 Some tasks require evaluating incompatible hypotheses.
 
@@ -1829,9 +1833,9 @@ COMPETING
 
 until discriminating evidence exists.
 
----
+______________________________________________________________________
 
-# 73. No Forced Convergence
+## 73. No Forced Convergence
 
 If support is:
 
@@ -1861,9 +1865,9 @@ UNKNOWN/GAP
 
 as appropriate.
 
----
+______________________________________________________________________
 
-# 74. Discriminating Test
+## 74. Discriminating Test
 
 When hypotheses compete, seek the cheapest high-information test capable of
 changing the outcome.
@@ -1880,9 +1884,9 @@ over:
 MORE REDUNDANT EVIDENCE
 ```
 
----
+______________________________________________________________________
 
-# 75. Causal Requirement
+## 75. Causal Requirement
 
 If the task asks a causal question, the contract should say so.
 
@@ -1894,9 +1898,9 @@ objective_class: CAUSAL
 
 Then evidence requirements differ from descriptive or predictive tasks.
 
----
+______________________________________________________________________
 
-# 76. Causal Firewall
+## 76. Causal Firewall
 
 The Task Contract must not allow a downstream process to silently substitute:
 
@@ -1936,9 +1940,9 @@ FEEDBACK
 CAUSAL EFFECT
 ```
 
----
+______________________________________________________________________
 
-# 77. Epistemic Requirement
+## 77. Epistemic Requirement
 
 A task may require a specific conclusion class.
 
@@ -1960,25 +1964,25 @@ UNKNOWN/GAP
 
 The system must use the weakest accurate class.
 
----
+______________________________________________________________________
 
-# 78. Verified
+## 78. Verified
 
 Use `VERIFIED` only where the required claim has appropriate direct
 validation within its scope.
 
 Do not use `VERIFIED` merely because a source asserts something.
 
----
+______________________________________________________________________
 
-# 79. Derived
+## 79. Derived
 
 Use `DERIVED` when the conclusion follows from supported premises but is not
 itself directly observed or validated.
 
----
+______________________________________________________________________
 
-# 80. Model
+## 80. Model
 
 Use `MODEL` for:
 
@@ -1996,9 +2000,9 @@ proposed mechanism
 
 unless independently validated.
 
----
+______________________________________________________________________
 
-# 81. Conditional
+## 81. Conditional
 
 Use `CONDITIONAL` when:
 
@@ -2009,15 +2013,15 @@ THEN C
 
 and `P` remains uncertain, bounded, or regime-specific.
 
----
+______________________________________________________________________
 
-# 82. Competing
+## 82. Competing
 
 Use `COMPETING` when incompatible hypotheses remain materially viable.
 
----
+______________________________________________________________________
 
-# 83. Unknown / Gap
+## 83. Unknown / Gap
 
 Use:
 
@@ -2029,9 +2033,9 @@ when evidence is insufficient.
 
 This is a valid Task Contract outcome.
 
----
+______________________________________________________________________
 
-# 84. Proof Requirement
+## 84. Proof Requirement
 
 Important task conclusions should conceptually carry a proof capsule.
 
@@ -2053,9 +2057,9 @@ proof_capsule:
   confidence_ceiling:
 ```
 
----
+______________________________________________________________________
 
-# 85. Proof Capsule Reuse
+## 85. Proof Capsule Reuse
 
 A prior proof capsule may be reused only while:
 
@@ -2075,9 +2079,9 @@ NO MATERIAL CONFLICT
 
 remain true.
 
----
+______________________________________________________________________
 
-# 86. Task Mutation
+## 86. Task Mutation
 
 A Task Contract changes when a load-bearing field changes.
 
@@ -2103,9 +2107,9 @@ FRESHNESS CHANGE
 
 Material mutation should increment task version or generate a successor task.
 
----
+______________________________________________________________________
 
-# 87. Non-Material Mutation
+## 87. Non-Material Mutation
 
 Changes such as:
 
@@ -2121,9 +2125,9 @@ may not require semantic task version changes.
 
 Implementation-specific version policy belongs elsewhere.
 
----
+______________________________________________________________________
 
-# 88. Task Supersession
+## 88. Task Supersession
 
 A task may supersede an earlier task.
 
@@ -2145,9 +2149,9 @@ PRESERVED DEPENDENCIES
 
 Do not erase the historical contract.
 
----
+______________________________________________________________________
 
-# 89. Task Cancellation
+## 89. Task Cancellation
 
 Cancellation means:
 
@@ -2160,9 +2164,9 @@ It does not automatically reverse effects already committed.
 
 Those require recovery/rollback semantics.
 
----
+______________________________________________________________________
 
-# 90. Task Expiration
+## 90. Task Expiration
 
 A Task Contract may expire.
 
@@ -2182,9 +2186,9 @@ input state changed materially
 
 Expiration should block stale execution where material.
 
----
+______________________________________________________________________
 
-# 91. Task State
+## 91. Task State
 
 Candidate conceptual states:
 
@@ -2216,22 +2220,22 @@ SUPERSEDED
 
 These labels remain candidate states unless separately registered.
 
----
+______________________________________________________________________
 
-# 92. Draft
+## 92. Draft
 
 `DRAFT` means the contract exists but is not yet sufficient for governed
 execution.
 
----
+______________________________________________________________________
 
-# 93. Resolving
+## 93. Resolving
 
 `RESOLVING` means ambiguity or dependencies are still being resolved.
 
----
+______________________________________________________________________
 
-# 94. Ready
+## 94. Ready
 
 `READY` means Task Contract sufficiency has been achieved.
 
@@ -2241,74 +2245,74 @@ It does not mean:
 COMMIT AUTHORIZED
 ```
 
----
+______________________________________________________________________
 
-# 95. Blocked
+## 95. Blocked
 
 `BLOCKED` means at least one load-bearing gap prevents progression.
 
 A blocked contract should identify the blocker.
 
----
+______________________________________________________________________
 
-# 96. Active
+## 96. Active
 
 `ACTIVE` means downstream work is occurring under the contract.
 
----
+______________________________________________________________________
 
-# 97. Waiting
+## 97. Waiting
 
 `WAITING` means progress depends on an external condition or unresolved
 dependency.
 
----
+______________________________________________________________________
 
-# 98. Revalidation Required
+## 98. Revalidation Required
 
 Use when previously valid task state may have become stale.
 
----
+______________________________________________________________________
 
-# 99. Completed
+## 99. Completed
 
 `COMPLETED` means the Task Contract's defined completion conditions have been
 met.
 
 It does not necessarily mean every possible related activity is finished.
 
----
+______________________________________________________________________
 
-# 100. Failed
+## 100. Failed
 
 A task fails when required completion cannot be achieved under the active
 contract.
 
 Failure should retain reason and recoverability.
 
----
+______________________________________________________________________
 
-# 101. Cancelled
+## 101. Cancelled
 
 Cancelled tasks should not continue effectful execution.
 
 Already committed effects remain separately governed.
 
----
+______________________________________________________________________
 
-# 102. Expired
+## 102. Expired
 
 Expired means temporal validity has ended.
 
----
+______________________________________________________________________
 
-# 103. Superseded
+## 103. Superseded
 
 Superseded means another Task Contract now governs the intended work.
 
----
+______________________________________________________________________
 
-# 104. Completion Model
+## 104. Completion Model
 
 AMOS task completion should distinguish:
 
@@ -2320,9 +2324,9 @@ DECISION SUFFICIENCY
 ACTION SUFFICIENCY
 ```
 
----
+______________________________________________________________________
 
-# 105. Claim Sufficiency
+## 105. Claim Sufficiency
 
 Question:
 
@@ -2333,9 +2337,9 @@ TO STATE THE REQUIRED CLAIM?
 
 A research task may stop here.
 
----
+______________________________________________________________________
 
-# 106. Decision Sufficiency
+## 106. Decision Sufficiency
 
 Question:
 
@@ -2347,9 +2351,9 @@ TO CHOOSE BETWEEN RELEVANT OPTIONS?
 Perfect knowledge is not required if further uncertainty reduction would not
 change the decision.
 
----
+______________________________________________________________________
 
-# 107. Action Sufficiency
+## 107. Action Sufficiency
 
 Question:
 
@@ -2362,9 +2366,9 @@ TO ACT?
 
 This is stricter than claim sufficiency.
 
----
+______________________________________________________________________
 
-# 108. Completion Condition
+## 108. Completion Condition
 
 A task should specify explicit completion conditions.
 
@@ -2380,9 +2384,9 @@ completion_conditions:
   - no consequential effect requested
 ```
 
----
+______________________________________________________________________
 
-# 109. Stop Rule
+## 109. Stop Rule
 
 Stop expanding the task when:
 
@@ -2399,9 +2403,9 @@ required by the task has been reached.
 Do not retrieve or reason indefinitely merely because more information
 exists.
 
----
+______________________________________________________________________
 
-# 110. Smallest Sufficient Proof Scope
+## 110. Smallest Sufficient Proof Scope
 
 AMOS v4.4 principle:
 
@@ -2418,9 +2422,9 @@ LOAD ONLY DECISION-RELEVANT DEPENDENCIES
 
 rather than the entire knowledge universe.
 
----
+______________________________________________________________________
 
-# 111. H/M/L Retrieval Contract
+## 111. H/M/L Retrieval Contract
 
 Where AMOS Fractal Knowledge Network retrieval is used:
 
@@ -2445,9 +2449,9 @@ DO_NOT_LOAD_UNLESS_REQUIRED
 
 The Task Contract should indicate the depth required when material.
 
----
+______________________________________________________________________
 
-# 112. Retrieval Escalation
+## 112. Retrieval Escalation
 
 Escalate retrieval when:
 
@@ -2467,9 +2471,9 @@ HIGH-STAKES EFFECT
 CAUSAL CLAIM REQUIRES SUPPORT
 ```
 
----
+______________________________________________________________________
 
-# 113. Retrieval De-Escalation
+## 113. Retrieval De-Escalation
 
 Stop deeper retrieval once additional evidence cannot materially change:
 
@@ -2483,9 +2487,9 @@ ACTION
 
 within the Task Contract.
 
----
+______________________________________________________________________
 
-# 114. Adaptive Complexity
+## 114. Adaptive Complexity
 
 Candidate task complexity classes:
 
@@ -2503,9 +2507,9 @@ C4 MAXIMUM
 
 Start at the lowest sufficient level.
 
----
+______________________________________________________________________
 
-# 115. Complexity Escalation
+## 115. Complexity Escalation
 
 Escalate for:
 
@@ -2535,9 +2539,9 @@ LOW TRUST
 EXPLICIT DEEP REQUEST
 ```
 
----
+______________________________________________________________________
 
-# 116. Complexity De-Escalation
+## 116. Complexity De-Escalation
 
 Once outcome-changing uncertainty is resolved:
 
@@ -2547,9 +2551,9 @@ DE-ESCALATE
 
 Do not retain maximum reasoning depth without decision value.
 
----
+______________________________________________________________________
 
-# 117. Task Budget
+## 117. Task Budget
 
 A task may carry resource budgets.
 
@@ -2568,9 +2572,9 @@ budget:
 
 Budget is subordinate to hard integrity requirements.
 
----
+______________________________________________________________________
 
-# 118. Budget Exhaustion
+## 118. Budget Exhaustion
 
 If budget becomes insufficient:
 
@@ -2590,9 +2594,9 @@ CLASSIFY REMAINING GAP
 
 where allowed.
 
----
+______________________________________________________________________
 
-# 119. Partial Completion
+## 119. Partial Completion
 
 Partial completion must be explicit.
 
@@ -2610,9 +2614,9 @@ completion:
 
 Never present partial work as total completion.
 
----
+______________________________________________________________________
 
-# 120. Task Delegation
+## 120. Task Delegation
 
 A task may be delegated.
 
@@ -2634,9 +2638,9 @@ EXPECTED OUTPUT
 RETURN CONTRACT
 ```
 
----
+______________________________________________________________________
 
-# 121. Delegation Narrowing
+## 121. Delegation Narrowing
 
 A delegated subtask may be narrower than its parent.
 
@@ -2652,9 +2656,9 @@ PARENT_TASK_SCOPE
 
 unless separately authorized.
 
----
+______________________________________________________________________
 
-# 122. Return Contract
+## 122. Return Contract
 
 A delegated task should define what must return.
 
@@ -2678,9 +2682,9 @@ EFFECT STATE
 
 This prevents agents from returning only fluent conclusions without support.
 
----
+______________________________________________________________________
 
-# 123. Multi-Agent Task Contract
+## 123. Multi-Agent Task Contract
 
 For multi-agent work:
 
@@ -2703,9 +2707,9 @@ multi_agent:
 The coordinator must not assume agents are independent merely because they
 are separate agents.
 
----
+______________________________________________________________________
 
-# 124. Atomic Multi-Task Reasoning
+## 124. Atomic Multi-Task Reasoning
 
 Several subtasks may need to be treated atomically when their conclusions
 share load-bearing state.
@@ -2725,9 +2729,9 @@ V1/V2 compatibility
 
 must be established.
 
----
+______________________________________________________________________
 
-# 125. Task Snapshot
+## 125. Task Snapshot
 
 A consequential task should be bound to an appropriate state snapshot.
 
@@ -2745,9 +2749,9 @@ snapshot:
 
 Not every task needs all fields.
 
----
+______________________________________________________________________
 
-# 126. MVCC/CAS Pattern
+## 126. MVCC/CAS Pattern
 
 AMOS may use MVCC/CAS concepts as reasoning patterns.
 
@@ -2776,9 +2780,9 @@ REVALIDATE DEPENDENT CLOSURE
 
 This specification does not claim a particular database implementation.
 
----
+______________________________________________________________________
 
-# 127. Task Read Set
+## 127. Task Read Set
 
 The Task Contract may identify expected evidence dependencies.
 
@@ -2792,9 +2796,9 @@ EXPECTED INPUT SET
 OBSERVED READ SET
 ```
 
----
+______________________________________________________________________
 
-# 128. Provenance Requirement
+## 128. Provenance Requirement
 
 Important task inputs should preserve:
 
@@ -2818,9 +2822,9 @@ DEPENDENCY ROLE
 
 where material.
 
----
+______________________________________________________________________
 
-# 129. Source Claim vs Observation
+## 129. Source Claim vs Observation
 
 The Task Contract must allow downstream reasoning to distinguish:
 
@@ -2840,9 +2844,9 @@ UNKNOWN
 
 A source assertion is not automatically an observation.
 
----
+______________________________________________________________________
 
-# 130. Correlated Provenance
+## 130. Correlated Provenance
 
 Multiple sources may share ancestry.
 
@@ -2863,9 +2867,9 @@ B + C + D
 
 does not necessarily equal three independent confirmations.
 
----
+______________________________________________________________________
 
-# 131. Sybil Resistance
+## 131. Sybil Resistance
 
 Task evidence counting must not treat identity multiplication as evidence
 multiplication.
@@ -2878,9 +2882,9 @@ MANY INDEPENDENT ORIGINS
 
 when ancestry is shared.
 
----
+______________________________________________________________________
 
-# 132. Conflict Preservation
+## 132. Conflict Preservation
 
 If task evidence contains unresolved contradictions:
 
@@ -2891,9 +2895,9 @@ DO NOT HIDE THEM
 The Task Contract result should expose contradictions that can alter the
 outcome.
 
----
+______________________________________________________________________
 
-# 133. Contradiction Classes
+## 133. Contradiction Classes
 
 Potential task-level contradiction classes:
 
@@ -2919,9 +2923,9 @@ PROVENANCE
 
 Different contradictions require different resolution paths.
 
----
+______________________________________________________________________
 
-# 134. Adversarial Validation
+## 134. Adversarial Validation
 
 Consequential task conclusions should be challenged using a genuinely
 different path.
@@ -2944,9 +2948,9 @@ CAUSAL OVERREACH
 STRONGER ALTERNATIVE
 ```
 
----
+______________________________________________________________________
 
-# 135. Challenge Success
+## 135. Challenge Success
 
 If adversarial validation succeeds:
 
@@ -2963,9 +2967,9 @@ RETURN UNKNOWN/GAP
 
 Do not defend the original conclusion merely because it was generated first.
 
----
+______________________________________________________________________
 
-# 136. Challenge Failure
+## 136. Challenge Failure
 
 Failure to find a contradiction is not proof.
 
@@ -2977,9 +2981,9 @@ VERIFIED
 
 Conclusion class remains governed by actual evidence.
 
----
+______________________________________________________________________
 
-# 137. Task Safety Envelope
+## 137. Task Safety Envelope
 
 A task should preserve an action safety envelope.
 
@@ -2996,9 +3000,9 @@ safety_envelope:
 
 This is not a replacement for policy or authority.
 
----
+______________________________________________________________________
 
-# 138. Information Exposure
+## 138. Information Exposure
 
 If a task can disclose information, exposure becomes part of the contract.
 
@@ -3015,9 +3019,9 @@ information_exposure:
 
 Actual exposure governance remains downstream.
 
----
+______________________________________________________________________
 
-# 139. Privacy Boundary
+## 139. Privacy Boundary
 
 The Task Contract should not expand information use beyond what the task
 requires.
@@ -3030,9 +3034,9 @@ MINIMUM NECESSARY INFORMATION
 
 should be preferred when equivalent.
 
----
+______________________________________________________________________
 
-# 140. Execution Environment
+## 140. Execution Environment
 
 Tasks may be environment-specific.
 
@@ -3050,9 +3054,9 @@ environment:
 
 Environment mismatch may invalidate an execution plan.
 
----
+______________________________________________________________________
 
-# 141. Dry Run
+## 141. Dry Run
 
 A task may require:
 
@@ -3062,9 +3066,9 @@ DRY_RUN_ONLY
 
 A dry-run task must not silently transition into real effect.
 
----
+______________________________________________________________________
 
-# 142. Preview
+## 142. Preview
 
 A preview is informational.
 
@@ -3076,9 +3080,9 @@ COMMIT
 
 A downstream system must preserve that distinction.
 
----
+______________________________________________________________________
 
-# 143. Simulation
+## 143. Simulation
 
 Simulation output is:
 
@@ -3090,9 +3094,9 @@ unless separately validated against real execution.
 
 Simulation success does not authorize execution.
 
----
+______________________________________________________________________
 
-# 144. Tool Use
+## 144. Tool Use
 
 The Task Contract may permit tool use.
 
@@ -3112,9 +3116,9 @@ IRREVERSIBLE EFFECT
 
 where material.
 
----
+______________________________________________________________________
 
-# 145. Tool Success
+## 145. Tool Success
 
 Critical invariant:
 
@@ -3126,9 +3130,9 @@ TASK SUCCESS
 
 A tool can execute correctly while solving the wrong task.
 
----
+______________________________________________________________________
 
-# 146. External Finality
+## 146. External Finality
 
 For tasks involving external systems:
 
@@ -3144,9 +3148,9 @@ FINAL
 
 Completion conditions must specify the required finality level.
 
----
+______________________________________________________________________
 
-# 147. Retry
+## 147. Retry
 
 Retry must preserve task semantics.
 
@@ -3164,9 +3168,9 @@ CHANGE RELEVANT CONDITION
 RETRY
 ```
 
----
+______________________________________________________________________
 
-# 148. Idempotence
+## 148. Idempotence
 
 Where retries are possible, the Task Contract should indicate whether the
 effect is expected to be idempotent.
@@ -3183,9 +3187,9 @@ X
 
 is non-idempotent.
 
----
+______________________________________________________________________
 
-# 149. Recovery
+## 149. Recovery
 
 Tasks with consequential effects should anticipate recovery.
 
@@ -3207,9 +3211,9 @@ FORWARD RECOVERY
 SELECTIVE INVALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 150. Selective Invalidation
+## 150. Selective Invalidation
 
 If premise `P` fails:
 
@@ -3249,9 +3253,9 @@ PRESERVE C2
 
 unless other dependencies require otherwise.
 
----
+______________________________________________________________________
 
-# 151. Task Rollback Boundary
+## 151. Task Rollback Boundary
 
 Task rollback is distinct from effect rollback.
 
@@ -3269,9 +3273,9 @@ means changing external or persistent state.
 
 The latter requires separate governance.
 
----
+______________________________________________________________________
 
-# 152. Task Failure Recovery
+## 152. Task Failure Recovery
 
 Recovery sequence:
 
@@ -3293,9 +3297,9 @@ CONTINUE IF SUFFICIENT
 
 Global recomputation is a last resort.
 
----
+______________________________________________________________________
 
-# 153. Task Contract Validation
+## 153. Task Contract Validation
 
 Before marking a Task Contract `READY`, validate at minimum:
 
@@ -3317,9 +3321,9 @@ COMPLETION CONDITION
 
 and additional dimensions when material.
 
----
+______________________________________________________________________
 
-# 154. Structural Validation
+## 154. Structural Validation
 
 Check:
 
@@ -3335,9 +3339,9 @@ NO IMPOSSIBLE INTERNAL STATE
 
 Structural validity does not prove semantic validity.
 
----
+______________________________________________________________________
 
-# 155. Semantic Validation
+## 155. Semantic Validation
 
 Check:
 
@@ -3353,9 +3357,9 @@ CONSTRAINTS MATCH INTENT
 EFFECT ENVELOPE MATCHES INTENT
 ```
 
----
+______________________________________________________________________
 
-# 156. Provenance Validation
+## 156. Provenance Validation
 
 Check that material contract fields can be traced to their origin.
 
@@ -3375,9 +3379,9 @@ EFFECTS
 PARAMETERS
 ```
 
----
+______________________________________________________________________
 
-# 157. Conflict Validation
+## 157. Conflict Validation
 
 Check whether the contract contains mutually incompatible requirements.
 
@@ -3395,9 +3399,9 @@ MUST NOT CREATE EXTERNAL EFFECT
 
 cannot both hold without additional interpretation.
 
----
+______________________________________________________________________
 
-# 158. Feasibility Validation
+## 158. Feasibility Validation
 
 A task may be well specified but infeasible.
 
@@ -3411,9 +3415,9 @@ VALID_BUT_INFEASIBLE
 
 conceptually, rather than mutating the objective.
 
----
+______________________________________________________________________
 
-# 159. Authority Validation Boundary
+## 159. Authority Validation Boundary
 
 Task validation does not grant authority.
 
@@ -3431,9 +3435,9 @@ does not imply:
 EXECUTION_READY
 ```
 
----
+______________________________________________________________________
 
-# 160. Policy Validation Boundary
+## 160. Policy Validation Boundary
 
 Likewise:
 
@@ -3449,9 +3453,9 @@ POLICY_ALLOWED
 
 Policy is a separate decision.
 
----
+______________________________________________________________________
 
-# 161. Commit Boundary
+## 161. Commit Boundary
 
 The Task Contract contributes to commit validation.
 
@@ -3479,9 +3483,9 @@ TASK NOT SUPERSEDED
 
 where relevant.
 
----
+______________________________________________________________________
 
-# 162. Commit-Time Task Mutation
+## 162. Commit-Time Task Mutation
 
 If task semantics change after planning:
 
@@ -3505,9 +3509,9 @@ INVALIDATE AFFECTED PLAN
 REVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 163. Task Finality
+## 163. Task Finality
 
 A task reaches finality only according to its completion conditions.
 
@@ -3533,9 +3537,9 @@ EFFECT COMMITTED + REQUIRED RECEIPT OBSERVED
 
 The finality definition must match the task.
 
----
+______________________________________________________________________
 
-# 164. Task Result
+## 164. Task Result
 
 Conceptual result:
 
@@ -3574,9 +3578,9 @@ TaskResult:
   invalidation_conditions:
 ```
 
----
+______________________________________________________________________
 
-# 165. Task Result Integrity
+## 165. Task Result Integrity
 
 The result must not claim more than was achieved.
 
@@ -3593,26 +3597,30 @@ DERIVED
 →
 VERIFIED
 ```
+
 ```text
 SIMULATED
 →
 OBSERVED
 ```
+
 ```text
 REQUESTED
 →
 AUTHORIZED
 ```
+
 ```text
 SENT
 →
 RECEIVED
 ```
+
 without supporting evidence.
 
----
+______________________________________________________________________
 
-# 166. Task Contract Invariants
+## 166. Task Contract Invariants
 
 ```text
 TC-I01
@@ -3694,9 +3702,9 @@ OPTIMIZATION MUST NEVER WEAKEN TASK INTEGRITY.
 These identifiers are candidate specification IDs until separately registered
 as canonical invariants.
 
----
+______________________________________________________________________
 
-# 167. Invalid Task Examples
+## 167. Invalid Task Examples
 
 ## 167.1 Missing Objective
 
@@ -3714,9 +3722,9 @@ Result:
 INSUFFICIENT TASK BINDING
 ```
 
----
+______________________________________________________________________
 
-# 168. Unbounded Scope
+## 168. Unbounded Scope
 
 ```yaml
 objective:
@@ -3733,9 +3741,9 @@ SCOPE GAP
 
 unless context supplies the bounds.
 
----
+______________________________________________________________________
 
-# 169. Contradictory Constraints
+## 169. Contradictory Constraints
 
 ```yaml
 constraints:
@@ -3749,9 +3757,9 @@ Result:
 CONSTRAINT CONFLICT
 ```
 
----
+______________________________________________________________________
 
-# 170. Missing Target
+## 170. Missing Target
 
 ```yaml
 objective:
@@ -3768,9 +3776,9 @@ CRITICAL GAP
 
 Do not infer a destructive target.
 
----
+______________________________________________________________________
 
-# 171. Stale Task
+## 171. Stale Task
 
 ```text
 TASK V1
@@ -3784,9 +3792,9 @@ Invalid.
 
 The plan must be revalidated.
 
----
+______________________________________________________________________
 
-# 172. Unauthorized Expansion
+## 172. Unauthorized Expansion
 
 Original:
 
@@ -3803,9 +3811,9 @@ modify repository
 Invalid unless the task is explicitly expanded and downstream authority
 permits it.
 
----
+______________________________________________________________________
 
-# 173. Valid Minimal Read-Only Task
+## 173. Valid Minimal Read-Only Task
 
 ```yaml
 task:
@@ -3835,9 +3843,9 @@ task:
 
 This may be sufficient for a low-stakes direct task.
 
----
+______________________________________________________________________
 
-# 174. Valid Research Task
+## 174. Valid Research Task
 
 ```yaml
 task:
@@ -3868,9 +3876,9 @@ task:
     - conclusion class assigned
 ```
 
----
+______________________________________________________________________
 
-# 175. Valid Effectful Task
+## 175. Valid Effectful Task
 
 ```yaml
 task:
@@ -3903,9 +3911,9 @@ task:
 Actual execution still requires downstream policy, authority, capability, and
 commit approval.
 
----
+______________________________________________________________________
 
-# 176. Task Contract Proof Capsule
+## 176. Task Contract Proof Capsule
 
 A consequential Task Contract should conceptually carry:
 
@@ -3954,9 +3962,9 @@ TaskContractProofCapsule:
   confidence_ceiling:
 ```
 
----
+______________________________________________________________________
 
-# 177. Task Contract Fast Path
+## 177. Task Contract Fast Path
 
 A compact Task Contract may be sufficient when:
 
@@ -3982,9 +3990,9 @@ NO REGIME SHIFT
 NO CRITICAL GAP
 ```
 
----
+______________________________________________________________________
 
-# 178. Fast Path Minimum
+## 178. Fast Path Minimum
 
 Even on the fast path, preserve:
 
@@ -4002,9 +4010,9 @@ COMPLETION CONDITION
 
 and any additional load-bearing dimensions.
 
----
+______________________________________________________________________
 
-# 179. Deep Path
+## 179. Deep Path
 
 Escalate Task Contract depth when:
 
@@ -4036,9 +4044,9 @@ REGIME CHANGE
 LARGE DEPENDENCY GRAPH
 ```
 
----
+______________________________________________________________________
 
-# 180. Task Contract / RSCF Integration
+## 180. Task Contract / RSCF Integration
 
 Where RSCF is used, the Task Contract supplies the task-specific boundary
 conditions for recursive reasoning.
@@ -4059,9 +4067,9 @@ RESULT
 
 RSCF must not silently escape Task Contract scope.
 
----
+______________________________________________________________________
 
-# 181. Task Contract / HML Integration
+## 181. Task Contract / HML Integration
 
 H/M/L decomposition should be task-driven.
 
@@ -4084,9 +4092,9 @@ THEN SEARCH FOR RELEVANCE
 
 unless the task explicitly requires exhaustive coverage.
 
----
+______________________________________________________________________
 
-# 182. Task Contract / GMEF Integration
+## 182. Task Contract / GMEF Integration
 
 A task that proposes structural evolution should identify that governance
 impact.
@@ -4107,9 +4115,9 @@ GOVERNANCE IMPACT?
       +-- YES → GMEF review path
 ```
 
----
+______________________________________________________________________
 
-# 183. Task Contract / Provenance Topology
+## 183. Task Contract / Provenance Topology
 
 Task evidence must preserve source ancestry when independence affects the
 conclusion.
@@ -4125,9 +4133,9 @@ EVIDENCE C ──┘
 The task must not count descendants as independent merely because they have
 different filenames or publishers.
 
----
+______________________________________________________________________
 
-# 184. Task Contract / Counterfactual Integration
+## 184. Task Contract / Counterfactual Integration
 
 Counterfactual analysis may be required for:
 
@@ -4155,9 +4163,9 @@ unless independently validated.
 
 It does not itself grant permission to act.
 
----
+______________________________________________________________________
 
-# 185. Task Contract / Memory
+## 185. Task Contract / Memory
 
 Task context may depend on memory.
 
@@ -4179,9 +4187,9 @@ before becoming load-bearing.
 
 Remembered state is not automatically current state.
 
----
+______________________________________________________________________
 
-# 186. Task Contract / World Model
+## 186. Task Contract / World Model
 
 World-model state may support planning.
 
@@ -4196,9 +4204,9 @@ WORLD
 The Task Contract should preserve this distinction when real-world action
 depends on model state.
 
----
+______________________________________________________________________
 
-# 187. Task Contract / Runtime
+## 187. Task Contract / Runtime
 
 Runtime receives governed work derived from the Task Contract.
 
@@ -4219,9 +4227,9 @@ COMPLETION
 
 without returning to the Control Plane.
 
----
+______________________________________________________________________
 
-# 188. Task Contract / Finalizer
+## 188. Task Contract / Finalizer
 
 The finalizer should evaluate completion against the contract.
 
@@ -4237,9 +4245,9 @@ but against:
 DEFINED ACCEPTANCE CRITERIA
 ```
 
----
+______________________________________________________________________
 
-# 189. Task Contract / Replay
+## 189. Task Contract / Replay
 
 Replay should preserve the Task Contract version used during the original
 execution.
@@ -4258,9 +4266,9 @@ EXPECTATIONS FROM TASK V2
 
 and falsely classify divergence.
 
----
+______________________________________________________________________
 
-# 190. Task Contract / Rollback
+## 190. Task Contract / Rollback
 
 If a Task Contract is invalidated after effects occurred:
 
@@ -4276,9 +4284,9 @@ EFFECT DEPENDENCY GRAPH
 
 to determine which effects require repair.
 
----
+______________________________________________________________________
 
-# 191. Observability Requirements
+## 191. Observability Requirements
 
 Consequential tasks should identify what must be observable to determine
 completion.
@@ -4296,9 +4304,9 @@ observability:
 
 If completion cannot be observed, confidence must be bounded accordingly.
 
----
+______________________________________________________________________
 
-# 192. Blind Spots
+## 192. Blind Spots
 
 Known blind spots should be preserved.
 
@@ -4321,9 +4329,9 @@ must not become:
 RECEIVER SUCCESS
 ```
 
----
+______________________________________________________________________
 
-# 193. Task Audit Record
+## 193. Task Audit Record
 
 A completed consequential task should be auditable through at least:
 
@@ -4353,9 +4361,9 @@ INVALIDATION CONDITIONS
 
 where applicable.
 
----
+______________________________________________________________________
 
-# 194. Anti-Fabrication Rules
+## 194. Anti-Fabrication Rules
 
 Never perform these transformations:
 
@@ -4370,39 +4378,46 @@ UNKNOWN TARGET
 →
 GUESSED TARGET
 ```
+
 ```text
 MISSING AUTHORITY
 →
 ASSUMED AUTHORITY
 ```
+
 ```text
 MISSING EVIDENCE
 →
 PLAUSIBLE STORY
 ```
+
 ```text
 UNCLEAR SCOPE
 →
 UNBOUNDED SCOPE
 ```
+
 ```text
 SOURCE CLAIM
 →
 VERIFIED FACT
 ```
+
 ```text
 MODEL
 →
 EMPIRICAL OBSERVATION
 ```
+
 ```text
 NO CONTRADICTION FOUND
 →
 PROOF
 ```
----
 
-# 195. Anti-Overreach Rules
+______________________________________________________________________
+
+## 195. Anti-Overreach Rules
 
 Never silently generalize:
 
@@ -4417,24 +4432,28 @@ ONE REGIME
 →
 ALL REGIMES
 ```
+
 ```text
 ONE SCALE
 →
 ALL SCALES
 ```
+
 ```text
 ONE TIME
 →
 ALL TIMES
 ```
+
 ```text
 STRUCTURAL SIMILARITY
 →
 CAUSATION
 ```
----
 
-# 196. Optimization Law
+______________________________________________________________________
+
+## 196. Optimization Law
 
 Optimization occurs only after integrity constraints are satisfied.
 
@@ -4466,9 +4485,9 @@ context
 
 but must not weaken task correctness.
 
----
+______________________________________________________________________
 
-# 197. Task Contract Anti-Regression Gate
+## 197. Task Contract Anti-Regression Gate
 
 A Task Contract optimization is acceptable only if it preserves or improves:
 
@@ -4496,9 +4515,9 @@ COMPLETION ACCURACY
 USER FIT
 ```
 
----
+______________________________________________________________________
 
-# 198. Minimal Machine-Oriented Form
+## 198. Minimal Machine-Oriented Form
 
 ```yaml
 task_contract:
@@ -4540,9 +4559,9 @@ task_contract:
   status:
 ```
 
----
+______________________________________________________________________
 
-# 199. Extended Machine-Oriented Form
+## 199. Extended Machine-Oriented Form
 
 ```yaml
 task_contract:
@@ -4681,9 +4700,9 @@ task_contract:
     blocking_gaps: []
 ```
 
----
+______________________________________________________________________
 
-# 200. Canonical Compression
+## 200. Canonical Compression
 
 ```text
 TASK CONTRACT
@@ -4778,9 +4797,9 @@ WHAT THE TASK
 ACTUALLY MEANS.
 ```
 
----
+______________________________________________________________________
 
-# 201. Master Contract
+## 201. Master Contract
 
 Formally, at the conceptual level:
 
@@ -4825,9 +4844,9 @@ CompletionDefined
 
 with additional conditions activated according to stakes and effect class.
 
----
+______________________________________________________________________
 
-# 202. Final Law
+## 202. Final Law
 
 ```text
 NO TASK MAY BECOME
@@ -4863,7 +4882,7 @@ AND UNDER WHOSE AUTHORITY
 THE TASK MAY PROCEED.
 ```
 
-# END — AMOS OS TASK CONTRACT
+## END — AMOS OS TASK CONTRACT
 
 ```
 
@@ -4872,22 +4891,26 @@ This is a **substantive candidate specification**, not a claim that these struct
 The placement itself is supported by the repository: `TASK_CONTRACT.md` belongs in `03_CONTROL_PLANE/01_TASK_CONTRACT`, paired with `TASK_RESOLVER.md`, rather than in the Kernel cognition area.
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: task_contract
 node_type: note
 path: 03_CONTROL_PLANE/01_TASK_CONTRACT/TASK_CONTRACT.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[03_CONTROL_PLANE/01_TASK_CONTRACT/01_TASK_CONTRACT_MOC|01_TASK_CONTRACT_MOC]]

@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: 05 Healing Recovery MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/05_HEALING_RECOVERY
 tags:
-- 05-healing-recovery
-- canon/control-plane
-- commit-control-plane-activation-rules
-- healing-recovery-commit-control-plane-mode-spec
-- healing-recovery-commit-control-plane-provenance
+  - 05-healing-recovery
+  - canon/control-plane
+  - commit-control-plane-activation-rules
+  - healing-recovery-commit-control-plane-mode-spec
+  - healing-recovery-commit-control-plane-provenance
 moc: true
 rscf:
   state: DERIVED
@@ -30,5 +33,6 @@ rscf:
 - [[03_CONTROL_PLANE/09_COMMIT/05_HEALING_RECOVERY/HEALING_RECOVERY_COMMIT_CONTROL_PLANE_PROVENANCE|HEALING_RECOVERY_COMMIT_CONTROL_PLANE_PROVENANCE]]
 - [[03_CONTROL_PLANE/09_COMMIT/05_HEALING_RECOVERY/HEALING_RECOVERY_COMMIT_CONTROL_PLANE_README|HEALING_RECOVERY_COMMIT_CONTROL_PLANE_README]]
 
----
+______________________________________________________________________
+
 **Parent:** [[03_CONTROL_PLANE/09_COMMIT/09_COMMIT_MOC|09_COMMIT_MOC]]

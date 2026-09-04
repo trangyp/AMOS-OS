@@ -1,10 +1,13 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: 76 Contradiction Resolution Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/76_CONTRADICTION_RESOLUTION_MODES
 tags:
-- 76-contradiction-resolution-modes
-- canon/control-plane
+  - 76-contradiction-resolution-modes
+  - canon/control-plane
 moc: true
 rscf:
   state: DERIVED
@@ -24,5 +27,6 @@ rscf:
 - [[03_CONTROL_PLANE/09_COMMIT/76_CONTRADICTION_RESOLUTION_MODES/CONTRADICTION_RESOLUTION_MODES_COMMIT_CONTROL_PLANE_MODE_FAMILY_SPEC|CONTRADICTION_RESOLUTION_MODES_COMMIT_CONTROL_PLANE_MODE_FAMILY_SPEC]]
 - [[03_CONTROL_PLANE/09_COMMIT/76_CONTRADICTION_RESOLUTION_MODES/CONTRADICTION_RESOLUTION_MODES_COMMIT_CONTROL_PLANE_README|CONTRADICTION_RESOLUTION_MODES_COMMIT_CONTROL_PLANE_README]]
 
----
+______________________________________________________________________
+
 **Parent:** [[03_CONTROL_PLANE/09_COMMIT/09_COMMIT_MOC|09_COMMIT_MOC]]

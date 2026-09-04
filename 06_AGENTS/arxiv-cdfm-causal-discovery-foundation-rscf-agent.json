@@ -89,7 +89,7 @@
     "arxiv-cdfm-causal-discovery-foundation-rscf"
   ],
   "depends_on_workflows": [
-    "arxiv-cdfm-causal-discovery-foundation-rscf-workflow.md"
+    "amos-arxiv-cdfm-causal-discovery-foundation-rscf-workflow.md"
   ],
   "epistemic_class": "AMOS_MODEL",
   "claim_ceiling": 0.95,

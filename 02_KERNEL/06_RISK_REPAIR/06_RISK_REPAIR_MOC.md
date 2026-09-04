@@ -1,19 +1,22 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: 06 Risk Repair MOC
 type: moc
 source: 02_KERNEL/06_RISK_REPAIR
 tags:
-- 06-risk-repair
-- canon/kernel
-- k-absolute-biological-integrity
-- k-collapse-recovery
-- k-homeostasis
-- k-neurosyncai-recovery
-- k-repair-harm
-- k-repair-priority
-- k-risk-constraint
-- k-ubi-entropy-correction
-- k-ubi-homeostasis
+  - 06-risk-repair
+  - canon/kernel
+  - k-absolute-biological-integrity
+  - k-collapse-recovery
+  - k-homeostasis
+  - k-neurosyncai-recovery
+  - k-repair-harm
+  - k-repair-priority
+  - k-risk-constraint
+  - k-ubi-entropy-correction
+  - k-ubi-homeostasis
 moc: true
 rscf:
   state: DERIVED
@@ -45,5 +48,6 @@ rscf:
 
 - [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]] — 00_INDEX
 
----
+______________________________________________________________________
+
 **Parent:** [[02_KERNEL/02_KERNEL_MOC|02_KERNEL_MOC]]

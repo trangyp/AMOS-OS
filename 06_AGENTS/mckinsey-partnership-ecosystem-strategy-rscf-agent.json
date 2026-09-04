@@ -74,7 +74,7 @@
     "mckinsey-partnership-ecosystem-strategy-rscf"
   ],
   "depends_on_workflows": [
-    "mckinsey-partnership-ecosystem-strategy-rscf-workflow.md"
+    "amos-mckinsey-partnership-ecosystem-strategy-rscf-workflow.md"
   ],
   "epistemic_class": "AMOS_MODEL",
   "claim_ceiling": 0.95,

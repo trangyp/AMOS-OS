@@ -1,10 +1,13 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: 23 Multi Hypothesis Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/23_MULTI_HYPOTHESIS_MODES
 tags:
-- 23-multi-hypothesis-modes
-- canon/control-plane
+  - 23-multi-hypothesis-modes
+  - canon/control-plane
 moc: true
 rscf:
   state: DERIVED
@@ -24,5 +27,6 @@ rscf:
 - [[03_CONTROL_PLANE/09_COMMIT/23_MULTI_HYPOTHESIS_MODES/MULTI_HYPOTHESIS_MODES_COMMIT_CONTROL_PLANE_MODE_FAMILY_SPEC|MULTI_HYPOTHESIS_MODES_COMMIT_CONTROL_PLANE_MODE_FAMILY_SPEC]]
 - [[03_CONTROL_PLANE/09_COMMIT/23_MULTI_HYPOTHESIS_MODES/MULTI_HYPOTHESIS_MODES_COMMIT_CONTROL_PLANE_README|MULTI_HYPOTHESIS_MODES_COMMIT_CONTROL_PLANE_README]]
 
----
+______________________________________________________________________
+
 **Parent:** [[03_CONTROL_PLANE/09_COMMIT/09_COMMIT_MOC|09_COMMIT_MOC]]

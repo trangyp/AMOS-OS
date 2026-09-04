@@ -1,4 +1,7 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: GENERATOR SUPERSESSION
 type: note
 source: 25_COGNITIVE_MATRIX/12_GENERATORS
@@ -6,33 +9,29 @@ rscf:
   state: SOURCE_CLAIM
   class: STRUCTURAL
   provenance:
-  - internal
+    - internal
   freshness: EVERGREEN
   falsifiers: []
 tags:
-- note
-- 12-generators
-- readme
-- generator-seed
-- generator-output
-- generator-promotion
-- generator-falsification
-- capability-resolver
-- mode-admission-queue
-- k-provenance
-- k-provenance-topology
-- k-sybil-hardening
-- k-binding
-- k-constraint-propagation
-- k-rscf
+  - note
+  - 12-generators
+  - readme
+  - generator-seed
+  - generator-output
+  - generator-promotion
+  - generator-falsification
+  - capability-resolver
+  - mode-admission-queue
+  - k-provenance
+  - k-provenance-topology
+  - k-sybil-hardening
+  - k-binding
+  - k-constraint-propagation
+  - k-rscf
 canon-group: canon/cognitive-matrix
 ---
 
----title: "GENERATOR SUPERSESSION"
-type: document
-tags: [note]
----
-
+## ---title: "GENERATOR SUPERSESSION" type: document tags: [note]
 
 # Generator Supersession
 
@@ -47,9 +46,9 @@ tags: [note]
 **Empirical Validation Status:** NOT ESTABLISHED BY THIS DOCUMENT
 **Final Canon Status:** NOT ESTABLISHED BY THIS DOCUMENT
 
----
+______________________________________________________________________
 
-# 0. Supersession Declaration
+## 0. Supersession Declaration
 
 Generator Supersession governs the controlled transition from one generator artifact, version, implementation, configuration, or governed generator state to another.
 
@@ -69,9 +68,9 @@ $$\boxed{ Supersession = Historical\ Erasure }$$
 
 A superseded generator remains part of causal and provenance history wherever previous outputs depend upon it.
 
----
+______________________________________________________________________
 
-# 1. Purpose
+## 1. Purpose
 
 `GENERATOR_SUPERSESSION.md` exists to answer:
 
@@ -107,9 +106,9 @@ WHAT WOULD FALSIFY THE SUPERSESSION DECISION?
 
 The artifact prevents generator evolution from becoming an untraceable sequence of replacements.
 
----
+______________________________________________________________________
 
-# 2. Core Supersession Model
+## 2. Core Supersession Model
 
 Let:
 
@@ -131,9 +130,9 @@ The event SHOULD contain sufficient information to reconstruct:
 
 $$S = ( Source, Successor, Reason, Evidence, Scope, Regime, Compatibility, EffectiveBoundary, Governance )$$
 
----
+______________________________________________________________________
 
-# 3. Supersession Is a Relation
+## 3. Supersession Is a Relation
 
 Supersession belongs to the relationship between generator states.
 
@@ -157,9 +156,9 @@ G_b
 
 with explicit scope and conditions.
 
----
+______________________________________________________________________
 
-# 4. Directionality
+## 4. Directionality
 
 Supersession edges are directional.
 
@@ -176,9 +175,9 @@ G_b SUPERSEDES G_a
 
 The inverse relation must not be confused with equivalence.
 
----
+______________________________________________________________________
 
-# 5. Supersession Does Not Establish Superiority
+## 5. Supersession Does Not Establish Superiority
 
 The existence of:
 
@@ -192,9 +191,9 @@ for every task, scope, environment, or regime.
 
 A successor may be superior only within a bounded applicability envelope.
 
----
+______________________________________________________________________
 
-# 6. Supersession Scope
+## 6. Supersession Scope
 
 Every consequential supersession SHOULD declare scope.
 
@@ -213,9 +212,9 @@ scope:
 
 A supersession valid for one task class MUST NOT silently supersede the generator for unrelated task classes.
 
----
+______________________________________________________________________
 
-# 7. Partial Supersession
+## 7. Partial Supersession
 
 AMOS permits partial supersession.
 
@@ -238,17 +237,17 @@ does not imply:
 
 $$Superseded(G_1, Domain_B)$$
 
----
+______________________________________________________________________
 
-# 8. Global Supersession
+## 8. Global Supersession
 
 A generator MAY be globally superseded only when the governance evidence supports replacement across its complete declared applicability envelope.
 
 Global supersession SHOULD be rare relative to scoped supersession.
 
----
+______________________________________________________________________
 
-# 9. Regime-Bounded Supersession
+## 9. Regime-Bounded Supersession
 
 A successor may supersede a predecessor only under regime $R_2$.
 
@@ -267,9 +266,9 @@ does not establish:
 
 $$G_2 >_S G_1 \mid R_1$$
 
----
+______________________________________________________________________
 
-# 10. Temporal Supersession
+## 10. Temporal Supersession
 
 Supersession SHOULD have an effective temporal boundary.
 
@@ -282,9 +281,9 @@ temporal:
 
 Historical output produced before the boundary remains associated with the historical generator.
 
----
+______________________________________________________________________
 
-# 11. Causal Epoch Supersession
+## 11. Causal Epoch Supersession
 
 Where AMOS uses causal epoch reasoning, supersession MAY bind to epoch:
 
@@ -300,9 +299,9 @@ epoch:
 
 A generator active in $E42$ is not retroactively rewritten as having been $G_{new}$.
 
----
+______________________________________________________________________
 
-# 12. Supersession Identity
+## 12. Supersession Identity
 
 Each consequential supersession SHOULD have a stable identity.
 
@@ -321,9 +320,9 @@ reversed
 superseded
 ```
 
----
+______________________________________________________________________
 
-# 13. Supersession Record
+## 13. Supersession Record
 
 Minimum conceptual object:
 
@@ -367,9 +366,9 @@ generator_supersession:
   governance: {}
 ```
 
----
+______________________________________________________________________
 
-# 14. Generator Identity Binding
+## 14. Generator Identity Binding
 
 Supersession SHOULD bind concrete generator identity.
 
@@ -393,9 +392,9 @@ hash: def...
 
 The exact identity requirement scales with consequence and reproducibility needs.
 
----
+______________________________________________________________________
 
-# 15. Alias Firewall
+## 15. Alias Firewall
 
 Aliases MUST NOT be sufficient historical supersession identifiers.
 
@@ -419,9 +418,9 @@ resolved_generator = G1
 
 rather than retroactively interpreting the historical alias as $G2$.
 
----
+______________________________________________________________________
 
-# 16. Supersession Reasons
+## 16. Supersession Reasons
 
 Candidate reason classes:
 
@@ -445,9 +444,9 @@ UNKNOWN
 
 The reason class does not itself establish that supersession is justified.
 
----
+______________________________________________________________________
 
-# 17. Correctness Supersession
+## 17. Correctness Supersession
 
 A generator MAY be superseded because a load-bearing correctness defect was discovered.
 
@@ -465,9 +464,9 @@ Affected outputs from $G1$ require impact analysis.
 
 Unaffected outputs do not automatically become invalid.
 
----
+______________________________________________________________________
 
-# 18. Security Supersession
+## 18. Security Supersession
 
 A generator with a material security weakness may require accelerated supersession.
 
@@ -483,9 +482,9 @@ SUPERSEDED
 
 Emergency supersession may reduce ordinary promotion latency, but MUST NOT erase provenance or validation gaps.
 
----
+______________________________________________________________________
 
-# 19. Provenance-Hardening Supersession
+## 19. Provenance-Hardening Supersession
 
 A successor may strengthen:
 
@@ -499,9 +498,9 @@ dependency lineage
 
 Historical predecessor outputs do not thereby gain the successor's stronger provenance guarantees.
 
----
+______________________________________________________________________
 
-# 20. Causal-Hardening Supersession
+## 20. Causal-Hardening Supersession
 
 A successor may strengthen causal discipline.
 
@@ -517,9 +516,9 @@ causal firewall enforced
 
 Historical $G1$ conclusions remain governed by the evidence and generator behavior that actually produced them.
 
----
+______________________________________________________________________
 
-# 21. Performance Supersession
+## 21. Performance Supersession
 
 Performance alone does not license supersession if integrity regresses.
 
@@ -535,9 +534,9 @@ is insufficient if:
 
 $$Integrity(G_2) < Integrity(G_1)$$
 
----
+______________________________________________________________________
 
-# 22. Anti-Regression Gate
+## 22. Anti-Regression Gate
 
 A successor SHOULD NOT be promoted as a superseding generator if it materially weakens:
 
@@ -555,9 +554,9 @@ user fit
 
 unless the tradeoff is explicitly governed and acceptable for a bounded scope.
 
----
+______________________________________________________________________
 
-# 23. Supersession Preconditions
+## 23. Supersession Preconditions
 
 Before ordinary supersession, AMOS SHOULD establish:
 
@@ -577,9 +576,9 @@ provenance preserved
 
 The required depth depends on stakes.
 
----
+______________________________________________________________________
 
-# 24. Supersession Evidence
+## 24. Supersession Evidence
 
 Evidence supporting supersession may include:
 
@@ -599,9 +598,9 @@ governance decisions
 
 Evidence retains its epistemic type.
 
----
+______________________________________________________________________
 
-# 25. Evidence Typing
+## 25. Evidence Typing
 
 Supersession evidence SHOULD distinguish:
 
@@ -628,9 +627,9 @@ SOURCE_CLAIM
 
 not automatically `VERIFIED`.
 
----
+______________________________________________________________________
 
-# 26. Evidence Independence
+## 26. Evidence Independence
 
 Ten benchmark summaries copied from one underlying experiment do not constitute ten independent confirmations.
 
@@ -638,9 +637,9 @@ $$Descendants(Source_1) \neq IndependentSources$$
 
 Supersession evidence SHOULD preserve provenance topology.
 
----
+______________________________________________________________________
 
-# 27. Supersession Provenance
+## 27. Supersession Provenance
 
 A supersession record SHOULD preserve:
 
@@ -654,9 +653,9 @@ which generator versions were involved
 
 where available and appropriate.
 
----
+______________________________________________________________________
 
-# 28. Provenance Topology
+## 28. Provenance Topology
 
 Conceptually:
 
@@ -687,17 +686,17 @@ SUPERSESSION DECISION
 
 when independence matters.
 
----
+______________________________________________________________________
 
-# 29. Sybil-Hardening Law
+## 29. Sybil-Hardening Law
 
 $$RepeatedClaim \neq IndependentConfirmation$$
 
 Generator supersession MUST NOT be justified by apparent evidence multiplicity created through duplicated ancestry.
 
----
+______________________________________________________________________
 
-# 30. Compatibility Classes
+## 30. Compatibility Classes
 
 A successor SHOULD declare compatibility.
 
@@ -714,9 +713,9 @@ INCOMPATIBLE
 UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 31. Drop-In Compatibility
+## 31. Drop-In Compatibility
 
 `DROP_IN_COMPATIBLE` means the successor may replace the predecessor under the declared envelope without requiring consumer changes.
 
@@ -724,9 +723,9 @@ This claim requires validation.
 
 Name similarity is insufficient.
 
----
+______________________________________________________________________
 
-# 32. Backward Compatibility
+## 32. Backward Compatibility
 
 A successor is backward compatible only if relevant predecessor contracts remain valid under the successor.
 
@@ -736,9 +735,9 @@ $$Contracts(G_a) \subseteq SupportedContracts(G_b)$$
 
 within the declared scope.
 
----
+______________________________________________________________________
 
-# 33. Conditional Compatibility
+## 33. Conditional Compatibility
 
 Example:
 
@@ -753,9 +752,9 @@ compatibility:
 
 Outside those conditions, compatibility remains unestablished.
 
----
+______________________________________________________________________
 
-# 34. Breaking Supersession
+## 34. Breaking Supersession
 
 A breaking successor changes a load-bearing contract.
 
@@ -773,9 +772,9 @@ dependency requirements
 
 Breaking supersession requires explicit migration or explicit incompatibility handling.
 
----
+______________________________________________________________________
 
-# 35. Compatibility Matrix
+## 35. Compatibility Matrix
 
 AMOS MAY represent:
 
@@ -790,9 +789,9 @@ AMOS MAY represent:
 
 Compatibility MUST be evaluated dimensionally when a single label would hide important differences.
 
----
+______________________________________________________________________
 
-# 36. Dependency Compatibility
+## 36. Dependency Compatibility
 
 Generator supersession may alter dependencies.
 
@@ -810,9 +809,9 @@ G2
 
 Supersession validation must account for $D3$.
 
----
+______________________________________________________________________
 
-# 37. Transitive Dependency Closure
+## 37. Transitive Dependency Closure
 
 A successor's direct dependency list may be insufficient.
 
@@ -824,25 +823,25 @@ G2 → D3 → D4
 
 and $D4$ introduces a material incompatibility, it belongs to the supersession dependency closure.
 
----
+______________________________________________________________________
 
-# 38. Dependency Independence
+## 38. Dependency Independence
 
 Local supersession is safe only if affected dependency closure is known sufficiently to establish that unrelated generator domains remain unaffected.
 
 Independence must be demonstrated, not assumed.
 
----
+______________________________________________________________________
 
-# 39. Generator Contract Compatibility
+## 39. Generator Contract Compatibility
 
 Supersession MUST be checked against the applicable Generator Contract.
 
 A successor that violates mandatory contract invariants cannot be considered a valid replacement merely because its outputs look similar.
 
----
+______________________________________________________________________
 
-# 40. Seed Compatibility
+## 40. Seed Compatibility
 
 A successor may require different Generator Seed semantics.
 
@@ -856,9 +855,9 @@ SeedSchema v3
 
 Historical seeds SHOULD remain associated with the schema under which they were created.
 
----
+______________________________________________________________________
 
-# 41. Seed Replay Across Supersession
+## 41. Seed Replay Across Supersession
 
 Replaying historical seed $S$ through successor $G_b$:
 
@@ -872,9 +871,9 @@ $$G_a(S)$$
 
 in historical lineage.
 
----
+______________________________________________________________________
 
-# 42. Output Compatibility
+## 42. Output Compatibility
 
 A successor may produce a different output contract.
 
@@ -890,9 +889,9 @@ falsifiers
 scope fields
 ```
 
----
+______________________________________________________________________
 
-# 43. Semantic Compatibility
+## 43. Semantic Compatibility
 
 Outputs may be structurally different but semantically equivalent.
 
@@ -900,9 +899,9 @@ This requires an explicit equivalence criterion.
 
 AMOS MUST NOT infer semantic equivalence from superficial similarity.
 
----
+______________________________________________________________________
 
-# 44. Supersession and Generator Registry
+## 44. Supersession and Generator Registry
 
 `GENERATOR_REGISTRY` SHOULD reflect active supersession state.
 
@@ -922,15 +921,15 @@ G2:
 
 Historical lookup must still resolve $G1$.
 
----
+______________________________________________________________________
 
-# 45. Registry Preservation Law
+## 45. Registry Preservation Law
 
 Supersession MUST NOT require deleting the predecessor registry record if that record is required for lineage reconstruction.
 
----
+______________________________________________________________________
 
-# 46. Active Resolution
+## 46. Active Resolution
 
 After effective supersession:
 
@@ -942,9 +941,9 @@ may resolve to the successor.
 
 Historical resolutions remain frozen to the generator actually selected at that time.
 
----
+______________________________________________________________________
 
-# 47. Supersession and Versioning
+## 47. Supersession and Versioning
 
 Generator Versioning determines the identities being compared.
 
@@ -960,9 +959,9 @@ SUPERSESSION
 
 A new version may exist without superseding the old version.
 
----
+______________________________________________________________________
 
-# 48. Parallel Versions
+## 48. Parallel Versions
 
 AMOS MAY allow:
 
@@ -983,9 +982,9 @@ migration is incomplete
 evidence is competing
 ```
 
----
+______________________________________________________________________
 
-# 49. Competing Generators
+## 49. Competing Generators
 
 When evidence does not discriminate sufficiently:
 
@@ -1003,17 +1002,17 @@ COMPETING
 
 rather than forcing premature supersession.
 
----
+______________________________________________________________________
 
-# 50. Cheapest Discriminating Test
+## 50. Cheapest Discriminating Test
 
 If two generators remain competing, AMOS SHOULD prefer the cheapest high-information test capable of changing the supersession decision.
 
 Do not accumulate redundant evidence merely to increase evidence count.
 
----
+______________________________________________________________________
 
-# 51. Supersession Decision Classes
+## 51. Supersession Decision Classes
 
 A decision MAY be classified:
 
@@ -1027,9 +1026,9 @@ REVERSED
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 52. Conditional Supersession
+## 52. Conditional Supersession
 
 Example:
 
@@ -1045,9 +1044,9 @@ decision:
 
 Failure of a condition reopens the decision.
 
----
+______________________________________________________________________
 
-# 53. Deferred Supersession
+## 53. Deferred Supersession
 
 Use `DEFERRED` when evidence is promising but a decision-changing gap remains.
 
@@ -1067,9 +1066,9 @@ DEFERRED
 
 not forced approval.
 
----
+______________________________________________________________________
 
-# 54. Rejected Supersession
+## 54. Rejected Supersession
 
 A candidate successor SHOULD be rejected when:
 
@@ -1084,9 +1083,9 @@ scope transfer unsupported
 
 unless explicitly admitted into a narrower safe envelope.
 
----
+______________________________________________________________________
 
-# 55. Supersession Proposal
+## 55. Supersession Proposal
 
 Before activation, a transition MAY exist as:
 
@@ -1096,9 +1095,9 @@ PROPOSED_SUPERSESSION
 
 Proposal is not active canon.
 
----
+______________________________________________________________________
 
-# 56. Supersession Lifecycle
+## 56. Supersession Lifecycle
 
 Candidate lifecycle:
 
@@ -1127,15 +1126,15 @@ REVERSED
 SUPERSEDED
 ```
 
----
+______________________________________________________________________
 
-# 57. Proposed State
+## 57. Proposed State
 
 `PROPOSED` means a candidate relation exists but no active replacement has occurred.
 
----
+______________________________________________________________________
 
-# 58. Under Evaluation
+## 58. Under Evaluation
 
 Evaluation SHOULD include applicable:
 
@@ -1151,17 +1150,17 @@ security analysis
 rollback analysis
 ```
 
----
+______________________________________________________________________
 
-# 59. Approved State
+## 59. Approved State
 
 Approval means the governance threshold has been met.
 
 Approval does not necessarily mean the transition is already effective.
 
----
+______________________________________________________________________
 
-# 60. Scheduled State
+## 60. Scheduled State
 
 A transition may be approved but have future effective boundary.
 
@@ -1170,17 +1169,17 @@ state: SCHEDULED
 effective_from: E43
 ```
 
----
+______________________________________________________________________
 
-# 61. Effective State
+## 61. Effective State
 
 Once effective, ordinary resolution routes applicable new tasks to the successor.
 
 Historical artifacts remain unchanged.
 
----
+______________________________________________________________________
 
-# 62. Monitoring State
+## 62. Monitoring State
 
 After activation, AMOS SHOULD observe for evidence of:
 
@@ -1195,9 +1194,9 @@ provenance degradation
 
 where consequence justifies monitoring.
 
----
+______________________________________________________________________
 
-# 63. Supersession Falsification
+## 63. Supersession Falsification
 
 Every consequential supersession SHOULD have falsifiers.
 
@@ -1211,9 +1210,9 @@ successor fails declared compatibility
 successor is unsafe in admitted regime
 ```
 
----
+______________________________________________________________________
 
-# 64. Strongest Challenge
+## 64. Strongest Challenge
 
 Before consequential supersession, AMOS SHOULD challenge the preferred successor through a genuinely different path.
 
@@ -1230,9 +1229,9 @@ regression
 stronger alternative
 ```
 
----
+______________________________________________________________________
 
-# 65. Challenge Success
+## 65. Challenge Success
 
 If adversarial validation succeeds:
 
@@ -1260,9 +1259,9 @@ REJECTED
 
 as supported.
 
----
+______________________________________________________________________
 
-# 66. Sensitivity Analysis
+## 66. Sensitivity Analysis
 
 A supersession decision SHOULD identify the smallest premise capable of flipping the decision.
 
@@ -1275,9 +1274,9 @@ then G2 no longer qualifies.
 
 This premise is decision-critical.
 
----
+______________________________________________________________________
 
-# 67. Fragile Supersession
+## 67. Fragile Supersession
 
 If minor plausible changes in assumptions flip the decision:
 
@@ -1287,17 +1286,17 @@ decision_robustness: FRAGILE
 
 and the transition SHOULD be classified `CONDITIONAL` where appropriate.
 
----
+______________________________________________________________________
 
-# 68. Robust Supersession
+## 68. Robust Supersession
 
 A robust transition survives plausible perturbations of noncritical assumptions within its declared envelope.
 
 Robustness remains scope-bound.
 
----
+______________________________________________________________________
 
-# 69. Promotion vs Supersession
+## 69. Promotion vs Supersession
 
 Generator Promotion and Generator Supersession are related but distinct.
 
@@ -1311,9 +1310,9 @@ existing generator is replaced in some envelope
 
 A promoted generator does not necessarily supersede another.
 
----
+______________________________________________________________________
 
-# 70. Promotion Before Supersession
+## 70. Promotion Before Supersession
 
 Ordinary path:
 
@@ -1331,9 +1330,9 @@ ACTIVE SUCCESSOR
 
 Emergency paths may differ but require explicit governance.
 
----
+______________________________________________________________________
 
-# 71. Supersession and Falsification
+## 71. Supersession and Falsification
 
 `GENERATOR_FALSIFICATION` provides adversarial evidence.
 
@@ -1341,9 +1340,9 @@ Emergency paths may differ but require explicit governance.
 
 Falsification failure may block supersession.
 
----
+______________________________________________________________________
 
-# 72. Supersession and Generator Output
+## 72. Supersession and Generator Output
 
 Outputs MUST retain the generator identity that produced them.
 
@@ -1357,9 +1356,9 @@ output:
 
 After G2 supersedes G1, the historical record remains G1.
 
----
+______________________________________________________________________
 
-# 73. No Retroactive Output Rebinding
+## 73. No Retroactive Output Rebinding
 
 Forbidden:
 
@@ -1376,9 +1375,9 @@ G1 produced O1
 G2 later superseded G1
 ```
 
----
+______________________________________________________________________
 
-# 74. Historical Validity
+## 74. Historical Validity
 
 Supersession does not automatically invalidate every predecessor output.
 
@@ -1393,9 +1392,9 @@ its regime
 its freshness
 ```
 
----
+______________________________________________________________________
 
-# 75. Impact Analysis
+## 75. Impact Analysis
 
 When supersession is caused by a predecessor defect, AMOS SHOULD identify dependent outputs.
 
@@ -1418,9 +1417,9 @@ REVALIDATE O4
 
 not necessarily $O1$ and $O3$.
 
----
+______________________________________________________________________
 
-# 76. Selective Invalidation
+## 76. Selective Invalidation
 
 Core law:
 
@@ -1432,9 +1431,9 @@ $$Failure(P) \Rightarrow Invalidate(All)$$
 
 This applies to supersession-triggered recovery.
 
----
+______________________________________________________________________
 
-# 77. Supersession Migration
+## 77. Supersession Migration
 
 A breaking transition MAY require migration.
 
@@ -1450,9 +1449,9 @@ capability migration
 registry migration
 ```
 
----
+______________________________________________________________________
 
-# 78. Migration Object
+## 78. Migration Object
 
 ```yaml
 migration:
@@ -1476,9 +1475,9 @@ migration:
   rollback_supported: null
 ```
 
----
+______________________________________________________________________
 
-# 79. Migration Provenance
+## 79. Migration Provenance
 
 Migration is itself a transformation.
 
@@ -1494,9 +1493,9 @@ NEW ARTIFACT
 
 must preserve lineage.
 
----
+______________________________________________________________________
 
-# 80. Lossy Migration
+## 80. Lossy Migration
 
 If migration discards information:
 
@@ -1510,9 +1509,9 @@ must be explicit.
 
 Loss MUST NOT be hidden behind a generic `compatible` label.
 
----
+______________________________________________________________________
 
-# 81. Rollback
+## 81. Rollback
 
 A supersession SHOULD define rollback where technically and semantically possible.
 
@@ -1532,9 +1531,9 @@ G1
 
 Rollback is itself a governed transition.
 
----
+______________________________________________________________________
 
-# 82. Rollback Preconditions
+## 82. Rollback Preconditions
 
 Rollback SHOULD verify:
 
@@ -1546,9 +1545,9 @@ new writes have not made rollback impossible
 security reason does not prohibit restoration
 ```
 
----
+______________________________________________________________________
 
-# 83. Irreversible Supersession
+## 83. Irreversible Supersession
 
 Some transitions cannot safely roll back.
 
@@ -1563,9 +1562,9 @@ external protocol cutoff
 
 Such transitions require stronger pre-activation validation.
 
----
+______________________________________________________________________
 
-# 84. Reversibility Principle
+## 84. Reversibility Principle
 
 Under uncertainty, AMOS SHOULD prefer staged, reversible supersession where practical.
 
@@ -1585,9 +1584,9 @@ is preferable to irreversible immediate replacement when the risk envelope justi
 
 This is a governance model, not a claim that such routing is implemented.
 
----
+______________________________________________________________________
 
-# 85. Shadow Evaluation
+## 85. Shadow Evaluation
 
 A successor MAY run in shadow mode before supersession.
 
@@ -1599,9 +1598,9 @@ TASK
 
 Differences can inform supersession evaluation without immediately changing authoritative behavior.
 
----
+______________________________________________________________________
 
-# 86. Canary Supersession
+## 86. Canary Supersession
 
 A transition MAY be scoped to a bounded subset.
 
@@ -1612,9 +1611,9 @@ G2:
 
 Expansion requires evidence.
 
----
+______________________________________________________________________
 
-# 87. Progressive Supersession
+## 87. Progressive Supersession
 
 Conceptual sequence:
 
@@ -1632,9 +1631,9 @@ FULL
 
 Each stage may have separate falsifiers.
 
----
+______________________________________________________________________
 
-# 88. Emergency Supersession
+## 88. Emergency Supersession
 
 Critical vulnerabilities may require:
 
@@ -1648,9 +1647,9 @@ before a validated successor is fully available.
 
 AMOS prefers explicit capability reduction over continuing a known unsafe generator.
 
----
+______________________________________________________________________
 
-# 89. Quarantine
+## 89. Quarantine
 
 `QUARANTINED` means:
 
@@ -1662,9 +1661,9 @@ available for forensic inspection where authorized
 
 Quarantine is not deletion.
 
----
+______________________________________________________________________
 
-# 90. Deprecation
+## 90. Deprecation
 
 Deprecation differs from supersession.
 
@@ -1678,17 +1677,17 @@ another generator has replaced it for a declared envelope
 
 A generator can be deprecated before being superseded.
 
----
+______________________________________________________________________
 
-# 91. Retirement
+## 91. Retirement
 
 Retirement means ordinary execution is no longer permitted.
 
 Historical identity and provenance SHOULD remain recoverable.
 
----
+______________________________________________________________________
 
-# 92. Tombstone
+## 92. Tombstone
 
 A removed implementation MAY retain a tombstone record.
 
@@ -1703,9 +1702,9 @@ tombstone:
 
 This prevents broken lineage.
 
----
+______________________________________________________________________
 
-# 93. Supersession Chain
+## 93. Supersession Chain
 
 Example:
 
@@ -1721,9 +1720,9 @@ G4
 
 Historical lookup should reconstruct the complete chain.
 
----
+______________________________________________________________________
 
-# 94. Transitive Supersession
+## 94. Transitive Supersession
 
 If:
 
@@ -1743,9 +1742,9 @@ G1 → G2
 
 must not be erased.
 
----
+______________________________________________________________________
 
-# 95. Supersession DAG
+## 95. Supersession DAG
 
 Supersession need not always be a simple chain.
 
@@ -1760,9 +1759,9 @@ Example:
 
 where different successors apply to different scopes.
 
----
+______________________________________________________________________
 
-# 96. Merge Supersession
+## 96. Merge Supersession
 
 Multiple generators MAY be superseded by a consolidated generator.
 
@@ -1774,9 +1773,9 @@ G2 ─┘
 
 The successor must preserve lineage to both predecessors.
 
----
+______________________________________________________________________
 
-# 97. Split Supersession
+## 97. Split Supersession
 
 A single generator MAY be superseded by specialized successors.
 
@@ -1789,9 +1788,9 @@ A single generator MAY be superseded by specialized successors.
 
 Resolution becomes scope-dependent.
 
----
+______________________________________________________________________
 
-# 98. Cycle Prohibition
+## 98. Cycle Prohibition
 
 A supersession graph SHOULD normally be acyclic.
 
@@ -1805,9 +1804,9 @@ unless the relation represents explicit rollback events rather than canonical su
 
 Canonical lineage and operational rollback should be distinguished.
 
----
+______________________________________________________________________
 
-# 99. Supersession Topology
+## 99. Supersession Topology
 
 The graph SHOULD preserve:
 
@@ -1824,9 +1823,9 @@ evidence
 
 for material transitions.
 
----
+______________________________________________________________________
 
-# 100. Supersession Conflict
+## 100. Supersession Conflict
 
 Two records may claim:
 
@@ -1856,9 +1855,9 @@ branching lineage
 
 The conflict must be resolved or preserved explicitly.
 
----
+______________________________________________________________________
 
-# 101. Conflicting Successors
+## 101. Conflicting Successors
 
 If both successors claim the same scope/regime/epoch without discriminating governance:
 
@@ -1870,9 +1869,9 @@ should be returned.
 
 Do not silently choose one.
 
----
+______________________________________________________________________
 
-# 102. Competing Supersession Decisions
+## 102. Competing Supersession Decisions
 
 If evidence supports incompatible transitions equally:
 
@@ -1882,9 +1881,9 @@ COMPETING
 
 is the correct state until discriminating evidence exists.
 
----
+______________________________________________________________________
 
-# 103. Supersession Authority
+## 103. Supersession Authority
 
 A transition may require governance authority.
 
@@ -1892,9 +1891,9 @@ The exact authority model is external to this artifact unless defined by applica
 
 The record SHOULD preserve the decision authority when known.
 
----
+______________________________________________________________________
 
-# 104. Authority Firewall
+## 104. Authority Firewall
 
 Technical superiority does not automatically grant authority to alter canonical routing.
 
@@ -1902,9 +1901,9 @@ $$TechnicalEvidence \neq GovernanceAuthority$$
 
 Both may be required.
 
----
+______________________________________________________________________
 
-# 105. Unauthorized Supersession
+## 105. Unauthorized Supersession
 
 If a technically valid successor is installed without required governance authorization:
 
@@ -1916,9 +1915,9 @@ SUPERSESSION_STATUS:
 
 must remain distinct.
 
----
+______________________________________________________________________
 
-# 106. Supersession and Mode Admission
+## 106. Supersession and Mode Admission
 
 A successor may require modes unavailable to the predecessor.
 
@@ -1926,9 +1925,9 @@ A successor may require modes unavailable to the predecessor.
 
 A generator MUST NOT be globally superseded if required modes are unavailable in part of its intended envelope.
 
----
+______________________________________________________________________
 
-# 107. Supersession and Mode Composition
+## 107. Supersession and Mode Composition
 
 A successor's required mode composition may differ.
 
@@ -1941,9 +1940,9 @@ G2 → M1 + M2
 
 `MODE_COMPOSITION_REGISTRY` should define whether the composition is admissible.
 
----
+______________________________________________________________________
 
-# 108. Mode Conflict
+## 108. Mode Conflict
 
 If G2 requires modes with unresolved conflict:
 
@@ -1953,9 +1952,9 @@ MODE_CONFLICT
 
 may block supersession.
 
----
+______________________________________________________________________
 
-# 109. Capability Compatibility
+## 109. Capability Compatibility
 
 A successor may require additional capabilities.
 
@@ -1968,9 +1967,9 @@ G2 requires C1 + C2
 
 If C2 is unavailable in part of the deployment scope, full supersession is not established.
 
----
+______________________________________________________________________
 
-# 110. Capability Resolver Integration
+## 110. Capability Resolver Integration
 
 Conceptually:
 
@@ -1984,17 +1983,17 @@ CAPABILITIES SATISFIED?
    └── NO  → partial / blocked
 ```
 
----
+______________________________________________________________________
 
-# 111. Constraint Propagation
+## 111. Constraint Propagation
 
 Supersession MUST preserve applicable upstream constraints.
 
 A successor cannot become admissible by silently dropping constraints that made the predecessor harder to execute.
 
----
+______________________________________________________________________
 
-# 112. Constraint Monotonicity
+## 112. Constraint Monotonicity
 
 For hard inherited constraints:
 
@@ -2004,9 +2003,9 @@ unless an authorized governance transition explicitly changes the constraint its
 
 Generator replacement alone cannot weaken it.
 
----
+______________________________________________________________________
 
-# 113. Scope Firewall
+## 113. Scope Firewall
 
 Evidence that G2 performs better on benchmark $B$ does not establish universal supersession.
 
@@ -2022,17 +2021,17 @@ Invalid without additional support:
 G2 supersedes G1 everywhere.
 ```
 
----
+______________________________________________________________________
 
-# 114. Regime Firewall
+## 114. Regime Firewall
 
 A successor validated in environment $R_1$ cannot silently supersede a predecessor in $R_2$.
 
 Cross-regime transfer remains `MODEL` or `CONDITIONAL` until independently validated.
 
----
+______________________________________________________________________
 
-# 115. Causal Firewall
+## 115. Causal Firewall
 
 Suppose:
 
@@ -2061,9 +2060,9 @@ measurement change
 
 Supersession justification must preserve causal discipline.
 
----
+______________________________________________________________________
 
-# 116. Benchmark Firewall
+## 116. Benchmark Firewall
 
 Benchmark superiority is bounded by:
 
@@ -2078,9 +2077,9 @@ measurement procedure
 
 It is not universal generator superiority.
 
----
+______________________________________________________________________
 
-# 117. Latency Firewall
+## 117. Latency Firewall
 
 Reported latency improvement is environment-dependent.
 
@@ -2088,17 +2087,17 @@ $$Latency(G) = f( hardware, load, runtime, configuration, dependencies )$$
 
 Therefore latency-based supersession must preserve environment scope.
 
----
+______________________________________________________________________
 
-# 118. Formal-Proof Firewall
+## 118. Formal-Proof Firewall
 
 Distributed, Byzantine, fuzz, stress, or adversarial tests are valuable evidence.
 
 They are not universal formal proofs unless an actual proof covering the claimed property exists.
 
----
+______________________________________________________________________
 
-# 119. Supersession Proof Capsule
+## 119. Supersession Proof Capsule
 
 A consequential supersession SHOULD conceptually carry:
 
@@ -2136,9 +2135,9 @@ proof_capsule:
   confidence_ceiling: null
 ```
 
----
+______________________________________________________________________
 
-# 120. Confidence Ceiling
+## 120. Confidence Ceiling
 
 The supersession conclusion cannot exceed its weakest load-bearing premise unless independently revalidated.
 
@@ -2148,9 +2147,9 @@ $$Confidence(S) \leq \min( Confidence(P_1),...,Confidence(P_n) )$$
 
 subject to the AMOS confidence model.
 
----
+______________________________________________________________________
 
-# 121. Uncertainty Vector
+## 121. Uncertainty Vector
 
 For consequential supersession, track material uncertainty separately:
 
@@ -2167,9 +2166,9 @@ uncertainty:
 
 Do not collapse distinct uncertainties into one vague confidence number when doing so hides decision-relevant weakness.
 
----
+______________________________________________________________________
 
-# 122. Supersession Gap Classes
+## 122. Supersession Gap Classes
 
 Gaps SHOULD be classified:
 
@@ -2196,9 +2195,9 @@ missing display label
 → COSMETIC
 ```
 
----
+______________________________________________________________________
 
-# 123. Critical Gap Rule
+## 123. Critical Gap Rule
 
 If a critical supersession gap cannot be closed:
 
@@ -2214,9 +2213,9 @@ BLOCKED
 
 Do not fabricate the missing evidence.
 
----
+______________________________________________________________________
 
-# 124. Fast-Path Supersession
+## 124. Fast-Path Supersession
 
 Local fast-path supersession is permissible only when:
 
@@ -2233,9 +2232,9 @@ rollback sufficient
 
 Otherwise escalate.
 
----
+______________________________________________________________________
 
-# 125. Escalation Conditions
+## 125. Escalation Conditions
 
 Escalate when:
 
@@ -2251,9 +2250,9 @@ dependency closure is ambiguous
 security properties change
 ```
 
----
+______________________________________________________________________
 
-# 126. Proof-Based Coordination Avoidance
+## 126. Proof-Based Coordination Avoidance
 
 AMOS MAY avoid unnecessary global coordination when the affected generator shard/domain is demonstrably independent of unrelated domains.
 
@@ -2261,9 +2260,9 @@ Independence must be proven to the level required by consequence.
 
 This is an AMOS reasoning architecture pattern, not a claim that ChatGPT literally implements distributed consensus.
 
----
+______________________________________________________________________
 
-# 127. Atomic Multi-Generator Supersession
+## 127. Atomic Multi-Generator Supersession
 
 Some transitions involve several coupled generators.
 
@@ -2277,9 +2276,9 @@ G2A + G2B
 
 If partial transition creates invalid intermediate state, supersession SHOULD be atomic at the reasoning/governance level.
 
----
+______________________________________________________________________
 
-# 128. Atomicity Failure
+## 128. Atomicity Failure
 
 If:
 
@@ -2296,17 +2295,17 @@ SUPERSESSION_ATOMICITY_FAILURE
 
 should be surfaced.
 
----
+______________________________________________________________________
 
-# 129. Causal Epoch Finality
+## 129. Causal Epoch Finality
 
 Once a supersession transition is finalized for causal epoch $E_n$, historical state for earlier epochs SHOULD remain stable unless a formal correction event is appended.
 
 History should be corrected through lineage, not silently rewritten.
 
----
+______________________________________________________________________
 
-# 130. Persistent Provenance
+## 130. Persistent Provenance
 
 Even after:
 
@@ -2324,9 +2323,9 @@ Before or after which supersession?
 Why was that generator later replaced?
 ```
 
----
+______________________________________________________________________
 
-# 131. Supersession Failure Classes
+## 131. Supersession Failure Classes
 
 Candidate failure classes:
 
@@ -2351,9 +2350,9 @@ SUPERSESSION_STALE
 SUPERSESSION_UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 132. Failure Object
+## 132. Failure Object
 
 ```yaml
 supersession_failure:
@@ -2382,9 +2381,9 @@ supersession_failure:
   provenance: []
 ```
 
----
+______________________________________________________________________
 
-# 133. Failure Recovery
+## 133. Failure Recovery
 
 Recovery follows:
 
@@ -2404,9 +2403,9 @@ REVALIDATE
 
 Global recomputation is last resort.
 
----
+______________________________________________________________________
 
-# 134. No Unchanged Retry
+## 134. No Unchanged Retry
 
 A failed supersession path SHOULD NOT simply be repeated without changed evidence or conditions.
 
@@ -2426,9 +2425,9 @@ governance
 
 or another material condition.
 
----
+______________________________________________________________________
 
-# 135. Supersession Audit
+## 135. Supersession Audit
 
 A supersession audit SHOULD be able to reconstruct:
 
@@ -2450,9 +2449,9 @@ rollback
 affected outputs
 ```
 
----
+______________________________________________________________________
 
-# 136. Minimum Audit Record
+## 136. Minimum Audit Record
 
 ```yaml
 audit:
@@ -2466,9 +2465,9 @@ audit:
   validation_refs: []
 ```
 
----
+______________________________________________________________________
 
-# 137. Supersession Invariants
+## 137. Supersession Invariants
 
 ```text
 GSUP-I01
@@ -2532,9 +2531,9 @@ GSUP-I20
 Integrity dominates optimization.
 ```
 
----
+______________________________________________________________________
 
-# 138. Supersession State Machine
+## 138. Supersession State Machine
 
 ```text
                     ┌────────────┐
@@ -2569,9 +2568,9 @@ Integrity dominates optimization.
 
 Not every implementation must use every state.
 
----
+______________________________________________________________________
 
-# 139. Supersession Decision Pipeline
+## 139. Supersession Decision Pipeline
 
 ```text
 CANDIDATE SUCCESSOR
@@ -2615,9 +2614,9 @@ EFFECTIVE TRANSITION
 MONITOR
 ```
 
----
+______________________________________________________________________
 
-# 140. Maximum Supersession Envelope
+## 140. Maximum Supersession Envelope
 
 ```yaml
 amos_generator_supersession:
@@ -2761,9 +2760,9 @@ amos_generator_supersession:
   proof_capsule_ref: null
 ```
 
----
+______________________________________________________________________
 
-# 141. Supersession Example
+## 141. Supersession Example
 
 ```yaml
 supersession_id: GS-042
@@ -2803,9 +2802,9 @@ falsifiers:
 
 This is an illustrative model object, not evidence of an actual AMOS deployment event.
 
----
+______________________________________________________________________
 
-# 142. Example: Partial Supersession
+## 142. Example: Partial Supersession
 
 ```text
 G1
@@ -2835,9 +2834,9 @@ Incorrect:
 G2 supersedes G1 universally.
 ```
 
----
+______________________________________________________________________
 
-# 143. Example: Competing Successors
+## 143. Example: Competing Successors
 
 ```text
 G1
@@ -2865,9 +2864,9 @@ G2 vs G3 = COMPETING
 
 until discriminating governance criteria or evidence exists.
 
----
+______________________________________________________________________
 
-# 144. Example: Security Emergency
+## 144. Example: Security Emergency
 
 ```text
 G1 ACTIVE
@@ -2883,9 +2882,9 @@ G2 EFFECTIVE
 
 Historical G1 records remain preserved.
 
----
+______________________________________________________________________
 
-# 145. Example: Failed Supersession
+## 145. Example: Failed Supersession
 
 Suppose G2 passes ordinary benchmarks but adversarial testing discovers:
 
@@ -2909,9 +2908,9 @@ SUPERSESSION → REJECTED / DEFERRED
 
 until the integrity regression is repaired.
 
----
+______________________________________________________________________
 
-# 146. Canon Supersession Firewall
+## 146. Canon Supersession Firewall
 
 This artifact governs **generator supersession**.
 
@@ -2928,9 +2927,9 @@ GMEF canon
 
 Those require their applicable canon/provenance/supersession process.
 
----
+______________________________________________________________________
 
-# 147. Self-Supersession
+## 147. Self-Supersession
 
 A future version of this artifact may supersede this specification.
 
@@ -2947,9 +2946,9 @@ provenance
 
 This file cannot declare its own future successor canonical merely by predicting one.
 
----
+______________________________________________________________________
 
-# 148. Canon Boundary
+## 148. Canon Boundary
 
 This document specifies the intended AMOS Generator Supersession model.
 
@@ -2971,9 +2970,9 @@ this document is final canon.
 
 Those require separate evidence.
 
----
+______________________________________________________________________
 
-# 149. Artifact Declaration
+## 149. Artifact Declaration
 
 ```yaml
 artifact:
@@ -3012,9 +3011,9 @@ artifact:
     established: false
 ```
 
----
+______________________________________________________________________
 
-# 150. Final Supersession Law
+## 150. Final Supersession Law
 
 Generator evolution must remain reconstructable.
 
@@ -3091,15 +3090,15 @@ And when optimization conflicts with integrity:
 
 $$\boxed{ Integrity\ Wins }$$
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[25_COGNITIVE_MATRIX/12_GENERATORS/00_INDEX/GENERATORS_MAP|GENERATORS_MAP]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · 12_GENERATORS_CONTRACT · 12_GENERATORS_VERSIONING · [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_REGISTRY|GENERATOR_REGISTRY]] · [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_SEED|GENERATOR_SEED]] · [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_OUTPUT|GENERATOR_OUTPUT]] · [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_PROMOTION|GENERATOR_PROMOTION]] · [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_FALSIFICATION|GENERATOR_FALSIFICATION]] · [[03_CONTROL_PLANE/01_TASK_CONTRACT/TASK_CONTRACT|TASK_CONTRACT]] · [[03_CONTROL_PLANE/02_CAPABILITY/CAPABILITY_RESOLVER|CAPABILITY_RESOLVER]] · [[03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX/MODE_ADMISSION_QUEUE|MODE_ADMISSION_QUEUE]] · [[03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX/MODE_COMPOSITION_REGISTRY|MODE_COMPOSITION_REGISTRY]] · [[03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX/MODE_CONFLICT_REGISTRY|MODE_CONFLICT_REGISTRY]]
 
----
+______________________________________________________________________
 
 RSCF-NODE
 
@@ -3166,5 +3165,6 @@ RSCF-RELATIONS:
 This version is designed to sit directly beside the full `GENERATOR_SEED`, `GENERATOR_REGISTRY`, `GENERATOR_PROMOTION`, `GENERATOR_FALSIFICATION`, Generator Contract, and Generator Versioning artifacts rather than functioning as an isolated note.
 ```
 
----
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/12_GENERATORS/12_GENERATORS_MOC|12_GENERATORS_MOC]]

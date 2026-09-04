@@ -2,17 +2,17 @@
 type: control-plane
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L03_PERCEPT_FORMATION
 tags:
-- amos
-- cognitive-matrix
-- matrix/l03
-- percept-formation
-- control-plane
-- perception
-- provenance
-- rscf
-- hml
-- governance
-- domain/cognitive-matrix
+  - amos
+  - cognitive-matrix
+  - matrix/l03
+  - percept-formation
+  - control-plane
+  - perception
+  - provenance
+  - rscf
+  - hml
+  - governance
+  - domain/cognitive-matrix
 title: L03_PERCEPT_FORMATION — Control Planes
 origin_architect: Trang Phan
 status: MODEL_CONTROL_PLANE_CONTRACT / UNIMPLEMENTED / UNVALIDATED
@@ -35,9 +35,9 @@ rscf:
 
 > **Canon boundary:** This artifact defines a source-bounded AMOS control-plane contract for percept formation. The governing infrastructure pattern is supported by the AMOS Infrastructure Control Plane: domain/cognitive workers produce typed evidence and proposals; infrastructure validates evidence, observed read sets, semantic transactions, constraints, provenance, authority, observability, and finalization. Detailed L03-specific object names, thresholds, topology, and implementation remain `AMOS_MODEL` unless independently recovered from direct canon or executable runtime evidence.
 
----
+______________________________________________________________________
 
-# 0. Purpose
+## 0. Purpose
 
 Define how `L03_PERCEPT_FORMATION` is governed separately from the workers that construct percepts.
 
@@ -97,9 +97,9 @@ PROPOSAL
 COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 1. Source / Canon References
+## 1. Source / Canon References
 
 ## 1.1 Source-aligned architecture
 
@@ -165,9 +165,9 @@ canonical_L03_runtime_implementation: UNKNOWN_GAP
 canonical_L03_executed_validation: UNKNOWN_GAP
 ```
 
----
+______________________________________________________________________
 
-# 2. Definition and Scope
+## 2. Definition and Scope
 
 The `L03_PERCEPT_FORMATION` control plane is the governing layer that validates whether percept proposals may modify authoritative percept state or be released downstream.
 
@@ -207,9 +207,9 @@ CONTROL PLANE:
 traceable, authorized, and safe to commit?"
 ```
 
----
+______________________________________________________________________
 
-# 3. Typed Inputs
+## 3. Typed Inputs
 
 ```yaml
 L03ControlPlaneInput:
@@ -281,9 +281,9 @@ L03ControlPlaneInput:
     type: PerceptStateSnapshot
 ```
 
----
+______________________________________________________________________
 
-# 4. Typed Outputs
+## 4. Typed Outputs
 
 ```yaml
 L03ControlPlaneOutput:
@@ -339,9 +339,9 @@ L03ControlPlaneOutput:
     type: COMMIT_RESULT | null
 ```
 
----
+______________________________________________________________________
 
-# 5. State Variables
+## 5. State Variables
 
 ```text
 Obs_t       = authoritative observation references
@@ -369,9 +369,9 @@ Repair_t    = repair state
 
 Where mutable state identity should not rely solely on an unqualified scalar version if relevant state can change independently. The infrastructure control-plane contract instead uses precise observed read sets and version/hash identity for decision-forming resources.
 
----
+______________________________________________________________________
 
-# 6. Control-Plane Objects
+## 6. Control-Plane Objects
 
 Where applicable, L03 should compose with the generic AMOS control-plane ABI rather than inventing a parallel governance system.
 
@@ -412,9 +412,9 @@ EFFECT_INTENT
 
 These aliases are `MODEL`, not recovered canonical identifiers.
 
----
+______________________________________________________________________
 
-# 7. Operators
+## 7. Operators
 
 ```text
 VALIDATE_TASK()
@@ -445,9 +445,9 @@ ROLLBACK()
 REVALIDATE()
 ```
 
----
+______________________________________________________________________
 
-# 8. Core Invariants
+## 8. Core Invariants
 
 ```text
 L03-CP-INV-001
@@ -515,9 +515,9 @@ Hard invariant failure is non-compensatory.
 
 The fine-grained read-set behavior aligns with the infrastructure rule that unread-object changes should not invalidate a decision, while changes to actually read resources invalidate only dependent conclusions.
 
----
+______________________________________________________________________
 
-# 9. Dependency Model
+## 9. Dependency Model
 
 Primary chain:
 
@@ -559,9 +559,9 @@ dependencies:
     - commit_guard
 ```
 
----
+______________________________________________________________________
 
-# 10. H/M/L Applicability
+## 10. H/M/L Applicability
 
 ## H — Governing percept state
 
@@ -615,9 +615,9 @@ H VALIDATION
 
 unless the required dependency closure is explicitly established.
 
----
+______________________________________________________________________
 
-# 11. Control-Plane Requirements
+## 11. Control-Plane Requirements
 
 The L03 control plane should provide:
 
@@ -644,9 +644,9 @@ auditability
 
 For consequential downstream effects, the broader infrastructure control plane additionally requires commit-time rechecks of intent, policy, tool-catalog context, authority, semantic lineage, and observability.
 
----
+______________________________________________________________________
 
-# 12. Agents
+## 12. Agents
 
 Candidate L03 workers include:
 
@@ -680,9 +680,9 @@ worker:
   may_commit_authoritative_state: no
 ```
 
----
+______________________________________________________________________
 
-# 13. Skills
+## 13. Skills
 
 Relevant AMOS capability families include:
 
@@ -714,9 +714,9 @@ RESULT VALIDATED
 COMMIT AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 14. Workflow
+## 14. Workflow
 
 ```text
 RECEIVE L03 PERCEPT PROPOSAL
@@ -758,9 +758,9 @@ COMMIT OR BLOCK
 
 For durable effects, the source control-plane architecture explicitly requires commit-time rechecking rather than trusting a previously computed PASS.
 
----
+______________________________________________________________________
 
-# 15. Protocols
+## 15. Protocols
 
 Candidate L03 protocols:
 
@@ -784,9 +784,9 @@ L03_CP_REPAIR_REQUEST
 
 Canonical protocol names remain `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
-# 16. Evidence / Provenance
+## 16. Evidence / Provenance
 
 Every accepted percept should be traceable through:
 
@@ -842,28 +842,28 @@ PerceptCommitProvenance:
 
 The actual execution/provenance graph must remain separate from the authorization specification; the infrastructure control-plane contract explicitly requires this separation.
 
----
+______________________________________________________________________
 
-# 17. Semantic Transaction
+## 17. Semantic Transaction
 
 A percept-state mutation should not be accepted merely because every local step individually looks valid.
 
 Candidate L03 semantic rule:
 
-[
+\[
 PerceptTxPass =
 LineageDAG
-\land
+\\land
 ObservationIntegrity
-\land
+\\land
 PerceptStaged
-\land
+\\land
 AuthorizedSources
-\land
+\\land
 NoForbiddenSemanticFlow
-\land
+\\land
 ConstraintCompatible
-]
+\]
 
 This is an L03 specialization of the infrastructure semantic-transaction pattern:
 
@@ -879,9 +879,9 @@ AND AuthorizationSpecClean
 
 which the infrastructure recomputes at commit rather than trusting a caller-supplied PASS.
 
----
+______________________________________________________________________
 
-# 18. Observability
+## 18. Observability
 
 For consequential percept-dependent actions, merely recording agent messages is insufficient.
 
@@ -910,26 +910,24 @@ CRITICAL-PATH OBSERVABILITY
 
 This follows the infrastructure requirement that named telemetry channels or span counts do not prove observability coverage.
 
----
+______________________________________________________________________
 
-# 19. Authority
+## 19. Authority
 
 Authority should be explicit and externally governed relative to the percept worker.
 
 Candidate authorization relation:
 
-[
-AuthorizedCommit(P)
-===================
+## \[ AuthorizedCommit(P)
 
 ValidEvidence(P)
-\land
+\\land
 ValidState(P)
-\land
+\\land
 ValidConstraints(P)
-\land
+\\land
 ValidAuthority(P)
-]
+\]
 
 No worker may infer:
 
@@ -941,9 +939,9 @@ therefore
 
 Authority must be current at commit where a durable/consequential effect is involved.
 
----
+______________________________________________________________________
 
-# 20. Uncertainty and Confidence Ceiling
+## 20. Uncertainty and Confidence Ceiling
 
 ```yaml
 uncertainty:
@@ -964,11 +962,11 @@ uncertainty:
 
 For load-bearing premises:
 
-[
+\[
 C(P)
-\le
-\min_i C(p_i)
-]
+\\le
+\\min_i C(p_i)
+\]
 
 unless independently revalidated evidence changes the dependency graph.
 
@@ -982,9 +980,9 @@ GOVERNANCE SUCCESS
 EMPIRICAL TRUTH
 ```
 
----
+______________________________________________________________________
 
-# 21. Failure Modes
+## 21. Failure Modes
 
 ```text
 FM-L03-CP-001
@@ -1048,9 +1046,9 @@ FM-L03-CP-020
 UNKNOWN/GAP promoted to PASS.
 ```
 
----
+______________________________________________________________________
 
-# 22. Repair / Recovery
+## 22. Repair / Recovery
 
 ```text
 DETECT FAILED CONTROL CONDITION
@@ -1080,25 +1078,25 @@ COMMIT OR REMAIN BLOCKED
 
 Core rule:
 
-[
+\[
 Invalid(p)
-\Rightarrow
+\\Rightarrow
 Invalidate(Descendants(p))
-]
+\]
 
 not:
 
-[
+\[
 Invalid(p)
-\Rightarrow
+\\Rightarrow
 Invalidate(AllState)
-]
+\]
 
 unless dependency closure proves system-wide dependence.
 
----
+______________________________________________________________________
 
-# 23. Tests / Validators
+## 23. Tests / Validators
 
 Minimum validators:
 
@@ -1185,9 +1183,9 @@ NOT_RUN
 
 unless separate runtime evidence is supplied.
 
----
+______________________________________________________________________
 
-# 24. Falsifiers
+## 24. Falsifiers
 
 Revise this contract if direct evidence establishes that:
 
@@ -1211,9 +1209,9 @@ runtime evidence contradicts proposed validation ordering;
 executed tests falsify stated invariants.
 ```
 
----
+______________________________________________________________________
 
-# 25. Competing Architectures
+## 25. Competing Architectures
 
 ## COMPETING-001 — Worker-Owned State
 
@@ -1236,7 +1234,7 @@ capability/authority collapse
 weak auditability
 ```
 
----
+______________________________________________________________________
 
 ## COMPETING-002 — Central Percept Controller
 
@@ -1259,7 +1257,7 @@ centralized bottleneck
 hidden global coupling
 ```
 
----
+______________________________________________________________________
 
 ## COMPETING-003 — Infrastructure-Owned Governance
 
@@ -1283,7 +1281,7 @@ Risk:
 domain-specific percept semantics require capability adapters
 ```
 
----
+______________________________________________________________________
 
 ## COMPETING-004 — Hybrid
 
@@ -1305,9 +1303,9 @@ because percept-specific validation can remain close to L03 while authoritative 
 
 This remains `MODEL`, not canonical proof.
 
----
+______________________________________________________________________
 
-# 26. Gap Matrix
+## 26. Gap Matrix
 
 ```yaml
 gap_status:
@@ -1361,9 +1359,9 @@ gap_status:
     status: UNKNOWN_GAP
 ```
 
----
+______________________________________________________________________
 
-# 27. RSCF Completion State
+## 27. RSCF Completion State
 
 ```yaml
 rscf:
@@ -1462,9 +1460,9 @@ rscf:
     authority separation, and proposal/commit isolation.
 ```
 
----
+______________________________________________________________________
 
-# 28. Completion State
+## 28. Completion State
 
 ```yaml
 completion_state:
@@ -1542,9 +1540,9 @@ completion_state:
     MODEL
 ```
 
----
+______________________________________________________________________
 
-# 29. Hard Boundaries
+## 29. Hard Boundaries
 
 ```text
 PLACEHOLDER != IMPLEMENTED
@@ -1588,15 +1586,15 @@ MODEL CONTROL PLANE != IMPLEMENTED CONTROL PLANE
 IMPLEMENTED CONTROL PLANE != VALIDATED CONTROL PLANE
 ```
 
----
+______________________________________________________________________
 
-# 30. Governing Control-Plane Contract
+## 30. Governing Control-Plane Contract
 
 > **`L03_PERCEPT_FORMATION` SHALL separate percept construction from authoritative percept-state control. Percept workers MAY normalize observations, bind features, integrate modalities, generate hypotheses, preserve competing percepts, estimate uncertainty, and propose state changes. They SHALL NOT derive authority from capability or self-commit authoritative state. The governing control plane SHALL validate observation ancestry, attended-input dependencies, evidence, scope, regime, freshness, observer and modality context, provenance, material conflicts, confidence ceilings, semantic lineage, current constraints, authoritative state identity, and applicable authority before commit. Changes SHALL invalidate only dependency-connected percept state where dependency closure permits selective invalidation. UNKNOWN/GAP SHALL never satisfy a required gate.**
 
----
+______________________________________________________________________
 
-# 31. Canon Boundary
+## 31. Canon Boundary
 
 ```text
 SOURCE-ALIGNED:
@@ -1684,23 +1682,27 @@ AUTHORITY TO COMMIT
 
 The strongest source-grounded part is the generic AMOS control-plane boundary: typed evidence, fine-grained observed read sets, semantic-transaction recomputation, authorization separation, observability, commit-time freshness, and authority checks are explicitly defined there. The **mapping of those controls onto `L03_PERCEPT_FORMATION` remains `MODEL`** until direct L03 canon or executable evidence establishes it.
 ```
----
+
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: l03_percept_formation_primitives_cognitive_matrix_control_planes
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L03_PERCEPT_FORMATION/L03_PERCEPT_FORMATION_PRIMITIVES_COGNITIVE_MATRIX_CONTROL_PLANES.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L03_PERCEPT_FORMATION/L03_PERCEPT_FORMATION_MOC|L03_PERCEPT_FORMATION_MOC]]
-

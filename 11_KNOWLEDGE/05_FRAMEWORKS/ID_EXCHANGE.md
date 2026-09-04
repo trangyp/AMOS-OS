@@ -12,22 +12,22 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: FRAMEWORK
 path: 11_KNOWLEDGE/05_FRAMEWORKS/ID_EXCHANGE.md
 tags:
-- amos-os
-- knowledge
-- vault
-- 05_frameworks
-- id_exchange
-- sovereign_identity
-- biological_identity
-- zero_knowledge_auth
-- ubi
-- consentx
-- rscf
-- canon_candidate
-- canon/knowledge
-- unified-biological-intelligence
-- ubi-consentx-binding
-- ubi-id-exchange-binding
+  - amos-os
+  - knowledge
+  - vault
+  - 05_frameworks
+  - id_exchange
+  - sovereign_identity
+  - biological_identity
+  - zero_knowledge_auth
+  - ubi
+  - consentx
+  - rscf
+  - canon_candidate
+  - canon/knowledge
+  - unified-biological-intelligence
+  - ubi-consentx-binding
+  - ubi-id-exchange-binding
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -42,22 +42,22 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - ID_EXCHANGE_PLUS_UBI_PLUS_NEUROSYNCAI
-  - AMOS_CORPUS
+    - ID_EXCHANGE_PLUS_UBI_PLUS_NEUROSYNCAI
+    - AMOS_CORPUS
   scope:
-  - KNOWLEDGE_FRAMEWORKS
-  - IDENTITY_ARCHITECTURE
-  - SOURCE_DEFINED_MODEL
+    - KNOWLEDGE_FRAMEWORKS
+    - IDENTITY_ARCHITECTURE
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   primary:
     name: ID Exchange — Sovereign Biological Identity
     role: IDENTITY_VERIFICATION_AND_DATA_SOVEREIGNTY
   consent_engine:
     artifact:
-    - - CONSENTX
+      -   - CONSENTX
   biological_grounding:
     artifact:
-    - - UNIFIED_BIOLOGICAL_INTELLIGENCE
+      -   - UNIFIED_BIOLOGICAL_INTELLIGENCE
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
@@ -71,25 +71,25 @@ epistemic_boundary:
 
 It provides a decentralized, zero-knowledge identity framework where human identity is verified through sovereign biological proofs without centralizing raw biometrics or surrendering user sovereignty.
 
----
+______________________________________________________________________
 
-# 1. Sovereign Identity Layers
+## 1. Sovereign Identity Layers
 
 1. **Zero-Knowledge Biological Attestation:** Proving human biological presence and alignment without leaking private biometric scans.
-2. **Dynamic Credential Delegation:** Users delegate constrained execution tokens (`CAPABILITY != AUTHORITY`) to autonomous AI agents with explicit revocation triggers.
-3. **Sovereign TrueVault Storage:** User data and identity receipts remain locally encrypted and owned by the individual.
+1. **Dynamic Credential Delegation:** Users delegate constrained execution tokens (`CAPABILITY != AUTHORITY`) to autonomous AI agents with explicit revocation triggers.
+1. **Sovereign TrueVault Storage:** User data and identity receipts remain locally encrypted and owned by the individual.
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Consent Engine:** [[11_KNOWLEDGE/05_FRAMEWORKS/CONSENTX|CONSENTX]] and [[11_KNOWLEDGE/05_FRAMEWORKS/UBI_CONSENTX_BINDING|UBI_CONSENTX_BINDING]]
 - **Biological Master:** [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]] and [[11_KNOWLEDGE/05_FRAMEWORKS/UBI_ID_EXCHANGE_BINDING|UBI_ID_EXCHANGE_BINDING]]
 - **Native Vault Source:** `ID_EXCHANGE_PLUS_UBI_PLUS_NEUROSYNCAI`
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -107,10 +107,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/CONSENTX|CONSENTX]] · [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]] · [[11_KNOWLEDGE/05_FRAMEWORKS/UBI_ID_EXCHANGE_BINDING|UBI_ID_EXCHANGE_BINDING]]
 
----
-**MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]
+______________________________________________________________________
 
+**MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]

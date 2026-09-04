@@ -2,16 +2,16 @@
 type: cognitive
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L03_PERCEPT_FORMATION
 tags:
-- amos
-- cognitive-matrix
-- matrix/l03
-- percept-formation
-- hml
-- cross-scale
-- rscf
-- provenance
-- governance
-- domain/cognitive-matrix
+  - amos
+  - cognitive-matrix
+  - matrix/l03
+  - percept-formation
+  - hml
+  - cross-scale
+  - rscf
+  - provenance
+  - governance
+  - domain/cognitive-matrix
 title: L03_PERCEPT_FORMATION — HML
 origin_architect: Trang Phan
 status: MODEL_HML_CONTRACT / UNIMPLEMENTED / UNVALIDATED
@@ -34,9 +34,9 @@ rscf:
 
 > **Source boundary:** The AMOS Cross-Scale RSCF Tensor Engine defines the governing H/M/L model through typed cross-scale tensors, upward aggregation, downward constraint, explicit transformation edges, confidence ceilings, selective invalidation, scope/regime/observer propagation, sensitivity testing, and RSCF-bound tensor cells. It explicitly states that aggregation does not prove identity, local correlation does not prove macro causation, macro stability can coexist with local collapse, and downward constraint must remain distinct from downward causation.
 
----
+______________________________________________________________________
 
-# 0. Purpose
+## 0. Purpose
 
 Define how `L03_PERCEPT_FORMATION` operates across:
 
@@ -85,17 +85,17 @@ LOCAL CORRELATION != MACRO CAUSATION
 GLOBAL COHERENCE != LOCAL VALIDITY
 ```
 
----
+______________________________________________________________________
 
-# 1. Source / Canon References
+## 1. Source / Canon References
 
 ## 1.1 Source-aligned H/M/L architecture
 
 The AMOS Cross-Scale RSCF Tensor Engine defines the model state:
 
-[
+\[
 X[h,m,l,t,r,o,f]
-]
+\]
 
 where H/M/L state is jointly indexed with:
 
@@ -108,32 +108,30 @@ field/context
 
 It provides source-aligned upward transforms:
 
-[
-X_M=A_{L\rightarrow M}\(X_L\)
-]
+\[
+X_M=A\_{L\\rightarrow M}(X_L)
+\]
 
-[
-X_H=A_{M\rightarrow H}\(X_M\)
-]
+\[
+X_H=A\_{M\\rightarrow H}(X_M)
+\]
 
 and downward constraints:
 
-[
-X'*M=C*{H\rightarrow M}(X_H,X_M)
-]
+\[
+X'*M=C*{H\\rightarrow M}(X_H,X_M)
+\]
 
-[
-X'*L=C*{M\rightarrow L}(X'_M,X_L)
-]
+\[
+X'*L=C*{M\\rightarrow L}(X'\_M,X_L)
+\]
 
 together with the general cross-scale update:
 
-[
-\Delta X_s(t+1)
-===============
+## \[ \\Delta X_s(t+1)
 
-\sum_q T_{q\rightarrow s}\Delta X_q(t)+u_s-d_s
-]
+\\sum_q T\_{q\\rightarrow s}\\Delta X_q(t)+u_s-d_s
+\]
 
 These equations are explicitly AMOS `MODEL`, not claims of universal cognitive law.
 
@@ -154,20 +152,18 @@ canonical_L03_HML_runtime: UNKNOWN_GAP
 
 Therefore the L03-specific mappings below are `AMOS_MODEL`.
 
----
+______________________________________________________________________
 
-# 2. Definition and Scope
+## 2. Definition and Scope
 
 `L03_PERCEPT_FORMATION/HML` defines how perceptual state is represented, transformed, constrained, validated, and repaired across local, middle, and high levels.
 
 Working model:
 
-[
-X^{L03}
-=======
+## \[ X^{L03}
 
 X[h,m,l,t,r,o,f]
-]
+\]
 
 with:
 
@@ -201,9 +197,9 @@ falsifiers
 
 at each transformation.
 
----
+______________________________________________________________________
 
-# 3. H/M/L Semantic Levels
+## 3. H/M/L Semantic Levels
 
 ## 3.1 L — Local Percept Formation
 
@@ -266,7 +262,7 @@ LOCAL FEATURE
 OBJECT
 ```
 
----
+______________________________________________________________________
 
 ## 3.2 M — Middle Percept Formation
 
@@ -331,7 +327,7 @@ MULTIPLE FEATURES
 PROVEN OBJECT IDENTITY
 ```
 
----
+______________________________________________________________________
 
 ## 3.3 H — High Percept Formation
 
@@ -390,9 +386,9 @@ GLOBAL COHERENCE
 GLOBAL TRUTH
 ```
 
----
+______________________________________________________________________
 
-# 4. Typed Inputs
+## 4. Typed Inputs
 
 ```yaml
 L03HMLInput:
@@ -446,9 +442,9 @@ L03HMLInput:
     type: AuthorityContext
 ```
 
----
+______________________________________________________________________
 
-# 5. Typed Outputs
+## 5. Typed Outputs
 
 ```yaml
 L03HMLOutput:
@@ -498,18 +494,16 @@ L03HMLOutput:
     type: NONE
 ```
 
----
+______________________________________________________________________
 
-# 6. State Variables
+## 6. State Variables
 
 Candidate H/M/L state:
 
-[
-X^{L03}_{t}
-===========
+## \[ X^{L03}\_{t}
 
 (X^H_t,X^M_t,X^L_t)
-]
+\]
 
 with supporting state:
 
@@ -530,15 +524,15 @@ Comp_t  = competing cross-scale interpretations
 
 Extended tensor:
 
-[
+\[
 X^{L03}[h,m,l,t,r,o,f]
-]
+\]
 
 remains the preferred AMOS MODEL representation where multiple scale, temporal, regime, observer, and field coordinates matter.
 
----
+______________________________________________________________________
 
-# 7. Core H/M/L Operators
+## 7. Core H/M/L Operators
 
 ```text
 REGISTER_LOCAL()
@@ -574,31 +568,29 @@ PROPOSE_HML_STATE()
 
 Canonical operator names remain `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
-# 8. Upward Formation
+## 8. Upward Formation
 
 ## 8.1 L → M
 
 Source-aligned form:
 
-[
-X_M=A_{L\rightarrow M}\(X_L\)
-]
+\[
+X_M=A\_{L\\rightarrow M}(X_L)
+\]
 
 L03 specialization:
 
-[
-P^M_j
-=====
+## \[ P^M_j
 
-A^{L03}*{L\rightarrow M}
+A^{L03}*{L\\rightarrow M}
 (
 P^L*{1:n},
-R_{LM},
+R\_{LM},
 K
 )
-]
+\]
 
 where:
 
@@ -634,29 +626,27 @@ REAL-WORLD IDENTITY PROOF
 
 This directly follows the source invariant that aggregation does not prove identity.
 
----
+______________________________________________________________________
 
 ## 8.2 M → H
 
 Source-aligned form:
 
-[
-X_H=A_{M\rightarrow H}\(X_M\)
-]
+\[
+X_H=A\_{M\\rightarrow H}(X_M)
+\]
 
 L03 specialization:
 
-[
-P^H_k
-=====
+## \[ P^H_k
 
-A^{L03}*{M\rightarrow H}
+A^{L03}*{M\\rightarrow H}
 (
 P^M*{1:n},
-R_{MH},
+R\_{MH},
 K
 )
-]
+\]
 
 Example:
 
@@ -681,17 +671,17 @@ MIDDLE-LEVEL AGREEMENT
 GLOBAL TRUTH
 ```
 
----
+______________________________________________________________________
 
-# 9. Downward Constraint
+## 9. Downward Constraint
 
 ## 9.1 H → M
 
 Source-aligned:
 
-[
-X'*M=C*{H\rightarrow M}(X_H,X_M)
-]
+\[
+X'*M=C*{H\\rightarrow M}(X_H,X_M)
+\]
 
 L03 interpretation:
 
@@ -730,15 +720,15 @@ LICENSE TO DELETE CONTRADICTORY OBSERVATION
 
 The cross-scale source explicitly requires downward constraint to remain distinct from downward causation.
 
----
+______________________________________________________________________
 
 ## 9.2 M → L
 
 Source-aligned:
 
-[
-X'*L=C*{M\rightarrow L}(X'_M,X_L)
-]
+\[
+X'*L=C*{M\\rightarrow L}(X'\_M,X_L)
+\]
 
 L03 specialization:
 
@@ -764,20 +754,18 @@ INTERPRETATION CONDITIONING
 OBSERVATION MODIFICATION
 ```
 
----
+______________________________________________________________________
 
-# 10. General Cross-Scale Update
+## 10. General Cross-Scale Update
 
 Source-aligned AMOS model:
 
-[
-\Delta X_s(t+1)
-===============
+## \[ \\Delta X_s(t+1)
 
-\sum_q T_{q\rightarrow s}\Delta X_q(t)+u_s-d_s
-]
+\\sum_q T\_{q\\rightarrow s}\\Delta X_q(t)+u_s-d_s
+\]
 
-where (T_{q\rightarrow s}) are typed cross-scale transformations.
+where (T\_{q\\rightarrow s}) are typed cross-scale transformations.
 
 L03 interpretation:
 
@@ -791,11 +779,11 @@ may constrain M and L
 but propagation is dependency-specific
 ```
 
-No universal numeric form for \(T\), \(u_s\), or \(d_s\) is asserted.
+No universal numeric form for (T), (u_s), or (d_s) is asserted.
 
----
+______________________________________________________________________
 
-# 11. H/M/L Dependency Graph
+## 11. H/M/L Dependency Graph
 
 Candidate graph:
 
@@ -845,9 +833,9 @@ HMLEdge:
 
 The source cross-scale contract requires each transformation to bind to a typed RSCF edge.
 
----
+______________________________________________________________________
 
-# 12. H/M/L RSCF Binding
+## 12. H/M/L RSCF Binding
 
 Every material H/M/L state used in a conclusion should map to an RSCF node:
 
@@ -890,9 +878,9 @@ RSCFNode:
 
 This follows the source-defined mandatory RSCF node schema.
 
----
+______________________________________________________________________
 
-# 13. H/M/L Invariants
+## 13. H/M/L Invariants
 
 ```text
 L03-HML-INV-001
@@ -958,9 +946,9 @@ H/M/L proposal completion does not equal authoritative commit.
 
 The first six are direct applications of the source cross-scale invariants.
 
----
+______________________________________________________________________
 
-# 14. Heterogeneity Preservation
+## 14. Heterogeneity Preservation
 
 Aggregation must not destroy materially distinct local or middle states.
 
@@ -992,43 +980,43 @@ ERASURE
 
 Candidate preservation condition:
 
-[
+\[
 MaterialDifference(L_i,L_j)
-\Rightarrow
-Recoverable(L_i,L_j\mid M)
-]
+\\Rightarrow
+Recoverable(L_i,L_j\\mid M)
+\]
 
 `AMOS_MODEL`.
 
----
+______________________________________________________________________
 
-# 15. Confidence Propagation
+## 15. Confidence Propagation
 
 Source-aligned confidence ceiling:
 
-[
+\[
 Conf(c)
-\le
-\min_{p\in P_c}Conf(p)
-]
+\\le
+\\min\_{p\\in P_c}Conf(p)
+\]
 
 for load-bearing parents unless independently revalidated.
 
 L03 application:
 
-[
+\[
 Conf(M)
-\le
-\min_{l\in LB(M)}Conf(l)
-]
+\\le
+\\min\_{l\\in LB(M)}Conf(l)
+\]
 
 and:
 
-[
+\[
 Conf(H)
-\le
-\min_{m\in LB(H)}Conf(m)
-]
+\\le
+\\min\_{m\\in LB(H)}Conf(m)
+\]
 
 unless an independent validated support path exists.
 
@@ -1046,9 +1034,9 @@ M ceiling = MEDIUM
 
 No upward confidence amplification by aggregation alone is allowed.
 
----
+______________________________________________________________________
 
-# 16. Uncertainty Propagation
+## 16. Uncertainty Propagation
 
 Candidate H/M/L uncertainty:
 
@@ -1090,43 +1078,41 @@ HIGH L-LEVEL UNCERTAINTY
 
 if the local uncertainty remains decision-relevant.
 
----
+______________________________________________________________________
 
-# 17. Scope Propagation
+## 17. Scope Propagation
 
 Candidate:
 
-[
+\[
 Scope(M)
-\subseteq
-\bigcap_{l\in LB(M)}Scope(l)
-]
+\\subseteq
+\\bigcap\_{l\\in LB(M)}Scope(l)
+\]
 
 and:
 
-[
+\[
 Scope(H)
-\subseteq
-\bigcap_{m\in LB(H)}Scope(m)
-]
+\\subseteq
+\\bigcap\_{m\\in LB(H)}Scope(m)
+\]
 
 unless a validated scale-transfer relation broadens scope.
 
 Cross-scale source rules explicitly require scope envelopes to propagate with claims.
 
----
+______________________________________________________________________
 
-# 18. Regime Propagation
+## 18. Regime Propagation
 
 Candidate:
 
-[
-RegimeValid(M)
-==============
+## \[ RegimeValid(M)
 
-\bigwedge_{l\in LB(M)}
+\\bigwedge\_{l\\in LB(M)}
 Compat(Regime(l),Regime(M))
-]
+\]
 
 and similarly for H.
 
@@ -1142,9 +1128,9 @@ revalidate dependent H
 
 not unrelated branches.
 
----
+______________________________________________________________________
 
-# 19. Observer Propagation
+## 19. Observer Propagation
 
 A percept may depend on observer position or measurement context.
 
@@ -1168,9 +1154,9 @@ OBSERVER-INDEPENDENT H
 
 Cross-scale observer envelopes must remain explicit.
 
----
+______________________________________________________________________
 
-# 20. Provenance Propagation
+## 20. Provenance Propagation
 
 Candidate ancestry:
 
@@ -1186,15 +1172,13 @@ M PERCEPT
 H PERCEPT
 ```
 
-For H node \(H_i\):
+For H node (H_i):
 
-[
-Anc(H_i)
-========
+## \[ Anc(H_i)
 
-\bigcup_{m\in LB(H_i)}
+\\bigcup\_{m\\in LB(H_i)}
 Anc(m)
-]
+\]
 
 and recursively to L/source state.
 
@@ -1206,15 +1190,15 @@ AGGREGATED DESCENDANTS
 INDEPENDENT SOURCES
 ```
 
----
+______________________________________________________________________
 
-# 21. Selective Invalidation
+## 21. Selective Invalidation
 
 Source-aligned:
 
-[
-Invalidate(p)=Desc_{LB}(p)
-]
+\[
+Invalidate(p)=Desc\_{LB}(p)
+\]
 
 meaning invalidation propagates through load-bearing descendants only.
 
@@ -1241,9 +1225,9 @@ H2 = unchanged
 
 assuming there is no hidden shared dependency.
 
----
+______________________________________________________________________
 
-# 22. Macro Stability / Local Collapse
+## 22. Macro Stability / Local Collapse
 
 The source model explicitly allows:
 
@@ -1277,19 +1261,19 @@ LOCAL FAILURE
 AUTOMATIC H FAILURE
 ```
 
----
+______________________________________________________________________
 
-# 23. Local Change / Macro Causation Firewall
+## 23. Local Change / Macro Causation Firewall
 
 A local signal may correlate with a high-level percept.
 
 But:
 
-[
+\[
 Corr(L,H)
-\not\Rightarrow
+\\not\\Rightarrow
 Cause(L,H)
-]
+\]
 
 Hard rule:
 
@@ -1301,17 +1285,17 @@ MACRO CAUSATION
 
 This is source-aligned.
 
----
+______________________________________________________________________
 
-# 24. Downward Constraint / Causation Firewall
+## 24. Downward Constraint / Causation Firewall
 
 A high-level percept may alter the interpretation space of local features.
 
 Candidate:
 
-[
-L'*t=C*{H\rightarrow L}(H_t,L_t)
-]
+\[
+L'*t=C*{H\\rightarrow L}(H_t,L_t)
+\]
 
 But this is a model of informational constraint.
 
@@ -1323,9 +1307,9 @@ H caused L observation
 
 without separate causal evidence.
 
----
+______________________________________________________________________
 
-# 25. Competing Cross-Scale Percepts
+## 25. Competing Cross-Scale Percepts
 
 Example:
 
@@ -1356,23 +1340,21 @@ H2
 
 Higher-level integration must not erase lower-level ambiguity merely to produce one coherent scene.
 
----
+______________________________________________________________________
 
-# 26. H/M/L Sensitivity
+## 26. H/M/L Sensitivity
 
 The source cross-scale architecture defines a sensitivity flip set:
 
-[
-F_c
-===
+## \[ F_c
 
 {
 p
-\mid
-\text{plausible change in }p
-\text{ flips conclusion }c
+\\mid
+\\text{plausible change in }p
+\\text{ flips conclusion }c
 }
-]
+\]
 
 L03 use:
 
@@ -1385,21 +1367,19 @@ Test that premise before spending resources on irrelevant details.
 
 Candidate:
 
-[
-p^*
-===
+## \[ p^\*
 
-\arg\min_{p\in F_c}
+\\arg\\min\_{p\\in F_c}
 Cost(Test(p))
-]
+\]
 
 subject to sufficient discriminating power.
 
 This last selection equation is `AMOS_MODEL`.
 
----
+______________________________________________________________________
 
-# 27. Cross-Scale Gap Classes
+## 27. Cross-Scale Gap Classes
 
 Use the source gap classes:
 
@@ -1426,9 +1406,9 @@ COSMETIC:
 naming inconsistency with no semantic consequence
 ```
 
----
+______________________________________________________________________
 
-# 28. H/M/L Failure Modes
+## 28. H/M/L Failure Modes
 
 ```text
 FM-L03-HML-001
@@ -1492,9 +1472,9 @@ FM-L03-HML-020
 H/M/L state proposal bypasses control-plane authority.
 ```
 
----
+______________________________________________________________________
 
-# 29. Repair / Recovery
+## 29. Repair / Recovery
 
 Cross-scale repair workflow:
 
@@ -1537,9 +1517,9 @@ DO NOT ALTER LOWER-LEVEL EVIDENCE
 MERELY TO PRESERVE A HIGHER-LEVEL PERCEPT
 ```
 
----
+______________________________________________________________________
 
-# 30. Dependencies
+## 30. Dependencies
 
 Internal dependencies:
 
@@ -1575,9 +1555,9 @@ AMOS constraint propagation
 AMOS infrastructure control plane
 ```
 
----
+______________________________________________________________________
 
-# 31. Control-Plane Requirements
+## 31. Control-Plane Requirements
 
 The H/M/L cognitive layer may:
 
@@ -1613,9 +1593,9 @@ H/M/L TRANSFORM VALID
 STATE COMMIT AUTHORIZED
 ```
 
----
+______________________________________________________________________
 
-# 32. Agents
+## 32. Agents
 
 Candidate logical H/M/L roles:
 
@@ -1644,9 +1624,9 @@ MODEL ROLES
 
 not evidence of implemented agents.
 
----
+______________________________________________________________________
 
-# 33. Skills
+## 33. Skills
 
 Relevant capability families:
 
@@ -1675,9 +1655,9 @@ INTEGRATED
 VALIDATED
 ```
 
----
+______________________________________________________________________
 
-# 34. Workflow
+## 34. Workflow
 
 The source cross-scale workflow is:
 
@@ -1733,9 +1713,9 @@ VALID / CONDITIONAL / COMPETING / UNKNOWN_GAP
 PROPOSE H/M/L STATE
 ```
 
----
+______________________________________________________________________
 
-# 35. Protocols
+## 35. Protocols
 
 Candidate protocol surface:
 
@@ -1766,9 +1746,9 @@ Canonical identifiers remain:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 36. Evidence / Provenance
+## 36. Evidence / Provenance
 
 Each H/M/L conclusion must preserve:
 
@@ -1808,9 +1788,9 @@ Source requirement:
 
 > each tensor cell used in a conclusion must bind to an RSCF node, and each transform must bind to a typed RSCF edge.
 
----
+______________________________________________________________________
 
-# 37. Tests / Validators
+## 37. Tests / Validators
 
 Minimum validators:
 
@@ -1915,9 +1895,9 @@ runtime_validation: false
 empirical_validation: false
 ```
 
----
+______________________________________________________________________
 
-# 38. Falsifiers
+## 38. Falsifiers
 
 Revise this contract if direct canonical evidence establishes:
 
@@ -1955,9 +1935,9 @@ heterogeneity is intentionally discarded even when decision-relevant;
 or confidence legitimately increases solely because the same evidence is aggregated across scales.
 ```
 
----
+______________________________________________________________________
 
-# 39. Gap Matrix
+## 39. Gap Matrix
 
 ```yaml
 gap_status:
@@ -2038,9 +2018,9 @@ gap_status:
     status: CRITICAL_GAP
 ```
 
----
+______________________________________________________________________
 
-# 40. Competing H/M/L Architectures
+## 40. Competing H/M/L Architectures
 
 ## COMPETING-001 — Strict Hierarchy
 
@@ -2066,7 +2046,7 @@ Risk:
 cannot model contextual/top-down constraints
 ```
 
----
+______________________________________________________________________
 
 ## COMPETING-002 — Bidirectional Hierarchy
 
@@ -2083,7 +2063,7 @@ feedback loops
 potential source/inference contamination
 ```
 
----
+______________________________________________________________________
 
 ## COMPETING-003 — Flat Percept Graph
 
@@ -2106,7 +2086,7 @@ Risk:
 weaker scale governance
 ```
 
----
+______________________________________________________________________
 
 ## COMPETING-004 — Governed Sparse Cross-Scale Tensor
 
@@ -2136,9 +2116,9 @@ because it most directly aligns with the source Cross-Scale RSCF Tensor Engine.
 
 It remains an L03 `MODEL`.
 
----
+______________________________________________________________________
 
-# 41. Uncertainty and Confidence Ceiling
+## 41. Uncertainty and Confidence Ceiling
 
 ```yaml
 uncertainty:
@@ -2199,9 +2179,9 @@ empirical cognition claim:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 42. RSCF Completion State
+## 42. RSCF Completion State
 
 ```yaml
 rscf:
@@ -2309,9 +2289,9 @@ rscf:
     causation separation, and sensitivity-flip behavior.
 ```
 
----
+______________________________________________________________________
 
-# 43. Completion State
+## 43. Completion State
 
 ```yaml
 completion_state:
@@ -2392,9 +2372,9 @@ completion_state:
     MODEL
 ```
 
----
+______________________________________________________________________
 
-# 44. Hard Boundaries
+## 44. Hard Boundaries
 
 ```text
 PLACEHOLDER != IMPLEMENTED
@@ -2446,15 +2426,15 @@ IMPLEMENTED HML != VALIDATED HML
 VALIDATED COMPUTATION != HUMAN COGNITIVE LAW
 ```
 
----
+______________________________________________________________________
 
-# 45. Governing H/M/L Contract
+## 45. Governing H/M/L Contract
 
 > **`L03_PERCEPT_FORMATION` SHALL preserve explicit local, middle, and high percept states and SHALL represent every material cross-scale movement through typed transformations bound to provenance-aware RSCF edges. Upward aggregation from L→M→H SHALL NOT by itself prove identity, truth, or causation. Downward H→M→L influence SHALL be classified as constraint or conditioning unless separately causal evidence exists. Scope, regime, observer context, provenance, uncertainty, confidence ceilings, heterogeneity, and competing percepts SHALL propagate across scale transforms. Confidence SHALL NOT increase merely through aggregation. A failed load-bearing node SHALL invalidate only dependency-connected descendants, while independent branches remain valid. Material local contradiction SHALL NOT be overwritten merely to preserve higher-level coherence. Any canonical L03 H/M/L semantics not directly recovered SHALL remain `UNKNOWN/GAP`, and all L03-specific transforms in this artifact remain `MODEL`.**
 
----
+______________________________________________________________________
 
-# 46. Canon Boundary
+## 46. Canon Boundary
 
 ```text
 SOURCE-ALIGNED:
@@ -2576,23 +2556,27 @@ NOT ESTABLISHED
 
 ```text
 ```
----
+
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: l03_percept_formation_primitives_cognitive_matrix_hml
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L03_PERCEPT_FORMATION/L03_PERCEPT_FORMATION_PRIMITIVES_COGNITIVE_MATRIX_HML.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L03_PERCEPT_FORMATION/L03_PERCEPT_FORMATION_MOC|L03_PERCEPT_FORMATION_MOC]]
-

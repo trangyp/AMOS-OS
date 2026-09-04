@@ -12,37 +12,37 @@ segment: 01_CANON/03_COGNITION_CANON
 artifact_kind: CANON
 path: 01_CANON/03_COGNITION_CANON/AMOS_HUMAN_INTELLIGENCE_CANON.md
 tags:
-- amos-os
-- amos_human_intelligence
-- human_intelligence
-- intelligence
-- cognition
-- cognition_canon
-- canon
-- universe
-- 03_cognition_canon
-- canon_placeholder
-- rscf
-- provenance
-- lineage
-- epistemic_integrity
-- scope
-- regime
-- temporal_validity
-- causal_firewall
-- validation
-- competing_hypotheses
-- canon/universe
-- memory
-- dignity
-- architecture
-- law-hierarchy
-- amos-cross-species-functional-mode-model
-- routing-policy-validation-receipt
-- authz-engine-validation-receipt
+  - amos-os
+  - amos_human_intelligence
+  - human_intelligence
+  - intelligence
+  - cognition
+  - cognition_canon
+  - canon
+  - universe
+  - 03_cognition_canon
+  - canon_placeholder
+  - rscf
+  - provenance
+  - lineage
+  - epistemic_integrity
+  - scope
+  - regime
+  - temporal_validity
+  - causal_firewall
+  - validation
+  - competing_hypotheses
+  - canon/universe
+  - memory
+  - dignity
+  - architecture
+  - law-hierarchy
+  - amos-cross-species-functional-mode-model
+  - routing-policy-validation-receipt
+  - authz-engine-validation-receipt
 aliases:
-- AMOS Human Intelligence Canon
-- AMOS Human Intelligence
+  - AMOS Human Intelligence Canon
+  - AMOS Human Intelligence
 version: 0.2.0
 updated: '2026-08-27'
 status: PLACEHOLDER_EXPANDED
@@ -113,9 +113,9 @@ rscf:
 > **Executable binding:** `NOT_ESTABLISHED`
 > **Origin architect / steward:** **Trang Phan**
 
----
+______________________________________________________________________
 
-# 0. Canonical Status
+## 0. Canonical Status
 
 `AMOS_HUMAN_INTELLIGENCE_CANON.md` is an **ADD-ONLY canonical-slot placeholder** in:
 
@@ -169,7 +169,7 @@ The supplied source does **not** establish:
 
 Therefore:
 
-```text
+````text
 CANONICAL_STATUS
 =
 UNKNOWN/GAP
@@ -181,7 +181,7 @@ NOT_ESTABLISHED
 
 ---
 
-# 1. Governing Integrity Boundary
+## 1. Governing Integrity Boundary
 
 The source establishes:
 
@@ -211,7 +211,7 @@ IMPLEMENTED != VALIDATED
 LOGGED != APPROVED
 
 UNKNOWN/GAP != PASS
-```
+````
 
 For Human Intelligence, extend conservatively:
 
@@ -325,9 +325,9 @@ HUMAN-LIKE COGNITION
 HUMAN CONSCIOUSNESS
 ```
 
----
+______________________________________________________________________
 
-# 2. Strongest Supported Claim
+## 2. Strongest Supported Claim
 
 > **DERIVED:** AMOS OS reserves an ADD-ONLY Canon artifact named `AMOS_HUMAN_INTELLIGENCE_CANON.md` in the Cognition Canon segment for the framework family identified as **AMOS Human Intelligence Canon**.
 
@@ -361,9 +361,9 @@ claim:
 
 No stronger substantive claim about human intelligence is licensed by the placeholder alone.
 
----
+______________________________________________________________________
 
-# 3. Artifact Identity
+## 3. Artifact Identity
 
 ```yaml
 identity:
@@ -396,9 +396,9 @@ identity:
   ingestion_action: ADD_ONLY
 ```
 
----
+______________________________________________________________________
 
-# 4. Identifier Consistency
+## 4. Identifier Consistency
 
 The source uses the same textual identifier for `artifact_id` and `node_id`.
 
@@ -428,11 +428,11 @@ Executable identity resolution remains:
 
 `NOT_ESTABLISHED`.
 
----
+______________________________________________________________________
 
-# Part I — Core Semantic Firewalls
+## Part I — Core Semantic Firewalls
 
-# 5. Native Meaning of “Human”
+## 5. Native Meaning of “Human”
 
 The placeholder does not define the scope of `human`.
 
@@ -479,9 +479,9 @@ ONE TEST POPULATION
 
 unless native scope establishes it.
 
----
+______________________________________________________________________
 
-# 6. Native Meaning of “Intelligence”
+## 6. Native Meaning of “Intelligence”
 
 The placeholder names intelligence but does not define it.
 
@@ -493,22 +493,22 @@ AMOS_INTELLIGENCE_NATIVE_MEANING:
 
 Do not silently import definitions from:
 
-* psychometrics;
-* psychology;
-* cognitive science;
-* neuroscience;
-* education;
-* philosophy;
-* artificial intelligence;
-* machine learning;
-* economics;
-* evolutionary biology.
+- psychometrics;
+- psychology;
+- cognitive science;
+- neuroscience;
+- education;
+- philosophy;
+- artificial intelligence;
+- machine learning;
+- economics;
+- evolutionary biology.
 
 External theories remain external evidence unless governed ingestion explicitly incorporates them.
 
----
+______________________________________________________________________
 
-# 7. Native Meaning of “Human Intelligence”
+## 7. Native Meaning of “Human Intelligence”
 
 ```yaml
 AMOS_HUMAN_INTELLIGENCE_NATIVE_MEANING:
@@ -522,20 +522,20 @@ AMOS_HUMAN_INTELLIGENCE_NATIVE_MEANING:
 
 The title alone does not resolve whether AMOS means:
 
-* psychometric intelligence;
-* cognitive capability;
-* adaptive competence;
-* reasoning capacity;
-* learning capacity;
-* problem-solving;
-* multi-domain cognition;
-* a composite architecture;
-* a comparative construct;
-* an AMOS-specific model.
+- psychometric intelligence;
+- cognitive capability;
+- adaptive competence;
+- reasoning capacity;
+- learning capacity;
+- problem-solving;
+- multi-domain cognition;
+- a composite architecture;
+- a comparative construct;
+- an AMOS-specific model.
 
----
+______________________________________________________________________
 
-# 8. Intelligence ≠ IQ Firewall
+## 8. Intelligence ≠ IQ Firewall
 
 ```text
 INTELLIGENCE
@@ -576,9 +576,9 @@ iq_binding:
   status: NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 9. Intelligence ≠ Test Score Firewall
+## 9. Intelligence ≠ Test Score Firewall
 
 ```text
 TEST SCORE
@@ -608,9 +608,9 @@ GROUND TRUTH
 
 Any future intelligence measurement must distinguish latent construct from observable measurement.
 
----
+______________________________________________________________________
 
-# 10. Intelligence ≠ Knowledge Firewall
+## 10. Intelligence ≠ Knowledge Firewall
 
 ```text
 KNOWLEDGE
@@ -637,9 +637,9 @@ intelligence_to_knowledge:
   relation: UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 11. Intelligence ≠ Memory Firewall
+## 11. Intelligence ≠ Memory Firewall
 
 ```text
 MEMORY
@@ -663,9 +663,9 @@ Possible relation remains:
 
 `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
-# 12. Intelligence ≠ Reasoning Firewall
+## 12. Intelligence ≠ Reasoning Firewall
 
 ```text
 REASONING
@@ -689,9 +689,9 @@ A future native canon may make reasoning a component, manifestation, correlate, 
 
 `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
-# 13. Intelligence ≠ Learning Firewall
+## 13. Intelligence ≠ Learning Firewall
 
 ```text
 LEARNING
@@ -715,9 +715,9 @@ Native relation:
 
 `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
-# 14. Intelligence ≠ Creativity Firewall
+## 14. Intelligence ≠ Creativity Firewall
 
 ```text
 CREATIVITY
@@ -739,9 +739,9 @@ HUMAN CREATIVITY
 
 No creativity relation is established.
 
----
+______________________________________________________________________
 
-# 15. Intelligence ≠ Language Firewall
+## 15. Intelligence ≠ Language Firewall
 
 ```text
 LANGUAGE ABILITY
@@ -763,9 +763,9 @@ HIGH INTELLIGENCE
 
 Language-heavy measurements can confound intelligence claims unless measurement invariance and construct validity are established.
 
----
+______________________________________________________________________
 
-# 16. Intelligence ≠ Education Firewall
+## 16. Intelligence ≠ Education Firewall
 
 ```text
 EDUCATION
@@ -787,9 +787,9 @@ UNDERLYING CAPACITY
 
 Educational outcomes may reflect multiple causal factors.
 
----
+______________________________________________________________________
 
-# 17. Intelligence ≠ Expertise Firewall
+## 17. Intelligence ≠ Expertise Firewall
 
 ```text
 EXPERTISE
@@ -809,9 +809,9 @@ PROFESSIONAL STATUS
 INTELLIGENCE
 ```
 
----
+______________________________________________________________________
 
-# 18. Intelligence ≠ Productivity Firewall
+## 18. Intelligence ≠ Productivity Firewall
 
 ```text
 PRODUCTIVITY
@@ -833,9 +833,9 @@ INTELLIGENCE
 
 No socioeconomic inference is licensed by this placeholder.
 
----
+______________________________________________________________________
 
-# 19. Intelligence ≠ Wisdom Firewall
+## 19. Intelligence ≠ Wisdom Firewall
 
 ```text
 INTELLIGENCE
@@ -855,9 +855,9 @@ HIGH CAPABILITY
 GOOD DECISION
 ```
 
----
+______________________________________________________________________
 
-# 20. Intelligence ≠ Moral Worth Firewall
+## 20. Intelligence ≠ Moral Worth Firewall
 
 This distinction is mandatory for any future Human Intelligence canon:
 
@@ -893,9 +893,9 @@ AUTHORITY
 
 The artifact must never transform a descriptive intelligence construct into an unsupported normative hierarchy.
 
----
+______________________________________________________________________
 
-# 21. Intelligence ≠ Consciousness Firewall
+## 21. Intelligence ≠ Consciousness Firewall
 
 ```text
 INTELLIGENCE
@@ -919,11 +919,11 @@ SELF-REPORT
 PROOF OF SUBJECTIVE EXPERIENCE
 ```
 
-Relation to  remains `UNKNOWN/GAP`.
+Relation to remains `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
-# 22. Intelligence ≠ Agency Firewall
+## 22. Intelligence ≠ Agency Firewall
 
 ```text
 INTELLIGENCE
@@ -947,9 +947,9 @@ AGENCY
 RIGHT TO COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 23. Human-Like Performance Firewall
+## 23. Human-Like Performance Firewall
 
 Especially for comparisons with artificial systems:
 
@@ -975,11 +975,11 @@ SUPERHUMAN TASK PERFORMANCE
 SUPERHUMAN GENERAL INTELLIGENCE
 ```
 
----
+______________________________________________________________________
 
-# Part II — Competing Interpretations
+## Part II — Competing Interpretations
 
-# 24. Competing Native Interpretations
+## 24. Competing Native Interpretations
 
 Until native AMOS evidence discriminates among them:
 
@@ -1031,9 +1031,9 @@ UNKNOWN/GAP
 
 These hypotheses are discriminating scaffolds, not canon.
 
----
+______________________________________________________________________
 
-# 25. Cheapest Discriminating Evidence
+## 25. Cheapest Discriminating Evidence
 
 The highest-information evidence is a verified native AMOS source explicitly defining:
 
@@ -1112,11 +1112,11 @@ WHAT WOULD FALSIFY THE MODEL?
 
 Repeated use of the phrase `human intelligence` without these definitions does not resolve the canon.
 
----
+______________________________________________________________________
 
-# Part III — Native Definition Schema
+## Part III — Native Definition Schema
 
-# 26. Native Human Intelligence Schema
+## 26. Native Human Intelligence Schema
 
 ```yaml
 AMOS_HUMAN_INTELLIGENCE_NATIVE_SCHEMA:
@@ -1247,9 +1247,9 @@ AMOS_HUMAN_INTELLIGENCE_NATIVE_SCHEMA:
 
 This schema reserves slots only. It does not populate them.
 
----
+______________________________________________________________________
 
-# 27. Construct-Type Registry
+## 27. Construct-Type Registry
 
 ```yaml
 human_intelligence_construct_type:
@@ -1267,9 +1267,9 @@ human_intelligence_construct_type:
   native_amos_type: UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 28. Unit of Analysis
+## 28. Unit of Analysis
 
 ```yaml
 unit_of_analysis:
@@ -1285,9 +1285,9 @@ unit_of_analysis:
 
 Do not silently move between levels.
 
----
+______________________________________________________________________
 
-# 29. Intelligence Architecture
+## 29. Intelligence Architecture
 
 ```yaml
 intelligence_architecture:
@@ -1302,9 +1302,9 @@ intelligence_architecture:
 
 No architecture should be reconstructed from general psychology without native evidence.
 
----
+______________________________________________________________________
 
-# 30. Capability Registry
+## 30. Capability Registry
 
 ```yaml
 AMOS_HUMAN_INTELLIGENCE_CAPABILITY_REGISTRY:
@@ -1330,9 +1330,9 @@ capability:
   falsifiers: required
 ```
 
----
+______________________________________________________________________
 
-# 31. Dimension Registry
+## 31. Dimension Registry
 
 ```yaml
 AMOS_HUMAN_INTELLIGENCE_DIMENSIONS:
@@ -1356,9 +1356,9 @@ MODULAR
 DISTRIBUTED
 ```
 
----
+______________________________________________________________________
 
-# 32. Factor Model
+## 32. Factor Model
 
 ```yaml
 factor_model:
@@ -1371,9 +1371,9 @@ factor_model:
 
 No external psychometric factor model is native AMOS canon by default.
 
----
+______________________________________________________________________
 
-# 33. Variable Registry
+## 33. Variable Registry
 
 ```yaml
 AMOS_HUMAN_INTELLIGENCE_VARIABLE_REGISTRY:
@@ -1397,9 +1397,9 @@ variable:
   provenance: required
 ```
 
----
+______________________________________________________________________
 
-# 34. Equation Registry
+## 34. Equation Registry
 
 ```yaml
 AMOS_HUMAN_INTELLIGENCE_EQUATION_REGISTRY:
@@ -1427,11 +1427,11 @@ PREDICTIVE ACCURACY
 CONSTRUCT VALIDITY
 ```
 
----
+______________________________________________________________________
 
-# Part IV — Measurement and Psychometrics Firewall
+## Part IV — Measurement and Psychometrics Firewall
 
-# 35. Measurement Model
+## 35. Measurement Model
 
 ```yaml
 measurement_model:
@@ -1448,9 +1448,9 @@ measurement_model:
   reliability_model: UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 36. Construct vs Measurement
+## 36. Construct vs Measurement
 
 ```text
 INTELLIGENCE CONSTRUCT
@@ -1476,9 +1476,9 @@ CAPABILITY ITSELF
 
 A measurement may provide evidence about a construct only under a validated measurement model.
 
----
+______________________________________________________________________
 
-# 37. IQ Binding
+## 37. IQ Binding
 
 ```yaml
 iq:
@@ -1500,9 +1500,9 @@ IQ
 
 unless native canon establishes a typed relation.
 
----
+______________________________________________________________________
 
-# 38. Benchmark Firewall
+## 38. Benchmark Firewall
 
 ```text
 BENCHMARK SUCCESS
@@ -1526,9 +1526,9 @@ ONE BENCHMARK
 COMPLETE INTELLIGENCE PROFILE
 ```
 
----
+______________________________________________________________________
 
-# 39. Reliability Firewall
+## 39. Reliability Firewall
 
 A repeatable measurement is not automatically valid.
 
@@ -1548,9 +1548,9 @@ LOW MODEL UNCERTAINTY
 
 Native reliability requirements remain `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
-# 40. Construct Validity
+## 40. Construct Validity
 
 A future intelligence measurement should discriminate:
 
@@ -1567,9 +1567,9 @@ construct_validity:
 
 No such validation is established by this placeholder.
 
----
+______________________________________________________________________
 
-# 41. Measurement Invariance
+## 41. Measurement Invariance
 
 For comparisons across populations:
 
@@ -1600,9 +1600,9 @@ measurement_invariance:
   methods: []
 ```
 
----
+______________________________________________________________________
 
-# 42. Language Confounding
+## 42. Language Confounding
 
 ```text
 LANGUAGE-HEAVY TEST PERFORMANCE
@@ -1620,9 +1620,9 @@ MEASUREMENT INVARIANCE
 
 Language, education, familiarity, and task structure may be relevant alternative explanations where material.
 
----
+______________________________________________________________________
 
-# 43. Cultural Scope Firewall
+## 43. Cultural Scope Firewall
 
 ```text
 VALID IN CULTURE C1
@@ -1640,9 +1640,9 @@ UNIVERSAL HUMAN NORM
 
 Native cultural scope is unresolved.
 
----
+______________________________________________________________________
 
-# 44. Individual vs Population Firewall
+## 44. Individual vs Population Firewall
 
 ```text
 POPULATION MEAN
@@ -1664,9 +1664,9 @@ SPECIES UNIVERSAL
 
 Statistical group information must not be converted into unsupported claims about a particular individual.
 
----
+______________________________________________________________________
 
-# 45. Trait vs State Firewall
+## 45. Trait vs State Firewall
 
 ```text
 CURRENT PERFORMANCE
@@ -1690,9 +1690,9 @@ Native trait/state semantics:
 
 `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
-# 46. Capability vs Performance
+## 46. Capability vs Performance
 
 ```text
 CAPABILITY
@@ -1712,11 +1712,11 @@ Performance may depend on context, opportunity, motivation, instruction, measure
 
 The placeholder does not define these relationships.
 
----
+______________________________________________________________________
 
-# Part V — Human Development and Variation
+## Part V — Human Development and Variation
 
-# 47. Developmental Firewall
+## 47. Developmental Firewall
 
 ```text
 ADULT MODEL
@@ -1747,9 +1747,9 @@ development:
   mechanisms: UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 48. Individual-Difference Model
+## 48. Individual-Difference Model
 
 ```yaml
 individual_differences:
@@ -1762,9 +1762,9 @@ individual_differences:
 
 No native ranking semantics are established.
 
----
+______________________________________________________________________
 
-# 49. Ranking Firewall
+## 49. Ranking Firewall
 
 The placeholder provides no basis for ranking humans by:
 
@@ -1800,9 +1800,9 @@ COGNITIVE DIFFERENCE
 MORAL HIERARCHY
 ```
 
----
+______________________________________________________________________
 
-# 50. Fixed-Potential Firewall
+## 50. Fixed-Potential Firewall
 
 ```text
 CURRENT SCORE
@@ -1824,9 +1824,9 @@ INDIVIDUAL CERTAINTY
 
 The placeholder establishes no fixed-potential theory.
 
----
+______________________________________________________________________
 
-# 51. Genetic Causality Firewall
+## 51. Genetic Causality Firewall
 
 No genetic model is established.
 
@@ -1858,9 +1858,9 @@ GENETIC CORRELATION
 CAUSAL MECHANISM
 ```
 
----
+______________________________________________________________________
 
-# 52. Environmental Causality Firewall
+## 52. Environmental Causality Firewall
 
 ```yaml
 environment_relation:
@@ -1883,9 +1883,9 @@ SOCIOECONOMIC ASSOCIATION
 INTELLIGENCE ESSENCE
 ```
 
----
+______________________________________________________________________
 
-# 53. Nature/Nurture Firewall
+## 53. Nature/Nurture Firewall
 
 The placeholder does not establish any decomposition of intelligence into genetic versus environmental causes.
 
@@ -1917,15 +1917,13 @@ EDUCATIONAL CONTEXT
 
 but all remain external possibilities unless native canon specifies them.
 
----
+______________________________________________________________________
 
-# Part VI — Cognitive Relations
+## Part VI — Cognitive Relations
 
-# 54. Relation to Cognition Canon
+## 54. Relation to Cognition Canon
 
 Related:
-
-
 
 Current:
 
@@ -1940,13 +1938,11 @@ human_intelligence_to_cognition:
 
 Same-segment placement does not establish hierarchy or dependency.
 
----
+______________________________________________________________________
 
-# 55. Relation to Cognition Master Canon
+## 55. Relation to Cognition Master Canon
 
 Related:
-
-
 
 ```yaml
 human_intelligence_to_cognition_master:
@@ -1958,9 +1954,9 @@ human_intelligence_to_cognition_master:
   supersession: UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 56. Reasoning Relation
+## 56. Reasoning Relation
 
 ```yaml
 human_intelligence_to_reasoning:
@@ -1976,9 +1972,9 @@ REASONING PERFORMANCE
 TOTAL INTELLIGENCE
 ```
 
----
+______________________________________________________________________
 
-# 57. Memory Relation
+## 57. Memory Relation
 
 ```yaml
 human_intelligence_to_memory:
@@ -1994,9 +1990,9 @@ MEMORY CAPACITY
 TOTAL INTELLIGENCE
 ```
 
----
+______________________________________________________________________
 
-# 58. Learning Relation
+## 58. Learning Relation
 
 ```yaml
 human_intelligence_to_learning:
@@ -2012,9 +2008,9 @@ FAST LEARNING
 TOTAL INTELLIGENCE
 ```
 
----
+______________________________________________________________________
 
-# 59. Attention Relation
+## 59. Attention Relation
 
 ```yaml
 human_intelligence_to_attention:
@@ -2030,9 +2026,9 @@ ATTENTIONAL CONTROL
 TOTAL INTELLIGENCE
 ```
 
----
+______________________________________________________________________
 
-# 60. Perception Relation
+## 60. Perception Relation
 
 ```yaml
 human_intelligence_to_perception:
@@ -2048,9 +2044,9 @@ PERCEPTUAL ACCURACY
 TOTAL INTELLIGENCE
 ```
 
----
+______________________________________________________________________
 
-# 61. Language Relation
+## 61. Language Relation
 
 ```yaml
 human_intelligence_to_language:
@@ -2062,9 +2058,9 @@ human_intelligence_to_language:
 
 Language may be a capability, measurement channel, confound, or separate construct. Native semantics are unresolved.
 
----
+______________________________________________________________________
 
-# 62. Decision Relation
+## 62. Decision Relation
 
 ```yaml
 human_intelligence_to_decision:
@@ -2086,13 +2082,11 @@ HIGH INTELLIGENCE
 
 Decision quality may depend on goals, information, uncertainty, values, incentives, and context.
 
----
+______________________________________________________________________
 
-# 63. Emotion Relation
+## 63. Emotion Relation
 
 Related, where canonically available:
-
-
 
 ```yaml
 human_intelligence_to_emotion:
@@ -2112,9 +2106,9 @@ EMOTIONAL REGULATION
 GENERAL INTELLIGENCE
 ```
 
----
+______________________________________________________________________
 
-# 64. Agency Relation
+## 64. Agency Relation
 
 ```yaml
 human_intelligence_to_agency:
@@ -2134,9 +2128,9 @@ INTELLIGENCE
 AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 65. Metacognition Relation
+## 65. Metacognition Relation
 
 ```yaml
 human_intelligence_to_metacognition:
@@ -2156,13 +2150,11 @@ CONFIDENCE CALIBRATION
 TOTAL INTELLIGENCE
 ```
 
----
+______________________________________________________________________
 
-# 66. Consciousness Relation
+## 66. Consciousness Relation
 
 Related:
-
-
 
 ```yaml
 human_intelligence_to_consciousness:
@@ -2188,13 +2180,11 @@ SELF-REPORT
 VERIFIED PHENOMENOLOGY
 ```
 
----
+______________________________________________________________________
 
-# 67. Homeostasis Relation
+## 67. Homeostasis Relation
 
 Related:
-
-
 
 ```yaml
 human_intelligence_to_homeostasis:
@@ -2214,13 +2204,11 @@ HOMEOSTASIS
 INTELLIGENCE
 ```
 
----
+______________________________________________________________________
 
-# 68. Cognitive Field Relation
+## 68. Cognitive Field Relation
 
 Related:
-
-
 
 ```yaml
 human_intelligence_to_cognitive_field:
@@ -2240,11 +2228,11 @@ FIELD STATE
 INTELLIGENCE SCORE
 ```
 
----
+______________________________________________________________________
 
-# Part VII — Human / AI / Cross-Species Firewalls
+## Part VII — Human / AI / Cross-Species Firewalls
 
-# 69. Human vs Artificial Intelligence
+## 69. Human vs Artificial Intelligence
 
 The placeholder does not define the relation between human and artificial intelligence.
 
@@ -2258,9 +2246,9 @@ human_ai_relation:
   causal_mapping: UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 70. AI Comparison Firewall
+## 70. AI Comparison Firewall
 
 ```text
 SAME TASK SCORE
@@ -2296,9 +2284,9 @@ HUMAN-LIKE REASONING TRACE
 HUMAN COGNITIVE MECHANISM
 ```
 
----
+______________________________________________________________________
 
-# 71. Biological Implementation Firewall
+## 71. Biological Implementation Firewall
 
 ```text
 HUMAN INTELLIGENCE
@@ -2322,13 +2310,11 @@ Native biological mapping remains:
 
 `NOT_ESTABLISHED`.
 
----
+______________________________________________________________________
 
-# 72. Cross-Species Relation
+## 72. Cross-Species Relation
 
 Related:
-
-
 
 ```yaml
 human_intelligence_to_cross_species:
@@ -2340,9 +2326,9 @@ human_intelligence_to_cross_species:
   analogy: UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 73. Cross-Species Intelligence Firewall
+## 73. Cross-Species Intelligence Firewall
 
 ```text
 HUMAN PERFORMANCE
@@ -2366,9 +2352,9 @@ INTELLIGENCE COMPARISON
 EVOLUTIONARY RANKING
 ```
 
----
+______________________________________________________________________
 
-# 74. Anthropocentrism Firewall
+## 74. Anthropocentrism Firewall
 
 A Human Intelligence canon must not silently convert human performance patterns into universal intelligence criteria.
 
@@ -2390,11 +2376,11 @@ HUMAN OPTIMUM
 UNIVERSAL OPTIMUM
 ```
 
----
+______________________________________________________________________
 
-# Part VIII — Causal Discipline
+## Part VIII — Causal Discipline
 
-# 75. Causal Firewall
+## 75. Causal Firewall
 
 Any future causal claim must distinguish:
 
@@ -2446,9 +2432,9 @@ GENETIC ASSOCIATION
 GENETIC DETERMINISM
 ```
 
----
+______________________________________________________________________
 
-# 76. Causal Claim Schema
+## 76. Causal Claim Schema
 
 ```yaml
 human_intelligence_causal_claim:
@@ -2468,9 +2454,9 @@ human_intelligence_causal_claim:
   falsifiers: required
 ```
 
----
+______________________________________________________________________
 
-# 77. Necessary / Sufficient Conditions
+## 77. Necessary / Sufficient Conditions
 
 No necessary or sufficient conditions for human intelligence are established by this placeholder.
 
@@ -2500,9 +2486,9 @@ HIGH TEST SCORE
 → SUFFICIENT FOR GENERAL INTELLIGENCE
 ```
 
----
+______________________________________________________________________
 
-# 78. Confounding Firewall
+## 78. Confounding Firewall
 
 If variable `A` correlates with measured intelligence `I`, alternatives may include:
 
@@ -2530,11 +2516,11 @@ H10 — the association is statistical noise.
 
 Correlation alone cannot discriminate these.
 
----
+______________________________________________________________________
 
-# Part IX — Provenance and Evidence Topology
+## Part IX — Provenance and Evidence Topology
 
-# 79. Evidence Classes
+## 79. Evidence Classes
 
 Use:
 
@@ -2566,9 +2552,9 @@ Examples:
 → UNKNOWN/GAP absent causal evidence
 ```
 
----
+______________________________________________________________________
 
-# 80. Provenance Topology
+## 80. Provenance Topology
 
 ```text
 NATIVE SOURCE
@@ -2592,9 +2578,9 @@ IMPLEMENTATION BINDINGS
 VALIDATION RECEIPTS
 ```
 
----
+______________________________________________________________________
 
-# 81. Provenance Record
+## 81. Provenance Record
 
 ```yaml
 provenance_record:
@@ -2611,9 +2597,9 @@ provenance_record:
   regime: required
 ```
 
----
+______________________________________________________________________
 
-# 82. Documentary Independence
+## 82. Documentary Independence
 
 ```text
 SOURCE A
@@ -2637,9 +2623,9 @@ provenance_independence:
   status: NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 83. Population Independence vs Documentary Independence
+## 83. Population Independence vs Documentary Independence
 
 Two different dependency structures must not be conflated.
 
@@ -2671,9 +2657,9 @@ MANY INDEPENDENT DATASETS
 
 Both ancestry graphs matter.
 
----
+______________________________________________________________________
 
-# 84. Confidence Ceiling
+## 84. Confidence Ceiling
 
 ```text
 DERIVED CONFIDENCE
@@ -2690,9 +2676,9 @@ C = "Capability X is part of AMOS Human Intelligence"
 
 depends on an unresolved native definition, confidence in `C` cannot exceed that unresolved premise.
 
----
+______________________________________________________________________
 
-# 85. External Research Firewall
+## 85. External Research Firewall
 
 Under the ingestion rule:
 
@@ -2704,21 +2690,21 @@ EXTERNAL RESEARCH
 
 This includes external work on:
 
-* psychometrics;
-* general intelligence;
-* multiple intelligences;
-* cognitive ability;
-* IQ;
-* working memory;
-* executive function;
-* neuroscience;
-* genetics;
-* behavioral genetics;
-* development;
-* education;
-* cultural psychology;
-* comparative cognition;
-* artificial intelligence.
+- psychometrics;
+- general intelligence;
+- multiple intelligences;
+- cognitive ability;
+- IQ;
+- working memory;
+- executive function;
+- neuroscience;
+- genetics;
+- behavioral genetics;
+- development;
+- education;
+- cultural psychology;
+- comparative cognition;
+- artificial intelligence.
 
 These remain:
 
@@ -2726,9 +2712,9 @@ These remain:
 
 unless explicitly governed into native canon.
 
----
+______________________________________________________________________
 
-# 86. Empirical Firewall
+## 86. Empirical Firewall
 
 A future AMOS document asserting:
 
@@ -2748,11 +2734,11 @@ DOCUMENTED
 EMPIRICALLY VERIFIED
 ```
 
----
+______________________________________________________________________
 
-# Part X — Scope / Regime / Time
+## Part X — Scope / Regime / Time
 
-# 87. Scope Envelope
+## 87. Scope Envelope
 
 Artifact scope:
 
@@ -2783,9 +2769,9 @@ human_intelligence_scope:
   assumptions: UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 88. Scope Firewall
+## 88. Scope Firewall
 
 ```text
 VALID FOR SAMPLE S
@@ -2817,9 +2803,9 @@ VALID IN LAB SETTING
 VALID IN ALL ENVIRONMENTS
 ```
 
----
+______________________________________________________________________
 
-# 89. Regime Envelope
+## 89. Regime Envelope
 
 ```yaml
 regime:
@@ -2837,9 +2823,9 @@ regime:
   transition_conditions: UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 90. Regime-Shift Firewall
+## 90. Regime-Shift Firewall
 
 ```text
 VALID @ R1
@@ -2859,9 +2845,9 @@ BENCHMARK PERFORMANCE @ R1
 BENCHMARK PERFORMANCE @ R2
 ```
 
----
+______________________________________________________________________
 
-# 91. Temporal Validity
+## 91. Temporal Validity
 
 ```yaml
 temporal_validity:
@@ -2874,11 +2860,11 @@ temporal_validity:
 
 Developmental and longitudinal claims require explicit temporal scope.
 
----
+______________________________________________________________________
 
-# Part XI — RSCF / H-M-L / Fractal Binding
+## Part XI — RSCF / H-M-L / Fractal Binding
 
-# 92. RSCF Binding
+## 92. RSCF Binding
 
 The source declares:
 
@@ -2914,9 +2900,9 @@ L DETAIL
 
 Native mappings remain `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
-# 93. RSCF Human Intelligence Claim
+## 93. RSCF Human Intelligence Claim
 
 ```yaml
 rscf_human_intelligence_claim:
@@ -2938,9 +2924,9 @@ rscf_human_intelligence_claim:
   confidence_ceiling: required
 ```
 
----
+______________________________________________________________________
 
-# 94. H/M/L Binding
+## 94. H/M/L Binding
 
 ```yaml
 hml_binding:
@@ -2959,9 +2945,9 @@ L = TEST PERFORMANCE
 
 as native AMOS hierarchy.
 
----
+______________________________________________________________________
 
-# 95. Fractal Retrieval Target
+## 95. Fractal Retrieval Target
 
 ```text
 BOOTSTRAP CAPSULE
@@ -2984,9 +2970,9 @@ DO_NOT_LOAD_UNLESS_REQUIRED
 
 This is a reasoning pattern, not evidence that literal source-code machinery exists for this artifact.
 
----
+______________________________________________________________________
 
-# 96. Smallest Sufficient Proof Scope
+## 96. Smallest Sufficient Proof Scope
 
 For a substantive intelligence claim:
 
@@ -3034,11 +3020,11 @@ HIGH-STAKES CONSEQUENCE
 AMBIGUOUS DEPENDENCIES
 ```
 
----
+______________________________________________________________________
 
-# Part XII — Canon Mutation Discipline
+## Part XII — Canon Mutation Discipline
 
-# 97. Contract Discipline
+## 97. Contract Discipline
 
 **Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.**
 
@@ -3055,9 +3041,9 @@ human_intelligence_canon_contract:
   mutation: ROLLBACK_BASIN_REQUIRED
 ```
 
----
+______________________________________________________________________
 
-# 98. Worked Canon-Operation Semantics
+## 98. Worked Canon-Operation Semantics
 
 Given an operation touching:
 
@@ -3121,9 +3107,9 @@ INVALIDATE DEPENDENT DESCENDANTS ONLY
 RECORD RECEIPT
 ```
 
----
+______________________________________________________________________
 
-# 99. Intelligence Semantics vs Governance Semantics
+## 99. Intelligence Semantics vs Governance Semantics
 
 Do not confuse the canon-operation lifecycle with human cognitive architecture.
 
@@ -3146,9 +3132,9 @@ CANON GOVERNANCE FLOW
 HUMAN COGNITIVE FLOW
 ```
 
----
+______________________________________________________________________
 
-# 100. Selective Invalidation
+## 100. Selective Invalidation
 
 Suppose:
 
@@ -3177,9 +3163,9 @@ DEPENDENT DESCENDANTS
 
 Do not invalidate independently supported `P1`, `P2`, `P4`, or `P5`.
 
----
+______________________________________________________________________
 
-# 101. Failure Recovery
+## 101. Failure Recovery
 
 ```text
 FAILED PREMISE
@@ -3197,9 +3183,9 @@ REROUTE WITH CHANGED EVIDENCE
 
 Global recomputation is last resort.
 
----
+______________________________________________________________________
 
-# 102. MVCC Conceptual Discipline
+## 102. MVCC Conceptual Discipline
 
 ```text
 READ CANON @ VERSION vN
@@ -3221,9 +3207,9 @@ Literal MVCC implementation:
 
 `NOT_ESTABLISHED`.
 
----
+______________________________________________________________________
 
-# 103. CAS Conceptual Discipline
+## 103. CAS Conceptual Discipline
 
 ```text
 EXPECTED = vN
@@ -3240,9 +3226,9 @@ Literal CAS implementation:
 
 `NOT_ESTABLISHED`.
 
----
+______________________________________________________________________
 
-# 104. Atomic Multi-RSCF Target
+## 104. Atomic Multi-RSCF Target
 
 A future update may span:
 
@@ -3280,9 +3266,9 @@ Literal distributed transaction implementation:
 
 `NOT_ESTABLISHED`.
 
----
+______________________________________________________________________
 
-# 105. Causal Epoch Discipline
+## 105. Causal Epoch Discipline
 
 ```yaml
 epoch_binding:
@@ -3304,9 +3290,9 @@ Literal causal-epoch finalization:
 
 `NOT_ESTABLISHED`.
 
----
+______________________________________________________________________
 
-# 106. Proof-Based Coordination Avoidance
+## 106. Proof-Based Coordination Avoidance
 
 Local processing is justified only if:
 
@@ -3330,51 +3316,51 @@ Otherwise:
 
 `ESCALATE`.
 
----
+______________________________________________________________________
 
-# Part XIII — Adversarial Validation
+## Part XIII — Adversarial Validation
 
-# 107. Adversarial Validation Checklist
+## 107. Adversarial Validation Checklist
 
 For a consequential Human Intelligence claim, challenge:
 
-* Is `human intelligence` natively defined?
-* Is an external psychology definition being imported?
-* Is intelligence being equated with IQ?
-* Is a score being equated with the construct?
-* Is reasoning being equated with intelligence?
-* Is memory being equated with intelligence?
-* Is learning being equated with intelligence?
-* Is language ability being equated with intelligence?
-* Is creativity being equated with intelligence?
-* Is education being used as an intelligence proxy?
-* Is expertise being confused with general ability?
-* Is performance being confused with capability?
-* Is state being confused with trait?
-* Is a population average being applied to an individual?
-* Is a sample being generalized to humanity?
-* Is measurement invariance established?
-* Are cultural effects controlled?
-* Are language effects controlled?
-* Are developmental differences represented?
-* Is correlation being promoted to causation?
-* Is heritability being interpreted as immutability?
-* Is a genetic association being treated as determinism?
-* Is environmental association being treated as causal proof?
-* Is a human-like AI output being treated as human-like cognition?
-* Is task parity being treated as general intelligence parity?
-* Is intelligence being treated as consciousness?
-* Is intelligence being treated as agency?
-* Is intelligence being treated as wisdom?
-* Is intelligence being converted into moral worth?
-* Is intelligence being converted into authority?
-* Is cross-species difference being converted into evolutionary ranking?
-* Are shared-ancestry sources counted as independent?
-* Is external research being imported into native AMOS canon?
-* Is scope leaking?
-* Did the regime change?
-* Are measurements stale?
-* Does confidence exceed the weakest load-bearing premise?
+- Is `human intelligence` natively defined?
+- Is an external psychology definition being imported?
+- Is intelligence being equated with IQ?
+- Is a score being equated with the construct?
+- Is reasoning being equated with intelligence?
+- Is memory being equated with intelligence?
+- Is learning being equated with intelligence?
+- Is language ability being equated with intelligence?
+- Is creativity being equated with intelligence?
+- Is education being used as an intelligence proxy?
+- Is expertise being confused with general ability?
+- Is performance being confused with capability?
+- Is state being confused with trait?
+- Is a population average being applied to an individual?
+- Is a sample being generalized to humanity?
+- Is measurement invariance established?
+- Are cultural effects controlled?
+- Are language effects controlled?
+- Are developmental differences represented?
+- Is correlation being promoted to causation?
+- Is heritability being interpreted as immutability?
+- Is a genetic association being treated as determinism?
+- Is environmental association being treated as causal proof?
+- Is a human-like AI output being treated as human-like cognition?
+- Is task parity being treated as general intelligence parity?
+- Is intelligence being treated as consciousness?
+- Is intelligence being treated as agency?
+- Is intelligence being treated as wisdom?
+- Is intelligence being converted into moral worth?
+- Is intelligence being converted into authority?
+- Is cross-species difference being converted into evolutionary ranking?
+- Are shared-ancestry sources counted as independent?
+- Is external research being imported into native AMOS canon?
+- Is scope leaking?
+- Did the regime change?
+- Are measurements stale?
+- Does confidence exceed the weakest load-bearing premise?
 
 If challenge succeeds:
 
@@ -3388,9 +3374,9 @@ OR
 RETURN UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 108. Sensitivity Analysis
+## 108. Sensitivity Analysis
 
 Highest-sensitivity premise:
 
@@ -3421,9 +3407,9 @@ Next highest:
 
 If the native definition differs from conventional psychometric usage, externally inferred factor/measurement architecture must not survive merely because it is familiar.
 
----
+______________________________________________________________________
 
-# 109. Uncertainty Vector
+## 109. Uncertainty Vector
 
 ```yaml
 uncertainty:
@@ -3491,15 +3477,13 @@ uncertainty:
   executable_binding: HIGH
 ```
 
----
+______________________________________________________________________
 
-# Part XIV — Cross-Plane Boundaries
+## Part XIV — Cross-Plane Boundaries
 
-# 110. Kernel Boundary
+## 110. Kernel Boundary
 
 Target:
-
-
 
 ```text
 HUMAN INTELLIGENCE CANON
@@ -3519,13 +3503,11 @@ Kernel binding:
 
 `NOT_ESTABLISHED`.
 
----
+______________________________________________________________________
 
-# 111. Control-Plane Boundary
+## 111. Control-Plane Boundary
 
 Target:
-
-
 
 ```text
 INTELLIGENCE
@@ -3549,13 +3531,11 @@ Control-plane binding:
 
 `NOT_ESTABLISHED`.
 
----
+______________________________________________________________________
 
-# 112. Observability Boundary
+## 112. Observability Boundary
 
 Target:
-
-
 
 ```text
 OBSERVED PERFORMANCE
@@ -3575,13 +3555,11 @@ OBSERVABILITY
 AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 113. Operations Boundary
+## 113. Operations Boundary
 
 Target:
-
-
 
 ```text
 SYSTEM RECOVERY
@@ -3601,16 +3579,16 @@ OPERATIONS PROCEDURE
 COGNITIVE PROCESS
 ```
 
----
+______________________________________________________________________
 
-# Part XV — Validation
+## Part XV — Validation
 
-# 114. Required Validation Receipts
+## 114. Required Validation Receipts
 
 Before promotion:
 
-*
-*
+-
+-
 
 Current:
 
@@ -3626,9 +3604,9 @@ validation_receipts:
     status: NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 115. Human Intelligence Validation Receipt Schema
+## 115. Human Intelligence Validation Receipt Schema
 
 ```yaml
 validation_receipt:
@@ -3691,9 +3669,9 @@ validation_receipt:
   final_status: required
 ```
 
----
+______________________________________________________________________
 
-# 116. Negative Validation Matrix
+## 116. Negative Validation Matrix
 
 | Case                                                     | Required behavior               |
 | -------------------------------------------------------- | ------------------------------- |
@@ -3747,11 +3725,11 @@ validation_receipt:
 | Missing validation receipt                               | no promotion                    |
 | `UNKNOWN/GAP` treated as PASS                            | reject                          |
 
----
+______________________________________________________________________
 
-# Part XVI — Gap Registry
+## Part XVI — Gap Registry
 
-# 117. Critical Gaps
+## 117. Critical Gaps
 
 ```yaml
 critical_gaps:
@@ -3795,9 +3773,9 @@ critical_gaps:
     status: UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 118. Decision-Relevant Gaps
+## 118. Decision-Relevant Gaps
 
 ```yaml
 decision_relevant_gaps:
@@ -3840,11 +3818,11 @@ decision_relevant_gaps:
   provenance_independence: NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# Part XVII — Worked Semantics
+## Part XVII — Worked Semantics
 
-# 119. Worked Example — IQ
+## 119. Worked Example — IQ
 
 Input:
 
@@ -3870,9 +3848,9 @@ IQ
 
 unless native AMOS canon explicitly establishes the relation.
 
----
+______________________________________________________________________
 
-# 120. Worked Example — Reasoning
+## 120. Worked Example — Reasoning
 
 Input:
 
@@ -3894,9 +3872,9 @@ REASONING
 TOTAL INTELLIGENCE
 ```
 
----
+______________________________________________________________________
 
-# 121. Worked Example — Test Score
+## 121. Worked Example — Test Score
 
 Input:
 
@@ -3927,9 +3905,9 @@ UNCERTAINTY
 COMPARABILITY
 ```
 
----
+______________________________________________________________________
 
-# 122. Worked Example — Population Mean
+## 122. Worked Example — Population Mean
 
 Input:
 
@@ -3952,9 +3930,9 @@ POPULATION MEAN
 INDIVIDUAL VALUE
 ```
 
----
+______________________________________________________________________
 
-# 123. Worked Example — Cultural Generalization
+## 123. Worked Example — Cultural Generalization
 
 Input:
 
@@ -3974,9 +3952,9 @@ Required:
 
 `measurement invariance + scope validation`.
 
----
+______________________________________________________________________
 
-# 124. Worked Example — Genetics
+## 124. Worked Example — Genetics
 
 Input:
 
@@ -4003,9 +3981,9 @@ HERITABILITY
 GENETIC DETERMINISM
 ```
 
----
+______________________________________________________________________
 
-# 125. Worked Example — Artificial Intelligence
+## 125. Worked Example — Artificial Intelligence
 
 Input:
 
@@ -4028,9 +4006,9 @@ BENCHMARK SUPERIORITY
 GENERAL INTELLIGENCE SUPERIORITY
 ```
 
----
+______________________________________________________________________
 
-# 126. Worked Example — Human-Like Language
+## 126. Worked Example — Human-Like Language
 
 Input:
 
@@ -4053,9 +4031,9 @@ HUMAN-LIKE LANGUAGE
 HUMAN INTELLIGENCE
 ```
 
----
+______________________________________________________________________
 
-# 127. Worked Example — Consciousness
+## 127. Worked Example — Consciousness
 
 Input:
 
@@ -4077,9 +4055,9 @@ INTELLIGENCE
 CONSCIOUSNESS
 ```
 
----
+______________________________________________________________________
 
-# 128. Worked Example — Moral Worth
+## 128. Worked Example — Moral Worth
 
 Input:
 
@@ -4101,9 +4079,9 @@ INTELLIGENCE
 HUMAN VALUE
 ```
 
----
+______________________________________________________________________
 
-# 129. Worked Example — Cross-Species Ranking
+## 129. Worked Example — Cross-Species Ranking
 
 Input:
 
@@ -4126,9 +4104,9 @@ TASK PERFORMANCE
 EVOLUTIONARY ADVANCEMENT
 ```
 
----
+______________________________________________________________________
 
-# 130. Worked Example — Source Correlation
+## 130. Worked Example — Source Correlation
 
 Suppose three AMOS documents assert the same intelligence definition but all descend from one source.
 
@@ -4140,9 +4118,9 @@ Suppose three AMOS documents assert the same intelligence definition but all des
 
 Confidence remains ancestry-bounded.
 
----
+______________________________________________________________________
 
-# 131. Worked Example — Competing Definitions
+## 131. Worked Example — Competing Definitions
 
 Suppose:
 
@@ -4164,9 +4142,9 @@ COMPETING
 
 Do not average the definitions.
 
----
+______________________________________________________________________
 
-# 132. Worked Example — Selective Failure
+## 132. Worked Example — Selective Failure
 
 Suppose:
 
@@ -4186,75 +4164,75 @@ INVALIDATE C1
 
 Do not automatically invalidate `C2` if its dependency path remains valid and independent.
 
----
+______________________________________________________________________
 
-# Part XVIII — Promotion
+## Part XVIII — Promotion
 
-# 133. Promotion-Gate Checklist
+## 133. Promotion-Gate Checklist
 
-* [ ] substantive content populated from verified native-canon source
-* [ ] native definition of `human` established
-* [ ] native definition of `intelligence` established
-* [ ] native definition of `human intelligence` established
-* [ ] unit of analysis established
-* [ ] construct type established
-* [ ] intelligence architecture established if claimed
-* [ ] capability registry established if claimed
-* [ ] dimension registry established if claimed
-* [ ] factor model established if claimed
-* [ ] variable registry established if claimed
-* [ ] equations established if claimed
-* [ ] measurement model established if claimed
-* [ ] IQ relation established if claimed
-* [ ] benchmark semantics established if claimed
-* [ ] reliability validated if measurement claimed
-* [ ] construct validity established if measurement claimed
-* [ ] measurement invariance established for cross-population comparison
-* [ ] developmental scope established
-* [ ] cultural scope established
-* [ ] language scope established
-* [ ] individual/population distinction enforced
-* [ ] genetic claims typed if present
-* [ ] environmental claims typed if present
-* [ ] causal claims validated if present
-* [ ] reasoning relation established
-* [ ] memory relation established
-* [ ] learning relation established
-* [ ] attention relation established
-* [ ] perception relation established
-* [ ] language relation established
-* [ ] decision relation established
-* [ ] emotion relation established
-* [ ] agency relation established
-* [ ] metacognition relation established
-* [ ] consciousness relation established
-* [ ] homeostasis relation established
-* [ ] cognitive-field relation established
-* [ ] human/AI comparison semantics established if claimed
-* [ ] cross-species semantics established if claimed
-* [ ] biological mappings established if claimed
-* [ ] normative firewalls preserved
-* [ ] typed schema bound to artifact
-* [ ] identity + versioning implemented
-* [ ] scope envelope established
-* [ ] regime envelope established
-* [ ] temporal validity established
-* [ ] dependency topology established
-* [ ] provenance persisted
-* [ ] provenance ancestry validated
-* [ ] provenance independence assessed
-* [ ] competing hypotheses preserved
-* [ ] negative cases covered
-* [ ] rollback basin demonstrated
-* [ ] executable binding established if enforcement claimed
-* [ ]  resolved
-* [ ]  resolved
-* [ ] artifact-specific validation receipt executed
-* [ ] unresolved critical gaps remain visible
+- [ ] substantive content populated from verified native-canon source
+- [ ] native definition of `human` established
+- [ ] native definition of `intelligence` established
+- [ ] native definition of `human intelligence` established
+- [ ] unit of analysis established
+- [ ] construct type established
+- [ ] intelligence architecture established if claimed
+- [ ] capability registry established if claimed
+- [ ] dimension registry established if claimed
+- [ ] factor model established if claimed
+- [ ] variable registry established if claimed
+- [ ] equations established if claimed
+- [ ] measurement model established if claimed
+- [ ] IQ relation established if claimed
+- [ ] benchmark semantics established if claimed
+- [ ] reliability validated if measurement claimed
+- [ ] construct validity established if measurement claimed
+- [ ] measurement invariance established for cross-population comparison
+- [ ] developmental scope established
+- [ ] cultural scope established
+- [ ] language scope established
+- [ ] individual/population distinction enforced
+- [ ] genetic claims typed if present
+- [ ] environmental claims typed if present
+- [ ] causal claims validated if present
+- [ ] reasoning relation established
+- [ ] memory relation established
+- [ ] learning relation established
+- [ ] attention relation established
+- [ ] perception relation established
+- [ ] language relation established
+- [ ] decision relation established
+- [ ] emotion relation established
+- [ ] agency relation established
+- [ ] metacognition relation established
+- [ ] consciousness relation established
+- [ ] homeostasis relation established
+- [ ] cognitive-field relation established
+- [ ] human/AI comparison semantics established if claimed
+- [ ] cross-species semantics established if claimed
+- [ ] biological mappings established if claimed
+- [ ] normative firewalls preserved
+- [ ] typed schema bound to artifact
+- [ ] identity + versioning implemented
+- [ ] scope envelope established
+- [ ] regime envelope established
+- [ ] temporal validity established
+- [ ] dependency topology established
+- [ ] provenance persisted
+- [ ] provenance ancestry validated
+- [ ] provenance independence assessed
+- [ ] competing hypotheses preserved
+- [ ] negative cases covered
+- [ ] rollback basin demonstrated
+- [ ] executable binding established if enforcement claimed
+- [ ] resolved
+- [ ] resolved
+- [ ] artifact-specific validation receipt executed
+- [ ] unresolved critical gaps remain visible
 
----
+______________________________________________________________________
 
-# 134. Promotion State
+## 134. Promotion State
 
 ```yaml
 promotion_state:
@@ -4299,11 +4277,11 @@ CONTINUE NATIVE SOURCE INGESTION
 DO NOT PROMOTE
 ```
 
----
+______________________________________________________________________
 
-# Part XIX — Proof Capsule
+## Part XIX — Proof Capsule
 
-# 135. Current Proof Capsule
+## 135. Current Proof Capsule
 
 ```yaml
 proof_capsule:
@@ -4415,11 +4393,11 @@ proof_capsule:
     validation: true
 ```
 
----
+______________________________________________________________________
 
-# Part XX — Canonical Knowledge Capsule
+## Part XX — Canonical Knowledge Capsule
 
-# 136. Canonical Knowledge Capsule
+## 136. Canonical Knowledge Capsule
 
 **Class:** `DERIVED / AMOS_MODEL`
 
@@ -4548,11 +4526,11 @@ EXECUTABLE IMPLEMENTATION
 EMPIRICAL VALIDATION
 ```
 
----
+______________________________________________________________________
 
-# Part XXI — Canonical Invariants
+## Part XXI — Canonical Invariants
 
-# 137. Canonical Invariants
+## 137. Canonical Invariants
 
 ```text
 INTEGRITY > COMPLETENESS > FLUENCY > SPEED > TOKEN SAVINGS
@@ -4682,11 +4660,11 @@ VALID @ R1 != AUTOMATICALLY VALID @ R2
 ONE FAILED PREMISE != GLOBAL INVALIDATION
 ```
 
----
+______________________________________________________________________
 
-# Part XXII — Status Matrix
+## Part XXII — Status Matrix
 
-# 138. Status Matrix
+## 138. Status Matrix
 
 | Dimension                            | Status           |
 | ------------------------------------ | ---------------- |
@@ -4750,11 +4728,11 @@ ONE FAILED PREMISE != GLOBAL INVALIDATION
 | Validation                           | NOT_ESTABLISHED  |
 | Empirical validity                   | NOT_ESTABLISHED  |
 
----
+______________________________________________________________________
 
-# Part XXIII — Minimum Missing Information
+## Part XXIII — Minimum Missing Information
 
-# 139. Minimum Missing Information
+## 139. Minimum Missing Information
 
 The decisive missing evidence is:
 
@@ -4860,11 +4838,11 @@ NEVER_INVENT_CANON
 
 remains controlling.
 
----
+______________________________________________________________________
 
-# Part XXIV — Terminal Canon Guard
+## Part XXIV — Terminal Canon Guard
 
-# 140. Terminal Canon Guard
+## 140. Terminal Canon Guard
 
 ```yaml
 AMOS_HUMAN_INTELLIGENCE_CANON_GUARD:
@@ -4945,52 +4923,52 @@ AMOS_HUMAN_INTELLIGENCE_CANON_GUARD:
     NEVER_INVENT_CANON
 ```
 
----
+______________________________________________________________________
 
-# Part XXV — Obsidian Navigation
+## Part XXV — Obsidian Navigation
 
-# 141. Obsidian Navigation
+## 141. Obsidian Navigation
 
 ### Parent MOCs
 
-*
-*
-*
+-
+-
+-
 
 ### Core indexes
 
-*
-*
+-
+-
 
 ### Cognition-family artifacts
 
-*
-*
-*
-*
-*
-*
-*
-*
-*
+-
+-
+-
+-
+-
+-
+-
+-
+-
 
 ### Target infrastructure bindings
 
-*
-*
-*
-*
+-
+-
+-
+-
 
 ### Required validation receipts
 
-*
-*
+-
+-
 
----
+______________________________________________________________________
 
-# Part XXVI — RSCF Node
+## Part XXVI — RSCF Node
 
-# 142. RSCF Node
+## 142. RSCF Node
 
 ```yaml
 RSCF-NODE:
@@ -5120,11 +5098,11 @@ RSCF-NODE:
     - TARGET_VALIDATED_BY: "[[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]"
 ```
 
----
+______________________________________________________________________
 
-# Part XXVII — Final Integrity Rule
+## Part XXVII — Final Integrity Rule
 
-# 143. Final Integrity Rule
+## 143. Final Integrity Rule
 
 Until verified native Human Intelligence content is ingested:
 
@@ -5301,13 +5279,13 @@ EXECUTE REQUIRED RECEIPTS
 PROMOTE ONLY AFTER VALIDATION
 ```
 
----
+______________________________________________________________________
 
 **MOC:** [[01_CANON/03_COGNITION_CANON/03_COGNITION_CANON_MOC|03_COGNITION_CANON_MOC]]
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[01_CANON/03_COGNITION_CANON/AMOS_COGNITION_CANON|AMOS_COGNITION_CANON]] · [[01_CANON/03_COGNITION_CANON/AMOS_COGNITION_MASTER_CANON|AMOS_COGNITION_MASTER_CANON]] · [[01_CANON/03_COGNITION_CANON/AMOS_COGNITIVE_FIELD_CANON|AMOS_COGNITIVE_FIELD_CANON]] · [[01_CANON/03_COGNITION_CANON/AMOS_CONSCIOUSNESS_CANON|AMOS_CONSCIOUSNESS_CANON]] · [[01_CANON/03_COGNITION_CANON/AMOS_HOMEOSTASIS_CANON|AMOS_HOMEOSTASIS_CANON]] · [[01_CANON/03_COGNITION_CANON/AMOS_CROSS_SPECIES_FUNCTIONAL_MODE_MODEL|AMOS_CROSS_SPECIES_FUNCTIONAL_MODE_MODEL]] · [[01_CANON/03_COGNITION_CANON/AMOS_FULL_BRAIN_OS_CANON|AMOS_FULL_BRAIN_OS_CANON]] · [[01_CANON/03_COGNITION_CANON/AMOS_FULL_BRAIN_OS_MASTER_CANON|AMOS_FULL_BRAIN_OS_MASTER_CANON]]
 
----
+______________________________________________________________________
 
 **Origin Architect / Steward:** Trang Phan
 **System:** AMOS OS
@@ -5319,4 +5297,6 @@ PROMOTE ONLY AFTER VALIDATION
 
 #amos_os #amos_human_intelligence #human_intelligence #intelligence #cognition #cognition_canon #canon #rscf #provenance #lineage #scope #regime #temporal_validity #causal_firewall #measurement_firewall #validation #competing_hypotheses #unknown_gap #never_invent_canon
 
+```
+```
 ```

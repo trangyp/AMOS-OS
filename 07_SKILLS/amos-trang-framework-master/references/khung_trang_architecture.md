@@ -1,14 +1,17 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: khung trang architecture
 type: reference
 source: 07_SKILLS/amos-trang-framework-master/references
 tags:
-- reference
-- amos-trang-framework-master
-- type/skill
-- architecture
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-trang-framework-master
+  - type/skill
+  - architecture
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -20,29 +23,29 @@ rscf:
 
 > Source: `_00_Cosmo brain/trang/KHUNG_TRANG_FULL_MAX_DETAIL_ARCHITECTURE_EQUATIONS.md`
 > Epistemic class: SOURCE_CANON
-> Version: U∞_full_source_preserved_v3
+> Version: U∞\_full_source_preserved_v3
 
 ## Primary Stack (19 layers)
 
 1. **Pre-generative substrate**
-2. **Possibility**
-3. **Asymmetry**
-4. **Distinction**
-5. **Relation**
-6. **Constraint**
-7. **Boundary**
-8. **Persistence**
-9. **Memory**
-10. **Entropy pressure**
-11. **Mutation**
-12. **Selection**
-13. **Repair**
-14. **Recursion**
-15. **Observer**
-16. **Symbolic compression**
-17. **Civilization**
-18. **Meta-awareness**
-19. **Gap ontology**
+1. **Possibility**
+1. **Asymmetry**
+1. **Distinction**
+1. **Relation**
+1. **Constraint**
+1. **Boundary**
+1. **Persistence**
+1. **Memory**
+1. **Entropy pressure**
+1. **Mutation**
+1. **Selection**
+1. **Repair**
+1. **Recursion**
+1. **Observer**
+1. **Symbolic compression**
+1. **Civilization**
+1. **Meta-awareness**
+1. **Gap ontology**
 
 ## Operational Subsystems
 
@@ -108,19 +111,21 @@ rscf:
 ## Source Metadata
 
 - **Title**: KHUNG TRANG — MAX DETAIL [[00_ROOT/ARCHITECTURE|ARCHITECTURE]] WITH FULL EQUATION REGISTRY
-- **Version**: U∞_full_source_preserved_v3
+- **Version**: U∞\_full_source_preserved_v3
 - **Source character count**: 306,574
 - **Source line count**: 13,670
 - **Note**: Full uploaded source is preserved verbatim under raw_source_text_full.
   Structured sections and equations are parsed from that source.
 
----
+______________________________________________________________________
+
 **MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -128,12 +133,14 @@ rscf:
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-trang-framework-master-khung-trang-architecture
 node_type: reference
 path: 07_SKILLS/amos-trang-framework-master/references/khung_trang_architecture.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

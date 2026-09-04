@@ -12,22 +12,22 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: BINDING
 path: 11_KNOWLEDGE/05_FRAMEWORKS/UBI_FULL_BRAIN_BINDING.md
 tags:
-- amos-os
-- knowledge
-- vault
-- 05_frameworks
-- ubi_full_brain_binding
-- cosmo_brain
-- cognitive_substrate
-- biological_logic
-- rscf
-- canon_candidate
-- canon/knowledge
-- unified-biological-intelligence
-- amos-x-ubi
-- amos-x-ubi-matrix
-- ubi-cognition-binding
-- md-2026-08-23-cosmo-brain-full-architecture
+  - amos-os
+  - knowledge
+  - vault
+  - 05_frameworks
+  - ubi_full_brain_binding
+  - cosmo_brain
+  - cognitive_substrate
+  - biological_logic
+  - rscf
+  - canon_candidate
+  - canon/knowledge
+  - unified-biological-intelligence
+  - amos-x-ubi
+  - amos-x-ubi-matrix
+  - ubi-cognition-binding
+  - md-2026-08-23-cosmo-brain-full-architecture
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -42,23 +42,23 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - UBI_OFFICIAL_MANUAL
-  - COSMO_BRAIN_FULL_ARCHITECTURE
-  - AMOS_CORPUS
+    - UBI_OFFICIAL_MANUAL
+    - COSMO_BRAIN_FULL_ARCHITECTURE
+    - AMOS_CORPUS
   scope:
-  - KNOWLEDGE_FRAMEWORKS
-  - BRAIN_ARCHITECTURE
-  - SOURCE_DEFINED_MODEL
+    - KNOWLEDGE_FRAMEWORKS
+    - BRAIN_ARCHITECTURE
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   biological_source:
     artifact:
-    - - UNIFIED_BIOLOGICAL_INTELLIGENCE
+      -   - UNIFIED_BIOLOGICAL_INTELLIGENCE
   brain_target:
     artifact:
-    - - MD_2026_08_23_COSMO_BRAIN_FULL_ARCHITECTURE
+      -   - MD_2026_08_23_COSMO_BRAIN_FULL_ARCHITECTURE
   cognitive_matrix_binding:
     artifact:
-    - - AMOS_X_UBI
+      -   - AMOS_X_UBI
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   binding_structure: VERIFIED_SOURCE_STRUCTURE
@@ -70,9 +70,9 @@ epistemic_boundary:
 
 `UBI_FULL_BRAIN_BINDING.md` is the canonical Knowledge Plane reference artifact specifying the coupling between **Unified Biological Intelligence™ (UBI)** and the **Cosmo Brain Full Architecture** within `11_KNOWLEDGE/05_FRAMEWORKS`.
 
----
+______________________________________________________________________
 
-# 1. Architecture Coupling
+## 1. Architecture Coupling
 
 ```text
                ┌────────────────────────────────────────────────────────┐
@@ -87,18 +87,18 @@ UBI BIOLOGICAL CONSTRAINTS        COSMO BRAIN STACK (L0–L6)          AUTONOMIC
 • Somatic-cardiac grounding       • L4–L6: Quantum & Synthesis       • Anti-hallucination bounds
 ```
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Biological Master:** [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]]
 - **Cosmo Brain Spec:** MD_2026_08_23_COSMO_BRAIN_FULL_ARCHITECTURE
 - **Cognitive Matrix:** [[25_COGNITIVE_MATRIX/AMOS_X_UBI|AMOS_X_UBI]] and [[25_COGNITIVE_MATRIX/AMOS_X_UBI_MATRIX|AMOS_X_UBI_MATRIX]]
 - **Cognition Binding:** [[11_KNOWLEDGE/05_FRAMEWORKS/UBI_COGNITION_BINDING|UBI_COGNITION_BINDING]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -116,9 +116,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]] · [[25_COGNITIVE_MATRIX/AMOS_X_UBI|AMOS_X_UBI]] · [[11_KNOWLEDGE/05_FRAMEWORKS/UBI_COGNITION_BINDING|UBI_COGNITION_BINDING]]
 
----
+______________________________________________________________________
+
 **MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]

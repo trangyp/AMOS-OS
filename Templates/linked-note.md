@@ -26,7 +26,7 @@ rscf:
   scope: AMOS_general
 ---
 
-# <% tp.file.title %>
+# \<% tp.file.title %>
 
 > Epistemic class: MODEL
 > Confidence: DERIVED
@@ -45,7 +45,7 @@ rscf:
 
 ## Notes
 
----
+______________________________________________________________________
 
 RSCF-NODE
 node_id: linked_note
@@ -57,6 +57,6 @@ RSCF-RELATIONS:
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
   claim_class: AMOS_MODEL
 
----
+______________________________________________________________________
 
 **MOC:** [[Templates/Templates_MOC|Templates_MOC]]

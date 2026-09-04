@@ -12,16 +12,16 @@ segment: 25_COGNITIVE_MATRIX/12_GENERATORS
 artifact_kind: NOTE
 path: 25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_INTEGRATION.md
 tags:
-- 12-generators
-- 12_generators
-- amos-os
-- domain/cognitive-matrix
-- canon/universe
-- generators
-- integration
-- note
-- rscf
-- placeholder_expanded
+  - 12-generators
+  - 12_generators
+  - amos-os
+  - domain/cognitive-matrix
+  - canon/universe
+  - generators
+  - integration
+  - note
+  - rscf
+  - placeholder_expanded
 version: 0.2.0
 updated: '2026-08-27'
 status: PLACEHOLDER_EXPANDED
@@ -98,7 +98,7 @@ Origin architect / steward: **Trang Phan**
 
 System: **AMOS OS**
 
----
+______________________________________________________________________
 
 # 12 Generators Integration
 
@@ -116,9 +116,9 @@ System: **AMOS OS**
 >
 > **AMOS_CORE target:** `v4.4`
 
----
+______________________________________________________________________
 
-# 0. Purpose
+## 0. Purpose
 
 `12_GENERATORS/INTEGRATION.md` defines how the AMOS Generator subsystem connects to the rest of AMOS OS.
 
@@ -151,9 +151,9 @@ This artifact does **not** assert that these integrations currently exist.
 
 It defines the expected boundaries and connection semantics.
 
----
+______________________________________________________________________
 
-# 1. Core integration law
+## 1. Core integration law
 
 The primary law is:
 
@@ -184,9 +184,9 @@ COMMITTED
 != FINALIZED
 ```
 
----
+______________________________________________________________________
 
-# 2. Architectural role of Generators
+## 2. Architectural role of Generators
 
 Generators should be understood as:
 
@@ -206,21 +206,21 @@ A Generator transforms governed inputs into a candidate artifact or candidate st
 
 Conceptually:
 
-[
+\[
 Generator(Input, Context)
-\rightarrow Candidate
-]
+\\rightarrow Candidate
+\]
 
 not:
 
-[
+\[
 Generator(Input)
-\rightarrow AuthoritativeState
-]
+\\rightarrow AuthoritativeState
+\]
 
----
+______________________________________________________________________
 
-# 3. Canonical AMOS Generator path
+## 3. Canonical AMOS Generator path
 
 The intended cross-system path is:
 
@@ -256,15 +256,15 @@ STATE / RECEIPT / FINALITY
 
 No stage should be assumed implemented merely because the conceptual edge exists.
 
----
+______________________________________________________________________
 
-# 4. Integration object
+## 4. Integration object
 
 An integration binding may be modeled as:
 
-[
+\[
 I=
-\langle
+\\langle
 SourceComponent,
 TargetComponent,
 Contract,
@@ -276,8 +276,8 @@ State,
 Provenance,
 Authority,
 FailureSemantics
-\rangle
-]
+\\rangle
+\]
 
 Every consequential integration edge should answer:
 
@@ -301,9 +301,9 @@ What invalidates the integration?
 How is failure repaired?
 ```
 
----
+______________________________________________________________________
 
-# 5. Integration edge ontology
+## 5. Integration edge ontology
 
 Recommended edge types:
 
@@ -344,9 +344,9 @@ CONNECTS_TO
 
 for load-bearing semantics when a more precise edge type exists.
 
----
+______________________________________________________________________
 
-# 6. Integration classes
+## 6. Integration classes
 
 ```yaml
 integration_classes:
@@ -432,9 +432,9 @@ integration_classes:
       - finality layer
 ```
 
----
+______________________________________________________________________
 
-# 7. Integration status ontology
+## 7. Integration status ontology
 
 Use:
 
@@ -459,9 +459,9 @@ BOUND_UNVALIDATED
 != ACTIVE
 ```
 
----
+______________________________________________________________________
 
-# 8. Typed integration record
+## 8. Typed integration record
 
 ```yaml
 generator_integration_record:
@@ -528,9 +528,9 @@ generator_integration_record:
     UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 9. Integration invariants
+## 9. Integration invariants
 
 ## I-GINT-001 — Responsibility preservation
 
@@ -613,9 +613,9 @@ Commit evidence does not automatically imply finality.
 
 Generated canon candidate is not canon until explicit admission.
 
----
+______________________________________________________________________
 
-# 10. Routing → Generator integration
+## 10. Routing → Generator integration
 
 `10_ROUTING` should determine:
 
@@ -631,9 +631,9 @@ which fallback
 
 Routing does not execute generation by itself.
 
----
+______________________________________________________________________
 
-# 11. Routing integration contract
+## 11. Routing integration contract
 
 ```yaml
 routing_generator_binding:
@@ -665,9 +665,9 @@ routing_generator_binding:
     UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 12. Routing integration hard rules
+## 12. Routing integration hard rules
 
 ```text
 explicit Generator missing
@@ -685,9 +685,9 @@ stale registry
 → rebind where load-bearing
 ```
 
----
+______________________________________________________________________
 
-# 13. Agent → Generator integration
+## 13. Agent → Generator integration
 
 An Agent may:
 
@@ -710,9 +710,9 @@ canon authority
 finality authority
 ```
 
----
+______________________________________________________________________
 
-# 14. Agent integration model
+## 14. Agent integration model
 
 ```text
 Agent
@@ -732,9 +732,9 @@ AGENT_REQUESTED
 != AUTHORIZED
 ```
 
----
+______________________________________________________________________
 
-# 15. Agent provenance
+## 15. Agent provenance
 
 Integration should preserve:
 
@@ -749,9 +749,9 @@ agent_generator_link:
 
 This allows later reconstruction of proposal versus execution lineage.
 
----
+______________________________________________________________________
 
-# 16. Skill → Generator integration
+## 16. Skill → Generator integration
 
 A Skill may invoke a Generator as a capability.
 
@@ -772,28 +772,26 @@ Skill invocation
 != write permission
 ```
 
----
+______________________________________________________________________
 
-# 17. Skill invariant composition
+## 17. Skill invariant composition
 
-For Skill \(S\) and Generator \(G\):
+For Skill (S) and Generator (G):
 
-[
-I_{effective}
-=============
+## \[ I\_{effective}
 
 I_S
-\cup
+\\cup
 I_G
-\cup
-I_{policy}
-]
+\\cup
+I\_{policy}
+\]
 
 Integration must never replace stricter requirements with weaker ones.
 
----
+______________________________________________________________________
 
-# 18. Skill integration record
+## 18. Skill integration record
 
 ```yaml
 skill_generator_binding:
@@ -818,9 +816,9 @@ skill_generator_binding:
     inherited: false
 ```
 
----
+______________________________________________________________________
 
-# 19. Engine → Generator integration
+## 19. Engine → Generator integration
 
 Engines may orchestrate Generator behavior.
 
@@ -837,9 +835,9 @@ Generation Engine
 
 Engine integration should not imply effect authority.
 
----
+______________________________________________________________________
 
-# 20. Generator Engine contract
+## 20. Generator Engine contract
 
 ```yaml
 generator_engine_binding:
@@ -860,9 +858,9 @@ generator_engine_binding:
     NONE_BY_DEFAULT
 ```
 
----
+______________________________________________________________________
 
-# 21. Kernel → Generator integration
+## 21. Kernel → Generator integration
 
 Kernels should provide deterministic primitives where possible.
 
@@ -879,9 +877,9 @@ build_provenance()
 build_candidate_metadata()
 ```
 
----
+______________________________________________________________________
 
-# 22. Kernel boundary
+## 22. Kernel boundary
 
 Kernels should normally:
 
@@ -900,9 +898,9 @@ promote canon
 finalize global state
 ```
 
----
+______________________________________________________________________
 
-# 23. Worker integration
+## 23. Worker integration
 
 Worker integration is the most important effect boundary.
 
@@ -916,9 +914,9 @@ Worker
 = executes bounded mutation
 ```
 
----
+______________________________________________________________________
 
-# 24. Worker materialization contract
+## 24. Worker materialization contract
 
 ```yaml
 generator_worker_binding:
@@ -948,25 +946,25 @@ generator_worker_binding:
     UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 25. Worker-only durable mutation invariant
+## 25. Worker-only durable mutation invariant
 
 For any durable Generator effect (e):
 
-[
+\[
 Durable(e)
-\Rightarrow
+\\Rightarrow
 Executor(e)=Worker
-]
+\]
 
 subject to actual runtime architecture.
 
 This remains a design invariant until proven implemented.
 
----
+______________________________________________________________________
 
-# 26. Validation integration
+## 26. Validation integration
 
 Generator output should route to:
 
@@ -978,9 +976,9 @@ before promotion.
 
 Generation and validation must remain independently identifiable.
 
----
+______________________________________________________________________
 
-# 27. Validation integration path
+## 27. Validation integration path
 
 ```text
 Generator
@@ -997,9 +995,9 @@ GENERATION_RECEIPT
 != VALIDATION_RECEIPT
 ```
 
----
+______________________________________________________________________
 
-# 28. Validation binding
+## 28. Validation binding
 
 ```yaml
 generator_validation_binding:
@@ -1018,9 +1016,9 @@ generator_validation_binding:
     UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 29. Tests integration
+## 29. Tests integration
 
 `12_GENERATORS/TESTS.md` should provide executable assurance for:
 
@@ -1036,9 +1034,9 @@ failure recovery
 
 Test results become evidence, not authority.
 
----
+______________________________________________________________________
 
-# 30. Test integration hard boundary
+## 30. Test integration hard boundary
 
 ```text
 TEST_PASS
@@ -1051,9 +1049,9 @@ TEST_PASS
 != CANON
 ```
 
----
+______________________________________________________________________
 
-# 31. Workflow integration
+## 31. Workflow integration
 
 A Generator may participate in canonical workflows.
 
@@ -1069,9 +1067,9 @@ ARTIFACT_REQUESTED
 → MATERIALIZED
 ```
 
----
+______________________________________________________________________
 
-# 32. Canonical versus ad-hoc workflow
+## 32. Canonical versus ad-hoc workflow
 
 Distinguish:
 
@@ -1089,17 +1087,17 @@ Canonical workflows may enforce named transitions.
 
 Ad-hoc plans remain governed per consequential event.
 
----
+______________________________________________________________________
 
-# 33. Event Bus integration
+## 33. Event Bus integration
 
 The Event Bus provides coordination and lifecycle observability.
 
 It should not become the authority layer.
 
----
+______________________________________________________________________
 
-# 34. Generator event taxonomy
+## 34. Generator event taxonomy
 
 Suggested:
 
@@ -1120,9 +1118,9 @@ GENERATOR_ROLLBACK_REQUESTED
 GENERATOR_ROLLED_BACK
 ```
 
----
+______________________________________________________________________
 
-# 35. Generator event envelope
+## 35. Generator event envelope
 
 ```yaml
 generator_event:
@@ -1152,9 +1150,9 @@ generator_event:
   timestamp: null
 ```
 
----
+______________________________________________________________________
 
-# 36. Event proof burden
+## 36. Event proof burden
 
 Not every event needs a full proof envelope.
 
@@ -1172,9 +1170,9 @@ MATERIALIZATION_REQUESTED
 
 This prevents proof fields from becoming meaningless placeholders.
 
----
+______________________________________________________________________
 
-# 37. Event authority firewall
+## 37. Event authority firewall
 
 Hard invariant:
 
@@ -1191,9 +1189,9 @@ GENERATOR_MATERIALIZATION_REQUESTED
 
 does not authorize the materialization.
 
----
+______________________________________________________________________
 
-# 38. Registry integration
+## 38. Registry integration
 
 Generators may depend on:
 
@@ -1210,9 +1208,9 @@ ENGINE_REGISTRY
 KERNEL_REGISTRY
 ```
 
----
+______________________________________________________________________
 
-# 39. Registry status firewall
+## 39. Registry status firewall
 
 ```text
 REGISTERED
@@ -1225,9 +1223,9 @@ ACTIVE
 != AUTHORIZED
 ```
 
----
+______________________________________________________________________
 
-# 40. Generator registry integration record
+## 40. Generator registry integration record
 
 ```yaml
 generator_registry_entry:
@@ -1255,9 +1253,9 @@ generator_registry_entry:
   provenance: []
 ```
 
----
+______________________________________________________________________
 
-# 41. Mode integration
+## 41. Mode integration
 
 Generators may have mode requirements.
 
@@ -1275,9 +1273,9 @@ RECOVERY
 
 Exact mode ontology remains `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
-# 42. Mode boundary
+## 42. Mode boundary
 
 ```text
 MODE_EXISTS
@@ -1287,9 +1285,9 @@ MODE_EXISTS
 
 Generator integration should bind the exact mode and its policy epoch.
 
----
+______________________________________________________________________
 
-# 43. State Store integration
+## 43. State Store integration
 
 Generators may read:
 
@@ -1303,9 +1301,9 @@ schema state
 
 but should not directly mutate authoritative state unless the architecture explicitly permits and governs it.
 
----
+______________________________________________________________________
 
-# 44. State read-set integration
+## 44. State read-set integration
 
 ```yaml
 generation_read_set:
@@ -1318,9 +1316,9 @@ generation_read_set:
 
 This enables stale-state detection.
 
----
+______________________________________________________________________
 
-# 45. State write-set integration
+## 45. State write-set integration
 
 ```yaml
 generation_write_set:
@@ -1336,9 +1334,9 @@ generation_write_set:
 
 A Generator should declare effects before materialization.
 
----
+______________________________________________________________________
 
-# 46. MVCC integration
+## 46. MVCC integration
 
 Conceptual pattern:
 
@@ -1364,23 +1362,23 @@ for a load-bearing target:
 STALE_GENERATION
 ```
 
----
+______________________________________________________________________
 
-# 47. CAS integration
+## 47. CAS integration
 
 For consequential materialization:
 
-[
+\[
 CommitAllowed
-\Rightarrow
+\\Rightarrow
 ExpectedVersion=CurrentVersion
-]
+\]
 
 where the chosen state model requires CAS semantics.
 
----
+______________________________________________________________________
 
-# 48. Provenance integration
+## 48. Provenance integration
 
 Every generated candidate should connect to:
 
@@ -1401,23 +1399,23 @@ invocation
 receipt chain
 ```
 
----
+______________________________________________________________________
 
-# 49. Provenance propagation rule
+## 49. Provenance propagation rule
 
 No integration edge may silently remove load-bearing provenance.
 
-[
-P_{out}
-\supseteq
-P_{required}
-]
+\[
+P\_{out}
+\\supseteq
+P\_{required}
+\]
 
 subject to privacy and least-necessary storage constraints.
 
----
+______________________________________________________________________
 
-# 50. Provenance and routing
+## 50. Provenance and routing
 
 Routing may use provenance to avoid:
 
@@ -1429,9 +1427,9 @@ conflicting dependency
 shared ancestry mistaken as independence
 ```
 
----
+______________________________________________________________________
 
-# 51. Provenance and validation
+## 51. Provenance and validation
 
 Validation should confirm:
 
@@ -1442,9 +1440,9 @@ source roots recoverable
 template/schema versions match
 ```
 
----
+______________________________________________________________________
 
-# 52. Promotion integration
+## 52. Promotion integration
 
 Generated candidates should integrate into:
 
@@ -1454,9 +1452,9 @@ Generated candidates should integrate into:
 
 after required validation evidence exists.
 
----
+______________________________________________________________________
 
-# 53. Promotion integration path
+## 53. Promotion integration path
 
 ```text
 CANDIDATE
@@ -1479,9 +1477,9 @@ GENERATED
 
 path.
 
----
+______________________________________________________________________
 
-# 54. Promotion proof capsule
+## 54. Promotion proof capsule
 
 ```yaml
 promotion_integration_proof:
@@ -1501,9 +1499,9 @@ promotion_integration_proof:
     UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 55. Canon integration
+## 55. Canon integration
 
 Canon-sensitive outputs require additional integration burden.
 
@@ -1519,9 +1517,9 @@ Generator
 → Canon Admission
 ```
 
----
+______________________________________________________________________
 
-# 56. Canon firewall
+## 56. Canon firewall
 
 ```text
 CANON_CANDIDATE
@@ -1530,9 +1528,9 @@ CANON_CANDIDATE
 
 Generation must never collapse this distinction.
 
----
+______________________________________________________________________
 
-# 57. Policy integration
+## 57. Policy integration
 
 Generators may generate policy candidates.
 
@@ -1549,18 +1547,18 @@ Generator
 → Activation
 ```
 
----
+______________________________________________________________________
 
-# 58. Policy firewall
+## 58. Policy firewall
 
 ```text
 POLICY_FILE_EXISTS
 != ACTIVE_POLICY
 ```
 
----
+______________________________________________________________________
 
-# 59. Authority integration
+## 59. Authority integration
 
 Integration must make authority explicit only where consequential mutation occurs.
 
@@ -1575,9 +1573,9 @@ time
 delegate
 ```
 
----
+______________________________________________________________________
 
-# 60. No authority inheritance
+## 60. No authority inheritance
 
 Authority should not automatically propagate through integration edges.
 
@@ -1593,23 +1591,23 @@ does not necessarily mean Generator/Worker inherits A.
 
 Authority propagation must be explicit and scoped.
 
----
+______________________________________________________________________
 
-# 61. Authority attenuation
+## 61. Authority attenuation
 
 Where authority is delegated, narrower authority is safer:
 
-[
-Authority_{child}
-\subseteq
-Authority_{parent}
-]
+\[
+Authority\_{child}
+\\subseteq
+Authority\_{parent}
+\]
 
 unless higher-order governance explicitly permits otherwise.
 
----
+______________________________________________________________________
 
-# 62. Control Plane integration
+## 62. Control Plane integration
 
 Consequential Generator paths should pass through the control plane.
 
@@ -1624,26 +1622,26 @@ Candidate
 → Worker grant
 ```
 
----
+______________________________________________________________________
 
-# 63. Control Plane commit condition
+## 63. Control Plane commit condition
 
 Provisional conceptual formula:
 
-[
+\[
 CommitAllowed =
 AuthorityValid
-\land ProvenanceValid
-\land VersionCompatible
-\land RequiredInvariantsHold
-\land PolicyAllows
-]
+\\land ProvenanceValid
+\\land VersionCompatible
+\\land RequiredInvariantsHold
+\\land PolicyAllows
+\]
 
 Named invariant set must be explicit; `invariants_hold` must not remain an unspecified loophole.
 
----
+______________________________________________________________________
 
-# 64. Required invariant set
+## 64. Required invariant set
 
 A materialization proposal should carry:
 
@@ -1660,9 +1658,9 @@ required_invariants:
 
 plus Generator/Worker-specific invariants.
 
----
+______________________________________________________________________
 
-# 65. Multi-RSCF integration
+## 65. Multi-RSCF integration
 
 If one Generator artifact affects multiple RSCF branches atomically, integration should preserve atomic reasoning semantics.
 
@@ -1678,9 +1676,9 @@ shared candidate
 
 Do not commit only a subset if semantic consistency requires atomic transition.
 
----
+______________________________________________________________________
 
-# 66. Atomic bundle integration
+## 66. Atomic bundle integration
 
 ```yaml
 generator_bundle:
@@ -1698,9 +1696,9 @@ generator_bundle:
   rollback_target: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 67. Atomicity rule
+## 67. Atomicity rule
 
 If:
 
@@ -1715,9 +1713,9 @@ one critical member fails
 → bundle not promoted/materialized
 ```
 
----
+______________________________________________________________________
 
-# 68. Workflow state transitions
+## 68. Workflow state transitions
 
 Possible canonical states:
 
@@ -1746,9 +1744,9 @@ UNKNOWN/GAP
 ROLLED_BACK
 ```
 
----
+______________________________________________________________________
 
-# 69. Finality integration
+## 69. Finality integration
 
 Materialization and finality are distinct.
 
@@ -1769,9 +1767,9 @@ receipt persistence
 
 Actual mechanism remains implementation-specific.
 
----
+______________________________________________________________________
 
-# 70. Causal epoch integration
+## 70. Causal epoch integration
 
 If AMOS_CORE v4.4 causal epoch semantics apply, Generator finality may bind to:
 
@@ -1786,9 +1784,9 @@ generation timestamp
 != causal finality
 ```
 
----
+______________________________________________________________________
 
-# 71. Recovery integration
+## 71. Recovery integration
 
 Every consequential Generator integration should declare recovery.
 
@@ -1805,9 +1803,9 @@ quarantine
 no-action
 ```
 
----
+______________________________________________________________________
 
-# 72. Recovery selection
+## 72. Recovery selection
 
 Use least-disruptive valid repair.
 
@@ -1823,9 +1821,9 @@ global reset
 
 unless dependency closure requires broader invalidation.
 
----
+______________________________________________________________________
 
-# 73. Selective invalidation
+## 73. Selective invalidation
 
 Example:
 
@@ -1840,9 +1838,9 @@ Unrelated candidate C
 → preserved
 ```
 
----
+______________________________________________________________________
 
-# 74. Retry integration
+## 74. Retry integration
 
 Retry only with changed conditions or transient recovery.
 
@@ -1856,9 +1854,9 @@ OR StateChanged
 OR TransientFailureResolved
 ```
 
----
+______________________________________________________________________
 
-# 75. Idempotency integration
+## 75. Idempotency integration
 
 Generator request should support:
 
@@ -1871,9 +1869,9 @@ idempotency:
 
 Duplicate requests should not produce uncontrolled semantic duplication.
 
----
+______________________________________________________________________
 
-# 76. Event idempotency
+## 76. Event idempotency
 
 Event Bus integration should preserve:
 
@@ -1884,9 +1882,9 @@ same idempotency key
 
 where the contract declares idempotent processing.
 
----
+______________________________________________________________________
 
-# 77. Concurrency integration
+## 77. Concurrency integration
 
 Two Generator invocations may race against the same target.
 
@@ -1902,9 +1900,9 @@ other detects stale version
 
 unless explicit merge semantics exist.
 
----
+______________________________________________________________________
 
-# 78. Merge integration
+## 78. Merge integration
 
 If semantic merge is supported:
 
@@ -1918,9 +1916,9 @@ merge_contract:
 
 No implicit merge.
 
----
+______________________________________________________________________
 
-# 79. Conflict integration
+## 79. Conflict integration
 
 Possible conflicts:
 
@@ -1940,9 +1938,9 @@ different target interpretation
 
 These must remain visible.
 
----
+______________________________________________________________________
 
-# 80. Competing candidates
+## 80. Competing candidates
 
 When two valid candidate artifacts remain incomparable:
 
@@ -1961,9 +1959,9 @@ first generated
 
 as implicit authority.
 
----
+______________________________________________________________________
 
-# 81. Security integration
+## 81. Security integration
 
 Generator integration should respect:
 
@@ -1978,9 +1976,9 @@ schema safety
 Worker constraints
 ```
 
----
+______________________________________________________________________
 
-# 82. Security boundary
+## 82. Security boundary
 
 A Generator capable of generating code is not thereby authorized to execute it.
 
@@ -1989,9 +1987,9 @@ GENERATE_CODE
 != EXECUTE_CODE
 ```
 
----
+______________________________________________________________________
 
-# 83. Code Generator integration
+## 83. Code Generator integration
 
 Safe conceptual path:
 
@@ -2007,9 +2005,9 @@ Request
 → evidence
 ```
 
----
+______________________________________________________________________
 
-# 84. External tool integration
+## 84. External tool integration
 
 Generator paths may integrate with external tools through Workers/tool adapters.
 
@@ -2022,9 +2020,9 @@ Generator
 
 should not be treated as governed AMOS infrastructure unless the control-plane contract explicitly permits it.
 
----
+______________________________________________________________________
 
-# 85. Data-source integration
+## 85. Data-source integration
 
 Generator input may come from:
 
@@ -2046,9 +2044,9 @@ freshness
 provenance
 ```
 
----
+______________________________________________________________________
 
-# 86. Source access boundary
+## 86. Source access boundary
 
 ```text
 RELEVANT_SOURCE
@@ -2061,9 +2059,9 @@ AUTHORIZED_SOURCE
 != VALID_FOR_EVERY_PURPOSE
 ```
 
----
+______________________________________________________________________
 
-# 87. Cross-domain integration
+## 87. Cross-domain integration
 
 Generator may combine multiple domains.
 
@@ -2078,9 +2076,9 @@ validation status
 
 Structural similarity cannot create causal proof.
 
----
+______________________________________________________________________
 
-# 88. Scope firewall
+## 88. Scope firewall
 
 No integration should silently expand:
 
@@ -2091,9 +2089,9 @@ validation scope
 authority scope
 ```
 
----
+______________________________________________________________________
 
-# 89. Regime firewall
+## 89. Regime firewall
 
 Integration valid in:
 
@@ -2114,9 +2112,9 @@ simulation
 → live
 ```
 
----
+______________________________________________________________________
 
-# 90. Freshness integration
+## 90. Freshness integration
 
 Freshness may bind separately for:
 
@@ -2131,9 +2129,9 @@ Worker registry
 target state
 ```
 
----
+______________________________________________________________________
 
-# 91. Route reuse integration
+## 91. Route reuse integration
 
 A previously valid Generator integration may be reused only when:
 
@@ -2147,9 +2145,9 @@ freshness valid
 no conflict introduced
 ```
 
----
+______________________________________________________________________
 
-# 92. v4.4 fast-path integration
+## 92. v4.4 fast-path integration
 
 AMOS v4.4-style local reuse is allowed only when required independence/dependency closure has been established.
 
@@ -2161,9 +2159,9 @@ no obvious change
 
 as proof that no load-bearing dependency changed.
 
----
+______________________________________________________________________
 
-# 93. Observability integration
+## 93. Observability integration
 
 A complete Generator trace should be able to show:
 
@@ -2184,9 +2182,9 @@ materialization
 rollback/finality
 ```
 
----
+______________________________________________________________________
 
-# 94. Integration trace
+## 94. Integration trace
 
 ```yaml
 generator_integration_trace:
@@ -2221,9 +2219,9 @@ generator_integration_trace:
     receipt: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 95. Replay integration
+## 95. Replay integration
 
 Replay should bind:
 
@@ -2238,9 +2236,9 @@ exact state context
 
 where deterministic replay is claimed.
 
----
+______________________________________________________________________
 
-# 96. Replay boundary
+## 96. Replay boundary
 
 ```text
 REPLAY_MATCH
@@ -2253,17 +2251,17 @@ REPLAY_MATCH
 != PRODUCTION SAFETY
 ```
 
----
+______________________________________________________________________
 
-# 97. Audit integration
+## 97. Audit integration
 
 `ROUTING_AUDIT`, validation audit, Generator tests, and provenance audit may all inspect different aspects of the integration.
 
 No single audit should be assumed sufficient for all layers.
 
----
+______________________________________________________________________
 
-# 98. Integration audit dimensions
+## 98. Integration audit dimensions
 
 ```yaml
 integration_audit:
@@ -2282,9 +2280,9 @@ integration_audit:
   finality: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 99. Integration agents
+## 99. Integration agents
 
 Possible roles:
 
@@ -2318,9 +2316,9 @@ Searches for bypass paths and responsibility collapse.
 
 All remain non-authoritative.
 
----
+______________________________________________________________________
 
-# 100. Integration Skills
+## 100. Integration Skills
 
 Potential Skills:
 
@@ -2339,9 +2337,9 @@ audit-generator-integration
 repair-generator-integration
 ```
 
----
+______________________________________________________________________
 
-# 101. Integration Engine layer
+## 101. Integration Engine layer
 
 Possible engines:
 
@@ -2356,9 +2354,9 @@ Recovery Integration Engine
 
 These are provisional architecture roles.
 
----
+______________________________________________________________________
 
-# 102. Integration kernels
+## 102. Integration kernels
 
 Candidate deterministic primitives:
 
@@ -2376,9 +2374,9 @@ check_idempotency()
 validate_event_transition()
 ```
 
----
+______________________________________________________________________
 
-# 103. Integration protocols
+## 103. Integration protocols
 
 Potential protocols:
 
@@ -2398,9 +2396,9 @@ Supersession
 
 Exact protocol formats remain `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
-# 104. Integration workflow
+## 104. Integration workflow
 
 ```text
 INTEGRATION_REQUESTED
@@ -2424,9 +2422,9 @@ VALIDATED
 ACTIVATION REVIEW
 ```
 
----
+______________________________________________________________________
 
-# 105. Integration events
+## 105. Integration events
 
 Suggested:
 
@@ -2443,9 +2441,9 @@ GENERATOR_INTEGRATION_REVOKED
 GENERATOR_INTEGRATION_SUPERSEDED
 ```
 
----
+______________________________________________________________________
 
-# 106. Integration failure modes
+## 106. Integration failure modes
 
 ```yaml
 failure_modes:
@@ -2551,9 +2549,9 @@ failure_modes:
       generated policy becomes active automatically
 ```
 
----
+______________________________________________________________________
 
-# 107. Repair and recovery
+## 107. Repair and recovery
 
 ```text
 INTEGRATION FAILURE
@@ -2575,9 +2573,9 @@ REVALIDATE
 REACTIVATE IF GOVERNED
 ```
 
----
+______________________________________________________________________
 
-# 108. Repair classes
+## 108. Repair classes
 
 ```text
 REBIND_COMPONENT
@@ -2592,9 +2590,9 @@ REGENERATE_CANDIDATE
 ROLLBACK_MATERIALIZATION
 ```
 
----
+______________________________________________________________________
 
-# 109. Integration tests
+## 109. Integration tests
 
 Required categories:
 
@@ -2617,9 +2615,9 @@ rollback
 finality boundary
 ```
 
----
+______________________________________________________________________
 
-# 110. Constitutional integration tests
+## 110. Constitutional integration tests
 
 ```text
 T-GINT-001
@@ -2690,9 +2688,9 @@ without finality receipt
 → state not claimed FINAL
 ```
 
----
+______________________________________________________________________
 
-# 111. Adversarial integration tests
+## 111. Adversarial integration tests
 
 Attack with:
 
@@ -2722,9 +2720,9 @@ or require revalidation
 
 depending on case.
 
----
+______________________________________________________________________
 
-# 112. Integration validation classes
+## 112. Integration validation classes
 
 ```yaml
 integration_validation:
@@ -2783,9 +2781,9 @@ integration_validation:
       - finality boundary
 ```
 
----
+______________________________________________________________________
 
-# 113. Integration validation result
+## 113. Integration validation result
 
 ```yaml
 integration_validation_result:
@@ -2806,9 +2804,9 @@ integration_validation_result:
     UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 114. Integration uncertainty vector
+## 114. Integration uncertainty vector
 
 ```yaml
 integration_uncertainty:
@@ -2829,9 +2827,9 @@ integration_uncertainty:
     MEDIUM
 ```
 
----
+______________________________________________________________________
 
-# 115. Integration sensitivity
+## 115. Integration sensitivity
 
 Highest-impact questions include:
 
@@ -2853,9 +2851,9 @@ Which receipt schemas exist?
 
 These should be resolved before lower-impact integration optimization.
 
----
+______________________________________________________________________
 
-# 116. Integration roadmap ordering
+## 116. Integration roadmap ordering
 
 Recommended sequencing:
 
@@ -2875,9 +2873,9 @@ Recommended sequencing:
 13. finality
 ```
 
----
+______________________________________________________________________
 
-# 117. Minimum integration proof
+## 117. Minimum integration proof
 
 The smallest defensible end-to-end integration proof is:
 
@@ -2898,9 +2896,9 @@ Passing this would demonstrate a meaningful integration slice.
 
 It would still not prove the entire Generator subsystem correct.
 
----
+______________________________________________________________________
 
-# 118. RSCF completion state
+## 118. RSCF completion state
 
 ```yaml
 rscf:
@@ -2976,9 +2974,9 @@ rscf:
     PLACEHOLDER
 ```
 
----
+______________________________________________________________________
 
-# 119. GMEF completion state
+## 119. GMEF completion state
 
 ```yaml
 gmef:
@@ -3032,9 +3030,9 @@ gmef:
     UNFINALIZED
 ```
 
----
+______________________________________________________________________
 
-# 120. Integration proof capsule
+## 120. Integration proof capsule
 
 ```yaml
 proof_capsule:
@@ -3075,9 +3073,9 @@ proof_capsule:
     - authority revoked
 ```
 
----
+______________________________________________________________________
 
-# 121. Source / canon references
+## 121. Source / canon references
 
 ```yaml
 source_canon:
@@ -3103,9 +3101,9 @@ source_canon:
     status: UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 122. Dependency graph
+## 122. Dependency graph
 
 ```text
 12_GENERATORS/INTEGRATION
@@ -3148,9 +3146,9 @@ source_canon:
 └── FINALITY_LAYER
 ```
 
----
+______________________________________________________________________
 
-# 123. Related artifacts
+## 123. Related artifacts
 
 ```yaml
 related:
@@ -3232,9 +3230,9 @@ related:
     UNVERIFIED
 ```
 
----
+______________________________________________________________________
 
-# 124. Related tags
+## 124. Related tags
 
 ```text
 #AMOS
@@ -3308,9 +3306,9 @@ related:
 #Recovery
 ```
 
----
+______________________________________________________________________
 
-# 125. Relation ontology
+## 125. Relation ontology
 
 ```text
 INTEGRATES_WITH
@@ -3336,9 +3334,9 @@ ROLLBACK_TO
 FINALIZED_BY
 ```
 
----
+______________________________________________________________________
 
-# 126. Completion status
+## 126. Completion status
 
 ```yaml
 completion_status:
@@ -3448,9 +3446,9 @@ completion_status:
     status: UNBOUND
 ```
 
----
+______________________________________________________________________
 
-# 127. Gap registry
+## 127. Gap registry
 
 ```yaml
 gaps:
@@ -3487,9 +3485,9 @@ gaps:
     - formatting
 ```
 
----
+______________________________________________________________________
 
-# 128. Hard boundaries
+## 128. Hard boundaries
 
 ```text
 PLACEHOLDER != IMPLEMENTED
@@ -3547,9 +3545,9 @@ CACHE_HIT != CURRENT_VALIDITY
 UNKNOWN/GAP != PASS
 ```
 
----
+______________________________________________________________________
 
-# 129. Current decision
+## 129. Current decision
 
 ```yaml
 decision:
@@ -3591,9 +3589,9 @@ decision:
     - claim integration validation has passed
 ```
 
----
+______________________________________________________________________
 
-# 130. Final proof capsule
+## 130. Final proof capsule
 
 ```yaml
 proof_capsule:
@@ -3663,9 +3661,9 @@ proof_capsule:
     - NON_AUTHORITATIVE
 ```
 
----
+______________________________________________________________________
 
-# 131. Integration map
+## 131. Integration map
 
 ```text
                     ┌──────────────────────┐
@@ -3738,9 +3736,9 @@ proof_capsule:
                             FINALITY
 ```
 
----
+______________________________________________________________________
 
-# 132. Final conclusion
+## 132. Final conclusion
 
 **Claim**
 
@@ -3836,9 +3834,9 @@ UNKNOWN/GAP
 NON_AUTHORITATIVE
 ```
 
----
+______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ## Related
 
@@ -3863,7 +3861,7 @@ NON_AUTHORITATIVE
 - State Store
 - Control Plane
 
-```
+````
 
 The key architectural distinction here is:
 
@@ -3894,7 +3892,7 @@ State / Provenance
 
 Promotion / Canon / Finality
 → govern lifecycle elevation
-```
+````
 
 That keeps the Generator subsystem integrated with AMOS infrastructure without turning it into an all-purpose framework, authority engine, or direct execution layer.
 
@@ -3904,7 +3902,7 @@ That keeps the Generator subsystem integrated with AMOS infrastructure without t
 00_ROOT_MOC|AMOS MOC
 
 ---
-**Related:**  ·
+**Related:**
 
 ---
 RSCF-NODE
@@ -3918,7 +3916,3 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:**
-
-
-```
-```

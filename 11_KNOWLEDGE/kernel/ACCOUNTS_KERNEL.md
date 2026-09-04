@@ -1,9 +1,12 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: ACCOUNTS_KERNEL
 tags:
-- knowledge
-- kernel
-- accounts
+  - knowledge
+  - kernel
+  - accounts
 type: note
 source: 11_KNOWLEDGE/kernel
 rscf:
@@ -17,14 +20,14 @@ rscf:
 
 ## Full Exhaustive Canonical Expansion · Source-Preserving · Runtime-Semantics Analysis · RSCF-Governed · Obsidian-Ready
 
-> [!important] Canonical conclusion
+> [!IMPORTANT] Canonical conclusion
 > The supplied artifact defines `Accounts_Kernel` as a **minimal, registered, non-destructive MONEY_SYSTEM kernel component**. Its visible implementation performs exactly one domain-relevant runtime behavior: when `run(context)` executes successfully, it ensures a `trace` collection exists, appends a structured execution event identifying `MONEY_SYSTEM / kernels / Accounts_Kernel / run`, and returns the **same context object after that mutation**. It does **not** implement account creation, balances, ledgers, transfers, reconciliation, accounting equations, persistence, authorization, validation, or monetary state transitions.
 >
 > The note's RSCF metadata classifies the artifact as `SOURCE_CLAIM`. The embedded Python provides stronger evidence for the semantics of the visible code itself, but it does **not** independently establish that the referenced AMOS modules exist, that registration succeeds in an actual runtime, that tests pass, or that this kernel is deployed.
 
----
+______________________________________________________________________
 
-# 1. Normalized Source Frontmatter
+## 1. Normalized Source Frontmatter
 
 The following preserves the supplied metadata semantically, removing only message-escaping artifacts.
 
@@ -50,9 +53,9 @@ No aliases, version, status, architect, steward, artifact ID, validation status,
 
 They should therefore not be silently added as source metadata.
 
----
+______________________________________________________________________
 
-# 2. Source Artifact Identity
+## 2. Source Artifact Identity
 
 Source heading:
 
@@ -82,9 +85,9 @@ $$
 Component = Accounts\_Kernel
 $$
 
----
+______________________________________________________________________
 
-# 3. Source-Level Identity Capsule
+## 3. Source-Level Identity Capsule
 
 ```yaml
 artifact:
@@ -106,14 +109,14 @@ rscf:
 
 This is source-grounded.
 
----
+______________________________________________________________________
 
-# 4. Derived / Proposed Obsidian Augmentation
+## 4. Derived / Proposed Obsidian Augmentation
 
 Everything in this section is **DERIVED / PROPOSED**, not original source metadata.
 
 ```yaml
-# DERIVED / PROPOSED — DO NOT MERGE INTO SOURCE FRONTMATTER WITHOUT GOVERNANCE
+## DERIVED / PROPOSED — DO NOT MERGE INTO SOURCE FRONTMATTER WITHOUT GOVERNANCE
 
 aliases:
   - Accounts Kernel
@@ -160,9 +163,9 @@ proposed_tags:
   - provenance/amos-corpus
 ```
 
----
+______________________________________________________________________
 
-# 5. Source Code — Normalized Rendering
+## 5. Source Code — Normalized Rendering
 
 The supplied code, normalized only for escaped Markdown characters, is:
 
@@ -212,9 +215,9 @@ class Accounts_Kernel(Kernel):
         return context
 ```
 
----
+______________________________________________________________________
 
-# 6. Immediate Structural Reading
+## 6. Immediate Structural Reading
 
 The component has four visible architectural elements:
 
@@ -246,9 +249,9 @@ amos_system.core.registry
         └── return context
 ```
 
----
+______________________________________________________________________
 
-# 7. Component Registration Declaration
+## 7. Component Registration Declaration
 
 The decorator is:
 
@@ -273,9 +276,9 @@ Accounts\_Kernel
 )
 $$
 
----
+______________________________________________________________________
 
-# 8. Registration Claim Boundary
+## 8. Registration Claim Boundary
 
 The source docstring says:
 
@@ -305,9 +308,9 @@ Accounts_Kernel is decorated with register_component(...)
 The runtime registry actually contains Accounts_Kernel.
 ```
 
----
+______________________________________________________________________
 
-# 9. Registration Proof Capsule
+## 9. Registration Proof Capsule
 
 ```yaml
 claim:
@@ -332,9 +335,9 @@ runtime_registration:
   UNKNOWN_GAP
 ```
 
----
+______________________________________________________________________
 
-# 10. Class Definition
+## 10. Class Definition
 
 The class is:
 
@@ -350,9 +353,9 @@ $$
 
 in Python inheritance terms.
 
----
+______________________________________________________________________
 
-# 11. Inheritance Boundary
+## 11. Inheritance Boundary
 
 This proves the class syntactically declares `Kernel` as its base.
 
@@ -372,9 +375,9 @@ Those depend on:
 amos_system.core.base
 ```
 
----
+______________________________________________________________________
 
-# 12. Run Contract
+## 12. Run Contract
 
 Visible signature:
 
@@ -391,9 +394,9 @@ Context
 Context
 $$
 
----
+______________________________________________________________________
 
-# 13. Type Annotation Boundary
+## 13. Type Annotation Boundary
 
 Python annotations do not themselves guarantee runtime type enforcement.
 
@@ -409,9 +412,9 @@ unless `Kernel`, decorators, external tooling, or another mechanism enforces it.
 
 No such enforcement is visible here.
 
----
+______________________________________________________________________
 
-# 14. Operational Core
+## 14. Operational Core
 
 The entire visible operational body consists of:
 
@@ -438,9 +441,9 @@ followed by:
 return context
 ```
 
----
+______________________________________________________________________
 
-# 15. Minimal State Transition
+## 15. Minimal State Transition
 
 Let:
 
@@ -484,9 +487,9 @@ $$
 
 in **object identity**, while its internal trace state has been mutated.
 
----
+______________________________________________________________________
 
-# 16. Critical Semantic Correction — “Unchanged”
+## 16. Critical Semantic Correction — “Unchanged”
 
 The source docstring says:
 
@@ -514,9 +517,9 @@ $$
 
 because the same object is returned.
 
----
+______________________________________________________________________
 
-# 17. Best Source-Compatible Interpretation
+## 17. Best Source-Compatible Interpretation
 
 “Returns the context unchanged” is best read as:
 
@@ -532,9 +535,9 @@ does not mutate context state
 
 because the latter is contradicted by the visible code.
 
----
+______________________________________________________________________
 
-# 18. Non-Destructive Semantics
+## 18. Non-Destructive Semantics
 
 The source calls the implementation:
 
@@ -551,9 +554,9 @@ Within the visible implementation this can reasonably mean:
 
 However, `non-destructive` is descriptive source terminology, not a formally defined property.
 
----
+______________________________________________________________________
 
-# 19. Non-Destructive ≠ Pure
+## 19. Non-Destructive ≠ Pure
 
 The method is not a pure function.
 
@@ -571,9 +574,9 @@ $$
 
 under ordinary functional-programming semantics.
 
----
+______________________________________________________________________
 
-# 20. Non-Destructive ≠ Immutable
+## 20. Non-Destructive ≠ Immutable
 
 The input is mutated.
 
@@ -583,9 +586,9 @@ $$
 ImmutableTransformation=False
 $$
 
----
+______________________________________________________________________
 
-# 21. Non-Destructive ≠ Idempotent
+## 21. Non-Destructive ≠ Idempotent
 
 Calling the kernel twice appends two events.
 
@@ -615,9 +618,9 @@ $$
 
 in state-value terms.
 
----
+______________________________________________________________________
 
-# 22. Idempotence Classification
+## 22. Idempotence Classification
 
 ```yaml
 idempotent:
@@ -628,9 +631,9 @@ idempotent:
 
 DERIVED from visible code.
 
----
+______________________________________________________________________
 
-# 23. Trace Initialization
+## 23. Trace Initialization
 
 This line:
 
@@ -654,9 +657,9 @@ and returned by `setdefault`.
 
 Its current value is returned without replacement.
 
----
+______________________________________________________________________
 
-# 24. Path A Transition
+## 24. Path A Transition
 
 Input:
 
@@ -682,9 +685,9 @@ Expected visible-code result:
 }
 ```
 
----
+______________________________________________________________________
 
-# 25. Path B Transition
+## 25. Path B Transition
 
 Input:
 
@@ -712,9 +715,9 @@ Expected result:
 }
 ```
 
----
+______________________________________________________________________
 
-# 26. Existing Trace Preservation
+## 26. Existing Trace Preservation
 
 If `"trace"` contains a mutable object supporting `.append`, previous entries remain intact under normal execution.
 
@@ -728,11 +731,11 @@ Trace_{before}
 [e_A]
 $$
 
-where \(\Vert\) denotes sequence concatenation.
+where (\\Vert) denotes sequence concatenation.
 
----
+______________________________________________________________________
 
-# 27. Trace Type Assumption
+## 27. Trace Type Assumption
 
 The implementation assumes the value returned by:
 
@@ -748,9 +751,9 @@ supports:
 
 No explicit validation exists.
 
----
+______________________________________________________________________
 
-# 28. Failure Example — `trace=None`
+## 28. Failure Example — `trace=None`
 
 Input:
 
@@ -774,9 +777,9 @@ trace.append(...)
 
 fails.
 
----
+______________________________________________________________________
 
-# 29. Failure Example — Immutable Tuple
+## 29. Failure Example — Immutable Tuple
 
 Input:
 
@@ -788,9 +791,9 @@ Input:
 
 also lacks list-style `.append`.
 
----
+______________________________________________________________________
 
-# 30. Failure Example — String
+## 30. Failure Example — String
 
 Input:
 
@@ -802,9 +805,9 @@ Input:
 
 does not support `.append`.
 
----
+______________________________________________________________________
 
-# 31. Trace Contract Is Implicit
+## 31. Trace Contract Is Implicit
 
 The implementation therefore depends on:
 
@@ -816,9 +819,9 @@ $$
 
 But no explicit `Trace` type appears in the supplied artifact.
 
----
+______________________________________________________________________
 
-# 32. Context Contract Is Also Implicit
+## 32. Context Contract Is Also Implicit
 
 The method calls:
 
@@ -830,9 +833,9 @@ Therefore `Context` must expose compatible mapping behavior.
 
 The imported `Context` definition is absent.
 
----
+______________________________________________________________________
 
-# 33. Minimal Runtime Preconditions
+## 33. Minimal Runtime Preconditions
 
 For the visible `run` method to complete normally:
 
@@ -862,9 +865,9 @@ $$
 return\ context
 $$
 
----
+______________________________________________________________________
 
-# 34. Formal Success Predicate
+## 34. Formal Success Predicate
 
 A useful DERIVED representation:
 
@@ -878,9 +881,9 @@ $$
 
 subject to any behavior hidden inside custom `Context`.
 
----
+______________________________________________________________________
 
-# 35. No Exception Handling
+## 35. No Exception Handling
 
 The method contains no:
 
@@ -896,9 +899,9 @@ except:
 
 Therefore failures from `setdefault` or `append` are not locally handled.
 
----
+______________________________________________________________________
 
-# 36. Fail-Closed vs Fail-Open
+## 36. Fail-Closed vs Fail-Open
 
 The source does not define an explicit failure policy.
 
@@ -910,9 +913,9 @@ return context
 
 So at the local Python level the visible implementation naturally propagates the failure unless surrounding runtime infrastructure catches it.
 
----
+______________________________________________________________________
 
-# 37. Atomicity Gap
+## 37. Atomicity Gap
 
 Consider:
 
@@ -932,9 +935,9 @@ Failure
 NoMutation
 $$
 
----
+______________________________________________________________________
 
-# 38. Partial Mutation Case
+## 38. Partial Mutation Case
 
 Possible state:
 
@@ -954,9 +957,9 @@ After successful `setdefault` but failed append:
 
 This demonstrates that the operation is not transactionally atomic from the visible code alone.
 
----
+______________________________________________________________________
 
-# 39. No Rollback
+## 39. No Rollback
 
 There is no visible:
 
@@ -973,9 +976,9 @@ logic.
 
 Therefore no atomic rollback semantics should be attributed to this component.
 
----
+______________________________________________________________________
 
-# 40. No Concurrency Guard
+## 40. No Concurrency Guard
 
 The source contains no visible:
 
@@ -990,9 +993,9 @@ async synchronization
 
 around trace mutation.
 
----
+______________________________________________________________________
 
-# 41. Concurrent Invocation Semantics
+## 41. Concurrent Invocation Semantics
 
 Exact behavior under concurrent mutation depends on:
 
@@ -1004,9 +1007,9 @@ Exact behavior under concurrent mutation depends on:
 
 The source does not resolve this.
 
----
+______________________________________________________________________
 
-# 42. No Timestamp
+## 42. No Timestamp
 
 The trace event contains:
 
@@ -1031,9 +1034,9 @@ correlation_id
 causal_parent
 ```
 
----
+______________________________________________________________________
 
-# 43. Trace Event Schema
+## 43. Trace Event Schema
 
 Source-grounded event:
 
@@ -1046,9 +1049,9 @@ event: run
 
 Exactly four fields are supplied.
 
----
+______________________________________________________________________
 
-# 44. Event Semantics
+## 44. Event Semantics
 
 The event means, at minimum:
 
@@ -1066,9 +1069,9 @@ ledger balanced
 runtime completed downstream processing
 ```
 
----
+______________________________________________________________________
 
-# 45. Trace Is Not a Financial Ledger
+## 45. Trace Is Not a Financial Ledger
 
 This distinction is critical.
 
@@ -1084,9 +1087,9 @@ TraceEvent
 LedgerEntry
 $$
 
----
+______________________________________________________________________
 
-# 46. Trace Is Not an Audit Ledger by Default
+## 46. Trace Is Not an Audit Ledger by Default
 
 An audit system generally requires stronger properties such as:
 
@@ -1109,9 +1112,9 @@ Trace
 VerifiedAuditLog
 $$
 
----
+______________________________________________________________________
 
-# 47. Trace Is Not Provenance Proof
+## 47. Trace Is Not Provenance Proof
 
 The trace identifies component execution metadata.
 
@@ -1125,9 +1128,9 @@ Trace
 RSCFProvenanceReceipt
 $$
 
----
+______________________________________________________________________
 
-# 48. Trace Is Not a Proof Capsule
+## 48. Trace Is Not a Proof Capsule
 
 No:
 
@@ -1144,9 +1147,9 @@ Merkle proof
 
 appears in the event.
 
----
+______________________________________________________________________
 
-# 49. Accounts Name vs Accounts Logic
+## 49. Accounts Name vs Accounts Logic
 
 The component is named:
 
@@ -1158,9 +1161,9 @@ But names do not establish functionality beyond visible implementation.
 
 The code contains no account model.
 
----
+______________________________________________________________________
 
-# 50. No Account Identifier
+## 50. No Account Identifier
 
 No visible field such as:
 
@@ -1172,9 +1175,9 @@ owner_id
 
 exists.
 
----
+______________________________________________________________________
 
-# 51. No Account Creation
+## 51. No Account Creation
 
 There is no:
 
@@ -1184,15 +1187,15 @@ create_account(...)
 
 or equivalent logic.
 
----
+______________________________________________________________________
 
-# 52. No Account Closure
+## 52. No Account Closure
 
 No close/deactivate/archive semantics are supplied.
 
----
+______________________________________________________________________
 
-# 53. No Balance
+## 53. No Balance
 
 There is no:
 
@@ -1202,21 +1205,21 @@ $$
 
 state or equation.
 
----
+______________________________________________________________________
 
-# 54. No Debit
+## 54. No Debit
 
 No debit operation is defined.
 
----
+______________________________________________________________________
 
-# 55. No Credit
+## 55. No Credit
 
 No credit operation is defined.
 
----
+______________________________________________________________________
 
-# 56. No Transfer
+## 56. No Transfer
 
 No:
 
@@ -1226,27 +1229,27 @@ $$
 
 appears.
 
----
+______________________________________________________________________
 
-# 57. No Currency
+## 57. No Currency
 
 No currency type, denomination, or unit appears.
 
----
+______________________________________________________________________
 
-# 58. No Money Quantity
+## 58. No Money Quantity
 
 No amount field is processed.
 
----
+______________________________________________________________________
 
-# 59. No Ledger
+## 59. No Ledger
 
 No transaction journal or ledger data structure appears.
 
----
+______________________________________________________________________
 
-# 60. No Double-Entry Accounting
+## 60. No Double-Entry Accounting
 
 The artifact does not implement:
 
@@ -1256,21 +1259,21 @@ $$
 
 or debit/credit balancing.
 
----
+______________________________________________________________________
 
-# 61. No Reconciliation
+## 61. No Reconciliation
 
 No reconciliation mechanism appears.
 
----
+______________________________________________________________________
 
-# 62. No Settlement
+## 62. No Settlement
 
 No settlement semantics appear.
 
----
+______________________________________________________________________
 
-# 63. No Persistence
+## 63. No Persistence
 
 The source does not write to:
 
@@ -1282,47 +1285,47 @@ event store
 network service
 ```
 
----
+______________________________________________________________________
 
-# 64. No Explicit External I/O
+## 64. No Explicit External I/O
 
 Inside `run`, no explicit network, filesystem, database, or subprocess operation is visible.
 
 However, behavior hidden inside a custom `Context` cannot be ruled out from this artifact alone.
 
----
+______________________________________________________________________
 
-# 65. No Authentication
+## 65. No Authentication
 
 No identity/authentication check appears.
 
----
+______________________________________________________________________
 
-# 66. No Authorization
+## 66. No Authorization
 
 No permission or role validation appears.
 
----
+______________________________________________________________________
 
-# 67. No Consent Gate
+## 67. No Consent Gate
 
 No consent semantics appear.
 
----
+______________________________________________________________________
 
-# 68. No Compliance Gate
+## 68. No Compliance Gate
 
 No AML, KYC, sanctions, tax, legal, regulatory, or jurisdictional rules appear.
 
----
+______________________________________________________________________
 
-# 69. No Risk Model
+## 69. No Risk Model
 
 No financial risk calculation appears.
 
----
+______________________________________________________________________
 
-# 70. No Monetary Mutation
+## 70. No Monetary Mutation
 
 The only explicit state mutation is trace-related.
 
@@ -1334,9 +1337,9 @@ $$
 
 for the visible implementation, assuming financial state is separate from the `"trace"` field.
 
----
+______________________________________________________________________
 
-# 71. Precise Visible Effect
+## 71. Precise Visible Effect
 
 A compact semantic function is:
 
@@ -1364,9 +1367,9 @@ $$
 return\ C
 $$
 
----
+______________________________________________________________________
 
-# 72. Context Identity Invariant
+## 72. Context Identity Invariant
 
 Assuming successful execution:
 
@@ -1384,9 +1387,9 @@ returned is context
 
 should be true for ordinary execution.
 
----
+______________________________________________________________________
 
-# 73. Key Preservation Invariant
+## 73. Key Preservation Invariant
 
 For keys other than `"trace"`, the method itself performs no direct mutation.
 
@@ -1399,9 +1402,9 @@ $$
 
 provided no custom side effects occur through `Context`.
 
----
+______________________________________________________________________
 
-# 74. Trace Growth Invariant
+## 74. Trace Growth Invariant
 
 If a valid appendable trace exists:
 
@@ -1411,9 +1414,9 @@ $$
 |Trace_{before}|+1
 $$
 
----
+______________________________________________________________________
 
-# 75. Trace Suffix Invariant
+## 75. Trace Suffix Invariant
 
 After successful execution:
 
@@ -1423,9 +1426,9 @@ $$
 
 assuming sequence semantics.
 
----
+______________________________________________________________________
 
-# 76. Registration Identity Invariant
+## 76. Registration Identity Invariant
 
 Decorator metadata and trace metadata agree on:
 
@@ -1437,9 +1440,9 @@ component Accounts_Kernel
 
 This is an important internal consistency property.
 
----
+______________________________________________________________________
 
-# 77. Three-Way Identity Agreement
+## 77. Three-Way Identity Agreement
 
 The component identity occurs in:
 
@@ -1463,9 +1466,9 @@ MONEY_SYSTEM / kernels / Accounts_Kernel
 
 Therefore visible source contains three mutually consistent declarations.
 
----
+______________________________________________________________________
 
-# 78. Class Name Agreement
+## 78. Class Name Agreement
 
 Class:
 
@@ -1485,9 +1488,9 @@ and trace component:
 Accounts_Kernel
 ```
 
----
+______________________________________________________________________
 
-# 79. System Agreement
+## 79. System Agreement
 
 Module docstring, decorator, and trace all say:
 
@@ -1495,9 +1498,9 @@ Module docstring, decorator, and trace all say:
 MONEY_SYSTEM
 ```
 
----
+______________________________________________________________________
 
-# 80. Category Agreement
+## 80. Category Agreement
 
 All three say:
 
@@ -1505,9 +1508,9 @@ All three say:
 kernels
 ```
 
----
+______________________________________________________________________
 
-# 81. Internal Identity Consistency
+## 81. Internal Identity Consistency
 
 Thus:
 
@@ -1519,9 +1522,9 @@ within the limited source.
 
 This does not prove external registry consistency.
 
----
+______________________________________________________________________
 
-# 82. Component Purpose
+## 82. Component Purpose
 
 The class docstring explicitly frames this as a:
 
@@ -1537,9 +1540,9 @@ you can layer real logic later
 
 This is strong evidence that the component is intentionally scaffold-like rather than complete account logic.
 
----
+______________________________________________________________________
 
-# 83. Scaffold Classification
+## 83. Scaffold Classification
 
 Best derived class:
 
@@ -1555,9 +1558,9 @@ NON_DESTRUCTIVE_TRACE_STUB
 
 These are DERIVED descriptions, not source labels.
 
----
+______________________________________________________________________
 
-# 84. Placeholder vs Stub
+## 84. Placeholder vs Stub
 
 The component is more than an empty placeholder because it has real observable behavior:
 
@@ -1575,17 +1578,17 @@ functional scaffold
 
 is more precise than simply “empty.”
 
----
+______________________________________________________________________
 
-# 85. Registration as Architectural Behavior
+## 85. Registration as Architectural Behavior
 
 Even without account logic, registration can make the component discoverable to a registry-driven architecture—**if** the decorator has that behavior and the module is loaded.
 
 That condition must remain explicit.
 
----
+______________________________________________________________________
 
-# 86. Import-Time Behavior
+## 86. Import-Time Behavior
 
 Python decorators execute when the class definition is evaluated.
 
@@ -1600,9 +1603,9 @@ invokes the decorator during module execution/import.
 
 But exact registry effects remain dependent on the decorator implementation.
 
----
+______________________________________________________________________
 
-# 87. Registration Does Not Occur Merely Because File Exists
+## 87. Registration Does Not Occur Merely Because File Exists
 
 The module generally needs to be executed/imported for decorator behavior to occur.
 
@@ -1614,9 +1617,9 @@ FilePresence
 RegistryPresence
 $$
 
----
+______________________________________________________________________
 
-# 88. Registry Presence Does Not Prove Invocation
+## 88. Registry Presence Does Not Prove Invocation
 
 Even if registration succeeds:
 
@@ -1626,17 +1629,17 @@ Registered
 runCalled
 $$
 
----
+______________________________________________________________________
 
-# 89. Trace Entry Is Stronger Evidence of Invocation
+## 89. Trace Entry Is Stronger Evidence of Invocation
 
 If this exact event is observed in a trusted context trace, it supports that the append statement executed.
 
 But it still does not prove all surrounding runtime steps completed.
 
----
+______________________________________________________________________
 
-# 90. Event Is Produced Before Return
+## 90. Event Is Produced Before Return
 
 Execution order:
 
@@ -1650,9 +1653,9 @@ return
 
 Thus the trace event is appended before the explicit return.
 
----
+______________________________________________________________________
 
-# 91. Trace Event Does Not Prove Return Completed
+## 91. Trace Event Does Not Prove Return Completed
 
 An exotic failure could occur after append but before the caller successfully receives the returned value.
 
@@ -1664,9 +1667,9 @@ TraceAppended
 CallerObservedSuccessfulReturn
 $$
 
----
+______________________________________________________________________
 
-# 92. No Success/Failure Status Field
+## 92. No Success/Failure Status Field
 
 Event contains only:
 
@@ -1682,9 +1685,9 @@ status: success
 
 Therefore it should not be interpreted as a success receipt.
 
----
+______________________________________________________________________
 
-# 93. No Start/End Distinction
+## 93. No Start/End Distinction
 
 There is no:
 
@@ -1697,41 +1700,41 @@ pair.
 
 The event's exact lifecycle meaning is simply source-defined as `"run"`.
 
----
+______________________________________________________________________
 
-# 94. No Input Summary
+## 94. No Input Summary
 
 The trace does not record what input was processed.
 
----
+______________________________________________________________________
 
-# 95. No Output Summary
+## 95. No Output Summary
 
 It does not record resulting state.
 
----
+______________________________________________________________________
 
-# 96. No Mutation Receipt
+## 96. No Mutation Receipt
 
 It does not enumerate changed keys.
 
----
+______________________________________________________________________
 
-# 97. No Causal Parent
+## 97. No Causal Parent
 
 No upstream component is recorded.
 
----
+______________________________________________________________________
 
-# 98. No Execution ID
+## 98. No Execution ID
 
 Repeated events are structurally identical.
 
 Thus two executions produce duplicate dictionaries unless the surrounding context adds other metadata elsewhere.
 
----
+______________________________________________________________________
 
-# 99. Duplicate Events Are Allowed
+## 99. Duplicate Events Are Allowed
 
 There is no duplicate suppression.
 
@@ -1743,17 +1746,17 @@ $$
 
 is valid under repeated invocation.
 
----
+______________________________________________________________________
 
-# 100. No Trace Capacity Bound
+## 100. No Trace Capacity Bound
 
 The kernel never truncates the trace.
 
 Repeated execution can therefore grow it indefinitely from this component's perspective.
 
----
+______________________________________________________________________
 
-# 101. Memory Growth Consideration
+## 101. Memory Growth Consideration
 
 If the same context persists across many calls:
 
@@ -1761,21 +1764,21 @@ $$
 |Trace_n|=|Trace_0|+n
 $$
 
-for \(n\) successful invocations.
+for (n) successful invocations.
 
 No compaction is visible.
 
----
+______________________________________________________________________
 
-# 102. This Is Not Necessarily a Defect
+## 102. This Is Not Necessarily a Defect
 
 The wider runtime may manage trace lifetime or context scope.
 
 That architecture is simply not supplied here.
 
----
+______________________________________________________________________
 
-# 103. Context Lifetime Gap
+## 103. Context Lifetime Gap
 
 Unknown whether a context is:
 
@@ -1788,9 +1791,9 @@ Unknown whether a context is:
 
 This materially affects trace growth interpretation.
 
----
+______________________________________________________________________
 
-# 104. Registry Lifetime Gap
+## 104. Registry Lifetime Gap
 
 Unknown whether the registry is:
 
@@ -1800,9 +1803,9 @@ Unknown whether the registry is:
 - reconstructed on import;
 - plugin-scoped.
 
----
+______________________________________________________________________
 
-# 105. Kernel Lifecycle Gap
+## 105. Kernel Lifecycle Gap
 
 No visible methods for:
 
@@ -1820,9 +1823,9 @@ appear.
 
 The base `Kernel` may define them, but that is outside this source.
 
----
+______________________________________________________________________
 
-# 106. Constructor Gap
+## 106. Constructor Gap
 
 No explicit:
 
@@ -1836,27 +1839,27 @@ Therefore construction behavior is inherited.
 
 Exact behavior is unknown without `Kernel`.
 
----
+______________________________________________________________________
 
-# 107. Context Ownership Gap
+## 107. Context Ownership Gap
 
 The source does not specify whether the kernel owns the context or merely borrows/mutates it.
 
----
+______________________________________________________________________
 
-# 108. Trace Ownership Gap
+## 108. Trace Ownership Gap
 
 Likewise, no ownership model for `"trace"` is defined.
 
----
+______________________________________________________________________
 
-# 109. Schema Governance Gap
+## 109. Schema Governance Gap
 
 No formal context schema appears.
 
----
+______________________________________________________________________
 
-# 110. Money-System Architecture Gap
+## 110. Money-System Architecture Gap
 
 The artifact establishes that this component belongs to:
 
@@ -1876,9 +1879,9 @@ Unknown:
 - orchestrators;
 - transaction boundaries.
 
----
+______________________________________________________________________
 
-# 111. Accounts Domain Gap
+## 111. Accounts Domain Gap
 
 No account ontology is supplied.
 
@@ -1898,9 +1901,9 @@ LedgerAccount
 
 must not be invented as canon.
 
----
+______________________________________________________________________
 
-# 112. “Accounts” Is Underspecified
+## 112. “Accounts” Is Underspecified
 
 The title may refer to financial/accounting accounts because the system is `MONEY_SYSTEM`.
 
@@ -1908,35 +1911,35 @@ That is a strong contextual inference.
 
 But exact account semantics remain unspecified.
 
----
+______________________________________________________________________
 
-# 113. Do Not Infer Banking
+## 113. Do Not Infer Banking
 
 `MONEY_SYSTEM` does not prove this is a banking system.
 
----
+______________________________________________________________________
 
-# 114. Do Not Infer Cryptocurrency
+## 114. Do Not Infer Cryptocurrency
 
 No blockchain or token semantics appear.
 
----
+______________________________________________________________________
 
-# 115. Do Not Infer Double Entry
+## 115. Do Not Infer Double Entry
 
 No accounting model appears.
 
----
+______________________________________________________________________
 
-# 116. Do Not Infer User Accounts
+## 116. Do Not Infer User Accounts
 
 The term `Accounts` could theoretically have multiple meanings, although `MONEY_SYSTEM` narrows the likely domain.
 
 Exact ontology remains a gap.
 
----
+______________________________________________________________________
 
-# 117. Epistemic Layering
+## 117. Epistemic Layering
 
 Three evidence layers should be distinguished.
 
@@ -1954,9 +1957,9 @@ Directly inspectable behavior of the supplied Python.
 
 Requires imports, tests, registry inspection, or execution evidence not supplied here.
 
----
+______________________________________________________________________
 
-# 118. Source Metadata vs Code
+## 118. Source Metadata vs Code
 
 The source metadata classifies the note as:
 
@@ -1973,9 +1976,9 @@ For example:
 
 is directly supported by visible code.
 
----
+______________________________________________________________________
 
-# 119. Strongest Accurate Classes
+## 119. Strongest Accurate Classes
 
 | Proposition                            | Class                                 |
 | -------------------------------------- | ------------------------------------- |
@@ -1997,9 +2000,9 @@ is directly supported by visible code.
 | Financial ledger is implemented        | NOT SUPPORTED                         |
 | Persistence is implemented             | NOT SUPPORTED                         |
 
----
+______________________________________________________________________
 
-# 120. Source Tag Firewall
+## 120. Source Tag Firewall
 
 Frontmatter contains:
 
@@ -2015,9 +2018,9 @@ $$
 RuntimeVerified=True
 $$
 
----
+______________________________________________________________________
 
-# 121. `core` Tag Firewall
+## 121. `core` Tag Firewall
 
 Similarly:
 
@@ -2029,9 +2032,9 @@ is source metadata.
 
 It does not by itself establish architectural criticality.
 
----
+______________________________________________________________________
 
-# 122. `kernel` Tag Alignment
+## 122. `kernel` Tag Alignment
 
 Unlike `runtime`, `kernel` is additionally supported by:
 
@@ -2047,17 +2050,17 @@ class Accounts_Kernel(Kernel)
 
 So there is stronger internal evidence for kernel classification.
 
----
+______________________________________________________________________
 
-# 123. `canon/knowledge`
+## 123. `canon/knowledge`
 
 This places the note in the source's knowledge/canon taxonomy.
 
 It does not elevate its implementation claims into empirical or runtime verification.
 
----
+______________________________________________________________________
 
-# 124. Provenance
+## 124. Provenance
 
 Source declares:
 
@@ -2067,9 +2070,9 @@ provenance: AMOS_corpus
 
 Therefore this artifact should be treated as AMOS corpus evidence.
 
----
+______________________________________________________________________
 
-# 125. Provenance Independence
+## 125. Provenance Independence
 
 Multiple copies of this code within the same corpus would not automatically provide independent validation.
 
@@ -2079,27 +2082,27 @@ Copies(Source_A)
 IndependentSources
 $$
 
----
+______________________________________________________________________
 
-# 126. Runtime Validation Requirements
+## 126. Runtime Validation Requirements
 
 To establish actual runtime viability, the cheapest high-information tests would be:
 
 1. resolve imports;
-2. inspect `Context`;
-3. inspect `Kernel`;
-4. inspect `register_component`;
-5. import this module;
-6. query registry;
-7. instantiate component;
-8. call `run` with valid context;
-9. test malformed trace cases.
+1. inspect `Context`;
+1. inspect `Kernel`;
+1. inspect `register_component`;
+1. import this module;
+1. query registry;
+1. instantiate component;
+1. call `run` with valid context;
+1. test malformed trace cases.
 
 Those tests are not supplied here.
 
----
+______________________________________________________________________
 
-# 127. Minimal Unit Test — Successful Empty Context
+## 127. Minimal Unit Test — Successful Empty Context
 
 A PROPOSED test:
 
@@ -2123,9 +2126,9 @@ def test_accounts_kernel_adds_trace():
 
 This is a proposed validation artifact, not source code.
 
----
+______________________________________________________________________
 
-# 128. Existing Trace Test
+## 128. Existing Trace Test
 
 ```python
 def test_accounts_kernel_preserves_existing_trace():
@@ -2144,9 +2147,9 @@ def test_accounts_kernel_preserves_existing_trace():
 
 PROPOSED.
 
----
+______________________________________________________________________
 
-# 129. Other-Key Preservation Test
+## 129. Other-Key Preservation Test
 
 ```python
 def test_accounts_kernel_preserves_other_context_fields():
@@ -2165,9 +2168,9 @@ def test_accounts_kernel_preserves_other_context_fields():
 
 PROPOSED.
 
----
+______________________________________________________________________
 
-# 130. Repeated Invocation Test
+## 130. Repeated Invocation Test
 
 ```python
 def test_accounts_kernel_appends_once_per_call():
@@ -2183,9 +2186,9 @@ def test_accounts_kernel_appends_once_per_call():
 
 PROPOSED.
 
----
+______________________________________________________________________
 
-# 131. Invalid Trace Test
+## 131. Invalid Trace Test
 
 ```python
 import pytest
@@ -2201,9 +2204,9 @@ This test reflects ordinary Python behavior, but exact exception behavior could 
 
 PROPOSED.
 
----
+______________________________________________________________________
 
-# 132. Registry Test
+## 132. Registry Test
 
 A conceptual test:
 
@@ -2222,9 +2225,9 @@ However, `lookup_component` is not supplied.
 
 This is therefore schematic only.
 
----
+______________________________________________________________________
 
-# 133. Import Test
+## 133. Import Test
 
 ```python
 def test_accounts_kernel_module_imports():
@@ -2235,9 +2238,9 @@ Actual module path is not supplied.
 
 Therefore this cannot yet be canonicalized.
 
----
+______________________________________________________________________
 
-# 134. Boundary Test Matrix
+## 134. Boundary Test Matrix
 
 | Input                      | Expected visible behavior        |
 | -------------------------- | -------------------------------- |
@@ -2250,9 +2253,9 @@ Therefore this cannot yet be canonicalized.
 | custom appendable trace    | may succeed                      |
 | custom `Context`           | depends on implementation        |
 
----
+______________________________________________________________________
 
-# 135. Invariant Test Matrix
+## 135. Invariant Test Matrix
 
 | Invariant                      | Visible support                  |
 | ------------------------------ | -------------------------------- |
@@ -2268,9 +2271,9 @@ Therefore this cannot yet be canonicalized.
 | Idempotent                     | No                               |
 | Pure                           | No                               |
 
----
+______________________________________________________________________
 
-# 136. Failure Taxonomy
+## 136. Failure Taxonomy
 
 ### F1 — Import failure
 
@@ -2302,15 +2305,15 @@ Possible outside this component.
 
 Only F4–F6 relate directly to visible `run` semantics.
 
----
+______________________________________________________________________
 
-# 137. No Local Recovery
+## 137. No Local Recovery
 
 The component contains no recovery branch for any of these failures.
 
----
+______________________________________________________________________
 
-# 138. No Validation Before Mutation
+## 138. No Validation Before Mutation
 
 It does not check:
 
@@ -2321,41 +2324,41 @@ if not isinstance(trace, list):
 
 before append.
 
----
+______________________________________________________________________
 
-# 139. No Schema Repair
+## 139. No Schema Repair
 
 If trace exists with an invalid type, the implementation does not replace it with `[]`.
 
 This is arguably safer than silently destroying an existing value, but that design intent is not stated.
 
----
+______________________________________________________________________
 
-# 140. Fail-Loud Character
+## 140. Fail-Loud Character
 
 For incompatible trace values, ordinary semantics are effectively fail-loud rather than silent repair.
 
 This is DERIVED.
 
----
+______________________________________________________________________
 
-# 141. Data Preservation Character
+## 141. Data Preservation Character
 
 Because `setdefault` does not overwrite an existing `"trace"` value, even an invalid one, the method avoids silently replacing pre-existing data.
 
 That is a useful property.
 
----
+______________________________________________________________________
 
-# 142. But Failure May Leave Partial State
+## 142. But Failure May Leave Partial State
 
 As noted, absence of `"trace"` can lead to insertion before a later append failure.
 
 Thus preservation and atomicity are separate properties.
 
----
+______________________________________________________________________
 
-# 143. Proposed Stronger Trace Contract
+## 143. Proposed Stronger Trace Contract
 
 If future canon requires it, a typed precondition could be:
 
@@ -2365,12 +2368,12 @@ Context.trace MUST be absent or Appendable[TraceEvent]
 
 PROPOSED.
 
----
+______________________________________________________________________
 
-# 144. Proposed Trace Event Type
+## 144. Proposed Trace Event Type
 
 ```yaml
-# PROPOSED
+## PROPOSED
 
 TraceEvent:
   system: str
@@ -2379,12 +2382,12 @@ TraceEvent:
   event: str
 ```
 
----
+______________________________________________________________________
 
-# 145. Proposed Accounts Kernel Contract
+## 145. Proposed Accounts Kernel Contract
 
 ```yaml
-# PROPOSED
+## PROPOSED
 
 AccountsKernelContract:
 
@@ -2412,12 +2415,12 @@ AccountsKernelContract:
     - propagate local operation failure
 ```
 
----
+______________________________________________________________________
 
-# 146. Proposed RSCF H-Level
+## 146. Proposed RSCF H-Level
 
 ```yaml
-# DERIVED
+## DERIVED
 
 H:
   intent:
@@ -2427,12 +2430,12 @@ H:
       state except for execution tracing.
 ```
 
----
+______________________________________________________________________
 
-# 147. Proposed RSCF M-Level
+## 147. Proposed RSCF M-Level
 
 ```yaml
-# DERIVED
+## DERIVED
 
 M:
   steps:
@@ -2442,12 +2445,12 @@ M:
     - return same context object
 ```
 
----
+______________________________________________________________________
 
-# 148. Proposed RSCF L-Level
+## 148. Proposed RSCF L-Level
 
 ```yaml
-# DERIVED
+## DERIVED
 
 L:
   source:
@@ -2468,12 +2471,12 @@ L:
     none
 ```
 
----
+______________________________________________________________________
 
-# 149. Runtime RSCF Capsule
+## 149. Runtime RSCF Capsule
 
 ```yaml
-# PROPOSED
+## PROPOSED
 
 claim:
   >
@@ -2503,12 +2506,12 @@ invalidators:
   - wrapper/decorator changes runtime behavior
 ```
 
----
+______________________________________________________________________
 
-# 150. Registration RSCF Capsule
+## 150. Registration RSCF Capsule
 
 ```yaml
-# PROPOSED
+## PROPOSED
 
 claim:
   >
@@ -2525,9 +2528,9 @@ actual_registry_presence:
   UNKNOWN_GAP
 ```
 
----
+______________________________________________________________________
 
-# 151. Financial Capability Capsule
+## 151. Financial Capability Capsule
 
 ```yaml
 claim:
@@ -2551,9 +2554,9 @@ missing:
   - persistence
 ```
 
----
+______________________________________________________________________
 
-# 152. Runtime Deployment Capsule
+## 152. Runtime Deployment Capsule
 
 ```yaml
 claim:
@@ -2575,9 +2578,9 @@ missing_evidence:
   - test receipt
 ```
 
----
+______________________________________________________________________
 
-# 153. Causal Firewall
+## 153. Causal Firewall
 
 A trace event:
 
@@ -2597,9 +2600,9 @@ $$
 
 A causal dependency chain would be required.
 
----
+______________________________________________________________________
 
-# 154. Scope Firewall
+## 154. Scope Firewall
 
 This artifact is scoped by metadata to:
 
@@ -2615,9 +2618,9 @@ MONEY_SYSTEM
 
 Do not silently generalize it to real banking/accounting infrastructure.
 
----
+______________________________________________________________________
 
-# 155. Regime Firewall
+## 155. Regime Firewall
 
 The visible component is a software scaffold.
 
@@ -2629,15 +2632,15 @@ It does not define behavior under:
 - real-money custody;
 - accounting compliance.
 
----
+______________________________________________________________________
 
-# 156. Financial Safety Boundary
+## 156. Financial Safety Boundary
 
 Because the visible implementation has no financial mutation, it should not be interpreted as sufficient infrastructure for real-money account operations.
 
----
+______________________________________________________________________
 
-# 157. Provenance Firewall
+## 157. Provenance Firewall
 
 The artifact itself is AMOS corpus evidence.
 
@@ -2649,9 +2652,9 @@ Accounts_Kernel is registered
 
 without independent runtime evidence, that repetition does not independently prove registration.
 
----
+______________________________________________________________________
 
-# 158. Runtime Evidence Ladder
+## 158. Runtime Evidence Ladder
 
 A useful evidence hierarchy is:
 
@@ -2677,9 +2680,9 @@ The supplied artifact establishes the first two only in the sense that executabl
 
 Actual execution has not been demonstrated here.
 
----
+______________________________________________________________________
 
-# 159. Adversarial Validation — “Non-Destructive”
+## 159. Adversarial Validation — “Non-Destructive”
 
 **Claim:** implementation is non-destructive.
 
@@ -2699,9 +2702,9 @@ CONDITIONAL
 
 The implementation is non-destructive in a limited sense, not mutation-free.
 
----
+______________________________________________________________________
 
-# 160. Adversarial Validation — “Returns Context Unchanged”
+## 160. Adversarial Validation — “Returns Context Unchanged”
 
 Challenge succeeds against literal value-level interpretation.
 
@@ -2721,9 +2724,9 @@ $$
 
 under successful normal execution.
 
----
+______________________________________________________________________
 
-# 161. Adversarial Validation — “Ensures Registered”
+## 161. Adversarial Validation — “Ensures Registered”
 
 The decorator supports registration intent.
 
@@ -2737,9 +2740,9 @@ SOURCE-DEFINED INTENT
 RUNTIME REGISTRATION UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 162. Adversarial Validation — Accounts Logic
+## 162. Adversarial Validation — Accounts Logic
 
 Challenge:
 
@@ -2753,9 +2756,9 @@ Result:
 NOT IMPLEMENTED IN SUPPLIED BODY
 ```
 
----
+______________________________________________________________________
 
-# 163. Adversarial Validation — Runtime
+## 163. Adversarial Validation — Runtime
 
 Challenge:
 
@@ -2769,9 +2772,9 @@ Result:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 164. Adversarial Validation — Trace Safety
+## 164. Adversarial Validation — Trace Safety
 
 Challenge:
 
@@ -2787,9 +2790,9 @@ Result:
 IMPLICIT TYPE PRECONDITION
 ```
 
----
+______________________________________________________________________
 
-# 165. Adversarial Validation — Atomicity
+## 165. Adversarial Validation — Atomicity
 
 Challenge:
 
@@ -2805,9 +2808,9 @@ Result:
 NO TRANSACTIONAL ATOMICITY ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 166. Adversarial Validation — Idempotence
+## 166. Adversarial Validation — Idempotence
 
 Challenge:
 
@@ -2823,9 +2826,9 @@ Result:
 NON_IDEMPOTENT
 ```
 
----
+______________________________________________________________________
 
-# 167. Adversarial Validation — Financial Integrity
+## 167. Adversarial Validation — Financial Integrity
 
 Challenge:
 
@@ -2839,9 +2842,9 @@ Result:
 UNKNOWN / NOT IMPLEMENTED
 ```
 
----
+______________________________________________________________________
 
-# 168. Strongest Supported Runtime Model
+## 168. Strongest Supported Runtime Model
 
 The smallest sufficient model is:
 
@@ -2855,9 +2858,9 @@ $$
 
 Nothing stronger is required to explain the visible implementation.
 
----
+______________________________________________________________________
 
-# 169. No Need to Invent Financial Semantics
+## 169. No Need to Invent Financial Semantics
 
 The source itself says:
 
@@ -2867,9 +2870,9 @@ you can layer real logic later
 
 Therefore missing account logic is consistent with the source's scaffold intent.
 
----
+______________________________________________________________________
 
-# 170. Likely Architectural Role
+## 170. Likely Architectural Role
 
 A careful DERIVED interpretation is:
 
@@ -2877,9 +2880,9 @@ A careful DERIVED interpretation is:
 
 The phrase “no-op-like” must remain qualified because trace state is mutated.
 
----
+______________________________________________________________________
 
-# 171. True No-Op Comparison
+## 171. True No-Op Comparison
 
 A literal no-op would be:
 
@@ -2903,9 +2906,9 @@ AccountsKernel
 PureNoOp
 $$
 
----
+______________________________________________________________________
 
-# 172. Observable Side Effect
+## 172. Observable Side Effect
 
 The trace mutation makes execution observable to downstream components that inspect context.
 
@@ -2919,9 +2922,9 @@ Those uses are plausible but not explicitly stated.
 
 Therefore they are DERIVED possibilities, not canonical purpose claims.
 
----
+______________________________________________________________________
 
-# 173. Potential Pipeline Semantics
+## 173. Potential Pipeline Semantics
 
 If multiple similar components append events, a context could accumulate:
 
@@ -2936,9 +2939,9 @@ This could act as an execution-path trace.
 
 But no such pipeline is supplied here.
 
----
+______________________________________________________________________
 
-# 174. Trace Ordering
+## 174. Trace Ordering
 
 Within a single sequential context, append order can encode invocation order.
 
@@ -2950,9 +2953,9 @@ $$
 
 does not automatically establish causal dependency.
 
----
+______________________________________________________________________
 
-# 175. Order ≠ Causation
+## 175. Order ≠ Causation
 
 If:
 
@@ -2972,14 +2975,14 @@ $$
 
 causally.
 
----
+______________________________________________________________________
 
-# 176. Proposed Execution Receipt Upgrade
+## 176. Proposed Execution Receipt Upgrade
 
 A future trace could carry:
 
 ```yaml
-# PROPOSED
+## PROPOSED
 
 event_id:
 timestamp:
@@ -2996,9 +2999,9 @@ correlation_id:
 
 This is an enhancement proposal only.
 
----
+______________________________________________________________________
 
-# 177. Proposed Financial Logic Boundary
+## 177. Proposed Financial Logic Boundary
 
 If substantive account logic is later layered in, keep it separate from tracing:
 
@@ -3016,9 +3019,9 @@ Trace Receipt
 
 PROPOSED architecture.
 
----
+______________________________________________________________________
 
-# 178. Proposed Account-State Integrity Invariant
+## 178. Proposed Account-State Integrity Invariant
 
 Not source canon, but a future implementation would need explicitly typed invariants rather than relying on the component name.
 
@@ -3030,17 +3033,17 @@ Account mutation must be validated before commit.
 
 Exact financial equations must come from an authoritative MONEY_SYSTEM specification, not be invented here.
 
----
+______________________________________________________________________
 
-# 179. Proposed Reversibility Principle
+## 179. Proposed Reversibility Principle
 
 Until real account semantics exist, the current minimal scaffold has relatively low financial irreversibility because it does not visibly alter financial state.
 
 If later monetary mutations are introduced, validation requirements should rise substantially.
 
----
+______________________________________________________________________
 
-# 180. Action Governance
+## 180. Action Governance
 
 A future implementation that moves or records real value would require much stronger evidence than this scaffold:
 
@@ -3056,9 +3059,9 @@ A future implementation that moves or records real value would require much stro
 
 These are architectural requirements in a consequential financial regime, not claims about the current source.
 
----
+______________________________________________________________________
 
-# 181. Critical Gap — `Context`
+## 181. Critical Gap — `Context`
 
 The single most useful dependency to inspect next is:
 
@@ -3068,9 +3071,9 @@ from amos_system.core.base import Context
 
 because `Context` semantics determine whether the visible reasoning about mapping mutation precisely matches runtime behavior.
 
----
+______________________________________________________________________
 
-# 182. Critical Gap — `register_component`
+## 182. Critical Gap — `register_component`
 
 The next high-value dependency is:
 
@@ -3080,9 +3083,9 @@ from amos_system.core.registry import register_component
 
 because it determines whether the registration docstring claim is operationally true.
 
----
+______________________________________________________________________
 
-# 183. Decision-Relevant Gap — `Kernel`
+## 183. Decision-Relevant Gap — `Kernel`
 
 Inspecting:
 
@@ -3099,9 +3102,9 @@ would determine:
 - lifecycle;
 - possible run instrumentation.
 
----
+______________________________________________________________________
 
-# 184. Critical Gap Priority
+## 184. Critical Gap Priority
 
 ```text
 1. Context
@@ -3114,9 +3117,9 @@ would determine:
 
 This is a DERIVED retrieval priority.
 
----
+______________________________________________________________________
 
-# 185. Why MONEY_SYSTEM Details Come Later
+## 185. Why MONEY_SYSTEM Details Come Later
 
 The visible component's actual behavior can already be characterized without loading the whole money architecture.
 
@@ -3124,9 +3127,9 @@ This follows smallest-sufficient-proof scope.
 
 Only substantive account semantics require deeper retrieval.
 
----
+______________________________________________________________________
 
-# 186. Source Relations
+## 186. Source Relations
 
 The artifact explicitly links:
 
@@ -3144,9 +3147,9 @@ and:
 
 ```
 
----
+______________________________________________________________________
 
-# 187. Relation Semantics Boundary
+## 187. Relation Semantics Boundary
 
 The first group is labeled:
 
@@ -3170,9 +3173,9 @@ PARENT_OF
 VALIDATED_BY
 ```
 
----
+______________________________________________________________________
 
-# 188. Source-Grounded Obsidian Graph
+## 188. Source-Grounded Obsidian Graph
 
 ```mermaid
 flowchart TD
@@ -3188,9 +3191,9 @@ flowchart TD
 
 Edges represent only supplied related/MOC links.
 
----
+______________________________________________________________________
 
-# 189. Runtime Structure Graph
+## 189. Runtime Structure Graph
 
 ```mermaid
 flowchart TD
@@ -3211,9 +3214,9 @@ flowchart TD
     AP --> RET["return context"]
 ```
 
----
+______________________________________________________________________
 
-# 190. State Mutation Graph
+## 190. State Mutation Graph
 
 ```mermaid
 flowchart LR
@@ -3228,9 +3231,9 @@ flowchart LR
     A --> C1["Return same context object"]
 ```
 
----
+______________________________________________________________________
 
-# 191. Failure Graph
+## 191. Failure Graph
 
 ```mermaid
 flowchart TD
@@ -3246,9 +3249,9 @@ flowchart TD
     A --> R["Return context"]
 ```
 
----
+______________________________________________________________________
 
-# 192. Provenance Topology
+## 192. Provenance Topology
 
 ```text
 AMOS_corpus
@@ -3261,12 +3264,12 @@ ACCOUNTS KERNEL note
 
 No independent source ancestry is supplied.
 
----
+______________________________________________________________________
 
-# 193. Proposed Machine Representation
+## 193. Proposed Machine Representation
 
 ```yaml
-# DERIVED
+## DERIVED
 
 accounts_kernel:
 
@@ -3310,9 +3313,9 @@ accounts_kernel:
     actual_registration_verified: false
 ```
 
----
+______________________________________________________________________
 
-# 194. Proposed Capability Matrix
+## 194. Proposed Capability Matrix
 
 | Capability                   | Current source |
 | ---------------------------- | -------------- |
@@ -3337,9 +3340,9 @@ accounts_kernel:
 | Concurrency control          | No             |
 | Durable audit receipt        | No             |
 
----
+______________________________________________________________________
 
-# 195. Source Claim Ceiling
+## 195. Source Claim Ceiling
 
 Unlike some other AMOS artifacts, this frontmatter supplies no numeric:
 
@@ -3349,9 +3352,9 @@ claim_ceiling
 
 Therefore no numerical confidence ceiling should be invented.
 
----
+______________________________________________________________________
 
-# 196. Validation Status
+## 196. Validation Status
 
 No:
 
@@ -3369,9 +3372,9 @@ appears.
 
 Therefore neither status should be attributed.
 
----
+______________________________________________________________________
 
-# 197. Version
+## 197. Version
 
 No artifact version is supplied.
 
@@ -3381,35 +3384,35 @@ Therefore:
 version = UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 198. Updated Date
+## 198. Updated Date
 
 No updated date is supplied.
 
----
+______________________________________________________________________
 
-# 199. Created Date
+## 199. Created Date
 
 No created date is supplied.
 
----
+______________________________________________________________________
 
-# 200. Origin Architect Metadata
+## 200. Origin Architect Metadata
 
 No `origin_architect` field appears in this artifact's supplied metadata/body.
 
 Do not add one to normalized source metadata.
 
----
+______________________________________________________________________
 
-# 201. Steward Metadata
+## 201. Steward Metadata
 
 No `steward` field appears.
 
----
+______________________________________________________________________
 
-# 202. Artifact Path
+## 202. Artifact Path
 
 Source directory is given:
 
@@ -3421,9 +3424,9 @@ but the exact filename/path is not explicitly supplied in the pasted frontmatter
 
 Do not invent one as source canon.
 
----
+______________________________________________________________________
 
-# 203. Proposed Path
+## 203. Proposed Path
 
 For Obsidian organization, a possible derived path is:
 
@@ -3433,12 +3436,12 @@ For Obsidian organization, a possible derived path is:
 
 but this is **PROPOSED only**.
 
----
+______________________________________________________________________
 
-# 204. Proposed RSCF Node
+## 204. Proposed RSCF Node
 
 ```yaml
-# PROPOSED
+## PROPOSED
 
 RSCF-NODE:
   node_id: accounts_kernel
@@ -3479,11 +3482,11 @@ RSCF-NODE:
       - ""
 ```
 
----
+______________________________________________________________________
 
-# 205. Proposed Dataview — Kernel Inventory
+## 205. Proposed Dataview — Kernel Inventory
 
-```dataview
+```text
 TABLE
   file.link AS "Kernel",
   source,
@@ -3493,13 +3496,13 @@ FROM "11_KNOWLEDGE/kernel"
 SORT file.name ASC
 ```
 
----
+______________________________________________________________________
 
-# 206. Proposed Dataview — MONEY_SYSTEM Notes
+## 206. Proposed Dataview — MONEY_SYSTEM Notes
 
 If derived metadata such as `system` is later formally added to vault notes:
 
-```dataview
+```text
 TABLE
   file.link,
   system,
@@ -3512,20 +3515,20 @@ SORT file.name ASC
 
 This query depends on metadata not present in the current source frontmatter.
 
----
+______________________________________________________________________
 
-# 207. Proposed Dataview — Kernel MOC
+## 207. Proposed Dataview — Kernel MOC
 
-```dataview
+```text
 LIST
 FROM "11_KNOWLEDGE/kernel"
 WHERE contains(file.outlinks, )
 SORT file.name ASC
 ```
 
----
+______________________________________________________________________
 
-# 208. Proposed Obsidian Callout
+## 208. Proposed Obsidian Callout
 
 ```markdown
 > [!warning] Runtime boundary
@@ -3534,9 +3537,9 @@ SORT file.name ASC
 > registry presence, test success, deployment, or production execution.
 ```
 
----
+______________________________________________________________________
 
-# 209. Proposed Obsidian Callout — Accounts Boundary
+## 209. Proposed Obsidian Callout — Accounts Boundary
 
 ```markdown
 > [!note] Current implementation
@@ -3544,9 +3547,9 @@ SORT file.name ASC
 > It appends an execution trace event and returns the same context object.
 ```
 
----
+______________________________________________________________________
 
-# 210. Proposed Obsidian Callout — Mutation Precision
+## 210. Proposed Obsidian Callout — Mutation Precision
 
 ```markdown
 > [!important] “Unchanged” context
@@ -3554,9 +3557,9 @@ SORT file.name ASC
 > Therefore the implementation is identity-preserving, not state-immutable.
 ```
 
----
+______________________________________________________________________
 
-# 211. Anti-Fabrication Rules
+## 211. Anti-Fabrication Rules
 
 Do not invent:
 
@@ -3580,9 +3583,9 @@ test status
 deployment status
 ```
 
----
+______________________________________________________________________
 
-# 212. Anti-Regression Rule — Source Metadata
+## 212. Anti-Regression Rule — Source Metadata
 
 Future normalization must preserve:
 
@@ -3598,9 +3601,9 @@ rscf.scope: AMOS_knowledge
 
 and the four supplied tags.
 
----
+______________________________________________________________________
 
-# 213. Anti-Regression Rule — Component Identity
+## 213. Anti-Regression Rule — Component Identity
 
 Preserve exactly:
 
@@ -3618,9 +3621,9 @@ $$
 
 unless an authoritative later version explicitly changes them.
 
----
+______________________________________________________________________
 
-# 214. Anti-Regression Rule — Trace Schema
+## 214. Anti-Regression Rule — Trace Schema
 
 Current source event:
 
@@ -3633,9 +3636,9 @@ event: run
 
 Do not silently add fields to the source representation.
 
----
+______________________________________________________________________
 
-# 215. Anti-Regression Rule — Behavioral Semantics
+## 215. Anti-Regression Rule — Behavioral Semantics
 
 Preserve the distinction:
 
@@ -3649,21 +3652,21 @@ $$
 MutatedTrace
 $$
 
----
+______________________________________________________________________
 
-# 216. Anti-Regression Rule — Financial Semantics
+## 216. Anti-Regression Rule — Financial Semantics
 
 Do not infer account behavior from the class name.
 
----
+______________________________________________________________________
 
-# 217. Anti-Regression Rule — Runtime
+## 217. Anti-Regression Rule — Runtime
 
 Do not infer deployment from the decorator or `runtime` tag.
 
----
+______________________________________________________________________
 
-# 218. Anti-Regression Rule — Registration
+## 218. Anti-Regression Rule — Registration
 
 Preserve:
 
@@ -3677,9 +3680,9 @@ separately from:
 actual registry state is verified
 ```
 
----
+______________________________________________________________________
 
-# 219. Minimal Formal Specification
+## 219. Minimal Formal Specification
 
 A concise formal model:
 
@@ -3689,7 +3692,7 @@ $$
 C
 $$
 
-be a context with append-compatible trace \(T\), or no trace key.
+be a context with append-compatible trace (T), or no trace key.
 
 Define:
 
@@ -3733,9 +3736,9 @@ $$
 C
 $$
 
----
+______________________________________________________________________
 
-# 220. Preconditions
+## 220. Preconditions
 
 $$
 ContextSupportsSetDefault(C)
@@ -3749,9 +3752,9 @@ $$
 
 after `setdefault`.
 
----
+______________________________________________________________________
 
-# 221. Postconditions
+## 221. Postconditions
 
 On successful execution:
 
@@ -3773,9 +3776,9 @@ $$
 Trace_{after}=[e]
 $$
 
----
+______________________________________________________________________
 
-# 222. Frame Condition
+## 222. Frame Condition
 
 For direct visible mutations:
 
@@ -3786,9 +3789,9 @@ $$
 
 subject to ordinary mapping semantics.
 
----
+______________________________________________________________________
 
-# 223. Financial Frame Condition
+## 223. Financial Frame Condition
 
 No visible statement modifies any explicitly financial field.
 
@@ -3800,9 +3803,9 @@ $$
 
 for the supplied body.
 
----
+______________________________________________________________________
 
-# 224. Idempotency Condition
+## 224. Idempotency Condition
 
 Because:
 
@@ -3826,15 +3829,15 @@ additional events.
 
 Thus the function is intentionally or incidentally invocation-count preserving through trace multiplicity.
 
----
+______________________________________________________________________
 
-# 225. Complexity
+## 225. Complexity
 
 Under ordinary list/dict assumptions:
 
-- `setdefault`: average \(O(1)\);
-- list append: amortized \(O(1)\);
-- return: \(O(1)\).
+- `setdefault`: average (O(1));
+- list append: amortized (O(1));
+- return: (O(1)).
 
 Therefore per invocation is approximately:
 
@@ -3844,9 +3847,9 @@ $$
 
 time excluding custom `Context`/trace behavior.
 
----
+______________________________________________________________________
 
-# 226. Space Complexity
+## 226. Space Complexity
 
 Each successful call appends one fixed-shape dictionary.
 
@@ -3856,19 +3859,19 @@ $$
 O(n)
 $$
 
-with number of calls \(n\).
+with number of calls (n).
 
 This is DERIVED under ordinary Python containers.
 
----
+______________________________________________________________________
 
-# 227. No Account-Scale Complexity
+## 227. No Account-Scale Complexity
 
 Because no account collection is traversed, runtime does not visibly depend on number of accounts.
 
----
+______________________________________________________________________
 
-# 228. Determinism
+## 228. Determinism
 
 For ordinary mapping/list semantics, the event content is deterministic:
 
@@ -3881,44 +3884,44 @@ event: run
 
 No randomness or clock is used.
 
----
+______________________________________________________________________
 
-# 229. State-Level Determinism
+## 229. State-Level Determinism
 
 Given equivalent compatible context state, the direct mutation is deterministic under ordinary semantics.
 
 But external decorator/base/context behavior remains unknown.
 
----
+______________________________________________________________________
 
-# 230. Replay
+## 230. Replay
 
 Repeated replay appends repeated events.
 
 Therefore replay is not state-neutral.
 
----
+______________________________________________________________________
 
-# 231. Retry Hazard
+## 231. Retry Hazard
 
 If a caller retries `run` after uncertainty about whether the previous call completed, duplicate trace events can occur.
 
 Since the event has no unique ID, duplicates cannot be distinguished as retries from legitimate repeated invocations using this event alone.
 
----
+______________________________________________________________________
 
-# 232. Financial Retry Hazard
+## 232. Financial Retry Hazard
 
 Currently this matters only for tracing because no financial mutation exists.
 
 If real account logic is later added, retry/idempotency governance would become critical.
 
----
+______________________________________________________________________
 
-# 233. Proposed Future Idempotency Receipt
+## 233. Proposed Future Idempotency Receipt
 
 ```yaml
-# PROPOSED
+## PROPOSED
 
 operation_id:
 attempt:
@@ -3930,9 +3933,9 @@ commit_status:
 
 Not current canon.
 
----
+______________________________________________________________________
 
-# 234. Security Surface
+## 234. Security Surface
 
 Visible `run` logic has a small direct surface.
 
@@ -3940,9 +3943,9 @@ It accepts a context and mutates trace.
 
 No credentials, secrets, network requests, or arbitrary execution are visible.
 
----
+______________________________________________________________________
 
-# 235. Security Unknowns
+## 235. Security Unknowns
 
 External dependencies could change this assessment:
 
@@ -3953,9 +3956,9 @@ register_component
 registry loader
 ```
 
----
+______________________________________________________________________
 
-# 236. Trace Injection Consideration
+## 236. Trace Injection Consideration
 
 Existing trace entries are not validated.
 
@@ -3963,29 +3966,29 @@ However, this component does not interpret them; it only appends its own fixed e
 
 Therefore malformed prior entries do not matter unless they affect `.append` compatibility.
 
----
+______________________________________________________________________
 
-# 237. Fixed Event Values
+## 237. Fixed Event Values
 
 The event values are constants, not derived from user input.
 
 That reduces direct trace-content injection through this method.
 
----
+______________________________________________________________________
 
-# 238. No Dynamic Component Name
+## 238. No Dynamic Component Name
 
 All event fields are hard-coded.
 
----
+______________________________________________________________________
 
-# 239. No Dynamic System Name
+## 239. No Dynamic System Name
 
 Likewise hard-coded.
 
----
+______________________________________________________________________
 
-# 240. Internal Registry/Trace Agreement Test
+## 240. Internal Registry/Trace Agreement Test
 
 A useful integrity test could compare:
 
@@ -3997,9 +4000,9 @@ decorator.name == trace.component
 
 All three match in the supplied source.
 
----
+______________________________________________________________________
 
-# 241. Proposed Identity Invariant
+## 241. Proposed Identity Invariant
 
 $$
 RegistryIdentity=TraceIdentity=ModuleIdentity
@@ -4013,9 +4016,9 @@ $$
 
 This invariant is DERIVED from the repeated constants.
 
----
+______________________________________________________________________
 
-# 242. Potential Drift Risk
+## 242. Potential Drift Risk
 
 Future edits could change one location without the others.
 
@@ -4028,9 +4031,9 @@ trace: Accounts_Kernel
 
 No automatic drift detection is visible.
 
----
+______________________________________________________________________
 
-# 243. Proposed Drift Test
+## 243. Proposed Drift Test
 
 ```python
 def test_component_identity_consistency():
@@ -4041,17 +4044,17 @@ def test_component_identity_consistency():
 
 Actual constants are not factored out, so this is conceptual.
 
----
+______________________________________________________________________
 
-# 244. Refactoring Possibility
+## 244. Refactoring Possibility
 
 A future implementation could centralize identity constants to reduce drift.
 
 But modifying code is outside source-preserving expansion.
 
----
+______________________________________________________________________
 
-# 245. Source Quality Observation
+## 245. Source Quality Observation
 
 The source is compact and internally consistent in naming.
 
@@ -4065,9 +4068,9 @@ because trace mutation occurs.
 
 This should be documented, not silently rewritten in the source.
 
----
+______________________________________________________________________
 
-# 246. Source Contradiction Classification
+## 246. Source Contradiction Classification
 
 Is that phrase a contradiction?
 
@@ -4083,9 +4086,9 @@ AMBIGUOUS WORDING
 
 rather than definite contradiction.
 
----
+______________________________________________________________________
 
-# 247. Competing Interpretations
+## 247. Competing Interpretations
 
 ### H1 — Identity interpretation
 
@@ -4107,9 +4110,9 @@ Contradicted by trace append.
 
 Therefore H3 should be rejected for the visible implementation.
 
----
+______________________________________________________________________
 
-# 248. Non-Destructive Interpretations
+## 248. Non-Destructive Interpretations
 
 Similarly:
 
@@ -4131,9 +4134,9 @@ Has no side effects.
 
 False.
 
----
+______________________________________________________________________
 
-# 249. Accounts Kernel State Machine
+## 249. Accounts Kernel State Machine
 
 Current visible implementation is extremely small:
 
@@ -4149,9 +4152,9 @@ CONTEXT_RETURNED
 
 Failure can occur before the final state.
 
----
+______________________________________________________________________
 
-# 250. Proposed Formal State Machine
+## 250. Proposed Formal State Machine
 
 ```mermaid
 stateDiagram-v2
@@ -4171,9 +4174,9 @@ stateDiagram-v2
 
 DERIVED.
 
----
+______________________________________________________________________
 
-# 251. No Domain Branches
+## 251. No Domain Branches
 
 There are no branches based on:
 
@@ -4187,35 +4190,35 @@ risk
 permission
 ```
 
----
+______________________________________________________________________
 
-# 252. No Decision Logic
+## 252. No Decision Logic
 
 The kernel makes no financial decision.
 
----
+______________________________________________________________________
 
-# 253. No Conditional Logic
+## 253. No Conditional Logic
 
 The method contains no explicit `if`.
 
 `setdefault` contains implicit conditional behavior around key existence.
 
----
+______________________________________________________________________
 
-# 254. No Loop
+## 254. No Loop
 
 There is no explicit iteration.
 
----
+______________________________________________________________________
 
-# 255. No Recursive Behavior
+## 255. No Recursive Behavior
 
 No recursion appears.
 
----
+______________________________________________________________________
 
-# 256. No Async
+## 256. No Async
 
 The method is synchronous:
 
@@ -4229,39 +4232,39 @@ not:
 async def run(...)
 ```
 
----
+______________________________________________________________________
 
-# 257. No Await
+## 257. No Await
 
 No asynchronous dependency is invoked in the visible method.
 
----
+______________________________________________________________________
 
-# 258. No Explicit Transaction Boundary
+## 258. No Explicit Transaction Boundary
 
 There is no commit/rollback.
 
----
+______________________________________________________________________
 
-# 259. No Version Check
+## 259. No Version Check
 
 No context version or component version is checked.
 
----
+______________________________________________________________________
 
-# 260. No Freshness Check
+## 260. No Freshness Check
 
 No timestamps or freshness constraints exist.
 
----
+______________________________________________________________________
 
-# 261. No Regime Check
+## 261. No Regime Check
 
 The component does not inspect environment or mode.
 
----
+______________________________________________________________________
 
-# 262. No Governance Decision
+## 262. No Governance Decision
 
 There is no:
 
@@ -4273,21 +4276,21 @@ CONDITIONAL
 
 state.
 
----
+______________________________________________________________________
 
-# 263. No Confidence
+## 263. No Confidence
 
 No confidence score is produced.
 
----
+______________________________________________________________________
 
-# 264. No Epistemic Class in Runtime Trace
+## 264. No Epistemic Class in Runtime Trace
 
 Although note metadata is `SOURCE_CLAIM`, the trace event itself does not carry an epistemic class.
 
----
+______________________________________________________________________
 
-# 265. Knowledge Plane vs Runtime Context
+## 265. Knowledge Plane vs Runtime Context
 
 The note exists in:
 
@@ -4308,9 +4311,9 @@ These are different classification dimensions:
 
 They should not be conflated.
 
----
+______________________________________________________________________
 
-# 266. Canonical Two-Axis Model
+## 266. Canonical Two-Axis Model
 
 $$
 ArtifactLocation=11\_KNOWLEDGE/kernel
@@ -4324,17 +4327,17 @@ $$
 
 This is internally compatible.
 
----
+______________________________________________________________________
 
-# 267. Knowledge Artifact ≠ Runtime Instance
+## 267. Knowledge Artifact ≠ Runtime Instance
 
 The Obsidian note/source artifact documents or contains the component definition.
 
 It is not itself necessarily the live instantiated kernel.
 
----
+______________________________________________________________________
 
-# 268. Code Text ≠ Running Object
+## 268. Code Text ≠ Running Object
 
 $$
 SourceCode
@@ -4350,9 +4353,9 @@ $$
 
 These stages require separate evidence.
 
----
+______________________________________________________________________
 
-# 269. Runtime Evidence Chain
+## 269. Runtime Evidence Chain
 
 ```text
 SOURCE
@@ -4376,9 +4379,9 @@ RETURN
 
 The artifact directly supplies source for the chain but not execution receipts for the entire chain.
 
----
+______________________________________________________________________
 
-# 270. RSCF Provenance Chain
+## 270. RSCF Provenance Chain
 
 ```text
 AMOS_corpus
@@ -4392,23 +4395,23 @@ derived semantic analysis
 
 Derived claims should remain dependent on this source version.
 
----
+______________________________________________________________________
 
-# 271. Invalidation Conditions
+## 271. Invalidation Conditions
 
 This analysis should be revalidated if:
 
 1. `Accounts_Kernel` source changes;
-2. `Context` is shown to have nonstandard semantics;
-3. `Kernel` wraps or overrides `run`;
-4. `register_component` modifies the class;
-5. a runtime adapter changes trace behavior;
-6. substantive account logic is added;
-7. a newer canonical artifact supersedes this note.
+1. `Context` is shown to have nonstandard semantics;
+1. `Kernel` wraps or overrides `run`;
+1. `register_component` modifies the class;
+1. a runtime adapter changes trace behavior;
+1. substantive account logic is added;
+1. a newer canonical artifact supersedes this note.
 
----
+______________________________________________________________________
 
-# 272. Local Invalidation
+## 272. Local Invalidation
 
 If only registry semantics change, trace-body conclusions remain valid.
 
@@ -4416,9 +4419,9 @@ If only trace logic changes, registry declaration conclusions remain valid.
 
 Do not invalidate the whole artifact unnecessarily.
 
----
+______________________________________________________________________
 
-# 273. Proof Dependency Partition
+## 273. Proof Dependency Partition
 
 ### Registry claims depend on
 
@@ -4442,9 +4445,9 @@ trace semantics
 future/substantive account specification
 ```
 
----
+______________________________________________________________________
 
-# 274. Confidence Ceiling Principle
+## 274. Confidence Ceiling Principle
 
 Runtime conclusions cannot exceed the weakest load-bearing runtime premise.
 
@@ -4456,9 +4459,9 @@ Confidence(RuntimeBehavior)
 Confidence(VisibleCodeSemantics)
 $$
 
----
+______________________________________________________________________
 
-# 275. Smallest Sufficient Proof Scope
+## 275. Smallest Sufficient Proof Scope
 
 For the current artifact, there is no need to infer the entire MONEY_SYSTEM.
 
@@ -4473,9 +4476,9 @@ absence of substantive account logic
 
 Deeper retrieval is only required to establish actual runtime binding or account semantics.
 
----
+______________________________________________________________________
 
-# 276. Proposed Next Dependency Capsule
+## 276. Proposed Next Dependency Capsule
 
 ```yaml
 dependency:
@@ -4492,9 +4495,9 @@ questions:
   - Are writes intercepted?
 ```
 
----
+______________________________________________________________________
 
-# 277. Proposed Registry Dependency Capsule
+## 277. Proposed Registry Dependency Capsule
 
 ```yaml
 dependency:
@@ -4511,9 +4514,9 @@ questions:
   - Does it wrap or transform the class?
 ```
 
----
+______________________________________________________________________
 
-# 278. Proposed Kernel Dependency Capsule
+## 278. Proposed Kernel Dependency Capsule
 
 ```yaml
 dependency:
@@ -4530,9 +4533,9 @@ questions:
   - Are errors intercepted?
 ```
 
----
+______________________________________________________________________
 
-# 279. Final Source-Preserving Note Skeleton
+## 279. Final Source-Preserving Note Skeleton
 
 ```markdown
 ---
@@ -4551,7 +4554,7 @@ rscf:
   scope: AMOS_knowledge
 ---
 
-# ACCOUNTS KERNEL
+## ACCOUNTS KERNEL
 
 ## Source Identity
 
@@ -4594,9 +4597,9 @@ require separate evidence.
 
 This skeleton is DERIVED from the source and intended for ingestion; it does not replace the original source.
 
----
+______________________________________________________________________
 
-# 280. Final Canonical Machine Capsule
+## 280. Final Canonical Machine Capsule
 
 ```yaml
 ACCOUNTS_KERNEL_CANONICAL_CAPSULE:
@@ -4756,9 +4759,9 @@ ACCOUNTS_KERNEL_CANONICAL_CAPSULE:
     - ""
 ```
 
----
+______________________________________________________________________
 
-# 281. Final Canonical Compression
+## 281. Final Canonical Compression
 
 The complete visible runtime behavior reduces to:
 
@@ -4836,9 +4839,9 @@ AccountsDomainImplementation
 }
 $$
 
----
+______________________________________________________________________
 
-# 282. Final Conclusion
+## 282. Final Conclusion
 
 `ACCOUNTS KERNEL` currently defines the **architectural slot and minimal runtime participation behavior** of `Accounts_Kernel` inside `MONEY_SYSTEM`.
 

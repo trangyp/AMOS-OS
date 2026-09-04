@@ -1,85 +1,94 @@
 ---
-title: INV-AUTHZ-004
-type: invariant
+title: "INV-AUTHZ-004 — Explicit Revocation Immediacy"
+type: authority_invariant
 source: 03_CONTROL_PLANE/04_AUTHORITY
-tags:
-- control-plane
-- canon/control-plane
-- routing-policy-validation-receipt
-- authz-engine-validation-receipt
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
+status: ACTIVE_INVARIANT
+epistemic_class: AMOS_MODEL
+conclusion_class: DERIVED
 rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
+  state: DERIVED
+  claim_class: AMOS_MODEL
+  provenance:
+    - 03_CONTROL_PLANE/CONTROL_PLANE_CONTROL_PLANE_CONTRACT
+    - 01_CANON/01_CORE_LAWS/LAW_HIERARCHY
   scope: authority_governance
+tags:
+  - amos-os
+  - authority
+  - invariant
+  - control-plane
+  - inv-authz-004
 ---
 
-# INV-AUTHZ-004
+# INV-AUTHZ-004 — Explicit Revocation Immediacy
 
-## 0. Status
-Control Plane-plane artifact. AMOS_MODEL · CONDITIONAL · implementation PARTIAL.
+## 1. Formal Specification
 
-## 1. Purpose
-`INV-AUTHZ-004` defines typed artifact specification, serving the Control Plane plane's obligation: governance surfaces that gate effects: task contracts, capability, policy, authority, provenance, semantic transactions, observability, effects, commit, exposure, replay, rollback.
+> **Invariant Statement:**
+> `A revocation request takes effect immediately across all active shards without waiting for epoch sync.`
 
-## 2. Semantics
-- Every load-bearing field is typed; unknown values are recorded as `UNKNOWN/GAP`, never invented.
-- Scope and regime are declared on every claim; cross-regime transfer requires an explicit bridge.
-- Confidence ceiling 0.95; conclusion confidence ≤ weakest load-bearing premise.
+## 2. Invariant Rule & Mathematical Formulation
 
-## 3. Failure modes guarded
-STALE_READ · SCOPE_LEAK · REGIME_DRIFT · CONFIDENCE_INFLATION · AUTHORITY_ESCALATION · PROVENANCE_LOSS · SILENT_PARTIAL_COMMIT · UNKNOWN_AS_VALID.
+Let $\text{Revoke}(\tau, t)$ denote the revocation of token $\tau$ at logical time $t$, and $\text{Shards}(\tau)$ the set of shards where $\tau$ is currently active:
 
-## 4. Validation
-No artifact-specific executor yet; executed OS validators exist as pattern ([[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]). Required tests before promotion: identity, type-contract, negative-case (missing/malformed/stale input), authority boundary, rollback.
+$$\forall \tau \in \mathcal{T}, \forall s \in \text{Shards}(\tau), \quad \text{Revoke}(\tau, t) \implies \text{Invalid}(\tau, s, t + \epsilon_{\text{prop}})$$
 
-## 5. Gaps
-Implementation binding, empirical validation, and cross-artifact consistency checks remain OPEN (UNKNOWN/GAP).
+where $\epsilon_{\text{prop}} \to 0$ is the propagation delay, which must be negligible (sub-millisecond):
 
-## 6. Falsifiers
-F1: canonical source contradicts declared semantics. F2: executed test violates a stated invariant. F3: artifact promotes UNKNOWN to PASS.
-## Worked semantics
-Given an operation touching `INV-AUTHZ-004` within the Control Plane plane:
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-2. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-3. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-4. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-5. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-6. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
+$$\epsilon_{\text{prop}} < \epsilon_{\text{transport}}$$
 
-## Promotion-gate checklist
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
+The revocation is globally consistent — no shard may accept $\tau$ after the revocation logical time:
 
-## Cross-plane bindings
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]|AMOS Core Laws · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
-- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
-- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
----
+$$\forall s \in \mathcal{S}, \quad \text{Valid}(\tau, s, t') \land t' > t \implies \text{False}$$
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+The revocation vector $\mathbf{R}$ is a bloom-filter-indexed structure propagated via a low-latency gossip protocol:
 
----
-**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+$$\mathbf{R}(t) = \mathbf{R}(t^-) \cup \{ \text{hash}(\tau) \}$$
 
----
-RSCF-NODE
-node_id: cp_03_control_plane_04_authority_inv_authz_004_md
-node_type: note
-path: 03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-004.md
-claim_class: AMOS_MODEL
+## 3. Enforcement & Verification
 
----
-**MOC:** [[03_CONTROL_PLANE/04_AUTHORITY/04_AUTHORITY_MOC|04_AUTHORITY_MOC]]
+- **Evaluation Point:** Evaluated at every capability token validation call in every shard. The revocation list is checked synchronously before any token is accepted.
+- **Violation Consequence:** If a revoked token is presented, the transaction is immediately aborted. A `REVOKED_TOKEN_VIOLATION` receipt is emitted to `17_OBSERVABILITY`. The presenting agent is flagged for investigation.
+- **Recovery Procedure:** The agent must obtain a new capability token through the standard authorization flow. The revocation itself is irreversible — once revoked, a token cannot be un-revoked; a new token must be issued.
+- **Verification Cadence:** Synchronous at every token validation. The revocation list is continuously gossiped across shards with sub-millisecond propagation targets.
+- **Governed By:** [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE_MOC]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
 
----
-**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+## 4. Attack Vectors & Mitigations
+
+- **Revocation Delay Exploitation:** An attacker exploits a window between revocation issuance and shard-level enforcement to perform unauthorized actions. Mitigated by the gossip-based propagation protocol with sub-millisecond targets and synchronous revocation list checks.
+- **Revocation List Tampering:** An attacker modifies the revocation list to remove their token. Mitigated by the bloom-filter structure being content-addressed and cryptographically signed by the revoking authority.
+- **Split-Brain Revocation:** A network partition causes some shards to miss the revocation. Mitigated by [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-017|INV-AUTHZ-017]] which halts all state promotions on clock divergence, preventing partitioned shards from accepting revoked tokens.
+- **Revocation Replay:** A revocation message is replayed to cause denial of service. Mitigated by logical-time stamping on revocation messages, which prevents stale revocations from affecting newly issued tokens.
+
+## 5. Dependencies & Prerequisites
+
+- **Depends On:** [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-002|INV-AUTHZ-002]] — Epoch expiration provides a secondary safety net for token invalidation.
+- **Depends On:** [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-017|INV-AUTHZ-017]] — Fail-closed on desync prevents partitioned shards from missing revocations.
+- **Requires:** A low-latency gossip protocol for revocation list propagation across all shards.
+- **Requires:** A content-addressed revocation list structure with cryptographic integrity.
+
+## 6. Provenance & Audit Trail
+
+- **Receipt Type:** `REVOCATION_RECEIPT` — emitted for every revocation event, recording the revoked token, revoking authority, logical time, and propagation acknowledgment from all shards.
+- **Storage Location:** `17_OBSERVABILITY` with time-indexed and token-indexed partitions.
+- **Receipt Fields:** Revoked token ID, revoking authority identity, logical timestamp, shard acknowledgment vector, reason code, BLAKE3 hash.
+- **Immutability:** Revocation receipts are append-only per [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-014|INV-AUTHZ-014]].
+
+## 7. Related Invariants
+
+- [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-002|INV-AUTHZ-002]] — Capability Token Epoch Expiration
+- [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-009|INV-AUTHZ-009]] — Quarantine on Anomaly
+- [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-017|INV-AUTHZ-017]] — Fail-Closed on Desync
+- [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-019|INV-AUTHZ-019]] — Emergency Kill-Switch Supremacy
+- [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-032|INV-AUTHZ-032]] — No Token Replay
+
+## 8. Navigation & Bindings
+
+- **Control Plane:** [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE_MOC]]
+- **Control Plane Contract:** [[03_CONTROL_PLANE/CONTROL_PLANE_CONTROL_PLANE_CONTRACT|CONTROL_PLANE_CONTRACT]]
+- **Canon Law Hierarchy:** [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- **Kernel:** [[02_KERNEL/02_KERNEL_MOC|02_KERNEL_MOC]]
+- **Observability:** [[17_OBSERVABILITY/17_OBSERVABILITY_MOC|17_OBSERVABILITY_MOC]]

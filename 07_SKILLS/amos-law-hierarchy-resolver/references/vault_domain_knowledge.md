@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Vault Domain Knowledge — Amos Law Hierarchy Resolver
 type: reference
 source: 07_SKILLS/amos-law-hierarchy-resolver/references
 tags:
-- reference
-- amos-law-hierarchy-resolver
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-law-hierarchy-resolver
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -27,7 +30,7 @@ rscf:
 
 > Path: `brain/A/amos_brain_syntax_resolver.md` | Size: 13069 chars | Match score: 10
 
-# amos_brain_syntax_resolver
+## amos_brain_syntax_resolver
 
 ```python
 #!/usr/bin/env python3
@@ -49,7 +52,7 @@ from pathlib import Path
 from datetime import datetime
 from typing import Dict, List, Any, Optional
 
-# Configure structured logging
+## Configure structured logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s
 - %(message)s')
 logger = logging.getLogger(__name__)
@@ -119,7 +122,7 @@ class AMOSSyntaxResolver:
 
 > Path: `amos-general/A/all/AMOS All Frameworks Canon Hierarchy.md` | Size: 6870 chars | Match score: 10
 
-# AMOS All Frameworks — Canon Hierarchy
+## AMOS All Frameworks — Canon Hierarchy
 
 > Converted from RTF. 700 KB source. Full structured hierarchy of Bio-Logical Computing™ frameworks, operating systems, kernel engines, and intelligence frameworks.
 
@@ -182,7 +185,7 @@ It has four characteristics no existing programming paradigm has:
 
 > Path: `dated/2026-08-23/2026-08-23 LEGACY BRAIN2 Core Engine and Law Inventory.md` | Size: 5039 chars | Match score: 10
 
-# LEGACY BRAIN2 Core — Engine & Law Inventory (2026-08-23)
+## LEGACY BRAIN2 Core — Engine & Law Inventory (2026-08-23)
 
 ## Location
 
@@ -242,10 +245,9 @@ layer_1_meta_logic_kernel → layer_2_structural_reasoning_engine → layer_3_co
 -
 ```
 
----
+______________________________________________________________________
 
-**Related:** [[07_SKILLS/amos-law-hierarchy-resolver/amos-law-hierarchy-resolver_MOC|amos-law-hierarchy-resolver_MOC]]
----
+## **Related:** [[07_SKILLS/amos-law-hierarchy-resolver/amos-law-hierarchy-resolver_MOC|amos-law-hierarchy-resolver_MOC]]
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -253,13 +255,14 @@ layer_1_meta_logic_kernel → layer_2_structural_reasoning_engine → layer_3_co
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-law-hierarchy-resolver-vault-domain-knowledge
 node_type: reference
 path: 07_SKILLS/amos-law-hierarchy-resolver/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC
-

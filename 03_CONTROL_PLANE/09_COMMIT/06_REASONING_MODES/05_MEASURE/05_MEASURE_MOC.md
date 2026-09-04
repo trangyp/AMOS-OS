@@ -1,12 +1,15 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: 05 Measure MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/06_REASONING_MODES/05_MEASURE
 tags:
-- 05-measure
-- canon/control-plane
-- reasoning-modes-commit-control-plane-mode-spec
-- reasoning-modes-commit-control-plane-provenance
+  - 05-measure
+  - canon/control-plane
+  - reasoning-modes-commit-control-plane-mode-spec
+  - reasoning-modes-commit-control-plane-provenance
 moc: true
 rscf:
   state: DERIVED
@@ -26,5 +29,6 @@ rscf:
 - [[03_CONTROL_PLANE/09_COMMIT/06_REASONING_MODES/05_MEASURE/REASONING_MODES_COMMIT_CONTROL_PLANE_MODE_SPEC|REASONING_MODES_COMMIT_CONTROL_PLANE_MODE_SPEC]]
 - [[03_CONTROL_PLANE/09_COMMIT/06_REASONING_MODES/05_MEASURE/REASONING_MODES_COMMIT_CONTROL_PLANE_PROVENANCE|REASONING_MODES_COMMIT_CONTROL_PLANE_PROVENANCE]]
 
----
+______________________________________________________________________
+
 **Parent:** [[03_CONTROL_PLANE/09_COMMIT/06_REASONING_MODES/06_REASONING_MODES_MOC|06_REASONING_MODES_MOC]]

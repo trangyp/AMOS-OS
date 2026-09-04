@@ -12,31 +12,31 @@ segment: 01_CANON/02_UNIVERSE_CANON
 artifact_kind: UNIVERSE_PLANE
 path: 01_CANON/02_UNIVERSE_CANON/P4_COGNITION_MODELS.md
 tags:
-- amos-os
-- canon
-- universe_canon
-- cognition
-- models
-- inference
-- prediction
-- hypothesis
-- competing
-- derivation
-- speculation
-- epistemic_discipline
-- provenance
-- falsification
-- uncertainty
-- rscf
-- p4_plane
-- canon/universe
-- validation
-- memory
-- law/L19-proof-capsule
-- p3-knowledge-memory
-- p2-sense-evidence
-- p1-reality-environment
-- trang-framework-recursive-ontology-dynamics
+  - amos-os
+  - canon
+  - universe_canon
+  - cognition
+  - models
+  - inference
+  - prediction
+  - hypothesis
+  - competing
+  - derivation
+  - speculation
+  - epistemic_discipline
+  - provenance
+  - falsification
+  - uncertainty
+  - rscf
+  - p4_plane
+  - canon/universe
+  - validation
+  - memory
+  - law/L19-proof-capsule
+  - p3-knowledge-memory
+  - p2-sense-evidence
+  - p1-reality-environment
+  - trang-framework-recursive-ontology-dynamics
 version: 0.2.0
 updated: '2026-08-26'
 status: PROPOSED_SPECIFICATION
@@ -51,14 +51,14 @@ rscf:
   state: SOURCE_GROUNDED
   claim_class: AMOS_MODEL
   provenance:
-  - AMOS_corpus
-  - 01_CANON/02_UNIVERSE_CANON/AMOS_7_PART_UNIVERSE_CANON
-  - 01_CANON/02_UNIVERSE_CANON/HML_CANON
-  - 01_CANON/02_UNIVERSE_CANON/P3_KNOWLEDGE_MEMORY
-  - TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS
+    - AMOS_corpus
+    - 01_CANON/02_UNIVERSE_CANON/AMOS_7_PART_UNIVERSE_CANON
+    - 01_CANON/02_UNIVERSE_CANON/HML_CANON
+    - 01_CANON/02_UNIVERSE_CANON/P3_KNOWLEDGE_MEMORY
+    - TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS
   scope:
-  - UNIVERSE_CANON
-  - P4_COGNITION_MODELS
+    - UNIVERSE_CANON
+    - P4_COGNITION_MODELS
 ---
 
 # P4 — Cognition & Models Plane
@@ -81,7 +81,7 @@ P4 governs the structural machinery for:
 
 Its central firewall is:
 
-```text
+````text
 REASONING != EVIDENCE
 
 Current classification:
@@ -106,13 +106,13 @@ NOT ESTABLISHED
 RUNTIME VALIDATION
 =
 NOT ESTABLISHED
-```
+````
 
 **Origin architect / steward:** **Trang Phan**
 
----
+______________________________________________________________________
 
-# 1. Purpose
+## 1. Purpose
 
 P4 transforms admitted and retained information into structured candidate understanding.
 
@@ -142,34 +142,34 @@ $$
 
 unless new external evidence is actually acquired and admitted through the appropriate evidence path.
 
----
+______________________________________________________________________
 
-# 2. Scope
+## 2. Scope
 
 P4 governs:
 
-* reasoning machinery;
-* inference;
-* prediction;
-* abstraction;
-* model construction;
-* model comparison;
-* hypothesis management;
-* competing explanations;
-* derivation;
-* uncertainty;
-* bounded speculation;
-* frontier reasoning;
-* falsifier generation;
-* sensitivity analysis;
-* epistemic classification;
-* contradiction-aware reasoning.
+- reasoning machinery;
+- inference;
+- prediction;
+- abstraction;
+- model construction;
+- model comparison;
+- hypothesis management;
+- competing explanations;
+- derivation;
+- uncertainty;
+- bounded speculation;
+- frontier reasoning;
+- falsifier generation;
+- sensitivity analysis;
+- epistemic classification;
+- contradiction-aware reasoning.
 
 P4 does **not** establish neuroscience claims about biological cognition.
 
----
+______________________________________________________________________
 
-# 3. Position in the Universe Canon
+## 3. Position in the Universe Canon
 
 P4 follows P3.
 
@@ -207,9 +207,9 @@ $$
 
 subject to inherited provenance, scope, freshness, and confidence ceilings.
 
----
+______________________________________________________________________
 
-# 4. Canonical Questions
+## 4. Canonical Questions
 
 ## P4-Q1 — Competing Models
 
@@ -217,7 +217,7 @@ subject to inherited provenance, scope, freshness, and confidence ceilings.
 
 P4 must preserve genuinely viable incompatible hypotheses until discriminating evidence supports resolution.
 
----
+______________________________________________________________________
 
 ## P4-Q2 — Derivation vs Speculation
 
@@ -225,9 +225,9 @@ P4 must preserve genuinely viable incompatible hypotheses until discriminating e
 
 The distinction depends on whether the conclusion follows from admitted premises under declared transformations, versus requiring unsupported assumptions, extrapolation, analogy, or frontier modeling.
 
----
+______________________________________________________________________
 
-# 5. P4-1 — Competing Preservation
+## 5. P4-1 — Competing Preservation
 
 ## Law
 
@@ -264,9 +264,9 @@ $$
 State(H_1,H_2)=COMPETING
 $$
 
----
+______________________________________________________________________
 
-# 6. Competing Is a Valid Terminal State
+## 6. Competing Is a Valid Terminal State
 
 P4 does not require every reasoning process to converge to one answer.
 
@@ -296,9 +296,9 @@ REASONING FAILURE
 
 When available evidence cannot discriminate between viable alternatives, `COMPETING` is the integrity-preserving result.
 
----
+______________________________________________________________________
 
-# 7. Hypothesis Contract
+## 7. Hypothesis Contract
 
 ```yaml
 P4_HYPOTHESIS:
@@ -338,9 +338,9 @@ P4_HYPOTHESIS:
 
 This is a conceptual normalization contract until executable binding is established.
 
----
+______________________________________________________________________
 
-# 8. Competing Set
+## 8. Competing Set
 
 ```yaml
 P4_COMPETING_SET:
@@ -373,25 +373,25 @@ P4_COMPETING_SET:
     COMPETING
 ```
 
----
+______________________________________________________________________
 
-# 9. Preservation Rule
+## 9. Preservation Rule
 
 P4 must not collapse alternatives merely because one is:
 
-* more fluent;
-* simpler to describe;
-* more familiar;
-* more popular;
-* repeated more often;
-* produced first;
-* aligned with prior expectation.
+- more fluent;
+- simpler to describe;
+- more familiar;
+- more popular;
+- repeated more often;
+- produced first;
+- aligned with prior expectation.
 
 These properties may sometimes inform model selection under explicit criteria, but they do not themselves establish truth.
 
----
+______________________________________________________________________
 
-# 10. Evidence Topology in Competition
+## 10. Evidence Topology in Competition
 
 Suppose:
 
@@ -434,9 +434,9 @@ REPETITION
 INDEPENDENT CONFIRMATION
 ```
 
----
+______________________________________________________________________
 
-# 11. Cheapest Discriminating Test
+## 11. Cheapest Discriminating Test
 
 When hypotheses remain competing, P4 should prefer the cheapest high-information test capable of changing the outcome.
 
@@ -458,9 +458,9 @@ The objective is not maximal evidence accumulation.
 
 The objective is decision-relevant discrimination.
 
----
+______________________________________________________________________
 
-# 12. P4-2 — Class Discipline
+## 12. P4-2 — Class Discipline
 
 ## Law
 
@@ -495,9 +495,9 @@ UNKNOWN/GAP
 
 without erasing the supplied P4 distinction.
 
----
+______________________________________________________________________
 
-# 13. SOURCE_CLAIM
+## 13. SOURCE_CLAIM
 
 A `SOURCE_CLAIM` records what a source states.
 
@@ -519,21 +519,21 @@ SourceClaims(X)
 Verified(X)
 $$
 
----
+______________________________________________________________________
 
-# 14. OBSERVATION
+## 14. OBSERVATION
 
 An `OBSERVATION` records admitted measurement or directly captured evidence.
 
 It remains bounded by:
 
-* measurement method;
-* instrument;
-* observer;
-* sampling;
-* environment;
-* timestamp;
-* uncertainty.
+- measurement method;
+- instrument;
+- observer;
+- sampling;
+- environment;
+- timestamp;
+- uncertainty.
 
 Thus:
 
@@ -543,9 +543,9 @@ OBSERVED
 UNIVERSALLY TRUE
 ```
 
----
+______________________________________________________________________
 
-# 15. DERIVED
+## 15. DERIVED
 
 A `DERIVED` claim follows from explicit premises through an admissible transformation.
 
@@ -557,7 +557,7 @@ P_1,P_2,\ldots,P_n
 C
 $$
 
-But the confidence ceiling of \(C\) cannot silently exceed its load-bearing premises.
+But the confidence ceiling of (C) cannot silently exceed its load-bearing premises.
 
 Therefore:
 
@@ -567,20 +567,20 @@ Conf(C)
 Conf(P_{weakest})
 $$
 
-unless \(C\) receives independent revalidation.
+unless (C) receives independent revalidation.
 
----
+______________________________________________________________________
 
-# 16. MODEL
+## 16. MODEL
 
 A `MODEL` is an explanatory, predictive, representational, or structural construct.
 
 A model may be:
 
-* useful;
-* coherent;
-* predictive;
-* computationally effective;
+- useful;
+- coherent;
+- predictive;
+- computationally effective;
 
 without becoming observation.
 
@@ -592,9 +592,9 @@ MODEL SUCCESS
 MODEL ONTOLOGICAL TRUTH
 ```
 
----
+______________________________________________________________________
 
-# 17. UNKNOWN/GAP
+## 17. UNKNOWN/GAP
 
 `UNKNOWN/GAP` is required when a load-bearing premise cannot be established.
 
@@ -606,9 +606,9 @@ UNKNOWN/GAP
 
 P4 must not fill the missing edge with fluent prose.
 
----
+______________________________________________________________________
 
-# 18. Class Transition Discipline
+## 18. Class Transition Discipline
 
 A claim may move between epistemic states only through an explicit justification.
 
@@ -634,9 +634,9 @@ OBSERVATION
 
 The prediction itself does not become the observation.
 
----
+______________________________________________________________________
 
-# 19. No Epistemic Laundering
+## 19. No Epistemic Laundering
 
 Forbidden transformation:
 
@@ -662,9 +662,9 @@ Persistence(Model)
 Observation
 $$
 
----
+______________________________________________________________________
 
-# 20. Derivation Contract
+## 20. Derivation Contract
 
 ```yaml
 P4_DERIVATION:
@@ -699,17 +699,17 @@ P4_DERIVATION:
   validation_state:
 ```
 
----
+______________________________________________________________________
 
-# 21. Derivation Validity
+## 21. Derivation Validity
 
 A derivation is only as valid as:
 
 1. its premises;
-2. the applicability of its transformation rules;
-3. its scope;
-4. its regime;
-5. its dependency coherence.
+1. the applicability of its transformation rules;
+1. its scope;
+1. its regime;
+1. its dependency coherence.
 
 Therefore:
 
@@ -727,9 +727,9 @@ $$
 
 conceptually.
 
----
+______________________________________________________________________
 
-# 22. Hidden-Premise Firewall
+## 22. Hidden-Premise Firewall
 
 P4 should expose material assumptions rather than bury them.
 
@@ -753,11 +753,11 @@ A1 [ASSUMPTION]
 C [CONDITIONAL]
 ```
 
-If \(A_1\) can flip the result, the conclusion is fragile and should remain conditional.
+If (A_1) can flip the result, the conclusion is fragile and should remain conditional.
 
----
+______________________________________________________________________
 
-# 23. P4-3 — Bounded Speculation
+## 23. P4-3 — Bounded Speculation
 
 ## Law
 
@@ -772,18 +772,18 @@ Speculation is permitted.
 
 Epistemic blending is not.
 
----
+______________________________________________________________________
 
-# 24. Frontier Reasoning
+## 24. Frontier Reasoning
 
 Frontier reasoning may include:
 
-* exploratory hypotheses;
-* analogy;
-* extrapolation;
-* speculative mechanisms;
-* cross-domain mappings;
-* unvalidated structural correspondences.
+- exploratory hypotheses;
+- analogy;
+- extrapolation;
+- speculative mechanisms;
+- cross-domain mappings;
+- unvalidated structural correspondences.
 
 These may be useful for generating tests or models.
 
@@ -801,9 +801,9 @@ CONDITIONAL
 
 until independently validated.
 
----
+______________________________________________________________________
 
-# 25. Speculation Boundary
+## 25. Speculation Boundary
 
 ```text
 ESTABLISHED RESULT
@@ -815,9 +815,9 @@ The boundary must remain visible.
 
 A speculative branch must not silently contaminate an established proof capsule.
 
----
+______________________________________________________________________
 
-# 26. Speculation Contract
+## 26. Speculation Contract
 
 ```yaml
 P4_SPECULATION:
@@ -850,9 +850,9 @@ P4_SPECULATION:
   confidence_ceiling:
 ```
 
----
+______________________________________________________________________
 
-# 27. Isolation Rule
+## 27. Isolation Rule
 
 If:
 
@@ -866,7 +866,7 @@ $$
 C_2
 $$
 
-requires speculative premise \(A_s\),
+requires speculative premise (A_s),
 
 then P4 should preserve:
 
@@ -878,9 +878,9 @@ C2 = MODEL / CONDITIONAL
 
 rather than assigning both the stronger class.
 
----
+______________________________________________________________________
 
-# 28. Speculation Cannot Back-Propagate Confidence
+## 28. Speculation Cannot Back-Propagate Confidence
 
 Suppose:
 
@@ -890,17 +890,17 @@ $$
 
 where:
 
-* \(E\) = evidence;
-* \(D\) = derivation;
-* \(M_s\) = speculative model.
+- (E) = evidence;
+- (D) = derivation;
+- (M_s) = speculative model.
 
-The existence of \(M_s\) cannot increase confidence in \(E\) or \(D\).
+The existence of (M_s) cannot increase confidence in (E) or (D).
 
-Likewise, elegance of \(M_s\) does not independently validate the chain.
+Likewise, elegance of (M_s) does not independently validate the chain.
 
----
+______________________________________________________________________
 
-# 29. Prediction
+## 29. Prediction
 
 A model may generate prediction:
 
@@ -910,7 +910,7 @@ M
 \hat{O}
 $$
 
-where \(\hat{O}\) is a predicted observation.
+where (\\hat{O}) is a predicted observation.
 
 But:
 
@@ -930,9 +930,9 @@ PREDICTED
 OBSERVED
 ```
 
----
+______________________________________________________________________
 
-# 30. Prediction Contract
+## 30. Prediction Contract
 
 ```yaml
 P4_PREDICTION:
@@ -958,9 +958,9 @@ P4_PREDICTION:
   validation_state:
 ```
 
----
+______________________________________________________________________
 
-# 31. Prediction Validation
+## 31. Prediction Validation
 
 Possible states:
 
@@ -984,9 +984,9 @@ It does not automatically establish uniqueness of mechanism.
 
 Multiple models may predict the same observation.
 
----
+______________________________________________________________________
 
-# 32. Underdetermination
+## 32. Underdetermination
 
 If:
 
@@ -1000,7 +1000,7 @@ $$
 M_2\rightarrow O
 $$
 
-then observing \(O\) does not necessarily discriminate between \(M_1\) and \(M_2\).
+then observing (O) does not necessarily discriminate between (M_1) and (M_2).
 
 Thus:
 
@@ -1012,9 +1012,9 @@ MODEL UNIQUELY PROVEN
 
 Competing preservation remains active.
 
----
+______________________________________________________________________
 
-# 33. Causal Firewall
+## 33. Causal Firewall
 
 P4 must distinguish:
 
@@ -1042,9 +1042,9 @@ CAUSAL EFFECT
 
 Structural similarity or temporal sequence alone does not license causal inference.
 
----
+______________________________________________________________________
 
-# 34. Causal Claim Contract
+## 34. Causal Claim Contract
 
 ```yaml
 P4_CAUSAL_CLAIM:
@@ -1072,9 +1072,9 @@ P4_CAUSAL_CLAIM:
   confidence_ceiling:
 ```
 
----
+______________________________________________________________________
 
-# 35. Structural Similarity Firewall
+## 35. Structural Similarity Firewall
 
 Given:
 
@@ -1108,9 +1108,9 @@ A AND B SHARE THE SAME MECHANISM
 
 without appropriate evidence.
 
----
+______________________________________________________________________
 
-# 36. Cross-Domain Mapping
+## 36. Cross-Domain Mapping
 
 Cross-domain mappings remain model-level unless independently validated.
 
@@ -1134,9 +1134,9 @@ not automatically:
 VERIFIED CAUSAL LAW
 ```
 
----
+______________________________________________________________________
 
-# 37. Scope Firewall
+## 37. Scope Firewall
 
 Every consequential model should carry an applicability envelope.
 
@@ -1158,11 +1158,11 @@ P4_SCOPE:
   assumptions:
 ```
 
-A result derived within scope \(S_1\) cannot silently generalize to \(S_2\).
+A result derived within scope (S_1) cannot silently generalize to (S_2).
 
----
+______________________________________________________________________
 
-# 38. Regime Firewall
+## 38. Regime Firewall
 
 A model may perform well under regime:
 
@@ -1186,9 +1186,9 @@ VALID IN ALL REGIMES
 
 Regime shifts can invalidate prior model reuse.
 
----
+______________________________________________________________________
 
-# 39. Sensitivity
+## 39. Sensitivity
 
 For consequential conclusions, P4 should identify the smallest premise, threshold, or assumption capable of changing the result.
 
@@ -1198,7 +1198,7 @@ $$
 C=f(P_1,P_2,\theta)
 $$
 
-and small variation in \(\theta\) flips \(C\).
+and small variation in (\\theta) flips (C).
 
 Then:
 
@@ -1208,9 +1208,9 @@ C = CONDITIONAL / FRAGILE
 
 rather than robust.
 
----
+______________________________________________________________________
 
-# 40. Sensitivity Contract
+## 40. Sensitivity Contract
 
 ```yaml
 P4_SENSITIVITY:
@@ -1231,9 +1231,9 @@ P4_SENSITIVITY:
     ROBUST | FRAGILE | UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 41. Robustness
+## 41. Robustness
 
 A conclusion is structurally stronger when it survives plausible perturbations of noncritical assumptions.
 
@@ -1248,9 +1248,9 @@ $$
 
 This is a reasoning criterion, not a universal empirical equation.
 
----
+______________________________________________________________________
 
-# 42. Adversarial Validation
+## 42. Adversarial Validation
 
 For consequential conclusions P4 should attempt a genuinely different challenge path.
 
@@ -1279,9 +1279,9 @@ SEARCH FOR:
 - stronger alternative
 ```
 
----
+______________________________________________________________________
 
-# 43. Challenge Outcomes
+## 43. Challenge Outcomes
 
 ```text
 CHALLENGE FAILS
@@ -1302,9 +1302,9 @@ CRITICAL PREMISE MISSING
 
 Adversarial validation must not manufacture objections unsupported by evidence.
 
----
+______________________________________________________________________
 
-# 44. Proof Capsule
+## 44. Proof Capsule
 
 Important P4 conclusions should conceptually carry:
 
@@ -1342,9 +1342,9 @@ P4_[[01_CANON/01_CORE_LAWS/L19_PROOF_CAPSULE|L19_PROOF_CAPSULE]]:
   revalidation_conditions:
 ```
 
----
+______________________________________________________________________
 
-# 45. Proof Capsule Reuse
+## 45. Proof Capsule Reuse
 
 A prior result may be reused only if its dependency closure remains valid.
 
@@ -1366,9 +1366,9 @@ $$
 
 Otherwise the affected proof branch must be reopened.
 
----
+______________________________________________________________________
 
-# 46. Weakest Load-Bearing Premise
+## 46. Weakest Load-Bearing Premise
 
 Suppose:
 
@@ -1382,7 +1382,7 @@ $$
 0.95,\ 0.91,\ 0.60
 $$
 
-Without independent revalidation of \(C\):
+Without independent revalidation of (C):
 
 $$
 Conf(C)\le0.60
@@ -1396,9 +1396,9 @@ CANNOT SILENTLY EXCEED
 THE WEAKEST LOAD-BEARING PREMISE
 ```
 
----
+______________________________________________________________________
 
-# 47. Provenance-Aware Inference
+## 47. Provenance-Aware Inference
 
 P4 must distinguish:
 
@@ -1424,9 +1424,9 @@ SOURCE A
 
 the support topology remains correlated.
 
----
+______________________________________________________________________
 
-# 48. Provenance Topology
+## 48. Provenance Topology
 
 ```yaml
 P4_PROVENANCE_TOPOLOGY:
@@ -1448,19 +1448,19 @@ P4_PROVENANCE_TOPOLOGY:
 
 Independence must be demonstrated where it materially affects confidence.
 
----
+______________________________________________________________________
 
-# 49. Sybil / Duplication Hardening
+## 49. Sybil / Duplication Hardening
 
 P4 should resist apparent support inflation caused by:
 
-* mirrors;
-* reposts;
-* summaries;
-* syndicated copies;
-* generated restatements;
-* duplicated datasets;
-* descendant reports.
+- mirrors;
+- reposts;
+- summaries;
+- syndicated copies;
+- generated restatements;
+- duplicated datasets;
+- descendant reports.
 
 Thus:
 
@@ -1470,9 +1470,9 @@ MANY NODES
 MANY INDEPENDENT SOURCES
 ```
 
----
+______________________________________________________________________
 
-# 50. Inference Graph
+## 50. Inference Graph
 
 ```text
 EVIDENCE
@@ -1492,9 +1492,9 @@ MODEL UPDATE
 
 Each edge should remain epistemically typed.
 
----
+______________________________________________________________________
 
-# 51. Atomic Multi-Premise Reasoning
+## 51. Atomic Multi-Premise Reasoning
 
 Some conclusions require multiple premises simultaneously:
 
@@ -1506,9 +1506,9 @@ P4 must establish joint compatibility where necessary.
 
 Individually valid premises from incompatible epochs or regimes may not form a valid joint inference.
 
----
+______________________________________________________________________
 
-# 52. Coherence Contract
+## 52. Coherence Contract
 
 ```yaml
 P4_JOINT_COHERENCE:
@@ -1530,9 +1530,9 @@ P4_JOINT_COHERENCE:
   jointly_usable:
 ```
 
----
+______________________________________________________________________
 
-# 53. Smallest Sufficient Proof Scope
+## 53. Smallest Sufficient Proof Scope
 
 P4 should reason over the smallest dependency closure capable of changing the conclusion.
 
@@ -1556,9 +1556,9 @@ LOAD EVERYTHING
 
 This reduces irrelevant context and correlated evidence inflation.
 
----
+______________________________________________________________________
 
-# 54. Escalation Conditions
+## 54. Escalation Conditions
 
 Local reasoning should escalate when:
 
@@ -1582,9 +1582,9 @@ IRREVERSIBLE STAKES EXIST
 
 Fast-path reasoning must never weaken integrity.
 
----
+______________________________________________________________________
 
-# 55. Model Update
+## 55. Model Update
 
 New evidence may:
 
@@ -1606,9 +1606,9 @@ LEAVE MODEL UNCHANGED
 
 Model update should affect only dependent conclusions.
 
----
+______________________________________________________________________
 
-# 56. Selective Invalidation
+## 56. Selective Invalidation
 
 Given:
 
@@ -1640,9 +1640,9 @@ LOCAL FAILURE
 GLOBAL COGNITIVE RESET
 ```
 
----
+______________________________________________________________________
 
-# 57. Failure Recovery
+## 57. Failure Recovery
 
 ```text
 FAILED PREMISE
@@ -1658,9 +1658,9 @@ REROUTE LOCALLY
 
 Repeating the failed reasoning path without changed evidence is not recovery.
 
----
+______________________________________________________________________
 
-# 58. Null / Reset Boundary
+## 58. Null / Reset Boundary
 
 A full reset should remain a last resort.
 
@@ -1677,9 +1677,9 @@ before global recomputation where architecture permits.
 
 This section is a compatibility rule with broader AMOS reasoning patterns, not evidence that an executable reset mechanism exists in P4.
 
----
+______________________________________________________________________
 
-# 59. Model Selection
+## 59. Model Selection
 
 When competing models can be compared, relevant dimensions may include:
 
@@ -1705,9 +1705,9 @@ CAUSAL ADEQUACY
 
 No single criterion automatically dominates across every domain.
 
----
+______________________________________________________________________
 
-# 60. Simplicity Boundary
+## 60. Simplicity Boundary
 
 Model simplicity can be useful.
 
@@ -1721,11 +1721,11 @@ TRUE
 
 A simpler model may be preferred provisionally under declared criteria without being epistemically upgraded to verified truth.
 
----
+______________________________________________________________________
 
-# 61. Benchmark Boundary
+## 61. Benchmark Boundary
 
-A model performing well on benchmark \(B\) supports a claim scoped to that benchmark and its validity envelope.
+A model performing well on benchmark (B) supports a claim scoped to that benchmark and its validity envelope.
 
 It does not establish:
 
@@ -1741,9 +1741,9 @@ Success(B)
 Success(AllDomains)
 $$
 
----
+______________________________________________________________________
 
-# 62. Frontier / Established Separation
+## 62. Frontier / Established Separation
 
 ```yaml
 P4_REASONING_OUTPUT:
@@ -1768,9 +1768,9 @@ P4_REASONING_OUTPUT:
 
 This prevents speculative content from becoming indistinguishable from stronger conclusions.
 
----
+______________________________________________________________________
 
-# 63. Uncertainty Vector
+## 63. Uncertainty Vector
 
 Where material, P4 may track uncertainty separately across:
 
@@ -1792,9 +1792,9 @@ PROVENANCE INDEPENDENCE
 
 A single scalar confidence can hide materially different failure modes.
 
----
+______________________________________________________________________
 
-# 64. Decision-Relevant Uncertainty
+## 64. Decision-Relevant Uncertainty
 
 Reasoning effort should focus on uncertainty capable of changing the outcome.
 
@@ -1808,9 +1808,9 @@ CAN IT FLIP RESULT?
 
 This is an efficiency rule subordinate to integrity.
 
----
+______________________________________________________________________
 
-# 65. Gap Classes
+## 65. Gap Classes
 
 P4 may classify unresolved gaps as:
 
@@ -1834,9 +1834,9 @@ UNKNOWN/GAP
 
 for conclusions dependent on it.
 
----
+______________________________________________________________________
 
-# 66. Negative Cases
+## 66. Negative Cases
 
 ```yaml
 P4_NEGATIVE_CASES:
@@ -1890,9 +1890,9 @@ P4_NEGATIVE_CASES:
     - structural_cognition_model_presented_as_neuroscience_fact
 ```
 
----
+______________________________________________________________________
 
-# 67. Gap Register
+## 67. Gap Register
 
 ```yaml
 P4_GAPS:
@@ -1933,9 +1933,9 @@ P4_GAPS:
     status: OUT_OF_SCOPE
 ```
 
----
+______________________________________________________________________
 
-# 68. Falsifiers / Invalidation Conditions
+## 68. Falsifiers / Invalidation Conditions
 
 P4 requires revision if:
 
@@ -1963,26 +1963,26 @@ Repeated descendants are treated as independent confirmation.
 
 The architecture is presented as a validated model of biological neural cognition without corresponding empirical evidence.
 
----
+______________________________________________________________________
 
-# 69. Promotion Gate
+## 69. Promotion Gate
 
 Promotion beyond `CONDITIONAL` requires:
 
-* [ ] `U-3` semantics resolved from authoritative native source;
-* [ ] hypothesis identity implemented;
-* [ ] competing-set persistence implemented;
-* [ ] epistemic class enforcement implemented;
-* [ ] derivation/premise lineage persisted;
-* [ ] bounded-speculation isolation implemented;
-* [ ] provenance independence checks implemented;
-* [ ] causal typing enforced where required;
-* [ ] scope/regime envelopes implemented;
-* [ ] sensitivity checks implemented for consequential conclusions;
-* [ ] selective invalidation demonstrated;
-* [ ] negative cases executed;
-* [ ] artifact-specific validation receipt persisted;
-* [ ] unresolved critical gaps remain visible.
+- [ ] `U-3` semantics resolved from authoritative native source;
+- [ ] hypothesis identity implemented;
+- [ ] competing-set persistence implemented;
+- [ ] epistemic class enforcement implemented;
+- [ ] derivation/premise lineage persisted;
+- [ ] bounded-speculation isolation implemented;
+- [ ] provenance independence checks implemented;
+- [ ] causal typing enforced where required;
+- [ ] scope/regime envelopes implemented;
+- [ ] sensitivity checks implemented for consequential conclusions;
+- [ ] selective invalidation demonstrated;
+- [ ] negative cases executed;
+- [ ] artifact-specific validation receipt persisted;
+- [ ] unresolved critical gaps remain visible.
 
 Until then:
 
@@ -1992,9 +1992,9 @@ CANONICAL STATUS
 CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
-# 70. Cross-Plane Bindings
+## 70. Cross-Plane Bindings
 
 ```yaml
 P4_BINDINGS:
@@ -2025,9 +2025,9 @@ P4_BINDINGS:
     - "[[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]"
 ```
 
----
+______________________________________________________________________
 
-# 71. P3 → P4 Transition
+## 71. P3 → P4 Transition
 
 ```text
 P3
@@ -2063,9 +2063,9 @@ Reasoning
 Observation
 $$
 
----
+______________________________________________________________________
 
-# 72. Pre-Symbolic Spine Compatibility
+## 72. Pre-Symbolic Spine Compatibility
 
 Within the supplied Khung Trang model, P4 operates downstream of structural constraints.
 
@@ -2089,9 +2089,9 @@ P4 model-building must therefore not use semantic interpretation to silently ove
 
 This is an AMOS-model compatibility mapping, not an empirical cognition claim.
 
----
+______________________________________________________________________
 
-# 73. H-Level RSCF
+## 73. H-Level RSCF
 
 ```yaml
 H:
@@ -2118,9 +2118,9 @@ H:
     CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
-# 74. M-Level RSCF
+## 74. M-Level RSCF
 
 ```yaml
 M:
@@ -2152,9 +2152,9 @@ M:
     - SPECULATION_NE_DERIVATION
 ```
 
----
+______________________________________________________________________
 
-# 75. L-Level RSCF
+## 75. L-Level RSCF
 
 ```yaml
 L:
@@ -2198,9 +2198,9 @@ L:
     dependency_local: true
 ```
 
----
+______________________________________________________________________
 
-# 76. Full RSCF Contract
+## 76. Full RSCF Contract
 
 ```yaml
 RSCF:
@@ -2297,9 +2297,9 @@ RSCF:
       CLAIM_SPECIFIC
 ```
 
----
+______________________________________________________________________
 
-# 77. Canonical Compression
+## 77. Canonical Compression
 
 P4 reduces to three primary laws:
 
@@ -2418,9 +2418,9 @@ U-3 EXACT SEMANTICS
 GAP IN SUPPLIED SOURCE
 ```
 
----
+______________________________________________________________________
 
-# 78. RSCF Node
+## 78. RSCF Node
 
 RSCF-NODE
 
@@ -2462,64 +2462,64 @@ NOT_ESTABLISHED
 
 RSCF-RELATIONS:
 
-* INDEXED_BY:
+- INDEXED_BY:
 
-* INDEXED_BY:
+- INDEXED_BY:
 
-* INDEXED_BY:
+- INDEXED_BY:
 
-* CHILD_OF:
+- CHILD_OF:
 
-* RECEIVES_FROM:
+- RECEIVES_FROM:
 
-* USES_EVIDENCE_FROM:
+- USES_EVIDENCE_FROM:
 
-* INHERITS_REALITY_BOUNDARY_FROM:
+- INHERITS_REALITY_BOUNDARY_FROM:
 
-* RELATED_HIERARCHY:
+- RELATED_HIERARCHY:
 
-* RELATED_FRAMEWORK:
+- RELATED_FRAMEWORK:
 
-* GOVERNS:
+- GOVERNS:
   INFERENCE
 
-* GOVERNS:
+- GOVERNS:
   PREDICTION
 
-* GOVERNS:
+- GOVERNS:
   MODEL_BUILDING
 
-* GOVERNS:
+- GOVERNS:
   HYPOTHESIS_MANAGEMENT
 
-* GOVERNS:
+- GOVERNS:
   COMPETING_PRESERVATION
 
-* GOVERNS:
+- GOVERNS:
   EPISTEMIC_CLASS_DISCIPLINE
 
-* GOVERNS:
+- GOVERNS:
   BOUNDED_SPECULATION
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[01_CANON/01_CORE_LAWS/ATOMIC_MULTI_RSCF|ATOMIC_MULTI_RSCF]] · [[02_KERNEL/K_ATOMIC_MULTI_RSCF|K_ATOMIC_MULTI_RSCF]] · [[01_CANON/02_UNIVERSE_CANON/02_UNIVERSE_CANON_MOC|02_UNIVERSE_CANON_MOC]] · [[01_CANON/02_UNIVERSE_CANON/P3_KNOWLEDGE_MEMORY|P3_KNOWLEDGE_MEMORY]] · [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]] · [[11_KNOWLEDGE/11_KNOWLEDGE_MOC|11_KNOWLEDGE_MOC]]
 
----
+______________________________________________________________________
 
 **MOC:** [[01_CANON/02_UNIVERSE_CANON/02_UNIVERSE_CANON_MOC|02_UNIVERSE_CANON_MOC]]
 
----
+______________________________________________________________________
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
 
 **Origin architect / steward:** **Trang Phan**
 
 The normalized P4 keeps the supplied three-law spine intact: **preserve viable competing hypotheses, type every epistemic output, and isolate speculative frontier reasoning**. Two boundaries are deliberately not promoted beyond the source: the exact semantics of **`U-3` remain a gap**, and the cognition architecture remains an **AMOS structural model, not a neuroscience claim**.
-
+```

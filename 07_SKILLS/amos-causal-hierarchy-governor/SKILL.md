@@ -4,25 +4,22 @@ title: SKILL — Amos Causal Hierarchy Governor
 type: skill
 source: 07_SKILLS/amos-causal-hierarchy-governor
 name: amos-causal-hierarchy-governor
-description: Causal Hierarchy Governor — causal reasoning capability. Use when causal
-  analysis, counterfactual reasoning, or intervention design. Use when amos-causal-reasoning-master
-  routes to this specialized capability. Do not use for generic tasks outside causal
-  domain.
+description: Causal Hierarchy Governor — causal reasoning capability. Use when causal analysis, counterfactual reasoning, or intervention design. Use when amos-causal-reasoning-master routes to this specialized capability. Do not use for generic tasks outside causal domain.
 parent_skill: amos-causal-reasoning-master
 domain: causal
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
 tags:
-- type/skill
-- type/skill
-- domain/causal-reasoning
-- epistemic/source_claim
-- hml/h
-- epistemic/source_claim
-- amos-os
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/causal-reasoning
+  - epistemic/source_claim
+  - hml/h
+  - epistemic/source_claim
+  - amos-os
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -32,24 +29,24 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: H
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
-- L24_causal_epoch
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
+  - L24_causal_epoch
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L7
-- L16
-- L17
-- L18
-- L24
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L7
+  - L16
+  - L17
+  - L18
+  - L24
 license: MIT
 steward: Trang Phan
 ---
@@ -59,6 +56,7 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: causal. Parent: amos-causal-reasoning-master. Epistemic class: SOURCE_CLAIM. H/M/L: H.
+
 ## When to Use
 
 - When validating causal abstraction across model levels
@@ -85,12 +83,12 @@ Origin architect: **Trang Phan**. Domain: causal. Parent: amos-causal-reasoning-
 ## Operations
 
 1. **causal_hierarchy.validate_abstraction**: Validate causal abstraction: does the higher-level model preserve causal structure?
-2. **causal_hierarchy.enforce_closure**: Enforce causal closure: every effect must have a sufficient cause within the system
-3. **causal_hierarchy.govern_hierarchy**: Govern causal hierarchy: direct, distributed, delayed, and cascading causes
-4. **causal_hierarchy.reason_counterfactual**: Reason counterfactually: what would happen under alternative interventions
-5. **causal_hierarchy.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-6. **causal_hierarchy.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
-7. **causal_hierarchy.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+1. **causal_hierarchy.enforce_closure**: Enforce causal closure: every effect must have a sufficient cause within the system
+1. **causal_hierarchy.govern_hierarchy**: Govern causal hierarchy: direct, distributed, delayed, and cascading causes
+1. **causal_hierarchy.reason_counterfactual**: Reason counterfactually: what would happen under alternative interventions
+1. **causal_hierarchy.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+1. **causal_hierarchy.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+1. **causal_hierarchy.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## 11_KNOWLEDGE Vault Content
 
@@ -102,11 +100,13 @@ Origin architect: **Trang Phan**. Domain: causal. Parent: amos-causal-reasoning-
 From Cosmo Brain Vortical Persistence RSCF Architecture: Causal hierarchy governor with epistemic partition. From QCLA: Quantum causality layer architecture.
 
 **Vortical persistence model**:
+
 - **Persistence**: continued preservation of system identity under flow/disturbance/dissipation/regime change
 - **Dissolution**: when load-bearing identity invariants fail
 - **Causal hierarchy**: multiple levels of causal reasoning with epistemic partition
 
 **Epistemic partition for causal claims**:
+
 - SOURCE_CLAIM: source-declared causal claim
 - DOMAIN_EMPIRICAL: empirically validated causal claim
 - AMOS_MODEL: AMOS model causal claim
@@ -116,6 +116,7 @@ From Cosmo Brain Vortical Persistence RSCF Architecture: Causal hierarchy govern
 - DECISION: decision-relevant causal claim
 
 **Causal hierarchy levels**:
+
 - **L1 Direct causation**: A directly causes B (no intermediaries)
 - **L2 Distributed causation**: multiple causes contribute to an effect
 - **L3 Delayed causation**: cause and effect are separated in time
@@ -124,6 +125,7 @@ From Cosmo Brain Vortical Persistence RSCF Architecture: Causal hierarchy govern
 **H/M/L mapping**: causal claims checked at H (whole system), M (subsystem), L (local event) levels
 
 **Governance laws**:
+
 - `DIRECT != DISTRIBUTED`: direct causation is not distributed causation
 - `CAUSE != CORRELATION`: causal claims require causal evidence
 - `PERSISTENCE != PERMANENCE`: persistence is continued preservation; it is not permanence
@@ -140,7 +142,8 @@ Causal hierarchy governance is an epistemic construct. It does not prove causati
 - **Validation failure**: If validation gates fail, downgrade confidence, flag the gap, and escalate — do not force-fit.
 - **Epistemic overreach**: If a claim exceeds the established evidence or epistemic class, retract and re
 
----
+______________________________________________________________________
+
 **Links:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 ## Related
@@ -150,17 +153,19 @@ Causal hierarchy governance is an epistemic construct. It does not prove causati
 ## Examples
 
 - **Scenario**: When validating causal abstraction across model levels
+
   - **Input**: A query matching this skill's domain (causal)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When enforcing causal closure: every effect has a sufficient cause
+
   - **Input**: A query matching this skill's domain (causal)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When governing causal hierarchy: direct, distributed, delayed, cascading
+
   - **Input**: A query matching this skill's domain (causal)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Validation Gates
 
@@ -177,7 +182,6 @@ Causal hierarchy governance is an epistemic construct. It does not prove causati
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `amos-causal-reasoning-master` — routes to this skill when causal specialization is needed
@@ -185,7 +189,6 @@ Causal hierarchy governance is an epistemic construct. It does not prove causati
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -204,7 +207,6 @@ Causal hierarchy governance is an epistemic construct. It does not prove causati
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -212,7 +214,6 @@ Causal hierarchy governance is an epistemic construct. It does not prove causati
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -225,11 +226,12 @@ Causal hierarchy governance is an epistemic construct. It does not prove causati
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `amos-causal-reasoning-master` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `amos-causal-hierarchy-governor-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -237,12 +239,14 @@ Causal hierarchy governance is an epistemic construct. It does not prove causati
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-causal-hierarchy-governor
 node_type: skill
 path: 07_SKILLS/amos-causal-hierarchy-governor/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

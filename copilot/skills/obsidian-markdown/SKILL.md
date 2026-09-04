@@ -1,8 +1,6 @@
 ---
 name: obsidian-markdown
-description: Create and edit Obsidian-specific Markdown syntax, including wikilinks,
-  embeds, block references, callouts, properties, tags, and comments. Use for Obsidian
-  notes when these extensions matter; ordinary Markdown is assumed knowledge.
+description: Create and edit Obsidian-specific Markdown syntax, including wikilinks, embeds, block references, callouts, properties, tags, and comments. Use for Obsidian notes when these extensions matter; ordinary Markdown is assumed knowledge.
 license: MIT
 metadata:
   steward: Trang Phan
@@ -10,10 +8,15 @@ metadata:
   copilot-builtin-version: '1'
   copilot-upstream-revision: a1dc48e68138490d522c04cbf5822214c6eb1202
 tags:
-- note-name
-- imagepng
-- documentpdf
-- other-note
+  - note-name
+  - imagepng
+  - documentpdf
+  - other-note
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 # Obsidian Markdown
@@ -24,15 +27,15 @@ CommonMark or GFM unless the user asks.
 ## Workflow
 
 1. Preserve existing frontmatter keys and formatting when editing a note.
-2. Use wikilinks for vault notes and Markdown links for external URLs.
-3. Use embeds, callouts, properties, tags, comments, and block references only
+1. Use wikilinks for vault notes and Markdown links for external URLs.
+1. Use embeds, callouts, properties, tags, comments, and block references only
    when they improve the requested note.
-4. Check link targets, YAML validity, and block IDs after editing.
-5. Read the focused reference file when the task needs more syntax detail.
+1. Check link targets, YAML validity, and block IDs after editing.
+1. Read the focused reference file when the task needs more syntax detail.
 
 ## Wikilinks and block references
 
-~~~markdown
+```markdown
 Note Name
 Display Text
 Note Name > Heading
@@ -40,7 +43,7 @@ Note Name > ^block-id
 [[#Heading in this note]]
 
 This paragraph is addressable. ^block-id
-~~~
+```
 
 Put a block ID on its own line after a list or quote block.
 
@@ -48,30 +51,30 @@ Put a block ID on its own line after a list or quote block.
 
 Prefix a wikilink with <code>!</code>:
 
-~~~markdown
+```markdown
 !Note Name
 !Note Name > Heading
 ![[11_KNOWLEDGE/stubs/image.png|300]]
 ![[11_KNOWLEDGE/stubs/document.pdf#page=3|document.pdf]]
-~~~
+```
 
 See [Embeds](references/EMBEDS.md) for media, PDF, and query forms.
 
 ## Callouts
 
-~~~markdown
+```markdown
 > [!warning] Custom title
 > Important content.
 
 > [!faq]- Collapsed by default
 > Foldable content.
-~~~
+```
 
 See [Callouts](references/CALLOUTS.md) for types, aliases, folding, and nesting.
 
 ## Properties, tags, and comments
 
-~~~yaml
+```yaml
 ---
 title: My Note
 date: 2026-07-21
@@ -81,7 +84,7 @@ aliases:
   - Alternate Name
 related: "Other Note"
 ---
-~~~
+```
 
 Quote wikilinks used as YAML values. See
 [Properties](references/PROPERTIES.md) for supported property types and tag rules.
@@ -95,6 +98,6 @@ separate lines.
 Adapted from <code>kepano/obsidian-skills</code> at revision
 <code>a1dc48e68138490d522c04cbf5822214c6eb1202</code>. See <code>LICENSE</code>.
 
----
+______________________________________________________________________
 
 **MOC:** [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/00_HOME|00_HOME]]

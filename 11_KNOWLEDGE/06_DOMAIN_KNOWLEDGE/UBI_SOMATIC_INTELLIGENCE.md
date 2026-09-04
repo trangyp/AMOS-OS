@@ -12,23 +12,23 @@ segment: 11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE
 artifact_kind: DOMAIN_KNOWLEDGE
 path: 11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/UBI_SOMATIC_INTELLIGENCE.md
 tags:
-- amos-os
-- knowledge
-- vault
-- 06_domain_knowledge
-- ubi
-- si
-- somatic
-- fascia
-- biomechanics
-- posture
-- proprioception
-- rscf
-- canon_candidate
-- canon/knowledge
-- unified-biological-intelligence
-- amos-x-ubi
-- amos-x-ubi-matrix
+  - amos-os
+  - knowledge
+  - vault
+  - 06_domain_knowledge
+  - ubi
+  - si
+  - somatic
+  - fascia
+  - biomechanics
+  - posture
+  - proprioception
+  - rscf
+  - canon_candidate
+  - canon/knowledge
+  - unified-biological-intelligence
+  - amos-x-ubi
+  - amos-x-ubi-matrix
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -43,24 +43,24 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - UBI_OFFICIAL_MANUAL
-  - UNIFIED_BIOLOGICAL_INTELLIGENCE_UBI_OFFICIAL
-  - AMOS_CORPUS
+    - UBI_OFFICIAL_MANUAL
+    - UNIFIED_BIOLOGICAL_INTELLIGENCE_UBI_OFFICIAL
+    - AMOS_CORPUS
   scope:
-  - BIOLOGICAL_INTELLIGENCE
-  - SOMATIC_SYSTEMS
-  - SOURCE_DEFINED_SI_MODEL
+    - BIOLOGICAL_INTELLIGENCE
+    - SOMATIC_SYSTEMS
+    - SOURCE_DEFINED_SI_MODEL
 framework_binding:
   parent_framework:
     name: Unified Biological Intelligence™
     acronym: UBI
     artifact:
-    - - UNIFIED_BIOLOGICAL_INTELLIGENCE
+      -   - UNIFIED_BIOLOGICAL_INTELLIGENCE
   matrix_binding:
     artifact:
-    - - AMOS_X_UBI
+      -   - AMOS_X_UBI
     matrix:
-    - - AMOS_X_UBI_MATRIX
+      -   - AMOS_X_UBI_MATRIX
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   domain_structure: VERIFIED_SOURCE_STRUCTURE
@@ -74,17 +74,17 @@ epistemic_boundary:
 
 SI treats the body's physical architecture, fascial matrix, and biomechanical posture as an active, embodied intelligence engine.
 
----
+______________________________________________________________________
 
-# 1. Biological Foundations
+## 1. Biological Foundations
 
 - **Substrate:** Fascial web, tensegrity structures, musculoskeletal biomechanics, proprioceptive & interoceptive receptors, diaphragm and respiratory mechanics.
 - **Core Functions:** Embodied stability, postural alignment, physical ground force transmission, kinesthetic intuition, non-verbal presence.
 - **Coupling to Cognition:** When somatic alignment collapses into chronic contraction or postural collapse, cognitive processing (NBI) and emotional regulation (NEI) immediately degrade.
 
----
+______________________________________________________________________
 
-# 2. RSCF Contract
+## 2. RSCF Contract
 
 ```yaml
 RSCF:
@@ -102,10 +102,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/06_DOMAIN_KNOWLEDGE_MOC|06_DOMAIN_KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]] · [[25_COGNITIVE_MATRIX/AMOS_X_UBI|AMOS_X_UBI]]
 
----
-**MOC:** [[11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/06_DOMAIN_KNOWLEDGE_MOC|06_DOMAIN_KNOWLEDGE_MOC]]
+______________________________________________________________________
 
+**MOC:** [[11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/06_DOMAIN_KNOWLEDGE_MOC|06_DOMAIN_KNOWLEDGE_MOC]]

@@ -1,16 +1,19 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: business logic vulns
 type: reference
 source: 07_SKILLS/amos-c01-meta-logic-master/references
 tags:
-- reference
-- amos-c01-meta-logic-master
-- type/skill
-- system-scan-agent
-- automation-profiles
-- amos-simulation-kernel-v0-math-foundations
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-c01-meta-logic-master
+  - type/skill
+  - system-scan-agent
+  - automation-profiles
+  - amos-simulation-kernel-v0-math-foundations
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -23,11 +26,11 @@ rscf:
 > Source: `_00_Cosmo brain/logic/Business_Logic_Vulns.md`
 > Epistemic class: SOURCE_DERIVED
 
----
-tags: [logic]
----
+______________________________________________________________________
 
-# Business Logic Vulns
+## tags: [logic]
+
+## Business Logic Vulns
 
 ## Overview
 
@@ -36,36 +39,42 @@ Business logic vulnerabilities are flaws in the design and implementation of app
 ## Common Patterns
 
 ### Price Manipulation
+
 - Bypassing price checks by manipulating client-side values (tampering with hidden form fields, API request payloads, or JavaScript variables)
 - Negative quantity or price values in order processing (submitting `-1` items to trigger refund logic)
 - Currency confusion (submitting prices in wrong currency unit, exploiting floating-point precision in multi-currency systems)
 - Price anchoring attacks where a legitimate initial price is submitted then modified mid-transaction
 
 ### Privilege Escalation via Logic
+
 - Skipping mandatory workflow steps (e.g., checkout without payment, publishing without review)
 - Accessing restricted features by manipulating state transitions (direct URL access to later pipeline stages)
 - Race conditions in multi-step processes (TOCTOU — time-of-check to time-of-use)
 - Exploiting assumption that workflow steps are always sequential and user-initiated
 
 ### Quantity & Inventory Abuse
+
 - Ordering negative or fractional quantities (triggers edge cases in inventory deduction)
 - Exceeding purchase limits via parallel requests (race condition on limit counter)
 - Inventory exhaustion via cart reservation abuse (holding all stock in carts without completing purchase)
 - Bulk order manipulation to trigger volume discounts then splitting orders post-discount
 
 ### Coupon & Discount Abuse
+
 - Reusing single-use coupons across sessions (exploiting lack of server-side coupon state tracking)
 - Stacking incompatible discounts (combining promotions that were designed to be mutually exclusive)
 - Applying expired promotions via parameter tampering (sending expired coupon codes that the backend fails to validate)
 - Referral abuse (creating self-referral loops to stack referral bonuses)
 
 ### Authentication Bypass
+
 - Forced browsing past authentication checkpoints (accessing authenticated endpoints directly)
 - Session state manipulation to assume other user roles (modifying session tokens or JWT claims)
 - Password reset poisoning via logic flaws (exploiting race conditions in reset token generation)
 - Account takeover via business logic in account recovery flows (manipulating recovery question validation)
 
 ### Trust Boundary Violations
+
 - Exploiting assumptions about trusted internal APIs (calling internal endpoints from external context)
 - B2B integration logic flaws (manipulating partner API assumptions about data format or origin)
 - Webhook signature bypass (exploiting logic in verification rather than cryptography)
@@ -94,12 +103,13 @@ Business logic vulnerabilities are flaws in the design and implementation of app
 
 Business logic vulnerabilities are a direct manifestation of what the AMOS Meta-Logic Kernel (C01) is designed to detect: hidden assumptions, incomplete state machine coverage, and framework boundary violations. The Meta-Logic Kernel's F06 family (Conflict & Contradiction Detection) and F03 family (Assumption Graphs & Epistemic Status) provide the reasoning primitives for systematic business logic vulnerability analysis.
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS · SYSTEM_SCAN_AGENT · AUTOMATION_PROFILES
 
----
-**MOC:** references_MOC
----
+______________________________________________________________________
+
+## **MOC:** references_MOC
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -107,12 +117,14 @@ Business logic vulnerabilities are a direct manifestation of what the AMOS Meta-
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-c01-meta-logic-master-business-logic-vulns
 node_type: reference
 path: 07_SKILLS/amos-c01-meta-logic-master/references/business_logic_vulns.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

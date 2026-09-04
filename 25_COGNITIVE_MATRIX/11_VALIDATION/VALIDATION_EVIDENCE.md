@@ -1,12 +1,15 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: 11_VALIDATION — Validation Evidence
 type: validation
 source: 25_COGNITIVE_MATRIX/11_VALIDATION
 tags:
-- note
-- 11-validation
-- domain/cognitive-matrix
-- readme
+  - note
+  - 11-validation
+  - domain/cognitive-matrix
+  - readme
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -22,9 +25,9 @@ rscf:
 
 **Status:** `CONDITIONAL / ARCHITECTURE DEFINED / IMPLEMENTATION PARTIAL OR UNKNOWN`
 
----
+______________________________________________________________________
 
-# 1. Purpose
+## 1. Purpose
 
 `VALIDATION_EVIDENCE.md` defines the AMOS contract for evidence used to support, challenge, validate, downgrade, invalidate, or supersede:
 
@@ -81,9 +84,9 @@ These objects may all contribute evidence.
 
 They do not carry the same meaning.
 
----
+______________________________________________________________________
 
-# 2. Core Evidence Definition
+## 2. Core Evidence Definition
 
 Within this architecture:
 
@@ -127,9 +130,9 @@ WITHIN scope S
 AT time T
 ```
 
----
+______________________________________________________________________
 
-# 3. Evidence Is Not Truth
+## 3. Evidence Is Not Truth
 
 Mandatory:
 
@@ -167,9 +170,9 @@ does not imply:
 C = VERIFIED
 ```
 
----
+______________________________________________________________________
 
-# 4. Architectural Position
+## 4. Architectural Position
 
 Validation evidence connects observation, reasoning, validation, and decision layers.
 
@@ -207,9 +210,9 @@ Validation informs governance.
 
 Neither automatically creates authority.
 
----
+______________________________________________________________________
 
-# 5. Hard Boundaries
+## 5. Hard Boundaries
 
 ```text
 SOURCE_CLAIM != OBSERVATION
@@ -261,9 +264,9 @@ CAPABILITY != AUTHORITY
 PROPOSAL != COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 6. Evidence Object
+## 6. Evidence Object
 
 Every material evidence object should have an addressable identity.
 
@@ -327,9 +330,9 @@ evidence_object:
   validation_state: null
 ```
 
----
+______________________________________________________________________
 
-# 7. Primary Evidence Classes
+## 7. Primary Evidence Classes
 
 AMOS should preserve at least the following primary evidence classes:
 
@@ -371,9 +374,9 @@ UNKNOWN
 
 This taxonomy is `DERIVED` architecture unless superseded by a canonical evidence registry.
 
----
+______________________________________________________________________
 
-# 8. SOURCE_CLAIM
+## 8. SOURCE_CLAIM
 
 Definition:
 
@@ -413,9 +416,9 @@ without proving:
 the claim is externally true
 ```
 
----
+______________________________________________________________________
 
-# 9. OBSERVATION
+## 9. OBSERVATION
 
 An observation records a state/event through a specified observation process.
 
@@ -440,9 +443,9 @@ every subsystem was healthy
 
 unless that conclusion has additional evidence.
 
----
+______________________________________________________________________
 
-# 10. MEASUREMENT
+## 10. MEASUREMENT
 
 A measurement must include:
 
@@ -490,9 +493,9 @@ measurement:
   environment: null
 ```
 
----
+______________________________________________________________________
 
-# 11. EXPERIMENT
+## 11. EXPERIMENT
 
 An experiment is a structured intervention/measurement process.
 
@@ -538,9 +541,9 @@ uncontrolled anecdote
 
 into one generic evidence type.
 
----
+______________________________________________________________________
 
-# 12. DERIVED Evidence
+## 12. DERIVED Evidence
 
 A derived object is produced from premises using explicit rules.
 
@@ -563,9 +566,9 @@ transformation
 assumptions
 ```
 
----
+______________________________________________________________________
 
-# 13. MODEL Output
+## 13. MODEL Output
 
 A model output is evidence about:
 
@@ -598,9 +601,9 @@ not:
 future definitely equals X
 ```
 
----
+______________________________________________________________________
 
-# 14. Simulation Output
+## 14. Simulation Output
 
 Simulation is a special form of model execution.
 
@@ -627,9 +630,9 @@ SIMULATION_OUTPUT
 OBSERVATION
 ```
 
----
+______________________________________________________________________
 
-# 15. Benchmark Evidence
+## 15. Benchmark Evidence
 
 Benchmark evidence supports claims about:
 
@@ -660,9 +663,9 @@ hardware
 sampling
 ```
 
----
+______________________________________________________________________
 
-# 16. Implementation Evidence
+## 16. Implementation Evidence
 
 Examples:
 
@@ -694,9 +697,9 @@ not necessarily:
 the semantics are correct
 ```
 
----
+______________________________________________________________________
 
-# 17. Operational Evidence
+## 17. Operational Evidence
 
 Operational evidence arises from real or realistic execution conditions.
 
@@ -713,9 +716,9 @@ real user behavior
 
 Operational evidence is stronger for deployment validity than unit-test-only evidence, but remains scope-bound.
 
----
+______________________________________________________________________
 
-# 18. Causal Evidence
+## 18. Causal Evidence
 
 Causal evidence must be typed.
 
@@ -749,9 +752,9 @@ CAUSAL = true
 
 without identifying the causal proposition.
 
----
+______________________________________________________________________
 
-# 19. Replication Evidence
+## 19. Replication Evidence
 
 Replication should record:
 
@@ -775,9 +778,9 @@ Replication using the same raw dataset may validate analysis reproducibility.
 
 It may not constitute independent empirical replication.
 
----
+______________________________________________________________________
 
-# 20. Expert Judgment
+## 20. Expert Judgment
 
 Expert judgment can be useful evidence where direct evidence is incomplete.
 
@@ -799,9 +802,9 @@ basis of judgment
 
 Expert authority is not empirical independence.
 
----
+______________________________________________________________________
 
-# 21. Decision Records
+## 21. Decision Records
 
 A decision record is evidence that:
 
@@ -818,9 +821,9 @@ the decision was correct
 
 Decision evidence must remain distinct from validation evidence supporting the decision.
 
----
+______________________________________________________________________
 
-# 22. Evidence Direction
+## 22. Evidence Direction
 
 Evidence should record relation to claims.
 
@@ -853,9 +856,9 @@ relation:
   type: SUPPORTS
 ```
 
----
+______________________________________________________________________
 
-# 23. Evidence Graph
+## 23. Evidence Graph
 
 AMOS should represent evidence as a graph.
 
@@ -891,9 +894,9 @@ OBSERVATION O3
 
 This graph permits local invalidation.
 
----
+______________________________________________________________________
 
-# 24. Provenance
+## 24. Provenance
 
 Evidence provenance should identify:
 
@@ -923,9 +926,9 @@ custody path
 
 A citation without ancestry is incomplete provenance.
 
----
+______________________________________________________________________
 
-# 25. Provenance Chain
+## 25. Provenance Chain
 
 Example:
 
@@ -953,9 +956,9 @@ all dependent descendants
 
 require revalidation.
 
----
+______________________________________________________________________
 
-# 26. Persistent Provenance
+## 26. Persistent Provenance
 
 Validation history should survive:
 
@@ -975,9 +978,9 @@ supersession
 
 Do not replace historical provenance with only the latest artifact.
 
----
+______________________________________________________________________
 
-# 27. Evidence Ancestry
+## 27. Evidence Ancestry
 
 Two evidence objects may share ancestry.
 
@@ -1002,9 +1005,9 @@ but potentially:
 
 AMOS must preserve that distinction.
 
----
+______________________________________________________________________
 
-# 28. Independence
+## 28. Independence
 
 Independence is not assumed.
 
@@ -1024,9 +1027,9 @@ SAME_ANCESTRY
 UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 29. Correlation Group
+## 29. Correlation Group
 
 Evidence may be assigned:
 
@@ -1042,9 +1045,9 @@ correlation_group: MODEL_FAMILY_Y
 
 This prevents repeated descendants from being counted as separate independent confirmation.
 
----
+______________________________________________________________________
 
-# 30. Sybil Hardening
+## 30. Sybil Hardening
 
 Evidence systems must resist artificial evidence multiplication.
 
@@ -1070,9 +1073,9 @@ not:
 100 independent sources
 ```
 
----
+______________________________________________________________________
 
-# 31. Repetition
+## 31. Repetition
 
 ```text
 RepeatedClaim
@@ -1084,9 +1087,9 @@ Popularity, quotation count, authority, and repetition may affect social importa
 
 They do not automatically increase empirical validity.
 
----
+______________________________________________________________________
 
-# 32. Evidence Admission
+## 32. Evidence Admission
 
 Evidence should pass an admission stage before supporting validation.
 
@@ -1112,9 +1115,9 @@ integrity
 admit / qualify / reject / hold
 ```
 
----
+______________________________________________________________________
 
-# 33. Evidence Admission States
+## 33. Evidence Admission States
 
 ```text
 ADMITTED
@@ -1132,9 +1135,9 @@ UNRESOLVED
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 34. Admission Requirements
+## 34. Admission Requirements
 
 At minimum:
 
@@ -1168,9 +1171,9 @@ or:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 35. Evidence Integrity
+## 35. Evidence Integrity
 
 Evidence integrity concerns whether the artifact is what it claims to be.
 
@@ -1196,9 +1199,9 @@ These establish artifact integrity.
 
 They do not establish semantic truth.
 
----
+______________________________________________________________________
 
-# 36. Content Integrity vs Artifact Integrity
+## 36. Content Integrity vs Artifact Integrity
 
 ```text
 artifact hash matches
@@ -1218,9 +1221,9 @@ artifact is true
 
 This distinction is mandatory.
 
----
+______________________________________________________________________
 
-# 37. Scope
+## 37. Scope
 
 Evidence inherits a scope envelope.
 
@@ -1248,9 +1251,9 @@ Evidence outside the claim's scope may still be relevant.
 
 It cannot be silently transferred.
 
----
+______________________________________________________________________
 
-# 38. Scope Compatibility
+## 38. Scope Compatibility
 
 Evidence `E` can directly support claim `C` only when:
 
@@ -1268,9 +1271,9 @@ Otherwise:
 support = CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
-# 39. Scope Leakage
+## 39. Scope Leakage
 
 Example:
 
@@ -1285,9 +1288,9 @@ Without transfer evidence:
 SCOPE_LEAK
 ```
 
----
+______________________________________________________________________
 
-# 40. Regime
+## 40. Regime
 
 Evidence must record operating regime.
 
@@ -1315,9 +1318,9 @@ stable ecosystem
 post-disturbance ecosystem
 ```
 
----
+______________________________________________________________________
 
-# 41. Regime Compatibility
+## 41. Regime Compatibility
 
 Evidence from regime `R1` does not automatically validate behavior in `R2`.
 
@@ -1338,9 +1341,9 @@ or:
 CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
-# 42. Freshness
+## 42. Freshness
 
 Evidence can become stale.
 
@@ -1362,9 +1365,9 @@ policy change
 scientific update
 ```
 
----
+______________________________________________________________________
 
-# 43. Freshness State
+## 43. Freshness State
 
 ```text
 CURRENT
@@ -1378,9 +1381,9 @@ SUPERSEDED
 UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 44. Stale Evidence
+## 44. Stale Evidence
 
 Stale evidence is not automatically false.
 
@@ -1398,9 +1401,9 @@ runtime snapshot from yesterday
 
 may remain valid historical evidence but not current-state evidence.
 
----
+______________________________________________________________________
 
-# 45. Freshness Triggers
+## 45. Freshness Triggers
 
 Revalidation may be triggered by:
 
@@ -1424,9 +1427,9 @@ contradictory evidence
 environment change
 ```
 
----
+______________________________________________________________________
 
-# 46. Evidence Time
+## 46. Evidence Time
 
 Preserve distinct times:
 
@@ -1444,9 +1447,9 @@ validation_time
 
 These are not interchangeable.
 
----
+______________________________________________________________________
 
-# 47. Evidence Transformations
+## 47. Evidence Transformations
 
 Every transformation should be recorded.
 
@@ -1476,9 +1479,9 @@ classify
 
 Transformations create dependency edges.
 
----
+______________________________________________________________________
 
-# 48. Raw vs Derived Evidence
+## 48. Raw vs Derived Evidence
 
 ```text
 RAW
@@ -1498,9 +1501,9 @@ sensor reading
 
 Each step changes evidence type.
 
----
+______________________________________________________________________
 
-# 49. Evidence Compression
+## 49. Evidence Compression
 
 Summaries may be useful.
 
@@ -1522,9 +1525,9 @@ falsifiers
 
 A compressed summary must link to its parent evidence.
 
----
+______________________________________________________________________
 
-# 50. Evidence Loss
+## 50. Evidence Loss
 
 Compression fails when it removes:
 
@@ -1544,9 +1547,9 @@ source ancestry
 
 Such output should not replace the original evidence object.
 
----
+______________________________________________________________________
 
-# 51. Evidence Quality
+## 51. Evidence Quality
 
 Evidence quality is multidimensional.
 
@@ -1580,9 +1583,9 @@ replicability
 
 Do not compress these into one score unless decision context justifies it.
 
----
+______________________________________________________________________
 
-# 52. Evidence Strength
+## 52. Evidence Strength
 
 "Strength" depends on the claim being evaluated.
 
@@ -1605,9 +1608,9 @@ f(
 )
 ```
 
----
+______________________________________________________________________
 
-# 53. Evidence Weight
+## 53. Evidence Weight
 
 AMOS may conceptually weight evidence.
 
@@ -1633,9 +1636,9 @@ evidence_assessment:
   uncertainty: null
 ```
 
----
+______________________________________________________________________
 
-# 54. Evidence Volume
+## 54. Evidence Volume
 
 Large evidence volume can be useful.
 
@@ -1655,9 +1658,9 @@ Volume
 Independence
 ```
 
----
+______________________________________________________________________
 
-# 55. Negative Evidence
+## 55. Negative Evidence
 
 Negative evidence is evidence against a claim or expectation.
 
@@ -1681,9 +1684,9 @@ evidence of absence
 
 unless observation conditions had sufficient detection power.
 
----
+______________________________________________________________________
 
-# 56. Detection Power
+## 56. Detection Power
 
 A null observation is informative only relative to:
 
@@ -1703,9 +1706,9 @@ coverage
 
 A failed detection under weak measurement conditions may provide little evidence against a claim.
 
----
+______________________________________________________________________
 
-# 57. Contradictory Evidence
+## 57. Contradictory Evidence
 
 When evidence conflicts:
 
@@ -1736,9 +1739,9 @@ provenance correlation
 assumptions
 ```
 
----
+______________________________________________________________________
 
-# 58. Contradiction State
+## 58. Contradiction State
 
 Possible:
 
@@ -1756,9 +1759,9 @@ REGIME_DEPENDENT
 SCOPE_DEPENDENT
 ```
 
----
+______________________________________________________________________
 
-# 59. Competing Hypotheses
+## 59. Competing Hypotheses
 
 Evidence may support multiple hypotheses.
 
@@ -1780,9 +1783,9 @@ COMPETING
 
 must be preserved.
 
----
+______________________________________________________________________
 
-# 60. Discriminating Evidence
+## 60. Discriminating Evidence
 
 The preferred next evidence is often:
 
@@ -1794,9 +1797,9 @@ to make different predictions
 
 This is superior to accumulating redundant support.
 
----
+______________________________________________________________________
 
-# 61. Evidence for Falsification
+## 61. Evidence for Falsification
 
 A falsifier should identify:
 
@@ -1825,9 +1828,9 @@ falsifier:
   threshold: T
 ```
 
----
+______________________________________________________________________
 
-# 62. Claim–Evidence Relation
+## 62. Claim–Evidence Relation
 
 Recommended:
 
@@ -1850,9 +1853,9 @@ claim_evidence_edge:
   regime_compatibility: null
 ```
 
----
+______________________________________________________________________
 
-# 63. Load-Bearing Evidence
+## 63. Load-Bearing Evidence
 
 Some evidence is essential to a conclusion.
 
@@ -1866,9 +1869,9 @@ then it is load-bearing.
 
 This should be explicit.
 
----
+______________________________________________________________________
 
-# 64. Confidence Ceiling
+## 64. Confidence Ceiling
 
 Derived confidence must respect load-bearing evidence.
 
@@ -1888,9 +1891,9 @@ min(
 
 unless the limiting dependency is independently revalidated.
 
----
+______________________________________________________________________
 
-# 65. Confidence Is Not Vote Count
+## 65. Confidence Is Not Vote Count
 
 Invalid:
 
@@ -1904,9 +1907,9 @@ unless a justified statistical model exists.
 
 Evidence aggregation is not majority voting.
 
----
+______________________________________________________________________
 
-# 66. Evidence Aggregation
+## 66. Evidence Aggregation
 
 Possible aggregation methods depend on evidence type:
 
@@ -1930,9 +1933,9 @@ triangulation
 
 The method must be explicit.
 
----
+______________________________________________________________________
 
-# 67. Aggregation Preconditions
+## 67. Aggregation Preconditions
 
 Before combining evidence:
 
@@ -1952,9 +1955,9 @@ known dependence structure
 
 must be checked.
 
----
+______________________________________________________________________
 
-# 68. Double Counting
+## 68. Double Counting
 
 Evidence cannot be counted twice through transformed descendants.
 
@@ -1969,9 +1972,9 @@ Dataset D
 
 These are not four independent empirical observations.
 
----
+______________________________________________________________________
 
-# 69. Triangulation
+## 69. Triangulation
 
 Triangulation is strongest when evidence comes through different failure modes.
 
@@ -1991,9 +1994,9 @@ mechanistic model
 
 Convergence across genuinely different paths can increase confidence.
 
----
+______________________________________________________________________
 
-# 70. Evidence Independence Topology
+## 70. Evidence Independence Topology
 
 Represent ancestry:
 
@@ -2011,9 +2014,9 @@ ROOT B
 
 `E4` may provide independent support.
 
----
+______________________________________________________________________
 
-# 71. Correlated Validators
+## 71. Correlated Validators
 
 Evidence from validators can also be correlated.
 
@@ -2036,9 +2039,9 @@ same hidden assumptions
 
 Agreement is not necessarily independent.
 
----
+______________________________________________________________________
 
-# 72. Validator Evidence
+## 72. Validator Evidence
 
 A validator output is itself evidence.
 
@@ -2064,9 +2067,9 @@ environment
 known failure modes
 ```
 
----
+______________________________________________________________________
 
-# 73. Validator Validation
+## 73. Validator Validation
 
 No validator is assumed infallible.
 
@@ -2086,9 +2089,9 @@ performance
 failure modes
 ```
 
----
+______________________________________________________________________
 
-# 74. Circular Validation
+## 74. Circular Validation
 
 Invalid:
 
@@ -2104,9 +2107,9 @@ same model reports confidence
 
 This is one correlated path.
 
----
+______________________________________________________________________
 
-# 75. Self-Checks
+## 75. Self-Checks
 
 Self-checks may support:
 
@@ -2122,9 +2125,9 @@ known invariant compliance
 
 They do not establish independent external validity.
 
----
+______________________________________________________________________
 
-# 76. Causal Evidence Firewall
+## 76. Causal Evidence Firewall
 
 To support:
 
@@ -2152,9 +2155,9 @@ alternative causes
 
 Correlation alone cannot satisfy this.
 
----
+______________________________________________________________________
 
-# 77. Mechanistic Evidence
+## 77. Mechanistic Evidence
 
 Mechanistic evidence should identify:
 
@@ -2174,9 +2177,9 @@ failure points
 
 Mechanistic plausibility without observation remains `MODEL`.
 
----
+______________________________________________________________________
 
-# 78. Necessary Condition Evidence
+## 78. Necessary Condition Evidence
 
 To support:
 
@@ -2190,9 +2193,9 @@ evidence must address whether:
 B can occur without A
 ```
 
----
+______________________________________________________________________
 
-# 79. Sufficient Condition Evidence
+## 79. Sufficient Condition Evidence
 
 To support:
 
@@ -2209,9 +2212,9 @@ under the claimed conditions
 
 Necessary and sufficient claims must not be conflated.
 
----
+______________________________________________________________________
 
-# 80. Intervention Evidence
+## 80. Intervention Evidence
 
 Intervention evidence asks:
 
@@ -2222,9 +2225,9 @@ while relevant alternatives are controlled?
 
 It is stronger for intervention effects than passive correlation, subject to design validity.
 
----
+______________________________________________________________________
 
-# 81. Mediated Causation
+## 81. Mediated Causation
 
 Example:
 
@@ -2246,9 +2249,9 @@ A → B
 
 and relevant confounding.
 
----
+______________________________________________________________________
 
-# 82. Feedback
+## 82. Feedback
 
 For:
 
@@ -2260,9 +2263,9 @@ one-direction causal assumptions may fail.
 
 Evidence must be time-resolved enough to identify feedback structure where material.
 
----
+______________________________________________________________________
 
-# 83. H/M/L Evidence
+## 83. H/M/L Evidence
 
 Evidence can apply at different scales.
 
@@ -2276,9 +2279,9 @@ L — detailed local observation
 
 Evidence at one scale does not automatically validate another.
 
----
+______________________________________________________________________
 
-# 84. Bottom-Up Evidence
+## 84. Bottom-Up Evidence
 
 Example:
 
@@ -2290,9 +2293,9 @@ L observations
 
 Every transition requires an aggregation/bridge rule.
 
----
+______________________________________________________________________
 
-# 85. Top-Down Evidence
+## 85. Top-Down Evidence
 
 High-level constraints may provide evidence about expected lower-level states.
 
@@ -2310,9 +2313,9 @@ implementation satisfies it
 
 without downward validation.
 
----
+______________________________________________________________________
 
-# 86. Cross-Level Evidence Closure
+## 86. Cross-Level Evidence Closure
 
 Strong H/M/L validation can use:
 
@@ -2332,9 +2335,9 @@ H outcome
 
 This closes the reasoning loop.
 
----
+______________________________________________________________________
 
-# 87. Cross-Domain Evidence
+## 87. Cross-Domain Evidence
 
 A cross-domain claim must retain evidence from every material domain.
 
@@ -2349,9 +2352,9 @@ C12 environment
 
 Each arrow has separate evidence.
 
----
+______________________________________________________________________
 
-# 88. Cross-Domain Bridge Evidence
+## 88. Cross-Domain Bridge Evidence
 
 Validation of both endpoint domains does not validate the bridge.
 
@@ -2365,9 +2368,9 @@ Validated(A→B)
 
 The relation requires its own evidence.
 
----
+______________________________________________________________________
 
-# 89. Domain Transfer
+## 89. Domain Transfer
 
 Evidence from one domain used analogically in another is:
 
@@ -2379,9 +2382,9 @@ until a valid mapping is demonstrated.
 
 Structural similarity is not enough.
 
----
+______________________________________________________________________
 
-# 90. Evidence and Models
+## 90. Evidence and Models
 
 A model can generate:
 
@@ -2399,9 +2402,9 @@ These remain model-mediated.
 
 The model itself becomes a dependency of every such result.
 
----
+______________________________________________________________________
 
-# 91. Model Dependency
+## 91. Model Dependency
 
 If model `M` is invalidated:
 
@@ -2411,9 +2414,9 @@ all conclusions materially dependent on M
 
 require revalidation.
 
----
+______________________________________________________________________
 
-# 92. Evidence and State
+## 92. Evidence and State
 
 Runtime state evidence should preserve:
 
@@ -2433,9 +2436,9 @@ environment
 
 A state snapshot is time-local evidence.
 
----
+______________________________________________________________________
 
-# 93. Historical Evidence
+## 93. Historical Evidence
 
 Historical evidence remains valid for historical questions even when stale for present-state questions.
 
@@ -2457,9 +2460,9 @@ but not necessarily:
 system state today
 ```
 
----
+______________________________________________________________________
 
-# 94. Evidence State Machine
+## 94. Evidence State Machine
 
 Recommended:
 
@@ -2489,9 +2492,9 @@ QUARANTINED
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 95. Evidence Operators
+## 95. Evidence Operators
 
 Architecture-level operators:
 
@@ -2535,9 +2538,9 @@ These names define semantics.
 
 They do not imply implementation exists.
 
----
+______________________________________________________________________
 
-# 96. Evidence Invariants
+## 96. Evidence Invariants
 
 ## Identity invariant
 
@@ -2609,9 +2612,9 @@ Missing evidence
 remains missing.
 ```
 
----
+______________________________________________________________________
 
-# 97. Evidence Uncertainty
+## 97. Evidence Uncertainty
 
 Evidence uncertainty should preserve multiple dimensions.
 
@@ -2639,9 +2642,9 @@ uncertainty:
 
 Do not hide a critical uncertainty dimension inside one average.
 
----
+______________________________________________________________________
 
-# 98. Measurement Uncertainty
+## 98. Measurement Uncertainty
 
 Measurement uncertainty concerns uncertainty in the recorded quantity.
 
@@ -2655,9 +2658,9 @@ causal uncertainty
 scope uncertainty
 ```
 
----
+______________________________________________________________________
 
-# 99. Sampling Uncertainty
+## 99. Sampling Uncertainty
 
 Evidence may not represent the target population adequately.
 
@@ -2675,9 +2678,9 @@ non-response
 coverage
 ```
 
----
+______________________________________________________________________
 
-# 100. Model Uncertainty
+## 100. Model Uncertainty
 
 Evidence may depend on model assumptions.
 
@@ -2691,9 +2694,9 @@ is partly evidence and partly model output.
 
 This must remain visible.
 
----
+______________________________________________________________________
 
-# 101. Interpretation Uncertainty
+## 101. Interpretation Uncertainty
 
 Different interpretations may fit the same observation.
 
@@ -2705,9 +2708,9 @@ Observation O
 
 Observation should not be fused with one interpretation prematurely.
 
----
+______________________________________________________________________
 
-# 102. Evidence Sensitivity
+## 102. Evidence Sensitivity
 
 Identify the smallest evidence item whose removal flips the conclusion.
 
@@ -2720,9 +2723,9 @@ remove E3
 
 then E3 is high sensitivity/load-bearing evidence.
 
----
+______________________________________________________________________
 
-# 103. Evidence Fragility
+## 103. Evidence Fragility
 
 A conclusion is fragile when:
 
@@ -2739,9 +2742,9 @@ CONDITIONAL
 
 when material.
 
----
+______________________________________________________________________
 
-# 104. Missing Evidence
+## 104. Missing Evidence
 
 Missing evidence should be classified.
 
@@ -2755,9 +2758,9 @@ EXPLANATORY
 COSMETIC
 ```
 
----
+______________________________________________________________________
 
-# 105. Critical Evidence Gap
+## 105. Critical Evidence Gap
 
 Examples:
 
@@ -2775,9 +2778,9 @@ missing load-bearing dataset
 
 May block validation.
 
----
+______________________________________________________________________
 
-# 106. Decision-Relevant Gap
+## 106. Decision-Relevant Gap
 
 Missing evidence that could change:
 
@@ -2793,21 +2796,21 @@ deployment
 
 should be prioritized.
 
----
+______________________________________________________________________
 
-# 107. Explanatory Gap
+## 107. Explanatory Gap
 
 Missing detail that affects understanding but not current decision.
 
----
+______________________________________________________________________
 
-# 108. Cosmetic Gap
+## 108. Cosmetic Gap
 
 Formatting or metadata gap without semantic effect.
 
----
+______________________________________________________________________
 
-# 109. Evidence Retrieval
+## 109. Evidence Retrieval
 
 AMOS should retrieve only evidence capable of materially changing the answer.
 
@@ -2821,9 +2824,9 @@ bootstrap
 
 Raw evidence should not be loaded merely because it exists.
 
----
+______________________________________________________________________
 
-# 110. Minimum-Sufficient Evidence
+## 110. Minimum-Sufficient Evidence
 
 Stop retrieval when:
 
@@ -2839,9 +2842,9 @@ are achieved.
 
 Do not gather evidence indefinitely.
 
----
+______________________________________________________________________
 
-# 111. Evidence Prioritization
+## 111. Evidence Prioritization
 
 Preferred order:
 
@@ -2859,9 +2862,9 @@ freshness evidence
 background evidence
 ```
 
----
+______________________________________________________________________
 
-# 112. Expected Information Gain
+## 112. Expected Information Gain
 
 When competing hypotheses exist:
 
@@ -2873,9 +2876,9 @@ per unit cost/time/risk
 
 This is an optimization principle, not a universal numeric formula.
 
----
+______________________________________________________________________
 
-# 113. Evidence Adversarial Challenge
+## 113. Evidence Adversarial Challenge
 
 Consequential evidence should be challenged for:
 
@@ -2903,9 +2906,9 @@ model dependence
 conflicting evidence
 ```
 
----
+______________________________________________________________________
 
-# 114. Evidence Challenge Result
+## 114. Evidence Challenge Result
 
 Possible:
 
@@ -2923,9 +2926,9 @@ COMPETING
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 115. Evidence Falsifiers
+## 115. Evidence Falsifiers
 
 An evidence object may itself be invalidated by:
 
@@ -2949,9 +2952,9 @@ provenance broken
 duplicate ancestry discovered
 ```
 
----
+______________________________________________________________________
 
-# 116. Evidence Invalidation
+## 116. Evidence Invalidation
 
 When evidence fails:
 
@@ -2967,9 +2970,9 @@ preserve unaffected conclusions
 
 No global reset unless dependency topology requires it.
 
----
+______________________________________________________________________
 
-# 117. Local Repair
+## 117. Local Repair
 
 Evidence repair may involve:
 
@@ -2993,9 +2996,9 @@ reclassify regime
 downgrade confidence
 ```
 
----
+______________________________________________________________________
 
-# 118. Evidence Replacement
+## 118. Evidence Replacement
 
 A replacement does not erase history.
 
@@ -3016,17 +3019,17 @@ by whom/process
 impact on dependent claims
 ```
 
----
+______________________________________________________________________
 
-# 119. Evidence Supersession
+## 119. Evidence Supersession
 
 Supersession is appropriate when newer evidence replaces an older version.
 
 Old evidence may remain valid historically.
 
----
+______________________________________________________________________
 
-# 120. Evidence Versioning
+## 120. Evidence Versioning
 
 Every mutable evidence artifact should support:
 
@@ -3040,9 +3043,9 @@ previous_version
 superseded_by
 ```
 
----
+______________________________________________________________________
 
-# 121. Evidence Reuse
+## 121. Evidence Reuse
 
 Evidence may be reused only if:
 
@@ -3060,9 +3063,9 @@ independence assumptions still valid
 dependency state unchanged
 ```
 
----
+______________________________________________________________________
 
-# 122. Evidence Cache
+## 122. Evidence Cache
 
 Evidence caches may improve efficiency.
 
@@ -3082,9 +3085,9 @@ regime
 
 A cache hit is not a validation pass.
 
----
+______________________________________________________________________
 
-# 123. Evidence and MVCC
+## 123. Evidence and MVCC
 
 Where state is mutable:
 
@@ -3106,9 +3109,9 @@ If not:
 revalidate
 ```
 
----
+______________________________________________________________________
 
-# 124. Evidence Read Set
+## 124. Evidence Read Set
 
 A validation capsule should declare its load-bearing read set.
 
@@ -3122,9 +3125,9 @@ read_set:
     version: 7
 ```
 
----
+______________________________________________________________________
 
-# 125. Evidence Write Set
+## 125. Evidence Write Set
 
 New validation may propose:
 
@@ -3140,9 +3143,9 @@ new supersession relation
 
 Actual persistent writes remain control-plane governed.
 
----
+______________________________________________________________________
 
-# 126. Capability / Authority Boundary
+## 126. Capability / Authority Boundary
 
 A validator may:
 
@@ -3162,9 +3165,9 @@ Therefore:
 CAPABILITY != AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 127. Control-Plane Requirement
+## 127. Control-Plane Requirement
 
 Evidence ingestion or mutation may require:
 
@@ -3180,9 +3183,9 @@ supersession permission
 
 Effectful writes should remain separately authorized.
 
----
+______________________________________________________________________
 
-# 128. Proposal / Commit Boundary
+## 128. Proposal / Commit Boundary
 
 A proposed evidence classification:
 
@@ -3196,9 +3199,9 @@ does not become persistent canonical state until authorized commit.
 PROPOSAL != COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 129. Evidence Agents
+## 129. Evidence Agents
 
 Evidence agents may perform:
 
@@ -3222,9 +3225,9 @@ gap identification
 
 They may not self-authorize canonical changes.
 
----
+______________________________________________________________________
 
-# 130. Evidence Agent Contract
+## 130. Evidence Agent Contract
 
 ```yaml
 agent:
@@ -3246,9 +3249,9 @@ agent:
   audit: required
 ```
 
----
+______________________________________________________________________
 
-# 131. Skills
+## 131. Skills
 
 Host skills may expose:
 
@@ -3266,9 +3269,9 @@ A skill is a deployment binding.
 
 It does not redefine AMOS evidence ontology.
 
----
+______________________________________________________________________
 
-# 132. Tools
+## 132. Tools
 
 Evidence workflows may use:
 
@@ -3294,9 +3297,9 @@ provenance stores
 
 Tool output must be typed as evidence.
 
----
+______________________________________________________________________
 
-# 133. Workflows
+## 133. Workflows
 
 Recommended evidence workflow:
 
@@ -3332,9 +3335,9 @@ VALIDATE
 PERSIST
 ```
 
----
+______________________________________________________________________
 
-# 134. Evidence Protocol
+## 134. Evidence Protocol
 
 A general protocol:
 
@@ -3366,9 +3369,9 @@ classify relation
 store edge
 ```
 
----
+______________________________________________________________________
 
-# 135. Contradiction Protocol
+## 135. Contradiction Protocol
 
 ```text
 COMPARE(E1,E2,C)
@@ -3394,9 +3397,9 @@ time
 true contradiction
 ```
 
----
+______________________________________________________________________
 
-# 136. Revalidation Protocol
+## 136. Revalidation Protocol
 
 ```text
 REVALIDATE(E)
@@ -3420,9 +3423,9 @@ new contradictory evidence?
 provenance integrity intact?
 ```
 
----
+______________________________________________________________________
 
-# 137. Evidence Acceptance Tests
+## 137. Evidence Acceptance Tests
 
 Every evidence object should be testable for:
 
@@ -3448,9 +3451,9 @@ independence
 claim relation
 ```
 
----
+______________________________________________________________________
 
-# 138. Provenance Tests
+## 138. Provenance Tests
 
 Required negative tests:
 
@@ -3474,9 +3477,9 @@ or
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 139. Independence Tests
+## 139. Independence Tests
 
 Test cases:
 
@@ -3494,9 +3497,9 @@ different population / same method
 
 Independence should be dimension-specific.
 
----
+______________________________________________________________________
 
-# 140. Freshness Tests
+## 140. Freshness Tests
 
 Inject stale evidence.
 
@@ -3514,9 +3517,9 @@ CONDITIONAL
 
 not silent use as current evidence.
 
----
+______________________________________________________________________
 
-# 141. Scope Tests
+## 141. Scope Tests
 
 Use evidence outside target scope.
 
@@ -3528,9 +3531,9 @@ SCOPE_MISMATCH
 
 unless a validated bridge exists.
 
----
+______________________________________________________________________
 
-# 142. Regime Tests
+## 142. Regime Tests
 
 Use evidence from incompatible regime.
 
@@ -3540,9 +3543,9 @@ Expected:
 REGIME_MISMATCH
 ```
 
----
+______________________________________________________________________
 
-# 143. Evidence-Type Tests
+## 143. Evidence-Type Tests
 
 Attempt to relabel:
 
@@ -3562,9 +3565,9 @@ Expected:
 FAIL
 ```
 
----
+______________________________________________________________________
 
-# 144. Simulation-Type Test
+## 144. Simulation-Type Test
 
 Input:
 
@@ -3584,9 +3587,9 @@ not:
 OBSERVATION
 ```
 
----
+______________________________________________________________________
 
-# 145. Source-Claim Test
+## 145. Source-Claim Test
 
 Input:
 
@@ -3602,9 +3605,9 @@ SOURCE_CLAIM
 
 until implementation evidence exists.
 
----
+______________________________________________________________________
 
-# 146. Evidence Multiplication Test
+## 146. Evidence Multiplication Test
 
 Input:
 
@@ -3620,9 +3623,9 @@ Expected:
 
 not confidence multiplication.
 
----
+______________________________________________________________________
 
-# 147. Contradiction Test
+## 147. Contradiction Test
 
 Input:
 
@@ -3639,9 +3642,9 @@ CONTRADICTION / COMPETING
 
 unless evidence resolves the discrepancy.
 
----
+______________________________________________________________________
 
-# 148. Missing-Evidence Test
+## 148. Missing-Evidence Test
 
 Required evidence absent.
 
@@ -3657,9 +3660,9 @@ not:
 PASS
 ```
 
----
+______________________________________________________________________
 
-# 149. Fabricated-Evidence Test
+## 149. Fabricated-Evidence Test
 
 Attempt to generate missing citation or measurement.
 
@@ -3669,9 +3672,9 @@ Expected:
 CRITICAL FAIL
 ```
 
----
+______________________________________________________________________
 
-# 150. Confidence-Inflation Test
+## 150. Confidence-Inflation Test
 
 Weak load-bearing evidence plus many derivative documents.
 
@@ -3681,9 +3684,9 @@ Expected:
 confidence remains bounded
 ```
 
----
+______________________________________________________________________
 
-# 151. Causal-Overreach Test
+## 151. Causal-Overreach Test
 
 Provide correlation.
 
@@ -3695,9 +3698,9 @@ Expected:
 INSUFFICIENT_CAUSAL_EVIDENCE
 ```
 
----
+______________________________________________________________________
 
-# 152. Scope-Generalization Test
+## 152. Scope-Generalization Test
 
 Provide evidence from narrow group.
 
@@ -3711,9 +3714,9 @@ or
 REJECT_SCOPE_TRANSFER
 ```
 
----
+______________________________________________________________________
 
-# 153. Evidence Repair Test
+## 153. Evidence Repair Test
 
 Corrupt provenance.
 
@@ -3727,15 +3730,15 @@ revalidate dependent edges
 
 not automatic full-system validation.
 
----
+______________________________________________________________________
 
-# 154. Evidence Falsifier Test
+## 154. Evidence Falsifier Test
 
 Every validation evidence claim should expose what would invalidate its admissibility or interpretation.
 
----
+______________________________________________________________________
 
-# 155. Evidence Coverage
+## 155. Evidence Coverage
 
 Coverage should be multidimensional.
 
@@ -3759,9 +3762,9 @@ coverage:
   uncertainty_coverage: null
 ```
 
----
+______________________________________________________________________
 
-# 156. Evidence Sufficiency
+## 156. Evidence Sufficiency
 
 Evidence is sufficient only relative to a claim and decision.
 
@@ -3778,27 +3781,27 @@ D = decision context
 
 There is no universal evidence-count threshold.
 
----
+______________________________________________________________________
 
-# 157. Claim Sufficiency
+## 157. Claim Sufficiency
 
 Stop when evidence is sufficient to state the warranted claim class.
 
----
+______________________________________________________________________
 
-# 158. Decision Sufficiency
+## 158. Decision Sufficiency
 
 Stop when additional evidence is unlikely to alter the decision enough to justify its cost.
 
----
+______________________________________________________________________
 
-# 159. Action Sufficiency
+## 159. Action Sufficiency
 
 Stop when a reversible safe next action is justified.
 
----
+______________________________________________________________________
 
-# 160. High-Stakes Evidence
+## 160. High-Stakes Evidence
 
 Higher validation burden applies to:
 
@@ -3822,9 +3825,9 @@ irreversible physical effects
 large dependency reach
 ```
 
----
+______________________________________________________________________
 
-# 161. High-Stakes Evidence Requirements
+## 161. High-Stakes Evidence Requirements
 
 Depending on context:
 
@@ -3848,9 +3851,9 @@ rollback
 
 may become mandatory.
 
----
+______________________________________________________________________
 
-# 162. Reversible Action Under Weak Evidence
+## 162. Reversible Action Under Weak Evidence
 
 When evidence is incomplete:
 
@@ -3860,9 +3863,9 @@ prefer reversible experiments
 
 that increase information while limiting irreversible harm.
 
----
+______________________________________________________________________
 
-# 163. Evidence and Decisions
+## 163. Evidence and Decisions
 
 Decision structure:
 
@@ -3884,9 +3887,9 @@ DECISION
 
 Evidence alone does not generate normative decisions.
 
----
+______________________________________________________________________
 
-# 164. Evidence and Ethics
+## 164. Evidence and Ethics
 
 Normative claims should not be disguised as empirical evidence.
 
@@ -3902,9 +3905,9 @@ Evidence may inform outcomes.
 
 It cannot eliminate value assumptions.
 
----
+______________________________________________________________________
 
-# 165. Evidence and Canon
+## 165. Evidence and Canon
 
 AMOS corpus material can support claims about:
 
@@ -3928,9 +3931,9 @@ may be verified as a corpus fact.
 
 The physical truth of `Ξ` remains separate.
 
----
+______________________________________________________________________
 
-# 166. Canon Evidence
+## 166. Canon Evidence
 
 Suggested class:
 
@@ -3952,9 +3955,9 @@ can support:
 "this field exists in source artifact"
 ```
 
----
+______________________________________________________________________
 
-# 167. Corpus vs External Evidence
+## 167. Corpus vs External Evidence
 
 Maintain separate channels:
 
@@ -3970,9 +3973,9 @@ EMPIRICAL_VALIDATION
 
 Do not merge them.
 
----
+______________________________________________________________________
 
-# 168. Documentation Evidence
+## 168. Documentation Evidence
 
 README/documentation statements remain:
 
@@ -3982,9 +3985,9 @@ SOURCE_CLAIM
 
 until implementation or empirical validation supports them.
 
----
+______________________________________________________________________
 
-# 169. Code Evidence
+## 169. Code Evidence
 
 Code presence supports:
 
@@ -4000,9 +4003,9 @@ implementation works
 
 Execution evidence is stronger for runtime behavior.
 
----
+______________________________________________________________________
 
-# 170. Test Evidence
+## 170. Test Evidence
 
 Test output supports:
 
@@ -4012,9 +4015,9 @@ behavior under tested conditions
 
 not universal correctness.
 
----
+______________________________________________________________________
 
-# 171. Production Evidence
+## 171. Production Evidence
 
 Production observations can provide strong operational evidence.
 
@@ -4032,9 +4035,9 @@ survivorship bias
 
 Operational evidence still requires analysis.
 
----
+______________________________________________________________________
 
-# 172. Incident Evidence
+## 172. Incident Evidence
 
 Failures are high-information evidence about boundaries.
 
@@ -4056,9 +4059,9 @@ root cause status
 uncertainty
 ```
 
----
+______________________________________________________________________
 
-# 173. Near-Miss Evidence
+## 173. Near-Miss Evidence
 
 Near misses may provide valuable risk information even without actual failure.
 
@@ -4068,9 +4071,9 @@ Do not discard them because:
 nothing bad happened
 ```
 
----
+______________________________________________________________________
 
-# 174. Absence-of-Failure Evidence
+## 174. Absence-of-Failure Evidence
 
 Long operation without observed failure can increase support for reliability claims only relative to:
 
@@ -4084,9 +4087,9 @@ failure detectability
 operating regime
 ```
 
----
+______________________________________________________________________
 
-# 175. Evidence Retention
+## 175. Evidence Retention
 
 Retain:
 
@@ -4106,9 +4109,9 @@ superseded evidence
 
 Do not preserve only successful evidence.
 
----
+______________________________________________________________________
 
-# 176. Evidence Storage
+## 176. Evidence Storage
 
 Recommended architecture:
 
@@ -4151,9 +4154,9 @@ Recommended architecture:
 
 This directory structure is `DERIVED` and should not be treated as historical canon unless separately sourced.
 
----
+______________________________________________________________________
 
-# 177. Evidence Registry Entry
+## 177. Evidence Registry Entry
 
 ```yaml
 evidence:
@@ -4192,9 +4195,9 @@ evidence:
   falsifiers: []
 ```
 
----
+______________________________________________________________________
 
-# 178. Evidence Relation Registry
+## 178. Evidence Relation Registry
 
 ```yaml
 relation:
@@ -4214,9 +4217,9 @@ relation:
   confidence_effect: null
 ```
 
----
+______________________________________________________________________
 
-# 179. Provenance Registry
+## 179. Provenance Registry
 
 ```yaml
 provenance_record:
@@ -4238,9 +4241,9 @@ provenance_record:
   environment: null
 ```
 
----
+______________________________________________________________________
 
-# 180. Independence Registry
+## 180. Independence Registry
 
 ```yaml
 independence:
@@ -4256,9 +4259,9 @@ independence:
   independence_basis: null
 ```
 
----
+______________________________________________________________________
 
-# 181. Evidence State Variables
+## 181. Evidence State Variables
 
 Recommended:
 
@@ -4300,9 +4303,9 @@ E_validation_state
 E_supersession_state
 ```
 
----
+______________________________________________________________________
 
-# 182. Evidence Quality Vector
+## 182. Evidence Quality Vector
 
 Optional architecture:
 
@@ -4328,9 +4331,9 @@ quality:
 
 Do not collapse this into one universal number unless the domain defines the operation.
 
----
+______________________________________________________________________
 
-# 183. Evidence Failure Modes
+## 183. Evidence Failure Modes
 
 ## F01 — Fabricated Evidence
 
@@ -4340,13 +4343,13 @@ A source, observation, measurement, or citation is invented.
 CRITICAL
 ```
 
----
+______________________________________________________________________
 
 ## F02 — Provenance Loss
 
 Evidence exists but ancestry is missing.
 
----
+______________________________________________________________________
 
 ## F03 — Evidence-Type Collapse
 
@@ -4357,7 +4360,7 @@ SOURCE_CLAIM
 
 without justification.
 
----
+______________________________________________________________________
 
 ## F04 — Simulation Collapse
 
@@ -4366,105 +4369,105 @@ MODEL_OUTPUT
 → EMPIRICAL_OBSERVATION
 ```
 
----
+______________________________________________________________________
 
 ## F05 — Scope Leakage
 
 Evidence applied outside validated scope.
 
----
+______________________________________________________________________
 
 ## F06 — Regime Leakage
 
 Evidence transferred across regimes without validation.
 
----
+______________________________________________________________________
 
 ## F07 — Stale Evidence
 
 Expired evidence reused as current.
 
----
+______________________________________________________________________
 
 ## F08 — Correlated Evidence Inflation
 
 Shared ancestry counted as independent confirmation.
 
----
+______________________________________________________________________
 
 ## F09 — Source Sybil Inflation
 
 Repeated copies of one source counted as multiple sources.
 
----
+______________________________________________________________________
 
 ## F10 — Contradiction Suppression
 
 Conflicting evidence removed or ignored without justification.
 
----
+______________________________________________________________________
 
 ## F11 — Negative-Evidence Loss
 
 Unfavorable evidence disappears from synthesis.
 
----
+______________________________________________________________________
 
 ## F12 — Causal Overreach
 
 Correlation interpreted as causation.
 
----
+______________________________________________________________________
 
 ## F13 — Hidden Transformation
 
 Derived evidence represented as raw.
 
----
+______________________________________________________________________
 
 ## F14 — Confidence Inflation
 
 Evidence confidence exceeds its weakest load-bearing support.
 
----
+______________________________________________________________________
 
 ## F15 — False Precision
 
 Evidence uncertainty is hidden behind precise numbers.
 
----
+______________________________________________________________________
 
 ## F16 — Version Mismatch
 
 Evidence version differs from validation record.
 
----
+______________________________________________________________________
 
 ## F17 — Validator Correlation
 
 Multiple validator results assumed independent when they share a failure path.
 
----
+______________________________________________________________________
 
 ## F18 — Benchmark Overreach
 
 Benchmark evidence generalized beyond benchmark regime.
 
----
+______________________________________________________________________
 
 ## F19 — Documentation Overreach
 
 Documentation claims treated as implementation proof.
 
----
+______________________________________________________________________
 
 ## F20 — Authority Contamination
 
 An authority claim is treated as factual evidence merely because the source is authoritative.
 
----
+______________________________________________________________________
 
-# 184. Critical Evidence Failures
+## 184. Critical Evidence Failures
 
 Automatically block dependent validation when:
 
@@ -4486,9 +4489,9 @@ UNKNOWN converted into supporting evidence
 evidence ancestry intentionally obscured
 ```
 
----
+______________________________________________________________________
 
-# 185. Evidence Repair
+## 185. Evidence Repair
 
 Repair procedure:
 
@@ -4512,9 +4515,9 @@ revalidate dependencies
 persist repair lineage
 ```
 
----
+______________________________________________________________________
 
-# 186. Reclassification
+## 186. Reclassification
 
 Evidence may be reclassified.
 
@@ -4529,9 +4532,9 @@ only when independent observation actually exists.
 
 Do not merely change the label.
 
----
+______________________________________________________________________
 
-# 187. Downgrade
+## 187. Downgrade
 
 Evidence may be downgraded from:
 
@@ -4559,9 +4562,9 @@ ADMITTED_WITH_CONDITIONS
 
 without deleting it.
 
----
+______________________________________________________________________
 
-# 188. Quarantine
+## 188. Quarantine
 
 Evidence with unresolved integrity concerns may be:
 
@@ -4573,9 +4576,9 @@ until provenance or validity is resolved.
 
 Quarantine is not the same as false.
 
----
+______________________________________________________________________
 
-# 189. Reproducibility
+## 189. Reproducibility
 
 Evidence transformations should be reproducible where practical.
 
@@ -4597,9 +4600,9 @@ seed
 output
 ```
 
----
+______________________________________________________________________
 
-# 190. Reproducibility vs Replication
+## 190. Reproducibility vs Replication
 
 ```text
 REPRODUCIBILITY
@@ -4614,11 +4617,12 @@ REPLICATION
 independent evidence/process
 tests the same claim
 ```
+
 They are distinct.
 
----
+______________________________________________________________________
 
-# 191. Validation-Evidence Workflow
+## 191. Validation-Evidence Workflow
 
 Full workflow:
 
@@ -4664,9 +4668,9 @@ PERSIST EVIDENCE GRAPH
 MONITOR FOR INVALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 192. Evidence Escalation
+## 192. Evidence Escalation
 
 Escalate evidence requirements when:
 
@@ -4690,9 +4694,9 @@ provenance independence decreases
 governance impact increases
 ```
 
----
+______________________________________________________________________
 
-# 193. Least-Regret Evidence Acquisition
+## 193. Least-Regret Evidence Acquisition
 
 When evidence is expensive:
 
@@ -4704,9 +4708,9 @@ per unit cost/risk
 
 especially when it preserves future options.
 
----
+______________________________________________________________________
 
-# 194. Evidence and Adaptive Complexity
+## 194. Evidence and Adaptive Complexity
 
 Evidence depth may scale:
 
@@ -4734,9 +4738,9 @@ high-stakes irreversible cross-domain decision
 → deep evidence topology
 ```
 
----
+______________________________________________________________________
 
-# 195. Evidence Tests
+## 195. Evidence Tests
 
 Minimum test classes:
 
@@ -4766,9 +4770,9 @@ claim-relation test
 falsifier test
 ```
 
----
+______________________________________________________________________
 
-# 196. Evidence Validator Contract
+## 196. Evidence Validator Contract
 
 A validator should answer:
 
@@ -4796,9 +4800,9 @@ Does it conflict with other evidence?
 What could invalidate it?
 ```
 
----
+______________________________________________________________________
 
-# 197. Evidence Agents vs Validators
+## 197. Evidence Agents vs Validators
 
 An evidence agent may retrieve and organize.
 
@@ -4808,9 +4812,9 @@ One system may implement both roles.
 
 The roles remain semantically distinct.
 
----
+______________________________________________________________________
 
-# 198. Falsifiers for This Architecture
+## 198. Falsifiers for This Architecture
 
 This evidence architecture should be revised if:
 
@@ -4836,9 +4840,9 @@ local evidence invalidation cannot propagate correctly
 the architecture adds no decision value over untyped citations
 ```
 
----
+______________________________________________________________________
 
-# 199. Known Gaps
+## 199. Known Gaps
 
 The following remain `UNKNOWN/GAP` unless explicit AMOS source artifacts define them:
 
@@ -4878,9 +4882,9 @@ exact v4.4 evidence persistence implementation
 
 Do not invent these merely to make the architecture appear complete.
 
----
+______________________________________________________________________
 
-# 200. RSCF Completion State
+## 200. RSCF Completion State
 
 The original placeholder state:
 
@@ -4982,9 +4986,9 @@ confidence_ceiling:
   implementation: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 201. Completion Status
+## 201. Completion Status
 
 At the architecture level this file should no longer remain:
 
@@ -5016,9 +5020,9 @@ aggregation_engine_status: UNKNOWN/GAP
 provenance_backend_status: UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 202. Core Evidence Laws
+## 202. Core Evidence Laws
 
 ```text
 EVIDENCE
@@ -5031,99 +5035,118 @@ SOURCE_CLAIM
 !=
 OBSERVATION
 ```
+
 ```text
 OBSERVATION
 !=
 INTERPRETATION
 ```
+
 ```text
 DERIVATION
 !=
 EMPIRICAL_CONFIRMATION
 ```
+
 ```text
 SIMULATION
 !=
 OBSERVATION
 ```
+
 ```text
 BENCHMARK
 !=
 UNIVERSAL_VALIDATION
 ```
+
 ```text
 MODEL_FIT
 !=
 CAUSATION
 ```
+
 ```text
 CORRELATION
 !=
 CAUSATION
 ```
+
 ```text
 REPETITION
 !=
 INDEPENDENCE
 ```
+
 ```text
 MULTIPLE_DESCENDANTS
 !=
 MULTIPLE_ORIGINS
 ```
+
 ```text
 SOURCE_AUTHORITY
 !=
 EVIDENCE_INDEPENDENCE
 ```
+
 ```text
 DOCUMENTATION
 !=
 IMPLEMENTATION_PROOF
 ```
+
 ```text
 TEST_PASS
 !=
 REAL_WORLD_TRUTH
 ```
+
 ```text
 OLD
 !=
 FALSE
 ```
+
 ```text
 MISSING_EVIDENCE
 !=
 NEGATIVE_EVIDENCE
 ```
+
 ```text
 NO_FAILURE_OBSERVED
 !=
 PROOF_OF_SAFETY
 ```
+
 ```text
 CAPABILITY
 !=
 AUTHORITY
 ```
+
 ```text
 VALIDATION
 !=
 AUTHORIZATION
 ```
+
 ```text
 PROPOSAL
 !=
 COMMIT
 ```
+
 ```text
 UNKNOWN/GAP
 !=
 PASS
 ```
----
 
-# 203. Evidence Decision Table
+______________________________________________________________________
+
+## 203. Evidence Decision Table
 
 ```text
 Source says something?
@@ -5168,9 +5191,9 @@ None of the above resolved?
 
 Always select the weakest accurate class.
 
----
+______________________________________________________________________
 
-# 204. Evidence Admission Decision
+## 204. Evidence Admission Decision
 
 ```text
 Identity known?
@@ -5204,9 +5227,9 @@ Otherwise:
 → ADMIT
 ```
 
----
+______________________________________________________________________
 
-# 205. Final Validation-Evidence Contract
+## 205. Final Validation-Evidence Contract
 
 Before evidence materially changes a validation state, AMOS should be able to answer:
 
@@ -5296,9 +5319,9 @@ not:
 VALIDATED
 ```
 
----
+______________________________________________________________________
 
-# 206. Final State
+## 206. Final State
 
 `VALIDATION_EVIDENCE.md` is the evidentiary substrate of `11_VALIDATION`.
 
@@ -5379,22 +5402,27 @@ DESCENDANTS OF ONE CLAIM.
 
 **Conclusion class:** `DERIVED / CONDITIONAL`. The evidence/provenance principles are aligned with the supplied Full Brain OS operating rules; the exact registry names, evidence taxonomy, scoring/aggregation algorithms, independence engine, storage backend, and thresholds remain intentionally `UNKNOWN/GAP` until explicit canon or implementation evidence defines them.
 ```
----
+
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: validation_evidence
 node_type: note
 path: 25_COGNITIVE_MATRIX/11_VALIDATION/VALIDATION_EVIDENCE.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/11_VALIDATION/11_VALIDATION_MOC|11_VALIDATION_MOC]]

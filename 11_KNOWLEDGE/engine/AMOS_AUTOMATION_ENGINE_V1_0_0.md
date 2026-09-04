@@ -1,4 +1,7 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: AMOS AUTOMATION ENGINE V1 0 0
 type: engine
 source: 11_KNOWLEDGE/engine
@@ -7,16 +10,16 @@ canon-type: framework
 rscf-state: source-claim
 topic: amos-automation-engine-v1-0-0
 tags:
-- canon-group/tech-ai
-- canon/framework
-- rscf/claim
-- rscf/provenance
-- rscf/state/observation
-- topic/amos-automation-engine-v1-0-0
-- engine
-- system-scan-agent
-- automation-profiles
-- amos-simulation-kernel-v0-math-foundations
+  - canon-group/tech-ai
+  - canon/framework
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/observation
+  - topic/amos-automation-engine-v1-0-0
+  - engine
+  - system-scan-agent
+  - automation-profiles
+  - amos-simulation-kernel-v0-math-foundations
 created: 2026-08-22
 rscf:
   state: AMOS_MODEL
@@ -27,7 +30,7 @@ rscf:
 
 # AMOS AUTOMATION ENGINE V1 0 0
 
-```json
+````json
 {
   "meta": {
     "name": "AMOS_AUTOMATION_ENGINE_v1.0.0",
@@ -7534,4 +7537,4 @@ and routine tasks.\",\n            \"inputs_required\": [\n              \"syste
 
 ---
 **MOC:** [[11_KNOWLEDGE/engine/ENGINE_MOC|ENGINE_MOC]]
-```
+````

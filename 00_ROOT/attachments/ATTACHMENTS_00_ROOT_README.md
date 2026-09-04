@@ -1,4 +1,7 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: ATTACHMENTS 00 ROOT README
 type: note
 source: 00_ROOT/attachments
@@ -6,29 +9,25 @@ rscf:
   state: SOURCE_CLAIM
   class: STRUCTURAL
   provenance:
-  - internal
+    - internal
   freshness: EVERGREEN
   falsifiers: []
 tags:
-- note
-- attachments
-- readme
-- law-hierarchy
-- canon
-- routing-policy
-- binding-rules
-- routing-audit
-- promotion-gates
-- routing-policy-validation-receipt
-- authz-engine-validation-receipt
+  - note
+  - attachments
+  - readme
+  - law-hierarchy
+  - canon
+  - routing-policy
+  - binding-rules
+  - routing-audit
+  - promotion-gates
+  - routing-policy-validation-receipt
+  - authz-engine-validation-receipt
 canon-group: canon/root
 ---
 
----title: "CANON README"
-type: document
-tags: [note]
----
-
+## ---title: "CANON README" type: document tags: [note]
 
 # CANON README
 
@@ -42,7 +41,7 @@ tags: [note]
 **Normative authority:** `FALSE`
 **Executable binding:** `PARTIAL unless demonstrated by executed validation receipts`
 
----
+______________________________________________________________________
 
 ## 1. Purpose
 
@@ -83,9 +82,9 @@ This README does **not** make every file inside `01_CANON` authoritative.
 
 It defines the navigation and governance model by which authoritative status must be resolved.
 
----
+______________________________________________________________________
 
-# 2. Canon is not memory
+## 2. Canon is not memory
 
 AMOS must preserve the distinction:
 
@@ -120,9 +119,9 @@ without being canonical.
 
 Canon is an **admitted governance state**, not merely stored information.
 
----
+______________________________________________________________________
 
-# 3. Canon plane responsibility
+## 3. Canon plane responsibility
 
 The Canon plane answers questions such as:
 
@@ -145,9 +144,9 @@ Can it authorize anything?
 
 If these questions cannot be resolved for a consequential claim, the system must preserve the uncertainty rather than manufacture canonical certainty.
 
----
+______________________________________________________________________
 
-# 4. Canon plane is governance, not an intelligence engine
+## 4. Canon plane is governance, not an intelligence engine
 
 The Canon plane must not silently become:
 
@@ -174,9 +173,9 @@ AGENT_CONFIDENCE != CANONICAL_CONFIDENCE
 GENERATION != ADMISSION
 ```
 
----
+______________________________________________________________________
 
-# 5. Infrastructure position
+## 5. Infrastructure position
 
 Within the AMOS infrastructure model, Canon belongs to the governed control substrate.
 
@@ -209,9 +208,9 @@ The diagram is an **AMOS architectural model**, not a claim that every depicted 
 
 Implementation status must be established independently.
 
----
+______________________________________________________________________
 
-# 6. Load-bearing separation of authority
+## 6. Load-bearing separation of authority
 
 AMOS must preserve:
 
@@ -244,9 +243,9 @@ VALIDATION != CANON_ADMISSION
 CANON_ADMISSION != UNIVERSAL_TRUTH
 ```
 
----
+______________________________________________________________________
 
-# 7. Core Canon law
+## 7. Core Canon law
 
 The foundational Canon admission principle is:
 
@@ -286,9 +285,9 @@ CANON_ADMITTED@EPOCH
 
 Any failed load-bearing gate prevents promotion.
 
----
+______________________________________________________________________
 
-# 8. Canon admission state machine
+## 8. Canon admission state machine
 
 Canonical lifecycle SHOULD be represented explicitly.
 
@@ -328,9 +327,9 @@ CANON_ADMITTED@EPOCH
 
 Exact executable states are implementation-dependent until bound to validated schemas and code.
 
----
+______________________________________________________________________
 
-# 9. Canon admission invariant
+## 9. Canon admission invariant
 
 A conceptual admission predicate is:
 
@@ -359,9 +358,9 @@ UNKNOWN(load_bearing_gate) => DO_NOT_ADMIT
 
 AMOS must not transform missing evidence into a successful Boolean result.
 
----
+______________________________________________________________________
 
-# 10. Canon object model
+## 10. Canon object model
 
 A canonical object SHOULD carry sufficient metadata to reconstruct why it was admitted.
 
@@ -430,9 +429,9 @@ canon_object:
 
 Absence of these fields in an existing artifact does not itself prove invalidity, but missing load-bearing information must remain visible.
 
----
+______________________________________________________________________
 
-# 11. Epistemic classes
+## 11. Epistemic classes
 
 Canonical infrastructure must preserve epistemic type.
 
@@ -471,9 +470,9 @@ authorized operational choice → DECISION
 unsupported missing fact → UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 12. Confidence ceiling
+## 12. Confidence ceiling
 
 Derived confidence must not exceed its weakest load-bearing premise unless the weak premise has been independently revalidated.
 
@@ -500,9 +499,9 @@ does not constitute three independent confirmations.
 
 It is potentially one provenance family.
 
----
+______________________________________________________________________
 
-# 13. Provenance topology
+## 13. Provenance topology
 
 Canon requires provenance as a graph, not merely a citation list.
 
@@ -539,9 +538,9 @@ SOURCE S1
 
 `D1` and `D2` must not automatically count as independent if they share `S1`.
 
----
+______________________________________________________________________
 
-# 14. Sybil-resistant evidence counting
+## 14. Sybil-resistant evidence counting
 
 AMOS must resist evidence inflation through duplication.
 
@@ -570,9 +569,9 @@ POPULARITY != PROOF
 MULTIPLE_DESCENDANTS != MULTIPLE_ROOTS
 ```
 
----
+______________________________________________________________________
 
-# 15. Persistent provenance
+## 15. Persistent provenance
 
 Where technically available, provenance SHOULD survive:
 
@@ -589,9 +588,9 @@ Where technically available, provenance SHOULD survive:
 
 A derived artifact without recoverable ancestry should be downgraded when ancestry is load-bearing.
 
----
+______________________________________________________________________
 
-# 16. Scope firewall
+## 16. Scope firewall
 
 Canonical validity is scoped.
 
@@ -615,9 +614,9 @@ A claim validated in scope `S1` does not automatically become valid in `S2`.
 VALID(C, S1) != VALID(C, ALL_SCOPES)
 ```
 
----
+______________________________________________________________________
 
-# 17. Regime firewall
+## 17. Regime firewall
 
 AMOS must detect when operating conditions change enough that previously valid knowledge may no longer apply.
 
@@ -643,9 +642,9 @@ VALID
 
 without implying that the original conclusion was erroneous in its original regime.
 
----
+______________________________________________________________________
 
-# 18. Causal firewall
+## 18. Causal firewall
 
 Canon must not promote causal language beyond the evidence type.
 
@@ -676,9 +675,9 @@ CO-OCCURRENCE != CAUSATION
 
 Cross-domain mappings remain `MODEL` unless independently validated.
 
----
+______________________________________________________________________
 
-# 19. Competing hypotheses
+## 19. Competing hypotheses
 
 AMOS must not force premature convergence.
 
@@ -713,9 +712,9 @@ competing:
 discriminating_tests: []
 ```
 
----
+______________________________________________________________________
 
-# 20. Canon and RSCF
+## 20. Canon and RSCF
 
 RSCF is a first-class AMOS reasoning structure.
 
@@ -747,9 +746,9 @@ rscf:
 
 The precise executable schema remains dependent on the corresponding validated AMOS RSCF implementation.
 
----
+______________________________________________________________________
 
-# 21. RSCF invalidation
+## 21. RSCF invalidation
 
 If a premise fails:
 
@@ -766,9 +765,9 @@ AMOS must avoid global epistemic destruction when local invalidation is sufficie
 LOCAL_FAILURE != GLOBAL_INVALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 22. GMEF relationship
+## 22. GMEF relationship
 
 GMEF and RSCF may participate in Canon reasoning where corresponding AMOS definitions and dependencies are available.
 
@@ -782,9 +781,9 @@ GMEF_BINDING = UNKNOWN/GAP
 
 The gap should be linked to the corresponding canonical source or unresolved-gap registry.
 
----
+______________________________________________________________________
 
-# 23. H/M/L applicability
+## 23. H/M/L applicability
 
 AMOS uses fractal knowledge traversal:
 
@@ -818,9 +817,9 @@ DO_NOT_LOAD_UNLESS_REQUIRED
 
 This is an efficiency rule subordinate to integrity.
 
----
+______________________________________________________________________
 
-# 24. Smallest sufficient proof scope
+## 24. Smallest sufficient proof scope
 
 AMOS Core v4.4 reasoning favors the smallest proof scope sufficient to establish the requested conclusion.
 
@@ -836,9 +835,9 @@ Local reasoning is permissible only when relevant conditions are established, in
 
 Escalation is required where material uncertainty remains.
 
----
+______________________________________________________________________
 
-# 25. Canon fast-path prohibition
+## 25. Canon fast-path prohibition
 
 A fast path must never bypass Canon integrity.
 
@@ -866,9 +865,9 @@ FAST_PATH
 
 Optimization is allowed only if integrity is preserved.
 
----
+______________________________________________________________________
 
-# 26. Canon and agents
+## 26. Canon and agents
 
 Agents are reasoning participants, not canonical authorities by default.
 
@@ -917,9 +916,9 @@ AUTHORIZED PROMOTION
 CANON_ADMITTED
 ```
 
----
+______________________________________________________________________
 
-# 27. Canon and skills
+## 27. Canon and skills
 
 Skills provide bounded capabilities.
 
@@ -946,9 +945,9 @@ SKILL_OUTPUT != VERIFIED_FACT
 
 Skills must inherit applicable authority, scope, policy, and provenance constraints from the infrastructure layer.
 
----
+______________________________________________________________________
 
-# 28. Canon and engines
+## 28. Canon and engines
 
 Engines may compute or evaluate canonical structures.
 
@@ -970,9 +969,9 @@ An engine result remains typed according to evidence and implementation status.
 
 An engine does not become a source of empirical truth merely because its output is deterministic.
 
----
+______________________________________________________________________
 
-# 29. Canon and kernel
+## 29. Canon and kernel
 
 Kernel interaction SHOULD remain narrow and deterministic.
 
@@ -1000,9 +999,9 @@ interpret_everything(...)
 
 Those belong above the deterministic control substrate.
 
----
+______________________________________________________________________
 
-# 30. Canon and workers
+## 30. Canon and workers
 
 Workers execute authorized deterministic operations.
 
@@ -1023,9 +1022,9 @@ Workers must not independently decide whether a candidate deserves admission.
 WORKER_EXECUTES != WORKER_GOVERNS
 ```
 
----
+______________________________________________________________________
 
-# 31. Canon and event bus
+## 31. Canon and event bus
 
 The event bus transports typed state-transition information.
 
@@ -1051,9 +1050,9 @@ CANON_ROLLED_BACK
 
 Events SHOULD carry proof metadata proportional to consequence.
 
----
+______________________________________________________________________
 
-# 32. Tiered event burden
+## 32. Tiered event burden
 
 Not every event needs an equally heavy envelope.
 
@@ -1118,9 +1117,9 @@ event:
 
 Exact fields require executable schema validation before being considered implemented.
 
----
+______________________________________________________________________
 
-# 33. Canon and workflows
+## 33. Canon and workflows
 
 AMOS SHOULD distinguish:
 
@@ -1151,9 +1150,9 @@ AD_HOC_PLAN != CANONICAL_WORKFLOW
 
 The system does not need to predefine every possible agent reasoning path as a canonical transition graph.
 
----
+______________________________________________________________________
 
-# 34. Canon and control plane
+## 34. Canon and control plane
 
 The control plane is responsible for enforcing the boundaries surrounding canonical mutation.
 
@@ -1185,9 +1184,9 @@ commit authorization
 
 No single gate substitutes for all others.
 
----
+______________________________________________________________________
 
-# 35. Explicit invariant binding
+## 35. Explicit invariant binding
 
 Transitions must identify their required invariants.
 
@@ -1218,9 +1217,9 @@ COMMIT_ALLOWED(T) =
 
 An unresolved required invariant is not equivalent to `PASS`.
 
----
+______________________________________________________________________
 
-# 36. Core Canon invariants
+## 36. Core Canon invariants
 
 Canonical identifiers should ultimately resolve to explicit registry definitions. Until such registry bindings are confirmed, the following names are conceptual.
 
@@ -1284,9 +1283,9 @@ Proposal is never equivalent to commit.
 UNKNOWN/GAP on a load-bearing gate cannot be interpreted as PASS.
 ```
 
----
+______________________________________________________________________
 
-# 37. MVCC / CAS relationship
+## 37. MVCC / CAS relationship
 
 AMOS Core lineage includes MVCC/CAS concepts for safe concurrent state evolution.
 
@@ -1315,9 +1314,9 @@ only after all other required gates pass.
 
 This README does not assert that a specific underlying repository currently implements full MVCC or CAS semantics.
 
----
+______________________________________________________________________
 
-# 38. Canon epochs
+## 38. Canon epochs
 
 Canonical state SHOULD be addressable by epoch where epoch semantics are defined.
 
@@ -1343,9 +1342,9 @@ An epoch may bind:
 
 Exact epoch semantics must be defined by the corresponding authoritative contract.
 
----
+______________________________________________________________________
 
-# 39. Causal epoch finality
+## 39. Causal epoch finality
 
 AMOS v4.x lineage includes causal epoch finality concepts.
 
@@ -1365,9 +1364,9 @@ A causally precedes B
 
 Canonical finality should preserve causal ancestry where material.
 
----
+______________________________________________________________________
 
-# 40. Atomic multi-RSCF reasoning
+## 40. Atomic multi-RSCF reasoning
 
 A canonical decision may depend on multiple RSCF structures.
 
@@ -1389,9 +1388,9 @@ if `R3` is load-bearing.
 
 The atomicity boundary is defined by dependency necessity, not by convenience.
 
----
+______________________________________________________________________
 
-# 41. Coordination avoidance
+## 41. Coordination avoidance
 
 AMOS v4.4 favors proof-based coordination avoidance where local proof is sufficient.
 
@@ -1410,9 +1409,9 @@ But:
 COORDINATION_AVOIDANCE != VALIDATION_AVOIDANCE
 ```
 
----
+______________________________________________________________________
 
-# 42. Supersession
+## 42. Supersession
 
 A newer artifact does not automatically supersede an older artifact.
 
@@ -1443,9 +1442,9 @@ COMPETES_WITH
 
 They must not be treated as equivalent.
 
----
+______________________________________________________________________
 
-# 43. Canon rollback
+## 43. Canon rollback
 
 Consequential canonical mutations SHOULD have a defined rollback basin before commit.
 
@@ -1463,9 +1462,9 @@ rollback:
 
 Rollback must restore a valid state, not merely restore old bytes.
 
----
+______________________________________________________________________
 
-# 44. Failure recovery
+## 44. Failure recovery
 
 AMOS failure recovery is dependency-local by default.
 
@@ -1487,9 +1486,9 @@ Do not repeat a failed path without changed evidence.
 
 Global recomputation is a last resort.
 
----
+______________________________________________________________________
 
-# 45. Gap taxonomy
+## 45. Gap taxonomy
 
 Canonical gaps SHOULD be classified:
 
@@ -1514,9 +1513,9 @@ COSMETIC
 
 A critical unresolved gap prevents any conclusion that depends upon it from being represented as fully validated.
 
----
+______________________________________________________________________
 
-# 46. Sensitivity discipline
+## 46. Sensitivity discipline
 
 For consequential canonical conclusions, AMOS SHOULD identify the smallest premise, threshold, assumption, or observation capable of changing the conclusion.
 
@@ -1540,9 +1539,9 @@ CONDITIONAL
 
 when appropriate.
 
----
+______________________________________________________________________
 
-# 47. Adversarial validation
+## 47. Adversarial validation
 
 Consequential Canon promotion should not rely solely on a supporting reasoning path.
 
@@ -1575,9 +1574,9 @@ REJECT
 
 depending on the failure.
 
----
+______________________________________________________________________
 
-# 48. Canon promotion gates
+## 48. Canon promotion gates
 
 A candidate SHOULD NOT become authoritative until required promotion gates pass.
 
@@ -1612,9 +1611,9 @@ Minimum conceptual checklist:
 
 A missing required item remains a gap.
 
----
+______________________________________________________________________
 
-# 49. Negative validation
+## 49. Negative validation
 
 Validation must test failure behavior, not only happy paths.
 
@@ -1643,9 +1642,9 @@ failed rollback
 missing receipt
 ```
 
----
+______________________________________________________________________
 
-# 50. Validation receipts
+## 50. Validation receipts
 
 A claim that Canon infrastructure is executable requires executed evidence.
 
@@ -1680,9 +1679,9 @@ validation_receipt:
 
 Documentation is not a substitute for execution evidence.
 
----
+______________________________________________________________________
 
-# 51. Observability
+## 51. Observability
 
 Observability may record:
 
@@ -1711,9 +1710,9 @@ Observability describes what occurred.
 
 It does not independently authorize what should occur.
 
----
+______________________________________________________________________
 
-# 52. Canon audit
+## 52. Canon audit
 
 A Canon audit SHOULD be able to reconstruct:
 
@@ -1738,9 +1737,9 @@ CAN it be rolled back?
 
 If a consequential mutation cannot be reconstructed sufficiently, auditability is incomplete.
 
----
+______________________________________________________________________
 
-# 53. Canon security boundary
+## 53. Canon security boundary
 
 Canonical mutation is a privileged operation.
 
@@ -1760,9 +1759,9 @@ Security controls SHOULD prevent:
 
 Security implementation claims require independent validation.
 
----
+______________________________________________________________________
 
-# 54. Anti-overclaim law
+## 54. Anti-overclaim law
 
 AMOS Canon must distinguish architecture from implementation.
 
@@ -1782,9 +1781,9 @@ This distinction is mandatory for AMOS itself.
 
 AMOS documentation must not grant AMOS capabilities merely by describing them.
 
----
+______________________________________________________________________
 
-# 55. Canon package contract
+## 55. Canon package contract
 
 The normative package-level contract SHOULD reside in:
 
@@ -1802,9 +1801,9 @@ README yields to higher-authority admitted contract
 
 subject to explicit version, scope, epoch, and supersession resolution.
 
----
+______________________________________________________________________
 
-# 56. Canon hierarchy
+## 56. Canon hierarchy
 
 Where corresponding artifacts exist, Canon resolution SHOULD follow an explicit authority hierarchy rather than filename preference.
 
@@ -1835,9 +1834,9 @@ See:
 AMOS Core Laws
 [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
 
----
+______________________________________________________________________
 
-# 57. Canon authoritative state
+## 57. Canon authoritative state
 
 A single root authoritative-state record SHOULD resolve the currently accepted AMOS OS state.
 
@@ -1862,9 +1861,9 @@ authoritative_state:
 
 The authoritative-state record itself must also be governed.
 
----
+______________________________________________________________________
 
-# 58. Canon versus repository state
+## 58. Canon versus repository state
 
 Repository state and canonical state are related but distinct.
 
@@ -1892,9 +1891,9 @@ X supersedes admitted Canon
 
 unless the governance model explicitly defines repository state as an authoritative source for that class of artifact.
 
----
+______________________________________________________________________
 
-# 59. Canon versus GitHub
+## 59. Canon versus GitHub
 
 GitHub may provide:
 
@@ -1916,9 +1915,9 @@ SOURCE_CLAIM
 
 until validated appropriately.
 
----
+______________________________________________________________________
 
-# 60. Canon versus Drive
+## 60. Canon versus Drive
 
 Google Drive may contain:
 
@@ -1936,9 +1935,9 @@ Drive location alone does not establish authority.
 IN_CANON_FOLDER != CANON_ADMITTED
 ```
 
----
+______________________________________________________________________
 
-# 61. Canon versus open-source material
+## 61. Canon versus open-source material
 
 External open-source tools and documents may contribute:
 
@@ -1961,9 +1960,9 @@ Their integration must preserve:
 
 External architecture resemblance is not evidence that AMOS already implements the same capability.
 
----
+______________________________________________________________________
 
-# 62. Knowledge harvest
+## 62. Knowledge harvest
 
 AMOS knowledge promotion follows the conceptual progression:
 
@@ -1994,9 +1993,9 @@ revalidation timing
 lineage
 ```
 
----
+______________________________________________________________________
 
-# 63. Mutation risk
+## 63. Mutation risk
 
 Validation burden SHOULD scale with consequence.
 
@@ -2015,9 +2014,9 @@ Higher risk requires stronger:
 
 Exact mutation classes must come from the authoritative risk-policy artifact rather than being invented here.
 
----
+______________________________________________________________________
 
-# 64. Reversibility principle
+## 64. Reversibility principle
 
 Under uncertainty, Canon SHOULD favor reversible and repairable transitions.
 
@@ -2039,9 +2038,9 @@ mutate globally
 
 where operationally possible.
 
----
+______________________________________________________________________
 
-# 65. Canon conflict resolution
+## 65. Canon conflict resolution
 
 When two candidate artifacts conflict, AMOS must not resolve the conflict using filename age alone.
 
@@ -2073,9 +2072,9 @@ UNKNOWN/GAP
 
 Forced convergence is prohibited where evidence does not justify it.
 
----
+______________________________________________________________________
 
-# 66. Duplicate artifacts
+## 66. Duplicate artifacts
 
 Duplicates must be analyzed for lineage.
 
@@ -2092,9 +2091,9 @@ UNRESOLVED_DUPLICATE
 
 Duplicate presence is not independent corroboration.
 
----
+______________________________________________________________________
 
-# 67. Freshness
+## 67. Freshness
 
 Canonical claims may carry freshness bounds.
 
@@ -2110,9 +2109,9 @@ freshness:
 
 A stale artifact may remain historically valid while being unusable for a current decision.
 
----
+______________________________________________________________________
 
-# 68. Canon invalidation
+## 68. Canon invalidation
 
 Invalidation must be explicit and scoped.
 
@@ -2130,9 +2129,9 @@ Possible causes include:
 
 Invalidation SHOULD propagate only through dependency edges that require the failed premise.
 
----
+______________________________________________________________________
 
-# 69. Canon deletion
+## 69. Canon deletion
 
 Physical deletion and epistemic invalidation are different.
 
@@ -2143,9 +2142,9 @@ INVALIDATE_CANON != ERASE_HISTORY
 
 Where governance requires historical auditability, superseded or invalidated records should remain recoverable.
 
----
+______________________________________________________________________
 
-# 70. Canon history
+## 70. Canon history
 
 Canonical history SHOULD preserve transitions such as:
 
@@ -2164,9 +2163,9 @@ rolled back
 
 History itself must be tamper-evident to the degree required by the implementation's threat model.
 
----
+______________________________________________________________________
 
-# 71. Canon dependency graph
+## 71. Canon dependency graph
 
 Canonical knowledge is not flat.
 
@@ -2187,9 +2186,9 @@ If `L1` changes, descendants requiring `L1` may require revalidation.
 
 Unrelated branches should remain intact.
 
----
+______________________________________________________________________
 
-# 72. Anti-regression
+## 72. Anti-regression
 
 A Canon optimization or architectural change may be accepted only if it preserves or improves:
 
@@ -2210,9 +2209,9 @@ If an optimization weakens integrity:
 ROLL BACK OPTIMIZATION
 ```
 
----
+______________________________________________________________________
 
-# 73. Canon stopping rule
+## 73. Canon stopping rule
 
 Canonical analysis does not require infinite evidence accumulation.
 
@@ -2228,9 +2227,9 @@ Action Sufficiency
 
 provided no unresolved load-bearing gap remains hidden.
 
----
+______________________________________________________________________
 
-# 74. Cross-plane bindings
+## 74. Cross-plane bindings
 
 ## Root
 
@@ -2302,9 +2301,9 @@ Cognitive structures may consume and propose Canon knowledge but remain subject 
 
 RSCF nodes expose dependency and proof relationships where implemented.
 
----
+______________________________________________________________________
 
-# 75. Validation receipt bindings
+## 75. Validation receipt bindings
 
 Current architecture references may include:
 
@@ -2323,9 +2322,9 @@ A receipt must itself be:
 - current enough;
 - tied to actual execution evidence.
 
----
+______________________________________________________________________
 
-# 76. Worked semantics
+## 76. Worked semantics
 
 Given an operation touching `CANON · README` or another artifact in the Canon plane:
 
@@ -2453,9 +2452,9 @@ Persist sufficient evidence to reconstruct the transition.
 
 Update only dependencies and indexes affected by the successful transition.
 
----
+______________________________________________________________________
 
-# 77. Example Canon candidate
+## 77. Example Canon candidate
 
 ```yaml
 canon_candidate:
@@ -2495,9 +2494,9 @@ This example illustrates structure only.
 
 It does not establish that the named artifact or exact values exist in the current executable repository.
 
----
+______________________________________________________________________
 
-# 78. Example stale-write rejection
+## 78. Example stale-write rejection
 
 ```text
 Agent proposes Canon update
@@ -2530,9 +2529,9 @@ The stochastic component proposes.
 
 Infrastructure controls authority.
 
----
+______________________________________________________________________
 
-# 79. Example provenance conflict
+## 79. Example provenance conflict
 
 ```text
 Claim A supported by Source X
@@ -2556,9 +2555,9 @@ correlation risk = HIGH
 
 Canon admission must use the latter topology.
 
----
+______________________________________________________________________
 
-# 80. Example regime split
+## 80. Example regime split
 
 Suppose:
 
@@ -2583,9 +2582,9 @@ C@v4.4 = REVALIDATION_REQUIRED
 
 until compatibility is demonstrated.
 
----
+______________________________________________________________________
 
-# 81. Example competing Canon
+## 81. Example competing Canon
 
 ```text
 H1:
@@ -2608,9 +2607,9 @@ may be the correct state.
 
 Do not resolve by rhetorical preference.
 
----
+______________________________________________________________________
 
-# 82. Implementation maturity model
+## 82. Implementation maturity model
 
 Canonical infrastructure may be tracked through maturity stages:
 
@@ -2636,9 +2635,9 @@ M5 ⇒ M6
 
 Each transition requires its own evidence.
 
----
+______________________________________________________________________
 
-# 83. Current epistemic status of this README
+## 83. Current epistemic status of this README
 
 This document should be interpreted as:
 
@@ -2663,9 +2662,9 @@ It describes the intended AMOS Canon-plane contract and boundaries.
 
 It does not prove that all referenced infrastructure is implemented.
 
----
+______________________________________________________________________
 
-# 84. Critical implementation questions
+## 84. Critical implementation questions
 
 Before claiming the Canon plane is fully operational, verify:
 
@@ -2697,9 +2696,9 @@ Before claiming the Canon plane is fully operational, verify:
 
 Until verified, these remain implementation questions rather than established capabilities.
 
----
+______________________________________________________________________
 
-# 85. Promotion-gate checklist for this artifact
+## 85. Promotion-gate checklist for this artifact
 
 Before this README itself is promoted beyond `MODEL`:
 
@@ -2723,9 +2722,9 @@ Before this README itself is promoted beyond `MODEL`:
 - [ ] executed validation receipt attached where executable claims are made
 - [ ] critical UNKNOWN/GAP items registered
 
----
+______________________________________________________________________
 
-# 86. Hard boundaries
+## 86. Hard boundaries
 
 ```text
 PLACEHOLDER != IMPLEMENTED
@@ -2762,9 +2761,9 @@ LOGGED != AUTHORIZED
 EVENT_EMITTED != STATE_COMMITTED
 ```
 
----
+______________________________________________________________________
 
-# 87. RSCF state for this README
+## 87. RSCF state for this README
 
 ```yaml
 RSCF:
@@ -2834,9 +2833,9 @@ RSCF:
     final_canon_admission: UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 88. RSCF relations
+## 88. RSCF relations
 
 ```yaml
 RSCF-NODE:
@@ -2867,9 +2866,9 @@ RSCF-RELATIONS:
 claim_class: AMOS_MODEL
 ```
 
----
+______________________________________________________________________
 
-# 89. Related
+## 89. Related
 
 **Root / navigation**
 
@@ -2909,9 +2908,9 @@ VALIDATION_README ·
 [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] ·
 [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
 
-# 90. Final Canon rule
+## 90. Final Canon rule
 
 The Canon plane exists to prevent AMOS from confusing **what is available to think about** with **what the system is justified and authorized to treat as accepted state**.
 
@@ -2954,15 +2953,15 @@ IF A LOAD-BEARING REQUIREMENT IS UNKNOWN,
 DO NOT CONVERT UNKNOWN INTO PASS.
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[01_CANON/CANON_CANON_CONTRACT|CANON_CANON_CONTRACT]] · AMOS_OS_AUTHORITATIVE_STATE · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[02_KERNEL/KERNEL_README|KERNEL_README]] · [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]] · ROUTING_README · VALIDATION_README · [[25_COGNITIVE_MATRIX/11_VALIDATION/PROMOTION_GATES|PROMOTION_GATES]] · [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
 
 RSCF-NODE
 
@@ -2974,5 +2973,6 @@ claim_class: AMOS_MODEL
 ```
 ```
 
----
+______________________________________________________________________
+
 **MOC:** [[00_ROOT/attachments/attachments_MOC|attachments_MOC]]

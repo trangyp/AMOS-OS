@@ -1,85 +1,95 @@
 ---
-title: INV-AUTHZ-010
-type: invariant
+title: "INV-AUTHZ-010 — Rollback Basin Pre-condition"
+type: authority_invariant
 source: 03_CONTROL_PLANE/04_AUTHORITY
-tags:
-- control-plane
-- canon/control-plane
-- routing-policy-validation-receipt
-- authz-engine-validation-receipt
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
+status: ACTIVE_INVARIANT
+epistemic_class: AMOS_MODEL
+conclusion_class: DERIVED
 rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
+  state: DERIVED
+  claim_class: AMOS_MODEL
+  provenance:
+    - 03_CONTROL_PLANE/CONTROL_PLANE_CONTROL_PLANE_CONTRACT
+    - 01_CANON/01_CORE_LAWS/LAW_HIERARCHY
   scope: authority_governance
+tags:
+  - amos-os
+  - authority
+  - invariant
+  - control-plane
+  - inv-authz-010
 ---
 
-# INV-AUTHZ-010
+# INV-AUTHZ-010 — Rollback Basin Pre-condition
 
-## 0. Status
-Control Plane-plane artifact. AMOS_MODEL · CONDITIONAL · implementation PARTIAL.
+## 1. Formal Specification
 
-## 1. Purpose
-`INV-AUTHZ-010` defines typed artifact specification, serving the Control Plane plane's obligation: governance surfaces that gate effects: task contracts, capability, policy, authority, provenance, semantic transactions, observability, effects, commit, exposure, replay, rollback.
+> **Invariant Statement:**
+> `No mutation may execute unless a verified rollback basin receipt is pre-allocated.`
 
-## 2. Semantics
-- Every load-bearing field is typed; unknown values are recorded as `UNKNOWN/GAP`, never invented.
-- Scope and regime are declared on every claim; cross-regime transfer requires an explicit bridge.
-- Confidence ceiling 0.95; conclusion confidence ≤ weakest load-bearing premise.
+## 2. Invariant Rule & Mathematical Formulation
 
-## 3. Failure modes guarded
-STALE_READ · SCOPE_LEAK · REGIME_DRIFT · CONFIDENCE_INFLATION · AUTHORITY_ESCALATION · PROVENANCE_LOSS · SILENT_PARTIAL_COMMIT · UNKNOWN_AS_VALID.
+Let $\text{Basin}(m)$ denote the rollback basin receipt for mutation $m$, and $\text{Execute}(m)$ the execution of mutation $m$:
 
-## 4. Validation
-No artifact-specific executor yet; executed OS validators exist as pattern ([[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]). Required tests before promotion: identity, type-contract, negative-case (missing/malformed/stale input), authority boundary, rollback.
+$$\forall m \in \mathcal{M}, \quad \text{Execute}(m) \implies \exists b \in \text{Basins} : \text{Bind}(b, m) \land \text{Verified}(b) = \text{True}$$
 
-## 5. Gaps
-Implementation binding, empirical validation, and cross-artifact consistency checks remain OPEN (UNKNOWN/GAP).
+The rollback basin contains the inverse delta for the mutation:
 
-## 6. Falsifiers
-F1: canonical source contradicts declared semantics. F2: executed test violates a stated invariant. F3: artifact promotes UNKNOWN to PASS.
-## Worked semantics
-Given an operation touching `INV-AUTHZ-010` within the Control Plane plane:
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-2. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-3. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-4. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-5. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-6. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
+$$\text{Basin}(m) = (\text{ForwardDelta}(m), \text{InverseDelta}(m), \text{StateHash}_{\text{pre}})$$
 
-## Promotion-gate checklist
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
+The pre-allocation requirement means the basin must exist before execution begins:
 
-## Cross-plane bindings
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]|AMOS Core Laws · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
-- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
-- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
----
+$$\text{Time}(\text{Allocate}(\text{Basin}(m))) < \text{Time}(\text{Execute}(m))$$
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+The rollback application must restore the exact pre-mutation state:
 
----
-**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+$$\text{Apply}(\text{InverseDelta}(m), \text{State}_{\text{post}}) = \text{State}_{\text{pre}} \iff \text{StateHash}(\text{Result}) = \text{StateHash}_{\text{pre}}$$
 
----
-RSCF-NODE
-node_id: cp_03_control_plane_04_authority_inv_authz_010_md
-node_type: note
-path: 03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-010.md
-claim_class: AMOS_MODEL
+## 3. Enforcement & Verification
 
----
-**MOC:** [[03_CONTROL_PLANE/04_AUTHORITY/04_AUTHORITY_MOC|04_AUTHORITY_MOC]]
+- **Evaluation Point:** Evaluated at the Control Plane gate before any state mutation is allowed to execute. The gate checks for a verified, bound rollback basin receipt.
+- **Violation Consequence:** If no rollback basin is pre-allocated, the mutation is refused before execution begins. A `MISSING_ROLLBACK_BASIN` receipt is emitted to `17_OBSERVABILITY`. No state change occurs.
+- **Recovery Procedure:** The requesting agent must first allocate a rollback basin through the basin allocation protocol. Once the basin is verified, the mutation may be resubmitted.
+- **Verification Cadence:** Synchronous at every mutation execution attempt. A periodic audit verifies that all executed mutations have corresponding rollback basins on record.
+- **Governed By:** [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE_MOC]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
 
----
-**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+## 4. Attack Vectors & Mitigations
+
+- **Mutation Without Rollback:** An agent attempts to execute a mutation without pre-allocating a rollback basin, making the change irreversible. Mitigated by the Control Plane gate blocking execution until a verified basin receipt is presented.
+- **Basin Spoofing:** An agent presents a fake or reused rollback basin receipt. Mitigated by the basin receipt being cryptographically bound to the specific mutation via hash, and verified against the current state hash.
+- **Inverse Delta Corruption:** The inverse delta in the basin is corrupted, making rollback impossible. Mitigated by the state hash verification that checks the inverse delta against the pre-mutation state hash.
+- **Basin Exhaustion:** The rollback basin storage is exhausted, preventing new basins from being allocated. Mitigated by basin garbage collection after mutations are finalized per [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-049|INV-AUTHZ-049]].
+
+## 5. Dependencies & Prerequisites
+
+- **Depends On:** [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-007|INV-AUTHZ-007]] — Atomic state transition barrier uses rollback basins for multi-shard transaction recovery.
+- **Depends On:** [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-014|INV-AUTHZ-014]] — Monotonic provenance ledger ensures basin receipts are append-only.
+- **Depends On:** [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-044|INV-AUTHZ-044]] — Merkle tree proof verification validates state hashes in basin receipts.
+- **Requires:** A rollback basin allocation protocol with inverse delta computation.
+- **Requires:** Sufficient storage capacity for pre-allocated basins.
+
+## 6. Provenance & Audit Trail
+
+- **Receipt Type:** `ROLLBACK_BASIN_RECEIPT` — emitted for every pre-allocated rollback basin, recording the forward delta, inverse delta, and pre-mutation state hash.
+- **Storage Location:** `17_OBSERVABILITY` with mutation-ID-indexed partitions and a dedicated rollback basin store.
+- **Receipt Fields:** Mutation ID, forward delta, inverse delta, pre-mutation state hash, allocation timestamp, verification status, epoch, BLAKE3 hash.
+- **Immutability:** Basin receipts are append-only per [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-014|INV-AUTHZ-014]] and cannot be deleted until the mutation is finalized.
+
+## 7. Related Invariants
+
+- [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-007|INV-AUTHZ-007]] — Atomic State Transition Barrier
+- [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-014|INV-AUTHZ-014]] — Monotonic Provenance Ledger
+- [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-033|INV-AUTHZ-033]] — Archive Before Destruction
+- [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-044|INV-AUTHZ-044]] — Merkle Tree Proof Verification
+- [[03_CONTROL_PLANE/04_AUTHORITY/INV-AUTHZ-049|INV-AUTHZ-049]] — Global Finality Horizon Check
+
+## 8. Navigation & Bindings
+
+- **Control Plane:** [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE_MOC]]
+- **Control Plane Contract:** [[03_CONTROL_PLANE/CONTROL_PLANE_CONTROL_PLANE_CONTRACT|CONTROL_PLANE_CONTRACT]]
+- **Canon Law Hierarchy:** [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- **Kernel:** [[02_KERNEL/02_KERNEL_MOC|02_KERNEL_MOC]]
+- **Observability:** [[17_OBSERVABILITY/17_OBSERVABILITY_MOC|17_OBSERVABILITY_MOC]]

@@ -1,11 +1,14 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: 18 Memory Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/18_MEMORY_MODES
 tags:
-- 18-memory-modes
-- canon/control-plane
-- memory-modes-commit-control-plane-mode-family-spec
+  - 18-memory-modes
+  - canon/control-plane
+  - memory-modes-commit-control-plane-mode-family-spec
 moc: true
 rscf:
   state: DERIVED
@@ -25,5 +28,6 @@ rscf:
 - [[03_CONTROL_PLANE/09_COMMIT/18_MEMORY_MODES/MEMORY_MODES_COMMIT_CONTROL_PLANE_MODE_FAMILY_SPEC|MEMORY_MODES_COMMIT_CONTROL_PLANE_MODE_FAMILY_SPEC]]
 - [[03_CONTROL_PLANE/09_COMMIT/18_MEMORY_MODES/MEMORY_MODES_COMMIT_CONTROL_PLANE_README|MEMORY_MODES_COMMIT_CONTROL_PLANE_README]]
 
----
+______________________________________________________________________
+
 **Parent:** [[03_CONTROL_PLANE/09_COMMIT/09_COMMIT_MOC|09_COMMIT_MOC]]

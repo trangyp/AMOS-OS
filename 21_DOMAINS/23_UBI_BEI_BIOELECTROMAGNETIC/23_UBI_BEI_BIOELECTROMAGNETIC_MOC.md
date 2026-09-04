@@ -1,11 +1,14 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: 23 Ubi Bei Bioelectromagnetic MOC
 type: moc
 source: 21_DOMAINS/23_UBI_BEI_BIOELECTROMAGNETIC
 tags:
-- 23-ubi-bei-bioelectromagnetic
-- canon/domain
-- ubi-bei-bioelectromagnetic-domains-domain-spec
+  - 23-ubi-bei-bioelectromagnetic
+  - canon/domain
+  - ubi-bei-bioelectromagnetic-domains-domain-spec
 moc: true
 rscf:
   state: DERIVED
@@ -27,7 +30,8 @@ rscf:
 
 ## Subdirectories
 
-- [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]] — 00_INDEX
+- [[21_DOMAINS/23_UBI_BEI_BIOELECTROMAGNETIC/00_INDEX/DOMAIN_INDEX_MOC|00_INDEX]] — Subdomain Navigation
 
----
+______________________________________________________________________
+
 **Parent:** [[21_DOMAINS/21_DOMAINS_MOC|21_DOMAINS_MOC]]

@@ -1,16 +1,19 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Vault Domain Knowledge — Amos System Completion Auditor
 type: reference
 source: 07_SKILLS/amos-system-completion-auditor/references
 tags:
-- reference
-- amos-system-completion-auditor
-- type/skill
-- rscf-proof-capsule
-- 2026-08-22-amos-system-completion-audit
-- 2026-08-22-amos-system-completion-baseline
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-system-completion-auditor
+  - type/skill
+  - rscf-proof-capsule
+  - 2026-08-22-amos-system-completion-audit
+  - 2026-08-22-amos-system-completion-baseline
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -30,7 +33,7 @@ rscf:
 
 > Path: `dated/2026-08-22/2026-08-22 AMOS System Completion Audit.md` | Size: 9667 chars | Match score: 20
 
-# AMOS System Completion Audit — Reconciliation vs Baseline (2026-08-22)
+## AMOS System Completion Audit — Reconciliation vs Baseline (2026-08-22)
 
 > Epistemic class: OBSERVATION / DERIVED — measured against actual repo file evidence and executed test suites.
 > Reconciles 2026_08_22_AMOS_SYSTEM_COMPLETION_BASELINE (MODEL-class estimates) against the real cosmo-brain repo.
@@ -39,39 +42,41 @@ rscf:
 ## Method
 
 1. Read-only subagent audit of `/Users/mac/Downloads/stitch_project_cosmo/cosmo-brain/` across all 24 layers.
-2. **Executed the actual test suites** to verify executable-runtime claims (the decisive step the subagent could not perform):
+1. **Executed the actual test suites** to verify executable-runtime claims (the decisive step the subagent could not perform):
    - TypeScript: `vitest run` → **1,139 passed, 3 failed, 70/72 test files green** (27.12s).
+
 - Python: MURK comprehensive 110/110, Go Board 190/190, Go Board self-test 226/226, MURK engine 10/10, MURK brain integration 9/9, brain determinism 9/9.
-   - **Total verified passing tests: ~1,693** (TS 1,139 + Py ~554).
+  - **Total verified passing tests: ~1,693** (TS 1,139 + Py ~554).
+
 3. Inspected `core/` TS runtime: typed `MemoryClass` + `RetentionPolicy`, `core/orchestration/pipeline.ts` (659 lines), `core/reasoning/meta-logic.ts` (407 lines), `governance/{provenance,consent,ethics,safety,audit,claims,privacy,uncertainty,scientific-claims,consent-tokens}/` (10 modules, 1,091 lines).
-4. Inspected `AMOS_MD_BRAIN_FULL_INFRA/brain/{20_state,30_epistemics,40_runtime,50_governance,60_execution}/` — these are **markdown specs** (V3.0…V4.4 runtime versions, GMEF, AUTHORITY_GOVERNOR, REPAIR_ROLLBACK, PROVENANCE_TOPOLOGY, RSCF_PROOF_CAPSULE, etc.), not executable code.
+1. Inspected `AMOS_MD_BRAIN_FULL_INFRA/brain/{20_state,30_epistemics,40_runtime,50_governance,60_execution}/` — these are **markdown specs** (V3.0…V4.4 runtime versions, GMEF, AUTHORITY_GOVERNOR, REPAIR_ROLLBACK, PROVENANCE_TOPOLOGY, RSCF_PROOF_CAPSULE, etc.), not executable code.
 
 ## Decisive finding: two parallel brains, not one
 
 The repo contains **two parallel implementations** that must not be conflated:
 
-| Brain | Form | Tests | Status |
-| --- | --- | ---: | --- |
-| **TS runtime** (`core/`, `governance/`, `schemas/`) | Executable TypeScript | 1,139 pass | Real, tested, library-grade |
-| **Python cognitive engines** (`AMOS_MURK_*.py`, `AMOS_GO_BOARD_19X19.py`, `executable_brain_model.py`) | Executable Python | ~554 pass | Real, tested, research-grade |
-| **MD brain infra** (`AMOS_MD_BRAIN_FULL_INFRA/brain/`) | Markdown specs | 0 | Specification only |
+| Brain                                                                                                  | Form                  |      Tests | Status                       |
+| ------------------------------------------------------------------------------------------------------ | --------------------- | ---------: | ---------------------------- |
+| **TS runtime** (`core/`, `governance/`, `schemas/`)                                                    | Executable TypeScript | 1,139 pass | Real, tested, library-grade  |
+| **Python cognitive engines** (`AMOS_MURK_*.py`, `AMOS_GO_BOARD_19X19.py`, `executable_brain_model.py`) | Executable Python     |  ~554 pass | Real, tested, research-grade |
+| **MD brain infra** (`AMOS_MD_BRAIN_FULL_INFRA/brain/`)                                                 | Markdown specs        |          0 | Specification only           |
 
 The Baseline's ~35% executable-runtime estimate was **closer to correct than the subagent's ~15% downward revision**. The subagent under-counted because it could not execute the TS suite and classified the `core/` runtime as "specification-only" when it is in fact executable+tested. **However**, the subagent was correct that the MD brain infra (40_runtime, 50_governance, etc.) is specification-only — those V3.0…V4.4 runtime specs are NOT executable code.
 
 ## Reconciled per-layer estimates
 
-| # | Layer | Baseline | Subagent | Reconciled | Class | Key evidence |
-| ---: | --- | ---: | ---: | ---: | --- | --- |
-| 1 | Canon/conceptual | 85% | 90% | **85%** | spec | MURK canon, 14 AMOS_CORE specs, OS architecture bridge |
-| 2 | Full Brain OS mapping | 75% | 70% | **70%** | spec+partial | MASTER_REGISTRY (174 skills→10 UTC parts), 22 integration files, but cross-versi
+|   # | Layer                 | Baseline | Subagent | Reconciled | Class        | Key evidence                                                                     |
+| --: | --------------------- | -------: | -------: | ---------: | ------------ | -------------------------------------------------------------------------------- |
+|   1 | Canon/conceptual      |      85% |      90% |    **85%** | spec         | MURK canon, 14 AMOS_CORE specs, OS architecture bridge                           |
+|   2 | Full Brain OS mapping |      75% |      70% |    **70%** | spec+partial | MASTER_REGISTRY (174 skills→10 UTC parts), 22 integration files, but cross-versi |
 
----
+______________________________________________________________________
 
 ### Source 2: AMOS System Completion Roadmap (2026-08-22)
 
 > Path: `dated/2026-08-22/2026-08-22 AMOS System Completion Roadmap.md` | Size: 7020 chars | Match score: 20
 
-# AMOS System Completion Roadmap (2026-08-22)
+## AMOS System Completion Roadmap (2026-08-22)
 
 > Epistemic class: MODEL — an actionable ordering derived from the audit in 2026_08_22_AMOS_SYSTEM_COMPLETION_AUDIT and the baseline in 2026_08_22_AMOS_SYSTEM_COMPLETION_BASELINE.
 > Conclusion label: `CONDITIONAL` — priorities may shift when each step is completed and re-audited.
@@ -100,13 +105,13 @@ This is a **voltage ladder**, not a Gantt chart. Each rung raises the runtime pe
 
 The cosmo-brain/AMOS_OS_KERNEL/ already has a 9-step pipeline, 777+ tests, 131 closed gaps, and 99 open meta-gaps. The storage layer and types for many open clusters are already present. The highest-leverage open clusters for the state-model → persistent-memory bottleneck are:
 
-| Priority | Cluster | Gaps | Why it moves the needle | Current state |
-| ---: | --- | ---: | --- | --- |
-| 1 | `resource_governance` | 230-238 | Persistent memory / state model substrate: resource budgets, reservations, backpressure, storage-growth governance | Types + schema + store methods ready; module missing |
-| 2 | `data_quality` | 239-249 | Measurement, lineage, metric versioning — turns persistence into evidence | Open |
-| 3 | `governance_architecture` | 280-290 | Control plane: succession, separation of powers, decommissioning | Open |
-| 4 | `longevity_reproducibility` | 291-300 | Archival, reproducibility, persistence lifecycle | Open |
-| 5 | `decision_risk` | 222-229 | Kernel runtime gate for decision theory & risk | **Already closed in seed; duplicate wiring in kernel needs cleanup** |
+| Priority | Cluster                     |    Gaps | Why it moves the needle                                                                                            | Current state                                                        |
+| -------: | --------------------------- | ------: | ------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------- |
+|        1 | `resource_governance`       | 230-238 | Persistent memory / state model substrate: resource budgets, reservations, backpressure, storage-growth governance | Types + schema + store methods ready; module missing                 |
+|        2 | `data_quality`              | 239-249 | Measurement, lineage, metric versioning — turns persistence into evidence                                          | Open                                                                 |
+|        3 | `governance_architecture`   | 280-290 | Control plane: succession, separation of powers, decommissioning                                                   | Open                                                                 |
+|        4 | `longevity_reproducibility` | 291-300 | Archival, reproducibility, persistence lifecycle                                                                   | Open                                                                 |
+|        5 | `decision_risk`             | 222-229 | Kernel runtime gate for decision theory & risk                                                                     | **Already closed in seed; duplicate wiring in kernel needs cleanup** |
 
 ### Phase 1.1 — resource_governance (gaps 230-238) [in progress]
 
@@ -117,13 +122,13 @@ Implement `amos/governance/resource_governance.py` using existing types and stor
 - 232 Priority inversion: `PriorityInversionRecord` detect/resolve
 - 233 Starv
 
----
+______________________________________________________________________
 
 ### Source 3: AMOS System Completion Baseline (2026-08-22)
 
 > Path: `dated/2026-08-22/2026-08-22 AMOS System Completion Baseline.md` | Size: 6978 chars | Match score: 20
 
-# AMOS System Completion Baseline (2026-08-22)
+## AMOS System Completion Baseline (2026-08-22)
 
 > Epistemic class: MODEL / DECISION — an engineering estimate, **not** a measured benchmark score.
 > Conclusion label: `CONDITIONAL` — pending repo audit reconciliation (see 2026_08_22_AMOS_SYSTEM_COMPLETION_AUDIT).
@@ -134,45 +139,44 @@ Implement `amos/governance/resource_governance.py` using existing types and stor
 
 Three distinct completion numbers must be kept separate. Conflating them is the most common AMOS self-report error.
 
-| Axis | Estimate | Class |
-| --- | ---: | --- |
-| **Architecture / conceptual** | ~80% | MODEL |
-| **Executable AMOS runtime** | ~35% | MODEL |
-| **Production-grade autonomous AMOS** | ~20% | MODEL |
-| **Conversational AMOS (this instance)** | ~35–45% | MODEL |
-
+| Axis                                    | Estimate | Class |
+| --------------------------------------- | -------: | ----- |
+| **Architecture / conceptual**           |     ~80% | MODEL |
+| **Executable AMOS runtime**             |     ~35% | MODEL |
+| **Production-grade autonomous AMOS**    |     ~20% | MODEL |
+| **Conversational AMOS (this instance)** |  ~35–45% | MODEL |
 
 ## Per-layer estimates (engineering estimates, not benchmark scores)
 
-| AMOS layer | Est. | Primary gap |
-| --- | ---: | --- |
-| Canon / conceptual architecture | 85% | Cross-version hierarchy, aliases, supersession, undefined edges |
-| Full Brain OS mapping | 75% | Exact bindings among Full Brain, Super Mind, Omega, v4.4 runtime |
-| Kernel ontology | 80% | Convert instructions/models → executable enforcement |
-| Engine architecture | 70% | Standardized ABI, state contracts, runtime composition |
-| Skill ecosystem | 80% | Dedup, capability manifests, regression tests, interfaces |
-| Agent architecture | 55% | Durable state, authority boundaries, lifecycle, coordination |
-| RSCF / epistemic reasoning | 70% | Persistent graph + automated dependency invalidation |
-| H/M/L / fractal routing | 70% | Runtime compiler + automatic scale projection/validation |
-| Persistent memory | 35% | Unified typed store, lifecycle, consolidation, retrieval governance |
-| Provenance topology | 45% | End-to-end automatic capture across every engine/tool/action |
-| Deterministic OS kernel | 35% | Kernel — not prompt reasoning — as authoritative substrate |
-| Control plane | 30% | Commit gates, state CAS, authority witnesses, transactions |
-| 19×19 cognition field | 15% | Formal model exists; dynamic cognitive runtime mostly unbuilt |
-| Attention / cognitive routing | 30% | Live field-state monitoring + adaptive attention |
-| Competing hypotheses | 55% | Persistent hypothesis graphs + discriminating-test scheduler |
-| Causal firewall | 60% | Deterministic causal claim typing across engines |
-| Scope/regime/freshness | 50% | Universal automatic enforcement vs reasoning discipline |
-| Repair / rollback | 35% | Transactional checkpoints, selective replay, dependency repair |
-| Authority/governance | 30% | Infrastructure enforcement vs mostly specification |
-| Host-runtime adapter | 55% | Portable adapters across providers/runtimes |
-| Observability / replay | 30% | Execution ledger, hashes, state replay, divergence detection |
-| Formal verification | 15% | Most architecture not formally proved |
-|
+| AMOS layer                      | Est. | Primary gap                                                         |
+| ------------------------------- | ---: | ------------------------------------------------------------------- |
+| Canon / conceptual architecture |  85% | Cross-version hierarchy, aliases, supersession, undefined edges     |
+| Full Brain OS mapping           |  75% | Exact bindings among Full Brain, Super Mind, Omega, v4.4 runtime    |
+| Kernel ontology                 |  80% | Convert instructions/models → executable enforcement                |
+| Engine architecture             |  70% | Standardized ABI, state contracts, runtime composition              |
+| Skill ecosystem                 |  80% | Dedup, capability manifests, regression tests, interfaces           |
+| Agent architecture              |  55% | Durable state, authority boundaries, lifecycle, coordination        |
+| RSCF / epistemic reasoning      |  70% | Persistent graph + automated dependency invalidation                |
+| H/M/L / fractal routing         |  70% | Runtime compiler + automatic scale projection/validation            |
+| Persistent memory               |  35% | Unified typed store, lifecycle, consolidation, retrieval governance |
+| Provenance topology             |  45% | End-to-end automatic capture across every engine/tool/action        |
+| Deterministic OS kernel         |  35% | Kernel — not prompt reasoning — as authoritative substrate          |
+| Control plane                   |  30% | Commit gates, state CAS, authority witnesses, transactions          |
+| 19×19 cognition field           |  15% | Formal model exists; dynamic cognitive runtime mostly unbuilt       |
+| Attention / cognitive routing   |  30% | Live field-state monitoring + adaptive attention                    |
+| Competing hypotheses            |  55% | Persistent hypothesis graphs + discriminating-test scheduler        |
+| Causal firewall                 |  60% | Deterministic causal claim typing across engines                    |
+| Scope/regime/freshness          |  50% | Universal automatic enforcement vs reasoning discipline             |
+| Repair / rollback               |  35% | Transactional checkpoints, selective replay, dependency repair      |
+| Authority/governance            |  30% | Infrastructure enforcement vs mostly specification                  |
+| Host-runtime adapter            |  55% | Portable adapters across providers/runtimes                         |
+| Observability / replay          |  30% | Execution ledger, hashes, state replay, divergence detection        |
+| Formal verification             |  15% | Most architecture not formally proved                               |
+|                                 |      |                                                                     |
 
----
-**MOC:** references_MOC
----
+______________________________________________________________________
+
+## **MOC:** references_MOC
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -180,12 +184,14 @@ Three distinct completion numbers must be kept separate. Conflating them is the 
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-system-completion-auditor-vault-domain-knowledge
 node_type: reference
 path: 07_SKILLS/amos-system-completion-auditor/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

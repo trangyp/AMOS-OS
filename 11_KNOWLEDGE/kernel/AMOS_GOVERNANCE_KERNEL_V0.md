@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: AMOS GOVERNANCE KERNEL V0
 tags:
-- canon-group/tech-ai
-- canon/framework
-- rscf/claim
-- rscf/provenance
-- rscf/state/source-claim
-- topic/amos-governance-kernel-v0
-- kernel
+  - canon-group/tech-ai
+  - canon/framework
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - topic/amos-governance-kernel-v0
+  - kernel
 type: data
 source: 11_KNOWLEDGE/kernel
 rscf:
@@ -391,6 +394,6 @@ rscf:
 **Related:** [[11_KNOWLEDGE/kernel/AMOS_SIMULATION_KERNEL|AMOS_SIMULATION_KERNEL]] · [[11_KNOWLEDGE/kernel/SENSE_CORE_KERNEL|SENSE_CORE_KERNEL]] · [[11_KNOWLEDGE/kernel/AMOS_BUSINESS_ANALYSIS_KERNEL_V0_TECH|AMOS_BUSINESS_ANALYSIS_KERNEL_V0_TECH]] · [[11_KNOWLEDGE/kernel/AMOS_UX_DESIGN_KERNEL_V0_TECH7_3|AMOS_UX_DESIGN_KERNEL_V0_TECH7_3]]
 ```
 
----
-**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]
+______________________________________________________________________
 
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]

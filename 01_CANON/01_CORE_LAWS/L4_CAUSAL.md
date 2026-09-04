@@ -2,19 +2,19 @@
 type: note
 source: 01_CANON/01_CORE_LAWS
 tags:
-- canon
-- core_laws
-- causal
-- causality
-- dependency
-- provenance
-- rscf
-- governance
-- canon/universe
-- law/L0-integrity
-- law/L1-epistemic
-- law/L2-provenance
-- law/L3-dependency
+  - canon
+  - core_laws
+  - causal
+  - causality
+  - dependency
+  - provenance
+  - rscf
+  - governance
+  - canon/universe
+  - law/L0-integrity
+  - law/L1-epistemic
+  - law/L2-provenance
+  - law/L3-dependency
 title: L4 Causal Laws
 origin_architect: Trang Phan
 status: AMOS_MODEL
@@ -38,7 +38,7 @@ rscf:
 >
 > A dependency, sequence, correlation, similarity, prediction, or explanation does not become causal merely because it is coherent.
 
----
+______________________________________________________________________
 
 ## 1. Purpose
 
@@ -74,9 +74,9 @@ Each transition requires additional evidence.
 
 No transition is automatic.
 
----
+______________________________________________________________________
 
-# 2. Core Causal Law
+## 2. Core Causal Law
 
 The root L4 law is:
 
@@ -111,9 +111,9 @@ MECHANISM_PROPOSAL != MECHANISM_VERIFICATION
 INTERVENTION_PROPOSAL != INTERVENTION_EFFECT
 ```
 
----
+______________________________________________________________________
 
-# 3. Causal Relation Types
+## 3. Causal Relation Types
 
 AMOS MUST type causal statements rather than storing every causal-looking relationship as a generic `CAUSES` edge.
 
@@ -201,9 +201,9 @@ relation = COMPETING
 
 It MUST NOT default to `CAUSES`.
 
----
+______________________________________________________________________
 
-# 4. Causal Claim Classes
+## 4. Causal Claim Classes
 
 Every important causal claim SHOULD carry an epistemic class.
 
@@ -239,9 +239,9 @@ causal_claim_classes:
 
 `MODEL` does not automatically become `OBSERVATION`.
 
----
+______________________________________________________________________
 
-# 5. Typed Inputs
+## 5. Typed Inputs
 
 L4 may consume:
 
@@ -284,9 +284,9 @@ observed cause
 
 unless the source itself explicitly reports a causal result and the provenance records that distinction.
 
----
+______________________________________________________________________
 
-# 6. Typed Outputs
+## 6. Typed Outputs
 
 ```yaml
 CausalAssessment:
@@ -335,9 +335,9 @@ CausalAssessment:
   confidence_ceiling: float
 ```
 
----
+______________________________________________________________________
 
-# 7. State Variables
+## 7. State Variables
 
 Conceptual L4 state MAY include:
 
@@ -365,9 +365,9 @@ These variables describe an AMOS reasoning contract.
 
 They do not assert that a deployed runtime currently implements all such state structures.
 
----
+______________________________________________________________________
 
-# 8. Causal Operators
+## 8. Causal Operators
 
 Minimum conceptual operator family:
 
@@ -414,9 +414,9 @@ It does NOT imply:
 COMMIT_CAUSE(A,B)
 ```
 
----
+______________________________________________________________________
 
-# 9. Causal Promotion Law
+## 9. Causal Promotion Law
 
 A causal edge may conceptually progress through:
 
@@ -462,9 +462,9 @@ Promotable(c) = FALSE
 
 unless the target status explicitly permits `CONDITIONAL` or `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
-# 10. Evidence Ladder
+## 10. Evidence Ladder
 
 AMOS SHOULD distinguish evidence strength by the causal claim being attempted.
 
@@ -499,9 +499,9 @@ Evidence sufficient for a weaker relation
 does not automatically support a stronger relation.
 ```
 
----
+______________________________________________________________________
 
-# 11. Correlation Firewall
+## 11. Correlation Firewall
 
 Given:
 
@@ -540,9 +540,9 @@ model misspecification
 
 These alternatives form part of the causal challenge set where material.
 
----
+______________________________________________________________________
 
-# 12. Temporal Firewall
+## 12. Temporal Firewall
 
 Temporal precedence can be relevant to causal reasoning:
 
@@ -569,9 +569,9 @@ A temporal sequence may reflect:
 
 Observation time and event time SHOULD therefore remain distinct.
 
----
+______________________________________________________________________
 
-# 13. Dependency Firewall
+## 13. Dependency Firewall
 
 L3 dependency structure may provide candidate causal topology, but:
 
@@ -591,9 +591,9 @@ Such edges can influence propagation without constituting empirical causal effec
 
 L4 MUST preserve the distinction.
 
----
+______________________________________________________________________
 
-# 14. Prediction Firewall
+## 14. Prediction Firewall
 
 If:
 
@@ -624,9 +624,9 @@ Therefore:
 PREDICTIVE_POWER != CAUSAL_AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 15. Mechanism Law
+## 15. Mechanism Law
 
 A mechanism claim requires more than narrative coherence.
 
@@ -660,9 +660,9 @@ or:
 SOURCE_CLAIM
 ```
 
----
+______________________________________________________________________
 
-# 16. Counterfactual Law
+## 16. Counterfactual Law
 
 A counterfactual asks:
 
@@ -698,9 +698,9 @@ Counterfactual reasoning MUST declare:
 
 Unsupported counterfactuals remain `MODEL`.
 
----
+______________________________________________________________________
 
-# 17. Intervention Law
+## 17. Intervention Law
 
 An intervention claim is stronger than an observational association.
 
@@ -728,9 +728,9 @@ Was the comparison valid?
 Does the result apply to the requested population/regime?
 ```
 
----
+______________________________________________________________________
 
-# 18. Confounder Law
+## 18. Confounder Law
 
 Where:
 
@@ -751,9 +751,9 @@ Therefore:
 NO_KNOWN_CONFOUNDER != NO_CONFOUNDING
 ```
 
----
+______________________________________________________________________
 
-# 19. Mediation Law
+## 19. Mediation Law
 
 If a claim proposes:
 
@@ -771,9 +771,9 @@ AMOS SHOULD distinguish:
 
 The existence of correlations among A, M, and B does not establish mediation.
 
----
+______________________________________________________________________
 
-# 20. Necessary and Sufficient Conditions
+## 20. Necessary and Sufficient Conditions
 
 AMOS MUST distinguish:
 
@@ -805,9 +805,9 @@ Likewise, sufficient does not automatically mean necessary.
 
 Claims of necessity or sufficiency SHOULD carry especially explicit scope conditions because they are easily overgeneralized.
 
----
+______________________________________________________________________
 
-# 21. Feedback Law
+## 21. Feedback Law
 
 Causal systems may contain cycles:
 
@@ -826,9 +826,9 @@ Feedback analysis SHOULD preserve:
 - regime dependence;
 - observation interval.
 
----
+______________________________________________________________________
 
-# 22. Cross-Scale Causal Law
+## 22. Cross-Scale Causal Law
 
 For H/M/L reasoning:
 
@@ -863,9 +863,9 @@ evidence: ...
 
 Absent this support, the mapping remains `MODEL`.
 
----
+______________________________________________________________________
 
-# 23. H/M/L Applicability
+## 23. H/M/L Applicability
 
 ### H — Governing/System Scale
 
@@ -905,9 +905,9 @@ No scale automatically dominates another.
 
 Cross-scale aggregation requires explicit transformation rules.
 
----
+______________________________________________________________________
 
-# 24. Provenance Law for Causal Evidence
+## 24. Provenance Law for Causal Evidence
 
 Every consequential causal edge SHOULD be provenance-bound.
 
@@ -939,9 +939,9 @@ Thus:
 SOURCE_COUNT != INDEPENDENT_EVIDENCE_COUNT
 ```
 
----
+______________________________________________________________________
 
-# 25. Provenance Independence
+## 25. Provenance Independence
 
 If:
 
@@ -965,9 +965,9 @@ independence_status = UNKNOWN
 
 and confidence MUST be bounded accordingly.
 
----
+______________________________________________________________________
 
-# 26. Confidence Ceiling
+## 26. Confidence Ceiling
 
 Causal confidence is bounded by load-bearing uncertainty.
 
@@ -990,9 +990,9 @@ This is an AMOS governance equation, not a universal statistical theorem.
 
 A highly confident source cannot repair a weak causal design merely by asserting certainty.
 
----
+______________________________________________________________________
 
-# 27. Competing Causal Hypotheses
+## 27. Competing Causal Hypotheses
 
 AMOS MUST preserve materially viable alternatives.
 
@@ -1028,9 +1028,9 @@ not:
 status = VERIFIED
 ```
 
----
+______________________________________________________________________
 
-# 28. Discriminating Evidence Law
+## 28. Discriminating Evidence Law
 
 When competing causal models exist, AMOS SHOULD seek the lowest-cost evidence with the highest expected discriminatory value.
 
@@ -1048,9 +1048,9 @@ MANY REDUNDANT CONFIRMATIONS
 
 where the former can resolve the outcome-changing uncertainty.
 
----
+______________________________________________________________________
 
-# 29. Adversarial Causal Validation
+## 29. Adversarial Causal Validation
 
 For consequential causal conclusions, AMOS SHOULD challenge the preferred explanation.
 
@@ -1080,9 +1080,9 @@ Does intervention evidence contradict observational evidence?
 
 Successful challenge requires downgrade, qualification, competition preservation, or invalidation.
 
----
+______________________________________________________________________
 
-# 30. Scope Law
+## 30. Scope Law
 
 Every causal claim inherits an applicability envelope.
 
@@ -1107,9 +1107,9 @@ Therefore:
 VALID_IN_SCOPE != UNIVERSALLY_VALID
 ```
 
----
+______________________________________________________________________
 
-# 31. Regime Law
+## 31. Regime Law
 
 Causal structure may change across regimes.
 
@@ -1133,9 +1133,9 @@ Conceptually:
 Valid(c, R1) does not imply Valid(c, R2)
 ```
 
----
+______________________________________________________________________
 
-# 32. Freshness Law
+## 32. Freshness Law
 
 Causal evidence can become stale when:
 
@@ -1153,9 +1153,9 @@ Freshness is therefore part of causal validity.
 PAST_CAUSAL_SUPPORT != CURRENT_CAUSAL_VALIDITY
 ```
 
----
+______________________________________________________________________
 
-# 33. Causal Dependency Closure
+## 33. Causal Dependency Closure
 
 A causal conclusion may depend upon other claims.
 
@@ -1189,9 +1189,9 @@ invalidate failed premise
 
 Global causal recomputation is a last resort.
 
----
+______________________________________________________________________
 
-# 34. Causal Epoch Integrity
+## 34. Causal Epoch Integrity
 
 Where AMOS reasoning spans changing system states, causal evidence MUST remain associated with the state/epoch in which it was valid.
 
@@ -1211,9 +1211,9 @@ after relevant causal structure changes.
 
 Revalidation is required when load-bearing conditions change.
 
----
+______________________________________________________________________
 
-# 35. Causal Decision Boundary
+## 35. Causal Decision Boundary
 
 Even a supported causal claim does not automatically authorize action.
 
@@ -1235,9 +1235,9 @@ INTERVENTION_AUTHORIZED
 
 Authorization remains a control-plane/governance responsibility.
 
----
+______________________________________________________________________
 
-# 36. Proposal / Commit Boundary
+## 36. Proposal / Commit Boundary
 
 A causal model may recommend an intervention:
 
@@ -1263,9 +1263,9 @@ Before execution, relevant control planes must evaluate:
 - affected stakeholders;
 - commit-time validity.
 
----
+______________________________________________________________________
 
-# 37. Causal Risk Escalation
+## 37. Causal Risk Escalation
 
 Validation requirements SHOULD increase with:
 
@@ -1281,9 +1281,9 @@ Low-impact reversible experimentation may tolerate more uncertainty than irrever
 
 This is a governance principle, not a claim of a universally calibrated numerical risk formula.
 
----
+______________________________________________________________________
 
-# 38. Causal Failure Modes
+## 38. Causal Failure Modes
 
 L4 recognizes at least the following failures:
 
@@ -1363,9 +1363,9 @@ Invalidated causal edges remain active downstream.
 
 A causal conclusion is treated as permission to intervene.
 
----
+______________________________________________________________________
 
-# 39. Repair and Recovery
+## 39. Repair and Recovery
 
 When causal integrity fails:
 
@@ -1386,9 +1386,9 @@ Repair MUST target the smallest causal cut sufficient to restore integrity.
 
 Do not erase unaffected knowledge.
 
----
+______________________________________________________________________
 
-# 40. Causal Quarantine
+## 40. Causal Quarantine
 
 A causal edge SHOULD enter quarantine when:
 
@@ -1410,9 +1410,9 @@ but not trusted for stronger downstream causal promotion
 
 It does not mean deleted.
 
----
+______________________________________________________________________
 
-# 41. Validators
+## 41. Validators
 
 Conceptual L4 validators include:
 
@@ -1435,9 +1435,9 @@ validate_authority_boundary()
 validate_dependency_closure()
 ```
 
----
+______________________________________________________________________
 
-# 42. Minimum Causal Tests
+## 42. Minimum Causal Tests
 
 A causal artifact SHOULD be testable against:
 
@@ -1548,9 +1548,9 @@ PROPOSAL
 
 not automatic execution.
 
----
+______________________________________________________________________
 
-# 43. Falsifiers
+## 43. Falsifiers
 
 An L4 causal claim SHOULD identify what would weaken or falsify it.
 
@@ -1572,9 +1572,9 @@ falsifiers:
 
 A claim with no conceivable falsifier SHOULD NOT be promoted as strong causal knowledge merely because it is internally coherent.
 
----
+______________________________________________________________________
 
-# 44. Invariants
+## 44. Invariants
 
 ## L4-I1 — Causal Typing
 
@@ -1668,9 +1668,9 @@ CAUSAL_CAPABILITY != AUTHORITY
 CAUSAL_PROPOSAL != COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 45. Dependencies
+## 45. Dependencies
 
 L4 conceptually depends upon preceding integrity layers.
 
@@ -1710,9 +1710,9 @@ Determines what causal strength those premises actually license.
 
 L4 MUST NOT override L0–L3.
 
----
+______________________________________________________________________
 
-# 46. Control-Plane Requirements
+## 46. Control-Plane Requirements
 
 Any implementation claiming L4 conformance SHOULD provide mechanisms for:
 
@@ -1736,30 +1736,30 @@ This describes the contract.
 
 It does not establish that any particular AMOS runtime already implements every mechanism.
 
----
+______________________________________________________________________
 
-# 47. Agent Requirements
+## 47. Agent Requirements
 
 An agent using L4 SHOULD:
 
 1. identify the causal question;
-2. identify the weakest sufficient causal claim;
-3. classify available evidence;
-4. preserve provenance;
-5. construct viable alternatives;
-6. identify confounders;
-7. check temporal ordering;
-8. check scope and regime;
-9. distinguish observation from intervention;
-10. identify falsifiers;
-11. assign the weakest accurate conclusion class;
-12. request control-plane authorization before consequential intervention.
+1. identify the weakest sufficient causal claim;
+1. classify available evidence;
+1. preserve provenance;
+1. construct viable alternatives;
+1. identify confounders;
+1. check temporal ordering;
+1. check scope and regime;
+1. distinguish observation from intervention;
+1. identify falsifiers;
+1. assign the weakest accurate conclusion class;
+1. request control-plane authorization before consequential intervention.
 
 An agent MUST NOT increase causal strength merely to make an answer more decisive.
 
----
+______________________________________________________________________
 
-# 48. Skill Requirements
+## 48. Skill Requirements
 
 A Skill interacting with L4 SHOULD declare:
 
@@ -1781,9 +1781,9 @@ causal_contract:
 
 A Skill capable of producing causal proposals does not automatically possess authority to commit them.
 
----
+______________________________________________________________________
 
-# 49. Workflow
+## 49. Workflow
 
 Canonical conceptual workflow:
 
@@ -1811,9 +1811,9 @@ Canonical conceptual workflow:
 21. RECORD PROVENANCE AND DEPENDENCIES
 ```
 
----
+______________________________________________________________________
 
-# 50. Protocol
+## 50. Protocol
 
 A minimal causal exchange protocol:
 
@@ -1851,9 +1851,9 @@ CAUSAL_ACTION_PROPOSAL:
   authority_required: ...
 ```
 
----
+______________________________________________________________________
 
-# 51. Interaction with RSCF
+## 51. Interaction with RSCF
 
 Every consequential causal claim SHOULD be representable as an RSCF capsule.
 
@@ -1888,9 +1888,9 @@ rather than:
 erase entire knowledge state
 ```
 
----
+______________________________________________________________________
 
-# 52. Interaction with GMEF
+## 52. Interaction with GMEF
 
 Where a causal conclusion supports a system change, the causal result remains evidence for governance rather than authority itself.
 
@@ -1914,9 +1914,9 @@ EXECUTE / REJECT / DEFER / SANDBOX
 
 A correct causal model can still lead to an unauthorized or unacceptable intervention.
 
----
+______________________________________________________________________
 
-# 53. Interaction with Counterfactual Reasoning
+## 53. Interaction with Counterfactual Reasoning
 
 L4 supplies causal boundaries to counterfactual reasoning.
 
@@ -1932,9 +1932,9 @@ COUNTERFACTUAL_CAUSAL_VALIDITY
 
 Counterfactual conclusions remain bounded by the validity of the causal model used to generate them.
 
----
+______________________________________________________________________
 
-# 54. Interaction with Memory
+## 54. Interaction with Memory
 
 Causal memory SHOULD preserve:
 
@@ -1965,9 +1965,9 @@ A may contribute to B under R1 and S1,
 conditional on assumptions X and Y.
 ```
 
----
+______________________________________________________________________
 
-# 55. Interaction with Prediction
+## 55. Interaction with Prediction
 
 Prediction and causation remain separate epistemic lanes.
 
@@ -1997,9 +1997,9 @@ causal evidence
 
 without collapsing them.
 
----
+______________________________________________________________________
 
-# 56. Interaction with Repair
+## 56. Interaction with Repair
 
 Causal diagnosis influences repair targeting.
 
@@ -2021,9 +2021,9 @@ REPAIR PROPOSAL
 
 Repairing a symptom while preserving the actual cause may create recurring failure or hidden degradation.
 
----
+______________________________________________________________________
 
-# 57. Interaction with System Completion
+## 57. Interaction with System Completion
 
 A causal architecture is incomplete for a declared scope if it requires causal conclusions but lacks mechanisms for:
 
@@ -2045,9 +2045,9 @@ STRUCTURAL_COMPLETENESS != EMPIRICAL_VALIDITY
 
 A perfectly specified causal subsystem can still contain false causal hypotheses.
 
----
+______________________________________________________________________
 
-# 58. Non-Purposes
+## 58. Non-Purposes
 
 L4 is NOT intended to:
 
@@ -2060,9 +2060,9 @@ L4 is NOT intended to:
 - authorize interventions;
 - convert AMOS structural analogies into empirical causal facts.
 
----
+______________________________________________________________________
 
-# 59. Hard Boundaries
+## 59. Hard Boundaries
 
 ```text
 ASSOCIATION != CAUSATION
@@ -2096,9 +2096,9 @@ PROPOSAL != COMMIT
 UNKNOWN/GAP != PASS
 ```
 
----
+______________________________________________________________________
 
-# 60. Gap Status
+## 60. Gap Status
 
 This artifact supplies a **full proposed AMOS causal-law contract**, but its status must remain bounded.
 
@@ -2116,9 +2116,9 @@ gap_status:
   final_canon_approval: REQUIRED
 ```
 
----
+______________________________________________________________________
 
-# 61. RSCF Completion State
+## 61. RSCF Completion State
 
 ```yaml
 claim_class: AMOS_MODEL
@@ -2191,9 +2191,9 @@ confidence_ceiling:
   empirical_validity: DOMAIN_DEPENDENT
 ```
 
----
+______________________________________________________________________
 
-# 62. Canon Promotion Gate
+## 62. Canon Promotion Gate
 
 Before this artifact is labeled `FINAL_CANON`, require:
 
@@ -2226,15 +2226,15 @@ The correct status is:
 AMOS_MODEL / PROPOSED_CANON_CONTENT
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/L0_INTEGRITY|L0_INTEGRITY]] · [[01_CANON/01_CORE_LAWS/L1_EPISTEMIC|L1_EPISTEMIC]] · [[01_CANON/01_CORE_LAWS/L2_PROVENANCE|L2_PROVENANCE]] · [[01_CANON/01_CORE_LAWS/L3_DEPENDENCY|L3_DEPENDENCY]]
 
----
+______________________________________________________________________
 
 RSCF-NODE
 
@@ -2258,5 +2258,6 @@ claim_class: AMOS_MODEL
 ```
 ```
 
----
+______________________________________________________________________
+
 **MOC:** [[01_CANON/01_CORE_LAWS/01_CORE_LAWS_MOC|01_CORE_LAWS_MOC]]

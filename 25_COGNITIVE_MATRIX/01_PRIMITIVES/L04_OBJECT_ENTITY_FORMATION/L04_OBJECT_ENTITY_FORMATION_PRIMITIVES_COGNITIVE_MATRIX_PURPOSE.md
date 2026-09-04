@@ -10,11 +10,11 @@ primitive: L04_OBJECT_ENTITY_FORMATION
 artifact: PURPOSE.md
 runtime_alignment: AMOS Full Brain OS / AMOS_CORE v4.4 lineage
 tags:
-- cognitive-matrix
-- primitives
-- matrix/l04-object-entity-formation
-- note
-- domain/cognitive-matrix
+  - cognitive-matrix
+  - primitives
+  - matrix/l04-object-entity-formation
+  - note
+  - domain/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -57,9 +57,9 @@ purpose_contract_below:
   status: AMOS_MODEL
 ```
 
----
+______________________________________________________________________
 
-# 1. Purpose
+## 1. Purpose
 
 The purpose of `L04_OBJECT_ENTITY_FORMATION` is to provide a governed representational layer that can transform admitted perceptual structure into explicit **object candidates**, organize candidate objects into **entity hypotheses**, reason about **identity and persistence across observations**, preserve competing interpretations where identity remains unresolved, and provide downstream AMOS layers with typed entity state without falsely equating representation with external reality.
 
@@ -79,9 +79,9 @@ L03 percept state
 
 This is a MODEL specialization of the direct source role.
 
----
+______________________________________________________________________
 
-# 2. Non-Purpose
+## 2. Non-Purpose
 
 L04 is **not** intended to:
 
@@ -123,9 +123,9 @@ IDENTITY HYPOTHESIS != VERIFIED IDENTITY
 PERSISTENCE HYPOTHESIS != ONTOLOGICAL PERSISTENCE
 ```
 
----
+______________________________________________________________________
 
-# 3. Definition and Scope
+## 3. Definition and Scope
 
 L04 begins after an admissible perceptual representation is available from `L03_PERCEPT_FORMATION`.
 
@@ -160,9 +160,9 @@ control-plane handoff
 
 Its scope ends before authoritative downstream action unless separately governed.
 
----
+______________________________________________________________________
 
-# 4. Typed Inputs
+## 4. Typed Inputs
 
 ```yaml
 L04PurposeInput:
@@ -210,9 +210,9 @@ L04PurposeInput:
     type: ConstraintSet
 ```
 
----
+______________________________________________________________________
 
-# 5. Typed Outputs
+## 5. Typed Outputs
 
 ```yaml
 L04PurposeOutput:
@@ -259,9 +259,9 @@ L04PurposeOutput:
       - UNKNOWN_GAP
 ```
 
----
+______________________________________________________________________
 
-# 6. State Variables
+## 6. State Variables
 
 Candidate state:
 
@@ -285,18 +285,16 @@ Q_t      = quarantine state
 
 Compact MODEL state:
 
-[
-X^{L04}_t
-=========
+## \[ X^{L04}\_t
 
 (P_t,D_t,B_t,R_t,G_t,O_t,K_t,I_t,E_t,M_t,Prov_t,HML_t,U_t,C_t,Q_t)
-]
+\]
 
 No canonical L04 state equation has yet been recovered.
 
----
+______________________________________________________________________
 
-# 7. Operators
+## 7. Operators
 
 Purpose-level operator families include:
 
@@ -331,9 +329,9 @@ Operator success produces candidate state only.
 OPERATOR SUCCESS != FACTUAL VERIFICATION
 ```
 
----
+______________________________________________________________________
 
-# 8. Invariants
+## 8. Invariants
 
 The purpose of L04 is constrained by these core MODEL invariants:
 
@@ -402,9 +400,9 @@ PUR-L04-021
 UNKNOWN/GAP != PASS.
 ```
 
----
+______________________________________________________________________
 
-# 9. Dependencies
+## 9. Dependencies
 
 Candidate direct dependency:
 
@@ -445,9 +443,9 @@ ALL
 
 Canonical L04 dependency topology remains `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
-# 10. H/M/L Applicability
+## 10. H/M/L Applicability
 
 Candidate L04 purpose by scale:
 
@@ -499,9 +497,9 @@ with provenance-preserving transforms.
 
 Higher-level identity hypotheses may constrain interpretation, but must not fabricate lower-level evidence.
 
----
+______________________________________________________________________
 
-# 11. Control-Plane Requirements
+## 11. Control-Plane Requirements
 
 L04 owns cognitive representation and proposal formation.
 
@@ -543,9 +541,9 @@ VALID L04 REPRESENTATION
 AUTHORIZED DURABLE IDENTITY STATE
 ```
 
----
+______________________________________________________________________
 
-# 12. Agents
+## 12. Agents
 
 Candidate logical roles:
 
@@ -568,9 +566,9 @@ These roles are MODEL definitions.
 ROLE DEFINED != AGENT IMPLEMENTED
 ```
 
----
+______________________________________________________________________
 
-# 13. Skills
+## 13. Skills
 
 Potential capability mappings include:
 
@@ -590,9 +588,9 @@ AMOS Claim Verifier
 
 Their existence establishes only that the problem is addressable.
 
----
+______________________________________________________________________
 
-# 14. Workflow
+## 14. Workflow
 
 ```text
 RECEIVE L03 PERCEPT STATE
@@ -634,9 +632,9 @@ PROPOSE STATE
 CONTROL-PLANE HANDOFF IF DURABLE EFFECT REQUIRED
 ```
 
----
+______________________________________________________________________
 
-# 15. Protocols
+## 15. Protocols
 
 Candidate protocol families:
 
@@ -666,9 +664,9 @@ CONTROL_PLANE_HANDOFF
 
 Canonical protocol names remain `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
-# 16. Evidence / Provenance
+## 16. Evidence / Provenance
 
 Every consequential object/entity representation should retain:
 
@@ -719,9 +717,9 @@ source observation
 
 Missing load-bearing lineage must remain visible as a gap.
 
----
+______________________________________________________________________
 
-# 17. Uncertainty and Confidence Ceiling
+## 17. Uncertainty and Confidence Ceiling
 
 Purpose-level uncertainty should remain decomposed:
 
@@ -745,11 +743,11 @@ uncertainty:
 
 Candidate confidence rule:
 
-[
+\[
 Conf(E)
-\le
-\min_{p\in LB(E)} Conf(p)
-]
+\\le
+\\min\_{p\\in LB(E)} Conf(p)
+\]
 
 unless weak premises are independently revalidated.
 
@@ -763,9 +761,9 @@ weak observation ancestry
 weakly supported entity conclusion
 ```
 
----
+______________________________________________________________________
 
-# 18. Failure Modes
+## 18. Failure Modes
 
 Purpose failure occurs when L04 ceases to preserve its declared role or boundaries.
 
@@ -823,9 +821,9 @@ proposal/commit collapse
 UNKNOWN/GAP treated as PASS
 ```
 
----
+______________________________________________________________________
 
-# 19. Repair / Recovery
+## 19. Repair / Recovery
 
 Purpose-preserving repair must restore the earliest violated distinction rather than merely repairing the final entity label.
 
@@ -857,9 +855,9 @@ PROPOSE REPAIRED STATE
 
 Repair must not redefine the purpose merely to make a broken implementation appear compliant.
 
----
+______________________________________________________________________
 
-# 20. Tests / Validators
+## 20. Tests / Validators
 
 ```text
 PUR-T01
@@ -949,9 +947,9 @@ formal_verification: false
 empirical_validation: false
 ```
 
----
+______________________________________________________________________
 
-# 21. Falsifiers
+## 21. Falsifiers
 
 Revise this purpose contract if authoritative direct L04 canon establishes:
 
@@ -979,9 +977,9 @@ different failure/repair obligations
 
 A direct canonical source that contradicts any MODEL purpose clause invalidates that clause and dependent sections without requiring unrelated AMOS structures to be discarded.
 
----
+______________________________________________________________________
 
-# 22. Gap Status
+## 22. Gap Status
 
 ```yaml
 gap_status:
@@ -1055,9 +1053,9 @@ COSMETIC:
 formatting / identifiers
 ```
 
----
+______________________________________________________________________
 
-# 23. RSCF Completion State
+## 23. RSCF Completion State
 
 ```yaml
 rscf:
@@ -1156,9 +1154,9 @@ rscf:
     validation: UNKNOWN_GAP
 ```
 
----
+______________________________________________________________________
 
-# 24. Completion State
+## 24. Completion State
 
 ```yaml
 completion_state:
@@ -1236,9 +1234,9 @@ completion_state:
     MODEL
 ```
 
----
+______________________________________________________________________
 
-# 25. Hard Boundaries
+## 25. Hard Boundaries
 
 ```text
 PLACEHOLDER != IMPLEMENTED
@@ -1284,15 +1282,15 @@ HIGHER SCALE != HIGHER TRUTH
 COGNITIVE SUCCESS != COMMIT AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 26. Governing Purpose Contract
+## 26. Governing Purpose Contract
 
 > **`L04_OBJECT_ENTITY_FORMATION` SHALL provide AMOS with a governed representational layer for forming object candidates from admitted perceptual structure and for constructing, comparing, challenging, maintaining, and revising entity, continuity, and identity hypotheses across observations, time, memory, and H/M/L scales. L04 SHALL preserve the distinction between percept, object, entity, identity hypothesis, persistent representation, and external referent; SHALL preserve provenance, scope, regime, observer context, freshness, contradictions, competing hypotheses, uncertainty, and load-bearing dependencies; and SHALL prevent similarity, recurrence, memory, coherence, aggregation, or repeated derivation from being promoted into unsupported identity or reality claims. L04 MAY propose object/entity state and repair actions but SHALL NOT infer durable authority from cognitive capability. Critical missing evidence SHALL remain `UNKNOWN/GAP`, `COMPETING`, `CONDITIONAL`, or `QUARANTINED` rather than being silently converted to `PASS`.**
 
----
+______________________________________________________________________
 
-# 27. Canon Boundary
+## 27. Canon Boundary
 
 ```text
 SOURCE-ALIGNED:
@@ -1395,22 +1393,27 @@ NOT ESTABLISHED
 
 ```
 ```
----
+
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: l04_object_entity_formation_primitives_cognitive_matrix_purpose
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L04_OBJECT_ENTITY_FORMATION/L04_OBJECT_ENTITY_FORMATION_PRIMITIVES_COGNITIVE_MATRIX_PURPOSE.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L04_OBJECT_ENTITY_FORMATION/L04_OBJECT_ENTITY_FORMATION_MOC|L04_OBJECT_ENTITY_FORMATION_MOC]]

@@ -1,15 +1,18 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: INDEX SUPERSESSION CANON README
 type: index
 source: 01_CANON/08_SUPERSESSION/00_INDEX
 tags:
-- 00_INDEX
-- canon/universe
-- readme
-- law-hierarchy
-- canon
-- routing-policy-validation-receipt
-- authz-engine-validation-receipt
+  - 00_INDEX
+  - canon/universe
+  - readme
+  - law-hierarchy
+  - canon
+  - routing-policy-validation-receipt
+  - authz-engine-validation-receipt
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -67,9 +70,9 @@ what has actually been committed
 what remains historically recoverable
 ```
 
----
+______________________________________________________________________
 
-# 2. Canonical role of supersession
+## 2. Canonical role of supersession
 
 AMOS treats supersession as a governed lineage transition rather than ordinary replacement.
 
@@ -123,9 +126,9 @@ supersession:
 
 The precise executable schema remains dependent on the sibling normative contract.
 
----
+______________________________________________________________________
 
-# 3. Index
+## 3. Index
 
 Primary sibling artifacts:
 
@@ -156,9 +159,9 @@ These links provide navigation.
 
 Their presence does not prove that the referenced artifact exists, is current, is validated, or is applicable to a particular operation.
 
----
+______________________________________________________________________
 
-# 4. Source / canon references
+## 4. Source / canon references
 
 This artifact is governed conceptually by the AMOS canon hierarchy and inherits the integrity constraints of the wider AMOS architecture.
 
@@ -193,9 +196,9 @@ Where these references disagree, the index must not silently choose a winner.
 
 The conflict must be exposed to the governing canon/supersession mechanism.
 
----
+______________________________________________________________________
 
-# 5. Definition
+## 5. Definition
 
 A **supersession** is a governed relation declaring that an identified artifact, version, rule, model, schema, mapping, or canonical state is replaced for a defined scope by another identified artifact or state.
 
@@ -231,9 +234,9 @@ A_v2 is empirically verified
 A_v1 may be destroyed
 ```
 
----
+______________________________________________________________________
 
-# 6. Scope
+## 6. Scope
 
 This index covers canonical resolution of supersession artifacts under:
 
@@ -270,9 +273,9 @@ It does not independently govern:
 
 Those remain responsibilities of their respective planes and contracts.
 
----
+______________________________________________________________________
 
-# 7. Indexing rule
+## 7. Indexing rule
 
 Within its own directory, this index resolves artifacts by basename.
 
@@ -322,9 +325,9 @@ mutation = DENIED
 
 Only a uniquely resolved artifact satisfying required identity constraints may proceed.
 
----
+______________________________________________________________________
 
-# 8. Identity contract
+## 8. Identity contract
 
 Supersession must operate on stable identities, not merely human-readable names.
 
@@ -359,9 +362,9 @@ same path != same content
 same content != same authority state
 ```
 
----
+______________________________________________________________________
 
-# 9. Typed inputs
+## 9. Typed inputs
 
 The index may conceptually consume:
 
@@ -391,9 +394,9 @@ RESTORED_FROM
 
 These relation labels remain AMOS model semantics unless bound by the normative supersession contract.
 
----
+______________________________________________________________________
 
-# 10. Typed outputs
+## 10. Typed outputs
 
 Conceptual output:
 
@@ -431,9 +434,9 @@ AMBIGUOUS
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 11. State variables
+## 11. State variables
 
 Conceptual state variables include:
 
@@ -454,9 +457,9 @@ index_state:
 
 The existence of these conceptual variables does not claim that a specific runtime persistence implementation currently exists.
 
----
+______________________________________________________________________
 
-# 12. Supersession state machine
+## 12. Supersession state machine
 
 A governed supersession should distinguish at least:
 
@@ -501,9 +504,9 @@ COMMITTED
 
 into one state.
 
----
+______________________________________________________________________
 
-# 13. Operators
+## 13. Operators
 
 Conceptual index operators include:
 
@@ -527,9 +530,9 @@ EMIT_RESOLUTION_RECEIPT(result)
 
 Mutation operators belong to governed supersession/control-plane paths and are not granted by this README.
 
----
+______________________________________________________________________
 
-# 14. Core invariants
+## 14. Core invariants
 
 ### I-SUP-001 — Identity before supersession
 
@@ -589,9 +592,9 @@ Ambiguous identity, version, scope, regime, authority, or epoch prevents consequ
 UNKNOWN/GAP != PASS
 ```
 
----
+______________________________________________________________________
 
-# 15. Persistent provenance
+## 15. Persistent provenance
 
 Supersession is a provenance event.
 
@@ -627,9 +630,9 @@ successor → predecessor
 
 A one-way pointer that destroys recoverability is insufficient for strong canonical lineage.
 
----
+______________________________________________________________________
 
-# 16. Dependency propagation
+## 16. Dependency propagation
 
 Supersession may affect downstream conclusions.
 
@@ -662,9 +665,9 @@ Only affected descendants require invalidation or revalidation.
 
 This preserves unaffected work and avoids unnecessary global recomputation.
 
----
+______________________________________________________________________
 
-# 17. Atomic multi-RSCF implications
+## 17. Atomic multi-RSCF implications
 
 A supersession operation may touch multiple RSCF nodes.
 
@@ -693,9 +696,9 @@ This is a model-level integrity requirement.
 
 It does not assert that this README implements distributed atomic transactions.
 
----
+______________________________________________________________________
 
-# 18. Epoch semantics
+## 18. Epoch semantics
 
 Supersession may be time- or epoch-sensitive.
 
@@ -727,9 +730,9 @@ When temporal applicability matters and epoch cannot be resolved:
 temporal_status = UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 19. Scope and regime firewall
+## 19. Scope and regime firewall
 
 Supersession must inherit an applicability envelope.
 
@@ -763,9 +766,9 @@ A' supersedes A for R2
 
 unless explicitly governed.
 
----
+______________________________________________________________________
 
-# 20. H/M/L applicability
+## 20. H/M/L applicability
 
 The supersession index participates across AMOS fractal resolution levels.
 
@@ -811,9 +814,9 @@ L only when decision-changing
 raw evidence only when required
 ```
 
----
+______________________________________________________________________
 
-# 21. RSCF semantics
+## 21. RSCF semantics
 
 Each consequential supersession conclusion should conceptually carry an RSCF-compatible proof capsule.
 
@@ -854,9 +857,9 @@ confidence_ceiling: 0
 
 Confidence must not exceed the weakest unresolved load-bearing premise.
 
----
+______________________________________________________________________
 
-# 22. Competing successors
+## 22. Competing successors
 
 AMOS must not force convergence when multiple successor candidates remain genuinely unresolved.
 
@@ -885,9 +888,9 @@ pick first indexed
 
 The preferred next action is the cheapest high-information test capable of discriminating between B and C.
 
----
+______________________________________________________________________
 
-# 23. Provenance independence
+## 23. Provenance independence
 
 Multiple supporting references do not necessarily represent independent evidence.
 
@@ -910,9 +913,9 @@ Therefore:
 
 Supersession validation should detect correlated ancestry where it materially affects confidence.
 
----
+______________________________________________________________________
 
-# 24. Causal boundary
+## 24. Causal boundary
 
 Supersession is primarily a canonical/lineage relation.
 
@@ -933,9 +936,9 @@ A will cause improved outcomes
 
 Such claims require appropriately typed evidence.
 
----
+______________________________________________________________________
 
-# 25. Control-plane requirements
+## 25. Control-plane requirements
 
 Consequential supersession must pass applicable control-plane gates.
 
@@ -968,9 +971,9 @@ according to the governing contract.
 
 No gate may be inferred passed merely because no failure was observed.
 
----
+______________________________________________________________________
 
-# 26. Authority model
+## 26. Authority model
 
 The index possesses navigation capability only.
 
@@ -991,9 +994,9 @@ Authority must come from the appropriate governed authority reference.
 CAPABILITY != AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 27. Agents
+## 27. Agents
 
 Conceptual roles interacting with the subsystem may include:
 
@@ -1037,9 +1040,9 @@ These are architectural roles.
 
 Their description here does not prove executable implementations exist.
 
----
+______________________________________________________________________
 
-# 28. Required skills
+## 28. Required skills
 
 Relevant capabilities include:
 
@@ -1062,9 +1065,9 @@ gap classification
 
 Skill availability does not imply authority to act.
 
----
+______________________________________________________________________
 
-# 29. Canonical workflow
+## 29. Canonical workflow
 
 ```text
 REQUEST
@@ -1104,9 +1107,9 @@ COMMIT GATE
       REVALIDATE AFFECTED DESCENDANTS
 ```
 
----
+______________________________________________________________________
 
-# 30. Worked semantics
+## 30. Worked semantics
 
 Given an operation touching `SUPERSESSION · CANON README` within the Canon plane:
 
@@ -1192,9 +1195,9 @@ retain predecessor recoverability
 emit appropriate receipt where governed
 ```
 
----
+______________________________________________________________________
 
-# 31. MVCC / CAS conceptual requirements
+## 31. MVCC / CAS conceptual requirements
 
 Where concurrent mutation exists, supersession should avoid silently overwriting a state that changed after validation.
 
@@ -1223,9 +1226,9 @@ The operation must re-resolve dependencies rather than assume the previous valid
 
 This is an architectural reasoning requirement, not a claim that this Markdown artifact implements MVCC or CAS.
 
----
+______________________________________________________________________
 
-# 32. Persistence requirements
+## 32. Persistence requirements
 
 A committed supersession should preserve enough persistent state to reconstruct:
 
@@ -1247,9 +1250,9 @@ Persistence should survive ordinary navigation/index regeneration.
 
 If the index can be rebuilt but the provenance cannot, canonical lineage integrity is incomplete.
 
----
+______________________________________________________________________
 
-# 33. Observability boundary
+## 33. Observability boundary
 
 Observability may report:
 
@@ -1271,9 +1274,9 @@ METRIC != CANON
 
 The observability plane may provide evidence but cannot independently declare canonical supersession.
 
----
+______________________________________________________________________
 
-# 34. Failure modes
+## 34. Failure modes
 
 ### F-SUP-001 — Missing predecessor
 
@@ -1347,9 +1350,9 @@ Presence of a validation reference is treated as successful execution.
 
 **Result:** reject inference.
 
----
+______________________________________________________________________
 
-# 35. Repair and recovery
+## 35. Repair and recovery
 
 AMOS recovery should invalidate the smallest affected region.
 
@@ -1377,9 +1380,9 @@ Global recomputation is a last resort.
 
 A failed supersession path should not simply be retried without changed evidence or corrected state.
 
----
+______________________________________________________________________
 
-# 36. Rollback basin
+## 36. Rollback basin
 
 Before consequential supersession, the system should establish whether a safe rollback basin exists.
 
@@ -1400,9 +1403,9 @@ If rollback is required by governance but cannot be demonstrated:
 promotion = HOLD
 ```
 
----
+______________________________________________________________________
 
-# 37. Validation requirements
+## 37. Validation requirements
 
 A supersession transition should be tested across at least:
 
@@ -1434,9 +1437,9 @@ operationally-executed
 
 Passing one does not imply passing the others.
 
----
+______________________________________________________________________
 
-# 38. Validators
+## 38. Validators
 
 Conceptual validators:
 
@@ -1457,9 +1460,9 @@ V-SUP-012 LinkIntegrityValidator
 
 These names define architectural validator roles; they do not establish executable implementations.
 
----
+______________________________________________________________________
 
-# 39. Negative tests
+## 39. Negative tests
 
 Required negative cases include:
 
@@ -1487,9 +1490,9 @@ broken cross-plane reference
 
 Each negative case must fail visibly rather than silently defaulting to success.
 
----
+______________________________________________________________________
 
-# 40. Lineage-cycle test
+## 40. Lineage-cycle test
 
 Supersession lineage should normally reject cycles such as:
 
@@ -1509,9 +1512,9 @@ INVALID_LINEAGE
 
 because ordinary supersession represents directional canonical history.
 
----
+______________________________________________________________________
 
-# 41. Sensitivity test
+## 41. Sensitivity test
 
 Before a consequential supersession conclusion, identify the smallest premise capable of changing the decision.
 
@@ -1544,9 +1547,9 @@ UNKNOWN/GAP
 
 depending on severity.
 
----
+______________________________________________________________________
 
-# 42. Falsifiers
+## 42. Falsifiers
 
 A claim that a supersession is valid is falsified or invalidated by evidence such as:
 
@@ -1567,9 +1570,9 @@ A claim that a supersession is valid is falsified or invalidated by evidence suc
 
 Falsification should invalidate the dependent supersession conclusion, not unrelated canonical state.
 
----
+______________________________________________________________________
 
-# 43. Confidence ceiling
+## 43. Confidence ceiling
 
 Confidence is bounded by the weakest load-bearing premise.
 
@@ -1599,9 +1602,9 @@ confidence_ceiling = 0
 
 for a claim of committed supersession.
 
----
+______________________________________________________________________
 
-# 44. Evidence classes
+## 44. Evidence classes
 
 Supersession evidence must retain type.
 
@@ -1634,9 +1637,9 @@ Examples:
 
 Evidence types must not be silently upgraded.
 
----
+______________________________________________________________________
 
-# 45. Gap taxonomy
+## 45. Gap taxonomy
 
 Unresolved gaps should be classified:
 
@@ -1685,9 +1688,9 @@ EXPLANATORY
 COSMETIC
 ```
 
----
+______________________________________________________________________
 
-# 46. Current gaps
+## 46. Current gaps
 
 Automated link-integrity execution for this index remains:
 
@@ -1713,9 +1716,9 @@ must not be interpreted merely from their names as proof that:
 
 Until an applicable executed receipt is inspected and validated, executable binding remains conditional.
 
----
+______________________________________________________________________
 
-# 47. Promotion-gate checklist
+## 47. Promotion-gate checklist
 
 Before this artifact or its executable bindings are promoted beyond conditional model status:
 
@@ -1743,9 +1746,9 @@ Before this artifact or its executable bindings are promoted beyond conditional 
 - [ ] `UNKNOWN/GAP` fails closed
 - [ ] predecessor remains historically recoverable
 
----
+______________________________________________________________________
 
-# 48. Cross-plane bindings
+## 48. Cross-plane bindings
 
 ### Canon
 
@@ -1787,9 +1790,9 @@ Recovery:
 
 Operational procedures provide rollback, restoration, incident response, and lineage repair where governed.
 
----
+______________________________________________________________________
 
-# 49. Anti-regression rule
+## 49. Anti-regression rule
 
 A proposed successor must not be accepted merely because it is newer.
 
@@ -1822,11 +1825,11 @@ promotion = HOLD
 
 until repaired.
 
----
+______________________________________________________________________
 
-# 50. Supersession map semantics
+## 50. Supersession map semantics
 
-`` should represent lineage relationships without becoming the sole proof of those relationships.
+\`\` should represent lineage relationships without becoming the sole proof of those relationships.
 
 Conceptually:
 
@@ -1845,9 +1848,9 @@ The map is evidence about canonical topology.
 
 It does not independently create authority.
 
----
+______________________________________________________________________
 
-# 51. Index reconstruction rule
+## 51. Index reconstruction rule
 
 The index should be reconstructable from canonical artifacts and persistent provenance where the architecture supports such reconstruction.
 
@@ -1869,9 +1872,9 @@ Therefore the index should not be the only surviving location of critical supers
 
 If destroying the index destroys the lineage, the architecture has conflated navigation with canonical persistence.
 
----
+______________________________________________________________________
 
-# 52. Proof-capsule requirement
+## 52. Proof-capsule requirement
 
 For an important claim:
 
@@ -1917,9 +1920,9 @@ confidence_ceiling: bounded
 
 Only the smallest result-changing dependency closure should be loaded.
 
----
+______________________________________________________________________
 
-# 53. Stop conditions
+## 53. Stop conditions
 
 A supersession resolution is sufficient when three conditions are satisfied:
 
@@ -1937,9 +1940,9 @@ The next safe action is known.
 
 If these conditions are satisfied, further traversal should stop rather than accumulating redundant evidence.
 
----
+______________________________________________________________________
 
-# 54. Hard boundaries
+## 54. Hard boundaries
 
 ```text
 PLACEHOLDER != IMPLEMENTED
@@ -1960,9 +1963,9 @@ MULTIPLE REFERENCES != INDEPENDENT CONFIRMATION
 
 These boundaries are load-bearing.
 
----
+______________________________________________________________________
 
-# 55. Canonical index contract
+## 55. Canonical index contract
 
 The operational meaning of this README can be compressed to:
 
@@ -1994,9 +1997,9 @@ PERSIST PREDECESSOR + SUCCESSOR + RECEIPT
 REVALIDATE ONLY AFFECTED DESCENDANTS
 ```
 
----
+______________________________________________________________________
 
-# 56. RSCF completion state
+## 56. RSCF completion state
 
 ```yaml
 claim_class: AMOS_MODEL
@@ -2057,9 +2060,9 @@ gap_status:
   - DECISION_RELEVANT: artifact-specific executed validation receipt not established here
 ```
 
----
+______________________________________________________________________
 
-# 57. RSCF relations
+## 57. RSCF relations
 
 ```text
 RSCF-NODE
@@ -2091,9 +2094,9 @@ RSCF-RELATIONS:
 claim_class: AMOS_MODEL
 ```
 
----
+______________________________________________________________________
 
-# 58. Canon status
+## 58. Canon status
 
 ```yaml
 status:
@@ -2110,20 +2113,20 @@ status:
 
 The artifact is therefore suitable as a **full AMOS supersession index specification**, while executable implementation and artifact-specific validation remain explicitly separate claims.
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/08_SUPERSESSION/00_INDEX/SUPERSESSION_CANON_SUPERSESSION_CONTRACT|SUPERSESSION_CANON_SUPERSESSION_CONTRACT]] · [[01_CANON/08_SUPERSESSION/00_INDEX/SUPERSESSION_MAP|SUPERSESSION_MAP]]
 
----
+______________________________________________________________________
 
 **Origin architect / steward:** Trang Phan
 **Claim class:** `AMOS_MODEL`
 **Canonical status:** `CONDITIONAL`
 
----
-**MOC:** [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]]
+______________________________________________________________________
 
+**MOC:** [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]]

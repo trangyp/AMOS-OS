@@ -12,23 +12,23 @@ source: 01_CANON/02_UNIVERSE_CANON
 steward: Trang Phan
 system: AMOS OS
 tags:
-- amos-os
-- canon
-- universe_canon
-- execution
-- agency
-- action
-- commit
-- rollback
-- effects
-- p6_plane
-- rscf
-- canon/universe
-- p1-reality-environment
-- p2-sense-evidence
-- p3-knowledge-memory
-- p4-cognition-models
-- p5-governance-authority
+  - amos-os
+  - canon
+  - universe_canon
+  - execution
+  - agency
+  - action
+  - commit
+  - rollback
+  - effects
+  - p6_plane
+  - rscf
+  - canon/universe
+  - p1-reality-environment
+  - p2-sense-evidence
+  - p3-knowledge-memory
+  - p4-cognition-models
+  - p5-governance-authority
 title: P6 EXECUTION AGENCY
 type: note
 version: 0.2.0
@@ -50,9 +50,9 @@ version: 0.2.0
 
 **Implementation status:** `PARTIAL_OR_UNKNOWN`
 
----
+______________________________________________________________________
 
-# 1. Purpose
+## 1. Purpose
 
 `P6 Execution / Agency` defines the AMOS plane that converts **authorized intent** into controlled effects.
 
@@ -127,9 +127,9 @@ VERIFICATION
 CLOSE / RETRY / COMPENSATE / ROLLBACK
 ```
 
----
+______________________________________________________________________
 
-# 2. Canonical Questions
+## 2. Canonical Questions
 
 P6 must always be able to answer:
 
@@ -181,9 +181,9 @@ How is misuse detected?
 How is agency suspended or revoked?
 ```
 
----
+______________________________________________________________________
 
-# 3. Foundational Boundary
+## 3. Foundational Boundary
 
 Mandatory:
 
@@ -198,21 +198,24 @@ EXECUTION_REQUEST
 !=
 EFFECT
 ```
+
 ```text
 EFFECT
 !=
 VERIFIED_OUTCOME
 ```
+
 ```text
 COMMIT
 !=
 SUCCESS
 ```
+
 P6 exists precisely because permission and reality are separated by an execution process that can fail.
 
----
+______________________________________________________________________
 
-# 4. Execution Definition
+## 4. Execution Definition
 
 Within P6:
 
@@ -245,9 +248,9 @@ failure handling
 accountability
 ```
 
----
+______________________________________________________________________
 
-# 5. Agency Definition
+## 5. Agency Definition
 
 Within P6:
 
@@ -275,9 +278,10 @@ AGENCY
 !=
 UNBOUNDED AUTONOMY
 ```
----
 
-# 6. Agency Requires Authority
+______________________________________________________________________
+
+## 6. Agency Requires Authority
 
 Conceptually:
 
@@ -301,9 +305,9 @@ EFFECTFUL_AGENCY
 BLOCKED
 ```
 
----
+______________________________________________________________________
 
-# 7. P6 Authority Boundary
+## 7. P6 Authority Boundary
 
 This specification explicitly preserves:
 
@@ -325,9 +329,9 @@ does not imply:
 P6 MAY EXECUTE
 ```
 
----
+______________________________________________________________________
 
-# 8. External Executor Boundary
+## 8. External Executor Boundary
 
 The AMOS Full Brain architecture does not itself grant autonomous world action.
 
@@ -347,9 +351,9 @@ AMOS reasoning
 → unrestricted effect
 ```
 
----
+______________________________________________________________________
 
-# 9. Execution Request
+## 9. Execution Request
 
 Recommended representation:
 
@@ -391,9 +395,9 @@ execution_request:
   status: REQUESTED
 ```
 
----
+______________________________________________________________________
 
-# 10. Intent vs Request
+## 10. Intent vs Request
 
 Intent may express:
 
@@ -415,9 +419,9 @@ INTENT
 EXECUTION_REQUEST
 ```
 
----
+______________________________________________________________________
 
-# 11. Request Validation
+## 11. Request Validation
 
 Before effect:
 
@@ -433,9 +437,9 @@ check idempotency
 check environment
 ```
 
----
+______________________________________________________________________
 
-# 12. Worker
+## 12. Worker
 
 A worker is a bounded execution principal responsible for performing an approved class of effects.
 
@@ -452,9 +456,9 @@ human-operated executor
 
 Exact worker classes remain implementation-specific.
 
----
+______________________________________________________________________
 
-# 13. Worker Gate — P6-1
+## 13. Worker Gate — P6-1
 
 Source-supplied law:
 
@@ -477,9 +481,9 @@ I-RPOL-017
 
 The exact normative definition of `I-RPOL-017` must be resolved from its canonical source before claiming full implementation compliance.
 
----
+______________________________________________________________________
 
-# 14. Worker Gate Principle
+## 14. Worker Gate Principle
 
 Conceptually:
 
@@ -493,9 +497,9 @@ Effect
 
 No bypass path should be treated as canonical execution.
 
----
+______________________________________________________________________
 
-# 15. Worker Registration
+## 15. Worker Registration
 
 A worker should be addressable through:
 
@@ -527,9 +531,9 @@ worker:
   status: null
 ```
 
----
+______________________________________________________________________
 
-# 16. Worker Capability
+## 16. Worker Capability
 
 Capability defines:
 
@@ -551,9 +555,9 @@ WORKER_CAPABILITY
 WORKER_AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 17. Worker State
+## 17. Worker State
 
 Suggested:
 
@@ -579,9 +583,9 @@ REVOKED
 RETIRED
 ```
 
----
+______________________________________________________________________
 
-# 18. Worker Lease
+## 18. Worker Lease
 
 A worker may receive temporary authorization to execute a job.
 
@@ -607,9 +611,9 @@ worker_lease:
   status: null
 ```
 
----
+______________________________________________________________________
 
-# 19. Lease Boundary
+## 19. Lease Boundary
 
 ```text
 WORKER EXISTS
@@ -617,15 +621,15 @@ WORKER EXISTS
 WORKER CURRENTLY LEASED
 ```
 
----
+______________________________________________________________________
 
-# 20. Lease Expiry
+## 20. Lease Expiry
 
 A worker should not continue initiating new effects under an expired lease unless protocol explicitly permits safe completion.
 
----
+______________________________________________________________________
 
-# 21. Job
+## 21. Job
 
 A job is a scheduled unit of execution.
 
@@ -651,9 +655,9 @@ job:
   completed_at: null
 ```
 
----
+______________________________________________________________________
 
-# 22. Job State Machine
+## 22. Job State Machine
 
 Suggested:
 
@@ -695,9 +699,9 @@ ROLLED_BACK
 QUARANTINED
 ```
 
----
+______________________________________________________________________
 
-# 23. State Transition Discipline
+## 23. State Transition Discipline
 
 Workers should not skip semantic states if doing so would destroy accountability.
 
@@ -711,9 +715,9 @@ VERIFIED
 
 without an identifiable effect/commit state may be insufficient for consequential operations.
 
----
+______________________________________________________________________
 
-# 24. Execution Context
+## 24. Execution Context
 
 Every effect should bind to relevant:
 
@@ -737,9 +741,9 @@ transaction
 time
 ```
 
----
+______________________________________________________________________
 
-# 25. Execution Context Object
+## 25. Execution Context Object
 
 ```yaml
 execution_context:
@@ -769,9 +773,9 @@ execution_context:
   deadline: null
 ```
 
----
+______________________________________________________________________
 
-# 26. Environment Match
+## 26. Environment Match
 
 An operation validated in one environment should not silently execute in another.
 
@@ -783,9 +787,9 @@ AUTHORIZED_FOR_ENV_A
 AUTHORIZED_FOR_ENV_B
 ```
 
----
+______________________________________________________________________
 
-# 27. Version Binding
+## 27. Version Binding
 
 Execution should target the exact material state approved upstream.
 
@@ -809,9 +813,9 @@ STALE_EXECUTION_REQUEST
 
 unless transition explicitly tolerates version drift.
 
----
+______________________________________________________________________
 
-# 28. CAS Concept
+## 28. CAS Concept
 
 Conceptually:
 
@@ -826,17 +830,17 @@ This reflects compare-and-swap reasoning discipline.
 
 It does not assert a literal implementation unless evidenced.
 
----
+______________________________________________________________________
 
-# 29. MVCC Concept
+## 29. MVCC Concept
 
 P6 may conceptually preserve multiple state versions to avoid destructive concurrent overwrites.
 
 Exact MVCC implementation remains a gap unless source/implementation defines it.
 
----
+______________________________________________________________________
 
-# 30. Transaction
+## 30. Transaction
 
 A transaction groups state changes that require shared commit semantics.
 
@@ -866,9 +870,9 @@ transaction:
   rollback_ref: null
 ```
 
----
+______________________________________________________________________
 
-# 31. Transaction Boundary
+## 31. Transaction Boundary
 
 ```text
 MULTIPLE OPERATIONS
@@ -878,9 +882,9 @@ TRANSACTION
 
 unless atomicity/consistency semantics are actually defined.
 
----
+______________________________________________________________________
 
-# 32. Atomicity
+## 32. Atomicity
 
 Atomic intent means:
 
@@ -896,9 +900,9 @@ the intended transaction does not become authoritative
 
 when the system supports such semantics.
 
----
+______________________________________________________________________
 
-# 33. Atomicity Boundary
+## 33. Atomicity Boundary
 
 External distributed effects may not support literal rollback.
 
@@ -914,9 +918,9 @@ from:
 BEST-EFFORT ORCHESTRATION
 ```
 
----
+______________________________________________________________________
 
-# 34. Atomic Multi-Effect Execution
+## 34. Atomic Multi-Effect Execution
 
 Where multiple effects form one logical commitment:
 
@@ -928,9 +932,9 @@ Effect C
 
 partial success must not silently be reported as full success.
 
----
+______________________________________________________________________
 
-# 35. Partial Failure
+## 35. Partial Failure
 
 Example:
 
@@ -948,9 +952,9 @@ PARTIAL_FAILURE
 
 or a more specific typed state.
 
----
+______________________________________________________________________
 
-# 36. Compensation
+## 36. Compensation
 
 Where effects cannot be literally rolled back, a compensating effect may restore acceptable state.
 
@@ -962,15 +966,15 @@ COMPENSATION
 ROLLBACK
 ```
 
----
+______________________________________________________________________
 
-# 37. Rollback
+## 37. Rollback
 
 Rollback restores a prior state using reversible state history.
 
----
+______________________________________________________________________
 
-# 38. Compensation Object
+## 38. Compensation Object
 
 ```yaml
 compensation:
@@ -990,9 +994,9 @@ compensation:
   status: null
 ```
 
----
+______________________________________________________________________
 
-# 39. Rollback Object
+## 39. Rollback Object
 
 ```yaml
 rollback:
@@ -1014,17 +1018,17 @@ rollback:
   result: null
 ```
 
----
+______________________________________________________________________
 
-# 40. Irreversible Effect
+## 40. Irreversible Effect
 
 An effect is irreversible when the prior state cannot be reliably restored.
 
 Such effects require stronger P5 governance and P6 execution safeguards.
 
----
+______________________________________________________________________
 
-# 41. Irreversible Effect Gate
+## 41. Irreversible Effect Gate
 
 Before execution require stronger checks for:
 
@@ -1046,15 +1050,15 @@ final confirmation
 
 where stakes justify them.
 
----
+______________________________________________________________________
 
-# 42. Commit
+## 42. Commit
 
 A commit is the transition at which an intended effect becomes authoritative within the effect domain.
 
----
+______________________________________________________________________
 
-# 43. Commit Boundary
+## 43. Commit Boundary
 
 Mandatory:
 
@@ -1064,9 +1068,9 @@ ATTEMPTED
 COMMITTED
 ```
 
----
+______________________________________________________________________
 
-# 44. Commit Point
+## 44. Commit Point
 
 Each consequential worker path should define its commit point.
 
@@ -1078,9 +1082,9 @@ COMMIT_STATE
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 45. Commit Record
+## 45. Commit Record
 
 ```yaml
 commit:
@@ -1106,9 +1110,9 @@ commit:
   digest: null
 ```
 
----
+______________________________________________________________________
 
-# 46. Receipt Everything — P6-2
+## 46. Receipt Everything — P6-2
 
 Source-supplied law:
 
@@ -1132,9 +1136,9 @@ INV-035
 
 The exact definitions and test requirements of these invariant IDs remain dependent on their canonical source artifacts.
 
----
+______________________________________________________________________
 
-# 47. Receipt
+## 47. Receipt
 
 A receipt is a persistent record that a specific execution transition was reported as committed.
 
@@ -1172,9 +1176,9 @@ receipt:
   provenance_refs: []
 ```
 
----
+______________________________________________________________________
 
-# 48. Receipt Boundary
+## 48. Receipt Boundary
 
 Mandatory:
 
@@ -1188,9 +1192,9 @@ A receipt proves that a particular execution path recorded a commit under its se
 
 Independent observation may still be required to verify external effect.
 
----
+______________________________________________________________________
 
-# 49. Receipt vs Verification
+## 49. Receipt vs Verification
 
 ```text
 COMMIT_RECEIPT
@@ -1198,9 +1202,9 @@ COMMIT_RECEIPT
 OUTCOME_VERIFICATION
 ```
 
----
+______________________________________________________________________
 
-# 50. Digest
+## 50. Digest
 
 A digest may bind receipt to content/state.
 
@@ -1214,9 +1218,9 @@ SEMANTIC_CORRECTNESS
 
 A hash proves identity/integrity properties, not that the operation was appropriate.
 
----
+______________________________________________________________________
 
-# 51. Append-Only Ledger
+## 51. Append-Only Ledger
 
 The source proposal requires an append-only ledger for commit digests.
 
@@ -1231,9 +1235,9 @@ Receipt_3
 
 where prior records are not silently rewritten.
 
----
+______________________________________________________________________
 
-# 52. Ledger Boundary
+## 52. Ledger Boundary
 
 ```text
 APPEND_ONLY
@@ -1243,9 +1247,9 @@ IMMUTABLE UNDER ALL THREAT MODELS
 
 unless implementation and security guarantees establish stronger properties.
 
----
+______________________________________________________________________
 
-# 53. Ledger Record
+## 53. Ledger Record
 
 ```yaml
 ledger_entry:
@@ -1265,9 +1269,9 @@ ledger_entry:
 
 Exact chaining requirements remain source-dependent.
 
----
+______________________________________________________________________
 
-# 54. Ledger Integrity
+## 54. Ledger Integrity
 
 A ledger should allow detection of:
 
@@ -1283,9 +1287,9 @@ duplicate receipt
 
 to the extent supported by implementation.
 
----
+______________________________________________________________________
 
-# 55. Persistent Provenance
+## 55. Persistent Provenance
 
 Receipt lineage should connect:
 
@@ -1300,15 +1304,15 @@ proposal
 → verification
 ```
 
----
+______________________________________________________________________
 
-# 56. Provenance Closure
+## 56. Provenance Closure
 
 Consequential effects should be reconstructable without depending on hidden internal reasoning.
 
----
+______________________________________________________________________
 
-# 57. Idempotency
+## 57. Idempotency
 
 Idempotency protects against duplicate logical effects.
 
@@ -1324,9 +1328,9 @@ one logical effect
 
 for idempotency key `K` under defined semantics.
 
----
+______________________________________________________________________
 
-# 58. Idempotency Boundary
+## 58. Idempotency Boundary
 
 Mandatory:
 
@@ -1336,9 +1340,9 @@ RETRYABLE
 IDEMPOTENT
 ```
 
----
+______________________________________________________________________
 
-# 59. Idempotency Key
+## 59. Idempotency Key
 
 Recommended:
 
@@ -1360,9 +1364,9 @@ idempotency:
   previous_result_ref: null
 ```
 
----
+______________________________________________________________________
 
-# 60. Idempotency Scope
+## 60. Idempotency Scope
 
 A key should be scoped sufficiently to prevent accidental collisions.
 
@@ -1380,9 +1384,9 @@ time window
 request digest
 ```
 
----
+______________________________________________________________________
 
-# 61. Duplicate Request
+## 61. Duplicate Request
 
 If same idempotency identity returns:
 
@@ -1392,9 +1396,9 @@ same request
 
 worker should reuse prior result where semantics permit.
 
----
+______________________________________________________________________
 
-# 62. Key Reuse Conflict
+## 62. Key Reuse Conflict
 
 If the same key is used with materially different payload:
 
@@ -1404,9 +1408,9 @@ IDEMPOTENCY_CONFLICT
 
 should block or quarantine execution.
 
----
+______________________________________________________________________
 
-# 63. Retry
+## 63. Retry
 
 Retries may occur because of:
 
@@ -1422,9 +1426,9 @@ dependency unavailability
 temporary contention
 ```
 
----
+______________________________________________________________________
 
-# 64. Retry Safety
+## 64. Retry Safety
 
 Before retry, determine:
 
@@ -1440,9 +1444,9 @@ is operation idempotent?
 can state be safely re-read?
 ```
 
----
+______________________________________________________________________
 
-# 65. Unknown Effect State
+## 65. Unknown Effect State
 
 Critical execution state:
 
@@ -1460,9 +1464,9 @@ before acknowledgement
 
 Do not automatically retry unless duplication is safe.
 
----
+______________________________________________________________________
 
-# 66. Exactly-Once Boundary
+## 66. Exactly-Once Boundary
 
 Distributed systems may provide:
 
@@ -1478,9 +1482,9 @@ under conditions.
 
 P6 should not claim literal universal exactly-once execution unless implementation proves it.
 
----
+______________________________________________________________________
 
-# 67. Delivery vs Effect
+## 67. Delivery vs Effect
 
 Mandatory:
 
@@ -1490,17 +1494,17 @@ MESSAGE DELIVERED ONCE
 EFFECT OCCURRED ONCE
 ```
 
----
+______________________________________________________________________
 
-# 68. Deduplication
+## 68. Deduplication
 
 Deduplication identifies repeated logical requests.
 
 It should bind to logical identity rather than surface formatting alone.
 
----
+______________________________________________________________________
 
-# 69. Replay
+## 69. Replay
 
 A replay is reprocessing prior command/event.
 
@@ -1516,15 +1520,15 @@ malicious duplicate
 accidental retry
 ```
 
----
+______________________________________________________________________
 
-# 70. Replay Protection
+## 70. Replay Protection
 
 Effectful commands should reject stale/unauthorized replays where relevant.
 
----
+______________________________________________________________________
 
-# 71. Budgeted Action — P6-3
+## 71. Budgeted Action — P6-3
 
 Source-supplied law:
 
@@ -1547,9 +1551,9 @@ INV-041
 
 The exact invariant definition, units, limits, and required accounting semantics must be resolved from its canonical source.
 
----
+______________________________________________________________________
 
-# 72. Budget
+## 72. Budget
 
 A budget limits permitted resource consumption.
 
@@ -1577,9 +1581,9 @@ effect count
 risk capacity
 ```
 
----
+______________________________________________________________________
 
-# 73. Budget Object
+## 73. Budget Object
 
 ```yaml
 budget:
@@ -1607,15 +1611,15 @@ budget:
   status: null
 ```
 
----
+______________________________________________________________________
 
-# 74. Principal Accounting
+## 74. Principal Accounting
 
 Cost should be attributable to an identified principal or governed execution identity.
 
----
+______________________________________________________________________
 
-# 75. Cumulative Accounting
+## 75. Cumulative Accounting
 
 Conceptually:
 
@@ -1631,9 +1635,9 @@ Cost_principal(t)
 
 Exact accounting semantics remain implementation-specific.
 
----
+______________________________________________________________________
 
-# 76. Budget Reservation
+## 76. Budget Reservation
 
 Before execution, resources may be reserved.
 
@@ -1653,9 +1657,9 @@ RESERVED
 RELEASED
 ```
 
----
+______________________________________________________________________
 
-# 77. Reservation Boundary
+## 77. Reservation Boundary
 
 ```text
 RESERVED
@@ -1663,9 +1667,9 @@ RESERVED
 CONSUMED
 ```
 
----
+______________________________________________________________________
 
-# 78. Budget Overrun
+## 78. Budget Overrun
 
 If actual cost exceeds reservation:
 
@@ -1675,9 +1679,9 @@ BUDGET_OVERRUN
 
 must be surfaced.
 
----
+______________________________________________________________________
 
-# 79. Budget Gate
+## 79. Budget Gate
 
 Before execution:
 
@@ -1689,15 +1693,15 @@ AvailableBudget
 
 where budget policy requires it.
 
----
+______________________________________________________________________
 
-# 80. Cost Estimation
+## 80. Cost Estimation
 
 Cost estimate should retain uncertainty when actual cost is variable.
 
----
+______________________________________________________________________
 
-# 81. Budget Exhaustion
+## 81. Budget Exhaustion
 
 When budget reaches its limit:
 
@@ -1709,9 +1713,9 @@ ESCALATE
 
 according to policy.
 
----
+______________________________________________________________________
 
-# 82. Budget Is Not Authority
+## 82. Budget Is Not Authority
 
 Mandatory:
 
@@ -1721,9 +1725,9 @@ AVAILABLE_BUDGET
 AUTHORIZATION
 ```
 
----
+______________________________________________________________________
 
-# 83. Authority Is Not Budget
+## 83. Authority Is Not Budget
 
 Likewise:
 
@@ -1733,41 +1737,41 @@ AUTHORIZED
 FUNDED
 ```
 
----
+______________________________________________________________________
 
-# 84. Quota
+## 84. Quota
 
 Quota limits quantity of a resource/action.
 
 Budget and quota may overlap but should not be assumed identical.
 
----
+______________________________________________________________________
 
-# 85. Rate Limit
+## 85. Rate Limit
 
 Controls consumption per time window.
 
----
+______________________________________________________________________
 
-# 86. Concurrency Limit
+## 86. Concurrency Limit
 
 Controls simultaneous operations.
 
----
+______________________________________________________________________
 
-# 87. Resource Isolation
+## 87. Resource Isolation
 
 One principal should not consume another principal's budget without explicit transfer/governance.
 
----
+______________________________________________________________________
 
-# 88. Budget Transfer
+## 88. Budget Transfer
 
 Any transfer between principals should itself be governed and receipted where material.
 
----
+______________________________________________________________________
 
-# 89. Agency Budget
+## 89. Agency Budget
 
 Agency may be bounded not only by permission but by resource envelope.
 
@@ -1783,9 +1787,9 @@ AffordableActions
 ExecutableActions
 ```
 
----
+______________________________________________________________________
 
-# 90. Execution Deadline
+## 90. Execution Deadline
 
 A request may expire before execution.
 
@@ -1797,9 +1801,9 @@ DEADLINE_EXCEEDED
 
 should not begin unless policy explicitly permits late execution.
 
----
+______________________________________________________________________
 
-# 91. Timeout
+## 91. Timeout
 
 Timeout means an expected execution phase exceeded its time bound.
 
@@ -1813,9 +1817,9 @@ CONFIRMED FAILURE
 
 The effect may already have occurred.
 
----
+______________________________________________________________________
 
-# 92. Cancellation
+## 92. Cancellation
 
 Cancellation attempts to prevent future execution.
 
@@ -1827,15 +1831,15 @@ CANCEL_REQUESTED
 CANCELLED
 ```
 
----
+______________________________________________________________________
 
-# 93. Cancellation Boundary
+## 93. Cancellation Boundary
 
 Once commit passes an irreversible point, cancellation may be impossible.
 
----
+______________________________________________________________________
 
-# 94. Kill vs Cancel
+## 94. Kill vs Cancel
 
 Forcefully terminating a worker may leave external effects in unknown state.
 
@@ -1847,9 +1851,9 @@ KILL_WORKER
 ROLLBACK_EFFECT
 ```
 
----
+______________________________________________________________________
 
-# 95. Worker Crash
+## 95. Worker Crash
 
 A worker crash should be classified by execution phase.
 
@@ -1869,27 +1873,27 @@ after receipt before verification
 
 These cases require different recovery.
 
----
+______________________________________________________________________
 
-# 96. Crash Recovery
+## 96. Crash Recovery
 
 Recovery should begin from persisted execution state, not assumption.
 
----
+______________________________________________________________________
 
-# 97. Durable Intent
+## 97. Durable Intent
 
 Where needed, execution intent should be persisted before effect to support crash reconstruction.
 
----
+______________________________________________________________________
 
-# 98. Durable Receipt
+## 98. Durable Receipt
 
 Where required, receipt should survive worker restart.
 
----
+______________________________________________________________________
 
-# 99. Recovery Object
+## 99. Recovery Object
 
 ```yaml
 recovery:
@@ -1909,9 +1913,9 @@ recovery:
   selected_action: null
 ```
 
----
+______________________________________________________________________
 
-# 100. Concurrency
+## 100. Concurrency
 
 Two workers may target shared state simultaneously.
 
@@ -1929,23 +1933,23 @@ shared-budget contention
 ordering dependency
 ```
 
----
+______________________________________________________________________
 
-# 101. Concurrent Authority
+## 101. Concurrent Authority
 
 Two principals may both be authorized but still conflict operationally.
 
 P5 permission does not eliminate P6 coordination need.
 
----
+______________________________________________________________________
 
-# 102. Serialization
+## 102. Serialization
 
 Certain transitions may require a total or partial order.
 
----
+______________________________________________________________________
 
-# 103. Causal Order
+## 103. Causal Order
 
 If:
 
@@ -1960,23 +1964,23 @@ B must not finalize
 before required A state is finalized
 ```
 
----
+______________________________________________________________________
 
-# 104. Causal Epoch
+## 104. Causal Epoch
 
 A conceptual causal epoch may group effects sharing a dependency/finality boundary.
 
 Exact runtime implementation remains source-dependent.
 
----
+______________________________________________________________________
 
-# 105. Finality
+## 105. Finality
 
 An effect is final when the execution system considers its authoritative state no longer subject to ordinary rollback/reordering under that protocol.
 
----
+______________________________________________________________________
 
-# 106. Finality Boundary
+## 106. Finality Boundary
 
 ```text
 FINAL
@@ -1986,9 +1990,9 @@ UNCHANGEABLE FOREVER
 
 A future governed transition may supersede it.
 
----
+______________________________________________________________________
 
-# 107. Shard-Local Finalization
+## 107. Shard-Local Finalization
 
 Where an effect has local dependency closure, it may finalize locally if:
 
@@ -2006,9 +2010,9 @@ required invariants hold
 
 This is a reasoning/architecture pattern unless implementation establishes literal shards.
 
----
+______________________________________________________________________
 
-# 108. Coordination Avoidance
+## 108. Coordination Avoidance
 
 P6 should avoid global coordination when local proof of safe execution is sufficient.
 
@@ -2020,9 +2024,9 @@ MUST NOT
 WEAKEN INTEGRITY
 ```
 
----
+______________________________________________________________________
 
-# 109. Escalate Coordination When
+## 109. Escalate Coordination When
 
 ```text
 shared mutable state
@@ -2044,15 +2048,15 @@ ambiguous execution ownership
 
 exists.
 
----
+______________________________________________________________________
 
-# 110. Effect
+## 110. Effect
 
 An effect is an observed or committed change attributable to an execution attempt.
 
----
+______________________________________________________________________
 
-# 111. Effect Object
+## 111. Effect Object
 
 ```yaml
 effect:
@@ -2080,9 +2084,9 @@ effect:
   verification_ref: null
 ```
 
----
+______________________________________________________________________
 
-# 112. Intended Effect vs Actual Effect
+## 112. Intended Effect vs Actual Effect
 
 Mandatory:
 
@@ -2092,17 +2096,17 @@ INTENDED_EFFECT
 ACTUAL_EFFECT
 ```
 
----
+______________________________________________________________________
 
-# 113. Side Effect
+## 113. Side Effect
 
 Any materially relevant change outside the declared target effect.
 
 Side effects should be surfaced when consequential.
 
----
+______________________________________________________________________
 
-# 114. Hidden Side Effect
+## 114. Hidden Side Effect
 
 An effect may occur outside current observability.
 
@@ -2114,15 +2118,15 @@ NO OBSERVED SIDE EFFECT
 NO SIDE EFFECT
 ```
 
----
+______________________________________________________________________
 
-# 115. Effect Scope
+## 115. Effect Scope
 
 Each execution should declare expected blast radius.
 
----
+______________________________________________________________________
 
-# 116. Blast Radius
+## 116. Blast Radius
 
 Conceptually:
 
@@ -2132,15 +2136,15 @@ BlastRadius
 set of potentially affected states/systems
 ```
 
----
+______________________________________________________________________
 
-# 117. Blast-Radius Gate
+## 117. Blast-Radius Gate
 
 Large blast radius should trigger stronger P5/P6 controls.
 
----
+______________________________________________________________________
 
-# 118. Sandboxed Execution
+## 118. Sandboxed Execution
 
 A sandbox restricts effect scope.
 
@@ -2152,9 +2156,9 @@ SANDBOX
 PRODUCTION
 ```
 
----
+______________________________________________________________________
 
-# 119. Dry Run
+## 119. Dry Run
 
 A dry run predicts or simulates an effect without committing the real target state.
 
@@ -2166,15 +2170,15 @@ DRY_RUN_SUCCESS
 REAL_EXECUTION_SUCCESS
 ```
 
----
+______________________________________________________________________
 
-# 120. Preview
+## 120. Preview
 
 A preview shows proposed changes prior to commit.
 
----
+______________________________________________________________________
 
-# 121. Plan
+## 121. Plan
 
 An execution plan enumerates expected operations before effect.
 
@@ -2198,9 +2202,9 @@ execution_plan:
   approval_ref: null
 ```
 
----
+______________________________________________________________________
 
-# 122. Plan/Execution Boundary
+## 122. Plan/Execution Boundary
 
 ```text
 PLAN
@@ -2208,9 +2212,9 @@ PLAN
 EXECUTION
 ```
 
----
+______________________________________________________________________
 
-# 123. Determinism
+## 123. Determinism
 
 A worker may be deterministic under specified inputs/environment.
 
@@ -2223,15 +2227,15 @@ same request
 
 when environment is nondeterministic or external.
 
----
+______________________________________________________________________
 
-# 124. Non-Deterministic Execution
+## 124. Non-Deterministic Execution
 
 Should preserve enough context to understand result variance.
 
----
+______________________________________________________________________
 
-# 125. Randomness
+## 125. Randomness
 
 If randomness affects effect:
 
@@ -2245,9 +2249,9 @@ distribution
 
 should be recorded where reproducibility matters.
 
----
+______________________________________________________________________
 
-# 126. Execution Provenance
+## 126. Execution Provenance
 
 Minimum:
 
@@ -2275,9 +2279,9 @@ receipt
 verification
 ```
 
----
+______________________________________________________________________
 
-# 127. Agency Provenance
+## 127. Agency Provenance
 
 For every consequential effect, AMOS should be able to answer:
 
@@ -2291,9 +2295,9 @@ through which worker?
 because of which request?
 ```
 
----
+______________________________________________________________________
 
-# 128. Accountability
+## 128. Accountability
 
 Accountability requires a reconstructable mapping:
 
@@ -2307,9 +2311,9 @@ Principal
 → Outcome
 ```
 
----
+______________________________________________________________________
 
-# 129. Outcome Verification
+## 129. Outcome Verification
 
 After commit:
 
@@ -2318,9 +2322,9 @@ observe target
 compare with intended result
 ```
 
----
+______________________________________________________________________
 
-# 130. Verification Object
+## 130. Verification Object
 
 ```yaml
 effect_verification:
@@ -2344,9 +2348,9 @@ effect_verification:
   verified_at: null
 ```
 
----
+______________________________________________________________________
 
-# 131. Verification State
+## 131. Verification State
 
 Suggested:
 
@@ -2366,9 +2370,9 @@ UNOBSERVABLE
 UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 132. Verification Boundary
+## 132. Verification Boundary
 
 Mandatory:
 
@@ -2378,21 +2382,21 @@ RECEIPT PRESENT
 EFFECT VERIFIED
 ```
 
----
+______________________________________________________________________
 
-# 133. Independent Verification
+## 133. Independent Verification
 
 For high-stakes actions, verifier may need independence from executor.
 
----
+______________________________________________________________________
 
-# 134. Self-Verification Risk
+## 134. Self-Verification Risk
 
 A worker claiming its own success may be insufficient when independent observation is required.
 
----
+______________________________________________________________________
 
-# 135. Observability
+## 135. Observability
 
 P6 execution should emit sufficient operational state to diagnose:
 
@@ -2414,9 +2418,9 @@ budget usage
 receipt generation
 ```
 
----
+______________________________________________________________________
 
-# 136. Execution Telemetry
+## 136. Execution Telemetry
 
 Potential:
 
@@ -2438,9 +2442,9 @@ receipt state
 verification state
 ```
 
----
+______________________________________________________________________
 
-# 137. Telemetry Boundary
+## 137. Telemetry Boundary
 
 ```text
 TELEMETRY
@@ -2450,9 +2454,9 @@ GOVERNANCE RECEIPT
 
 unless protocol explicitly makes it authoritative.
 
----
+______________________________________________________________________
 
-# 138. Event
+## 138. Event
 
 An execution event records a state transition.
 
@@ -2476,27 +2480,27 @@ execution_event:
   digest: null
 ```
 
----
+______________________________________________________________________
 
-# 139. Event Ordering
+## 139. Event Ordering
 
 Event sequence should preserve causal ordering where material.
 
----
+______________________________________________________________________
 
-# 140. Duplicate Events
+## 140. Duplicate Events
 
 Event duplication should not necessarily cause duplicate effects.
 
----
+______________________________________________________________________
 
-# 141. Event Replay
+## 141. Event Replay
 
 Replay should be safe only when handlers are explicitly designed for it.
 
----
+______________________________________________________________________
 
-# 142. Audit Trail
+## 142. Audit Trail
 
 Execution audit should allow reconstruction without hidden chain-of-thought.
 
@@ -2512,9 +2516,9 @@ receipt
 verification
 ```
 
----
+______________________________________________________________________
 
-# 143. Agency vs Autonomous Agency
+## 143. Agency vs Autonomous Agency
 
 P6 agency is operational.
 
@@ -2528,15 +2532,15 @@ conscious agency
 independent moral agency
 ```
 
----
+______________________________________________________________________
 
-# 144. Agent Execution
+## 144. Agent Execution
 
 An AMOS agent may only execute where P5 grants appropriate authority and P6 provides governed worker path.
 
----
+______________________________________________________________________
 
-# 145. Agent Default
+## 145. Agent Default
 
 Until explicit promotion:
 
@@ -2553,9 +2557,9 @@ PROPOSE_ONLY
 
 depending on the surrounding agent contract.
 
----
+______________________________________________________________________
 
-# 146. Agent Self-Elevation Firewall
+## 146. Agent Self-Elevation Firewall
 
 Mandatory:
 
@@ -2566,9 +2570,9 @@ CREATE
 ITS OWN EXECUTION AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 147. Worker Self-Elevation Firewall
+## 147. Worker Self-Elevation Firewall
 
 A worker may not widen:
 
@@ -2586,17 +2590,17 @@ environment
 
 on its own.
 
----
+______________________________________________________________________
 
-# 148. Tool Execution
+## 148. Tool Execution
 
 Tool availability is a capability fact.
 
 It is not sufficient authority.
 
----
+______________________________________________________________________
 
-# 149. Tool Invocation Contract
+## 149. Tool Invocation Contract
 
 Conceptually:
 
@@ -2614,9 +2618,9 @@ ExecutionContext
 
 for effectful tools.
 
----
+______________________________________________________________________
 
-# 150. Human Execution
+## 150. Human Execution
 
 A human may serve as external executor.
 
@@ -2638,17 +2642,17 @@ and:
 human execution
 ```
 
----
+______________________________________________________________________
 
-# 151. Workflow Execution
+## 151. Workflow Execution
 
 A workflow may coordinate multiple workers.
 
 Workflow state must not conceal individual worker effects.
 
----
+______________________________________________________________________
 
-# 152. Workflow Object
+## 152. Workflow Object
 
 ```yaml
 workflow_execution:
@@ -2670,9 +2674,9 @@ workflow_execution:
   rollback_ref: null
 ```
 
----
+______________________________________________________________________
 
-# 153. Workflow Step
+## 153. Workflow Step
 
 Each consequential step should have its own:
 
@@ -2688,9 +2692,9 @@ receipt
 
 where required.
 
----
+______________________________________________________________________
 
-# 154. Saga Pattern
+## 154. Saga Pattern
 
 For non-atomic distributed workflows:
 
@@ -2704,9 +2708,9 @@ may be used conceptually.
 
 Do not label it a literal implementation unless source/runtime confirms it.
 
----
+______________________________________________________________________
 
-# 155. Deployment Execution
+## 155. Deployment Execution
 
 Deployment is a specialized P6 effect.
 
@@ -2726,15 +2730,15 @@ rollback
 observability
 ```
 
----
+______________________________________________________________________
 
-# 156. Deployment Receipt
+## 156. Deployment Receipt
 
 Should identify exact artifact/environment state committed.
 
----
+______________________________________________________________________
 
-# 157. File-System Execution
+## 157. File-System Execution
 
 For filesystem effects, capture:
 
@@ -2754,9 +2758,9 @@ receipt
 
 where implementation supports it.
 
----
+______________________________________________________________________
 
-# 158. Data Mutation
+## 158. Data Mutation
 
 Database or knowledge-store mutation should preserve:
 
@@ -2772,9 +2776,9 @@ commit result
 receipt
 ```
 
----
+______________________________________________________________________
 
-# 159. Canon Mutation
+## 159. Canon Mutation
 
 Canon mutation is both:
 
@@ -2790,15 +2794,15 @@ P6 execution effect.
 
 Both layers are required.
 
----
+______________________________________________________________________
 
-# 160. Canon Commit Boundary
+## 160. Canon Commit Boundary
 
 A proposal file becoming available does not mean canon state changed.
 
----
+______________________________________________________________________
 
-# 161. Execution Safety
+## 161. Execution Safety
 
 P6 should favor:
 
@@ -2816,9 +2820,9 @@ receipted
 
 effect paths under uncertainty.
 
----
+______________________________________________________________________
 
-# 162. Safe Default
+## 162. Safe Default
 
 When execution status is ambiguous:
 
@@ -2826,9 +2830,9 @@ When execution status is ambiguous:
 DO NOT ASSUME SUCCESS
 ```
 
----
+______________________________________________________________________
 
-# 163. Unknown Effect Handling
+## 163. Unknown Effect Handling
 
 When:
 
@@ -2848,9 +2852,9 @@ verify
 
 before retrying.
 
----
+______________________________________________________________________
 
-# 164. Reconciliation
+## 164. Reconciliation
 
 Reconciliation compares:
 
@@ -2862,9 +2866,9 @@ recorded state
 observed external state
 ```
 
----
+______________________________________________________________________
 
-# 165. Reconciliation Object
+## 165. Reconciliation Object
 
 ```yaml
 reconciliation:
@@ -2884,29 +2888,29 @@ reconciliation:
   repair_action: null
 ```
 
----
+______________________________________________________________________
 
-# 166. Desired-State Execution
+## 166. Desired-State Execution
 
 Some workers may reconcile toward a desired state rather than process one-shot commands.
 
----
+______________________________________________________________________
 
-# 167. Desired-State Boundary
+## 167. Desired-State Boundary
 
 Desired state does not prove execution happened.
 
 Observation still matters.
 
----
+______________________________________________________________________
 
-# 168. Drift
+## 168. Drift
 
 Execution drift occurs when actual state diverges from governed intended state.
 
----
+______________________________________________________________________
 
-# 169. Drift Repair
+## 169. Drift Repair
 
 ```text
 detect
@@ -2922,9 +2926,9 @@ verify
 receipt
 ```
 
----
+______________________________________________________________________
 
-# 170. Execution Failure Classes
+## 170. Execution Failure Classes
 
 Suggested:
 
@@ -2966,17 +2970,17 @@ ENVIRONMENT_MISMATCH
 POLICY_MISMATCH
 ```
 
----
+______________________________________________________________________
 
-# 171. Authority Failure
+## 171. Authority Failure
 
 Request lacks valid P5 authorization.
 
 Must block effect.
 
----
+______________________________________________________________________
 
-# 172. Worker Unavailable
+## 172. Worker Unavailable
 
 No valid governed worker can execute request.
 
@@ -2988,61 +2992,61 @@ BLOCKED / RETRYABLE
 
 according to context.
 
----
+______________________________________________________________________
 
-# 173. Budget Exhausted
+## 173. Budget Exhausted
 
 No remaining permitted resource envelope.
 
----
+______________________________________________________________________
 
-# 174. Version Conflict
+## 174. Version Conflict
 
 Target has changed since authorization or planning.
 
----
+______________________________________________________________________
 
-# 175. Dependency Failure
+## 175. Dependency Failure
 
 Required downstream or upstream execution dependency unavailable.
 
----
+______________________________________________________________________
 
-# 176. Commit Failure
+## 176. Commit Failure
 
 Effect plan could not reach defined commit semantics.
 
----
+______________________________________________________________________
 
-# 177. Receipt Failure
+## 177. Receipt Failure
 
 Commit may have occurred but required receipt persistence failed.
 
 This can be a critical degraded state.
 
----
+______________________________________________________________________
 
-# 178. Verification Failure
+## 178. Verification Failure
 
 Recorded commit does not match observed outcome.
 
----
+______________________________________________________________________
 
-# 179. Rollback Failure
+## 179. Rollback Failure
 
 Recovery path fails to restore target.
 
 Escalate.
 
----
+______________________________________________________________________
 
-# 180. Compensation Failure
+## 180. Compensation Failure
 
 Compensating action does not achieve intended recovery state.
 
----
+______________________________________________________________________
 
-# 181. Execution Repair
+## 181. Execution Repair
 
 Core pattern:
 
@@ -3060,27 +3064,27 @@ repair locally
 reverify
 ```
 
----
+______________________________________________________________________
 
-# 182. No Blind Global Replay
+## 182. No Blind Global Replay
 
 Do not replay an entire workflow because one step failed unless dependency analysis proves it safe.
 
----
+______________________________________________________________________
 
-# 183. Local Recovery
+## 183. Local Recovery
 
 Prefer recovery of the smallest failed execution scope.
 
----
+______________________________________________________________________
 
-# 184. Global Recovery
+## 184. Global Recovery
 
 Use only when local repair cannot restore invariants.
 
----
+______________________________________________________________________
 
-# 185. Execution Invariants
+## 185. Execution Invariants
 
 ## Authority invariant
 
@@ -3156,9 +3160,9 @@ worker cannot widen its own authority
 unknown effect state remains UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 186. Declared Invariant References
+## 186. Declared Invariant References
 
 This P6 proposal declares:
 
@@ -3172,17 +3176,19 @@ INV-031
 INV-035
 → receipt / append-only commit evidence
 ```
+
 ```text
 INV-041
 → cumulative principal cost accounting
 ```
+
 These mappings are preserved from the supplied specification.
 
 Their exact source text, proof obligations, and canonical status are not invented here.
 
----
+______________________________________________________________________
 
-# 187. P6 State Variables
+## 187. P6 State Variables
 
 Conceptual:
 
@@ -3238,9 +3244,9 @@ execution finality state
 
 These are architecture variables, not declared runtime primitives unless implementation confirms them.
 
----
+______________________________________________________________________
 
-# 188. P6 Operators
+## 188. P6 Operators
 
 Architecture-level semantic operators:
 
@@ -3306,9 +3312,9 @@ AUDIT_EXECUTION()
 
 These are semantic contracts, not claims that literal functions already exist.
 
----
+______________________________________________________________________
 
-# 189. P6 H/M/L Architecture
+## 189. P6 H/M/L Architecture
 
 P6 is recursive.
 
@@ -3332,9 +3338,9 @@ effect
 receipt
 ```
 
----
+______________________________________________________________________
 
-# 190. H-Level Execution
+## 190. H-Level Execution
 
 Examples:
 
@@ -3348,9 +3354,9 @@ cross-root transaction
 deployment authority
 ```
 
----
+______________________________________________________________________
 
-# 191. M-Level Execution
+## 191. M-Level Execution
 
 Examples:
 
@@ -3364,9 +3370,9 @@ service transaction
 deployment pipeline
 ```
 
----
+______________________________________________________________________
 
-# 192. L-Level Execution
+## 192. L-Level Execution
 
 Examples:
 
@@ -3380,15 +3386,15 @@ single state mutation
 single receipt
 ```
 
----
+______________________________________________________________________
 
-# 193. H/M/L Finalization Rule
+## 193. H/M/L Finalization Rule
 
 A local L-level effect may finalize locally only when no unresolved M/H dependency can invalidate its commit semantics.
 
----
+______________________________________________________________________
 
-# 194. Bottom-Up Execution Reporting
+## 194. Bottom-Up Execution Reporting
 
 ```text
 L receipts
@@ -3398,9 +3404,9 @@ M workflow result
 H execution/accounting state
 ```
 
----
+______________________________________________________________________
 
-# 195. Top-Down Execution Control
+## 195. Top-Down Execution Control
 
 ```text
 H policy/budget
@@ -3410,9 +3416,9 @@ M worker constraints
 L operation eligibility
 ```
 
----
+______________________________________________________________________
 
-# 196. P6 Workflow — Normal Execution
+## 196. P6 Workflow — Normal Execution
 
 ```text
 AUTHORIZED REQUEST
@@ -3448,9 +3454,9 @@ VERIFY
 FINALIZE
 ```
 
----
+______________________________________________________________________
 
-# 197. P6 Workflow — Retry
+## 197. P6 Workflow — Retry
 
 ```text
 FAILURE / TIMEOUT
@@ -3469,9 +3475,9 @@ ELSE:
   RECONCILE / ESCALATE
 ```
 
----
+______________________________________________________________________
 
-# 198. P6 Workflow — Partial Failure
+## 198. P6 Workflow — Partial Failure
 
 ```text
 MULTI-EFFECT EXECUTION
@@ -3491,9 +3497,9 @@ REPAIR
 VERIFY
 ```
 
----
+______________________________________________________________________
 
-# 199. P6 Workflow — Receipt
+## 199. P6 Workflow — Receipt
 
 ```text
 COMMIT
@@ -3509,9 +3515,9 @@ PERSIST REFERENCE
 MAKE AVAILABLE TO AUDIT / VERIFICATION
 ```
 
----
+______________________________________________________________________
 
-# 200. P6 Workflow — Budget
+## 200. P6 Workflow — Budget
 
 ```text
 ESTIMATE COST
@@ -3529,9 +3535,9 @@ ACCOUNT
 RELEASE UNUSED RESERVATION
 ```
 
----
+______________________________________________________________________
 
-# 201. P6 Workflow — Unknown Effect State
+## 201. P6 Workflow — Unknown Effect State
 
 ```text
 CONNECTION / WORKER FAILURE
@@ -3552,9 +3558,9 @@ ELSE:
   ESCALATE
 ```
 
----
+______________________________________________________________________
 
-# 202. P6 Workflow — Rollback
+## 202. P6 Workflow — Rollback
 
 ```text
 FAILURE
@@ -3572,9 +3578,9 @@ EMIT RECEIPT
 VERIFY RESTORED STATE
 ```
 
----
+______________________________________________________________________
 
-# 203. P6 Workflow — Compensation
+## 203. P6 Workflow — Compensation
 
 ```text
 IRREVERSIBLE COMMIT
@@ -3592,9 +3598,9 @@ RECEIPT
 VERIFY
 ```
 
----
+______________________________________________________________________
 
-# 204. P6 Workflow — Worker Revocation
+## 204. P6 Workflow — Worker Revocation
 
 ```text
 CRITICAL WORKER FAILURE
@@ -3612,9 +3618,9 @@ REASSIGN SAFE JOBS
 AUDIT
 ```
 
----
+______________________________________________________________________
 
-# 205. P6 Workflow — External Executor
+## 205. P6 Workflow — External Executor
 
 ```text
 AMOS PROPOSAL
@@ -3632,9 +3638,9 @@ P2 OBSERVATION
 P6 VERIFICATION
 ```
 
----
+______________________________________________________________________
 
-# 206. Execution Audit
+## 206. Execution Audit
 
 Audit should ask:
 
@@ -3680,9 +3686,9 @@ did rollback occur?
 what remains unknown?
 ```
 
----
+______________________________________________________________________
 
-# 207. Execution Audit Capsule
+## 207. Execution Audit Capsule
 
 ```yaml
 execution_audit:
@@ -3716,9 +3722,9 @@ execution_audit:
   result: null
 ```
 
----
+______________________________________________________________________
 
-# 208. P6 Finding Classes
+## 208. P6 Finding Classes
 
 ```text
 UNAUTHORIZED_EXECUTION
@@ -3778,9 +3784,9 @@ AGENT_SELF_ELEVATION
 UNKNOWN_SUPPRESSED
 ```
 
----
+______________________________________________________________________
 
-# 209. Critical P6 Findings
+## 209. Critical P6 Findings
 
 Block or suspend effectful execution when:
 
@@ -3808,9 +3814,9 @@ rollback/compensation required but unavailable
 execution provenance broken
 ```
 
----
+______________________________________________________________________
 
-# 210. P6 Tests
+## 210. P6 Tests
 
 Minimum:
 
@@ -3860,9 +3866,9 @@ finality test
 revocation test
 ```
 
----
+______________________________________________________________________
 
-# 211. Worker Gate Test
+## 211. Worker Gate Test
 
 Attempt consequential effect outside governed worker path.
 
@@ -3872,15 +3878,15 @@ Expected:
 BLOCK
 ```
 
----
+______________________________________________________________________
 
-# 212. Authority Binding Test
+## 212. Authority Binding Test
 
 Valid worker with invalid authority must not execute.
 
----
+______________________________________________________________________
 
-# 213. Version Test
+## 213. Version Test
 
 Change target after request approval.
 
@@ -3890,9 +3896,9 @@ Expected:
 STALE REQUEST / REVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 214. Budget Test
+## 214. Budget Test
 
 Attempt effect beyond permitted principal budget.
 
@@ -3902,15 +3908,15 @@ Expected:
 BLOCK / ESCALATE
 ```
 
----
+______________________________________________________________________
 
-# 215. Principal Accounting Test
+## 215. Principal Accounting Test
 
 Every committed cost should be attributable to appropriate principal/account.
 
----
+______________________________________________________________________
 
-# 216. Idempotency Test
+## 216. Idempotency Test
 
 Send same logical request twice.
 
@@ -3922,9 +3928,9 @@ one logical effect
 
 under declared semantics.
 
----
+______________________________________________________________________
 
-# 217. Idempotency Conflict Test
+## 217. Idempotency Conflict Test
 
 Reuse same key with different payload.
 
@@ -3934,37 +3940,37 @@ Expected:
 CONFLICT
 ```
 
----
+______________________________________________________________________
 
-# 218. Retry Safety Test
+## 218. Retry Safety Test
 
 Interrupt worker at each critical execution phase and verify retry behavior.
 
----
+______________________________________________________________________
 
-# 219. Transaction Test
+## 219. Transaction Test
 
 Inject failure between transaction operations.
 
 Ensure partial state is correctly represented and repaired.
 
----
+______________________________________________________________________
 
-# 220. Receipt Test
+## 220. Receipt Test
 
 Every defined commit should produce receipt.
 
----
+______________________________________________________________________
 
-# 221. Ledger Test
+## 221. Ledger Test
 
 Attempt removal/modification/reordering according to supported threat model.
 
 Verify detectability required by implementation.
 
----
+______________________________________________________________________
 
-# 222. Verification Test
+## 222. Verification Test
 
 Simulate worker reporting success while target state remains unchanged.
 
@@ -3974,23 +3980,23 @@ Expected:
 VERIFICATION_FAILURE
 ```
 
----
+______________________________________________________________________
 
-# 223. Rollback Test
+## 223. Rollback Test
 
 Commit reversible state then trigger rollback.
 
 Verify restored state.
 
----
+______________________________________________________________________
 
-# 224. Compensation Test
+## 224. Compensation Test
 
 Create irreversible effect and verify compensation workflow under test conditions.
 
----
+______________________________________________________________________
 
-# 225. Crash Test
+## 225. Crash Test
 
 Crash worker:
 
@@ -4006,15 +4012,15 @@ after receipt
 
 and verify recovery does not create unintended duplicates.
 
----
+______________________________________________________________________
 
-# 226. Lease Expiry Test
+## 226. Lease Expiry Test
 
 Expired worker lease should prevent unauthorized new effect.
 
----
+______________________________________________________________________
 
-# 227. Causal-Order Test
+## 227. Causal-Order Test
 
 Attempt dependent execution before required predecessor finality.
 
@@ -4024,15 +4030,15 @@ Expected:
 BLOCK / WAIT
 ```
 
----
+______________________________________________________________________
 
-# 228. Revocation Test
+## 228. Revocation Test
 
 Revoke worker authority during execution lifecycle and verify new effects stop according to policy.
 
----
+______________________________________________________________________
 
-# 229. P6 Failure Modes
+## 229. P6 Failure Modes
 
 ## F01 — Allowed/Done Collapse
 
@@ -4150,9 +4156,9 @@ Structural execution capability treated as independent autonomous world agency.
 
 Ambiguous effect state converted to success/failure without evidence.
 
----
+______________________________________________________________________
 
-# 230. P6 Falsifiers
+## 230. P6 Falsifiers
 
 This architecture should be revised if:
 
@@ -4174,9 +4180,9 @@ local recovery cannot reduce unnecessary global replay
 outcome verification cannot distinguish commit from actual effect
 ```
 
----
+______________________________________________________________________
 
-# 231. P6 Uncertainty Vector
+## 231. P6 Uncertainty Vector
 
 Track when material:
 
@@ -4204,9 +4210,9 @@ uncertainty:
   provenance: null
 ```
 
----
+______________________________________________________________________
 
-# 232. Execution Sensitivity
+## 232. Execution Sensitivity
 
 For consequential execution identify:
 
@@ -4233,9 +4239,9 @@ rollback availability
 effect reversibility
 ```
 
----
+______________________________________________________________________
 
-# 233. High-Stakes P6 Standard
+## 233. High-Stakes P6 Standard
 
 For:
 
@@ -4277,9 +4283,9 @@ rollback/compensation analysis
 post-effect observation
 ```
 
----
+______________________________________________________________________
 
-# 234. Low-Risk Execution
+## 234. Low-Risk Execution
 
 For reversible sandboxed actions:
 
@@ -4293,9 +4299,9 @@ strong observability
 
 may permit lighter execution governance.
 
----
+______________________________________________________________________
 
-# 235. P6 Agent
+## 235. P6 Agent
 
 An Execution / Agency agent may:
 
@@ -4323,9 +4329,9 @@ propose rollback
 propose compensation
 ```
 
----
+______________________________________________________________________
 
-# 236. P6 Agent Authority
+## 236. P6 Agent Authority
 
 Until promotion:
 
@@ -4340,9 +4346,9 @@ agent_authority:
   self_elevation: FORBIDDEN
 ```
 
----
+______________________________________________________________________
 
-# 237. P6 Agent Contract
+## 237. P6 Agent Contract
 
 ```yaml
 agent:
@@ -4378,9 +4384,9 @@ agent:
   audit_log: required
 ```
 
----
+______________________________________________________________________
 
-# 238. Worker Registry
+## 238. Worker Registry
 
 A derived implementation may maintain:
 
@@ -4404,9 +4410,9 @@ P6_EXECUTION_AGENCY/
 
 This layout is proposed infrastructure, not asserted as already implemented.
 
----
+______________________________________________________________________
 
-# 239. Worker Registry Entry
+## 239. Worker Registry Entry
 
 ```yaml
 worker_registry_entry:
@@ -4430,9 +4436,9 @@ worker_registry_entry:
   provenance_ref: null
 ```
 
----
+______________________________________________________________________
 
-# 240. Execution Registry Entry
+## 240. Execution Registry Entry
 
 ```yaml
 execution_registry_entry:
@@ -4458,9 +4464,9 @@ execution_registry_entry:
   verification_ref: null
 ```
 
----
+______________________________________________________________________
 
-# 241. Receipt Registry / Ledger Boundary
+## 241. Receipt Registry / Ledger Boundary
 
 The execution registry describes current execution state.
 
@@ -4474,9 +4480,9 @@ EXECUTION_REGISTRY
 RECEIPT_LEDGER
 ```
 
----
+______________________________________________________________________
 
-# 242. P6 and P1
+## 242. P6 and P1
 
 P1 defines the environment in which effect occurs.
 
@@ -4490,15 +4496,15 @@ planning environment
 
 without checking.
 
----
+______________________________________________________________________
 
-# 243. P6 and P2
+## 243. P6 and P2
 
 P2 supplies observations required to determine whether effect occurred.
 
----
+______________________________________________________________________
 
-# 244. P6 and P3
+## 244. P6 and P3
 
 P3 retains:
 
@@ -4516,9 +4522,9 @@ repair history
 
 as persistent memory.
 
----
+______________________________________________________________________
 
-# 245. P6 and P4
+## 245. P6 and P4
 
 P4 produces:
 
@@ -4532,9 +4538,9 @@ recommended actions
 
 P6 does not treat a P4 model as effect authorization.
 
----
+______________________________________________________________________
 
-# 246. P6 and P5
+## 246. P6 and P5
 
 P5 answers:
 
@@ -4549,17 +4555,17 @@ How is the authorized action
 safely and accountably executed?
 ```
 
----
+______________________________________________________________________
 
-# 247. P6 and Control Plane
+## 247. P6 and Control Plane
 
 `10_CONTROL_PLANE` should implement or enforce operational effect permissions where runtime exists.
 
 P6 defines the canonical semantic contract.
 
----
+______________________________________________________________________
 
-# 248. P6 and Validation
+## 248. P6 and Validation
 
 Validation may certify:
 
@@ -4577,9 +4583,9 @@ idempotency behavior
 
 within specific environment/version.
 
----
+______________________________________________________________________
 
-# 249. P6 and Dependency Graph
+## 249. P6 and Dependency Graph
 
 Execution planning should trace dependencies that can:
 
@@ -4595,9 +4601,9 @@ invalidate rollback
 change finality
 ```
 
----
+______________________________________________________________________
 
-# 250. P6 and Observability
+## 250. P6 and Observability
 
 P6 requires enough observability to distinguish:
 
@@ -4615,21 +4621,21 @@ failed
 unknown
 ```
 
----
+______________________________________________________________________
 
-# 251. P6 and Deployment
+## 251. P6 and Deployment
 
 Deployment is a specialized execution mode with stronger environment/version constraints.
 
----
+______________________________________________________________________
 
-# 252. P6 and Agents
+## 252. P6 and Agents
 
 Agents may reason about actions without possessing execution authority.
 
----
+______________________________________________________________________
 
-# 253. P6 and Workflows
+## 253. P6 and Workflows
 
 Workflows coordinate jobs.
 
@@ -4637,17 +4643,17 @@ Workers cause effects.
 
 These should remain distinct.
 
----
+______________________________________________________________________
 
-# 254. P6 and Protocols
+## 254. P6 and Protocols
 
 `15_PROTOCOLS` may define exact exchange/commit/retry semantics.
 
 P6 owns the high-level execution invariants.
 
----
+______________________________________________________________________
 
-# 255. P6 Core Laws
+## 255. P6 Core Laws
 
 ```text
 AUTHORIZED
@@ -4660,120 +4666,143 @@ REQUESTED
 !=
 STARTED
 ```
+
 ```text
 STARTED
 !=
 COMMITTED
 ```
+
 ```text
 COMMITTED
 !=
 VERIFIED
 ```
+
 ```text
 RECEIPT
 !=
 REALITY
 ```
+
 ```text
 CAPABILITY
 !=
 AUTHORITY
 ```
+
 ```text
 WORKER_AVAILABLE
 !=
 WORKER_AUTHORIZED
 ```
+
 ```text
 BUDGET_AVAILABLE
 !=
 AUTHORITY
 ```
+
 ```text
 AUTHORITY
 !=
 BUDGET
 ```
+
 ```text
 RETRYABLE
 !=
 IDEMPOTENT
 ```
+
 ```text
 MESSAGE_ONCE
 !=
 EFFECT_ONCE
 ```
+
 ```text
 TIMEOUT
 !=
 FAILURE
 ```
+
 ```text
 CANCELLED_REQUEST
 !=
 ROLLED_BACK_EFFECT
 ```
+
 ```text
 COMPENSATION
 !=
 ROLLBACK
 ```
+
 ```text
 PARTIAL_COMMIT
 !=
 SUCCESS
 ```
+
 ```text
 DIGEST_MATCH
 !=
 SEMANTIC_CORRECTNESS
 ```
+
 ```text
 APPEND_ONLY
 !=
 UNIVERSALLY_TAMPER_PROOF
 ```
+
 ```text
 DRY_RUN
 !=
 REAL_EXECUTION
 ```
+
 ```text
 PLAN
 !=
 EFFECT
 ```
+
 ```text
 EXECUTION_TELEMETRY
 !=
 GOVERNANCE_RECEIPT
 ```
+
 ```text
 UNKNOWN_EFFECT_STATE
 !=
 SAFE_TO_RETRY
 ```
+
 ```text
 AGENT
 MUST NOT
 SELF-GRANT EXECUTION AUTHORITY
 ```
+
 ```text
 EXECUTION AUTHORITY
 =
 NONE
 UNTIL GOVERNED PROMOTION
 ```
+
 ```text
 UNKNOWN/GAP
 !=
 PASS
 ```
----
 
-# 256. P6-1 Canonical Law — Worker Gate
+______________________________________________________________________
+
+## 256. P6-1 Canonical Law — Worker Gate
 
 ```text
 P6-1 WORKER GATE
@@ -4795,9 +4824,9 @@ EXACT CANONICAL DEFINITION
 REQUIRES SOURCE RESOLUTION.
 ```
 
----
+______________________________________________________________________
 
-# 257. P6-2 Canonical Law — Receipt Everything
+## 257. P6-2 Canonical Law — Receipt Everything
 
 ```text
 P6-2 RECEIPT EVERYTHING
@@ -4824,9 +4853,9 @@ EXACT CANONICAL DEFINITIONS
 REQUIRE SOURCE RESOLUTION.
 ```
 
----
+______________________________________________________________________
 
-# 258. P6-3 Canonical Law — Budgeted Action
+## 258. P6-3 Canonical Law — Budgeted Action
 
 ```text
 P6-3 BUDGETED ACTION
@@ -4851,9 +4880,9 @@ AND THRESHOLDS
 REQUIRE SOURCE RESOLUTION.
 ```
 
----
+______________________________________________________________________
 
-# 259. Minimum P6 Execution Contract
+## 259. Minimum P6 Execution Contract
 
 Before AMOS treats an execution as safely actionable, it should be able to answer:
 
@@ -4947,9 +4976,9 @@ not:
 SAFE_TO_EXECUTE
 ```
 
----
+______________________________________________________________________
 
-# 260. P6 Request Decision Table
+## 260. P6 Request Decision Table
 
 ```text
 Authorized by P5?
@@ -4989,9 +5018,9 @@ All execution gates pass?
 → eligible for governed execution
 ```
 
----
+______________________________________________________________________
 
-# 261. P6 Retry Decision Table
+## 261. P6 Retry Decision Table
 
 ```text
 Failure before any effect?
@@ -5019,9 +5048,9 @@ Budget exhausted?
 → no retry without new budget
 ```
 
----
+______________________________________________________________________
 
-# 262. P6 Recovery Decision Table
+## 262. P6 Recovery Decision Table
 
 ```text
 Reversible committed effect?
@@ -5049,9 +5078,9 @@ Global invariant broken?
 → escalate / global recovery
 ```
 
----
+______________________________________________________________________
 
-# 263. P6 Finality Decision Table
+## 263. P6 Finality Decision Table
 
 ```text
 Effect merely attempted?
@@ -5076,9 +5105,9 @@ All required closure conditions satisfied?
 → FINAL under declared protocol
 ```
 
----
+______________________________________________________________________
 
-# 264. P6 RSCF Completion State
+## 264. P6 RSCF Completion State
 
 The current proposal:
 
@@ -5181,9 +5210,9 @@ confidence_ceiling:
   execution_authority: NONE_UNTIL_PROMOTED
 ```
 
----
+______________________________________________________________________
 
-# 265. Known Gaps
+## 265. Known Gaps
 
 The following remain `UNKNOWN/GAP` until explicit canon or implementation defines them:
 
@@ -5269,9 +5298,9 @@ exact runtime P6 implementation
 
 Do not fabricate these as implemented.
 
----
+______________________________________________________________________
 
-# 266. Completion Status
+## 266. Completion Status
 
 This artifact should no longer remain a short placeholder or thin proposal at the architecture-contract level.
 
@@ -5317,9 +5346,9 @@ budget_runtime_status: UNKNOWN/GAP
 execution_authority_status: NONE_UNTIL_PROMOTED
 ```
 
----
+______________________________________________________________________
 
-# 267. Final Contract
+## 267. Final Contract
 
 `P6 Execution / Agency` is the **effect realization and operational accountability plane** of the AMOS Universe Canon.
 
@@ -5465,15 +5494,15 @@ PROPOSE_ONLY /
 NO EFFECTFUL AUTHORITY.
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
 
 **Related:** [[01_CANON/02_UNIVERSE_CANON/AMOS_7_PART_UNIVERSE_CANON|AMOS_7_PART_UNIVERSE_CANON]] · [[01_CANON/02_UNIVERSE_CANON/HML_CANON|HML_CANON]] · [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
 
 RSCF-NODE
 
@@ -5508,6 +5537,6 @@ claim_class: AMOS_MODEL
 **Conclusion class:** `DERIVED / CONDITIONAL`. P6 is now structurally aligned with P1–P5 and preserves the key distinction that was already present in your supplied specification: **execution architecture may be fully defined while execution authority remains `NONE`**. The exact meanings of `I-RPOL-017`, `INV-031`, `INV-035`, and `INV-041` remain intentionally unresolved until their defining corpus records are retrieved; I have not fabricated them. That is the correct AMOS treatment under the Full Brain integrity boundary.
 ```
 
----
-**MOC:** [[01_CANON/02_UNIVERSE_CANON/02_UNIVERSE_CANON_MOC|02_UNIVERSE_CANON_MOC]]
+______________________________________________________________________
 
+**MOC:** [[01_CANON/02_UNIVERSE_CANON/02_UNIVERSE_CANON_MOC|02_UNIVERSE_CANON_MOC]]

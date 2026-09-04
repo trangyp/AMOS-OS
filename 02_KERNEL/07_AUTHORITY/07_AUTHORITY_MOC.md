@@ -1,14 +1,17 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: 07 Authority MOC
 type: moc
 source: 02_KERNEL/07_AUTHORITY
 tags:
-- 07-authority
-- canon/kernel
-- k-capability-authorization
-- k-commit-time-authority
-- k-effect-classification
-- k-information-exposure
+  - 07-authority
+  - canon/kernel
+  - k-capability-authorization
+  - k-commit-time-authority
+  - k-effect-classification
+  - k-information-exposure
 moc: true
 rscf:
   state: DERIVED
@@ -35,5 +38,6 @@ rscf:
 
 - [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]] — 00_INDEX
 
----
+______________________________________________________________________
+
 **Parent:** [[02_KERNEL/02_KERNEL_MOC|02_KERNEL_MOC]]

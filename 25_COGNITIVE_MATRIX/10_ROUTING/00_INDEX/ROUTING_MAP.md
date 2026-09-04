@@ -1,4 +1,7 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: ROUTING MAP
 type: note
 source: 25_COGNITIVE_MATRIX/10_ROUTING/00_INDEX
@@ -6,31 +9,27 @@ rscf:
   state: SOURCE_CLAIM
   class: STRUCTURAL
   provenance:
-  - internal
+    - internal
   freshness: EVERGREEN
   falsifiers: []
 tags:
-- note
-- readme
-- task-resolver
-- capability-resolver
-- mode-admission-queue
-- mode-coverage-matrix
-- mode-dependency-graph
-- routing-policy-validation-receipt
-- authz-engine-validation-receipt
-- k-rscf
-- law/L17-rscf
-- references
-- trang-framework-recursive-ontology-dynamics
+  - note
+  - readme
+  - task-resolver
+  - capability-resolver
+  - mode-admission-queue
+  - mode-coverage-matrix
+  - mode-dependency-graph
+  - routing-policy-validation-receipt
+  - authz-engine-validation-receipt
+  - k-rscf
+  - law/L17-rscf
+  - references
+  - trang-framework-recursive-ontology-dynamics
 canon-group: canon/cognitive-matrix
 ---
 
----title: "ROUTING MAP"
-type: document
-tags: [note]
----
-
+## ---title: "ROUTING MAP" type: document tags: [note]
 
 # ROUTING MAP
 
@@ -45,7 +44,7 @@ tags: [note]
 **Segment:** `25_COGNITIVE_MATRIX/10_ROUTING/00_INDEX`
 **Canonical Path:** `25_COGNITIVE_MATRIX/10_ROUTING/00_INDEX/ROUTING_MAP.md`
 
----
+______________________________________________________________________
 
 ## 0. Purpose
 
@@ -54,10 +53,10 @@ tags: [note]
 It answers:
 
 1. **Where does Routing begin?**
-2. **Which artifact defines Routing's normative contract?**
-3. **Which artifacts provide implementation, policy, validation, authorization, dependency, and provenance detail?**
-4. **Which edges leave this local segment and must therefore be resolved through higher-level maps or RSCF topology?**
-5. **Which routing capabilities are architectural models versus independently evidenced executable mechanisms?**
+1. **Which artifact defines Routing's normative contract?**
+1. **Which artifacts provide implementation, policy, validation, authorization, dependency, and provenance detail?**
+1. **Which edges leave this local segment and must therefore be resolved through higher-level maps or RSCF topology?**
+1. **Which routing capabilities are architectural models versus independently evidenced executable mechanisms?**
 
 This map is an **index and topology artifact**.
 
@@ -75,9 +74,9 @@ The governing distinction is:
 
 $$\boxed{ Map \neq Contract \neq Implementation \neq Validation }$$
 
----
+______________________________________________________________________
 
-# 1. Local Routing Surface
+## 1. Local Routing Surface
 
 The local index segment is:
 
@@ -100,9 +99,9 @@ ROUTING_MAP
     └──► ROUTING_COGNITIVE_MATRIX_ROUTING_CONTRACT
 ```
 
----
+______________________________________________________________________
 
-# 2. Primary Navigation
+## 2. Primary Navigation
 
 ## 2.1 Readme
 
@@ -122,7 +121,7 @@ The README is explanatory unless stronger canonical status is explicitly establi
 
 Documentation statements remain `SOURCE_CLAIM` or `AMOS_MODEL` according to their provenance and classification.
 
----
+______________________________________________________________________
 
 ## 2.2 Contract
 
@@ -144,9 +143,9 @@ Where the README and Contract differ, the map MUST NOT silently decide precedenc
 
 The applicable canon/version/supersession rules must resolve the conflict.
 
----
+______________________________________________________________________
 
-# 3. Reading Order
+## 3. Reading Order
 
 The default reading order is:
 
@@ -176,9 +175,9 @@ Raw evidence defaults to:
 DO_NOT_LOAD_UNLESS_REQUIRED
 ```
 
----
+______________________________________________________________________
 
-# 4. Routing Definition
+## 4. Routing Definition
 
 Within the Cognitive Matrix, **routing** is the governed process of selecting an admissible destination, capability, mode, generator, subsystem, evidence path, or execution path for a task or intermediate cognitive object.
 
@@ -200,9 +199,9 @@ This equation is an architectural model.
 
 It does not assert that the repository contains an executable function with this exact signature.
 
----
+______________________________________________________________________
 
-# 5. Routing Is a Governed Decision
+## 5. Routing Is a Governed Decision
 
 A route is not merely a link.
 
@@ -234,9 +233,9 @@ RECEIPT
 
 Individual low-risk paths may use a smaller sufficient proof scope.
 
----
+______________________________________________________________________
 
-# 6. Routing Layers
+## 6. Routing Layers
 
 The Routing subsystem SHOULD conceptually distinguish:
 
@@ -259,9 +258,9 @@ R13 — validation / audit
 
 Not every route requires every layer at maximum depth.
 
----
+______________________________________________________________________
 
-# 7. Task Resolution Edge
+## 7. Task Resolution Edge
 
 Where applicable, Routing consumes the output of:
 
@@ -281,9 +280,9 @@ required capabilities
 
 Routing MUST NOT silently invent missing load-bearing task requirements.
 
----
+______________________________________________________________________
 
-# 8. Capability Resolution Edge
+## 8. Capability Resolution Edge
 
 Where applicable, Routing depends on:
 
@@ -307,9 +306,9 @@ and:
 
 $$AvailableCapability \not\Rightarrow ValidatedCapability$$
 
----
+______________________________________________________________________
 
-# 9. Mode Admission Edge
+## 9. Mode Admission Edge
 
 Where applicable, candidate routes interact with:
 
@@ -329,9 +328,9 @@ governance state
 
 A queued candidate is not necessarily admitted.
 
----
+______________________________________________________________________
 
-# 10. Mode Composition Edge
+## 10. Mode Composition Edge
 
 Composable routes MAY depend on:
 
@@ -343,9 +342,9 @@ $$Valid(M_1) \land Valid(M_2) \not\Rightarrow Valid(M_1 \circ M_2)$$
 
 Composition-level compatibility must be established where consequential.
 
----
+______________________________________________________________________
 
-# 11. Mode Conflict Edge
+## 11. Mode Conflict Edge
 
 Routing SHOULD consult:
 
@@ -366,9 +365,9 @@ CONFLICT
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 12. Coverage Edge
+## 12. Coverage Edge
 
 Routing MAY use:
 
@@ -380,9 +379,9 @@ Coverage is not equivalent to correctness.
 
 $$Coverage(T,M) \not\Rightarrow CorrectExecution(T,M)$$
 
----
+______________________________________________________________________
 
-# 13. Dependency Edge
+## 13. Dependency Edge
 
 Routing SHOULD use:
 
@@ -402,9 +401,9 @@ scope dependencies
 regime dependencies
 ```
 
----
+______________________________________________________________________
 
-# 14. Dependency Closure
+## 14. Dependency Closure
 
 For a candidate route $r$:
 
@@ -414,9 +413,9 @@ Routing SHOULD traverse only the portion of dependency closure capable of changi
 
 This preserves the AMOS smallest-sufficient-proof principle.
 
----
+______________________________________________________________________
 
-# 15. Routing Candidate Set
+## 15. Routing Candidate Set
 
 Given task $T$, routing MAY first construct:
 
@@ -439,9 +438,9 @@ provenance
 risk
 ```
 
----
+______________________________________________________________________
 
-# 16. Route Admission Predicate
+## 16. Route Admission Predicate
 
 Conceptually:
 
@@ -460,9 +459,9 @@ where:
 
 This is a conceptual governance model.
 
----
+______________________________________________________________________
 
-# 17. UNKNOWN/GAP Firewall
+## 17. UNKNOWN/GAP Firewall
 
 A central routing invariant is:
 
@@ -484,9 +483,9 @@ or
 FAIL_CLOSED
 ```
 
----
+______________________________________________________________________
 
-# 18. Fail-Closed Routing
+## 18. Fail-Closed Routing
 
 Routing MUST fail closed when a required safety, authorization, integrity, or governance gate cannot be established and no explicit conditional path is permitted.
 
@@ -502,9 +501,9 @@ required gate
     └── UNKNOWN ──────► fail closed / escalate
 ```
 
----
+______________________________________________________________________
 
-# 19. Scope Containment
+## 19. Scope Containment
 
 Routes are scope-bound.
 
@@ -514,9 +513,9 @@ $$Valid(C,S_1) \not\Rightarrow Valid(C,S_2)$$
 
 Routing MUST NOT silently broaden applicability.
 
----
+______________________________________________________________________
 
-# 20. Regime Isolation
+## 20. Regime Isolation
 
 Routing decisions inherit regime constraints.
 
@@ -526,9 +525,9 @@ unless transfer is established.
 
 A regime change can invalidate a previously valid route.
 
----
+______________________________________________________________________
 
-# 21. Freshness
+## 21. Freshness
 
 Routing decisions based on mutable state MUST evaluate freshness.
 
@@ -547,9 +546,9 @@ external service state
 
 A previously valid route may therefore become stale.
 
----
+______________________________________________________________________
 
-# 22. Provenance
+## 22. Provenance
 
 Consequential route decisions SHOULD preserve sufficient provenance to reconstruct:
 
@@ -565,9 +564,9 @@ validation state
 timestamp
 ```
 
----
+______________________________________________________________________
 
-# 23. Routing Receipt
+## 23. Routing Receipt
 
 A consequential route SHOULD conceptually support a receipt such as:
 
@@ -606,9 +605,9 @@ routing_receipt:
 
 This schema is architectural unless separately implemented.
 
----
+______________________________________________________________________
 
-# 24. Route Selection
+## 24. Route Selection
 
 Among admissible routes:
 
@@ -622,9 +621,9 @@ $$Optimization \not> Integrity$$
 
 A faster or cheaper route MUST NOT be selected if doing so weakens a required integrity condition.
 
----
+______________________________________________________________________
 
-# 25. Routing Optimization Order
+## 25. Routing Optimization Order
 
 A preferred ordering is:
 
@@ -641,9 +640,9 @@ A preferred ordering is:
 
 Efficiency operates only inside the valid decision envelope.
 
----
+______________________________________________________________________
 
-# 26. Smallest Sufficient Route
+## 26. Smallest Sufficient Route
 
 Where several routes are valid, prefer the smallest route sufficient to achieve the task without weakening integrity.
 
@@ -659,9 +658,9 @@ and:
 
 $$Sufficiency(r)=PASS$$
 
----
+______________________________________________________________________
 
-# 27. Fast Path
+## 27. Fast Path
 
 Local routing may avoid unnecessary global traversal only when the required local proof closure is established.
 
@@ -682,9 +681,9 @@ routing_fast_path:
 
 Unknown is not equivalent to `true`.
 
----
+______________________________________________________________________
 
-# 28. Escalation Conditions
+## 28. Escalation Conditions
 
 Routing SHOULD escalate when:
 
@@ -702,9 +701,9 @@ governance impact is material
 execution is irreversible
 ```
 
----
+______________________________________________________________________
 
-# 29. Competing Routes
+## 29. Competing Routes
 
 Routing MUST NOT force convergence where two or more candidate routes remain genuinely incomparable.
 
@@ -720,9 +719,9 @@ COMPETING
 
 may be the correct state.
 
----
+______________________________________________________________________
 
-# 30. Discriminating Test
+## 30. Discriminating Test
 
 When competing routes matter, prefer the cheapest high-information test capable of resolving the route.
 
@@ -732,9 +731,9 @@ $$Test^* = \arg\max_t \frac{ExpectedDecisionInformation(t)} {Cost(t)}$$
 
 subject to integrity and safety constraints.
 
----
+______________________________________________________________________
 
-# 31. Authorization Boundary
+## 31. Authorization Boundary
 
 Routing and authorization MUST remain distinct concepts.
 
@@ -746,9 +745,9 @@ $$Authorized(x) \not\Rightarrow CorrectRoute(x)$$
 
 Routing policy and authorization evidence therefore require separate treatment when both are load-bearing.
 
----
+______________________________________________________________________
 
-# 32. Routing Policy Validation
+## 32. Routing Policy Validation
 
 The map recognizes the validation reference:
 
@@ -766,9 +765,9 @@ Its existence as a link does not establish:
 
 The receipt itself must be inspected when its evidence is decision-relevant.
 
----
+______________________________________________________________________
 
-# 33. Authorization Engine Validation
+## 33. Authorization Engine Validation
 
 The map recognizes:
 
@@ -782,9 +781,9 @@ $$ReceiptReference \neq ValidatedImplementation$$
 
 The actual receipt, version, scope, environment, and evidence must support the implementation claim.
 
----
+______________________________________________________________________
 
-# 34. Executable Graph Validation
+## 34. Executable Graph Validation
 
 Current status:
 
@@ -798,9 +797,9 @@ Architectural edges may exist without executable bindings.
 
 $$DeclaredEdge \not\Rightarrow ExecutableEdge$$
 
----
+______________________________________________________________________
 
-# 35. Graph Validation Requirement
+## 35. Graph Validation Requirement
 
 To upgrade an edge from architectural to implementation-supported, evidence SHOULD establish the relevant relationship.
 
@@ -819,9 +818,9 @@ failure behavior
 
 may be required.
 
----
+______________________________________________________________________
 
-# 36. Cross-Segment Routing
+## 36. Cross-Segment Routing
 
 This file intentionally covers its own directory.
 
@@ -834,9 +833,9 @@ and applicable subsystem maps.
 
 This prevents a local map from pretending to be the complete global graph.
 
----
+______________________________________________________________________
 
-# 37. Locality Rule
+## 37. Locality Rule
 
 Let:
 
@@ -856,9 +855,9 @@ conceptually.
 
 Absence of an edge in this local map does not prove absence from the wider architecture.
 
----
+______________________________________________________________________
 
-# 38. RSCF Routing Topology
+## 38. RSCF Routing Topology
 
 Routing MAY participate in RSCF relations such as:
 
@@ -880,9 +879,9 @@ SUPERSEDED_BY
 
 Exact relation semantics remain governed by canonical RSCF definitions.
 
----
+______________________________________________________________________
 
-# 39. Provenance Independence
+## 39. Provenance Independence
 
 Multiple routing artifacts derived from the same source do not constitute independent validation.
 
@@ -902,9 +901,9 @@ Therefore:
 
 $$3\ Documents \not\Rightarrow 3\ IndependentConfirmations$$
 
----
+______________________________________________________________________
 
-# 40. Causal Firewall
+## 40. Causal Firewall
 
 Routing sequence MUST NOT be mistaken for causal proof.
 
@@ -923,9 +922,9 @@ as a causal effect.
 
 Routing provenance and causal evidence remain distinct.
 
----
+______________________________________________________________________
 
-# 41. Failure Classes
+## 41. Failure Classes
 
 Routing failures MAY be classified as:
 
@@ -945,9 +944,9 @@ ROUTE_PROVENANCE_FAILURE
 ROUTE_UNKNOWN_FAILURE
 ```
 
----
+______________________________________________________________________
 
-# 42. Failure Recovery
+## 42. Failure Recovery
 
 Preferred recovery pattern:
 
@@ -969,9 +968,9 @@ REVALIDATE
 
 Global recomputation is a last resort.
 
----
+______________________________________________________________________
 
-# 43. No Unchanged Retry
+## 43. No Unchanged Retry
 
 A failed route SHOULD NOT simply be repeated without a changed condition.
 
@@ -988,9 +987,9 @@ new version
 alternate route
 ```
 
----
+______________________________________________________________________
 
-# 44. Routing Invariants
+## 44. Routing Invariants
 
 ```text
 ROUTE-INV-001
@@ -1066,9 +1065,9 @@ ROUTE-INV-024
 Partial executable validation must remain labeled PARTIAL.
 ```
 
----
+______________________________________________________________________
 
-# 45. Proof Capsule for a Route
+## 45. Proof Capsule for a Route
 
 A consequential route MAY conceptually carry:
 
@@ -1104,9 +1103,9 @@ routing_proof_capsule:
   confidence_ceiling:
 ```
 
----
+______________________________________________________________________
 
-# 46. Route Invalidation
+## 46. Route Invalidation
 
 A cached or previously accepted route MUST be reconsidered when a load-bearing condition changes.
 
@@ -1125,9 +1124,9 @@ conflict discovery
 validation invalidation
 ```
 
----
+______________________________________________________________________
 
-# 47. Selective Invalidation
+## 47. Selective Invalidation
 
 If dependency $D_1$ fails:
 
@@ -1144,9 +1143,9 @@ then dependent routes should be invalidated.
 
 Unrelated Route C should remain intact if its proof closure does not depend on $D_1$.
 
----
+______________________________________________________________________
 
-# 48. Version Awareness
+## 48. Version Awareness
 
 Routing artifacts SHOULD remain version-aware where behavior changes.
 
@@ -1154,9 +1153,9 @@ $$Validated(RoutingPolicy@v_1) \not\Rightarrow Validated(RoutingPolicy@v_2)$$
 
 unless compatibility is independently established.
 
----
+______________________________________________________________________
 
-# 49. Supersession
+## 49. Supersession
 
 When a routing policy, contract, resolver, or engine is superseded, lineage SHOULD remain recoverable.
 
@@ -1171,9 +1170,9 @@ v1
 
 Historical decisions should remain interpretable under the state that existed when they were made.
 
----
+______________________________________________________________________
 
-# 50. Governance Boundary
+## 50. Governance Boundary
 
 This map does not grant itself authority to:
 
@@ -1188,9 +1187,9 @@ invent missing graph edges
 
 Those transitions require the applicable governance process.
 
----
+______________________________________________________________________
 
-# 51. Current Gaps
+## 51. Current Gaps
 
 ## GAP-ROUTE-001 — Executable graph validation
 
@@ -1204,7 +1203,7 @@ Relevant evidence references:
 - [[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]]
 - [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]
 
----
+______________________________________________________________________
 
 ## GAP-ROUTE-002 — Cross-segment completeness
 
@@ -1223,7 +1222,7 @@ Cross-segment topology belongs in:
 - [[00_ROOT/00_ROOT_MAP|00_ROOT_MAP]]
 - [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
 
 ## GAP-ROUTE-003 — Runtime equivalence
 
@@ -1231,9 +1230,9 @@ Cross-segment topology belongs in:
 
 Architectural routing concepts must not be assumed to correspond one-to-one with executable runtime components without implementation evidence.
 
----
+______________________________________________________________________
 
-# 52. Gap Resolution Order
+## 52. Gap Resolution Order
 
 Resolve gaps in this order:
 
@@ -1249,9 +1248,9 @@ COSMETIC
 
 Do not spend effort on explanatory completeness while a critical route gate remains unresolved.
 
----
+______________________________________________________________________
 
-# 53. Canonical Reading Rule
+## 53. Canonical Reading Rule
 
 For a routing question, retrieve only what can materially change the answer.
 
@@ -1273,9 +1272,9 @@ dependency artifact
 raw evidence only if required
 ```
 
----
+______________________________________________________________________
 
-# 54. Compact Routing Model
+## 54. Compact Routing Model
 
 The routing plane can be summarized as:
 
@@ -1289,9 +1288,9 @@ and:
 
 $$\boxed{ UNKNOWN/GAP \neq PASS }$$
 
----
+______________________________________________________________________
 
-# 55. Final Map Contract
+## 55. Final Map Contract
 
 `ROUTING_MAP.md` is the local map of the Routing index segment.
 
@@ -1309,7 +1308,7 @@ The decisive routing discipline is:
 
 > Select the smallest sufficient admissible route whose load-bearing dependencies, scope, regime, freshness, provenance, conflicts, and required authorization are established; otherwise preserve the uncertainty and escalate rather than inventing a valid path.
 
----
+______________________________________________________________________
 
 ## Navigation
 
@@ -1341,15 +1340,15 @@ The decisive routing discipline is:
 - [[00_ROOT/00_ROOT_MAP|00_ROOT_MAP]]
 - [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[25_COGNITIVE_MATRIX/10_ROUTING/00_INDEX/INDEX_ROUTING_COGNITIVE_MATRIX_README|INDEX_ROUTING_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/10_ROUTING/00_INDEX/ROUTING_COGNITIVE_MATRIX_ROUTING_CONTRACT|ROUTING_COGNITIVE_MATRIX_ROUTING_CONTRACT]] · [[03_CONTROL_PLANE/01_TASK_CONTRACT/TASK_RESOLVER|TASK_RESOLVER]] · [[03_CONTROL_PLANE/02_CAPABILITY/CAPABILITY_RESOLVER|CAPABILITY_RESOLVER]] · [[03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX/MODE_ADMISSION_QUEUE|MODE_ADMISSION_QUEUE]] · [[03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX/MODE_COMPOSITION_REGISTRY|MODE_COMPOSITION_REGISTRY]] · [[03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX/MODE_CONFLICT_REGISTRY|MODE_CONFLICT_REGISTRY]] · [[03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX/MODE_COVERAGE_MATRIX|MODE_COVERAGE_MATRIX]] · [[03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX/MODE_DEPENDENCY_GRAPH|MODE_DEPENDENCY_GRAPH]] · [[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]] · [[00_ROOT/00_ROOT_MAP|00_ROOT_MAP]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[02_KERNEL/09_INTEGRATION/K_RSCF|K_RSCF]] · [[01_CANON/01_CORE_LAWS/L17_RSCF|L17_RSCF]]
 
----
+______________________________________________________________________
 
 RSCF-NODE
 
@@ -1403,11 +1402,14 @@ canonical_status: CONDITIONAL
 This preserves your original `ROUTING MAP` as a **map**, rather than incorrectly turning the index file into the routing engine or routing contract itself. The executable graph remains explicitly `PARTIAL` until the referenced receipts actually support stronger claims.
 ```
 
----
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/10_ROUTING/00_INDEX/INDEX_ROUTING_COGNITIVE_MATRIX_README|INDEX_ROUTING_COGNITIVE_MATRIX_README]]
 
----
+______________________________________________________________________
+
 **MOC:** [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]]
 
----
+______________________________________________________________________
+
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

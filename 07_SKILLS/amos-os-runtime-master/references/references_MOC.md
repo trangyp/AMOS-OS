@@ -1,61 +1,64 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: References MOC — References — Amos Os Runtime Master
 type: moc
 source: 07_SKILLS/amos-os-runtime-master/references
 tags:
-- references
-- type/skill
-- 11k-executor-agent
-- advanced-system-enhancement
-- ai-integration-layer
-- brain-2026-ultimate-enhancement
-- brain-advanced-ai-complete
-- brain-complete-integration-report
-- brain-enhancement-completion
-- brain-taskengine-integration
-- complete-system-integration
-- continuation-engine
-- continuous-evolution
-- core-v44-coordination-avoidance
-- emergency-crash-prevention
-- error-recovery
-- final-system-integration-report
-- full-brain-os-test-fix
-- golden-ratio-diagnostics
-- next-gen-system-evolution
-- omega-precision-core
-- operating-systems-survival
-- operational-status
-- phase2-completion
-- phase7-completion
-- phase8-completion
-- production-deployment-report
-- resilience-vs-control
-- resource-optimization-final
-- speed-engine-root
-- speed-governor
-- speed-moral-decision
-- system-architecture-report-v2
-- system-integration-complete
-- system-interfaces
-- system-optimization-complete
-- system-optimization-mission
-- system-schema
-- system-status
-- system-status-march16
-- system-status-march17
-- system-status-summary
-- system-status-summary-v2
-- system-status-summary-v3
-- systems-core-engine
-- tool-routing-failure-model
-- uni-system-operations-engine
-- uni-system-operations-model
-- v43-shard-local-finalization
-- v44-coordination-avoidance-detailed
-- vault-domain-knowledge
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - references
+  - type/skill
+  - 11k-executor-agent
+  - advanced-system-enhancement
+  - ai-integration-layer
+  - brain-2026-ultimate-enhancement
+  - brain-advanced-ai-complete
+  - brain-complete-integration-report
+  - brain-enhancement-completion
+  - brain-taskengine-integration
+  - complete-system-integration
+  - continuation-engine
+  - continuous-evolution
+  - core-v44-coordination-avoidance
+  - emergency-crash-prevention
+  - error-recovery
+  - final-system-integration-report
+  - full-brain-os-test-fix
+  - golden-ratio-diagnostics
+  - next-gen-system-evolution
+  - omega-precision-core
+  - operating-systems-survival
+  - operational-status
+  - phase2-completion
+  - phase7-completion
+  - phase8-completion
+  - production-deployment-report
+  - resilience-vs-control
+  - resource-optimization-final
+  - speed-engine-root
+  - speed-governor
+  - speed-moral-decision
+  - system-architecture-report-v2
+  - system-integration-complete
+  - system-interfaces
+  - system-optimization-complete
+  - system-optimization-mission
+  - system-schema
+  - system-status
+  - system-status-march16
+  - system-status-march17
+  - system-status-summary
+  - system-status-summary-v2
+  - system-status-summary-v3
+  - systems-core-engine
+  - tool-routing-failure-model
+  - uni-system-operations-engine
+  - uni-system-operations-model
+  - v43-shard-local-finalization
+  - v44-coordination-avoidance-detailed
+  - vault-domain-knowledge
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 moc: true
 rscf:
   state: SOURCE_CLAIM
@@ -121,9 +124,9 @@ rscf:
 - [[07_SKILLS/amos-os-runtime-master/references/v44_coordination_avoidance_detailed|v44_coordination_avoidance_detailed]]
 - [[07_SKILLS/amos-os-runtime-master/references/vault_domain_knowledge|vault_domain_knowledge]]
 
----
-**Parent:** [[07_SKILLS/amos-os-runtime-master/amos-os-runtime-master_MOC|amos-os-runtime-master_MOC]]
----
+______________________________________________________________________
+
+## **Parent:** [[07_SKILLS/amos-os-runtime-master/amos-os-runtime-master_MOC|amos-os-runtime-master_MOC]]
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -131,12 +134,14 @@ rscf:
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-os-runtime-master-references-MOC
 node_type: reference
 path: 07_SKILLS/amos-os-runtime-master/references/references_MOC.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

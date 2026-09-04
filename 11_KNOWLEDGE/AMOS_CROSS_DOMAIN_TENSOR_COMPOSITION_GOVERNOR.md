@@ -1,10 +1,10 @@
 ---
 title: MODEL MAP
 aliases:
-- Models Map
-- AMOS Model Map
-- 13 Models Map
-- Models Plane Index Map
+  - Models Map
+  - AMOS Model Map
+  - 13 Models Map
+  - Models Plane Index Map
 type: map
 artifact_type: navigation_map
 document_role: models_plane_segment_map
@@ -23,12 +23,12 @@ graph_validation_status: PARTIAL
 artifact_specific_validation: UNKNOWN/GAP
 executable_binding: NOT_ESTABLISHED
 scope:
-- index_navigation
-- models_plane
-- models_index_segment
-- local_model_navigation
-- artifact_discovery
-- contract_navigation
+  - index_navigation
+  - models_plane
+  - models_index_segment
+  - local_model_navigation
+  - artifact_discovery
+  - contract_navigation
 coverage:
   directory: 13_MODELS/00_INDEX
   recursive: false
@@ -36,63 +36,63 @@ coverage:
   exhaustive_models_plane: false
 navigation_contract:
   orientation:
-  - - INDEX_MODELS_README
+    -   - INDEX_MODELS_README
   normative_contract:
-  - - INDEX_MODELS_MODEL_CONTRACT
+    -   - INDEX_MODELS_MODEL_CONTRACT
   cross_segment:
-  - '[[00_ROOT/00_ROOT_MAP|00_ROOT_MAP]]'
-  - '[[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]'
+    - '[[00_ROOT/00_ROOT_MAP|00_ROOT_MAP]]'
+    - '[[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]'
 tags:
-- amos-os
-- amos-os
-- 13_models
-- 00_index
-- models
-- model
-- map
-- navigation
-- index
-- model-navigation
-- artifact-discovery
-- local-navigation
-- segment-navigation
-- local-scope
-- directory-scope
-- model-instances
-- rscf
-- rscf-node
-- fractal-knowledge-network
-- hml
-- scope
-- regime
-- provenance
-- provenance-topology
-- dependency
-- dependency-closure
-- authority
-- authorization
-- governance
-- proposal
-- commit
-- fail-closed
-- unknown-gap
-- rollback
-- selective-invalidation
-- validation
-- graph-validation
-- validation-receipt
-- routing
-- link-integrity
-- model-identity
-- model-versioning
-- model-provenance
-- competing-models
-- epistemic-regime
-- canon/model
-- readme
-- routing-policy-validation-receipt
-- authz-engine-validation-receipt
-- law-hierarchy
+  - amos-os
+  - amos-os
+  - 13_models
+  - 00_index
+  - models
+  - model
+  - map
+  - navigation
+  - index
+  - model-navigation
+  - artifact-discovery
+  - local-navigation
+  - segment-navigation
+  - local-scope
+  - directory-scope
+  - model-instances
+  - rscf
+  - rscf-node
+  - fractal-knowledge-network
+  - hml
+  - scope
+  - regime
+  - provenance
+  - provenance-topology
+  - dependency
+  - dependency-closure
+  - authority
+  - authorization
+  - governance
+  - proposal
+  - commit
+  - fail-closed
+  - unknown-gap
+  - rollback
+  - selective-invalidation
+  - validation
+  - graph-validation
+  - validation-receipt
+  - routing
+  - link-integrity
+  - model-identity
+  - model-versioning
+  - model-provenance
+  - competing-models
+  - epistemic-regime
+  - canon/model
+  - readme
+  - routing-policy-validation-receipt
+  - authz-engine-validation-receipt
+  - law-hierarchy
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -114,7 +114,7 @@ gaps:
 
 # MODEL MAP
 
-> [!abstract] Models Plane Navigation Map
+> [!ABSTRACT] Models Plane Navigation Map
 > `MODEL MAP` is the local navigation map for the `13_MODELS/00_INDEX` segment of the AMOS Models plane.
 >
 > Its source-grounded responsibility is deliberately bounded:
@@ -123,13 +123,13 @@ gaps:
 >
 > This map covers its own directory only.
 >
-> Cross-segment navigation belongs to `` and ``.
+> Cross-segment navigation belongs to `and`.
 >
 > A model's presence on a map establishes **discoverability**, not empirical truth, canonical promotion, causal validity, authorization, freshness, or applicability.
 
----
+______________________________________________________________________
 
-# 0. Canonical Source Nucleus
+## 0. Canonical Source Nucleus
 
 The supplied source establishes:
 
@@ -176,18 +176,18 @@ source_nucleus:
     node_type: note
     path: 13_MODELS/00_INDEX/MODEL_MAP.md
     claim_class: AMOS_MODEL
-````
+```
 
 Everything beyond this nucleus is either:
 
 1. a direct preservation of the supplied source;
-2. a normalized AMOS semantic expansion;
-3. an explicit integrity constraint;
-4. or an `UNKNOWN/GAP` where executable canon has not been established.
+1. a normalized AMOS semantic expansion;
+1. an explicit integrity constraint;
+1. or an `UNKNOWN/GAP` where executable canon has not been established.
 
----
+______________________________________________________________________
 
-# 1. Purpose
+## 1. Purpose
 
 `MODEL_MAP` provides the navigation surface for:
 
@@ -211,9 +211,9 @@ It does not independently validate every model.
 
 It does not establish that every model in AMOS is represented here.
 
----
+______________________________________________________________________
 
-# 2. Map — MODEL MAP
+## 2. Map — MODEL MAP
 
 Navigation map for the:
 
@@ -228,9 +228,9 @@ Primary local artifacts:
 - **Contract** — [[13_MODELS/00_INDEX/INDEX_MODELS_MODEL_CONTRACT|INDEX_MODELS_MODEL_CONTRACT]]
 - **Readme** — [[13_MODELS/00_INDEX/INDEX_MODELS_README|INDEX_MODELS_README]]
 
----
+______________________________________________________________________
 
-# 3. Map Identity
+## 3. Map Identity
 
 ```yaml
 map_identity:
@@ -242,9 +242,9 @@ map_identity:
   scope: index_navigation
 ```
 
----
+______________________________________________________________________
 
-# 4. Plane
+## 4. Plane
 
 The containing plane is:
 
@@ -252,9 +252,9 @@ The containing plane is:
 13_MODELS
 ```
 
----
+______________________________________________________________________
 
-# 5. Segment
+## 5. Segment
 
 The directly governed navigation segment is:
 
@@ -264,9 +264,9 @@ The directly governed navigation segment is:
 
 This boundary is load-bearing.
 
----
+______________________________________________________________________
 
-# 6. Local Coverage
+## 6. Local Coverage
 
 The source explicitly says:
 
@@ -288,9 +288,9 @@ MODEL_MAP
 COMPLETE AMOS MODEL UNIVERSE
 ```
 
----
+______________________________________________________________________
 
-# 7. Coverage Firewall
+## 7. Coverage Firewall
 
 Core rule:
 
@@ -300,9 +300,9 @@ LOCAL MAP
 GLOBAL MAP
 ```
 
----
+______________________________________________________________________
 
-# 8. Directory Boundary
+## 8. Directory Boundary
 
 The map's primary directory boundary is:
 
@@ -312,18 +312,18 @@ The map's primary directory boundary is:
 
 Artifacts outside that boundary require cross-segment navigation.
 
----
+______________________________________________________________________
 
-# 9. Cross-Segment Navigation
+## 9. Cross-Segment Navigation
 
 Cross-segment edges are explicitly delegated to:
 
 - [[00_ROOT/00_ROOT_MAP|00_ROOT_MAP]]
 - [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
 
-# 10. Cross-Segment Firewall
+## 10. Cross-Segment Firewall
 
 The local map must not silently claim ownership over edges that belong to broader navigation structures.
 
@@ -333,9 +333,9 @@ LOCAL EDGE
 CROSS-SEGMENT EDGE
 ```
 
----
+______________________________________________________________________
 
-# 11. Primary Navigation Objects
+## 11. Primary Navigation Objects
 
 The source establishes two direct map targets:
 
@@ -344,11 +344,11 @@ The source establishes two direct map targets:
 
 ```
 
----
+______________________________________________________________________
 
-# 12. README Role
+## 12. README Role
 
-`` provides orientation.
+\`\` provides orientation.
 
 Normalized role:
 
@@ -359,11 +359,11 @@ README
 → HOW DO I NAVIGATE IT?
 ```
 
----
+______________________________________________________________________
 
-# 13. Contract Role
+## 13. Contract Role
 
-`` provides normative terms.
+\`\` provides normative terms.
 
 Normalized role:
 
@@ -376,9 +376,9 @@ CONTRACT
 
 The exact normative terms remain governed by the contract itself.
 
----
+______________________________________________________________________
 
-# 14. Artifact Role
+## 14. Artifact Role
 
 Artifacts are instances bound by the applicable contract.
 
@@ -391,15 +391,15 @@ ARTIFACT
 
 depending on its actual type.
 
----
+______________________________________________________________________
 
-# 15. Reading Order
+## 15. Reading Order
 
 The source establishes:
 
 1. Readme → orientation.
-2. Contract → normative terms.
-3. Artifacts → instances bound by the contract.
+1. Contract → normative terms.
+1. Artifacts → instances bound by the contract.
 
 Canonical compression:
 
@@ -411,9 +411,9 @@ CONTRACT
 ARTIFACTS
 ```
 
----
+______________________________________________________________________
 
-# 16. Why Orientation Comes First
+## 16. Why Orientation Comes First
 
 The README establishes the navigation context before the reader interprets model artifacts.
 
@@ -425,9 +425,9 @@ This reduces:
 - mistaken authority;
 - mistaken completeness.
 
----
+______________________________________________________________________
 
-# 17. Why Contract Comes Before Instances
+## 17. Why Contract Comes Before Instances
 
 Without the contract, an artifact can be found but its governing semantics may remain unknown.
 
@@ -439,9 +439,9 @@ FOUND ARTIFACT
 CONTRACT UNDERSTOOD
 ```
 
----
+______________________________________________________________________
 
-# 18. Why Instances Come Last
+## 18. Why Instances Come Last
 
 Instances should be interpreted after:
 
@@ -453,9 +453,9 @@ NORMATIVE CONTRACT
 
 have been established.
 
----
+______________________________________________________________________
 
-# 19. Reading Order Is Semantic
+## 19. Reading Order Is Semantic
 
 The reading order is not merely cosmetic.
 
@@ -467,9 +467,9 @@ ORIENTATION
 → INSTANCE INTERPRETATION
 ```
 
----
+______________________________________________________________________
 
-# 20. Reading Order ≠ Authority Hierarchy
+## 20. Reading Order ≠ Authority Hierarchy
 
 However:
 
@@ -483,11 +483,11 @@ does not mean:
 README HAS HIGHER CANONICAL AUTHORITY
 ```
 
-Canonical precedence remains governed by applicable canon such as ``.
+Canonical precedence remains governed by applicable canon such as \`\`.
 
----
+______________________________________________________________________
 
-# 21. Map ≠ Model
+## 21. Map ≠ Model
 
 Critical distinction:
 
@@ -499,9 +499,9 @@ MODEL
 
 The map organizes access to model-related artifacts.
 
----
+______________________________________________________________________
 
-# 22. Map ≠ Model Registry
+## 22. Map ≠ Model Registry
 
 Unless separately validated:
 
@@ -511,9 +511,9 @@ MODEL_MAP
 EXHAUSTIVE MODEL REGISTRY
 ```
 
----
+______________________________________________________________________
 
-# 23. Map ≠ Truth Registry
+## 23. Map ≠ Truth Registry
 
 ```text
 MODEL_MAP
@@ -521,9 +521,9 @@ MODEL_MAP
 TRUTH REGISTRY
 ```
 
----
+______________________________________________________________________
 
-# 24. Map ≠ Authority Registry
+## 24. Map ≠ Authority Registry
 
 ```text
 MODEL_MAP
@@ -531,9 +531,9 @@ MODEL_MAP
 AUTHORITY REGISTRY
 ```
 
----
+______________________________________________________________________
 
-# 25. Map ≠ Validation Registry
+## 25. Map ≠ Validation Registry
 
 ```text
 MODEL_MAP
@@ -541,9 +541,9 @@ MODEL_MAP
 VALIDATION REGISTRY
 ```
 
----
+______________________________________________________________________
 
-# 26. Map Presence
+## 26. Map Presence
 
 If an artifact appears on this map, the strongest direct conclusion is:
 
@@ -554,9 +554,9 @@ WITHIN THE MAP'S DECLARED SCOPE
 
 subject to link resolution.
 
----
+______________________________________________________________________
 
-# 27. Map Presence ≠ Verification
+## 27. Map Presence ≠ Verification
 
 ```text
 MAPPED
@@ -564,9 +564,9 @@ MAPPED
 VERIFIED
 ```
 
----
+______________________________________________________________________
 
-# 28. Map Presence ≠ Truth
+## 28. Map Presence ≠ Truth
 
 ```text
 MAPPED
@@ -574,9 +574,9 @@ MAPPED
 TRUE
 ```
 
----
+______________________________________________________________________
 
-# 29. Map Presence ≠ Canon
+## 29. Map Presence ≠ Canon
 
 ```text
 MAPPED
@@ -586,9 +586,9 @@ CANONICAL
 
 unless canonical status is separately established.
 
----
+______________________________________________________________________
 
-# 30. Map Presence ≠ Authority
+## 30. Map Presence ≠ Authority
 
 ```text
 MAPPED
@@ -596,9 +596,9 @@ MAPPED
 AUTHORIZED
 ```
 
----
+______________________________________________________________________
 
-# 31. Map Presence ≠ Applicability
+## 31. Map Presence ≠ Applicability
 
 ```text
 MAPPED
@@ -608,9 +608,9 @@ APPLICABLE
 
 A model may be correctly mapped but invalid for the current domain, scale, regime, time, or environment.
 
----
+______________________________________________________________________
 
-# 32. Map Presence ≠ Freshness
+## 32. Map Presence ≠ Freshness
 
 ```text
 MAPPED
@@ -618,9 +618,9 @@ MAPPED
 CURRENT
 ```
 
----
+______________________________________________________________________
 
-# 33. Map Absence
+## 33. Map Absence
 
 If an artifact does not appear on this local map:
 
@@ -634,9 +634,9 @@ does not establish:
 DOES NOT EXIST IN AMOS
 ```
 
----
+______________________________________________________________________
 
-# 34. Non-Exhaustiveness
+## 34. Non-Exhaustiveness
 
 The source itself bounds coverage to:
 
@@ -646,9 +646,9 @@ OWN DIRECTORY ONLY
 
 Therefore absence cannot be globally interpreted.
 
----
+______________________________________________________________________
 
-# 35. Epistemic Boundary
+## 35. Epistemic Boundary
 
 AMOS knowledge objects preserve the discrete classes:
 
@@ -661,9 +661,9 @@ MODEL
 
 Navigation must not silently rewrite them.
 
----
+______________________________________________________________________
 
-# 36. Map Epistemic State
+## 36. Map Epistemic State
 
 The supplied RSCF metadata states:
 
@@ -672,9 +672,9 @@ state: DERIVED
 claim_class: DERIVED
 ```
 
----
+______________________________________________________________________
 
-# 37. Node Claim Class
+## 37. Node Claim Class
 
 The supplied RSCF footer states:
 
@@ -684,9 +684,9 @@ claim_class: AMOS_MODEL
 
 These two layers must remain distinguishable.
 
----
+______________________________________________________________________
 
-# 38. Normalized Interpretation
+## 38. Normalized Interpretation
 
 Until stronger canon specifies otherwise:
 
@@ -704,9 +704,9 @@ NODE / ARTIFACT CLASS
 AMOS_MODEL
 ```
 
----
+______________________________________________________________________
 
-# 39. Epistemic Class ≠ Confidence
+## 39. Epistemic Class ≠ Confidence
 
 ```text
 DERIVED
@@ -722,21 +722,21 @@ MODEL
 
 does not automatically mean low confidence.
 
----
+______________________________________________________________________
 
-# 40. Epistemic Class ≠ Authority
+## 40. Epistemic Class ≠ Authority
 
 A valid model can remain unauthorized for a particular action.
 
----
+______________________________________________________________________
 
-# 41. Epistemic Class ≠ Scope
+## 41. Epistemic Class ≠ Scope
 
 A model's class does not establish where it applies.
 
----
+______________________________________________________________________
 
-# 42. Epistemic Class Preservation
+## 42. Epistemic Class Preservation
 
 Navigation from:
 
@@ -747,9 +747,9 @@ MODEL_MAP
 
 must preserve `MODEL_X`'s actual epistemic class.
 
----
+______________________________________________________________________
 
-# 43. No Epistemic Promotion by Navigation
+## 43. No Epistemic Promotion by Navigation
 
 Invalid:
 
@@ -767,9 +767,9 @@ MODEL_X
 → NAVIGABLE
 ```
 
----
+______________________________________________________________________
 
-# 44. RSCF Role
+## 44. RSCF Role
 
 This map is also an RSCF node.
 
@@ -779,9 +779,9 @@ Its identity is:
 amos_13_models_00_index_model_map_md
 ```
 
----
+______________________________________________________________________
 
-# 45. RSCF Node Type
+## 45. RSCF Node Type
 
 Source:
 
@@ -799,17 +799,17 @@ navigation_map
 
 may be used as normalized metadata without replacing the source-native node type.
 
----
+______________________________________________________________________
 
-# 46. RSCF Path
+## 46. RSCF Path
 
 ```text
 13_MODELS/00_INDEX/MODEL_MAP.md
 ```
 
----
+______________________________________________________________________
 
-# 47. RSCF Navigation
+## 47. RSCF Navigation
 
 Explicit RSCF-related navigation includes:
 
@@ -817,9 +817,9 @@ Explicit RSCF-related navigation includes:
 - [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]]
 
----
+______________________________________________________________________
 
-# 48. Fractal Navigation
+## 48. Fractal Navigation
 
 Normalized AMOS navigation may move:
 
@@ -835,9 +835,9 @@ ARTIFACT
 DETAIL
 ```
 
----
+______________________________________________________________________
 
-# 49. H/M/L Interpretation
+## 49. H/M/L Interpretation
 
 For model navigation:
 
@@ -857,9 +857,9 @@ specific model artifact / implementation detail
 
 This is normalized AMOS semantics rather than an assertion that every directory literally implements these levels.
 
----
+______________________________________________________________________
 
-# 50. H/M/L Firewall
+## 50. H/M/L Firewall
 
 ```text
 VALID AT L
@@ -871,9 +871,9 @@ VALID AT H
 
 unless translation is validated.
 
----
+______________________________________________________________________
 
-# 51. RSCF Dependency Preservation
+## 51. RSCF Dependency Preservation
 
 A map traversal must not erase:
 
@@ -890,9 +890,9 @@ contradictions
 
 when they are decision-relevant.
 
----
+______________________________________________________________________
 
-# 52. RSCF Compression
+## 52. RSCF Compression
 
 A map may compress navigation.
 
@@ -905,9 +905,9 @@ ALL MODEL NODES
 → VALID MODELS
 ```
 
----
+______________________________________________________________________
 
-# 53. RSCF Expansion
+## 53. RSCF Expansion
 
 When a mapped node becomes decision-relevant:
 
@@ -921,9 +921,9 @@ DEPENDENCIES
 RAW EVIDENCE IF REQUIRED
 ```
 
----
+______________________________________________________________________
 
-# 54. Smallest Sufficient Retrieval
+## 54. Smallest Sufficient Retrieval
 
 Do not load the entire Models plane for a local lookup when:
 
@@ -937,9 +937,9 @@ TARGET ARTIFACT
 
 are sufficient.
 
----
+______________________________________________________________________
 
-# 55. Escalation
+## 55. Escalation
 
 Escalate retrieval when:
 
@@ -956,9 +956,9 @@ governance consequence
 
 can alter the outcome.
 
----
+______________________________________________________________________
 
-# 56. Gaps
+## 56. Gaps
 
 The source establishes:
 
@@ -974,9 +974,9 @@ EXECUTABLE GRAPH VALIDATION
 PARTIAL
 ```
 
----
+______________________________________________________________________
 
-# 57. Partial Graph Validation
+## 57. Partial Graph Validation
 
 `PARTIAL` must remain `PARTIAL`.
 
@@ -987,9 +987,9 @@ PARTIAL
 → COMPLETE
 ```
 
----
+______________________________________________________________________
 
-# 58. Graph Validation References
+## 58. Graph Validation References
 
 The source identifies:
 
@@ -998,9 +998,9 @@ The source identifies:
 
 These are contextual validation references.
 
----
+______________________________________________________________________
 
-# 59. Validation Receipt Firewall
+## 59. Validation Receipt Firewall
 
 A related validation receipt does not automatically establish:
 
@@ -1010,25 +1010,25 @@ MODEL_MAP FULLY VALIDATED
 
 unless the receipt specifically covers this artifact and required conditions.
 
----
+______________________________________________________________________
 
-# 60. Routing Validation
+## 60. Routing Validation
 
 Routing validation may establish particular routing properties within its tested scope.
 
 It does not establish model truth.
 
----
+______________________________________________________________________
 
-# 61. Authorization Validation
+## 61. Authorization Validation
 
 Authorization validation may establish particular authorization properties within its tested scope.
 
 It does not establish graph completeness.
 
----
+______________________________________________________________________
 
-# 62. Graph Integrity ≠ Model Integrity
+## 62. Graph Integrity ≠ Model Integrity
 
 ```text
 GRAPH VALID
@@ -1036,9 +1036,9 @@ GRAPH VALID
 MODEL VALID
 ```
 
----
+______________________________________________________________________
 
-# 63. Graph Integrity ≠ Model Truth
+## 63. Graph Integrity ≠ Model Truth
 
 ```text
 ALL EDGES RESOLVE
@@ -1046,9 +1046,9 @@ ALL EDGES RESOLVE
 ALL MODELS TRUE
 ```
 
----
+______________________________________________________________________
 
-# 64. Graph Integrity ≠ Completeness
+## 64. Graph Integrity ≠ Completeness
 
 ```text
 ALL DECLARED EDGES VALID
@@ -1060,9 +1060,9 @@ does not prove:
 ALL REQUIRED EDGES DECLARED
 ```
 
----
+______________________________________________________________________
 
-# 65. Link Integrity ≠ Graph Completeness
+## 65. Link Integrity ≠ Graph Completeness
 
 ```text
 LINK_PASS
@@ -1070,15 +1070,15 @@ LINK_PASS
 COMPLETE_GRAPH
 ```
 
----
+______________________________________________________________________
 
-# 66. Graph Completeness ≠ Epistemic Validity
+## 66. Graph Completeness ≠ Epistemic Validity
 
 Even a complete graph can contain unsupported models.
 
----
+______________________________________________________________________
 
-# 67. Graph Validation Dimensions
+## 67. Graph Validation Dimensions
 
 A mature validation process may distinguish:
 
@@ -1096,9 +1096,9 @@ semantic integrity
 
 This taxonomy is normalized AMOS semantics.
 
----
+______________________________________________________________________
 
-# 68. Syntactic Integrity
+## 68. Syntactic Integrity
 
 Questions:
 
@@ -1108,9 +1108,9 @@ Does the node format parse?
 Does required metadata exist?
 ```
 
----
+______________________________________________________________________
 
-# 69. Identity Integrity
+## 69. Identity Integrity
 
 Questions:
 
@@ -1120,9 +1120,9 @@ Does the expected artifact match?
 Is the version correct?
 ```
 
----
+______________________________________________________________________
 
-# 70. Edge Integrity
+## 70. Edge Integrity
 
 Questions:
 
@@ -1132,9 +1132,9 @@ Does target exist?
 Is the edge type permitted?
 ```
 
----
+______________________________________________________________________
 
-# 71. Semantic Integrity
+## 71. Semantic Integrity
 
 A link may resolve while representing the wrong semantic relationship.
 
@@ -1146,33 +1146,33 @@ EDGE EXISTS
 EDGE SEMANTICALLY VALID
 ```
 
----
+______________________________________________________________________
 
-# 72. Provenance Integrity
+## 72. Provenance Integrity
 
 Mapped models should preserve recoverable provenance where material.
 
----
+______________________________________________________________________
 
-# 73. Scope Integrity
+## 73. Scope Integrity
 
 The map must not imply that local scope equals global scope.
 
----
+______________________________________________________________________
 
-# 74. Regime Integrity
+## 74. Regime Integrity
 
 A model mapped under one regime must not silently inherit applicability under another.
 
----
+______________________________________________________________________
 
-# 75. Temporal Integrity
+## 75. Temporal Integrity
 
 Historical mappings and current mappings may differ.
 
----
+______________________________________________________________________
 
-# 76. Version Integrity
+## 76. Version Integrity
 
 A map edge may be valid for:
 
@@ -1186,9 +1186,9 @@ but stale for:
 MODEL_X v5
 ```
 
----
+______________________________________________________________________
 
-# 77. Worked Semantics
+## 77. Worked Semantics
 
 The source establishes six stages:
 
@@ -1201,17 +1201,17 @@ The source establishes six stages:
 6. COMMIT OR HOLD
 ```
 
----
+______________________________________________________________________
 
-# 78. Stage 1 — Admit
+## 78. Stage 1 — Admit
 
 Source rule:
 
 > resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
 
----
+______________________________________________________________________
 
-# 79. Admission Function
+## 79. Admission Function
 
 Normalized:
 
@@ -1227,15 +1227,15 @@ RESOLUTION
 ADMIT / HOLD
 ```
 
----
+______________________________________________________________________
 
-# 80. Identity Requirement
+## 80. Identity Requirement
 
 A consequential operation must identify the target sufficiently to avoid accidental mutation.
 
----
+______________________________________________________________________
 
-# 81. Version Requirement
+## 81. Version Requirement
 
 When version matters:
 
@@ -1247,9 +1247,9 @@ VERSION
 
 must both resolve.
 
----
+______________________________________________________________________
 
-# 82. Missing ID
+## 82. Missing ID
 
 ```text
 ID = UNRESOLVED
@@ -1261,9 +1261,9 @@ produces:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 83. Fail-Closed Admission
+## 83. Fail-Closed Admission
 
 For consequential operations:
 
@@ -1273,9 +1273,9 @@ UNKNOWN
 PASS
 ```
 
----
+______________________________________________________________________
 
-# 84. Ambiguous Identity
+## 84. Ambiguous Identity
 
 If multiple targets satisfy the identifier and no valid disambiguation exists:
 
@@ -1284,9 +1284,9 @@ AMBIGUOUS
 → HOLD
 ```
 
----
+______________________________________________________________________
 
-# 85. Stage 2 — Bind Scope
+## 85. Stage 2 — Bind Scope
 
 The source requires declaration of:
 
@@ -1298,9 +1298,9 @@ H/M/L APPLICABILITY
 
 before mutation.
 
----
+______________________________________________________________________
 
-# 86. Applicability Envelope
+## 86. Applicability Envelope
 
 Normalized:
 
@@ -1319,9 +1319,9 @@ applicability:
   assumptions: []
 ```
 
----
+______________________________________________________________________
 
-# 87. Domain Firewall
+## 87. Domain Firewall
 
 ```text
 VALID IN DOMAIN A
@@ -1329,9 +1329,9 @@ VALID IN DOMAIN A
 VALID IN DOMAIN B
 ```
 
----
+______________________________________________________________________
 
-# 88. Regime Firewall
+## 88. Regime Firewall
 
 ```text
 VALID IN REGIME R1
@@ -1339,9 +1339,9 @@ VALID IN REGIME R1
 VALID IN REGIME R2
 ```
 
----
+______________________________________________________________________
 
-# 89. Scale Firewall
+## 89. Scale Firewall
 
 ```text
 VALID AT SCALE S1
@@ -1349,9 +1349,9 @@ VALID AT SCALE S1
 VALID AT SCALE S2
 ```
 
----
+______________________________________________________________________
 
-# 90. Temporal Firewall
+## 90. Temporal Firewall
 
 ```text
 VALID AT T1
@@ -1359,9 +1359,9 @@ VALID AT T1
 VALID AT T2
 ```
 
----
+______________________________________________________________________
 
-# 91. Stage 3 — Check Authority
+## 91. Stage 3 — Check Authority
 
 The source states:
 
@@ -1369,9 +1369,9 @@ The source states:
 authority_ref must be epoch-valid
 ```
 
----
+______________________________________________________________________
 
-# 92. Capability ≠ Authority
+## 92. Capability ≠ Authority
 
 Canonical integrity rule:
 
@@ -1381,25 +1381,25 @@ CAPABILITY
 AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 93. Read Capability
+## 93. Read Capability
 
 An agent may be able to read the map.
 
 This does not authorize mutation.
 
----
+______________________________________________________________________
 
-# 94. Write Capability
+## 94. Write Capability
 
 An agent may technically be able to modify the file.
 
 This still does not establish authority.
 
----
+______________________________________________________________________
 
-# 95. Authority Epoch
+## 95. Authority Epoch
 
 Authority may be bounded by a governance epoch.
 
@@ -1413,9 +1413,9 @@ does not automatically remain valid at:
 E2
 ```
 
----
+______________________________________________________________________
 
-# 96. Authority Scope
+## 96. Authority Scope
 
 Authority can also be local.
 
@@ -1429,9 +1429,9 @@ does not automatically imply:
 AUTHORIZED TO CHANGE ROOT MAP
 ```
 
----
+______________________________________________________________________
 
-# 97. Stage 4 — Validate Preconditions
+## 97. Stage 4 — Validate Preconditions
 
 The source requires dependency closure to the:
 
@@ -1439,9 +1439,9 @@ The source requires dependency closure to the:
 SMALLEST RESULT-CHANGING SET
 ```
 
----
+______________________________________________________________________
 
-# 98. Dependency Closure
+## 98. Dependency Closure
 
 Normalized:
 
@@ -1455,9 +1455,9 @@ RESULT-CHANGING CONDITIONS
 
 Stop when further traversal cannot materially change the decision.
 
----
+______________________________________________________________________
 
-# 99. Possible Preconditions
+## 99. Possible Preconditions
 
 Normalized candidates:
 
@@ -1475,15 +1475,15 @@ freshness
 regime compatibility
 ```
 
----
+______________________________________________________________________
 
-# 100. Preconditions ≠ Background
+## 100. Preconditions ≠ Background
 
 Only result-changing dependencies need to be traversed before a decision.
 
----
+______________________________________________________________________
 
-# 101. Stage 5 — Propose
+## 101. Stage 5 — Propose
 
 Candidate state remains non-authoritative.
 
@@ -1493,9 +1493,9 @@ PROPOSAL
 COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 102. Proposal State
+## 102. Proposal State
 
 Example:
 
@@ -1508,9 +1508,9 @@ proposal:
   authoritative: false
 ```
 
----
+______________________________________________________________________
 
-# 103. Proposal Validation
+## 103. Proposal Validation
 
 A proposal can be:
 
@@ -1530,9 +1530,9 @@ dependency
 
 gates.
 
----
+______________________________________________________________________
 
-# 104. Stage 6 — Commit or Hold
+## 104. Stage 6 — Commit or Hold
 
 If all load-bearing gates pass:
 
@@ -1546,17 +1546,17 @@ Otherwise:
 HOLD
 ```
 
----
+______________________________________________________________________
 
-# 105. Failed Premise
+## 105. Failed Premise
 
 Source rule:
 
 > preserve unaffected state, invalidate dependent descendants only, record receipt.
 
----
+______________________________________________________________________
 
-# 106. Selective Invalidation
+## 106. Selective Invalidation
 
 Suppose:
 
@@ -1581,9 +1581,9 @@ may require invalidation.
 
 `MODEL_B` remains intact unless dependency evidence says otherwise.
 
----
+______________________________________________________________________
 
-# 107. Local Failure
+## 107. Local Failure
 
 ```text
 LOCAL FAILURE
@@ -1592,15 +1592,15 @@ LOCAL FAILURE
 
 unless broader dependency closure proves global coupling.
 
----
+______________________________________________________________________
 
-# 108. Preserve Unaffected State
+## 108. Preserve Unaffected State
 
 Failure must not trigger unnecessary global recomputation.
 
----
+______________________________________________________________________
 
-# 109. Rollback Basin
+## 109. Rollback Basin
 
 Consequential map mutation should demonstrate recoverability.
 
@@ -1614,15 +1614,15 @@ FAILURE
 MAP vN PRESERVED / RESTORED
 ```
 
----
+______________________________________________________________________
 
-# 110. Retry Rule
+## 110. Retry Rule
 
 Do not repeat a failed path without changed evidence.
 
----
+______________________________________________________________________
 
-# 111. Changed Evidence
+## 111. Changed Evidence
 
 Examples:
 
@@ -1635,9 +1635,9 @@ dependency resolved
 provenance repaired
 ```
 
----
+______________________________________________________________________
 
-# 112. Receipt
+## 112. Receipt
 
 A consequential operation should preserve an auditable result where applicable.
 
@@ -1660,9 +1660,9 @@ receipt:
 
 Exact executable schema remains `NOT_ESTABLISHED`.
 
----
+______________________________________________________________________
 
-# 113. Model Identity
+## 113. Model Identity
 
 Every consequential model reference should preserve stable identity where available.
 
@@ -1672,9 +1672,9 @@ DISPLAY NAME
 IDENTITY
 ```
 
----
+______________________________________________________________________
 
-# 114. Similar Names
+## 114. Similar Names
 
 ```text
 MODEL_A
@@ -1686,9 +1686,9 @@ may or may not refer to the same artifact.
 
 Similarity is insufficient.
 
----
+______________________________________________________________________
 
-# 115. Structural Similarity
+## 115. Structural Similarity
 
 ```text
 MODEL_X
@@ -1698,9 +1698,9 @@ MODEL_Y
 
 does not prove identity.
 
----
+______________________________________________________________________
 
-# 116. Versioned Identity
+## 116. Versioned Identity
 
 Conceptually:
 
@@ -1713,15 +1713,15 @@ MODEL_X
 
 The model family and version must not be silently collapsed when version affects validity.
 
----
+______________________________________________________________________
 
-# 117. Historical Version
+## 117. Historical Version
 
 An older version can remain historically important even when superseded.
 
----
+______________________________________________________________________
 
-# 118. Supersession
+## 118. Supersession
 
 Preferred lineage:
 
@@ -1735,9 +1735,9 @@ MODEL_X v2
 
 rather than destructive replacement.
 
----
+______________________________________________________________________
 
-# 119. Provenance
+## 119. Provenance
 
 A model map should preserve access to provenance when provenance is load-bearing.
 
@@ -1752,9 +1752,9 @@ provenance:
   independence_status:
 ```
 
----
+______________________________________________________________________
 
-# 120. Provenance Topology
+## 120. Provenance Topology
 
 Evidence may form a graph:
 
@@ -1771,9 +1771,9 @@ SOURCE B
 
 `Z` may provide a genuinely separate root.
 
----
+______________________________________________________________________
 
-# 121. Repetition ≠ Independence
+## 121. Repetition ≠ Independence
 
 ```text
 MULTIPLE MODEL NODES
@@ -1781,9 +1781,9 @@ MULTIPLE MODEL NODES
 MULTIPLE INDEPENDENT SOURCES
 ```
 
----
+______________________________________________________________________
 
-# 122. Independence Must Be Demonstrated
+## 122. Independence Must Be Demonstrated
 
 Do not default:
 
@@ -1793,23 +1793,23 @@ independence = true
 
 merely because files differ.
 
----
+______________________________________________________________________
 
-# 123. Sybil-Hardening
+## 123. Sybil-Hardening
 
 Many descendants from one source root must not masquerade as many independent confirmations.
 
----
+______________________________________________________________________
 
-# 124. Model Confidence
+## 124. Model Confidence
 
 A model's map position does not increase its confidence.
 
----
+______________________________________________________________________
 
-# 125. Confidence Ceiling
+## 125. Confidence Ceiling
 
-For a conclusion \(D\) dependent on premises \(P_i\):
+For a conclusion (D) dependent on premises (P_i):
 
 $$
 C(D) \leq \min_i C(P_i)
@@ -1817,15 +1817,15 @@ $$
 
 unless independent revalidation supports a stronger ceiling.
 
----
+______________________________________________________________________
 
-# 126. Weakest Load-Bearing Premise
+## 126. Weakest Load-Bearing Premise
 
 The map should preserve access to the premise capable of limiting the model's derived confidence.
 
----
+______________________________________________________________________
 
-# 127. Competing Models
+## 127. Competing Models
 
 AMOS must preserve genuine competition.
 
@@ -1841,15 +1841,15 @@ may remain:
 COMPETING
 ```
 
----
+______________________________________________________________________
 
-# 128. Map Must Not Force Convergence
+## 128. Map Must Not Force Convergence
 
 A navigation map should not choose a winner merely to simplify topology.
 
----
+______________________________________________________________________
 
-# 129. Equal Support
+## 129. Equal Support
 
 If support is effectively equal:
 
@@ -1858,9 +1858,9 @@ MODEL_A = COMPETING
 MODEL_B = COMPETING
 ```
 
----
+______________________________________________________________________
 
-# 130. Incomparable Support
+## 130. Incomparable Support
 
 If evidence dimensions differ such that ranking is not justified:
 
@@ -1870,17 +1870,17 @@ COMPETING
 
 remains appropriate.
 
----
+______________________________________________________________________
 
-# 131. Correlated Support
+## 131. Correlated Support
 
 Two apparently separate models may share ancestry.
 
 Correlated support must not be treated as independent confirmation.
 
----
+______________________________________________________________________
 
-# 132. Discriminating Test
+## 132. Discriminating Test
 
 Prefer evidence that separates competing predictions.
 
@@ -1890,9 +1890,9 @@ $$
 P(O|M_A) \neq P(O|M_B)
 $$
 
----
+______________________________________________________________________
 
-# 133. Causal Firewall
+## 133. Causal Firewall
 
 A model can contain causal structure.
 
@@ -1904,9 +1904,9 @@ MODEL
 
 until appropriately supported.
 
----
+______________________________________________________________________
 
-# 134. Association
+## 134. Association
 
 ```text
 A ASSOCIATED WITH B
@@ -1914,9 +1914,9 @@ A ASSOCIATED WITH B
 
 does not establish causal effect.
 
----
+______________________________________________________________________
 
-# 135. Correlation
+## 135. Correlation
 
 ```text
 A CORRELATED WITH B
@@ -1928,51 +1928,51 @@ does not establish:
 A CAUSES B
 ```
 
----
+______________________________________________________________________
 
-# 136. Mechanism
+## 136. Mechanism
 
 A proposed mechanism remains a model-level claim until validated by appropriate evidence.
 
----
+______________________________________________________________________
 
-# 137. Enabling Condition
+## 137. Enabling Condition
 
 An enabling condition is not necessarily sufficient.
 
----
+______________________________________________________________________
 
-# 138. Necessary Condition
+## 138. Necessary Condition
 
 A necessary condition is not necessarily sufficient.
 
----
+______________________________________________________________________
 
-# 139. Sufficient Condition
+## 139. Sufficient Condition
 
 A sufficient condition is not necessarily necessary.
 
----
+______________________________________________________________________
 
-# 140. Mediation
+## 140. Mediation
 
 A mediated relationship must not be silently represented as direct causation.
 
----
+______________________________________________________________________
 
-# 141. Confounding
+## 141. Confounding
 
 Confounding explanations must remain visible when supported.
 
----
+______________________________________________________________________
 
-# 142. Feedback
+## 142. Feedback
 
 Feedback architectures should not be compressed into simple one-way causal edges without justification.
 
----
+______________________________________________________________________
 
-# 143. Structural Resemblance
+## 143. Structural Resemblance
 
 Core law:
 
@@ -1982,9 +1982,9 @@ STRUCTURAL SIMILARITY
 CAUSAL PROOF
 ```
 
----
+______________________________________________________________________
 
-# 144. Analogy
+## 144. Analogy
 
 Cross-domain analogy remains:
 
@@ -1994,21 +1994,21 @@ MODEL
 
 unless independently validated.
 
----
+______________________________________________________________________
 
-# 145. Model Scope
+## 145. Model Scope
 
 Each consequential model should carry an applicability envelope where available.
 
----
+______________________________________________________________________
 
-# 146. Scope Inheritance
+## 146. Scope Inheritance
 
 Derived conclusions inherit relevant scope constraints from their load-bearing premises.
 
----
+______________________________________________________________________
 
-# 147. Scope Intersection
+## 147. Scope Intersection
 
 If:
 
@@ -2025,15 +2025,15 @@ S_A ∩ S_B
 
 without independent justification.
 
----
+______________________________________________________________________
 
-# 148. Regime Inheritance
+## 148. Regime Inheritance
 
 A derived conclusion must preserve the relevant regimes of its premises.
 
----
+______________________________________________________________________
 
-# 149. Regime Shift
+## 149. Regime Shift
 
 If operating conditions leave the validated regime:
 
@@ -2042,9 +2042,9 @@ VALIDITY
 → REQUIRES REVALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 150. Freshness
+## 150. Freshness
 
 Freshness is independent of model identity.
 
@@ -2060,29 +2060,29 @@ may produce:
 STALE SUPPORT
 ```
 
----
+______________________________________________________________________
 
-# 151. Stale Model
+## 151. Stale Model
 
 A stale model does not disappear historically.
 
 Its current applicability becomes conditional or unknown.
 
----
+______________________________________________________________________
 
-# 152. Freshness-Bounded Trust
+## 152. Freshness-Bounded Trust
 
 Trust must remain bounded by the freshness of load-bearing evidence.
 
----
+______________________________________________________________________
 
-# 153. Map Update ≠ Evidence Update
+## 153. Map Update ≠ Evidence Update
 
 Changing the map does not automatically refresh the model's evidence.
 
----
+______________________________________________________________________
 
-# 154. Map Update ≠ Model Update
+## 154. Map Update ≠ Model Update
 
 Likewise:
 
@@ -2096,17 +2096,17 @@ does not imply:
 MODEL_X v3
 ```
 
----
+______________________________________________________________________
 
-# 155. Model Update ≠ Map Update
+## 155. Model Update ≠ Map Update
 
 A model may change without the map automatically becoming current.
 
 This creates potential stale-edge risk.
 
----
+______________________________________________________________________
 
-# 156. Stale Edge
+## 156. Stale Edge
 
 Conceptually:
 
@@ -2122,33 +2122,33 @@ CURRENT MODEL = MODEL_X v3
 
 requires review.
 
----
+______________________________________________________________________
 
-# 157. Orphan Node
+## 157. Orphan Node
 
 A model may exist without a current map edge.
 
 This is an indexing condition, not proof of model invalidity.
 
----
+______________________________________________________________________
 
-# 158. Dangling Edge
+## 158. Dangling Edge
 
 A map edge may point to a missing target.
 
 This is a graph-integrity failure.
 
----
+______________________________________________________________________
 
-# 159. Duplicate Edge
+## 159. Duplicate Edge
 
 Multiple equivalent edges may be redundant.
 
 Redundancy does not create stronger evidence.
 
----
+______________________________________________________________________
 
-# 160. Contradictory Edge
+## 160. Contradictory Edge
 
 If two edges assign incompatible semantic roles to the same artifact:
 
@@ -2158,9 +2158,9 @@ CONTRADICTION
 
 must remain visible until resolved.
 
----
+______________________________________________________________________
 
-# 161. Edge Types
+## 161. Edge Types
 
 Normalized candidate edge types include:
 
@@ -2179,9 +2179,9 @@ RECOVERED_VIA
 
 Only types established by actual relationships should be used.
 
----
+______________________________________________________________________
 
-# 162. Edge Typing
+## 162. Edge Typing
 
 ```text
 EDGE
@@ -2189,9 +2189,9 @@ EDGE
 
 without semantic type may be insufficient for consequential reasoning.
 
----
+______________________________________________________________________
 
-# 163. Directionality
+## 163. Directionality
 
 ```text
 A DEPENDS_ON B
@@ -2203,9 +2203,9 @@ does not mean:
 B DEPENDS_ON A
 ```
 
----
+______________________________________________________________________
 
-# 164. Symmetric Relationships
+## 164. Symmetric Relationships
 
 Relationships such as:
 
@@ -2217,9 +2217,9 @@ may be conceptually symmetric.
 
 Their actual storage implementation is not established here.
 
----
+______________________________________________________________________
 
-# 165. Transitivity
+## 165. Transitivity
 
 Do not assume every relation is transitive.
 
@@ -2236,39 +2236,39 @@ does not necessarily mean:
 A REFERENCES C
 ```
 
----
+______________________________________________________________________
 
-# 166. Dependency Transitivity
+## 166. Dependency Transitivity
 
 Dependency closure may traverse multiple edges where the dependency semantics warrant it.
 
----
+______________________________________________________________________
 
-# 167. Provenance Edge
+## 167. Provenance Edge
 
 A provenance edge should preserve source ancestry rather than merely semantic similarity.
 
----
+______________________________________________________________________
 
-# 168. Model Family Edge
+## 168. Model Family Edge
 
 Models may belong to the same family without being identical.
 
----
+______________________________________________________________________
 
-# 169. Variant Edge
+## 169. Variant Edge
 
 A variant must not silently overwrite its parent identity.
 
----
+______________________________________________________________________
 
-# 170. Supersession Edge
+## 170. Supersession Edge
 
 Supersession preserves historical lineage while indicating newer authoritative state where applicable.
 
----
+______________________________________________________________________
 
-# 171. Validation Edge
+## 171. Validation Edge
 
 ```text
 MODEL_X
@@ -2277,15 +2277,15 @@ MODEL_X
 
 must preserve the receipt's actual scope.
 
----
+______________________________________________________________________
 
-# 172. Validation Edge ≠ Universal Validation
+## 172. Validation Edge ≠ Universal Validation
 
 A validation edge is only as broad as the receipt.
 
----
+______________________________________________________________________
 
-# 173. Observation Edge
+## 173. Observation Edge
 
 ```text
 MODEL_X
@@ -2294,17 +2294,17 @@ MODEL_X
 
 does not turn the model into an observation.
 
----
+______________________________________________________________________
 
-# 174. Decision Edge
+## 174. Decision Edge
 
 A decision may depend on a model.
 
 The decision remains a distinct runtime/action object.
 
----
+______________________________________________________________________
 
-# 175. UNKNOWN Edge
+## 175. UNKNOWN Edge
 
 When the relationship is not known:
 
@@ -2314,9 +2314,9 @@ relation = UNKNOWN
 
 is preferable to fabricated semantics.
 
----
+______________________________________________________________________
 
-# 176. Graph Mutation
+## 176. Graph Mutation
 
 Potential map mutations include:
 
@@ -2333,9 +2333,9 @@ CHANGE STATUS
 
 Consequential mutations require governance.
 
----
+______________________________________________________________________
 
-# 177. Mutation Proposal
+## 177. Mutation Proposal
 
 All candidate graph mutations begin as:
 
@@ -2343,15 +2343,15 @@ All candidate graph mutations begin as:
 PROPOSAL
 ```
 
----
+______________________________________________________________________
 
-# 178. Mutation Commit
+## 178. Mutation Commit
 
 Only after applicable gates pass does the candidate become authoritative map state.
 
----
+______________________________________________________________________
 
-# 179. Mutation Failure
+## 179. Mutation Failure
 
 On failure:
 
@@ -2365,9 +2365,9 @@ and:
 INVALIDATE ONLY DEPENDENT PROPOSAL STATE
 ```
 
----
+______________________________________________________________________
 
-# 180. MVCC-Compatible Reasoning
+## 180. MVCC-Compatible Reasoning
 
 Normalized conceptual pattern:
 
@@ -2385,9 +2385,9 @@ This is an AMOS reasoning pattern.
 
 It is not evidence that this Markdown artifact literally implements MVCC.
 
----
+______________________________________________________________________
 
-# 181. CAS-Compatible Reasoning
+## 181. CAS-Compatible Reasoning
 
 Conceptually:
 
@@ -2401,9 +2401,9 @@ may be required before a mutation is committed.
 
 Again, this is model-level runtime semantics unless implementation evidence exists.
 
----
+______________________________________________________________________
 
-# 182. Concurrent Mutation
+## 182. Concurrent Mutation
 
 If two proposals mutate the same load-bearing map region:
 
@@ -2414,9 +2414,9 @@ P2
 
 they cannot automatically both commit if their resulting states conflict.
 
----
+______________________________________________________________________
 
-# 183. Conflict Detection
+## 183. Conflict Detection
 
 Conflict may arise from:
 
@@ -2429,15 +2429,15 @@ incompatible scope
 incompatible authority
 ```
 
----
+______________________________________________________________________
 
-# 184. Local Independence
+## 184. Local Independence
 
 Two map mutations may be independently finalized only if dependency closure demonstrates that they cannot change each other's validity.
 
----
+______________________________________________________________________
 
-# 185. Independence ≠ Different Files
+## 185. Independence ≠ Different Files
 
 ```text
 FILE A
@@ -2447,9 +2447,9 @@ FILE B
 
 does not prove operational independence.
 
----
+______________________________________________________________________
 
-# 186. Proof-Based Coordination Avoidance
+## 186. Proof-Based Coordination Avoidance
 
 Coordination can be avoided only when sufficient proof establishes:
 
@@ -2469,9 +2469,9 @@ AUTHORITY VALIDITY
 
 where those properties are load-bearing.
 
----
+______________________________________________________________________
 
-# 187. Causal Epoch Finality
+## 187. Causal Epoch Finality
 
 Where AMOS causal epoch semantics apply, finalized historical state should not be silently rewritten.
 
@@ -2486,9 +2486,9 @@ REPLACE WITH PROVENANCE
 
 rather than erase history.
 
----
+______________________________________________________________________
 
-# 188. Persistent Provenance
+## 188. Persistent Provenance
 
 A map mutation should preserve enough history to answer:
 
@@ -2502,9 +2502,9 @@ USING WHICH EVIDENCE?
 
 where governance requires those answers.
 
----
+______________________________________________________________________
 
-# 189. Failure Recovery
+## 189. Failure Recovery
 
 AMOS recovery principle:
 
@@ -2518,17 +2518,17 @@ PRESERVE UNAFFECTED STATE
 REROUTE LOCALLY
 ```
 
----
+______________________________________________________________________
 
-# 190. Global Recompute
+## 190. Global Recompute
 
 Global recomputation is a last resort.
 
 It is justified only when local dependency boundaries cannot safely isolate the failure.
 
----
+______________________________________________________________________
 
-# 191. Anti-Regression
+## 191. Anti-Regression
 
 A map optimization is unacceptable if it weakens:
 
@@ -2544,9 +2544,9 @@ validation
 epistemic typing
 ```
 
----
+______________________________________________________________________
 
-# 192. Navigation Optimization
+## 192. Navigation Optimization
 
 Faster navigation is permitted only when integrity is preserved.
 
@@ -2564,9 +2564,9 @@ SPEED
 TOKEN SAVINGS
 ```
 
----
+______________________________________________________________________
 
-# 193. Fast Path
+## 193. Fast Path
 
 A local read can use a minimal path when:
 
@@ -2580,15 +2580,15 @@ NO CONFLICT
 NO RESULT-CHANGING EXTERNAL DEPENDENCY
 ```
 
----
+______________________________________________________________________
 
-# 194. Fast Path Boundary
+## 194. Fast Path Boundary
 
 The fast path must escalate when uncertainty can alter the result.
 
----
+______________________________________________________________________
 
-# 195. Escalation Triggers
+## 195. Escalation Triggers
 
 Escalate for:
 
@@ -2606,15 +2606,15 @@ authority uncertainty
 irreversible consequence
 ```
 
----
+______________________________________________________________________
 
-# 196. Sensitivity
+## 196. Sensitivity
 
 For consequential map operations, identify the smallest condition capable of flipping the result.
 
----
+______________________________________________________________________
 
-# 197. Sensitivity Variables
+## 197. Sensitivity Variables
 
 Potential result-flipping variables:
 
@@ -2630,9 +2630,9 @@ graph collision
 cross-segment dependency
 ```
 
----
+______________________________________________________________________
 
-# 198. Fragility
+## 198. Fragility
 
 If one unresolved premise can change the result:
 
@@ -2648,15 +2648,15 @@ UNKNOWN/GAP
 
 is required.
 
----
+______________________________________________________________________
 
-# 199. Robustness
+## 199. Robustness
 
 A map resolution is robust when plausible variation in noncritical metadata does not alter the resolved artifact or governing semantics.
 
----
+______________________________________________________________________
 
-# 200. Adversarial Validation
+## 200. Adversarial Validation
 
 For consequential graph conclusions, challenge the preferred interpretation.
 
@@ -2672,9 +2672,9 @@ Is the model being mistaken for evidence?
 Is a local map being treated as global?
 ```
 
----
+______________________________________________________________________
 
-# 201. Strongest Alternative
+## 201. Strongest Alternative
 
 If a competing interpretation is equally supported:
 
@@ -2684,15 +2684,15 @@ COMPETING
 
 must remain visible.
 
----
+______________________________________________________________________
 
-# 202. Contradiction
+## 202. Contradiction
 
 A contradiction must not be removed merely because one branch is easier to navigate.
 
----
+______________________________________________________________________
 
-# 203. Contradiction Record
+## 203. Contradiction Record
 
 Normalized:
 
@@ -2710,9 +2710,9 @@ contradiction:
   discriminating_test:
 ```
 
----
+______________________________________________________________________
 
-# 204. Gap Classification
+## 204. Gap Classification
 
 AMOS gap priorities:
 
@@ -2723,33 +2723,33 @@ EXPLANATORY
 COSMETIC
 ```
 
----
+______________________________________________________________________
 
-# 205. Critical Gap
+## 205. Critical Gap
 
 A critical gap prevents safe completion of the requested consequential operation.
 
----
+______________________________________________________________________
 
-# 206. Decision-Relevant Gap
+## 206. Decision-Relevant Gap
 
 Resolving it could change the selected artifact, model, or action.
 
----
+______________________________________________________________________
 
-# 207. Explanatory Gap
+## 207. Explanatory Gap
 
 It affects understanding but not the immediate result.
 
----
+______________________________________________________________________
 
-# 208. Cosmetic Gap
+## 208. Cosmetic Gap
 
 It affects presentation only.
 
----
+______________________________________________________________________
 
-# 209. Current Gap Register
+## 209. Current Gap Register
 
 ```yaml
 MODEL_MAP_GAPS:
@@ -2818,9 +2818,9 @@ MODEL_MAP_GAPS:
     status: NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 210. Promotion-Gate Checklist
+## 210. Promotion-Gate Checklist
 
 - [ ] typed schema bound to this artifact
 - [ ] identity + versioning implemented
@@ -2830,19 +2830,19 @@ MODEL_MAP_GAPS:
 - [ ] executed validation receipt specific to this artifact
 - [ ] unresolved critical gaps registered as `UNKNOWN/GAP` and visible
 
----
+______________________________________________________________________
 
-# 211. Extended Promotion Gate — Map Scope
+## 211. Extended Promotion Gate — Map Scope
 
 - [ ] local directory boundary enforced
 - [ ] no implicit whole-plane coverage
 - [ ] cross-segment edges delegated correctly
-- [ ] `` route validated
-- [ ] `` route validated
+- [ ] \`\` route validated
+- [ ] \`\` route validated
 
----
+______________________________________________________________________
 
-# 212. Extended Promotion Gate — Reading Order
+## 212. Extended Promotion Gate — Reading Order
 
 - [ ] README resolves
 - [ ] contract resolves
@@ -2850,9 +2850,9 @@ MODEL_MAP_GAPS:
 - [ ] artifact instances preserve contract identity
 - [ ] reading order does not become false authority hierarchy
 
----
+______________________________________________________________________
 
-# 213. Extended Promotion Gate — Identity
+## 213. Extended Promotion Gate — Identity
 
 - [ ] map has stable identity
 - [ ] mapped targets have stable identity
@@ -2860,9 +2860,9 @@ MODEL_MAP_GAPS:
 - [ ] aliases cannot silently merge distinct models
 - [ ] version conflicts remain visible
 
----
+______________________________________________________________________
 
-# 214. Extended Promotion Gate — Graph Integrity
+## 214. Extended Promotion Gate — Graph Integrity
 
 - [ ] node existence validated
 - [ ] edge existence validated
@@ -2871,9 +2871,9 @@ MODEL_MAP_GAPS:
 - [ ] duplicate edges handled
 - [ ] contradictory edges surfaced
 
----
+______________________________________________________________________
 
-# 215. Extended Promotion Gate — Provenance
+## 215. Extended Promotion Gate — Provenance
 
 - [ ] provenance root recoverable
 - [ ] ancestry recoverable
@@ -2881,9 +2881,9 @@ MODEL_MAP_GAPS:
 - [ ] independence demonstrated where claimed
 - [ ] map compression preserves provenance
 
----
+______________________________________________________________________
 
-# 216. Extended Promotion Gate — Epistemic Integrity
+## 216. Extended Promotion Gate — Epistemic Integrity
 
 - [ ] `MAPPED ≠ VERIFIED`
 - [ ] `MAPPED ≠ TRUE`
@@ -2892,9 +2892,9 @@ MODEL_MAP_GAPS:
 - [ ] `SOURCE_CLAIM ≠ OBSERVATION`
 - [ ] `DERIVED` retains premise lineage
 
----
+______________________________________________________________________
 
-# 217. Extended Promotion Gate — Scope
+## 217. Extended Promotion Gate — Scope
 
 - [ ] domain preserved
 - [ ] scale preserved
@@ -2903,9 +2903,9 @@ MODEL_MAP_GAPS:
 - [ ] H/M/L applicability preserved
 - [ ] cross-scope generalization blocked
 
----
+______________________________________________________________________
 
-# 218. Extended Promotion Gate — Governance
+## 218. Extended Promotion Gate — Governance
 
 - [ ] authority reference validated
 - [ ] authority epoch validated
@@ -2913,9 +2913,9 @@ MODEL_MAP_GAPS:
 - [ ] proposal/commit separation tested
 - [ ] unauthorized mutation rejected
 
----
+______________________________________________________________________
 
-# 219. Extended Promotion Gate — Recovery
+## 219. Extended Promotion Gate — Recovery
 
 - [ ] failed proposal leaves valid map intact
 - [ ] dependent descendants selectively invalidated
@@ -2923,9 +2923,9 @@ MODEL_MAP_GAPS:
 - [ ] recovery receipt generated
 - [ ] failed path not retried without changed evidence
 
----
+______________________________________________________________________
 
-# 220. Negative Test — Missing Artifact
+## 220. Negative Test — Missing Artifact
 
 Request:
 
@@ -2943,9 +2943,9 @@ UNKNOWN/GAP
 
 Do not invent an artifact.
 
----
+______________________________________________________________________
 
-# 221. Negative Test — Malformed Identity
+## 221. Negative Test — Malformed Identity
 
 Input:
 
@@ -2961,9 +2961,9 @@ MALFORMED
 
 No silent repair for consequential resolution.
 
----
+______________________________________________________________________
 
-# 222. Negative Test — Ambiguous Identity
+## 222. Negative Test — Ambiguous Identity
 
 Two targets match.
 
@@ -2974,9 +2974,9 @@ AMBIGUOUS
 → DISAMBIGUATE
 ```
 
----
+______________________________________________________________________
 
-# 223. Negative Test — Stale Version
+## 223. Negative Test — Stale Version
 
 Requested:
 
@@ -2997,9 +2997,9 @@ VERSION CONFLICT
 → REVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 224. Negative Test — Unauthorized Mutation
+## 224. Negative Test — Unauthorized Mutation
 
 Request:
 
@@ -3015,9 +3015,9 @@ Correct:
 HOLD
 ```
 
----
+______________________________________________________________________
 
-# 225. Negative Test — Capability Mistaken for Authority
+## 225. Negative Test — Capability Mistaken for Authority
 
 ```text
 CAN_WRITE = TRUE
@@ -3030,9 +3030,9 @@ Result:
 NO COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 226. Negative Test — Map Presence Mistaken for Truth
+## 226. Negative Test — Map Presence Mistaken for Truth
 
 Invalid:
 
@@ -3041,9 +3041,9 @@ MODEL_X IS ON MODEL_MAP
 THEREFORE MODEL_X IS TRUE
 ```
 
----
+______________________________________________________________________
 
-# 227. Negative Test — Map Presence Mistaken for Canon
+## 227. Negative Test — Map Presence Mistaken for Canon
 
 Invalid:
 
@@ -3052,9 +3052,9 @@ MODEL_X IS MAPPED
 THEREFORE MODEL_X IS CANONICAL
 ```
 
----
+______________________________________________________________________
 
-# 228. Negative Test — Local Map Mistaken for Global Inventory
+## 228. Negative Test — Local Map Mistaken for Global Inventory
 
 Invalid:
 
@@ -3065,9 +3065,9 @@ THEREFORE MODEL_X DOES NOT EXIST
 
 The source explicitly limits the map to its own directory.
 
----
+______________________________________________________________________
 
-# 229. Negative Test — Valid Edge Mistaken for Valid Model
+## 229. Negative Test — Valid Edge Mistaken for Valid Model
 
 Invalid:
 
@@ -3076,9 +3076,9 @@ MODEL_MAP → MODEL_X LINK PASSES
 THEREFORE MODEL_X IS VALID
 ```
 
----
+______________________________________________________________________
 
-# 230. Negative Test — Graph Pass Mistaken for Completeness
+## 230. Negative Test — Graph Pass Mistaken for Completeness
 
 Invalid:
 
@@ -3087,9 +3087,9 @@ ALL DECLARED LINKS PASS
 THEREFORE GRAPH IS COMPLETE
 ```
 
----
+______________________________________________________________________
 
-# 231. Negative Test — Shared Provenance
+## 231. Negative Test — Shared Provenance
 
 ```text
 SOURCE_A
@@ -3103,9 +3103,9 @@ Invalid:
 X + Y = TWO INDEPENDENT CONFIRMATIONS
 ```
 
----
+______________________________________________________________________
 
-# 232. Negative Test — Structural Similarity
+## 232. Negative Test — Structural Similarity
 
 Invalid:
 
@@ -3114,9 +3114,9 @@ MODEL_X STRUCTURALLY RESEMBLES SYSTEM_Y
 THEREFORE MODEL_X EXPLAINS SYSTEM_Y
 ```
 
----
+______________________________________________________________________
 
-# 233. Negative Test — Scope Leakage
+## 233. Negative Test — Scope Leakage
 
 Model:
 
@@ -3130,9 +3130,9 @@ Invalid:
 therefore valid system-wide
 ```
 
----
+______________________________________________________________________
 
-# 234. Negative Test — Regime Leakage
+## 234. Negative Test — Regime Leakage
 
 Model validated under:
 
@@ -3146,25 +3146,25 @@ Invalid:
 therefore valid under R2
 ```
 
----
+______________________________________________________________________
 
-# 235. Negative Test — Observation Becomes Model
+## 235. Negative Test — Observation Becomes Model
 
 An observation used by a model remains an observation.
 
 Do not erase epistemic type.
 
----
+______________________________________________________________________
 
-# 236. Negative Test — Model Becomes Observation
+## 236. Negative Test — Model Becomes Observation
 
 A successful model remains a model.
 
 Validation can increase support without changing its epistemic type.
 
----
+______________________________________________________________________
 
-# 237. Negative Test — Monitoring Grants Mutation Rights
+## 237. Negative Test — Monitoring Grants Mutation Rights
 
 Invalid:
 
@@ -3173,9 +3173,9 @@ OBSERVABILITY DETECTS ERROR
 → OBSERVABILITY MAY AUTHORITATIVELY MODIFY MAP
 ```
 
----
+______________________________________________________________________
 
-# 238. Negative Test — Proposal Becomes Commit
+## 238. Negative Test — Proposal Becomes Commit
 
 Invalid:
 
@@ -3186,9 +3186,9 @@ PROPOSAL CREATED
 
 Required gates must pass first.
 
----
+______________________________________________________________________
 
-# 239. Machine-Readable Map Contract
+## 239. Machine-Readable Map Contract
 
 ```yaml
 model_map_contract:
@@ -3262,9 +3262,9 @@ model_map_contract:
     artifact_specific_receipt: UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 240. Map Node Schema
+## 240. Map Node Schema
 
 ```yaml
 map_node:
@@ -3321,9 +3321,9 @@ map_node:
 
 This is a normalized schema candidate.
 
----
+______________________________________________________________________
 
-# 241. Map Edge Schema
+## 241. Map Edge Schema
 
 ```yaml
 map_edge:
@@ -3371,9 +3371,9 @@ map_edge:
   gaps: []
 ```
 
----
+______________________________________________________________________
 
-# 242. Graph Validation Capsule
+## 242. Graph Validation Capsule
 
 ```yaml
 graph_validation_capsule:
@@ -3417,9 +3417,9 @@ graph_validation_capsule:
     status:
 ```
 
----
+______________________________________________________________________
 
-# 243. Model Proof Capsule
+## 243. Model Proof Capsule
 
 ```yaml
 model_proof_capsule:
@@ -3478,9 +3478,9 @@ model_proof_capsule:
   gaps: []
 ```
 
----
+______________________________________________________________________
 
-# 244. Map Resolution Capsule
+## 244. Map Resolution Capsule
 
 ```yaml
 map_resolution_capsule:
@@ -3525,9 +3525,9 @@ map_resolution_capsule:
     confidence_ceiling:
 ```
 
----
+______________________________________________________________________
 
-# 245. Operational Decision Matrix
+## 245. Operational Decision Matrix
 
 | Condition                              | Result                                         |
 | -------------------------------------- | ---------------------------------------------- |
@@ -3549,9 +3549,9 @@ map_resolution_capsule:
 | Competing models unresolved            | `COMPETING`                                    |
 | Provenance independence unknown        | do not count as independent                    |
 
----
+______________________________________________________________________
 
-# 246. Integrity Matrix
+## 246. Integrity Matrix
 
 | Dimension    | Required law                            |
 | ------------ | --------------------------------------- |
@@ -3571,9 +3571,9 @@ map_resolution_capsule:
 | Absence      | `NOT_LOCAL ≠ NONEXISTENT`               |
 | Causality    | `STRUCTURAL_SIMILARITY ≠ CAUSATION`     |
 
----
+______________________________________________________________________
 
-# 247. Map Invariants
+## 247. Map Invariants
 
 ```yaml
 MODEL_MAP_INVARIANTS:
@@ -3623,9 +3623,9 @@ MODEL_MAP_INVARIANTS:
     artifact_specific_validation: UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 248. Worked Example — Reading the Map
+## 248. Worked Example — Reading the Map
 
 Start:
 
@@ -3669,9 +3669,9 @@ Purpose:
 CONTRACT-BOUND INSTANCE
 ```
 
----
+______________________________________________________________________
 
-# 249. Worked Example — Local Target
+## 249. Worked Example — Local Target
 
 Suppose an artifact is inside:
 
@@ -3683,9 +3683,9 @@ The map can route locally according to the applicable index contract.
 
 No cross-segment traversal is required if no external dependency can change the result.
 
----
+______________________________________________________________________
 
-# 250. Worked Example — Cross-Segment Target
+## 250. Worked Example — Cross-Segment Target
 
 Suppose the target belongs outside:
 
@@ -3707,9 +3707,9 @@ TARGET
 
 The exact route depends on the governing navigation semantics.
 
----
+______________________________________________________________________
 
-# 251. Worked Example — Missing Target
+## 251. Worked Example — Missing Target
 
 Target cannot be resolved.
 
@@ -3721,9 +3721,9 @@ UNKNOWN/GAP
 
 Do not fabricate a model.
 
----
+______________________________________________________________________
 
-# 252. Worked Example — Mapped Model with Unknown Validation
+## 252. Worked Example — Mapped Model with Unknown Validation
 
 ```yaml
 model:
@@ -3744,9 +3744,9 @@ Unsupported:
 MODEL_X IS VERIFIED
 ```
 
----
+______________________________________________________________________
 
-# 253. Worked Example — Competing Models
+## 253. Worked Example — Competing Models
 
 ```text
 MODEL_A
@@ -3764,9 +3764,9 @@ MODEL_A — COMPETING
 MODEL_B — COMPETING
 ```
 
----
+______________________________________________________________________
 
-# 254. Worked Example — Shared Provenance
+## 254. Worked Example — Shared Provenance
 
 ```text
 SOURCE_S
@@ -3781,9 +3781,9 @@ TWO MODEL NODES
 ONE SHARED PROVENANCE ROOT
 ```
 
----
+______________________________________________________________________
 
-# 255. Worked Example — Regime Change
+## 255. Worked Example — Regime Change
 
 ```text
 MODEL_A
@@ -3799,9 +3799,9 @@ Applicability becomes:
 REQUIRES REVALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 256. Worked Example — Scope Change
+## 256. Worked Example — Scope Change
 
 ```text
 MODEL_A
@@ -3820,9 +3820,9 @@ Correct:
 SCOPE LEAKAGE DETECTED
 ```
 
----
+______________________________________________________________________
 
-# 257. Worked Example — Unauthorized Map Mutation
+## 257. Worked Example — Unauthorized Map Mutation
 
 Request:
 
@@ -3848,9 +3848,9 @@ Result:
 HOLD
 ```
 
----
+______________________________________________________________________
 
-# 258. Worked Example — Failed Proposal
+## 258. Worked Example — Failed Proposal
 
 Existing:
 
@@ -3873,9 +3873,9 @@ MAP v7 PRESERVED
 MAP v8 HELD / INVALIDATED
 ```
 
----
+______________________________________________________________________
 
-# 259. Worked Example — Selective Invalidation
+## 259. Worked Example — Selective Invalidation
 
 ```text
 MODEL_MAP
@@ -3894,9 +3894,9 @@ MODEL_B EDGE
 
 Do not invalidate `MODEL_A` or `MODEL_C` without dependency evidence.
 
----
+______________________________________________________________________
 
-# 260. Worked Example — Stale Map Edge
+## 260. Worked Example — Stale Map Edge
 
 ```text
 MAP → MODEL_A v2
@@ -3915,9 +3915,9 @@ STALE EDGE
 → REVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 261. Worked Example — Validation Receipt
+## 261. Worked Example — Validation Receipt
 
 Suppose a receipt tests:
 
@@ -3942,9 +3942,9 @@ MODEL_MAP IS COMPLETELY VALIDATED
 
 unless the receipt establishes that broader claim.
 
----
+______________________________________________________________________
 
-# 262. Model Selection Firewall
+## 262. Model Selection Firewall
 
 This map supports navigation.
 
@@ -3956,9 +3956,9 @@ NAVIGATION
 SELECTION
 ```
 
----
+______________________________________________________________________
 
-# 263. Model Selection Requirements
+## 263. Model Selection Requirements
 
 When selection is required, decision-relevant factors may include:
 
@@ -3975,9 +3975,9 @@ competing models
 consequence
 ```
 
----
+______________________________________________________________________
 
-# 264. Alphabetical Position ≠ Preference
+## 264. Alphabetical Position ≠ Preference
 
 If a model appears first alphabetically:
 
@@ -3987,9 +3987,9 @@ FIRST
 BEST
 ```
 
----
+______________________________________________________________________
 
-# 265. Map Position ≠ Confidence
+## 265. Map Position ≠ Confidence
 
 ```text
 TOP OF MAP
@@ -3997,9 +3997,9 @@ TOP OF MAP
 HIGH CONFIDENCE
 ```
 
----
+______________________________________________________________________
 
-# 266. Number of Links ≠ Evidence Strength
+## 266. Number of Links ≠ Evidence Strength
 
 ```text
 HIGH DEGREE NODE
@@ -4007,9 +4007,9 @@ HIGH DEGREE NODE
 STRONGLY VALIDATED MODEL
 ```
 
----
+______________________________________________________________________
 
-# 267. Centrality ≠ Truth
+## 267. Centrality ≠ Truth
 
 ```text
 GRAPH CENTRALITY
@@ -4017,9 +4017,9 @@ GRAPH CENTRALITY
 EPISTEMIC TRUTH
 ```
 
----
+______________________________________________________________________
 
-# 268. Popularity ≠ Truth
+## 268. Popularity ≠ Truth
 
 ```text
 MOST REFERENCED
@@ -4027,9 +4027,9 @@ MOST REFERENCED
 MOST CORRECT
 ```
 
----
+______________________________________________________________________
 
-# 269. Complexity ≠ Truth
+## 269. Complexity ≠ Truth
 
 ```text
 MOST COMPLEX MODEL
@@ -4037,9 +4037,9 @@ MOST COMPLEX MODEL
 MOST CORRECT MODEL
 ```
 
----
+______________________________________________________________________
 
-# 270. Simplicity ≠ Truth
+## 270. Simplicity ≠ Truth
 
 ```text
 SIMPLEST MODEL
@@ -4049,9 +4049,9 @@ MOST CORRECT MODEL
 
 without additional selection criteria.
 
----
+______________________________________________________________________
 
-# 271. Recency ≠ Truth
+## 271. Recency ≠ Truth
 
 ```text
 NEWEST MODEL
@@ -4061,9 +4061,9 @@ MOST CORRECT MODEL
 
 although freshness may affect applicability.
 
----
+______________________________________________________________________
 
-# 272. Authority ≠ Truth
+## 272. Authority ≠ Truth
 
 ```text
 AUTHORIZED MODEL
@@ -4073,9 +4073,9 @@ EMPIRICALLY TRUE MODEL
 
 Governance and epistemic validation remain distinct.
 
----
+______________________________________________________________________
 
-# 273. Validation ≠ Universality
+## 273. Validation ≠ Universality
 
 ```text
 VALIDATED IN SCOPE S
@@ -4083,9 +4083,9 @@ VALIDATED IN SCOPE S
 VALID EVERYWHERE
 ```
 
----
+______________________________________________________________________
 
-# 274. Benchmark ≠ Universality
+## 274. Benchmark ≠ Universality
 
 If a model passes a benchmark:
 
@@ -4099,9 +4099,9 @@ does not establish:
 UNIVERSAL VALIDITY
 ```
 
----
+______________________________________________________________________
 
-# 275. Simulation ≠ Reality
+## 275. Simulation ≠ Reality
 
 ```text
 SIMULATION SUCCESS
@@ -4111,15 +4111,15 @@ REAL-WORLD VERIFICATION
 
 unless appropriate external validation exists.
 
----
+______________________________________________________________________
 
-# 276. Documentation ≠ Observation
+## 276. Documentation ≠ Observation
 
 Claims in model documentation remain source claims until independently observed or validated.
 
----
+______________________________________________________________________
 
-# 277. Knowledge Harvest
+## 277. Knowledge Harvest
 
 Normalized lifecycle:
 
@@ -4133,9 +4133,9 @@ VALIDATED KNOWLEDGE
 
 The map must not collapse these stages.
 
----
+______________________________________________________________________
 
-# 278. Harvest Provenance
+## 278. Harvest Provenance
 
 When model outputs become persistent evidence, preserve:
 
@@ -4153,17 +4153,17 @@ validation state
 
 where relevant.
 
----
+______________________________________________________________________
 
-# 279. Model Output
+## 279. Model Output
 
 A model output is not automatically an observation.
 
 Its epistemic classification depends on how it was produced and what it represents.
 
----
+______________________________________________________________________
 
-# 280. Derived Output
+## 280. Derived Output
 
 If output is computed from premises:
 
@@ -4173,23 +4173,23 @@ DERIVED
 
 may be the correct knowledge class.
 
----
+______________________________________________________________________
 
-# 281. Simulation Output
+## 281. Simulation Output
 
 A simulation result should remain distinguished from real-world observation.
 
----
+______________________________________________________________________
 
-# 282. Decision Output
+## 282. Decision Output
 
 A decision produced using a model is a decision object.
 
 It should retain dependencies on the model and evidence.
 
----
+______________________________________________________________________
 
-# 283. Decision Invalidation
+## 283. Decision Invalidation
 
 If a load-bearing model fails:
 
@@ -4201,15 +4201,15 @@ DEPENDENT DECISION
 
 the dependent decision may require revalidation.
 
----
+______________________________________________________________________
 
-# 284. Unaffected Decisions
+## 284. Unaffected Decisions
 
 Decisions independent of the failed model should remain preserved.
 
----
+______________________________________________________________________
 
-# 285. Action Governance
+## 285. Action Governance
 
 Validation requirements increase with:
 
@@ -4224,21 +4224,21 @@ institutional impact
 downstream dependency
 ```
 
----
+______________________________________________________________________
 
-# 286. Reversible Action
+## 286. Reversible Action
 
 Under uncertainty, prefer staged reversible actions when they satisfy the objective.
 
----
+______________________________________________________________________
 
-# 287. Irreversible Action
+## 287. Irreversible Action
 
 Irreversible action requires stronger evidence and governance.
 
----
+______________________________________________________________________
 
-# 288. Model Map Does Not Authorize Action
+## 288. Model Map Does Not Authorize Action
 
 Core firewall:
 
@@ -4248,9 +4248,9 @@ MODEL IS MAPPED
 ACTION AUTHORIZED
 ```
 
----
+______________________________________________________________________
 
-# 289. Observability Binding
+## 289. Observability Binding
 
 Cross-plane binding:
 
@@ -4258,9 +4258,9 @@ Cross-plane binding:
 
 Observability may report map state.
 
----
+______________________________________________________________________
 
-# 290. Observability ≠ Authority
+## 290. Observability ≠ Authority
 
 The source explicitly preserves:
 
@@ -4270,9 +4270,9 @@ OBSERVED BY
 AUTHORIZED BY
 ```
 
----
+______________________________________________________________________
 
-# 291. Kernel Binding
+## 291. Kernel Binding
 
 Cross-plane binding:
 
@@ -4282,9 +4282,9 @@ Kernel interaction may support execution or resolution.
 
 Exact implementation remains governed by the kernel artifact.
 
----
+______________________________________________________________________
 
-# 292. Control-Plane Binding
+## 292. Control-Plane Binding
 
 Cross-plane binding:
 
@@ -4292,9 +4292,9 @@ Cross-plane binding:
 
 The control plane may govern admission, authority, and commit semantics.
 
----
+______________________________________________________________________
 
-# 293. Operations Binding
+## 293. Operations Binding
 
 Cross-plane binding:
 
@@ -4302,9 +4302,9 @@ Cross-plane binding:
 
 Operations provides the recovery route.
 
----
+______________________________________________________________________
 
-# 294. Canon Binding
+## 294. Canon Binding
 
 Governed by:
 
@@ -4312,61 +4312,61 @@ Governed by:
 
 Stronger canon overrides conflicting normalized semantics in this map.
 
----
+______________________________________________________________________
 
-# 295. Root Navigation
+## 295. Root Navigation
 
 Cross-segment navigation:
 
 - [[00_ROOT/00_ROOT_MAP|00_ROOT_MAP]]
 
----
+______________________________________________________________________
 
-# 296. RSCF Navigation
+## 296. RSCF Navigation
 
 Cross-segment graph navigation:
 
 - [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
 
-# 297. Home Navigation
+## 297. Home Navigation
 
 Root orientation:
 
 - [[00_ROOT/00_HOME|00_HOME]]
 
----
+______________________________________________________________________
 
-# 298. Local MOC
+## 298. Local MOC
 
 This artifact belongs to:
 
 - [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]]
 
----
+______________________________________________________________________
 
-# 299. Cross-Plane Binding Matrix
+## 299. Cross-Plane Binding Matrix
 
-| Function                         | Artifact                              |
-| -------------------------------- | ------------------------------------- |
-| Canon governance                 | [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]                     |
-| Root orientation                 | [[00_ROOT/00_HOME|00_HOME]]                           |
-| Root mapping                     | [[00_ROOT/00_ROOT_MAP|00_ROOT_MAP]]                       |
-| RSCF navigation                  | [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]                   |
-| Models orientation               | [[13_MODELS/00_INDEX/INDEX_MODELS_README|INDEX_MODELS_README]]               |
-| Models contract                  | [[13_MODELS/00_INDEX/INDEX_MODELS_MODEL_CONTRACT|INDEX_MODELS_MODEL_CONTRACT]]       |
-| Kernel interaction               | [[02_KERNEL/KERNEL_README|KERNEL_README]]                     |
-| Control-plane gating             | [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]              |
-| Observability                    | [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]]              |
-| Recovery                         | [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]                 |
-| Routing validation context       | [[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] |
-| Authorization validation context | [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]   |
-| Local MOC                        | [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]]                      |
+| Function                         | Artifact                                                                |
+| -------------------------------- | ----------------------------------------------------------------------- |
+| Canon governance                 | \[\[01_CANON/01_CORE_LAWS/LAW_HIERARCHY                                 |
+| Root orientation                 | \[\[00_ROOT/00_HOME                                                     |
+| Root mapping                     | \[\[00_ROOT/00_ROOT_MAP                                                 |
+| RSCF navigation                  | \[\[00_ROOT/AMOS_RSCF_NODES                                             |
+| Models orientation               | \[\[13_MODELS/00_INDEX/INDEX_MODELS_README                              |
+| Models contract                  | \[\[13_MODELS/00_INDEX/INDEX_MODELS_MODEL_CONTRACT                      |
+| Kernel interaction               | \[\[02_KERNEL/KERNEL_README                                             |
+| Control-plane gating             | \[\[03_CONTROL_PLANE/CONTROL_PLANE_README                               |
+| Observability                    | \[\[17_OBSERVABILITY/OBSERVABILITY_README                               |
+| Recovery                         | \[\[20_OPERATIONS/OPERATIONS_README                                     |
+| Routing validation context       | \[\[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT |
+| Authorization validation context | \[\[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT       |
+| Local MOC                        | \[\[01_CANON/00_INDEX/00_INDEX_MOC                                      |
 
----
+______________________________________________________________________
 
-# 300. Canonical Reading Path
+## 300. Canonical Reading Path
 
 ```text
 
@@ -4388,9 +4388,9 @@ MODEL ARTIFACTS
 
 This is a normalized navigation representation.
 
----
+______________________________________________________________________
 
-# 301. Minimal Local Reading Path
+## 301. Minimal Local Reading Path
 
 Within the local segment:
 
@@ -4404,9 +4404,9 @@ Within the local segment:
 ARTIFACT
 ```
 
----
+______________________________________________________________________
 
-# 302. Reverse Discovery
+## 302. Reverse Discovery
 
 An artifact may also link back to:
 
@@ -4418,9 +4418,9 @@ for navigation.
 
 This reverse link does not necessarily imply semantic dependency.
 
----
+______________________________________________________________________
 
-# 303. Navigation Edge ≠ Dependency Edge
+## 303. Navigation Edge ≠ Dependency Edge
 
 Critical distinction:
 
@@ -4430,9 +4430,9 @@ LINKED_TO
 DEPENDS_ON
 ```
 
----
+______________________________________________________________________
 
-# 304. Dependency Edge ≠ Provenance Edge
+## 304. Dependency Edge ≠ Provenance Edge
 
 ```text
 DEPENDS_ON
@@ -4440,9 +4440,9 @@ DEPENDS_ON
 DERIVED_FROM
 ```
 
----
+______________________________________________________________________
 
-# 305. Provenance Edge ≠ Causal Edge
+## 305. Provenance Edge ≠ Causal Edge
 
 ```text
 DERIVED_FROM
@@ -4450,9 +4450,9 @@ DERIVED_FROM
 CAUSED_BY
 ```
 
----
+______________________________________________________________________
 
-# 306. Causal Edge ≠ Authorization Edge
+## 306. Causal Edge ≠ Authorization Edge
 
 ```text
 CAUSES
@@ -4462,9 +4462,9 @@ AUTHORIZES
 
 Typed relationships must remain distinct.
 
----
+______________________________________________________________________
 
-# 307. Typed Graph Law
+## 307. Typed Graph Law
 
 Normalized core rule:
 
@@ -4473,9 +4473,9 @@ EDGE TYPES
 ARE NOT INTERCHANGEABLE
 ```
 
----
+______________________________________________________________________
 
-# 308. Typed Node Law
+## 308. Typed Node Law
 
 Likewise:
 
@@ -4486,9 +4486,9 @@ ARE NOT INTERCHANGEABLE
 
 A map, model, observation, receipt, contract, and decision are different object types.
 
----
+______________________________________________________________________
 
-# 309. UNKNOWN Preservation
+## 309. UNKNOWN Preservation
 
 If node type is uncertain:
 
@@ -4500,9 +4500,9 @@ must remain visible.
 
 Do not infer from filename alone when the distinction matters.
 
----
+______________________________________________________________________
 
-# 310. Provenance Preservation
+## 310. Provenance Preservation
 
 If provenance is unknown:
 
@@ -4512,9 +4512,9 @@ provenance = UNKNOWN
 
 is stronger than invented lineage.
 
----
+______________________________________________________________________
 
-# 311. Scope Preservation
+## 311. Scope Preservation
 
 If scope is not established:
 
@@ -4524,9 +4524,9 @@ scope = UNKNOWN/GAP
 
 Do not assume universal applicability.
 
----
+______________________________________________________________________
 
-# 312. Regime Preservation
+## 312. Regime Preservation
 
 If regime is unknown:
 
@@ -4534,9 +4534,9 @@ If regime is unknown:
 regime = UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 313. Freshness Preservation
+## 313. Freshness Preservation
 
 If validation time is unknown:
 
@@ -4544,9 +4544,9 @@ If validation time is unknown:
 freshness = UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 314. Authority Preservation
+## 314. Authority Preservation
 
 If authority cannot be established:
 
@@ -4560,9 +4560,9 @@ For consequential mutation:
 HOLD
 ```
 
----
+______________________________________________________________________
 
-# 315. Confidence Preservation
+## 315. Confidence Preservation
 
 If support cannot be quantified:
 
@@ -4572,33 +4572,33 @@ confidence = UNKNOWN
 
 rather than fabricated precision.
 
----
+______________________________________________________________________
 
-# 316. Gap Visibility Rule
+## 316. Gap Visibility Rule
 
 Do not hide uncertainty for smoother prose or cleaner graph structure.
 
----
+______________________________________________________________________
 
-# 317. Contradiction Visibility Rule
+## 317. Contradiction Visibility Rule
 
 Do not delete a contradictory node merely to simplify the map.
 
----
+______________________________________________________________________
 
-# 318. Provenance Recoverability Rule
+## 318. Provenance Recoverability Rule
 
 Do not compress away source ancestry when independence matters.
 
----
+______________________________________________________________________
 
-# 319. Scope Correctness Rule
+## 319. Scope Correctness Rule
 
 Do not generalize a model because the map is broad.
 
----
+______________________________________________________________________
 
-# 320. Causal Discipline Rule
+## 320. Causal Discipline Rule
 
 Do not infer causality from map adjacency.
 
@@ -4608,33 +4608,33 @@ A NEXT TO B
 A CAUSES B
 ```
 
----
+______________________________________________________________________
 
-# 321. Temporal Discipline Rule
+## 321. Temporal Discipline Rule
 
 Do not infer chronology from map ordering unless ordering is explicitly temporal.
 
----
+______________________________________________________________________
 
-# 322. Ranking Discipline Rule
+## 322. Ranking Discipline Rule
 
 Do not infer quality ranking from map position.
 
----
+______________________________________________________________________
 
-# 323. Governance Discipline Rule
+## 323. Governance Discipline Rule
 
 Do not infer authority from discoverability.
 
----
+______________________________________________________________________
 
-# 324. Completeness Discipline Rule
+## 324. Completeness Discipline Rule
 
 Do not infer exhaustive coverage from a convenient map.
 
----
+______________________________________________________________________
 
-# 325. Current Implementation Boundary
+## 325. Current Implementation Boundary
 
 The source establishes:
 
@@ -4646,9 +4646,9 @@ PARTIAL
 
 This is the strongest direct implementation status available from the supplied nucleus.
 
----
+______________________________________________________________________
 
-# 326. Not Established
+## 326. Not Established
 
 The following are not established by the supplied source alone:
 
@@ -4672,9 +4672,9 @@ NOT_ESTABLISHED
 
 unless supported elsewhere.
 
----
+______________________________________________________________________
 
-# 327. Model-Level Runtime Semantics
+## 327. Model-Level Runtime Semantics
 
 The following may be used as AMOS reasoning patterns:
 
@@ -4689,9 +4689,9 @@ proof-based coordination avoidance
 
 They must not be described as literal deployed mechanisms without implementation evidence.
 
----
+______________________________________________________________________
 
-# 328. Validation Status Vocabulary
+## 328. Validation Status Vocabulary
 
 Recommended normalized states:
 
@@ -4705,9 +4705,9 @@ UNKNOWN/GAP
 SUPERSEDED
 ```
 
----
+______________________________________________________________________
 
-# 329. Navigation Status Vocabulary
+## 329. Navigation Status Vocabulary
 
 ```text
 RESOLVED
@@ -4719,9 +4719,9 @@ CROSS_SEGMENT
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 330. Model Status Vocabulary
+## 330. Model Status Vocabulary
 
 Potential normalized statuses:
 
@@ -4737,9 +4737,9 @@ UNKNOWN/GAP
 
 These are status semantics, not replacements for epistemic class.
 
----
+______________________________________________________________________
 
-# 331. Conclusion Classes
+## 331. Conclusion Classes
 
 Important conclusions should use the weakest accurate class:
 
@@ -4752,9 +4752,9 @@ COMPETING
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 332. Map-Level Conclusion
+## 332. Map-Level Conclusion
 
 For the source nucleus:
 
@@ -4764,9 +4764,9 @@ DERIVED
 
 is appropriate for the RSCF state.
 
----
+______________________________________________________________________
 
-# 333. Artifact-Level Conclusion
+## 333. Artifact-Level Conclusion
 
 The node footer classifies the artifact:
 
@@ -4774,9 +4774,9 @@ The node footer classifies the artifact:
 AMOS_MODEL
 ```
 
----
+______________________________________________________________________
 
-# 334. Implementation Conclusion
+## 334. Implementation Conclusion
 
 Graph validation:
 
@@ -4784,9 +4784,9 @@ Graph validation:
 PARTIAL
 ```
 
----
+______________________________________________________________________
 
-# 335. Full Validation Conclusion
+## 335. Full Validation Conclusion
 
 Artifact-specific executed full validation:
 
@@ -4796,9 +4796,9 @@ UNKNOWN/GAP
 
 until demonstrated.
 
----
+______________________________________________________________________
 
-# 336. Promotion Status
+## 336. Promotion Status
 
 Therefore:
 
@@ -4810,9 +4810,9 @@ CONDITIONAL
 
 pending required gates.
 
----
+______________________________________________________________________
 
-# 337. Anti-Fabrication Contract
+## 337. Anti-Fabrication Contract
 
 This map must never fabricate:
 
@@ -4828,9 +4828,9 @@ missing scope
 missing regime
 ```
 
----
+______________________________________________________________________
 
-# 338. Anti-Completion Bias
+## 338. Anti-Completion Bias
 
 A complete-looking map is not preferable to an honest incomplete map.
 
@@ -4840,63 +4840,63 @@ INTEGRITY
 VISUAL COMPLETENESS
 ```
 
----
+______________________________________________________________________
 
-# 339. Anti-Fluency Bias
+## 339. Anti-Fluency Bias
 
 Do not fill missing graph relationships merely because they make the narrative smoother.
 
----
+______________________________________________________________________
 
-# 340. Anti-Authority Bias
+## 340. Anti-Authority Bias
 
 Authority or popularity of a source does not establish independent confirmation.
 
----
+______________________________________________________________________
 
-# 341. Anti-Count Bias
+## 341. Anti-Count Bias
 
 Many mapped artifacts do not automatically strengthen a conclusion.
 
----
+______________________________________________________________________
 
-# 342. Anti-Recency Bias
+## 342. Anti-Recency Bias
 
 Newer does not automatically mean better.
 
----
+______________________________________________________________________
 
-# 343. Anti-Legacy Bias
+## 343. Anti-Legacy Bias
 
 Older does not automatically mean authoritative.
 
----
+______________________________________________________________________
 
-# 344. Anti-Complexity Bias
+## 344. Anti-Complexity Bias
 
 Complexity does not establish correctness.
 
----
+______________________________________________________________________
 
-# 345. Anti-Simplicity Bias
+## 345. Anti-Simplicity Bias
 
 Simplicity does not establish correctness.
 
----
+______________________________________________________________________
 
-# 346. Anti-Consensus Bias
+## 346. Anti-Consensus Bias
 
 Consensus among descendants of one provenance root may be correlated rather than independent.
 
----
+______________________________________________________________________
 
-# 347. Anti-Causal-Overreach
+## 347. Anti-Causal-Overreach
 
 A graph edge, adjacency, sequence, similarity, or co-occurrence is insufficient by itself for causal inference.
 
----
+______________________________________________________________________
 
-# 348. Repair Protocol
+## 348. Repair Protocol
 
 Normalized repair sequence:
 
@@ -4916,9 +4916,9 @@ REVALIDATE
 RECORD RECEIPT
 ```
 
----
+______________________________________________________________________
 
-# 349. Missing Node Repair
+## 349. Missing Node Repair
 
 If target truly should exist but does not:
 
@@ -4928,9 +4928,9 @@ REGISTER GAP
 
 before creating or restoring it under applicable authority.
 
----
+______________________________________________________________________
 
-# 350. Broken Edge Repair
+## 350. Broken Edge Repair
 
 If source and target exist but edge is invalid:
 
@@ -4940,9 +4940,9 @@ REPAIR EDGE
 
 rather than recreating unrelated nodes.
 
----
+______________________________________________________________________
 
-# 351. Stale Version Repair
+## 351. Stale Version Repair
 
 ```text
 REVALIDATE TARGET VERSION
@@ -4952,9 +4952,9 @@ UPDATE EDGE UNDER AUTHORITY
 PRESERVE SUPERSESSION LINEAGE
 ```
 
----
+______________________________________________________________________
 
-# 352. Provenance Repair
+## 352. Provenance Repair
 
 If ancestry is missing:
 
@@ -4966,9 +4966,9 @@ until recoverable evidence is found.
 
 Do not infer ancestry from similarity alone.
 
----
+______________________________________________________________________
 
-# 353. Scope Repair
+## 353. Scope Repair
 
 If model scope was overstated:
 
@@ -4978,9 +4978,9 @@ NARROW SCOPE
 
 and invalidate only conclusions dependent on the broader unsupported scope.
 
----
+______________________________________________________________________
 
-# 354. Regime Repair
+## 354. Regime Repair
 
 If a model was applied across regimes without validation:
 
@@ -4990,9 +4990,9 @@ MARK CROSS-REGIME RESULT CONDITIONAL
 
 and seek discriminating validation.
 
----
+______________________________________________________________________
 
-# 355. Contradiction Repair
+## 355. Contradiction Repair
 
 Do not force convergence.
 
@@ -5004,9 +5004,9 @@ COMPETING
 
 until discriminating evidence exists.
 
----
+______________________________________________________________________
 
-# 356. Authority Repair
+## 356. Authority Repair
 
 If authority expired:
 
@@ -5016,9 +5016,9 @@ HOLD MUTATION
 
 until a valid authority reference exists.
 
----
+______________________________________________________________________
 
-# 357. Promotion Sequence
+## 357. Promotion Sequence
 
 ```text
 SOURCE-GROUNDED MAP
@@ -5050,9 +5050,9 @@ GAP REVIEW
 PROMOTION REVIEW
 ```
 
----
+______________________________________________________________________
 
-# 358. Promotion Failure
+## 358. Promotion Failure
 
 If a critical gate fails:
 
@@ -5062,9 +5062,9 @@ DO NOT PROMOTE
 
 Preserve the valid lower-status artifact.
 
----
+______________________________________________________________________
 
-# 359. Partial Promotion
+## 359. Partial Promotion
 
 A subset of graph semantics may be validated without promoting all semantics.
 
@@ -5077,9 +5077,9 @@ FULL GRAPH COMPLETENESS = UNKNOWN/GAP
 
 This distinction should be preserved.
 
----
+______________________________________________________________________
 
-# 360. Proof Capsule — MODEL MAP
+## 360. Proof Capsule — MODEL MAP
 
 ```yaml
 proof_capsule:
@@ -5145,9 +5145,9 @@ proof_capsule:
     - executable_graph_schema
 ```
 
----
+______________________________________________________________________
 
-# 361. Final Map Compression
+## 361. Final Map Compression
 
 ```text
 MODEL MAP
@@ -5280,9 +5280,9 @@ ARTIFACT-SPECIFIC FULL VALIDATION
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 362. Cross-Plane Bindings
+## 362. Cross-Plane Bindings
 
 - Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
 - Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
@@ -5293,19 +5293,19 @@ UNKNOWN/GAP
 - Root map — [[00_ROOT/00_ROOT_MAP|00_ROOT_MAP]]
 - RSCF navigation — [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
 
-# 363. Related
+## 363. Related
 
 [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/00_ROOT_MAP|00_ROOT_MAP]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[13_MODELS/00_INDEX/INDEX_MODELS_README|INDEX_MODELS_README]] · [[13_MODELS/00_INDEX/INDEX_MODELS_MODEL_CONTRACT|INDEX_MODELS_MODEL_CONTRACT]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[02_KERNEL/KERNEL_README|KERNEL_README]] · [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]] · [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]] · [[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|AMOS MOC]]
 
----
+______________________________________________________________________
 
-# 364. RSCF Node
+## 364. RSCF Node
 
 ```yaml
 RSCF-NODE:
@@ -5355,9 +5355,9 @@ RSCF-NODE:
   status: ACTIVE_REFERENCE
 ```
 
----
+______________________________________________________________________
 
-# 365. RSCF Relations
+## 365. RSCF Relations
 
 ```yaml
 RSCF-RELATIONS:
@@ -5396,9 +5396,9 @@ RSCF-RELATIONS:
   - MAPS_CONCEPT: LOCAL_GRAPH_INTEGRITY
 ```
 
----
+______________________________________________________________________
 
-# 366. RSCF Proof Capsule
+## 366. RSCF Proof Capsule
 
 ```yaml
 RSCF-PROOF-CAPSULE:
@@ -5459,9 +5459,9 @@ RSCF-PROOF-CAPSULE:
     - complete_edge_type_registry
 ```
 
----
+______________________________________________________________________
 
-# 367. Final Contract
+## 367. Final Contract
 
 `MODEL_MAP` is the local navigation map for:
 
@@ -5607,7 +5607,7 @@ PARTIAL EXECUTABLE VALIDATION
 CONDITIONAL PROMOTION STATUS
 ```
 
----
+______________________________________________________________________
 
 RSCF-NODE
 
@@ -5626,7 +5626,6 @@ RSCF-RELATIONS:
 - CROSS_SEGMENT_ROUTED_BY: [[00_ROOT/00_ROOT_MAP|00_ROOT_MAP]]
 - GOVERNED_BY: [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
 
----
+______________________________________________________________________
 
 **MOC:** [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]]
-

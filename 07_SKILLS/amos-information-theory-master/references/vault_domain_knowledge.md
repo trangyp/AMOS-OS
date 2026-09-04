@@ -1,16 +1,16 @@
 ---
 tags:
-- canon
-- core_laws
-- uncertainty
-- confidence
-- unknown
-- competing
-- rscf
-- governance
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - canon
+  - core_laws
+  - uncertainty
+  - confidence
+  - unknown
+  - competing
+  - rscf
+  - governance
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 title: L6 Uncertainty Laws — References
 origin_architect: Trang Phan
 updated: '2026-08-26'
@@ -40,9 +40,9 @@ rscf:
 >
 > Uncertainty is part of the epistemic state of a claim. It must not be hidden merely to produce a complete, fluent, decisive, or convenient answer.
 
----
+______________________________________________________________________
 
-# 0. Status
+## 0. Status
 
 This document is a proposed full structural specification for `L6_UNCERTAINTY.md`.
 
@@ -67,9 +67,9 @@ VALIDATED_LOCALLY != UNIVERSALLY_VALID
 
 The supplied `0.95` hard confidence ceiling is retained as part of the proposed L6 specification, but remains conditional on authoritative epistemics canon not defining different semantics.
 
----
+______________________________________________________________________
 
-# 1. Purpose
+## 1. Purpose
 
 L6 exists to make uncertainty:
 
@@ -102,27 +102,32 @@ UNKNOWN → ASSUMED
 ```text
 AMBIGUOUS → ARBITRARILY SELECTED
 ```
+
 ```text
 COMPETING → AVERAGED
 ```
+
 ```text
 WEAK EVIDENCE → HIGH CONFIDENCE
 ```
+
 ```text
 MISSING EVIDENCE → PLAUSIBLE COMPLETION
 ```
+
 ```text
 MODEL UNCERTAINTY → SOURCE CERTAINTY
 ```
+
 and:
 
 ```text
 CONFIDENCE → TRUTH
 ```
 
----
+______________________________________________________________________
 
-# 2. Core Uncertainty Contract
+## 2. Core Uncertainty Contract
 
 Every consequential AMOS claim SHOULD carry an uncertainty state sufficient to answer:
 
@@ -160,9 +165,9 @@ U(
 
 This is an **AMOS MODEL expression**, not a universal mathematical theorem.
 
----
+______________________________________________________________________
 
-# 3. Foundational Laws
+## 3. Foundational Laws
 
 ## U-1 — Typed Uncertainty
 
@@ -193,7 +198,7 @@ uncertainty:
 
 A claim being `DERIVED` does not imply all uncertainty is derivational.
 
----
+______________________________________________________________________
 
 ## U-2 — Confidence Ceiling
 
@@ -232,7 +237,7 @@ Therefore:
 
 unless a specific calibrated statistical interpretation has been established.
 
----
+______________________________________________________________________
 
 ## U-3 — Ambiguity Preservation
 
@@ -271,7 +276,7 @@ NO_WINNER
 
 unless a probabilistic model actually licenses that assignment.
 
----
+______________________________________________________________________
 
 ## U-4 — Unknown Propagation
 
@@ -305,9 +310,9 @@ Thus:
 UNKNOWN/GAP != PASS
 ```
 
----
+______________________________________________________________________
 
-# 4. Additional Governing Laws
+## 4. Additional Governing Laws
 
 ## U-5 — Confidence Is Not Evidence
 
@@ -319,7 +324,7 @@ A confidence value summarizes epistemic state. It does not create evidence.
 
 Repeated confidence statements do not strengthen the underlying claim.
 
----
+______________________________________________________________________
 
 ## U-6 — Confidence Is Not Truth
 
@@ -335,7 +340,7 @@ Likewise:
 LOW_CONFIDENCE != FALSE
 ```
 
----
+______________________________________________________________________
 
 ## U-7 — Repetition Does Not Reduce Uncertainty
 
@@ -345,7 +350,7 @@ REPETITION != INDEPENDENT_CONFIRMATION
 
 Multiple sources descended from one origin do not automatically reduce uncertainty.
 
----
+______________________________________________________________________
 
 ## U-8 — Independence Must Be Demonstrated
 
@@ -357,7 +362,7 @@ MULTIPLE_SOURCES
 MULTIPLE_INDEPENDENT_SOURCES
 ```
 
----
+______________________________________________________________________
 
 ## U-9 — Uncertainty Is Typed, Not Scalar-Only
 
@@ -375,7 +380,7 @@ execution uncertainty
 provenance-independence uncertainty
 ```
 
----
+______________________________________________________________________
 
 ## U-10 — Uncertainty Reduction Requires Information
 
@@ -397,7 +402,7 @@ Legitimate reduction requires something such as:
 - successful execution test;
 - formal proof where applicable.
 
----
+______________________________________________________________________
 
 ## U-11 — Narrowing May Increase Confidence
 
@@ -419,7 +424,7 @@ through scope contraction.
 
 This is not fabrication if the narrower statement is independently supported.
 
----
+______________________________________________________________________
 
 ## U-12 — Uncertainty Must Be Decision-Relevant
 
@@ -437,9 +442,9 @@ for reasoning-resource allocation.
 
 This ordering concerns priority, not truth value.
 
----
+______________________________________________________________________
 
-# 5. Uncertainty Vector
+## 5. Uncertainty Vector
 
 For consequential claims, L6 SHOULD support a multidimensional uncertainty representation.
 
@@ -474,9 +479,9 @@ This vector is an AMOS structural model.
 
 It does not require every implementation to encode uncertainty numerically.
 
----
+______________________________________________________________________
 
-# 6. Evidence Uncertainty
+## 6. Evidence Uncertainty
 
 Evidence uncertainty concerns the quality and completeness of evidence supporting a claim.
 
@@ -502,9 +507,9 @@ uncertainty:
       - measurement_noise
 ```
 
----
+______________________________________________________________________
 
-# 7. Model Uncertainty
+## 7. Model Uncertainty
 
 Model uncertainty concerns whether the selected representation or explanatory model is appropriate.
 
@@ -528,9 +533,9 @@ LOW_MODEL_UNCERTAINTY
 
 A model may output many decimal places while remaining epistemically weak.
 
----
+______________________________________________________________________
 
-# 8. Scope Uncertainty
+## 8. Scope Uncertainty
 
 Scope uncertainty concerns uncertainty over where a claim applies.
 
@@ -557,9 +562,9 @@ SCOPE_UNCERTAINTY
 
 not universal applicability.
 
----
+______________________________________________________________________
 
-# 9. Temporal Uncertainty
+## 9. Temporal Uncertainty
 
 Temporal uncertainty concerns:
 
@@ -582,9 +587,9 @@ uncertainty:
 
 Temporal uncertainty does not necessarily invalidate historical claims but may invalidate current-use claims.
 
----
+______________________________________________________________________
 
-# 10. Causal Uncertainty
+## 10. Causal Uncertainty
 
 Causal uncertainty concerns uncertainty over whether observed relationships represent:
 
@@ -609,9 +614,9 @@ CAUSAL_EFFECT
 
 Causal typing remains governed by L4.
 
----
+______________________________________________________________________
 
-# 11. Execution Uncertainty
+## 11. Execution Uncertainty
 
 Execution uncertainty concerns whether a proposed operation will actually produce the expected result.
 
@@ -636,9 +641,9 @@ SUCCESSFUL_EXECUTION
 
 Execution evidence must remain separate from reasoning confidence.
 
----
+______________________________________________________________________
 
-# 12. Provenance-Independence Uncertainty
+## 12. Provenance-Independence Uncertainty
 
 AMOS MUST track uncertainty about whether apparently separate evidence is genuinely independent.
 
@@ -668,9 +673,9 @@ COUNT(SOURCES)
 COUNT(INDEPENDENT_ORIGINS)
 ```
 
----
+______________________________________________________________________
 
-# 13. Typed Uncertainty State
+## 13. Typed Uncertainty State
 
 A conceptual uncertainty object MAY be represented as:
 
@@ -721,9 +726,9 @@ UncertaintyState:
   provenance: [...]
 ```
 
----
+______________________________________________________________________
 
-# 14. Qualitative Uncertainty Levels
+## 14. Qualitative Uncertainty Levels
 
 Where numerical uncertainty is unsupported, AMOS SHOULD prefer explicit qualitative states.
 
@@ -754,9 +759,9 @@ P(error) > 0.5
 
 unless explicitly calibrated.
 
----
+______________________________________________________________________
 
-# 15. Numerical Confidence
+## 15. Numerical Confidence
 
 Numerical confidence MAY be used only when its semantics are explicit.
 
@@ -779,9 +784,9 @@ confidence: 0.72
 
 when ambiguity would matter.
 
----
+______________________________________________________________________
 
-# 16. Confidence Ceiling Mechanics
+## 16. Confidence Ceiling Mechanics
 
 For a conclusion `C` depending on premises:
 
@@ -816,9 +821,9 @@ fluent synthesis
 very strong conclusion
 ```
 
----
+______________________________________________________________________
 
-# 17. Independent Revalidation Exception
+## 17. Independent Revalidation Exception
 
 The weakest-premise ceiling may cease to bind if the conclusion is independently established through another valid proof path.
 
@@ -849,9 +854,9 @@ PARAPHRASED_PATH != INDEPENDENT_PATH
 
 Independence must be demonstrated.
 
----
+______________________________________________________________________
 
-# 18. Proposed Hard Ceiling
+## 18. Proposed Hard Ceiling
 
 Absent a recognized stronger proof state:
 
@@ -871,9 +876,9 @@ Until such canon is resolved:
 
 This remains conditional because the authoritative epistemics canon may define different ceiling semantics.
 
----
+______________________________________________________________________
 
-# 19. Confidence Composition Prohibition
+## 19. Confidence Composition Prohibition
 
 AMOS MUST NOT arbitrarily compute:
 
@@ -899,9 +904,9 @@ must not be used merely because they appear mathematically plausible.
 
 Confidence composition requires semantic and probabilistic justification.
 
----
+______________________________________________________________________
 
-# 20. Unknown
+## 20. Unknown
 
 `UNKNOWN` means the system lacks sufficient justified information to resolve a required state.
 
@@ -924,9 +929,9 @@ UNKNOWN != ZERO
 UNKNOWN != 0.5
 ```
 
----
+______________________________________________________________________
 
-# 21. GAP
+## 21. GAP
 
 `GAP` identifies a missing information, specification, implementation, provenance, validation, or dependency element.
 
@@ -941,9 +946,9 @@ COSMETIC
 
 The gap class determines priority.
 
----
+______________________________________________________________________
 
-# 22. Critical Gap
+## 22. Critical Gap
 
 A critical gap prevents a safe or justified conclusion.
 
@@ -952,7 +957,6 @@ Examples:
 - unknown authority for irreversible action;
 - missing load-bearing evidence;
 - unknown target identity;
-
 
 ## Vault-Sourced Domain Content
 
@@ -987,7 +991,7 @@ uncertainty:
 
 A claim being `DERIVED` does not imply all uncertainty is derivational.
 
----
+______________________________________________________________________
 
 ### U-5 — Confidence Is Not Evidence
 
@@ -999,7 +1003,7 @@ A confidence value summarizes epistemic state. It does not create evidence.
 
 Repeated confidence statements do not strengthen the underlying claim.
 
----
+______________________________________________________________________
 
 ### U-7 — Repetition Does Not Reduce Uncertainty
 
@@ -1009,7 +1013,7 @@ REPETITION != INDEPENDENT_CONFIRMATION
 
 Multiple sources descended from one origin do not automatically reduce uncertainty.
 
----
+______________________________________________________________________
 
 ### U-9 — Uncertainty Is Typed, Not Scalar-Only
 
@@ -1027,7 +1031,7 @@ execution uncertainty
 provenance-independence uncertainty
 ```
 
----
+______________________________________________________________________
 
 ### U-10 — Uncertainty Reduction Requires Information
 
@@ -1049,7 +1053,7 @@ Legitimate reduction requires something such as:
 - successful execution test;
 - formal proof where applicable.
 
----
+______________________________________________________________________
 
 ### U-12 — Uncertainty Must Be Decision-Relevant
 
@@ -1067,9 +1071,9 @@ for reasoning-resource allocation.
 
 This ordering concerns priority, not truth value.
 
----
+______________________________________________________________________
 
-# 5. Uncertainty Vector — part 2
+## 5. Uncertainty Vector — part 2
 
 For consequential claims, L6 SHOULD support a multidimensional uncertainty representation.
 
@@ -1104,9 +1108,9 @@ This vector is an AMOS structural model.
 
 It does not require every implementation to encode uncertainty numerically.
 
----
+______________________________________________________________________
 
-# 6. Evidence Uncertainty — part 2
+## 6. Evidence Uncertainty — part 2
 
 Evidence uncertainty concerns the quality and completeness of evidence supporting a claim.
 
@@ -1132,9 +1136,9 @@ uncertainty:
       - measurement_noise
 ```
 
----
+______________________________________________________________________
 
-# 7. Model Uncertainty — part 2
+## 7. Model Uncertainty — part 2
 
 Model uncertainty concerns whether the selected representation or explanatory model is appropriate.
 
@@ -1158,9 +1162,9 @@ LOW_MODEL_UNCERTAINTY
 
 A model may output many decimal places while remaining epistemically weak.
 
----
+______________________________________________________________________
 
-# 8. Scope Uncertainty — part 2
+## 8. Scope Uncertainty — part 2
 
 Scope uncertainty concerns uncertainty over where a claim applies.
 
@@ -1187,9 +1191,9 @@ SCOPE_UNCERTAINTY
 
 not universal applicability.
 
----
+______________________________________________________________________
 
-# 9. Temporal Uncertainty — part 2
+## 9. Temporal Uncertainty — part 2
 
 Temporal uncertainty concerns:
 
@@ -1212,9 +1216,9 @@ uncertainty:
 
 Temporal uncertainty does not necessarily invalidate historical claims but may invalidate current-use claims.
 
----
+______________________________________________________________________
 
-# 10. Causal Uncertainty — part 2
+## 10. Causal Uncertainty — part 2
 
 Causal uncertainty concerns uncertainty over whether observed relationships represent:
 
@@ -1239,9 +1243,9 @@ CAUSAL_EFFECT
 
 Causal typing remains governed by L4.
 
----
+______________________________________________________________________
 
-# 11. Execution Uncertainty — part 2
+## 11. Execution Uncertainty — part 2
 
 Execution uncertainty concerns whether a proposed operation will actually produce the expected result.
 
@@ -1266,9 +1270,9 @@ SUCCESSFUL_EXECUTION
 
 Execution evidence must remain separate from reasoning confidence.
 
----
+______________________________________________________________________
 
-# 12. Provenance-Independence Uncertainty — part 2
+## 12. Provenance-Independence Uncertainty — part 2
 
 AMOS MUST track uncertainty about whether apparently separate evidence is genuinely independent.
 
@@ -1298,9 +1302,9 @@ COUNT(SOURCES)
 COUNT(INDEPENDENT_ORIGINS)
 ```
 
----
+______________________________________________________________________
 
-# 13. Typed Uncertainty State — part 2
+## 13. Typed Uncertainty State — part 2
 
 A conceptual uncertainty object MAY be represented as:
 
@@ -1351,9 +1355,9 @@ UncertaintyState:
   provenance: [...]
 ```
 
----
+______________________________________________________________________
 
-# 14. Qualitative Uncertainty Levels — part 2
+## 14. Qualitative Uncertainty Levels — part 2
 
 Where numerical uncertainty is unsupported, AMOS SHOULD prefer explicit qualitative states.
 
@@ -1384,9 +1388,9 @@ P(error) > 0.5
 
 unless explicitly calibrated.
 
----
+______________________________________________________________________
 
-# 15. Numerical Confidence — part 2
+## 15. Numerical Confidence — part 2
 
 Numerical confidence MAY be used only when its semantics are explicit.
 
@@ -1409,9 +1413,9 @@ confidence: 0.72
 
 when ambiguity would matter.
 
----
+______________________________________________________________________
 
-# 16. Confidence Ceiling Mechanics — part 2
+## 16. Confidence Ceiling Mechanics — part 2
 
 For a conclusion `C` depending on premises:
 
@@ -1446,9 +1450,9 @@ fluent synthesis
 very strong conclusion
 ```
 
----
+______________________________________________________________________
 
-# 17. Independent Revalidation Exception — part 2
+## 17. Independent Revalidation Exception — part 2
 
 The weakest-premise ceiling may cease to bind if the conclusion is independently established through another valid proof path.
 
@@ -1479,9 +1483,9 @@ PARAPHRASED_PATH != INDEPENDENT_PATH
 
 Independence must be demonstrated.
 
----
+______________________________________________________________________
 
-# 18. Proposed Hard Ceiling — part 2
+## 18. Proposed Hard Ceiling — part 2
 
 Absent a recognized stro
 
@@ -1495,13 +1499,15 @@ Absent a recognized stro
 - **Validation failure**: If validation gates fail, downgrade confidence, flag the gap, and escalate — do not force-fit.
 - **Epistemic overreach**: If a claim exceeds the established evidence or epistemic class, retract and relabel.
 
----
+______________________________________________________________________
+
 **MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -1509,13 +1515,14 @@ Absent a recognized stro
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-information-theory-master-vault-domain-knowledge
 node_type: reference
 path: 07_SKILLS/amos-information-theory-master/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC
-

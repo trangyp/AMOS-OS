@@ -1,28 +1,31 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: L22_REPLAYABILITY — Deterministic Replayability Law
 type: law
 source: 01_CANON/01_CORE_LAWS
 tags:
-- canon
-- core_law
-- replayability
-- deterministic_replay
-- determinism
-- state_transition
-- transaction_receipt
-- root_inputs
-- pinned_inputs
-- execution_trace
-- reproducibility
-- verification
-- provenance
-- causal_lineage
-- auditability
-- integrity
-- canon/universe
-- law/L8-execution
-- law/L23-mvcc-cas
-- law/L24-causal-epoch
+  - canon
+  - core_law
+  - replayability
+  - deterministic_replay
+  - determinism
+  - state_transition
+  - transaction_receipt
+  - root_inputs
+  - pinned_inputs
+  - execution_trace
+  - reproducibility
+  - verification
+  - provenance
+  - causal_lineage
+  - auditability
+  - integrity
+  - canon/universe
+  - law/L8-execution
+  - law/L23-mvcc-cas
+  - law/L24-causal-epoch
 rscf:
   state: CANON_LAW
   claim_class: CANONICAL_INVARIANT
@@ -38,9 +41,9 @@ rscf:
 **claim_class:** CANONICAL_INVARIANT\
 **provenance:** AMOS_CANON
 
----
+______________________________________________________________________
 
-# 0. Canonical Status
+## 0. Canonical Status
 
 [[01_CANON/01_CORE_LAWS/L22_REPLAYABILITY|L22_REPLAYABILITY]] establishes the canonical AMOS requirement that:
 
@@ -82,9 +85,9 @@ REPLAY
 
 from the logged transaction receipt and root inputs.
 
----
+______________________________________________________________________
 
-# 1. Governing Objective
+## 1. Governing Objective
 
 L22 asks:
 
@@ -140,16 +143,16 @@ ORIGINAL TRANSITION
           VALID      VIOLATION
 ```
 
----
+______________________________________________________________________
 
-# 2. Canonical Replayability Invariant
+## 2. Canonical Replayability Invariant
 
 Let:
 
-- \(T\) be a valid state transition,
-- \(R_T\) be its logged transaction receipt,
-- \(I_T\) be its root inputs,
-- \(Replay\) be the deterministic replay operation.
+- (T) be a valid state transition,
+- (R_T) be its logged transaction receipt,
+- (I_T) be its root inputs,
+- (Replay) be the deterministic replay operation.
 
 Then the source can be normalized as:
 
@@ -173,9 +176,9 @@ $$
 
 This equation is a normalized formalization of the supplied canonical sentence; the source itself provides the prose law rather than these exact mathematical equations.
 
----
+______________________________________________________________________
 
-# 3. Determinism Invariant
+## 3. Determinism Invariant
 
 For fixed replay materials:
 
@@ -189,7 +192,7 @@ $$
 
 across repeated executions.
 
-More usefully, for any two replay executions \(r_1,r_2\):
+More usefully, for any two replay executions (r_1,r_2):
 
 $$
 \boxed{
@@ -205,9 +208,9 @@ provided the replay contract's required execution conditions are identical.
 
 The final condition is a necessary model-level qualification because the supplied source does not specify what environmental state, runtime version, numeric semantics, or external dependencies must be captured in the receipt.
 
----
+______________________________________________________________________
 
-# 4. Core Canonical Laws
+## 4. Core Canonical Laws
 
 ```text
 DR-1
@@ -232,9 +235,9 @@ IDENTICAL
 
 These four laws are direct decompositions of the supplied canonical statement.
 
----
+______________________________________________________________________
 
-# 5. Valid Transition Requirement
+## 5. Valid Transition Requirement
 
 The law applies specifically to:
 
@@ -253,9 +256,9 @@ $$
 
 A transition that cannot satisfy the replayability requirement cannot simultaneously satisfy the complete L22 validity contract.
 
----
+______________________________________________________________________
 
-# 6. Replayability as a Validity Condition
+## 6. Replayability as a Validity Condition
 
 Canonical implication:
 
@@ -298,9 +301,9 @@ COMPLETE SYSTEM
 VALIDITY
 ```
 
----
+______________________________________________________________________
 
-# 7. Transaction Receipt
+## 7. Transaction Receipt
 
 The source explicitly requires a:
 
@@ -313,11 +316,11 @@ Therefore a valid replay cannot depend solely on an informal recollection of how
 
 The receipt is part of the canonical replay basis.
 
----
+______________________________________________________________________
 
-# 8. Receipt Requirement
+## 8. Receipt Requirement
 
-For transition \(T\):
+For transition (T):
 
 $$
 Valid(T)
@@ -325,11 +328,11 @@ Valid(T)
 \exists R_T
 $$
 
-such that \(R_T\) is the logged transaction receipt required to replay \(T\).
+such that (R_T) is the logged transaction receipt required to replay (T).
 
----
+______________________________________________________________________
 
-# 9. Logged Means Persisted Evidence
+## 9. Logged Means Persisted Evidence
 
 The source uses the word:
 
@@ -363,9 +366,9 @@ IMPLEMENTATION
 UNSPECIFIED
 ```
 
----
+______________________________________________________________________
 
-# 10. Root Inputs
+## 10. Root Inputs
 
 The second canonical replay basis is:
 
@@ -393,9 +396,9 @@ I_T
 ROOT INPUTS
 ```
 
----
+______________________________________________________________________
 
-# 11. Root Inputs ≠ Derived Inputs
+## 11. Root Inputs ≠ Derived Inputs
 
 A root input is conceptually upstream of derived transition state.
 
@@ -416,9 +419,9 @@ TRANSITION
 
 The replay must begin from the appropriate root basis rather than merely asserting the final result.
 
----
+______________________________________________________________________
 
-# 12. Root Input Closure
+## 12. Root Input Closure
 
 A critical derived requirement follows from deterministic replay:
 
@@ -439,13 +442,13 @@ ReplayBasis(T)
 R_T \cup I_T
 $$
 
-must contain or deterministically identify every dependency required to reconstruct \(T\).
+must contain or deterministically identify every dependency required to reconstruct (T).
 
 This is **DERIVED**, not separately stated by the supplied source.
 
----
+______________________________________________________________________
 
-# 13. Hidden Input Prohibition
+## 13. Hidden Input Prohibition
 
 A replayable transition cannot materially depend on an unlogged hidden variable if that variable can alter the result.
 
@@ -474,9 +477,9 @@ SAME RECEIPT
 
 could produce different outputs.
 
----
+______________________________________________________________________
 
-# 14. Deterministic Replay
+## 14. Deterministic Replay
 
 The source does not merely require replay.
 
@@ -497,9 +500,9 @@ A SIMILAR RESULT
 
 It must be governed so that the replay basis determines the result.
 
----
+______________________________________________________________________
 
-# 15. Bit-for-Bit Equality
+## 15. Bit-for-Bit Equality
 
 The strongest explicit term in the source is:
 
@@ -533,9 +536,9 @@ NUMERICALLY CLOSE
 BIT-FOR-BIT SAME
 ```
 
----
+______________________________________________________________________
 
-# 16. Replay Equality
+## 16. Replay Equality
 
 The canonical equality relation is therefore stronger than:
 
@@ -551,9 +554,9 @@ Replay(T)\equiv_{bits}T
 }
 $$
 
----
+______________________________________________________________________
 
-# 17. Approximate Replay
+## 17. Approximate Replay
 
 Invalid under the strict L22 requirement:
 
@@ -569,9 +572,9 @@ even if the outputs are interpreted as practically equivalent.
 
 If bit-level identity is the governing comparison, they are not identical.
 
----
+______________________________________________________________________
 
-# 18. Semantic Replay
+## 18. Semantic Replay
 
 Likewise:
 
@@ -587,9 +590,9 @@ may be semantically equivalent but is not necessarily bit-for-bit identical.
 
 Therefore it does not satisfy the strict source wording without an explicit canonical representation that makes the underlying transition bytes identical.
 
----
+______________________________________________________________________
 
-# 19. Canonical Representation Gap
+## 19. Canonical Representation Gap
 
 The source requires bit-for-bit replay but does not define:
 
@@ -612,9 +615,9 @@ Possibilities include:
 
 This is a **CRITICAL implementation-level gap** for literal conformance testing.
 
----
+______________________________________________________________________
 
-# 20. Logical State vs Serialization
+## 20. Logical State vs Serialization
 
 Two logically identical objects can serialize differently.
 
@@ -636,9 +639,9 @@ Therefore bit-for-bit replay requires a canonical comparison representation or e
 
 The supplied source does not define one.
 
----
+______________________________________________________________________
 
-# 21. Canonical Serialization
+## 21. Canonical Serialization
 
 A complete implementation would therefore require something conceptually equivalent to:
 
@@ -657,9 +660,9 @@ before bitwise equality can be tested reliably.
 
 This is a **DERIVED implementation requirement**, not explicit source canon.
 
----
+______________________________________________________________________
 
-# 22. Replay Function
+## 22. Replay Function
 
 An implementation-neutral model is:
 
@@ -680,9 +683,9 @@ replayed_transition
 original_transition
 ```
 
----
+______________________________________________________________________
 
-# 23. Replay Receipt
+## 23. Replay Receipt
 
 A replay event can conceptually produce:
 
@@ -697,9 +700,9 @@ replay_receipt:
 
 This schema is illustrative only.
 
----
+______________________________________________________________________
 
-# 24. Replay Success
+## 24. Replay Success
 
 ```text
 RECEIPT
@@ -723,9 +726,9 @@ BITWISE COMPARE
 PASS    FAIL
 ```
 
----
+______________________________________________________________________
 
-# 25. Replay Failure
+## 25. Replay Failure
 
 A replay failure occurs when the canonical replay basis does not reproduce the original transition bit-for-bit.
 
@@ -744,9 +747,9 @@ REPLAYABILITY
 VIOLATION
 ```
 
----
+______________________________________________________________________
 
-# 26. Missing Receipt
+## 26. Missing Receipt
 
 If:
 
@@ -764,9 +767,9 @@ MISSING RECEIPT
 L22 VALIDITY GAP
 ```
 
----
+______________________________________________________________________
 
-# 27. Missing Root Input
+## 27. Missing Root Input
 
 Likewise:
 
@@ -782,9 +785,9 @@ unless the transaction receipt itself canonically embeds or identifies that root
 
 The exact overlap allowed between receipt and root inputs is unspecified.
 
----
+______________________________________________________________________
 
-# 28. Corrupted Receipt
+## 28. Corrupted Receipt
 
 A corrupted transaction receipt cannot be assumed to reproduce the original transition.
 
@@ -792,9 +795,9 @@ Therefore receipt integrity is a prerequisite for replay reliability.
 
 The source does not define the receipt-integrity mechanism.
 
----
+______________________________________________________________________
 
-# 29. Corrupted Root Input
+## 29. Corrupted Root Input
 
 Likewise:
 
@@ -808,9 +811,9 @@ invalidates the replay comparison unless the difference is proven irrelevant und
 
 For literal bit-for-bit replay, root identity should normally be exact.
 
----
+______________________________________________________________________
 
-# 30. Root Input Identity
+## 30. Root Input Identity
 
 The source does not specify whether root inputs are identified by:
 
@@ -837,17 +840,17 @@ IDENTITY MECHANISM
 UNSPECIFIED
 ```
 
----
+______________________________________________________________________
 
-# 31. Receipt Identity
+## 31. Receipt Identity
 
 The same gap exists for transaction receipts.
 
 The source requires the logged receipt but does not specify how its identity or integrity is established.
 
----
+______________________________________________________________________
 
-# 32. Replay and Provenance
+## 32. Replay and Provenance
 
 L22 naturally requires provenance sufficient to answer:
 
@@ -876,9 +879,9 @@ The first three are directly implied by the source.
 
 The remaining fields are model-level requirements for operational verification.
 
----
+______________________________________________________________________
 
-# 33. Replay and Causal Lineage
+## 33. Replay and Causal Lineage
 
 A replay should reconstruct the same state transition without silently creating a new causal explanation for why the historical transition occurred.
 
@@ -901,11 +904,11 @@ HISTORICAL REWRITE
 
 This aligns with L24's no-time-travel boundary.
 
----
+______________________________________________________________________
 
-# 34. Replay ≠ New Historical Verdict
+## 34. Replay ≠ New Historical Verdict
 
-If a transition occurred in causal epoch \(e_k\), replaying it later should not silently rewrite its historical occurrence into the later epoch.
+If a transition occurred in causal epoch (e_k), replaying it later should not silently rewrite its historical occurrence into the later epoch.
 
 Conceptually:
 
@@ -919,9 +922,9 @@ e9 → Replay(T)
 
 The replay verifies T; it does not make T historically originate at e9.
 
----
+______________________________________________________________________
 
-# 35. Replay and L24 Causal Epoch
+## 35. Replay and L24 Causal Epoch
 
 L24 establishes explicit causal epoch transitions and prohibits silent historical rewriting.
 
@@ -934,9 +937,9 @@ IDENTITY
 
 while recording replay as a distinct verification event where applicable.
 
----
+______________________________________________________________________
 
-# 36. Replay and L23 MVCC/CAS
+## 36. Replay and L23 MVCC/CAS
 
 L23 provides transaction-state discipline.
 
@@ -965,9 +968,9 @@ This relationship is strongly compatible with the supplied canon.
 
 However, the exact transaction-receipt schema linking L22 and L23 is not provided.
 
----
+______________________________________________________________________
 
-# 37. Snapshot as Replay Dependency
+## 37. Snapshot as Replay Dependency
 
 If the original transition depends on a particular L23 snapshot, then deterministic replay must either:
 
@@ -979,9 +982,9 @@ Otherwise later state could contaminate replay.
 
 This is a DERIVED cross-law requirement.
 
----
+______________________________________________________________________
 
-# 38. Replay Against Current State
+## 38. Replay Against Current State
 
 Invalid pattern:
 
@@ -1001,9 +1004,9 @@ and then claiming that a mismatch disproves deterministic replay.
 
 The replay must use the original replay basis.
 
----
+______________________________________________________________________
 
-# 39. Replay and CAS
+## 39. Replay and CAS
 
 If a transition's validity depended on:
 
@@ -1015,9 +1018,9 @@ during the original CAS event, replay needs sufficient logged information to rec
 
 But replaying the historical transition does not necessarily mean mutating current live state again.
 
----
+______________________________________________________________________
 
-# 40. Replay ≠ Recommit
+## 40. Replay ≠ Recommit
 
 Hard firewall:
 
@@ -1032,9 +1035,9 @@ unless a separate governed operation explicitly authorizes recommit.
 
 Replay can be verification-only.
 
----
+______________________________________________________________________
 
-# 41. Replay Side Effects
+## 41. Replay Side Effects
 
 The source does not specify whether replay must suppress external side effects.
 
@@ -1048,9 +1051,9 @@ This matters because literal re-execution of a transition could otherwise duplic
 
 Therefore side-effect handling is a **CRITICAL governance gap** for operational replay.
 
----
+______________________________________________________________________
 
-# 42. Safe Replay
+## 42. Safe Replay
 
 A safe implementation should distinguish:
 
@@ -1067,9 +1070,9 @@ RE-EXECUTION
 
 This is a derived governance requirement, not explicit L22 source text.
 
----
+______________________________________________________________________
 
-# 43. Replay Sandbox
+## 43. Replay Sandbox
 
 A model implementation may use:
 
@@ -1081,9 +1084,9 @@ or equivalent isolation so that deterministic verification does not repeat irrev
 
 The source does not mandate a sandbox mechanism.
 
----
+______________________________________________________________________
 
-# 44. Deterministic External Inputs
+## 44. Deterministic External Inputs
 
 If a transition depends on an external call:
 
@@ -1102,9 +1105,9 @@ Otherwise identical root inputs and receipt may not reproduce the transition.
 
 This is DERIVED from the determinism requirement.
 
----
+______________________________________________________________________
 
-# 45. Clock Dependency
+## 45. Clock Dependency
 
 Example:
 
@@ -1117,9 +1120,9 @@ If replay reads the current wall clock rather than the historical clock value, t
 
 Therefore the relevant time value must be captured or deterministically reconstructed if it is load-bearing.
 
----
+______________________________________________________________________
 
-# 46. Randomness Dependency
+## 46. Randomness Dependency
 
 A transition using randomness cannot be deterministically replayed unless the replay basis captures sufficient information such as:
 
@@ -1131,9 +1134,9 @@ A transition using randomness cannot be deterministically replayed unless the re
 
 The source does not specify which.
 
----
+______________________________________________________________________
 
-# 47. Model Nondeterminism
+## 47. Model Nondeterminism
 
 If a state transition depends on a nondeterministic model invocation, bit-for-bit replay cannot be assumed merely from repeating the same prompt.
 
@@ -1141,9 +1144,9 @@ Therefore the replay basis may need to capture the original load-bearing output 
 
 This is a MODEL-level consequence of the source's strict requirement.
 
----
+______________________________________________________________________
 
-# 48. Environment Dependency
+## 48. Environment Dependency
 
 A transition can depend on:
 
@@ -1163,9 +1166,9 @@ If any can alter output, they become replay-relevant dependencies.
 
 The source does not enumerate them.
 
----
+______________________________________________________________________
 
-# 49. Replay Environment Closure
+## 49. Replay Environment Closure
 
 Derived principle:
 
@@ -1179,9 +1182,9 @@ MUST BE PINNED
 FOR DETERMINISTIC REPLAY.
 ```
 
----
+______________________________________________________________________
 
-# 50. Version Pinning
+## 50. Version Pinning
 
 Conceptually:
 
@@ -1195,9 +1198,9 @@ replay_environment:
 
 Illustrative only.
 
----
+______________________________________________________________________
 
-# 51. Version Drift
+## 51. Version Drift
 
 Invalid replay comparison:
 
@@ -1217,17 +1220,17 @@ The algorithm itself changed.
 
 The replay environment must satisfy the canonical deterministic replay contract.
 
----
+______________________________________________________________________
 
-# 52. Algorithm Identity
+## 52. Algorithm Identity
 
 The source does not explicitly state whether algorithm/version identity must be included in the transaction receipt.
 
 But if algorithm changes can alter results, deterministic replay requires that identity or equivalent executable semantics be recoverable.
 
----
+______________________________________________________________________
 
-# 53. Schema Drift
+## 53. Schema Drift
 
 Likewise:
 
@@ -1243,9 +1246,9 @@ can change byte representation even when logical meaning remains similar.
 
 Thus canonical bit-level replay requires schema stability or deterministic migration/reconstruction rules.
 
----
+______________________________________________________________________
 
-# 54. Bitwise Replay and Floating Point
+## 54. Bitwise Replay and Floating Point
 
 Floating-point computation can vary across:
 
@@ -1259,17 +1262,17 @@ Therefore bit-for-bit replay may require pinned numerical semantics.
 
 This is an implementation-level consequence, not explicit canon.
 
----
+______________________________________________________________________
 
-# 55. Parallel Execution
+## 55. Parallel Execution
 
 Parallel scheduling can produce nondeterministic ordering.
 
 If scheduling affects state-transition bytes, the replay basis must control or record the relevant ordering.
 
----
+______________________________________________________________________
 
-# 56. Concurrency and Replay
+## 56. Concurrency and Replay
 
 L23 and L22 jointly imply a strong integrity objective:
 
@@ -1291,9 +1294,9 @@ RECONSTRUCTION
 
 Concurrency must not make the historical transition unrecoverable.
 
----
+______________________________________________________________________
 
-# 57. Replay of Conflicted Transactions
+## 57. Replay of Conflicted Transactions
 
 L22 applies to:
 
@@ -1307,17 +1310,17 @@ Therefore the supplied source does not establish that every aborted attempt must
 
 It may still be desirable for auditability, but that is MODEL-level.
 
----
+______________________________________________________________________
 
-# 58. Replay of Rollback
+## 58. Replay of Rollback
 
 Likewise, whether rollback events themselves count as state transitions subject to L22 depends on the broader canonical definition of valid state transition.
 
 The supplied note does not resolve this.
 
----
+______________________________________________________________________
 
-# 59. Replay of Derived Conclusions
+## 59. Replay of Derived Conclusions
 
 L22 explicitly says:
 
@@ -1335,9 +1338,9 @@ Therefore do not silently expand L22 into a requirement that every hidden reason
 
 The canonical target is the valid state transition.
 
----
+______________________________________________________________________
 
-# 60. Replayability ≠ Chain-of-Thought Exposure
+## 60. Replayability ≠ Chain-of-Thought Exposure
 
 Hard boundary:
 
@@ -1353,9 +1356,9 @@ CHAIN OF THOUGHT
 
 A system may satisfy a state-transition replay contract using structured receipts, inputs, outputs, hashes, decisions, and state deltas without exposing hidden reasoning.
 
----
+______________________________________________________________________
 
-# 61. Replayability and Atomic Reasoning
+## 61. Replayability and Atomic Reasoning
 
 The earlier proposed L22 Atomic Reasoning specification included:
 
@@ -1380,9 +1383,9 @@ DETERMINISTIC REPLAY
 
 Where these occupy the same L22 canonical slot, the current `[[01_CANON/01_CORE_LAWS/L22_REPLAYABILITY|L22_REPLAYABILITY]]` law should supersede the proposed placeholder/specification.
 
----
+______________________________________________________________________
 
-# 62. Atomicity Still Relevant
+## 62. Atomicity Still Relevant
 
 The atomic-reasoning concept can remain related to replayability:
 
@@ -1400,9 +1403,9 @@ STATE EVOLUTION
 
 But atomic reasoning laws should not be silently treated as part of [[01_CANON/01_CORE_LAWS/L22_REPLAYABILITY|L22_REPLAYABILITY]] unless separately retained elsewhere in canon.
 
----
+______________________________________________________________________
 
-# 63. Replayability and Provenance
+## 63. Replayability and Provenance
 
 Replay requires provenance sufficient to reconstruct the transition's replay basis.
 
@@ -1418,9 +1421,9 @@ TRANSACTION RECEIPTS
 ROOT INPUT IDENTITY
 ```
 
----
+______________________________________________________________________
 
-# 64. Provenance ≠ Replayability
+## 64. Provenance ≠ Replayability
 
 A provenance record can exist without being sufficient for deterministic replay.
 
@@ -1434,17 +1437,17 @@ REPLAYABLE
 
 The provenance must contain or resolve the required replay dependencies.
 
----
+______________________________________________________________________
 
-# 65. Replayability ≠ Provenance Completeness Automatically
+## 65. Replayability ≠ Provenance Completeness Automatically
 
 Likewise, successfully replaying a transition does not prove that all desired provenance metadata was preserved.
 
 Replayability establishes the reproduction property, not every audit requirement.
 
----
+______________________________________________________________________
 
-# 66. Replay and Proof Capsules
+## 66. Replay and Proof Capsules
 
 A proof capsule for a replayed transition can conceptually include:
 
@@ -1460,9 +1463,9 @@ BITWISE COMPARISON
 
 Only the first four concepts directly arise from the replay contract; exact capsule structure is model-level.
 
----
+______________________________________________________________________
 
-# 67. Replay Proof Capsule
+## 67. Replay Proof Capsule
 
 ```yaml
 proof_capsule:
@@ -1493,9 +1496,9 @@ proof_capsule:
     CANONICAL_INVARIANT
 ```
 
----
+______________________________________________________________________
 
-# 68. Replay Failure Capsule
+## 68. Replay Failure Capsule
 
 ```yaml
 proof_capsule:
@@ -1530,9 +1533,9 @@ proof_capsule:
 
 A replay mismatch alone does not identify which cause is responsible.
 
----
+______________________________________________________________________
 
-# 69. Replay Mismatch ≠ Original Transition False
+## 69. Replay Mismatch ≠ Original Transition False
 
 Hard firewall:
 
@@ -1548,9 +1551,9 @@ It establishes a replayability failure or replay-condition mismatch.
 
 The original transition's substantive truth is a separate question.
 
----
+______________________________________________________________________
 
-# 70. Replay Match ≠ Original Transition True
+## 70. Replay Match ≠ Original Transition True
 
 Likewise:
 
@@ -1563,9 +1566,9 @@ FACTUAL TRUTH
 
 A deterministic system can reproducibly produce an incorrect result.
 
----
+______________________________________________________________________
 
-# 71. Replay Match ≠ Causal Truth
+## 71. Replay Match ≠ Causal Truth
 
 A replay can reproduce:
 
@@ -1575,27 +1578,27 @@ A → B
 
 as a state transition without proving that A empirically caused B in the external world.
 
----
+______________________________________________________________________
 
-# 72. Replay Match ≠ Governance Approval
+## 72. Replay Match ≠ Governance Approval
 
 A transition may replay perfectly while lacking required governance authorization.
 
----
+______________________________________________________________________
 
-# 73. Replay Match ≠ Safety
+## 73. Replay Match ≠ Safety
 
 Deterministic reproducibility does not imply that the transition is safe.
 
----
+______________________________________________________________________
 
-# 74. Replay Match ≠ Freshness
+## 74. Replay Match ≠ Freshness
 
 A perfectly replayable historical decision may be stale under current evidence or regime.
 
----
+______________________________________________________________________
 
-# 75. Replay Match ≠ Current Validity
+## 75. Replay Match ≠ Current Validity
 
 Thus:
 
@@ -1614,17 +1617,17 @@ Current reuse still requires checking:
 - supersession,
 - governance state.
 
----
+______________________________________________________________________
 
-# 76. Replay and Epistemic Regime
+## 76. Replay and Epistemic Regime
 
 A transition can be replayed under its historical regime while no longer being applicable under a new regime.
 
 Therefore replay should preserve the original applicability envelope.
 
----
+______________________________________________________________________
 
-# 77. Replay and Scope
+## 77. Replay and Scope
 
 If a transition was valid only for:
 
@@ -1638,9 +1641,9 @@ deterministic replay does not promote it to:
 SCOPE B
 ```
 
----
+______________________________________________________________________
 
-# 78. Replay and Freshness
+## 78. Replay and Freshness
 
 Replay verifies historical deterministic reconstruction.
 
@@ -1654,9 +1657,9 @@ REVALIDATION
 
 unless revalidation is explicitly performed.
 
----
+______________________________________________________________________
 
-# 79. Replay and Supersession
+## 79. Replay and Supersession
 
 An older transition can remain replayable after being superseded.
 
@@ -1677,9 +1680,9 @@ L22 may still allow V1's historical transition to replay exactly.
 
 L24 prevents V2 from silently rewriting V1's historical record.
 
----
+______________________________________________________________________
 
-# 80. Historical Replay
+## 80. Historical Replay
 
 This distinction yields:
 
@@ -1697,9 +1700,9 @@ ACTIONABLE
 
 These are separate properties.
 
----
+______________________________________________________________________
 
-# 81. Replay and Selective Invalidation
+## 81. Replay and Selective Invalidation
 
 If a premise becomes invalid later, dependent conclusions may be invalidated for current use.
 
@@ -1707,17 +1710,17 @@ That does not require deleting their replay receipts.
 
 Historical replayability should remain intact where possible.
 
----
+______________________________________________________________________
 
-# 82. Replay and Failure Recovery
+## 82. Replay and Failure Recovery
 
 Replay can support failure recovery by reconstructing the last valid transition sequence from receipts and roots.
 
 However, L22 itself does not define the recovery algorithm.
 
----
+______________________________________________________________________
 
-# 83. Recovery Replay
+## 83. Recovery Replay
 
 Conceptually:
 
@@ -1745,9 +1748,9 @@ STATE S3
 
 provided each replay is deterministic and valid.
 
----
+______________________________________________________________________
 
-# 84. Replay Chain
+## 84. Replay Chain
 
 For a chain:
 
@@ -1767,9 +1770,9 @@ where each transition reproduces its historical state result.
 
 The source does not explicitly define chain replay semantics.
 
----
+______________________________________________________________________
 
-# 85. Chain Validity
+## 85. Chain Validity
 
 Even if each transition replays correctly:
 
@@ -1783,9 +1786,9 @@ this does not automatically prove that the entire chain was substantively correc
 
 Replayability verifies deterministic reconstruction.
 
----
+______________________________________________________________________
 
-# 86. Replay and L22 Atomic AR-2 Boundary
+## 86. Replay and L22 Atomic AR-2 Boundary
 
 The earlier atomic proposal correctly distinguished:
 
@@ -1797,9 +1800,9 @@ GLOBAL VALIDITY
 
 That remains a useful model firewall even though the canonical L22 slot is now replayability-focused.
 
----
+______________________________________________________________________
 
-# 87. Replay Loop
+## 87. Replay Loop
 
 A replay mechanism must avoid recursively generating uncontrolled new replay obligations merely because it verifies an old transition.
 
@@ -1817,9 +1820,9 @@ unless such recursion is intentionally governed.
 
 The source does not specify this boundary.
 
----
+______________________________________________________________________
 
-# 88. Replay Event vs State Transition
+## 88. Replay Event vs State Transition
 
 A replay verification event may or may not itself mutate canonical state.
 
@@ -1829,9 +1832,9 @@ If it is observational only, the applicability may differ.
 
 This remains unspecified.
 
----
+______________________________________________________________________
 
-# 89. Replay and Shard Locality
+## 89. Replay and Shard Locality
 
 Under L25:
 
@@ -1846,25 +1849,25 @@ L22 still requires that a valid state transition be deterministically replayable
 
 Thus local execution does not remove replay obligations.
 
----
+______________________________________________________________________
 
-# 90. Cross-Shard Replay
+## 90. Cross-Shard Replay
 
 If a transition depends on multiple shards, replay must reconstruct the load-bearing cross-shard state necessary to reproduce the transition.
 
 The exact coordination mechanism is not defined by L22.
 
----
+______________________________________________________________________
 
-# 91. Shard Ordering
+## 91. Shard Ordering
 
 If cross-shard event ordering affects the transition, that ordering becomes replay-relevant state.
 
 This is derived from deterministic replay.
 
----
+______________________________________________________________________
 
-# 92. Replay and Causal Epoch Finality
+## 92. Replay and Causal Epoch Finality
 
 A finalized causal epoch may provide a stable replay boundary.
 
@@ -1872,17 +1875,17 @@ However, the supplied L22 note does not define epoch-finality semantics.
 
 Any exact coupling requires other canon.
 
----
+______________________________________________________________________
 
-# 93. Replay and Proof-Based Coordination Avoidance
+## 93. Replay and Proof-Based Coordination Avoidance
 
 If a shard-local transition can be replayably proven from complete local receipts and root inputs without violating global invariants, replay evidence may support avoiding unnecessary coordination.
 
 But this is an integration model, not explicit L22 source content.
 
----
+______________________________________________________________________
 
-# 94. Replay and Atomic Multi-RSCF Reasoning
+## 94. Replay and Atomic Multi-RSCF Reasoning
 
 For a transition depending on:
 
@@ -1896,9 +1899,9 @@ the replay basis must preserve enough state to reconstruct the same atomic outco
 
 If only RSCF_A is captured while B or C can alter the result, deterministic replay is not established.
 
----
+______________________________________________________________________
 
-# 95. Replay Dependency Closure
+## 95. Replay Dependency Closure
 
 Derived invariant:
 
@@ -1924,9 +1927,9 @@ $$
 
 This is a model-level formalization of what strict deterministic replay requires.
 
----
+______________________________________________________________________
 
-# 96. Replay and Provenance Independence
+## 96. Replay and Provenance Independence
 
 Replay does not create new independent evidence.
 
@@ -1953,9 +1956,9 @@ TWO INDEPENDENT
 EMPIRICAL SOURCES
 ```
 
----
+______________________________________________________________________
 
-# 97. Replay as Verification Evidence
+## 97. Replay as Verification Evidence
 
 Replay can provide evidence that:
 
@@ -1968,11 +1971,11 @@ REPLAY CONTRACT
 
 It does not independently verify the truth of the root inputs.
 
----
+______________________________________________________________________
 
-# 98. Root Input Truth
+## 98. Root Input Truth
 
-If root input \(I\) is false:
+If root input (I) is false:
 
 ```text
 FALSE INPUT I
@@ -1995,17 +1998,17 @@ REPLAYABILITY
 INPUT TRUTH
 ```
 
----
+______________________________________________________________________
 
-# 99. Receipt Truth
+## 99. Receipt Truth
 
 Likewise, a self-consistent receipt could faithfully reproduce an invalid transition if the receipt itself encodes invalid state.
 
 Receipt integrity and substantive validity remain separate.
 
----
+______________________________________________________________________
 
-# 100. Replay and Adversarial Validation
+## 100. Replay and Adversarial Validation
 
 For consequential replay claims, challenge:
 
@@ -2062,9 +2065,9 @@ BEING COUNTED AS
 INDEPENDENT EVIDENCE?
 ```
 
----
+______________________________________________________________________
 
-# 101. Replay Attack Surface
+## 101. Replay Attack Surface
 
 Model-level failure classes include:
 
@@ -2114,9 +2117,9 @@ MISREPRESENTED AS
 TRUTH
 ```
 
----
+______________________________________________________________________
 
-# 102. Replay Integrity Invariants
+## 102. Replay Integrity Invariants
 
 ```yaml
 replay_integrity_invariants:
@@ -2144,9 +2147,9 @@ replay_integrity_invariants:
 
 These directly decompose the supplied source law.
 
----
+______________________________________________________________________
 
-# 103. Extended Replay Invariants
+## 103. Extended Replay Invariants
 
 ```yaml
 extended_replay_invariants:
@@ -2194,9 +2197,9 @@ extended_replay_invariants:
 
 These are derived/model-level protections, not additional explicit source clauses.
 
----
+______________________________________________________________________
 
-# 104. Anti-Patterns
+## 104. Anti-Patterns
 
 ## REP-A1 — No Receipt
 
@@ -2208,7 +2211,7 @@ NO LOGGED RECEIPT
 
 Violates the supplied replay basis.
 
----
+______________________________________________________________________
 
 ## REP-A2 — Missing Root Input
 
@@ -2220,7 +2223,7 @@ ROOT INPUT OMITTED
 
 Replayability not established.
 
----
+______________________________________________________________________
 
 ## REP-A3 — Approximate Match
 
@@ -2230,7 +2233,7 @@ ORIGINAL ≈ REPLAY
 
 Rejected when bit-for-bit identity is required.
 
----
+______________________________________________________________________
 
 ## REP-A4 — Semantic Equivalence Only
 
@@ -2242,7 +2245,7 @@ CLAIM BITWISE REPLAY
 
 Rejected.
 
----
+______________________________________________________________________
 
 ## REP-A5 — Replay Against Current State
 
@@ -2257,7 +2260,7 @@ without reconstructing original dependencies.
 
 Rejected as a valid historical replay basis.
 
----
+______________________________________________________________________
 
 ## REP-A6 — Hidden Randomness
 
@@ -2271,7 +2274,7 @@ DIFFERENT RESULT
 
 Determinism failure.
 
----
+______________________________________________________________________
 
 ## REP-A7 — Hidden Clock
 
@@ -2286,7 +2289,7 @@ when time is load-bearing.
 
 Replayability failure.
 
----
+______________________________________________________________________
 
 ## REP-A8 — Algorithm Drift
 
@@ -2299,7 +2302,7 @@ without deterministic compatibility.
 
 Invalid replay comparison.
 
----
+______________________________________________________________________
 
 ## REP-A9 — Schema Drift
 
@@ -2307,7 +2310,7 @@ Same logical state but different serialization/schema producing different bytes 
 
 Replayability unresolved.
 
----
+______________________________________________________________________
 
 ## REP-A10 — Replay Recommits Live State
 
@@ -2321,7 +2324,7 @@ without separate authorization.
 
 Governance defect.
 
----
+______________________________________________________________________
 
 ## REP-A11 — Replay Repeats Irreversible Side Effect
 
@@ -2337,43 +2340,43 @@ instead of safely reproducing transition state.
 
 Critical execution defect unless explicitly authorized.
 
----
+______________________________________________________________________
 
 ## REP-A12 — Replay Match Means Truth
 
 Rejected.
 
----
+______________________________________________________________________
 
 ## REP-A13 — Replay Match Means Causation
 
 Rejected.
 
----
+______________________________________________________________________
 
 ## REP-A14 — Replay Match Means Governance Approval
 
 Rejected.
 
----
+______________________________________________________________________
 
 ## REP-A15 — Replay Match Means Current Validity
 
 Rejected.
 
----
+______________________________________________________________________
 
 ## REP-A16 — Replay Equals Independent Confirmation
 
 Rejected.
 
----
+______________________________________________________________________
 
 ## REP-A17 — Replay Rewrites Epoch History
 
 Rejected under L24 integration.
 
----
+______________________________________________________________________
 
 ## REP-A18 — Reconstruct Final Output Only
 
@@ -2389,7 +2392,7 @@ TRANSITION
 
 This is not necessarily replay; it may merely be retrieval.
 
----
+______________________________________________________________________
 
 ## REP-A19 — Missing Canonical Byte Representation
 
@@ -2402,7 +2405,7 @@ without defining what bytes are compared.
 
 Implementation conformance remains unresolved.
 
----
+______________________________________________________________________
 
 ## REP-A20 — Canonical AMOS Replay Law Proves ChatGPT Bitwise Determinism
 
@@ -2410,9 +2413,9 @@ Rejected.
 
 The canon defines AMOS's architectural contract; it does not by itself establish the literal internals of an external model runtime.
 
----
+______________________________________________________________________
 
-# 105. Decision Matrix
+## 105. Decision Matrix
 
 | Condition                                                          | Treatment                                                       |
 | ------------------------------------------------------------------ | --------------------------------------------------------------- |
@@ -2427,9 +2430,9 @@ The canon defines AMOS's architectural contract; it does not by itself establish
 | Replay duplicates irreversible side effects                        | Execution/governance defect                                     |
 | Replay matches original exactly                                    | Replayability supported; truth not automatically established    |
 
----
+______________________________________________________________________
 
-# 106. Minimal Replay Record
+## 106. Minimal Replay Record
 
 ```yaml
 replay:
@@ -2449,9 +2452,9 @@ replay:
 
 Illustrative serialization only.
 
----
+______________________________________________________________________
 
-# 107. Full Replay Record
+## 107. Full Replay Record
 
 ```yaml
 replay:
@@ -2504,9 +2507,9 @@ replay:
 
 Only the core replay semantics are source-canonical. The schema itself is model-level.
 
----
+______________________________________________________________________
 
-# 108. Replay State Machine
+## 108. Replay State Machine
 
 ```text
 ┌────────────────────────┐
@@ -2550,9 +2553,9 @@ Only the core replay semantics are source-canonical. The schema itself is model-
 
 The canonicalization stage is model-level because the source does not define byte representation.
 
----
+______________________________________________________________________
 
-# 109. Replay Failure Classification
+## 109. Replay Failure Classification
 
 ```yaml
 replay_failure_classes:
@@ -2587,9 +2590,9 @@ replay_failure_classes:
 
 Classification is model-level.
 
----
+______________________________________________________________________
 
-# 110. Replay Diagnostic Order
+## 110. Replay Diagnostic Order
 
 The cheapest high-information diagnostic sequence is:
 
@@ -2622,9 +2625,9 @@ The cheapest high-information diagnostic sequence is:
 
 This ordering avoids blaming determinism before checking missing replay material.
 
----
+______________________________________________________________________
 
-# 111. Replay Sensitivity
+## 111. Replay Sensitivity
 
 For a replay failure, identify the smallest dependency capable of flipping:
 
@@ -2645,9 +2648,9 @@ Examples:
 
 The replay result is fragile until those dependencies are resolved.
 
----
+______________________________________________________________________
 
-# 112. Source-Established Claims
+## 112. Source-Established Claims
 
 The supplied [[01_CANON/01_CORE_LAWS/L22_REPLAYABILITY|L22_REPLAYABILITY]] source directly establishes:
 
@@ -2680,9 +2683,9 @@ The supplied [[01_CANON/01_CORE_LAWS/L22_REPLAYABILITY|L22_REPLAYABILITY]] sourc
 
 No stronger implementation claim should be attributed directly to this source.
 
----
+______________________________________________________________________
 
-# 113. Not Established by This Source
+## 113. Not Established by This Source
 
 The supplied note does **not** establish:
 
@@ -2718,9 +2721,9 @@ The supplied note does **not** establish:
 - hardware-independent determinism,
 - literal ChatGPT runtime replayability.
 
----
+______________________________________________________________________
 
-# 114. Known Gaps
+## 114. Known Gaps
 
 ```yaml
 gaps:
@@ -2799,9 +2802,9 @@ gaps:
         subject to the same replay law.
 ```
 
----
+______________________________________________________________________
 
-# 115. Claim Graph
+## 115. Claim Graph
 
 ```yaml
 claim_graph:
@@ -2890,9 +2893,9 @@ claim_graph:
         and distributed replay mechanics.
 ```
 
----
+______________________________________________________________________
 
-# 116. Dependency Graph
+## 116. Dependency Graph
 
 ```yaml
 dependency_graph:
@@ -2932,9 +2935,9 @@ dependency_graph:
       - nondeterministic_input_capture
 ```
 
----
+______________________________________________________________________
 
-# 117. Canonical Architecture
+## 117. Canonical Architecture
 
 ```text
                        VALID TRANSITION T
@@ -2966,9 +2969,9 @@ dependency_graph:
                                   REPLAY GAP
 ```
 
----
+______________________________________________________________________
 
-# 118. Canonical Compression
+## 118. Canonical Compression
 
 ```text
 VALID TRANSITION
@@ -2983,26 +2986,29 @@ LOGGED RECEIPT
 +
 ROOT INPUTS
 ```
+
 ```text
 REPLAY
 =
 DETERMINISTIC
 ```
+
 ```text
 REPLAY RESULT
 =
 ORIGINAL RESULT
 BIT-FOR-BIT
 ```
----
 
-# 119. Canonical One-Line Law
+______________________________________________________________________
+
+## 119. Canonical One-Line Law
 
 > **Every valid AMOS state transition must be reproducible bit-for-bit through deterministic replay from its logged transaction receipt and root inputs.**
 
----
+______________________________________________________________________
 
-# 120. Normalized Canonical Equation
+## 120. Normalized Canonical Equation
 
 $$
 \boxed{
@@ -3022,9 +3028,9 @@ $$
 
 This is a normalized mathematical representation of the supplied prose law.
 
----
+______________________________________________________________________
 
-# 121. Operational Contract
+## 121. Operational Contract
 
 ```yaml
 deterministic_replayability_contract:
@@ -3050,9 +3056,9 @@ deterministic_replayability_contract:
       - replay_result_matches_original_bit_for_bit
 ```
 
----
+______________________________________________________________________
 
-# 122. Final Integrity Invariant
+## 122. Final Integrity Invariant
 
 ```text
 VALID STATE
@@ -3206,9 +3212,9 @@ EXTERNAL RUNTIME
 IMPLEMENTATION
 ```
 
----
+______________________________________________________________________
 
-# 123. RSCF Node
+## 123. RSCF Node
 
 ```yaml
 RSCF-NODE:
@@ -3272,13 +3278,13 @@ RSCF-RELATIONS:
   - RELATED_TO: FAILURE_RECOVERY
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[01_CANON/01_CORE_LAWS/L8_EXECUTION|L8_EXECUTION]] · [[01_CANON/01_CORE_LAWS/L23_MVCC_CAS|L23_MVCC_CAS]] · [[01_CANON/01_CORE_LAWS/L24_CAUSAL_EPOCH|L24_CAUSAL_EPOCH]] · [[01_CANON/01_CORE_LAWS/01_CORE_LAWS_MOC|01_CORE_LAWS_MOC]]
 
----
+______________________________________________________________________
 
-# 124. Supersession Record
+## 124. Supersession Record
 
 ```yaml
 supersession:
@@ -3319,9 +3325,9 @@ supersession:
       L22 canonical slot, L22_REPLAYABILITY governs.
 ```
 
----
+______________________________________________________________________
 
-# 125. Preservation Rule for Earlier L22 Material
+## 125. Preservation Rule for Earlier L22 Material
 
 The earlier proposed atomic laws should **not** automatically be deleted as concepts.
 
@@ -3356,9 +3362,9 @@ BIT-FOR-BIT
 DETERMINISTIC REPLAY
 ```
 
----
+______________________________________________________________________
 
-# 126. Canonical Boundary
+## 126. Canonical Boundary
 
 The supplied L22 source canonically supports:
 
@@ -3446,6 +3452,6 @@ scope:
 
 **Conclusion class: CANONICAL_INVARIANT within the supplied AMOS canon.**
 
----
+______________________________________________________________________
 
 **MOC:** [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]] · [[00_ROOT/00_HOME|00_HOME]]

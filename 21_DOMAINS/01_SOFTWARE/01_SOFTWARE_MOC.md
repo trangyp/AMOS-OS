@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: 01 Software MOC
 type: moc
 source: 21_DOMAINS/01_SOFTWARE
 tags:
-- 01-software
-- canon/domain
-- software-domains-domain-spec
-- software-domains-interfaces
-- software-domains-provenance
+  - 01-software
+  - canon/domain
+  - software-domains-domain-spec
+  - software-domains-interfaces
+  - software-domains-provenance
 moc: true
 rscf:
   state: DERIVED
@@ -31,7 +34,8 @@ rscf:
 
 ## Subdirectories
 
-- [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]] — 00_INDEX
+- [[21_DOMAINS/01_SOFTWARE/00_INDEX/DOMAIN_INDEX_MOC|00_INDEX]] — Subdomain Navigation
 
----
+______________________________________________________________________
+
 **Parent:** [[21_DOMAINS/21_DOMAINS_MOC|21_DOMAINS_MOC]]

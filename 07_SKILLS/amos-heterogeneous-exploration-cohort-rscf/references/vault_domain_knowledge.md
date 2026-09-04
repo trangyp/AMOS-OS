@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Vault Domain Knowledge — Amos Heterogeneous Exploration Cohort Rscf
 type: reference
 source: 07_SKILLS/amos-heterogeneous-exploration-cohort-rscf/references
 tags:
-- reference
-- amos-heterogeneous-exploration-cohort-rscf
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-heterogeneous-exploration-cohort-rscf
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -27,10 +30,9 @@ rscf:
 
 > Path: `kernel/A/AMOS Super Kernel — Unified Meta-Orchestration Architecture.md` | Size: 37094 chars | Match score: 5 | content_hash: e30f23b8c62ad450
 
-# AMOS Super Kernel — Unified Meta-Orchestration Architecture
+## AMOS Super Kernel — Unified Meta-Orchestration Architecture
 
 ## Overview
-
 
 The source explicitly defines the kernel as:
 
@@ -40,25 +42,25 @@ an operating rule-set, not a persona
 
 Its declared role is:
 
-[
-\boxed{
+\[
+\\boxed{
 Request
-\rightarrow
+\\rightarrow
 Normalize
-\rightarrow
+\\rightarrow
 Decompose
-\rightarrow
+\\rightarrow
 Route
-\rightarrow
+\\rightarrow
 Constrain
-\rightarrow
+\\rightarrow
 Synthesize
-\rightarrow
+\\rightarrow
 Audit
-\rightarrow
+\\rightarrow
 Output
 }
-]
+\]
 
 The source identifies **Trang Phan** as author of the canonical frameworks that the kernel is required to preserve.
 
@@ -72,9 +74,9 @@ CANON GROUP: META
 
 The architecture below preserves the supplied kernel while separating explicit source structure from derived AMOS formalization.
 
----
+______________________________________________________________________
 
-# 1. Kernel Identity
+## 1. Kernel Identity
 
 The source declares:
 
@@ -89,18 +91,16 @@ The kernel is not defined as a personality layer.
 
 Its identity is functional:
 
-[
-KernelRole
-==========
+## \[ KernelRole
 
 Normalize
-+
+\+
 Route
-+
+\+
 Constrain
-+
+\+
 Integrate
-]
+\]
 
 The intended abstraction is therefore closer to:
 
@@ -114,34 +114,33 @@ than:
 PERSONA
 ```
 
----
+______________________________________________________________________
 
-# 2. Core Objective
+## 2. Core Objective
 
 The kernel's primary transformation can be modeled as:
 
-[
-R_{raw}
-\xrightarrow{N}
+\[
+R\_{raw}
+\\xrightarrow{N}
 P
-\xrightarrow{D}
-{T_1,\ldots,T_n}
-\xrightarrow{Route}
-{E_1,\ldots,E_n}
-\xrightarrow{C}
-{O_1,\ldots,O_n}
-\xrightarrow{S}
-O_{final}
-]
+\\xrightarrow{D}
+{T_1,\\ldots,T_n}
+\\xrightarrow{Route}
+{E_1,\\ldots,E_n}
+\\xrightarrow{C}
+{O_1,\\ldots,O_n}
+\\xrightarrow{S}
+O\_{final}
+\]
 
 where:
 
-
 This is a **derived formal representation** of the source pipeline.
 
----
+______________________________________________________________________
 
-# 3. Core Role
+## 3. Core Role
 
 The source defines six primary functions.
 
@@ -156,19 +155,16 @@ The source defines six primary functions.
 
 Compressed:
 
-[
-AMOS_{Kernel}
-=============
+## \[ AMOS\_{Kernel}
 
 N+D+R+C+S+A
-]
+\]
 
 where:
 
+______________________________________________________________________
 
----
-
-# 4. Canon Dependency Layer
+## 4. Canon Dependency Layer
 
 The source requires the kernel to preserve a fixed set of named canon structures.
 
@@ -214,44 +210,46 @@ Conceptually:
 
 The source st
 
----
+______________________________________________________________________
 
 ### Source 3: AMOS_Reinforcement_Learning_Analysis_Kernel_v0_Machine_Architecture4_2
 
 > Path: `kernel/A/AMOS_Reinforcement_Learning_Analysis_Kernel_v0_Machine_Architecture4_2.md` | Size: 5744 chars | Match score: 5 | content_hash: dad50ad0c2370fc2
 
 {
-  "meta": {
-    "name": "Reinforcement_Learning_Analysis_Kernel",
-    "version": "1.0.0",
-    "description": "Kernel for reinforcement learning analysis: MDP formulation, policy and value reasoning, exploration, reward design, and RL system evaluation."
-  },
-  "kernel": {
-    "description": "The Reinforcement Learning Analysis Kernel supports reasoning about RL problems, algorithms, policies, value functions, exploration behaviour, reward design, and evaluation. It helps structure an RL problem, interpret behaviour, diagnose common failure modes, and compare approaches. It does not replace domain expertise, live experimentation, or safe deployment practice; it is an analytical and design-support capability.",
-    "capabilities": {
-      "mdp_formulation": "Frame a problem as a Markov decision process or related sequential decision setting: states, actions, transitions, rewards, discount, horizon, and observability assumptions.",
-      "policy_and_value_reasoning": "Reason about policies, value functions, Q-functions, Bellman structure, optimality concepts, and the relationship between behaviour and expected return.",
-      "exploration_and_exploitation": "Reason about the exploration-exploitation trade-off, exploration strategies, information gathering, regret ideas, and the risks of insufficient or unsafe exploration.",
-      "reward_design_and_analysis": "Reason about reward specification, reward shaping, misspecification risk, reward hacking concerns, side effects, and alignment between the reward and the intended outcome.",
-      "algorithm_families": "Understand and compare major RL approaches: value-based, policy-based, actor-critic, model-based, offline RL, multi-agent RL, and hierarchical RL at a conceptual level.",
-      "failure_mode_analysis": "Identify common RL problems: reward misspecification, exploration failure, instability, overfitting, distributional shift, non-stationarity, sample inefficiency, and unsafe behaviour.",
-      "evaluation_reasoning": "Reason about evaluation: returns, regret, sample efficiency, robustness, generalisation, safety, and the difference between training behaviour and deployment behaviour."
-    },
-    "structural_components": {
-      "environment_or_problem_model": "What the agent interacts with: states, dynamics, actions, horizon, observability, and stochasticity.",
-      "agent_or_policy": "What the learner does: architecture, objective, constraints, exploration behaviour, and any safety or action limits.",
-      "reward_signal": "What is being optimised and how it relates to the real objective. Reward is a design choice, not a definition of goodness by itself.",
-      "learning_algorithm": "How the agent updates behaviour: value estimation, policy gradients, model learning, planning, or hybrid methods.",
-      "data_and_experience": "What data the agent learns from: online interaction, logged data, simulators, demonstrations, or mixtures.",
-      "evaluation_and_constraints": "How success and safe
+"meta": {
+"name": "Reinforcement_Learning_Analysis_Kernel",
+"version": "1.0.0",
+"description": "Kernel for reinforcement learning analysis: MDP formulation, policy and value reasoning, exploration, reward design, and RL system evaluation."
+},
+"kernel": {
+"description": "The Reinforcement Learning Analysis Kernel supports reasoning about RL problems, algorithms, policies, value functions, exploration behaviour, reward design, and evaluation. It helps structure an RL problem, interpret behaviour, diagnose common failure modes, and compare approaches. It does not replace domain expertise, live experimentation, or safe deployment practice; it is an analytical and design-support capability.",
+"capabilities": {
+"mdp_formulation": "Frame a problem as a Markov decision process or related sequential decision setting: states, actions, transitions, rewards, discount, horizon, and observability assumptions.",
+"policy_and_value_reasoning": "Reason about policies, value functions, Q-functions, Bellman structure, optimality concepts, and the relationship between behaviour and expected return.",
+"exploration_and_exploitation": "Reason about the exploration-exploitation trade-off, exploration strategies, information gathering, regret ideas, and the risks of insufficient or unsafe exploration.",
+"reward_design_and_analysis": "Reason about reward specification, reward shaping, misspecification risk, reward hacking concerns, side effects, and alignment between the reward and the intended outcome.",
+"algorithm_families": "Understand and compare major RL approaches: value-based, policy-based, actor-critic, model-based, offline RL, multi-agent RL, and hierarchical RL at a conceptual level.",
+"failure_mode_analysis": "Identify common RL problems: reward misspecification, exploration failure, instability, overfitting, distributional shift, non-stationarity, sample inefficiency, and unsafe behaviour.",
+"evaluation_reasoning": "Reason about evaluation: returns, regret, sample efficiency, robustness, generalisation, safety, and the difference between training behaviour and deployment behaviour."
+},
+"structural_components": {
+"environment_or_problem_model": "What the agent interacts with: states, dynamics, actions, horizon, observability, and stochasticity.",
+"agent_or_policy": "What the learner does: architecture, objective, constraints, exploration behaviour, and any safety or action limits.",
+"reward_signal": "What is being optimised and how it relates to the real objective. Reward is a design choice, not a definition of goodness by itself.",
+"learning_algorithm": "How the agent updates behaviour: value estimation, policy gradients, model learning, planning, or hybrid methods.",
+"data_and_experience": "What data the agent learns from: online interaction, logged data, simulators, demonstrations, or mixtures.",
+"evaluation_and_constraints": "How success and safe
 
----
+______________________________________________________________________
+
 **MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -259,12 +257,14 @@ The source st
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-heterogeneous-exploration-cohort-rscf-vault-domain-knowledge
 node_type: reference
 path: 07_SKILLS/amos-heterogeneous-exploration-cohort-rscf/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

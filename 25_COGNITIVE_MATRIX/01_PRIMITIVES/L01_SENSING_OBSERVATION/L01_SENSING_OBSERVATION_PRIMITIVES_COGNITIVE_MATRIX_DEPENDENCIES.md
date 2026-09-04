@@ -1,10 +1,13 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: L01 SENSING OBSERVATION PRIMITIVES COGNITIVE MATRIX DEPENDENCIES
 type: dependency
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION
 tags:
-- amos
-- domain/cognitive-matrix
+  - amos
+  - domain/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -24,9 +27,9 @@ rscf:
 
 > **Canon boundary:** This document defines the dependency contract required for `L01_SENSING_OBSERVATION` to operate coherently inside the AMOS architecture. Dependency relations that are not directly established by recovered source canon remain `AMOS_MODEL` rather than `SOURCE_CANON`.
 
----
+______________________________________________________________________
 
-# 0. Purpose
+## 0. Purpose
 
 `L01_SENSING_OBSERVATION` cannot operate as an isolated primitive.
 
@@ -34,22 +37,19 @@ Observation depends on an addressable environment, an observing mechanism, a cha
 
 The dependency architecture is therefore:
 
-[
-\boxed{
-Dependencies(L01)
-=================
+## \[ \\boxed{ Dependencies(L01)
 
-D_{upstream}
-\cup
-D_{internal}
-\cup
-D_{cross}
-\cup
-D_{downstream}
-\cup
-D_{governance}
+D\_{upstream}
+\\cup
+D\_{internal}
+\\cup
+D\_{cross}
+\\cup
+D\_{downstream}
+\\cup
+D\_{governance}
 }
-]
+\]
 
 where:
 
@@ -63,39 +63,34 @@ D_governance  = authority and integrity dependencies
 
 The governing rule is:
 
-[
-\boxed{
-L01\ validity
-\le
+\[
+\\boxed{
+L01\\ validity
+\\le
 WeakestLoadBearingDependency
 }
-]
+\]
 
 A sensing pipeline cannot become more trustworthy than its unresolved load-bearing dependencies permit.
 
----
+______________________________________________________________________
 
-# 1. Dependency Definition
+## 1. Dependency Definition
 
 A dependency exists when the correctness, admissibility, interpretation, persistence, or downstream use of an L01 state materially relies on another state, primitive, service, invariant, source, or control mechanism.
 
 Define:
 
-[
-D_{ij}
-======
+## \[ D\_{ij}
 
 Depends(L01_i,X_j)
-]
+\]
 
 with dependency tensor:
 
-[
-\boxed{
-T_D
-===
+## \[ \\boxed{ T_D
 
-T[
+T\[
 source,
 target,
 dependency_type,
@@ -110,17 +105,17 @@ freshness,
 failure_propagation,
 repair_coupling,
 confidence
-]
+\]
 }
-]
+\]
 
 A dependency edge is not merely a semantic relationship.
 
 It means failure or change in the dependency may require revalidation of the dependent state.
 
----
+______________________________________________________________________
 
-# 2. Dependency Classes
+## 2. Dependency Classes
 
 L01 dependency classes include:
 
@@ -186,19 +181,19 @@ capability dependency
 authorization
 ```
 
----
+______________________________________________________________________
 
-# 3. Primary Upstream Dependency
+## 3. Primary Upstream Dependency
 
 The primary architectural dependency of L01 is:
 
-[
-\boxed{
+\[
+\\boxed{
 L00_REALITY_ENVIRONMENT
-\rightarrow
+\\rightarrow
 L01_SENSING_OBSERVATION
 }
-]
+\]
 
 L00 provides the addressable environment or source context from which observation is acquired.
 
@@ -216,19 +211,19 @@ L01 cannot create an environment merely by observing it.
 
 Therefore:
 
-[
-\boxed{
+\[
+\\boxed{
 ObservationTarget
-\subseteq
+\\subseteq
 AddressableEnvironment
 }
-]
+\]
 
 where the subset relation is structural rather than necessarily mathematical set membership in every implementation.
 
----
+______________________________________________________________________
 
-# 4. L00 → L01 Contract
+## 4. L00 → L01 Contract
 
 Minimum upstream interface:
 
@@ -271,74 +266,72 @@ L00_TO_L01:
 
 L01 must not silently expand beyond this envelope.
 
----
+______________________________________________________________________
 
-# 5. Upstream Invariants
+## 5. Upstream Invariants
 
 ## D-I01 — Environment Existence
 
 Observation requires an addressable target.
 
-[
+\[
 Observe(x)
-\Rightarrow
+\\Rightarrow
 Addressable(x)
-]
+\]
 
 This does not require the target to be physically accessible; documents, APIs, simulations, stored measurements, and other representations may be addressable targets when correctly typed.
 
----
+______________________________________________________________________
 
 ## D-I02 — Boundary Preservation
 
-[
-Boundary_{L00}
-\rightarrow
-BoundaryConstraint_{L01}
-]
+\[
+Boundary\_{L00}
+\\rightarrow
+BoundaryConstraint\_{L01}
+\]
 
 L01 must not silently redefine the environment boundary inherited from L00.
 
----
+______________________________________________________________________
 
 ## D-I03 — Scope Preservation
 
-[
-Scope_{L01}
-\subseteq
-Scope_{authorized}
-]
+\[
+Scope\_{L01}
+\\subseteq
+Scope\_{authorized}
+\]
 
----
+______________________________________________________________________
 
 ## D-I04 — Regime Preservation
 
-[
-Regime_{obs}
-============
+## \[ Regime\_{obs}
 
-Regime_{acquisition}
-]
+Regime\_{acquisition}
+\]
 
 unless an explicit translation or normalization is performed.
 
----
+______________________________________________________________________
 
 ## D-I05 — Temporal Preservation
 
 Environment time and observation time must remain distinguishable.
 
-[
-t_{environment}
-\neq
-t_{observation}
-]
+\[
+t\_{environment}
+\\neq
+t\_{observation}
+\]
 
 unless demonstrated equal for the relevant operation.
 
----
+______________________________________________________________________
 
-# 6. Internal Dependencies
+## 6. Internal Dependencies
 
 L01 depends internally on the following architectural contracts:
 
@@ -386,9 +379,9 @@ GAP_MATRIX
 
 These form the internal dependency closure of the primitive.
 
----
+______________________________________________________________________
 
-# 7. Internal Dependency Graph
+## 7. Internal Dependency Graph
 
 ```text
 PURPOSE
@@ -425,18 +418,15 @@ GAP_MATRIX
 
 Agents and skills provide execution capabilities but do not override governance.
 
----
+______________________________________________________________________
 
-# 8. Dependency Tensor
+## 8. Dependency Tensor
 
 The canonical model tensor for an L01 dependency is:
 
-[
-\boxed{
-D
-=
+## \[ \\boxed{ D
 
-T[
+T\[
 dependency_id,
 source,
 target,
@@ -454,9 +444,9 @@ freshness,
 validation,
 failure_mode,
 repair_coupling
-]
+\]
 }
-]
+\]
 
 Example:
 
@@ -511,9 +501,9 @@ dependency:
     REVALIDATE_L01
 ```
 
----
+______________________________________________________________________
 
-# 9. Dependency Criticality
+## 9. Dependency Criticality
 
 Dependencies should be classified:
 
@@ -575,41 +565,41 @@ Improves quality but may not block operation.
 
 Useful only in specific environments or modalities.
 
----
+______________________________________________________________________
 
-# 10. Hard vs Soft Dependencies
+## 10. Hard vs Soft Dependencies
 
 Define:
 
-[
-D_h = hard\ dependency
-]
+\[
+D_h = hard\\ dependency
+\]
 
-[
-D_s = soft\ dependency
-]
+\[
+D_s = soft\\ dependency
+\]
 
 A hard dependency satisfies:
 
-[
+\[
 Failure(D_h)
-\Rightarrow
+\\Rightarrow
 BlockOrQuarantine(L01)
-]
+\]
 
 A soft dependency satisfies:
 
-[
+\[
 Failure(D_s)
-\Rightarrow
+\\Rightarrow
 DowngradeOrCondition(L01)
-]
+\]
 
 The distinction must be explicit.
 
----
+______________________________________________________________________
 
-# 11. Cross-Cutting AMOS Dependencies
+## 11. Cross-Cutting AMOS Dependencies
 
 L01 depends on shared AMOS architecture for:
 
@@ -655,19 +645,19 @@ repair
 selective invalidation
 ```
 
----
+______________________________________________________________________
 
-# 12. Evidence Dependency
+## 12. Evidence Dependency
 
 Observation becomes usable evidence only through an evidence-binding relationship.
 
-[
-\boxed{
+\[
+\\boxed{
 Observation
-\xrightarrow{EvidenceBinding}
+\\xrightarrow{EvidenceBinding}
 EvidenceCandidate
 }
-]
+\]
 
 The evidence dependency requires:
 
@@ -697,11 +687,9 @@ revocation state
 
 Compatible evidence tensor:
 
-[
-T_E
-===
+## \[ T_E
 
-T[
+T\[
 evidence_id,
 source_id,
 source_type,
@@ -714,22 +702,22 @@ measurement,
 quality,
 independence,
 revocation_state
-]
-]
+\]
+\]
 
----
+______________________________________________________________________
 
-# 13. Provenance Dependency
+## 13. Provenance Dependency
 
 Every consequential observation depends on recoverable provenance.
 
-[
-\boxed{
+\[
+\\boxed{
 Trusted(O)
-\Rightarrow
+\\Rightarrow
 RecoverableProvenance(O)
 }
-]
+\]
 
 Candidate provenance chain:
 
@@ -753,42 +741,40 @@ DOWNSTREAM CLAIM
 
 Loss of a load-bearing provenance edge reduces the confidence ceiling.
 
----
+______________________________________________________________________
 
-# 14. Provenance Ancestry
+## 14. Provenance Ancestry
 
-For evidence objects \(E_1\) and \(E_2\):
+For evidence objects (E_1) and (E_2):
 
-[
+\[
 SharedAncestor(E_1,E_2)
-\Rightarrow
-Independence(E_1,E_2)\neq Assumed
-]
+\\Rightarrow
+Independence(E_1,E_2)\\neq Assumed
+\]
 
 Therefore:
 
-[
-\boxed{
+\[
+\\boxed{
 MultipleArtifacts
-\neq
+\\neq
 MultipleIndependentSources
 }
-]
+\]
 
 L01 must preserve ancestry sufficiently for downstream provenance topology analysis.
 
----
+______________________________________________________________________
 
-# 15. Measurement Dependency
+## 15. Measurement Dependency
 
 Observation depends on an acquisition method.
 
-[
-O
-=
+## \[ O
 
-S(E \mid M,C,A)
-]
+S(E \\mid M,C,A)
+\]
 
 where:
 
@@ -800,29 +786,29 @@ A = observer / sensing agent
 
 Consequently:
 
-[
+\[
 Validity(O)
-\le
+\\le
 Validity(M,C,A)
-]
+\]
 
 where these are load-bearing for the observation.
 
----
+______________________________________________________________________
 
-# 16. Sensor Dependency
+## 16. Sensor Dependency
 
 For sensor-mediated observation:
 
-[
+\[
 Environment
-\rightarrow
+\\rightarrow
 Sensor
-\rightarrow
+\\rightarrow
 Signal
-\rightarrow
+\\rightarrow
 Observation
-]
+\]
 
 A sensor may introduce:
 
@@ -850,9 +836,9 @@ transformation artifacts
 
 Sensor health is therefore a dependency, not incidental metadata.
 
----
+______________________________________________________________________
 
-# 17. Tool Dependency
+## 17. Tool Dependency
 
 AI observation may be tool-mediated.
 
@@ -898,17 +884,17 @@ failure state
 
 Tool success alone does not prove semantic correctness.
 
----
+______________________________________________________________________
 
-# 18. Channel Dependency
+## 18. Channel Dependency
 
 Observation validity depends on the channel actually available.
 
-[
+\[
 AvailableInformation
-\subseteq
+\\subseteq
 ChannelCapacity
-]
+\]
 
 Therefore:
 
@@ -928,26 +914,24 @@ cannot become direct physical observation
 
 unless additional evidence channels exist.
 
----
+______________________________________________________________________
 
-# 19. Modality Dependency
+## 19. Modality Dependency
 
 For multimodal sensing:
 
-[
-O
-=
+## \[ O
 
-{O_{text},O_{visual},O_{audio},O_{sensor},...}
-]
+{O\_{text},O\_{visual},O\_{audio},O\_{sensor},...}
+\]
 
 Each modality maintains independent provenance and uncertainty until fusion is justified.
 
-[
+\[
 Fuse(O_i,O_j)
-\Rightarrow
+\\Rightarrow
 Compatibility(O_i,O_j)
-]
+\]
 
 Compatibility includes:
 
@@ -969,48 +953,44 @@ provenance
 measurement semantics
 ```
 
----
+______________________________________________________________________
 
-# 20. Temporal Dependency
+## 20. Temporal Dependency
 
 Every observation depends on temporal coordinates.
 
 Candidate time tensor:
 
-[
-T_t
-===
+## \[ T_t
 
-T[
+T\[
 event_time,
 observation_time,
 retrieval_time,
 processing_time,
 validity_window
-]
-]
+\]
+\]
 
 Hard invariant:
 
-[
-t_{retrieval}
-\neq
-t_{observation}
-]
+\[
+t\_{retrieval}
+\\neq
+t\_{observation}
+\]
 
 unless explicitly equal.
 
 Retrieving an old observation now does not make it a current observation.
 
----
+______________________________________________________________________
 
-# 21. Freshness Dependency
+## 21. Freshness Dependency
 
 Freshness depends on:
 
-[
-Freshness
-=========
+## \[ Freshness
 
 f(
 Age,
@@ -1018,23 +998,23 @@ ChangeRate,
 DecisionHorizon,
 Regime
 )
-]
+\]
 
 Thus freshness cannot be determined from timestamp age alone in every domain.
 
 A rapidly changing environment may invalidate an observation sooner than a stable one.
 
----
+______________________________________________________________________
 
-# 22. Scope Dependency
+## 22. Scope Dependency
 
 Observation claims inherit observation scope.
 
-[
+\[
 Scope(Claim_O)
-\subseteq
+\\subseteq
 Scope(O)
-]
+\]
 
 unless additional evidence justifies expansion.
 
@@ -1058,17 +1038,17 @@ one market quote
 entire market regime
 ```
 
----
+______________________________________________________________________
 
-# 23. Regime Dependency
+## 23. Regime Dependency
 
 Observation validity may depend on environmental regime.
 
-[
+\[
 Valid(O,R_1)
-\not\Rightarrow
+\\not\\Rightarrow
 Valid(O,R_2)
-]
+\]
 
 without compatibility evidence.
 
@@ -1092,17 +1072,17 @@ measurement protocol change
 source revision
 ```
 
----
+______________________________________________________________________
 
-# 24. Resolution Dependency
+## 24. Resolution Dependency
 
 Downstream inference is constrained by observation resolution.
 
-[
+\[
 Resolution(Conclusion)
-\le
+\\le
 SupportedResolution(O)
-]
+\]
 
 unless a validated inference model supplies additional structure.
 
@@ -1124,18 +1104,16 @@ modal
 H/M/L scale
 ```
 
----
+______________________________________________________________________
 
-# 25. Observer Dependency
+## 25. Observer Dependency
 
 Observation may depend on observer configuration.
 
-[
-O
-=
+## \[ O
 
-O(E\mid Observer)
-]
+O(E\\mid Observer)
+\]
 
 Observer-dependent variables may include:
 
@@ -1161,60 +1139,58 @@ query formulation
 
 Observer dependence must not automatically be interpreted as observer-created reality.
 
----
+______________________________________________________________________
 
-# 26. Authority Dependency
+## 26. Authority Dependency
 
 Capability to observe does not create authority to observe.
 
-[
-\boxed{
+\[
+\\boxed{
 Capability
-\neq
+\\neq
 Authority
 }
-]
+\]
 
 Protected sensing requires:
 
-[
+\[
 ExecuteObservation
-\Rightarrow
+\\Rightarrow
 Capability
-\land
+\\land
 Authority
-\land
+\\land
 ScopePermission
-]
+\]
 
 where applicable.
 
 An agent must not self-grant missing authority.
 
----
+______________________________________________________________________
 
-# 27. Constraint Dependency
+## 27. Constraint Dependency
 
 L01 inherits applicable constraints from L00 and the control plane.
 
-[
-Constraints_{effective}
-=======================
+## \[ Constraints\_{effective}
 
-Constraints_{upstream}
-\cup
-Constraints_{task}
-\cup
-Constraints_{governance}
-]
+Constraints\_{upstream}
+\\cup
+Constraints\_{task}
+\\cup
+Constraints\_{governance}
+\]
 
 subject to explicit precedence rules.
 
 Observation execution must remain inside the effective constraint envelope.
 
----
+______________________________________________________________________
 
-# 28. Control-Plane Dependency
+## 28. Control-Plane Dependency
 
 L01 depends on the control plane for:
 
@@ -1246,61 +1222,55 @@ revocation
 
 Worker cognition does not own final governance authority merely because it generated the observation.
 
----
+______________________________________________________________________
 
-# 29. Control Dependency Equation
+## 29. Control Dependency Equation
 
 Candidate structural gate:
 
-[
-\boxed{
-Execute(O)
-==========
+## \[ \\boxed{ Execute(O)
 
 Cap
-\land
+\\land
 Auth
-\land
+\\land
 Scope
-\land
+\\land
 Constraints
 }
-]
+\]
 
 Trusted admission adds:
 
-[
-\boxed{
-Admit(O)
-========
+## \[ \\boxed{ Admit(O)
 
 ExecuteValid
-\land
+\\land
 TypeValid
-\land
+\\land
 ProvenanceValid
-\land
+\\land
 EvidenceValid
-\land
+\\land
 FreshnessValid
-\land
+\\land
 NoBlockingConflict
 }
-]
+\]
 
 These are AMOS model equations and require implementation-specific predicate definitions.
 
----
+______________________________________________________________________
 
-# 30. Memory Dependency
+## 30. Memory Dependency
 
 L01 may read prior observation memory for comparison, but memory is not fresh sensing.
 
-[
-Memory(O_{t-1})
-\neq
+\[
+Memory(O\_{t-1})
+\\neq
 Observation(O_t)
-]
+\]
 
 Memory dependencies include:
 
@@ -1322,17 +1292,17 @@ previous contradictions
 
 Memory must preserve its original temporal and epistemic identity.
 
----
+______________________________________________________________________
 
-# 31. Memory Write Dependency
+## 31. Memory Write Dependency
 
 Observation promotion into persistent memory should depend on admission.
 
-[
+\[
 Persist(O)
-\Rightarrow
+\\Rightarrow
 AdmissionValid(O)
-]
+\]
 
 Candidate state transition:
 
@@ -1352,17 +1322,17 @@ PERSISTED
 
 Therefore:
 
-[
-\boxed{
+\[
+\\boxed{
 Observation
-\neq
+\\neq
 PersistentMemory
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 32. RSCF Dependency
+## 32. RSCF Dependency
 
 Consequential observations should support downstream RSCF construction.
 
@@ -1397,72 +1367,68 @@ RSCF does not turn weak observation into strong evidence.
 
 It preserves why the observation is or is not trustworthy.
 
----
+______________________________________________________________________
 
-# 33. Claim Dependency
+## 33. Claim Dependency
 
-A downstream claim \(C\) may depend on observation set:
+A downstream claim (C) may depend on observation set:
 
-[
-C
-=
+## \[ C
 
 f(O_1,O_2,...,O_n)
-]
+\]
 
 The dependency graph must preserve:
 
-[
+\[
 O_i
-\rightarrow
+\\rightarrow
 C
-]
+\]
 
-so that failure of \(O_i\) can selectively invalidate \(C\) where \(O_i\) is load-bearing.
+so that failure of (O_i) can selectively invalidate (C) where (O_i) is load-bearing.
 
----
+______________________________________________________________________
 
-# 34. Confidence Dependency
+## 34. Confidence Dependency
 
-For load-bearing premises (P_1,\ldots,P_n):
+For load-bearing premises (P_1,\\ldots,P_n):
 
-[
-\boxed{
+\[
+\\boxed{
 Conf(C)
-\le
-\min_i Conf(P_i)
+\\le
+\\min_i Conf(P_i)
 }
-]
+\]
 
 unless independent revalidation provides a stronger basis.
 
 For an observation:
 
-[
+\[
 Conf(O)
-\le
-\min(
-Conf_{measurement},
-Conf_{provenance},
-Conf_{scope},
-Conf_{regime},
-Conf_{freshness}
+\\le
+\\min(
+Conf\_{measurement},
+Conf\_{provenance},
+Conf\_{scope},
+Conf\_{regime},
+Conf\_{freshness}
 )
-]
+\]
 
 where each factor is genuinely load-bearing.
 
----
+______________________________________________________________________
 
-# 35. Uncertainty Dependency
+## 35. Uncertainty Dependency
 
 L01 uncertainty should preserve separate dimensions:
 
-[
-U_{L01}
-=======
+## \[ U\_{L01}
 
-[
+\[
 U_e,
 U_m,
 U_t,
@@ -1471,8 +1437,8 @@ U_r,
 U_p,
 U_i,
 U_x
-]
-]
+\]
+\]
 
 where:
 
@@ -1489,9 +1455,9 @@ U_x = execution uncertainty
 
 Uncertainty dimensions should not be collapsed into one number unless the aggregation model is explicitly defined.
 
----
+______________________________________________________________________
 
-# 36. H/M/L Dependencies
+## 36. H/M/L Dependencies
 
 L01 dependencies exist across AMOS scales.
 
@@ -1555,38 +1521,35 @@ single measurement
 single observation event
 ```
 
----
+______________________________________________________________________
 
-# 37. Cross-Scale Dependency Rule
+## 37. Cross-Scale Dependency Rule
 
 A local observation cannot automatically establish a system-level state.
 
-[
+\[
 O_L
-\not\Rightarrow
+\\not\\Rightarrow
 State_H
-]
+\]
 
 A high-level aggregate cannot automatically establish every local state.
 
-[
+\[
 O_H
-\not\Rightarrow
+\\not\\Rightarrow
 State_L
-]
+\]
 
 Cross-scale propagation requires an explicit mapping.
 
----
+______________________________________________________________________
 
-# 38. Cross-Scale Dependency Tensor
+## 38. Cross-Scale Dependency Tensor
 
-[
-\boxed{
-T_{HML-D}
-=========
+## \[ \\boxed{ T\_{HML-D}
 
-T[
+T\[
 source_scale,
 target_scale,
 mapping,
@@ -1597,66 +1560,64 @@ scope,
 regime,
 provenance,
 confidence
-]
+\]
 }
-]
+\]
 
 Composition is prohibited when scale semantics are incompatible.
 
----
+______________________________________________________________________
 
-# 39. Dependency Composition
+## 39. Dependency Composition
 
 For dependency chain:
 
-[
+\[
 A
-\rightarrow
+\\rightarrow
 B
-\rightarrow
+\\rightarrow
 C
-]
+\]
 
-if \(C\) relies on \(B\), and \(B\) relies on \(A\), then \(A\) may become a transitive dependency of \(C\).
+if (C) relies on (B), and (B) relies on (A), then (A) may become a transitive dependency of (C).
 
-[
-A\rightarrow B
-\land
-B\rightarrow C
-\Rightarrow
-A\leadsto C
-]
+\[
+A\\rightarrow B
+\\land
+B\\rightarrow C
+\\Rightarrow
+A\\leadsto C
+\]
 
 But transitive dependency does not automatically imply direct causation.
 
----
+______________________________________________________________________
 
-# 40. Dependency Closure
+## 40. Dependency Closure
 
-For a conclusion \(C\), define dependency closure:
+For a conclusion (C), define dependency closure:
 
-[
-Closure(C)
-==========
+## \[ Closure(C)
 
-{x \mid x\leadsto C}
-]
+{x \\mid x\\leadsto C}
+\]
 
 The AMOS fast path may use local reasoning only when the decision-relevant dependency closure is sufficiently known.
 
 Unknown load-bearing dependencies require escalation.
 
----
+______________________________________________________________________
 
-# 41. Dependency Compatibility
+## 41. Dependency Compatibility
 
 Two dependency objects may compose only when shared axes are compatible.
 
-[
+\[
 Compose(D_1,D_2)
-\Rightarrow
+\\Rightarrow
 CompatibleAxes(D_1,D_2)
-]
+\]
 
 Compatibility dimensions include:
 
@@ -1684,9 +1645,9 @@ authority
 
 Same-name variables do not prove semantic compatibility.
 
----
+______________________________________________________________________
 
-# 42. Dependency Freshness
+## 42. Dependency Freshness
 
 Dependencies can become stale independently.
 
@@ -1708,24 +1669,22 @@ but authorization expires
 
 Therefore:
 
-[
+\[
 Fresh(O)
-\not\Rightarrow
+\\not\\Rightarrow
 Fresh(AllDependencies(O))
-]
+\]
 
----
+______________________________________________________________________
 
-# 43. Dependency Versioning
+## 43. Dependency Versioning
 
 Where dependency versions matter:
 
-[
-D
-=
+## \[ D
 
 D(version,t)
-]
+\]
 
 Examples:
 
@@ -1749,86 +1708,84 @@ protocol
 
 A version change may require selective revalidation.
 
----
+______________________________________________________________________
 
-# 44. Dependency Mutation
+## 44. Dependency Mutation
 
-If dependency \(D_i\) changes:
+If dependency (D_i) changes:
 
-[
+\[
 D_i^{(v)}
-\rightarrow
+\\rightarrow
 D_i^{(v+1)}
-]
+\]
 
 the system should determine:
 
-[
-Impact(D_i)
-===========
+## \[ Impact(D_i)
 
 Descendants(D_i)
-]
+\]
 
 Only affected descendants require invalidation or revalidation.
 
----
+______________________________________________________________________
 
-# 45. Dependency Failure Propagation
+## 45. Dependency Failure Propagation
 
 For:
 
-[
+\[
 D_i
-\rightarrow
+\\rightarrow
 O_j
-\rightarrow
+\\rightarrow
 C_k
-]
+\]
 
-if \(D_i\) fails and is load-bearing:
+if (D_i) fails and is load-bearing:
 
-[
+\[
 Failure(D_i)
-\Rightarrow
+\\Rightarrow
 Revalidate(O_j)
-]
+\]
 
 and potentially:
 
-[
+\[
 Failure(O_j)
-\Rightarrow
+\\Rightarrow
 Revalidate(C_k)
-]
+\]
 
 This is selective propagation.
 
----
+______________________________________________________________________
 
-# 46. Selective Invalidation
+## 46. Selective Invalidation
 
-[
-\boxed{
+\[
+\\boxed{
 Invalidate(D_i)
-\Rightarrow
+\\Rightarrow
 Invalidate(DependentDescendants(D_i))
 }
-]
+\]
 
 not:
 
-[
+\[
 Invalidate(D_i)
-\Rightarrow
+\\Rightarrow
 Invalidate(AllState)
-]
+\]
 
 Unaffected branches remain reusable if their own dependency closure remains valid.
 
----
+______________________________________________________________________
 
-# 47. Dependency Conflict
+## 47. Dependency Conflict
 
 Two dependencies may conflict.
 
@@ -1866,9 +1823,9 @@ environment change
 
 Conflict is not automatically measurement failure.
 
----
+______________________________________________________________________
 
-# 48. Competing Dependency Paths
+## 48. Competing Dependency Paths
 
 L01 should preserve alternative observation paths where they materially affect confidence.
 
@@ -1888,33 +1845,33 @@ environment
 
 If both sensors share the same upstream source, their apparent independence may be false.
 
----
+______________________________________________________________________
 
-# 49. Independence
+## 49. Independence
 
 Define:
 
-[
+\[
 Ind(E_i,E_j)
-]
+\]
 
 as a claim requiring evidence.
 
 Hard rule:
 
-[
-\boxed{
+\[
+\\boxed{
 Independence
-\neq
+\\neq
 AssumedByMultiplicity
 }
-]
+\]
 
 Repeated copies, mirrors, summaries, agents, or transformations of one origin remain correlated unless a valid independence basis exists.
 
----
+______________________________________________________________________
 
-# 50. Downstream Dependencies
+## 50. Downstream Dependencies
 
 L01 outputs may support:
 
@@ -1948,9 +1905,9 @@ repair
 
 Exact downstream layer identifiers remain canon-gap bounded unless separately established.
 
----
+______________________________________________________________________
 
-# 51. Downstream Contract
+## 51. Downstream Contract
 
 Minimum downstream handoff should preserve:
 
@@ -2002,17 +1959,17 @@ L01_HANDOFF:
 
 Downstream systems must not strip load-bearing metadata.
 
----
+______________________________________________________________________
 
-# 52. Dependency Preservation Invariant
+## 52. Dependency Preservation Invariant
 
 Compression, summarization, transformation, or handoff must preserve decision-relevant dependencies.
 
-[
+\[
 Compress(O)
-\Rightarrow
+\\Rightarrow
 Preserve(LoadBearingDependencies(O))
-]
+\]
 
 This includes:
 
@@ -2036,9 +1993,9 @@ authority constraints
 
 where material.
 
----
+______________________________________________________________________
 
-# 53. Dependency Graph
+## 53. Dependency Graph
 
 A generalized L01 dependency graph:
 
@@ -2099,9 +2056,9 @@ L01 OBSERVATION STATE
         └── decision
 ```
 
----
+______________________________________________________________________
 
-# 54. Required Dependency Registry
+## 54. Required Dependency Registry
 
 Each dependency should be representable as:
 
@@ -2149,9 +2106,9 @@ DEPENDENCY_RECORD:
   falsifiers:
 ```
 
----
+______________________________________________________________________
 
-# 55. Dependency States
+## 55. Dependency States
 
 ```text
 ACTIVE
@@ -2177,44 +2134,41 @@ UNKNOWN/GAP
 
 A missing critical dependency blocks trusted promotion.
 
----
+______________________________________________________________________
 
-# 56. Dependency Admission Rule
+## 56. Dependency Admission Rule
 
 Candidate rule:
 
-[
-\boxed{
-DependencyReady(D)
-==================
+## \[ \\boxed{ DependencyReady(D)
 
 Present
-\land
+\\land
 TypeCompatible
-\land
+\\land
 ScopeCompatible
-\land
+\\land
 RegimeCompatible
-\land
+\\land
 FreshEnough
-\land
+\\land
 ProvenanceSufficient
-\land
+\\land
 NotRevoked
 }
-]
+\]
 
 For critical dependencies:
 
-[
-\neg DependencyReady(D_{critical})
-\Rightarrow
+\[
+\\neg DependencyReady(D\_{critical})
+\\Rightarrow
 NoTrustedPromotion
-]
+\]
 
----
+______________________________________________________________________
 
-# 57. Dependency Failure Modes
+## 57. Dependency Failure Modes
 
 ## D-F01 — Missing Upstream Environment
 
@@ -2296,15 +2250,15 @@ Summary removes load-bearing dependency metadata.
 
 A dependency is declared canonical without source support.
 
----
+______________________________________________________________________
 
-# 58. Dependency Cycle Detection
+## 58. Dependency Cycle Detection
 
 For dependency graph (G_D=(V,E)):
 
-[
+\[
 Cycle(G_D)=TRUE
-]
+\]
 
 does not automatically mean the architecture is invalid.
 
@@ -2324,9 +2278,9 @@ no independent grounding
 
 This is a self-supporting epistemic loop.
 
----
+______________________________________________________________________
 
-# 59. Repair / Recovery
+## 59. Repair / Recovery
 
 Dependency repair follows:
 
@@ -2354,17 +2308,17 @@ REVALIDATE AFFECTED CLAIMS
 RESTORE OR QUARANTINE
 ```
 
----
+______________________________________________________________________
 
-# 60. Dependency Replacement
+## 60. Dependency Replacement
 
-Replacing dependency \(D_a\) with \(D_b\) requires:
+Replacing dependency (D_a) with (D_b) requires:
 
-[
+\[
 Replace(D_a,D_b)
-\Rightarrow
+\\Rightarrow
 Compatible(D_a,D_b)
-]
+\]
 
 Compatibility must consider:
 
@@ -2390,15 +2344,15 @@ measurement behavior
 
 A substitute tool or source is not automatically equivalent.
 
----
+______________________________________________________________________
 
-# 61. Repair Invariant
+## 61. Repair Invariant
 
-[
+\[
 Repair(D)
-\neq
+\\neq
 EraseFailureHistory(D)
-]
+\]
 
 Repair must preserve:
 
@@ -2416,9 +2370,9 @@ revalidation result
 
 where persistent auditability is required.
 
----
+______________________________________________________________________
 
-# 62. Tests / Validators
+## 62. Tests / Validators
 
 Required validator families:
 
@@ -2460,9 +2414,9 @@ VALIDATOR_REPAIR
 VALIDATOR_DOWNSTREAM_HANDOFF
 ```
 
----
+______________________________________________________________________
 
-# 63. Minimum Dependency Tests
+## 63. Minimum Dependency Tests
 
 ```text
 TEST_L01_DEP_001
@@ -2526,9 +2480,9 @@ TEST_L01_DEP_020
 model-derived dependencies cannot be labeled SOURCE_CANON without evidence
 ```
 
----
+______________________________________________________________________
 
-# 64. Falsifiers
+## 64. Falsifiers
 
 This dependency contract fails if an implementation permits:
 
@@ -2572,9 +2526,9 @@ dependency compression to remove load-bearing metadata
 unsupported dependency mappings to be labeled canon
 ```
 
----
+______________________________________________________________________
 
-# 65. Source / Canon Status
+## 65. Source / Canon Status
 
 Current structural basis:
 
@@ -2626,9 +2580,9 @@ MODEL DEPENDENCY
 EMPIRICALLY VALIDATED DEPENDENCY
 ```
 
----
+______________________________________________________________________
 
-# 66. Gap Matrix
+## 66. Gap Matrix
 
 ```yaml
 gap_status:
@@ -2664,9 +2618,9 @@ gap_status:
     - registry field naming
 ```
 
----
+______________________________________________________________________
 
-# 67. Hard Boundaries
+## 67. Hard Boundaries
 
 ```text
 PLACEHOLDER != IMPLEMENTED
@@ -2718,9 +2672,9 @@ MODEL != CANON
 CANON != EMPIRICAL_PROOF
 ```
 
----
+______________________________________________________________________
 
-# 68. RSCF Completion State
+## 68. RSCF Completion State
 
 ```yaml
 claim_class:
@@ -2830,9 +2784,9 @@ confidence_ceiling:
   and runtime validation remain unresolved
 ```
 
----
+______________________________________________________________________
 
-# 69. Completion State
+## 69. Completion State
 
 ```yaml
 completion_state:
@@ -2910,65 +2864,65 @@ completion_state:
     AMOS_MODEL / CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
-# 70. Dependency Summary
+## 70. Dependency Summary
 
 The minimum L01 dependency architecture is:
 
-[
-\boxed{
+\[
+\\boxed{
 L00
-\rightarrow
+\\rightarrow
 Target
-\rightarrow
+\\rightarrow
 Capability
-\rightarrow
+\\rightarrow
 Authority
-\rightarrow
+\\rightarrow
 SensingMechanism
-\rightarrow
+\\rightarrow
 Observation
-\rightarrow
+\\rightarrow
 Provenance
-\rightarrow
+\\rightarrow
 Validation
-\rightarrow
+\\rightarrow
 Admission
-\rightarrow
+\\rightarrow
 DownstreamCognition
 }
-]
+\]
 
 with cross-cutting constraints:
 
-[
-\boxed{
+\[
+\\boxed{
 Scope
-\cap
+\\cap
 Regime
-\cap
+\\cap
 Time
-\cap
+\\cap
 HML
-\cap
+\\cap
 Evidence
-\cap
+\\cap
 Uncertainty
-\cap
+\\cap
 Governance
 }
-]
+\]
 
 and the principal dependency invariant:
 
-[
-\boxed{
+\[
+\\boxed{
 Confidence(Output)
-\le
+\\le
 WeakestLoadBearingDependency
 }
-]
+\]
 
 The dependency system must preserve enough lineage to answer:
 
@@ -3006,26 +2960,30 @@ AMOS_MODEL / CONDITIONAL
 
 until direct source canon and executable validation establish stronger status.
 
----
+______________________________________________________________________
 
 **Related:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · L01_SENSING_OBSERVATION — HML · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · L01_SENSING_OBSERVATION — RSCF · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[00_ROOT/00_HOME|00_HOME]] · 06-Knowledge-Base-MOC
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: l01_sensing_observation_primitives_cognitive_matrix_dependencies
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_DEPENDENCIES.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_MOC|L01_SENSING_OBSERVATION_MOC]]

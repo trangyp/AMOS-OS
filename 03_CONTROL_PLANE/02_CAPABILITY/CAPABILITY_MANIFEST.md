@@ -1,12 +1,15 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: CAPABILITY MANIFEST
 type: manifest
 source: 03_CONTROL_PLANE/02_CAPABILITY
 tags:
-- control-plane
-- capability
-- note
-- canon/control-plane
+  - control-plane
+  - capability
+  - note
+  - canon/control-plane
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL
@@ -62,9 +65,9 @@ PROPOSAL != COMMIT
 UNKNOWN/GAP != PASS
 ```
 
----
+______________________________________________________________________
 
-# 1. Purpose
+## 1. Purpose
 
 The AMOS Capability Manifest provides the canonical inventory surface through which AMOS components can determine:
 
@@ -91,9 +94,9 @@ and whether they are eligible for runtime consideration.
 
 The manifest exists to make capability topology explicit rather than allowing capability assumptions to remain embedded implicitly inside agents, Skills, prompts, workflows, or code.
 
----
+______________________________________________________________________
 
-# 2. Manifest Role in AMOS
+## 2. Manifest Role in AMOS
 
 The capability layer SHOULD be separated into at least four conceptual artifacts:
 
@@ -129,9 +132,9 @@ CONTROL PLANE = enforcement and resolution
 
 These objects MUST NOT be silently conflated.
 
----
+______________________________________________________________________
 
-# 3. Non-Purpose
+## 3. Non-Purpose
 
 The capability manifest is not:
 
@@ -155,9 +158,9 @@ It may reference these structures.
 
 It MUST NOT impersonate them.
 
----
+______________________________________________________________________
 
-# 4. Manifest Object
+## 4. Manifest Object
 
 Conceptually:
 
@@ -204,9 +207,9 @@ capability_manifest:
   gaps: []
 ```
 
----
+______________________________________________________________________
 
-# 5. Manifest Identity
+## 5. Manifest Identity
 
 Every manifest instance MUST possess a stable identity.
 
@@ -222,9 +225,9 @@ manifest_identity:
 
 Manifest identity MUST remain separate from the identities of individual capabilities.
 
----
+______________________________________________________________________
 
-# 6. Capability Entry
+## 6. Capability Entry
 
 The atomic manifest unit is a `CapabilityEntry`.
 
@@ -262,9 +265,9 @@ A manifest entry is a **declaration record**.
 
 Its existence does not establish implementation.
 
----
+______________________________________________________________________
 
-# 7. Canonical Full Capability Record
+## 7. Canonical Full Capability Record
 
 Recommended full record:
 
@@ -389,9 +392,9 @@ capability:
   gaps: []
 ```
 
----
+______________________________________________________________________
 
-# 8. Capability Classes
+## 8. Capability Classes
 
 The manifest SHOULD support the following base classes:
 
@@ -461,9 +464,9 @@ Capability class assignment is descriptive.
 
 It does not grant authority.
 
----
+______________________________________________________________________
 
-# 9. Provider Manifest
+## 9. Provider Manifest
 
 Providers SHOULD be independently registered.
 
@@ -492,9 +495,9 @@ provider:
 
 This prevents provider metadata from being duplicated inconsistently across capability entries.
 
----
+______________________________________________________________________
 
-# 10. Provider Types
+## 10. Provider Types
 
 Supported provider types SHOULD include:
 
@@ -514,9 +517,9 @@ HUMAN_AUTHORITY
 
 `HUMAN_AUTHORITY` may provide governance decisions but SHOULD NOT automatically be represented as equivalent to computational providers.
 
----
+______________________________________________________________________
 
-# 11. Capability-to-Provider Relation
+## 11. Capability-to-Provider Relation
 
 Canonical relation:
 
@@ -552,9 +555,9 @@ behavior(P1) = behavior(P2)
 
 Provider substitution requires compatibility evidence.
 
----
+______________________________________________________________________
 
-# 12. Input Manifest
+## 12. Input Manifest
 
 Each input MUST be typed.
 
@@ -582,9 +585,9 @@ input:
 
 Input types SHOULD be sufficiently precise to prevent unsafe coercion.
 
----
+______________________________________________________________________
 
-# 13. Output Manifest
+## 13. Output Manifest
 
 Each output SHOULD declare:
 
@@ -612,9 +615,9 @@ output:
 
 Outputs MUST NOT silently change epistemic class downstream.
 
----
+______________________________________________________________________
 
-# 14. Capability State Model
+## 14. Capability State Model
 
 Manifest state MUST distinguish independent lifecycle dimensions.
 
@@ -685,9 +688,9 @@ is valid.
 
 It MUST NOT be automatically normalized to `VALIDATED`.
 
----
+______________________________________________________________________
 
-# 15. Manifest State Invariant
+## 15. Manifest State Invariant
 
 No convenience status field may erase the underlying state vector.
 
@@ -709,9 +712,9 @@ A summary label MAY be generated.
 
 The original vector MUST remain recoverable.
 
----
+______________________________________________________________________
 
-# 16. Dependency Manifest
+## 16. Dependency Manifest
 
 Dependencies SHOULD be explicit edges.
 
@@ -751,9 +754,9 @@ dependency:
     - ESCALATE
 ```
 
----
+______________________________________________________________________
 
-# 17. Dependency Invariant
+## 17. Dependency Invariant
 
 For required dependency `d`:
 
@@ -767,9 +770,9 @@ capability not fully eligible
 
 Unless an explicitly declared fallback exists.
 
----
+______________________________________________________________________
 
-# 18. Optional Dependencies
+## 18. Optional Dependencies
 
 Optional dependencies MUST NOT be disguised as mandatory requirements.
 
@@ -789,9 +792,9 @@ degradation:
       - "high_confidence_validation"
 ```
 
----
+______________________________________________________________________
 
-# 19. Capability Composition Graph
+## 19. Capability Composition Graph
 
 The manifest MAY describe compositional relationships:
 
@@ -826,9 +829,9 @@ SUPERSEDES
 CONFLICTS_WITH
 ```
 
----
+______________________________________________________________________
 
-# 20. Circular Dependency Detection
+## 20. Circular Dependency Detection
 
 Cycles MUST be visible.
 
@@ -857,9 +860,9 @@ Otherwise:
 dependency_state = GAP
 ```
 
----
+______________________________________________________________________
 
-# 21. H/M/L Manifest
+## 21. H/M/L Manifest
 
 Each capability SHOULD declare scale applicability.
 
@@ -879,9 +882,9 @@ hml:
 
 H/M/L applicability does not mean the same implementation is valid at every scale.
 
----
+______________________________________________________________________
 
-# 22. Cross-Scale Capability Relations
+## 22. Cross-Scale Capability Relations
 
 The manifest MAY declare:
 
@@ -904,9 +907,9 @@ authority
 
 A local result MUST NOT automatically become a global system claim.
 
----
+______________________________________________________________________
 
-# 23. Scope Manifest
+## 23. Scope Manifest
 
 Capabilities MUST declare an applicability envelope when material.
 
@@ -937,9 +940,9 @@ They MUST NOT silently mean:
 ALL
 ```
 
----
+______________________________________________________________________
 
-# 24. Regime Manifest
+## 24. Regime Manifest
 
 Capabilities SHOULD declare regime assumptions.
 
@@ -960,9 +963,9 @@ regime:
 
 A capability validated in simulation MUST NOT automatically inherit production validity.
 
----
+______________________________________________________________________
 
-# 25. Effect Manifest
+## 25. Effect Manifest
 
 Every capability MUST declare its maximum possible effect class.
 
@@ -1002,9 +1005,9 @@ effects:
     supported: true
 ```
 
----
+______________________________________________________________________
 
-# 26. Effect-Class Invariant
+## 26. Effect-Class Invariant
 
 A capability MUST NOT produce an effect stronger than its manifest permits.
 
@@ -1016,9 +1019,9 @@ declared_maximum_effect_class
 
 Any violation is a contract breach.
 
----
+______________________________________________________________________
 
-# 27. Capability and Authority
+## 27. Capability and Authority
 
 Authority metadata MUST be separate from capability metadata.
 
@@ -1048,9 +1051,9 @@ without an external authority basis and applicability context.
 
 Authority is contextual.
 
----
+______________________________________________________________________
 
-# 28. Authority Invariant
+## 28. Authority Invariant
 
 ```text
 CAPABILITY(C)
@@ -1068,9 +1071,9 @@ AUTHORIZED(P, C)
 
 Authorization requires an independent authority evaluation.
 
----
+______________________________________________________________________
 
-# 29. Policy Binding
+## 29. Policy Binding
 
 Capabilities SHOULD reference applicable policy rather than embedding all policy logic locally.
 
@@ -1089,9 +1092,9 @@ governance:
 
 Policy references MUST be version-aware when policy changes could alter eligibility.
 
----
+______________________________________________________________________
 
-# 30. Control-Plane Binding
+## 30. Control-Plane Binding
 
 A capability MAY be governed by one or more control planes.
 
@@ -1123,9 +1126,9 @@ control_planes:
 
 A capability MUST NOT silently bypass a required control plane.
 
----
+______________________________________________________________________
 
-# 31. Agent Binding
+## 31. Agent Binding
 
 Agent relationships SHOULD be explicit.
 
@@ -1143,9 +1146,9 @@ An agent that consumes a capability does not thereby become its provider.
 
 An agent that provides a capability does not thereby become its validator.
 
----
+______________________________________________________________________
 
-# 32. Skill Binding
+## 32. Skill Binding
 
 Capability-to-Skill relations SHOULD include:
 
@@ -1161,9 +1164,9 @@ A Skill MAY expose multiple capabilities.
 
 The capability manifest SHOULD remain the authority-neutral description of those capabilities.
 
----
+______________________________________________________________________
 
-# 33. Workflow Binding
+## 33. Workflow Binding
 
 Capabilities MAY declare workflow participation:
 
@@ -1179,9 +1182,9 @@ workflows:
 
 Workflow membership does not imply universal capability availability.
 
----
+______________________________________________________________________
 
-# 34. Protocol Binding
+## 34. Protocol Binding
 
 A capability SHOULD declare its invocation protocol.
 
@@ -1203,9 +1206,9 @@ protocol:
 
 Protocol compatibility SHOULD be checked during provider resolution.
 
----
+______________________________________________________________________
 
-# 35. Validation Manifest
+## 35. Validation Manifest
 
 Each capability SHOULD expose validation evidence separately from declaration state.
 
@@ -1243,9 +1246,9 @@ V7_GOVERNED_PRODUCTION_VALIDATED
 
 These are proposed manifest states, not empirical claims about existing AMOS runtime coverage.
 
----
+______________________________________________________________________
 
-# 36. Validation Scope
+## 36. Validation Scope
 
 Validation MUST carry scope.
 
@@ -1270,9 +1273,9 @@ NON-APPLICABLE
 
 rather than automatically false or true.
 
----
+______________________________________________________________________
 
-# 37. Evidence Manifest
+## 37. Evidence Manifest
 
 Evidence record:
 
@@ -1311,9 +1314,9 @@ evidence:
     - UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 38. Provenance Manifest
+## 38. Provenance Manifest
 
 Each capability SHOULD preserve:
 
@@ -1339,9 +1342,9 @@ provenance:
 
 A capability synthesized from multiple files SHOULD preserve those source relations rather than presenting itself as source-independent canon.
 
----
+______________________________________________________________________
 
-# 39. Provenance Independence
+## 39. Provenance Independence
 
 Evidence multiplicity is not independence.
 
@@ -1363,9 +1366,9 @@ then three entries do not constitute three independent confirmations.
 
 The manifest SHOULD preserve this topology.
 
----
+______________________________________________________________________
 
-# 40. Freshness Manifest
+## 40. Freshness Manifest
 
 Capability validity may decay when its environment changes.
 
@@ -1388,9 +1391,9 @@ freshness:
     - environment_change
 ```
 
----
+______________________________________________________________________
 
-# 41. Supersession Manifest
+## 41. Supersession Manifest
 
 Version lineage MUST be explicit.
 
@@ -1416,9 +1419,9 @@ supersession:
 
 Validation SHOULD NOT automatically transfer across a material semantic change.
 
----
+______________________________________________________________________
 
-# 42. Aliases
+## 42. Aliases
 
 Aliases MAY support discovery.
 
@@ -1434,9 +1437,9 @@ aliases:
 
 Aliases MUST resolve to one canonical capability identity within a declared version context.
 
----
+______________________________________________________________________
 
-# 43. Capability Conflict Registry
+## 43. Capability Conflict Registry
 
 Capabilities MAY conflict.
 
@@ -1454,9 +1457,9 @@ conflicts:
 
 Conflict MUST NOT be silently resolved through arbitrary provider ordering.
 
----
+______________________________________________________________________
 
-# 44. Fallback Manifest
+## 44. Fallback Manifest
 
 Fallbacks SHOULD be explicit.
 
@@ -1476,9 +1479,9 @@ fallbacks:
 
 A fallback is not assumed equivalent merely because it accepts the same inputs.
 
----
+______________________________________________________________________
 
-# 45. Capability Resolution
+## 45. Capability Resolution
 
 Resolution SHOULD produce candidate capabilities.
 
@@ -1508,9 +1511,9 @@ governance requirements
 
 Authority SHOULD remain a separate gate.
 
----
+______________________________________________________________________
 
-# 46. Candidate Record
+## 46. Candidate Record
 
 ```yaml
 candidate:
@@ -1538,9 +1541,9 @@ candidate:
 
 `eligible_for_consideration` is not `authorized`.
 
----
+______________________________________________________________________
 
-# 47. Capability Selection
+## 47. Capability Selection
 
 Selection SHOULD preserve why a candidate was selected.
 
@@ -1570,9 +1573,9 @@ selection:
     - UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 48. Competing Providers
+## 48. Competing Providers
 
 When two providers are materially incomparable:
 
@@ -1603,9 +1606,9 @@ security posture
 dependency burden
 ```
 
----
+______________________________________________________________________
 
-# 49. Uncertainty Vector
+## 49. Uncertainty Vector
 
 Each capability MAY carry:
 
@@ -1626,9 +1629,9 @@ If used, its scale MUST be explicitly defined.
 
 The manifest MUST NOT pretend undefined confidence numbers are objective measurements.
 
----
+______________________________________________________________________
 
-# 50. Confidence Ceiling
+## 50. Confidence Ceiling
 
 A capability confidence ceiling MAY be derived from load-bearing validation premises.
 
@@ -1651,9 +1654,9 @@ unless independently validated evidence changes the dependency structure.
 
 This is an AMOS MODEL governance equation.
 
----
+______________________________________________________________________
 
-# 51. Manifest Operators
+## 51. Manifest Operators
 
 The capability manifest SHOULD support these logical operations.
 
@@ -1665,7 +1668,7 @@ REGISTER(entry)
 
 Adds an addressable declaration.
 
----
+______________________________________________________________________
 
 ## `UPDATE`
 
@@ -1675,7 +1678,7 @@ UPDATE(entry, revision)
 
 Creates a new governed state while preserving lineage.
 
----
+______________________________________________________________________
 
 ## `RESOLVE`
 
@@ -1685,7 +1688,7 @@ RESOLVE(requirement)
 
 Returns candidate entries.
 
----
+______________________________________________________________________
 
 ## `VALIDATE`
 
@@ -1695,7 +1698,7 @@ VALIDATE(entry, evidence)
 
 Updates validation state if evidence warrants it.
 
----
+______________________________________________________________________
 
 ## `INVALIDATE`
 
@@ -1705,7 +1708,7 @@ INVALIDATE(entry, failed_premise)
 
 Invalidates dependent claims.
 
----
+______________________________________________________________________
 
 ## `SUSPEND`
 
@@ -1715,7 +1718,7 @@ SUSPEND(entry)
 
 Temporarily removes active eligibility.
 
----
+______________________________________________________________________
 
 ## `REVOKE`
 
@@ -1725,7 +1728,7 @@ REVOKE(entry)
 
 Blocks governed future use.
 
----
+______________________________________________________________________
 
 ## `SUPERSEDE`
 
@@ -1735,7 +1738,7 @@ SUPERSEDE(old, new)
 
 Preserves version lineage.
 
----
+______________________________________________________________________
 
 ## `QUARANTINE`
 
@@ -1745,7 +1748,7 @@ QUARANTINE(entry, reason)
 
 Removes uncertain or suspect entries from normal resolution without deleting evidence.
 
----
+______________________________________________________________________
 
 ## `REVALIDATE`
 
@@ -1755,9 +1758,9 @@ REVALIDATE(entry, current_context)
 
 Checks stale capability assumptions.
 
----
+______________________________________________________________________
 
-# 52. Manifest Invariants
+## 52. Manifest Invariants
 
 ## INV-MAN-001 — Stable Identity
 
@@ -1819,9 +1822,9 @@ Shared ancestry cannot masquerade as independent evidence.
 
 No manifest state may convert an effect proposal into commit authority.
 
----
+______________________________________________________________________
 
-# 53. Manifest Failure Modes
+## 53. Manifest Failure Modes
 
 ## FM-MAN-001 — Ghost Entry
 
@@ -1903,9 +1906,9 @@ Repeated dependent evidence raises confidence as if independent.
 
 Manifest declares behavior different from actual runtime behavior.
 
----
+______________________________________________________________________
 
-# 54. Repair / Recovery
+## 54. Repair / Recovery
 
 Canonical repair sequence:
 
@@ -1933,9 +1936,9 @@ RESTORE OR SUPERSEDE
 
 Global registry reconstruction SHOULD be a last resort.
 
----
+______________________________________________________________________
 
-# 55. Selective Invalidation
+## 55. Selective Invalidation
 
 If:
 
@@ -1953,9 +1956,9 @@ preserve CAP_C
 
 This is preferred over global invalidation.
 
----
+______________________________________________________________________
 
-# 56. Quarantine
+## 56. Quarantine
 
 Quarantine SHOULD preserve the entry for investigation.
 
@@ -1971,9 +1974,9 @@ quarantine:
 
 Quarantine is not deletion.
 
----
+______________________________________________________________________
 
-# 57. Tests / Validators
+## 57. Tests / Validators
 
 Minimum manifest tests:
 
@@ -2005,9 +2008,9 @@ T-MAN-024 selective invalidation
 T-MAN-025 runtime-manifest consistency
 ```
 
----
+______________________________________________________________________
 
-# 58. Schema Validator
+## 58. Schema Validator
 
 A structural validator SHOULD reject entries missing critical fields such as:
 
@@ -2028,9 +2031,9 @@ unless the entry is explicitly classified:
 PLACEHOLDER / UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 59. Semantic Validator
+## 59. Semantic Validator
 
 Schema validity is insufficient.
 
@@ -2048,9 +2051,9 @@ invalid supersession;
 unresolved canonical aliases.
 ```
 
----
+______________________________________________________________________
 
-# 60. Runtime Validator
+## 60. Runtime Validator
 
 Where implementation exists, runtime validation SHOULD compare:
 
@@ -2075,9 +2078,9 @@ provider identity
 
 A mismatch becomes evidence against the manifest claim.
 
----
+______________________________________________________________________
 
-# 61. Falsifiers
+## 61. Falsifiers
 
 A manifest capability claim is falsified when reliable evidence demonstrates that:
 
@@ -2101,9 +2104,9 @@ provenance cannot be reconstructed.
 
 Falsification SHOULD remain claim-local unless broader evidence supports systemic invalidation.
 
----
+______________________________________________________________________
 
-# 62. Manifest Query Surface
+## 62. Manifest Query Surface
 
 The registry SHOULD support conceptual queries such as:
 
@@ -2130,9 +2133,9 @@ Queryability is part of addressability.
 
 It is not validation.
 
----
+______________________________________________________________________
 
-# 63. Capability Discovery Response
+## 63. Capability Discovery Response
 
 Recommended response:
 
@@ -2155,9 +2158,9 @@ capability_discovery:
 
 Discovery MUST preserve exclusions when they materially explain why a seemingly relevant capability was not selected.
 
----
+______________________________________________________________________
 
-# 64. Capability Promotion
+## 64. Capability Promotion
 
 Recommended promotion path:
 
@@ -2181,9 +2184,9 @@ GOVERNED_ACTIVE
 
 Promotion gates MUST be explicit.
 
----
+______________________________________________________________________
 
-# 65. Promotion Requirements
+## 65. Promotion Requirements
 
 ## PLACEHOLDER → DECLARED
 
@@ -2257,9 +2260,9 @@ freshness
 no unresolved critical gaps
 ```
 
----
+______________________________________________________________________
 
-# 66. No Automatic Promotion
+## 66. No Automatic Promotion
 
 The following transitions are prohibited:
 
@@ -2275,9 +2278,9 @@ IMPLEMENTED → GOVERNED_ACTIVE
 
 without intermediate evidence satisfying the missing gates.
 
----
+______________________________________________________________________
 
-# 67. Gap Classification
+## 67. Gap Classification
 
 Manifest gaps SHOULD be typed:
 
@@ -2307,9 +2310,9 @@ gap:
   resolution_requirement: string
 ```
 
----
+______________________________________________________________________
 
-# 68. Critical Gaps
+## 68. Critical Gaps
 
 Critical gaps SHOULD block promotion where they affect:
 
@@ -2327,9 +2330,9 @@ irreversible action
 
 A critical gap cannot be waived merely for completeness.
 
----
+______________________________________________________________________
 
-# 69. Manifest Gap Matrix
+## 69. Manifest Gap Matrix
 
 | Manifest Surface              |                      Required | Specification State |
 | ----------------------------- | ----------------------------: | ------------------- |
@@ -2367,9 +2370,9 @@ A critical gap cannot be waived merely for completeness.
 | Executed validation suite     |       Required for validation | UNKNOWN/GAP         |
 | Canon approval                | Required for canonical status | UNKNOWN/GAP         |
 
----
+______________________________________________________________________
 
-# 70. RSCF Binding
+## 70. RSCF Binding
 
 Capability manifest entries SHOULD support an RSCF projection.
 
@@ -2407,9 +2410,9 @@ rscf:
   confidence_ceiling: 0
 ```
 
----
+______________________________________________________________________
 
-# 71. Capability Evidence Promotion
+## 71. Capability Evidence Promotion
 
 RSCF class SHOULD strengthen only as evidence strengthens.
 
@@ -2435,9 +2438,9 @@ potential VERIFIED claim within tested envelope
 
 No artifact should be labeled `VERIFIED` merely because its manifest entry is structurally complete.
 
----
+______________________________________________________________________
 
-# 72. GMEF Binding
+## 72. GMEF Binding
 
 Capability changes SHOULD enter governed evolution when they modify:
 
@@ -2459,9 +2462,9 @@ provider substitution
 
 Manifest diff alone is not sufficient evidence that a change is safe.
 
----
+______________________________________________________________________
 
-# 73. Manifest Change Record
+## 73. Manifest Change Record
 
 Recommended change object:
 
@@ -2492,9 +2495,9 @@ manifest_change:
   rollback_plan: null
 ```
 
----
+______________________________________________________________________
 
-# 74. Commit Boundary
+## 74. Commit Boundary
 
 The capability manifest may inform commit governance.
 
@@ -2521,9 +2524,9 @@ transaction
 
 checks.
 
----
+______________________________________________________________________
 
-# 75. Manifest / Control-Plane Separation
+## 75. Manifest / Control-Plane Separation
 
 The manifest answers:
 
@@ -2540,9 +2543,9 @@ against this resource, for this effect?"
 
 This separation is mandatory.
 
----
+______________________________________________________________________
 
-# 76. Manifest / Policy Separation
+## 76. Manifest / Policy Separation
 
 The manifest may say:
 
@@ -2555,9 +2558,9 @@ The policy registry defines what that policy means.
 
 The capability manifest MUST NOT silently redefine referenced policy semantics.
 
----
+______________________________________________________________________
 
-# 77. Manifest / Agent Separation
+## 77. Manifest / Agent Separation
 
 An agent may query the manifest.
 
@@ -2581,9 +2584,9 @@ agent confidence
 validation
 ```
 
----
+______________________________________________________________________
 
-# 78. Manifest / Skill Separation
+## 78. Manifest / Skill Separation
 
 A Skill may declare capability exposure.
 
@@ -2591,9 +2594,9 @@ The manifest provides the system-level representation.
 
 A Skill MUST NOT be treated as universally safe merely because its capability appears in the manifest.
 
----
+______________________________________________________________________
 
-# 79. Manifest / Memory Separation
+## 79. Manifest / Memory Separation
 
 Capability metadata MAY be persisted.
 
@@ -2610,9 +2613,9 @@ validation state
 
 Historical success MUST NOT silently become permanent capability truth.
 
----
+______________________________________________________________________
 
-# 80. Manifest / Provenance Separation
+## 80. Manifest / Provenance Separation
 
 The manifest references provenance.
 
@@ -2620,9 +2623,9 @@ It is not itself the complete provenance ledger.
 
 The provenance layer SHOULD retain detailed evidence ancestry beyond what the manifest needs for efficient capability resolution.
 
----
+______________________________________________________________________
 
-# 81. Caching
+## 81. Caching
 
 Capability resolution MAY be cached.
 
@@ -2644,9 +2647,9 @@ cache:
 
 Cached resolution MUST be invalidated when load-bearing state changes.
 
----
+______________________________________________________________________
 
-# 82. Cache Invalidation Events
+## 82. Cache Invalidation Events
 
 Examples:
 
@@ -2663,9 +2666,9 @@ regime transition
 supersession
 ```
 
----
+______________________________________________________________________
 
-# 83. Manifest Security Requirements
+## 83. Manifest Security Requirements
 
 Capability metadata itself can become a security boundary.
 
@@ -2684,9 +2687,9 @@ registry rollback;
 stale-cache resurrection.
 ```
 
----
+______________________________________________________________________
 
-# 84. Registration Authority
+## 84. Registration Authority
 
 Not every provider SHOULD necessarily be allowed to register itself as active.
 
@@ -2702,9 +2705,9 @@ REVOKE_ENTRY
 
 A provider SHOULD NOT automatically possess all five.
 
----
+______________________________________________________________________
 
-# 85. Two-Phase Admission
+## 85. Two-Phase Admission
 
 For higher-consequence capabilities, admission SHOULD conceptually separate:
 
@@ -2720,9 +2723,9 @@ Thus:
 PROPOSED_ENTRY != ACTIVE_ENTRY
 ```
 
----
+______________________________________________________________________
 
-# 86. Manifest Observability
+## 86. Manifest Observability
 
 Material manifest operations SHOULD produce events:
 
@@ -2741,36 +2744,36 @@ DEPENDENCY_CHANGED
 
 Events SHOULD preserve actor, timestamp, affected identity, and reason where available.
 
----
+______________________________________________________________________
 
-# 87. Audit Questions
+## 87. Audit Questions
 
 A manifest audit SHOULD be able to answer:
 
 1. Which capabilities exist?
-2. Which are placeholders?
-3. Which have implementations?
-4. Which have executed evidence?
-5. Which are validated?
-6. Under what scope?
-7. Under what regime?
-8. Which are stale?
-9. Which are revoked?
-10. Which are quarantined?
-11. Who provides them?
-12. What do they depend on?
-13. Which policies govern them?
-14. Which control planes govern them?
-15. Which can create persistent effects?
-16. Which can communicate externally?
-17. Which require commit authority?
-18. Which have unresolved critical gaps?
-19. Which entries share evidence ancestry?
-20. Which capabilities have supersession conflicts?
+1. Which are placeholders?
+1. Which have implementations?
+1. Which have executed evidence?
+1. Which are validated?
+1. Under what scope?
+1. Under what regime?
+1. Which are stale?
+1. Which are revoked?
+1. Which are quarantined?
+1. Who provides them?
+1. What do they depend on?
+1. Which policies govern them?
+1. Which control planes govern them?
+1. Which can create persistent effects?
+1. Which can communicate externally?
+1. Which require commit authority?
+1. Which have unresolved critical gaps?
+1. Which entries share evidence ancestry?
+1. Which capabilities have supersession conflicts?
 
----
+______________________________________________________________________
 
-# 88. Minimum Active Entry
+## 88. Minimum Active Entry
 
 A capability SHOULD NOT become `GOVERNED_ACTIVE` without at least:
 
@@ -2811,9 +2814,9 @@ minimum_active_entry:
     checked_at: required
 ```
 
----
+______________________________________________________________________
 
-# 89. Example Read-Only Capability
+## 89. Example Read-Only Capability
 
 ```yaml
 capability:
@@ -2909,9 +2912,9 @@ capability:
 
 This example is intentionally unvalidated.
 
----
+______________________________________________________________________
 
-# 90. Example Persistent-Write Capability
+## 90. Example Persistent-Write Capability
 
 ```yaml
 capability:
@@ -2990,9 +2993,9 @@ Again:
 manifest declaration != operational permission
 ```
 
----
+______________________________________________________________________
 
-# 91. RSCF Completion State
+## 91. RSCF Completion State
 
 ```yaml
 claim_class: MODEL
@@ -3069,9 +3072,9 @@ confidence_ceiling:
   executed_validation: 0.00
 ```
 
----
+______________________________________________________________________
 
-# 92. Current Completion State
+## 92. Current Completion State
 
 ```yaml
 completion:
@@ -3094,9 +3097,9 @@ completion:
   canon_approval: UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 93. Hard Boundary Block
+## 93. Hard Boundary Block
 
 ```text
 MANIFEST != RUNTIME
@@ -3134,9 +3137,9 @@ CORRELATED_EVIDENCE != INDEPENDENT_CONFIRMATION
 MODEL != EMPIRICAL_FACT
 ```
 
----
+______________________________________________________________________
 
-# 94. Canon Boundary
+## 94. Canon Boundary
 
 Trang Phan remains the origin architect / steward of AMOS.
 
@@ -3173,9 +3176,9 @@ generated MODEL
 
 subject to version, scope, and supersession resolution.
 
----
+______________________________________________________________________
 
-# 95. Final Manifest Law
+## 95. Final Manifest Law
 
 The AMOS Capability Manifest SHALL preserve the following rule:
 
@@ -3225,29 +3228,33 @@ UNKNOWN/GAP
 
 until evidence, authority, or governance resolves it.
 
----
+______________________________________________________________________
 
-# END — CAPABILITY_MANIFEST.md
+## END — CAPABILITY_MANIFEST.md
 
 ```
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: capability_manifest
 node_type: note
 path: 03_CONTROL_PLANE/02_CAPABILITY/CAPABILITY_MANIFEST.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[03_CONTROL_PLANE/02_CAPABILITY/02_CAPABILITY_MOC|02_CAPABILITY_MOC]]

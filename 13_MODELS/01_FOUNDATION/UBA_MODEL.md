@@ -1,9 +1,9 @@
 ---
 title: UBA Model
 aliases:
-- UBA
-- UBA MODEL
-- UBA Foundation Model
+  - UBA
+  - UBA MODEL
+  - UBA Foundation Model
 type: model
 source: 13_MODELS/01_FOUNDATION
 artifact: UBA_MODEL.md
@@ -35,82 +35,82 @@ source_resolution:
   uba_empirical_validation: NOT_ESTABLISHED
   action: PRESERVE_PLACEHOLDER_AND_DO_NOT_INVENT
 tags:
-- amos-os
-- amos
-- trang
-- trang_phan
-- uba
-- uba_model
-- foundation
-- foundation_model
-- 01_foundation
-- model
-- specification
-- architecture
-- canon/model
-- canon/universe
-- canon_placeholder
-- placeholder
-- placeholder_expanded
-- source_claim
-- amos_model
-- rscf
-- provenance
-- provenance_topology
-- provenance_independence
-- epistemic_regime
-- epistemic_class
-- scope
-- regime
-- freshness
-- confidence_ceiling
-- falsifier
-- sensitivity
-- competing_hypotheses
-- causal_firewall
-- scope_firewall
-- regime_firewall
-- scale_firewall
-- temporal_firewall
-- model_observation_firewall
-- fail_closed
-- unknown_gap
-- add_only
-- canon_ingestion
-- native_canon_required
-- promotion_gate
-- validation
-- validation_receipt
-- dependency_closure
-- selective_invalidation
-- rollback
-- rollback_basin
-- authority
-- authorization
-- capability
-- proposal
-- commit
-- state_version
-- causal_epoch
-- policy_epoch
-- provenance_epoch
-- HML
-- fractal_runtime
-- atomic_reasoning
-- proof_capsule
-- integrity
-- anti_fabrication
-- heritage_preservation
-- source_lineage
-- source_resolution
-- gap_registry
-- canon_candidate
-- model_registry
-- models_plane
-- readme
-- law-hierarchy
-- routing-policy-validation-receipt
-- authz-engine-validation-receipt
+  - amos-os
+  - amos
+  - trang
+  - trang_phan
+  - uba
+  - uba_model
+  - foundation
+  - foundation_model
+  - 01_foundation
+  - model
+  - specification
+  - architecture
+  - canon/model
+  - canon/universe
+  - canon_placeholder
+  - placeholder
+  - placeholder_expanded
+  - source_claim
+  - amos_model
+  - rscf
+  - provenance
+  - provenance_topology
+  - provenance_independence
+  - epistemic_regime
+  - epistemic_class
+  - scope
+  - regime
+  - freshness
+  - confidence_ceiling
+  - falsifier
+  - sensitivity
+  - competing_hypotheses
+  - causal_firewall
+  - scope_firewall
+  - regime_firewall
+  - scale_firewall
+  - temporal_firewall
+  - model_observation_firewall
+  - fail_closed
+  - unknown_gap
+  - add_only
+  - canon_ingestion
+  - native_canon_required
+  - promotion_gate
+  - validation
+  - validation_receipt
+  - dependency_closure
+  - selective_invalidation
+  - rollback
+  - rollback_basin
+  - authority
+  - authorization
+  - capability
+  - proposal
+  - commit
+  - state_version
+  - causal_epoch
+  - policy_epoch
+  - provenance_epoch
+  - HML
+  - fractal_runtime
+  - atomic_reasoning
+  - proof_capsule
+  - integrity
+  - anti_fabrication
+  - heritage_preservation
+  - source_lineage
+  - source_resolution
+  - gap_registry
+  - canon_candidate
+  - model_registry
+  - models_plane
+  - readme
+  - law-hierarchy
+  - routing-policy-validation-receipt
+  - authz-engine-validation-receipt
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -136,22 +136,21 @@ gaps:
   artifact_specific_validation_receipt: NOT_ESTABLISHED
 ---
 
-> [!note] Source resolution
->
+> [!NOTE] Source resolution
 > I checked the available AMOS corpus layer for an explicit `UBA` definition and did **not** find a source-supported expansion of the acronym or a native UBA law/equation set. So the full version below expands the artifact's **governance, model contract, RSCF, provenance, validation, ingestion, scope, and promotion semantics** without inventing what `UBA` stands for. Its substantive UBA ontology remains an explicit `UNKNOWN/GAP` until a native source is identified.
 
 # UBA Model
 
-> [!abstract] Artifact Position
+> [!ABSTRACT] Artifact Position
 > `UBA_MODEL.md` reserves and governs the **UBA Model** slot in `13_MODELS/01_FOUNDATION`.
 >
 > The existence of the slot is source-supported by the supplied AMOS artifact context. However, the presently available source layer does **not** establish what `UBA` expands to, its native ontology, equations, laws, schema, or executable implementation.
 >
 > Therefore this artifact remains **PLACEHOLDER_EXPANDED / AMOS_MODEL / UNKNOWN/GAP** rather than inventing missing UBA canon.
 
----
+______________________________________________________________________
 
-# 0. Canonical Status
+## 0. Canonical Status
 
 `UBA_MODEL.md` is an **ADD-ONLY placeholder-expanded artifact** for the Models plane at:
 
@@ -195,9 +194,9 @@ The artifact reserves an addressable canonical slot.
 
 It does not establish substantive UBA canon.
 
----
+______________________________________________________________________
 
-# 1. Origin
+## 1. Origin
 
 Origin architect / steward:
 
@@ -209,9 +208,9 @@ System:
 
 This artifact preserves that attribution and does not claim independent authorship.
 
----
+______________________________________________________________________
 
-# 2. Source Resolution Status
+## 2. Source Resolution Status
 
 The currently available source layer does not establish a native definition for `UBA`.
 
@@ -257,9 +256,9 @@ UBA_NATIVE_RUNTIME
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 3. Anti-Fabrication Boundary
+## 3. Anti-Fabrication Boundary
 
 The missing acronym expansion MUST NOT be filled by guessing.
 
@@ -281,9 +280,9 @@ Universal ______ Architecture
 
 unless a native source establishes that expansion.
 
----
+______________________________________________________________________
 
-# 4. Identifier ≠ Definition
+## 4. Identifier ≠ Definition
 
 The corpus-level existence of the name:
 
@@ -303,9 +302,9 @@ It does **not** support:
 WE KNOW WHAT UBA MEANS
 ```
 
----
+______________________________________________________________________
 
-# 5. Placeholder ≠ Empty Value
+## 5. Placeholder ≠ Empty Value
 
 The placeholder has governance value even while substantive semantics remain unresolved.
 
@@ -324,9 +323,9 @@ It preserves:
 - anti-duplication rules;
 - uncertainty state.
 
----
+______________________________________________________________________
 
-# 6. Purpose
+## 6. Purpose
 
 The purpose of this artifact is to reserve and govern the **UBA Model** canonical slot until native source material can be ingested.
 
@@ -348,9 +347,9 @@ CANON REVIEW
 
 without inventing intermediate content.
 
----
+______________________________________________________________________
 
-# 7. Non-Purpose
+## 7. Non-Purpose
 
 This artifact MUST NOT be used to claim:
 
@@ -372,9 +371,9 @@ This artifact MUST NOT be used to claim:
 - empirical validation;
 - authority from architectural placement.
 
----
+______________________________________________________________________
 
-# 8. Governing Integrity Boundary
+## 8. Governing Integrity Boundary
 
 ```text
 PLACEHOLDER != IMPLEMENTED
@@ -416,9 +415,9 @@ TEST_PASS != TRUTH
 UNKNOWN/GAP != PASS
 ```
 
----
+______________________________________________________________________
 
-# 9. Strongest Supported Claim
+## 9. Strongest Supported Claim
 
 The strongest presently supported substantive claim is:
 
@@ -438,9 +437,9 @@ SOURCE_CLAIM
 
 for the supplied artifact declaration.
 
----
+______________________________________________________________________
 
-# 10. Unsupported Claims
+## 10. Unsupported Claims
 
 The following remain unsupported:
 
@@ -464,9 +463,9 @@ The following remain unsupported:
 "UBA is empirically correct"
 ```
 
----
+______________________________________________________________________
 
-# 11. Epistemic Classes
+## 11. Epistemic Classes
 
 AMOS preserves four discrete knowledge classes:
 
@@ -480,9 +479,9 @@ DERIVED
 MODEL
 ```
 
----
+______________________________________________________________________
 
-# 12. SOURCE_CLAIM
+## 12. SOURCE_CLAIM
 
 The supplied artifact establishes source-level statements such as:
 
@@ -500,9 +499,9 @@ system = AMOS OS
 
 These are preserved as source claims.
 
----
+______________________________________________________________________
 
-# 13. OBSERVATION
+## 13. OBSERVATION
 
 No empirical UBA observation set is established by this placeholder.
 
@@ -514,9 +513,9 @@ UBA_OBSERVATION_SET
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 14. DERIVED
+## 14. DERIVED
 
 From the supplied metadata it is reasonable to derive:
 
@@ -535,9 +534,9 @@ because its declared path is:
 
 This is a structural derivation from metadata, not a substantive definition of UBA.
 
----
+______________________________________________________________________
 
-# 15. MODEL
+## 15. MODEL
 
 The artifact is typed:
 
@@ -549,9 +548,9 @@ at node level.
 
 That classification does not imply the substantive model body is presently known.
 
----
+______________________________________________________________________
 
-# 16. Artifact-Level vs Claim-Level Classification
+## 16. Artifact-Level vs Claim-Level Classification
 
 Preserve the distinction:
 
@@ -579,9 +578,9 @@ SOURCE_CLAIM
 
 These fields describe different surfaces and should not be silently collapsed.
 
----
+______________________________________________________________________
 
-# 17. Conclusion Classes
+## 17. Conclusion Classes
 
 Downstream UBA conclusions may eventually be classified:
 
@@ -601,9 +600,9 @@ UNKNOWN/GAP
 
 Use the weakest accurate class.
 
----
+______________________________________________________________________
 
-# 18. Current Conclusion Class
+## 18. Current Conclusion Class
 
 For substantive UBA semantics:
 
@@ -613,9 +612,9 @@ UNKNOWN/GAP
 
 is currently the strongest accurate state.
 
----
+______________________________________________________________________
 
-# 19. UNKNOWN/GAP Is Positive Integrity State
+## 19. UNKNOWN/GAP Is Positive Integrity State
 
 `UNKNOWN/GAP` means:
 
@@ -637,9 +636,9 @@ FAILURE
 IRRELEVANT
 ```
 
----
+______________________________________________________________________
 
-# 20. Gap Preservation
+## 20. Gap Preservation
 
 A missing UBA definition must remain visible.
 
@@ -656,9 +655,9 @@ UBA native definition:
 <plausible invented framework>
 ```
 
----
+______________________________________________________________________
 
-# 21. Canon Ingestion Rule
+## 21. Canon Ingestion Rule
 
 ```yaml
 AMOS_CANON_INGESTION_RULE:
@@ -704,9 +703,9 @@ AMOS_CANON_INGESTION_RULE:
       - NEVER_INVENT_CANON
 ```
 
----
+______________________________________________________________________
 
-# 22. UBA-Specific Ingestion Rule
+## 22. UBA-Specific Ingestion Rule
 
 ```yaml
 UBA_INGESTION:
@@ -744,9 +743,9 @@ UBA_INGESTION:
       - PRESERVE_UNKNOWN_GAP
 ```
 
----
+______________________________________________________________________
 
-# 23. ADD-ONLY
+## 23. ADD-ONLY
 
 Current ingestion policy:
 
@@ -756,9 +755,9 @@ ADD_ONLY
 
 means existing canonical material must not be destructively replaced merely to incorporate newly discovered UBA material.
 
----
+______________________________________________________________________
 
-# 24. Existing File Preservation
+## 24. Existing File Preservation
 
 ```text
 EXISTING_FILE
@@ -768,9 +767,9 @@ PRESERVE
 
 unless an explicit governed mutation authorizes otherwise.
 
----
+______________________________________________________________________
 
-# 25. Duplicate Filename
+## 25. Duplicate Filename
 
 If another:
 
@@ -795,9 +794,9 @@ First compare:
 - historical position;
 - semantic compatibility.
 
----
+______________________________________________________________________
 
-# 26. Duplicate Name ≠ Duplicate Framework
+## 26. Duplicate Name ≠ Duplicate Framework
 
 Two artifacts named `UBA` may represent:
 
@@ -812,9 +811,9 @@ name collision
 
 The name alone does not decide identity.
 
----
+______________________________________________________________________
 
-# 27. Same Acronym ≠ Same Semantics
+## 27. Same Acronym ≠ Same Semantics
 
 ```text
 UBA
@@ -824,9 +823,9 @@ UBA
 
 at the string level does not prove semantic identity across sources.
 
----
+______________________________________________________________________
 
-# 28. Framework Identity Contract
+## 28. Framework Identity Contract
 
 A discovered source should bind at least:
 
@@ -849,9 +848,9 @@ UBA_FRAMEWORK_IDENTITY:
 
 Unknown fields remain `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
-# 29. Native Source Requirement
+## 29. Native Source Requirement
 
 Substantive promotion requires a source that actually defines UBA.
 
@@ -863,9 +862,9 @@ UBA
 
 does not necessarily satisfy this requirement.
 
----
+______________________________________________________________________
 
-# 30. Mention ≠ Definition
+## 30. Mention ≠ Definition
 
 ```text
 SOURCE MENTIONS UBA
@@ -873,9 +872,9 @@ SOURCE MENTIONS UBA
 SOURCE DEFINES UBA
 ```
 
----
+______________________________________________________________________
 
-# 31. Definition ≠ Full Specification
+## 31. Definition ≠ Full Specification
 
 ```text
 SOURCE DEFINES UBA
@@ -883,9 +882,9 @@ SOURCE DEFINES UBA
 SOURCE FULLY SPECIFIES UBA
 ```
 
----
+______________________________________________________________________
 
-# 32. Specification ≠ Implementation
+## 32. Specification ≠ Implementation
 
 ```text
 UBA SPECIFICATION
@@ -893,9 +892,9 @@ UBA SPECIFICATION
 UBA EXECUTABLE IMPLEMENTATION
 ```
 
----
+______________________________________________________________________
 
-# 33. Implementation ≠ Validation
+## 33. Implementation ≠ Validation
 
 ```text
 UBA IMPLEMENTATION
@@ -903,9 +902,9 @@ UBA IMPLEMENTATION
 UBA VALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 34. Validation ≠ Empirical Truth
+## 34. Validation ≠ Empirical Truth
 
 ```text
 UBA VALIDATION RECEIPT
@@ -915,9 +914,9 @@ UNIVERSAL EMPIRICAL TRUTH
 
 A receipt proves only what its test scope licenses.
 
----
+______________________________________________________________________
 
-# 35. Model Plane Role
+## 35. Model Plane Role
 
 The Models plane governs representations rather than observations themselves.
 
@@ -933,9 +932,9 @@ must remain distinguishable from:
 OBSERVED STATE
 ```
 
----
+______________________________________________________________________
 
-# 36. Model-Observation Firewall
+## 36. Model-Observation Firewall
 
 ```text
 UBA_MODEL_OUTPUT
@@ -945,9 +944,9 @@ OBSERVATION
 
 unless an observation artifact independently records the relevant phenomenon.
 
----
+______________________________________________________________________
 
-# 37. Prediction ≠ Observation
+## 37. Prediction ≠ Observation
 
 Future UBA prediction:
 
@@ -963,9 +962,9 @@ OBSERVED_X
 
 without evidence.
 
----
+______________________________________________________________________
 
-# 38. Explanation ≠ Observation
+## 38. Explanation ≠ Observation
 
 Likewise:
 
@@ -979,15 +978,15 @@ is not equivalent to:
 X_WAS_OBSERVED
 ```
 
----
+______________________________________________________________________
 
-# 39. Observation ≠ Explanation
+## 39. Observation ≠ Explanation
 
 An observation alone also does not prove UBA explains it.
 
----
+______________________________________________________________________
 
-# 40. Fit ≠ Causation
+## 40. Fit ≠ Causation
 
 Even if a future UBA model fits observations:
 
@@ -997,9 +996,9 @@ MODEL_FIT
 CAUSAL_PROOF
 ```
 
----
+______________________________________________________________________
 
-# 41. Causal Firewall
+## 41. Causal Firewall
 
 Any future UBA content must distinguish:
 
@@ -1025,9 +1024,9 @@ feedback
 causal effect
 ```
 
----
+______________________________________________________________________
 
-# 42. Structural Similarity ≠ Causation
+## 42. Structural Similarity ≠ Causation
 
 ```text
 STRUCTURE A
@@ -1041,9 +1040,9 @@ does not establish:
 A CAUSED B
 ```
 
----
+______________________________________________________________________
 
-# 43. Temporal Order ≠ Causation
+## 43. Temporal Order ≠ Causation
 
 ```text
 A BEFORE B
@@ -1055,9 +1054,9 @@ does not establish:
 A CAUSED B
 ```
 
----
+______________________________________________________________________
 
-# 44. Co-Occurrence ≠ Causation
+## 44. Co-Occurrence ≠ Causation
 
 ```text
 A WITH B
@@ -1069,9 +1068,9 @@ does not establish:
 A CAUSED B
 ```
 
----
+______________________________________________________________________
 
-# 45. Analogy ≠ Mechanism
+## 45. Analogy ≠ Mechanism
 
 ```text
 A RESEMBLES B
@@ -1079,15 +1078,15 @@ A RESEMBLES B
 
 does not establish shared mechanism.
 
----
+______________________________________________________________________
 
-# 46. Scope Firewall
+## 46. Scope Firewall
 
 Any future UBA claim must inherit an applicability envelope.
 
----
+______________________________________________________________________
 
-# 47. Scope Envelope
+## 47. Scope Envelope
 
 ```yaml
 UBA_SCOPE:
@@ -1101,9 +1100,9 @@ UBA_SCOPE:
   assumptions:
 ```
 
----
+______________________________________________________________________
 
-# 48. Missing Scope
+## 48. Missing Scope
 
 If a consequential UBA claim lacks required scope:
 
@@ -1117,9 +1116,9 @@ UNKNOWN/GAP
 
 depending on severity.
 
----
+______________________________________________________________________
 
-# 49. Scope Leakage
+## 49. Scope Leakage
 
 Invalid:
 
@@ -1129,9 +1128,9 @@ THEREFORE
 VALID EVERYWHERE
 ```
 
----
+______________________________________________________________________
 
-# 50. Cross-Domain Mapping
+## 50. Cross-Domain Mapping
 
 Any future mapping:
 
@@ -1143,9 +1142,9 @@ UBA_DOMAIN_B
 
 remains `MODEL` until independently validated.
 
----
+______________________________________________________________________
 
-# 51. Domain Bridge Contract
+## 51. Domain Bridge Contract
 
 ```yaml
 UBA_DOMAIN_BRIDGE:
@@ -1162,15 +1161,15 @@ UBA_DOMAIN_BRIDGE:
   falsifiers:
 ```
 
----
+______________________________________________________________________
 
-# 52. Scale Firewall
+## 52. Scale Firewall
 
 Any future UBA cross-scale mapping must preserve relevant invariants.
 
----
+______________________________________________________________________
 
-# 53. Scale Levels
+## 53. Scale Levels
 
 AMOS can represent:
 
@@ -1190,9 +1189,9 @@ LOCAL DETAIL
 
 These are AMOS runtime semantics, not currently established as native UBA doctrine.
 
----
+______________________________________________________________________
 
-# 54. UBA + H/M/L
+## 54. UBA + H/M/L
 
 Until native UBA scale semantics are discovered:
 
@@ -1208,9 +1207,9 @@ not:
 NATIVE_UBA_LAW
 ```
 
----
+______________________________________________________________________
 
-# 55. H-Level Placeholder
+## 55. H-Level Placeholder
 
 ```yaml
 UBA_H:
@@ -1218,9 +1217,9 @@ UBA_H:
   native_semantics: UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 56. M-Level Placeholder
+## 56. M-Level Placeholder
 
 ```yaml
 UBA_M:
@@ -1228,9 +1227,9 @@ UBA_M:
   native_semantics: UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 57. L-Level Placeholder
+## 57. L-Level Placeholder
 
 ```yaml
 UBA_L:
@@ -1238,9 +1237,9 @@ UBA_L:
   native_semantics: UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 58. Fractal Retrieval
+## 58. Fractal Retrieval
 
 When substantive UBA material becomes available, retrieve:
 
@@ -1258,9 +1257,9 @@ RAW EVIDENCE
 
 only as far as necessary.
 
----
+______________________________________________________________________
 
-# 59. Raw Evidence Rule
+## 59. Raw Evidence Rule
 
 ```text
 RAW EVIDENCE
@@ -1268,21 +1267,21 @@ RAW EVIDENCE
 DO_NOT_LOAD_UNLESS_REQUIRED
 ```
 
----
+______________________________________________________________________
 
-# 60. Dependency-Driven Retrieval
+## 60. Dependency-Driven Retrieval
 
 Retrieve only dependencies capable of materially altering the conclusion.
 
----
+______________________________________________________________________
 
-# 61. Regime Firewall
+## 61. Regime Firewall
 
 Future UBA claims must declare the regime in which they apply.
 
----
+______________________________________________________________________
 
-# 62. Regime ≠ Epistemic Class
+## 62. Regime ≠ Epistemic Class
 
 A regime describes applicability conditions.
 
@@ -1290,9 +1289,9 @@ An epistemic class describes knowledge type.
 
 Do not collapse them.
 
----
+______________________________________________________________________
 
-# 63. Current Regime
+## 63. Current Regime
 
 Current placeholder regime:
 
@@ -1300,15 +1299,15 @@ Current placeholder regime:
 canon_placeholder
 ```
 
----
+______________________________________________________________________
 
-# 64. Placeholder Regime Restriction
+## 64. Placeholder Regime Restriction
 
 Claims valid only because the artifact is a placeholder must not survive unchanged after substantive source ingestion.
 
----
+______________________________________________________________________
 
-# 65. Regime Transition
+## 65. Regime Transition
 
 Potential transition:
 
@@ -1326,9 +1325,9 @@ validated_model
 
 No transition occurs automatically.
 
----
+______________________________________________________________________
 
-# 66. State Transition Requires Evidence
+## 66. State Transition Requires Evidence
 
 ```text
 PLACEHOLDER
@@ -1338,9 +1337,9 @@ SOURCE_POPULATED
 
 requires actual source content.
 
----
+______________________________________________________________________
 
-# 67. Source-Populated ≠ Canonical
+## 67. Source-Populated ≠ Canonical
 
 ```text
 SOURCE_POPULATED
@@ -1348,9 +1347,9 @@ SOURCE_POPULATED
 CANONICAL
 ```
 
----
+______________________________________________________________________
 
-# 68. Canon Candidate ≠ Canonical
+## 68. Canon Candidate ≠ Canonical
 
 ```text
 CANON_CANDIDATE
@@ -1358,9 +1357,9 @@ CANON_CANDIDATE
 CANONICAL
 ```
 
----
+______________________________________________________________________
 
-# 69. Canonical ≠ Empirical Truth
+## 69. Canonical ≠ Empirical Truth
 
 ```text
 CANONICAL
@@ -1368,21 +1367,21 @@ CANONICAL
 EMPIRICAL_TRUTH
 ```
 
----
+______________________________________________________________________
 
-# 70. Freshness
+## 70. Freshness
 
 Any future UBA source must carry temporal validity where relevant.
 
----
+______________________________________________________________________
 
-# 71. Source Date ≠ Validity Date
+## 71. Source Date ≠ Validity Date
 
 A source creation date does not necessarily establish how long its claims remain valid.
 
----
+______________________________________________________________________
 
-# 72. Latest ≠ Correct
+## 72. Latest ≠ Correct
 
 ```text
 NEWEST VERSION
@@ -1390,15 +1389,15 @@ NEWEST VERSION
 AUTOMATICALLY MOST CORRECT VERSION
 ```
 
----
+______________________________________________________________________
 
-# 73. Older ≠ Invalid
+## 73. Older ≠ Invalid
 
 Historical sources may preserve concepts removed, renamed, or superseded later.
 
----
+______________________________________________________________________
 
-# 74. Heritage Preservation
+## 74. Heritage Preservation
 
 ```text
 CURRENT
@@ -1408,9 +1407,9 @@ HISTORICAL
 
 should coexist through lineage rather than destructive replacement.
 
----
+______________________________________________________________________
 
-# 75. Version Lineage
+## 75. Version Lineage
 
 Potential lineage structure:
 
@@ -1428,15 +1427,15 @@ Current actual UBA lineage:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 76. Do Not Invent Versions
+## 76. Do Not Invent Versions
 
 No historical UBA version numbers should be created without source support.
 
----
+______________________________________________________________________
 
-# 77. Provenance
+## 77. Provenance
 
 Every future substantive UBA claim should preserve:
 
@@ -1464,9 +1463,9 @@ LICENSE/IP STATUS WHEN MATERIAL
 FALSIFIERS
 ```
 
----
+______________________________________________________________________
 
-# 78. Provenance Independence
+## 78. Provenance Independence
 
 Current state:
 
@@ -1474,9 +1473,9 @@ Current state:
 NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 79. Multiple Sources ≠ Independence
+## 79. Multiple Sources ≠ Independence
 
 If UBA later appears in several AMOS files:
 
@@ -1486,9 +1485,9 @@ N FILES
 N INDEPENDENT SOURCES
 ```
 
----
+______________________________________________________________________
 
-# 80. Shared Ancestry
+## 80. Shared Ancestry
 
 Example:
 
@@ -1502,15 +1501,15 @@ UBA MASTER
 
 These are correlated descendants.
 
----
+______________________________________________________________________
 
-# 81. Sybil-Hardening
+## 81. Sybil-Hardening
 
 Repeated descendants must not multiply confidence as though they were independent evidence.
 
----
+______________________________________________________________________
 
-# 82. Provenance Topology
+## 82. Provenance Topology
 
 Future topology should distinguish:
 
@@ -1524,17 +1523,17 @@ SUMMARY
 
 from genuinely independent sources.
 
----
+______________________________________________________________________
 
-# 83. Source Authority ≠ Empirical Validation
+## 83. Source Authority ≠ Empirical Validation
 
 Even an authoritative native UBA source establishes what UBA says.
 
 It does not automatically establish that UBA is empirically true.
 
----
+______________________________________________________________________
 
-# 84. Documentation Claim
+## 84. Documentation Claim
 
 ```text
 "UBA defines X."
@@ -1548,11 +1547,11 @@ That is different from:
 "X is true in reality."
 ```
 
----
+______________________________________________________________________
 
-# 85. Confidence Ceiling
+## 85. Confidence Ceiling
 
-For derived conclusion \(D\):
+For derived conclusion (D):
 
 $$
 C(D)
@@ -1562,9 +1561,9 @@ $$
 
 across load-bearing premises unless independently revalidated.
 
----
+______________________________________________________________________
 
-# 86. Current Confidence Ceiling
+## 86. Current Confidence Ceiling
 
 Substantive UBA semantics depend on a missing premise:
 
@@ -1584,9 +1583,9 @@ UNKNOWN/GAP
 
 Therefore substantive confidence cannot be promoted.
 
----
+______________________________________________________________________
 
-# 87. Confidence Does Not Come From Detail Volume
+## 87. Confidence Does Not Come From Detail Volume
 
 A longer placeholder does not increase confidence.
 
@@ -1596,9 +1595,9 @@ MORE DOCUMENTATION
 MORE EVIDENCE
 ```
 
----
+______________________________________________________________________
 
-# 88. Confidence Does Not Come From Repetition
+## 88. Confidence Does Not Come From Repetition
 
 ```text
 UBA
@@ -1609,9 +1608,9 @@ UBA
 
 does not increase evidentiary strength.
 
----
+______________________________________________________________________
 
-# 89. Confidence Does Not Come From Architectural Importance
+## 89. Confidence Does Not Come From Architectural Importance
 
 Placement in:
 
@@ -1621,9 +1620,9 @@ Placement in:
 
 does not prove universal foundational validity.
 
----
+______________________________________________________________________
 
-# 90. Foundation Placement Semantics
+## 90. Foundation Placement Semantics
 
 The path indicates organizational placement:
 
@@ -1635,9 +1634,9 @@ The path indicates organizational placement:
 
 It does not establish an ontological claim about reality.
 
----
+______________________________________________________________________
 
-# 91. Foundation ≠ Fundamental Law
+## 91. Foundation ≠ Fundamental Law
 
 ```text
 FOUNDATION_FOLDER
@@ -1645,9 +1644,9 @@ FOUNDATION_FOLDER
 FUNDAMENTAL_LAW_OF_REALITY
 ```
 
----
+______________________________________________________________________
 
-# 92. Canon Universe Tag
+## 92. Canon Universe Tag
 
 The tag:
 
@@ -1659,9 +1658,9 @@ is metadata.
 
 It does not establish a scientifically validated universe theory.
 
----
+______________________________________________________________________
 
-# 93. Tag ≠ Claim
+## 93. Tag ≠ Claim
 
 ```text
 TAG
@@ -1671,9 +1670,9 @@ PROPOSITION
 
 unless the schema explicitly defines it as such.
 
----
+______________________________________________________________________
 
-# 94. Filename ≠ Ontology
+## 94. Filename ≠ Ontology
 
 ```text
 UBA_MODEL.md
@@ -1681,9 +1680,9 @@ UBA_MODEL.md
 
 does not reveal substantive UBA ontology.
 
----
+______________________________________________________________________
 
-# 95. Model Type ≠ Model Contents
+## 95. Model Type ≠ Model Contents
 
 Knowing:
 
@@ -1693,9 +1692,9 @@ artifact_kind = MODEL
 
 does not establish its internal variables, equations, mechanisms, or laws.
 
----
+______________________________________________________________________
 
-# 96. Contract Discipline
+## 96. Contract Discipline
 
 ```text
 TYPED ARTIFACTS
@@ -1713,9 +1712,9 @@ RECEIPTS FOR CONSEQUENTIAL EFFECTS
 ROLLBACK BASIN BEFORE MUTATION
 ```
 
----
+______________________________________________________________________
 
-# 97. Typed Artifact Contract
+## 97. Typed Artifact Contract
 
 ```yaml
 UBA_ARTIFACT_CONTRACT:
@@ -1729,9 +1728,9 @@ UBA_ARTIFACT_CONTRACT:
   status: required
 ```
 
----
+______________________________________________________________________
 
-# 98. Missing Required Field
+## 98. Missing Required Field
 
 If a load-bearing required field cannot be resolved:
 
@@ -1741,9 +1740,9 @@ UNKNOWN/GAP
 
 and fail closed for consequential use.
 
----
+______________________________________________________________________
 
-# 99. Fail-Closed Semantics
+## 99. Fail-Closed Semantics
 
 Fail closed means:
 
@@ -1759,21 +1758,21 @@ DO NOT SILENTLY DEFAULT
 
 when a required premise is unresolved.
 
----
+______________________________________________________________________
 
-# 100. Fail Closed ≠ Delete
+## 100. Fail Closed ≠ Delete
 
 A failed gate does not imply artifact deletion.
 
----
+______________________________________________________________________
 
-# 101. Fail Closed ≠ Global Invalidity
+## 101. Fail Closed ≠ Global Invalidity
 
 One unresolved UBA premise does not invalidate unrelated AMOS models.
 
----
+______________________________________________________________________
 
-# 102. Selective Invalidation
+## 102. Selective Invalidation
 
 ```text
 FAILED PREMISE
@@ -1785,9 +1784,9 @@ are invalidated.
 
 Unaffected branches remain valid.
 
----
+______________________________________________________________________
 
-# 103. Dependency Closure
+## 103. Dependency Closure
 
 For a conclusion:
 
@@ -1803,15 +1802,15 @@ identify the smallest set:
 
 whose validity can change `C`.
 
----
+______________________________________________________________________
 
-# 104. Smallest Sufficient Proof
+## 104. Smallest Sufficient Proof
 
 Do not require the entire AMOS corpus to answer a local UBA question if a smaller dependency closure is sufficient.
 
----
+______________________________________________________________________
 
-# 105. Local Reasoning
+## 105. Local Reasoning
 
 Local reasoning is permitted only when:
 
@@ -1841,9 +1840,9 @@ CONFLICT
 ABSENT
 ```
 
----
+______________________________________________________________________
 
-# 106. Independence Must Be Demonstrated
+## 106. Independence Must Be Demonstrated
 
 ```text
 NO VISIBLE CONFLICT
@@ -1851,9 +1850,9 @@ NO VISIBLE CONFLICT
 INDEPENDENCE
 ```
 
----
+______________________________________________________________________
 
-# 107. Atomic Reasoning
+## 107. Atomic Reasoning
 
 Future UBA conclusions should decompose into individually checkable claims.
 
@@ -1873,9 +1872,9 @@ C5 — scope Q is compatible
 C6 — no stronger conflicting source supersedes X
 ```
 
----
+______________________________________________________________________
 
-# 108. Atomic Multi-RSCF Reasoning
+## 108. Atomic Multi-RSCF Reasoning
 
 If several nodes support a UBA conclusion:
 
@@ -1889,9 +1888,9 @@ RSCF_C
 
 preserve each dependency rather than flattening them into one unsupported claim.
 
----
+______________________________________________________________________
 
-# 109. Proof Capsule
+## 109. Proof Capsule
 
 Important future UBA conclusions should carry:
 
@@ -1913,9 +1912,9 @@ UBA_PROOF_CAPSULE:
   confidence_ceiling:
 ```
 
----
+______________________________________________________________________
 
-# 110. Current Placeholder Proof Capsule
+## 110. Current Placeholder Proof Capsule
 
 ```yaml
 UBA_PLACEHOLDER_PROOF:
@@ -1957,9 +1956,9 @@ UBA_PLACEHOLDER_PROOF:
     canonical_status: UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 111. Competing Hypotheses
+## 111. Competing Hypotheses
 
 If multiple UBA definitions are discovered:
 
@@ -1977,9 +1976,9 @@ H5 — one source is derived or erroneous
 
 must remain visible until discriminating evidence exists.
 
----
+______________________________________________________________________
 
-# 112. Do Not Vote by Frequency
+## 112. Do Not Vote by Frequency
 
 If:
 
@@ -1995,9 +1994,9 @@ support H1 while:
 
 supports H2, source topology matters more than raw count.
 
----
+______________________________________________________________________
 
-# 113. Cheapest Discriminating Evidence
+## 113. Cheapest Discriminating Evidence
 
 For conflicting UBA definitions, prioritize:
 
@@ -2013,15 +2012,15 @@ HASHED HISTORICAL ARTIFACT
 
 over additional derivative summaries.
 
----
+______________________________________________________________________
 
-# 114. Sensitivity
+## 114. Sensitivity
 
 For any consequential UBA conclusion identify the smallest premise that can flip it.
 
----
+______________________________________________________________________
 
-# 115. Current Highest-Sensitivity Premise
+## 115. Current Highest-Sensitivity Premise
 
 For substantive population of this file:
 
@@ -2031,9 +2030,9 @@ NATIVE UBA SOURCE IDENTITY
 
 is the dominant decision-changing uncertainty.
 
----
+______________________________________________________________________
 
-# 116. Sensitivity Result
+## 116. Sensitivity Result
 
 Until that premise is resolved:
 
@@ -2043,9 +2042,9 @@ SUBSTANTIVE UBA ONTOLOGY
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 117. Adversarial Validation
+## 117. Adversarial Validation
 
 Before promoting a future UBA source, challenge:
 
@@ -2077,9 +2076,9 @@ Are equations being treated as empirical laws?
 Is documentation being treated as validation?
 ```
 
----
+______________________________________________________________________
 
-# 118. Native Canon Test
+## 118. Native Canon Test
 
 A candidate source should satisfy:
 
@@ -2093,9 +2092,9 @@ UBA_NATIVE_CANON_TEST:
   semantic_context_present: required
 ```
 
----
+______________________________________________________________________
 
-# 119. Candidate Source Failure
+## 119. Candidate Source Failure
 
 If a source only contains:
 
@@ -2111,9 +2110,9 @@ NATIVE_DEFINITION
 NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 120. Source Promotion
+## 120. Source Promotion
 
 Potential progression:
 
@@ -2135,9 +2134,9 @@ CANON CANDIDATE
 CANON REVIEW
 ```
 
----
+______________________________________________________________________
 
-# 121. Canon Promotion ≠ Empirical Promotion
+## 121. Canon Promotion ≠ Empirical Promotion
 
 Separate:
 
@@ -2151,9 +2150,9 @@ from:
 EMPIRICAL VALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 122. Canon Promotion Question
+## 122. Canon Promotion Question
 
 Canon promotion asks:
 
@@ -2161,9 +2160,9 @@ Canon promotion asks:
 IS THIS THE AUTHORITATIVE AMOS/UBA MODEL?
 ```
 
----
+______________________________________________________________________
 
-# 123. Empirical Validation Question
+## 123. Empirical Validation Question
 
 Empirical validation asks:
 
@@ -2173,9 +2172,9 @@ MATCH INDEPENDENT OBSERVATION
 WITHIN DECLARED SCOPE?
 ```
 
----
+______________________________________________________________________
 
-# 124. Formal Validation Question
+## 124. Formal Validation Question
 
 Formal validation asks:
 
@@ -2184,9 +2183,9 @@ DO FORMAL CLAIMS FOLLOW
 FROM DECLARED AXIOMS/RULES?
 ```
 
----
+______________________________________________________________________
 
-# 125. Runtime Validation Question
+## 125. Runtime Validation Question
 
 Runtime validation asks:
 
@@ -2196,9 +2195,9 @@ SATISFY THE SPECIFICATION
 UNDER TESTED CONDITIONS?
 ```
 
----
+______________________________________________________________________
 
-# 126. Four Validation Surfaces
+## 126. Four Validation Surfaces
 
 ```text
 CANON VALIDITY
@@ -2212,9 +2211,9 @@ IMPLEMENTATION VALIDITY
 
 must remain separate.
 
----
+______________________________________________________________________
 
-# 127. Current Validation State
+## 127. Current Validation State
 
 ```yaml
 UBA_VALIDATION:
@@ -2224,9 +2223,9 @@ UBA_VALIDATION:
   implementation: NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 128. Validation Receipt Boundary
+## 128. Validation Receipt Boundary
 
 Existing receipts:
 
@@ -2240,9 +2239,9 @@ may demonstrate validation patterns elsewhere in AMOS.
 
 They do **not** validate UBA itself.
 
----
+______________________________________________________________________
 
-# 129. Receipt Scope Firewall
+## 129. Receipt Scope Firewall
 
 ```text
 RECEIPT FOR SYSTEM A
@@ -2250,9 +2249,9 @@ RECEIPT FOR SYSTEM A
 VALIDATION OF UBA
 ```
 
----
+______________________________________________________________________
 
-# 130. Artifact-Specific Receipt
+## 130. Artifact-Specific Receipt
 
 Promotion requires:
 
@@ -2264,19 +2263,9 @@ VALIDATION RECEIPT
 
 for any claimed executable contract.
 
----
+______________________________________________________________________
 
-# 131. Runtime Enforcement
-
-Current state:
-
-```text
-NOT_ESTABLISHED
-```
-
----
-
-# 132. Executable Binding
+## 131. Runtime Enforcement
 
 Current state:
 
@@ -2284,9 +2273,19 @@ Current state:
 NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 133. Schema Binding
+## 132. Executable Binding
+
+Current state:
+
+```text
+NOT_ESTABLISHED
+```
+
+______________________________________________________________________
+
+## 133. Schema Binding
 
 Current native UBA schema:
 
@@ -2294,9 +2293,9 @@ Current native UBA schema:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 134. Normalized Wrapper ≠ Native Schema
+## 134. Normalized Wrapper ≠ Native Schema
 
 Any schema created in this artifact for governance is:
 
@@ -2310,9 +2309,9 @@ not:
 NATIVE_UBA_SCHEMA
 ```
 
----
+______________________________________________________________________
 
-# 135. Proposed Normalized UBA Record
+## 135. Proposed Normalized UBA Record
 
 ```yaml
 UBA_MODEL_RECORD:
@@ -2336,9 +2335,9 @@ UBA_MODEL_RECORD:
   status:
 ```
 
----
+______________________________________________________________________
 
-# 136. Unknown Fields Stay Unknown
+## 136. Unknown Fields Stay Unknown
 
 Example:
 
@@ -2352,15 +2351,15 @@ UBA_MODEL_RECORD:
 
 This is valid.
 
----
+______________________________________________________________________
 
-# 137. Schema Completeness ≠ Knowledge Completeness
+## 137. Schema Completeness ≠ Knowledge Completeness
 
 A fully specified metadata schema does not mean the framework itself is known.
 
----
+______________________________________________________________________
 
-# 138. Worked Semantics — Admit
+## 138. Worked Semantics — Admit
 
 Given an operation touching:
 
@@ -2376,9 +2375,9 @@ artifact_id
 version
 ```
 
----
+______________________________________________________________________
 
-# 139. Unresolved Identity
+## 139. Unresolved Identity
 
 If artifact identity cannot be resolved:
 
@@ -2388,9 +2387,9 @@ UNKNOWN/GAP
 HOLD
 ```
 
----
+______________________________________________________________________
 
-# 140. Worked Semantics — Bind Scope
+## 140. Worked Semantics — Bind Scope
 
 Declare:
 
@@ -2408,9 +2407,9 @@ MODEL VERSION
 
 before consequential use.
 
----
+______________________________________________________________________
 
-# 141. Worked Semantics — Check Authority
+## 141. Worked Semantics — Check Authority
 
 An:
 
@@ -2420,9 +2419,9 @@ authority_ref
 
 must be epoch-valid.
 
----
+______________________________________________________________________
 
-# 142. Capability ≠ Authority
+## 142. Capability ≠ Authority
 
 ```text
 CAN EDIT FILE
@@ -2430,15 +2429,15 @@ CAN EDIT FILE
 AUTHORIZED TO PROMOTE CANON
 ```
 
----
+______________________________________________________________________
 
-# 143. Worked Semantics — Validate Preconditions
+## 143. Worked Semantics — Validate Preconditions
 
 Traverse only the smallest result-changing dependency closure.
 
----
+______________________________________________________________________
 
-# 144. Worked Semantics — Propose
+## 144. Worked Semantics — Propose
 
 Candidate mutation:
 
@@ -2448,9 +2447,9 @@ PROPOSAL
 
 remains non-authoritative.
 
----
+______________________________________________________________________
 
-# 145. Proposal ≠ Commit
+## 145. Proposal ≠ Commit
 
 ```text
 PROPOSAL
@@ -2458,9 +2457,9 @@ PROPOSAL
 COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 146. Worked Semantics — Commit or Hold
+## 146. Worked Semantics — Commit or Hold
 
 If all required gates pass:
 
@@ -2476,9 +2475,9 @@ HOLD
 
 and preserve the previous valid state.
 
----
+______________________________________________________________________
 
-# 147. Selective Failure
+## 147. Selective Failure
 
 On failed premise:
 
@@ -2494,9 +2493,9 @@ DESCENDANTS(P_FAILED)
 
 not unrelated artifacts.
 
----
+______________________________________________________________________
 
-# 148. Rollback Basin
+## 148. Rollback Basin
 
 Before consequential UBA mutation establish:
 
@@ -2510,9 +2509,9 @@ UBA_ROLLBACK:
   recovery_path:
 ```
 
----
+______________________________________________________________________
 
-# 149. Mutation Receipt
+## 149. Mutation Receipt
 
 Consequential mutation should emit:
 
@@ -2529,9 +2528,9 @@ UBA_MUTATION_RECEIPT:
   rollback_ref:
 ```
 
----
+______________________________________________________________________
 
-# 150. Version Discipline
+## 150. Version Discipline
 
 Do not silently mutate:
 
@@ -2541,9 +2540,9 @@ v0.3.0
 
 content while preserving the same version if versioning semantics require a new identity.
 
----
+______________________________________________________________________
 
-# 151. Version ≠ Canon Epoch
+## 151. Version ≠ Canon Epoch
 
 Keep distinct:
 
@@ -2563,9 +2562,9 @@ canon_epoch
 
 unless explicitly mapped.
 
----
+______________________________________________________________________
 
-# 152. State Version ≠ Causal Epoch
+## 152. State Version ≠ Causal Epoch
 
 ```text
 STATE_VERSION
@@ -2573,9 +2572,9 @@ STATE_VERSION
 CAUSAL_EPOCH
 ```
 
----
+______________________________________________________________________
 
-# 153. Policy Epoch ≠ Provenance Epoch
+## 153. Policy Epoch ≠ Provenance Epoch
 
 ```text
 POLICY_EPOCH
@@ -2583,9 +2582,9 @@ POLICY_EPOCH
 PROVENANCE_EPOCH
 ```
 
----
+______________________________________________________________________
 
-# 154. Explicit Mapping
+## 154. Explicit Mapping
 
 If equivalence is required:
 
@@ -2598,9 +2597,9 @@ EPOCH_MAPPING:
   validity:
 ```
 
----
+______________________________________________________________________
 
-# 155. MVCC-Compatible Model
+## 155. MVCC-Compatible Model
 
 A future executable implementation may conceptually use:
 
@@ -2618,9 +2617,9 @@ COMMIT OR RETRY/HOLD
 
 This is normalized AMOS architecture, not a current UBA implementation claim.
 
----
+______________________________________________________________________
 
-# 156. CAS-Compatible Model
+## 156. CAS-Compatible Model
 
 Conceptually:
 
@@ -2634,21 +2633,21 @@ CURRENT_VERSION
 
 plus governance requirements.
 
----
+______________________________________________________________________
 
-# 157. CAS Success ≠ Truth
+## 157. CAS Success ≠ Truth
 
 A successful compare-and-swap proves transaction consistency, not model correctness.
 
----
+______________________________________________________________________
 
-# 158. Persistent Provenance
+## 158. Persistent Provenance
 
 Future UBA commits should preserve provenance across versions.
 
----
+______________________________________________________________________
 
-# 159. Provenance Loss
+## 159. Provenance Loss
 
 If a new version cannot preserve load-bearing source ancestry:
 
@@ -2660,9 +2659,9 @@ HOLD
 
 until provenance is repaired.
 
----
+______________________________________________________________________
 
-# 160. Causal Epoch Finality
+## 160. Causal Epoch Finality
 
 A future UBA conclusion may be final only relative to:
 
@@ -2672,9 +2671,9 @@ DECLARED CAUSAL EPOCH
 DEPENDENCY SET
 ```
 
----
+______________________________________________________________________
 
-# 161. Final ≠ Permanent
+## 161. Final ≠ Permanent
 
 ```text
 FINAL_IN_EPOCH
@@ -2682,15 +2681,15 @@ FINAL_IN_EPOCH
 VALID_FOREVER
 ```
 
----
+______________________________________________________________________
 
-# 162. Proof-Based Coordination Avoidance
+## 162. Proof-Based Coordination Avoidance
 
 Local finalization may be sufficient only when independence and closure are demonstrated.
 
----
+______________________________________________________________________
 
-# 163. Coordination Avoidance ≠ Skipping Validation
+## 163. Coordination Avoidance ≠ Skipping Validation
 
 ```text
 LOCAL PROOF
@@ -2700,9 +2699,9 @@ can reduce unnecessary coordination.
 
 It cannot remove required proof.
 
----
+______________________________________________________________________
 
-# 164. Governance Escalation
+## 164. Governance Escalation
 
 Escalate validation for UBA-derived actions involving:
 
@@ -2722,9 +2721,9 @@ INSTITUTIONAL EFFECT
 LARGE DOWNSTREAM DEPENDENCY
 ```
 
----
+______________________________________________________________________
 
-# 165. Model Output ≠ Decision
+## 165. Model Output ≠ Decision
 
 ```text
 UBA_MODEL_OUTPUT
@@ -2732,9 +2731,9 @@ UBA_MODEL_OUTPUT
 DECISION
 ```
 
----
+______________________________________________________________________
 
-# 166. Decision ≠ Action
+## 166. Decision ≠ Action
 
 ```text
 DECISION
@@ -2742,9 +2741,9 @@ DECISION
 EXECUTION
 ```
 
----
+______________________________________________________________________
 
-# 167. Action ≠ Success
+## 167. Action ≠ Success
 
 ```text
 EXECUTION
@@ -2752,9 +2751,9 @@ EXECUTION
 SUCCESS
 ```
 
----
+______________________________________________________________________
 
-# 168. Success ≠ Truth
+## 168. Success ≠ Truth
 
 ```text
 SUCCESSFUL_OUTCOME
@@ -2762,9 +2761,9 @@ SUCCESSFUL_OUTCOME
 UBA_UNIVERSALLY_TRUE
 ```
 
----
+______________________________________________________________________
 
-# 169. Reversible Action Preference
+## 169. Reversible Action Preference
 
 Under unresolved uncertainty prefer:
 
@@ -2778,15 +2777,15 @@ REPAIRABLE
 
 actions where decision utility permits.
 
----
+______________________________________________________________________
 
-# 170. Irreversible Action Threshold
+## 170. Irreversible Action Threshold
 
 Irreversible action requires stronger evidence and governance than reversible exploration.
 
----
+______________________________________________________________________
 
-# 171. Knowledge Harvest
+## 171. Knowledge Harvest
 
 Future UBA knowledge should progress:
 
@@ -2798,9 +2797,9 @@ PERSISTENT EVIDENCE
 VALIDATED KNOWLEDGE
 ```
 
----
+______________________________________________________________________
 
-# 172. Source Documentation
+## 172. Source Documentation
 
 README claims remain:
 
@@ -2810,9 +2809,9 @@ SOURCE_CLAIM
 
 until independently validated where validation is required.
 
----
+______________________________________________________________________
 
-# 173. External Research
+## 173. External Research
 
 If external literature mentions an acronym `UBA`:
 
@@ -2822,9 +2821,9 @@ ASSUME
 IT IS AMOS UBA
 ```
 
----
+______________________________________________________________________
 
-# 174. External Evidence Policy
+## 174. External Evidence Policy
 
 External research should remain:
 
@@ -2834,9 +2833,9 @@ EVIDENCE
 
 rather than native canon unless governed ingestion explicitly establishes otherwise.
 
----
+______________________________________________________________________
 
-# 175. Acronym Collision Risk
+## 175. Acronym Collision Risk
 
 `UBA` is short enough that unrelated systems may use the same acronym.
 
@@ -2850,9 +2849,9 @@ MATERIAL
 
 until native expansion is established.
 
----
+______________________________________________________________________
 
-# 176. Search Match ≠ Identity
+## 176. Search Match ≠ Identity
 
 A search result containing:
 
@@ -2862,9 +2861,9 @@ UBA
 
 does not prove it refers to this model.
 
----
+______________________________________________________________________
 
-# 177. Identity Discriminator
+## 177. Identity Discriminator
 
 Useful discriminators include:
 
@@ -2884,9 +2883,9 @@ source ancestry
 native terminology
 ```
 
----
+______________________________________________________________________
 
-# 178. Acronym Promotion Gate
+## 178. Acronym Promotion Gate
 
 Do not populate:
 
@@ -2901,27 +2900,27 @@ until:
 - version/scope are compatible;
 - no stronger contradictory expansion exists.
 
----
+______________________________________________________________________
 
-# 179. Definition Promotion Gate
+## 179. Definition Promotion Gate
 
 Do not populate a canonical UBA definition until the source defines the framework rather than merely mentioning it.
 
----
+______________________________________________________________________
 
-# 180. Law Promotion Gate
+## 180. Law Promotion Gate
 
 Do not add a `UBA Laws` section as substantive canon until native laws are found.
 
----
+______________________________________________________________________
 
-# 181. Equation Promotion Gate
+## 181. Equation Promotion Gate
 
 Do not create UBA equations by adapting equations from another AMOS framework.
 
----
+______________________________________________________________________
 
-# 182. Framework Transfer Firewall
+## 182. Framework Transfer Firewall
 
 ```text
 TRA LAW
@@ -2931,15 +2930,15 @@ UBA LAW
 
 unless a source explicitly establishes the relationship.
 
----
+______________________________________________________________________
 
-# 183. Shared AMOS Principle ≠ Native UBA Principle
+## 183. Shared AMOS Principle ≠ Native UBA Principle
 
 A general AMOS rule may govern UBA without being native UBA content.
 
----
+______________________________________________________________________
 
-# 184. Governing Layer vs Model Layer
+## 184. Governing Layer vs Model Layer
 
 Example:
 
@@ -2956,37 +2955,37 @@ FAIL CLOSED
 IS A NATIVE UBA LAW
 ```
 
----
+______________________________________________________________________
 
-# 185. RSCF Wrapper vs Native UBA
+## 185. RSCF Wrapper vs Native UBA
 
 RSCF normalization can represent UBA claims.
 
 It does not prove UBA was originally authored in RSCF form.
 
----
+______________________________________________________________________
 
-# 186. H/M/L Wrapper vs Native UBA
+## 186. H/M/L Wrapper vs Native UBA
 
 H/M/L can organize UBA retrieval.
 
 It does not prove UBA's source ontology contains H/M/L.
 
----
+______________________________________________________________________
 
-# 187. Causal Firewall vs Native UBA
+## 187. Causal Firewall vs Native UBA
 
 AMOS causal discipline governs interpretation even if native UBA content uses different terminology.
 
----
+______________________________________________________________________
 
-# 188. Scope Firewall vs Native UBA
+## 188. Scope Firewall vs Native UBA
 
 AMOS scope discipline constrains downstream use regardless of whether the source explicitly contains the same formal contract.
 
----
+______________________________________________________________________
 
-# 189. Model Governance Layer
+## 189. Model Governance Layer
 
 Therefore distinguish:
 
@@ -3000,9 +2999,9 @@ from:
 AMOS GOVERNANCE AROUND UBA
 ```
 
----
+______________________________________________________________________
 
-# 190. Current Native UBA Content
+## 190. Current Native UBA Content
 
 ```text
 FRAMEWORK NAME:
@@ -3012,9 +3011,9 @@ SUBSTANTIVE BODY:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 191. Current AMOS Governance Around UBA
+## 191. Current AMOS Governance Around UBA
 
 Established in this artifact:
 
@@ -3044,9 +3043,9 @@ RSCF NORMALIZATION
 GAP VISIBILITY
 ```
 
----
+______________________________________________________________________
 
-# 192. Gap Classes
+## 192. Gap Classes
 
 Use:
 
@@ -3060,9 +3059,9 @@ EXPLANATORY
 COSMETIC
 ```
 
----
+______________________________________________________________________
 
-# 193. UBA Gap Register
+## 193. UBA Gap Register
 
 ```yaml
 UBA_GAPS:
@@ -3143,9 +3142,9 @@ UBA_GAPS:
     status: NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 194. Critical Gap Priority
+## 194. Critical Gap Priority
 
 The minimum critical missing information is:
 
@@ -3156,9 +3155,9 @@ THAT DEFINES UBA
 
 Everything substantive depends on this.
 
----
+______________________________________________________________________
 
-# 195. Gap Resolution Order
+## 195. Gap Resolution Order
 
 ```text
 UBA-G003
@@ -3183,9 +3182,9 @@ VALIDATION
 
 This ordering is a normalized decision strategy, not native UBA canon.
 
----
+______________________________________________________________________
 
-# 196. Promotion-Gate Checklist
+## 196. Promotion-Gate Checklist
 
 - [x] artifact slot reserved
 - [x] artifact identity declared
@@ -3227,9 +3226,9 @@ This ordering is a normalized decision strategy, not native UBA canon.
 - [ ] empirical claims independently validated
 - [ ] unresolved critical gaps closed
 
----
+______________________________________________________________________
 
-# 197. Negative Test — Acronym Guess
+## 197. Negative Test — Acronym Guess
 
 Invalid:
 
@@ -3247,9 +3246,9 @@ UBA expansion
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 198. Negative Test — Neighbor Framework Inference
+## 198. Negative Test — Neighbor Framework Inference
 
 Invalid:
 
@@ -3259,9 +3258,9 @@ therefore
 UBA has the same ontology.
 ```
 
----
+______________________________________________________________________
 
-# 199. Negative Test — Tag Inference
+## 199. Negative Test — Tag Inference
 
 Invalid:
 
@@ -3271,9 +3270,9 @@ therefore
 UBA is a universal cosmological theory.
 ```
 
----
+______________________________________________________________________
 
-# 200. Negative Test — Model Inference
+## 200. Negative Test — Model Inference
 
 Invalid:
 
@@ -3283,9 +3282,9 @@ therefore
 UBA's equations are known.
 ```
 
----
+______________________________________________________________________
 
-# 201. Negative Test — Placeholder Promotion
+## 201. Negative Test — Placeholder Promotion
 
 Invalid:
 
@@ -3295,9 +3294,9 @@ therefore
 placeholder is populated canon.
 ```
 
----
+______________________________________________________________________
 
-# 202. Negative Test — Canon Promotion
+## 202. Negative Test — Canon Promotion
 
 Invalid:
 
@@ -3307,9 +3306,9 @@ therefore
 canonical_status = CANONICAL.
 ```
 
----
+______________________________________________________________________
 
-# 203. Negative Test — Source Count
+## 203. Negative Test — Source Count
 
 Invalid:
 
@@ -3319,9 +3318,9 @@ therefore
 five independent sources validate UBA.
 ```
 
----
+______________________________________________________________________
 
-# 204. Negative Test — Validation Receipt
+## 204. Negative Test — Validation Receipt
 
 Invalid:
 
@@ -3331,9 +3330,9 @@ therefore
 UBA is validated.
 ```
 
----
+______________________________________________________________________
 
-# 205. Negative Test — Runtime
+## 205. Negative Test — Runtime
 
 Invalid:
 
@@ -3343,9 +3342,9 @@ therefore
 UBA runtime exists.
 ```
 
----
+______________________________________________________________________
 
-# 206. Negative Test — Observation
+## 206. Negative Test — Observation
 
 Invalid:
 
@@ -3355,9 +3354,9 @@ therefore
 X occurred.
 ```
 
----
+______________________________________________________________________
 
-# 207. Negative Test — Causation
+## 207. Negative Test — Causation
 
 Invalid:
 
@@ -3367,9 +3366,9 @@ therefore
 UBA explains its cause.
 ```
 
----
+______________________________________________________________________
 
-# 208. Positive Test — Native Definition Found
+## 208. Positive Test — Native Definition Found
 
 Suppose a native source states explicitly:
 
@@ -3398,9 +3397,9 @@ may be populated with provenance.
 
 They do not automatically become empirically verified.
 
----
+______________________________________________________________________
 
-# 209. Positive Test — Two Conflicting Native Sources
+## 209. Positive Test — Two Conflicting Native Sources
 
 If source A and source B provide incompatible definitions:
 
@@ -3410,9 +3409,9 @@ COMPETING
 
 is correct until lineage or discriminating evidence resolves the conflict.
 
----
+______________________________________________________________________
 
-# 210. Positive Test — Historical Rename
+## 210. Positive Test — Historical Rename
 
 If:
 
@@ -3428,9 +3427,9 @@ UBA v2
 
 uses another, preserve both with version scope.
 
----
+______________________________________________________________________
 
-# 211. Positive Test — Derived Summary
+## 211. Positive Test — Derived Summary
 
 If a later AMOS summary paraphrases a native UBA master:
 
@@ -3442,9 +3441,9 @@ DERIVED SOURCE
 
 with ancestry back to the master.
 
----
+______________________________________________________________________
 
-# 212. Positive Test — External Confirmation
+## 212. Positive Test — External Confirmation
 
 If independent research empirically supports a testable UBA prediction:
 
@@ -3456,9 +3455,9 @@ may support a derived conclusion.
 
 It remains external evidence rather than native UBA canon.
 
----
+______________________________________________________________________
 
-# 213. Positive Test — Failed Prediction
+## 213. Positive Test — Failed Prediction
 
 If independent observation contradicts a UBA prediction within the exact declared scope:
 
@@ -3472,9 +3471,9 @@ for that claim.
 
 Do not erase unrelated UBA claims.
 
----
+______________________________________________________________________
 
-# 214. Selective Invalidation Example
+## 214. Selective Invalidation Example
 
 ```text
 UBA MODEL
@@ -3501,9 +3500,9 @@ C1.2
 
 while preserving `C2` if independent.
 
----
+______________________________________________________________________
 
-# 215. Failure Recovery
+## 215. Failure Recovery
 
 ```text
 FAILED PREMISE
@@ -3517,21 +3516,21 @@ SEARCH FOR NEW EVIDENCE
 REVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 216. No Unchanged Retry
+## 216. No Unchanged Retry
 
 Do not repeat a failed UBA inference with identical evidence and assumptions.
 
----
+______________________________________________________________________
 
-# 217. Global Recompute
+## 217. Global Recompute
 
 Global recomputation is a last resort.
 
----
+______________________________________________________________________
 
-# 218. Adaptive Complexity
+## 218. Adaptive Complexity
 
 Use:
 
@@ -3549,9 +3548,9 @@ C4 — MAXIMUM
 
 depending on consequence and uncertainty.
 
----
+______________________________________________________________________
 
-# 219. Escalation Triggers
+## 219. Escalation Triggers
 
 Escalate for:
 
@@ -3581,9 +3580,9 @@ GOVERNANCE IMPACT
 LOW PROVENANCE TRUST
 ```
 
----
+______________________________________________________________________
 
-# 220. De-Escalation
+## 220. De-Escalation
 
 Stop once:
 
@@ -3597,9 +3596,9 @@ ACTION SUFFICIENCY
 
 are reached.
 
----
+______________________________________________________________________
 
-# 221. Current UBA Claim Sufficiency
+## 221. Current UBA Claim Sufficiency
 
 For:
 
@@ -3617,9 +3616,9 @@ For:
 
 substantive sufficiency is **not** achieved.
 
----
+______________________________________________________________________
 
-# 222. Current UBA Decision Sufficiency
+## 222. Current UBA Decision Sufficiency
 
 There is enough support to:
 
@@ -3635,9 +3634,9 @@ SEARCH FOR NATIVE SOURCE
 
 There is not enough support to populate a substantive UBA theory.
 
----
+______________________________________________________________________
 
-# 223. Current UBA Action Sufficiency
+## 223. Current UBA Action Sufficiency
 
 Safe current action:
 
@@ -3651,9 +3650,9 @@ Unsafe unsupported action:
 INVENT UBA CANON
 ```
 
----
+______________________________________________________________________
 
-# 224. Uncertainty Vector
+## 224. Uncertainty Vector
 
 ```yaml
 UBA_UNCERTAINTY:
@@ -3668,9 +3667,9 @@ UBA_UNCERTAINTY:
 
 These values are qualitative normalized status indicators, not source-native measurements.
 
----
+______________________________________________________________________
 
-# 225. Dominant Uncertainty
+## 225. Dominant Uncertainty
 
 ```text
 NATIVE SOURCE RESOLUTION
@@ -3678,9 +3677,9 @@ NATIVE SOURCE RESOLUTION
 
 dominates the current artifact.
 
----
+______________________________________________________________________
 
-# 226. Decision-Changing Evidence
+## 226. Decision-Changing Evidence
 
 The highest-value evidence is:
 
@@ -3689,9 +3688,9 @@ A NATIVE SOURCE
 THAT EXPLICITLY DEFINES UBA
 ```
 
----
+______________________________________________________________________
 
-# 227. Lower-Value Evidence
+## 227. Lower-Value Evidence
 
 Additional placeholder files merely repeating:
 
@@ -3701,15 +3700,15 @@ UBA Model
 
 have low discriminating value.
 
----
+______________________________________________________________________
 
-# 228. Proof Economy
+## 228. Proof Economy
 
 Do not accumulate redundant UBA mentions when one primary source can resolve the definition.
 
----
+______________________________________________________________________
 
-# 229. Model Registry Record
+## 229. Model Registry Record
 
 ```yaml
 MODEL_REGISTRY_RECORD:
@@ -3769,9 +3768,9 @@ MODEL_REGISTRY_RECORD:
     NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 230. UBA Source Candidate Record
+## 230. UBA Source Candidate Record
 
 ```yaml
 UBA_SOURCE_CANDIDATE:
@@ -3815,9 +3814,9 @@ UBA_SOURCE_CANDIDATE:
   ingestion_decision:
 ```
 
----
+______________________________________________________________________
 
-# 231. Source Candidate Decision
+## 231. Source Candidate Decision
 
 ```text
 IF
@@ -3843,9 +3842,9 @@ THEN
 EVIDENCE_NOT_NATIVE_CANON
 ```
 
----
+______________________________________________________________________
 
-# 232. UBA Claim Record
+## 232. UBA Claim Record
 
 ```yaml
 UBA_CLAIM:
@@ -3883,9 +3882,9 @@ UBA_CLAIM:
   consequence:
 ```
 
----
+______________________________________________________________________
 
-# 233. UBA Evidence Record
+## 233. UBA Evidence Record
 
 ```yaml
 UBA_EVIDENCE:
@@ -3923,9 +3922,9 @@ UBA_EVIDENCE:
   license:
 ```
 
----
+______________________________________________________________________
 
-# 234. UBA Governance Record
+## 234. UBA Governance Record
 
 ```yaml
 UBA_GOVERNANCE:
@@ -3949,9 +3948,9 @@ UBA_GOVERNANCE:
   mutation_class:
 ```
 
----
+______________________________________________________________________
 
-# 235. UBA Memory Record
+## 235. UBA Memory Record
 
 ```yaml
 UBA_MEMORY:
@@ -3975,9 +3974,9 @@ UBA_MEMORY:
   revalidation_epoch:
 ```
 
----
+______________________________________________________________________
 
-# 236. Machine-Readable Status Contract
+## 236. Machine-Readable Status Contract
 
 ```yaml
 UBA_STATUS_CONTRACT:
@@ -4020,9 +4019,9 @@ UBA_STATUS_CONTRACT:
     unknown_behavior: FAIL_CLOSED
 ```
 
----
+______________________________________________________________________
 
-# 237. Integrity Matrix
+## 237. Integrity Matrix
 
 | Surface        | Required distinction                 |
 | -------------- | ------------------------------------ |
@@ -4045,9 +4044,9 @@ UBA_STATUS_CONTRACT:
 | Logging        | `LOGGED ≠ APPROVED`                  |
 | Uncertainty    | `UNKNOWN/GAP ≠ PASS`                 |
 
----
+______________________________________________________________________
 
-# 238. Validation Matrix
+## 238. Validation Matrix
 
 | Surface                   | Current status     |
 | ------------------------- | ------------------ |
@@ -4076,9 +4075,9 @@ UBA_STATUS_CONTRACT:
 | Empirical validation      | `NOT_ESTABLISHED`  |
 | Artifact-specific receipt | `NOT_ESTABLISHED`  |
 
----
+______________________________________________________________________
 
-# 239. Promotion Decision Matrix
+## 239. Promotion Decision Matrix
 
 | Condition                             | Result                        |
 | ------------------------------------- | ----------------------------- |
@@ -4093,9 +4092,9 @@ UBA_STATUS_CONTRACT:
 | Empirical evidence exists             | `ASSESS CLAIM-BY-CLAIM`       |
 | Critical gap remains                  | `FAIL CLOSED FOR PROMOTION`   |
 
----
+______________________________________________________________________
 
-# 240. Canon Promotion Contract
+## 240. Canon Promotion Contract
 
 ```yaml
 UBA_CANON_PROMOTION:
@@ -4121,9 +4120,9 @@ UBA_CANON_PROMOTION:
     - SILENT_SEMANTIC_MERGE
 ```
 
----
+______________________________________________________________________
 
-# 241. Runtime Promotion Contract
+## 241. Runtime Promotion Contract
 
 ```yaml
 UBA_RUNTIME_PROMOTION:
@@ -4139,9 +4138,9 @@ UBA_RUNTIME_PROMOTION:
     - ARTIFACT_SPECIFIC_RECEIPT
 ```
 
----
+______________________________________________________________________
 
-# 242. Negative Runtime Cases
+## 242. Negative Runtime Cases
 
 A future UBA executor must test at minimum:
 
@@ -4173,9 +4172,9 @@ ROLLBACK FAILURE
 UNKNOWN/GAP INPUT
 ```
 
----
+______________________________________________________________________
 
-# 243. UNKNOWN Input Behavior
+## 243. UNKNOWN Input Behavior
 
 For a required load-bearing input:
 
@@ -4185,9 +4184,9 @@ UNKNOWN/GAP
 NO PASS
 ```
 
----
+______________________________________________________________________
 
-# 244. Malformed Input Behavior
+## 244. Malformed Input Behavior
 
 ```text
 MALFORMED
@@ -4197,9 +4196,9 @@ REJECT / HOLD
 
 not silent repair unless a governed repair path exists.
 
----
+______________________________________________________________________
 
-# 245. Stale Input Behavior
+## 245. Stale Input Behavior
 
 ```text
 STALE
@@ -4209,9 +4208,9 @@ REVALIDATE
 
 when freshness is load-bearing.
 
----
+______________________________________________________________________
 
-# 246. Unauthorized Input Behavior
+## 246. Unauthorized Input Behavior
 
 ```text
 UNAUTHORIZED
@@ -4219,9 +4218,9 @@ UNAUTHORIZED
 NO COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 247. Conflicting Source Behavior
+## 247. Conflicting Source Behavior
 
 ```text
 CONFLICT
@@ -4233,9 +4232,9 @@ HOLD
 
 not arbitrary source selection.
 
----
+______________________________________________________________________
 
-# 248. Observability Boundary
+## 248. Observability Boundary
 
 UBA may be observed by:
 
@@ -4251,9 +4250,9 @@ OBSERVABILITY
 AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 249. Control-Plane Boundary
+## 249. Control-Plane Boundary
 
 Mutation gates belong to:
 
@@ -4263,9 +4262,9 @@ Mutation gates belong to:
 
 where applicable.
 
----
+______________________________________________________________________
 
-# 250. Kernel Boundary
+## 250. Kernel Boundary
 
 Potential executable interaction belongs through:
 
@@ -4275,9 +4274,9 @@ Potential executable interaction belongs through:
 
 rather than being implied by this documentation artifact.
 
----
+______________________________________________________________________
 
-# 251. Operations Boundary
+## 251. Operations Boundary
 
 Recovery belongs through:
 
@@ -4287,9 +4286,9 @@ Recovery belongs through:
 
 where implemented.
 
----
+______________________________________________________________________
 
-# 252. Canon Governance
+## 252. Canon Governance
 
 The artifact is governed by:
 
@@ -4299,9 +4298,9 @@ The artifact is governed by:
 
 and applicable AMOS core laws.
 
----
+______________________________________________________________________
 
-# 253. RSCF Index
+## 253. RSCF Index
 
 The node is indexed through:
 
@@ -4309,9 +4308,9 @@ The node is indexed through:
 
 ```
 
----
+______________________________________________________________________
 
-# 254. Root Navigation
+## 254. Root Navigation
 
 Primary root navigation:
 
@@ -4319,9 +4318,9 @@ Primary root navigation:
 
 ```
 
----
+______________________________________________________________________
 
-# 255. Foundation Navigation
+## 255. Foundation Navigation
 
 Foundation MOC:
 
@@ -4329,9 +4328,9 @@ Foundation MOC:
 
 ```
 
----
+______________________________________________________________________
 
-# 256. Model Map
+## 256. Model Map
 
 When present and bound:
 
@@ -4343,9 +4342,9 @@ may index the UBA node.
 
 Index membership does not prove model validity.
 
----
+______________________________________________________________________
 
-# 257. Cross-Plane Binding Contract
+## 257. Cross-Plane Binding Contract
 
 ```yaml
 UBA_CROSS_PLANE:
@@ -4375,9 +4374,9 @@ UBA_CROSS_PLANE:
     role: GRAPH_INDEX
 ```
 
----
+______________________________________________________________________
 
-# 258. Placeholder Invariants
+## 258. Placeholder Invariants
 
 ```text
 I1
@@ -4427,9 +4426,9 @@ I15
 REQUIRE UBA-SPECIFIC VALIDATION FOR UBA PROMOTION
 ```
 
----
+______________________________________________________________________
 
-# 259. Falsifiers
+## 259. Falsifiers
 
 The current placeholder contract is falsified or requires revision if:
 
@@ -4467,9 +4466,9 @@ A claimed provenance edge is shown to be false.
 
 F3 and F4 do not mean UBA itself is false; they mean the placeholder must be updated because the gap has been resolved.
 
----
+______________________________________________________________________
 
-# 260. Invalidation Granularity
+## 260. Invalidation Granularity
 
 If the acronym expansion becomes known:
 
@@ -4480,9 +4479,9 @@ UBA-G001
 
 Do not invalidate unrelated governance sections.
 
----
+______________________________________________________________________
 
-# 261. Gap Closure Example
+## 261. Gap Closure Example
 
 Before:
 
@@ -4498,15 +4497,15 @@ source_ref: "<native source>"
 epistemic_class: SOURCE_CLAIM
 ```
 
----
+______________________________________________________________________
 
-# 262. No Retroactive Fabrication
+## 262. No Retroactive Fabrication
 
 Once a gap is resolved, historical placeholder versions should still show that the information was previously unknown.
 
----
+______________________________________________________________________
 
-# 263. Lineage Receipt
+## 263. Lineage Receipt
 
 ```yaml
 UBA_LINEAGE_RECEIPT:
@@ -4521,9 +4520,9 @@ UBA_LINEAGE_RECEIPT:
   timestamp:
 ```
 
----
+______________________________________________________________________
 
-# 264. Source Normalization Rule
+## 264. Source Normalization Rule
 
 Preserve exact native terminology first.
 
@@ -4531,9 +4530,9 @@ Normalize second.
 
 Do not rewrite source meaning merely to make it fit current AMOS vocabulary.
 
----
+______________________________________________________________________
 
-# 265. Source Layer
+## 265. Source Layer
 
 Future UBA content should distinguish:
 
@@ -4547,17 +4546,17 @@ from:
 NORMALIZED AMOS SEMANTICS
 ```
 
----
+______________________________________________________________________
 
-# 266. Normalized Layer
+## 266. Normalized Layer
 
 RSCF, proof capsules, provenance topology, MVCC/CAS concepts, H/M/L retrieval, and governance wrappers may be added as normalization where useful.
 
 They must not be misrepresented as verbatim UBA source canon.
 
----
+______________________________________________________________________
 
-# 267. Native Layer Marker
+## 267. Native Layer Marker
 
 Recommended:
 
@@ -4567,9 +4566,9 @@ content_origin:
   source_ref:
 ```
 
----
+______________________________________________________________________
 
-# 268. Normalized Layer Marker
+## 268. Normalized Layer Marker
 
 Recommended:
 
@@ -4581,9 +4580,9 @@ content_origin:
     - AMOS_CORE
 ```
 
----
+______________________________________________________________________
 
-# 269. Derived Layer Marker
+## 269. Derived Layer Marker
 
 Recommended:
 
@@ -4593,9 +4592,9 @@ content_origin:
   premises:
 ```
 
----
+______________________________________________________________________
 
-# 270. External Evidence Marker
+## 270. External Evidence Marker
 
 Recommended:
 
@@ -4605,9 +4604,9 @@ content_origin:
   native_canon: false
 ```
 
----
+______________________________________________________________________
 
-# 271. UBA Canon Layering
+## 271. UBA Canon Layering
 
 Future mature artifact:
 
@@ -4633,9 +4632,9 @@ EXTERNAL EMPIRICAL EVIDENCE
 
 These layers must remain provenance-distinguishable.
 
----
+______________________________________________________________________
 
-# 272. No Silent Layer Collapse
+## 272. No Silent Layer Collapse
 
 ```text
 LAYER 6 EVIDENCE
@@ -4651,9 +4650,9 @@ LAYER 2 NORMALIZATION
 
 does not become verbatim source.
 
----
+______________________________________________________________________
 
-# 273. Current Layer Population
+## 273. Current Layer Population
 
 ```yaml
 UBA_LAYER_STATUS:
@@ -4680,9 +4679,9 @@ UBA_LAYER_STATUS:
     state: NOT_ASSESSED
 ```
 
----
+______________________________________________________________________
 
-# 274. Current Strongest Classification
+## 274. Current Strongest Classification
 
 ```text
 UBA MODEL
@@ -4716,9 +4715,9 @@ VALIDATION NOT_ESTABLISHED
 EXECUTABLE BINDING NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 275. What Is Known
+## 275. What Is Known
 
 ```text
 NAME
@@ -4754,9 +4753,9 @@ SYSTEM
 AMOS OS
 ```
 
----
+______________________________________________________________________
 
-# 276. What Is Not Yet Known
+## 276. What Is Not Yet Known
 
 ```text
 WHAT UBA EXPANDS TO
@@ -4784,9 +4783,9 @@ WHETHER UBA HAS AN EXECUTABLE IMPLEMENTATION
 WHETHER UBA HAS BEEN VALIDATED
 ```
 
----
+______________________________________________________________________
 
-# 277. Canonical Compression
+## 277. Canonical Compression
 
 The entire current artifact can be compressed safely as:
 
@@ -4800,9 +4799,9 @@ REMAINS UNKNOWN/GAP
 PENDING VERIFIED SOURCE INGESTION.
 ```
 
----
+______________________________________________________________________
 
-# 278. Integrity Compression
+## 278. Integrity Compression
 
 ```text
 DO NOT GUESS UBA.
@@ -4828,9 +4827,9 @@ KEEP UNKNOWN/GAP VISIBLE.
 PROMOTE ONLY WITH EVIDENCE.
 ```
 
----
+______________________________________________________________________
 
-# 279. Machine-Readable Canon Capsule
+## 279. Machine-Readable Canon Capsule
 
 ```yaml
 UBA_CANON_CAPSULE:
@@ -4884,9 +4883,9 @@ UBA_CANON_CAPSULE:
     invention_allowed: false
 ```
 
----
+______________________________________________________________________
 
-# 280. RSCF-NODE
+## 280. RSCF-NODE
 
 ```yaml
 RSCF-NODE:
@@ -4968,9 +4967,9 @@ RSCF-NODE:
       semantics: UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 281. RSCF-RELATIONS
+## 281. RSCF-RELATIONS
 
 ```yaml
 RSCF-RELATIONS:
@@ -5008,9 +5007,9 @@ RSCF-RELATIONS:
   - PRESERVES_GAP: UBA_EXECUTABLE_BINDING
 ```
 
----
+______________________________________________________________________
 
-# 282. RSCF Proof Capsule
+## 282. RSCF Proof Capsule
 
 ```yaml
 RSCF-PROOF-CAPSULE:
@@ -5084,9 +5083,9 @@ RSCF-PROOF-CAPSULE:
     promotion: HOLD_PENDING_NATIVE_SOURCE
 ```
 
----
+______________________________________________________________________
 
-# 283. Final Contract
+## 283. Final Contract
 
 `UBA_MODEL.md` currently represents a **governed canonical reservation**, not a reconstructed theory.
 
@@ -5296,15 +5295,15 @@ PLACEHOLDER PRESERVATION
 REQUIRED
 ```
 
----
+______________________________________________________________________
 
 AMOS MOC
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[13_MODELS/00_INDEX/MODEL_MAP|MODEL_MAP]] · [[02_KERNEL/KERNEL_README|KERNEL_README]] · [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]] · [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
 
----
+______________________________________________________________________
 
 RSCF-NODE
 
@@ -5337,6 +5336,6 @@ RSCF-RELATIONS:
 - RECOVERED_VIA: [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
 - AWAITS_SOURCE: UBA_NATIVE_CANON
 
----
+______________________________________________________________________
 
 **MOC:** [[13_MODELS/01_FOUNDATION/01_FOUNDATION_MOC|01_FOUNDATION_MOC]]

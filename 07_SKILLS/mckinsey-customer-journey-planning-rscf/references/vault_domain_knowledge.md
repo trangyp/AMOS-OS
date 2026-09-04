@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Vault Domain Knowledge — Mckinsey Customer Journey Planning Rscf
 type: reference
 source: 07_SKILLS/mckinsey-customer-journey-planning-rscf/references
 tags:
-- reference
-- mckinsey-customer-journey-planning-rscf
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - mckinsey-customer-journey-planning-rscf
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -24,6 +27,7 @@ rscf:
 ## Vault-Sourced Content
 
 ### Source 1: 5a. Journey
+
 - Planning phase
 - v4
 
@@ -36,10 +40,11 @@ Guide
 Planning
 Thisplaybookcontainsallthepieces andpartsthat
 makeupourapproachtotransforming customer
-| journeys.Thisis | | alivingdocumentandthelatest |
-| --------------- | -------- | ----------------------------- |
-| versioncan | be found | onTCJ’sConfluencesite. |
-Last updated in May 2019
+
+| journeys.Thisis          |          | alivingdocumentandthelatest |
+| ------------------------ | -------- | --------------------------- |
+| versioncan               | be found | onTCJ’sConfluencesite.      |
+| Last updated in May 2019 |          |                             |
 
 How this module fits into overall TCJ Playbook
 Transformation
@@ -78,30 +83,32 @@ Culture and change management
 McKinsey & Company 2
 
 Purpose and scope of the Journey Planning playbook
- This playbook provides the approach and guiding principles for Journey Planning phase, and sample output
- The intended audiences are Journey Leads and team members of the Planning phase
- The playbook serve as source of reference and tools for Journey Leads to design the delivery roadmap for their Journeys.
+This playbook provides the approach and guiding principles for Journey Planning phase, and sample output
+The intended audiences are Journey Leads and team members of the Planning phase
+The playbook serve as source of reference and tools for Journey Leads to design the delivery roadmap for their Journeys.
 o The sample outputs (Powerpoint slides) are recommended for communicating results with stakeholders.
 o There are sample working files attached where relevant, to illustrate the thought process and analyses behind each
 output. Journey Teams should adapt these accordingly.
- This playbook is based on the learnings from one of the first two TCJ Journey Teams – Commercial Lending and Retail
+This playbook is based on the learnings from one of the first two TCJ Journey Teams – Commercial Lending and Retail
 CASA
 McKinsey & Company 3
 
 The Journey Planning Phase is the first phase of each Journey Team’s
 transformation
 Detailed in this playbook
-| | | 2 months | | 2 months | | 4 waves x 3 months each | |
-| --- | --- | -------- | --- | -------- | --- | ----------------------- | --- |
-C. Waves
-| Journey | A. Planning | | B. Incubation | | | | |
-| -------- | ----------- | --- | ------------- | --- | -------------- | --- | ---------------- |
-| Phases | | | | | Build andPilot | | Roll in andscale |
-Activity Initial analysis based on internal and external Build collective understandingofth
 
----
+|                                                                                             |             | 2 months |               | 2 months |                | 4 waves x 3 months each |                  |
+| ------------------------------------------------------------------------------------------- | ----------- | -------- | ------------- | -------- | -------------- | ----------------------- | ---------------- |
+| C. Waves                                                                                    |             |          |               |          |                |                         |                  |
+| Journey                                                                                     | A. Planning |          | B. Incubation |          |                |                         |                  |
+| --------                                                                                    | ----------- | ---      | ------------- | ---      | -------------- | ---                     | ---------------- |
+| Phases                                                                                      |             |          |               |          | Build andPilot |                         | Roll in andscale |
+| Activity Initial analysis based on internal and external Build collective understandingofth |             |          |               |          |                |                         |                  |
+
+______________________________________________________________________
 
 ### Source 2: 5c. Journey
+
 - Waves v1 - shared
 
 > Path: `misc/C0/5c. Journey - Waves v1 - shared.md` | Size: 68182 chars | Match score: 12 | content_hash: 8e5fa7232909fa00
@@ -113,64 +120,67 @@ Guide
 Waves
 Thisplaybookcontainsallthepieces andpartsthat
 makeupourapproachtotransforming customer
-| journeys.Thisis | | alivingdocumentandthelatest |
-| --------------- | -------- | ----------------------------- |
-| versioncan | be found | onTCJ’sConfluencesite. |
-Last updated in May 2019
+
+| journeys.Thisis          |          | alivingdocumentandthelatest |
+| ------------------------ | -------- | --------------------------- |
+| versioncan               | be found | onTCJ’sConfluencesite.      |
+| Last updated in May 2019 |          |                             |
 
 How this module fits into overall TCJ Playbook
 Transformation
-| | Overall TCJ | Cross-journey | Journey N | | | | | |
-| --- | ------------ | -------------- | --------- | --- | --- | --- | --- | --- |
-Design
-strategy elements
-Retail CASA Journey
-a L
-M ts
-5-year roadmap Journey Team org
-| | | Commercial Lending Journey | | | | | | o |
-| --- | --- | -------------------------- | --- | --- | --- | --- | --- | --- |
-| | | blueprint and agile | | | | | | d |
-eifi
-d
-| | Economics | way of working | | | | | | 1 |
-| --- | --------- | -------------- | -------- | --- | ---------- | --- | ----- | --- |
-| | | | Planning | | Incubation | | Waves | 1 |
-2/
-2/ 7
-| | | Journey Team | | | | | | 0 |
-| --- | --- | ------------- | --- | --- | --- | --- | --- | --- |
-1
-• U n d e rs t a n d i n g o f b u siness Zero-based design 5 9
-| | | Model Office | | | | MVP | | 4: |
-| --- | --- | ------------- | ------- | ----------------------------- | --- | --- | --- | --- |
-| | | | • M a p | o f s u b - j o u r n e y s | | | | 6 |
-P
-| | | | • | | | | | M |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-Technology As-is diagnostic of sub- Finalized product roadmap M
-| | Tech | | | | | Test and learn | | a |
-| ---------- | ---- | --- | -------- | ----- | --- | -------------- | --- | --- |
-| | | | j o u rn | e y s | | | | al |
-| Enablement | | | | | | | | P y |
-•
-Target A s s e ss m ent of potential Backlog development Roll-out plan (Bizand Tech) n e
-ni
-| | | | i m p a | c t | | | | us |
-| --- | --- | --- | ------- | --- | --- | --- | --- | --- |
-architecture al
-| | | | • P ri o ri | ti zation | | | | S |
-| --- | ------ | --- | -------------- | --------- | ---------------- | --- | --- | --- |
-| | | | | | OKRs and targets | | | at |
-| | | | • | | | | | n |
-| | DevOps | | To-be journeys | | | | | d |
-dr a
-| | | | • Delivery roadmap | | | | | T |
-| --- | --- | --- | ------------------ | --- | --- | ---
 
----
+|                                                                                          | Overall TCJ | Cross-journey              | Journey N          |                               |                  |                |       |     |
+| ---------------------------------------------------------------------------------------- | ----------- | -------------------------- | ------------------ | ----------------------------- | ---------------- | -------------- | ----- | --- |
+| Design                                                                                   |             |                            |                    |                               |                  |                |       |     |
+| strategy elements                                                                        |             |                            |                    |                               |                  |                |       |     |
+| Retail CASA Journey                                                                      |             |                            |                    |                               |                  |                |       |     |
+| a L                                                                                      |             |                            |                    |                               |                  |                |       |     |
+| M ts                                                                                     |             |                            |                    |                               |                  |                |       |     |
+| 5-year roadmap Journey Team org                                                          |             |                            |                    |                               |                  |                |       |     |
+|                                                                                          |             | Commercial Lending Journey |                    |                               |                  |                |       | o   |
+| ---                                                                                      | ---         | -------------------------- | ---                | ---                           | ---              | ---            | ---   | --- |
+|                                                                                          |             | blueprint and agile        |                    |                               |                  |                |       | d   |
+| eifi                                                                                     |             |                            |                    |                               |                  |                |       |     |
+| d                                                                                        |             |                            |                    |                               |                  |                |       |     |
+|                                                                                          | Economics   | way of working             |                    |                               |                  |                |       | 1   |
+| ---                                                                                      | ---------   | --------------             | --------           | ---                           | ----------       | ---            | ----- | --- |
+|                                                                                          |             |                            | Planning           |                               | Incubation       |                | Waves | 1   |
+| 2/                                                                                       |             |                            |                    |                               |                  |                |       |     |
+| 2/ 7                                                                                     |             |                            |                    |                               |                  |                |       |     |
+|                                                                                          |             | Journey Team               |                    |                               |                  |                |       | 0   |
+| ---                                                                                      | ---         | -------------              | ---                | ---                           | ---              | ---            | ---   | --- |
+| 1                                                                                        |             |                            |                    |                               |                  |                |       |     |
+| • U n d e rs t a n d i n g o f b u siness Zero-based design 5 9                          |             |                            |                    |                               |                  |                |       |     |
+|                                                                                          |             | Model Office               |                    |                               |                  | MVP            |       | 4:  |
+| ---                                                                                      | ---         | -------------              | -------            | ----------------------------- | ---              | ---            | ---   | --- |
+|                                                                                          |             |                            | • M a p            | o f s u b - j o u r n e y s   |                  |                |       | 6   |
+| P                                                                                        |             |                            |                    |                               |                  |                |       |     |
+|                                                                                          |             |                            | •                  |                               |                  |                |       | M   |
+| ---                                                                                      | ---         | ---                        | ---                | ---                           | ---              | ---            | ---   | --- |
+| Technology As-is diagnostic of sub- Finalized product roadmap M                          |             |                            |                    |                               |                  |                |       |     |
+|                                                                                          | Tech        |                            |                    |                               |                  | Test and learn |       | a   |
+| ----------                                                                               | ----        | ---                        | --------           | -----                         | ---              | -------------- | ---   | --- |
+|                                                                                          |             |                            | j o u rn           | e y s                         |                  |                |       | al  |
+| Enablement                                                                               |             |                            |                    |                               |                  |                |       | P y |
+| •                                                                                        |             |                            |                    |                               |                  |                |       |     |
+| Target A s s e ss m ent of potential Backlog development Roll-out plan (Bizand Tech) n e |             |                            |                    |                               |                  |                |       |     |
+| ni                                                                                       |             |                            |                    |                               |                  |                |       |     |
+|                                                                                          |             |                            | i m p a            | c t                           |                  |                |       | us  |
+| ---                                                                                      | ---         | ---                        | -------            | ---                           | ---              | ---            | ---   | --- |
+| architecture al                                                                          |             |                            |                    |                               |                  |                |       |     |
+|                                                                                          |             |                            | • P ri o ri        | ti zation                     |                  |                |       | S   |
+| ---                                                                                      | ------      | ---                        | --------------     | ---------                     | ---------------- | ---            | ---   | --- |
+|                                                                                          |             |                            |                    |                               | OKRs and targets |                |       | at  |
+|                                                                                          |             |                            | •                  |                               |                  |                |       | n   |
+|                                                                                          | DevOps      |                            | To-be journeys     |                               |                  |                |       | d   |
+| dr a                                                                                     |             |                            |                    |                               |                  |                |       |     |
+|                                                                                          |             |                            | • Delivery roadmap |                               |                  |                |       | T   |
+| ---                                                                                      | ---         | ---                        | ------------------ | ---                           | ---              | ---            |       |     |
+
+______________________________________________________________________
 
 ### Source 3: 4b. Cross-journey
+
 - Model office v2
 
 > Path: `models/4b. Cross-journey - Model office v2.md` | Size: 67567 chars | Match score: 12 | content_hash: 2d0984c8df57ddd1
@@ -189,70 +199,73 @@ Last updated in May 2019
 
 How this module fits into overall TCJ Playbook
 Transformation
-| | Overall TCJ | Cross-journey | Journey N | | | | | |
-| --- | ------------ | -------------- | --------- | --- | --- | --- | --- | --- |
-Design
-strategy elements
-Retail CASA Journey
-a L
-M ts
-5-year roadmap Journey Team org
-| | | Commercial Lending Journey | | | | | | o |
-| --- | --- | -------------------------- | --- | --- | --- | --- | --- | --- |
-| | | blueprint and agile | | | | | | d |
-eifi
-d
-| | Economics | way of working | | | | | | 1 |
-| --- | --------- | -------------- | -------- | --- | ---------- | --- | ----- | --- |
-| | | | Planning | | Incubation | | Waves | 1 |
-2/
-2/ 7
-| | | Journey Team | | | | | | 0 |
-| --- | --- | ------------- | --- | --- | --- | --- | --- | --- |
-1
-• U n d e rs t a n d i n g o f b u siness Zero-based design 5 9
-| | | Model Office | | | | MVP | | 3: |
-| --- | --- | ------------- | ------- | ----------------------------- | --- | --- | --- | --- |
-| | | | • M a p | o f s u b - j o u r n e y s | | | | 4 |
-P
-| | | | • | | | | | M |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-Technology As-is diagnostic of sub- Finalized product roadmap M
-| | Tech | | | | | Test and learn | | a |
-| ---------- | ---- | --- | -------- | ----- | --- | -------------- | --- | --- |
-| | | | j o u rn | e y s | | | | al |
-| Enablement | | | | | | | | P y |
-•
-Target A s s e ss m ent of potential Backlog development Roll-out plan (Bizand Tech) n e
-ni
-| | | | i m p a | c t | | | | us |
-| --- | --- | --- | ------- | --- | --- | --- | --- | --- |
-architecture al
-| | | | • P ri o ri | ti zation | | | | S |
-| --- | ------ | --- | -------------- | --------- | ---------------- | --- | --- | --- |
-| | | | | | OKRs and targets | | | at |
-| | | | • | | | | | n |
-| | DevOps | | To-be journeys | | | | | d |
-dr a
-| | | | • Delivery roadmap | | | | | T |
-| --- | --- | --- | ------------------ | --- | --- | --- | --- | --- |
-Squad onboarding
-mi
-Tech Execution e
-Plan
-PP
-n e nir
-niet
-us d
-| T r a n
 
----
+|                                                                                          | Overall TCJ | Cross-journey              | Journey N          |                               |                  |                |       |     |
+| ---------------------------------------------------------------------------------------- | ----------- | -------------------------- | ------------------ | ----------------------------- | ---------------- | -------------- | ----- | --- |
+| Design                                                                                   |             |                            |                    |                               |                  |                |       |     |
+| strategy elements                                                                        |             |                            |                    |                               |                  |                |       |     |
+| Retail CASA Journey                                                                      |             |                            |                    |                               |                  |                |       |     |
+| a L                                                                                      |             |                            |                    |                               |                  |                |       |     |
+| M ts                                                                                     |             |                            |                    |                               |                  |                |       |     |
+| 5-year roadmap Journey Team org                                                          |             |                            |                    |                               |                  |                |       |     |
+|                                                                                          |             | Commercial Lending Journey |                    |                               |                  |                |       | o   |
+| ---                                                                                      | ---         | -------------------------- | ---                | ---                           | ---              | ---            | ---   | --- |
+|                                                                                          |             | blueprint and agile        |                    |                               |                  |                |       | d   |
+| eifi                                                                                     |             |                            |                    |                               |                  |                |       |     |
+| d                                                                                        |             |                            |                    |                               |                  |                |       |     |
+|                                                                                          | Economics   | way of working             |                    |                               |                  |                |       | 1   |
+| ---                                                                                      | ---------   | --------------             | --------           | ---                           | ----------       | ---            | ----- | --- |
+|                                                                                          |             |                            | Planning           |                               | Incubation       |                | Waves | 1   |
+| 2/                                                                                       |             |                            |                    |                               |                  |                |       |     |
+| 2/ 7                                                                                     |             |                            |                    |                               |                  |                |       |     |
+|                                                                                          |             | Journey Team               |                    |                               |                  |                |       | 0   |
+| ---                                                                                      | ---         | -------------              | ---                | ---                           | ---              | ---            | ---   | --- |
+| 1                                                                                        |             |                            |                    |                               |                  |                |       |     |
+| • U n d e rs t a n d i n g o f b u siness Zero-based design 5 9                          |             |                            |                    |                               |                  |                |       |     |
+|                                                                                          |             | Model Office               |                    |                               |                  | MVP            |       | 3:  |
+| ---                                                                                      | ---         | -------------              | -------            | ----------------------------- | ---              | ---            | ---   | --- |
+|                                                                                          |             |                            | • M a p            | o f s u b - j o u r n e y s   |                  |                |       | 4   |
+| P                                                                                        |             |                            |                    |                               |                  |                |       |     |
+|                                                                                          |             |                            | •                  |                               |                  |                |       | M   |
+| ---                                                                                      | ---         | ---                        | ---                | ---                           | ---              | ---            | ---   | --- |
+| Technology As-is diagnostic of sub- Finalized product roadmap M                          |             |                            |                    |                               |                  |                |       |     |
+|                                                                                          | Tech        |                            |                    |                               |                  | Test and learn |       | a   |
+| ----------                                                                               | ----        | ---                        | --------           | -----                         | ---              | -------------- | ---   | --- |
+|                                                                                          |             |                            | j o u rn           | e y s                         |                  |                |       | al  |
+| Enablement                                                                               |             |                            |                    |                               |                  |                |       | P y |
+| •                                                                                        |             |                            |                    |                               |                  |                |       |     |
+| Target A s s e ss m ent of potential Backlog development Roll-out plan (Bizand Tech) n e |             |                            |                    |                               |                  |                |       |     |
+| ni                                                                                       |             |                            |                    |                               |                  |                |       |     |
+|                                                                                          |             |                            | i m p a            | c t                           |                  |                |       | us  |
+| ---                                                                                      | ---         | ---                        | -------            | ---                           | ---              | ---            | ---   | --- |
+| architecture al                                                                          |             |                            |                    |                               |                  |                |       |     |
+|                                                                                          |             |                            | • P ri o ri        | ti zation                     |                  |                |       | S   |
+| ---                                                                                      | ------      | ---                        | --------------     | ---------                     | ---------------- | ---            | ---   | --- |
+|                                                                                          |             |                            |                    |                               | OKRs and targets |                |       | at  |
+|                                                                                          |             |                            | •                  |                               |                  |                |       | n   |
+|                                                                                          | DevOps      |                            | To-be journeys     |                               |                  |                |       | d   |
+| dr a                                                                                     |             |                            |                    |                               |                  |                |       |     |
+|                                                                                          |             |                            | • Delivery roadmap |                               |                  |                |       | T   |
+| ---                                                                                      | ---         | ---                        | ------------------ | ---                           | ---              | ---            | ---   | --- |
+| Squad onboarding                                                                         |             |                            |                    |                               |                  |                |       |     |
+| mi                                                                                       |             |                            |                    |                               |                  |                |       |     |
+| Tech Execution e                                                                         |             |                            |                    |                               |                  |                |       |     |
+| Plan                                                                                     |             |                            |                    |                               |                  |                |       |     |
+| PP                                                                                       |             |                            |                    |                               |                  |                |       |     |
+| n e nir                                                                                  |             |                            |                    |                               |                  |                |       |     |
+| niet                                                                                     |             |                            |                    |                               |                  |                |       |     |
+| us d                                                                                     |             |                            |                    |                               |                  |                |       |     |
+| T r a n                                                                                  |             |                            |                    |                               |                  |                |       |     |
+
+______________________________________________________________________
+
 **MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -260,12 +273,14 @@ us d
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: mckinsey-customer-journey-planning-rscf-vault-domain-knowledge
 node_type: reference
 path: 07_SKILLS/mckinsey-customer-journey-planning-rscf/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

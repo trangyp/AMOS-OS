@@ -14,40 +14,40 @@ plane: KERNEL
 scope: AMOS_OS
 updated: 2026-08-26
 tags:
-- kernel
-- integration
-- note
-- canon/kernel
-- readme
-- amos-core-laws
-- law-hierarchy
-- canon-provenance
-- source-lineage
-- k-distinction-relation-constraint
-- k-identity
-- k-law-hierarchy
-- k-provenance
-- k-provenance-topology
-- k-sybil-hardening
-- k-context-state
-- k-system-state
-- k-world-model
-- k-memory-admission
-- k-memory-conflict
-- k-memory-retrieval
-- k-context-compaction
-- k-capability-authorization
-- k-commit-time-authority
-- k-effect-classification
-- k-information-exposure
-- k-risk-constraint
-- k-causal-closure
-- k-causal-epoch
-- k-multi-hypothesis
-- k-metacognition
-- k-collapse-recovery
-- k-repair-priority
-- k-repair-harm
+  - kernel
+  - integration
+  - note
+  - canon/kernel
+  - readme
+  - amos-core-laws
+  - law-hierarchy
+  - canon-provenance
+  - source-lineage
+  - k-distinction-relation-constraint
+  - k-identity
+  - k-law-hierarchy
+  - k-provenance
+  - k-provenance-topology
+  - k-sybil-hardening
+  - k-context-state
+  - k-system-state
+  - k-world-model
+  - k-memory-admission
+  - k-memory-conflict
+  - k-memory-retrieval
+  - k-context-compaction
+  - k-capability-authorization
+  - k-commit-time-authority
+  - k-effect-classification
+  - k-information-exposure
+  - k-risk-constraint
+  - k-causal-closure
+  - k-causal-epoch
+  - k-multi-hypothesis
+  - k-metacognition
+  - k-collapse-recovery
+  - k-repair-priority
+  - k-repair-harm
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -97,9 +97,9 @@ A binding does not automatically prove causation, authority, trust, compatibilit
 
 This artifact defines an AMOS architectural model. It does **not** establish that the described runtime binding engine, persistent graph, MVCC/CAS validation, distributed finalization, capability enforcement, or repair mechanisms are implemented.
 
----
+______________________________________________________________________
 
-# 1. Core Law
+## 1. Core Law
 
 ```text
 NO LOAD-BEARING
@@ -134,9 +134,9 @@ DOES NOT
 DESTROY DISTINCTION.
 ```
 
----
+______________________________________________________________________
 
-# 2. Binding Definition
+## 2. Binding Definition
 
 Conceptually:
 
@@ -178,9 +178,9 @@ VALID?
 WHAT BREAKS IT?
 ```
 
----
+______________________________________________________________________
 
-# 3. Canonical Binding Record
+## 3. Canonical Binding Record
 
 ```yaml
 binding:
@@ -216,9 +216,9 @@ binding:
 
 Unknown values remain explicitly `UNKNOWN`.
 
----
+______________________________________________________________________
 
-# 4. Binding Classes
+## 4. Binding Classes
 
 AMOS may distinguish:
 
@@ -249,9 +249,9 @@ EXECUTION_BINDING
 
 These classes are not interchangeable.
 
----
+______________________________________________________________________
 
-# 5. Typed Binding Law
+## 5. Typed Binding Law
 
 Every load-bearing binding must have a meaningful relation type.
 
@@ -295,9 +295,9 @@ RELATION EXISTENCE
 RELATION SEMANTICS
 ```
 
----
+______________________________________________________________________
 
-# 6. Identity Preservation
+## 6. Identity Preservation
 
 If:
 
@@ -329,9 +329,9 @@ A = B
 
 This protects AMOS against accidental object collapse.
 
----
+______________________________________________________________________
 
-# 7. Binding Direction
+## 7. Binding Direction
 
 Bindings may be:
 
@@ -357,9 +357,9 @@ does not entail:
 B DEPENDS_ON A
 ```
 
----
+______________________________________________________________________
 
-# 8. Reciprocal Binding
+## 8. Reciprocal Binding
 
 A reciprocal relationship requires independently valid reciprocal semantics.
 
@@ -378,9 +378,9 @@ MUST NOT
 BE ASSUMED.
 ```
 
----
+______________________________________________________________________
 
-# 9. Binding Scope
+## 9. Binding Scope
 
 Every material binding inherits an applicability envelope.
 
@@ -401,9 +401,9 @@ binding_scope:
 
 A binding valid in one scope must not silently escape into another.
 
----
+______________________________________________________________________
 
-# 10. Scope Firewall
+## 10. Scope Firewall
 
 If:
 
@@ -429,9 +429,9 @@ LOCAL BINDING
 UNIVERSAL BINDING
 ```
 
----
+______________________________________________________________________
 
-# 11. Regime Binding
+## 11. Regime Binding
 
 A relationship may be valid only under regime `R`.
 
@@ -454,9 +454,9 @@ MAY INVALIDATE
 BINDING.
 ```
 
----
+______________________________________________________________________
 
-# 12. Temporal Binding
+## 12. Temporal Binding
 
 Bindings may have:
 
@@ -480,9 +480,9 @@ VALID_ONCE
 VALID_NOW
 ```
 
----
+______________________________________________________________________
 
-# 13. Version Binding
+## 13. Version Binding
 
 A binding may target a specific version.
 
@@ -501,9 +501,9 @@ BINDING REVALIDATION
 WHEN LOAD-BEARING
 ```
 
----
+______________________________________________________________________
 
-# 14. Epoch Binding
+## 14. Epoch Binding
 
 For state whose validity is epoch-dependent:
 
@@ -529,9 +529,9 @@ CAPABILITY
 COMMIT AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 15. Provenance Binding
+## 15. Provenance Binding
 
 A binding should retain enough provenance to answer:
 
@@ -556,9 +556,9 @@ binding_provenance:
   recorded_at:
 ```
 
----
+______________________________________________________________________
 
-# 16. Binding Authority
+## 16. Binding Authority
 
 A relationship may be technically representable yet unauthorized.
 
@@ -579,9 +579,9 @@ COMMIT AUTHORITY
 EXTERNAL EFFECTS
 ```
 
----
+______________________________________________________________________
 
-# 17. Authority Ceiling
+## 17. Authority Ceiling
 
 A binder cannot legitimately grant authority exceeding its own valid authority.
 
@@ -595,9 +595,9 @@ AUTHORITY(BINDER)
 
 unless a separately valid delegation path exists.
 
----
+______________________________________________________________________
 
-# 18. Delegated Binding
+## 18. Delegated Binding
 
 Delegation requires a valid chain:
 
@@ -622,9 +622,9 @@ INVALID(
 )
 ```
 
----
+______________________________________________________________________
 
-# 19. Capability Binding
+## 19. Capability Binding
 
 Capabilities must bind:
 
@@ -654,9 +654,9 @@ capability_binding:
 
 Possession of a tool reference does not itself establish authorization.
 
----
+______________________________________________________________________
 
-# 20. Tool Binding
+## 20. Tool Binding
 
 A tool binding should distinguish:
 
@@ -677,9 +677,9 @@ TOOL DISCOVERY
 TOOL AUTHORIZATION
 ```
 
----
+______________________________________________________________________
 
-# 21. Agent Binding
+## 21. Agent Binding
 
 An agent may be bound to:
 
@@ -709,9 +709,9 @@ ITS TOOLS
 ITS AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 22. Context Binding
+## 22. Context Binding
 
 Context must be bound to the entity, operation, scope, or reasoning episode for which it is valid.
 
@@ -731,9 +731,9 @@ ALL TASKS
 
 This prevents context leakage.
 
----
+______________________________________________________________________
 
-# 23. Memory Binding
+## 23. Memory Binding
 
 Memory retrieval must preserve the relation between:
 
@@ -749,9 +749,9 @@ PROVENANCE
 
 A retrieved memory without its binding envelope can become misleading.
 
----
+______________________________________________________________________
 
-# 24. State Binding
+## 24. State Binding
 
 State values must bind to their state owner.
 
@@ -763,9 +763,9 @@ SYSTEM S
 
 A value detached from its owner can be semantically invalid even when the raw value is correct.
 
----
+______________________________________________________________________
 
-# 25. World-Model Binding
+## 25. World-Model Binding
 
 World-model entities require controlled bindings between:
 
@@ -782,9 +782,9 @@ REGIME
 
 Model relationships remain `MODEL` or `DERIVED` unless evidence justifies stronger classification.
 
----
+______________________________________________________________________
 
-# 26. Evidence Binding
+## 26. Evidence Binding
 
 A claim-evidence relation must distinguish:
 
@@ -800,9 +800,9 @@ ASSUMES
 
 Do not reduce every evidence relationship to generic support.
 
----
+______________________________________________________________________
 
-# 27. Confidence Binding
+## 27. Confidence Binding
 
 Confidence belongs to a proposition under an envelope.
 
@@ -817,9 +817,9 @@ CLAIM C
 
 It must not float independently of the claim it qualifies.
 
----
+______________________________________________________________________
 
-# 28. Conclusion-Class Binding
+## 28. Conclusion-Class Binding
 
 Conclusion classes bind to specific conclusions.
 
@@ -834,9 +834,9 @@ UNKNOWN/GAP
 
 A document containing one verified claim does not make every claim in the document `VERIFIED`.
 
----
+______________________________________________________________________
 
-# 29. Constraint Binding
+## 29. Constraint Binding
 
 Constraints must identify their target.
 
@@ -856,9 +856,9 @@ AUTHORITY
 VALIDITY
 ```
 
----
+______________________________________________________________________
 
-# 30. Policy Binding
+## 30. Policy Binding
 
 A policy is not globally applicable merely because it exists.
 
@@ -876,9 +876,9 @@ EPOCH
 
 as appropriate.
 
----
+______________________________________________________________________
 
-# 31. Law Binding
+## 31. Law Binding
 
 Canonical law application must preserve precedence.
 
@@ -890,9 +890,9 @@ OBJECT O
 
 is valid only where `L` has jurisdiction and has not been superseded.
 
----
+______________________________________________________________________
 
-# 32. Hierarchical Binding
+## 32. Hierarchical Binding
 
 Bindings may inherit through hierarchy only when inheritance is licensed.
 
@@ -906,9 +906,9 @@ does not automatically mean every parent binding applies to every child.
 
 Inheritance rules must be explicit.
 
----
+______________________________________________________________________
 
-# 33. Non-Inheritance Law
+## 33. Non-Inheritance Law
 
 Default:
 
@@ -924,9 +924,9 @@ BINDING(CHILD_OF_A,X)
 
 unless the relation type permits inheritance.
 
----
+______________________________________________________________________
 
-# 34. Binding Composition
+## 34. Binding Composition
 
 Given:
 
@@ -951,9 +951,9 @@ PATH EXISTENCE
 COMPOSABLE RELATION
 ```
 
----
+______________________________________________________________________
 
-# 35. Transitivity
+## 35. Transitivity
 
 Only relations explicitly known to be transitive may be transitively expanded.
 
@@ -979,9 +979,9 @@ SIMILARITY
 ACCESS
 ```
 
----
+______________________________________________________________________
 
-# 36. Binding and Causation
+## 36. Binding and Causation
 
 A binding may represent dependency without establishing causal effect.
 
@@ -997,9 +997,9 @@ A CAUSES B
 
 The causal firewall remains active.
 
----
+______________________________________________________________________
 
-# 37. Causal Binding
+## 37. Causal Binding
 
 A causal relation may be bound only when appropriately typed evidence supports it.
 
@@ -1017,9 +1017,9 @@ FEEDBACK_WITH
 
 These must not be collapsed into one generic causal arrow.
 
----
+______________________________________________________________________
 
-# 38. Structural Binding
+## 38. Structural Binding
 
 Structural correspondence establishes a model relation.
 
@@ -1037,9 +1037,9 @@ IS_IMPLEMENTED_AS
 
 Structural similarity remains insufficient for causal proof.
 
----
+______________________________________________________________________
 
-# 39. Reference Binding
+## 39. Reference Binding
 
 References must resolve to stable identities where required.
 
@@ -1058,9 +1058,9 @@ RESOLUTION BASIS
 VERSION
 ```
 
----
+______________________________________________________________________
 
-# 40. Alias Binding
+## 40. Alias Binding
 
 An alias may bind multiple names to one canonical identity.
 
@@ -1073,9 +1073,9 @@ ENTITY E
 
 But alias resolution must not merge distinct entities without evidence.
 
----
+______________________________________________________________________
 
-# 41. Symbol Binding
+## 41. Symbol Binding
 
 A symbol must bind to a defined meaning under a scope.
 
@@ -1087,9 +1087,9 @@ CONCEPT X
 
 A symbol reused under another domain must not silently inherit the prior meaning.
 
----
+______________________________________________________________________
 
-# 42. Unit Binding
+## 42. Unit Binding
 
 Numerical values requiring units must preserve their unit binding.
 
@@ -1103,9 +1103,9 @@ Removing the unit can invalidate interpretation.
 
 Conversion must preserve dimensional compatibility.
 
----
+______________________________________________________________________
 
-# 43. Variable Binding
+## 43. Variable Binding
 
 Universal and local variables must preserve:
 
@@ -1120,9 +1120,9 @@ LIFETIME
 
 Variable shadowing must not silently alter load-bearing meaning.
 
----
+______________________________________________________________________
 
-# 44. Schema Binding
+## 44. Schema Binding
 
 Data objects must bind to the schema under which they are interpreted.
 
@@ -1134,9 +1134,9 @@ SCHEMA S@V
 
 Schema version changes require compatibility analysis where material.
 
----
+______________________________________________________________________
 
-# 45. Interface Binding
+## 45. Interface Binding
 
 Interfaces bind:
 
@@ -1150,9 +1150,9 @@ SEMANTICS
 
 A syntactically compatible interface may still be semantically incompatible.
 
----
+______________________________________________________________________
 
-# 46. Dependency Binding
+## 46. Dependency Binding
 
 A dependency relation should identify:
 
@@ -1168,9 +1168,9 @@ INVALIDATION_BEHAVIOR
 
 This integrates directly with the AMOS dependency map.
 
----
+______________________________________________________________________
 
-# 47. Load-Bearing Binding
+## 47. Load-Bearing Binding
 
 A binding is load-bearing if its failure can change:
 
@@ -1185,9 +1185,9 @@ FINALITY
 
 Load-bearing bindings receive stronger validation.
 
----
+______________________________________________________________________
 
-# 48. Optional Binding
+## 48. Optional Binding
 
 Not every relationship is load-bearing.
 
@@ -1195,9 +1195,9 @@ Cosmetic or explanatory bindings may tolerate weaker validation where their fail
 
 This supports adaptive complexity.
 
----
+______________________________________________________________________
 
-# 49. Binding State Machine
+## 49. Binding State Machine
 
 Conceptually:
 
@@ -1237,9 +1237,9 @@ RELEASED
 
 States may vary by implementation; this is the canonical conceptual lifecycle.
 
----
+______________________________________________________________________
 
-# 50. Proposed Binding
+## 50. Proposed Binding
 
 A proposed relation is not active merely because it has been constructed.
 
@@ -1249,9 +1249,9 @@ PROPOSED
 VALIDATED
 ```
 
----
+______________________________________________________________________
 
-# 51. Resolution
+## 51. Resolution
 
 Binding resolution determines the actual objects referenced.
 
@@ -1263,9 +1263,9 @@ Example:
 
 must resolve to a concrete policy identity/version before consequential use where ambiguity matters.
 
----
+______________________________________________________________________
 
-# 52. Ambiguous Resolution
+## 52. Ambiguous Resolution
 
 If a reference can resolve to:
 
@@ -1297,9 +1297,9 @@ UNKNOWN/GAP
 
 as appropriate.
 
----
+______________________________________________________________________
 
-# 53. Validation
+## 53. Validation
 
 Binding validation may test:
 
@@ -1320,9 +1320,9 @@ DEPENDENCIES
 
 Only decision-relevant dimensions need escalation.
 
----
+______________________________________________________________________
 
-# 54. Activation
+## 54. Activation
 
 A validated binding may become active only when its activation conditions are satisfied.
 
@@ -1336,9 +1336,9 @@ ACTIVE
 
 where applicable.
 
----
+______________________________________________________________________
 
-# 55. Binding Freshness
+## 55. Binding Freshness
 
 Active bindings are not immortal.
 
@@ -1354,9 +1354,9 @@ ACTIVE @ T2
 
 when load-bearing dependencies have changed.
 
----
+______________________________________________________________________
 
-# 56. Stale Binding
+## 56. Stale Binding
 
 A binding becomes stale when its validation basis may no longer describe current state.
 
@@ -1370,9 +1370,9 @@ INVALID
 
 but stale load-bearing bindings require revalidation before consequential reliance.
 
----
+______________________________________________________________________
 
-# 57. Invalidation
+## 57. Invalidation
 
 A binding becomes invalid when a required validity condition fails.
 
@@ -1390,9 +1390,9 @@ CONSTRAINT VIOLATED
 IDENTITY RESOLUTION WRONG
 ```
 
----
+______________________________________________________________________
 
-# 58. Selective Invalidation
+## 58. Selective Invalidation
 
 Core law:
 
@@ -1406,9 +1406,9 @@ DESCENDANTS(B)
 
 Do not globally recompute or invalidate unrelated state.
 
----
+______________________________________________________________________
 
-# 59. Binding Release
+## 59. Binding Release
 
 Release removes or deactivates a relationship without necessarily deleting its historical record.
 
@@ -1420,9 +1420,9 @@ RELEASED
 
 Historical provenance should remain recoverable when governance requires it.
 
----
+______________________________________________________________________
 
-# 60. Tombstones
+## 60. Tombstones
 
 For important removed bindings, a tombstone may preserve:
 
@@ -1437,9 +1437,9 @@ SUPERSEDING BINDING
 
 This prevents silent resurrection.
 
----
+______________________________________________________________________
 
-# 61. Supersession
+## 61. Supersession
 
 A newer binding does not supersede an older one merely by being newer.
 
@@ -1455,9 +1455,9 @@ CONFLICT RESOLUTION
 
 as required.
 
----
+______________________________________________________________________
 
-# 62. Binding Conflict
+## 62. Binding Conflict
 
 Two bindings conflict when they cannot simultaneously hold under the same relevant envelope.
 
@@ -1479,9 +1479,9 @@ POLICY EPOCH
 
 requires conflict resolution.
 
----
+______________________________________________________________________
 
-# 63. Non-Conflict
+## 63. Non-Conflict
 
 Different bindings are not conflicting merely because they differ.
 
@@ -1494,9 +1494,9 @@ A DENIED X @ S2
 
 can coexist if `S1 != S2`.
 
----
+______________________________________________________________________
 
-# 64. Competing Bindings
+## 64. Competing Bindings
 
 When two incompatible bindings have unresolved authority or provenance:
 
@@ -1514,9 +1514,9 @@ COMPETING
 
 Do not force convergence.
 
----
+______________________________________________________________________
 
-# 65. Binding Precedence
+## 65. Binding Precedence
 
 Precedence may depend on:
 
@@ -1532,9 +1532,9 @@ SUPERSESSION
 
 No universal "newest wins" rule is valid.
 
----
+______________________________________________________________________
 
-# 66. Binding Specificity
+## 66. Binding Specificity
 
 A more specific binding may override a general one only when the governing law permits such override.
 
@@ -1544,9 +1544,9 @@ SPECIFIC
 AUTOMATICALLY SUPERIOR
 ```
 
----
+______________________________________________________________________
 
-# 67. Negative Binding
+## 67. Negative Binding
 
 AMOS must support explicit negative relationships where material.
 
@@ -1562,9 +1562,9 @@ NOT_BOUND
 
 Absence of a positive binding does not always equal an explicit negative binding.
 
----
+______________________________________________________________________
 
-# 68. Absence Law
+## 68. Absence Law
 
 ```text
 NO RECORDED BINDING
@@ -1585,9 +1585,9 @@ NOT LOADED
 NOT RECORDED
 ```
 
----
+______________________________________________________________________
 
-# 69. Binding Provenance Topology
+## 69. Binding Provenance Topology
 
 Bindings themselves form provenance topology.
 
@@ -1605,9 +1605,9 @@ DECISION D
 
 If `B1` fails, `B2` and `D` may require selective invalidation.
 
----
+______________________________________________________________________
 
-# 70. Sybil-Hardened Binding
+## 70. Sybil-Hardened Binding
 
 Multiple apparent authorities or sources must not independently strengthen a binding if they share one origin.
 
@@ -1619,9 +1619,9 @@ INDEPENDENT BINDING SUPPORT
 
 `K_SYBIL_HARDENING` applies to binding validation.
 
----
+______________________________________________________________________
 
-# 71. Binding Independence
+## 71. Binding Independence
 
 Two bindings can appear independent while sharing:
 
@@ -1638,9 +1638,9 @@ TOOL
 
 Shared load-bearing ancestry must remain visible.
 
----
+______________________________________________________________________
 
-# 72. Persistent Binding
+## 72. Persistent Binding
 
 A load-bearing binding that must survive restart should persist enough information to restore:
 
@@ -1659,9 +1659,9 @@ DEPENDENCIES
 
 Persisting only endpoints is insufficient when semantics matter.
 
----
+______________________________________________________________________
 
-# 73. Persistence Revalidation
+## 73. Persistence Revalidation
 
 Reloading a binding does not automatically reactivate it.
 
@@ -1678,9 +1678,9 @@ ACTIVATE
 
 where required.
 
----
+______________________________________________________________________
 
-# 74. Memory Admission Binding
+## 74. Memory Admission Binding
 
 Before persistent admission:
 
@@ -1701,9 +1701,9 @@ IS ITS PROVENANCE
 RECOVERABLE?
 ```
 
----
+______________________________________________________________________
 
-# 75. Context Compaction
+## 75. Context Compaction
 
 Compaction must preserve load-bearing bindings.
 
@@ -1721,9 +1721,9 @@ INVALIDATION
 
 when those fields can alter the result.
 
----
+______________________________________________________________________
 
-# 76. Binding Closure
+## 76. Binding Closure
 
 Before local reasoning, AMOS may establish the dependency closure of relevant bindings.
 
@@ -1743,9 +1743,9 @@ until the material closure is known.
 
 This is bounded by decision relevance.
 
----
+______________________________________________________________________
 
-# 77. Smallest Sufficient Closure
+## 77. Smallest Sufficient Closure
 
 AMOS v4.4 fast-path law:
 
@@ -1760,9 +1760,9 @@ IS SUFFICIENT.
 
 Local reasoning is permitted only when material external dependencies cannot change the conclusion.
 
----
+______________________________________________________________________
 
-# 78. Binding Fast Path
+## 78. Binding Fast Path
 
 Fast path requires, where relevant:
 
@@ -1784,9 +1784,9 @@ If any load-bearing condition is unresolved:
 ESCALATE
 ```
 
----
+______________________________________________________________________
 
-# 79. Binding Escalation
+## 79. Binding Escalation
 
 Escalate when:
 
@@ -1806,9 +1806,9 @@ IRREVERSIBLE EFFECT
 
 can alter the outcome.
 
----
+______________________________________________________________________
 
-# 80. Atomic Multi-Binding Operation
+## 80. Atomic Multi-Binding Operation
 
 Some actions require several bindings to become valid together.
 
@@ -1841,9 +1841,9 @@ COMMIT ATOMICALLY
 
 when atomicity is required.
 
----
+______________________________________________________________________
 
-# 81. Partial Commit Hazard
+## 81. Partial Commit Hazard
 
 If:
 
@@ -1856,9 +1856,9 @@ and correctness requires both, the system must not expose a state equivalent to 
 
 Recovery must restore the nearest valid state.
 
----
+______________________________________________________________________
 
-# 82. Multi-RSCF Binding
+## 82. Multi-RSCF Binding
 
 Bindings crossing RSCF structures require atomic reasoning when partial interpretation can alter the result.
 
@@ -1878,9 +1878,9 @@ SCOPE
 EPOCH
 ```
 
----
+______________________________________________________________________
 
-# 83. Causal Epoch Binding
+## 83. Causal Epoch Binding
 
 A binding dependent on causal state must be associated with the causal epoch under which it was validated.
 
@@ -1897,9 +1897,9 @@ E → E+1
 
 then affected bindings require revalidation.
 
----
+______________________________________________________________________
 
-# 84. Commit-Time Binding Authority
+## 84. Commit-Time Binding Authority
 
 A binding validated during reasoning may no longer be valid at commit.
 
@@ -1918,9 +1918,9 @@ AT COMMIT
 COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 85. MVCC Binding
+## 85. MVCC Binding
 
 Conceptually:
 
@@ -1947,9 +1947,9 @@ REVALIDATE
 AFFECTED CLOSURE
 ```
 
----
+______________________________________________________________________
 
-# 86. CAS Binding
+## 86. CAS Binding
 
 For mutation:
 
@@ -1965,9 +1965,9 @@ Failure should trigger local rerouting or revalidation rather than blind overwri
 
 This is a conceptual AMOS architecture pattern, not a claim of implemented CAS storage.
 
----
+______________________________________________________________________
 
-# 87. Shard-Local Binding
+## 87. Shard-Local Binding
 
 A binding may finalize locally only when:
 
@@ -1984,9 +1984,9 @@ CAN ALTER VALIDITY
 
 Physical shard location alone is insufficient.
 
----
+______________________________________________________________________
 
-# 88. Coordination Avoidance
+## 88. Coordination Avoidance
 
 AMOS may avoid unnecessary global coordination when a proof establishes that relevant bindings are independent of external mutable state.
 
@@ -2005,9 +2005,9 @@ NO CONFLICT OBSERVED
 ASSUME LOCAL CLOSURE
 ```
 
----
+______________________________________________________________________
 
-# 89. Binding Finality
+## 89. Binding Finality
 
 Finality means the binding can be relied upon within its declared envelope.
 
@@ -2022,9 +2022,9 @@ FINAL
 
 can later become invalid under a new valid state.
 
----
+______________________________________________________________________
 
-# 90. Repair
+## 90. Repair
 
 When a binding fails:
 
@@ -2047,9 +2047,9 @@ CONTINUE
 
 Do not repeat the same failed path without changed evidence.
 
----
+______________________________________________________________________
 
-# 91. Rebinding
+## 91. Rebinding
 
 Rebinding replaces or repairs a relationship.
 
@@ -2063,9 +2063,9 @@ B_NEW
 
 The lineage between old and new bindings should remain recoverable when material.
 
----
+______________________________________________________________________
 
-# 92. Safe Rebinding
+## 92. Safe Rebinding
 
 For consequential bindings, prefer:
 
@@ -2079,9 +2079,9 @@ when safe and semantically permitted.
 
 This reduces avoidable invalid intermediate states.
 
----
+______________________________________________________________________
 
-# 93. Binding Harm
+## 93. Binding Harm
 
 Binding operations can cause harm by:
 
@@ -2098,9 +2098,9 @@ CREATING INVALID CAUSAL DEPENDENCY
 
 Risk constraints apply before consequential activation.
 
----
+______________________________________________________________________
 
-# 94. Information Exposure
+## 94. Information Exposure
 
 A binding may itself reveal sensitive information.
 
@@ -2122,9 +2122,9 @@ PRIVATE ATTRIBUTE
 
 Therefore the right to know or store a binding is separate from the right to expose it.
 
----
+______________________________________________________________________
 
-# 95. Binding Visibility
+## 95. Binding Visibility
 
 Conceptually:
 
@@ -2139,9 +2139,9 @@ binding_visibility:
 
 Exposure should follow authorization and necessity.
 
----
+______________________________________________________________________
 
-# 96. Binding Sensitivity
+## 96. Binding Sensitivity
 
 For consequential conclusions ask:
 
@@ -2162,9 +2162,9 @@ CONDITIONAL
 
 is appropriate.
 
----
+______________________________________________________________________
 
-# 97. Binding Adversarial Validation
+## 97. Binding Adversarial Validation
 
 Challenge important bindings using a genuinely different path:
 
@@ -2192,9 +2192,9 @@ PRESERVE COMPETING
 OR RETURN UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 98. Gap Handling
+## 98. Gap Handling
 
 Binding gaps are classified:
 
@@ -2224,9 +2224,9 @@ MISSING DISPLAY LABEL
 → COSMETIC
 ```
 
----
+______________________________________________________________________
 
-# 99. Observability Events
+## 99. Observability Events
 
 Recommended events:
 
@@ -2272,9 +2272,9 @@ BINDING_REPAIR_COMPLETED
 BINDING_REPAIR_FAILED
 ```
 
----
+______________________________________________________________________
 
-# 100. Kernel Invariants
+## 100. Kernel Invariants
 
 ```text
 KB-01
@@ -2503,9 +2503,9 @@ KB-75
 INTEGRITY MUST DOMINATE BINDING CONVENIENCE, SPEED, AND FLUENCY
 ```
 
----
+______________________________________________________________________
 
-# 101. Required Tests
+## 101. Required Tests
 
 ```text
 IDENTITY-PRESERVATION TEST
@@ -2600,9 +2600,9 @@ ADVERSARIAL-BINDING TEST
 CRITICAL-GAP TEST
 ```
 
----
+______________________________________________________________________
 
-# 102. Negative Tests
+## 102. Negative Tests
 
 ```text
 BOUND(A,B)
@@ -2696,9 +2696,9 @@ BINDING EXISTS
 MUST FAIL
 ```
 
----
+______________________________________________________________________
 
-# 103. Failure Modes
+## 103. Failure Modes
 
 ```text
 IDENTITY COLLAPSE
@@ -2766,9 +2766,9 @@ INFORMATION EXPOSURE
 UNAUTHORIZED RELATION DISCLOSURE
 ```
 
----
+______________________________________________________________________
 
-# 104. Interaction Matrix
+## 104. Interaction Matrix
 
 ```text
 K_DISTINCTION_RELATION_CONSTRAINT
@@ -2868,9 +2868,9 @@ DEPENDENCY_MAP
 → GOVERNS LOAD-BEARING DEPENDENCY TOPOLOGY
 ```
 
----
+______________________________________________________________________
 
-# 105. Promotion Gate
+## 105. Promotion Gate
 
 Before promotion beyond `AMOS_MODEL`, evidence should establish:
 
@@ -2953,9 +2953,9 @@ EMPIRICAL_VALIDATION = UNKNOWN/GAP
 FORMAL_VERIFICATION = UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 106. RSCF Node
+## 106. RSCF Node
 
 ```RSCF-NODE
 node_id: AMOS-OS-K-BINDING
@@ -3023,9 +3023,9 @@ RSCF-RELATIONS:
   - RECOVERED_BY: README
 ```
 
----
+______________________________________________________________________
 
-# 107. Canonical Summary
+## 107. Canonical Summary
 
 ```text
 K_BINDING
@@ -3200,13 +3200,14 @@ README
 **Classification:** `MODEL`. This replaces the empty placeholder with a substantive AMOS v4.4-aligned architectural specification, but it does not by itself promote `K_BINDING` to verified implementation or final canon. Runtime implementation, empirical validation, and formal verification remain `UNKNOWN/GAP` until supported by provenance-bearing evidence and the appropriate canon/supersession process.
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
-**MOC:** [[02_KERNEL/09_INTEGRATION/09_INTEGRATION_MOC|09_INTEGRATION_MOC]]
+______________________________________________________________________
 
+**MOC:** [[02_KERNEL/09_INTEGRATION/09_INTEGRATION_MOC|09_INTEGRATION_MOC]]

@@ -4,25 +4,22 @@ title: SKILL — Amos Narrative Integrity Governor
 type: skill
 source: 07_SKILLS/amos-narrative-integrity-governor
 name: amos-narrative-integrity-governor
-description: Narrative Integrity Governor — mind and behavior capability. Use when
-  psychological analysis, behavioral reasoning, or cognitive modeling. Use when amos-c05-mind-behavior-master
-  routes to this specialized capability. Do not use for generic tasks outside c05
-  domain.
+description: Narrative Integrity Governor — mind and behavior capability. Use when psychological analysis, behavioral reasoning, or cognitive modeling. Use when amos-c05-mind-behavior-master routes to this specialized capability. Do not use for generic tasks outside c05 domain.
 parent_skill: amos-c05-mind-behavior-master
 domain: c05
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
 tags:
-- type/skill
-- type/skill
-- domain/mind-behavior
-- epistemic/source_claim
-- hml/m
-- epistemic/source_claim
-- amos-os
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/mind-behavior
+  - epistemic/source_claim
+  - hml/m
+  - epistemic/source_claim
+  - amos-os
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -32,20 +29,20 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: M
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L16
-- L17
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L16
+  - L17
 license: MIT
 steward: Trang Phan
 ---
@@ -55,6 +52,7 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: c05. Parent: amos-c05-mind-behavior-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
 ## When to Use
 
 - When modeling cognitive processes: attention, awareness, compression
@@ -74,6 +72,7 @@ Origin architect: **Trang Phan**. Domain: c05. Parent: amos-c05-mind-behavior-ma
 - **narrative_integrity.govern_expression**: Govern artistic and emotional expression within healthy bounds
 
 > **Reference**: See `references/vault_domain_knowledge.md` (content_hash: 5b43952d71cab1c1) for the full vault-sourced domain knowledge (9047 chars).
+
 - **narrative_integrity.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
 - **narrative_integrity.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **narrative_integrity.validate_outputs**: Validate outputs against domain constraints and epistemic class.
@@ -81,12 +80,12 @@ Origin architect: **Trang Phan**. Domain: c05. Parent: amos-c05-mind-behavior-ma
 ## Operations
 
 1. **narrative_integrity.model_cognition**: Model cognitive processes: attention, awareness, compression, and inference
-2. **narrative_integrity.allocate_attention**: Allocate attention resources across competing demands and priorities
-3. **narrative_integrity.assess_awareness**: Assess awareness levels: meta-cognition, self-monitoring, and calibration
-4. **narrative_integrity.govern_expression**: Govern artistic and emotional expression within healthy bounds
-5. **narrative_integrity.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-6. **narrative_integrity.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
-7. **narrative_integrity.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+1. **narrative_integrity.allocate_attention**: Allocate attention resources across competing demands and priorities
+1. **narrative_integrity.assess_awareness**: Assess awareness levels: meta-cognition, self-monitoring, and calibration
+1. **narrative_integrity.govern_expression**: Govern artistic and emotional expression within healthy bounds
+1. **narrative_integrity.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+1. **narrative_integrity.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+1. **narrative_integrity.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## 11_KNOWLEDGE Vault Content
 
@@ -100,32 +99,37 @@ From Trang Reality Architecture: Narrative Integrity as self-story remaining coh
 **Narrative integrity definition**: Self-story remaining coherent with lived reality.
 
 **6 Dependencies of narrative integrity**:
+
 1. **Truthful memory**: memory must be truthful
-2. **Coherent values**: values must be coherent
-3. **Embodied alignment**: actions must align with stated values
-4. **Behavioral consistency**: behavior must be consistent over time
-5. **Reality contact**: the narrative must maintain contact with reality
-6. **Adaptive revision**: the narrative must adapt when reality changes
+1. **Coherent values**: values must be coherent
+1. **Embodied alignment**: actions must align with stated values
+1. **Behavioral consistency**: behavior must be consistent over time
+1. **Reality contact**: the narrative must maintain contact with reality
+1. **Adaptive revision**: the narrative must adapt when reality changes
 
 **4 Causes of narrative collapse**:
+
 1. Self-story contradicts reality
-2. Trauma fragments continuity
-3. Social masking replaces authenticity
-4. Awareness can no longer reconcile contradiction
+1. Trauma fragments continuity
+1. Social masking replaces authenticity
+1. Awareness can no longer reconcile contradiction
 
 **Anti-faking architecture** (from Trang Master Detail):
+
 - Penalizes narrative drift, deception gaps, value drift, and self-deception
 - Narrative integrity is symbolic continuity stabilization
 
 **Civilization narrative integrity** (from Universe OS):
+
 - `civilization narrative integrity` as system identity field
 - `knowledge_integrity_index: float[0..1]`
 - `civilization_type == CCI.Steward_State -> lower planetary entropy growth`
 
 **Governor laws**:
+
 - `NARRATIVE != FICTION`: narrative is self-story; fiction is deliberate invention
-- `INTEGRITY != CONSISTENCY**: integrity requires reality contact; consistency is internal only
-- `COLLAPSE != CHANGE**: collapse is integrity loss; change can be adaptive
+- \`INTEGRITY != CONSISTENCY\*\*: integrity requires reality contact; consistency is internal only
+- \`COLLAPSE != CHANGE\*\*: collapse is integrity loss; change can be adaptive
 
 ### Epistemic Boundary
 
@@ -137,9 +141,10 @@ Narrative integrity governance is an epistemic construct. It does not prove all 
 - **Scope violation**: If the query falls outside the skill's declared scope, escalate to the parent skill or steward.
 - **Binding broken**: If 1:1:1 binding (skill→agent→workflow) is broken, flag routing mismatch and block execution.
 - **Validation failure**: If validation gates fail, downgrade confidence, flag the gap, and escalate — do not force-fit.
-- **Epis
+- \*\*Epis
 
----
+______________________________________________________________________
+
 **Links:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 ## Related
@@ -149,17 +154,19 @@ Narrative integrity governance is an epistemic construct. It does not prove all 
 ## Examples
 
 - **Scenario**: When modeling cognitive processes: attention, awareness, compression
+
   - **Input**: A query matching this skill's domain (c05)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When allocating attention resources across competing demands
+
   - **Input**: A query matching this skill's domain (c05)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When assessing awareness levels and meta-cognition
+
   - **Input**: A query matching this skill's domain (c05)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Validation Gates
 
@@ -176,7 +183,6 @@ Narrative integrity governance is an epistemic construct. It does not prove all 
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `amos-c05-mind-behavior-master` — routes to this skill when c05 specialization is needed
@@ -184,7 +190,6 @@ Narrative integrity governance is an epistemic construct. It does not prove all 
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -203,7 +208,6 @@ Narrative integrity governance is an epistemic construct. It does not prove all 
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -211,7 +215,6 @@ Narrative integrity governance is an epistemic construct. It does not prove all 
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -224,11 +227,12 @@ Narrative integrity governance is an epistemic construct. It does not prove all 
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `amos-c05-mind-behavior-master` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `amos-narrative-integrity-governor-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -236,12 +240,14 @@ Narrative integrity governance is an epistemic construct. It does not prove all 
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-narrative-integrity-governor
 node_type: skill
 path: 07_SKILLS/amos-narrative-integrity-governor/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

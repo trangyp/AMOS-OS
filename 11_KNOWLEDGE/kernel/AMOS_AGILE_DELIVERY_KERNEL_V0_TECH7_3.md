@@ -1,21 +1,25 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: AMOS_AGILE_DELIVERY_KERNEL_V0_TECH7_3
 type: note
 source: 11_KNOWLEDGE
 tags:
-- vault
-- 11_knowledge
+  - vault
+  - 11_knowledge
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
   provenance: AMOS_corpus
   scope: AMOS_knowledge
 ---
+
 # AMOS AGILE DELIVERY KERNEL V0 TECH7 3
 
 ## Full Canonical Expansion — Source-Grounded, RSCF-Aware, Obsidian-Ready
 
-> [!abstract] Canonical conclusion
+> [!ABSTRACT] Canonical conclusion
 > **Conclusion class: DERIVED**
 >
 > `AMOS AGILE DELIVERY KERNEL V0 TECH7 3` is a source-defined AMOS delivery-governance kernel covering four explicit operational functions:
@@ -28,9 +32,9 @@ rscf:
 >
 > **a conceptual agile-delivery coordination and measurement contract inside the AMOS knowledge corpus, not independently verified delivery software or a complete formal theory of agile execution.**
 
----
+______________________________________________________________________
 
-# 1. Normalized Source Frontmatter
+## 1. Normalized Source Frontmatter
 
 The following preserves the supplied metadata. Escaping has been normalized for Markdown readability; no new source fields are inserted.
 
@@ -58,9 +62,9 @@ rscf:
 ---
 ```
 
----
+______________________________________________________________________
 
-# 2. Source Artifact
+## 2. Source Artifact
 
 ```json
 {
@@ -147,11 +151,11 @@ Source MOC:
 
 The supplied `Related:` field contains no populated links.
 
----
+______________________________________________________________________
 
-# 3. Derived / Proposed Obsidian Augmentation
+## 3. Derived / Proposed Obsidian Augmentation
 
-> [!warning] DERIVED / PROPOSED
+> [!WARNING] DERIVED / PROPOSED
 > Everything in this section extends the supplied artifact for vault usability. It is **not** represented as original source metadata.
 
 ```yaml
@@ -191,9 +195,9 @@ rscf_node_type: kernel
 rscf_retrieval_priority: M
 ```
 
----
+______________________________________________________________________
 
-# 4. Artifact Identity
+## 4. Artifact Identity
 
 The source exposes two naming layers:
 
@@ -230,16 +234,16 @@ TitleVersionSemantics = UNKNOWN/GAP
 Possible interpretations include:
 
 1. `V0` is the knowledge-artifact generation.
-2. `1.0.0` is the internal kernel specification version.
-3. `TECH7` identifies a technical corpus grouping.
-4. `3` identifies a variant, revision, or extraction.
-5. Some or all are legacy naming residues.
+1. `1.0.0` is the internal kernel specification version.
+1. `TECH7` identifies a technical corpus grouping.
+1. `3` identifies a variant, revision, or extraction.
+1. Some or all are legacy naming residues.
 
 There is insufficient evidence to select among these.
 
----
+______________________________________________________________________
 
-# 5. Epistemic Boundary
+## 5. Epistemic Boundary
 
 The artifact explicitly declares:
 
@@ -273,9 +277,9 @@ the kernel has been experimentally validated
 
 Those require separate evidence.
 
----
+______________________________________________________________________
 
-# 6. Core Kernel Definition
+## 6. Core Kernel Definition
 
 The source defines:
 
@@ -295,13 +299,13 @@ AgileMetrics
 \}
 $$
 
-where \(K_{AD}\) denotes the conceptual Agile Delivery Kernel.
+where (K\_{AD}) denotes the conceptual Agile Delivery Kernel.
 
 **Class: DERIVED representation of SOURCE_CLAIM.**
 
----
+______________________________________________________________________
 
-# 7. Operational Scope
+## 7. Operational Scope
 
 The fuller kernel description adds:
 
@@ -338,16 +342,16 @@ $$
 
 where:
 
-- \(P\) = planning,
-- \(F\) = flow management,
-- \(L\) = retrospective learning,
-- \(M\) = measurement.
+- (P) = planning,
+- (F) = flow management,
+- (L) = retrospective learning,
+- (M) = measurement.
 
 This decomposition is DERIVED rather than explicit source terminology.
 
----
+______________________________________________________________________
 
-# 8. Explicit Function Inventory
+## 8. Explicit Function Inventory
 
 The source defines exactly four function objects:
 
@@ -366,9 +370,9 @@ $$
 
 This count is source-grounded.
 
----
+______________________________________________________________________
 
-# 9. Function Contract Model
+## 9. Function Contract Model
 
 Each function follows approximately:
 
@@ -397,9 +401,9 @@ agile_metrics:
 
 The source does not provide transformation algorithms between these sets.
 
----
+______________________________________________________________________
 
-# 10. Scrum Planning Function
+## 10. Scrum Planning Function
 
 Source contract:
 
@@ -431,21 +435,21 @@ $$
 
 where:
 
-- \(B\) = product backlog,
-- \(C\) = team capacity,
-- \(G\) = sprint goal,
-- \(V\) = past velocity,
-- \(SB\) = sprint backlog,
-- \(SP\) = sprint plan,
-- \(CE\) = commitment estimate.
+- (B) = product backlog,
+- (C) = team capacity,
+- (G) = sprint goal,
+- (V) = past velocity,
+- (SB) = sprint backlog,
+- (SP) = sprint plan,
+- (CE) = commitment estimate.
 
 This equation describes the source interface only.
 
 It is **not** a source-supplied calculation.
 
----
+______________________________________________________________________
 
-# 11. Scrum Input — Product Backlog
+## 11. Scrum Input — Product Backlog
 
 `product_backlog` is explicitly required.
 
@@ -467,9 +471,9 @@ ProductBacklogType = SOURCE_DEFINED_NAME
 ProductBacklogSchema = UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 12. Scrum Input — Team Capacity
+## 12. Scrum Input — Team Capacity
 
 `team_capacity` is explicit.
 
@@ -491,9 +495,9 @@ or any other standard interpretation.
 
 Possible representations remain competing.
 
----
+______________________________________________________________________
 
-# 13. Capacity Is Not Velocity
+## 13. Capacity Is Not Velocity
 
 A critical semantic distinction:
 
@@ -507,9 +511,9 @@ Therefore the source architecture itself implies that historical throughput and 
 
 This is a strong structural inference.
 
----
+______________________________________________________________________
 
-# 14. Scrum Input — Sprint Goal
+## 14. Scrum Input — Sprint Goal
 
 `sprint_goal` is explicit.
 
@@ -523,11 +527,11 @@ $$
 
 **DERIVED.**
 
-The function \(f\) is unspecified.
+The function (f) is unspecified.
 
----
+______________________________________________________________________
 
-# 15. Scrum Input — Past Velocity
+## 15. Scrum Input — Past Velocity
 
 `past_velocity` introduces historical delivery evidence.
 
@@ -554,9 +558,9 @@ scope changes
 confidence intervals
 ```
 
----
+______________________________________________________________________
 
-# 16. Scrum Output — Sprint Backlog
+## 16. Scrum Output — Sprint Backlog
 
 `sprint_backlog` is a source-defined output.
 
@@ -572,9 +576,9 @@ The source does not specify whether it contains:
 
 Do not invent the schema.
 
----
+______________________________________________________________________
 
-# 17. Scrum Output — Sprint Plan
+## 17. Scrum Output — Sprint Plan
 
 `sprint_plan` is distinct from `sprint_backlog`.
 
@@ -595,9 +599,9 @@ Sprint Plan = execution arrangement
 
 but that interpretation is DERIVED.
 
----
+______________________________________________________________________
 
-# 18. Scrum Output — Commitment Estimate
+## 18. Scrum Output — Commitment Estimate
 
 `commitment_estimate` is particularly important.
 
@@ -618,9 +622,9 @@ CommitmentEstimateSemantics = UNKNOWN/GAP
 
 It must not be silently interpreted as a probability.
 
----
+______________________________________________________________________
 
-# 19. Commitment Firewall
+## 19. Commitment Firewall
 
 A safe governance law is:
 
@@ -638,9 +642,9 @@ These are DERIVED integrity requirements.
 
 Nothing in the source licenses deterministic certainty about future delivery.
 
----
+______________________________________________________________________
 
-# 20. Scrum Planning Evidence Topology
+## 20. Scrum Planning Evidence Topology
 
 The inputs span different evidence classes:
 
@@ -665,9 +669,9 @@ to produce planning outputs.
 
 This is one of the strongest architectural properties of the kernel.
 
----
+______________________________________________________________________
 
-# 21. Kanban Flow Function
+## 21. Kanban Flow Function
 
 Source:
 
@@ -698,19 +702,19 @@ $$
 
 where:
 
-- \(W\) = work items,
-- \(L\) = WIP limits,
-- \(C\) = cycle-time data,
-- \(D\) = flow diagrams,
-- \(B\) = Kanban board,
-- \(M\) = flow metrics,
-- \(X\) = bottleneck identification.
+- (W) = work items,
+- (L) = WIP limits,
+- (C) = cycle-time data,
+- (D) = flow diagrams,
+- (B) = Kanban board,
+- (M) = flow metrics,
+- (X) = bottleneck identification.
 
 Again, the function is a structural representation, not supplied executable mathematics.
 
----
+______________________________________________________________________
 
-# 22. Kanban Input — Work Items
+## 22. Kanban Input — Work Items
 
 `work_items` is explicit.
 
@@ -733,9 +737,9 @@ completion time
 
 None should be added as canonical source fields.
 
----
+______________________________________________________________________
 
-# 23. Kanban Input — WIP Limits
+## 23. Kanban Input — WIP Limits
 
 `wip_limits` establishes an explicit flow-control mechanism.
 
@@ -751,9 +755,9 @@ But the source never gives this equation.
 
 Therefore this is a **MODEL/DERIVED interpretation**, not a recovered source law.
 
----
+______________________________________________________________________
 
-# 24. WIP Limit Semantics
+## 24. WIP Limit Semantics
 
 Unknown:
 
@@ -771,9 +775,9 @@ So:
 WIPLimitPolicy = UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 25. Kanban Input — Cycle Time Data
+## 25. Kanban Input — Cycle Time Data
 
 `cycle_time_data` introduces temporal observations of work-item progression.
 
@@ -787,9 +791,9 @@ $$
 
 is not canonically instantiated until event semantics are defined.
 
----
+______________________________________________________________________
 
-# 26. Kanban Input — Flow Diagrams
+## 26. Kanban Input — Flow Diagrams
 
 `flow_diagrams` is explicit.
 
@@ -803,9 +807,9 @@ The source does not specify whether these are:
 
 Because the capability list separately names `cumulative flow`, treating all `flow_diagrams` as cumulative-flow diagrams would be unsupported.
 
----
+______________________________________________________________________
 
-# 27. Kanban Output — Kanban Board
+## 27. Kanban Output — Kanban Board
 
 `kanban_board` is an output despite work items already being an input.
 
@@ -819,9 +823,9 @@ $$
 
 but board topology remains undefined.
 
----
+______________________________________________________________________
 
-# 28. Kanban Output — Flow Metrics
+## 28. Kanban Output — Flow Metrics
 
 `flow_metrics` is generated by the Kanban function.
 
@@ -839,9 +843,9 @@ A strong DERIVED interpretation is that some or all may populate `flow_metrics`.
 
 However, the source does not explicitly map each capability metric to this output.
 
----
+______________________________________________________________________
 
-# 29. Kanban Output — Bottleneck Identification
+## 29. Kanban Output — Bottleneck Identification
 
 The kernel claims an output:
 
@@ -872,9 +876,9 @@ BottleneckIdentification
 CausalDiagnosis
 $$
 
----
+______________________________________________________________________
 
-# 30. Bottleneck Causal Firewall
+## 30. Bottleneck Causal Firewall
 
 A queue or flow anomaly may identify a location of congestion.
 
@@ -902,9 +906,9 @@ Possible explanations may include:
 
 Without discriminating evidence, they remain competing explanations.
 
----
+______________________________________________________________________
 
-# 31. Retrospective Function
+## 31. Retrospective Function
 
 Source:
 
@@ -935,17 +939,17 @@ $$
 
 where:
 
-- \(S\) = sprint data,
-- \(F\) = team feedback,
-- \(M\) = metric trends,
-- \(I\) = incident history,
-- \(R\) = retrospective insights,
-- \(A\) = action items,
-- \(P\) = process improvements.
+- (S) = sprint data,
+- (F) = team feedback,
+- (M) = metric trends,
+- (I) = incident history,
+- (R) = retrospective insights,
+- (A) = action items,
+- (P) = process improvements.
 
----
+______________________________________________________________________
 
-# 32. Retrospective Evidence Diversity
+## 32. Retrospective Evidence Diversity
 
 The retrospective combines:
 
@@ -960,9 +964,9 @@ This is structurally significant.
 
 It means the source does not reduce retrospective reasoning to metrics alone.
 
----
+______________________________________________________________________
 
-# 33. Team Feedback
+## 33. Team Feedback
 
 `team_feedback` is an explicit input.
 
@@ -976,9 +980,9 @@ At least conceptually, the kernel recognizes human feedback as an independent in
 
 But independence of provenance is not guaranteed.
 
----
+______________________________________________________________________
 
-# 34. Sprint Data
+## 34. Sprint Data
 
 `sprint_data` is reused elsewhere in the kernel.
 
@@ -995,9 +999,9 @@ This creates correlated provenance.
 
 If both downstream functions reach the same conclusion from the same sprint data, that agreement is not automatically independent corroboration.
 
----
+______________________________________________________________________
 
-# 35. Metrics Trends
+## 35. Metrics Trends
 
 `metrics_trends` introduces temporal aggregation.
 
@@ -1017,9 +1021,9 @@ Thus:
 TrendAlgorithm = UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 36. Incident History
+## 36. Incident History
 
 `incident_history` adds failure/quality evidence to retrospective reasoning.
 
@@ -1031,9 +1035,9 @@ IncidentHistory != RootCauseProof
 
 Incident records may establish events without establishing their causes.
 
----
+______________________________________________________________________
 
-# 37. Retrospective Insights
+## 37. Retrospective Insights
 
 `retrospective_insights` are derived outputs.
 
@@ -1047,9 +1051,9 @@ unless an insight merely restates an observation.
 
 They should not automatically be promoted to verified causal findings.
 
----
+______________________________________________________________________
 
-# 38. Action Items
+## 38. Action Items
 
 The source transforms retrospective inputs into `action_items`.
 
@@ -1067,9 +1071,9 @@ The middle step matters.
 
 An action can be justified under uncertainty without the underlying explanation being causally proven.
 
----
+______________________________________________________________________
 
-# 39. Process Improvements
+## 39. Process Improvements
 
 `process_improvements` is an output label.
 
@@ -1087,9 +1091,9 @@ The source does not define this distinction explicitly.
 
 It is a DERIVED governance hardening.
 
----
+______________________________________________________________________
 
-# 40. Retrospective Learning Loop
+## 40. Retrospective Learning Loop
 
 A natural derived loop is:
 
@@ -1111,9 +1115,9 @@ But the source does not explicitly define feedback routing into the next sprint.
 
 Therefore the loop is architectural inference rather than direct source specification.
 
----
+______________________________________________________________________
 
-# 41. Agile Metrics Function
+## 41. Agile Metrics Function
 
 Source:
 
@@ -1144,17 +1148,17 @@ $$
 
 where:
 
-- \(S\) = sprint data,
-- \(F\) = flow data,
-- \(V\) = team velocity,
-- \(Q\) = quality metrics,
-- \(D\) = metrics dashboard,
-- \(T\) = trend analysis,
-- \(P\) = predictive estimates.
+- (S) = sprint data,
+- (F) = flow data,
+- (V) = team velocity,
+- (Q) = quality metrics,
+- (D) = metrics dashboard,
+- (T) = trend analysis,
+- (P) = predictive estimates.
 
----
+______________________________________________________________________
 
-# 42. Metrics Input Topology
+## 42. Metrics Input Topology
 
 The function integrates four measurement domains:
 
@@ -1175,11 +1179,11 @@ DeliveryMeasurement
 f(Sprint, Flow, Velocity, Quality)
 $$
 
-with \(f\) unresolved.
+with (f) unresolved.
 
----
+______________________________________________________________________
 
-# 43. Metrics Dashboard
+## 43. Metrics Dashboard
 
 `metrics_dashboard` is a reporting output.
 
@@ -1199,9 +1203,9 @@ $$
 Visualization \neq Validation
 $$
 
----
+______________________________________________________________________
 
-# 44. Trend Analysis
+## 44. Trend Analysis
 
 `trend_analysis` is a derived analytical output.
 
@@ -1211,9 +1215,9 @@ Possible methods include descriptive trend lines, moving averages, statistical p
 
 These remain **COMPETING** until another source binds the implementation.
 
----
+______________________________________________________________________
 
-# 45. Predictive Estimates
+## 45. Predictive Estimates
 
 `predictive_estimates` is the strongest forecasting claim in the artifact.
 
@@ -1237,9 +1241,9 @@ PredictiveModel = UNKNOWN/GAP
 PredictiveAccuracy = UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 46. Prediction Firewall
+## 46. Prediction Firewall
 
 Core derived law:
 
@@ -1259,9 +1263,9 @@ $$
 HistoricalCorrelation \neq FutureCausation
 $$
 
----
+______________________________________________________________________
 
-# 47. Capability Inventory
+## 47. Capability Inventory
 
 The source declares four capability groups:
 
@@ -1278,9 +1282,9 @@ $$
 |CapabilityGroups| = 4
 $$
 
----
+______________________________________________________________________
 
-# 48. Scrum Framework Capability
+## 48. Scrum Framework Capability
 
 Source:
 
@@ -1307,9 +1311,9 @@ sprint_review
 
 This is a meaningful source asymmetry.
 
----
+______________________________________________________________________
 
-# 49. Capability-to-Function Coverage Gap
+## 49. Capability-to-Function Coverage Gap
 
 Let:
 
@@ -1348,16 +1352,16 @@ This is not necessarily contradictory.
 Possible explanations:
 
 1. Some capabilities are descriptive rather than callable.
-2. Daily Scrum and review are embedded in another function.
-3. Functions are intentionally coarse.
-4. Implementation is incomplete.
-5. The capability inventory and function inventory are at different abstraction levels.
+1. Daily Scrum and review are embedded in another function.
+1. Functions are intentionally coarse.
+1. Implementation is incomplete.
+1. The capability inventory and function inventory are at different abstraction levels.
 
 Status: **COMPETING**.
 
----
+______________________________________________________________________
 
-# 50. Kanban Capability
+## 50. Kanban Capability
 
 Source:
 
@@ -1372,9 +1376,9 @@ This maps more directly to the explicit `kanban_flow` function.
 
 However, `continuous delivery` has no explicit function or implementation contract.
 
----
+______________________________________________________________________
 
-# 51. Continuous Delivery Boundary
+## 51. Continuous Delivery Boundary
 
 The phrase `continuous delivery` should not automatically be interpreted as:
 
@@ -1388,9 +1392,9 @@ The source only lists it as a Kanban capability.
 
 Exact semantics remain unresolved.
 
----
+______________________________________________________________________
 
-# 52. Hybrid Approaches
+## 52. Hybrid Approaches
 
 Source:
 
@@ -1418,9 +1422,9 @@ $$
 
 But no routing algorithm selects among them.
 
----
+______________________________________________________________________
 
-# 53. Hybrid Routing Gap
+## 53. Hybrid Routing Gap
 
 Unknown:
 
@@ -1438,9 +1442,9 @@ Thus:
 MethodSelectionPolicy = UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 54. Metrics Capability
+## 54. Metrics Capability
 
 Source lists:
 
@@ -1455,9 +1459,9 @@ Cumulative flow
 
 This is the explicit metric vocabulary.
 
----
+______________________________________________________________________
 
-# 55. Metric Set
+## 55. Metric Set
 
 Define the source-grounded metric set:
 
@@ -1475,18 +1479,18 @@ $$
 
 where:
 
-- \(V\) = velocity,
-- \(CT\) = cycle time,
-- \(LT\) = lead time,
-- \(TP\) = throughput,
-- \(WIP\) = work in progress,
-- \(CF\) = cumulative flow.
+- (V) = velocity,
+- (CT) = cycle time,
+- (LT) = lead time,
+- (TP) = throughput,
+- (WIP) = work in progress,
+- (CF) = cumulative flow.
 
 This notation is DERIVED.
 
----
+______________________________________________________________________
 
-# 56. Metric Definitions Are Missing
+## 56. Metric Definitions Are Missing
 
 The source names these metrics but does not define their mathematical semantics.
 
@@ -1512,9 +1516,9 @@ $$
 
 These may be conventional interpretations, but they are external knowledge unless bound by another AMOS artifact.
 
----
+______________________________________________________________________
 
-# 57. Velocity Semantics
+## 57. Velocity Semantics
 
 Velocity appears twice:
 
@@ -1535,9 +1539,9 @@ but this is DERIVED.
 
 The source does not define units.
 
----
+______________________________________________________________________
 
-# 58. Velocity Is Local
+## 58. Velocity Is Local
 
 A critical governance principle:
 
@@ -1551,9 +1555,9 @@ unless their estimation systems and scopes are proven compatible.
 
 This principle is not explicitly source-stated but follows from metric-integrity requirements.
 
----
+______________________________________________________________________
 
-# 59. Metric Comparison Firewall
+## 59. Metric Comparison Firewall
 
 Never infer:
 
@@ -1579,9 +1583,9 @@ $$
 
 without outcome evidence.
 
----
+______________________________________________________________________
 
-# 60. Measurement Versus Goal
+## 60. Measurement Versus Goal
 
 The kernel distinguishes:
 
@@ -1595,9 +1599,9 @@ This is valuable structurally.
 
 It means delivery measurement is not explicitly collapsed into a single performance score.
 
----
+______________________________________________________________________
 
-# 61. Quality Metrics
+## 61. Quality Metrics
 
 `quality_metrics` is an input but no quality metrics are enumerated.
 
@@ -1617,9 +1621,9 @@ Do not invent:
 
 Those may be candidates but are not source-grounded here.
 
----
+______________________________________________________________________
 
-# 62. Agile Delivery State Model
+## 62. Agile Delivery State Model
 
 A useful derived state representation is:
 
@@ -1637,12 +1641,12 @@ $$
 
 where:
 
-- \(B_t\): backlog/work state,
-- \(C_t\): capacity state,
-- \(G_t\): goal,
-- \(F_t\): flow state,
-- \(Q_t\): quality evidence,
-- \(H_t\): historical evidence.
+- (B_t): backlog/work state,
+- (C_t): capacity state,
+- (G_t): goal,
+- (F_t): flow state,
+- (Q_t): quality evidence,
+- (H_t): historical evidence.
 
 Then:
 
@@ -1659,9 +1663,9 @@ $$
 
 This is a derived formalization only.
 
----
+______________________________________________________________________
 
-# 63. Four-Function Architecture
+## 63. Four-Function Architecture
 
 The kernel can be compressed into:
 
@@ -1679,9 +1683,9 @@ However, the source does not specify sequential execution.
 
 Therefore this diagram is conceptual.
 
----
+______________________________________________________________________
 
-# 64. Alternative Architecture
+## 64. Alternative Architecture
 
 A more source-faithful representation is parallel:
 
@@ -1694,9 +1698,9 @@ Delivery Evidence ──┼─ Kanban Flow
 
 This avoids asserting execution order.
 
----
+______________________________________________________________________
 
-# 65. Shared Data Dependencies
+## 65. Shared Data Dependencies
 
 Several concepts appear across functions.
 
@@ -1716,9 +1720,9 @@ Flow:
 
 This creates potential data dependencies.
 
----
+______________________________________________________________________
 
-# 66. Derived Dependency Graph
+## 66. Derived Dependency Graph
 
 ```mermaid
 flowchart TD
@@ -1745,9 +1749,9 @@ flowchart TD
 
 **DERIVED graph.**
 
----
+______________________________________________________________________
 
-# 67. Output Graph
+## 67. Output Graph
 
 ```mermaid
 flowchart LR
@@ -1768,9 +1772,9 @@ flowchart LR
     AM --> PE[Predictive Estimates]
 ```
 
----
+______________________________________________________________________
 
-# 68. Input Count
+## 68. Input Count
 
 Each explicit function has four inputs.
 
@@ -1782,9 +1786,9 @@ $$
 
 source-listed input positions.
 
----
+______________________________________________________________________
 
-# 69. Output Count
+## 69. Output Count
 
 Each function has three outputs.
 
@@ -1798,9 +1802,9 @@ source-listed output positions.
 
 This counts positions, not necessarily unique semantic entities.
 
----
+______________________________________________________________________
 
-# 70. Kernel Structural Symmetry
+## 70. Kernel Structural Symmetry
 
 The source has a notable regularity:
 
@@ -1820,9 +1824,9 @@ Whether this is deliberate architecture or formatting convention is unknown.
 
 Structural regularity alone does not establish a hidden Rule-of-4/Rule-of-3 mechanism.
 
----
+______________________________________________________________________
 
-# 71. Do Not Reverse-Engineer Numerical Coincidences
+## 71. Do Not Reverse-Engineer Numerical Coincidences
 
 The four functions × four inputs pattern must not be used to infer an undocumented AMOS universal law.
 
@@ -1833,9 +1837,9 @@ Pattern repetition → candidate design regularity
 Pattern repetition ≠ canonical hidden mechanism
 ```
 
----
+______________________________________________________________________
 
-# 72. Data-to-Decision Layers
+## 72. Data-to-Decision Layers
 
 The kernel outputs fall into several classes.
 
@@ -1868,9 +1872,9 @@ process_improvements
 
 This taxonomy is DERIVED.
 
----
+______________________________________________________________________
 
-# 73. Evidence-Type Classification
+## 73. Evidence-Type Classification
 
 A v4.4-compatible classification can be proposed:
 
@@ -1891,9 +1895,9 @@ A v4.4-compatible classification can be proposed:
 
 This is a **PROPOSED governance mapping**, not source metadata.
 
----
+______________________________________________________________________
 
-# 74. Source Claim Versus Observation
+## 74. Source Claim Versus Observation
 
 A team member saying:
 
@@ -1909,9 +1913,9 @@ A model inferring review congestion will persist next sprint is a prediction.
 
 These should not be collapsed.
 
----
+______________________________________________________________________
 
-# 75. Provenance Requirement
+## 75. Provenance Requirement
 
 Every consequential delivery conclusion should ideally preserve:
 
@@ -1929,9 +1933,9 @@ assumptions
 
 This is derived AMOS hardening.
 
----
+______________________________________________________________________
 
-# 76. Scope Firewall
+## 76. Scope Firewall
 
 A metric must inherit its scope.
 
@@ -1950,9 +1954,9 @@ $$
 
 Thus a velocity result should not silently transfer to another team or regime.
 
----
+______________________________________________________________________
 
-# 77. Regime Firewall
+## 77. Regime Firewall
 
 Delivery processes can change.
 
@@ -1980,9 +1984,9 @@ $$
 
 without compatibility validation.
 
----
+______________________________________________________________________
 
-# 78. Freshness
+## 78. Freshness
 
 The artifact provides no:
 
@@ -2003,9 +2007,9 @@ Therefore:
 ArtifactFreshnessPolicy = UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 79. Predictive Freshness
+## 79. Predictive Freshness
 
 Forecasting should conceptually require:
 
@@ -2017,9 +2021,9 @@ but no freshness bound exists in the source.
 
 Hence predictive estimates cannot be assigned source-grounded confidence from this artifact alone.
 
----
+______________________________________________________________________
 
-# 80. Metric Provenance Independence
+## 80. Metric Provenance Independence
 
 Suppose:
 
@@ -2041,9 +2045,9 @@ SharedAncestor(A,B,C)
 Independence \neq Established
 $$
 
----
+______________________________________________________________________
 
-# 81. Sybil-Hardening Analogy
+## 81. Sybil-Hardening Analogy
 
 In an AMOS provenance sense, duplicating one metric through multiple reports must not amplify confidence.
 
@@ -2055,9 +2059,9 @@ $$
 
 does not produce ten independent pieces of evidence.
 
----
+______________________________________________________________________
 
-# 82. Metric Gaming Risk
+## 82. Metric Gaming Risk
 
 A metric can become a target.
 
@@ -2071,9 +2075,9 @@ A derived safeguard is:
 Metric optimization must not substitute for outcome validation.
 ```
 
----
+______________________________________________________________________
 
-# 83. Velocity Gaming Example
+## 83. Velocity Gaming Example
 
 If teams maximize velocity by inflating estimates:
 
@@ -2089,9 +2093,9 @@ $$
 MetricIncrease \neq OutcomeImprovement
 $$
 
----
+______________________________________________________________________
 
-# 84. Throughput Gaming Example
+## 84. Throughput Gaming Example
 
 Splitting work into smaller items can increase item throughput without proportionally increasing delivered value.
 
@@ -2103,9 +2107,9 @@ $$
 
 requires stable item semantics before longitudinal comparison.
 
----
+______________________________________________________________________
 
-# 85. WIP Gaming Example
+## 85. WIP Gaming Example
 
 Reducing formally counted WIP while moving hidden work outside the board can improve the metric without improving actual flow.
 
@@ -2117,9 +2121,9 @@ $$
 
 depends on measurement boundary.
 
----
+______________________________________________________________________
 
-# 86. Measurement Boundary Law
+## 86. Measurement Boundary Law
 
 A proposed integrity invariant:
 
@@ -2131,9 +2135,9 @@ $$
 
 If the work boundary is incomplete, the metric cannot be treated as complete evidence of system behavior.
 
----
+______________________________________________________________________
 
-# 87. Metric Unit Integrity
+## 87. Metric Unit Integrity
 
 The source gives metric names but no units.
 
@@ -2149,9 +2153,9 @@ Velocity in ideal days
 
 cannot automatically be compared.
 
----
+______________________________________________________________________
 
-# 88. Semantic Axis Compatibility
+## 88. Semantic Axis Compatibility
 
 Borrowing the AMOS tensor-composition discipline:
 
@@ -2165,11 +2169,11 @@ Two teams both using `cycle_time` may use different start events.
 
 Therefore semantic compatibility must be checked before composition.
 
----
+______________________________________________________________________
 
-# 89. Composition Contract
+## 89. Composition Contract
 
-For two delivery metrics \(M_A\) and \(M_B\), safe comparison requires at minimum:
+For two delivery metrics (M_A) and (M_B), safe comparison requires at minimum:
 
 $$
 CompatibleDefinition(A,B)
@@ -2189,9 +2193,9 @@ $$
 
 This is DERIVED governance.
 
----
+______________________________________________________________________
 
-# 90. MECE Assessment
+## 90. MECE Assessment
 
 The four functions are reasonably distinct but not perfectly MECE.
 
@@ -2210,9 +2214,9 @@ This is not necessarily an error.
 
 It may represent layered responsibility.
 
----
+______________________________________________________________________
 
-# 91. Flow Metrics Versus Agile Metrics
+## 91. Flow Metrics Versus Agile Metrics
 
 The source distinguishes:
 
@@ -2240,9 +2244,9 @@ is plausible but not explicit.
 
 Status: **DERIVED/CONDITIONAL**.
 
----
+______________________________________________________________________
 
-# 92. Metrics Trends Versus Trend Analysis
+## 92. Metrics Trends Versus Trend Analysis
 
 Retrospective consumes:
 
@@ -2270,9 +2274,9 @@ But explicit binding is absent.
 
 Therefore identity is not established.
 
----
+______________________________________________________________________
 
-# 93. Flow Data Versus Flow Metrics
+## 93. Flow Data Versus Flow Metrics
 
 `agile_metrics` consumes `flow_data`.
 
@@ -2294,9 +2298,9 @@ $$
 
 but even that requires implementation details.
 
----
+______________________________________________________________________
 
-# 94. Sprint Data Provenance
+## 94. Sprint Data Provenance
 
 Sprint data feeds two functions:
 
@@ -2318,9 +2322,9 @@ This creates a shared evidence dependency.
 
 A conclusion derived from both may still depend on the same underlying sprint record.
 
----
+______________________________________________________________________
 
-# 95. Retrospective-Metrics Feedback Candidate
+## 95. Retrospective-Metrics Feedback Candidate
 
 A plausible derived architecture is:
 
@@ -2352,22 +2356,22 @@ $$
 
 But neither edge is explicitly declared.
 
----
+______________________________________________________________________
 
-# 96. Recursive Improvement Risk
+## 96. Recursive Improvement Risk
 
 Recursive process improvement can become self-confirming if:
 
 1. the kernel recommends a process change,
-2. the kernel selects the metric used to judge the change,
-3. the metric is interpreted by the same assumptions,
-4. the kernel concludes its recommendation succeeded.
+1. the kernel selects the metric used to judge the change,
+1. the metric is interpreted by the same assumptions,
+1. the kernel concludes its recommendation succeeded.
 
 Therefore independent outcome criteria matter.
 
----
+______________________________________________________________________
 
-# 97. Recursive Validation Firewall
+## 97. Recursive Validation Firewall
 
 A derived law:
 
@@ -2385,9 +2389,9 @@ SelfSelectedMetric
 IndependentOutcomeEvidence
 $$
 
----
+______________________________________________________________________
 
-# 98. Retrospective Causal Discipline
+## 98. Retrospective Causal Discipline
 
 Suppose cycle time increased after a process change.
 
@@ -2409,9 +2413,9 @@ $$
 
 Potential confounders must remain visible.
 
----
+______________________________________________________________________
 
-# 99. Causal Evidence Ladder
+## 99. Causal Evidence Ladder
 
 A useful derived classification:
 
@@ -2431,9 +2435,9 @@ The source does not define this ladder.
 
 It is governance augmentation.
 
----
+______________________________________________________________________
 
-# 100. Agile Metrics Are Not Causal Metrics
+## 100. Agile Metrics Are Not Causal Metrics
 
 None of:
 
@@ -2452,9 +2456,9 @@ They are measurements/derived representations.
 
 Causal interpretation requires additional evidence.
 
----
+______________________________________________________________________
 
-# 101. Prediction Is Especially Fragile Under Regime Shift
+## 101. Prediction Is Especially Fragile Under Regime Shift
 
 If:
 
@@ -2474,9 +2478,9 @@ $$
 
 is a recommended derived invariant.
 
----
+______________________________________________________________________
 
-# 102. Commitment Estimate Sensitivity
+## 102. Commitment Estimate Sensitivity
 
 Potentially decision-changing premises include:
 
@@ -2494,9 +2498,9 @@ Dependencies are not explicitly included.
 
 Therefore dependency-aware commitment estimation is a source gap.
 
----
+______________________________________________________________________
 
-# 103. Dependency Gap
+## 103. Dependency Gap
 
 No function explicitly lists:
 
@@ -2513,9 +2517,9 @@ These may be encoded inside backlog/work items, but the source does not say so.
 
 Status: **DECISION-RELEVANT GAP**.
 
----
+______________________________________________________________________
 
-# 104. Risk Gap
+## 104. Risk Gap
 
 There is no explicit:
 
@@ -2531,9 +2535,9 @@ input.
 
 Incident history partly covers realized past problems, not future risk generally.
 
----
+______________________________________________________________________
 
-# 105. Value Gap
+## 105. Value Gap
 
 No explicit input represents:
 
@@ -2551,9 +2555,9 @@ That interpretation is not explicit.
 
 Therefore delivery optimization must not be assumed to equal value optimization.
 
----
+______________________________________________________________________
 
-# 106. Outcome Firewall
+## 106. Outcome Firewall
 
 $$
 DeliveryEfficiency
@@ -2575,9 +2579,9 @@ $$
 
 These are important derived boundaries.
 
----
+______________________________________________________________________
 
-# 107. Quality Firewall
+## 107. Quality Firewall
 
 The metrics function includes `quality_metrics`.
 
@@ -2595,9 +2599,9 @@ $$
 
 is a reasonable structural conclusion.
 
----
+______________________________________________________________________
 
-# 108. People Firewall
+## 108. People Firewall
 
 The kernel includes `team_feedback`.
 
@@ -2605,9 +2609,9 @@ Therefore a complete reading cannot reduce teams to numerical throughput.
 
 But the source does not define psychological safety, workload health, or human sustainability metrics.
 
----
+______________________________________________________________________
 
-# 109. Biological/Human-System Boundary
+## 109. Biological/Human-System Boundary
 
 Despite AMOS's broader human-system corpus, this artifact does not explicitly bind agile delivery metrics to biological telemetry.
 
@@ -2623,9 +2627,9 @@ GSR
 
 into this kernel without an explicit bridge.
 
----
+______________________________________________________________________
 
-# 110. Cross-Artifact Firewall
+## 110. Cross-Artifact Firewall
 
 Structural similarity between:
 
@@ -2643,9 +2647,9 @@ WIP limit
 
 should not be equated with cognitive-load limits without a source binding.
 
----
+______________________________________________________________________
 
-# 111. Tech-AI Tag Boundary
+## 111. Tech-AI Tag Boundary
 
 The tag:
 
@@ -2665,9 +2669,9 @@ Therefore:
 AIImplementation = UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 112. `canon/metric` Boundary
+## 112. `canon/metric` Boundary
 
 The source tag:
 
@@ -2685,9 +2689,9 @@ The artifact itself remains:
 rscf.state = SOURCE_CLAIM
 ```
 
----
+______________________________________________________________________
 
-# 113. `type: data` Boundary
+## 113. `type: data` Boundary
 
 Frontmatter declares:
 
@@ -2700,15 +2704,15 @@ while the body describes a kernel.
 Possible interpretations:
 
 1. `data` is the vault storage type.
-2. the JSON is data describing a kernel.
-3. the artifact is configuration data.
-4. taxonomy is coarse.
+1. the JSON is data describing a kernel.
+1. the artifact is configuration data.
+1. taxonomy is coarse.
 
 Do not rewrite `type` to `kernel` in normalized source metadata.
 
----
+______________________________________________________________________
 
-# 114. Source-Defined Kernel Versus Executable Kernel
+## 114. Source-Defined Kernel Versus Executable Kernel
 
 The word `Kernel` alone does not prove executable software.
 
@@ -2722,9 +2726,9 @@ $$
 
 until implementation evidence exists.
 
----
+______________________________________________________________________
 
-# 115. Implementation Evidence Missing
+## 115. Implementation Evidence Missing
 
 No source contains:
 
@@ -2749,9 +2753,9 @@ Therefore:
 RuntimeImplementation = UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 116. Determinism
+## 116. Determinism
 
 Unlike the Academic Writing Kernel source, this artifact does not explicitly call itself deterministic.
 
@@ -2763,9 +2767,9 @@ Thus:
 DeterministicExecution = UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 117. Agile Process Variability
+## 117. Agile Process Variability
 
 Because the kernel supports:
 
@@ -2781,9 +2785,9 @@ it explicitly admits process variation.
 
 Therefore a rigid single-process interpretation would contradict the capability inventory.
 
----
+______________________________________________________________________
 
-# 118. Tailoring Boundary
+## 118. Tailoring Boundary
 
 `tailored agile` indicates customization.
 
@@ -2795,17 +2799,17 @@ Thus:
 TailoringConstraints = UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 119. Method Integrity Gap
+## 119. Method Integrity Gap
 
 The artifact does not define whether a heavily modified Scrum process may still be called Scrum.
 
 Therefore standards-conformance judgments are outside the source.
 
----
+______________________________________________________________________
 
-# 120. Scrum Standard Compliance
+## 120. Scrum Standard Compliance
 
 The source uses the phrase:
 
@@ -2821,9 +2825,9 @@ Therefore:
 FormalScrumCompliance = NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 121. Kanban Standard Compliance
+## 121. Kanban Standard Compliance
 
 Likewise:
 
@@ -2833,9 +2837,9 @@ FormalKanbanCompliance = NOT_ESTABLISHED
 
 The artifact supplies a source model of Kanban functionality, not certification of external standards compliance.
 
----
+______________________________________________________________________
 
-# 122. Agile-Waterfall Hybrid
+## 122. Agile-Waterfall Hybrid
 
 The phrase is source-defined.
 
@@ -2849,9 +2853,9 @@ requirements → design → sprint implementation → testing → release
 
 as its canonical workflow.
 
----
+______________________________________________________________________
 
-# 123. Scrumban
+## 123. Scrumban
 
 Scrumban is listed but not defined.
 
@@ -2861,9 +2865,9 @@ Thus:
 ScrumbanSemantics = SOURCE_TERM / DEFINITION_GAP
 ```
 
----
+______________________________________________________________________
 
-# 124. Daily Scrum
+## 124. Daily Scrum
 
 Daily Scrum is a capability but lacks:
 
@@ -2878,9 +2882,9 @@ facilitation rules
 
 No callable contract exists in this artifact.
 
----
+______________________________________________________________________
 
-# 125. Sprint Review
+## 125. Sprint Review
 
 Same gap:
 
@@ -2890,9 +2894,9 @@ SprintReviewFunction = NOT_EXPLICITLY_DEFINED
 
 It is a capability label only.
 
----
+______________________________________________________________________
 
-# 126. Retrospective Is Better Specified
+## 126. Retrospective Is Better Specified
 
 Unlike daily Scrum and sprint review, retrospective has a full input/output contract.
 
@@ -2902,9 +2906,9 @@ That may or may not imply architectural importance.
 
 Do not infer priority solely from specification detail.
 
----
+______________________________________________________________________
 
-# 127. Planning Versus Execution
+## 127. Planning Versus Execution
 
 The kernel specifies sprint planning but not a general sprint execution function.
 
@@ -2916,9 +2920,9 @@ ExecutionTracking = PARTIALLY REPRESENTED
 
 through flow and metrics rather than an explicit `execute_sprint` function.
 
----
+______________________________________________________________________
 
-# 128. Delivery Lifecycle Coverage
+## 128. Delivery Lifecycle Coverage
 
 A derived lifecycle map:
 
@@ -2934,9 +2938,9 @@ A derived lifecycle map:
 | Release/deploy            | Partial via “continuous delivery” capability |
 | Validate business outcome | Not explicit                                 |
 
----
+______________________________________________________________________
 
-# 129. Coverage Conclusion
+## 129. Coverage Conclusion
 
 The kernel is primarily:
 
@@ -2952,9 +2956,9 @@ product lifecycle system
 
 **DERIVED.**
 
----
+______________________________________________________________________
 
-# 130. Planning Function Invariant Candidate
+## 130. Planning Function Invariant Candidate
 
 A safe proposed invariant:
 
@@ -2968,9 +2972,9 @@ But neither units nor feasibility algorithm are supplied.
 
 Therefore this cannot be promoted to source canon.
 
----
+______________________________________________________________________
 
-# 131. Goal Preservation Candidate
+## 131. Goal Preservation Candidate
 
 Another proposed invariant:
 
@@ -2982,9 +2986,9 @@ $$
 
 Again, governance proposal rather than source equation.
 
----
+______________________________________________________________________
 
-# 132. WIP Invariant Candidate
+## 132. WIP Invariant Candidate
 
 $$
 ObservedWIP_s
@@ -2996,9 +3000,9 @@ could serve as a flow invariant.
 
 But breach behavior is unknown.
 
----
+______________________________________________________________________
 
-# 133. Retrospective Evidence Invariant Candidate
+## 133. Retrospective Evidence Invariant Candidate
 
 $$
 InsightConfidence
@@ -3008,9 +3012,9 @@ $$
 
 This aligns with AMOS v4.4 reasoning but is not explicit in the kernel source.
 
----
+______________________________________________________________________
 
-# 134. Predictive Estimate Invariant Candidate
+## 134. Predictive Estimate Invariant Candidate
 
 $$
 ForecastConfidence
@@ -3025,9 +3029,9 @@ $$
 
 **PROPOSED.**
 
----
+______________________________________________________________________
 
-# 135. Confidence Cannot Come From Output Labels
+## 135. Confidence Cannot Come From Output Labels
 
 The fact that an output is called:
 
@@ -3039,9 +3043,9 @@ does not give it a confidence level.
 
 No numeric confidence system appears in this artifact.
 
----
+______________________________________________________________________
 
-# 136. No Metric Thresholds
+## 136. No Metric Thresholds
 
 The source provides zero explicit numeric thresholds.
 
@@ -3055,9 +3059,9 @@ minimum throughput
 maximum lead time
 ```
 
----
+______________________________________________________________________
 
-# 137. No Universal Benchmarks
+## 137. No Universal Benchmarks
 
 Because thresholds are absent:
 
@@ -3069,9 +3073,9 @@ must remain contextual.
 
 A value that is high or low cannot be classified as good or bad from this artifact alone.
 
----
+______________________________________________________________________
 
-# 138. No Team Ranking Function
+## 138. No Team Ranking Function
 
 There is no source function:
 
@@ -3081,25 +3085,25 @@ rank_teams
 
 Therefore using the kernel to rank teams would be an unsupported extension.
 
----
+______________________________________________________________________
 
-# 139. No Individual Performance Function
+## 139. No Individual Performance Function
 
 There is no individual productivity metric.
 
 Do not infer that velocity, throughput, or WIP should be attributed to individual performance.
 
----
+______________________________________________________________________
 
-# 140. No Hiring/Compensation Function
+## 140. No Hiring/Compensation Function
 
 The source does not support using these metrics for employment decisions.
 
 Such use would require separate governance and evidence.
 
----
+______________________________________________________________________
 
-# 141. No Financial Model
+## 141. No Financial Model
 
 No:
 
@@ -3116,9 +3120,9 @@ variables exist.
 
 Thus the kernel is not an economic delivery optimizer as supplied.
 
----
+______________________________________________________________________
 
-# 142. No Scheduling Mathematics
+## 142. No Scheduling Mathematics
 
 Despite sprint planning, no scheduling algorithm appears.
 
@@ -3134,9 +3138,9 @@ resource leveling
 
 Do not infer them.
 
----
+______________________________________________________________________
 
-# 143. No Monte Carlo Forecasting
+## 143. No Monte Carlo Forecasting
 
 `predictive_estimates` does not imply Monte Carlo simulation.
 
@@ -3155,15 +3159,15 @@ hybrid
 
 Status: **COMPETING**.
 
----
+______________________________________________________________________
 
-# 144. No Statistical Process Control
+## 144. No Statistical Process Control
 
 Cumulative flow and trend analysis do not establish SPC/control-chart implementation.
 
----
+______________________________________________________________________
 
-# 145. No Little's Law Binding
+## 145. No Little's Law Binding
 
 The source lists WIP, throughput, and cycle time, which are structurally related in queueing theory under appropriate assumptions.
 
@@ -3179,9 +3183,9 @@ must **not** be represented as a source-defined kernel equation.
 
 It could be introduced only as external theory with its assumptions clearly separated.
 
----
+______________________________________________________________________
 
-# 146. External Theory Firewall
+## 146. External Theory Firewall
 
 General agile/project-management knowledge may enrich analysis, but it must remain separate:
 
@@ -3194,9 +3198,9 @@ EMPIRICAL EVIDENCE
 
 These classes should never be merged silently.
 
----
+______________________________________________________________________
 
-# 147. Source-Level Truth Table
+## 147. Source-Level Truth Table
 
 | Claim                                              | Class                         |
 | -------------------------------------------------- | ----------------------------- |
@@ -3216,9 +3220,9 @@ These classes should never be merged silently.
 | Kernel uses AI                                     | UNKNOWN                       |
 | Kernel executes deterministically                  | UNKNOWN                       |
 
----
+______________________________________________________________________
 
-# 148. Important Distinction: Verified From Source
+## 148. Important Distinction: Verified From Source
 
 When this expansion labels something “verified from provided source,” it means:
 
@@ -3232,9 +3236,9 @@ not:
 the real-world system has independently been verified to perform it
 ```
 
----
+______________________________________________________________________
 
-# 149. Source Provenance Topology
+## 149. Source Provenance Topology
 
 ```mermaid
 flowchart TD
@@ -3253,9 +3257,9 @@ flowchart TD
 
 All of these nodes share one supplied corpus ancestry.
 
----
+______________________________________________________________________
 
-# 150. Provenance Independence
+## 150. Provenance Independence
 
 Therefore:
 
@@ -3267,9 +3271,9 @@ does not constitute three independent sources.
 
 They are components of one artifact.
 
----
+______________________________________________________________________
 
-# 151. Source Authority Boundary
+## 151. Source Authority Boundary
 
 The source attributes no external standards documents.
 
@@ -3277,9 +3281,9 @@ Thus statements about Scrum/Kanban are internally sourced from the AMOS artifact
 
 External verification would require separate sources.
 
----
+______________________________________________________________________
 
-# 152. RSCF Node — Proposed
+## 152. RSCF Node — Proposed
 
 ```yaml
 RSCF_NODE:
@@ -3312,9 +3316,9 @@ RSCF_NODE:
 
 **PROPOSED representation.**
 
----
+______________________________________________________________________
 
-# 153. RSCF Relations — Proposed
+## 153. RSCF Relations — Proposed
 
 ```yaml
 RSCF_RELATIONS:
@@ -3345,9 +3349,9 @@ RSCF_RELATIONS:
 
 These relations are derived from document structure.
 
----
+______________________________________________________________________
 
-# 154. H/M/L Retrieval Capsule
+## 154. H/M/L Retrieval Capsule
 
 A compact AMOS retrieval hierarchy:
 
@@ -3379,9 +3383,9 @@ validation rules
 
 Only the first two levels and named L elements are source-supported; detailed semantics remain partly unresolved.
 
----
+______________________________________________________________________
 
-# 155. RSCF Intent
+## 155. RSCF Intent
 
 ```yaml
 H:
@@ -3392,9 +3396,9 @@ H:
 
 **DERIVED compression of source.**
 
----
+______________________________________________________________________
 
-# 156. RSCF Proof Steps
+## 156. RSCF Proof Steps
 
 ```yaml
 M:
@@ -3410,9 +3414,9 @@ M:
 
 The first four source functions are grounded; the governance sequencing is PROPOSED.
 
----
+______________________________________________________________________
 
-# 157. RSCF Receipt
+## 157. RSCF Receipt
 
 ```yaml
 L:
@@ -3427,9 +3431,9 @@ L:
 
 `false` here means **not verified by this artifact**, not disproven.
 
----
+______________________________________________________________________
 
-# 158. Proof Capsule — Artifact Structure
+## 158. Proof Capsule — Artifact Structure
 
 ```yaml
 claim:
@@ -3454,9 +3458,9 @@ confidence_ceiling:
   runtime_reality: not_inferred
 ```
 
----
+______________________________________________________________________
 
-# 159. Proof Capsule — Executability
+## 159. Proof Capsule — Executability
 
 ```yaml
 claim:
@@ -3477,9 +3481,9 @@ invalidation_condition:
   - executable implementation artifact is supplied
 ```
 
----
+______________________________________________________________________
 
-# 160. Proof Capsule — Predictive Capability
+## 160. Proof Capsule — Predictive Capability
 
 ```yaml
 claim:
@@ -3499,9 +3503,9 @@ missing:
   - regime definition
 ```
 
----
+______________________________________________________________________
 
-# 161. Proof Capsule — Bottleneck Detection
+## 161. Proof Capsule — Bottleneck Detection
 
 ```yaml
 claim:
@@ -3516,9 +3520,9 @@ reason:
   - no causal method is supplied
 ```
 
----
+______________________________________________________________________
 
-# 162. Proof Capsule — Hybrid Delivery
+## 162. Proof Capsule — Hybrid Delivery
 
 ```yaml
 claim:
@@ -3536,9 +3540,9 @@ missing:
   - tailoring invariants
 ```
 
----
+______________________________________________________________________
 
-# 163. Competing Hypothesis Set — Kernel Nature
+## 163. Competing Hypothesis Set — Kernel Nature
 
 ### H1 — Knowledge/configuration artifact
 
@@ -3566,9 +3570,9 @@ The artifact defines an AMOS-level conceptual delivery governance layer.
 
 Do not force H2 without implementation evidence.
 
----
+______________________________________________________________________
 
-# 164. Competing Hypothesis Set — Predictive Estimates
+## 164. Competing Hypothesis Set — Predictive Estimates
 
 Possible mechanisms:
 
@@ -3590,9 +3594,9 @@ Status:
 COMPETING
 ```
 
----
+______________________________________________________________________
 
-# 165. Competing Hypothesis Set — Commitment Estimate
+## 165. Competing Hypothesis Set — Commitment Estimate
 
 Possible semantics:
 
@@ -3606,9 +3610,9 @@ H5 capacity-based forecast
 
 No discriminating definition exists.
 
----
+______________________________________________________________________
 
-# 166. Competing Hypothesis Set — Flow Diagrams
+## 166. Competing Hypothesis Set — Flow Diagrams
 
 ```text
 H1 cumulative flow diagram
@@ -3619,9 +3623,9 @@ H4 generic flow visualization
 
 Because `cumulative flow` is separately named in metrics, H1 is plausible but not proven.
 
----
+______________________________________________________________________
 
-# 167. Competing Hypothesis Set — Continuous Delivery
+## 167. Competing Hypothesis Set — Continuous Delivery
 
 ```text
 H1 continuous work-flow principle
@@ -3632,9 +3636,9 @@ H4 generic delivery continuity
 
 No exact binding.
 
----
+______________________________________________________________________
 
-# 168. Critical Gaps
+## 168. Critical Gaps
 
 ## CRITICAL
 
@@ -3644,9 +3648,9 @@ metric semantic definitions if calculations are required
 predictive model if forecasts drive decisions
 ```
 
----
+______________________________________________________________________
 
-# 169. Decision-Relevant Gaps
+## 169. Decision-Relevant Gaps
 
 ```text
 commitment_estimate semantics
@@ -3660,9 +3664,9 @@ dependency representation
 risk representation
 ```
 
----
+______________________________________________________________________
 
-# 170. Explanatory Gaps
+## 170. Explanatory Gaps
 
 ```text
 V0 meaning
@@ -3672,9 +3676,9 @@ relationship to version 1.0.0
 type:data vs kernel terminology
 ```
 
----
+______________________________________________________________________
 
-# 171. Cosmetic Gaps
+## 171. Cosmetic Gaps
 
 The source contains:
 
@@ -3688,9 +3692,9 @@ This is a source-level empty navigation field.
 
 It should not be populated with guessed links.
 
----
+______________________________________________________________________
 
-# 172. MOC Relation
+## 172. MOC Relation
 
 The only explicit populated navigation relation is:
 
@@ -3700,11 +3704,11 @@ The only explicit populated navigation relation is:
 
 Therefore this can be treated as the source-grounded MOC connection.
 
----
+______________________________________________________________________
 
-# 173. Proposed Related Links
+## 173. Proposed Related Links
 
-> [!warning] PROPOSED — not source links
+> [!WARNING] PROPOSED — not source links
 
 Potential vault relations could include:
 
@@ -3718,9 +3722,9 @@ only if their actual semantic relation is verified in the vault.
 
 They should **not** be inserted into source `Related:` merely because other kernel artifacts use them.
 
----
+______________________________________________________________________
 
-# 174. Adversarial Validation — Claim 1
+## 174. Adversarial Validation — Claim 1
 
 Claim:
 
@@ -3737,9 +3741,9 @@ Result:
 "Defines/supports Scrum concepts in source" → supported
 ```
 
----
+______________________________________________________________________
 
-# 175. Adversarial Validation — Claim 2
+## 175. Adversarial Validation — Claim 2
 
 Claim:
 
@@ -3756,9 +3760,9 @@ Predictive output contract → SOURCE_CLAIM
 Predictive effectiveness → UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 176. Adversarial Validation — Claim 3
+## 176. Adversarial Validation — Claim 3
 
 Claim:
 
@@ -3775,9 +3779,9 @@ bottleneck identification → source output
 root-cause identification → unsupported
 ```
 
----
+______________________________________________________________________
 
-# 177. Adversarial Validation — Claim 4
+## 177. Adversarial Validation — Claim 4
 
 Claim:
 
@@ -3794,9 +3798,9 @@ optimization → UNKNOWN
 support/governance → supported
 ```
 
----
+______________________________________________________________________
 
-# 178. Adversarial Validation — Claim 5
+## 178. Adversarial Validation — Claim 5
 
 Claim:
 
@@ -3812,9 +3816,9 @@ Result:
 unsupported
 ```
 
----
+______________________________________________________________________
 
-# 179. Adversarial Validation — Claim 6
+## 179. Adversarial Validation — Claim 6
 
 Claim:
 
@@ -3830,9 +3834,9 @@ Result:
 REJECT causal/normative inference
 ```
 
----
+______________________________________________________________________
 
-# 180. Adversarial Validation — Claim 7
+## 180. Adversarial Validation — Claim 7
 
 Claim:
 
@@ -3848,9 +3852,9 @@ Result:
 REJECT exclusivity
 ```
 
----
+______________________________________________________________________
 
-# 181. Adversarial Validation — Claim 8
+## 181. Adversarial Validation — Claim 8
 
 Claim:
 
@@ -3866,9 +3870,9 @@ Result:
 REJECT
 ```
 
----
+______________________________________________________________________
 
-# 182. Adversarial Validation — Claim 9
+## 182. Adversarial Validation — Claim 9
 
 Claim:
 
@@ -3884,9 +3888,9 @@ Result:
 CONDITIONAL / incomplete
 ```
 
----
+______________________________________________________________________
 
-# 183. Adversarial Validation — Claim 10
+## 183. Adversarial Validation — Claim 10
 
 Claim:
 
@@ -3902,9 +3906,9 @@ Result:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 184. Failure Mode — Missing Backlog
+## 184. Failure Mode — Missing Backlog
 
 If `product_backlog` is absent, the source does not specify behavior.
 
@@ -3916,9 +3920,9 @@ scrum_planning → BLOCKED/INSUFFICIENT_INPUT
 
 rather than inventing backlog content.
 
----
+______________________________________________________________________
 
-# 185. Failure Mode — Missing Capacity
+## 185. Failure Mode — Missing Capacity
 
 Do not estimate capacity without evidence.
 
@@ -3930,9 +3934,9 @@ commitment_estimate = UNKNOWN
 
 or conditional on an explicitly declared assumption.
 
----
+______________________________________________________________________
 
-# 186. Failure Mode — Missing Velocity
+## 186. Failure Mode — Missing Velocity
 
 Because past velocity is listed as an input, its absence is material.
 
@@ -3946,9 +3950,9 @@ produce non-historical planning with explicit limitation
 
 The source does not specify fallback.
 
----
+______________________________________________________________________
 
-# 187. Failure Mode — New Team
+## 187. Failure Mode — New Team
 
 A new team may lack past velocity.
 
@@ -3958,9 +3962,9 @@ This exposes an important kernel gap:
 cold_start_policy = UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 188. Failure Mode — WIP Limits Missing
+## 188. Failure Mode — WIP Limits Missing
 
 Because `wip_limits` is a declared Kanban input:
 
@@ -3970,9 +3974,9 @@ KanbanFlowContractComplete = false
 
 if it is unavailable, unless a fallback policy is separately defined.
 
----
+______________________________________________________________________
 
-# 189. Failure Mode — Bad Cycle-Time Data
+## 189. Failure Mode — Bad Cycle-Time Data
 
 No data-quality policy exists.
 
@@ -3986,9 +3990,9 @@ $$
 
 rather than silently producing precise conclusions.
 
----
+______________________________________________________________________
 
-# 190. Failure Mode — Contradictory Team Feedback
+## 190. Failure Mode — Contradictory Team Feedback
 
 The retrospective may receive incompatible feedback.
 
@@ -4002,9 +4006,9 @@ COMPETING explanations
 
 until discriminating evidence exists.
 
----
+______________________________________________________________________
 
-# 191. Failure Mode — Metrics Versus Feedback Conflict
+## 191. Failure Mode — Metrics Versus Feedback Conflict
 
 Example:
 
@@ -4017,17 +4021,17 @@ Neither should automatically dominate.
 
 The conflict itself is decision-relevant evidence.
 
----
+______________________________________________________________________
 
-# 192. Failure Mode — Incident Spike
+## 192. Failure Mode — Incident Spike
 
 Historical velocity may become stale after a major incident or process change.
 
 Thus historical data may require regime invalidation.
 
----
+______________________________________________________________________
 
-# 193. Failure Mode — Metric Definition Change
+## 193. Failure Mode — Metric Definition Change
 
 If cycle-time start state changes between periods:
 
@@ -4043,17 +4047,17 @@ $$
 
 are not directly comparable without normalization.
 
----
+______________________________________________________________________
 
-# 194. Failure Mode — Team Composition Change
+## 194. Failure Mode — Team Composition Change
 
 Past velocity may lose predictive validity.
 
 This should invalidate only dependent forecasts, not unrelated historical facts.
 
----
+______________________________________________________________________
 
-# 195. Local Invalidation
+## 195. Local Invalidation
 
 Suppose velocity history becomes invalid.
 
@@ -4074,17 +4078,17 @@ current flow observations
 
 This follows AMOS local repair discipline.
 
----
+______________________________________________________________________
 
-# 196. No Global Recompute Unless Needed
+## 196. No Global Recompute Unless Needed
 
 A corrupted flow diagram should not invalidate team feedback unless the feedback depends on it.
 
 Dependency-local invalidation is preferable.
 
----
+______________________________________________________________________
 
-# 197. Dependency Graph for Invalidation
+## 197. Dependency Graph for Invalidation
 
 ```mermaid
 flowchart TD
@@ -4103,9 +4107,9 @@ flowchart TD
 
 This is PROPOSED and incomplete because the source does not explicitly define all internal transformations.
 
----
+______________________________________________________________________
 
-# 198. Sensitivity — Commitment Estimate
+## 198. Sensitivity — Commitment Estimate
 
 Likely sensitive variables:
 
@@ -4119,9 +4123,9 @@ But no function is supplied.
 
 Therefore exact sensitivity cannot be calculated.
 
----
+______________________________________________________________________
 
-# 199. Sensitivity — Bottleneck Identification
+## 199. Sensitivity — Bottleneck Identification
 
 Likely sensitive to:
 
@@ -4134,9 +4138,9 @@ flow representation
 
 No source threshold exists.
 
----
+______________________________________________________________________
 
-# 200. Sensitivity — Predictive Estimates
+## 200. Sensitivity — Predictive Estimates
 
 Potentially sensitive to:
 
@@ -4150,9 +4154,9 @@ flow data
 
 No quantitative sensitivity analysis is possible from source alone.
 
----
+______________________________________________________________________
 
-# 201. Reversibility Principle
+## 201. Reversibility Principle
 
 When evidence is weak, prefer reversible process experiments.
 
@@ -4170,9 +4174,9 @@ rather than irreversible organizational redesign based on one metric.
 
 This is DERIVED governance, not source procedure.
 
----
+______________________________________________________________________
 
-# 202. Retrospective Action Governance
+## 202. Retrospective Action Governance
 
 Action items can be classified by reversibility:
 
@@ -4186,9 +4190,9 @@ Validation requirements should increase with irreversibility.
 
 Again, proposed extension.
 
----
+______________________________________________________________________
 
-# 203. Evidence Before Intervention
+## 203. Evidence Before Intervention
 
 A bottleneck signal can justify investigation before structural reorganization.
 
@@ -4208,9 +4212,9 @@ WeakEvidence
 LargeIrreversibleChange
 $$
 
----
+______________________________________________________________________
 
-# 204. Cheapest Discriminating Tests
+## 204. Cheapest Discriminating Tests
 
 For suspected bottleneck:
 
@@ -4224,9 +4228,9 @@ ask team for mechanism evidence
 
 These are suggested operational tests, not source-defined kernel functions.
 
----
+______________________________________________________________________
 
-# 205. Metric Triangulation
+## 205. Metric Triangulation
 
 Multiple metrics can improve interpretation only if they add genuinely different information.
 
@@ -4242,9 +4246,9 @@ may share underlying work-event data.
 
 Therefore their agreement does not automatically establish provenance independence.
 
----
+______________________________________________________________________
 
-# 206. Independent Evidence
+## 206. Independent Evidence
 
 Potentially more independent channels might include:
 
@@ -4257,9 +4261,9 @@ customer outcome data
 
 But customer outcome data is not part of the supplied kernel.
 
----
+______________________________________________________________________
 
-# 207. Human Feedback Independence
+## 207. Human Feedback Independence
 
 Multiple team members may not be independent if they share the same incident narrative or organizational incentive.
 
@@ -4271,9 +4275,9 @@ MultipleVoices
 AutomaticallyIndependentEvidence
 $$
 
----
+______________________________________________________________________
 
-# 208. Metric Dashboard Governance
+## 208. Metric Dashboard Governance
 
 A dashboard should ideally expose:
 
@@ -4291,9 +4295,9 @@ The source only specifies the dashboard as an output.
 
 The above fields are proposed hardening.
 
----
+______________________________________________________________________
 
-# 209. Predictive Dashboard Governance
+## 209. Predictive Dashboard Governance
 
 If predictive estimates appear, additionally expose:
 
@@ -4307,9 +4311,9 @@ regime assumptions
 
 None are source-defined.
 
----
+______________________________________________________________________
 
-# 210. Forecast Confidence Ceiling
+## 210. Forecast Confidence Ceiling
 
 Proposed:
 
@@ -4327,9 +4331,9 @@ $$
 
 No numeric confidence is assigned.
 
----
+______________________________________________________________________
 
-# 211. Weakest-Premise Law
+## 211. Weakest-Premise Law
 
 If backlog data are reliable but capacity is speculative, a commitment estimate cannot be more trustworthy than the capacity premise unless independently revalidated.
 
@@ -4341,9 +4345,9 @@ $$
 
 Conceptual only.
 
----
+______________________________________________________________________
 
-# 212. No False Precision
+## 212. No False Precision
 
 Without a forecasting method, outputting:
 
@@ -4355,9 +4359,9 @@ would be fabricated precision.
 
 The source provides no basis for such a number.
 
----
+______________________________________________________________________
 
-# 213. Appropriate Output Under Missing Model
+## 213. Appropriate Output Under Missing Model
 
 Safer:
 
@@ -4371,31 +4375,31 @@ or:
 Conditional estimate based on explicitly declared assumptions.
 ```
 
----
+______________________________________________________________________
 
-# 214. Scope of `team_velocity`
+## 214. Scope of `team_velocity`
 
 The name itself indicates team-level scope.
 
 Do not silently convert it into individual-level productivity.
 
----
+______________________________________________________________________
 
-# 215. Scope of `sprint_data`
+## 215. Scope of `sprint_data`
 
 Likely sprint-level, but schema and aggregation are unknown.
 
----
+______________________________________________________________________
 
-# 216. Scope of `flow_data`
+## 216. Scope of `flow_data`
 
 Could span sprint, Kanban system, project, or longer period.
 
 Unresolved.
 
----
+______________________________________________________________________
 
-# 217. Scope of `quality_metrics`
+## 217. Scope of `quality_metrics`
 
 Unresolved.
 
@@ -4412,9 +4416,9 @@ system
 
 No source binding.
 
----
+______________________________________________________________________
 
-# 218. Temporal Model
+## 218. Temporal Model
 
 The source inherently contains historical and current elements:
 
@@ -4427,9 +4431,9 @@ cycle_time_data
 
 Therefore time is structurally relevant even though no explicit time model exists.
 
----
+______________________________________________________________________
 
-# 219. Temporal Integrity
+## 219. Temporal Integrity
 
 A derived rule:
 
@@ -4437,11 +4441,11 @@ $$
 Data(t_1)
 $$
 
-must not be silently treated as current at \(t_2\) after a relevant regime change.
+must not be silently treated as current at (t_2) after a relevant regime change.
 
----
+______________________________________________________________________
 
-# 220. No Explicit Event Schema
+## 220. No Explicit Event Schema
 
 No canonical events such as:
 
@@ -4458,33 +4462,33 @@ are supplied.
 
 Thus precise metric computation remains underspecified.
 
----
+______________________________________________________________________
 
-# 221. No Identity Model
+## 221. No Identity Model
 
 No team, sprint, work-item, or project identifier schema exists.
 
 This matters for implementation but not conceptual interpretation.
 
----
+______________________________________________________________________
 
-# 222. No Persistence Model
+## 222. No Persistence Model
 
 The artifact does not define storage.
 
 No database or vault persistence contract exists.
 
----
+______________________________________________________________________
 
-# 223. No MVCC/CAS Binding
+## 223. No MVCC/CAS Binding
 
 AMOS v4.4 contains reasoning concepts around MVCC/CAS, but this source does not bind agile delivery state to them.
 
 Do not import distributed concurrency semantics merely because the broader AMOS lineage contains those patterns.
 
----
+______________________________________________________________________
 
-# 224. No Atomic Multi-Function Transaction
+## 224. No Atomic Multi-Function Transaction
 
 The source does not state that:
 
@@ -4503,31 +4507,31 @@ Thus:
 AtomicDeliveryTransaction = UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 225. No Causal Epoch Finality Binding
+## 225. No Causal Epoch Finality Binding
 
 Likewise, broader AMOS causal-finality concepts should not be treated as implementation claims for this kernel.
 
----
+______________________________________________________________________
 
-# 226. No Cryptographic Provenance Binding
+## 226. No Cryptographic Provenance Binding
 
 RSCF metadata provides corpus provenance, but no cryptographic signing/hash mechanism appears in this artifact.
 
 Do not infer ULK-style hash verification here.
 
----
+______________________________________________________________________
 
-# 227. No Formal Proof Requirement
+## 227. No Formal Proof Requirement
 
 No theorem prover, proof capsule, or formal verification function is source-defined in this kernel.
 
 RSCF-aware expansion is a governance overlay, not an original kernel feature.
 
----
+______________________________________________________________________
 
-# 228. RSCF State Interpretation
+## 228. RSCF State Interpretation
 
 `SOURCE_CLAIM` is especially important.
 
@@ -4545,9 +4549,9 @@ verified runtime capability
 
 without evidence promotion.
 
----
+______________________________________________________________________
 
-# 229. Claim Promotion Rule
+## 229. Claim Promotion Rule
 
 Proposed:
 
@@ -4563,15 +4567,15 @@ VERIFIED
 
 Not every claim must or can reach VERIFIED.
 
----
+______________________________________________________________________
 
-# 230. No Automatic Promotion
+## 230. No Automatic Promotion
 
 Repeated occurrence of `velocity` across the artifact does not independently validate velocity semantics.
 
----
+______________________________________________________________________
 
-# 231. Metric Ontology Layer
+## 231. Metric Ontology Layer
 
 A proposed metric ontology:
 
@@ -4590,9 +4594,9 @@ DeliveryMetric
 
 This hierarchy is DERIVED and should not be treated as source taxonomy.
 
----
+______________________________________________________________________
 
-# 232. Cumulative Flow Classification
+## 232. Cumulative Flow Classification
 
 The source lists `cumulative flow` among metrics.
 
@@ -4600,9 +4604,9 @@ It may represent a diagram/visualization rather than a scalar metric.
 
 The source does not resolve this type distinction.
 
----
+______________________________________________________________________
 
-# 233. Type Discipline
+## 233. Type Discipline
 
 A stronger implementation should distinguish:
 
@@ -4618,9 +4622,9 @@ decision
 
 The source does not.
 
----
+______________________________________________________________________
 
-# 234. Velocity Type
+## 234. Velocity Type
 
 Unknown:
 
@@ -4632,17 +4636,17 @@ time series?
 
 Likely time-indexed measurements, but not source-defined.
 
----
+______________________________________________________________________
 
-# 235. Cycle-Time Type
+## 235. Cycle-Time Type
 
 Likely per-item duration plus aggregate distribution, but not source-defined.
 
 Do not reduce automatically to a mean.
 
----
+______________________________________________________________________
 
-# 236. Mean Is Not the Distribution
+## 236. Mean Is Not the Distribution
 
 Even if external implementation uses cycle time:
 
@@ -4654,9 +4658,9 @@ does not preserve tail behavior.
 
 This is general measurement reasoning, not source content.
 
----
+______________________________________________________________________
 
-# 237. Trend Analysis Should Preserve Distribution Shift
+## 237. Trend Analysis Should Preserve Distribution Shift
 
 Averages can hide changing variance.
 
@@ -4664,9 +4668,9 @@ But the kernel provides no statistical requirements.
 
 Thus this is proposed quality hardening.
 
----
+______________________________________________________________________
 
-# 238. Predictive Estimate Type
+## 238. Predictive Estimate Type
 
 Unknown:
 
@@ -4681,17 +4685,17 @@ scenario set
 
 This is a major decision-relevant gap.
 
----
+______________________________________________________________________
 
-# 239. Commitment Estimate Type
+## 239. Commitment Estimate Type
 
 Likewise unresolved.
 
 The phrase `estimate` argues against treating it as deterministic fact.
 
----
+______________________________________________________________________
 
-# 240. Bottleneck Identification Type
+## 240. Bottleneck Identification Type
 
 Could be:
 
@@ -4704,17 +4708,17 @@ diagnostic narrative
 
 No schema.
 
----
+______________________________________________________________________
 
-# 241. Retrospective Insight Type
+## 241. Retrospective Insight Type
 
 Could be free text, structured findings, or classified hypotheses.
 
 No schema.
 
----
+______________________________________________________________________
 
-# 242. Action Item Type
+## 242. Action Item Type
 
 No fields such as:
 
@@ -4730,9 +4734,9 @@ are defined.
 
 Do not silently add them to source.
 
----
+______________________________________________________________________
 
-# 243. Process Improvement Type
+## 243. Process Improvement Type
 
 No distinction between:
 
@@ -4745,9 +4749,9 @@ validated improvement
 
 This is a lifecycle gap.
 
----
+______________________________________________________________________
 
-# 244. Improvement State Machine — Proposed
+## 244. Improvement State Machine — Proposed
 
 ```mermaid
 stateDiagram-v2
@@ -4763,9 +4767,9 @@ stateDiagram-v2
 
 Entirely **PROPOSED**.
 
----
+______________________________________________________________________
 
-# 245. Action Sufficiency
+## 245. Action Sufficiency
 
 For a low-risk retrospective action, complete causal proof may not be necessary.
 
@@ -4773,9 +4777,9 @@ For a high-cost organizational change, stronger evidence is warranted.
 
 Thus validation should scale with stakes.
 
----
+______________________________________________________________________
 
-# 246. Delivery Decision Classes
+## 246. Delivery Decision Classes
 
 Proposed:
 
@@ -4789,25 +4793,25 @@ D4 Major organizational change
 
 Evidence requirements rise from D0 to D4.
 
----
+______________________________________________________________________
 
-# 247. Agile Kernel Does Not Define Governance Stakes
+## 247. Agile Kernel Does Not Define Governance Stakes
 
 No such classification exists in source.
 
 This is AMOS governance augmentation.
 
----
+______________________________________________________________________
 
-# 248. Scrum Planning Under Uncertainty
+## 248. Scrum Planning Under Uncertainty
 
 The source includes historical velocity but not forecast uncertainty.
 
 A safe planner should preserve uncertainty rather than convert past velocity into deterministic capacity.
 
----
+______________________________________________________________________
 
-# 249. Past Velocity Causal Firewall
+## 249. Past Velocity Causal Firewall
 
 $$
 PastVelocity
@@ -4817,9 +4821,9 @@ may correlate with future throughput.
 
 It does not itself cause future throughput.
 
----
+______________________________________________________________________
 
-# 250. Capacity Causal Role
+## 250. Capacity Causal Role
 
 Capacity may be an enabling constraint, but the source does not define whether it is necessary or sufficient for delivery.
 
@@ -4829,21 +4833,21 @@ $$
 Capacity \neq GuaranteedOutput
 $$
 
----
+______________________________________________________________________
 
-# 251. Sprint Goal Role
+## 251. Sprint Goal Role
 
 The goal is an intention/constraint, not evidence that the goal will be achieved.
 
----
+______________________________________________________________________
 
-# 252. Backlog Role
+## 252. Backlog Role
 
 A backlog is a representation of candidate work, not proof of actual work required.
 
----
+______________________________________________________________________
 
-# 253. Flow Board Role
+## 253. Flow Board Role
 
 A Kanban board is a representation of workflow state.
 
@@ -4855,9 +4859,9 @@ $$
 
 if the board is stale or incomplete.
 
----
+______________________________________________________________________
 
-# 254. Data Freshness Firewall
+## 254. Data Freshness Firewall
 
 A dashboard based on stale board data inherits that staleness.
 
@@ -4867,21 +4871,21 @@ Freshness(DerivedMetric)
 Freshness(LoadBearingData)
 $$
 
----
+______________________________________________________________________
 
-# 255. Incident History Freshness
+## 255. Incident History Freshness
 
 Old incidents may remain relevant, but their applicability depends on regime continuity.
 
----
+______________________________________________________________________
 
-# 256. Retrospective Memory Hazard
+## 256. Retrospective Memory Hazard
 
 Repeatedly citing the same historical incident through multiple retrospective notes can create apparent corroboration without new evidence.
 
----
+______________________________________________________________________
 
-# 257. Knowledge Feedback Hazard
+## 257. Knowledge Feedback Hazard
 
 If retrospective insights become future assumptions, then future retrospectives can reinforce them.
 
@@ -4893,9 +4897,9 @@ $$
 
 should retain provenance and not become untyped “fact.”
 
----
+______________________________________________________________________
 
-# 258. Learning Loop With Epistemic Types
+## 258. Learning Loop With Epistemic Types
 
 Proposed:
 
@@ -4917,17 +4921,17 @@ This avoids:
 Insight → permanent truth
 ```
 
----
+______________________________________________________________________
 
-# 259. Process Improvement Validation
+## 259. Process Improvement Validation
 
 To establish improvement, compare relevant outcomes before/after while accounting for regime changes and confounders.
 
 The source does not supply such validation methodology.
 
----
+______________________________________________________________________
 
-# 260. Counterfactual Gap
+## 260. Counterfactual Gap
 
 A retrospective cannot generally know:
 
@@ -4939,9 +4943,9 @@ from before/after observations alone.
 
 Thus causal improvement claims require care.
 
----
+______________________________________________________________________
 
-# 261. Causal Language Policy
+## 261. Causal Language Policy
 
 Prefer:
 
@@ -4954,17 +4958,17 @@ consistent with
 
 unless causal evidence exists.
 
----
+______________________________________________________________________
 
-# 262. No Universal Agile Law
+## 262. No Universal Agile Law
 
 The source is an AMOS model.
 
 It does not establish universal laws of team productivity.
 
----
+______________________________________________________________________
 
-# 263. Discipline Boundary
+## 263. Discipline Boundary
 
 The kernel concerns agile delivery broadly.
 
@@ -4981,17 +4985,17 @@ are stated.
 
 Therefore broad applicability is a source claim only at the practice level, not empirically established across all domains.
 
----
+______________________________________________________________________
 
-# 264. Tech-AI Taxonomy Does Not Equal Domain Restriction
+## 264. Tech-AI Taxonomy Does Not Equal Domain Restriction
 
 The tag may indicate corpus placement rather than exclusive applicability.
 
 Exact taxonomy semantics are unresolved.
 
----
+______________________________________________________________________
 
-# 265. Scope Generalization Firewall
+## 265. Scope Generalization Firewall
 
 Evidence from one team/project cannot automatically validate another.
 
@@ -5001,9 +5005,9 @@ Valid(Team_A)
 Valid(Team_B)
 $$
 
----
+______________________________________________________________________
 
-# 266. Cross-Scale Firewall
+## 266. Cross-Scale Firewall
 
 Sprint-level patterns cannot automatically be generalized to:
 
@@ -5016,53 +5020,53 @@ industry
 
 without evidence.
 
----
+______________________________________________________________________
 
-# 267. Cross-Domain Firewall
+## 267. Cross-Domain Firewall
 
 A process effective in software development cannot automatically be assumed effective in medicine, hardware, research, or policy work.
 
----
+______________________________________________________________________
 
-# 268. Hybrid Method Causal Firewall
+## 268. Hybrid Method Causal Firewall
 
 If a Scrumban team performs better than before, that does not alone prove Scrumban caused the improvement.
 
----
+______________________________________________________________________
 
-# 269. Selection Bias
+## 269. Selection Bias
 
 Teams adopting a method may differ systematically from teams not adopting it.
 
 The kernel does not address this.
 
----
+______________________________________________________________________
 
-# 270. Survivorship Bias
+## 270. Survivorship Bias
 
 Historical velocity data may exclude failed or cancelled work depending on measurement rules.
 
 Schema is unknown.
 
----
+______________________________________________________________________
 
-# 271. Goodhart Risk
+## 271. Goodhart Risk
 
 Optimizing a reported delivery metric can change the relationship between the metric and the underlying objective.
 
 This is external/general reasoning, not a source claim.
 
----
+______________________________________________________________________
 
-# 272. Metric Portfolio Principle
+## 272. Metric Portfolio Principle
 
 A safer derived design is to interpret metrics jointly rather than optimizing one in isolation.
 
 But no weighting or objective function is source-defined.
 
----
+______________________________________________________________________
 
-# 273. No Composite Delivery Score
+## 273. No Composite Delivery Score
 
 The source does not define:
 
@@ -5073,85 +5077,85 @@ $$
 
 Therefore such a score would be invented.
 
----
+______________________________________________________________________
 
-# 274. No Metric Weights
+## 274. No Metric Weights
 
 No weights exist.
 
----
+______________________________________________________________________
 
-# 275. No Metric Normalization
+## 275. No Metric Normalization
 
 No normalization method exists.
 
----
+______________________________________________________________________
 
-# 276. No Threshold-Based Status
+## 276. No Threshold-Based Status
 
 No red/yellow/green thresholds exist.
 
----
+______________________________________________________________________
 
-# 277. No Alerting Function
+## 277. No Alerting Function
 
 The kernel tracks/reports metrics but does not explicitly define alerts.
 
----
+______________________________________________________________________
 
-# 278. No Automation Function
+## 278. No Automation Function
 
 No automated backlog movement, sprint creation, or WIP enforcement is defined.
 
----
+______________________________________________________________________
 
-# 279. No Tool Integration
+## 279. No Tool Integration
 
 No Jira, Linear, Azure DevOps, GitHub, Trello, or other system is specified.
 
 Do not invent integrations.
 
----
+______________________________________________________________________
 
-# 280. No Data Ingestion Contract
+## 280. No Data Ingestion Contract
 
 The artifact names data inputs but not how they are acquired.
 
----
+______________________________________________________________________
 
-# 281. No Authentication/Authorization Model
+## 281. No Authentication/Authorization Model
 
 No user roles or access controls are specified.
 
----
+______________________________________________________________________
 
-# 282. No Privacy Model
+## 282. No Privacy Model
 
 Team feedback may contain sensitive information, but no privacy governance appears.
 
 This is an implementation gap.
 
----
+______________________________________________________________________
 
-# 283. No Retention Policy
+## 283. No Retention Policy
 
 No data-retention or deletion rules.
 
----
+______________________________________________________________________
 
-# 284. No Audit Log
+## 284. No Audit Log
 
 No explicit audit mechanism.
 
----
+______________________________________________________________________
 
-# 285. No Human Approval Gate
+## 285. No Human Approval Gate
 
 The source does not state whether generated action items or sprint plans require human approval.
 
----
+______________________________________________________________________
 
-# 286. Safe Governance Proposal
+## 286. Safe Governance Proposal
 
 For consequential decisions:
 
@@ -5164,45 +5168,45 @@ rather than assuming autonomous authority.
 
 This is PROPOSED.
 
----
+______________________________________________________________________
 
-# 287. No Autonomous Management Claim
+## 287. No Autonomous Management Claim
 
 Nothing in the artifact establishes autonomous team management.
 
----
+______________________________________________________________________
 
-# 288. No Personnel Authority
+## 288. No Personnel Authority
 
 The kernel should not be interpreted as an authority over team members from this source alone.
 
----
+______________________________________________________________________
 
-# 289. Scrum Planning Output Governance
+## 289. Scrum Planning Output Governance
 
 `sprint_backlog`, `sprint_plan`, and `commitment_estimate` are outputs, but approval semantics are absent.
 
----
+______________________________________________________________________
 
-# 290. Kanban Output Governance
+## 290. Kanban Output Governance
 
 `bottleneck_identification` should be treated as an analytical result pending review if consequential action follows.
 
----
+______________________________________________________________________
 
-# 291. Retrospective Output Governance
+## 291. Retrospective Output Governance
 
 `action_items` may represent recommendations or agreed actions; source does not distinguish.
 
----
+______________________________________________________________________
 
-# 292. Metrics Output Governance
+## 292. Metrics Output Governance
 
 `predictive_estimates` should remain estimates.
 
----
+______________________________________________________________________
 
-# 293. Canonical Integrity Laws
+## 293. Canonical Integrity Laws
 
 A hardened set of derived invariants:
 
@@ -5224,36 +5228,36 @@ Source Capability ≠ Runtime Verification
 Hybrid Support ≠ Universal Applicability
 ```
 
----
+______________________________________________________________________
 
-# 294. Anti-Fabrication Rules
+## 294. Anti-Fabrication Rules
 
 Never fabricate:
 
 1. velocity values,
-2. sprint capacity,
-3. backlog items,
-4. WIP thresholds,
-5. cycle-time values,
-6. lead-time values,
-7. throughput,
-8. forecast probabilities,
-9. quality metrics,
-10. incident history,
-11. team feedback,
-12. bottleneck causes,
-13. sprint goals,
-14. forecast algorithms,
-15. runtime status,
-16. Scrum compliance,
-17. Kanban compliance,
-18. AI implementation,
-19. automation integrations,
-20. deployment evidence.
+1. sprint capacity,
+1. backlog items,
+1. WIP thresholds,
+1. cycle-time values,
+1. lead-time values,
+1. throughput,
+1. forecast probabilities,
+1. quality metrics,
+1. incident history,
+1. team feedback,
+1. bottleneck causes,
+1. sprint goals,
+1. forecast algorithms,
+1. runtime status,
+1. Scrum compliance,
+1. Kanban compliance,
+1. AI implementation,
+1. automation integrations,
+1. deployment evidence.
 
----
+______________________________________________________________________
 
-# 295. Anti-Regression Rules
+## 295. Anti-Regression Rules
 
 Any future expansion should preserve:
 
@@ -5271,9 +5275,9 @@ frontmatter title exactly as supplied
 
 unless newer authoritative source supersedes them.
 
----
+______________________________________________________________________
 
-# 296. Source Preservation Rule
+## 296. Source Preservation Rule
 
 Do not replace:
 
@@ -5291,9 +5295,9 @@ inside normalized source metadata merely for elegance.
 
 Aliases may be proposed separately.
 
----
+______________________________________________________________________
 
-# 297. Version Preservation Rule
+## 297. Version Preservation Rule
 
 Do not infer:
 
@@ -5303,15 +5307,15 @@ V0 = 1.0.0
 
 The relation is unknown.
 
----
+______________________________________________________________________
 
-# 298. Related-Field Preservation Rule
+## 298. Related-Field Preservation Rule
 
 Do not populate the blank source Related field by guessing likely kernel connections.
 
----
+______________________________________________________________________
 
-# 299. Function Name Preservation
+## 299. Function Name Preservation
 
 Canonical source keys:
 
@@ -5324,9 +5328,9 @@ agile_metrics
 
 should remain intact.
 
----
+______________________________________________________________________
 
-# 300. Input Name Preservation
+## 300. Input Name Preservation
 
 Canonical source input keys:
 
@@ -5352,9 +5356,9 @@ team_velocity
 quality_metrics
 ```
 
----
+______________________________________________________________________
 
-# 301. Output Name Preservation
+## 301. Output Name Preservation
 
 ```text
 sprint_backlog
@@ -5374,9 +5378,9 @@ trend_analysis
 predictive_estimates
 ```
 
----
+______________________________________________________________________
 
-# 302. Capability Name Preservation
+## 302. Capability Name Preservation
 
 ```text
 scrum_framework
@@ -5385,9 +5389,9 @@ hybrid_approaches
 metrics
 ```
 
----
+______________________________________________________________________
 
-# 303. Machine-Readable Canonical Projection — DERIVED
+## 303. Machine-Readable Canonical Projection — DERIVED
 
 ```json
 {
@@ -5425,9 +5429,9 @@ metrics
 
 This is a normalized projection, not recovered source JSON.
 
----
+______________________________________________________________________
 
-# 304. Function Contract — Scrum
+## 304. Function Contract — Scrum
 
 ```yaml
 function: scrum_planning
@@ -5449,9 +5453,9 @@ fallback: UNKNOWN
 validation: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 305. Function Contract — Kanban
+## 305. Function Contract — Kanban
 
 ```yaml
 function: kanban_flow
@@ -5473,9 +5477,9 @@ bottleneck_method: UNKNOWN
 wip_enforcement: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 306. Function Contract — Retrospective
+## 306. Function Contract — Retrospective
 
 ```yaml
 function: retrospective
@@ -5497,9 +5501,9 @@ causal_method: UNKNOWN
 decision_authority: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 307. Function Contract — Metrics
+## 307. Function Contract — Metrics
 
 ```yaml
 function: agile_metrics
@@ -5522,9 +5526,9 @@ prediction_model: UNKNOWN
 validation: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 308. Proposed Fail-Closed Contract
+## 308. Proposed Fail-Closed Contract
 
 ```text
 IF required evidence missing
@@ -5546,9 +5550,9 @@ IF team feedback conflicts with metrics
 THEN preserve contradiction and investigate.
 ```
 
----
+______________________________________________________________________
 
-# 309. Proposed Runtime-Neutral Routing
+## 309. Proposed Runtime-Neutral Routing
 
 ```text
 Request
@@ -5570,9 +5574,9 @@ Expose uncertainty
 
 This is not source code.
 
----
+______________________________________________________________________
 
-# 310. Routing Matrix — Proposed
+## 310. Routing Matrix — Proposed
 
 | Request                               | Route                                     |
 | ------------------------------------- | ----------------------------------------- |
@@ -5583,9 +5587,9 @@ This is not source code.
 | Which method should we use?           | GAP / hybrid-routing policy required      |
 | Why did delivery slow?                | Multi-function analysis + causal firewall |
 
----
+______________________________________________________________________
 
-# 311. Multi-Function Question
+## 311. Multi-Function Question
 
 A question such as:
 
@@ -5605,17 +5609,17 @@ No source orchestration rule specifies how these functions compose.
 
 Thus multi-function orchestration is a gap.
 
----
+______________________________________________________________________
 
-# 312. Atomic Reasoning Proposal
+## 312. Atomic Reasoning Proposal
 
 For consequential multi-function analysis, a proposed proof capsule should preserve all load-bearing inputs together before a final conclusion is emitted.
 
 This conceptually resembles atomic multi-RSCF reasoning, but it is not a claim that the kernel implements distributed atomicity.
 
----
+______________________________________________________________________
 
-# 313. Multi-Function Evidence Closure
+## 313. Multi-Function Evidence Closure
 
 Before concluding:
 
@@ -5636,9 +5640,9 @@ regime compatibility
 
 depending on stakes.
 
----
+______________________________________________________________________
 
-# 314. Local Fast Path
+## 314. Local Fast Path
 
 For a low-stakes question:
 
@@ -5648,9 +5652,9 @@ only relevant metric evidence should be required.
 
 There is no need to retrieve retrospective or Scrum planning data unless they can change the answer.
 
----
+______________________________________________________________________
 
-# 315. Escalation Conditions
+## 315. Escalation Conditions
 
 Escalate analysis when:
 
@@ -5664,9 +5668,9 @@ source freshness is weak
 organizational consequences are large
 ```
 
----
+______________________________________________________________________
 
-# 316. Stop Condition
+## 316. Stop Condition
 
 Reasoning can stop when the answer is sufficient for:
 
@@ -5678,9 +5682,9 @@ Action Sufficiency
 
 without inventing unavailable detail.
 
----
+______________________________________________________________________
 
-# 317. Validation Suite — Source Structure
+## 317. Validation Suite — Source Structure
 
 ### Test A1
 
@@ -5724,9 +5728,9 @@ PASS
 
 These are validations of supplied structure only.
 
----
+______________________________________________________________________
 
-# 318. Validation Suite — Epistemic Safety
+## 318. Validation Suite — Epistemic Safety
 
 ### Test E1
 
@@ -5770,9 +5774,9 @@ Expected:
 preserve competing explanations
 ```
 
----
+______________________________________________________________________
 
-# 319. Validation Suite — Scope
+## 319. Validation Suite — Scope
 
 ### Test S1
 
@@ -5804,9 +5808,9 @@ Expected:
 scope warning
 ```
 
----
+______________________________________________________________________
 
-# 320. Validation Suite — Metric Integrity
+## 320. Validation Suite — Metric Integrity
 
 ### Test M1
 
@@ -5838,9 +5842,9 @@ Expected:
 do not count as independent corroboration
 ```
 
----
+______________________________________________________________________
 
-# 321. Validation Suite — Retrospective
+## 321. Validation Suite — Retrospective
 
 ### Test R1
 
@@ -5872,9 +5876,9 @@ Expected:
 improvement remains proposal/unvalidated
 ```
 
----
+______________________________________________________________________
 
-# 322. Validation Suite — Forecasting
+## 322. Validation Suite — Forecasting
 
 ### Test P1
 
@@ -5906,9 +5910,9 @@ Expected:
 downgrade/invalidate dependent forecast
 ```
 
----
+______________________________________________________________________
 
-# 323. Boundary Test — Zero Historical Velocity
+## 323. Boundary Test — Zero Historical Velocity
 
 If:
 
@@ -5924,9 +5928,9 @@ Correct canonical state:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 324. Boundary Test — Zero Capacity
+## 324. Boundary Test — Zero Capacity
 
 If capacity is genuinely zero, one might expect no sprint work to be feasible.
 
@@ -5934,29 +5938,29 @@ But the source does not provide an equation.
 
 Thus the exact output remains implementation-dependent.
 
----
+______________________________________________________________________
 
-# 325. Boundary Test — WIP Limit Zero
+## 325. Boundary Test — WIP Limit Zero
 
 The source gives no semantics for zero WIP limit.
 
 Do not infer whether this blocks all work, represents disabled state, or is invalid input.
 
----
+______________________________________________________________________
 
-# 326. Boundary Test — Empty Incident History
+## 326. Boundary Test — Empty Incident History
 
 The retrospective function still has other inputs, but whether it can operate without incident history is unspecified.
 
----
+______________________________________________________________________
 
-# 327. Boundary Test — Empty Team Feedback
+## 327. Boundary Test — Empty Team Feedback
 
 Likewise unspecified.
 
----
+______________________________________________________________________
 
-# 328. Required Versus Optional Inputs
+## 328. Required Versus Optional Inputs
 
 The source lists inputs but does not label them:
 
@@ -5969,9 +5973,9 @@ defaultable
 
 Therefore requiredness is not formally established.
 
----
+______________________________________________________________________
 
-# 329. Function Signature Gap
+## 329. Function Signature Gap
 
 A true implementation contract would need something like:
 
@@ -5988,9 +5992,9 @@ for each input.
 
 None exists.
 
----
+______________________________________________________________________
 
-# 330. Metric Contract Template — Proposed
+## 330. Metric Contract Template — Proposed
 
 ```yaml
 metric:
@@ -6014,9 +6018,9 @@ metric:
 
 This would close many implementation gaps without changing source claims.
 
----
+______________________________________________________________________
 
-# 331. Forecast Contract Template — Proposed
+## 331. Forecast Contract Template — Proposed
 
 ```yaml
 forecast:
@@ -6033,9 +6037,9 @@ forecast:
   invalidation_conditions:
 ```
 
----
+______________________________________________________________________
 
-# 332. Retrospective Insight Template — Proposed
+## 332. Retrospective Insight Template — Proposed
 
 ```yaml
 insight:
@@ -6051,9 +6055,9 @@ insight:
   reversibility:
 ```
 
----
+______________________________________________________________________
 
-# 333. Bottleneck Capsule — Proposed
+## 333. Bottleneck Capsule — Proposed
 
 ```yaml
 bottleneck:
@@ -6067,9 +6071,9 @@ bottleneck:
   next_discriminating_test:
 ```
 
----
+______________________________________________________________________
 
-# 334. Sprint Commitment Capsule — Proposed
+## 334. Sprint Commitment Capsule — Proposed
 
 ```yaml
 commitment:
@@ -6085,9 +6089,9 @@ commitment:
 
 Dependencies are proposed because the source does not explicitly include them.
 
----
+______________________________________________________________________
 
-# 335. Obsidian Atomic Note — Kernel
+## 335. Obsidian Atomic Note — Kernel
 
 ```markdown
 ---
@@ -6096,7 +6100,7 @@ epistemic_class: AMOS_MODEL
 source_state: SOURCE_CLAIM
 ---
 
-# Agile Delivery Kernel
+## Agile Delivery Kernel
 
 ## Functions
 -
@@ -6110,12 +6114,12 @@ source_state: SOURCE_CLAIM
 
 **PROPOSED vault structure.**
 
----
+______________________________________________________________________
 
-# 336. Atomic Note — Scrum Planning
+## 336. Atomic Note — Scrum Planning
 
 ```markdown
-# Scrum Planning
+## Scrum Planning
 
 ## Inputs
 - product_backlog
@@ -6132,12 +6136,12 @@ source_state: SOURCE_CLAIM
 
 ```
 
----
+______________________________________________________________________
 
-# 337. Atomic Note — Kanban Flow
+## 337. Atomic Note — Kanban Flow
 
 ```markdown
-# Kanban Flow
+## Kanban Flow
 
 ## Inputs
 - work_items
@@ -6151,12 +6155,12 @@ source_state: SOURCE_CLAIM
 - bottleneck_identification
 ```
 
----
+______________________________________________________________________
 
-# 338. Atomic Note — Retrospective
+## 338. Atomic Note — Retrospective
 
 ```markdown
-# Retrospective
+## Retrospective
 
 ## Inputs
 - sprint_data
@@ -6170,12 +6174,12 @@ source_state: SOURCE_CLAIM
 - process_improvements
 ```
 
----
+______________________________________________________________________
 
-# 339. Atomic Note — Agile Metrics
+## 339. Atomic Note — Agile Metrics
 
 ```markdown
-# Agile Metrics
+## Agile Metrics
 
 ## Inputs
 - sprint_data
@@ -6189,9 +6193,9 @@ source_state: SOURCE_CLAIM
 - predictive_estimates
 ```
 
----
+______________________________________________________________________
 
-# 340. Proposed Metric Atomic Notes
+## 340. Proposed Metric Atomic Notes
 
 ```text
 
@@ -6204,11 +6208,11 @@ source_state: SOURCE_CLAIM
 
 These links should be created only if corresponding vault artifacts are desired.
 
----
+______________________________________________________________________
 
-# 341. Proposed Dataview — Kernel Index
+## 341. Proposed Dataview — Kernel Index
 
-```dataview
+```text
 TABLE
   source,
   rscf.state AS "RSCF State"
@@ -6216,11 +6220,11 @@ FROM #kernel
 SORT file.name ASC
 ```
 
----
+______________________________________________________________________
 
-# 342. Proposed Dataview — Agile Kernel
+## 342. Proposed Dataview — Agile Kernel
 
-```dataview
+```text
 TABLE
   type,
   source,
@@ -6229,11 +6233,11 @@ TABLE
 FROM #topic/amos-agile-delivery-kernel-v0
 ```
 
----
+______________________________________________________________________
 
-# 343. Proposed Dataview — Source Claims
+## 343. Proposed Dataview — Source Claims
 
-```dataview
+```text
 TABLE
   source,
   rscf.scope AS "Scope"
@@ -6241,9 +6245,9 @@ FROM #rscf/state/source-claim
 WHERE contains(file.path, "11_KNOWLEDGE/kernel")
 ```
 
----
+______________________________________________________________________
 
-# 344. Proposed Obsidian Navigation
+## 344. Proposed Obsidian Navigation
 
 ```markdown
 ## Navigation
@@ -6267,11 +6271,11 @@ WHERE contains(file.path, "11_KNOWLEDGE/kernel")
 
 ```
 
-All except `` are proposed links.
+All except \`\` are proposed links.
 
----
+______________________________________________________________________
 
-# 345. Full Concept Graph
+## 345. Full Concept Graph
 
 ```mermaid
 flowchart TD
@@ -6306,9 +6310,9 @@ flowchart TD
 
 This graph mirrors source capability statements but its hierarchy is a derived visualization.
 
----
+______________________________________________________________________
 
-# 346. Operational Graph
+## 346. Operational Graph
 
 ```mermaid
 flowchart LR
@@ -6321,9 +6325,9 @@ flowchart LR
 
 This feedback cycle is **DERIVED**, not an explicit source runtime sequence.
 
----
+______________________________________________________________________
 
-# 347. Epistemic Graph
+## 347. Epistemic Graph
 
 ```mermaid
 flowchart LR
@@ -6337,9 +6341,9 @@ flowchart LR
     ACT --> NO[New Observations]
 ```
 
----
+______________________________________________________________________
 
-# 348. Causal Firewall Graph
+## 348. Causal Firewall Graph
 
 ```mermaid
 flowchart LR
@@ -6351,9 +6355,9 @@ flowchart LR
     C -->|Yes| Y[Stronger Causal Claim]
 ```
 
----
+______________________________________________________________________
 
-# 349. Metric Scope Graph
+## 349. Metric Scope Graph
 
 ```mermaid
 flowchart TD
@@ -6369,9 +6373,9 @@ flowchart TD
 
 All these properties except metric names are governance additions.
 
----
+______________________________________________________________________
 
-# 350. Minimal Safe Kernel
+## 350. Minimal Safe Kernel
 
 The smallest source-grounded representation is:
 
@@ -6403,9 +6407,9 @@ Agile_Delivery_Kernel:
     - metrics
 ```
 
----
+______________________________________________________________________
 
-# 351. Maximum Safe Claim
+## 351. Maximum Safe Claim
 
 The strongest safe conclusion is:
 
@@ -6413,9 +6417,9 @@ The strongest safe conclusion is:
 
 **Class: VERIFIED FROM PROVIDED SOURCE / SOURCE_CLAIM about the described kernel.**
 
----
+______________________________________________________________________
 
-# 352. Claims That Must Remain Weaker
+## 352. Claims That Must Remain Weaker
 
 These remain:
 
@@ -6435,9 +6439,9 @@ Cold-start behavior               UNKNOWN/GAP
 Failure handling                  UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 353. Canonical Compression
+## 353. Canonical Compression
 
 $$
 \boxed{
@@ -6477,9 +6481,9 @@ $$
 
 All four equations are **DERIVED interface notation**, faithfully compressing the source rather than supplying undocumented algorithms.
 
----
+______________________________________________________________________
 
-# 354. Governance Compression
+## 354. Governance Compression
 
 $$
 Metric \neq Goal
@@ -6517,9 +6521,9 @@ $$
 SourceSpecification \neq RuntimeVerification
 $$
 
----
+______________________________________________________________________
 
-# 355. Final Canonical State
+## 355. Final Canonical State
 
 ```yaml
 artifact:
@@ -6592,9 +6596,9 @@ navigation:
   source_related_links: []
 ```
 
----
+______________________________________________________________________
 
-# 356. Final Proof Capsule
+## 356. Final Proof Capsule
 
 ```yaml
 CLAIM:
@@ -6656,9 +6660,9 @@ CONFIDENCE_CEILING:
   empirical delivery claims: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 357. Final Conclusion
+## 357. Final Conclusion
 
 **`AMOS AGILE DELIVERY KERNEL V0 TECH7 3` is best classified as a SOURCE_CLAIM-backed conceptual agile-delivery kernel specification.** Its strongest source-grounded architecture is a four-function system spanning **planning, flow, retrospective learning, and measurement**, with Scrum, Kanban, hybrid delivery, and a six-term metric vocabulary.
 

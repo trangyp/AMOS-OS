@@ -89,7 +89,7 @@
     "arxiv-long-context-rope-scaling-rscf"
   ],
   "depends_on_workflows": [
-    "arxiv-long-context-rope-scaling-rscf-workflow.md"
+    "amos-arxiv-long-context-rope-scaling-rscf-workflow.md"
   ],
   "epistemic_class": "AMOS_MODEL",
   "claim_ceiling": 0.95,

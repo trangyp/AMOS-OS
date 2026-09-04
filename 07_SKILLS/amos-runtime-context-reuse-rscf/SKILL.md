@@ -4,25 +4,22 @@ title: SKILL — Amos Runtime Context Reuse Rscf
 type: skill
 source: 07_SKILLS/amos-runtime-context-reuse-rscf
 name: amos-runtime-context-reuse-rscf
-description: Runtime Context Reuse — boundary and scope capability. Use when evaluating
-  scope boundaries, context continuity, or capability bounds. Use when amos-boundary-scope-master
-  routes to this specialized capability. Do not use for generic tasks outside boundary
-  domain.
+description: Runtime Context Reuse — boundary and scope capability. Use when evaluating scope boundaries, context continuity, or capability bounds. Use when amos-boundary-scope-master routes to this specialized capability. Do not use for generic tasks outside boundary domain.
 parent_skill: amos-boundary-scope-master
 domain: boundary
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
 tags:
-- type/skill
-- type/skill
-- domain/boundary-scope
-- epistemic/source_claim
-- hml/h
-- epistemic/source_claim
-- amos-os
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/boundary-scope
+  - epistemic/source_claim
+  - hml/h
+  - epistemic/source_claim
+  - amos-os
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -32,23 +29,23 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: H
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
-- L7_authority
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
+  - L7_authority
 collapse_class: fail_closed
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L7
-- L16
-- L17
-- L18
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L7
+  - L16
+  - L17
+  - L18
 license: MIT
 steward: Trang Phan
 ---
@@ -58,6 +55,7 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: boundary. Parent: amos-boundary-scope-master. Epistemic class: SOURCE_CLAIM. H/M/L: H.
+
 ## When to Use
 
 - When boundary and scope governance for runtime context reuse rscf is needed within the boundary domain
@@ -76,18 +74,19 @@ Origin architect: **Trang Phan**. Domain: boundary. Parent: amos-boundary-scope-
 - **runtime_context.audit_boundary**: Audit boundary crossings and log violations for governance review
 
 > **Reference**: See `references/vault_domain_knowledge.md` (content_hash: 929f342c3438ceda) for the full vault-sourced domain knowledge (9225 chars).
+
 - **runtime_context.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
 - **runtime_context.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## Operations
 
 1. **runtime_context.evaluate_scope**: Evaluate scope boundaries: what is in-scope, out-of-scope, and at the boundary
-2. **runtime_context.check_admission**: Check admission criteria: whether a query enters this capability legitimately
-3. **runtime_context.detect_drift**: Detect context drift, persona drift, or scope creep beyond authorized bounds
-4. **runtime_context.enforce_compaction**: Enforce context compaction and recoverability when budget is exceeded
-5. **runtime_context.audit_boundary**: Audit boundary crossings and log violations for governance review
-6. **runtime_context.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-7. **runtime_context.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+1. **runtime_context.check_admission**: Check admission criteria: whether a query enters this capability legitimately
+1. **runtime_context.detect_drift**: Detect context drift, persona drift, or scope creep beyond authorized bounds
+1. **runtime_context.enforce_compaction**: Enforce context compaction and recoverability when budget is exceeded
+1. **runtime_context.audit_boundary**: Audit boundary crossings and log violations for governance review
+1. **runtime_context.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+1. **runtime_context.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## 11_KNOWLEDGE Vault Content
 
@@ -102,6 +101,7 @@ This RSCF engine operates on the AMOS RSCF (Reasoning, Scope, Claim, Falsifier) 
 **RSCF state kinds**: OBSERVATION, SOURCE_CLAIM, DERIVED, MODEL, DECISION, UNKNOWN.
 
 **RSCF laws**:
+
 - `CLAIM != FACT`: a claim is not a fact; it must be labeled with epistemic class
 - `CONFIDENCE <= EVIDENCE`: confidence cannot exceed evidence support
 - `FALSIFIER_REQUIRED`: every claim must declare its falsifier
@@ -109,6 +109,7 @@ This RSCF engine operates on the AMOS RSCF (Reasoning, Scope, Claim, Falsifier) 
 - `PROVENANCE_REQUIRED`: every claim must have traceable provenance
 
 **RSCF validation gates**:
+
 - G1 (Law of Law): no unresolved contradictions
 - G2 (Epistemic class): all claims labeled, no class promotion without evidence
 - G3 (Provenance): source path recorded for every derived claim
@@ -139,9 +140,10 @@ This RSCF engine is an epistemic governance tool. It does not prove claims are t
 
 ## Provenance
 
-- **Skill**: `a
+- **Skill**: \`a
 
----
+______________________________________________________________________
+
 **Links:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 ## Related
@@ -151,17 +153,19 @@ This RSCF engine is an epistemic governance tool. It does not prove claims are t
 ## Examples
 
 - **Scenario**: When boundary and scope governance for runtime context reuse rscf is needed within the boundary domain
+
   - **Input**: A query matching this skill's domain (boundary)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When the parent skill (`amos-boundary-scope-master`) routes to this specialized capability
+
   - **Input**: A query matching this skill's domain (boundary)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When a query requires boundary-specific reasoning grounded in vault sources
+
   - **Input**: A query matching this skill's domain (boundary)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Anti-Patterns
 
@@ -171,7 +175,6 @@ This RSCF engine is an epistemic governance tool. It does not prove claims are t
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `amos-boundary-scope-master` — routes to this skill when boundary specialization is needed
@@ -179,7 +182,6 @@ This RSCF engine is an epistemic governance tool. It does not prove claims are t
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -198,7 +200,6 @@ This RSCF engine is an epistemic governance tool. It does not prove claims are t
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -206,7 +207,6 @@ This RSCF engine is an epistemic governance tool. It does not prove claims are t
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -219,11 +219,12 @@ This RSCF engine is an epistemic governance tool. It does not prove claims are t
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `amos-boundary-scope-master` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `amos-runtime-context-reuse-rscf-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -231,12 +232,14 @@ This RSCF engine is an epistemic governance tool. It does not prove claims are t
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-runtime-context-reuse-rscf
 node_type: skill
 path: 07_SKILLS/amos-runtime-context-reuse-rscf/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

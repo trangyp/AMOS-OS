@@ -89,7 +89,7 @@
     "mckinsey-digital-bank-value-proposition-rscf"
   ],
   "depends_on_workflows": [
-    "mckinsey-digital-bank-value-proposition-rscf-workflow.md"
+    "amos-mckinsey-digital-bank-value-proposition-rscf-workflow.md"
   ],
   "epistemic_class": "AMOS_MODEL",
   "claim_ceiling": 0.95,

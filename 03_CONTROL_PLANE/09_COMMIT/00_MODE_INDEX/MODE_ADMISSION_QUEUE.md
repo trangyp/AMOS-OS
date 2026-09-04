@@ -1,30 +1,33 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: MODE ADMISSION QUEUE
 type: note
 source: 03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX
 tags:
-- control-plane
-- commit
-- mode_index
-- note
-- canon/control-plane
-- readme
-- k-gmef
-- k-rscf
-- k-hml
-- k-provenance
-- k-provenance-topology
-- k-sybil-hardening
-- k-constraint-propagation
-- k-commit-time-authority
-- k-event-bus
-- k-system-state
-- k-context-state
-- validation
-- delegation
-- revocation
-- integration
-- canon
+  - control-plane
+  - commit
+  - mode_index
+  - note
+  - canon/control-plane
+  - readme
+  - k-gmef
+  - k-rscf
+  - k-hml
+  - k-provenance
+  - k-provenance-topology
+  - k-sybil-hardening
+  - k-constraint-propagation
+  - k-commit-time-authority
+  - k-event-bus
+  - k-system-state
+  - k-context-state
+  - validation
+  - delegation
+  - revocation
+  - integration
+  - canon
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -34,9 +37,10 @@ rscf:
 
 # MODE ADMISSION QUEUE
 
-`MODE_ADMISSION_QUEUE.md` currently contains only a generic README placeholder, so there is no substantive existing file to reproduce verbatim.  There is, however, a related AMOS structural placeholder for `25_CANON_ADMISSION_MODE.md` whose required contract explicitly calls for candidate/schema/provenance/contradiction/scope/authority/admitted/rejected state, transition graphs, entry/exit conditions, provenance, RSCF/GMEF, H/M/L, event bus, MVCC/read-set dependencies, observability, repair, tests, and supersession.
+`MODE_ADMISSION_QUEUE.md` currently contains only a generic README placeholder, so there is no substantive existing file to reproduce verbatim. There is, however, a related AMOS structural placeholder for `25_CANON_ADMISSION_MODE.md` whose required contract explicitly calls for candidate/schema/provenance/contradiction/scope/authority/admitted/rejected state, transition graphs, entry/exit conditions, provenance, RSCF/GMEF, H/M/L, event bus, MVCC/read-set dependencies, observability, repair, tests, and supersession.
 
----
+______________________________________________________________________
+
 artifact_id: AMOS-OS-MODE-ADMISSION-QUEUE
 title: AMOS OS Mode Admission Queue
 canonical_name: MODE_ADMISSION_QUEUE
@@ -50,22 +54,23 @@ status: CANDIDATE_CANON
 conclusion_class: DERIVED
 
 source_state:
-  existing_file: PLACEHOLDER
-  recovered_substantive_implementation: false
+existing_file: PLACEHOLDER
+recovered_substantive_implementation: false
 
 related_artifacts:
-  - 25_CANON_ADMISSION_MODE.md
-  - [[02_KERNEL/09_INTEGRATION/K_GMEF|K_GMEF]]
-  - [[02_KERNEL/09_INTEGRATION/K_RSCF|K_RSCF]]
-  - [[02_KERNEL/09_INTEGRATION/K_HML|K_HML]]
-  - [[02_KERNEL/08_PROVENANCE/K_PROVENANCE|K_PROVENANCE]]
-  - [[02_KERNEL/08_PROVENANCE/K_PROVENANCE_TOPOLOGY|K_PROVENANCE_TOPOLOGY]]
-  - [[02_KERNEL/08_PROVENANCE/K_SYBIL_HARDENING|K_SYBIL_HARDENING]]
-  - [[02_KERNEL/09_INTEGRATION/K_CONSTRAINT_PROPAGATION|K_CONSTRAINT_PROPAGATION]]
-  - [[02_KERNEL/07_AUTHORITY/K_COMMIT_TIME_AUTHORITY|K_COMMIT_TIME_AUTHORITY]]
-  - [[02_KERNEL/04_STATE/K_EVENT_BUS|K_EVENT_BUS]]
-  - [[02_KERNEL/04_STATE/K_SYSTEM_STATE|K_SYSTEM_STATE]]
-  - [[02_KERNEL/04_STATE/K_CONTEXT_STATE|K_CONTEXT_STATE]]
+
+- 25_CANON_ADMISSION_MODE.md
+- [[02_KERNEL/09_INTEGRATION/K_GMEF|K_GMEF]]
+- [[02_KERNEL/09_INTEGRATION/K_RSCF|K_RSCF]]
+- [[02_KERNEL/09_INTEGRATION/K_HML|K_HML]]
+- [[02_KERNEL/08_PROVENANCE/K_PROVENANCE|K_PROVENANCE]]
+- [[02_KERNEL/08_PROVENANCE/K_PROVENANCE_TOPOLOGY|K_PROVENANCE_TOPOLOGY]]
+- [[02_KERNEL/08_PROVENANCE/K_SYBIL_HARDENING|K_SYBIL_HARDENING]]
+- [[02_KERNEL/09_INTEGRATION/K_CONSTRAINT_PROPAGATION|K_CONSTRAINT_PROPAGATION]]
+- [[02_KERNEL/07_AUTHORITY/K_COMMIT_TIME_AUTHORITY|K_COMMIT_TIME_AUTHORITY]]
+- [[02_KERNEL/04_STATE/K_EVENT_BUS|K_EVENT_BUS]]
+- [[02_KERNEL/04_STATE/K_SYSTEM_STATE|K_SYSTEM_STATE]]
+- [[02_KERNEL/04_STATE/K_CONTEXT_STATE|K_CONTEXT_STATE]]
 
 implementation_status: SPECIFICATION
 formal_verification_status: NOT_CLAIMED
@@ -73,10 +78,9 @@ empirical_validation_status: NOT_CLAIMED
 
 promotion_required: true
 
-updated: 2026-08-26
----
+## updated: 2026-08-26
 
-# MODE ADMISSION QUEUE — part 2
+## MODE ADMISSION QUEUE — part 2
 
 > **Status:** `CANDIDATE_CANON`
 >
@@ -86,9 +90,9 @@ updated: 2026-08-26
 >
 > **Origin Architect:** Trang Phan
 
----
+______________________________________________________________________
 
-# 0. PURPOSE
+## 0. PURPOSE
 
 `MODE_ADMISSION_QUEUE` is the governed staging structure for proposed AMOS
 operating modes before they are permitted to enter an admitted mode registry,
@@ -136,9 +140,9 @@ SUPERSEDED MODE
 
 These states are not interchangeable.
 
----
+______________________________________________________________________
 
-# 1. CORE LAW
+## 1. CORE LAW
 
 ```text
 NO MODE BECOMES ADMITTED
@@ -179,9 +183,9 @@ SUPERSESSION
 
 where each dimension is load-bearing.
 
----
+______________________________________________________________________
 
-# 2. INTEGRITY BOUNDARY
+## 2. INTEGRITY BOUNDARY
 
 Hard distinctions:
 
@@ -227,9 +231,9 @@ NEWER
 AUTHORITATIVE
 ```
 
----
+______________________________________________________________________
 
-# 3. ROLE IN MODE GOVERNANCE
+## 3. ROLE IN MODE GOVERNANCE
 
 Conceptually:
 
@@ -258,9 +262,9 @@ RUNTIME ELIGIBILITY
 
 The queue is not itself the final admission authority.
 
----
+______________________________________________________________________
 
-# 4. QUEUE OBJECT
+## 4. QUEUE OBJECT
 
 Conceptually:
 
@@ -286,9 +290,9 @@ ModeAdmissionQueue:
   state:
 ```
 
----
+______________________________________________________________________
 
-# 5. QUEUE ENTRY
+## 5. QUEUE ENTRY
 
 Each proposed mode enters as a typed admission record.
 
@@ -366,9 +370,9 @@ ModeAdmissionEntry:
   invalidation_conditions:
 ```
 
----
+______________________________________________________________________
 
-# 6. ENTRY CLASSES
+## 6. ENTRY CLASSES
 
 Candidate proposal classes:
 
@@ -396,9 +400,9 @@ MODE_RETIREMENT
 
 Exact enums may be refined by canonical governance.
 
----
+______________________________________________________________________
 
-# 7. QUEUE STATES
+## 7. QUEUE STATES
 
 Candidate queue states:
 
@@ -438,9 +442,9 @@ INVALIDATED
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 8. DISCOVERED
+## 8. DISCOVERED
 
 A possible mode has been detected.
 
@@ -462,9 +466,9 @@ CANONICAL NOTE
 
 `DISCOVERED` does not mean valid.
 
----
+______________________________________________________________________
 
-# 9. INGESTED
+## 9. INGESTED
 
 The candidate has been assigned queue identity and source provenance.
 
@@ -480,9 +484,9 @@ OBSERVED CONTENT OR REFERENCE
 TIMESTAMP
 ```
 
----
+______________________________________________________________________
 
-# 10. NORMALIZED
+## 10. NORMALIZED
 
 Naming and structural fields have been normalized without changing
 substantive semantics.
@@ -501,9 +505,9 @@ REFERENCE NORMALIZATION
 
 It must not silently change mode meaning.
 
----
+______________________________________________________________________
 
-# 11. PROVENANCE_PENDING
+## 11. PROVENANCE_PENDING
 
 The candidate cannot progress until its evidence ancestry is sufficiently
 understood.
@@ -524,9 +528,9 @@ IS THIS A DERIVATION?
 DO MULTIPLE REFERENCES SHARE ONE ANCESTOR?
 ```
 
----
+______________________________________________________________________
 
-# 12. DEPENDENCY_PENDING
+## 12. DEPENDENCY_PENDING
 
 Load-bearing mode dependencies remain unresolved.
 
@@ -550,9 +554,9 @@ MEMORY REQUIREMENTS
 RUNTIME REQUIREMENTS
 ```
 
----
+______________________________________________________________________
 
-# 13. CONFLICT_PENDING
+## 13. CONFLICT_PENDING
 
 Material contradictions exist.
 
@@ -576,39 +580,39 @@ CAUSAL CONFLICT
 DEPENDENCY CONFLICT
 ```
 
----
+______________________________________________________________________
 
-# 14. VALIDATION_PENDING
+## 14. VALIDATION_PENDING
 
 The candidate requires tests or evidence before admission.
 
----
+______________________________________________________________________
 
-# 15. AUTHORITY_PENDING
+## 15. AUTHORITY_PENDING
 
 Admission has sufficient technical/semantic evidence but the actor or
 governance authority required for admission has not yet been validated.
 
----
+______________________________________________________________________
 
-# 16. READY_FOR_DECISION
+## 16. READY_FOR_DECISION
 
 All load-bearing admission inputs are sufficiently resolved.
 
 This does not predetermine the outcome.
 
----
+______________________________________________________________________
 
-# 17. ADMITTED
+## 17. ADMITTED
 
 The mode has passed required admission gates and may enter the admitted mode
 registry within its approved scope.
 
 Admission is scope-bound.
 
----
+______________________________________________________________________
 
-# 18. ADMITTED_WITH_CONDITIONS
+## 18. ADMITTED_WITH_CONDITIONS
 
 The mode is admitted only under explicit conditions.
 
@@ -623,9 +627,9 @@ conditions:
 
 Conditional admission must never be represented as unrestricted admission.
 
----
+______________________________________________________________________
 
-# 19. HELD
+## 19. HELD
 
 A mode is intentionally paused without being rejected.
 
@@ -643,9 +647,9 @@ WAITING FOR CONFLICT RESOLUTION
 WAITING FOR TEST RESULTS
 ```
 
----
+______________________________________________________________________
 
-# 20. REJECTED
+## 20. REJECTED
 
 The candidate failed admission.
 
@@ -663,9 +667,9 @@ DECISION AUTHORITY
 RECONSIDERATION CONDITIONS
 ```
 
----
+______________________________________________________________________
 
-# 21. SUPERSEDED
+## 21. SUPERSEDED
 
 The candidate is replaced by a newer or more authoritative mode artifact.
 
@@ -673,30 +677,30 @@ Supersession is not deletion.
 
 Historical lineage must remain available.
 
----
+______________________________________________________________________
 
-# 22. WITHDRAWN
+## 22. WITHDRAWN
 
 The submitting authority withdraws the proposal before final admission.
 
----
+______________________________________________________________________
 
-# 23. INVALIDATED
+## 23. INVALIDATED
 
 Previously valid queue reasoning has been invalidated because a load-bearing
 premise changed.
 
----
+______________________________________________________________________
 
-# 24. UNKNOWN/GAP
+## 24. UNKNOWN/GAP
 
 The system cannot currently classify the candidate safely.
 
 This is a valid state.
 
----
+______________________________________________________________________
 
-# 25. MODE IDENTITY
+## 25. MODE IDENTITY
 
 A mode admission entry must bind:
 
@@ -716,9 +720,9 @@ where available.
 
 Naming similarity alone does not establish identity.
 
----
+______________________________________________________________________
 
-# 26. IDENTITY COLLISION
+## 26. IDENTITY COLLISION
 
 If two mode artifacts share a name but differ materially:
 
@@ -738,9 +742,9 @@ IDENTITY_CONFLICT
 
 until resolved.
 
----
+______________________________________________________________________
 
-# 27. ALIAS RESOLUTION
+## 27. ALIAS RESOLUTION
 
 Aliases may be accepted only where evidence demonstrates identity.
 
@@ -752,9 +756,9 @@ SEMANTIC EQUIVALENCE
 
 by default.
 
----
+______________________________________________________________________
 
-# 28. VERSION
+## 28. VERSION
 
 Mode version should track substantive semantics.
 
@@ -778,9 +782,9 @@ EFFECTS
 FAILURE SEMANTICS
 ```
 
----
+______________________________________________________________________
 
-# 29. PURPOSE CONTRACT
+## 29. PURPOSE CONTRACT
 
 Every candidate mode must answer:
 
@@ -796,9 +800,9 @@ WHAT MUST REMAIN INVARIANT?
 
 A mode without a distinguishable purpose may be redundant.
 
----
+______________________________________________________________________
 
-# 30. SCOPE CONTRACT
+## 30. SCOPE CONTRACT
 
 A mode should define:
 
@@ -824,9 +828,9 @@ scope:
 
 Only material fields are required.
 
----
+______________________________________________________________________
 
-# 31. SCOPE FIREWALL
+## 31. SCOPE FIREWALL
 
 A mode validated in:
 
@@ -842,9 +846,9 @@ SCOPE B
 
 without compatibility evidence.
 
----
+______________________________________________________________________
 
-# 32. REGIME CONTRACT
+## 32. REGIME CONTRACT
 
 A mode may be valid only under:
 
@@ -868,9 +872,9 @@ GOVERNANCE
 
 or another explicitly defined regime.
 
----
+______________________________________________________________________
 
-# 33. REGIME SHIFT
+## 33. REGIME SHIFT
 
 If a mode crosses a regime boundary:
 
@@ -880,9 +884,9 @@ R1 → R2
 
 revalidate all regime-dependent invariants.
 
----
+______________________________________________________________________
 
-# 34. STATE CONTRACT
+## 34. STATE CONTRACT
 
 A candidate mode must define its state semantics.
 
@@ -904,9 +908,9 @@ ModeStateContract:
   forbidden_transitions: []
 ```
 
----
+______________________________________________________________________
 
-# 35. STATE TRANSITION GRAPH
+## 35. STATE TRANSITION GRAPH
 
 Example:
 
@@ -926,9 +930,9 @@ ACTIVE
 
 The actual graph must be mode-specific.
 
----
+______________________________________________________________________
 
-# 36. ENTRY CONDITIONS
+## 36. ENTRY CONDITIONS
 
 A mode must define conditions required before activation or admission.
 
@@ -948,9 +952,9 @@ NO MATERIAL CONFLICT
 OBSERVABILITY AVAILABLE
 ```
 
----
+______________________________________________________________________
 
-# 37. EXIT CONDITIONS
+## 37. EXIT CONDITIONS
 
 A mode should define what causes:
 
@@ -968,9 +972,9 @@ TIMEOUT
 REGIME CHANGE
 ```
 
----
+______________________________________________________________________
 
-# 38. MODE INVARIANTS
+## 38. MODE INVARIANTS
 
 Each mode requires explicit invariants.
 
@@ -987,9 +991,9 @@ MUST REMAIN READ-ONLY
 A mode with no meaningful invariant boundary may not require separate
 existence.
 
----
+______________________________________________________________________
 
-# 39. DEPENDENCY CONTRACT
+## 39. DEPENDENCY CONTRACT
 
 Conceptually:
 
@@ -1009,9 +1013,9 @@ dependencies:
   causal_dependencies: []
 ```
 
----
+______________________________________________________________________
 
-# 40. REQUIRED DEPENDENCY
+## 40. REQUIRED DEPENDENCY
 
 If dependency `D` is required:
 
@@ -1023,9 +1027,9 @@ MODE NOT ADMISSIBLE
 
 unless a valid fallback exists.
 
----
+______________________________________________________________________
 
-# 41. OPTIONAL DEPENDENCY
+## 41. OPTIONAL DEPENDENCY
 
 Failure of an optional dependency should not automatically reject the mode.
 
@@ -1037,9 +1041,9 @@ DEGRADED ADMISSION
 
 if degradation is explicitly supported.
 
----
+______________________________________________________________________
 
-# 42. INCOMPATIBLE DEPENDENCY
+## 42. INCOMPATIBLE DEPENDENCY
 
 A mode should identify known incompatible modes or system states.
 
@@ -1053,9 +1057,9 @@ MODE B
 
 if both cannot safely coexist.
 
----
+______________________________________________________________________
 
-# 43. DEPENDENCY CLOSURE
+## 43. DEPENDENCY CLOSURE
 
 Admission should evaluate the smallest load-bearing dependency closure.
 
@@ -1069,9 +1073,9 @@ D2
 
 Unrelated dependencies need not be loaded.
 
----
+______________________________________________________________________
 
-# 44. PROVENANCE CONTRACT
+## 44. PROVENANCE CONTRACT
 
 Each entry should preserve:
 
@@ -1091,9 +1095,9 @@ TRANSFORMATIONS
 DEPENDENCY ROLE
 ```
 
----
+______________________________________________________________________
 
-# 45. SOURCE TYPES
+## 45. SOURCE TYPES
 
 Candidate source classes:
 
@@ -1117,9 +1121,9 @@ MODEL
 UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 46. PROVENANCE TOPOLOGY
+## 46. PROVENANCE TOPOLOGY
 
 Admission must reason over ancestry.
 
@@ -1140,9 +1144,9 @@ B + C + D
 
 do not equal three independent confirmations.
 
----
+______________________________________________________________________
 
-# 47. SYBIL HARDENING
+## 47. SYBIL HARDENING
 
 ```text
 MANY MODE FILES
@@ -1153,9 +1157,9 @@ MANY INDEPENDENT MODE DEFINITIONS
 
 Artifact count must not inflate admission confidence.
 
----
+______________________________________________________________________
 
-# 48. PROVENANCE INDEPENDENCE
+## 48. PROVENANCE INDEPENDENCE
 
 Independence must be demonstrated.
 
@@ -1173,9 +1177,9 @@ DISTINCT GOVERNANCE SOURCE
 
 depending on the claim.
 
----
+______________________________________________________________________
 
-# 49. CONCLUSION CLASS
+## 49. CONCLUSION CLASS
 
 Admission reasoning must use:
 
@@ -1195,9 +1199,9 @@ UNKNOWN/GAP
 
 Use the weakest accurate class.
 
----
+______________________________________________________________________
 
-# 50. SOURCE CLAIM BOUNDARY
+## 50. SOURCE CLAIM BOUNDARY
 
 Documentation saying:
 
@@ -1213,9 +1217,9 @@ SOURCE_CLAIM
 
 until validation appropriate to the claim exists.
 
----
+______________________________________________________________________
 
-# 51. IMPLEMENTATION BOUNDARY
+## 51. IMPLEMENTATION BOUNDARY
 
 A mode specification does not prove runtime implementation.
 
@@ -1235,9 +1239,9 @@ DEPLOYED
 
 where evidence exists.
 
----
+______________________________________________________________________
 
-# 52. EMPIRICAL VALIDATION BOUNDARY
+## 52. EMPIRICAL VALIDATION BOUNDARY
 
 One successful execution does not establish universal validity.
 
@@ -1247,9 +1251,9 @@ ONE PASS
 EMPIRICAL GENERALITY
 ```
 
----
+______________________________________________________________________
 
-# 53. CONTRADICTION REGISTRY
+## 53. CONTRADICTION REGISTRY
 
 Each queue entry should retain material contradictions.
 
@@ -1271,9 +1275,9 @@ conflicts:
     status:
 ```
 
----
+______________________________________________________________________
 
-# 54. CONTRADICTION TYPES
+## 54. CONTRADICTION TYPES
 
 Candidate classes:
 
@@ -1305,9 +1309,9 @@ IMPLEMENTATION
 VALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 55. CONFLICT PRESERVATION
+## 55. CONFLICT PRESERVATION
 
 Do not resolve:
 
@@ -1319,9 +1323,9 @@ by deleting one merely because the other is newer.
 
 A conflict requires evidence or governed supersession.
 
----
+______________________________________________________________________
 
-# 56. COMPETING MODES
+## 56. COMPETING MODES
 
 Two candidate modes may remain:
 
@@ -1333,9 +1337,9 @@ if neither dominates.
 
 Do not force premature merging.
 
----
+______________________________________________________________________
 
-# 57. DISCRIMINATING TEST
+## 57. DISCRIMINATING TEST
 
 For competing candidates:
 
@@ -1347,9 +1351,9 @@ M2
 
 seek the cheapest test or evidence that distinguishes them materially.
 
----
+______________________________________________________________________
 
-# 58. VALIDATION CONTRACT
+## 58. VALIDATION CONTRACT
 
 Conceptually:
 
@@ -1381,9 +1385,9 @@ validation:
 
 Not every admission requires runtime execution.
 
----
+______________________________________________________________________
 
-# 59. SCHEMA VALIDATION
+## 59. SCHEMA VALIDATION
 
 Check:
 
@@ -1399,9 +1403,9 @@ DEPENDENCIES REFERENCED
 NO IMPOSSIBLE INTERNAL COMBINATION
 ```
 
----
+______________________________________________________________________
 
-# 60. SEMANTIC VALIDATION
+## 60. SEMANTIC VALIDATION
 
 Check that:
 
@@ -1419,9 +1423,9 @@ MATCH
 THE MODE'S DECLARED SCOPE
 ```
 
----
+______________________________________________________________________
 
-# 61. DEPENDENCY VALIDATION
+## 61. DEPENDENCY VALIDATION
 
 Check required dependencies for:
 
@@ -1439,9 +1443,9 @@ FRESHNESS
 CONFLICT
 ```
 
----
+______________________________________________________________________
 
-# 62. PROVENANCE VALIDATION
+## 62. PROVENANCE VALIDATION
 
 Check:
 
@@ -1457,9 +1461,9 @@ SOURCE TYPE CORRECT
 FRESHNESS SUFFICIENT
 ```
 
----
+______________________________________________________________________
 
-# 63. CONFLICT VALIDATION
+## 63. CONFLICT VALIDATION
 
 Check unresolved conflict registry.
 
@@ -1477,9 +1481,9 @@ UNKNOWN/GAP
 
 depending on their impact.
 
----
+______________________________________________________________________
 
-# 64. POLICY VALIDATION
+## 64. POLICY VALIDATION
 
 Admission policy may differ from runtime policy.
 
@@ -1495,9 +1499,9 @@ yet:
 NOT ADMISSIBLE UNDER CURRENT POLICY
 ```
 
----
+______________________________________________________________________
 
-# 65. AUTHORITY VALIDATION
+## 65. AUTHORITY VALIDATION
 
 Mode admission requires the appropriate authority.
 
@@ -1509,9 +1513,9 @@ ADMISSION AUTHORITY
 
 unless explicitly established.
 
----
+______________________________________________________________________
 
-# 66. AUTHORITY CONTRACT
+## 66. AUTHORITY CONTRACT
 
 Conceptually:
 
@@ -1533,9 +1537,9 @@ authority:
   revocation_state:
 ```
 
----
+______________________________________________________________________
 
-# 67. [[03_CONTROL_PLANE/04_AUTHORITY/DELEGATION|DELEGATION]]
+## 67. [[03_CONTROL_PLANE/04_AUTHORITY/DELEGATION|DELEGATION]]
 
 Admission authority may be delegated only within its valid scope.
 
@@ -1545,9 +1549,9 @@ DELEGATED_AUTHORITY
 DELEGATOR_AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 68. [[03_CONTROL_PLANE/04_AUTHORITY/REVOCATION|REVOCATION]]
+## 68. [[03_CONTROL_PLANE/04_AUTHORITY/REVOCATION|REVOCATION]]
 
 If admission authority is revoked before final admission:
 
@@ -1557,9 +1561,9 @@ BLOCK ADMISSION
 
 until authority is re-established.
 
----
+______________________________________________________________________
 
-# 69. COMMIT-TIME AUTHORITY
+## 69. COMMIT-TIME AUTHORITY
 
 Authority should be valid at the final admission commit.
 
@@ -1571,9 +1575,9 @@ AUTHORITY @ COMMIT
 
 when authority state can change.
 
----
+______________________________________________________________________
 
-# 70. ADMISSION DECISION
+## 70. ADMISSION DECISION
 
 Candidate outcomes:
 
@@ -1591,9 +1595,9 @@ SUPERSEDE
 RETURN_UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 71. ADMIT
+## 71. ADMIT
 
 Requires all admission-critical predicates to be satisfied.
 
@@ -1623,9 +1627,9 @@ AuthorityValid
 ValidationSufficient
 ```
 
----
+______________________________________________________________________
 
-# 72. ADMIT_WITH_CONDITIONS
+## 72. ADMIT_WITH_CONDITIONS
 
 Use where validity is bounded.
 
@@ -1639,9 +1643,9 @@ SANDBOX
 
 Do not flatten conditions.
 
----
+______________________________________________________________________
 
-# 73. HOLD
+## 73. HOLD
 
 Use when:
 
@@ -1659,30 +1663,30 @@ CONFLICT PENDING
 
 and immediate rejection is not justified.
 
----
+______________________________________________________________________
 
-# 74. REJECT
+## 74. REJECT
 
 Use when a load-bearing admission condition definitively fails and no valid
 repair path exists under the current proposal.
 
----
+______________________________________________________________________
 
-# 75. SUPERSEDE
+## 75. SUPERSEDE
 
 Use where a new candidate validly replaces an existing admitted mode.
 
 Supersession must record lineage.
 
----
+______________________________________________________________________
 
-# 76. UNKNOWN
+## 76. UNKNOWN
 
 Use when the evidence cannot support a reliable decision.
 
----
+______________________________________________________________________
 
-# 77. DECISION RECORD
+## 77. DECISION RECORD
 
 ```yaml
 ModeAdmissionDecision:
@@ -1718,9 +1722,9 @@ ModeAdmissionDecision:
   decided_by:
 ```
 
----
+______________________________________________________________________
 
-# 78. MODE ADMISSION QUEUE ORDERING
+## 78. MODE ADMISSION QUEUE ORDERING
 
 The queue should not necessarily be strict FIFO.
 
@@ -1744,9 +1748,9 @@ STALE ACTIVE MODE
 RECOVERY NEED
 ```
 
----
+______________________________________________________________________
 
-# 79. PRIORITY CLASSES
+## 79. PRIORITY CLASSES
 
 Candidate:
 
@@ -1762,9 +1766,9 @@ P3 LOW
 
 Exact scheduling policy remains separate.
 
----
+______________________________________________________________________
 
-# 80. CRITICAL PRIORITY
+## 80. CRITICAL PRIORITY
 
 Examples:
 
@@ -1778,16 +1782,16 @@ CANON CONFLICT BLOCKING SYSTEM
 AUTHORITY REVOCATION
 ```
 
----
+______________________________________________________________________
 
-# 81. QUEUE FAIRNESS
+## 81. QUEUE FAIRNESS
 
 Priority must not permanently starve lower-priority candidates without
 explicit policy.
 
----
+______________________________________________________________________
 
-# 82. DUPLICATE DETECTION
+## 82. DUPLICATE DETECTION
 
 Before creating a new entry, check:
 
@@ -1804,9 +1808,9 @@ SAME PROVENANCE ANCESTRY
 Duplicates should generally link to one admission lineage rather than create
 false evidence multiplicity.
 
----
+______________________________________________________________________
 
-# 83. DUPLICATE MERGE
+## 83. DUPLICATE MERGE
 
 Merging duplicates must preserve:
 
@@ -1822,9 +1826,9 @@ DIFFERENCES
 
 Do not destroy provenance by deduplication.
 
----
+______________________________________________________________________
 
-# 84. MODE MERGE
+## 84. MODE MERGE
 
 Merging two semantically distinct modes is a new proposal.
 
@@ -1836,9 +1840,9 @@ M3
 
 requires its own admission record.
 
----
+______________________________________________________________________
 
-# 85. MODE SPLIT
+## 85. MODE SPLIT
 
 Splitting one mode:
 
@@ -1850,9 +1854,9 @@ M1 + M2
 
 also requires new identities and supersession relationships.
 
----
+______________________________________________________________________
 
-# 86. MODE RENAME
+## 86. MODE RENAME
 
 Rename does not necessarily create new semantics.
 
@@ -1868,9 +1872,9 @@ versus:
 RENAME + SEMANTIC CHANGE
 ```
 
----
+______________________________________________________________________
 
-# 87. SUPERSESSION GRAPH
+## 87. SUPERSESSION GRAPH
 
 Conceptually:
 
@@ -1884,9 +1888,9 @@ M3
 
 Historical versions remain traceable.
 
----
+______________________________________________________________________
 
-# 88. DEPRECATION
+## 88. DEPRECATION
 
 Deprecation may mean:
 
@@ -1902,24 +1906,24 @@ REMOVAL SCHEDULED
 
 Exact semantics must be explicit.
 
----
+______________________________________________________________________
 
-# 89. RETIREMENT
+## 89. RETIREMENT
 
 A retired mode is no longer eligible for ordinary activation.
 
 Retirement does not erase historical provenance.
 
----
+______________________________________________________________________
 
-# 90. REACTIVATION
+## 90. REACTIVATION
 
 A retired/deprecated mode requires fresh admission review before reactivation
 unless canonical policy explicitly permits otherwise.
 
----
+______________________________________________________________________
 
-# 91. FRESHNESS
+## 91. FRESHNESS
 
 Admission evidence can become stale.
 
@@ -1937,9 +1941,9 @@ AUTHORITY FRESHNESS
 RUNTIME VALIDATION FRESHNESS
 ```
 
----
+______________________________________________________________________
 
-# 92. FRESHNESS BOUNDARY
+## 92. FRESHNESS BOUNDARY
 
 ```text
 VALIDATED @ T1
@@ -1953,9 +1957,9 @@ VALID @ T2
 
 if load-bearing state changed.
 
----
+______________________________________________________________________
 
-# 93. MODE EPOCH
+## 93. MODE EPOCH
 
 Conceptually:
 
@@ -1975,9 +1979,9 @@ ModeAdmissionEpoch:
   admitted_registry_version:
 ```
 
----
+______________________________________________________________________
 
-# 94. MVCC PATTERN
+## 94. MVCC PATTERN
 
 Conceptually:
 
@@ -1999,9 +2003,9 @@ COMMIT      REVALIDATE
 
 This is a reasoning pattern, not a claim of a literal implementation.
 
----
+______________________________________________________________________
 
-# 95. CAS PATTERN
+## 95. CAS PATTERN
 
 Conceptually:
 
@@ -2016,9 +2020,9 @@ ELSE
 REVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 96. ATOMIC ADMISSION
+## 96. ATOMIC ADMISSION
 
 Mode admission may require multiple facts to remain coherent:
 
@@ -2036,9 +2040,9 @@ CONFLICT STATE
 
 The final decision must not combine mutually incompatible snapshots.
 
----
+______________________________________________________________________
 
-# 97. MULTI-MODE ATOMIC ADMISSION
+## 97. MULTI-MODE ATOMIC ADMISSION
 
 Some changes require admitting multiple modes atomically.
 
@@ -2058,15 +2062,15 @@ ADMIT {A,B}
 
 as one governed transaction if canonical policy supports it.
 
----
+______________________________________________________________________
 
-# 98. PARTIAL ADMISSION
+## 98. PARTIAL ADMISSION
 
 Do not partially admit a mode if its invariants require atomic completeness.
 
----
+______________________________________________________________________
 
-# 99. CAUSAL EPOCH FINALITY
+## 99. CAUSAL EPOCH FINALITY
 
 If admission depends on causal relationships that change across epochs:
 
@@ -2082,9 +2086,9 @@ CAUSAL_EPOCH E2
 
 when load-bearing mechanisms differ.
 
----
+______________________________________________________________________
 
-# 100. EVENT BUS INTEGRATION
+## 100. EVENT BUS INTEGRATION
 
 Candidate admission events:
 
@@ -2128,9 +2132,9 @@ MODE_REACTIVATION_REQUESTED
 
 Exact event names remain candidate specification identifiers.
 
----
+______________________________________________________________________
 
-# 101. EVENT PAYLOAD
+## 101. EVENT PAYLOAD
 
 Conceptually:
 
@@ -2162,9 +2166,9 @@ ModeAdmissionEvent:
   reason:
 ```
 
----
+______________________________________________________________________
 
-# 102. EVENT IDEMPOTENCE
+## 102. EVENT IDEMPOTENCE
 
 Repeated delivery of the same admission event must not multiply admissions.
 
@@ -2176,9 +2180,9 @@ ONE SEMANTIC EFFECT
 
 where event processing is implemented.
 
----
+______________________________________________________________________
 
-# 103. EVENT ORDERING
+## 103. EVENT ORDERING
 
 Out-of-order events must not create impossible mode state.
 
@@ -2196,9 +2200,9 @@ MODE_READY_FOR_DECISION
 
 unless the state model explicitly supports bypass.
 
----
+______________________________________________________________________
 
-# 104. OBSERVABILITY
+## 104. OBSERVABILITY
 
 Admission should expose enough state to answer:
 
@@ -2220,9 +2224,9 @@ WHO ADMITTED EACH MODE?
 UNDER WHICH EPOCH?
 ```
 
----
+______________________________________________________________________
 
-# 105. OBSERVABILITY ENVELOPE
+## 105. OBSERVABILITY ENVELOPE
 
 Conceptually:
 
@@ -2252,9 +2256,9 @@ observability:
 
 Metrics are operational indicators, not correctness proofs.
 
----
+______________________________________________________________________
 
-# 106. BLIND SPOTS
+## 106. BLIND SPOTS
 
 Known admission blind spots should be registered.
 
@@ -2272,9 +2276,9 @@ INCOMPLETE AUTHORITY STATE
 UNKNOWN SUPERSESSION LINEAGE
 ```
 
----
+______________________________________________________________________
 
-# 107. FAILURE MODES
+## 107. FAILURE MODES
 
 Candidate failures:
 
@@ -2320,9 +2324,9 @@ MAQ-F19 IMPLEMENTATION_CLAIM_OVERREACH
 MAQ-F20 FALSE_FINALITY
 ```
 
----
+______________________________________________________________________
 
-# 108. IDENTITY COLLISION FAILURE
+## 108. IDENTITY COLLISION FAILURE
 
 Two semantically distinct modes share a canonical identifier.
 
@@ -2334,9 +2338,9 @@ BLOCK MERGE
 REGISTER CONFLICT
 ```
 
----
+______________________________________________________________________
 
-# 109. PROVENANCE COLLAPSE FAILURE
+## 109. PROVENANCE COLLAPSE FAILURE
 
 Multiple descendants treated as independent origins.
 
@@ -2348,9 +2352,9 @@ COLLAPSE ANCESTRY
 DOWNGRADE CONFIDENCE
 ```
 
----
+______________________________________________________________________
 
-# 110. STALE VALIDATION FAILURE
+## 110. STALE VALIDATION FAILURE
 
 Candidate admitted using expired validation evidence.
 
@@ -2362,9 +2366,9 @@ INVALIDATE DECISION
 REVALIDATE AFFECTED CLOSURE
 ```
 
----
+______________________________________________________________________
 
-# 111. DEPENDENCY FAILURE
+## 111. DEPENDENCY FAILURE
 
 Required dependency becomes invalid after admission.
 
@@ -2382,9 +2386,9 @@ REVALIDATION_REQUIRED
 
 according to the mode contract.
 
----
+______________________________________________________________________
 
-# 112. AUTHORITY FAILURE
+## 112. AUTHORITY FAILURE
 
 Admission was committed without valid authority.
 
@@ -2396,9 +2400,9 @@ ADMISSION INVALID
 
 subject to canonical recovery policy.
 
----
+______________________________________________________________________
 
-# 113. CONFLICT-HIDDEN FAILURE
+## 113. CONFLICT-HIDDEN FAILURE
 
 A material contradiction existed but was omitted from decision context.
 
@@ -2410,9 +2414,9 @@ REOPEN ADMISSION
 
 if the contradiction could change the decision.
 
----
+______________________________________________________________________
 
-# 114. FAILURE RECOVERY
+## 114. FAILURE RECOVERY
 
 General recovery:
 
@@ -2432,9 +2436,9 @@ REPAIR / RE-RESOLVE
 REVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 115. SELECTIVE INVALIDATION
+## 115. SELECTIVE INVALIDATION
 
 Core law:
 
@@ -2463,9 +2467,9 @@ INVALIDATE A
 
 but unrelated queue entries remain valid.
 
----
+______________________________________________________________________
 
-# 116. ROLLBACK
+## 116. ROLLBACK
 
 Admission rollback may mean:
 
@@ -2483,9 +2487,9 @@ MARK INVALID
 
 depending on current runtime state.
 
----
+______________________________________________________________________
 
-# 117. ACTIVE MODE ROLLBACK
+## 117. ACTIVE MODE ROLLBACK
 
 If an invalidated mode is already active:
 
@@ -2497,9 +2501,9 @@ alone is insufficient.
 
 The system must coordinate with runtime/effect recovery.
 
----
+______________________________________________________________________
 
-# 118. FORWARD RECOVERY
+## 118. FORWARD RECOVERY
 
 Where rollback is unsafe, prefer:
 
@@ -2515,9 +2519,9 @@ DEPRECATE INVALID MODE
 
 under governance.
 
----
+______________________________________________________________________
 
-# 119. RSCF INTEGRATION
+## 119. RSCF INTEGRATION
 
 Admission reasoning may use an RSCF:
 
@@ -2550,9 +2554,9 @@ ModeAdmissionRSCF:
   invalidation_conditions:
 ```
 
----
+______________________________________________________________________
 
-# 120. RECURSIVE RSCF
+## 120. RECURSIVE RSCF
 
 Conceptually:
 
@@ -2568,16 +2572,16 @@ MODE ADMISSION RSCF
 └── SUPERSESSION RSCF
 ```
 
----
+______________________________________________________________________
 
-# 121. ATOMIC MULTI-RSCF
+## 121. ATOMIC MULTI-RSCF
 
 For consequential admission, mutually dependent RSCFs should be evaluated
 against a coherent state snapshot.
 
----
+______________________________________________________________________
 
-# 122. GMEF INTEGRATION
+## 122. GMEF INTEGRATION
 
 New mode admission may constitute governed system evolution.
 
@@ -2595,9 +2599,9 @@ ADMISSION DECISION
 
 where governance impact is material.
 
----
+______________________________________________________________________
 
-# 123. GMEF TRIGGER
+## 123. GMEF TRIGGER
 
 Potential triggers:
 
@@ -2617,9 +2621,9 @@ IRREVERSIBLE MIGRATION
 HIGH BLAST RADIUS
 ```
 
----
+______________________________________________________________________
 
-# 124. H/M/L INTEGRATION
+## 124. H/M/L INTEGRATION
 
 Retrieve admission knowledge via:
 
@@ -2635,9 +2639,9 @@ L MODE-SPECIFIC DETAIL
 RAW SOURCE ONLY IF REQUIRED
 ```
 
----
+______________________________________________________________________
 
-# 125. RAW EVIDENCE RULE
+## 125. RAW EVIDENCE RULE
 
 Raw source material defaults:
 
@@ -2663,9 +2667,9 @@ SUPERSESSION
 TEST FAILURE
 ```
 
----
+______________________________________________________________________
 
-# 126. FAST PATH
+## 126. FAST PATH
 
 Admission may use a compact path only if:
 
@@ -2689,9 +2693,9 @@ VALIDATION CURRENT
 LOW GOVERNANCE IMPACT
 ```
 
----
+______________________________________________________________________
 
-# 127. FAST PATH LAW
+## 127. FAST PATH LAW
 
 ```text
 FAST ADMISSION
@@ -2701,9 +2705,9 @@ NOT
 ASSUMED SIMPLICITY.
 ```
 
----
+______________________________________________________________________
 
-# 128. ESCALATION
+## 128. ESCALATION
 
 Escalate when:
 
@@ -2733,9 +2737,9 @@ MULTI-MODE COUPLING
 SUPERSESSION COMPLEXITY
 ```
 
----
+______________________________________________________________________
 
-# 129. ADVERSARIAL VALIDATION
+## 129. ADVERSARIAL VALIDATION
 
 Before consequential admission, challenge:
 
@@ -2765,9 +2769,9 @@ DOES A SUPERSEDED MODE STILL CARRY NECESSARY SEMANTICS?
 DOES A CHEAPER EXISTING MODE ALREADY SATISFY THE PURPOSE?
 ```
 
----
+______________________________________________________________________
 
-# 130. CHALLENGE SUCCESS
+## 130. CHALLENGE SUCCESS
 
 If the challenge succeeds:
 
@@ -2785,9 +2789,9 @@ OR RETURN UNKNOWN/GAP
 
 as appropriate.
 
----
+______________________________________________________________________
 
-# 131. SENSITIVITY
+## 131. SENSITIVITY
 
 Identify the smallest premise capable of flipping admission.
 
@@ -2800,9 +2804,9 @@ THEN admission confidence falls below threshold
 
 Test high-sensitivity premises first.
 
----
+______________________________________________________________________
 
-# 132. FALSIFIERS
+## 132. FALSIFIERS
 
 Potential falsifiers:
 
@@ -2826,9 +2830,9 @@ SUPERSESSION CLAIM DISPROVED
 SCOPE INCOMPATIBILITY FOUND
 ```
 
----
+______________________________________________________________________
 
-# 133. QUEUE PRIORITY FUNCTION
+## 133. QUEUE PRIORITY FUNCTION
 
 Conceptually:
 
@@ -2848,9 +2852,9 @@ f(
 
 No universal numeric weights are asserted.
 
----
+______________________________________________________________________
 
-# 134. ADMISSION CONFIDENCE CEILING
+## 134. ADMISSION CONFIDENCE CEILING
 
 ```text
 Confidence(Admission)
@@ -2860,9 +2864,9 @@ WeakestLoadBearingPremise
 
 unless independently revalidated.
 
----
+______________________________________________________________________
 
-# 135. UNCERTAINTY VECTOR
+## 135. UNCERTAINTY VECTOR
 
 ```text
 U =
@@ -2879,9 +2883,9 @@ U =
 )
 ```
 
----
+______________________________________________________________________
 
-# 136. QUEUE STARVATION
+## 136. QUEUE STARVATION
 
 A mode stuck indefinitely should expose:
 
@@ -2897,9 +2901,9 @@ NEXT REQUIRED ACTION
 
 Silent queue starvation is an observability failure.
 
----
+______________________________________________________________________
 
-# 137. QUEUE EXPIRY
+## 137. QUEUE EXPIRY
 
 Candidates may expire when:
 
@@ -2917,9 +2921,9 @@ VALIDATION WINDOW EXPIRED
 
 Expired entries should be revalidated rather than silently admitted.
 
----
+______________________________________________________________________
 
-# 138. QUEUE COMPACTION
+## 138. QUEUE COMPACTION
 
 Duplicate historical events may be compacted only if:
 
@@ -2935,15 +2939,15 @@ SUPERSESSION
 
 remain recoverable.
 
----
+______________________________________________________________________
 
-# 139. PERSISTENT PROVENANCE
+## 139. PERSISTENT PROVENANCE
 
 Queue compaction must never erase load-bearing ancestry.
 
----
+______________________________________________________________________
 
-# 140. MODE ACTIVATION BOUNDARY
+## 140. MODE ACTIVATION BOUNDARY
 
 Admission does not equal activation.
 
@@ -2955,16 +2959,16 @@ ACTIVE
 
 Activation belongs to runtime/control governance.
 
----
+______________________________________________________________________
 
-# 141. MODE DEACTIVATION BOUNDARY
+## 141. MODE DEACTIVATION BOUNDARY
 
 Removing a mode from active runtime does not automatically change its
 admission state.
 
----
+______________________________________________________________________
 
-# 142. ADMITTED REGISTRY
+## 142. ADMITTED REGISTRY
 
 The admitted registry should contain only modes whose admission decision
 remains valid.
@@ -2995,16 +2999,16 @@ AdmittedModeRecord:
   invalidation_conditions:
 ```
 
----
+______________________________________________________________________
 
-# 143. REGISTRY VERSIONING
+## 143. REGISTRY VERSIONING
 
 Changes to admitted modes should update registry version or equivalent
 state identity where implementation supports it.
 
----
+______________________________________________________________________
 
-# 144. READ SET
+## 144. READ SET
 
 Admission decisions should track load-bearing reads.
 
@@ -3026,9 +3030,9 @@ CONFLICT REGISTRY
 TEST RESULTS
 ```
 
----
+______________________________________________________________________
 
-# 145. READ-SET VALIDATION
+## 145. READ-SET VALIDATION
 
 Before admission commit:
 
@@ -3038,9 +3042,9 @@ STILL MATCH
 EXPECTED STATE
 ```
 
----
+______________________________________________________________________
 
-# 146. OBSERVED READ SET VS POSSIBLE DATA
+## 146. OBSERVED READ SET VS POSSIBLE DATA
 
 Do not claim a decision used evidence it did not read.
 
@@ -3050,9 +3054,9 @@ AVAILABLE DATA
 OBSERVED READ SET
 ```
 
----
+______________________________________________________________________
 
-# 147. SEMANTIC TRANSACTION
+## 147. SEMANTIC TRANSACTION
 
 Mode admission may be represented as a semantic transaction.
 
@@ -3078,9 +3082,9 @@ ModeAdmissionTransaction:
   rollback:
 ```
 
----
+______________________________________________________________________
 
-# 148. EFFECT MANIFEST
+## 148. EFFECT MANIFEST
 
 Admission effects may include:
 
@@ -3098,9 +3102,9 @@ EMIT ADMISSION EVENT
 
 All should be declared.
 
----
+______________________________________________________________________
 
-# 149. INFORMATION EXPOSURE
+## 149. INFORMATION EXPOSURE
 
 Admission may expose:
 
@@ -3118,9 +3122,9 @@ VALIDATION RESULTS
 
 Exposure rules apply separately.
 
----
+______________________________________________________________________
 
-# 150. REPLAY
+## 150. REPLAY
 
 Admission decisions should be replayable where sufficient state is preserved.
 
@@ -3140,16 +3144,16 @@ READ SET
 DECISION LOGIC
 ```
 
----
+______________________________________________________________________
 
-# 151. REPLAY IS NOT PROOF
+## 151. REPLAY IS NOT PROOF
 
 A replay reproducing the same decision does not prove the decision was
 correct.
 
----
+______________________________________________________________________
 
-# 152. DIVERGENCE
+## 152. DIVERGENCE
 
 Replay divergence classes may include:
 
@@ -3167,9 +3171,9 @@ VALIDATION DIVERGENCE
 REGISTRY DIVERGENCE
 ```
 
----
+______________________________________________________________________
 
-# 153. TEST SUITE
+## 153. TEST SUITE
 
 Candidate tests:
 
@@ -3222,9 +3226,9 @@ ROLLBACK_TEST
 These are specification requirements, not evidence of existing passing
 tests.
 
----
+______________________________________________________________________
 
-# 154. NEGATIVE TESTS
+## 154. NEGATIVE TESTS
 
 ```text
 FILE EXISTS
@@ -3241,6 +3245,7 @@ THREE INDEPENDENT SOURCES
 
 MUST FAIL
 ```
+
 ```text
 VALIDATED IN TEST
 →
@@ -3248,6 +3253,7 @@ VALIDATED IN PRODUCTION
 
 MUST FAIL
 ```
+
 ```text
 OLD AUTHORITY VALID
 →
@@ -3255,6 +3261,7 @@ COMMIT AUTHORITY VALID
 
 MUST FAIL WITHOUT REVALIDATION
 ```
+
 ```text
 NEWER FILE
 →
@@ -3262,6 +3269,7 @@ AUTOMATIC SUPERSESSION
 
 MUST FAIL
 ```
+
 ```text
 ADMITTED
 →
@@ -3269,9 +3277,10 @@ ACTIVE
 
 MUST FAIL WITHOUT ACTIVATION GOVERNANCE
 ```
----
 
-# 155. PROPERTY INVARIANTS
+______________________________________________________________________
+
+## 155. PROPERTY INVARIANTS
 
 ```text
 QueueEntryExists(M)
@@ -3284,24 +3293,28 @@ Admitted(M)
 !=
 Active(M)
 ```
+
 ```text
 Count(DescendantSources)
 !=
 IndependentEvidenceCount
 ```
+
 ```text
 Invalid(p)
 →
 InvalidateOnly(Descendants(p))
 ```
+
 ```text
 AdmissionConfidence
 <=
 WeakestLoadBearingPremise
 ```
----
 
-# 156. METAMORPHIC TEST — DUPLICATION
+______________________________________________________________________
+
+## 156. METAMORPHIC TEST — DUPLICATION
 
 Given one candidate artifact:
 
@@ -3319,9 +3332,9 @@ DOES NOT INCREASE
 DUE TO COPY COUNT
 ```
 
----
+______________________________________________________________________
 
-# 157. METAMORPHIC TEST — RENAME
+## 157. METAMORPHIC TEST — RENAME
 
 Rename:
 
@@ -3345,9 +3358,9 @@ IDENTITY LINEAGE PRESERVED
 
 not automatic new mode creation.
 
----
+______________________________________________________________________
 
-# 158. METAMORPHIC TEST — REGIME
+## 158. METAMORPHIC TEST — REGIME
 
 Change candidate regime:
 
@@ -3364,9 +3377,9 @@ REGIME-SENSITIVE VALIDATION
 REQUIRED
 ```
 
----
+______________________________________________________________________
 
-# 159. METAMORPHIC TEST — AUTHORITY
+## 159. METAMORPHIC TEST — AUTHORITY
 
 Revoke admission authority before commit.
 
@@ -3376,9 +3389,9 @@ Expected:
 ADMISSION BLOCKED
 ```
 
----
+______________________________________________________________________
 
-# 160. METAMORPHIC TEST — DEPENDENCY
+## 160. METAMORPHIC TEST — DEPENDENCY
 
 Invalidate a required dependency.
 
@@ -3390,9 +3403,9 @@ OR
 PREVIOUS ADMISSION REQUIRES REVALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 161. ERROR REGISTRY
+## 161. ERROR REGISTRY
 
 ```yaml
 ModeAdmissionErrors:
@@ -3458,9 +3471,9 @@ ModeAdmissionErrors:
     meaning: unresolved admission failure
 ```
 
----
+______________________________________________________________________
 
-# 162. MODE ADMISSION PROOF CAPSULE
+## 162. MODE ADMISSION PROOF CAPSULE
 
 ```yaml
 ModeAdmissionProofCapsule:
@@ -3513,9 +3526,9 @@ ModeAdmissionProofCapsule:
   decision:
 ```
 
----
+______________________________________________________________________
 
-# 163. QUEUE MACHINE FORM
+## 163. QUEUE MACHINE FORM
 
 ```yaml
 mode_admission_queue:
@@ -3627,9 +3640,9 @@ mode_admission_queue:
       timestamps:
 ```
 
----
+______________________________________________________________________
 
-# 164. ADMISSION PSEUDOCODE
+## 164. ADMISSION PSEUDOCODE
 
 ```text
 function evaluate_mode_admission(entry):
@@ -3712,9 +3725,9 @@ function evaluate_mode_admission(entry):
 
 This is conceptual specification pseudocode.
 
----
+______________________________________________________________________
 
-# 165. ADMISSION SUFFICIENCY
+## 165. ADMISSION SUFFICIENCY
 
 Conceptually:
 
@@ -3742,9 +3755,9 @@ PolicySufficient(M)
 AuthoritySufficient(M)
 ```
 
----
+______________________________________________________________________
 
-# 166. MINIMUM SUFFICIENT PROOF
+## 166. MINIMUM SUFFICIENT PROOF
 
 The queue should not demand irrelevant evidence.
 
@@ -3757,9 +3770,9 @@ ADMISSION PROOF SCOPE
 
 that can safely support the decision.
 
----
+______________________________________________________________________
 
-# 167. STOP CONDITION
+## 167. STOP CONDITION
 
 Stop admission investigation when:
 
@@ -3773,9 +3786,9 @@ ACTION SUFFICIENCY
 
 for the admission decision have been reached.
 
----
+______________________________________________________________________
 
-# 168. ANTI-FABRICATION
+## 168. ANTI-FABRICATION
 
 Never transform:
 
@@ -3790,29 +3803,34 @@ MISSING DEPENDENCY
 →
 ASSUMED AVAILABLE
 ```
+
 ```text
 UNTESTED
 →
 VALIDATED
 ```
+
 ```text
 SOURCE CLAIM
 →
 VERIFIED
 ```
+
 ```text
 NEWER FILE
 →
 AUTHORITATIVE
 ```
+
 ```text
 QUEUE ENTRY
 →
 CANON
 ```
----
 
-# 169. ANTI-REGRESSION
+______________________________________________________________________
+
+## 169. ANTI-REGRESSION
 
 Admission optimizations must preserve or improve:
 
@@ -3842,9 +3860,9 @@ OBSERVABILITY
 SUPERSESSION TRACEABILITY
 ```
 
----
+______________________________________________________________________
 
-# 170. CANON PROMOTION BOUNDARY
+## 170. CANON PROMOTION BOUNDARY
 
 `MODE_ADMISSION_QUEUE.md` may define how candidate modes are staged.
 
@@ -3864,9 +3882,9 @@ ALL MVCC/CAS MECHANICS ARE DEPLOYED
 
 without evidence.
 
----
+______________________________________________________________________
 
-# 171. KNOWN GAPS
+## 171. KNOWN GAPS
 
 ```yaml
 KnownGaps:
@@ -3908,9 +3926,9 @@ KnownGaps:
       supersession/dependency registration.
 ```
 
----
+______________________________________________________________________
 
-# 172. PROMOTION GATE
+## 172. PROMOTION GATE
 
 Before promoting this artifact:
 
@@ -3962,9 +3980,9 @@ Before promoting this artifact:
 [ ] steward approval completed
 ```
 
----
+______________________________________________________________________
 
-# 173. CANONICAL COMPRESSION
+## 173. CANONICAL COMPRESSION
 
 ```text
 MODE ADMISSION QUEUE
@@ -4054,9 +4072,9 @@ TO OUTRUN
 PROVENANCE AND INTEGRITY.
 ```
 
----
+______________________________________________________________________
 
-# 174. MASTER CONTRACT
+## 174. MASTER CONTRACT
 
 Conceptually:
 
@@ -4108,9 +4126,9 @@ SELECTIVE INVALIDATION
 SUPERSESSION TRACEABILITY
 ```
 
----
+______________________________________________________________________
 
-# 175. FINAL LAW
+## 175. FINAL LAW
 
 ```text
 NO MODE
@@ -4164,30 +4182,33 @@ AND SUPERSESSION LINEAGE
 PRESERVED.
 ```
 
-# END — MODE ADMISSION QUEUE
+## END — MODE ADMISSION QUEUE
 
 ```
 
 The main provenance limit is important: this specification is **derived from AMOS v4.4 governance principles plus the related `25_CANON_ADMISSION_MODE` contract slots**, not recovered verbatim from the existing `MODE_ADMISSION_QUEUE.md`, because that file currently contains only a placeholder.
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: mode_admission_queue
 node_type: note
 path: 03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX/MODE_ADMISSION_QUEUE.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX/00_MODE_INDEX_MOC|00_MODE_INDEX_MOC]]
-

@@ -1,10 +1,13 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: 84 Freshness Revalidation Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/84_FRESHNESS_REVALIDATION_MODES
 tags:
-- 84-freshness-revalidation-modes
-- canon/control-plane
+  - 84-freshness-revalidation-modes
+  - canon/control-plane
 moc: true
 rscf:
   state: DERIVED
@@ -24,5 +27,6 @@ rscf:
 - [[03_CONTROL_PLANE/09_COMMIT/84_FRESHNESS_REVALIDATION_MODES/FRESHNESS_REVALIDATION_MODES_COMMIT_CONTROL_PLANE_MODE_FAMILY_SPEC|FRESHNESS_REVALIDATION_MODES_COMMIT_CONTROL_PLANE_MODE_FAMILY_SPEC]]
 - [[03_CONTROL_PLANE/09_COMMIT/84_FRESHNESS_REVALIDATION_MODES/FRESHNESS_REVALIDATION_MODES_COMMIT_CONTROL_PLANE_README|FRESHNESS_REVALIDATION_MODES_COMMIT_CONTROL_PLANE_README]]
 
----
+______________________________________________________________________
+
 **Parent:** [[03_CONTROL_PLANE/09_COMMIT/09_COMMIT_MOC|09_COMMIT_MOC]]

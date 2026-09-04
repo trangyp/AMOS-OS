@@ -2,16 +2,16 @@
 type: cognitive
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L03_PERCEPT_FORMATION
 tags:
-- amos
-- cognitive-matrix
-- matrix/l03
-- percept-formation
-- readme
-- rscf
-- hml
-- provenance
-- governance
-- domain/cognitive-matrix
+  - amos
+  - cognitive-matrix
+  - matrix/l03
+  - percept-formation
+  - readme
+  - rscf
+  - hml
+  - provenance
+  - governance
+  - domain/cognitive-matrix
 title: L03_PERCEPT_FORMATION
 origin_architect: Trang Phan
 status: MODEL_CONTRACT / UNIMPLEMENTED / UNVALIDATED
@@ -32,9 +32,9 @@ rscf:
 **Layer:** `COGNITIVE_MATRIX`
 **Status:** `AMOS_MODEL / UNIMPLEMENTED / UNVALIDATED`
 
----
+______________________________________________________________________
 
-# 0. Executive Definition
+## 0. Executive Definition
 
 `L03_PERCEPT_FORMATION` is the AMOS cognitive primitive responsible for constructing structured percept candidates from admitted observations, attention-conditioned inputs, explicitly typed context, and admissible memory while preserving provenance, uncertainty, scope, regime, observer context, competing interpretations, and dependency lineage.
 
@@ -92,9 +92,9 @@ COHERENCE != VALIDATION
 CANDIDATE != COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 1. Purpose
+## 1. Purpose
 
 The purpose of L03 is to create a governed representation layer between raw/admitted observation and higher-order cognitive reasoning.
 
@@ -144,9 +144,9 @@ what remains competing
 what is unknown
 ```
 
----
+______________________________________________________________________
 
-# 2. Source / Canon References
+## 2. Source / Canon References
 
 ## 2.1 Architecture-level alignment
 
@@ -199,19 +199,17 @@ AMOS_MODEL
 
 unless explicitly upgraded by direct source evidence.
 
----
+______________________________________________________________________
 
-# 3. Definition and Scope
+## 3. Definition and Scope
 
 ## 3.1 Definition
 
 Candidate formal definition:
 
-[
-P_t^*
-=====
+## \[ P_t^\*
 
-\mathcal F_{L03}
+\\mathcal F\_{L03}
 (
 O_t,
 A_t,
@@ -219,7 +217,7 @@ C_t,
 M_t,
 R_t
 )
-]
+\]
 
 where:
 
@@ -287,9 +285,9 @@ durable state commit
 empirical cognition validity
 ```
 
----
+______________________________________________________________________
 
-# 4. Typed Inputs
+## 4. Typed Inputs
 
 ```yaml
 L03PerceptFormationInput:
@@ -355,9 +353,9 @@ L03PerceptFormationInput:
     required: false
 ```
 
----
+______________________________________________________________________
 
-# 5. Typed Outputs
+## 5. Typed Outputs
 
 ```yaml
 L03PerceptFormationOutput:
@@ -411,9 +409,9 @@ L03PerceptFormationOutput:
     type: NONE
 ```
 
----
+______________________________________________________________________
 
-# 6. State Variables
+## 6. State Variables
 
 Candidate state registry:
 
@@ -452,9 +450,7 @@ Ver_t     = state/version identity
 
 Candidate composite state:
 
-[
-S_t^{L03}
-=========
+## \[ S_t^{L03}
 
 (
 O_t,A_t,F_t,R_t,B_t,P_t,CP_t,
@@ -463,11 +459,11 @@ Prov_t,Dep_t,
 Scope_t,Reg_t,Fresh_t,ObsCtx_t,
 U_t,Conf_t,Q_t,Gap_t
 )
-]
+\]
 
----
+______________________________________________________________________
 
-# 7. Core Operators
+## 7. Core Operators
 
 The modeled L03 operator registry includes:
 
@@ -517,17 +513,15 @@ PROPOSE_STATE
 
 Canonical identifiers remain `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
-# 8. Core Equations
+## 8. Core Equations
 
 ## 8.1 Percept formation
 
-[
-P_t^*
-=====
+## \[ P_t^\*
 
-\mathcal F_{L03}
+\\mathcal F\_{L03}
 (
 O_t,
 A_t,
@@ -535,70 +529,60 @@ C_t,
 M_t,
 R_t
 )
-]
+\]
 
 `AMOS_MODEL`.
 
 ## 8.2 Local to middle aggregation
 
-[
-X_M
-===
+## \[ X_M
 
-A_{L\rightarrow M}\(X_L\)
-]
+A\_{L\\rightarrow M}(X_L)
+\]
 
 ## 8.3 Middle to high aggregation
 
-[
-X_H
-===
+## \[ X_H
 
-A_{M\rightarrow H}\(X_M\)
-]
+A\_{M\\rightarrow H}(X_M)
+\]
 
 ## 8.4 Downward constraint
 
-[
-X'_M
-====
+## \[ X'\_M
 
-C_{H\rightarrow M}(X_H,X_M)
-]
+C\_{H\\rightarrow M}(X_H,X_M)
+\]
 
-[
-X'_L
-====
+## \[ X'\_L
 
-C_{M\rightarrow L}(X'_M,X_L)
-]
+C\_{M\\rightarrow L}(X'\_M,X_L)
+\]
 
 ## 8.5 Confidence ceiling
 
 For load-bearing premises:
 
-[
+\[
 Conf(P)
-\le
-\min_{d\in LB(P)}Conf(d)
-]
+\\le
+\\min\_{d\\in LB(P)}Conf(d)
+\]
 
 unless independently revalidated.
 
 ## 8.6 Selective invalidation
 
-[
-Invalidate(p)
-=============
+## \[ Invalidate(p)
 
-Desc_{LB}(p)
-]
+Desc\_{LB}(p)
+\]
 
 Candidate equations should be treated as AMOS structural models unless independently source-established.
 
----
+______________________________________________________________________
 
-# 9. Core Invariants
+## 9. Core Invariants
 
 ```text
 L03-INV-001
@@ -686,9 +670,9 @@ L03-INV-028
 STRUCTURAL VALIDITY != EMPIRICAL VALIDITY
 ```
 
----
+______________________________________________________________________
 
-# 10. Dependencies
+## 10. Dependencies
 
 ## 10.1 Upstream
 
@@ -738,9 +722,9 @@ AMOS Constraint Propagation
 AMOS Infrastructure Control Plane
 ```
 
----
+______________________________________________________________________
 
-# 11. H/M/L Applicability
+## 11. H/M/L Applicability
 
 ## L — Local
 
@@ -756,11 +740,11 @@ modality-local percept elements
 
 Candidate transition:
 
-[
+\[
 O_L
-\rightarrow
+\\rightarrow
 F_L
-]
+\]
 
 ## M — Middle
 
@@ -777,11 +761,11 @@ bounded percept structures
 
 Candidate transition:
 
-[
+\[
 {F_L,R_L,B_L}
-\rightarrow
-P_M^*
-]
+\\rightarrow
+P_M^\*
+\]
 
 ## H — High
 
@@ -796,11 +780,11 @@ competing scene models
 
 Candidate transition:
 
-[
+\[
 {P_M^*}
-\rightarrow
+\\rightarrow
 P_H^*
-]
+\]
 
 Hard cross-scale boundary:
 
@@ -812,9 +796,9 @@ LOCAL FAILURE != AUTOMATIC GLOBAL FAILURE
 HIGH-LEVEL COHERENCE != LOW-LEVEL VALIDITY
 ```
 
----
+______________________________________________________________________
 
-# 12. Memory Interface
+## 12. Memory Interface
 
 Memory may condition L03 percept formation but must remain epistemically typed.
 
@@ -852,9 +836,9 @@ PRIOR PERCEPT != CURRENT PERCEPT
 SHARED MEMORY != INDEPENDENT CORROBORATION
 ```
 
----
+______________________________________________________________________
 
-# 13. Provenance Contract
+## 13. Provenance Contract
 
 Every material percept should retain recoverable ancestry to:
 
@@ -911,9 +895,9 @@ PARAPHRASE
 INDEPENDENT CONFIRMATION
 ```
 
----
+______________________________________________________________________
 
-# 14. Control-Plane Requirements
+## 14. Control-Plane Requirements
 
 L03 workers may:
 
@@ -963,9 +947,9 @@ COGNITIVE VALIDITY
 COMMIT AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 15. Agents
+## 15. Agents
 
 Candidate logical roles:
 
@@ -996,9 +980,9 @@ AGENT IMPLEMENTED
 AUTHORIZED
 ```
 
----
+______________________________________________________________________
 
-# 16. Skills
+## 16. Skills
 
 Potentially relevant AMOS skills include:
 
@@ -1033,9 +1017,9 @@ SKILL INTEGRATED
 RUNTIME VALIDATED
 ```
 
----
+______________________________________________________________________
 
-# 17. Primary Workflow
+## 17. Primary Workflow
 
 ```text
 RECEIVE ADMITTED OBSERVATIONS
@@ -1083,9 +1067,9 @@ PROPOSE STATE
 CONTROL-PLANE / DOWNSTREAM HANDOFF
 ```
 
----
+______________________________________________________________________
 
-# 18. Protocols
+## 18. Protocols
 
 Candidate protocol surface:
 
@@ -1127,9 +1111,9 @@ AUDIT_TRACE_APPEND
 
 Canonical names and transport semantics remain `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
-# 19. RSCF Contract
+## 19. RSCF Contract
 
 Every material L03 conclusion should be representable as:
 
@@ -1180,9 +1164,9 @@ MUST NOT EXCEED
 LOAD-BEARING EVIDENCE
 ```
 
----
+______________________________________________________________________
 
-# 20. Uncertainty and Confidence Ceiling
+## 20. Uncertainty and Confidence Ceiling
 
 L03 uncertainty should remain multidimensional.
 
@@ -1208,11 +1192,11 @@ uncertainty_vector:
 
 Candidate confidence constraint:
 
-[
+\[
 Conf(P)
-\le
-\min_{d\in LB(P)}Conf(d)
-]
+\\le
+\\min\_{d\\in LB(P)}Conf(d)
+\]
 
 unless an independent validated path justifies improvement.
 
@@ -1224,9 +1208,9 @@ LOW UNCERTAINTY IN ONE DIMENSION
 LOW UNCERTAINTY OVERALL
 ```
 
----
+______________________________________________________________________
 
-# 21. Failure Modes
+## 21. Failure Modes
 
 Representative L03 failures include:
 
@@ -1325,9 +1309,9 @@ FM-L03-031
 proposal / commit collapse
 ```
 
----
+______________________________________________________________________
 
-# 22. Repair / Recovery
+## 22. Repair / Recovery
 
 Candidate recovery workflow:
 
@@ -1382,9 +1366,9 @@ REPAIR MUST NOT INVENT SOURCE EVIDENCE
 LOCAL FAILURE != GLOBAL RESET
 ```
 
----
+______________________________________________________________________
 
-# 23. Tests / Validators
+## 23. Tests / Validators
 
 Minimum validator families:
 
@@ -1481,9 +1465,9 @@ runtime_validation: false
 empirical_validation: false
 ```
 
----
+______________________________________________________________________
 
-# 24. Falsifiers
+## 24. Falsifiers
 
 This README must be revised if stronger canonical or executable evidence establishes:
 
@@ -1515,9 +1499,9 @@ or executable canonical behavior contradicting this model
 
 No L03-specific claim should be promoted merely because it is internally coherent with the rest of this README.
 
----
+______________________________________________________________________
 
-# 25. Gap Status
+## 25. Gap Status
 
 ```yaml
 gap_status:
@@ -1616,9 +1600,9 @@ gap_status:
     status: CRITICAL_GAP
 ```
 
----
+______________________________________________________________________
 
-# 26. Required Artifact Map
+## 26. Required Artifact Map
 
 Expected L03 artifact set:
 
@@ -1665,9 +1649,9 @@ VALIDATED
 
 The AMOS system-completion discipline requires these states to remain separate.
 
----
+______________________________________________________________________
 
-# 27. Completion Criteria
+## 27. Completion Criteria
 
 `L03_PERCEPT_FORMATION` may be called `COMPLETE_FOR_DOCUMENTED_MODEL_SCOPE` only when:
 
@@ -1739,9 +1723,9 @@ scope/regime validity
 causal discipline where relevant
 ```
 
----
+______________________________________________________________________
 
-# 28. RSCF Completion State
+## 28. RSCF Completion State
 
 ```yaml
 rscf:
@@ -1873,9 +1857,9 @@ rscf:
     repair, stale-state, and authority-boundary tests.
 ```
 
----
+______________________________________________________________________
 
-# 29. Completion State
+## 29. Completion State
 
 ```yaml
 completion_state:
@@ -1968,9 +1952,9 @@ completion_state:
     MODEL
 ```
 
----
+______________________________________________________________________
 
-# 30. Hard Boundaries
+## 30. Hard Boundaries
 
 ```text
 PLACEHOLDER != IMPLEMENTED
@@ -2040,15 +2024,15 @@ VALIDATED != UNIVERSALLY VALID
 STRUCTURAL COGNITIVE MODEL != EMPIRICAL HUMAN COGNITION
 ```
 
----
+______________________________________________________________________
 
-# 31. Governing L03 Contract
+## 31. Governing L03 Contract
 
 > **`L03_PERCEPT_FORMATION` SHALL transform admitted observation state and attention-conditioned context into typed percept candidates while preserving observation/interpretation distinction, source ancestry, semantic origin, scope, regime, observer context, freshness, uncertainty, confidence ceilings, H/M/L identity, and load-bearing dependency structure. L03 MAY use explicitly typed memory and contextual state, but SHALL NOT silently reclassify memory or prior interpretation as current observation. Feature formation, binding, multimodal integration, aggregation, agent handoff, duplication, paraphrase, or replay SHALL NOT manufacture evidential independence. Perceptual association or temporal ordering SHALL NOT be promoted into causation without separately typed causal evidence. Ambiguous evidence SHALL permit `COMPETING` percepts, and unresolved load-bearing gaps SHALL remain `UNKNOWN/GAP`. Failed premises SHALL selectively invalidate dependent descendants while preserving unaffected branches. Repair SHALL rebuild from the nearest valid state and SHALL require revalidation. L03 workers MAY propose percept state, but capability SHALL NOT imply authority and a valid proposal SHALL NOT become a durable commit without the governing control plane.**
 
----
+______________________________________________________________________
 
-# 32. Canon Boundary
+## 32. Canon Boundary
 
 ```text
 SOURCE / ARCHITECTURE-ALIGNED:
@@ -2169,22 +2153,27 @@ NOT ESTABLISHED
 
 ```text
 ```
----
+
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: l03_percept_formation_primitives_cognitive_matrix_readme
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L03_PERCEPT_FORMATION/L03_PERCEPT_FORMATION_PRIMITIVES_COGNITIVE_MATRIX_README.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L03_PERCEPT_FORMATION/L03_PERCEPT_FORMATION_MOC|L03_PERCEPT_FORMATION_MOC]]

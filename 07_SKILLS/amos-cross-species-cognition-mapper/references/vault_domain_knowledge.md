@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Vault Domain Knowledge — Amos Cross Species Cognition Mapper
 type: reference
 source: 07_SKILLS/amos-cross-species-cognition-mapper/references
 tags:
-- reference
-- amos-cross-species-cognition-mapper
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-cross-species-cognition-mapper
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -27,21 +30,21 @@ rscf:
 
 > Path: `amos-general/A/CROSS/AMOS_CROSS_SPECIES_FUNCTIONAL_DYNAMICS_ARCHITECTURE_V3.md` | Size: 34939 chars | Match score: 19
 
-# AMOS Cross-Species Functional Dynamics Architecture (CSFDA)
+## AMOS Cross-Species Functional Dynamics Architecture (CSFDA)
+
 ## Advanced refinement of the Cross-Species Group Model (CSGM) (2)
 
+______________________________________________________________________
 
----
-
-# 0. Executive definition
+## 0. Executive definition
 
 The original Cross-Species Group Model proposes five recurring behavioral groups:
 
 1. Stabilizers
-2. Operators
-3. Adaptors
-4. Reactives
-5. Outliers
+1. Operators
+1. Adaptors
+1. Reactives
+1. Outliers
 
 AMOS preserves the source intuition but changes the ontology.
 
@@ -65,9 +68,9 @@ CSFDA =
 
 This is not a personality taxonomy, caste system, biological ranking, consciousness scale, or universal species law.
 
----
+______________________________________________________________________
 
-# 1. Epistemic firewall
+## 1. Epistemic firewall
 
 Use the following classes throughout:
 
@@ -111,9 +114,9 @@ ECOSYSTEM_ADAPTATION != INTENTIONAL_LEARNING
 MODEL_PROBABILITY != OBSERVED_FREQUENCY
 ```
 
----
+______________________________________________________________________
 
-# 2. Ontology: entities before modes
+## 2. Ontology: entities before modes
 
 Every target must be typed before inference.
 
@@ -174,33 +177,33 @@ MARKET_SYSTEM
 → no subjective cognition assumed
 ```
 
----
+______________________________________________________________________
 
-# 3. AMOS cross-species cognition tensor
+## 3. AMOS cross-species cognition tensor
 
 The governing comp
 
----
+______________________________________________________________________
 
 ### Source 2: AMOS Cross-Species Functional Dynamics Architecture (CSFDA)
 
 > Path: `amos-general/A/CROSS/AMOS_CROSS_SPECIES_FUNCTIONAL_DYNAMICS_ARCHITECTURE.md` | Size: 34939 chars | Match score: 19
 
-# AMOS Cross-Species Functional Dynamics Architecture (CSFDA) — part 2
+## AMOS Cross-Species Functional Dynamics Architecture (CSFDA) — part 2
+
 ## Advanced refinement of the Cross-Species Group Model (CSGM)
 
+______________________________________________________________________
 
----
-
-# 0. Executive definition — part 2
+## 0. Executive definition — part 2
 
 The original Cross-Species Group Model proposes five recurring behavioral groups:
 
 1. Stabilizers
-2. Operators
-3. Adaptors
-4. Reactives
-5. Outliers
+1. Operators
+1. Adaptors
+1. Reactives
+1. Outliers
 
 AMOS preserves the source intuition but changes the ontology.
 
@@ -224,9 +227,9 @@ CSFDA =
 
 This is not a personality taxonomy, caste system, biological ranking, consciousness scale, or universal species law.
 
----
+______________________________________________________________________
 
-# 1. Epistemic firewall — part 2
+## 1. Epistemic firewall — part 2
 
 Use the following classes throughout:
 
@@ -270,9 +273,9 @@ ECOSYSTEM_ADAPTATION != INTENTIONAL_LEARNING
 MODEL_PROBABILITY != OBSERVED_FREQUENCY
 ```
 
----
+______________________________________________________________________
 
-# 2. Ontology: entities before modes — part 2
+## 2. Ontology: entities before modes — part 2
 
 Every target must be typed before inference.
 
@@ -333,20 +336,21 @@ MARKET_SYSTEM
 → no subjective cognition assumed
 ```
 
----
+______________________________________________________________________
 
-# 3. AMOS cross-species cognition tensor — part 2
+## 3. AMOS cross-species cognition tensor — part 2
 
 The governing comp
 
----
+______________________________________________________________________
 
 ### Source 3: AMOS Distributed Cognition Cluster Orchestrator
+
 - COMPLETE SYSTEM
 
 > Path: `cognitive/DISTRIBUTED_COGNITION_COMPLETE.md` | Size: 10002 chars | Match score: 12
 
-# AMOS Distributed Cognition Cluster Orchestrator - COMPLETE SYSTEM
+## AMOS Distributed Cognition Cluster Orchestrator - COMPLETE SYSTEM
 
 ## MISSION ACCOMPLISHED - MULTI-AGENT OFFLINE INTELLIGENCE AT SCALE
 
@@ -355,6 +359,7 @@ I have successfully designed and implemented a comprehensive **Distributed Cogni
 ## COMPLETE SYSTEM IMPLEMENTATION
 
 ### **Core Architecture Components** #### 1. **Distributed Cognition Orchestrator** (`distributed_cognition_orchestrator.py`)
+
 - **L0 Determinism**: SHA256-based reproducible hashes for tasks and messages
 - **L1 SSOT**: Shared schemas, policies, and knowledge base with snapshot pinning
 - **L2 Least Privilege**: Capability-based access control for each agent
@@ -362,6 +367,7 @@ I have successfully designed and implemented a comprehensive **Distributed Cogni
 - **L4 Budget Discipline**: Token/time limits per stage with budget allocation
 
 #### 2. **Specialized Agent Roles** (`distributed_cognition_agents.py`)
+
 - **Planner Agent**: Task decomposition, work allocation, verification gates
 - **Retriever Agent**: Query building, evidence pulling, reranking, citations
 - **Implementer Agent**: Code/solutions from evidence + constraints only
@@ -370,11 +376,13 @@ I have successfully designed and implemented a comprehensive **Distributed Cogni
 - **Auditor Agent**: Policy compliance, SSOT integrity, drift, provenance
 
 #### 3. **Shared Infrastructure** (`distributed_cognition_infrastructure.py`)
+
 - **Enhanced Tool Sandbox**: Deterministic execution with 4 specialized tools
 - **Evaluation Harness**: Comprehensive testing and validation framework
 - **Performance Monitoring**: Real-time metrics and determinism verification
 
 #### 4. **Complete System Integration** (`distributed_cognition_system.py`)
+
 - **Full Pipeline Execution**: 6-stage agent pipeline with message routing
 - **Comprehensive Demonstration**: 5 test scenarios covering different domains
 - **System Status Monitoring**: Real-time health and performance tracking
@@ -384,6 +392,7 @@ I have successfully designed and implemented a comprehensive **Distributed Cogni
 ### **Absolute Laws Implementation**
 
 **L0 Determinism**: All plans and routing are reproducible through SHA256 hashes
+
 - **L1 SSOT**: Shared schemas, policies, and KB snapshots with integrity verification
 - **L2 Least Privilege**: Each agent gets only the tools/data it needs
 - **L3 No Single Point of Truth**: All claims require evidence or cross-agent consensus
@@ -392,17 +401,20 @@ I have successfully designed and implemented a comprehensive **Distributed Cogni
 ### **Agent Capabilities & Specialization**
 
 **Planner**: 2000 tokens, 30s timeout, task decomposition, dependency analysis
+
 - **Retriever**: 3000 tokens, 45s timeout, evidence ranking, citation generation
 - **Implementer**: 4000 tokens, 120s timeout, evidence-based implementation
 - **Verifier**: 2000 tokens, 60s timeout, test execution, contradiction dete
 
----
+______________________________________________________________________
+
 **MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -410,12 +422,14 @@ I have successfully designed and implemented a comprehensive **Distributed Cogni
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-cross-species-cognition-mapper-vault-domain-knowledge
 node_type: reference
 path: 07_SKILLS/amos-cross-species-cognition-mapper/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

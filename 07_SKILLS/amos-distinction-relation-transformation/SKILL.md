@@ -4,25 +4,22 @@ title: SKILL — Amos Distinction Relation Transformation
 type: skill
 source: 07_SKILLS/amos-distinction-relation-transformation
 name: amos-distinction-relation-transformation
-description: Distinction Relation Transformation — amos-engines-master capability. Use when
-  engines-master reasoning, consciousness emulation, or mega-engine analysis. Use when
-  amos-engines-master routes to this specialized capability. Do not use for
-  generic tasks outside engines-master domain.
+description: Distinction Relation Transformation — amos-engines-master capability. Use when engines-master reasoning, consciousness emulation, or mega-engine analysis. Use when amos-engines-master routes to this specialized capability. Do not use for generic tasks outside engines-master domain.
 parent_skill: amos-engines-master
 domain: engines-master
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
 tags:
-- type/skill
-- type/skill
-- domain/engines-master
-- epistemic/source_claim
-- hml/h
-- epistemic/source_claim
-- amos-os
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/engines-master
+  - epistemic/source_claim
+  - hml/h
+  - epistemic/source_claim
+  - amos-os
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -32,23 +29,23 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: H
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
-- L7_authority
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
+  - L7_authority
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L7
-- L16
-- L17
-- L18
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L7
+  - L16
+  - L17
+  - L18
 license: MIT
 steward: Trang Phan
 ---
@@ -58,6 +55,7 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: engines-master. Parent: amos-engines-master. Epistemic class: SOURCE_CLAIM. H/M/L: H.
+
 ## When to Use
 
 - When supervising testing with cost-awareness: coverage vs cost
@@ -82,11 +80,11 @@ Origin architect: **Trang Phan**. Domain: engines-master. Parent: amos-engines-m
 ## Operations
 
 1. **distinction_relation_trans.supervise_test**: Supervise testing with cost-awareness: balance test coverage vs resource cost
-2. **distinction_relation_trans.transform_distinction**: Transform distinction-relation structures across scales and contexts
-3. **distinction_relation_trans.orchestrate_brain**: Orchestrate full brain OS: coordinate all cognitive engines as a unified system
-4. **distinction_relation_trans.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-5. **distinction_relation_trans.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
-6. **distinction_relation_trans.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+1. **distinction_relation_trans.transform_distinction**: Transform distinction-relation structures across scales and contexts
+1. **distinction_relation_trans.orchestrate_brain**: Orchestrate full brain OS: coordinate all cognitive engines as a unified system
+1. **distinction_relation_trans.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+1. **distinction_relation_trans.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+1. **distinction_relation_trans.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## 11_KNOWLEDGE Vault Content
 
@@ -98,23 +96,26 @@ Origin architect: **Trang Phan**. Domain: engines-master. Parent: amos-engines-m
 From C01 Meta Logic: DRT as the fundamental triad of AMOS logic. From Cognitive Organism OS: DRT as the basis for structural reasoning.
 
 **DRT triad**:
+
 - **Distinction (D)**: the act of distinguishing one thing from another; creates boundaries
 - **Relation (R)**: the connection between distinguished things; creates structure
 - **Transformation (T)**: the change from one state to another; creates dynamics
 
 **DRT laws**:
+
 - `NO_DISTINCTION -> NO_RELATION`: without distinction, there is nothing to relate
 - `NO_RELATION -> NO_TRANSFORMATION`: without relation, there is nothing to transform
 - `DISTINCTION != SEPARATION`: distinction creates boundaries but does not require separation
-- `RELATION != IDENTITY**: relation connects things; it does not make them identical
-- `TRANSFORMATION != DESTRUCTION**: transformation changes; it does not destroy
+- \`RELATION != IDENTITY\*\*: relation connects things; it does not make them identical
+- \`TRANSFORMATION != DESTRUCTION\*\*: transformation changes; it does not destroy
 
 **DRT operations**:
+
 1. **Distinguish**: identify boundaries (what is A, what is not A)
-2. **Relate**: identify connections (how A relates to B)
-3. **Transform**: identify changes (how A becomes B)
-4. **Validate**: validate that the DRT is consistent and complete
-5. **Record**: record with provenance and epistemic class
+1. **Relate**: identify connections (how A relates to B)
+1. **Transform**: identify changes (how A becomes B)
+1. **Validate**: validate that the DRT is consistent and complete
+1. **Record**: record with provenance and epistemic class
 
 **DRT in AMOS**: DRT is the fundamental analytical triad. Every AMOS analysis can be decomposed into distinction, relation, and transformation steps.
 
@@ -137,7 +138,8 @@ DRT is an analytical framework. It does not prove all reality can be decomposed 
 - **G3 (Provenance)**: Source path recorded for every derived claim.
 -
 
----
+______________________________________________________________________
+
 **Links:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 ## Related
@@ -147,17 +149,19 @@ DRT is an analytical framework. It does not prove all reality can be decomposed 
 ## Examples
 
 - **Scenario**: When supervising testing with cost-awareness: coverage vs cost
+
   - **Input**: A query matching this skill's domain (engines-master)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When transforming distinction-relation structures across scales
+
   - **Input**: A query matching this skill's domain (engines-master)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When orchestrating full brain OS: coordinating all cognitive engines
+
   - **Input**: A query matching this skill's domain (engines-master)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Anti-Patterns
 
@@ -167,7 +171,6 @@ DRT is an analytical framework. It does not prove all reality can be decomposed 
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `amos-engines-master` — routes to this skill when engines-master specialization is needed
@@ -175,7 +178,6 @@ DRT is an analytical framework. It does not prove all reality can be decomposed 
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -194,7 +196,6 @@ DRT is an analytical framework. It does not prove all reality can be decomposed 
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -202,7 +203,6 @@ DRT is an analytical framework. It does not prove all reality can be decomposed 
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -215,11 +215,12 @@ DRT is an analytical framework. It does not prove all reality can be decomposed 
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `amos-engines-master` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `amos-distinction-relation-transformation-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -227,12 +228,14 @@ DRT is an analytical framework. It does not prove all reality can be decomposed 
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-distinction-relation-transformation
 node_type: skill
 path: 07_SKILLS/amos-distinction-relation-transformation/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

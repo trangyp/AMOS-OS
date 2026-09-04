@@ -12,21 +12,21 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: FRAMEWORK
 path: 11_KNOWLEDGE/05_FRAMEWORKS/TRANG_LMH_ARCHITECTURE.md
 tags:
-- amos-os
-- knowledge
-- vault
-- 05_frameworks
-- trang_lmh_architecture
-- lmh
-- low_mid_high
-- fractal_layers
-- tri_layer_architecture
-- rscf
-- canon_candidate
-- canon/knowledge
-- frai-fractal-reasoning-ai
-- ldai-logically-deterministic-ai
-- trang-reality-architecture
+  - amos-os
+  - knowledge
+  - vault
+  - 05_frameworks
+  - trang_lmh_architecture
+  - lmh
+  - low_mid_high
+  - fractal_layers
+  - tri_layer_architecture
+  - rscf
+  - canon_candidate
+  - canon/knowledge
+  - frai-fractal-reasoning-ai
+  - ldai-logically-deterministic-ai
+  - trang-reality-architecture
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -41,23 +41,23 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - TRANG_FRAI_FRACTAL_REASONING_AI
-  - AMOS_FRACTAL_CONSCIOUSNESS_WHITEPAPER_FULL_FIXED
-  - AMOS_CORPUS
+    - TRANG_FRAI_FRACTAL_REASONING_AI
+    - AMOS_FRACTAL_CONSCIOUSNESS_WHITEPAPER_FULL_FIXED
+    - AMOS_CORPUS
   scope:
-  - KNOWLEDGE_FRAMEWORKS
-  - FRACTAL_ARCHITECTURE
-  - SOURCE_DEFINED_MODEL
+    - KNOWLEDGE_FRAMEWORKS
+    - FRACTAL_ARCHITECTURE
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   primary:
     name: Trang LMH Tri-Layer Architecture
     role: TRI_LAYER_FRACTAL_STRUCTURAL_ORGANIZATION
   fractal_reasoning:
     artifact:
-    - - FRAI_FRACTAL_REASONING_AI
+      -   - FRAI_FRACTAL_REASONING_AI
   deterministic_base:
     artifact:
-    - - LDAI_LOGICALLY_DETERMINISTIC_AI
+      -   - LDAI_LOGICALLY_DETERMINISTIC_AI
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
@@ -69,9 +69,9 @@ epistemic_boundary:
 
 `TRANG_LMH_ARCHITECTURE.md` is the canonical Knowledge Plane reference artifact for the **Trang LMH (Low, Mid, High) Tri-Layer Architecture** within `11_KNOWLEDGE/05_FRAMEWORKS`.
 
----
+______________________________________________________________________
 
-# 1. The Tri-Layer Triad: [L, M, H]
+## 1. The Tri-Layer Triad: [L, M, H]
 
 Every system, cognition loop, and data artifact within AMOS partitions recursively into three functional tiers:
 
@@ -90,18 +90,18 @@ Foundation / Substrate           Flow / Coordination              Apex / Creativ
 • Slow, robust, permanent        • Adaptive and flexible          • High velocity, volatile
 ```
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Fractal AI:** [[11_KNOWLEDGE/05_FRAMEWORKS/FRAI_FRACTAL_REASONING_AI|FRAI_FRACTAL_REASONING_AI]]
 - **Deterministic Base:** [[11_KNOWLEDGE/05_FRAMEWORKS/LDAI_LOGICALLY_DETERMINISTIC_AI|LDAI_LOGICALLY_DETERMINISTIC_AI]]
 - **Reality Architecture:** [[11_KNOWLEDGE/trang/TRANG_REALITY_ARCHITECTURE|TRANG_REALITY_ARCHITECTURE]]
 - **Knowledge MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -119,9 +119,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/FRAI_FRACTAL_REASONING_AI|FRAI_FRACTAL_REASONING_AI]] · [[11_KNOWLEDGE/05_FRAMEWORKS/LDAI_LOGICALLY_DETERMINISTIC_AI|LDAI_LOGICALLY_DETERMINISTIC_AI]]
 
----
+______________________________________________________________________
+
 **MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]

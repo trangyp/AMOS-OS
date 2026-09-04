@@ -1,11 +1,14 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Amos-Metacognitive-Confidence-Auditor MOC
 type: moc
 source: 07_SKILLS/amos-metacognitive-confidence-auditor
 tags:
-- amos-metacognitive-confidence-auditor
-- type/skill
-- skill
+  - amos-metacognitive-confidence-auditor
+  - type/skill
+  - skill
 moc: true
 rscf:
   state: DERIVED
@@ -25,13 +28,16 @@ rscf:
 
 ## Subdirectories
 
-- references_MOC — references
+- [[07_SKILLS/amos-metacognitive-confidence-auditor/references/references_MOC|references_MOC]] — references
 
----
----
-**References MOC:** [[07_SKILLS/spreadsheets/references/references_MOC|references_MOC]]
+______________________________________________________________________
 
----
+______________________________________________________________________
+
+**References MOC:** [[07_SKILLS/amos-metacognitive-confidence-auditor/references/references_MOC|references_MOC]]
+
+______________________________________________________________________
+
 **Skill:** [[07_SKILLS/amos-metacognitive-confidence-auditor/SKILL|SKILL]]
 
 **Parent:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

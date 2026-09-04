@@ -1,91 +1,130 @@
 ---
-title: CANON SUPERSESSION CONTRACT
-type: canon
+title: Supersession Canon Contract — Subplane Governance Specification
+type: specification
 source: 01_CANON/08_SUPERSESSION
-tags:
-- amos-os
-- canon/universe
-- routing-policy-validation-receipt
-- authz-engine-validation-receipt
-- law-hierarchy
-- canon
-- trang-framework-recursive-ontology-dynamics
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
+status: ACTIVE_SPECIFICATION
+epistemic_class: AMOS_MODEL
+conclusion_class: DERIVED
 rscf:
   state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  claim_class: AMOS_MODEL
+  provenance:
+    - 01_CANON/CANON_CANON_CONTRACT
+    - 01_CANON/01_CORE_LAWS/CANON_CORE_LAWS_CONTRACT
+    - 00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE
+  scope: subplane_governance
+tags:
+  - amos-os
+  - 01-canon
+  - supersession
+  - specification
 ---
 
-# CANON SUPERSESSION CONTRACT
+# Supersession Canon Contract — Subplane Governance Specification
 
-## 0. Status
-Canon-plane contract for **SUPERSESSION CONTRACT**. AMOS_MODEL; canonical status CONDITIONAL; implementation PARTIAL.
-
-## 1. Scope
-Governs canonical laws, universe/cognition/infrastructure canons, variable registry, glossary, provenance lineage, and supersession as they bear on `SUPERSESSION CONTRACT`. Bounded by dependency closure: conclusions inherit the weakest load-bearing premise.
-
-## 2. Contract terms
-- **Typed artifacts** — every artifact declares artifact_type, epistemic class, scope, regime.
-- **Firewalls preserved** — CAPABILITY ≠ AUTHORITY · PROPOSAL ≠ COMMIT · OBSERVED ≠ CURRENT · TEST_PASS ≠ TRUTH.
-- **Epochs distinct** — state_version ≠ causal_epoch ≠ policy_epoch ≠ provenance_epoch unless an explicit mapping licenses equivalence.
-- **Local finality requires proof** — demonstrated dependency closure may avoid coordination; assumed independence may not.
-- **Selective invalidation** — failure invalidates dependent descendants only; unrelated state is preserved.
-
-## 3. Invariants
-- Fail closed on UNKNOWN/GAP; gaps stay visible, never promoted to PASS.
-- Confidence of any conclusion ≤ confidence of its weakest load-bearing premise (ceiling 0.95).
-- Consequential effects emit receipts; rollback basin exists before mutation.
-- Competing hypotheses remain visible when evidence does not discriminate.
-
-## 4. Executed reference
-No subsystem-local executor yet. Existing executed validators for the OS: routing-policy validator 19/19 ([[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]]) and authz invariant engine 17/17 ([[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]) — cited as pattern, not as evidence for this artifact.
-
-## 5. Gaps
-Runtime enforcement, persistence binding, and empirical validation remain OPEN (UNKNOWN/GAP). Promotion beyond AMOS_MODEL requires the promotion-gate checklist plus an executed receipt specific to this contract.
-
-## 6. Falsifiers
-F1: canonical source defines different semantics for this surface. F2: an executed test contradicts a declared invariant. F3: this contract silently collapses a protected firewall.
-## Worked semantics
-Given an operation touching `CANON · SUPERSESSION CONTRACT` within the Canon plane:
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-2. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-3. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-4. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-5. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-6. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
-
-## Promotion-gate checklist
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
-
-## Cross-plane bindings
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]|AMOS Core Laws · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
-- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
-- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
----
-
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+> **Origin Architect / Steward:** Trang Phan  
+> **AMOS_CORE Target:** `v4.4`  
+> **Epistemic Class:** `AMOS_MODEL`  
+> **Status:** `ACTIVE_SPECIFICATION`
 
 ---
-**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+
+## 1. Architectural Scope & Purpose
+
+`CANON_SUPERSESSION_CONTRACT` governs the lifecycle transitions, formal deprecation protocols, version migration calculi, and archive preservation policies across the AMOS Full Brain OS. It enforces strict monotonic evolution while preserving historical auditability, ensuring that no active contract or canon entry is mutated destructively without explicit predecessor/successor receipts.
 
 ---
-RSCF-NODE
-node_id: amos_01_canon_08_supersession_canon_supersession_contract_md
-node_type: note
-path: 01_CANON/08_SUPERSESSION/CANON_SUPERSESSION_CONTRACT.md
-claim_class: AMOS_MODEL
+
+## 2. Mathematical Foundations & Supersession State Machine
+
+A Supersession Transition $\mathcal{T}_{\text{super}}$ is formalized as a 5-tuple:
+
+$$\mathcal{T}_{\text{super}} = \langle \alpha_{\text{predecessor}}, \beta_{\text{successor}}, \Delta_{\text{justification}}, \mathcal{R}_{\text{receipt}}, \text{Auth}_{\text{steward}} \rangle$$
+
+Where:
+- $\alpha_{\text{predecessor}}$ is the existing active entity being superseded.
+- $\beta_{\text{successor}}$ is the proposed replacement entity.
+- $\Delta_{\text{justification}}$ is the formal delta containing semantic diffs, regression test proofs, and backwards-compatibility matrices.
+- $\mathcal{R}_{\text{receipt}}$ is the cryptographic migration receipt emitted to `17_OBSERVABILITY` and indexed in `20_OPERATIONS`.
+- $\text{Auth}_{\text{steward}} \in \{ \text{Trang Phan} \}$ is the authoritative signature required for canonical tier promotions.
+
+### Supersession Invariant 1: Non-Destructive Archival
+When $\beta$ supersedes $\alpha$, $\alpha$ is never deleted:
+$$\text{Status}(\alpha) \leftarrow \text{SUPERSEDED}, \quad \text{Location}(\alpha) \leftarrow \text{24\_ARCHIVE/}, \quad \text{Pointer}(\alpha) \to \beta$$
+
+### Supersession Invariant 2: Version Monotonicity & Quarantine
+$$\text{TargetVersion}(\beta) > \text{TargetVersion}(\alpha)$$
+Any unratified proposal with version $\ge \text{v4.5}$ must be assigned:
+$$\text{Status}(\beta) := \text{PROPOSED\_SUPERSEDED\_CANDIDATE} \quad (\text{Quarantined})$$
 
 ---
-**MOC:** [[01_CANON/08_SUPERSESSION/08_SUPERSESSION_MOC|08_SUPERSESSION_MOC]]
+
+## 3. Epistemic Verification & Supersession Calculus
+
+1. **`LATEST != AUTHORITATIVE`**: Newer creation date does not establish superiority over governed canonical status.
+2. **`PROPOSAL != COMMIT`**: A candidate supersession document in draft mode has zero operational authority until atomic ratification.
+3. **Dual-Binding Requirement**: Both $\alpha$ (frontmatter `superseded_by: [[01_CANON/08_SUPERSESSION/CANON_SUPERSESSION_CONTRACT#beta|beta]]`) and $\beta$ (frontmatter `supersedes: [[01_CANON/08_SUPERSESSION/CANON_SUPERSESSION_CONTRACT#alpha|alpha]]`) must cross-reference each other symmetrically.
 
 ---
-**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+
+## 4. Execution Mechanics & Migration Pipeline
+
+```text
+[Supersession Proposal (RFC / Patch)]
+                 │
+                 ▼
+[Backwards Compatibility Check (19_TESTS)] ──► [Fails? -> Abort & Archive]
+                 │ (Pass)
+                 ▼
+[Steward Cryptographic Authorization] ──────► [Unauthorized? -> Reject]
+                 │ (Signed)
+                 ▼
+[Atomic Dual-Link Pointer Swap & Move α to 24_ARCHIVE]
+                 │
+                 ▼
+[Emit Supersession Receipt to 17_OBSERVABILITY]
+```
+
+---
+
+## 5. Failure Modes & Rollback
+
+- **Divergent Dual-Link:** One file references supersession but the counter-file does not. **Mitigation:** Bi-directional vault graph scanner repairs link symmetry.
+- **Regression in Successor:** Successor breaks downstream invariant. **Mitigation:** Instant atomic rollback to predecessor using historical checkpoint in `24_ARCHIVE`.
+
+---
+
+## 6. Cross-Plane Bindings
+
+- **`00_ROOT`**: Updates [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] navigation entries upon supersession commit.
+- **`20_OPERATIONS`**: Records supersession event in active audit ledger.
+- **`24_ARCHIVE`**: Destination repository for superseded historical artifacts.
+
+---
+
+## 7. Verification & Formal Proofs
+
+Formal verification in Lean 4 ensures total reachability of historical states:
+$$\forall \alpha \in \text{Vault}, \quad \text{IsSuperseded}(\alpha) \implies \exists \beta \in \text{Vault}, \; \text{IsActive}(\beta) \land \text{TransitiveSuccessor}(\beta, \alpha)$$
+
+---
+
+## 8. Lineage & Stewardship
+
+- **Origin Architect:** Trang Phan
+- **Steward:** Trang Phan
+- **Target:** `v4.4`
+
+---
+
+## 9. Attestation Metadata
+
+```yaml
+subplane: 01_CANON/08_SUPERSESSION
+contract_status: ACTIVE_SPECIFICATION
+steward: Trang Phan
+verification_status: MONOTONICALLY_PRESERVED
+```

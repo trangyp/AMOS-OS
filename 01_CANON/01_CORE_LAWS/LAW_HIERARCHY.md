@@ -17,40 +17,39 @@ steward: Trang Phan
 created: 2026-08-25
 updated: 2026-08-25
 tags:
-- amos
-- canon
-- universe
-- amos-os
-- amos-core
-- amos-core-v4-4
-- law
-- law-hierarchy
-- authority
-- precedence
-- governance
-- scope
-- regime
-- provenance
-- supersession
-- invariants
-- conflict-resolution
-- rscf
-- canon-group/tech-ai
-- canon/framework
-- canon/law
-- rscf/claim
-- rscf/provenance
-- rscf/state/derived
-- topic/law-hierarchy
-- readme
-- architecture
-- authoritative-state
-- placement-rules
-- amos-core-laws
-- amos-full-brain-os-architecture
+  - amos
+  - canon
+  - universe
+  - amos-os
+  - amos-core
+  - amos-core-v4-4
+  - law
+  - law-hierarchy
+  - authority
+  - precedence
+  - governance
+  - scope
+  - regime
+  - provenance
+  - supersession
+  - invariants
+  - conflict-resolution
+  - rscf
+  - canon-group/tech-ai
+  - canon/framework
+  - canon/law
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/derived
+  - topic/law-hierarchy
+  - readme
+  - architecture
+  - authoritative-state
+  - placement-rules
+  - amos-core-laws
+  - amos-full-brain-os-architecture
 aliases:
-- AMOS Law Hierarchy - AMOS Canon Law Hierarchy - AMOS Authority Hierarchy - AMOS
-  Precedence M
+  - AMOS Law Hierarchy - AMOS Canon Law Hierarchy - AMOS Authority Hierarchy - AMOS Precedence M
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -59,18 +58,21 @@ rscf:
 ---
 
 # AMOS Law Hierarchy
+
 **Origin architect / steward:** Trang Phan
+
 > **Status:** `ACTIVE_CANON_CANDIDATE`
 > **AMOS Core target:** `v4.4`
 > **Conclusion class:** `AMOS_MODEL`
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: core_laws
----
+> rscf:
+> state: SOURCE_CLAIM
+> claim_class: SOURCE_CLAIM
+> provenance: AMOS_corpus
+> scope: core_laws
 
-# AMOS Law Hierarchy — Authority, Precedence, Scope, Conflict, and Supersession
+______________________________________________________________________
+
+## AMOS Law Hierarchy — Authority, Precedence, Scope, Conflict, and Supersession
 
 ## 0. Purpose
 
@@ -109,9 +111,9 @@ This is a governance hierarchy.
 
 It is **not** a claim that every current AMOS artifact has already been validated and promoted into one of these levels.
 
----
+______________________________________________________________________
 
-# 1. Constitutional Boundary
+## 1. Constitutional Boundary
 
 The first hierarchy rule is:
 
@@ -136,9 +138,9 @@ PROPOSAL != COMMIT
 OBSERVATION != LAW
 ```
 
----
+______________________________________________________________________
 
-# 2. Canonical Authority Stack
+## 2. Canonical Authority Stack
 
 The conceptual AMOS law stack is:
 
@@ -168,9 +170,9 @@ Lower levels operate inside the envelope established by higher levels.
 
 They do not automatically possess authority to rewrite them.
 
----
+______________________________________________________________________
 
-# 3. L0 — Core Integrity Law
+## 3. L0 — Core Integrity Law
 
 The highest-order governing priority is:
 
@@ -204,9 +206,9 @@ MUST NOT
 WEAKEN INTEGRITY
 ```
 
----
+______________________________________________________________________
 
-# 4. L1 — Constitutional / Root Laws
+## 4. L1 — Constitutional / Root Laws
 
 L1 contains architectural laws defining fundamental AMOS separations and authority boundaries.
 
@@ -236,9 +238,9 @@ These are structural firewalls.
 
 A lower-level component cannot erase them by implementation.
 
----
+______________________________________________________________________
 
-# 5. L2 — Canonical Invariants
+## 5. L2 — Canonical Invariants
 
 Canonical invariants operationalize constitutional laws as testable or enforceable constraints.
 
@@ -266,9 +268,9 @@ INVALID(DEPENDENT_CONCLUSIONS)
 
 An invariant may constrain multiple lower planes simultaneously.
 
----
+______________________________________________________________________
 
-# 6. L3 — Governance / Authority Policies
+## 6. L3 — Governance / Authority Policies
 
 Governance policies define:
 
@@ -296,9 +298,9 @@ The control plane may enforce canon.
 
 It may not silently redefine canon unless a canon-authorized governance mechanism explicitly permits the transition.
 
----
+______________________________________________________________________
 
-# 7. L4 — System and Plane Contracts
+## 7. L4 — System and Plane Contracts
 
 System contracts define obligations for major AMOS planes.
 
@@ -324,9 +326,9 @@ MUST_SATISFY
 HIGHER_ORDER_LAWS
 ```
 
----
+______________________________________________________________________
 
-# 8. L5 — Domain and Regime Rules
+## 8. L5 — Domain and Regime Rules
 
 Domain-specific rules may specialize general law for a valid scope.
 
@@ -356,9 +358,9 @@ CANNOT SILENTLY INVALIDATE
 PARENT LAW
 ```
 
----
+______________________________________________________________________
 
-# 9. L6 — Component Contracts
+## 9. L6 — Component Contracts
 
 Component-level rules govern:
 
@@ -395,9 +397,9 @@ SELF_DECLARED_AUTHORITY
 GOVERNED_AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 10. L7 — Workflow and Execution Rules
+## 10. L7 — Workflow and Execution Rules
 
 Workflow rules determine execution ordering and orchestration.
 
@@ -423,9 +425,9 @@ AUTHORITY_GATE_FAILS
 DO_NOT_EXECUTE
 ```
 
----
+______________________________________________________________________
 
-# 11. L8 — Local Configuration
+## 11. L8 — Local Configuration
 
 Local configuration may alter permitted behavior inside an existing authority envelope.
 
@@ -450,9 +452,9 @@ AUTHORIZED
 
 unless the governing authority explicitly defines that configuration as an authorization mechanism.
 
----
+______________________________________________________________________
 
-# 12. L9 — Runtime Decisions and Proposals
+## 12. L9 — Runtime Decisions and Proposals
 
 Runtime outputs occupy the lowest governing level.
 
@@ -487,9 +489,9 @@ RUNTIME_PROPOSAL
 CANON
 ```
 
----
+______________________________________________________________________
 
-# 13. Authority Is Typed
+## 13. Authority Is Typed
 
 Authority is not a single scalar.
 
@@ -517,9 +519,9 @@ EXECUTION_AUTHORITY
 CANON_MODIFICATION_AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 14. Authority Is Scoped
+## 14. Authority Is Scoped
 
 Authority exists within an applicability envelope.
 
@@ -546,9 +548,9 @@ AUTHORIZED(SCOPE_B)
 
 unless the authority explicitly spans both.
 
----
+______________________________________________________________________
 
-# 15. Precedence Is Not Determined by Filename
+## 15. Precedence Is Not Determined by Filename
 
 Never infer authority solely from:
 
@@ -574,9 +576,9 @@ AUTHORITY
 
 Authority requires valid canonical/governance provenance.
 
----
+______________________________________________________________________
 
-# 16. Precedence Resolution Function
+## 16. Precedence Resolution Function
 
 When two rules appear to conflict, resolve using a typed precedence sequence.
 
@@ -614,9 +616,9 @@ MOST SPECIFIC ALWAYS WINS
 
 Specificity only matters after higher-order compatibility is established.
 
----
+______________________________________________________________________
 
-# 17. Conflict Resolution Protocol
+## 17. Conflict Resolution Protocol
 
 For candidate rules `A` and `B`:
 
@@ -635,9 +637,9 @@ For candidate rules `A` and `B`:
 
 Only then may precedence be determined.
 
----
+______________________________________________________________________
 
-# 18. Apparent Conflict
+## 18. Apparent Conflict
 
 Two laws may differ without conflicting.
 
@@ -658,9 +660,9 @@ then both may remain valid.
 
 Do not force unnecessary supersession.
 
----
+______________________________________________________________________
 
-# 19. Genuine Conflict
+## 19. Genuine Conflict
 
 A genuine conflict exists when two simultaneously applicable rules require incompatible outcomes.
 
@@ -681,9 +683,9 @@ AUTHORITY CONTEXT
 
 Such conflicts require explicit resolution.
 
----
+______________________________________________________________________
 
-# 20. Unresolved Conflict
+## 20. Unresolved Conflict
 
 If precedence cannot be validly established:
 
@@ -701,9 +703,9 @@ depending on the evidence topology.
 
 Never resolve an authority conflict through fluent guesswork.
 
----
+______________________________________________________________________
 
-# 21. Higher Authority Rule
+## 21. Higher Authority Rule
 
 A valid higher-order law normally constrains a lower-order law.
 
@@ -725,9 +727,9 @@ SPECIALIZATION REMAINS IN SCOPE
 SPECIALIZATION DOES NOT VIOLATE PARENT INVARIANTS
 ```
 
----
+______________________________________________________________________
 
-# 22. Specificity Rule
+## 22. Specificity Rule
 
 Specific rules may refine general rules.
 
@@ -750,9 +752,9 @@ It does not replace the constitutional law:
 CAPABILITY != AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 23. Restrictive Specialization
+## 23. Restrictive Specialization
 
 Where governance permits:
 
@@ -775,9 +777,9 @@ for irreversible production migration.
 
 This is compatible if the parent defines a minimum rather than an exclusive requirement.
 
----
+______________________________________________________________________
 
-# 24. Weakening Rule
+## 24. Weakening Rule
 
 A lower-authority rule may not silently weaken a higher-order constraint.
 
@@ -791,9 +793,9 @@ AUTHORITY_OPTIONAL
 
 is invalid unless an explicit higher-authority exception licenses it.
 
----
+______________________________________________________________________
 
-# 25. Exception Contract
+## 25. Exception Contract
 
 An exception must be explicit and typed.
 
@@ -815,9 +817,9 @@ exception:
 
 No implicit exception exists merely because implementation behaves differently.
 
----
+______________________________________________________________________
 
-# 26. Override Contract
+## 26. Override Contract
 
 Override is stronger than specialization.
 
@@ -863,9 +865,9 @@ override:
   audit_record:
 ```
 
----
+______________________________________________________________________
 
-# 27. Non-Overrideable Laws
+## 27. Non-Overrideable Laws
 
 Some laws may be designated:
 
@@ -887,9 +889,9 @@ OPTIMIZATION MUST NOT WEAKEN INTEGRITY
 
 Final non-overrideable status must be bound through canon governance rather than inferred solely from this document.
 
----
+______________________________________________________________________
 
-# 28. Supersession
+## 28. Supersession
 
 Law evolution uses explicit supersession.
 
@@ -911,9 +913,9 @@ DELETED
 
 Required lineage should remain recoverable.
 
----
+______________________________________________________________________
 
-# 29. Supersession Record
+## 29. Supersession Record
 
 ```yaml
 supersession:
@@ -946,9 +948,9 @@ supersession:
   provenance:
 ```
 
----
+______________________________________________________________________
 
-# 30. Semantic Identity Rule
+## 30. Semantic Identity Rule
 
 The following identities remain distinct:
 
@@ -977,9 +979,9 @@ FILE_REPLACEMENT
 VALID_CANON_PROMOTION
 ```
 
----
+______________________________________________________________________
 
-# 31. Version Precedence
+## 31. Version Precedence
 
 Version number alone does not determine authority.
 
@@ -1007,9 +1009,9 @@ Unknown lineage remains:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 32. Temporal Rule
+## 32. Temporal Rule
 
 A law may have:
 
@@ -1029,9 +1031,9 @@ INVALID_NOW
 INVALID_THEN
 ```
 
----
+______________________________________________________________________
 
-# 33. Regime Rule
+## 33. Regime Rule
 
 Rules inherit regime validity.
 
@@ -1055,9 +1057,9 @@ OR
 GOVERNANCE ESCALATION
 ```
 
----
+______________________________________________________________________
 
-# 34. Scope Rule
+## 34. Scope Rule
 
 Every consequential law should eventually expose its applicability envelope.
 
@@ -1079,9 +1081,9 @@ ASSUMPTIONS
 
 Silent scope expansion is prohibited.
 
----
+______________________________________________________________________
 
-# 35. Provenance Rule
+## 35. Provenance Rule
 
 A governing law should retain sufficient provenance to determine:
 
@@ -1104,9 +1106,9 @@ ONE CANONICAL SOURCE
 100 AUTHORITIES
 ```
 
----
+______________________________________________________________________
 
-# 36. Provenance Topology
+## 36. Provenance Topology
 
 Authority analysis must account for shared ancestry.
 
@@ -1124,9 +1126,9 @@ The four descendants do not constitute four independent canonical laws.
 
 They remain downstream derivatives unless separately governed.
 
----
+______________________________________________________________________
 
-# 37. Canon / Kernel Relationship
+## 37. Canon / Kernel Relationship
 
 ```text
 CANON
@@ -1148,9 +1150,9 @@ CANON != KERNEL
 
 Kernel behavior does not automatically become canon merely because it is implemented.
 
----
+______________________________________________________________________
 
-# 38. Kernel / Control Plane Relationship
+## 38. Kernel / Control Plane Relationship
 
 ```text
 KERNEL
@@ -1170,9 +1172,9 @@ KERNEL != CONTROL_PLANE
 
 A deterministic operator does not automatically possess commit authority.
 
----
+______________________________________________________________________
 
-# 39. Control Plane / Runtime Relationship
+## 39. Control Plane / Runtime Relationship
 
 ```text
 CONTROL_PLANE
@@ -1192,9 +1194,9 @@ CONTROL_PLANE != RUNTIME
 
 Runtime capability remains subordinate to authority gates.
 
----
+______________________________________________________________________
 
-# 40. Runtime / Cognition Relationship
+## 40. Runtime / Cognition Relationship
 
 ```text
 RUNTIME
@@ -1214,9 +1216,9 @@ RUNTIME != COGNITION
 
 A cognitive conclusion does not automatically authorize execution.
 
----
+______________________________________________________________________
 
-# 41. Agent Authority Boundary
+## 41. Agent Authority Boundary
 
 Agents are role-based workers.
 
@@ -1236,9 +1238,9 @@ SOVEREIGN AUTHORITY
 
 An agent's effective authority is inherited or delegated through governed contracts.
 
----
+______________________________________________________________________
 
-# 42. Skill Authority Boundary
+## 42. Skill Authority Boundary
 
 A skill defines a reusable procedure.
 
@@ -1258,9 +1260,9 @@ PERMISSION
 
 Calling a skill does not bypass authorization.
 
----
+______________________________________________________________________
 
-# 43. Workflow Authority Boundary
+## 43. Workflow Authority Boundary
 
 A workflow coordinates multiple steps.
 
@@ -1280,9 +1282,9 @@ CANON
 
 Workflow structure cannot silently redefine governing laws.
 
----
+______________________________________________________________________
 
-# 44. Model Authority Boundary
+## 44. Model Authority Boundary
 
 Models may provide:
 
@@ -1304,9 +1306,9 @@ GOVERNED AUTHORITY
 
 A high-confidence model result does not independently authorize a state transition.
 
----
+______________________________________________________________________
 
-# 45. Memory Authority Boundary
+## 45. Memory Authority Boundary
 
 Memory stores retained information.
 
@@ -1327,9 +1329,9 @@ HISTORICAL DECISIONS
 
 but persistence does not promote those records to governing law.
 
----
+______________________________________________________________________
 
-# 46. Knowledge Authority Boundary
+## 46. Knowledge Authority Boundary
 
 ```text
 KNOWLEDGE
@@ -1339,9 +1341,9 @@ AUTHORITY
 
 A knowledge artifact can explain law without possessing authority to change it.
 
----
+______________________________________________________________________
 
-# 47. Tool Authority Boundary
+## 47. Tool Authority Boundary
 
 ```text
 TOOL
@@ -1359,9 +1361,9 @@ AUTHORIZATION
 
 The presence of an executable connector or external effector does not establish permission to use it.
 
----
+______________________________________________________________________
 
-# 48. State Authority Boundary
+## 48. State Authority Boundary
 
 State records what the system currently treats as state.
 
@@ -1373,9 +1375,9 @@ STATE
 STATE_TRANSITION_AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 49. Evidence Authority Boundary
+## 49. Evidence Authority Boundary
 
 Evidence supports claims.
 
@@ -1389,9 +1391,9 @@ Strong evidence can justify changing a law through the governed process.
 
 It does not silently rewrite the law.
 
----
+______________________________________________________________________
 
-# 50. RSCF Law Binding
+## 50. RSCF Law Binding
 
 An RSCF may bind applicable law explicitly.
 
@@ -1424,9 +1426,9 @@ rscf:
 
 A conclusion violating an applicable higher-order law cannot be promoted merely because its local reasoning is internally coherent.
 
----
+______________________________________________________________________
 
-# 51. Multi-RSCF Authority
+## 51. Multi-RSCF Authority
 
 Where multiple RSCFs jointly support a governed decision:
 
@@ -1444,9 +1446,9 @@ their authority and dependencies must not be treated as independent merely becau
 
 Shared ancestry, common assumptions, and causal coupling remain material.
 
----
+______________________________________________________________________
 
-# 52. Fast-Path Law
+## 52. Fast-Path Law
 
 The AMOS v4.4 fast path does not bypass hierarchy.
 
@@ -1480,9 +1482,9 @@ not:
 WEAKER LAW
 ```
 
----
+______________________________________________________________________
 
-# 53. Proof-Based Coordination Avoidance
+## 53. Proof-Based Coordination Avoidance
 
 Coordination may be avoided only when independence is demonstrated.
 
@@ -1502,9 +1504,9 @@ LOCAL_FINALIZATION
 
 Authority hierarchy remains applicable even when coordination is unnecessary.
 
----
+______________________________________________________________________
 
-# 54. Causal Epoch Finality
+## 54. Causal Epoch Finality
 
 A causal epoch cannot be considered final merely because execution has completed.
 
@@ -1518,9 +1520,9 @@ CAUSAL_FINALITY
 
 Material unresolved upstream dependencies may block finality.
 
----
+______________________________________________________________________
 
-# 55. Law Conflict States
+## 55. Law Conflict States
 
 Law resolution uses:
 
@@ -1537,9 +1539,9 @@ INVALID
 
 Do not collapse these into a binary valid/invalid model.
 
----
+______________________________________________________________________
 
-# 56. Conflict Record
+## 56. Conflict Record
 
 ```yaml
 law_conflict:
@@ -1575,9 +1577,9 @@ law_conflict:
   provenance:
 ```
 
----
+______________________________________________________________________
 
-# 57. Promotion Hierarchy
+## 57. Promotion Hierarchy
 
 Artifacts should not jump directly from existence to canon.
 
@@ -1607,9 +1609,9 @@ The governing invariant is:
 EXISTS != CANONICAL
 ```
 
----
+______________________________________________________________________
 
-# 58. Demotion
+## 58. Demotion
 
 A law may move downward in authority state if:
 
@@ -1625,9 +1627,9 @@ SUPERSESSION OCCURS
 
 Demotion should preserve lineage.
 
----
+______________________________________________________________________
 
-# 59. Law Invalidation
+## 59. Law Invalidation
 
 Invalidation should identify:
 
@@ -1649,9 +1651,9 @@ INVALIDATE DESCENDANTS
 PRESERVE UNAFFECTED BRANCHES
 ```
 
----
+______________________________________________________________________
 
-# 60. Rollback
+## 60. Rollback
 
 When a law transition fails:
 
@@ -1665,9 +1667,9 @@ where safe and supported by provenance.
 
 Global rollback is a last resort when local dependency repair is insufficient.
 
----
+______________________________________________________________________
 
-# 61. Anti-Regression Gate
+## 61. Anti-Regression Gate
 
 A law change must not weaken:
 
@@ -1684,9 +1686,9 @@ RECOVERY
 
 A performance improvement is insufficient justification for integrity regression.
 
----
+______________________________________________________________________
 
-# 62. Change Proposal Contract
+## 62. Change Proposal Contract
 
 ```yaml
 law_change_proposal:
@@ -1736,9 +1738,9 @@ LAW_CHANGE_PROPOSAL
 LAW_CHANGE_COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 63. Law Commit Gate
+## 63. Law Commit Gate
 
 Conceptually:
 
@@ -1782,9 +1784,9 @@ UNKNOWN/GAP
 
 blocks promotion unless governing canon explicitly permits a conditional state.
 
----
+______________________________________________________________________
 
-# 64. Authoritative State
+## 64. Authoritative State
 
 The repository may contain many artifacts describing law.
 
@@ -1804,9 +1806,9 @@ PRESENT_IN_REPOSITORY
 CURRENTLY_AUTHORITATIVE
 ```
 
----
+______________________________________________________________________
 
-# 65. Law Registry Requirements
+## 65. Law Registry Requirements
 
 A mature law registry should eventually track:
 
@@ -1852,9 +1854,9 @@ law:
   failure_semantics:
 ```
 
----
+______________________________________________________________________
 
-# 66. Minimum AMOS Hierarchy Laws
+## 66. Minimum AMOS Hierarchy Laws
 
 The minimum hierarchy set is:
 
@@ -1881,9 +1883,9 @@ LH-019  OVERRIDE REQUIRES EXPLICIT AUTHORITY
 LH-020  LAW EVOLUTION MUST PRESERVE PROVENANCE
 ```
 
----
+______________________________________________________________________
 
-# 67. AMOS v4.4 Evolution Alignment
+## 67. AMOS v4.4 Evolution Alignment
 
 The law hierarchy supports the v3.0 → v4.4 evolution spine:
 
@@ -1923,9 +1925,9 @@ The hierarchy constrains these mechanisms through governance and authority bound
 
 It does not claim that repository documentation alone proves their complete runtime implementation.
 
----
+______________________________________________________________________
 
-# 68. RSCF Node
+## 68. RSCF Node
 
 ```yaml
 node_id: AMOS_LAW_HIERARCHY
@@ -1984,9 +1986,9 @@ does_not_establish:
   - automatic promotion to final canon
 ```
 
----
+______________________________________________________________________
 
-# 69. Promotion Gate
+## 69. Promotion Gate
 
 This artifact may move:
 
@@ -2027,9 +2029,9 @@ UNKNOWN/GAP
 
 rather than being silently normalized.
 
----
+______________________________________________________________________
 
-# 70. Changelog
+## 70. Changelog
 
 ## v2.0.0 — 2026-08-25
 
@@ -2069,9 +2071,9 @@ Added:
 
 Initial placeholder reserved the canonical AMOS OS location.
 
----
+______________________________________________________________________
 
-# 71. Final Law
+## 71. Final Law
 
 The AMOS law hierarchy reduces to one governing constraint:
 
@@ -2139,30 +2141,33 @@ UNKNOWN/GAP
 PASS
 ```
 
----
+______________________________________________________________________
 
 **Related:** README|AMOS OS · [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|MOC · [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]|Architecture · [[00_ROOT/SYSTEM_MAP|SYSTEM_MAP]]|System Map · [[00_ROOT/AUTHORITATIVE_STATE|AUTHORITATIVE_STATE]]|Authoritative State · [[00_ROOT/PLACEMENT_RULES|PLACEMENT_RULES]]|Placement Rules · [[00_ROOT/00_ROOT_NAMING_STANDARD|00_ROOT_NAMING_STANDARD]]|Naming Standard · AMOS Canon · [[01_CANON/00_INDEX/CANON_MAP|CANON_MAP]]|Canon Map · [[01_CANON/01_CORE_LAWS/AMOS_CORE_LAWS|AMOS Core Laws]] · [[01_CANON/01_CORE_LAWS/INVARIANT_REGISTRY|INVARIANT_REGISTRY]]|Invariant Registry · [[02_KERNEL/00_INDEX/KERNEL_MAP|KERNEL_MAP]]|Kernel Map · [[03_CONTROL_PLANE/00_INDEX/CONTROL_PLANE_MAP|CONTROL_PLANE_MAP]]|Control Plane Map · [[04_RUNTIME/00_INDEX/RUNTIME_MAP|RUNTIME_MAP]]|Runtime Map · [[10_MEMORY/00_INDEX/MEMORY_MEMORY_MAP|MEMORY_MEMORY_MAP]]|Memory Map · [[11_KNOWLEDGE/AMOS_FULL_BRAIN_OS_ARCHITECTURE|AMOS Full Brain OS Architecture]] · [[12_STATE/00_INDEX/STATE_STATE_MAP|STATE_STATE_MAP]]|State Map · [[16_SCHEMAS/00_INDEX/SCHEMA_MAP|SCHEMA_MAP]]|Schema Map · [[17_OBSERVABILITY/00_INDEX/OBSERVABILITY_OBSERVABILITY_MAP|OBSERVABILITY_OBSERVABILITY_MAP]]|Observability Map · [[18_SECURITY/00_INDEX/SECURITY_MAP|SECURITY_MAP]]|Security Map · [[19_TESTS/00_INDEX/TEST_MAP|TEST_MAP]]|Tests · [[20_OPERATIONS/00_INDEX/OPERATIONS_MAP|OPERATIONS_MAP]]|Operations
 
 ```
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: law_hierarchy
 node_type: note
 path: 01_CANON/01_CORE_LAWS/LAW_HIERARCHY.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[01_CANON/01_CORE_LAWS/01_CORE_LAWS_MOC|01_CORE_LAWS_MOC]]
-

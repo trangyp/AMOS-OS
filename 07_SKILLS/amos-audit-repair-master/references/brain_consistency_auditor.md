@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: brain consistency auditor
 type: reference
 source: 07_SKILLS/amos-audit-repair-master/references
 tags:
-- reference
-- amos-audit-repair-master
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-audit-repair-master
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -20,18 +23,11 @@ rscf:
 > Source: `_00_Cosmo brain/brain/B/Brain_Consistency_Auditor_Agent.md`
 > Epistemic class: SOURCE_DERIVED
 
----
-title: Brain_Consistency_Auditor_Agent
-created: "2026-08-22"
-origin_architect: "Trang Phan"
-type: "bridge"
-tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/brain-consistency-auditor-agent, brain]
-status: "index"
-provenance: "SOURCE_CLAIM"
-confidence: "VERIFIED"
----
+______________________________________________________________________
 
-# Brain_Consistency_Auditor_Agent
+## title: Brain_Consistency_Auditor_Agent created: "2026-08-22" origin_architect: "Trang Phan" type: "bridge" tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/brain-consistency-auditor-agent, brain] status: "index" provenance: "SOURCE_CLAIM" confidence: "VERIFIED"
+
+## Brain_Consistency_Auditor_Agent
 
 > Bridge note — resolves the `Brain_Consistency_Auditor_Agent` link from the Cosmo Brain MOC / daily notes to the real agent in the vault.
 
@@ -39,13 +35,15 @@ confidence: "VERIFIED"
 
 - Open the agent: .devin/agents/Brain_Consistency_Auditor_Agent.md
 
----
+______________________________________________________________________
+
 **MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -53,12 +51,14 @@ confidence: "VERIFIED"
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-audit-repair-master-brain-consistency-auditor
 node_type: reference
 path: 07_SKILLS/amos-audit-repair-master/references/brain_consistency_auditor.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

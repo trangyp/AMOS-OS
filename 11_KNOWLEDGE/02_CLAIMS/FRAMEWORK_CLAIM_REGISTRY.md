@@ -12,19 +12,19 @@ segment: 11_KNOWLEDGE/02_CLAIMS
 artifact_kind: REGISTRY
 path: 11_KNOWLEDGE/02_CLAIMS/FRAMEWORK_CLAIM_REGISTRY.md
 tags:
-- amos-os
-- knowledge
-- vault
-- 02_claims
-- framework_claim_registry
-- epistemic_claims
-- rscf
-- canon_candidate
-- canon/knowledge
-- tss-the-trang-system
-- trang-reality-architecture
-- frai-fractal-reasoning-ai
-- trang-lacunarity
+  - amos-os
+  - knowledge
+  - vault
+  - 02_claims
+  - framework_claim_registry
+  - epistemic_claims
+  - rscf
+  - canon_candidate
+  - canon/knowledge
+  - tss-the-trang-system
+  - trang-reality-architecture
+  - frai-fractal-reasoning-ai
+  - trang-lacunarity
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -39,19 +39,19 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - 05_FRAMEWORKS_MOC
-  - AMOS_CORPUS
+    - 05_FRAMEWORKS_MOC
+    - AMOS_CORPUS
   scope:
-  - KNOWLEDGE_CLAIMS
-  - FRAMEWORK_CLAIMS
-  - SOURCE_DEFINED_MODEL
+    - KNOWLEDGE_CLAIMS
+    - FRAMEWORK_CLAIMS
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   claims_moc:
     artifact:
-    - - 02_CLAIMS_MOC
+      -   - 02_CLAIMS_MOC
   frameworks_moc:
     artifact:
-    - - 05_FRAMEWORKS_MOC
+      -   - 05_FRAMEWORKS_MOC
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   registry_structure: VERIFIED_SOURCE_STRUCTURE
@@ -65,28 +65,28 @@ epistemic_boundary:
 
 It catalogues and classifies all architectural assertions, mathematical equations, and operational claims from the 05_FRAMEWORKS family.
 
----
+______________________________________________________________________
 
-# 1. Registered Framework Claims
+## 1. Registered Framework Claims
 
-| Claim ID | Framework Artifact | Claim Assertion | Epistemic Class | Status |
-| :--- | :--- | :--- | :--- | :--- |
-| `CLM-FRM-001` | [[11_KNOWLEDGE/05_FRAMEWORKS/TSS_THE_TRANG_SYSTEM|TSS_THE_TRANG_SYSTEM]] | Lifecycle Dynamics: $i_{\text{TSS}} = [H(1-\Omega)(1-F)(1-S)]^{1/4}$ | `AMOS_MODEL` | Grounded |
-| `CLM-FRM-002` | [[11_KNOWLEDGE/trang/TRANG_REALITY_ARCHITECTURE|TRANG_REALITY_ARCHITECTURE]] | Ontological Pre-Symbolic Spine: $P \to D \to R \to C \to F \to M$ | `AMOS_MODEL` | Grounded |
-| `CLM-FRM-003` | [[11_KNOWLEDGE/05_FRAMEWORKS/FRAI_FRACTAL_REASONING_AI|FRAI_FRACTAL_REASONING_AI]] | Fractal Engine: $\text{FRAI} = \langle \mathcal{D}, \mathcal{S}, \mathcal{R}, \mathcal{I}, \mathcal{A}, \mathcal{T}_2 \rangle$ | `AMOS_MODEL` | Grounded |
-| `CLM-FRM-004` | [[11_KNOWLEDGE/05_FRAMEWORKS/TRANG_LACUNARITY|TRANG_LACUNARITY]] | Texture Gapping Metric: $\Lambda = \langle M^2 \rangle / \langle M \rangle^2$ | `MATHEMATICAL_MODEL` | Grounded |
+| Claim ID      | Framework Artifact                                       | Claim Assertion                | Epistemic Class                                                                                                                | Status               |
+| :------------ | :------------------------------------------------------- | :----------------------------- | :----------------------------------------------------------------------------------------------------------------------------- | :------------------- |
+| `CLM-FRM-001` | \[\[11_KNOWLEDGE/05_FRAMEWORKS/TSS_THE_TRANG_SYSTEM      | TSS_THE_TRANG_SYSTEM\]\]       | Lifecycle Dynamics: $i_{\text{TSS}} = [H(1-\Omega)(1-F)(1-S)]^{1/4}$                                                           | `AMOS_MODEL`         |
+| `CLM-FRM-002` | \[\[11_KNOWLEDGE/trang/TRANG_REALITY_ARCHITECTURE        | TRANG_REALITY_ARCHITECTURE\]\] | Ontological Pre-Symbolic Spine: $P \to D \to R \to C \to F \to M$                                                              | `AMOS_MODEL`         |
+| `CLM-FRM-003` | \[\[11_KNOWLEDGE/05_FRAMEWORKS/FRAI_FRACTAL_REASONING_AI | FRAI_FRACTAL_REASONING_AI\]\]  | Fractal Engine: $\text{FRAI} = \langle \mathcal{D}, \mathcal{S}, \mathcal{R}, \mathcal{I}, \mathcal{A}, \mathcal{T}_2 \rangle$ | `AMOS_MODEL`         |
+| `CLM-FRM-004` | \[\[11_KNOWLEDGE/05_FRAMEWORKS/TRANG_LACUNARITY          | TRANG_LACUNARITY\]\]           | Texture Gapping Metric: $\Lambda = \langle M^2 \rangle / \langle M \rangle^2$                                                  | `MATHEMATICAL_MODEL` |
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Claims MOC:** [[11_KNOWLEDGE/02_CLAIMS/02_CLAIMS_MOC|02_CLAIMS_MOC]]
 - **Frameworks Sub-Plane:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]
 - **Equation Registry:** [[11_KNOWLEDGE/05_FRAMEWORKS/TRANG_EQUATION_REGISTRY|TRANG_EQUATION_REGISTRY]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -104,11 +104,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[01_CANON/01_CORE_LAWS/ATOMIC_MULTI_RSCF|ATOMIC_MULTI_RSCF]] · [[02_KERNEL/K_ATOMIC_MULTI_RSCF|K_ATOMIC_MULTI_RSCF]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/02_CLAIMS/02_CLAIMS_MOC|02_CLAIMS_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/TRANG_EQUATION_REGISTRY|TRANG_EQUATION_REGISTRY]] · [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]
 
----
+______________________________________________________________________
+
 **MOC:** [[11_KNOWLEDGE/02_CLAIMS/02_CLAIMS_MOC|02_CLAIMS_MOC]]
-
-

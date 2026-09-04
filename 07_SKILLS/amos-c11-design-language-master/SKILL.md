@@ -4,26 +4,23 @@ title: SKILL — Amos C11 Design Language Master
 type: skill
 source: 07_SKILLS/amos-c11-design-language-master
 name: amos-c11-design-language-master
-description: AMOS C11 Design & Language — content creation, corporate documentation,
-  academic writing, artistic expression, presentation design, language patterns. Use
-  when content creation, documentation, or de... Do not use for generic copywriting,
-  SEO optimization, or tasks outside AMOS design-language canon.
+description: AMOS C11 Design & Language — content creation, corporate documentation, academic writing, artistic expression, presentation design, language patterns. Use when content creation, documentation, or de... Do not use for generic copywriting, SEO optimization, or tasks outside AMOS design-language canon.
 parent_skill: none
 domain: c11
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CANON
 tags:
-- type/skill
-- type/skill
-- domain/design-language
-- epistemic/source_claim
-- hml/m
-- epistemic/source_canon
-- amos-os
-- agent-template
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/design-language
+  - epistemic/source_claim
+  - hml/m
+  - epistemic/source_canon
+  - amos-os
+  - agent-template
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -33,21 +30,21 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: M
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
-- L7_authority
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
+  - L7_authority
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L16
-- L17
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L16
+  - L17
 license: MIT
 steward: Trang Phan
 ---
@@ -57,6 +54,7 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: c11. Parent: none. Epistemic class: SOURCE_CANON. H/M/L: M.
+
 ## When to Use
 
 - When defining or evolving a design language for products, brands, interfaces, or systems
@@ -88,19 +86,19 @@ Origin architect: **Trang Phan**. Domain: c11. Parent: none. Epistemic class: SO
 ## Operations
 
 1. **c11.design.primitive.definition**: Design Primitive Definition — design language capability
-2. **c11.design.token.systems**: Design Token Systems — design language capability
-3. **c11.visual.and.typographic.grammar**: Visual And Typographic Grammar — design language capability
-4. **c11.spatial.and.layout.systems**: Spatial And Layout Systems — design language capability
-5. **c11.interaction.and.motion.patterns**: Interaction And Motion Patterns — design language capability
-6. **c11.information.hierarchy.mapping**: Information Hierarchy Mapping — design language capability
-7. **c11.cross.channel.design.translation**: Cross Channel Design Translation — design language capability
-8. **c11.accessibility.and.inclusion.mapping**: Accessibility And Inclusion Mapping — design language capability
-9. **c11.design.language.auditing.and.refactoring**: Design Language Auditing And Refactoring — design language capability
-10. **c11.design.language.change.management**: Design Language Change Management — design language capability
-11. **c11.assess_claim**: Assess C11 design language claims for epistemic class and evidence
-12. **c11.manage_lifecycle**: Manage C11 design language lifecycle: define, audit, refactor, evolve
-13. **c11.detect_drift**: Detect drift in design language consistency, token systems, or pattern adherence
-14. **c11.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+1. **c11.design.token.systems**: Design Token Systems — design language capability
+1. **c11.visual.and.typographic.grammar**: Visual And Typographic Grammar — design language capability
+1. **c11.spatial.and.layout.systems**: Spatial And Layout Systems — design language capability
+1. **c11.interaction.and.motion.patterns**: Interaction And Motion Patterns — design language capability
+1. **c11.information.hierarchy.mapping**: Information Hierarchy Mapping — design language capability
+1. **c11.cross.channel.design.translation**: Cross Channel Design Translation — design language capability
+1. **c11.accessibility.and.inclusion.mapping**: Accessibility And Inclusion Mapping — design language capability
+1. **c11.design.language.auditing.and.refactoring**: Design Language Auditing And Refactoring — design language capability
+1. **c11.design.language.change.management**: Design Language Change Management — design language capability
+1. **c11.assess_claim**: Assess C11 design language claims for epistemic class and evidence
+1. **c11.manage_lifecycle**: Manage C11 design language lifecycle: define, audit, refactor, evolve
+1. **c11.detect_drift**: Detect drift in design language consistency, token systems, or pattern adherence
+1. **c11.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## Vault-Sourced Domain Knowledge
 
@@ -141,29 +139,32 @@ The domain is organized into source families:
 
 Aesthetic judgments are VALUES, not FACTS. Fractal language hypothesis is MODEL (layer-level verified, fractal self-similarity is analogy). Cultural-meaning claims are INTERPRETIVE. Trang Signature Style (Sắc-Gọn-Chắc) is STYLE_VALUE. Expression Translation Engine is NOT a domain-answer engine — translation and normalization only. C11 is not a style oracle.
 
-
 ## Consolidated Sub-Skills (16)
 
 This parent skill consolidates the following sub-skills. Each is a section within th
+
 - AGENT_TEMPLATE
 
----
+______________________________________________________________________
+
 **MOC:** [[07_SKILLS/amos-c11-design-language-master/amos-c11-design-language-master_MOC|amos-c11-design-language-master_MOC]]
 
 ## Examples
 
 - **Scenario**: When defining or evolving a design language for products, brands, interfaces, or systems
+
   - **Input**: A query matching this skill's domain (c11)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When creating corporate documentation, academic writing, or artistic expression
+
   - **Input**: A query matching this skill's domain (c11)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When designing presentations, spreadsheets, or structured documents
+
   - **Input**: A query matching this skill's domain (c11)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Validation Gates
 
@@ -180,7 +181,6 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `none` — routes to this skill when c11 specialization is needed
@@ -188,7 +188,6 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -207,7 +206,6 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -215,7 +213,6 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -255,11 +252,12 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 - `references/tech_expanded_design_engine.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
 - `references/vietnamese_writing_engine.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `none` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `amos-c11-design-language-master-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -267,12 +265,14 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-c11-design-language-master
 node_type: skill
 path: 07_SKILLS/amos-c11-design-language-master/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

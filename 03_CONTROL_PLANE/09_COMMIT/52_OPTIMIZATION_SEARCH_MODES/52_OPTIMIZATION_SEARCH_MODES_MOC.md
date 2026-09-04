@@ -1,10 +1,13 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: 52 Optimization Search Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/52_OPTIMIZATION_SEARCH_MODES
 tags:
-- 52-optimization-search-modes
-- canon/control-plane
+  - 52-optimization-search-modes
+  - canon/control-plane
 moc: true
 rscf:
   state: DERIVED
@@ -24,5 +27,6 @@ rscf:
 - [[03_CONTROL_PLANE/09_COMMIT/52_OPTIMIZATION_SEARCH_MODES/OPTIMIZATION_SEARCH_MODES_COMMIT_CONTROL_PLANE_MODE_FAMILY_SPEC|OPTIMIZATION_SEARCH_MODES_COMMIT_CONTROL_PLANE_MODE_FAMILY_SPEC]]
 - [[03_CONTROL_PLANE/09_COMMIT/52_OPTIMIZATION_SEARCH_MODES/OPTIMIZATION_SEARCH_MODES_COMMIT_CONTROL_PLANE_README|OPTIMIZATION_SEARCH_MODES_COMMIT_CONTROL_PLANE_README]]
 
----
+______________________________________________________________________
+
 **Parent:** [[03_CONTROL_PLANE/09_COMMIT/09_COMMIT_MOC|09_COMMIT_MOC]]

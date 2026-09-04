@@ -12,21 +12,21 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: FRAMEWORK
 path: 11_KNOWLEDGE/05_FRAMEWORKS/TRANG_GRAND_SYSTEM_CODEX.md
 tags:
-- amos-os
-- knowledge
-- vault
-- 05_frameworks
-- trang_grand_system_codex
-- codex
-- grand_laws
-- architectural_codex
-- rscf
-- canon_candidate
-- canon/knowledge
-- trang-grand-system
-- trang-grand-system-logic-specification
-- trang-reality-architecture
-- tss-meta-laws
+  - amos-os
+  - knowledge
+  - vault
+  - 05_frameworks
+  - trang_grand_system_codex
+  - codex
+  - grand_laws
+  - architectural_codex
+  - rscf
+  - canon_candidate
+  - canon/knowledge
+  - trang-grand-system
+  - trang-grand-system-logic-specification
+  - trang-reality-architecture
+  - tss-meta-laws
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -41,20 +41,20 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - THE_TRANG_SYSTEM_CODEX_META_LAWS
-  - TRANG_GRAND_SYSTEM
-  - AMOS_CORPUS
+    - THE_TRANG_SYSTEM_CODEX_META_LAWS
+    - TRANG_GRAND_SYSTEM
+    - AMOS_CORPUS
   scope:
-  - KNOWLEDGE_FRAMEWORKS
-  - ARCHITECTURAL_CODEX
-  - SOURCE_DEFINED_MODEL
+    - KNOWLEDGE_FRAMEWORKS
+    - ARCHITECTURAL_CODEX
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   grand_system:
     artifact:
-    - - TRANG_GRAND_SYSTEM
+      -   - TRANG_GRAND_SYSTEM
   logic_specification:
     artifact:
-    - - TRANG_GRAND_SYSTEM_LOGIC_SPECIFICATION
+      -   - TRANG_GRAND_SYSTEM_LOGIC_SPECIFICATION
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
@@ -66,27 +66,27 @@ epistemic_boundary:
 
 `TRANG_GRAND_SYSTEM_CODEX.md` is the canonical Knowledge Plane reference artifact codifying the core architectural axioms, governance boundaries, and structural constraints of the **Trang Grand System** within `11_KNOWLEDGE/05_FRAMEWORKS`.
 
----
+______________________________________________________________________
 
-# 1. The Core Codex Axioms
+## 1. The Core Codex Axioms
 
 1. **Axiom of Ground Invariance:** No derived cognitive, economic, or technological construct can supersede the foundational invariants of the null ground state ($S_0 / \emptyset$).
-2. **Axiom of Substrate Embodiment:** Cognitive and symbolic intelligence is bounded by biological constraints ($e = i^2$) and thermodynamic realities.
-3. **Axiom of Relational Genesis:** Form ($F$) and Memory ($M$) emerge solely through the recursive progression $P \to D \to R \to C \to F \to M$.
-4. **Axiom of Governance Separation:** Capability does not equal Authority (`CAPABILITY != AUTHORITY`). High-order interventions require verified decision receipts.
+1. **Axiom of Substrate Embodiment:** Cognitive and symbolic intelligence is bounded by biological constraints ($e = i^2$) and thermodynamic realities.
+1. **Axiom of Relational Genesis:** Form ($F$) and Memory ($M$) emerge solely through the recursive progression $P \to D \to R \to C \to F \to M$.
+1. **Axiom of Governance Separation:** Capability does not equal Authority (`CAPABILITY != AUTHORITY`). High-order interventions require verified decision receipts.
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Grand System Master:** [[11_KNOWLEDGE/05_FRAMEWORKS/TRANG_GRAND_SYSTEM|TRANG_GRAND_SYSTEM]]
 - **Logic Specification:** [[11_KNOWLEDGE/05_FRAMEWORKS/TRANG_GRAND_SYSTEM_LOGIC_SPECIFICATION|TRANG_GRAND_SYSTEM_LOGIC_SPECIFICATION]]
 - **Reality Architecture:** [[11_KNOWLEDGE/trang/TRANG_REALITY_ARCHITECTURE|TRANG_REALITY_ARCHITECTURE]]
 - **TSS Meta Laws:** [[11_KNOWLEDGE/05_FRAMEWORKS/TSS_META_LAWS|TSS_META_LAWS]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -104,10 +104,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/TRANG_GRAND_SYSTEM|TRANG_GRAND_SYSTEM]] · [[11_KNOWLEDGE/05_FRAMEWORKS/TRANG_GRAND_SYSTEM_LOGIC_SPECIFICATION|TRANG_GRAND_SYSTEM_LOGIC_SPECIFICATION]] · [[11_KNOWLEDGE/trang/TRANG_REALITY_ARCHITECTURE|TRANG_REALITY_ARCHITECTURE]]
 
----
-**MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]
+______________________________________________________________________
 
+**MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]

@@ -1,10 +1,10 @@
 ---
 title: INDEX MODELS README
 aliases:
-- Models Index README
-- AMOS Models Index
-- 13 Models Index
-- Models Navigation Index
+  - Models Index README
+  - AMOS Models Index
+  - 13 Models Index
+  - Models Navigation Index
 type: index
 artifact_type: index_readme
 document_role: models_plane_navigation_index
@@ -24,69 +24,69 @@ automated_link_integrity: PARTIAL
 artifact_specific_validation: UNKNOWN/GAP
 executable_binding: NOT_ESTABLISHED
 scope:
-- index_navigation
-- models_plane
-- model_discovery
-- model_resolution
-- model_navigation
-- model_orientation
+  - index_navigation
+  - models_plane
+  - model_discovery
+  - model_resolution
+  - model_navigation
+  - model_orientation
 resolution_policy:
   local: BASENAME_WITHIN_OWN_DIRECTORY
   cross_plane:
-  - '[[00_ROOT/00_HOME|00_HOME]]'
-  - '[[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]'
+    - '[[00_ROOT/00_HOME|00_HOME]]'
+    - '[[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]'
 tags:
-- amos-os
-- 00_index
-- models
-- model
-- index
-- readme
-- model-navigation
-- model-discovery
-- model-resolution
-- basename-resolution
-- cross-plane-resolution
-- cross-plane-navigation
-- rscf
-- rscf-node
-- provenance
-- dependency
-- dependency-closure
-- scope
-- regime
-- hml
-- authority
-- authorization
-- capability
-- proposal
-- commit
-- fail-closed
-- unknown-gap
-- rollback
-- selective-invalidation
-- validation
-- validation-receipt
-- link-integrity
-- routing
-- governance
-- model-governance
-- model-provenance
-- model-versioning
-- competing-models
-- epistemic-regime
-- canon/model
-- routing-policy-validation-receipt
-- authz-engine-validation-receipt
-- law-hierarchy
-- model-index-navigation
-- local-basename-resolution
-- model-identity-preservation
-- model-version-navigation
-- model-provenance-preservation
-- model-scope-preservation
-- model-regime-preservation
-- references
+  - amos-os
+  - 00_index
+  - models
+  - model
+  - index
+  - readme
+  - model-navigation
+  - model-discovery
+  - model-resolution
+  - basename-resolution
+  - cross-plane-resolution
+  - cross-plane-navigation
+  - rscf
+  - rscf-node
+  - provenance
+  - dependency
+  - dependency-closure
+  - scope
+  - regime
+  - hml
+  - authority
+  - authorization
+  - capability
+  - proposal
+  - commit
+  - fail-closed
+  - unknown-gap
+  - rollback
+  - selective-invalidation
+  - validation
+  - validation-receipt
+  - link-integrity
+  - routing
+  - governance
+  - model-governance
+  - model-provenance
+  - model-versioning
+  - competing-models
+  - epistemic-regime
+  - canon/model
+  - routing-policy-validation-receipt
+  - authz-engine-validation-receipt
+  - law-hierarchy
+  - model-index-navigation
+  - local-basename-resolution
+  - model-identity-preservation
+  - model-version-navigation
+  - model-provenance-preservation
+  - model-scope-preservation
+  - model-regime-preservation
+  - references
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -108,18 +108,18 @@ gaps:
 
 # INDEX MODELS README
 
-> [!abstract] Models Index
+> [!ABSTRACT] Models Index
 > `INDEX MODELS README` is the primary orientation and navigation artifact for the `13_MODELS/00_INDEX` surface.
 >
 > Its source-grounded indexing law is:
 >
-> **Resolve by basename within this index's own directory. Cross-plane resolution goes through `` and ``.**
+> **Resolve by basename within this index's own directory. Cross-plane resolution goes through `and`.**
 >
 > This artifact provides navigation into the Models plane. It does not, merely by indexing an artifact, establish that the referenced model is verified, empirically correct, current, authoritative, causally valid, or universally applicable.
 
----
+______________________________________________________________________
 
-# 0. Source-Grounded Nucleus
+## 0. Source-Grounded Nucleus
 
 The supplied source establishes the following nucleus:
 
@@ -159,26 +159,26 @@ source_nucleus:
     node_id: amos_13_models_00_index_index_models_readme_md
     node_type: note
     claim_class: AMOS_MODEL
-````
+```
 
 All deeper semantics in this page are normalized AMOS elaboration unless independently established by stronger corpus material.
 
----
+______________________________________________________________________
 
-# 1. Purpose
+## 1. Purpose
 
 `INDEX_MODELS_README` provides the human- and agent-facing orientation surface for the Models plane.
 
 Its primary responsibilities are:
 
 1. identify the Models-plane index surface;
-2. expose the principal model-navigation artifacts;
-3. define the local resolution boundary;
-4. define the cross-plane resolution route;
-5. preserve model identity during navigation;
-6. expose unresolved indexing gaps;
-7. connect the Models plane to AMOS governance, kernel, control, observability, and recovery surfaces;
-8. prevent navigation from being mistaken for epistemic validation.
+1. expose the principal model-navigation artifacts;
+1. define the local resolution boundary;
+1. define the cross-plane resolution route;
+1. preserve model identity during navigation;
+1. expose unresolved indexing gaps;
+1. connect the Models plane to AMOS governance, kernel, control, observability, and recovery surfaces;
+1. prevent navigation from being mistaken for epistemic validation.
 
 Conceptually:
 
@@ -200,9 +200,9 @@ INDEX_MODELS_README
              └── AMOS_RSCF_NODES
 ```
 
----
+______________________________________________________________________
 
-# 2. Role of This README
+## 2. Role of This README
 
 This file is an **index README**, not the substantive definition of every model.
 
@@ -227,9 +227,9 @@ MODEL TRUTH REGISTRY
 
 unless those responsibilities are explicitly established elsewhere.
 
----
+______________________________________________________________________
 
-# 3. Models Plane
+## 3. Models Plane
 
 The local plane is:
 
@@ -245,9 +245,9 @@ The index segment is:
 
 This page operates primarily inside that navigation scope.
 
----
+______________________________________________________________________
 
-# 4. Primary Index
+## 4. Primary Index
 
 The source explicitly identifies:
 
@@ -256,9 +256,9 @@ The source explicitly identifies:
 
 These are the primary companion artifacts established by the supplied index nucleus.
 
----
+______________________________________________________________________
 
-# 5. Companion Roles
+## 5. Companion Roles
 
 Normalized interpretation:
 
@@ -280,9 +280,9 @@ These roles are useful normalized semantics.
 
 Exact responsibilities remain subordinate to the contents of the referenced artifacts.
 
----
+______________________________________________________________________
 
-# 6. Indexing Rule
+## 6. Indexing Rule
 
 The source-grounded rule is:
 
@@ -302,9 +302,9 @@ CROSS-PLANE
 
 They must not be silently collapsed.
 
----
+______________________________________________________________________
 
-# 7. Local Resolution
+## 7. Local Resolution
 
 Local references resolve by basename within:
 
@@ -324,9 +324,9 @@ requests a local target whose basename is:
 MODEL_MAP
 ```
 
----
+______________________________________________________________________
 
-# 8. Local Search Boundary
+## 8. Local Search Boundary
 
 The phrase:
 
@@ -346,9 +346,9 @@ LOCAL RESOLUTION
 UNCONSTRAINED GLOBAL SEARCH
 ```
 
----
+______________________________________________________________________
 
-# 9. Basename Resolution
+## 9. Basename Resolution
 
 Normalized notation:
 
@@ -358,9 +358,9 @@ $$
 
 where:
 
-- \(b\) = requested basename;
-- \(d\) = local directory;
-- \(R_L\) = local resolution result.
+- (b) = requested basename;
+- (d) = local directory;
+- (R_L) = local resolution result.
 
 A safe normalized decision function is:
 
@@ -375,9 +375,9 @@ $$
 
 This notation is a normalized AMOS representation, not a claim that the source contains this exact executable function.
 
----
+______________________________________________________________________
 
-# 10. Unique Resolution
+## 10. Unique Resolution
 
 If exactly one valid local target satisfies the requested basename:
 
@@ -393,9 +393,9 @@ RESOLUTION = RESOLVED
 
 subject to any additional version or identity requirements relevant to the operation.
 
----
+______________________________________________________________________
 
-# 11. Missing Resolution
+## 11. Missing Resolution
 
 If:
 
@@ -419,9 +419,9 @@ MISSING
 
 for the consequential operation.
 
----
+______________________________________________________________________
 
-# 12. Ambiguous Resolution
+## 12. Ambiguous Resolution
 
 If:
 
@@ -437,9 +437,9 @@ RESOLUTION = AMBIGUOUS
 
 The resolver must not choose an arbitrary first match.
 
----
+______________________________________________________________________
 
-# 13. Cross-Plane Resolution
+## 13. Cross-Plane Resolution
 
 When navigation leaves the local plane, the source explicitly routes resolution through:
 
@@ -459,9 +459,9 @@ Conceptually:
             └── AMOS_RSCF_NODES
 ```
 
----
+______________________________________________________________________
 
-# 14. Cross-Plane Firewall
+## 14. Cross-Plane Firewall
 
 Cross-plane references must not silently use a local heuristic when the canonical route is required.
 
@@ -473,27 +473,27 @@ LOCAL CONVENIENCE
 CROSS-PLANE RESOLUTION AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 15. `00_HOME`
+## 15. `00_HOME`
 
-Within this contract, `` is an explicit root-level cross-plane navigation surface.
+Within this contract, \`\` is an explicit root-level cross-plane navigation surface.
 
 This README does not independently redefine the full semantics of `00_HOME`.
 
----
+______________________________________________________________________
 
-# 16. `AMOS_RSCF_NODES`
+## 16. `AMOS_RSCF_NODES`
 
-`` provides the explicitly referenced RSCF navigation surface.
+\`\` provides the explicitly referenced RSCF navigation surface.
 
 It can connect model navigation with the broader AMOS Fractal Knowledge Network.
 
 The precise node registry semantics remain governed by the corresponding authoritative artifact.
 
----
+______________________________________________________________________
 
-# 17. README ≠ Registry
+## 17. README ≠ Registry
 
 This README is not automatically a complete model registry.
 
@@ -503,9 +503,9 @@ README
 COMPLETE REGISTRY
 ```
 
----
+______________________________________________________________________
 
-# 18. Model Map ≠ Proven Completeness
+## 18. Model Map ≠ Proven Completeness
 
 The existence of:
 
@@ -521,9 +521,9 @@ ALL MODELS ARE PRESENT
 
 unless completeness has been separately demonstrated.
 
----
+______________________________________________________________________
 
-# 19. Index Presence ≠ Existence Universe
+## 19. Index Presence ≠ Existence Universe
 
 If a model is absent from this index:
 
@@ -539,9 +539,9 @@ DOES NOT EXIST ANYWHERE
 
 unless this index is proven exhaustive over the relevant universe.
 
----
+______________________________________________________________________
 
-# 20. Index Presence ≠ Truth
+## 20. Index Presence ≠ Truth
 
 Core firewall:
 
@@ -553,9 +553,9 @@ TRUE
 
 A model's discoverability does not establish its substantive validity.
 
----
+______________________________________________________________________
 
-# 21. Index Presence ≠ Verification
+## 21. Index Presence ≠ Verification
 
 ```text
 INDEXED
@@ -565,9 +565,9 @@ VERIFIED
 
 Verification requires separate evidence.
 
----
+______________________________________________________________________
 
-# 22. Index Presence ≠ Observation
+## 22. Index Presence ≠ Observation
 
 ```text
 INDEXED MODEL
@@ -577,9 +577,9 @@ OBSERVATION
 
 A model remains epistemically distinct from an observation.
 
----
+______________________________________________________________________
 
-# 23. Index Presence ≠ Canon
+## 23. Index Presence ≠ Canon
 
 ```text
 INDEXED
@@ -589,9 +589,9 @@ CANONICAL
 
 unless an applicable canon/governance rule explicitly establishes canonical status.
 
----
+______________________________________________________________________
 
-# 24. Index Presence ≠ Authority
+## 24. Index Presence ≠ Authority
 
 ```text
 DISCOVERABLE
@@ -601,9 +601,9 @@ AUTHORIZED
 
 Navigation and authority are separate dimensions.
 
----
+______________________________________________________________________
 
-# 25. Index Presence ≠ Freshness
+## 25. Index Presence ≠ Freshness
 
 ```text
 RESOLVABLE
@@ -613,9 +613,9 @@ CURRENT
 
 A target can resolve correctly while being stale.
 
----
+______________________________________________________________________
 
-# 26. Index Presence ≠ Applicability
+## 26. Index Presence ≠ Applicability
 
 ```text
 MODEL FOUND
@@ -625,9 +625,9 @@ MODEL APPLICABLE
 
 Applicability depends on scope, regime, assumptions, scale, time, and other relevant conditions.
 
----
+______________________________________________________________________
 
-# 27. Epistemic Boundary
+## 27. Epistemic Boundary
 
 The broader AMOS knowledge classes remain:
 
@@ -640,9 +640,9 @@ MODEL
 
 An index operation must preserve these distinctions.
 
----
+______________________________________________________________________
 
-# 28. `AMOS_MODEL`
+## 28. `AMOS_MODEL`
 
 The RSCF footer classifies this node as:
 
@@ -654,9 +654,9 @@ This describes the artifact's modeled/corpus status.
 
 It must not be interpreted as empirical verification of every normalized rule in this expansion.
 
----
+______________________________________________________________________
 
-# 29. `DERIVED` State
+## 29. `DERIVED` State
 
 The source also provides:
 
@@ -683,9 +683,9 @@ NODE-LEVEL ARTIFACT CLASS = AMOS_MODEL
 
 until stronger canon establishes a different mapping.
 
----
+______________________________________________________________________
 
-# 30. Epistemic Type ≠ Truth Value
+## 30. Epistemic Type ≠ Truth Value
 
 A class answers:
 
@@ -699,9 +699,9 @@ It does not automatically answer:
 IS IT TRUE?
 ```
 
----
+______________________________________________________________________
 
-# 31. Epistemic Type ≠ Confidence
+## 31. Epistemic Type ≠ Confidence
 
 ```text
 MODEL
@@ -719,17 +719,17 @@ can be noisy or unreliable.
 
 Classification and confidence remain separate.
 
----
+______________________________________________________________________
 
-# 32. Epistemic Type ≠ Authority
+## 32. Epistemic Type ≠ Authority
 
 A model may be strongly supported and still not authorize action.
 
 Authority remains a governance dimension.
 
----
+______________________________________________________________________
 
-# 33. Model Definition Boundary
+## 33. Model Definition Boundary
 
 Normalized AMOS semantics treat a model as a representation of structure, behavior, relationships, mechanisms, or predictions.
 
@@ -745,9 +745,9 @@ does not automatically establish:
 REAL-WORLD CAUSAL TRUTH
 ```
 
----
+______________________________________________________________________
 
-# 34. Model Provenance
+## 34. Model Provenance
 
 Where consequential, a model should retain recoverable provenance.
 
@@ -762,9 +762,9 @@ provenance:
   independence_status:
 ```
 
----
+______________________________________________________________________
 
-# 35. Provenance Independence
+## 35. Provenance Independence
 
 Independence must be demonstrated, not assumed.
 
@@ -776,9 +776,9 @@ MODEL B
 
 does not imply two independent evidence paths if both descend from the same source root.
 
----
+______________________________________________________________________
 
-# 36. Repetition Firewall
+## 36. Repetition Firewall
 
 ```text
 REPETITION
@@ -788,9 +788,9 @@ INDEPENDENT CONFIRMATION
 
 Ten indexed descendants of one source do not automatically provide ten independent confirmations.
 
----
+______________________________________________________________________
 
-# 37. Sybil-Hardening Principle
+## 37. Sybil-Hardening Principle
 
 Model support should be evaluated using provenance topology, not raw artifact count.
 
@@ -803,9 +803,9 @@ NOT MERELY DESCENDANTS
 
 when independence matters.
 
----
+______________________________________________________________________
 
-# 38. Model Dependencies
+## 38. Model Dependencies
 
 A model may depend on:
 
@@ -819,9 +819,9 @@ A model may depend on:
 
 The index should not erase these dependencies when navigating or compressing the model graph.
 
----
+______________________________________________________________________
 
-# 39. Dependency Closure
+## 39. Dependency Closure
 
 For consequential use, traverse only the smallest dependency closure capable of changing the result.
 
@@ -839,9 +839,9 @@ SMALL LOAD-BEARING SUBGRAPH
 
 is sufficient.
 
----
+______________________________________________________________________
 
-# 40. Fractal Retrieval
+## 40. Fractal Retrieval
 
 Normalized AMOS retrieval:
 
@@ -858,23 +858,23 @@ RAW EVIDENCE
 ONLY IF REQUIRED
 ```
 
----
+______________________________________________________________________
 
-# 41. H-Level Model Navigation
+## 41. H-Level Model Navigation
 
 At H level, navigation addresses broad model domains or families.
 
 H-level presence must not imply universal validity.
 
----
+______________________________________________________________________
 
-# 42. M-Level Model Navigation
+## 42. M-Level Model Navigation
 
 At M level, navigation can narrow to model subsystems or operational families.
 
----
+______________________________________________________________________
 
-# 43. L-Level Model Navigation
+## 43. L-Level Model Navigation
 
 At L level, navigation can reach:
 
@@ -886,9 +886,9 @@ At L level, navigation can reach:
 - falsifiers;
 - validation artifacts.
 
----
+______________________________________________________________________
 
-# 44. H/M/L Preservation
+## 44. H/M/L Preservation
 
 Traversal must preserve the applicability level of the referenced model.
 
@@ -902,9 +902,9 @@ H VALIDITY
 
 unless validated translation exists.
 
----
+______________________________________________________________________
 
-# 45. Scope Binding
+## 45. Scope Binding
 
 The source requires domain/regime/H-M-L applicability to be declared before mutation.
 
@@ -927,9 +927,9 @@ applicability:
 
 This schema is normalized, not asserted as the exact native implementation.
 
----
+______________________________________________________________________
 
-# 46. Scope Firewall
+## 46. Scope Firewall
 
 ```text
 VALID IN SCOPE A
@@ -941,9 +941,9 @@ does not imply:
 VALID IN SCOPE B
 ```
 
----
+______________________________________________________________________
 
-# 47. Scale Firewall
+## 47. Scale Firewall
 
 ```text
 VALID AT MICRO SCALE
@@ -955,9 +955,9 @@ does not automatically imply:
 VALID AT MACRO SCALE
 ```
 
----
+______________________________________________________________________
 
-# 48. Regime Firewall
+## 48. Regime Firewall
 
 ```text
 VALID IN REGIME R1
@@ -969,9 +969,9 @@ does not automatically imply:
 VALID IN REGIME R2
 ```
 
----
+______________________________________________________________________
 
-# 49. Temporal Firewall
+## 49. Temporal Firewall
 
 ```text
 VALID AT T1
@@ -983,9 +983,9 @@ does not automatically imply:
 VALID AT T2
 ```
 
----
+______________________________________________________________________
 
-# 50. Model Freshness
+## 50. Model Freshness
 
 Freshness is independent of epistemic class.
 
@@ -993,9 +993,9 @@ A stale model remains a model historically.
 
 Its current applicability may fail.
 
----
+______________________________________________________________________
 
-# 51. Model Versioning
+## 51. Model Versioning
 
 Model identity and model version should remain distinct.
 
@@ -1010,9 +1010,9 @@ MODEL_A
 
 The index should not silently merge incompatible versions.
 
----
+______________________________________________________________________
 
-# 52. Versioned Resolution
+## 52. Versioned Resolution
 
 The source's worked semantics require resolution by:
 
@@ -1032,9 +1032,9 @@ REQUIRED VERSION RESOLVED
 
 must both hold when version specificity is load-bearing.
 
----
+______________________________________________________________________
 
-# 53. Missing Version
+## 53. Missing Version
 
 If the model identity resolves but required version does not:
 
@@ -1044,9 +1044,9 @@ VERSION = UNKNOWN/GAP
 
 Do not silently choose the latest or nearest version unless a governing policy explicitly permits it.
 
----
+______________________________________________________________________
 
-# 54. Supersession
+## 54. Supersession
 
 A newer version may supersede an older version without deleting historical lineage.
 
@@ -1058,9 +1058,9 @@ MODEL_A v2
 
 The older version remains historically auditable.
 
----
+______________________________________________________________________
 
-# 55. Historical Integrity
+## 55. Historical Integrity
 
 Later validation must not silently rewrite what an earlier artifact originally claimed.
 
@@ -1074,9 +1074,9 @@ ORIGINAL
 
 over destructive provenance erasure.
 
----
+______________________________________________________________________
 
-# 56. Basename Collision
+## 56. Basename Collision
 
 Potential collision:
 
@@ -1095,9 +1095,9 @@ AMBIGUOUS
 
 must remain visible.
 
----
+______________________________________________________________________
 
-# 57. Similarity ≠ Identity
+## 57. Similarity ≠ Identity
 
 ```text
 SIMILAR NAME
@@ -1113,9 +1113,9 @@ SIMILAR STRUCTURE
 SAME MODEL
 ```
 
----
+______________________________________________________________________
 
-# 58. Alias Handling
+## 58. Alias Handling
 
 Aliases may improve navigation.
 
@@ -1131,9 +1131,9 @@ EXPLICIT CANONICAL TARGET
 
 The exact alias implementation is `NOT_ESTABLISHED`.
 
----
+______________________________________________________________________
 
-# 59. Broken Link
+## 59. Broken Link
 
 A broken link establishes:
 
@@ -1148,9 +1148,9 @@ It does not necessarily establish:
 TARGET DOES NOT EXIST
 ```
 
----
+______________________________________________________________________
 
-# 60. Malformed Link
+## 60. Malformed Link
 
 Malformed input must not be repaired by unrecorded guessing.
 
@@ -1164,9 +1164,9 @@ a unique local basename may be sufficient.
 
 Do not traverse unrelated model families if they cannot alter the resolution.
 
----
+______________________________________________________________________
 
-# 76. Escalation Condition
+## 76. Escalation Condition
 
 Escalate when:
 
@@ -1183,9 +1183,9 @@ consequential downstream effect
 
 can alter the outcome.
 
----
+______________________________________________________________________
 
-# 77. Stage 5 — Propose
+## 77. Stage 5 — Propose
 
 A candidate mutation remains:
 
@@ -1195,9 +1195,9 @@ PROPOSAL
 
 until required gates pass.
 
----
+______________________________________________________________________
 
-# 78. Proposal ≠ Commit
+## 78. Proposal ≠ Commit
 
 Core firewall:
 
@@ -1209,9 +1209,9 @@ COMMIT
 
 A proposed model-index state is non-authoritative.
 
----
+______________________________________________________________________
 
-# 79. Candidate State
+## 79. Candidate State
 
 Example:
 
@@ -1223,9 +1223,9 @@ proposal:
   authoritative: false
 ```
 
----
+______________________________________________________________________
 
-# 80. Stage 6 — Commit or Hold
+## 80. Stage 6 — Commit or Hold
 
 If all load-bearing gates pass:
 
@@ -1239,9 +1239,9 @@ Otherwise:
 HOLD
 ```
 
----
+______________________________________________________________________
 
-# 81. Failed Premise
+## 81. Failed Premise
 
 The source explicitly requires:
 
@@ -1263,9 +1263,9 @@ RECORD RECEIPT
 
 on failed premises.
 
----
+______________________________________________________________________
 
-# 82. Selective Invalidation
+## 82. Selective Invalidation
 
 Suppose:
 
@@ -1286,9 +1286,9 @@ MODEL_B
 MODEL_C
 ```
 
----
+______________________________________________________________________
 
-# 83. Failure Locality
+## 83. Failure Locality
 
 Normalized principle:
 
@@ -1299,9 +1299,9 @@ LOCAL FAILURE
 
 unless dependency closure demonstrates broader coupling.
 
----
+______________________________________________________________________
 
-# 84. Preserve Unaffected Work
+## 84. Preserve Unaffected Work
 
 If an index update fails:
 
@@ -1311,9 +1311,9 @@ VALID EXISTING INDEX STATE
 
 should remain preserved whenever possible.
 
----
+______________________________________________________________________
 
-# 85. Rollback
+## 85. Rollback
 
 Consequential mutation should have a rollback basin where required.
 
@@ -1329,9 +1329,9 @@ FAIL
 RESTORE / RETAIN vN
 ```
 
----
+______________________________________________________________________
 
-# 86. Retry Discipline
+## 86. Retry Discipline
 
 Do not repeat a failed path without changed evidence.
 
@@ -1346,9 +1346,9 @@ updated dependency
 repaired provenance
 ```
 
----
+______________________________________________________________________
 
-# 87. Receipts
+## 87. Receipts
 
 A consequential operation should produce an auditable receipt where required by surrounding governance.
 
@@ -1371,9 +1371,9 @@ receipt:
 
 Exact receipt schema is not established by the seed.
 
----
+______________________________________________________________________
 
-# 88. Link-Integrity Gap
+## 88. Link-Integrity Gap
 
 The source directly states:
 
@@ -1383,9 +1383,9 @@ AUTOMATED LINK-INTEGRITY EXECUTION = PARTIAL
 
 This status must remain visible.
 
----
+______________________________________________________________________
 
-# 89. Partial Means Partial
+## 89. Partial Means Partial
 
 Do not translate:
 
@@ -1405,9 +1405,9 @@ or:
 FULLY VERIFIED
 ```
 
----
+______________________________________________________________________
 
-# 90. Validation References
+## 90. Validation References
 
 The source references:
 
@@ -1416,9 +1416,9 @@ The source references:
 
 These provide contextual validation relationships.
 
----
+______________________________________________________________________
 
-# 91. Validation Scope Firewall
+## 91. Validation Scope Firewall
 
 A receipt validates only what it actually tested within its applicable environment and scope.
 
@@ -1430,25 +1430,25 @@ RELATED VALIDATION RECEIPT
 ARTIFACT-SPECIFIC FULL VALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 92. Routing Receipt Boundary
+## 92. Routing Receipt Boundary
 
-`` may support routing-related semantics to the extent its actual evidence applies.
+\`\` may support routing-related semantics to the extent its actual evidence applies.
 
 Do not infer more than the receipt establishes.
 
----
+______________________________________________________________________
 
-# 93. Authorization Receipt Boundary
+## 93. Authorization Receipt Boundary
 
-`` may support authorization-related semantics to the extent its actual evidence applies.
+\`\` may support authorization-related semantics to the extent its actual evidence applies.
 
 It does not independently prove model truth or index completeness.
 
----
+______________________________________________________________________
 
-# 94. Artifact-Specific Validation
+## 94. Artifact-Specific Validation
 
 The promotion checklist explicitly requires:
 
@@ -1465,9 +1465,9 @@ UNKNOWN/GAP
 
 unless such a receipt is independently available and validated.
 
----
+______________________________________________________________________
 
-# 95. Link Integrity ≠ Model Integrity
+## 95. Link Integrity ≠ Model Integrity
 
 Critical firewall:
 
@@ -1479,9 +1479,9 @@ MODEL INTEGRITY
 
 A link can work perfectly while the model is invalid.
 
----
+______________________________________________________________________
 
-# 96. Link Integrity ≠ Model Truth
+## 96. Link Integrity ≠ Model Truth
 
 ```text
 LINK TEST PASSED
@@ -1489,9 +1489,9 @@ LINK TEST PASSED
 MODEL TRUE
 ```
 
----
+______________________________________________________________________
 
-# 97. Link Integrity ≠ Completeness
+## 97. Link Integrity ≠ Completeness
 
 ```text
 ALL TESTED LINKS PASS
@@ -1505,9 +1505,9 @@ ALL REQUIRED MODELS ARE INDEXED
 
 Completeness requires separate coverage evidence.
 
----
+______________________________________________________________________
 
-# 98. Test Pass ≠ Truth
+## 98. Test Pass ≠ Truth
 
 Core firewall:
 
@@ -1519,9 +1519,9 @@ TRUTH
 
 Tests establish only the tested property under the tested conditions.
 
----
+______________________________________________________________________
 
-# 99. Observability
+## 99. Observability
 
 Cross-plane binding:
 
@@ -1539,9 +1539,9 @@ collision events
 
 where implemented.
 
----
+______________________________________________________________________
 
-# 100. Observability ≠ Authority
+## 100. Observability ≠ Authority
 
 ```text
 OBSERVABILITY
@@ -1553,9 +1553,9 @@ A monitoring system may identify a broken link.
 
 It does not thereby gain permission to mutate the index.
 
----
+______________________________________________________________________
 
-# 101. Kernel Interaction
+## 101. Kernel Interaction
 
 Cross-plane binding:
 
@@ -1565,9 +1565,9 @@ Kernel capabilities may execute or support model-index operations.
 
 The kernel does not automatically redefine canonical Models-plane semantics.
 
----
+______________________________________________________________________
 
-# 102. Control Plane
+## 102. Control Plane
 
 Cross-plane binding:
 
@@ -1585,9 +1585,9 @@ hold
 
 where implemented.
 
----
+______________________________________________________________________
 
-# 103. Operations
+## 103. Operations
 
 Recovery binding:
 
@@ -1606,9 +1606,9 @@ receipt recovery
 
 under applicable governance.
 
----
+______________________________________________________________________
 
-# 104. Canon Governance
+## 104. Canon Governance
 
 This artifact is governed by:
 
@@ -1623,9 +1623,9 @@ WINS
 
 and this page must be repaired.
 
----
+______________________________________________________________________
 
-# 105. Model Provenance Topology
+## 105. Model Provenance Topology
 
 A model may have a topology such as:
 
@@ -1639,9 +1639,9 @@ SOURCE_CLAIM C ──────┘
 
 Indexing `MODEL M` must not erase the ancestry when provenance matters.
 
----
+______________________________________________________________________
 
-# 106. Shared Ancestry
+## 106. Shared Ancestry
 
 Consider:
 
@@ -1656,9 +1656,9 @@ This is not necessarily three independent confirmations.
 
 It may be one provenance root with three descendants.
 
----
+______________________________________________________________________
 
-# 107. Provenance Correlation Risk
+## 107. Provenance Correlation Risk
 
 Normalized status:
 
@@ -1669,9 +1669,9 @@ provenance_independence:
 
 Independence should not default to `ESTABLISHED`.
 
----
+______________________________________________________________________
 
-# 108. Competing Models
+## 108. Competing Models
 
 When incompatible models have unresolved support:
 
@@ -1689,9 +1689,9 @@ COMPETING
 
 until discriminating evidence exists.
 
----
+______________________________________________________________________
 
-# 109. No Forced Convergence
+## 109. No Forced Convergence
 
 Do not convert:
 
@@ -1707,9 +1707,9 @@ AVERAGED CONSENSUS
 
 merely to simplify navigation.
 
----
+______________________________________________________________________
 
-# 110. Model Index Must Preserve Competition
+## 110. Model Index Must Preserve Competition
 
 A model index should be capable of representing:
 
@@ -1720,9 +1720,9 @@ MODEL B — ACTIVE / COMPETING
 
 without deleting either merely because they disagree.
 
----
+______________________________________________________________________
 
-# 111. Discriminating Evidence
+## 111. Discriminating Evidence
 
 When a decision depends on competing models, prefer evidence with high discrimination value.
 
@@ -1734,9 +1734,9 @@ $$
 
 A test that both models predict identically has little discriminating value.
 
----
+______________________________________________________________________
 
-# 112. Causal Firewall
+## 112. Causal Firewall
 
 An indexed model may represent causal structure.
 
@@ -1748,17 +1748,17 @@ MODELLED CAUSATION
 VERIFIED CAUSATION
 ```
 
----
+______________________________________________________________________
 
-# 113. Association
+## 113. Association
 
 A model may encode association.
 
 Association must remain distinct from causal effect.
 
----
+______________________________________________________________________
 
-# 114. Correlation
+## 114. Correlation
 
 A model may encode correlation.
 
@@ -1768,9 +1768,9 @@ CORRELATION
 CAUSATION
 ```
 
----
+______________________________________________________________________
 
-# 115. Mechanism
+## 115. Mechanism
 
 A model may propose a mechanism.
 
@@ -1780,29 +1780,29 @@ PROPOSED MECHANISM
 OBSERVED / VERIFIED MECHANISM
 ```
 
----
+______________________________________________________________________
 
-# 116. Confounding
+## 116. Confounding
 
 Competing explanations involving confounding must remain visible when supported.
 
----
+______________________________________________________________________
 
-# 117. Mediation
+## 117. Mediation
 
 A mediating model must not be silently treated as a direct-effect model.
 
----
+______________________________________________________________________
 
-# 118. Feedback
+## 118. Feedback
 
 Feedback systems may invalidate simple one-direction causal assumptions.
 
 The model index should preserve the identity of the actual model rather than compressing all causal architectures into the same label.
 
----
+______________________________________________________________________
 
-# 119. Structural Similarity
+## 119. Structural Similarity
 
 Core firewall:
 
@@ -1812,9 +1812,9 @@ STRUCTURAL SIMILARITY
 CAUSAL PROOF
 ```
 
----
+______________________________________________________________________
 
-# 120. Analogy
+## 120. Analogy
 
 ```text
 MODEL A RESEMBLES SYSTEM B
@@ -1826,9 +1826,9 @@ is not sufficient to establish:
 MODEL A CAUSES / EXPLAINS SYSTEM B
 ```
 
----
+______________________________________________________________________
 
-# 121. Scope Leakage
+## 121. Scope Leakage
 
 A model scoped to:
 
@@ -1844,9 +1844,9 @@ SYSTEM-WIDE MODEL
 
 because it is discoverable from a higher-level index.
 
----
+______________________________________________________________________
 
-# 122. Regime Shift
+## 122. Regime Shift
 
 When a regime changes, the model's index identity may remain stable while its applicability changes.
 
@@ -1858,9 +1858,9 @@ REGIME = CHANGED
 VALIDITY = REQUIRES REVIEW
 ```
 
----
+______________________________________________________________________
 
-# 123. Freshness Shift
+## 123. Freshness Shift
 
 Likewise:
 
@@ -1872,11 +1872,11 @@ FRESHNESS = STALE
 
 is possible.
 
----
+______________________________________________________________________
 
-# 124. Model Confidence Ceiling
+## 124. Model Confidence Ceiling
 
-For a derived conclusion \(D\) based on load-bearing premises \(P_i\):
+For a derived conclusion (D) based on load-bearing premises (P_i):
 
 $$
 C(D) \leq \min_i C(P_i)
@@ -1886,9 +1886,9 @@ unless independent revalidation justifies stronger support.
 
 The index itself does not raise the confidence ceiling.
 
----
+______________________________________________________________________
 
-# 125. Model Count ≠ Confidence
+## 125. Model Count ≠ Confidence
 
 ```text
 MANY INDEXED MODELS
@@ -1902,9 +1902,9 @@ HIGH CONFIDENCE
 
 especially when provenance is correlated.
 
----
+______________________________________________________________________
 
-# 126. Model Popularity ≠ Validation
+## 126. Model Popularity ≠ Validation
 
 ```text
 MOST REFERENCED MODEL
@@ -1912,9 +1912,9 @@ MOST REFERENCED MODEL
 MOST VALID MODEL
 ```
 
----
+______________________________________________________________________
 
-# 127. Model Recency ≠ Correctness
+## 127. Model Recency ≠ Correctness
 
 ```text
 NEWEST MODEL
@@ -1924,9 +1924,9 @@ BEST MODEL
 
 although recency may matter for freshness.
 
----
+______________________________________________________________________
 
-# 128. Model Complexity ≠ Accuracy
+## 128. Model Complexity ≠ Accuracy
 
 ```text
 MORE COMPLEX MODEL
@@ -1934,9 +1934,9 @@ MORE COMPLEX MODEL
 MORE ACCURATE MODEL
 ```
 
----
+______________________________________________________________________
 
-# 129. Model Simplicity ≠ Accuracy
+## 129. Model Simplicity ≠ Accuracy
 
 Likewise:
 
@@ -1948,9 +1948,9 @@ MORE ACCURATE MODEL
 
 Selection depends on the actual objective and evidence.
 
----
+______________________________________________________________________
 
-# 130. Model Selection
+## 130. Model Selection
 
 A model should be selected using relevant factors such as:
 
@@ -1968,9 +1968,9 @@ risk
 
 not merely index position.
 
----
+______________________________________________________________________
 
-# 131. Navigation Order ≠ Ranking
+## 131. Navigation Order ≠ Ranking
 
 If `MODEL_A` appears before `MODEL_B`:
 
@@ -1986,15 +1986,15 @@ A BETTER THAN B
 
 unless the index explicitly defines ranked semantics.
 
----
+______________________________________________________________________
 
-# 132. Model Map Order ≠ Authority
+## 132. Model Map Order ≠ Authority
 
-Likewise, ordering inside `` must not be treated as authority unless explicitly defined.
+Likewise, ordering inside \`\` must not be treated as authority unless explicitly defined.
 
----
+______________________________________________________________________
 
-# 133. RSCF Role
+## 133. RSCF Role
 
 This artifact participates in the RSCF navigation network.
 
@@ -2005,9 +2005,9 @@ node_id:
 amos_13_models_00_index_index_models_readme_md
 ```
 
----
+______________________________________________________________________
 
-# 134. RSCF Node Type
+## 134. RSCF Node Type
 
 Source:
 
@@ -2025,9 +2025,9 @@ model_index_readme
 
 without replacing the source-native node type.
 
----
+______________________________________________________________________
 
-# 135. RSCF Path
+## 135. RSCF Path
 
 Canonical supplied path:
 
@@ -2035,9 +2035,9 @@ Canonical supplied path:
 13_MODELS/00_INDEX/INDEX_MODELS_README.md
 ```
 
----
+______________________________________________________________________
 
-# 136. RSCF Navigation
+## 136. RSCF Navigation
 
 The source explicitly relates this artifact to:
 
@@ -2045,9 +2045,9 @@ The source explicitly relates this artifact to:
 - [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]]
 
----
+______________________________________________________________________
 
-# 137. RSCF Typing Preservation
+## 137. RSCF Typing Preservation
 
 When this index points to another RSCF node, navigation must not silently rewrite the target's:
 
@@ -2060,9 +2060,9 @@ version
 dependencies
 ```
 
----
+______________________________________________________________________
 
-# 138. RSCF Compression
+## 138. RSCF Compression
 
 A compressed navigation summary must preserve all outcome-changing distinctions.
 
@@ -2075,9 +2075,9 @@ ALL MODEL NODES
 
 Valid compression must preserve uncertainty and status.
 
----
+______________________________________________________________________
 
-# 139. Atomic Multi-RSCF Reasoning
+## 139. Atomic Multi-RSCF Reasoning
 
 A reasoning operation may combine multiple indexed RSCF nodes.
 
@@ -2097,17 +2097,17 @@ The synthesis may be derived.
 
 The original nodes retain their own epistemic classes.
 
----
+______________________________________________________________________
 
-# 140. Atomicity Boundary
+## 140. Atomicity Boundary
 
 If several model/index mutations constitute one governed logical operation, partial authoritative commit should not leave an invalid mixed state.
 
 The exact implementation boundary is not established by the source.
 
----
+______________________________________________________________________
 
-# 141. MVCC-Compatible Semantics
+## 141. MVCC-Compatible Semantics
 
 Normalized conceptual flow:
 
@@ -2127,9 +2127,9 @@ This is conceptually compatible with MVCC reasoning.
 
 It is not evidence that this index literally implements MVCC.
 
----
+______________________________________________________________________
 
-# 142. CAS-Compatible Semantics
+## 142. CAS-Compatible Semantics
 
 A mutation may conceptually require:
 
@@ -2143,9 +2143,9 @@ before commit.
 
 This is CAS-compatible reasoning, not a source-established runtime implementation.
 
----
+______________________________________________________________________
 
-# 143. Version Conflict
+## 143. Version Conflict
 
 If:
 
@@ -2168,9 +2168,9 @@ not:
 BLIND COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 144. Persistent Provenance
+## 144. Persistent Provenance
 
 Index updates should preserve historical lineage where the architecture supports persistence.
 
@@ -2183,9 +2183,9 @@ OLD INDEX STATE
 
 with recoverable relationship.
 
----
+______________________________________________________________________
 
-# 145. Causal Epoch Finality
+## 145. Causal Epoch Finality
 
 Where broader AMOS causal epoch semantics apply, finalized historical provenance should not be silently rewritten.
 
@@ -2199,17 +2199,17 @@ INVALIDATE
 
 with lineage preserved.
 
----
+______________________________________________________________________
 
-# 146. Shard-Local Finalization
+## 146. Shard-Local Finalization
 
 A local Models-index change may be finalized locally only when independence is established.
 
 Locality alone does not prove independence.
 
----
+______________________________________________________________________
 
-# 147. Proof-Based Coordination Avoidance
+## 147. Proof-Based Coordination Avoidance
 
 Coordination can be avoided only when sufficient proof exists that broader state cannot alter the outcome.
 
@@ -2231,9 +2231,9 @@ Then local finalization may be safe.
 
 This is a reasoning pattern, not a claim that the Markdown index implements a distributed protocol.
 
----
+______________________________________________________________________
 
-# 148. Escalation Triggers
+## 148. Escalation Triggers
 
 Escalate beyond local resolution when any of the following is result-changing:
 
@@ -2249,9 +2249,9 @@ Escalate beyond local resolution when any of the following is result-changing:
 - irreversible downstream effect;
 - unresolved canonical precedence.
 
----
+______________________________________________________________________
 
-# 149. Fast Path
+## 149. Fast Path
 
 A low-risk local lookup may use:
 
@@ -2263,9 +2263,9 @@ LOCAL DIRECTORY
 
 when dependency closure establishes that no broader information can change the answer.
 
----
+______________________________________________________________________
 
-# 150. Fast Path Is Conditional
+## 150. Fast Path Is Conditional
 
 Do not assume independence merely because the lookup appears simple.
 
@@ -2275,9 +2275,9 @@ SIMPLE
 INDEPENDENT
 ```
 
----
+______________________________________________________________________
 
-# 151. Read Path
+## 151. Read Path
 
 Normalized read path:
 
@@ -2293,9 +2293,9 @@ CHECK REQUIRED VERSION
 RETURN TARGET + STATUS
 ```
 
----
+______________________________________________________________________
 
-# 152. Write Path
+## 152. Write Path
 
 Normalized write path:
 
@@ -2319,15 +2319,15 @@ COMMIT / HOLD
 RECEIPT
 ```
 
----
+______________________________________________________________________
 
-# 153. Read ≠ Write Authority
+## 153. Read ≠ Write Authority
 
 The ability to read or resolve a model does not imply permission to mutate it.
 
----
+______________________________________________________________________
 
-# 154. Discovery ≠ Mutation
+## 154. Discovery ≠ Mutation
 
 ```text
 DISCOVER
@@ -2335,15 +2335,15 @@ DISCOVER
 MODIFY
 ```
 
----
+______________________________________________________________________
 
-# 155. Mutation ≠ Canon Promotion
+## 155. Mutation ≠ Canon Promotion
 
 A model-index update does not automatically promote the target into canon.
 
----
+______________________________________________________________________
 
-# 156. Canon Promotion
+## 156. Canon Promotion
 
 Canon promotion requires the applicable canonical/governance process.
 
@@ -2362,9 +2362,9 @@ governance approval
 
 as required by the authoritative promotion policy.
 
----
+______________________________________________________________________
 
-# 157. Knowledge Harvest Boundary
+## 157. Knowledge Harvest Boundary
 
 Within:
 
@@ -2388,9 +2388,9 @@ and:
 ARTIFACT VALIDATED
 ```
 
----
+______________________________________________________________________
 
-# 158. Documentation Claims
+## 158. Documentation Claims
 
 A model README may say:
 
@@ -2406,9 +2406,9 @@ SOURCE_CLAIM
 
 until independently validated as appropriate.
 
----
+______________________________________________________________________
 
-# 159. Observation Binding
+## 159. Observation Binding
 
 If AMOS directly obtains a measurement:
 
@@ -2418,9 +2418,9 @@ OBSERVATION
 
 should be represented separately rather than retroactively erasing the original source claim.
 
----
+______________________________________________________________________
 
-# 160. Derived Binding
+## 160. Derived Binding
 
 If AMOS calculates a result from observations:
 
@@ -2430,9 +2430,9 @@ DERIVED
 
 should retain its premise edges.
 
----
+______________________________________________________________________
 
-# 161. Model Binding
+## 161. Model Binding
 
 If AMOS constructs a representation from evidence:
 
@@ -2442,9 +2442,9 @@ MODEL
 
 must retain assumptions, intended scope, and falsifiers where material.
 
----
+______________________________________________________________________
 
-# 162. Model Validation Does Not Erase Class
+## 162. Model Validation Does Not Erase Class
 
 A strongly validated model remains:
 
@@ -2456,25 +2456,25 @@ Its support status may improve.
 
 Its epistemic type does not become observation.
 
----
+______________________________________________________________________
 
-# 163. Decision Object Boundary
+## 163. Decision Object Boundary
 
 A decision based on an indexed model is not itself one of the four knowledge classes merely because it depends on knowledge objects.
 
 Decision governance remains separate.
 
----
+______________________________________________________________________
 
-# 164. UNKNOWN/GAP Boundary
+## 164. UNKNOWN/GAP Boundary
 
 `UNKNOWN/GAP` is a handling/conclusion state for missing information.
 
 It should not silently be treated as a fifth knowledge class in the four-class epistemic law.
 
----
+______________________________________________________________________
 
-# 165. Gap Visibility
+## 165. Gap Visibility
 
 Unknown information must remain explicit.
 
@@ -2500,9 +2500,9 @@ UNKNOWN
 → RESOLVE IF DECISION-RELEVANT
 ```
 
----
+______________________________________________________________________
 
-# 166. Gap Classification
+## 166. Gap Classification
 
 Normalized priority classes:
 
@@ -2513,9 +2513,9 @@ EXPLANATORY
 COSMETIC
 ```
 
----
+______________________________________________________________________
 
-# 167. Critical Gap
+## 167. Critical Gap
 
 A gap is critical when the requested consequential operation cannot safely proceed without resolving it.
 
@@ -2527,29 +2527,29 @@ TARGET IDENTITY UNKNOWN
 
 for a destructive mutation.
 
----
+______________________________________________________________________
 
-# 168. Decision-Relevant Gap
+## 168. Decision-Relevant Gap
 
 A gap is decision-relevant when resolving it could change the selected model, action, or conclusion.
 
----
+______________________________________________________________________
 
-# 169. Explanatory Gap
+## 169. Explanatory Gap
 
 An explanatory gap affects understanding but not the immediate decision.
 
----
+______________________________________________________________________
 
-# 170. Cosmetic Gap
+## 170. Cosmetic Gap
 
 A cosmetic gap affects presentation rather than integrity.
 
 Do not prioritize it above critical uncertainty.
 
----
+______________________________________________________________________
 
-# 171. Current Gap Register
+## 171. Current Gap Register
 
 ```yaml
 INDEX_MODELS_README_GAPS:
@@ -2625,9 +2625,9 @@ INDEX_MODELS_README_GAPS:
     status: NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 172. Promotion-Gate Checklist
+## 172. Promotion-Gate Checklist
 
 - [ ] typed schema bound to this artifact
 - [ ] identity + versioning implemented
@@ -2637,9 +2637,9 @@ INDEX_MODELS_README_GAPS:
 - [ ] executed validation receipt specific to this artifact
 - [ ] unresolved critical gaps registered as `UNKNOWN/GAP` and visible
 
----
+______________________________________________________________________
 
-# 173. Extended Gate — Local Navigation
+## 173. Extended Gate — Local Navigation
 
 - [ ] local basename lookup implemented
 - [ ] directory boundary enforced
@@ -2649,19 +2649,19 @@ INDEX_MODELS_README_GAPS:
 - [ ] malformed input behavior tested
 - [ ] basename collision handling tested
 
----
+______________________________________________________________________
 
-# 174. Extended Gate — Cross-Plane Navigation
+## 174. Extended Gate — Cross-Plane Navigation
 
-- [ ] `` route validated
-- [ ] `` route validated
+- [ ] \`\` route validated
+- [ ] \`\` route validated
 - [ ] local/cross-plane boundary validated
 - [ ] ambiguous cross-plane target fails closed
 - [ ] no arbitrary global first-match behavior
 
----
+______________________________________________________________________
 
-# 175. Extended Gate — Versioning
+## 175. Extended Gate — Versioning
 
 - [ ] artifact identity implemented
 - [ ] artifact version implemented
@@ -2669,9 +2669,9 @@ INDEX_MODELS_README_GAPS:
 - [ ] supersession lineage preserved
 - [ ] historical references remain recoverable
 
----
+______________________________________________________________________
 
-# 176. Extended Gate — Provenance
+## 176. Extended Gate — Provenance
 
 - [ ] source identity persisted
 - [ ] ancestry recoverable
@@ -2679,9 +2679,9 @@ INDEX_MODELS_README_GAPS:
 - [ ] independence demonstrated where claimed
 - [ ] index compression preserves lineage
 
----
+______________________________________________________________________
 
-# 177. Extended Gate — Model Semantics
+## 177. Extended Gate — Model Semantics
 
 - [ ] `MODEL ≠ OBSERVATION`
 - [ ] `INDEXED ≠ VERIFIED`
@@ -2690,9 +2690,9 @@ INDEX_MODELS_README_GAPS:
 - [ ] `INDEXED ≠ CURRENT`
 - [ ] `LINK_PASS ≠ MODEL_TRUTH`
 
----
+______________________________________________________________________
 
-# 178. Extended Gate — Governance
+## 178. Extended Gate — Governance
 
 - [ ] authority reference validated
 - [ ] authority epoch validated
@@ -2700,9 +2700,9 @@ INDEX_MODELS_README_GAPS:
 - [ ] proposal/commit separation tested
 - [ ] unauthorized mutation rejected
 
----
+______________________________________________________________________
 
-# 179. Extended Gate — Recovery
+## 179. Extended Gate — Recovery
 
 - [ ] unaffected state survives failed mutation
 - [ ] dependent descendants selectively invalidated
@@ -2710,9 +2710,9 @@ INDEX_MODELS_README_GAPS:
 - [ ] changed-evidence retry discipline demonstrated
 - [ ] receipt generated for consequential failure
 
----
+______________________________________________________________________
 
-# 180. Extended Gate — RSCF
+## 180. Extended Gate — RSCF
 
 - [ ] node identity validated
 - [ ] node path validated
@@ -2722,9 +2722,9 @@ INDEX_MODELS_README_GAPS:
 - [ ] provenance preserved
 - [ ] dependency edges preserved
 
----
+______________________________________________________________________
 
-# 181. Negative Case — Missing Model
+## 181. Negative Case — Missing Model
 
 Request:
 
@@ -2747,9 +2747,9 @@ Incorrect:
 CREATE / GUESS TARGET
 ```
 
----
+______________________________________________________________________
 
-# 182. Negative Case — Malformed Model Link
+## 182. Negative Case — Malformed Model Link
 
 Request:
 
@@ -2765,9 +2765,9 @@ MALFORMED
 
 Do not silently infer a canonical target.
 
----
+______________________________________________________________________
 
-# 183. Negative Case — Ambiguous Model
+## 183. Negative Case — Ambiguous Model
 
 Two valid candidates satisfy the same resolution key.
 
@@ -2786,9 +2786,9 @@ FAIL CLOSED
 
 until resolved.
 
----
+______________________________________________________________________
 
-# 184. Negative Case — Stale Model
+## 184. Negative Case — Stale Model
 
 Resolved:
 
@@ -2809,9 +2809,9 @@ STALE
 → REVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 185. Negative Case — Unauthorized Input
+## 185. Negative Case — Unauthorized Input
 
 The requested mutation is structurally valid but authority is absent.
 
@@ -2822,9 +2822,9 @@ AUTHORIZED = FALSE
 → HOLD
 ```
 
----
+______________________________________________________________________
 
-# 186. Negative Case — Capability Only
+## 186. Negative Case — Capability Only
 
 Agent can write files.
 
@@ -2836,9 +2836,9 @@ Correct:
 DO NOT COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 187. Negative Case — Model in Index Therefore True
+## 187. Negative Case — Model in Index Therefore True
 
 Invalid:
 
@@ -2855,9 +2855,9 @@ MODEL_A IS INDEXED
 
 No stronger conclusion follows solely from indexing.
 
----
+______________________________________________________________________
 
-# 188. Negative Case — Model Map Therefore Complete
+## 188. Negative Case — Model Map Therefore Complete
 
 Invalid:
 
@@ -2868,9 +2868,9 @@ THEREFORE ALL MODELS ARE IN MODEL_MAP
 
 Completeness requires separate validation.
 
----
+______________________________________________________________________
 
-# 189. Negative Case — Three Models Therefore Three Sources
+## 189. Negative Case — Three Models Therefore Three Sources
 
 Invalid:
 
@@ -2883,9 +2883,9 @@ MODEL_C
 
 unless provenance independence is established.
 
----
+______________________________________________________________________
 
-# 190. Negative Case — Model Prediction Therefore Observation
+## 190. Negative Case — Model Prediction Therefore Observation
 
 Invalid:
 
@@ -2896,9 +2896,9 @@ MODEL PREDICTS X
 
 Prediction and observation remain distinct.
 
----
+______________________________________________________________________
 
-# 191. Negative Case — Successful Prediction Therefore Model Becomes Observation
+## 191. Negative Case — Successful Prediction Therefore Model Becomes Observation
 
 Invalid.
 
@@ -2906,9 +2906,9 @@ The successful test provides evidence about the model.
 
 The model remains a model.
 
----
+______________________________________________________________________
 
-# 192. Negative Case — Sequence Therefore Causation
+## 192. Negative Case — Sequence Therefore Causation
 
 Invalid:
 
@@ -2919,9 +2919,9 @@ A BEFORE B
 
 Temporal sequence alone is insufficient.
 
----
+______________________________________________________________________
 
-# 193. Negative Case — Structural Resemblance Therefore Mechanism
+## 193. Negative Case — Structural Resemblance Therefore Mechanism
 
 Invalid:
 
@@ -2932,9 +2932,9 @@ SYSTEM A LOOKS LIKE SYSTEM B
 
 Structural resemblance is model-level evidence unless independently validated.
 
----
+______________________________________________________________________
 
-# 194. Negative Case — Decision Approval Therefore Model True
+## 194. Negative Case — Decision Approval Therefore Model True
 
 Invalid:
 
@@ -2945,9 +2945,9 @@ DECISION APPROVED
 
 Governance approval does not alter epistemic type.
 
----
+______________________________________________________________________
 
-# 195. Negative Case — Observability Becomes Authority
+## 195. Negative Case — Observability Becomes Authority
 
 Invalid:
 
@@ -2958,9 +2958,9 @@ MONITOR DETECTED BROKEN LINK
 
 Detection does not grant authority.
 
----
+______________________________________________________________________
 
-# 196. Negative Case — Test Pass Therefore Universal Validity
+## 196. Negative Case — Test Pass Therefore Universal Validity
 
 Invalid:
 
@@ -2971,9 +2971,9 @@ LOCAL LINK TEST PASSED
 
 Test scope must be preserved.
 
----
+______________________________________________________________________
 
-# 197. Sensitivity Analysis
+## 197. Sensitivity Analysis
 
 For consequential model selection, test first the smallest premise capable of changing the selected target.
 
@@ -2990,9 +2990,9 @@ shared provenance
 authority expiry
 ```
 
----
+______________________________________________________________________
 
-# 198. Fragility
+## 198. Fragility
 
 If one unresolved variable can flip the result:
 
@@ -3008,17 +3008,17 @@ UNKNOWN/GAP
 
 depending on the remaining support.
 
----
+______________________________________________________________________
 
-# 199. Robustness
+## 199. Robustness
 
 A model-navigation result is robust when plausible changes to non-load-bearing metadata do not change the resolved identity.
 
 This says nothing by itself about model truth.
 
----
+______________________________________________________________________
 
-# 200. Model Index Record
+## 200. Model Index Record
 
 ```yaml
 model_index_record:
@@ -3095,9 +3095,9 @@ model_index_record:
 
 This is a normalized AMOS schema candidate, not a claim of deployed schema.
 
----
+______________________________________________________________________
 
-# 201. Model Proof Capsule
+## 201. Model Proof Capsule
 
 ```yaml
 model_proof_capsule:
@@ -3149,9 +3149,9 @@ model_proof_capsule:
   gaps: []
 ```
 
----
+______________________________________________________________________
 
-# 202. Index Resolution Capsule
+## 202. Index Resolution Capsule
 
 ```yaml
 index_resolution_capsule:
@@ -3203,33 +3203,33 @@ index_resolution_capsule:
   gaps: []
 ```
 
----
+______________________________________________________________________
 
-# 203. Resolution Decision Matrix
+## 203. Resolution Decision Matrix
 
-| Condition                    | Result                                              |
-| ---------------------------- | --------------------------------------------------- |
-| One valid local basename     | `RESOLVED`                                          |
-| No valid local basename      | `MISSING`                                           |
-| Multiple valid local matches | `AMBIGUOUS`                                         |
-| Malformed reference          | `MALFORMED`                                         |
-| Required version absent      | `UNKNOWN/GAP`                                       |
-| Cross-plane target required  | route through `` / `` |
-| Cross-plane target ambiguous | hold / fail closed if consequential                 |
-| Target stale                 | revalidate                                          |
-| Scope mismatch               | do not silently apply                               |
-| Regime mismatch              | revalidate                                          |
-| Capability but no authority  | mutation blocked                                    |
-| Link passes                  | link result only                                    |
-| Model indexed                | no truth promotion                                  |
-| Provenance correlated        | no independence promotion                           |
-| Model conflict unresolved    | preserve `COMPETING`                                |
-| Failed premise               | selective invalidation                              |
-| Consequential mutation       | rollback + receipt discipline                       |
+| Condition                    | Result                              |
+| ---------------------------- | ----------------------------------- |
+| One valid local basename     | `RESOLVED`                          |
+| No valid local basename      | `MISSING`                           |
+| Multiple valid local matches | `AMBIGUOUS`                         |
+| Malformed reference          | `MALFORMED`                         |
+| Required version absent      | `UNKNOWN/GAP`                       |
+| Cross-plane target required  | route through `/`                   |
+| Cross-plane target ambiguous | hold / fail closed if consequential |
+| Target stale                 | revalidate                          |
+| Scope mismatch               | do not silently apply               |
+| Regime mismatch              | revalidate                          |
+| Capability but no authority  | mutation blocked                    |
+| Link passes                  | link result only                    |
+| Model indexed                | no truth promotion                  |
+| Provenance correlated        | no independence promotion           |
+| Model conflict unresolved    | preserve `COMPETING`                |
+| Failed premise               | selective invalidation              |
+| Consequential mutation       | rollback + receipt discipline       |
 
----
+______________________________________________________________________
 
-# 204. Integrity Matrix
+## 204. Integrity Matrix
 
 | Dimension    | Required distinction         |
 | ------------ | ---------------------------- |
@@ -3247,9 +3247,9 @@ index_resolution_capsule:
 | Navigation   | `RESOLVED ≠ APPLICABLE`      |
 | Validation   | `LINK_PASS ≠ MODEL_VALID`    |
 
----
+______________________________________________________________________
 
-# 205. Core Invariants
+## 205. Core Invariants
 
 ```yaml
 INDEX_MODELS_README_INVARIANTS:
@@ -3298,9 +3298,9 @@ INDEX_MODELS_README_INVARIANTS:
     artifact_specific_validation: UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 206. Worked Example — Local Model Map
+## 206. Worked Example — Local Model Map
 
 Input:
 
@@ -3328,9 +3328,9 @@ RESOLVE
 
 If exactly one target exists, return that target.
 
----
+______________________________________________________________________
 
-# 207. Worked Example — Missing Target
+## 207. Worked Example — Missing Target
 
 Input:
 
@@ -3348,9 +3348,9 @@ If no governed cross-plane resolution is applicable:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 208. Worked Example — Cross-Plane Target
+## 208. Worked Example — Cross-Plane Target
 
 A model index needs to reference a canonical artifact outside `13_MODELS`.
 
@@ -3368,9 +3368,9 @@ RESOLVE GOVERNED TARGET
 
 Do not use arbitrary global first-match search.
 
----
+______________________________________________________________________
 
-# 209. Worked Example — Model Indexed but Unverified
+## 209. Worked Example — Model Indexed but Unverified
 
 ```yaml
 model:
@@ -3391,9 +3391,9 @@ Unsupported conclusion:
 MODEL_X IS VERIFIED
 ```
 
----
+______________________________________________________________________
 
-# 210. Worked Example — Model Version Conflict
+## 210. Worked Example — Model Version Conflict
 
 Requested:
 
@@ -3411,9 +3411,9 @@ Do not silently substitute `v5` if exact `v4` is required.
 
 Return the version conflict or resolve according to explicit version policy.
 
----
+______________________________________________________________________
 
-# 211. Worked Example — Competing Models
+## 211. Worked Example — Competing Models
 
 ```text
 MODEL_A
@@ -3440,9 +3440,9 @@ MODEL_A
 
 selected merely because it appears first.
 
----
+______________________________________________________________________
 
-# 212. Worked Example — Shared Provenance
+## 212. Worked Example — Shared Provenance
 
 ```text
 SOURCE S
@@ -3465,9 +3465,9 @@ not:
 TWO INDEPENDENT CONFIRMATIONS
 ```
 
----
+______________________________________________________________________
 
-# 213. Worked Example — Scope Mismatch
+## 213. Worked Example — Scope Mismatch
 
 Model:
 
@@ -3491,9 +3491,9 @@ SCOPE MISMATCH
 
 until a validated scale bridge exists.
 
----
+______________________________________________________________________
 
-# 214. Worked Example — Regime Shift
+## 214. Worked Example — Regime Shift
 
 Model validated under:
 
@@ -3511,9 +3511,9 @@ The index may resolve the same model identity.
 
 Operational validity requires regime review.
 
----
+______________________________________________________________________
 
-# 215. Worked Example — Authority Failure
+## 215. Worked Example — Authority Failure
 
 Request:
 
@@ -3542,9 +3542,9 @@ HOLD
 
 No commit.
 
----
+______________________________________________________________________
 
-# 216. Worked Example — Failed Dependency
+## 216. Worked Example — Failed Dependency
 
 Proposal:
 
@@ -3568,9 +3568,9 @@ PROPOSAL HELD
 
 Preserve existing valid index state.
 
----
+______________________________________________________________________
 
-# 217. Worked Example — Selective Repair
+## 217. Worked Example — Selective Repair
 
 One link fails:
 
@@ -3588,9 +3588,9 @@ MODEL_B EDGE
 
 Do not globally rewrite the Models index unless broader corruption is demonstrated.
 
----
+______________________________________________________________________
 
-# 218. Worked Example — Link Test
+## 218. Worked Example — Link Test
 
 Executed test verifies:
 
@@ -3614,9 +3614,9 @@ MODEL_MAP IS COMPLETE
 
 unless separately tested.
 
----
+______________________________________________________________________
 
-# 219. Promotion Sequence
+## 219. Promotion Sequence
 
 ```text
 SOURCE-GROUNDED README
@@ -3646,9 +3646,9 @@ GAP REVIEW
 PROMOTION REVIEW
 ```
 
----
+______________________________________________________________________
 
-# 220. Anti-Regression Gate
+## 220. Anti-Regression Gate
 
 Any optimization to this index must preserve or improve:
 
@@ -3674,9 +3674,9 @@ If an optimization weakens any load-bearing integrity property:
 REJECT / ROLL BACK
 ```
 
----
+______________________________________________________________________
 
-# 221. Navigation Compression
+## 221. Navigation Compression
 
 The minimal valid navigation capsule is:
 
@@ -3698,9 +3698,9 @@ models_index:
     artifact_specific_validation: UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 222. Canonical Compression
+## 222. Canonical Compression
 
 ```text
 INDEX MODELS README
@@ -3817,9 +3817,9 @@ ARTIFACT-SPECIFIC FULL VALIDATION
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 223. Cross-Plane Bindings
+## 223. Cross-Plane Bindings
 
 - Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
 - Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
@@ -3829,26 +3829,26 @@ UNKNOWN/GAP
 - Root navigation — [[00_ROOT/00_HOME|00_HOME]]
 - RSCF navigation — [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
 
-# 224. Index
+## 224. Index
 
 - See also — [[13_MODELS/00_INDEX/INDEX_MODELS_MODEL_CONTRACT|INDEX_MODELS_MODEL_CONTRACT]]
 - See also — [[13_MODELS/00_INDEX/MODEL_MAP|MODEL_MAP]]
 
----
+______________________________________________________________________
 
-# 225. Related
+## 225. Related
 
 [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[13_MODELS/00_INDEX/INDEX_MODELS_MODEL_CONTRACT|INDEX_MODELS_MODEL_CONTRACT]] · [[13_MODELS/00_INDEX/MODEL_MAP|MODEL_MAP]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[02_KERNEL/KERNEL_README|KERNEL_README]] · [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]] · [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]] · [[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|AMOS MOC]]
 
----
+______________________________________________________________________
 
-# 226. RSCF Node
+## 226. RSCF Node
 
 ```yaml
 RSCF-NODE:
@@ -3890,9 +3890,9 @@ RSCF-NODE:
   status: ACTIVE_REFERENCE
 ```
 
----
+______________________________________________________________________
 
-# 227. RSCF Relations
+## 227. RSCF Relations
 
 ```yaml
 RSCF-RELATIONS:
@@ -3926,9 +3926,9 @@ RSCF-RELATIONS:
   - GOVERNS_CONCEPT: [[11_KNOWLEDGE/stubs/INDEX_FAILURE_VISIBILITY|INDEX_FAILURE_VISIBILITY]]
 ```
 
----
+______________________________________________________________________
 
-# 228. RSCF Proof Capsule
+## 228. RSCF Proof Capsule
 
 ```yaml
 RSCF-PROOF-CAPSULE:
@@ -3991,9 +3991,9 @@ RSCF-PROOF-CAPSULE:
     - complete_alias_policy
 ```
 
----
+______________________________________________________________________
 
-# 229. Final Index Contract
+## 229. Final Index Contract
 
 `INDEX_MODELS_README` is the Models-plane orientation and navigation surface.
 
@@ -4107,7 +4107,7 @@ CONDITIONAL PROMOTION STATUS
 
 until the outstanding promotion gates are satisfied.
 
----
+______________________________________________________________________
 
 RSCF-NODE
 
@@ -4125,7 +4125,6 @@ RSCF-RELATIONS:
 - REFERENCES: [[13_MODELS/00_INDEX/MODEL_MAP|MODEL_MAP]]
 - GOVERNED_BY: [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
 
----
+______________________________________________________________________
 
 **MOC:** [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]]
-

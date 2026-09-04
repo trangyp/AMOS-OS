@@ -1,11 +1,14 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: INDEX CANON CANON CONTRACT
 type: note
 source: 01_CANON/00_INDEX
 tags:
-- note
-- canon/universe
-- canon
+  - note
+  - canon/universe
+  - canon
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL
@@ -42,7 +45,7 @@ canonical_approval_status: "UNKNOWN/GAP"
 ---
 ```
 
-# 1. Purpose
+## 1. Purpose
 
 The `CANON Contract` defines the governing contract for what AMOS OS may call **canon**, how candidate knowledge enters canon, how canonical objects retain identity and provenance, how contradictions and supersession are handled, and how downstream systems may depend upon canonical material.
 
@@ -66,9 +69,9 @@ EMPIRICALLY VALIDATED CLAIM
 
 Canon is therefore a governed knowledge state, not merely a folder, filename, document collection, repeated statement, or authoritative-sounding description.
 
----
+______________________________________________________________________
 
-# 2. Core Canon Law
+## 2. Core Canon Law
 
 AMOS OS SHALL preserve the distinction between:
 
@@ -110,9 +113,9 @@ CANON_OBJECT
 EXECUTABLE_IMPLEMENTATION
 ```
 
----
+______________________________________________________________________
 
-# 3. Origin and Stewardship
+## 3. Origin and Stewardship
 
 The origin architect and steward of the AMOS corpus is:
 
@@ -125,9 +128,9 @@ This contract MUST NOT infer independent authorship for ChatGPT, agents, Skills,
 
 Generated AMOS material MUST preserve source/origin lineage.
 
----
+______________________________________________________________________
 
-# 4. Definition of Canon
+## 4. Definition of Canon
 
 Within AMOS OS, **canon** means a governed set of architecture objects accepted into a declared canonical scope under explicit provenance, identity, version, compatibility, and supersession rules.
 
@@ -159,9 +162,9 @@ It does not mean:
 
 > the object has been independently established as a universal empirical truth.
 
----
+______________________________________________________________________
 
-# 5. Canon Object Types
+## 5. Canon Object Types
 
 Recommended canonical object classes are:
 
@@ -188,9 +191,9 @@ CANON_GOVERNANCE_RULE
 
 Additional types MAY be introduced through governed extension.
 
----
+______________________________________________________________________
 
-# 6. Canon Object Contract
+## 6. Canon Object Contract
 
 Every promoted canonical object SHOULD be representable as:
 
@@ -247,9 +250,9 @@ canon_object:
   confidence_ceiling: null
 ```
 
----
+______________________________________________________________________
 
-# 7. Canon Identity
+## 7. Canon Identity
 
 Every canonical object MUST possess a stable identity.
 
@@ -271,9 +274,9 @@ same canonical object
 
 when scope, semantics, version, or provenance differs.
 
----
+______________________________________________________________________
 
-# 8. Canon Identity Invariant
+## 8. Canon Identity Invariant
 
 ```text
 CC-I01
@@ -295,9 +298,9 @@ non-semantic metadata changes
 
 provided semantic identity remains intact.
 
----
+______________________________________________________________________
 
-# 9. Canon Source Classes
+## 9. Canon Source Classes
 
 Material entering the canon pipeline SHOULD be typed.
 
@@ -329,9 +332,9 @@ external scientific statement
 → SOURCE_CLAIM until appropriately validated
 ```
 
----
+______________________________________________________________________
 
-# 10. Source Does Not Equal Canon
+## 10. Source Does Not Equal Canon
 
 The presence of content in the AMOS corpus does not automatically make it canonical.
 
@@ -358,9 +361,9 @@ conflicting formulations
 
 These MUST remain distinguishable from promoted canon.
 
----
+______________________________________________________________________
 
-# 11. Placeholder Law
+## 11. Placeholder Law
 
 A placeholder reserves architecture.
 
@@ -406,9 +409,9 @@ but does not automatically change it to:
 CANONICAL
 ```
 
----
+______________________________________________________________________
 
-# 12. Canon Candidate State
+## 12. Canon Candidate State
 
 New or reconstructed material SHOULD initially enter as:
 
@@ -433,9 +436,9 @@ rejection
 
 without contaminating accepted canon.
 
----
+______________________________________________________________________
 
-# 13. Canon Lifecycle
+## 13. Canon Lifecycle
 
 Recommended lifecycle:
 
@@ -459,9 +462,9 @@ AMENDED / SUPERSEDED / DEPRECATED / REVOKED
 
 Not every candidate reaches `CANONICAL`.
 
----
+______________________________________________________________________
 
-# 14. Promotion Gate
+## 14. Promotion Gate
 
 A candidate SHOULD NOT be promoted unless the required promotion surface is sufficiently resolved.
 
@@ -484,9 +487,9 @@ governance authority
 
 Additional requirements MAY apply by object type.
 
----
+______________________________________________________________________
 
-# 15. Canon Promotion Decision
+## 15. Canon Promotion Decision
 
 Conceptually:
 
@@ -505,9 +508,9 @@ This is an AMOS MODEL expression.
 
 It is not claimed as established external mathematics.
 
----
+______________________________________________________________________
 
-# 16. Promotion Is Not Validation
+## 16. Promotion Is Not Validation
 
 A critical boundary:
 
@@ -521,9 +524,9 @@ AMOS may canonically define a framework model without claiming that reality univ
 
 Therefore canonical equations MUST retain their epistemic classification.
 
----
+______________________________________________________________________
 
-# 17. Canon Epistemic Classes
+## 17. Canon Epistemic Classes
 
 Canonical material MAY retain classifications such as:
 
@@ -540,9 +543,9 @@ Where empirical evidence exists, additional evidence-backed classifications MAY 
 
 Canon status MUST NOT erase epistemic uncertainty.
 
----
+______________________________________________________________________
 
-# 18. Canon Provenance
+## 18. Canon Provenance
 
 Every consequential canonical object MUST preserve recoverable provenance.
 
@@ -565,9 +568,9 @@ Unknown fields remain `null` or `UNKNOWN/GAP`.
 
 They MUST NOT be invented.
 
----
+______________________________________________________________________
 
-# 19. Provenance Topology
+## 19. Provenance Topology
 
 AMOS SHALL distinguish independent evidence from repeated descendants of the same origin.
 
@@ -583,9 +586,9 @@ then A, B, and C are not automatically three independent confirmations.
 
 Canonical confidence MUST therefore consider ancestry.
 
----
+______________________________________________________________________
 
-# 20. Canon Dependency Graph
+## 20. Canon Dependency Graph
 
 Let:
 
@@ -618,9 +621,9 @@ COMPOSES_WITH
 
 This graph is a MODEL representation of canon structure.
 
----
+______________________________________________________________________
 
-# 21. Dependency Closure
+## 21. Dependency Closure
 
 A canonical object SHOULD NOT silently depend upon undefined objects.
 
@@ -646,9 +649,9 @@ CONDITIONAL
 
 not fabricated closure.
 
----
+______________________________________________________________________
 
-# 22. Canon Scope
+## 22. Canon Scope
 
 Every canon claim inherits scope.
 
@@ -669,9 +672,9 @@ environment
 
 A canonical relationship valid within one AMOS architecture MUST NOT automatically be generalized to all systems.
 
----
+______________________________________________________________________
 
-# 23. H/M/L Applicability
+## 23. H/M/L Applicability
 
 Canonical objects SHOULD specify their scale applicability where meaningful.
 
@@ -700,9 +703,9 @@ L = local / implementation-detail level
 
 An H-level canonical law does not automatically provide an L-level implementation.
 
----
+______________________________________________________________________
 
-# 24. Canon Inheritance
+## 24. Canon Inheritance
 
 A child architecture MAY inherit canonical objects from a parent architecture.
 
@@ -725,9 +728,9 @@ dependencies
 exceptions
 ```
 
----
+______________________________________________________________________
 
-# 25. Canon Extension
+## 25. Canon Extension
 
 Extensions MUST NOT silently mutate inherited canon.
 
@@ -752,9 +755,9 @@ new assumptions
 compatibility status
 ```
 
----
+______________________________________________________________________
 
-# 26. Canon Mutation
+## 26. Canon Mutation
 
 Canonical mutation is a governed operation.
 
@@ -774,9 +777,9 @@ architecture restructuring
 
 Consequential mutation MUST create lineage.
 
----
+______________________________________________________________________
 
-# 27. Canon Change Record
+## 27. Canon Change Record
 
 ```yaml
 canon_change:
@@ -807,9 +810,9 @@ canon_change:
   decision: "PROPOSED"
 ```
 
----
+______________________________________________________________________
 
-# 28. Canon Supersession
+## 28. Canon Supersession
 
 Supersession MUST preserve historical lineage.
 
@@ -831,9 +834,9 @@ REVOKED
 HISTORICAL
 ```
 
----
+______________________________________________________________________
 
-# 29. Supersession Law
+## 29. Supersession Law
 
 ```text
 NEWER
@@ -845,9 +848,9 @@ Chronological recency alone does not establish canonical precedence.
 
 Supersession requires an explicit governed relationship.
 
----
+______________________________________________________________________
 
-# 30. Semantic Supersession
+## 30. Semantic Supersession
 
 When a new object changes meaning:
 
@@ -861,9 +864,9 @@ the change MUST be treated as semantic, not merely cosmetic.
 
 Dependent objects SHOULD be re-evaluated.
 
----
+______________________________________________________________________
 
-# 31. Selective Invalidation
+## 31. Selective Invalidation
 
 If canonical object `C` changes, AMOS SHOULD invalidate only conclusions actually dependent upon the changed semantics.
 
@@ -881,9 +884,9 @@ Change(C)
 
 unless `C` is globally load-bearing.
 
----
+______________________________________________________________________
 
-# 32. Canon Contradiction
+## 32. Canon Contradiction
 
 Two canonical candidates contradict when their jointly applicable claims cannot both hold under the same interpretation, scope, and regime.
 
@@ -900,9 +903,9 @@ same object identity?
 
 Apparent contradiction MAY actually be scope divergence.
 
----
+______________________________________________________________________
 
-# 33. Contradiction States
+## 33. Contradiction States
 
 Recommended states:
 
@@ -924,9 +927,9 @@ QUARANTINED
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 34. Competing Canon Candidates
+## 34. Competing Canon Candidates
 
 AMOS MUST NOT force convergence when two candidate structures remain genuinely unresolved.
 
@@ -938,9 +941,9 @@ COMPETING
 
 until discriminating evidence or governing authority resolves them.
 
----
+______________________________________________________________________
 
-# 35. Canon Quarantine
+## 35. Canon Quarantine
 
 A candidate SHOULD be quarantined when:
 
@@ -972,9 +975,9 @@ investigate
 
 not necessarily delete.
 
----
+______________________________________________________________________
 
-# 36. Canon Admission Boundary
+## 36. Canon Admission Boundary
 
 External knowledge MUST NOT become AMOS canon merely because it is useful or correct.
 
@@ -996,9 +999,9 @@ AMOS_CANON
 
 Canon membership and factual validity are separate axes.
 
----
+______________________________________________________________________
 
-# 37. Empirical Firewall
+## 37. Empirical Firewall
 
 Canonical AMOS structural models MUST remain distinct from independently validated domain facts.
 
@@ -1020,9 +1023,9 @@ It does not automatically license:
 VERIFIED: reality universally behaves according to X.
 ```
 
----
+______________________________________________________________________
 
-# 38. Equation Governance
+## 38. Equation Governance
 
 Canonical equations SHOULD include:
 
@@ -1041,9 +1044,9 @@ falsifiers
 
 Framework equations MUST be labeled `MODEL` unless independently validated for the asserted empirical use.
 
----
+______________________________________________________________________
 
-# 39. Canon Variable Integrity
+## 39. Canon Variable Integrity
 
 A symbol MUST NOT silently change meaning across canonical equations.
 
@@ -1061,9 +1064,9 @@ E = evidence
 
 in another, compatibility MUST be explicitly resolved before composition.
 
----
+______________________________________________________________________
 
-# 40. Canon Operator Integrity
+## 40. Canon Operator Integrity
 
 Canonical operators MUST define:
 
@@ -1078,9 +1081,9 @@ failure behavior
 
 A named operator without operational semantics remains incomplete for executable claims.
 
----
+______________________________________________________________________
 
-# 41. Canon Invariants
+## 41. Canon Invariants
 
 Core contract invariants include:
 
@@ -1116,9 +1119,9 @@ CC-I10:
 PROVENANCE MUST NOT BE FABRICATED.
 ```
 
----
+______________________________________________________________________
 
-# 42. Additional Invariants
+## 42. Additional Invariants
 
 ```text
 CC-I11:
@@ -1152,9 +1155,9 @@ CC-I20:
 Canon integrity takes precedence over superficial completeness.
 ```
 
----
+______________________________________________________________________
 
-# 43. Canon Authority
+## 43. Canon Authority
 
 Canonical promotion and mutation require authority distinct from technical capability.
 
@@ -1166,9 +1169,9 @@ AuthorizedToChangeCanon
 
 An agent may possess the capability to generate or modify files without possessing authority to promote those changes.
 
----
+______________________________________________________________________
 
-# 44. Canon Authority Resolution
+## 44. Canon Authority Resolution
 
 A consequential canon operation SHOULD establish:
 
@@ -1185,9 +1188,9 @@ policy compatibility
 
 before canonical commit.
 
----
+______________________________________________________________________
 
-# 45. Canon Proposal
+## 45. Canon Proposal
 
 Generated content SHOULD initially be treated as:
 
@@ -1210,9 +1213,9 @@ approved
 
 without affecting accepted canon.
 
----
+______________________________________________________________________
 
-# 46. Canon Commit
+## 46. Canon Commit
 
 A canon commit is the governed transition by which an approved candidate becomes part of the accepted canonical state.
 
@@ -1236,9 +1239,9 @@ CANON COMMIT ELIGIBILITY
 
 This remains a specification until executable commit semantics are demonstrated.
 
----
+______________________________________________________________________
 
-# 47. Commit-Time Revalidation
+## 47. Commit-Time Revalidation
 
 Because authority, dependencies, or target state MAY change after proposal creation, load-bearing conditions SHOULD be checked at commit time.
 
@@ -1248,9 +1251,9 @@ ProposalValid(t0)
 CommitValid(t1)
 ```
 
----
+______________________________________________________________________
 
-# 48. Canon Registry
+## 48. Canon Registry
 
 AMOS SHOULD maintain a canonical registry.
 
@@ -1277,9 +1280,9 @@ canon_registry:
   updated_at: null
 ```
 
----
+______________________________________________________________________
 
-# 49. Canon Index
+## 49. Canon Index
 
 The canon index SHOULD provide navigation.
 
@@ -1295,9 +1298,9 @@ REGISTRY
 
 An index entry does not prove canonical membership.
 
----
+______________________________________________________________________
 
-# 50. Canon Aliases
+## 50. Canon Aliases
 
 Aliases MAY support multiple historical or human-readable names.
 
@@ -1312,9 +1315,9 @@ alias:
 
 Aliases MUST NOT create duplicate canonical identity.
 
----
+______________________________________________________________________
 
-# 51. Canon Naming Collision
+## 51. Canon Naming Collision
 
 If two objects use the same name but represent different semantics:
 
@@ -1328,9 +1331,9 @@ IDENTITY_COLLISION
 
 They MUST be disambiguated.
 
----
+______________________________________________________________________
 
-# 52. Canon Versioning
+## 52. Canon Versioning
 
 Canonical objects SHOULD carry explicit versions where semantic evolution occurs.
 
@@ -1345,9 +1348,9 @@ version:
 
 The exact versioning convention MAY differ, but semantic lineage must remain recoverable.
 
----
+______________________________________________________________________
 
-# 53. Canon Compatibility
+## 53. Canon Compatibility
 
 A new canonical version SHOULD declare compatibility with relevant previous versions.
 
@@ -1365,9 +1368,9 @@ UNKNOWN/GAP
 
 `UNKNOWN/GAP` MUST NOT be interpreted as compatible.
 
----
+______________________________________________________________________
 
-# 54. Canon Freshness
+## 54. Canon Freshness
 
 Not all canon requires temporal freshness.
 
@@ -1385,9 +1388,9 @@ empirical evidence
 
 MAY require freshness checks.
 
----
+______________________________________________________________________
 
-# 55. Canon Memory
+## 55. Canon Memory
 
 Canonical material MAY be persisted into memory systems only with:
 
@@ -1402,9 +1405,9 @@ supersession state
 
 Memory MUST NOT erase canonical version boundaries.
 
----
+______________________________________________________________________
 
-# 56. Canon Retrieval
+## 56. Canon Retrieval
 
 Retrieval SHOULD prioritize the smallest sufficient canonical scope:
 
@@ -1420,9 +1423,9 @@ Raw source need not be loaded when an existing valid canonical capsule is suffic
 
 But raw evidence SHOULD be recoverable when validation or contradiction resolution requires it.
 
----
+______________________________________________________________________
 
-# 57. Canon RSCF
+## 57. Canon RSCF
 
 Important canonical claims SHOULD be representable through RSCF.
 
@@ -1452,9 +1455,9 @@ rscf:
   confidence_ceiling: null
 ```
 
----
+______________________________________________________________________
 
-# 58. Confidence Ceiling
+## 58. Confidence Ceiling
 
 Canonical status MUST NOT automatically raise empirical confidence.
 
@@ -1478,9 +1481,9 @@ while remaining low or unknown regarding:
 "Does nature universally obey this specification?"
 ```
 
----
+______________________________________________________________________
 
-# 59. Canon Agents
+## 59. Canon Agents
 
 Agents interacting with canon MAY have roles such as:
 
@@ -1498,9 +1501,9 @@ CANON_COMMITTER
 
 Role names do not themselves grant authority.
 
----
+______________________________________________________________________
 
-# 60. Agent Boundary
+## 60. Agent Boundary
 
 Agents MAY:
 
@@ -1523,9 +1526,9 @@ proposal
 canonical approval
 ```
 
----
+______________________________________________________________________
 
-# 61. Canon Skills
+## 61. Canon Skills
 
 Relevant Skills MAY perform:
 
@@ -1543,9 +1546,9 @@ version reconciliation
 
 Skill availability establishes capability, not canon authority.
 
----
+______________________________________________________________________
 
-# 62. Canon Workflow
+## 62. Canon Workflow
 
 Recommended workflow:
 
@@ -1581,9 +1584,9 @@ REGISTRY UPDATE
 DEPENDENT INVALIDATION / REVALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 63. Canon Protocols
+## 63. Canon Protocols
 
 Recommended protocol classes:
 
@@ -1605,9 +1608,9 @@ CANON_ROLLBACK_PROTOCOL
 CANON_REVALIDATION_PROTOCOL
 ```
 
----
+______________________________________________________________________
 
-# 64. Admission Protocol
+## 64. Admission Protocol
 
 ```text
 INPUT
@@ -1629,9 +1632,9 @@ or
 QUARANTINE / REJECT
 ```
 
----
+______________________________________________________________________
 
-# 65. Conflict Protocol
+## 65. Conflict Protocol
 
 ```text
 DETECT CONFLICT
@@ -1655,9 +1658,9 @@ PRESERVE COMPETING IF UNRESOLVED
 GOVERNED RESOLUTION
 ```
 
----
+______________________________________________________________________
 
-# 66. Supersession Protocol
+## 66. Supersession Protocol
 
 ```text
 PROPOSE REPLACEMENT
@@ -1681,9 +1684,9 @@ UPDATE DEPENDENCY GRAPH
 REVALIDATE AFFECTED DESCENDANTS
 ```
 
----
+______________________________________________________________________
 
-# 67. Rollback Protocol
+## 67. Rollback Protocol
 
 A failed canon change SHOULD support rollback where safe.
 
@@ -1706,9 +1709,9 @@ audit trail
 
 Rollback MUST NOT erase history.
 
----
+______________________________________________________________________
 
-# 68. Canon Failure Modes
+## 68. Canon Failure Modes
 
 ```text
 CC-FM01
@@ -1742,9 +1745,9 @@ CC-FM10
 correlated sources treated as independent evidence
 ```
 
----
+______________________________________________________________________
 
-# 69. Additional Failure Modes
+## 69. Additional Failure Modes
 
 ```text
 CC-FM11
@@ -1778,9 +1781,9 @@ CC-FM20
 UNKNOWN/GAP converted into PASS
 ```
 
----
+______________________________________________________________________
 
-# 70. Repair and Recovery
+## 70. Repair and Recovery
 
 Canon repair SHOULD follow:
 
@@ -1808,9 +1811,9 @@ RE-PROMOTE IF ELIGIBLE
 
 Global canon reset SHOULD be a last resort.
 
----
+______________________________________________________________________
 
-# 71. Selective Repair
+## 71. Selective Repair
 
 If corruption affects object `C17`, repair SHOULD target:
 
@@ -1824,9 +1827,9 @@ rather than unrelated canonical branches.
 
 This preserves unaffected valid knowledge.
 
----
+______________________________________________________________________
 
-# 72. Canon Tests
+## 72. Canon Tests
 
 ```text
 CC-T001
@@ -1860,9 +1863,9 @@ CC-T010
 UNKNOWN/GAP MUST NOT produce PASS.
 ```
 
----
+______________________________________________________________________
 
-# 73. Additional Validators
+## 73. Additional Validators
 
 Recommended validators include:
 
@@ -1904,9 +1907,9 @@ validate_registry_consistency()
 validate_historical_recoverability()
 ```
 
----
+______________________________________________________________________
 
-# 74. Canon Falsifiers
+## 74. Canon Falsifiers
 
 This contract is violated if:
 
@@ -1932,9 +1935,9 @@ a candidate commits without required authority;
 UNKNOWN/GAP becomes PASS.
 ```
 
----
+______________________________________________________________________
 
-# 75. Canon Gap Matrix
+## 75. Canon Gap Matrix
 
 ```yaml
 gap_matrix:
@@ -1980,9 +1983,9 @@ gap_matrix:
     severity: "CRITICAL_FOR_CANONICAL_STATUS"
 ```
 
----
+______________________________________________________________________
 
-# 76. Canon RSCF Completion State
+## 76. Canon RSCF Completion State
 
 ```yaml
 rscf_completion_state:
@@ -2039,9 +2042,9 @@ rscf_completion_state:
   confidence_ceiling: 0
 ```
 
----
+______________________________________________________________________
 
-# 77. Current Artifact Status
+## 77. Current Artifact Status
 
 ```yaml
 completion:
@@ -2086,9 +2089,9 @@ completion:
     status: "UNKNOWN/GAP"
 ```
 
----
+______________________________________________________________________
 
-# 78. Hard Boundaries
+## 78. Hard Boundaries
 
 ```text
 PLACEHOLDER != IMPLEMENTED
@@ -2120,13 +2123,13 @@ REPETITION != INDEPENDENT CONFIRMATION
 UNKNOWN/GAP != PASS
 ```
 
----
+______________________________________________________________________
 
-# 79. Final CANON Contract
+## 79. Final CANON Contract
 
 > **AMOS OS SHALL treat canon as a governed, versioned, provenance-preserving knowledge structure rather than a collection of files. Canonical identity shall remain distinct from filenames and storage locations. Source material, candidate canon, accepted canon, implementation, validation, and empirical truth shall remain separate states. New material shall not enter canon merely because it exists, is detailed, is generated, is recent, or resembles existing architecture. Canon promotion, mutation, and supersession shall preserve provenance, scope, dependencies, contradiction visibility, authority, and historical lineage. AMOS framework models shall remain explicitly distinguished from independently validated empirical claims. Unresolved contradictions shall remain COMPETING or UNKNOWN/GAP rather than being silently merged. Canon changes shall selectively invalidate dependent conclusions and preserve rollback/recovery paths. No generated agent, Skill, tool, or artifact may self-authorize canonical promotion.**
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
@@ -2137,22 +2140,26 @@ UNKNOWN/GAP != PASS
 **Canonical approval:** `UNKNOWN/GAP`
 **Origin architect / steward:** **Trang Phan**
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: index_canon_canon_contract
 node_type: note
 path: 01_CANON/00_INDEX/INDEX_CANON_CANON_CONTRACT.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[01_CANON/00_INDEX/INDEX_CANON_README|INDEX_CANON_README]]
 
----
-**MOC:** [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]]
+______________________________________________________________________
 
+**MOC:** [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]]

@@ -2,14 +2,14 @@
 type: cognitive
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION
 tags:
-- amos
-- cognitive-matrix
-- matrix/l02
-- attention
-- hml
-- rscf
-- governance
-- domain/cognitive-matrix
+  - amos
+  - cognitive-matrix
+  - matrix/l02
+  - attention
+  - hml
+  - rscf
+  - governance
+  - domain/cognitive-matrix
 title: L02_ATTENTION — HML
 origin_architect: Trang Phan
 status: MODEL_SPECIFICATION / SOURCE-BOUNDED / UNVALIDATED
@@ -32,9 +32,9 @@ rscf:
 
 > **Canon boundary:** available L02 material supports attention as allocation of scarce reasoning/observation resources. The detailed H/M/L decomposition below is an AMOS architectural model unless a direct L02 canon reference independently establishes the same mapping.
 
----
+______________________________________________________________________
 
-# 0. Purpose
+## 0. Purpose
 
 Define the hierarchical/multiscale contract by which `L02_ATTENTION` operates across AMOS H/M/L reasoning levels without collapsing system-level priorities, subsystem allocation, and local attention events into one undifferentiated state.
 
@@ -58,9 +58,9 @@ H ↔ M ↔ L
 
 Cross-level influence is permitted only through typed, provenance-preserving transformations.
 
----
+______________________________________________________________________
 
-# 1. Source / Canon References
+## 1. Source / Canon References
 
 ## 1.1 Source-supported L02 semantic core
 
@@ -138,22 +138,22 @@ L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_README
 L01_SENSING_OBSERVATION
 ```
 
----
+______________________________________________________________________
 
-# 2. Definition and Scope
+## 2. Definition and Scope
 
 For L02, H/M/L represents three distinct resolutions of attention state.
 
-[
+\[
 A =
 {A_H,A_M,A_L}
-]
+\]
 
 where:
 
-- \(A_H\) = governing/system-level attention state,
-- \(A_M\) = subsystem/task-level attention allocation,
-- \(A_L\) = local candidate/event-level attention decision.
+- (A_H) = governing/system-level attention state,
+- (A_M) = subsystem/task-level attention allocation,
+- (A_L) = local candidate/event-level attention decision.
 
 This is a **typed architectural decomposition**, not a claim that biological or artificial cognition universally contains exactly three attention levels.
 
@@ -174,9 +174,9 @@ scope:
     - confidence
 ```
 
----
+______________________________________________________________________
 
-# 3. H Level — Governing Attention Context
+## 3. H Level — Governing Attention Context
 
 ## 3.1 Definition
 
@@ -188,7 +188,7 @@ It constrains the attention environment in which M operates.
 
 Conceptually:
 
-[
+\[
 H_t =
 f(
 Objective_t,
@@ -198,7 +198,7 @@ Uncertainty_t,
 Dependencies_t,
 Resources_t
 )
-]
+\]
 
 `f` is `AMOS_MODEL`, not a canonically validated empirical equation.
 
@@ -244,9 +244,9 @@ low priority:
   cosmetic formatting
 ```
 
----
+______________________________________________________________________
 
-# 4. M Level — Attention Allocation Subsystem
+## 4. M Level — Attention Allocation Subsystem
 
 ## 4.1 Definition
 
@@ -254,14 +254,14 @@ low priority:
 
 Conceptually:
 
-[
+\[
 M_t =
 Allocate(
 Candidates_t,
 Budget_t,
 H_t
 )
-]
+\]
 
 M is where competition for scarce attention is explicitly resolved.
 
@@ -308,9 +308,9 @@ M allocation:
   cosmetic documentation = LOW
 ```
 
----
+______________________________________________________________________
 
-# 5. L Level — Concrete Attention Event
+## 5. L Level — Concrete Attention Event
 
 ## 5.1 Definition
 
@@ -318,7 +318,7 @@ M allocation:
 
 Conceptually:
 
-[
+\[
 L_i =
 Candidate(
 content_i,
@@ -328,7 +328,7 @@ salience_i,
 uncertainty_i,
 cost_i
 )
-]
+\]
 
 An L-level candidate may be admitted, deferred, suppressed, escalated, revisited, or rejected.
 
@@ -355,9 +355,9 @@ Should this specific item receive attention now,
 and if so, how much?
 ```
 
----
+______________________________________________________________________
 
-# 6. Typed H/M/L State
+## 6. Typed H/M/L State
 
 ```yaml
 AttentionHMLState:
@@ -444,9 +444,9 @@ AttentionHMLState:
         - COMPLETE
 ```
 
----
+______________________________________________________________________
 
-# 7. Typed Inputs
+## 7. Typed Inputs
 
 ```yaml
 HMLAttentionInput:
@@ -491,9 +491,9 @@ HMLAttentionInput:
     type: AuthorityEnvelope
 ```
 
----
+______________________________________________________________________
 
-# 8. Typed Outputs
+## 8. Typed Outputs
 
 ```yaml
 HMLAttentionOutput:
@@ -529,9 +529,9 @@ HMLAttentionOutput:
     type: ConfidenceBound
 ```
 
----
+______________________________________________________________________
 
-# 9. State Variables
+## 9. State Variables
 
 ```text
 H_t        governing attention state
@@ -563,21 +563,21 @@ C_M        subsystem confidence ceiling
 c_i        local confidence
 ```
 
----
+______________________________________________________________________
 
-# 10. Budget Relation
+## 10. Budget Relation
 
 A minimal conservation constraint is:
 
-[
-\sum_i b_i \le B_M
-]
+\[
+\\sum_i b_i \\le B_M
+\]
 
 and:
 
-[
-B_M \le B_H
-]
+\[
+B_M \\le B_H
+\]
 
 where budget may represent:
 
@@ -602,9 +602,9 @@ token budget + seconds + tool calls
 
 cannot be numerically summed without an explicit conversion model.
 
----
+______________________________________________________________________
 
-# 11. H→M Operator
+## 11. H→M Operator
 
 ```text
 PROJECT_H_TO_M(H_t)
@@ -616,10 +616,10 @@ Translate governing objectives and constraints into subsystem priorities.
 
 Conceptually:
 
-[
+\[
 M^{prior}*t =
-\Pi*{H\rightarrow M}\(H_t\)
-]
+\\Pi*{H\\rightarrow M}(H_t)
+\]
 
 Required preservation:
 
@@ -635,9 +635,9 @@ risk requirements
 
 H→M projection may compress information but may not erase load-bearing constraints.
 
----
+______________________________________________________________________
 
-# 12. M→L Operator
+## 12. M→L Operator
 
 ```text
 ALLOCATE_M_TO_L(M_t, L_1...L_n)
@@ -645,10 +645,10 @@ ALLOCATE_M_TO_L(M_t, L_1...L_n)
 
 Conceptually:
 
-[
+\[
 b_i =
-Allocate(L_i\mid M_t)
-]
+Allocate(L_i\\mid M_t)
+\]
 
 Candidate allocation may depend on:
 
@@ -667,9 +667,9 @@ irreversibility
 
 No single canonical weighting formula is established here.
 
----
+______________________________________________________________________
 
-# 13. L→M Operator
+## 13. L→M Operator
 
 ```text
 AGGREGATE_L_TO_M()
@@ -677,12 +677,10 @@ AGGREGATE_L_TO_M()
 
 Local results update subsystem state.
 
-[
-M_{t+1}
-=======
+## \[ M\_{t+1}
 
-Update_M(M_t,\Delta L)
-]
+Update_M(M_t,\\Delta L)
+\]
 
 Examples:
 
@@ -706,9 +704,9 @@ automatic M conclusion
 
 Aggregation must respect applicability and provenance.
 
----
+______________________________________________________________________
 
-# 14. M→H Operator
+## 14. M→H Operator
 
 ```text
 ESCALATE_M_TO_H()
@@ -733,18 +731,16 @@ confidence collapse
 
 Conceptually:
 
-[
-Escalate(M\rightarrow H)
-========================
+## \[ Escalate(M\\rightarrow H)
 
 1
-]
+\]
 
 when an M-state change is decision-relevant at H.
 
----
+______________________________________________________________________
 
-# 15. Cross-Level Attention Cycle
+## 15. Cross-Level Attention Cycle
 
 ```text
 H objective / constraints
@@ -772,9 +768,9 @@ H updated state
 
 This may repeat until sufficiency or termination criteria are met.
 
----
+______________________________________________________________________
 
-# 16. Invariants
+## 16. Invariants
 
 ```text
 L02-HML-INV-001
@@ -838,9 +834,9 @@ L02-HML-INV-020
 Salience does not establish evidential importance.
 ```
 
----
+______________________________________________________________________
 
-# 17. Dependency Structure
+## 17. Dependency Structure
 
 Primary upstream dependency:
 
@@ -872,9 +868,9 @@ specific attention event
 
 Potential downstream primitives must be established from canon before being asserted as canonical dependencies.
 
----
+______________________________________________________________________
 
-# 18. H/M/L Applicability Matrix
+## 18. H/M/L Applicability Matrix
 
 | Concern             |                  H |                 M |                  L |
 | ------------------- | -----------------: | ----------------: | -----------------: |
@@ -894,13 +890,13 @@ Potential downstream primitives must be established from canon before being asse
 | Validation          |       System claim |          Workflow |    Specific result |
 | Repair              |           Strategy |      Coordination |   Local correction |
 
----
+______________________________________________________________________
 
-# 19. Attention Priority Across H/M/L
+## 19. Attention Priority Across H/M/L
 
 A generic, non-canonical prioritization model may be represented as:
 
-[
+\[
 Priority_i =
 F(
 Goal_i,
@@ -912,17 +908,17 @@ Contradiction_i,
 InformationGain_i,
 Cost_i
 )
-]
+\]
 
 This is intentionally function-valued rather than assigning unsupported canonical weights.
 
 Constraint:
 
-[
+\[
 Priority_i
-\not\Rightarrow
+\\not\\Rightarrow
 Truth_i
-]
+\]
 
 Attention answers:
 
@@ -936,9 +932,9 @@ not:
 what is true
 ```
 
----
+______________________________________________________________________
 
-# 20. Adaptive Complexity Mapping
+## 20. Adaptive Complexity Mapping
 
 L02 may map AMOS adaptive complexity onto H/M/L attention:
 
@@ -971,9 +967,9 @@ C4:
 
 Escalation should occur because decision-changing uncertainty warrants it, not merely because more analysis is possible.
 
----
+______________________________________________________________________
 
-# 21. Control-Plane Requirements
+## 21. Control-Plane Requirements
 
 The control plane must own or validate:
 
@@ -1010,9 +1006,9 @@ COMMIT(x)
 
 Commit-time authority remains a control-plane concern.
 
----
+______________________________________________________________________
 
-# 22. Agents
+## 22. Agents
 
 Candidate logical roles:
 
@@ -1043,9 +1039,9 @@ auditor:
   checks cross-level integrity
 ```
 
----
+______________________________________________________________________
 
-# 23. Skills
+## 23. Skills
 
 Potential AMOS capability mappings include:
 
@@ -1063,9 +1059,9 @@ AMOS Provenance Trust Firewall
 
 Skill availability does not establish canonical L02 membership.
 
----
+______________________________________________________________________
 
-# 24. Workflow
+## 24. Workflow
 
 ```text
 RECEIVE observations from L01
@@ -1095,9 +1091,9 @@ CHECK claim/action sufficiency
 CONTINUE / DE-ESCALATE / STOP
 ```
 
----
+______________________________________________________________________
 
-# 25. Protocol
+## 25. Protocol
 
 ```yaml
 AttentionHMLCapsule:
@@ -1143,9 +1139,9 @@ AttentionHMLCapsule:
   gap_status: UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 26. Evidence / Provenance
+## 26. Evidence / Provenance
 
 Every cross-level transformation should preserve:
 
@@ -1164,21 +1160,21 @@ timestamp/epoch where available
 
 Conceptually:
 
-[
+\[
 Prov(L)
-\rightarrow
+\\rightarrow
 Prov(M)
-\rightarrow
+\\rightarrow
 Prov(H)
-]
+\]
 
 must retain ancestry.
 
 Aggregation must not transform several descendants of one source into false independent confirmation.
 
----
+______________________________________________________________________
 
-# 27. Provenance Independence
+## 27. Provenance Independence
 
 Suppose:
 
@@ -1200,27 +1196,27 @@ Independence is a provenance property, not a count property.
 
 This applies at all H/M/L transitions.
 
----
+______________________________________________________________________
 
-# 28. Confidence Ceiling
+## 28. Confidence Ceiling
 
 For an M-level conclusion derived from L-level premises:
 
-[
+\[
 Conf(M)
-\le
-\min_i Conf(L_i)
-]
+\\le
+\\min_i Conf(L_i)
+\]
 
 for load-bearing premises unless independently revalidated.
 
 Likewise:
 
-[
+\[
 Conf(H)
-\le
-\min_j Conf(M_j)
-]
+\\le
+\\min_j Conf(M_j)
+\]
 
 for load-bearing subsystem conclusions.
 
@@ -1228,9 +1224,9 @@ Aggregation alone cannot increase epistemic confidence.
 
 Independent validation may alter the evidence graph and therefore the ceiling.
 
----
+______________________________________________________________________
 
-# 29. Uncertainty Vector
+## 29. Uncertainty Vector
 
 ```yaml
 uncertainty:
@@ -1264,9 +1260,9 @@ uncertainty:
       whether aggregated evidence is genuinely independent
 ```
 
----
+______________________________________________________________________
 
-# 30. Failure Modes
+## 30. Failure Modes
 
 ## FM-HML-001 — Level Collapse
 
@@ -1340,9 +1336,9 @@ Highly noticeable information consumes resources despite low decision relevance.
 
 Any local change forces unnecessary full H/M/L recomputation.
 
----
+______________________________________________________________________
 
-# 31. Repair / Recovery
+## 31. Repair / Recovery
 
 ## Level collapse
 
@@ -1395,25 +1391,25 @@ identify decision-changing L/M result
 → recompute H state
 ```
 
----
+______________________________________________________________________
 
-# 32. Selective Invalidation
+## 32. Selective Invalidation
 
-If local premise \(L_k\) fails:
+If local premise (L_k) fails:
 
-[
+\[
 Invalid(L_k)
-\Rightarrow
+\\Rightarrow
 Invalidate(Descendants(L_k))
-]
+\]
 
 not:
 
-[
+\[
 Invalid(L_k)
-\Rightarrow
+\\Rightarrow
 Invalidate(All)
-]
+\]
 
 If the failed local result supports only one M branch:
 
@@ -1425,9 +1421,9 @@ preserve unaffected H state
 
 This is central to scalable H/M/L reasoning.
 
----
+______________________________________________________________________
 
-# 33. Escalation Criteria
+## 33. Escalation Criteria
 
 Escalation from L→M or M→H is appropriate when the new information:
 
@@ -1447,9 +1443,9 @@ changes confidence beyond a decision threshold
 
 Otherwise local handling is preferred.
 
----
+______________________________________________________________________
 
-# 34. De-escalation Criteria
+## 34. De-escalation Criteria
 
 Attention may move downward or terminate when:
 
@@ -1464,20 +1460,20 @@ resource cost exceeds expected information value
 
 De-escalation must not hide unresolved critical gaps.
 
----
+______________________________________________________________________
 
-# 35. Stop Condition
+## 35. Stop Condition
 
 A generic H/M/L stop condition is:
 
-[
+\[
 Stop =
 ClaimSufficient
-\land
+\\land
 DecisionSufficient
-\land
+\\land
 ActionSufficient
-]
+\]
 
 where applicable.
 
@@ -1492,9 +1488,9 @@ may be `NOT_APPLICABLE`.
 
 Stopping is not equivalent to universal certainty.
 
----
+______________________________________________________________________
 
-# 36. Tests / Validators
+## 36. Tests / Validators
 
 ```text
 VALIDATE_HML_TYPES
@@ -1515,9 +1511,9 @@ VALIDATE_AUTHORITY_SEPARATION
 VALIDATE_STOP_CONDITION
 ```
 
----
+______________________________________________________________________
 
-# 37. Minimum Tests
+## 37. Minimum Tests
 
 ```text
 TEST-L02-HML-001
@@ -1569,9 +1565,9 @@ TEST-L02-HML-016
 Stopping cannot occur while unresolved critical gaps block sufficiency.
 ```
 
----
+______________________________________________________________________
 
-# 38. Falsifiers
+## 38. Falsifiers
 
 Revise this contract if direct AMOS canon establishes:
 
@@ -1593,9 +1589,9 @@ another control plane exclusively owns the modeled functions
 
 Runtime claims are falsified if executable evidence shows that the implemented system does not perform the documented cross-level behavior.
 
----
+______________________________________________________________________
 
-# 39. Competing Models
+## 39. Competing Models
 
 Preserve at least these alternatives:
 
@@ -1621,9 +1617,9 @@ some allocation functions belong to the infrastructure control plane rather than
 
 No forced convergence is warranted without discriminating source/runtime evidence.
 
----
+______________________________________________________________________
 
-# 40. Gap Status
+## 40. Gap Status
 
 ```yaml
 gap_status:
@@ -1690,9 +1686,9 @@ Until resolved:
 H/M/L mapping = MODEL
 ```
 
----
+______________________________________________________________________
 
-# 41. RSCF Completion State
+## 41. RSCF Completion State
 
 ```yaml
 rscf:
@@ -1786,9 +1782,9 @@ rscf:
     compare it against the H/M/L decomposition specified here
 ```
 
----
+______________________________________________________________________
 
-# 42. Completion State
+## 42. Completion State
 
 ```yaml
 completion_state:
@@ -1860,9 +1856,9 @@ completion_state:
     MODEL
 ```
 
----
+______________________________________________________________________
 
-# 43. Hard Boundaries
+## 43. Hard Boundaries
 
 ```text
 PLACEHOLDER != IMPLEMENTED
@@ -1908,9 +1904,9 @@ MODEL HML != CANONICAL HML
 DOCUMENTED HML != IMPLEMENTED HML
 ```
 
----
+______________________________________________________________________
 
-# 44. References
+## 44. References
 
 ```text
 PLACEHOLDER
@@ -1948,15 +1944,15 @@ Cosmo_Brain_BRIDGE_INDEX
 Cosmo_Brain_BRIDGE_INDEX
 ```
 
----
+______________________________________________________________________
 
-# 45. Governing H/M/L Contract
+## 45. Governing H/M/L Contract
 
 > **`L02_ATTENTION` may be represented in AMOS as a provenance-preserving H/M/L allocation hierarchy: H determines governing attention requirements and resource envelopes; M converts those requirements into bounded allocations among competing reasoning paths; L applies attention to concrete observations, claims, evidence, dependencies, tests, or actions. Information may move upward only through scope-, regime-, dependency-, and provenance-aware aggregation, while governing constraints may move downward without manufacturing evidence. Attention priority never establishes truth, confidence, authority, or commit eligibility.**
 
----
+______________________________________________________________________
 
-# 46. Canon Boundary
+## 46. Canon Boundary
 
 ```text
 SOURCE-SUPPORTED:
@@ -2019,22 +2015,27 @@ AUTHORIZATION TO COMMIT
 
 ```text
 ```
----
+
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: l02_attention_primitives_cognitive_matrix_hml
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION/L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_HML.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION/L02_ATTENTION_MOC|L02_ATTENTION_MOC]]

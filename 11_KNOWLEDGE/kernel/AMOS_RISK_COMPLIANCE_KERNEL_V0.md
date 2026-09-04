@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: AMOS RISK COMPLIANCE KERNEL V0
 tags:
-- canon-group/tech-ai
-- canon/framework
-- rscf/claim
-- rscf/provenance
-- rscf/state/source-claim
-- topic/amos-risk-compliance-kernel-v0
-- kernel
+  - canon-group/tech-ai
+  - canon/framework
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - topic/amos-risk-compliance-kernel-v0
+  - kernel
 type: data
 source: 11_KNOWLEDGE/kernel
 rscf:
@@ -304,6 +307,6 @@ rscf:
 **Related:** [[11_KNOWLEDGE/kernel/AMOS_WORKFLOW_ORCHESTRATION_KERNEL_V0_TECH|AMOS_WORKFLOW_ORCHESTRATION_KERNEL_V0_TECH]] · [[11_KNOWLEDGE/kernel/AMOS_PROBABILITY_STATISTICS_KERNEL|AMOS_PROBABILITY_STATISTICS_KERNEL]] · [[11_KNOWLEDGE/kernel/AMOS_VOMNI_MASTER_KERNEL|AMOS_VOMNI_MASTER_KERNEL]] · [[11_KNOWLEDGE/kernel/AMOS_OBSERVABILITY_MONITORING_KERNEL_V0_TECH|AMOS_OBSERVABILITY_MONITORING_KERNEL_V0_TECH]]
 ```
 
----
-**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]
+______________________________________________________________________
 
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]

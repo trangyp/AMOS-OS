@@ -12,11 +12,11 @@ segment: 25_COGNITIVE_MATRIX
 artifact_kind: MATRIX
 path: 25_COGNITIVE_MATRIX/UBI_X_FULL_BRAIN_MATRIX.md
 tags:
-- amos-os
-- cognitive-matrix
-- canon/matrix
-- rscf
-- provenance
+  - amos-os
+  - cognitive-matrix
+  - canon/matrix
+  - rscf
+  - provenance
 version: 1.0.0
 updated: '2026-08-28'
 status: CANON_CANDIDATE
@@ -98,9 +98,9 @@ $$
 
 The appropriate external conclusion class remains **AMOS_MODEL / SOURCE_CLAIM** unless supporting implementation evidence is separately retrieved.
 
----
+______________________________________________________________________
 
-# 2. Core architectural proposition
+## 2. Core architectural proposition
 
 The matrix contains seven architectural layers:
 
@@ -124,9 +124,9 @@ $$
 
 where:
 
-- \(P_k\) = Full Brain process function,
-- \(U_k\) = associated UBI feedback coupling,
-- \(G_k\) = safety guard.
+- (P_k) = Full Brain process function,
+- (U_k) = associated UBI feedback coupling,
+- (G_k) = safety guard.
 
 Therefore the source-defined architecture can be normalized as:
 
@@ -157,9 +157,9 @@ $$
 
 unless the specification or binding artifacts provide the required mechanism.
 
----
+______________________________________________________________________
 
-# 3. Complete seven-layer routing matrix
+## 3. Complete seven-layer routing matrix
 
 | Layer  | Process Function         | UBI Feedback Coupling       | Safety Guard                  | Source-grounded interpretation         |
 | ------ | ------------------------ | --------------------------- | ----------------------------- | -------------------------------------- |
@@ -168,7 +168,7 @@ unless the specification or binding artifacts provide the required mechanism.
 | **L2** | Structural Decomposition | Memory context capacity     | Context Compaction            | Cognitive resource boundary            |
 | **L3** | Cognitive Infrastructure | 40Hz multi-agent clock      | Gamma Lock Pulse              | Coordination/timing boundary           |
 | **L4** | Quantum Reasoning        | Superposition coherence     | Dominance Collapse            | Alternative-state/coherence boundary   |
-| **L5** | Biological Integration   | Autonomic vagal telemetry   | Distress Veto \((\tau<0.20)\) | Biological distress boundary           |
+| **L5** | Biological Integration   | Autonomic vagal telemetry   | Distress Veto ((\\tau\<0.20)) | Biological distress boundary           |
 | **L6** | Synthesis & Dispatch     | Output communication mask   | Mask H3 Activation            | Externalization/communication boundary |
 
 This produces a seven-stage **architectural decomposition**, but not necessarily a seven-step execution sequence.
@@ -211,9 +211,9 @@ $$
 }
 $$
 
----
+______________________________________________________________________
 
-# 4. Layer 0 — Substrate Reality Gate
+## 4. Layer 0 — Substrate Reality Gate
 
 ### Source definition
 
@@ -293,9 +293,9 @@ But the matrix does not define:
 
 Therefore the guard's **existence in the model is source-grounded**, while its implementation semantics remain incomplete.
 
----
+______________________________________________________________________
 
-# 5. Layer 1 — Meta-Logic Kernel
+## 5. Layer 1 — Meta-Logic Kernel
 
 ### Source definition
 
@@ -324,7 +324,7 @@ $$
 G_{\text{veto}}
 $$
 
-where \(I_{\text{logic}}\) denotes whatever non-contradiction invariant is defined by the corresponding kernel/canon layer.
+where (I\_{\\text{logic}}) denotes whatever non-contradiction invariant is defined by the corresponding kernel/canon layer.
 
 ### Connection to Total Kernel Matrix
 
@@ -361,9 +361,9 @@ The supported conclusion is:
 
 **DERIVED:** Full Brain Layer 1 appears designed as the Full Brain-facing interface to the Meta-Logic Kernel enforcement architecture.
 
----
+______________________________________________________________________
 
-# 6. Layer 2 — Structural Decomposition
+## 6. Layer 2 — Structural Decomposition
 
 ### Source definition
 
@@ -440,9 +440,9 @@ So the integrated relation should remain:
 
 **CONDITIONAL / DERIVED**, not VERIFIED.
 
----
+______________________________________________________________________
 
-# 7. Layer 3 — Cognitive Infrastructure
+## 7. Layer 3 — Cognitive Infrastructure
 
 ### Source definition
 
@@ -552,9 +552,9 @@ $$
 
 unless independent implementation and measurement evidence exists elsewhere.
 
----
+______________________________________________________________________
 
-# 8. Layer 4 — Quantum Reasoning
+## 8. Layer 4 — Quantum Reasoning
 
 ### Source definition
 
@@ -590,11 +590,11 @@ must initially be interpreted as a source-defined architectural construct.
 The artifact does not tell us whether `quantum` means:
 
 1. actual quantum hardware,
-2. quantum-inspired computation,
-3. multi-hypothesis state representation,
-4. probabilistic superposition,
-5. symbolic analogy,
-6. some separately defined AMOS QLS mechanism.
+1. quantum-inspired computation,
+1. multi-hypothesis state representation,
+1. probabilistic superposition,
+1. symbolic analogy,
+1. some separately defined AMOS QLS mechanism.
 
 The supplied `TOTAL_KERNEL_MATRIX` does mention:
 
@@ -630,9 +630,9 @@ quantum_reasoning:
 
 This prevents architectural vocabulary from being incorrectly converted into a physical claim.
 
----
+______________________________________________________________________
 
-# 9. Layer 5 — Biological Integration
+## 9. Layer 5 — Biological Integration
 
 ### Source definition
 
@@ -709,19 +709,19 @@ $$
 
 where Layer 5 may use a specialized vagal/autonomic threshold variable that happens to share the same numerical boundary.
 
-At present, the supplied evidence strongly favors \(H_1\) structurally, but it does not eliminate \(H_2\).
+At present, the supplied evidence strongly favors (H_1) structurally, but it does not eliminate (H_2).
 
 The cheapest discriminating evidence is the source specification:
 
-``
+\`\`
 
 followed by:
 
-``.
+\`\`.
 
----
+______________________________________________________________________
 
-# 10. Layer 6 — Synthesis & Dispatch
+## 10. Layer 6 — Synthesis & Dispatch
 
 ### Source definition
 
@@ -783,9 +783,9 @@ Therefore the only source-safe statement is:
 
 It is not yet safe to state that both are the same implementation.
 
----
+______________________________________________________________________
 
-# 11. Full cross-matrix convergence
+## 11. Full cross-matrix convergence
 
 When the Full Brain artifact is combined only with the supplied matrices, a broader architecture emerges.
 
@@ -853,9 +853,9 @@ When the Full Brain artifact is combined only with the supplied matrices, a broa
 
 Again, this diagram represents **logical architectural organization**, not verified temporal execution.
 
----
+______________________________________________________________________
 
-# 12. Relationship with UBI × Cognition
+## 12. Relationship with UBI × Cognition
 
 The supplied artifacts allow a substantial cross-matrix mapping.
 
@@ -865,10 +865,10 @@ The supplied artifacts allow a substantial cross-matrix mapping.
 | Context Compaction            | L2 Context Compaction          | Same named enforcement concept   |
 | BEI / 40Hz Gamma Clock        | L3 40Hz Multi-Agent Clock      | Strong correspondence            |
 | Agent Resynchronization Pulse | Gamma Lock Pulse               | Candidate equivalence            |
-| \(\tau_{\text{bio}}<0.20\)    | \(\tau<0.20\)                  | Candidate variable identity      |
+| (\\tau\_{\\text{bio}}\<0.20)  | (\\tau\<0.20)                  | Candidate variable identity      |
 | Cognitive overload veto       | L5 Distress Veto               | Strong functional correspondence |
 | Reasoning throttling          | Biological Integration control | Compatible, but not identical    |
-| Null-state reset \(S_0\)      | No explicit Full Brain row     | Dependency may exist elsewhere   |
+| Null-state reset (S_0)        | No explicit Full Brain row     | Dependency may exist elsewhere   |
 
 This means UBI × Cognition appears to specify **dynamic cognitive pacing**, whereas UBI × Full Brain appears to distribute similar controls across a **layered Full Brain topology**.
 
@@ -890,9 +890,9 @@ $$
 
 This is a **DERIVED interpretation**, but it explains why similar guards recur without requiring the matrices to be duplicates.
 
----
+______________________________________________________________________
 
-# 13. Relationship with UBI × Emotion
+## 13. Relationship with UBI × Emotion
 
 The supplied UBI × Emotion artifacts add another potential control channel.
 
@@ -946,9 +946,9 @@ without the binding artifact.
 
 This is a decision-relevant gap.
 
----
+______________________________________________________________________
 
-# 14. Relationship with Total Kernel Matrix
+## 14. Relationship with Total Kernel Matrix
 
 Several rows align with the supplied kernel convergence matrix:
 
@@ -1014,9 +1014,9 @@ $$
 
 This is exactly the sort of distinction that should not be smoothed away merely because both are fail-closed mechanisms.
 
----
+______________________________________________________________________
 
-# 15. Relationship with Total Canon Matrix
+## 15. Relationship with Total Canon Matrix
 
 The strongest cross-plane pattern is the recurrence of enforcement boundaries.
 
@@ -1041,9 +1041,9 @@ Possible correspondences include:
 
 These are architectural mappings inferred across supplied artifacts, not direct declarations of this matrix.
 
----
+______________________________________________________________________
 
-# 16. Fail-closed architecture
+## 16. Fail-closed architecture
 
 The Full Brain matrix is notable because every layer terminates in a guard.
 
@@ -1062,7 +1062,7 @@ Violation(I_k)
 G_k
 $$
 
-where \(I_k\) is the relevant local validity condition.
+where (I_k) is the relevant local validity condition.
 
 This yields:
 
@@ -1096,9 +1096,9 @@ $$
 
 because continuation is conditioned on local invariants.
 
----
+______________________________________________________________________
 
-# 17. Local versus global failure
+## 17. Local versus global failure
 
 The matrix does not state whether one guard failure collapses the entire Full Brain.
 
@@ -1135,7 +1135,7 @@ $$
 S_0
 $$
 
-although the earlier UBI × Cognition specification associates emergency conditions with full rollback to \(S_0\).
+although the earlier UBI × Cognition specification associates emergency conditions with full rollback to (S_0).
 
 Thus there are at least two candidate control models.
 
@@ -1167,9 +1167,9 @@ The Full Brain matrix alone cannot discriminate between them.
 
 The broader AMOS failure-recovery architecture makes Hypothesis B plausible, but it remains **DERIVED** here.
 
----
+______________________________________________________________________
 
-# 18. Safety topology
+## 18. Safety topology
 
 The seven guards can also be classified by what they protect.
 
@@ -1203,9 +1203,9 @@ $$
 
 But this sequence is a **MODEL interpretation of layer roles**, not proof that the system executes in that order.
 
----
+______________________________________________________________________
 
-# 19. Causal firewall
+## 19. Causal firewall
 
 Several relationships must remain explicitly non-causal until stronger evidence is available.
 
@@ -1259,9 +1259,9 @@ in a deployed implementation.
 
 Those may exist elsewhere in the corpus, but this artifact alone cannot license them.
 
----
+______________________________________________________________________
 
-# 20. Epistemic decomposition
+## 20. Epistemic decomposition
 
 A useful RSCF decomposition is:
 
@@ -1273,7 +1273,7 @@ A useful RSCF decomposition is:
 - each layer has a process function;
 - each has a UBI feedback coupling;
 - each has a safety guard;
-- Layer 5 contains \(\tau<0.20\);
+- Layer 5 contains (\\tau\<0.20);
 - artifact points to `UBI_X_FULL_BRAIN`;
 - artifact points to `25_COGNITIVE_MATRIX_MOC`.
 
@@ -1289,7 +1289,7 @@ A useful RSCF decomposition is:
 - L1 maps to the Total Kernel Meta-Logic Kernel;
 - L2 corresponds to the UBI × Cognition working-memory pathway;
 - L3 corresponds to BEI/40Hz synchronization;
-- L5 likely uses \(\tau_{\text{bio}}\);
+- L5 likely uses (\\tau\_{\\text{bio}});
 - L6 likely interfaces with the C06 H3 mask.
 
 ### UNKNOWN / GAP
@@ -1300,15 +1300,15 @@ A useful RSCF decomposition is:
 - definition of superposition coherence;
 - definition of Dominance Collapse;
 - whether Gamma Lock Pulse equals Agent Resynchronization Pulse;
-- whether \(\tau=\tau_{\text{bio}}\);
+- whether (\\tau=\\tau\_{\\text{bio}});
 - exact meaning of H3;
 - escalation hierarchy between guards;
 - recovery path after Hardware Halt;
 - actual executable implementation evidence.
 
----
+______________________________________________________________________
 
-# 21. Normalized Full RSCF contract
+## 21. Normalized Full RSCF contract
 
 ```yaml
 RSCF:
@@ -1595,7 +1595,7 @@ RSCF:
       NOT_ESTABLISHED_FROM_THIS_ARTIFACT
 ```
 
-# 22. Dependency graph
+## 22. Dependency graph
 
 The smallest coherent dependency topology is:
 
@@ -1645,15 +1645,15 @@ $$
 
 for questions specifically about this matrix.
 
----
+______________________________________________________________________
 
-# 23. Highest-value unresolved discriminators
+## 23. Highest-value unresolved discriminators
 
 Not every missing detail deserves retrieval.
 
 The decision-changing gaps are concentrated in five areas.
 
-**First:** whether Layer 5's \(\tau\) is explicitly \(\tau_{\text{bio}}\). Resolving that determines whether the cognition and Full Brain distress mechanisms share one canonical threshold variable.
+**First:** whether Layer 5's (\\tau) is explicitly (\\tau\_{\\text{bio}}). Resolving that determines whether the cognition and Full Brain distress mechanisms share one canonical threshold variable.
 
 **Second:** whether `Gamma Lock Pulse` and `Agent Resynchronization Pulse` are aliases, stages, or separate controls.
 
@@ -1665,9 +1665,9 @@ The decision-changing gaps are concentrated in five areas.
 
 Everything else is secondary until these are resolved.
 
----
+______________________________________________________________________
 
-# 24. Canon-safe integrated formulation
+## 24. Canon-safe integrated formulation
 
 Using only the material supplied so far, the strongest formulation that does not overclaim is:
 
@@ -1687,8 +1687,8 @@ $$
 where every Full Brain layer is assigned:
 
 1. a processing responsibility,
-2. a UBI-related feedback channel,
-3. a local enforcement guard.
+1. a UBI-related feedback channel,
+1. a local enforcement guard.
 
 The resulting governance form is:
 
@@ -1744,19 +1744,19 @@ with escalation only when local repair fails.
 
 That interpretation is more consistent with AMOS's repairable-action principle, but the exact escalation mechanics remain to be established by the specification.
 
----
+______________________________________________________________________
 
-# 25. Final proof capsule
+## 25. Final proof capsule
 
 **Claim:** The supplied `UBI_X_FULL_BRAIN_MATRIX.md v2.0.0` defines a seven-layer AMOS Full Brain architecture in which each layer maps a process function to a UBI feedback coupling and a safety guard.
 
 **Class:** **SOURCE_CLAIM / AMOS_MODEL**
 
-**Source-grounded components:** seven layers; all seven process labels; all seven UBI coupling labels; all seven guards; Layer-5 threshold \(\tau<0.20\); declared binding to `UBI_X_FULL_BRAIN` and `UBI_FULL_BRAIN_BINDING`.
+**Source-grounded components:** seven layers; all seven process labels; all seven UBI coupling labels; all seven guards; Layer-5 threshold (\\tau\<0.20); declared binding to `UBI_X_FULL_BRAIN` and `UBI_FULL_BRAIN_BINDING`.
 
 **Derived convergence:** L1↔Meta-Logic Kernel; L2↔UBI working-memory governance; L3↔BEI/40Hz synchronization; L5↔UBI biological distress control; L6↔H3 communication masking.
 
-**Competing/conditional:** \(\tau=\tau_{\text{bio}}\); Gamma Lock Pulse = Agent Resynchronization Pulse; Layer-4 Quantum Reasoning = QLS multi-state reasoning.
+**Competing/conditional:** (\\tau=\\tau\_{\\text{bio}}); Gamma Lock Pulse = Agent Resynchronization Pulse; Layer-4 Quantum Reasoning = QLS multi-state reasoning.
 
 **Not established:** physical quantum computation, actual 40Hz biological synchronization of AI agents, deployed vagal telemetry, hardware-level enforcement, temporal L0→L6 sequencing, or independent runtime verification.
 
@@ -1824,7 +1824,6 @@ without the missing binding and implementation evidence.
 
 For future `full` requests on these matrix artifacts, I’ll use this depth as the baseline rather than the compressed format.
 
----
+______________________________________________________________________
 
 **MOC:** [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_HOME|00_HOME]]
-

@@ -1,14 +1,17 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Vault Domain Knowledge — Amos Economic Model
 type: reference
 source: 07_SKILLS/amos-economic-model/references
 tags:
-- reference
-- amos-economic-model
-- type/skill
-- ratpak
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-economic-model
+  - type/skill
+  - ratpak
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -28,7 +31,7 @@ rscf:
 
 > Path: `economy/Extractive_Economy_Model.md` | Size: 2012 chars | Match score: 15 | content_hash: 2d26de47a6bff126
 
-# AMOS Extractive Economy Model
+## AMOS Extractive Economy Model
 
 > **Core Engine**: Extractive Economy
 > **Skill Mapping**: `amos-extractive-economy-layer`
@@ -40,62 +43,68 @@ The Extractive Economy Model maps the mechanics, consequences, and lifecycle of 
 ### Key Components
 
 #### 1. Mechanics of Extraction
+
 - Identifies the core vectors of extraction (Resource, Capital, Labor, Attention/Data).
 - Maps the velocity and efficiency of the extraction process against the natural replenishment rate.
 
 #### 2. Systemic Depletion Dynamics
+
 - Predicts the tipping points where extraction outpaces regeneration, leading to structural collapse.
 - Models the "Tragedy of the Commons" at a macroeconomic scale.
 
 #### 3. Transition & Mitigation
+
 - Maps the required pathways to shift from an extractive model to a generative or circular model.
 - Evaluates the policy and risk interventions necessary to stabilize a depleting system.
 
 ## Integration & Output
+
 This model is closely tied to the `amos-governance-economy-layer` and `amos-policy-geostrategy-engine-layer`. When an AMOS agent is evaluating the long-term viability of a business model, national policy, or corporate strategy heavily reliant on finite resources or zero-sum extraction, it must invoke this model to properly price the systemic risk of depletion.
 
----
+______________________________________________________________________
 
----
+______________________________________________________________________
 
 ### Source 2: AMOS Economics & Finance Engine
 
 > Path: `economy/Econ_Finance_Model.md` | Size: 1717 chars | Match score: 15 | content_hash: de46d88c89bcb3b9
 
-# AMOS Economics & Finance Engine
-
+## AMOS Economics & Finance Engine
 
 The **Economics & Finance Engine** models firm behavior, macroeconomic cycles, public finance policy, and financial market risk.
 
 ## Core Sub-Kernels
+
 1. **Microeconomics Kernel:**
 
 Models preferences, constraints, technology, and market equilibria for firms and households.
-2. **Macroeconomics Kernel:**
+2\. **Macroeconomics Kernel:**
 
 Models the output gap, policy rates, expectations, and exogenous shocks affecting growth and inflation.
-3. **Public Finance Kernel:**
+3\. **Public Finance Kernel:**
 
 Tracks revenue, transfers, deficits, and intergenerational burdens for taxes and welfare.
-4. **Financial System Kernel:**
+4\. **Financial System Kernel:**
 
 Models assets, liabilities, leverage, liquidity, and default risk in banks and capital markets.
 
 ## Applied Engines
+
 - **Sector Modelling Engine:** Maps demand/supply profiles and shock propagation across sectors, connecting micro to macro impacts.
 - **Financial Risk Scenario Engine:** Generates loss distributions and stress test results, highlighting tail risks.
 - **Policy Tradeoff Engine:** Frames policy decisions as optimizations, extracting the Pareto frontier and mapping stakeholder impact.
 
 ## Constraints
+
 - Never provide personalized investment advice.
 - Flag high uncertainty for long-horizon economic forecasts.
 - Avoid recommending illegal financial behaviour or market manipulation.
 
----
+______________________________________________________________________
 
----
+______________________________________________________________________
 
-### Source 3: B The Living State Monetisation Thesis_ A New Economic Paradigm
+### Source 3: B The Living State Monetisation Thesis\_ A New Economic Paradigm
 
 > Path: `economy/B The Living State Monetisation Thesis_ A New Economic Paradigm.md` | Size: 81300 chars | Match score: 13 | content_hash: 9ecae48402aa98be
 
@@ -161,7 +170,6 @@ effectively collaborate with AI systems in maintaining optimal states. It's the 
 
 potential and machine capability.
 
-
 Twenty-One Domains of Living State Monetisation
 
 1. Energy Infrastructure: The Frequency Guarantee
@@ -178,13 +186,15 @@ call for corrective action, precious seconds—sometimes minutes—have been los
 
 Technical Integration: The Symphony of Stability [[11_KNOWLEDGE/05_FRAMEWORKS/RATPAK|RATPAK]] orchestrates a dist
 
----
+______________________________________________________________________
+
 **MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -192,12 +202,14 @@ Technical Integration: The Symphony of Stability [[11_KNOWLEDGE/05_FRAMEWORKS/RA
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-economic-model-vault-domain-knowledge
 node_type: reference
 path: 07_SKILLS/amos-economic-model/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

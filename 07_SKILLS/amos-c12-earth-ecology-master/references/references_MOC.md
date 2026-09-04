@@ -1,42 +1,45 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: References MOC — References — Amos C12 Earth Ecology Master
 type: moc
 source: 07_SKILLS/amos-c12-earth-ecology-master/references
 tags:
-- references
-- type/skill
-- c12-earth-ecology-super-full
-- civilization-fails-energy-transition
-- domain-config
-- drive-quantum-restoration
-- electrical-power-engine-cognitive
-- electrical-power-engine-layer
-- electrical-power-model
-- energy-architecture
-- energy-eroi-carbon-scoring
-- energy-integrity-law
-- energy-justice-cannot-be-priced
-- energy-os
-- energy-pricing-moral-accounting
-- energy-reader
-- ev-kernel-layer
-- ev-super-engine
-- hydro-production-system
-- hydrogen-governance-test
-- hydrogen-offshore-energy-safety
-- hydrogen-powerful-energy-vector
-- hydrogen-vs-batteries-safety-math
-- integrity-bounded-energy-standard
-- nui-cam-planetary-energy-node
-- qls-abi-longevity
-- vault-domain-knowledge
-- vn-driver-charging-engine
-- vn-ev-baojun-collaboration
-- vn-ev-china-market-analysis
-- vn-ev-china-trend-strategy
-- vn-ev-unitax-100-vehicles
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - references
+  - type/skill
+  - c12-earth-ecology-super-full
+  - civilization-fails-energy-transition
+  - domain-config
+  - drive-quantum-restoration
+  - electrical-power-engine-cognitive
+  - electrical-power-engine-layer
+  - electrical-power-model
+  - energy-architecture
+  - energy-eroi-carbon-scoring
+  - energy-integrity-law
+  - energy-justice-cannot-be-priced
+  - energy-os
+  - energy-pricing-moral-accounting
+  - energy-reader
+  - ev-kernel-layer
+  - ev-super-engine
+  - hydro-production-system
+  - hydrogen-governance-test
+  - hydrogen-offshore-energy-safety
+  - hydrogen-powerful-energy-vector
+  - hydrogen-vs-batteries-safety-math
+  - integrity-bounded-energy-standard
+  - nui-cam-planetary-energy-node
+  - qls-abi-longevity
+  - vault-domain-knowledge
+  - vn-driver-charging-engine
+  - vn-ev-baojun-collaboration
+  - vn-ev-china-market-analysis
+  - vn-ev-china-trend-strategy
+  - vn-ev-unitax-100-vehicles
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 moc: true
 rscf:
   state: SOURCE_CLAIM
@@ -83,9 +86,9 @@ rscf:
 - [[07_SKILLS/amos-c12-earth-ecology-master/references/vn_ev_china_trend_strategy|vn_ev_china_trend_strategy]]
 - [[07_SKILLS/amos-c12-earth-ecology-master/references/vn_ev_unitax_100_vehicles|vn_ev_unitax_100_vehicles]]
 
----
-**Parent:** [[07_SKILLS/amos-c12-earth-ecology-master/amos-c12-earth-ecology-master_MOC|amos-c12-earth-ecology-master_MOC]]
----
+______________________________________________________________________
+
+## **Parent:** [[07_SKILLS/amos-c12-earth-ecology-master/amos-c12-earth-ecology-master_MOC|amos-c12-earth-ecology-master_MOC]]
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -93,12 +96,14 @@ rscf:
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-c12-earth-ecology-master-references-MOC
 node_type: reference
 path: 07_SKILLS/amos-c12-earth-ecology-master/references/references_MOC.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

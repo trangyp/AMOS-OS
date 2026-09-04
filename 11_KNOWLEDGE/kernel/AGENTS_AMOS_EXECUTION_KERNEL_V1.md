@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: AGENTS_AMOS_EXECUTION_KERNEL_V1
 tags:
-- knowledge
-- kernel
-- agents
-- execution
-- system-scan-agent
-- automation-profiles
-- amos-simulation-kernel-v0-math-foundations
+  - knowledge
+  - kernel
+  - agents
+  - execution
+  - system-scan-agent
+  - automation-profiles
+  - amos-simulation-kernel-v0-math-foundations
 type: note
 source: 11_KNOWLEDGE/kernel
 rscf:
@@ -43,7 +46,7 @@ rscf:
 
 ## 0.1 Derived / Proposed Obsidian Augmentation
 
-> [!warning] DERIVED / PROPOSED
+> [!WARNING] DERIVED / PROPOSED
 > The following metadata is useful for vault integration but **was not present in the supplied source frontmatter**.
 
 ```yaml
@@ -71,9 +74,9 @@ raw_source_policy: DO_NOT_REWRITE_CANON
 epistemic_boundary: SOURCE_CLAIM
 ```
 
----
+______________________________________________________________________
 
-# 1. Source Body
+## 1. Source Body
 
 The supplied kernel contract states:
 
@@ -82,14 +85,14 @@ The supplied kernel contract states:
 and instructs the system to:
 
 1. Construct a `TaskSpec`.
-2. Call the router.
-3. Resolve required skill contracts.
-4. Build the dependency DAG.
-5. Run pre-execution gates.
-6. Execute contracts in topological order.
-7. Commit resulting RSCFs atomically where coupled.
-8. Run final integrity/adversarial gates.
-9. Return the final bounded result.
+1. Call the router.
+1. Resolve required skill contracts.
+1. Build the dependency DAG.
+1. Run pre-execution gates.
+1. Execute contracts in topological order.
+1. Commit resulting RSCFs atomically where coupled.
+1. Run final integrity/adversarial gates.
+1. Return the final bounded result.
 
 It additionally establishes three critical control rules:
 
@@ -99,9 +102,9 @@ It additionally establishes three critical control rules:
 
 That last rule is particularly important.
 
----
+______________________________________________________________________
 
-# 2. Canonical Interpretation
+## 2. Canonical Interpretation
 
 The artifact defines a **reasoning execution contract** rather than a domain-knowledge artifact.
 
@@ -131,9 +134,9 @@ $$
 
 This equation is a **DERIVED formalization** of the explicitly numbered source sequence.
 
----
+______________________________________________________________________
 
-# 3. Strongest Supported Conclusion
+## 3. Strongest Supported Conclusion
 
 **SOURCE_CLAIM:** `AGENTS AMOS EXECUTION KERNEL V1` specifies a nine-stage AMOS execution discipline in which nontrivial reasoning is routed, dependency-resolved, gated, dependency-ordered, committed through RSCF-aware semantics, adversarially checked, and finally returned under an explicit epistemic bound.
 
@@ -159,9 +162,9 @@ BoundedReturn
 }
 $$
 
----
+______________________________________________________________________
 
-# 4. What the Artifact Does Not Establish
+## 4. What the Artifact Does Not Establish
 
 The source does **not**, by itself, prove that:
 
@@ -196,9 +199,9 @@ EXECUTION SEMANTICS
 EVIDENCE OF EXECUTION
 ```
 
----
+______________________________________________________________________
 
-# 5. Kernel Identity
+## 5. Kernel Identity
 
 The source title is:
 
@@ -224,9 +227,9 @@ AMOS Kernel Agent Contract
 
 There is no need to force these into competing identities.
 
----
+______________________________________________________________________
 
-# 6. Artifact Role
+## 6. Artifact Role
 
 The kernel sits conceptually between:
 
@@ -242,9 +245,9 @@ VALIDATED RESULT
 
 It governs **how reasoning proceeds** rather than supplying all domain facts itself.
 
----
+______________________________________________________________________
 
-# 7. Kernel Law
+## 7. Kernel Law
 
 The source can be compressed into:
 
@@ -262,9 +265,9 @@ $$
 
 Therefore the bypass exception is **router-mediated**, not based merely on subjective confidence.
 
----
+______________________________________________________________________
 
-# 8. “Seems Obvious” Is Not a Bypass Condition
+## 8. “Seems Obvious” Is Not a Bypass Condition
 
 The source explicitly says:
 
@@ -288,9 +291,9 @@ $$
 
 This is one of the strongest source-defined anti-shortcut rules.
 
----
+______________________________________________________________________
 
-# 9. The Nine-Stage Execution Spine
+## 9. The Nine-Stage Execution Spine
 
 ```text
 ┌───────────────────────────────────────┐
@@ -314,9 +317,9 @@ This is one of the strongest source-defined anti-shortcut rules.
 └───────────────────────────────────────┘
 ```
 
----
+______________________________________________________________________
 
-# 10. Stage 1 — Construct `TaskSpec`
+## 10. Stage 1 — Construct `TaskSpec`
 
 The first mandatory object is:
 
@@ -336,9 +339,9 @@ $$
 
 before downstream routing.
 
----
+______________________________________________________________________
 
-# 11. `TaskSpec` Epistemic Status
+## 11. `TaskSpec` Epistemic Status
 
 The source names `TaskSpec` but does not define its fields.
 
@@ -350,9 +353,9 @@ DERIVED / PROPOSED
 
 not canonical source.
 
----
+______________________________________________________________________
 
-# 12. Minimum `TaskSpec` Semantics
+## 12. Minimum `TaskSpec` Semantics
 
 The existence of the router implies that `TaskSpec` must contain enough information for the router to classify the task.
 
@@ -365,9 +368,9 @@ At minimum, this suggests information concerning:
 
 But the exact field set is not supplied.
 
----
+______________________________________________________________________
 
-# 13. Proposed `TaskSpec`
+## 13. Proposed `TaskSpec`
 
 A v4.4-compatible augmentation could be:
 
@@ -404,9 +407,9 @@ TaskSpec:
 
 This is **PROPOSED**, not source canon.
 
----
+______________________________________________________________________
 
-# 14. Task Specification Invariant
+## 14. Task Specification Invariant
 
 A useful derived invariant is:
 
@@ -420,9 +423,9 @@ unless the task is explicitly re-scoped.
 
 This prevents silent expansion.
 
----
+______________________________________________________________________
 
-# 15. TaskSpec Must Not Invent Intent
+## 15. TaskSpec Must Not Invent Intent
 
 A task compiler must not silently transform:
 
@@ -458,9 +461,9 @@ $$
 
 is a useful governance invariant.
 
----
+______________________________________________________________________
 
-# 16. Stage 2 — Call the Router
+## 16. Stage 2 — Call the Router
 
 After `TaskSpec`, the kernel says:
 
@@ -470,9 +473,9 @@ Call the router.
 
 Therefore routing occurs before skill-contract execution.
 
----
+______________________________________________________________________
 
-# 17. Router Function
+## 17. Router Function
 
 At minimum:
 
@@ -488,9 +491,9 @@ The only explicit router class named by the source is:
 C0
 ```
 
----
+______________________________________________________________________
 
-# 18. C0 Semantics
+## 18. C0 Semantics
 
 The source tells us only that `C0` is sufficiently simple to permit bypass of the nontrivial kernel path.
 
@@ -508,9 +511,9 @@ C4 Maximum
 
 This broader taxonomy belongs to the AMOS reasoning lineage and should not be misrepresented as text contained in this V1 artifact.
 
----
+______________________________________________________________________
 
-# 19. Router Firewall
+## 19. Router Firewall
 
 The source implies:
 
@@ -522,9 +525,9 @@ ROUTER CLASSIFIES C0
 
 Thus subjective fluency cannot replace routing.
 
----
+______________________________________________________________________
 
-# 20. Complexity ≠ Length
+## 20. Complexity ≠ Length
 
 A short question can be consequential.
 
@@ -534,9 +537,9 @@ Therefore a robust router should not use token count alone.
 
 This is DERIVED.
 
----
+______________________________________________________________________
 
-# 21. Stakes Escalation
+## 21. Stakes Escalation
 
 A task involving:
 
@@ -551,9 +554,9 @@ may deserve higher validation even if syntactically simple.
 
 This is an AMOS v4.4 governance augmentation, not explicit V1 source text.
 
----
+______________________________________________________________________
 
-# 22. Proposed Router Output
+## 22. Proposed Router Output
 
 ```yaml
 RouterDecision:
@@ -576,9 +579,9 @@ RouterDecision:
 
 PROPOSED.
 
----
+______________________________________________________________________
 
-# 23. Router Receipt
+## 23. Router Receipt
 
 For auditability, routing should conceptually produce a receipt:
 
@@ -594,9 +597,9 @@ RouterReceipt:
 
 Again, this is PROPOSED.
 
----
+______________________________________________________________________
 
-# 24. Stage 3 — Resolve Required Skill Contracts
+## 24. Stage 3 — Resolve Required Skill Contracts
 
 The kernel next requires:
 
@@ -614,9 +617,9 @@ contracts
 
 implies interface/governance requirements.
 
----
+______________________________________________________________________
 
-# 25. Skill Contract
+## 25. Skill Contract
 
 A skill contract can conceptually contain:
 
@@ -631,9 +634,9 @@ what gates constrain it
 
 But these exact fields are not provided in the source.
 
----
+______________________________________________________________________
 
-# 26. Contract Resolution ≠ Skill Execution
+## 26. Contract Resolution ≠ Skill Execution
 
 The order matters:
 
@@ -655,9 +658,9 @@ ResolveSkill
 ExecuteSkill
 $$
 
----
+______________________________________________________________________
 
-# 27. Missing Contract
+## 27. Missing Contract
 
 If a required capability has no resolvable contract, the kernel should not silently improvise an authoritative substitute.
 
@@ -671,9 +674,9 @@ or a conditional partial path where appropriate.
 
 This follows the explicit failed-gate/result discipline.
 
----
+______________________________________________________________________
 
-# 28. Contract Versioning
+## 28. Contract Versioning
 
 The source does not specify contract versions.
 
@@ -687,9 +690,9 @@ Which dependency version?
 
 remain implementation gaps.
 
----
+______________________________________________________________________
 
-# 29. Proposed Skill Contract
+## 29. Proposed Skill Contract
 
 ```yaml
 SkillContract:
@@ -727,9 +730,9 @@ SkillContract:
 
 PROPOSED.
 
----
+______________________________________________________________________
 
-# 30. Contract Compatibility
+## 30. Contract Compatibility
 
 Two skills being relevant to the same problem does not prove they can be composed.
 
@@ -754,9 +757,9 @@ Compatibility may depend on:
 - provenance;
 - side effects.
 
----
+______________________________________________________________________
 
-# 31. Stage 4 — Build Dependency DAG
+## 31. Stage 4 — Build Dependency DAG
 
 The fourth stage is explicit:
 
@@ -774,9 +777,9 @@ in conventional graph terminology.
 
 The source uses the acronym without expanding it, but this expansion is standard technical terminology.
 
----
+______________________________________________________________________
 
-# 32. DAG Purpose
+## 32. DAG Purpose
 
 The dependency graph determines what must precede what.
 
@@ -788,12 +791,12 @@ $$
 
 where:
 
-- \(V\) = resolved contracts/tasks;
-- \(E\) = dependency relations.
+- (V) = resolved contracts/tasks;
+- (E) = dependency relations.
 
----
+______________________________________________________________________
 
-# 33. Dependency Edge
+## 33. Dependency Edge
 
 If:
 
@@ -803,9 +806,9 @@ $$
 
 means B depends on A, then B must not execute before A satisfies its required conditions.
 
----
+______________________________________________________________________
 
-# 34. DAG Acyclicity
+## 34. DAG Acyclicity
 
 Because the source specifically says `DAG`, cycles are structurally prohibited in the execution dependency representation.
 
@@ -819,9 +822,9 @@ $$
 
 is a reasonable DERIVED invariant.
 
----
+______________________________________________________________________
 
-# 35. Cycle Handling
+## 35. Cycle Handling
 
 The source does not say what happens if a dependency cycle is discovered.
 
@@ -837,9 +840,9 @@ unless the cycle can be legitimately collapsed into an atomic coupled unit.
 
 That collapse rule is DERIVED, not explicit.
 
----
+______________________________________________________________________
 
-# 36. Dependency Closure
+## 36. Dependency Closure
 
 Before execution, the graph should identify all load-bearing prerequisites.
 
@@ -858,9 +861,9 @@ $$
 
 until closure.
 
----
+______________________________________________________________________
 
-# 37. Smallest Sufficient Dependency Closure
+## 37. Smallest Sufficient Dependency Closure
 
 The broader v4.4 fast path suggests:
 
@@ -874,9 +877,9 @@ rather than indiscriminate full-corpus expansion.
 
 This is lineage-compatible augmentation.
 
----
+______________________________________________________________________
 
-# 38. Dependency Graph ≠ Causal Graph
+## 38. Dependency Graph ≠ Causal Graph
 
 Critical firewall:
 
@@ -888,9 +891,9 @@ $$
 
 If skill B requires output from A, that does not prove A causally produces the real-world phenomenon described by B.
 
----
+______________________________________________________________________
 
-# 39. Dependency ≠ Provenance Independence
+## 39. Dependency ≠ Provenance Independence
 
 Likewise:
 
@@ -902,9 +905,9 @@ $$
 
 Two nodes can descend from the same source.
 
----
+______________________________________________________________________
 
-# 40. Provenance Topology
+## 40. Provenance Topology
 
 A mature DAG may therefore need both:
 
@@ -920,9 +923,9 @@ evidence ancestry edges
 
 These must not be conflated.
 
----
+______________________________________________________________________
 
-# 41. Proposed DAG Node
+## 41. Proposed DAG Node
 
 ```yaml
 ExecutionNode:
@@ -940,9 +943,9 @@ ExecutionNode:
 
 PROPOSED.
 
----
+______________________________________________________________________
 
-# 42. Proposed DAG Edge Types
+## 42. Proposed DAG Edge Types
 
 ```yaml
 edge_types:
@@ -956,9 +959,9 @@ edge_types:
 
 Only generic dependency structure is source-grounded. Edge taxonomy is PROPOSED.
 
----
+______________________________________________________________________
 
-# 43. Stage 5 — Run Pre-Execution Gates
+## 43. Stage 5 — Run Pre-Execution Gates
 
 Before execution:
 
@@ -975,9 +978,9 @@ validate later
 
 for required preconditions.
 
----
+______________________________________________________________________
 
-# 44. Gate Semantics
+## 44. Gate Semantics
 
 A gate is stronger than a warning.
 
@@ -993,9 +996,9 @@ GateFailed
 NoNormalExecution
 $$
 
----
+______________________________________________________________________
 
-# 45. Gate Failure Is Typed
+## 45. Gate Failure Is Typed
 
 The source explicitly provides:
 
@@ -1009,9 +1012,9 @@ as possible responses.
 
 This means failure is not a single undifferentiated `ERROR`.
 
----
+______________________________________________________________________
 
-# 46. `UNKNOWN/GAP`
+## 46. `UNKNOWN/GAP`
 
 Appropriate where required evidence, dependency, definition, or validation is missing.
 
@@ -1023,9 +1026,9 @@ RequiredPremiseUnavailable
 UNKNOWN/GAP
 $$
 
----
+______________________________________________________________________
 
-# 47. `CONDITIONAL`
+## 47. `CONDITIONAL`
 
 Appropriate where a conclusion can be supported only under explicit assumptions or bounded conditions.
 
@@ -1037,9 +1040,9 @@ $$
 
 but P is not universally established.
 
----
+______________________________________________________________________
 
-# 48. `COMPETING`
+## 48. `COMPETING`
 
 Appropriate where multiple incompatible hypotheses remain materially viable.
 
@@ -1050,9 +1053,9 @@ no discriminating evidence
 → COMPETING
 ```
 
----
+______________________________________________________________________
 
-# 49. Failed Gate ≠ Caveat
+## 49. Failed Gate ≠ Caveat
 
 The source's strongest anti-fabrication statement is:
 
@@ -1067,9 +1070,9 @@ Output:
 "Everything is valid, though there may be some uncertainty..."
 ```
 
----
+______________________________________________________________________
 
-# 50. Gate Conservation Law
+## 50. Gate Conservation Law
 
 A failed mandatory gate must remain visible in the conclusion class.
 
@@ -1087,9 +1090,9 @@ MandatoryGateFail
 FluentUnboundedAnswer
 $$
 
----
+______________________________________________________________________
 
-# 51. Proposed Pre-Execution Gates
+## 51. Proposed Pre-Execution Gates
 
 A v4.4-compatible gate set could include:
 
@@ -1108,9 +1111,9 @@ G10 Irreversible-risk governance satisfied
 
 These are PROPOSED.
 
----
+______________________________________________________________________
 
-# 52. Gate 1 — Objective Well-Formedness
+## 52. Gate 1 — Objective Well-Formedness
 
 The kernel cannot reliably execute if it does not know what constitutes success.
 
@@ -1122,9 +1125,9 @@ UNKNOWN/GAP
 
 when a load-bearing objective is missing.
 
----
+______________________________________________________________________
 
-# 53. Gate 2 — Contract Resolution
+## 53. Gate 2 — Contract Resolution
 
 Every required execution node should have a resolvable contract.
 
@@ -1132,57 +1135,57 @@ Missing optional contracts need not necessarily block.
 
 Missing load-bearing contracts should.
 
----
+______________________________________________________________________
 
-# 54. Gate 3 — Dependency Closure
+## 54. Gate 3 — Dependency Closure
 
 No load-bearing prerequisite should remain silently absent.
 
----
+______________________________________________________________________
 
-# 55. Gate 4 — DAG Validity
+## 55. Gate 4 — DAG Validity
 
 The dependency graph must support a valid execution order.
 
----
+______________________________________________________________________
 
-# 56. Gate 5 — Evidence Sufficiency
+## 56. Gate 5 — Evidence Sufficiency
 
 Execution that depends on factual premises should not silently invent them.
 
----
+______________________________________________________________________
 
-# 57. Gate 6 — Provenance Integrity
+## 57. Gate 6 — Provenance Integrity
 
 Repeated descendants of one source should not masquerade as independent corroboration.
 
----
+______________________________________________________________________
 
-# 58. Gate 7 — Scope / Regime
+## 58. Gate 7 — Scope / Regime
 
 A result valid in one environment must not silently transfer to another.
 
----
+______________________________________________________________________
 
-# 59. Gate 8 — Freshness
+## 59. Gate 8 — Freshness
 
 Stale evidence should not be treated as current where freshness materially changes the answer.
 
----
+______________________________________________________________________
 
-# 60. Gate 9 — Authority
+## 60. Gate 9 — Authority
 
 Capability does not establish permission to perform consequential actions.
 
----
+______________________________________________________________________
 
-# 61. Gate 10 — Irreversibility
+## 61. Gate 10 — Irreversibility
 
 Irreversible/high-stakes operations should receive increased validation.
 
----
+______________________________________________________________________
 
-# 62. Stage 6 — Execute Contracts in Topological Order
+## 62. Stage 6 — Execute Contracts in Topological Order
 
 The source explicitly requires:
 
@@ -1192,9 +1195,9 @@ Execute contracts in topological order.
 
 This ties execution order to the DAG.
 
----
+______________________________________________________________________
 
-# 63. Topological Execution
+## 63. Topological Execution
 
 If:
 
@@ -1212,9 +1215,9 @@ $$
 
 assuming the edge represents B's dependency on A.
 
----
+______________________________________________________________________
 
-# 64. Independent Nodes
+## 64. Independent Nodes
 
 Nodes with no dependency relation may potentially execute independently.
 
@@ -1228,9 +1231,9 @@ DAG independence
 runtime parallelism
 ```
 
----
+______________________________________________________________________
 
-# 65. Topological Order May Not Be Unique
+## 65. Topological Order May Not Be Unique
 
 A DAG can have multiple valid topological orderings.
 
@@ -1238,9 +1241,9 @@ The source does not define tie-breaking.
 
 Therefore determinism of scheduling is not established by this artifact alone.
 
----
+______________________________________________________________________
 
-# 66. Deterministic Execution Gap
+## 66. Deterministic Execution Gap
 
 To guarantee reproducibility, a runtime might require deterministic tie-breaking.
 
@@ -1254,9 +1257,9 @@ dependency depth
 
 This is PROPOSED.
 
----
+______________________________________________________________________
 
-# 67. Contract Output
+## 67. Contract Output
 
 Each contract may produce:
 
@@ -1271,9 +1274,9 @@ Only RSCFs are explicitly named as commit objects in the source.
 
 The others are plausible derived categories.
 
----
+______________________________________________________________________
 
-# 68. Local Failure
+## 68. Local Failure
 
 If a node fails, the entire graph need not necessarily be discarded.
 
@@ -1289,9 +1292,9 @@ while preserving unaffected branches.
 
 This is a v4.4 lineage augmentation.
 
----
+______________________________________________________________________
 
-# 69. Failure Propagation
+## 69. Failure Propagation
 
 If:
 
@@ -1303,9 +1306,9 @@ and A fails as a load-bearing prerequisite, then B and C become invalid or block
 
 An independent D may remain valid.
 
----
+______________________________________________________________________
 
-# 70. Localized Invalidation
+## 70. Localized Invalidation
 
 Thus:
 
@@ -1323,9 +1326,9 @@ $$
 
 unless A supports the entire result.
 
----
+______________________________________________________________________
 
-# 71. Stage 7 — Commit Resulting RSCFs Atomically Where Coupled
+## 71. Stage 7 — Commit Resulting RSCFs Atomically Where Coupled
 
 This is one of the most technically significant source clauses:
 
@@ -1333,17 +1336,17 @@ This is one of the most technically significant source clauses:
 Commit resulting RSCFs atomically where coupled.
 ```
 
----
+______________________________________________________________________
 
-# 72. RSCF as Commit Unit
+## 72. RSCF as Commit Unit
 
 The source treats RSCFs as objects resulting from execution that can require commit semantics.
 
 However, it does not define their storage engine.
 
----
+______________________________________________________________________
 
-# 73. “Where Coupled”
+## 73. “Where Coupled”
 
 Atomicity is not stated as universally required for every RSCF.
 
@@ -1361,9 +1364,9 @@ Coupled(R_1,R_2)
 AtomicCommit(R_1,R_2)
 $$
 
----
+______________________________________________________________________
 
-# 74. Coupling Definition Gap
+## 74. Coupling Definition Gap
 
 The source does not define when RSCFs are coupled.
 
@@ -1377,9 +1380,9 @@ Possible forms include:
 
 These remain candidates.
 
----
+______________________________________________________________________
 
-# 75. Atomicity
+## 75. Atomicity
 
 Atomic commit means conceptually:
 
@@ -1399,9 +1402,9 @@ $$
 
 for an atomic coupled set.
 
----
+______________________________________________________________________
 
-# 76. Partial Commit Hazard
+## 76. Partial Commit Hazard
 
 Without atomicity:
 
@@ -1414,9 +1417,9 @@ could leave the reasoning state internally inconsistent.
 
 The source explicitly guards against this where coupling exists.
 
----
+______________________________________________________________________
 
-# 77. Atomicity ≠ Truth
+## 77. Atomicity ≠ Truth
 
 Critical firewall:
 
@@ -1430,9 +1433,9 @@ A set of wrong conclusions can be atomically committed.
 
 Atomicity protects consistency of state transition, not truth.
 
----
+______________________________________________________________________
 
-# 78. Atomicity ≠ Persistence
+## 78. Atomicity ≠ Persistence
 
 Likewise:
 
@@ -1446,9 +1449,9 @@ unless a persistence mechanism is separately defined.
 
 The source does not specify durability semantics.
 
----
+______________________________________________________________________
 
-# 79. MVCC / CAS Relationship
+## 79. MVCC / CAS Relationship
 
 Broader AMOS v4.4 lineage includes MVCC/CAS concepts for governed state coordination.
 
@@ -1463,9 +1466,9 @@ transaction database
 
 Therefore these may be used as compatible reasoning models but not attributed directly to this source.
 
----
+______________________________________________________________________
 
-# 80. Proposed Coupled RSCF Transaction
+## 80. Proposed Coupled RSCF Transaction
 
 ```yaml
 RSCFTransaction:
@@ -1492,9 +1495,9 @@ RSCFTransaction:
 
 PROPOSED.
 
----
+______________________________________________________________________
 
-# 81. Compare-and-Swap Hardening — Proposed
+## 81. Compare-and-Swap Hardening — Proposed
 
 A possible v4.4 implementation:
 
@@ -1506,9 +1509,9 @@ could reject commit when the underlying state has changed since validation.
 
 This is **PROPOSED implementation hardening**, not source evidence.
 
----
+______________________________________________________________________
 
-# 82. Persistent Provenance
+## 82. Persistent Provenance
 
 Any committed RSCF should preserve enough provenance to reconstruct:
 
@@ -1523,9 +1526,9 @@ with which dependencies
 
 This is v4.4-compatible governance.
 
----
+______________________________________________________________________
 
-# 83. Stage 8 — Final Integrity / Adversarial Gates
+## 83. Stage 8 — Final Integrity / Adversarial Gates
 
 After execution and commit:
 
@@ -1535,9 +1538,9 @@ Run final integrity/adversarial gates.
 
 Therefore pre-execution validation is not sufficient.
 
----
+______________________________________________________________________
 
-# 84. Two-Gate Architecture
+## 84. Two-Gate Architecture
 
 The source establishes validation on both sides of execution:
 
@@ -1551,9 +1554,9 @@ $$
 
 This is stronger than single-stage validation.
 
----
+______________________________________________________________________
 
-# 85. Pre-Gate vs Final Gate
+## 85. Pre-Gate vs Final Gate
 
 Conceptually:
 
@@ -1567,9 +1570,9 @@ Does the resulting state/output remain valid?
 
 This distinction is DERIVED but strongly implied.
 
----
+______________________________________________________________________
 
-# 86. Integrity Gate
+## 86. Integrity Gate
 
 A final integrity check may test whether:
 
@@ -1581,9 +1584,9 @@ A final integrity check may test whether:
 
 Exact predicates are not supplied.
 
----
+______________________________________________________________________
 
-# 87. Adversarial Gate
+## 87. Adversarial Gate
 
 The explicit word:
 
@@ -1595,9 +1598,9 @@ means the final stage should not merely re-read the same reasoning path approvin
 
 It should attempt to identify failure.
 
----
+______________________________________________________________________
 
-# 88. Strongest-Conclusion Challenge
+## 88. Strongest-Conclusion Challenge
 
 A v4.4-compatible adversarial procedure is:
 
@@ -1614,17 +1617,17 @@ A v4.4-compatible adversarial procedure is:
 
 This is lineage-derived implementation detail.
 
----
+______________________________________________________________________
 
-# 89. Independent Challenge Path
+## 89. Independent Challenge Path
 
 The challenge should be genuinely different enough to expose shared failure modes.
 
 Simply asking the same chain to repeat itself is weak validation.
 
----
+______________________________________________________________________
 
-# 90. Correlated-Provenance Attack
+## 90. Correlated-Provenance Attack
 
 Suppose three contracts produce the same conclusion:
 
@@ -1650,9 +1653,9 @@ $$
 3\ IndependentConfirmations
 $$
 
----
+______________________________________________________________________
 
-# 91. Scope Leakage Attack
+## 91. Scope Leakage Attack
 
 A final gate should challenge whether a conclusion was generalized beyond:
 
@@ -1664,9 +1667,9 @@ A final gate should challenge whether a conclusion was generalized beyond:
 - measurement method;
 - assumptions.
 
----
+______________________________________________________________________
 
-# 92. Causal Overreach Attack
+## 92. Causal Overreach Attack
 
 If evidence establishes only:
 
@@ -1682,23 +1685,23 @@ causal effect
 
 unless causal evidence exists.
 
----
+______________________________________________________________________
 
-# 93. Staleness Attack
+## 93. Staleness Attack
 
 If a load-bearing premise expired during execution, final validation should downgrade or invalidate the result.
 
----
+______________________________________________________________________
 
-# 94. Hidden Dependency Attack
+## 94. Hidden Dependency Attack
 
 A result that appears locally independent may secretly rely on a shared upstream premise.
 
 The adversarial gate should expose this.
 
----
+______________________________________________________________________
 
-# 95. Contradiction Attack
+## 95. Contradiction Attack
 
 If a supported competing hypothesis exists, the kernel must not force false convergence.
 
@@ -1708,9 +1711,9 @@ Appropriate result:
 COMPETING
 ```
 
----
+______________________________________________________________________
 
-# 96. Stage 9 — Return Final Bounded Result
+## 96. Stage 9 — Return Final Bounded Result
 
 The last stage is:
 
@@ -1726,9 +1729,9 @@ bounded
 
 is crucial.
 
----
+______________________________________________________________________
 
-# 97. Bounded Result
+## 97. Bounded Result
 
 A result should not claim more than the validated proof scope supports.
 
@@ -1750,9 +1753,9 @@ $$
 
 The second equation belongs to broader AMOS lineage but is highly compatible with the bounded-result requirement.
 
----
+______________________________________________________________________
 
-# 98. Bound Types
+## 98. Bound Types
 
 A final result can be bounded by:
 
@@ -1766,9 +1769,9 @@ A final result can be bounded by:
 - authority;
 - confidence.
 
----
+______________________________________________________________________
 
-# 99. Conclusion Classes
+## 99. Conclusion Classes
 
 The broader AMOS conclusion classes are:
 
@@ -1783,45 +1786,45 @@ UNKNOWN/GAP
 
 This artifact explicitly names the last three as required outputs when gates fail appropriately.
 
----
+______________________________________________________________________
 
-# 100. `VERIFIED`
+## 100. `VERIFIED`
 
 Use only where evidence supports verification within the stated scope.
 
----
+______________________________________________________________________
 
-# 101. `DERIVED`
+## 101. `DERIVED`
 
 Use where a conclusion follows from validated premises but is not itself directly observed/source-stated.
 
----
+______________________________________________________________________
 
-# 102. `MODEL`
+## 102. `MODEL`
 
 Use for formal or conceptual models not established as empirical fact.
 
----
+______________________________________________________________________
 
-# 103. `CONDITIONAL`
+## 103. `CONDITIONAL`
 
 Use when the conclusion depends on explicit unresolved conditions.
 
----
+______________________________________________________________________
 
-# 104. `COMPETING`
+## 104. `COMPETING`
 
 Use where incompatible supported hypotheses remain unresolved.
 
----
+______________________________________________________________________
 
-# 105. `UNKNOWN/GAP`
+## 105. `UNKNOWN/GAP`
 
 Use where required information is absent or insufficient.
 
----
+______________________________________________________________________
 
-# 106. Weakest Accurate Class
+## 106. Weakest Accurate Class
 
 The kernel should return the **weakest accurate conclusion class**, not the most rhetorically impressive class.
 
@@ -1839,9 +1842,9 @@ VERIFIED
 
 through fluent prose.
 
----
+______________________________________________________________________
 
-# 107. Failed Gate Classification
+## 107. Failed Gate Classification
 
 A proposed mapping:
 
@@ -1857,9 +1860,9 @@ A proposed mapping:
 
 The exact mapping is DERIVED.
 
----
+______________________________________________________________________
 
-# 108. Gate Failure Must Affect State
+## 108. Gate Failure Must Affect State
 
 The source rejects:
 
@@ -1879,9 +1882,9 @@ A failed required gate must alter either:
 - output scope;
 - action permission.
 
----
+______________________________________________________________________
 
-# 109. Hard Gate vs Soft Signal
+## 109. Hard Gate vs Soft Signal
 
 A useful distinction:
 
@@ -1901,9 +1904,9 @@ required gate
 
 which strongly implies hard-gate semantics.
 
----
+______________________________________________________________________
 
-# 110. No Silent Gate Demotion
+## 110. No Silent Gate Demotion
 
 Therefore:
 
@@ -1915,9 +1918,9 @@ $$
 
 without explicit governance authorization.
 
----
+______________________________________________________________________
 
-# 111. Execution Kernel State Machine
+## 111. Execution Kernel State Machine
 
 A derived state machine is:
 
@@ -1954,9 +1957,9 @@ ABORTED
 
 `ABORTED` is proposed rather than explicitly source-defined.
 
----
+______________________________________________________________________
 
-# 112. State Transition Graph
+## 112. State Transition Graph
 
 ```mermaid
 stateDiagram-v2
@@ -1988,9 +1991,9 @@ stateDiagram-v2
 
 DERIVED.
 
----
+______________________________________________________________________
 
-# 113. Kernel Pseudocode
+## 113. Kernel Pseudocode
 
 ```python
 def execute_amos_task(raw_task):
@@ -2043,9 +2046,9 @@ def execute_amos_task(raw_task):
 
 This is **DERIVED pseudocode**, not supplied executable source.
 
----
+______________________________________________________________________
 
-# 114. Fail-Closed Kernel Pseudocode
+## 114. Fail-Closed Kernel Pseudocode
 
 A stronger formulation:
 
@@ -2064,9 +2067,9 @@ if required_gate.status != "PASS":
 
 The latter conflicts with the source contract.
 
----
+______________________________________________________________________
 
-# 115. C0 Fast Path
+## 115. C0 Fast Path
 
 A source-compatible C0 path is:
 
@@ -2090,9 +2093,9 @@ C0
 NO INTEGRITY
 ```
 
----
+______________________________________________________________________
 
-# 116. C0 Is Complexity Optimization
+## 116. C0 Is Complexity Optimization
 
 C0 should be understood as:
 
@@ -2106,9 +2109,9 @@ rather than:
 permission to fabricate
 ```
 
----
+______________________________________________________________________
 
-# 117. C0 Examples — Proposed
+## 117. C0 Examples — Proposed
 
 Possible C0 tasks might include:
 
@@ -2119,9 +2122,9 @@ Possible C0 tasks might include:
 
 But these examples are not in the source.
 
----
+______________________________________________________________________
 
-# 118. C0 Escalation
+## 118. C0 Escalation
 
 A superficially simple task should leave C0 when:
 
@@ -2134,9 +2137,9 @@ A superficially simple task should leave C0 when:
 
 This is v4.4-compatible.
 
----
+______________________________________________________________________
 
-# 119. C1–C4 Expansion — Lineage Layer
+## 119. C1–C4 Expansion — Lineage Layer
 
 A compatible complexity architecture:
 
@@ -2150,9 +2153,9 @@ A compatible complexity architecture:
 
 Again, only `C0` is explicit in the supplied V1 artifact.
 
----
+______________________________________________________________________
 
-# 120. Kernel Complexity Invariant
+## 120. Kernel Complexity Invariant
 
 $$
 ValidationEffort
@@ -2164,9 +2167,9 @@ $$
 
 is a useful derived optimization principle.
 
----
+______________________________________________________________________
 
-# 121. Kernel Efficiency Law
+## 121. Kernel Efficiency Law
 
 The execution kernel should not maximize reasoning for its own sake.
 
@@ -2186,17 +2189,17 @@ Action Sufficiency
 
 This belongs to current AMOS lineage.
 
----
+______________________________________________________________________
 
-# 122. Stop Condition
+## 122. Stop Condition
 
 Execution can stop when further work has negligible probability of changing the bounded answer.
 
 This is a derived efficiency rule.
 
----
+______________________________________________________________________
 
-# 123. Proof Capsule Model
+## 123. Proof Capsule Model
 
 Each important conclusion can be represented as:
 
@@ -2224,9 +2227,9 @@ ProofCapsule:
 
 This is a v4.4-compatible augmentation.
 
----
+______________________________________________________________________
 
-# 124. Proof Capsule Reuse
+## 124. Proof Capsule Reuse
 
 A prior proof capsule should only be reused if:
 
@@ -2238,9 +2241,9 @@ freshness remains valid
 provenance remains acceptable
 ```
 
----
+______________________________________________________________________
 
-# 125. Partial Invalidation
+## 125. Partial Invalidation
 
 If one premise fails:
 
@@ -2252,9 +2255,9 @@ dependent conclusions
 
 rather than deleting unrelated valid reasoning.
 
----
+______________________________________________________________________
 
-# 126. Atomic Multi-RSCF Reasoning
+## 126. Atomic Multi-RSCF Reasoning
 
 Stage 7 provides the source basis for multi-RSCF atomicity:
 
@@ -2264,9 +2267,9 @@ Commit resulting RSCFs atomically where coupled.
 
 This is compatible with the later AMOS lineage concept of atomic multi-RSCF reasoning.
 
----
+______________________________________________________________________
 
-# 127. Atomic Proof Set
+## 127. Atomic Proof Set
 
 Suppose:
 
@@ -2292,9 +2295,9 @@ $$
 
 should be atomic if they are coupled.
 
----
+______________________________________________________________________
 
-# 128. Atomic Commit Failure
+## 128. Atomic Commit Failure
 
 If the atomic commit fails, the runtime should not return a result pretending the new RSCF state exists.
 
@@ -2308,9 +2311,9 @@ or an execution-specific failure class.
 
 The exact class is not source-defined.
 
----
+______________________________________________________________________
 
-# 129. Finality
+## 129. Finality
 
 The source says:
 
@@ -2324,9 +2327,9 @@ It does not define whether final validation can roll back a commit.
 
 This is an important implementation gap.
 
----
+______________________________________________________________________
 
-# 130. Competing Finality Models
+## 130. Competing Finality Models
 
 ### H1 — provisional commit
 
@@ -2342,9 +2345,9 @@ Stage 7 commits durably; Stage 8 can cause a governed rollback.
 
 All remain **COMPETING** without further kernel definition.
 
----
+______________________________________________________________________
 
-# 131. Cheapest Discriminating Evidence
+## 131. Cheapest Discriminating Evidence
 
 To resolve the previous gap, retrieve the executable kernel's definition of:
 
@@ -2358,9 +2361,9 @@ rollback
 
 No fluent inference should replace that source.
 
----
+______________________________________________________________________
 
-# 132. Transaction Boundary
+## 132. Transaction Boundary
 
 A future executable specification should define:
 
@@ -2376,9 +2379,9 @@ BEGIN
 
 This is PROPOSED.
 
----
+______________________________________________________________________
 
-# 133. Causal Epoch Finality
+## 133. Causal Epoch Finality
 
 Current AMOS lineage contains causal-epoch finality concepts.
 
@@ -2394,9 +2397,9 @@ must not be silently inserted as V1 canon.
 
 It may be a later-lineage hardening layer.
 
----
+______________________________________________________________________
 
-# 134. Shard-Local Finalization
+## 134. Shard-Local Finalization
 
 Likewise, hardened shard-local finalization belongs to later lineage patterns, not this source body.
 
@@ -2408,9 +2411,9 @@ atomic where coupled
 
 but does not establish shards.
 
----
+______________________________________________________________________
 
-# 135. Proof-Based Coordination Avoidance
+## 135. Proof-Based Coordination Avoidance
 
 Later AMOS lineage favors avoiding unnecessary global coordination when local proof suffices.
 
@@ -2418,9 +2421,9 @@ V1 does not explicitly state this.
 
 However, DAG structure plus conditional atomic coupling are compatible with it.
 
----
+______________________________________________________________________
 
-# 136. Local Fast Path
+## 136. Local Fast Path
 
 If two branches:
 
@@ -2434,9 +2437,9 @@ they may potentially finalize locally in a later implementation.
 
 This is DERIVED/PROPOSED.
 
----
+______________________________________________________________________
 
-# 137. Independence Must Be Demonstrated
+## 137. Independence Must Be Demonstrated
 
 The existence of separate DAG branches does not prove independence.
 
@@ -2446,9 +2449,9 @@ GraphSeparation
 ProvenanceIndependence
 $$
 
----
+______________________________________________________________________
 
-# 138. Provenance Sybil Attack
+## 138. Provenance Sybil Attack
 
 An adversarial system could create:
 
@@ -2462,9 +2465,9 @@ all repeating the same upstream source and present them as corroboration.
 
 The final adversarial gate should detect shared ancestry.
 
----
+______________________________________________________________________
 
-# 139. Epistemic Inflation Attack
+## 139. Epistemic Inflation Attack
 
 A dangerous loop:
 
@@ -2479,9 +2482,9 @@ SOURCE_CLAIM
 
 is invalid if no new independent evidence entered the chain.
 
----
+______________________________________________________________________
 
-# 140. Confidence Conservation
+## 140. Confidence Conservation
 
 A safe derived law:
 
@@ -2493,9 +2496,9 @@ $$
 
 unless a premise is independently revalidated.
 
----
+______________________________________________________________________
 
-# 141. Repetition Conservation
+## 141. Repetition Conservation
 
 $$
 RepeatedClaim
@@ -2505,9 +2508,9 @@ $$
 
 without independent evidence.
 
----
+______________________________________________________________________
 
-# 142. Scope Conservation
+## 142. Scope Conservation
 
 $$
 Scope_{out}
@@ -2519,9 +2522,9 @@ for claims requiring all those inputs.
 
 This is a v4.4-compatible rule.
 
----
+______________________________________________________________________
 
-# 143. Regime Conservation
+## 143. Regime Conservation
 
 Similarly:
 
@@ -2533,9 +2536,9 @@ $$
 
 unless a cross-regime validation explicitly supports extension.
 
----
+______________________________________________________________________
 
-# 144. Freshness Conservation
+## 144. Freshness Conservation
 
 A result whose premise is freshness-sensitive cannot outlive that premise indefinitely.
 
@@ -2547,9 +2550,9 @@ $$
 
 conceptually.
 
----
+______________________________________________________________________
 
-# 145. Causal Firewall
+## 145. Causal Firewall
 
 The execution kernel should preserve evidence type.
 
@@ -2564,21 +2567,21 @@ UNKNOWN
 
 should not be collapsed.
 
----
+______________________________________________________________________
 
-# 146. Association ≠ Causation
+## 146. Association ≠ Causation
 
 No router, skill contract, DAG, or atomic commit can turn correlational evidence into causal evidence.
 
----
+______________________________________________________________________
 
-# 147. Structural Similarity ≠ Mechanism Identity
+## 147. Structural Similarity ≠ Mechanism Identity
 
 Two contracts producing structurally similar results do not prove they represent the same underlying mechanism.
 
----
+______________________________________________________________________
 
-# 148. DAG ≠ Causal DAG
+## 148. DAG ≠ Causal DAG
 
 This deserves explicit repetition because of terminology risk:
 
@@ -2592,9 +2595,9 @@ hypothesized/identified causal relations among variables
 
 They are different graph types.
 
----
+______________________________________________________________________
 
-# 149. Scope Firewall
+## 149. Scope Firewall
 
 The bounded result must preserve applicability conditions.
 
@@ -2610,9 +2613,9 @@ must not silently become:
 validated for all systems
 ```
 
----
+______________________________________________________________________
 
-# 150. Regime Shift
+## 150. Regime Shift
 
 If conditions materially change between routing and final validation, the kernel should reconsider stale assumptions.
 
@@ -2628,9 +2631,9 @@ depending on impact.
 
 This is DERIVED.
 
----
+______________________________________________________________________
 
-# 151. Execution-Time Mutation
+## 151. Execution-Time Mutation
 
 Suppose a dependency changes after pre-gating but before commit.
 
@@ -2638,9 +2641,9 @@ The source does not define concurrency handling.
 
 This is where later MVCC/CAS concepts become relevant as implementation hardening.
 
----
+______________________________________________________________________
 
-# 152. Stale Read Hazard
+## 152. Stale Read Hazard
 
 ```text
 Gate validates version V1
@@ -2652,9 +2655,9 @@ can produce a stale result.
 
 The V1 source does not specify protection.
 
----
+______________________________________________________________________
 
-# 153. Proposed Version Guard
+## 153. Proposed Version Guard
 
 ```yaml
 DependencyReceipt:
@@ -2675,9 +2678,9 @@ If not, revalidate.
 
 PROPOSED.
 
----
+______________________________________________________________________
 
-# 154. CAS-Style Commit — Proposed
+## 154. CAS-Style Commit — Proposed
 
 ```text
 IF current_state == expected_state
@@ -2687,9 +2690,9 @@ ELSE conflict → revalidate
 
 This is not direct V1 canon.
 
----
+______________________________________________________________________
 
-# 155. Failure Recovery
+## 155. Failure Recovery
 
 Current AMOS recovery principle:
 
@@ -2702,9 +2705,9 @@ reroute locally
 
 is compatible with the DAG architecture.
 
----
+______________________________________________________________________
 
-# 156. Do Not Repeat Failed Path
+## 156. Do Not Repeat Failed Path
 
 If a path failed due to unchanged evidence, repeating the same path does not create validation.
 
@@ -2716,9 +2719,9 @@ SameEvidence
 NewInformation
 $$
 
----
+______________________________________________________________________
 
-# 157. Recovery Graph
+## 157. Recovery Graph
 
 ```mermaid
 flowchart TD
@@ -2733,17 +2736,17 @@ flowchart TD
     D --> Z[Preserve D]
 ```
 
----
+______________________________________________________________________
 
-# 158. Global Recompute
+## 158. Global Recompute
 
 Global recomputation should be a last resort when local invalidation cannot establish a coherent state.
 
 This is v4.4-compatible rather than explicit V1 text.
 
----
+______________________________________________________________________
 
-# 159. Gate Taxonomy
+## 159. Gate Taxonomy
 
 A useful derived taxonomy is:
 
@@ -2762,9 +2765,9 @@ INTEGRITY
 ADVERSARIAL
 ```
 
----
+______________________________________________________________________
 
-# 160. Structural Gate
+## 160. Structural Gate
 
 Tests:
 
@@ -2773,9 +2776,9 @@ Tests:
 - DAG validity;
 - schema compatibility.
 
----
+______________________________________________________________________
 
-# 161. Epistemic Gate
+## 161. Epistemic Gate
 
 Tests:
 
@@ -2784,9 +2787,9 @@ Tests:
 - confidence ceiling;
 - unsupported promotion.
 
----
+______________________________________________________________________
 
-# 162. Provenance Gate
+## 162. Provenance Gate
 
 Tests:
 
@@ -2795,63 +2798,63 @@ Tests:
 - correlation;
 - independence.
 
----
+______________________________________________________________________
 
-# 163. Scope Gate
+## 163. Scope Gate
 
 Tests applicability envelope.
 
----
+______________________________________________________________________
 
-# 164. Regime Gate
+## 164. Regime Gate
 
 Tests whether evidence and result occupy compatible operating regimes.
 
----
+______________________________________________________________________
 
-# 165. Temporal Gate
+## 165. Temporal Gate
 
 Tests freshness and validity windows.
 
----
+______________________________________________________________________
 
-# 166. Causal Gate
+## 166. Causal Gate
 
 Tests whether causal language is licensed by causal evidence.
 
----
+______________________________________________________________________
 
-# 167. Execution Gate
+## 167. Execution Gate
 
 Tests whether required contracts actually completed.
 
----
+______________________________________________________________________
 
-# 168. Authority Gate
+## 168. Authority Gate
 
 Tests whether execution is permitted, not merely possible.
 
----
+______________________________________________________________________
 
-# 169. Safety Gate
+## 169. Safety Gate
 
 Tests risk constraints.
 
----
+______________________________________________________________________
 
-# 170. Integrity Gate
+## 170. Integrity Gate
 
 Tests final coherence.
 
----
+______________________________________________________________________
 
-# 171. Adversarial Gate
+## 171. Adversarial Gate
 
 Actively seeks reasons the conclusion should fail or be downgraded.
 
----
+______________________________________________________________________
 
-# 172. Gate Receipt — Proposed
+## 172. Gate Receipt — Proposed
 
 ```yaml
 GateReceipt:
@@ -2876,9 +2879,9 @@ GateReceipt:
   timestamp:
 ```
 
----
+______________________________________________________________________
 
-# 173. Gate Composition
+## 173. Gate Composition
 
 If all mandatory gates must pass:
 
@@ -2893,9 +2896,9 @@ for Boolean gates.
 
 But the source also supports typed non-pass states, so a richer lattice is preferable.
 
----
+______________________________________________________________________
 
-# 174. Gate Lattice — Proposed
+## 174. Gate Lattice — Proposed
 
 ```text
 PASS
@@ -2907,9 +2910,9 @@ FAIL/BLOCK
 
 The source explicitly names the middle epistemic outcomes but not this full ordering.
 
----
+______________________________________________________________________
 
-# 175. `COMPETING` Is Not Simply “Worse” Than `CONDITIONAL`
+## 175. `COMPETING` Is Not Simply “Worse” Than `CONDITIONAL`
 
 These classes represent different uncertainty structures.
 
@@ -2918,9 +2921,9 @@ These classes represent different uncertainty structures.
 
 Therefore they should not necessarily be represented as one scalar severity ladder.
 
----
+______________________________________________________________________
 
-# 176. Uncertainty Vector
+## 176. Uncertainty Vector
 
 Current AMOS reasoning can track:
 
@@ -2931,25 +2934,25 @@ $$
 
 where:
 
-- \(U_e\) = evidence uncertainty;
-- \(U_m\) = model uncertainty;
-- \(U_s\) = scope uncertainty;
-- \(U_t\) = temporal uncertainty;
-- \(U_c\) = causal uncertainty;
-- \(U_x\) = execution uncertainty;
-- \(U_p\) = provenance-independence uncertainty.
+- (U_e) = evidence uncertainty;
+- (U_m) = model uncertainty;
+- (U_s) = scope uncertainty;
+- (U_t) = temporal uncertainty;
+- (U_c) = causal uncertainty;
+- (U_x) = execution uncertainty;
+- (U_p) = provenance-independence uncertainty.
 
 This is a lineage augmentation.
 
----
+______________________________________________________________________
 
-# 177. Router and Uncertainty
+## 177. Router and Uncertainty
 
 A mature router can escalate based on the uncertainty vector rather than task length.
 
----
+______________________________________________________________________
 
-# 178. Decision-Changing Uncertainty
+## 178. Decision-Changing Uncertainty
 
 The kernel should prioritize uncertainty capable of changing:
 
@@ -2961,15 +2964,15 @@ the permitted action
 
 rather than spending equal effort everywhere.
 
----
+______________________________________________________________________
 
-# 179. Sensitivity
+## 179. Sensitivity
 
 For consequential outputs, identify the smallest premise or threshold capable of flipping the result.
 
----
+______________________________________________________________________
 
-# 180. Fragile Result
+## 180. Fragile Result
 
 If a small plausible change flips the conclusion:
 
@@ -2979,17 +2982,17 @@ CONDITIONAL
 
 may be appropriate.
 
----
+______________________________________________________________________
 
-# 181. Robust Result
+## 181. Robust Result
 
 If the result survives plausible noncritical perturbations, it is more robust.
 
 This does not automatically make it VERIFIED.
 
----
+______________________________________________________________________
 
-# 182. Kernel Invariant — Integrity Before Fluency
+## 182. Kernel Invariant — Integrity Before Fluency
 
 The source's anti-caveat rule implies:
 
@@ -3001,9 +3004,9 @@ $$
 
 A smooth answer cannot repair a failed gate.
 
----
+______________________________________________________________________
 
-# 183. Kernel Invariant — Gate Before Execution
+## 183. Kernel Invariant — Gate Before Execution
 
 $$
 PreGate
@@ -3013,9 +3016,9 @@ $$
 
 in execution order.
 
----
+______________________________________________________________________
 
-# 184. Kernel Invariant — Dependencies Before Dependents
+## 184. Kernel Invariant — Dependencies Before Dependents
 
 $$
 A\rightarrow B
@@ -3023,9 +3026,9 @@ A\rightarrow B
 A\ precedes\ B
 $$
 
----
+______________________________________________________________________
 
-# 185. Kernel Invariant — Atomicity for Coupled RSCFs
+## 185. Kernel Invariant — Atomicity for Coupled RSCFs
 
 $$
 Coupled(R)
@@ -3033,9 +3036,9 @@ Coupled(R)
 AtomicCommit(R)
 $$
 
----
+______________________________________________________________________
 
-# 186. Kernel Invariant — Validation After Execution
+## 186. Kernel Invariant — Validation After Execution
 
 $$
 Execution
@@ -3043,9 +3046,9 @@ Execution
 FinalIntegrityGate
 $$
 
----
+______________________________________________________________________
 
-# 187. Kernel Invariant — Bounded Return
+## 187. Kernel Invariant — Bounded Return
 
 $$
 Return
@@ -3055,9 +3058,9 @@ $$
 
 not unbounded synthesis.
 
----
+______________________________________________________________________
 
-# 188. Kernel Invariant — No Obviousness Bypass
+## 188. Kernel Invariant — No Obviousness Bypass
 
 $$
 Obviousness
@@ -3067,9 +3070,9 @@ $$
 
 Only router classification licenses the fast path.
 
----
+______________________________________________________________________
 
-# 189. Kernel Invariant — No Failed-Gate Laundering
+## 189. Kernel Invariant — No Failed-Gate Laundering
 
 $$
 GateFail
@@ -3077,9 +3080,9 @@ GateFail
 SuccessWithDisclaimer
 $$
 
----
+______________________________________________________________________
 
-# 190. Kernel Invariant — Unknown Must Remain Unknown
+## 190. Kernel Invariant — Unknown Must Remain Unknown
 
 If evidence cannot resolve a critical gap:
 
@@ -3091,9 +3094,9 @@ $$
 
 not fabricated certainty.
 
----
+______________________________________________________________________
 
-# 191. Kernel Invariant — Contradiction Visibility
+## 191. Kernel Invariant — Contradiction Visibility
 
 If two supported claims conflict:
 
@@ -3103,9 +3106,9 @@ preserve contradiction
 
 until discriminating evidence resolves it.
 
----
+______________________________________________________________________
 
-# 192. Kernel Invariant — No Forced Convergence
+## 192. Kernel Invariant — No Forced Convergence
 
 $$
 H_1\ COMPETING\ H_2
@@ -3113,9 +3116,9 @@ $$
 
 must not be collapsed merely because one answer is stylistically cleaner.
 
----
+______________________________________________________________________
 
-# 193. Kernel Invariant — Local Trust
+## 193. Kernel Invariant — Local Trust
 
 A skill output should be trusted only within its validated:
 
@@ -3128,17 +3131,17 @@ provenance
 dependencies
 ```
 
----
+______________________________________________________________________
 
-# 194. Kernel Invariant — Typed Evidence
+## 194. Kernel Invariant — Typed Evidence
 
 A `MODEL` does not become an `OBSERVATION` through execution.
 
 A `SOURCE_CLAIM` does not become `VERIFIED` because multiple internal agents repeat it.
 
----
+______________________________________________________________________
 
-# 195. Kernel Invariant — Execution ≠ Truth
+## 195. Kernel Invariant — Execution ≠ Truth
 
 A contract can execute successfully and still produce an epistemically weak result.
 
@@ -3150,9 +3153,9 @@ ExecutionSuccess
 Truth
 $$
 
----
+______________________________________________________________________
 
-# 196. Kernel Invariant — Atomicity ≠ Truth
+## 196. Kernel Invariant — Atomicity ≠ Truth
 
 Likewise:
 
@@ -3162,45 +3165,45 @@ AtomicCommit
 Correctness
 $$
 
----
+______________________________________________________________________
 
-# 197. Kernel Invariant — Adversarial Pass ≠ Universal Proof
+## 197. Kernel Invariant — Adversarial Pass ≠ Universal Proof
 
 Passing the configured adversarial gates only establishes survival against those gates within their scope.
 
 It is not universal formal proof unless such proof is separately supplied.
 
----
+______________________________________________________________________
 
-# 198. Kernel Invariant — Router ≠ Oracle
+## 198. Kernel Invariant — Router ≠ Oracle
 
 Router classification is a control decision, not evidence that the substantive answer is true.
 
----
+______________________________________________________________________
 
-# 199. Kernel Invariant — Skill ≠ Evidence
+## 199. Kernel Invariant — Skill ≠ Evidence
 
 A skill is a reasoning capability/contract.
 
 Its existence does not establish the factual claims it processes.
 
----
+______________________________________________________________________
 
-# 200. Kernel Invariant — DAG ≠ Knowledge Graph
+## 200. Kernel Invariant — DAG ≠ Knowledge Graph
 
 The execution DAG is task-local orchestration structure.
 
 It need not be identical to the persistent AMOS knowledge graph.
 
----
+______________________________________________________________________
 
-# 201. Kernel Invariant — RSCF ≠ Raw Evidence
+## 201. Kernel Invariant — RSCF ≠ Raw Evidence
 
 RSCF may package reasoning/provenance, but the underlying evidence should remain distinguishable.
 
----
+______________________________________________________________________
 
-# 202. Raw Evidence Policy
+## 202. Raw Evidence Policy
 
 A v4.4-compatible retrieval strategy is:
 
@@ -3214,29 +3217,29 @@ Bootstrap capsule
 
 This is not explicitly in the V1 artifact but aligns with the current lineage.
 
----
+______________________________________________________________________
 
-# 203. DO_NOT_LOAD_UNLESS_REQUIRED
+## 203. DO_NOT_LOAD_UNLESS_REQUIRED
 
 Raw evidence should not be indiscriminately loaded where proof capsules already establish the needed premise and remain valid.
 
----
+______________________________________________________________________
 
-# 204. Proof Capsule Cache
+## 204. Proof Capsule Cache
 
 Reusable validated conclusions can reduce execution cost.
 
 But reuse requires dependency/freshness checks.
 
----
+______________________________________________________________________
 
-# 205. Cache Poisoning Hazard
+## 205. Cache Poisoning Hazard
 
 A cached proof capsule whose premise later fails must not remain globally trusted.
 
----
+______________________________________________________________________
 
-# 206. Targeted Invalidation
+## 206. Targeted Invalidation
 
 If premise P supports:
 
@@ -3253,9 +3256,9 @@ C3
 
 then invalidating P should invalidate C1 and C2, not C3.
 
----
+______________________________________________________________________
 
-# 207. Contract DAG Example
+## 207. Contract DAG Example
 
 Suppose a task asks for a consequential recommendation.
 
@@ -3279,17 +3282,17 @@ Final Adversarial Gate
 
 DERIVED example.
 
----
+______________________________________________________________________
 
-# 208. Parallel Branches
+## 208. Parallel Branches
 
 The risk and alternative-hypothesis branches may be dependency-independent after domain analysis.
 
 But actual parallel execution is implementation-dependent.
 
----
+______________________________________________________________________
 
-# 209. Merge Gate
+## 209. Merge Gate
 
 Before merging independent branches, a future kernel should test:
 
@@ -3303,9 +3306,9 @@ coupling
 
 PROPOSED.
 
----
+______________________________________________________________________
 
-# 210. Multi-RSCF Example
+## 210. Multi-RSCF Example
 
 Suppose:
 
@@ -3317,9 +3320,9 @@ R3 = decision conclusion
 
 If R3 depends on both R1 and R2, then a commit that changes R1/R2/R3 coherently may require coupling.
 
----
+______________________________________________________________________
 
-# 211. Atomic Set
+## 211. Atomic Set
 
 $$
 AtomicSet
@@ -3329,9 +3332,9 @@ $$
 
 if partial persistence would violate invariants.
 
----
+______________________________________________________________________
 
-# 212. Independent RSCF
+## 212. Independent RSCF
 
 If R4 is unrelated:
 
@@ -3343,9 +3346,9 @@ $$
 
 unless another dependency establishes coupling.
 
----
+______________________________________________________________________
 
-# 213. Over-Coupling Hazard
+## 213. Over-Coupling Hazard
 
 Making every RSCF globally atomic would increase unnecessary coordination.
 
@@ -3357,15 +3360,15 @@ where coupled
 
 which argues against assuming universal coupling.
 
----
+______________________________________________________________________
 
-# 214. Under-Coupling Hazard
+## 214. Under-Coupling Hazard
 
 Failing to atomically bind genuinely dependent RSCFs can leave inconsistent state.
 
----
+______________________________________________________________________
 
-# 215. Coupling Test — Proposed
+## 215. Coupling Test — Proposed
 
 Two RSCFs may be considered coupled if:
 
@@ -3381,9 +3384,9 @@ partial commit violates a shared invariant
 
 This is a useful proposed definition.
 
----
+______________________________________________________________________
 
-# 216. Final Result Schema — Proposed
+## 216. Final Result Schema — Proposed
 
 ```yaml
 BoundedResult:
@@ -3413,9 +3416,9 @@ BoundedResult:
   action_boundary:
 ```
 
----
+______________________________________________________________________
 
-# 217. Result Compression
+## 217. Result Compression
 
 The user-facing result need not expose the entire execution graph.
 
@@ -3433,17 +3436,17 @@ safe action boundary
 
 This preserves hidden reasoning while exposing audit-relevant outputs.
 
----
+______________________________________________________________________
 
-# 218. No Chain-of-Thought Requirement
+## 218. No Chain-of-Thought Requirement
 
 The execution kernel does not require revealing hidden internal reasoning.
 
 A proof capsule or concise evidence receipt can provide auditability without exposing private chain-of-thought.
 
----
+______________________________________________________________________
 
-# 219. Auditability ≠ Chain-of-Thought Disclosure
+## 219. Auditability ≠ Chain-of-Thought Disclosure
 
 $$
 Auditability
@@ -3461,9 +3464,9 @@ Auditability can be achieved through:
 - conclusion class;
 - invalidation conditions.
 
----
+______________________________________________________________________
 
-# 220. Source Metadata Classification
+## 220. Source Metadata Classification
 
 The supplied frontmatter states:
 
@@ -3477,9 +3480,9 @@ rscf:
 
 Therefore the artifact itself should not be promoted beyond source claim merely because its architecture is coherent.
 
----
+______________________________________________________________________
 
-# 221. “Executable AMOS Kernel” Claim
+## 221. “Executable AMOS Kernel” Claim
 
 The body says:
 
@@ -3497,9 +3500,9 @@ EXECUTABLE KERNEL REFERENCED
 EXECUTABLE KERNEL VERIFIED HERE
 ```
 
----
+______________________________________________________________________
 
-# 222. Runtime Implementation Status
+## 222. Runtime Implementation Status
 
 Accurate class:
 
@@ -3511,81 +3514,81 @@ UNKNOWN/GAP:
 exact implementation and runtime receipts are not supplied in this artifact.
 ```
 
----
+______________________________________________________________________
 
-# 223. Router Implementation Status
+## 223. Router Implementation Status
 
 ```text
 Router required: SOURCE_GROUNDED
 Router algorithm: UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 224. Skill Contract Registry Status
+## 224. Skill Contract Registry Status
 
 ```text
 Skill contracts required: SOURCE_GROUNDED
 Registry implementation: UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 225. DAG Builder Status
+## 225. DAG Builder Status
 
 ```text
 Dependency DAG required: SOURCE_GROUNDED
 DAG builder implementation: UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 226. Pre-Gate Status
+## 226. Pre-Gate Status
 
 ```text
 Pre-execution gates required: SOURCE_GROUNDED
 Exact gate registry: UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 227. Topological Executor Status
+## 227. Topological Executor Status
 
 ```text
 Topological execution required: SOURCE_GROUNDED
 Scheduler implementation: UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 228. Atomic Commit Status
+## 228. Atomic Commit Status
 
 ```text
 Atomic coupled RSCF commit required: SOURCE_GROUNDED
 Storage/transaction implementation: UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 229. Adversarial Gate Status
+## 229. Adversarial Gate Status
 
 ```text
 Final adversarial validation required: SOURCE_GROUNDED
 Exact challenge implementation: UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 230. Bounded Result Status
+## 230. Bounded Result Status
 
 ```text
 Bounded output required: SOURCE_GROUNDED
 Exact result schema: UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 231. Source Strength Matrix
+## 231. Source Strength Matrix
 
 | Component                 | Source support |            Implementation proof |
 | ------------------------- | -------------: | ------------------------------: |
@@ -3603,49 +3606,49 @@ Exact result schema: UNKNOWN/GAP
 | Failed-gate typed output  |         Strong |              Mapping incomplete |
 | Executable kernel runtime |        Claimed |   Not independently established |
 
----
+______________________________________________________________________
 
-# 232. Critical Gaps
+## 232. Critical Gaps
 
 ## CRITICAL
 
 1. Exact executable kernel implementation.
-2. Exact `TaskSpec` contract.
-3. Router classification specification.
-4. Required gate registry and predicates.
-5. Atomic RSCF commit semantics.
-6. Definition of RSCF coupling.
-7. Runtime authority model.
-8. Final validation/rollback semantics.
+1. Exact `TaskSpec` contract.
+1. Router classification specification.
+1. Required gate registry and predicates.
+1. Atomic RSCF commit semantics.
+1. Definition of RSCF coupling.
+1. Runtime authority model.
+1. Final validation/rollback semantics.
 
----
+______________________________________________________________________
 
-# 233. Decision-Relevant Gaps
+## 233. Decision-Relevant Gaps
 
 1. Skill contract schema.
-2. Skill registry resolution rules.
-3. DAG cycle handling.
-4. scheduler determinism.
-5. concurrency model.
-6. provenance-independence tests.
-7. freshness semantics.
-8. conclusion-class mapping.
-9. gate precedence.
-10. recovery rules.
+1. Skill registry resolution rules.
+1. DAG cycle handling.
+1. scheduler determinism.
+1. concurrency model.
+1. provenance-independence tests.
+1. freshness semantics.
+1. conclusion-class mapping.
+1. gate precedence.
+1. recovery rules.
 
----
+______________________________________________________________________
 
-# 234. Explanatory Gaps
+## 234. Explanatory Gaps
 
 1. Why the artifact is titled `AGENTS AMOS EXECUTION KERNEL V1` while body says `AMOS Kernel Agent Contract`.
-2. Whether `V1` corresponds to a specific executable release.
-3. Whether all tasks produce persistent RSCFs.
-4. Whether final gates operate before or after durable persistence.
-5. Whether C0 produces RSCFs.
+1. Whether `V1` corresponds to a specific executable release.
+1. Whether all tasks produce persistent RSCFs.
+1. Whether final gates operate before or after durable persistence.
+1. Whether C0 produces RSCFs.
 
----
+______________________________________________________________________
 
-# 235. Cosmetic Gaps
+## 235. Cosmetic Gaps
 
 No major source corruption is present.
 
@@ -3658,9 +3661,9 @@ AMOS_corpus
 AMOS_knowledge
 ```
 
----
+______________________________________________________________________
 
-# 236. Competing Hypothesis — Atomic Commit Meaning
+## 236. Competing Hypothesis — Atomic Commit Meaning
 
 ### H1
 
@@ -3686,9 +3689,9 @@ COMPETING
 
 H4 is conservative but not proven.
 
----
+______________________________________________________________________
 
-# 237. Competing Hypothesis — C0 RSCF Behavior
+## 237. Competing Hypothesis — C0 RSCF Behavior
 
 ### H1
 
@@ -3704,9 +3707,9 @@ RSCF creation depends on task type rather than complexity.
 
 No discriminating evidence is supplied.
 
----
+______________________________________________________________________
 
-# 238. Competing Hypothesis — Final Gate Rollback
+## 238. Competing Hypothesis — Final Gate Rollback
 
 ### H1
 
@@ -3722,9 +3725,9 @@ Final gate only bounds presentation, not committed state.
 
 This is a **critical implementation ambiguity**.
 
----
+______________________________________________________________________
 
-# 239. Competing Hypothesis — Router Ownership
+## 239. Competing Hypothesis — Router Ownership
 
 ### H1
 
@@ -3746,9 +3749,9 @@ Call the router.
 
 No topology is established.
 
----
+______________________________________________________________________
 
-# 240. Competing Hypothesis — Skill Contract Granularity
+## 240. Competing Hypothesis — Skill Contract Granularity
 
 Contracts may represent:
 
@@ -3760,9 +3763,9 @@ Contracts may represent:
 
 The source does not disambiguate.
 
----
+______________________________________________________________________
 
-# 241. Cheapest High-Information Retrieval Order
+## 241. Cheapest High-Information Retrieval Order
 
 To convert this architecture into an exact executable specification, the most valuable missing artifacts would be:
 
@@ -3778,9 +3781,9 @@ To convert this architecture into an exact executable specification, the most va
 9. BoundedResult schema
 ```
 
----
+______________________________________________________________________
 
-# 242. Related Artifact Role — `AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS`
+## 242. Related Artifact Role — `AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS`
 
 The source links:
 
@@ -3792,9 +3795,9 @@ This establishes a relationship but not the exact dependency type.
 
 Do not infer that the execution kernel mathematically depends on it without additional binding.
 
----
+______________________________________________________________________
 
-# 243. Related Artifact Role — `SYSTEM_SCAN_AGENT`
+## 243. Related Artifact Role — `SYSTEM_SCAN_AGENT`
 
 The source links:
 
@@ -3810,9 +3813,9 @@ RELATED
 DEPENDS_ON
 ```
 
----
+______________________________________________________________________
 
-# 244. Related Artifact Role — `AUTOMATION_PROFILES`
+## 244. Related Artifact Role — `AUTOMATION_PROFILES`
 
 The source links:
 
@@ -3822,9 +3825,9 @@ The source links:
 
 No execution dependency is explicitly declared.
 
----
+______________________________________________________________________
 
-# 245. MOC Binding
+## 245. MOC Binding
 
 The source explicitly indexes to:
 
@@ -3834,9 +3837,9 @@ The source explicitly indexes to:
 
 This is the clearest navigation/index relation.
 
----
+______________________________________________________________________
 
-# 246. Knowledge MOC Binding
+## 246. Knowledge MOC Binding
 
 The source also links:
 
@@ -3846,11 +3849,11 @@ The source also links:
 
 which structurally places the artifact in the knowledge layer.
 
----
+______________________________________________________________________
 
-# 247. Proposed RSCF Node
+## 247. Proposed RSCF Node
 
-> [!note] PROPOSED
+> [!NOTE] PROPOSED
 > The source does not supply a node ID or relation block.
 
 ```yaml
@@ -3865,9 +3868,9 @@ RSCF_NODE:
   scope: AMOS_knowledge
 ```
 
----
+______________________________________________________________________
 
-# 248. Proposed RSCF Relations
+## 248. Proposed RSCF Relations
 
 ```yaml
 RSCF_RELATIONS:
@@ -3880,9 +3883,9 @@ RSCF_RELATIONS:
 
 These relation types are PROPOSED interpretations of the supplied `Related`/`MOC` links.
 
----
+______________________________________________________________________
 
-# 249. Obsidian Navigation
+## 249. Obsidian Navigation
 
 ```markdown
 **Parent MOC:**
@@ -3896,9 +3899,9 @@ These relation types are PROPOSED interpretations of the supplied `Related`/`MOC
 -
 ```
 
----
+______________________________________________________________________
 
-# 250. Mermaid — Source-Level Kernel
+## 250. Mermaid — Source-Level Kernel
 
 ```mermaid
 flowchart TD
@@ -3926,9 +3929,9 @@ flowchart TD
 
 This directly reflects the supplied nine-step order.
 
----
+______________________________________________________________________
 
-# 251. Mermaid — Failure Paths
+## 251. Mermaid — Failure Paths
 
 ```mermaid
 flowchart TD
@@ -3946,9 +3949,9 @@ flowchart TD
 
 The exact mapping is partially DERIVED; the three output classes are explicit source terms.
 
----
+______________________________________________________________________
 
-# 252. Mermaid — DAG and Atomic RSCF
+## 252. Mermaid — DAG and Atomic RSCF
 
 ```mermaid
 flowchart LR
@@ -3964,9 +3967,9 @@ flowchart LR
     X --> F["Final Integrity / Adversarial Gate"]
 ```
 
----
+______________________________________________________________________
 
-# 253. Mermaid — Provenance Hardening
+## 253. Mermaid — Provenance Hardening
 
 ```mermaid
 flowchart TD
@@ -3986,11 +3989,11 @@ flowchart TD
 
 This is v4.4-derived hardening.
 
----
+______________________________________________________________________
 
-# 254. Dataview — Kernel Notes
+## 254. Dataview — Kernel Notes
 
-```dataview
+```text
 TABLE
   file.link AS Artifact,
   type,
@@ -4001,11 +4004,11 @@ WHERE contains(tags, "kernel")
 SORT file.name ASC
 ```
 
----
+______________________________________________________________________
 
-# 255. Dataview — Source Claims
+## 255. Dataview — Source Claims
 
-```dataview
+```text
 TABLE
   file.link AS Artifact,
   rscf.claim_class AS Claim_Class,
@@ -4016,11 +4019,11 @@ WHERE rscf.state = "SOURCE_CLAIM"
 SORT file.name ASC
 ```
 
----
+______________________________________________________________________
 
-# 256. Dataview — Runtime Artifacts
+## 256. Dataview — Runtime Artifacts
 
-```dataview
+```text
 TABLE
   file.link AS Artifact,
   type,
@@ -4030,9 +4033,9 @@ WHERE contains(tags, "runtime")
 SORT file.name ASC
 ```
 
----
+______________________________________________________________________
 
-# 257. Positive Boundary Test 1
+## 257. Positive Boundary Test 1
 
 **Input:** trivial deterministic formatting task.
 
@@ -4047,9 +4050,9 @@ TaskSpec
 
 if router actually classifies it C0.
 
----
+______________________________________________________________________
 
-# 258. Positive Boundary Test 2
+## 258. Positive Boundary Test 2
 
 **Input:** multi-domain analysis with dependent contracts.
 
@@ -4065,9 +4068,9 @@ TaskSpec
 → final validation
 ```
 
----
+______________________________________________________________________
 
-# 259. Positive Boundary Test 3
+## 259. Positive Boundary Test 3
 
 Two resulting RSCFs are mutually dependent.
 
@@ -4079,9 +4082,9 @@ atomic commit
 
 rather than partial commit.
 
----
+______________________________________________________________________
 
-# 260. Negative Boundary Test 1
+## 260. Negative Boundary Test 1
 
 Required evidence is absent.
 
@@ -4098,9 +4101,9 @@ Expected:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 261. Negative Boundary Test 2
+## 261. Negative Boundary Test 2
 
 Two hypotheses remain equally viable.
 
@@ -4116,9 +4119,9 @@ Expected:
 COMPETING
 ```
 
----
+______________________________________________________________________
 
-# 262. Negative Boundary Test 3
+## 262. Negative Boundary Test 3
 
 A gate fails, but the system writes:
 
@@ -4126,9 +4129,9 @@ A gate fails, but the system writes:
 
 This violates the source contract if the failed gate was required and load-bearing.
 
----
+______________________________________________________________________
 
-# 263. Negative Boundary Test 4
+## 263. Negative Boundary Test 4
 
 The model thinks a question is easy and bypasses routing.
 
@@ -4138,57 +4141,57 @@ This violates:
 unless the router classifies the task C0
 ```
 
----
+______________________________________________________________________
 
-# 264. Negative Boundary Test 5
+## 264. Negative Boundary Test 5
 
 Contract B depends on A, but B executes first.
 
 This violates topological execution.
 
----
+______________________________________________________________________
 
-# 265. Negative Boundary Test 6
+## 265. Negative Boundary Test 6
 
 Coupled RSCF A commits while RSCF B fails.
 
 This violates atomic coupled commit semantics.
 
----
+______________________________________________________________________
 
-# 266. Negative Boundary Test 7
+## 266. Negative Boundary Test 7
 
 Final integrity gate discovers contradiction but result remains `VERIFIED`.
 
 This violates bounded-result discipline.
 
----
+______________________________________________________________________
 
-# 267. Negative Boundary Test 8
+## 267. Negative Boundary Test 8
 
 Three internal agents repeat the same source and confidence is raised as if three independent sources confirmed it.
 
 This violates provenance-independence discipline.
 
----
+______________________________________________________________________
 
-# 268. Negative Boundary Test 9
+## 268. Negative Boundary Test 9
 
 A structurally similar cross-domain model is treated as causal proof.
 
 This violates the causal firewall.
 
----
+______________________________________________________________________
 
-# 269. Negative Boundary Test 10
+## 269. Negative Boundary Test 10
 
 A stale proof capsule is reused after a regime change without revalidation.
 
 This violates current lineage freshness/regime discipline.
 
----
+______________________________________________________________________
 
-# 270. Anti-Fabrication Rules
+## 270. Anti-Fabrication Rules
 
 ```text
 DO NOT invent TaskSpec fields as source canon.
@@ -4214,9 +4217,9 @@ DO NOT hide failed required gates inside prose.
 DO NOT force COMPETING hypotheses to converge.
 ```
 
----
+______________________________________________________________________
 
-# 271. Anti-Regression Rules
+## 271. Anti-Regression Rules
 
 Any optimization of this execution kernel must preserve or improve:
 
@@ -4235,9 +4238,9 @@ user fit
 
 If an optimization weakens these, roll it back.
 
----
+______________________________________________________________________
 
-# 272. Fast-Path Integrity
+## 272. Fast-Path Integrity
 
 A faster route is valid only if it preserves the same load-bearing correctness conditions.
 
@@ -4251,17 +4254,17 @@ $$
 
 is not an acceptable optimization.
 
----
+______________________________________________________________________
 
-# 273. C0 Anti-Regression
+## 273. C0 Anti-Regression
 
 C0 may reduce machinery.
 
 It may not reduce truthfulness.
 
----
+______________________________________________________________________
 
-# 274. Proof Compression
+## 274. Proof Compression
 
 The final result can be concise while the execution graph is complex.
 
@@ -4275,17 +4278,17 @@ scope
 invalidation conditions
 ```
 
----
+______________________________________________________________________
 
-# 275. Kernel Governance Principle
+## 275. Kernel Governance Principle
 
 The execution kernel governs **whether reasoning is admissible**, not merely how text is generated.
 
 This is the central architectural distinction.
 
----
+______________________________________________________________________
 
-# 276. Three Control Planes — Derived
+## 276. Three Control Planes — Derived
 
 The nine stages can be compressed into three macro-planes:
 
@@ -4315,9 +4318,9 @@ Bounded Result
 
 This grouping is DERIVED.
 
----
+______________________________________________________________________
 
-# 277. Four-Phase Alternative
+## 277. Four-Phase Alternative
 
 Another valid derived grouping is:
 
@@ -4346,17 +4349,17 @@ $$
 VALIDATE = FinalGates + BoundedResult
 $$
 
----
+______________________________________________________________________
 
-# 278. Which Grouping Is Canonical?
+## 278. Which Grouping Is Canonical?
 
 Neither macro-grouping is source-defined.
 
 The canonical source sequence remains the explicit nine steps.
 
----
+______________________________________________________________________
 
-# 279. Execution Kernel Compact Equation
+## 279. Execution Kernel Compact Equation
 
 $$
 \boxed{
@@ -4389,11 +4392,11 @@ Where:
 - `Validate_f` runs final integrity/adversarial checks;
 - `Bound` constrains the returned result.
 
----
+______________________________________________________________________
 
-# 280. Failure Equation
+## 280. Failure Equation
 
-For a required gate \(G_i\):
+For a required gate (G_i):
 
 $$
 G_i = FAIL
@@ -4412,9 +4415,9 @@ depending on failure type.
 
 `Blocked` is DERIVED; the first three are explicit source terms.
 
----
+______________________________________________________________________
 
-# 281. No-Caveat Equation
+## 281. No-Caveat Equation
 
 $$
 \boxed{
@@ -4426,9 +4429,9 @@ $$
 
 This is arguably the artifact's most important epistemic invariant.
 
----
+______________________________________________________________________
 
-# 282. C0 Equation
+## 282. C0 Equation
 
 $$
 \boxed{
@@ -4442,9 +4445,9 @@ within the source's stated bypass rule.
 
 Strictly, the source says not to bypass *simply because* the answer seems obvious unless C0; it does not fully enumerate every possible bypass condition. Therefore the biconditional is a **strong DERIVED normalization**, not a verbatim rule.
 
----
+______________________________________________________________________
 
-# 283. Atomicity Equation
+## 283. Atomicity Equation
 
 $$
 \boxed{
@@ -4454,9 +4457,9 @@ AtomicCommit(R_1,\ldots,R_n)
 }
 $$
 
----
+______________________________________________________________________
 
-# 284. Dependency Equation
+## 284. Dependency Equation
 
 $$
 \boxed{
@@ -4468,9 +4471,9 @@ $$
 
 for dependency edges.
 
----
+______________________________________________________________________
 
-# 285. Bounded Confidence Equation
+## 285. Bounded Confidence Equation
 
 A later-lineage compatible rule:
 
@@ -4484,9 +4487,9 @@ $$
 
 unless independent revalidation changes the premise strength.
 
----
+______________________________________________________________________
 
-# 286. Provenance Equation
+## 286. Provenance Equation
 
 $$
 \boxed{
@@ -4496,9 +4499,9 @@ MultipleIndependentSources
 }
 $$
 
----
+______________________________________________________________________
 
-# 287. Scope Equation
+## 287. Scope Equation
 
 $$
 \boxed{
@@ -4508,9 +4511,9 @@ ValidatedScope
 }
 $$
 
----
+______________________________________________________________________
 
-# 288. Causal Equation
+## 288. Causal Equation
 
 $$
 \boxed{
@@ -4520,9 +4523,9 @@ Causation
 }
 $$
 
----
+______________________________________________________________________
 
-# 289. Epistemic Conservation Equation
+## 289. Epistemic Conservation Equation
 
 $$
 \boxed{
@@ -4532,9 +4535,9 @@ EpistemicPromotion
 }
 $$
 
----
+______________________________________________________________________
 
-# 290. Machine-Readable Kernel Contract — Derived
+## 290. Machine-Readable Kernel Contract — Derived
 
 ```yaml
 AMOS_EXECUTION_KERNEL_V1:
@@ -4610,9 +4613,9 @@ AMOS_EXECUTION_KERNEL_V1:
     - bounded_result_schema
 ```
 
----
+______________________________________________________________________
 
-# 291. Proof Capsule — Nine-Stage Pipeline
+## 291. Proof Capsule — Nine-Stage Pipeline
 
 ```yaml
 claim:
@@ -4636,9 +4639,9 @@ invalidation:
   - evidence that numbering is non-procedural
 ```
 
----
+______________________________________________________________________
 
-# 292. Proof Capsule — C0 Bypass
+## 292. Proof Capsule — C0 Bypass
 
 ```yaml
 claim:
@@ -4655,9 +4658,9 @@ scope:
   kernel bypass discipline
 ```
 
----
+______________________________________________________________________
 
-# 293. Proof Capsule — Gate Failure
+## 293. Proof Capsule — Gate Failure
 
 ```yaml
 claim:
@@ -4674,9 +4677,9 @@ consequence:
   bounded_result_class_required
 ```
 
----
+______________________________________________________________________
 
-# 294. Proof Capsule — Atomic Coupled RSCFs
+## 294. Proof Capsule — Atomic Coupled RSCFs
 
 ```yaml
 claim:
@@ -4692,9 +4695,9 @@ unknowns:
   - rollback semantics
 ```
 
----
+______________________________________________________________________
 
-# 295. Proof Capsule — Executable Kernel
+## 295. Proof Capsule — Executable Kernel
 
 ```yaml
 claim:
@@ -4717,9 +4720,9 @@ conclusion_ceiling:
     this artifact alone.
 ```
 
----
+______________________________________________________________________
 
-# 296. Canonical Gap Register
+## 296. Canonical Gap Register
 
 ```yaml
 GAPS:
@@ -4753,26 +4756,26 @@ GAPS:
   COSMETIC: []
 ```
 
----
+______________________________________________________________________
 
-# 297. Canonical Invalidation Conditions
+## 297. Canonical Invalidation Conditions
 
 This expansion should be revalidated if an authoritative source supplies:
 
 1. a newer execution-kernel version;
-2. exact `TaskSpec` schema;
-3. router implementation;
-4. full C0–C4 definitions;
-5. skill-contract schema;
-6. gate registry;
-7. DAG execution specification;
-8. atomic RSCF transaction semantics;
-9. RSCF coupling predicate;
-10. final rollback/finality specification.
+1. exact `TaskSpec` schema;
+1. router implementation;
+1. full C0–C4 definitions;
+1. skill-contract schema;
+1. gate registry;
+1. DAG execution specification;
+1. atomic RSCF transaction semantics;
+1. RSCF coupling predicate;
+1. final rollback/finality specification.
 
----
+______________________________________________________________________
 
-# 298. Canonical Retrieval Priority
+## 298. Canonical Retrieval Priority
 
 If deeper runtime canon is required:
 
@@ -4788,9 +4791,9 @@ raw code / receipts only where needed
 
 This is the preferred fractal retrieval path.
 
----
+______________________________________________________________________
 
-# 299. Source-Preserving Obsidian Note Footer
+## 299. Source-Preserving Obsidian Note Footer
 
 ```markdown
 ---
@@ -4810,9 +4813,9 @@ This is the preferred fractal retrieval path.
 
 ```
 
----
+______________________________________________________________________
 
-# 300. Final Canonical Compression
+## 300. Final Canonical Compression
 
 `AGENTS AMOS EXECUTION KERNEL V1` establishes a compact but powerful control law:
 

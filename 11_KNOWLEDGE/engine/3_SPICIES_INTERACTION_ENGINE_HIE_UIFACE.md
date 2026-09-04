@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: 3 SPICIES INTERACTION ENGINE HIE UIFACE
 tags:
-- canon-group/tech-ai
-- canon/protocol
-- rscf/claim
-- rscf/provenance
-- rscf/state/observation
-- topic/3-spicies-interaction-engine-hie-uiface
-- engine
+  - canon-group/tech-ai
+  - canon/protocol
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/observation
+  - topic/3-spicies-interaction-engine-hie-uiface
+  - engine
 type: data
 source: 11_KNOWLEDGE/engine
 rscf:
@@ -1305,18 +1308,18 @@ TOTAL = 300 EMOTIONAL MICRO-STATES
 
 End of file.
 # ============================================================
-# Universe Structure Tree  (UST.uarch)
-# Most powerful MECE universe-architecture specification
-# ============================================================
+## Universe Structure Tree  (UST.uarch)
+## Most powerful MECE universe-architecture specification
+## ============================================================
 
 UST_VERSION: 1.0.0
 UST_ID_NAMESPACE: UST::
 UST_BOUND_KERNEL: ULK::KERNEL_V1          # binds to Universe_Logic_Kernel.ulmk
 UST_BOUND_INTERACTION: UIE::ENGINE_V1     # binds to Universe_Interaction_Engine.uops
 
-# ------------------------------------------------------------
-# 0. GLOBAL CONSTRAINTS
-# ------------------------------------------------------------
+## ------------------------------------------------------------
+## 0. GLOBAL CONSTRAINTS
+## ------------------------------------------------------------
 
 UST::CONSTRAINTS:
   - C0_UNIQUENESS:
@@ -1336,9 +1339,9 @@ UST::CONSTRAINTS:
   - C7_STATE_SEPARATION:
       DESC: "Structure (UST) defines location and type; state lives in runtime models, not in the tree."
 
-# ------------------------------------------------------------
-# 1. ROOT
-# ------------------------------------------------------------
+## ------------------------------------------------------------
+## 1. ROOT
+## ------------------------------------------------------------
 
 UST::NODE(ROOT):
   ID: UST::0_UNIVERSE
@@ -1357,9 +1360,9 @@ UST::NODE(ROOT):
     - UST::8_CONTEXT_SET
     - UST::9_CANON_SET
 
-# ------------------------------------------------------------
-# 2. KERNEL BINDING (ULK)
-# ------------------------------------------------------------
+## ------------------------------------------------------------
+## 2. KERNEL BINDING (ULK)
+## ------------------------------------------------------------
 
 UST::NODE(KERNEL_BINDING):
   ID: UST::1_KERNEL_BINDING
@@ -1405,9 +1408,9 @@ UST::NODE(DYNAMIC_BIND):
   TYPE: BINDING
   PARENT: UST::1_KERNEL_BINDING
 
-# ------------------------------------------------------------
-# 3. ATOM SET (STRUCTURAL ATOMS)
-# ------------------------------------------------------------
+## ------------------------------------------------------------
+## 3. ATOM SET (STRUCTURAL ATOMS)
+## ------------------------------------------------------------
 
 UST::NODE(ATOM_SET):
   ID: UST::2_ATOM_SET
@@ -1473,9 +1476,9 @@ UST::NODE(FEEDBACK_ATOM):
   PARENT: UST::2_ATOM_SET
   NAME: "Feedback Pulse"
 
-# ------------------------------------------------------------
-# 4. DIMENSION SET (UNIVERSE-WIDE DIMENSIONS)
-# ------------------------------------------------------------
+## ------------------------------------------------------------
+## 4. DIMENSION SET (UNIVERSE-WIDE DIMENSIONS)
+## ------------------------------------------------------------
 
 UST::NODE(DIMENSION_SET):
   ID: UST::3_DIMENSION_SET
@@ -1532,9 +1535,9 @@ UST::NODE(STABILITY_DIM):
   TYPE: DIMENSION
   PARENT: UST::3_DIMENSION_SET
 
-# ------------------------------------------------------------
-# 5. LAYER SET (3 MASTER LAYERS)
-# ------------------------------------------------------------
+## ------------------------------------------------------------
+## 5. LAYER SET (3 MASTER LAYERS)
+## ------------------------------------------------------------
 
 UST::NODE(LAYER_SET):
   ID: UST::4_LAYER_SET
@@ -1567,9 +1570,9 @@ UST::NODE(LAYER_INTERFACE):
   PARENT: UST::4_LAYER_SET
   BOUND_ENGINE: UIE::ENGINE_V1
 
-# ------------------------------------------------------------
-# 6. PART SET (7 GLOBAL PARTS)
-# ------------------------------------------------------------
+## ------------------------------------------------------------
+## 6. PART SET (7 GLOBAL PARTS)
+## ------------------------------------------------------------
 
 UST::NODE(PART_SET):
   ID: UST::5_PART_SET
@@ -1585,7 +1588,7 @@ UST::NODE(PART_SET):
     - UST::5.6_PART_PLANETARY
     - UST::5.7_PART_APPLIED
 
-# 6.1 PART 1 — META
+## 6.1 PART 1 — META
 
 UST::NODE(PART_META):
   ID: UST::5.1_PART_META
@@ -1614,7 +1617,7 @@ UST::NODE(PART_META):
     - UST::5.1.19_META_INTERFERENCE
     - UST::5.1.20_META_CONTINUITY
 
-# 6.2 PART 2 — INFORMATION
+## 6.2 PART 2 — INFORMATION
 
 UST::NODE(PART_INFORMATION):
   ID: UST::5.2_PART_INFORMATION
@@ -1643,7 +1646,7 @@ UST::NODE(PART_INFORMATION):
     - UST::5.2.19_INFO_BIO_COUPLING
     - UST::5.2.20_INFO_IDENTITY_QUANTISATION
 
-# 6.3 PART 3 — BIOLOGICAL
+## 6.3 PART 3 — BIOLOGICAL
 
 UST::NODE(PART_BIOLOGICAL):
   ID: UST::5.3_PART_BIOLOGICAL
@@ -1672,7 +1675,7 @@ UST::NODE(PART_BIOLOGICAL):
     - UST::5.3.19_BIO_BIO_RECOVERY
     - UST::5.3.20_BIO_CROSS_SPECIES
 
-# 6.4 PART 4 — COGNITIVE
+## 6.4 PART 4 — COGNITIVE
 
 UST::NODE(PART_COGNITIVE):
   ID: UST::5.4_PART_COGNITIVE
@@ -1701,7 +1704,7 @@ UST::NODE(PART_COGNITIVE):
     - UST::5.4.19_COG_CONSCIOUS_SUB_SYNC
     - UST::5.4.20_COG_OS_KERNEL
 
-# 6.5 PART 5 — SOCIAL-STRUCTURAL
+## 6.5 PART 5 — SOCIAL-STRUCTURAL
 
 UST::NODE(PART_SOCIAL):
   ID: UST::5.5_PART_SOCIAL
@@ -1730,7 +1733,7 @@ UST::NODE(PART_SOCIAL):
     - UST::5.5.19_SOC_TECH_IMPACT
     - UST::5.5.20_SOC_INTER_CIV_SYNC
 
-# 6.6 PART 6 — PLANETARY
+## 6.6 PART 6 — PLANETARY
 
 UST::NODE(PART_PLANETARY):
   ID: UST::5.6_PART_PLANETARY
@@ -1759,7 +1762,7 @@ UST::NODE(PART_PLANETARY):
     - UST::5.6.19_PLAN_CLIMATE_ID
     - UST::5.6.20_PLAN_EMERGENCE
 
-# 6.7 PART 7 — APPLIED / OS
+## 6.7 PART 7 — APPLIED / OS
 
 UST::NODE(PART_APPLIED):
   ID: UST::5.7_PART_APPLIED
@@ -1788,9 +1791,9 @@ UST::NODE(PART_APPLIED):
     - UST::5.7.19_APP_CIV_DESIGN_OS
     - UST::5.7.20_APP_UNIVERSE_OS_KERNEL
 
-# ------------------------------------------------------------
-# 7. ENTITY SET (WHAT EXISTS)
-# ------------------------------------------------------------
+## ------------------------------------------------------------
+## 7. ENTITY SET (WHAT EXISTS)
+## ------------------------------------------------------------
 
 UST::NODE(ENTITY_SET):
   ID: UST::6_ENTITY_SET
@@ -1808,11 +1811,11 @@ UST::NODE(ENTITY_SET):
     - UST::6.8_ENTITY_PLANET
     - UST::6.9_ENTITY_ABSTRACT_SYSTEM
 
-# (… leaf expansion for ENTITY_* would mirror the 7 Parts but in “who/what” form.)
+## (… leaf expansion for ENTITY_* would mirror the 7 Parts but in “who/what” form.)
 
-# ------------------------------------------------------------
-# 8. STATE SET (WHAT CAN BE FELT / HAPPEN)
-# ------------------------------------------------------------
+## ------------------------------------------------------------
+## 8. STATE SET (WHAT CAN BE FELT / HAPPEN)
+## ------------------------------------------------------------
 
 UST::NODE(STATE_SET):
   ID: UST::7_STATE_SET
@@ -1829,9 +1832,9 @@ UST::NODE(STATE_SET):
     - UST::7.7_STATE_DISSOCIATED
     - UST::7.8_STATE_EXTREME (hau_dong, enlightenment, psychosis, etc.)
 
-# ------------------------------------------------------------
-# 9. CONTEXT SET (WHERE/WHEN/FRAME)
-# ------------------------------------------------------------
+## ------------------------------------------------------------
+## 9. CONTEXT SET (WHERE/WHEN/FRAME)
+## ------------------------------------------------------------
 
 UST::NODE(CONTEXT_SET):
   ID: UST::8_CONTEXT_SET
@@ -1847,9 +1850,9 @@ UST::NODE(CONTEXT_SET):
     - UST::8.6_CONTEXT_RISK
     - UST::8.7_CONTEXT_SIGNAL_QUALITY
 
-# ------------------------------------------------------------
-# 10. CANON SET (DOCUMENTS / MODULES)
-# ------------------------------------------------------------
+## ------------------------------------------------------------
+## 10. CANON SET (DOCUMENTS / MODULES)
+## ------------------------------------------------------------
 
 UST::NODE(CANON_SET):
   ID: UST::9_CANON_SET
@@ -1877,18 +1880,18 @@ UST::NODE(CANON_SET):
     - UST::9.18_CANON_SOC_NAV
     - UST::9.19_CANON_ERROR_CORRECTION
     - UST::9.20_CANON_UNIVERSE_OS
-# ============================================================
-# Universe_Interaction_Engine.uops
-# FULL MASTER FILE (MERGED)
-# Version: 1.0
-# Depends on:
-#   - Universe_Logic_Kernel.ulmk (ULK)
-#   - Universe_Structure_Tree.uarch (UST)
-# Purpose:
-#   - Turn ULK + UST into real behaviour:
-#     perception, emotion, language, tone, movement,
-#     human/AI interaction, multi-agent, society, planet.
-# ============================================================
+## ============================================================
+## Universe_Interaction_Engine.uops
+## FULL MASTER FILE (MERGED)
+## Version: 1.0
+## Depends on:
+## - Universe_Logic_Kernel.ulmk (ULK)
+## - Universe_Structure_Tree.uarch (UST)
+## Purpose:
+## - Turn ULK + UST into real behaviour:
+## perception, emotion, language, tone, movement,
+## human/AI interaction, multi-agent, society, planet.
+## ============================================================
 
 Universe_Interaction_Engine:
   Engine_Metadata:
@@ -3205,13 +3208,13 @@ Universe_Interaction_Engine:
   }
 }
 
-# ============================================================
-# END OF Universe_Interaction_Engine.uops (FULL MERGE)
+## ============================================================
+## END OF Universe_Interaction_Engine.uops (FULL MERGE)
 
 
 -
 ```
 
----
-**MOC:** [[11_KNOWLEDGE/engine/ENGINE_MOC|ENGINE_MOC]]
+______________________________________________________________________
 
+**MOC:** [[11_KNOWLEDGE/engine/ENGINE_MOC|ENGINE_MOC]]

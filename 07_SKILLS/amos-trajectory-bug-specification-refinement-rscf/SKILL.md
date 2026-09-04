@@ -4,25 +4,22 @@ title: SKILL — Amos Trajectory Bug Specification Refinement Rscf
 type: skill
 source: 07_SKILLS/amos-trajectory-bug-specification-refinement-rscf
 name: amos-trajectory-bug-specification-refinement-rscf
-description: Trajectory Bug Specification Refinement — technology and engineering
-  capability. Use when software development, engineering design, or technical architecture.
-  Use when amos-c10-tech-engineering-master routes to this specialized capability.
-  Do not use for generic tasks outside c10 domain.
+description: Trajectory Bug Specification Refinement — technology and engineering capability. Use when software development, engineering design, or technical architecture. Use when amos-c10-tech-engineering-master routes to this specialized capability. Do not use for generic tasks outside c10 domain.
 parent_skill: amos-c10-tech-engineering-master
 domain: c10
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
 tags:
-- type/skill
-- type/skill
-- domain/tech-engineering
-- epistemic/source_claim
-- hml/m
-- epistemic/source_claim
-- amos-os
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/tech-engineering
+  - epistemic/source_claim
+  - hml/m
+  - epistemic/source_claim
+  - amos-os
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -32,25 +29,25 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: M
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
-- L7_authority
-- L8_execution
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
+  - L7_authority
+  - L8_execution
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L7
-- L8
-- L16
-- L17
-- L18
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L7
+  - L8
+  - L16
+  - L17
+  - L18
 license: MIT
 steward: Trang Phan
 ---
@@ -60,6 +57,7 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: c10. Parent: amos-c10-tech-engineering-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
 ## When to Use
 
 - When analyzing software architecture: patterns, dependencies, coupling
@@ -80,6 +78,7 @@ Origin architect: **Trang Phan**. Domain: c10. Parent: amos-c10-tech-engineering
 - **trajectory_bug.enforce_bounds**: Enforce bounded code: resource limits, time limits, and capability limits
 
 > **Reference**: See `references/vault_domain_knowledge.md` (content_hash: 1744b20bd52226e5) for the full vault-sourced domain knowledge (9462 chars).
+
 - **trajectory_bug.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
 - **trajectory_bug.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **trajectory_bug.validate_outputs**: Validate outputs against domain constraints and epistemic class.
@@ -87,13 +86,13 @@ Origin architect: **Trang Phan**. Domain: c10. Parent: amos-c10-tech-engineering
 ## Operations
 
 1. **trajectory_bug.analyze_architecture**: Analyze software architecture: patterns, dependencies, coupling, cohesion
-2. **trajectory_bug.discover_program**: Discover program behavior: black-box analysis, symbolic execution, fuzzing
-3. **trajectory_bug.verify_code_facts**: Verify code facts: type safety, memory safety, termination, complexity
-4. **trajectory_bug.optimize_performance**: Optimize performance: profiling, bottleneck analysis, and resource tuning
-5. **trajectory_bug.enforce_bounds**: Enforce bounded code: resource limits, time limits, and capability limits
-6. **trajectory_bug.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-7. **trajectory_bug.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
-8. **trajectory_bug.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+1. **trajectory_bug.discover_program**: Discover program behavior: black-box analysis, symbolic execution, fuzzing
+1. **trajectory_bug.verify_code_facts**: Verify code facts: type safety, memory safety, termination, complexity
+1. **trajectory_bug.optimize_performance**: Optimize performance: profiling, bottleneck analysis, and resource tuning
+1. **trajectory_bug.enforce_bounds**: Enforce bounded code: resource limits, time limits, and capability limits
+1. **trajectory_bug.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+1. **trajectory_bug.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+1. **trajectory_bug.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## 11_KNOWLEDGE Vault Content
 
@@ -108,6 +107,7 @@ This RSCF engine operates on the AMOS RSCF (Reasoning, Scope, Claim, Falsifier) 
 **RSCF state kinds**: OBSERVATION, SOURCE_CLAIM, DERIVED, MODEL, DECISION, UNKNOWN.
 
 **RSCF laws**:
+
 - `CLAIM != FACT`: a claim is not a fact; it must be labeled with epistemic class
 - `CONFIDENCE <= EVIDENCE`: confidence cannot exceed evidence support
 - `FALSIFIER_REQUIRED`: every claim must declare its falsifier
@@ -115,6 +115,7 @@ This RSCF engine operates on the AMOS RSCF (Reasoning, Scope, Claim, Falsifier) 
 - `PROVENANCE_REQUIRED`: every claim must have traceable provenance
 
 **RSCF validation gates**:
+
 - G1 (Law of Law): no unresolved contradictions
 - G2 (Epistemic class): all claims labeled, no class promotion without evidence
 - G3 (Provenance): source path recorded for every derived claim
@@ -141,7 +142,8 @@ This RSCF engine is an epistemic governance tool. It does not prove claims are t
 - **G3 (Provenance)**: Source path recorded for every derived claim.
 - **G4 (Anti-overreach)**: No claim beyond the
 
----
+______________________________________________________________________
+
 **Links:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 ## Related
@@ -151,17 +153,19 @@ This RSCF engine is an epistemic governance tool. It does not prove claims are t
 ## Examples
 
 - **Scenario**: When analyzing software architecture: patterns, dependencies, coupling
+
   - **Input**: A query matching this skill's domain (c10)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When discovering program behavior via black-box analysis or symbolic execution
+
   - **Input**: A query matching this skill's domain (c10)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When verifying code facts: type safety, memory safety, termination
+
   - **Input**: A query matching this skill's domain (c10)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Anti-Patterns
 
@@ -171,7 +175,6 @@ This RSCF engine is an epistemic governance tool. It does not prove claims are t
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `amos-c10-tech-engineering-master` — routes to this skill when c10 specialization is needed
@@ -179,7 +182,6 @@ This RSCF engine is an epistemic governance tool. It does not prove claims are t
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -198,7 +200,6 @@ This RSCF engine is an epistemic governance tool. It does not prove claims are t
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -206,7 +207,6 @@ This RSCF engine is an epistemic governance tool. It does not prove claims are t
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -219,11 +219,12 @@ This RSCF engine is an epistemic governance tool. It does not prove claims are t
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `amos-c10-tech-engineering-master` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `amos-trajectory-bug-specification-refinement-rscf-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -231,12 +232,14 @@ This RSCF engine is an epistemic governance tool. It does not prove claims are t
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-trajectory-bug-specification-refinement-rscf
 node_type: skill
 path: 07_SKILLS/amos-trajectory-bug-specification-refinement-rscf/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

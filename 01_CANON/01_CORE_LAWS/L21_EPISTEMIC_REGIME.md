@@ -1,52 +1,55 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: L21 EPISTEMIC REGIME
 type: epistemic
 source: 01_CANON/01_CORE_LAWS
 tags:
-- canon
-- core_laws
-- epistemic
-- epistemic_regime
-- declared_regime
-- regime_firewall
-- regime_bridge
-- governed_payload
-- non_portables
-- simulation
-- empirical
-- canon
-- speculative
-- simulation_pessimism
-- branch_stability
-- worst_branch_drift
-- freshness
-- freshness_axes
-- temporal_freshness
-- environmental_freshness
-- regimeal_freshness
-- provenance_freshness
-- scope_freshness
-- model_freshness
-- source_freshness
-- applicability
-- canon/universe
-- validation
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- law/L17-rscf
-- law/L18-gmef
-- law/L19-proof-capsule
-- law/L20-adversarial
-- law/L16-hml
-- provenance-topology
-- persistent-provenance
-- scope-regime-firewall
-- causal-firewall
-- competing-hypotheses
-- causal-epoch-finality
-- law/L10-failure-recovery
-- law/L11-knowledge-memory
-- law/L15-fractal-knowledge
+  - canon
+  - core_laws
+  - epistemic
+  - epistemic_regime
+  - declared_regime
+  - regime_firewall
+  - regime_bridge
+  - governed_payload
+  - non_portables
+  - simulation
+  - empirical
+  - canon
+  - speculative
+  - simulation_pessimism
+  - branch_stability
+  - worst_branch_drift
+  - freshness
+  - freshness_axes
+  - temporal_freshness
+  - environmental_freshness
+  - regimeal_freshness
+  - provenance_freshness
+  - scope_freshness
+  - model_freshness
+  - source_freshness
+  - applicability
+  - canon/universe
+  - validation
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - law/L17-rscf
+  - law/L18-gmef
+  - law/L19-proof-capsule
+  - law/L20-adversarial
+  - law/L16-hml
+  - provenance-topology
+  - persistent-provenance
+  - scope-regime-firewall
+  - causal-firewall
+  - competing-hypotheses
+  - causal-epoch-finality
+  - law/L10-failure-recovery
+  - law/L11-knowledge-memory
+  - law/L15-fractal-knowledge
 rscf:
   state: SOURCE_CLAIM
   claim_class: CONDITIONAL
@@ -65,9 +68,9 @@ rscf:
 **canonical_status:** CONDITIONAL
 **updated:** 2026-08-26
 
----
+______________________________________________________________________
 
-# 0. Status
+## 0. Status
 
 L21 defines the proposed AMOS **Epistemic Regime Laws**.
 
@@ -108,7 +111,7 @@ It replaces the prior placeholder with a structured specification governing:
 
 L21 remains:
 
-```text
+````text
 PROPOSED_SPECIFICATION
         │
         ▼
@@ -126,7 +129,7 @@ ER-1 DECLARED REGIME
 ER-2 REGIME FIREWALL
 ER-3 SIMULATION PESSIMISM
 ER-4 FRESHNESS AXES
-```
+````
 
 The central invariant is:
 
@@ -142,9 +145,9 @@ UNLESS AN EXPLICIT VALID BRIDGE
 ESTABLISHES TRANSFER.
 ```
 
----
+______________________________________________________________________
 
-# 1. Governing Objective
+## 1. Governing Objective
 
 L21 asks:
 
@@ -203,9 +206,9 @@ DECLARE WHERE YOU KNOW IT,
 THEN PROVE WHERE IT TRAVELS.
 ```
 
----
+______________________________________________________________________
 
-# 2. Core Epistemic Regime Laws
+## 2. Core Epistemic Regime Laws
 
 ```text
 ER-1
@@ -271,9 +274,9 @@ NOT    STABLE
 STABLE VERDICT
 ```
 
----
+______________________________________________________________________
 
-# 3. ER-1 — Declared Regime
+## 3. ER-1 — Declared Regime
 
 **Law**
 
@@ -300,9 +303,9 @@ DECLARED_REGIME
 
 within the proposed L21 model.
 
----
+______________________________________________________________________
 
-# 4. Regime Declaration Is Part of Meaning
+## 4. Regime Declaration Is Part of Meaning
 
 A conclusion without its regime can be epistemically ambiguous.
 
@@ -340,9 +343,9 @@ REGIME
 
 is more informative than claim text alone.
 
----
+______________________________________________________________________
 
-# 5. Simulation Regime
+## 5. Simulation Regime
 
 The source explicitly names:
 
@@ -364,9 +367,9 @@ MODELED EXECUTION CONTEXT
 
 The exact canonical definition of simulation is not supplied.
 
----
+______________________________________________________________________
 
-# 6. Simulation Does Not Establish Empirical Reality
+## 6. Simulation Does Not Establish Empirical Reality
 
 Invalid:
 
@@ -388,9 +391,9 @@ SIMULATED
 EMPIRICALLY OBSERVED
 ```
 
----
+______________________________________________________________________
 
-# 7. Simulation Does Not Establish Canon
+## 7. Simulation Does Not Establish Canon
 
 Likewise:
 
@@ -406,9 +409,9 @@ R IS CANON
 
 Canonical status requires canonical authority under the relevant governance system.
 
----
+______________________________________________________________________
 
-# 8. Simulation Does Not Equal Speculation
+## 8. Simulation Does Not Equal Speculation
 
 Simulation and speculation are separately named regimes.
 
@@ -420,9 +423,9 @@ A speculative claim may be conceptual without simulated execution.
 
 Exact boundary semantics remain unspecified.
 
----
+______________________________________________________________________
 
-# 9. Empirical Regime
+## 9. Empirical Regime
 
 The source explicitly names:
 
@@ -445,9 +448,9 @@ RELEVANT REAL-WORLD SYSTEM
 
 The exact measurement requirements are not supplied by L21.
 
----
+______________________________________________________________________
 
-# 10. Empirical Observation Is Scope-Bound
+## 10. Empirical Observation Is Scope-Bound
 
 An empirical result established for:
 
@@ -469,9 +472,9 @@ POPULATION P2
 
 This follows ER-2 and ER-4's applicability discipline.
 
----
+______________________________________________________________________
 
-# 11. Empirical Does Not Mean Universal
+## 11. Empirical Does Not Mean Universal
 
 Invalid:
 
@@ -491,9 +494,9 @@ TRUE FOR ALL POPULATIONS
 
 without independent support for generalization.
 
----
+______________________________________________________________________
 
-# 12. Empirical Does Not Mean Canonical
+## 12. Empirical Does Not Mean Canonical
 
 A result can be empirically well-supported while not being canonical.
 
@@ -505,9 +508,9 @@ CANONICAL AUTHORITY
 
 Likewise, canon may state a rule whose empirical performance remains separately testable.
 
----
+______________________________________________________________________
 
-# 13. Canonical Regime
+## 13. Canonical Regime
 
 The source explicitly names:
 
@@ -530,9 +533,9 @@ AUTHORITATIVE CANON
 
 The exact authority hierarchy is governed elsewhere.
 
----
+______________________________________________________________________
 
-# 14. Canonical Is Not Automatically Empirical
+## 14. Canonical Is Not Automatically Empirical
 
 A canonical specification may state:
 
@@ -557,9 +560,9 @@ EMPIRICAL IMPLEMENTATION FACT
 
 unless validated through an explicit bridge.
 
----
+______________________________________________________________________
 
-# 15. Canonical Is Not Automatically Simulation Truth
+## 15. Canonical Is Not Automatically Simulation Truth
 
 Likewise, a canonical rule may define expected behavior while a simulation implementation may fail to reproduce it.
 
@@ -577,9 +580,9 @@ SIMULATION PRODUCES X
 
 The simulator itself requires validation.
 
----
+______________________________________________________________________
 
-# 16. Speculative Regime
+## 16. Speculative Regime
 
 The source explicitly names:
 
@@ -603,9 +606,9 @@ IN A STRONGER REGIME
 
 Exact criteria remain unspecified.
 
----
+______________________________________________________________________
 
-# 17. Speculation Is Allowed but Typed
+## 17. Speculation Is Allowed but Typed
 
 ER-1 does not prohibit speculation.
 
@@ -626,9 +629,9 @@ SPECULATION
 PRESENTED AS FACT
 ```
 
----
+______________________________________________________________________
 
-# 18. Speculative Does Not Mean False
+## 18. Speculative Does Not Mean False
 
 A speculative claim may later be validated.
 
@@ -642,9 +645,9 @@ FALSE
 
 It means the claim currently occupies the speculative regime.
 
----
+______________________________________________________________________
 
-# 19. Speculative Does Not Mean Empirical
+## 19. Speculative Does Not Mean Empirical
 
 Likewise:
 
@@ -660,9 +663,9 @@ EMPIRICAL OBSERVATION
 
 because it is coherent or persuasive.
 
----
+______________________________________________________________________
 
-# 20. Regime Declaration Record
+## 20. Regime Declaration Record
 
 A model-level representation:
 
@@ -684,9 +687,9 @@ evaluation:
 
 The exact schema is not source-defined.
 
----
+______________________________________________________________________
 
-# 21. Missing Regime
+## 21. Missing Regime
 
 If an evaluation lacks a regime declaration:
 
@@ -706,9 +709,9 @@ REGIME = UNKNOWN/GAP
 
 rather than inferring the regime from tone or wording.
 
----
+______________________________________________________________________
 
-# 22. Regime Inference Is Not Declaration
+## 22. Regime Inference Is Not Declaration
 
 A reader may infer:
 
@@ -728,9 +731,9 @@ DECLARED REGIME
 
 unless another canonical rule permits inference.
 
----
+______________________________________________________________________
 
-# 23. Mixed-Regime Evaluation
+## 23. Mixed-Regime Evaluation
 
 An evaluation may contain multiple epistemic components.
 
@@ -748,9 +751,9 @@ The source does not define a canonical mixed-regime representation.
 
 A safe model-level approach is to type each load-bearing component separately rather than assign an unjustified single regime.
 
----
+______________________________________________________________________
 
-# 24. Regime of Derived Conclusion
+## 24. Regime of Derived Conclusion
 
 If a conclusion depends on premises from multiple regimes:
 
@@ -764,9 +767,9 @@ the conclusion should not silently inherit the strongest regime label.
 
 Its validity depends on the bridges and load-bearing premises.
 
----
+______________________________________________________________________
 
-# 25. ER-1 Compact Law
+## 25. ER-1 Compact Law
 
 ```text
 EVERY EVALUATION
@@ -783,9 +786,9 @@ SPECULATIVE
 
 No regime declaration means the evaluation has an unresolved epistemic-regime gap.
 
----
+______________________________________________________________________
 
-# 26. ER-2 — Regime Firewall
+## 26. ER-2 — Regime Firewall
 
 **Law**
 
@@ -811,9 +814,9 @@ GOVERNED PAYLOAD
 NON-PORTABLES DECLARED
 ```
 
----
+______________________________________________________________________
 
-# 27. Regime Locality
+## 27. Regime Locality
 
 A conclusion established in regime R1 is initially local to R1.
 
@@ -839,9 +842,9 @@ VALID_R2(C)
 
 without explicit bridge routing.
 
----
+______________________________________________________________________
 
-# 28. Regime Firewall
+## 28. Regime Firewall
 
 The firewall is:
 
@@ -874,9 +877,9 @@ DECLARED
 TARGET REGIME
 ```
 
----
+______________________________________________________________________
 
-# 29. Bridge Routing
+## 29. Bridge Routing
 
 The source uses:
 
@@ -898,9 +901,9 @@ WHAT TARGET-SIDE VALIDATION
 IS REQUIRED?
 ```
 
----
+______________________________________________________________________
 
-# 30. Governed Payload
+## 30. Governed Payload
 
 The source explicitly identifies:
 
@@ -921,9 +924,9 @@ AND GOVERNED
 
 The exact governance mechanism is not supplied.
 
----
+______________________________________________________________________
 
-# 31. Non-Portables
+## 31. Non-Portables
 
 The source explicitly requires:
 
@@ -943,26 +946,26 @@ SOURCE RESULT
 
 The bridge must not silently transport the latter.
 
----
+______________________________________________________________________
 
-# 32. Non-Portable Examples
+## 32. Non-Portable Examples
 
 Possible model-level non-portables include:
 
-* simulation-only assumptions,
-* synthetic distributions,
-* simulator-specific timing,
-* canonical authority,
-* empirical sampling context,
-* speculative mechanism assumptions,
-* environment-specific parameters,
-* regime-local confidence.
+- simulation-only assumptions,
+- synthetic distributions,
+- simulator-specific timing,
+- canonical authority,
+- empirical sampling context,
+- speculative mechanism assumptions,
+- environment-specific parameters,
+- regime-local confidence.
 
 These examples are not source-defined.
 
----
+______________________________________________________________________
 
-# 33. Canonical Authority Is Non-Portable to Empirical Fact
+## 33. Canonical Authority Is Non-Portable to Empirical Fact
 
 Example:
 
@@ -988,9 +991,9 @@ actually rejects X
 
 That empirical fact requires empirical validation.
 
----
+______________________________________________________________________
 
-# 34. Empirical Observation Is Non-Portable to Canonical Authority
+## 34. Empirical Observation Is Non-Portable to Canonical Authority
 
 Example:
 
@@ -1008,9 +1011,9 @@ R is governing law
 
 Observed convention is not canonical authority.
 
----
+______________________________________________________________________
 
-# 35. Simulation Outcome Is Non-Portable to Empirical Observation
+## 35. Simulation Outcome Is Non-Portable to Empirical Observation
 
 Example:
 
@@ -1028,9 +1031,9 @@ real nodes converge
 
 without bridge validation.
 
----
+______________________________________________________________________
 
-# 36. Speculative Mechanism Is Non-Portable to Empirical Cause
+## 36. Speculative Mechanism Is Non-Portable to Empirical Cause
 
 Example:
 
@@ -1050,9 +1053,9 @@ without appropriately typed evidence.
 
 This also invokes the causal firewall.
 
----
+______________________________________________________________________
 
-# 37. Explicit Bridge Record
+## 37. Explicit Bridge Record
 
 A model-level bridge representation:
 
@@ -1080,9 +1083,9 @@ regime_bridge:
 
 Exact schema is not canonical.
 
----
+______________________________________________________________________
 
-# 38. Bridge Does Not Guarantee Transfer
+## 38. Bridge Does Not Guarantee Transfer
 
 The existence of a bridge object does not itself establish that the conclusion successfully transfers.
 
@@ -1094,9 +1097,9 @@ TARGET VALIDITY ESTABLISHED
 
 The bridge must satisfy whatever target-regime validation is load-bearing.
 
----
+______________________________________________________________________
 
-# 39. Bridge Routing vs Relabeling
+## 39. Bridge Routing vs Relabeling
 
 Invalid:
 
@@ -1120,9 +1123,9 @@ EMPIRICAL RESULT
 
 when empirical validation is required.
 
----
+______________________________________________________________________
 
-# 40. Bridge Directionality
+## 40. Bridge Directionality
 
 A bridge from:
 
@@ -1148,9 +1151,9 @@ BRIDGE(R2,R1)
 
 unless explicitly established.
 
----
+______________________________________________________________________
 
-# 41. Bridge Composition
+## 41. Bridge Composition
 
 Suppose:
 
@@ -1178,9 +1181,9 @@ Non-portables may accumulate.
 
 Thus bridge composition should be explicit where load-bearing.
 
----
+______________________________________________________________________
 
-# 42. Bridge Chain
+## 42. Bridge Chain
 
 Conceptually:
 
@@ -1198,9 +1201,9 @@ CANONICAL
 
 A property lost at Bridge A cannot silently reappear at Bridge B.
 
----
+______________________________________________________________________
 
-# 43. Non-Portable Monotonicity
+## 43. Non-Portable Monotonicity
 
 A useful model-level invariant is:
 
@@ -1215,9 +1218,9 @@ WITHOUT REVALIDATION.
 
 This prevents epistemic laundering.
 
----
+______________________________________________________________________
 
-# 44. Regime Laundering
+## 44. Regime Laundering
 
 Regime laundering occurs conceptually when:
 
@@ -1251,9 +1254,9 @@ CANONICAL REQUIREMENT
 
 ER-2 rejects such silent crossings.
 
----
+______________________________________________________________________
 
-# 45. Regime Firewall and Language
+## 45. Regime Firewall and Language
 
 A conclusion should preserve regime-sensitive language.
 
@@ -1275,9 +1278,9 @@ SPECULATIVE:
 
 This wording is model guidance, not canonical syntax.
 
----
+______________________________________________________________________
 
-# 46. Cross-Regime Confidence
+## 46. Cross-Regime Confidence
 
 A high-confidence conclusion in one regime does not automatically retain the same confidence in another.
 
@@ -1289,9 +1292,9 @@ HIGH CONFIDENCE @ R2
 
 unless the bridge validates the relevant dependencies.
 
----
+______________________________________________________________________
 
-# 47. Cross-Regime Provenance
+## 47. Cross-Regime Provenance
 
 Provenance should remain attached to the transferred payload.
 
@@ -1315,9 +1318,9 @@ WHAT WAS LOST?
 
 where those facts are material.
 
----
+______________________________________________________________________
 
-# 48. Bridge Provenance
+## 48. Bridge Provenance
 
 A model-level bridge may carry:
 
@@ -1333,9 +1336,9 @@ provenance:
 
 Exact fields are not source-defined.
 
----
+______________________________________________________________________
 
-# 49. Bridge and Competing Hypotheses
+## 49. Bridge and Competing Hypotheses
 
 A bridge must not collapse multiple source-regime hypotheses merely because the target regime prefers one narrative.
 
@@ -1355,9 +1358,9 @@ H1 VERIFIED
 
 without discriminating empirical evidence.
 
----
+______________________________________________________________________
 
-# 50. Bridge and Causality
+## 50. Bridge and Causality
 
 Cross-regime transfer is especially dangerous for causal claims.
 
@@ -1377,9 +1380,9 @@ M causes O in reality
 
 unless the empirical bridge licenses causal inference.
 
----
+______________________________________________________________________
 
-# 51. Bridge and Scope
+## 51. Bridge and Scope
 
 A bridge must account for scope differences.
 
@@ -1399,9 +1402,9 @@ is not merely a regime change; it is also a scale/environment/scope change.
 
 Thus ER-2 and ER-4 interact.
 
----
+______________________________________________________________________
 
-# 52. Bridge and Time
+## 52. Bridge and Time
 
 A valid historical bridge may become stale.
 
@@ -1419,9 +1422,9 @@ T2
 
 if the target system materially changed.
 
----
+______________________________________________________________________
 
-# 53. Bridge and Model Version
+## 53. Bridge and Model Version
 
 A simulation-to-empirical bridge validated for:
 
@@ -1437,9 +1440,9 @@ MODEL M2
 
 without model-freshness validation.
 
----
+______________________________________________________________________
 
-# 54. Bridge and Source Change
+## 54. Bridge and Source Change
 
 If the authoritative source underlying a canonical claim changes:
 
@@ -1453,9 +1456,9 @@ a prior bridge based on S1 may require revalidation.
 
 This is captured by source freshness.
 
----
+______________________________________________________________________
 
-# 55. ER-2 Compact Law
+## 55. ER-2 Compact Law
 
 ```text
 CONCLUSION @ REGIME A
@@ -1474,9 +1477,9 @@ TARGET-REGIME VALIDATION
 CONCLUSION @ REGIME B
 ```
 
----
+______________________________________________________________________
 
-# 56. ER-3 — Simulation Pessimism
+## 56. ER-3 — Simulation Pessimism
 
 **Law**
 
@@ -1497,9 +1500,9 @@ REQUIRES
 ALL BRANCHES STABLE
 ```
 
----
+______________________________________________________________________
 
-# 57. Simulation Branches
+## 57. Simulation Branches
 
 The source uses:
 
@@ -1511,9 +1514,9 @@ without defining exact branch-generation semantics.
 
 A model-level interpretation is that a simulation may have multiple relevant execution paths, scenarios, trajectories, or modeled outcomes.
 
----
+______________________________________________________________________
 
-# 58. Branch Set
+## 58. Branch Set
 
 Let:
 
@@ -1531,9 +1534,9 @@ D(bi)
 
 The exact definition of drift is not supplied by L21.
 
----
+______________________________________________________________________
 
-# 59. Worst-Branch Drift
+## 59. Worst-Branch Drift
 
 A semantic compression is:
 
@@ -1558,9 +1561,9 @@ count worst-branch drift
 
 The canonical aggregation function is not explicitly defined.
 
----
+______________________________________________________________________
 
-# 60. Stable Verdict
+## 60. Stable Verdict
 
 ER-3 explicitly requires:
 
@@ -1578,9 +1581,9 @@ StableVerdict
 ∀b ∈ B : Stable(b)
 ```
 
----
+______________________________________________________________________
 
-# 61. One Unstable Branch
+## 61. One Unstable Branch
 
 If:
 
@@ -1606,9 +1609,9 @@ NOT LICENSED
 
 under ER-3.
 
----
+______________________________________________________________________
 
-# 62. Majority Stability Is Insufficient
+## 62. Majority Stability Is Insufficient
 
 Invalid:
 
@@ -1629,9 +1632,9 @@ STABLE
 
 for the stable verdict.
 
----
+______________________________________________________________________
 
-# 63. Average Drift Is Insufficient
+## 63. Average Drift Is Insufficient
 
 Invalid if used to hide an unstable worst branch:
 
@@ -1650,9 +1653,9 @@ HAS HIGH DRIFT
 
 ER-3 explicitly directs attention to the worst branch.
 
----
+______________________________________________________________________
 
-# 64. Best-Case Selection Is Invalid
+## 64. Best-Case Selection Is Invalid
 
 Invalid:
 
@@ -1664,9 +1667,9 @@ REPORT SIMULATION STABLE
 
 ER-3 requires all relevant branches to satisfy stability.
 
----
+______________________________________________________________________
 
-# 65. Median Stability Is Insufficient
+## 65. Median Stability Is Insufficient
 
 Likewise:
 
@@ -1682,9 +1685,9 @@ ALL BRANCHES STABLE
 
 unless every branch is stable.
 
----
+______________________________________________________________________
 
-# 66. Worst-Branch Pessimism
+## 66. Worst-Branch Pessimism
 
 The law encodes a conservative simulation posture:
 
@@ -1697,9 +1700,9 @@ RELEVANT BRANCH
 
 This resembles a weakest-branch ceiling.
 
----
+______________________________________________________________________
 
-# 67. Drift
+## 67. Drift
 
 The source does not define:
 
@@ -1709,20 +1712,20 @@ drift
 
 Canonical gaps include:
 
-* what quantity drifts,
-* reference baseline,
-* metric,
-* threshold,
-* directionality,
-* normalization,
-* aggregation,
-* time horizon.
+- what quantity drifts,
+- reference baseline,
+- metric,
+- threshold,
+- directionality,
+- normalization,
+- aggregation,
+- time horizon.
 
 Therefore no exact drift formula should be invented as canon.
 
----
+______________________________________________________________________
 
-# 68. Stability
+## 68. Stability
 
 Likewise, the source does not define the exact canonical stability predicate.
 
@@ -1736,9 +1739,9 @@ is evaluated under whatever applicable simulation canon defines stability.
 
 L21 only establishes the all-branch requirement.
 
----
+______________________________________________________________________
 
-# 69. Branch Relevance
+## 69. Branch Relevance
 
 ER-3 says:
 
@@ -1748,18 +1751,18 @@ ALL branches stable
 
 but the supplied note does not define whether `all` means:
 
-* all generated branches,
-* all reachable branches,
-* all admissible branches,
-* all threat-relevant branches,
-* all branches above some probability,
-* all branches in a bounded simulation tree.
+- all generated branches,
+- all reachable branches,
+- all admissible branches,
+- all threat-relevant branches,
+- all branches above some probability,
+- all branches in a bounded simulation tree.
 
 This is a DECISION-RELEVANT gap.
 
----
+______________________________________________________________________
 
-# 70. Impossible Branches
+## 70. Impossible Branches
 
 A branch that is provably impossible under the simulation's declared regime may or may not belong to the relevant branch set.
 
@@ -1773,9 +1776,9 @@ BRANCH MEMBERSHIP
 CANONICAL GAP
 ```
 
----
+______________________________________________________________________
 
-# 71. Low-Probability Branches
+## 71. Low-Probability Branches
 
 ER-3 does not state:
 
@@ -1788,17 +1791,17 @@ Therefore probability alone cannot be assumed to exempt a branch.
 
 If probability-based exclusion exists, it must come from authoritative simulation canon.
 
----
+______________________________________________________________________
 
-# 72. Zero-Probability Branches
+## 72. Zero-Probability Branches
 
 Likewise, exact treatment of zero-probability but structurally represented branches is unspecified.
 
 Do not silently decide their relevance without a governing branch rule.
 
----
+______________________________________________________________________
 
-# 73. Worst-Branch Drift Record
+## 73. Worst-Branch Drift Record
 
 A model-level representation:
 
@@ -1828,9 +1831,9 @@ simulation_result:
 
 The schema and numeric metric are illustrative only.
 
----
+______________________________________________________________________
 
-# 74. Simulation Verdict Algorithm
+## 74. Simulation Verdict Algorithm
 
 ```python
 def simulation_stable(branches):
@@ -1844,9 +1847,9 @@ def simulation_stable(branches):
 
 This directly represents the all-branch requirement.
 
----
+______________________________________________________________________
 
-# 75. Worst-Branch Algorithm
+## 75. Worst-Branch Algorithm
 
 A model-level representation:
 
@@ -1861,9 +1864,9 @@ def worst_branch_drift(branches):
 
 This assumes scalar comparable drift, which L21 itself does not establish.
 
----
+______________________________________________________________________
 
-# 76. Vector Drift
+## 76. Vector Drift
 
 If drift is multidimensional, a single maximum may be insufficient.
 
@@ -1883,9 +1886,9 @@ The source does not specify scalar versus vector drift.
 
 Therefore exact worst-branch ordering remains UNKNOWN/GAP.
 
----
+______________________________________________________________________
 
-# 77. Incomparable Branches
+## 77. Incomparable Branches
 
 Two branches may be worse on different dimensions.
 
@@ -1901,9 +1904,9 @@ high consistency drift
 
 Without a canonical ordering rule, they may remain incomparable rather than forcing one scalar ranking.
 
----
+______________________________________________________________________
 
-# 78. Simulation Pessimism Does Not Mean Fabricating Bad Branches
+## 78. Simulation Pessimism Does Not Mean Fabricating Bad Branches
 
 ER-3 requires pessimistic treatment of simulation branches.
 
@@ -1919,9 +1922,9 @@ FABRICATION
 
 The branch set still requires legitimate generation under the simulation model.
 
----
+______________________________________________________________________
 
-# 79. Simulation Pessimism Does Not Equal Universal Failure
+## 79. Simulation Pessimism Does Not Equal Universal Failure
 
 An unstable branch establishes:
 
@@ -1938,9 +1941,9 @@ REAL SYSTEM WILL FAIL
 
 That would cross simulation → empirical regime without a bridge.
 
----
+______________________________________________________________________
 
-# 80. Stable Simulation Does Not Equal Empirical Stability
+## 80. Stable Simulation Does Not Equal Empirical Stability
 
 Likewise:
 
@@ -1952,9 +1955,9 @@ licenses a stable verdict within the simulation regime.
 
 It does not automatically establish empirical stability.
 
----
+______________________________________________________________________
 
-# 81. Stable Simulation Does Not Equal Canonical Compliance
+## 81. Stable Simulation Does Not Equal Canonical Compliance
 
 A simulation may be stable yet violate canonical rules.
 
@@ -1968,9 +1971,9 @@ CANONICAL VALIDITY
 
 unless the canonical requirement is specifically part of the simulation evaluation and bridge.
 
----
+______________________________________________________________________
 
-# 82. Simulation Pessimism and Adversarial Validation
+## 82. Simulation Pessimism and Adversarial Validation
 
 L20 may generate adversarial branches or cases.
 
@@ -1994,9 +1997,9 @@ VERDICT     MAY BE
 
 This integration is model-level unless cross-referenced by authoritative canon.
 
----
+______________________________________________________________________
 
-# 83. Simulation and Competing Hypotheses
+## 83. Simulation and Competing Hypotheses
 
 Different branches may correspond to different hypotheses.
 
@@ -2009,9 +2012,9 @@ H2 → unstable branch
 
 If both are legitimate branches, the stable verdict is not licensed.
 
----
+______________________________________________________________________
 
-# 84. Branch Provenance
+## 84. Branch Provenance
 
 Each branch may depend on different assumptions.
 
@@ -2029,9 +2032,9 @@ branch:
 
 This helps determine whether branches are truly distinct or duplicated descendants of the same assumptions.
 
----
+______________________________________________________________________
 
-# 85. Correlated Branches
+## 85. Correlated Branches
 
 Ten branches derived from one identical underlying assumption are not necessarily ten independent confirmations.
 
@@ -2039,20 +2042,20 @@ ER-3's all-branch rule concerns stability, not independence counting.
 
 Provenance topology remains separately relevant.
 
----
+______________________________________________________________________
 
-# 86. Branch Explosion
+## 86. Branch Explosion
 
 A simulation may contain enormous or unbounded branch spaces.
 
 L21 does not define:
 
-* exhaustive enumeration,
-* pruning,
-* abstraction,
-* symbolic exploration,
-* sampling,
-* branch bounding.
+- exhaustive enumeration,
+- pruning,
+- abstraction,
+- symbolic exploration,
+- sampling,
+- branch bounding.
 
 Therefore claiming:
 
@@ -2062,9 +2065,9 @@ ALL BRANCHES STABLE
 
 requires clarity about what branch universe was actually covered.
 
----
+______________________________________________________________________
 
-# 87. Sampled Branches
+## 87. Sampled Branches
 
 If only sampled branches were evaluated:
 
@@ -2080,9 +2083,9 @@ ALL RELEVANT BRANCHES STABLE
 
 unless the sampling method independently licenses that inference.
 
----
+______________________________________________________________________
 
-# 88. Branch Coverage Receipt
+## 88. Branch Coverage Receipt
 
 A model-level simulation receipt may include:
 
@@ -2095,9 +2098,9 @@ branch_coverage:
 
 Then the conclusion should not claim exhaustive all-branch stability.
 
----
+______________________________________________________________________
 
-# 89. Exhaustive Simulation
+## 89. Exhaustive Simulation
 
 If all relevant branches are formally enumerated and all stable:
 
@@ -2110,9 +2113,9 @@ then ER-3's all-branch condition is satisfied within that simulation regime.
 
 This still does not cross regimes automatically.
 
----
+______________________________________________________________________
 
-# 90. ER-3 Compact Law
+## 90. ER-3 Compact Law
 
 ```text
 SIMULATION
@@ -2135,9 +2138,9 @@ VERDICT MAY BE
        LICENSED
 ```
 
----
+______________________________________________________________________
 
-# 91. ER-4 — Freshness Axes
+## 91. ER-4 — Freshness Axes
 
 **Law**
 
@@ -2157,9 +2160,9 @@ ER-4 explicitly establishes seven freshness axes:
 
 Applicability therefore carries a multidimensional freshness state.
 
----
+______________________________________________________________________
 
-# 92. Freshness Is Not One Timestamp
+## 92. Freshness Is Not One Timestamp
 
 A conclusion can be temporally recent yet stale in another dimension.
 
@@ -2183,9 +2186,9 @@ RECENT
 FRESH ON ALL AXES
 ```
 
----
+______________________________________________________________________
 
-# 93. Seven-Axis Freshness Vector
+## 93. Seven-Axis Freshness Vector
 
 A model-level representation:
 
@@ -2204,9 +2207,9 @@ F(C) =
 
 The source establishes the axes but not their numeric encoding.
 
----
+______________________________________________________________________
 
-# 94. Temporal Freshness
+## 94. Temporal Freshness
 
 Temporal freshness concerns whether the conclusion remains valid relative to time.
 
@@ -2224,9 +2227,9 @@ T2
 
 because the world or target system changed.
 
----
+______________________________________________________________________
 
-# 95. Temporal Freshness Is Claim-Specific
+## 95. Temporal Freshness Is Claim-Specific
 
 Different claims decay at different rates.
 
@@ -2244,26 +2247,26 @@ may decay quickly.
 
 L21 does not define universal freshness durations.
 
----
+______________________________________________________________________
 
-# 96. Environmental Freshness
+## 96. Environmental Freshness
 
 Environmental freshness concerns whether the environment in which a result was established still matches the environment in which it is applied.
 
 Examples of environment may include:
 
-* hardware,
-* network,
-* deployment topology,
-* runtime,
-* dependency versions,
-* operating conditions.
+- hardware,
+- network,
+- deployment topology,
+- runtime,
+- dependency versions,
+- operating conditions.
 
 These examples are model-level.
 
----
+______________________________________________________________________
 
-# 97. Environmental Shift
+## 97. Environmental Shift
 
 ```text
 RESULT @ ENVIRONMENT E1
@@ -2285,9 +2288,9 @@ E1 ≠ E2
 ENVIRONMENTAL FRESHNESS CHECK
 ```
 
----
+______________________________________________________________________
 
-# 98. Regimeal Freshness
+## 98. Regimeal Freshness
 
 The source uses the term:
 
@@ -2301,9 +2304,9 @@ A conservative interpretation is freshness relative to the epistemic or operatio
 
 This axis is distinct from ER-1's regime declaration but closely related.
 
----
+______________________________________________________________________
 
-# 99. Regimeal Shift
+## 99. Regimeal Shift
 
 A conclusion established under:
 
@@ -2321,26 +2324,26 @@ even if its timestamp is recent.
 
 This reinforces ER-2.
 
----
+______________________________________________________________________
 
-# 100. Provenance Freshness
+## 100. Provenance Freshness
 
 Provenance freshness concerns whether the evidence lineage supporting a conclusion remains valid and trustworthy for current use.
 
 Potential failure modes include:
 
-* source invalidated,
-* ancestry corrected,
-* duplicated evidence discovered,
-* Sybil-like multiplicity exposed,
-* provenance chain broken,
-* source identity changed.
+- source invalidated,
+- ancestry corrected,
+- duplicated evidence discovered,
+- Sybil-like multiplicity exposed,
+- provenance chain broken,
+- source identity changed.
 
 These are model-level interpretations.
 
----
+______________________________________________________________________
 
-# 101. Provenance Freshness Is Not Source Freshness
+## 101. Provenance Freshness Is Not Source Freshness
 
 L21 lists both:
 
@@ -2370,27 +2373,27 @@ is the underlying source itself still current/applicable?
 
 This distinction is model-level but preserves the source's explicit separation.
 
----
+______________________________________________________________________
 
-# 102. Scope Freshness
+## 102. Scope Freshness
 
 Scope freshness concerns whether the conclusion's original applicability envelope still matches the target scope.
 
 Possible scope dimensions include:
 
-* system,
-* population,
-* scale,
-* namespace,
-* object set,
-* geography,
-* measurement method.
+- system,
+- population,
+- scale,
+- namespace,
+- object set,
+- geography,
+- measurement method.
 
 These are model-level examples.
 
----
+______________________________________________________________________
 
-# 103. Scope Expansion Can Stale a Conclusion
+## 103. Scope Expansion Can Stale a Conclusion
 
 Example:
 
@@ -2411,9 +2414,9 @@ This does not necessarily mean the original result was wrong.
 
 It means its applicability to the expanded scope is not established.
 
----
+______________________________________________________________________
 
-# 104. Model Freshness
+## 104. Model Freshness
 
 Model freshness concerns whether the model used to derive or evaluate the conclusion remains the applicable model.
 
@@ -2431,9 +2434,9 @@ M1 → M2
 
 if the change affects load-bearing assumptions.
 
----
+______________________________________________________________________
 
-# 105. Model Freshness Is Not Temporal Freshness
+## 105. Model Freshness Is Not Temporal Freshness
 
 A result created five minutes ago can already be model-stale if it used an obsolete model version.
 
@@ -2447,9 +2450,9 @@ MODEL FRESHNESS
 AGE
 ```
 
----
+______________________________________________________________________
 
-# 106. Source Freshness
+## 106. Source Freshness
 
 Source freshness concerns whether the source itself remains current, authoritative, or applicable.
 
@@ -2470,9 +2473,9 @@ SUPERSEDED BY S2
 
 may make conclusions based on S stale on the source axis.
 
----
+______________________________________________________________________
 
-# 107. Source Freshness vs Source Authority
+## 107. Source Freshness vs Source Authority
 
 A source may be current but non-authoritative.
 
@@ -2488,9 +2491,9 @@ AUTHORITATIVE
 
 Freshness and authority remain separate properties.
 
----
+______________________________________________________________________
 
-# 108. Freshness Vector Record
+## 108. Freshness Vector Record
 
 A model-level representation:
 
@@ -2521,9 +2524,9 @@ freshness:
 
 The exact statuses are not source-defined.
 
----
+______________________________________________________________________
 
-# 109. Non-Binary Freshness
+## 109. Non-Binary Freshness
 
 L21 does not state whether freshness axes are:
 
@@ -2555,9 +2558,9 @@ NOT_APPLICABLE
 
 but these are not canonical.
 
----
+______________________________________________________________________
 
-# 110. Unknown Freshness
+## 110. Unknown Freshness
 
 If a load-bearing freshness axis cannot be evaluated:
 
@@ -2581,9 +2584,9 @@ UNKNOWN/GAP
 
 depending on the claim.
 
----
+______________________________________________________________________
 
-# 111. Weakest Freshness Axis
+## 111. Weakest Freshness Axis
 
 A useful AMOS_MODEL principle is:
 
@@ -2601,9 +2604,9 @@ FULL APPLICABILITY
 IS NOT ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 112. Freshness Is Dependency-Sensitive
+## 112. Freshness Is Dependency-Sensitive
 
 Not every axis is equally load-bearing for every conclusion.
 
@@ -2619,9 +2622,9 @@ An empirical latency benchmark may depend heavily on it.
 
 Thus the seven axes should be evaluated for relevance rather than mechanically averaged.
 
----
+______________________________________________________________________
 
-# 113. No Freshness Averaging
+## 113. No Freshness Averaging
 
 Invalid:
 
@@ -2634,9 +2637,9 @@ if the stale axis is load-bearing.
 
 Freshness is not established as an arithmetic average by L21.
 
----
+______________________________________________________________________
 
-# 114. Temporal Freshness Failure
+## 114. Temporal Freshness Failure
 
 ```text
 CLAIM:
@@ -2648,9 +2651,9 @@ measurement from 2 years ago
 
 may fail temporal freshness even if other axes match.
 
----
+______________________________________________________________________
 
-# 115. Environmental Freshness Failure
+## 115. Environmental Freshness Failure
 
 ```text
 CLAIM:
@@ -2665,9 +2668,9 @@ commodity hardware E2
 
 may fail environmental freshness.
 
----
+______________________________________________________________________
 
-# 116. Regimeal Freshness Failure
+## 116. Regimeal Freshness Failure
 
 ```text
 CLAIM:
@@ -2682,9 +2685,9 @@ empirical deployment
 
 without bridge routing fails regimeal applicability.
 
----
+______________________________________________________________________
 
-# 117. Provenance Freshness Failure
+## 117. Provenance Freshness Failure
 
 ```text
 CLAIM:
@@ -2701,9 +2704,9 @@ ONE ORIGINAL SOURCE
 
 The underlying observations may remain, but the independence claim is invalidated.
 
----
+______________________________________________________________________
 
-# 118. Scope Freshness Failure
+## 118. Scope Freshness Failure
 
 ```text
 CLAIM:
@@ -2715,9 +2718,9 @@ population P2
 
 without validated transfer may fail scope freshness.
 
----
+______________________________________________________________________
 
-# 119. Model Freshness Failure
+## 119. Model Freshness Failure
 
 ```text
 RESULT:
@@ -2729,9 +2732,9 @@ M2
 
 may fail model freshness if M2 changes a load-bearing assumption.
 
----
+______________________________________________________________________
 
-# 120. Source Freshness Failure
+## 120. Source Freshness Failure
 
 ```text
 CLAIM:
@@ -2746,9 +2749,9 @@ V2 supersedes R
 
 makes the old canonical basis source-stale.
 
----
+______________________________________________________________________
 
-# 121. Multi-Axis Failure
+## 121. Multi-Axis Failure
 
 A conclusion can be stale on multiple axes simultaneously.
 
@@ -2767,9 +2770,9 @@ freshness:
 
 The remediation should target the failed axes rather than globally recompute everything without need.
 
----
+______________________________________________________________________
 
-# 122. Freshness Repair
+## 122. Freshness Repair
 
 Conceptually:
 
@@ -2786,9 +2789,9 @@ UPDATE FRESHNESS
 
 This aligns with AMOS local failure recovery.
 
----
+______________________________________________________________________
 
-# 123. Temporal Repair
+## 123. Temporal Repair
 
 Temporal staleness may be repaired by:
 
@@ -2800,9 +2803,9 @@ or other evidence establishing current validity.
 
 Exact method depends on the claim.
 
----
+______________________________________________________________________
 
-# 124. Environmental Repair
+## 124. Environmental Repair
 
 Environmental staleness may require:
 
@@ -2812,9 +2815,9 @@ RETEST IN TARGET ENVIRONMENT
 
 or an independently validated environment bridge.
 
----
+______________________________________________________________________
 
-# 125. Regimeal Repair
+## 125. Regimeal Repair
 
 Regimeal staleness requires:
 
@@ -2824,22 +2827,22 @@ EXPLICIT REGIME BRIDGE
 
 and whatever target-side validation is necessary.
 
----
+______________________________________________________________________
 
-# 126. Provenance Repair
+## 126. Provenance Repair
 
 Provenance staleness may require:
 
-* lineage reconstruction,
-* source re-identification,
-* independence analysis,
-* removal of invalid descendants.
+- lineage reconstruction,
+- source re-identification,
+- independence analysis,
+- removal of invalid descendants.
 
 This is broader AMOS provenance discipline.
 
----
+______________________________________________________________________
 
-# 127. Scope Repair
+## 127. Scope Repair
 
 Scope staleness may require:
 
@@ -2850,9 +2853,9 @@ CHANGED SCOPE
 
 or a justified scope bridge.
 
----
+______________________________________________________________________
 
-# 128. Model Repair
+## 128. Model Repair
 
 Model staleness may require:
 
@@ -2863,9 +2866,9 @@ USING CURRENT MODEL
 
 or establish equivalence between old and new models.
 
----
+______________________________________________________________________
 
-# 129. Source Repair
+## 129. Source Repair
 
 Source staleness may require:
 
@@ -2877,9 +2880,9 @@ COMPARE
 REVALIDATE DEPENDENT CLAIMS
 ```
 
----
+______________________________________________________________________
 
-# 130. Freshness and Proof Capsules
+## 130. Freshness and Proof Capsules
 
 An L19 Proof Capsule should conceptually inherit relevant L21 freshness information.
 
@@ -2901,9 +2904,9 @@ proof_capsule:
 
 If a load-bearing axis becomes stale, dependent conclusions may require invalidation or revalidation.
 
----
+______________________________________________________________________
 
-# 131. Proof Capsule Freshness Failure
+## 131. Proof Capsule Freshness Failure
 
 ```text
 PROOF CAPSULE
@@ -2919,9 +2922,9 @@ DEPENDENT CONCLUSIONS
 
 This preserves unaffected work.
 
----
+______________________________________________________________________
 
-# 132. Freshness and RSCF
+## 132. Freshness and RSCF
 
 RSCF can represent claims whose validity depends on freshness.
 
@@ -2938,9 +2941,9 @@ RSCF CLAIM
 
 The exact serialization belongs to RSCF canon.
 
----
+______________________________________________________________________
 
-# 133. Freshness and GMEF
+## 133. Freshness and GMEF
 
 A governance decision should not consume a stale load-bearing premise merely because the premise was once valid.
 
@@ -2958,9 +2961,9 @@ GMEF
 
 This integration is model-level unless specified elsewhere.
 
----
+______________________________________________________________________
 
-# 134. Freshness and L20 Adversarial Validation
+## 134. Freshness and L20 Adversarial Validation
 
 Adversarial evidence also ages.
 
@@ -2982,9 +2985,9 @@ REPRODUCIBLE
 CURRENTLY APPLICABLE
 ```
 
----
+______________________________________________________________________
 
-# 135. Freshness and Provenance Topology
+## 135. Freshness and Provenance Topology
 
 A provenance graph can change epistemically without changing historical timestamps.
 
@@ -3006,9 +3009,9 @@ PROVENANCE FRESHNESS
 
 of the independence interpretation fails.
 
----
+______________________________________________________________________
 
-# 136. Freshness and Regime Shift
+## 136. Freshness and Regime Shift
 
 A regime shift can invalidate conclusions even if:
 
@@ -3020,32 +3023,32 @@ VERY SMALL
 
 Therefore regimeal freshness is independently load-bearing.
 
----
+______________________________________________________________________
 
-# 137. Freshness and Causal Claims
+## 137. Freshness and Causal Claims
 
 Causal conclusions may be especially sensitive to:
 
-* environmental,
-* regimeal,
-* scope,
-* model,
+- environmental,
+- regimeal,
+- scope,
+- model,
 
 freshness.
 
 A mechanism established in one regime may not transfer if causal structure changes.
 
----
+______________________________________________________________________
 
-# 138. Freshness and Competing Hypotheses
+## 138. Freshness and Competing Hypotheses
 
 A previously weak competing hypothesis may become stronger if the evidence supporting the dominant hypothesis becomes stale.
 
 Thus freshness changes can alter relative support without generating new observations.
 
----
+______________________________________________________________________
 
-# 139. Freshness and Confidence
+## 139. Freshness and Confidence
 
 A conclusion's confidence should not remain unchanged when a load-bearing freshness axis fails.
 
@@ -3060,9 +3063,9 @@ MUST BE REASSESSED
 
 Exact numeric confidence semantics are outside L21.
 
----
+______________________________________________________________________
 
-# 140. Freshness and Applicability
+## 140. Freshness and Applicability
 
 ER-4 states:
 
@@ -3076,9 +3079,9 @@ Therefore freshness is not merely metadata.
 
 It is part of deciding whether a conclusion can be applied.
 
----
+______________________________________________________________________
 
-# 141. Applicability Envelope
+## 141. Applicability Envelope
 
 A model-level applicability envelope:
 
@@ -3118,9 +3121,9 @@ applicability:
 
 Only the seven axes are explicitly source-established.
 
----
+______________________________________________________________________
 
-# 142. Applicability Is Not Truth in the Abstract
+## 142. Applicability Is Not Truth in the Abstract
 
 A claim may have been valid in its original context while no longer applicable to the current one.
 
@@ -3142,9 +3145,9 @@ REFUTED
 
 This distinction prevents unnecessary global invalidation.
 
----
+______________________________________________________________________
 
-# 143. ER-4 Compact Law
+## 143. ER-4 Compact Law
 
 ```text
 APPLICABILITY
@@ -3169,9 +3172,9 @@ CONDITION USE MAY
 / GAP      PROCEED
 ```
 
----
+______________________________________________________________________
 
-# 144. Combined ER-1–ER-4 Flow
+## 144. Combined ER-1–ER-4 Flow
 
 ```text
 EVALUATION
@@ -3224,9 +3227,9 @@ USE    FIREWALL
         CONCLUSION
 ```
 
----
+______________________________________________________________________
 
-# 145. L21 and L17 RSCF
+## 145. L21 and L17 RSCF
 
 L21 strengthens epistemic typing by requiring regime context.
 
@@ -3251,9 +3254,9 @@ when regime materially affects interpretation.
 
 Exact RSCF fields remain governed by RSCF canon.
 
----
+______________________________________________________________________
 
-# 146. Claim Class vs Regime
+## 146. Claim Class vs Regime
 
 Claim class and epistemic regime are different dimensions.
 
@@ -3285,9 +3288,9 @@ CLAIM_CLASS
 REGIME
 ```
 
----
+______________________________________________________________________
 
-# 147. Provenance vs Regime
+## 147. Provenance vs Regime
 
 Likewise:
 
@@ -3305,9 +3308,9 @@ CANONICAL
 
 A corpus may contain proposed, speculative, empirical, or model-level content.
 
----
+______________________________________________________________________
 
-# 148. Canonical Source vs Canonical Status
+## 148. Canonical Source vs Canonical Status
 
 A file located in:
 
@@ -3329,9 +3332,9 @@ CONDITIONAL
 
 Thus location and status remain distinct.
 
----
+______________________________________________________________________
 
-# 149. L21 and L18 GMEF
+## 149. L21 and L18 GMEF
 
 A regime bridge may itself be governed.
 
@@ -3357,9 +3360,9 @@ governed payload
 
 but the exact governance protocol is not specified by L21.
 
----
+______________________________________________________________________
 
-# 150. L21 and L19 Proof Capsules
+## 150. L21 and L19 Proof Capsules
 
 A Proof Capsule should conceptually preserve:
 
@@ -3377,9 +3380,9 @@ where these are load-bearing.
 
 Cross-regime reuse requires ER-2 bridge discipline.
 
----
+______________________________________________________________________
 
-# 151. Proof Capsule Regime Binding
+## 151. Proof Capsule Regime Binding
 
 ```text
 PROOF CAPSULE PC1
@@ -3394,12 +3397,12 @@ PC1 VALID @ EMPIRICAL
 
 The capsule must either:
 
-* remain simulation-bound, or
-* produce a bridged target-regime conclusion.
+- remain simulation-bound, or
+- produce a bridged target-regime conclusion.
 
----
+______________________________________________________________________
 
-# 152. L21 and L20 Adversarial Validation
+## 152. L21 and L20 Adversarial Validation
 
 L20 adversarial validation must itself declare regime.
 
@@ -3417,9 +3420,9 @@ EMPIRICAL ADVERSARIAL TEST
 
 Their receipts may have different applicability.
 
----
+______________________________________________________________________
 
-# 153. Simulation Adversarial Pass
+## 153. Simulation Adversarial Pass
 
 ```text
 ALL SIMULATED ATTACK
@@ -3435,9 +3438,9 @@ DEPLOYED SYSTEM
 RESISTS ALL ATTACKS
 ```
 
----
+______________________________________________________________________
 
-# 154. Empirical Adversarial Pass
+## 154. Empirical Adversarial Pass
 
 Even an empirical adversarial pass remains bounded by:
 
@@ -3452,9 +3455,9 @@ SOURCE
 
 and other freshness axes.
 
----
+______________________________________________________________________
 
-# 155. L21 and H/M/L
+## 155. L21 and H/M/L
 
 Regime metadata can propagate through the fractal knowledge hierarchy.
 
@@ -3472,9 +3475,9 @@ Each retrieved claim should preserve its regime where material.
 
 A higher-level synthesis must not erase regime differences between lower-level premises.
 
----
+______________________________________________________________________
 
-# 156. Cross-Level Regime Conflict
+## 156. Cross-Level Regime Conflict
 
 Example:
 
@@ -3497,9 +3500,9 @@ MISMATCH
 
 which should remain visible.
 
----
+______________________________________________________________________
 
-# 157. Canonical vs Empirical Conflict
+## 157. Canonical vs Empirical Conflict
 
 Example:
 
@@ -3533,9 +3536,9 @@ system sometimes should accept O
 
 unless canon says so.
 
----
+______________________________________________________________________
 
-# 158. Simulation vs Empirical Conflict
+## 158. Simulation vs Empirical Conflict
 
 Example:
 
@@ -3551,17 +3554,17 @@ The conflict should remain explicit.
 
 Possible explanations include:
 
-* simulation model incomplete,
-* environment mismatch,
-* implementation difference,
-* measurement error,
-* regime bridge invalid.
+- simulation model incomplete,
+- environment mismatch,
+- implementation difference,
+- measurement error,
+- regime bridge invalid.
 
 No unique cause is established automatically.
 
----
+______________________________________________________________________
 
-# 159. Speculative vs Empirical Conflict
+## 159. Speculative vs Empirical Conflict
 
 If:
 
@@ -3581,9 +3584,9 @@ then H may be weakened or falsified depending on its exact prediction and scope.
 
 Do not preserve speculation against direct falsifying evidence unless the hypothesis has legitimate escape conditions.
 
----
+______________________________________________________________________
 
-# 160. Canonical vs Speculative Conflict
+## 160. Canonical vs Speculative Conflict
 
 A speculative alternative cannot override canonical authority merely because it appears more elegant.
 
@@ -3595,9 +3598,9 @@ SPECULATIVE PREFERENCE
 CANONICAL SUPERSESSION
 ```
 
----
+______________________________________________________________________
 
-# 161. L21 and Provenance Topology
+## 161. L21 and Provenance Topology
 
 Regime and provenance are orthogonal.
 
@@ -3613,9 +3616,9 @@ SAME REGIME
 INDEPENDENT EVIDENCE
 ```
 
----
+______________________________________________________________________
 
-# 162. L21 and Sybil Hardening
+## 162. L21 and Sybil Hardening
 
 Multiple claims labeled:
 
@@ -3627,9 +3630,9 @@ do not constitute multiple independent empirical confirmations if they share a s
 
 Regime typing does not replace provenance-independence analysis.
 
----
+______________________________________________________________________
 
-# 163. L21 and Causal Firewall
+## 163. L21 and Causal Firewall
 
 Causal inference must respect regime boundaries.
 
@@ -3653,9 +3656,9 @@ CANONICAL CAUSAL RULE
 
 may describe a specified mechanism but does not automatically establish deployed empirical causation.
 
----
+______________________________________________________________________
 
-# 164. L21 and Structural Similarity
+## 164. L21 and Structural Similarity
 
 If a simulation structurally resembles a real system:
 
@@ -3671,9 +3674,9 @@ SAME CAUSAL BEHAVIOR
 
 Cross-regime mapping remains MODEL until validated.
 
----
+______________________________________________________________________
 
-# 165. L21 and Sensitivity
+## 165. L21 and Sensitivity
 
 A regime bridge may be fragile to one assumption.
 
@@ -3692,25 +3695,25 @@ matches deployment
 
 If a small mismatch flips the conclusion, the bridged result should be marked CONDITIONAL.
 
----
+______________________________________________________________________
 
-# 166. L21 and Adaptive Complexity
+## 166. L21 and Adaptive Complexity
 
 Regime complexity should escalate when:
 
-* multiple regimes are mixed,
-* a conclusion must cross regimes,
-* freshness axes conflict,
-* simulation branches disagree,
-* provenance is correlated,
-* causal transfer is attempted,
-* governance depends on the result.
+- multiple regimes are mixed,
+- a conclusion must cross regimes,
+- freshness axes conflict,
+- simulation branches disagree,
+- provenance is correlated,
+- causal transfer is attempted,
+- governance depends on the result.
 
 Simple regime-local claims can remain compact.
 
----
+______________________________________________________________________
 
-# 167. L21 and Failure Recovery
+## 167. L21 and Failure Recovery
 
 If one freshness axis fails:
 
@@ -3732,9 +3735,9 @@ AFFECTED CONCLUSIONS
 LOCAL REVALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 168. L21 and Anti-Regression
+## 168. L21 and Anti-Regression
 
 An optimization that removes regime labels to save tokens violates ER-1 if regime matters.
 
@@ -3746,9 +3749,9 @@ An optimization that reduces seven freshness axes to one timestamp violates ER-4
 
 Therefore epistemic compression may not erase load-bearing regime information.
 
----
+______________________________________________________________________
 
-# 169. L21 and Knowledge Harvest
+## 169. L21 and Knowledge Harvest
 
 Knowledge harvest should preserve regime.
 
@@ -3768,9 +3771,9 @@ VALIDATED KNOWLEDGE
 
 A result changing regimes requires bridge routing, not simple relabeling.
 
----
+______________________________________________________________________
 
-# 170. Documentation Claims
+## 170. Documentation Claims
 
 A README statement:
 
@@ -3782,9 +3785,9 @@ remains a SOURCE_CLAIM until the required bridge is validated.
 
 ER-2 prevents accepting the regime crossing merely because documentation asserts it.
 
----
+______________________________________________________________________
 
-# 171. Benchmark Claims
+## 171. Benchmark Claims
 
 A benchmark measured under:
 
@@ -3805,9 +3808,9 @@ TIME T2
 
 Freshness axes must be checked.
 
----
+______________________________________________________________________
 
-# 172. Reported Latency
+## 172. Reported Latency
 
 A latency result can be:
 
@@ -3830,9 +3833,9 @@ LATENCY = 5 ms
 HARDWARE-INDEPENDENT
 ```
 
----
+______________________________________________________________________
 
-# 173. Formal Proof Regime
+## 173. Formal Proof Regime
 
 The source-defined regime list does not explicitly include:
 
@@ -3846,9 +3849,9 @@ A formal proof may need to be represented within another applicable regime or un
 
 Do not silently extend the four-regime set as canonical.
 
----
+______________________________________________________________________
 
-# 174. Hybrid Regime
+## 174. Hybrid Regime
 
 Likewise, the source does not define:
 
@@ -3860,9 +3863,9 @@ as a regime.
 
 Mixed evidence can be represented through typed components without inventing a fifth canonical regime.
 
----
+______________________________________________________________________
 
-# 175. Unknown Regime
+## 175. Unknown Regime
 
 Although ER-1 requires declaration, an evaluator may encounter legacy material whose regime is unavailable.
 
@@ -3877,9 +3880,9 @@ is preferable to fabricated classification.
 
 `UNKNOWN` is a conclusion/gap state, not necessarily a fifth L21 regime.
 
----
+______________________________________________________________________
 
-# 176. Regime Bridge Matrix
+## 176. Regime Bridge Matrix
 
 A model-level matrix:
 
@@ -3900,20 +3903,20 @@ A model-level matrix:
 
 The source law establishes the general firewall, not this exact matrix.
 
----
+______________________________________________________________________
 
-# 177. Same-Regime Transfer
+## 177. Same-Regime Transfer
 
 ER-2 specifically governs crossing regimes.
 
 Same-regime reuse may still fail due to:
 
-* stale source,
-* stale model,
-* environment change,
-* scope mismatch,
-* provenance change,
-* temporal change.
+- stale source,
+- stale model,
+- environment change,
+- scope mismatch,
+- provenance change,
+- temporal change.
 
 Thus:
 
@@ -3925,9 +3928,9 @@ AUTOMATIC APPLICABILITY
 
 ER-4 still applies.
 
----
+______________________________________________________________________
 
-# 178. Regime Firewall Validator
+## 178. Regime Firewall Validator
 
 ```python
 def cross_regime_allowed(
@@ -3956,9 +3959,9 @@ def cross_regime_allowed(
 
 Semantic pseudocode only. Exact bridge semantics are unspecified.
 
----
+______________________________________________________________________
 
-# 179. Simulation Stability Validator
+## 179. Simulation Stability Validator
 
 ```python
 def stable_simulation(branches):
@@ -3975,9 +3978,9 @@ def stable_simulation(branches):
 
 This models ER-3 but does not define canonical branch membership.
 
----
+______________________________________________________________________
 
-# 180. Freshness Validator
+## 180. Freshness Validator
 
 ```python
 FRESHNESS_AXES = [
@@ -4001,9 +4004,9 @@ def freshness_complete(applicability):
 
 This checks presence only, not validity semantics.
 
----
+______________________________________________________________________
 
-# 181. Applicability Validator
+## 181. Applicability Validator
 
 A model-level validator:
 
@@ -4036,9 +4039,9 @@ def applicable(claim, target):
 
 Semantic pseudocode only.
 
----
+______________________________________________________________________
 
-# 182. Epistemic Regime Integrity Invariants
+## 182. Epistemic Regime Integrity Invariants
 
 ```yaml
 epistemic_regime_integrity_invariants:
@@ -4118,9 +4121,9 @@ epistemic_regime_integrity_invariants:
 
 These closely restate ER-1 through ER-4.
 
----
+______________________________________________________________________
 
-# 183. Extended Epistemic Invariants
+## 183. Extended Epistemic Invariants
 
 ```yaml
 extended_epistemic_invariants:
@@ -4168,9 +4171,9 @@ extended_epistemic_invariants:
 
 These are AMOS_MODEL extensions.
 
----
+______________________________________________________________________
 
-# 184. Epistemic Anti-Patterns
+## 184. Epistemic Anti-Patterns
 
 ## ER-A1 — Missing Regime
 
@@ -4182,7 +4185,7 @@ with no regime declaration.
 
 Fails ER-1.
 
----
+______________________________________________________________________
 
 ## ER-A2 — Regime by Implication
 
@@ -4194,7 +4197,7 @@ without explicit declaration.
 
 Does not satisfy ER-1.
 
----
+______________________________________________________________________
 
 ## ER-A3 — Simulation Laundering
 
@@ -4206,7 +4209,7 @@ PRODUCTION VERIFIED
 
 Rejected by ER-2.
 
----
+______________________________________________________________________
 
 ## ER-A4 — Empirical-to-Canon Laundering
 
@@ -4219,7 +4222,7 @@ X IS CANON
 
 Rejected without canonical bridge/governance.
 
----
+______________________________________________________________________
 
 ## ER-A5 — Canon-to-Empirical Laundering
 
@@ -4231,7 +4234,7 @@ DEPLOYMENT DOES X
 
 Rejected without empirical validation.
 
----
+______________________________________________________________________
 
 ## ER-A6 — Speculation Laundering
 
@@ -4243,7 +4246,7 @@ ESTABLISHED FACT
 
 Rejected.
 
----
+______________________________________________________________________
 
 ## ER-A7 — Undeclared Non-Portable
 
@@ -4259,7 +4262,7 @@ with the assumption silently preserved.
 
 Rejected by ER-2's non-portable declaration discipline.
 
----
+______________________________________________________________________
 
 ## ER-A8 — Majority Branch Stability
 
@@ -4271,7 +4274,7 @@ STABLE VERDICT
 
 Rejected if a relevant unstable branch remains.
 
----
+______________________________________________________________________
 
 ## ER-A9 — Average Hides Worst Branch
 
@@ -4283,7 +4286,7 @@ IGNORE CATASTROPHIC BRANCH
 
 Rejected by ER-3.
 
----
+______________________________________________________________________
 
 ## ER-A10 — Sampled Means All
 
@@ -4295,7 +4298,7 @@ ALL POSSIBLE BRANCHES STABLE
 
 Rejected unless exhaustive inference is independently established.
 
----
+______________________________________________________________________
 
 ## ER-A11 — Timestamp-Only Freshness
 
@@ -4309,7 +4312,7 @@ while model/source/environment are stale.
 
 Rejected by ER-4.
 
----
+______________________________________________________________________
 
 ## ER-A12 — Freshness Averaging
 
@@ -4321,7 +4324,7 @@ PASS
 
 Rejected where the stale axis is load-bearing.
 
----
+______________________________________________________________________
 
 ## ER-A13 — Same Regime Means Same Scope
 
@@ -4335,7 +4338,7 @@ without scope validation.
 
 Rejected.
 
----
+______________________________________________________________________
 
 ## ER-A14 — Current Source Means Valid Provenance
 
@@ -4347,7 +4350,7 @@ PROVENANCE INDEPENDENT
 
 Rejected. Source and provenance freshness are distinct.
 
----
+______________________________________________________________________
 
 ## ER-A15 — Old Means False
 
@@ -4361,9 +4364,9 @@ Rejected.
 
 Staleness concerns applicability, not necessarily historical truth.
 
----
+______________________________________________________________________
 
-# 185. Epistemic Regime Decision Matrix
+## 185. Epistemic Regime Decision Matrix
 
 | Condition                                   | Source-grounded treatment                                |
 | ------------------------------------------- | -------------------------------------------------------- |
@@ -4378,9 +4381,9 @@ Staleness concerns applicability, not necessarily historical truth.
 | Applicability evaluated                     | Carry seven freshness axes                               |
 | Authoritative regime canon changes axis set | F1 potentially satisfied                                 |
 
----
+______________________________________________________________________
 
-# 186. Extended Decision Matrix
+## 186. Extended Decision Matrix
 
 | Condition                                 | Model-level treatment                        |
 | ----------------------------------------- | -------------------------------------------- |
@@ -4397,9 +4400,9 @@ Staleness concerns applicability, not necessarily historical truth.
 | Provenance ancestry changes               | Reassess provenance freshness                |
 | Regime shift occurs                       | Reassess regimeal freshness                  |
 
----
+______________________________________________________________________
 
-# 187. Minimal Epistemic Evaluation Record
+## 187. Minimal Epistemic Evaluation Record
 
 ```yaml
 epistemic_evaluation:
@@ -4427,9 +4430,9 @@ epistemic_evaluation:
 
 This is a model representation, not canonical schema.
 
----
+______________________________________________________________________
 
-# 188. Full Epistemic Evaluation Record
+## 188. Full Epistemic Evaluation Record
 
 ```yaml
 epistemic_evaluation:
@@ -4496,9 +4499,9 @@ epistemic_evaluation:
 
 All serialization details beyond the four laws are AMOS_MODEL.
 
----
+______________________________________________________________________
 
-# 189. Regime Bridge Record
+## 189. Regime Bridge Record
 
 ```yaml
 regime_bridge:
@@ -4540,9 +4543,9 @@ regime_bridge:
 
 Model-level schema only.
 
----
+______________________________________________________________________
 
-# 190. Simulation Evaluation Record
+## 190. Simulation Evaluation Record
 
 ```yaml
 simulation_evaluation:
@@ -4581,9 +4584,9 @@ simulation_evaluation:
 
 The source does not define this serialization.
 
----
+______________________________________________________________________
 
-# 191. L21 Source-Established Content
+## 191. L21 Source-Established Content
 
 From the supplied L21 note, the following are directly established as AMOS corpus claims:
 
@@ -4635,52 +4638,52 @@ From the supplied L21 note, the following are directly established as AMOS corpu
 
 These are SOURCE_CLAIM statements about the supplied AMOS corpus note.
 
----
+______________________________________________________________________
 
-# 192. L21 Not Established by Source
+## 192. L21 Not Established by Source
 
 The supplied source does **not** establish:
 
-* exact formal definition of epistemic regime,
-* whether the four named regimes are exhaustive,
-* exact definition of simulation,
-* exact definition of empirical,
-* exact definition of canonical,
-* exact definition of speculative,
-* mixed-regime representation,
-* bridge schema,
-* bridge authority mechanism,
-* bridge validation algorithm,
-* governed payload schema,
-* exact definition of non-portable,
-* complete non-portable taxonomy,
-* whether bridges are directional,
-* whether bridges compose transitively,
-* exact branch-generation semantics,
-* exact definition of relevant branch,
-* exact definition of drift,
-* scalar versus vector drift,
-* exact stability threshold,
-* treatment of impossible branches,
-* treatment of low-probability branches,
-* exhaustive branch-search requirements,
-* exact freshness representation,
-* freshness thresholds,
-* freshness decay functions,
-* freshness aggregation,
-* axis weighting,
-* exact meaning of `regimeal`,
-* exact remediation protocol for stale axes,
-* exact RSCF integration,
-* exact GMEF integration,
-* exact L19/L20 integration,
-* literal runtime implementation.
+- exact formal definition of epistemic regime,
+- whether the four named regimes are exhaustive,
+- exact definition of simulation,
+- exact definition of empirical,
+- exact definition of canonical,
+- exact definition of speculative,
+- mixed-regime representation,
+- bridge schema,
+- bridge authority mechanism,
+- bridge validation algorithm,
+- governed payload schema,
+- exact definition of non-portable,
+- complete non-portable taxonomy,
+- whether bridges are directional,
+- whether bridges compose transitively,
+- exact branch-generation semantics,
+- exact definition of relevant branch,
+- exact definition of drift,
+- scalar versus vector drift,
+- exact stability threshold,
+- treatment of impossible branches,
+- treatment of low-probability branches,
+- exhaustive branch-search requirements,
+- exact freshness representation,
+- freshness thresholds,
+- freshness decay functions,
+- freshness aggregation,
+- axis weighting,
+- exact meaning of `regimeal`,
+- exact remediation protocol for stale axes,
+- exact RSCF integration,
+- exact GMEF integration,
+- exact L19/L20 integration,
+- literal runtime implementation.
 
 These remain MODEL or UNKNOWN/GAP.
 
----
+______________________________________________________________________
 
-# 193. L21 Known Gaps
+## 193. L21 Known Gaps
 
 ```yaml
 gaps:
@@ -4768,9 +4771,9 @@ gaps:
         and failure recovery is not defined by this note.
 ```
 
----
+______________________________________________________________________
 
-# 194. L21 Claim Graph
+## 194. L21 Claim Graph
 
 ```yaml
 claim_graph:
@@ -4907,9 +4910,9 @@ claim_graph:
         branch semantics, drift metric, and freshness thresholds.
 ```
 
----
+______________________________________________________________________
 
-# 195. Dependency Graph
+## 195. Dependency Graph
 
 ```yaml
 dependency_graph:
@@ -4949,9 +4952,9 @@ dependency_graph:
       - source_freshness
 ```
 
----
+______________________________________________________________________
 
-# 196. L21 Self-Proof Capsule
+## 196. L21 Self-Proof Capsule
 
 ```yaml
 proof_capsule:
@@ -5024,9 +5027,9 @@ proof_capsule:
     CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
-# 197. No Circular Self-Validation
+## 197. No Circular Self-Validation
 
 Invalid:
 
@@ -5056,9 +5059,9 @@ STILL CONDITIONAL
 
 Self-consistency is not independent canonical validation.
 
----
+______________________________________________________________________
 
-# 198. Falsifier F1
+## 198. Falsifier F1
 
 Original falsifier:
 
@@ -5095,9 +5098,9 @@ PROPOSAL   SUCCEED
           SUPERSESSION
 ```
 
----
+______________________________________________________________________
 
-# 199. F1 Is Axis-Specific
+## 199. F1 Is Axis-Specific
 
 The stated falsifier specifically concerns:
 
@@ -5107,18 +5110,18 @@ different axis set
 
 Therefore a difference in:
 
-* YAML field names,
-* ordering,
-* display format,
-* implementation language,
+- YAML field names,
+- ordering,
+- display format,
+- implementation language,
 
 does not itself satisfy F1.
 
 The difference must concern the authoritative freshness-axis set.
 
----
+______________________________________________________________________
 
-# 200. Axis Renaming
+## 200. Axis Renaming
 
 If authoritative canon uses a different label for an equivalent concept, this may be:
 
@@ -5134,9 +5137,9 @@ MATERIAL AXIS-SET DIFFERENCE
 
 Semantic equivalence would need to be established rather than assumed.
 
----
+______________________________________________________________________
 
-# 201. Axis Addition
+## 201. Axis Addition
 
 Suppose authoritative canon defines:
 
@@ -5156,15 +5159,15 @@ applicability carries 7-axis freshness
 
 which strongly suggests a seven-axis set, but exact supersession treatment remains governed by authoritative canon.
 
----
+______________________________________________________________________
 
-# 202. Axis Removal
+## 202. Axis Removal
 
 If authoritative canon defines six axes and explicitly rejects one L21 axis, that would constitute a more direct conflict with ER-4.
 
----
+______________________________________________________________________
 
-# 203. Axis Merge
+## 203. Axis Merge
 
 If authoritative canon merges:
 
@@ -5176,9 +5179,9 @@ SOURCE
 
 into one axis, this would materially alter L21's explicit seven-axis structure unless an equivalence mapping preserves the same semantics.
 
----
+______________________________________________________________________
 
-# 204. Axis Split
+## 204. Axis Split
 
 If authoritative canon splits one L21 axis into multiple independent axes, L21 may become incomplete even if not wholly wrong.
 
@@ -5192,9 +5195,9 @@ PARTIALLY COMPATIBLE
 
 depending on governance canon.
 
----
+______________________________________________________________________
 
-# 205. Regime Architecture
+## 205. Regime Architecture
 
 ```text
                      EVALUATION
@@ -5252,9 +5255,9 @@ depending on governance canon.
                                       TARGET VALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 206. Simulation Architecture
+## 206. Simulation Architecture
 
 ```text
 SIMULATION
@@ -5289,9 +5292,9 @@ DRIFT / STABILITY
               REGIME
 ```
 
----
+______________________________________________________________________
 
-# 207. Seven-Axis Freshness Architecture
+## 207. Seven-Axis Freshness Architecture
 
 ```text
                  APPLICABILITY
@@ -5324,9 +5327,9 @@ DRIFT / STABILITY
             / GAP       VALID
 ```
 
----
+______________________________________________________________________
 
-# 208. Canonical Epistemic Compression
+## 208. Canonical Epistemic Compression
 
 ```text
 EVERY EVALUATION
@@ -5393,15 +5396,15 @@ MODEL
 SOURCE
 ```
 
----
+______________________________________________________________________
 
-# 209. Canonical One-Line Law
+## 209. Canonical One-Line Law
 
 > **AMOS epistemic evaluation declares its regime, prevents conclusions from silently crossing simulation, empirical, canonical, and speculative boundaries without governed bridge routing and declared non-portables, treats simulation stability pessimistically across all branches, and binds applicability to seven-axis freshness across time, environment, regime, provenance, scope, model, and source.**
 
----
+______________________________________________________________________
 
-# 210. Canonical Equations
+## 210. Canonical Equations
 
 ER-1:
 
@@ -5480,9 +5483,9 @@ Source
 
 These equations are semantic compressions, not formal proofs.
 
----
+______________________________________________________________________
 
-# 211. Operational Contract
+## 211. Operational Contract
 
 ```yaml
 epistemic_regime_contract:
@@ -5518,9 +5521,9 @@ epistemic_regime_contract:
       - applicability_carries_source_freshness
 ```
 
----
+______________________________________________________________________
 
-# 212. Final Epistemic Regime Invariant
+## 212. Final Epistemic Regime Invariant
 
 ```text
 EVALUATION
@@ -5756,9 +5759,9 @@ SELF-CONSISTENCY
 CANONICAL VALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 213. RSCF Node
+## 213. RSCF Node
 
 ```yaml
 RSCF-NODE:
@@ -5825,19 +5828,19 @@ RSCF-RELATIONS:
   - RELATED_TO: [[01_CANON/01_CORE_LAWS/L15_FRACTAL_KNOWLEDGE|L15_FRACTAL_KNOWLEDGE]]
 ```
 
----
+______________________________________________________________________
 
 **00_ROOT_MOC:**
 
-**Related:**  ·  ·
+**Related:** · ·
 
 **MOC:**
 
 **Trang Framework:**
 
----
+______________________________________________________________________
 
-# 214. L21 Final Canon Boundary
+## 214. L21 Final Canon Boundary
 
 The supplied source supports the four proposed laws and their explicit contents:
 
@@ -5877,6 +5880,6 @@ until authoritative epistemic-regime canon supplies discriminating validation.
 
 **Conclusion class: CONDITIONAL / AMOS_MODEL.**
 
-
-
+```
+```
 ```

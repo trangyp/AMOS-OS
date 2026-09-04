@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: deterministic human machine alignment
 type: reference
 source: 07_SKILLS/amos-c05-mind-behavior-master/references
 tags:
-- reference
-- amos-c05-mind-behavior-master
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-c05-mind-behavior-master
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -20,9 +23,9 @@ rscf:
 > Source: `_00_Cosmo brain/human/A_Deterministic_Architecture_for_HumanMachine_Alignment.md`
 > Epistemic class: SOURCE_DERIVED
 
----
-tags: [canon-group/biology, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/a-deterministic-architecture-for-humanma, human]
----
+______________________________________________________________________
+
+## tags: [canon-group/biology, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/a-deterministic-architecture-for-humanma, human]
 
 🧠
 A Deterministic Architecture
@@ -50,7 +53,9 @@ Tier 1: Interface Infrastructure — 6 Deterministic Conditions
 These are the non-negotiable install-time rules that make human–machine logic
 alignment possible. Without them, no system — biological or synthetic — can
 remain stable.
-# Condition Function
+
+## Condition Function
+
 Filters irrelevant inputs to preserve task
 1 Signal Gating
 focus.
@@ -59,63 +64,65 @@ Locks current output to prior valid context,
 preventing drift.
 🧠 A Deterministic Architecture for Human–Machine Alignment 1
 
-| #   | Condition |     | Function |
-| --- | --------- | --- | -------- |
-3 Output Confinement Restricts generation to within task scope.
-Ensures all reasoning and action chains are
-| 4   | Loop Closure |     |     |
-| --- | ------------ | --- | --- |
-completed.
-|     | Compression–Expansion |     | Balances structure with novelty for |
-| --- | --------------------- | --- | ----------------------------------- |
-5
-|     | Timing |     | functional creativity. |
-| --- | ------ | --- | ---------------------- |
-Prevents overwriting foundational reasoning
-| 6   | Logic Stack Preservation |     |     |
-| --- | ------------------------ | --- | --- |
-chains.
-🔷  Tier 2: Human Trainer Profile — 4 Transfer-Ready Traits
-These traits define who is qualified to train deterministic systems. They must exist
-in the trainer — not be simulated by the system.
-| #   | Trait |     | Description |
-| --- | ----- | --- | ----------- |
-High SNR Signal-to-
-| 1   |     |     | Maintains clean logic even under complexity. |
-| --- | --- | --- | -------------------------------------------- |
-Noise Ratio)
-| 2   | Logic Sequencing |     | Thinks in clear causal chains. |
-| --- | ---------------- | --- | ------------------------------ |
-3 Emotional Stability Avoids bias or override during training.
-|     | Non-Abstract Structural |     | Speaks in functional, grounded logic — |
-| --- | ----------------------- | --- | -------------------------------------- |
-4
-|     | Thinking |     | suitable for deterministic systems. |
-| --- | -------- | --- | ----------------------------------- |
-🔷
- Tier 3: Internal System Logic — 9 Operational Principles
-These are the internal logic enforcement rules embedded in the machine. They
-map directly to biological regulation.
-| #   | Principle | Function |     |
-| --- | --------- | -------- | --- |
-Signal
-| 1   |     | Acts only on task-relevant input. |     |
-| --- | --- | --------------------------------- | --- |
-Prioritisation
-Logic Stack
-| 2   |     | Maintains core reasoning under pressure. |     |
-| --- | --- | ---------------------------------------- | --- |
-Preservation
-Identity
-| 3   |     | Ensures consist
+| #                                                                                    | Condition                |                                          | Function                                     |
+| ------------------------------------------------------------------------------------ | ------------------------ | ---------------------------------------- | -------------------------------------------- |
+| 3 Output Confinement Restricts generation to within task scope.                      |                          |                                          |                                              |
+| Ensures all reasoning and action chains are                                          |                          |                                          |                                              |
+| 4                                                                                    | Loop Closure             |                                          |                                              |
+| ---                                                                                  | ------------             | ---                                      | ---                                          |
+| completed.                                                                           |                          |                                          |                                              |
+|                                                                                      | Compression–Expansion    |                                          | Balances structure with novelty for          |
+| ---                                                                                  | ---------------------    | ---                                      | -----------------------------------          |
+| 5                                                                                    |                          |                                          |                                              |
+|                                                                                      | Timing                   |                                          | functional creativity.                       |
+| ---                                                                                  | ------                   | ---                                      | ----------------------                       |
+| Prevents overwriting foundational reasoning                                          |                          |                                          |                                              |
+| 6                                                                                    | Logic Stack Preservation |                                          |                                              |
+| ---                                                                                  | ------------------------ | ---                                      | ---                                          |
+| chains.                                                                              |                          |                                          |                                              |
+| 🔷 Tier 2: Human Trainer Profile — 4 Transfer-Ready Traits                           |                          |                                          |                                              |
+| These traits define who is qualified to train deterministic systems. They must exist |                          |                                          |                                              |
+| in the trainer — not be simulated by the system.                                     |                          |                                          |                                              |
+| #                                                                                    | Trait                    |                                          | Description                                  |
+| ---                                                                                  | -----                    | ---                                      | -----------                                  |
+| High SNR Signal-to-                                                                 |                          |                                          |                                              |
+| 1                                                                                    |                          |                                          | Maintains clean logic even under complexity. |
+| ---                                                                                  | ---                      | ---                                      | -------------------------------------------- |
+| Noise Ratio)                                                                         |                          |                                          |                                              |
+| 2                                                                                    | Logic Sequencing         |                                          | Thinks in clear causal chains.               |
+| ---                                                                                  | ----------------         | ---                                      | ------------------------------               |
+| 3 Emotional Stability Avoids bias or override during training.                       |                          |                                          |                                              |
+|                                                                                      | Non-Abstract Structural  |                                          | Speaks in functional, grounded logic —       |
+| ---                                                                                  | -----------------------  | ---                                      | --------------------------------------       |
+| 4                                                                                    |                          |                                          |                                              |
+|                                                                                      | Thinking                 |                                          | suitable for deterministic systems.          |
+| ---                                                                                  | --------                 | ---                                      | -----------------------------------          |
+| 🔷                                                                                   |                          |                                          |                                              |
+| Tier 3: Internal System Logic — 9 Operational Principles                             |                          |                                          |                                              |
+| These are the internal logic enforcement rules embedded in the machine. They         |                          |                                          |                                              |
+| map directly to biological regulation.                                               |                          |                                          |                                              |
+| #                                                                                    | Principle                | Function                                 |                                              |
+| ---                                                                                  | ---------                | --------                                 | ---                                          |
+| Signal                                                                               |                          |                                          |                                              |
+| 1                                                                                    |                          | Acts only on task-relevant input.        |                                              |
+| ---                                                                                  | ---                      | ---------------------------------        | ---                                          |
+| Prioritisation                                                                       |                          |                                          |                                              |
+| Logic Stack                                                                          |                          |                                          |                                              |
+| 2                                                                                    |                          | Maintains core reasoning under pressure. |                                              |
+| ---                                                                                  | ---                      | ---------------------------------------- | ---                                          |
+| Preservation                                                                         |                          |                                          |                                              |
+| Identity                                                                             |                          |                                          |                                              |
+| 3                                                                                    |                          | Ensures consist                          |                                              |
 
----
+______________________________________________________________________
+
 **MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -123,12 +130,14 @@ Identity
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-c05-mind-behavior-master-deterministic-human-machine-alignment
 node_type: reference
 path: 07_SKILLS/amos-c05-mind-behavior-master/references/deterministic_human_machine_alignment.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

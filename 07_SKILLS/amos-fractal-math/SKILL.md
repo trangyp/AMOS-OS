@@ -4,25 +4,22 @@ title: SKILL — Amos Fractal Math
 type: skill
 source: 07_SKILLS/amos-fractal-math
 name: amos-fractal-math
-description: Fractal Math — fractal systems capability. Use when fractal analysis,
-  scale reasoning, or self-similarity detection. Use when amos-fractal-systems-master
-  routes to this specialized capability. Do not use for generic tasks outside fractal
-  domain.
+description: Fractal Math — fractal systems capability. Use when fractal analysis, scale reasoning, or self-similarity detection. Use when amos-fractal-systems-master routes to this specialized capability. Do not use for generic tasks outside fractal domain.
 parent_skill: amos-fractal-systems-master
 domain: fractal
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
 tags:
-- type/skill
-- type/skill
-- domain/fractal-systems
-- epistemic/source_claim
-- hml/m
-- epistemic/source_claim
-- amos-os
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/fractal-systems
+  - epistemic/source_claim
+  - hml/m
+  - epistemic/source_claim
+  - amos-os
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -32,20 +29,20 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: M
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L16
-- L17
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L16
+  - L17
 license: MIT
 steward: Trang Phan
 ---
@@ -55,6 +52,7 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: fractal. Parent: amos-fractal-systems-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
 ## When to Use
 
 - When analyzing fractal structure: self-similarity and scale invariance
@@ -81,12 +79,12 @@ Origin architect: **Trang Phan**. Domain: fractal. Parent: amos-fractal-systems-
 ## Operations
 
 1. **fractal_math.analyze_fractal**: Analyze fractal structure: self-similarity, scale invariance, and recursion
-2. **fractal_math.quantify_entropy**: Quantify AI entropy within fractal architectures: information vs disorder
-3. **fractal_math.validate_equation**: Validate strict fractal equations against scale-invariance requirements
-4. **fractal_math.map_biology**: Map human biology fractal patterns: branching, scaling, and self-organization
-5. **fractal_math.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-6. **fractal_math.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
-7. **fractal_math.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+1. **fractal_math.quantify_entropy**: Quantify AI entropy within fractal architectures: information vs disorder
+1. **fractal_math.validate_equation**: Validate strict fractal equations against scale-invariance requirements
+1. **fractal_math.map_biology**: Map human biology fractal patterns: branching, scaling, and self-organization
+1. **fractal_math.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+1. **fractal_math.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+1. **fractal_math.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## 11_KNOWLEDGE Vault Content
 
@@ -98,6 +96,7 @@ Origin architect: **Trang Phan**. Domain: fractal. Parent: amos-fractal-systems-
 From C03: H/M/L fractal architecture. From Cognitive Organism OS: H/M/L fractal mapping.
 
 **Fractal H/M/L levels**:
+
 - **H (High)**: whole organism / whole system
 - **M (Medium)**: organ / subsystem
 - **L (Low)**: local event / function
@@ -105,6 +104,7 @@ From C03: H/M/L fractal architecture. From Cognitive Organism OS: H/M/L fractal 
 **Fractal integrity law**: `L_PASS != H_HEALTH`. A local pass (L-level) does not prove whole-system health (H-level). Integrity must be checked at all three levels.
 
 **Fractal math operations**:
+
 - **Self-similarity**: patterns repeat at different scales
 - **Scale-invariance**: properties hold across scales
 - **Lacunarity**: measures distribution of gaps in a structure
@@ -117,6 +117,7 @@ From C03: H/M/L fractal architecture. From Cognitive Organism OS: H/M/L fractal 
 Fractal math is an analytical framework. It does not prove physical fractality, that all systems are fractal, or that fractal dimension captures all structural properties.
 
 ## Failure Modes
+
 - **Insufficient evidence**: If source material is insufficient, mark as UNKNOWN/GAP and fail closed — do not fabricate.
 - **Scope violation**: If the query falls outside the skill's declared scope, escalate to the parent skill or steward.
 - **Binding broken**: If 1:1:1 binding (skill→agent→workflow) is broken, flag routing mismatch and block execution.
@@ -141,7 +142,8 @@ Fractal math is an analytical framework. It does not prove physical fractality, 
 - **Vault sources**:
 -
 
----
+______________________________________________________________________
+
 **Links:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 ## Related
@@ -151,17 +153,19 @@ Fractal math is an analytical framework. It does not prove physical fractality, 
 ## Examples
 
 - **Scenario**: When analyzing fractal structure: self-similarity and scale invariance
+
   - **Input**: A query matching this skill's domain (fractal)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When quantifying AI entropy within fractal architectures
+
   - **Input**: A query matching this skill's domain (fractal)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When validating fractal equations against scale-invariance
+
   - **Input**: A query matching this skill's domain (fractal)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Anti-Patterns
 
@@ -171,7 +175,6 @@ Fractal math is an analytical framework. It does not prove physical fractality, 
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `amos-fractal-systems-master` — routes to this skill when fractal specialization is needed
@@ -179,7 +182,6 @@ Fractal math is an analytical framework. It does not prove physical fractality, 
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -198,7 +200,6 @@ Fractal math is an analytical framework. It does not prove physical fractality, 
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -206,7 +207,6 @@ Fractal math is an analytical framework. It does not prove physical fractality, 
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -219,11 +219,12 @@ Fractal math is an analytical framework. It does not prove physical fractality, 
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `amos-fractal-systems-master` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `amos-fractal-math-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -231,12 +232,14 @@ Fractal math is an analytical framework. It does not prove physical fractality, 
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-fractal-math
 node_type: skill
 path: 07_SKILLS/amos-fractal-math/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

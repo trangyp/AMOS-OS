@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: physics cosmos engine layer
 type: reference
 source: 07_SKILLS/amos-c03-physics-cosmos-master/references
 tags:
-- reference
-- amos-c03-physics-cosmos-master
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-c03-physics-cosmos-master
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -20,18 +23,11 @@ rscf:
 > Source: `_00_Cosmo brain/engine/A/amos-physics-cosmos-engine-layer.md`
 > Epistemic class: SOURCE_DERIVED
 
----
-title: amos-physics-cosmos-engine-layer
-created: "2026-08-22"
-origin_architect: "Trang Phan"
-type: "bridge"
-tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/amos-physics-cosmos-engine-layer, engine]
-status: "index"
-provenance: "SOURCE_CLAIM"
-confidence: "VERIFIED"
----
+______________________________________________________________________
 
-# amos-physics-cosmos-engine-layer
+## title: amos-physics-cosmos-engine-layer created: "2026-08-22" origin_architect: "Trang Phan" type: "bridge" tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/amos-physics-cosmos-engine-layer, engine] status: "index" provenance: "SOURCE_CLAIM" confidence: "VERIFIED"
+
+## amos-physics-cosmos-engine-layer
 
 The original source file was a bridge stub pointing to the skill at `.devin/skills/amos-physics-cosmos-engine-layer`. The following content is synthesized from the physics and cosmos files in the `_00_Cosmo brain/universe-cosmos/` directory, which contain the actual physics engine specifications.
 
@@ -54,29 +50,37 @@ The Physics Cosmos Engine Layer is the execution-oriented layer that sits above 
 ## Core Sub-Kernels
 
 ### 1. Classical Dynamics Kernel
+
 State vectors, force, momentum, energy constraints. Covers Newtonian mechanics, Lagrangian/Hamiltonian formulations, fluid dynamics, and rigid body dynamics. Provides the foundation for all mechanical reasoning in the AMOS system.
 
 ### 2. Electromagnetism Kernel
+
 Fields, charge, potential, flux. Implements Maxwell's equations, EM wave propagation, boundary conditions, and radiation patterns. Bridges to the Signal Processing Kernel for EM signal analysis.
 
 ### 3. Quantum Kernel
+
 Hilbert space, observables, superposition, entanglement. Covers wavefunctions, many-body systems, quantum measurement theory, and decoherence. This kernel interfaces with the AMOS Quantum Stack (Core3/Core5/Core7) for quantum reasoning model coordination.
 
 ### 4. Statistical Kernel
+
 Ensembles, partition functions, entropy, temperature. Covers thermodynamics, statistical mechanics, phase transitions, and fluctuation-dissipation theory. Provides the physical basis for AMOS entropy and information-theoretic reasoning.
 
 ### 5. Cosmology Kernel
+
 Metrics, curvature, scale factors, horizons. Covers General Relativity, astrophysics, cosmological models, and large-scale structure formation. Anchors AMOS reasoning in physically possible temporal and spatial scales.
 
 ## Applied Engines
 
 ### System Modelling Engine
+
 Maps real-world phenomena to differential equations and identifies stability profiles and boundary conditions. Translates physical intuition into formal mathematical models that can be validated and refined.
 
 ### Multiscale Simulation Engine
+
 Bridges temporal and spatial scales (micro to macro) to extract failure modes and extreme state profiles. Handles the challenge of connecting quantum-scale phenomena to classical-scale observations and cosmological-scale patterns.
 
 ### Technology Translation Engine
+
 Translates underlying physical principles into candidate engineering architectures. Bridges from physics reasoning to the C10 (tech/engineering) domain, ensuring that proposed technologies respect physical constraints.
 
 ## Constraints
@@ -96,13 +100,15 @@ C03_physics_cosmos serves as the physical constraint layer (L3) in the AMOS Cogn
 - Source model: Physics_Cosmos_Model
 - Related vault files: `universe-cosmos/C03_physics_cosmos.md`, `universe-cosmos/Physics_Cosmos_Model.md`, `universe-cosmos/C03_physics_cosmos_SUPER.md`
 
----
+______________________________________________________________________
+
 **MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -110,12 +116,14 @@ C03_physics_cosmos serves as the physical constraint layer (L3) in the AMOS Cogn
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-c03-physics-cosmos-master-physics-cosmos-engine-layer
 node_type: reference
 path: 07_SKILLS/amos-c03-physics-cosmos-master/references/physics_cosmos_engine_layer.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

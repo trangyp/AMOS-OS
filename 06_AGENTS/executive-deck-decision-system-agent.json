@@ -74,7 +74,7 @@
     "executive-deck-decision-system"
   ],
   "depends_on_workflows": [
-    "executive-deck-decision-system-workflow.md"
+    "amos-executive-deck-decision-system-workflow.md"
   ],
   "epistemic_class": "AMOS_MODEL",
   "claim_ceiling": 0.95,

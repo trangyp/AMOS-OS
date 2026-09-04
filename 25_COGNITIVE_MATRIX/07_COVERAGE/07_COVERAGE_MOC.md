@@ -1,14 +1,17 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: 07 Coverage MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/07_COVERAGE
 tags:
-- 07-coverage
-- domain/cognitive-matrix
-- 2026-08-26-contract-fill-pass
-- coverage-audit
-- coverage-model
-- coverage-thresholds
+  - 07-coverage
+  - domain/cognitive-matrix
+  - 2026-08-26-contract-fill-pass
+  - coverage-audit
+  - coverage-model
+  - coverage-thresholds
 moc: true
 rscf:
   state: DERIVED
@@ -35,5 +38,6 @@ rscf:
 
 - [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]] — 00_INDEX
 
----
+______________________________________________________________________
+
 **Parent:** [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]

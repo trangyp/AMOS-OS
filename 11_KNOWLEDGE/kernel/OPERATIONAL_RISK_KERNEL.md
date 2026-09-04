@@ -1,4 +1,7 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: OPERATIONAL RISK KERNEL
 type: kernel
 source: 11_KNOWLEDGE/kernel
@@ -7,16 +10,16 @@ canon-type: framework
 rscf-state: source-claim
 topic: operational-risk-kernel
 tags:
-- canon-group/tech-ai
-- canon/framework
-- rscf/claim
-- rscf/provenance
-- rscf/state/source-claim
-- topic/operational-risk-kernel
-- kernel
-- system-scan-agent
-- automation-profiles
-- amos-simulation-kernel-v0-math-foundations
+  - canon-group/tech-ai
+  - canon/framework
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - topic/operational-risk-kernel
+  - kernel
+  - system-scan-agent
+  - automation-profiles
+  - amos-simulation-kernel-v0-math-foundations
 created: 2026-08-22
 rscf:
   state: SOURCE_CLAIM
@@ -27,12 +30,13 @@ rscf:
 
 # Operational Risk Kernel
 
-> [!info] Populated Stub
+> [!INFO] Populated Stub
 > Source: `kernel/A/AMOS_Operational_Risk_Kernel_v0_Governance_Risk7_3.md` (full kernel spec, 46 lines).
 > **Epistemic class**: SOURCE_CLAIM (vault-sourced)
 > **Audit**: Populated 2026-08-26 from Governance_Risk7_3 source kernel.
 
 ## Status
+
 - **Type**: Kernel spec (from Governance_Risk7_3 source)
 - **Content**: Vault-sourced
 - **Action**: Populated 2026-08-26
@@ -81,9 +85,10 @@ rscf:
 }
 ```
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS · SYSTEM_SCAN_AGENT · AUTOMATION_PROFILES · [[11_KNOWLEDGE/kernel/SYSTEM_SENSOR_KERNEL|SYSTEM_SENSOR_KERNEL]] · [[11_KNOWLEDGE/kernel/AMOS_REINFORCEMENT_LEARNING_ANALYSIS_KERNEL|AMOS_REINFORCEMENT_LEARNING_ANALYSIS_KERNEL]] · [[11_KNOWLEDGE/kernel/MOOD_KERNEL|MOOD_KERNEL]] · [[11_KNOWLEDGE/kernel/AMOS_INTEGRATION_PLATFORM_KERNEL_V0_TECH|AMOS_INTEGRATION_PLATFORM_KERNEL_V0_TECH]]
 
----
-**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]
+______________________________________________________________________
 
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]

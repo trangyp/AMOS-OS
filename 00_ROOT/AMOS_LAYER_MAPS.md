@@ -8,15 +8,15 @@ provenance: VAULT_INDEX
 status: active
 steward: Trang Phan
 tags:
-- amos-os
-- root
-- index
-- map
-- navigation
-- canon-group/tech-ai
-- canon/navigation
-- topic/layer-maps
-- amos-templates
+  - amos-os
+  - root
+  - index
+  - map
+  - navigation
+  - canon-group/tech-ai
+  - canon/navigation
+  - topic/layer-maps
+  - amos-templates
 title: AMOS Layer Maps
 type: index
 source: 00_ROOT
@@ -29,9 +29,9 @@ rscf:
 
 # AMOS Layer Maps
 
-Canonical map index for the AMOS OS layer structure. Each top-level layer has a `00_INDEX/*MAP.md` that provides the entry map for that layer. Use `` for the master navigation contract.
+Canonical map index for the AMOS OS layer structure. Each top-level layer has a `00_INDEX/*MAP.md` that provides the entry map for that layer. Use \`\` for the master navigation contract.
 
----
+______________________________________________________________________
 
 ## Top-level layer maps
 
@@ -58,7 +58,7 @@ Canonical map index for the AMOS OS layer structure. Each top-level layer has a 
 - [[21_DOMAINS/00_INDEX/DOMAIN_ALIAS_MAP|DOMAIN_ALIAS_MAP]] — Domain alias / entry map
 - [[22_RESEARCH/00_INDEX/RESEARCH_RESEARCH_MAP|RESEARCH_RESEARCH_MAP]] — Research layer map
 
----
+______________________________________________________________________
 
 ## Related MOCs
 
@@ -71,6 +71,7 @@ Canonical map index for the AMOS OS layer structure. Each top-level layer has a 
 ## Subsystem maps
 
 ### 01_CANON
+
 - [[01_CANON/01_CORE_LAWS/00_INDEX/CORE_LAWS_MAP|CORE_LAWS_MAP]]
 - [[01_CANON/02_UNIVERSE_CANON/00_INDEX/UNIVERSE_CANON_MAP|UNIVERSE_CANON_MAP]]
 - COGNITION_CANON_MAP
@@ -82,6 +83,7 @@ Canonical map index for the AMOS OS layer structure. Each top-level layer has a 
 - [[01_CANON/08_SUPERSESSION/00_INDEX/SUPERSESSION_MAP|SUPERSESSION_MAP]]
 
 ### 02_KERNEL
+
 - [[02_KERNEL/01_META_LOGIC/00_INDEX/META_LOGIC_MAP|META_LOGIC_MAP]]
 - [[02_KERNEL/02_COGNITION/00_INDEX/COGNITION_MAP|COGNITION_MAP]]
 - [[02_KERNEL/03_CAUSAL/00_INDEX/CAUSAL_MAP|CAUSAL_MAP]]
@@ -93,6 +95,7 @@ Canonical map index for the AMOS OS layer structure. Each top-level layer has a 
 - [[02_KERNEL/09_INTEGRATION/00_INDEX/INTEGRATION_MAP|INTEGRATION_MAP]]
 
 ### 03_CONTROL_PLANE
+
 - [[03_CONTROL_PLANE/01_TASK_CONTRACT/00_INDEX/TASK_CONTRACT_MAP|TASK_CONTRACT_MAP]]
 - [[03_CONTROL_PLANE/02_CAPABILITY/00_INDEX/CAPABILITY_MAP|CAPABILITY_MAP]]
 - [[03_CONTROL_PLANE/03_POLICY/00_INDEX/POLICY_MAP|POLICY_MAP]]
@@ -107,57 +110,75 @@ Canonical map index for the AMOS OS layer structure. Each top-level layer has a 
 - [[03_CONTROL_PLANE/12_ROLLBACK/00_INDEX/ROLLBACK_MAP|ROLLBACK_MAP]]
 
 ### 04_RUNTIME
+
 - [[04_RUNTIME/00_INDEX/RUNTIME_MAP|RUNTIME_MAP]] — Runtime layer map
 
 ### 05_COGNITIVE_ORGANISM
+
 - [[05_COGNITIVE_ORGANISM/00_INDEX/COGNITIVE_ORGANISM_MAP|COGNITIVE_ORGANISM_MAP]] — Cognitive organism layer map
 
 ### 06_AGENTS
+
 - [[06_AGENTS/00_INDEX/AGENT_MAP|AGENT_MAP]] — Agent layer map
 
 ### 07_SKILLS
+
 - [[07_SKILLS/00_INDEX/SKILL_MAP|SKILL_MAP]] — Skill layer map
 
 ### 08_WORKFLOWS
+
 - [[08_WORKFLOWS/00_INDEX/WORKFLOW_MAP|WORKFLOW_MAP]] — Workflow layer map
 
 ### 09_PROTOCOLS
+
 - [[09_PROTOCOLS/00_INDEX/PROTOCOL_MAP|PROTOCOL_MAP]] — Protocol layer map
 
 ### 10_MEMORY
+
 - [[10_MEMORY/00_INDEX/MEMORY_MEMORY_MAP|MEMORY_MEMORY_MAP]] — Memory layer map
 
 ### 11_KNOWLEDGE
+
 - [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] — Knowledge layer MOC
 
 ### 12_STATE
+
 - [[12_STATE/00_INDEX/STATE_STATE_MAP|STATE_STATE_MAP]] — State layer map
 
 ### 13_MODELS
+
 - [[13_MODELS/00_INDEX/MODEL_MAP|MODEL_MAP]] — Model layer map
 
 ### 14_TOOLS
+
 - [[14_TOOLS/00_INDEX/TOOL_MAP|TOOL_MAP]] — Tool layer map
 
 ### 15_INTERFACES
+
 - [[15_INTERFACES/00_INDEX/INTERFACE_MAP|INTERFACE_MAP]] — Interface layer map
 
 ### 16_SCHEMAS
+
 - [[16_SCHEMAS/00_INDEX/SCHEMA_MAP|SCHEMA_MAP]] — Schema layer map
 
 ### 17_OBSERVABILITY
+
 - [[17_OBSERVABILITY/00_INDEX/OBSERVABILITY_OBSERVABILITY_MAP|OBSERVABILITY_OBSERVABILITY_MAP]] — Observability layer map
 
 ### 18_SECURITY
+
 - [[18_SECURITY/00_INDEX/SECURITY_MAP|SECURITY_MAP]] — Security layer map
 
 ### 19_TESTS
+
 - [[19_TESTS/00_INDEX/TEST_MAP|TEST_MAP]] — Test layer map
 
 ### 20_OPERATIONS
+
 - [[20_OPERATIONS/00_INDEX/OPERATIONS_MAP|OPERATIONS_MAP]] — Operations layer map
 
 ### 21_DOMAINS
+
 - [[21_DOMAINS/01_SOFTWARE/00_INDEX/SOFTWARE_MAP|SOFTWARE_MAP]]
 - [[21_DOMAINS/02_RESEARCH/00_INDEX/DOMAINS_RESEARCH_MAP|DOMAINS_RESEARCH_MAP]]
 - [[21_DOMAINS/03_FOREX/00_INDEX/FOREX_MAP|FOREX_MAP]]
@@ -205,6 +226,7 @@ Canonical map index for the AMOS OS layer structure. Each top-level layer has a 
 - [[21_DOMAINS/45_MODES/00_INDEX/MODES_MAP|MODES_MAP]]
 
 ### 22_RESEARCH
+
 - [[22_RESEARCH/01_PAPERS/00_INDEX/PAPERS_MAP|PAPERS_MAP]]
 - [[22_RESEARCH/02_EXPERIMENTS/00_INDEX/EXPERIMENTS_MAP|EXPERIMENTS_MAP]]
 - [[22_RESEARCH/03_COMPETING_MODELS/00_INDEX/COMPETING_MODELS_MAP|COMPETING_MODELS_MAP]]
@@ -212,6 +234,7 @@ Canonical map index for the AMOS OS layer structure. Each top-level layer has a 
 - [[22_RESEARCH/05_BENCHMARKS/00_INDEX/BENCHMARKS_MAP|BENCHMARKS_MAP]]
 
 ### 23_OPERATING_MODEL
+
 - [[23_OPERATING_MODEL/00_INDEX/OPERATING_MODEL_MAP|OPERATING_MODEL_MAP]]
 - [[23_OPERATING_MODEL/01_ROLES/00_INDEX/ROLES_MAP|ROLES_MAP]]
 - [[23_OPERATING_MODEL/02_DECISION_RIGHTS/00_INDEX/DECISION_RIGHTS_MAP|DECISION_RIGHTS_MAP]]
@@ -220,6 +243,7 @@ Canonical map index for the AMOS OS layer structure. Each top-level layer has a 
 - [[23_OPERATING_MODEL/05_SERVICE_LEVELS/00_INDEX/SERVICE_LEVELS_MAP|SERVICE_LEVELS_MAP]]
 
 ### 24_ARCHIVE
+
 - [[24_ARCHIVE/00_INDEX/ARCHIVE_MAP|ARCHIVE_MAP]]
 - [[24_ARCHIVE/00_LEGACY/00_INDEX/LEGACY_MAP|LEGACY_MAP]]
 - [[24_ARCHIVE/01_DEPRECATED/00_INDEX/DEPRECATED_MAP|DEPRECATED_MAP]]
@@ -227,6 +251,7 @@ Canonical map index for the AMOS OS layer structure. Each top-level layer has a 
 - [[24_ARCHIVE/03_EXPERIMENTAL/00_INDEX/EXPERIMENTAL_MAP|EXPERIMENTAL_MAP]]
 
 ### 25_COGNITIVE_MATRIX
+
 - [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MAP|COGNITIVE_MATRIX_MAP]]
 - [[25_COGNITIVE_MATRIX/01_PRIMITIVES/00_INDEX/PRIMITIVES_MAP|PRIMITIVES_MAP]]
 - [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/00_INDEX/L00_REALITY_ENVIRONMENT_MAP|L00_REALITY_ENVIRONMENT_MAP]]
@@ -300,15 +325,18 @@ Canonical map index for the AMOS OS layer structure. Each top-level layer has a 
 - [[25_COGNITIVE_MATRIX/11_VALIDATION/00_INDEX/COGNITIVE_MATRIX_VALIDATION_MAP|COGNITIVE_MATRIX_VALIDATION_MAP]]
 - [[25_COGNITIVE_MATRIX/12_GENERATORS/00_INDEX/GENERATORS_MAP|GENERATORS_MAP]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos_layer_maps
 node_type: note
 path: 00_ROOT/AMOS_Layer_Maps.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[00_ROOT/00_COSMO_BRAIN_MOC|00_COSMO_BRAIN_MOC]]

@@ -1,14 +1,17 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Vault Domain Knowledge — Amos Arxiv Time Series Bootstrap Conformal Rscf
 type: reference
 source: 07_SKILLS/amos-arxiv-time-series-bootstrap-conformal-rscf/references
 tags:
-- reference
-- amos-arxiv-time-series-bootstrap-conformal-rscf
-- type/skill
-- law-hierarchy
-- canon
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-arxiv-time-series-bootstrap-conformal-rscf
+  - type/skill
+  - law-hierarchy
+  - canon
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -28,15 +31,16 @@ rscf:
 
 > Path: `amos-general/A/ChatGPT/AMOS_CHATGPT_BOOTSTRAP.md` | Size: 4460 chars | Match score: 10 | content_hash: 69b9cbfbb6f4dd3c
 
-# AMOS_CHATGPT_BOOTSTRAP.md
+## AMOS_CHATGPT_BOOTSTRAP.md
+
 ## Official Bootstrap for All ChatGPT Conversations
 
 This file must be followed by ChatGPT in every conversation that references AMOS.
 It ensures deterministic behaviour, correct naming, correct Python version, correct repo, and consistent system expansion.
 
----
+______________________________________________________________________
 
-# 1. ROOT SYSTEM RULES
+## 1. ROOT SYSTEM RULES
 
 ChatGPT must automatically apply these rules:
 
@@ -57,18 +61,18 @@ ChatGPT must automatically apply these rules:
 When user says “max power” →
 ChatGPT must generate the most exhaustive, scalable, deterministic, fully governed version.
 
----
+______________________________________________________________________
 
-# 2. ABSOLUTE SYSTEM PATHS (ALWAYS USE THESE)
+## 2. ABSOLUTE SYSTEM PATHS (ALWAYS USE THESE)
 
 ```
 AMOS_ROOT=/Users/trangphan/Documents/GitHub/AMOS-PUBLIC
 PYTHON=/usr/bin/python3
 ```
 
----
+______________________________________________________________________
 
-# 3. ONE-CLICK FULL SYSTEM BUILD
+## 3. ONE-CLICK FULL SYSTEM BUILD
 
 The official AMOS full rebuild command:
 
@@ -84,17 +88,17 @@ git push
 This pipeline performs:
 
 1. Canon generation
-2. Kernel/Engine/Agent creation
-3. Layout builder
-4. Wiring pass
-5. Speed optimisation
-6. Full benchmark
-7. Registry rebuild
-8. Git sync
+1. Kernel/Engine/Agent creation
+1. Layout builder
+1. Wiring pass
+1. Speed optimisation
+1. Full benchmark
+1. Registry rebuild
+1. Git sync
 
----
+______________________________________________________________________
 
-# 4. OFFICIAL CANON RULES
+## 4. OFFICIAL CANON RULES
 
 AMOS must always maintain this deterministic tree:
 
@@ -114,9 +118,9 @@ Each component obeys:
 
 Python modules must be placed beside JSON if required.
 
----
+______________________________________________________________________
 
-# 5. MASTER GENERATION SCRIPTS (MANDATORY)
+## 5. MASTER GENERATION SCRIPTS (MANDATORY)
 
 AMOS_BUILD_EVERYTHING.py
 AMOS_BUILD_ALL_AGENTS.py
@@ -132,9 +136,9 @@ These scripts:
 - regenerate registry
 - ensure full structural integrity
 
----
+______________________________________________________________________
 
-# 6. CHATGPT BEHAVIOUR RULES
+## 6. CHATGPT BEHAVIOUR RULES
 
 ChatGPT must automatically:
 
@@ -148,21 +152,24 @@ ChatGPT must automatically:
 When user asks:
 
 ### “next”, “continue”, “max power”, “expand”, “upgrade”
+
 ChatGPT must:
+
 - choose the highest-power deterministic expansion
 - identify missing component
 
----
+______________________________________________________________________
 
 ### Source 2: AMOS ChatGPT Bootstrap
 
 > Path: `amos-general/A/ChatGPT/AMOS ChatGPT Bootstrap.md` | Size: 2587 chars | Match score: 10 | content_hash: d608da5becd7a2ce
 
-# AMOS ChatGPT Bootstrap
+## AMOS ChatGPT Bootstrap
 
 ## Owner: Trang | System: AMOS (Autonomous Multi-Operator System)
 
 ### Root System Rules
+
 - Python version: `/usr/bin/python3`
 - AMOS root path: `/Users/trangphan/Documents/GitHub/AMOS-PUBLIC`
 - Never require external packages unless explicitly allowed
@@ -172,6 +179,7 @@ ChatGPT must:
 - Terminal scripts = pure commands only, no comments
 
 ### One-Click Full System Build
+
 ```bash
 cd /Users/trangphan/Documents/GitHub/AMOS-PUBLIC
 /usr/bin/python3 AMOS_BUILD_EVERYTHING.py
@@ -181,8 +189,8 @@ git commit -m "AMOS full build + orchestration run"
 git push
 ```
 
-
 ### Canonical Tree
+
 ```
 AMOS_CANON/
     SYSTEMS/
@@ -193,7 +201,9 @@ AMOS_CANON/
 ```
 
 ### AMOS Agent Registry (72 agents)
+
 Links Python module paths to canon spec JSON files across 7 systems:
+
 - BRAIN_SYSTEM (6): Architecture, Decomposer, Planner, Reflection, Strategist, Brain Consistency Auditor
 - EXECUTION_SYSTEM (7): Automation, Coding, Deployment, DevOps, Document, Refactor, Writing
 - LEGAL_SYSTEM (5): Compliance, Contract, IP, LegalRisk, Legal
@@ -203,18 +213,17 @@ Links Python module paths to canon spec JSON files across 7 systems:
 - WORLD_MODEL_SYSTEM (5): GeoAnalyst, MacroAnalyst, SectorAnalyst, Shock, Trend
 - Specialized (7): AMOS OS, Canonical Body, Extractive Economy, Grand Cannon, HSE CEO, RSCF, Brain Consistency Auditor
 
----
+______________________________________________________________________
 
+______________________________________________________________________
 
----
-
----
+______________________________________________________________________
 
 ### Source 3: RSCF Contract
 
 > Path: `rscf/rscf.md` | Size: 1387 chars | Match score: 5 | content_hash: ae5e4fdd2e612802
 
-# RSCF Contract
+## RSCF Contract
 
 Use **RSCF — Recursive Structured Claim Framework** for every load-bearing conclusion.
 
@@ -249,23 +258,26 @@ decision_relevance: low | medium | high
 ```
 
 ## RSCF invariants
+
 1. Confidence cannot exceed the weakest load-bearing premise without independent revalidation.
-2. Descendants of one source are correlated provenance, not independent confirmation.
-3. Scope, regime, and freshness propagate to dependent claims.
-4. Structural similarity never proves causation.
-5. Equal/incomparable support remains COMPETING.
-6. Failed premises invalidate only dependent descendants.
-7. Framework equations remain MODEL unless independently validated.
+1. Descendants of one source are correlated provenance, not independent confirmation.
+1. Scope, regime, and freshness propagate to dependent claims.
+1. Structural similarity never proves causation.
+1. Equal/incomparable support remains COMPETING.
+1. Failed premises invalidate only dependent descendants.
+1. Framework equations remain MODEL unless independently validated.
 
----
+______________________________________________________________________
 
----
+______________________________________________________________________
+
 **MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -273,12 +285,14 @@ decision_relevance: low | medium | high
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-arxiv-time-series-bootstrap-conformal-rscf-vault-domain-knowledge
 node_type: reference
 path: 07_SKILLS/amos-arxiv-time-series-bootstrap-conformal-rscf/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

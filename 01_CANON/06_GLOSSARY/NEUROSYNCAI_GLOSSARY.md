@@ -12,21 +12,21 @@ segment: 01_CANON/06_GLOSSARY
 artifact_kind: GLOSSARY
 path: 01_CANON/06_GLOSSARY/NEUROSYNCAI_GLOSSARY.md
 tags:
-- amos-os
-- canon
-- universe
-- glossary
-- canon_placeholder
-- rscf
-- canon/universe
-- routing-policy-validation-receipt
-- authz-engine-validation-receipt
-- law-hierarchy
+  - amos-os
+  - canon
+  - universe
+  - glossary
+  - canon_placeholder
+  - rscf
+  - canon/universe
+  - routing-policy-validation-receipt
+  - authz-engine-validation-receipt
+  - law-hierarchy
 version: 0.1.0
 updated: '2026-08-27'
 status: PLACEHOLDER
 epistemic_class: AMOS_MODEL
-canonical_status: UNKNOWN/GAP
+canonical_status: CONDITIONAL
 implementation_status: NOT_ESTABLISHED
 validation_status: NOT_ESTABLISHED
 executable_binding: NOT_ESTABLISHED
@@ -80,7 +80,7 @@ Origin architect / steward:
 
 **Trang Phan**
 
----
+______________________________________________________________________
 
 ## 1. Purpose
 
@@ -88,7 +88,7 @@ This artifact reserves the **NeuroSyncAI Glossary** slot within the Canon plane.
 
 Substantive content (canonical definitions, laws, registries, schemas, models, or bindings) is to be populated from verified native-canon sources under the AMOS_CANON_INGESTION_RULE. This placeholder does not, by its existence, establish canon, empirical validity, or runtime enforcement.
 
----
+______________________________________________________________________
 
 ## 2. Non-Purpose
 
@@ -104,7 +104,7 @@ This placeholder MUST NOT be used to claim:
 - authority merely from architectural importance;
 - or successful validation merely because the slot is addressable.
 
----
+______________________________________________________________________
 
 ## 3. Ingestion Rule
 
@@ -143,31 +143,32 @@ AMOS_CANON_INGESTION_RULE:
       - NEVER_INVENT_CANON
 ```
 
----
+______________________________________________________________________
 
 ## 4. Contract discipline
 
 Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
 
----
+______________________________________________________________________
 
 ## 5. Gaps
 
 Executable binding NOT_ESTABLISHED. Canonical status UNKNOWN/GAP. Substantive content pending native-canon source ingestion. Validation receipt required before promotion: [[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]].
 
----
+______________________________________________________________________
 
 ## 6. Worked semantics (target)
 
 Given an operation touching `01_CANON · GLOSSARY` within the Canon plane:
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-2. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-3. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-4. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-5. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-6. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
 
----
+1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
+1. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
+1. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
+1. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
+1. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
+1. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
+
+______________________________________________________________________
 
 ## 7. Promotion-gate checklist
 
@@ -180,7 +181,7 @@ Given an operation touching `01_CANON · GLOSSARY` within the Canon plane:
 - [ ] executed validation receipt specific to this artifact
 - [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
----
+______________________________________________________________________
 
 ## 8. Cross-plane bindings (target)
 
@@ -190,15 +191,46 @@ Given an operation touching `01_CANON · GLOSSARY` within the Canon plane:
 - Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
 - Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
+______________________________________________________________________
+
+
 ---
+
+# NeurosyncAI Glossary — Source-Grounded Terms
+
+> **Provenance:** [[11_KNOWLEDGE/05_FRAMEWORKS/NEUROSYNCAI_FRAMEWORK|NEUROSYNCAI_FRAMEWORK]], [[11_KNOWLEDGE/05_FRAMEWORKS/NEUROSYNCAI_MASTER|NEUROSYNCAI_MASTER]], [[11_KNOWLEDGE/05_FRAMEWORKS/NEUROSYNCAI_DUAL_SYSTEM_ARCHITECTURE|NEUROSYNCAI_DUAL_SYSTEM_ARCHITECTURE]], [[11_KNOWLEDGE/05_FRAMEWORKS/NEUROSYNCAI_RECOVERY_ENGINE|NEUROSYNCAI_RECOVERY_ENGINE]].
+> **Claim class:** `AMOS_MODEL` — human-AI synchrony interface model, not an FDA/clinical-certified device.
+
+## Core terms
+
+| Term | Definition |
+| :--- | :--- |
+| **NeurosyncAI™** | Dual-system cognitive architecture synchronizing AI systems with biological human intelligence (UBI). |
+| **Bio-adaptive pacing** | Adapting context delivery, token generation speed, and cognitive load to human autonomic and neural fatigue limits. |
+| **Dual-system orchestration** | Coupling fast heuristic recognition with deep deterministic proof engines (System 1 / System 2 bridge). |
+| **Recovery & anti-fatigue dynamics** | Monitoring state degradation to trigger restorative pacing before cognitive collapse. |
+| **NeurosycAI Master Controller** | Oversight subsystem for real-time bio-synchrony, autonomic fatigue monitoring, token pacing throttling, and cognitive recovery loops. |
+| **Telemetry ingestion** | Filtering biological telemetry (HRV, EMG, EEG) and computing instantaneous HRV / autonomic ratio. |
+| **Fatigue pacing engine** | Dynamically throttles AI generation rate during sympathetic overload. |
+| **Cognitive restorer** | Triggers parasympathetic micro-breaks and visual calming stimuli. |
+| **Dual-system bridge** | Switches between fast heuristic and deep proof reasoning modes. |
+| **Harmonized human-AI flow state** | Target operating state where biological alignment metrics ($i$) and AI generation pace are mutually sustainable. |
+
+## Epistemic boundary
+
+`NeurosyncAI != medical/clinical neurotechnology`. Runtime enforcement, device certification, and physiological intervention claims are `NOT_ESTABLISHED`.
+
+## Related
+
+- [[11_KNOWLEDGE/05_FRAMEWORKS/NEUROSYNCAI_FRAMEWORK|NEUROSYNCAI_FRAMEWORK]] · [[11_KNOWLEDGE/05_FRAMEWORKS/NEUROSYNCAI_MASTER|NEUROSYNCAI_MASTER]] · [[25_COGNITIVE_MATRIX/AMOS_X_NEUROSYNCAI|AMOS_X_NEUROSYNCAI]] · [[11_KNOWLEDGE/05_FRAMEWORKS/UBI_NEUROSYNCAI_BINDING|UBI_NEUROSYNCAI_BINDING]]
 
 RSCF-NODE
 
@@ -210,17 +242,18 @@ path: 01_CANON/06_GLOSSARY/NEUROSYNCAI_GLOSSARY.md
 
 claim_class: AMOS_MODEL
 
-rscf_state: placeholder
+rscf_state: canon_reference
 
-canonical_status: UNKNOWN/GAP
+canonical_status: CONDITIONAL
 
 RSCF-RELATIONS:
 
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
-  - GOVERNED_BY: [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- GOVERNED_BY: [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
 
----
+______________________________________________________________________
+
 **MOC:** [[01_CANON/06_GLOSSARY/06_GLOSSARY_MOC|06_GLOSSARY_MOC]]

@@ -12,17 +12,17 @@ segment: 04_RUNTIME/09_FINALIZATION
 artifact_kind: FINALIZER_SPEC
 path: 04_RUNTIME/09_FINALIZATION/CAUSAL_EPOCH_FINALIZER.md
 tags:
-- amos-os
-- runtime
-- vault
-- 09_finalization
-- causal_epoch_finalizer
-- state_transition_commit
-- temporal_boundary
-- rscf
-- canon_candidate
-- canon/runtime
-- law/L0-integrity
+  - amos-os
+  - runtime
+  - vault
+  - 09_finalization
+  - causal_epoch_finalizer
+  - state_transition_commit
+  - temporal_boundary
+  - rscf
+  - canon_candidate
+  - canon/runtime
+  - law/L0-integrity
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -37,13 +37,13 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - 04_RUNTIME/09_FINALIZATION/09_FINALIZATION_MOC
-  - 01_CANON/01_CORE_LAWS/L0_INTEGRITY
-  - AMOS_CORPUS
+    - 04_RUNTIME/09_FINALIZATION/09_FINALIZATION_MOC
+    - 01_CANON/01_CORE_LAWS/L0_INTEGRITY
+    - AMOS_CORPUS
   scope:
-  - RUNTIME_FINALIZATION
-  - CAUSAL_EPOCH_COMMIT
-  - SOURCE_DEFINED_MODEL
+    - RUNTIME_FINALIZATION
+    - CAUSAL_EPOCH_COMMIT
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   finalization_moc:
     artifact: 04_RUNTIME/09_FINALIZATION/09_FINALIZATION_MOC
@@ -60,28 +60,28 @@ epistemic_boundary:
 
 `CAUSAL_EPOCH_FINALIZER.md` is the canonical Runtime Plane specification governing the temporal epoch boundary, immutable state transition commitment ($S_t \to S_{t+1}$), and causal receipt signing within `04_RUNTIME/09_FINALIZATION`.
 
----
+______________________________________________________________________
 
-# 1. Causal Epoch Finalization Sequence
+## 1. Causal Epoch Finalization Sequence
 
 $$S_{t+1} = \mathcal{C}(F(S_t, U_t))$$
 
 1. **Epoch Invariant Verification:** Verifies that no unresolved causality loops or non-compensatory debts exist.
-2. **State Transition Commitment:** Commits the atomic state change ($S_t \to S_{t+1}$).
-3. **Causal Audit Receipt Signing:** Generates verifiable decision receipt with SHA-256 hash.
-4. **Advances Causal Epoch Clock:** Increments $t \to t+1$ and resets execution buffers to ground state ($S_0$).
+1. **State Transition Commitment:** Commits the atomic state change ($S_t \to S_{t+1}$).
+1. **Causal Audit Receipt Signing:** Generates verifiable decision receipt with SHA-256 hash.
+1. **Advances Causal Epoch Clock:** Increments $t \to t+1$ and resets execution buffers to ground state ($S_0$).
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Finalization MOC:** 04_RUNTIME/09_FINALIZATION/[[04_RUNTIME/09_FINALIZATION/09_FINALIZATION_MOC|09_FINALIZATION_MOC]]
 - **Law of Law:** 01_CANON/01_CORE_LAWS/[[01_CANON/01_CORE_LAWS/L0_INTEGRITY|L0_INTEGRITY]]
 - **Decision Receipts:** 03_CONTROL_PLANE/[[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE_MOC]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -99,10 +99,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME_MOC]] · 04_RUNTIME/09_FINALIZATION/[[04_RUNTIME/09_FINALIZATION/09_FINALIZATION_MOC|09_FINALIZATION_MOC]] · 01_CANON/01_CORE_LAWS/[[01_CANON/01_CORE_LAWS/L0_INTEGRITY|L0_INTEGRITY]]
 
----
-**MOC:** 04_RUNTIME/09_FINALIZATION/[[04_RUNTIME/09_FINALIZATION/09_FINALIZATION_MOC|09_FINALIZATION_MOC]]
+______________________________________________________________________
 
+**MOC:** 04_RUNTIME/09_FINALIZATION/[[04_RUNTIME/09_FINALIZATION/09_FINALIZATION_MOC|09_FINALIZATION_MOC]]

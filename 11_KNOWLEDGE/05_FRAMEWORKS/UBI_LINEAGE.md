@@ -12,20 +12,20 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: LINEAGE
 path: 11_KNOWLEDGE/05_FRAMEWORKS/UBI_LINEAGE.md
 tags:
-- amos-os
-- knowledge
-- vault
-- 05_frameworks
-- ubi_lineage
-- biological_lineage
-- concept_evolution
-- rscf
-- canon_candidate
-- canon/knowledge
-- unified-biological-intelligence
-- ubi-provenance
-- amos-ubi-super-engine
-- amos-x-ubi
+  - amos-os
+  - knowledge
+  - vault
+  - 05_frameworks
+  - ubi_lineage
+  - biological_lineage
+  - concept_evolution
+  - rscf
+  - canon_candidate
+  - canon/knowledge
+  - unified-biological-intelligence
+  - ubi-provenance
+  - amos-ubi-super-engine
+  - amos-x-ubi
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -40,20 +40,20 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - UBI_OFFICIAL_MANUAL
-  - UNIFIED_BIOLOGICAL_INTELLIGENCE
-  - AMOS_CORPUS
+    - UBI_OFFICIAL_MANUAL
+    - UNIFIED_BIOLOGICAL_INTELLIGENCE
+    - AMOS_CORPUS
   scope:
-  - KNOWLEDGE_FRAMEWORKS
-  - BIOLOGICAL_LINEAGE
-  - SOURCE_DEFINED_MODEL
+    - KNOWLEDGE_FRAMEWORKS
+    - BIOLOGICAL_LINEAGE
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   biological_master:
     artifact:
-    - - UNIFIED_BIOLOGICAL_INTELLIGENCE
+      -   - UNIFIED_BIOLOGICAL_INTELLIGENCE
   provenance:
     artifact:
-    - - UBI_PROVENANCE
+      -   - UBI_PROVENANCE
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
@@ -67,9 +67,9 @@ epistemic_boundary:
 
 It maps the conceptual development of Unified Biological Intelligence from traditional neuroscience and biomechanics to unified multi-domain non-compensatory alignment ($i$) and AMOS OS living organism integration.
 
----
+______________________________________________________________________
 
-# 1. Conceptual Lineage Pipeline
+## 1. Conceptual Lineage Pipeline
 
 ```text
 CONVENTIONAL DISCIPLINARY SILOS (Isolated Neuro / Emotion / Biomechanics)
@@ -84,18 +84,18 @@ MATHEMATICAL ALIGNMENT FORMULATION (i = (NBI·NEI·SI·BEI)^(1/4), e = i²)
 REAL-TIME OPERATING SYSTEM INTEGRATION (UBI Super Engine, Wearables, AMOS OS)
 ```
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Master Specification:** [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]]
 - **Provenance Record:** [[01_CANON/07_PROVENANCE/UBI_PROVENANCE|UBI_PROVENANCE]]
 - **Super Engine:** [[11_KNOWLEDGE/05_FRAMEWORKS/AMOS_UBI_SUPER_ENGINE|AMOS_UBI_SUPER_ENGINE]]
 - **Cognitive Matrix:** [[25_COGNITIVE_MATRIX/AMOS_X_UBI|AMOS_X_UBI]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -113,9 +113,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]] · [[01_CANON/07_PROVENANCE/UBI_PROVENANCE|UBI_PROVENANCE]] · [[11_KNOWLEDGE/05_FRAMEWORKS/AMOS_UBI_SUPER_ENGINE|AMOS_UBI_SUPER_ENGINE]]
 
----
+______________________________________________________________________
+
 **MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]

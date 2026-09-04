@@ -4,25 +4,22 @@ title: SKILL — Amos Sensory Map Integrator
 type: skill
 source: 07_SKILLS/amos-sensory-map-integrator
 name: amos-sensory-map-integrator
-description: Sensory Map Integrator — biology and neuroscience capability. Use when
-  biological reasoning, neuroscience, or medical analysis. Use when amos-c04-bio-neuro-master
-  routes to this specialized capability. Do not use for generic tasks outside c04
-  domain.
+description: Sensory Map Integrator — biology and neuroscience capability. Use when biological reasoning, neuroscience, or medical analysis. Use when amos-c04-bio-neuro-master routes to this specialized capability. Do not use for generic tasks outside c04 domain.
 parent_skill: amos-c04-bio-neuro-master
 domain: c04
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
 tags:
-- type/skill
-- type/skill
-- domain/bio-neuro
-- epistemic/source_claim
-- hml/m
-- epistemic/source_claim
-- amos-os
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/bio-neuro
+  - epistemic/source_claim
+  - hml/m
+  - epistemic/source_claim
+  - amos-os
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -32,23 +29,23 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: M
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
-- L7_authority
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
+  - L7_authority
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L7
-- L16
-- L17
-- L18
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L7
+  - L16
+  - L17
+  - L18
 license: MIT
 steward: Trang Phan
 ---
@@ -58,6 +55,7 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: c04. Parent: amos-c04-bio-neuro-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
 ## When to Use
 
 - When mapping neurotransmitter systems: synthesis, release, reuptake, receptor activation
@@ -83,13 +81,13 @@ Origin architect: **Trang Phan**. Domain: c04. Parent: amos-c04-bio-neuro-master
 ## Operations
 
 1. **sensory_map.map_mechanism**: Map biological mechanisms: cellular, neural, developmental, and evolutionary
-2. **sensory_map.assess_cognition**: Assess cross-species cognition: comparative neural computation and intelligence
-3. **sensory_map.model_morphogenesis**: Model morphogenesis: pattern formation, self-organization, and development
-4. **sensory_map.map_neurotransmitters**: Map neurotransmitter systems: synthesis sites, release sites, receptor subtypes
-5. **sensory_map.integrate_layers**: Integrate biological cognition layers: molecular → neural → cognitive → social
-6. **sensory_map.detect_drift**: Detect drift in neurotransmitter maps, cognition models, or evidence freshness
-7. **sensory_map.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-8. **sensory_map.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+1. **sensory_map.assess_cognition**: Assess cross-species cognition: comparative neural computation and intelligence
+1. **sensory_map.model_morphogenesis**: Model morphogenesis: pattern formation, self-organization, and development
+1. **sensory_map.map_neurotransmitters**: Map neurotransmitter systems: synthesis sites, release sites, receptor subtypes
+1. **sensory_map.integrate_layers**: Integrate biological cognition layers: molecular → neural → cognitive → social
+1. **sensory_map.detect_drift**: Detect drift in neurotransmitter maps, cognition models, or evidence freshness
+1. **sensory_map.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+1. **sensory_map.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## Vault-Sourced Domain Knowledge
 
@@ -115,15 +113,15 @@ Origin architect: **Trang Phan**. Domain: c04. Parent: amos-c04-bio-neuro-master
 
 ### 7-Layer Biological Cognition Model
 
-| Layer | Name | Focus |
-|-------|------|-------|
-| L1 | Molecular | DNA/RNA, neurotransmitters, receptor binding |
-| L2 | Cellular | Neurons, glia, signal transduction |
-| L3 | Circuit | Rate coding, oscillations, synchrony |
-| L4 | System | Perception, attention, learning, memory |
-| L5 | Emotion | Motivation, affect, behavioral drives |
-| L6 | Social | Social cognition, theory of mind, interfaces |
-| L7 | Interface | External coupling, environment, culture |
+| Layer | Name      | Focus                                        |
+| ----- | --------- | -------------------------------------------- |
+| L1    | Molecular | DNA/RNA, neurotransmitters, receptor binding |
+| L2    | Cellular  | Neurons, glia, signal transduction           |
+| L3    | Circuit   | Rate coding, oscillations, synchrony         |
+| L4    | System    | Perception, attention, learning, memory      |
+| L5    | Emotion   | Motivation, affect, behavioral drives        |
+| L6    | Social    | Social cognition, theory of mind, interfaces |
+| L7    | Interface | External coupling, environment, culture      |
 
 ### Epistemic Boundary
 
@@ -142,9 +140,10 @@ Neurotransmitter mapping is SOURCE_CLAIM (vault-sourced structural model). Biolo
 - **G1 (Law of Law)**: No unresolved contradictions within the skill's scope.
 - **G2 (Epistemic class)**: All claims labeled SOURCE / DERIVED / AMOS_MODEL / EMPIRICAL — never claim beyond evidence.
 - **G3 (Provenance)**: Source path recorded for every derived claim.
-- *
+- -
 
----
+______________________________________________________________________
+
 **Links:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 ## Related
@@ -154,17 +153,19 @@ Neurotransmitter mapping is SOURCE_CLAIM (vault-sourced structural model). Biolo
 ## Examples
 
 - **Scenario**: When mapping neurotransmitter systems: synthesis, release, reuptake, receptor activation
+
   - **Input**: A query matching this skill's domain (c04)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When integrating sensory maps across biological cognition layers
+
   - **Input**: A query matching this skill's domain (c04)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When modeling 7-layer biological scaffolding from molecular to social cognition
+
   - **Input**: A query matching this skill's domain (c04)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Anti-Patterns
 
@@ -174,7 +175,6 @@ Neurotransmitter mapping is SOURCE_CLAIM (vault-sourced structural model). Biolo
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `amos-c04-bio-neuro-master` — routes to this skill when c04 specialization is needed
@@ -182,7 +182,6 @@ Neurotransmitter mapping is SOURCE_CLAIM (vault-sourced structural model). Biolo
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -201,7 +200,6 @@ Neurotransmitter mapping is SOURCE_CLAIM (vault-sourced structural model). Biolo
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -209,7 +207,6 @@ Neurotransmitter mapping is SOURCE_CLAIM (vault-sourced structural model). Biolo
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -222,11 +219,12 @@ Neurotransmitter mapping is SOURCE_CLAIM (vault-sourced structural model). Biolo
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `amos-c04-bio-neuro-master` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `amos-sensory-map-integrator-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -234,12 +232,14 @@ Neurotransmitter mapping is SOURCE_CLAIM (vault-sourced structural model). Biolo
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-sensory-map-integrator
 node_type: skill
 path: 07_SKILLS/amos-sensory-map-integrator/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

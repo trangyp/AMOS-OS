@@ -15,55 +15,64 @@ kernel_family: STATE
 scope: AMOS_OS
 updated: 2026-08-26
 tags:
-- amos-os
-- kernel
-- core
-- canon-group/tech-ai
-- canon/model
-- kernel/state
-- kernel/system-state
-- kernel/context
-- kernel/dependency
-- kernel/provenance
-- kernel/causality
-- kernel/concurrency
-- kernel/validation
-- rscf/state/model
-- rscf/provenance
-- topic/system-state
-- topic/mvcc
-- topic/cas
-- topic/atomicity
-- topic/recovery
-- topic/finality
-- readme
-- architecture
-- authoritative-state
-- amos-core-laws
-- law-hierarchy
-- canon-provenance
-- source-lineage
-- supersession-log
-- k-identity
-- k-context-state
-- k-event-bus
-- k-structural-reasoning
-- k-causal-closure
-- k-causal-epoch
-- k-causal-hierarchy
+  - amos-os
+  - kernel
+  - core
+  - canon-group/tech-ai
+  - canon/model
+  - kernel/state
+  - kernel/system-state
+  - kernel/context
+  - kernel/dependency
+  - kernel/provenance
+  - kernel/causality
+  - kernel/concurrency
+  - kernel/validation
+  - rscf/state/model
+  - rscf/provenance
+  - topic/system-state
+  - topic/mvcc
+  - topic/cas
+  - topic/atomicity
+  - topic/recovery
+  - topic/finality
+  - readme
+  - architecture
+  - authoritative-state
+  - amos-core-laws
+  - law-hierarchy
+  - canon-provenance
+  - source-lineage
+  - supersession-log
+  - k-identity
+  - k-context-state
+  - k-event-bus
+  - k-structural-reasoning
+  - k-causal-closure
+  - k-causal-epoch
+  - k-causal-hierarchy
 aliases:
-- AMOS System State Kernel - System State Kernel - K System State - K_SYSTEM_STATE
+  - AMOS System State Kernel - System State Kernel - K System State - K_SYSTEM_STATE
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 # K SYSTEM STATE
+
 > **AMOS Core target:** `v4.4`
 > **Origin architect / steward:** Trang Phan
 > **Plane:** `02_KERNEL`
 > **Status:** `AMOS_MODEL`
 > **Conclusion class:** `AMOS_MODEL`
+
 ## Purpose
+
 `K_SYSTEM_STATE` defines the kernel-level model for representing, reading, transitioning, validating, committing, invalidating, recovering, and reasoning over AMOS OS system state.
 It establishes the distinction between:
+
 ```text
 SYSTEM
 STATE
@@ -80,7 +89,9 @@ WORKING STATE
 SHADOW STATE
 RECOVERY STATE
 ```
+
 The central firewall is:
+
 ```text
 SYSTEM != STATE
 STATE != CONTEXT
@@ -94,14 +105,10 @@ VERSION != EPOCH
 PERSISTED != FINAL
 REPLICATED != AUTHORITATIVE
 ```
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
----
 
-# K SYSTEM STATE — part 2
+## rscf: state: DERIVED claim_class: DERIVED provenance: AMOS_corpus scope: AMOS_general
+
+## K SYSTEM STATE — part 2
 
 ## 1. System State Principle
 
@@ -133,7 +140,7 @@ This is an architectural representation.
 
 It does not assert that all AMOS implementations maintain one physically centralized state object.
 
----
+______________________________________________________________________
 
 ## 2. State Is Typed
 
@@ -160,7 +167,7 @@ DOMAIN_STATE
 
 Each state type has its own authority, lifecycle, and mutation rules.
 
----
+______________________________________________________________________
 
 ## 3. State Scope
 
@@ -188,7 +195,7 @@ STATE(A)
 
 without sufficient scope may be ambiguous.
 
----
+______________________________________________________________________
 
 ## 4. State Identity
 
@@ -212,7 +219,7 @@ State identity is distinct from system identity.
 SYSTEM_ID != STATE_ID
 ```
 
----
+______________________________________________________________________
 
 ## 5. State Classes
 
@@ -234,7 +241,7 @@ UNKNOWN
 
 These classes must not be silently collapsed.
 
----
+______________________________________________________________________
 
 ## 6. Authoritative State
 
@@ -262,7 +269,7 @@ NEWEST(S)
 AUTHORITATIVE(S)
 ```
 
----
+______________________________________________________________________
 
 ## 7. Working State
 
@@ -282,7 +289,7 @@ S_proposed
 
 Working state must not silently become authoritative.
 
----
+______________________________________________________________________
 
 ## 8. Proposed State
 
@@ -302,7 +309,7 @@ The proposal remains non-authoritative until required gates succeed.
 PROPOSAL != COMMIT
 ```
 
----
+______________________________________________________________________
 
 ## 9. Shadow State
 
@@ -323,7 +330,7 @@ It must remain isolated from authoritative mutation unless explicitly promoted.
 SHADOW_STATE != AUTHORITATIVE_STATE
 ```
 
----
+______________________________________________________________________
 
 ## 10. Recovery State
 
@@ -337,7 +344,7 @@ LATEST AVAILABLE STATE
 
 It means a state acceptable under recovery invariants and provenance constraints.
 
----
+______________________________________________________________________
 
 ## 11. Snapshot
 
@@ -355,7 +362,7 @@ Therefore:
 SNAPSHOT != LIVE_STATE
 ```
 
----
+______________________________________________________________________
 
 ## 12. Historical State
 
@@ -372,7 +379,7 @@ S_0
 
 Historical states may remain valid historical facts while no longer being current.
 
----
+______________________________________________________________________
 
 ## 13. State Transition
 
@@ -403,7 +410,7 @@ C = constraints
 P = applicable policy / authority
 ```
 
----
+______________________________________________________________________
 
 ## 14. Transition Contract
 
@@ -424,7 +431,7 @@ transition:
   rollback:
 ```
 
----
+______________________________________________________________________
 
 ## 15. Transition Preconditions
 
@@ -442,7 +449,7 @@ Failure must not silently become success.
 UNKNOWN/GAP != PASS
 ```
 
----
+______________________________________________________________________
 
 ## 16. State Invariants
 
@@ -470,7 +477,7 @@ UNKNOWN/GAP
 
 depending on failure class.
 
----
+______________________________________________________________________
 
 ## 17. Read State
 
@@ -486,7 +493,7 @@ READ()
 
 This prevents reasoning from silently treating stale state as current state.
 
----
+______________________________________________________________________
 
 ## 18. Observed State Firewall
 
@@ -504,7 +511,7 @@ CURRENT_VERSION = v
 
 at decision or commit time.
 
----
+______________________________________________________________________
 
 ## 19. Stale State
 
@@ -520,7 +527,7 @@ A stale read may still be useful historically.
 
 It must not silently satisfy a current-state premise.
 
----
+______________________________________________________________________
 
 ## 20. MVCC Model
 
@@ -545,7 +552,7 @@ WRITE_VERSION
 COMMIT_VERSION
 ```
 
----
+______________________________________________________________________
 
 ## 21. MVCC Visibility
 
@@ -559,7 +566,7 @@ VISIBLE(reader, object, version)
 
 A newer object version must not silently contaminate reasoning intended for an older snapshot.
 
----
+______________________________________________________________________
 
 ## 22. CAS
 
@@ -585,7 +592,7 @@ EXPECTED_STATE != CURRENT_STATE
 NO BLIND COMMIT
 ```
 
----
+______________________________________________________________________
 
 ## 23. CAS and Authority
 
@@ -599,7 +606,7 @@ CAS_PASS != AUTHORIZATION
 
 A mutation can be concurrency-safe and still unauthorized.
 
----
+______________________________________________________________________
 
 ## 24. Atomic Transition
 
@@ -619,7 +626,7 @@ COMMIT(A ∧ B ∧ C)
 
 must not result in an authoritative partial state when atomicity is required.
 
----
+______________________________________________________________________
 
 ## 25. Multi-RSCF Atomicity
 
@@ -646,7 +653,7 @@ must hold before atomic promotion.
 
 This is an architectural reasoning requirement, not a claim that ChatGPT itself executes distributed atomic commits.
 
----
+______________________________________________________________________
 
 ## 26. Partial Commit Firewall
 
@@ -669,7 +676,7 @@ RETRY FROM VALID STATE
 
 according to the governing protocol.
 
----
+______________________________________________________________________
 
 ## 27. Commit
 
@@ -699,7 +706,7 @@ The semantic firewall remains:
 PROPOSAL != COMMIT
 ```
 
----
+______________________________________________________________________
 
 ## 28. Commit Preconditions
 
@@ -719,7 +726,7 @@ CONFLICT CHECK
 
 Requirements are scope-dependent.
 
----
+______________________________________________________________________
 
 ## 29. Finality
 
@@ -738,7 +745,7 @@ GLOBAL_POLICY_FINALITY
 
 These must not be treated as interchangeable.
 
----
+______________________________________________________________________
 
 ## 30. Causal Epoch Finality
 
@@ -760,7 +767,7 @@ FINAL(E)
 
 Finality must not be asserted while required causal predecessors remain unresolved.
 
----
+______________________________________________________________________
 
 ## 31. Hardened Shard-Local Finalization
 
@@ -782,7 +789,7 @@ LOCAL FINALIZATION MAY BE SUFFICIENT
 
 This is proof-based coordination avoidance.
 
----
+______________________________________________________________________
 
 ## 32. Coordination Avoidance
 
@@ -806,7 +813,7 @@ LOCAL FINALITY
 
 Independence must be demonstrated, not assumed.
 
----
+______________________________________________________________________
 
 ## 33. Escalation Conditions
 
@@ -824,7 +831,7 @@ UNKNOWN DEPENDENCY
 IRREVERSIBLE EFFECT
 ```
 
----
+______________________________________________________________________
 
 ## 34. State Epochs
 
@@ -852,7 +859,7 @@ CAUSAL_EPOCH != PROVENANCE_EPOCH
 
 unless an explicit mapping establishes equivalence for a specific operation.
 
----
+______________________________________________________________________
 
 ## 35. Policy Epoch
 
@@ -870,7 +877,7 @@ P18
 
 when the new policy affects that state.
 
----
+______________________________________________________________________
 
 ## 36. Provenance Epoch
 
@@ -886,7 +893,7 @@ PROVENANCE_EPOCH_18
 
 conclusions dependent on prior independence assumptions may require revalidation.
 
----
+______________________________________________________________________
 
 ## 37. Regime-Bound State
 
@@ -904,7 +911,7 @@ VALID(S, R1)
 
 after a material regime shift.
 
----
+______________________________________________________________________
 
 ## 38. State and Context
 
@@ -930,7 +937,7 @@ CONTEXT_STATE != SYSTEM_STATE
 
 A context may contain a reference or snapshot of system state.
 
----
+______________________________________________________________________
 
 ## 39. State and Events
 
@@ -956,7 +963,7 @@ EVENT != STATE
 
 An event log can help reconstruct state, but the two identities remain separate.
 
----
+______________________________________________________________________
 
 ## 40. Event-Sourced State
 
@@ -980,7 +987,7 @@ POLICY / REGIME ASSUMPTIONS
 DETERMINISM REQUIREMENTS
 ```
 
----
+______________________________________________________________________
 
 ## 41. Deterministic Replay
 
@@ -996,7 +1003,7 @@ should reproduce the expected state.
 
 If governing conditions differ, replay equivalence must not be assumed.
 
----
+______________________________________________________________________
 
 ## 42. State Provenance
 
@@ -1016,7 +1023,7 @@ with provenance edges retained.
 
 State without recoverable provenance may be unsuitable for authoritative use.
 
----
+______________________________________________________________________
 
 ## 43. Persistent Provenance
 
@@ -1033,7 +1040,7 @@ WHICH EPOCH GOVERNED IT?
 
 when those questions are load-bearing.
 
----
+______________________________________________________________________
 
 ## 44. State Dependency Closure
 
@@ -1047,7 +1054,7 @@ should be traversed only to the smallest closure capable of changing the result.
 
 This preserves the v4.4 fast-path principle.
 
----
+______________________________________________________________________
 
 ## 45. State Conflict
 
@@ -1072,7 +1079,7 @@ CONFLICTING
 
 until governance resolves the conflict.
 
----
+______________________________________________________________________
 
 ## 46. Competing States
 
@@ -1092,7 +1099,7 @@ COMPETING
 
 is preferable to false convergence.
 
----
+______________________________________________________________________
 
 ## 47. State Merge
 
@@ -1116,7 +1123,7 @@ UNION(A,B)
 
 because overlapping mutations may conflict.
 
----
+______________________________________________________________________
 
 ## 48. Merge Preconditions
 
@@ -1133,7 +1140,7 @@ DEPENDENCY COMPATIBILITY
 
 Unknown merge semantics must remain `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
 ## 49. State Fork
 
@@ -1149,7 +1156,7 @@ Branches must preserve their common ancestry.
 
 Branch count does not imply provenance independence.
 
----
+______________________________________________________________________
 
 ## 50. Rollback
 
@@ -1169,7 +1176,7 @@ Rollback must preserve evidence that the failed transition occurred.
 ROLLBACK != ERASE HISTORY
 ```
 
----
+______________________________________________________________________
 
 ## 51. Selective Rollback
 
@@ -1191,7 +1198,7 @@ not unrelated state.
 
 This applies to state transitions as well as knowledge dependencies.
 
----
+______________________________________________________________________
 
 ## 52. Compensation
 
@@ -1211,7 +1218,7 @@ Compensation is not identical to rollback.
 COMPENSATION != HISTORICAL ERASURE
 ```
 
----
+______________________________________________________________________
 
 ## 53. Recovery
 
@@ -1235,7 +1242,7 @@ REVALIDATE DEPENDENTS
 RESUME
 ```
 
----
+______________________________________________________________________
 
 ## 54. Recovery Invariant
 
@@ -1251,7 +1258,7 @@ UNCHANGED(CONDITIONS)
 DO NOT BLINDLY REPEAT
 ```
 
----
+______________________________________________________________________
 
 ## 55. State Quarantine
 
@@ -1267,7 +1274,7 @@ QUARANTINED
 
 This preserves forensic evidence while preventing unsafe propagation.
 
----
+______________________________________________________________________
 
 ## 56. State Invalidity
 
@@ -1288,7 +1295,7 @@ UNKNOWN LOAD-BEARING PREMISE
 
 Invalidity should be typed where possible.
 
----
+______________________________________________________________________
 
 ## 57. Unknown State
 
@@ -1306,7 +1313,7 @@ NO OBSERVED CONFLICT
 KNOWN VALID STATE
 ```
 
----
+______________________________________________________________________
 
 ## 58. State Confidence
 
@@ -1320,7 +1327,7 @@ C(conclusion)
 C(load-bearing state premise)
 ```
 
----
+______________________________________________________________________
 
 ## 59. State Sensitivity
 
@@ -1339,7 +1346,7 @@ COMMIT_VERSION
 
 Test these before expanding into non-decisive background.
 
----
+______________________________________________________________________
 
 ## 60. State Freshness
 
@@ -1354,7 +1361,7 @@ EPOCH_BOUND
 
 A state may be authentic and historically correct yet too stale for the current operation.
 
----
+______________________________________________________________________
 
 ## 61. State Consistency
 
@@ -1372,7 +1379,7 @@ CROSS-SHARD CONSISTENCY
 
 AMOS must not use the word `consistent` without knowing which property is intended when the distinction is load-bearing.
 
----
+______________________________________________________________________
 
 ## 62. Causal Consistency
 
@@ -1386,7 +1393,7 @@ A → B
 
 If `B` is visible under a causal-consistency contract, required `A` must also be visible.
 
----
+______________________________________________________________________
 
 ## 63. State Finalization Boundary
 
@@ -1406,7 +1413,7 @@ where required.
 
 A finality claim without scope is incomplete.
 
----
+______________________________________________________________________
 
 ## 64. Proof Capsule for State Commit
 
@@ -1433,7 +1440,7 @@ state_commit_proof:
   confidence_ceiling:
 ```
 
----
+______________________________________________________________________
 
 ## 65. Commit Invalidation
 
@@ -1450,7 +1457,7 @@ AUTHORITY REVOKED WHERE RETROACTIVELY RELEVANT
 
 Invalidation scope must remain dependency-aware.
 
----
+______________________________________________________________________
 
 ## 66. State and Authority
 
@@ -1470,7 +1477,7 @@ CAN_PROPOSE_STATE
 CAN_COMMIT_STATE
 ```
 
----
+______________________________________________________________________
 
 ## 67. State and Capability
 
@@ -1482,7 +1489,7 @@ CAPABILITY != AUTHORITY
 
 This firewall is mandatory.
 
----
+______________________________________________________________________
 
 ## 68. State and Tools
 
@@ -1496,7 +1503,7 @@ TOOL != PERMISSION
 
 External state changes should cross the appropriate control-plane boundary.
 
----
+______________________________________________________________________
 
 ## 69. State and Models
 
@@ -1518,7 +1525,7 @@ and:
 MODEL_OUTPUT != AUTHORITATIVE_STATE
 ```
 
----
+______________________________________________________________________
 
 ## 70. State and Memory
 
@@ -1532,7 +1539,7 @@ S
 
 Memory is not automatically authoritative.
 
----
+______________________________________________________________________
 
 ## 71. State and Knowledge
 
@@ -1546,7 +1553,7 @@ STATE ITSELF
 
 A claim may become stale even while its provenance remains intact.
 
----
+______________________________________________________________________
 
 ## 72. State and Observability
 
@@ -1567,7 +1574,7 @@ They are not automatically authoritative state.
 OBSERVABILITY != AUTHORITY
 ```
 
----
+______________________________________________________________________
 
 ## 73. State and Security
 
@@ -1584,7 +1591,7 @@ THREAT STATE
 
 Security-sensitive transitions require stricter validation where compromise could alter authority or provenance.
 
----
+______________________________________________________________________
 
 ## 74. State Serialization
 
@@ -1603,7 +1610,7 @@ where load-bearing.
 
 Deserialization must validate compatibility before authoritative use.
 
----
+______________________________________________________________________
 
 ## 75. Schema Evolution
 
@@ -1621,7 +1628,7 @@ SCHEMA V2
 
 Migration requires explicit transformation semantics.
 
----
+______________________________________________________________________
 
 ## 76. State Migration
 
@@ -1646,7 +1653,7 @@ ROLLBACK / RECOVERY INFORMATION
 
 unless the migration explicitly changes them.
 
----
+______________________________________________________________________
 
 ## 77. State Integrity
 
@@ -1666,7 +1673,7 @@ CAUSAL VALIDITY
 
 These are separate checks.
 
----
+______________________________________________________________________
 
 ## 78. Corruption
 
@@ -1680,7 +1687,7 @@ UNKNOWN/GAP
 
 must remain visible.
 
----
+______________________________________________________________________
 
 ## 79. State Reconciliation
 
@@ -1703,7 +1710,7 @@ PROVENANCE
 
 Do not resolve solely using wall-clock recency unless the governing protocol explicitly licenses it.
 
----
+______________________________________________________________________
 
 ## 80. Time Firewall
 
@@ -1715,7 +1722,7 @@ AUTHORITATIVE SUCCESSOR
 
 Clock ordering alone may not prove causal or governance ordering.
 
----
+______________________________________________________________________
 
 ## 81. State Ordering
 
@@ -1731,7 +1738,7 @@ POLICY-EPOCH ORDER
 
 These must not be silently treated as identical.
 
----
+______________________________________________________________________
 
 ## 82. State Machine View
 
@@ -1754,7 +1761,7 @@ This is a model abstraction.
 
 It does not imply every AMOS subsystem is implemented as one literal finite-state machine.
 
----
+______________________________________________________________________
 
 ## 83. State Transition Function
 
@@ -1780,7 +1787,7 @@ same expected result
 
 where determinism is part of the operator contract.
 
----
+______________________________________________________________________
 
 ## 84. Idempotence
 
@@ -1796,7 +1803,7 @@ Idempotence must be explicitly specified.
 
 It must not be assumed for arbitrary transitions.
 
----
+______________________________________________________________________
 
 ## 85. Duplicate Event Protection
 
@@ -1810,7 +1817,7 @@ should support deduplication when required.
 
 Processing the same logical event twice must not silently create duplicate authoritative effects if exactly-once logical semantics are required.
 
----
+______________________________________________________________________
 
 ## 86. Replay Protection
 
@@ -1826,7 +1833,7 @@ NEW EVENT
 
 Identity and state versioning work together here.
 
----
+______________________________________________________________________
 
 ## 87. State Locks
 
@@ -1842,7 +1849,7 @@ GLOBAL LOCKING
 
 AMOS v4.4 permits proof-based coordination avoidance where dependency closure supports it.
 
----
+______________________________________________________________________
 
 ## 88. State Partitioning
 
@@ -1859,7 +1866,7 @@ AUTHORITY SCOPE
 
 Partition boundaries must be explicit when they affect dependency closure or finality.
 
----
+______________________________________________________________________
 
 ## 89. Cross-Partition Mutation
 
@@ -1877,7 +1884,7 @@ does not imply:
 INDEPENDENT(A,B)
 ```
 
----
+______________________________________________________________________
 
 ## 90. State Fast Path
 
@@ -1896,7 +1903,7 @@ AUTHORITY LOCAL AND VALID
 
 Otherwise escalate.
 
----
+______________________________________________________________________
 
 ## 91. State Escalation
 
@@ -1917,7 +1924,7 @@ IRREVERSIBLE EFFECT
 UNKNOWN LOAD-BEARING STATE
 ```
 
----
+______________________________________________________________________
 
 ## 92. System-State Invariants
 
@@ -1998,7 +2005,7 @@ STATE-25
 STATE RECONCILIATION MUST PRESERVE PROVENANCE AND CONFLICT VISIBILITY
 ```
 
----
+______________________________________________________________________
 
 ## 93. Failure Modes
 
@@ -2032,7 +2039,7 @@ OBSERVATION_STATE_COLLAPSE
 UNKNOWN_AS_VALID
 ```
 
----
+______________________________________________________________________
 
 ## 94. Required Tests
 
@@ -2073,7 +2080,7 @@ AUTHORITY-FIREWALL TEST
 UNKNOWN-STATE TEST
 ```
 
----
+______________________________________________________________________
 
 ## 95. Negative Tests
 
@@ -2139,7 +2146,7 @@ UNKNOWN/GAP
 MUST FAIL
 ```
 
----
+______________________________________________________________________
 
 ## 96. Promotion Gate
 
@@ -2185,7 +2192,7 @@ FORMAL_VERIFICATION = UNKNOWN/GAP
 EMPIRICAL_VALIDATION = UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
 ## 97. Integrity Note
 
@@ -2228,7 +2235,7 @@ FORMAL_VERIFICATION = UNKNOWN/GAP
 RUNTIME_AUTHORITY = NONE
 ```
 
----
+______________________________________________________________________
 
 ## 98. RSCF Node
 
@@ -2278,7 +2285,7 @@ RSCF-RELATIONS:
   - RECOVERED_BY: README
 ```
 
----
+______________________________________________________________________
 
 ## 99. Canonical Summary
 
@@ -2456,12 +2463,14 @@ README
 ```text
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 **MOC:** [[02_KERNEL/04_STATE/04_STATE_MOC|04_STATE_MOC]]

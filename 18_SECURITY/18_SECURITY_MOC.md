@@ -1,32 +1,57 @@
 ---
-title: 18 Security MOC
+title: "18_SECURITY MOC — Security & Reality-Bound Authorization"
 type: moc
 source: 18_SECURITY
-tags:
-- 18-security
-- canon/security
-- amos-home
-moc: true
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
+status: ACTIVE_MOC
+epistemic_class: AMOS_MODEL
+conclusion_class: DERIVED
 rscf:
   state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  claim_class: AMOS_MODEL
+  provenance:
+    - 00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE
+    - 00_ROOT/00_ROOT_MOC
+  scope: 18_security_navigation
+tags:
+  - amos-os
+  - 18_security
+  - moc
+  - navigation
 ---
 
-# 18 Security — Map of Content
+# 18_SECURITY MOC — Security & Reality-Bound Authorization
 
-**Path:** `18_SECURITY`
-**Files:** 2 | **Subdirectories:** 1
-
-## Files
-
-- [[18_SECURITY/SECURITY_README|SECURITY_README]]
-- [[18_SECURITY/SECURITY_SECURITY_CONTRACT|SECURITY_SECURITY_CONTRACT]]
-
-## Subdirectories
-
-- [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]] — 00_INDEX
+**Origin Architect / Steward:** Trang Phan  
+**AMOS_CORE Target:** `v4.4`  
+**Epistemic Class:** `AMOS_MODEL`
 
 ---
-**Parent:** [[AMOS_HOME|AMOS_HOME]]
+
+## 1. System Security Specifications & Cryptographic Harnesses
+
+- [[18_SECURITY/POST_QUANTUM_LATTICE_CRYPTO_VERIFICATION_HARNESS|POST_QUANTUM_LATTICE_CRYPTO_VERIFICATION_HARNESS]] — NIST FIPS 203 (ML-KEM-768/1024) and FIPS 204 (ML-DSA) post-quantum lattice cryptography verification, NTT polynomial ring arithmetic in $\mathbb{Z}_{3329}[X]/(X^{256} + 1)$, and side-channel constant-time guarantees.
+- [[18_SECURITY/PQC_LATTICE_VERIFICATION_LEDGER|PQC_LATTICE_VERIFICATION_LEDGER]] — 100% successful encapsulation/decapsulation verification ledger with cryptographic proof receipts.
+- [[18_SECURITY/SECURITY_README|SECURITY_README]] — Cryptographic primitives, post-quantum signing, zero-knowledge proofs, and access control.
+- [[18_SECURITY/SECURITY_SECURITY_CONTRACT|SECURITY_SECURITY_CONTRACT]] — Invariants: FIPS 203/204 compliance, zero-trust delegation, tamper-evident audit trails.
+- [[18_SECURITY/00_INDEX/SECURITY_MAP|SECURITY_MAP]] — Security component navigation map
+
+---
+
+## 2. Invariants
+
+```text
+CAPABILITY != AUTHORITY
+OBSERVED != CURRENT
+PROPOSAL != COMMIT
+UNKNOWN/GAP != PASS
+```
+
+---
+
+## 3. Parent Navigation
+
+- [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] — Master Navigation Hub
+- [[00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE|FULL_BRAIN_OS_MECE_ARCHITECTURE]] — Full OS Partition Architecture

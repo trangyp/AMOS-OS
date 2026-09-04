@@ -2,16 +2,16 @@
 type: workflow
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION
 tags:
-- amos
-- cognitive-matrix
-- matrix/l01
-- sensing-observation
-- workflows
-- rscf
-- provenance
-- hml
-- control-plane
-- domain/cognitive-matrix
+  - amos
+  - cognitive-matrix
+  - matrix/l01
+  - sensing-observation
+  - workflows
+  - rscf
+  - provenance
+  - hml
+  - control-plane
+  - domain/cognitive-matrix
 title: L01_SENSING_OBSERVATION — Workflows
 origin_architect: Trang Phan
 status: MODEL_SPECIFICATION / UNVALIDATED
@@ -36,9 +36,9 @@ rscf:
 >
 > Therefore the workflow architecture below is a bounded AMOS reconstruction, not recovered verbatim L01 canon.
 
----
+______________________________________________________________________
 
-# 0. Executive Definition
+## 0. Executive Definition
 
 `L01_SENSING_OBSERVATION/WORKFLOWS.md` defines the governed transition paths by which candidate environmental or informational inputs become typed AMOS observations.
 
@@ -72,25 +72,25 @@ DOWNSTREAM COGNITION
 
 The governing distinction is:
 
-[
-\boxed{
+\[
+\\boxed{
 Input
-\neq
+\\neq
 Observation
-\neq
+\\neq
 Interpretation
-\neq
+\\neq
 Claim
-\neq
+\\neq
 Decision
 }
-]
+\]
 
 No workflow step may silently collapse those classes.
 
----
+______________________________________________________________________
 
-# 1. Source / Canon References
+## 1. Source / Canon References
 
 ## 1.1 Direct Recoverable Source
 
@@ -184,25 +184,23 @@ WORKFLOW DEFINED
 WORKFLOW IMPLEMENTED
 ```
 
----
+______________________________________________________________________
 
-# 2. Definition and Scope
+## 2. Definition and Scope
 
 An L01 workflow is a typed, provenance-preserving transition sequence operating on sensing/observation state.
 
 Candidate formal representation:
 
-[
-W_{L01}
-=======
+## \[ W\_{L01}
 
-(S_0,\ O_1,\ S_1,\ldots,O_n,\ S_n)
-]
+(S_0,\\ O_1,\\ S_1,\\ldots,O_n,\\ S_n)
+\]
 
 where:
 
-- \(S_i\) = typed workflow state,
-- \(O_i\) = permitted operator,
+- (S_i) = typed workflow state,
+- (O_i) = permitted operator,
 - each transition is constrained by invariants,
 - provenance is preserved across transitions,
 - downstream admission requires validation.
@@ -221,9 +219,9 @@ action authority
 commit authority
 ```
 
----
+______________________________________________________________________
 
-# 3. Typed Inputs
+## 3. Typed Inputs
 
 ```yaml
 L01WorkflowInput:
@@ -267,9 +265,9 @@ L01WorkflowInput:
 
 Missing values remain explicitly unknown unless an authorized operator can derive them from evidence.
 
----
+______________________________________________________________________
 
-# 4. Typed Outputs
+## 4. Typed Outputs
 
 ```yaml
 L01WorkflowOutput:
@@ -316,9 +314,9 @@ L01WorkflowOutput:
     type: ValidationBundle
 ```
 
----
+______________________________________________________________________
 
-# 5. Workflow State Variables
+## 5. Workflow State Variables
 
 Candidate workflow state:
 
@@ -380,9 +378,9 @@ WorkflowState:
     type: EpochId | UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 6. Workflow Phases
+## 6. Workflow Phases
 
 Candidate state machine:
 
@@ -424,9 +422,9 @@ UNKNOWN
 
 No transition should be inferred merely because a later state is desired.
 
----
+______________________________________________________________________
 
-# 7. Operators
+## 7. Operators
 
 Candidate workflow operators:
 
@@ -461,9 +459,9 @@ ARCHIVE
 
 Operators are capabilities, not authority grants.
 
----
+______________________________________________________________________
 
-# 8. Core Workflow Invariants
+## 8. Core Workflow Invariants
 
 ```text
 L01-WF-INV-001
@@ -529,9 +527,9 @@ Repair preserves failure lineage.
 
 These align with the source placeholder's explicit requirement that governance, provenance, testing, failure handling, freshness, regime validity, and supersession be established before promotion.
 
----
+______________________________________________________________________
 
-# 9. Dependencies
+## 9. Dependencies
 
 ```text
 L00_REALITY_ENVIRONMENT
@@ -559,9 +557,9 @@ L01_GAP_MATRIX
 
 The Drive placeholder itself identifies dependencies/provenance and interfaces as required completion surfaces.
 
----
+______________________________________________________________________
 
-# 10. H/M/L Applicability
+## 10. H/M/L Applicability
 
 ## L — Local Observation Workflow
 
@@ -618,21 +616,21 @@ system-level admission
 
 Rule:
 
-[
-L \rightarrow M \rightarrow H
-]
+\[
+L \\rightarrow M \\rightarrow H
+\]
 
 requires explicit translation and dependency closure.
 
-[
-\boxed{
-Observation_L \not\Rightarrow State_H
+\[
+\\boxed{
+Observation_L \\not\\Rightarrow State_H
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 11. Control-Plane Requirements
+## 11. Control-Plane Requirements
 
 The control plane should own or enforce, where applicable:
 
@@ -675,9 +673,9 @@ WORKER PROPOSAL
 CONTROL-PLANE COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 12. Agents
+## 12. Agents
 
 Candidate logical roles:
 
@@ -704,9 +702,9 @@ AGENT DEFINED
 AGENT IMPLEMENTED
 ```
 
----
+______________________________________________________________________
 
-# 13. Skills
+## 13. Skills
 
 Candidate skill dependencies:
 
@@ -727,9 +725,9 @@ repair/recovery
 
 Skill availability does not grant workflow authority.
 
----
+______________________________________________________________________
 
-# 14. Primary Observation Workflow
+## 14. Primary Observation Workflow
 
 ```text
 START
@@ -786,9 +784,9 @@ ADMISSION GATE
 EMIT TYPED OBSERVATION RECORD
 ```
 
----
+______________________________________________________________________
 
-# 15. Raw Acquisition Workflow
+## 15. Raw Acquisition Workflow
 
 ```text
 SOURCE EVENT
@@ -814,9 +812,9 @@ ACQUIRED
 VALIDATED
 ```
 
----
+______________________________________________________________________
 
-# 16. Normalization Workflow
+## 16. Normalization Workflow
 
 ```text
 OBSERVATION CANDIDATE
@@ -838,17 +836,17 @@ VALIDATE TRANSFORMATION
 
 Required relationship:
 
-[
+\[
 P(normalized)
-\supseteq
+\\supseteq
 P(raw)
-]
+\]
 
-where \(P\) denotes recoverable provenance.
+where (P) denotes recoverable provenance.
 
----
+______________________________________________________________________
 
-# 17. Provenance Workflow
+## 17. Provenance Workflow
 
 ```text
 OBSERVATION
@@ -878,9 +876,9 @@ MULTIPLE DESCENDANTS
 MULTIPLE INDEPENDENT SOURCES
 ```
 
----
+______________________________________________________________________
 
-# 18. Validation Workflow
+## 18. Validation Workflow
 
 ```text
 OBSERVATION RECORD
@@ -927,9 +925,9 @@ validation_result:
 
 `UNKNOWN/GAP` is never coerced to `PASS`.
 
----
+______________________________________________________________________
 
-# 19. Admission Workflow
+## 19. Admission Workflow
 
 ```text
 VALIDATION RESULT
@@ -973,9 +971,9 @@ ACTIONABLE
 AUTHORIZED FOR COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 20. Conflict Workflow
+## 20. Conflict Workflow
 
 ```text
 CONFLICT DETECTED
@@ -1005,9 +1003,9 @@ RESOLVE / COMPETING / UNKNOWN
 
 No forced convergence.
 
----
+______________________________________________________________________
 
-# 21. Memory Re-entry Workflow
+## 21. Memory Re-entry Workflow
 
 A retrieved memory must not be relabeled as a current observation.
 
@@ -1033,15 +1031,15 @@ USE / CONDITIONAL / QUARANTINE
 
 Invariant:
 
-[
-t_{retrieval}
-\neq
-t_{observation}
-]
+\[
+t\_{retrieval}
+\\neq
+t\_{observation}
+\]
 
----
+______________________________________________________________________
 
-# 22. H/M/L Aggregation Workflow
+## 22. H/M/L Aggregation Workflow
 
 ```text
 L OBSERVATIONS
@@ -1077,9 +1075,9 @@ M STATES
 
 No automatic scale promotion.
 
----
+______________________________________________________________________
 
-# 23. Invalidation Workflow
+## 23. Invalidation Workflow
 
 ```text
 PREMISE / SOURCE INVALIDATED
@@ -1111,9 +1109,9 @@ and:
 global unnecessary recomputation
 ```
 
----
+______________________________________________________________________
 
-# 24. Repair Workflow
+## 24. Repair Workflow
 
 ```text
 FAILURE DETECTED
@@ -1153,9 +1151,9 @@ NO CHANGED EVIDENCE
 DO NOT REPEAT
 ```
 
----
+______________________________________________________________________
 
-# 25. Revocation Workflow
+## 25. Revocation Workflow
 
 ```text
 SOURCE / AUTHORITY / EVIDENCE REVOKED
@@ -1175,9 +1173,9 @@ REVALIDATE ALTERNATE SUPPORT
 PRESERVE REVOCATION HISTORY
 ```
 
----
+______________________________________________________________________
 
-# 26. Supersession Workflow
+## 26. Supersession Workflow
 
 ```text
 NEW OBSERVATION / VERSION
@@ -1204,9 +1202,10 @@ SUPERSEDED
 !=
 DELETED
 ```
----
 
-# 27. Protocols
+______________________________________________________________________
+
+## 27. Protocols
 
 Candidate protocol objects:
 
@@ -1235,9 +1234,9 @@ RepairProposal
 RepairResult
 ```
 
----
+______________________________________________________________________
 
-# 28. Evidence / Provenance Requirements
+## 28. Evidence / Provenance Requirements
 
 Every material workflow transition should make recoverable:
 
@@ -1279,17 +1278,17 @@ TransitionRecord:
   validation: ValidationResult
 ```
 
----
+______________________________________________________________________
 
-# 29. Uncertainty and Confidence Ceiling
+## 29. Uncertainty and Confidence Ceiling
 
 Workflow completion does not eliminate epistemic uncertainty.
 
 Candidate uncertainty vector:
 
-[
+\[
 U_W =
-[
+\[
 U_e,
 U_m,
 U_s,
@@ -1298,8 +1297,8 @@ U_c,
 U_x,
 U_p,
 U_i
-]
-]
+\]
+\]
 
 where:
 
@@ -1316,19 +1315,19 @@ Ui = independence uncertainty
 
 Confidence rule:
 
-[
-\boxed{
-C_{workflow-output}
-\le
-\min_{i\in LB} C_i
+\[
+\\boxed{
+C\_{workflow-output}
+\\le
+\\min\_{i\\in LB} C_i
 }
-]
+\]
 
 unless an independent revalidation path licenses a stronger ceiling.
 
----
+______________________________________________________________________
 
-# 30. Failure Modes
+## 30. Failure Modes
 
 ```text
 FM-L01-WF-001  Source-Unbound
@@ -1363,9 +1362,9 @@ FM-L01-WF-029  Stale-State-Reuse
 FM-L01-WF-030  Cross-Scale-Overreach
 ```
 
----
+______________________________________________________________________
 
-# 31. Repair / Recovery Requirements
+## 31. Repair / Recovery Requirements
 
 Recovery must:
 
@@ -1392,9 +1391,9 @@ not:
 PROOF OF UNIVERSAL CORRECTNESS
 ```
 
----
+______________________________________________________________________
 
-# 32. Tests / Validators
+## 32. Tests / Validators
 
 Candidate validator suite:
 
@@ -1485,9 +1484,9 @@ Retry after failure requires changed evidence, state, or operator.
 
 These tests remain proposed and unexecuted. The recovered source itself requires tests/falsifiers before promotion.
 
----
+______________________________________________________________________
 
-# 33. Falsifiers
+## 33. Falsifiers
 
 This specification must be revised if:
 
@@ -1509,9 +1508,9 @@ an executable L01 implementation demonstrates incompatible transitions
 formal validation identifies inconsistent workflow invariants
 ```
 
----
+______________________________________________________________________
 
-# 34. Gap Matrix
+## 34. Gap Matrix
 
 ```yaml
 gap_matrix:
@@ -1597,9 +1596,9 @@ gap_matrix:
     status: MODEL_COMPLETE_UNEXECUTED
 ```
 
----
+______________________________________________________________________
 
-# 35. Gap Resolution Priority
+## 35. Gap Resolution Priority
 
 ```text
 1. Recover direct L01 WORKFLOWS canon if it exists.
@@ -1643,9 +1642,9 @@ gap_matrix:
 20. Promote only from executed evidence.
 ```
 
----
+______________________________________________________________________
 
-# 36. RSCF Completion State
+## 36. RSCF Completion State
 
 ```yaml
 rscf:
@@ -1753,9 +1752,9 @@ rscf:
     empirical validation absent
 ```
 
----
+______________________________________________________________________
 
-# 37. Completion State
+## 37. Completion State
 
 ```yaml
 completion_state:
@@ -1836,9 +1835,9 @@ completion_state:
     MODEL / CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
-# 38. Workflow Contract Summary
+## 38. Workflow Contract Summary
 
 ```text
 L01 WORKFLOW
@@ -1876,9 +1875,9 @@ The governing principle is:
 
 > **L01 must transform candidate inputs into bounded observation state without allowing acquisition, normalization, aggregation, memory retrieval, model generation, or workflow completion to masquerade as truth, causation, authority, or committed action.**
 
----
+______________________________________________________________________
 
-# 39. Hard Boundaries
+## 39. Hard Boundaries
 
 ```text
 PLACEHOLDER != IMPLEMENTED
@@ -1934,9 +1933,9 @@ DEFINED != IMPLEMENTED
 IMPLEMENTED != VALIDATED
 ```
 
----
+______________________________________________________________________
 
-# 40. References
+## 40. References
 
 ## Direct Recovered Reference
 
@@ -1988,30 +1987,33 @@ AMOS Multimodal Perception Layer
 
 > Reference presence establishes architectural lineage or intended dependency only. It does not prove that the reconstructed workflow above exists verbatim in canon.
 
----
+______________________________________________________________________
 
 **Related:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]]
 
 ```text
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: l01_sensing_observation_primitives_cognitive_matrix_workflows
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_WORKFLOWS.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_MOC|L01_SENSING_OBSERVATION_MOC]]
-

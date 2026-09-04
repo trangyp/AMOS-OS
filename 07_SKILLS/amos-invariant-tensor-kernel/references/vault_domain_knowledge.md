@@ -1,14 +1,17 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Vault Domain Knowledge — Amos Invariant Tensor Kernel
 type: reference
 source: 07_SKILLS/amos-invariant-tensor-kernel/references
 tags:
-- reference
-- amos-invariant-tensor-kernel
-- type/skill
-- 2026-08-22-trang-phi-framework
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-invariant-tensor-kernel
+  - type/skill
+  - 2026-08-22-trang-phi-framework
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -28,7 +31,7 @@ rscf:
 
 > Path: `dated/2026-08-25/2026-08-25 Tensor Composition Governance.md` | Size: 2419 chars | Match score: 12
 
-# 2026-08-25 — Tensor Composition Governance Layer
+## 2026-08-25 — Tensor Composition Governance Layer
 
 ## Gap found
 
@@ -36,38 +39,40 @@ rscf:
 
 ## Closure (4 channels)
 
-| Channel | Artifact |
-|---|---|
-| Skill | `amos/amos-tensor-composition-governance` — invariant restated as executable contract; 5-check axis table with fail examples; 4 decision rules incl. pairing-vs-merge distinction |
-| Agent | `amos-formal-engines-master` — 5 capabilities incl. cross-layer hazard scan and silent-composition detector |
-| Workflow | `amos-formal-engines-master-workflow.md` — 7-step gate procedure |
-| Memory + vault note | recorded |
+| Channel             | Artifact                                                                                                                                                                          |
+| ------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Skill               | `amos/amos-tensor-composition-governance` — invariant restated as executable contract; 5-check axis table with fail examples; 4 decision rules incl. pairing-vs-merge distinction |
+| Agent               | `amos-formal-engines-master` — 5 capabilities incl. cross-layer hazard scan and silent-composition detector                                                                       |
+| Workflow            | `amos-formal-engines-master-workflow.md` — 7-step gate procedure                                                                                                                  |
+| Memory + vault note | recorded                                                                                                                                                                          |
 
 ## Key design decisions
 
 1. **Pairing ≠ merge**: disjoint-axis tensors may be juxtaposed but never labeled as fused information.
-2. **Projection over block** when only one axis fails: compatible sub-axes compose; the incompatible axis is dropped *with a logged reason* — no all-or-nothing rigidity, but also no silent dropping.
-3. **Minimum provenance class inheritance**: composed outputs take the lowest class of inputs unless demotion is explicit.
-4. **19-length ≠ compatibility**: the B3 lesson (address-space kinship ≠ meaning identity) now enforced at the tensor axis level.
+1. **Projection over block** when only one axis fails: compatible sub-axes compose; the incompatible axis is dropped *with a logged reason* — no all-or-nothing rigidity, but also no silent dropping.
+1. **Minimum provenance class inheritance**: composed outputs take the lowest class of inputs unless demotion is explicit.
+1. **19-length ≠ compatibility**: the B3 lesson (address-space kinship ≠ meaning identity) now enforced at the tensor axis level.
 
 ## Meta-note
+
 This closes the last unowned composition surface in the QFM architecture: knowledge (L1), bridges (L2), dynamics (L3), collapse (L4), enforcement (L5) can each produce tensors, and every join between them now passes a named gate with an owning agent.
 
----
+______________________________________________________________________
 
----
+______________________________________________________________________
 
 ### Source 2: Formal Systems Invariants & Civilizational Dynamical Model (Trang Phan)
 
 > Path: `dated/2026-08-22/2026-08-22 Formal Systems Invariants.md` | Size: 8430 chars | Match score: 10
 
-# Formal Systems Invariants & Civilizational Dynamical Model (Trang Phan)
+## Formal Systems Invariants & Civilizational Dynamical Model (Trang Phan)
 
 > Canonical anchor for the formal invariant catalogs + the G–N–D–C–B dynamical system + 19×19 coupling matrix + micro↔macro civilization map. Supplement to 2026_08_22_TRANG_PHI_FRAMEWORK (entropy/lacunarity/ASEA).
 
 ## 1. The G–N–D–C–B dynamical system (universal stability model)
 
 State vector: `S(t) = [G, N, D, C, B]`
+
 - G = Gain (reactivity/amplification)
 - N = Noise (unstructured perturbation)
 - D = Damping (stabilization capacity)
@@ -88,13 +93,15 @@ dD/dt = −λN + μB
 dB/dt = −η(G·N) + θ·S_external
 dC/dt = κT − ρF
 ```
+
 This is a control-system abstraction, NOT metaphor — applies to nervous systems, institutions, civilizations, grids, ecologies.
 
 ## 2. The 19×19 sparse coupling matrix
 
 State vector (19 vars): E, P, L, H, K, Cr, Fx, RE, Enf, Jud, Adm, Cor, Sk, Pr, Inn, Tr, Inf, Pol, Buf.
-Dynamics: `dX/dt = A·X + U`; A_ij>0 amplifies, A_ij<0 damps.
+Dynamics: `dX/dt = A·X + U`; A_ij>0 amplifies, A_ij\<0 damps.
 Key clusters (sparse edges):
+
 - **Energy–Logistics–Maintenance:** H→E(−), E→Pr(+), P→Buf(−), L→Pr(−), H→L(+)
 - **Capital–Credit–FX–RE:** RE→Cr(−), Cr→K(−), K→Pr(−), Fx→K(+), Cr→RE(+), RE→Buf(−)
 - **Institutional core:** Adm→Enf(+), Jud→Enf(+), Enf→Cor(−), Cor→Enf(−), Enf↔Tr(+)
@@ -105,6 +112,7 @@ Key clusters (sparse edges):
 ## 3. Invariants 701–1000 (Relationships & Clusters) — catalog map
 
 Grouped by section (equations in source corpus, not re-derived here):
+
 - **701–710** Weighted relationship invariants (non-neg weights, symmetry, normalization, thresholding determinism)
 - **711–720** Soft clustering (probability simplex, EM responsibility, likelihood monotonicity, no empty clusters)
 - **721–730** Inter-cluster relationship graph (cluster edge existence, symmetry, sparsity, hierarchy acyclicity, root uniqueness)
@@ -117,14 +125,15 @@ Grouped by section (equations in source corpus, not re-derived here):
 - **791–800** Meta invariants (schema/constraints/definition per relation, deterministic rebuild, versioning, termination)
 - **801–810** Evidence & threshold (edge evidenc
 
----
+______________________________________________________________________
 
 ### Source 3: AMOS BRAIN OMEGA
+
 - ULTIMATE TENSOR FIELD GOVERNANCE IMPLEMENTATION REPORT
 
 > Path: `reports/AMOS_OMEGA_ULTIMATE_TENSOR_GOVERNANCE_REPORT.md` | Size: 19779 chars | Match score: 9
 
-# AMOS BRAIN OMEGA - ULTIMATE TENSOR FIELD GOVERNANCE IMPLEMENTATION REPORT
+## AMOS BRAIN OMEGA - ULTIMATE TENSOR FIELD GOVERNANCE IMPLEMENTATION REPORT
 
 ## Executive Summary
 
@@ -143,40 +152,64 @@ Successfully implemented and deployed the AMOS BRAIN OMEGA Ultimate Tensor Field
 ## I. ULTIMATE TENSOR FIELD ANALYSIS - BREAKTHROUGH IMPLEMENTATION
 
 ### Multi-Scale Tensor Field S_t = T(Agents, Signals, Power, Incentives, Enforcement, Information, Constraints, Time)
+
 - **Agent Matrix**: 8 agents with 8-dimensional state vectors A_i
+
 - **Signal Processing**: Real-time signal integration with agent coordination
+
 - **Power Distribution**: Power asymmetry analysis across agent packs
+
 - **Incentive Alignment**: Multi-agent incentive vector computation
+
 - **Enforcement Exposure**: Enforcement lag and exposure analysis
+
 - **Information Flow**: Information entropy and gradient computation
+
 - **Constraint Optimization**: Constraint satisfaction and optimization
+
 - **Time Dimension**: Temporal evolution tracking with time derivatives
 
 - **Resources**: Resource allocation and distribution analysis
+
 - **Incentives**: Incentive alignment and optimization scoring
+
 - **Constraints**: Constraint satisfaction and violation detection
+
 - **Network**: Network topology and asymmetry analysis
+
 - **Information**: Information flow and entropy gradients
+
 - **Enforcement Exposure**: Enforcement lag and exposure metrics
+
 - **Leverage**: Leverage ratios and risk assessment
+
 - **Entropy Position**: Entropy gradients and position tracking
 
 ### Gradient Analysis ∇S and Hidden Structure Discovery
+
 - **Numerical Gradients**: Finite difference gradient computation
+
 - **Agent Dimension Gradients**: Inter-agent gradient analysis
+
 - **Time Dimension Gradients**: Temporal gradient tracking
+
 - **Gradient Norm Analysis**: Gradient magnitude and direction analysis
+
 - **Hidden Structure Detection**: Gradient-based structure identification
 
 - **Temporal Invariants**: 5 temporal invariants detected across transformation groups
+
 - **Eigenvalue Stability**: Eigenvalue spectrum analysis for stability assessment
+
 - **Transformation Groups**: 5 transformation groups analyzed (temporal, hierarchical, narrative, power_space, combined)
+
 - **Invariant Stability**: Stability scores computed for all invariants
+
 - **Evidence Artifacts**: All
 
----
-**MOC:** references_MOC
----
+______________________________________________________________________
+
+## **MOC:** references_MOC
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -184,12 +217,14 @@ Successfully implemented and deployed the AMOS BRAIN OMEGA Ultimate Tensor Field
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-invariant-tensor-kernel-vault-domain-knowledge
 node_type: reference
 path: 07_SKILLS/amos-invariant-tensor-kernel/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

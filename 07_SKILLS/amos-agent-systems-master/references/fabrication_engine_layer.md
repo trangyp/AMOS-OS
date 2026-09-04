@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: fabrication engine layer
 type: reference
 source: 07_SKILLS/amos-agent-systems-master/references
 tags:
-- reference
-- amos-agent-systems-master
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-agent-systems-master
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -20,14 +23,11 @@ rscf:
 > Source: `_00_Cosmo brain/engine/A/amos-fabrication-engine.md`
 > Epistemic class: SOURCE_DERIVED
 
----
-type: doc
-title: AMOS Fabrication Engine — Factories, Forges, and Foundries
-created: 2026-08-22
-tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-fabrication-engine, engine]
----
+______________________________________________________________________
 
-# AMOS Fabrication Engine Layer — part 2
+## type: doc title: AMOS Fabrication Engine — Factories, Forges, and Foundries created: 2026-08-22 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-fabrication-engine, engine]
+
+## AMOS Fabrication Engine Layer — part 2
 
 The AMOS Fabrication Engine (AMOS_SUPER_FABRICATION) is a full-stack fabrication layer that manages how agents, operating systems, institutions, and simulations are designed, transformed, and cast into stable architectures. It is composed of three structural tiers: **Factories** (design and assembly), **Forges** (transformation and optimisation), and **Foundries** (heavy system construction). This layer coordinates all agent and system fabrication under the AMOS canon, with hard IP and safety boundaries.
 
@@ -54,6 +54,7 @@ Intent capture -> Canon alignment -> Design/assembly
 **Role**: Blueprint generation, schema design, modular assembly, PACK selection.
 
 **Typical Units**:
+
 - Agent factories
 - OS factories
 - Training factories
@@ -66,6 +67,7 @@ Intent capture -> Canon alignment -> Design/assembly
 **Role**: Refinement, optimisation, compression/expansion, domain specialisation.
 
 **Typical Units**:
+
 - Logic forges
 - Sector forges
 - Language forges
@@ -78,6 +80,7 @@ Intent capture -> Canon alignment -> Design/assembly
 **Role**: Heavy casting of full institutional systems, multi-agent ecosystems, and long-horizon operating models.
 
 **Typical Units**:
+
 - Institutional foundries
 - National foundries
 - Ecosystem foundries
@@ -107,14 +110,14 @@ The top-level factory engine coordinates agent design (Assembly Agent Engine), e
 ### Agent Lifecycle Model
 
 1. Intent capture
-2. Draft agent design
-3. MECE audit and gap check
-4. Operator and sector integration
-5. Safety and boundary hardening
-6. Evaluation plan attachment
-7. Deployment in sandbox or UI shell
-8. Feedback collection
-9. Upgrade and refinement
+1. Draft agent design
+1. MECE audit and gap check
+1. Operator and sector integration
+1. Safety and boundary hardening
+1. Evaluation plan attachment
+1. Deployment in sandbox or UI shell
+1. Feedback collection
+1. Upgrade and refinement
 
 ## Assembly Agent Engine (v2.0.0)
 
@@ -140,12 +143,14 @@ platform_safety > ip_protection > creator_intent > structural_integrity > user_r
 ## Safety and Boundaries
 
 **Hard limits**:
+
 - No assistance with illegal or harmful activities
 - No support for psychological, political, or economic manipulation
 - No circumvention of institutional, organisational or legal safeguards
 - No generation of real-world operational instructions for weapons or equivalent high-risk systems
 
 **Soft limits**:
+
 - For high-risk domains (finance, medicine, law), stay at educational, conceptual or policy levels
 - For emotionally charged topics, remain neutral, structured and non-exploitative
 
@@ -166,9 +171,9 @@ platform_safety > ip_protection > creator_intent > structural_integrity > user_r
 - `_00_Cosmo brain/kernel/A/AMOS_SUPER_FABRICATION_Kernel.md` — Full fabrication kernel with 3-tier model
 - `_00_Cosmo brain/kernel/A/Agent_Fabrication_Full_Kernel.md` — Agent fabrication full kernel
 
----
-**MOC:** references_MOC
----
+______________________________________________________________________
+
+## **MOC:** references_MOC
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -176,12 +181,14 @@ platform_safety > ip_protection > creator_intent > structural_integrity > user_r
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-agent-systems-master-fabrication-engine-layer
 node_type: reference
 path: 07_SKILLS/amos-agent-systems-master/references/fabrication_engine_layer.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

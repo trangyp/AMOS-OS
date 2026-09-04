@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: generative family validation
 type: reference
 source: 07_SKILLS/amos-fractal-systems-master/references
 tags:
-- reference
-- amos-fractal-systems-master
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-fractal-systems-master
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -20,15 +23,11 @@ rscf:
 > Source: `_00_Cosmo brain/dated/2026-08-25/2026-08-25 Generative-Family Validation Layer.md`
 > Epistemic class: SOURCE_DERIVED
 
----
-title: 2026-08-25 Generative-Family Validation Layer
-type: daily-learning
-date: 2026-08-25
-epistemic: SOURCE/DERIVED
-tags: [math, fractal, ifs, lsystem, tiling, dated, dated/2026-08-25]
----
+______________________________________________________________________
 
-# 2026-08-25 — Generative-Family Validation (FR004 · FR010 · FR022 Deep)
+## title: 2026-08-25 Generative-Family Validation Layer type: daily-learning date: 2026-08-25 epistemic: SOURCE/DERIVED tags: [math, fractal, ifs, lsystem, tiling, dated, dated/2026-08-25]
+
+## 2026-08-25 — Generative-Family Validation (FR004 · FR010 · FR022 Deep)
 
 ## Gap found
 
@@ -36,16 +35,16 @@ The audit family had covered the *statistical* families (power law, chaos, multi
 
 ## Closure (4 channels)
 
-| Channel | Artifact |
-|---|---|
-| Skill | `amos/amos-generative-family-validation` — three contracts (IFS/collage, L-system/trace, tiling/Perron) with guard set |
-| Agent | `.devin/agents/amos-generative-construction-verifier-agent.json` — 6 capabilities incl. spectral-radius verification and aperiodicity proof gate |
-| Workflow | `generative-family-verification-pipeline-workflow.md` — 7-step constructive pipeline |
-| Memory + vault note | recorded |
+| Channel             | Artifact                                                                                                                                         |
+| ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Skill               | `amos/amos-generative-family-validation` — three contracts (IFS/collage, L-system/trace, tiling/Perron) with guard set                           |
+| Agent               | `.devin/agents/amos-generative-construction-verifier-agent.json` — 6 capabilities incl. spectral-radius verification and aperiodicity proof gate |
+| Workflow            | `generative-family-verification-pipeline-workflow.md` — 7-step constructive pipeline                                                             |
+| Memory + vault note | recorded                                                                                                                                         |
 
 ## The three contracts
 
-- **FR004 IFS**: every map contraction (ρ(Aᵢ)<1) · collage coverage within ε · convergence observed · probabilities normalized. Non-convergent iteration exposes hidden non-contractions automatically.
+- **FR004 IFS**: every map contraction (ρ(Aᵢ)\<1) · collage coverage within ε · convergence observed · probabilities normalized. Non-convergent iteration exposes hidden non-contractions automatically.
 - **FR010 L-system**: explicit production-rule trace from alphabet/axiom/rules; turtle mapping declared; generation-n geometry matched to the traced word.
 - **FR022 tiling**: inflation λ consistent in edges (λ) and areas (λ²); substitution matrix Perron eigenvalue = λ²; **aperiodicity requires cited proof family** — visual non-repetition blocked as evidence.
 
@@ -55,12 +54,13 @@ This completes the fractal-family audit surface: all three claim classes now hav
 
 ## Audit-family tally: 13 layers
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · AMOS Simulation Kernel v0 Math Foundations · system scan agent · automation profiles
 
----
-**MOC:** references_MOC
----
+______________________________________________________________________
+
+## **MOC:** references_MOC
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -68,12 +68,14 @@ This completes the fractal-family audit surface: all three claim classes now hav
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-fractal-systems-master-generative-family-validation
 node_type: reference
 path: 07_SKILLS/amos-fractal-systems-master/references/generative_family_validation.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

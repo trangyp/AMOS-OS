@@ -1,17 +1,20 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: AMOS FABRICATION ENGINE V0
 tags:
-- canon-group/tech-ai
-- canon/framework
-- rscf/claim
-- rscf/provenance
-- rscf/state/source-claim
-- topic/amos-fabrication-engine-v0
-- engine
-- system-scan-agent
-- automation-profiles
-- amos-simulation-kernel-v0-math-foundations
-- trang-framework-recursive-ontology-dynamics
+  - canon-group/tech-ai
+  - canon/framework
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - topic/amos-fabrication-engine-v0
+  - engine
+  - system-scan-agent
+  - automation-profiles
+  - amos-simulation-kernel-v0-math-foundations
+  - trang-framework-recursive-ontology-dynamics
 type: document
 source: 11_KNOWLEDGE/engine
 rscf:
@@ -23,13 +26,14 @@ rscf:
 
 # AMOS Fabrication Engine v0
 
-> [!info] Populated Stub
+> [!INFO] Populated Stub
 > Source: `amos-general/A/Meta/AMOS_Meta_Cognition_Self_Improvement.md` (L157: AMOS_SUPER_FABRICATION) and `misc/PO/Portfolio.md` (Section 19: Agent/OS fabrication layer).
 > Canon group: tech-ai
 > **Epistemic class**: SOURCE_CLAIM (vault-sourced)
 > **Audit**: Populated 2026-08-26 from vault references.
 
 ## Status
+
 - **Type**: Engine spec (from vault references)
 - **Content**: Vault-sourced from Meta Cognition + Portfolio
 - **Action**: Populated 2026-08-26
@@ -94,11 +98,14 @@ platform_safety > ip_protection > creator_intent > structural_integrity > user_r
 - **AMOS_KERNEL_CONFIG** — Kernel registry with priorities, dependencies, routing rules
 - **AMOS_OPERATOR_META_SECTOR_ENGINE** — Meta-sector operator: cross-sector analysis
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS · SYSTEM_SCAN_AGENT · AUTOMATION_PROFILES
 
----
+______________________________________________________________________
+
 **MOC:** [[11_KNOWLEDGE/engine/ENGINE_MOC|ENGINE_MOC]]
 
----
+______________________________________________________________________
+
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

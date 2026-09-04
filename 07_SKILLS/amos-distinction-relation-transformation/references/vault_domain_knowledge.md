@@ -1,14 +1,17 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Vault Domain Knowledge — Amos Distinction Relation Transformation
 type: reference
 source: 07_SKILLS/amos-distinction-relation-transformation/references
 tags:
-- reference
-- amos-distinction-relation-transformation
-- type/skill
-- ratpak
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-distinction-relation-transformation
+  - type/skill
+  - ratpak
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -25,6 +28,7 @@ rscf:
 ## Vault-Sourced Content
 
 ### Source 1: Enhanced Master Relationship Pack
+
 - Legal & Commercial Framework
 
 > Path: `misc/E/Enhanced Master Relationship Pack - Legal & Commercial Framework.md` | Size: 50673 chars | Match score: 12 | content_hash: d8fe84d4af78236b
@@ -85,7 +89,6 @@ NEUROPAK frameworks, and AHC systems), strategic network access, and deep expert
 
 emerging technology commercialisation.
 
-
 C. The Recipient Company seeks strategic partnership with T4H to accelerate growth, access
 
 advanced technology frameworks, and benefit from T4H's network and brand association.
@@ -136,24 +139,26 @@ All derivative works, adaptations, and improvements thereof
 
 "Derivative Works" means any work, product, methodolog
 
----
+______________________________________________________________________
 
 ### Source 2: Enhanced Master Relationship Pack
 
 > Path: `misc/E/Enhanced Master Relationship Pack.md` | Size: 2471 chars | Match score: 12 | content_hash: 269b83ee1236d578
 
-# Enhanced Master Relationship Pack
+## Enhanced Master Relationship Pack
 
 ## Parties
 
 Specialises in: AI augmentation, BCI, robotics integration, digital transformation
 
 ## Structure (3 Stages)
+
 1. **Confidentiality & Assessment**
-2. **Strategic Memorandum of Understanding**
-3. **Commercial Engagement with performance measurement**
+1. **Strategic Memorandum of Understanding**
+1. **Commercial Engagement with performance measurement**
 
 ## Defined Terms
+
 - **AI-Generated Works**: Any IP created through AI/ML/autonomous agents
 - **Background IP**: IP owned prior to agreement
 - **BCI Data**: Neural patterns, biometric inputs, BCI protocols
@@ -164,87 +169,91 @@ Specialises in: AI augmentation, BCI, robotics integration, digital transformati
 - **T4H Strategic Value Platform**: https://t4h-strategic-value-tracker.lovable.app
 
 ## Legal Framework
+
 - Enforceable under Australian law with international recognition mechanisms
 - ABN 70 666 271 272
 - Version 2.0 Enhanced, August 2025, review cycle quarterly
 
 ## Floating Economy Research
+
 Key insight: Value comes from **maintaining optimal states** (continuity economics), not task completion. The floating economy operates through:
+
 - **[[11_KNOWLEDGE/05_FRAMEWORKS/RATPAK|RATPAK]]**: Real-time sensor fusion, predictive intervention
 - **NEUROPAK**: BCI for subconscious pattern recognition
 - **MyNeuralSignal**: Cognitive guardian monitoring load/drift
 - **AHC**: Just-in-time training for human-AI collaboration
 
----
+______________________________________________________________________
 
+______________________________________________________________________
 
----
-
----
+______________________________________________________________________
 
 ### Source 3: Invariants 801–900: Relationships & Clusters
 
 > Path: `misc/I/Invariants 801–900 Relationships Clusters.md` | Size: 11186 chars | Match score: 10 | content_hash: baca4f42421e57ea
 
-# Invariants 801–900: Relationships & Clusters
+## Invariants 801–900: Relationships & Clusters
 
 100 formalized invariants (801–900) covering: evidence/thresholds, relationship typing/ontology, cluster consistency/purity, relationship-driven clusters, temporal tracking, constraint satisfaction, graph partition objectives, bipartite/2-mode, relational integrity, meta invariants.
 
----
+______________________________________________________________________
 
 ## A) Evidence and Threshold Invariants (801–810)
 
-| # | Invariant | Equation |
-|---|-----------|----------|
-| 801 | Edge must exceed evidence threshold | $(u,v) \in R \Rightarrow e(u,v) \ge \tau_e$ |
-| 802 | No edge if evidence below threshold | $e(u,v) < \tau_e \Rightarrow (u,v) \notin R$ |
-| 803 | Evidence bounded | $0 \le e(u,v) \le 1$ |
-| 804 | Assignment must exceed threshold | $c(v)=k \Rightarrow a(v,k) \ge \tau_a$ |
-| 805 | Unassigned if no cluster exceeds threshold | $\max_k a(v,k) < \tau_a \Rightarrow c(v) = 0$ |
-| 806 | Evidence monotonic with added signals | $e = \sum_i s_i \Rightarrow s_i \uparrow \Rightarrow e \uparrow$ |
-| 807 | Evidence update determinism | $update(e, signals) = update(e, signals)$ |
-| 808 | Evidence decay correctness | $e(t) = e(0)e^{-\lambda t}$ |
-| 809 | Evidence source completeness | $(u,v) \in R \Rightarrow \exists src(u,v)$ |
-| 810 | Evidence source whitelist | $src(u,v) \in AllowedSources$ |
+| #   | Invariant                                  | Equation                                                         |
+| --- | ------------------------------------------ | ---------------------------------------------------------------- |
+| 801 | Edge must exceed evidence threshold        | $(u,v) \in R \Rightarrow e(u,v) \ge \tau_e$                      |
+| 802 | No edge if evidence below threshold        | $e(u,v) < \tau_e \Rightarrow (u,v) \notin R$                     |
+| 803 | Evidence bounded                           | $0 \le e(u,v) \le 1$                                             |
+| 804 | Assignment must exceed threshold           | $c(v)=k \Rightarrow a(v,k) \ge \tau_a$                           |
+| 805 | Unassigned if no cluster exceeds threshold | $\max_k a(v,k) < \tau_a \Rightarrow c(v) = 0$                    |
+| 806 | Evidence monotonic with added signals      | $e = \sum_i s_i \Rightarrow s_i \uparrow \Rightarrow e \uparrow$ |
+| 807 | Evidence update determinism                | $update(e, signals) = update(e, signals)$                        |
+| 808 | Evidence decay correctness                 | $e(t) = e(0)e^{-\lambda t}$                                      |
+| 809 | Evidence source completeness               | $(u,v) \in R \Rightarrow \exists src(u,v)$                       |
+| 810 | Evidence source whitelist                  | $src(u,v) \in AllowedSources$                                    |
 
----
+______________________________________________________________________
 
 ## B) Relationship Typing & Ontology Constraints (811–820)
 
-| # | Invariant | Equation |
-|---|-----------|----------|
-| 811 | Predicate domain constraint | $p(u,v) \Rightarrow type(u) \in Dom(p)$ |
-| 812 | Predicate range constraint | $p(u,v) \Rightarrow type(v) \in Ran(p)$ |
-| 813 | Mutual exclusivity of predicates | $p(u,v) \Rightarrow \neg q(u,v)$ |
-| 814 | Predicate implication | $p(u,v) \Rightarrow q(u,v)$ |
-| 815 | Predicate inverse correctness | $p(u,v) \Rightarrow q(v,u)$ |
-| 816 | Predicate transitive closure | $p(u,v) \land p(v,w) \Rightarrow p(u,w)$ |
-| 817 | Predicate anti-symmetry | $p(u,v) \land p(v,u) \Rightarrow u = v$ |
-| 818 | Functional predicate | $p(u,v) \land p(u,v') \Rightarrow v = v'$ |
-| 819 | Inverse functional predicate | $p(u,v) \land p(u',v) \Rightarrow u = u'$ |
-| 820 | No type contradiction | $inst(x,A) \land inst(x,B) \land disjoint(A,B) \Rightarrow \bot$ |
+| #   | Invariant                        | Equation                                                         |
+| --- | -------------------------------- | ---------------------------------------------------------------- |
+| 811 | Predicate domain constraint      | $p(u,v) \Rightarrow type(u) \in Dom(p)$                          |
+| 812 | Predicate range constraint       | $p(u,v) \Rightarrow type(v) \in Ran(p)$                          |
+| 813 | Mutual exclusivity of predicates | $p(u,v) \Rightarrow \neg q(u,v)$                                 |
+| 814 | Predicate implication            | $p(u,v) \Rightarrow q(u,v)$                                      |
+| 815 | Predicate inverse correctness    | $p(u,v) \Rightarrow q(v,u)$                                      |
+| 816 | Predicate transitive closure     | $p(u,v) \land p(v,w) \Rightarrow p(u,w)$                         |
+| 817 | Predicate anti-symmetry          | $p(u,v) \land p(v,u) \Rightarrow u = v$                          |
+| 818 | Functional predicate             | $p(u,v) \land p(u,v') \Rightarrow v = v'$                        |
+| 819 | Inverse functional predicate     | $p(u,v) \land p(u',v) \Rightarrow u = u'$                        |
+| 820 | No type contradiction            | $inst(x,A) \land inst(x,B) \land disjoint(A,B) \Rightarrow \bot$ |
 
----
+______________________________________________________________________
 
 ## C) Cluster Consistency Constraints (Semantic Purity) (821–830)
 
-| # | Invariant | Equation |
-|---|-----------|----------|
-| 821 | Type purity per cluster (hard) | $\forall k:\ \|\{type(v): v \in C_k\}\| = 1$ |
-| 822 | Type purity (soft bound) | $\forall k:\ \max_T \frac{\|\{v \in C_k: type(v)=T\}\|}{\|C_k\|} \ge \pi_{\min}$ |
-| 823 | Attribute purity (categorical) | $purity_a(C_k) = \max_x \frac{\|\{v \in C_k: a(v)=x\}\|}{\|C_k\|} \ge p_{\min}$ |
-| 824 | Numeric attribute variance bound | $Var_a(C_k) \le \sigma^2_{\max}$ |
-| 825 | Forbidden attribute mixtures | $\exists v,w \in C_k:\ (a(v),a(w)) \in ForbiddenPairs \Rightarrow \bot$ |
-| 826 | Role uniqueness constraint | $\forall k:\ \|\{v \in C_k: role(v)=r\}\| \le 1$ |
-| 827 | Required role presence | $\forall k:\ \|\{v \in C_k: role(v)=r\}\| \ge 1$ |
+| #   | Invariant                        | Equation                                                                         |
+| --- | -------------------------------- | -------------------------------------------------------------------------------- |
+| 821 | Type purity per cluster (hard)   | $\forall k:\ \|\{type(v): v \in C_k\}\| = 1$                                     |
+| 822 | Type purity (soft bound)         | $\forall k:\ \max_T \frac{\|\{v \in C_k: type(v)=T\}\|}{\|C_k\|} \ge \pi_{\min}$ |
+| 823 | Attribute purity (categorical)   | $purity_a(C_k) = \max_x \frac{\|\{v \in C_k: a(v)=x\}\|}{\|C_k\|} \ge p_{\min}$  |
+| 824 | Numeric attribute variance bound | $Var_a(C_k) \le \sigma^2_{\max}$                                                 |
+| 825 | Forbidden attribute mixtures     | $\exists v,w \in C_k:\ (a(v),a(w)) \in ForbiddenPairs \Rightarrow \bot$          |
+| 826 | Role uniqueness constraint       | $\forall k:\ \|\{v \in C_k: role(v)=r\}\| \le 1$                                 |
+| 827 | Required role presence           | $\forall k:\ \|\{v \in C_k: role(v)=r\}\| \ge 1$                                 |
 
----
+______________________________________________________________________
+
 **MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -252,12 +261,14 @@ Key insight: Value comes from **maintaining optimal states** (continuity economi
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-distinction-relation-transformation-vault-domain-knowledge
 node_type: reference
 path: 07_SKILLS/amos-distinction-relation-transformation/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

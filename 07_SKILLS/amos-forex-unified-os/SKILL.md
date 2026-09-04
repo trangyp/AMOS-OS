@@ -4,24 +4,22 @@ title: SKILL — Amos Forex Unified Os
 type: skill
 source: 07_SKILLS/amos-forex-unified-os
 name: amos-forex-unified-os
-description: Forex Unified Os — forex and finance capability. Use when forex analysis,
-  currency trading, or market dynamics. Use when amos-c07-econ-finance-master routes
-  to this specialized capability. Do not use for generic tasks outside fx domain.
+description: Forex Unified Os — forex and finance capability. Use when forex analysis, currency trading, or market dynamics. Use when amos-c07-econ-finance-master routes to this specialized capability. Do not use for generic tasks outside fx domain.
 parent_skill: amos-c07-econ-finance-master
 domain: fx
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
 tags:
-- type/skill
-- type/skill
-- domain/econ-finance
-- epistemic/source_claim
-- hml/m
-- epistemic/source_claim
-- amos-os
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/econ-finance
+  - epistemic/source_claim
+  - hml/m
+  - epistemic/source_claim
+  - amos-os
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -31,22 +29,22 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: M
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
-- L6_uncertainty
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
+  - L6_uncertainty
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L6
-- L16
-- L17
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L6
+  - L16
+  - L17
 license: MIT
 steward: Trang Phan
 ---
@@ -56,6 +54,7 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: fx. Parent: amos-c07-econ-finance-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
 ## When to Use
 
 - When calibrating FX models: Bayesian neural SDEs, volatility surfaces
@@ -79,13 +78,13 @@ Origin architect: **Trang Phan**. Domain: fx. Parent: amos-c07-econ-finance-mast
 ## Operations
 
 1. **forex_unified.calibrate_model**: Calibrate FX models: Bayesian neural SDEs, volatility surfaces, and term structures
-2. **forex_unified.assess_risk**: Assess FX risk: currency exposure, correlation breakdown, and tail events
-3. **forex_unified.backtest_strategy**: Backtest FX strategies: walk-forward, regime-aware, and stress-tested
-4. **forex_unified.monitor_regime**: Monitor FX regime shifts: volatility, correlation, and liquidity transitions
-5. **forex_unified.classify_regime**: Classify FX regime: stable, transitioning, volatile, stressed, crisis
-6. **forex_unified.detect_drift**: Detect drift in FX models, regime classification, or risk metrics
-7. **forex_unified.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-8. **forex_unified.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+1. **forex_unified.assess_risk**: Assess FX risk: currency exposure, correlation breakdown, and tail events
+1. **forex_unified.backtest_strategy**: Backtest FX strategies: walk-forward, regime-aware, and stress-tested
+1. **forex_unified.monitor_regime**: Monitor FX regime shifts: volatility, correlation, and liquidity transitions
+1. **forex_unified.classify_regime**: Classify FX regime: stable, transitioning, volatile, stressed, crisis
+1. **forex_unified.detect_drift**: Detect drift in FX models, regime classification, or risk metrics
+1. **forex_unified.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+1. **forex_unified.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## Vault-Sourced Domain Knowledge
 
@@ -95,13 +94,13 @@ Origin architect: **Trang Phan**. Domain: fx. Parent: amos-c07-econ-finance-mast
 
 The Omega FX Engine classifies markets into 5 regime types:
 
-| Regime | Description |
-|--------|-------------|
-| STABLE | Low volatility, tight spreads, high liquidity |
-| TRANSITIONING | Shifting volatility, widening spreads |
-| VOLATILE | High volatility, normal liquidity |
-| STRESSED | Very high volatility, reduced liquidity |
-| CRISIS | Extreme volatility, liquidity collapse, spread blowout |
+| Regime        | Description                                            |
+| ------------- | ------------------------------------------------------ |
+| STABLE        | Low volatility, tight spreads, high liquidity          |
+| TRANSITIONING | Shifting volatility, widening spreads                  |
+| VOLATILE      | High volatility, normal liquidity                      |
+| STRESSED      | Very high volatility, reduced liquidity                |
+| CRISIS        | Extreme volatility, liquidity collapse, spread blowout |
 
 ### Shock Types
 
@@ -143,10 +142,10 @@ The Omega FX Engine is **structural (NOT predictive)** FX analysis. It provides 
 - **G5 (Equation firewall)**: Equations carry status tags (ESTABLISHED_MATH / SOURCE_DERIVED / AMOS_MODEL / EMPIRICALLY_CALIBRATED / UNVERIFIED).
 - **G6 (Failure mode)**: On validation failure, downgrade confidence, flag the gap, escalate — do not force-fit.
 
-
 > **Reference**: See `references/fractal_forex_enterprise.md` (content_hash: 5ca9b48c2e447325) for the Fractal Forex Enterprise (fractal FX analysis, enterprise-scale forex, multi-timeframe fractal pattern
 
----
+______________________________________________________________________
+
 **Links:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 ## Related
@@ -156,17 +155,19 @@ The Omega FX Engine is **structural (NOT predictive)** FX analysis. It provides 
 ## Examples
 
 - **Scenario**: When calibrating FX models: Bayesian neural SDEs, volatility surfaces
+
   - **Input**: A query matching this skill's domain (fx)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When assessing FX risk: currency exposure, correlation, tail events
+
   - **Input**: A query matching this skill's domain (fx)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When backtesting FX strategies: walk-forward, regime-aware, stress-tested
+
   - **Input**: A query matching this skill's domain (fx)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Anti-Patterns
 
@@ -176,7 +177,6 @@ The Omega FX Engine is **structural (NOT predictive)** FX analysis. It provides 
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `amos-c07-econ-finance-master` — routes to this skill when fx specialization is needed
@@ -184,7 +184,6 @@ The Omega FX Engine is **structural (NOT predictive)** FX analysis. It provides 
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -203,7 +202,6 @@ The Omega FX Engine is **structural (NOT predictive)** FX analysis. It provides 
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -211,7 +209,6 @@ The Omega FX Engine is **structural (NOT predictive)** FX analysis. It provides 
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -225,11 +222,12 @@ The Omega FX Engine is **structural (NOT predictive)** FX analysis. It provides 
 - `references/fractal_forex_enterprise.md` — loaded on demand
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `amos-c07-econ-finance-master` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `amos-forex-unified-os-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -237,12 +235,14 @@ The Omega FX Engine is **structural (NOT predictive)** FX analysis. It provides 
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-forex-unified-os
 node_type: skill
 path: 07_SKILLS/amos-forex-unified-os/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

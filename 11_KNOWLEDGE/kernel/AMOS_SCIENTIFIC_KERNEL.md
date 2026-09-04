@@ -1,4 +1,7 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: AMOS SCIENTIFIC KERNEL V0 SCIENCE HEALTH7 2
 type: kernel
 source: 11_KNOWLEDGE/kernel
@@ -7,13 +10,13 @@ canon-type: framework
 rscf-state: source-claim
 topic: amos-scientific-kernel-v0
 tags:
-- canon-group/biology
-- canon/framework
-- rscf/claim
-- rscf/provenance
-- rscf/state/source-claim
-- topic/amos-scientific-kernel-v0
-- kernel
+  - canon-group/biology
+  - canon/framework
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - topic/amos-scientific-kernel-v0
+  - kernel
 created: 2026-08-22
 rscf:
   state: SOURCE_CLAIM
@@ -226,6 +229,6 @@ rscf:
 **Related:** [[11_KNOWLEDGE/kernel/AMOS_SALES_KERNEL_V0|AMOS_SALES_KERNEL_V0]] · [[11_KNOWLEDGE/kernel/AMOS_MARKETING_GTM_KERNEL_V0|AMOS_MARKETING_GTM_KERNEL_V0]] · [[11_KNOWLEDGE/kernel/AMOS_ETL_PIPELINE_KERNEL_V0_TECH|AMOS_ETL_PIPELINE_KERNEL_V0_TECH]] · [[11_KNOWLEDGE/kernel/HEALTH_KERNEL|HEALTH_KERNEL]]
 ```
 
----
-**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]
+______________________________________________________________________
 
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]

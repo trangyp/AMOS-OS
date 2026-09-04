@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Vault Domain Knowledge — Amos Forex Os
 type: reference
 source: 07_SKILLS/amos-forex-os/references
 tags:
-- reference
-- amos-forex-os
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-forex-os
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -23,7 +26,7 @@ rscf:
 
 ## Vault-Sourced Content
 
-### Source 1: AMOS forex__signal__ukr_engine
+### Source 1: AMOS forex\_\_signal\_\_ukr_engine
 
 > Path: `engine/A/AMOS forex__signal__ukr_engine.md` | Size: 1147 chars | Match score: 13 | content_hash: c7d31bcdc9a57b71
 
@@ -31,44 +34,44 @@ rscf:
 // Deterministic UKR‑engine placeholder – applies simple rule set on features.
 // In a full implementation this would evaluate the ULK meta‑laws, MURK primitives
 // and the 19×19 interaction matrix. Here we provide a deterministic example:
-//   * If SMA20 > SMA50 and volatility < 0.0005 → BUY
-//   * If SMA20 < SMA50 and volatility < 0.0005 → SELL
-//   * Otherwise → NO ACTION
+// * If SMA20 > SMA50 and volatility < 0.0005 → BUY
+// * If SMA20 < SMA50 and volatility < 0.0005 → SELL
+// * Otherwise → NO ACTION
 
 const EventBus = require('../event_bus');
 
 class UKREngine {
-  evaluate({ instrument, time, features }) {
-    const { sma20, sma50, volatility } = features;
-    if (sma20 && sma50 && volatility !== null) {
-      if (sma20 > sma50 && volatility < 0.0005) {
-        return { instrument, time, side: 'BUY', reason: 'sma20> sma50 low vol' };
-      }
-      if (sma20 < sma50 && volatility < 0.0005) {
-        return { instrument, time, side: 'SELL', reason: 'sma20< sma50 low vol' };
-      }
-    }
-    return null; // no signal
-  }
+evaluate({ instrument, time, features }) {
+const { sma20, sma50, volatility } = features;
+if (sma20 && sma50 && volatility !== null) {
+if (sma20 > sma50 && volatility < 0.0005) {
+return { instrument, time, side: 'BUY', reason: 'sma20> sma50 low vol' };
+}
+if (sma20 < sma50 && volatility < 0.0005) {
+return { instrument, time, side: 'SELL', reason: 'sma20< sma50 low vol' };
+}
+}
+return null; // no signal
+}
 }
 
 module.exports = new UKREngine();
 
----
+______________________________________________________________________
 
----
+______________________________________________________________________
 
-### Source 2: AMOS forex__packages__ukr__recursive_kernel
+### Source 2: AMOS forex\_\_packages\_\_ukr\_\_recursive_kernel
 
 > Path: `kernel/A/AMOS forex__packages__ukr__recursive_kernel.md` | Size: 9604 chars | Match score: 10 | content_hash: d36a271a4bce8b82
 
 """UKR recursive kernel – orchestrates the 17-stage pipeline.
 
-The public function is ``process_ukr`` which receives a ``UKRState`` instance and
-returns an updated ``UKRState`` together with a ``CanonPermission`` (imported
-from ``ulk.contracts``).  The implementation follows the strict ordering defined
-by ``STAGE_ORDER`` and applies the ULK meta‑law validators at the appropriate
-points.  For brevity only a subset of stages perform non‑trivial calculations –
+The public function is `process_ukr` which receives a `UKRState` instance and
+returns an updated `UKRState` together with a `CanonPermission` (imported
+from `ulk.contracts`). The implementation follows the strict ordering defined
+by `STAGE_ORDER` and applies the ULK meta‑law validators at the appropriate
+points. For brevity only a subset of stages perform non‑trivial calculations –
 the rest simply record success and move on.
 """
 
@@ -78,13 +81,13 @@ from decimal import Decimal
 from typing import List
 
 from ..ulk.meta_laws import (
-    consistency_passed,
-    duality_passed,
-    quadrant_passed,
-    continuity_passed,
-    identity_stable,
-    load_capacity_passed,
-    feedback_integrity_passed,
+consistency_passed,
+duality_passed,
+quadrant_passed,
+continuity_passed,
+identity_stable,
+load_capacity_passed,
+feedback_integrity_passed,
 )
 from ..ulk.contracts import CanonPermission, ValidatorResult
 from ..ulk.contracts import ValidatorResult
@@ -160,13 +163,13 @@ from ..ulk.contracts import CanonPermission
 
 from .
 
----
+______________________________________________________________________
 
-### Source 3: AMOS forex__run_tests
+### Source 3: AMOS forex\_\_run_tests
 
 > Path: `amos-general/A/forex/AMOS forex__run_tests.md` | Size: 3736 chars | Match score: 10 | content_hash: 04c7b3df236b5588
 
-# AMOS forex__run_tests
+## AMOS forex\_\_run_tests
 
 ```python
 #!/usr/bin/env python3
@@ -182,7 +185,7 @@ import sys
 from decimal import Decimal
 from datetime import datetime
 
-# Import the packages – the repository root is in the PYTHONPATH when executed.
+## Import the packages – the repository root is in the PYTHONPATH when executed.
 from packages.ulk.atoms import ULKAtomicState, atomic_state_valid
 from packages.ulk.meta_laws import (
     consistency_passed,
@@ -265,10 +268,9 @@ def test_ukr_pipeline():
 -
 ```
 
----
+______________________________________________________________________
 
-**Related:** [[07_SKILLS/amos-forex-os/amos-forex-os_MOC|amos-forex-os_MOC]]
----
+## **Related:** [[07_SKILLS/amos-forex-os/amos-forex-os_MOC|amos-forex-os_MOC]]
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -276,13 +278,14 @@ def test_ukr_pipeline():
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-forex-os-vault-domain-knowledge
 node_type: reference
 path: 07_SKILLS/amos-forex-os/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC
-

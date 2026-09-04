@@ -12,30 +12,30 @@ segment: 01_CANON/02_UNIVERSE_CANON
 artifact_kind: CANON_SPECIFICATION
 path: 01_CANON/02_UNIVERSE_CANON/P2_SENSE_EVIDENCE.md
 tags:
-- amos-os
-- canon
-- universe
-- universe_canon
-- p2
-- sense
-- evidence
-- perception
-- measurement
-- observation
-- provenance
-- source_identity
-- independence
-- observer_effect
-- admission
-- epistemic_boundary
-- rscf
-- canon/universe
-- validation
-- integration
-- law/L19-proof-capsule
-- p1-reality-environment
-- trang-framework-recursive-ontology-dynamics
-- khung-trang-master
+  - amos-os
+  - canon
+  - universe
+  - universe_canon
+  - p2
+  - sense
+  - evidence
+  - perception
+  - measurement
+  - observation
+  - provenance
+  - source_identity
+  - independence
+  - observer_effect
+  - admission
+  - epistemic_boundary
+  - rscf
+  - canon/universe
+  - validation
+  - integration
+  - law/L19-proof-capsule
+  - p1-reality-environment
+  - trang-framework-recursive-ontology-dynamics
+  - khung-trang-master
 version: 1.0.0
 updated: '2026-08-27'
 status: PROPOSED_SPECIFICATION
@@ -50,13 +50,13 @@ rscf:
   state: SOURCE_GROUNDED
   claim_class: AMOS_MODEL
   provenance:
-  - AMOS_corpus
-  - 01_CANON/02_UNIVERSE_CANON/AMOS_7_PART_UNIVERSE_CANON
-  - 01_CANON/02_UNIVERSE_CANON/HML_CANON
-  - TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS
+    - AMOS_corpus
+    - 01_CANON/02_UNIVERSE_CANON/AMOS_7_PART_UNIVERSE_CANON
+    - 01_CANON/02_UNIVERSE_CANON/HML_CANON
+    - TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS
   scope:
-  - UNIVERSE_CANON
-  - P2_SENSE_EVIDENCE
+    - UNIVERSE_CANON
+    - P2_SENSE_EVIDENCE
 ---
 
 # P2 — Sense & Evidence Plane
@@ -69,7 +69,7 @@ P2 governs the transition from environmental contact to admissible evidence.
 
 Its central concern is not simply whether information is available, but whether a sensed or measured signal has been:
 
-```text
+````text
 CAPTURED
 TYPED
 ATTRIBUTED
@@ -106,7 +106,7 @@ NOT ESTABLISHED
 EMPIRICAL VALIDITY
 =
 CLAIM-SPECIFIC
-```
+````
 
 The governing boundaries are:
 
@@ -144,9 +144,9 @@ UNKNOWN/GAP != PASS
 
 **Origin architect / steward:** **Trang Phan**
 
----
+______________________________________________________________________
 
-# 1. Purpose
+## 1. Purpose
 
 P2 defines how signals originating at the P1 Reality & Environment boundary become evidence-bearing records usable by AMOS.
 
@@ -170,17 +170,17 @@ The transition is not lossless.
 
 Every sensing process may introduce:
 
-* filtering;
-* noise;
-* bias;
-* resolution limits;
-* sampling effects;
-* latency;
-* quantization;
-* observer interaction;
-* provenance ambiguity;
-* source correlation;
-* interpretation error.
+- filtering;
+- noise;
+- bias;
+- resolution limits;
+- sampling effects;
+- latency;
+- quantization;
+- observer interaction;
+- provenance ambiguity;
+- source correlation;
+- interpretation error.
 
 Therefore:
 
@@ -198,36 +198,36 @@ Evidence
 UnmediatedReality
 $$
 
----
+______________________________________________________________________
 
-# 2. Scope
+## 2. Scope
 
 P2 governs:
 
-* signal capture;
-* sensor interaction;
-* perception filtering;
-* measurement;
-* observation construction;
-* evidence typing;
-* source identity;
-* provenance-at-capture;
-* source ancestry;
-* independence classification;
-* noise;
-* bias;
-* resolution;
-* uncertainty;
-* observation freshness;
-* evidence admission;
-* evidence rejection;
-* competing readings of the same signal.
+- signal capture;
+- sensor interaction;
+- perception filtering;
+- measurement;
+- observation construction;
+- evidence typing;
+- source identity;
+- provenance-at-capture;
+- source ancestry;
+- independence classification;
+- noise;
+- bias;
+- resolution;
+- uncertainty;
+- observation freshness;
+- evidence admission;
+- evidence rejection;
+- competing readings of the same signal.
 
 P2 is downstream of P1 but upstream of higher-order interpretation.
 
----
+______________________________________________________________________
 
-# 3. Relationship to P1
+## 3. Relationship to P1
 
 P1 establishes the external environmental boundary.
 
@@ -261,28 +261,28 @@ P2 EVIDENCE
 
 P2 is an interface layer between world contact and epistemic representation.
 
----
+______________________________________________________________________
 
-# 4. Non-Purpose
+## 4. Non-Purpose
 
 P2 does not establish:
 
-* that all sensed data are true;
-* that all measurements are unbiased;
-* that more measurements necessarily increase certainty;
-* that multiple sources are independent;
-* that repeated reporting equals confirmation;
-* that instrument output is interpretation-free;
-* that observation is causally neutral;
-* that provenance guarantees correctness;
-* that high resolution implies high validity;
-* or that evidence admission guarantees truth.
+- that all sensed data are true;
+- that all measurements are unbiased;
+- that more measurements necessarily increase certainty;
+- that multiple sources are independent;
+- that repeated reporting equals confirmation;
+- that instrument output is interpretation-free;
+- that observation is causally neutral;
+- that provenance guarantees correctness;
+- that high resolution implies high validity;
+- or that evidence admission guarantees truth.
 
 P2 governs **evidence formation and admission**, not final truth adjudication.
 
----
+______________________________________________________________________
 
-# 5. Canonical Questions
+## 5. Canonical Questions
 
 P2 is organized around two primary source-defined questions.
 
@@ -305,7 +305,7 @@ REGIME
 FRESHNESS
 ```
 
----
+______________________________________________________________________
 
 ### P2-Q2 — Sensing Contribution
 
@@ -313,24 +313,24 @@ FRESHNESS
 
 Possible contributions include:
 
-* noise;
-* bias;
-* sampling;
-* calibration error;
-* resolution limits;
-* latency;
-* missingness;
-* saturation;
-* clipping;
-* transformation;
-* intervention;
-* observer effects.
+- noise;
+- bias;
+- sampling;
+- calibration error;
+- resolution limits;
+- latency;
+- missingness;
+- saturation;
+- clipping;
+- transformation;
+- intervention;
+- observer effects.
 
 The sensing apparatus is therefore part of the evidence-generating process.
 
----
+______________________________________________________________________
 
-# 6. P2-1 — Typed Admission
+## 6. P2-1 — Typed Admission
 
 ## Law
 
@@ -352,9 +352,9 @@ $$
 
 where `Typed(E)` includes enough structure to determine what the evidence actually is.
 
----
+______________________________________________________________________
 
-# 7. Evidence Type Contract
+## 7. Evidence Type Contract
 
 Minimum evidence classes:
 
@@ -396,9 +396,9 @@ SOURCE_CLAIM
 
 relative to AMOS unless the underlying observational evidence is separately ingested.
 
----
+______________________________________________________________________
 
-# 8. Typed Evidence Schema
+## 8. Typed Evidence Schema
 
 ```yaml
 P2_EVIDENCE_RECORD:
@@ -466,9 +466,9 @@ UNKNOWN/GAP
 
 rather than being silently admitted.
 
----
+______________________________________________________________________
 
-# 9. Untyped Evidence Is Non-Admissible
+## 9. Untyped Evidence Is Non-Admissible
 
 The canonical default is:
 
@@ -488,9 +488,9 @@ $$
 
 This prevents sentences, numbers, screenshots, model outputs, or repeated reports from entering the epistemic graph without classification.
 
----
+______________________________________________________________________
 
-# 10. Evidence Identity
+## 10. Evidence Identity
 
 Every evidence item should have a stable identity where consequential.
 
@@ -512,15 +512,15 @@ EVIDENCE_IDENTITY:
 
 This permits:
 
-* de-duplication;
-* revision tracking;
-* provenance recovery;
-* stale evidence detection;
-* source-correlation analysis.
+- de-duplication;
+- revision tracking;
+- provenance recovery;
+- stale evidence detection;
+- source-correlation analysis.
 
----
+______________________________________________________________________
 
-# 11. P2-2 — Observer Effect
+## 11. P2-2 — Observer Effect
 
 ## Law
 
@@ -537,9 +537,9 @@ It does not imply that every observation materially changes every observed syste
 
 It establishes that the measurement process is itself part of the causal environment and therefore cannot always be treated as neutral.
 
----
+______________________________________________________________________
 
-# 12. Measurement as Interaction
+## 12. Measurement as Interaction
 
 Conceptually:
 
@@ -571,16 +571,16 @@ $$
 
 where:
 
-* \(X_t\) = target state;
-* \(I_t\) = instrument/interaction state;
-* \(M\) = measurement process;
-* \(O_t\) = recorded observation.
+- (X_t) = target state;
+- (I_t) = instrument/interaction state;
+- (M) = measurement process;
+- (O_t) = recorded observation.
 
 This is a generic model formalization, not a universal physical equation.
 
----
+______________________________________________________________________
 
-# 13. Observer Effect Categories
+## 13. Observer Effect Categories
 
 Possible observer or measurement effects include:
 
@@ -608,9 +608,9 @@ SOCIAL RESPONSE EFFECT
 
 The applicable category is domain-specific.
 
----
+______________________________________________________________________
 
-# 14. Observer Effect Firewall
+## 14. Observer Effect Firewall
 
 The existence of an observer effect category does not license universal claims such as:
 
@@ -642,9 +642,9 @@ MEASUREMENT INTERACTION
 CONSCIOUSNESS CAUSATION
 ```
 
----
+______________________________________________________________________
 
-# 15. Measurement Provenance
+## 15. Measurement Provenance
 
 Because measurement is an event, provenance should include the observation apparatus itself.
 
@@ -690,9 +690,9 @@ and:
 PROCESSING PIPELINE
 ```
 
----
+______________________________________________________________________
 
-# 16. P2-3 — Provenance At Birth
+## 16. P2-3 — Provenance At Birth
 
 ## Law
 
@@ -721,23 +721,23 @@ $$
 
 as the preferred architecture.
 
----
+______________________________________________________________________
 
-# 17. Why Provenance Must Attach Early
+## 17. Why Provenance Must Attach Early
 
 If provenance is missing at capture, later reconstruction may be ambiguous.
 
 Potentially unrecoverable information includes:
 
-* exact source;
-* instrument state;
-* timestamp;
-* environment;
-* pre-processing;
-* source ancestry;
-* acquisition method;
-* version;
-* measurement context.
+- exact source;
+- instrument state;
+- timestamp;
+- environment;
+- pre-processing;
+- source ancestry;
+- acquisition method;
+- version;
+- measurement context.
 
 Therefore:
 
@@ -747,9 +747,9 @@ LATE PROVENANCE
 POTENTIALLY LOSSY
 ```
 
----
+______________________________________________________________________
 
-# 18. Provenance Birth Record
+## 18. Provenance Birth Record
 
 ```yaml
 PROVENANCE_BIRTH_RECORD:
@@ -787,9 +787,9 @@ PROVENANCE_BIRTH_RECORD:
 
 This record should persist through downstream transformations.
 
----
+______________________________________________________________________
 
-# 19. Persistent Provenance
+## 19. Persistent Provenance
 
 P2 requires provenance to survive:
 
@@ -809,7 +809,7 @@ DERIVATION
 DECISION
 ```
 
-For derived claim \(D\):
+For derived claim (D):
 
 $$
 D
@@ -819,9 +819,9 @@ $$
 
 must remain recoverable where those evidence nodes are load-bearing.
 
----
+______________________________________________________________________
 
-# 20. Provenance Is Not Proof
+## 20. Provenance Is Not Proof
 
 Provenance answers:
 
@@ -849,9 +849,9 @@ A true observation can have incomplete provenance.
 
 These are separate epistemic dimensions.
 
----
+______________________________________________________________________
 
-# 21. Evidence Independence
+## 21. Evidence Independence
 
 P2 requires explicit independence classification.
 
@@ -890,9 +890,9 @@ INDEPENDENCE_CLASS:
     ancestry_not_resolved: true
 ```
 
----
+______________________________________________________________________
 
-# 22. Source Count Is Not Independence
+## 22. Source Count Is Not Independence
 
 Example:
 
@@ -926,9 +926,9 @@ SourceRepresentationCount
 IndependentEvidenceCount
 $$
 
----
+______________________________________________________________________
 
-# 23. Sybil / Correlation Hardening
+## 23. Sybil / Correlation Hardening
 
 Evidence topology must resist artificial confidence amplification through duplicated descendants.
 
@@ -950,9 +950,9 @@ Canonical rule:
 REPETITION != INDEPENDENCE
 ```
 
----
+______________________________________________________________________
 
-# 24. Independence Proof Requirement
+## 24. Independence Proof Requirement
 
 For consequential claims:
 
@@ -964,12 +964,12 @@ should be demonstrated, not assumed.
 
 Useful questions include:
 
-* Do these evidence items share a primary source?
-* Do they depend on the same dataset?
-* Do they use the same measurement instrument?
-* Do they inherit the same model assumption?
-* Is one merely a transformed version of another?
-* Are they causally coupled?
+- Do these evidence items share a primary source?
+- Do they depend on the same dataset?
+- Do they use the same measurement instrument?
+- Do they inherit the same model assumption?
+- Is one merely a transformed version of another?
+- Are they causally coupled?
 
 If unresolved:
 
@@ -979,9 +979,9 @@ INDEPENDENCE_CLASS
 UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 25. Sensor Model
+## 25. Sensor Model
 
 The sensing pipeline may be represented generically as:
 
@@ -993,17 +993,17 @@ $$
 
 where:
 
-* \(X\) = underlying target state;
-* \(H\) = sensor/measurement transformation;
-* \(N\) = noise;
-* \(B\) = bias;
-* \(Y\) = recorded output.
+- (X) = underlying target state;
+- (H) = sensor/measurement transformation;
+- (N) = noise;
+- (B) = bias;
+- (Y) = recorded output.
 
 This is a generic modeling abstraction, not a universal sensor law.
 
----
+______________________________________________________________________
 
-# 26. Signal vs Evidence
+## 26. Signal vs Evidence
 
 A raw signal is not yet admissible evidence.
 
@@ -1033,9 +1033,9 @@ Signal
 Evidence
 $$
 
----
+______________________________________________________________________
 
-# 27. Measurement Uncertainty
+## 27. Measurement Uncertainty
 
 Every measurement may carry uncertainty.
 
@@ -1075,9 +1075,9 @@ OBSERVER VARIATION
 
 These should remain separately typed where material.
 
----
+______________________________________________________________________
 
-# 28. Precision vs Accuracy
+## 28. Precision vs Accuracy
 
 P2 preserves:
 
@@ -1099,9 +1099,9 @@ does not automatically imply:
 HIGH VALIDITY
 ```
 
----
+______________________________________________________________________
 
-# 29. Resolution
+## 29. Resolution
 
 Resolution describes what distinctions the sensing process can detect.
 
@@ -1125,9 +1125,9 @@ HIGH RESOLUTION
 CORRECT INTERPRETATION
 ```
 
----
+______________________________________________________________________
 
-# 30. Calibration
+## 30. Calibration
 
 Evidence whose measurement depends on instrumentation should preserve calibration status.
 
@@ -1151,13 +1151,13 @@ CALIBRATION:
 
 Stale or unknown calibration may lower admissibility or confidence.
 
----
+______________________________________________________________________
 
-# 31. Sampling
+## 31. Sampling
 
 Sampling may introduce selection effects.
 
-Given environment population \(\Omega\) and sample \(S\):
+Given environment population (\\Omega) and sample (S):
 
 $$
 S\subseteq\Omega
@@ -1181,9 +1181,9 @@ OBSERVED SAMPLE
 FULL ENVIRONMENT
 ```
 
----
+______________________________________________________________________
 
-# 32. Missingness
+## 32. Missingness
 
 Missing data must remain visible.
 
@@ -1207,9 +1207,9 @@ UNKNOWN
 
 These states should not all collapse into zero or false.
 
----
+______________________________________________________________________
 
-# 33. Evidence Freshness
+## 33. Evidence Freshness
 
 Observation validity may decay over time.
 
@@ -1235,9 +1235,9 @@ OBSERVED ONCE
 CURRENT FOREVER
 ```
 
----
+______________________________________________________________________
 
-# 34. Evidence Admission State Machine
+## 34. Evidence Admission State Machine
 
 ```text
 RAW SIGNAL
@@ -1283,9 +1283,9 @@ REJECTED
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 35. Admission Function
+## 35. Admission Function
 
 Conceptually:
 
@@ -1309,9 +1309,9 @@ for evidence where all these terms are load-bearing.
 
 Independence is additionally required where evidence count affects confidence.
 
----
+______________________________________________________________________
 
-# 36. Evidence Confidence
+## 36. Evidence Confidence
 
 Confidence should reflect evidence quality, not rhetorical certainty.
 
@@ -1341,11 +1341,11 @@ EVIDENCE_CONFIDENCE_VECTOR:
 
 A scalar confidence, if used, should not erase this vector.
 
----
+______________________________________________________________________
 
-# 37. Weakest-Premise Ceiling
+## 37. Weakest-Premise Ceiling
 
-If conclusion \(C\) depends on evidence:
+If conclusion (C) depends on evidence:
 
 $$
 E_1,E_2,\ldots,E_n
@@ -1363,17 +1363,17 @@ for load-bearing evidence unless an independent revalidation path raises the app
 
 This is an AMOS epistemic governance rule, not a universal probability theorem.
 
----
+______________________________________________________________________
 
-# 38. Observation Is Not Interpretation
+## 38. Observation Is Not Interpretation
 
-Given observed data \(O\), an interpretation \(I\) is a transformation:
+Given observed data (O), an interpretation (I) is a transformation:
 
 $$
 I=f(O,M)
 $$
 
-where \(M\) may include a model or prior assumptions.
+where (M) may include a model or prior assumptions.
 
 Therefore:
 
@@ -1393,9 +1393,9 @@ system is overheating
 
 The second statement depends on thresholds, calibration, environment, and system-specific models.
 
----
+______________________________________________________________________
 
-# 39. Interpretation Provenance
+## 39. Interpretation Provenance
 
 Interpretation should preserve both:
 
@@ -1431,9 +1431,9 @@ INTERPRETATION_RECORD:
   falsifiers:
 ```
 
----
+______________________________________________________________________
 
-# 40. Competing Interpretations
+## 40. Competing Interpretations
 
 The same observation may support multiple interpretations.
 
@@ -1455,13 +1455,13 @@ must remain visible.
 
 P2 should not collapse observation ambiguity prematurely.
 
----
+______________________________________________________________________
 
-# 41. Falsifiability Contact
+## 41. Falsifiability Contact
 
 P2 carries P1 falsifiability contact forward through evidence capture.
 
-For empirical claim \(C\):
+For empirical claim (C):
 
 ```yaml
 P2_FALSIFICATION_CONTACT:
@@ -1485,9 +1485,9 @@ P2_FALSIFICATION_CONTACT:
 
 A theoretically falsifiable claim with no valid measurement path is not yet operationally testable.
 
----
+______________________________________________________________________
 
-# 42. P2 and Khung Trang Perception
+## 42. P2 and Khung Trang Perception
 
 P2 is structurally related to the Khung Trang pre-symbolic stage:
 
@@ -1519,9 +1519,9 @@ not necessarily:
 IDENTICAL_COMPONENT
 ```
 
----
+______________________________________________________________________
 
-# 43. P2 and Distinction
+## 43. P2 and Distinction
 
 P2 also bears on the transition:
 
@@ -1531,11 +1531,11 @@ $$
 
 because sensing systems often impose distinctions through:
 
-* discretization;
-* thresholds;
-* categories;
-* segmentation;
-* detection boundaries.
+- discretization;
+- thresholds;
+- categories;
+- segmentation;
+- detection boundaries.
 
 However:
 
@@ -1547,9 +1547,9 @@ ONTOLOGICAL DISTINCTION
 
 unless explicitly bound.
 
----
+______________________________________________________________________
 
-# 44. Perception-as-Substrate Filter
+## 44. Perception-as-Substrate Filter
 
 The source specifies:
 
@@ -1572,9 +1572,9 @@ The sensing layer creates evidence candidates.
 
 Truth classification requires downstream evaluation.
 
----
+______________________________________________________________________
 
-# 45. H/M/L Placement
+## 45. H/M/L Placement
 
 P2 can be traversed fractally.
 
@@ -1607,9 +1607,9 @@ LINEAGE EDGE
 
 Only the smallest result-changing branch should be loaded for a specific decision.
 
----
+______________________________________________________________________
 
-# 46. Evidence Dependency Graph
+## 46. Evidence Dependency Graph
 
 Example:
 
@@ -1627,13 +1627,13 @@ OBSERVATION O
       └──► CLAIM C2
 ```
 
-If \(M\) is invalidated due to calibration failure, dependent observations and claims must be re-evaluated.
+If (M) is invalidated due to calibration failure, dependent observations and claims must be re-evaluated.
 
 Unrelated branches remain intact.
 
----
+______________________________________________________________________
 
-# 47. Selective Invalidation
+## 47. Selective Invalidation
 
 If:
 
@@ -1659,9 +1659,9 @@ GLOBAL KNOWLEDGE FAILURE
 
 unless that sensor was globally load-bearing.
 
----
+______________________________________________________________________
 
-# 48. Evidence Provenance Graph
+## 48. Evidence Provenance Graph
 
 ```yaml
 PROVENANCE_GRAPH:
@@ -1686,9 +1686,9 @@ PROVENANCE_GRAPH:
 
 The graph is used to detect correlation and lineage.
 
----
+______________________________________________________________________
 
-# 49. Source Ancestry
+## 49. Source Ancestry
 
 Source ancestry should distinguish:
 
@@ -1704,9 +1704,9 @@ MODEL-GENERATED SYNTHESIS
 
 A tertiary summary should not be promoted to a primary observation merely because the underlying source is unavailable.
 
----
+______________________________________________________________________
 
-# 50. Evidence De-Duplication
+## 50. Evidence De-Duplication
 
 Before counting multiple evidence records:
 
@@ -1738,9 +1738,9 @@ CORRELATED
 INDEPENDENT
 ```
 
----
+______________________________________________________________________
 
-# 51. Independence Topology
+## 51. Independence Topology
 
 Example:
 
@@ -1759,9 +1759,9 @@ The topology should preserve that fact.
 
 No confidence multiplier may assume three independent experiments.
 
----
+______________________________________________________________________
 
-# 52. Observer / Instrument Identity
+## 52. Observer / Instrument Identity
 
 For consequential measurements, observer and instrument identity should be separate.
 
@@ -1783,9 +1783,9 @@ OBSERVATION_CONTEXT:
 
 This permits detection of recurring systematic effects.
 
----
+______________________________________________________________________
 
-# 53. Measurement Transformation Chain
+## 53. Measurement Transformation Chain
 
 A measurement may undergo transformations:
 
@@ -1809,9 +1809,9 @@ Every transformation may alter error structure.
 
 Therefore the transformation history is provenance-relevant.
 
----
+______________________________________________________________________
 
-# 54. Raw vs Processed Evidence
+## 54. Raw vs Processed Evidence
 
 ```text
 RAW EVIDENCE
@@ -1837,9 +1837,9 @@ PROCESSED_EVIDENCE:
   uncertainty_propagation:
 ```
 
----
+______________________________________________________________________
 
-# 55. Evidence Mutation
+## 55. Evidence Mutation
 
 Evidence should not be silently overwritten.
 
@@ -1862,9 +1862,9 @@ CORRECTED
 ORIGINAL NEVER EXISTED
 ```
 
----
+______________________________________________________________________
 
-# 56. Evidence Revision
+## 56. Evidence Revision
 
 ```yaml
 EVIDENCE_REVISION:
@@ -1888,9 +1888,9 @@ EVIDENCE_REVISION:
 
 Historical downstream claims may need revalidation after a load-bearing evidence revision.
 
----
+______________________________________________________________________
 
-# 57. Evidence Freshness and MVCC Analogy
+## 57. Evidence Freshness and MVCC Analogy
 
 Where evidence participates in mutable system state, reasoning should avoid stale reads.
 
@@ -1918,9 +1918,9 @@ rather than silent commit.
 
 This is conceptually compatible with AMOS MVCC/CAS reasoning patterns.
 
----
+______________________________________________________________________
 
-# 58. Evidence CAS Boundary
+## 58. Evidence CAS Boundary
 
 Conceptually:
 
@@ -1940,9 +1940,9 @@ or explicit reconciliation is required.
 
 This is a runtime pattern, not a claim that P2 currently implements a database CAS mechanism.
 
----
+______________________________________________________________________
 
-# 59. P2 Proof Capsule
+## 59. P2 Proof Capsule
 
 ```yaml
 P2_[[01_CANON/01_CORE_LAWS/L19_PROOF_CAPSULE|L19_PROOF_CAPSULE]]:
@@ -1986,9 +1986,9 @@ P2_[[01_CANON/01_CORE_LAWS/L19_PROOF_CAPSULE|L19_PROOF_CAPSULE]]:
   status:
 ```
 
----
+______________________________________________________________________
 
-# 60. Evidence Admission Receipt
+## 60. Evidence Admission Receipt
 
 ```yaml
 P2_ADMISSION_RECEIPT:
@@ -2027,9 +2027,9 @@ P2_ADMISSION_RECEIPT:
 
 The schema is a target contract until runtime implementation is established.
 
----
+______________________________________________________________________
 
-# 61. Negative Cases
+## 61. Negative Cases
 
 ```yaml
 P2_NEGATIVE_CASES:
@@ -2084,9 +2084,9 @@ P2_NEGATIVE_CASES:
     - unknown_gap_treated_as_pass
 ```
 
----
+______________________________________________________________________
 
-# 62. Gap Register
+## 62. Gap Register
 
 ```yaml
 P2_GAPS:
@@ -2122,9 +2122,9 @@ P2_GAPS:
     status: NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 63. Falsifiers
+## 63. Falsifiers
 
 P2 requires revision if:
 
@@ -2148,27 +2148,27 @@ The canon is interpreted as claiming that all measurements materially alter thei
 
 A runtime path promotes sensor output directly into truth status without evidence adjudication.
 
----
+______________________________________________________________________
 
-# 64. Promotion Gate
+## 64. Promotion Gate
 
 Promotion beyond `CONDITIONAL` requires:
 
-* [ ] evidence schema implemented;
-* [ ] claim classes enforced;
-* [ ] source identity required;
-* [ ] provenance attached at capture;
-* [ ] provenance lineage persisted;
-* [ ] independence classes implemented;
-* [ ] duplicate/correlated evidence detection implemented;
-* [ ] scope/regime binding enforced;
-* [ ] freshness checks implemented;
-* [ ] uncertainty represented;
-* [ ] observation/interpretation separation enforced;
-* [ ] negative cases executed;
-* [ ] selective invalidation demonstrated;
-* [ ] artifact-specific validation receipt persisted;
-* [ ] unresolved critical gaps remain visible.
+- [ ] evidence schema implemented;
+- [ ] claim classes enforced;
+- [ ] source identity required;
+- [ ] provenance attached at capture;
+- [ ] provenance lineage persisted;
+- [ ] independence classes implemented;
+- [ ] duplicate/correlated evidence detection implemented;
+- [ ] scope/regime binding enforced;
+- [ ] freshness checks implemented;
+- [ ] uncertainty represented;
+- [ ] observation/interpretation separation enforced;
+- [ ] negative cases executed;
+- [ ] selective invalidation demonstrated;
+- [ ] artifact-specific validation receipt persisted;
+- [ ] unresolved critical gaps remain visible.
 
 Until then:
 
@@ -2178,9 +2178,9 @@ CANONICAL STATUS
 CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
-# 65. Cross-Plane Bindings
+## 65. Cross-Plane Bindings
 
 ```yaml
 P2_BINDINGS:
@@ -2212,9 +2212,9 @@ P2 inherits applicable constraints from P1.
 
 It does not supersede them.
 
----
+______________________________________________________________________
 
-# 66. P1 → P2 Transition
+## 66. P1 → P2 Transition
 
 The P1/P2 boundary can be summarized as:
 
@@ -2251,9 +2251,9 @@ P2Evidence
 P1Reality
 $$
 
----
+______________________________________________________________________
 
-# 67. H-Level RSCF
+## 67. H-Level RSCF
 
 ```yaml
 H:
@@ -2280,9 +2280,9 @@ H:
     CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
-# 68. M-Level RSCF
+## 68. M-Level RSCF
 
 ```yaml
 M:
@@ -2311,9 +2311,9 @@ M:
     - SOURCE_COUNT_NE_INDEPENDENCE
 ```
 
----
+______________________________________________________________________
 
-# 69. L-Level RSCF
+## 69. L-Level RSCF
 
 ```yaml
 L:
@@ -2344,9 +2344,9 @@ L:
     preserve: true
 ```
 
----
+______________________________________________________________________
 
-# 70. Full RSCF Contract
+## 70. Full RSCF Contract
 
 ```yaml
 RSCF:
@@ -2434,9 +2434,9 @@ RSCF:
       CLAIM_SPECIFIC
 ```
 
----
+______________________________________________________________________
 
-# 71. Canonical Compression
+## 71. Canonical Compression
 
 P2 can be reduced to three primary laws:
 
@@ -2533,9 +2533,9 @@ RUNTIME VALIDATION
 NOT ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 72. RSCF Node
+## 72. RSCF Node
 
 RSCF-NODE
 
@@ -2577,52 +2577,53 @@ NOT_ESTABLISHED
 
 RSCF-RELATIONS:
 
-* INDEXED_BY:
+- INDEXED_BY:
 
-* INDEXED_BY:
+- INDEXED_BY:
 
-* INDEXED_BY:
+- INDEXED_BY:
 
-* CHILD_OF:
+- CHILD_OF:
 
-* INHERITS_FROM:
+- INHERITS_FROM:
 
-* RELATED_HIERARCHY:
+- RELATED_HIERARCHY:
 
-* RELATED_FRAMEWORK:
+- RELATED_FRAMEWORK:
 
-* RELATED_FRAMEWORK:
+- RELATED_FRAMEWORK:
 
-* GOVERNS:
+- GOVERNS:
   EVIDENCE_ADMISSION
 
-* GOVERNS:
+- GOVERNS:
   PROVENANCE_AT_CAPTURE
 
-* GOVERNS:
+- GOVERNS:
   EVIDENCE_INDEPENDENCE_CLASSIFICATION
 
----
+______________________________________________________________________
 
 00_ROOT_MOC|AMOS MOC
 
----
+______________________________________________________________________
 
-**Related:**  ·  ·  ·  ·  ·  ·
+**Related:** · · · · · ·
 
----
+______________________________________________________________________
 
 **MOC:**
 
----
+______________________________________________________________________
 
 **Trang Framework:**
 
----
+______________________________________________________________________
 
 **Origin architect / steward:** **Trang Phan**
 
-
 The decisive P2 invariants are now explicit: **evidence must be typed**, **measurement is itself part of the observation process**, and **provenance begins at capture**. The source boundary `sensed != true` is preserved as the central firewall, while observer-effect semantics remain domain-specific rather than being promoted into a universal physical claim.
 
+```
+```
 ```

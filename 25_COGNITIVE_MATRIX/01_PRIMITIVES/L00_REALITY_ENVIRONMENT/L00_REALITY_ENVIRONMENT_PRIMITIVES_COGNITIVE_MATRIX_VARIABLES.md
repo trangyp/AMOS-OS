@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: L00 REALITY ENVIRONMENT PRIMITIVES COGNITIVE MATRIX VARIABLES
 type: variable
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT
 tags:
-- cognitive-matrix
-- primitives
-- matrix/l00-reality-environment
-- note
-- domain/cognitive-matrix
+  - cognitive-matrix
+  - primitives
+  - matrix/l00-reality-environment
+  - note
+  - domain/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -50,31 +53,31 @@ UNKNOWN
 
 The governing boundary is:
 
-[
-\boxed{
-Representation(Reality) \neq Reality
+\[
+\\boxed{
+Representation(Reality) \\neq Reality
 }
-]
+\]
 
 and:
 
-[
-\boxed{
+\[
+\\boxed{
 Observation
-\neq
+\\neq
 Inference
-\neq
+\\neq
 Memory
-\neq
+\\neq
 Prediction
-\neq
+\\neq
 Simulation
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 2. Variable Namespace
+## 2. Variable Namespace
 
 Canonical structural namespace:
 
@@ -105,15 +108,13 @@ L00.recovery.*
 
 Variables from these families must not be merged merely because their values are syntactically identical.
 
----
+______________________________________________________________________
 
-# 3. Master Variable Tensor
+## 3. Master Variable Tensor
 
-[
-\mathcal{V}_{L00}
-=================
+## \[ \\mathcal{V}\_{L00}
 
-V[
+V\[
 id,
 value,
 type,
@@ -131,8 +132,8 @@ confidence,
 authority,
 dependencies,
 state
-]
-]
+\]
+\]
 
 Structural schema:
 
@@ -192,9 +193,9 @@ L00Variable:
     quarantined:
 ```
 
----
+______________________________________________________________________
 
-# 4. Primitive Identity Variables
+## 4. Primitive Identity Variables
 
 ```yaml
 L00.identity.primitive_id:
@@ -220,9 +221,9 @@ MUST SURVIVE
 TRANSFORMATION + SERIALIZATION + REPLAY
 ```
 
----
+______________________________________________________________________
 
-# 5. Environment Variables
+## 5. Environment Variables
 
 ```yaml
 L00.environment.id:
@@ -257,9 +258,9 @@ ENVIRONMENT STATE
 INTERNAL MODEL OF ENVIRONMENT
 ```
 
----
+______________________________________________________________________
 
-# 6. Observation Variables
+## 6. Observation Variables
 
 ```yaml
 L00.observation.id:
@@ -315,9 +316,9 @@ UNOBSERVED
 ABSENT
 ```
 
----
+______________________________________________________________________
 
-# 7. Measurement Variables
+## 7. Measurement Variables
 
 ```yaml
 L00.measurement.value:
@@ -352,17 +353,17 @@ L00.measurement.quality:
 
 Hard boundary:
 
-[
+\[
 value_a = value_b
-\not\Rightarrow
+\\not\\Rightarrow
 measurement_a = measurement_b
-]
+\]
 
 unless units, semantics, scope, method, and applicability are compatible.
 
----
+______________________________________________________________________
 
-# 8. Epistemic Variables
+## 8. Epistemic Variables
 
 ```yaml
 L00.epistemic.class:
@@ -396,9 +397,9 @@ L00.epistemic.validation_state:
 
 No operator may silently change `epistemic.class`.
 
----
+______________________________________________________________________
 
-# 9. Source Variables
+## 9. Source Variables
 
 ```yaml
 L00.source.id:
@@ -431,9 +432,9 @@ SOURCE REPORT
 OBSERVED REALITY
 ```
 
----
+______________________________________________________________________
 
-# 10. Provenance Variables
+## 10. Provenance Variables
 
 ```yaml
 L00.provenance.refs:
@@ -465,25 +466,21 @@ L00.provenance.freshness:
 
 Core relation:
 
-[
-IndependentEvidenceCount
-========================
+## \[ IndependentEvidenceCount
 
-|\text{independent ancestry groups}|
-]
+|\\text{independent ancestry groups}|
+\]
 
 not:
 
-[
-IndependentEvidenceCount
-========================
+## \[ IndependentEvidenceCount
 
-|\text{source labels}|
-]
+|\\text{source labels}|
+\]
 
----
+______________________________________________________________________
 
-# 11. Temporal Variables
+## 11. Temporal Variables
 
 ```yaml
 L00.time.event:
@@ -531,9 +528,9 @@ EVALUATION_TIME
 
 unless equality is established.
 
----
+______________________________________________________________________
 
-# 12. Scope Variables
+## 12. Scope Variables
 
 ```yaml
 L00.scope.system:
@@ -557,17 +554,17 @@ L00.scope.measurement_context:
 
 Invariant:
 
-[
+\[
 Valid(x,S_1)
-\not\Rightarrow
+\\not\\Rightarrow
 Valid(x,S_2)
-]
+\]
 
-for arbitrary (S_1 \neq S_2).
+for arbitrary (S_1 \\neq S_2).
 
----
+______________________________________________________________________
 
-# 13. Regime Variables
+## 13. Regime Variables
 
 ```yaml
 L00.regime.id:
@@ -591,9 +588,9 @@ L00.regime.transition_detected:
 
 A regime transition may invalidate previously valid state.
 
----
+______________________________________________________________________
 
-# 14. Freshness Variables
+## 14. Freshness Variables
 
 ```yaml
 L00.freshness.requirement:
@@ -614,20 +611,18 @@ L00.freshness.revalidation_required:
 
 Conceptual relation:
 
-[
-Fresh(v,t)
-==========
+## \[ Fresh(v,t)
 
 Age(v,t)
-\le
+\\le
 Threshold(v,scope,regime)
-]
+\]
 
 The threshold is domain-dependent and must not be invented where unspecified.
 
----
+______________________________________________________________________
 
-# 15. Conflict Variables
+## 15. Conflict Variables
 
 ```yaml
 L00.conflict.detected:
@@ -664,9 +659,9 @@ CONFLICT DETECTED
 CONFLICT RESOLVED
 ```
 
----
+______________________________________________________________________
 
-# 16. Dependency Variables
+## 16. Dependency Variables
 
 ```yaml
 L00.dependency.parents:
@@ -687,17 +682,17 @@ L00.dependency.invalidated:
 
 Selective invalidation:
 
-[
+\[
 Invalid(p)
-\Rightarrow
+\\Rightarrow
 Invalidate(DependentDescendants(p))
-]
+\]
 
 not unrelated state.
 
----
+______________________________________________________________________
 
-# 17. Authority Variables
+## 17. Authority Variables
 
 ```yaml
 L00.authority.read:
@@ -737,9 +732,9 @@ PROPOSAL != COMMIT
 PAST AUTHORITY != CURRENT AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 18. State Variables
+## 18. State Variables
 
 ```yaml
 L00.state.id:
@@ -790,9 +785,9 @@ PROPOSED → COMMITTED
 
 without the required validation.
 
----
+______________________________________________________________________
 
-# 19. Uncertainty Vector
+## 19. Uncertainty Vector
 
 ```yaml
 L00.uncertainty.evidence:
@@ -819,9 +814,9 @@ L00.uncertainty.provenance_independence:
 
 These dimensions should remain separate where decision-relevant.
 
----
+______________________________________________________________________
 
-# 20. Confidence Variables
+## 20. Confidence Variables
 
 ```yaml
 L00.confidence.evidence:
@@ -845,19 +840,19 @@ L00.confidence.derived_ceiling:
 
 For load-bearing premises:
 
-[
-\boxed{
-C_{derived}
-\le
-\min_i C_i
+\[
+\\boxed{
+C\_{derived}
+\\le
+\\min_i C_i
 }
-]
+\]
 
 unless an independent evidential path removes dependency on the weakest premise.
 
----
+______________________________________________________________________
 
-# 21. Input Contract
+## 21. Input Contract
 
 L00 may receive typed inputs such as:
 
@@ -889,9 +884,9 @@ prior committed state
 
 Input admission requires appropriate typing.
 
----
+______________________________________________________________________
 
-# 22. Output Contract
+## 22. Output Contract
 
 L00 may produce:
 
@@ -919,9 +914,9 @@ recovery proposals
 
 It must not manufacture observations to satisfy an output contract.
 
----
+______________________________________________________________________
 
-# 23. Operators
+## 23. Operators
 
 Variables participate in operators including:
 
@@ -967,9 +962,9 @@ ROLLBACK
 
 Operator execution must preserve variable identity and epistemic class unless an explicit validated transformation licenses change.
 
----
+______________________________________________________________________
 
-# 24. H/M/L Applicability
+## 24. H/M/L Applicability
 
 ### L — Local
 
@@ -1003,17 +998,17 @@ environment-wide availability
 
 Invariant:
 
-[
+\[
 Valid(L)
-\not\Rightarrow
+\\not\\Rightarrow
 Valid(H)
-]
+\]
 
 without adequate coverage and an explicit aggregation rule.
 
----
+______________________________________________________________________
 
-# 25. Control-Plane Variables
+## 25. Control-Plane Variables
 
 ```yaml
 L00.control.prepare_epoch:
@@ -1046,9 +1041,9 @@ PREPARE VALIDITY
 COMMIT-TIME VALIDITY
 ```
 
----
+______________________________________________________________________
 
-# 26. Agent Variables
+## 26. Agent Variables
 
 Agent bindings may include:
 
@@ -1094,9 +1089,9 @@ Hard boundary:
 AGENT NAMED != AGENT IMPLEMENTED
 ```
 
----
+______________________________________________________________________
 
-# 27. Skill Variables
+## 27. Skill Variables
 
 Every bound Skill should expose:
 
@@ -1122,9 +1117,9 @@ SKILL AVAILABLE
 SKILL VALIDATED FOR L00
 ```
 
----
+______________________________________________________________________
 
-# 28. Workflow Variables
+## 28. Workflow Variables
 
 Required workflow state may include:
 
@@ -1172,9 +1167,9 @@ RECOVERY
 SELECTIVE_INVALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 29. Protocol Variables
+## 29. Protocol Variables
 
 Cross-component messages should preserve:
 
@@ -1196,9 +1191,9 @@ message:
 
 Message transport must not change epistemic status.
 
----
+______________________________________________________________________
 
-# 30. Evidence Variables
+## 30. Evidence Variables
 
 ```yaml
 L00.evidence.id:
@@ -1229,9 +1224,9 @@ L00.evidence.confidence:
   type: bounded_real
 ```
 
----
+______________________________________________________________________
 
-# 31. Failure Variables
+## 31. Failure Variables
 
 ```yaml
 L00.failure.detected:
@@ -1268,9 +1263,9 @@ L00.failure.root_cause:
 
 Failure classification must not invent root cause.
 
----
+______________________________________________________________________
 
-# 32. Recovery Variables
+## 32. Recovery Variables
 
 ```yaml
 L00.recovery.required:
@@ -1299,9 +1294,9 @@ L00.recovery.status:
     - UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 33. Core Variable Invariants
+## 33. Core Variable Invariants
 
 ```text
 INV_VAR_001
@@ -1350,28 +1345,26 @@ INV_VAR_015
 LOCAL_STATE != GLOBAL_STATE
 ```
 
----
+______________________________________________________________________
 
-# 34. Cross-Variable Compatibility
+## 34. Cross-Variable Compatibility
 
 Before combining variables (a) and (b):
 
-[
-Compatible(a,b)
-===============
+## \[ Compatible(a,b)
 
 SemanticCompat
-\land
+\\land
 UnitCompat
-\land
+\\land
 ScopeCompat
-\land
+\\land
 RegimeCompat
-\land
+\\land
 TemporalCompat
-\land
+\\land
 EpistemicCompat
-]
+\]
 
 If any load-bearing compatibility condition is unknown:
 
@@ -1385,75 +1378,71 @@ UNKNOWN/GAP
 
 rather than silent merge.
 
----
+______________________________________________________________________
 
-# 35. Variable Promotion
+## 35. Variable Promotion
 
 A candidate variable may enter current validated state only when:
 
-[
-Promotable(v)
-=============
+## \[ Promotable(v)
 
 Typed(v)
-\land
+\\land
 ProvenanceAdequate(v)
-\land
+\\land
 Fresh(v)
-\land
+\\land
 ScopeValid(v)
-\land
+\\land
 RegimeValid(v)
-\land
+\\land
 ConflictAcceptable(v)
-]
+\]
 
 plus applicable authority and control-plane requirements.
 
 This is a structural AMOS model, not a claim of empirical universality.
 
----
+______________________________________________________________________
 
-# 36. Variable Mutation Rule
+## 36. Variable Mutation Rule
 
-For current state \(V_t\) and proposed delta (\Delta V):
+For current state (V_t) and proposed delta (\\Delta V):
 
-[
-V_{t+1}
-=======
+## \[ V\_{t+1}
 
-Commit(V_t,\Delta V)
-]
+Commit(V_t,\\Delta V)
+\]
 
 only after validation.
 
 Therefore:
 
-[
-Propose(\Delta V)
-\not\Rightarrow
-V_{t+1}
-]
+\[
+Propose(\\Delta V)
+\\not\\Rightarrow
+V\_{t+1}
+\]
 
----
+______________________________________________________________________
 
-# 37. Selective Invalidation
+## 37. Selective Invalidation
 
-If variable \(v_i\) becomes invalid:
+If variable (v_i) becomes invalid:
 
-[
+\[
 Invalid(v_i)
-\Rightarrow
+\\Rightarrow
 Invalidate(D(v_i))
-]
+\]
 
 where (D(v_i)) is its dependent descendant set.
 
 Unrelated variables remain valid.
 
----
+______________________________________________________________________
 
-# 38. Variable Falsifiers
+## 38. Variable Falsifiers
 
 The contract fails if:
 
@@ -1491,9 +1480,9 @@ proposal mutates committed state
 invalidating one premise destroys unrelated valid state
 ```
 
----
+______________________________________________________________________
 
-# 39. Validators
+## 39. Validators
 
 ```text
 VALIDATOR_L00_VARIABLE_SCHEMA
@@ -1529,9 +1518,9 @@ VALIDATOR_L00_CONFIDENCE_CEILING
 VALIDATOR_L00_SELECTIVE_INVALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 40. Minimum Variable Tests
+## 40. Minimum Variable Tests
 
 ```text
 TEST_VAR_001 prediction cannot populate observation.value
@@ -1565,9 +1554,9 @@ TEST_VAR_014 invalid premise invalidates descendants only
 TEST_VAR_015 confidence cannot exceed weakest load-bearing premise
 ```
 
----
+______________________________________________________________________
 
-# 41. AI Application
+## 41. AI Application
 
 For an AI system, the L00 variable layer provides a typed firewall between:
 
@@ -1595,30 +1584,30 @@ OBSERVED OUTCOME
 
 This prevents a common grounding failure:
 
-[
+\[
 Generated(x)
-\Rightarrow
+\\Rightarrow
 Observed(x)
-]
+\]
 
 which is invalid.
 
 The permitted relationship is:
 
-[
+\[
 Generated(x)
-\land
+\\land
 ExternallyValidated(x)
-\Rightarrow
+\\Rightarrow
 x
-\text{ may receive a stronger epistemic classification}
-]
+\\text{ may receive a stronger epistemic classification}
+\]
 
 subject to the relevant evidence contract.
 
----
+______________________________________________________________________
 
-# 42. Gap Status
+## 42. Gap Status
 
 ```yaml
 gap_status:
@@ -1643,9 +1632,9 @@ gap_status:
     - documentation presentation
 ```
 
----
+______________________________________________________________________
 
-# 43. RSCF Completion State
+## 43. RSCF Completion State
 
 ```yaml
 rscf:
@@ -1705,9 +1694,9 @@ rscf:
     L00 variable source
 ```
 
----
+______________________________________________________________________
 
-# 44. Completion State
+## 44. Completion State
 
 ```yaml
 completion_state:
@@ -1747,18 +1736,18 @@ completion_state:
     MODEL / CONDITIONAL
 ```
 
-# 45. Final Variable Contract
+## 45. Final Variable Contract
 
 The governing rule for `L00_REALITY_ENVIRONMENT — Variables` is:
 
-[
-\boxed{
-Every\ environment\ value\ must\ retain
-\ what\ it\ is,\ where\ it\ came\ from,
-\ when\ it\ applied,\ where\ it\ applies,
-\ and\ how\ strongly\ it\ is\ known.
+\[
+\\boxed{
+Every\\ environment\\ value\\ must\\ retain
+\\ what\\ it\\ is,\\ where\\ it\\ came\\ from,
+\\ when\\ it\\ applied,\\ where\\ it\\ applies,
+\\ and\\ how\\ strongly\\ it\\ is\\ known.
 }
-]
+\]
 
 No variable representation may erase the distinction between:
 
@@ -1799,23 +1788,26 @@ Until direct authoritative L00 variable canon and executable runtime bindings ar
 MODEL / CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: l00_reality_environment_primitives_cognitive_matrix_variables
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_VARIABLES.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_MOC|L00_REALITY_ENVIRONMENT_MOC]]
-

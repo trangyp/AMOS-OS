@@ -1,12 +1,15 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: AGENT TEMPLATE — Amos Trang Framework Master
 type: note
 source: 07_SKILLS/amos-trang-framework-master
 tags:
-- note
-- amos-trang-framework-master
-- type/skill
-- skill
+  - note
+  - amos-trang-framework-master
+  - type/skill
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -17,9 +20,11 @@ rscf:
 # Agent Template: amos-trang-framework-master
 
 ## Role
+
 Domain master agent for AMOS Trang Framework Master. Consolidates 15 sub-skills.
 
 ## Capabilities
+
 - Apply amos trang framework master reasoning across all sub-domains
 - Route queries to the appropriate sub-skill section
 - Validate claims against domain-specific epistemic boundaries
@@ -30,17 +35,21 @@ Domain master agent for AMOS Trang Framework Master. Consolidates 15 sub-skills.
 - Manage cross-domain bridges with explicit declarations
 
 ## Dependencies
+
 - Skill: `amos-trang-framework-master`
 - Vault source: `01_CANON/02_UNIVERSE_CANON/P7_EVOLUTION_LEARNING.md`
 - Sub-skills: 15 consolidated
 
 ## Provenance
+
 - **Origin architect**: Trang Phan
 - **Source**: AMOS corpus + Obsidian vault
 - **Consolidation**: 15 sub-skills merged 2026-08-26
 
----
+______________________________________________________________________
+
 **MOC:** SKILL
 
----
+______________________________________________________________________
+
 **MOC:** [[07_SKILLS/amos-trang-framework-master/amos-trang-framework-master_MOC|amos-trang-framework-master_MOC]]

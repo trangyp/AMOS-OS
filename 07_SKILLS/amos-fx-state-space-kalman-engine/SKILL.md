@@ -4,24 +4,22 @@ title: SKILL — Amos Fx State Space Kalman Engine
 type: skill
 source: 07_SKILLS/amos-fx-state-space-kalman-engine
 name: amos-fx-state-space-kalman-engine
-description: State Space Kalman Engine — forex and finance capability. Use when forex
-  analysis, currency trading, or market dynamics. Use when amos-c07-econ-finance-master
-  routes to this specialized capability. Do not use for generic tasks outside fx domain.
+description: State Space Kalman Engine — forex and finance capability. Use when forex analysis, currency trading, or market dynamics. Use when amos-c07-econ-finance-master routes to this specialized capability. Do not use for generic tasks outside fx domain.
 parent_skill: amos-c07-econ-finance-master
 domain: fx
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
 tags:
-- type/skill
-- type/skill
-- domain/econ-finance
-- epistemic/source_claim
-- hml/m
-- epistemic/source_claim
-- amos-os
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/econ-finance
+  - epistemic/source_claim
+  - hml/m
+  - epistemic/source_claim
+  - amos-os
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -31,22 +29,22 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: M
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
-- L6_uncertainty
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
+  - L6_uncertainty
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L6
-- L16
-- L17
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L6
+  - L16
+  - L17
 license: MIT
 steward: Trang Phan
 ---
@@ -56,6 +54,7 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: fx. Parent: amos-c07-econ-finance-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
 ## When to Use
 
 - When calibrating FX models: Bayesian neural SDEs, volatility surfaces
@@ -75,6 +74,7 @@ Origin architect: **Trang Phan**. Domain: fx. Parent: amos-c07-econ-finance-mast
 - **state_space.monitor_regime**: Monitor FX regime shifts: volatility, correlation, and liquidity transitions
 
 > **Reference**: See `references/vault_domain_knowledge.md` (content_hash: d67d03ec3e72a507) for the full vault-sourced domain knowledge (10170 chars).
+
 - **state_space.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
 - **state_space.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **state_space.validate_outputs**: Validate outputs against domain constraints and epistemic class.
@@ -82,12 +82,12 @@ Origin architect: **Trang Phan**. Domain: fx. Parent: amos-c07-econ-finance-mast
 ## Operations
 
 1. **state_space.calibrate_model**: Calibrate FX models: Bayesian neural SDEs, volatility surfaces, and term structures
-2. **state_space.assess_risk**: Assess FX risk: currency exposure, correlation breakdown, and tail events
-3. **state_space.backtest_strategy**: Backtest FX strategies: walk-forward, regime-aware, and stress-tested
-4. **state_space.monitor_regime**: Monitor FX regime shifts: volatility, correlation, and liquidity transitions
-5. **state_space.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-6. **state_space.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
-7. **state_space.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+1. **state_space.assess_risk**: Assess FX risk: currency exposure, correlation breakdown, and tail events
+1. **state_space.backtest_strategy**: Backtest FX strategies: walk-forward, regime-aware, and stress-tested
+1. **state_space.monitor_regime**: Monitor FX regime shifts: volatility, correlation, and liquidity transitions
+1. **state_space.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+1. **state_space.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+1. **state_space.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## 11_KNOWLEDGE Vault Content
 
@@ -98,17 +98,19 @@ Origin architect: **Trang Phan**. Domain: fx. Parent: amos-c07-econ-finance-mast
 From C07: Regime superposition with posterior weights. All outputs MODEL.
 
 **State-space model**:
+
 - **State vector**: unobserved true state (regime, level, trend)
 - **Observation vector**: observed market data (prices, volumes, spreads)
 - **Transition model**: how state evolves over time
 - **Observation model**: how state maps to observations
 
 **Kalman filter protocol**:
+
 1. **Predict**: predict next state from transition model
-2. **Update**: update state estimate with new observation
-3. **Compute posterior**: compute posterior state distribution
-4. **Tag regime**: tag current regime with posterior weights
-5. **Flag uncertainty**: flag when posterior uncertainty is high
+1. **Update**: update state estimate with new observation
+1. **Compute posterior**: compute posterior state distribution
+1. **Tag regime**: tag current regime with posterior weights
+1. **Flag uncertainty**: flag when posterior uncertainty is high
 
 **Regime posteriors**: Regime classes (trend/range/crisis) hold posterior weights updated on macro evidence. No single regime is asserted while alternatives retain material probability.
 
@@ -126,7 +128,6 @@ FX state-space Kalman engine is an analytical model. It does not prove optimal f
 - **Validation failure**: If validation gates fail, downgrade confidence, flag the gap, and escalate — do not force-fit.
 - **Epistemic overreach**: If a claim exceeds the established evidence or epistemic class, retract and relabel.
 
-
 ## Validation Gates
 
 - **G1 (Law of Law)**: No unresolved contradictions within the skill's scope.
@@ -141,7 +142,8 @@ FX state-space Kalman engine is an analytical model. It does not prove optimal f
 - **Skill**: `amos-fx-state-space-kalman-engine`
 - **Parent**:
 
----
+______________________________________________________________________
+
 **Links:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 ## Related
@@ -151,17 +153,19 @@ FX state-space Kalman engine is an analytical model. It does not prove optimal f
 ## Examples
 
 - **Scenario**: When calibrating FX models: Bayesian neural SDEs, volatility surfaces
+
   - **Input**: A query matching this skill's domain (fx)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When assessing FX risk: currency exposure, correlation, tail events
+
   - **Input**: A query matching this skill's domain (fx)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When backtesting FX strategies: walk-forward, regime-aware, stress-tested
+
   - **Input**: A query matching this skill's domain (fx)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Anti-Patterns
 
@@ -171,7 +175,6 @@ FX state-space Kalman engine is an analytical model. It does not prove optimal f
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `amos-c07-econ-finance-master` — routes to this skill when fx specialization is needed
@@ -179,7 +182,6 @@ FX state-space Kalman engine is an analytical model. It does not prove optimal f
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -198,7 +200,6 @@ FX state-space Kalman engine is an analytical model. It does not prove optimal f
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -206,7 +207,6 @@ FX state-space Kalman engine is an analytical model. It does not prove optimal f
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -219,11 +219,12 @@ FX state-space Kalman engine is an analytical model. It does not prove optimal f
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `amos-c07-econ-finance-master` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `amos-fx-state-space-kalman-engine-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -231,12 +232,14 @@ FX state-space Kalman engine is an analytical model. It does not prove optimal f
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-fx-state-space-kalman-engine
 node_type: skill
 path: 07_SKILLS/amos-fx-state-space-kalman-engine/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

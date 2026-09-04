@@ -12,23 +12,23 @@ segment: 11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE
 artifact_kind: DOMAIN_KNOWLEDGE
 path: 11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/UBI_BIOELECTROMAGNETIC_INTELLIGENCE.md
 tags:
-- amos-os
-- knowledge
-- vault
-- 06_domain_knowledge
-- ubi
-- bei
-- bioelectromagnetics
-- neural_oscillations
-- cardiac_coherence
-- rhythmic_regulation
-- synchrony
-- rscf
-- canon_candidate
-- canon/knowledge
-- unified-biological-intelligence
-- amos-x-ubi
-- amos-x-ubi-matrix
+  - amos-os
+  - knowledge
+  - vault
+  - 06_domain_knowledge
+  - ubi
+  - bei
+  - bioelectromagnetics
+  - neural_oscillations
+  - cardiac_coherence
+  - rhythmic_regulation
+  - synchrony
+  - rscf
+  - canon_candidate
+  - canon/knowledge
+  - unified-biological-intelligence
+  - amos-x-ubi
+  - amos-x-ubi-matrix
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -43,24 +43,24 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - UBI_OFFICIAL_MANUAL
-  - UNIFIED_BIOLOGICAL_INTELLIGENCE_UBI_OFFICIAL
-  - AMOS_CORPUS
+    - UBI_OFFICIAL_MANUAL
+    - UNIFIED_BIOLOGICAL_INTELLIGENCE_UBI_OFFICIAL
+    - AMOS_CORPUS
   scope:
-  - BIOLOGICAL_INTELLIGENCE
-  - BIOELECTROMAGNETICS
-  - SOURCE_DEFINED_BEI_MODEL
+    - BIOLOGICAL_INTELLIGENCE
+    - BIOELECTROMAGNETICS
+    - SOURCE_DEFINED_BEI_MODEL
 framework_binding:
   parent_framework:
     name: Unified Biological Intelligence™
     acronym: UBI
     artifact:
-    - - UNIFIED_BIOLOGICAL_INTELLIGENCE
+      -   - UNIFIED_BIOLOGICAL_INTELLIGENCE
   matrix_binding:
     artifact:
-    - - AMOS_X_UBI
+      -   - AMOS_X_UBI
     matrix:
-    - - AMOS_X_UBI_MATRIX
+      -   - AMOS_X_UBI_MATRIX
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   domain_structure: VERIFIED_SOURCE_STRUCTURE
@@ -74,17 +74,17 @@ epistemic_boundary:
 
 BEI governs biological rhythmicity, systemic timing, and electrophysiological synchrony across organ systems.
 
----
+______________________________________________________________________
 
-# 1. Biological Foundations
+## 1. Biological Foundations
 
 - **Substrate:** Cardiac electromagnetic field emissions, neural oscillatory rhythms (theta, alpha, gamma synchrony), bioelectric cell-membrane potentials, gap junction signaling.
 - **Core Functions:** Cross-organ rhythmic synchronization, phase-locking, timing coordination, environmental resonance sensitivity.
 - **Measurement Methods:** High-resolution EEG spectral analysis, Magnetoencephalography (MEG), Electrocardiographic spectral coherence.
 
----
+______________________________________________________________________
 
-# 2. RSCF Contract
+## 2. RSCF Contract
 
 ```yaml
 RSCF:
@@ -102,10 +102,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/06_DOMAIN_KNOWLEDGE_MOC|06_DOMAIN_KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]] · [[25_COGNITIVE_MATRIX/AMOS_X_UBI|AMOS_X_UBI]]
 
----
-**MOC:** [[11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/06_DOMAIN_KNOWLEDGE_MOC|06_DOMAIN_KNOWLEDGE_MOC]]
+______________________________________________________________________
 
+**MOC:** [[11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/06_DOMAIN_KNOWLEDGE_MOC|06_DOMAIN_KNOWLEDGE_MOC]]

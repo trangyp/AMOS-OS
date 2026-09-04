@@ -4,24 +4,22 @@ title: SKILL — Amos Qls Substrate
 type: skill
 source: 07_SKILLS/amos-qls-substrate
 name: amos-qls-substrate
-description: Qls Substrate — runtime and OS capability. Use when runtime reasoning,
-  OS kernel operations, or adaptive stability. Use when amos-os-runtime-master routes
-  to this specialized capability. Do not use for generic tasks outside runtime domain.
+description: Qls Substrate — runtime and OS capability. Use when runtime reasoning, OS kernel operations, or adaptive stability. Use when amos-os-runtime-master routes to this specialized capability. Do not use for generic tasks outside runtime domain.
 parent_skill: amos-os-runtime-master
 domain: runtime
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
 tags:
-- type/skill
-- type/skill
-- domain/os-runtime
-- epistemic/source_claim
-- hml/m
-- epistemic/source_claim
-- amos-os
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/os-runtime
+  - epistemic/source_claim
+  - hml/m
+  - epistemic/source_claim
+  - amos-os
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -31,25 +29,25 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: M
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
-- L7_authority
-- L8_execution
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
+  - L7_authority
+  - L8_execution
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L7
-- L8
-- L16
-- L17
-- L18
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L7
+  - L8
+  - L16
+  - L17
+  - L18
 license: MIT
 steward: Trang Phan
 ---
@@ -59,6 +57,7 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: runtime. Parent: amos-os-runtime-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
 ## When to Use
 
 - When monitoring runtime stability: drift, oscillation, divergence
@@ -79,6 +78,7 @@ Origin architect: **Trang Phan**. Domain: runtime. Parent: amos-os-runtime-maste
 - **qls_substrate.enforce_closed_loop**: Enforce closed-loop learning: every output feeds back into the next iteration
 
 > **Reference**: See `references/vault_domain_knowledge.md` (content_hash: 1bf27b82010f5ef0) for the full vault-sourced domain knowledge (9545 chars).
+
 - **qls_substrate.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
 - **qls_substrate.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **qls_substrate.validate_outputs**: Validate outputs against domain constraints and epistemic class.
@@ -86,13 +86,13 @@ Origin architect: **Trang Phan**. Domain: runtime. Parent: amos-os-runtime-maste
 ## Operations
 
 1. **qls_substrate.monitor_stability**: Monitor runtime stability: drift, oscillation, divergence, and regime transitions
-2. **qls_substrate.calibrate_feedback**: Calibrate feedback control loops to maintain stable operating conditions
-3. **qls_substrate.decompose_primitive**: Decompose complex operations into primitive, atomic, verifiable steps
-4. **qls_substrate.align_drift**: Align AI drift back to authorized operating envelope when deviation is detected
-5. **qls_substrate.enforce_closed_loop**: Enforce closed-loop learning: every output feeds back into the next iteration
-6. **qls_substrate.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-7. **qls_substrate.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
-8. **qls_substrate.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+1. **qls_substrate.calibrate_feedback**: Calibrate feedback control loops to maintain stable operating conditions
+1. **qls_substrate.decompose_primitive**: Decompose complex operations into primitive, atomic, verifiable steps
+1. **qls_substrate.align_drift**: Align AI drift back to authorized operating envelope when deviation is detected
+1. **qls_substrate.enforce_closed_loop**: Enforce closed-loop learning: every output feeds back into the next iteration
+1. **qls_substrate.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+1. **qls_substrate.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+1. **qls_substrate.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## 11_KNOWLEDGE Vault Content
 
@@ -104,16 +104,18 @@ Origin architect: **Trang Phan**. Domain: runtime. Parent: amos-os-runtime-maste
 From Cosmo Brain Quantum Logic Systems (QLS): The foundational logic substrate underlying all reality layers. QIC units (discrete distinguishable interaction-capable coherence units) as the basis of all logic.
 
 **4 QLS Constants**:
+
 - **Light = information**: information is the fundamental substance
 - **Time = ordering**: time is the ordering principle
 - **Gravity = stability/collapse**: gravity is the stability and collapse principle
 - **Electromagnetism = regulation/flow**: electromagnetism is the regulation and flow principle
 
 **4 Constraints** governing identity, interaction, transformation, and continuity:
+
 1. **Identity constraint**: a QIC unit has a stable identity
-2. **Interaction constraint**: QIC units interact through declared rules
-3. **Transformation constraint**: transformations preserve or explicitly change type
-4. **Continuity constraint**: continuity requires identity persistence
+1. **Interaction constraint**: QIC units interact through declared rules
+1. **Transformation constraint**: transformations preserve or explicitly change type
+1. **Continuity constraint**: continuity requires identity persistence
 
 **5 QLS domains**: physical logic, biological logic, cognitive logic, social logic, technological logic
 
@@ -140,7 +142,8 @@ QLS substrate is a canon (SOURCE_CLAIM). It does not prove QLS constants are phy
 - **G1 (Law of Law)**: No unresolved contradictions within the skill's scope.
 - **G2 (Epistemic class)**: All claims
 
----
+______________________________________________________________________
+
 **Links:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 ## Related
@@ -150,17 +153,19 @@ QLS substrate is a canon (SOURCE_CLAIM). It does not prove QLS constants are phy
 ## Examples
 
 - **Scenario**: When monitoring runtime stability: drift, oscillation, divergence
+
   - **Input**: A query matching this skill's domain (runtime)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When calibrating feedback control loops for stable operation
+
   - **Input**: A query matching this skill's domain (runtime)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When decomposing complex operations into primitive steps
+
   - **Input**: A query matching this skill's domain (runtime)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Anti-Patterns
 
@@ -170,7 +175,6 @@ QLS substrate is a canon (SOURCE_CLAIM). It does not prove QLS constants are phy
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `amos-os-runtime-master` — routes to this skill when runtime specialization is needed
@@ -178,7 +182,6 @@ QLS substrate is a canon (SOURCE_CLAIM). It does not prove QLS constants are phy
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -197,7 +200,6 @@ QLS substrate is a canon (SOURCE_CLAIM). It does not prove QLS constants are phy
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -205,7 +207,6 @@ QLS substrate is a canon (SOURCE_CLAIM). It does not prove QLS constants are phy
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -218,11 +219,12 @@ QLS substrate is a canon (SOURCE_CLAIM). It does not prove QLS constants are phy
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `amos-os-runtime-master` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `amos-qls-substrate-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -230,12 +232,14 @@ QLS substrate is a canon (SOURCE_CLAIM). It does not prove QLS constants are phy
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-qls-substrate
 node_type: skill
 path: 07_SKILLS/amos-qls-substrate/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

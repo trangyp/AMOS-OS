@@ -1,16 +1,19 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: COMMIT CONTROL PLANE VALIDATION
 type: control-plane
 source: 03_CONTROL_PLANE/09_COMMIT/02_DEEP_ANALYSIS
 tags:
-- control-plane
-- commit
-- deep_analysis
-- note
-- canon/control-plane
-- integration
-- validation
-- memory
+  - control-plane
+  - commit
+  - deep_analysis
+  - note
+  - canon/control-plane
+  - integration
+  - validation
+  - memory
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -51,9 +54,9 @@ The governing constraint is:
 AMOS must never transform an imaginable alternative world into an asserted
 causal fact merely because the alternative is coherent.
 
----
+______________________________________________________________________
 
-# 1. PURPOSE
+## 1. PURPOSE
 
 `K COUNTERFACTUAL` governs reasoning of the form:
 
@@ -91,9 +94,9 @@ specific factual context $E=e$.
 
 These quantities MUST NOT be silently conflated.
 
----
+______________________________________________________________________
 
-# 2. CORE LAW
+## 2. CORE LAW
 
 The governing law of `K COUNTERFACTUAL` is:
 
@@ -109,9 +112,9 @@ independently revalidated.
 A counterfactual conclusion may never receive greater epistemic authority
 than its weakest indispensable causal premise.
 
----
+______________________________________________________________________
 
-# 3. COUNTERFACTUAL OBJECT
+## 3. COUNTERFACTUAL OBJECT
 
 A counterfactual is represented as:
 
@@ -136,9 +139,9 @@ The object is invalid if any indispensable component is silently missing.
 
 Missing components remain explicit `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
-# 4. FACTUAL–COUNTERFACTUAL FIREWALL
+## 4. FACTUAL–COUNTERFACTUAL FIREWALL
 
 AMOS MUST preserve the distinction between:
 
@@ -159,29 +162,29 @@ an unrealized intervention.
 
 Likewise:
 
-[
-P(Y\mid X=x)
-\neq
-P(Y\mid do(X=x))
-]
+\[
+P(Y\\mid X=x)
+\\neq
+P(Y\\mid do(X=x))
+\]
 
 in the general case.
 
 And:
 
-[
-P(Y\mid do(X=x))
-\neq
-P(Y_x\mid E=e)
-]
+\[
+P(Y\\mid do(X=x))
+\\neq
+P(Y_x\\mid E=e)
+\]
 
 in the general case.
 
 Conversion between these forms requires justified assumptions.
 
----
+______________________________________________________________________
 
-# 5. COUNTERFACTUAL LADDER
+## 5. COUNTERFACTUAL LADDER
 
 AMOS recognizes at least four reasoning levels.
 
@@ -193,13 +196,13 @@ Question:
 
 Representation:
 
-[
+\[
 P(Y)
-]
+\]
 
 Evidence may be observational.
 
----
+______________________________________________________________________
 
 ## L1 — ASSOCIATIONAL
 
@@ -209,13 +212,13 @@ Question:
 
 Representation:
 
-[
-P(Y\mid X)
-]
+\[
+P(Y\\mid X)
+\]
 
 This does not establish causal effect.
 
----
+______________________________________________________________________
 
 ## L2 — INTERVENTIONAL
 
@@ -225,14 +228,14 @@ Question:
 
 Representation:
 
-[
-P(Y\mid do(X=x))
-]
+\[
+P(Y\\mid do(X=x))
+\]
 
 Requires causal identification or appropriately controlled experimental
 evidence.
 
----
+______________________________________________________________________
 
 ## L3 — COUNTERFACTUAL
 
@@ -243,18 +246,18 @@ Question:
 
 Representation:
 
-[
-P(Y_{x'} \mid X=x,Y=y,E=e)
-]
+\[
+P(Y\_{x'} \\mid X=x,Y=y,E=e)
+\]
 
 This is epistemically stronger and generally requires stronger structural
 assumptions than prediction.
 
 AMOS MUST NOT promote an L0/L1 result to L2/L3 without a licensed bridge.
 
----
+______________________________________________________________________
 
-# 6. COUNTERFACTUAL PIPELINE
+## 6. COUNTERFACTUAL PIPELINE
 
 The canonical reasoning sequence is:
 
@@ -280,28 +283,28 @@ CLASSIFIED CONCLUSION
 
 Symbolically:
 
-[
+\[
 W
-\xrightarrow{\text{abduction}}
+\\xrightarrow{\\text{abduction}}
 U
-\xrightarrow{do(I)}
+\\xrightarrow{do(I)}
 M_I
-\xrightarrow{\text{prediction}}
+\\xrightarrow{\\text{prediction}}
 W_I
-\xrightarrow{\Delta}
+\\xrightarrow{\\Delta}
 CF
-]
+\]
 
----
+______________________________________________________________________
 
-# 7. ABDUCTION
+## 7. ABDUCTION
 
 Given observed evidence (E=e), AMOS first estimates the latent/exogenous
 conditions compatible with the factual world:
 
-[
-P(U\mid E=e,M)
-]
+\[
+P(U\\mid E=e,M)
+\]
 
 This stage answers:
 
@@ -322,56 +325,56 @@ H3
 
 they remain `COMPETING`.
 
----
+______________________________________________________________________
 
-# 8. INTERVENTION
+## 8. INTERVENTION
 
 An intervention modifies the causal system rather than merely changing an
 observed value.
 
 For:
 
-[
+\[
 X := f_X(PA_X,U_X)
-]
+\]
 
 the intervention:
 
-[
+\[
 do(X=x')
-]
+\]
 
 replaces the governing equation with:
 
-[
+\[
 X := x'
-]
+\]
 
 while preserving unaffected mechanisms unless the intervention definition
 explicitly changes them.
 
 This is the **minimal surgery principle**.
 
----
+______________________________________________________________________
 
-# 9. MINIMAL SURGERY PRINCIPLE
+## 9. MINIMAL SURGERY PRINCIPLE
 
 A valid counterfactual modifies only what the intervention requires.
 
 Let:
 
-[
-M = {f_1,\ldots,f_n}
-]
+\[
+M = {f_1,\\ldots,f_n}
+\]
 
 and intervention (I) target (f_k).
 
 Then:
 
-[
+\[
 M_I =
-{f_1,\ldots,f_{k-1},f'*k,f*{k+1},\ldots,f_n}
-]
+{f_1,\\ldots,f\_{k-1},f'*k,f*{k+1},\\ldots,f_n}
+\]
 
 unless causal propagation requires downstream change.
 
@@ -380,89 +383,85 @@ counterfactual outcome.
 
 This prevents narrative counterfactuals from masquerading as causal ones.
 
----
+______________________________________________________________________
 
-# 10. DESCENDANT PROPAGATION
+## 10. DESCENDANT PROPAGATION
 
 Once intervention (I) is applied, AMOS determines its causal descendant
 closure:
 
-[
+\[
 D(I)=Descendants(I)
-]
+\]
 
 Only variables reachable through justified causal edges may be updated by
 causal propagation.
 
 For variable (V):
 
-[
-V \notin Descendants(I)
-]
+\[
+V \\notin Descendants(I)
+\]
 
 normally implies:
 
-[
-V_{CF}=V_F
-]
+\[
+V\_{CF}=V_F
+\]
 
 unless the intervention changes regime, environment, measurement process,
 or another load-bearing mechanism affecting (V).
 
----
+______________________________________________________________________
 
-# 11. CAUSAL CLOSURE
+## 11. CAUSAL CLOSURE
 
 Counterfactual propagation requires causal closure over all dependencies
 material to the queried outcome.
 
 For target (Y):
 
-[
-Closure(I,Y)
-============
+## \[ Closure(I,Y)
 
-{v \mid v
-\text{ lies on a load-bearing causal path from } I \text{ to } Y}
-]
+{v \\mid v
+\\text{ lies on a load-bearing causal path from } I \\text{ to } Y}
+\]
 
 The system SHOULD retrieve only this closure rather than the entire world
 model.
 
 This implements the AMOS v4.4 smallest-sufficient-proof principle.
 
----
+______________________________________________________________________
 
-# 12. COUNTERFACTUAL DIFFERENCE
+## 12. COUNTERFACTUAL DIFFERENCE
 
 For factual outcome:
 
-[
+\[
 Y_F
-]
+\]
 
 and counterfactual outcome:
 
-[
-Y_{CF}
-]
+\[
+Y\_{CF}
+\]
 
 define:
 
-[
-\Delta Y = Y_{CF}-Y_F
-]
+\[
+\\Delta Y = Y\_{CF}-Y_F
+\]
 
 where subtraction is meaningful.
 
 For nonnumeric outcomes:
 
-[
-\Delta(Y_F,Y_{CF})
-==================
+## \[ \\Delta(Y_F,Y\_{CF})
 
-Compare(Y_F,Y_{CF})
-]
+Compare(Y_F,Y\_{CF})
+\]
 
 The comparison must preserve:
 
@@ -473,9 +472,9 @@ The comparison must preserve:
 - causal assumptions,
 - and alternative explanations.
 
----
+______________________________________________________________________
 
-# 13. NECESSITY
+## 13. NECESSITY
 
 For event (X=x) and outcome (Y=y), a necessity-style question asks:
 
@@ -483,18 +482,16 @@ For event (X=x) and outcome (Y=y), a necessity-style question asks:
 
 A conceptual form is:
 
-[
-PN
-==
+## \[ PN
 
-P(Y_{x'}\neq y \mid X=x,Y=y)
-]
+P(Y\_{x'}\\neq y \\mid X=x,Y=y)
+\]
 
 AMOS MUST NOT claim necessity merely because (X) preceded (Y).
 
----
+______________________________________________________________________
 
-# 14. SUFFICIENCY
+## 14. SUFFICIENCY
 
 A sufficiency-style question asks:
 
@@ -503,18 +500,16 @@ A sufficiency-style question asks:
 
 Conceptually:
 
-[
-PS
-==
+## \[ PS
 
-P(Y_x=y \mid X\neq x,Y\neq y)
-]
+P(Y_x=y \\mid X\\neq x,Y\\neq y)
+\]
 
 Sufficiency requires stronger support than association.
 
----
+______________________________________________________________________
 
-# 15. NECESSARY AND SUFFICIENT CAUSATION
+## 15. NECESSARY AND SUFFICIENT CAUSATION
 
 AMOS distinguishes:
 
@@ -536,9 +531,9 @@ These labels are not interchangeable.
 The strongest supported relation must be used, not the strongest rhetorically
 available relation.
 
----
+______________________________________________________________________
 
-# 16. CAUSAL FIREWALL
+## 16. CAUSAL FIREWALL
 
 The following are insufficient by themselves to establish causal
 counterfactuals:
@@ -557,58 +552,58 @@ counterfactuals:
 
 Therefore:
 
-[
+\[
 Similarity(A,B)
-\nRightarrow
+\\nRightarrow
 Cause(A,B)
-]
+\]
 
 and:
 
-[
-A \prec B
-\nRightarrow
-A \rightarrow B
-]
+\[
+A \\prec B
+\\nRightarrow
+A \\rightarrow B
+\]
 
----
+______________________________________________________________________
 
-# 17. CONFOUNDING
+## 17. CONFOUNDING
 
 If:
 
-[
-Z\rightarrow X
-]
+\[
+Z\\rightarrow X
+\]
 
 and:
 
-[
-Z\rightarrow Y
-]
+\[
+Z\\rightarrow Y
+\]
 
 then an observed (X-Y) relationship may be confounded.
 
 AMOS must test whether:
 
-[
-X\leftarrow Z\rightarrow Y
-]
+\[
+X\\leftarrow Z\\rightarrow Y
+\]
 
 or equivalent backdoor structures can explain the evidence.
 
 A counterfactual causal claim remains `CONDITIONAL`, `COMPETING`, or
 `UNKNOWN/GAP` when material confounding cannot be resolved.
 
----
+______________________________________________________________________
 
-# 18. MEDIATION
+## 18. MEDIATION
 
 For:
 
-[
-X\rightarrow M\rightarrow Y
-]
+\[
+X\\rightarrow M\\rightarrow Y
+\]
 
 AMOS distinguishes:
 
@@ -619,53 +614,53 @@ AMOS distinguishes:
 The system MUST NOT erase mediator structure when the distinction changes
 the conclusion.
 
----
+______________________________________________________________________
 
-# 19. MODERATION
+## 19. MODERATION
 
 If effect depends on context (Z):
 
-[
-Effect(X\rightarrow Y\mid Z=z_1)
-\neq
-Effect(X\rightarrow Y\mid Z=z_2)
-]
+\[
+Effect(X\\rightarrow Y\\mid Z=z_1)
+\\neq
+Effect(X\\rightarrow Y\\mid Z=z_2)
+\]
 
 then (Z) is potentially an effect modifier.
 
 AMOS must not report a context-independent counterfactual when the causal
 effect is regime- or subgroup-dependent.
 
----
+______________________________________________________________________
 
-# 20. FEEDBACK
+## 20. FEEDBACK
 
 For systems containing:
 
-[
-X_t\rightarrow Y_{t+1}
-]
+\[
+X_t\\rightarrow Y\_{t+1}
+\]
 
 and:
 
-[
-Y_t\rightarrow X_{t+1}
-]
+\[
+Y_t\\rightarrow X\_{t+1}
+\]
 
 counterfactual reasoning must preserve time indexes.
 
 Collapsing feedback systems into a static graph may generate false causal
 conclusions.
 
----
+______________________________________________________________________
 
-# 21. TIME
+## 21. TIME
 
 Every material counterfactual SHOULD specify:
 
-[
+\[
 CF(t_0,t_I,t_Q)
-]
+\]
 
 where:
 
@@ -675,31 +670,31 @@ where:
 
 The same intervention can produce different answers at different horizons:
 
-[
-Y_{CF}(t_1)
-\neq
-Y_{CF}(t_2)
-]
+\[
+Y\_{CF}(t_1)
+\\neq
+Y\_{CF}(t_2)
+\]
 
----
+______________________________________________________________________
 
-# 22. CAUSAL EPOCH
+## 22. CAUSAL EPOCH
 
 Counterfactual validity is bounded by the causal epoch in which its governing
 mechanisms remain valid.
 
 Represent:
 
-[
+\[
 E_c =
-\langle
+\\langle
 M,
 R,
 S,
 T,
 V
-\rangle
-]
+\\rangle
+\]
 
 where:
 
@@ -714,15 +709,15 @@ epoch (E_j).
 
 If:
 
-[
-Mechanisms(E_i)\neq Mechanisms(E_j)
-]
+\[
+Mechanisms(E_i)\\neq Mechanisms(E_j)
+\]
 
 then reuse requires revalidation.
 
----
+______________________________________________________________________
 
-# 23. REGIME FIREWALL
+## 23. REGIME FIREWALL
 
 Counterfactual conclusions inherit an applicability envelope:
 
@@ -741,31 +736,31 @@ applicability:
 If the target case falls outside this envelope, AMOS must either:
 
 1. revalidate,
-2. explicitly extrapolate as `MODEL`,
-3. preserve competing possibilities,
-4. or return `UNKNOWN/GAP`.
+1. explicitly extrapolate as `MODEL`,
+1. preserve competing possibilities,
+1. or return `UNKNOWN/GAP`.
 
 Silent generalization is forbidden.
 
----
+______________________________________________________________________
 
-# 24. STRUCTURAL INVARIANCE
+## 24. STRUCTURAL INVARIANCE
 
 A counterfactual assumes some mechanisms remain stable under intervention.
 
 For mechanism (f_i):
 
-[
+\[
 Invariant(f_i,I,R)=true
-]
+\]
 
 must be justified where load-bearing.
 
 If intervention (I) itself changes the mechanism:
 
-[
+\[
 Invariant(f_i,I,R)=false
-]
+\]
 
 the original structural equation cannot simply be reused.
 
@@ -780,68 +775,68 @@ This is especially important for:
 - strategic environments,
 - recursive AI systems.
 
----
+______________________________________________________________________
 
-# 25. POLICY RESPONSE / LUCAS-TYPE FAILURE
+## 25. POLICY RESPONSE / LUCAS-TYPE FAILURE
 
 AMOS must detect situations in which agents respond to the intervention.
 
 If policy (P) changes behavior (B):
 
-[
-P\rightarrow B
-]
+\[
+P\\rightarrow B
+\]
 
 and (B) changes the outcome model itself, then extrapolating from the old
 regime can fail.
 
 Therefore:
 
-[
-M_{pre}
-\neq
-M_{post}
-]
+\[
+M\_{pre}
+\\neq
+M\_{post}
+\]
 
 may hold.
 
 Counterfactuals crossing this boundary require regime-aware modeling.
 
----
+______________________________________________________________________
 
-# 26. MULTI-HYPOTHESIS COUNTERFACTUALS
+## 26. MULTI-HYPOTHESIS COUNTERFACTUALS
 
 AMOS MUST NOT assume a single causal model when multiple models fit the
 available evidence.
 
 Let:
 
-[
-\mathcal{M}=
-{M_1,M_2,\ldots,M_n}
-]
+\[
+\\mathcal{M}=
+{M_1,M_2,\\ldots,M_n}
+\]
 
 Then evaluate:
 
-[
+\[
 CF_i = Counterfactual(M_i,I,E)
-]
+\]
 
 for each materially viable (M_i).
 
 If:
 
-[
-CF_1\approx CF_2\approx\cdots\approx CF_n
-]
+\[
+CF_1\\approx CF_2\\approx\\cdots\\approx CF_n
+\]
 
 the conclusion is model-robust.
 
 If:
 
-[
-CF_i\neq CF_j
-]
+\[
+CF_i\\neq CF_j
+\]
 
 for credible models (M_i,M_j), the answer remains:
 
@@ -849,18 +844,16 @@ for credible models (M_i,M_j), the answer remains:
 
 until discriminating evidence exists.
 
----
+______________________________________________________________________
 
-# 27. COUNTERFACTUAL AGREEMENT
+## 27. COUNTERFACTUAL AGREEMENT
 
 Define model agreement:
 
-[
-A_{CF}
-======
+## \[ A\_{CF}
 
-Agreement(CF_1,\ldots,CF_n)
-]
+Agreement(CF_1,\\ldots,CF_n)
+\]
 
 High agreement across genuinely different supported models increases
 robustness.
@@ -868,17 +861,17 @@ robustness.
 However, models derived from the same assumptions or evidence ancestry are
 not independent confirmation.
 
----
+______________________________________________________________________
 
-# 28. PROVENANCE TOPOLOGY
+## 28. PROVENANCE TOPOLOGY
 
 Counterfactual evidence must retain provenance.
 
 Represent evidence item (e_i) as:
 
-[
+\[
 e_i =
-\langle
+\\langle
 claim,
 type,
 source,
@@ -888,8 +881,8 @@ scope,
 regime,
 method,
 dependencies
-\rangle
-]
+\\rangle
+\]
 
 Evidence types include:
 
@@ -906,58 +899,58 @@ Repeated descendants of one source do not become independent evidence.
 
 If:
 
-[
+\[
 Ancestor(e_1)=Ancestor(e_2)
-]
+\]
 
 then:
 
-[
+\[
 Independent(e_1,e_2)=false
-]
+\]
 
 unless demonstrated otherwise.
 
----
+______________________________________________________________________
 
-# 29. SYBIL-HARDENED COUNTERFACTUAL SUPPORT
+## 29. SYBIL-HARDENED COUNTERFACTUAL SUPPORT
 
 Evidence count is not evidence independence.
 
 AMOS must distinguish:
 
-[
-N_{reports}
-]
+\[
+N\_{reports}
+\]
 
 from:
 
-[
-N_{independent\ origins}
-]
+\[
+N\_{independent\\ origins}
+\]
 
 A thousand repetitions of one causal assertion can still constitute one
 underlying provenance path.
 
 Counterfactual confidence MUST NOT be inflated by duplicated ancestry.
 
----
+______________________________________________________________________
 
-# 30. RSCF INTEGRATION
+## 30. RSCF INTEGRATION
 
 Counterfactual reasoning operates recursively across AMOS RSCF structures.
 
 Conceptually:
 
-[
+\[
 RSCF =
-\langle
+\\langle
 R,
 S,
 C,
 F
-\rangle
-]
+\\rangle
+\]
 
 with recursive decomposition appropriate to the active AMOS representation.
 
@@ -966,51 +959,49 @@ descendants while leaving unrelated branches unchanged.
 
 For intervention (I):
 
-[
-Affected(I)
-===========
+## \[ Affected(I)
 
 DependencyClosure(I)
-]
+\]
 
 not:
 
-[
+\[
 Affected(I)=EntireSystem
-]
+\]
 
 unless system-wide coupling is demonstrated.
 
----
+______________________________________________________________________
 
-# 31. ATOMIC MULTI-RSCF COUNTERFACTUALS
+## 31. ATOMIC MULTI-RSCF COUNTERFACTUALS
 
 Some interventions cross multiple RSCF structures.
 
 Let:
 
-[
-I={I_1,I_2,\ldots,I_k}
-]
+\[
+I={I_1,I_2,\\ldots,I_k}
+\]
 
 with coupled dependencies.
 
 If reasoning about (I_i) independently can produce an inconsistent global
 state, AMOS must reason over the relevant set atomically:
 
-[
+\[
 CF(
-RSCF_1,\ldots,RSCF_k
+RSCF_1,\\ldots,RSCF_k
 )
-]
+\]
 
 The smallest causally closed atomic set SHOULD be used.
 
 Global recomputation is a last resort.
 
----
+______________________________________________________________________
 
-# 32. GMEF INTEGRATION
+## 32. GMEF INTEGRATION
 
 `K COUNTERFACTUAL` interoperates with GMEF for governed model/evidence
 reasoning.
@@ -1039,9 +1030,9 @@ counterfactual:
 The representation is a reasoning contract, not proof that any underlying
 software mechanism literally implements the schema.
 
----
+______________________________________________________________________
 
-# 33. H/M/L COUNTERFACTUAL RETRIEVAL
+## 33. H/M/L COUNTERFACTUAL RETRIEVAL
 
 Counterfactual reasoning follows AMOS fractal retrieval:
 
@@ -1062,9 +1053,9 @@ The default is:
 Retrieval proceeds only until the smallest sufficient causal closure is
 established.
 
----
+______________________________________________________________________
 
-# 34. COUNTERFACTUAL FAST PATH
+## 34. COUNTERFACTUAL FAST PATH
 
 A local counterfactual may use the v4.4 fast path only if:
 
@@ -1082,18 +1073,16 @@ AND stakes permit local resolution
 
 Formally:
 
-[
-FastPath(CF)
-============
+## \[ FastPath(CF)
 
-D\land P\land S\land R\land F\land \neg C\land M\land G
-]
+D\\land P\\land S\\land R\\land F\\land \\neg C\\land M\\land G
+\]
 
 where each predicate must be demonstrated, not assumed.
 
----
+______________________________________________________________________
 
-# 35. ESCALATION CONDITIONS
+## 35. ESCALATION CONDITIONS
 
 Escalate counterfactual reasoning when any of the following holds:
 
@@ -1111,24 +1100,24 @@ Escalate counterfactual reasoning when any of the following holds:
 - causal closure is incomplete,
 - evidence is weak or contradictory.
 
----
+______________________________________________________________________
 
-# 36. ADVERSARIAL COUNTERFACTUAL VALIDATION
+## 36. ADVERSARIAL COUNTERFACTUAL VALIDATION
 
 For consequential conclusions AMOS performs a challenge pass.
 
-Given preferred hypothesis (H^*):
+Given preferred hypothesis (H^\*):
 
-[
-H^*:
-I\rightarrow Y
-]
+\[
+H^\*:
+I\\rightarrow Y
+\]
 
 construct the strongest materially supported alternative:
 
-[
+\[
 H_A
-]
+\]
 
 Examples:
 
@@ -1146,17 +1135,17 @@ alternative causal graph predicts same observations
 
 Then ask:
 
-[
+\[
 Can(H_A,E)
-]
+\]
 
-explain the evidence without (H^*)?
+explain the evidence without (H^\*)?
 
 If yes, downgrade the conclusion or preserve `COMPETING`.
 
----
+______________________________________________________________________
 
-# 37. COUNTERFACTUAL FALSIFIERS
+## 37. COUNTERFACTUAL FALSIFIERS
 
 Every important counterfactual SHOULD specify invalidation conditions.
 
@@ -1175,22 +1164,20 @@ falsifiers:
 A claim without conceivable invalidation may be useful as a conceptual
 model, but must not be represented as strongly verified causal knowledge.
 
----
+______________________________________________________________________
 
-# 38. SENSITIVITY
+## 38. SENSITIVITY
 
 For counterfactual conclusion (C), identify the smallest assumption or
 parameter capable of changing it:
 
-[
-s^*
-===
+## \[ s^\*
 
-\arg\min_s
-Cost(Change(s)\Rightarrow Flip(C))
-]
+\\arg\\min_s
+Cost(Change(s)\\Rightarrow Flip(C))
+\]
 
-Test (s^*) first.
+Test (s^\*) first.
 
 Examples include:
 
@@ -1211,17 +1198,15 @@ If the answer survives plausible perturbations:
 
 subject to evidence class.
 
----
+______________________________________________________________________
 
-# 39. COUNTERFACTUAL UNCERTAINTY VECTOR
+## 39. COUNTERFACTUAL UNCERTAINTY VECTOR
 
 Do not compress all uncertainty into one number.
 
 Represent:
 
-[
-U_{CF}
-======
+## \[ U\_{CF}
 
 (
 U_E,
@@ -1233,7 +1218,7 @@ U_P,
 U_I,
 U_X
 )
-]
+\]
 
 where:
 
@@ -1249,9 +1234,9 @@ where:
 AMOS SHOULD spend reasoning effort where reducing uncertainty can change the
 decision.
 
----
+______________________________________________________________________
 
-# 40. IDENTIFIABILITY
+## 40. IDENTIFIABILITY
 
 A counterfactual may be well-defined conceptually yet not identifiable from
 available evidence.
@@ -1275,65 +1260,63 @@ A valid response may be:
 
 This is preferable to fabricating a numerical estimate.
 
----
+______________________________________________________________________
 
-# 41. PARTIAL IDENTIFICATION
+## 41. PARTIAL IDENTIFICATION
 
 When exact identification is unavailable but bounds are defensible, AMOS
 should preserve bounds:
 
-[
+\[
 L
-\le
+\\le
 CF
-\le
+\\le
 U
-]
+\]
 
 rather than inventing a point estimate.
 
 If decision (D) is unchanged throughout the interval:
 
-[
+\[
 D(L)=D(U)
-]
+\]
 
 the decision may still be robust despite unresolved exact value.
 
----
+______________________________________________________________________
 
-# 42. COUNTERFACTUAL DISTANCE
+## 42. COUNTERFACTUAL DISTANCE
 
 For explanation/generation tasks, define a change cost:
 
-[
+\[
 d(W,W')
-]
+\]
 
 A useful counterfactual often minimizes unnecessary departure from the
 factual world:
 
-[
-W^*
-===
+## \[ W^\*
 
-\arg\min_{W'}
+\\arg\\min\_{W'}
 d(W,W')
-]
+\]
 
 subject to:
 
-[
-Outcome(W')=Y^*
-]
+\[
+Outcome(W')=Y^\*
+\]
 
 and all causal/governance constraints.
 
 However, minimal feature distance does not guarantee causal plausibility.
 
----
+______________________________________________________________________
 
-# 43. ACTIONABILITY
+## 43. ACTIONABILITY
 
 A proposed counterfactual intervention must distinguish:
 
@@ -1348,53 +1331,51 @@ A variable may be predictive without being actionable.
 
 For example:
 
-[
+\[
 Predictive(X,Y)=true
-]
+\]
 
 does not imply:
 
-[
+\[
 Intervenable(X)=true
-]
+\]
 
 or:
 
-[
-do(X)\rightarrow Y
-]
+\[
+do(X)\\rightarrow Y
+\]
 
----
+______________________________________________________________________
 
-# 44. FEASIBILITY
+## 44. FEASIBILITY
 
 Counterfactual recommendations must satisfy feasibility constraints:
 
-[
-Feasible(I)
-===========
+## \[ Feasible(I)
 
 Physical
-\land
+\\land
 Logical
-\land
+\\land
 Temporal
-\land
+\\land
 Resource
-\land
+\\land
 Governance
-\land
+\\land
 Scope
-]
+\]
 
 where applicable.
 
 An impossible intervention may remain useful for causal analysis but must
 not be presented as an executable recommendation.
 
----
+______________________________________________________________________
 
-# 45. EFFECT CLASSIFICATION
+## 45. EFFECT CLASSIFICATION
 
 Counterfactual effects SHOULD be classified before action.
 
@@ -1413,15 +1394,13 @@ UNKNOWN_EFFECT
 
 Validation requirements increase with consequence and irreversibility.
 
----
+______________________________________________________________________
 
-# 46. RISK-CONSTRAINED COUNTERFACTUAL ACTION
+## 46. RISK-CONSTRAINED COUNTERFACTUAL ACTION
 
 For candidate intervention (I):
 
-[
-Utility(I)
-==========
+## \[ Utility(I)
 
 ## ExpectedBenefit(I)
 
@@ -1430,28 +1409,28 @@ Utility(I)
 ## UncertaintyPenalty(I)
 
 IrreversibilityPenalty(I)
-]
+\]
 
 subject to hard constraints:
 
-[
-Risk(I)\le R_{max}
-]
+\[
+Risk(I)\\le R\_{max}
+\]
 
 where required.
 
 Optimization may not weaken integrity constraints merely to increase expected
 performance.
 
----
+______________________________________________________________________
 
-# 47. REVERSIBILITY PREFERENCE
+## 47. REVERSIBILITY PREFERENCE
 
 Under unresolved uncertainty:
 
-[
+\[
 Prefer(I_a,I_b)
-]
+\]
 
 when (I_a) is similarly informative/useful but more reversible than
 (I_b).
@@ -1459,49 +1438,45 @@ when (I_a) is similarly informative/useful but more reversible than
 AMOS SHOULD prefer:
 
 1. observation,
-2. simulation,
-3. sandbox test,
-4. limited reversible intervention,
-5. staged rollout,
-6. monitored expansion,
+1. simulation,
+1. sandbox test,
+1. limited reversible intervention,
+1. staged rollout,
+1. monitored expansion,
 
 before irreversible deployment when feasible.
 
----
+______________________________________________________________________
 
-# 48. VALUE OF COUNTERFACTUAL INFORMATION
+## 48. VALUE OF COUNTERFACTUAL INFORMATION
 
 For uncertain discriminating test (T):
 
-[
-VOI(T)
-======
+## \[ VOI(T)
 
 ExpectedDecisionImprovement(T)-Cost(T)
-]
+\]
 
 AMOS SHOULD prefer tests with high expected information gain over redundant
 evidence accumulation.
 
 For competing hypotheses (H_1,H_2), seek:
 
-[
-T^*
-===
+## \[ T^\*
 
-\arg\max_T
-\frac{
+\\arg\\max_T
+\\frac{
 ExpectedDiscrimination(T;H_1,H_2)
 }{
 Cost(T)
 }
-]
+\]
 
 subject to safety and governance constraints.
 
----
+______________________________________________________________________
 
-# 49. COUNTERFACTUAL PROOF CAPSULE
+## 49. COUNTERFACTUAL PROOF CAPSULE
 
 Every consequential counterfactual SHOULD conceptually carry:
 
@@ -1529,54 +1504,54 @@ proof_capsule:
   invalidation_conditions: []
 ```
 
----
+______________________________________________________________________
 
-# 50. CONFIDENCE CEILING
+## 50. CONFIDENCE CEILING
 
 Let load-bearing premises be:
 
-[
-P={p_1,\ldots,p_n}
-]
+\[
+P={p_1,\\ldots,p_n}
+\]
 
 Then:
 
-[
+\[
 Conf(CF)
-\le
-\min_i Conf(p_i)
-]
+\\le
+\\min_i Conf(p_i)
+\]
 
 unless independent revalidation changes the support structure.
 
 Confidence cannot be raised merely because downstream reasoning is
 mathematically elaborate.
 
----
+______________________________________________________________________
 
-# 51. INVALIDATION
+## 51. INVALIDATION
 
 If premise (p) fails:
 
-[
+\[
 Invalid(p)
-\Rightarrow
+\\Rightarrow
 Invalid(Descendants(p))
-]
+\]
 
 but NOT:
 
-[
+\[
 Invalid(p)
-\Rightarrow
+\\Rightarrow
 Invalid(AllKnowledge)
-]
+\]
 
 Counterfactual repair is local whenever possible.
 
----
+______________________________________________________________________
 
-# 52. FAILURE RECOVERY
+## 52. FAILURE RECOVERY
 
 When a counterfactual path fails:
 
@@ -1597,21 +1572,21 @@ re-evaluate only affected closure
 Do not repeat the failed reasoning path without changed evidence or
 assumptions.
 
----
+______________________________________________________________________
 
-# 53. CONTRADICTION HANDLING
+## 53. CONTRADICTION HANDLING
 
 If evidence supports:
 
-[
-H_1:I\rightarrow Y
-]
+\[
+H_1:I\\rightarrow Y
+\]
 
 and independent evidence supports:
 
-[
-H_2:I\nrightarrow Y
-]
+\[
+H_2:I\\nrightarrow Y
+\]
 
 AMOS must not average away the contradiction automatically.
 
@@ -1625,23 +1600,23 @@ COMPETING:
 
 until a discriminating test or scope/regime separation resolves the conflict.
 
----
+______________________________________________________________________
 
-# 54. SCOPE-SPLIT RESOLUTION
+## 54. SCOPE-SPLIT RESOLUTION
 
 Apparent contradictions may resolve through scope.
 
 For example:
 
-[
-Effect(I,Y\mid S_1)>0
-]
+\[
+Effect(I,Y\\mid S_1)>0
+\]
 
 while:
 
-[
-Effect(I,Y\mid S_2)\le0
-]
+\[
+Effect(I,Y\\mid S_2)\\le0
+\]
 
 Both may be valid.
 
@@ -1657,38 +1632,38 @@ AMOS should first test whether disagreement reflects:
 
 before treating it as logical contradiction.
 
----
+______________________________________________________________________
 
-# 55. TEMPORAL INVALIDATION
+## 55. TEMPORAL INVALIDATION
 
 A previously valid counterfactual becomes stale when a load-bearing
 mechanism changes.
 
 If:
 
-[
+\[
 Valid(CF,t_1)=true
-]
+\]
 
 but:
 
-[
-Regime(t_2)\neq Regime(t_1)
-]
+\[
+Regime(t_2)\\neq Regime(t_1)
+\]
 
 then:
 
-[
+\[
 Valid(CF,t_2)=UNKNOWN
-]
+\]
 
 until revalidation.
 
 Freshness is part of epistemic validity.
 
----
+______________________________________________________________________
 
-# 56. COUNTERFACTUAL MEMORY
+## 56. COUNTERFACTUAL MEMORY
 
 Stored counterfactual conclusions MUST retain their assumptions.
 
@@ -1715,35 +1690,35 @@ freshness: ...
 Otherwise retrieval can silently detach a conclusion from the conditions
 that made it valid.
 
----
+______________________________________________________________________
 
-# 57. MEMORY ADMISSION
+## 57. MEMORY ADMISSION
 
 A counterfactual should enter persistent validated knowledge only when:
 
-[
+\[
 Admission =
 Provenance
-\land
+\\land
 Scope
-\land
+\\land
 Regime
-\land
+\\land
 Dependencies
-\land
+\\land
 ConflictCheck
-\land
+\\land
 Freshness
-]
+\]
 
 satisfy the relevant policy threshold.
 
 Unvalidated hypotheses may still be stored, but must retain their weaker
 class.
 
----
+______________________________________________________________________
 
-# 58. COUNTERFACTUAL MEMORY CONFLICT
+## 58. COUNTERFACTUAL MEMORY CONFLICT
 
 When retrieved counterfactual knowledge conflicts with new evidence:
 
@@ -1765,9 +1740,9 @@ identify true conflict vs contextual difference
 supersede / coexist / invalidate as justified
 ```
 
----
+______________________________________________________________________
 
-# 59. COUNTERFACTUAL IMMUNE RULE
+## 59. COUNTERFACTUAL IMMUNE RULE
 
 AMOS should resist contamination by seductive but unsupported
 counterfactual narratives.
@@ -1783,49 +1758,47 @@ Reject or downgrade reasoning that relies primarily on:
 - unlicensed structural analogy,
 - post hoc mechanism invention.
 
----
+______________________________________________________________________
 
-# 60. HINDSIGHT FIREWALL
+## 60. HINDSIGHT FIREWALL
 
 Knowledge of factual outcome (Y=y) can distort beliefs about the
 counterfactual world.
 
 AMOS must distinguish:
 
-[
-P(Y_{x'}\mid E_{pre})
-]
+\[
+P(Y\_{x'}\\mid E\_{pre})
+\]
 
 from retrospective reasoning contaminated by:
 
-[
-E_{post}
-]
+\[
+E\_{post}
+\]
 
 when the post-outcome information would not have been available at the
 decision time.
 
 This is essential for fair decision evaluation.
 
----
+______________________________________________________________________
 
-# 61. DECISION-TIME COUNTERFACTUAL
+## 61. DECISION-TIME COUNTERFACTUAL
 
 To evaluate whether a past decision was reasonable, use information
 available at decision time:
 
-[
-D_t
-===
+## \[ D_t
 
-Decision(E_{\le t})
-]
+Decision(E\_{\\le t})
+\]
 
 not:
 
-[
-Decision(E_{\le T})
-]
+\[
+Decision(E\_{\\le T})
+\]
 
 for (T>t), unless explicitly conducting retrospective causal analysis.
 
@@ -1833,9 +1806,9 @@ Bad outcome does not necessarily imply bad decision.
 
 Good outcome does not necessarily imply good decision.
 
----
+______________________________________________________________________
 
-# 62. COUNTERFACTUAL RESPONSIBILITY
+## 62. COUNTERFACTUAL RESPONSIBILITY
 
 AMOS MUST NOT infer moral, legal, or institutional responsibility solely from
 a causal counterfactual.
@@ -1856,163 +1829,159 @@ do not by themselves establish:
 
 Those require additional normative/legal/governance premises.
 
----
+______________________________________________________________________
 
-# 63. MULTI-AGENT COUNTERFACTUALS
+## 63. MULTI-AGENT COUNTERFACTUALS
 
 In strategic systems:
 
-[
+\[
 I_A
-]
+\]
 
 may change:
 
-[
+\[
 Response_B
-]
+\]
 
 which changes:
 
-[
+\[
 Response_A'
-]
+\]
 
 and so forth.
 
 Therefore:
 
-[
+\[
 CF(I_A)
-]
+\]
 
 cannot always be computed while holding all other agents fixed.
 
 AMOS must model relevant adaptive response when materially load-bearing.
 
----
+______________________________________________________________________
 
-# 64. REFLEXIVE COUNTERFACTUALS
+## 64. REFLEXIVE COUNTERFACTUALS
 
 In systems where publishing the prediction changes behavior:
 
-[
+\[
 Prediction
-\rightarrow
+\\rightarrow
 Behavior
-\rightarrow
+\\rightarrow
 Outcome
-]
+\]
 
 the prediction becomes part of the causal system.
 
 Counterfactual evaluation must include this reflexive edge where material.
 
----
+______________________________________________________________________
 
-# 65. SELF-MODIFYING SYSTEMS
+## 65. SELF-MODIFYING SYSTEMS
 
 For systems capable of changing their own rules:
 
-[
-M_t\rightarrow M_{t+1}
-]
+\[
+M_t\\rightarrow M\_{t+1}
+\]
 
 counterfactual propagation may alter the future causal model itself.
 
 Then:
 
-[
+\[
 CF
-\neq
+\\neq
 Propagation(M_t,I)
-]
+\]
 
 alone.
 
 It may require:
 
-[
+\[
 M_t
-\xrightarrow{I}
-M_{t+1}'
-\xrightarrow{}
-M_{t+2}'
+\\xrightarrow{I}
+M\_{t+1}'
+\\xrightarrow{}
+M\_{t+2}'
 ...
-]
+\]
 
 This should trigger escalation.
 
----
+______________________________________________________________________
 
-# 66. COUNTERFACTUAL COMPOSITION
+## 66. COUNTERFACTUAL COMPOSITION
 
 For sequential interventions:
 
-[
-I_1,I_2,\ldots,I_n
-]
+\[
+I_1,I_2,\\ldots,I_n
+\]
 
 AMOS must not assume:
 
-[
-CF(I_1\circ I_2)
-================
+## \[ CF(I_1\\circ I_2)
 
 CF(I_1)+CF(I_2)
-]
+\]
 
 unless additivity is justified.
 
 Interactions may exist:
 
-[
+\[
 Effect(I_1,I_2)
-\neq
+\\neq
 Effect(I_1)+Effect(I_2)
-]
+\]
 
----
+______________________________________________________________________
 
-# 67. ORDER DEPENDENCE
+## 67. ORDER DEPENDENCE
 
 For interventions (A,B):
 
-[
-do(A)\circ do(B)
-]
+\[
+do(A)\\circ do(B)
+\]
 
 may differ from:
 
-[
-do(B)\circ do(A)
-]
+\[
+do(B)\\circ do(A)
+\]
 
 when mechanisms are stateful or path-dependent.
 
 Therefore order must be represented when material.
 
----
+______________________________________________________________________
 
-# 68. PATH DEPENDENCE
+## 68. PATH DEPENDENCE
 
 If historical state (H_t) affects response:
 
-[
-Y_{t+1}
-=======
+## \[ Y\_{t+1}
 
 f(X_t,H_t)
-]
+\]
 
 then two systems with the same present observable state may have different
 counterfactual futures.
 
 AMOS must not collapse history when history is load-bearing.
 
----
+______________________________________________________________________
 
-# 69. COUNTERFACTUAL BRANCHING
+## 69. COUNTERFACTUAL BRANCHING
 
 A counterfactual world may branch:
 
@@ -2029,15 +1998,15 @@ AMOS should branch only when alternatives can materially change the answer.
 
 Equivalent branches should be merged.
 
----
+______________________________________________________________________
 
-# 70. BRANCH PRUNING
+## 70. BRANCH PRUNING
 
 Prune branch (b) when:
 
-[
+\[
 Plausibility(b)
-]
+\]
 
 or decision relevance falls below the applicable threshold and no
 high-impact tail risk requires preservation.
@@ -2045,55 +2014,51 @@ high-impact tail risk requires preservation.
 Pruning must not silently remove low-probability catastrophic branches when
 stakes require them.
 
----
+______________________________________________________________________
 
-# 71. COUNTERFACTUAL SEARCH
+## 71. COUNTERFACTUAL SEARCH
 
-Given intervention space (\mathcal I):
+Given intervention space (\\mathcal I):
 
-[
-I^*
-===
+## \[ I^\*
 
-\arg\max_{I\in\mathcal I}
+\\arg\\max\_{I\\in\\mathcal I}
 Utility(CF(I))
-]
+\]
 
 subject to:
 
-[
+\[
 Integrity(I)
-\land
+\\land
 Safety(I)
-\land
+\\land
 Authorization(I)
-\land
+\\land
 Feasibility(I)
-]
+\]
 
 Optimization is subordinate to integrity constraints.
 
----
+______________________________________________________________________
 
-# 72. COUNTERFACTUAL EXPLANATION
+## 72. COUNTERFACTUAL EXPLANATION
 
 When the purpose is explanation rather than intervention selection, AMOS
 should seek the smallest causally adequate difference.
 
 Conceptually:
 
-[
-I^*
-===
+## \[ I^\*
 
-\arg\min_I Complexity(I)
-]
+\\arg\\min_I Complexity(I)
+\]
 
 subject to:
 
-[
+\[
 CF(I)
-]
+\]
 
 explaining the target contrast.
 
@@ -2101,46 +2066,44 @@ But minimality alone does not prove uniqueness.
 
 Multiple minimal explanations may remain `COMPETING`.
 
----
+______________________________________________________________________
 
-# 73. COUNTERFACTUAL ROBUSTNESS
+## 73. COUNTERFACTUAL ROBUSTNESS
 
 Define robust conclusion (C) across admissible model set
-(\mathcal M_A):
+(\\mathcal M_A):
 
-[
+\[
 Robust(C)
-\iff
-\forall M\in\mathcal M_A,;
+\\iff
+\\forall M\\in\\mathcal M_A,;
 C(M)=C
-]
+\]
 
 If only magnitude changes but decision direction remains fixed, AMOS may
 report decision robustness while preserving parameter uncertainty.
 
----
+______________________________________________________________________
 
-# 74. COUNTERFACTUAL FRAGILITY
+## 74. COUNTERFACTUAL FRAGILITY
 
 Define:
 
-[
-Fragility(C)
-============
+## \[ Fragility(C)
 
-\min_{\delta}
+\\min\_{\\delta}
 {
-|\delta| :
-C(M+\delta)\neq C(M)
+|\\delta| :
+C(M+\\delta)\\neq C(M)
 }
-]
+\]
 
 Small fragility radius implies the conclusion should be labeled
 `CONDITIONAL`.
 
----
+______________________________________________________________________
 
-# 75. COUNTERFACTUAL GOVERNANCE
+## 75. COUNTERFACTUAL GOVERNANCE
 
 Before converting a counterfactual into action, check:
 
@@ -2158,9 +2121,9 @@ Can rollback occur?
 
 Counterfactual desirability does not imply authorization.
 
----
+______________________________________________________________________
 
-# 76. INFORMATION EXPOSURE
+## 76. INFORMATION EXPOSURE
 
 Counterfactual generation may reveal sensitive information indirectly.
 
@@ -2173,9 +2136,9 @@ may expose decision boundaries or protected attributes.
 Therefore counterfactual usefulness must be balanced against applicable
 information-exposure constraints.
 
----
+______________________________________________________________________
 
-# 77. COUNTERFACTUAL AUDIT RECORD
+## 77. COUNTERFACTUAL AUDIT RECORD
 
 A consequential execution SHOULD preserve:
 
@@ -2199,67 +2162,63 @@ audit:
 
 This enables later causal and governance review.
 
----
+______________________________________________________________________
 
-# 78. OBSERVED POST-INTERVENTION UPDATE
+## 78. OBSERVED POST-INTERVENTION UPDATE
 
 After an intervention is actually executed, its observed outcome becomes new
 evidence.
 
 Before execution:
 
-[
+\[
 Y_I
-]
+\]
 
 is counterfactual/predicted.
 
 After execution:
 
-[
-Y_{obs}
-]
+\[
+Y\_{obs}
+\]
 
 is observational evidence about the intervened system.
 
 Compare:
 
-[
-Error
-=====
+## \[ Error
 
-Distance(Y_I,Y_{obs})
-]
+Distance(Y_I,Y\_{obs})
+\]
 
 and update the model accordingly.
 
 Do not retroactively label the original prediction `VERIFIED` merely because
 one realization happened to match.
 
----
+______________________________________________________________________
 
-# 79. MODEL CALIBRATION
+## 79. MODEL CALIBRATION
 
 Across repeated comparable interventions:
 
-[
-Calibration(M)
-==============
+## \[ Calibration(M)
 
 Compare(
 PredictedCF,
 ObservedPostIntervention
 )
-]
+\]
 
 AMOS may update model reliability within the validated applicability
 envelope.
 
 Calibration in one domain does not prove universal counterfactual validity.
 
----
+______________________________________________________________________
 
-# 80. CONCLUSION CLASSES
+## 80. CONCLUSION CLASSES
 
 Counterfactual conclusions use the weakest accurate class.
 
@@ -2292,9 +2251,9 @@ is insufficient.
 Most genuine unobserved counterfactuals should not casually be labeled
 `VERIFIED`.
 
----
+______________________________________________________________________
 
-# 81. OUTPUT CONTRACT
+## 81. OUTPUT CONTRACT
 
 A user-facing counterfactual answer SHOULD normally expose:
 
@@ -2313,9 +2272,9 @@ Safest decision/action if relevant
 
 The internal reasoning trace need not be exposed.
 
----
+______________________________________________________________________
 
-# 82. COMPACT OUTPUT FORM
+## 82. COMPACT OUTPUT FORM
 
 ```yaml
 counterfactual_result:
@@ -2333,9 +2292,9 @@ counterfactual_result:
   falsifiers: [...]
 ```
 
----
+______________________________________________________________________
 
-# 83. STOP CONDITIONS
+## 83. STOP CONDITIONS
 
 Counterfactual reasoning stops when all three are satisfied:
 
@@ -2353,22 +2312,20 @@ The next action is adequately specified, feasible, governed, and safe.
 
 Formally:
 
-[
-STOP
-====
+## \[ STOP
 
 C_S
-\land
+\\land
 D_S
-\land
+\\land
 A_S
-]
+\]
 
 More reasoning after this point may have negative expected value.
 
----
+______________________________________________________________________
 
-# 84. ANTI-FABRICATION RULES
+## 84. ANTI-FABRICATION RULES
 
 `K COUNTERFACTUAL` explicitly forbids:
 
@@ -2391,9 +2348,9 @@ When required information is absent:
 
 is the correct result.
 
----
+______________________________________________________________________
 
-# 85. CANONICAL INVARIANTS
+## 85. CANONICAL INVARIANTS
 
 The following invariants govern this artifact:
 
@@ -2455,140 +2412,129 @@ A desirable counterfactual action is not automatically authorized.
 Unobserved alternate worlds remain epistemically constrained by model and
 evidence.
 
----
+______________________________________________________________________
 
-# 86. FORMAL SUMMARY
+## 86. FORMAL SUMMARY
 
 Given factual evidence (E=e), causal model (M), intervention
 (I=do(X=x')), and queried outcome (Y):
 
-[
-U^*
-\sim
-P(U\mid E=e,M)
-]
+\[
+U^\*
+\\sim
+P(U\\mid E=e,M)
+\]
 
-[
-M_I
-===
+## \[ M_I
 
 Intervene(M,I)
-]
+\]
 
-[
-Y_{CF}
-======
+## \[ Y\_{CF}
 
-Predict(M_I,U^*)
-]
+Predict(M_I,U^\*)
+\]
 
 and:
 
-[
-\Delta Y
-========
+## \[ \\Delta Y
 
-Compare(Y_F,Y_{CF})
-]
+Compare(Y_F,Y\_{CF})
+\]
 
 subject to:
 
-[
-Valid(CF)
-=========
+## \[ Valid(CF)
 
 CausalSupport
-\land
+\\land
 ScopeValid
-\land
+\\land
 RegimeValid
-\land
+\\land
 TemporalValid
-\land
+\\land
 ProvenanceAdequate
-\land
+\\land
 AssumptionsExplicit
-]
+\]
 
 with:
 
-[
+\[
 Confidence(CF)
-\le
-\min_i Confidence(P_i)
-]
+\\le
+\\min_i Confidence(P_i)
+\]
 
 and:
 
-[
+\[
 Invalid(P_i)
-\Rightarrow
+\\Rightarrow
 Invalid(DependentDescendants(P_i))
-]
+\]
 
 while:
 
-[
-M_1(E)\approx M_2(E)
-]
+\[
+M_1(E)\\approx M_2(E)
+\]
 
 does not imply:
 
-[
+\[
 CF(M_1,I)=CF(M_2,I)
-]
+\]
 
 Therefore observational equivalence does not guarantee counterfactual
 equivalence.
 
----
+______________________________________________________________________
 
-# 87. K COUNTERFACTUAL MASTER LAW
+## 87. K COUNTERFACTUAL MASTER LAW
 
 The final governing expression is:
 
-[
-\boxed{
-CF^*
-====
+## \[ \\boxed{ CF^\*
 
-\arg\max_{CF}
+\\arg\\max\_{CF}
 DecisionValue(CF)
 }
-]
+\]
 
 subject to:
 
-[
-\boxed{
+\[
+\\boxed{
 Integrity
-\land
+\\land
 CausalValidity
-\land
+\\land
 ProvenanceValidity
-\land
+\\land
 ScopeValidity
-\land
+\\land
 RegimeValidity
-\land
+\\land
 TemporalValidity
-\land
+\\land
 Governance
 }
-]
+\]
 
 and the overriding rule:
 
-[
-\boxed{
-\text{Never claim to know an unrealized world more strongly than the
+\[
+\\boxed{
+\\text{Never claim to know an unrealized world more strongly than the
 evidence and causal model permit.}
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 88. RELATION TO AMOS OS
+## 88. RELATION TO AMOS OS
 
 `K COUNTERFACTUAL` should interoperate with, but not silently redefine:
 
@@ -2628,9 +2574,9 @@ pretend that the missing dependency is already implemented.
 
 The dependency remains explicit until separately reconstructed and promoted.
 
----
+______________________________________________________________________
 
-# 89. PROVENANCE / PROMOTION NOTE
+## 89. PROVENANCE / PROMOTION NOTE
 
 This artifact is a substantive replacement candidate for the reserved
 `K COUNTERFACTUAL` location.
@@ -2666,32 +2612,35 @@ Until that process is completed:
 
 is the correct state.
 
----
+______________________________________________________________________
 
-# END — K COUNTERFACTUAL
+## END — K COUNTERFACTUAL
 
 ```
 
 This is intentionally much deeper than the placeholder, but it keeps the critical AMOS distinction intact: **a reconstructed architecture is a MODEL/candidate canon until provenance and promotion establish otherwise**. The Drive corpus also contains dedicated material on counterfactual harm, uncertainty quantification, causal-reasoning benchmarks, and partial identification, so those can be used for a subsequent evidence-hardening pass rather than being silently treated as already incorporated empirical validation.
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: commit_control_plane_validation
 node_type: note
 path: 03_CONTROL_PLANE/09_COMMIT/02_DEEP_ANALYSIS/COMMIT_CONTROL_PLANE_VALIDATION.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[03_CONTROL_PLANE/09_COMMIT/02_DEEP_ANALYSIS/02_DEEP_ANALYSIS_MOC|02_DEEP_ANALYSIS_MOC]]
-

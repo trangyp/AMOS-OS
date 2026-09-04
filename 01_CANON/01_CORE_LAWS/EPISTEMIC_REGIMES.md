@@ -1,42 +1,45 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: EPISTEMIC_REGIMES Classification Law
 aliases:
-- EPISTEMIC_REGIMES
-- Epistemic Regimes
-- Epistemic Regimes Classification
-- Epistemic Classification Law
+  - EPISTEMIC_REGIMES
+  - Epistemic Regimes
+  - Epistemic Regimes Classification
+  - Epistemic Classification Law
 type: law
 source: 01_CANON/01_CORE_LAWS
 tags:
-- core_law
-- epistemic
-- epistemic_regimes
-- classification
-- knowledge_class
-- source_claim
-- observation
-- derived
-- model
-- provenance
-- evidence
-- scope
-- regime
-- confidence
-- rscf
-- core_laws
-- canon
-- canon/universe
-- law/L21-epistemic-regime
-- law/L27-gap
-- law/L28-critical-gap
-- law/L17-rscf
-- readme
-- law-hierarchy
-- law/L22-atomic-reasoning
-- law/L1-epistemic
-- law/L5-scope-regime
-- scope-regime-firewall
-- trang-framework-recursive-ontology-dynamics
+  - core_law
+  - epistemic
+  - epistemic_regimes
+  - classification
+  - knowledge_class
+  - source_claim
+  - observation
+  - derived
+  - model
+  - provenance
+  - evidence
+  - scope
+  - regime
+  - confidence
+  - rscf
+  - core_laws
+  - canon
+  - canon/universe
+  - law/L21-epistemic-regime
+  - law/L27-gap
+  - law/L28-critical-gap
+  - law/L17-rscf
+  - readme
+  - law-hierarchy
+  - law/L22-atomic-reasoning
+  - law/L1-epistemic
+  - law/L5-scope-regime
+  - scope-regime-firewall
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
@@ -48,7 +51,7 @@ rscf:
 
 # EPISTEMIC_REGIMES Classification Law
 
-> [!abstract]
+> [!ABSTRACT]
 > Governs the four discrete knowledge classes:
 >
 > **SOURCE_CLAIM · OBSERVATION · DERIVED · MODEL**
@@ -56,9 +59,9 @@ rscf:
 > The law exists to prevent claims with materially different epistemic
 > origins from being silently treated as equivalent.
 
----
+______________________________________________________________________
 
-# 0. Status
+## 0. Status
 
 ```yaml
 status:
@@ -97,9 +100,9 @@ These four classes form the classification surface of this law.
 They must not be silently collapsed into one generic category such as
 "knowledge", "fact", "evidence", or "truth".
 
----
+______________________________________________________________________
 
-# 1. Core Law
+## 1. Core Law
 
 Every material knowledge object governed by this classification law
 must be represented according to the epistemic origin that actually
@@ -136,9 +139,9 @@ supplied four-class statement.
 
 It does not add a fifth source-defined class.
 
----
+______________________________________________________________________
 
-# 2. Classification Principle
+## 2. Classification Principle
 
 The classification question is not:
 
@@ -180,9 +183,9 @@ The class records epistemic origin/type.
 
 It does not by itself certify correctness.
 
----
+______________________________________________________________________
 
-# 3. The Four Classes
+## 3. The Four Classes
 
 ```text
                  EPISTEMIC_REGIMES
@@ -203,9 +206,9 @@ It does **not** imply a canonical hierarchy between them.
 
 The classes are distinct types, not automatically ranks.
 
----
+______________________________________________________________________
 
-# 4. SOURCE_CLAIM
+## 4. SOURCE_CLAIM
 
 ## 4.1 Definition
 
@@ -230,9 +233,9 @@ It does not automatically mean:
 C is independently verified
 ```
 
----
+______________________________________________________________________
 
-# 5. SOURCE_CLAIM Core Boundary
+## 5. SOURCE_CLAIM Core Boundary
 
 The canonical integrity distinction is:
 
@@ -270,9 +273,9 @@ A source may be:
 
 Classification preserves this distinction.
 
----
+______________________________________________________________________
 
-# 6. SOURCE_CLAIM Examples
+## 6. SOURCE_CLAIM Examples
 
 ```yaml
 examples:
@@ -296,9 +299,9 @@ examples:
 Unless the relevant underlying evidence is independently inspected,
 these remain claims about what a source reports.
 
----
+______________________________________________________________________
 
-# 7. Source Authority Does Not Change Class
+## 7. Source Authority Does Not Change Class
 
 A source may be highly authoritative.
 
@@ -325,9 +328,9 @@ Authority can affect trust assessment.
 
 It does not erase provenance.
 
----
+______________________________________________________________________
 
-# 8. Multiple Sources
+## 8. Multiple Sources
 
 Suppose:
 
@@ -362,9 +365,9 @@ SOURCE COUNT
 INDEPENDENT PROVENANCE COUNT
 ```
 
----
+______________________________________________________________________
 
-# 9. SOURCE_CLAIM Provenance Requirement
+## 9. SOURCE_CLAIM Provenance Requirement
 
 A useful source claim should preserve enough provenance to answer:
 
@@ -396,9 +399,9 @@ The exact schema is not established by the terse source law.
 
 This is an integration model.
 
----
+______________________________________________________________________
 
-# 10. OBSERVATION
+## 10. OBSERVATION
 
 ## 10.1 Definition
 
@@ -411,14 +414,14 @@ $$
 OBSERVATION(O)
 $$
 
-where \(O\) is tied to an observation context.
+where (O) is tied to an observation context.
 
 An observation should preserve its measurement conditions where those
 conditions can change interpretation.
 
----
+______________________________________________________________________
 
-# 11. Observation Boundary
+## 11. Observation Boundary
 
 An observation is not interpretation.
 
@@ -446,9 +449,9 @@ OBSERVATION
 != INTERPRETATION
 ```
 
----
+______________________________________________________________________
 
-# 12. Observation Does Not Guarantee Accuracy
+## 12. Observation Does Not Guarantee Accuracy
 
 A direct observation may still be affected by:
 
@@ -475,9 +478,9 @@ The class describes how the information was obtained.
 
 It does not guarantee perfect measurement.
 
----
+______________________________________________________________________
 
-# 13. Observation Context
+## 13. Observation Context
 
 An observation without context may be unusable.
 
@@ -515,9 +518,9 @@ measurement method
 
 does not license universal latency claims.
 
----
+______________________________________________________________________
 
-# 14. Observation Examples
+## 14. Observation Examples
 
 ```yaml
 examples:
@@ -545,9 +548,9 @@ SOURCE_CLAIM
 
 may instead be the correct class.
 
----
+______________________________________________________________________
 
-# 15. Source Claim vs Observation
+## 15. Source Claim vs Observation
 
 Critical distinction:
 
@@ -579,9 +582,9 @@ The textual proposition may look identical.
 
 Its epistemic class differs because its provenance differs.
 
----
+______________________________________________________________________
 
-# 16. OBSERVATION Scope
+## 16. OBSERVATION Scope
 
 Observation inherits its observation envelope.
 
@@ -618,9 +621,9 @@ $$
 
 without an appropriate generalization argument.
 
----
+______________________________________________________________________
 
-# 17. DERIVED
+## 17. DERIVED
 
 ## 17.1 Definition
 
@@ -651,9 +654,9 @@ The epistemic status of D depends on:
 - freshness;
 - provenance topology where relevant.
 
----
+______________________________________________________________________
 
-# 18. Derived Claim Dependency Law
+## 18. Derived Claim Dependency Law
 
 A derived claim must preserve its dependency relationship.
 
@@ -697,9 +700,9 @@ where dependent.
 
 Do not invalidate unrelated claims.
 
----
+______________________________________________________________________
 
-# 19. Weakest Load-Bearing Premise
+## 19. Weakest Load-Bearing Premise
 
 Derived confidence cannot silently exceed the weakest load-bearing
 premise unless independent revalidation changes the support structure.
@@ -723,9 +726,9 @@ $$
 
 unless D obtains additional independent support.
 
----
+______________________________________________________________________
 
-# 20. Derived Does Not Mean Certain
+## 20. Derived Does Not Mean Certain
 
 A conclusion can be logically derived from uncertain premises.
 
@@ -748,9 +751,9 @@ UNCERTAIN PREMISE
 UNCERTAINTY PRESERVED
 ```
 
----
+______________________________________________________________________
 
-# 21. Derived Claim Examples
+## 21. Derived Claim Examples
 
 ```yaml
 examples:
@@ -776,9 +779,9 @@ examples:
     class: DERIVED
 ```
 
----
+______________________________________________________________________
 
-# 22. Derivation Trace
+## 22. Derivation Trace
 
 A high-integrity derived claim should be able to expose a compact
 dependency trace without requiring hidden chain-of-thought.
@@ -803,9 +806,9 @@ derived_claim:
 This preserves proof structure without requiring private reasoning
 transcripts.
 
----
+______________________________________________________________________
 
-# 23. DERIVED vs OBSERVATION
+## 23. DERIVED vs OBSERVATION
 
 ```text
 OBSERVATION:
@@ -825,9 +828,9 @@ The second statement adds explanatory inference.
 Unless the mechanism is directly established, it must not inherit the
 observation class merely because it explains an observation.
 
----
+______________________________________________________________________
 
-# 24. DERIVED vs SOURCE_CLAIM
+## 24. DERIVED vs SOURCE_CLAIM
 
 Suppose a source says:
 
@@ -864,9 +867,9 @@ but only if the evidence licenses causal inference.
 The same sentence can therefore have different epistemic classes
 depending on how it is supported.
 
----
+______________________________________________________________________
 
-# 25. MODEL
+## 25. MODEL
 
 ## 25.1 Definition
 
@@ -891,9 +894,9 @@ $$
 
 A model can be useful without being universally true.
 
----
+______________________________________________________________________
 
-# 26. Model Boundary
+## 26. Model Boundary
 
 The essential firewall is:
 
@@ -929,9 +932,9 @@ A model may describe:
 
 These must remain distinguishable from observations.
 
----
+______________________________________________________________________
 
-# 27. MODEL Examples
+## 27. MODEL Examples
 
 ```yaml
 examples:
@@ -956,9 +959,9 @@ examples:
 
 unless stronger canon or empirical evidence establishes another class.
 
----
+______________________________________________________________________
 
-# 28. Model Predictions
+## 28. Model Predictions
 
 A model can generate predictions.
 
@@ -990,9 +993,9 @@ universal model validity
 
 The applicability envelope remains material.
 
----
+______________________________________________________________________
 
-# 29. Model Validation
+## 29. Model Validation
 
 Model validation is itself evidence-dependent.
 
@@ -1020,9 +1023,9 @@ SUPPORTED MODEL
 
 unless the evidence justifies that stronger conclusion.
 
----
+______________________________________________________________________
 
-# 30. Model Falsifiers
+## 30. Model Falsifiers
 
 A useful model should expose conditions capable of defeating it.
 
@@ -1044,9 +1047,9 @@ model:
 A model without any possible invalidation condition risks becoming
 unfalsifiable narrative rather than decision-useful structure.
 
----
+______________________________________________________________________
 
-# 31. Four-Class Comparison
+## 31. Four-Class Comparison
 
 | Class          | Immediate Basis               | Core Question                                     | Does Class Imply Truth? |
 | -------------- | ----------------------------- | ------------------------------------------------- | ----------------------- |
@@ -1063,9 +1066,9 @@ TRUE
 
 The classes encode epistemic type.
 
----
+______________________________________________________________________
 
-# 32. Classes Are Not Confidence Levels
+## 32. Classes Are Not Confidence Levels
 
 Incorrect:
 
@@ -1088,9 +1091,9 @@ A mature model can be highly predictive.
 
 Class and confidence must therefore remain separate variables.
 
----
+______________________________________________________________________
 
-# 33. Classification vs Conclusion Class
+## 33. Classification vs Conclusion Class
 
 The four epistemic regimes should not be silently conflated with
 conclusion states such as:
@@ -1130,9 +1133,9 @@ conclusion_status: VERIFIED
 
 if the surrounding canon defines and supports that status.
 
----
+______________________________________________________________________
 
-# 34. Classification vs RSCF State
+## 34. Classification vs RSCF State
 
 Likewise:
 
@@ -1159,9 +1162,9 @@ claim class is AMOS_MODEL.
 It does not automatically promote every proposition inside the node to
 empirical fact.
 
----
+______________________________________________________________________
 
-# 35. Classification Function
+## 35. Classification Function
 
 Normalized classifier:
 
@@ -1186,9 +1189,9 @@ This is a practical classification heuristic.
 The terse supplied law defines the classes but does not provide a
 complete executable classifier.
 
----
+______________________________________________________________________
 
-# 36. Mixed Claims
+## 36. Mixed Claims
 
 A sentence can contain multiple epistemic objects.
 
@@ -1214,9 +1217,9 @@ C2 does not inherit C1's support automatically.
 Composite claims should therefore be decomposed when their components
 have different epistemic classes.
 
----
+______________________________________________________________________
 
-# 37. Atomic Classification
+## 37. Atomic Classification
 
 For composite proposition:
 
@@ -1235,9 +1238,9 @@ Class(C1) = Class(C2) = Class(C3)
 
 merely because they occur in one sentence or document.
 
----
+______________________________________________________________________
 
-# 38. Provenance Preservation
+## 38. Provenance Preservation
 
 Every classification should preserve enough provenance to reconstruct
 why the class was assigned.
@@ -1259,9 +1262,9 @@ SOURCE_CLAIM
 
 The existence of a downstream node does not erase upstream ancestry.
 
----
+______________________________________________________________________
 
-# 39. Provenance Topology
+## 39. Provenance Topology
 
 A knowledge graph should distinguish:
 
@@ -1293,9 +1296,9 @@ REPORT D
 B, C, and D must not be counted as three independent confirmations of
 the underlying proposition merely because they occupy separate nodes.
 
----
+______________________________________________________________________
 
-# 40. Sybil Hardening
+## 40. Sybil Hardening
 
 Epistemic classification must resist artificial multiplication of
 evidence.
@@ -1325,9 +1328,9 @@ $$
 
 Provenance ancestry matters.
 
----
+______________________________________________________________________
 
-# 41. Scope Inheritance
+## 41. Scope Inheritance
 
 Every material epistemic object should preserve its applicability
 envelope.
@@ -1348,9 +1351,9 @@ scope_envelope:
 
 A derived claim cannot silently widen beyond its premises.
 
----
+______________________________________________________________________
 
-# 42. Scope Rule
+## 42. Scope Rule
 
 If:
 
@@ -1374,9 +1377,9 @@ LOCAL EVIDENCE
 != UNIVERSAL EVIDENCE
 ```
 
----
+______________________________________________________________________
 
-# 43. Regime Firewall
+## 43. Regime Firewall
 
 Epistemic classification and epistemic regime are related but distinct.
 
@@ -1404,9 +1407,9 @@ where established by the relevant law.
 
 A class must not silently cross regimes.
 
----
+______________________________________________________________________
 
-# 44. Cross-Regime Promotion
+## 44. Cross-Regime Promotion
 
 Suppose:
 
@@ -1434,9 +1437,9 @@ OBSERVED RUNTIME IMPLEMENTATION
 
 A bridge requires appropriate evidence.
 
----
+______________________________________________________________________
 
-# 45. Canon vs Empirical Reality
+## 45. Canon vs Empirical Reality
 
 A canonical law may establish:
 
@@ -1461,19 +1464,19 @@ CANONICAL REQUIREMENT
 
 This firewall is especially important for architectural language.
 
----
+______________________________________________________________________
 
-# 46. Freshness
+## 46. Freshness
 
 Epistemic class alone does not establish current validity.
 
-An observation from time \(t_0\):
+An observation from time (t_0):
 
 ```text
 OBSERVATION @ t0
 ```
 
-can become stale relative to a decision at \(t_1\).
+can become stale relative to a decision at (t_1).
 
 Likewise:
 
@@ -1490,9 +1493,9 @@ CLASSIFICATION
 != FRESHNESS
 ```
 
----
+______________________________________________________________________
 
-# 47. Freshness Axes
+## 47. Freshness Axes
 
 Where decision-relevant, freshness may require checking:
 
@@ -1518,9 +1521,9 @@ classification_valid: true
 freshness: STALE
 ```
 
----
+______________________________________________________________________
 
-# 48. Causal Firewall
+## 48. Causal Firewall
 
 None of the four classes automatically licenses causal inference.
 
@@ -1568,9 +1571,9 @@ MODEL MECHANISM
 != VERIFIED CAUSAL EFFECT
 ```
 
----
+______________________________________________________________________
 
-# 49. Evidence Typing for Causality
+## 49. Evidence Typing for Causality
 
 Causal conclusions should distinguish:
 
@@ -1593,9 +1596,9 @@ claim.
 Epistemic classification preserves the upstream evidence type needed
 to detect such overreach.
 
----
+______________________________________________________________________
 
-# 50. Classification Preservation Through Derivation
+## 50. Classification Preservation Through Derivation
 
 Suppose:
 
@@ -1626,9 +1629,9 @@ depends_on:
 
 The derived class does not erase the classes of its premises.
 
----
+______________________________________________________________________
 
-# 51. Model Built from Derived Claims
+## 51. Model Built from Derived Claims
 
 Similarly:
 
@@ -1654,9 +1657,9 @@ OBSERVATION --------> DERIVED ----> MODEL
 
 The model should preserve this dependency structure.
 
----
+______________________________________________________________________
 
-# 52. Model Does Not Retroactively Reclassify Evidence
+## 52. Model Does Not Retroactively Reclassify Evidence
 
 If model M explains observation O:
 
@@ -1677,9 +1680,9 @@ merely because a model incorporates it.
 Likewise, a source claim used by a model remains source-derived in
 provenance.
 
----
+______________________________________________________________________
 
-# 53. Observation Does Not Retroactively Verify Model
+## 53. Observation Does Not Retroactively Verify Model
 
 Suppose:
 
@@ -1707,9 +1710,9 @@ Alternative models may predict the same observation.
 
 Competing explanations must remain visible.
 
----
+______________________________________________________________________
 
-# 54. Competing Models
+## 54. Competing Models
 
 Suppose:
 
@@ -1736,9 +1739,9 @@ if neither has stronger discriminating evidence.
 
 Do not force convergence.
 
----
+______________________________________________________________________
 
-# 55. Discriminating Evidence
+## 55. Discriminating Evidence
 
 When models compete, prefer evidence capable of separating them.
 
@@ -1760,9 +1763,9 @@ REDUNDANT CONFIRMATION
 
 when decision value is the objective.
 
----
+______________________________________________________________________
 
-# 56. UNKNOWN and GAP
+## 56. UNKNOWN and GAP
 
 The supplied four-class law governs:
 
@@ -1809,9 +1812,9 @@ NO OBSERVATION
 != OBSERVATION
 ```
 
----
+______________________________________________________________________
 
-# 57. Classification Gap
+## 57. Classification Gap
 
 If the epistemic origin cannot be determined:
 
@@ -1829,9 +1832,9 @@ this node.
 
 The four source-established classes remain unchanged.
 
----
+______________________________________________________________________
 
-# 58. Gap Priority
+## 58. Gap Priority
 
 Material gaps should be resolved according to decision impact.
 
@@ -1852,9 +1855,9 @@ A classification uncertainty is critical when the decision would be
 unsafe or invalid under one plausible classification but acceptable
 under another.
 
----
+______________________________________________________________________
 
-# 59. Classification Conflict
+## 59. Classification Conflict
 
 Two validators may disagree:
 
@@ -1893,9 +1896,9 @@ OBSERVATION
 
 The conflict is resolved by epistemic origin, not label preference.
 
----
+______________________________________________________________________
 
-# 60. Misclassification: Source Claim as Observation
+## 60. Misclassification: Source Claim as Observation
 
 Invalid promotion:
 
@@ -1919,9 +1922,9 @@ SOURCE_CLAIM
 
 The source's confidence does not change this.
 
----
+______________________________________________________________________
 
-# 61. Misclassification: Model as Observation
+## 61. Misclassification: Model as Observation
 
 Invalid:
 
@@ -1945,9 +1948,9 @@ PREDICTION X
 
 until an observation process actually measures X.
 
----
+______________________________________________________________________
 
-# 62. Misclassification: Observation as Causal Proof
+## 62. Misclassification: Observation as Causal Proof
 
 Invalid:
 
@@ -1969,9 +1972,9 @@ A preceded B
 
 plus additional causal evidence if a causal conclusion is required.
 
----
+______________________________________________________________________
 
-# 63. Misclassification: Derived as Source Claim
+## 63. Misclassification: Derived as Source Claim
 
 If AMOS infers:
 
@@ -1993,9 +1996,9 @@ DERIVED D
 
 This preserves the inference edge.
 
----
+______________________________________________________________________
 
-# 64. Misclassification: Source Claim as Model
+## 64. Misclassification: Source Claim as Model
 
 A source can itself state a model.
 
@@ -2022,9 +2025,9 @@ MODEL
 
 Both types should be preserved rather than collapsed.
 
----
+______________________________________________________________________
 
-# 65. Nested Epistemic Typing
+## 65. Nested Epistemic Typing
 
 A useful representation can distinguish:
 
@@ -2052,9 +2055,9 @@ claim:
 
 until O is independently observed.
 
----
+______________________________________________________________________
 
-# 66. Epistemic Object Identity
+## 66. Epistemic Object Identity
 
 A knowledge object should retain stable identity across reclassification
 events.
@@ -2087,9 +2090,9 @@ rather than silently rewriting C1 as an observation.
 
 This preserves causal and provenance history.
 
----
+______________________________________________________________________
 
-# 67. No Silent Epistemic Promotion
+## 67. No Silent Epistemic Promotion
 
 Never silently transform:
 
@@ -2117,9 +2120,9 @@ DIRECT EVIDENCE
 
 Promotion requires a new evidentiary event and explicit lineage.
 
----
+______________________________________________________________________
 
-# 68. No Silent Epistemic Demotion
+## 68. No Silent Epistemic Demotion
 
 Likewise, contradictory later evidence should not erase historical
 classification.
@@ -2140,9 +2143,9 @@ rather than pretending O1 never existed.
 
 This aligns with causal lineage discipline.
 
----
+______________________________________________________________________
 
-# 69. Epoch-Aware Classification
+## 69. Epoch-Aware Classification
 
 Conceptually:
 
@@ -2171,9 +2174,9 @@ rewrite e_k silently
 
 The exact epoch schema belongs to the relevant causal-epoch law.
 
----
+______________________________________________________________________
 
-# 70. Replayability Boundary
+## 70. Replayability Boundary
 
 A classification decision may be replayable if the classification
 inputs and rules are preserved.
@@ -2203,9 +2206,9 @@ REPLAYABILITY
 A deterministically replayed misclassification remains a
 misclassification.
 
----
+______________________________________________________________________
 
-# 71. Atomic Reasoning Boundary
+## 71. Atomic Reasoning Boundary
 
 When multiple epistemic objects jointly support one decision:
 
@@ -2237,9 +2240,9 @@ transaction
 
 Each contributes according to its actual role.
 
----
+______________________________________________________________________
 
-# 72. RSCF Integration
+## 72. RSCF Integration
 
 Each RSCF capsule can carry epistemic typing.
 
@@ -2266,9 +2269,9 @@ The exact RSCF schema remains governed by:
 
 [[01_CANON/01_CORE_LAWS/L17_RSCF|L17_RSCF]]
 
----
+______________________________________________________________________
 
-# 73. RSCF Classification Invariant
+## 73. RSCF Classification Invariant
 
 For any material RSCF claim:
 
@@ -2291,9 +2294,9 @@ should remain visible.
 
 Do not choose the most flattering class.
 
----
+______________________________________________________________________
 
-# 74. Classification and Validation
+## 74. Classification and Validation
 
 Validation asks whether the object satisfies relevant checks.
 
@@ -2320,9 +2323,9 @@ object:
 The source claim can be well-validated *as a source claim* without its
 embedded proposition being independently verified.
 
----
+______________________________________________________________________
 
-# 75. Classification and Verification
+## 75. Classification and Verification
 
 Important distinction:
 
@@ -2346,9 +2349,9 @@ X
 
 This distinction is fundamental to provenance-aware reasoning.
 
----
+______________________________________________________________________
 
-# 76. Classification and Contradiction
+## 76. Classification and Contradiction
 
 Suppose:
 
@@ -2374,9 +2377,9 @@ COMPETING SOURCE CLAIMS
 
 until discriminating evidence exists.
 
----
+______________________________________________________________________
 
-# 77. Observation Conflict
+## 77. Observation Conflict
 
 Suppose:
 
@@ -2404,9 +2407,9 @@ CONTRADICTORY OBSERVATIONS
 should trigger scope/provenance/freshness analysis rather than forced
 averaging.
 
----
+______________________________________________________________________
 
-# 78. Derived Conflict
+## 78. Derived Conflict
 
 Suppose two derivations produce:
 
@@ -2430,9 +2433,9 @@ hidden assumptions
 The conflict may arise because the derivations are valid under
 different applicability envelopes.
 
----
+______________________________________________________________________
 
-# 79. Model Conflict
+## 79. Model Conflict
 
 Competing models should remain:
 
@@ -2448,9 +2451,9 @@ Model plurality is not itself a defect.
 
 Premature convergence is.
 
----
+______________________________________________________________________
 
-# 80. Evidence Topology
+## 80. Evidence Topology
 
 A complete epistemic topology may resemble:
 
@@ -2478,9 +2481,9 @@ This structure preserves:
 - competing interpretations;
 - inference boundaries.
 
----
+______________________________________________________________________
 
-# 81. Provenance Independence Test
+## 81. Provenance Independence Test
 
 Before treating multiple claims as independent support, ask:
 
@@ -2500,9 +2503,9 @@ If yes, correlation risk must remain visible.
 
 Independence must be demonstrated rather than assumed.
 
----
+______________________________________________________________________
 
-# 82. Source Repetition Rule
+## 82. Source Repetition Rule
 
 If ten documents repeat the same unsupported claim from one origin:
 
@@ -2525,9 +2528,9 @@ REPETITION
 != VALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 83. Benchmark Boundary
+## 83. Benchmark Boundary
 
 A benchmark result may begin as:
 
@@ -2559,9 +2562,9 @@ DERIVED
 
 and must respect benchmark scope.
 
----
+______________________________________________________________________
 
-# 84. Runtime Claim Boundary
+## 84. Runtime Claim Boundary
 
 Statement:
 
@@ -2593,9 +2596,9 @@ requires additional evidence.
 
 Code inspection alone does not universally establish runtime behavior.
 
----
+______________________________________________________________________
 
-# 85. Implementation Boundary
+## 85. Implementation Boundary
 
 A canonical architecture can say:
 
@@ -2631,9 +2634,9 @@ SYSTEM WILL ALWAYS DO X
 
 is a stronger derived/model claim requiring appropriate support.
 
----
+______________________________________________________________________
 
-# 86. Test-Pass Boundary
+## 86. Test-Pass Boundary
 
 If documentation says:
 
@@ -2673,9 +2676,9 @@ implementation is universally correct
 
 That would exceed the observation's scope.
 
----
+______________________________________________________________________
 
-# 87. Formal Proof Boundary
+## 87. Formal Proof Boundary
 
 If a source states:
 
@@ -2703,9 +2706,9 @@ Whether the proof is valid may require formal validation.
 Do not equate a proof claim with a verified theorem without the
 necessary evidence.
 
----
+______________________________________________________________________
 
-# 88. Simulation Boundary
+## 88. Simulation Boundary
 
 A simulation produces observations **within the simulation regime**.
 
@@ -2726,9 +2729,9 @@ without an explicit bridge.
 
 The observation class remains valid while its regime remains bounded.
 
----
+______________________________________________________________________
 
-# 89. Structural Similarity Boundary
+## 89. Structural Similarity Boundary
 
 Suppose model A and system B share structure.
 
@@ -2754,9 +2757,9 @@ B literally implements A
 Structural similarity remains model-level unless independently
 validated.
 
----
+______________________________________________________________________
 
-# 90. Classification Decision Tree
+## 90. Classification Decision Tree
 
 ```text
 KNOWLEDGE OBJECT K
@@ -2808,9 +2811,9 @@ CLASSIFICATION GAP
 Mixed objects should be decomposed rather than forced through one
 branch.
 
----
+______________________________________________________________________
 
-# 91. Minimal Classification Record
+## 91. Minimal Classification Record
 
 ```yaml
 epistemic_record:
@@ -2836,9 +2839,9 @@ epistemic_record:
 This is an illustrative schema, not a source-established mandatory
 serialization format.
 
----
+______________________________________________________________________
 
-# 92. Full Classification Record
+## 92. Full Classification Record
 
 ```yaml
 epistemic_record:
@@ -2907,9 +2910,9 @@ epistemic_record:
 
 Again, this is a model-level integration schema.
 
----
+______________________________________________________________________
 
-# 93. Classification State Machine
+## 93. Classification State Machine
 
 ```text
 UNCLASSIFIED
@@ -2932,9 +2935,9 @@ must originate from a derived claim.
 
 All four classes may be assigned directly based on epistemic origin.
 
----
+______________________________________________________________________
 
-# 94. Reclassification Event
+## 94. Reclassification Event
 
 When new evidence changes the appropriate representation, preserve
 lineage.
@@ -2957,9 +2960,9 @@ K@e1 was always OBSERVATION
 
 Instead create explicit new evidence.
 
----
+______________________________________________________________________
 
-# 95. Classification Promotion Gate
+## 95. Classification Promotion Gate
 
 A stronger epistemic representation requires stronger evidence.
 
@@ -2993,9 +2996,9 @@ cannot be treated as empirically established merely because:
 model is elegant
 ```
 
----
+______________________________________________________________________
 
-# 96. Classification Preservation During Compression
+## 96. Classification Preservation During Compression
 
 Summarization must preserve epistemic class.
 
@@ -3019,9 +3022,9 @@ Correct:
 
 unless independent observation exists.
 
----
+______________________________________________________________________
 
-# 97. Classification Preservation During Retrieval
+## 97. Classification Preservation During Retrieval
 
 Retrieval must not strip epistemic metadata.
 
@@ -3037,9 +3040,9 @@ empirical fact merely because it is in canon.
 
 Canonical location and empirical verification are separate properties.
 
----
+______________________________________________________________________
 
-# 98. Classification Preservation During Synthesis
+## 98. Classification Preservation During Synthesis
 
 Suppose synthesis uses:
 
@@ -3065,9 +3068,9 @@ S, O, and M are all facts.
 
 Synthesis must not flatten epistemic topology.
 
----
+______________________________________________________________________
 
-# 99. Classification Preservation During Citation
+## 99. Classification Preservation During Citation
 
 Citation proves or supports:
 
@@ -3092,9 +3095,9 @@ Citation is provenance infrastructure.
 
 Verification requires appropriate evidence.
 
----
+______________________________________________________________________
 
-# 100. Classification Preservation During Consensus
+## 100. Classification Preservation During Consensus
 
 If multiple agents agree:
 
@@ -3124,9 +3127,9 @@ may remain.
 
 Consensus does not create independent evidence.
 
----
+______________________________________________________________________
 
-# 101. Classification Preservation During Recovery
+## 101. Classification Preservation During Recovery
 
 Recovery must preserve the original epistemic identity of restored
 objects.
@@ -3157,9 +3160,9 @@ DERIVED
 
 unless an explicit new epistemic event justifies the change.
 
----
+______________________________________________________________________
 
-# 102. Classification Preservation Across Epochs
+## 102. Classification Preservation Across Epochs
 
 Historical record:
 
@@ -3190,9 +3193,9 @@ rewrite C1@e1 as DERIVED
 
 Each epistemic event remains typed.
 
----
+______________________________________________________________________
 
-# 103. Classification Preservation Across Shards
+## 103. Classification Preservation Across Shards
 
 If shard A stores:
 
@@ -3219,9 +3222,9 @@ Both records may be valid with different provenance.
 
 A merge must not discard this distinction.
 
----
+______________________________________________________________________
 
-# 104. Classification and Atomic Multi-RSCF
+## 104. Classification and Atomic Multi-RSCF
 
 An atomic transaction may contain:
 
@@ -3246,9 +3249,9 @@ Atomic commit preserves transaction consistency.
 
 It does not normalize all capsules to one epistemic class.
 
----
+______________________________________________________________________
 
-# 105. Classification and Confidence Ceiling
+## 105. Classification and Confidence Ceiling
 
 Conceptually:
 
@@ -3267,9 +3270,9 @@ downstream D1 and M1 cannot silently exceed it.
 
 Additional independent observations may alter the ceiling.
 
----
+______________________________________________________________________
 
-# 106. Classification and Adversarial Validation
+## 106. Classification and Adversarial Validation
 
 For consequential conclusions, challenge classification itself.
 
@@ -3299,9 +3302,9 @@ Has correlation been mistaken for causation?
 A classification that fails this challenge should be downgraded,
 conditioned, or marked as a gap.
 
----
+______________________________________________________________________
 
-# 107. Sensitivity Test
+## 107. Sensitivity Test
 
 Identify the smallest classification change that could flip the
 decision.
@@ -3326,9 +3329,9 @@ classification is decision-critical
 
 and should be resolved before lower-value background work.
 
----
+______________________________________________________________________
 
-# 108. Classification Error Severity
+## 108. Classification Error Severity
 
 ```yaml
 severity:
@@ -3354,9 +3357,9 @@ severity:
 
 Integrity effort should scale with consequence.
 
----
+______________________________________________________________________
 
-# 109. Anti-Fabrication Rule
+## 109. Anti-Fabrication Rule
 
 If evidence does not establish the epistemic origin:
 
@@ -3374,9 +3377,9 @@ under the appropriate gap law.
 
 Fluent prose cannot substitute for provenance.
 
----
+______________________________________________________________________
 
-# 110. Anti-Pattern Register
+## 110. Anti-Pattern Register
 
 ## ER-AP1 — Source-to-Fact Collapse
 
@@ -3434,9 +3437,9 @@ Downstream confidence exceeds weak load-bearing premise.
 
 Historical epistemic class rewritten without lineage.
 
----
+______________________________________________________________________
 
-# 111. Classification Decision Matrix
+## 111. Classification Decision Matrix
 
 | Evidence Situation                        | Classification                                                     |
 | ----------------------------------------- | ------------------------------------------------------------------ |
@@ -3454,9 +3457,9 @@ Historical epistemic class rewritten without lineage.
 | Source reports an observation             | outer `SOURCE_CLAIM`; embedded observation remains source-reported |
 | Source proposes a model                   | outer `SOURCE_CLAIM`; embedded object `MODEL`                      |
 
----
+______________________________________________________________________
 
-# 112. Epistemic Integrity Checks
+## 112. Epistemic Integrity Checks
 
 ```yaml
 checks:
@@ -3495,9 +3498,9 @@ checks:
 This checklist is a derived operationalization of the classification
 law and surrounding AMOS integrity rules.
 
----
+______________________________________________________________________
 
-# 113. Classification Validator
+## 113. Classification Validator
 
 Illustrative pseudocode:
 
@@ -3522,9 +3525,9 @@ This is not a canonical executable implementation.
 
 Real classification can require decomposition of mixed claims.
 
----
+______________________________________________________________________
 
-# 114. Composite Validator
+## 114. Composite Validator
 
 ```python
 def classify_composite(statement):
@@ -3551,9 +3554,9 @@ onto heterogeneous claims
 
 Again, illustrative only.
 
----
+______________________________________________________________________
 
-# 115. Provenance-Aware Validator
+## 115. Provenance-Aware Validator
 
 ```python
 def validate_source_independence(claims):
@@ -3575,9 +3578,9 @@ independence must be demonstrated,
 not assumed
 ```
 
----
+______________________________________________________________________
 
-# 116. Confidence Propagation
+## 116. Confidence Propagation
 
 Illustrative:
 
@@ -3595,9 +3598,9 @@ unless an independent support path revalidates the conclusion.
 
 The exact numerical confidence system is not established by this node.
 
----
+______________________________________________________________________
 
-# 117. Proof Capsule
+## 117. Proof Capsule
 
 ```yaml
 proof_capsule:
@@ -3670,9 +3673,9 @@ proof_capsule:
     expanded_semantics: MODEL_DERIVED_UNLESS_CORROBORATED
 ```
 
----
+______________________________________________________________________
 
-# 118. Source-Established Claims
+## 118. Source-Established Claims
 
 The supplied node directly establishes:
 
@@ -3732,9 +3735,9 @@ source_established:
     - TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS
 ```
 
----
+______________________________________________________________________
 
-# 119. Not Established by This Node
+## 119. Not Established by This Node
 
 The supplied terse node does **not** independently establish:
 
@@ -3777,9 +3780,9 @@ not_established:
 
 These must not be invented as source canon.
 
----
+______________________________________________________________________
 
-# 120. Gap Register
+## 120. Gap Register
 
 ```yaml
 gaps:
@@ -3839,9 +3842,9 @@ gaps:
     status: OPEN
 ```
 
----
+______________________________________________________________________
 
-# 121. Falsifiers
+## 121. Falsifiers
 
 ```yaml
 falsifiers:
@@ -3872,9 +3875,9 @@ falsifiers:
       these classification labels.
 ```
 
----
+______________________________________________________________________
 
-# 122. Dependency Graph
+## 122. Dependency Graph
 
 ```text
 
@@ -3904,9 +3907,9 @@ supplied related-node list.
 
 It does not assert undocumented dependency direction as source fact.
 
----
+______________________________________________________________________
 
-# 123. Epistemic Classification Architecture
+## 123. Epistemic Classification Architecture
 
 ```text
 RAW INPUT
@@ -3945,9 +3948,9 @@ GAP / CONTRADICTION CHECK
 RSCF
 ```
 
----
+______________________________________________________________________
 
-# 124. Classification Operational Contract
+## 124. Classification Operational Contract
 
 ```yaml
 operational_contract:
@@ -3980,9 +3983,9 @@ operational_contract:
     - typed_epistemic_object
 ```
 
----
+______________________________________________________________________
 
-# 125. Epistemic Classification Receipt
+## 125. Epistemic Classification Receipt
 
 Illustrative receipt:
 
@@ -4026,9 +4029,9 @@ epistemic_classification_receipt:
 
 This receipt schema is illustrative, not source-defined.
 
----
+______________________________________________________________________
 
-# 126. Classification Invariants
+## 126. Classification Invariants
 
 ```text
 ER-I1
@@ -4077,9 +4080,9 @@ ER-I15
 CLASSIFICATION HISTORY MUST PRESERVE PROVENANCE AND LINEAGE.
 ```
 
----
+______________________________________________________________________
 
-# 127. Compact Canon Contract
+## 127. Compact Canon Contract
 
 ```text
 EPISTEMIC_REGIMES
@@ -4137,9 +4140,9 @@ WHEN CLASSIFICATION CANNOT BE ESTABLISHED:
 PRESERVE THE GAP.
 ```
 
----
+______________________________________________________________________
 
-# 128. RSCF Contract
+## 128. RSCF Contract
 
 ```yaml
 RSCF-CONTRACT:
@@ -4199,9 +4202,9 @@ RSCF-CONTRACT:
     expanded_semantics: MODEL_DERIVED
 ```
 
----
+______________________________________________________________________
 
-# 129. RSCF-NODE
+## 129. RSCF-NODE
 
 ```yaml
 RSCF-NODE:
@@ -4243,9 +4246,9 @@ RSCF-NODE:
     - L28_CRITICAL_GAP
 ```
 
----
+______________________________________________________________________
 
-# 130. RSCF-RELATIONS
+## 130. RSCF-RELATIONS
 
 ```yaml
 RSCF-RELATIONS:
@@ -4278,9 +4281,9 @@ RSCF-RELATIONS:
 
 ```
 
----
+______________________________________________________________________
 
-# 131. Supersession / Compatibility Rule
+## 131. Supersession / Compatibility Rule
 
 This node defines the four-class classification surface supplied here.
 
@@ -4324,11 +4327,11 @@ are distinct concepts.
 Likewise, older atomic-reasoning semantics should not redefine this
 four-class set without explicit canonical authority.
 
----
+______________________________________________________________________
 
-# 132. Canon Boundary
+## 132. Canon Boundary
 
-> [!important] Canon Boundary
+> [!IMPORTANT] Canon Boundary
 > The supplied source directly establishes one central proposition:
 >
 > **EPISTEMIC_REGIMES governs four discrete knowledge classes:
@@ -4346,9 +4349,9 @@ four-class set without explicit canonical authority.
 > They must therefore not be mistaken for missing source text that was
 > actually present in the terse supplied node.
 
----
+______________________________________________________________________
 
-# 133. Final Integrity Rule
+## 133. Final Integrity Rule
 
 ```text
 EPISTEMIC_REGIMES
@@ -4440,7 +4443,7 @@ COMPLETENESS
 FLUENCY.
 ```
 
----
+______________________________________________________________________
 
 ## Related
 
@@ -4456,14 +4459,14 @@ FLUENCY.
 [[01_CANON/01_CORE_LAWS/L27_GAP|L27_GAP]] ·
 [[01_CANON/01_CORE_LAWS/L28_CRITICAL_GAP|L28_CRITICAL_GAP]]
 
----
+______________________________________________________________________
 
 **MOC:** [[01_CANON/01_CORE_LAWS/01_CORE_LAWS_MOC|01_CORE_LAWS_MOC]]
 
----
+______________________________________________________________________
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|AMOS MOC]]

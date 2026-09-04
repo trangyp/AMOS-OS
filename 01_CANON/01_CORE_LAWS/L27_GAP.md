@@ -1,38 +1,41 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: L27 GAP
 aliases:
-- L27 Gap
-- L27 Gap Law
-- Gap Law
+  - L27 Gap
+  - L27 Gap Law
+  - Gap Law
 type: gap
 source: 01_CANON/01_CORE_LAWS
 tags:
-- canon
-- core_laws
-- gap
-- unknown
-- epistemic_integrity
-- anti_fabrication
-- provenance
-- validation
-- proof_capsule
-- gap_registry
-- gap_closure
-- fail_closed
-- recovery
-- note
-- canon/universe
-- law-hierarchy
-- law/L25-shard-local
-- law/L28-critical-gap
-- law/L10-failure-recovery
-- law/L17-rscf
-- fail-closed-governance
-- trang-framework-recursive-ontology-dynamics
-- law/L19-proof-capsule
-- law/L26-proof-coordination
-- law/L27-gap
-- architecture
+  - canon
+  - core_laws
+  - gap
+  - unknown
+  - epistemic_integrity
+  - anti_fabrication
+  - provenance
+  - validation
+  - proof_capsule
+  - gap_registry
+  - gap_closure
+  - fail_closed
+  - recovery
+  - note
+  - canon/universe
+  - law-hierarchy
+  - law/L25-shard-local
+  - law/L28-critical-gap
+  - law/L10-failure-recovery
+  - law/L17-rscf
+  - fail-closed-governance
+  - trang-framework-recursive-ontology-dynamics
+  - law/L19-proof-capsule
+  - law/L26-proof-coordination
+  - law/L27-gap
+  - architecture
 rscf:
   state: SOURCE_CLAIM
   claim_class: CONDITIONAL
@@ -47,7 +50,7 @@ epistemic_class: AMOS_MODEL
 canonical_status: CONDITIONAL
 updated: 2026-08-26
 
-> [!abstract]
+> [!ABSTRACT]
 > L27 establishes the AMOS discipline for representing, preserving,
 > registering, and closing unresolved gaps.
 >
@@ -68,11 +71,11 @@ updated: 2026-08-26
 > `AMOS_MODEL / DERIVED` reconstruction unless explicitly marked
 > source-established.
 
----
+______________________________________________________________________
 
-# 0. Status
+## 0. Status
 
-```yaml
+````yaml
 status:
   law_id: L27
   node_id: l27_gap
@@ -99,7 +102,7 @@ The supplied source explicitly establishes:
 PROPOSED_SPECIFICATION
 AMOS_MODEL
 CONDITIONAL
-```
+````
 
 Therefore this reconstruction must not silently promote L27 to:
 
@@ -113,9 +116,9 @@ RUNTIME_IMPLEMENTED
 
 without additional authoritative evidence.
 
----
+______________________________________________________________________
 
-# 1. Purpose
+## 1. Purpose
 
 L27 governs what AMOS does when required knowledge is absent,
 unverified, inaccessible, ambiguous, unsupported, or otherwise
@@ -147,9 +150,9 @@ CONDITIONAL
 UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 2. Source Laws
+## 2. Source Laws
 
 The supplied source establishes four laws.
 
@@ -158,30 +161,30 @@ The supplied source establishes four laws.
 > Missing implementation/authority/validation/provenance stays visible;
 > plausible architecture never fills it.
 
----
+______________________________________________________________________
 
 ## GAP-2 — Gap Is Status Not Shame
 
 > UNKNOWN/GAP is an honest epistemic class, first-class in outputs.
 
----
+______________________________________________________________________
 
 ## GAP-3 — Bounded Gap Registry
 
 > Every artifact lists its own load-bearing gaps (proof capsules).
 
----
+______________________________________________________________________
 
 ## GAP-4 — Gap Closure Requires Evidence
 
 > Closing a gap demands executed validation, not restatement.
 
----
+______________________________________________________________________
 
-# 3. Core Gap Model
+## 3. Core Gap Model
 
-A gap exists when a conclusion requires some load-bearing element \(x\)
-but the available evidence does not establish \(x\) strongly enough for
+A gap exists when a conclusion requires some load-bearing element (x)
+but the available evidence does not establish (x) strongly enough for
 the intended conclusion.
 
 Normalized model:
@@ -195,9 +198,9 @@ This equation is `DERIVED / MODEL`.
 
 It is not supplied directly by the source.
 
----
+______________________________________________________________________
 
-# 4. Gap Integrity Condition
+## 4. Gap Integrity Condition
 
 A normalized L27 integrity condition is:
 
@@ -226,9 +229,9 @@ where the evidence satisfies the relevant validation requirement.
 Again, these are normalized model expressions rather than source
 equations.
 
----
+______________________________________________________________________
 
-# 5. GAP-1 — Expose Don't Fill
+## 5. GAP-1 — Expose Don't Fill
 
 GAP-1 is the primary anti-fabrication law.
 
@@ -256,9 +259,9 @@ Implementation probably works like X,
 therefore X is treated as implementation.
 ```
 
----
+______________________________________________________________________
 
-# 6. Missing Implementation
+## 6. Missing Implementation
 
 If a specification describes:
 
@@ -290,9 +293,9 @@ MODEL
 
 but it cannot close the implementation gap.
 
----
+______________________________________________________________________
 
-# 7. Missing Authority
+## 7. Missing Authority
 
 If an artifact claims:
 
@@ -317,9 +320,9 @@ AUTHORITY_GAP
 rather than assuming authority from formatting, location, repetition,
 or plausibility.
 
----
+______________________________________________________________________
 
-# 8. Missing Validation
+## 8. Missing Validation
 
 If a document states:
 
@@ -338,9 +341,9 @@ VALIDATION OBSERVATION
 
 The gap remains visible.
 
----
+______________________________________________________________________
 
-# 9. Missing Provenance
+## 9. Missing Provenance
 
 If a claim exists but its origin cannot be recovered:
 
@@ -361,9 +364,9 @@ provenance:
   status: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 10. Plausibility Firewall
+## 10. Plausibility Firewall
 
 Critical L27 firewall:
 
@@ -383,9 +386,9 @@ DESIGN OPTION
 
 but never as silent evidence that a missing component exists.
 
----
+______________________________________________________________________
 
-# 11. Architecture Firewall
+## 11. Architecture Firewall
 
 Suppose the available canon implies that a system would benefit from:
 
@@ -410,9 +413,9 @@ The system uses signed receipts with schema X.
 
 unless evidence establishes that fact.
 
----
+______________________________________________________________________
 
-# 12. Inference Firewall
+## 12. Inference Firewall
 
 Inference may reduce uncertainty.
 
@@ -434,9 +437,9 @@ LOGICAL POSSIBILITY
 SOURCE SUPPORT
 ```
 
----
+______________________________________________________________________
 
-# 13. Fluency Firewall
+## 13. Fluency Firewall
 
 L27 specifically protects against a common reasoning failure:
 
@@ -460,9 +463,9 @@ explicit gap
 optional clearly-labeled model
 ```
 
----
+______________________________________________________________________
 
-# 14. Silence Is Not Evidence
+## 14. Silence Is Not Evidence
 
 If the source does not mention a mechanism:
 
@@ -488,9 +491,9 @@ The correct state may be:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 15. Absence of Contradiction
+## 15. Absence of Contradiction
 
 Likewise:
 
@@ -503,9 +506,9 @@ PROOF
 A claim does not become established merely because nothing currently
 contradicts it.
 
----
+______________________________________________________________________
 
-# 16. Default Gap Preservation
+## 16. Default Gap Preservation
 
 When a load-bearing fact cannot be established:
 
@@ -523,9 +526,9 @@ where integrity is at stake.
 
 This is the central operational meaning of GAP-1.
 
----
+______________________________________________________________________
 
-# 17. GAP-2 — Gap Is Status Not Shame
+## 17. GAP-2 — Gap Is Status Not Shame
 
 GAP-2 makes unresolved uncertainty first-class.
 
@@ -547,9 +550,9 @@ is a valid result.
 
 It is not merely an error message.
 
----
+______________________________________________________________________
 
-# 18. First-Class Unknown
+## 18. First-Class Unknown
 
 A system should be able to conclude:
 
@@ -560,9 +563,9 @@ conclusion:
 
 without being forced to fabricate a stronger answer.
 
----
+______________________________________________________________________
 
-# 19. Unknown Is Not False
+## 19. Unknown Is Not False
 
 Critical firewall:
 
@@ -572,7 +575,7 @@ UNKNOWN
 FALSE
 ```
 
-Failure to establish proposition \(P\) does not establish:
+Failure to establish proposition (P) does not establish:
 
 $$
 \neg P
@@ -580,9 +583,9 @@ $$
 
 unless the evidence contract makes absence itself decisive.
 
----
+______________________________________________________________________
 
-# 20. Unknown Is Not True
+## 20. Unknown Is Not True
 
 Likewise:
 
@@ -594,9 +597,9 @@ TRUE
 
 A plausible proposition remains unresolved until evidence supports it.
 
----
+______________________________________________________________________
 
-# 21. Gap Is Not Contradiction
+## 21. Gap Is Not Contradiction
 
 ```text
 GAP
@@ -610,9 +613,9 @@ A contradiction means available claims conflict.
 
 Both may coexist, but they are different states.
 
----
+______________________________________________________________________
 
-# 22. Gap Is Not Competing
+## 22. Gap Is Not Competing
 
 ```text
 UNKNOWN/GAP
@@ -631,9 +634,9 @@ one incomplete hypothesis
 multiple hypotheses
 ```
 
----
+______________________________________________________________________
 
-# 23. Gap Is Not Failure
+## 23. Gap Is Not Failure
 
 A reasoning system that returns:
 
@@ -645,9 +648,9 @@ when evidence is insufficient has not necessarily failed.
 
 It may have successfully preserved epistemic integrity.
 
----
+______________________________________________________________________
 
-# 24. Gap Is Not Incompleteness to Hide
+## 24. Gap Is Not Incompleteness to Hide
 
 The pressure to produce a complete artifact does not authorize filling
 unsupported sections.
@@ -662,9 +665,9 @@ INTEGRITY
 
 when the two conflict.
 
----
+______________________________________________________________________
 
-# 25. Gap as Information
+## 25. Gap as Information
 
 A well-specified gap communicates:
 
@@ -678,9 +681,9 @@ what would close it
 Therefore a gap can increase decision quality even though it represents
 missing knowledge.
 
----
+______________________________________________________________________
 
-# 26. Gap as Boundary
+## 26. Gap as Boundary
 
 A gap defines a boundary between:
 
@@ -696,9 +699,9 @@ NOT YET SUPPORTED
 
 That boundary should remain machine- and human-visible where material.
 
----
+______________________________________________________________________
 
-# 27. Gap as Stop Condition
+## 27. Gap as Stop Condition
 
 For some tasks, an unresolved gap should stop escalation of a claim.
 
@@ -716,9 +719,9 @@ final conclusion = UNKNOWN/GAP
 
 rather than inventing the premise.
 
----
+______________________________________________________________________
 
-# 28. Gap as Conditional Branch
+## 28. Gap as Conditional Branch
 
 Some gaps do not prevent all action.
 
@@ -743,9 +746,9 @@ X = GAP
 
 remains explicit.
 
----
+______________________________________________________________________
 
-# 29. Conditional Is Not Closure
+## 29. Conditional Is Not Closure
 
 Critical distinction:
 
@@ -761,9 +764,9 @@ Is X true?
 
 Conditional reasoning preserves the missing premise.
 
----
+______________________________________________________________________
 
-# 30. GAP-3 — Bounded Gap Registry
+## 30. GAP-3 — Bounded Gap Registry
 
 GAP-3 states:
 
@@ -774,9 +777,9 @@ This establishes local gap ownership.
 Each artifact should expose the unresolved gaps that materially limit
 its claims.
 
----
+______________________________________________________________________
 
-# 31. Artifact-Local Gap Registry
+## 31. Artifact-Local Gap Registry
 
 Conceptually:
 
@@ -791,9 +794,9 @@ artifact:
 
 rather than relying exclusively on one distant global gap list.
 
----
+______________________________________________________________________
 
-# 32. Why Bounded Registries Matter
+## 32. Why Bounded Registries Matter
 
 A local registry allows a consumer to determine:
 
@@ -805,9 +808,9 @@ without reconstructing the entire knowledge system.
 
 This supports bounded reasoning.
 
----
+______________________________________________________________________
 
-# 33. Load-Bearing Gaps
+## 33. Load-Bearing Gaps
 
 GAP-3 specifically refers to:
 
@@ -829,9 +832,9 @@ action
 governance
 ```
 
----
+______________________________________________________________________
 
-# 34. Non-Load-Bearing Omission
+## 34. Non-Load-Bearing Omission
 
 Example:
 
@@ -847,9 +850,9 @@ It should not necessarily receive the same priority as:
 missing validation evidence
 ```
 
----
+______________________________________________________________________
 
-# 35. Proof Capsule Integration
+## 35. Proof Capsule Integration
 
 The source explicitly associates bounded gap registries with:
 
@@ -871,9 +874,9 @@ proof_capsule:
     - G001
 ```
 
----
+______________________________________________________________________
 
-# 36. Gap Scope
+## 36. Gap Scope
 
 Each gap should be scoped to the artifact or conclusion it affects.
 
@@ -892,9 +895,9 @@ therefore entire system is unknown.
 
 unless the dependency topology actually makes it global.
 
----
+______________________________________________________________________
 
-# 37. Gap Locality
+## 37. Gap Locality
 
 A local gap should remain local when possible.
 
@@ -906,9 +909,9 @@ GLOBAL INVALIDATION
 
 Selective propagation preserves unaffected knowledge.
 
----
+______________________________________________________________________
 
-# 38. Gap Dependency
+## 38. Gap Dependency
 
 If:
 
@@ -927,9 +930,9 @@ G1
 
 should not automatically invalidate D.
 
----
+______________________________________________________________________
 
-# 39. Gap Propagation
+## 39. Gap Propagation
 
 Conceptually:
 
@@ -949,9 +952,9 @@ DECISION D
 The gap propagates only through dependency edges where it is
 load-bearing.
 
----
+______________________________________________________________________
 
-# 40. Gap Closure Propagation
+## 40. Gap Closure Propagation
 
 When G is validly closed:
 
@@ -963,9 +966,9 @@ only affected descendants need re-evaluation.
 
 Unrelated proof capsules remain untouched.
 
----
+______________________________________________________________________
 
-# 41. Bounded Does Not Mean Hidden
+## 41. Bounded Does Not Mean Hidden
 
 A bounded gap is:
 
@@ -981,9 +984,9 @@ buried
 
 It must remain visible to consumers whose conclusions depend on it.
 
----
+______________________________________________________________________
 
-# 42. Gap Registry Minimum
+## 42. Gap Registry Minimum
 
 A useful minimum registry entry may include:
 
@@ -996,9 +999,9 @@ affected claim
 
 Additional fields are model-level extensions.
 
----
+______________________________________________________________________
 
-# 43. Expanded Gap Registry
+## 43. Expanded Gap Registry
 
 For consequential artifacts, a richer model can include:
 
@@ -1019,9 +1022,9 @@ status
 
 This is `DERIVED / MODEL`.
 
----
+______________________________________________________________________
 
-# 44. Gap Identity
+## 44. Gap Identity
 
 A stable gap identity allows:
 
@@ -1035,9 +1038,9 @@ dependency linking
 
 The exact ID format is not source-defined.
 
----
+______________________________________________________________________
 
-# 45. Gap Versioning
+## 45. Gap Versioning
 
 A gap may evolve.
 
@@ -1053,9 +1056,9 @@ validator exists, execution missing
 
 The source does not define exact versioning mechanics.
 
----
+______________________________________________________________________
 
-# 46. Gap Status Model
+## 46. Gap Status Model
 
 An illustrative status vocabulary:
 
@@ -1072,9 +1075,9 @@ Only `UNKNOWN/GAP` is explicitly supplied as epistemic terminology.
 
 The exact lifecycle vocabulary is not canonical here.
 
----
+______________________________________________________________________
 
-# 47. GAP-4 — Gap Closure Requires Evidence
+## 47. GAP-4 — Gap Closure Requires Evidence
 
 GAP-4 states:
 
@@ -1084,9 +1087,9 @@ This is the closure firewall.
 
 A gap cannot be closed by saying the missing thing again.
 
----
+______________________________________________________________________
 
-# 48. Restatement Is Not Evidence
+## 48. Restatement Is Not Evidence
 
 Suppose gap G is:
 
@@ -1110,9 +1113,9 @@ RESTATEMENT
 VALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 49. More Detailed Restatement
+## 49. More Detailed Restatement
 
 Likewise:
 
@@ -1124,9 +1127,9 @@ does not close the validation gap.
 
 Explanatory richness does not substitute for evidence.
 
----
+______________________________________________________________________
 
-# 50. Repetition Is Not Closure
+## 50. Repetition Is Not Closure
 
 ```text
 CLAIM
@@ -1142,9 +1145,9 @@ VERIFIED CLAIM
 
 through repetition.
 
----
+______________________________________________________________________
 
-# 51. Authority Repetition Is Not Closure
+## 51. Authority Repetition Is Not Closure
 
 Even if multiple descendants repeat:
 
@@ -1157,9 +1160,9 @@ exists.
 
 This naturally connects L27 to proof independence accounting.
 
----
+______________________________________________________________________
 
-# 52. Documentation Is Not Execution
+## 52. Documentation Is Not Execution
 
 If documentation states:
 
@@ -1181,9 +1184,9 @@ direct validation observation
 
 remains open.
 
----
+______________________________________________________________________
 
-# 53. Code Presence Is Not Execution
+## 53. Code Presence Is Not Execution
 
 ```text
 validator.py exists
@@ -1197,9 +1200,9 @@ validator.py executed successfully
 
 Therefore artifact presence alone does not close an execution gap.
 
----
+______________________________________________________________________
 
-# 54. Test Presence Is Not Pass
+## 54. Test Presence Is Not Pass
 
 ```text
 test suite exists
@@ -1211,9 +1214,9 @@ does not establish:
 test suite passes
 ```
 
----
+______________________________________________________________________
 
-# 55. Pass Is Not Coverage
+## 55. Pass Is Not Coverage
 
 ```text
 all observed tests passed
@@ -1229,9 +1232,9 @@ unless coverage evidence supports that conclusion.
 
 Closing one gap can leave another gap open.
 
----
+______________________________________________________________________
 
-# 56. Validation Scope
+## 56. Validation Scope
 
 Executed validation closes only the gap it actually addresses.
 
@@ -1249,9 +1252,9 @@ property C
 universal correctness
 ```
 
----
+______________________________________________________________________
 
-# 57. Gap Closure Is Typed
+## 57. Gap Closure Is Typed
 
 Different gaps require different evidence.
 
@@ -1273,9 +1276,9 @@ provenance gap
 
 This mapping is a model elaboration of GAP-4.
 
----
+______________________________________________________________________
 
-# 58. Closure Evidence Must Match Gap Type
+## 58. Closure Evidence Must Match Gap Type
 
 Critical rule:
 
@@ -1296,9 +1299,9 @@ does not necessarily close:
 formal correctness gap
 ```
 
----
+______________________________________________________________________
 
-# 59. Closure Evidence Must Match Scope
+## 59. Closure Evidence Must Match Scope
 
 Evidence from:
 
@@ -1314,9 +1317,9 @@ scope S2
 
 unless a valid bridge exists.
 
----
+______________________________________________________________________
 
-# 60. Closure Evidence Must Match Regime
+## 60. Closure Evidence Must Match Regime
 
 A simulation result does not automatically close an empirical gap.
 
@@ -1328,9 +1331,9 @@ EMPIRICAL OBSERVATION
 
 without a justified regime bridge.
 
----
+______________________________________________________________________
 
-# 61. Closure Evidence Must Be Fresh Enough
+## 61. Closure Evidence Must Be Fresh Enough
 
 Evidence can be valid historically but stale for the current state.
 
@@ -1344,9 +1347,9 @@ VALID NOW
 
 when load-bearing conditions changed.
 
----
+______________________________________________________________________
 
-# 62. Closure Evidence Must Be Provenance-Aware
+## 62. Closure Evidence Must Be Provenance-Aware
 
 A gap requiring independent confirmation is not closed by:
 
@@ -1356,18 +1359,18 @@ three descendants of one source
 
 unless independence requirements are satisfied.
 
----
+______________________________________________________________________
 
-# 63. Closure Evidence Must Be Load-Bearing
+## 63. Closure Evidence Must Be Load-Bearing
 
 Evidence that addresses a peripheral detail does not close a gap in a
 load-bearing premise.
 
 The evidence must resolve the actual missing dependency.
 
----
+______________________________________________________________________
 
-# 64. Partial Gap Closure
+## 64. Partial Gap Closure
 
 Some evidence may narrow a gap without fully closing it.
 
@@ -1386,9 +1389,9 @@ The gap changes shape.
 
 It does not disappear.
 
----
+______________________________________________________________________
 
-# 65. Gap Refinement
+## 65. Gap Refinement
 
 A broad gap:
 
@@ -1407,9 +1410,9 @@ deployment state unknown
 
 Refinement is progress even without complete closure.
 
----
+______________________________________________________________________
 
-# 66. Gap Splitting
+## 66. Gap Splitting
 
 One gap can reveal multiple sub-gaps.
 
@@ -1424,9 +1427,9 @@ G1
 The parent should not be marked fully closed until its load-bearing
 children are resolved.
 
----
+______________________________________________________________________
 
-# 67. Gap Merging
+## 67. Gap Merging
 
 Two apparent gaps may share one root cause.
 
@@ -1446,9 +1449,9 @@ execution never performed
 Where appropriate, shared roots should be preserved to avoid redundant
 work.
 
----
+______________________________________________________________________
 
-# 68. Gap Reopening
+## 68. Gap Reopening
 
 A previously closed gap may reopen when:
 
@@ -1469,9 +1472,9 @@ CLOSED
 CLOSED FOREVER
 ```
 
----
+______________________________________________________________________
 
-# 69. Closure Receipt
+## 69. Closure Receipt
 
 A gap closure should conceptually preserve:
 
@@ -1490,9 +1493,9 @@ where relevant.
 
 Exact receipt schema is not supplied by L27.
 
----
+______________________________________________________________________
 
-# 70. Closure Without Deletion
+## 70. Closure Without Deletion
 
 Closing a gap should not require erasing the fact that it once existed.
 
@@ -1507,9 +1510,9 @@ is preferable to silently rewriting history.
 
 This is a derived integration with causal epoch law.
 
----
+______________________________________________________________________
 
-# 71. Gap History
+## 71. Gap History
 
 Gap history can preserve:
 
@@ -1525,11 +1528,11 @@ This improves provenance and auditability.
 
 Exact historical storage semantics are not supplied.
 
----
+______________________________________________________________________
 
-# 72. Gap and L10 Failure Recovery
+## 72. Gap and L10 Failure Recovery
 
- naturally interacts with L27.
+naturally interacts with L27.
 
 When recovery encounters missing information:
 
@@ -1548,11 +1551,11 @@ fail closed if critical
 
 Exact coupling is not supplied by the terse source.
 
----
+______________________________________________________________________
 
-# 73. Gap and L17 RSCF
+## 73. Gap and L17 RSCF
 
- can provide a natural structure for bounded gaps.
+can provide a natural structure for bounded gaps.
 
 Conceptually:
 
@@ -1569,9 +1572,9 @@ specific missing evidence
 
 L27 does not redefine RSCF.
 
----
+______________________________________________________________________
 
-# 74. Gap and Proof Capsules
+## 74. Gap and Proof Capsules
 
 Proof capsules are explicitly referenced by GAP-3.
 
@@ -1589,9 +1592,9 @@ confidence ceiling
 
 This prevents a polished proof summary from hiding unresolved support.
 
----
+______________________________________________________________________
 
-# 75. Gap and L19 Proof Capsules
+## 75. Gap and L19 Proof Capsules
 
 A conceptual integration:
 
@@ -1612,9 +1615,9 @@ proof_capsule:
     class: CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
-# 76. Gap and L21 Epistemic Regime
+## 76. Gap and L21 Epistemic Regime
 
 A gap may be regime-specific.
 
@@ -1633,9 +1636,9 @@ empirical_validation_gap
 
 remains open even if simulation evidence is strong.
 
----
+______________________________________________________________________
 
-# 77. Gap and L22 Replayability
+## 77. Gap and L22 Replayability
 
 Replayability can close certain reproducibility gaps.
 
@@ -1656,9 +1659,9 @@ scope gap
 independence gap
 ```
 
----
+______________________________________________________________________
 
-# 78. Gap and L23 MVCC/CAS
+## 78. Gap and L23 MVCC/CAS
 
 A gap registry can itself be mutable state.
 
@@ -1675,9 +1678,9 @@ commit CLOSED
 
 This is a derived implementation integration.
 
----
+______________________________________________________________________
 
-# 79. Gap Closure CAS Boundary
+## 79. Gap Closure CAS Boundary
 
 Even if a CAS succeeds:
 
@@ -1691,9 +1694,9 @@ CAS protects mutation integrity.
 
 GAP-4 governs epistemic closure.
 
----
+______________________________________________________________________
 
-# 80. Gap and L24 Causal Epoch
+## 80. Gap and L24 Causal Epoch
 
 A gap can evolve across epochs:
 
@@ -1717,11 +1720,11 @@ G REOPENED @ e_{k+2}
 
 may follow new evidence.
 
----
+______________________________________________________________________
 
-# 81. Gap and L25 Shard Local
+## 81. Gap and L25 Shard Local
 
- raises an important locality question:
+raises an important locality question:
 
 ```text
 Is this gap local or global?
@@ -1731,9 +1734,9 @@ A shard-local gap need not automatically block unrelated shards.
 
 But a gap affecting a global invariant may require escalation.
 
----
+______________________________________________________________________
 
-# 82. Local Gap
+## 82. Local Gap
 
 Conceptually:
 
@@ -1747,9 +1750,9 @@ independent of G001
 
 Then B may remain valid if dependency independence is established.
 
----
+______________________________________________________________________
 
-# 83. Cross-Shard Gap
+## 83. Cross-Shard Gap
 
 If:
 
@@ -1765,9 +1768,9 @@ GLOBAL CLAIM C
 
 then the gap cannot be treated as merely local.
 
----
+______________________________________________________________________
 
-# 84. Gap and L26 Proof Coordination
+## 84. Gap and L26 Proof Coordination
 
 L26 and L27 naturally reinforce each other.
 
@@ -1786,9 +1789,9 @@ What remains missing?
 A proof with unresolved load-bearing interfaces should expose those
 interfaces as gaps rather than assume compatibility.
 
----
+______________________________________________________________________
 
-# 85. Proof Coordination Gap
+## 85. Proof Coordination Gap
 
 Example:
 
@@ -1810,9 +1813,9 @@ Incorrect:
 composition = VERIFIED
 ```
 
----
+______________________________________________________________________
 
-# 86. Independence Gap
+## 86. Independence Gap
 
 If two proofs appear independent but ancestry cannot be established:
 
@@ -1829,9 +1832,9 @@ INDEPENDENCE = TRUE
 This is especially important for provenance topology and Sybil
 hardening.
 
----
+______________________________________________________________________
 
-# 87. Validation Gap
+## 87. Validation Gap
 
 If a validator exists but has not been run:
 
@@ -1842,9 +1845,9 @@ validator_execution = GAP
 
 The system should preserve both facts separately.
 
----
+______________________________________________________________________
 
-# 88. Authority Gap
+## 88. Authority Gap
 
 If a note claims canonical status but authoritative promotion evidence
 is missing:
@@ -1855,9 +1858,9 @@ authority = GAP
 
 unless the source itself is the governing authority for that status.
 
----
+______________________________________________________________________
 
-# 89. Provenance Gap
+## 89. Provenance Gap
 
 If a claim cannot be traced to its origin:
 
@@ -1868,9 +1871,9 @@ provenance = GAP
 The claim may still be useful as a hypothesis or source claim, but its
 confidence ceiling should reflect the missing provenance.
 
----
+______________________________________________________________________
 
-# 90. Scope Gap
+## 90. Scope Gap
 
 If evidence exists but applicability boundaries are unknown:
 
@@ -1880,9 +1883,9 @@ scope = GAP
 
 A conclusion should not silently generalize.
 
----
+______________________________________________________________________
 
-# 91. Regime Gap
+## 91. Regime Gap
 
 If it is unclear whether evidence is:
 
@@ -1901,9 +1904,9 @@ regime = GAP
 
 may be material.
 
----
+______________________________________________________________________
 
-# 92. Temporal Gap
+## 92. Temporal Gap
 
 If the evidence date or freshness cannot be established:
 
@@ -1913,9 +1916,9 @@ temporal_validity = GAP
 
 for claims where freshness matters.
 
----
+______________________________________________________________________
 
-# 93. Causal Gap
+## 93. Causal Gap
 
 Evidence may establish association while mechanism remains unknown.
 
@@ -1929,9 +1932,9 @@ should remain visible.
 
 Do not fill it with structural similarity or temporal sequence.
 
----
+______________________________________________________________________
 
-# 94. Implementation Gap
+## 94. Implementation Gap
 
 A specification may be complete while implementation remains absent.
 
@@ -1942,9 +1945,9 @@ IMPLEMENTATION GAP OPEN
 
 Both states can coexist.
 
----
+______________________________________________________________________
 
-# 95. Execution Gap
+## 95. Execution Gap
 
 Code may exist without execution evidence.
 
@@ -1953,9 +1956,9 @@ IMPLEMENTATION PRESENT
 EXECUTION GAP OPEN
 ```
 
----
+______________________________________________________________________
 
-# 96. Deployment Gap
+## 96. Deployment Gap
 
 Code may execute in tests while production deployment remains
 unverified.
@@ -1968,9 +1971,9 @@ DEPLOYED SYSTEM
 
 Deployment can remain a separate gap.
 
----
+______________________________________________________________________
 
-# 97. Formal-Proof Gap
+## 97. Formal-Proof Gap
 
 Tests may pass while formal proof is absent.
 
@@ -1978,9 +1981,9 @@ That is only a gap if formal proof is required for the claim.
 
 Do not manufacture unnecessary requirements.
 
----
+______________________________________________________________________
 
-# 98. Empirical Gap
+## 98. Empirical Gap
 
 A model may be internally coherent while empirical calibration remains
 missing.
@@ -1992,9 +1995,9 @@ MODEL SUPPORTED
 EMPIRICAL VALIDATION GAP
 ```
 
----
+______________________________________________________________________
 
-# 99. Governance Gap
+## 99. Governance Gap
 
 A technically valid action may still lack:
 
@@ -2012,18 +2015,18 @@ governance gap
 
 remains load-bearing.
 
----
+______________________________________________________________________
 
-# 100. Security Gap
+## 100. Security Gap
 
 A functional implementation may have an unresolved security property.
 
 The security gap should not be hidden merely because functionality
 tests pass.
 
----
+______________________________________________________________________
 
-# 101. Safety Gap
+## 101. Safety Gap
 
 Likewise:
 
@@ -2035,9 +2038,9 @@ safety validation
 
 where safety validation is required.
 
----
+______________________________________________________________________
 
-# 102. Measurement Gap
+## 102. Measurement Gap
 
 A metric may be named without a defined measurement method.
 
@@ -2057,9 +2060,9 @@ measurement gap
 
 remains open.
 
----
+______________________________________________________________________
 
-# 103. Threshold Gap
+## 103. Threshold Gap
 
 A model may define:
 
@@ -2071,9 +2074,9 @@ while the threshold itself is unspecified.
 
 Then the architecture is incomplete at the decision boundary.
 
----
+______________________________________________________________________
 
-# 104. Calibration Gap
+## 104. Calibration Gap
 
 A formula may exist without empirical calibration.
 
@@ -2093,9 +2096,9 @@ how variables are normalized
 
 Those remain calibration gaps.
 
----
+______________________________________________________________________
 
-# 105. Schema Gap
+## 105. Schema Gap
 
 A protocol may require:
 
@@ -2113,9 +2116,9 @@ An illustrative schema may be provided only as:
 MODEL
 ```
 
----
+______________________________________________________________________
 
-# 106. Algorithm Gap
+## 106. Algorithm Gap
 
 A law may require:
 
@@ -2129,9 +2132,9 @@ The requirement is established.
 
 The algorithm remains a gap.
 
----
+______________________________________________________________________
 
-# 107. Identity Gap
+## 107. Identity Gap
 
 If an architecture requires stable identity but does not define:
 
@@ -2144,9 +2147,9 @@ version
 
 the identity mechanism remains unresolved.
 
----
+______________________________________________________________________
 
-# 108. Independence Verification Gap
+## 108. Independence Verification Gap
 
 Multiple evidence paths may exist while their independence cannot be
 verified.
@@ -2158,9 +2161,9 @@ multiple paths = established
 independence = GAP
 ```
 
----
+______________________________________________________________________
 
-# 109. Root Input Gap
+## 109. Root Input Gap
 
 A replay protocol may exist while some root input cannot be recovered.
 
@@ -2168,9 +2171,9 @@ Then deterministic replay may be blocked.
 
 Do not fabricate the root input.
 
----
+______________________________________________________________________
 
-# 110. Environment Gap
+## 110. Environment Gap
 
 A validator result may depend on an unknown runtime environment.
 
@@ -2182,9 +2185,9 @@ environment = GAP
 
 must remain visible.
 
----
+______________________________________________________________________
 
-# 111. Version Gap
+## 111. Version Gap
 
 A proof or implementation may exist without a pinned version.
 
@@ -2196,9 +2199,9 @@ version = GAP
 
 is load-bearing.
 
----
+______________________________________________________________________
 
-# 112. Dependency Gap
+## 112. Dependency Gap
 
 If a claim depends on an unknown dependency:
 
@@ -2208,9 +2211,9 @@ dependency closure = incomplete
 
 The conclusion should inherit the uncertainty where material.
 
----
+______________________________________________________________________
 
-# 113. Hidden Dependency Gap
+## 113. Hidden Dependency Gap
 
 A particularly dangerous case is:
 
@@ -2223,9 +2226,9 @@ This can create false confidence because the gap itself is invisible.
 
 L27 therefore favors explicit dependency representation.
 
----
+______________________________________________________________________
 
-# 114. Gap Discovery
+## 114. Gap Discovery
 
 Discovering a new gap should not be treated as regression in knowledge
 quality.
@@ -2240,9 +2243,9 @@ explicit gap
 
 is often an integrity improvement.
 
----
+______________________________________________________________________
 
-# 115. Gap Discovery vs Claim Failure
+## 115. Gap Discovery vs Claim Failure
 
 A newly discovered gap does not always prove the old claim false.
 
@@ -2254,9 +2257,9 @@ the old claim was insufficiently supported
 
 The appropriate downgrade depends on the missing premise.
 
----
+______________________________________________________________________
 
-# 116. Gap-Induced Downgrade
+## 116. Gap-Induced Downgrade
 
 Possible transitions include:
 
@@ -2270,9 +2273,9 @@ depending on what failed.
 
 Exact transition semantics are not supplied by L27.
 
----
+______________________________________________________________________
 
-# 117. Selective Downgrade
+## 117. Selective Downgrade
 
 Only conclusions depending on the new gap should be downgraded.
 
@@ -2288,9 +2291,9 @@ C2 invalid
 
 if C2 does not depend on G.
 
----
+______________________________________________________________________
 
-# 118. Gap Severity
+## 118. Gap Severity
 
 Not all gaps have equal consequence.
 
@@ -2306,9 +2309,9 @@ COSMETIC
 This prioritization is consistent with AMOS gap discipline but is not
 explicitly enumerated in the terse L27 source.
 
----
+______________________________________________________________________
 
-# 119. Critical Gap
+## 119. Critical Gap
 
 A `CRITICAL` gap prevents a safe or valid conclusion/action.
 
@@ -2322,16 +2325,16 @@ irreversible mutation proposed
 
 The gap blocks execution.
 
----
+______________________________________________________________________
 
-# 120. Decision-Relevant Gap
+## 120. Decision-Relevant Gap
 
 A `DECISION-RELEVANT` gap can materially change the selected option but
 does not necessarily block all action.
 
----
+______________________________________________________________________
 
-# 121. Explanatory Gap
+## 121. Explanatory Gap
 
 An `EXPLANATORY` gap limits understanding but does not change the
 current decision.
@@ -2339,17 +2342,17 @@ current decision.
 It should remain visible without consuming disproportionate validation
 effort.
 
----
+______________________________________________________________________
 
-# 122. Cosmetic Gap
+## 122. Cosmetic Gap
 
 A `COSMETIC` gap affects presentation rather than integrity.
 
 It should not displace attention from load-bearing gaps.
 
----
+______________________________________________________________________
 
-# 123. Gap Priority Rule
+## 123. Gap Priority Rule
 
 Derived operational priority:
 
@@ -2366,9 +2369,9 @@ COSMETIC
 Resolve in that order unless another governance requirement overrides
 it.
 
----
+______________________________________________________________________
 
-# 124. Minimum Missing Information
+## 124. Minimum Missing Information
 
 When a critical gap cannot be closed, identify:
 
@@ -2379,9 +2382,9 @@ that would change the state
 
 rather than requesting an unbounded amount of context.
 
----
+______________________________________________________________________
 
-# 125. Smallest Discriminating Evidence
+## 125. Smallest Discriminating Evidence
 
 For a gap with competing closure hypotheses:
 
@@ -2394,9 +2397,9 @@ rather than collecting redundant support.
 
 This is a derived information-value discipline.
 
----
+______________________________________________________________________
 
-# 126. Gap Closure Cost
+## 126. Gap Closure Cost
 
 A gap should not automatically trigger maximal research.
 
@@ -2410,9 +2413,9 @@ uncertainty
 expected value of information
 ```
 
----
+______________________________________________________________________
 
-# 127. Harmless Gap
+## 127. Harmless Gap
 
 If a gap cannot alter:
 
@@ -2428,9 +2431,9 @@ it may remain unresolved.
 
 Integrity does not require exhaustive completion of irrelevant details.
 
----
+______________________________________________________________________
 
-# 128. Material Gap
+## 128. Material Gap
 
 If a gap can flip the result:
 
@@ -2442,9 +2445,9 @@ where feasible.
 
 This is the sensitivity principle applied to gap management.
 
----
+______________________________________________________________________
 
-# 129. Gap Closure Decision Rule
+## 129. Gap Closure Decision Rule
 
 Conceptually:
 
@@ -2456,9 +2459,9 @@ $$
 
 This is a model-level decision heuristic, not a source equation.
 
----
+______________________________________________________________________
 
-# 130. Gap Registry Schema
+## 130. Gap Registry Schema
 
 Illustrative:
 
@@ -2498,9 +2501,9 @@ gap:
 
 Not canonical unless separately established.
 
----
+______________________________________________________________________
 
-# 131. Minimal Gap Schema
+## 131. Minimal Gap Schema
 
 The minimum directly implied by GAP-3 can be represented as:
 
@@ -2514,9 +2517,9 @@ gap:
 
 Exact fields remain unspecified.
 
----
+______________________________________________________________________
 
-# 132. Gap Closure Receipt Schema
+## 132. Gap Closure Receipt Schema
 
 Illustrative:
 
@@ -2550,9 +2553,9 @@ gap_closure_receipt:
     source: null
 ```
 
----
+______________________________________________________________________
 
-# 133. Gap Reopening Receipt
+## 133. Gap Reopening Receipt
 
 Illustrative:
 
@@ -2573,9 +2576,9 @@ gap_reopening_receipt:
     - null
 ```
 
----
+______________________________________________________________________
 
-# 134. Gap Registry RSCF Model
+## 134. Gap Registry RSCF Model
 
 Conceptually:
 
@@ -2598,9 +2601,9 @@ RSCF:
 
 This is an integration model.
 
----
+______________________________________________________________________
 
-# 135. Gap Proof Capsule
+## 135. Gap Proof Capsule
 
 ```yaml
 proof_capsule:
@@ -2628,9 +2631,9 @@ proof_capsule:
     CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
-# 136. Gap Dependency Graph
+## 136. Gap Dependency Graph
 
 ```text
                  G001
@@ -2648,9 +2651,9 @@ proof_capsule:
 If G001 is load-bearing, its status propagates through the relevant
 edges.
 
----
+______________________________________________________________________
 
-# 137. Multiple Gap Graph
+## 137. Multiple Gap Graph
 
 ```text
 G001 ----> P1 ----\
@@ -2662,9 +2665,9 @@ G002 ----> P2 ----/
 
 Closing G001 does not necessarily close C if G002 remains load-bearing.
 
----
+______________________________________________________________________
 
-# 138. Shared Gap Graph
+## 138. Shared Gap Graph
 
 ```text
               G001
@@ -2680,9 +2683,9 @@ One gap can affect multiple conclusions.
 
 The registry should avoid pretending these are unrelated uncertainties.
 
----
+______________________________________________________________________
 
-# 139. Gap Root Cause
+## 139. Gap Root Cause
 
 Multiple visible gaps may share one root.
 
@@ -2696,9 +2699,9 @@ missing authoritative schema
 
 Root-cause resolution may close several dependent gaps at once.
 
----
+______________________________________________________________________
 
-# 140. Gap Closure Graph
+## 140. Gap Closure Graph
 
 ```text
 NEW EVIDENCE
@@ -2717,9 +2720,9 @@ REVALIDATE DEPENDENTS
 UPDATE ONLY AFFECTED CLAIMS
 ```
 
----
+______________________________________________________________________
 
-# 141. Gap Failure State Machine
+## 141. Gap Failure State Machine
 
 ```text
 REQUIRED PREMISE
@@ -2753,9 +2756,9 @@ FAIL SUPPORTED   v
 
 Model-level.
 
----
+______________________________________________________________________
 
-# 142. Gap Closure State Machine
+## 142. Gap Closure State Machine
 
 ```text
 OPEN GAP
@@ -2783,9 +2786,9 @@ OPEN         |
             OPEN    CLOSE
 ```
 
----
+______________________________________________________________________
 
-# 143. Partial Closure State Machine
+## 143. Partial Closure State Machine
 
 ```text
 OPEN
@@ -2806,9 +2809,9 @@ RESOLVED
 
 Exact status names are illustrative.
 
----
+______________________________________________________________________
 
-# 144. Reopening State Machine
+## 144. Reopening State Machine
 
 ```text
 CLOSED
@@ -2823,11 +2826,11 @@ v          v
 CLOSED   REOPEN
 ```
 
----
+______________________________________________________________________
 
-# 145. Fail-Closed Governance
+## 145. Fail-Closed Governance
 
- is a natural L27 integration.
+is a natural L27 integration.
 
 When a gap affects:
 
@@ -2849,9 +2852,9 @@ DO NOT EXECUTE
 until the critical gap is resolved or an explicitly authorized safe
 fallback exists.
 
----
+______________________________________________________________________
 
-# 146. Fail Closed Does Not Mean Stop Everything
+## 146. Fail Closed Does Not Mean Stop Everything
 
 A critical gap in one action does not necessarily require:
 
@@ -2870,9 +2873,9 @@ continue unrelated work
 request minimum missing evidence
 ```
 
----
+______________________________________________________________________
 
-# 147. Reversible Action Under Gap
+## 147. Reversible Action Under Gap
 
 When action is reversible and low-risk, a gap may permit:
 
@@ -2886,9 +2889,9 @@ read-only inspection
 if those actions help close the gap without creating unacceptable
 exposure.
 
----
+______________________________________________________________________
 
-# 148. Irreversible Action Under Gap
+## 148. Irreversible Action Under Gap
 
 As irreversibility rises:
 
@@ -2899,9 +2902,9 @@ required validation rises
 An unresolved authority or safety gap should not be bypassed merely
 because a proposed action appears plausible.
 
----
+______________________________________________________________________
 
-# 149. Gap and Action Sufficiency
+## 149. Gap and Action Sufficiency
 
 A decision does not require every explanatory gap to be closed.
 
@@ -2915,9 +2918,9 @@ Action Sufficiency
 
 relative to the stakes.
 
----
+______________________________________________________________________
 
-# 150. Claim Sufficiency
+## 150. Claim Sufficiency
 
 A claim is sufficient when its unresolved gaps do not prevent the
 claimed epistemic class.
@@ -2930,16 +2933,16 @@ MODEL claim
 
 may tolerate missing empirical validation if that absence is explicit.
 
----
+______________________________________________________________________
 
-# 151. Decision Sufficiency
+## 151. Decision Sufficiency
 
 A decision is sufficient when unresolved gaps cannot reasonably change
 the selected action within the decision's required confidence envelope.
 
----
+______________________________________________________________________
 
-# 152. Action Sufficiency
+## 152. Action Sufficiency
 
 Action sufficiency requires stronger closure where the action is:
 
@@ -2951,9 +2954,9 @@ legally consequential
 institutionally consequential
 ```
 
----
+______________________________________________________________________
 
-# 153. Gap and Confidence Ceiling
+## 153. Gap and Confidence Ceiling
 
 If a load-bearing premise is unresolved:
 
@@ -2966,9 +2969,9 @@ must reflect that gap.
 A polished explanation cannot raise confidence beyond the missing
 support.
 
----
+______________________________________________________________________
 
-# 154. Gap and Derived Claims
+## 154. Gap and Derived Claims
 
 A derived claim can remain valid conditionally:
 
@@ -2991,9 +2994,9 @@ C
 
 cannot inherit stronger status.
 
----
+______________________________________________________________________
 
-# 155. Gap and Model Claims
+## 155. Gap and Model Claims
 
 A model may intentionally fill a conceptual design space.
 
@@ -3006,9 +3009,9 @@ MODEL
 The gap remains open regarding whether reality or canon implements the
 model.
 
----
+______________________________________________________________________
 
-# 156. Gap and Source Claims
+## 156. Gap and Source Claims
 
 A source claim can establish:
 
@@ -3024,9 +3027,9 @@ whether X is true
 
 These are different claims.
 
----
+______________________________________________________________________
 
-# 157. Gap and Observation
+## 157. Gap and Observation
 
 Direct observation may close an observational gap while leaving:
 
@@ -3040,9 +3043,9 @@ open.
 
 One evidence event rarely closes every uncertainty dimension.
 
----
+______________________________________________________________________
 
-# 158. Gap and Causality
+## 158. Gap and Causality
 
 If:
 
@@ -3058,9 +3061,9 @@ causal effect = GAP
 
 Sequence alone does not close causality.
 
----
+______________________________________________________________________
 
-# 159. Gap and Structural Analogy
+## 159. Gap and Structural Analogy
 
 If two systems share structure:
 
@@ -3076,9 +3079,9 @@ causal equivalence = GAP
 
 L27 prevents the latter from being silently filled.
 
----
+______________________________________________________________________
 
-# 160. Gap and Benchmark Claims
+## 160. Gap and Benchmark Claims
 
 A benchmark result may close:
 
@@ -3097,9 +3100,9 @@ universal validity
 
 open.
 
----
+______________________________________________________________________
 
-# 161. Gap and Test Claims
+## 161. Gap and Test Claims
 
 Passing tests may close:
 
@@ -3113,9 +3116,9 @@ but not automatically:
 all behavior correct
 ```
 
----
+______________________________________________________________________
 
-# 162. Gap and Formal Verification
+## 162. Gap and Formal Verification
 
 Formal proof can close a formal property gap within its assumptions.
 
@@ -3129,9 +3132,9 @@ environmental assumptions
 
 open.
 
----
+______________________________________________________________________
 
-# 163. Gap and Authority
+## 163. Gap and Authority
 
 Authoritative canon can close:
 
@@ -3147,9 +3150,9 @@ whether the definition is empirically true outside the canon
 
 Canonical authority and empirical validation remain distinct.
 
----
+______________________________________________________________________
 
-# 164. Gap and Provenance Independence
+## 164. Gap and Provenance Independence
 
 Multiple evidence artifacts do not close an independence gap unless
 their relevant ancestry is known.
@@ -3164,9 +3167,9 @@ may still represent:
 1 source lineage
 ```
 
----
+______________________________________________________________________
 
-# 165. Gap and Sybil Hardening
+## 165. Gap and Sybil Hardening
 
 A provenance Sybil attack can create:
 
@@ -3180,9 +3183,9 @@ L27 requires the root support gap to remain visible.
 
 Descendant count cannot close it.
 
----
+______________________________________________________________________
 
-# 166. Gap and Persistent Provenance
+## 166. Gap and Persistent Provenance
 
 Persistent provenance allows a gap to remain attached to its affected
 claims across:
@@ -3199,9 +3202,9 @@ where relevant.
 
 Exact storage mechanics are not supplied.
 
----
+______________________________________________________________________
 
-# 167. Gap and Persistent Memory
+## 167. Gap and Persistent Memory
 
 A gap should not disappear merely because a reasoning session ends.
 
@@ -3210,9 +3213,9 @@ remain attached or recoverable.
 
 This is a derived integrity requirement.
 
----
+______________________________________________________________________
 
-# 168. Gap and Cached Proof Capsules
+## 168. Gap and Cached Proof Capsules
 
 A cached proof capsule remains reusable only while:
 
@@ -3227,9 +3230,9 @@ gap state unchanged materially
 If a critical gap is discovered later, cached dependent conclusions
 must be reconsidered.
 
----
+______________________________________________________________________
 
-# 169. Gap Discovery After Caching
+## 169. Gap Discovery After Caching
 
 Example:
 
@@ -3251,9 +3254,9 @@ may require downgrade or invalidation.
 
 Do not preserve the old status merely because it was cached.
 
----
+______________________________________________________________________
 
-# 170. Gap and Replay
+## 170. Gap and Replay
 
 Replay can reproduce the state in which a gap existed.
 
@@ -3271,9 +3274,9 @@ KNOWN
 
 unless new evidence was introduced.
 
----
+______________________________________________________________________
 
-# 171. Gap and Recovery
+## 171. Gap and Recovery
 
 When a recovery path fails because information is missing:
 
@@ -3291,9 +3294,9 @@ reroute if possible
 request missing information
 ```
 
----
+______________________________________________________________________
 
-# 172. Gap Closure Through New Evidence
+## 172. Gap Closure Through New Evidence
 
 Valid closure pattern:
 
@@ -3322,9 +3325,9 @@ RESTATEMENT
 "RESOLVED"
 ```
 
----
+______________________________________________________________________
 
-# 173. Gap Closure Through Derivation
+## 173. Gap Closure Through Derivation
 
 A gap can sometimes be closed by derivation if the missing proposition
 is logically established from already validated premises.
@@ -3334,9 +3337,9 @@ the missing claim.
 
 This does not authorize plausible guessing.
 
----
+______________________________________________________________________
 
-# 174. Gap Closure Through Authority
+## 174. Gap Closure Through Authority
 
 An authority gap may be closed by authoritative canon.
 
@@ -3356,9 +3359,9 @@ empirical validity
 execution
 ```
 
----
+______________________________________________________________________
 
-# 175. Gap Closure Through Observation
+## 175. Gap Closure Through Observation
 
 An observational gap may be closed by direct observation.
 
@@ -3371,27 +3374,27 @@ when
 under what conditions
 ```
 
----
+______________________________________________________________________
 
-# 176. Gap Closure Through Experiment
+## 176. Gap Closure Through Experiment
 
 An empirical gap may be reduced or closed through an appropriate
 experiment.
 
 But one experiment may not justify universal generalization.
 
----
+______________________________________________________________________
 
-# 177. Gap Closure Through Formal Proof
+## 177. Gap Closure Through Formal Proof
 
 A formal gap can be closed by a valid proof where formal proof is the
 required evidence type.
 
 The proof's assumptions and scope remain load-bearing.
 
----
+______________________________________________________________________
 
-# 178. Gap Closure Through Replay
+## 178. Gap Closure Through Replay
 
 Replay may close:
 
@@ -3408,9 +3411,9 @@ authority gap
 independence gap
 ```
 
----
+______________________________________________________________________
 
-# 179. Gap Closure Through Consensus
+## 179. Gap Closure Through Consensus
 
 Consensus alone does not close an evidence gap.
 
@@ -3420,9 +3423,9 @@ many agents agree
 
 is not sufficient if they share the same unsupported root.
 
----
+______________________________________________________________________
 
-# 180. Gap Closure Through Popularity
+## 180. Gap Closure Through Popularity
 
 ```text
 widely repeated
@@ -3436,9 +3439,9 @@ validated
 
 Popularity is not a closure mechanism under L27.
 
----
+______________________________________________________________________
 
-# 181. Gap Closure Through Confidence Language
+## 181. Gap Closure Through Confidence Language
 
 Phrases such as:
 
@@ -3454,9 +3457,9 @@ do not close gaps.
 Epistemic confidence language must follow evidence, not substitute for
 it.
 
----
+______________________________________________________________________
 
-# 182. Gap Closure Through More Tokens
+## 182. Gap Closure Through More Tokens
 
 A longer explanation does not close an evidence gap.
 
@@ -3468,9 +3471,9 @@ MORE EVIDENCE
 
 This is especially important for generative reasoning systems.
 
----
+______________________________________________________________________
 
-# 183. Gap Closure Through Architecture Detail
+## 183. Gap Closure Through Architecture Detail
 
 An architecture can be described at extraordinary detail while still
 being hypothetical.
@@ -3483,9 +3486,9 @@ DETAILED MODEL
 IMPLEMENTED SYSTEM
 ```
 
----
+______________________________________________________________________
 
-# 184. Gap Closure Through Equations
+## 184. Gap Closure Through Equations
 
 A mathematical expression can formalize a model.
 
@@ -3498,9 +3501,9 @@ FORMALIZATION
 VALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 185. Gap Closure Through Code
+## 185. Gap Closure Through Code
 
 Code can demonstrate an executable implementation artifact.
 
@@ -3516,9 +3519,9 @@ safety
 
 without corresponding evidence.
 
----
+______________________________________________________________________
 
-# 186. Gap Closure Through Tests
+## 186. Gap Closure Through Tests
 
 Tests close only what they test.
 
@@ -3535,9 +3538,9 @@ environment
 version
 ```
 
----
+______________________________________________________________________
 
-# 187. Gap Closure Through Documentation
+## 187. Gap Closure Through Documentation
 
 Documentation can close:
 
@@ -3554,9 +3557,9 @@ whether the implementation behaves that way
 unless documentation itself is the authoritative object for the claim
 being evaluated.
 
----
+______________________________________________________________________
 
-# 188. Gap Closure Through Canon
+## 188. Gap Closure Through Canon
 
 Canon can close a definition gap within AMOS.
 
@@ -3574,9 +3577,9 @@ But canon alone does not necessarily close:
 Does external reality behave according to X?
 ```
 
----
+______________________________________________________________________
 
-# 189. Gap Closure Through Analogy
+## 189. Gap Closure Through Analogy
 
 Analogy can generate hypotheses.
 
@@ -3591,9 +3594,9 @@ authority
 
 gaps without additional evidence.
 
----
+______________________________________________________________________
 
-# 190. Gap Closure Through Structural Similarity
+## 190. Gap Closure Through Structural Similarity
 
 Same rule:
 
@@ -3605,9 +3608,9 @@ SAME MECHANISM
 
 A structural mapping remains a model unless validated.
 
----
+______________________________________________________________________
 
-# 191. Gap Closure Through Temporal Sequence
+## 191. Gap Closure Through Temporal Sequence
 
 ```text
 A happened before B
@@ -3621,9 +3624,9 @@ A caused B
 
 The causal gap remains.
 
----
+______________________________________________________________________
 
-# 192. Gap Closure Through Correlation
+## 192. Gap Closure Through Correlation
 
 ```text
 A correlates with B
@@ -3637,9 +3640,9 @@ causal mechanism
 
 without appropriate evidence.
 
----
+______________________________________________________________________
 
-# 193. Gap Closure Through One Successful Run
+## 193. Gap Closure Through One Successful Run
 
 One successful run may close:
 
@@ -3653,17 +3656,17 @@ but not:
 always succeeds
 ```
 
----
+______________________________________________________________________
 
-# 194. Gap Closure Through Benchmark Success
+## 194. Gap Closure Through Benchmark Success
 
 Benchmark success may close a scoped benchmark gap.
 
 It does not close universal performance or reliability gaps.
 
----
+______________________________________________________________________
 
-# 195. Gap Closure Through Simulation
+## 195. Gap Closure Through Simulation
 
 Simulation can close:
 
@@ -3673,9 +3676,9 @@ behavior under simulation assumptions
 
 but empirical transfer remains a separate gap.
 
----
+______________________________________________________________________
 
-# 196. Gap Closure Through Model Agreement
+## 196. Gap Closure Through Model Agreement
 
 Two models agreeing does not necessarily close an evidence gap,
 especially if both share:
@@ -3689,9 +3692,9 @@ source material
 
 Independence must be demonstrated.
 
----
+______________________________________________________________________
 
-# 197. Gap Closure Through Agent Multiplicity
+## 197. Gap Closure Through Agent Multiplicity
 
 ```text
 five agents agree
@@ -3705,9 +3708,9 @@ five independent confirmations
 
 The independence gap remains until ancestry/failure modes are assessed.
 
----
+______________________________________________________________________
 
-# 198. Gap Closure Through No Detected Error
+## 198. Gap Closure Through No Detected Error
 
 ```text
 no error detected
@@ -3722,9 +3725,9 @@ no error exists
 unless the detection mechanism is complete for the relevant error
 class.
 
----
+______________________________________________________________________
 
-# 199. Gap Closure Through Historical Success
+## 199. Gap Closure Through Historical Success
 
 Past success does not automatically close:
 
@@ -3734,9 +3737,9 @@ current applicability
 
 after a regime or environment shift.
 
----
+______________________________________________________________________
 
-# 200. Gap Closure Through Default Assumption
+## 200. Gap Closure Through Default Assumption
 
 Defaults may be operationally useful.
 
@@ -3752,9 +3755,9 @@ must not be relabeled:
 ESTABLISHED FACT
 ```
 
----
+______________________________________________________________________
 
-# 201. Gap Closure Preconditions
+## 201. Gap Closure Preconditions
 
 A model closure contract can require:
 
@@ -3782,9 +3785,9 @@ Not every gap requires every dimension.
 
 The dimensions depend on the gap type.
 
----
+______________________________________________________________________
 
-# 202. Closure Adversarial Check
+## 202. Closure Adversarial Check
 
 Before consequential closure, ask:
 
@@ -3804,9 +3807,9 @@ Is a hidden dependency still unresolved?
 Did we close the gap or merely rename it?
 ```
 
----
+______________________________________________________________________
 
-# 203. False Closure
+## 203. False Closure
 
 A false closure occurs when:
 
@@ -3818,9 +3821,9 @@ without sufficient new evidence.
 
 This is one of the central failure modes prohibited by GAP-4.
 
----
+______________________________________________________________________
 
-# 204. Premature Closure
+## 204. Premature Closure
 
 Premature closure occurs when evidence is relevant but incomplete.
 
@@ -3845,9 +3848,9 @@ validator existence gap = closed
 validator execution gap = open
 ```
 
----
+______________________________________________________________________
 
-# 205. Scope-Leaking Closure
+## 205. Scope-Leaking Closure
 
 Example:
 
@@ -3864,9 +3867,9 @@ works on all platforms
 The Linux test may close one scoped gap while leaving broader
 applicability unresolved.
 
----
+______________________________________________________________________
 
-# 206. Regime-Leaking Closure
+## 206. Regime-Leaking Closure
 
 Example:
 
@@ -3884,9 +3887,9 @@ without transfer evidence.
 
 The production gap remains open.
 
----
+______________________________________________________________________
 
-# 207. Provenance-Leaking Closure
+## 207. Provenance-Leaking Closure
 
 Example:
 
@@ -3898,9 +3901,9 @@ but all three derive from one report.
 
 The independence gap remains.
 
----
+______________________________________________________________________
 
-# 208. Authority-Leaking Closure
+## 208. Authority-Leaking Closure
 
 Example:
 
@@ -3918,9 +3921,9 @@ without authoritative lineage.
 
 Formatting does not establish governance authority.
 
----
+______________________________________________________________________
 
-# 209. Implementation-Leaking Closure
+## 209. Implementation-Leaking Closure
 
 Example:
 
@@ -3938,9 +3941,9 @@ This silently crosses from architecture to implementation.
 
 L27 forbids such filling.
 
----
+______________________________________________________________________
 
-# 210. Formalism-Leaking Closure
+## 210. Formalism-Leaking Closure
 
 Example:
 
@@ -3956,9 +3959,9 @@ formal theorem proven
 
 The proof gap remains.
 
----
+______________________________________________________________________
 
-# 211. Gap Quality
+## 211. Gap Quality
 
 A high-quality gap statement is:
 
@@ -3978,9 +3981,9 @@ A poor gap statement is:
 
 without saying what information is missing.
 
----
+______________________________________________________________________
 
-# 212. Good Gap Example
+## 212. Good Gap Example
 
 ```yaml
 gap:
@@ -3994,9 +3997,9 @@ gap:
     "Execute authoritative V against pinned P_v3 and retain result."
 ```
 
----
+______________________________________________________________________
 
-# 213. Weak Gap Example
+## 213. Weak Gap Example
 
 ```yaml
 gap:
@@ -4005,9 +4008,9 @@ gap:
 
 This is visible but insufficiently bounded for efficient closure.
 
----
+______________________________________________________________________
 
-# 214. Gap Closure Question
+## 214. Gap Closure Question
 
 Every material gap should ideally answer:
 
@@ -4019,9 +4022,9 @@ would allow this gap to close?
 If no possible closure condition can be described, the gap may be too
 vague or the claim may be unfalsifiable.
 
----
+______________________________________________________________________
 
-# 215. Gap Falsifiability
+## 215. Gap Falsifiability
 
 A gap registry should distinguish:
 
@@ -4039,9 +4042,9 @@ when that distinction matters.
 
 The source does not define formal terminology for this.
 
----
+______________________________________________________________________
 
-# 216. Permanent Unknown
+## 216. Permanent Unknown
 
 Some questions may remain unknown because evidence is unavailable in
 principle or permanently lost.
@@ -4054,9 +4057,9 @@ UNKNOWN
 
 rather than fictional reconstruction.
 
----
+______________________________________________________________________
 
-# 217. Recoverable Gap
+## 217. Recoverable Gap
 
 A gap is recoverable when a known evidence path exists.
 
@@ -4068,9 +4071,9 @@ missing test result
 
 with available source code and executable test environment.
 
----
+______________________________________________________________________
 
-# 218. Blocked Gap
+## 218. Blocked Gap
 
 A gap may be temporarily blocked because required evidence is
 inaccessible.
@@ -4089,9 +4092,9 @@ CLOSED BY ASSUMPTION
 
 The exact status vocabulary is model-level.
 
----
+______________________________________________________________________
 
-# 219. Gap Owner
+## 219. Gap Owner
 
 Operational systems may assign:
 
@@ -4105,17 +4108,17 @@ to a gap.
 
 L27 does not require an exact ownership mechanism.
 
----
+______________________________________________________________________
 
-# 220. Gap Deadline
+## 220. Gap Deadline
 
 A gap can have a revalidation deadline where freshness matters.
 
 This is an operational extension rather than source canon.
 
----
+______________________________________________________________________
 
-# 221. Gap SLA Boundary
+## 221. Gap SLA Boundary
 
 L27 does not define:
 
@@ -4127,9 +4130,9 @@ latency target
 
 Therefore no gap SLA should be invented as canonical.
 
----
+______________________________________________________________________
 
-# 222. Gap Metrics Boundary
+## 222. Gap Metrics Boundary
 
 Potential metrics such as:
 
@@ -4144,9 +4147,9 @@ may be useful operationally.
 
 They are not defined by the supplied law.
 
----
+______________________________________________________________________
 
-# 223. Gap Count Boundary
+## 223. Gap Count Boundary
 
 A system with:
 
@@ -4170,9 +4173,9 @@ LOW GAP COUNT
 HIGH INTEGRITY
 ```
 
----
+______________________________________________________________________
 
-# 224. Gap Density Boundary
+## 224. Gap Density Boundary
 
 Likewise, gap density is not an intrinsic quality metric without
 context.
@@ -4180,9 +4183,9 @@ context.
 A mature audit may discover more gaps because it resolves hidden
 uncertainty more accurately.
 
----
+______________________________________________________________________
 
-# 225. Gap Closure Rate Boundary
+## 225. Gap Closure Rate Boundary
 
 Fast closure can be harmful if it encourages:
 
@@ -4202,9 +4205,9 @@ CLOSURE INTEGRITY
 
 when they conflict.
 
----
+______________________________________________________________________
 
-# 226. Gap Compression
+## 226. Gap Compression
 
 Multiple low-level gaps may be summarized for human readability if the
 summary preserves:
@@ -4217,9 +4220,9 @@ closure conditions
 
 Compression must not erase critical uncertainty.
 
----
+______________________________________________________________________
 
-# 227. Gap Expansion
+## 227. Gap Expansion
 
 A high-level gap may be expanded into sub-gaps only when the added
 detail improves:
@@ -4233,9 +4236,9 @@ closure
 
 Do not generate ornamental gap taxonomies that do not affect action.
 
----
+______________________________________________________________________
 
-# 228. Adaptive Gap Resolution
+## 228. Adaptive Gap Resolution
 
 Start with the smallest sufficient gap representation.
 
@@ -4250,9 +4253,9 @@ scope unclear
 provenance correlated
 ```
 
----
+______________________________________________________________________
 
-# 229. Gap Stop Rule
+## 229. Gap Stop Rule
 
 Stop expanding a gap when:
 
@@ -4264,9 +4267,9 @@ decision consequence understood
 
 unless additional detail can materially change the result.
 
----
+______________________________________________________________________
 
-# 230. Gap Recovery Algorithm
+## 230. Gap Recovery Algorithm
 
 Illustrative:
 
@@ -4297,9 +4300,9 @@ def handle_gap(gap, context):
 
 This is a model implementation, not supplied canon.
 
----
+______________________________________________________________________
 
-# 231. Gap Closure Algorithm
+## 231. Gap Closure Algorithm
 
 ```python
 def close_gap(gap, evidence):
@@ -4323,9 +4326,9 @@ def close_gap(gap, evidence):
 
 Illustrative.
 
----
+______________________________________________________________________
 
-# 232. Gap Revalidation Algorithm
+## 232. Gap Revalidation Algorithm
 
 ```python
 def revalidate_closed_gap(gap):
@@ -4342,9 +4345,9 @@ def revalidate_closed_gap(gap):
 
 Model-level.
 
----
+______________________________________________________________________
 
-# 233. Gap Propagation Algorithm
+## 233. Gap Propagation Algorithm
 
 ```python
 def propagate_gap(gap):
@@ -4358,9 +4361,9 @@ def propagate_gap(gap):
 Selective invalidation is required conceptually; exact mechanics are
 not supplied by L27.
 
----
+______________________________________________________________________
 
-# 234. Gap Resolution Fast Path
+## 234. Gap Resolution Fast Path
 
 A gap may close locally when:
 
@@ -4375,9 +4378,9 @@ validation executable locally
 
 This is a derived integration with shard-local reasoning.
 
----
+______________________________________________________________________
 
-# 235. Gap Escalation Path
+## 235. Gap Escalation Path
 
 Escalate when the gap involves:
 
@@ -4394,9 +4397,9 @@ legal/governance impact
 correlated provenance
 ```
 
----
+______________________________________________________________________
 
-# 236. Gap Coordination Avoidance
+## 236. Gap Coordination Avoidance
 
 Do not coordinate globally merely because a gap exists.
 
@@ -4405,9 +4408,9 @@ load-bearing uncertainty.
 
 This is a derived efficiency principle.
 
----
+______________________________________________________________________
 
-# 237. Proof of Gap Locality
+## 237. Proof of Gap Locality
 
 Before treating a gap as local, establish that:
 
@@ -4419,9 +4422,9 @@ global conclusions or invariants
 
 Locality must be demonstrated, not assumed.
 
----
+______________________________________________________________________
 
-# 238. Gap and Atomic Multi-RSCF
+## 238. Gap and Atomic Multi-RSCF
 
 Suppose a conclusion requires:
 
@@ -4441,9 +4444,9 @@ Then the atomic composed conclusion must preserve G.
 
 It cannot commit as though all three RSCFs were complete.
 
----
+______________________________________________________________________
 
-# 239. Atomic Gap Visibility
+## 239. Atomic Gap Visibility
 
 Atomic reasoning should carry:
 
@@ -4456,9 +4459,9 @@ into the composed proof capsule.
 A gap cannot disappear merely because multiple reasoning nodes are
 combined.
 
----
+______________________________________________________________________
 
-# 240. Gap Merge Discipline
+## 240. Gap Merge Discipline
 
 When multiple branches merge:
 
@@ -4477,9 +4480,9 @@ G001 remains open
 
 unless B provides closure evidence.
 
----
+______________________________________________________________________
 
-# 241. Contradictory Gap States
+## 241. Contradictory Gap States
 
 Suppose:
 
@@ -4502,9 +4505,9 @@ before selecting a state.
 
 Do not use last-writer-wins by default for epistemic closure.
 
----
+______________________________________________________________________
 
-# 242. Gap State CAS
+## 242. Gap State CAS
 
 A model state transition:
 
@@ -4525,9 +4528,9 @@ CAS success
 epistemic sufficiency
 ```
 
----
+______________________________________________________________________
 
-# 243. Gap Epoch Transition
+## 243. Gap Epoch Transition
 
 Conceptually:
 
@@ -4542,9 +4545,9 @@ G001 = CLOSED
 
 Historical state remains attributable.
 
----
+______________________________________________________________________
 
-# 244. Gap Reopen Epoch
+## 244. Gap Reopen Epoch
 
 ```text
 e_{k+2}:
@@ -4554,9 +4557,9 @@ G001 = REOPENED
 
 This preserves causal lineage.
 
----
+______________________________________________________________________
 
-# 245. Gap Replay
+## 245. Gap Replay
 
 A deterministic replay should reproduce:
 
@@ -4568,9 +4571,9 @@ for the historical state before closure if that was the recorded state.
 
 Replay should not inject later evidence into earlier epochs.
 
----
+______________________________________________________________________
 
-# 246. Gap and No Time Travel
+## 246. Gap and No Time Travel
 
 Later closure evidence does not mean the gap was never open.
 
@@ -4589,9 +4592,9 @@ rewrite e1 as CLOSED
 
 This integration is derived from L24.
 
----
+______________________________________________________________________
 
-# 247. Gap and Recovery Rollback
+## 247. Gap and Recovery Rollback
 
 If a recovery rolls state back to a safe point, gap history should not
 be confused with historical deletion.
@@ -4599,9 +4602,9 @@ be confused with historical deletion.
 Recovery can restore viable state while preserving the provenance that
 the gap and later closure events occurred.
 
----
+______________________________________________________________________
 
-# 248. Gap and DMER
+## 248. Gap and DMER
 
 A recovery architecture can use gap discipline to avoid misdiagnosed
 repair.
@@ -4617,9 +4620,9 @@ should remain explicit.
 Do not choose a rewind boundary merely because one origin appears
 plausible.
 
----
+______________________________________________________________________
 
-# 249. Gap and Distinction
+## 249. Gap and Distinction
 
 In D/M/E/R terms, gap integrity depends on preserving the distinction
 between:
@@ -4634,9 +4637,9 @@ Collapsing these distinctions can create misdiagnosed repair.
 
 This is an integration model, not a direct L27 source clause.
 
----
+______________________________________________________________________
 
-# 250. Gap and Entropy
+## 250. Gap and Entropy
 
 Hidden gaps can increase epistemic entropy because unsupported
 assumptions propagate as though validated.
@@ -4646,18 +4649,18 @@ Visible gaps constrain that propagation.
 This is a conceptual AMOS_MODEL integration rather than an empirical
 law established by L27.
 
----
+______________________________________________________________________
 
-# 251. Gap and Repair
+## 251. Gap and Repair
 
 Gap closure is a form of epistemic repair only when the closure
 mechanism actually resolves the missing evidence.
 
 Restatement masquerading as closure is not repair.
 
----
+______________________________________________________________________
 
-# 252. Gap and Viability
+## 252. Gap and Viability
 
 A system capable of saying:
 
@@ -4670,9 +4673,9 @@ unsupported answer.
 
 This is a model-level connection to broader AMOS viability concepts.
 
----
+______________________________________________________________________
 
-# 253. Gap and Decision Reversibility
+## 253. Gap and Decision Reversibility
 
 If a gap remains open:
 
@@ -4684,9 +4687,9 @@ where possible.
 
 This limits damage if the unresolved premise later proves false.
 
----
+______________________________________________________________________
 
-# 254. Gap and Information Value
+## 254. Gap and Information Value
 
 The best next evidence is not necessarily:
 
@@ -4703,9 +4706,9 @@ to change the decision
 
 This avoids redundant accumulation.
 
----
+______________________________________________________________________
 
-# 255. Gap and Competing Hypotheses
+## 255. Gap and Competing Hypotheses
 
 A gap may contain competing closure hypotheses.
 
@@ -4721,9 +4724,9 @@ H3: environment mismatch
 
 Do not collapse them prematurely.
 
----
+______________________________________________________________________
 
-# 256. Discriminating Test
+## 256. Discriminating Test
 
 Choose a test that differentiates:
 
@@ -4735,9 +4738,9 @@ H3
 
 rather than repeatedly collecting evidence compatible with all three.
 
----
+______________________________________________________________________
 
-# 257. Gap and Strongest Alternative
+## 257. Gap and Strongest Alternative
 
 Before closing a consequential gap, challenge the proposed closure with
 the strongest alternative explanation.
@@ -4756,9 +4759,9 @@ wrong test version executed
 
 If the alternative remains viable, the intended gap may remain open.
 
----
+______________________________________________________________________
 
-# 258. Gap Closure Sensitivity
+## 258. Gap Closure Sensitivity
 
 Ask:
 
@@ -4771,16 +4774,16 @@ that would reopen the gap?
 If a tiny plausible change flips the state, closure is fragile and may
 need `CONDITIONAL` status.
 
----
+______________________________________________________________________
 
-# 259. Robust Gap Closure
+## 259. Robust Gap Closure
 
 A robust closure survives plausible perturbations of noncritical
 assumptions and directly addresses the load-bearing missing element.
 
----
+______________________________________________________________________
 
-# 260. Gap Confidence Ceiling
+## 260. Gap Confidence Ceiling
 
 Conceptually:
 
@@ -4790,14 +4793,14 @@ Confidence(C)
 Confidence(P_g)
 $$
 
-when unresolved premise \(P_g\) is load-bearing for conclusion \(C\).
+when unresolved premise (P_g) is load-bearing for conclusion (C).
 
-If \(P_g\) is `UNKNOWN/GAP`, unconditional confidence in \(C\) must be
+If (P_g) is `UNKNOWN/GAP`, unconditional confidence in (C) must be
 bounded accordingly.
 
----
+______________________________________________________________________
 
-# 261. Gap Severity Matrix
+## 261. Gap Severity Matrix
 
 | Gap type                     | Typical impact                          | Possible result           |
 | ---------------------------- | --------------------------------------- | ------------------------- |
@@ -4812,9 +4815,9 @@ bounded accordingly.
 
 Context determines actual severity.
 
----
+______________________________________________________________________
 
-# 262. Gap Closure Matrix
+## 262. Gap Closure Matrix
 
 | Gap                          | Evidence offered                   | Closure?                                |
 | ---------------------------- | ---------------------------------- | --------------------------------------- |
@@ -4829,9 +4832,9 @@ Context determines actual severity.
 | Empirical validation missing | Simulation                         | No, unless empirical bridge established |
 | Replayability missing        | Deterministic replay receipt       | Candidate yes for replay gap only       |
 
----
+______________________________________________________________________
 
-# 263. Gap Output Contract
+## 263. Gap Output Contract
 
 When a material gap remains, an output should ideally state:
 
@@ -4846,9 +4849,9 @@ WHAT CAN SAFELY BE DONE NOW
 Not every response requires all five fields explicitly, but the
 underlying distinction should be preserved.
 
----
+______________________________________________________________________
 
-# 264. Compact Gap Output
+## 264. Compact Gap Output
 
 Example:
 
@@ -4868,9 +4871,9 @@ Closure:
 Run V against the pinned artifact and retain the result.
 ```
 
----
+______________________________________________________________________
 
-# 265. Critical Gap Output
+## 265. Critical Gap Output
 
 Example:
 
@@ -4884,9 +4887,9 @@ Minimum missing information:
 the authoritative definition of S.
 ```
 
----
+______________________________________________________________________
 
-# 266. Competing + Gap Output
+## 266. Competing + Gap Output
 
 Example:
 
@@ -4902,9 +4905,9 @@ Next useful evidence:
 test T, because its outcomes differ under H1 and H2.
 ```
 
----
+______________________________________________________________________
 
-# 267. Gap Anti-Fabrication Contract
+## 267. Gap Anti-Fabrication Contract
 
 ```text
 IF SOURCE DOES NOT ESTABLISH X:
@@ -4923,9 +4926,9 @@ WRITE ONE OF:
 "A POSSIBLE MODEL IS X, BUT THIS DOES NOT CLOSE THE GAP."
 ```
 
----
+______________________________________________________________________
 
-# 268. Gap Compression Contract
+## 268. Gap Compression Contract
 
 When concise output is required:
 
@@ -4938,9 +4941,9 @@ Instead compress background first.
 
 Integrity-bearing uncertainty survives compression.
 
----
+______________________________________________________________________
 
-# 269. Gap Expansion Contract
+## 269. Gap Expansion Contract
 
 When exhaustive output is requested:
 
@@ -4961,9 +4964,9 @@ closure conditions
 
 not fabricated certainty.
 
----
+______________________________________________________________________
 
-# 270. Gap and Canon Reconstruction
+## 270. Gap and Canon Reconstruction
 
 When reconstructing incomplete AMOS canon:
 
@@ -4983,9 +4986,9 @@ unknown canon
 
 L27 is directly relevant to reconstruction integrity.
 
----
+______________________________________________________________________
 
-# 271. Missing Canon
+## 271. Missing Canon
 
 If a canonical section is absent:
 
@@ -4997,9 +5000,9 @@ should remain visible.
 
 Do not infer exact canonical wording from neighboring laws.
 
----
+______________________________________________________________________
 
-# 272. Canon Pattern Is Not Canon Evidence
+## 272. Canon Pattern Is Not Canon Evidence
 
 Even if:
 
@@ -5021,9 +5024,9 @@ unless L27 source exists.
 Pattern can support reconstruction as `MODEL`, not authoritative
 recovery.
 
----
+______________________________________________________________________
 
-# 273. Reconstructed Canon Boundary
+## 273. Reconstructed Canon Boundary
 
 A reconstructed section should be labeled according to evidence:
 
@@ -5036,9 +5039,9 @@ UNKNOWN/GAP
 
 rather than being flattened into one undifferentiated canonical voice.
 
----
+______________________________________________________________________
 
-# 274. Placeholder Replacement Boundary
+## 274. Placeholder Replacement Boundary
 
 The supplied source says:
 
@@ -5052,9 +5055,9 @@ It does not establish the placeholder's exact prior content.
 
 That historical content remains a gap unless separately supplied.
 
----
+______________________________________________________________________
 
-# 275. Metadata Gap
+## 275. Metadata Gap
 
 The source may itself contain metadata tension.
 
@@ -5080,9 +5083,9 @@ canonical_status: CONDITIONAL
 
 Do not silently erase the inconsistency.
 
----
+______________________________________________________________________
 
-# 276. Metadata Normalization Model
+## 276. Metadata Normalization Model
 
 A coherent operational normalization is:
 
@@ -5097,9 +5100,9 @@ But this is a `MODEL` normalization.
 
 It does not rewrite the supplied metadata.
 
----
+______________________________________________________________________
 
-# 277. Document-Type Boundary
+## 277. Document-Type Boundary
 
 The frontmatter states:
 
@@ -5121,9 +5124,9 @@ Without authoritative schema evidence:
 PRESERVE BOTH
 ```
 
----
+______________________________________________________________________
 
-# 278. Source Falsifier
+## 278. Source Falsifier
 
 The supplied source establishes:
 
@@ -5134,9 +5137,9 @@ authoritative canon treats gaps as failures to hide.
 
 This is the direct falsifier.
 
----
+______________________________________________________________________
 
-# 279. Falsifier Interpretation
+## 279. Falsifier Interpretation
 
 If authoritative canon establishes:
 
@@ -5150,9 +5153,9 @@ falsified within the corpus.
 
 This reconstruction does not assume such canon exists.
 
----
+______________________________________________________________________
 
-# 280. Expanded Falsifiers
+## 280. Expanded Falsifiers
 
 The following are derived refinements:
 
@@ -5196,9 +5199,9 @@ falsifiers:
       semantics.
 ```
 
----
+______________________________________________________________________
 
-# 281. Source-Established Claims
+## 281. Source-Established Claims
 
 ```yaml
 source_established:
@@ -5273,9 +5276,9 @@ source_established:
     - [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 ```
 
----
+______________________________________________________________________
 
-# 282. Not Established
+## 282. Not Established
 
 The supplied L27 source does **not** establish:
 
@@ -5309,9 +5312,9 @@ not_established:
   - universal empirical proof that this gap model is optimal
 ```
 
----
+______________________________________________________________________
 
-# 283. Known Source Gap
+## 283. Known Source Gap
 
 The supplied source references:
 
@@ -5324,9 +5327,9 @@ but L27 itself does not define L28's exact critical-gap semantics.
 Therefore any detailed critical-gap machinery in this reconstruction is
 only a derived anticipation unless L28 is separately supplied.
 
----
+______________________________________________________________________
 
-# 284. L28 Boundary
+## 284. L28 Boundary
 
 L27 establishes generic gap discipline.
 
@@ -5350,9 +5353,9 @@ L28 CRITICAL GAP
 
 until L28 canon is supplied.
 
----
+______________________________________________________________________
 
-# 285. Critical-Gap Integration Boundary
+## 285. Critical-Gap Integration Boundary
 
 This reconstruction uses:
 
@@ -5368,9 +5371,9 @@ as an AMOS gap-prioritization model.
 However, exact L28 terminology or semantics must supersede this
 derived structure if authoritative L28 differs.
 
----
+______________________________________________________________________
 
-# 286. Promotion Gate
+## 286. Promotion Gate
 
 Because L27 is explicitly `CONDITIONAL`, a stronger promotion would
 reasonably require resolution of material specification gaps.
@@ -5393,9 +5396,9 @@ visible unresolved gaps
 
 This promotion gate is `MODEL`, not source-established.
 
----
+______________________________________________________________________
 
-# 287. Gap Law Self-Application
+## 287. Gap Law Self-Application
 
 L27 applies to its own reconstruction.
 
@@ -5405,9 +5408,9 @@ This is not a contradiction.
 
 It is the intended integrity behavior.
 
----
+______________________________________________________________________
 
-# 288. L27 Self-Gap Register
+## 288. L27 Self-Gap Register
 
 ```yaml
 l27_self_gaps:
@@ -5471,9 +5474,9 @@ l27_self_gaps:
 
 The classification labels in this self-register are model-level.
 
----
+______________________________________________________________________
 
-# 289. Gap Law Self-Closure Rule
+## 289. Gap Law Self-Closure Rule
 
 L27's own gaps cannot be closed by extending this document with more
 plausible detail.
@@ -5497,9 +5500,9 @@ until authoritative evidence establishes it.
 
 This is a direct application of GAP-1 and GAP-4.
 
----
+______________________________________________________________________
 
-# 290. Gap Law Self-Consistency
+## 290. Gap Law Self-Consistency
 
 L27 is internally consistent with an expanded model that says:
 
@@ -5527,9 +5530,9 @@ MODEL DETAIL
 SILENT CANON PROMOTION
 ```
 
----
+______________________________________________________________________
 
-# 291. Canonical Gap Hierarchy
+## 291. Canonical Gap Hierarchy
 
 At the source-supported level:
 
@@ -5547,9 +5550,9 @@ L27 GAP
 
 Everything else in this reconstruction is subordinate to this spine.
 
----
+______________________________________________________________________
 
-# 292. Operational Gap Hierarchy
+## 292. Operational Gap Hierarchy
 
 Derived model:
 
@@ -5581,9 +5584,9 @@ GAP
 +--> PRESERVE HISTORY
 ```
 
----
+______________________________________________________________________
 
-# 293. Gap Architecture
+## 293. Gap Architecture
 
 ```text
                         ARTIFACT
@@ -5632,9 +5635,9 @@ GAP
 
 Model-level architecture.
 
----
+______________________________________________________________________
 
-# 294. Cross-Law Architecture
+## 294. Cross-Law Architecture
 
 ```text
                       [[01_CANON/01_CORE_LAWS/L17_RSCF|L17_RSCF]]
@@ -5676,9 +5679,9 @@ Model-level architecture.
 
 Exact interfaces are not source-established.
 
----
+______________________________________________________________________
 
-# 295. Gap Invariants
+## 295. Gap Invariants
 
 ```text
 GAP-I1
@@ -5745,9 +5748,9 @@ COMPLETENESS NEVER JUSTIFIES FABRICATION.
 Only the four source laws are directly canonical-source claims; these
 invariants are expanded derivations.
 
----
+______________________________________________________________________
 
-# 296. Anti-Pattern Register
+## 296. Anti-Pattern Register
 
 ```yaml
 anti_patterns:
@@ -5828,9 +5831,9 @@ anti_patterns:
     name: INVENTED_CANON_TO_COMPLETE_PATTERN
 ```
 
----
+______________________________________________________________________
 
-# 297. Failure Mode Register
+## 297. Failure Mode Register
 
 ```yaml
 failure_modes:
@@ -5914,9 +5917,9 @@ failure_modes:
       Missing canon is invented to make the artifact appear complete.
 ```
 
----
+______________________________________________________________________
 
-# 298. Adversarial Gap Validation
+## 298. Adversarial Gap Validation
 
 Before declaring a material gap closed, challenge closure through a
 different path.
@@ -5949,9 +5952,9 @@ Questions:
 12. Did prose, authority, or architecture substitute for evidence?
 ```
 
----
+______________________________________________________________________
 
-# 299. Gap Sensitivity Test
+## 299. Gap Sensitivity Test
 
 For each consequential gap:
 
@@ -5965,9 +5968,9 @@ Resolve that first.
 
 This minimizes wasted validation.
 
----
+______________________________________________________________________
 
-# 300. Gap Closure Proof Capsule
+## 300. Gap Closure Proof Capsule
 
 ```yaml
 gap_closure_proof_capsule:
@@ -6013,9 +6016,9 @@ gap_closure_proof_capsule:
 
 Exact fields are illustrative.
 
----
+______________________________________________________________________
 
-# 301. Gap Discovery Proof Capsule
+## 301. Gap Discovery Proof Capsule
 
 ```yaml
 gap_discovery_capsule:
@@ -6038,9 +6041,9 @@ gap_discovery_capsule:
     - avoid_implementation_claim
 ```
 
----
+______________________________________________________________________
 
-# 302. Source vs Derived Boundary
+## 302. Source vs Derived Boundary
 
 ```yaml
 epistemic_boundary:
@@ -6079,9 +6082,9 @@ epistemic_boundary:
     - exact_persistence_mechanism
 ```
 
----
+______________________________________________________________________
 
-# 303. Canonical Integrity Matrix
+## 303. Canonical Integrity Matrix
 
 | Claim                                                                | Class                       |
 | -------------------------------------------------------------------- | --------------------------- |
@@ -6097,9 +6100,9 @@ epistemic_boundary:
 | L28 uses the severity model in this reconstruction                   | NOT_ESTABLISHED             |
 | ChatGPT literally implements this registry                           | NOT_ESTABLISHED             |
 
----
+______________________________________________________________________
 
-# 304. Gap Decision Matrix
+## 304. Gap Decision Matrix
 
 | State                                         | Recommended epistemic result |
 | --------------------------------------------- | ---------------------------- |
@@ -6113,9 +6116,9 @@ epistemic_boundary:
 | Validation executed and directly resolves gap | Candidate closure            |
 | Closure later invalidated                     | REOPEN / revalidate          |
 
----
+______________________________________________________________________
 
-# 305. Gap Governance Matrix
+## 305. Gap Governance Matrix
 
 | Stakes                     | Gap                     | Governance posture             |
 | -------------------------- | ----------------------- | ------------------------------ |
@@ -6129,9 +6132,9 @@ epistemic_boundary:
 
 This is a derived governance model.
 
----
+______________________________________________________________________
 
-# 306. Gap Closure Evidence Matrix
+## 306. Gap Closure Evidence Matrix
 
 ```text
 IMPLEMENTATION GAP
@@ -6162,9 +6165,9 @@ INDEPENDENCE GAP
     -> provenance/failure-mode independence analysis
 ```
 
----
+______________________________________________________________________
 
-# 307. Gap Escalation Matrix
+## 307. Gap Escalation Matrix
 
 Escalate if:
 
@@ -6182,9 +6185,9 @@ gap closure evidence conflicts
 gap origin ambiguous
 ```
 
----
+______________________________________________________________________
 
-# 308. Gap De-Escalation
+## 308. Gap De-Escalation
 
 De-escalate when:
 
@@ -6198,9 +6201,9 @@ remaining gaps are explanatory/cosmetic
 Do not continue maximal investigation after action sufficiency is
 reached.
 
----
+______________________________________________________________________
 
-# 309. Minimum Sufficient Gap Resolution
+## 309. Minimum Sufficient Gap Resolution
 
 The goal is not:
 
@@ -6216,9 +6219,9 @@ or integrity-breaking unknowns
 for the intended claim/action
 ```
 
----
+______________________________________________________________________
 
-# 310. Zero-Gap Fallacy
+## 310. Zero-Gap Fallacy
 
 A complex system claiming:
 
@@ -6240,9 +6243,9 @@ hidden uncertainty
 
 Evidence is required to discriminate.
 
----
+______________________________________________________________________
 
-# 311. Gap Visibility as Integrity Signal
+## 311. Gap Visibility as Integrity Signal
 
 Visible gaps can be a positive signal of epistemic discipline.
 
@@ -6262,9 +6265,9 @@ absence of hiding
 proof of truth
 ```
 
----
+______________________________________________________________________
 
-# 312. Gap Registry as Proof Boundary
+## 312. Gap Registry as Proof Boundary
 
 A gap registry should be read as:
 
@@ -6282,9 +6285,9 @@ ALL POSSIBLE GAPS
 
 unless completeness has itself been validated.
 
----
+______________________________________________________________________
 
-# 313. Unknown Unknowns
+## 313. Unknown Unknowns
 
 L27 primarily governs recognized gaps.
 
@@ -6298,9 +6301,9 @@ GAP REGISTRY COMPLETE
 
 is itself a claim requiring evidence if asserted.
 
----
+______________________________________________________________________
 
-# 314. Registry Completeness Gap
+## 314. Registry Completeness Gap
 
 A system may have:
 
@@ -6316,9 +6319,9 @@ uncertainty about whether all gaps were discovered
 
 This meta-gap can matter for high-stakes reasoning.
 
----
+______________________________________________________________________
 
-# 315. Meta-Gap
+## 315. Meta-Gap
 
 A meta-gap is uncertainty about the gap-management process itself.
 
@@ -6334,9 +6337,9 @@ Is the gap registry complete?
 
 The source does not explicitly define meta-gaps.
 
----
+______________________________________________________________________
 
-# 316. Gap-of-Gap Recursion
+## 316. Gap-of-Gap Recursion
 
 Unbounded recursion such as:
 
@@ -6355,18 +6358,18 @@ action
 closure test
 ```
 
----
+______________________________________________________________________
 
-# 317. Bounded Recursion
+## 317. Bounded Recursion
 
 The bounded registry principle supports stopping at the smallest level
 that preserves decision-relevant uncertainty.
 
 This prevents gap management from becoming infinite bookkeeping.
 
----
+______________________________________________________________________
 
-# 318. Gap Registry Compression
+## 318. Gap Registry Compression
 
 A large number of related gaps may be grouped under a root gap if:
 
@@ -6376,9 +6379,9 @@ and
 the grouping preserves closure requirements
 ```
 
----
+______________________________________________________________________
 
-# 319. Gap Registry Expansion
+## 319. Gap Registry Expansion
 
 Split a root gap when its children require:
 
@@ -6389,9 +6392,9 @@ different scopes
 different closure tests
 ```
 
----
+______________________________________________________________________
 
-# 320. Gap Independence
+## 320. Gap Independence
 
 Two gaps may be independent or correlated.
 
@@ -6407,9 +6410,9 @@ causally related.
 
 Do not treat gap counts as independent risk units.
 
----
+______________________________________________________________________
 
-# 321. Gap Correlation
+## 321. Gap Correlation
 
 A single missing source can generate:
 
@@ -6424,9 +6427,9 @@ depending on what the source was supposed to establish.
 
 Root-cause analysis can reduce redundant closure effort.
 
----
+______________________________________________________________________
 
-# 322. Gap Topology
+## 322. Gap Topology
 
 Gap management should consider:
 
@@ -6438,9 +6441,9 @@ which gaps block other closure tests
 
 This is more informative than a flat count.
 
----
+______________________________________________________________________
 
-# 323. Gap Topology Example
+## 323. Gap Topology Example
 
 ```text
                 G_SOURCE
@@ -6458,9 +6461,9 @@ This is more informative than a flat count.
 Closing `G_SOURCE` may resolve multiple descendants if it supplies the
 missing authority and schema.
 
----
+______________________________________________________________________
 
-# 324. Gap Closure Ordering
+## 324. Gap Closure Ordering
 
 Resolve upstream gaps first when they block downstream validation.
 
@@ -6480,9 +6483,9 @@ then validator
 then validation
 ```
 
----
+______________________________________________________________________
 
-# 325. Cheapest High-Information Test
+## 325. Cheapest High-Information Test
 
 If several closure tests are available, prefer the one that most
 efficiently discriminates among outcome-changing possibilities.
@@ -6493,9 +6496,9 @@ This is an optimization under the constraint:
 optimization may not weaken integrity
 ```
 
----
+______________________________________________________________________
 
-# 326. Gap and Proof Coordination Fast Path
+## 326. Gap and Proof Coordination Fast Path
 
 If all load-bearing gaps for a local proof are closed and locality is
 established:
@@ -6515,9 +6518,9 @@ alone is insufficient.
 
 Dependency closure and non-conflict must also be established.
 
----
+______________________________________________________________________
 
-# 327. Gap and Proof Coordination Escalation
+## 327. Gap and Proof Coordination Escalation
 
 Escalate if:
 
@@ -6532,9 +6535,9 @@ cross-shard dependency unknown
 
 These gaps directly undermine proof-local finalization.
 
----
+______________________________________________________________________
 
-# 328. Gap and Finality
+## 328. Gap and Finality
 
 A conclusion can be final only relative to its known applicability and
 open-gap state.
@@ -6555,9 +6558,9 @@ immune to future evidence
 
 unless a separate formal contract defines that meaning.
 
----
+______________________________________________________________________
 
-# 329. Gap and Causal Finality
+## 329. Gap and Causal Finality
 
 Historical finality can coexist with later epistemic supersession.
 
@@ -6576,9 +6579,9 @@ D superseded.
 
 The historical record remains intact.
 
----
+______________________________________________________________________
 
-# 330. Gap and Recovery Finality
+## 330. Gap and Recovery Finality
 
 A recovery can finish with:
 
@@ -6590,9 +6593,9 @@ if action sufficiency is achieved.
 
 It need not claim universal completeness.
 
----
+______________________________________________________________________
 
-# 331. Gap and Safe Degradation
+## 331. Gap and Safe Degradation
 
 If a noncritical capability depends on an unresolved gap:
 
@@ -6604,9 +6607,9 @@ while preserving unaffected core operation where possible.
 
 This is a derived fail-safe pattern.
 
----
+______________________________________________________________________
 
-# 332. Gap and Repairability
+## 332. Gap and Repairability
 
 An architecture is easier to repair when gaps preserve:
 
@@ -6619,9 +6622,9 @@ history
 
 because the system knows what evidence to seek.
 
----
+______________________________________________________________________
 
-# 333. Gap and Reversibility
+## 333. Gap and Reversibility
 
 Gap-aware systems should prefer actions that can be reversed when
 critical uncertainty remains.
@@ -6640,18 +6643,18 @@ bounded experiment
 
 where governance permits.
 
----
+______________________________________________________________________
 
-# 334. Gap and Learning
+## 334. Gap and Learning
 
 A gap is a candidate learning target only if resolving it has positive
 expected value.
 
 Not every unknown deserves immediate investigation.
 
----
+______________________________________________________________________
 
-# 335. Gap and Knowledge Harvest
+## 335. Gap and Knowledge Harvest
 
 Conceptual pipeline:
 
@@ -6676,9 +6679,9 @@ GAP
 
 must remain visible.
 
----
+______________________________________________________________________
 
-# 336. Documentation Claim Boundary
+## 336. Documentation Claim Boundary
 
 README/documentation claims remain:
 
@@ -6690,9 +6693,9 @@ until independently validated where validation is required.
 
 L27 GAP-4 directly supports this discipline.
 
----
+______________________________________________________________________
 
-# 337. Executable Evidence Boundary
+## 337. Executable Evidence Boundary
 
 Executable evidence can strengthen a claim.
 
@@ -6707,9 +6710,9 @@ causal mechanism
 
 unless those are what the execution validates.
 
----
+______________________________________________________________________
 
-# 338. External Evidence Boundary
+## 338. External Evidence Boundary
 
 External evidence may close a corpus gap, but the resulting conclusion
 should preserve:
@@ -6723,9 +6726,9 @@ regime
 
 and distinguish external validation from original AMOS canon.
 
----
+______________________________________________________________________
 
-# 339. Corpus Gap vs Reality Gap
+## 339. Corpus Gap vs Reality Gap
 
 Important distinction:
 
@@ -6741,9 +6744,9 @@ X is unknown to humanity
 
 L27 gap scope must remain explicit.
 
----
+______________________________________________________________________
 
-# 340. Canon Gap vs Implementation Gap
+## 340. Canon Gap vs Implementation Gap
 
 Likewise:
 
@@ -6761,9 +6764,9 @@ The implementation may exist but be undocumented.
 
 Both possibilities remain viable.
 
----
+______________________________________________________________________
 
-# 341. Implementation Gap vs Runtime Failure
+## 341. Implementation Gap vs Runtime Failure
 
 No implementation evidence does not prove the implementation fails.
 
@@ -6779,9 +6782,9 @@ not:
 implementation = BROKEN
 ```
 
----
+______________________________________________________________________
 
-# 342. Validation Gap vs Invalidity
+## 342. Validation Gap vs Invalidity
 
 No validation evidence does not automatically mean:
 
@@ -6791,26 +6794,26 @@ claim false
 
 It means the stronger validation claim is unsupported.
 
----
+______________________________________________________________________
 
-# 343. Provenance Gap vs Falsehood
+## 343. Provenance Gap vs Falsehood
 
 Unknown provenance reduces trust and confidence.
 
 It does not logically establish falsehood.
 
----
+______________________________________________________________________
 
-# 344. Authority Gap vs Incorrectness
+## 344. Authority Gap vs Incorrectness
 
 A claim can be factually correct while lacking authority to govern
 AMOS.
 
 Authority and truth remain separate dimensions.
 
----
+______________________________________________________________________
 
-# 345. Gap State vs Truth State
+## 345. Gap State vs Truth State
 
 A gap is a statement about epistemic support, not necessarily about the
 underlying world's truth value.
@@ -6825,9 +6828,9 @@ KNOWLEDGE STATE:
 P = UNKNOWN/GAP.
 ```
 
----
+______________________________________________________________________
 
-# 346. Gap Law and Integrity Ordering
+## 346. Gap Law and Integrity Ordering
 
 When forced to choose:
 
@@ -6851,9 +6854,9 @@ INTEGRITY
 COMPLETENESS
 ```
 
----
+______________________________________________________________________
 
-# 347. Gap Law and Fluency
+## 347. Gap Law and Fluency
 
 Likewise:
 
@@ -6867,9 +6870,9 @@ is preferable to:
 fluent invented closure
 ```
 
----
+______________________________________________________________________
 
-# 348. Gap Law and Speed
+## 348. Gap Law and Speed
 
 If additional validation is required for a critical gap:
 
@@ -6879,9 +6882,9 @@ speed
 
 does not justify silent closure.
 
----
+______________________________________________________________________
 
-# 349. Gap Law and Token Savings
+## 349. Gap Law and Token Savings
 
 A gap marker such as:
 
@@ -6894,9 +6897,9 @@ may be shorter than speculative completion.
 Compression therefore aligns naturally with L27 when performed
 correctly.
 
----
+______________________________________________________________________
 
-# 350. Gap Law and Optimization
+## 350. Gap Law and Optimization
 
 Optimization is valid only if it preserves:
 
@@ -6910,9 +6913,9 @@ dependency effects
 
 Any optimization that hides unresolved uncertainty is a regression.
 
----
+______________________________________________________________________
 
-# 351. Anti-Regression Gate
+## 351. Anti-Regression Gate
 
 A change to gap handling is acceptable only if it preserves or improves:
 
@@ -6929,9 +6932,9 @@ efficiency
 user fit
 ```
 
----
+______________________________________________________________________
 
-# 352. Gap Registry Migration
+## 352. Gap Registry Migration
 
 If gap storage changes formats:
 
@@ -6944,9 +6947,9 @@ migration must preserve load-bearing open gaps.
 A migration that drops gaps because the new schema lacks fields is an
 integrity failure.
 
----
+______________________________________________________________________
 
-# 353. Gap Deduplication
+## 353. Gap Deduplication
 
 Duplicate gap records may be merged when they refer to the same
 underlying missing element.
@@ -6959,9 +6962,9 @@ closure conditions
 affected claims
 ```
 
----
+______________________________________________________________________
 
-# 354. Gap Pointer Semantics
+## 354. Gap Pointer Semantics
 
 Like proof coordination, one implementation might maintain one
 authoritative gap record with pointers from dependent artifacts.
@@ -6981,9 +6984,9 @@ if the gap remains visible locally.
 
 This exact mechanism is not source-defined.
 
----
+______________________________________________________________________
 
-# 355. Gap Registry Authority
+## 355. Gap Registry Authority
 
 The source does not specify whether gap records have:
 
@@ -6995,9 +6998,9 @@ embedded copies
 
 Do not import L26 PXC-1 literally without explicit integration.
 
----
+______________________________________________________________________
 
-# 356. Gap Closure Authority
+## 356. Gap Closure Authority
 
 GAP-4 requires evidence.
 
@@ -7017,9 +7020,9 @@ closure authority
 
 may be separate requirements.
 
----
+______________________________________________________________________
 
-# 357. Closure Authority Gap
+## 357. Closure Authority Gap
 
 A system can have:
 
@@ -7036,9 +7039,9 @@ authority to mutate canonical status = UNKNOWN
 Then the evidence gap may be closed while governance mutation remains
 blocked.
 
----
+______________________________________________________________________
 
-# 358. Evidence vs Authority Matrix
+## 358. Evidence vs Authority Matrix
 
 | Evidence | Authority | State                                     |
 | -------- | --------- | ----------------------------------------- |
@@ -7047,9 +7050,9 @@ blocked.
 | Missing  | Present   | Authority cannot substitute for evidence  |
 | Present  | Present   | Candidate governed closure                |
 
----
+______________________________________________________________________
 
-# 359. Gap Closure and Governance
+## 359. Gap Closure and Governance
 
 For canonical mutation, a complete closure transaction may need:
 
@@ -7063,18 +7066,18 @@ where the governance system requires both.
 
 This is a derived integration.
 
----
+______________________________________________________________________
 
-# 360. Gap Closure and Mutation
+## 360. Gap Closure and Mutation
 
 Closing a gap changes epistemic state.
 
 Therefore consequential closure should be treated as a governed state
 mutation rather than merely cosmetic editing.
 
----
+______________________________________________________________________
 
-# 361. Silent Closure as Mutation Defect
+## 361. Silent Closure as Mutation Defect
 
 If a document changes:
 
@@ -7090,9 +7093,9 @@ VERIFIED
 
 without evidence lineage, the mutation itself is an integrity defect.
 
----
+______________________________________________________________________
 
-# 362. Gap Closure Audit
+## 362. Gap Closure Audit
 
 An audit should be able to ask:
 
@@ -7114,9 +7117,9 @@ What dependent claims changed?
 
 Exact audit schema remains unspecified.
 
----
+______________________________________________________________________
 
-# 363. Gap Closure Replay
+## 363. Gap Closure Replay
 
 Where replayability applies, a closure event should be reproducible from
 its recorded inputs.
@@ -7124,9 +7127,9 @@ its recorded inputs.
 But replay does not independently establish that the original closure
 criterion was correct.
 
----
+______________________________________________________________________
 
-# 364. Gap Closure Proof Coordination
+## 364. Gap Closure Proof Coordination
 
 If closure depends on multiple proofs:
 
@@ -7147,9 +7150,9 @@ verification
 
 before the gap is promoted as closed.
 
----
+______________________________________________________________________
 
-# 365. Gap Closure Competing Evidence
+## 365. Gap Closure Competing Evidence
 
 Suppose:
 
@@ -7168,9 +7171,9 @@ may be the correct state.
 
 Do not force `CLOSED` for convenience.
 
----
+______________________________________________________________________
 
-# 366. Gap Closure Conflict
+## 366. Gap Closure Conflict
 
 A conflict exists when:
 
@@ -7185,9 +7188,9 @@ has incompatible validated status claims.
 The conflict itself becomes decision-relevant evidence requiring
 resolution.
 
----
+______________________________________________________________________
 
-# 367. Gap Closure Fail-Closed Rule
+## 367. Gap Closure Fail-Closed Rule
 
 For critical gaps:
 
@@ -7198,9 +7201,9 @@ closure evidence conflict
 should generally block irreversible execution until resolved or
 explicitly governed otherwise.
 
----
+______________________________________________________________________
 
-# 368. Gap Closure Rollback
+## 368. Gap Closure Rollback
 
 If closure is later shown invalid:
 
@@ -7213,9 +7216,9 @@ preserve unrelated conclusions
 
 Do not recompute everything unless dependency topology is unavailable.
 
----
+______________________________________________________________________
 
-# 369. Gap Closure Repair
+## 369. Gap Closure Repair
 
 Repair targets the failed closure edge.
 
@@ -7233,9 +7236,9 @@ rerun correct validator
 
 rather than discarding all underlying evidence.
 
----
+______________________________________________________________________
 
-# 370. Gap Closure Recovery
+## 370. Gap Closure Recovery
 
 If closure fails operationally:
 
@@ -7246,9 +7249,9 @@ without changed evidence
 
 Reroute to another validation mechanism where appropriate.
 
----
+______________________________________________________________________
 
-# 371. Gap Closure Idempotence
+## 371. Gap Closure Idempotence
 
 Repeated application of the same closure receipt should not fabricate
 additional confidence.
@@ -7259,9 +7262,9 @@ same evidence replayed N times
 N independent closures
 ```
 
----
+______________________________________________________________________
 
-# 372. Gap Closure Independence
+## 372. Gap Closure Independence
 
 Independent closure evidence can strengthen confidence where the claim
 requires independent support.
@@ -7269,9 +7272,9 @@ requires independent support.
 But independence must be demonstrated through provenance/failure-mode
 analysis.
 
----
+______________________________________________________________________
 
-# 373. Gap Closure Correlation Risk
+## 373. Gap Closure Correlation Risk
 
 Two validators may appear independent while sharing:
 
@@ -7285,9 +7288,9 @@ same model
 
 Therefore independence is scoped and typed.
 
----
+______________________________________________________________________
 
-# 374. Gap Closure Provenance Topology
+## 374. Gap Closure Provenance Topology
 
 ```text
 SOURCE S
@@ -7303,9 +7306,9 @@ R1 and R2 are two receipts but one validation ancestry.
 
 They do not create two independent closure foundations.
 
----
+______________________________________________________________________
 
-# 375. Gap Closure Freshness
+## 375. Gap Closure Freshness
 
 A closure receipt may have a validity envelope.
 
@@ -7317,9 +7320,9 @@ target version changes
 
 the closure may no longer apply.
 
----
+______________________________________________________________________
 
-# 376. Gap Closure Scope Envelope
+## 376. Gap Closure Scope Envelope
 
 A closure should conceptually inherit:
 
@@ -7335,17 +7338,17 @@ assumptions
 
 where relevant.
 
----
+______________________________________________________________________
 
-# 377. Gap Closure Causal Firewall
+## 377. Gap Closure Causal Firewall
 
 Closing a correlation gap does not necessarily close a causality gap.
 
 Each evidence type must remain distinct.
 
----
+______________________________________________________________________
 
-# 378. Gap Closure Measurement Firewall
+## 378. Gap Closure Measurement Firewall
 
 A measurement can close:
 
@@ -7363,17 +7366,17 @@ generalization
 
 open if those are material.
 
----
+______________________________________________________________________
 
-# 379. Gap Closure Model Firewall
+## 379. Gap Closure Model Firewall
 
 A better model can reduce model uncertainty.
 
 It does not automatically close empirical uncertainty.
 
----
+______________________________________________________________________
 
-# 380. Gap Closure Execution Firewall
+## 380. Gap Closure Execution Firewall
 
 Successful execution can close:
 
@@ -7387,9 +7390,9 @@ but not automatically:
 design is universally correct
 ```
 
----
+______________________________________________________________________
 
-# 381. Gap Closure Canon Firewall
+## 381. Gap Closure Canon Firewall
 
 Authoritative canon can close:
 
@@ -7403,29 +7406,29 @@ but not automatically:
 empirical theorem
 ```
 
----
+______________________________________________________________________
 
-# 382. Gap Closure Security Firewall
+## 382. Gap Closure Security Firewall
 
 Passing functional tests does not close security gaps unless those tests
 actually validate the relevant security properties.
 
----
+______________________________________________________________________
 
-# 383. Gap Closure Safety Firewall
+## 383. Gap Closure Safety Firewall
 
 Likewise, performance validation cannot silently substitute for safety
 validation.
 
----
+______________________________________________________________________
 
-# 384. Gap Closure Governance Firewall
+## 384. Gap Closure Governance Firewall
 
 Technical validation cannot silently substitute for authority.
 
----
+______________________________________________________________________
 
-# 385. Gap Closure Completeness Firewall
+## 385. Gap Closure Completeness Firewall
 
 A gap registry entry marked closed does not prove:
 
@@ -7435,9 +7438,9 @@ no related gaps remain
 
 unless the closure contract establishes that scope.
 
----
+______________________________________________________________________
 
-# 386. Gap Closure Finality Firewall
+## 386. Gap Closure Finality Firewall
 
 Closed does not mean:
 
@@ -7447,9 +7450,9 @@ eternally immutable
 
 It means the gap is resolved within its current validity envelope.
 
----
+______________________________________________________________________
 
-# 387. Gap Closure Confidence Firewall
+## 387. Gap Closure Confidence Firewall
 
 Closure evidence cannot justify confidence beyond:
 
@@ -7460,9 +7463,9 @@ independence
 freshness
 ```
 
----
+______________________________________________________________________
 
-# 388. Gap Closure Promotion Firewall
+## 388. Gap Closure Promotion Firewall
 
 No status transition:
 
@@ -7476,9 +7479,9 @@ should occur merely because:
 the answer now sounds complete
 ```
 
----
+______________________________________________________________________
 
-# 389. Gap Output Examples
+## 389. Gap Output Examples
 
 ### Example A — Implementation
 
@@ -7522,9 +7525,9 @@ SAFE RESULT:
 Canonical authority remains CONDITIONAL / UNKNOWN.
 ```
 
----
+______________________________________________________________________
 
-# 390. Gap Law Compact Runtime
+## 390. Gap Law Compact Runtime
 
 ```text
 DETECT MISSING LOAD-BEARING ELEMENT.
@@ -7579,9 +7582,9 @@ RESTATEMENT
 FOR EVIDENCE.
 ```
 
----
+______________________________________________________________________
 
-# 391. Gap Law Minimal Runtime
+## 391. Gap Law Minimal Runtime
 
 ```text
 IF MISSING:
@@ -7597,9 +7600,9 @@ IF CLOSING:
 SHOW EVIDENCE.
 ```
 
----
+______________________________________________________________________
 
-# 392. Gap Law Proof Obligation
+## 392. Gap Law Proof Obligation
 
 For every closure claim:
 
@@ -7622,9 +7625,9 @@ none
 
 the closure violates GAP-4.
 
----
+______________________________________________________________________
 
-# 393. Gap Law Conservation Principle
+## 393. Gap Law Conservation Principle
 
 An unresolved gap cannot disappear merely because information is:
 
@@ -7643,9 +7646,9 @@ the affected claim.
 
 This is a derived integrity invariant.
 
----
+______________________________________________________________________
 
-# 394. Gap Law Monotonic Evidence Principle
+## 394. Gap Law Monotonic Evidence Principle
 
 Status may change:
 
@@ -7661,9 +7664,9 @@ Thus epistemic status itself is not monotonically increasing.
 
 Evidence lineage, however, should remain recoverable.
 
----
+______________________________________________________________________
 
-# 395. Gap Law Non-Erasure Principle
+## 395. Gap Law Non-Erasure Principle
 
 Gap closure should preserve the historical fact:
 
@@ -7675,9 +7678,9 @@ where auditability matters.
 
 This prevents later evidence from rewriting prior epistemic history.
 
----
+______________________________________________________________________
 
-# 396. Gap Law Local Invalidation Principle
+## 396. Gap Law Local Invalidation Principle
 
 If closure evidence E fails:
 
@@ -7696,9 +7699,9 @@ unrelated gaps
 unrelated conclusions
 ```
 
----
+______________________________________________________________________
 
-# 397. Gap Law Reuse Principle
+## 397. Gap Law Reuse Principle
 
 A valid gap closure proof may be reused while:
 
@@ -7713,9 +7716,9 @@ no defeating contradiction
 
 Otherwise revalidation is required.
 
----
+______________________________________________________________________
 
-# 398. Gap Law Independence Principle
+## 398. Gap Law Independence Principle
 
 Repeated use of one closure proof does not create new independent
 evidence.
@@ -7726,9 +7729,9 @@ reuse
 independence
 ```
 
----
+______________________________________________________________________
 
-# 399. Gap Law Authority Principle
+## 399. Gap Law Authority Principle
 
 A system may have authority to decide under uncertainty.
 
@@ -7748,9 +7751,9 @@ G CLOSED
 BECAUSE DECISION WAS AUTHORIZED
 ```
 
----
+______________________________________________________________________
 
-# 400. Gap Law Decision Principle
+## 400. Gap Law Decision Principle
 
 Decision under uncertainty should preserve:
 
@@ -7764,9 +7767,9 @@ invalidation conditions
 
 where consequential.
 
----
+______________________________________________________________________
 
-# 401. Gap Law Action Principle
+## 401. Gap Law Action Principle
 
 When a gap cannot be closed economically:
 
@@ -7779,9 +7782,9 @@ where possible.
 
 This is a model-level decision strategy.
 
----
+______________________________________________________________________
 
-# 402. Gap Law Repair Principle
+## 402. Gap Law Repair Principle
 
 If the system discovers it fabricated a closure:
 
@@ -7794,9 +7797,9 @@ record correction
 
 Do not defend the prior completion for consistency's sake.
 
----
+______________________________________________________________________
 
-# 403. Gap Law Anti-Regression Principle
+## 403. Gap Law Anti-Regression Principle
 
 A future optimization must never improve:
 
@@ -7815,9 +7818,9 @@ provenance recoverability
 dependency tracking
 ```
 
----
+______________________________________________________________________
 
-# 404. Gap Law Canon Boundary Principle
+## 404. Gap Law Canon Boundary Principle
 
 When canon is unavailable:
 
@@ -7830,9 +7833,9 @@ is the correct state.
 Do not generate exact missing canon and then treat the generated text as
 recovered source.
 
----
+______________________________________________________________________
 
-# 405. Gap Law Reconstruction Principle
+## 405. Gap Law Reconstruction Principle
 
 A reconstruction may be useful when clearly separated:
 
@@ -7848,18 +7851,18 @@ EXPLICIT GAPS
 
 This preserves utility without provenance collapse.
 
----
+______________________________________________________________________
 
-# 406. Gap Law Corpus Boundary
+## 406. Gap Law Corpus Boundary
 
 Statements found in AMOS corpus files remain corpus evidence according
 to their declared status.
 
 They are not automatically empirical claims about external reality.
 
----
+______________________________________________________________________
 
-# 407. Gap Law Reality Boundary
+## 407. Gap Law Reality Boundary
 
 A corpus gap and an empirical gap are different.
 
@@ -7875,9 +7878,9 @@ This does not establish:
 no valid threshold T exists externally.
 ```
 
----
+______________________________________________________________________
 
-# 408. Gap Law Implementation Boundary
+## 408. Gap Law Implementation Boundary
 
 This law describes an AMOS reasoning model.
 
@@ -7893,9 +7896,9 @@ distributed shard-local gap coordination
 
 unless separate implementation evidence exists.
 
----
+______________________________________________________________________
 
-# 409. Gap Law Formal-Proof Boundary
+## 409. Gap Law Formal-Proof Boundary
 
 The existence of this structured specification does not prove:
 
@@ -7908,9 +7911,9 @@ L27 detects all unknown unknowns
 
 Those would require separate evidence.
 
----
+______________________________________________________________________
 
-# 410. Gap Law Empirical Boundary
+## 410. Gap Law Empirical Boundary
 
 The source does not supply empirical measurements demonstrating:
 
@@ -7924,35 +7927,35 @@ runtime overhead
 
 These remain empirical gaps.
 
----
+______________________________________________________________________
 
-# 411. Gap Law Security Boundary
+## 411. Gap Law Security Boundary
 
 L27 can reduce some epistemic failure modes.
 
 It does not itself establish a complete security architecture.
 
----
+______________________________________________________________________
 
-# 412. Gap Law Safety Boundary
+## 412. Gap Law Safety Boundary
 
 L27 supports fail-closed behavior under critical uncertainty.
 
 It does not by itself define every safety threshold or policy.
 
----
+______________________________________________________________________
 
-# 413. Gap Law Governance Boundary
+## 413. Gap Law Governance Boundary
 
 L27 recognizes authority gaps.
 
 It does not itself define the complete governance authority hierarchy.
 
----
+______________________________________________________________________
 
-# 414. Gap Law L28 Boundary
+## 414. Gap Law L28 Boundary
 
-The reference to  establishes relationship, not
+The reference to establishes relationship, not
 content.
 
 Until L28 is supplied:
@@ -7965,14 +7968,14 @@ UNKNOWN/GAP
 
 This is an intentional application of L27 to itself.
 
----
+______________________________________________________________________
 
-# 415. Gap Law Source Preservation
+## 415. Gap Law Source Preservation
 
 The exact supplied source spine remains:
 
 ```markdown
-# L27 Gap Law — part 2
+## L27 Gap Law — part 2
 
 STATUS: PROPOSED_SPECIFICATION
 epistemic_class: AMOS_MODEL
@@ -7994,9 +7997,9 @@ F1: authoritative canon treats gaps as failures to hide.
 
 Expanded content must not silently overwrite this source spine.
 
----
+______________________________________________________________________
 
-# 416. Supersession Boundary
+## 416. Supersession Boundary
 
 The source states:
 
@@ -8026,9 +8029,9 @@ are not supplied.
 
 They remain gaps.
 
----
+______________________________________________________________________
 
-# 417. Canon Directory Boundary
+## 417. Canon Directory Boundary
 
 The artifact is located under:
 
@@ -8052,9 +8055,9 @@ UNCONDITIONAL CANONICAL STATUS
 
 when explicit metadata says otherwise.
 
----
+______________________________________________________________________
 
-# 418. Claim-Class Boundary
+## 418. Claim-Class Boundary
 
 The source contains:
 
@@ -8079,9 +8082,9 @@ canonical_status: CONDITIONAL
 The safest interpretation is to preserve both source values and
 normalize only at the model layer.
 
----
+______________________________________________________________________
 
-# 419. Normalized Status Model
+## 419. Normalized Status Model
 
 ```yaml
 normalized_status:
@@ -8092,9 +8095,9 @@ normalized_status:
 
 This is a derived normalization, not source replacement.
 
----
+______________________________________________________________________
 
-# 420. RSCF Contract
+## 420. RSCF Contract
 
 ```yaml
 RSCF-CONTRACT:
@@ -8172,9 +8175,9 @@ RSCF-CONTRACT:
     core_laws
 ```
 
----
+______________________________________________________________________
 
-# 421. RSCF-NODE
+## 421. RSCF-NODE
 
 ```yaml
 RSCF-NODE:
@@ -8205,9 +8208,9 @@ RSCF-NODE:
     core_laws
 ```
 
----
+______________________________________________________________________
 
-# 422. RSCF-RELATIONS
+## 422. RSCF-RELATIONS
 
 ```yaml
 RSCF-RELATIONS:
@@ -8239,9 +8242,9 @@ declared under `RSCF-RELATIONS`.
 
 The `RELATED_TO` relations normalize the supplied Related list.
 
----
+______________________________________________________________________
 
-# 423. L27 Proof Capsule
+## 423. L27 Proof Capsule
 
 ```yaml
 proof_capsule:
@@ -8305,9 +8308,9 @@ proof_capsule:
     expanded_mechanics: MODEL_DERIVED
 ```
 
----
+______________________________________________________________________
 
-# 424. L27 Gap Registry
+## 424. L27 Gap Registry
 
 In accordance with GAP-3, this artifact's principal load-bearing gaps
 are explicitly preserved:
@@ -8355,9 +8358,9 @@ artifact_gap_registry:
 This registry is itself a model representation because the source does
 not supply a canonical registry schema.
 
----
+______________________________________________________________________
 
-# 425. Final Gap Law
+## 425. Final Gap Law
 
 ```text
 WHEN SOMETHING
@@ -8527,9 +8530,9 @@ IS MORE IMPORTANT
 THAN APPEARING COMPLETE.
 ```
 
----
+______________________________________________________________________
 
-# 426. Final Integrity Invariant
+## 426. Final Integrity Invariant
 
 Normalized model:
 
@@ -8573,9 +8576,9 @@ by GAP-4.
 These equations are normalized representations of the source laws, not
 source-supplied formal equations.
 
----
+______________________________________________________________________
 
-# 427. Final Anti-Fabrication Invariant
+## 427. Final Anti-Fabrication Invariant
 
 ```text
 NO AMOUNT OF
@@ -8595,9 +8598,9 @@ INTO
 ESTABLISHED FACT.
 ```
 
----
+______________________________________________________________________
 
-# 428. Final Closure Invariant
+## 428. Final Closure Invariant
 
 ```text
 A GAP MAY CHANGE
@@ -8621,11 +8624,11 @@ VALIDATION CAN.
 The detailed qualifiers beyond "executed validation" are derived
 integrity extensions.
 
----
+______________________________________________________________________
 
-# 429. Final Canon Boundary
+## 429. Final Canon Boundary
 
-> [!important]
+> [!IMPORTANT]
 > **Source-supported L27 boundary**
 >
 > The supplied source establishes **L27 Gap Law** as a
@@ -8661,12 +8664,12 @@ integrity extensions.
 > Those remain `MODEL`, `DERIVED`, or `UNKNOWN/GAP` unless separately
 > established.
 >
-> In particular, the exact semantics of  must not be
+> In particular, the exact semantics of must not be
 > invented from its title or relationship alone.
 
----
+______________________________________________________________________
 
-# 430. Canonical Summary
+## 430. Canonical Summary
 
 ```yaml
 [[01_CANON/01_CORE_LAWS/L27_GAP|L27_GAP]]:
@@ -8720,9 +8723,9 @@ integrity extensions.
     "EXPOSE. BOUND. REGISTER. VALIDATE. CLOSE ONLY WITH EVIDENCE."
 ```
 
----
+______________________________________________________________________
 
-# 431. Final Status
+## 431. Final Status
 
 ```text
 L27 GAP LAW
@@ -8758,7 +8761,7 @@ UNKNOWN/GAP
 ```
 ---
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
 ---
 
@@ -8787,5 +8790,8 @@ claim_class: AMOS_MODEL
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
+```
+
+```
 ```
 ```

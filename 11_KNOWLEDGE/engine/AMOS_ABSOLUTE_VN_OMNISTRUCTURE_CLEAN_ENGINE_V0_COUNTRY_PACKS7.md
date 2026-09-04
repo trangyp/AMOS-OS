@@ -1,4 +1,7 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: AMOS ABSOLUTE VN OMNISTRUCTURE CLEAN ENGINE V0 COUNTRY PACKS7
 type: engine
 source: 11_KNOWLEDGE/engine
@@ -7,13 +10,13 @@ canon-type: framework
 rscf-state: source-claim
 topic: amos-absolute-vn-omnistructure-clean-engine-v0
 tags:
-- canon-group/tech-ai
-- canon/framework
-- rscf/claim
-- rscf/provenance
-- rscf/state/source-claim
-- topic/amos-absolute-vn-omnistructure-clean-eng
-- engine
+  - canon-group/tech-ai
+  - canon/framework
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - topic/amos-absolute-vn-omnistructure-clean-eng
+  - engine
 created: 2026-08-22
 rscf:
   state: AMOS_MODEL
@@ -894,6 +897,6 @@ rscf:
 **Related:**  ·  ·  ·  ·
 ```
 
----
-**MOC:** [[11_KNOWLEDGE/engine/ENGINE_MOC|ENGINE_MOC]]
+______________________________________________________________________
 
+**MOC:** [[11_KNOWLEDGE/engine/ENGINE_MOC|ENGINE_MOC]]

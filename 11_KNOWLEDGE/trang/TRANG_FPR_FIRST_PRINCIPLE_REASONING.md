@@ -1,4 +1,7 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: TRANG FPR FIRST PRINCIPLE REASONING
 tags:
 - trang
@@ -191,7 +194,7 @@ Không thêm trauma. Không thêm "cái tôi chết". Không thêm bất kỳ y�
 Chỉ cấu trúc.
 Dưới đây là phiên bản đã được viết lại hoàn toàn.
 * * *
-# TRANG FPR (FIRST PRINCIPLE REASONING) — part 2
+## TRANG FPR (FIRST PRINCIPLE REASONING) — part 2
 ## (Suy luận Nguyên lý Đầu tiên – Nghệ thuật Nhìn thấy Điều Hiển nhiên Mà Người Khác Bỏ Qua) — part 2
 * * *
 ## I. ĐỊNH NGHĨA TRIẾT HỌC — part 2

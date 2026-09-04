@@ -4,25 +4,22 @@ title: SKILL — Spreadsheets
 type: skill
 source: 07_SKILLS/spreadsheets
 name: spreadsheets
-description: Spreadsheets — technology and engineering capability. Use when software
-  development, engineering design, or technical architecture. Use when amos-c10-tech-engineering-master
-  routes to this specialized capability. Do not use for generic tasks outside c10
-  domain.
+description: Spreadsheets — technology and engineering capability. Use when software development, engineering design, or technical architecture. Use when amos-c10-tech-engineering-master routes to this specialized capability. Do not use for generic tasks outside c10 domain.
 parent_skill: amos-c10-tech-engineering-master
 domain: c10
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
 tags:
-- type/skill
-- type/skill
-- domain/tech-engineering
-- epistemic/source_claim
-- hml/m
-- epistemic/source_claim
-- amos-os
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/tech-engineering
+  - epistemic/source_claim
+  - hml/m
+  - epistemic/source_claim
+  - amos-os
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -32,25 +29,25 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: M
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
-- L7_authority
-- L8_execution
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
+  - L7_authority
+  - L8_execution
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L7
-- L8
-- L16
-- L17
-- L18
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L7
+  - L8
+  - L16
+  - L17
+  - L18
 license: MIT
 steward: Trang Phan
 ---
@@ -60,6 +57,7 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: c10. Parent: amos-c10-tech-engineering-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
 ## When to Use
 
 - When analyzing software architecture: patterns, dependencies, coupling
@@ -87,13 +85,13 @@ Origin architect: **Trang Phan**. Domain: c10. Parent: amos-c10-tech-engineering
 ## Operations
 
 1. **spreadsheets.parse_workbook**: Parse spreadsheet files (.xlsx/.csv): extract sheets, cells, formulas, and named ranges
-2. **spreadsheets.validate_structure**: Validate workbook structure: cell references, formula syntax, and data type consistency
-3. **spreadsheets.extract_data**: Extract structured data: tables, pivot tables, charts, and conditional formatting
-4. **spreadsheets.generate_workbook**: Generate spreadsheets from structured data with formulas, formatting, and charts
-5. **spreadsheets.track_provenance**: Track provenance of cell data to source sheets and transformation formulas
-6. **spreadsheets.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-7. **spreadsheets.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
-8. **spreadsheets.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+1. **spreadsheets.validate_structure**: Validate workbook structure: cell references, formula syntax, and data type consistency
+1. **spreadsheets.extract_data**: Extract structured data: tables, pivot tables, charts, and conditional formatting
+1. **spreadsheets.generate_workbook**: Generate spreadsheets from structured data with formulas, formatting, and charts
+1. **spreadsheets.track_provenance**: Track provenance of cell data to source sheets and transformation formulas
+1. **spreadsheets.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+1. **spreadsheets.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+1. **spreadsheets.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## 11_KNOWLEDGE Vault Content
 
@@ -104,16 +102,18 @@ Origin architect: **Trang Phan**. Domain: c10. Parent: amos-c10-tech-engineering
 This utility skill operates as a file-format handling tool within the AMOS framework. It follows the AMOS tool integration laws:
 
 **Tool laws**:
+
 - `TOOL != CAPABILITY`: a tool is a deployment artifact; a capability is an ontological declaration
 - `FORMAT != CONTENT`: file format is not content; content must be extracted and validated
 - `PROCESSING != UNDERSTANDING`: processing a file does not mean understanding its content
 
 **Integration protocol**:
+
 1. **Receive**: receive the file with provenance
-2. **Parse**: parse the file format
-3. **Extract**: extract content with epistemic labels
-4. **Validate**: validate extracted content against schema
-5. **Output**: output structured content with provenance
+1. **Parse**: parse the file format
+1. **Extract**: extract content with epistemic labels
+1. **Validate**: validate extracted content against schema
+1. **Output**: output structured content with provenance
 
 ### Epistemic Boundary
 
@@ -143,9 +143,10 @@ This utility skill is an operational tool. It does not prove content correctness
 - **Domain**: c10
 - **Origin architect**: Trang Phan
 - **Vault sources**:
-- `engine/T/Tech Engine__Archive.md` — Tech Engine__Archive (92349 chars,
+- `engine/T/Tech Engine__Archive.md` — Tech Engine\_\_Archive (92349 chars,
 
----
+______________________________________________________________________
+
 **Links:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 ## Related
@@ -155,17 +156,19 @@ This utility skill is an operational tool. It does not prove content correctness
 ## Examples
 
 - **Scenario**: When analyzing software architecture: patterns, dependencies, coupling
+
   - **Input**: A query matching this skill's domain (c10)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When discovering program behavior via black-box analysis or symbolic execution
+
   - **Input**: A query matching this skill's domain (c10)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When verifying code facts: type safety, memory safety, termination
+
   - **Input**: A query matching this skill's domain (c10)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Anti-Patterns
 
@@ -175,7 +178,6 @@ This utility skill is an operational tool. It does not prove content correctness
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `amos-c10-tech-engineering-master` — routes to this skill when c10 specialization is needed
@@ -183,7 +185,6 @@ This utility skill is an operational tool. It does not prove content correctness
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -202,7 +203,6 @@ This utility skill is an operational tool. It does not prove content correctness
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -210,7 +210,6 @@ This utility skill is an operational tool. It does not prove content correctness
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -223,11 +222,12 @@ This utility skill is an operational tool. It does not prove content correctness
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `amos-c10-tech-engineering-master` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `spreadsheets-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -235,12 +235,14 @@ This utility skill is an operational tool. It does not prove content correctness
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: spreadsheets
 node_type: skill
 path: 07_SKILLS/spreadsheets/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

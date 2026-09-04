@@ -1,12 +1,15 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: GENERATOR OUTPUT
 type: generator
 source: 25_COGNITIVE_MATRIX/12_GENERATORS
 tags:
-- 12_GENERATORS
-- cognitive-matrix
-- matrix
-- domain/cognitive-matrix
+  - 12_GENERATORS
+  - cognitive-matrix
+  - matrix
+  - domain/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -36,9 +39,9 @@ $$Output(G) = Candidate$$
 
 unless an explicitly governed downstream process establishes otherwise.
 
----
+______________________________________________________________________
 
-# 1. Purpose
+## 1. Purpose
 
 The Generator Output layer exists to ensure that generated material preserves enough structure for AMOS to determine:
 
@@ -72,9 +75,9 @@ and:
 ACCEPTANCE / USE / COMMITMENT
 ```
 
----
+______________________________________________________________________
 
-# 2. Fundamental Output Law
+## 2. Fundamental Output Law
 
 For generator $G$, task $T$, evidence $E$, context $C$, constraints $K$, and state $S$:
 
@@ -102,9 +105,9 @@ $$\boxed{ O = GENERATED\_CANDIDATE }$$
 
 with epistemic typing applied to its constituent claims.
 
----
+______________________________________________________________________
 
-# 3. Output Is a Typed Object
+## 3. Output Is a Typed Object
 
 Generator output SHOULD NOT be treated as an undifferentiated text blob.
 
@@ -136,9 +139,9 @@ Not every output requires every field to be serialized.
 
 The structure defines the information that must remain recoverable when material.
 
----
+______________________________________________________________________
 
-# 4. Output Identity
+## 4. Output Identity
 
 Every consequential generator output SHOULD possess a stable identity.
 
@@ -167,9 +170,9 @@ identity:
 
 Identity prevents generated artifacts from being silently detached from their generation history.
 
----
+______________________________________________________________________
 
-# 5. Generator Version Binding
+## 5. Generator Version Binding
 
 Output MUST remain associated with the generator version that created it.
 
@@ -191,9 +194,9 @@ output.generator_version = immutable historical reference
 
 unless corrected through an explicit provenance repair process.
 
----
+______________________________________________________________________
 
-# 6. Input Binding
+## 6. Input Binding
 
 Consequential output SHOULD identify its load-bearing inputs.
 
@@ -216,9 +219,9 @@ $$OutputValidity$$
 
 cannot generally exceed the validity of its load-bearing inputs.
 
----
+______________________________________________________________________
 
-# 7. Provenance Preservation
+## 7. Provenance Preservation
 
 Generation MUST NOT erase provenance.
 
@@ -242,9 +245,9 @@ OBSERVATION
 
 merely by summarizing, restructuring, translating, or reasoning over it.
 
----
+______________________________________________________________________
 
-# 8. Provenance Topology
+## 8. Provenance Topology
 
 Outputs SHOULD preserve source ancestry when material.
 
@@ -264,9 +267,9 @@ Formally:
 
 $$SharedAncestor(O_1,O_2) \Rightarrow Independence(O_1,O_2)\ not\ established$$
 
----
+______________________________________________________________________
 
-# 9. Sybil-Hardening Rule
+## 9. Sybil-Hardening Rule
 
 Generator multiplicity cannot manufacture evidence independence.
 
@@ -284,9 +287,9 @@ without provenance-independent support.
 
 Repetition, consensus, voting, or generator diversity cannot substitute for source independence.
 
----
+______________________________________________________________________
 
-# 10. Epistemic Typing
+## 10. Epistemic Typing
 
 Material claims inside output SHOULD use the weakest accurate epistemic type.
 
@@ -314,9 +317,9 @@ UNKNOWN/GAP
 
 Typing MUST reflect the actual evidential relationship.
 
----
+______________________________________________________________________
 
-# 11. SOURCE_CLAIM
+## 11. SOURCE_CLAIM
 
 Use `SOURCE_CLAIM` when an assertion is attributable to an external or upstream source but has not been independently established.
 
@@ -331,9 +334,9 @@ claim:
 
 Generator repetition does not strengthen the underlying source automatically.
 
----
+______________________________________________________________________
 
-# 12. OBSERVATION
+## 12. OBSERVATION
 
 `OBSERVATION` requires an actual observation or measurement relationship.
 
@@ -353,9 +356,9 @@ without justification.
 
 Measurement conditions SHOULD remain available where material.
 
----
+______________________________________________________________________
 
-# 13. DERIVED
+## 13. DERIVED
 
 Use `DERIVED` when a conclusion follows from identified premises through a reasoning operation.
 
@@ -367,9 +370,9 @@ The derivation SHOULD retain dependency links to $P_i$.
 
 A derived conclusion does not become independent evidence for its own premises.
 
----
+______________________________________________________________________
 
-# 14. MODEL
+## 14. MODEL
 
 Use `MODEL` for:
 
@@ -385,9 +388,9 @@ Use `MODEL` for:
 
 Structural similarity alone does not promote a model into an empirical claim.
 
----
+______________________________________________________________________
 
-# 15. DECISION
+## 15. DECISION
 
 A `DECISION` represents a selected option under defined objectives, constraints, evidence, uncertainty, and authority.
 
@@ -395,9 +398,9 @@ It is distinct from factual truth.
 
 A decision may be rational under uncertainty without implying that every premise is verified.
 
----
+______________________________________________________________________
 
-# 16. UNKNOWN
+## 16. UNKNOWN
 
 If generation encounters a material unresolved gap:
 
@@ -411,9 +414,9 @@ AMOS MUST NOT convert missing evidence into fluent completion.
 
 $$MissingEvidence \not\Rightarrow PermissionToInfer$$
 
----
+______________________________________________________________________
 
-# 17. Mixed Output
+## 17. Mixed Output
 
 A single output may contain multiple epistemic classes.
 
@@ -439,9 +442,9 @@ claims:
 
 The whole artifact MUST NOT be assigned the strongest class present within it.
 
----
+______________________________________________________________________
 
-# 18. Confidence Ceiling
+## 18. Confidence Ceiling
 
 For output claim $C$ depending on premises:
 
@@ -455,9 +458,9 @@ $$Conf(C) \le \min_i Conf(P_i)$$
 
 A generator MUST NOT increase confidence simply through fluency, detail, repetition, or internal agreement.
 
----
+______________________________________________________________________
 
-# 19. Dependency Preservation
+## 19. Dependency Preservation
 
 Outputs SHOULD preserve material dependency edges.
 
@@ -471,9 +474,9 @@ A1 ───────────► C3
 
 This allows later invalidation of only affected descendants.
 
----
+______________________________________________________________________
 
-# 20. Dependency Closure
+## 20. Dependency Closure
 
 Before an output is treated as locally final, AMOS SHOULD establish that all dependencies capable of materially changing the result are known or explicitly unresolved.
 
@@ -489,9 +492,9 @@ $$D(O)=Known$$
 
 relative to the required proof scope.
 
----
+______________________________________________________________________
 
-# 21. Scope Envelope
+## 21. Scope Envelope
 
 Consequential output SHOULD inherit an applicability envelope.
 
@@ -512,9 +515,9 @@ An output valid under $S_1$ cannot silently become universal.
 
 $$Valid(O,S_1) \not\Rightarrow Valid(O,S_2)$$
 
----
+______________________________________________________________________
 
-# 22. Regime Envelope
+## 22. Regime Envelope
 
 Output SHOULD record the epistemic or operational regime under which it was generated.
 
@@ -539,9 +542,9 @@ REVALIDATION_REQUIRED
 
 may be triggered.
 
----
+______________________________________________________________________
 
-# 23. Temporal Validity
+## 23. Temporal Validity
 
 Generator output does not refresh stale evidence.
 
@@ -570,9 +573,9 @@ temporal_validity:
   revalidation_due: null
 ```
 
----
+______________________________________________________________________
 
-# 24. State Snapshot Binding
+## 24. State Snapshot Binding
 
 Outputs depending on mutable state SHOULD identify the state against which they were generated.
 
@@ -600,9 +603,9 @@ INVALIDATED
 
 depending on dependency impact.
 
----
+______________________________________________________________________
 
-# 25. MVCC / CAS Reasoning Pattern
+## 25. MVCC / CAS Reasoning Pattern
 
 Where applicable, output handling MAY conceptually follow:
 
@@ -622,9 +625,9 @@ This represents an AMOS reasoning pattern.
 
 It MUST NOT be interpreted as a claim that every AMOS environment literally implements database MVCC or CAS.
 
----
+______________________________________________________________________
 
-# 26. Constraint Inheritance
+## 26. Constraint Inheritance
 
 Output inherits applicable constraints from:
 
@@ -647,9 +650,9 @@ $$K_O = K_{root} \cup K_{task} \cup K_{mode} \cup K_{generator} \cup K_{governan
 
 subject to precedence and compatibility rules.
 
----
+______________________________________________________________________
 
-# 27. Hard Constraint Law
+## 27. Hard Constraint Law
 
 If output violates a valid hard constraint:
 
@@ -663,9 +666,9 @@ OUTPUT_ADMISSION = FAIL
 
 Fluency or utility cannot override a hard constraint.
 
----
+______________________________________________________________________
 
-# 28. Constraint Propagation
+## 28. Constraint Propagation
 
 Constraints SHOULD propagate through generated descendants.
 
@@ -679,9 +682,9 @@ $$K(O_1)\rightarrow K(O_2)$$
 
 unless an explicit governed transformation modifies its applicability.
 
----
+______________________________________________________________________
 
-# 29. Binding
+## 29. Binding
 
 Output SHOULD preserve binding to the task that created it.
 
@@ -700,9 +703,9 @@ binding:
 
 An output generated for one task MUST NOT automatically be reused for a materially different task without checking compatibility.
 
----
+______________________________________________________________________
 
-# 30. Capability Boundary
+## 30. Capability Boundary
 
 The ability to generate an output does not establish permission to execute it.
 
@@ -714,9 +717,9 @@ $$CanExecute(A) \neq AuthorizedToExecute(A)$$
 
 Generator Output MUST preserve this distinction.
 
----
+______________________________________________________________________
 
-# 31. Effect Classification
+## 31. Effect Classification
 
 Outputs SHOULD be classified by intended downstream effect where material.
 
@@ -736,9 +739,9 @@ EXTERNAL_COMMITMENT
 
 Higher-effect outputs require stronger validation and governance.
 
----
+______________________________________________________________________
 
-# 32. Commit-Time Authority
+## 32. Commit-Time Authority
 
 Authority SHOULD be checked at commitment time when an output would create external effects.
 
@@ -758,9 +761,9 @@ current authority
 current risk
 ```
 
----
+______________________________________________________________________
 
-# 33. Information Exposure
+## 33. Information Exposure
 
 Generator output MUST respect information-exposure constraints.
 
@@ -778,9 +781,9 @@ scope-restricted evidence
 
 Generation does not grant permission to disclose.
 
----
+______________________________________________________________________
 
-# 34. Output Minimization
+## 34. Output Minimization
 
 Where information exposure matters:
 
@@ -790,9 +793,9 @@ The system SHOULD emit the minimum information sufficient to satisfy the authori
 
 This MUST NOT be used to conceal material uncertainty or falsifiers.
 
----
+______________________________________________________________________
 
-# 35. Uncertainty Vector
+## 35. Uncertainty Vector
 
 Material uncertainty SHOULD remain decomposable into:
 
@@ -809,9 +812,9 @@ uncertainty:
 
 A single scalar confidence value is insufficient where different uncertainty dimensions affect different decisions.
 
----
+______________________________________________________________________
 
-# 36. Competing Hypotheses
+## 36. Competing Hypotheses
 
 If incompatible hypotheses remain materially viable, output MUST preserve them.
 
@@ -829,9 +832,9 @@ competing:
 
 The generator MUST NOT force convergence merely to simplify presentation.
 
----
+______________________________________________________________________
 
-# 37. Falsifiers
+## 37. Falsifiers
 
 Important output claims SHOULD expose conditions that would invalidate them.
 
@@ -850,9 +853,9 @@ falsifiers:
 
 This allows subsequent Generator Falsification to challenge the artifact directly.
 
----
+______________________________________________________________________
 
-# 38. Generator Falsification Boundary
+## 38. Generator Falsification Boundary
 
 Generation and falsification are distinct stages:
 
@@ -870,9 +873,9 @@ FALSIFIED / UNKNOWN
 
 A generator SHOULD NOT self-certify merely because it can construct a plausible defense of its own output.
 
----
+______________________________________________________________________
 
-# 39. Proof Capsule Compatibility
+## 39. Proof Capsule Compatibility
 
 Consequential output SHOULD be convertible into a Proof Capsule containing:
 
@@ -893,9 +896,9 @@ confidence ceiling
 
 This supports controlled reuse.
 
----
+______________________________________________________________________
 
-# 40. Proof Capsule Reuse
+## 40. Proof Capsule Reuse
 
 A previously validated output MAY be reused only while relevant validity conditions remain intact.
 
@@ -911,9 +914,9 @@ TARGETED_REVALIDATION
 
 is required.
 
----
+______________________________________________________________________
 
-# 41. RSCF Integration
+## 41. RSCF Integration
 
 Generator outputs MAY become first-class elements of an RSCF.
 
@@ -934,9 +937,9 @@ RSCF
 
 Output status remains distinct from RSCF resolution status.
 
----
+______________________________________________________________________
 
-# 42. Atomic Multi-RSCF Output
+## 42. Atomic Multi-RSCF Output
 
 When output depends on multiple RSCFs:
 
@@ -946,9 +949,9 @@ AMOS SHOULD ensure that the relevant combined state is coherent for the conclusi
 
 A partial success MUST NOT be represented as atomic success if another load-bearing RSCF failed.
 
----
+______________________________________________________________________
 
-# 43. GMEF Integration
+## 43. GMEF Integration
 
 Generator output interacting with competing models SHOULD preserve GMEF-compatible structure:
 
@@ -966,9 +969,9 @@ discriminating tests
 
 Generation MUST NOT erase surviving alternatives.
 
----
+______________________________________________________________________
 
-# 44. H/M/L Integration
+## 44. H/M/L Integration
 
 Generator Output SHOULD support fractal knowledge retrieval:
 
@@ -980,9 +983,9 @@ L — detailed dependencies/evidence
 
 The output SHOULD contain the smallest sufficient level for the task while retaining references necessary to recover deeper dependencies.
 
----
+______________________________________________________________________
 
-# 45. Raw Evidence Boundary
+## 45. Raw Evidence Boundary
 
 Raw evidence defaults to:
 
@@ -998,9 +1001,9 @@ Output SHOULD reference rather than redundantly reproduce raw evidence unless:
 - user deliverable requires it;
 - governance requires preservation.
 
----
+______________________________________________________________________
 
-# 46. Output Compression
+## 46. Output Compression
 
 Compression MAY remove redundant presentation.
 
@@ -1023,9 +1026,9 @@ Thus:
 
 $$Compression \neq EpistemicErasure$$
 
----
+______________________________________________________________________
 
-# 47. Structural Similarity Firewall
+## 47. Structural Similarity Firewall
 
 Generated structural similarity is a `MODEL` unless independently established.
 
@@ -1045,9 +1048,9 @@ Therefore:
 
 $$StructuralSimilarity \not\Rightarrow CausalEquivalence$$
 
----
+______________________________________________________________________
 
-# 48. Causal Output Firewall
+## 48. Causal Output Firewall
 
 Generated causal claims SHOULD distinguish:
 
@@ -1066,9 +1069,9 @@ causal effect
 
 The output class MUST NOT exceed what the evidence licenses.
 
----
+______________________________________________________________________
 
-# 49. Translation Integrity
+## 49. Translation Integrity
 
 When a generator translates between:
 
@@ -1093,9 +1096,9 @@ provenance
 
 Translation MUST NOT silently strengthen the source.
 
----
+______________________________________________________________________
 
-# 50. Counterfactual Output
+## 50. Counterfactual Output
 
 Counterfactual output SHOULD explicitly remain model-dependent.
 
@@ -1114,9 +1117,9 @@ counterfactual:
 
 A counterfactual is not an observation of an unrealized world.
 
----
+______________________________________________________________________
 
-# 51. Decision Output
+## 51. Decision Output
 
 A decision output SHOULD separate:
 
@@ -1134,9 +1137,9 @@ authority
 
 This prevents preference optimization from being misrepresented as factual proof.
 
----
+______________________________________________________________________
 
-# 52. Recommendation Output
+## 52. Recommendation Output
 
 Recommendation $R$ SHOULD be interpretable as:
 
@@ -1152,9 +1155,9 @@ where:
 
 Changing objectives may legitimately change the recommendation without changing underlying facts.
 
----
+______________________________________________________________________
 
-# 53. Plan Output
+## 53. Plan Output
 
 A plan SHOULD identify:
 
@@ -1174,9 +1177,9 @@ plan:
 
 A generated plan is not equivalent to execution.
 
----
+______________________________________________________________________
 
-# 54. Execution Boundary
+## 54. Execution Boundary
 
 The following state transition MUST remain explicit:
 
@@ -1194,9 +1197,9 @@ EXECUTION
 
 Generator Output MUST NOT collapse these stages into one implicit operation.
 
----
+______________________________________________________________________
 
-# 55. Reversibility Metadata
+## 55. Reversibility Metadata
 
 For consequential output, action recommendations SHOULD identify reversibility where material:
 
@@ -1209,9 +1212,9 @@ UNKNOWN
 
 Higher irreversibility increases required validation.
 
----
+______________________________________________________________________
 
-# 56. Risk Scaling
+## 56. Risk Scaling
 
 Output validation burden SHOULD increase with:
 
@@ -1228,9 +1231,9 @@ uncertainty
 
 The same generator output structure may therefore receive different admission requirements under different stakes.
 
----
+______________________________________________________________________
 
-# 57. Output Admission
+## 57. Output Admission
 
 Before consequential use, output MAY pass through an admission predicate:
 
@@ -1238,9 +1241,9 @@ $$Admit(O) = Integrity \land ConstraintCompliance \land ScopeValidity \land Regi
 
 with additional conditions where required.
 
----
+______________________________________________________________________
 
-# 58. Output State Machine
+## 58. Output State Machine
 
 A candidate lifecycle:
 
@@ -1270,9 +1273,9 @@ COMMITTED / PUBLISHED / REUSED
 
 Not every artifact proceeds to the final stages.
 
----
+______________________________________________________________________
 
-# 59. Invalid State Transitions
+## 59. Invalid State Transitions
 
 The following transitions are prohibited without an appropriate intermediate process:
 
@@ -1288,9 +1291,9 @@ STALE → FRESH
 CORRELATED → INDEPENDENT
 ```
 
----
+______________________________________________________________________
 
-# 60. Output Supersession
+## 60. Output Supersession
 
 A later output may supersede an earlier output only through an explicit relationship.
 
@@ -1307,9 +1310,9 @@ supersession:
 
 The old output SHOULD remain historically recoverable where provenance requirements demand it.
 
----
+______________________________________________________________________
 
-# 61. No Silent Rewrite
+## 61. No Silent Rewrite
 
 An updated generator MUST NOT silently rewrite the historical semantics of prior outputs.
 
@@ -1329,9 +1332,9 @@ O2 remains O2
 
 and their relationship must be explicit.
 
----
+______________________________________________________________________
 
-# 62. Causal Epoch
+## 62. Causal Epoch
 
 Outputs MAY be finalized relative to a causal epoch:
 
@@ -1351,9 +1354,9 @@ recompute everything
 
 unless dependency uncertainty makes localized repair impossible.
 
----
+______________________________________________________________________
 
-# 63. Shard-Local Finalization
+## 63. Shard-Local Finalization
 
 Where reasoning is partitioned, output MAY finalize locally if:
 
@@ -1367,9 +1370,9 @@ no unresolved external conflict exists
 
 This describes an AMOS reasoning pattern rather than asserting a literal distributed implementation.
 
----
+______________________________________________________________________
 
-# 64. Proof-Based Coordination Avoidance
+## 64. Proof-Based Coordination Avoidance
 
 Global coordination SHOULD be avoided where local proof is sufficient.
 
@@ -1379,9 +1382,9 @@ $$LocalProof \Rightarrow DecisionSufficiency$$
 
 under the relevant dependency envelope.
 
----
+______________________________________________________________________
 
-# 65. Failure Localization
+## 65. Failure Localization
 
 If premise $P$ fails:
 
@@ -1395,9 +1398,9 @@ only.
 
 Unrelated output components remain valid unless another dependency connects them.
 
----
+______________________________________________________________________
 
-# 66. Output Repair
+## 66. Output Repair
 
 Repair MAY involve:
 
@@ -1416,9 +1419,9 @@ change plan
 
 Repair MUST preserve the failure history where provenance requires it.
 
----
+______________________________________________________________________
 
-# 67. Unknown Dependency
+## 67. Unknown Dependency
 
 If the dependency graph is incomplete and the missing dependency could materially alter the result:
 
@@ -1434,9 +1437,9 @@ OUTPUT_STATUS = UNKNOWN/GAP
 
 depending on severity.
 
----
+______________________________________________________________________
 
-# 68. Gap Classification
+## 68. Gap Classification
 
 Generator Output SHOULD classify unresolved gaps as:
 
@@ -1449,9 +1452,9 @@ COSMETIC
 
 Critical gaps block conclusions they materially undermine.
 
----
+______________________________________________________________________
 
-# 69. Anti-Fabrication Invariant
+## 69. Anti-Fabrication Invariant
 
 Generator Output MUST NOT bridge missing logic with fluent prose.
 
@@ -1468,9 +1471,9 @@ inventing causal mechanism
 inventing source independence
 ```
 
----
+______________________________________________________________________
 
-# 70. Benchmark Boundary
+## 70. Benchmark Boundary
 
 If output refers to benchmark success:
 
@@ -1484,9 +1487,9 @@ without appropriate evidence.
 
 Benchmark scope, environment, measurement, and version remain part of the applicability envelope.
 
----
+______________________________________________________________________
 
-# 71. Performance Boundary
+## 71. Performance Boundary
 
 Reported performance values remain environment-bound unless validated otherwise.
 
@@ -1508,9 +1511,9 @@ measurement protocol
 
 A generator MUST NOT universalize such values silently.
 
----
+______________________________________________________________________
 
-# 72. Formal-Proof Boundary
+## 72. Formal-Proof Boundary
 
 Passing tests, simulations, distributed experiments, or adversarial trials does not automatically constitute formal proof.
 
@@ -1525,9 +1528,9 @@ FORMALLY_PROVED
 
 where relevant.
 
----
+______________________________________________________________________
 
-# 73. Canon Boundary
+## 73. Canon Boundary
 
 Generator output MUST NOT self-declare final canon.
 
@@ -1547,9 +1550,9 @@ Therefore:
 
 $$GeneratorOutput \not\Rightarrow Canon$$
 
----
+______________________________________________________________________
 
-# 74. Canonical Output Envelope
+## 74. Canonical Output Envelope
 
 A maximum-detail logical output envelope may be represented as:
 
@@ -1685,9 +1688,9 @@ amos_generator_output:
 
 This is a conceptual candidate schema. It does not establish that a corresponding runtime implementation exists.
 
----
+______________________________________________________________________
 
-# 75. Minimal Output Envelope
+## 75. Minimal Output Envelope
 
 For low-complexity output, the smallest sufficient structure may be:
 
@@ -1704,9 +1707,9 @@ output:
 
 Adaptive complexity determines whether additional fields are required.
 
----
+______________________________________________________________________
 
-# 76. Adaptive Output Complexity
+## 76. Adaptive Output Complexity
 
 Output SHOULD scale from:
 
@@ -1733,9 +1736,9 @@ models compete
 governance impact increases
 ```
 
----
+______________________________________________________________________
 
-# 77. Generator Output Invariants
+## 77. Generator Output Invariants
 
 ```text
 GO-I01
@@ -1805,9 +1808,9 @@ Integrity dominates completeness, fluency, speed,
 and token savings.
 ```
 
----
+______________________________________________________________________
 
-# 78. Reference Output Pipeline
+## 78. Reference Output Pipeline
 
 ```text
 TASK
@@ -1880,9 +1883,9 @@ ADMISSION
            COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 79. Reference State Machine
+## 79. Reference State Machine
 
 ```text
 GENERATED
@@ -1932,9 +1935,9 @@ ADMITTED
              COMMIT     ABORT
 ```
 
----
+______________________________________________________________________
 
-# 80. Output Revalidation Triggers
+## 80. Output Revalidation Triggers
 
 Revalidation SHOULD occur when any load-bearing condition changes, including:
 
@@ -1954,9 +1957,9 @@ independence collapse
 causal model revision
 ```
 
----
+______________________________________________________________________
 
-# 81. Persistent Provenance
+## 81. Persistent Provenance
 
 Where output becomes persistent knowledge, its provenance SHOULD remain persistent with it.
 
@@ -1972,9 +1975,9 @@ VALIDATED KNOWLEDGE
 
 These stages MUST NOT be collapsed.
 
----
+______________________________________________________________________
 
-# 82. Knowledge Harvest Metadata
+## 82. Knowledge Harvest Metadata
 
 Persisted generator output SHOULD retain where applicable:
 
@@ -1995,9 +1998,9 @@ lineage
 
 Documentation claims remain `SOURCE_CLAIM` until appropriately validated.
 
----
+______________________________________________________________________
 
-# 83. Output Falsification Interface
+## 83. Output Falsification Interface
 
 A falsifier SHOULD be able to query an output for:
 
@@ -2018,9 +2021,9 @@ What observation would overturn it?
 
 If these cannot be recovered for a consequential claim, the output is epistemically incomplete.
 
----
+______________________________________________________________________
 
-# 84. Output Resolver Interface
+## 84. Output Resolver Interface
 
 Downstream resolvers SHOULD be able to inspect:
 
@@ -2041,9 +2044,9 @@ resolver_view:
 
 This permits reuse without blindly regenerating.
 
----
+______________________________________________________________________
 
-# 85. Output Comparison
+## 85. Output Comparison
 
 When comparing outputs $O_1$ and $O_2$, AMOS SHOULD compare more than textual similarity.
 
@@ -2053,9 +2056,9 @@ $$Compare(O_1,O_2)= \{ claims, evidence, provenance, scope, regime, dependencies
 
 Two outputs may look different while being epistemically equivalent, or look similar while resting on incompatible evidence.
 
----
+______________________________________________________________________
 
-# 86. Equivalent Output Merge
+## 86. Equivalent Output Merge
 
 Outputs MAY be merged when they are equivalent with respect to the decision-relevant dimensions.
 
@@ -2072,9 +2075,9 @@ version lineage
 
 Merging MUST NOT fabricate independence.
 
----
+______________________________________________________________________
 
-# 87. Conflicting Output
+## 87. Conflicting Output
 
 If outputs conflict:
 
@@ -2097,9 +2100,9 @@ actual contradiction
 
 Only genuine unresolved contradiction requires `COMPETING`.
 
----
+______________________________________________________________________
 
-# 88. Output Quality Is Multi-Dimensional
+## 88. Output Quality Is Multi-Dimensional
 
 Output quality SHOULD NOT be reduced to fluency.
 
@@ -2109,9 +2112,9 @@ $$Q(O)=f( Integrity, Support, Scope, Provenance, Freshness, CausalDiscipline, Co
 
 Optimization may improve presentation only if these properties are preserved or improved.
 
----
+______________________________________________________________________
 
-# 89. Anti-Regression
+## 89. Anti-Regression
 
 A generator-output optimization is admissible only if it preserves or improves:
 
@@ -2133,9 +2136,9 @@ Otherwise:
 ROLLBACK
 ```
 
----
+______________________________________________________________________
 
-# 90. Stop Condition
+## 90. Stop Condition
 
 Generation SHOULD stop when the output has achieved the required level of:
 
@@ -2149,23 +2152,23 @@ for the task.
 
 The system SHOULD NOT continue generating detail that cannot materially improve the outcome.
 
----
+______________________________________________________________________
 
-# 91. Claim Sufficiency
+## 91. Claim Sufficiency
 
 Claim Sufficiency requires enough valid support to state the claim at its chosen epistemic class and applicability envelope.
 
 It does not require universal certainty.
 
----
+______________________________________________________________________
 
-# 92. Decision Sufficiency
+## 92. Decision Sufficiency
 
 Decision Sufficiency requires remaining uncertainty to be low enough, bounded enough, or decision-irrelevant enough to choose among available options.
 
----
+______________________________________________________________________
 
-# 93. Action Sufficiency
+## 93. Action Sufficiency
 
 Action Sufficiency additionally requires:
 
@@ -2178,9 +2181,9 @@ commit-time state validity
 
 when action is intended.
 
----
+______________________________________________________________________
 
-# 94. Failure Recovery
+## 94. Failure Recovery
 
 When output becomes invalid:
 
@@ -2202,9 +2205,9 @@ REVALIDATE
 
 Global regeneration is a last resort.
 
----
+______________________________________________________________________
 
-# 95. Canon Relationships
+## 95. Canon Relationships
 
 `Generator Output` SHOULD interoperate with the relevant AMOS artifacts, including:
 
@@ -2239,9 +2242,9 @@ K INFORMATION EXPOSURE
 
 These references establish intended conceptual interoperability only. They do not establish implementation or final canon status.
 
----
+______________________________________________________________________
 
-# 96. Canonization Requirement
+## 96. Canonization Requirement
 
 This document cannot canonize itself.
 
@@ -2261,9 +2264,9 @@ EMPIRICALLY VALIDATED = NOT ESTABLISHED
 FINAL CANON = NOT ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 97. Final Generator Output Law
+## 97. Final Generator Output Law
 
 The output layer exists to prevent a fundamental category error:
 
@@ -2291,9 +2294,9 @@ and never:
 
 $$\boxed{ Generator \rightarrow Truth }$$
 
----
+______________________________________________________________________
 
-# 98. Artifact Declaration
+## 98. Artifact Declaration
 
 ```yaml
 artifact:
@@ -2322,23 +2325,26 @@ artifact:
      process establishes a stronger status."
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[25_COGNITIVE_MATRIX/12_GENERATORS/00_INDEX/GENERATORS_MAP|GENERATORS_MAP]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: generator_output
 node_type: note
 path: 25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_OUTPUT.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/12_GENERATORS/12_GENERATORS_MOC|12_GENERATORS_MOC]]
-

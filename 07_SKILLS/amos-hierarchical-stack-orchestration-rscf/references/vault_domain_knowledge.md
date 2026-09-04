@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Vault Domain Knowledge — Amos Hierarchical Stack Orchestration Rscf
 type: reference
 source: 07_SKILLS/amos-hierarchical-stack-orchestration-rscf/references
 tags:
-- reference
-- amos-hierarchical-stack-orchestration-rscf
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-hierarchical-stack-orchestration-rscf
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -27,10 +30,9 @@ rscf:
 
 > Path: `kernel/A/AMOS Super Kernel — Unified Meta-Orchestration Architecture.md` | Size: 37094 chars | Match score: 13
 
-# AMOS Super Kernel — Unified Meta-Orchestration Architecture
+## AMOS Super Kernel — Unified Meta-Orchestration Architecture
 
 ## Overview
-
 
 The source explicitly defines the kernel as:
 
@@ -40,25 +42,25 @@ an operating rule-set, not a persona
 
 Its declared role is:
 
-[
-\boxed{
+\[
+\\boxed{
 Request
-\rightarrow
+\\rightarrow
 Normalize
-\rightarrow
+\\rightarrow
 Decompose
-\rightarrow
+\\rightarrow
 Route
-\rightarrow
+\\rightarrow
 Constrain
-\rightarrow
+\\rightarrow
 Synthesize
-\rightarrow
+\\rightarrow
 Audit
-\rightarrow
+\\rightarrow
 Output
 }
-]
+\]
 
 The source identifies **Trang Phan** as author of the canonical frameworks that the kernel is required to preserve.
 
@@ -72,9 +74,9 @@ CANON GROUP: META
 
 The architecture below preserves the supplied kernel while separating explicit source structure from derived AMOS formalization.
 
----
+______________________________________________________________________
 
-# 1. Kernel Identity
+## 1. Kernel Identity
 
 The source declares:
 
@@ -89,18 +91,16 @@ The kernel is not defined as a personality layer.
 
 Its identity is functional:
 
-[
-KernelRole
-==========
+## \[ KernelRole
 
 Normalize
-+
+\+
 Route
-+
+\+
 Constrain
-+
+\+
 Integrate
-]
+\]
 
 The intended abstraction is therefore closer to:
 
@@ -114,34 +114,33 @@ than:
 PERSONA
 ```
 
----
+______________________________________________________________________
 
-# 2. Core Objective
+## 2. Core Objective
 
 The kernel's primary transformation can be modeled as:
 
-[
-R_{raw}
-\xrightarrow{N}
+\[
+R\_{raw}
+\\xrightarrow{N}
 P
-\xrightarrow{D}
-{T_1,\ldots,T_n}
-\xrightarrow{Route}
-{E_1,\ldots,E_n}
-\xrightarrow{C}
-{O_1,\ldots,O_n}
-\xrightarrow{S}
-O_{final}
-]
+\\xrightarrow{D}
+{T_1,\\ldots,T_n}
+\\xrightarrow{Route}
+{E_1,\\ldots,E_n}
+\\xrightarrow{C}
+{O_1,\\ldots,O_n}
+\\xrightarrow{S}
+O\_{final}
+\]
 
 where:
 
-
 This is a **derived formal representation** of the source pipeline.
 
----
+______________________________________________________________________
 
-# 3. Core Role
+## 3. Core Role
 
 The source defines six primary functions.
 
@@ -156,19 +155,16 @@ The source defines six primary functions.
 
 Compressed:
 
-[
-AMOS_{Kernel}
-=============
+## \[ AMOS\_{Kernel}
 
 N+D+R+C+S+A
-]
+\]
 
 where:
 
+______________________________________________________________________
 
----
-
-# 4. Canon Dependency Layer
+## 4. Canon Dependency Layer
 
 The source requires the kernel to preserve a fixed set of named canon structures.
 
@@ -214,26 +210,31 @@ Conceptually:
 
 The source st
 
----
+______________________________________________________________________
 
 ### Source 2: AMOS Logic-First Stack Rewrite
+
 - Implementation Complete
 
 > Path: `logic/LOGIC_FIRST_STACK_COMPLETE.md` | Size: 6731 chars | Match score: 13
 
-# AMOS Logic-First Stack Rewrite - Implementation Complete
+## AMOS Logic-First Stack Rewrite - Implementation Complete
 
 ## MISSION ACCOMPLISHED
 
 I have successfully implemented the **AMOS Logic-First Stack Rewrite** following your exact specification, creating a unified enforcement layer that applies the pure-logic integrity profile across the entire AMOS stack: Runtime, Mathematical Kernel, Equation Engine, and Self-Programming Architecture.
 
-### **Global Principle Enforced** ```
-ClaimedCapability <= VerifiedCapability
+### **Global Principle Enforced** \`\`\`
+
+ClaimedCapability \<= VerifiedCapability
+
 ```
 
 ```
+
 NOT Verified -> NOT Complete
-```
+
+````
 
 ### **All 10 Stack Components Implemented**
 
@@ -320,12 +321,11 @@ NOT Verified -> NOT Complete
 ## Related
 
 -
-```
+````
 
----
+______________________________________________________________________
 
-**Related:** [[07_SKILLS/amos-hierarchical-stack-orchestration-rscf/amos-hierarchical-stack-orchestration-rscf_MOC|amos-hierarchical-stack-orchestration-rscf_MOC]]
----
+## **Related:** [[07_SKILLS/amos-hierarchical-stack-orchestration-rscf/amos-hierarchical-stack-orchestration-rscf_MOC|amos-hierarchical-stack-orchestration-rscf_MOC]]
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -333,12 +333,14 @@ NOT Verified -> NOT Complete
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-hierarchical-stack-orchestration-rscf-vault-domain-knowledge
 node_type: reference
 path: 07_SKILLS/amos-hierarchical-stack-orchestration-rscf/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

@@ -4,25 +4,22 @@ title: SKILL — Amos Scientific Closure Governor Rscf
 type: skill
 source: 07_SKILLS/amos-scientific-closure-governor-rscf
 name: amos-scientific-closure-governor-rscf
-description: Scientific Closure Governor — causal reasoning capability. Use when causal
-  analysis, counterfactual reasoning, or intervention design. Use when amos-causal-reasoning-master
-  routes to this specialized capability. Do not use for generic tasks outside causal
-  domain.
+description: Scientific Closure Governor — causal reasoning capability. Use when causal analysis, counterfactual reasoning, or intervention design. Use when amos-causal-reasoning-master routes to this specialized capability. Do not use for generic tasks outside causal domain.
 parent_skill: amos-causal-reasoning-master
 domain: causal
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
 tags:
-- type/skill
-- type/skill
-- domain/causal-reasoning
-- epistemic/source_claim
-- hml/h
-- epistemic/source_claim
-- amos-os
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/causal-reasoning
+  - epistemic/source_claim
+  - hml/h
+  - epistemic/source_claim
+  - amos-os
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -32,24 +29,24 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: H
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
-- L24_causal_epoch
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
+  - L24_causal_epoch
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L7
-- L16
-- L17
-- L18
-- L24
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L7
+  - L16
+  - L17
+  - L18
+  - L24
 license: MIT
 steward: Trang Phan
 ---
@@ -59,6 +56,7 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: causal. Parent: amos-causal-reasoning-master. Epistemic class: SOURCE_CLAIM. H/M/L: H.
+
 ## When to Use
 
 - When validating causal abstraction across model levels
@@ -85,12 +83,12 @@ Origin architect: **Trang Phan**. Domain: causal. Parent: amos-causal-reasoning-
 ## Operations
 
 1. **scientific_closure.validate_abstraction**: Validate causal abstraction: does the higher-level model preserve causal structure?
-2. **scientific_closure.enforce_closure**: Enforce causal closure: every effect must have a sufficient cause within the system
-3. **scientific_closure.govern_hierarchy**: Govern causal hierarchy: direct, distributed, delayed, and cascading causes
-4. **scientific_closure.reason_counterfactual**: Reason counterfactually: what would happen under alternative interventions
-5. **scientific_closure.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-6. **scientific_closure.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
-7. **scientific_closure.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+1. **scientific_closure.enforce_closure**: Enforce causal closure: every effect must have a sufficient cause within the system
+1. **scientific_closure.govern_hierarchy**: Govern causal hierarchy: direct, distributed, delayed, and cascading causes
+1. **scientific_closure.reason_counterfactual**: Reason counterfactually: what would happen under alternative interventions
+1. **scientific_closure.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+1. **scientific_closure.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+1. **scientific_closure.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## 11_KNOWLEDGE Vault Content
 
@@ -101,14 +99,16 @@ Origin architect: **Trang Phan**. Domain: causal. Parent: amos-causal-reasoning-
 Scientific closure governs when a scientific question is sufficiently answered to be considered "closed" within the AMOS framework.
 
 **Closure criteria**:
+
 1. **Hypothesis tested**: the hypothesis has been tested with declared falsifiers
-2. **Evidence sufficient**: evidence meets the minimum for the claim class
-3. **Contradictions resolved**: no unresolved contradictions remain
-4. **Provenance complete**: full provenance chain is traceable
-5. **Replication**: results have been independently replicated (for VERIFIED class)
-6. **Peer review**: results have been reviewed (for VERIFIED class)
+1. **Evidence sufficient**: evidence meets the minimum for the claim class
+1. **Contradictions resolved**: no unresolved contradictions remain
+1. **Provenance complete**: full provenance chain is traceable
+1. **Replication**: results have been independently replicated (for VERIFIED class)
+1. **Peer review**: results have been reviewed (for VERIFIED class)
 
 **Closure levels**:
+
 - **CLOSED_VERIFIED**: all criteria met, independently verified
 - **CLOSED_SOURCE**: source claims verified, not independently replicated
 - **CLOSED_MODEL**: model-based closure, not empirically verified
@@ -122,6 +122,7 @@ Scientific closure governs when a scientific question is sufficiently answered t
 Scientific closure is an epistemic governance construct. It does not prove absolute truth, finality, or that the answer will never be revised. Closure is operational, not metaphysical.
 
 ## Failure Modes
+
 - **Insufficient evidence**: If source material is insufficient, mark as UNKNOWN/GAP and fail closed — do not fabricate.
 - **Scope violation**: If the query falls outside the skill's declared scope, escalate to the parent skill or steward.
 - **Binding broken**: If 1:1:1 binding (skill→agent→workflow) is broken, flag routing mismatch and block execution.
@@ -137,7 +138,8 @@ Scientific closure is an epistemic governance construct. It does not prove absol
 - **G5 (Equation firewall)**: Equations carry status tags (ESTABLISHED_MATH / SOURCE_DERIVED / AMOS_MODEL / EMPIRICALLY_CALIBRATED / UNVERIFIED).
 - **G6 (Failure mode)**: On
 
----
+______________________________________________________________________
+
 **Links:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 ## Related
@@ -147,17 +149,19 @@ Scientific closure is an epistemic governance construct. It does not prove absol
 ## Examples
 
 - **Scenario**: When validating causal abstraction across model levels
+
   - **Input**: A query matching this skill's domain (causal)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When enforcing causal closure: every effect has a sufficient cause
+
   - **Input**: A query matching this skill's domain (causal)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When governing causal hierarchy: direct, distributed, delayed, cascading
+
   - **Input**: A query matching this skill's domain (causal)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Anti-Patterns
 
@@ -167,7 +171,6 @@ Scientific closure is an epistemic governance construct. It does not prove absol
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `amos-causal-reasoning-master` — routes to this skill when causal specialization is needed
@@ -175,7 +178,6 @@ Scientific closure is an epistemic governance construct. It does not prove absol
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -194,7 +196,6 @@ Scientific closure is an epistemic governance construct. It does not prove absol
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -202,7 +203,6 @@ Scientific closure is an epistemic governance construct. It does not prove absol
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -215,11 +215,12 @@ Scientific closure is an epistemic governance construct. It does not prove absol
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `amos-causal-reasoning-master` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `amos-scientific-closure-governor-rscf-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -227,12 +228,14 @@ Scientific closure is an epistemic governance construct. It does not prove absol
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-scientific-closure-governor-rscf
 node_type: skill
 path: 07_SKILLS/amos-scientific-closure-governor-rscf/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

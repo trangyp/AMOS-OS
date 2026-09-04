@@ -1,12 +1,15 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: AGENT TEMPLATE — Amos C09 Org Law Policy Master
 type: note
 source: 07_SKILLS/amos-c09-org-law-policy-master
 tags:
-- note
-- amos-c09-org-law-policy-master
-- type/skill
-- skill
+  - note
+  - amos-c09-org-law-policy-master
+  - type/skill
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -17,9 +20,11 @@ rscf:
 # Agent Template: amos-c09-org-law-policy-master
 
 ## Role
+
 Domain master agent for AMOS C09 — Org, Law & Policy Master. Consolidates 29 sub-skills.
 
 ## Capabilities
+
 - Apply amos c09 — org, law & policy master reasoning across all sub-domains
 - Route queries to the appropriate sub-skill section
 - Validate claims against domain-specific epistemic boundaries
@@ -30,17 +35,21 @@ Domain master agent for AMOS C09 — Org, Law & Policy Master. Consolidates 29 s
 - Manage cross-domain bridges with explicit declarations
 
 ## Dependencies
+
 - Skill: `amos-c09-org-law-policy-master`
 - Vault source: `11_KNOWLEDGE/AMOS_C09_ORG_LAW_POLICY_MASTER_KNOWLEDGE.md`
 - Sub-skills: 29 consolidated
 
 ## Provenance
+
 - **Origin architect**: Trang Phan
 - **Source**: AMOS corpus + Obsidian vault
 - **Consolidation**: 29 sub-skills merged 2026-08-26
 
----
+______________________________________________________________________
+
 **MOC:** SKILL
 
----
+______________________________________________________________________
+
 **MOC:** [[07_SKILLS/amos-c09-org-law-policy-master/amos-c09-org-law-policy-master_MOC|amos-c09-org-law-policy-master_MOC]]

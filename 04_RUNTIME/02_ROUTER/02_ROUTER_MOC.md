@@ -1,33 +1,51 @@
 ---
-title: 02 Router MOC
-type: moc
-source: 04_RUNTIME/02_ROUTER
-tags:
-- 02-router
-- canon/runtime
-- canon-router
-- framework-router
-- hml-router
-- rscf-router
-moc: true
+title: "02 Router Moc — Plane Governance Specification"
+type: specification
+source: 04_RUNTIME
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
+status: ACTIVE_SPECIFICATION
+epistemic_class: AMOS_MODEL
+conclusion_class: DERIVED
 rscf:
   state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  claim_class: AMOS_MODEL
+  provenance:
+    - 00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE
+    - 00_ROOT/00_ROOT_MOC
+  scope: plane_governance
+tags:
+  - amos-os
+  - 04-runtime
+  - specification
+  - 02-router-moc
 ---
 
-# 02 Router — Map of Content
+# 02 Router Moc — Plane Governance Specification
 
-**Path:** `04_RUNTIME/02_ROUTER`
-**Files:** 4 | **Subdirectories:** 0
-
-## Files
-
-- [[04_RUNTIME/02_ROUTER/CANON_ROUTER|CANON_ROUTER]]
-- [[04_RUNTIME/02_ROUTER/FRAMEWORK_ROUTER|FRAMEWORK_ROUTER]]
-- [[04_RUNTIME/02_ROUTER/HML_ROUTER|HML_ROUTER]]
-- [[04_RUNTIME/02_ROUTER/RSCF_ROUTER|RSCF_ROUTER]]
+> **Origin Architect / Steward:** Trang Phan  
+> **AMOS_CORE Target:** `v4.4`  
+> **Conclusion Class:** `AMOS_MODEL`  
+> **Status:** `ACTIVE_SPECIFICATION`
 
 ---
-**Parent:** [[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME_MOC]]
+
+## 1. Architectural Scope
+
+`02_ROUTER_MOC` defines the typed contracts, invariants, and operational procedures for `04_RUNTIME` within the AMOS Full OS MECE architecture.
+
+---
+
+## 2. Governing Invariants
+
+- **Axiom Adherence:** Strictly bound by M01–M20 core laws.
+- **Fail-Closed Execution:** Rejects unverified or malformed inputs into the rollback basin.
+- **Immutable Receipts:** Emits auditable trace logs to `17_OBSERVABILITY`.
+
+---
+
+## 3. Navigation & Bindings
+
+- **Master MOC:** [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]
+- **Partition Architecture:** [[00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE|FULL_BRAIN_OS_MECE_ARCHITECTURE]]

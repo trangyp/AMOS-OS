@@ -1,11 +1,14 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: 07 Observability MOC
 type: moc
 source: 03_CONTROL_PLANE/07_OBSERVABILITY
 tags:
-- 07-observability
-- canon/control-plane
-- observability-envelope
+  - 07-observability
+  - canon/control-plane
+  - observability-envelope
 moc: true
 rscf:
   state: DERIVED
@@ -31,5 +34,6 @@ rscf:
 
 - [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]] — 00_INDEX
 
----
+______________________________________________________________________
+
 **Parent:** [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE_MOC]]

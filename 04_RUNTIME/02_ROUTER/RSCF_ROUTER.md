@@ -12,17 +12,17 @@ segment: 04_RUNTIME/02_ROUTER
 artifact_kind: ROUTER_SPEC
 path: 04_RUNTIME/02_ROUTER/RSCF_ROUTER.md
 tags:
-- amos-os
-- runtime
-- vault
-- 02_router
-- rscf_router
-- proof_capsule_routing
-- confidence_ceiling
-- rscf
-- canon_candidate
-- canon/runtime
-- ulk-x-rscf
+  - amos-os
+  - runtime
+  - vault
+  - 02_router
+  - rscf_router
+  - proof_capsule_routing
+  - confidence_ceiling
+  - rscf
+  - canon_candidate
+  - canon/runtime
+  - ulk-x-rscf
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -37,13 +37,13 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - 11_KNOWLEDGE/03_RSCF/03_RSCF_MOC
-  - 04_RUNTIME/02_ROUTER/02_ROUTER_MOC
-  - AMOS_CORPUS
+    - 11_KNOWLEDGE/03_RSCF/03_RSCF_MOC
+    - 04_RUNTIME/02_ROUTER/02_ROUTER_MOC
+    - AMOS_CORPUS
   scope:
-  - RUNTIME_ROUTER
-  - RSCF_ROUTING
-  - SOURCE_DEFINED_MODEL
+    - RUNTIME_ROUTER
+    - RSCF_ROUTING
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   router_moc:
     artifact: 04_RUNTIME/02_ROUTER/02_ROUTER_MOC
@@ -62,9 +62,9 @@ epistemic_boundary:
 
 `RSCF_ROUTER.md` is the canonical Runtime Plane specification governing the dynamic lookup, resolution, and verification dispatch of **RSCF Proof Capsules** within `04_RUNTIME/02_ROUTER`.
 
----
+______________________________________________________________________
 
-# 1. RSCF Proof Routing Pipeline
+## 1. RSCF Proof Routing Pipeline
 
 ```text
   Incoming Claim Proposition (P)
@@ -80,17 +80,17 @@ epistemic_boundary:
   5. Verified Proof Capsule Dispatch / Rejection
 ```
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Router MOC:** 04_RUNTIME/02_ROUTER/[[04_RUNTIME/02_ROUTER/02_ROUTER_MOC|02_ROUTER_MOC]]
 - **RSCF Proof MOC:** 11_KNOWLEDGE/03_RSCF/[[11_KNOWLEDGE/03_RSCF/03_RSCF_MOC|03_RSCF_MOC]]
 - **Cognitive Matrix:** 25_COGNITIVE_MATRIX/[[25_COGNITIVE_MATRIX/ULK_X_RSCF|ULK_X_RSCF]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -108,9 +108,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME_MOC]] · 04_RUNTIME/02_ROUTER/[[04_RUNTIME/02_ROUTER/02_ROUTER_MOC|02_ROUTER_MOC]] · 11_KNOWLEDGE/03_RSCF/[[11_KNOWLEDGE/03_RSCF/03_RSCF_MOC|03_RSCF_MOC]]
 
----
+______________________________________________________________________
+
 **MOC:** 04_RUNTIME/02_ROUTER/[[04_RUNTIME/02_ROUTER/02_ROUTER_MOC|02_ROUTER_MOC]]

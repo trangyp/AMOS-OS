@@ -1,12 +1,15 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: O04 STATE LIFECYCLE OPERATIONS COGNITIVE MATRIX STATE TRANSITIONS
 type: note
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O04_STATE
 tags:
-- note
-- o04-state
-- domain/cognitive-matrix
-- trang-framework-recursive-ontology-dynamics
+  - note
+  - o04-state
+  - domain/cognitive-matrix
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -45,21 +48,23 @@ MODEL != VERIFIED
 UNKNOWN/GAP != PASS
 ```
 
----
+______________________________________________________________________
 
 [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: o04_operations_state_transitions
 node_type: note
 path: 02_LIFECYCLE_OPERATIONS/O04_STATE/O04_STATE_LIFECYCLE_OPERATIONS_COGNITIVE_MATRIX_STATE_TRANSITIONS.md
 claim_class: DERIVED
-node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O04_STATE/O04_STATE_LIFECYCLE_OPERATIONS_COGNITIVE_MATRIX_STATE_TRANSITIONS.md
+node_path_note: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O04_STATE/O04_STATE_LIFECYCLE_OPERATIONS_COGNITIVE_MATRIX_STATE_TRANSITIONS.md
 
----
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O04_STATE/O04_STATE_MOC|O04_STATE_MOC]]
 
----
-**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+______________________________________________________________________
 
+**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

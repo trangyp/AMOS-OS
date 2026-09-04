@@ -12,32 +12,32 @@ segment: 25_COGNITIVE_MATRIX
 artifact_kind: ARTIFACT
 path: 25_COGNITIVE_MATRIX/AMOS_X_QCLA.md
 tags:
-- amos-os
-- cognitive-matrix
-- matrix
-- artifact
-- qcla
-- quantum_chemical_logic_architecture
-- molecular_logic
-- quantum_chemical
-- coherence
-- molecular_computation
-- qclu
-- coherence_hamiltonian
-- physics
-- chemistry
-- computation
-- biology
-- deterministic_logic
-- rscf
-- canon_candidate
-- domain/cognitive-matrix
-- law-hierarchy
-- quantum-chemical-logic-architecture-qcla
-- amos-quantum-stack-v0-core
-- ubi
-- neurosyncai
-- quantum-causality-layer-architecture-qcla-off
+  - amos-os
+  - cognitive-matrix
+  - matrix
+  - artifact
+  - qcla
+  - quantum_chemical_logic_architecture
+  - molecular_logic
+  - quantum_chemical
+  - coherence
+  - molecular_computation
+  - qclu
+  - coherence_hamiltonian
+  - physics
+  - chemistry
+  - computation
+  - biology
+  - deterministic_logic
+  - rscf
+  - canon_candidate
+  - domain/cognitive-matrix
+  - law-hierarchy
+  - quantum-chemical-logic-architecture-qcla
+  - amos-quantum-stack-v0-core
+  - ubi
+  - neurosyncai
+  - quantum-causality-layer-architecture-qcla-off
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -129,9 +129,9 @@ Origin architect / steward:
 
 **Trang Phan**
 
----
+______________________________________________________________________
 
-# 1. Governing Boundary
+## 1. Governing Boundary
 
 The permanent epistemic firewall is:
 
@@ -211,9 +211,9 @@ UNKNOWN/GAP
 PASS
 ```
 
----
+______________________________________________________________________
 
-# 2. Purpose
+## 2. Purpose
 
 AMOS × QCLA represents QCLA inside the Cognitive Matrix as a model attempting to connect:
 
@@ -239,9 +239,9 @@ AMOS_MODEL
 
 not as established physical fact.
 
----
+______________________________________________________________________
 
-# 3. QCLA Core Proposition
+## 3. QCLA Core Proposition
 
 The native Chemical-QCLA corpus proposes a reversal of conventional quantum-computing strategy.
 
@@ -282,16 +282,15 @@ IN MOLECULAR STRUCTURE
 
 This is the central QCLA hypothesis.
 
----
+______________________________________________________________________
 
-# 4. Canonical AMOS Interpretation
+## 4. Canonical AMOS Interpretation
 
 AMOS normalizes QCLA as:
 
-\[
-QCLA
-=
-\langle
+## \[ QCLA
+
+\\langle
 Q,
 C,
 L,
@@ -299,7 +298,7 @@ S,
 D,
 I,
 O
-\rangle
+\\rangle
 \]
 
 where:
@@ -318,9 +317,9 @@ This tuple is an AMOS-derived representation.
 
 It is not claimed as a native QCLA equation.
 
----
+______________________________________________________________________
 
-# 5. QCLA Problem Statement
+## 5. QCLA Problem Statement
 
 The source identifies decoherence as the principal target problem.
 
@@ -349,9 +348,9 @@ controllable under less restrictive conditions?
 
 That question remains empirically open within this artifact.
 
----
+______________________________________________________________________
 
-# 6. QCLA Architectural Reversal
+## 6. QCLA Architectural Reversal
 
 ```text
 CONVENTIONAL APPROACH
@@ -385,9 +384,9 @@ map state transition to logic
 measure physical output
 ```
 
----
+______________________________________________________________________
 
-# 7. Core Computational Unit
+## 7. Core Computational Unit
 
 The corpus describes a molecular logical unit referred to as:
 
@@ -405,9 +404,9 @@ candidate Quantum–Chemical Logic Unit
 
 A QCLU is modeled as a molecular system whose relevant quantum/chemical state variables are intended to encode and transform logical information.
 
----
+______________________________________________________________________
 
-# 8. QCLU State
+## 8. QCLU State
 
 ```yaml
 QCLUState:
@@ -452,9 +451,9 @@ QCLUState:
   epistemic_state:
 ```
 
----
+______________________________________________________________________
 
-# 9. QCLA Molecular Process
+## 9. QCLA Molecular Process
 
 The native source gives a process resembling:
 
@@ -478,9 +477,9 @@ AMOS preserves this as a **source-defined mechanism proposal**.
 
 It is not treated as a demonstrated universal molecular computation cycle.
 
----
+______________________________________________________________________
 
-# 10. Stage 1 — Quantum Excitation
+## 10. Stage 1 — Quantum Excitation
 
 Source intent:
 
@@ -500,18 +499,18 @@ thermal perturbation
 
 Specific implementation remains molecule- and experiment-dependent.
 
----
+______________________________________________________________________
 
-# 11. Stage 2 — Orbital Resonance Coupling
+## 11. Stage 2 — Orbital Resonance Coupling
 
 The source proposes that electron orbital dynamics redistribute energy through the molecular system.
 
 AMOS representation:
 
 \[
-|\psi_0\rangle
-\xrightarrow{U}
-|\psi_1\rangle
+|\\psi_0\\rangle
+\\xrightarrow{U}
+|\\psi_1\\rangle
 \]
 
 where:
@@ -524,9 +523,9 @@ U     = controlled/effective evolution
 
 This generic quantum notation is interpretive and does not establish the exact native QCLA Hamiltonian.
 
----
+______________________________________________________________________
 
-# 12. Stage 3 — Bond Reconfiguration
+## 12. Stage 3 — Bond Reconfiguration
 
 The source connects molecular bonding configuration with logical-state transformation.
 
@@ -545,9 +544,9 @@ These are not equivalent.
 
 The exact physical mechanism must be established experimentally.
 
----
+______________________________________________________________________
 
-# 13. Stage 4 — Logical Operation
+## 13. Stage 4 — Logical Operation
 
 The source maps molecular transitions into logic.
 
@@ -564,9 +563,9 @@ coherent state / ensemble
 
 AMOS does not assume that every molecular superposition constitutes a usable computational qubit.
 
----
+______________________________________________________________________
 
-# 14. Stage 5 — Output
+## 14. Stage 5 — Output
 
 Source-described output channels include:
 
@@ -603,9 +602,9 @@ QCLAOutput:
   timestamp:
 ```
 
----
+______________________________________________________________________
 
-# 15. Stage 6 — Feedback
+## 15. Stage 6 — Feedback
 
 The corpus proposes feedback through molecular/resonant stabilization.
 
@@ -629,20 +628,19 @@ ERROR AVOIDANCE
 
 These cannot be treated as interchangeable.
 
----
+______________________________________________________________________
 
-# 16. Coherence Hamiltonian
+## 16. Coherence Hamiltonian
 
 The source defines a candidate:
 
-\[
-H^{(c)}
-=
-H_{orbital}
-+
-H_{bond}
-+
-H_{vib}
+## \[ H^{(c)}
+
+H\_{orbital}
+\+
+H\_{bond}
+\+
+H\_{vib}
 \]
 
 with terms corresponding to:
@@ -661,9 +659,9 @@ SOURCE_DEFINED_MODEL
 
 not as a complete validated molecular Hamiltonian.
 
----
+______________________________________________________________________
 
-# 17. Hamiltonian Completeness Gap
+## 17. Hamiltonian Completeness Gap
 
 A real molecular Hamiltonian may require additional terms depending on system and regime, such as:
 
@@ -688,16 +686,16 @@ conceptual reduced model
 
 unless the native source supplies a complete derivation for a specified physical system.
 
----
+______________________________________________________________________
 
-# 18. Coherence Lifetime Relation
+## 18. Coherence Lifetime Relation
 
 The source proposes:
 
 \[
-\tau_c
-\propto
-\frac{1}{\Delta E_{asym}}
+\\tau_c
+\\propto
+\\frac{1}{\\Delta E\_{asym}}
 \]
 
 where `ΔE_asym` represents asymmetry in energy distribution.
@@ -720,9 +718,9 @@ measure τc
 test predicted scaling
 ```
 
----
+______________________________________________________________________
 
-# 19. Infinite-Coherence Claim Firewall
+## 19. Infinite-Coherence Claim Firewall
 
 The source associates ideal symmetry with an infinite-coherence limit.
 
@@ -740,9 +738,9 @@ does not by itself establish
 
 Environmental coupling and additional decoherence channels remain load-bearing considerations.
 
----
+______________________________________________________________________
 
-# 20. QCLA Three-Tier Logic Structure
+## 20. QCLA Three-Tier Logic Structure
 
 The source formalizes a three-tier bridge across:
 
@@ -754,15 +752,15 @@ LOGICAL
 
 AMOS normalizes this as:
 
-| Layer | Primary Object | Function |
-|---|---|---|
-| Quantum | state amplitudes / spin / excitation | state space |
+| Layer    | Primary Object                          | Function                |
+| -------- | --------------------------------------- | ----------------------- |
+| Quantum  | state amplitudes / spin / excitation    | state space             |
 | Chemical | orbitals / bonds / vibration / reaction | physical transformation |
-| Logical | encoded computational state | interpretation |
+| Logical  | encoded computational state             | interpretation          |
 
----
+______________________________________________________________________
 
-# 21. Quantum Layer
+## 21. Quantum Layer
 
 The Quantum Layer contains candidate state variables such as:
 
@@ -780,9 +778,9 @@ These remain physical quantities.
 
 They are not semantic meaning by themselves.
 
----
+______________________________________________________________________
 
-# 22. Chemical Layer
+## 22. Chemical Layer
 
 The Chemical Layer includes:
 
@@ -798,16 +796,16 @@ environment coupling
 
 Its role is to provide the physical substrate connecting quantum evolution to observable transitions.
 
----
+______________________________________________________________________
 
-# 23. Logical Layer
+## 23. Logical Layer
 
 The Logical Layer supplies a mapping:
 
 \[
-\Lambda:
+\\Lambda:
 PhysicalState
-\rightarrow
+\\rightarrow
 LogicalState
 \]
 
@@ -821,12 +819,12 @@ Example:
 or more generally:
 
 \[
-\Lambda(S_i)=L_i
+\\Lambda(S_i)=L_i
 \]
 
----
+______________________________________________________________________
 
-# 24. Logical Mapping Requirement
+## 24. Logical Mapping Requirement
 
 A valid QCLA implementation requires the mapping to be:
 
@@ -847,9 +845,9 @@ MOLECULAR DYNAMICS
 COMPUTATION
 ```
 
----
+______________________________________________________________________
 
-# 25. Computation Criterion
+## 25. Computation Criterion
 
 AMOS requires at minimum:
 
@@ -876,9 +874,9 @@ interconnect
 programmability
 ```
 
----
+______________________________________________________________________
 
-# 26. QCLA Computation Contract
+## 26. QCLA Computation Contract
 
 ```yaml
 QCLAComputation:
@@ -909,9 +907,9 @@ QCLAComputation:
   validation_receipt:
 ```
 
----
+______________________________________________________________________
 
-# 27. QCLA Coherence Model
+## 27. QCLA Coherence Model
 
 The source treats coherence as central.
 
@@ -928,9 +926,9 @@ system-level "coherence" metaphor
 
 These meanings cannot be silently substituted.
 
----
+______________________________________________________________________
 
-# 28. Typed Coherence
+## 28. Typed Coherence
 
 ```yaml
 Coherence:
@@ -959,9 +957,9 @@ Coherence:
   source:
 ```
 
----
+______________________________________________________________________
 
-# 29. Coherence Firewall
+## 29. Coherence Firewall
 
 ```text
 STRUCTURAL STABILITY
@@ -981,26 +979,25 @@ BIOLOGICAL ROBUSTNESS
 QUANTUM ERROR CORRECTION
 ```
 
----
+______________________________________________________________________
 
-# 30. Decoherence
+## 30. Decoherence
 
 AMOS represents an open-system state generally as:
 
 \[
-\rho(t)
+\\rho(t)
 \]
 
 rather than assuming a pure wavefunction.
 
 Candidate dynamics may require:
 
-\[
-\frac{d\rho}{dt}
-=
--\frac{i}{\hbar}[H,\rho]
-+
-\mathcal{D}(\rho)
+## \[ \\frac{d\\rho}{dt}
+
+-\\frac{i}{\\hbar}[H,\\rho]
+\+
+\\mathcal{D}(\\rho)
 \]
 
 where:
@@ -1012,9 +1009,9 @@ D = environmental/dissipative contribution
 
 This is standard model structure used for epistemic clarification, not a native QCLA equation.
 
----
+______________________________________________________________________
 
-# 31. QCLA Core Test
+## 31. QCLA Core Test
 
 The decisive experimental question is not:
 
@@ -1033,9 +1030,9 @@ computationally useful quantum/logical states
 under the claimed operating regime?
 ```
 
----
+______________________________________________________________________
 
-# 32. Minimum Experimental Demonstration
+## 32. Minimum Experimental Demonstration
 
 A minimum QCLA demonstration would require:
 
@@ -1061,9 +1058,9 @@ A minimum QCLA demonstration would require:
 1 falsifiable prediction
 ```
 
----
+______________________________________________________________________
 
-# 33. Stronger Demonstration
+## 33. Stronger Demonstration
 
 A stronger result would demonstrate:
 
@@ -1078,9 +1075,9 @@ scaling behavior
 independent replication
 ```
 
----
+______________________________________________________________________
 
-# 34. QCLA Failure Modes
+## 34. QCLA Failure Modes
 
 ```yaml
 QCLAFailureModes:
@@ -1112,9 +1109,9 @@ QCLAFailureModes:
   reproducibility_failure:
 ```
 
----
+______________________________________________________________________
 
-# 35. Candidate QCLA State Machine
+## 35. Candidate QCLA State Machine
 
 ```text
 UNINITIALIZED
@@ -1142,9 +1139,9 @@ READOUT_FAILURE
 UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 36. QCLA Control Loop
+## 36. QCLA Control Loop
 
 ```text
 PREPARE
@@ -1162,9 +1159,9 @@ CORRECT / RESET
 
 This is an AMOS operational normalization.
 
----
+______________________________________________________________________
 
-# 37. Molecular State Registry
+## 37. Molecular State Registry
 
 ```yaml
 MolecularStateRegistry:
@@ -1195,15 +1192,15 @@ MolecularStateRegistry:
       energy:
 ```
 
----
+______________________________________________________________________
 
-# 38. QCLA Transition Model
+## 38. QCLA Transition Model
 
 A transition may be represented as:
 
 \[
 S_i
-\xrightarrow{u,t}
+\\xrightarrow{u,t}
 S_j
 \]
 
@@ -1218,15 +1215,14 @@ S_j = resulting molecular state
 
 The logical operation is:
 
-\[
-L_j
-=
-\Lambda(S_j)
+## \[ L_j
+
+\\Lambda(S_j)
 \]
 
----
+______________________________________________________________________
 
-# 39. Determinism Boundary
+## 39. Determinism Boundary
 
 The source frequently uses deterministic framing.
 
@@ -1242,18 +1238,17 @@ REPRODUCIBLE DISTRIBUTION
 
 A quantum physical process need not produce an individually deterministic measurement result to support deterministic higher-level control semantics.
 
----
+______________________________________________________________________
 
-# 40. QCLA Ensemble Model
+## 40. QCLA Ensemble Model
 
 The source discusses molecular ensembles.
 
 AMOS represents an ensemble as:
 
-\[
-\mathcal{E}
-=
-\{M_1,M_2,\ldots,M_N\}
+## \[ \\mathcal{E}
+
+{M_1,M_2,\\ldots,M_N}
 \]
 
 with state distribution:
@@ -1273,9 +1268,9 @@ readout
 noise
 ```
 
----
+______________________________________________________________________
 
-# 41. Ensemble Firewall
+## 41. Ensemble Firewall
 
 ```text
 MORE MOLECULES
@@ -1291,9 +1286,9 @@ CHEMICAL REPLICATION
 COMPUTATIONAL COMPOSITION
 ```
 
----
+______________________________________________________________________
 
-# 42. Coherence Throughput
+## 42. Coherence Throughput
 
 The source introduces:
 
@@ -1303,14 +1298,13 @@ COPS
 
 as a coherence-oriented computation metric and gives a form resembling:
 
-\[
-COPS
-=
-N_{mol}
-\times
-\tau_c
-\times
-S_{logic}
+## \[ COPS
+
+N\_{mol}
+\\times
+\\tau_c
+\\times
+S\_{logic}
 \]
 
 AMOS stores this as:
@@ -1319,9 +1313,9 @@ AMOS stores this as:
 SOURCE_DEFINED_METRIC
 ```
 
----
+______________________________________________________________________
 
-# 43. COPS Validation Gap
+## 43. COPS Validation Gap
 
 Before COPS can function as a physical benchmark, the following require exact definitions:
 
@@ -1339,9 +1333,9 @@ comparison basis
 
 Dimensional consistency must also be established.
 
----
+______________________________________________________________________
 
-# 44. COPS Firewall
+## 44. COPS Firewall
 
 ```text
 SOURCE-REPORTED COPS
@@ -1361,16 +1355,15 @@ COPS
 ALGORITHM PERFORMANCE
 ```
 
----
+______________________________________________________________________
 
-# 45. Energy Model
+## 45. Energy Model
 
 The source references Landauer's bound:
 
-\[
-E_{min}
-=
-k_B T\ln2
+## \[ E\_{min}
+
+k_B T\\ln2
 \]
 
 AMOS recognizes this as the thermodynamic lower bound associated with logically irreversible bit erasure under specified assumptions.
@@ -1382,9 +1375,9 @@ any molecular computation
 operates at Landauer limit
 ```
 
----
+______________________________________________________________________
 
-# 46. Energy Firewall
+## 46. Energy Firewall
 
 ```text
 LANDauer BOUND
@@ -1404,9 +1397,9 @@ THERMODYNAMIC REVERSIBILITY
 AUTOMATIC PRACTICAL COMPUTATION
 ```
 
----
+______________________________________________________________________
 
-# 47. Below-Landauer Claim
+## 47. Below-Landauer Claim
 
 Any source claim that QCLA operates:
 
@@ -1424,9 +1417,9 @@ because Landauer's principle applies under specific logical and thermodynamic co
 
 No violation is accepted into empirical canon without extraordinary evidence.
 
----
+______________________________________________________________________
 
-# 48. QCLA Scalability
+## 48. QCLA Scalability
 
 The source proposes chemical scalability through:
 
@@ -1438,9 +1431,9 @@ hybrid arrays
 
 AMOS preserves these as candidate scaling modes.
 
----
+______________________________________________________________________
 
-# 49. Scaling Dimensions
+## 49. Scaling Dimensions
 
 ```yaml
 QCLAScaling:
@@ -1470,9 +1463,9 @@ QCLAScaling:
   logical_depth:
 ```
 
----
+______________________________________________________________________
 
-# 50. Scaling Law Firewall
+## 50. Scaling Law Firewall
 
 ```text
 MOLECULAR REPLICATION
@@ -1488,9 +1481,9 @@ HIGH DENSITY
 HIGH USABLE COMPUTE
 ```
 
----
+______________________________________________________________________
 
-# 51. QCLA Hybrid Architecture
+## 51. QCLA Hybrid Architecture
 
 A plausible source-consistent implementation class is:
 
@@ -1508,9 +1501,9 @@ DIGITAL INTERPRETATION
 
 This is a hybrid architecture.
 
----
+______________________________________________________________________
 
-# 52. Hybrid Interface Contract
+## 52. Hybrid Interface Contract
 
 ```yaml
 QCLAInterface:
@@ -1534,9 +1527,9 @@ QCLAInterface:
   error_budget:
 ```
 
----
+______________________________________________________________________
 
-# 53. QCLA Programming Model
+## 53. QCLA Programming Model
 
 The source frames QCLA programming as closer to:
 
@@ -1560,9 +1553,9 @@ physical constraints
 readout mapping
 ```
 
----
+______________________________________________________________________
 
-# 54. Program Representation
+## 54. Program Representation
 
 ```yaml
 QCLAProgram:
@@ -1590,15 +1583,15 @@ QCLAProgram:
   failure_condition:
 ```
 
----
+______________________________________________________________________
 
-# 55. Reaction Logic
+## 55. Reaction Logic
 
 For a chemically transformative implementation:
 
 \[
 R_i
-\xrightarrow{C}
+\\xrightarrow{C}
 R_j
 \]
 
@@ -1614,9 +1607,9 @@ REVERSIBLE LOGIC
 
 unless reset and reversibility properties are explicitly demonstrated.
 
----
+______________________________________________________________________
 
-# 56. Reversibility
+## 56. Reversibility
 
 QCLA must distinguish:
 
@@ -1630,9 +1623,9 @@ measurement/reset
 
 These have different computational and thermodynamic consequences.
 
----
+______________________________________________________________________
 
-# 57. QCLA × Biology
+## 57. QCLA × Biology
 
 The source frequently connects QCLA with biology and living systems.
 
@@ -1652,9 +1645,9 @@ BIOLOGY EXISTS
 BIOLOGY IS A GENERAL-PURPOSE QUANTUM COMPUTER
 ```
 
----
+______________________________________________________________________
 
-# 58. Biological Quantum Effects
+## 58. Biological Quantum Effects
 
 Candidate phenomena relevant to the QCLA research program may include:
 
@@ -1670,9 +1663,9 @@ enzyme dynamics
 
 Whether any specific phenomenon provides a useful QCLA computational primitive must be established separately.
 
----
+______________________________________________________________________
 
-# 59. Biology Firewall
+## 59. Biology Firewall
 
 ```text
 QUANTUM EFFECT IN BIOLOGY
@@ -1692,9 +1685,9 @@ HOMEOSTASIS
 QUANTUM ERROR CORRECTION
 ```
 
----
+______________________________________________________________________
 
-# 60. QCLA × Intelligence
+## 60. QCLA × Intelligence
 
 The source connects QCLA to intelligence.
 
@@ -1719,9 +1712,9 @@ QUANTUM COHERENCE
 INTELLIGENCE
 ```
 
----
+______________________________________________________________________
 
-# 61. Intelligence Firewall
+## 61. Intelligence Firewall
 
 ```text
 COMPUTATION
@@ -1741,9 +1734,9 @@ MOLECULAR RESPONSE
 THOUGHT
 ```
 
----
+______________________________________________________________________
 
-# 62. QCLA × UBI
+## 62. QCLA × UBI
 
 The corpus connects QCLA to Unified Biological Intelligence.
 
@@ -1765,9 +1758,9 @@ UBI
 
 The relationship is architectural/model-level unless independent evidence supports more.
 
----
+______________________________________________________________________
 
-# 63. QCLA × NeuroSyncAI
+## 63. QCLA × NeuroSyncAI
 
 The source contains analogical mappings to NeuroSyncAI.
 
@@ -1779,9 +1772,9 @@ MODEL_MAPPING
 
 unless executable or empirical bindings are established.
 
----
+______________________________________________________________________
 
-# 64. QCLA × DRA
+## 64. QCLA × DRA
 
 The corpus proposes a Deterministic Regulation Architecture for governance.
 
@@ -1797,9 +1790,9 @@ governance architecture
 
 The existence of one does not physically imply the other.
 
----
+______________________________________________________________________
 
-# 65. Governance Firewall
+## 65. Governance Firewall
 
 The source makes strong claims that ethics could be physically embedded through coherence.
 
@@ -1815,9 +1808,9 @@ not:
 VERIFIED_PHYSICAL_LAW
 ```
 
----
+______________________________________________________________________
 
-# 66. Ethics Boundary
+## 66. Ethics Boundary
 
 ```text
 PHYSICAL COHERENCE
@@ -1839,9 +1832,9 @@ NORMATIVE AUTHORITY
 
 Ethical decisions require explicit normative/governance layers.
 
----
+______________________________________________________________________
 
-# 67. QCLA Security Claims
+## 67. QCLA Security Claims
 
 The corpus proposes security properties based on:
 
@@ -1854,9 +1847,9 @@ logical integrity
 
 These remain source claims until threat models and implementations exist.
 
----
+______________________________________________________________________
 
-# 68. Security Firewall
+## 68. Security Firewall
 
 ```text
 MEASUREMENT DISTURBANCE
@@ -1876,9 +1869,9 @@ COHERENCE COLLAPSE
 SELF-DESTRUCTING SECURE COMPUTATION
 ```
 
----
+______________________________________________________________________
 
-# 69. Security Validation Contract
+## 69. Security Validation Contract
 
 ```yaml
 QCLASecurityValidation:
@@ -1906,9 +1899,9 @@ QCLASecurityValidation:
   evidence:
 ```
 
----
+______________________________________________________________________
 
-# 70. QCLA Economic Claims
+## 70. QCLA Economic Claims
 
 The source contains cost, energy, market, deployment, and superiority projections.
 
@@ -1929,9 +1922,9 @@ operational cost
 market study
 ```
 
----
+______________________________________________________________________
 
-# 71. Economic Firewall
+## 71. Economic Firewall
 
 ```text
 PROJECTED COST
@@ -1951,9 +1944,9 @@ MATERIAL AVAILABILITY
 MANUFACTURABILITY
 ```
 
----
+______________________________________________________________________
 
-# 72. QCLA Research Program
+## 72. QCLA Research Program
 
 AMOS converts QCLA from broad source claims into a falsifiable research program.
 
@@ -1975,9 +1968,9 @@ COMPOSITION
 SCALING
 ```
 
----
+______________________________________________________________________
 
-# 73. Hypothesis H1
+## 73. Hypothesis H1
 
 ```text
 A molecular system can encode
@@ -1992,9 +1985,9 @@ states cannot be reproducibly prepared
 or distinguished above noise.
 ```
 
----
+______________________________________________________________________
 
-# 74. Hypothesis H2
+## 74. Hypothesis H2
 
 ```text
 The encoded states can be transformed
@@ -2008,9 +2001,9 @@ transition distribution is not controllably
 different from uncontrolled evolution.
 ```
 
----
+______________________________________________________________________
 
-# 75. Hypothesis H3
+## 75. Hypothesis H3
 
 ```text
 The resulting state can be read
@@ -2024,9 +2017,9 @@ Falsifier:
 readout error exceeds useful threshold.
 ```
 
----
+______________________________________________________________________
 
-# 76. Hypothesis H4
+## 76. Hypothesis H4
 
 ```text
 The computational state remains usable
@@ -2040,9 +2033,9 @@ coherence / state retention becomes
 insufficient at target operating conditions.
 ```
 
----
+______________________________________________________________________
 
-# 77. Hypothesis H5
+## 77. Hypothesis H5
 
 ```text
 Multiple QCLUs can be composed
@@ -2057,9 +2050,9 @@ coupling destroys state distinguishability,
 control, or logical composability.
 ```
 
----
+______________________________________________________________________
 
-# 78. Hypothesis H6
+## 78. Hypothesis H6
 
 ```text
 QCLA provides a measurable advantage
@@ -2079,9 +2072,9 @@ specialized computation
 fabrication
 ```
 
----
+______________________________________________________________________
 
-# 79. Competing Hypotheses
+## 79. Competing Hypotheses
 
 AMOS preserves alternatives.
 
@@ -2110,9 +2103,9 @@ claimed effect results from measurement,
 modeling, or interpretation error.
 ```
 
----
+______________________________________________________________________
 
-# 80. Discriminating Tests
+## 80. Discriminating Tests
 
 High-information tests include:
 
@@ -2136,9 +2129,9 @@ blind repeatability
 cross-laboratory replication
 ```
 
----
+______________________________________________________________________
 
-# 81. Evidence Hierarchy
+## 81. Evidence Hierarchy
 
 ```text
 E0 source narrative
@@ -2162,9 +2155,9 @@ E8 independent system benchmark
 
 Current artifact status must not be inferred above available evidence.
 
----
+______________________________________________________________________
 
-# 82. QCLA Evidence Object
+## 82. QCLA Evidence Object
 
 ```yaml
 QCLAEvidence:
@@ -2207,9 +2200,9 @@ QCLAEvidence:
   confidence:
 ```
 
----
+______________________________________________________________________
 
-# 83. Provenance Topology
+## 83. Provenance Topology
 
 Multiple QCLA documents may descend from the same originating conversation/source.
 
@@ -2224,9 +2217,9 @@ FROM 1 ORIGINAL CLAIM
 
 not ten independent confirmations.
 
----
+______________________________________________________________________
 
-# 84. Source Identity
+## 84. Source Identity
 
 ```yaml
 QCLASourceIdentity:
@@ -2252,9 +2245,9 @@ QCLASourceIdentity:
   independence:
 ```
 
----
+______________________________________________________________________
 
-# 85. Name-Collision Registry
+## 85. Name-Collision Registry
 
 Because the corpus contains both Chemical and Causality QCLA:
 
@@ -2286,9 +2279,9 @@ QCLANameCollision:
     - DO_NOT_SILENTLY_MERGE
 ```
 
----
+______________________________________________________________________
 
-# 86. Canon Resolution Rule
+## 86. Canon Resolution Rule
 
 Merge only if native evidence establishes one of:
 
@@ -2301,19 +2294,19 @@ EXPLICIT_UNIFICATION
 
 Otherwise preserve two nodes.
 
----
+______________________________________________________________________
 
-# 87. QCLA Confidence Model
+## 87. QCLA Confidence Model
 
-For conclusion \(C\):
+For conclusion (C):
 
 \[
 Conf(C)
-\le
-\min_i Conf(P_i)
+\\le
+\\min_i Conf(P_i)
 \]
 
-where \(P_i\) are load-bearing premises.
+where (P_i) are load-bearing premises.
 
 Example:
 
@@ -2327,9 +2320,9 @@ therefore QCLA computer works        UNKNOWN
 
 The strong premise cannot compensate for the missing decisive premise.
 
----
+______________________________________________________________________
 
-# 88. QCLA Uncertainty Vector
+## 88. QCLA Uncertainty Vector
 
 ```yaml
 QCLAUncertainty:
@@ -2353,9 +2346,9 @@ QCLAUncertainty:
   provenance_independence:
 ```
 
----
+______________________________________________________________________
 
-# 89. Scope Envelope
+## 89. Scope Envelope
 
 ```yaml
 QCLAScope:
@@ -2385,9 +2378,9 @@ QCLAScope:
 
 No result may silently generalize beyond this envelope.
 
----
+______________________________________________________________________
 
-# 90. Regime Firewall
+## 90. Regime Firewall
 
 A result at:
 
@@ -2425,9 +2418,9 @@ does not prove:
 general computation
 ```
 
----
+______________________________________________________________________
 
-# 91. Causal Firewall
+## 91. Causal Firewall
 
 If molecular coherence correlates with a logical output:
 
@@ -2451,9 +2444,9 @@ selection bias
 hidden variables
 ```
 
----
+______________________________________________________________________
 
-# 92. Sensitivity
+## 92. Sensitivity
 
 For any QCLA conclusion, test the smallest premise capable of reversing it.
 
@@ -2472,26 +2465,26 @@ Does the claimed advantage disappear
 under classical simulation?
 ```
 
----
+______________________________________________________________________
 
-# 93. QCLA Benchmark Matrix
+## 93. QCLA Benchmark Matrix
 
-| Dimension | Required Measurement |
-|---|---|
-| State fidelity | preparation/readout |
-| Coherence | T1/T2 or relevant analogue |
-| Logic fidelity | operation error |
-| Energy | joules/operation |
-| Speed | operation time |
-| Density | usable logical units/volume |
-| Stability | lifetime / drift |
-| Scalability | error vs N |
-| Cost | actual BOM |
-| Reproducibility | independent trials |
+| Dimension       | Required Measurement        |
+| --------------- | --------------------------- |
+| State fidelity  | preparation/readout         |
+| Coherence       | T1/T2 or relevant analogue  |
+| Logic fidelity  | operation error             |
+| Energy          | joules/operation            |
+| Speed           | operation time              |
+| Density         | usable logical units/volume |
+| Stability       | lifetime / drift            |
+| Scalability     | error vs N                  |
+| Cost            | actual BOM                  |
+| Reproducibility | independent trials          |
 
----
+______________________________________________________________________
 
-# 94. Benchmark Baselines
+## 94. Benchmark Baselines
 
 Appropriate comparison depends on task.
 
@@ -2512,9 +2505,9 @@ classical simulation
 
 QCLA must not be compared only against the weakest baseline.
 
----
+______________________________________________________________________
 
-# 95. QCLA Validation Ladder
+## 95. QCLA Validation Ladder
 
 ```text
 V0 CONCEPT
@@ -2538,9 +2531,9 @@ V8 INDEPENDENT REPLICATION
 V9 TASK ADVANTAGE
 ```
 
----
+______________________________________________________________________
 
-# 96. Current Validation State
+## 96. Current Validation State
 
 From the sources retrieved for this artifact:
 
@@ -2566,9 +2559,9 @@ V8 REPLICATION           NOT ESTABLISHED HERE
 V9 ADVANTAGE             NOT ESTABLISHED HERE
 ```
 
----
+______________________________________________________________________
 
-# 97. Implementation Status
+## 97. Implementation Status
 
 ```yaml
 implementation:
@@ -2601,9 +2594,9 @@ implementation:
     state: NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 98. QCLA × AMOS Cognitive Matrix
+## 98. QCLA × AMOS Cognitive Matrix
 
 QCLA maps naturally onto Cognitive Matrix primitives through:
 
@@ -2623,28 +2616,28 @@ QCLA supplies a candidate
 physical-to-logical substrate model.
 ```
 
----
+______________________________________________________________________
 
-# 99. Matrix Mapping
+## 99. Matrix Mapping
 
-| QCLA Object | Cognitive Matrix Function |
-|---|---|
-| Molecule | substrate |
-| Quantum state | state |
-| Chemical configuration | structure |
-| Excitation | input |
-| Evolution | transition |
-| Logic mapping | representation |
-| Measurement | observation |
-| Feedback | control |
-| Decoherence | failure |
-| Reset | recovery |
-| Ensemble | scale |
-| QCLU | cell/unit |
+| QCLA Object            | Cognitive Matrix Function |
+| ---------------------- | ------------------------- |
+| Molecule               | substrate                 |
+| Quantum state          | state                     |
+| Chemical configuration | structure                 |
+| Excitation             | input                     |
+| Evolution              | transition                |
+| Logic mapping          | representation            |
+| Measurement            | observation               |
+| Feedback               | control                   |
+| Decoherence            | failure                   |
+| Reset                  | recovery                  |
+| Ensemble               | scale                     |
+| QCLU                   | cell/unit                 |
 
----
+______________________________________________________________________
 
-# 100. QCLA Cell Model
+## 100. QCLA Cell Model
 
 ```yaml
 CognitiveMatrixCell:
@@ -2674,9 +2667,9 @@ CognitiveMatrixCell:
   provenance:
 ```
 
----
+______________________________________________________________________
 
-# 101. QCLA Lifecycle
+## 101. QCLA Lifecycle
 
 ```text
 DESIGN
@@ -2691,9 +2684,9 @@ DESIGN
 → SCALE
 ```
 
----
+______________________________________________________________________
 
-# 102. QCLA Design Phase
+## 102. QCLA Design Phase
 
 Determine:
 
@@ -2706,9 +2699,9 @@ measurement channel
 computational mapping
 ```
 
----
+______________________________________________________________________
 
-# 103. Synthesis Phase
+## 103. Synthesis Phase
 
 Create candidate substrate.
 
@@ -2723,9 +2716,9 @@ supplier/source
 storage
 ```
 
----
+______________________________________________________________________
 
-# 104. Characterization Phase
+## 104. Characterization Phase
 
 Measure:
 
@@ -2738,9 +2731,9 @@ environmental sensitivity
 candidate coherence properties
 ```
 
----
+______________________________________________________________________
 
-# 105. Encoding Phase
+## 105. Encoding Phase
 
 Define:
 
@@ -2752,9 +2745,9 @@ before interpreting experimental outputs.
 
 Post-hoc encoding is not sufficient.
 
----
+______________________________________________________________________
 
-# 106. Operation Phase
+## 106. Operation Phase
 
 Apply a defined control:
 
@@ -2766,13 +2759,13 @@ to generate candidate transformation:
 
 \[
 S_t
-\rightarrow
-S_{t+\Delta t}
+\\rightarrow
+S\_{t+\\Delta t}
 \]
 
----
+______________________________________________________________________
 
-# 107. Read Phase
+## 107. Read Phase
 
 Observe the output through a defined measurement operator:
 
@@ -2782,15 +2775,14 @@ M
 
 and derive:
 
-\[
-L
-=
-\Lambda(M(S))
+## \[ L
+
+\\Lambda(M(S))
 \]
 
----
+______________________________________________________________________
 
-# 108. Validation Phase
+## 108. Validation Phase
 
 Compare:
 
@@ -2809,9 +2801,9 @@ null hypothesis
 alternative models
 ```
 
----
+______________________________________________________________________
 
-# 109. Reset Phase
+## 109. Reset Phase
 
 A computational unit must have a practical return path.
 
@@ -2823,9 +2815,9 @@ OUTPUT STATE
 
 or a documented replacement/reinitialization mechanism.
 
----
+______________________________________________________________________
 
-# 110. Scaling Phase
+## 110. Scaling Phase
 
 Increase:
 
@@ -2846,9 +2838,9 @@ readout burden
 yield
 ```
 
----
+______________________________________________________________________
 
-# 111. QCLA Failure Recovery
+## 111. QCLA Failure Recovery
 
 ```text
 FAILED STATE PREPARATION
@@ -2871,9 +2863,9 @@ SCALING FAILURE
 without extrapolation
 ```
 
----
+______________________________________________________________________
 
-# 112. Local Invalidation
+## 112. Local Invalidation
 
 If:
 
@@ -2901,9 +2893,9 @@ cryogenic molecular computation
 
 Invalidate only dependent conclusions.
 
----
+______________________________________________________________________
 
-# 113. QCLA Adversarial Validation
+## 113. QCLA Adversarial Validation
 
 For every consequential QCLA claim, challenge:
 
@@ -2925,9 +2917,9 @@ Does the advantage survive full-system overhead?
 Does scaling introduce hidden costs?
 ```
 
----
+______________________________________________________________________
 
-# 114. Strongest Falsifiers
+## 114. Strongest Falsifiers
 
 High-value falsifiers include:
 
@@ -2950,9 +2942,9 @@ claimed energy advantage disappears
 under full-system accounting
 ```
 
----
+______________________________________________________________________
 
-# 115. QCLA Proof Capsule
+## 115. QCLA Proof Capsule
 
 ```yaml
 QCLAProofCapsule:
@@ -2990,9 +2982,9 @@ QCLAProofCapsule:
   invalidation_conditions: []
 ```
 
----
+______________________________________________________________________
 
-# 116. QCLA RSCF
+## 116. QCLA RSCF
 
 ```yaml
 RSCF:
@@ -3046,9 +3038,9 @@ RSCF:
     implementation: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 117. H/M/L Retrieval
+## 117. H/M/L Retrieval
 
 ## H — Framework
 
@@ -3093,9 +3085,9 @@ exact claim
 
 Native source only when exact wording or source-specific detail can change the result.
 
----
+______________________________________________________________________
 
-# 118. Retrieval Examples
+## 118. Retrieval Examples
 
 ```yaml
 "What is QCLA?":
@@ -3150,9 +3142,9 @@ Native source only when exact wording or source-specific detail can change the r
     - intelligence_firewall
 ```
 
----
+______________________________________________________________________
 
-# 119. Canon Ingestion Rule
+## 119. Canon Ingestion Rule
 
 ```yaml
 AMOS_CANON_INGESTION_RULE:
@@ -3205,9 +3197,9 @@ AMOS_CANON_INGESTION_RULE:
       - NEVER_INVENT_CANON
 ```
 
----
+______________________________________________________________________
 
-# 120. Contract Discipline
+## 120. Contract Discipline
 
 ```text
 typed physical states
@@ -3226,9 +3218,9 @@ typed physical states
 · UNKNOWN/GAP visible
 ```
 
----
+______________________________________________________________________
 
-# 121. Promotion Gate — Architecture
+## 121. Promotion Gate — Architecture
 
 Before QCLA can move from:
 
@@ -3247,9 +3239,9 @@ to stronger architectural canon:
 - [ ] terminology registry complete
 - [ ] contradictions registered
 
----
+______________________________________________________________________
 
-# 122. Promotion Gate — Physical Model
+## 122. Promotion Gate — Physical Model
 
 Before a QCLA physical claim is `VALIDATED`:
 
@@ -3266,9 +3258,9 @@ Before a QCLA physical claim is `VALIDATED`:
 - [ ] raw data retained
 - [ ] statistical analysis retained
 
----
+______________________________________________________________________
 
-# 123. Promotion Gate — Computational Primitive
+## 123. Promotion Gate — Computational Primitive
 
 Before `QCLU_IMPLEMENTED`:
 
@@ -3281,9 +3273,9 @@ Before `QCLU_IMPLEMENTED`:
 - [ ] error characterized
 - [ ] classical alternative tested
 
----
+______________________________________________________________________
 
-# 124. Promotion Gate — Processor
+## 124. Promotion Gate — Processor
 
 Before `QCLA_PROCESSOR`:
 
@@ -3297,9 +3289,9 @@ Before `QCLA_PROCESSOR`:
 - [ ] useful algorithm/task executed
 - [ ] independent replication
 
----
+______________________________________________________________________
 
-# 125. Promotion Gate — Advantage
+## 125. Promotion Gate — Advantage
 
 Before claiming QCLA advantage:
 
@@ -3314,9 +3306,9 @@ Before claiming QCLA advantage:
 - [ ] uncertainty reported
 - [ ] independent benchmark
 
----
+______________________________________________________________________
 
-# 126. Critical Gaps
+## 126. Critical Gaps
 
 ```yaml
 gaps:
@@ -3386,9 +3378,9 @@ gaps:
     state: NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 127. Worked Semantics
+## 127. Worked Semantics
 
 Given a claim:
 
@@ -3470,9 +3462,9 @@ not:
 VERIFIED
 ```
 
----
+______________________________________________________________________
 
-# 128. Worked Semantics — Decoherence
+## 128. Worked Semantics — Decoherence
 
 Claim:
 
@@ -3500,9 +3492,9 @@ If source supplies no experiment establishing elimination:
 NOT VERIFIED
 ```
 
----
+______________________________________________________________________
 
-# 129. Worked Semantics — Biology
+## 129. Worked Semantics — Biology
 
 Claim:
 
@@ -3528,9 +3520,9 @@ does not entail:
 QCLA computational architecture is correct.
 ```
 
----
+______________________________________________________________________
 
-# 130. Worked Semantics — Landauer
+## 130. Worked Semantics — Landauer
 
 Claim:
 
@@ -3555,9 +3547,9 @@ Without those:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 131. Worked Semantics — Intelligence
+## 131. Worked Semantics — Intelligence
 
 Claim:
 
@@ -3577,9 +3569,9 @@ QCLA substrate works
 
 Failure of any load-bearing premise prevents promotion.
 
----
+______________________________________________________________________
 
-# 132. Worked Semantics — Security
+## 132. Worked Semantics — Security
 
 Claim:
 
@@ -3596,9 +3588,9 @@ NOT VALIDATED
 
 because security requires a threat model and implementation-specific analysis.
 
----
+______________________________________________________________________
 
-# 133. QCLA Decision State
+## 133. QCLA Decision State
 
 ```yaml
 QCLADecision:
@@ -3630,9 +3622,9 @@ QCLADecision:
   receipt:
 ```
 
----
+______________________________________________________________________
 
-# 134. QCLA Research Receipt
+## 134. QCLA Research Receipt
 
 ```yaml
 QCLAExperimentReceipt:
@@ -3678,9 +3670,9 @@ QCLAExperimentReceipt:
   replication_status:
 ```
 
----
+______________________________________________________________________
 
-# 135. QCLA Canonical Research Pipeline
+## 135. QCLA Canonical Research Pipeline
 
 ```text
 SOURCE CLAIM
@@ -3702,9 +3694,9 @@ REPLICATE
 PROMOTE / DOWNGRADE / REJECT
 ```
 
----
+______________________________________________________________________
 
-# 136. AMOS × QCLA Adaptive Complexity
+## 136. AMOS × QCLA Adaptive Complexity
 
 ```text
 C0
@@ -3731,9 +3723,9 @@ national infrastructure
 
 Higher stakes require stronger validation.
 
----
+______________________________________________________________________
 
-# 137. QCLA Action Governance
+## 137. QCLA Action Governance
 
 For research:
 
@@ -3748,9 +3740,9 @@ MODEL
 
 Prefer reversible, low-cost tests before large physical commitments.
 
----
+______________________________________________________________________
 
-# 138. Cheapest High-Information Test
+## 138. Cheapest High-Information Test
 
 For the core QCLA thesis, the preferred first discriminating experiment is not a full processor.
 
@@ -3774,9 +3766,9 @@ QUANTUM/CLASSICAL DISCRIMINATION
 
 If this fails decisively, many downstream QCLA claims lose support.
 
----
+______________________________________________________________________
 
-# 139. QCLA Canonical Capsule
+## 139. QCLA Canonical Capsule
 
 ```yaml
 QCLA_CAPSULE:
@@ -3846,9 +3838,9 @@ QCLA_CAPSULE:
     - SOURCE_CLAIM_NE_VERIFIED
 ```
 
----
+______________________________________________________________________
 
-# 140. Proof Capsule
+## 140. Proof Capsule
 
 ```yaml
 PROOF_CAPSULE:
@@ -3916,9 +3908,9 @@ PROOF_CAPSULE:
     implementation: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 141. Final Canonical Statement
+## 141. Final Canonical Statement
 
 AMOS × QCLA represents a source-defined attempt to construct computation at the intersection of:
 
@@ -4027,7 +4019,7 @@ WITHOUT BEING EMPIRICAL TRUTH.
 UNKNOWN/GAP REMAINS VISIBLE.
 ```
 
----
+______________________________________________________________________
 
 ## Source Lineage
 
@@ -4057,15 +4049,15 @@ WITH CAUSALITY-QCLA
 WITHOUT EXPLICIT LINEAGE EVIDENCE.
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|AMOS MOC]]
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]
 
----
+______________________________________________________________________
 
 RSCF-NODE
 
@@ -4083,27 +4075,26 @@ canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
 
 RSCF-RELATIONS:
 
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
-  - GOVERNED_BY: [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- GOVERNED_BY: [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
 
-  - RELATED_TO: QUANTUM_CHEMICAL_LOGIC_ARCHITECTURE_QCLA
+- RELATED_TO: QUANTUM_CHEMICAL_LOGIC_ARCHITECTURE_QCLA
 
-  - RELATED_TO: QUANTUM_MOC
+- RELATED_TO: QUANTUM_MOC
 
-  - RELATED_TO: AMOS_QUANTUM_STACK_V0_CORE
+- RELATED_TO: AMOS_QUANTUM_STACK_V0_CORE
 
-  - RELATED_TO: UBI
+- RELATED_TO: UBI
 
-  - RELATED_TO: NEUROSYNCAI
+- RELATED_TO: NEUROSYNCAI
 
-  - COMPETING_NAME_WITH: QUANTUM_CAUSALITY_LAYER_ARCHITECTURE_QCLA_OFF
+- COMPETING_NAME_WITH: QUANTUM_CAUSALITY_LAYER_ARCHITECTURE_QCLA_OFF
 
-  - INDEXED_BY: [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]
+- INDEXED_BY: [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]
 
----
+______________________________________________________________________
 
 **MOC:** [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]
-

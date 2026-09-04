@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: L01 SENSING OBSERVATION PRIMITIVES COGNITIVE MATRIX INVARIANTS
 type: invariant
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION
 tags:
-- cognitive-matrix
-- primitives
-- matrix/l01-sensing-observation
-- note
-- domain/cognitive-matrix
+  - cognitive-matrix
+  - primitives
+  - matrix/l01-sensing-observation
+  - note
+  - domain/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -27,9 +30,9 @@ rscf:
 
 > **Epistemic boundary:** this document defines the proposed invariant contract for `L01_SENSING_OBSERVATION`. It formalizes integrity conditions for observations entering AMOS reasoning. Unless explicitly bound to direct source canon, these invariants are AMOS MODEL reconstructions and must not be represented as empirically universal laws or already implemented runtime guarantees.
 
----
+______________________________________________________________________
 
-# 0. Purpose
+## 0. Purpose
 
 `L01_SENSING_OBSERVATION/INVARIANTS.md` defines the conditions that must remain true while AMOS acquires, represents, transforms, aggregates, validates, persists, and reuses observations.
 
@@ -67,9 +70,9 @@ PASS
 
 The invariant layer is therefore a **constraint layer**, not an evidence generator.
 
----
+______________________________________________________________________
 
-# 1. Source / Canon References
+## 1. Source / Canon References
 
 ## 1.1 Origin
 
@@ -147,19 +150,19 @@ MODEL INVARIANT
 EXECUTABLE ENFORCEMENT
 ```
 
----
+______________________________________________________________________
 
-# 2. Definition
+## 2. Definition
 
 An `L01_SENSING_OBSERVATION` invariant is a condition that must remain satisfied for an observation state or observation transformation to be considered admissible within its declared AMOS scope.
 
 Define an observation state:
 
-[
+\[
 O =
 (
 x,
-\tau,
+\\tau,
 s,
 m,
 p,
@@ -168,7 +171,7 @@ u,
 r,
 e
 )
-]
+\]
 
 where:
 
@@ -186,12 +189,12 @@ e = epistemic class
 
 An invariant is represented conceptually as:
 
-[
-\boxed{
-I_k(O,T,C) \in
+\[
+\\boxed{
+I_k(O,T,C) \\in
 {PASS,FAIL,UNKNOWN}
 }
-]
+\]
 
 where:
 
@@ -209,9 +212,9 @@ UNKNOWN
 PASS
 ```
 
----
+______________________________________________________________________
 
-# 3. Scope
+## 3. Scope
 
 This contract governs invariant checking for:
 
@@ -245,9 +248,9 @@ authority to act
 
 Those require their own evidence and validation.
 
----
+______________________________________________________________________
 
-# 4. Typed Inputs
+## 4. Typed Inputs
 
 ```yaml
 InvariantCheckInput:
@@ -295,9 +298,9 @@ InvariantCheckInput:
     type: ValidationContext
 ```
 
----
+______________________________________________________________________
 
-# 5. Typed Outputs
+## 5. Typed Outputs
 
 ```yaml
 InvariantCheckResult:
@@ -344,9 +347,9 @@ InvariantCheckResult:
     type: ConfidenceCeiling
 ```
 
----
+______________________________________________________________________
 
-# 6. State Variables
+## 6. State Variables
 
 ```text
 O = observation state
@@ -386,10 +389,10 @@ K = commit eligibility
 
 Extended invariant tensor:
 
-[
-\boxed{
+\[
+\\boxed{
 T_I =
-T[
+T\[
 invariant,
 observation,
 scale,
@@ -402,13 +405,13 @@ uncertainty,
 authority,
 dependency,
 result
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 7. Operators
+## 7. Operators
 
 Invariant-related operators include:
 
@@ -454,9 +457,9 @@ DOWNGRADE(OBSERVATION)
 
 may alter validation status, but must not rewrite historical provenance.
 
----
+______________________________________________________________________
 
-# 8. Invariant Result Algebra
+## 8. Invariant Result Algebra
 
 Each invariant produces:
 
@@ -466,17 +469,14 @@ FAIL
 UNKNOWN
 ```
 
-For blocking invariant set \(B\):
+For blocking invariant set (B):
 
-[
-\boxed{
-Admissible(O)
-=============
+## \[ \\boxed{ Admissible(O)
 
-\bigwedge_{i\in B}
+\\bigwedge\_{i\\in B}
 [I_i(O)=PASS]
 }
-]
+\]
 
 A blocking `FAIL` prevents promotion.
 
@@ -484,15 +484,15 @@ A blocking `UNKNOWN` prevents a validated `PASS`.
 
 Therefore:
 
-[
-\boxed{
-UNKNOWN \not\equiv PASS
+\[
+\\boxed{
+UNKNOWN \\not\\equiv PASS
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 9. Core Invariant Registry
+## 9. Core Invariant Registry
 
 The minimum proposed L01 registry is:
 
@@ -534,21 +534,21 @@ L01-INV-034  Critical Exception Preservation
 L01-INV-035  Unknown Preservation
 ```
 
----
+______________________________________________________________________
 
-# 10. L01-INV-001 — Observation / Reality Distinction
+## 10. L01-INV-001 — Observation / Reality Distinction
 
 An observation is evidence about a target.
 
 It is not identical to the target itself.
 
-[
-\boxed{
+\[
+\\boxed{
 Observation(x)
-\neq
+\\neq
 Reality(x)
 }
-]
+\]
 
 Therefore:
 
@@ -570,9 +570,9 @@ instrument-dependent
 observer-dependent
 ```
 
----
+______________________________________________________________________
 
-# 11. L01-INV-002 — Signal / Observation Distinction
+## 11. L01-INV-002 — Signal / Observation Distinction
 
 Raw input does not automatically constitute a valid observation.
 
@@ -592,25 +592,25 @@ OBSERVATION
 
 Thus:
 
-[
-\boxed{
+\[
+\\boxed{
 Signal
-\neq
+\\neq
 ValidatedObservation
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 12. L01-INV-003 — Observation / Inference Distinction
+## 12. L01-INV-003 — Observation / Inference Distinction
 
 A derived conclusion must not be represented as directly observed.
 
 If:
 
-[
-D=f(O_1,\ldots,O_n)
-]
+\[
+D=f(O_1,\\ldots,O_n)
+\]
 
 then normally:
 
@@ -626,9 +626,9 @@ D.class = OBSERVATION
 
 unless `D` is independently observed.
 
----
+______________________________________________________________________
 
-# 13. L01-INV-004 — Source Identity Preservation
+## 13. L01-INV-004 — Source Identity Preservation
 
 Every material observation must retain source identity or explicitly record that source identity is unknown.
 
@@ -649,35 +649,35 @@ source omitted
 treated as trusted
 ```
 
----
+______________________________________________________________________
 
-# 14. L01-INV-005 — Provenance Preservation
+## 14. L01-INV-005 — Provenance Preservation
 
-For every observation \(O\):
+For every observation (O):
 
-[
-\boxed{
-P(O) \neq \varnothing
+\[
+\\boxed{
+P(O) \\neq \\varnothing
 }
-]
+\]
 
 for validated reuse, unless provenance is explicitly classified `UNKNOWN`.
 
 Transformation must preserve ancestry:
 
-[
-\boxed{
+\[
+\\boxed{
 P(T(O))
-\supseteq
+\\supseteq
 P(O)
 }
-]
+\]
 
 conceptually, through lineage references rather than necessarily copying all raw evidence.
 
----
+______________________________________________________________________
 
-# 15. L01-INV-006 — Temporal Binding
+## 15. L01-INV-006 — Temporal Binding
 
 Every time-sensitive observation must bind to:
 
@@ -700,19 +700,19 @@ into:
 IS TRUE NOW
 ```
 
----
+______________________________________________________________________
 
-# 16. L01-INV-007 — Scope Binding
+## 16. L01-INV-007 — Scope Binding
 
 Every material observation has an applicability envelope.
 
-[
-\boxed{
+\[
+\\boxed{
 ClaimScope
-\subseteq
+\\subseteq
 LicensedObservationScope
 }
-]
+\]
 
 unless independent evidence licenses broader scope.
 
@@ -732,9 +732,9 @@ one region
 global environment
 ```
 
----
+______________________________________________________________________
 
-# 17. L01-INV-008 — Regime Binding
+## 17. L01-INV-008 — Regime Binding
 
 Observation validity is regime-sensitive when the underlying system is regime-sensitive.
 
@@ -748,9 +748,9 @@ UNKNOWN
 
 must not be silently merged when regime materially affects interpretation.
 
----
+______________________________________________________________________
 
-# 18. L01-INV-009 — Observer Binding
+## 18. L01-INV-009 — Observer Binding
 
 Where observer dependence is material, preserve:
 
@@ -763,9 +763,9 @@ what access boundary existed
 
 Observer disagreement must remain visible until reconciled.
 
----
+______________________________________________________________________
 
-# 19. L01-INV-010 — Method Binding
+## 19. L01-INV-010 — Method Binding
 
 Measurement/observation method must remain attached when it affects interpretation.
 
@@ -782,17 +782,17 @@ model classifier
 
 Two values produced by materially different methods are not automatically measurement-equivalent.
 
----
+______________________________________________________________________
 
-# 20. L01-INV-011 — Unit / Type Integrity
+## 20. L01-INV-011 — Unit / Type Integrity
 
 Typed observations must not be combined unless units and semantic types are compatible.
 
-[
-\boxed{
+\[
+\\boxed{
 CompatibleType(O_i,O_j)
 }
-]
+\]
 
 is required before arithmetic combination.
 
@@ -810,9 +810,9 @@ event probability + confidence score
 
 without explicit conversion.
 
----
+______________________________________________________________________
 
-# 21. L01-INV-012 — Resolution Integrity
+## 21. L01-INV-012 — Resolution Integrity
 
 Resolution must remain distinct from certainty and coverage.
 
@@ -828,21 +828,21 @@ HIGH COVERAGE
 
 A precise local measurement may still poorly represent the larger system.
 
----
+______________________________________________________________________
 
-# 22. L01-INV-013 — Coverage Integrity
+## 22. L01-INV-013 — Coverage Integrity
 
 Observation claims must not exceed observation coverage.
 
 Conceptually:
 
-[
-\boxed{
+\[
+\\boxed{
 ScopeClaim(O)
-\le
+\\le
 CoverageLicensed(O)
 }
-]
+\]
 
 where coverage is domain-defined.
 
@@ -854,19 +854,19 @@ coverage = UNKNOWN
 
 rather than inventing a value.
 
----
+______________________________________________________________________
 
-# 23. L01-INV-014 — Missingness Integrity
+## 23. L01-INV-014 — Missingness Integrity
 
 Mandatory invariant:
 
-[
-\boxed{
+\[
+\\boxed{
 Unobserved
-\neq
+\\neq
 Absent
 }
-]
+\]
 
 unless detection conditions justify absence inference.
 
@@ -884,50 +884,47 @@ DOES NOT EXIST
 
 without an adequate observation model.
 
----
+______________________________________________________________________
 
-# 24. L01-INV-015 — Uncertainty Preservation
+## 24. L01-INV-015 — Uncertainty Preservation
 
 Observation transformations must preserve material uncertainty.
 
-[
-\boxed{
-U_{out}
-=======
+## \[ \\boxed{ U\_{out}
 
-Propagate(U_{in},U_{transform})
+Propagate(U\_{in},U\_{transform})
 }
-]
+\]
 
 not:
 
-[
-U_{out}=0
-]
+\[
+U\_{out}=0
+\]
 
 merely because a transformation completed.
 
----
+______________________________________________________________________
 
-# 25. L01-INV-016 — Confidence Ceiling
+## 25. L01-INV-016 — Confidence Ceiling
 
-For a conclusion \(C\) depending on load-bearing premises \(P_i\):
+For a conclusion (C) depending on load-bearing premises (P_i):
 
-[
-\boxed{
+\[
+\\boxed{
 Conf(C)
-\le
-\min_i Conf(P_i)
+\\le
+\\min_i Conf(P_i)
 }
-]
+\]
 
 unless independently revalidated.
 
 This is a reasoning-governance ceiling, not a universal statistical theorem.
 
----
+______________________________________________________________________
 
-# 26. L01-INV-017 — Epistemic-Class Preservation
+## 26. L01-INV-017 — Epistemic-Class Preservation
 
 Allowed evidence classes:
 
@@ -958,9 +955,9 @@ DERIVED
 DIRECTLY OBSERVED
 ```
 
----
+______________________________________________________________________
 
-# 27. L01-INV-018 — H/M/L Scale Integrity
+## 27. L01-INV-018 — H/M/L Scale Integrity
 
 Every decision-relevant observation must preserve its scale when scale matters.
 
@@ -982,21 +979,21 @@ H
 
 unless a valid mapping explicitly relates them.
 
----
+______________________________________________________________________
 
-# 28. L01-INV-019 — Aggregation Integrity
+## 28. L01-INV-019 — Aggregation Integrity
 
 For:
 
-[
-O_M=A_{L\rightarrow M}\(O_L\)
-]
+\[
+O_M=A\_{L\\rightarrow M}(O_L)
+\]
 
 and:
 
-[
-O_H=A_{M\rightarrow H}\(O_M\)
-]
+\[
+O_H=A\_{M\\rightarrow H}(O_M)
+\]
 
 aggregation must preserve:
 
@@ -1012,9 +1009,9 @@ epistemic class
 
 Aggregation does not prove identity.
 
----
+______________________________________________________________________
 
-# 29. L01-INV-020 — Heterogeneity Preservation
+## 29. L01-INV-020 — Heterogeneity Preservation
 
 Decision-relevant variation must survive aggregation.
 
@@ -1029,9 +1026,9 @@ L4 = critical
 
 an aggregate must not erase `L4` when it can change the decision.
 
----
+______________________________________________________________________
 
-# 30. L01-INV-021 — Contradiction Visibility
+## 30. L01-INV-021 — Contradiction Visibility
 
 Conflicting observations must not be silently collapsed.
 
@@ -1046,27 +1043,27 @@ as conflict or competing evidence until resolved.
 
 Mandatory:
 
-[
-\boxed{
+\[
+\\boxed{
 Contradiction
-\neq
+\\neq
 PermissionToAverage
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 31. L01-INV-022 — Provenance Independence
+## 31. L01-INV-022 — Provenance Independence
 
 Multiple observations sharing one root source must not automatically count as independent evidence.
 
-[
-\boxed{
-N_{effective}
-\le
-N_{demonstrated\ independent\ provenance\ families}
+\[
+\\boxed{
+N\_{effective}
+\\le
+N\_{demonstrated\\ independent\\ provenance\\ families}
 }
-]
+\]
 
 Therefore:
 
@@ -1076,9 +1073,9 @@ REPETITION
 INDEPENDENT CONFIRMATION
 ```
 
----
+______________________________________________________________________
 
-# 32. L01-INV-023 — Causal Firewall
+## 32. L01-INV-023 — Causal Firewall
 
 Observation licenses descriptive evidence first.
 
@@ -1104,9 +1101,9 @@ CAUSATION
 
 Causal promotion requires separately typed evidence.
 
----
+______________________________________________________________________
 
-# 33. L01-INV-024 — Capability / Authority Separation
+## 33. L01-INV-024 — Capability / Authority Separation
 
 An agent/tool may be technically capable of observing or transforming data without having authority to:
 
@@ -1121,17 +1118,17 @@ trigger action
 
 Thus:
 
-[
-\boxed{
+\[
+\\boxed{
 Capability
-\neq
+\\neq
 Authority
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 34. L01-INV-025 — Proposal / Commit Separation
+## 34. L01-INV-025 — Proposal / Commit Separation
 
 Observation processing may produce a proposal.
 
@@ -1153,52 +1150,49 @@ COMMIT
 
 Mandatory:
 
-[
-\boxed{
+\[
+\\boxed{
 Proposal
-\neq
+\\neq
 Commit
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 35. L01-INV-026 — Freshness
+## 35. L01-INV-026 — Freshness
 
 Time-sensitive observation validity requires freshness.
 
 Conceptually:
 
-[
-\boxed{
-ValidNow
-========
+## \[ \\boxed{ ValidNow
 
 ValidThen
-\land
+\\land
 RegimeCompatible
-\land
+\\land
 FreshEnough
-\land
-\neg FalsifierTriggered
+\\land
+\\neg FalsifierTriggered
 }
-]
+\]
 
 Freshness threshold is domain-specific.
 
 Do not invent one globally.
 
----
+______________________________________________________________________
 
-# 36. L01-INV-027 — Dependency Validity
+## 36. L01-INV-027 — Dependency Validity
 
 A derived observation state remains reusable only while its load-bearing dependencies remain valid.
 
-If premise \(P\) fails:
+If premise (P) fails:
 
-[
-P\rightarrow D_1\rightarrow D_2
-]
+\[
+P\\rightarrow D_1\\rightarrow D_2
+\]
 
 invalidate:
 
@@ -1209,19 +1203,19 @@ D2
 
 but not unrelated state.
 
----
+______________________________________________________________________
 
-# 37. L01-INV-028 — Selective Invalidation
+## 37. L01-INV-028 — Selective Invalidation
 
 Failure recovery should invalidate only affected descendants.
 
-[
-\boxed{
+\[
+\\boxed{
 Invalidate(P)
-\Rightarrow
+\\Rightarrow
 Invalidate(Descendants(P))
 }
-]
+\]
 
 not:
 
@@ -1231,9 +1225,9 @@ invalidate entire knowledge state
 
 unless dependency closure requires it.
 
----
+______________________________________________________________________
 
-# 38. L01-INV-029 — Simulation / Observation Separation
+## 38. L01-INV-029 — Simulation / Observation Separation
 
 Synthetic, simulated, counterfactual, and predicted states must remain distinct from observations.
 
@@ -1255,9 +1249,9 @@ SYNTHETIC DATA
 MEASURED DATA
 ```
 
----
+______________________________________________________________________
 
-# 39. L01-INV-030 — Memory / Current Observation Separation
+## 39. L01-INV-030 — Memory / Current Observation Separation
 
 Stored historical observations must not automatically become current observations.
 
@@ -1273,9 +1267,9 @@ OBSERVATION("X is currently true")
 
 Reobservation may be required.
 
----
+______________________________________________________________________
 
-# 40. L01-INV-031 — Transformation Traceability
+## 40. L01-INV-031 — Transformation Traceability
 
 Every material derived observation should expose its transformation lineage.
 
@@ -1299,9 +1293,9 @@ transformation:
 
 Opaque transformation weakens downstream confidence.
 
----
+______________________________________________________________________
 
-# 41. L01-INV-032 — Validation-State Integrity
+## 41. L01-INV-032 — Validation-State Integrity
 
 Allowed validation states may include:
 
@@ -1325,9 +1319,9 @@ VALIDATED
 
 without evidence of the required validation transition.
 
----
+______________________________________________________________________
 
-# 42. L01-INV-033 — Revocation Propagation
+## 42. L01-INV-033 — Revocation Propagation
 
 If source evidence becomes:
 
@@ -1341,35 +1335,35 @@ dependent states must be checked.
 
 Conceptually:
 
-[
-\boxed{
+\[
+\\boxed{
 Revoke(P)
-\Rightarrow
+\\Rightarrow
 Revalidate(Descendants(P))
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 43. L01-INV-034 — Critical Exception Preservation
+## 43. L01-INV-034 — Critical Exception Preservation
 
 Any local observation capable of flipping a consequential conclusion must remain visible through aggregation.
 
 Define:
 
-[
+\[
 F_c=
 {
-p\mid
-plausible\ change\ in\ p\ flips\ conclusion\ c
+p\\mid
+plausible\\ change\\ in\\ p\\ flips\\ conclusion\\ c
 }
-]
+\]
 
-If observation (O_i\in F_c), it must not be erased by summary compression.
+If observation (O_i\\in F_c), it must not be erased by summary compression.
 
----
+______________________________________________________________________
 
-# 44. L01-INV-035 — Unknown Preservation
+## 44. L01-INV-035 — Unknown Preservation
 
 Unknown information must remain unknown until evidence resolves it.
 
@@ -1387,44 +1381,41 @@ UNKNOWN → NORMAL
 
 without discriminating evidence.
 
----
+______________________________________________________________________
 
-# 45. Global Hard Invariant Set
+## 45. Global Hard Invariant Set
 
 The minimum global invariant conjunction is:
 
-[
-\boxed{
-I_{L01}
-=======
+## \[ \\boxed{ I\_{L01}
 
-I_{source}
-\land
-I_{provenance}
-\land
-I_{time}
-\land
-I_{scope}
-\land
-I_{regime}
-\land
-I_{type}
-\land
-I_{uncertainty}
-\land
-I_{epistemic}
-\land
-I_{authority}
+I\_{source}
+\\land
+I\_{provenance}
+\\land
+I\_{time}
+\\land
+I\_{scope}
+\\land
+I\_{regime}
+\\land
+I\_{type}
+\\land
+I\_{uncertainty}
+\\land
+I\_{epistemic}
+\\land
+I\_{authority}
 }
-]
+\]
 
 where failure of a blocking term prevents validated promotion.
 
 This is an AMOS MODEL formalization.
 
----
+______________________________________________________________________
 
-# 46. H/M/L Applicability
+## 46. H/M/L Applicability
 
 ## L — Local
 
@@ -1496,9 +1487,9 @@ macro stability masking local collapse
 causal overreach
 ```
 
----
+______________________________________________________________________
 
-# 47. Cross-Scale Invariants
+## 47. Cross-Scale Invariants
 
 Mandatory:
 
@@ -1516,9 +1507,9 @@ Decision-relevant heterogeneity must survive aggregation.
 Scope/regime/observer envelopes propagate with claims.
 ```
 
----
+______________________________________________________________________
 
-# 48. Control-Plane Requirements
+## 48. Control-Plane Requirements
 
 The control plane must determine:
 
@@ -1536,26 +1527,23 @@ which states require commit-time revalidation
 
 The observation worker must not self-authorize exceptions to blocking invariants.
 
----
+______________________________________________________________________
 
-# 49. Control-Plane Gate
+## 49. Control-Plane Gate
 
 Conceptually:
 
-[
-\boxed{
-CommitEligible(O)
-=================
+## \[ \\boxed{ CommitEligible(O)
 
 InvariantPass(O)
-\land
+\\land
 AuthorityValid(O)
-\land
+\\land
 DependenciesFresh(O)
-\land
+\\land
 ProvenanceValid(O)
 }
-]
+\]
 
 If any required condition is `UNKNOWN`:
 
@@ -1567,9 +1555,9 @@ CONDITIONAL / BLOCKED
 
 according to consequence and policy.
 
----
+______________________________________________________________________
 
-# 50. Agents
+## 50. Agents
 
 Candidate roles:
 
@@ -1594,9 +1582,9 @@ ROLE
 IMPLEMENTED AGENT
 ```
 
----
+______________________________________________________________________
 
-# 51. Skills
+## 51. Skills
 
 Candidate capabilities include:
 
@@ -1617,9 +1605,9 @@ A Skill may evaluate an invariant.
 
 It does not automatically receive authority to override it.
 
----
+______________________________________________________________________
 
-# 52. Workflows
+## 52. Workflows
 
 ## 52.1 Observation Admission
 
@@ -1685,9 +1673,9 @@ INVARIANT RECHECK
 COMMIT OR FAIL CLOSED
 ```
 
----
+______________________________________________________________________
 
-# 53. Protocols
+## 53. Protocols
 
 Candidate messages:
 
@@ -1732,9 +1720,9 @@ ObservationInvariantResult:
   provenance:
 ```
 
----
+______________________________________________________________________
 
-# 54. Evidence / Provenance
+## 54. Evidence / Provenance
 
 Each invariant decision should preserve:
 
@@ -1754,14 +1742,14 @@ repair action
 
 Invariant results without recoverable evidence are themselves weak evidence.
 
----
+______________________________________________________________________
 
-# 55. Invariant Provenance Tensor
+## 55. Invariant Provenance Tensor
 
-[
-\boxed{
+\[
+\\boxed{
 P_I=
-T[
+T\[
 invariant,
 observation,
 validator,
@@ -1772,13 +1760,13 @@ scope,
 regime,
 version,
 result
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 56. Uncertainty
+## 56. Uncertainty
 
 Invariant uncertainty should be decomposed where material:
 
@@ -1795,19 +1783,19 @@ provenance-independence uncertainty
 
 A validator should not compress all of these into a single vague confidence value when the distinction can change the decision.
 
----
+______________________________________________________________________
 
-# 57. Confidence Ceiling
+## 57. Confidence Ceiling
 
-For invariant-dependent claim \(C\):
+For invariant-dependent claim (C):
 
-[
-\boxed{
+\[
+\\boxed{
 Conf(C)
-\le
-\min_{p\in LB(C)}Conf(p)
+\\le
+\\min\_{p\\in LB(C)}Conf(p)
 }
-]
+\]
 
 unless independent evidence revalidates the claim.
 
@@ -1833,9 +1821,9 @@ UNKNOWN/GAP
 
 depending on the missing evidence.
 
----
+______________________________________________________________________
 
-# 58. Failure Modes
+## 58. Failure Modes
 
 ## FM-INV-01 — Invariant Bypass
 
@@ -1897,9 +1885,9 @@ Failed premise leaves dependent conclusions active.
 
 Synthetic/model state is presented as observed state.
 
----
+______________________________________________________________________
 
-# 59. Repair / Recovery
+## 59. Repair / Recovery
 
 General recovery sequence:
 
@@ -1925,15 +1913,15 @@ RECOMPUTE DEPENDENTS
 RESTORE ONLY IF PASS
 ```
 
----
+______________________________________________________________________
 
-# 60. Selective Repair Rule
+## 60. Selective Repair Rule
 
 If:
 
-[
-O_1\rightarrow D_1\rightarrow D_2
-]
+\[
+O_1\\rightarrow D_1\\rightarrow D_2
+\]
 
 and `O1` fails provenance validation:
 
@@ -1955,9 +1943,9 @@ D8
 
 unless they share the failed dependency.
 
----
+______________________________________________________________________
 
-# 61. Repair Must Not Rewrite History
+## 61. Repair Must Not Rewrite History
 
 A corrected observation should not silently overwrite the existence of the previous invalid observation.
 
@@ -1976,9 +1964,9 @@ relationship:
 
 This preserves replay and auditability.
 
----
+______________________________________________________________________
 
-# 62. Validators
+## 62. Validators
 
 Minimum proposed validator set:
 
@@ -2032,9 +2020,9 @@ VALIDATOR_DEPENDENCY_CLOSURE
 VALIDATOR_SIMULATION_BOUNDARY
 ```
 
----
+______________________________________________________________________
 
-# 63. Minimum Tests
+## 63. Minimum Tests
 
 ```text
 TEST_INV_001
@@ -2113,9 +2101,9 @@ TEST_INV_025
 decision-relevant local exception survives aggregation
 ```
 
----
+______________________________________________________________________
 
-# 64. Adversarial Tests
+## 64. Adversarial Tests
 
 Test against:
 
@@ -2161,9 +2149,9 @@ sensor silence interpreted as absence
 high precision mistaken for broad coverage
 ```
 
----
+______________________________________________________________________
 
-# 65. Falsifiers
+## 65. Falsifiers
 
 This contract must be revised if:
 
@@ -2185,9 +2173,9 @@ domain-specific evidence invalidates an assumed observation rule
 the proposed H/M/L relationship is canonically different
 ```
 
----
+______________________________________________________________________
 
-# 66. Gap Matrix
+## 66. Gap Matrix
 
 ```yaml
 invariant_gap_status:
@@ -2264,9 +2252,9 @@ invariant_gap_status:
     status: GAP
 ```
 
----
+______________________________________________________________________
 
-# 67. Gap Priority
+## 67. Gap Priority
 
 Highest-priority unresolved items:
 
@@ -2292,9 +2280,9 @@ Highest-priority unresolved items:
 10. Execute adversarial and regression tests.
 ```
 
----
+______________________________________________________________________
 
-# 68. Hard Boundaries
+## 68. Hard Boundaries
 
 ```text
 PLACEHOLDER
@@ -2382,9 +2370,9 @@ VALIDATED_FOR_SCOPE
 UNIVERSALLY VALID
 ```
 
----
+______________________________________________________________________
 
-# 69. RSCF Completion State
+## 69. RSCF Completion State
 
 ```yaml
 rscf:
@@ -2476,9 +2464,9 @@ rscf:
     not empirically universal
 ```
 
----
+______________________________________________________________________
 
-# 70. Completion State
+## 70. Completion State
 
 ```yaml
 completion_state:
@@ -2559,9 +2547,9 @@ completion_state:
     MODEL / CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
-# 71. Final Contract
+## 71. Final Contract
 
 `L01_SENSING_OBSERVATION/INVARIANTS.md` establishes the proposed integrity boundary between:
 
@@ -2613,63 +2601,63 @@ repairable
 
 Its central laws are:
 
-[
-\boxed{
-Observation \neq Reality
+\[
+\\boxed{
+Observation \\neq Reality
 }
-]
+\]
 
-[
-\boxed{
-Derived \neq Observed
+\[
+\\boxed{
+Derived \\neq Observed
 }
-]
+\]
 
-[
-\boxed{
-Unobserved \neq Absent
+\[
+\\boxed{
+Unobserved \\neq Absent
 }
-]
+\]
 
-[
-\boxed{
-Aggregation \neq IndependentConfirmation
+\[
+\\boxed{
+Aggregation \\neq IndependentConfirmation
 }
-]
+\]
 
-[
-\boxed{
-Correlation \neq Causation
+\[
+\\boxed{
+Correlation \\neq Causation
 }
-]
+\]
 
-[
-\boxed{
-Capability \neq Authority
+\[
+\\boxed{
+Capability \\neq Authority
 }
-]
+\]
 
-[
-\boxed{
-Proposal \neq Commit
+\[
+\\boxed{
+Proposal \\neq Commit
 }
-]
+\]
 
-[
-\boxed{
-Unknown \neq Pass
+\[
+\\boxed{
+Unknown \\neq Pass
 }
-]
+\]
 
 and, for dependent conclusions:
 
-[
-\boxed{
+\[
+\\boxed{
 Conf(C)
-\le
-\min_{p\in LB(C)} Conf(p)
+\\le
+\\min\_{p\\in LB(C)} Conf(p)
 }
-]
+\]
 
 unless independently revalidated.
 
@@ -2709,29 +2697,33 @@ VALIDATED_FOR_SCOPE
 UNIVERSALLY VALID
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[00_ROOT/00_HOME|00_HOME]] · 06-Knowledge-Base-MOC
 
 ```
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: l01_sensing_observation_primitives_cognitive_matrix_invariants
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_INVARIANTS.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_MOC|L01_SENSING_OBSERVATION_MOC]]

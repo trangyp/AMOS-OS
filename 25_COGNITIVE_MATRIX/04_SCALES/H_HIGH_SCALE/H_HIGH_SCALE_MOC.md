@@ -1,18 +1,21 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: H High Scale MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/04_SCALES/H_HIGH_SCALE
 tags:
-- h-high-scale
-- domain/cognitive-matrix
-- h-high-scale-scales-cognitive-matrix-boundaries
-- h-high-scale-scales-cognitive-matrix-definition
-- h-high-scale-scales-cognitive-matrix-dependencies
-- h-high-scale-scales-cognitive-matrix-gap-matrix
-- h-high-scale-scales-cognitive-matrix-invariants
-- h-high-scale-scales-cognitive-matrix-rscf
-- h-high-scale-scales-cognitive-matrix-semantics
-- h-high-scale-scales-cognitive-matrix-tests
+  - h-high-scale
+  - domain/cognitive-matrix
+  - h-high-scale-scales-cognitive-matrix-boundaries
+  - h-high-scale-scales-cognitive-matrix-definition
+  - h-high-scale-scales-cognitive-matrix-dependencies
+  - h-high-scale-scales-cognitive-matrix-gap-matrix
+  - h-high-scale-scales-cognitive-matrix-invariants
+  - h-high-scale-scales-cognitive-matrix-rscf
+  - h-high-scale-scales-cognitive-matrix-semantics
+  - h-high-scale-scales-cognitive-matrix-tests
 moc: true
 rscf:
   state: DERIVED
@@ -45,5 +48,6 @@ rscf:
 
 - [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]] — 00_INDEX
 
----
+______________________________________________________________________
+
 **Parent:** [[25_COGNITIVE_MATRIX/04_SCALES/04_SCALES_MOC|04_SCALES_MOC]]

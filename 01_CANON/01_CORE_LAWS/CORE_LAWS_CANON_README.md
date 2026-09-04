@@ -1,4 +1,7 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: CORE LAWS CANON README
 type: note
 source: 01_CANON/01_CORE_LAWS
@@ -6,21 +9,17 @@ rscf:
   state: SOURCE_CLAIM
   class: STRUCTURAL
   provenance:
-  - internal
+    - internal
   freshness: EVERGREEN
   falsifiers: []
 tags:
-- note
-- 01-core-laws
-- readme
+  - note
+  - 01-core-laws
+  - readme
 canon-group: canon/core-laws
 ---
 
----title: "AMOS Core Laws Canon"
-type: document
-tags: [note]
----
-
+## ---title: "AMOS Core Laws Canon" type: document tags: [note]
 
 # AMOS Core Laws Canon
 
@@ -70,9 +69,9 @@ CANON
 EMPIRICAL TRUTH
 ```
 
----
+______________________________________________________________________
 
-# 1. Origin and Stewardship
+## 1. Origin and Stewardship
 
 AMOS OS and the associated AMOS canon architecture represented by this repository are attributed to:
 
@@ -98,9 +97,9 @@ COMPETING
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 2. Directory Mission
+## 2. Directory Mission
 
 `01_CANON/01_CORE_LAWS/` exists to provide a governed home for AMOS Core Laws.
 
@@ -126,9 +125,9 @@ A canonical law does not automatically have executable enforcement.
 
 An executable guard does not automatically prove that its implementation correctly represents canon.
 
----
+______________________________________________________________________
 
-# 3. Definition of a Core Law
+## 3. Definition of a Core Law
 
 Within AMOS OS, a **Core Law** is a high-order canonical constraint governing the admissibility, interpretation, preservation, transformation, or evolution of subordinate AMOS state within a declared scope.
 
@@ -172,9 +171,9 @@ AI GENERATION
 
 None independently establishes canonical law status.
 
----
+______________________________________________________________________
 
-# 4. Canon Boundary
+## 4. Canon Boundary
 
 The Core Laws directory MUST preserve the following state transition:
 
@@ -204,9 +203,9 @@ Skipping these stages MUST NOT be hidden by fluent documentation.
 
 The AMOS canon consistency model specifically requires candidate material to be typed, checked against existing objects and aliases, examined for contradiction and version/scope conflict, mapped to downstream dependencies, and given an explicit governance disposition.
 
----
+______________________________________________________________________
 
-# 5. Core Hard Boundaries
+## 5. Core Hard Boundaries
 
 The following distinctions govern this directory:
 
@@ -256,9 +255,9 @@ UNKNOWN/GAP != PASS
 
 These distinctions MUST survive indexing, summarization, generation, migration, implementation, and runtime transformation.
 
----
+______________________________________________________________________
 
-# 6. Relationship to AMOS Canon
+## 6. Relationship to AMOS Canon
 
 The Core Laws layer is subordinate to the governing AMOS canon-management architecture.
 
@@ -290,9 +289,9 @@ The exact complete canonical hierarchy remains dependent on authoritative source
 
 Therefore this README MUST NOT claim that this representation is the exhaustive final AMOS canon hierarchy.
 
----
+______________________________________________________________________
 
-# 7. Core Law Object Contract
+## 7. Core Law Object Contract
 
 A normalized Core Law SHOULD be representable as:
 
@@ -377,9 +376,9 @@ core_law:
 
 This schema is a proposed AMOS normalization contract unless separately source-admitted.
 
----
+______________________________________________________________________
 
-# 8. Law Identity
+## 8. Law Identity
 
 Every canonical law SHOULD possess a stable identifier independent of filename.
 
@@ -410,9 +409,9 @@ DERIVED REPRESENTATION
 
 Law identity and representation identity are separate.
 
----
+______________________________________________________________________
 
-# 9. Alias Governance
+## 9. Alias Governance
 
 Multiple names may refer to the same canonical law.
 
@@ -437,9 +436,9 @@ ONE SOURCE
 
 the representations remain provenance-correlated.
 
----
+______________________________________________________________________
 
-# 10. Core Law Classes
+## 10. Core Law Classes
 
 The Core Laws architecture MAY distinguish law families such as:
 
@@ -493,9 +492,9 @@ This list is an AMOS model organization surface.
 
 It MUST NOT be treated as the exhaustive authoritative law inventory until source/canon reconciliation establishes that status.
 
----
+______________________________________________________________________
 
-# 11. Law Hierarchy
+## 11. Law Hierarchy
 
 Core Laws MAY exist in hierarchical relation.
 
@@ -529,9 +528,9 @@ HIGHER
 
 must itself be established through canonical hierarchy, not inferred from file location or wording.
 
----
+______________________________________________________________________
 
-# 12. Precedence
+## 12. Precedence
 
 When two applicable laws appear incompatible, precedence SHOULD be resolved using explicit canonical properties.
 
@@ -557,9 +556,9 @@ LATEST TEXT ALWAYS WINS
 
 A newer artifact is not automatically a superseding artifact.
 
----
+______________________________________________________________________
 
-# 13. Conflict States
+## 13. Conflict States
 
 Recommended law-conflict states are:
 
@@ -591,9 +590,9 @@ PRESERVE CONFLICT
 
 rather than manufacture convergence.
 
----
+______________________________________________________________________
 
-# 14. Canon Admission Decisions
+## 14. Canon Admission Decisions
 
 Candidate Core Law material SHOULD resolve to an explicit state such as:
 
@@ -640,9 +639,9 @@ UNKNOWN/GAP
 = insufficient evidence or authority to determine status
 ```
 
----
+______________________________________________________________________
 
-# 15. Supersession
+## 15. Supersession
 
 Supersession MUST be explicit.
 
@@ -669,9 +668,9 @@ Historical lineage SHOULD remain recoverable.
 
 The canon-governance contract explicitly requires preservation of prior versions and supersession lineage.
 
----
+______________________________________________________________________
 
-# 16. Dependency Governance
+## 16. Dependency Governance
 
 Core Laws may have both upstream and downstream dependencies.
 
@@ -709,9 +708,9 @@ DELETE EVERYTHING
 
 The governing canon model explicitly requires downstream dependents to be revalidated after load-bearing canon changes.
 
----
+______________________________________________________________________
 
-# 17. H/M/L Applicability
+## 17. H/M/L Applicability
 
 Core Laws SHOULD declare H/M/L applicability where relevant.
 
@@ -740,9 +739,9 @@ VALID AT H
 
 without an admissible transformation or aggregation rule.
 
----
+______________________________________________________________________
 
-# 18. Scope Contract
+## 18. Scope Contract
 
 Every material Core Law SHOULD carry an applicability envelope.
 
@@ -770,9 +769,9 @@ LOCAL
 UNIVERSAL
 ```
 
----
+______________________________________________________________________
 
-# 19. Regime Contract
+## 19. Regime Contract
 
 A Core Law MAY depend on operating regime.
 
@@ -790,9 +789,9 @@ PRODUCTION
 
 Applicability in one regime does not automatically establish applicability in another.
 
----
+______________________________________________________________________
 
-# 20. Provenance Contract
+## 20. Provenance Contract
 
 Every canonical Core Law SHOULD preserve sufficient provenance to determine:
 
@@ -816,9 +815,9 @@ WHAT SUPERSEDES IT
 
 The source reference currently available for the canon-governance architecture attributes origin/stewardship to Trang Phan and identifies the master source as a draft canon rather than independently verified empirical truth.
 
----
+______________________________________________________________________
 
-# 21. Evidence Topology
+## 21. Evidence Topology
 
 AMOS SHOULD distinguish:
 
@@ -840,9 +839,9 @@ Evidence lineage SHOULD preserve ancestry.
 
 Multiple descendants of one source MUST NOT be counted as independent confirmation merely because they appear in separate files.
 
----
+______________________________________________________________________
 
-# 22. Epistemic Boundary
+## 22. Epistemic Boundary
 
 Canonical status is an architectural governance status.
 
@@ -864,9 +863,9 @@ It does not automatically mean:
 
 This distinction is especially important for cross-domain, biological, cognitive, physical, economic, or ontological claims.
 
----
+______________________________________________________________________
 
-# 23. Causal Boundary
+## 23. Causal Boundary
 
 A Core Law MUST NOT promote structural similarity into causal proof.
 
@@ -891,9 +890,9 @@ Analogy may support a model.
 
 It does not establish mechanism.
 
----
+______________________________________________________________________
 
-# 24. Authority Boundary
+## 24. Authority Boundary
 
 Core Law authority and technical capability are separate.
 
@@ -921,9 +920,9 @@ GENERATE LAW
 ADMIT LAW
 ```
 
----
+______________________________________________________________________
 
-# 25. Agent Boundary
+## 25. Agent Boundary
 
 Agents MAY:
 
@@ -945,9 +944,9 @@ Agents MUST NOT automatically:
 - rewrite provenance;
 - silently supersede source canon.
 
----
+______________________________________________________________________
 
-# 26. Skill Boundary
+## 26. Skill Boundary
 
 Skills MAY provide reusable canon-management capabilities.
 
@@ -971,9 +970,9 @@ SKILL AVAILABLE
 CANON AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 27. Workflow Boundary
+## 27. Workflow Boundary
 
 A canonical law workflow SHOULD conceptually follow:
 
@@ -1009,9 +1008,9 @@ VERSION / REGISTRY UPDATE
 DEPENDENT REVALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 28. Protocol Boundary
+## 28. Protocol Boundary
 
 Any executable canon protocol SHOULD define:
 
@@ -1030,9 +1029,9 @@ audit
 
 A prose description is not itself an executable protocol.
 
----
+______________________________________________________________________
 
-# 29. Control-Plane Requirements
+## 29. Control-Plane Requirements
 
 A mature Core Law control plane SHOULD be able to:
 
@@ -1058,9 +1057,9 @@ This README specifies those requirements conceptually.
 
 It does not claim that all are currently implemented.
 
----
+______________________________________________________________________
 
-# 30. Runtime Consumption
+## 30. Runtime Consumption
 
 Runtime systems SHOULD consume Core Laws through governed interfaces rather than by arbitrary text scraping where possible.
 
@@ -1084,9 +1083,9 @@ COMMIT GOVERNANCE
 
 A runtime consumer MUST NOT silently reinterpret an unknown law.
 
----
+______________________________________________________________________
 
-# 31. Memory Interaction
+## 31. Memory Interaction
 
 Core Law memory SHOULD preserve:
 
@@ -1111,9 +1110,9 @@ CACHED
 CURRENT
 ```
 
----
+______________________________________________________________________
 
-# 32. Change Governance
+## 32. Change Governance
 
 Material Core Law changes SHOULD be treated as governed state transitions.
 
@@ -1141,9 +1140,9 @@ COMMIT
 DEPENDENT REVALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 33. Change Classes
+## 33. Change Classes
 
 Recommended classifications:
 
@@ -1177,9 +1176,9 @@ REVOCATION
 
 A semantic change MUST NOT be disguised as formatting.
 
----
+______________________________________________________________________
 
-# 34. Canon Completeness
+## 34. Canon Completeness
 
 Completeness is always scoped.
 
@@ -1201,9 +1200,9 @@ COMPLETE
 
 The canon governor explicitly treats completeness as scoped and states that absence of contradiction does not prove completeness.
 
----
+______________________________________________________________________
 
-# 35. Failure Modes
+## 35. Failure Modes
 
 ## CL-README-FM001 — File-location promotion
 
@@ -1265,9 +1264,9 @@ Incompatible canonical candidates are silently merged.
 
 **Response:** preserve `COMPETING` or `CONTRADICTORY`.
 
----
+______________________________________________________________________
 
-# 36. Additional Failure Modes
+## 36. Additional Failure Modes
 
 ```text
 CL-README-FM011
@@ -1301,9 +1300,9 @@ CL-README-FM020
 registry self-certifies canonical authority
 ```
 
----
+______________________________________________________________________
 
-# 37. Repair / Recovery
+## 37. Repair / Recovery
 
 Recommended recovery flow:
 
@@ -1333,9 +1332,9 @@ RECORD CHANGE
 
 Recovery SHOULD invalidate only affected dependency closure where safely possible.
 
----
+______________________________________________________________________
 
-# 38. Rollback
+## 38. Rollback
 
 Rollback MUST preserve history.
 
@@ -1360,9 +1359,9 @@ rollback:
 
 The previous version must also be rechecked against current dependencies.
 
----
+______________________________________________________________________
 
-# 39. Validators
+## 39. Validators
 
 Recommended validators include:
 
@@ -1404,9 +1403,9 @@ validate_runtime_mapping()
 validate_registry_consistency()
 ```
 
----
+______________________________________________________________________
 
-# 40. Tests
+## 40. Tests
 
 ## CL-README-T001
 
@@ -1448,9 +1447,9 @@ A conflicting candidate MUST remain visible until governed resolution.
 
 `UNKNOWN/GAP` MUST NOT satisfy a required validator.
 
----
+______________________________________________________________________
 
-# 41. Extended Tests
+## 41. Extended Tests
 
 ```text
 CL-README-T011
@@ -1484,9 +1483,9 @@ CL-README-T020
 Rollback preserves failed-version provenance.
 ```
 
----
+______________________________________________________________________
 
-# 42. Falsifiers
+## 42. Falsifiers
 
 This README's proposed governance contract should be rejected or revised if authoritative AMOS canon establishes that:
 
@@ -1501,9 +1500,9 @@ This README's proposed governance contract should be rejected or revised if auth
 
 Any such evidence requires reclassification and dependency revalidation.
 
----
+______________________________________________________________________
 
-# 43. Uncertainty
+## 43. Uncertainty
 
 Current uncertainty is multidimensional.
 
@@ -1526,9 +1525,9 @@ uncertainty:
 
 No single confidence value should conceal these distinctions.
 
----
+______________________________________________________________________
 
-# 44. Confidence Ceiling
+## 44. Confidence Ceiling
 
 Because the complete authoritative Core Law inventory and its admitted canonical hierarchy have not been established by this README:
 
@@ -1542,9 +1541,9 @@ confidence_ceiling:
 
 The artifact may be structurally useful without being canonically final.
 
----
+______________________________________________________________________
 
-# 45. Gap Matrix
+## 45. Gap Matrix
 
 ```yaml
 gap_matrix:
@@ -1602,9 +1601,9 @@ gap_matrix:
     severity: "CRITICAL_FOR_CANONICAL_STATUS"
 ```
 
----
+______________________________________________________________________
 
-# 46. RSCF Completion State
+## 46. RSCF Completion State
 
 ```yaml
 claim_class: AMOS_MODEL
@@ -1661,9 +1660,9 @@ falsifiers:
 confidence_ceiling: 0
 ```
 
----
+______________________________________________________________________
 
-# 47. Required Promotion Surface
+## 47. Required Promotion Surface
 
 Before this README or its proposed organization is promoted to admitted canonical status, establish or approve:
 
@@ -1683,9 +1682,9 @@ Before this README or its proposed organization is promoted to admitted canonica
 - revalidation rules;
 - and canon version.
 
----
+______________________________________________________________________
 
-# 48. Promotion Ladder
+## 48. Promotion Ladder
 
 ```text
 PLACEHOLDER
@@ -1713,9 +1712,9 @@ Transitions are governed.
 
 They are not implied by file creation.
 
----
+______________________________________________________________________
 
-# 49. Directory Integrity Contract
+## 49. Directory Integrity Contract
 
 Every artifact placed in `01_CANON/01_CORE_LAWS/` SHOULD answer, directly or through an authoritative registry:
 
@@ -1767,9 +1766,9 @@ UNKNOWN/GAP
 
 must remain explicit.
 
----
+______________________________________________________________________
 
-# 50. Core Laws Canon Principle
+## 50. Core Laws Canon Principle
 
 The governing principle of this directory is:
 
@@ -1795,9 +1794,9 @@ NEWER != SUPERSEDING
 UNKNOWN/GAP != PASS
 ```
 
----
+______________________________________________________________________
 
-# 51. Current Status
+## 51. Current Status
 
 ```yaml
 artifact_status:
@@ -1833,15 +1832,15 @@ artifact_status:
 
 This artifact therefore replaces the empty structural placeholder but does **not** claim final canon.
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · CORE_LAWS_CONTRACT
 
----
+______________________________________________________________________
 
 RSCF-NODE
 
@@ -1882,6 +1881,6 @@ confidence_ceiling: 0
 ```
 ```
 
----
-**MOC:** [[01_CANON/01_CORE_LAWS/01_CORE_LAWS_MOC|01_CORE_LAWS_MOC]]
+______________________________________________________________________
 
+**MOC:** [[01_CANON/01_CORE_LAWS/01_CORE_LAWS_MOC|01_CORE_LAWS_MOC]]

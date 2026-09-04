@@ -4,24 +4,22 @@ title: SKILL — Amos Information Geometry Mapper
 type: skill
 source: 07_SKILLS/amos-information-geometry-mapper
 name: amos-information-geometry-mapper
-description: Information Geometry Mapper — info capability. Use when executing the
-  core capability within this domain. Use when amos-information-theory-master routes
-  to this specialized capability. Do not use for generic tasks outside info domain.
+description: Information Geometry Mapper — info capability. Use when executing the core capability within this domain. Use when amos-information-theory-master routes to this specialized capability. Do not use for generic tasks outside info domain.
 parent_skill: amos-information-theory-master
 domain: info
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
 tags:
-- type/skill
-- type/skill
-- domain/information-theory
-- epistemic/source_claim
-- hml/m
-- epistemic/source_claim
-- amos-os
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/information-theory
+  - epistemic/source_claim
+  - hml/m
+  - epistemic/source_claim
+  - amos-os
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -31,20 +29,20 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: M
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L16
-- L17
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L16
+  - L17
 license: MIT
 steward: Trang Phan
 ---
@@ -54,6 +52,7 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: info. Parent: amos-information-theory-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
 ## When to Use
 
 - When measuring entropy and lacunarity: information content and gaps
@@ -80,12 +79,12 @@ Origin architect: **Trang Phan**. Domain: info. Parent: amos-information-theory-
 ## Operations
 
 1. **information_geometry.measure_entropy**: Measure entropy and lacunarity: information content, gaps, and structure
-2. **information_geometry.analyze_topology**: Analyze information collapse topology: how information condenses and structures
-3. **information_geometry.control_exposure**: Control information exposure: what is revealed, to whom, and under what conditions
-4. **information_geometry.map_geometry**: Map information geometry: manifolds, distances, and projections in information space
-5. **information_geometry.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-6. **information_geometry.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
-7. **information_geometry.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+1. **information_geometry.analyze_topology**: Analyze information collapse topology: how information condenses and structures
+1. **information_geometry.control_exposure**: Control information exposure: what is revealed, to whom, and under what conditions
+1. **information_geometry.map_geometry**: Map information geometry: manifolds, distances, and projections in information space
+1. **information_geometry.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+1. **information_geometry.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+1. **information_geometry.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## 11_KNOWLEDGE Vault Content
 
@@ -97,6 +96,7 @@ Origin architect: **Trang Phan**. Domain: info. Parent: amos-information-theory-
 From Cosmo Brain Money.md: Information Geometry of Dominance with system state manifold, dominance region, fragility metric, curvature, geodesic cost. From Universe.md: Predictability functional for macroscopic inference.
 
 **Information geometry of dominance equations** (AMOS_MODEL):
+
 ```
 F(x) = 1 / d(x, ∂D)      (fragility metric)
 κ = ∇²Φ(x)                (curvature of stability basin)
@@ -105,28 +105,33 @@ MC = ∫_γ |dx|             (geodesic migration cost)
 ∇Φ                        (dominance gradient)
 D_KL(X||BTC)              (information divergence)
 ```
+
 - D = dominance region, ∂D = dominance boundary, d(x, ∂D) = distance to boundary
 - F(x) = fragility (inverse distance to boundary), κ = curvature, MC = migration cost
 
 **Predictability functional** (from Universe.md):
+
 ```
 I(t) = E[(∂/∂θ log p_θ(O_t))²]
 ```
+
 - I(t) = predictability at time t, p_θ = parametric model, O_t = observation at time t
 
 **Mapping protocol**:
+
 1. **Define manifold**: define the system state manifold
-2. **Identify regions**: identify dominance and stability regions
-3. **Compute distances**: compute distances to boundaries
-4. **Compute fragility**: compute fragility metrics
-5. **Compute curvature**: compute curvature of stability basins
-6. **Compute migration cost**: compute geodesic migration costs
-7. **Map**: map the information geometry
+1. **Identify regions**: identify dominance and stability regions
+1. **Compute distances**: compute distances to boundaries
+1. **Compute fragility**: compute fragility metrics
+1. **Compute curvature**: compute curvature of stability basins
+1. **Compute migration cost**: compute geodesic migration costs
+1. **Map**: map the information geometry
 
 **Mapping laws**:
+
 - `GEOMETRY != TOPOLOGY`: geometry measures distances and curvatures; topology measures connectivity
-- `INFORMATION != PHYSICAL**: information geometry is about information states; it is not physical geometry
-- `FRAGILITY != INSTABILITY**: fragility is proximity to boundary; instability is actual collapse
+- \`INFORMATION != PHYSICAL\*\*: information geometry is about information states; it is not physical geometry
+- \`FRAGILITY != INSTABILITY\*\*: fragility is proximity to boundary; instability is actual collapse
 
 ### Epistemic Boundary
 
@@ -139,7 +144,8 @@ Information geometry mapping is an AMOS_MODEL. It does not prove the manifold is
 - **Binding broken**: If 1:1:1 binding (skill→agent→workflow) is broken, flag routing mismatch and block execution.
 - **Validation failure**: If validation gates fail, downgrade confidence, flag the gap, and escalate — do not force-f
 
----
+______________________________________________________________________
+
 **Links:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 ## Related
@@ -149,17 +155,19 @@ Information geometry mapping is an AMOS_MODEL. It does not prove the manifold is
 ## Examples
 
 - **Scenario**: When measuring entropy and lacunarity: information content and gaps
+
   - **Input**: A query matching this skill's domain (info)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When analyzing information collapse topology and structure
+
   - **Input**: A query matching this skill's domain (info)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When controlling information exposure and disclosure
+
   - **Input**: A query matching this skill's domain (info)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Validation Gates
 
@@ -176,7 +184,6 @@ Information geometry mapping is an AMOS_MODEL. It does not prove the manifold is
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `amos-information-theory-master` — routes to this skill when info specialization is needed
@@ -184,7 +191,6 @@ Information geometry mapping is an AMOS_MODEL. It does not prove the manifold is
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -203,7 +209,6 @@ Information geometry mapping is an AMOS_MODEL. It does not prove the manifold is
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -211,7 +216,6 @@ Information geometry mapping is an AMOS_MODEL. It does not prove the manifold is
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -224,11 +228,12 @@ Information geometry mapping is an AMOS_MODEL. It does not prove the manifold is
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `amos-information-theory-master` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `amos-information-geometry-mapper-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -236,12 +241,14 @@ Information geometry mapping is an AMOS_MODEL. It does not prove the manifold is
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-information-geometry-mapper
 node_type: skill
 path: 07_SKILLS/amos-information-geometry-mapper/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

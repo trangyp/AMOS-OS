@@ -74,7 +74,7 @@
     "skill-creator"
   ],
   "depends_on_workflows": [
-    "skill-creator-workflow.md"
+    "amos-skill-creator-workflow.md"
   ],
   "epistemic_class": "AMOS_MODEL",
   "claim_ceiling": 0.95,

@@ -1,15 +1,18 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Index MOC — Canon / Index
 type: moc
 source: 01_CANON/00_INDEX
 tags:
-- canon/universe
-- amos-all-frameworks-canon-hierarchy
-- canon-active-legacy-matrix
-- canon-competing-definitions
-- canon-completeness-audit
-- canon-source-coverage
-- trang-framework-recursive-ontology-dynamics
+  - canon/universe
+  - amos-all-frameworks-canon-hierarchy
+  - canon-active-legacy-matrix
+  - canon-competing-definitions
+  - canon-completeness-audit
+  - canon-source-coverage
+  - trang-framework-recursive-ontology-dynamics
 moc: true
 rscf:
   state: DERIVED
@@ -54,8 +57,10 @@ rscf:
 - [[01_CANON/00_INDEX/INDEX_CANON_CANON_CONTRACT|INDEX_CANON_CANON_CONTRACT]]
 - [[01_CANON/00_INDEX/INDEX_CANON_README|INDEX_CANON_README]]
 
----
+______________________________________________________________________
+
 **Parent:** [[01_CANON/01_CANON_MOC|01_CANON_MOC]]
 
----
+______________________________________________________________________
+
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

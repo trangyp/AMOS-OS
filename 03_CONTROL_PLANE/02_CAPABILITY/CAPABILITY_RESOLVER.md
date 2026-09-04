@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: CAPABILITY RESOLVER
 type: note
 source: 03_CONTROL_PLANE/02_CAPABILITY
 tags:
-- control-plane
-- capability
-- note
-- canon/control-plane
-- capability-manifest
+  - control-plane
+  - capability
+  - note
+  - canon/control-plane
+  - capability-manifest
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -17,11 +20,12 @@ rscf:
 
 # CAPABILITY RESOLVER
 
-The current Drive artifact `CAPABILITY_RESOLVER.md` is **not substantive canon**. It contains the same misplaced `# K COUNTERFACTUAL` placeholder and explicitly says it is only reserving the canonical location.  The architecture tree places it with `CAPABILITY_CONTRACT.md` and `CAPABILITY_MANIFEST.md` in the Capability subsystem.
+The current Drive artifact `CAPABILITY_RESOLVER.md` is **not substantive canon**. It contains the same misplaced `# K COUNTERFACTUAL` placeholder and explicitly says it is only reserving the canonical location. The architecture tree places it with `CAPABILITY_CONTRACT.md` and `CAPABILITY_MANIFEST.md` in the Capability subsystem.
 
 So the following is a **substantive candidate replacement**, not recovered pre-existing content.
 
----
+______________________________________________________________________
+
 artifact_id: AMOS-OS-CP-CAPABILITY-RESOLVER
 title: AMOS OS Capability Resolver
 canonical_name: CAPABILITY_RESOLVER
@@ -38,39 +42,42 @@ status: CANDIDATE_CANON
 conclusion_class: DERIVED
 
 parent:
-  - 03_CONTROL_PLANE/02_CAPABILITY
+
+- 03_CONTROL_PLANE/02_CAPABILITY
 
 siblings:
-  - CAPABILITY_CONTRACT.md
-  - [[03_CONTROL_PLANE/02_CAPABILITY/CAPABILITY_MANIFEST|CAPABILITY_MANIFEST]].md
+
+- CAPABILITY_CONTRACT.md
+- [[03_CONTROL_PLANE/02_CAPABILITY/CAPABILITY_MANIFEST|CAPABILITY_MANIFEST]].md
 
 upstream:
-  - 00_ROOT
-  - 01_CANON
-  - 02_KERNEL
-  - 03_CONTROL_PLANE/00_INDEX
-  - 03_CONTROL_PLANE/01_TASK_CONTRACT
-  - 03_CONTROL_PLANE/02_CAPABILITY/[[03_CONTROL_PLANE/02_CAPABILITY/CAPABILITY_MANIFEST|CAPABILITY_MANIFEST]].md
-  - 03_CONTROL_PLANE/02_CAPABILITY/CAPABILITY_CONTRACT.md
+
+- 00_ROOT
+- 01_CANON
+- 02_KERNEL
+- 03_CONTROL_PLANE/00_INDEX
+- 03_CONTROL_PLANE/01_TASK_CONTRACT
+- 03_CONTROL_PLANE/02_CAPABILITY/[[03_CONTROL_PLANE/02_CAPABILITY/CAPABILITY_MANIFEST|CAPABILITY_MANIFEST]].md
+- 03_CONTROL_PLANE/02_CAPABILITY/CAPABILITY_CONTRACT.md
 
 downstream:
-  - 03_CONTROL_PLANE/03_POLICY
-  - 03_CONTROL_PLANE/04_AUTHORITY
-  - 03_CONTROL_PLANE/05_PROVENANCE
-  - 03_CONTROL_PLANE/06_SEMANTIC_TRANSACTION
-  - 03_CONTROL_PLANE/07_OBSERVABILITY
-  - 03_CONTROL_PLANE/08_EFFECTS
-  - 03_CONTROL_PLANE/09_COMMIT
-  - 04_RUNTIME
+
+- 03_CONTROL_PLANE/03_POLICY
+- 03_CONTROL_PLANE/04_AUTHORITY
+- 03_CONTROL_PLANE/05_PROVENANCE
+- 03_CONTROL_PLANE/06_SEMANTIC_TRANSACTION
+- 03_CONTROL_PLANE/07_OBSERVABILITY
+- 03_CONTROL_PLANE/08_EFFECTS
+- 03_CONTROL_PLANE/09_COMMIT
+- 04_RUNTIME
 
 implementation_status: SPECIFICATION
 empirical_validation_status: NOT_CLAIMED
 formal_verification_status: NOT_CLAIMED
 
-updated: 2026-08-26
----
+## updated: 2026-08-26
 
-# AMOS OS — CAPABILITY RESOLVER
+## AMOS OS — CAPABILITY RESOLVER
 
 > **Layer:** `03_CONTROL_PLANE/02_CAPABILITY`
 >
@@ -82,9 +89,9 @@ updated: 2026-08-26
 >
 > **Origin Architect:** Trang Phan
 
----
+______________________________________________________________________
 
-# 0. Purpose
+## 0. Purpose
 
 The Capability Resolver determines whether a resolved AMOS task can be
 satisfied using the capabilities that are actually available, applicable,
@@ -147,9 +154,9 @@ and:
 EXECUTIONALLY REALIZABLE WORK
 ```
 
----
+______________________________________________________________________
 
-# 1. Core Law
+## 1. Core Law
 
 ```text
 DO NOT EQUATE
@@ -184,9 +191,9 @@ TEST SUFFICIENCY
 CAPABILITY PLAN
 ```
 
----
+______________________________________________________________________
 
-# 2. Fundamental Distinctions
+## 2. Fundamental Distinctions
 
 ```text
 TASK REQUIREMENT
@@ -199,39 +206,45 @@ CAPABILITY DECLARATION
 !=
 CAPABILITY AVAILABILITY
 ```
+
 ```text
 CAPABILITY AVAILABILITY
 !=
 CAPABILITY SUFFICIENCY
 ```
+
 ```text
 CAPABILITY SUFFICIENCY
 !=
 POLICY PERMISSION
 ```
+
 ```text
 CAPABILITY SUFFICIENCY
 !=
 AUTHORITY
 ```
+
 ```text
 CAPABILITY SUFFICIENCY
 !=
 SUCCESSFUL EXECUTION
 ```
+
 ```text
 CAPABILITY INVOCATION
 !=
 OBSERVED EFFECT
 ```
+
 The resolver establishes execution possibility.
 
 It does not establish permission, authority, successful completion, or
 empirical truth.
 
----
+______________________________________________________________________
 
-# 3. Resolver Position
+## 3. Resolver Position
 
 ```text
 TASK CONTRACT
@@ -255,9 +268,9 @@ POLICY / AUTHORITY /
 PROVENANCE / TRANSACTION
 ```
 
----
+______________________________________________________________________
 
-# 4. Resolver Objective
+## 4. Resolver Objective
 
 The resolver should construct:
 
@@ -272,9 +285,9 @@ EXPANDING EFFECTS,
 OR IGNORING LIMITS.
 ```
 
----
+______________________________________________________________________
 
-# 5. Inputs
+## 5. Inputs
 
 The resolver may consume:
 
@@ -308,9 +321,9 @@ FRESHNESS INFORMATION
 
 Only information relevant to the task should become load-bearing.
 
----
+______________________________________________________________________
 
-# 6. Output Classes
+## 6. Output Classes
 
 The resolver produces one of:
 
@@ -328,9 +341,9 @@ BLOCKED
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 7. Resolved
+## 7. Resolved
 
 Use when a sufficient capability plan is established.
 
@@ -353,9 +366,9 @@ not:
 EXECUTION AUTHORIZED
 ```
 
----
+______________________________________________________________________
 
-# 8. Conditional
+## 8. Conditional
 
 Use when capability sufficiency depends on an explicit unresolved condition.
 
@@ -367,9 +380,9 @@ IF
 CONNECTOR SESSION IS ACTIVE
 ```
 
----
+______________________________________________________________________
 
-# 9. Competing
+## 9. Competing
 
 Use when multiple materially different capability plans remain viable and
 selection matters.
@@ -398,9 +411,9 @@ PROVENANCE
 QUALITY
 ```
 
----
+______________________________________________________________________
 
-# 10. Degraded
+## 10. Degraded
 
 Use when the task can be partially satisfied, but not at the requested
 capability level.
@@ -417,15 +430,15 @@ READ FILE
 
 A read-only alternative may exist, but it is not equivalent.
 
----
+______________________________________________________________________
 
-# 11. Blocked
+## 11. Blocked
 
 Use when a required capability is known to be unavailable or incompatible.
 
----
+______________________________________________________________________
 
-# 12. Unknown / Gap
+## 12. Unknown / Gap
 
 Use when capability state cannot be established.
 
@@ -435,9 +448,9 @@ UNKNOWN
 UNAVAILABLE
 ```
 
----
+______________________________________________________________________
 
-# 13. Capability Requirement Extraction
+## 13. Capability Requirement Extraction
 
 The resolver begins from the Task Contract.
 
@@ -491,9 +504,9 @@ COMMIT STATE
 ROLL BACK
 ```
 
----
+______________________________________________________________________
 
-# 14. Semantic Requirement vs Implementation
+## 14. Semantic Requirement vs Implementation
 
 The task may require:
 
@@ -517,9 +530,9 @@ The requirement is semantic.
 
 The capability is operational.
 
----
+______________________________________________________________________
 
-# 15. Capability Manifest
+## 15. Capability Manifest
 
 A capability manifest describes what a capability claims to provide.
 
@@ -563,9 +576,9 @@ CapabilityManifest:
   status:
 ```
 
----
+______________________________________________________________________
 
-# 16. Manifest Is a Source Claim
+## 16. Manifest Is a Source Claim
 
 A manifest declaring:
 
@@ -583,9 +596,9 @@ unless validated by stronger evidence.
 
 Documentation alone does not prove successful execution.
 
----
+______________________________________________________________________
 
-# 17. Capability Contract
+## 17. Capability Contract
 
 A Capability Contract binds a capability to a particular task requirement.
 
@@ -623,9 +636,9 @@ CapabilityContract:
   invalidation_conditions:
 ```
 
----
+______________________________________________________________________
 
-# 18. Capability Classes
+## 18. Capability Classes
 
 Candidate capability classes:
 
@@ -655,9 +668,9 @@ HUMAN
 COMPOSITE
 ```
 
----
+______________________________________________________________________
 
-# 19. Cognitive Capability
+## 19. Cognitive Capability
 
 Examples:
 
@@ -675,9 +688,9 @@ PLANNING
 
 Do not confuse model competence claims with verified universal capability.
 
----
+______________________________________________________________________
 
-# 20. Information Retrieval Capability
+## 20. Information Retrieval Capability
 
 Examples:
 
@@ -693,9 +706,9 @@ WEB RETRIEVAL
 CONNECTOR READ
 ```
 
----
+______________________________________________________________________
 
-# 21. Storage Capability
+## 21. Storage Capability
 
 Examples:
 
@@ -709,9 +722,9 @@ UPDATE DOCUMENT
 PERSIST STATE
 ```
 
----
+______________________________________________________________________
 
-# 22. Compute Capability
+## 22. Compute Capability
 
 Examples:
 
@@ -725,9 +738,9 @@ SIMULATE
 PROCESS DATA
 ```
 
----
+______________________________________________________________________
 
-# 23. Transformation Capability
+## 23. Transformation Capability
 
 Examples:
 
@@ -743,9 +756,9 @@ REFORMAT
 RESTRUCTURE
 ```
 
----
+______________________________________________________________________
 
-# 24. Communication Capability
+## 24. Communication Capability
 
 Examples:
 
@@ -761,9 +774,9 @@ NOTIFY
 
 Communication capability is inherently effect-sensitive.
 
----
+______________________________________________________________________
 
-# 25. Observation Capability
+## 25. Observation Capability
 
 Examples:
 
@@ -779,9 +792,9 @@ MONITOR CONDITION
 
 Observation must be distinguished from mutation.
 
----
+______________________________________________________________________
 
-# 26. Control Capability
+## 26. Control Capability
 
 Examples:
 
@@ -799,9 +812,9 @@ ROLL BACK
 CONFIGURE
 ```
 
----
+______________________________________________________________________
 
-# 27. Transaction Capability
+## 27. Transaction Capability
 
 Examples:
 
@@ -819,9 +832,9 @@ VERSIONED UPDATE
 
 Conceptual availability does not imply a literal database transaction system.
 
----
+______________________________________________________________________
 
-# 28. External Service Capability
+## 28. External Service Capability
 
 Capabilities supplied by:
 
@@ -839,9 +852,9 @@ CLOUD SERVICE
 
 require external-state validation.
 
----
+______________________________________________________________________
 
-# 29. Human Capability
+## 29. Human Capability
 
 Some tasks may require:
 
@@ -863,9 +876,9 @@ NO MACHINE CAPABILITY SUFFICIENT
 
 rather than invent one.
 
----
+______________________________________________________________________
 
-# 30. Composite Capability
+## 30. Composite Capability
 
 A task may require:
 
@@ -885,9 +898,9 @@ TRANSFORM CONTENT
 WRITE FILE
 ```
 
----
+______________________________________________________________________
 
-# 31. Capability Discovery
+## 31. Capability Discovery
 
 Candidate discovery sources:
 
@@ -908,9 +921,9 @@ VALIDATED PRIOR CAPABILITY CAPSULES
 Do not search the entire capability universe when a local sufficient set is
 known.
 
----
+______________________________________________________________________
 
-# 32. Candidate Set
+## 32. Candidate Set
 
 For requirement `R`:
 
@@ -927,9 +940,9 @@ Cn
 
 Each candidate must be tested against the task's actual requirements.
 
----
+______________________________________________________________________
 
-# 33. No Candidate
+## 33. No Candidate
 
 If:
 
@@ -945,9 +958,9 @@ CAPABILITY GAP
 
 Do not fabricate a capability.
 
----
+______________________________________________________________________
 
-# 34. Candidate Qualification
+## 34. Candidate Qualification
 
 A candidate is qualified only if relevant dimensions match.
 
@@ -976,9 +989,9 @@ DependenciesResolvable
 Policy and authority are intentionally excluded here because they are
 separate governance layers.
 
----
+______________________________________________________________________
 
-# 35. Operation Match
+## 35. Operation Match
 
 The capability must actually support the required operation.
 
@@ -995,6 +1008,7 @@ WRITE
 ```text
 CREATE
 ```
+
 does not imply:
 
 ```text
@@ -1004,15 +1018,16 @@ UPDATE
 ```text
 DRAFT
 ```
+
 does not imply:
 
 ```text
 SEND
 ```
 
----
+______________________________________________________________________
 
-# 36. Directionality
+## 36. Directionality
 
 Capability direction matters.
 
@@ -1027,21 +1042,24 @@ UPLOAD
 !=
 DOWNLOAD
 ```
+
 ```text
 READ
 !=
 WRITE
 ```
+
 ```text
 ENCODE
 !=
 DECODE
 ```
+
 unless the manifest explicitly supports both.
 
----
+______________________________________________________________________
 
-# 37. Input Compatibility
+## 37. Input Compatibility
 
 A capability must accept the actual task input.
 
@@ -1065,9 +1083,9 @@ VERSION
 ACCESS METHOD
 ```
 
----
+______________________________________________________________________
 
-# 38. Output Compatibility
+## 38. Output Compatibility
 
 The output must satisfy downstream requirements.
 
@@ -1085,9 +1103,9 @@ The capability alone is insufficient.
 
 A transformation capability may be required.
 
----
+______________________________________________________________________
 
-# 39. Type Compatibility
+## 39. Type Compatibility
 
 Conceptually:
 
@@ -1099,9 +1117,9 @@ InputType(C2)
 
 must be compatible for composition.
 
----
+______________________________________________________________________
 
-# 40. Schema Compatibility
+## 40. Schema Compatibility
 
 Two capabilities may both use JSON but remain incompatible.
 
@@ -1111,9 +1129,9 @@ FORMAT MATCH
 SCHEMA MATCH
 ```
 
----
+______________________________________________________________________
 
-# 41. Version Compatibility
+## 41. Version Compatibility
 
 Example:
 
@@ -1131,9 +1149,9 @@ INCOMPATIBLE
 
 unless an adapter exists.
 
----
+______________________________________________________________________
 
-# 42. Environment Compatibility
+## 42. Environment Compatibility
 
 Capability validity may depend on:
 
@@ -1159,9 +1177,9 @@ SANDBOX
 PRODUCTION
 ```
 
----
+______________________________________________________________________
 
-# 43. Regime Compatibility
+## 43. Regime Compatibility
 
 A capability proven in one regime is not automatically valid in another.
 
@@ -1176,14 +1194,16 @@ LOCAL
 !=
 REMOTE
 ```
+
 ```text
 SIMULATION
 !=
 PHYSICAL SYSTEM
 ```
----
 
-# 44. Freshness
+______________________________________________________________________
+
+## 44. Freshness
 
 Capability state can expire.
 
@@ -1217,9 +1237,9 @@ does not imply:
 CAPABILITY AVAILABLE @ T2
 ```
 
----
+______________________________________________________________________
 
-# 45. Freshness Envelope
+## 45. Freshness Envelope
 
 Conceptually:
 
@@ -1232,9 +1252,9 @@ freshness:
 
 where applicable.
 
----
+______________________________________________________________________
 
-# 46. Availability Classes
+## 46. Availability Classes
 
 Candidate states:
 
@@ -1252,15 +1272,15 @@ UNKNOWN
 STALE
 ```
 
----
+______________________________________________________________________
 
-# 47. Available
+## 47. Available
 
 Observed or sufficiently validated to be usable in the current context.
 
----
+______________________________________________________________________
 
-# 48. Conditionally Available
+## 48. Conditionally Available
 
 Requires a condition such as:
 
@@ -1276,9 +1296,9 @@ CONFIGURATION
 RESOURCE
 ```
 
----
+______________________________________________________________________
 
-# 49. Degraded Capability
+## 49. Degraded Capability
 
 Capability exists but with reduced:
 
@@ -1296,29 +1316,29 @@ PRECISION
 OUTPUT TYPE
 ```
 
----
+______________________________________________________________________
 
-# 50. Unavailable
+## 50. Unavailable
 
 Known not to be usable.
 
----
+______________________________________________________________________
 
-# 51. Unknown
+## 51. Unknown
 
 No sufficient evidence about current availability.
 
 Do not convert `UNKNOWN` into `UNAVAILABLE`.
 
----
+______________________________________________________________________
 
-# 52. Stale
+## 52. Stale
 
 Previous availability evidence is no longer fresh enough for the task.
 
----
+______________________________________________________________________
 
-# 53. Capability Limits
+## 53. Capability Limits
 
 Every capability should be treated as bounded.
 
@@ -1352,9 +1372,9 @@ TRANSACTION SIZE
 CONCURRENCY
 ```
 
----
+______________________________________________________________________
 
-# 54. Limit Compatibility
+## 54. Limit Compatibility
 
 A capability that nominally supports an operation may still be insufficient.
 
@@ -1370,9 +1390,9 @@ READ FILE = 500 MB
 
 Nominal operation match is insufficient.
 
----
+______________________________________________________________________
 
-# 55. Limit Splitting
+## 55. Limit Splitting
 
 If a task exceeds a capability limit, determine whether safe decomposition
 exists.
@@ -1389,9 +1409,9 @@ CHUNK 2
 
 Only if decomposition preserves semantics.
 
----
+______________________________________________________________________
 
-# 56. Non-Decomposable Tasks
+## 56. Non-Decomposable Tasks
 
 Do not chunk blindly when the task requires:
 
@@ -1407,9 +1427,9 @@ ORDER DEPENDENCE
 CROSS-CHUNK CAUSAL STRUCTURE
 ```
 
----
+______________________________________________________________________
 
-# 57. Capability Dependencies
+## 57. Capability Dependencies
 
 Capability `C1` may require:
 
@@ -1437,9 +1457,9 @@ C3
 
 The resolver must establish dependency closure for load-bearing paths.
 
----
+______________________________________________________________________
 
-# 58. Dependency Closure
+## 58. Dependency Closure
 
 ```text
 Closure(C)
@@ -1452,9 +1472,9 @@ all load-bearing capability dependencies
 A capability is not sufficiently resolved merely because its top-level
 manifest exists.
 
----
+______________________________________________________________________
 
-# 59. Circular Dependency
+## 59. Circular Dependency
 
 If:
 
@@ -1470,9 +1490,9 @@ CAPABILITY DEADLOCK
 
 or unresolved composition gap.
 
----
+______________________________________________________________________
 
-# 60. Optional Dependency
+## 60. Optional Dependency
 
 Distinguish:
 
@@ -1488,9 +1508,9 @@ OPTIONAL ENHANCEMENT
 
 Optional enhancement failure should not invalidate a sufficient core path.
 
----
+______________________________________________________________________
 
-# 61. Capability Composition
+## 61. Capability Composition
 
 For task `T`:
 
@@ -1502,9 +1522,9 @@ C1 ∘ C2 ∘ ... ∘ Cn
 
 where each interface is compatible.
 
----
+______________________________________________________________________
 
-# 62. Composition Validity
+## 62. Composition Validity
 
 Conceptually:
 
@@ -1523,9 +1543,9 @@ regime preserved
 effect semantics preserved
 ```
 
----
+______________________________________________________________________
 
-# 63. Capability Graph
+## 63. Capability Graph
 
 Example:
 
@@ -1545,9 +1565,9 @@ WRITE ARTIFACT
 
 Each node is separately resolvable.
 
----
+______________________________________________________________________
 
-# 64. Alternative Plans
+## 64. Alternative Plans
 
 A task may support:
 
@@ -1561,9 +1581,9 @@ C3 → C4 → C5
 
 The resolver should not automatically choose the shortest plan.
 
----
+______________________________________________________________________
 
-# 65. Plan Evaluation
+## 65. Plan Evaluation
 
 Candidate dimensions:
 
@@ -1591,9 +1611,9 @@ COMPLEXITY
 
 Governance may add further criteria downstream.
 
----
+______________________________________________________________________
 
-# 66. Optimization Order
+## 66. Optimization Order
 
 Default candidate order:
 
@@ -1615,9 +1635,9 @@ EFFICIENCY
 
 Speed cannot compensate for semantic insufficiency.
 
----
+______________________________________________________________________
 
-# 67. Least-Capability Principle
+## 67. Least-Capability Principle
 
 Use:
 
@@ -1629,9 +1649,9 @@ THE TASK CONTRACT.
 
 Do not activate broader capabilities merely because they exist.
 
----
+______________________________________________________________________
 
-# 68. Least-Privilege Compatibility
+## 68. Least-Privilege Compatibility
 
 Capability resolution should support downstream least-privilege governance.
 
@@ -1649,9 +1669,9 @@ WRITE ALL FILES
 
 when a narrower sufficient capability exists.
 
----
+______________________________________________________________________
 
-# 69. Effect Envelope
+## 69. Effect Envelope
 
 Each capability should expose potential effects.
 
@@ -1679,9 +1699,9 @@ FINANCIAL
 GOVERNANCE
 ```
 
----
+______________________________________________________________________
 
-# 70. Effect Expansion Check
+## 70. Effect Expansion Check
 
 Capability plan must not silently exceed task effect intent.
 
@@ -1700,18 +1720,18 @@ MATERIAL EFFECT MISMATCH
 
 must be surfaced.
 
----
+______________________________________________________________________
 
-# 71. Read vs Write
+## 71. Read vs Write
 
 A capability with write access may technically perform a read.
 
 But when a narrower read-only capability exists, it may be preferable for
 governance and risk minimization.
 
----
+______________________________________________________________________
 
-# 72. Hidden Effects
+## 72. Hidden Effects
 
 Capabilities may create secondary effects:
 
@@ -1733,9 +1753,9 @@ AUDIT EVENT
 
 Material hidden effects should be represented when known.
 
----
+______________________________________________________________________
 
-# 73. Capability Side Effects
+## 73. Capability Side Effects
 
 Do not assume:
 
@@ -1747,9 +1767,9 @@ ONLY EFFECT
 
 Side effects may alter policy or authority requirements.
 
----
+______________________________________________________________________
 
-# 74. Capability Provenance
+## 74. Capability Provenance
 
 For each selected capability, retain:
 
@@ -1769,9 +1789,9 @@ DEPENDENCY ORIGIN
 
 where material.
 
----
+______________________________________________________________________
 
-# 75. Provenance Independence
+## 75. Provenance Independence
 
 Multiple declarations may descend from the same provider metadata.
 
@@ -1787,9 +1807,9 @@ may all originate from one underlying source.
 
 Do not count them as independent confirmation.
 
----
+______________________________________________________________________
 
-# 76. Capability Confidence
+## 76. Capability Confidence
 
 Confidence in capability sufficiency is bounded by the weakest load-bearing
 component.
@@ -1809,9 +1829,9 @@ MIN(
 )
 ```
 
----
+______________________________________________________________________
 
-# 77. Capability Proof Capsule
+## 77. Capability Proof Capsule
 
 Consequential capability decisions should conceptually carry:
 
@@ -1855,9 +1875,9 @@ CapabilityProofCapsule:
   confidence_ceiling:
 ```
 
----
+______________________________________________________________________
 
-# 78. Capability Falsifiers
+## 78. Capability Falsifiers
 
 Examples:
 
@@ -1879,9 +1899,9 @@ NETWORK UNAVAILABLE
 TARGET ENVIRONMENT CHANGED
 ```
 
----
+______________________________________________________________________
 
-# 79. Invalidation Conditions
+## 79. Invalidation Conditions
 
 Capability resolution should be invalidated when load-bearing conditions
 change.
@@ -1908,9 +1928,9 @@ TASK VERSION CHANGE
 SERVICE STATUS CHANGE
 ```
 
----
+______________________________________________________________________
 
-# 80. Capability State Version
+## 80. Capability State Version
 
 Conceptually:
 
@@ -1930,9 +1950,9 @@ If a load-bearing capability changed:
 REVALIDATE DEPENDENT PLAN
 ```
 
----
+______________________________________________________________________
 
-# 81. MVCC Pattern
+## 81. MVCC Pattern
 
 Resolver reads:
 
@@ -1956,9 +1976,9 @@ for load-bearing mutable state.
 
 This is a reasoning pattern, not a claim of literal infrastructure.
 
----
+______________________________________________________________________
 
-# 82. CAS Pattern
+## 82. CAS Pattern
 
 Conceptually:
 
@@ -1973,9 +1993,9 @@ ELSE
 RE-RESOLVE
 ```
 
----
+______________________________________________________________________
 
-# 83. Selective Invalidation
+## 83. Selective Invalidation
 
 If:
 
@@ -1999,9 +2019,9 @@ dependent descendants
 
 not unrelated capability reasoning.
 
----
+______________________________________________________________________
 
-# 84. Repair
+## 84. Repair
 
 ```text
 FAILED CAPABILITY
@@ -2017,9 +2037,9 @@ REVALIDATE COMPOSITION
 CONTINUE IF SUFFICIENT
 ```
 
----
+______________________________________________________________________
 
-# 85. Failed Path Rule
+## 85. Failed Path Rule
 
 Do not retry the same capability path without changed conditions when the
 failure is deterministic.
@@ -2032,9 +2052,9 @@ UNSUPPORTED FORMAT
 
 will not be repaired by identical retries.
 
----
+______________________________________________________________________
 
-# 86. Transient Failure
+## 86. Transient Failure
 
 A transient failure may justify retry.
 
@@ -2052,9 +2072,9 @@ Retry semantics belong partly to runtime policy.
 
 The resolver should preserve failure type.
 
----
+______________________________________________________________________
 
-# 87. Permanent Failure
+## 87. Permanent Failure
 
 Examples:
 
@@ -2068,9 +2088,9 @@ MISSING REQUIRED FEATURE
 
 should trigger alternative resolution rather than blind retry.
 
----
+______________________________________________________________________
 
-# 88. Capability Fast Path
+## 88. Capability Fast Path
 
 Use the fast path when:
 
@@ -2092,9 +2112,9 @@ NO MATERIAL CONFLICT
 NO EFFECT EXPANSION
 ```
 
----
+______________________________________________________________________
 
-# 89. Fast Path Result
+## 89. Fast Path Result
 
 ```yaml
 status: RESOLVED
@@ -2105,9 +2125,9 @@ plan:
   - capability_x
 ```
 
----
+______________________________________________________________________
 
-# 90. Fast Path Independence
+## 90. Fast Path Independence
 
 Do not infer locality from task simplicity.
 
@@ -2133,9 +2153,9 @@ POLICY
 EXTERNAL EFFECT GOVERNANCE
 ```
 
----
+______________________________________________________________________
 
-# 91. Escalation Triggers
+## 91. Escalation Triggers
 
 Escalate capability reasoning for:
 
@@ -2165,9 +2185,9 @@ IRREVERSIBLE OPERATIONS
 GOVERNANCE EFFECTS
 ```
 
----
+______________________________________________________________________
 
-# 92. Adaptive Complexity
+## 92. Adaptive Complexity
 
 Candidate classes:
 
@@ -2185,41 +2205,41 @@ C4 MAXIMUM
 
 Use the lowest sufficient class.
 
----
+______________________________________________________________________
 
-# 93. C0 Direct
+## 93. C0 Direct
 
 One obvious local capability, low stakes, no effectful ambiguity.
 
----
+______________________________________________________________________
 
-# 94. C1 Compact
+## 94. C1 Compact
 
 Small composition or minor validation required.
 
----
+______________________________________________________________________
 
-# 95. C2 Structured
+## 95. C2 Structured
 
 Multiple capability requirements and explicit dependency validation.
 
----
+______________________________________________________________________
 
-# 96. C3 Deep
+## 96. C3 Deep
 
 External services, material effects, weak availability evidence, or complex
 composition.
 
----
+______________________________________________________________________
 
-# 97. C4 Maximum
+## 97. C4 Maximum
 
 Irreversible/high-stakes operations, governance changes, cross-system atomic
 requirements, or severe provenance/dependency ambiguity.
 
----
+______________________________________________________________________
 
-# 98. Capability Gap Classification
+## 98. Capability Gap Classification
 
 Classify gaps:
 
@@ -2233,9 +2253,9 @@ EXPLANATORY
 COSMETIC
 ```
 
----
+______________________________________________________________________
 
-# 99. Critical Capability Gap
+## 99. Critical Capability Gap
 
 A missing capability without which the task cannot be safely or correctly
 performed.
@@ -2249,30 +2269,30 @@ SEND MESSAGE
 NO COMMUNICATION CAPABILITY
 ```
 
----
+______________________________________________________________________
 
-# 100. Decision-Relevant Gap
+## 100. Decision-Relevant Gap
 
 Multiple capability paths exist but missing information could alter which
 path should be selected.
 
----
+______________________________________________________________________
 
-# 101. Explanatory Gap
+## 101. Explanatory Gap
 
 Missing detail that does not alter plan sufficiency.
 
----
+______________________________________________________________________
 
-# 102. Cosmetic Gap
+## 102. Cosmetic Gap
 
 Non-material metadata or naming uncertainty.
 
 Do not block execution planning for cosmetic gaps.
 
----
+______________________________________________________________________
 
-# 103. Capability Sensitivity
+## 103. Capability Sensitivity
 
 For each load-bearing capability assumption:
 
@@ -2288,9 +2308,9 @@ If yes:
 REVALIDATE FIRST
 ```
 
----
+______________________________________________________________________
 
-# 104. Cheapest High-Information Test
+## 104. Cheapest High-Information Test
 
 When uncertainty exists, prefer:
 
@@ -2308,9 +2328,9 @@ CHECK TARGET ACCESSIBILITY
 
 before expensive execution attempts.
 
----
+______________________________________________________________________
 
-# 105. Competing Capability Plans
+## 105. Competing Capability Plans
 
 Do not force convergence when plans are:
 
@@ -2332,9 +2352,9 @@ COMPETING
 
 until a discriminating criterion exists.
 
----
+______________________________________________________________________
 
-# 106. Plan Dominance
+## 106. Plan Dominance
 
 Plan `P1` dominates `P2` if it is at least as sufficient and strictly better
 on a material criterion without introducing worse load-bearing trade-offs.
@@ -2351,9 +2371,9 @@ SAME RELIABILITY
 
 may favor `P1`.
 
----
+______________________________________________________________________
 
-# 107. Capability Fallback
+## 107. Capability Fallback
 
 Fallback is valid only if it still satisfies the Task Contract.
 
@@ -2365,9 +2385,9 @@ FALLBACK
 
 does not imply the fallback is equivalent.
 
----
+______________________________________________________________________
 
-# 108. Degraded Fallback
+## 108. Degraded Fallback
 
 If fallback provides only partial satisfaction:
 
@@ -2377,9 +2397,9 @@ RETURN DEGRADED
 
 and expose the missing requirement.
 
----
+______________________________________________________________________
 
-# 109. No Silent Substitution
+## 109. No Silent Substitution
 
 Do not silently substitute:
 
@@ -2394,21 +2414,24 @@ WRITE
 →
 READ
 ```
+
 ```text
 EXACT FORMAT
 →
 DIFFERENT FORMAT
 ```
+
 ```text
 VERIFIED SOURCE
 →
 UNVERIFIED SOURCE
 ```
+
 when the difference is task-relevant.
 
----
+______________________________________________________________________
 
-# 110. Safe Alternative
+## 110. Safe Alternative
 
 When the requested capability is unavailable, the resolver may identify a
 safe alternative.
@@ -2425,9 +2448,9 @@ distinct from:
 ALTERNATIVE PATH
 ```
 
----
+______________________________________________________________________
 
-# 111. Example — Read File
+## 111. Example — Read File
 
 Task:
 
@@ -2456,9 +2479,9 @@ Result:
 RESOLVED
 ```
 
----
+______________________________________________________________________
 
-# 112. Example — Unsupported File
+## 112. Example — Unsupported File
 
 Task:
 
@@ -2485,9 +2508,9 @@ UNSUPPORTED FORMAT
 
 Do not pretend the file was read.
 
----
+______________________________________________________________________
 
-# 113. Example — Converter Composition
+## 113. Example — Converter Composition
 
 Task:
 
@@ -2516,9 +2539,9 @@ ANALYZE
 
 if conversion preserves required semantics.
 
----
+______________________________________________________________________
 
-# 114. Example — Lossy Conversion
+## 114. Example — Lossy Conversion
 
 If converter discards information required by the task:
 
@@ -2534,9 +2557,9 @@ PLAN INSUFFICIENT
 
 Availability is not enough.
 
----
+______________________________________________________________________
 
-# 115. Example — Draft Email
+## 115. Example — Draft Email
 
 Task:
 
@@ -2552,9 +2575,9 @@ TEXT GENERATION
 
 Sending capability is not required.
 
----
+______________________________________________________________________
 
-# 116. Example — Send Email
+## 116. Example — Send Email
 
 Task:
 
@@ -2578,9 +2601,9 @@ SEND OPERATION
 
 Policy and authority remain downstream checks.
 
----
+______________________________________________________________________
 
-# 117. Example — Current Price
+## 117. Example — Current Price
 
 Task:
 
@@ -2593,9 +2616,9 @@ demand current market data.
 
 The resolver should require a fresh retrieval capability.
 
----
+______________________________________________________________________
 
-# 118. Example — Code Execution
+## 118. Example — Code Execution
 
 Task:
 
@@ -2617,9 +2640,9 @@ RESOURCE LIMITS
 OUTPUT REQUIREMENTS
 ```
 
----
+______________________________________________________________________
 
-# 119. Example — Missing Library
+## 119. Example — Missing Library
 
 Python runtime exists, but required library does not.
 
@@ -2639,9 +2662,9 @@ BLOCKED
 
 if no compatible path exists.
 
----
+______________________________________________________________________
 
-# 120. Example — Web Requirement
+## 120. Example — Web Requirement
 
 Task:
 
@@ -2665,9 +2688,9 @@ CURRENT VERIFICATION GAP
 
 must remain visible.
 
----
+______________________________________________________________________
 
-# 121. Example — Local vs Remote
+## 121. Example — Local vs Remote
 
 Task can be completed by:
 
@@ -2689,9 +2712,9 @@ LOCAL MAY DOMINATE
 
 subject to quality and other task constraints.
 
----
+______________________________________________________________________
 
-# 122. Example — Destructive Capability
+## 122. Example — Destructive Capability
 
 Task:
 
@@ -2713,9 +2736,9 @@ DELETE AUTHORIZED
 
 or execute before downstream governance.
 
----
+______________________________________________________________________
 
-# 123. Example — Human Required
+## 123. Example — Human Required
 
 Task:
 
@@ -2737,9 +2760,9 @@ Possible alternative:
 HUMAN INSPECTION REQUIRED
 ```
 
----
+______________________________________________________________________
 
-# 124. Example — Partial Capability
+## 124. Example — Partial Capability
 
 Task:
 
@@ -2757,9 +2780,9 @@ DEGRADED / INSUFFICIENT
 
 not `RESOLVED`.
 
----
+______________________________________________________________________
 
-# 125. Example — Size Limit
+## 125. Example — Size Limit
 
 Task input:
 
@@ -2789,9 +2812,9 @@ CAPABILITY GAP
 
 remains.
 
----
+______________________________________________________________________
 
-# 126. Example — Cross-Capability Atomicity
+## 126. Example — Cross-Capability Atomicity
 
 Task:
 
@@ -2819,9 +2842,9 @@ exists.
 
 Atomicity is a separate requirement.
 
----
+______________________________________________________________________
 
-# 127. Atomic Multi-Capability Reasoning
+## 127. Atomic Multi-Capability Reasoning
 
 Some tasks require capabilities to satisfy a joint invariant.
 
@@ -2846,9 +2869,9 @@ FINALITY
 
 The resolver must reason over the composition, not only nodes.
 
----
+______________________________________________________________________
 
-# 128. Causal Epoch Finality
+## 128. Causal Epoch Finality
 
 For capability plans depending on mutable causal state:
 
@@ -2865,9 +2888,9 @@ E2
 Final execution eligibility requires relevant causal state still to satisfy
 the plan's validity conditions.
 
----
+______________________________________________________________________
 
-# 129. Shard-Local Resolution
+## 129. Shard-Local Resolution
 
 Local capability resolution is safe only when:
 
@@ -2881,9 +2904,9 @@ NO CROSS-SHARD EFFECT COUPLING
 NO SHARED GOVERNANCE DEPENDENCY
 ```
 
----
+______________________________________________________________________
 
-# 130. Proof-Based Coordination Avoidance
+## 130. Proof-Based Coordination Avoidance
 
 Do not globally query every capability source if local proof establishes:
 
@@ -2899,9 +2922,9 @@ NO REMOTE STATE RELEVANCE
 
 Coordination avoidance must be proven, not assumed.
 
----
+______________________________________________________________________
 
-# 131. Capability Resolver and RSCF
+## 131. Capability Resolver and RSCF
 
 Capability resolution may create RSCF structures around:
 
@@ -2921,9 +2944,9 @@ EFFECTS
 
 Traverse only dependencies capable of changing the capability decision.
 
----
+______________________________________________________________________
 
-# 132. Capability Resolver and Fractal Retrieval
+## 132. Capability Resolver and Fractal Retrieval
 
 Use:
 
@@ -2940,9 +2963,9 @@ RAW MANIFEST / EVIDENCE
 ONLY IF REQUIRED
 ```
 
----
+______________________________________________________________________
 
-# 133. Raw Evidence Rule
+## 133. Raw Evidence Rule
 
 Raw capability evidence defaults:
 
@@ -2968,9 +2991,9 @@ FRESHNESS
 EFFECT
 ```
 
----
+______________________________________________________________________
 
-# 134. Capability Resolver and GMEF
+## 134. Capability Resolver and GMEF
 
 If a task requires creating, replacing, or modifying a canonical capability
 mechanism:
@@ -2981,9 +3004,9 @@ ROUTE GOVERNANCE EVOLUTION
 
 rather than treating the change as ordinary runtime selection.
 
----
+______________________________________________________________________
 
-# 135. Capability Resolver and Provenance Resolver
+## 135. Capability Resolver and Provenance Resolver
 
 Capability Resolver asks:
 
@@ -3000,9 +3023,9 @@ SUPPORTS THE INPUTS AND CLAIMS?
 
 The two interact but must not collapse into one another.
 
----
+______________________________________________________________________
 
-# 136. Capability Resolver and Policy
+## 136. Capability Resolver and Policy
 
 Capability exists:
 
@@ -3024,9 +3047,9 @@ CAPABILITY
 PERMISSION
 ```
 
----
+______________________________________________________________________
 
-# 137. Capability Resolver and Authority
+## 137. Capability Resolver and Authority
 
 Capability may exist and policy may permit an operation generally.
 
@@ -3040,9 +3063,9 @@ CAPABILITY
 AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 138. Capability Resolver and Effects
+## 138. Capability Resolver and Effects
 
 Capability Resolver should expose:
 
@@ -3054,9 +3077,9 @@ to the Effect subsystem.
 
 The Effect subsystem determines the actual governed effect plan.
 
----
+______________________________________________________________________
 
-# 139. Capability Resolver and Observability
+## 139. Capability Resolver and Observability
 
 A task requiring proof of completion may need:
 
@@ -3076,9 +3099,9 @@ VERIFY FILE EXISTS REMOTELY
 
 Invocation alone is not completion evidence.
 
----
+______________________________________________________________________
 
-# 140. Capability Resolver and Semantic Transaction
+## 140. Capability Resolver and Semantic Transaction
 
 A semantic transaction may bind:
 
@@ -3094,9 +3117,9 @@ DEPENDENCY SNAPSHOT
 
 for consequential operations.
 
----
+______________________________________________________________________
 
-# 141. Capability Resolver and Commit
+## 141. Capability Resolver and Commit
 
 Before commit:
 
@@ -3108,9 +3131,9 @@ CAPABILITY CONDITIONS
 
 if mutable.
 
----
+______________________________________________________________________
 
-# 142. Capability Resolver and Finalizer
+## 142. Capability Resolver and Finalizer
 
 Finalizer should evaluate actual results, not merely whether the selected
 capability was invoked.
@@ -3121,9 +3144,9 @@ TOOL CALL SUCCEEDED
 TASK COMPLETED
 ```
 
----
+______________________________________________________________________
 
-# 143. Capability Resolver and Recovery
+## 143. Capability Resolver and Recovery
 
 When execution fails:
 
@@ -3141,9 +3164,9 @@ REVALIDATE
 
 Do not globally recompute unless necessary.
 
----
+______________________________________________________________________
 
-# 144. Capability Resolver and Replay
+## 144. Capability Resolver and Replay
 
 Replay must preserve:
 
@@ -3161,9 +3184,9 @@ when historical reproducibility matters.
 
 A current capability may behave differently from the historical one.
 
----
+______________________________________________________________________
 
-# 145. Capability Resolver and Memory
+## 145. Capability Resolver and Memory
 
 Previously validated capability plans may be reused only while:
 
@@ -3181,9 +3204,9 @@ FRESHNESS VALID
 NO MATERIAL CONFLICT EXISTS
 ```
 
----
+______________________________________________________________________
 
-# 146. Capability Capsule Reuse
+## 146. Capability Capsule Reuse
 
 Conceptually:
 
@@ -3204,9 +3227,9 @@ ELSE
 REVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 147. Capability Anti-Fabrication
+## 147. Capability Anti-Fabrication
 
 Never infer:
 
@@ -3221,19 +3244,22 @@ SERVICE EXISTS
 →
 SERVICE CONNECTED
 ```
+
 ```text
 API DOCUMENTED
 →
 API ACCESSIBLE
 ```
+
 ```text
 MODEL CAN GENERALLY DO X
 →
 CURRENT CONFIGURATION CAN DO X
 ```
----
 
-# 148. Capability Anti-Generalization
+______________________________________________________________________
+
+## 148. Capability Anti-Generalization
 
 Do not infer:
 
@@ -3248,14 +3274,16 @@ WORKED IN TEST
 →
 WORKS IN PRODUCTION
 ```
+
 ```text
 WORKED ON VERSION 1
 →
 WORKS ON VERSION 2
 ```
----
 
-# 149. Capability Anti-Benchmark Rule
+______________________________________________________________________
+
+## 149. Capability Anti-Benchmark Rule
 
 Benchmark success does not establish universal capability.
 
@@ -3265,9 +3293,9 @@ BENCHMARK PERFORMANCE
 TASK-SPECIFIC SUFFICIENCY
 ```
 
----
+______________________________________________________________________
 
-# 150. Capability Anti-Latency Rule
+## 150. Capability Anti-Latency Rule
 
 Reported latency is not hardware-independent or environment-independent.
 
@@ -3279,16 +3307,16 @@ CAPABILITY LATENCY = X
 
 as universal without scope.
 
----
+______________________________________________________________________
 
-# 151. Capability Anti-Sybil Rule
+## 151. Capability Anti-Sybil Rule
 
 Multiple capability descriptions derived from one provider do not create
 independent validation.
 
----
+______________________________________________________________________
 
-# 152. Capability Anti-Effect Rule
+## 152. Capability Anti-Effect Rule
 
 Never resolve:
 
@@ -3298,30 +3326,30 @@ READ REQUIREMENT
 
 into a write-heavy capability without surfacing the broader effect envelope.
 
----
+______________________________________________________________________
 
-# 153. Capability Anti-Privilege Rule
+## 153. Capability Anti-Privilege Rule
 
 Do not expand access scope merely to make capability selection easier.
 
----
+______________________________________________________________________
 
-# 154. Capability Anti-Retry Rule
+## 154. Capability Anti-Retry Rule
 
 Repeated failure does not create evidence of eventual success.
 
 Retry only when failure semantics justify it.
 
----
+______________________________________________________________________
 
-# 155. Capability Anti-Substitution Rule
+## 155. Capability Anti-Substitution Rule
 
 Do not silently replace a required capability with an easier but
 semantically weaker operation.
 
----
+______________________________________________________________________
 
-# 156. Capability Anti-Regression Gate
+## 156. Capability Anti-Regression Gate
 
 Capability resolver optimizations must preserve or improve:
 
@@ -3353,9 +3381,9 @@ AUDITABILITY
 
 Otherwise reject the optimization.
 
----
+______________________________________________________________________
 
-# 157. Resolver Invariants
+## 157. Resolver Invariants
 
 ```text
 CR-I01
@@ -3440,9 +3468,9 @@ CAPABILITY OPTIMIZATION MUST NOT WEAKEN INTEGRITY.
 These identifiers remain candidate specification IDs until separately
 registered as canonical invariants.
 
----
+______________________________________________________________________
 
-# 158. Capability Resolver Result
+## 158. Capability Resolver Result
 
 Conceptual form:
 
@@ -3498,9 +3526,9 @@ CapabilityResolverResult:
   next_route:
 ```
 
----
+______________________________________________________________________
 
-# 159. Next Route
+## 159. Next Route
 
 Candidate routes:
 
@@ -3528,9 +3556,9 @@ BLOCK
 RETURN_UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 160. Resolver Pseudocode
+## 160. Resolver Pseudocode
 
 ```text
 function resolve_capabilities(task, runtime):
@@ -3704,9 +3732,9 @@ function resolve_capabilities(task, runtime):
 This pseudocode is conceptual and does not claim literal runtime
 implementation.
 
----
+______________________________________________________________________
 
-# 161. Capability Sufficiency Function
+## 161. Capability Sufficiency Function
 
 Conceptually:
 
@@ -3730,9 +3758,9 @@ LimitsCompatible(P,T)
 EffectsWithinResolvedEnvelope(P,T)
 ```
 
----
+______________________________________________________________________
 
-# 162. Requirement Coverage
+## 162. Requirement Coverage
 
 ```text
 RequirementsCovered(P,T)
@@ -3741,9 +3769,9 @@ RequirementsCovered(P,T)
 means every load-bearing capability requirement has at least one valid
 provider in the plan.
 
----
+______________________________________________________________________
 
-# 163. Minimality
+## 163. Minimality
 
 A plan is minimally sufficient when removing any required component causes
 the task to become capability-insufficient.
@@ -3755,9 +3783,9 @@ CapabilitySufficient(P - C,T) = false
 
 Optional resilience components may exist separately.
 
----
+______________________________________________________________________
 
-# 164. Resilience Capability
+## 164. Resilience Capability
 
 A plan may contain:
 
@@ -3770,9 +3798,9 @@ FALLBACK
 Fallback capability should be explicitly classified rather than treated as a
 simultaneously required component.
 
----
+______________________________________________________________________
 
-# 165. Capability Uncertainty Vector
+## 165. Capability Uncertainty Vector
 
 Track material uncertainty across:
 
@@ -3798,9 +3826,9 @@ PROVENANCE INDEPENDENCE
 
 Spend validation effort where it can change the capability decision.
 
----
+______________________________________________________________________
 
-# 166. Adversarial Capability Validation
+## 166. Adversarial Capability Validation
 
 For consequential plans, challenge:
 
@@ -3828,9 +3856,9 @@ DOES THE PLAN CREATE A BROADER EFFECT?
 IS A STRONGER OR SAFER ALTERNATIVE AVAILABLE?
 ```
 
----
+______________________________________________________________________
 
-# 167. Independent Challenge Path
+## 167. Independent Challenge Path
 
 Primary path:
 
@@ -3854,9 +3882,9 @@ VERSION CHECK
 
 when available and appropriate.
 
----
+______________________________________________________________________
 
-# 168. Probe Governance
+## 168. Probe Governance
 
 A capability probe itself may create effects.
 
@@ -3878,9 +3906,9 @@ LOW-COST
 
 probes.
 
----
+______________________________________________________________________
 
-# 169. Challenge Success
+## 169. Challenge Success
 
 If the challenge falsifies a load-bearing premise:
 
@@ -3892,16 +3920,16 @@ CAPABILITY PLAN COMPONENTS
 
 then seek an alternative.
 
----
+______________________________________________________________________
 
-# 170. Challenge Failure
+## 170. Challenge Failure
 
 Failure to find a contradiction does not transform a manifest claim into
 universal empirical verification.
 
----
+______________________________________________________________________
 
-# 171. Capability Decision Sufficiency
+## 171. Capability Decision Sufficiency
 
 Stop capability search when:
 
@@ -3919,9 +3947,9 @@ DEPENDENCY CLOSURE IS ESTABLISHED
 
 Do not enumerate every possible tool.
 
----
+______________________________________________________________________
 
-# 172. Search Stop Law
+## 172. Search Stop Law
 
 ```text
 CAPABILITY SEARCH
@@ -3930,9 +3958,9 @@ IS NOT A CATALOGING EXERCISE.
 
 Stop when the task has a sufficient governed execution path.
 
----
+______________________________________________________________________
 
-# 173. Failure Recovery Law
+## 173. Failure Recovery Law
 
 ```text
 FAIL LOCAL
@@ -3942,9 +3970,9 @@ ESCALATE ONLY AS REQUIRED.
 
 Do not discard valid capability bindings when one unrelated capability fails.
 
----
+______________________________________________________________________
 
-# 174. Capability Lineage
+## 174. Capability Lineage
 
 Preserve:
 
@@ -3964,9 +3992,9 @@ OBSERVATION
 
 This enables later causal and provenance auditing.
 
----
+______________________________________________________________________
 
-# 175. Capability Epoch
+## 175. Capability Epoch
 
 A capability plan should conceptually be bound to the state in which it was
 resolved.
@@ -3981,9 +4009,9 @@ If a load-bearing state changes:
 P MAY REQUIRE REVALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 176. Causal Dependency
+## 176. Causal Dependency
 
 Some capability dependencies are causal rather than merely structural.
 
@@ -3999,9 +4027,9 @@ Loss of the token causally removes execution capability.
 
 The resolver should distinguish such dependencies where material.
 
----
+______________________________________________________________________
 
-# 177. Structural Similarity Firewall
+## 177. Structural Similarity Firewall
 
 A capability that looks similar to another does not inherit its guarantees.
 
@@ -4011,9 +4039,9 @@ SIMILAR INTERFACE
 SAME SEMANTICS
 ```
 
----
+______________________________________________________________________
 
-# 178. Adapter Capability
+## 178. Adapter Capability
 
 An adapter may bridge:
 
@@ -4025,9 +4053,9 @@ INPUT B
 
 but only if the transformation preserves task-relevant information.
 
----
+______________________________________________________________________
 
-# 179. Lossless vs Lossy Adapter
+## 179. Lossless vs Lossy Adapter
 
 Classify adapters as:
 
@@ -4043,9 +4071,9 @@ UNKNOWN
 
 Task-relative classification matters.
 
----
+______________________________________________________________________
 
-# 180. Capability Equivalence
+## 180. Capability Equivalence
 
 Two capabilities are equivalent only relative to a defined task envelope.
 
@@ -4055,9 +4083,9 @@ Equivalent(C1,C2,T)
 
 does not imply universal equivalence.
 
----
+______________________________________________________________________
 
-# 181. Capability Scope
+## 181. Capability Scope
 
 Capability claims inherit an applicability envelope:
 
@@ -4083,9 +4111,9 @@ ASSUMPTIONS
 
 Never silently generalize beyond it.
 
----
+______________________________________________________________________
 
-# 182. Capability Revalidation
+## 182. Capability Revalidation
 
 Revalidate when:
 
@@ -4107,9 +4135,9 @@ FRESHNESS EXPIRES
 NEW CONFLICT APPEARS
 ```
 
----
+______________________________________________________________________
 
-# 183. Capability Supersession
+## 183. Capability Supersession
 
 A newer capability version may supersede an older one.
 
@@ -4125,9 +4153,9 @@ SUPERSESSION RELATION
 MIGRATION / COMPATIBILITY STATE
 ```
 
----
+______________________________________________________________________
 
-# 184. Capability Deprecation
+## 184. Capability Deprecation
 
 Deprecated does not always mean unavailable.
 
@@ -4145,17 +4173,17 @@ UNAVAILABLE
 
 Do not collapse them.
 
----
+______________________________________________________________________
 
-# 185. Capability Revocation
+## 185. Capability Revocation
 
 A previously available capability may be revoked.
 
 Revocation should invalidate dependent active plans.
 
----
+______________________________________________________________________
 
-# 186. Capability Discovery Failure
+## 186. Capability Discovery Failure
 
 Failure to discover a capability is not proof that none exists unless the
 search scope is known complete.
@@ -4172,9 +4200,9 @@ from:
 NO CAPABILITY FOUND
 ```
 
----
+______________________________________________________________________
 
-# 187. Closed Registry
+## 187. Closed Registry
 
 If capability discovery operates over a complete authoritative registry:
 
@@ -4190,9 +4218,9 @@ UNAVAILABLE IN THIS REGISTRY
 
 within that scope.
 
----
+______________________________________________________________________
 
-# 188. Open World
+## 188. Open World
 
 In an open capability universe:
 
@@ -4208,9 +4236,9 @@ UNKNOWN / NOT FOUND
 
 unless further evidence closes the search space.
 
----
+______________________________________________________________________
 
-# 189. Capability Cost
+## 189. Capability Cost
 
 Cost may include:
 
@@ -4232,9 +4260,9 @@ COORDINATION
 
 Cost matters only after integrity and sufficiency.
 
----
+______________________________________________________________________
 
-# 190. Capability Risk
+## 190. Capability Risk
 
 Risk may derive from:
 
@@ -4255,9 +4283,9 @@ LOW OBSERVABILITY
 Capability Resolver surfaces these properties; downstream governance decides
 whether they are acceptable.
 
----
+______________________________________________________________________
 
-# 191. Reversibility
+## 191. Reversibility
 
 Prefer reversible capability paths when task-equivalent and otherwise
 comparable.
@@ -4276,9 +4304,9 @@ PUBLISH
 
 when the task does not require immediate publication.
 
----
+______________________________________________________________________
 
-# 192. Repairability
+## 192. Repairability
 
 A capability plan should expose:
 
@@ -4294,9 +4322,9 @@ WHICH DEPENDENTS MUST BE INVALIDATED
 
 when material.
 
----
+______________________________________________________________________
 
-# 193. Observability Requirement
+## 193. Observability Requirement
 
 If completion cannot be inferred from invocation:
 
@@ -4306,9 +4334,9 @@ OBSERVATION CAPABILITY
 
 becomes part of the capability plan.
 
----
+______________________________________________________________________
 
-# 194. Proof of Effect
+## 194. Proof of Effect
 
 For effectful tasks:
 
@@ -4334,9 +4362,9 @@ VERIFY PROVIDER ACCEPTED MESSAGE
 
 depending on completion semantics.
 
----
+______________________________________________________________________
 
-# 195. Capability Finality
+## 195. Capability Finality
 
 A capability call returning success is not necessarily causal finality.
 
@@ -4354,9 +4382,9 @@ JOB COMPLETED
 
 The Task Contract determines the required finality level.
 
----
+______________________________________________________________________
 
-# 196. Capability Resolver Test Matrix
+## 196. Capability Resolver Test Matrix
 
 Candidate tests:
 
@@ -4414,9 +4442,9 @@ PROVENANCE CORRELATION
 
 This is a specification-level matrix, not evidence of passed tests.
 
----
+______________________________________________________________________
 
-# 197. Property Tests
+## 197. Property Tests
 
 ```text
 P1:
@@ -4452,9 +4480,9 @@ P10:
 Capability existence must never itself authorize execution.
 ```
 
----
+______________________________________________________________________
 
-# 198. Metamorphic Test — Read/Write
+## 198. Metamorphic Test — Read/Write
 
 Original:
 
@@ -4474,9 +4502,9 @@ Expected:
 REQUIRED CAPABILITY SET CHANGES
 ```
 
----
+______________________________________________________________________
 
-# 199. Metamorphic Test — Current Data
+## 199. Metamorphic Test — Current Data
 
 Original:
 
@@ -4497,9 +4525,9 @@ FRESH RETRIEVAL / OBSERVATION
 MAY BECOME REQUIRED
 ```
 
----
+______________________________________________________________________
 
-# 200. Metamorphic Test — Environment
+## 200. Metamorphic Test — Environment
 
 Original:
 
@@ -4520,9 +4548,9 @@ ENVIRONMENT VALIDITY
 MUST BE RE-EVALUATED
 ```
 
----
+______________________________________________________________________
 
-# 201. Metamorphic Test — Atomicity
+## 201. Metamorphic Test — Atomicity
 
 Original:
 
@@ -4543,9 +4571,9 @@ Expected:
 NEW JOINT CAPABILITY REQUIREMENT
 ```
 
----
+______________________________________________________________________
 
-# 202. Audit Questions
+## 202. Audit Questions
 
 For a consequential capability plan, an auditor should be able to ask:
 
@@ -4575,9 +4603,9 @@ WHAT ALTERNATIVE PLANS EXISTED?
 WHAT WOULD INVALIDATE THE PLAN?
 ```
 
----
+______________________________________________________________________
 
-# 203. Machine Form
+## 203. Machine Form
 
 ```yaml
 capability_resolver:
@@ -4665,9 +4693,9 @@ capability_resolver:
   provenance:
 ```
 
----
+______________________________________________________________________
 
-# 204. Master Capability Contract
+## 204. Master Capability Contract
 
 Conceptually:
 
@@ -4705,9 +4733,9 @@ NO UNSUPPORTED REGIME GENERALIZATION
 NO FORCED PLAN CONVERGENCE
 ```
 
----
+______________________________________________________________________
 
-# 205. Canonical Compression
+## 205. Canonical Compression
 
 ```text
 CAPABILITY RESOLVER
@@ -4799,9 +4827,9 @@ HAS BEEN ESTABLISHED
 FOR DOWNSTREAM GOVERNANCE.
 ```
 
----
+______________________________________________________________________
 
-# 206. Final Law
+## 206. Final Law
 
 ```text
 A TASK
@@ -4876,30 +4904,33 @@ GOVERNANCE
 CONTINUE.
 ```
 
-# END — AMOS OS CAPABILITY RESOLVER
+## END — AMOS OS CAPABILITY RESOLVER
 
 ```
 
 **Classification:** `DERIVED / CANDIDATE_CANON`. The Drive evidence supports the artifact's existence and architectural placement, but **not** the substantive specification above: the actual file currently contains only the placeholder.
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: capability_resolver
 node_type: note
 path: 03_CONTROL_PLANE/02_CAPABILITY/CAPABILITY_RESOLVER.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[03_CONTROL_PLANE/02_CAPABILITY/02_CAPABILITY_MOC|02_CAPABILITY_MOC]]
-

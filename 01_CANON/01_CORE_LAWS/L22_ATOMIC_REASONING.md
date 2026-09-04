@@ -1,50 +1,53 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: L22 ATOMIC REASONING
 type: reasoning
 source: 01_CANON/01_CORE_LAWS
 tags:
-- canon
-- core_laws
-- reasoning
-- atomic_reasoning
-- atomic_steps
-- atomicity
-- decomposition
-- checkability
-- local_validity
-- global_validity
-- chain_validity
-- replayable_chains
-- deterministic_replay
-- pinned_inputs
-- reasoning_graph
-- loop_detection
-- cycle_detection
-- dependency_graph
-- proof_chain
-- canon/universe
-- validation
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- law/L17-rscf
-- law/L18-gmef
-- law/L19-proof-capsule
-- law/L20-adversarial
-- law/L21-epistemic-regime
-- law/L16-hml
-- provenance-topology
-- persistent-provenance
-- competing-hypotheses
-- scope-regime-firewall
-- causal-firewall
-- mvcc-cas
-- atomic-multi-rscf-reasoning
-- causal-epoch-finality
-- shard-local-finalization
-- proof-based-coordination-avoidance
-- law/L10-failure-recovery
-- law/L11-knowledge-memory
-- law/L15-fractal-knowledge
+  - canon
+  - core_laws
+  - reasoning
+  - atomic_reasoning
+  - atomic_steps
+  - atomicity
+  - decomposition
+  - checkability
+  - local_validity
+  - global_validity
+  - chain_validity
+  - replayable_chains
+  - deterministic_replay
+  - pinned_inputs
+  - reasoning_graph
+  - loop_detection
+  - cycle_detection
+  - dependency_graph
+  - proof_chain
+  - canon/universe
+  - validation
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - law/L17-rscf
+  - law/L18-gmef
+  - law/L19-proof-capsule
+  - law/L20-adversarial
+  - law/L21-epistemic-regime
+  - law/L16-hml
+  - provenance-topology
+  - persistent-provenance
+  - competing-hypotheses
+  - scope-regime-firewall
+  - causal-firewall
+  - mvcc-cas
+  - atomic-multi-rscf-reasoning
+  - causal-epoch-finality
+  - shard-local-finalization
+  - proof-based-coordination-avoidance
+  - law/L10-failure-recovery
+  - law/L11-knowledge-memory
+  - law/L15-fractal-knowledge
 rscf:
   state: SOURCE_CLAIM
   claim_class: CONDITIONAL
@@ -63,9 +66,9 @@ rscf:
 **canonical_status:** CONDITIONAL
 **updated:** 2026-08-26
 
----
+______________________________________________________________________
 
-# 0. Status
+## 0. Status
 
 L22 defines the proposed AMOS **Atomic Reasoning Laws**.
 
@@ -97,7 +100,7 @@ It replaces the prior placeholder with a structured specification governing:
 
 L22 remains:
 
-```text
+````text
 PROPOSED_SPECIFICATION
         │
         ▼
@@ -115,7 +118,7 @@ AR-1 ATOMIC STEPS
 AR-2 LOCAL VALIDITY ≠ GLOBAL VALIDITY
 AR-3 REPLAYABLE CHAINS
 AR-4 LOOP DETECTION
-```
+````
 
 The central invariant is:
 
@@ -132,9 +135,9 @@ AND CYCLES MUST NOT MASQUERADE
 AS REASONING DEPTH.
 ```
 
----
+______________________________________________________________________
 
-# 1. Governing Objective
+## 1. Governing Objective
 
 L22 asks:
 
@@ -200,9 +203,9 @@ ATOMIZE THE CLAIM
 → REJECT LOOPS
 ```
 
----
+______________________________________________________________________
 
-# 2. Core Atomic Reasoning Laws
+## 2. Core Atomic Reasoning Laws
 
 ```text
 AR-1
@@ -268,9 +271,9 @@ CHECK GRAPH FOR CYCLES
                  OTHER LAWS
 ```
 
----
+______________________________________________________________________
 
-# 3. AR-1 — Atomic Steps
+## 3. AR-1 — Atomic Steps
 
 **Law**
 
@@ -297,9 +300,9 @@ INDIVIDUALLY
 CHECKABLE STEPS
 ```
 
----
+______________________________________________________________________
 
-# 4. Atomicity
+## 4. Atomicity
 
 The source does not define an exact formal atom.
 
@@ -318,9 +321,9 @@ INFERENCE INSIDE IT
 
 This is an AMOS_MODEL interpretation, not source-defined formal canon.
 
----
+______________________________________________________________________
 
-# 5. Atomic Does Not Mean Linguistically Short
+## 5. Atomic Does Not Mean Linguistically Short
 
 A sentence can be short but epistemically composite.
 
@@ -358,9 +361,9 @@ SHORT SENTENCE
 ATOMIC REASONING
 ```
 
----
+______________________________________________________________________
 
-# 6. Atomic Does Not Mean Trivial
+## 6. Atomic Does Not Mean Trivial
 
 An atomic step may still require substantial evidence.
 
@@ -377,9 +380,9 @@ may require a complex empirical test to establish.
 
 Atomicity concerns the reasoning unit's checkability, not necessarily its computational or experimental cost.
 
----
+______________________________________________________________________
 
-# 7. Composite Claims
+## 7. Composite Claims
 
 A composite claim contains multiple load-bearing propositions or inference transitions.
 
@@ -404,9 +407,9 @@ where more than one proposition must hold for the final conclusion.
 
 AR-1 requires such claims to decompose.
 
----
+______________________________________________________________________
 
-# 8. Conjunctive Decomposition
+## 8. Conjunctive Decomposition
 
 Example:
 
@@ -431,9 +434,9 @@ THE SYSTEM IS CONSISTENT.
 
 Each claim may require different evidence, scope, regime, and falsifiers.
 
----
+______________________________________________________________________
 
-# 9. Inferential Decomposition
+## 9. Inferential Decomposition
 
 Example:
 
@@ -476,9 +479,9 @@ The exact decomposition depends on the causal claim.
 
 L22 does not itself define causal sufficiency; the causal firewall remains separately governing.
 
----
+______________________________________________________________________
 
-# 10. Hidden Premises
+## 10. Hidden Premises
 
 Atomic decomposition should expose load-bearing hidden premises.
 
@@ -502,9 +505,9 @@ C
 
 If B is load-bearing, hiding it prevents independent checking.
 
----
+______________________________________________________________________
 
-# 11. Explicit Premises
+## 11. Explicit Premises
 
 A model-level atomic step can be represented as:
 
@@ -520,9 +523,9 @@ step:
 
 The exact serialization is not source-defined.
 
----
+______________________________________________________________________
 
-# 12. Individually Checkable
+## 12. Individually Checkable
 
 For a reasoning step to be individually checkable, a checker should be able to identify at least conceptually:
 
@@ -539,9 +542,9 @@ WHAT WOULD INVALIDATE IT?
 
 These fields are model-level elaborations of `individually checkable`.
 
----
+______________________________________________________________________
 
-# 13. Checkability Does Not Mean Truth
+## 13. Checkability Does Not Mean Truth
 
 A step may be individually checkable and fail.
 
@@ -555,9 +558,9 @@ VALID
 
 AR-1 requires checkability, not automatic acceptance.
 
----
+______________________________________________________________________
 
-# 14. Checkability Does Not Mean Verified
+## 14. Checkability Does Not Mean Verified
 
 Likewise:
 
@@ -577,9 +580,9 @@ UNKNOWN/GAP
 
 depending on evidence.
 
----
+______________________________________________________________________
 
-# 15. Atomic Claim Record
+## 15. Atomic Claim Record
 
 A model-level representation:
 
@@ -616,9 +619,9 @@ atom:
 
 The source establishes atomic decomposition and checkability, not this schema.
 
----
+______________________________________________________________________
 
-# 16. Atomic Step Record
+## 16. Atomic Step Record
 
 ```yaml
 reasoning_step:
@@ -642,9 +645,9 @@ reasoning_step:
 
 Again, semantic representation only.
 
----
+______________________________________________________________________
 
-# 17. Atomicity and Evidence
+## 17. Atomicity and Evidence
 
 A reasoning atom should not silently merge:
 
@@ -679,9 +682,9 @@ A3 DECISION:
 ACTION Y IS WARRANTED.
 ```
 
----
+______________________________________________________________________
 
-# 18. Atomicity and Provenance
+## 18. Atomicity and Provenance
 
 Each load-bearing atom may have its own provenance.
 
@@ -693,9 +696,9 @@ A3 ← DERIVED FROM A1 + A2
 
 This prevents provenance from being attached only to the final composite conclusion.
 
----
+______________________________________________________________________
 
-# 19. Atomicity and Regime
+## 19. Atomicity and Regime
 
 Atoms may occupy different epistemic regimes.
 
@@ -716,9 +719,9 @@ A composite conclusion must not erase those distinctions.
 
 L21 remains applicable.
 
----
+______________________________________________________________________
 
-# 20. Atomicity and Scope
+## 20. Atomicity and Scope
 
 Each atom can have a narrower applicability envelope than the composite conclusion.
 
@@ -742,9 +745,9 @@ AND ENVIRONMENTS
 
 Atomic decomposition makes such scope leakage easier to detect.
 
----
+______________________________________________________________________
 
-# 21. Atomicity and Freshness
+## 21. Atomicity and Freshness
 
 An atomic chain can contain:
 
@@ -761,9 +764,9 @@ FRESH
 
 If A2 is load-bearing, the final conclusion may be stale or conditional despite the other atoms remaining current.
 
----
+______________________________________________________________________
 
-# 22. Atomicity and Confidence Ceiling
+## 22. Atomicity and Confidence Ceiling
 
 A derived conclusion cannot exceed the weakest load-bearing premise merely because the decomposition contains many stronger atoms.
 
@@ -783,9 +786,9 @@ unless A3 is independently revalidated or removed from the dependency path.
 
 This is broader AMOS discipline, not explicit L22 text.
 
----
+______________________________________________________________________
 
-# 23. Atomicity and Competing Hypotheses
+## 23. Atomicity and Competing Hypotheses
 
 Suppose:
 
@@ -804,9 +807,9 @@ H1 COMPETING H2
 
 rather than compressing the disagreement into one fluent conclusion.
 
----
+______________________________________________________________________
 
-# 24. Atomicity and Contradictions
+## 24. Atomicity and Contradictions
 
 If:
 
@@ -822,9 +825,9 @@ are both load-bearing and legitimately supported, decomposition exposes the cont
 
 The chain must not silently select whichever atom better fits the desired conclusion.
 
----
+______________________________________________________________________
 
-# 25. Atomicity and Structural Similarity
+## 25. Atomicity and Structural Similarity
 
 A step:
 
@@ -843,9 +846,9 @@ That transfer premise must be independently checkable.
 
 Similarity alone does not license it.
 
----
+______________________________________________________________________
 
-# 26. Atomicity and Causality
+## 26. Atomicity and Causality
 
 A step:
 
@@ -860,9 +863,9 @@ contains an invalid or unsupported causal bridge unless appropriately typed caus
 
 Atomic decomposition makes the missing bridge visible.
 
----
+______________________________________________________________________
 
-# 27. Atomicity and Decisions
+## 27. Atomicity and Decisions
 
 A factual conclusion and an action recommendation are separate atoms.
 
@@ -886,24 +889,24 @@ CHOOSE X.
 
 Skipping A2 or A3 may make the recommendation appear more certain than its actual support.
 
----
+______________________________________________________________________
 
-# 28. Atomicity and Governance
+## 28. Atomicity and Governance
 
 For high-stakes decisions, atomic decomposition can expose:
 
-* irreversible assumptions,
-* authority boundaries,
-* missing approvals,
-* stale premises,
-* disputed causal claims,
-* regime crossings.
+- irreversible assumptions,
+- authority boundaries,
+- missing approvals,
+- stale premises,
+- disputed causal claims,
+- regime crossings.
 
 L22 itself does not define governance thresholds.
 
----
+______________________________________________________________________
 
-# 29. Atomicity Granularity
+## 29. Atomicity Granularity
 
 The source does not specify how small an atom must be.
 
@@ -931,9 +934,9 @@ may preserve formal decomposition while destroying useful reasoning structure.
 
 Therefore exact granularity remains a DECISION-RELEVANT gap.
 
----
+______________________________________________________________________
 
-# 30. Smallest Sufficient Atom
+## 30. Smallest Sufficient Atom
 
 A useful model-level principle is:
 
@@ -946,26 +949,26 @@ THEN STOP.
 
 This avoids both hidden composite steps and useless fragmentation.
 
----
+______________________________________________________________________
 
-# 31. Atomicity Is Dependency-Oriented
+## 31. Atomicity Is Dependency-Oriented
 
 A claim should be split when different parts have different:
 
-* premises,
-* evidence,
-* provenance,
-* regimes,
-* scopes,
-* falsifiers,
-* confidence ceilings,
-* dependencies.
+- premises,
+- evidence,
+- provenance,
+- regimes,
+- scopes,
+- falsifiers,
+- confidence ceilings,
+- dependencies.
 
 This is a model-level operationalization of AR-1.
 
----
+______________________________________________________________________
 
-# 32. AR-1 Compact Law
+## 32. AR-1 Compact Law
 
 ```text
 COMPOSITE CLAIM
@@ -980,9 +983,9 @@ INDIVIDUALLY
 CHECKABLE
 ```
 
----
+______________________________________________________________________
 
-# 33. AR-2 — Local Validity ≠ Global Validity
+## 33. AR-2 — Local Validity ≠ Global Validity
 
 **Law**
 
@@ -1013,9 +1016,9 @@ does not by itself imply:
 CHAIN VALID
 ```
 
----
+______________________________________________________________________
 
-# 34. Local Validity
+## 34. Local Validity
 
 A locally valid step is a step whose own premises-to-conclusion transition is valid under the applicable reasoning rules.
 
@@ -1033,28 +1036,28 @@ may be locally valid.
 
 The exact logic system is not defined by L22.
 
----
+______________________________________________________________________
 
-# 35. Global Validity
+## 35. Global Validity
 
 Global or chain validity asks whether the complete reasoning chain actually establishes the final conclusion.
 
 It may depend on more than individual transitions, including:
 
-* dependency completeness,
-* premise compatibility,
-* scope compatibility,
-* regime compatibility,
-* freshness,
-* provenance independence,
-* absence of circularity,
-* correct composition.
+- dependency completeness,
+- premise compatibility,
+- scope compatibility,
+- regime compatibility,
+- freshness,
+- provenance independence,
+- absence of circularity,
+- correct composition.
 
 These are AMOS_MODEL integrations, not all explicit in AR-2.
 
----
+______________________________________________________________________
 
-# 36. Locally Valid Steps Can Form an Invalid Chain
+## 36. Locally Valid Steps Can Form an Invalid Chain
 
 Example:
 
@@ -1086,9 +1089,9 @@ there is no dependency connecting B to D.
 
 Thus both steps may be locally valid while the proposed chain to D is invalid.
 
----
+______________________________________________________________________
 
-# 37. Missing Edge
+## 37. Missing Edge
 
 A common global defect is:
 
@@ -1114,9 +1117,9 @@ edge.
 
 Atomic step validation alone does not detect the missing connection unless the chain itself is checked.
 
----
+______________________________________________________________________
 
-# 38. Scope Mismatch Across Valid Steps
+## 38. Scope Mismatch Across Valid Steps
 
 Example:
 
@@ -1132,9 +1135,9 @@ Each may be valid locally.
 
 A chain treating both as if they apply to the same population may be globally invalid.
 
----
+______________________________________________________________________
 
-# 39. Regime Mismatch Across Valid Steps
+## 39. Regime Mismatch Across Valid Steps
 
 Example:
 
@@ -1161,9 +1164,9 @@ INVALID REGIME BRIDGE
 INVALID CHAIN
 ```
 
----
+______________________________________________________________________
 
-# 40. Freshness Mismatch Across Valid Steps
+## 40. Freshness Mismatch Across Valid Steps
 
 A step may have been valid when created.
 
@@ -1181,9 +1184,9 @@ S1 @ T2 = CURRENTLY APPLICABLE
 
 Chain validation must consider current applicability.
 
----
+______________________________________________________________________
 
-# 41. Contradictory Premises
+## 41. Contradictory Premises
 
 Suppose:
 
@@ -1207,9 +1210,9 @@ NOT-A
 
 without resolving the contradiction, the global chain may be defective or conditional.
 
----
+______________________________________________________________________
 
-# 42. Shared Hidden Dependency
+## 42. Shared Hidden Dependency
 
 Suppose two apparently separate steps depend on:
 
@@ -1221,9 +1224,9 @@ If H fails, both steps fail together.
 
 Local validation that does not expose H may overstate chain robustness.
 
----
+______________________________________________________________________
 
-# 43. Provenance Correlation
+## 43. Provenance Correlation
 
 Two locally supported premises:
 
@@ -1243,9 +1246,9 @@ B ← ORIGINAL SOURCE S
 
 then a chain requiring independent confirmation has a global provenance defect.
 
----
+______________________________________________________________________
 
-# 44. Invalid Composition
+## 44. Invalid Composition
 
 Two transformations can each be valid within their own contracts yet fail when composed.
 
@@ -1277,9 +1280,9 @@ T2(T1(X))
 
 may not be globally valid.
 
----
+______________________________________________________________________
 
-# 45. Type Mismatch
+## 45. Type Mismatch
 
 Example:
 
@@ -1295,9 +1298,9 @@ Both S1 and S2 may be valid independently.
 
 The chain is invalid if it silently coerces the output type.
 
----
+______________________________________________________________________
 
-# 46. Epistemic Type Mismatch
+## 46. Epistemic Type Mismatch
 
 Likewise:
 
@@ -1311,9 +1314,9 @@ VERIFIED OBSERVATION
 
 Using S1 directly as S2's premise may invalidate the chain.
 
----
+______________________________________________________________________
 
-# 47. Conclusion-Class Mismatch
+## 47. Conclusion-Class Mismatch
 
 Suppose:
 
@@ -1340,9 +1343,9 @@ WRONG PREMISE CLASS
 INVALID APPLICATION
 ```
 
----
+______________________________________________________________________
 
-# 48. Chain Validity Check
+## 48. Chain Validity Check
 
 A model-level chain validator asks:
 
@@ -1368,9 +1371,9 @@ IS THE GRAPH ACYCLIC?
 
 The source only explicitly requires a separate chain validity check; these checks are model-level elaborations.
 
----
+______________________________________________________________________
 
-# 49. Chain Validity Is Its Own Claim
+## 49. Chain Validity Is Its Own Claim
 
 A useful representation:
 
@@ -1389,9 +1392,9 @@ The fourth claim is distinct from the first three.
 
 AR-2 requires checking it separately.
 
----
+______________________________________________________________________
 
-# 50. Chain Receipt
+## 50. Chain Receipt
 
 A model-level receipt:
 
@@ -1429,9 +1432,9 @@ chain_validation:
 
 Exact fields are not source-defined.
 
----
+______________________________________________________________________
 
-# 51. Local Failure
+## 51. Local Failure
 
 If:
 
@@ -1445,9 +1448,9 @@ But unrelated branches need not be invalidated.
 
 This aligns with local failure recovery.
 
----
+______________________________________________________________________
 
-# 52. Global Failure Without Local Failure
+## 52. Global Failure Without Local Failure
 
 A chain can fail globally even when:
 
@@ -1459,17 +1462,17 @@ S3 VALID
 
 Examples include:
 
-* missing dependency edge,
-* scope mismatch,
-* regime mismatch,
-* circular dependency,
-* incompatible assumptions.
+- missing dependency edge,
+- scope mismatch,
+- regime mismatch,
+- circular dependency,
+- incompatible assumptions.
 
 This is the central distinction of AR-2.
 
----
+______________________________________________________________________
 
-# 53. Global Validity Does Not Mean Universal Validity
+## 53. Global Validity Does Not Mean Universal Validity
 
 A chain can be globally valid within its declared scope.
 
@@ -1484,9 +1487,9 @@ ALL POPULATIONS
 
 Scope and regime firewalls still apply.
 
----
+______________________________________________________________________
 
-# 54. Global Validity Does Not Mean Empirical Truth
+## 54. Global Validity Does Not Mean Empirical Truth
 
 A logically valid chain can derive a conclusion from false or unsupported premises.
 
@@ -1508,9 +1511,9 @@ EMPIRICAL VERIFICATION
 
 unless the premise support establishes that.
 
----
+______________________________________________________________________
 
-# 55. Global Validity Does Not Mean Canonical Status
+## 55. Global Validity Does Not Mean Canonical Status
 
 Likewise:
 
@@ -1522,9 +1525,9 @@ CANONICAL AUTHORITY
 
 A valid argument for a proposed rule does not make the rule canon.
 
----
+______________________________________________________________________
 
-# 56. Global Validity and Proof Capsules
+## 56. Global Validity and Proof Capsules
 
 A Proof Capsule may carry both:
 
@@ -1542,9 +1545,9 @@ as distinct properties.
 
 This prevents a capsule from treating individually valid atoms as sufficient evidence for the complete conclusion.
 
----
+______________________________________________________________________
 
-# 57. Chain Dependency Closure
+## 57. Chain Dependency Closure
 
 A model-level concept:
 
@@ -1560,9 +1563,9 @@ AND VALIDATED
 
 This aligns with AMOS v4.4 fast-path discipline but is not explicitly defined in the supplied L22 source.
 
----
+______________________________________________________________________
 
-# 58. Chain Closure Failure
+## 58. Chain Closure Failure
 
 Example:
 
@@ -1589,9 +1592,9 @@ NOT ESTABLISHED
 
 even if every represented step is valid.
 
----
+______________________________________________________________________
 
-# 59. Chain Scope
+## 59. Chain Scope
 
 A chain's scope cannot silently exceed the intersection or justified composition of its load-bearing premises.
 
@@ -1606,9 +1609,9 @@ Scope(P1...Pn)
 
 Exact scope algebra is not defined by L22.
 
----
+______________________________________________________________________
 
-# 60. Chain Confidence
+## 60. Chain Confidence
 
 Likewise, chain confidence cannot be raised merely by adding locally valid steps if the weakest load-bearing premise remains weak.
 
@@ -1618,9 +1621,9 @@ MORE STEPS
 MORE CONFIDENCE
 ```
 
----
+______________________________________________________________________
 
-# 61. AR-2 Compact Law
+## 61. AR-2 Compact Law
 
 ```text
 STEP 1 VALID
@@ -1638,9 +1641,9 @@ CHECK CHAIN
 SEPARATELY
 ```
 
----
+______________________________________________________________________
 
-# 62. AR-3 — Replayable Chains
+## 62. AR-3 — Replayable Chains
 
 **Law**
 
@@ -1658,9 +1661,9 @@ AR-3 establishes three explicit concepts:
 3. INPUTS ARE PINNED
 ```
 
----
+______________________________________________________________________
 
-# 63. Replay
+## 63. Replay
 
 Replay means conceptually:
 
@@ -1678,9 +1681,9 @@ COMPARE RESULT
 
 The exact runtime mechanism is not specified.
 
----
+______________________________________________________________________
 
-# 64. Pinned Inputs
+## 64. Pinned Inputs
 
 The source explicitly requires:
 
@@ -1701,9 +1704,9 @@ SILENTLY RESOLVED TO
 CHANGING CURRENT STATE.
 ```
 
----
+______________________________________________________________________
 
-# 65. Pinning Is More Than Naming
+## 65. Pinning Is More Than Naming
 
 Example:
 
@@ -1725,9 +1728,9 @@ or a content-addressed equivalent.
 
 Exact pin format is unspecified.
 
----
+______________________________________________________________________
 
-# 66. Pinned Source
+## 66. Pinned Source
 
 Likewise:
 
@@ -1749,24 +1752,24 @@ where available.
 
 These mechanisms are model-level examples.
 
----
+______________________________________________________________________
 
-# 67. Pinned Evidence
+## 67. Pinned Evidence
 
 An empirical input may require pinning:
 
-* dataset version,
-* observation set,
-* measurement record,
-* configuration,
-* environment,
-* timestamp.
+- dataset version,
+- observation set,
+- measurement record,
+- configuration,
+- environment,
+- timestamp.
 
 The source does not define which are mandatory.
 
----
+______________________________________________________________________
 
-# 68. Pinned Rules
+## 68. Pinned Rules
 
 If reasoning depends on rule set:
 
@@ -1784,9 +1787,9 @@ is not necessarily replay of the same chain.
 
 Thus the applicable reasoning rules may also need version identity where load-bearing.
 
----
+______________________________________________________________________
 
-# 69. Pinned Model
+## 69. Pinned Model
 
 If a chain uses model M1:
 
@@ -1798,9 +1801,9 @@ RESULT C
 
 then replay under M2 may constitute re-evaluation rather than deterministic replay.
 
----
+______________________________________________________________________
 
-# 70. Pinned Regime
+## 70. Pinned Regime
 
 If regime affects interpretation, the declared epistemic regime is part of the replay context.
 
@@ -1814,9 +1817,9 @@ should not silently replay as:
 EMPIRICAL CHAIN
 ```
 
----
+______________________________________________________________________
 
-# 71. Pinned Scope
+## 71. Pinned Scope
 
 Likewise, changing:
 
@@ -1844,9 +1847,9 @@ from:
 NEW-SCOPE RE-EVALUATION
 ```
 
----
+______________________________________________________________________
 
-# 72. Deterministic Replay
+## 72. Deterministic Replay
 
 The source says:
 
@@ -1867,9 +1870,9 @@ SAME REASONING RESULT
 
 The exact definition of `same result` is not supplied.
 
----
+______________________________________________________________________
 
-# 73. Determinism
+## 73. Determinism
 
 A model-level equation:
 
@@ -1893,9 +1896,9 @@ R(I_pinned) = C3
 
 without an explicit source of allowed nondeterminism.
 
----
+______________________________________________________________________
 
-# 74. Deterministic Replay vs Identical Wording
+## 74. Deterministic Replay vs Identical Wording
 
 AR-3 does not explicitly require byte-identical natural-language output.
 
@@ -1915,9 +1918,9 @@ IDENTICAL SURFACE PROSE
 
 unless authoritative canon defines that requirement.
 
----
+______________________________________________________________________
 
-# 75. Semantic Replay
+## 75. Semantic Replay
 
 A model-level distinction:
 
@@ -1933,9 +1936,9 @@ L22 does not specify which level is canonical.
 
 This is a DECISION-RELEVANT gap.
 
----
+______________________________________________________________________
 
-# 76. Replay Receipt
+## 76. Replay Receipt
 
 A model-level record:
 
@@ -1964,9 +1967,9 @@ replay_receipt:
 
 The schema is illustrative only.
 
----
+______________________________________________________________________
 
-# 77. Replay and Provenance
+## 77. Replay and Provenance
 
 Replayability benefits from preserving provenance for each pinned input.
 
@@ -1982,9 +1985,9 @@ VERSION V1
 
 This allows a checker to know what was actually replayed.
 
----
+______________________________________________________________________
 
-# 78. Replay and Persistent Provenance
+## 78. Replay and Persistent Provenance
 
 If a chain persists beyond the current evaluation, its input identities should remain recoverable where possible.
 
@@ -1998,9 +2001,9 @@ may become impossible if the source changed.
 
 This is a model-level integration with persistent provenance.
 
----
+______________________________________________________________________
 
-# 79. Replay and Freshness
+## 79. Replay and Freshness
 
 A replay can succeed while the result is stale.
 
@@ -2030,9 +2033,9 @@ FRESH
 
 L21 ER-4 remains separately applicable.
 
----
+______________________________________________________________________
 
-# 80. Replay and Truth
+## 80. Replay and Truth
 
 A perfectly replayable chain can deterministically reproduce an invalid conclusion if its premises or reasoning contract are wrong.
 
@@ -2044,9 +2047,9 @@ REPLAYABILITY
 TRUTH
 ```
 
----
+______________________________________________________________________
 
-# 81. Replay and Validity
+## 81. Replay and Validity
 
 Likewise:
 
@@ -2058,9 +2061,9 @@ VALID
 
 AR-3 provides reproducibility, not automatic epistemic correctness.
 
----
+______________________________________________________________________
 
-# 82. Replay and Canon
+## 82. Replay and Canon
 
 A chain may be replayable under a proposed reasoning model without being canonical.
 
@@ -2070,9 +2073,9 @@ DETERMINISTIC REPLAY
 CANONICAL AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 83. Replay and Input Drift
+## 83. Replay and Input Drift
 
 If an input silently changes between executions:
 
@@ -2090,9 +2093,9 @@ It may demonstrate input drift.
 
 AR-3's pinning requirement exists precisely to distinguish these cases.
 
----
+______________________________________________________________________
 
-# 84. Replay and Environment Drift
+## 84. Replay and Environment Drift
 
 If execution environment is load-bearing:
 
@@ -2112,9 +2115,9 @@ Whether environment must be considered part of `pinned inputs` is not explicitly
 
 AMOS_MODEL should treat it as replay context when material.
 
----
+______________________________________________________________________
 
-# 85. Replay and External State
+## 85. Replay and External State
 
 A chain depending on:
 
@@ -2128,9 +2131,9 @@ cannot be deterministically replayed against `current` state unless that state i
 
 A historical snapshot or immutable record may be required.
 
----
+______________________________________________________________________
 
-# 86. Replay and Randomness
+## 86. Replay and Randomness
 
 If a reasoning process contains random choices, deterministic replay may require:
 
@@ -2142,9 +2145,9 @@ or pin the resulting branch choices.
 
 The source does not explicitly mention randomness or seeds.
 
----
+______________________________________________________________________
 
-# 87. Replay and Concurrency
+## 87. Replay and Concurrency
 
 If reasoning depends on concurrent state, deterministic replay may require a consistent snapshot.
 
@@ -2152,9 +2155,9 @@ This connects conceptually with MVCC/CAS lineage, but L22 does not explicitly sp
 
 Do not claim literal runtime implementation.
 
----
+______________________________________________________________________
 
-# 88. Replay and Atomic Multi-RSCF Reasoning
+## 88. Replay and Atomic Multi-RSCF Reasoning
 
 If multiple RSCF nodes jointly support a conclusion, deterministic replay may require the relevant node versions to be pinned together.
 
@@ -2172,9 +2175,9 @@ Changing only one node can alter the result.
 
 This is a model-level integration with the broader AMOS lineage.
 
----
+______________________________________________________________________
 
-# 89. Replay and Snapshot Consistency
+## 89. Replay and Snapshot Consistency
 
 A chain should not claim deterministic replay if it reconstructs its inputs from mutually inconsistent versions.
 
@@ -2190,9 +2193,9 @@ may not represent any coherent historical reasoning state.
 
 Exact snapshot rules are outside L22.
 
----
+______________________________________________________________________
 
-# 90. Replay and Proof Capsules
+## 90. Replay and Proof Capsules
 
 A Proof Capsule can conceptually carry:
 
@@ -2208,9 +2211,9 @@ allowing later replay.
 
 Exact Proof Capsule serialization is governed elsewhere.
 
----
+______________________________________________________________________
 
-# 91. Replay and Repair
+## 91. Replay and Repair
 
 If a pinned premise is later invalidated, replaying the old chain may still reproduce the old result.
 
@@ -2232,9 +2235,9 @@ OLD RESULT
   FOR CURRENT USE
 ```
 
----
+______________________________________________________________________
 
-# 92. Replay vs Revalidation
+## 92. Replay vs Revalidation
 
 Important distinction:
 
@@ -2253,9 +2256,9 @@ FOR CURRENT USE
 
 A system may need both.
 
----
+______________________________________________________________________
 
-# 93. Replay vs Recalculation
+## 93. Replay vs Recalculation
 
 A recalculation using new data is not necessarily replay.
 
@@ -2271,9 +2274,9 @@ NEW INPUTS → NEW RESULT
 
 The latter is a new evaluation.
 
----
+______________________________________________________________________
 
-# 94. Replay vs Reinterpretation
+## 94. Replay vs Reinterpretation
 
 If the reasoning rules change:
 
@@ -2285,24 +2288,24 @@ running old inputs through R2 is not necessarily replay of the original chain.
 
 It may be governed re-evaluation.
 
----
+______________________________________________________________________
 
-# 95. Replay Failure
+## 95. Replay Failure
 
 A replay may fail because:
 
-* required input cannot be recovered,
-* input identity was not pinned,
-* rule version is unknown,
-* dependency disappeared,
-* nondeterministic state was not captured,
-* chain contains unresolved cycle.
+- required input cannot be recovered,
+- input identity was not pinned,
+- rule version is unknown,
+- dependency disappeared,
+- nondeterministic state was not captured,
+- chain contains unresolved cycle.
 
 These are model-level failure modes.
 
----
+______________________________________________________________________
 
-# 96. Replay Gap
+## 96. Replay Gap
 
 If a chain claims replayability but its inputs cannot be reconstructed:
 
@@ -2314,9 +2317,9 @@ UNKNOWN/GAP
 
 rather than assumed.
 
----
+______________________________________________________________________
 
-# 97. AR-3 Compact Law
+## 97. AR-3 Compact Law
 
 ```text
 REASONING CHAIN
@@ -2330,9 +2333,9 @@ DETERMINISTICALLY
 COMPARE RESULT
 ```
 
----
+______________________________________________________________________
 
-# 98. AR-4 — Loop Detection
+## 98. AR-4 — Loop Detection
 
 **Law**
 
@@ -2358,9 +2361,9 @@ CYCLE
 DEEPER REASONING
 ```
 
----
+______________________________________________________________________
 
-# 99. Reasoning Graph
+## 99. Reasoning Graph
 
 The source explicitly uses:
 
@@ -2384,9 +2387,9 @@ reasoning dependencies
 
 This is AMOS_MODEL.
 
----
+______________________________________________________________________
 
-# 100. Directed Dependency Graph
+## 100. Directed Dependency Graph
 
 A typical reasoning chain can be represented:
 
@@ -2410,9 +2413,9 @@ B ─┘
 
 The direction represents dependency from premise toward derived conclusion.
 
----
+______________________________________________________________________
 
-# 101. Cycle
+## 101. Cycle
 
 A cycle exists when reasoning returns to an earlier node through dependency edges.
 
@@ -2432,9 +2435,9 @@ A → A
 
 AR-4 classifies such cycles as defects.
 
----
+______________________________________________________________________
 
-# 102. Direct Self-Support
+## 102. Direct Self-Support
 
 Invalid:
 
@@ -2452,9 +2455,9 @@ A
 
 This is a cycle, not evidence.
 
----
+______________________________________________________________________
 
-# 103. Two-Node Circularity
+## 103. Two-Node Circularity
 
 Invalid:
 
@@ -2474,9 +2477,9 @@ A → B
 
 Neither claim receives independent support.
 
----
+______________________________________________________________________
 
-# 104. Multi-Node Circularity
+## 104. Multi-Node Circularity
 
 Invalid:
 
@@ -2497,9 +2500,9 @@ CYCLE
 DEPTH
 ```
 
----
+______________________________________________________________________
 
-# 105. Long Loop Is Still a Loop
+## 105. Long Loop Is Still a Loop
 
 A cycle involving 100 nodes is still circular.
 
@@ -2509,9 +2512,9 @@ LOOP LENGTH
 INDEPENDENT SUPPORT
 ```
 
----
+______________________________________________________________________
 
-# 106. Linguistic Variation Does Not Break a Cycle
+## 106. Linguistic Variation Does Not Break a Cycle
 
 Example:
 
@@ -2530,9 +2533,9 @@ C → A
 
 Different wording does not establish independent reasoning if the claims merely restate one another.
 
----
+______________________________________________________________________
 
-# 107. Semantic Cycles
+## 107. Semantic Cycles
 
 Cycle detection cannot necessarily rely only on exact string identity.
 
@@ -2542,9 +2545,9 @@ The source does not specify whether AR-4 requires syntactic, semantic, or depend
 
 This remains a DECISION-RELEVANT gap.
 
----
+______________________________________________________________________
 
-# 108. Provenance Cycles
+## 108. Provenance Cycles
 
 A reasoning graph may also contain circular source dependence.
 
@@ -2560,9 +2563,9 @@ This is a provenance cycle.
 
 Whether AR-4 directly governs provenance graphs is not explicit, but broader provenance topology should detect the problem.
 
----
+______________________________________________________________________
 
-# 109. Definition Cycles
+## 109. Definition Cycles
 
 Not every mathematical recursive definition is necessarily a defective reasoning cycle.
 
@@ -2587,9 +2590,9 @@ FIXED-POINT DEFINITION
 
 with a reasoning dependency cycle unless the conclusion is using itself as support.
 
----
+______________________________________________________________________
 
-# 110. Recursion vs Circular Justification
+## 110. Recursion vs Circular Justification
 
 Important distinction:
 
@@ -2612,9 +2615,9 @@ is the AR-4 defect.
 
 The source does not formalize this distinction, but it is necessary to avoid overreading `cycles`.
 
----
+______________________________________________________________________
 
-# 111. RSCF Recursion vs Reasoning Loops
+## 111. RSCF Recursion vs Reasoning Loops
 
 AMOS uses recursive/fractal structures.
 
@@ -2630,9 +2633,9 @@ CIRCULAR JUSTIFICATION
 
 A recursive traversal may remain well-founded and acyclic in its proof dependencies.
 
----
+______________________________________________________________________
 
-# 112. H/M/L Recursion
+## 112. H/M/L Recursion
 
 The H/M/L hierarchy may recursively refine:
 
@@ -2650,9 +2653,9 @@ as a justification loop.
 
 Fractal refinement and circular proof are distinct concepts.
 
----
+______________________________________________________________________
 
-# 113. Loop Detection Before Acceptance
+## 113. Loop Detection Before Acceptance
 
 A model-level chain acceptance procedure should detect cycles before certifying global validity.
 
@@ -2670,9 +2673,9 @@ YES    NO
 DEFECT CONTINUE
 ```
 
----
+______________________________________________________________________
 
-# 114. Topological Ordering
+## 114. Topological Ordering
 
 For a finite directed acyclic reasoning graph, a topological ordering can provide one deterministic evaluation order.
 
@@ -2697,9 +2700,9 @@ D
 
 The source does not mandate topological sorting.
 
----
+______________________________________________________________________
 
-# 115. Cycle Detection Algorithm
+## 115. Cycle Detection Algorithm
 
 A model-level representation:
 
@@ -2737,9 +2740,9 @@ def has_cycle(graph):
 
 Semantic pseudocode only.
 
----
+______________________________________________________________________
 
-# 116. Strongly Connected Components
+## 116. Strongly Connected Components
 
 A graph algorithm may identify strongly connected components.
 
@@ -2753,9 +2756,9 @@ or a self-loop can indicate a cycle.
 
 L22 does not prescribe this implementation.
 
----
+______________________________________________________________________
 
-# 117. Cycle Defect Receipt
+## 117. Cycle Defect Receipt
 
 A model-level receipt:
 
@@ -2783,9 +2786,9 @@ cycle_defect:
     DEFECT
 ```
 
----
+______________________________________________________________________
 
-# 118. Cycle Repair
+## 118. Cycle Repair
 
 A reasoning cycle cannot be repaired merely by renaming nodes.
 
@@ -2800,9 +2803,9 @@ VALID EXTERNAL EVIDENCE
 
 depending on the claim.
 
----
+______________________________________________________________________
 
-# 119. Breaking a Cycle
+## 119. Breaking a Cycle
 
 Invalid:
 
@@ -2824,9 +2827,9 @@ EVIDENCE E
 
 provided E independently supports A and the remaining edges are valid.
 
----
+______________________________________________________________________
 
-# 120. Cycle Removal Does Not Prove the Chain
+## 120. Cycle Removal Does Not Prove the Chain
 
 An acyclic graph can still be invalid.
 
@@ -2842,9 +2845,9 @@ AR-4 detects one class of defect only.
 
 AR-2 still requires chain validation.
 
----
+______________________________________________________________________
 
-# 121. Cycle Detection Does Not Establish Truth
+## 121. Cycle Detection Does Not Establish Truth
 
 Likewise:
 
@@ -2856,9 +2859,9 @@ TRUE
 
 A perfectly acyclic chain can begin with false premises.
 
----
+______________________________________________________________________
 
-# 122. Loop Detection and Replay
+## 122. Loop Detection and Replay
 
 A reasoning cycle may prevent deterministic evaluation or create ambiguous replay semantics.
 
@@ -2877,9 +2880,9 @@ CYCLE?
 
 This interaction is model-level.
 
----
+______________________________________________________________________
 
-# 123. Loop Detection and Memoization
+## 123. Loop Detection and Memoization
 
 Repeated reuse of an already-established atom is not necessarily a reasoning cycle.
 
@@ -2894,9 +2897,9 @@ Both depend on A.
 
 This is a shared dependency, not a loop.
 
----
+______________________________________________________________________
 
-# 124. Diamond Dependency
+## 124. Diamond Dependency
 
 ```text
     A
@@ -2910,15 +2913,15 @@ is acyclic.
 
 The fact that paths reconverge at D does not create a cycle.
 
----
+______________________________________________________________________
 
-# 125. Duplicate Reasoning
+## 125. Duplicate Reasoning
 
 Repeatedly deriving the same conclusion from the same premises may be redundant but is not necessarily cyclic unless the derivation depends on its own output.
 
----
+______________________________________________________________________
 
-# 126. Iterative Refinement
+## 126. Iterative Refinement
 
 A workflow may revise a hypothesis repeatedly:
 
@@ -2932,9 +2935,9 @@ H3
 
 This need not be a reasoning cycle if each state is version-distinct and later states do not justify earlier premises retroactively.
 
----
+______________________________________________________________________
 
-# 127. Versioned Reasoning Nodes
+## 127. Versioned Reasoning Nodes
 
 A model-level way to distinguish refinement from circularity:
 
@@ -2950,9 +2953,9 @@ rather than collapsing all versions into one node `H`.
 
 This is consistent with persistent provenance/MVCC concepts but not explicit L22 canon.
 
----
+______________________________________________________________________
 
-# 128. Retroactive Self-Validation
+## 128. Retroactive Self-Validation
 
 Invalid:
 
@@ -2971,9 +2974,9 @@ IS CORRECT."
 
 This may create circular justification if no independent evidence breaks the loop.
 
----
+______________________________________________________________________
 
-# 129. AR-4 Compact Law
+## 129. AR-4 Compact Law
 
 ```text
 REASONING GRAPH
@@ -2996,9 +2999,9 @@ CYCLE
 DEPTH
 ```
 
----
+______________________________________________________________________
 
-# 130. Combined AR-1–AR-4 Flow
+## 130. Combined AR-1–AR-4 Flow
 
 ```text
 CLAIM
@@ -3058,9 +3061,9 @@ ACCEPTED SUBJECT
 TO OTHER AMOS LAWS
 ```
 
----
+______________________________________________________________________
 
-# 131. Atomic Reasoning Graph
+## 131. Atomic Reasoning Graph
 
 A model-level graph:
 
@@ -3092,9 +3095,9 @@ DEPENDENCIES FORM
 A VALID ACYCLIC CHAIN?
 ```
 
----
+______________________________________________________________________
 
-# 132. L22 and L17 RSCF
+## 132. L22 and L17 RSCF
 
 RSCF can represent atomic claims and dependency edges.
 
@@ -3113,9 +3116,9 @@ A composite RSCF claim may then point to atomic child claims.
 
 Exact RSCF serialization is governed elsewhere.
 
----
+______________________________________________________________________
 
-# 133. Atomic Multi-RSCF Reasoning
+## 133. Atomic Multi-RSCF Reasoning
 
 The broader AMOS lineage includes atomic multi-RSCF reasoning concepts.
 
@@ -3137,9 +3140,9 @@ DERIVED RSCF D
 
 However, the supplied L22 note does not itself specify transactional multi-RSCF mechanics.
 
----
+______________________________________________________________________
 
-# 134. Atomic Reasoning ≠ Database Atomicity
+## 134. Atomic Reasoning ≠ Database Atomicity
 
 Important firewall:
 
@@ -3157,9 +3160,9 @@ The word `atomic` can carry different technical meanings.
 
 L22 explicitly concerns reasoning steps and claims.
 
----
+______________________________________________________________________
 
-# 135. L22 and MVCC/CAS
+## 135. L22 and MVCC/CAS
 
 MVCC/CAS concepts may help pin versions and prevent reasoning against silently changing state.
 
@@ -3180,9 +3183,9 @@ L22 SOURCE-ESTABLISHED
 IMPLEMENTATION REQUIREMENT
 ```
 
----
+______________________________________________________________________
 
-# 136. L22 and Causal Epoch Finality
+## 136. L22 and Causal Epoch Finality
 
 A finalized causal epoch may provide a stable boundary for pinned reasoning inputs.
 
@@ -3198,17 +3201,17 @@ REPLAY CHAIN
 
 But the supplied L22 source does not define causal epoch mechanics.
 
----
+______________________________________________________________________
 
-# 137. L22 and Shard-Local Finalization
+## 137. L22 and Shard-Local Finalization
 
 Likewise, hardened shard-local finalization may help determine when local reasoning state is stable enough to reuse.
 
 This is a broader AMOS lineage connection, not a source-established L22 implementation detail.
 
----
+______________________________________________________________________
 
-# 138. L22 and Proof-Based Coordination Avoidance
+## 138. L22 and Proof-Based Coordination Avoidance
 
 If a reasoning chain carries sufficient proof of its pinned dependencies and validity, a consumer may not need to re-coordinate with every upstream producer.
 
@@ -3226,9 +3229,9 @@ LOCAL REUSE
 
 This is an AMOS_MODEL integration with v4.4 reasoning patterns.
 
----
+______________________________________________________________________
 
-# 139. L22 and L18 GMEF
+## 139. L22 and L18 GMEF
 
 A reasoning chain may feed a governed decision.
 
@@ -3248,9 +3251,9 @@ DECISION
 
 GMEF should not receive a composite conclusion whose hidden dependencies have not been exposed when those dependencies are decision-relevant.
 
----
+______________________________________________________________________
 
-# 140. L22 and L19 Proof Capsules
+## 140. L22 and L19 Proof Capsules
 
 L19 Proof Capsules naturally complement L22.
 
@@ -3273,9 +3276,9 @@ FALSIFIERS
 
 Exact capsule fields remain governed by L19 canon.
 
----
+______________________________________________________________________
 
-# 141. L22 and L20 Adversarial Validation
+## 141. L22 and L20 Adversarial Validation
 
 A consequential reasoning chain can be challenged atomically.
 
@@ -3305,9 +3308,9 @@ IS THERE A CYCLE?
 
 This makes failure localization more precise.
 
----
+______________________________________________________________________
 
-# 142. L22 and L21 Epistemic Regime
+## 142. L22 and L21 Epistemic Regime
 
 Each atomic step may carry regime information.
 
@@ -3323,9 +3326,9 @@ or other regime crossings.
 
 If a crossing lacks the L21 bridge, chain validity fails even when the local logical transformations appear valid.
 
----
+______________________________________________________________________
 
-# 143. L22 and Seven-Axis Freshness
+## 143. L22 and Seven-Axis Freshness
 
 Pinned inputs preserve replay identity but do not guarantee freshness.
 
@@ -3351,9 +3354,9 @@ SOURCE
 
 freshness.
 
----
+______________________________________________________________________
 
-# 144. L22 and Provenance Topology
+## 144. L22 and Provenance Topology
 
 Atomic decomposition allows provenance to attach to each premise.
 
@@ -3373,9 +3376,9 @@ S1, S2, S3
 
 are independent or share ancestry.
 
----
+______________________________________________________________________
 
-# 145. L22 and Sybil Hardening
+## 145. L22 and Sybil Hardening
 
 A composite claim:
 
@@ -3395,9 +3398,9 @@ If all ten descend from one source:
 
 Atomicity makes the ancestry structure auditable.
 
----
+______________________________________________________________________
 
-# 146. L22 and Persistent Provenance
+## 146. L22 and Persistent Provenance
 
 Replay requires preserving enough provenance to identify what the original chain consumed.
 
@@ -3405,9 +3408,9 @@ Therefore persistent provenance and replayability are naturally aligned.
 
 However, L22 does not define storage mechanics.
 
----
+______________________________________________________________________
 
-# 147. L22 and Competing Hypotheses
+## 147. L22 and Competing Hypotheses
 
 Atomic reasoning should permit:
 
@@ -3431,36 +3434,36 @@ H1 COMPETING H2
 
 should remain visible.
 
----
+______________________________________________________________________
 
-# 148. L22 and Causal Firewall
+## 148. L22 and Causal Firewall
 
 Atomic decomposition is particularly important for causal reasoning.
 
 A causal conclusion should expose distinct atoms for:
 
-* observation,
-* association,
-* temporal relation,
-* intervention,
-* mechanism,
-* confounders,
-* causal bridge,
-* target scope.
+- observation,
+- association,
+- temporal relation,
+- intervention,
+- mechanism,
+- confounders,
+- causal bridge,
+- target scope.
 
 L22 does not itself license causal inference.
 
----
+______________________________________________________________________
 
-# 149. L22 and Scope Firewall
+## 149. L22 and Scope Firewall
 
 A chain may be locally valid but globally fail because one atom applies only to a narrower scope.
 
 Atomic reasoning therefore supports scope-firewall enforcement by making each applicability envelope inspectable.
 
----
+______________________________________________________________________
 
-# 150. L22 and Sensitivity
+## 150. L22 and Sensitivity
 
 Sensitivity analysis can identify the smallest atom or edge capable of flipping the final result.
 
@@ -3479,9 +3482,9 @@ C FLIPS?
 
 If yes, the conclusion is fragile to that atom.
 
----
+______________________________________________________________________
 
-# 151. Minimal Flip Set
+## 151. Minimal Flip Set
 
 A model-level concept:
 
@@ -3497,9 +3500,9 @@ FINAL CONCLUSION
 
 The supplied source does not define such a set, but it is compatible with atomic reasoning.
 
----
+______________________________________________________________________
 
-# 152. L22 and Adaptive Complexity
+## 152. L22 and Adaptive Complexity
 
 Atomic decomposition should be proportional to decision need.
 
@@ -3521,9 +3524,9 @@ may require explicit atomic chain validation.
 
 L22 does not require maximal decomposition for every trivial answer.
 
----
+______________________________________________________________________
 
-# 153. L22 and Fast Path
+## 153. L22 and Fast Path
 
 The v4.4 fast-path principle permits the smallest sufficient proof scope.
 
@@ -3545,9 +3548,9 @@ REUSE
 
 rather than recomputing unrelated reasoning.
 
----
+______________________________________________________________________
 
-# 154. Fast Path Does Not Skip Chain Validation
+## 154. Fast Path Does Not Skip Chain Validation
 
 Even when all atomic steps are cached as valid:
 
@@ -3565,9 +3568,9 @@ A1 + A2 + A3 → C
 
 still requires its own chain-level validity check under AR-2.
 
----
+______________________________________________________________________
 
-# 155. L22 and Failure Recovery
+## 155. L22 and Failure Recovery
 
 Atomic reasoning enables local invalidation.
 
@@ -3596,9 +3599,9 @@ C2
 
 if no dependency connects them.
 
----
+______________________________________________________________________
 
-# 156. Descendant Invalidation
+## 156. Descendant Invalidation
 
 Conceptually:
 
@@ -3615,17 +3618,17 @@ REVALIDATE
 
 Unrelated nodes remain valid.
 
----
+______________________________________________________________________
 
-# 157. Nearest Valid State
+## 157. Nearest Valid State
 
 Failure recovery can roll back to the nearest valid atomic state rather than recomputing the entire reasoning universe.
 
 This is a model-level integration with broader AMOS failure recovery.
 
----
+______________________________________________________________________
 
-# 158. Do Not Repeat Failed Path
+## 158. Do Not Repeat Failed Path
 
 If a chain fails because:
 
@@ -3637,22 +3640,22 @@ rerunning the same chain with unchanged A2 does not repair it.
 
 Changed evidence or a different dependency route is required.
 
----
+______________________________________________________________________
 
-# 159. L22 and Anti-Regression
+## 159. L22 and Anti-Regression
 
 An optimization violates L22 if it:
 
-* merges distinct atoms into an uncheckable composite,
-* assumes locally valid steps certify the whole chain,
-* removes pinned input identity needed for replay,
-* permits circular reasoning as recursive depth.
+- merges distinct atoms into an uncheckable composite,
+- assumes locally valid steps certify the whole chain,
+- removes pinned input identity needed for replay,
+- permits circular reasoning as recursive depth.
 
 Therefore reasoning compression may not destroy atomic auditability.
 
----
+______________________________________________________________________
 
-# 160. L22 and Knowledge Harvest
+## 160. L22 and Knowledge Harvest
 
 A reasoning result moving from ephemeral computation to persistent knowledge should preserve enough structure to reconstruct its support.
 
@@ -3672,9 +3675,9 @@ CHAIN VALIDATION
 PERSISTENT KNOWLEDGE
 ```
 
----
+______________________________________________________________________
 
-# 161. Documentation Claims
+## 161. Documentation Claims
 
 A README may state:
 
@@ -3687,9 +3690,9 @@ AR-2 says this is insufficient unless the chain composition itself is checked.
 
 The README statement remains SOURCE_CLAIM until validated.
 
----
+______________________________________________________________________
 
-# 162. Benchmark Reasoning
+## 162. Benchmark Reasoning
 
 Example:
 
@@ -3714,9 +3717,9 @@ A1 and A2 may be valid while A3 is unsupported.
 
 Atomic decomposition prevents A4 from inheriting unjustified certainty.
 
----
+______________________________________________________________________
 
-# 163. Statistical Reasoning
+## 163. Statistical Reasoning
 
 A statistical chain may contain valid calculations but an invalid global interpretation.
 
@@ -3739,9 +3742,9 @@ S3 requires an additional premise about practical significance.
 
 Locally correct calculations do not certify the interpretation.
 
----
+______________________________________________________________________
 
-# 164. Formal Proofs
+## 164. Formal Proofs
 
 A formal proof may already operate in atomic or near-atomic inference steps.
 
@@ -3753,16 +3756,16 @@ FORMAL PROOF
 
 does not automatically satisfy L22 unless:
 
-* its steps are individually checkable under the relevant proof system,
-* the proof chain itself is valid,
-* replay inputs/rules are sufficiently pinned,
-* no circular proof dependency exists.
+- its steps are individually checkable under the relevant proof system,
+- the proof chain itself is valid,
+- replay inputs/rules are sufficiently pinned,
+- no circular proof dependency exists.
 
 The source does not define a specific formal proof system.
 
----
+______________________________________________________________________
 
-# 165. Natural-Language Reasoning
+## 165. Natural-Language Reasoning
 
 L22 applies conceptually even when reasoning is expressed in natural language.
 
@@ -3772,9 +3775,9 @@ The requirement concerns reasoning structure and checkability.
 
 This specification should not be interpreted as requiring disclosure of hidden chain-of-thought.
 
----
+______________________________________________________________________
 
-# 166. Proof Artifacts vs Hidden Reasoning
+## 166. Proof Artifacts vs Hidden Reasoning
 
 A system can satisfy the spirit of atomic auditability through concise proof artifacts such as:
 
@@ -3791,9 +3794,9 @@ without exposing unrestricted internal chain-of-thought.
 
 This is an implementation-safe AMOS_MODEL interpretation.
 
----
+______________________________________________________________________
 
-# 167. Reasoning Receipt
+## 167. Reasoning Receipt
 
 A compact external receipt could contain:
 
@@ -3827,9 +3830,9 @@ reasoning_receipt:
 
 This is illustrative, not canonical schema.
 
----
+______________________________________________________________________
 
-# 168. Atomic Reasoning Validator
+## 168. Atomic Reasoning Validator
 
 ```python
 def validate_atomic_chain(chain):
@@ -3861,9 +3864,9 @@ def validate_atomic_chain(chain):
 
 Semantic pseudocode only.
 
----
+______________________________________________________________________
 
-# 169. Validation Order
+## 169. Validation Order
 
 A model-level efficient order is:
 
@@ -3885,9 +3888,9 @@ Other valid orders may exist.
 
 L22 does not prescribe exact evaluation order.
 
----
+______________________________________________________________________
 
-# 170. Cheap Failure First
+## 170. Cheap Failure First
 
 Some defects are inexpensive to detect.
 
@@ -3901,9 +3904,9 @@ can terminate chain acceptance without expensive replay.
 
 This aligns with smallest-sufficient-proof and cheap/high-information checks, but is not explicit source canon.
 
----
+______________________________________________________________________
 
-# 171. Atomic Reasoning Integrity Invariants
+## 171. Atomic Reasoning Integrity Invariants
 
 ```yaml
 atomic_reasoning_integrity_invariants:
@@ -3947,9 +3950,9 @@ atomic_reasoning_integrity_invariants:
 
 These closely restate AR-1 through AR-4.
 
----
+______________________________________________________________________
 
-# 172. Extended Atomic Reasoning Invariants
+## 172. Extended Atomic Reasoning Invariants
 
 ```yaml
 extended_atomic_reasoning_invariants:
@@ -3997,9 +4000,9 @@ extended_atomic_reasoning_invariants:
 
 These are AMOS_MODEL extensions.
 
----
+______________________________________________________________________
 
-# 173. Atomic Reasoning Anti-Patterns
+## 173. Atomic Reasoning Anti-Patterns
 
 ## AR-A1 — Composite Black Box
 
@@ -4013,7 +4016,7 @@ with no checkable intermediate structure.
 
 Fails AR-1.
 
----
+______________________________________________________________________
 
 ## AR-A2 — Sentence-Length Atomicity
 
@@ -4025,7 +4028,7 @@ ASSUME ATOMIC
 
 Rejected.
 
----
+______________________________________________________________________
 
 ## AR-A3 — Hidden Premise
 
@@ -4039,7 +4042,7 @@ when B is required but omitted.
 
 Rejected.
 
----
+______________________________________________________________________
 
 ## AR-A4 — Valid Steps Therefore Valid Chain
 
@@ -4053,7 +4056,7 @@ CHAIN AUTOMATICALLY VALID
 
 Rejected by AR-2.
 
----
+______________________________________________________________________
 
 ## AR-A5 — Missing Dependency Edge
 
@@ -4070,7 +4073,7 @@ without B→C.
 
 Rejected.
 
----
+______________________________________________________________________
 
 ## AR-A6 — Scope Composition Leak
 
@@ -4084,7 +4087,7 @@ VALID UNIVERSALLY
 
 Rejected.
 
----
+______________________________________________________________________
 
 ## AR-A7 — Regime Composition Leak
 
@@ -4098,7 +4101,7 @@ without L21 bridge.
 
 Rejected.
 
----
+______________________________________________________________________
 
 ## AR-A8 — Unpinned Replay
 
@@ -4111,7 +4114,7 @@ when current data can change.
 
 Does not satisfy deterministic replay against pinned inputs.
 
----
+______________________________________________________________________
 
 ## AR-A9 — Version Drift Disguised as Nondeterminism
 
@@ -4124,7 +4127,7 @@ RUN 2 USES V2
 
 Rejected unless inputs were actually identical/pinned.
 
----
+______________________________________________________________________
 
 ## AR-A10 — Determinism Means Truth
 
@@ -4137,7 +4140,7 @@ TRUE
 
 Rejected.
 
----
+______________________________________________________________________
 
 ## AR-A11 — Replay Means Fresh
 
@@ -4149,7 +4152,7 @@ CURRENTLY VALID
 
 Rejected.
 
----
+______________________________________________________________________
 
 ## AR-A12 — Circular Support
 
@@ -4160,7 +4163,7 @@ B BECAUSE A
 
 Rejected by AR-4.
 
----
+______________________________________________________________________
 
 ## AR-A13 — Long Circularity Means Depth
 
@@ -4172,7 +4175,7 @@ A→B→C→D→E→A
 
 Rejected.
 
----
+______________________________________________________________________
 
 ## AR-A14 — Paraphrase Cycle
 
@@ -4190,7 +4193,7 @@ without independent support.
 
 Rejected if these nodes function as circular justification.
 
----
+______________________________________________________________________
 
 ## AR-A15 — Recursion Equals Circularity
 
@@ -4204,7 +4207,7 @@ Not established.
 
 Well-founded recursion is not automatically circular justification.
 
----
+______________________________________________________________________
 
 ## AR-A16 — Acyclic Therefore Correct
 
@@ -4218,7 +4221,7 @@ Rejected.
 
 AR-2 still requires chain validation.
 
----
+______________________________________________________________________
 
 ## AR-A17 — More Atoms Means More Confidence
 
@@ -4230,7 +4233,7 @@ STRONG CONCLUSION
 
 Rejected where the same weak load-bearing premise remains.
 
----
+______________________________________________________________________
 
 ## AR-A18 — Duplicate Sources as Independent Atoms
 
@@ -4244,9 +4247,9 @@ THREE INDEPENDENT CONFIRMATIONS
 
 Rejected by provenance topology.
 
----
+______________________________________________________________________
 
-# 174. Atomic Reasoning Decision Matrix
+## 174. Atomic Reasoning Decision Matrix
 
 | Condition                                                          | Source-grounded treatment        |
 | ------------------------------------------------------------------ | -------------------------------- |
@@ -4260,9 +4263,9 @@ Rejected by provenance topology.
 | Cycle presented as deeper reasoning                                | Reject under AR-4                |
 | Authoritative reasoning canon defines different atomicity contract | F1 potentially satisfied         |
 
----
+______________________________________________________________________
 
-# 175. Extended Decision Matrix
+## 175. Extended Decision Matrix
 
 | Condition                                   | Model-level treatment                    |
 | ------------------------------------------- | ---------------------------------------- |
@@ -4279,9 +4282,9 @@ Rejected by provenance topology.
 | Iterative versioned refinement              | Do not collapse automatically into loop  |
 | Failed atom has independent sibling branch  | Preserve unaffected branch               |
 
----
+______________________________________________________________________
 
-# 176. Minimal Atomic Reasoning Record
+## 176. Minimal Atomic Reasoning Record
 
 ```yaml
 atomic_reasoning:
@@ -4310,9 +4313,9 @@ atomic_reasoning:
 
 Model-level representation only.
 
----
+______________________________________________________________________
 
-# 177. Full Atomic Reasoning Record
+## 177. Full Atomic Reasoning Record
 
 ```yaml
 atomic_reasoning:
@@ -4391,9 +4394,9 @@ atomic_reasoning:
 
 All serialization beyond the four laws is AMOS_MODEL.
 
----
+______________________________________________________________________
 
-# 178. Atomic Proof Capsule
+## 178. Atomic Proof Capsule
 
 ```yaml
 proof_capsule:
@@ -4446,9 +4449,9 @@ proof_capsule:
 
 Illustrative integration only.
 
----
+______________________________________________________________________
 
-# 179. L22 Source-Established Content
+## 179. L22 Source-Established Content
 
 From the supplied L22 note, the following are directly established as AMOS corpus claims:
 
@@ -4486,46 +4489,46 @@ From the supplied L22 note, the following are directly established as AMOS corpu
 
 These are SOURCE_CLAIM statements about the supplied AMOS corpus note.
 
----
+______________________________________________________________________
 
-# 180. L22 Not Established by Source
+## 180. L22 Not Established by Source
 
 The supplied source does **not** establish:
 
-* exact formal definition of an atomic reasoning step,
-* minimum or maximum atom granularity,
-* canonical decomposition algorithm,
-* exact reasoning logic,
-* formal inference calculus,
-* canonical graph schema,
-* exact node types,
-* exact edge types,
-* dependency-closure algorithm,
-* complete global-validity criteria,
-* exact definition of deterministic replay,
-* semantic versus byte-identical replay,
-* pinning mechanism,
-* hash requirements,
-* source-version requirements,
-* model-version requirements,
-* random-seed requirements,
-* snapshot requirements,
-* MVCC/CAS implementation,
-* atomic database transactions,
-* multi-RSCF transaction protocol,
-* graph cycle-detection algorithm,
-* semantic cycle detection method,
-* treatment of recursive formal definitions,
-* treatment of fixed-point proofs,
-* Proof Capsule serialization,
-* GMEF integration,
-* literal runtime implementation.
+- exact formal definition of an atomic reasoning step,
+- minimum or maximum atom granularity,
+- canonical decomposition algorithm,
+- exact reasoning logic,
+- formal inference calculus,
+- canonical graph schema,
+- exact node types,
+- exact edge types,
+- dependency-closure algorithm,
+- complete global-validity criteria,
+- exact definition of deterministic replay,
+- semantic versus byte-identical replay,
+- pinning mechanism,
+- hash requirements,
+- source-version requirements,
+- model-version requirements,
+- random-seed requirements,
+- snapshot requirements,
+- MVCC/CAS implementation,
+- atomic database transactions,
+- multi-RSCF transaction protocol,
+- graph cycle-detection algorithm,
+- semantic cycle detection method,
+- treatment of recursive formal definitions,
+- treatment of fixed-point proofs,
+- Proof Capsule serialization,
+- GMEF integration,
+- literal runtime implementation.
 
 These remain MODEL or UNKNOWN/GAP.
 
----
+______________________________________________________________________
 
-# 181. L22 Known Gaps
+## 181. L22 Known Gaps
 
 ```yaml
 gaps:
@@ -4604,9 +4607,9 @@ gaps:
         is not defined by this note.
 ```
 
----
+______________________________________________________________________
 
-# 182. L22 Claim Graph
+## 182. L22 Claim Graph
 
 ```yaml
 claim_graph:
@@ -4703,9 +4706,9 @@ claim_graph:
         semantic cycle-detection rules.
 ```
 
----
+______________________________________________________________________
 
-# 183. Dependency Graph
+## 183. Dependency Graph
 
 ```yaml
 dependency_graph:
@@ -4740,9 +4743,9 @@ dependency_graph:
       - cycle_detection
 ```
 
----
+______________________________________________________________________
 
-# 184. L22 Self-Proof Capsule
+## 184. L22 Self-Proof Capsule
 
 ```yaml
 proof_capsule:
@@ -4802,9 +4805,9 @@ proof_capsule:
     CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
-# 185. No Circular Self-Validation
+## 185. No Circular Self-Validation
 
 L22 must itself obey AR-4 conceptually.
 
@@ -4841,9 +4844,9 @@ L22
 CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
-# 186. Falsifier F1
+## 186. Falsifier F1
 
 Original falsifier:
 
@@ -4880,9 +4883,9 @@ PROPOSAL   SUCCEED
           SUPERSESSION
 ```
 
----
+______________________________________________________________________
 
-# 187. F1 Is Contract-Specific
+## 187. F1 Is Contract-Specific
 
 The falsifier concerns:
 
@@ -4892,19 +4895,19 @@ different atomicity contract
 
 Therefore differences in:
 
-* file layout,
-* YAML keys,
-* naming conventions,
-* pseudocode language,
-* display order,
+- file layout,
+- YAML keys,
+- naming conventions,
+- pseudocode language,
+- display order,
 
 do not automatically falsify L22.
 
 The difference must materially alter the reasoning atomicity contract.
 
----
+______________________________________________________________________
 
-# 188. Atomicity Contract Expansion
+## 188. Atomicity Contract Expansion
 
 Suppose authoritative canon preserves all four L22 laws but adds:
 
@@ -4918,9 +4921,9 @@ This may make L22 incomplete rather than wholly false.
 
 The resulting governance status depends on authoritative canon.
 
----
+______________________________________________________________________
 
-# 189. Atomicity Contract Conflict
+## 189. Atomicity Contract Conflict
 
 A direct conflict would be authoritative canon stating, for example:
 
@@ -4953,9 +4956,9 @@ VALID EVIDENCE OF DEPTH
 
 Such rules would materially conflict with the supplied L22 proposal.
 
----
+______________________________________________________________________
 
-# 190. Atomic Reasoning Architecture
+## 190. Atomic Reasoning Architecture
 
 ```text
                        CLAIM
@@ -5009,9 +5012,9 @@ Such rules would materially conflict with the supplied L22 proposal.
                     REASONING RECEIPT
 ```
 
----
+______________________________________________________________________
 
-# 191. Local/Global Validity Architecture
+## 191. Local/Global Validity Architecture
 
 ```text
 P1 ──┐
@@ -5043,9 +5046,9 @@ CHAIN VALIDITY
 FAILS.
 ```
 
----
+______________________________________________________________________
 
-# 192. Replay Architecture
+## 192. Replay Architecture
 
 ```text
 ORIGINAL REASONING
@@ -5084,9 +5087,9 @@ PASS     INPUT DRIFT?
 
 Only pinned inputs and deterministic re-execution are source-explicit; the expanded diagnostics are model-level.
 
----
+______________________________________________________________________
 
-# 193. Loop Architecture
+## 193. Loop Architecture
 
 ```text
 ACYCLIC:
@@ -5116,9 +5119,9 @@ AR-4:
 DEFECT
 ```
 
----
+______________________________________________________________________
 
-# 194. Canonical Atomic Compression
+## 194. Canonical Atomic Compression
 
 ```text
 COMPOSITE CLAIM
@@ -5171,15 +5174,15 @@ CYCLE
 DEPTH
 ```
 
----
+______________________________________________________________________
 
-# 195. Canonical One-Line Law
+## 195. Canonical One-Line Law
 
 > **AMOS atomic reasoning decomposes composite claims into individually checkable steps, separately validates the complete chain rather than inferring global validity from locally valid steps, supports deterministic replay against pinned inputs, and treats reasoning cycles as defects rather than depth.**
 
----
+______________________________________________________________________
 
-# 196. Canonical Equations
+## 196. Canonical Equations
 
 AR-1:
 
@@ -5250,9 +5253,9 @@ Depth
 
 These equations are semantic representations, not formal proofs.
 
----
+______________________________________________________________________
 
-# 197. Operational Contract
+## 197. Operational Contract
 
 ```yaml
 atomic_reasoning_contract:
@@ -5279,9 +5282,9 @@ atomic_reasoning_contract:
       - cycles_are_not_reasoning_depth
 ```
 
----
+______________________________________________________________________
 
-# 198. Final Atomic Reasoning Invariant
+## 198. Final Atomic Reasoning Invariant
 
 ```text
 CLAIM
@@ -5490,9 +5493,9 @@ SELF-CONSISTENCY
 INDEPENDENT VALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 199. RSCF Node
+## 199. RSCF Node
 
 ```yaml
 RSCF-NODE:
@@ -5569,19 +5572,19 @@ RSCF-RELATIONS:
   - RELATED_TO: [[01_CANON/01_CORE_LAWS/L15_FRACTAL_KNOWLEDGE|L15_FRACTAL_KNOWLEDGE]]
 ```
 
----
+______________________________________________________________________
 
 **00_ROOT_MOC:**
 
-**Related:**  ·  ·
+**Related:** · ·
 
 **MOC:**
 
 **Trang Framework:**
 
----
+______________________________________________________________________
 
-# 200. L22 Final Canon Boundary
+## 200. L22 Final Canon Boundary
 
 The supplied source supports the four proposed laws and their explicit contents:
 
@@ -5623,6 +5626,8 @@ until authoritative reasoning canon supplies discriminating validation.
 
 **Conclusion class: CONDITIONAL / AMOS_MODEL.**
 
+```
+```
 
 ```
 ```

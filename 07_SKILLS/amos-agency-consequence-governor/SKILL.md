@@ -4,25 +4,22 @@ title: SKILL — Amos Agency Consequence Governor
 type: skill
 source: 07_SKILLS/amos-agency-consequence-governor
 name: amos-agency-consequence-governor
-description: Agency Consequence Governor — agent systems capability. Use when agent
-  design, delegation reasoning, or multi-agent governance. Use when amos-agent-systems-master
-  routes to this specialized capability. Do not use for generic tasks outside agent
-  domain.
+description: Agency Consequence Governor — agent systems capability. Use when agent design, delegation reasoning, or multi-agent governance. Use when amos-agent-systems-master routes to this specialized capability. Do not use for generic tasks outside agent domain.
 parent_skill: amos-agent-systems-master
 domain: agent
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
 tags:
-- type/skill
-- type/skill
-- domain/agent-systems
-- epistemic/source_claim
-- hml/m
-- epistemic/source_claim
-- amos-os
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/agent-systems
+  - epistemic/source_claim
+  - hml/m
+  - epistemic/source_claim
+  - amos-os
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -32,23 +29,23 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: M
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
-- L7_authority
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
+  - L7_authority
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L7
-- L16
-- L17
-- L18
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L7
+  - L16
+  - L17
+  - L18
 license: MIT
 steward: Trang Phan
 ---
@@ -58,6 +55,7 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: agent. Parent: amos-agent-systems-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
 ## When to Use
 
 - When governing agency: who acts, under what authority, consequences
@@ -77,6 +75,7 @@ Origin architect: **Trang Phan**. Domain: agent. Parent: amos-agent-systems-mast
 - **agency_consequence.verify_agentic**: Verify agentic skill-lie algebroid: structural consistency of agent capabilities
 
 > **Reference**: See `references/vault_domain_knowledge.md` (content_hash: 7fea1f898de1ff87) for the full vault-sourced domain knowledge (8955 chars).
+
 - **agency_consequence.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
 - **agency_consequence.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **agency_consequence.validate_outputs**: Validate outputs against domain constraints and epistemic class.
@@ -84,12 +83,12 @@ Origin architect: **Trang Phan**. Domain: agent. Parent: amos-agent-systems-mast
 ## Operations
 
 1. **agency_consequence.govern_agency**: Govern agency: who acts, under what authority, with what consequences
-2. **agency_consequence.design_externalization**: Design agent externalization: what is delegated, to whom, with what controls
-3. **agency_consequence.attribute_ownership**: Attribute agent ownership: who is responsible for each agent action
-4. **agency_consequence.verify_agentic**: Verify agentic skill-lie algebroid: structural consistency of agent capabilities
-5. **agency_consequence.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-6. **agency_consequence.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
-7. **agency_consequence.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+1. **agency_consequence.design_externalization**: Design agent externalization: what is delegated, to whom, with what controls
+1. **agency_consequence.attribute_ownership**: Attribute agent ownership: who is responsible for each agent action
+1. **agency_consequence.verify_agentic**: Verify agentic skill-lie algebroid: structural consistency of agent capabilities
+1. **agency_consequence.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+1. **agency_consequence.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+1. **agency_consequence.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## 11_KNOWLEDGE Vault Content
 
@@ -101,27 +100,31 @@ Origin architect: **Trang Phan**. Domain: agent. Parent: amos-agent-systems-mast
 From Trang Master Equation Registry: Agency Consequence Test as part of mandatory test harness for consciousness-candidate systems. From Trang Reality Architecture: Consequence-Bearing Agency with equations.
 
 **Consequence-Bearing Agency model**:
+
 - Agency requires consequence tracking -- every action has consequences that must be tracked
 - Reversibility awareness -- the agent must know which actions are reversible and which are not
 - Value projection -- the agent must project the value of consequences forward in time
 - Consequence debt tracking -- consequences accumulate as debt that must be repaid
 
 **Agency Consequence Test** (from Master Equation Registry):
+
 - Part of mandatory test harness for consciousness-candidate systems
 - Expects consequence tracking to be > 0
 - A system with zero consequence tracking cannot be a consciousness candidate
 
 **Governance laws**:
+
 - `AGENCY != ACTION`: agency is the capacity for consequence-bearing action; action without consequence tracking is not agency
 - `CONSEQUENCE != PUNISHMENT`: consequence tracking is informational; it is not punishment
 - `REVERSIBLE != IRREVERSIBLE`: reversible and irreversible consequences require different governance
 
 **Governor protocol**:
+
 1. **Track**: track the consequence of every agent action
-2. **Classify**: classify the consequence (reversible/irreversible, positive/negative)
-3. **Project**: project the consequence forward in time
-4. **Assess**: assess the consequence debt
-5. **Govern**: govern future actions based on consequence debt
+1. **Classify**: classify the consequence (reversible/irreversible, positive/negative)
+1. **Project**: project the consequence forward in time
+1. **Assess**: assess the consequence debt
+1. **Govern**: govern future actions based on consequence debt
 
 ### Epistemic Boundary
 
@@ -135,7 +138,8 @@ Agency consequence governance is an operational construct. It does not prove the
 - **Validation failure**: If validation gates fail, downgrade confidence, flag the gap, and escalate — do not force-fit.
 - **Epistemic overreach**: If a claim exceeds the established evidence or epistemic cl
 
----
+______________________________________________________________________
+
 **Links:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 ## Related
@@ -145,17 +149,19 @@ Agency consequence governance is an operational construct. It does not prove the
 ## Examples
 
 - **Scenario**: When governing agency: who acts, under what authority, consequences
+
   - **Input**: A query matching this skill's domain (agent)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When designing agent externalization: delegation and controls
+
   - **Input**: A query matching this skill's domain (agent)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When attributing agent ownership and responsibility
+
   - **Input**: A query matching this skill's domain (agent)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Validation Gates
 
@@ -172,7 +178,6 @@ Agency consequence governance is an operational construct. It does not prove the
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `amos-agent-systems-master` — routes to this skill when agent specialization is needed
@@ -180,7 +185,6 @@ Agency consequence governance is an operational construct. It does not prove the
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -199,7 +203,6 @@ Agency consequence governance is an operational construct. It does not prove the
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -207,7 +210,6 @@ Agency consequence governance is an operational construct. It does not prove the
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -220,11 +222,12 @@ Agency consequence governance is an operational construct. It does not prove the
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `amos-agent-systems-master` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `amos-agency-consequence-governor-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -232,12 +235,14 @@ Agency consequence governance is an operational construct. It does not prove the
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-agency-consequence-governor
 node_type: skill
 path: 07_SKILLS/amos-agency-consequence-governor/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

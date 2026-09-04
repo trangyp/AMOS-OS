@@ -17,73 +17,71 @@ steward: Trang Phan
 created: '2026-08-25'
 updated: '2026-08-25'
 scope:
-- AMOS_OS - vault_navigation - graph_connectivity - cross_plane_links - obsidian_graph
-  - n
+  - AMOS_OS - vault_navigation - graph_connectivity - cross_plane_links - obsidian_graph - n
 tags:
-- amos
-- amos-os
-- root
-- amos-os
-- neural-network
-- vault-network
-- knowledge-graph
-- graph-view
-- obsidian
-- navigation
-- topology
-- root-hub
-- canon
-- kernel
-- control-plane
-- runtime
-- cognitive-organism
-- agents
-- skills
-- workflows
-- protocols
-- memory
-- knowledge
-- state
-- models
-- tools
-- interfaces
-- schemas
-- observability
-- security
-- tests
-- operations
-- domains
-- modes
-- research
-- operating-model
-- archive
-- cognitive-matrix
-- rscf
-- gmef
-- hml
-- provenance
-- dependency-topology
-- canon-group/tech-ai
-- canon/navigation
-- canon/map
-- rscf/claim
-- rscf/provenance
-- rscf/state/derived
-- topic/amos-os
-- topic/neural-network
-- topic/knowledge-graph
-- topic/vault-navigation
-- readme
-- architecture
-- full-tree
-- authoritative-state
-- placement-rules
-- roadmap
-- amos-full-brain-os-architecture
-- cognitive-matrix-architecture
+  - amos
+  - amos-os
+  - root
+  - amos-os
+  - neural-network
+  - vault-network
+  - knowledge-graph
+  - graph-view
+  - obsidian
+  - navigation
+  - topology
+  - root-hub
+  - canon
+  - kernel
+  - control-plane
+  - runtime
+  - cognitive-organism
+  - agents
+  - skills
+  - workflows
+  - protocols
+  - memory
+  - knowledge
+  - state
+  - models
+  - tools
+  - interfaces
+  - schemas
+  - observability
+  - security
+  - tests
+  - operations
+  - domains
+  - modes
+  - research
+  - operating-model
+  - archive
+  - cognitive-matrix
+  - rscf
+  - gmef
+  - hml
+  - provenance
+  - dependency-topology
+  - canon-group/tech-ai
+  - canon/navigation
+  - canon/map
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/derived
+  - topic/amos-os
+  - topic/neural-network
+  - topic/knowledge-graph
+  - topic/vault-navigation
+  - readme
+  - architecture
+  - full-tree
+  - authoritative-state
+  - placement-rules
+  - roadmap
+  - amos-full-brain-os-architecture
+  - cognitive-matrix-architecture
 aliases:
-- AMOS Neural Network - AMOS Vault Neural Network - AMOS Knowledge Graph Hub - AMOS
-  OS Graph H
+  - AMOS Neural Network - AMOS Vault Neural Network - AMOS Knowledge Graph Hub - AMOS OS Graph H
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -92,19 +90,20 @@ rscf:
 ---
 
 # AMOS Neural Network
+
 > **Status:** `ACTIVE_MAP`
 > **AMOS_CORE target:** `v4.4`
 > **Origin architect / steward:** Trang Phan
 > **Conclusion class:** `AMOS_MODEL`
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: root_index
----
+> rscf:
+> state: SOURCE_CLAIM
+> claim_class: SOURCE_CLAIM
+> provenance: AMOS_corpus
+> scope: root_index
 
+______________________________________________________________________
 
-# 0. Purpose
+## 0. Purpose
 
 This note is the central graph hub for the AMOS OS vault.
 
@@ -144,9 +143,9 @@ BIOLOGICAL NEURAL NETWORK
 
 The AMOS Full Brain OS source should be used as a structural orchestration model rather than proof of literal consciousness or biological cognition.
 
----
+______________________________________________________________________
 
-# 1. Core Nodes
+## 1. Core Nodes
 
 - [[00_ROOT/README|AMOS OS Root]]
 - [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|MOC
@@ -160,9 +159,9 @@ The AMOS Full Brain OS source should be used as a structural orchestration model
 - [[00_ROOT/PLACEMENT_RULES|AMOS OS]]
 - [[00_ROOT/ROADMAP|Roadmap]]
 
----
+______________________________________________________________________
 
-# 2. Primary Plane Nodes
+## 2. Primary Plane Nodes
 
 - [[01_CANON/00_INDEX/CANON_MAP|CANON]]
 - [[02_KERNEL/00_INDEX/KERNEL_MAP|KERNEL]]
@@ -193,9 +192,9 @@ The AMOS Full Brain OS source should be used as a structural orchestration model
 > If any referenced map does not yet exist, the link intentionally remains a graph placeholder.
 > Its existence as a link is not evidence of implementation.
 
----
+______________________________________________________________________
 
-# 3. Root Topology
+## 3. Root Topology
 
 ```text
                           NEURAL_NETWORK
@@ -240,9 +239,9 @@ ARCHIVE
 COGNITIVE_MATRIX
 ```
 
----
+______________________________________________________________________
 
-# 4. Architectural Spine
+## 4. Architectural Spine
 
 The primary architectural spine is:
 
@@ -288,9 +287,9 @@ ARCHIVE
 COGNITIVE MATRIX
 ```
 
----
+______________________________________________________________________
 
-# 5. Canon Plane
+## 5. Canon Plane
 
 ## [[01_CANON/00_INDEX/CANON_MAP|CANON_MAP]]|CANON
 
@@ -330,9 +329,9 @@ CANON
 IMPLEMENTATION
 ```
 
----
+______________________________________________________________________
 
-# 6. Kernel Plane
+## 6. Kernel Plane
 
 ## [[02_KERNEL/00_INDEX/KERNEL_MAP|KERNEL_MAP]]|KERNEL
 
@@ -355,9 +354,9 @@ KERNEL
 
 Kernel links should point to implementation evidence only where actual code exists.
 
----
+______________________________________________________________________
 
-# 7. Control Plane
+## 7. Control Plane
 
 ## [[03_CONTROL_PLANE/00_INDEX/CONTROL_PLANE_MAP|CONTROL_PLANE_MAP]]|CONTROL_PLANE
 
@@ -391,9 +390,9 @@ WORKER CAPABILITY
 CONTROL-PLANE AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 8. Runtime Plane
+## 8. Runtime Plane
 
 ## [[04_RUNTIME/00_INDEX/RUNTIME_MAP|RUNTIME_MAP]]|RUNTIME
 
@@ -423,9 +422,9 @@ ARCHITECTURE
 LIVE RUNTIME
 ```
 
----
+______________________________________________________________________
 
-# 9. Cognitive Organism Plane
+## 9. Cognitive Organism Plane
 
 ## [[05_COGNITIVE_ORGANISM/00_INDEX/COGNITIVE_ORGANISM_MAP|COGNITIVE_ORGANISM_MAP]]|COGNITIVE_ORGANISM
 
@@ -461,9 +460,9 @@ MODES
 
 The Full Brain OS source permits using cognition-related constructs as orchestration/model layers while retaining explicit capability limits.
 
----
+______________________________________________________________________
 
-# 10. Agents Plane
+## 10. Agents Plane
 
 ## [[06_AGENTS/00_INDEX/AGENT_MAP|AGENT_MAP]]|[[AGENTS|AGENTS]]
 
@@ -494,9 +493,9 @@ AGENT
 AUTONOMOUS AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 11. Skills Plane
+## 11. Skills Plane
 
 ## [[07_SKILLS/00_INDEX/SKILL_MAP|SKILL_MAP]]|SKILLS
 
@@ -524,9 +523,9 @@ pitfalls
 source
 ```
 
----
+______________________________________________________________________
 
-# 12. Workflows Plane
+## 12. Workflows Plane
 
 ## [[08_WORKFLOWS/00_INDEX/WORKFLOW_MAP|WORKFLOW_MAP]]|WORKFLOWS
 
@@ -560,9 +559,9 @@ Tests
 Operations
 ```
 
----
+______________________________________________________________________
 
-# 13. Protocol Plane
+## 13. Protocol Plane
 
 ## [[09_PROTOCOLS/00_INDEX/PROTOCOL_MAP|PROTOCOL_MAP]]|PROTOCOLS
 
@@ -580,9 +579,9 @@ EXECUTION ↔ AUTHORITY
 KNOWLEDGE ↔ PROVENANCE
 ```
 
----
+______________________________________________________________________
 
-# 14. Memory Plane
+## 14. Memory Plane
 
 ## [[10_MEMORY/00_INDEX/MEMORY_MEMORY_MAP|MEMORY_MEMORY_MAP]]|MEMORY
 
@@ -616,9 +615,9 @@ possible validation
 KNOWLEDGE
 ```
 
----
+______________________________________________________________________
 
-# 15. Knowledge Plane
+## 15. Knowledge Plane
 
 ## [[11_KNOWLEDGE/AMOS_FULL_BRAIN_OS_ARCHITECTURE|AMOS_FULL_BRAIN_OS_ARCHITECTURE]]|KNOWLEDGE
 
@@ -651,9 +650,9 @@ agents
 skills
 ```
 
----
+______________________________________________________________________
 
-# 16. State Plane
+## 16. State Plane
 
 ## [[12_STATE/00_INDEX/STATE_STATE_MAP|STATE_STATE_MAP]]|STATE
 
@@ -684,9 +683,9 @@ MEMORY
 KNOWLEDGE
 ```
 
----
+______________________________________________________________________
 
-# 17. Models Plane
+## 17. Models Plane
 
 ## [[13_MODELS/00_INDEX/MODEL_MAP|MODEL_MAP]]|MODELS
 
@@ -720,9 +719,9 @@ falsifiers
 version
 ```
 
----
+______________________________________________________________________
 
-# 18. Tools Plane
+## 18. Tools Plane
 
 ## [[14_TOOLS/00_INDEX/TOOL_MAP|TOOL_MAP]]|TOOLS
 
@@ -761,9 +760,9 @@ TOOL ACCESS
 TOOL AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 19. Interfaces Plane
+## 19. Interfaces Plane
 
 ## [[15_INTERFACES/00_INDEX/INTERFACE_MAP|INTERFACE_MAP]]|INTERFACES
 
@@ -778,9 +777,9 @@ AMOS ↔ EXTERNAL SYSTEM
 
 They should link into schemas and protocols.
 
----
+______________________________________________________________________
 
-# 20. Schemas Plane
+## 20. Schemas Plane
 
 ## [[16_SCHEMAS/00_INDEX/SCHEMA_MAP|SCHEMA_MAP]]|SCHEMAS
 
@@ -796,9 +795,9 @@ STATE / MESSAGE / AGENT / TOOL / PROTOCOL / MODEL
 
 Schemas should be versioned independently from runtime modules.
 
----
+______________________________________________________________________
 
-# 21. Observability Plane
+## 21. Observability Plane
 
 ## [[17_OBSERVABILITY/00_INDEX/OBSERVABILITY_OBSERVABILITY_MAP|OBSERVABILITY_OBSERVABILITY_MAP]]|OBSERVABILITY
 
@@ -822,9 +821,9 @@ OBSERVED
 CORRECT
 ```
 
----
+______________________________________________________________________
 
-# 22. Security Plane
+## 22. Security Plane
 
 ## [[18_SECURITY/00_INDEX/SECURITY_MAP|SECURITY_MAP]]|SECURITY
 
@@ -851,9 +850,9 @@ SECURITY
 ALL EFFECTFUL PATHS
 ```
 
----
+______________________________________________________________________
 
-# 23. Tests Plane
+## 23. Tests Plane
 
 ## [[19_TESTS/00_INDEX/TEST_MAP|TEST_MAP]]|TESTS
 
@@ -885,9 +884,9 @@ TEST PASS
 UNIVERSAL PROOF
 ```
 
----
+______________________________________________________________________
 
-# 24. Operations Plane
+## 24. Operations Plane
 
 ## [[20_OPERATIONS/00_INDEX/OPERATIONS_MAP|OPERATIONS_MAP]]|OPERATIONS
 
@@ -907,9 +906,9 @@ RECOVER
 
 This plane links active architecture to historical state.
 
----
+______________________________________________________________________
 
-# 25. Domains Plane
+## 25. Domains Plane
 
 ## [[21_DOMAINS/00_INDEX/DOMAIN_ALIAS_MAP|DOMAIN_ALIAS_MAP]]|DOMAINS
 
@@ -937,9 +936,9 @@ Only activate domain branches that can materially change an answer.
 
 The Full Brain OS skill explicitly instructs selective domain activation rather than loading every nested engine.
 
----
+______________________________________________________________________
 
-# 26. Modes Network
+## 26. Modes Network
 
 Within the domains plane:
 
@@ -975,9 +974,9 @@ MODE
 AGENT
 ```
 
----
+______________________________________________________________________
 
-# 27. Research Plane
+## 27. Research Plane
 
 ## [[22_RESEARCH/00_INDEX/INDEX_RESEARCH_README|INDEX_RESEARCH_README]]|RESEARCH
 
@@ -1005,9 +1004,9 @@ RESEARCH
 CANON
 ```
 
----
+______________________________________________________________________
 
-# 28. Operating Model Plane
+## 28. Operating Model Plane
 
 ## [[23_OPERATING_MODEL/00_INDEX/OPERATING_MODEL|OPERATING_MODEL]]|[[23_OPERATING_MODEL/00_INDEX/OPERATING_MODEL|OPERATING_MODEL]]
 
@@ -1025,9 +1024,9 @@ MAINTENANCE
 STEWARDSHIP
 ```
 
----
+______________________________________________________________________
 
-# 29. Archive Plane
+## 29. Archive Plane
 
 ## [[24_ARCHIVE/00_LEGACY/LEGACY_ARCHIVE_README|LEGACY_ARCHIVE_README]]|ARCHIVE
 
@@ -1051,9 +1050,9 @@ ARCHIVED
 ACTIVE
 ```
 
----
+______________________________________________________________________
 
-# 30. Cognitive Matrix Plane
+## 30. Cognitive Matrix Plane
 
 ## [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_ARCHITECTURE|COGNITIVE_MATRIX_ARCHITECTURE]]|COGNITIVE_MATRIX
 
@@ -1081,9 +1080,9 @@ CROSS-LINK MATRIX
 SECOND SOURCE OF TRUTH
 ```
 
----
+______________________________________________________________________
 
-# 31. H/M/L Graph
+## 31. H/M/L Graph
 
 AMOS graph traversal should preserve H/M/L depth.
 
@@ -1120,9 +1119,9 @@ L
 
 rather than immediately exploding into every low-level node.
 
----
+______________________________________________________________________
 
-# 32. Fractal Retrieval Topology
+## 32. Fractal Retrieval Topology
 
 Preferred navigation/retrieval:
 
@@ -1144,9 +1143,9 @@ Raw evidence should be loaded only when it can materially affect the conclusion.
 
 This matches the AMOS Full Brain OS instruction to use the smallest source-defined layer required for the task.
 
----
+______________________________________________________________________
 
-# 33. RSCF Network
+## 33. RSCF Network
 
 RSCF nodes create reasoning/provenance edges across the vault.
 
@@ -1169,9 +1168,9 @@ Recommended hub:
 
 - [[00_ROOT/RSCF_NODE_INDEX|RSCF Node Index]]
 
----
+______________________________________________________________________
 
-# 34. Provenance Network
+## 34. Provenance Network
 
 Provenance graph:
 
@@ -1197,9 +1196,9 @@ MultipleDescendantsOfOneSource
 IndependentEvidence
 ```
 
----
+______________________________________________________________________
 
-# 35. Dependency Network
+## 35. Dependency Network
 
 Use:
 
@@ -1219,9 +1218,9 @@ means B can materially affect A's validity or execution.
 
 Do not create dependency edges merely because two files mention each other.
 
----
+______________________________________________________________________
 
-# 36. Semantic Link Types
+## 36. Semantic Link Types
 
 AMOS graph links should conceptually distinguish:
 
@@ -1242,9 +1241,9 @@ RELATED_TO
 
 Obsidian wiki links alone do not encode relation type, so important relations should also be written explicitly in RSCF metadata or structured registries.
 
----
+______________________________________________________________________
 
-# 37. Hub vs Authority Firewall
+## 37. Hub vs Authority Firewall
 
 This note is a navigation hub.
 
@@ -1266,9 +1265,9 @@ MASTER CANON
 
 For authoritative meaning, route to the owning plane.
 
----
+______________________________________________________________________
 
-# 38. Graph Density Rule
+## 38. Graph Density Rule
 
 A healthy graph should avoid both extremes:
 
@@ -1292,9 +1291,9 @@ strong root hubs
 typed cross-plane links
 ```
 
----
+______________________________________________________________________
 
-# 39. Anti-Hub Explosion
+## 39. Anti-Hub Explosion
 
 Not every note needs to link directly to `NEURAL_NETWORK.md`.
 
@@ -1309,9 +1308,9 @@ L node
 
 This preserves topology and reduces meaningless centralization.
 
----
+______________________________________________________________________
 
-# 40. Orphan Detection
+## 40. Orphan Detection
 
 A note is potentially orphaned when it has:
 
@@ -1335,9 +1334,9 @@ PLACEHOLDER
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 41. Graph Completeness Firewall
+## 41. Graph Completeness Firewall
 
 A connected graph does not prove architectural completeness.
 
@@ -1352,19 +1351,22 @@ HIGH DEGREE
 !=
 HIGH IMPORTANCE
 ```
+
 ```text
 CENTRAL NODE
 !=
 AUTHORITATIVE NODE
 ```
+
 ```text
 LINKED
 !=
 VALIDATED
 ```
----
 
-# 42. Graph View Semantics
+______________________________________________________________________
+
+## 42. Graph View Semantics
 
 Obsidian graph view is a visualization of wiki-link topology.
 
@@ -1380,9 +1382,9 @@ execution order
 
 Those must remain explicitly modeled elsewhere.
 
----
+______________________________________________________________________
 
-# 43. Network Integrity Gates
+## 43. Network Integrity Gates
 
 A graph link is structurally useful when at least one is true:
 
@@ -1399,9 +1401,9 @@ semantic cross-reference
 
 Avoid decorative linking solely to increase graph density.
 
----
+______________________________________________________________________
 
-# 44. Plane Cross-Link Matrix
+## 44. Plane Cross-Link Matrix
 
 | From               | To               | Primary relation               |
 | ------------------ | ---------------- | ------------------------------ |
@@ -1412,24 +1414,24 @@ Avoid decorative linking solely to increase graph density.
 | RUNTIME            | STATE            | updates current state          |
 | COGNITIVE_ORGANISM | MEMORY           | reads/writes governed memory   |
 | COGNITIVE_ORGANISM | KNOWLEDGE        | retrieves validated knowledge  |
-| [[AGENTS|AGENTS]]             | SKILLS           | invokes capability             |
-| [[AGENTS|AGENTS]]             | TOOLS            | requests external capability   |
+| \[\[AGENTS         | AGENTS\]\]       | SKILLS                         |
+| \[\[AGENTS         | AGENTS\]\]       | TOOLS                          |
 | SKILLS             | KNOWLEDGE        | consumes domain knowledge      |
-| WORKFLOWS          | [[AGENTS|AGENTS]]           | sequences workers              |
+| WORKFLOWS          | \[\[AGENTS       | AGENTS\]\]                     |
 | WORKFLOWS          | PROTOCOLS        | follows interaction contracts  |
 | MODELS             | KNOWLEDGE        | consumes evidence/claims       |
 | OBSERVABILITY      | RUNTIME          | records behavior               |
 | SECURITY           | CONTROL_PLANE    | constrains authority           |
 | TESTS              | COMPONENTS       | validates behavior             |
 | OPERATIONS         | RUNTIME          | manages lifecycle              |
-| DOMAINS            | [[AGENTS|AGENTS]]/SKILLS    | specializes behavior           |
+| DOMAINS            | \[\[AGENTS       | AGENTS\]\]/SKILLS              |
 | RESEARCH           | CANON            | proposes future promotion      |
 | ARCHIVE            | ACTIVE PLANES    | preserves superseded lineage   |
 | COGNITIVE_MATRIX   | COGNITION PLANES | cross-links cognitive topology |
 
----
+______________________________________________________________________
 
-# 45. Runtime Traversal Example
+## 45. Runtime Traversal Example
 
 For a reasoning request:
 
@@ -1475,9 +1477,9 @@ OBSERVABILITY
 STATE
 ```
 
----
+______________________________________________________________________
 
-# 46. Failure Traversal
+## 46. Failure Traversal
 
 If a load-bearing node fails:
 
@@ -1503,9 +1505,9 @@ OneBrokenNode
 WholeVaultInvalid
 ```
 
----
+______________________________________________________________________
 
-# 47. Archive Traversal
+## 47. Archive Traversal
 
 When an artifact is superseded:
 
@@ -1527,9 +1529,9 @@ The graph should preserve the lineage edge.
 
 Do not delete historical relationships merely to make the active graph cleaner.
 
----
+______________________________________________________________________
 
-# 48. Version Network
+## 48. Version Network
 
 Versioned artifacts should relate as:
 
@@ -1550,9 +1552,9 @@ REGISTRY / CURRENT STATE
 
 Version lineage should not be inferred from filenames alone.
 
----
+______________________________________________________________________
 
-# 49. Naming Network
+## 49. Naming Network
 
 Use:
 
@@ -1570,9 +1572,9 @@ IDENTITY
 
 Therefore graph links should ideally survive filesystem migrations through stable note names, aliases, or explicit registry mappings.
 
----
+______________________________________________________________________
 
-# 50. Placement Network
+## 50. Placement Network
 
 Use:
 
@@ -1585,9 +1587,9 @@ A node's parent folder indicates ownership context.
 
 It does not automatically determine epistemic authority.
 
----
+______________________________________________________________________
 
-# 51. Authoritative-State Network
+## 51. Authoritative-State Network
 
 Use:
 
@@ -1609,9 +1611,9 @@ UNKNOWN/GAP
 
 Graph existence alone cannot promote lifecycle state.
 
----
+______________________________________________________________________
 
-# 52. Research-to-Canon Path
+## 52. Research-to-Canon Path
 
 ```text
 RESEARCH
@@ -1640,9 +1642,9 @@ RESEARCH
 
 without admission.
 
----
+______________________________________________________________________
 
-# 53. Memory-to-Knowledge Path
+## 53. Memory-to-Knowledge Path
 
 ```text
 MEMORY
@@ -1658,9 +1660,9 @@ KNOWLEDGE
 
 A remembered claim remains memory until promoted.
 
----
+______________________________________________________________________
 
-# 54. Model-to-Decision Path
+## 54. Model-to-Decision Path
 
 ```text
 OBSERVATION
@@ -1682,9 +1684,9 @@ MODEL OUTPUT
 DECISION AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 55. Knowledge-to-Agent Path
+## 55. Knowledge-to-Agent Path
 
 ```text
 KNOWLEDGE
@@ -1696,9 +1698,9 @@ REASONING
 
 The agent should retrieve only relevant knowledge rather than loading the entire vault.
 
----
+______________________________________________________________________
 
-# 56. Neural Network Invariants
+## 56. Neural Network Invariants
 
 ```text
 NN01 GraphHub != Canon
@@ -1723,9 +1725,9 @@ NN19 ResearchCannotBypassCanonPromotion
 NN20 NetworkVisualizationDoesNotDefineRuntimeExecution
 ```
 
----
+______________________________________________________________________
 
-# 57. Gap Handling
+## 57. Gap Handling
 
 If a linked node is absent:
 
@@ -1750,9 +1752,9 @@ UNKNOWN/GAP
 
 These must be discriminated before repair.
 
----
+______________________________________________________________________
 
-# 58. Placeholder Strategy
+## 58. Placeholder Strategy
 
 When a structurally required map is missing but its role is clearly established, a placeholder may be created with:
 
@@ -1774,9 +1776,9 @@ Related nodes
 
 The placeholder must not invent unverified child ontology.
 
----
+______________________________________________________________________
 
-# 59. Recommended Map Contract
+## 59. Recommended Map Contract
 
 Each plane map should minimally define:
 
@@ -1794,9 +1796,9 @@ PlaneMap:
   gaps:
 ```
 
----
+______________________________________________________________________
 
-# 60. Recommended Hub Contract
+## 60. Recommended Hub Contract
 
 Each major hub should link:
 
@@ -1812,9 +1814,9 @@ archive lineage
 
 This creates useful graph connectivity without flattening ownership.
 
----
+______________________________________________________________________
 
-# 61. Neural Network Maintenance Workflow
+## 61. Neural Network Maintenance Workflow
 
 ```text
 SCAN VAULT
@@ -1840,9 +1842,9 @@ REPAIR
 RE-SCAN
 ```
 
----
+______________________________________________________________________
 
-# 62. Maintenance Priorities
+## 62. Maintenance Priorities
 
 Repair in this order:
 
@@ -1856,9 +1858,9 @@ Repair in this order:
 7. COSMETIC GRAPH GAPS
 ```
 
----
+______________________________________________________________________
 
-# 63. Graph Health Metrics
+## 63. Graph Health Metrics
 
 Possible structural metrics:
 
@@ -1876,9 +1878,9 @@ These are graph-health metrics.
 
 They are not measures of intelligence or truth.
 
----
+______________________________________________________________________
 
-# 64. Graph Health Firewall
+## 64. Graph Health Firewall
 
 ```text
 HighConnectivity
@@ -1891,14 +1893,16 @@ LowOrphanCount
 !=
 CompleteKnowledge
 ```
+
 ```text
 HighCentrality
 !=
 HighEpistemicTrust
 ```
----
 
-# 65. RSCF Node
+______________________________________________________________________
+
+## 65. RSCF Node
 
 ```yaml
 node_id: AMOS_OS_NEURAL_NETWORK
@@ -1969,9 +1973,9 @@ confidence_ceiling:
   runtime_equivalence: not_claimed
 ```
 
----
+______________________________________________________________________
 
-# 66. Changelog
+## 66. Changelog
 
 ## v2.0.0 — 2026-08-25
 
@@ -2023,9 +2027,9 @@ plane nodes
 Obsidian graph connectivity purpose
 ```
 
----
+______________________________________________________________________
 
-# 67. Final Network Law
+## 67. Final Network Law
 
 The AMOS vault topology can be compressed to:
 
@@ -2061,30 +2065,33 @@ The fourth invariant is:
 
 > **Missing structural nodes remain `UNKNOWN/GAP` or explicit placeholders until source-backed content exists.**
 
----
+______________________________________________________________________
 
 **Related:** README|AMOS OS Root · [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|MOC · [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]|Architecture · [[00_ROOT/FULL_TREE|FULL_TREE]]|Full Tree · [[00_ROOT/SYSTEM_MAP|SYSTEM_MAP]]|System Map · [[00_ROOT/DEPENDENCY_MAP|DEPENDENCY_MAP]]|Dependency Map · [[00_ROOT/AUTHORITATIVE_STATE|AUTHORITATIVE_STATE]]|Authoritative State · [[00_ROOT/00_ROOT_NAMING_STANDARD|00_ROOT_NAMING_STANDARD]]|Naming Standard · [[00_ROOT/PLACEMENT_RULES|PLACEMENT_RULES]]|AMOS OS · [[01_CANON/00_INDEX/CANON_MAP|CANON_MAP]]|CANON · [[02_KERNEL/00_INDEX/KERNEL_MAP|KERNEL_MAP]]|KERNEL · [[03_CONTROL_PLANE/00_INDEX/CONTROL_PLANE_MAP|CONTROL_PLANE_MAP]]|CONTROL_PLANE · [[04_RUNTIME/00_INDEX/RUNTIME_MAP|RUNTIME_MAP]]|RUNTIME · [[05_COGNITIVE_ORGANISM/00_INDEX/COGNITIVE_ORGANISM_MAP|COGNITIVE_ORGANISM_MAP]]|COGNITIVE_ORGANISM · [[06_AGENTS/00_INDEX/AGENT_MAP|AGENT_MAP]]|[[AGENTS|AGENTS]] · [[07_SKILLS/00_INDEX/SKILL_MAP|SKILL_MAP]]|SKILLS · [[08_WORKFLOWS/00_INDEX/WORKFLOW_MAP|WORKFLOW_MAP]]|WORKFLOWS · [[09_PROTOCOLS/00_INDEX/PROTOCOL_MAP|PROTOCOL_MAP]]|PROTOCOLS · [[10_MEMORY/00_INDEX/MEMORY_MEMORY_MAP|MEMORY_MEMORY_MAP]]|MEMORY · [[11_KNOWLEDGE/AMOS_FULL_BRAIN_OS_ARCHITECTURE|AMOS_FULL_BRAIN_OS_ARCHITECTURE]]|KNOWLEDGE · [[12_STATE/00_INDEX/STATE_STATE_MAP|STATE_STATE_MAP]]|STATE · [[13_MODELS/00_INDEX/MODEL_MAP|MODEL_MAP]]|MODELS · [[14_TOOLS/00_INDEX/TOOL_MAP|TOOL_MAP]]|TOOLS · [[15_INTERFACES/00_INDEX/INTERFACE_MAP|INTERFACE_MAP]]|INTERFACES · [[16_SCHEMAS/00_INDEX/SCHEMA_MAP|SCHEMA_MAP]]|SCHEMAS · [[17_OBSERVABILITY/00_INDEX/OBSERVABILITY_OBSERVABILITY_MAP|OBSERVABILITY_OBSERVABILITY_MAP]]|OBSERVABILITY · [[18_SECURITY/00_INDEX/SECURITY_MAP|SECURITY_MAP]]|SECURITY · [[19_TESTS/00_INDEX/TEST_MAP|TEST_MAP]]|TESTS · [[20_OPERATIONS/00_INDEX/OPERATIONS_MAP|OPERATIONS_MAP]]|OPERATIONS · [[21_DOMAINS/00_INDEX/DOMAIN_ALIAS_MAP|DOMAIN_ALIAS_MAP]]|DOMAINS · [[22_RESEARCH/00_INDEX/INDEX_RESEARCH_README|INDEX_RESEARCH_README]]|RESEARCH · [[23_OPERATING_MODEL/00_INDEX/OPERATING_MODEL|OPERATING_MODEL]]|[[23_OPERATING_MODEL/00_INDEX/OPERATING_MODEL|OPERATING_MODEL]] · [[24_ARCHIVE/00_LEGACY/LEGACY_ARCHIVE_README|LEGACY_ARCHIVE_README]]|ARCHIVE · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_ARCHITECTURE|COGNITIVE_MATRIX_ARCHITECTURE]]|COGNITIVE_MATRIX
 
 ```
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: neural_network
 node_type: note
 path: 00_ROOT/NEURAL_NETWORK.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[00_ROOT/00_COSMO_BRAIN_MOC|00_COSMO_BRAIN_MOC]]
-

@@ -4,25 +4,22 @@ title: SKILL — Amos Transformation Quest Engine
 type: skill
 source: 07_SKILLS/amos-transformation-quest-engine
 name: amos-transformation-quest-engine
-description: Transformation Quest Engine — amos-engines-master capability. Use when engines-master
-  reasoning, consciousness emulation, or mega-engine analysis. Use when amos-engines-master
-  routes to this specialized capability. Do not use for generic tasks outside engines-master
-  domain.
+description: Transformation Quest Engine — amos-engines-master capability. Use when engines-master reasoning, consciousness emulation, or mega-engine analysis. Use when amos-engines-master routes to this specialized capability. Do not use for generic tasks outside engines-master domain.
 parent_skill: amos-engines-master
 domain: engines-master
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
 tags:
-- type/skill
-- type/skill
-- domain/engines-master
-- epistemic/source_claim
-- hml/h
-- epistemic/source_claim
-- amos-os
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/engines-master
+  - epistemic/source_claim
+  - hml/h
+  - epistemic/source_claim
+  - amos-os
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -32,23 +29,23 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: H
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
-- L7_authority
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
+  - L7_authority
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L7
-- L16
-- L17
-- L18
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L7
+  - L16
+  - L17
+  - L18
 license: MIT
 steward: Trang Phan
 ---
@@ -58,6 +55,7 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: engines-master. Parent: amos-engines-master. Epistemic class: SOURCE_CLAIM. H/M/L: H.
+
 ## When to Use
 
 - When supervising testing with cost-awareness: coverage vs cost
@@ -82,11 +80,11 @@ Origin architect: **Trang Phan**. Domain: engines-master. Parent: amos-engines-m
 ## Operations
 
 1. **transformation_quest.supervise_test**: Supervise testing with cost-awareness: balance test coverage vs resource cost
-2. **transformation_quest.transform_distinction**: Transform distinction-relation structures across scales and contexts
-3. **transformation_quest.orchestrate_brain**: Orchestrate full brain OS: coordinate all cognitive engines as a unified system
-4. **transformation_quest.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-5. **transformation_quest.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
-6. **transformation_quest.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+1. **transformation_quest.transform_distinction**: Transform distinction-relation structures across scales and contexts
+1. **transformation_quest.orchestrate_brain**: Orchestrate full brain OS: coordinate all cognitive engines as a unified system
+1. **transformation_quest.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+1. **transformation_quest.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+1. **transformation_quest.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## 11_KNOWLEDGE Vault Content
 
@@ -97,13 +95,15 @@ Origin architect: **Trang Phan**. Domain: engines-master. Parent: amos-engines-m
 The Cognitive Organism OS defines transformation quests as structured processes for transforming the system from one state to another.
 
 **Quest structure**:
+
 1. **Quest declaration**: declare the starting state, target state, and transformation path
-2. **Quest validation**: validate that the transformation is feasible and authorized
-3. **Quest execution**: execute the transformation step by step
-4. **Quest verification**: verify that the target state has been reached
-5. **Quest provenance**: record the full transformation history
+1. **Quest validation**: validate that the transformation is feasible and authorized
+1. **Quest execution**: execute the transformation step by step
+1. **Quest verification**: verify that the target state has been reached
+1. **Quest provenance**: record the full transformation history
 
 **Quest types**:
+
 - **Capability quest**: add, modify, or remove a capability
 - **Architecture quest**: modify the system architecture
 - **Knowledge quest**: transform the knowledge base
@@ -140,9 +140,10 @@ Transformation quests are operational constructs. They do not prove transformati
 - **Domain**: super
 - **Origin architect**: Trang Phan
 - **Vault sources**:
-- `mis
+- \`mis
 
----
+______________________________________________________________________
+
 **Links:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 ## Related
@@ -152,17 +153,19 @@ Transformation quests are operational constructs. They do not prove transformati
 ## Examples
 
 - **Scenario**: When supervising testing with cost-awareness: coverage vs cost
+
   - **Input**: A query matching this skill's domain (engines-master)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When transforming distinction-relation structures across scales
+
   - **Input**: A query matching this skill's domain (engines-master)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When orchestrating full brain OS: coordinating all cognitive engines
+
   - **Input**: A query matching this skill's domain (engines-master)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Anti-Patterns
 
@@ -172,7 +175,6 @@ Transformation quests are operational constructs. They do not prove transformati
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `amos-engines-master` — routes to this skill when engines-master specialization is needed
@@ -180,7 +182,6 @@ Transformation quests are operational constructs. They do not prove transformati
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -199,7 +200,6 @@ Transformation quests are operational constructs. They do not prove transformati
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -207,7 +207,6 @@ Transformation quests are operational constructs. They do not prove transformati
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -220,11 +219,12 @@ Transformation quests are operational constructs. They do not prove transformati
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `amos-engines-master` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `amos-transformation-quest-engine-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -232,12 +232,14 @@ Transformation quests are operational constructs. They do not prove transformati
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-transformation-quest-engine
 node_type: skill
 path: 07_SKILLS/amos-transformation-quest-engine/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

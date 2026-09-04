@@ -1,16 +1,19 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: AMOS TECH KERNEL INTEGRATION WORKFLOW
 tags:
-- canon-group/tech-ai
-- canon/framework
-- rscf/claim
-- rscf/provenance
-- rscf/state/source-claim
-- topic/amos-tech-kernel-integration-workflow
-- kernel
-- system-scan-agent
-- automation-profiles
-- amos-simulation-kernel-v0-math-foundations
+  - canon-group/tech-ai
+  - canon/framework
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - topic/amos-tech-kernel-integration-workflow
+  - kernel
+  - system-scan-agent
+  - automation-profiles
+  - amos-simulation-kernel-v0-math-foundations
 type: document
 source: 11_KNOWLEDGE/kernel
 rscf:
@@ -26,7 +29,7 @@ rscf:
 
 **Source:** Kernel files in md/Kernels/Tech/ (20 files total: 18 new + 2 previously created)
 
----
+______________________________________________________________________
 
 ## Phase 1: Task Decomposition (using Tech kernel domains)
 
@@ -50,7 +53,7 @@ Step 3: Identify cross-cutting concerns
 
 **Output:** List of relevant Tech kernels with primary/secondary designation.
 
----
+______________________________________________________________________
 
 ## Phase 2: Kernel Function Selection
 
@@ -83,7 +86,7 @@ Cross-cutting: AMOS_Automation_Kernel_v0
 
 **Output:** Function selection map — which kernel, which function, what inputs.
 
----
+______________________________________________________________________
 
 ## Phase 3: Input Preparation
 
@@ -105,7 +108,7 @@ Function: authn_authz_design
 
 **Output:** Input data ready for each function.
 
----
+______________________________________________________________________
 
 ## Phase 4: Function Execution (sequential or parallel)
 
@@ -124,12 +127,13 @@ Order:
 ```
 
 **Parallel opportunities:**
+
 - versioning_strategy + data_protection can run in parallel with endpoint_design
 - test_strategy + observability_design can run in parallel after API design is complete
 
 **Output:** Function results for each selected function.
 
----
+______________________________________________________________________
 
 ## Phase 5: Integration and Conflict Resolution
 
@@ -157,7 +161,7 @@ Step 3: Produce integrated output
 
 **Output:** Integrated technology design covering all domains.
 
----
+______________________________________________________________________
 
 ## Phase 6: Workflow Automation (optional)
 
@@ -177,7 +181,7 @@ Use AMOS_Automation_Kernel_v0:
 
 **Output:** Workflow definition (if applicable) or manual execution plan.
 
----
+______________________________________________________________________
 
 ## Phase 7: Documentation and Handoff
 
@@ -200,52 +204,60 @@ Outputs:
 
 **Output:** Documentation package for the technology design.
 
----
+______________________________________________________________________
 
 ## Quick Reference: Common Tech Task Compositions
 
 ### Web Application Development
+
 Primary: AMOS_Api_Design_Kernel + AMOS_Tech_Unified_Engine
 Secondary: AMOS_Security_Architecture_Kernel + AMOS_Qa_Testing_Kernel + AMOS_Observability_Monitoring_Kernel
 Cross-cutting: AMOS_Automation_Kernel (CI/CD) + AMOS_Devops_Infra_Kernel (deployment)
 
 ### Data Platform
+
 Primary: AMOS_Data_Engineering_Kernel + AMOS_Etl_Pipeline_Kernel + AMOS_Integration_Platform_Kernel
 Secondary: AMOS_Data_Science_Kernel + AMOS_Ml_Engineering_Kernel (if ML involved)
 Cross-cutting: AMOS_Observability_Monitoring_Kernel + AMOS_Security_Architecture_Kernel (data protection)
 
 ### ML System
+
 Primary: AMOS_Ml_Engineering_Kernel + AMOS_Data_Science_Kernel
 Secondary: AMOS_Data_Engineering_Kernel (feature pipelines) + AMOS_Integration_Platform_Kernel (model serving)
 Cross-cutting: AMOS_Qa_Testing_Kernel (model testing) + AMOS_Observability_Monitoring_Kernel (model monitoring) + AMOS_Security_Architecture_Kernel (model security)
 
 ### Infrastructure Modernization
+
 Primary: AMOS_Devops_Infra_Kernel + AMOS_Toolchain_Integration_Kernel
 Secondary: AMOS_Security_Architecture_Kernel + AMOS_Integration_Platform_Kernel
 Cross-cutting: AMOS_Automation_Kernel (automation of migration) + AMOS_Observability_Monitoring_Kernel (monitoring new infra)
 
 ### Product Feature Delivery
+
 Primary: AMOS_Product_Management_Kernel + AMOS_Agile_Delivery_Kernel
 Secondary: AMOS_Api_Design_Kernel (if feature involves API) + AMOS_Business_Analysis_Kernel (requirements)
 Cross-cutting: AMOS_Qa_Testing_Kernel + AMOS_Devops_Infra_Kernel (deployment)
 
----
+______________________________________________________________________
 
 ## Memory: Tech Kernel Integration
 
 The 20 Tech kernels form an integrated technology capability. For any tech task:
+
 1. Decompose task into Tech kernel domains
-2. Select functions from each relevant kernel
-3. Prepare inputs
-4. Execute functions in dependency order (parallel where possible)
-5. Integrate results, resolve conflicts
-6. Optionally automate as workflow
-7. Document and handoff
+1. Select functions from each relevant kernel
+1. Prepare inputs
+1. Execute functions in dependency order (parallel where possible)
+1. Integrate results, resolve conflicts
+1. Optionally automate as workflow
+1. Document and handoff
 
 The AMOS_Tech_Unified_Engine_v0 provides the highest-level integration: it coordinates software architecture, infrastructure, security, data engineering, DevOps, and quality into a single coherent capability.
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS · SYSTEM_SCAN_AGENT · AUTOMATION_PROFILES · [[11_KNOWLEDGE/kernel/AMOS_CRISIS_MANAGEMENT_KERNEL_V0_GOVERNANCE_RISK|AMOS_CRISIS_MANAGEMENT_KERNEL_V0_GOVERNANCE_RISK]] · [[11_KNOWLEDGE/kernel/AMOS_MULTI_AGENT_COORDINATION_KERNEL|AMOS_MULTI_AGENT_COORDINATION_KERNEL]] · [[11_KNOWLEDGE/kernel/AMOS_CUSTOMER_INSIGHT_KERNEL|AMOS_CUSTOMER_INSIGHT_KERNEL]] · [[11_KNOWLEDGE/kernel/MARKET_SIGNALS_KERNEL|MARKET_SIGNALS_KERNEL]]
 
----
+______________________________________________________________________
+
 **MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]

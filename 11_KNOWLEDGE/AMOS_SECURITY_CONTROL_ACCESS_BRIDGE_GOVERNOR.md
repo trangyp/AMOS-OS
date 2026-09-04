@@ -11,19 +11,19 @@ parent_skill: amos-security-safety-master
 rscf_node_type: skill
 status: production_ready
 tags:
-- rscf/node
-- knowledge
-- vault
-- canon-group/cross-domain
-- topic/security-control-access
-- topic/pipeline-governance
-- canon/knowledge
-- access-control
-- bounded-intelligence-security
-- amos-cross-domain-tensor-composition-governor
-- risk-compliance-model
-- c09-org-law-policy
-- c10-tech-engineering
+  - rscf/node
+  - knowledge
+  - vault
+  - canon-group/cross-domain
+  - topic/security-control-access
+  - topic/pipeline-governance
+  - canon/knowledge
+  - access-control
+  - bounded-intelligence-security
+  - amos-cross-domain-tensor-composition-governor
+  - risk-compliance-model
+  - c09-org-law-policy
+  - c10-tech-engineering
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -33,21 +33,19 @@ rscf:
 
 # AMOS SECURITY CONTROL ACCESS BRIDGE GOVERNOR
 
-
 Below is the **full source-grounded expansion**. I preserve the supplied source metadata and terminology, while keeping derived architecture, equations, state machines, Obsidian augmentation, and governance rules explicitly separated from source canon.
 
 One source-level structural conflict must remain unresolved: `parent_skill: amos-security-safety-master` naturally encodes this governor as subordinate to that master, while `RSCF-RELATIONS` says `PARENT_OF: amos-security-safety-master`. Those directions are not equivalent, so the relation remains **COMPETING / UNKNOWN-GAP** pending authoritative lineage evidence.
 
----
+______________________________________________________________________
 
 ## 0. Normalized Source Frontmatter — SOURCE
 
+______________________________________________________________________
 
----
+## 1. Proposed Obsidian Augmentation — DERIVED / PROPOSED
 
-# 1. Proposed Obsidian Augmentation — DERIVED / PROPOSED
-
-> [!warning] Metadata Boundary
+> [!WARNING] Metadata Boundary
 > Everything in this block is **DERIVED / PROPOSED vault augmentation**. It is not represented as part of the supplied source frontmatter.
 
 ```yaml
@@ -143,13 +141,13 @@ epistemic_boundary:
 raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
 ```
 
----
+______________________________________________________________________
 
-# 2. Canonical Artifact
+## 2. Canonical Artifact
 
-# AMOS Security-Control-Access Bridge Governor
+## AMOS Security-Control-Access Bridge Governor
 
-> [!abstract] RSCF-NODE
+> [!ABSTRACT] RSCF-NODE
 > **RSCF-NODE** · `skill` · `cross-domain` · C09 → C10 → Runtime
 >
 > **Origin architect and steward:** Trang Phan
@@ -159,9 +157,9 @@ raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
 > **Claim ceiling:** `0.90`
 > **Declared status:** `PRODUCTION_READY` — source states all 10 QA gates pass.
 
----
+______________________________________________________________________
 
-# 3. Canonical Status Receipt
+## 3. Canonical Status Receipt
 
 The source defines the **AMOS Security-Control-Access Bridge Governor** as a cross-domain governance skill connecting three otherwise separated security layers:
 
@@ -199,9 +197,9 @@ C09 Policy
 
 The source further establishes ten capabilities and ten validation gates governing this pipeline.
 
----
+______________________________________________________________________
 
-# 4. Epistemic Boundary
+## 4. Epistemic Boundary
 
 The strongest safe interpretation is:
 
@@ -245,9 +243,9 @@ epistemic_receipt:
   formal_security_proof: NOT_SUPPLIED
 ```
 
----
+______________________________________________________________________
 
-# 5. Core Security Boundary
+## 5. Core Security Boundary
 
 ```text
 POLICY
@@ -311,9 +309,9 @@ PRODUCTION_READY
 INDEPENDENT RUNTIME VERIFICATION
 ```
 
----
+______________________________________________________________________
 
-# 6. Problem Definition
+## 6. Problem Definition
 
 The `_00_Cosmo brain` exploration identified:
 
@@ -341,9 +339,9 @@ POLICY FEEDBACK
 
 The governor is designed to close those gaps without collapsing the distinctions between the layers.
 
----
+______________________________________________________________________
 
-# 7. Three-Layer Architecture
+## 7. Three-Layer Architecture
 
 The source identifies three principal planes.
 
@@ -380,9 +378,9 @@ audit-producing execution
 
 These descriptions are normalized from the supplied architecture; exact C09/C10 schemas are not supplied here.
 
----
+______________________________________________________________________
 
-# 8. Pipeline Model
+## 8. Pipeline Model
 
 Source:
 
@@ -410,17 +408,17 @@ $$
 
 where:
 
-- \(P\) = C09 policy state
-- \(M\) = C10 mechanism state
-- \(E\) = runtime enforcement state
-- \(A\) = audit feedback
-- \(P'\) = policy after feedback/review
+- (P) = C09 policy state
+- (M) = C10 mechanism state
+- (E) = runtime enforcement state
+- (A) = audit feedback
+- (P') = policy after feedback/review
 
 This equation is **DERIVED**, not a source-defined formal equation.
 
----
+______________________________________________________________________
 
-# 9. Security Continuity Principle
+## 9. Security Continuity Principle
 
 The pipeline implies a source-grounded structural requirement:
 
@@ -440,28 +438,28 @@ AUDIT
 
 The inverse audit route should preserve sufficient lineage to determine what policy authorized an enforcement action.
 
----
+______________________________________________________________________
 
-# 10. Capability Registry
+## 10. Capability Registry
 
 The source explicitly defines ten capabilities.
 
-|  # | Capability                                  | Source Role                            |
-| -: | ------------------------------------------- | -------------------------------------- |
-|  1 | `sca_bridge.translate_policy_to_mechanism`  | C09 policy → C10 mechanism             |
-|  2 | `sca_bridge.validate_mechanism_enforcement` | mechanism → runtime validation         |
-|  3 | `sca_bridge.govern_pipeline`                | full pipeline governance               |
-|  4 | `sca_bridge.detect_layer_drift`             | policy/mechanism/enforcement drift     |
-|  5 | `sca_bridge.audit_pipeline`                 | full compliance audit                  |
-|  6 | `sca_bridge.trace_pipeline_provenance`      | C09 → C10 → runtime → audit provenance |
-|  7 | `sca_bridge.assess_risk_compliance`         | pipeline risk/compliance assessment    |
-|  8 | `sca_bridge.manage_lifecycle`               | classify/validate/trace/assess/detect  |
-|  9 | `sca_bridge.detect_drift`                   | evidence/provenance freshness drift    |
-| 10 | `sca_bridge.validate_outputs`               | domain + epistemic output validation   |
+|   # | Capability                                  | Source Role                            |
+| --: | ------------------------------------------- | -------------------------------------- |
+|   1 | `sca_bridge.translate_policy_to_mechanism`  | C09 policy → C10 mechanism             |
+|   2 | `sca_bridge.validate_mechanism_enforcement` | mechanism → runtime validation         |
+|   3 | `sca_bridge.govern_pipeline`                | full pipeline governance               |
+|   4 | `sca_bridge.detect_layer_drift`             | policy/mechanism/enforcement drift     |
+|   5 | `sca_bridge.audit_pipeline`                 | full compliance audit                  |
+|   6 | `sca_bridge.trace_pipeline_provenance`      | C09 → C10 → runtime → audit provenance |
+|   7 | `sca_bridge.assess_risk_compliance`         | pipeline risk/compliance assessment    |
+|   8 | `sca_bridge.manage_lifecycle`               | classify/validate/trace/assess/detect  |
+|   9 | `sca_bridge.detect_drift`                   | evidence/provenance freshness drift    |
+|  10 | `sca_bridge.validate_outputs`               | domain + epistemic output validation   |
 
----
+______________________________________________________________________
 
-# 11. Capability 1 — Policy → Mechanism Translation
+## 11. Capability 1 — Policy → Mechanism Translation
 
 ```text
 sca_bridge.translate_policy_to_mechanism
@@ -495,9 +493,9 @@ could structurally require a technical control implementing that restriction.
 
 However, this artifact does not provide an exact translation language or compiler.
 
----
+______________________________________________________________________
 
-# 12. Policy Translation Contract — DERIVED
+## 12. Policy Translation Contract — DERIVED
 
 ```yaml
 policy_translation:
@@ -522,9 +520,9 @@ policy_translation:
 
 This schema is derived implementation scaffolding.
 
----
+______________________________________________________________________
 
-# 13. Translation Is Not Mechanical Equivalence
+## 13. Translation Is Not Mechanical Equivalence
 
 A policy statement and an engineering mechanism exist at different semantic levels.
 
@@ -548,9 +546,9 @@ A translation must establish correspondence.
 
 It cannot simply assume it.
 
----
+______________________________________________________________________
 
-# 14. Capability 2 — Validate Mechanism Enforcement
+## 14. Capability 2 — Validate Mechanism Enforcement
 
 ```text
 sca_bridge.validate_mechanism_enforcement
@@ -572,9 +570,9 @@ OBSERVED ENFORCEMENT
 
 The distinction is critical because configured controls may fail, be bypassed, be stale, or differ from runtime state.
 
----
+______________________________________________________________________
 
-# 15. Enforcement Validation Boundary
+## 15. Enforcement Validation Boundary
 
 ```text
 MECHANISM CONFIGURED
@@ -600,9 +598,9 @@ PROVEN SYSTEM-WIDE DENIAL
 
 Validation inherits environment, version, scope, and temporal boundaries.
 
----
+______________________________________________________________________
 
-# 16. Capability 3 — Govern Pipeline
+## 16. Capability 3 — Govern Pipeline
 
 ```text
 sca_bridge.govern_pipeline
@@ -618,9 +616,9 @@ PIPELINE_CONDITIONAL
 
 These are the primary governance outputs.
 
----
+______________________________________________________________________
 
-# 17. Pipeline State Machine — DERIVED
+## 17. Pipeline State Machine — DERIVED
 
 ```text
                  ┌────────────────────┐
@@ -658,9 +656,9 @@ The output states are source-defined.
 
 The exact decision sequence is derived.
 
----
+______________________________________________________________________
 
-# 18. Capability 4 — Detect Layer Drift
+## 18. Capability 4 — Detect Layer Drift
 
 ```text
 sca_bridge.detect_layer_drift
@@ -678,9 +676,9 @@ Mechanism ↔ Runtime
 Policy ↔ Runtime
 ```
 
----
+______________________________________________________________________
 
-# 19. Policy Drift
+## 19. Policy Drift
 
 Policy drift occurs when the governing policy changes but technical controls do not remain aligned.
 
@@ -700,9 +698,9 @@ LAYER_DRIFT
 
 The exact detection algorithm is not supplied.
 
----
+______________________________________________________________________
 
-# 20. Mechanism Drift
+## 20. Mechanism Drift
 
 Mechanism drift may occur when implementation changes while policy remains static.
 
@@ -721,9 +719,9 @@ The mechanism may become:
 
 No such specific drift classes are source-defined; they are derived examples.
 
----
+______________________________________________________________________
 
-# 21. Enforcement Drift
+## 21. Enforcement Drift
 
 Runtime behavior may diverge from the intended mechanism.
 
@@ -747,9 +745,9 @@ then an enforcement mismatch exists.
 
 This is a derived formalization.
 
----
+______________________________________________________________________
 
-# 22. Capability 5 — Audit Pipeline
+## 22. Capability 5 — Audit Pipeline
 
 ```text
 sca_bridge.audit_pipeline
@@ -773,9 +771,9 @@ Audit trail
 
 rather than checking only one technical control.
 
----
+______________________________________________________________________
 
-# 23. Audit Boundary
+## 23. Audit Boundary
 
 An audit can support claims about tested evidence.
 
@@ -797,9 +795,9 @@ AUDIT PASS
 SECURITY PROOF
 ```
 
----
+______________________________________________________________________
 
-# 24. Capability 6 — Trace Pipeline Provenance
+## 24. Capability 6 — Trace Pipeline Provenance
 
 ```text
 sca_bridge.trace_pipeline_provenance
@@ -819,9 +817,9 @@ Audit
 
 This is a first-class provenance chain.
 
----
+______________________________________________________________________
 
-# 25. Provenance Graph
+## 25. Provenance Graph
 
 ```mermaid
 flowchart LR
@@ -836,9 +834,9 @@ flowchart LR
     A --> P
 ```
 
----
+______________________________________________________________________
 
-# 26. Provenance Receipt — DERIVED
+## 26. Provenance Receipt — DERIVED
 
 ```yaml
 pipeline_provenance:
@@ -862,9 +860,9 @@ pipeline_provenance:
     runtime_parent: REQUIRED
 ```
 
----
+______________________________________________________________________
 
-# 27. Provenance Independence Firewall
+## 27. Provenance Independence Firewall
 
 A single policy may generate multiple controls.
 
@@ -888,9 +886,9 @@ LOG COUNT
 INDEPENDENT EVIDENCE COUNT
 ```
 
----
+______________________________________________________________________
 
-# 28. Capability 7 — Risk and Compliance
+## 28. Capability 7 — Risk and Compliance
 
 ```text
 sca_bridge.assess_risk_compliance
@@ -911,9 +909,9 @@ The supplied risk-compliance knowledge includes:
 - ESG;
 - operations.
 
----
+______________________________________________________________________
 
-# 29. Risk ≠ Compliance
+## 29. Risk ≠ Compliance
 
 The artifact connects them but does not collapse them.
 
@@ -937,9 +935,9 @@ SECURITY
 
 A control can satisfy a regulatory requirement yet remain vulnerable to threats outside that requirement.
 
----
+______________________________________________________________________
 
-# 30. Capability 8 — Lifecycle
+## 30. Capability 8 — Lifecycle
 
 ```text
 sca_bridge.manage_lifecycle
@@ -979,9 +977,9 @@ REVALIDATE
 
 The exact ordering is not source-defined.
 
----
+______________________________________________________________________
 
-# 31. Capability 9 — Evidence Drift
+## 31. Capability 9 — Evidence Drift
 
 ```text
 sca_bridge.detect_drift
@@ -1005,9 +1003,9 @@ LAYER DRIFT
 EVIDENCE DRIFT
 ```
 
----
+______________________________________________________________________
 
-# 32. Two Drift Systems
+## 32. Two Drift Systems
 
 ## Layer Drift
 
@@ -1025,9 +1023,9 @@ Evidence becomes stale / superseded / invalid
 
 Both can occur independently.
 
----
+______________________________________________________________________
 
-# 33. Capability 10 — Validate Outputs
+## 33. Capability 10 — Validate Outputs
 
 ```text
 sca_bridge.validate_outputs
@@ -1048,9 +1046,9 @@ provenance
 epistemic class
 ```
 
----
+______________________________________________________________________
 
-# 34. Ten Validation Gates
+## 34. Ten Validation Gates
 
 | Gate | Source Requirement                           |
 | ---- | -------------------------------------------- |
@@ -1065,9 +1063,9 @@ epistemic class
 | G9   | No layer drift                               |
 | G10  | Audit trail complete                         |
 
----
+______________________________________________________________________
 
-# 35. G1 — Cross-Layer Contradictions
+## 35. G1 — Cross-Layer Contradictions
 
 ```text
 No contradictions across C09/C10/Runtime
@@ -1087,9 +1085,9 @@ BLOCK / CONDITION
 DISCRIMINATING TEST
 ```
 
----
+______________________________________________________________________
 
-# 36. G2 — Epistemic Class
+## 36. G2 — Epistemic Class
 
 Every claim must retain its epistemic type.
 
@@ -1105,9 +1103,9 @@ risk model
 
 must not automatically inherit the same epistemic class.
 
----
+______________________________________________________________________
 
-# 37. G3 — Provenance Everywhere
+## 37. G3 — Provenance Everywhere
 
 Source:
 
@@ -1128,9 +1126,9 @@ AUDIT
 
 The exact provenance schema is not supplied.
 
----
+______________________________________________________________________
 
-# 38. G4 — Scope Firewall
+## 38. G4 — Scope Firewall
 
 ```text
 No claim beyond scope.
@@ -1154,9 +1152,9 @@ tested one time
 
 These are derived examples.
 
----
+______________________________________________________________________
 
-# 39. G5 — Pipeline Is AMOS_MODEL
+## 39. G5 — Pipeline Is AMOS_MODEL
 
 The source explicitly requires:
 
@@ -1174,9 +1172,9 @@ EMPIRICALLY PROVEN UNIVERSAL SECURITY ARCHITECTURE
 
 The pipeline is a corpus-defined model.
 
----
+______________________________________________________________________
 
-# 40. G6 — Failure Mode
+## 40. G6 — Failure Mode
 
 Source:
 
@@ -1201,9 +1199,9 @@ require human approval?
 
 Do not invent a single canonical mechanism.
 
----
+______________________________________________________________________
 
-# 41. G7 — Policy-Mechanism Match
+## 41. G7 — Policy-Mechanism Match
 
 Source:
 
@@ -1217,9 +1215,9 @@ $$
 
 This is a faithful formalization of G7.
 
----
+______________________________________________________________________
 
-# 42. Orphan Mechanism
+## 42. Orphan Mechanism
 
 A mechanism with no policy parent is structurally invalid under G7.
 
@@ -1233,9 +1231,9 @@ MECHANISM
 
 This can be called an **orphan mechanism** as a derived label.
 
----
+______________________________________________________________________
 
-# 43. G8 — Mechanism-Enforcement Match
+## 43. G8 — Mechanism-Enforcement Match
 
 Source:
 
@@ -1249,9 +1247,9 @@ $$
 
 Again, this is a structural formalization, not source syntax.
 
----
+______________________________________________________________________
 
-# 44. Orphan Enforcement
+## 44. Orphan Enforcement
 
 Runtime enforcement without a traceable mechanism violates G8.
 
@@ -1263,9 +1261,9 @@ RUNTIME ACTION
 => G8 FAIL
 ```
 
----
+______________________________________________________________________
 
-# 45. Full Traceability Invariant
+## 45. Full Traceability Invariant
 
 Combining G7 and G8 gives:
 
@@ -1277,9 +1275,9 @@ for each governed enforcement action, assuming the source means each runtime enf
 
 This combined formulation is **DERIVED**.
 
----
+______________________________________________________________________
 
-# 46. G9 — No Layer Drift
+## 46. G9 — No Layer Drift
 
 The expected correspondence is:
 
@@ -1293,9 +1291,9 @@ Runtime enforcement
 
 where `≈` means governance-compatible correspondence, not mathematical identity.
 
----
+______________________________________________________________________
 
-# 47. G10 — Complete Audit Trail
+## 47. G10 — Complete Audit Trail
 
 Source:
 
@@ -1320,9 +1318,9 @@ Potential dimensions requiring later canonical definition include:
 
 These are proposed dimensions, not supplied source fields.
 
----
+______________________________________________________________________
 
-# 48. Access-Control Models
+## 48. Access-Control Models
 
 The enriched source records four formal access-control models.
 
@@ -1340,9 +1338,9 @@ subjects × privileges/resources
 
 The exact matrix schema is not supplied.
 
----
+______________________________________________________________________
 
-# 49. DAC
+## 49. DAC
 
 **Discretionary Access Control**
 
@@ -1358,9 +1356,9 @@ owner delegation
 
 No specific DAC standard or implementation is named.
 
----
+______________________________________________________________________
 
-# 50. MAC
+## 50. MAC
 
 **Mandatory Access Control**
 
@@ -1372,9 +1370,9 @@ The source invokes a clearance-oriented model.
 
 Do not infer that all MAC implementations are military systems.
 
----
+______________________________________________________________________
 
-# 51. RBAC
+## 51. RBAC
 
 **Role-Based Access Control**
 
@@ -1396,9 +1394,9 @@ RESOURCE
 
 This diagram is a standard structural normalization of the supplied role-based concept.
 
----
+______________________________________________________________________
 
-# 52. Access-Control Model Comparison
+## 52. Access-Control Model Comparison
 
 | Model           | Source Control Basis | Source Characteristic           |
 | --------------- | -------------------- | ------------------------------- |
@@ -1409,9 +1407,9 @@ This diagram is a standard structural normalization of the supplied role-based c
 
 No source claim says one model is universally superior.
 
----
+______________________________________________________________________
 
-# 53. Model Selection Firewall
+## 53. Model Selection Firewall
 
 ```text
 RBAC
@@ -1433,9 +1431,9 @@ automatically correct
 
 Suitability depends on scope, system, threat model, governance requirements, and implementation.
 
----
+______________________________________________________________________
 
-# 54. Access-Control Types
+## 54. Access-Control Types
 
 The source additionally lists:
 
@@ -1451,9 +1449,9 @@ These are not all the same type of abstraction.
 
 That distinction should be preserved.
 
----
+______________________________________________________________________
 
-# 55. Vertical Access Control
+## 55. Vertical Access Control
 
 Source:
 
@@ -1469,9 +1467,9 @@ HIGH PRIVILEGE
 
 A vertical access-control failure may permit privilege escalation.
 
----
+______________________________________________________________________
 
-# 56. Horizontal Access Control
+## 56. Horizontal Access Control
 
 Source:
 
@@ -1492,9 +1490,9 @@ User A → Resource B
 
 without elevation to a higher privilege class.
 
----
+______________________________________________________________________
 
-# 57. Context-Dependent Access
+## 57. Context-Dependent Access
 
 Source explicitly includes:
 
@@ -1508,9 +1506,9 @@ The source does not enumerate the context vector.
 
 Do not invent mandatory fields such as location, device, time, or risk score as canon.
 
----
+______________________________________________________________________
 
-# 58. CORS
+## 58. CORS
 
 CORS is listed among access-control types in the source corpus.
 
@@ -1524,9 +1522,9 @@ is not automatically semantically identical to user/role authorization.
 
 Its exact relationship to the bridge requires the underlying source.
 
----
+______________________________________________________________________
 
-# 59. DOM-Based
+## 59. DOM-Based
 
 `DOM-based` is also source-listed.
 
@@ -1548,9 +1546,9 @@ server-side authorization
 
 unless explicitly bound by the implementation.
 
----
+______________________________________________________________________
 
-# 60. Bounded Intelligence Security — BIS™
+## 60. Bounded Intelligence Security — BIS™
 
 Source:
 
@@ -1576,9 +1574,9 @@ IMPLEMENTATION
 retroactively defines policy
 ```
 
----
+______________________________________________________________________
 
-# 61. Model / Implementation Separation
+## 61. Model / Implementation Separation
 
 Derived invariant:
 
@@ -1590,9 +1588,9 @@ Implementation should instantiate the model.
 
 It should not silently redefine it.
 
----
+______________________________________________________________________
 
-# 62. Authentication Dependency
+## 62. Authentication Dependency
 
 Source:
 
@@ -1612,9 +1610,9 @@ ACCESS CONTROL
 RESOURCE ACTION
 ```
 
----
+______________________________________________________________________
 
-# 63. Authentication ≠ Authorization
+## 63. Authentication ≠ Authorization
 
 ```text
 WHO ARE YOU?
@@ -1628,9 +1626,9 @@ Authorization concerns permitted action.
 
 The source's dependency statement does not collapse these concepts.
 
----
+______________________________________________________________________
 
-# 64. Session Management
+## 64. Session Management
 
 A valid authentication event does not establish permanent authorization integrity.
 
@@ -1648,9 +1646,9 @@ Session state therefore becomes a load-bearing dependency in runtime enforcement
 
 The detailed session model is not supplied.
 
----
+______________________________________________________________________
 
-# 65. Risk Compliance Model
+## 65. Risk Compliance Model
 
 Source dimensions:
 
@@ -1667,9 +1665,9 @@ Operations
 
 These form a broad risk/compliance context model.
 
----
+______________________________________________________________________
 
-# 66. Risk Context Vector — DERIVED
+## 66. Risk Context Vector — DERIVED
 
 A derived representation is:
 
@@ -1689,20 +1687,20 @@ $$
 
 where:
 
-- \(S\) = sector profile
-- \(C\) = regulation/compliance
-- \(M\) = market structure
-- \(K\) = risk/crisis
-- \(T\) = technology/data
-- \(W\) = workforce/skills
-- \(E\) = ESG
-- \(O\) = operations
+- (S) = sector profile
+- (C) = regulation/compliance
+- (M) = market structure
+- (K) = risk/crisis
+- (T) = technology/data
+- (W) = workforce/skills
+- (E) = ESG
+- (O) = operations
 
 This vector is **DERIVED** from the source list.
 
----
+______________________________________________________________________
 
-# 67. Risk Model Boundary
+## 67. Risk Model Boundary
 
 The source does not provide:
 
@@ -1718,9 +1716,9 @@ sector calibration
 
 Therefore no numerical risk score should be invented.
 
----
+______________________________________________________________________
 
-# 68. Policy Object — PROPOSED
+## 68. Policy Object — PROPOSED
 
 ```yaml
 policy:
@@ -1735,9 +1733,9 @@ policy:
 
 Not source schema.
 
----
+______________________________________________________________________
 
-# 69. Mechanism Object — PROPOSED
+## 69. Mechanism Object — PROPOSED
 
 ```yaml
 mechanism:
@@ -1749,9 +1747,9 @@ mechanism:
   implementation_state: REQUIRED
 ```
 
----
+______________________________________________________________________
 
-# 70. Runtime Enforcement Object — PROPOSED
+## 70. Runtime Enforcement Object — PROPOSED
 
 ```yaml
 enforcement:
@@ -1765,9 +1763,9 @@ enforcement:
   timestamp: REQUIRED
 ```
 
----
+______________________________________________________________________
 
-# 71. Audit Object — PROPOSED
+## 71. Audit Object — PROPOSED
 
 ```yaml
 audit:
@@ -1780,9 +1778,9 @@ audit:
   timestamp: REQUIRED
 ```
 
----
+______________________________________________________________________
 
-# 72. Pipeline Object — DERIVED
+## 72. Pipeline Object — DERIVED
 
 ```yaml
 security_pipeline:
@@ -1798,9 +1796,9 @@ security_pipeline:
     - A_to_P_feedback
 ```
 
----
+______________________________________________________________________
 
-# 73. Pipeline Proof Obligation
+## 73. Pipeline Proof Obligation
 
 A consequential claim that:
 
@@ -1823,9 +1821,9 @@ scope is appropriate
 
 This is derived from the pipeline model.
 
----
+______________________________________________________________________
 
-# 74. Weakest-Premise Ceiling
+## 74. Weakest-Premise Ceiling
 
 Derived AMOS rule:
 
@@ -1847,9 +1845,9 @@ where the `0.90` cap comes from the supplied source claim ceiling.
 
 The equation itself is derived.
 
----
+______________________________________________________________________
 
-# 75. Policy-to-Mechanism Drift
+## 75. Policy-to-Mechanism Drift
 
 ```text
 P₀ → M₀
@@ -1875,9 +1873,9 @@ POLICY_MECHANISM_DRIFT
 
 This label is derived.
 
----
+______________________________________________________________________
 
-# 76. Mechanism-to-Enforcement Drift
+## 76. Mechanism-to-Enforcement Drift
 
 Mechanism says:
 
@@ -1899,9 +1897,9 @@ MECHANISM_ENFORCEMENT_MISMATCH
 
 The source establishes the concept of layer drift; exact labels are proposed.
 
----
+______________________________________________________________________
 
-# 77. Audit Feedback Drift
+## 77. Audit Feedback Drift
 
 Because the source closes the pipeline with:
 
@@ -1923,13 +1921,13 @@ Policy decision
 
 This is a derived failure class.
 
----
+______________________________________________________________________
 
-# 78. Temporal Integrity
+## 78. Temporal Integrity
 
 Security conclusions are freshness-bounded.
 
-A valid result at \(t_0\) need not remain valid at \(t_1\).
+A valid result at (t_0) need not remain valid at (t_1).
 
 $$
 Valid(P,M,E,t_0)
@@ -1939,9 +1937,9 @@ $$
 
 when dependencies have changed.
 
----
+______________________________________________________________________
 
-# 79. Environment Integrity
+## 79. Environment Integrity
 
 Similarly:
 
@@ -1953,9 +1951,9 @@ $$
 
 unless environment equivalence is independently established.
 
----
+______________________________________________________________________
 
-# 80. Scope Integrity
+## 80. Scope Integrity
 
 ```text
 ONE APPLICATION
@@ -1977,9 +1975,9 @@ ENTIRE SECURITY PROGRAM
 
 This follows G4.
 
----
+______________________________________________________________________
 
-# 81. Security Claim Classes
+## 81. Security Claim Classes
 
 Useful classes inside the pipeline include:
 
@@ -1996,9 +1994,9 @@ The source explicitly requires epistemic labeling but does not enumerate this en
 
 Therefore this list is an AMOS governance augmentation.
 
----
+______________________________________________________________________
 
-# 82. Example Epistemic Separation
+## 82. Example Epistemic Separation
 
 ```yaml
 policy:
@@ -2018,9 +2016,9 @@ conclusion:
   class: DERIVED
 ```
 
----
+______________________________________________________________________
 
-# 83. Causal Firewall
+## 83. Causal Firewall
 
 Suppose an incident occurs after a policy change.
 
@@ -2041,9 +2039,9 @@ does not by itself establish causal effectiveness.
 
 Need appropriate causal evidence.
 
----
+______________________________________________________________________
 
-# 84. Security Causality Types
+## 84. Security Causality Types
 
 Distinguish:
 
@@ -2062,9 +2060,9 @@ causal effect
 
 A security bridge must not silently promote one into another.
 
----
+______________________________________________________________________
 
-# 85. Pipeline Governance Receipt — DERIVED
+## 85. Pipeline Governance Receipt — DERIVED
 
 ```yaml
 PIPELINE_GOVERNANCE_RECEIPT:
@@ -2106,9 +2104,9 @@ PIPELINE_GOVERNANCE_RECEIPT:
     - PIPELINE_BLOCKED
 ```
 
----
+______________________________________________________________________
 
-# 86. Failure Modes
+## 86. Failure Modes
 
 ## FM-01 — Orphan Mechanism
 
@@ -2120,7 +2118,7 @@ no policy parent
 
 Violates G7.
 
----
+______________________________________________________________________
 
 ## FM-02 — Orphan Enforcement
 
@@ -2132,7 +2130,7 @@ no matching mechanism
 
 Violates G8.
 
----
+______________________________________________________________________
 
 ## FM-03 — Policy Drift
 
@@ -2140,7 +2138,7 @@ Policy updated; mechanism stale.
 
 Violates G9 if mismatch results.
 
----
+______________________________________________________________________
 
 ## FM-04 — Runtime Drift
 
@@ -2148,7 +2146,7 @@ Mechanism valid on paper; runtime differs.
 
 Violates G8/G9.
 
----
+______________________________________________________________________
 
 ## FM-05 — Provenance Gap
 
@@ -2156,7 +2154,7 @@ An element cannot be traced to its parent.
 
 Violates G3.
 
----
+______________________________________________________________________
 
 ## FM-06 — Scope Leakage
 
@@ -2164,7 +2162,7 @@ Evidence from one environment is generalized beyond its tested scope.
 
 Violates G4.
 
----
+______________________________________________________________________
 
 ## FM-07 — Epistemic Inflation
 
@@ -2172,7 +2170,7 @@ A model or source claim becomes presented as verified runtime fact.
 
 Violates G2.
 
----
+______________________________________________________________________
 
 ## FM-08 — Incomplete Audit
 
@@ -2180,7 +2178,7 @@ Runtime actions exist without sufficient audit lineage.
 
 Violates G10.
 
----
+______________________________________________________________________
 
 ## FM-09 — Policy Contradiction
 
@@ -2188,7 +2186,7 @@ C09 policies conflict and mechanism silently chooses one.
 
 Potential G1 failure.
 
----
+______________________________________________________________________
 
 ## FM-10 — Mechanism Contradiction
 
@@ -2196,7 +2194,7 @@ Two controls implement incompatible interpretations of the same policy.
 
 Potential G1/G7 failure.
 
----
+______________________________________________________________________
 
 ## FM-11 — Authentication Failure
 
@@ -2204,7 +2202,7 @@ Authorization is evaluated using an invalid identity state.
 
 Relevant because access control depends on authentication.
 
----
+______________________________________________________________________
 
 ## FM-12 — Session Integrity Failure
 
@@ -2212,9 +2210,9 @@ Initial authentication is valid, but session state no longer safely represents t
 
 Relevant because access control depends on session management.
 
----
+______________________________________________________________________
 
-# 87. Negative Tests
+## 87. Negative Tests
 
 ```yaml
 negative_tests:
@@ -2255,9 +2253,9 @@ negative_tests:
 
 These test cases are derived from source gates.
 
----
+______________________________________________________________________
 
-# 88. Positive Tests
+## 88. Positive Tests
 
 ```yaml
 positive_tests:
@@ -2281,9 +2279,9 @@ positive_tests:
 
 Derived.
 
----
+______________________________________________________________________
 
-# 89. Fail-Closed Principle
+## 89. Fail-Closed Principle
 
 The source requires:
 
@@ -2309,9 +2307,9 @@ prefer a reversible restrictive state
 unless canonical failure policy says otherwise.
 ```
 
----
+______________________________________________________________________
 
-# 90. Pipeline Decision Matrix — DERIVED
+## 90. Pipeline Decision Matrix — DERIVED
 
 | Policy Match | Mechanism Match | Runtime Match | Audit      | Candidate State                |
 | ------------ | --------------- | ------------- | ---------- | ------------------------------ |
@@ -2323,9 +2321,9 @@ unless canonical failure policy says otherwise.
 
 The exact decision policy is not supplied, so this remains proposed.
 
----
+______________________________________________________________________
 
-# 91. Access-Control Selection Matrix — DERIVED
+## 91. Access-Control Selection Matrix — DERIVED
 
 | Need                                | Candidate Model |
 | ----------------------------------- | --------------- |
@@ -2336,9 +2334,9 @@ The exact decision policy is not supplied, so this remains proposed.
 
 This is a normalization of source descriptions, not a universal selection algorithm.
 
----
+______________________________________________________________________
 
-# 92. Security Pipeline Tensor — DERIVED
+## 92. Security Pipeline Tensor — DERIVED
 
 A compact cross-domain representation:
 
@@ -2360,21 +2358,21 @@ $$
 
 where:
 
-- \(P\) = policy
-- \(M\) = mechanism
-- \(E\) = enforcement
-- \(A\) = audit
-- \(R\) = risk/compliance context
-- \(S\) = scope
-- \(V\) = provenance
-- \(D\) = drift
-- \(C\) = epistemic class
+- (P) = policy
+- (M) = mechanism
+- (E) = enforcement
+- (A) = audit
+- (R) = risk/compliance context
+- (S) = scope
+- (V) = provenance
+- (D) = drift
+- (C) = epistemic class
 
 This tensor is derived and should not be represented as a supplied formula.
 
----
+______________________________________________________________________
 
-# 93. Cross-Domain Tensor Firewall
+## 93. Cross-Domain Tensor Firewall
 
 Because the governor composes with:
 
@@ -2402,9 +2400,9 @@ same role name
 same permission set
 ```
 
----
+______________________________________________________________________
 
-# 94. RSCF H-Level
+## 94. RSCF H-Level
 
 ```yaml
 H:
@@ -2420,9 +2418,9 @@ H:
 
 Derived RSCF representation.
 
----
+______________________________________________________________________
 
-# 95. RSCF M-Level
+## 95. RSCF M-Level
 
 ```yaml
 M:
@@ -2451,9 +2449,9 @@ M:
     - G10
 ```
 
----
+______________________________________________________________________
 
-# 96. RSCF L-Level
+## 96. RSCF L-Level
 
 Load only when decision-relevant:
 
@@ -2474,9 +2472,9 @@ L:
   - risk_context
 ```
 
----
+______________________________________________________________________
 
-# 97. Minimal Retrieval Path
+## 97. Minimal Retrieval Path
 
 ```text
 BOOTSTRAP
@@ -2492,9 +2490,9 @@ raw evidence only if outcome-changing
 
 This is AMOS retrieval governance, not a claim about literal software internals.
 
----
+______________________________________________________________________
 
-# 98. Proof Capsule — Artifact Identity
+## 98. Proof Capsule — Artifact Identity
 
 ```yaml
 proof_capsule:
@@ -2518,9 +2516,9 @@ proof_capsule:
     0.90
 ```
 
----
+______________________________________________________________________
 
-# 99. Proof Capsule — Ten Capabilities
+## 99. Proof Capsule — Ten Capabilities
 
 ```yaml
 proof_capsule:
@@ -2539,9 +2537,9 @@ proof_capsule:
     0.90
 ```
 
----
+______________________________________________________________________
 
-# 100. Proof Capsule — Validation Gates
+## 100. Proof Capsule — Validation Gates
 
 ```yaml
 proof_capsule:
@@ -2557,9 +2555,9 @@ proof_capsule:
     0.90
 ```
 
----
+______________________________________________________________________
 
-# 101. Proof Capsule — Production Readiness
+## 101. Proof Capsule — Production Readiness
 
 ```yaml
 proof_capsule:
@@ -2581,9 +2579,9 @@ proof_capsule:
     NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 102. Proof Capsule — Access Control Dependency
+## 102. Proof Capsule — Access Control Dependency
 
 ```yaml
 proof_capsule:
@@ -2602,9 +2600,9 @@ proof_capsule:
     NOT_CLAIMED_HERE
 ```
 
----
+______________________________________________________________________
 
-# 103. Parent Relation Conflict
+## 103. Parent Relation Conflict
 
 Source frontmatter:
 
@@ -2649,9 +2647,9 @@ relation_conflict:
 
 No silent normalization is justified.
 
----
+______________________________________________________________________
 
-# 104. Competing Hierarchy Hypotheses
+## 104. Competing Hierarchy Hypotheses
 
 ### H1 — Frontmatter authoritative
 
@@ -2683,9 +2681,9 @@ Current state:
 COMPETING
 ```
 
----
+______________________________________________________________________
 
-# 105. Artifact Binding
+## 105. Artifact Binding
 
 Source specifies a 1:1:1 binding.
 
@@ -2713,9 +2711,9 @@ Source specifies a 1:1:1 binding.
 .devin/skills/.../references/vault_domain_knowledge.md
 ```
 
----
+______________________________________________________________________
 
-# 106. Artifact Binding Boundary
+## 106. Artifact Binding Boundary
 
 The artifact tells us these paths are part of the declared architecture.
 
@@ -2732,9 +2730,9 @@ runtime deployment uses this exact version
 
 Those require artifact inspection.
 
----
+______________________________________________________________________
 
-# 107. RSCF Relations — SOURCE
+## 107. RSCF Relations — SOURCE
 
 ```yaml
 RSCF_RELATIONS:
@@ -2754,9 +2752,9 @@ RSCF_RELATIONS:
     - 11_KNOWLEDGE_MOC
 ```
 
----
+______________________________________________________________________
 
-# 108. RSCF Relations — NORMALIZED WITH CONFLICT
+## 108. RSCF Relations — NORMALIZED WITH CONFLICT
 
 ```yaml
 relations:
@@ -2784,9 +2782,9 @@ relations:
     - 11_KNOWLEDGE_MOC
 ```
 
----
+______________________________________________________________________
 
-# 109. Security Knowledge Topology
+## 109. Security Knowledge Topology
 
 ```mermaid
 flowchart TD
@@ -2807,9 +2805,9 @@ flowchart TD
     RISK --> SCA
 ```
 
----
+______________________________________________________________________
 
-# 110. Full Pipeline Topology
+## 110. Full Pipeline Topology
 
 ```mermaid
 flowchart LR
@@ -2829,9 +2827,9 @@ flowchart LR
     AUD --> C09
 ```
 
----
+______________________________________________________________________
 
-# 111. Layer Drift Topology
+## 111. Layer Drift Topology
 
 ```mermaid
 flowchart TD
@@ -2853,9 +2851,9 @@ flowchart TD
     E -. mismatch .-> D2
 ```
 
----
+______________________________________________________________________
 
-# 112. Access-Control Topology
+## 112. Access-Control Topology
 
 ```mermaid
 flowchart TD
@@ -2873,9 +2871,9 @@ flowchart TD
     AC --> RBAC
 ```
 
----
+______________________________________________________________________
 
-# 113. Authentication Dependency Graph
+## 113. Authentication Dependency Graph
 
 ```mermaid
 flowchart LR
@@ -2896,9 +2894,9 @@ flowchart LR
 
 This graph is derived from the source dependency statement.
 
----
+______________________________________________________________________
 
-# 114. Policy/Mechanism/Runtime Sensitivity
+## 114. Policy/Mechanism/Runtime Sensitivity
 
 The smallest premise capable of flipping a pipeline decision can include:
 
@@ -2916,9 +2914,9 @@ provenance freshness
 
 These should be checked before broad background evidence when decision-relevant.
 
----
+______________________________________________________________________
 
-# 115. Adversarial Validation
+## 115. Adversarial Validation
 
 For consequential security conclusions, challenge the initial conclusion through a genuinely different path.
 
@@ -2946,9 +2944,9 @@ Has policy changed since the mechanism was validated?
 Is the conclusion being generalized beyond the tested environment?
 ```
 
----
+______________________________________________________________________
 
-# 116. Competing Pipeline Hypotheses
+## 116. Competing Pipeline Hypotheses
 
 When policy and runtime diverge, do not immediately assume the mechanism is defective.
 
@@ -2967,9 +2965,9 @@ H8 Multiple controls interact.
 
 Preserve competing hypotheses until discriminating evidence exists.
 
----
+______________________________________________________________________
 
-# 117. Cheapest Discriminating Tests
+## 117. Cheapest Discriminating Tests
 
 Prefer tests that isolate the failing edge.
 
@@ -2982,16 +2980,16 @@ P → M → E
 check:
 
 1. exact current policy version;
-2. exact deployed mechanism version;
-3. exact runtime configuration;
-4. targeted enforcement observation;
-5. audit lineage.
+1. exact deployed mechanism version;
+1. exact runtime configuration;
+1. targeted enforcement observation;
+1. audit lineage.
 
 Do not recompute the entire security architecture if one local edge is defective.
 
----
+______________________________________________________________________
 
-# 118. Local Failure Recovery
+## 118. Local Failure Recovery
 
 If:
 
@@ -3016,9 +3014,9 @@ Do not invalidate P merely because runtime enforcement failed.
 
 This follows dependency-local failure recovery.
 
----
+______________________________________________________________________
 
-# 119. Example Dependency Graph
+## 119. Example Dependency Graph
 
 ```text
 P
@@ -3040,9 +3038,9 @@ E = invalid/mismatched
 A-dependent enforcement conclusions = invalidated
 ```
 
----
+______________________________________________________________________
 
-# 120. Audit Completeness Unknowns
+## 120. Audit Completeness Unknowns
 
 G10 requires complete audit trail, but the artifact does not define:
 
@@ -3063,9 +3061,9 @@ mechanism version linkage
 
 These remain gaps.
 
----
+______________________________________________________________________
 
-# 121. Formal Security Unknowns
+## 121. Formal Security Unknowns
 
 The source does not provide formal proofs for:
 
@@ -3085,9 +3083,9 @@ runtime completeness
 
 Do not infer them from `PRODUCTION_READY`.
 
----
+______________________________________________________________________
 
-# 122. Compliance Unknowns
+## 122. Compliance Unknowns
 
 No particular regulatory framework is named in the supplied artifact.
 
@@ -3107,9 +3105,9 @@ without explicit evidence.
 
 The source only establishes a generic regulation/compliance dimension.
 
----
+______________________________________________________________________
 
-# 123. Security vs Legal Governance
+## 123. Security vs Legal Governance
 
 Because C09 includes Org-Law-Policy:
 
@@ -3133,9 +3131,9 @@ LEGAL COMPLIANCE
 
 Each mapping requires evidence.
 
----
+______________________________________________________________________
 
-# 124. Pipeline Model Class
+## 124. Pipeline Model Class
 
 G5 explicitly says:
 
@@ -3166,9 +3164,9 @@ AMOS_MODEL:
 "The architecture being defined is a model"
 ```
 
----
+______________________________________________________________________
 
-# 125. Claim Ceiling
+## 125. Claim Ceiling
 
 Source:
 
@@ -3200,9 +3198,9 @@ but empirical calibration remains:
 UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 126. Production Readiness Receipt
+## 126. Production Readiness Receipt
 
 ```yaml
 production_readiness:
@@ -3219,9 +3217,9 @@ production_readiness:
     QA_receipts: false
 ```
 
----
+______________________________________________________________________
 
-# 127. Critical Gaps
+## 127. Critical Gaps
 
 ```yaml
 gaps:
@@ -3256,9 +3254,9 @@ gaps:
     - alias_registry
 ```
 
----
+______________________________________________________________________
 
-# 128. Minimum Evidence Required to Close Critical Gaps
+## 128. Minimum Evidence Required to Close Critical Gaps
 
 The smallest useful evidence set is:
 
@@ -3273,56 +3271,56 @@ The smallest useful evidence set is:
 
 This would discriminate hierarchy, implementation, and QA claims without unnecessary corpus loading.
 
----
+______________________________________________________________________
 
-# 129. Anti-Fabrication Contract
+## 129. Anti-Fabrication Contract
 
 This artifact must not be used alone to claim:
 
 1. The system is secure in production.
-2. Every policy is correctly implemented.
-3. Every mechanism is correctly enforced.
-4. Every runtime event is audited.
-5. Audit logs are complete.
-6. Audit logs are tamper-proof.
-7. Audit logs are independent evidence.
-8. All policies are legally valid.
-9. All mechanisms are compliant.
-10. Compliance proves security.
-11. Security proves compliance.
-12. RBAC is always the best access-control model.
-13. MAC is always more secure than RBAC.
-14. DAC is inherently insecure.
-15. Programmatic access control is formally verified.
-16. CORS is equivalent to authorization.
-17. DOM controls provide server-side security.
-18. Authentication guarantees authorization correctness.
-19. Valid authentication guarantees session integrity.
-20. Session integrity is implemented.
-21. Privilege escalation is impossible.
-22. Horizontal access-control vulnerabilities are absent.
-23. Vertical access-control vulnerabilities are absent.
-24. Context-dependent controls are correctly implemented.
-25. The pipeline is a universal security architecture.
-26. `AMOS_MODEL` means empirical proof.
-27. `PRODUCTION_READY` means independently audited production deployment.
-28. `all 10 QA gates pass` means test receipts are embedded.
-29. `claim_ceiling: 0.9` means 90% calibrated probability.
-30. Risk-compliance dimensions define a complete risk model.
-31. The pipeline satisfies a named regulatory framework.
-32. C09 policies are equivalent to law.
-33. C10 mechanisms guarantee runtime behavior.
-34. Runtime observation proves permanent enforcement.
-35. One successful test generalizes across environments.
-36. Multiple logs prove independent confirmation.
-37. A policy-mechanism mapping proves causal security effectiveness.
-38. No contradiction means security has been proven.
-39. Missing evidence may be treated as a pass.
-40. The hierarchy conflict can be silently repaired.
+1. Every policy is correctly implemented.
+1. Every mechanism is correctly enforced.
+1. Every runtime event is audited.
+1. Audit logs are complete.
+1. Audit logs are tamper-proof.
+1. Audit logs are independent evidence.
+1. All policies are legally valid.
+1. All mechanisms are compliant.
+1. Compliance proves security.
+1. Security proves compliance.
+1. RBAC is always the best access-control model.
+1. MAC is always more secure than RBAC.
+1. DAC is inherently insecure.
+1. Programmatic access control is formally verified.
+1. CORS is equivalent to authorization.
+1. DOM controls provide server-side security.
+1. Authentication guarantees authorization correctness.
+1. Valid authentication guarantees session integrity.
+1. Session integrity is implemented.
+1. Privilege escalation is impossible.
+1. Horizontal access-control vulnerabilities are absent.
+1. Vertical access-control vulnerabilities are absent.
+1. Context-dependent controls are correctly implemented.
+1. The pipeline is a universal security architecture.
+1. `AMOS_MODEL` means empirical proof.
+1. `PRODUCTION_READY` means independently audited production deployment.
+1. `all 10 QA gates pass` means test receipts are embedded.
+1. `claim_ceiling: 0.9` means 90% calibrated probability.
+1. Risk-compliance dimensions define a complete risk model.
+1. The pipeline satisfies a named regulatory framework.
+1. C09 policies are equivalent to law.
+1. C10 mechanisms guarantee runtime behavior.
+1. Runtime observation proves permanent enforcement.
+1. One successful test generalizes across environments.
+1. Multiple logs prove independent confirmation.
+1. A policy-mechanism mapping proves causal security effectiveness.
+1. No contradiction means security has been proven.
+1. Missing evidence may be treated as a pass.
+1. The hierarchy conflict can be silently repaired.
 
----
+______________________________________________________________________
 
-# 130. Anti-Regression Contract
+## 130. Anti-Regression Contract
 
 ```yaml
 anti_regression:
@@ -3356,9 +3354,9 @@ anti_regression:
     - SILENT_PARENT_RELATION_REPAIR
 ```
 
----
+______________________________________________________________________
 
-# 131. Invalidation Conditions
+## 131. Invalidation Conditions
 
 Revalidate conclusions if:
 
@@ -3381,9 +3379,9 @@ invalidation_conditions:
   - EVIDENCE_FRESHNESS_EXPIRED
 ```
 
----
+______________________________________________________________________
 
-# 132. Canonical RSCF Node — DERIVED NORMALIZATION
+## 132. Canonical RSCF Node — DERIVED NORMALIZATION
 
 ```yaml
 RSCF-NODE:
@@ -3457,9 +3455,9 @@ RSCF-NODE:
       - 11_KNOWLEDGE_MOC
 ```
 
----
+______________________________________________________________________
 
-# 133. Machine-Readable Pipeline — DERIVED
+## 133. Machine-Readable Pipeline — DERIVED
 
 ```yaml
 SCA_PIPELINE:
@@ -3497,11 +3495,11 @@ SCA_PIPELINE:
       - PIPELINE_CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
-# 134. Dataview — Source Node
+## 134. Dataview — Source Node
 
-```dataview
+```text
 TABLE
   type,
   domain,
@@ -3513,11 +3511,11 @@ FROM #topic/security-control-access
 WHERE title = "AMOS SECURITY CONTROL ACCESS BRIDGE GOVERNOR"
 ```
 
----
+______________________________________________________________________
 
-# 135. Dataview — Security Bridge Family
+## 135. Dataview — Security Bridge Family
 
-```dataview
+```text
 TABLE
   title,
   type,
@@ -3530,11 +3528,11 @@ WHERE contains(tags, "topic/security-control-access")
 SORT title ASC
 ```
 
----
+______________________________________________________________________
 
-# 136. Dataview — RSCF Nodes
+## 136. Dataview — RSCF Nodes
 
-```dataview
+```text
 TABLE
   title,
   rscf_node_type,
@@ -3545,11 +3543,11 @@ WHERE contains(tags, "knowledge")
 SORT title ASC
 ```
 
----
+______________________________________________________________________
 
-# 137. Proposed Vault Links
+## 137. Proposed Vault Links
 
-> [!note] Derived Navigation
+> [!NOTE] Derived Navigation
 > These links are proposed Obsidian navigation targets. Only the links explicitly supplied in the source should be treated as source relations.
 
 ### Source-supplied
@@ -3573,9 +3571,9 @@ SORT title ASC
 - POLICY_MECHANISM_BINDING
 - MECHANISM_ENFORCEMENT_BINDING
 
----
+______________________________________________________________________
 
-# 138. Source Tags
+## 138. Source Tags
 
 ```text
 #rscf/node
@@ -3587,9 +3585,9 @@ SORT title ASC
 #canon/knowledge
 ```
 
----
+______________________________________________________________________
 
-# 139. Proposed Extended Tags
+## 139. Proposed Extended Tags
 
 ```text
 #amos
@@ -3677,9 +3675,9 @@ SORT title ASC
 #canon/cross-domain
 ```
 
----
+______________________________________________________________________
 
-# 140. Final Canonical Compression
+## 140. Final Canonical Compression
 
 The complete source architecture reduces to:
 
@@ -3750,9 +3748,9 @@ No layer drift
 Complete audit trail
 ```
 
----
+______________________________________________________________________
 
-# 141. Final Canonical Conclusion
+## 141. Final Canonical Conclusion
 
 The **AMOS Security-Control-Access Bridge Governor** is a source-defined cross-domain security governance skill intended to close the gap between **organizational/legal policy, technical access-control mechanisms, actual runtime enforcement, and audit feedback**.
 
@@ -3877,7 +3875,7 @@ $$
 
 while preserving scope, provenance, epistemic class, layer consistency, and explicit uncertainty across every edge.
 
----
+______________________________________________________________________
 
 ## Related
 
@@ -3889,7 +3887,7 @@ while preserving scope, provenance, epistemic class, layer consistency, and expl
 
 AMOS_SECURITY_SAFETY_MASTER · [[11_KNOWLEDGE/11_KNOWLEDGE_MOC|11_KNOWLEDGE_MOC]] · SECURITY_MODELS · ACCESS_CONTROL · BOUNDED_INTELLIGENCE_SECURITY · RISK_COMPLIANCE_MODEL
 
----
+______________________________________________________________________
 
 **MOC:** [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]]
 
@@ -3900,4 +3898,3 @@ AMOS_SECURITY_SAFETY_MASTER · [[11_KNOWLEDGE/11_KNOWLEDGE_MOC|11_KNOWLEDGE_MOC]
 **Runtime verification:** `NOT ESTABLISHED BY THIS ARTIFACT`
 
 **END — `AMOS_SECURITY_CONTROL_ACCESS_BRIDGE_GOVERNOR.md`**
-

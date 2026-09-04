@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: qfm five layer architecture
 type: reference
 source: 07_SKILLS/amos-formal-engines-master/references
 tags:
-- reference
-- amos-formal-engines-master
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-formal-engines-master
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -20,15 +23,11 @@ rscf:
 > Source: `_00_Cosmo brain/dated/2026-08-25/2026-08-25 QFM Five-Layer Architecture and Master Router.md`
 > Epistemic class: SOURCE_DERIVED
 
----
-title: 2026-08-25 QFM Five-Layer Architecture and Master Router
-type: daily-learning
-date: 2026-08-25
-epistemic: DERIVED/MODEL
-tags: [architecture, routing, qfm, governance, dated, dated/2026-08-25]
----
+______________________________________________________________________
 
-# 2026-08-25 — QFM Five-Layer Architecture & Master Router
+## title: 2026-08-25 QFM Five-Layer Architecture and Master Router type: daily-learning date: 2026-08-25 epistemic: DERIVED/MODEL tags: [architecture, routing, qfm, governance, dated, dated/2026-08-25]
+
+## 2026-08-25 — QFM Five-Layer Architecture & Master Router
 
 ## Gap found
 
@@ -36,12 +35,12 @@ After five consolidation passes the QFM stack had 5 skills + 7 workflows + 4 ded
 
 ## Closure
 
-| Channel | Artifact |
-|---|---|
-| Skill | `amos/amos-qfm-master-router` — 5-layer table with owners, routing decision tree, cross-cutting rules |
-| Workflow | `qfm-master-router-workflow.md` — 5-step procedure: match → bottom-up execute → gate compose → route log → storage |
-| Master skill | `amos-quantum-fractal-math-master` Part VI added — architecture table + routing mandate |
-| Orchestration agent | `amos-qfm-orchestration-agent.json` dependencies extended to router skill + workflow |
+| Channel             | Artifact                                                                                                           |
+| ------------------- | ------------------------------------------------------------------------------------------------------------------ |
+| Skill               | `amos/amos-qfm-master-router` — 5-layer table with owners, routing decision tree, cross-cutting rules              |
+| Workflow            | `qfm-master-router-workflow.md` — 5-step procedure: match → bottom-up execute → gate compose → route log → storage |
+| Master skill        | `amos-quantum-fractal-math-master` Part VI added — architecture table + routing mandate                            |
+| Orchestration agent | `amos-qfm-orchestration-agent.json` dependencies extended to router skill + workflow                               |
 
 ## The architecture now
 
@@ -58,21 +57,22 @@ Gate composition: G1–G8 always; G9 when L2 matched; G10 when L5 matched.
 ## Routing principles encoded
 
 1. Minimum sufficient stack — matched layers only
-2. Bottom-up ordering — knowledge before enforcement, never reverse
-3. Disagreements surface, never average (extends Rule-of-2↔DMER rule to all layer pairs)
-4. Routing itself is MODEL — decision tree encodes current architecture, not proven optimality
-5. Unlogged route = invalid output
+1. Bottom-up ordering — knowledge before enforcement, never reverse
+1. Disagreements surface, never average (extends Rule-of-2↔DMER rule to all layer pairs)
+1. Routing itself is MODEL — decision tree encodes current architecture, not proven optimality
+1. Unlogged route = invalid output
 
 ## Self-analysis note
 
 This pass was architectural rather than content-adding: the corpus had the pieces but lacked composition order. Lesson recorded: **after N consolidation passes adding components, run a composition pass** — components without a router recreate the ad-hoc selection problem at higher scale.
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · AMOS Simulation Kernel v0 Math Foundations · system scan agent · automation profiles
 
----
-**MOC:** references_MOC
----
+______________________________________________________________________
+
+## **MOC:** references_MOC
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -80,12 +80,14 @@ This pass was architectural rather than content-adding: the corpus had the piece
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-formal-engines-master-qfm-five-layer-architecture
 node_type: reference
 path: 07_SKILLS/amos-formal-engines-master/references/qfm_five_layer_architecture.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

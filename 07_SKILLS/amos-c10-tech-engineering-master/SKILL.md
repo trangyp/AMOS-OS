@@ -4,26 +4,23 @@ title: SKILL — Amos C10 Tech Engineering Master
 type: skill
 source: 07_SKILLS/amos-c10-tech-engineering-master
 name: amos-c10-tech-engineering-master
-description: AMOS C10 Tech & Engineering — coding, software engineering, automation,
-  DevOps, architecture, factory systems, production. Use when software development,
-  engineering design, or technical architecture. Do not use for generic tasks outside
-  c10 domain.
+description: AMOS C10 Tech & Engineering — coding, software engineering, automation, DevOps, architecture, factory systems, production. Use when software development, engineering design, or technical architecture. Do not use for generic tasks outside c10 domain.
 parent_skill: none
 domain: c10
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CANON
 tags:
-- type/skill
-- type/skill
-- domain/tech-engineering
-- epistemic/source_claim
-- hml/m
-- epistemic/source_canon
-- amos-os
-- agent-template
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/tech-engineering
+  - epistemic/source_claim
+  - hml/m
+  - epistemic/source_canon
+  - amos-os
+  - agent-template
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -33,25 +30,25 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: M
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
-- L7_authority
-- L8_execution
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
+  - L7_authority
+  - L8_execution
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L7
-- L8
-- L16
-- L17
-- L18
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L7
+  - L8
+  - L16
+  - L17
+  - L18
 license: MIT
 steward: Trang Phan
 ---
@@ -61,16 +58,23 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: c10. Parent: none. Epistemic class: SOURCE_CANON. H/M/L: M.
+
 ## When to Use
 
 - When designing software architecture, system implementation, or technical infrastructure
+
 - When performing coding, software engineering, automation, or DevOps tasks
+
 - When selecting architectural patterns and analyzing reliability/failure modes
+
 - When deciding where AI should be used vs where human-in-the-loop is required
+
 - When a child skill routes a tech, engineering, or software task to this master
 
 - When managing lifecycle operations across classify, validate, trace, assess, and detect
+
 - When detecting drift in evidence chains, provenance freshness, or confidence calibration
+
 - When validating outputs against domain constraints and epistemic class
 
 ## Capabilities
@@ -90,16 +94,16 @@ Origin architect: **Trang Phan**. Domain: c10. Parent: none. Epistemic class: SO
 ## Operations
 
 1. **c10_tech_engine.execute_engineering**: Execute AMOS C10 Tech & Engineering engineering design: software architecture, system implementation with fractal principles.
-2. **c10_tech_engine.validate_architecture**: Validate AMOS C10 Tech & Engineering technical architecture for integrity, scalability, maintainability, and invariants.
-3. **c10_tech_engine.analyze_code**: Analyze AMOS C10 Tech & Engineering code quality: design patterns, implementation correctness, and provenance requirements.
-4. **c10_tech_engine.trace_tech_provenance**: Trace AMOS C10 Tech & Engineering technical outputs to design specs, code sources, and engineering standards.
-5. **c10_tech_engine.assess_tech_claim**: Assess AMOS C10 Tech & Engineering technical claims for architecture validity, test coverage, and compliance.
-6. **c10_tech_engine.manage_tech_lifecycle**: Manage AMOS C10 Tech & Engineering engineering lifecycle: design, implement, test, deploy, and maintain.
-7. **c10_tech_engine.detect_tech_drift**: Detect technical drift: architecture decay, code degradation, test erosion, and dependency rot.
-8. **c10_tech_engine.escalate_tech_gaps**: Escalate AMOS C10 Tech & Engineering technical gaps: flag architecture violations, require refactoring, trigger repair.
-9. **c10_tech_engine.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-10. **c10_tech_engine.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
-11. **c10_tech_engine.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+1. **c10_tech_engine.validate_architecture**: Validate AMOS C10 Tech & Engineering technical architecture for integrity, scalability, maintainability, and invariants.
+1. **c10_tech_engine.analyze_code**: Analyze AMOS C10 Tech & Engineering code quality: design patterns, implementation correctness, and provenance requirements.
+1. **c10_tech_engine.trace_tech_provenance**: Trace AMOS C10 Tech & Engineering technical outputs to design specs, code sources, and engineering standards.
+1. **c10_tech_engine.assess_tech_claim**: Assess AMOS C10 Tech & Engineering technical claims for architecture validity, test coverage, and compliance.
+1. **c10_tech_engine.manage_tech_lifecycle**: Manage AMOS C10 Tech & Engineering engineering lifecycle: design, implement, test, deploy, and maintain.
+1. **c10_tech_engine.detect_tech_drift**: Detect technical drift: architecture decay, code degradation, test erosion, and dependency rot.
+1. **c10_tech_engine.escalate_tech_gaps**: Escalate AMOS C10 Tech & Engineering technical gaps: flag architecture violations, require refactoring, trigger repair.
+1. **c10_tech_engine.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+1. **c10_tech_engine.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+1. **c10_tech_engine.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## Vault-Sourced Domain Knowledge
 
@@ -139,25 +143,29 @@ The domain is organized into source families:
 ### Epistemic Boundary
 
 Engineering recommendations are always scope-, scale-, workload-, team-, and constraint-dependent. No design output constitutes a guaranteed working system — all require validation, testing, implementation, and operational monitoring. Implicit coupling is an architecture violatio
+
 - AGENT_TEMPLATE
 
----
+______________________________________________________________________
+
 **MOC:** [[07_SKILLS/amos-c10-tech-engineering-master/amos-c10-tech-engineering-master_MOC|amos-c10-tech-engineering-master_MOC]]
 
 ## Examples
 
 - **Scenario**: When designing software architecture, system implementation, or technical infrastructure
+
   - **Input**: A query matching this skill's domain (c10)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When performing coding, software engineering, automation, or DevOps tasks
+
   - **Input**: A query matching this skill's domain (c10)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When selecting architectural patterns and analyzing reliability/failure modes
+
   - **Input**: A query matching this skill's domain (c10)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Validation Gates
 
@@ -174,7 +182,6 @@ Engineering recommendations are always scope-, scale-, workload-, team-, and con
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `none` — routes to this skill when c10 specialization is needed
@@ -182,7 +189,6 @@ Engineering recommendations are always scope-, scale-, workload-, team-, and con
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -201,7 +207,6 @@ Engineering recommendations are always scope-, scale-, workload-, team-, and con
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -209,7 +214,6 @@ Engineering recommendations are always scope-, scale-, workload-, team-, and con
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -261,11 +265,12 @@ Engineering recommendations are always scope-, scale-, workload-, team-, and con
 - `references/total_technical_engine_universe.md` — loaded on demand
 - `references/unix_automated_tools.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `none` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `amos-c10-tech-engineering-master-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -273,12 +278,14 @@ Engineering recommendations are always scope-, scale-, workload-, team-, and con
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-c10-tech-engineering-master
 node_type: skill
 path: 07_SKILLS/amos-c10-tech-engineering-master/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

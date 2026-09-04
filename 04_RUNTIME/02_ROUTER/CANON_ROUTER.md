@@ -12,16 +12,16 @@ segment: 04_RUNTIME/02_ROUTER
 artifact_kind: ROUTER_SPEC
 path: 04_RUNTIME/02_ROUTER/CANON_ROUTER.md
 tags:
-- amos-os
-- runtime
-- vault
-- 02_router
-- canon_router
-- core_law_enforcement
-- rscf
-- canon_candidate
-- canon/runtime
-- total-canon-matrix
+  - amos-os
+  - runtime
+  - vault
+  - 02_router
+  - canon_router
+  - core_law_enforcement
+  - rscf
+  - canon_candidate
+  - canon/runtime
+  - total-canon-matrix
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -36,13 +36,13 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - 01_CANON/01_CANON_MOC
-  - 04_RUNTIME/02_ROUTER/02_ROUTER_MOC
-  - AMOS_CORPUS
+    - 01_CANON/01_CANON_MOC
+    - 04_RUNTIME/02_ROUTER/02_ROUTER_MOC
+    - AMOS_CORPUS
   scope:
-  - RUNTIME_ROUTER
-  - CANON_ROUTING
-  - SOURCE_DEFINED_MODEL
+    - RUNTIME_ROUTER
+    - CANON_ROUTING
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   router_moc:
     artifact: 04_RUNTIME/02_ROUTER/02_ROUTER_MOC
@@ -61,9 +61,9 @@ epistemic_boundary:
 
 `CANON_ROUTER.md` is the canonical Runtime Plane specification governing the invariant dispatch and verification of **01_CANON Core Laws** across all runtime execution paths within `04_RUNTIME/02_ROUTER`.
 
----
+______________________________________________________________________
 
-# 1. Canon Invariant Enforcement Pipeline
+## 1. Canon Invariant Enforcement Pipeline
 
 ```text
   Execution Request ($E$)
@@ -79,17 +79,17 @@ epistemic_boundary:
   └── Invariant Clearance Granted -> Execution Pipeline
 ```
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Router MOC:** 04_RUNTIME/02_ROUTER/[[04_RUNTIME/02_ROUTER/02_ROUTER_MOC|02_ROUTER_MOC]]
 - **Canon Plane MOC:** 01_CANON/[[01_CANON/01_CANON_MOC|01_CANON_MOC]]
 - **Cognitive Matrix:** 25_COGNITIVE_MATRIX/[[25_COGNITIVE_MATRIX/TOTAL_CANON_MATRIX|TOTAL_CANON_MATRIX]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -107,9 +107,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME_MOC]] · 04_RUNTIME/02_ROUTER/[[04_RUNTIME/02_ROUTER/02_ROUTER_MOC|02_ROUTER_MOC]] · 01_CANON/[[01_CANON/01_CANON_MOC|01_CANON_MOC]]
 
----
+______________________________________________________________________
+
 **MOC:** 04_RUNTIME/02_ROUTER/[[04_RUNTIME/02_ROUTER/02_ROUTER_MOC|02_ROUTER_MOC]]

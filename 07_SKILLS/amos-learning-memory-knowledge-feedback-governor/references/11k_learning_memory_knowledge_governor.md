@@ -1,11 +1,14 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: 11k learning memory knowledge governor
 type: reference
 source: 07_SKILLS/amos-learning-memory-knowledge-feedback-governor/references
 tags:
-- reference
-- amos-learning-memory-knowledge-feedback-governor
-- type/skill
+  - reference
+  - amos-learning-memory-knowledge-feedback-governor
+  - type/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -18,7 +21,8 @@ rscf:
 > Source: `/Users/mac/Documents/AMOS_OS/11_KNOWLEDGE/AMOS_LEARNING_MEMORY_KNOWLEDGE_FEEDBACK_GOVERNOR.md`
 > Epistemic class: SOURCE_DERIVED
 
----
+______________________________________________________________________
+
 claim_ceiling: 0.9
 created: 2026-08-27
 domain: cross-domain
@@ -28,13 +32,16 @@ parent_skill: amos-knowledge-research-master
 rscf_node_type: skill
 status: production_ready
 tags:
+
 - rscf/node
 - canon-group/cross-domain
 - topic/learning-memory-knowledge
 - topic/feedback-loop
 - topic/epistemic-preservation
----
-# AMOS Learning-Memory-Knowledge Feedback Governor
+
+______________________________________________________________________
+
+## AMOS Learning-Memory-Knowledge Feedback Governor
 
 > **RSCF-NODE** · skill · cross-domain (C05 to Memory to Knowledge)
 
@@ -54,9 +61,9 @@ The `_00_Cosmo brain` exploration explicitly identified: *"Learning and Memory a
 Specifically:
 
 1. C05's inference loop produces learning but has no bridge to memory encoding
-2. Memory Systems has encode/consolidate/retrieve but has no bridge to knowledge indexing
-3. Knowledge Research has ingest/index/curate but has no bridge back to C05's inference loop
-4. No unified feedback loop connects all three domains
+1. Memory Systems has encode/consolidate/retrieve but has no bridge to knowledge indexing
+1. Knowledge Research has ingest/index/curate but has no bridge back to C05's inference loop
+1. No unified feedback loop connects all three domains
 
 ## The Feedback Loop
 
@@ -74,15 +81,15 @@ The loop has 4 transition types:
 ## Capabilities (10)
 
 1. `lmk_feedback.encode_learning` — Encode C05 inference outcome into Memory Systems
-2. `lmk_feedback.consolidate_to_knowledge` — Consolidate memory entries into indexed knowledge
-3. `lmk_feedback.retrieve_for_inference` — Retrieve knowledge to inform new C05 inference
-4. `lmk_feedback.govern_loop` — Govern the full feedback loop (LOOP_PERMITTED/BLOCKED/CONDITIONAL)
-5. `lmk_feedback.detect_knowledge_drift` — Detect drift: stale, broken provenance, class erosion
-6. `lmk_feedback.validate_epistemic_preservation` — Validate epistemic class preserved across transitions
-7. `lmk_feedback.trace_loop_provenance` — Trace full provenance chain across the loop
-8. `lmk_feedback.manage_lifecycle` — Manage lifecycle: classify, validate, trace, assess, detect
-9. `lmk_feedback.detect_drift` — Detect drift in evidence chains and provenance freshness
-10. `lmk_feedback.validate_outputs` — Validate outputs against domain constraints and epistemic class
+1. `lmk_feedback.consolidate_to_knowledge` — Consolidate memory entries into indexed knowledge
+1. `lmk_feedback.retrieve_for_inference` — Retrieve knowledge to inform new C05 inference
+1. `lmk_feedback.govern_loop` — Govern the full feedback loop (LOOP_PERMITTED/BLOCKED/CONDITIONAL)
+1. `lmk_feedback.detect_knowledge_drift` — Detect drift: stale, broken provenance, class erosion
+1. `lmk_feedback.validate_epistemic_preservation` — Validate epistemic class preserved across transitions
+1. `lmk_feedback.trace_loop_provenance` — Trace full provenance chain across the loop
+1. `lmk_feedback.manage_lifecycle` — Manage lifecycle: classify, validate, trace, assess, detect
+1. `lmk_feedback.detect_drift` — Detect drift in evidence chains and provenance freshness
+1. `lmk_feedback.validate_outputs` — Validate outputs against domain constraints and epistemic class
 
 ## Validation Gates (10)
 
@@ -99,15 +106,15 @@ The loop has 4 transition types:
 
 ## Loop Transition Rules
 
-| Transition | From to To | Epistemic Rule | Confidence Rule |
-|---|---|---|---|
-| Encode Learning | C05 to Memory | Inference class preserved | confidence <= inference confidence |
-| Con
+| Transition      | From to To    | Epistemic Rule            | Confidence Rule                     |
+| --------------- | ------------- | ------------------------- | ----------------------------------- |
+| Encode Learning | C05 to Memory | Inference class preserved | confidence \<= inference confidence |
+| Con             |               |                           |                                     |
 
----
+______________________________________________________________________
+
 **MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
-

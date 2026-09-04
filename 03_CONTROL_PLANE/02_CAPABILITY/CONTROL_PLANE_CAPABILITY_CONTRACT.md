@@ -1,12 +1,15 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: CONTROL PLANE CAPABILITY CONTRACT
 type: control-plane
 source: 03_CONTROL_PLANE/02_CAPABILITY
 tags:
-- control-plane
-- capability
-- contract
-- canon/control-plane
+  - control-plane
+  - capability
+  - contract
+  - canon/control-plane
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL
@@ -18,21 +21,11 @@ rscf:
 
 Yes. The placeholder should be replaced by a substantive contract. Below is a **full paste-ready `CAPABILITY_CONTRACT.md`**. It is intentionally classified as an **AMOS MODEL / proposed governed contract**, not falsely presented as already implemented or canonically validated.
 
----
-title: AMOS Capability Contract
-artifact: "CAPABILITY_CONTRACT.md"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-contract_class: "GOVERNED_CAPABILITY_CONTRACT"
-status: "PROPOSED / STRUCTURALLY COMPLETE / IMPLEMENTATION-UNVALIDATED"
-epistemic_class: "MODEL"
-version: "1.0.0"
-updated: "2026-08-26"
-authority: "NONE_BY_DEFAULT"
----
+______________________________________________________________________
 
-# AMOS Capability Contract
+## title: AMOS Capability Contract artifact: "CAPABILITY_CONTRACT.md" origin_architect: "Trang Phan" steward: "Trang Phan" system: "AMOS OS" contract_class: "GOVERNED_CAPABILITY_CONTRACT" status: "PROPOSED / STRUCTURALLY COMPLETE / IMPLEMENTATION-UNVALIDATED" epistemic_class: "MODEL" version: "1.0.0" updated: "2026-08-26" authority: "NONE_BY_DEFAULT"
+
+## AMOS Capability Contract
 
 ## 0. Status and Interpretation
 
@@ -71,30 +64,30 @@ UNKNOWN/GAP != PASS
 
 No capability declaration grants authority merely by existing.
 
----
+______________________________________________________________________
 
-# 1. Purpose
+## 1. Purpose
 
 The AMOS Capability Contract exists to answer, in a deterministic and auditable form:
 
 1. What can this component potentially do?
-2. What exact inputs does it accept?
-3. What outputs may it produce?
-4. Under what scope and regime is it applicable?
-5. What dependencies must exist before invocation?
-6. Which invariants constrain its operation?
-7. Which agent, Skill, tool, workflow, or runtime provides it?
-8. Which control plane governs it?
-9. What evidence supports its claimed capability?
-10. What authority, if any, permits its use?
-11. What side effects can it create?
-12. What validation must occur before its result may be trusted?
-13. What additional validation must occur before an effect may be committed?
-14. How is failure detected?
-15. How is failure contained, repaired, retried, rolled back, or escalated?
-16. What provenance must survive execution?
-17. Under what conditions does the capability become stale or invalid?
-18. What would falsify the capability claim?
+1. What exact inputs does it accept?
+1. What outputs may it produce?
+1. Under what scope and regime is it applicable?
+1. What dependencies must exist before invocation?
+1. Which invariants constrain its operation?
+1. Which agent, Skill, tool, workflow, or runtime provides it?
+1. Which control plane governs it?
+1. What evidence supports its claimed capability?
+1. What authority, if any, permits its use?
+1. What side effects can it create?
+1. What validation must occur before its result may be trusted?
+1. What additional validation must occur before an effect may be committed?
+1. How is failure detected?
+1. How is failure contained, repaired, retried, rolled back, or escalated?
+1. What provenance must survive execution?
+1. Under what conditions does the capability become stale or invalid?
+1. What would falsify the capability claim?
 
 The contract therefore acts as the boundary between:
 
@@ -122,9 +115,9 @@ durable effect
 
 No stage may silently imply a later stage.
 
----
+______________________________________________________________________
 
-# 2. Non-Purpose
+## 2. Non-Purpose
 
 This contract does **not**:
 
@@ -144,9 +137,9 @@ This contract does **not**:
 - permit unknown dependencies to be interpreted as satisfied;
 - permit unsupported cross-domain generalization.
 
----
+______________________________________________________________________
 
-# 3. Core Definition
+## 3. Core Definition
 
 An AMOS capability is a typed, scoped, provenance-bound declaration that a provider can attempt a defined transformation under explicit preconditions, constraints, evidence, governance, and validation requirements.
 
@@ -188,9 +181,9 @@ within a particular applicability envelope,
 subject to particular constraints and validation.
 ```
 
----
+______________________________________________________________________
 
-# 4. Capability Identity
+## 4. Capability Identity
 
 Every capability MUST possess a stable identity.
 
@@ -227,9 +220,9 @@ identity:
 
 Aliases MUST NOT create separate capability identities unless their behavior or contract differs materially.
 
----
+______________________________________________________________________
 
-# 5. Capability Classes
+## 5. Capability Classes
 
 Capabilities SHOULD be typed by functional class.
 
@@ -277,9 +270,9 @@ capability_classes:
   - COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 6. Provider Types
+## 6. Provider Types
 
 A capability may be supplied by:
 
@@ -322,9 +315,9 @@ same behavior
 same authority
 ```
 
----
+______________________________________________________________________
 
-# 7. Typed Input Contract
+## 7. Typed Input Contract
 
 Every capability MUST declare accepted inputs.
 
@@ -375,9 +368,9 @@ marked UNKNOWN/GAP
 
 It MUST NOT be silently coerced.
 
----
+______________________________________________________________________
 
-# 8. Typed Output Contract
+## 8. Typed Output Contract
 
 Every capability MUST declare possible outputs.
 
@@ -408,9 +401,9 @@ UNKNOWN/GAP
 
 A generated output MUST NOT automatically be classified as `VERIFIED`.
 
----
+______________________________________________________________________
 
-# 9. State Variables
+## 9. State Variables
 
 A capability MAY be stateful or stateless.
 
@@ -463,9 +456,9 @@ runtime:
   last_error: null
 ```
 
----
+______________________________________________________________________
 
-# 10. Capability Lifecycle
+## 10. Capability Lifecycle
 
 The canonical lifecycle is:
 
@@ -507,9 +500,9 @@ RECORD PROVENANCE
 
 A failure at any gate prevents silent advancement.
 
----
+______________________________________________________________________
 
-# 11. Operators
+## 11. Operators
 
 The capability layer requires at least the following conceptual operators.
 
@@ -523,7 +516,7 @@ Creates a capability claim.
 
 Does not prove the claim.
 
----
+______________________________________________________________________
 
 ## 11.2 `REGISTER`
 
@@ -537,7 +530,7 @@ Makes the capability addressable.
 REGISTERED != VALIDATED
 ```
 
----
+______________________________________________________________________
 
 ## 11.3 `RESOLVE`
 
@@ -549,7 +542,7 @@ Finds providers whose declared contracts may satisfy a requirement.
 
 Resolution is candidate discovery, not authorization.
 
----
+______________________________________________________________________
 
 ## 11.4 `MATCH`
 
@@ -559,7 +552,7 @@ MATCH(requirement, capability) → CompatibilityAssessment
 
 Checks semantic and typed compatibility.
 
----
+______________________________________________________________________
 
 ## 11.5 `VALIDATE_INPUT`
 
@@ -569,7 +562,7 @@ VALIDATE_INPUT(input, input_contract) → PASS | FAIL | GAP
 
 `GAP` MUST NOT be collapsed into `PASS`.
 
----
+______________________________________________________________________
 
 ## 11.6 `CHECK_PRECONDITIONS`
 
@@ -577,7 +570,7 @@ VALIDATE_INPUT(input, input_contract) → PASS | FAIL | GAP
 CHECK_PRECONDITIONS(capability, state) → EligibilityResult
 ```
 
----
+______________________________________________________________________
 
 ## 11.7 `CHECK_DEPENDENCIES`
 
@@ -587,7 +580,7 @@ CHECK_DEPENDENCIES(capability, dependency_graph) → DependencyResult
 
 All load-bearing dependencies must resolve sufficiently for the requested operation.
 
----
+______________________________________________________________________
 
 ## 11.8 `CHECK_AUTHORITY`
 
@@ -603,7 +596,7 @@ CHECK_AUTHORITY(
 
 Capability possession does not participate as a substitute for authority evidence.
 
----
+______________________________________________________________________
 
 ## 11.9 `INVOKE`
 
@@ -614,7 +607,7 @@ INVOKE(capability, validated_input, execution_context)
 
 Invocation requires the relevant gates to have passed.
 
----
+______________________________________________________________________
 
 ## 11.10 `VALIDATE_OUTPUT`
 
@@ -623,7 +616,7 @@ VALIDATE_OUTPUT(result, output_contract)
     → ValidatedResult | InvalidResult | Gap
 ```
 
----
+______________________________________________________________________
 
 ## 11.11 `PROPOSE_EFFECT`
 
@@ -634,7 +627,7 @@ PROPOSE_EFFECT(validated_result, intended_effect)
 
 No durable effect follows automatically.
 
----
+______________________________________________________________________
 
 ## 11.12 `COMMIT`
 
@@ -645,7 +638,7 @@ COMMIT(effect_proposal, fresh_authority, fresh_constraints)
 
 Commit MUST remain separately governed.
 
----
+______________________________________________________________________
 
 ## 11.13 `REVOKE`
 
@@ -655,7 +648,7 @@ REVOKE(capability_id, reason)
 
 Prevents future eligible use subject to system policy.
 
----
+______________________________________________________________________
 
 ## 11.14 `QUARANTINE`
 
@@ -665,7 +658,7 @@ QUARANTINE(capability_id | invocation_id, evidence)
 
 Isolates suspect capability state without requiring deletion.
 
----
+______________________________________________________________________
 
 ## 11.15 `INVALIDATE`
 
@@ -675,9 +668,9 @@ INVALIDATE(claim_or_validation, failed_dependency)
 
 Invalidation SHOULD propagate only to dependent conclusions.
 
----
+______________________________________________________________________
 
-# 12. Core Invariants
+## 12. Core Invariants
 
 ## INV-CAP-001 — Capability/Authority Separation
 
@@ -687,7 +680,7 @@ Capability(c, a) ↛ Authorized(a)
 
 A capability can exist without permission to invoke it.
 
----
+______________________________________________________________________
 
 ## INV-CAP-002 — Proposal/Commit Separation
 
@@ -697,7 +690,7 @@ PROPOSE(x) != COMMIT(x)
 
 No proposal may produce a durable effect without the applicable commit gate.
 
----
+______________________________________________________________________
 
 ## INV-CAP-003 — Unknown Is Not Pass
 
@@ -707,7 +700,7 @@ UNKNOWN/GAP != PASS
 
 Unresolved requirements cannot be silently accepted.
 
----
+______________________________________________________________________
 
 ## INV-CAP-004 — Addressability Is Not Validation
 
@@ -715,13 +708,13 @@ Unresolved requirements cannot be silently accepted.
 registered(c) != validated(c)
 ```
 
----
+______________________________________________________________________
 
 ## INV-CAP-005 — Provider Identity Preservation
 
 Capability results MUST retain provider identity and version.
 
----
+______________________________________________________________________
 
 ## INV-CAP-006 — Provenance Preservation
 
@@ -738,31 +731,31 @@ under which validation state?
 at what time?
 ```
 
----
+______________________________________________________________________
 
 ## INV-CAP-007 — Scope Preservation
 
 A capability validated for scope `S1` cannot silently be treated as validated for `S2`.
 
----
+______________________________________________________________________
 
 ## INV-CAP-008 — Regime Preservation
 
 Capability validity MUST be reevaluated when material regime assumptions change.
 
----
+______________________________________________________________________
 
 ## INV-CAP-009 — Freshness
 
 Stale capability state MUST NOT be represented as current.
 
----
+______________________________________________________________________
 
 ## INV-CAP-010 — Dependency Closure
 
 No capability result may be promoted beyond the confidence permitted by unresolved load-bearing dependencies.
 
----
+______________________________________________________________________
 
 ## INV-CAP-011 — Confidence Ceiling
 
@@ -774,25 +767,25 @@ C(result) ≤ min(C(p1), C(p2), ..., C(pn))
 
 unless an independent validation path justifies a higher bounded confidence.
 
----
+______________________________________________________________________
 
 ## INV-CAP-012 — Side-Effect Declaration
 
 A capability MUST NOT create undeclared external or durable side effects.
 
----
+______________________________________________________________________
 
 ## INV-CAP-013 — Least Necessary Capability
 
 When multiple capabilities satisfy a requirement, selection SHOULD prefer the smallest capability surface sufficient for the task, subject to quality and safety requirements.
 
----
+______________________________________________________________________
 
 ## INV-CAP-014 — Revocation Dominance
 
 A revoked capability MUST fail closed for new governed invocation unless an explicitly authorized restoration process supersedes the revocation.
 
----
+______________________________________________________________________
 
 ## INV-CAP-015 — Validation Non-Transitivity
 
@@ -804,9 +797,9 @@ validated(provider_B)
 
 even if both claim the same capability.
 
----
+______________________________________________________________________
 
-# 13. Preconditions
+## 13. Preconditions
 
 A capability may declare preconditions such as:
 
@@ -826,9 +819,9 @@ preconditions:
 
 Preconditions MUST be evaluated before execution where materially possible.
 
----
+______________________________________________________________________
 
-# 14. Dependencies
+## 14. Dependencies
 
 Capability dependencies MUST be explicit.
 
@@ -869,9 +862,9 @@ dependencies:
 
 Circular dependencies MUST be detected rather than silently traversed forever.
 
----
+______________________________________________________________________
 
-# 15. H/M/L Applicability
+## 15. H/M/L Applicability
 
 Capabilities MAY exist at High, Medium, and Low reasoning scales.
 
@@ -923,9 +916,9 @@ L execution may provide evidence upward.
 L capability may not silently override H authority.
 ```
 
----
+______________________________________________________________________
 
-# 16. Control-Plane Requirements
+## 16. Control-Plane Requirements
 
 Capabilities operate beneath control-plane governance where applicable.
 
@@ -960,9 +953,9 @@ A worker may propose:
 
 but the governing layer determines whether invocation is admissible.
 
----
+______________________________________________________________________
 
-# 17. Agent Contract
+## 17. Agent Contract
 
 Agents consume capabilities; they do not inherently own the authority represented by those capabilities.
 
@@ -986,9 +979,9 @@ therefore
 I am allowed to call X.
 ```
 
----
+______________________________________________________________________
 
-# 18. Skill Contract
+## 18. Skill Contract
 
 Skills MAY package one or more capabilities.
 
@@ -1008,9 +1001,9 @@ Installing or discovering a Skill does not grant permission to execute all of it
 
 Skill capability boundaries MUST remain explicit.
 
----
+______________________________________________________________________
 
-# 19. Workflow Contract
+## 19. Workflow Contract
 
 A workflow composes capabilities into an ordered or graph-structured process.
 
@@ -1041,9 +1034,9 @@ node:
 
 Workflow success does not automatically prove each scientific or factual claim generated within the workflow.
 
----
+______________________________________________________________________
 
-# 20. Protocol Contract
+## 20. Protocol Contract
 
 Capability interactions SHOULD use typed protocols.
 
@@ -1115,9 +1108,9 @@ capability_result:
   errors: []
 ```
 
----
+______________________________________________________________________
 
-# 21. Effect Classes
+## 21. Effect Classes
 
 Every capability MUST declare its possible effect class.
 
@@ -1142,9 +1135,9 @@ required_validation ∝ consequence × irreversibility × uncertainty
 
 This is a governance relation, not an empirical physical law.
 
----
+______________________________________________________________________
 
-# 22. Authority Requirements
+## 22. Authority Requirements
 
 Authority MUST be represented independently.
 
@@ -1183,9 +1176,9 @@ UNKNOWN
 
 Unknown authority MUST fail closed for consequential actions.
 
----
+______________________________________________________________________
 
-# 23. Evidence and Provenance
+## 23. Evidence and Provenance
 
 Capability claims SHOULD carry evidence appropriate to the strength of the claim.
 
@@ -1222,9 +1215,9 @@ evidence:
 
 Multiple pieces of evidence derived from the same origin MUST NOT automatically be counted as independent confirmation.
 
----
+______________________________________________________________________
 
-# 24. Provenance Topology
+## 24. Provenance Topology
 
 For material capability claims, provenance SHOULD preserve ancestry.
 
@@ -1252,9 +1245,9 @@ Where branches merge, correlated ancestry MUST remain visible.
 
 A capability result SHOULD be traceable to its load-bearing evidence.
 
----
+______________________________________________________________________
 
-# 25. Uncertainty Vector
+## 25. Uncertainty Vector
 
 Capability confidence SHOULD NOT be represented by one undifferentiated scalar when multiple uncertainty classes matter.
 
@@ -1280,9 +1273,9 @@ Examples:
 
 These conditions MUST remain distinguishable.
 
----
+______________________________________________________________________
 
-# 26. Confidence Ceiling
+## 26. Confidence Ceiling
 
 A capability claim's confidence cannot exceed its weakest load-bearing unresolved premise.
 
@@ -1314,9 +1307,9 @@ does not imply:
 authorized = true
 ```
 
----
+______________________________________________________________________
 
-# 27. Capability Validation Levels
+## 27. Capability Validation Levels
 
 Recommended validation ladder:
 
@@ -1335,9 +1328,9 @@ These levels are proposed AMOS contract states unless separately adopted into ca
 
 A provider MUST NOT claim a higher validation level without supporting evidence.
 
----
+______________________________________________________________________
 
-# 28. Capability Availability
+## 28. Capability Availability
 
 Availability is runtime-specific.
 
@@ -1351,9 +1344,9 @@ availability:
 
 Historical availability does not guarantee present availability.
 
----
+______________________________________________________________________
 
-# 29. Freshness
+## 29. Freshness
 
 Capabilities and their dependencies may become stale.
 
@@ -1383,9 +1376,9 @@ freshness:
   revalidation_required_on_change: true
 ```
 
----
+______________________________________________________________________
 
-# 30. Regime Validity
+## 30. Regime Validity
 
 Capabilities MAY only be valid under specific operating regimes.
 
@@ -1407,9 +1400,9 @@ adversarial-input
 
 A regime transition MUST trigger revalidation when the contract depends on the changed regime.
 
----
+______________________________________________________________________
 
-# 31. Capability Selection
+## 31. Capability Selection
 
 Given candidates:
 
@@ -1450,9 +1443,9 @@ This equation is an AMOS MODEL heuristic unless a specific implementation define
 
 No scalar score may override a hard invariant.
 
----
+______________________________________________________________________
 
-# 32. Least-Privilege Capability Selection
+## 32. Least-Privilege Capability Selection
 
 When several providers can satisfy a requirement, prefer the least powerful sufficient provider where quality is not materially degraded.
 
@@ -1470,9 +1463,9 @@ filesystem write + network write + commit authority
 
 if a narrower read capability suffices.
 
----
+______________________________________________________________________
 
-# 33. Capability Composition
+## 33. Capability Composition
 
 Capabilities may compose:
 
@@ -1505,9 +1498,9 @@ sensitivity
 
 Syntactic compatibility is insufficient when semantics differ.
 
----
+______________________________________________________________________
 
-# 34. Cross-Skill Composition
+## 34. Cross-Skill Composition
 
 Cross-Skill composition MUST preserve:
 
@@ -1525,9 +1518,9 @@ validation state
 
 No Skill may erase restrictions attached upstream merely because it transforms the data.
 
----
+______________________________________________________________________
 
-# 35. Atomic Multi-Capability Operations
+## 35. Atomic Multi-Capability Operations
 
 Where multiple capabilities jointly produce one governed effect:
 
@@ -1552,9 +1545,9 @@ ROLLBACK
 
 Partial success MUST remain visible.
 
----
+______________________________________________________________________
 
-# 36. Commit-Time Revalidation
+## 36. Commit-Time Revalidation
 
 For mutable or consequential systems, authorization and relevant constraints SHOULD be checked again near commit.
 
@@ -1579,9 +1572,9 @@ concurrency state
 revocation state
 ```
 
----
+______________________________________________________________________
 
-# 37. Memory Interaction
+## 37. Memory Interaction
 
 Capabilities that read or write persistent memory require explicit declaration.
 
@@ -1615,9 +1608,9 @@ validation state
 supersession relation
 ```
 
----
+______________________________________________________________________
 
-# 38. Information Boundary Requirements
+## 38. Information Boundary Requirements
 
 Capability invocation must respect information boundaries.
 
@@ -1648,9 +1641,9 @@ cumulative exposure
 
 A technically callable recipient is not automatically an authorized recipient.
 
----
+______________________________________________________________________
 
-# 39. Observability
+## 39. Observability
 
 Every material invocation SHOULD emit an auditable execution record.
 
@@ -1682,9 +1675,9 @@ validation results
 rollback state
 ```
 
----
+______________________________________________________________________
 
-# 40. Failure Modes
+## 40. Failure Modes
 
 ## FM-CAP-001 — Phantom Capability
 
@@ -1698,7 +1691,7 @@ QUARANTINE REGISTRY ENTRY
 FAIL CLOSED
 ```
 
----
+______________________________________________________________________
 
 ## FM-CAP-002 — Capability Inflation
 
@@ -1719,7 +1712,7 @@ restore original scope
 invalidate derived claims
 ```
 
----
+______________________________________________________________________
 
 ## FM-CAP-003 — Authority Confusion
 
@@ -1732,7 +1725,7 @@ DENY EFFECT
 AUDIT AUTHORITY PATH
 ```
 
----
+______________________________________________________________________
 
 ## FM-CAP-004 — Provider Drift
 
@@ -1746,7 +1739,7 @@ REVALIDATE
 possibly QUARANTINE
 ```
 
----
+______________________________________________________________________
 
 ## FM-CAP-005 — Schema Drift
 
@@ -1759,7 +1752,7 @@ FAIL VALIDATION
 DO NOT SILENTLY COERCE
 ```
 
----
+______________________________________________________________________
 
 ## FM-CAP-006 — Dependency Drift
 
@@ -1771,7 +1764,7 @@ Response:
 selectively invalidate dependent capability validation
 ```
 
----
+______________________________________________________________________
 
 ## FM-CAP-007 — Scope Leakage
 
@@ -1784,13 +1777,13 @@ CONDITIONAL / GAP
 or reject invocation
 ```
 
----
+______________________________________________________________________
 
 ## FM-CAP-008 — Regime Leakage
 
 Capability validated under one regime is reused under another without revalidation.
 
----
+______________________________________________________________________
 
 ## FM-CAP-009 — Provenance Loss
 
@@ -1804,7 +1797,7 @@ QUARANTINE OUTPUT
 
 for provenance-sensitive operations.
 
----
+______________________________________________________________________
 
 ## FM-CAP-010 — Correlated Validation
 
@@ -1817,7 +1810,7 @@ downgrade independence
 recalculate confidence ceiling
 ```
 
----
+______________________________________________________________________
 
 ## FM-CAP-011 — Stale Authority
 
@@ -1829,7 +1822,7 @@ Response:
 ABORT COMMIT
 ```
 
----
+______________________________________________________________________
 
 ## FM-CAP-012 — Partial Transaction
 
@@ -1843,7 +1836,7 @@ otherwise enter recovery
 record partial effect
 ```
 
----
+______________________________________________________________________
 
 ## FM-CAP-013 — Side-Effect Escape
 
@@ -1858,7 +1851,7 @@ audit
 repair affected state
 ```
 
----
+______________________________________________________________________
 
 ## FM-CAP-014 — Validation Bypass
 
@@ -1871,7 +1864,7 @@ invalidate dependent results
 restore last valid state
 ```
 
----
+______________________________________________________________________
 
 ## FM-CAP-015 — Recursive Capability Loop
 
@@ -1885,7 +1878,7 @@ stop
 surface dependency loop
 ```
 
----
+______________________________________________________________________
 
 ## FM-CAP-016 — Capability Shadowing
 
@@ -1897,7 +1890,7 @@ Response:
 require explicit version/provider resolution
 ```
 
----
+______________________________________________________________________
 
 ## FM-CAP-017 — Confidence Laundering
 
@@ -1909,7 +1902,7 @@ Response:
 restore dependency-bound confidence ceiling
 ```
 
----
+______________________________________________________________________
 
 ## FM-CAP-018 — Tool Result Equals Truth
 
@@ -1921,9 +1914,9 @@ Response:
 separate EXECUTION_SUCCESS from CLAIM_VALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 41. Repair and Recovery
+## 41. Repair and Recovery
 
 Capability recovery SHOULD use the smallest affected dependency closure.
 
@@ -1944,9 +1937,9 @@ Canonical recovery sequence:
 
 Do not globally recompute if selective invalidation is sufficient.
 
----
+______________________________________________________________________
 
-# 42. Retry Policy
+## 42. Retry Policy
 
 Retry is allowed only when the reason for failure can plausibly change.
 
@@ -1974,9 +1967,9 @@ repaired state
 
 Retry count SHOULD be bounded.
 
----
+______________________________________________________________________
 
-# 43. Rollback
+## 43. Rollback
 
 Capabilities with mutable effects SHOULD declare rollback properties.
 
@@ -1991,9 +1984,9 @@ rollback:
 
 `rollback_supported: true` MUST itself be validated.
 
----
+______________________________________________________________________
 
-# 44. Escalation
+## 44. Escalation
 
 Escalation SHOULD occur when:
 
@@ -2019,9 +2012,9 @@ security review
 governance review
 ```
 
----
+______________________________________________________________________
 
-# 45. Tests and Validators
+## 45. Tests and Validators
 
 Minimum contract tests SHOULD include:
 
@@ -2097,9 +2090,9 @@ Circular capability dependencies must be detected.
 
 Failed invocation must retain sufficient diagnostic provenance.
 
----
+______________________________________________________________________
 
-# 46. Falsifiers
+## 46. Falsifiers
 
 The capability contract is falsified for a specific provider if evidence demonstrates, within the claimed scope/regime, that:
 
@@ -2121,9 +2114,9 @@ commit occurs without required authorization.
 
 A falsifier SHOULD invalidate only the affected claim and its dependents unless evidence supports broader invalidation.
 
----
+______________________________________________________________________
 
-# 47. Capability Registry Record
+## 47. Capability Registry Record
 
 Canonical proposed registry object:
 
@@ -2205,9 +2198,9 @@ capability:
     superseded_by: null
 ```
 
----
+______________________________________________________________________
 
-# 48. RSCF Binding
+## 48. RSCF Binding
 
 Every consequential capability claim SHOULD be representable as an RSCF capsule.
 
@@ -2248,9 +2241,9 @@ rscf:
 
 Promotion requires evidence.
 
----
+______________________________________________________________________
 
-# 49. GMEF Binding
+## 49. GMEF Binding
 
 A capability change may require governed evolution review when it modifies:
 
@@ -2272,9 +2265,9 @@ Capability evolution MUST NOT silently weaken existing constraints.
 
 A new version that expands capability surface SHOULD be treated as a governed change rather than an innocuous metadata update.
 
----
+______________________________________________________________________
 
-# 50. Versioning and Supersession
+## 50. Versioning and Supersession
 
 Capability contracts MUST preserve version lineage.
 
@@ -2303,9 +2296,9 @@ supersession:
 
 A new version MUST NOT automatically inherit validation when material semantics changed.
 
----
+______________________________________________________________________
 
-# 51. Security Boundary
+## 51. Security Boundary
 
 Capabilities SHOULD declare security-sensitive operations.
 
@@ -2328,9 +2321,9 @@ deployment
 
 Security-sensitive capabilities require stronger authority and observability.
 
----
+______________________________________________________________________
 
-# 52. Capability Discovery Protocol
+## 52. Capability Discovery Protocol
 
 Discovery SHOULD return candidates rather than executable authority.
 
@@ -2349,9 +2342,9 @@ discovery_result:
 
 The resolver MUST NOT hide unresolved requirements merely to return a candidate.
 
----
+______________________________________________________________________
 
-# 53. Capability Resolution Protocol
+## 53. Capability Resolution Protocol
 
 Resolution SHOULD follow:
 
@@ -2379,9 +2372,9 @@ CANDIDATE SET
 
 Authority validation may occur after candidate resolution but before invocation.
 
----
+______________________________________________________________________
 
-# 54. Adversarial Validation
+## 54. Adversarial Validation
 
 For consequential capabilities, validation SHOULD challenge the capability using a genuinely different path.
 
@@ -2402,9 +2395,9 @@ Does rollback actually restore prior state?
 
 A failed challenge downgrades or invalidates the relevant capability claim.
 
----
+______________________________________________________________________
 
-# 55. Sensitivity Analysis
+## 55. Sensitivity Analysis
 
 For consequential capability selection, identify the smallest assumption capable of changing the selection or authorization result.
 
@@ -2422,9 +2415,9 @@ scope boundary
 
 Fragile selections SHOULD be marked `CONDITIONAL`.
 
----
+______________________________________________________________________
 
-# 56. Capability Decision States
+## 56. Capability Decision States
 
 Canonical decision outputs:
 
@@ -2439,9 +2432,9 @@ UNKNOWN/GAP
 
 `UNKNOWN/GAP` is never an alias for `ALLOW`.
 
----
+______________________________________________________________________
 
-# 57. Minimum Capability Admission Gate
+## 57. Minimum Capability Admission Gate
 
 A capability SHOULD NOT enter an active governed registry unless it has at least:
 
@@ -2464,9 +2457,9 @@ Missing noncritical fields MAY remain gaps.
 
 Missing critical governance fields SHOULD block active promotion.
 
----
+______________________________________________________________________
 
-# 58. Promotion States
+## 58. Promotion States
 
 Recommended lifecycle:
 
@@ -2498,9 +2491,9 @@ IMPLEMENTED != VALIDATED
 VALIDATED != AUTHORIZED_FOR_ALL_USES
 ```
 
----
+______________________________________________________________________
 
-# 59. Gap Matrix
+## 59. Gap Matrix
 
 | Field                         |                    Required | Current contract status |
 | ----------------------------- | --------------------------: | ----------------------- |
@@ -2530,9 +2523,9 @@ VALIDATED != AUTHORIZED_FOR_ALL_USES
 | Canon approval                | Yes for canonical promotion | UNKNOWN/GAP             |
 | Production validation         |           Context-dependent | UNKNOWN/GAP             |
 
----
+______________________________________________________________________
 
-# 60. Current Gap Status
+## 60. Current Gap Status
 
 This document closes the **structural contract-definition gap** for the proposed capability architecture.
 
@@ -2559,9 +2552,9 @@ gap_status:
   production_status: UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 61. RSCF Completion State
+## 61. RSCF Completion State
 
 ```yaml
 claim_class: MODEL
@@ -2621,9 +2614,9 @@ confidence_ceiling:
   empirical_validation: 0.00
 ```
 
----
+______________________________________________________________________
 
-# 62. Hard Boundary Block
+## 62. Hard Boundary Block
 
 The following boundary block is normative for this contract:
 
@@ -2643,9 +2636,9 @@ CORRELATED_EVIDENCE != INDEPENDENT_CONFIRMATION
 MODEL != EMPIRICAL_FACT
 ```
 
----
+______________________________________________________________________
 
-# 63. Canon and Provenance Boundary
+## 63. Canon and Provenance Boundary
 
 Trang Phan remains the origin architect / steward for AMOS material represented by this artifact.
 
@@ -2670,9 +2663,9 @@ GENERATED MODEL
 
 subject to version and supersession resolution.
 
----
+______________________________________________________________________
 
-# 64. Final Contract Law
+## 64. Final Contract Law
 
 The AMOS capability layer SHALL preserve the following governing principle:
 
@@ -2706,9 +2699,9 @@ PROVENANCE-PRESERVED EFFECT
 
 Any path that bypasses a load-bearing gate MUST fail closed, remain `UNKNOWN/GAP`, or escalate according to consequence and authority requirements.
 
----
+______________________________________________________________________
 
-# END — CAPABILITY_CONTRACT.md
+## END — CAPABILITY_CONTRACT.md
 
 ```
 
@@ -2717,22 +2710,26 @@ This is substantially different from the existing Drive file, which currently co
 The important epistemic boundary is that the content above **completes the architecture as a proposed contract**, but does not pretend the runtime, tests, or canon approval already exist.
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: control_plane_capability_contract
 node_type: note
 path: 03_CONTROL_PLANE/02_CAPABILITY/CONTROL_PLANE_CAPABILITY_CONTRACT.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[03_CONTROL_PLANE/02_CAPABILITY/02_CAPABILITY_MOC|02_CAPABILITY_MOC]]

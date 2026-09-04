@@ -12,22 +12,22 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: FRAMEWORK
 path: 11_KNOWLEDGE/05_FRAMEWORKS/BEI_BIOELECTROMAGNETIC_INTELLIGENCE.md
 tags:
-- amos-os
-- knowledge
-- vault
-- 05_frameworks
-- bei
-- bioelectromagnetic_intelligence
-- cardiac_electromagnetics
-- neural_oscillations
-- phase_coherence
-- ubi
-- rscf
-- canon_candidate
-- canon/knowledge
-- unified-biological-intelligence
-- ubi-wearable-framework
-- heritage-music-acoustic-intelligence
+  - amos-os
+  - knowledge
+  - vault
+  - 05_frameworks
+  - bei
+  - bioelectromagnetic_intelligence
+  - cardiac_electromagnetics
+  - neural_oscillations
+  - phase_coherence
+  - ubi
+  - rscf
+  - canon_candidate
+  - canon/knowledge
+  - unified-biological-intelligence
+  - ubi-wearable-framework
+  - heritage-music-acoustic-intelligence
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -42,17 +42,17 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - UBI_OFFICIAL_MANUAL
-  - UNIFIED_BIOLOGICAL_INTELLIGENCE
-  - AMOS_CORPUS
+    - UBI_OFFICIAL_MANUAL
+    - UNIFIED_BIOLOGICAL_INTELLIGENCE
+    - AMOS_CORPUS
   scope:
-  - KNOWLEDGE_FRAMEWORKS
-  - BIOELECTROMAGNETICS
-  - SOURCE_DEFINED_MODEL
+    - KNOWLEDGE_FRAMEWORKS
+    - BIOELECTROMAGNETICS
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   biological_master:
     artifact:
-    - - UNIFIED_BIOLOGICAL_INTELLIGENCE
+      -   - UNIFIED_BIOLOGICAL_INTELLIGENCE
   domain_knowledge:
     artifact: 11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/UBI_BIOELECTROMAGNETIC_INTELLIGENCE
 epistemic_boundary:
@@ -68,26 +68,26 @@ epistemic_boundary:
 
 It formalizes the cardiac electromagnetic fields, neural oscillatory bands (delta, theta, alpha, beta, gamma), and cellular bioelectric signaling that coordinate biological timing, cross-tissue synchronization, and environmental phase-locking.
 
----
+______________________________________________________________________
 
-# 1. Biological Invariants
+## 1. Biological Invariants
 
 1. **Cardiac Electromagnetic Pacing:** The heart's rhythmic EM field (5000x stronger magnetically than the brain) entraining全身oscillatory frequencies.
-2. **Neural Phase-Locking:** Gamma 40Hz and theta-gamma cross-frequency coupling binding disparate sensory streams into coherent conscious moments.
-3. **Bioelectric Cell Signaling:** Endogenous membrane potential gradients guiding tissue regeneration, metabolic flow, and gap-junction communication.
+1. **Neural Phase-Locking:** Gamma 40Hz and theta-gamma cross-frequency coupling binding disparate sensory streams into coherent conscious moments.
+1. **Bioelectric Cell Signaling:** Endogenous membrane potential gradients guiding tissue regeneration, metabolic flow, and gap-junction communication.
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Biological Master:** [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]]
 - **Domain Knowledge:** `11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/UBI_BIOELECTROMAGNETIC_INTELLIGENCE`
 - **Wearable Telemetry:** [[11_KNOWLEDGE/05_FRAMEWORKS/UBI_WEARABLE_FRAMEWORK|UBI_WEARABLE_FRAMEWORK]]
 - **Acoustic Entrainment:** [[11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_MUSIC_ACOUSTIC_INTELLIGENCE|HERITAGE_MUSIC_ACOUSTIC_INTELLIGENCE]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -105,10 +105,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]] · `11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/UBI_BIOELECTROMAGNETIC_INTELLIGENCE` · [[11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_MUSIC_ACOUSTIC_INTELLIGENCE|HERITAGE_MUSIC_ACOUSTIC_INTELLIGENCE]]
 
----
-**MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]
+______________________________________________________________________
 
+**MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]

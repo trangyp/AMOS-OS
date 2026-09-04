@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: AMOS CRISIS MANAGEMENT KERNEL V0 GOVERNANCE RISK
 tags:
-- canon-group/human-system
-- canon/framework
-- rscf/claim
-- rscf/provenance
-- rscf/state/source-claim
-- topic/amos-crisis-management-kernel-v0
-- kernel
+  - canon-group/human-system
+  - canon/framework
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - topic/amos-crisis-management-kernel-v0
+  - kernel
 type: data
 source: 11_KNOWLEDGE/kernel
 rscf:
@@ -64,6 +67,6 @@ rscf:
 **Related:** [[11_KNOWLEDGE/kernel/AMOS_QA_TESTING_KERNEL_V0_TECH|AMOS_QA_TESTING_KERNEL_V0_TECH]] · [[11_KNOWLEDGE/kernel/AMOS_CLOUD_PLATFORM_KERNEL_V0_TECH|AMOS_CLOUD_PLATFORM_KERNEL_V0_TECH]] · [[11_KNOWLEDGE/kernel/AMOS_POLICY_GEOSTRATEGY_KERNEL_V0|AMOS_POLICY_GEOSTRATEGY_KERNEL_V0]] · [[11_KNOWLEDGE/kernel/LOGIC_KERNEL|LOGIC_KERNEL]]
 ```
 
----
-**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]
+______________________________________________________________________
 
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]

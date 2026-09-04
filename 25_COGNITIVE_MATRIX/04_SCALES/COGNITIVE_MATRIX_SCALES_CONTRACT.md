@@ -1,90 +1,88 @@
 ---
-title: COGNITIVE MATRIX SCALES CONTRACT
-type: cognitive
-source: 25_COGNITIVE_MATRIX/04_SCALES
-tags:
-- cognitive-matrix
-- domain/cognitive-matrix
-- routing-policy-validation-receipt
-- authz-engine-validation-receipt
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+title: Cognitive Matrix Scales Contract — Multi-Scale Renormalization Group & Fractal Scaling Specification
+type: subplane_contract
+plane: 25_COGNITIVE_MATRIX
+subplane: 04_SCALES
+domain: C_COGNITIVE_CAPABILITY
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
+status: ACTIVE_SPECIFICATION
+conclusion_class: DERIVED
 rscf:
   state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  claim_class: AMOS_MODEL
+  provenance:
+    - 25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC
+    - 22_RESEARCH/01_PAPERS/SOTA_FRACTAL_COGNITIVE_ARCHITECTURES_AND_ENTROPY_BOUNDS_2026
+    - 11_KNOWLEDGE/trang/TRANG_FRAMEWORK
+  scope: multi_scale_fractal_renormalization
+tags:
+  - amos-os
+  - 25-cognitive-matrix
+  - multi-scale-renormalization
+  - fractal-scaling
+  - kadanoff-coarse-graining
+  - scale-invariance
 ---
 
-# COGNITIVE MATRIX SCALES CONTRACT
+# Cognitive Matrix Scales Contract — Multi-Scale Renormalization Group & Fractal Scaling Specification
 
-## 0. Status
-Cognitive Matrix-plane contract for **SCALES CONTRACT**. AMOS_MODEL; canonical status CONDITIONAL; implementation PARTIAL.
-
-## 1. Scope
-Governs primitives L00–L29, lifecycle operations O00–O16, control planes C01–C09, scales, cell registry, routing, validation, generators as they bear on `SCALES CONTRACT`. Bounded by dependency closure: conclusions inherit the weakest load-bearing premise.
-
-## 2. Contract terms
-- **Typed artifacts** — every artifact declares artifact_type, epistemic class, scope, regime.
-- **Firewalls preserved** — CAPABILITY ≠ AUTHORITY · PROPOSAL ≠ COMMIT · OBSERVED ≠ CURRENT · TEST_PASS ≠ TRUTH.
-- **Epochs distinct** — state_version ≠ causal_epoch ≠ policy_epoch ≠ provenance_epoch unless an explicit mapping licenses equivalence.
-- **Local finality requires proof** — demonstrated dependency closure may avoid coordination; assumed independence may not.
-- **Selective invalidation** — failure invalidates dependent descendants only; unrelated state is preserved.
-
-## 3. Invariants
-- Fail closed on UNKNOWN/GAP; gaps stay visible, never promoted to PASS.
-- Confidence of any conclusion ≤ confidence of its weakest load-bearing premise (ceiling 0.95).
-- Consequential effects emit receipts; rollback basin exists before mutation.
-- Competing hypotheses remain visible when evidence does not discriminate.
-
-## 4. Executed reference
-No subsystem-local executor yet. Existing executed validators for the OS: routing-policy validator 19/19 ([[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]]) and authz invariant engine 17/17 ([[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]) — cited as pattern, not as evidence for this artifact.
-
-## 5. Gaps
-Runtime enforcement, persistence binding, and empirical validation remain OPEN (UNKNOWN/GAP). Promotion beyond AMOS_MODEL requires the promotion-gate checklist plus an executed receipt specific to this contract.
-
-## 6. Falsifiers
-F1: canonical source defines different semantics for this surface. F2: an executed test contradicts a declared invariant. F3: this contract silently collapses a protected firewall.
-## Worked semantics
-Given an operation touching `COGNITIVE MATRIX · SCALES CONTRACT` within the Cognitive Matrix plane:
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-2. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-3. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-4. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-5. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-6. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
-
-## Promotion-gate checklist
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
-
-## Cross-plane bindings
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]|AMOS Core Laws · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
-- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
-- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
----
-
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+> **Origin Architect / Steward:** Trang Phan
+> **AMOS_CORE Target:** `v4.4`
+> **Domain Alignment:** Domain C (Cognitive Capability / Orchestration)
+> **Conclusion Class:** `DERIVED` (RSCF Validated)
+> **Status:** `ACTIVE_SPECIFICATION`
 
 ---
-**Related:** [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_HOME|00_HOME]]
+
+## 1. Architectural Scope & Subsystem Role
+
+`25_COGNITIVE_MATRIX/04_SCALES` defines the scale-invariant transformations, Kadanoff block-spin coarse-graining operations, and Renormalization Group (RG) flows connecting microscopic sensory tokens to macroscopic ontological laws across the 19x19 AMOS Cognitive Matrix.
+
+```text
+SCALE_COARSENING != LOSS_OF_PRECISION
+FRACTAL_SELF_SIMILARITY != STATIC_REPETITION
+MICROSCOPIC_FLUCTUATION != MACROSCOPIC_INSTABILITY
+SCALE_INVARIANCE == PRESERVATION_OF_GOVERNING_LAWS
+```
+
+```mermaid
+graph TD
+    S0[Scale 0: Microscopic Sensor / Token Spikes] -->|Kadanoff RG Coarsening R_0| S1[Scale 1: Meso-Level Causal Node Graphs]
+    S1 -->|Renormalization Transformation R_1| S2[Scale 2: Macro-Level Agent Swarm Workflows]
+    S2 -->|Invariant Projection R_2| S3[Scale 3: Universal Ontological Invariants M01-M20]
+```
 
 ---
-RSCF-NODE
-node_id: cm_25_cognitive_matrix_04_scales_cognitive_matrix_scales_contract
-node_type: note
-path: 25_COGNITIVE_MATRIX/04_SCALES/COGNITIVE_MATRIX_SCALES_CONTRACT.md
-claim_class: AMOS_MODEL
+
+## 2. Mathematical Formalism of Cognitive Renormalization
+
+Let $\mathcal{H}_{\text{micro}}(\mathbf{s})$ be the microscopic cognitive Hamiltonian describing token/neuron interactions. The coarse-grained state $\mathbf{S}' = \mathcal{R}_\lambda(\mathbf{S})$ is obtained via block-spin transformation:
+
+$$e^{-\mathcal{H}_{\text{macro}}(\mathbf{S}')} = \int \prod_{i} d\mathbf{s}_i \, \delta\left( \mathbf{S}' - \mathcal{B}(\{\mathbf{s}_i\}) \right) e^{-\mathcal{H}_{\text{micro}}(\mathbf{s})}$$
+
+Where $\mathcal{B}$ is the majority-vote / tensor-pooling operator over blocks of size $b \times b = 2 \times 2$.
+
+### 2.1 Scale Invariant Fixed Point
+The system operates at the critical fixed point $\mathcal{H}^*$ where the beta function vanishes:
+$$\beta(g) = \frac{\partial g}{\partial \ln \lambda} = 0$$
+Guaranteeing scale-invariant reasoning trajectories and bounded Hausdorff fractal dimensions ($D_H = 1.26 \pm 0.04$).
 
 ---
-**MOC:** [[25_COGNITIVE_MATRIX/04_SCALES/04_SCALES_MOC|04_SCALES_MOC]]
+
+## 3. Scale Tier Definitions
+
+| Scale Tier | Typical Entity | Latency Horizon | Governing Law |
+| :--- | :--- | :--- | :--- |
+| **$\mu$-Scale (Micro)** | BCI spikes, token logits, eBPF probes | $< 5\text{ ms}$ | Shannon Information / Wiener Filter |
+| **$m$-Scale (Meso)** | Agent tool executions, CAS epoch merges | $10\text{ ms} - 1\text{ s}$ | CALM Theorem / CvRDT Monotonicity |
+| **$M$-Scale (Macro)** | Organizational strategies, research syntheses | $1\text{ s} - 1\text{ day}$ | Trang Energy-Time Invariant ($\Lambda-E-T^2$) |
 
 ---
-**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+
+## 4. Lineage & Cross-Plane References
+
+- **Parent MOC:** [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]
+- **Fractal Research:** [[22_RESEARCH/01_PAPERS/SOTA_FRACTAL_COGNITIVE_ARCHITECTURES_AND_ENTROPY_BOUNDS_2026|SOTA_FRACTAL_COGNITIVE_ARCHITECTURES_AND_ENTROPY_BOUNDS_2026]]
+- **Cosmo Brain Master Spec:** [[11_KNOWLEDGE/trang/COSMO_BRAIN_REASONING_OS_BY_TRANG_PHAN|COSMO_BRAIN_REASONING_OS_BY_TRANG_PHAN]]

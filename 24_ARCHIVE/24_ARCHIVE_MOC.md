@@ -1,36 +1,62 @@
 ---
-title: 24 Archive MOC
+title: "24_ARCHIVE MOC — Historical Preservation & Superseded Artifacts"
 type: moc
 source: 24_ARCHIVE
-tags:
-- 24-archive
-- canon/archive
-- amos-home
-moc: true
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
+status: ACTIVE_MOC
+epistemic_class: HISTORICAL_RECORD
+conclusion_class: DERIVED
 rscf:
   state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  claim_class: HISTORICAL_RECORD
+  provenance:
+    - 00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE
+    - 00_ROOT/00_ROOT_MOC
+  scope: archive_navigation
+tags:
+  - amos-os
+  - 24_archive
+  - moc
+  - historical
 ---
 
-# 24 Archive — Map of Content
+# 24_ARCHIVE MOC — Historical Preservation & Superseded Artifacts
 
-**Path:** `24_ARCHIVE`
-**Files:** 2 | **Subdirectories:** 5
-
-## Files
-
-- [[24_ARCHIVE/ARCHIVE_ARCHIVE_CONTRACT|ARCHIVE_ARCHIVE_CONTRACT]]
-- [[24_ARCHIVE/ARCHIVE_README|ARCHIVE_README]]
-
-## Subdirectories
-
-- [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]] — 00_INDEX
-- [[24_ARCHIVE/00_LEGACY/00_LEGACY_MOC|00_LEGACY_MOC]] — 00_LEGACY
-- [[24_ARCHIVE/01_DEPRECATED/01_DEPRECATED_MOC|01_DEPRECATED_MOC]] — 01_DEPRECATED
-- [[24_ARCHIVE/02_SUPERSEDED/02_SUPERSEDED_MOC|02_SUPERSEDED_MOC]] — 02_SUPERSEDED
-- [[24_ARCHIVE/03_EXPERIMENTAL/03_EXPERIMENTAL_MOC|03_EXPERIMENTAL_MOC]] — 03_EXPERIMENTAL
+**Origin Architect / Steward:** Trang Phan  
+**AMOS_CORE Target:** `v4.4`  
+**Epistemic Class:** `HISTORICAL_RECORD`
 
 ---
-**Parent:** [[AMOS_HOME|AMOS_HOME]]
+
+## 1. Archival Invariants & Governance
+
+1. **Preservation-First Policy**: Obsolete or superseded artifacts are never deleted destructively; they are relocated to `24_ARCHIVE` with full provenance headers.
+2. **Read-Only Status**: All records within Plane 24 are frozen historical snapshots and must not be mutated or cited as active authority.
+3. **Lineage Traceability**: Every archived item maintains bidirectional links to its canonical successor in active planes (`00`–`23`, `25`).
+
+---
+
+## 2. Archival Collections
+
+- [[24_ARCHIVE/ARCHIVE_README|ARCHIVE_README]] — Archival repository policies and retention guidelines.
+- [[24_ARCHIVE/ARCHIVE_ARCHIVE_CONTRACT|ARCHIVE_ARCHIVE_CONTRACT]] — Formal preservation and rollback contract.
+- `ROOT_STRAYS_AND_LEGACY_2026-09-03/` — Preserved pre-repair root files and legacy stubs.
+
+---
+
+## 3. Invariants
+
+```text
+HISTORICAL != ACTIVE_AUTHORITY
+ARCHIVED != DELETED
+PROVENANCE_PRESERVED == STRICT_INVARIANT
+```
+
+---
+
+## 4. Parent Navigation
+
+- **Master Navigation Hub:** [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]
+- **Full OS Architecture:** [[00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE|FULL_BRAIN_OS_MECE_ARCHITECTURE]]

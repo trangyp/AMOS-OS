@@ -4,24 +4,22 @@ title: SKILL — Arxiv Rag Evaluation Rscf
 type: skill
 source: 07_SKILLS/arxiv-rag-evaluation-rscf
 name: arxiv-rag-evaluation-rscf
-description: Rag Evaluation — arxiv research capability. Use when arxiv research,
-  paper analysis, or literature review. Use when amos-knowledge-research-master routes
-  to this specialized capability. Do not use for generic tasks outside arxiv domain.
+description: Rag Evaluation — arxiv research capability. Use when arxiv research, paper analysis, or literature review. Use when amos-knowledge-research-master routes to this specialized capability. Do not use for generic tasks outside arxiv domain.
 parent_skill: amos-knowledge-research-master
 domain: arxiv
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
 tags:
-- type/skill
-- type/skill
-- domain/knowledge-research
-- epistemic/source_claim
-- hml/m
-- epistemic/source_claim
-- amos-os
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/knowledge-research
+  - epistemic/source_claim
+  - hml/m
+  - epistemic/source_claim
+  - amos-os
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -31,20 +29,20 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: M
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L16
-- L17
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L16
+  - L17
 license: MIT
 steward: Trang Phan
 ---
@@ -54,6 +52,7 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: arxiv. Parent: amos-knowledge-research-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
 ## When to Use
 
 - When arxiv research paper rscf skill for arxiv: rag evaluation rscf is needed within the arxiv domain
@@ -76,12 +75,12 @@ Origin architect: **Trang Phan**. Domain: arxiv. Parent: amos-knowledge-research
 ## Operations
 
 1. **rag_evaluation.analyze_paper**: Analyze arxiv papers: extract claims, methods, evidence, and limitations
-2. **rag_evaluation.classify_research**: Classify research by epistemic state: established, emerging, speculative, refuted
-3. **rag_evaluation.assess_reproducibility**: Assess reproducibility: can the results be independently verified?
-4. **rag_evaluation.trace_literature**: Trace literature chains: citations, dependencies, and influence networks
-5. **rag_evaluation.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-6. **rag_evaluation.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
-7. **rag_evaluation.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+1. **rag_evaluation.classify_research**: Classify research by epistemic state: established, emerging, speculative, refuted
+1. **rag_evaluation.assess_reproducibility**: Assess reproducibility: can the results be independently verified?
+1. **rag_evaluation.trace_literature**: Trace literature chains: citations, dependencies, and influence networks
+1. **rag_evaluation.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+1. **rag_evaluation.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+1. **rag_evaluation.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## Vault-Sourced Content
 
@@ -98,12 +97,14 @@ Origin architect: **Trang Phan**. Domain: arxiv. Parent: amos-knowledge-research
 **Approach**: Evidential Deep Learning converts retrieved chunks into probabilistic evidence before generation. Each chunk contributes a Dirichlet distribution over the answer space, allowing uncertainty quantification.
 
 **Key contributions**:
+
 1. Formal definition of information conflict in multi-source RAG
-2. Evidential framework that quantifies source-level uncertainty
-3. Mitigation strategy that downweights conflicting evidence
-4. Benchmark showing improved accuracy on conflicting-source scenarios
+1. Evidential framework that quantifies source-level uncertainty
+1. Mitigation strategy that downweights conflicting evidence
+1. Benchmark showing improved accuracy on conflicting-source scenarios
 
 **RAG evaluation dimensions**:
+
 - Retrieval quality: precision, recall, relevance of retrieved chunks
 - Source conflict: degree of disagreement across sources
 - Evidence uncertainty: quantified via Dirichlet distributions
@@ -129,10 +130,10 @@ Origin architect: **Trang Phan**. Domain: arxiv. Parent: amos-knowledge-research
 - **G5 (Equation firewall)**: Equations carry status tags (ESTABLISHED_MATH / SOURCE_DERIVED / AMOS_MODEL / EMPIRICALLY_CALIBRATED / UNVERIFIED).
 - **G6 (Failure mode)**: On validation failure, downgrade confidence, flag the gap, escalate — do not force-fit.
 
-
 > **Reference**: See `references/brain_router_for_rag.md` (content_hash: 9c4cf65513ae1b0c) fo
 
----
+______________________________________________________________________
+
 **Links:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 ## Related
@@ -142,17 +143,19 @@ Origin architect: **Trang Phan**. Domain: arxiv. Parent: amos-knowledge-research
 ## Examples
 
 - **Scenario**: When arxiv research paper rscf skill for arxiv: rag evaluation rscf is needed within the arxiv domain
+
   - **Input**: A query matching this skill's domain (arxiv)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When the parent skill (`amos-knowledge-research-master`) routes to this specialized capability
+
   - **Input**: A query matching this skill's domain (arxiv)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When a query requires arxiv-specific reasoning grounded in vault sources
+
   - **Input**: A query matching this skill's domain (arxiv)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Anti-Patterns
 
@@ -162,7 +165,6 @@ Origin architect: **Trang Phan**. Domain: arxiv. Parent: amos-knowledge-research
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `amos-knowledge-research-master` — routes to this skill when arxiv specialization is needed
@@ -170,7 +172,6 @@ Origin architect: **Trang Phan**. Domain: arxiv. Parent: amos-knowledge-research
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -189,7 +190,6 @@ Origin architect: **Trang Phan**. Domain: arxiv. Parent: amos-knowledge-research
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -197,7 +197,6 @@ Origin architect: **Trang Phan**. Domain: arxiv. Parent: amos-knowledge-research
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -210,11 +209,12 @@ Origin architect: **Trang Phan**. Domain: arxiv. Parent: amos-knowledge-research
 
 - `references/brain_router_for_rag.md` — loaded on demand
 - `references/references_MOC.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `amos-knowledge-research-master` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `arxiv-rag-evaluation-rscf-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -222,12 +222,14 @@ Origin architect: **Trang Phan**. Domain: arxiv. Parent: amos-knowledge-research
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: arxiv-rag-evaluation-rscf
 node_type: skill
 path: 07_SKILLS/arxiv-rag-evaluation-rscf/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

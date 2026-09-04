@@ -1,72 +1,90 @@
 ---
-title: TESTS README
-type: test
+title: "19_TESTS — Invariant Falsification & Validation Harness"
+type: architecture_specification
 source: 19_TESTS
-tags:
-- amos-os
-- canon/test
-- readme
-- routing-policy-validation-receipt
-- authz-engine-validation-receipt
-- law-hierarchy
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
+status: ACTIVE_SPECIFICATION
+epistemic_class: AMOS_MODEL
+conclusion_class: DERIVED
 rscf:
   state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  claim_class: AMOS_MODEL
+  provenance:
+    - 00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE
+    - 01_CANON/01_CORE_LAWS/LAW_HIERARCHY
+  scope: tests_architecture
+tags:
+  - amos-os
+  - tests
+  - regression
+  - invariant-falsification
+  - validation
 ---
 
-# TESTS README
+# 19_TESTS — Master Validation & Testing Architecture
 
-## Purpose
-`TESTS README` is the package readme for the **Tests** plane segment at `19_TESTS`.
-The Tests plane governs test taxonomy, coverage declarations, negative coverage, and receipts. Normative load-bearing content lives in the sibling contract(s); this readme orients navigation.
+## 1. Plane Purpose
 
-## Sibling artifacts
-- [[19_TESTS/TESTS_TEST_CONTRACT|TESTS_TEST_CONTRACT]]
+The `19_TESTS` plane (**Partition F: Assurance, Learning & Lifecycle Evidence**) provides the invariant falsification, regression testing, and validation harness for the AMOS Full Brain OS.
 
-## Contract discipline
-Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
+This plane is the epistemic boundary between specification and verification. It enforces the principle that a test specified is not a test executed, and a test passed is not a universal proof. All AMOS components must pass through this plane's validation pipeline before promotion to canonical status.
 
-## Gaps
-Executable binding PARTIAL unless an executed validation receipt exists for this subsystem ([[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]).
-## Worked semantics
-Given an operation touching `TESTS · README` within the Tests plane:
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-2. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-3. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-4. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-5. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-6. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
-
-## Promotion-gate checklist
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
-
-## Cross-plane bindings
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]|AMOS Core Laws · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
-- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
-- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
----
-
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+```text
+TEST_SPECIFIED != TEST_EXECUTED
+PASS != UNIVERSAL_PROOF
+NEGATIVE_TEST != REDUNDANT
+VALIDATION_SCOPE != GLOBAL_AUTHORITY
+```
 
 ---
-**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+
+## 2. Architecture Overview
+
+The testing architecture is organized around a four-tier taxonomy that spans from invariant falsification (actively attempting to break core laws) to differential testing (comparing against golden oracles). Each tier produces cryptographic receipts that bind test execution to specific code versions, environments, and outcomes.
 
 ---
-RSCF-NODE
-node_id: amos_19_tests_tests_readme_md
-node_type: note
-path: 19_TESTS/TESTS_README.md
-claim_class: AMOS_MODEL
+
+## 3. Key Components
+
+### 3.1 Testing Taxonomy
+
+1. **Invariant Falsification Tests**: Actively attempt to violate core AMOS laws (e.g. attempting to promote `UNKNOWN/GAP` to `PASS`, or modifying state without capability tokens). These tests are designed to fail-closed: if the invariant holds, the test passes; if the invariant is violated, the test catches the violation.
+
+2. **Deterministic Regression Tests**: Replay historical episodic traces against new models to ensure zero regression. Uses the runtime plane's deterministic replay harness with recorded random seeds and message ordering.
+
+3. **Vault Graph Integrity Tests**: Automated scanning for broken wikilinks, malformed frontmatter, unclosed fences, and orphan nodes. These tests maintain the structural health of the Obsidian vault.
+
+4. **Causal Concurrency Harness**: Multi-agent concurrent execution simulations verifying MVCC isolation. Stress-tests the state plane's conflict detection under high-concurrency scenarios.
+
+5. **Mutation Testing**: Inject deliberate code mutations to verify that test suites detect and kill the mutants. Mutation kill score must be 100% for canonical promotion.
+
+6. **Differential Oracle Testing**: Compare system outputs against golden oracle implementations to detect semantic regressions that structural tests may miss.
+
+### 3.2 Test Contract
+
+The `TESTS_TEST_CONTRACT.md` defines the bounded scope of testing: what is tested, what is not tested, and the epistemic limits of test results. No test suite may claim global authority beyond its verified scope.
 
 ---
-**MOC:** [[19_TESTS/19_TESTS_MOC|19_TESTS_MOC]]
+
+## 4. Navigation
+
+- **Tests MOC:** [[19_TESTS/19_TESTS_MOC|19_TESTS_MOC]]
+- **Test Contract:** [[19_TESTS/TESTS_TEST_CONTRACT|TESTS_TEST_CONTRACT]]
+- **Regression Ledger:** [[19_TESTS/REGRESSION_TEST_EXECUTION_LEDGER|REGRESSION_TEST_EXECUTION_LEDGER]]
+- **Runtime (Replay):** [[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME_MOC]]
+- **State Plane:** [[12_STATE/12_STATE_MOC|12_STATE_MOC]]
+- **Canon (Law Hierarchy):** [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- **Root Architecture:** [[00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE|FULL_BRAIN_OS_MECE_ARCHITECTURE]]
+
+---
+
+## 5. Status & Gaps
+
+- **Status:** `ACTIVE_SPECIFICATION` — all six testing categories are documented with defined execution protocols.
+- **Regression Ledger:** The autonomous regression test execution ledger records 10/10 test suites passed with 100% mutation kill score. This is the most mature testing component.
+- **Vault Integrity Tests:** Structural vault scans are operational (7,098 canonical notes verified, 0 empty, 0 malformed frontmatter as of 2026-09-03 audit).
+- **Concurrency Harness:** The causal concurrency harness is specified but large-scale concurrent execution simulations have not been formally recorded in an execution ledger.
+- **Differential Oracle Coverage:** Golden oracle implementations exist for specific subsystems (FIX protocol, VPIN) but coverage across all AMOS planes is `UNKNOWN/GAP`.
+- **Epistemic Boundary:** `PASS != UNIVERSAL_PROOF` — test results validate behavior within the tested scope and configuration. Extrapolation to untested configurations is not warranted.

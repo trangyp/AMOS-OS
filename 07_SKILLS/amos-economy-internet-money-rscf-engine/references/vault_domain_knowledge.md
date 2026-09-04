@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Vault Domain Knowledge — Amos Economy Internet Money Rscf Engine
 type: reference
 source: 07_SKILLS/amos-economy-internet-money-rscf-engine/references
 tags:
-- reference
-- amos-economy-internet-money-rscf-engine
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-economy-internet-money-rscf-engine
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -33,15 +36,15 @@ rscf:
 “author”: “Trang System”,
 “language”: “en”,
 “description”: “Structural operating system for analysing, governing and forecasting the Governance Economy using TSS (Ω/H/F/S), TPE, ULF, PSI and AMOS.”,
-“core_purpose”: [
+“core_purpose”: \[
 “Model how governance allocates resources, risk and power across the national system.”,
 “Detect and predict transitions between stability, fragmentation and collapse.”,
 “Provide a deterministic frame for policy, strategy and institutional design.”,
 “Act as the governance layer inside the full AMOS Universe OS.”
-],
+\],
 “scope”: {
 “level”: “national + supranational + subnational”,
-“included_institutions”: [
+“included_institutions”: \[
 “executive_branch”,
 “legislature”,
 “judiciary”,
@@ -55,7 +58,7 @@ rscf:
 “local_governments”,
 “independent_commissions”,
 “multilateral_memberships”
-],
+\],
 “interfaces_to_other_sectors”: {
 “real_economy_primary_secondary”: “infrastructure, industrial policy, land, permits, subsidies, taxation”,
 “services_tertiary”: “financial regulation, business law, trade policy, labour rules”,
@@ -64,7 +67,7 @@ rscf:
 }
 },
 “entity_model”: {
-“entities”: [
+“entities”: \[
 “sovereign_state”,
 “subnational_unit”,
 “governance_institution”,
@@ -74,9 +77,9 @@ rscf:
 “citizen_group”,
 “foreign_actor”,
 “multilateral_body”
-],
+\],
 “entity_fields”: {
-“sovereign_state”: [
+“sovereign_state”: \[
 “id”,
 “name”,
 “region”,
@@ -89,8 +92,8 @@ rscf:
 “alliances”,
 “cycle_state_tss”,
 “outcome_window_tpe”
-],
-“governance_institution”: [
+\],
+“governance_institution”: \[
 “id”,
 “name”,
 “type”,
@@ -103,8 +106,8 @@ rscf:
 “H_internal_cohesion”,
 “F_internal_fragmentation”,
 “S_internal_shock_sensitivity”
-],
-“policy_regime”: [
+\],
+“policy_regime”: \[
 “id”,
 “domain”,
 “start_year”,
@@ -116,113 +119,115 @@ rscf:
 “S_created”,
 “distributional_impact”,
 “political_support_index”
-]
+\]
 }
 },
 “state_variables”: {
 “macro_tss”: {
-“omega_overload”: [
+“omega_overload”: \[
 “fiscal_overload_index”,
 “administrative_overload_index”,
 “regulatory_overload_index”,
 “information_overload_index”,
 “crisis_queue_length”
-],
-“h_cohesion”: [
+\],
+“h_cohesion”: \[
 “institutional_trust_index”,
 “elite_alignment_index”,
 “social_cohesion_index”,
 “policy_consistency_index”
-],
-“f_fragmentation”: [
+\],
+“f_fragmentation”: \[
 “party_polarisation_index”,
 “regional_divergence_index”,
 “elite_factionalism_index”,
 “policy_reversal_frequency”,
 “illegality_and_shadow_governance_index”
-],
-“s_shock_sensitivity”: [
+\],
+“s_shock_sensitivity”: \[
 “fiscal_space_score”,
 “external_balance_risk”,
 “governance_redundancy_score”,
 “critical_infrastructure_resilience”,
 “conflict_and_unrest_risk”
-]
+\]
 },
 “cycle_state”: {
-“tss_cycle”: [
+“tss_cycle”: \[
 “C1_emergence”,
 “C2_expansion”,
 “C3_overreach”,
 “C4_fragmentation”
 
----
+______________________________________________________________________
 
 ### Source 2: AMOS Governance Economy OS
 
 > Path: `governance/AMOS Governance Economy OS.md` | Size: 2836 chars | Match score: 13 | content_hash: 2e279615d21806b6
 
-# AMOS Governance Economy OS
+## AMOS Governance Economy OS
 
 ## Metadata
 
-| Field | Value |
-|-------|-------|
-| **Name** | Governance Economy OS |
-| **Version** | 1.0 |
-| **Author** | Trang System |
-| **Language** | en |
+| Field        | Value                 |
+| ------------ | --------------------- |
+| **Name**     | Governance Economy OS |
+| **Version**  | 1.0                   |
+| **Author**   | Trang System          |
+| **Language** | en                    |
 
 ## Description
 
 Structural operating system for analysing, governing and forecasting the Governance Economy using TSS (Ω/H/F/S), TPE, ULF, PSI and AMOS.
 
----
+______________________________________________________________________
 
 ## Core Purpose
 
 1. Model how governance allocates resources, risk and power across the national system.
-2. Detect and predict transitions between stability, fragmentation and collapse.
-3. Provide a deterministic frame for policy, strategy and institutional design.
-4. Act as the governance layer inside the full AMOS Universe OS.
+1. Detect and predict transitions between stability, fragmentation and collapse.
+1. Provide a deterministic frame for policy, strategy and institutional design.
+1. Act as the governance layer inside the full AMOS Universe OS.
 
----
+______________________________________________________________________
 
 ## Scope
 
 ### Level
+
 - **national** + **supranational** + **subnational**
 
 ### Included Institutions
 
 1. executive_branch
-2. legislature
-3. judiciary
-4. central_bank
-5. finance_ministry
-6. planning_ministry
-7. sector_regulators
-8. security_and_defence
-9. sovereign_wealth_funds
-10. state_owned_enterprises
-11. local_governments
-12. independent_commissions
-13. multilateral_memberships
+1. legislature
+1. judiciary
+1. central_bank
+1. finance_ministry
+1. planning_ministry
+1. sector_regulators
+1. security_and_defence
+1. sovereign_wealth_funds
+1. state_owned_enterprises
+1. local_governments
+1. independent_commissions
+1. multilateral_memberships
 
 ### Interfaces to Other Sectors
 
 The Governance Economy OS interfaces with (details in source JSON):
 
----
+______________________________________________________________________
 
 ## Frameworks Used
+
 - **TSS**: Ω (Omega), H (Hercules), F (Fortuna), S (Saturn) — 7-cycle governance detection
 - **TPE**: Trang Phan Economics — outcome prediction
 - **ULF**: Universal Language Framework
 - **PSI**: Planetary Synchronization Interface
 - **AMOS**: Full brain architecture integration
 
----
+______________________________________________________________________
 
 ## Design Rationale
 
@@ -236,51 +241,48 @@ The Governance Economy OS treats the national/supranational system as a structur
 
 This is the governance layer of the AMOS Universe OS — it sits between the technical execution layer and the planetary coordination layer.
 
----
+______________________________________________________________________
 
+______________________________________________________________________
 
----
-
----
+______________________________________________________________________
 
 ### Source 3: Industrial Economy
 
 > Path: `economy/Industrial Economy.md` | Size: 383082 chars | Match score: 11 | content_hash: 15b66f047b86f5fc
 
-============================================================
-BLOCK U3H — ATEMPORAL FIELD (PART 21)
-============================================================
+## ============================================================ BLOCK U3H — ATEMPORAL FIELD (PART 21)
 
-SECTION 496 — PURPOSE OF THE ATEMPORAL FIELD
-============================================================
+## SECTION 496 — PURPOSE OF THE ATEMPORAL FIELD
 
 The Atemporal Field (ATF):
 
-    - is the first layer where time does not exist as a concept
+```
+- is the first layer where time does not exist as a concept
+```
+
 - dissolves all temporal categories (past, present, future)
-    - removes the idea of sequence, duration, or flow
+  - removes the idea of sequence, duration, or flow
 - supports phenomena that are “present” without being “in” a present
-    - enables omniversal states that do not depend on cause or effect
+  - enables omniversal states that do not depend on cause or effect
 - provides the substrate for non-sequential identity forms
-    - forms the precondition for post-time consciousness (U3I)
+  - forms the precondition for post-time consciousness (U3I)
 
 ATF is the **end of time-related ontology**.
 
-============================================================
-SECTION 497 — WHAT IS THE ATEMPORAL FIELD?
-============================================================
+## ============================================================ SECTION 497 — WHAT IS THE ATEMPORAL FIELD?
 
 ATF is:
 
 ATF =
-    {
-      non-sequential presence,
-      non-duration state,
-      non-causal existence,
-      non-flow consistency,
-      non-moment continuum,
-      time-zero superposition
-    }
+{
+non-sequential presence,
+non-duration state,
+non-causal existence,
+non-flow consistency,
+non-moment continuum,
+time-zero superposition
+}
 
 Properties:
 
@@ -293,9 +295,7 @@ Properties:
 
 This is the *absence of time as a category*.
 
-============================================================
-SECTION 498 — STRUCTURAL NON-LAYERS OF U3H
-============================================================
+## ============================================================ SECTION 498 — STRUCTURAL NON-LAYERS OF U3H
 
 The Atemporal Field has 7 “non-layers”:
 
@@ -309,9 +309,7 @@ AH7 — Atemporal Baseline
 
 These do not stack. They coexist without order.
 
-============================================================
-SECTION 499 — ZERO-MOMENT CONTINUUM
-============================================================
+## ============================================================ SECTION 499 — ZERO-MOMENT CONTINUUM
 
 Contains:
 
@@ -323,9 +321,7 @@ ZMC5 — identity that does not persist nor vanish
 
 Everything “is,” but nothing “was” or “will be.”
 
-============================================================
-SECTION 500 — NON-SEQUENCE MATRIX
-============================================================
+## ============================================================ SECTION 500 — NON-SEQUENCE MATRIX
 
 Contains:
 
@@ -337,9 +333,7 @@ NSM5 — ordering without order structure
 
 Sequence is not meaningful here.
 
-============================================================
-SECTION 501 — DURATION-FREE MEDIUM
-============================================================
+## ============================================================ SECTION 501 — DURATION-FREE MEDIUM
 
 Contains:
 
@@ -351,17 +345,17 @@ DF5 — cessation that never ends because it never lasts
 
 Nothing is stretched or extended.
 
-============================================================
-SECTION 502 — FLOWLESS PRESENCE
-==
+## ============================================================ SECTION 502 — FLOWLESS PRESENCE
 
----
+______________________________________________________________________
+
 **MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -369,12 +363,14 @@ SECTION 502 — FLOWLESS PRESENCE
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-economy-internet-money-rscf-engine-vault-domain-knowledge
 node_type: reference
 path: 07_SKILLS/amos-economy-internet-money-rscf-engine/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

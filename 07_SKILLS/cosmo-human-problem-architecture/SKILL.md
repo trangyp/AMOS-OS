@@ -4,25 +4,22 @@ title: SKILL — Cosmo Human Problem Architecture
 type: skill
 source: 07_SKILLS/cosmo-human-problem-architecture
 name: cosmo-human-problem-architecture
-description: Cosmo Human Problem Architecture — runtime and OS capability. Use when
-  runtime reasoning, OS kernel operations, or adaptive stability. Use when amos-os-runtime-master
-  routes to this specialized capability. Do not use for generic tasks outside runtime
-  domain.
+description: Cosmo Human Problem Architecture — runtime and OS capability. Use when runtime reasoning, OS kernel operations, or adaptive stability. Use when amos-os-runtime-master routes to this specialized capability. Do not use for generic tasks outside runtime domain.
 parent_skill: amos-os-runtime-master
 domain: runtime
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
 tags:
-- type/skill
-- type/skill
-- domain/os-runtime
-- epistemic/source_claim
-- hml/m
-- epistemic/source_claim
-- amos-os
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/os-runtime
+  - epistemic/source_claim
+  - hml/m
+  - epistemic/source_claim
+  - amos-os
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -32,25 +29,25 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: M
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
-- L7_authority
-- L8_execution
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
+  - L7_authority
+  - L8_execution
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L7
-- L8
-- L16
-- L17
-- L18
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L7
+  - L8
+  - L16
+  - L17
+  - L18
 license: MIT
 steward: Trang Phan
 ---
@@ -60,6 +57,7 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: runtime. Parent: amos-os-runtime-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
 ## When to Use
 
 - When monitoring runtime stability: drift, oscillation, divergence
@@ -80,6 +78,7 @@ Origin architect: **Trang Phan**. Domain: runtime. Parent: amos-os-runtime-maste
 - **cosmo_human.enforce_closed_loop**: Enforce closed-loop learning: every output feeds back into the next iteration
 
 > **Reference**: See `references/vault_domain_knowledge.md` (content_hash: 7d7937903a4bdea7) for the full vault-sourced domain knowledge (9579 chars).
+
 - **cosmo_human.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
 - **cosmo_human.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **cosmo_human.validate_outputs**: Validate outputs against domain constraints and epistemic class.
@@ -87,13 +86,13 @@ Origin architect: **Trang Phan**. Domain: runtime. Parent: amos-os-runtime-maste
 ## Operations
 
 1. **cosmo_human.monitor_stability**: Monitor runtime stability: drift, oscillation, divergence, and regime transitions
-2. **cosmo_human.calibrate_feedback**: Calibrate feedback control loops to maintain stable operating conditions
-3. **cosmo_human.decompose_primitive**: Decompose complex operations into primitive, atomic, verifiable steps
-4. **cosmo_human.align_drift**: Align AI drift back to authorized operating envelope when deviation is detected
-5. **cosmo_human.enforce_closed_loop**: Enforce closed-loop learning: every output feeds back into the next iteration
-6. **cosmo_human.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-7. **cosmo_human.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
-8. **cosmo_human.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+1. **cosmo_human.calibrate_feedback**: Calibrate feedback control loops to maintain stable operating conditions
+1. **cosmo_human.decompose_primitive**: Decompose complex operations into primitive, atomic, verifiable steps
+1. **cosmo_human.align_drift**: Align AI drift back to authorized operating envelope when deviation is detected
+1. **cosmo_human.enforce_closed_loop**: Enforce closed-loop learning: every output feeds back into the next iteration
+1. **cosmo_human.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+1. **cosmo_human.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+1. **cosmo_human.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## 11_KNOWLEDGE Vault Content
 
@@ -104,6 +103,7 @@ Origin architect: **Trang Phan**. Domain: runtime. Parent: amos-os-runtime-maste
 From C05 Mind & Behavior: Human problem architecture and cognitive modeling.
 
 **Human problem architecture**:
+
 - **Problem framing**: how a problem is framed determines the solution space
 - **Cognitive biases**: systematic deviations from rational judgment
 - **Emotional influences**: emotions affect problem perception and decision-making
@@ -111,12 +111,13 @@ From C05 Mind & Behavior: Human problem architecture and cognitive modeling.
 - **Cultural context**: cultural patterns affect problem interpretation
 
 **Problem architecture model**:
+
 1. **Identify**: identify the problem as perceived by the human
-2. **Frame**: analyze how the problem is framed
-3. **Contextualize**: place the problem in its cognitive, emotional, social, cultural context
-4. **Decompose**: decompose the problem into sub-problems
-5. **Reframe**: consider alternative framings
-6. **Solve**: solve within the most productive framing
+1. **Frame**: analyze how the problem is framed
+1. **Contextualize**: place the problem in its cognitive, emotional, social, cultural context
+1. **Decompose**: decompose the problem into sub-problems
+1. **Reframe**: consider alternative framings
+1. **Solve**: solve within the most productive framing
 
 **Law**: `PROBLEM != OBJECTIVE`. A problem is a perceived gap; an objective is a desired state. Problems are subjective; objectives are declarative.
 
@@ -139,9 +140,10 @@ Cosmo human problem architecture is an analytical model. It does not prove probl
 - **G3 (Provenance)**: Source path recorded for every derived claim.
 - **G4 (Anti-overreach)**: No claim beyond the skill's declared scope and epistemic class.
 - **G5 (Equation firewall)**: Equations carry status tags (ESTABLISHED_MATH / SOURCE_DERIVED / AMOS_MODEL / EMPIRICALLY_CALIBRATED / UNVERIFIED).
-- **G6 (Failure mode
+- \*\*G6 (Failure mode
 
----
+______________________________________________________________________
+
 **Links:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 ## Related
@@ -151,17 +153,19 @@ Cosmo human problem architecture is an analytical model. It does not prove probl
 ## Examples
 
 - **Scenario**: When monitoring runtime stability: drift, oscillation, divergence
+
   - **Input**: A query matching this skill's domain (runtime)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When calibrating feedback control loops for stable operation
+
   - **Input**: A query matching this skill's domain (runtime)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When decomposing complex operations into primitive steps
+
   - **Input**: A query matching this skill's domain (runtime)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Anti-Patterns
 
@@ -171,7 +175,6 @@ Cosmo human problem architecture is an analytical model. It does not prove probl
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `amos-os-runtime-master` — routes to this skill when runtime specialization is needed
@@ -179,7 +182,6 @@ Cosmo human problem architecture is an analytical model. It does not prove probl
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -198,7 +200,6 @@ Cosmo human problem architecture is an analytical model. It does not prove probl
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -206,7 +207,6 @@ Cosmo human problem architecture is an analytical model. It does not prove probl
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -219,11 +219,12 @@ Cosmo human problem architecture is an analytical model. It does not prove probl
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `amos-os-runtime-master` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `cosmo-human-problem-architecture-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -231,12 +232,14 @@ Cosmo human problem architecture is an analytical model. It does not prove probl
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: cosmo-human-problem-architecture
 node_type: skill
 path: 07_SKILLS/cosmo-human-problem-architecture/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

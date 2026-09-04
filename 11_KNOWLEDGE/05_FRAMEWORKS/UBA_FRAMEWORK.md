@@ -12,22 +12,22 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: FRAMEWORK
 path: 11_KNOWLEDGE/05_FRAMEWORKS/UBA_FRAMEWORK.md
 tags:
-- amos-os
-- knowledge
-- vault
-- 05_frameworks
-- uba_framework
-- universal_biological_architecture
-- uba
-- bio_architecture
-- living_systems
-- rscf
-- canon_candidate
-- canon/knowledge
-- unified-biological-intelligence
-- uba-universal-biological-architecture
-- ubi-fractal-architecture
-- bio-logical-computing
+  - amos-os
+  - knowledge
+  - vault
+  - 05_frameworks
+  - uba_framework
+  - universal_biological_architecture
+  - uba
+  - bio_architecture
+  - living_systems
+  - rscf
+  - canon_candidate
+  - canon/knowledge
+  - unified-biological-intelligence
+  - uba-universal-biological-architecture
+  - ubi-fractal-architecture
+  - bio-logical-computing
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -42,13 +42,13 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - UBA_UNIVERSAL_BIOLOGICAL_ARCHITECTURE
-  - UBI_OFFICIAL_MANUAL
-  - AMOS_CORPUS
+    - UBA_UNIVERSAL_BIOLOGICAL_ARCHITECTURE
+    - UBI_OFFICIAL_MANUAL
+    - AMOS_CORPUS
   scope:
-  - KNOWLEDGE_FRAMEWORKS
-  - BIOLOGICAL_ARCHITECTURE
-  - SOURCE_DEFINED_MODEL
+    - KNOWLEDGE_FRAMEWORKS
+    - BIOLOGICAL_ARCHITECTURE
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   primary:
     name: Universal Biological Architecture (UBA)
@@ -56,7 +56,7 @@ framework_binding:
     role: STRUCTURAL_BIOLOGICAL_ARCHITECTURE
   biological_intelligence:
     artifact:
-    - - UNIFIED_BIOLOGICAL_INTELLIGENCE
+      -   - UNIFIED_BIOLOGICAL_INTELLIGENCE
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
@@ -70,9 +70,9 @@ epistemic_boundary:
 
 UBA models the macro-morphological and structural principles that govern how living biological systems organize cells, tissues, organs, and neural networks into self-sustaining, entropy-dissipating organisms.
 
----
+______________________________________________________________________
 
-# 1. Structural Architecture
+## 1. Structural Architecture
 
 ```text
 CELLULAR METABOLISM & GAP JUNCTIONS
@@ -87,18 +87,18 @@ AUTONOMIC & CARDIOVASCULAR RHYTHMS (NEI & BEI)
 CORTICAL PROCESSING & EXECUTIVE REGULATION (NBI)
 ```
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Biological Master:** [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]]
 - **Full Details:** [[11_KNOWLEDGE/05_FRAMEWORKS/UBA_UNIVERSAL_BIOLOGICAL_ARCHITECTURE|UBA_UNIVERSAL_BIOLOGICAL_ARCHITECTURE]]
 - **Fractal Biology:** [[11_KNOWLEDGE/05_FRAMEWORKS/UBI_FRACTAL_ARCHITECTURE|UBI_FRACTAL_ARCHITECTURE]]
 - **Living Computing:** [[11_KNOWLEDGE/05_FRAMEWORKS/BIO_LOGICAL_COMPUTING|BIO_LOGICAL_COMPUTING]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -116,9 +116,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]] · [[11_KNOWLEDGE/05_FRAMEWORKS/UBA_UNIVERSAL_BIOLOGICAL_ARCHITECTURE|UBA_UNIVERSAL_BIOLOGICAL_ARCHITECTURE]] · [[11_KNOWLEDGE/05_FRAMEWORKS/UBI_FRACTAL_ARCHITECTURE|UBI_FRACTAL_ARCHITECTURE]]
 
----
+______________________________________________________________________
+
 **MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]

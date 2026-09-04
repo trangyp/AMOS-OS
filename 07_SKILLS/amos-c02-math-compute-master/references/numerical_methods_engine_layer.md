@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: numerical methods engine layer
 type: reference
 source: 07_SKILLS/amos-c02-math-compute-master/references
 tags:
-- reference
-- amos-c02-math-compute-master
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-c02-math-compute-master
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -20,18 +23,11 @@ rscf:
 > Source: `_00_Cosmo brain/engine/A/amos-numerical-methods-engine-layer.md`
 > Epistemic class: SOURCE_DERIVED
 
----
-title: amos-numerical-methods-engine-layer
-created: "2026-08-22"
-origin_architect: "Trang Phan"
-type: "bridge"
-tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/amos-numerical-methods-engine-layer, engine]
-status: "index"
-provenance: "SOURCE_CLAIM"
-confidence: "VERIFIED"
----
+______________________________________________________________________
 
-# amos-numerical-methods-engine-layer
+## title: amos-numerical-methods-engine-layer created: "2026-08-22" origin_architect: "Trang Phan" type: "bridge" tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/amos-numerical-methods-engine-layer, engine] status: "index" provenance: "SOURCE_CLAIM" confidence: "VERIFIED"
+
+## amos-numerical-methods-engine-layer
 
 The original source file was a bridge stub pointing to the skill at `.devin/skills/amos-numerical-methods-engine-layer`. The following content is synthesized from the math kernel files in the `_00_Cosmo brain/math/` directory, which contain the actual numerical methods specifications that this engine layer coordinates.
 
@@ -48,6 +44,7 @@ The Numerical Methods Engine Layer is the execution-oriented layer that sits abo
 The Simulation Kernel supports building, running, and analysing simulations across logistics, engineering, epidemiology, economics, ecology, and organisational modelling.
 
 **Capabilities:**
+
 - **Discrete-event simulation**: Model systems as sequences of events in time. Supports state transitions, event queues, resource contention, and time advance. Suitable for queues, workflows, manufacturing, service systems.
 - **System dynamics**: Model aggregate stocks and flows with feedback loops. Supports stocks, flows, converters, and delays. Suitable for population dynamics, inventory, epidemic curves, capital accumulation.
 - **Agent-based simulation**: Model heterogeneous agents with local rules and interactions. Supports agent heterogeneity, local interaction, spatial structure, and emergent behaviour. Suitable for markets, social dynamics, evacuation, ecology.
@@ -63,6 +60,7 @@ The Simulation Kernel supports building, running, and analysing simulations acro
 The Optimization Kernel supports formulating, solving, and interpreting optimisation problems across operations, logistics, resource allocation, scheduling, design trade-offs, and policy analysis.
 
 **Capabilities:**
+
 - Problem formulation (objectives, decision variables, constraints, variable domains)
 - Linear programming (blending, transportation, assignment, diet, resource allocation)
 - Nonlinear programming (local methods, convexity care, multiple local optima)
@@ -81,6 +79,7 @@ The Optimization Kernel supports formulating, solving, and interpreting optimisa
 The Control Systems Kernel supports reasoning about dynamic systems and feedback control across engineering, robotics, process control, and analogous stabilisation problems.
 
 **Capabilities:**
+
 - System modelling (differential/difference equations, transfer functions, block diagrams, state-space)
 - Stability analysis (poles, eigenvalues, Routh-Hurwitz, Nyquist, Bode, Lyapunov)
 - Feedback control concepts (negative feedback, integral action, derivative action, feedforward, cascade)
@@ -97,6 +96,7 @@ The Control Systems Kernel supports reasoning about dynamic systems and feedback
 The Signal Processing Kernel supports analyzing, transforming, and interpreting signals and time series across audio, sensor, and data domains.
 
 **Capabilities:**
+
 - Time-domain analysis (amplitude, envelope, zero-crossings, autocorrelation)
 - Frequency-domain analysis (DFT/FFT, spectral content, peaks, bandwidth)
 - Filtering (FIR, IIR, low-pass, high-pass, band-pass, notch)
@@ -113,13 +113,15 @@ The Signal Processing Kernel supports analyzing, transforming, and interpreting 
 - Source model: Numerical_Methods_Model
 - Related vault files: `math/AMOS_Simulation_Kernel_v0_Math_Foundations.md`, `math/AMOS_Optimization_Kernel_v0_Math_Foundations.md`, `math/AMOS_Control_Systems_Kernel_v0_Math_Foundations.md`, `math/AMOS_Signal_Processing_Kernel_v0_Math_Foundations.md`
 
----
+______________________________________________________________________
+
 **MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -127,12 +129,14 @@ The Signal Processing Kernel supports analyzing, transforming, and interpreting 
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-c02-math-compute-master-numerical-methods-engine-layer
 node_type: reference
 path: 07_SKILLS/amos-c02-math-compute-master/references/numerical_methods_engine_layer.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

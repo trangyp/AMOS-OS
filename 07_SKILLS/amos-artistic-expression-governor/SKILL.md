@@ -4,25 +4,22 @@ title: SKILL — Amos Artistic Expression Governor
 type: skill
 source: 07_SKILLS/amos-artistic-expression-governor
 name: amos-artistic-expression-governor
-description: Artistic Expression Governor — mind and behavior capability. Use when
-  psychological analysis, behavioral reasoning, or cognitive modeling. Use when amos-c05-mind-behavior-master
-  routes to this specialized capability. Do not use for generic tasks outside c05
-  domain.
+description: Artistic Expression Governor — mind and behavior capability. Use when psychological analysis, behavioral reasoning, or cognitive modeling. Use when amos-c05-mind-behavior-master routes to this specialized capability. Do not use for generic tasks outside c05 domain.
 parent_skill: amos-c05-mind-behavior-master
 domain: c05
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
 tags:
-- type/skill
-- type/skill
-- domain/mind-behavior
-- epistemic/source_claim
-- hml/m
-- epistemic/source_claim
-- amos-os
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/mind-behavior
+  - epistemic/source_claim
+  - hml/m
+  - epistemic/source_claim
+  - amos-os
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -32,20 +29,20 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: M
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L16
-- L17
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L16
+  - L17
 license: MIT
 steward: Trang Phan
 ---
@@ -55,6 +52,7 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: c05. Parent: amos-c05-mind-behavior-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
 ## When to Use
 
 - When modeling cognitive processes: attention, awareness, compression
@@ -81,12 +79,12 @@ Origin architect: **Trang Phan**. Domain: c05. Parent: amos-c05-mind-behavior-ma
 ## Operations
 
 1. **artistic_expression.model_cognition**: Model cognitive processes: attention, awareness, compression, and inference
-2. **artistic_expression.allocate_attention**: Allocate attention resources across competing demands and priorities
-3. **artistic_expression.assess_awareness**: Assess awareness levels: meta-cognition, self-monitoring, and calibration
-4. **artistic_expression.govern_expression**: Govern artistic and emotional expression within healthy bounds
-5. **artistic_expression.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-6. **artistic_expression.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
-7. **artistic_expression.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+1. **artistic_expression.allocate_attention**: Allocate attention resources across competing demands and priorities
+1. **artistic_expression.assess_awareness**: Assess awareness levels: meta-cognition, self-monitoring, and calibration
+1. **artistic_expression.govern_expression**: Govern artistic and emotional expression within healthy bounds
+1. **artistic_expression.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+1. **artistic_expression.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+1. **artistic_expression.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## 11_KNOWLEDGE Vault Content
 
@@ -97,28 +95,32 @@ Origin architect: **Trang Phan**. Domain: c05. Parent: amos-c05-mind-behavior-ma
 The Cognitive Organism OS defines artistic expression as a creative output mode governed by aesthetic, emotional, and cultural constraints.
 
 **Expression modes**:
+
 - **Visual**: images, diagrams, design -- governed by visual coherence and aesthetic principles
 - **Textual**: prose, poetry, narrative -- governed by linguistic coherence and emotional resonance
 - **Musical**: composition, rhythm, harmony -- governed by musical structure and emotional progression
 - **Multimodal**: combinations of above -- governed by cross-modal coherence
 
 **Governance laws**:
+
 - `ART != SCIENCE`: artistic expression does not follow scientific method; it follows aesthetic principles
 - `EXPRESSION != CLAIM`: artistic expression is not a factual claim; it is a creative output
 - `AESTHETIC != EPISTEMIC`: aesthetic quality is not epistemic quality
 
 **Governance protocol**:
+
 1. **Classify**: classify the expression mode and its constraints
-2. **Generate**: generate the artistic output within constraints
-3. **Validate**: validate aesthetic coherence and emotional resonance
-4. **Label**: label the output as AMOS_MODEL (creative, not factual)
-5. **Record**: record provenance and constraints
+1. **Generate**: generate the artistic output within constraints
+1. **Validate**: validate aesthetic coherence and emotional resonance
+1. **Label**: label the output as AMOS_MODEL (creative, not factual)
+1. **Record**: record provenance and constraints
 
 ### Epistemic Boundary
 
 Artistic expression governance is a creative construct. It does not prove aesthetic universality, that artistic quality is objective, or that expression follows deterministic rules.
 
 ## Failure Modes
+
 - **Insufficient evidence**: If source material is insufficient, mark as UNKNOWN/GAP and fail closed — do not fabricate.
 - **Scope violation**: If the query falls outside the skill's declared scope, escalate to the parent skill or steward.
 - **Binding broken**: If 1:1:1 binding (skill→agent→workflow) is broken, flag routing mismatch and block execution.
@@ -133,7 +135,8 @@ Artistic expression governance is a creative construct. It does not prove aesthe
 - **G4 (Anti-overreach)**: No claim beyond the skill's declared scope and epistemic class.
 - **G5 (Equation firewall)**: Equations carry status tags (ESTABLISHED_MATH / SOURCE_DERIVED / AMOS_MOD
 
----
+______________________________________________________________________
+
 **Links:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 ## Related
@@ -143,17 +146,19 @@ Artistic expression governance is a creative construct. It does not prove aesthe
 ## Examples
 
 - **Scenario**: When modeling cognitive processes: attention, awareness, compression
+
   - **Input**: A query matching this skill's domain (c05)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When allocating attention resources across competing demands
+
   - **Input**: A query matching this skill's domain (c05)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When assessing awareness levels and meta-cognition
+
   - **Input**: A query matching this skill's domain (c05)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Anti-Patterns
 
@@ -163,7 +168,6 @@ Artistic expression governance is a creative construct. It does not prove aesthe
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `amos-c05-mind-behavior-master` — routes to this skill when c05 specialization is needed
@@ -171,7 +175,6 @@ Artistic expression governance is a creative construct. It does not prove aesthe
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -190,7 +193,6 @@ Artistic expression governance is a creative construct. It does not prove aesthe
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -198,7 +200,6 @@ Artistic expression governance is a creative construct. It does not prove aesthe
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -211,11 +212,12 @@ Artistic expression governance is a creative construct. It does not prove aesthe
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `amos-c05-mind-behavior-master` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `amos-artistic-expression-governor-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -223,12 +225,14 @@ Artistic expression governance is a creative construct. It does not prove aesthe
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-artistic-expression-governor
 node_type: skill
 path: 07_SKILLS/amos-artistic-expression-governor/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

@@ -1,18 +1,31 @@
+---
+title: Functions Reference
+type: note
+source: .
+tags:
+  - note
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+---
+
 # Bases functions reference
 
 ## Global functions
 
-| Function | Purpose |
-| --- | --- |
-| <code>date(value)</code> | Parse a date string |
-| <code>duration(value)</code> | Parse a duration string |
-| <code>now()</code> / <code>today()</code> | Current date-time / date |
-| <code>if(condition, yes, no?)</code> | Conditional value |
-| <code>number(value)</code> | Convert to number |
-| <code>link(path, display?)</code> | Create a link |
-| <code>file(path)</code> | Resolve a file object |
-| <code>list(value)</code> | Normalize a value to a list |
-| <code>image(path)</code> / <code>icon(name)</code> | Create renderable values |
+| Function                                           | Purpose                     |
+| -------------------------------------------------- | --------------------------- |
+| <code>date(value)</code>                           | Parse a date string         |
+| <code>duration(value)</code>                       | Parse a duration string     |
+| <code>now()</code> / <code>today()</code>          | Current date-time / date    |
+| <code>if(condition, yes, no?)</code>               | Conditional value           |
+| <code>number(value)</code>                         | Convert to number           |
+| <code>link(path, display?)</code>                  | Create a link               |
+| <code>file(path)</code>                            | Resolve a file object       |
+| <code>list(value)</code>                           | Normalize a value to a list |
+| <code>image(path)</code> / <code>icon(name)</code> | Create renderable values    |
 
 ## Common methods
 
@@ -40,6 +53,6 @@ Duration fields are <code>days</code>, <code>hours</code>,
 <code>minutes</code>, <code>seconds</code>, and <code>milliseconds</code>.
 Duration does not directly support number rounding methods.
 
----
+______________________________________________________________________
 
 **MOC:** [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/00_HOME|00_HOME]]

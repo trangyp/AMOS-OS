@@ -4,24 +4,22 @@ title: SKILL — Arxiv Geometric Causal Models Rscf
 type: skill
 source: 07_SKILLS/arxiv-geometric-causal-models-rscf
 name: arxiv-geometric-causal-models-rscf
-description: Geometric Causal Models — arxiv research capability. Use when arxiv research,
-  paper analysis, or literature review. Use when amos-knowledge-research-master routes
-  to this specialized capability. Do not use for generic tasks outside arxiv domain.
+description: Geometric Causal Models — arxiv research capability. Use when arxiv research, paper analysis, or literature review. Use when amos-knowledge-research-master routes to this specialized capability. Do not use for generic tasks outside arxiv domain.
 parent_skill: amos-knowledge-research-master
 domain: arxiv
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
 tags:
-- type/skill
-- type/skill
-- domain/knowledge-research
-- epistemic/source_claim
-- hml/m
-- epistemic/source_claim
-- amos-os
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/knowledge-research
+  - epistemic/source_claim
+  - hml/m
+  - epistemic/source_claim
+  - amos-os
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -31,20 +29,20 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: M
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L16
-- L17
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L16
+  - L17
 license: MIT
 steward: Trang Phan
 ---
@@ -54,6 +52,7 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: arxiv. Parent: amos-knowledge-research-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
 ## When to Use
 
 - When arxiv research paper rscf skill for arxiv: geometric causal models rscf is needed within the arxiv domain
@@ -76,12 +75,12 @@ Origin architect: **Trang Phan**. Domain: arxiv. Parent: amos-knowledge-research
 ## Operations
 
 1. **geometric_causal.analyze_paper**: Analyze arxiv papers: extract claims, methods, evidence, and limitations
-2. **geometric_causal.classify_research**: Classify research by epistemic state: established, emerging, speculative, refuted
-3. **geometric_causal.assess_reproducibility**: Assess reproducibility: can the results be independently verified?
-4. **geometric_causal.trace_literature**: Trace literature chains: citations, dependencies, and influence networks
-5. **geometric_causal.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-6. **geometric_causal.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
-7. **geometric_causal.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+1. **geometric_causal.classify_research**: Classify research by epistemic state: established, emerging, speculative, refuted
+1. **geometric_causal.assess_reproducibility**: Assess reproducibility: can the results be independently verified?
+1. **geometric_causal.trace_literature**: Trace literature chains: citations, dependencies, and influence networks
+1. **geometric_causal.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+1. **geometric_causal.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+1. **geometric_causal.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## 11_KNOWLEDGE Vault Content
 
@@ -93,18 +92,21 @@ Origin architect: **Trang Phan**. Domain: arxiv. Parent: amos-knowledge-research
 From arxiv research: Geometric approaches to causal modeling using manifold structure.
 
 **Geometric causal model**:
+
 - **Causal manifold**: causal relationships form a manifold structure
 - **Geometric distance**: distance between causal structures measured geometrically
 - **Manifold projection**: project data onto causal manifold to identify structure
 - **Curvature analysis**: analyze manifold curvature to understand causal complexity
 
 **Model properties**:
+
 - **Manifold structure**: causal relationships have geometric structure
 - **Distance metric**: distance between causal models is well-defined
 - **Continuity**: small changes in data lead to small changes in causal structure
 - **Identifiability**: causal structure is identifiable under declared conditions
 
 **RSCF laws**:
+
 - `GEOMETRIC != CAUSAL`: geometric structure is not causal structure; it is a representation
 - `MANIFOLD != REALITY`: the causal manifold is a model, not reality
 - `DISTANCE != DIFFERENCE`: geometric distance is not semantic difference
@@ -114,6 +116,7 @@ From arxiv research: Geometric approaches to causal modeling using manifold stru
 Geometric causal models are an analytical method. They do not prove causation, that the manifold structure is correct, or that geometric distance captures causal difference.
 
 ## Focus
+
 - quorum certification
 - causal epochs
 - closed membership
@@ -121,33 +124,38 @@ Geometric causal models are an analytical method. They do not prove causation, t
 - compact epoch encoding
 
 ## Markdown brain adaptation
+
 Use epoch-style finality for conflicting coordinated updates when independence cannot be proven.
 
 ## Historical gap
+
 Caller-supplied shard subset could omit touched shard; transaction-ID equivocation across disjoint payloads.
 
 ## Benchmark boundary
+
 > **Reference**: See `references/geometric_causal_spec.md` (content_hash: d5761d3443e83ddf) for the JSON specification.
 
 Benchmark results are preserved only within their tested operationalization and are not universal guarantees.
 
----
+______________________________________________________________________
 
----
+______________________________________________________________________
 
 ### Source 3: RSCF — Resonance Scan Causal Field
 
 > Path: `rscf/SKILL (rscf).md` | Size: 1071 chars | Match score: 10 | content_hash: 8aa6adf7742ea031
 
-# RSCF — Resonance Scan Causal Field
+## RSCF — Resonance Scan Causal Field
 
 ## Purpose
+
 RSCF (Resonance Scan Causal Field) is the AMOS proof capsule format for
 evidence-grounded claims. It provides a structured way to make, audit, and
 invalidate claims with dependencies, scope, freshness, competing explanations,
 falsifiers, and confidence ceilings.
 
 ## Structure
+
 - **Claim**: The assertion being made
 - **Evidence**: Supporting evidence with provenance
 - **Scope**: Domain and regime boundaries
@@ -155,7 +163,8 @@ falsifiers, and confidence ceilings.
 - **Competing**: Alternative explanations
 -
 
----
+______________________________________________________________________
+
 **Links:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 ## Related
@@ -165,17 +174,19 @@ falsifiers, and confidence ceilings.
 ## Examples
 
 - **Scenario**: When arxiv research paper rscf skill for arxiv: geometric causal models rscf is needed within the arxiv domain
+
   - **Input**: A query matching this skill's domain (arxiv)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When the parent skill (`amos-knowledge-research-master`) routes to this specialized capability
+
   - **Input**: A query matching this skill's domain (arxiv)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When a query requires arxiv-specific reasoning grounded in vault sources
+
   - **Input**: A query matching this skill's domain (arxiv)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Validation Gates
 
@@ -192,7 +203,6 @@ falsifiers, and confidence ceilings.
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `amos-knowledge-research-master` — routes to this skill when arxiv specialization is needed
@@ -200,7 +210,6 @@ falsifiers, and confidence ceilings.
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -219,7 +228,6 @@ falsifiers, and confidence ceilings.
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -227,7 +235,6 @@ falsifiers, and confidence ceilings.
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -240,11 +247,12 @@ falsifiers, and confidence ceilings.
 
 - `references/geometric_causal_spec.md` — loaded on demand
 - `references/references_MOC.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `amos-knowledge-research-master` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `arxiv-geometric-causal-models-rscf-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -252,12 +260,14 @@ falsifiers, and confidence ceilings.
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: arxiv-geometric-causal-models-rscf
 node_type: skill
 path: 07_SKILLS/arxiv-geometric-causal-models-rscf/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

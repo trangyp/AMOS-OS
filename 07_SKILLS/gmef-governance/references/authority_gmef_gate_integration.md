@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: authority gmef gate integration
 type: reference
 source: 07_SKILLS/gmef-governance/references
 tags:
-- reference
-- gmef-governance
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - gmef-governance
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -20,19 +23,11 @@ rscf:
 > Source: `_00_Cosmo brain/dated/2026-08-23/2026-08-23 AMOS Authority and GMEF Gate Integration.md`
 > Epistemic class: SOURCE_DERIVED
 
----
-title: AMOS Authority and GMEF Gate Integration
-created: "2026-08-23"
-origin: "Hermes ↔ Cosmo Brain"
-origin_architect: "Trang Phan"
-type: "note"
-tags: [cosmo, amos, canon-group/system, rscf/claim, rscf/state/observation, topic/implementation, topic/authority, topic/gmef, topic/governance, dated, dated/2026-08-23]
-status: "verified"
-provenance: "OBSERVATION"
-confidence: "VERIFIED"
----
+______________________________________________________________________
 
-# AMOS Authority and GMEF Gate Integration
+## title: AMOS Authority and GMEF Gate Integration created: "2026-08-23" origin: "Hermes ↔ Cosmo Brain" origin_architect: "Trang Phan" type: "note" tags: [cosmo, amos, canon-group/system, rscf/claim, rscf/state/observation, topic/implementation, topic/authority, topic/gmef, topic/governance, dated, dated/2026-08-23] status: "verified" provenance: "OBSERVATION" confidence: "VERIFIED"
+
+## AMOS Authority and GMEF Gate Integration
 
 > Epistemic class: OBSERVATION
 > Conclusion label: `VERIFIED` — AuthorityGovernor and GMEF wired into kernel with 9 new tests.
@@ -40,6 +35,7 @@ confidence: "VERIFIED"
 ## What was done
 
 The user created two new governance modules:
+
 - `amos/governance/authority.py` — `AuthorityGovernor` for token validation
 - `amos/governance/gmef.py` — `GMEF` for mutation assessment
 
@@ -48,15 +44,17 @@ I wired both into the kernel's `run()` method and exported them from `__init__.p
 ## AuthorityGovernor
 
 Validates authority tokens against 5 criteria:
+
 1. **Capability match** — token capability must match required capability
-2. **Expiry** — token must not be expired
-3. **Scope** — token scope must be `*` or match required scope
-4. **Consequence limit** — task consequence must not exceed token's max_consequence
-5. **Reversibility** — if token is reversible_only, task must be reversible
+1. **Expiry** — token must not be expired
+1. **Scope** — token scope must be `*` or match required scope
+1. **Consequence limit** — task consequence must not exceed token's max_consequence
+1. **Reversibility** — if token is reversible_only, task must be reversible
 
 ### Kernel Integration
 
 Added after the principal gate:
+
 ```python
 required_capability = task.objective.strip().split()[0] if task.objective.strip() else "reason"
 for token in state.authority_tokens:
@@ -70,6 +68,7 @@ for token in state.authority_tokens:
 ## GMEF (Governance Mutation Evaluation Framework)
 
 Assesses pending mutations against the GMEF protocol:
+
 - **BLOCK** if missing required fields (target, mutation_class, hypothesis, authority, rollback, validation, predicted_regression)
 - **BLOCK** if M0 (constitutional invariant)
 - **BLOCK** if M1/M2 without explicit authority
@@ -78,6 +77,7 @@ Assesses pending mutations against the GMEF protocol:
 ### Kernel Integration
 
 Added after the authority gate:
+
 ```python
 if hasattr(state, 'pending_mutation') and state.pending_mutation:
     gmef_result = self.gmef.assess(state.pending_mutation)
@@ -88,54 +88,57 @@ if hasattr(state, 'pending_mutation') and state.pending_mutation:
 ## New Tests (9)
 
 1. `test_authority_governor_wired` — kernel has AuthorityGovernor instance
-2. `test_gmef_wired` — kernel has GMEF instance
-3. `test_authority_gate_valid_token` — valid token passes authority gate
-4. `test_authority_gate_expired_token` — expired token fails authority gate
-5. `test_authority_gate_capability_mismatch` — capability mismatch fails
-6. `test_authority_gate_no_tokens` — no tokens = no authority gates
-7. `test_gmef_gate_no_mutation` — no pending mutation = no GMEF gate
-8. `test_gmef_gate_block_m0` — M0 mutation is blocked (constitutional)
-9. `test_gmef_gate_sandbox_m3` — M3 mutation goes to SANDBOX
-10. `test_gmef_gate_missing_fields` — missing fields causes BLOCK
+1. `test_gmef_wired` — kernel has GMEF instance
+1. `test_authority_gate_valid_token` — valid token passes authority gate
+1. `test_authority_gate_expired_token` — expired token fails authority gate
+1. `test_authority_gate_capability_mismatch` — capability mismatch fails
+1. `test_authority_gate_no_tokens` — no tokens = no authority gates
+1. `test_gmef_gate_no_mutation` — no pending mutation = no GMEF gate
+1. `test_gmef_gate_block_m0` — M0 mutation is blocked (constitutional)
+1. `test_gmef_gate_sandbox_m3` — M3 mutation goes to SANDBOX
+1. `test_gmef_gate_missing_fields` — missing fields causes BLOCK
 
 ## Gate Order (Updated)
 
 The kernel's `run()` method now has this gate order:
+
 1. Objective gate
-2. AgentOps pre-execution gate
-3. Autonomy pre-execution gate
-4. AIBOM gate
-5. Semantic flow pre-execution gate
-6. Principal/delegation gate
-7. **Authority token validation gate** (NEW)
-8. **GMEF mutation assessment gate** (NEW)
-9. Skill selection + plan building + scheduler execution
-10. Autonomy post-execution gate
-11. Semantic flow post-execution gate
-12. AgentOps post-execution gate
-13. Evaluation post-execution gate
-14. Scientific post-execution gate
-15. Ontology post-execution gate
-16. ... (remaining advisory gates)
-17. Proof checking post-execution gate
-18. SelfAudit gate
-19. Finalize
+1. AgentOps pre-execution gate
+1. Autonomy pre-execution gate
+1. AIBOM gate
+1. Semantic flow pre-execution gate
+1. Principal/delegation gate
+1. **Authority token validation gate** (NEW)
+1. **GMEF mutation assessment gate** (NEW)
+1. Skill selection + plan building + scheduler execution
+1. Autonomy post-execution gate
+1. Semantic flow post-execution gate
+1. AgentOps post-execution gate
+1. Evaluation post-execution gate
+1. Scientific post-execution gate
+1. Ontology post-execution gate
+1. ... (remaining advisory gates)
+1. Proof checking post-execution gate
+1. SelfAudit gate
+1. Finalize
 
 ## Cross-Runtime Status
 
-| Runtime | Tests | Status |
-|---------|-------|--------|
-| Python (AMOS OS Kernel) | 1934 passed | Green |
-| TypeScript (Cosmo Brain) | 1253 passed (74 files) | Green |
-| **Total**
+| Runtime                  | Tests                  | Status |
+| ------------------------ | ---------------------- | ------ |
+| Python (AMOS OS Kernel)  | 1934 passed            | Green  |
+| TypeScript (Cosmo Brain) | 1253 passed (74 files) | Green  |
+| **Total**                |                        |        |
 
----
+______________________________________________________________________
+
 **MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -143,12 +146,14 @@ The kernel's `run()` method now has this gate order:
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: gmef-governance-authority-gmef-gate-integration
 node_type: reference
 path: 07_SKILLS/gmef-governance/references/authority_gmef_gate_integration.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

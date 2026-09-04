@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: L02 ATTENTION PRIMITIVES COGNITIVE MATRIX SKILLS
 type: skill
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION
 tags:
-- cognitive-matrix
-- primitives
-- matrix/l02-attention
-- note
-- domain/cognitive-matrix
+  - cognitive-matrix
+  - primitives
+  - matrix/l02-attention
+  - note
+  - domain/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -44,32 +47,32 @@ A Skill is an addressable capability package that may perform or guide a bounded
 
 For L02:
 
-[
+\[
 SkillCandidate_i =
-T[id,\ capability,\ inputs,\ outputs,\ constraints,\ evidence,\ authority]
-]
+T[id,\\ capability,\\ inputs,\\ outputs,\\ constraints,\\ evidence,\\ authority]
+\]
 
 L02's relationship to Skills is modeled as:
 
-[
+\[
 AttentionState
-\rightarrow
+\\rightarrow
 SkillSelectionProposal
-\rightarrow
+\\rightarrow
 GovernanceCheck
-\rightarrow
+\\rightarrow
 Invocation
-\rightarrow
+\\rightarrow
 ObservedResult
-\rightarrow
+\\rightarrow
 RSCFUpdate
-]
+\]
 
 not:
 
-[
-AttentionState \rightarrow AutomaticExecution
-]
+\[
+AttentionState \\rightarrow AutomaticExecution
+\]
 
 The Skill layer covers capability discovery, relevance assessment, candidate ranking, invocation proposals, result admission, failure handling, and provenance preservation.
 
@@ -664,23 +667,26 @@ TEST DEFINED != TEST EXECUTED
 
 **Conclusion class: `MODEL`.** The L02 attention/scarce-resource role is source-supported; the detailed Skill registry, routing operators, protocols, agent mappings, ownership model, runtime enforcement, and validation remain explicit `UNKNOWN/GAP` or modeled structure rather than recovered canon.
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: l02_attention_primitives_cognitive_matrix_skills
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION/L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_SKILLS.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION/L02_ATTENTION_MOC|L02_ATTENTION_MOC]]
-

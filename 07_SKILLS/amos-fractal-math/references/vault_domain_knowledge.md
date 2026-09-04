@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Vault Domain Knowledge — Amos Fractal Math
 type: reference
 source: 07_SKILLS/amos-fractal-math/references
 tags:
-- reference
-- amos-fractal-math
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-fractal-math
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -27,10 +30,9 @@ rscf:
 
 > Path: `fractal/AMOS Math Core — Fractal Mathematics & Cognitive Architecture Runtime.md` | Size: 23148 chars | Match score: 23 | content_hash: 5212815857bf3528
 
-# AMOS Math Core — Fractal Mathematics & Cognitive Architecture Runtime
+## AMOS Math Core — Fractal Mathematics & Cognitive Architecture Runtime
 
 ## Overview
-
 
 The module combines established mathematical/statistical methods with AMOS architecture adapters while preserving an important boundary:
 
@@ -38,39 +40,37 @@ The module combines established mathematical/statistical methods with AMOS archi
 
 The runtime includes:
 
+______________________________________________________________________
 
----
-
-# 1. Mathematical Runtime Model
+## 1. Mathematical Runtime Model
 
 The central decomposition is:
 
-[
-x_{t+1}=F(x_t)+\varepsilon_t
-]
+\[
+x\_{t+1}=F(x_t)+\\varepsilon_t
+\]
 
 where:
 
-
 Depending on the dataset, additional estimated quantities may include:
 
-[
-D = \text{fractal dimension}
-]
+\[
+D = \\text{fractal dimension}
+\]
 
-[
-H = \text{Hurst exponent}
-]
+\[
+H = \\text{Hurst exponent}
+\]
 
-[
-\alpha = \text{tail or scaling exponent}
-]
+\[
+\\alpha = \\text{tail or scaling exponent}
+\]
 
 These quantities are **estimated from data**. They are not universal constants of the AMOS architecture.
 
----
+______________________________________________________________________
 
-# 2. Epistemic Boundary
+## 2. Epistemic Boundary
 
 AMOS Math Core separates four different kinds of mathematical use.
 
@@ -78,19 +78,18 @@ AMOS Math Core separates four different kinds of mathematical use.
 
 Examples include:
 
-
 ### Numerical Estimation
 
 Finite datasets require numerical approximations of theoretical limits.
 
 For example,
 
-[
+\[
 D_B =
-\lim_{\epsilon\rightarrow0}
-\frac{\log N(\epsilon)}
-{\log(1/\epsilon)}
-]
+\\lim\_{\\epsilon\\rightarrow0}
+\\frac{\\log N(\\epsilon)}
+{\\log(1/\\epsilon)}
+\]
 
 cannot normally be evaluated as a literal limit from finite observations.
 
@@ -106,9 +105,9 @@ The mathematical object and its software approximation should therefore remain d
 
 When mathematical quantities are mapped onto cognitive architecture, architecture entropy, recursive H/M/L organization, or other AMOS structures, that mapping remains an **AMOS MODEL** unless independently validated for the target domain.
 
----
+______________________________________________________________________
 
-# 3. Fractal Parameter State
+## 3. Fractal Parameter State
 
 ```python
 @dataclass
@@ -141,9 +140,9 @@ Observed Data
 
 Each value should retain the dataset, estimator, scale range, preprocessing assumptions, and numerical conditions under which it was obtained.
 
----
+______________________________________________________________________
 
-# 4. Fractal Dimension Estimation
+## 4. Fractal Dimension Estimation
 
 ## Box-Counting Dimension
 
@@ -153,84 +152,86 @@ box_counting_dimension(...)
 
 estimates the Minkowski/box-counting dimension using:
 
-[
-N(\epsilon)\sim\epsilon^{-D}
-]
+\[
+N(\\epsilon)\\sim\\epsilon^{-D}
+\]
 
 and therefore:
 
-[
-D \approx
-\frac{d\log N(\epsilon)}
-{d\log(1/\epsilon)}
-]
+\[
+D \\approx
+\\frac{d\\log N(\\epsilon)}
+{d\\log(1/\\epsilon)}
+\]
 
 The implementation:
 
 1. normalizes the observations;
-2. constructs logarithmically spaced scales;
-3. counts occupied boxes;
-4
+1. constructs logarithmically spaced scales;
+1. counts occupied boxes;
+   4
 
----
+______________________________________________________________________
 
 ### Source 3: ancient_math_architecture
 
 > Path: `math/ancient_math_architecture.md` | Size: 1367 chars | Match score: 15 | content_hash: bec25344fc83515f
 
 {
-  "metadata": {
-    "title": "Ancient Math Fractal System",
-    "version": "1.0",
-    "created_utc": "2026-05-06T08:37:43+00:00",
-    "purpose": "Fractal architecture for ancient mathematics, symbolic ratios, geometry, astronomy, and cyclical systems."
-  },
-  "core_model": {
-    "system": "Pattern = Structure + Ratio + Cycle + Scale + Meaning + Constraint + Recurrence",
-    "L_M_H": {
-      "L": "foundation and material stability",
-      "M": "balance and transition",
-      "H": "expansion and transformation"
-    }
-  },
-  "core_equations": [
-    {
-      "id": "AM001",
-      "name": "cycle_alignment",
-      "formula": "CA = overlap(cycle_a, cycle_b) / total_cycle"
-    },
-    {
-      "id": "AM002",
-      "name": "ratio_harmony",
-      "formula": "RH = min(ratio_a, ratio_b) / max(ratio_a, ratio_b)"
-    },
-    {
-      "id": "AM003",
-      "name": "fractal_recurrence",
-      "formula": "FR = similarity(scale_n, scale_n+1)"
-    },
-    {
-      "id": "AM004",
-      "name": "entropy_shift",
-      "formula": "ES = disorder_after - disorder_before"
-    },
-    {
-      "id": "AM005",
-      "name": "symbolic_density",
-      "formula": "SD = symbolic_units / total_units"
-    }
-  ]
+"metadata": {
+"title": "Ancient Math Fractal System",
+"version": "1.0",
+"created_utc": "2026-05-06T08:37:43+00:00",
+"purpose": "Fractal architecture for ancient mathematics, symbolic ratios, geometry, astronomy, and cyclical systems."
+},
+"core_model": {
+"system": "Pattern = Structure + Ratio + Cycle + Scale + Meaning + Constraint + Recurrence",
+"L_M_H": {
+"L": "foundation and material stability",
+"M": "balance and transition",
+"H": "expansion and transformation"
+}
+},
+"core_equations": \[
+{
+"id": "AM001",
+"name": "cycle_alignment",
+"formula": "CA = overlap(cycle_a, cycle_b) / total_cycle"
+},
+{
+"id": "AM002",
+"name": "ratio_harmony",
+"formula": "RH = min(ratio_a, ratio_b) / max(ratio_a, ratio_b)"
+},
+{
+"id": "AM003",
+"name": "fractal_recurrence",
+"formula": "FR = similarity(scale_n, scale_n+1)"
+},
+{
+"id": "AM004",
+"name": "entropy_shift",
+"formula": "ES = disorder_after - disorder_before"
+},
+{
+"id": "AM005",
+"name": "symbolic_density",
+"formula": "SD = symbolic_units / total_units"
+}
+\]
 }
 
----
+______________________________________________________________________
 
----
+______________________________________________________________________
+
 **MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -238,13 +239,14 @@ The implementation:
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-fractal-math-vault-domain-knowledge
 node_type: reference
 path: 07_SKILLS/amos-fractal-math/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC
-

@@ -12,18 +12,18 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: ARCHITECTURE
 path: 11_KNOWLEDGE/05_FRAMEWORKS/COGNITIVE_SYSTEMS_ARCHITECTURE.md
 tags:
-- amos-os
-- knowledge
-- vault
-- 05_frameworks
-- cognitive_systems_architecture
-- multi_layer_cognition
-- perception_reasoning_action
-- rscf
-- canon_candidate
-- canon/knowledge
-- amos-mind-os-framework
-- ldai-logically-deterministic-ai
+  - amos-os
+  - knowledge
+  - vault
+  - 05_frameworks
+  - cognitive_systems_architecture
+  - multi_layer_cognition
+  - perception_reasoning_action
+  - rscf
+  - canon_candidate
+  - canon/knowledge
+  - amos-mind-os-framework
+  - ldai-logically-deterministic-ai
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -38,19 +38,19 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - THE_ARCHITECTURE_OF_INTELLIGENCE_AND_PERCEPTION
-  - AMOS_FULL_BRAIN_OS_ARCHITECTURE
-  - AMOS_CORPUS
+    - THE_ARCHITECTURE_OF_INTELLIGENCE_AND_PERCEPTION
+    - AMOS_FULL_BRAIN_OS_ARCHITECTURE
+    - AMOS_CORPUS
   scope:
-  - KNOWLEDGE_FRAMEWORKS
-  - COGNITIVE_SYSTEMS
-  - SOURCE_DEFINED_MODEL
+    - KNOWLEDGE_FRAMEWORKS
+    - COGNITIVE_SYSTEMS
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   brain_os:
     artifact: 11_KNOWLEDGE/AMOS_FULL_BRAIN_OS_ARCHITECTURE
   mind_os:
     artifact:
-    - - AMOS_MIND_OS_FRAMEWORK
+      -   - AMOS_MIND_OS_FRAMEWORK
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
@@ -64,29 +64,29 @@ epistemic_boundary:
 
 It models the structural pipeline of intelligence from sensory perception through semantic distinction, logical reasoning, and governed action execution.
 
----
+______________________________________________________________________
 
-# 1. Pipeline of Intelligence
+## 1. Pipeline of Intelligence
 
 $$\text{Sensory Input } (S_0) \xrightarrow{\text{Perception}} \text{Distinction } (D) \xrightarrow{\text{Reasoning Graph}} \text{Formal Proof / QLS} \xrightarrow{\text{Action Gate}} \text{Execution } (A)$$
 
 1. **Perception Layer:** Gathers and normalizes multimodal sensory streams without premature symbolic distortion.
-2. **Cognitive Reasoning Graph:** Expands multi-hypothesis state graphs ($\Sigma$) under uncertainty.
-3. **Formal Verification Filter:** Verifies proofs against deterministic axioms (LDAI) and epistemic constraints.
-4. **Governed Execution:** Commits actions only after generating signed decision receipts.
+1. **Cognitive Reasoning Graph:** Expands multi-hypothesis state graphs ($\Sigma$) under uncertainty.
+1. **Formal Verification Filter:** Verifies proofs against deterministic axioms (LDAI) and epistemic constraints.
+1. **Governed Execution:** Commits actions only after generating signed decision receipts.
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Full Brain OS:** `11_KNOWLEDGE/AMOS_FULL_BRAIN_OS_ARCHITECTURE`
 - **Mind OS:** [[11_KNOWLEDGE/05_FRAMEWORKS/AMOS_MIND_OS_FRAMEWORK|AMOS_MIND_OS_FRAMEWORK]]
 - **Native Vault Source:** `11_KNOWLEDGE/architecture/THE_ARCHITECTURE_OF_INTELLIGENCE_AND_PERCEPTION`
 - **Cognitive Matrix:** `25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC`
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -104,10 +104,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]] · `11_KNOWLEDGE/AMOS_FULL_BRAIN_OS_ARCHITECTURE` · [[11_KNOWLEDGE/05_FRAMEWORKS/AMOS_MIND_OS_FRAMEWORK|AMOS_MIND_OS_FRAMEWORK]] · [[11_KNOWLEDGE/05_FRAMEWORKS/LDAI_LOGICALLY_DETERMINISTIC_AI|LDAI_LOGICALLY_DETERMINISTIC_AI]]
 
----
-**MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]
+______________________________________________________________________
 
+**MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]

@@ -1,4 +1,7 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: AMOS VOMNI KERNEL V0 DOMAINS7
 type: kernel
 source: 11_KNOWLEDGE/kernel
@@ -7,13 +10,13 @@ canon-type: framework
 rscf-state: source-claim
 topic: amos-vomni-kernel-v0
 tags:
-- canon-group/tech-ai
-- canon/framework
-- rscf/claim
-- rscf/provenance
-- rscf/state/source-claim
-- topic/amos-vomni-kernel-v0
-- kernel
+  - canon-group/tech-ai
+  - canon/framework
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - topic/amos-vomni-kernel-v0
+  - kernel
 created: 2026-08-22
 rscf:
   state: SOURCE_CLAIM
@@ -145,6 +148,6 @@ rscf:
 **Related:** [[11_KNOWLEDGE/kernel/AMOS_COGNITION_TOTAL_KERNEL|AMOS_COGNITION_TOTAL_KERNEL]] · [[11_KNOWLEDGE/kernel/AMOS_META_KERNEL_SPECIFICATIONS|AMOS_META_KERNEL_SPECIFICATIONS]] · [[11_KNOWLEDGE/kernel/AMOS_TOOLCHAIN_INTEGRATION_KERNEL|AMOS_TOOLCHAIN_INTEGRATION_KERNEL]] · [[11_KNOWLEDGE/kernel/AMOS_POLICY_GEOSTRATEGY_KERNEL_V0|AMOS_POLICY_GEOSTRATEGY_KERNEL_V0]]
 ```
 
----
-**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]
+______________________________________________________________________
 
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]

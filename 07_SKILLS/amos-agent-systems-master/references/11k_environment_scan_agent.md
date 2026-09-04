@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: 11k environment scan agent
 type: reference
 source: 07_SKILLS/amos-agent-systems-master/references
 tags:
-- reference
-- amos-agent-systems-master
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-agent-systems-master
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -20,7 +23,8 @@ rscf:
 > Source: `/Users/mac/Documents/AMOS_OS/11_KNOWLEDGE/environment_scan_agent.md`
 > Epistemic class: SOURCE_DERIVED
 
----
+______________________________________________________________________
+
 artifact_id: AMOS-ENVIRONMENT-SCAN-AGENT
 name: EnvironmentScan_Agent
 title: AMOS EnvironmentScan Agent — Governed Sense-System Component
@@ -47,26 +51,28 @@ implementation_state: "REGISTERED_STUB"
 runtime_state: "NON_DESTRUCTIVE_TRACE_ONLY"
 
 aliases:
-  - EnvironmentScan Agent
-  - AMOS Environment Scan Agent
-  - Sense System Environment Scanner
+
+- EnvironmentScan Agent
+- AMOS Environment Scan Agent
+- Sense System Environment Scanner
 
 tags:
-  - agents
-  - canon-group/tech-ai
-  - canon/component
-  - rscf/claim
-  - rscf/provenance
-  - rscf/state/source-claim
-  - topic/environment-scan-agent
-  - topic/sense-system
-  - topic/agent-runtime
-  - topic/context-observation
 
-governing_law: "integrity > completeness > fluency > speed > token savings"
----
+- agents
+- canon-group/tech-ai
+- canon/component
+- rscf/claim
+- rscf/provenance
+- rscf/state/source-claim
+- topic/environment-scan-agent
+- topic/sense-system
+- topic/agent-runtime
+- topic/context-observation
 
-# AMOS EnvironmentScan Agent
+## governing_law: "integrity > completeness > fluency > speed > token savings"
+
+## AMOS EnvironmentScan Agent
+
 ## Governed Sense-System Component
 
 > **System:** `SENSE_SYSTEM`
@@ -77,9 +83,9 @@ governing_law: "integrity > completeness > fluency > speed > token savings"
 > **Current implementation class:** `REGISTERED_STUB`
 > **Current execution behavior:** append trace → return context unchanged
 
----
+______________________________________________________________________
 
-# 0. EXECUTIVE STATUS
+## 0. EXECUTIVE STATUS
 
 The current source implementation does **not** perform environmental scanning.
 
@@ -128,9 +134,9 @@ status:
   environment_model_update: NOT_IMPLEMENTED
 ```
 
----
+______________________________________________________________________
 
-# 1. VERSION / LINEAGE MODEL
+## 1. VERSION / LINEAGE MODEL
 
 The component uses separate version axes:
 
@@ -201,9 +207,9 @@ destructive operation
 sensor evidence contract break
 ```
 
----
+______________________________________________________________________
 
-# 2. SOURCE IMPLEMENTATION
+## 2. SOURCE IMPLEMENTATION
 
 ```python
 """AMOS logical component.
@@ -222,10 +228,9 @@ Com
 -
 ```
 
----
+______________________________________________________________________
 
-**Related:** [[07_SKILLS/amos-agent-systems-master/amos-agent-systems-master_MOC|amos-agent-systems-master_MOC]]
----
+## **Related:** [[07_SKILLS/amos-agent-systems-master/amos-agent-systems-master_MOC|amos-agent-systems-master_MOC]]
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -233,12 +238,14 @@ Com
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-agent-systems-master-11k-environment-scan-agent
 node_type: reference
 path: 07_SKILLS/amos-agent-systems-master/references/11k_environment_scan_agent.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

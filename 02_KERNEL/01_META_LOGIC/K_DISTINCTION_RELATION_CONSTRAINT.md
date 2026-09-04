@@ -17,69 +17,83 @@ scope: AMOS_OS
 created: 2026-08-25
 updated: 2026-08-25
 tags:
-- amos-os
-- kernel
-- core
-- canon-group/tech-ai
-- canon/model
-- kernel/foundation
-- kernel/distinction
-- kernel/relation
-- kernel/constraint
-- kernel/identity
-- kernel/semantics
-- kernel/invariants
-- kernel/dependency
-- kernel/provenance
-- kernel/scope
-- kernel/regime
-- kernel/validation
-- rscf/claim
-- rscf/provenance
-- rscf/state/model
-- topic/distinction-relation-constraint
-- readme
-- architecture
-- placement-rules
-- amos-core-laws
-- law-hierarchy
-- canon-provenance
-- source-lineage
-- supersession-log
-- k-core19-logic
-- authoritative-state
+  - amos-os
+  - kernel
+  - core
+  - canon-group/tech-ai
+  - canon/model
+  - kernel/foundation
+  - kernel/distinction
+  - kernel/relation
+  - kernel/constraint
+  - kernel/identity
+  - kernel/semantics
+  - kernel/invariants
+  - kernel/dependency
+  - kernel/provenance
+  - kernel/scope
+  - kernel/regime
+  - kernel/validation
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/model
+  - topic/distinction-relation-constraint
+  - readme
+  - architecture
+  - placement-rules
+  - amos-core-laws
+  - law-hierarchy
+  - canon-provenance
+  - source-lineage
+  - supersession-log
+  - k-core19-logic
+  - authoritative-state
 aliases:
-- DRC Kernel - Distinction Relation Constraint - K DRC - AMOS Distinction Relation
-  Constraint
+  - DRC Kernel - Distinction Relation Constraint - K DRC - AMOS Distinction Relation Constraint
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 # K_DISTINCTION_RELATION_CONSTRAINT
+
 > **AMOS Core target:** `v4.4`
 > **Origin architect / steward:** Trang Phan
 > **Plane:** `02_KERNEL`
 > **Status:** `AMOS_MODEL`
 > **Conclusion class:** `AMOS_MODEL`
+
 ## Purpose
+
 `K_DISTINCTION_RELATION_CONSTRAINT` defines the foundational semantic primitives by which AMOS OS can represent:
+
 ```text
 WHAT SOMETHING IS
 WHAT SOMETHING IS NOT
 HOW THINGS RELATE
 WHAT LIMITS THOSE RELATIONS
 ```
+
 The kernel is organized around three primitive operations:
+
 ```text
 DISTINCTION
 RELATION
 CONSTRAINT
 ```
+
 abbreviated:
+
 ```text
 D
 R
 C
 ```
+
 Conceptually:
+
 ```text
 DISTINCTION
 ↓
@@ -91,17 +105,10 @@ CONSTRAINT
 ↓
 BOUNDARIES ON VALID ENTITIES, RELATIONS, AND TRANSITIONS
 ```
-The DRC kernel provides semantic structure.
-It does not independently establish empirical truth, canon authority, execution permission, or external effects.
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
----
 
+## The DRC kernel provides semantic structure. It does not independently establish empirical truth, canon authority, execution permission, or external effects. rscf: state: DERIVED claim_class: DERIVED provenance: AMOS_corpus scope: AMOS_general
 
-# 1. Architectural Position
+## 1. Architectural Position
 
 ```text
 01_CANON
@@ -130,9 +137,9 @@ rscf:
 
 DRC supplies semantic primitives that higher kernel structures may compose.
 
----
+______________________________________________________________________
 
-# 2. Hard Boundary
+## 2. Hard Boundary
 
 ```text
 DISTINCTION != TRUTH
@@ -153,9 +160,9 @@ PROPOSAL != COMMIT
 UNKNOWN/GAP != PASS
 ```
 
----
+______________________________________________________________________
 
-# 3. Primitive Model
+## 3. Primitive Model
 
 Let:
 
@@ -183,9 +190,9 @@ where:
 
 This notation is an AMOS architectural model, not an assertion of a recovered formal specification.
 
----
+______________________________________________________________________
 
-# 4. Distinction Primitive
+## 4. Distinction Primitive
 
 A distinction separates one semantic state or object from another.
 
@@ -216,9 +223,9 @@ REGIME
 
 where material.
 
----
+______________________________________________________________________
 
-# 5. Distinction Contract
+## 5. Distinction Contract
 
 Conceptually:
 
@@ -244,9 +251,9 @@ distinction:
 
 A distinction lacking a material criterion must not be silently treated as established.
 
----
+______________________________________________________________________
 
-# 6. Identity Law
+## 6. Identity Law
 
 ```text
 SAME LABEL
@@ -275,9 +282,9 @@ DISPLAY LABEL CHANGE
 VERSION LABEL CHANGE
 ```
 
----
+______________________________________________________________________
 
-# 7. Identity Firewall
+## 7. Identity Firewall
 
 The following are distinct:
 
@@ -307,9 +314,9 @@ MOVE(FILE)
 CHANGE(CANON_LINEAGE)
 ```
 
----
+______________________________________________________________________
 
-# 8. Distinction Preservation
+## 8. Distinction Preservation
 
 Once a distinction is load-bearing, downstream reasoning must preserve it unless an explicit merge operation is justified.
 
@@ -331,9 +338,9 @@ KERNEL
 
 if doing so destroys the distinction required by the reasoning path.
 
----
+______________________________________________________________________
 
-# 9. Distinction Collapse
+## 9. Distinction Collapse
 
 A distinction collapse occurs when two materially different objects are treated as equivalent without sufficient justification.
 
@@ -362,9 +369,9 @@ AGENT = SKILL
 SKILL = WORKFLOW
 ```
 
----
+______________________________________________________________________
 
-# 10. Equivalence
+## 10. Equivalence
 
 Equivalence must be typed.
 
@@ -390,9 +397,9 @@ FUNCTIONALLY_EQUIVALENT
 IDENTICAL
 ```
 
----
+______________________________________________________________________
 
-# 11. Relation Primitive
+## 11. Relation Primitive
 
 A relation connects two or more semantic objects.
 
@@ -428,9 +435,9 @@ VALIDATES
 OBSERVES
 ```
 
----
+______________________________________________________________________
 
-# 12. Relation Contract
+## 12. Relation Contract
 
 Conceptually:
 
@@ -460,9 +467,9 @@ relation:
 
 Only fields material to the relation need to be instantiated.
 
----
+______________________________________________________________________
 
-# 13. Typed Relation Law
+## 13. Typed Relation Law
 
 ```text
 RELATION(A, B)
@@ -488,9 +495,9 @@ AUTHORIZES(A, B)
 
 Relation semantics must remain explicit.
 
----
+______________________________________________________________________
 
-# 14. Directionality
+## 14. Directionality
 
 Relations may be:
 
@@ -526,9 +533,9 @@ does not imply:
 B DEPENDS_ON A
 ```
 
----
+______________________________________________________________________
 
-# 15. Relation Composition
+## 15. Relation Composition
 
 Suppose:
 
@@ -557,9 +564,9 @@ R3(A,C)
 
 unless `R3` is licensed by the relation algebra.
 
----
+______________________________________________________________________
 
-# 16. Transitivity Firewall
+## 16. Transitivity Firewall
 
 Relations must declare whether they are transitive.
 
@@ -587,9 +594,9 @@ A ASSOCIATED_WITH C
 
 as a logically necessary relation.
 
----
+______________________________________________________________________
 
-# 17. Symmetry Firewall
+## 17. Symmetry Firewall
 
 Relations must declare whether they are symmetric.
 
@@ -615,9 +622,9 @@ SUPERSEDES(A,B)
 SUPERSEDES(B,A)
 ```
 
----
+______________________________________________________________________
 
-# 18. Relation Cardinality
+## 18. Relation Cardinality
 
 Relations may have cardinalities such as:
 
@@ -638,9 +645,9 @@ ONE AUTHORITATIVE CURRENT VERSION
 
 may be a cardinality constraint even if many historical versions exist.
 
----
+______________________________________________________________________
 
-# 19. Constraint Primitive
+## 19. Constraint Primitive
 
 A constraint defines a condition that restricts valid:
 
@@ -658,9 +665,9 @@ Conceptually:
 C(X) ∈ {SATISFIED, VIOLATED, UNKNOWN}
 ```
 
----
+______________________________________________________________________
 
-# 20. Constraint Contract
+## 20. Constraint Contract
 
 ```yaml
 constraint:
@@ -687,9 +694,9 @@ constraint:
   conclusion_class:
 ```
 
----
+______________________________________________________________________
 
-# 21. Constraint Types
+## 21. Constraint Types
 
 AMOS may distinguish:
 
@@ -714,9 +721,9 @@ INVARIANT
 
 These categories may overlap operationally but should remain semantically typed.
 
----
+______________________________________________________________________
 
-# 22. Hard vs Soft Constraints
+## 22. Hard vs Soft Constraints
 
 ```text
 HARD CONSTRAINT
@@ -738,9 +745,9 @@ SOFT_CONSTRAINT_FAILURE
 HARD_CONSTRAINT_FAILURE
 ```
 
----
+______________________________________________________________________
 
-# 23. Constraint Satisfaction
+## 23. Constraint Satisfaction
 
 Given constraints:
 
@@ -765,9 +772,9 @@ But not all constraint sets necessarily use strict conjunction.
 
 The composition rule must therefore be explicit.
 
----
+______________________________________________________________________
 
-# 24. Unknown Constraint State
+## 24. Unknown Constraint State
 
 For a required hard constraint:
 
@@ -791,9 +798,9 @@ UNKNOWN/GAP
 
 or escalation.
 
----
+______________________________________________________________________
 
-# 25. Constraint Conflict
+## 25. Constraint Conflict
 
 Constraints themselves may conflict.
 
@@ -814,9 +821,9 @@ must be surfaced.
 
 AMOS must not arbitrarily choose one unless precedence is defined.
 
----
+______________________________________________________________________
 
-# 26. Constraint Precedence
+## 26. Constraint Precedence
 
 Constraint precedence must derive from an explicit authority structure such as:
 
@@ -852,9 +859,9 @@ AUTOMATICALLY AUTHORITATIVE
 
 unless canon defines such precedence.
 
----
+______________________________________________________________________
 
-# 27. DRC Composition
+## 27. DRC Composition
 
 The three primitives compose as:
 
@@ -894,9 +901,9 @@ STATE
 RE-DISTINGUISH
 ```
 
----
+______________________________________________________________________
 
-# 28. DRC Graph
+## 28. DRC Graph
 
 Conceptually:
 
@@ -921,9 +928,9 @@ FRESHNESS
 STATE
 ```
 
----
+______________________________________________________________________
 
-# 29. Relation vs Dependency
+## 29. Relation vs Dependency
 
 ```text
 RELATION
@@ -947,9 +954,9 @@ conceptually.
 
 But not every relation is a dependency.
 
----
+______________________________________________________________________
 
-# 30. Dependency Semantics
+## 30. Dependency Semantics
 
 For:
 
@@ -969,9 +976,9 @@ failure of `B` does not necessarily invalidate `A`.
 
 This distinction is critical to local invalidation.
 
----
+______________________________________________________________________
 
-# 31. Relation vs Provenance
+## 31. Relation vs Provenance
 
 Provenance is a specialized relation topology.
 
@@ -994,9 +1001,9 @@ RELATED_TO
 
 when ancestry matters.
 
----
+______________________________________________________________________
 
-# 32. Provenance Topology
+## 32. Provenance Topology
 
 Consider:
 
@@ -1017,9 +1024,9 @@ D DERIVED_FROM A
 
 This allows provenance logic to detect common ancestry.
 
----
+______________________________________________________________________
 
-# 33. Sybil / Duplication Hardening
+## 33. Sybil / Duplication Hardening
 
 If:
 
@@ -1043,9 +1050,9 @@ NODE COUNT
 INDEPENDENT EVIDENCE COUNT
 ```
 
----
+______________________________________________________________________
 
-# 34. Relation vs Causation
+## 34. Relation vs Causation
 
 Causation is a specially licensed relation class.
 
@@ -1065,9 +1072,9 @@ A CO-OCCURS_WITH B
 A IS_CONNECTED_TO B
 ```
 
----
+______________________________________________________________________
 
-# 35. Causal Firewall
+## 35. Causal Firewall
 
 ```text
 ASSOCIATION != CAUSATION
@@ -1079,9 +1086,9 @@ RELATION != CAUSATION
 
 DRC preserves these distinctions for the causal kernel.
 
----
+______________________________________________________________________
 
-# 36. Scope Constraint
+## 36. Scope Constraint
 
 Every material DRC object may inherit a scope envelope.
 
@@ -1098,9 +1105,9 @@ scope:
 
 A relation established in one scope cannot silently expand beyond it.
 
----
+______________________________________________________________________
 
-# 37. Regime Constraint
+## 37. Regime Constraint
 
 A relation may be valid only under a regime.
 
@@ -1116,9 +1123,9 @@ R(A,B | REGIME_2)
 
 unless regime invariance is independently established.
 
----
+______________________________________________________________________
 
-# 38. Temporal Constraint
+## 38. Temporal Constraint
 
 Relations and distinctions may change over time.
 
@@ -1136,9 +1143,9 @@ B = CURRENT
 
 Therefore temporal state must remain explicit when material.
 
----
+______________________________________________________________________
 
-# 39. Version Distinction
+## 39. Version Distinction
 
 AMOS version identity is distinct from semantic identity.
 
@@ -1157,9 +1164,9 @@ DIFFERENT STATE
 
 Version change does not necessarily imply a new semantic artifact.
 
----
+______________________________________________________________________
 
-# 40. Supersession Relation
+## 40. Supersession Relation
 
 Canonical supersession is directional:
 
@@ -1180,9 +1187,9 @@ subject to authoritative canon/provenance process.
 
 Historical lineage remains recoverable.
 
----
+______________________________________________________________________
 
-# 41. Contradiction Relation
+## 41. Contradiction Relation
 
 Two claims may have:
 
@@ -1206,9 +1213,9 @@ STATE = COMPETING
 
 rather than forced resolution.
 
----
+______________________________________________________________________
 
-# 42. Compatibility Relation
+## 42. Compatibility Relation
 
 Compatibility is distinct from identity.
 
@@ -1230,9 +1237,9 @@ SCOPE_COMPATIBLE
 REGIME_COMPATIBLE
 ```
 
----
+______________________________________________________________________
 
-# 43. H/M/L Relation
+## 43. H/M/L Relation
 
 H/M/L decomposition introduces hierarchical relations:
 
@@ -1254,9 +1261,9 @@ BELONGS_TO
 
 Hierarchy does not itself establish causality or dependency.
 
----
+______________________________________________________________________
 
-# 44. Recursive Structure
+## 44. Recursive Structure
 
 A node at one scale may itself contain another DRC graph.
 
@@ -1276,9 +1283,9 @@ DRC(L)
 
 This supports AMOS fractal decomposition without erasing scale distinctions.
 
----
+______________________________________________________________________
 
-# 45. RSCF Relation
+## 45. RSCF Relation
 
 RSCF structures depend on distinctions between:
 
@@ -1295,9 +1302,9 @@ DECISION
 
 DRC supplies the semantic separation required to prevent these roles from collapsing.
 
----
+______________________________________________________________________
 
-# 46. RSCF Example
+## 46. RSCF Example
 
 ```text
 SOURCE_A
@@ -1311,9 +1318,9 @@ SOURCE_A
 
 Each edge has a distinct semantic meaning.
 
----
+______________________________________________________________________
 
-# 47. State Distinction
+## 47. State Distinction
 
 AMOS must distinguish:
 
@@ -1340,9 +1347,9 @@ and:
 SHADOW_STATE != COMMITTED_STATE
 ```
 
----
+______________________________________________________________________
 
-# 48. Authority Relation
+## 48. Authority Relation
 
 Authority is represented through typed relations such as:
 
@@ -1356,9 +1363,9 @@ DELEGATED_BY
 
 A generic connection to an authority object does not establish authorization.
 
----
+______________________________________________________________________
 
-# 49. Capability Relation
+## 49. Capability Relation
 
 Capability may be represented as:
 
@@ -1382,9 +1389,9 @@ AUTHORIZED_FOR
 
 This preserves the AMOS capability/authority firewall.
 
----
+______________________________________________________________________
 
-# 50. Tool Relation
+## 50. Tool Relation
 
 ```text
 AGENT --CAN_CALL--> TOOL
@@ -1398,9 +1405,9 @@ AGENT --AUTHORIZED_TO_EFFECT--> WORLD
 
 Tool accessibility and external-effect authority remain distinct relations.
 
----
+______________________________________________________________________
 
-# 51. Model Relation
+## 51. Model Relation
 
 A model may:
 
@@ -1420,9 +1427,9 @@ AUTHORIZES
 PROVES
 ```
 
----
+______________________________________________________________________
 
-# 52. Constraint Propagation
+## 52. Constraint Propagation
 
 Constraints may propagate through explicit dependency paths.
 
@@ -1441,9 +1448,9 @@ RELATION
 PROPAGATION LICENSE
 ```
 
----
+______________________________________________________________________
 
-# 53. Local Invalidation
+## 53. Local Invalidation
 
 Given:
 
@@ -1477,9 +1484,9 @@ LOCAL FAILURE
 GLOBAL INVALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 54. Constraint Closure
+## 54. Constraint Closure
 
 For target `T`:
 
@@ -1497,9 +1504,9 @@ This implements:
 SMALLEST SUFFICIENT PROOF SCOPE
 ```
 
----
+______________________________________________________________________
 
-# 55. Constraint Independence
+## 55. Constraint Independence
 
 Two constraints are not independent merely because they have different IDs.
 
@@ -1522,9 +1529,9 @@ DISTINCT ID
 INDEPENDENT CONSTRAINT
 ```
 
----
+______________________________________________________________________
 
-# 56. Constraint Contradiction
+## 56. Constraint Contradiction
 
 Conceptually:
 
@@ -1543,9 +1550,9 @@ must remain visible.
 
 The engine must not fabricate precedence.
 
----
+______________________________________________________________________
 
-# 57. DRC and CORE19
+## 57. DRC and CORE19
 
 `K_DISTINCTION_RELATION_CONSTRAINT` and `K_CORE19_LOGIC` have different responsibilities.
 
@@ -1579,9 +1586,9 @@ Therefore:
 DRC != CORE19
 ```
 
----
+______________________________________________________________________
 
-# 58. DRC Validation Sequence
+## 58. DRC Validation Sequence
 
 A compact validation sequence is:
 
@@ -1607,9 +1614,9 @@ CHECK CONFLICT
 VALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 59. Minimal Pseudocode
+## 59. Minimal Pseudocode
 
 ```python
 def validate_drc(graph, context):
@@ -1650,9 +1657,9 @@ def validate_drc(graph, context):
 
 This is architectural pseudocode rather than evidence of a deployed implementation.
 
----
+______________________________________________________________________
 
-# 60. DRC Core Invariants
+## 60. DRC Core Invariants
 
 ```text
 DRC-01
@@ -1716,9 +1723,9 @@ DRC-20
 PROPOSAL MUST REMAIN DISTINCT FROM COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 61. Compact Kernel Law
+## 61. Compact Kernel Law
 
 ```text
 DISTINGUISH BEFORE RELATING
@@ -1734,9 +1741,9 @@ VALIDATE BEFORE PROMOTING
 AUTHORIZE BEFORE COMMITTING
 ```
 
----
+______________________________________________________________________
 
-# 62. Canonical AMOS Distinction Set
+## 62. Canonical AMOS Distinction Set
 
 The DRC kernel should preserve at minimum the architecture-level distinctions:
 
@@ -1784,9 +1791,9 @@ UNKNOWN/GAP != PASS
 
 These distinctions function as semantic firewalls across AMOS OS.
 
----
+______________________________________________________________________
 
-# 63. Failure Modes
+## 63. Failure Modes
 
 ```text
 IDENTITY_COLLAPSE
@@ -1811,9 +1818,9 @@ VERSION_IDENTITY_COLLAPSE
 SUPERSESSION_LINEAGE_BREAK
 ```
 
----
+______________________________________________________________________
 
-# 64. Recovery
+## 64. Recovery
 
 Recovery follows the affected semantic topology.
 
@@ -1835,9 +1842,9 @@ REVALIDATE
 
 Global graph invalidation is not the default.
 
----
+______________________________________________________________________
 
-# 65. Observability
+## 65. Observability
 
 Material DRC operations should be traceable through fields such as:
 
@@ -1864,9 +1871,9 @@ TRACE_EXISTS
 OPERATION_VALID
 ```
 
----
+______________________________________________________________________
 
-# 66. Test Requirements
+## 66. Test Requirements
 
 The kernel should eventually include tests for:
 
@@ -1893,9 +1900,9 @@ AUTHORITY SEPARATION
 UNKNOWN/GAP FAIL-CLOSED
 ```
 
----
+______________________________________________________________________
 
-# 67. Negative Tests
+## 67. Negative Tests
 
 Critical negative tests include:
 
@@ -1925,9 +1932,9 @@ VALID RELATION A→B → VALID RELATION B→A
 MUST FAIL UNLESS SYMMETRIC
 ```
 
----
+______________________________________________________________________
 
-# 68. Lifecycle
+## 68. Lifecycle
 
 ```text
 PLACEHOLDER
@@ -1963,9 +1970,9 @@ VALIDATED
 AUTHORIZED
 ```
 
----
+______________________________________________________________________
 
-# 69. Promotion Gate
+## 69. Promotion Gate
 
 Before this artifact is promoted beyond `AMOS_MODEL`:
 
@@ -1996,9 +2003,9 @@ Until then:
 IMPLEMENTATION STATUS = UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 70. Integrity Note
+## 70. Integrity Note
 
 This artifact promotes the repository entry from an empty placeholder to a structured AMOS v4.4-aligned architectural model.
 
@@ -2031,9 +2038,9 @@ CONCLUSION_CLASS = AMOS_MODEL
 
 until canonical source lineage is bound and reviewed.
 
----
+______________________________________________________________________
 
-# 71. RSCF Node
+## 71. RSCF Node
 
 ```RSCF-NODE
 node_id: AMOS-OS-K-DISTINCTION-RELATION-CONSTRAINT
@@ -2061,7 +2068,7 @@ RSCF-RELATIONS:
   - VERIFIED_BY: README
 ```
 
----
+______________________________________________________________________
 
 ## Related
 
@@ -2102,12 +2109,14 @@ README
 ```text
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 **MOC:** [[02_KERNEL/01_META_LOGIC/01_META_LOGIC_MOC|01_META_LOGIC_MOC]]

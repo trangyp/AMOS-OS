@@ -1,16 +1,19 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: domain config — References — Amos C02 Math Compute Master
 type: reference
 source: 07_SKILLS/amos-c02-math-compute-master/references
 tags:
-- reference
-- amos-c02-math-compute-master
-- type/skill
-- system-scan-agent
-- automation-profiles
-- amos-simulation-kernel-v0-math-foundations
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-c02-math-compute-master
+  - type/skill
+  - system-scan-agent
+  - automation-profiles
+  - amos-simulation-kernel-v0-math-foundations
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -63,18 +66,23 @@ Quantitative reasoning, formal proofs, algorithmic thinking, basic complexity.
 The C02 domain coordinates with several specialized math kernels in the vault:
 
 ### Simulation Kernel
+
 Supports discrete-event simulation, system dynamics, agent-based simulation, Monte Carlo simulation, and scenario/counterfactual simulation. Key governance: no clinical or medical predictive claims, no financial advice from simulation output, assumption transparency, uncertainty must be reported, no autonomous action from simulation.
 
 ### Optimization Kernel
+
 Supports problem formulation, linear programming, nonlinear programming, integer and mixed-integer programming, convex optimization, multi-objective optimization, stochastic and robust optimization, and heuristic/metaheuristic methods. Key governance: no financial advice, no clinical decision automation, no guarantee of global optimum for nonconvex problems, objective alignment check.
 
 ### Control Systems Kernel
+
 Supports system modelling, stability analysis, feedback control concepts, PID control, state-space and modern control, frequency domain ideas, system identification, and performance trade-offs. Key governance: no safety-critical deployment advice, no autonomous control action, no overconfidence in models.
 
 ### Signal Processing Kernel
+
 Supports time-domain analysis, frequency-domain analysis, filtering (FIR/IIR), convolution, spectral analysis, sampling and reconstruction, noise estimation, and feature extraction. Governance: preserve signal fidelity, state assumptions, validate transform steps, distinguish analysis from decision.
 
 ### Probability & Statistics Kernel
+
 Supports distributional modeling, hypothesis testing, Bayesian inference, regression analysis, and uncertainty quantification.
 
 ## Risk Notes
@@ -88,12 +96,13 @@ Supports distributional modeling, hypothesis testing, Bayesian inference, regres
 
 C02_math_compute serves as the quantitative foundation for all other AMOS domains. It provides the formal systems layer (L2) in the AMOS Cognition Total Kernel layering model, sitting above meta-logic (L1) and below physical/cosmic constraints (L3). All quantitative claims from C03 (physics), C04 (biology), C07 (economics), and other domains must pass through C02's methods for validation.
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS · SYSTEM_SCAN_AGENT · AUTOMATION_PROFILES
 
----
-**MOC:** references_MOC
----
+______________________________________________________________________
+
+## **MOC:** references_MOC
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -101,12 +110,14 @@ C02_math_compute serves as the quantitative foundation for all other AMOS domain
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-c02-math-compute-master-domain-config
 node_type: reference
 path: 07_SKILLS/amos-c02-math-compute-master/references/domain_config.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

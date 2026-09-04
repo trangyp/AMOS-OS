@@ -2,15 +2,15 @@
 type: dependency
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION
 tags:
-- amos
-- cognitive-matrix
-- matrix/l02
-- attention
-- dependencies
-- rscf
-- hml
-- provenance
-- domain/cognitive-matrix
+  - amos
+  - cognitive-matrix
+  - matrix/l02
+  - attention
+  - dependencies
+  - rscf
+  - hml
+  - provenance
+  - domain/cognitive-matrix
 title: L02_ATTENTION — Dependencies
 origin_architect: Trang Phan
 status: MODEL_SPECIFICATION / UNVALIDATED
@@ -33,9 +33,9 @@ rscf:
 
 > **Integrity boundary:** L02 is source-supported as an attention-allocation primitive over scarce reasoning/observation resources. The exact canonical dependency graph, required upstream/downstream modules, edge types, ordering constraints, and runtime dependency enforcement are not established by the placeholder alone. Those structures below are therefore `AMOS_MODEL` unless separately source-supported.
 
----
+______________________________________________________________________
 
-# 0. Purpose
+## 0. Purpose
 
 This artifact defines the dependency contract for `L02_ATTENTION`.
 
@@ -64,9 +64,9 @@ H/M/L state
 
 while remaining distinct from those functions.
 
----
+______________________________________________________________________
 
-# 1. Source / Canon References
+## 1. Source / Canon References
 
 ## 1.1 Source-supported primitive basis
 
@@ -130,17 +130,17 @@ AMOS causal epoch / freshness concepts
 
 These constrain the model architecture but do not prove canonical L02 implementation.
 
----
+______________________________________________________________________
 
-# 2. Dependency Definition
+## 2. Dependency Definition
 
 A dependency is a typed relation in which some L02 state, operation, proposal, validation, or conclusion requires another state or object to remain valid.
 
 Model:
 
-[
-d = (u,v,\tau,s,r,t,p)
-]
+\[
+d = (u,v,\\tau,s,r,t,p)
+\]
 
 where:
 
@@ -156,9 +156,9 @@ p = provenance
 
 For L02:
 
-[
+\[
 Dependency(u,L02)
-]
+\]
 
 means some L02 function is conditionally dependent upon `u`.
 
@@ -168,9 +168,9 @@ This does **not** imply causation.
 DEPENDENCY != CAUSATION
 ```
 
----
+______________________________________________________________________
 
-# 3. Scope
+## 3. Scope
 
 This dependency contract covers:
 
@@ -207,9 +207,9 @@ canonical runtime topology
 
 unless separately evidenced.
 
----
+______________________________________________________________________
 
-# 4. Dependency Classes
+## 4. Dependency Classes
 
 Candidate dependency taxonomy:
 
@@ -254,9 +254,9 @@ ADVISORY
 may improve allocation but is not load-bearing
 ```
 
----
+______________________________________________________________________
 
-# 5. Typed Dependency Edge
+## 5. Typed Dependency Edge
 
 ```yaml
 AttentionDependencyEdge:
@@ -315,9 +315,9 @@ AttentionDependencyEdge:
 
 Exact canonical schema remains `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
-# 6. Typed Inputs
+## 6. Typed Inputs
 
 ```yaml
 DependencyInput:
@@ -362,9 +362,9 @@ DependencyInput:
     type: AuthorityContext | UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 7. Typed Outputs
+## 7. Typed Outputs
 
 ```yaml
 DependencyOutput:
@@ -405,9 +405,9 @@ DependencyOutput:
       - UNKNOWN_GAP
 ```
 
----
+______________________________________________________________________
 
-# 8. Core Dependency Graph
+## 8. Core Dependency Graph
 
 The strongest currently defensible model is:
 
@@ -444,15 +444,15 @@ DEPENDENCY GRAPH ─────────────┤
 
 The side inputs are `MODEL` dependencies unless directly recovered from canon.
 
----
+______________________________________________________________________
 
-# 9. Primary Upstream Dependency — L01
+## 9. Primary Upstream Dependency — L01
 
 Candidate relation:
 
-[
-L01 \rightarrow L02
-]
+\[
+L01 \\rightarrow L02
+\]
 
 Semantic interpretation:
 
@@ -473,9 +473,9 @@ OBSERVATION != ATTENTION
 
 L02 must not silently rewrite an observation merely because it changes its priority.
 
----
+______________________________________________________________________
 
-# 10. Reality / Environment Dependency
+## 10. Reality / Environment Dependency
 
 If L01 itself depends on `L00_REALITY_ENVIRONMENT`, then L02 may carry a transitive lineage:
 
@@ -504,19 +504,19 @@ interpreted state
 attention state
 ```
 
----
+______________________________________________________________________
 
-# 11. Objective Dependency
+## 11. Objective Dependency
 
 Attention ranking requires an objective context whenever priority is objective-relative.
 
 Model:
 
-[
-Priority(x \mid G)
-]
+\[
+Priority(x \\mid G)
+\]
 
-where \(G\) is the governing objective.
+where (G) is the governing objective.
 
 Therefore:
 
@@ -535,15 +535,15 @@ authority failures
 system integrity failures
 ```
 
----
+______________________________________________________________________
 
-# 12. Budget Dependency
+## 12. Budget Dependency
 
 Allocation requires knowledge of available resources.
 
-[
-Allocation \le AvailableBudget
-]
+\[
+Allocation \\le AvailableBudget
+\]
 
 Candidate dependency:
 
@@ -566,17 +566,17 @@ Thus:
 PRIORITY != FEASIBLE ALLOCATION
 ```
 
----
+______________________________________________________________________
 
-# 13. Constraint Dependency
+## 13. Constraint Dependency
 
 L02 must respect applicable hard constraints.
 
 Model:
 
-[
-Admit(x)=\bigwedge_i HardInvariant_i(x)
-]
+\[
+Admit(x)=\\bigwedge_i HardInvariant_i(x)
+\]
 
 Therefore:
 
@@ -596,9 +596,9 @@ HIGH PRIORITY + HARD FAIL
 BLOCK
 ```
 
----
+______________________________________________________________________
 
-# 14. Provenance Dependency
+## 14. Provenance Dependency
 
 Attention decisions may depend on provenance when evidence quality, independence, or freshness affects priority.
 
@@ -624,19 +624,19 @@ EVIDENCE INTERPRETATION
 ATTENTION PRIORITY
 ```
 
----
+______________________________________________________________________
 
-# 15. Uncertainty Dependency
+## 15. Uncertainty Dependency
 
 Attention may depend on uncertainty when reducing uncertainty can change the decision.
 
 Candidate:
 
-[
+\[
 ValueAttention(x)
-\propto
-ExpectedDecisionValue(\Delta U_x)
-]
+\\propto
+ExpectedDecisionValue(\\Delta U_x)
+\]
 
 Therefore:
 
@@ -658,9 +658,9 @@ AUTOMATIC HIGH PRIORITY
 
 because some uncertainties are decision-irrelevant.
 
----
+______________________________________________________________________
 
-# 16. Scope Dependency
+## 16. Scope Dependency
 
 Priority judgments must remain inside applicable scope.
 
@@ -691,9 +691,9 @@ BLOCK
 
 depending on materiality.
 
----
+______________________________________________________________________
 
-# 17. Regime Dependency
+## 17. Regime Dependency
 
 Attention priorities may change when the operating regime changes.
 
@@ -713,17 +713,17 @@ IRREVERSIBLE
 
 Therefore:
 
-[
-R_t \ne R_{t+1}
-\Rightarrow
+\[
+R_t \\ne R\_{t+1}
+\\Rightarrow
 Revalidate(A_t)
-]
+\]
 
 when the regime transition can alter priority or admissibility.
 
----
+______________________________________________________________________
 
-# 18. Freshness Dependency
+## 18. Freshness Dependency
 
 A dependency may have been valid when observed but no longer be valid now.
 
@@ -737,9 +737,9 @@ where material state changed.
 
 Every load-bearing mutable dependency should therefore carry freshness or epoch information where available.
 
----
+______________________________________________________________________
 
-# 19. Temporal Dependency
+## 19. Temporal Dependency
 
 Attention may depend on temporal ordering.
 
@@ -769,9 +769,9 @@ VALID_DURING
 REVALIDATE_AFTER
 ```
 
----
+______________________________________________________________________
 
-# 20. Authority Dependency
+## 20. Authority Dependency
 
 Where attention allocation can trigger governed resources or external effects, authority context becomes relevant.
 
@@ -799,9 +799,9 @@ or:
 "this downstream external action may execute"
 ```
 
----
+______________________________________________________________________
 
-# 21. H/M/L Dependency
+## 21. H/M/L Dependency
 
 Attention dependencies may exist at different scales.
 
@@ -842,18 +842,16 @@ line of code
 test result
 ```
 
----
+______________________________________________________________________
 
-# 22. Cross-Scale Dependency
+## 22. Cross-Scale Dependency
 
 Candidate edge:
 
-[
-D_{HML}
-=======
+## \[ D\_{HML}
 
-(source_{scale},target_{scale},relation)
-]
+(source\_{scale},target\_{scale},relation)
+\]
 
 Examples:
 
@@ -873,9 +871,9 @@ critical observation invalidates governing premise
 
 Cross-scale propagation must remain explicit.
 
----
+______________________________________________________________________
 
-# 23. Upward Invalidation
+## 23. Upward Invalidation
 
 Low-level evidence may invalidate higher-level assumptions.
 
@@ -895,9 +893,9 @@ H assumption invalid
 
 Therefore hierarchy must not imply epistemic immunity.
 
----
+______________________________________________________________________
 
-# 24. Downward Constraint
+## 24. Downward Constraint
 
 Higher-level constraints may limit lower-level attention.
 
@@ -922,65 +920,61 @@ result:
 L target cannot be processed/disclosed beyond allowed boundary
 ```
 
----
+______________________________________________________________________
 
-# 25. Dependency Criticality
+## 25. Dependency Criticality
 
 A dependency becomes attention-critical when failure can materially change downstream conclusions.
 
 Candidate model:
 
-[
-Crit(d)
-=======
+## \[ Crit(d)
 
 Impact(Descendants(d))
-\times
+\\times
 FailureSensitivity(d)
-]
+\]
 
 This equation is `AMOS_MODEL`.
 
 High graph degree alone does not prove criticality.
 
----
+______________________________________________________________________
 
-# 26. Load-Bearing Dependency
+## 26. Load-Bearing Dependency
 
-A dependency (d) is load-bearing for claim \(C\) when:
+A dependency (d) is load-bearing for claim (C) when:
 
-[
+\[
 Invalid(d)
-\Rightarrow
-C \text{ no longer remains supported}
-]
+\\Rightarrow
+C \\text{ no longer remains supported}
+\]
 
 This is stronger than mere association.
 
 Load-bearing dependencies should receive explicit provenance and confidence tracking.
 
----
+______________________________________________________________________
 
-# 27. Dependency Closure
+## 27. Dependency Closure
 
 Before a local fast path is accepted, relevant dependency closure should be established.
 
 Conceptually:
 
-[
-Closure(C)
-==========
+## \[ Closure(C)
 
-{d_i \mid d_i \text{ can materially alter } C}
-]
+{d_i \\mid d_i \\text{ can materially alter } C}
+\]
 
 The goal is not to retrieve the entire system graph.
 
 It is to retrieve the **smallest sufficient dependency closure**.
 
----
+______________________________________________________________________
 
-# 28. Fast-Path Rule
+## 28. Fast-Path Rule
 
 Local L02 reasoning may remain local only when:
 
@@ -996,9 +990,9 @@ no authority boundary is crossed
 
 Otherwise escalate.
 
----
+______________________________________________________________________
 
-# 29. Dependency State Variables
+## 29. Dependency State Variables
 
 ```text
 D_t       = active dependency graph
@@ -1015,14 +1009,14 @@ D_rep     = dependencies under repair
 
 Candidate status vector:
 
-[
+\[
 State_D =
-(D_{valid},D_{stale},D_{missing},D_{conflict},D_{invalid})
-]
+(D\_{valid},D\_{stale},D\_{missing},D\_{conflict},D\_{invalid})
+\]
 
----
+______________________________________________________________________
 
-# 30. Dependency Operators
+## 30. Dependency Operators
 
 Candidate operators:
 
@@ -1054,9 +1048,9 @@ REPAIR()
 ROLLBACK()
 ```
 
----
+______________________________________________________________________
 
-# 31. Dependency Invariants
+## 31. Dependency Invariants
 
 ```text
 L02-DEP-INV-001
@@ -1120,25 +1114,25 @@ L02-DEP-INV-020
 Optimization cannot remove a dependency merely because checking it is expensive.
 ```
 
----
+______________________________________________________________________
 
-# 32. Selective Invalidation
+## 32. Selective Invalidation
 
 Core rule:
 
-[
+\[
 Invalid(p)
-\Rightarrow
+\\Rightarrow
 Invalidate(Descendants(p))
-]
+\]
 
 not:
 
-[
+\[
 Invalid(p)
-\Rightarrow
+\\Rightarrow
 Invalidate(AllState)
-]
+\]
 
 unless all state genuinely depends on (p).
 
@@ -1161,17 +1155,17 @@ D = INVALIDATED_BY_DEPENDENCY
 C = PRESERVED
 ```
 
----
+______________________________________________________________________
 
-# 33. Confidence Propagation
+## 33. Confidence Propagation
 
-For conclusion \(C\) with load-bearing premises \(P_i\):
+For conclusion (C) with load-bearing premises (P_i):
 
-[
+\[
 Conf(C)
-\le
-\min_i Conf(P_i)
-]
+\\le
+\\min_i Conf(P_i)
+\]
 
 If:
 
@@ -1191,9 +1185,9 @@ unless the weak premise is independently replaced or revalidated.
 
 This is a governance ceiling, not an empirical probability-combination theorem.
 
----
+______________________________________________________________________
 
-# 34. Dependency Conflict
+## 34. Dependency Conflict
 
 Two dependencies may conflict.
 
@@ -1221,9 +1215,9 @@ or
 PRESERVE COMPETING / BLOCK
 ```
 
----
+______________________________________________________________________
 
-# 35. Circular Dependencies
+## 35. Circular Dependencies
 
 Example:
 
@@ -1246,9 +1240,9 @@ UNRESOLVED CYCLE
 
 No cycle should be accepted merely because every node references another node.
 
----
+______________________________________________________________________
 
-# 36. Dependency vs Correlation
+## 36. Dependency vs Correlation
 
 Hard firewall:
 
@@ -1268,9 +1262,9 @@ dependency
 
 A dependency edge requires an explicit semantic or operational requirement.
 
----
+______________________________________________________________________
 
-# 37. Dependency vs Causation
+## 37. Dependency vs Causation
 
 ```text
 A required to evaluate B
@@ -1296,9 +1290,9 @@ citation does not cause the underlying event
 
 The causal firewall remains active.
 
----
+______________________________________________________________________
 
-# 38. Dependency vs Authority
+## 38. Dependency vs Authority
 
 A component may be required for an operation without having authority over that operation.
 
@@ -1320,9 +1314,9 @@ skill callable by L02
 skill authorized to commit external effects
 ```
 
----
+______________________________________________________________________
 
-# 39. Agents
+## 39. Agents
 
 Logical dependency roles may include:
 
@@ -1341,9 +1335,9 @@ These are `MODEL` roles.
 
 They do not establish canonical deployed agents.
 
----
+______________________________________________________________________
 
-# 40. Skills
+## 40. Skills
 
 Relevant skill-level capabilities may include:
 
@@ -1378,9 +1372,9 @@ and not:
 AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 41. Dependency Resolution Workflow
+## 41. Dependency Resolution Workflow
 
 ```text
 1. IDENTIFY target attention operation
@@ -1434,9 +1428,9 @@ AUTHORITY
 20. PRESERVE unresolved gaps
 ```
 
----
+______________________________________________________________________
 
-# 42. Protocols
+## 42. Protocols
 
 Candidate protocol objects:
 
@@ -1503,9 +1497,9 @@ DependencyProtocolEnvelope:
       - UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 43. Control-Plane Requirements
+## 43. Control-Plane Requirements
 
 Dependency validity must not be determined solely by an L02 worker when the dependency affects governed state.
 
@@ -1541,9 +1535,9 @@ WORKER CLAIMS DEPENDENCY VALID
 DEPENDENCY AUTHORITATIVELY VALID
 ```
 
----
+______________________________________________________________________
 
-# 44. Commit-Time Dependency Revalidation
+## 44. Commit-Time Dependency Revalidation
 
 Mutable load-bearing dependencies may change after initial evaluation.
 
@@ -1563,24 +1557,22 @@ commit
 
 Candidate condition:
 
-[
-Valid_{commit}(d)
-=================
+## \[ Valid\_{commit}(d)
 
 Valid(d)
-\land
+\\land
 Fresh(d)
-\land
+\\land
 ScopeCompatible(d)
-\land
+\\land
 RegimeCompatible(d)
-]
+\]
 
 This is an AMOS governance model.
 
----
+______________________________________________________________________
 
-# 45. Evidence / Provenance
+## 45. Evidence / Provenance
 
 Every consequential dependency should preserve:
 
@@ -1606,9 +1598,9 @@ repair history
 
 Candidate provenance tensor:
 
-[
+\[
 P_D =
-T[
+T\[
 dependency,
 source,
 target,
@@ -1619,12 +1611,12 @@ time,
 origin,
 validator,
 status
-]
-]
+\]
+\]
 
----
+______________________________________________________________________
 
-# 46. Failure Modes
+## 46. Failure Modes
 
 ```text
 FM-L02-DEP-001  Missing Required Dependency
@@ -1654,9 +1646,9 @@ FM-L02-DEP-024  Freshness Blindness
 FM-L02-DEP-025  Dependency Repair Corruption
 ```
 
----
+______________________________________________________________________
 
-# 47. Repair / Recovery
+## 47. Repair / Recovery
 
 General dependency repair:
 
@@ -1688,9 +1680,9 @@ RESTORE ELIGIBLE ATTENTION STATE
 
 Do not recompute the entire system unless closure cannot be bounded.
 
----
+______________________________________________________________________
 
-# 48. Rollback
+## 48. Rollback
 
 If repair fails:
 
@@ -1710,9 +1702,9 @@ RESUME FROM VALID STATE
 
 Rollback is not evidence deletion.
 
----
+______________________________________________________________________
 
-# 49. Tests / Validators
+## 49. Tests / Validators
 
 Required model validators:
 
@@ -1736,9 +1728,9 @@ VALIDATE_ROLLBACK
 VALIDATE_CANON_BOUNDARY
 ```
 
----
+______________________________________________________________________
 
-# 50. Minimum Test Suite
+## 50. Minimum Test Suite
 
 ```text
 TEST-L02-DEP-001
@@ -1802,9 +1794,9 @@ TEST-L02-DEP-020
 Rollback restores nearest valid dependency state.
 ```
 
----
+______________________________________________________________________
 
-# 51. Adversarial Validators
+## 51. Adversarial Validators
 
 Test dependency handling against:
 
@@ -1825,9 +1817,9 @@ repair poisoning
 dependency ID aliasing
 ```
 
----
+______________________________________________________________________
 
-# 52. Falsifiers
+## 52. Falsifiers
 
 This contract must be revised if:
 
@@ -1847,9 +1839,9 @@ runtime traces demonstrate materially different dependency semantics
 formal analysis proves one or more proposed invariants inconsistent
 ```
 
----
+______________________________________________________________________
 
-# 53. Competing Dependency Models
+## 53. Competing Dependency Models
 
 ## COMPETING_001 — Minimal Linear
 
@@ -1910,9 +1902,9 @@ COMPETING_003 plausible but unvalidated
 
 Preserve `COMPETING` until direct implementation/canon discriminates them.
 
----
+______________________________________________________________________
 
-# 54. Gap Matrix
+## 54. Gap Matrix
 
 ```yaml
 gap_matrix:
@@ -1995,9 +1987,9 @@ gap_matrix:
     criticality: CRITICAL
 ```
 
----
+______________________________________________________________________
 
-# 55. Cheapest Discriminating Evidence
+## 55. Cheapest Discriminating Evidence
 
 Highest-value retrieval order:
 
@@ -2023,9 +2015,9 @@ The cheapest decisive test is:
 
 > **Recover the canonical L01→L02→next-primitive relationship and determine whether objective, budget, constraint, provenance, and control-plane state are explicit L02 dependencies or only runtime overlays.**
 
----
+______________________________________________________________________
 
-# 56. RSCF Completion State
+## 56. RSCF Completion State
 
 ```yaml
 rscf:
@@ -2137,9 +2129,9 @@ rscf:
     recover direct L02 and neighboring primitive dependency declarations
 ```
 
----
+______________________________________________________________________
 
-# 57. Completion State
+## 57. Completion State
 
 ```yaml
 completion_state:
@@ -2217,9 +2209,9 @@ completion_state:
     MODEL / CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
-# 58. Hard Boundaries
+## 58. Hard Boundaries
 
 ```text
 PLACEHOLDER != IMPLEMENTED
@@ -2273,9 +2265,9 @@ CANONICAL EDGE != EXECUTED RUNTIME EDGE
 VALIDATED DEPENDENCY != AUTHORIZED COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 59. References
+## 59. References
 
 ```text
 PLACEHOLDER
@@ -2312,15 +2304,15 @@ Cosmo_Brain_BRIDGE_INDEX
 Cosmo_Brain_BRIDGE_INDEX
 ```
 
----
+______________________________________________________________________
 
-# 60. Governing Dependency Contract
+## 60. Governing Dependency Contract
 
 > **L02_ATTENTION depends minimally on addressable attention targets and a finite resource context. In the governed AMOS model, attention allocation additionally consumes objective, constraint, dependency, provenance, uncertainty, scope, regime, temporal, H/M/L, and—where consequential effects are involved—authority context. Dependencies must remain typed, scoped, provenance-aware, freshness-bounded, selectively invalidatable, and distinguishable from causation or authority. Missing or invalid load-bearing dependencies cannot be compensated for by priority scores.**
 
----
+______________________________________________________________________
 
-# 61. Canon Boundary
+## 61. Canon Boundary
 
 ```text
 SOURCE-SUPPORTED:
@@ -2369,22 +2361,27 @@ VALIDATED EXECUTION
 
 The decisive unresolved dependency question remains whether the cognitive matrix itself canonically defines a strict `L01 → L02 → L03` chain, or whether L02 is actually a multi-input governed primitive whose matrix position describes conceptual organization rather than runtime dependency.
 ```
----
+
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: l02_attention_primitives_cognitive_matrix_dependencies
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION/L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_DEPENDENCIES.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION/L02_ATTENTION_MOC|L02_ATTENTION_MOC]]

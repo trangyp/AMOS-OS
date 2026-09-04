@@ -1,4 +1,7 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: GENERATORS MAP
 type: note
 source: 25_COGNITIVE_MATRIX/12_GENERATORS/00_INDEX
@@ -6,41 +9,37 @@ rscf:
   state: SOURCE_CLAIM
   class: STRUCTURAL
   provenance:
-  - internal
+    - internal
   freshness: EVERGREEN
   falsifiers: []
 tags:
-- note
-- generators-audit
-- generators-benchmarks
-- generators-change-log
-- generators-history
-- generators-integration
-- generators-provenance
-- generators-roadmap
-- generators-tests
-- generators-validation
-- generators-versioning
-- generator-admission
-- generator-falsification
-- generator-output
-- generator-promotion
-- generator-seed
-- generator-supersession
-- generator-templates
-- generator-tests
-- generator-validation
-- generator-versioning
-- k-rscf
-- law/L17-rscf
+  - note
+  - generators-audit
+  - generators-benchmarks
+  - generators-change-log
+  - generators-history
+  - generators-integration
+  - generators-provenance
+  - generators-roadmap
+  - generators-tests
+  - generators-validation
+  - generators-versioning
+  - generator-admission
+  - generator-falsification
+  - generator-output
+  - generator-promotion
+  - generator-seed
+  - generator-supersession
+  - generator-templates
+  - generator-tests
+  - generator-validation
+  - generator-versioning
+  - k-rscf
+  - law/L17-rscf
 canon-group: canon/cognitive-matrix
 ---
 
----title: "GENERATORS MAP"
-type: document
-tags: [note]
----
-
+## ---title: "GENERATORS MAP" type: document tags: [note]
 
 # 12 Generators Map
 
@@ -53,9 +52,9 @@ tags: [note]
 **Claim Class:** `AMOS_MODEL`
 **Origin Architect / Steward:** Trang Phan
 
----
+______________________________________________________________________
 
-# 0. Purpose
+## 0. Purpose
 
 `GENERATORS_MAP.md` is the reference map for the generator subsystem located at:
 
@@ -86,9 +85,9 @@ $$\boxed{ Indexed(x) \neq Implemented(x) }$$
 
 $$\boxed{ Referenced(x) \neq Canonical(x) }$$
 
----
+______________________________________________________________________
 
-# 1. Generator Subsystem
+## 1. Generator Subsystem
 
 Within the Cognitive Matrix, a **generator** is modeled as a governed transformation mechanism that can produce a candidate artifact, representation, hypothesis, structure, plan, translation, counterfactual, configuration, or other typed output from an admitted input state.
 
@@ -108,9 +107,9 @@ This equation describes the architectural model only.
 
 It does not imply that every generator is a deterministic mathematical function or executable software object.
 
----
+______________________________________________________________________
 
-# 2. Generator Governance Principle
+## 2. Generator Governance Principle
 
 Generation is not equivalent to truth.
 
@@ -159,9 +158,9 @@ where applicable.
 
 No stage should be silently collapsed into another.
 
----
+______________________________________________________________________
 
-# 3. Generator Architecture Map
+## 3. Generator Architecture Map
 
 ```text
                     GENERATOR SUBSYSTEM
@@ -223,9 +222,9 @@ BINDING
 ROUTING
 ```
 
----
+______________________________________________________________________
 
-# 4. Generator Artifact Inventory
+## 4. Generator Artifact Inventory
 
 The generator subsystem currently maps the following artifact names.
 
@@ -259,40 +258,40 @@ The generator subsystem currently maps the following artifact names.
 - [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_VALIDATION|GENERATOR_VALIDATION]]
 - [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_VERSIONING|GENERATOR_VERSIONING]]
 
----
+______________________________________________________________________
 
-# 5. Artifact Responsibility Matrix
+## 5. Artifact Responsibility Matrix
 
-| Artifact                                 | Primary Responsibility                                                           |
-| ---------------------------------------- | -------------------------------------------------------------------------------- |
-| [[25_COGNITIVE_MATRIX/12_GENERATORS/COGNITIVE_MATRIX_GENERATORS_CONTRACT|COGNITIVE_MATRIX_GENERATORS_CONTRACT]] | Governing contract for the generator subsystem                                   |
-| [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_COGNITIVE_MATRIX_README|GENERATORS_COGNITIVE_MATRIX_README]]   | Human-readable subsystem orientation and operating overview                      |
-| [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_CONTRACT|GENERATOR_CONTRACT]]                   | Contract applying to an individual generator                                     |
-| [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_REGISTRY|GENERATOR_REGISTRY]]                   | Registry/index of known generator identities and metadata                        |
-| [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_SEED|GENERATOR_SEED]]                       | Definition and governance of generator initialization material                   |
-| [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_TEMPLATES|GENERATOR_TEMPLATES]]                  | Reusable generator structural templates                                          |
-| [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_OUTPUT|GENERATOR_OUTPUT]]                     | Output envelope, typing, provenance, and result requirements                     |
-| [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_FALSIFICATION|GENERATOR_FALSIFICATION]]              | Conditions and procedures capable of challenging generated claims                |
-| [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_TESTS|GENERATOR_TESTS]]                      | Tests applicable to individual generators                                        |
-| [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_TESTS|GENERATORS_TESTS]]                     | Tests applying across the generator subsystem                                    |
-| [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_VALIDATION|GENERATOR_VALIDATION]]                 | Validation state and rules for individual generators                             |
-| [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_VALIDATION|GENERATORS_VALIDATION]]                | System-level validation architecture                                             |
-| [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_ADMISSION|GENERATOR_ADMISSION]]                  | Conditions for admitting a generator into an allowed operational/reference state |
-| [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_PROMOTION|GENERATOR_PROMOTION]]                  | Governance for promotion between lifecycle states                                |
-| [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_VERSIONING|GENERATOR_VERSIONING]]                 | Version identity and lineage for individual generators                           |
-| [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_VERSIONING|GENERATORS_VERSIONING]]                | System-wide generator versioning policy                                          |
-| [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_SUPERSESSION|GENERATOR_SUPERSESSION]]               | Replacement relationships between generator versions/artifacts                   |
-| [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_PROVENANCE|GENERATORS_PROVENANCE]]                | Provenance topology across generator artifacts                                   |
-| [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_INTEGRATION|GENERATORS_INTEGRATION]]               | Interfaces with other AMOS subsystems                                            |
-| [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_BENCHMARKS|GENERATORS_BENCHMARKS]]                | Benchmark definitions/results where evidence exists                              |
-| [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_AUDIT|GENERATORS_AUDIT]]                     | Audit surfaces and integrity inspection                                          |
-| [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_CHANGE_LOG|GENERATORS_CHANGE_LOG]]                | Recorded generator subsystem changes                                             |
-| [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_HISTORY|GENERATORS_HISTORY]]                   | Historical lineage and prior states                                              |
-| [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_ROADMAP|GENERATORS_ROADMAP]]                   | Proposed future development; not implementation evidence                         |
+| Artifact                                                                   | Primary Responsibility                   |
+| -------------------------------------------------------------------------- | ---------------------------------------- |
+| \[\[25_COGNITIVE_MATRIX/12_GENERATORS/COGNITIVE_MATRIX_GENERATORS_CONTRACT | COGNITIVE_MATRIX_GENERATORS_CONTRACT\]\] |
+| \[\[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_COGNITIVE_MATRIX_README   | GENERATORS_COGNITIVE_MATRIX_README\]\]   |
+| \[\[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_CONTRACT                   | GENERATOR_CONTRACT\]\]                   |
+| \[\[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_REGISTRY                   | GENERATOR_REGISTRY\]\]                   |
+| \[\[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_SEED                       | GENERATOR_SEED\]\]                       |
+| \[\[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_TEMPLATES                  | GENERATOR_TEMPLATES\]\]                  |
+| \[\[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_OUTPUT                     | GENERATOR_OUTPUT\]\]                     |
+| \[\[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_FALSIFICATION              | GENERATOR_FALSIFICATION\]\]              |
+| \[\[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_TESTS                      | GENERATOR_TESTS\]\]                      |
+| \[\[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_TESTS                     | GENERATORS_TESTS\]\]                     |
+| \[\[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_VALIDATION                 | GENERATOR_VALIDATION\]\]                 |
+| \[\[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_VALIDATION                | GENERATORS_VALIDATION\]\]                |
+| \[\[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_ADMISSION                  | GENERATOR_ADMISSION\]\]                  |
+| \[\[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_PROMOTION                  | GENERATOR_PROMOTION\]\]                  |
+| \[\[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_VERSIONING                 | GENERATOR_VERSIONING\]\]                 |
+| \[\[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_VERSIONING                | GENERATORS_VERSIONING\]\]                |
+| \[\[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_SUPERSESSION               | GENERATOR_SUPERSESSION\]\]               |
+| \[\[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_PROVENANCE                | GENERATORS_PROVENANCE\]\]                |
+| \[\[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_INTEGRATION               | GENERATORS_INTEGRATION\]\]               |
+| \[\[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_BENCHMARKS                | GENERATORS_BENCHMARKS\]\]                |
+| \[\[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_AUDIT                     | GENERATORS_AUDIT\]\]                     |
+| \[\[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_CHANGE_LOG                | GENERATORS_CHANGE_LOG\]\]                |
+| \[\[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_HISTORY                   | GENERATORS_HISTORY\]\]                   |
+| \[\[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_ROADMAP                   | GENERATORS_ROADMAP\]\]                   |
 
----
+______________________________________________________________________
 
-# 6. Contract Layer
+## 6. Contract Layer
 
 The generator architecture has at least two conceptual contract scopes.
 
@@ -334,9 +333,9 @@ $$Contract_{generator} \subseteq Envelope(Contract_{subsystem})$$
 
 unless the applicable canon establishes another relationship.
 
----
+______________________________________________________________________
 
-# 7. Generator Registry
+## 7. Generator Registry
 
 [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_REGISTRY|GENERATOR_REGISTRY]] is the primary map from generator identity to generator metadata.
 
@@ -379,9 +378,9 @@ generator:
 
 The exact canonical schema remains governed by the dedicated registry artifact.
 
----
+______________________________________________________________________
 
-# 8. Generator Identity
+## 8. Generator Identity
 
 Generator identity should be stable enough to distinguish:
 
@@ -400,9 +399,9 @@ For example:
 
 $$G_{family} \neq G_{v3} \neq Execution(G_{v3},t) \neq Output(G_{v3},t)$$
 
----
+______________________________________________________________________
 
-# 9. Generator Seed
+## 9. Generator Seed
 
 [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_SEED|GENERATOR_SEED]] governs initialization material from which a generator may be instantiated, configured, or derived.
 
@@ -423,9 +422,9 @@ A seed is not equivalent to a validated generator.
 
 $$Seed(G) \not\Rightarrow Valid(G)$$
 
----
+______________________________________________________________________
 
-# 10. Seed Provenance
+## 10. Seed Provenance
 
 A seed SHOULD preserve provenance sufficient to determine where its load-bearing content originated.
 
@@ -445,9 +444,9 @@ seed_provenance:
 
 Unknown provenance remains unknown.
 
----
+______________________________________________________________________
 
-# 11. Generator Templates
+## 11. Generator Templates
 
 [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_TEMPLATES|GENERATOR_TEMPLATES]] defines reusable structures from which generator artifacts may be instantiated.
 
@@ -467,9 +466,9 @@ A template defines structure.
 
 It does not establish the truth of values inserted into that structure.
 
----
+______________________________________________________________________
 
-# 12. Generator Input
+## 12. Generator Input
 
 A generator should operate only on inputs admitted under its applicable contract.
 
@@ -488,9 +487,9 @@ generator_input:
   uncertainty:
 ```
 
----
+______________________________________________________________________
 
-# 13. Input Admission
+## 13. Input Admission
 
 Before generation:
 
@@ -510,9 +509,9 @@ constraint compatibility
 dependency availability
 ```
 
----
+______________________________________________________________________
 
-# 14. Generator Output
+## 14. Generator Output
 
 [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_OUTPUT|GENERATOR_OUTPUT]] governs generated output.
 
@@ -549,9 +548,9 @@ generator_output:
   falsification_state:
 ```
 
----
+______________________________________________________________________
 
-# 15. Output Is Not Validation
+## 15. Output Is Not Validation
 
 A generated result is initially evidence of what the generator produced.
 
@@ -569,9 +568,9 @@ It does not independently support:
 
 $$x=True$$
 
----
+______________________________________________________________________
 
-# 16. Claim Classes
+## 16. Claim Classes
 
 Generated outputs SHOULD use the weakest accurate claim class.
 
@@ -588,9 +587,9 @@ UNKNOWN/GAP
 
 A generator must not self-upgrade an unsupported output to `VERIFIED`.
 
----
+______________________________________________________________________
 
-# 17. Generator Falsification
+## 17. Generator Falsification
 
 [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_FALSIFICATION|GENERATOR_FALSIFICATION]] defines mechanisms for actively attempting to invalidate generator outputs or generator-level assumptions.
 
@@ -610,9 +609,9 @@ non-reproducibility
 test failure
 ```
 
----
+______________________________________________________________________
 
-# 18. Falsifier
+## 18. Falsifier
 
 A falsifier should identify what observation or condition would weaken or invalidate a generator claim.
 
@@ -628,9 +627,9 @@ falsifier:
   regime:
 ```
 
----
+______________________________________________________________________
 
-# 19. Generator Testing
+## 19. Generator Testing
 
 [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_TESTS|GENERATOR_TESTS]] addresses individual generator tests.
 
@@ -663,9 +662,9 @@ provenance preservation
 routing integration
 ```
 
----
+______________________________________________________________________
 
-# 20. Test Success Boundary
+## 20. Test Success Boundary
 
 Passing a finite test suite establishes only the result of those tests under their conditions.
 
@@ -685,9 +684,9 @@ dependencies
 
 where material.
 
----
+______________________________________________________________________
 
-# 21. Generator Validation
+## 21. Generator Validation
 
 [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_VALIDATION|GENERATOR_VALIDATION]] governs validation of individual generators.
 
@@ -708,9 +707,9 @@ regime validation
 
 when applicable.
 
----
+______________________________________________________________________
 
-# 22. Validation State
+## 22. Validation State
 
 Candidate conceptual states include:
 
@@ -725,9 +724,9 @@ UNKNOWN
 
 The actual canonical state vocabulary belongs to the dedicated validation specification.
 
----
+______________________________________________________________________
 
-# 23. Validation Envelope
+## 23. Validation Envelope
 
 Validation is bounded.
 
@@ -739,9 +738,9 @@ Therefore:
 
 $$Validated(G,V_1) \not\Rightarrow Validated(G,V_2)$$
 
----
+______________________________________________________________________
 
-# 24. Generator Admission
+## 24. Generator Admission
 
 [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_ADMISSION|GENERATOR_ADMISSION]] governs whether a generator is eligible to enter a particular operational or reference state.
 
@@ -763,9 +762,9 @@ governance approval
 
 depending on the applicable generator class.
 
----
+______________________________________________________________________
 
-# 25. Admission Is Not Promotion
+## 25. Admission Is Not Promotion
 
 $$Admission \neq Promotion$$
 
@@ -781,9 +780,9 @@ candidate evaluation
 
 without being promoted to canonical status.
 
----
+______________________________________________________________________
 
-# 26. Generator Promotion
+## 26. Generator Promotion
 
 [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_PROMOTION|GENERATOR_PROMOTION]] governs transitions between lifecycle states.
 
@@ -805,9 +804,9 @@ The actual lifecycle must come from the applicable canonical promotion contract.
 
 This map does not assert that the above sequence is already canonical.
 
----
+______________________________________________________________________
 
-# 27. Promotion Proof
+## 27. Promotion Proof
 
 Promotion SHOULD be supported by evidence sufficient to establish the requirements of the destination state.
 
@@ -831,9 +830,9 @@ promotion_record:
   timestamp:
 ```
 
----
+______________________________________________________________________
 
-# 28. Promotion Cannot Manufacture Evidence
+## 28. Promotion Cannot Manufacture Evidence
 
 Governance may authorize a status transition.
 
@@ -843,9 +842,9 @@ $$Promotion(x) \not\Rightarrow EmpiricalVerification(x)$$
 
 unless the promotion itself depends on valid empirical verification evidence.
 
----
+______________________________________________________________________
 
-# 29. Generator Versioning
+## 29. Generator Versioning
 
 [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_VERSIONING|GENERATOR_VERSIONING]] governs version identity for individual generators.
 
@@ -863,9 +862,9 @@ which validation applied
 what superseded it
 ```
 
----
+______________________________________________________________________
 
-# 30. Version Identity
+## 30. Version Identity
 
 Conceptually:
 
@@ -881,9 +880,9 @@ does not automatically validate:
 
 $$G@v_2$$
 
----
+______________________________________________________________________
 
-# 31. Generator Supersession
+## 31. Generator Supersession
 
 [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_SUPERSESSION|GENERATOR_SUPERSESSION]] governs replacement relationships.
 
@@ -897,9 +896,9 @@ G@v1
 
 Supersession does not erase lineage.
 
----
+______________________________________________________________________
 
-# 32. Supersession Rule
+## 32. Supersession Rule
 
 $$Superseded(x) \neq Deleted(x)$$
 
@@ -914,9 +913,9 @@ rollback
 causal lineage
 ```
 
----
+______________________________________________________________________
 
-# 33. Generator Provenance
+## 33. Generator Provenance
 
 [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_PROVENANCE|GENERATORS_PROVENANCE]] provides subsystem-level provenance architecture.
 
@@ -935,9 +934,9 @@ promotion history
 supersession history
 ```
 
----
+______________________________________________________________________
 
-# 34. Provenance Graph
+## 34. Provenance Graph
 
 Conceptually:
 
@@ -961,9 +960,9 @@ OUTPUT
    └── VALIDATED_BY
 ```
 
----
+______________________________________________________________________
 
-# 35. Provenance Independence
+## 35. Provenance Independence
 
 Multiple generator outputs are not automatically independent.
 
@@ -983,9 +982,9 @@ $$3\ Outputs \neq 3\ IndependentConfirmations$$
 
 if the common seed is load-bearing.
 
----
+______________________________________________________________________
 
-# 36. Correlated Generators
+## 36. Correlated Generators
 
 Generator correlation MAY arise from:
 
@@ -1002,9 +1001,9 @@ shared validation data
 
 The correlation risk should be preserved where material.
 
----
+______________________________________________________________________
 
-# 37. Sybil Hardening
+## 37. Sybil Hardening
 
 The generator subsystem SHOULD resist false confidence from replicated descendants.
 
@@ -1012,9 +1011,9 @@ Ten generators derived from one unsupported premise do not create ten independen
 
 $$N \times Descendant(P) \not\Rightarrow N \times IndependentEvidence(P)$$
 
----
+______________________________________________________________________
 
-# 38. Generator Integration
+## 38. Generator Integration
 
 [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_INTEGRATION|GENERATORS_INTEGRATION]] governs interaction with other AMOS components.
 
@@ -1036,9 +1035,9 @@ provenance
 governance
 ```
 
----
+______________________________________________________________________
 
-# 39. Routing Integration
+## 39. Routing Integration
 
 A generator SHOULD be selected because it satisfies an admitted task requirement, not merely because its name resembles the task.
 
@@ -1060,9 +1059,9 @@ GENERATOR ADMISSION
 GENERATOR BINDING
 ```
 
----
+______________________________________________________________________
 
-# 40. Capability Binding
+## 40. Capability Binding
 
 Conceptually:
 
@@ -1079,9 +1078,9 @@ generator_capability_binding:
 
 `support_state` must not be inferred merely from generator naming.
 
----
+______________________________________________________________________
 
-# 41. Constraint Propagation
+## 41. Constraint Propagation
 
 Generators inherit applicable upstream constraints.
 
@@ -1091,9 +1090,9 @@ $$C_{task} \rightarrow C_{route} \rightarrow C_{generator} \rightarrow C_{output
 
 A generator must not silently remove a hard constraint.
 
----
+______________________________________________________________________
 
-# 42. Binding
+## 42. Binding
 
 Generator binding SHOULD preserve the relationship between:
 
@@ -1120,9 +1119,9 @@ generator_binding:
   output_contract_ref:
 ```
 
----
+______________________________________________________________________
 
-# 43. RSCF Integration
+## 43. RSCF Integration
 
 The generator subsystem participates in the AMOS Fractal Knowledge Network.
 
@@ -1145,9 +1144,9 @@ RSCF
            └── SUPERSESSION
 ```
 
----
+______________________________________________________________________
 
-# 44. H/M/L Retrieval
+## 44. H/M/L Retrieval
 
 Generator reasoning SHOULD follow smallest-sufficient retrieval.
 
@@ -1167,9 +1166,9 @@ RAW EVIDENCE IF REQUIRED
 
 Raw evidence is not loaded merely because it exists.
 
----
+______________________________________________________________________
 
-# 45. Generator RSCF Relations
+## 45. Generator RSCF Relations
 
 Potential generator relations include:
 
@@ -1196,9 +1195,9 @@ PART_OF
 
 The canonical RSCF vocabulary remains governed by [[02_KERNEL/09_INTEGRATION/K_RSCF|K_RSCF]] and applicable lineage artifacts.
 
----
+______________________________________________________________________
 
-# 46. Generator Audit
+## 46. Generator Audit
 
 [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_AUDIT|GENERATORS_AUDIT]] SHOULD provide inspection surfaces for generator subsystem integrity.
 
@@ -1228,9 +1227,9 @@ Are constraints preserved?
 Are promotions supported by evidence?
 ```
 
----
+______________________________________________________________________
 
-# 47. Audit Is Not Validation
+## 47. Audit Is Not Validation
 
 An audit may detect:
 
@@ -1243,9 +1242,9 @@ unsupported claims
 
 but audit completion does not itself prove generator correctness.
 
----
+______________________________________________________________________
 
-# 48. Generator Benchmarks
+## 48. Generator Benchmarks
 
 [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_BENCHMARKS|GENERATORS_BENCHMARKS]] contains benchmark-related material.
 
@@ -1265,9 +1264,9 @@ scope
 
 where applicable.
 
----
+______________________________________________________________________
 
-# 49. Benchmark Firewall
+## 49. Benchmark Firewall
 
 Benchmark performance is bounded.
 
@@ -1277,9 +1276,9 @@ and:
 
 $$Pass(Benchmark) \not\Rightarrow UniversalValidity$$
 
----
+______________________________________________________________________
 
-# 50. Generator History
+## 50. Generator History
 
 [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_HISTORY|GENERATORS_HISTORY]] preserves historical subsystem development.
 
@@ -1295,9 +1294,9 @@ current active state
 
 Historical presence does not establish current validity.
 
----
+______________________________________________________________________
 
-# 51. Generator Change Log
+## 51. Generator Change Log
 
 [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_CHANGE_LOG|GENERATORS_CHANGE_LOG]] SHOULD record material modifications such as:
 
@@ -1314,17 +1313,17 @@ template change
 schema change
 ```
 
----
+______________________________________________________________________
 
-# 52. Change Log Boundary
+## 52. Change Log Boundary
 
 A change log is evidence that a change was recorded.
 
 It is not independently evidence that the change was correct.
 
----
+______________________________________________________________________
 
-# 53. Generator Roadmap
+## 53. Generator Roadmap
 
 [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_ROADMAP|GENERATORS_ROADMAP]] describes intended or proposed future development.
 
@@ -1334,9 +1333,9 @@ $$Roadmap(x) \not\Rightarrow Implemented(x)$$
 
 Roadmap content SHOULD remain clearly separated from active generator state.
 
----
+______________________________________________________________________
 
-# 54. Generator Lifecycle
+## 54. Generator Lifecycle
 
 The complete conceptual lifecycle is:
 
@@ -1376,9 +1375,9 @@ HISTORY
 
 This is an architectural lifecycle model, not a claim that every generator currently passes through every stage.
 
----
+______________________________________________________________________
 
-# 55. Generator State Machine
+## 55. Generator State Machine
 
 A candidate state model is:
 
@@ -1415,9 +1414,9 @@ ACTIVE
 
 The dedicated lifecycle/governance artifacts determine canonical states.
 
----
+______________________________________________________________________
 
-# 56. Generator Failure
+## 56. Generator Failure
 
 Generator failure SHOULD be localized.
 
@@ -1440,9 +1439,9 @@ VERSION_CONFLICT
 UNKNOWN_FAILURE
 ```
 
----
+______________________________________________________________________
 
-# 57. Local Recovery
+## 57. Local Recovery
 
 Conceptually:
 
@@ -1464,9 +1463,9 @@ REROUTE / REGENERATE IF JUSTIFIED
 
 Global recomputation is a last resort.
 
----
+______________________________________________________________________
 
-# 58. Retry Rule
+## 58. Retry Rule
 
 A failed generator path SHOULD NOT simply be repeated without changed:
 
@@ -1482,9 +1481,9 @@ environment
 
 Otherwise the retry has little expected information value.
 
----
+______________________________________________________________________
 
-# 59. Generator Competing Outputs
+## 59. Generator Competing Outputs
 
 Generators may produce incompatible outputs.
 
@@ -1507,9 +1506,9 @@ COMPETING
 
 rather than force convergence.
 
----
+______________________________________________________________________
 
-# 60. Discriminating Tests
+## 60. Discriminating Tests
 
 When generator outputs compete, prefer the cheapest high-information test that can distinguish them.
 
@@ -1517,9 +1516,9 @@ $$Test^* = \arg\max_T \frac{ExpectedInformationGain(T)} {Cost(T)}$$
 
 subject to integrity and governance constraints.
 
----
+______________________________________________________________________
 
-# 61. Causal Firewall
+## 61. Causal Firewall
 
 Generator output must not silently cross from structural/model similarity into causal assertion.
 
@@ -1531,9 +1530,9 @@ $$Correlation \not\Rightarrow CausalEffect$$
 
 Causal outputs require appropriately typed support.
 
----
+______________________________________________________________________
 
-# 62. Translation Generators
+## 62. Translation Generators
 
 A translation generator SHOULD preserve explicit distinctions between:
 
@@ -1548,9 +1547,9 @@ uncertainty
 
 A cross-domain mapping remains a `MODEL` unless independently validated beyond structural analogy.
 
----
+______________________________________________________________________
 
-# 63. Counterfactual Generators
+## 63. Counterfactual Generators
 
 A counterfactual generator SHOULD preserve:
 
@@ -1567,9 +1566,9 @@ falsifiers
 
 Counterfactual generation does not itself prove causal truth.
 
----
+______________________________________________________________________
 
-# 64. Generator Confidence Ceiling
+## 64. Generator Confidence Ceiling
 
 A generator's derived confidence cannot exceed its weakest load-bearing premise unless independently revalidated.
 
@@ -1579,9 +1578,9 @@ $$Conf(O) \le \min( Conf(P_1), Conf(P_2), ..., Conf(P_n) )$$
 
 for load-bearing premises $P_i$, absent independent evidence that changes the dependency structure.
 
----
+______________________________________________________________________
 
-# 65. Generator Freshness
+## 65. Generator Freshness
 
 Generator validity may decay when:
 
@@ -1597,9 +1596,9 @@ validation expires
 
 Freshness SHOULD be attached to the relevant dependency rather than treated as one universal timestamp.
 
----
+______________________________________________________________________
 
-# 66. Generator Revalidation
+## 66. Generator Revalidation
 
 Revalidation should target the affected dependency closure.
 
@@ -1621,9 +1620,9 @@ affected outputs
 
 rather than automatically invalidating unrelated generators.
 
----
+______________________________________________________________________
 
-# 67. Generator Proof Capsule
+## 67. Generator Proof Capsule
 
 Consequential generator outputs SHOULD conceptually support:
 
@@ -1657,9 +1656,9 @@ generator_proof_capsule:
   confidence_ceiling:
 ```
 
----
+______________________________________________________________________
 
-# 68. Generator Fast Path
+## 68. Generator Fast Path
 
 Local generator reuse MAY be appropriate only when the required validity conditions are established.
 
@@ -1679,9 +1678,9 @@ generator_fast_path:
 
 Unknown values do not count as established.
 
----
+______________________________________________________________________
 
-# 69. Generator Escalation
+## 69. Generator Escalation
 
 Escalate when material issues involve:
 
@@ -1700,9 +1699,9 @@ dependency ambiguity
 constraint conflict
 ```
 
----
+______________________________________________________________________
 
-# 70. Generator Integrity Invariants
+## 70. Generator Integrity Invariants
 
 ```text
 GEN-I01
@@ -1781,9 +1780,9 @@ GEN-I25
 This map does not self-promote referenced artifacts to canon.
 ```
 
----
+______________________________________________________________________
 
-# 71. Dependency Topology
+## 71. Dependency Topology
 
 Conceptually:
 
@@ -1837,9 +1836,9 @@ GENERATORS_HISTORY
 GENERATORS_ROADMAP
 ```
 
----
+______________________________________________________________________
 
-# 72. System-Level vs Generator-Level Artifacts
+## 72. System-Level vs Generator-Level Artifacts
 
 The plural/singular distinction is meaningful.
 
@@ -1863,9 +1862,9 @@ The former may validate one generator.
 
 The latter may define or inspect validation across the generator subsystem.
 
----
+______________________________________________________________________
 
-# 73. Generator Map Lookup
+## 73. Generator Map Lookup
 
 A lookup SHOULD begin from the question being asked.
 
@@ -1912,9 +1911,9 @@ Examples:
 → GENERATORS_PROVENANCE
 ```
 
----
+______________________________________________________________________
 
-# 74. Smallest-Sufficient Traversal
+## 74. Smallest-Sufficient Traversal
 
 The map SHOULD support targeted navigation rather than mandatory full-directory loading.
 
@@ -1936,9 +1935,9 @@ specific provenance only if needed
 
 There is no need to load benchmarks, roadmap, and every test merely because they are adjacent artifacts.
 
----
+______________________________________________________________________
 
-# 75. Map Completeness Boundary
+## 75. Map Completeness Boundary
 
 This map represents the generator artifacts currently declared in this artifact.
 
@@ -1955,9 +1954,9 @@ the map is synchronized with the filesystem.
 
 Those are audit questions.
 
----
+______________________________________________________________________
 
-# 76. Duplicate Semantic Names
+## 76. Duplicate Semantic Names
 
 Where similarly named artifacts exist, they should not be merged merely because their names overlap.
 
@@ -1976,9 +1975,9 @@ GENERATORS_VERSIONING
 
 Their distinct scopes must be preserved unless canon explicitly supersedes or consolidates them.
 
----
+______________________________________________________________________
 
-# 77. Broken Reference Handling
+## 77. Broken Reference Handling
 
 If a mapped artifact cannot be resolved:
 
@@ -1991,9 +1990,9 @@ reference_state:
 
 Do not fabricate the missing artifact's contents merely to satisfy the map.
 
----
+______________________________________________________________________
 
-# 78. Map Provenance
+## 78. Map Provenance
 
 Because this artifact is `rscf-state: derived`, its topology should remain traceable to the artifacts or filesystem state from which it was constructed.
 
@@ -2010,9 +2009,9 @@ map_provenance:
 
 Actual provenance values should be populated only from evidence.
 
----
+______________________________________________________________________
 
-# 79. Map Freshness
+## 79. Map Freshness
 
 A generator map becomes stale when the underlying generator topology changes.
 
@@ -2029,9 +2028,9 @@ registry restructuring
 RSCF relation change
 ```
 
----
+______________________________________________________________________
 
-# 80. Map Rebuild
+## 80. Map Rebuild
 
 A map rebuild SHOULD:
 
@@ -2048,9 +2047,9 @@ update derived topology
 
 without rewriting unrelated canonical claims.
 
----
+______________________________________________________________________
 
-# 81. Map Validation
+## 81. Map Validation
 
 Validation of this map SHOULD ask:
 
@@ -2074,17 +2073,17 @@ Are missing artifacts exposed?
 Does the map claim more than its evidence supports?
 ```
 
----
+______________________________________________________________________
 
-# 82. Generator Map and RSCF
+## 82. Generator Map and RSCF
 
 This map is both a navigation surface and an RSCF node.
 
 Its RSCF role is to connect the generator subsystem into the broader AMOS knowledge topology without converting the map itself into evidence for all referenced claims.
 
----
+______________________________________________________________________
 
-# 83. RSCF Node Identity
+## 83. RSCF Node Identity
 
 ```yaml
 rscf_node:
@@ -2104,9 +2103,9 @@ rscf_node:
     AMOS_MODEL
 ```
 
----
+______________________________________________________________________
 
-# 84. Recommended RSCF Relations
+## 84. Recommended RSCF Relations
 
 ```text
 INDEXED_BY
@@ -2120,9 +2119,9 @@ RELATED_TO
 
 Relations should remain typed and must not be interpreted beyond their defined semantics.
 
----
+______________________________________________________________________
 
-# 85. Canon Boundary
+## 85. Canon Boundary
 
 Because this is a reference artifact:
 
@@ -2132,9 +2131,9 @@ If this map conflicts with a valid higher-authority contract or current provenan
 
 The map must not silently overwrite the source artifact.
 
----
+______________________________________________________________________
 
-# 86. Supersession Boundary
+## 86. Supersession Boundary
 
 If a referenced generator artifact has been superseded:
 
@@ -2146,9 +2145,9 @@ NEW
 
 the map SHOULD preserve the historical relationship when relevant rather than silently replacing all evidence of `OLD`.
 
----
+______________________________________________________________________
 
-# 87. Integrity Ordering
+## 87. Integrity Ordering
 
 All generator subsystem interpretation remains governed by:
 
@@ -2156,9 +2155,9 @@ $$\boxed{ Integrity > Completeness > Fluency > Speed > TokenSavings }$$
 
 This means a missing generator reference should remain a visible gap rather than being filled with invented content.
 
----
+______________________________________________________________________
 
-# 88. Generator Map Summary
+## 88. Generator Map Summary
 
 The generator subsystem separates:
 
@@ -2189,9 +2188,9 @@ The key distinction is:
 
 $$\boxed{ Creation \neq Validation \neq Admission \neq Promotion \neq Canon }$$
 
----
+______________________________________________________________________
 
-# 89. Artifact Index
+## 89. Artifact Index
 
 ## Contracts
 
@@ -2248,9 +2247,9 @@ $$\boxed{ Creation \neq Validation \neq Admission \neq Promotion \neq Canon }$$
 - [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_INTEGRATION|GENERATORS_INTEGRATION]]
 - [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_ROADMAP|GENERATORS_ROADMAP]]
 
----
+______________________________________________________________________
 
-# 90. Machine-Readable Map
+## 90. Machine-Readable Map
 
 ```yaml
 generator_subsystem_map:
@@ -2324,9 +2323,9 @@ generator_subsystem_map:
     - GENERATORS_ROADMAP
 ```
 
----
+______________________________________________________________________
 
-# 91. Final Map Law
+## 91. Final Map Law
 
 The generator map exists to answer:
 
@@ -2374,15 +2373,15 @@ Roadmap preserves intended future work.
 
 None of these functions should silently substitute for another.
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[25_COGNITIVE_MATRIX/12_GENERATORS/COGNITIVE_MATRIX_GENERATORS_CONTRACT|COGNITIVE_MATRIX_GENERATORS_CONTRACT]] · [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_COGNITIVE_MATRIX_README|GENERATORS_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_REGISTRY|GENERATOR_REGISTRY]] · [[02_KERNEL/09_INTEGRATION/K_RSCF|K_RSCF]] · [[01_CANON/01_CORE_LAWS/L17_RSCF|L17_RSCF]]
 
----
+______________________________________________________________________
 
 RSCF-NODE
 
@@ -2465,8 +2464,10 @@ claim_class: AMOS_MODEL · [[01_CANON/01_CORE_LAWS/L17_RSCF|L17_RSCF]] · [[02_K
 ```
 ```
 
----
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/12_GENERATORS/00_INDEX/INDEX_GENERATORS_COGNITIVE_MATRIX_README|INDEX_GENERATORS_COGNITIVE_MATRIX_README]]
 
----
+______________________________________________________________________
+
 **MOC:** [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]]

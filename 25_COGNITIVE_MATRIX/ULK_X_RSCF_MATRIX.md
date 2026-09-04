@@ -1,10 +1,10 @@
 ---
 title: ULK x RSCF Cross-Plane Matrix Table
 aliases:
-- ULK × RSCF Cross-Plane Matrix
-- ULK x RSCF Matrix
-- ULK RSCF Matrix
-- ULK RSCF Cross-Plane Matrix Table
+  - ULK × RSCF Cross-Plane Matrix
+  - ULK x RSCF Matrix
+  - ULK RSCF Matrix
+  - ULK RSCF Cross-Plane Matrix Table
 type: cognitive
 source: 25_COGNITIVE_MATRIX
 artifact: ULK_X_RSCF_MATRIX.md
@@ -27,90 +27,90 @@ executable_binding: ESTABLISHED
 ingestion_action: NATIVE_CANON_INGESTION
 raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
 tags:
-- amos-os
-- cognitive-matrix
-- vault
-- ulk_x_rscf
-- ulk_x_rscf_matrix
-- matrix_table
-- cross-plane
-- cross_plane_matrix
-- universal_logic_kernel
-- ulk
-- logic_kernel
-- rscf
-- rscf_node
-- recursive_structure
-- recursive_reasoning
-- deterministic_logic
-- alu
-- alu_operator
-- ground_state
-- distinction
-- regime
-- relational_coupling
-- tensor_coupling
-- constitutional_projection
-- type_system
-- state_hash
-- sha256
-- merkle_verification
-- fail_closed
-- scope_firewall
-- invariant
-- invariant_verification
-- type_safety
-- provenance
-- provenance_aware
-- source_grounded
-- source_claim
-- amos_model
-- canon_candidate
-- active_reference
-- conceptual_source_defined
-- executable_binding
-- constitutional_tests
-- epistemic_boundary
-- verification
-- verification_matrix
-- governance
-- integrity
-- causal_firewall
-- scope_firewall
-- fractal_knowledge_network
-- hml
-- domain/cognitive-matrix
-- canon/ulk
-- canon/rscf
-- ulk-x-rscf
-- ulk-logic-kernel
-- k-fail-closed
-- k-provenance
+  - amos-os
+  - cognitive-matrix
+  - vault
+  - ulk_x_rscf
+  - ulk_x_rscf_matrix
+  - matrix_table
+  - cross-plane
+  - cross_plane_matrix
+  - universal_logic_kernel
+  - ulk
+  - logic_kernel
+  - rscf
+  - rscf_node
+  - recursive_structure
+  - recursive_reasoning
+  - deterministic_logic
+  - alu
+  - alu_operator
+  - ground_state
+  - distinction
+  - regime
+  - relational_coupling
+  - tensor_coupling
+  - constitutional_projection
+  - type_system
+  - state_hash
+  - sha256
+  - merkle_verification
+  - fail_closed
+  - scope_firewall
+  - invariant
+  - invariant_verification
+  - type_safety
+  - provenance
+  - provenance_aware
+  - source_grounded
+  - source_claim
+  - amos_model
+  - canon_candidate
+  - active_reference
+  - conceptual_source_defined
+  - executable_binding
+  - constitutional_tests
+  - epistemic_boundary
+  - verification
+  - verification_matrix
+  - governance
+  - integrity
+  - causal_firewall
+  - scope_firewall
+  - fractal_knowledge_network
+  - hml
+  - domain/cognitive-matrix
+  - canon/ulk
+  - canon/rscf
+  - ulk-x-rscf
+  - ulk-logic-kernel
+  - k-fail-closed
+  - k-provenance
 framework_binding:
   matrix_spec:
     artifact:
-    - - ULK_X_RSCF
+      -   - ULK_X_RSCF
   ulk:
     artifact:
-    - - ULK_LOGIC_KERNEL
+      -   - ULK_LOGIC_KERNEL
   cognitive_matrix:
     artifact:
-    - - 25_COGNITIVE_MATRIX_MOC
+      -   - 25_COGNITIVE_MATRIX_MOC
 rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - 25_COGNITIVE_MATRIX/ULK_X_RSCF_MATRIX.md
-  - '[[25_COGNITIVE_MATRIX/ULK_X_RSCF|ULK_X_RSCF]]'
-  - '[[02_KERNEL/ULK_LOGIC_KERNEL|ULK_LOGIC_KERNEL]]'
-  - AMOS_CORPUS
+    - 25_COGNITIVE_MATRIX/ULK_X_RSCF_MATRIX.md
+    - '[[25_COGNITIVE_MATRIX/ULK_X_RSCF|ULK_X_RSCF]]'
+    - '[[02_KERNEL/ULK_LOGIC_KERNEL|ULK_LOGIC_KERNEL]]'
+    - AMOS_CORPUS
   scope:
-  - COGNITIVE_MATRIX
-  - ULK_RSCF_INTEGRATION
-  - LOGIC_TO_RSCF_MAPPING
-  - VERIFICATION
-  - FAIL_CLOSED_GOVERNANCE
-  - SOURCE_DEFINED_MODEL
+    - COGNITIVE_MATRIX
+    - ULK_RSCF_INTEGRATION
+    - LOGIC_TO_RSCF_MAPPING
+    - VERIFICATION
+    - FAIL_CLOSED_GOVERNANCE
+    - SOURCE_DEFINED_MODEL
 epistemic_boundary:
   artifact_presence: VERIFIED_SOURCE_PRESENCE
   matrix_rows: VERIFIED_SOURCE_STRUCTURE
@@ -125,99 +125,98 @@ epistemic_boundary:
 
 # ULK × RSCF Cross-Plane Matrix Table
 
-> [!abstract] Canonical Definition
+> [!ABSTRACT] Canonical Definition
 > `ULK_X_RSCF_MATRIX.md` is the Cognitive Matrix table connecting **Universal Logic Kernel (ULK) ALU operators** to **RSCF generation**, **verification checks**, and **fail-closed fallbacks**.
 >
 > The supplied source explicitly defines six ALU rows (`ALU-0` through `ALU-5`). The **Generated RSCF Section** cells are blank in the supplied source and therefore remain unresolved rather than being inferred.
 
----
+______________________________________________________________________
 
 ## 0. Identity
 
-| Field | Value |
-|---|---|
-| **Artifact** | `ULK_X_RSCF_MATRIX.md` |
-| **Artifact ID** | `amos_25_cognitive_matrix_ulk_x_rscf_matrix` |
-| **System** | AMOS OS |
-| **Plane** | `25_COGNITIVE_MATRIX` |
-| **Artifact Kind** | `MATRIX_TABLE` |
-| **Version** | `2.0.0` |
-| **Status** | `ACTIVE_REFERENCE` |
-| **Epistemic Class** | `AMOS_MODEL` |
-| **Canonical Status** | `SOURCE_GROUNDED_CANON_CANDIDATE` |
-| **Implementation Status** | `CONCEPTUAL_SOURCE_DEFINED` |
-| **Validation Status** | `PASSED_CONSTITUTIONAL_TESTS` |
-| **Executable Binding** | `ESTABLISHED` |
-| **Origin Architect** | Trang Phan |
-| **Steward** | Trang Phan |
+| Field                     | Value                                        |
+| ------------------------- | -------------------------------------------- |
+| **Artifact**              | `ULK_X_RSCF_MATRIX.md`                       |
+| **Artifact ID**           | `amos_25_cognitive_matrix_ulk_x_rscf_matrix` |
+| **System**                | AMOS OS                                      |
+| **Plane**                 | `25_COGNITIVE_MATRIX`                        |
+| **Artifact Kind**         | `MATRIX_TABLE`                               |
+| **Version**               | `2.0.0`                                      |
+| **Status**                | `ACTIVE_REFERENCE`                           |
+| **Epistemic Class**       | `AMOS_MODEL`                                 |
+| **Canonical Status**      | `SOURCE_GROUNDED_CANON_CANDIDATE`            |
+| **Implementation Status** | `CONCEPTUAL_SOURCE_DEFINED`                  |
+| **Validation Status**     | `PASSED_CONSTITUTIONAL_TESTS`                |
+| **Executable Binding**    | `ESTABLISHED`                                |
+| **Origin Architect**      | Trang Phan                                   |
+| **Steward**               | Trang Phan                                   |
 
----
+______________________________________________________________________
 
-# 1. Canonical Matrix
+## 1. Canonical Matrix
 
-| ULK ALU Operator | Generated RSCF Section | Verification Check | Fail-Closed Fallback |
-| :--- | :--- | :--- | :--- |
-| **ALU-0 ($\emptyset \to S_0$)** | `UNKNOWN / SOURCE BLANK` | Ground state conservation | Null State Abort |
-| **ALU-1 ($\Delta$)** | `UNKNOWN / SOURCE BLANK` | Distinction & regime non-leakage | Scope Firewall Veto |
-| **ALU-2 ($\otimes$)** | `UNKNOWN / SOURCE BLANK` | Relational coupling valid | Tensor Decouple |
-| **ALU-3 ($\Pi_{\mathcal{C}}$)** | `UNKNOWN / SOURCE BLANK` | All 21 core laws satisfied | Invariant Violation Reject |
-| **ALU-4 ($\tau$)** | `UNKNOWN / SOURCE BLANK` | Type well-formedness | Type Mismatch Abort |
-| **ALU-5 ($\mathcal{H}$)** | `UNKNOWN / SOURCE BLANK` | SHA-256 state hash verified | Merkle Verification Fail |
+| ULK ALU Operator                | Generated RSCF Section   | Verification Check               | Fail-Closed Fallback       |
+| :------------------------------ | :----------------------- | :------------------------------- | :------------------------- |
+| **ALU-0 ($\emptyset \to S_0$)** | `UNKNOWN / SOURCE BLANK` | Ground state conservation        | Null State Abort           |
+| **ALU-1 ($\Delta$)**            | `UNKNOWN / SOURCE BLANK` | Distinction & regime non-leakage | Scope Firewall Veto        |
+| **ALU-2 ($\otimes$)**           | `UNKNOWN / SOURCE BLANK` | Relational coupling valid        | Tensor Decouple            |
+| **ALU-3 ($\Pi_{\mathcal{C}}$)** | `UNKNOWN / SOURCE BLANK` | All 21 core laws satisfied       | Invariant Violation Reject |
+| **ALU-4 ($\tau$)**              | `UNKNOWN / SOURCE BLANK` | Type well-formedness             | Type Mismatch Abort        |
+| **ALU-5 ($\mathcal{H}$)**       | `UNKNOWN / SOURCE BLANK` | SHA-256 state hash verified      | Merkle Verification Fail   |
 
-> [!warning] Source normalization
+> [!WARNING] Source normalization
 > The supplied text contains formatting corruption around the ALU-0 arrow and ALU-4 symbol. This note normalizes them as `\emptyset \to S_0` and `\tau` for readable Obsidian/LaTeX rendering. If the authoritative [[02_KERNEL/ULK_LOGIC_KERNEL|ULK_LOGIC_KERNEL]] defines different symbols, that artifact supersedes this normalization.
 
----
+______________________________________________________________________
 
-# 2. Matrix Purpose
+## 2. Matrix Purpose
 
 The matrix defines a four-part relationship:
 
 \[
-\boxed{
-ALU\ Operator
-\rightarrow
-RSCF\ Generation
-\rightarrow
+\\boxed{
+ALU\\ Operator
+\\rightarrow
+RSCF\\ Generation
+\\rightarrow
 Verification
-\rightarrow
+\\rightarrow
 FailClosedFallback
 }
 \]
 
-For each ULK operator \(A_i\), the matrix provides:
+For each ULK operator (A_i), the matrix provides:
 
-\[
-M_i
-=
-\langle
+## \[ M_i
+
+\\langle
 A_i,
 R_i,
 V_i,
 F_i
-\rangle
+\\rangle
 \]
 
 where:
 
-- \(A_i\) = ULK ALU operator;
-- \(R_i\) = generated RSCF section;
-- \(V_i\) = verification condition;
-- \(F_i\) = fail-closed fallback.
+- (A_i) = ULK ALU operator;
+- (R_i) = generated RSCF section;
+- (V_i) = verification condition;
+- (F_i) = fail-closed fallback.
 
-The source currently leaves \(R_i\) unspecified for all six rows.
+The source currently leaves (R_i) unspecified for all six rows.
 
 Therefore:
 
 \[
-R_0,\ldots,R_5 = UNKNOWN
+R_0,\\ldots,R_5 = UNKNOWN
 \]
 
 within this artifact.
 
----
+______________________________________________________________________
 
-# 3. Specification–Matrix Relationship
+## 3. Specification–Matrix Relationship
 
 This artifact is the operational matrix counterpart of:
 
@@ -247,9 +246,9 @@ The specification should remain the preferred authority for the architectural me
 
 This matrix remains the preferred authority for the supplied row-level mappings.
 
----
+______________________________________________________________________
 
-# 4. Universal Logic Kernel Binding
+## 4. Universal Logic Kernel Binding
 
 The matrix explicitly binds to:
 
@@ -276,9 +275,9 @@ $$
 
 The matrix defines how each operator participates in the cross-plane relationship.
 
----
+______________________________________________________________________
 
-# 5. Core Cross-Plane Contract
+## 5. Core Cross-Plane Contract
 
 The source establishes the following general control structure:
 
@@ -304,9 +303,9 @@ VERIFICATION
 
 The exact semantics of `ACCEPT / CONTINUE` are not supplied by the matrix and therefore remain a derived placeholder.
 
----
+______________________________________________________________________
 
-# 6. ALU-0 — Ground State
+## 6. ALU-0 — Ground State
 
 ## Source Row
 
@@ -335,14 +334,14 @@ $$
 
 This is a **source-defined AMOS model rule**.
 
----
+______________________________________________________________________
 
-# 7. ALU-0 Epistemic Boundary
+## 7. ALU-0 Epistemic Boundary
 
 The matrix does not define:
 
-- the internal representation of \(S_0\);
-- whether \(S_0\) is unique;
+- the internal representation of (S_0);
+- whether (S_0) is unique;
 - the conservation predicate;
 - initialization mechanics;
 - restoration semantics;
@@ -356,9 +355,9 @@ and/or:
 
 [[25_COGNITIVE_MATRIX/ULK_X_RSCF|ULK_X_RSCF]].
 
----
+______________________________________________________________________
 
-# 8. ALU-1 — Distinction
+## 8. ALU-1 — Distinction
 
 ## Source Row — part 2
 
@@ -385,9 +384,9 @@ Leakage
 ScopeFirewallVeto.
 $$
 
----
+______________________________________________________________________
 
-# 9. ALU-1 Scope Firewall
+## 9. ALU-1 Scope Firewall
 
 The verification name explicitly links distinction to regime containment.
 
@@ -410,9 +409,9 @@ REGIME BOUNDARY CHECK
 
 The successful continuation path is not explicitly defined by the row.
 
----
+______________________________________________________________________
 
-# 10. ALU-2 — Relational Coupling
+## 10. ALU-2 — Relational Coupling
 
 ## Source Row — part 3
 
@@ -439,9 +438,9 @@ $$
 TensorDecouple.
 $$
 
----
+______________________________________________________________________
 
-# 11. ALU-2 Coupling Firewall
+## 11. ALU-2 Coupling Firewall
 
 The matrix licenses the existence of a coupling validation step.
 
@@ -465,9 +464,9 @@ Nor does it specify:
 
 Those details remain unresolved unless defined in [[02_KERNEL/ULK_LOGIC_KERNEL|ULK_LOGIC_KERNEL]].
 
----
+______________________________________________________________________
 
-# 12. ALU-3 — Constitutional Projection
+## 12. ALU-3 — Constitutional Projection
 
 ## Source Row — part 4
 
@@ -502,9 +501,9 @@ $$
 
 This is the strongest literal interpretation of **“All 21 core laws satisfied.”**
 
----
+______________________________________________________________________
 
-# 13. ALU-3 Constitutional Boundary
+## 13. ALU-3 Constitutional Boundary
 
 This artifact does not enumerate the 21 laws.
 
@@ -527,9 +526,9 @@ The laws must be loaded from the authoritative constitutional or ULK dependency 
 
 They must not be invented from general AMOS principles.
 
----
+______________________________________________________________________
 
-# 14. ALU-4 — Type Formation
+## 14. ALU-4 — Type Formation
 
 ## Source Row — part 5
 
@@ -556,9 +555,9 @@ $$
 TypeMismatchAbort.
 $$
 
----
+______________________________________________________________________
 
-# 15. ALU-4 Type Firewall
+## 15. ALU-4 Type Firewall
 
 The matrix establishes type validation but does not provide the type system.
 
@@ -594,9 +593,9 @@ type_system:
 
 These should be resolved through [[02_KERNEL/ULK_LOGIC_KERNEL|ULK_LOGIC_KERNEL]] rather than inferred.
 
----
+______________________________________________________________________
 
-# 16. ALU-5 — State Hash Verification
+## 16. ALU-5 — State Hash Verification
 
 ## Source Row — part 6
 
@@ -623,9 +622,9 @@ $$
 MerkleVerificationFail.
 $$
 
----
+______________________________________________________________________
 
-# 17. Hash / Merkle Boundary
+## 17. Hash / Merkle Boundary
 
 The row contains both:
 
@@ -663,9 +662,9 @@ SHA256
 CompleteMerkleSpecification.
 $$
 
----
+______________________________________________________________________
 
-# 18. Six-Operator Matrix
+## 18. Six-Operator Matrix
 
 The supplied matrix can be normalized as:
 
@@ -715,9 +714,9 @@ $$
 V(A_5)=SHA256StateHashVerified.
 $$
 
----
+______________________________________________________________________
 
-# 19. Fail-Closed Map
+## 19. Fail-Closed Map
 
 Likewise:
 
@@ -747,9 +746,9 @@ $$
 
 Thus every supplied operator has an explicit verification failure route.
 
----
+______________________________________________________________________
 
-# 20. Fail-Closed Invariant
+## 20. Fail-Closed Invariant
 
 The matrix supports the structural invariant:
 
@@ -773,9 +772,9 @@ fallback.
 
 Therefore silent acceptance is not licensed by this matrix.
 
----
+______________________________________________________________________
 
-# 21. Unknown Generated RSCF Sections
+## 21. Unknown Generated RSCF Sections
 
 The second column is blank in every supplied row.
 
@@ -817,9 +816,9 @@ generated_rscf_sections:
     UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 22. Missing RSCF Mapping as a Critical Gap
+## 22. Missing RSCF Mapping as a Critical Gap
 
 Because this is explicitly a **ULK × RSCF** matrix, the blank RSCF column is decision-relevant.
 
@@ -833,9 +832,9 @@ Then:
 
 Only if those artifacts do not resolve the mappings should deeper source evidence be loaded.
 
----
+______________________________________________________________________
 
-# 23. Verification Before Acceptance
+## 23. Verification Before Acceptance
 
 A safe model-level normalization is:
 
@@ -867,18 +866,18 @@ Status:
 MODEL / STRUCTURAL INFERENCE
 ```
 
----
+______________________________________________________________________
 
-# 24. Integrity Boundary
+## 24. Integrity Boundary
 
 The matrix encodes verification gates for:
 
 1. state;
-2. scope/regime;
-3. relation;
-4. constitutional invariants;
-5. type;
-6. hash/provenance integrity.
+1. scope/regime;
+1. relation;
+1. constitutional invariants;
+1. type;
+1. hash/provenance integrity.
 
 This gives the derived verification vector:
 
@@ -897,9 +896,9 @@ $$
 
 This vector is a **DERIVED compression** of the six source rows.
 
----
+______________________________________________________________________
 
-# 25. Verification Stack
+## 25. Verification Stack
 
 ```text
 ALU-0
@@ -926,12 +925,12 @@ ALU-5
 STATE HASH VERIFICATION
 ```
 
-> [!warning] Ordering boundary
+> [!WARNING] Ordering boundary
 > The numbering strongly supports this ordering as an index sequence. This artifact alone does not prove that runtime execution always occurs serially in exactly this order.
 
----
+______________________________________________________________________
 
-# 26. Fail-Closed Stack
+## 26. Fail-Closed Stack
 
 ```text
 GROUND STATE FAILURE
@@ -953,9 +952,9 @@ HASH FAILURE
 → MERKLE VERIFICATION FAIL
 ```
 
----
+______________________________________________________________________
 
-# 27. Local Failure Semantics
+## 27. Local Failure Semantics
 
 The fallback names differ materially.
 
@@ -989,9 +988,9 @@ failure_classes:
     source_operator: ALU_5
 ```
 
----
+______________________________________________________________________
 
-# 28. Abort vs Veto vs Decouple vs Reject vs Fail
+## 28. Abort vs Veto vs Decouple vs Reject vs Fail
 
 The source deliberately uses different verbs:
 
@@ -1027,9 +1026,9 @@ But these meanings are **MODEL interpretations**, not explicit source definition
 
 Canonical runtime semantics remain dependent on [[02_KERNEL/ULK_LOGIC_KERNEL|ULK_LOGIC_KERNEL]].
 
----
+______________________________________________________________________
 
-# 29. Scope / Regime Firewall
+## 29. Scope / Regime Firewall
 
 ALU-1 explicitly verifies:
 
@@ -1055,9 +1054,9 @@ RegimeLeakage
 Veto.
 $$
 
----
+______________________________________________________________________
 
-# 30. Constitutional Firewall
+## 30. Constitutional Firewall
 
 ALU-3 explicitly requires:
 
@@ -1081,9 +1080,9 @@ $$
 
 The matrix does not license optimization around this gate.
 
----
+______________________________________________________________________
 
-# 31. Type Firewall
+## 31. Type Firewall
 
 ALU-4 explicitly requires:
 
@@ -1099,9 +1098,9 @@ TypeMismatch
 Abort.
 $$
 
----
+______________________________________________________________________
 
-# 32. Provenance / Integrity Firewall
+## 32. Provenance / Integrity Firewall
 
 ALU-5 explicitly requires:
 
@@ -1123,9 +1122,9 @@ A verified hash can establish consistency with hashed content.
 
 It does not establish that the content itself is empirically correct.
 
----
+______________________________________________________________________
 
-# 33. Hash Integrity vs Epistemic Validity
+## 33. Hash Integrity vs Epistemic Validity
 
 These must remain separate:
 
@@ -1146,9 +1145,9 @@ A state may be perfectly hash-consistent and still contain:
 
 Therefore ALU-5 cannot substitute for ALU-1, ALU-3, or other epistemic validation.
 
----
+______________________________________________________________________
 
-# 34. Relational Coupling vs Causation
+## 34. Relational Coupling vs Causation
 
 ALU-2 verifies:
 
@@ -1185,9 +1184,9 @@ A relation may encode:
 
 The relationship type must be separately established.
 
----
+______________________________________________________________________
 
-# 35. Ground State vs Truth
+## 35. Ground State vs Truth
 
 Likewise:
 
@@ -1201,9 +1200,9 @@ ALU-0 establishes a structural state condition, not empirical truth.
 
 This prevents structural validity from being silently promoted into epistemic validity.
 
----
+______________________________________________________________________
 
-# 36. Type Correctness vs Truth
+## 36. Type Correctness vs Truth
 
 Similarly:
 
@@ -1217,9 +1216,9 @@ A claim can be structurally well-typed while factually unsupported.
 
 ALU-4 therefore protects structural integrity, not complete epistemic validity.
 
----
+______________________________________________________________________
 
-# 37. Constitutional Compliance vs Empirical Proof
+## 37. Constitutional Compliance vs Empirical Proof
 
 And:
 
@@ -1233,9 +1232,9 @@ Passing all 21 core laws may establish compliance with AMOS constitutional const
 
 It does not automatically establish external empirical truth unless those laws explicitly include and successfully satisfy the necessary evidence tests.
 
----
+______________________________________________________________________
 
-# 38. Cross-Plane Architecture
+## 38. Cross-Plane Architecture
 
 ```text
 UNIVERSAL LOGIC KERNEL
@@ -1262,9 +1261,9 @@ The matrix source clearly establishes the operator, verification, and fallback c
 
 The exact generated RSCF content and successful post-verification action remain unresolved.
 
----
+______________________________________________________________________
 
-# 39. RSCF H-Level
+## 39. RSCF H-Level
 
 ```yaml
 H:
@@ -1288,9 +1287,9 @@ H:
     LOGIC_OPERATOR_TO_VERIFIED_RSCF_BINDING
 ```
 
----
+______________________________________________________________________
 
-# 40. RSCF M-Level
+## 40. RSCF M-Level
 
 ```yaml
 M:
@@ -1369,9 +1368,9 @@ M:
         MERKLE_VERIFICATION_FAIL
 ```
 
----
+______________________________________________________________________
 
-# 41. RSCF L-Level
+## 41. RSCF L-Level
 
 ```yaml
 L:
@@ -1394,9 +1393,9 @@ L:
     DO_NOT_LOAD_UNLESS_REQUIRED
 ```
 
----
+______________________________________________________________________
 
-# 42. RSCF Core Claim
+## 42. RSCF Core Claim
 
 ```yaml
 RSCF_CORE_CLAIM:
@@ -1433,9 +1432,9 @@ RSCF_CORE_CLAIM:
     SOURCE_GROUNDED
 ```
 
----
+______________________________________________________________________
 
-# 43. Proof Capsule — ALU-0
+## 43. Proof Capsule — ALU-0
 
 ```yaml
 PROOF_CAPSULE_ALU_0:
@@ -1464,9 +1463,9 @@ PROOF_CAPSULE_ALU_0:
     SOURCE_GROUNDED
 ```
 
----
+______________________________________________________________________
 
-# 44. Proof Capsule — ALU-1
+## 44. Proof Capsule — ALU-1
 
 ```yaml
 PROOF_CAPSULE_ALU_1:
@@ -1495,9 +1494,9 @@ PROOF_CAPSULE_ALU_1:
     SOURCE_GROUNDED
 ```
 
----
+______________________________________________________________________
 
-# 45. Proof Capsule — ALU-2
+## 45. Proof Capsule — ALU-2
 
 ```yaml
 PROOF_CAPSULE_ALU_2:
@@ -1526,9 +1525,9 @@ PROOF_CAPSULE_ALU_2:
     SOURCE_GROUNDED
 ```
 
----
+______________________________________________________________________
 
-# 46. Proof Capsule — ALU-3
+## 46. Proof Capsule — ALU-3
 
 ```yaml
 PROOF_CAPSULE_ALU_3:
@@ -1560,9 +1559,9 @@ PROOF_CAPSULE_ALU_3:
     SOURCE_GROUNDED
 ```
 
----
+______________________________________________________________________
 
-# 47. Proof Capsule — ALU-4
+## 47. Proof Capsule — ALU-4
 
 ```yaml
 PROOF_CAPSULE_ALU_4:
@@ -1591,9 +1590,9 @@ PROOF_CAPSULE_ALU_4:
     SOURCE_GROUNDED
 ```
 
----
+______________________________________________________________________
 
-# 48. Proof Capsule — ALU-5
+## 48. Proof Capsule — ALU-5
 
 ```yaml
 PROOF_CAPSULE_ALU_5:
@@ -1627,9 +1626,9 @@ PROOF_CAPSULE_ALU_5:
     SOURCE_GROUNDED
 ```
 
----
+______________________________________________________________________
 
-# 49. Matrix-Level Proof Capsule
+## 49. Matrix-Level Proof Capsule
 
 ```yaml
 PROOF_CAPSULE:
@@ -1707,9 +1706,9 @@ PROOF_CAPSULE:
       NOT_INDEPENDENTLY_VERIFIED
 ```
 
----
+______________________________________________________________________
 
-# 50. Competing Hypotheses — RSCF Generation
+## 50. Competing Hypotheses — RSCF Generation
 
 Because the generated RSCF cells are blank, multiple architectures remain possible.
 
@@ -1774,25 +1773,25 @@ COMPETING_HYPOTHESES:
 
 No hypothesis should be promoted without discriminating evidence.
 
----
+______________________________________________________________________
 
-# 51. Cheapest Discriminating Evidence
+## 51. Cheapest Discriminating Evidence
 
 Priority order:
 
 1. [[25_COGNITIVE_MATRIX/ULK_X_RSCF|ULK_X_RSCF]]
-2. [[02_KERNEL/ULK_LOGIC_KERNEL|ULK_LOGIC_KERNEL]]
-3. authoritative RSCF schema
-4. constitutional law definitions
-5. executable binding
-6. runtime receipts
-7. raw implementation evidence
+1. [[02_KERNEL/ULK_LOGIC_KERNEL|ULK_LOGIC_KERNEL]]
+1. authoritative RSCF schema
+1. constitutional law definitions
+1. executable binding
+1. runtime receipts
+1. raw implementation evidence
 
 This follows smallest-sufficient-proof retrieval.
 
----
+______________________________________________________________________
 
-# 52. Gaps Registry
+## 52. Gaps Registry
 
 ```yaml
 GAPS:
@@ -1837,9 +1836,9 @@ GAPS:
     - TABLE_ALIGNMENT
 ```
 
----
+______________________________________________________________________
 
-# 53. Uncertainty Vector
+## 53. Uncertainty Vector
 
 ```yaml
 UNCERTAINTY_VECTOR:
@@ -1869,9 +1868,9 @@ UNCERTAINTY_VECTOR:
     HIGH
 ```
 
----
+______________________________________________________________________
 
-# 54. Confidence Ceiling
+## 54. Confidence Ceiling
 
 ```yaml
 CONFIDENCE_CEILING:
@@ -1901,9 +1900,9 @@ CONFIDENCE_CEILING:
     SOURCE_DECLARED_NOT_INDEPENDENTLY_REVALIDATED
 ```
 
----
+______________________________________________________________________
 
-# 55. Validation Surface
+## 55. Validation Surface
 
 The metadata states:
 
@@ -1945,9 +1944,9 @@ validation:
     NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 56. Executable Binding Surface
+## 56. Executable Binding Surface
 
 The metadata states:
 
@@ -1984,40 +1983,40 @@ runtime:
     NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 57. Anti-Fabrication Contract
+## 57. Anti-Fabrication Contract
 
 This matrix MUST NOT be used to claim, without additional canonical evidence, that:
 
 1. the blank Generated RSCF Section cells have known values;
-2. ALU-0 necessarily generates RSCF H;
-3. ALU-1 necessarily generates RSCF M;
-4. ALU-2 necessarily generates RSCF L;
-5. ALU operators execute serially in all runtimes;
-6. ALU numbering alone proves causal dependency;
-7. `Tensor Decouple` has a known mathematical implementation;
-8. `Scope Firewall Veto` has a known runtime implementation;
-9. the 21 core laws are enumerated in this artifact;
-10. all 21 laws have been formally proven;
-11. type well-formedness establishes factual truth;
-12. hash verification establishes factual truth;
-13. Merkle verification establishes source independence;
-14. SHA-256 proves semantic validity;
-15. relational coupling establishes causation;
-16. ground-state conservation establishes empirical correctness;
-17. constitutional compliance establishes empirical correctness;
-18. a successful hash check supersedes other verification checks;
-19. a successful type check supersedes scope verification;
-20. fail-closed fallback names are semantically interchangeable;
-21. `PASSED_CONSTITUTIONAL_TESTS` means universal formal proof;
-22. `executable_binding: ESTABLISHED` proves observed deployment;
-23. missing RSCF mappings may be inferred from structural similarity;
-24. operator symbols may be silently corrected without authoritative confirmation.
+1. ALU-0 necessarily generates RSCF H;
+1. ALU-1 necessarily generates RSCF M;
+1. ALU-2 necessarily generates RSCF L;
+1. ALU operators execute serially in all runtimes;
+1. ALU numbering alone proves causal dependency;
+1. `Tensor Decouple` has a known mathematical implementation;
+1. `Scope Firewall Veto` has a known runtime implementation;
+1. the 21 core laws are enumerated in this artifact;
+1. all 21 laws have been formally proven;
+1. type well-formedness establishes factual truth;
+1. hash verification establishes factual truth;
+1. Merkle verification establishes source independence;
+1. SHA-256 proves semantic validity;
+1. relational coupling establishes causation;
+1. ground-state conservation establishes empirical correctness;
+1. constitutional compliance establishes empirical correctness;
+1. a successful hash check supersedes other verification checks;
+1. a successful type check supersedes scope verification;
+1. fail-closed fallback names are semantically interchangeable;
+1. `PASSED_CONSTITUTIONAL_TESTS` means universal formal proof;
+1. `executable_binding: ESTABLISHED` proves observed deployment;
+1. missing RSCF mappings may be inferred from structural similarity;
+1. operator symbols may be silently corrected without authoritative confirmation.
 
----
+______________________________________________________________________
 
-# 58. Scope Firewall
+## 58. Scope Firewall
 
 ```yaml
 APPLICABILITY_ENVELOPE:
@@ -2053,9 +2052,9 @@ APPLICABILITY_ENVELOPE:
     NOT_LICENSED
 ```
 
----
+______________________________________________________________________
 
-# 59. Machine-Readable Matrix
+## 59. Machine-Readable Matrix
 
 ```yaml
 ULK_X_RSCF_MATRIX:
@@ -2212,9 +2211,9 @@ ULK_X_RSCF_MATRIX:
       ""
 ```
 
----
+______________________________________________________________________
 
-# 60. Verification Matrix — Compact Form
+## 60. Verification Matrix — Compact Form
 
 | ALU   | Verification Domain | Source Check                     | Failure                    |
 | ----- | ------------------- | -------------------------------- | -------------------------- |
@@ -2245,9 +2244,9 @@ $$
 
 This ordering is useful for navigation but should not be treated as a proven runtime sequence without the ULK specification.
 
----
+______________________________________________________________________
 
-# 61. Mermaid — Cross-Plane Matrix
+## 61. Mermaid — Cross-Plane Matrix
 
 ```mermaid
 flowchart TD
@@ -2268,9 +2267,9 @@ flowchart TD
     VERIFY -->|Fail| FAIL
 ```
 
----
+______________________________________________________________________
 
-# 62. Mermaid — Six Verification Routes
+## 62. Mermaid — Six Verification Routes
 
 ```mermaid
 flowchart TD
@@ -2311,9 +2310,9 @@ flowchart TD
     V5 -->|Fail| F5
 ```
 
----
+______________________________________________________________________
 
-# 63. Obsidian Link Graph
+## 63. Obsidian Link Graph
 
 ```mermaid
 graph TD
@@ -2331,11 +2330,11 @@ graph TD
     B -->|BINDS| C
 ```
 
----
+______________________________________________________________________
 
-# 64. Dataview — ULK × RSCF Family
+## 64. Dataview — ULK × RSCF Family
 
-```dataview
+```text
 TABLE
   artifact_kind AS "Kind",
   version AS "Version",
@@ -2346,11 +2345,11 @@ FROM #ulk_x_rscf
 SORT artifact_kind ASC
 ```
 
----
+______________________________________________________________________
 
-# 65. Dataview — ULK Artifacts
+## 65. Dataview — ULK Artifacts
 
-```dataview
+```text
 TABLE
   title AS "Artifact",
   plane AS "Plane",
@@ -2361,11 +2360,11 @@ FROM #ulk
 SORT plane ASC, title ASC
 ```
 
----
+______________________________________________________________________
 
-# 66. Dataview — RSCF Artifacts
+## 66. Dataview — RSCF Artifacts
 
-```dataview
+```text
 TABLE
   title AS "Artifact",
   plane AS "Plane",
@@ -2375,11 +2374,11 @@ FROM #rscf
 SORT plane ASC, title ASC
 ```
 
----
+______________________________________________________________________
 
-# 67. Dataview — Fail-Closed Artifacts
+## 67. Dataview — Fail-Closed Artifacts
 
-```dataview
+```text
 TABLE
   title AS "Artifact",
   plane AS "Plane",
@@ -2389,11 +2388,11 @@ FROM #fail_closed
 SORT title ASC
 ```
 
----
+______________________________________________________________________
 
-# 68. Dataview — Cognitive Matrix Family
+## 68. Dataview — Cognitive Matrix Family
 
-```dataview
+```text
 TABLE
   artifact AS "Artifact",
   artifact_kind AS "Kind",
@@ -2404,9 +2403,9 @@ WHERE system = "AMOS OS"
 SORT artifact ASC
 ```
 
----
+______________________________________________________________________
 
-# 69. Obsidian Search Tags
+## 69. Obsidian Search Tags
 
 Primary navigation:
 
@@ -2455,9 +2454,9 @@ Canonical navigation:
 #canon/rscf
 ```
 
----
+______________________________________________________________________
 
-# 70. Canonical Dependency Topology
+## 70. Canonical Dependency Topology
 
 ```text
 
@@ -2474,9 +2473,9 @@ Canonical navigation:
       ULK ↔ RSCF BINDING
 ```
 
----
+______________________________________________________________________
 
-# 71. Fractal Retrieval Contract
+## 71. Fractal Retrieval Contract
 
 ```yaml
 FRACTAL_RETRIEVAL:
@@ -2518,9 +2517,9 @@ FRACTAL_RETRIEVAL:
     DO_NOT_LOAD_UNLESS_REQUIRED
 ```
 
----
+______________________________________________________________________
 
-# 72. Canonical Compression
+## 72. Canonical Compression
 
 $$
 \boxed{
@@ -2606,9 +2605,9 @@ $$
 
 for all six supplied rows.
 
----
+______________________________________________________________________
 
-# 73. Epistemic Compression
+## 73. Epistemic Compression
 
 ```text
 SOURCE DEFINES:
@@ -2641,9 +2640,9 @@ SOURCE DOES NOT DEFINE HERE:
 ? Independent runtime receipts
 ```
 
----
+______________________________________________________________________
 
-# 74. Canonical Candidate Statement
+## 74. Canonical Candidate Statement
 
 `ULK_X_RSCF_MATRIX.md v2.0.0` is the AMOS OS Cognitive Matrix table for the cross-plane relationship between the **Universal Logic Kernel** and **RSCF**.
 
@@ -2660,26 +2659,31 @@ ALU-1
 Distinction & Regime Non-Leakage
 → Scope Firewall Veto
 ```
+
 ```text
 ALU-2
 Relational Coupling Valid
 → Tensor Decouple
 ```
+
 ```text
 ALU-3
 All 21 Core Laws Satisfied
 → Invariant Violation Reject
 ```
+
 ```text
 ALU-4
 Type Well-Formedness
 → Type Mismatch Abort
 ```
+
 ```text
 ALU-5
 SHA-256 State Hash Verified
 → Merkle Verification Fail
 ```
+
 Its specification counterpart is:
 
 [[25_COGNITIVE_MATRIX/ULK_X_RSCF|ULK_X_RSCF]]
@@ -2754,9 +2758,9 @@ $$
 
 within the supplied AMOS model matrix.
 
----
+______________________________________________________________________
 
-# 75. Connections
+## 75. Connections
 
 ## Inter-Plane Connections
 
@@ -2772,12 +2776,12 @@ within the supplied AMOS model matrix.
 - **Provenance:** [[02_KERNEL/08_PROVENANCE/K_PROVENANCE|K_PROVENANCE]]
 - **Causal Firewall:** K_CAUSAL_FIREWALL
 
-> [!note]
+> [!NOTE]
 > Functional links beyond the three source-supplied connections are vault navigation candidates. They should not be treated as source-defined dependency edges unless their respective canonical artifacts confirm the relationship.
 
----
+______________________________________________________________________
 
-# 76. Obsidian Navigation Footer
+## 76. Obsidian Navigation Footer
 
 **Home:** [[00_ROOT/00_HOME|00_HOME]]
 
@@ -2789,9 +2793,9 @@ within the supplied AMOS model matrix.
 
 **Universal Logic Kernel:** [[02_KERNEL/ULK_LOGIC_KERNEL|ULK_LOGIC_KERNEL]]
 
----
+______________________________________________________________________
 
-# 77. RSCF-NODE
+## 77. RSCF-NODE
 
 ```yaml
 RSCF-NODE:
@@ -2844,9 +2848,9 @@ RSCF-NODE:
     DO_NOT_LOAD_UNLESS_REQUIRED
 ```
 
----
+______________________________________________________________________
 
-# 78. RSCF-RELATIONS
+## 78. RSCF-RELATIONS
 
 ```yaml
 RSCF-RELATIONS:
@@ -2898,13 +2902,13 @@ RSCF-RELATIONS:
   - LINEAGE_TARGET: ""
 ```
 
----
+______________________________________________________________________
 
-# 79. Final Vault Tags
+## 79. Final Vault Tags
 
 #amos_os #cognitive_matrix #25_cognitive_matrix #ulk_x_rscf #ulk_x_rscf_matrix #matrix_table #cross_plane #cross_plane_matrix #universal_logic_kernel #ulk #logic_kernel #rscf #rscf_node #recursive_structure #deterministic_logic #alu #alu_operator #ground_state #distinction #regime #relational_coupling #tensor_coupling #constitutional_projection #type_system #state_hash #sha256 #merkle_verification #fail_closed #scope_firewall #invariant #invariant_verification #type_safety #provenance #source_grounded #source_claim #amos_model #canon_candidate #active_reference #conceptual_source_defined #executable_binding #constitutional_tests #epistemic_boundary #verification #verification_matrix #governance #integrity #causal_firewall #fractal_knowledge_network #canon/cognitive-matrix #canon/ulk #canon/rscf
 
----
+______________________________________________________________________
 
 **MOC:** [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]
 
@@ -2912,6 +2916,6 @@ RSCF-RELATIONS:
 
 **Universal Logic Kernel:** [[02_KERNEL/ULK_LOGIC_KERNEL|ULK_LOGIC_KERNEL]]
 
----
+______________________________________________________________________
 
 **END OF `ULK_X_RSCF_MATRIX.md`**

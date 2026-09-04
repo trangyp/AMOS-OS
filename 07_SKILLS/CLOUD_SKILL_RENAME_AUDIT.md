@@ -1,11 +1,14 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: CLOUD SKILL RENAME AUDIT
 type: note
 source: 07_SKILLS
 tags:
-- note
-- 07-skills
-- type/skill
+  - note
+  - 07-skills
+  - type/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -25,8 +28,8 @@ rscf:
 
 See `CLOUD_SKILL_RENAME_MANIFEST.json` for the full old→new mapping.
 
-
 ## Final Run (196 renames)
+
 - Renamed: 196
 - Descriptions filled: 38
 - Reference substitutions: 700
@@ -34,10 +37,12 @@ See `CLOUD_SKILL_RENAME_MANIFEST.json` for the full old→new mapping.
 - Failed: 0
 
 ## Cross-Tree Final Pass
+
 - Also cleaned `stitch_project_cosmo/.devin/skills` (8 renames, 34 descriptions)
 - Also cleaned `AMOS_OS/.devin/skills` (8 renames, 31 descriptions)
 - Cloud: 0 additional renames, 37 descriptions filled
 - All three trees now have 0 non-compliant names by the current token blocklist
 
----
+______________________________________________________________________
+
 **MOC:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

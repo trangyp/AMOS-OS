@@ -1,4 +1,7 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 date: 2026-08-30
 epistemic_class: OBSERVATION
 provenance: GitHub README, not independently verified
@@ -10,18 +13,18 @@ rscf:
 source: https://raw.githubusercontent.com/ivanzwb/agent-skills/master/README.md
 title: ivanzwb/agent-skills README — Raw Capture
 ---
+
 # ivanzwb/agent-skills README — Raw Capture
 
 Source: `https://github.com/ivanzwb/agent-skills`
 
-# agent-skills
+## agent-skills
 
-[![CI](https://github.com/ivanzwb/agent-skills/actions/workflows/ci.yml/badge.svg)](https://github.com/ivanzwb/agent-skills/actions/workflows/ci.yml)
-[![npm version](https://img.shields.io/npm/v/agent-skills.svg)](https://www.npmjs.com/package/agent-skills)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.3+-blue.svg)](https://www.typescriptlang.org/)
-[![Node.js](https://img.shields.io/badge/Node.js-%3E%3D18-green.svg)](https://nodejs.org/)
-
+[![CI]
+[![NPM VERSION]
+[![LICENSE: MIT]
+[![TYPESCRIPT]
+[![NODE.JS]
 [中文文档](README.zh-CN.md)
 
 > A TypeScript framework for managing AI agent skill packages — install, load, and bind tools for LLM function calling.
@@ -32,13 +35,13 @@ Agent SKILL framework — a skill package management, three-level progressive lo
 
 Building AI agents that use tools (function calling) often means writing glue code for every new capability. **agent-skills** solves this by providing a standardised skill package format and a runtime engine that handles the full lifecycle:
 
-| Pain Point | How agent-skills Helps |
-|---|---|
-| Manual tool registration for each LLM | Declare tools once in `manifest.json`, bind to any model |
-| Monolithic prompt files grow unmanageable | Three-level progressive loading (L0 → L1 → L2) keeps context minimal |
+| Pain Point                                   | How agent-skills Helps                                                              |
+| -------------------------------------------- | ----------------------------------------------------------------------------------- |
+| Manual tool registration for each LLM        | Declare tools once in `manifest.json`, bind to any model                            |
+| Monolithic prompt files grow unmanageable    | Three-level progressive loading (L0 → L1 → L2) keeps context minimal                |
 | No standard for packaging agent capabilities | Follows the open [Agent Skills Specification](https://agentskills.io/specification) |
-| Dependency hell across languages | Built-in npm & pip installers; extensible to Cargo, Go modules, etc. |
-| Security risks with zip / path inputs | Zip-slip detection, path traversal prevention, name-directory validation |
+| Dependency hell across languages             | Built-in npm & pip installers; extensible to Cargo, Go modules, etc.                |
+| Security risks with zip / path inputs        | Zip-slip detection, path traversal prevention, name-directory validation            |
 
 ### Use Cases
 
@@ -124,36 +127,37 @@ await sf.uninstall('my-skill');
 After installing the package globally (`npm link` or `npm install -g agent-skills`), you can use the `skill` command:
 
 ```bash
-# List installed skills
+## List installed skills
 skill list
 
-# Show detailed content of one installed skill
+## Show detailed content of one installed skill
 skill show my-skill
 
-# Search for skills (GitHub + ClawHub)
+## Search for skills (GitHub + ClawHub)
 skill find stock-analysis
 
-# Install a skill
+## Install a skill
 skill install ./my-skill              # From local directory
 skill install ./my-skill.zip           # From zip
 skill install owner/repo               # From GitHub
 skill install my-skill-slug            # From ClawHub
 
-# Preview a skill before installing
+## Preview a skill before installing
 skill preview owner/repo
 
-# Uninstall a skill
+## Uninstall a skill
 skill uninstall my-skill
 
-# Run a skill tool (args as JSON string)
+## Run a skill tool (args as JSON string)
 skill run my-skill search '{"keyword":"茅台"}'
 skill run my-skill kline '{"code":"600519","period":"daily","limit":60}'
 
-# Show help
+## Show help
 skill help
 ```
 
 **Environment variables:**
+
 - `SKILL_HOME` — Override the skills storage directory (default: `./skills` in package root)
 
 ```bash
@@ -161,6 +165,7 @@ SKILL_HOME=~/.skills skill list
 ```
 
 **Project-level configuration:**
+
 - Set a project-specific skills directory (saved to `.skillrc` in current working directory):
 
 ```bash
@@ -187,6 +192,7 @@ console.log(result.exitCode); // Exit code
 ```
 
 The `args` parameter accepts a JSON string that will be validated against the tool's `manifest.json` parameters schema:
+
 - Required fields are checked
 - Types are validated (string, number, boolean, etc.)
 - Enum values are enforced
@@ -430,28 +436,28 @@ Business tools declared in a skill's `manifest.json` are automatically prefixed 
 
 ## API Reference
 
-| Method | Description |
-|--------|-------------|
-| `SkillFramework.init(folder, options?)` | Static factory, initializes the framework |
-| `install(source)` | Install a skill from directory or zip |
-| `uninstall(name)` | Uninstall a skill |
-| `listSkills()` | Return L0 summaries of all installed skills |
-| `hasSkill(name)` | Check if a skill is installed |
-| `getSkill(name)` | Get full registry entry |
-| `loadMain(name)` | Load full skill body (L1) |
-| `loadReference(name, path)` | Load reference document (L2) |
-| `previewSkill(source)` | Preview a skill (stage to temp directory) |
-| `installPreviewed(tempDir)` | Install a previously previewed skill |
-| `cancelPreview(tempDir)` | Cancel preview and clean up |
-| `SkillFramework.searchSkills(query)` | Search for skills across GitHub and ClawHub |
-| `installFromNetwork(source)` | Install from GitHub `owner/repo` or ClawHub slug |
-| `previewSkillFromNetwork(source)` | Preview from GitHub `owner/repo` or ClawHub slug |
-| `listTools(name)` | List tools declared by a skill |
-| `runScript(params)` | Execute a skill tool script with JSON Schema validation |
-| `getFrameworkToolDeclarations()` | Get framework-level tool declarations |
-| `getSkillToolDeclarations(name)` | Get namespaced tool declarations for a skill |
-| `getAllSkillToolDeclarations()` | Get all skill tool declarations |
-| `parseNamespacedToolName(name)` | Parse namespaced tool name into `{ skillName, toolName }` |
+| Method                                  | Description                                               |
+| --------------------------------------- | --------------------------------------------------------- |
+| `SkillFramework.init(folder, options?)` | Static factory, initializes the framework                 |
+| `install(source)`                       | Install a skill from directory or zip                     |
+| `uninstall(name)`                       | Uninstall a skill                                         |
+| `listSkills()`                          | Return L0 summaries of all installed skills               |
+| `hasSkill(name)`                        | Check if a skill is installed                             |
+| `getSkill(name)`                        | Get full registry entry                                   |
+| `loadMain(name)`                        | Load full skill body (L1)                                 |
+| `loadReference(name, path)`             | Load reference document (L2)                              |
+| `previewSkill(source)`                  | Preview a skill (stage to temp directory)                 |
+| `installPreviewed(tempDir)`             | Install a previously previewed skill                      |
+| `cancelPreview(tempDir)`                | Cancel preview and clean up                               |
+| `SkillFramework.searchSkills(query)`    | Search for skills across GitHub and ClawHub               |
+| `installFromNetwork(source)`            | Install from GitHub `owner/repo` or ClawHub slug          |
+| `previewSkillFromNetwork(source)`       | Preview from GitHub `owner/repo` or ClawHub slug          |
+| `listTools(name)`                       | List tools declared by a skill                            |
+| `runScript(params)`                     | Execute a skill tool script with JSON Schema validation   |
+| `getFrameworkToolDeclarations()`        | Get framework-level tool declarations                     |
+| `getSkillToolDeclarations(name)`        | Get namespaced tool declarations for a skill              |
+| `getAllSkillToolDeclarations()`         | Get all skill tool declarations                           |
+| `parseNamespacedToolName(name)`         | Parse namespaced tool name into `{ skillName, toolName }` |
 
 ## Skill Package Structure
 
@@ -488,13 +494,13 @@ metadata:
 ## Development
 
 ```bash
-# Install dependencies
+## Install dependencies
 npm install
 
-# Build
+## Build
 npm run build
 
-# Test (100% line coverage)
+## Test (100% line coverage)
 npm test
 ```
 
@@ -518,4 +524,3 @@ If you are exploring the AI agent tooling ecosystem, you might also be intereste
 When starring or forking this repo, consider adding these topics to your fork for better discoverability:
 
 `ai-agent` · `agent-framework` · `llm-tools` · `function-calling` · `tool-use` · `skill-framework` · `typescript` · `ai` · `chatgpt` · `copilot` · `openai` · `claude` · `mcp` · `plugin-system` · `agent-skills`
-

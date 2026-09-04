@@ -12,21 +12,21 @@ segment: 25_COGNITIVE_MATRIX/01_PRIMITIVES
 artifact_kind: PROTOCOL
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION/L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_PROTOCOLS.md
 tags:
-- 01_primitives
-- amos-os
-- attention
-- domain/cognitive-matrix
-- canon/universe
-- cognitive
-- cognitive-matrix
-- matrix/l02-attention
-- matrix
-- note
-- primitives
-- protocol
-- protocols
-- rscf
-- placeholder_expanded
+  - 01_primitives
+  - amos-os
+  - attention
+  - domain/cognitive-matrix
+  - canon/universe
+  - cognitive
+  - cognitive-matrix
+  - matrix/l02-attention
+  - matrix
+  - note
+  - primitives
+  - protocol
+  - protocols
+  - rscf
+  - placeholder_expanded
 version: 0.2.0
 updated: '2026-08-27'
 status: PLACEHOLDER_EXPANDED
@@ -103,31 +103,28 @@ Origin architect / steward: **Trang Phan**
 
 System: **AMOS OS**
 
----
+______________________________________________________________________
 
 # L02 ATTENTION PRIMITIVES COGNITIVE MATRIX PROTOCOLS
 
-Drive inspection confirms that the `L02_ATTENTION` folder currently contains only `PLACEHOLDER.md`; there is no recovered canonical `PROTOCOLS.md`.  The placeholder defines L02 as attention allocation over scarce reasoning/observation resources, but explicitly forbids inventing missing canon, equations, thresholds, empirical claims, or implementation status.
+Drive inspection confirms that the `L02_ATTENTION` folder currently contains only `PLACEHOLDER.md`; there is no recovered canonical `PROTOCOLS.md`. The placeholder defines L02 as attention allocation over scarce reasoning/observation resources, but explicitly forbids inventing missing canon, equations, thresholds, empirical claims, or implementation status.
 
----
+______________________________________________________________________
+
 tags:
-  - amos
-  - cognitive-matrix
-  - l02
-  - attention
-  - protocols
-  - rscf
-  - hml
-  - governance
 
-title: L02_ATTENTION — Protocols
-origin_architect: "Trang Phan"
-status: "MODEL_SPECIFICATION / SOURCE-BOUNDED / UNVALIDATED"
-epistemic_class: "MODEL"
-runtime_alignment: "AMOS Full Brain OS / AMOS_CORE v4.4 lineage"
----
+- amos
+- cognitive-matrix
+- l02
+- attention
+- protocols
+- rscf
+- hml
+- governance
 
-# L02_ATTENTION — Protocols
+## title: L02_ATTENTION — Protocols origin_architect: "Trang Phan" status: "MODEL_SPECIFICATION / SOURCE-BOUNDED / UNVALIDATED" epistemic_class: "MODEL" runtime_alignment: "AMOS Full Brain OS / AMOS_CORE v4.4 lineage"
+
+## L02_ATTENTION — Protocols
 
 **Class:** `COGNITIVE_PRIMITIVE_PROTOCOL_CONTRACT`
 **Origin architect / steward:** Trang Phan
@@ -137,9 +134,9 @@ runtime_alignment: "AMOS Full Brain OS / AMOS_CORE v4.4 lineage"
 
 > **Canon boundary:** recovered source establishes L02 as the primitive for attention allocation and budgeting scarce reasoning/observation resources. No canonical L02 protocol registry, message schema, handshake, state machine, timeout policy, or wire/runtime protocol has yet been recovered. Protocol structures below are therefore `AMOS_MODEL` unless independently recovered from AMOS/Trang canon or executable runtime evidence.
 
----
+______________________________________________________________________
 
-# 0. Purpose
+## 0. Purpose
 
 Define the communication and coordination contracts by which `L02_ATTENTION` exchanges typed attention state with:
 
@@ -182,9 +179,9 @@ VALIDATION
 COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 1. Source / Canon References
+## 1. Source / Canon References
 
 ## 1.1 Recovered source boundary
 
@@ -250,18 +247,18 @@ source_status:
     status: UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 2. Definition and Scope
+## 2. Definition and Scope
 
 An L02 protocol is a governed interaction contract:
 
-[
+\[
 P:
 (Sender,Message,Receiver,Context)
-\rightarrow
+\\rightarrow
 (Result,StateProposal)
-]
+\]
 
 where:
 
@@ -311,9 +308,9 @@ WORKFLOW
 CONTROL PLANE
 ```
 
----
+______________________________________________________________________
 
-# 3. Protocol Goals
+## 3. Protocol Goals
 
 L02 protocols should preserve:
 
@@ -338,9 +335,9 @@ repairability
 replay traceability
 ```
 
----
+______________________________________________________________________
 
-# 4. Protocol Classes
+## 4. Protocol Classes
 
 ```yaml
 AttentionProtocolClass:
@@ -402,9 +399,9 @@ AttentionProtocolClass:
       preserve and inspect execution/provenance state
 ```
 
----
+______________________________________________________________________
 
-# 5. Universal Protocol Envelope
+## 5. Universal Protocol Envelope
 
 Every material L02 protocol message should be representable as:
 
@@ -491,9 +488,9 @@ AttentionProtocolEnvelope:
     type: ProtocolStatus
 ```
 
----
+______________________________________________________________________
 
-# 6. Message Types
+## 6. Message Types
 
 Candidate model registry:
 
@@ -547,9 +544,9 @@ ATTENTION_UNKNOWN_GAP
 
 All names are `AMOS_MODEL`.
 
----
+______________________________________________________________________
 
-# 7. Protocol Status
+## 7. Protocol Status
 
 ```yaml
 ProtocolStatus:
@@ -580,9 +577,9 @@ VALIDATED
 COMMITTED
 ```
 
----
+______________________________________________________________________
 
-# 8. Candidate Submission Protocol
+## 8. Candidate Submission Protocol
 
 ## Purpose
 
@@ -639,9 +636,9 @@ SUBMITTED
 ADMITTED
 ```
 
----
+______________________________________________________________________
 
-# 9. Admission Protocol
+## 9. Admission Protocol
 
 ```text
 Candidate
@@ -688,9 +685,9 @@ ADMITTED
 
 where admission requires the missing information.
 
----
+______________________________________________________________________
 
-# 10. Assessment Protocol
+## 10. Assessment Protocol
 
 Purpose:
 
@@ -738,9 +735,9 @@ AttentionAssessmentResult:
 
 No dimension may silently substitute for another.
 
----
+______________________________________________________________________
 
-# 11. Priority Proposal Protocol
+## 11. Priority Proposal Protocol
 
 ```text
 Assessment state
@@ -787,9 +784,9 @@ PRIORITY PROPOSAL
 RESOURCE ALLOCATION
 ```
 
----
+______________________________________________________________________
 
-# 12. Allocation Request Protocol
+## 12. Allocation Request Protocol
 
 Used when an agent/workflow requests cognitive resources.
 
@@ -834,9 +831,9 @@ ESCALATE
 UNKNOWN_GAP
 ```
 
----
+______________________________________________________________________
 
-# 13. Allocation Proposal Protocol
+## 13. Allocation Proposal Protocol
 
 ```yaml
 AttentionAllocationProposal:
@@ -873,15 +870,15 @@ AttentionAllocationProposal:
 
 Hard invariant:
 
-[
-Allocated + Reserved \le Budget
-]
+\[
+Allocated + Reserved \\le Budget
+\]
 
 for compatible units.
 
----
+______________________________________________________________________
 
-# 14. Focus Protocol
+## 14. Focus Protocol
 
 Focus start:
 
@@ -936,9 +933,9 @@ FOCUSED
 TRUE
 ```
 
----
+______________________________________________________________________
 
-# 15. Deferral Protocol
+## 15. Deferral Protocol
 
 ```text
 ACTIVE
@@ -978,9 +975,9 @@ AttentionDeferralCapsule:
 
 Deferral must preserve recoverability.
 
----
+______________________________________________________________________
 
-# 16. Resume Protocol
+## 16. Resume Protocol
 
 ```text
 ATTENTION_RESUME_REQUEST
@@ -1002,9 +999,9 @@ cannot automatically be treated as
 CURRENT STATE
 ```
 
----
+______________________________________________________________________
 
-# 17. Escalation Protocol
+## 17. Escalation Protocol
 
 Used when local attention governance is insufficient.
 
@@ -1051,9 +1048,9 @@ cross-subsystem impact
 critical dependency failure
 ```
 
----
+______________________________________________________________________
 
-# 18. H/M/L Escalation Protocol
+## 18. H/M/L Escalation Protocol
 
 Candidate model:
 
@@ -1082,9 +1079,9 @@ The higher level may add constraints.
 
 It may not rewrite historical evidence.
 
----
+______________________________________________________________________
 
-# 19. De-escalation Protocol
+## 19. De-escalation Protocol
 
 After outcome-changing uncertainty is sufficiently reduced:
 
@@ -1118,9 +1115,9 @@ AttentionDeescalation:
 
 Critical unresolved gaps prohibit unsafe de-escalation.
 
----
+______________________________________________________________________
 
-# 20. Freshness Protocol
+## 20. Freshness Protocol
 
 ```text
 ATTENTION_FRESHNESS_CHECK
@@ -1158,9 +1155,9 @@ NO DETECTED CHANGE
 PROOF OF FRESHNESS
 ```
 
----
+______________________________________________________________________
 
-# 21. Revalidation Protocol
+## 21. Revalidation Protocol
 
 ```text
 STALE / UNKNOWN
@@ -1182,9 +1179,9 @@ which descendants remain valid
 which descendants are invalidated
 ```
 
----
+______________________________________________________________________
 
-# 22. Invalidation Protocol
+## 22. Invalidation Protocol
 
 ```yaml
 AttentionInvalidationNotice:
@@ -1212,11 +1209,11 @@ AttentionInvalidationNotice:
 
 Core rule:
 
-[
+\[
 Invalid(p)
-\Rightarrow
+\\Rightarrow
 Invalidate(Descendants(p))
-]
+\]
 
 Hard boundary:
 
@@ -1228,9 +1225,9 @@ GLOBAL RESET
 
 unless dependency closure proves global impact.
 
----
+______________________________________________________________________
 
-# 23. Contradiction Protocol
+## 23. Contradiction Protocol
 
 When incompatible attention-relevant claims coexist:
 
@@ -1264,9 +1261,9 @@ AttentionContradictionNotice:
       - UNKNOWN_GAP
 ```
 
----
+______________________________________________________________________
 
-# 24. COMPETING Protocol
+## 24. COMPETING Protocol
 
 If hypotheses remain materially incompatible and unresolved:
 
@@ -1291,9 +1288,9 @@ AttentionCompetingState:
 
 No forced convergence is permitted.
 
----
+______________________________________________________________________
 
-# 25. Memory Recall Protocol
+## 25. Memory Recall Protocol
 
 ```text
 L02
@@ -1333,9 +1330,9 @@ confidence
 freshness status
 ```
 
----
+______________________________________________________________________
 
-# 26. Memory Write Protocol
+## 26. Memory Write Protocol
 
 L02 may emit:
 
@@ -1382,9 +1379,9 @@ MEMORY WRITE PROPOSAL
 PERSISTED MEMORY
 ```
 
----
+______________________________________________________________________
 
-# 27. Control-Plane Validation Protocol
+## 27. Control-Plane Validation Protocol
 
 Any attention transition with durable or governed consequence should support:
 
@@ -1413,9 +1410,9 @@ dependency validity
 effect binding
 ```
 
----
+______________________________________________________________________
 
-# 28. Commit Request Protocol
+## 28. Commit Request Protocol
 
 L02 must not treat protocol exchange itself as commit authority.
 
@@ -1462,9 +1459,9 @@ AttentionCommitResult:
   commit_provenance: []
 ```
 
----
+______________________________________________________________________
 
-# 29. Proposal / Commit Protocol Boundary
+## 29. Proposal / Commit Protocol Boundary
 
 Required sequence:
 
@@ -1490,9 +1487,9 @@ CAPABILITY
 COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 30. Acknowledgement Protocol
+## 30. Acknowledgement Protocol
 
 `ATTENTION_ACK` means:
 
@@ -1517,9 +1514,9 @@ ATTENTION_NACK
 
 should include a reason code where possible.
 
----
+______________________________________________________________________
 
-# 31. Error Protocol
+## 31. Error Protocol
 
 Candidate error envelope:
 
@@ -1547,9 +1544,9 @@ AttentionProtocolError:
   provenance: []
 ```
 
----
+______________________________________________________________________
 
-# 32. Retry Protocol
+## 32. Retry Protocol
 
 Retry is permitted only when something material changes.
 
@@ -1578,9 +1575,9 @@ UNCHANGED STATE
 NO BLIND RETRY
 ```
 
----
+______________________________________________________________________
 
-# 33. Repair Protocol
+## 33. Repair Protocol
 
 ```text
 FAILURE DETECTED
@@ -1620,9 +1617,9 @@ AttentionRepairRequest:
   provenance: []
 ```
 
----
+______________________________________________________________________
 
-# 34. Repair Result Protocol
+## 34. Repair Result Protocol
 
 ```yaml
 AttentionRepairResult:
@@ -1650,9 +1647,9 @@ AttentionRepairResult:
   provenance: []
 ```
 
----
+______________________________________________________________________
 
-# 35. Rollback Protocol
+## 35. Rollback Protocol
 
 L02 may propose:
 
@@ -1687,9 +1684,9 @@ AttentionRollbackProposal:
 
 Authoritative rollback belongs to the governing state owner.
 
----
+______________________________________________________________________
 
-# 36. Protocol State Machine
+## 36. Protocol State Machine
 
 Candidate model:
 
@@ -1726,9 +1723,9 @@ UNKNOWN_GAP
 
 This state machine is `AMOS_MODEL`.
 
----
+______________________________________________________________________
 
-# 37. Typed State Variables
+## 37. Typed State Variables
 
 ```text
 P_t        = active protocol instances
@@ -1749,9 +1746,9 @@ Conflict_t = conflict state
 Repair_t   = repair state
 ```
 
----
+______________________________________________________________________
 
-# 38. Protocol Operators
+## 38. Protocol Operators
 
 Protocol-level operators may include:
 
@@ -1788,9 +1785,9 @@ ROLLBACK_PROPOSE()
 
 These are `AMOS_MODEL`.
 
----
+______________________________________________________________________
 
-# 39. Protocol Invariants
+## 39. Protocol Invariants
 
 ```text
 L02-PROTO-INV-001
@@ -1866,9 +1863,9 @@ L02-PROTO-INV-024
 Canonical status cannot be inferred from protocol addressability.
 ```
 
----
+______________________________________________________________________
 
-# 40. Dependencies
+## 40. Dependencies
 
 ```yaml
 dependencies:
@@ -1903,9 +1900,9 @@ dependencies:
     - commit_finalization
 ```
 
----
+______________________________________________________________________
 
-# 41. H/M/L Applicability
+## 41. H/M/L Applicability
 
 ## H — Governance protocol
 
@@ -1948,9 +1945,9 @@ freshness
 completion
 ```
 
----
+______________________________________________________________________
 
-# 42. Cross-HML Protocol
+## 42. Cross-HML Protocol
 
 Every cross-scale message should preserve:
 
@@ -1981,9 +1978,9 @@ CROSS-SCALE SUMMARY
 IDENTICAL REPRESENTATION
 ```
 
----
+______________________________________________________________________
 
-# 43. Control-Plane Requirements
+## 43. Control-Plane Requirements
 
 Control-plane validation becomes mandatory when a protocol can cause:
 
@@ -2013,9 +2010,9 @@ rollback proposal
 
 but authoritative commit remains outside L02 unless direct canon explicitly assigns it.
 
----
+______________________________________________________________________
 
-# 44. Agents
+## 44. Agents
 
 Candidate protocol roles:
 
@@ -2033,9 +2030,9 @@ L02_PROTOCOL_AUDITOR
 
 These are logical roles, not proof of runtime processes.
 
----
+______________________________________________________________________
 
-# 45. Skills
+## 45. Skills
 
 Potential protocol-supporting skills:
 
@@ -2059,9 +2056,9 @@ Skill availability:
 protocol authority
 ```
 
----
+______________________________________________________________________
 
-# 46. Workflow Integration
+## 46. Workflow Integration
 
 Typical attention protocol sequence:
 
@@ -2103,9 +2100,9 @@ authority/freshness checks
 commit or reject
 ```
 
----
+______________________________________________________________________
 
-# 47. Evidence / Provenance
+## 47. Evidence / Provenance
 
 Consequential protocol events should preserve:
 
@@ -2133,11 +2130,9 @@ repair/rollback lineage
 
 Candidate provenance representation:
 
-[
-P_{protocol}
-============
+## \[ P\_{protocol}
 
-T[
+T\[
 message,
 sender,
 recipient,
@@ -2149,14 +2144,14 @@ HML,
 authority,
 time,
 effect
-]
-]
+\]
+\]
 
 This is `AMOS_MODEL`.
 
----
+______________________________________________________________________
 
-# 48. Provenance Independence
+## 48. Provenance Independence
 
 Multiple protocol messages do not imply independent evidence.
 
@@ -2168,19 +2163,19 @@ message B
 message C
 ```
 
-all descend from source \(S\):
+all descend from source (S):
 
-[
+\[
 IndependentEvidenceCount
-\neq
+\\neq
 3
-]
+\]
 
 Protocol forwarding must preserve ancestry where material.
 
----
+______________________________________________________________________
 
-# 49. Freshness and Replay
+## 49. Freshness and Replay
 
 Replay must distinguish:
 
@@ -2212,9 +2207,9 @@ REPLAYABLE MESSAGE
 REPLAYABLE EFFECT
 ```
 
----
+______________________________________________________________________
 
-# 50. Idempotency
+## 50. Idempotency
 
 Where duplicate delivery is possible, consequential messages should carry stable idempotency identity.
 
@@ -2231,9 +2226,9 @@ IdempotencyContext:
 
 Duplicate commit requests must not silently create duplicate effects.
 
----
+______________________________________________________________________
 
-# 51. Ordering
+## 51. Ordering
 
 Protocol order matters where operations are causally dependent.
 
@@ -2257,9 +2252,9 @@ unless semantics explicitly permit speculative reservation.
 
 Ordering dependencies must therefore remain explicit.
 
----
+______________________________________________________________________
 
-# 52. Concurrency
+## 52. Concurrency
 
 Concurrent attention requests may compete for the same budget.
 
@@ -2281,9 +2276,9 @@ Naive independent commit:
 
 Therefore shared authoritative allocation requires concurrency/finality governance outside simple protocol exchange.
 
----
+______________________________________________________________________
 
-# 53. State Versioning
+## 53. State Versioning
 
 Commit-sensitive messages should reference expected state versions where available.
 
@@ -2307,9 +2302,9 @@ REVALIDATE
 
 not silent commit.
 
----
+______________________________________________________________________
 
-# 54. Observed Read Set
+## 54. Observed Read Set
 
 Where an attention proposal depends on mutable state, protocol evidence should preserve actual relevant reads.
 
@@ -2324,9 +2319,9 @@ ObservedRead:
 
 This supports selective freshness validation.
 
----
+______________________________________________________________________
 
-# 55. Failure Modes
+## 55. Failure Modes
 
 ```text
 FM-L02-PROTO-001   Unknown Message Type
@@ -2364,9 +2359,9 @@ FM-L02-PROTO-032   Protocol Version Drift
 FM-L02-PROTO-033   Model Protocol Reported as Canon
 ```
 
----
+______________________________________________________________________
 
-# 56. Repair / Recovery
+## 56. Repair / Recovery
 
 General protocol recovery:
 
@@ -2403,9 +2398,9 @@ ESCALATE
 UNKNOWN_GAP
 ```
 
----
+______________________________________________________________________
 
-# 57. Tests / Validators
+## 57. Tests / Validators
 
 Required validators:
 
@@ -2434,9 +2429,9 @@ VALIDATE_REPAIR
 VALIDATE_REPLAY
 ```
 
----
+______________________________________________________________________
 
-# 58. Minimum Test Suite
+## 58. Minimum Test Suite
 
 ```text
 TEST-L02-PROTO-001
@@ -2515,9 +2510,9 @@ TEST-L02-PROTO-025
 AMOS_MODEL protocol cannot be labelled canonical.
 ```
 
----
+______________________________________________________________________
 
-# 59. Adversarial Validators
+## 59. Adversarial Validators
 
 Test against:
 
@@ -2549,9 +2544,9 @@ repair-loop attack
 escalation-loop attack
 ```
 
----
+______________________________________________________________________
 
-# 60. Falsifiers
+## 60. Falsifiers
 
 Revise this artifact if direct source establishes:
 
@@ -2575,9 +2570,9 @@ canonical retry/repair semantics differ
 runtime evidence demonstrates materially incompatible state transitions
 ```
 
----
+______________________________________________________________________
 
-# 61. Competing Protocol Architectures
+## 61. Competing Protocol Architectures
 
 ## COMPETING-001 — Direct Primitive Messaging
 
@@ -2639,9 +2634,9 @@ COMPETING-004
 
 but this remains `MODEL / COMPETING`.
 
----
+______________________________________________________________________
 
-# 62. Gap Matrix
+## 62. Gap Matrix
 
 ```yaml
 gap_status:
@@ -2728,9 +2723,9 @@ gap_status:
     status: UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 63. Critical Gaps
+## 63. Critical Gaps
 
 ```text
 1. Canonical L02 protocol registry
@@ -2748,9 +2743,9 @@ gap_status:
 7. Executed concurrency/idempotency tests
 ```
 
----
+______________________________________________________________________
 
-# 64. Cheapest Discriminating Evidence
+## 64. Cheapest Discriminating Evidence
 
 Highest-value retrieval order:
 
@@ -2778,9 +2773,9 @@ Primary discriminating question:
 
 > **Does L02 own an explicit protocol surface, or are its interactions mediated by a broader AMOS cognitive/infrastructure message bus?**
 
----
+______________________________________________________________________
 
-# 65. RSCF Completion State
+## 65. RSCF Completion State
 
 ```yaml
 rscf:
@@ -2907,9 +2902,9 @@ rscf:
     infrastructure-owned, or hybrid
 ```
 
----
+______________________________________________________________________
 
-# 66. Completion State
+## 66. Completion State
 
 ```yaml
 completion_state:
@@ -2987,9 +2982,9 @@ completion_state:
     MODEL
 ```
 
----
+______________________________________________________________________
 
-# 67. Hard Boundaries
+## 67. Hard Boundaries
 
 ```text
 PLACEHOLDER != IMPLEMENTED
@@ -3049,15 +3044,15 @@ IMPLEMENTED PROTOCOL != VALIDATED PROTOCOL
 MODEL PROTOCOL != CANONICAL PROTOCOL
 ```
 
----
+______________________________________________________________________
 
-# 68. Governing Protocol Contract
+## 68. Governing Protocol Contract
 
 > **`L02_ATTENTION` protocol interactions must preserve typed identity, scope, regime, H/M/L coordinates, provenance, dependency lineage, freshness, uncertainty, resource units, contradiction state, and authority boundaries across every consequential exchange. Candidate submission must not imply admission; acknowledgement must not imply validation; validation must not imply authority; and proposal must never silently become commit. Local reversible attention coordination may be lightweight, while durable, shared, irreversible, or authority-bearing effects require the appropriate AMOS control-plane validation and finalization.**
 
----
+______________________________________________________________________
 
-# 69. Canon Boundary
+## 69. Canon Boundary
 
 ```text
 SOURCE-SUPPORTED:
@@ -3138,22 +3133,27 @@ AUTHORIZATION TO COMMIT
 
 ```text
 ```
----
+
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: l02_attention_primitives_cognitive_matrix_protocols
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION/L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_PROTOCOLS.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION/L02_ATTENTION_MOC|L02_ATTENTION_MOC]]

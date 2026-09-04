@@ -1,16 +1,19 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Vault Domain Knowledge — Amos Memory Execution Graph Attribution Rscf
 type: reference
 source: 07_SKILLS/amos-memory-execution-graph-attribution-rscf/references
 tags:
-- reference
-- amos-memory-execution-graph-attribution-rscf
-- type/skill
-- 2026-08-22-amos-obsidian-memory-bridge
-- law-hierarchy
-- 2026-08-22-cognitive-substrate-reality-gate
-- 2026-08-22-cognitive-substrate-reasoning-graph
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-memory-execution-graph-attribution-rscf
+  - type/skill
+  - 2026-08-22-amos-obsidian-memory-bridge
+  - law-hierarchy
+  - 2026-08-22-cognitive-substrate-reality-gate
+  - 2026-08-22-cognitive-substrate-reasoning-graph
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -30,7 +33,7 @@ rscf:
 
 > Path: `dated/2026-08-22/2026-08-22 Cognitive Substrate Memory Graph.md` | Size: 5699 chars | Match score: 22
 
-# Cognitive Substrate Memory Operation Graph
+## Cognitive Substrate Memory Operation Graph
 
 > Slice 3 of the AMOS Cognitive Substrate Layer. Implements the memory side of
 > `M_t = (V_t, E_t, O_t, I_t, Q_t, L_t)` with field-level lineage, epistemic-class
@@ -53,14 +56,14 @@ reconstructed as an operation-variable execution graph and attributed to the
 M_t = (V_t, E_t, O_t, I_t, Q_t, L_t)
 ```
 
-| Component | Meaning | Gaps |
-|-----------|---------|------|
-| V_t | Memory-object graph (fields with lineage) | 810–815 |
-| E_t | Semantic / provenance / dependency edges | 825–826 |
-| O_t | Memory operation history | 801–802 |
-| I_t | Indexes | 801 |
-| Q_t | Quarantine / trust state | 827–830 |
-| L_t | Lifecycle state (active, superseded, retracted, archived) | 822–824 |
+| Component | Meaning                                                   | Gaps    |
+| --------- | --------------------------------------------------------- | ------- |
+| V_t       | Memory-object graph (fields with lineage)                 | 810–815 |
+| E_t       | Semantic / provenance / dependency edges                  | 825–826 |
+| O_t       | Memory operation history                                  | 801–802 |
+| I_t       | Indexes                                                   | 801     |
+| Q_t       | Quarantine / trust state                                  | 827–830 |
+| L_t       | Lifecycle state (active, superseded, retracted, archived) | 822–824 |
 
 Memory evolution: `M_{t+1} = Pi_admission(R_reconcile(C_consolidate(U_update(M_t, E_t))))`
 
@@ -80,15 +83,15 @@ are stale or wrong.
 
 ## 5. Epistemic-class preservation (gaps 831–837)
 
-| Gap | Preservation rule |
-|-----|-------------------|
-| 831 | SOURCE_CLAIM, OBSERVATION, DERIVED, MODEL, DECISION survive storage unchanged |
+| Gap | Preservation rule                                                                    |
+| --- | ------------------------------------------------------------------------------------ |
+| 831 | SOURCE_CLAIM, OBSERVATION, DERIVED, MODEL, DECISION survive storage unchanged        |
 | 832 | Modality ("may", "likely", "must", "observed", "predicted") must survive compression |
-| 833 | Negation ("not", exceptions, exclusion conditions) must not be dropped |
-| 834 | Quantifiers ("some", "most", "all", thresholds) must remain explicit |
-| 835 | Correlation cannot become cause during consolidation |
-| 836 | Future forecast cannot become present observation after time passes |
-| 837 | "Agent A believes X" cannot become "X is true" |
+| 833 | Negation ("not", exceptions, exclusion conditions) must not be dropped               |
+| 834 | Quantifiers ("some", "most", "all", thresholds) must remain explicit                 |
+| 835 | Correlation cannot become cause during consolidation                                 |
+| 836 | Future forecast cannot become present observation after time passes                  |
+| 837 | "Agent A believes X" cannot become "X is true"                                       |
 
 ## 6. Consolidation (gaps 841–844)
 
@@ -99,15 +102,15 @@ are stale or wrong.
 ## 7. Retrieval graph (gaps 873–878)
 
 Retrieval is modeled as graph traversal with path provenance. Failure is separated into:
-`STORE_FAILURE | INDEX_FAILURE | QUERY_FAIL
+\`STORE_FAILURE | INDEX_FAILURE | QUERY_FAIL
 
----
+______________________________________________________________________
 
 ### Source 2: Cognitive Substrate Reasoning Execution Graph
 
 > Path: `dated/2026-08-22/2026-08-22 Cognitive Substrate Reasoning Graph.md` | Size: 4567 chars | Match score: 17
 
-# Cognitive Substrate Reasoning Execution Graph
+## Cognitive Substrate Reasoning Execution Graph
 
 > Slice 2 of the AMOS Cognitive Substrate Layer. Implements the reasoning side of
 > `R_t = (N_t, E_t, O_t, Pi_t, U_t)` with typed inference operators, transition
@@ -131,13 +134,13 @@ looked wrong.
 R_t = (N_t, E_t, O_t, Pi_t, U_t)
 ```
 
-| Component | Meaning | Gaps addressed |
-|-----------|---------|----------------|
-| N_t | Cognitive objects (nodes) | 701–704 |
-| E_t | Bindings / dependencies (edges) | 705–708 |
-| O_t | Operations performed (execution history) | 724 |
-| Pi_t | Active reasoning policy | 737–740 |
-| U_t | Localized uncertainty | 781–784 |
+| Component | Meaning                                  | Gaps addressed |
+| --------- | ---------------------------------------- | -------------- |
+| N_t       | Cognitive objects (nodes)                | 701–704        |
+| E_t       | Bindings / dependencies (edges)          | 705–708        |
+| O_t       | Operations performed (execution history) | 724            |
+| Pi_t      | Active reasoning policy                  | 737–740        |
+| U_t       | Localized uncertainty                    | 781–784        |
 
 Transition: `R_{t+1} = T_{o_t}(R_t, e_t, c_t)` with typed operator `o_t`.
 
@@ -152,6 +155,7 @@ Transition: `R_{t+1} = T_{o_t}(R_t, e_t, c_t)` with typed operator `o_t`.
 ## 4. State-transition legality (gap 717)
 
 Forbidden transitions:
+
 - `MODEL → VERIFIED` (without evidence)
 - `MODEL → DERIVED` (without evidence)
 - `UNKNOWN → VERIFIED`
@@ -164,6 +168,7 @@ and finds the **first** illegal or contradicted operation — the root cause. Th
 wrong output is merely the **symptom**.
 
 Additional outputs:
+
 - **Minimal causal cut-set**: smallest set of ops whose correction rescues the outcome.
 - **Failure lock-in point**: first op after which recovery became unlikely.
 - **Recovery opportunities**: ops that had enough info to correct but didn't.
@@ -175,15 +180,16 @@ Additional outputs:
 Uncertainty is attached to specific nodes, not whole-answer vague confidence.
 Multiple uncertainty sources compound nonline
 
----
+______________________________________________________________________
 
 ### Source 3: AMOS 7-Part Canon Execution Plan
 
 > Path: `amos-general/0/00_OrchestrationRegulatorExecutionPlan.md` | Size: 5270 chars | Match score: 14
 
-# AMOS 7-Part Canon Execution Plan
+## AMOS 7-Part Canon Execution Plan
 
 ## Scope
+
 Complete AMOS v1 production for declared scope only when all of these are simultaneously true:
 
 - **CanonClosed**: All 7 canon parts are declared in the CIL registry with canonical IDs and cross-links
@@ -206,13 +212,14 @@ Complete AMOS v1 production for declared scope only when all of these are simult
 - **DeploymentReproducible**: Build is reproducible and deployable
 
 ## Workstream 1: Canon & ABI Foundation (35 → 45%)
+
 - [ ] Canon closed: all 7 parts declared with CIL registry entries
 - [ ] Universal ABI defined for all component types
 - [ ] Authoritative state model exists and is enforced
 - [ ] One authoritative state model (not prompts, not skills)
 
-
 ## Workstream 2: Enforcement & State (45 → 65%)
+
 - [ ] Deterministic kernel gates execute outside LLM reasoning
 - [ ] Staged effects cannot bypass gates
 - [ ] CAS/MVCC prevents stale writes
@@ -222,8 +229,8 @@ Complete AMOS v1 production for declared scope only when all of these are simult
 - [ ] Multi-agent isolation works
 - [ ] Shared-state governance prevents overwrites
 
-
 ## Workstream 3: Cognition & 19×19 (65 → 82%)
+
 - [ ] 19×19 live cognition field is operational
 - [ ] Attention routing works
 - [ ] Metacognitive state is observable
@@ -235,8 +242,8 @@ Complete AMOS v1 production for declared scope only when all of these are simult
 - [ ] Execution provenance is recorded
 - [ ] Replay is deterministic where applicable
 
-
 ## Workstream 4: Security & Stability (82 → 93%)
+
 - [ ] Security hardening implemented
 - [ ] Adversarial tests pass
 - [ ] Memory poisoning defenses work
@@ -247,14 +254,14 @@ Complete AMOS v1 production for declared scope only when all of these are simult
 - [ ] 19×19 ablation exists and shows benefit
 - [ ] Property testing for critical invariants
 
-
 ## Workstream 5: Deployment & Ops (88 → 99%)
+
 - [ ] Deployment automation works
 - [ ] SLOs are defined a
 
----
-**MOC:** references_MOC
----
+______________________________________________________________________
+
+## **MOC:** references_MOC
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -262,12 +269,14 @@ Complete AMOS v1 production for declared scope only when all of these are simult
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-memory-execution-graph-attribution-rscf-vault-domain-knowledge
 node_type: reference
 path: 07_SKILLS/amos-memory-execution-graph-attribution-rscf/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

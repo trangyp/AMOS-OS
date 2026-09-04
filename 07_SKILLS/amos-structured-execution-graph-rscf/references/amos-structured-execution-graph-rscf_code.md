@@ -1,14 +1,17 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: amos structured execution graph rscf code
 type: reference
 source: 07_SKILLS/amos-structured-execution-graph-rscf/references
 tags:
-- reference
-- amos-structured-execution-graph-rscf
-- type/skill
-- skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-structured-execution-graph-rscf
+  - type/skill
+  - skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -40,7 +43,7 @@ from pathlib import Path
 from datetime import datetime
 from typing import Dict, List, Any, Optional
 
-# Configure structured logging
+## Configure structured logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
@@ -100,17 +103,19 @@ class AMOSBrainContinuousExecutor:
 
 > Path: `brain/A/amos_brain_manual_fix_execution.md` | Size: 9401 chars | Match score: 12
 
-# amos_brain_manual_fix_execution
+## amos_brain_manual_fix_execution
 
 ```
 
----
+______________________________________________________________________
+
 **MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -118,13 +123,14 @@ class AMOSBrainContinuousExecutor:
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-structured-execution-graph-rscf-amos-structured-execution-graph-rscf-code
 node_type: reference
 path: 07_SKILLS/amos-structured-execution-graph-rscf/references/amos-structured-execution-graph-rscf_code.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC
-

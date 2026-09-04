@@ -1,4 +1,7 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: SOTA Agent Skill / Workflow / Orchestration Repos
 type: wiki
 source: 11_KNOWLEDGE/LLM_WIKI/raw/SOTA_AGENT_SKILL_WORKFLOW_REPOS_2026_08_25.md
@@ -11,63 +14,67 @@ rscf:
   provenance: SOTA_AGENT_SKILL_WORKFLOW_REPOS_2026_08_25.md
   scope: AMOS_knowledge
 tags:
-- llm-wiki
-- sota
-- agent-skills
-- agent-workflows
-- orchestration
-- github
-- llm-wiki-synthesis
+  - llm-wiki
+  - sota
+  - agent-skills
+  - agent-workflows
+  - orchestration
+  - github
+  - llm-wiki-synthesis
 ---
 
 # SOTA Agent Skill / Workflow / Orchestration Repositories
 
-**Epistemic class:** `DERIVED`  
+**Epistemic class:** `DERIVED`\
 **Raw source:** [[11_KNOWLEDGE/LLM_WIKI/raw/SOTA_AGENT_SKILL_WORKFLOW_REPOS_2026_08_25]]
 
 ## Top pick for skill security / registry hardening
 
-`tech-leads-club/agent-skills` (5.1k★)  
+`tech-leads-club/agent-skills` (5.1k★)
+
 - Designed for safe, validated skill distribution.
 - Aligns directly with AMOS guardrail and provenance concerns: lockfiles, content hashing, Snyk scanning, path/symlink guards, audit trails.
 - Best candidate for importing skill-lifecycle controls.
 
 ## Top pick for production multi-agent orchestration
 
-`microsoft/agent-framework` (13.1k★)  
+`microsoft/agent-framework` (13.1k★)
+
 - Multi-language, production-grade agent and workflow framework.
 - Supports durable, observable, graph-based multi-agent patterns: sequential, concurrent, handoff, group collaboration.
 - Best candidate for hardening AMOS `amos-workflow-runner` and runtime orchestration.
 
 ## Top pick for repository-native agentic CI/CD
 
-`github/gh-aw` — GitHub Agentic Workflows  
+`github/gh-aw` — GitHub Agentic Workflows
+
 - Markdown-defined workflows compiled to GitHub Actions.
 - Sandboxed, scoped permissions, `safe-outputs`, threat detection, cost controls.
 - Best candidate for publishing AMOS workflows into a CI/CD execution layer.
 
 ## Specialized candidates
 
-| Repo | Strength | AMOS fit |
-|------|----------|----------|
-| `yuzhaopeng-up/skill-framework` | 208-skill inventory, L0–L4 classification, YAML templates | Skill taxonomy and governance checklists |
-| `agent-skill-harbor` | Org-wide catalog, recommended/discouraged/prohibited governance | Enterprise skill discovery and provenance |
-| `gfernandf/agent-skill-registry` | Declarative capabilities/skills, machine-readable catalogs | Standardized capability vocabulary |
-| `yiheng8023/agent-skills-curated` | Reviewed, provenance-tracked, release manifests | Curated third-party skill ingestion |
-| `microsoft/conductor` | Deterministic YAML workflows, Jinja2 routing, parallel execution | Multi-agent workflow definition language |
-| `agentenv/agentflow` | Large-scale agent graphs, optimization rounds, multi-target execution | Scale-out workflow harnesses |
+| Repo                              | Strength                                                              | AMOS fit                                  |
+| --------------------------------- | --------------------------------------------------------------------- | ----------------------------------------- |
+| `yuzhaopeng-up/skill-framework`   | 208-skill inventory, L0–L4 classification, YAML templates             | Skill taxonomy and governance checklists  |
+| `agent-skill-harbor`              | Org-wide catalog, recommended/discouraged/prohibited governance       | Enterprise skill discovery and provenance |
+| `gfernandf/agent-skill-registry`  | Declarative capabilities/skills, machine-readable catalogs            | Standardized capability vocabulary        |
+| `yiheng8023/agent-skills-curated` | Reviewed, provenance-tracked, release manifests                       | Curated third-party skill ingestion       |
+| `microsoft/conductor`             | Deterministic YAML workflows, Jinja2 routing, parallel execution      | Multi-agent workflow definition language  |
+| `agentenv/agentflow`              | Large-scale agent graphs, optimization rounds, multi-target execution | Scale-out workflow harnesses              |
 
 ## Synthesis for AMOS
 
 The strongest near-term integration path is:
 
 1. Adopt `tech-leads-club/agent-skills` guardrail patterns for the `skill_guardrail_checker` pipeline.
-2. Study `microsoft/agent-framework` orchestration primitives to enhance `amos-workflow-runner` and `amos-agent-orchestrator`.
-3. Mirror `github/gh-aw` for execution-boundary controls and cost governance.
+1. Study `microsoft/agent-framework` orchestration primitives to enhance `amos-workflow-runner` and `amos-agent-orchestrator`.
+1. Mirror `github/gh-aw` for execution-boundary controls and cost governance.
 
 **Confidence ceiling:** 0.85 (derived from README claims and star counts, not empirical benchmarks).
 
----
+______________________________________________________________________
+
 **MOC:** [[11_KNOWLEDGE/LLM_WIKI/LLM_WIKI_MOC]]
 
 ## 2026-08-29 update
@@ -76,29 +83,29 @@ Follow-up scan expanded the candidate pool with five additional high-value repos
 
 ### Best skill marketplaces and runtimes
 
-| Repo | Strength | AMOS fit |
-|------|----------|----------|
+| Repo                       | Strength                                                 | AMOS fit                                                  |
+| -------------------------- | -------------------------------------------------------- | --------------------------------------------------------- |
 | `wuyifeishu/nexus-agentos` | Universal agent runtime + 64 built-in skills + MCP + TUI | Harden AMOS runtime and `.devin/skills` discovery/install |
-| `zjunlp/SkillNet` | 500K+ skills, 5-dimension scoring, orchestration, MCP | Import skill-evaluation and relationship-graph tooling |
-| `songfang/AgentSkillOS` | 90K+ skills, DAG orchestration, skill tree, GUI | Cross-check skill-retrieval and DAG-composition models |
+| `zjunlp/SkillNet`          | 500K+ skills, 5-dimension scoring, orchestration, MCP    | Import skill-evaluation and relationship-graph tooling    |
+| `songfang/AgentSkillOS`    | 90K+ skills, DAG orchestration, skill tree, GUI          | Cross-check skill-retrieval and DAG-composition models    |
 
 ### Best markdown/native orchestration and registry formats
 
-| Repo | Strength | AMOS fit |
-|------|----------|----------|
-| `nuryslyrt/ORPHEUS` | Natural-language → multi-skill pipeline; typed contracts; filesystem only | Validate AMOS workflow and contract design patterns |
-| `gfernandf/agent-skill-registry` | Declarative capabilities/skills, machine-readable catalogs | Standardize AMOS capability vocabulary and registry export |
-| `kai98k/agent-skills-registry` | Skill bundles with `SKILL.md`, semver, push/pull CLI | Align skill-bundle packaging with `amos-skill-builder` |
-| `yepengfan/agent-registry` | Claude Code native agent/skill/orchestrator registry | Compare install/routing conventions for agents |
-| `Rainnystone/skill-orchestration-system` | Local skill packs, vault isolation, workspace routing | Reduce prompt-pollution for large `.devin/skills` trees |
-| `tavianm/aidd-framework` | 31 skills, 3 agents, Claude/Cursor/Copilot builds | Reference multi-format skill distribution |
+| Repo                                     | Strength                                                                  | AMOS fit                                                   |
+| ---------------------------------------- | ------------------------------------------------------------------------- | ---------------------------------------------------------- |
+| `nuryslyrt/ORPHEUS`                      | Natural-language → multi-skill pipeline; typed contracts; filesystem only | Validate AMOS workflow and contract design patterns        |
+| `gfernandf/agent-skill-registry`         | Declarative capabilities/skills, machine-readable catalogs                | Standardize AMOS capability vocabulary and registry export |
+| `kai98k/agent-skills-registry`           | Skill bundles with `SKILL.md`, semver, push/pull CLI                      | Align skill-bundle packaging with `amos-skill-builder`     |
+| `yepengfan/agent-registry`               | Claude Code native agent/skill/orchestrator registry                      | Compare install/routing conventions for agents             |
+| `Rainnystone/skill-orchestration-system` | Local skill packs, vault isolation, workspace routing                     | Reduce prompt-pollution for large `.devin/skills` trees    |
+| `tavianm/aidd-framework`                 | 31 skills, 3 agents, Claude/Cursor/Copilot builds                         | Reference multi-format skill distribution                  |
 
 ### Updated near-term integration priorities
 
 1. **SkillNet** for the largest evaluatable skill corpus and community scoring.
-2. **AgentOS** if AMOS needs a runtime marketplace with MCP integration.
-3. **ORPHEUS** to benchmark AMOS workflow contracts and markdown-first orchestration.
-4. **agent-skill-registry** / **agent-skills-registry** for vocabulary and bundle standards.
+1. **AgentOS** if AMOS needs a runtime marketplace with MCP integration.
+1. **ORPHEUS** to benchmark AMOS workflow contracts and markdown-first orchestration.
+1. **agent-skill-registry** / **agent-skills-registry** for vocabulary and bundle standards.
 
 Raw capture: [[11_KNOWLEDGE/LLM_WIKI/raw/SOTA_AGENT_SKILL_WORKFLOW_REPOS_2026_08_29]]
 
@@ -119,22 +126,27 @@ Read the `main` branch README of `zjunlp/SkillNet` and mapped it to AMOS operati
 ### Integration points for AMOS
 
 1. **Skill discovery → `amos-skill-builder` / `07_SKILLS`**
+
    - Use `skillnet search <intent>` and `skillnet download <url>` to find public skills that AMOS has not yet ingested.
    - Feed downloaded `SKILL.md` files into `skill-check` and the RSCF canonicalizer before adding them to the vault.
 
-2. **Skill evaluation → `skill-check` and guardrails**
+1. **Skill evaluation → `skill-check` and guardrails**
+
    - SkillNet scores safety, completeness, executability, maintainability, and cost awareness.
    - AMOS can map these dimensions to H/M/L and `rscf.state` before promoting a skill.
 
-3. **Skill graph / composition → `amos-routing-audit` and `amos-workflow-runner`**
+1. **Skill graph / composition → `amos-routing-audit` and `amos-workflow-runner`**
+
    - `skillnet analyze` returns `compose_with` and `depend_on` relationships.
    - These can augment AMOS workflow dependencies and agent capability bindings.
 
-4. **Orchestration → `amos-agent-orchestrator` and `amos-workflow-runner`**
+1. **Orchestration → `amos-agent-orchestrator` and `amos-workflow-runner`**
+
    - `skillnet orchestrate` returns a selected skill set and a downstream agent prompt.
    - AMOS could use this as an external handoff generator for tasks where no local skill is optimal.
 
-5. **MCP integration → `amos-mcp-connector` (if it exists) or new skill**
+1. **MCP integration → `amos-mcp-connector` (if it exists) or new skill**
+
    - SkillNet has an MCP server; a new `amos-skillnet-mcp` skill could let AMOS agents query it at runtime.
 
 ### Open questions / gaps
@@ -167,18 +179,22 @@ Read the `main` branch README of `nuryslyrt/ORPHEUS` and mapped it to AMOS opera
 ### Integration points for AMOS
 
 1. **Markdown-first orchestration → `amos-workflow-builder` and `amos-routing-audit`**
+
    - ORPHEUS proves that a single coding agent can run orchestrator/expert/worker hierarchies with only markdown files.
    - AMOS can compare its `.devin/skills` / `.devin/agents` / `.devin/workflows` against the ORPHEUS `orchestrator/SKILL.md` + `contract.yaml` pattern.
 
-2. **Typed contracts → `amos-skill-builder` references/**
+1. **Typed contracts → `amos-skill-builder` references/**
+
    - `contract.yaml` defines typed I/O between skills.
    - AMOS could add a `contract/` or `contract.yaml` artifact to skills that need composable boundaries.
 
-3. **Decision logs → `amos-observability-driven-harness-evolution-rscf` and audit trail**
+1. **Decision logs → `amos-observability-driven-harness-evolution-rscf` and audit trail**
+
    - ORPHEUS logs `question / options_considered / chosen / reasoning / confidence`.
    - AMOS `AGENT_VALIDATION_REPORT` and `LLM_WIKI_LOG` already capture some of this; can be aligned to the same schema.
 
-4. **Meta-expert roles → `amos-agent-orchestrator`**
+1. **Meta-expert roles → `amos-agent-orchestrator`**
+
    - Builder/Runner/Doctor/Auditor/Surgeon are natural-role templates that could become AMOS agents or workflow modes.
 
 ### Open questions / gaps
@@ -211,17 +227,21 @@ Read the `main` branch README of `microsoft/SkillOpt` and mapped it to AMOS skil
 ### Integration points for AMOS
 
 1. **Skill quality evolution → `amos-skill-builder` and `skill-check`**
+
    - `best_skill.md` artifact produced after validation is the same object AMOS stores as `SKILL.md`.
    - AMOS can adopt the rollout-reflect-edit-evaluate loop as a governed `skill-check --evolve` mode, producing a promoted `best_skill.md` only after a held-out gate passes.
 
-2. **Held-out validation gates → `amos-validation-pipeline` and promotion gates**
+1. **Held-out validation gates → `amos-validation-pipeline` and promotion gates**
+
    - SkillOpt rejects edits that do not improve a held-out score. This matches `PROMOTION_GATES` and the `amos-validation-levels` contract.
    - Could add `skillopt_eval` as a `validation_status` step before a skill moves `draft → staging → production`.
 
-3. **Multi-backend / multi-harness validation → `amos-agent-orchestrator` and `amos-cli-failure-process-diagnostics-rscf`**
+1. **Multi-backend / multi-harness validation → `amos-agent-orchestrator` and `amos-cli-failure-process-diagnostics-rscf`**
+
    - SkillOpt tests the same skill across direct chat, Codex, Claude Code, Cursor. AMOS can run `skill-check` against multiple agent harnesses before releasing.
 
-4. **SkillOpt-Sleep offline self-evolution → `amos-evolution-loop` and `amos-brain-model-integration`**
+1. **SkillOpt-Sleep offline self-evolution → `amos-evolution-loop` and `amos-brain-model-integration`**
+
    - Nightly `harvest → mine → replay → consolidate` with validation. AMOS could schedule this over `.devin/skills/` using the `enforcement_trust_contract` and `AMOS_AUTONOMOUS_EVOLUTION_LAYER` already in `cosmo-brain/`.
 
 ### Open questions / gaps
@@ -254,20 +274,25 @@ Read the `main` branch README of `linxuhao/SkillFlow` and mapped it to AMOS work
 ### Integration points for AMOS
 
 1. **Deterministic workflow runner → `amos-workflow-runner` and `amos-routing-audit`**
+
    - SkillFlow's YAML DAG executor with linting and replay is a reference for hardening AMOS `.devin/workflows` parsing.
    - The `amos-workflow-runner` can adopt a `workflow.yaml` lint step before execution.
 
-2. **Capability-gated I/O → `amos-skill-builder` contracts and `amos-routing-audit`**
+1. **Capability-gated I/O → `amos-skill-builder` contracts and `amos-routing-audit`**
+
    - SkillFlow's `write_<slot>` / `edit_<slot>` pattern strengthens the `CONTRACT_TEMPLATE.yaml` added earlier.
    - AMOS skill contracts can declare file slots and the runtime can expose only those tools.
 
-3. **Human-in-the-loop checkpoints → `amos-promotion-gates` and `amos-authority-canon`**
+1. **Human-in-the-loop checkpoints → `amos-promotion-gates` and `amos-authority-canon`**
+
    - First-class approve/reject nodes match AMOS `PROMOTION_GATES` and `L7_AUTHORITY` for human escalation before irreversible effects.
 
-4. **Immutable audit trace → `amos-observability-driven-harness-evolution-rscf`**
+1. **Immutable audit trace → `amos-observability-driven-harness-evolution-rscf`**
+
    - The `step_instance_id` keyed SQLite trace is a concrete reference for AMOS execution provenance and `AGENT_VALIDATION_REPORT`.
 
-5. **MCP transport → `amos-mcp-connector` / `amos-llm-wiki`**
+1. **MCP transport → `amos-mcp-connector` / `amos-llm-wiki`**
+
    - `skillflow-mcp` can be mounted as an MCP server, letting AMOS agents run SkillFlow pipelines without new code.
 
 ### Open questions / gaps
@@ -299,18 +324,23 @@ Read the `master` branch README of `zzatpku/AgentFactory` and mapped it to AMOS 
 ### Integration points for AMOS
 
 1. **Executable subagent library → `amos-agent-orchestrator` and `amos-integrated-agent`**
+
    - AgentFactory stores successful solutions as Python code. AMOS could store canonical subagents as `.devin/agents/` JSON and `SKILL.md` pairs after `amos-validation-pipeline`.
 
-2. **Meta Skills → `amos-skill-builder` and `amos-agent-systems-master`**
+1. **Meta Skills → `amos-skill-builder` and `amos-agent-systems-master`**
+
    - The meta-agent primitives (`create/run/modify/list/view`) are a natural expansion of `amos-agent-orchestrator` subagent dispatch and `skill_operations_enhancer.py`.
 
-3. **Self-evolve feedback loop → `amos-evolution-loop` and `amos-brain-model-integration`**
+1. **Self-evolve feedback loop → `amos-evolution-loop` and `amos-brain-model-integration`**
+
    - Retrieve → detect limitations → modify → validate. This maps directly to the `GMEF` evolution gate and the `AMOS_AUTONOMOUS_EVOLUTION_LAYER` already in `cosmo-brain/`.
 
-4. **Workspace Manager → `amos-boundary-scope-master` and `amos-memory-immune-system`**
+1. **Workspace Manager → `amos-boundary-scope-master` and `amos-memory-immune-system`**
+
    - Isolated per-task workspaces prevent a subagent from corrupting the shared skill library. AMOS can enforce the same via project directories and `memory/short_term/` vs `memory/long_term/`.
 
-5. **SKILL.md + Python deployment → `amos-skill-builder` bundle format**
+1. **SKILL.md + Python deployment → `amos-skill-builder` bundle format**
+
    - AMOS skill bundles can already include `SKILL.md`; adding a `subagent.py` or `scripts/` Python artifact would make AMOS skills deployable like AgentFactory modules.
 
 ### Open questions / gaps
@@ -343,21 +373,26 @@ Read the `main` branch README of `gfernandf/agent-skill-registry` and mapped it 
 ### Integration points for AMOS
 
 1. **Vocabulary control → `amos-skill-builder` and `amos-skill-registry-gateway`**
+
    - The `domain.noun.verb` capability pattern can tighten AMOS skill `name` and `capabilities` naming.
    - AMOS can add a `vocabulary.json` to `.devin/skills/` and validate names with `skill-check`.
 
-2. **Declarative skill dataflow → `amos-workflow-builder` and `amos-workflow-runner`**
+1. **Declarative skill dataflow → `amos-workflow-builder` and `amos-workflow-runner`**
+
    - Skill workflows as dataflow `steps` referencing capabilities/skills by ID maps to AMOS workflow `steps` and `inputs/outputs`.
    - Could extend `amos-workflow-builder` to emit `agent-skill-registry`-compatible YAML/JSON.
 
-3. **Machine-readable catalog → `amos-skill-catalog-generator` and `agent-registry`**
+1. **Machine-readable catalog → `amos-skill-catalog-generator` and `agent-registry`**
+
    - The generated `catalog/` files mirror AMOS `.devin/agents/` index and `skill_catalog_generator.py` outputs.
    - Export AMOS `.devin/skills/` to `catalog/skills.json` for interop.
 
-4. **Governance guardrails → `skill_guardrail_checker` and `amos-promotion-gates`**
+1. **Governance guardrails → `skill_guardrail_checker` and `amos-promotion-gates`**
+
    - `governance_guardrails.py` and `capability_governance_guardrails.py` are references for `skill_guardrail_checker` and `amos-promotion-gates`.
 
-5. **Stats and sunset → `skill_version_manager` and `token_budget_analyzer`**
+1. **Stats and sunset → `skill_version_manager` and `token_budget_analyzer`**
+
    - `registry_stats.py` and `enforce_capability_sunset.py` map to AMOS skill deprecation, version lifecycle, and usage analytics.
 
 ### Open questions / gaps
@@ -388,21 +423,26 @@ Read the `main` branch README of `kai98k/agent-skills-registry` and mapped it to
 ### Integration points for AMOS
 
 1. **Skill bundle format → `amos-skill-builder` and `skill-check`**
+
    - AgentSkills bundle (`SKILL.md`, `scripts/`, `references/`, `assets/`) mirrors AMOS skill directories.
    - AMOS `MANIFEST.yaml` can be extended to include `bundle_format: agentskills` and `checksum` fields for registry export.
 
-2. **Vendor + lock file → `skill_integrity_lock.py` and `skill_registry_packager.py`**
+1. **Vendor + lock file → `skill_integrity_lock.py` and `skill_registry_packager.py`**
+
    - `agentskills vendor` and `agentskills.lock` directly map to AMOS `skill_integrity_lock` and `skill_registry_packager`.
    - Add SHA-256 `checksum` and `source_server` to the existing AMOS lock artifacts.
 
-3. **Semver and version pinning → `skill_version_manager.py`**
+1. **Semver and version pinning → `skill_version_manager.py`**
+
    - Strict `name@version` pulling is a reference for `amos-skill-builder` and `skill_version_manager` to pin skill versions per environment.
 
-4. **Search and discovery → `amos-skill-registry-gateway` and `amos-agent-orchestrator`**
+1. **Search and discovery → `amos-skill-registry-gateway` and `amos-agent-orchestrator`**
+
    - `agentskills search <keyword>` can be wrapped as an MCP tool or a `skill-check` subcommand.
    - AMOS agents can query a registry before falling back to local skills.
 
-5. **Self-hosted registry → `amos-mcp-connector` and enterprise governance**
+1. **Self-hosted registry → `amos-mcp-connector` and enterprise governance**
+
    - The standalone Go server supports private registries. AMOS could ship an `amos-skill-registry` MCP tool for on-premise skill distribution.
 
 ### Open questions / gaps
@@ -433,21 +473,26 @@ Read the `main` branch README of `XSkill-Agent/XSkill` and mapped it to AMOS con
 ### Integration points for AMOS
 
 1. **Experience + skill memory bank → `amos-memory-systems-master` and `amos-llm-wiki`**
+
    - The `memory_bank/` of structured skills/experiences maps directly to AMOS `11_KNOWLEDGE/LLM_WIKI/raw/` and `memory/short_term/` vs `memory/long_term/` split.
    - AMOS can store trajectories as `agent_interaction.md` and consolidate them into `SKILL.md` upgrades via `skill_operations_enhancer.py`.
 
-2. **Phase I trajectory summarization → `amos-observability-driven-harness-evolution-rscf`**
+1. **Phase I trajectory summarization → `amos-observability-driven-harness-evolution-rscf`**
+
    - `trajectory_summary.py` and `experience_critique.py` mirror the AMOS `execution trace → memory → consolidated skill` pipeline.
    - Could reuse `amos-observability-driven-harness-evolution-rscf` to generate `best_skill.md` candidates.
 
-3. **Phase II retrieval + prompt injection → `amos-agent-orchestrator` and `amos-llm-wiki`**
+1. **Phase II retrieval + prompt injection → `amos-agent-orchestrator` and `amos-llm-wiki`**
+
    - Retrieve relevant skills from the bank and inject into the system prompt, similar to AMOS `AMOS_BOOT.md` and `CLAUDE.md` context window management.
    - `amos-llm-wiki` can serve as the retrieval corpus.
 
-4. **Skill documents from trajectories → `amos-skill-builder` and `amos-evolution-loop`**
+1. **Skill documents from trajectories → `amos-skill-builder` and `amos-evolution-loop`**
+
    - `skill_builder.py` automatically creates structured skill documents from rollouts. AMOS `amos-skill-builder` can consume execution traces to propose `SKILL.md` updates.
 
-5. **Multimodal sample format → `amos-structured-document-parsing-rscf` and `amos-multimodal-perception-layer`**
+1. **Multimodal sample format → `amos-structured-document-parsing-rscf` and `amos-multimodal-perception-layer`**
+
    - The JSON sample format with `problem`, `images`, `<image>` placeholders is a reference for AMOS multimodal prompts.
 
 ### Open questions / gaps
@@ -478,16 +523,20 @@ Read the canonical Agent Skills README and specification and verified AMOS compl
 ### Integration points for AMOS
 
 1. **Canonical bundle format → `amos-skill-builder` package spec**
+
    - AMOS skill bundles are already structurally equivalent (`SKILL.md`, `references/`, `scripts/`). The `assets/` directory and `allowed-tools` frontmatter can be added as optional fields.
 
-2. **Progressive disclosure → `amos-skill-builder/references/progressive_loading.md`**
+1. **Progressive disclosure → `amos-skill-builder/references/progressive_loading.md`**
+
    - Agent Skills three-stage disclosure mirrors AMOS `references/progressive_loading.md` and `CAPABILITY_NAMING_CONTRACT.md`.
 
-3. **Validation tool `skills-ref` → `skill-check` and `sota_skill_validator.py`**
+1. **Validation tool `skills-ref` → `skill-check` and `sota_skill_validator.py`**
+
    - The 642 AMOS skills already pass the `name` and `description` constraints.
    - `skill-check` can be extended to check `allowed-tools` and `compatibility` fields.
 
-4. **Open standard adoption → `amos-skill-registry-gateway` and `amos-mcp-connector`**
+1. **Open standard adoption → `amos-skill-registry-gateway` and `amos-mcp-connector`**
+
    - Export AMOS `.devin/skills/` as Agent Skills bundles; import Agent Skills from public registries.
 
 ### Open questions / gaps
@@ -519,18 +568,23 @@ Read the `main` branch README of `ljluestc/OpenSkills` and mapped it to AMOS pro
 ### Integration points for AMOS
 
 1. **Progressive disclosure layers → `amos-skill-builder/references/progressive_loading.md`**
+
    - OpenSkills L1/L2/L3 directly maps to AMOS `references/` progressive loading. AMOS `SKILL.md` frontmatter is L1, body is L2, `references/` and `scripts/` are L3.
 
-2. **Reference loading modes → `amos-skill-builder` reference manifest**
+1. **Reference loading modes → `amos-skill-builder` reference manifest**
+
    - Add `mode: explicit|implicit|always` and `condition` fields to `references/` entries. This can be added to `MANIFEST.yaml` or a `references/index.yaml`.
 
-3. **Auto-discovery of `references/` → `amos-skill-builder` and `skill-check`**
+1. **Auto-discovery of `references/` → `amos-skill-builder` and `skill-check`**
+
    - `skill-check` can auto-index `references/` and validate that all referenced files exist, similar to the wikilink lint.
 
-4. **Script invocation via `[INVOKE:name]` → `amos-workflow-runner` and `amos-agent-orchestrator`**
+1. **Script invocation via `[INVOKE:name]` → `amos-workflow-runner` and `amos-agent-orchestrator`**
+
    - AMOS `scripts/` can be triggered by the LLM outputting an explicit marker. `amos-workflow-runner` can parse `[INVOKE:script_name]` in skill outputs and execute the matching script.
 
-5. **AIO Sandbox → `amos-security-safety-master` and `amos-os-runtime-master`**
+1. **AIO Sandbox → `amos-security-safety-master` and `amos-os-runtime-master`**
+
    - Containerized script execution with dependency auto-install is a reference for `amos-os-runtime-master` and `skill_guardrail_checker.py`.
 
 ### Open questions / gaps
@@ -560,18 +614,23 @@ Read the `main` branch README of `zkangning/MMSkills_for_Visual_Agents` and mapp
 ### Integration points for AMOS
 
 1. **Visual keyframes / state cards → `amos-multimodal-perception-layer` and `amos-structured-document-parsing-rscf`**
+
    - AMOS skills can include `assets/` with images and `references/` with state cards, gated by runtime evidence needs.
 
-2. **Multimodal evidence gating → `amos-boundary-scope-master` and `amos-context-budget-governor-rscf`**
+1. **Multimodal evidence gating → `amos-boundary-scope-master` and `amos-context-budget-governor-rscf`**
+
    - Only load visual references when task state requires them, reducing context budget.
 
-3. **Branch-loaded planning → `amos-agent-orchestrator` and `amos-workflow-runner`**
+1. **Branch-loaded planning → `amos-agent-orchestrator` and `amos-workflow-runner`**
+
    - Temporary planner branch can be modeled as a subagent dispatch that consults a skill and returns concise guidance.
 
-4. **Agent Adapter pattern → `amos-mcp-connector` and `amos-skill-registry-gateway`**
+1. **Agent Adapter pattern → `amos-mcp-connector` and `amos-skill-registry-gateway`**
+
    - One-line adapter for Claude Code / Codex maps to AMOS `CLAUDE.md` and `SKILL_INDEX.md` integration.
 
-5. **Searchable skill library → `amos-skill-registry-gateway` and `amos-llm-wiki`**
+1. **Searchable skill library → `amos-skill-registry-gateway` and `amos-llm-wiki`**
+
    - On-demand Hugging Face / web skill retrieval can be mirrored to `11_KNOWLEDGE/LLM_WIKI/raw/` ingestion.
 
 ### Open questions / gaps
@@ -604,18 +663,23 @@ Read the `main` branch README of `songfang/AgentSkillOS` and mapped it to AMOS s
 ### Integration points for AMOS
 
 1. **Skill tree / capability hierarchy → `SKILL_INDEX.md` and `07_SKILLS_MOC`**
+
    - AgentSkillOS skill tree directly maps to the AMOS `.devin/SKILL_INDEX.md` hierarchical router. AMOS can model the 642 skills as a capability tree with `parent_skill` and `domain`.
 
-2. **Complementarity-aware retrieval → `amos-routing-audit` and `amos-agent-orchestrator`**
+1. **Complementarity-aware retrieval → `amos-routing-audit` and `amos-agent-orchestrator`**
+
    - Selecting a diverse, task-relevant skill set is a natural extension of `amos-routing-audit` intent classification and `amos-agent-orchestrator` agent discovery.
 
-3. **DAG-based skill orchestration → `amos-workflow-builder` and `amos-workflow-runner`**
+1. **DAG-based skill orchestration → `amos-workflow-builder` and `amos-workflow-runner`**
+
    - AgentSkillOS DAG execution maps to AMOS workflow `steps` and the `amos-workflow-runner`. Human-in-the-loop checkpoints mirror `amos-promotion-gates`.
 
-4. **Human-in-the-loop GUI → `amos-human-interaction-engine` and `amos-promotion-gates`**
+1. **Human-in-the-loop GUI → `amos-human-interaction-engine` and `amos-promotion-gates`**
+
    - Step-level human approval can be added to `amos-workflow-runner` and `amos-promotion-gates`.
 
-5. **Observability / step logs → `amos-observability-driven-harness-evolution-rscf` and `amos-decision-logger`**
+1. **Observability / step logs → `amos-observability-driven-harness-evolution-rscf` and `amos-decision-logger`**
+
    - Per-step logs and metadata for debugging are already partially in `amos-observability-driven-harness-evolution-rscf`.
 
 ### Open questions / gaps
@@ -641,9 +705,9 @@ Raw source: [[11_KNOWLEDGE/LLM_WIKI/raw/AGENTSKILLOS_README_2026_08_29]]
 - Strong governance: Verifier pattern (author != verifier), deterministic `scripts/*.py` gates, `STATE.md` decision log.
 - AMOS importables:
   1. **Snyk Agent Scan / content hashing → `skill_guardrail_checker.py` and `skill_security_scanner.py`**
-  2. **Category-based skill tree → `SKILL_TREE.json` category expansion**
-  3. **Verifier pattern (author != verifier) → `amos-promotion-gates` and `skill-check`**
-  4. **`STATE.md` decision log → `amos-decision-logger` and `11_KNOWLEDGE/LLM_WIKI/wiki/LLM_WIKI_LOG.md`**
+  1. **Category-based skill tree → `SKILL_TREE.json` category expansion**
+  1. **Verifier pattern (author != verifier) → `amos-promotion-gates` and `skill-check`**
+  1. **`STATE.md` decision log → `amos-decision-logger` and `11_KNOWLEDGE/LLM_WIKI/wiki/LLM_WIKI_LOG.md`**
 
 ### `ivanzwb/agent-skills` — TypeScript skill lifecycle framework
 
@@ -653,9 +717,9 @@ Raw source: [[11_KNOWLEDGE/LLM_WIKI/raw/AGENTSKILLOS_README_2026_08_29]]
 - Security: zip-slip detection, path traversal prevention, atomic lockfile, JSON persistent registry.
 - AMOS importables:
   1. **`manifest.json` tool declarations → `amos-skill-builder` tool contracts**
-  2. **L0/L1/L2 progressive loading → `amos-skill-builder/references/progressive_loading.md`**
-  3. **Dependency installers → `amos-skill-builder/scripts/dependency_installer.py`**
-  4. **Atomic lockfile / JSON registry → `skill_integrity_lock.py` and `amos-skill-registry-gateway`**
+  1. **L0/L1/L2 progressive loading → `amos-skill-builder/references/progressive_loading.md`**
+  1. **Dependency installers → `amos-skill-builder/scripts/dependency_installer.py`**
+  1. **Atomic lockfile / JSON registry → `skill_integrity_lock.py` and `amos-skill-registry-gateway`**
 
 ### `ComeOnOliver/skillshub` — Token-efficient skill resolver API
 
@@ -663,8 +727,8 @@ Raw source: [[11_KNOWLEDGE/LLM_WIKI/raw/AGENTSKILLOS_README_2026_08_29]]
 - 10,000+ skills indexed from 230+ repos; no auth required for search/fetch; raw `SKILL.md` via `?format=md`.
 - AMOS importables:
   1. **Skill resolver API → `amos-skill-registry-gateway` MCP tool**
-  2. **`/api/v1/skills/resolve` → `amos-routing-audit` and `amos-agent-orchestrator` route selection**
-  3. **No-auth fetch endpoint → `amos-llm-wiki` remote source ingestion**
+  1. **`/api/v1/skills/resolve` → `amos-routing-audit` and `amos-agent-orchestrator` route selection**
+  1. **No-auth fetch endpoint → `amos-llm-wiki` remote source ingestion**
 
 Raw sources: [[11_KNOWLEDGE/LLM_WIKI/raw/TECH_LEADS_CLUB_AGENT_SKILLS_README_2026_08_29]] · [[11_KNOWLEDGE/LLM_WIKI/raw/IVANZWB_AGENT_SKILLS_README_2026_08_29]] · [[11_KNOWLEDGE/LLM_WIKI/raw/SKILLSHUB_README_2026_08_29]]
 
@@ -683,15 +747,19 @@ Read the `main` branch README of `anthropics/skills` and mapped it to AMOS Claud
 ### Integration points for AMOS
 
 1. **Document skills → `amos-pdfs`, `amos-docx`, `amos-slides`, `spreadsheets`**
+
    - AMOS already has `pdfs`, `docx`, `slides`, `spreadsheets` skills. Can compare to `anthropics/skills/skills/docx`, `pdf`, `pptx`, `xlsx` for production patterns.
 
-2. **Claude Code plugin marketplace → `amos-skill-registry-gateway` and `amos-mcp-connector`**
+1. **Claude Code plugin marketplace → `amos-skill-registry-gateway` and `amos-mcp-connector`**
+
    - AMOS can expose `.devin/skills/` as a Claude Code `/plugin marketplace` compatible catalog.
 
-3. **Basic skill template → `amos-skill-builder` reference template**
+1. **Basic skill template → `amos-skill-builder` reference template**
+
    - The minimal frontmatter is exactly what AMOS `sota_skill_validator` enforces. Add `anthropics/skills/template` as a reference to `amos-skill-builder/references/`.
 
-4. **Skills API → `amos-skill-registry-gateway` REST endpoints**
+1. **Skills API → `amos-skill-registry-gateway` REST endpoints**
+
    - The Claude API Skills API can be mirrored for AMOS skill upload/retrieve.
 
 ### Open questions / gaps
@@ -719,19 +787,19 @@ Captured the canonical `anthropics/skills/template/SKILL.md` and `spec/agent-ski
 
 AMOS is already a strict superset:
 
-| Field | Anthropic spec | AMOS `CONTRACT_TEMPLATE.yaml` | Status |
-|---|---|---|---|
-| `name` | yes, 64 chars | yes, 64 chars, `name`/`name` | covered |
-| `description` | yes, 1024 chars | yes, 1024 chars | covered |
-| `license` | optional | yes, `license` | covered |
-| `compatibility` | optional | yes, `compatibility` | covered |
-| `metadata` | optional map | `rscf`, `status`, `category`, `tags` | covered + more |
-| `allowed-tools` | optional | yes, `allowed-tools` | covered |
-| `references` loading modes | N/A | explicit/implicit/always, `path` + `mode` | exceeds spec |
-| `triggers` | N/A | yes | exceeds spec |
-| `capabilities` typed I/O | N/A | yes | exceeds spec |
-| `input`/`output` typed schema | N/A | yes | exceeds spec |
-| `rscf` epistemic metadata | N/A | yes | exceeds spec |
+| Field                         | Anthropic spec  | AMOS `CONTRACT_TEMPLATE.yaml`             | Status         |
+| ----------------------------- | --------------- | ----------------------------------------- | -------------- |
+| `name`                        | yes, 64 chars   | yes, 64 chars, `name`/`name`              | covered        |
+| `description`                 | yes, 1024 chars | yes, 1024 chars                           | covered        |
+| `license`                     | optional        | yes, `license`                            | covered        |
+| `compatibility`               | optional        | yes, `compatibility`                      | covered        |
+| `metadata`                    | optional map    | `rscf`, `status`, `category`, `tags`      | covered + more |
+| `allowed-tools`               | optional        | yes, `allowed-tools`                      | covered        |
+| `references` loading modes    | N/A             | explicit/implicit/always, `path` + `mode` | exceeds spec   |
+| `triggers`                    | N/A             | yes                                       | exceeds spec   |
+| `capabilities` typed I/O      | N/A             | yes                                       | exceeds spec   |
+| `input`/`output` typed schema | N/A             | yes                                       | exceeds spec   |
+| `rscf` epistemic metadata     | N/A             | yes                                       | exceeds spec   |
 
 ### Conclusion
 
@@ -756,24 +824,31 @@ Read the canonical `EvolvingAgentsLabs/skillos` README and the active successor 
 ### Integration points for AMOS
 
 1. **Pure Markdown OS → `amos-skill-builder`, `amos-agent-orchestrator`, and `stitch_project_cosmo/.devin/AMOS_BOOT.md`**
+
    - AMOS already uses markdown specs (`SKILL.md`, `CLAUDE.md`, `AGENTS.md`). The `SkillOS` boot structure reinforces the `AMOS_BOOT.md` + `SKILL_INDEX.md` pattern.
 
-2. **Hierarchical skill tree → `stitch_project_cosmo/.devin/SKILL_TREE.json`**
+1. **Hierarchical skill tree → `stitch_project_cosmo/.devin/SKILL_TREE.json`**
+
    - Domain → Family → Skill maps to AMOS `domain` → `parent_skill` → `name`. The `SKILL_TREE.json` can be extended with a 3-level view.
 
-3. **4-step lazy loading → `amos-skill-builder/references/progressive_loading.md`**
+1. **4-step lazy loading → `amos-skill-builder/references/progressive_loading.md`**
+
    - AMOS already has L0/L1/L2; add explicit 4-step lazy loading (metadata → instruction → reference → script) if needed.
 
-4. **Dialects / token compression → `amos-cognitive-compression-kernel` and `amos-llm-wiki`**
+1. **Dialects / token compression → `amos-cognitive-compression-kernel` and `amos-llm-wiki`**
+
    - Token compression is similar to `amos-cognitive-compression-kernel`. Could import `strict-patch`, `formal-proof`, `system-dynamics` as dialect examples.
 
-5. **Memory wiki and structured memory → `amos-memory-systems-master` and `amos-llm-wiki`**
+1. **Memory wiki and structured memory → `amos-memory-systems-master` and `amos-llm-wiki`**
+
    - `short_term/` and `long_term/` memory structure mirrors `11_KNOWLEDGE/LLM_WIKI/` and `memory/`.
 
-6. **ai-os `truth/` external gates → `amos-claim-verifier`, `amos-audit-repair-master`, `enforcement_root_attestation.py`**
+1. **ai-os `truth/` external gates → `amos-claim-verifier`, `amos-audit-repair-master`, `enforcement_root_attestation.py`**
+
    - The principle that `truth/` must not import `src/` is exactly the AMOS `enforcement_root_attestation` / RSCF epistemic separation.
 
-7. **Nightly provenance / hash-chained ledger → `amos-decision-logger` and `skill_integrity_lock.py`**
+1. **Nightly provenance / hash-chained ledger → `amos-decision-logger` and `skill_integrity_lock.py`**
+
    - AMOS can adopt `make reproduce` and nightly provenance checks for `sota_skill_validator.py` and `agent_sync_validator.py`.
 
 ### Open questions / gaps
@@ -803,21 +878,27 @@ Read the `addyosmani/agent-skills` README — production-grade engineering skill
 ### Integration points for AMOS
 
 1. **Lifecycle slash commands → `amos-workflow-runner` and `amos-agent-orchestrator`**
+
    - `/spec`, `/plan`, `/build`, `/test`, `/review`, `/ship` map to AMOS workflow names. AMOS can expose the same 9 commands as canonical workflow invocations.
 
-2. **Per-skill SKILL.md pattern → `amos-skill-builder` and `CONTRACT_TEMPLATE.yaml`**
+1. **Per-skill SKILL.md pattern → `amos-skill-builder` and `CONTRACT_TEMPLATE.yaml`**
+
    - Addy uses `skills/<name>/SKILL.md` + `references/` pattern. AMOS already uses this. The `references/` shared checklists mirror AMOS `references/` with loading modes.
 
-3. **Auto-activation by context → `amos-routing-audit` and `amos-c10-tech-engineering-master`**
+1. **Auto-activation by context → `amos-routing-audit` and `amos-c10-tech-engineering-master`**
+
    - AMOS can adopt trigger-based auto-activation: `api-and-interface-design` for API changes, `frontend-ui-engineering` for UI changes.
 
-4. **`/build auto` autonomous pass → `amos-autonomous-evolution` and `amos-evolution-loop`**
+1. **`/build auto` autonomous pass → `amos-autonomous-evolution` and `amos-evolution-loop`**
+
    - Plan generation, implementation per task, individual commits, failure pause. AMOS already has `AMOS_AUTONOMOUS_EVOLUTION_LAYER.py` and `evolution-loop` skill.
 
-5. **Quality gates (constraints, review, webperf, code-simplify) → `software-engineering-qa`, `amos-code-agent-harness-rscf`, `amos-structured-document-parsing-rscf`**
+1. **Quality gates (constraints, review, webperf, code-simplify) → `software-engineering-qa`, `amos-code-agent-harness-rscf`, `amos-structured-document-parsing-rscf`**
+
    - Addy's five-axis review and TDD constraints can strengthen AMOS QA and code harness skills.
 
-6. **Claude Code `/plugin` marketplace → `amos-skill-registry-gateway` and `agent-registry`**
+1. **Claude Code `/plugin` marketplace → `amos-skill-registry-gateway` and `agent-registry`**
+
    - AMOS `.devin/skills/` can be exposed as a Claude Code / Cursor / Copilot plugin marketplace.
 
 ### Conclusion
@@ -833,12 +914,14 @@ Captured two high-signal skill frameworks: `muratcankoylan/Agent-Skills-for-Cont
 ### muratcankoylan/Agent-Skills-for-Context-Engineering
 
 Verified shape:
+
 - 16+ skills across Foundational, Architectural, Operational, Methodology, Cognitive Architecture.
 - Progressive disclosure: skill names/descriptions loaded first, full content on activation.
 - Platform agnostic; Claude Code plugin marketplace.
 - Cited in arxiv Meta Context Engineering and Agent Harness Engineering survey.
 
 Integration points for AMOS:
+
 - `context-fundamentals`, `context-degradation`, `context-compression` → `amos-context-budget-governor-rscf`, `amos-context-compaction-recoverability-rscf`, `amos-long-context-ci-repository-reasoning-rscf`.
 - `multi-agent-patterns`, `harness-engineering` → `amos-agent-systems-master`, `amos-agent-orchestrator`.
 - `memory-systems` → `amos-memory-systems-master`.
@@ -849,12 +932,14 @@ Integration points for AMOS:
 ### HoangNguyen0403/agent-skills-standard
 
 Verified shape:
+
 - `npx agent-skills-standard init/sync` CLI; 280 coding standards for 8+ agents.
 - `AGENTS.md` router → `_INDEX.md` trigger table → `SKILL.md` progressive loading.
 - MCP server runtime enforcement, lockfile (`ags verify`), pre-edit hooks, secret/dependency scanning.
 - Zero-Trust / Rust Token Killer inspired token economy.
 
 Integration points for AMOS:
+
 - `AGENTS.md` → `_INDEX.md` → `SKILL.md` hierarchy → AMOS `SKILL_INDEX.md` and `SKILL_TREE.json` already mirror this.
 - `ags verify` lockfile pattern → `sota_skill_validator.py` and `skill_integrity_lock.py`.
 - MCP `load_skills_for_files` → `amos-mcp-connector`, `amos-skill-registry-gateway`.
@@ -874,11 +959,13 @@ Captured three additional high-coverage skill distribution patterns: `pedronauck
 ### pedronauck/skills
 
 Verified shape:
+
 - 131 skills in `skills/mine/`, `skills/curated/`, `skills/marketing/`, `skills/community/`.
 - `npx skills add https://github.com/pedronauck/skills` with bucket subpaths.
 - Agent Skills spec, Claude Code native, `description`-driven activation.
 
 Integration points for AMOS:
+
 - Bucket-based skill storage → `SKILL_TREE.json` `domain_family_tree` and `.devin/skills/<domain>/<skill>/SKILL.md`.
 - Curated/community/original distinction → `amos-skill-builder/references/eval-harness-template.md` and `amos-skill-registry-gateway`.
 - `description` frontmatter trigger routing → `amos-routing-audit`.
@@ -886,6 +973,7 @@ Integration points for AMOS:
 ### heyimcarlos/agent-skills
 
 Verified shape:
+
 - Skills in `skills/engineering/`, `skills/qrspi/`, `skills/misc/`, plus `agents/` subagents.
 - QRSPI workflow: Question → Research → Spec → Plan → Implement → Setup.
 - `disable-model-invocation: true` for deliberate human phase invocation.
@@ -893,6 +981,7 @@ Verified shape:
 - `/plugin` install with subagent support.
 
 Integration points for AMOS:
+
 - QRSPI stages → `amos-workflow-builder` named workflows `qrspi-*`.
 - Subagents in `agents/` → `amos-agent-orchestrator` and `amos-agent-externalization-architecture-rscf`.
 - `disable-model-invocation` → `amos-mode-ontology` / `amos-prompt-domain-control-rscf-engine`.
@@ -901,12 +990,14 @@ Integration points for AMOS:
 ### netresearch/claude-code-marketplace
 
 Verified shape:
+
 - 39 curated skills for TYPO3, PHP, Go, Docker, Jira, security, documentation.
 - Agent Plugins 1.0.0 packaging: `plugin.json` + `skills/`.
 - Marketplace site with per-skill pages in English + German.
 - Host-side tooling: Composer plugin and npm coordinator.
 
 Integration points for AMOS:
+
 - `plugin.json` + `skills/` → `amos-skill-builder/manifest.json` and `MANIFEST.yaml` bundle format.
 - Marketplace site/catalog → `amos-skill-registry-gateway` and `AMOS_SKILL_REGISTRY`.
 - `AGENTS.md` generated by `agent-rules-skill` → `amos-agent-orchestrator/CLAUDE.md` and `AMOS_BOOT.md`.
@@ -939,7 +1030,6 @@ Implemented the SkillOS pure-markdown `SkillIndex.md` pattern inside `.devin/ski
 
 - Copied `SkillOS` `CLAUDE.md` to `[[11_KNOWLEDGE/LLM_WIKI/raw/SKILLOS_CLAUDE_MD_2026_08_30]]`.
 
-
 ## 2026-08-30 | implement | Imported `zjunlp/SkillNet` as AMOS skill `amos-skillnet`
 
 Cloned `zjunlp/SkillNet` and imported its `skills/skillnet` package as `.devin/skills/amos-skillnet/`, then AMOS-linted and wired it.
@@ -962,7 +1052,6 @@ Cloned `zjunlp/SkillNet` and imported its `skills/skillnet` package as `.devin/s
 - SkillNet search/supply chain → `amos-knowledge-research-master` and `amos-skill-builder`.
 - `skillnet validate` 5-dimension scorecard → `amos-formal-agent-skill-verification-rscf` and `skill-check`.
 - `skillnet create` from repos/docs/logs → `amos-skill-builder` and `amos-github-rscf-ingestion`.
-
 
 ## 2026-08-30 | Capture Vercel Labs `skills` CLI spec
 
@@ -996,6 +1085,7 @@ Fetched the canonical `agentskills.io/specification` and `anthropics/skills` REA
 Raw source: [[11_KNOWLEDGE/LLM_WIKI/raw/AGENTSKILLS_IO_SPECIFICATION_2026_08_30]]
 
 Key constraints to compare with AMOS `CONTRACT_TEMPLATE.yaml`:
+
 - `name`: 1-64 chars, lowercase alphanum + hyphens, no leading/trailing/consecutive hyphens, must match parent directory.
 - `description`: 1-1024 chars, non-empty, should describe what and when, include task keywords.
 - `compatibility`: optional, max 500 chars.
@@ -1009,11 +1099,13 @@ Key constraints to compare with AMOS `CONTRACT_TEMPLATE.yaml`:
 ### Anthropic `skills` repo
 
 Raw sources:
+
 - [[11_KNOWLEDGE/LLM_WIKI/raw/ANTHROPICS_SKILLS_README_2026_08_30]]
 - [[11_KNOWLEDGE/LLM_WIKI/raw/ANTHROPICS_SKILLS_TEMPLATE_SKILL_2026_08_30]]
 - [[11_KNOWLEDGE/LLM_WIKI/raw/ANTHROPICS_SKILLS_AGENT_SKILLS_SPEC_2026_08_30]]
 
 Notes:
+
 - Minimal template only requires `name` and `description`.
 - Document skills (`docx`, `pdf`, `pptx`, `xlsx`) are source-available, not open source.
 - Supports Claude Code `/plugin marketplace add anthropics/skills`.
@@ -1037,8 +1129,8 @@ Implemented the previous recommendation: evaluate `name` (64 chars) and `descrip
 
 ### Results
 
-- Added `G13` to `sota_skill_validator.py`: `name` <=64 chars, `^[a-z0-9-]+$`, no leading/trailing/consecutive hyphens.
-- Added `G14` to `sota_skill_validator.py`: `description` <=1024 chars.
+- Added `G13` to `sota_skill_validator.py`: `name` \<=64 chars, `^[a-z0-9-]+$`, no leading/trailing/consecutive hyphens.
+- Added `G14` to `sota_skill_validator.py`: `description` \<=1024 chars.
 - Ran `make validate`: 643/643 skills, 100% SOTA, 0 name or description spec drifts.
 - AMOS skill corpus already conforms to the canonical `agentskills.io` name and description length/format constraints.
 
@@ -1049,15 +1141,15 @@ Implemented the previous recommendation: evaluate `name` (64 chars) and `descrip
 
 ### Recommended next step
 
-Evaluate `compatibility` (<=500 chars) and `allowed-tools` scoping (e.g. `Bash(git:*)`) gates, and compare AMOS `compatibility` strings against the `agentskills.io` `compatibility` examples.
+Evaluate `compatibility` (\<=500 chars) and `allowed-tools` scoping (e.g. `Bash(git:*)`) gates, and compare AMOS `compatibility` strings against the `agentskills.io` `compatibility` examples.
 
 ## 2026-08-30 | implement | Added Agent Skills `compatibility` and `allowed-tools` gates (G15/G16)
 
-Implemented the previous recommendation: evaluate `compatibility` (<=500) and `allowed-tools` scoping against `agentskills.io`.
+Implemented the previous recommendation: evaluate `compatibility` (\<=500) and `allowed-tools` scoping against `agentskills.io`.
 
 ### Results
 
-- Added `G15` to `sota_skill_validator.py`: `compatibility` <=500 chars.
+- Added `G15` to `sota_skill_validator.py`: `compatibility` \<=500 chars.
 - Added `G16`: `allowed-tools` must contain known tools or `Bash(scope:*)` scoping patterns.
 - Found one drift in `amos-0704-3643v1-sabbath-day-home-automation-it-s-like-mixing-te`: `allowed-tools: "Read skill"` contained `skill` (not a tool). Corrected to `Read`.
 - `amos-skillnet` `allowed-tools: "Read Write Edit Exec WebSearch WebFetch"` passed (allowed capital `Exec`).
@@ -1185,6 +1277,7 @@ Implemented the SOTA capture and AMOS-linting of the XSkill continual-learning f
 ### Recommended next step
 
 Continue scanning for the next SOTA repo to capture, or run a concrete AMOS hardening task such as:
+
 - Add `assets/` directory and frontmatter support to `amos-skill-builder` for full Agent Skills bundle compatibility.
 - Implement a workflow YAML lint gate in `amos-workflow-runner` using the SkillFlow DAG schema as a reference.
 - Add ORPHEUS-style `contract.yaml` typed I/O to `amos-skill-builder/references/`.
@@ -1289,8 +1382,8 @@ Final pass on the workflow validator after improving title detection to support 
 ### Next vault hardening steps
 
 1. Close the remaining 8 workflow warnings by adding titles/sections.
-2. Add a `make all` target to run `validate`, `workflows`, and `agents` in one command.
-3. Continue SOTA repo scan for `ai-os`, `addyosmani/agent-skills`, `HoangNguyen0403/agent-skills-standard`, `tech-leads-club/agent-skills`, `ivanzwb/agent-skills`, `skillshub`, or `Anthropic Skills`.
+1. Add a `make all` target to run `validate`, `workflows`, and `agents` in one command.
+1. Continue SOTA repo scan for `ai-os`, `addyosmani/agent-skills`, `HoangNguyen0403/agent-skills-standard`, `tech-leads-club/agent-skills`, `ivanzwb/agent-skills`, `skillshub`, or `Anthropic Skills`.
 
 ## 2026-08-30 | fix all | Closed remaining skill/agent/workflow binding gaps; added AIOS, Anthropic Skills
 

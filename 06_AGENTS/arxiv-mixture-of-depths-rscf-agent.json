@@ -74,7 +74,7 @@
     "arxiv-mixture-of-depths-rscf"
   ],
   "depends_on_workflows": [
-    "arxiv-mixture-of-depths-rscf-workflow.md"
+    "amos-arxiv-mixture-of-depths-rscf-workflow.md"
   ],
   "epistemic_class": "AMOS_MODEL",
   "claim_ceiling": 0.95,

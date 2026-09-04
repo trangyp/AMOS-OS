@@ -1,62 +1,65 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: 04 Authority MOC
 type: moc
 source: 03_CONTROL_PLANE/04_AUTHORITY
 tags:
-- 04-authority
-- canon/control-plane
-- atomic-state-transition
-- audit-provenance
-- authority-audit
-- authority-history
-- authority-lifecycle
-- authority-log
-- authority-policy
-- authority-resolver
-- authority-source
-- authority-witness
-- authorization-audit
-- authorization-binding
-- authorization-decision
-- authorization-delegation
-- authorization-deny
-- authorization-evidence
-- authorization-grant
-- authorization-history
-- authorization-invalidation
-- authorization-lifecycle
-- authorization-log
-- authorization-policy
-- authorization-request
-- authorization-response
-- authorization-scope
-- authorization-spec
-- authorization-witness
-- authz-engine-validation-receipt
-- canon-authority-chain
-- commit-time-authority
-- commit-time-authority-audit
-- commit-time-authority-history
-- commit-time-authority-lifecycle
-- commit-time-authority-log
-- commit-time-authority-policy
-- commit-time-revalidation
-- current-state-version
-- delegation
-- delegation-audit
-- delegation-grant
-- delegation-history
-- delegation-lifecycle
-- delegation-log
-- delegation-policy
-- delegation-record
-- delegation-request
-- delegation-response
-- delegation-scope
-- delegation-witness
-- dependency-closure
-- dependent-invalidation
-- independent-path-analysis
+  - 04-authority
+  - canon/control-plane
+  - atomic-state-transition
+  - audit-provenance
+  - authority-audit
+  - authority-history
+  - authority-lifecycle
+  - authority-log
+  - authority-policy
+  - authority-resolver
+  - authority-source
+  - authority-witness
+  - authorization-audit
+  - authorization-binding
+  - authorization-decision
+  - authorization-delegation
+  - authorization-deny
+  - authorization-evidence
+  - authorization-grant
+  - authorization-history
+  - authorization-invalidation
+  - authorization-lifecycle
+  - authorization-log
+  - authorization-policy
+  - authorization-request
+  - authorization-response
+  - authorization-scope
+  - authorization-spec
+  - authorization-witness
+  - authz-engine-validation-receipt
+  - canon-authority-chain
+  - commit-time-authority
+  - commit-time-authority-audit
+  - commit-time-authority-history
+  - commit-time-authority-lifecycle
+  - commit-time-authority-log
+  - commit-time-authority-policy
+  - commit-time-revalidation
+  - current-state-version
+  - delegation
+  - delegation-audit
+  - delegation-grant
+  - delegation-history
+  - delegation-lifecycle
+  - delegation-log
+  - delegation-policy
+  - delegation-record
+  - delegation-request
+  - delegation-response
+  - delegation-scope
+  - delegation-witness
+  - dependency-closure
+  - dependent-invalidation
+  - independent-path-analysis
 moc: true
 rscf:
   state: SOURCE_CLAIM
@@ -212,5 +215,6 @@ rscf:
 
 - [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]] — 00_INDEX
 
----
+______________________________________________________________________
+
 **Parent:** [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE_MOC]]

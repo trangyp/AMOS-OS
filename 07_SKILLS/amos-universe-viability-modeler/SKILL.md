@@ -4,25 +4,22 @@ title: SKILL — Amos Universe Viability Modeler
 type: skill
 source: 07_SKILLS/amos-universe-viability-modeler
 name: amos-universe-viability-modeler
-description: Universe Viability Modeler — canon and universe capability. Use when
-  canon reasoning, universe-level analysis, or invariant verification. Use when amos-canon-universe-master
-  routes to this specialized capability. Do not use for generic tasks outside canon
-  domain.
+description: Universe Viability Modeler — canon and universe capability. Use when canon reasoning, universe-level analysis, or invariant verification. Use when amos-canon-universe-master routes to this specialized capability. Do not use for generic tasks outside canon domain.
 parent_skill: amos-canon-universe-master
 domain: canon
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
 tags:
-- type/skill
-- type/skill
-- domain/canon-universe
-- epistemic/source_claim
-- hml/h
-- epistemic/source_claim
-- amos-os
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/canon-universe
+  - epistemic/source_claim
+  - hml/h
+  - epistemic/source_claim
+  - amos-os
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -32,26 +29,26 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: H
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L3_dependency
-- L5_scope
-- L7_authority
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L3_dependency
+  - L5_scope
+  - L7_authority
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L3
-- L4
-- L5
-- L7
-- L16
-- L17
-- L18
-- L19
+  - L0
+  - L1
+  - L2
+  - L3
+  - L4
+  - L5
+  - L7
+  - L16
+  - L17
+  - L18
+  - L19
 license: MIT
 steward: Trang Phan
 ---
@@ -61,6 +58,7 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: canon. Parent: amos-canon-universe-master. Epistemic class: SOURCE_CLAIM. H/M/L: H.
+
 ## When to Use
 
 - When compiling canonical structure from vault sources
@@ -88,13 +86,13 @@ Origin architect: **Trang Phan**. Domain: canon. Parent: amos-canon-universe-mas
 ## Operations
 
 1. **universe_viability.compile_canon**: Compile canonical structure from sources into a consistent, navigable canon
-2. **universe_viability.check_consistency**: Check canon consistency: no contradictions, no gaps, no orphan references
-3. **universe_viability.enforce_invariant**: Enforce canon invariants: structural laws that must hold across all parts
-4. **universe_viability.navigate_canon**: Navigate canon: locate the canonical part for any topic or query
-5. **universe_viability.validate_substrate**: Validate canonical software substrate against canon requirements
-6. **universe_viability.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-7. **universe_viability.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
-8. **universe_viability.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+1. **universe_viability.check_consistency**: Check canon consistency: no contradictions, no gaps, no orphan references
+1. **universe_viability.enforce_invariant**: Enforce canon invariants: structural laws that must hold across all parts
+1. **universe_viability.navigate_canon**: Navigate canon: locate the canonical part for any topic or query
+1. **universe_viability.validate_substrate**: Validate canonical software substrate against canon requirements
+1. **universe_viability.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+1. **universe_viability.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+1. **universe_viability.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## 11_KNOWLEDGE Vault Content
 
@@ -108,16 +106,18 @@ From Trang Khung Trang: Universe viability as whether a possible universe can su
 **Universe viability definition**: A universe is viable if it can sustain persistent recursive structure under entropy pressure.
 
 **8 Viability requirements**:
+
 1. **Stable recurrence**: the universe supports stable recursive patterns
-2. **Memory retention**: the universe can retain information over time
-3. **Coherent transformation**: transformations in the universe are coherent
-4. **Causal continuity**: causality is continuous (no causal breaks)
-5. **Identity persistence**: identities can persist over time
-6. **Scalable complexity**: complexity can scale without collapse
-7. **Observer compatibility**: the universe supports observers
-8. **Correction capacity**: the universe supports error correction
+1. **Memory retention**: the universe can retain information over time
+1. **Coherent transformation**: transformations in the universe are coherent
+1. **Causal continuity**: causality is continuous (no causal breaks)
+1. **Identity persistence**: identities can persist over time
+1. **Scalable complexity**: complexity can scale without collapse
+1. **Observer compatibility**: the universe supports observers
+1. **Correction capacity**: the universe supports error correction
 
 **Viability equation** (AMOS_MODEL):
+
 ```
 V = coherence × transformability × persistence × entropy_tolerance × recursive_repair_capacity
 ```
@@ -127,9 +127,10 @@ V = coherence × transformability × persistence × entropy_tolerance × recursi
 **Law-space includes**: causal rules, transformation permissions, conservation behavior, entropy behavior, recurrence conditions, dimensional constraints, interaction coupling, stability thresholds
 
 **Viability laws**:
+
 - `VIABLE != ACTUAL`: a viable universe is possible; it is not necessarily actual
-- `VIABILITY != OPTIMALITY**: viability means sustainable; it does not mean optimal
-- `ENSEMBLE != MULTIVERSE**: the ensemble is a model space; it is not a claim about physical multiverses
+- \`VIABILITY != OPTIMALITY\*\*: viability means sustainable; it does not mean optimal
+- \`ENSEMBLE != MULTIVERSE\*\*: the ensemble is a model space; it is not a claim about physical multiverses
 
 ### Epistemic Boundary
 
@@ -142,7 +143,8 @@ Universe viability modeling is an AMOS_MODEL. It does not prove our universe is 
 - **Binding broken**: If 1:1:1 binding (skill→agent→workflow) is broken, flag routing mismatch and block execution.
 - **Validation failure**: If validation gates fail, downgrade confide
 
----
+______________________________________________________________________
+
 **Links:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 ## Related
@@ -152,17 +154,19 @@ Universe viability modeling is an AMOS_MODEL. It does not prove our universe is 
 ## Examples
 
 - **Scenario**: When compiling canonical structure from vault sources
+
   - **Input**: A query matching this skill's domain (canon)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When checking canon consistency for contradictions and gaps
+
   - **Input**: A query matching this skill's domain (canon)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When enforcing canon invariants across all parts
+
   - **Input**: A query matching this skill's domain (canon)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Validation Gates
 
@@ -179,7 +183,6 @@ Universe viability modeling is an AMOS_MODEL. It does not prove our universe is 
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `amos-canon-universe-master` — routes to this skill when canon specialization is needed
@@ -187,7 +190,6 @@ Universe viability modeling is an AMOS_MODEL. It does not prove our universe is 
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -206,7 +208,6 @@ Universe viability modeling is an AMOS_MODEL. It does not prove our universe is 
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -214,7 +215,6 @@ Universe viability modeling is an AMOS_MODEL. It does not prove our universe is 
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -227,11 +227,12 @@ Universe viability modeling is an AMOS_MODEL. It does not prove our universe is 
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `amos-canon-universe-master` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `amos-universe-viability-modeler-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -239,12 +240,14 @@ Universe viability modeling is an AMOS_MODEL. It does not prove our universe is 
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-universe-viability-modeler
 node_type: skill
 path: 07_SKILLS/amos-universe-viability-modeler/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

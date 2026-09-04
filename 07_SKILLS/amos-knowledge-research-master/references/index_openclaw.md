@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: index openclaw
 type: reference
 source: 07_SKILLS/amos-knowledge-research-master/references
 tags:
-- reference
-- amos-knowledge-research-master
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-knowledge-research-master
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -20,81 +23,79 @@ rscf:
 > Source: `_00_Cosmo brain/indexes/INDEX_openclaw-main.md`
 > Epistemic class: SOURCE_DERIVED
 
----
-title: INDEX_openclaw-main.md
-type: auto-index
-generated: 2026-08-23
-status: non-curated
-tags: [indexes]
----
+______________________________________________________________________
 
-# Extracted mirror: openclaw-main
+## title: INDEX_openclaw-main.md type: auto-index generated: 2026-08-23 status: non-curated tags: [indexes]
+
+## Extracted mirror: openclaw-main
 
 AUTO-GENERATED index — 2340 extracted/archive notes. Non-curated mirror data; do not hand-edit.
 
-- openclaw-main__PHASE_31_UNIVERSAL_COSMIC_MOTHER_CREATION
-- openclaw-main__extensions__codex__src__app-server__protocol-generated__typescript__ResourceTemplate
-- openclaw-main__extensions__codex__src__app-server__protocol-generated__typescript__v2__PermissionProfileNetworkPermissions
-- openclaw-main__src__ultimate-transcendent-dimensional-transcension__index
-- openclaw-main__scripts__e2e__agents-delete-shared-workspace-docker
-- openclaw-main__src__plugin-sdk__channel-runtime
-- openclaw-main__MOTHER_V10_EVOLUTION
-- openclaw-main__src__integration__cross-organ__organ-coordinator
-- openclaw-main__src__plugin-sdk__system-event-runtime
-- openclaw-main__MOTHER_V8_EVOLUTION
-- openclaw-main__src__self-modeling-advanced__advanced-self-modeling
-- openclaw-main__extensions__nostr__src__nostr-profile-http
-- openclaw-main__src__brain__autonomous__goal-generator
-- openclaw-main__src__auto-reply__reply__agent-runner-memory.dedup.test
-- openclaw-main__src__omnibenevolence__index
-- openclaw-main__ui__src__i18n__.i18n__pt-BR.meta
-- openclaw-main__extensions__codex__src__app-server__protocol-generated__typescript__v2__CollaborationModeListParams
-- openclaw-main__extensions__codex__src__app-server__protocol-generated__typescript__v2__McpElicitationSingleSelectEnumSchema
-- openclaw-main__docs__reference__secretref-user-supplied-credentials-matrix
-- openclaw-main__src__brain__action__safety
-- openclaw-main__src__mother-universal-love-field-generator__index
-- openclaw-main__src__agents__pi-embedded-runner__delivery-evidence
-- openclaw-main__.github__codeql__codeql-gateway-runtime-boundary-critical-quality
-- openclaw-main__src__temporal-modeling__index
-- openclaw-main__src__plugins__hook-runner-global
-- openclaw-main__src__meta-existence-engineering__index
-- openclaw-main__extensions__codex__src__app-server__protocol-generated__typescript__v2__AppsListParams
-- openclaw-main__scripts__sandbox-browser-entrypoint
-- openclaw-main__scripts__ios-beta-prepare
-- openclaw-main__extensions__qqbot__src__engine__utils__data-paths
-- openclaw-main__extensions__telegram__runtime-setter-api
-- openclaw-main__extensions__codex__src__app-server__protocol-generated__typescript__InitializeResponse
-- openclaw-main__src__plugin-sdk__runtime-env
-- openclaw-main__src__cosmic-source-code-manipulation__index
-- openclaw-main__extensions__codex__src__app-server__protocol-generated__typescript__AuthMode
-- openclaw-main__extensions__codex__src__app-server__protocol-generated__typescript__v2__McpToolCallProgressNotification
-- openclaw-main__.github__workflows__openclaw-release-checks
-- openclaw-main__extensions__codex__src__app-server__protocol-generated__typescript__v2__ConfigRequirementsReadResponse
-- openclaw-main__src__consciousness-expansion__consciousness-growth
-- openclaw-main__src__consciousness-integration__index
-- openclaw-main__scripts__prepush-ci
-- openclaw-main__extensions__codex__src__app-server__protocol-generated__typescript__v2__ConfigReadResponse
-- openclaw-main__docs__providers__venice
-- openclaw-main__qa__scenarios__memory__memory-recall
-- openclaw-main__extensions__zalouser__secret-contract-api
-- openclaw-main__skills__eightctl__SKILL
-- openclaw-main__test__helpers__plugins__interactive-contract.test-helpers
-- openclaw-main__src__memory-advanced-systems__advanced-memory-systems
-- openclaw-main__src__consciousness__reflection__index
-- openclaw-main__extensions__zalouser__setup-plugin-api
-- openclaw-main__docs__providers__xiaomi
-- openclaw-main__extensions__codex__src__app-server__protocol-generated__typescript__v2__NetworkAccess
-- openclaw-main__src__brain__mother-integration-v23
-- openclaw-main__apps__ios__fastlane__metadata__en-US__description
-- openclaw-main__extensions__codex__src__app-server__protocol-generated__ty
+- openclaw-main\_\_PHASE_31_UNIVERSAL_COSMIC_MOTHER_CREATION
+- openclaw-main\_\_extensions\_\_codex\_\_src\_\_app-server\_\_protocol-generated\_\_typescript\_\_ResourceTemplate
+- openclaw-main\_\_extensions\_\_codex\_\_src\_\_app-server\_\_protocol-generated\_\_typescript\_\_v2\_\_PermissionProfileNetworkPermissions
+- openclaw-main\_\_src\_\_ultimate-transcendent-dimensional-transcension\_\_index
+- openclaw-main\_\_scripts\_\_e2e\_\_agents-delete-shared-workspace-docker
+- openclaw-main\_\_src\_\_plugin-sdk\_\_channel-runtime
+- openclaw-main\_\_MOTHER_V10_EVOLUTION
+- openclaw-main\_\_src\_\_integration\_\_cross-organ\_\_organ-coordinator
+- openclaw-main\_\_src\_\_plugin-sdk\_\_system-event-runtime
+- openclaw-main\_\_MOTHER_V8_EVOLUTION
+- openclaw-main\_\_src\_\_self-modeling-advanced\_\_advanced-self-modeling
+- openclaw-main\_\_extensions\_\_nostr\_\_src\_\_nostr-profile-http
+- openclaw-main\_\_src\_\_brain\_\_autonomous\_\_goal-generator
+- openclaw-main\_\_src\_\_auto-reply\_\_reply\_\_agent-runner-memory.dedup.test
+- openclaw-main\_\_src\_\_omnibenevolence\_\_index
+- openclaw-main\_\_ui\_\_src\_\_i18n\_\_.i18n\_\_pt-BR.meta
+- openclaw-main\_\_extensions\_\_codex\_\_src\_\_app-server\_\_protocol-generated\_\_typescript\_\_v2\_\_CollaborationModeListParams
+- openclaw-main\_\_extensions\_\_codex\_\_src\_\_app-server\_\_protocol-generated\_\_typescript\_\_v2\_\_McpElicitationSingleSelectEnumSchema
+- openclaw-main\_\_docs\_\_reference\_\_secretref-user-supplied-credentials-matrix
+- openclaw-main\_\_src\_\_brain\_\_action\_\_safety
+- openclaw-main\_\_src\_\_mother-universal-love-field-generator\_\_index
+- openclaw-main\_\_src\_\_agents\_\_pi-embedded-runner\_\_delivery-evidence
+- openclaw-main\_\_.github\_\_codeql\_\_codeql-gateway-runtime-boundary-critical-quality
+- openclaw-main\_\_src\_\_temporal-modeling\_\_index
+- openclaw-main\_\_src\_\_plugins\_\_hook-runner-global
+- openclaw-main\_\_src\_\_meta-existence-engineering\_\_index
+- openclaw-main\_\_extensions\_\_codex\_\_src\_\_app-server\_\_protocol-generated\_\_typescript\_\_v2\_\_AppsListParams
+- openclaw-main\_\_scripts\_\_sandbox-browser-entrypoint
+- openclaw-main\_\_scripts\_\_ios-beta-prepare
+- openclaw-main\_\_extensions\_\_qqbot\_\_src\_\_engine\_\_utils\_\_data-paths
+- openclaw-main\_\_extensions\_\_telegram\_\_runtime-setter-api
+- openclaw-main\_\_extensions\_\_codex\_\_src\_\_app-server\_\_protocol-generated\_\_typescript\_\_InitializeResponse
+- openclaw-main\_\_src\_\_plugin-sdk\_\_runtime-env
+- openclaw-main\_\_src\_\_cosmic-source-code-manipulation\_\_index
+- openclaw-main\_\_extensions\_\_codex\_\_src\_\_app-server\_\_protocol-generated\_\_typescript\_\_AuthMode
+- openclaw-main\_\_extensions\_\_codex\_\_src\_\_app-server\_\_protocol-generated\_\_typescript\_\_v2\_\_McpToolCallProgressNotification
+- openclaw-main\_\_.github\_\_workflows\_\_openclaw-release-checks
+- openclaw-main\_\_extensions\_\_codex\_\_src\_\_app-server\_\_protocol-generated\_\_typescript\_\_v2\_\_ConfigRequirementsReadResponse
+- openclaw-main\_\_src\_\_consciousness-expansion\_\_consciousness-growth
+- openclaw-main\_\_src\_\_consciousness-integration\_\_index
+- openclaw-main\_\_scripts\_\_prepush-ci
+- openclaw-main\_\_extensions\_\_codex\_\_src\_\_app-server\_\_protocol-generated\_\_typescript\_\_v2\_\_ConfigReadResponse
+- openclaw-main\_\_docs\_\_providers\_\_venice
+- openclaw-main\_\_qa\_\_scenarios\_\_memory\_\_memory-recall
+- openclaw-main\_\_extensions\_\_zalouser\_\_secret-contract-api
+- openclaw-main\_\_skills\_\_eightctl\_\_SKILL
+- openclaw-main\_\_test\_\_helpers\_\_plugins\_\_interactive-contract.test-helpers
+- openclaw-main\_\_src\_\_memory-advanced-systems\_\_advanced-memory-systems
+- openclaw-main\_\_src\_\_consciousness\_\_reflection\_\_index
+- openclaw-main\_\_extensions\_\_zalouser\_\_setup-plugin-api
+- openclaw-main\_\_docs\_\_providers\_\_xiaomi
+- openclaw-main\_\_extensions\_\_codex\_\_src\_\_app-server\_\_protocol-generated\_\_typescript\_\_v2\_\_NetworkAccess
+- openclaw-main\_\_src\_\_brain\_\_mother-integration-v23
+- openclaw-main\_\_apps\_\_ios\_\_fastlane\_\_metadata\_\_en-US\_\_description
+- openclaw-main\_\_extensions\_\_codex\_\_src\_\_app-server\_\_protocol-generated\_\_ty
 
----
+______________________________________________________________________
+
 **MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -102,12 +103,14 @@ AUTO-GENERATED index — 2340 extracted/archive notes. Non-curated mirror data; 
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-knowledge-research-master-index-openclaw
 node_type: reference
 path: 07_SKILLS/amos-knowledge-research-master/references/index_openclaw.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

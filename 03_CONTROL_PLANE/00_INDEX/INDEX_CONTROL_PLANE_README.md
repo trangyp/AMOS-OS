@@ -1,12 +1,15 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: INDEX CONTROL PLANE README
 type: index
 source: 03_CONTROL_PLANE/00_INDEX
 tags:
-- control-plane
-- index
-- readme
-- canon/control-plane
+  - control-plane
+  - index
+  - readme
+  - canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -16,7 +19,8 @@ rscf:
 
 # INDEX CONTROL PLANE README
 
----
+______________________________________________________________________
+
 artifact_id: AMOS-OS-CONTROL-PLANE-README
 title: AMOS OS Control Plane
 canonical_name: [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
@@ -33,29 +37,31 @@ conclusion_class: DERIVED
 
 parent_layer: 03_CONTROL_PLANE
 sibling_index:
-  - [[03_CONTROL_PLANE/00_INDEX/CONTROL_PLANE_MAP|CONTROL_PLANE_MAP]].md
+
+- [[03_CONTROL_PLANE/00_INDEX/CONTROL_PLANE_MAP|CONTROL_PLANE_MAP]].md
 
 upstream:
-  - 00_ROOT
-  - 01_CANON
-  - 02_KERNEL
+
+- 00_ROOT
+- 01_CANON
+- 02_KERNEL
 
 downstream:
-  - 04_RUNTIME
-  - 05_COGNITIVE_ORGANISM
-  - 06_AGENTS
-  - 07_SKILLS
-  - tools
-  - interfaces
+
+- 04_RUNTIME
+- 05_COGNITIVE_ORGANISM
+- 06_AGENTS
+- 07_SKILLS
+- tools
+- interfaces
 
 implementation_status: UNKNOWN/GAP
 empirical_validation_status: NOT_APPLICABLE_AS_GLOBAL_CLAIM
 promotion_required: true
 
-updated: 2026-08-26
----
+## updated: 2026-08-26
 
-# AMOS OS Control Plane
+## AMOS OS Control Plane
 
 > **Status:** `CANDIDATE_CANON`
 >
@@ -65,9 +71,9 @@ updated: 2026-08-26
 >
 > **Origin Architect:** Trang Phan
 
----
+______________________________________________________________________
 
-# 0. Purpose
+## 0. Purpose
 
 The AMOS OS Control Plane is the governance and coordination layer between
 canonical/kernel reasoning and runtime execution.
@@ -120,9 +126,9 @@ DID DO
 
 The Control Plane exists to keep those states separate.
 
----
+______________________________________________________________________
 
-# 1. Architectural Position
+## 1. Architectural Position
 
 AMOS OS follows the high-level dependency spine:
 
@@ -152,9 +158,9 @@ Its responsibility is not to silently rewrite kernel conclusions.
 Its responsibility is to transform an already understood objective into a
 governed, typed, provenance-aware, revalidatable execution contract.
 
----
+______________________________________________________________________
 
-# 2. Control Plane Mission
+## 2. Control Plane Mission
 
 The Control Plane SHALL attempt to ensure that every consequential action can
 answer the following questions:
@@ -205,9 +211,9 @@ ASSUMED TRUE
 
 merely to permit execution.
 
----
+______________________________________________________________________
 
-# 3. Core Control Plane Law
+## 3. Core Control Plane Law
 
 The governing Control Plane law is:
 
@@ -243,9 +249,9 @@ TASK
 where the exact implementation remains dependent on the corresponding
 artifacts.
 
----
+______________________________________________________________________
 
-# 4. Integrity Boundary
+## 4. Integrity Boundary
 
 The Control Plane must preserve these distinctions:
 
@@ -298,9 +304,9 @@ SEMANTIC CORRECTNESS
 Any component that collapses these distinctions weakens control-plane
 integrity.
 
----
+______________________________________________________________________
 
-# 5. Directory Map
+## 5. Directory Map
 
 The canonical Control Plane tree is:
 
@@ -380,9 +386,9 @@ This README describes how those domains fit together.
 The individual files remain authoritative for their own detailed contracts
 once promoted.
 
----
+______________________________________________________________________
 
-# 6. 00_INDEX
+## 6. 00_INDEX
 
 `00_INDEX` is the navigation and architectural orientation layer for the
 Control Plane.
@@ -411,9 +417,9 @@ map.
 The index layer must not become a duplicate implementation specification for
 every submodule.
 
----
+______________________________________________________________________
 
-# 7. 01_TASK_CONTRACT
+## 7. 01_TASK_CONTRACT
 
 The task-contract layer answers:
 
@@ -471,9 +477,9 @@ and identify decision-changing ambiguity.
 A malformed or materially ambiguous task should not proceed directly to
 effectful execution.
 
----
+______________________________________________________________________
 
-# 8. Task Contract Invariants
+## 8. Task Contract Invariants
 
 A task contract SHOULD satisfy:
 
@@ -509,9 +515,9 @@ it.
 When ambiguity changes authorization, risk, cost, or irreversible effect, it
 must remain explicit.
 
----
+______________________________________________________________________
 
-# 9. 02_CAPABILITY
+## 9. 02_CAPABILITY
 
 The capability layer answers:
 
@@ -550,9 +556,9 @@ does not promise.
 The capability resolver selects the smallest sufficient capability set for
 the task.
 
----
+______________________________________________________________________
 
-# 10. Capability Resolution
+## 10. Capability Resolution
 
 Candidate capability flow:
 
@@ -581,9 +587,9 @@ over maximal capability activation.
 
 This reduces unnecessary effect surface.
 
----
+______________________________________________________________________
 
-# 11. 03_POLICY
+## 11. 03_POLICY
 
 The policy layer answers:
 
@@ -623,9 +629,9 @@ UNKNOWN/GAP
 
 Exact canonical values belong in the policy artifacts.
 
----
+______________________________________________________________________
 
-# 12. Policy Integrity
+## 12. Policy Integrity
 
 Policy evaluation must remain distinct from capability and authority.
 
@@ -675,9 +681,9 @@ invalidation conditions
 
 where material.
 
----
+______________________________________________________________________
 
-# 13. 04_AUTHORITY
+## 13. 04_AUTHORITY
 
 The authority layer answers:
 
@@ -711,9 +717,9 @@ It must not be inferred merely from:
 - system ownership assumptions;
 - absence of denial.
 
----
+______________________________________________________________________
 
-# 14. Authority Contract
+## 14. Authority Contract
 
 Conceptually:
 
@@ -751,9 +757,9 @@ revocation changes
 commit time materially differs from resolution time
 ```
 
----
+______________________________________________________________________
 
-# 15. Delegation
+## 15. Delegation
 
 Delegated authority must not silently exceed the delegator's scope.
 
@@ -781,9 +787,9 @@ conditions
 
 Transitive delegation must preserve ancestry.
 
----
+______________________________________________________________________
 
-# 16. Revocation
+## 16. Revocation
 
 Revocation must propagate to dependent authorization states.
 
@@ -804,9 +810,9 @@ Already-observed historical records remain historical records.
 
 They are not erased merely because future authority is revoked.
 
----
+______________________________________________________________________
 
-# 17. Authority Witness
+## 17. Authority Witness
 
 `AUTHORITY_WITNESS.md` should define how a downstream component can verify
 that authority was valid without reconstructing every upstream decision.
@@ -829,9 +835,9 @@ FRESHNESS-BOUND
 
 This README does not claim any particular cryptographic implementation.
 
----
+______________________________________________________________________
 
-# 18. 05_PROVENANCE
+## 18. 05_PROVENANCE
 
 The Control Plane provenance layer answers:
 
@@ -855,9 +861,9 @@ This layer binds decision state to the evidence actually observed.
 It prevents later reasoning from pretending it used information that was
 never read.
 
----
+______________________________________________________________________
 
-# 19. Observed Read Set
+## 19. Observed Read Set
 
 Conceptually:
 
@@ -889,9 +895,9 @@ ALL DATA ACCESSIBLE TO THE SYSTEM
 
 It records what actually entered the decision dependency closure.
 
----
+______________________________________________________________________
 
-# 20. Read-Set Validation
+## 20. Read-Set Validation
 
 Before consequential commit, the Control Plane may need to ask:
 
@@ -927,9 +933,9 @@ REVALIDATE AFFECTED CLOSURE
 This mirrors AMOS v4.4 MVCC/CAS reasoning patterns without claiming that all
 implementations literally use database MVCC.
 
----
+______________________________________________________________________
 
-# 21. Provenance Ledger
+## 21. Provenance Ledger
 
 The provenance ledger should preserve ancestry across:
 
@@ -954,9 +960,9 @@ Repetition does not create independence.
 A thousand descendants of one source remain one provenance family unless
 independence is demonstrated.
 
----
+______________________________________________________________________
 
-# 22. 06_SEMANTIC_TRANSACTION
+## 22. 06_SEMANTIC_TRANSACTION
 
 The semantic transaction layer answers:
 
@@ -996,9 +1002,9 @@ constraints
 It exists to prevent a syntactically valid operation from becoming a
 semantically incorrect operation.
 
----
+______________________________________________________________________
 
-# 23. Semantic Transaction Contract
+## 23. Semantic Transaction Contract
 
 Conceptually:
 
@@ -1035,9 +1041,9 @@ SEMANTICALLY INVALID
 
 The Control Plane must preserve that distinction.
 
----
+______________________________________________________________________
 
-# 24. Parameter Provenance
+## 24. Parameter Provenance
 
 Parameters that materially change an effect should retain their origin.
 
@@ -1074,9 +1080,9 @@ derived lookup
 This is especially important when a parameter is irreversible or
 security-sensitive.
 
----
+______________________________________________________________________
 
-# 25. Lineage Graph
+## 25. Lineage Graph
 
 The lineage graph conceptually connects:
 
@@ -1101,9 +1107,9 @@ The purpose is selective traceability.
 A failure should be localizable to the earliest invalid node rather than
 requiring global recomputation by default.
 
----
+______________________________________________________________________
 
-# 26. 07_OBSERVABILITY
+## 26. 07_OBSERVABILITY
 
 The observability layer answers:
 
@@ -1126,9 +1132,9 @@ Observability is part of governance, not merely debugging.
 
 A system should know when it cannot reliably observe an important effect.
 
----
+______________________________________________________________________
 
-# 27. Observability Envelope
+## 27. Observability Envelope
 
 Conceptually:
 
@@ -1146,9 +1152,9 @@ observability_envelope:
 A high-impact action whose critical failure mode is unobservable should
 receive elevated scrutiny.
 
----
+______________________________________________________________________
 
-# 28. Blind Spots
+## 28. Blind Spots
 
 A blind spot is a decision-relevant state that the current observability
 configuration cannot reliably detect.
@@ -1169,9 +1175,9 @@ side effect is not represented in current telemetry
 
 Blind spots should be registered rather than silently ignored.
 
----
+______________________________________________________________________
 
-# 29. Monitor Registry
+## 29. Monitor Registry
 
 The monitor registry should define available observation channels and their
 scope.
@@ -1198,9 +1204,9 @@ coverage
 trust
 ```
 
----
+______________________________________________________________________
 
-# 30. 08_EFFECTS
+## 30. 08_EFFECTS
 
 The effects layer answers:
 
@@ -1234,9 +1240,9 @@ RECEIPT
 FINAL EFFECT
 ```
 
----
+______________________________________________________________________
 
-# 31. Effect Intent
+## 31. Effect Intent
 
 Effect intent describes the requested semantic change.
 
@@ -1255,9 +1261,9 @@ effect_intent:
   expected_receivers:
 ```
 
----
+______________________________________________________________________
 
-# 32. Effect Manifest
+## 32. Effect Manifest
 
 The effect manifest is the concrete effect set expected to be produced by an
 execution.
@@ -1277,9 +1283,9 @@ effect_manifest:
 
 Unexpected effect expansion should trigger escalation or reclassification.
 
----
+______________________________________________________________________
 
-# 33. Effect Release State
+## 33. Effect Release State
 
 Effect release distinguishes:
 
@@ -1302,9 +1308,9 @@ Exact canonical states belong in the artifact itself.
 The important invariant is that preparation must not be confused with
 release.
 
----
+______________________________________________________________________
 
-# 34. Receiver Receipt
+## 34. Receiver Receipt
 
 A receiver receipt answers:
 
@@ -1326,9 +1332,9 @@ RECEIVER APPLIED
 
 where applicable.
 
----
+______________________________________________________________________
 
-# 35. 09_COMMIT
+## 35. 09_COMMIT
 
 The commit layer answers:
 
@@ -1349,9 +1355,9 @@ COMMIT_RESULT.md
 
 This is the final governance boundary before consequential effect release.
 
----
+______________________________________________________________________
 
-# 36. Commit-Time Authority
+## 36. Commit-Time Authority
 
 Authority resolved earlier may be stale at commit time.
 
@@ -1367,9 +1373,9 @@ when authority is mutable.
 
 The commit layer should revalidate load-bearing mutable state.
 
----
+______________________________________________________________________
 
-# 37. Commit Guard
+## 37. Commit Guard
 
 A commit guard should conceptually verify:
 
@@ -1397,9 +1403,9 @@ rollback/recovery assumptions still valid
 
 The exact checks depend on effect class and stakes.
 
----
+______________________________________________________________________
 
-# 38. Commit Governor
+## 38. Commit Governor
 
 The commit governor decides whether the semantic transaction may cross the
 commit boundary.
@@ -1423,9 +1429,9 @@ UNKNOWN/GAP
 These names are descriptive candidate states unless defined differently in
 the dedicated artifact.
 
----
+______________________________________________________________________
 
-# 39. Commit Result
+## 39. Commit Result
 
 The commit result records:
 
@@ -1450,9 +1456,9 @@ A commit result is evidence about execution.
 It is not by itself evidence that the user's higher-level objective was
 semantically achieved.
 
----
+______________________________________________________________________
 
-# 40. 10_EXPOSURE
+## 40. 10_EXPOSURE
 
 The exposure layer answers:
 
@@ -1475,9 +1481,9 @@ SEMANTIC_ORIGIN_REGISTRY.md
 
 Information exposure must be treated as an effect.
 
----
+______________________________________________________________________
 
-# 41. Exposure Accounting
+## 41. Exposure Accounting
 
 The Control Plane should distinguish:
 
@@ -1497,9 +1503,9 @@ UNKNOWN EXPOSURE STATE
 
 The exact trust classes belong in the dedicated exposure artifacts.
 
----
+______________________________________________________________________
 
-# 42. Semantic Origin Registry
+## 42. Semantic Origin Registry
 
 The semantic origin registry should preserve where exposed information came
 from.
@@ -1524,9 +1530,9 @@ downstream invalidation
 
 A paraphrase does not erase origin.
 
----
+______________________________________________________________________
 
-# 43. Declassification
+## 43. Declassification
 
 Declassification is a governed transformation.
 
@@ -1551,9 +1557,9 @@ which transformations were applied
 which information remains restricted
 ```
 
----
+______________________________________________________________________
 
-# 44. Exposure Ledger
+## 44. Exposure Ledger
 
 The exposure ledger should record consequential disclosure events.
 
@@ -1572,9 +1578,9 @@ exposure_event:
   constraints:
 ```
 
----
+______________________________________________________________________
 
-# 45. 11_REPLAY
+## 45. 11_REPLAY
 
 The replay layer answers:
 
@@ -1598,9 +1604,9 @@ REPLAY_VALIDATOR.md
 Replay supports debugging, audit, causal investigation, recovery, and
 anti-regression.
 
----
+______________________________________________________________________
 
-# 46. Replay Is Not Proof
+## 46. Replay Is Not Proof
 
 A successful replay demonstrates reproducibility under the replayed
 conditions.
@@ -1621,9 +1627,9 @@ security
 
 The replay validity envelope must remain explicit.
 
----
+______________________________________________________________________
 
-# 47. Replay Ledger
+## 47. Replay Ledger
 
 A replay ledger should preserve enough state to reconstruct decision-critical
 conditions.
@@ -1654,9 +1660,9 @@ commit result
 
 The exact content belongs in `REPLAY_LEDGER.md`.
 
----
+______________________________________________________________________
 
-# 48. Divergence Registry
+## 48. Divergence Registry
 
 Replay divergence should be classified rather than hidden.
 
@@ -1685,9 +1691,9 @@ nondeterministic divergence
 A replay that diverges can still provide useful evidence if the divergence
 is understood.
 
----
+______________________________________________________________________
 
-# 49. 12_ROLLBACK
+## 49. 12_ROLLBACK
 
 The rollback layer answers:
 
@@ -1729,9 +1735,9 @@ SELECTIVE INVALIDATION
 FORWARD RECOVERY
 ```
 
----
+______________________________________________________________________
 
-# 50. Selective Invalidation
+## 50. Selective Invalidation
 
 The governing repair law is:
 
@@ -1775,9 +1781,9 @@ preserve C2
 
 unless additional dependencies exist.
 
----
+______________________________________________________________________
 
-# 51. Recovery Governor
+## 51. Recovery Governor
 
 The recovery governor decides the safest recovery class.
 
@@ -1805,9 +1811,9 @@ repair cost
 observability
 ```
 
----
+______________________________________________________________________
 
-# 52. Rollback Manager
+## 52. Rollback Manager
 
 The rollback manager executes or coordinates approved recovery semantics.
 
@@ -1831,9 +1837,9 @@ A rollback is still an effect.
 
 It is not exempt from governance merely because it is corrective.
 
----
+______________________________________________________________________
 
-# 53. End-to-End Control Plane Flow
+## 53. End-to-End Control Plane Flow
 
 Canonical conceptual flow:
 
@@ -1878,9 +1884,9 @@ This is a conceptual dependency order.
 The runtime may optimize or parallelize independent checks only when doing so
 does not weaken integrity.
 
----
+______________________________________________________________________
 
-# 54. Proof-Based Coordination Avoidance
+## 54. Proof-Based Coordination Avoidance
 
 AMOS v4.4 permits local reasoning only when independence is demonstrated.
 
@@ -1908,9 +1914,9 @@ effect fan-out bounded
 
 If these conditions fail, escalate.
 
----
+______________________________________________________________________
 
-# 55. Atomic Control-Plane Decisions
+## 55. Atomic Control-Plane Decisions
 
 Some transactions require several control-plane decisions to correspond to
 one coherent state.
@@ -1942,9 +1948,9 @@ COHERENT LOAD-BEARING SNAPSHOT
 
 not necessarily a particular storage implementation.
 
----
+______________________________________________________________________
 
-# 56. Control Plane Epochs
+## 56. Control Plane Epochs
 
 Where state changes over time, a control-plane decision should retain enough
 version information to know whether it remains current.
@@ -1971,9 +1977,9 @@ Not every transaction requires every epoch.
 
 Only load-bearing epochs should be tracked.
 
----
+______________________________________________________________________
 
-# 57. Commit-Time Revalidation
+## 57. Commit-Time Revalidation
 
 Pre-computed approval is insufficient if load-bearing mutable state can
 change before execution.
@@ -1995,9 +2001,9 @@ LOAD-BEARING STATE CHANGES?
 This is central to preventing stale authority or stale evidence from becoming
 real-world effects.
 
----
+______________________________________________________________________
 
-# 58. Effect Classification
+## 58. Effect Classification
 
 The Control Plane should classify intended effects before selecting
 validation depth.
@@ -2038,9 +2044,9 @@ and/or the dedicated effects/control-plane artifacts.
 
 This README must not silently redefine kernel law.
 
----
+______________________________________________________________________
 
-# 59. Risk Scaling
+## 59. Risk Scaling
 
 Validation effort should increase with:
 
@@ -2070,9 +2076,9 @@ Low-stakes reversible operations may use a smaller sufficient proof scope.
 
 High-stakes actions should escalate.
 
----
+______________________________________________________________________
 
-# 60. Reversibility Preference
+## 60. Reversibility Preference
 
 Under unresolved uncertainty, prefer:
 
@@ -2098,9 +2104,9 @@ in that general direction when compatible with the task.
 
 This is a governance preference, not an absolute rule.
 
----
+______________________________________________________________________
 
-# 61. Provenance-Aware Decisions
+## 61. Provenance-Aware Decisions
 
 Trust is:
 
@@ -2123,9 +2129,9 @@ many descendant documents.
 
 Shared ancestry must remain visible.
 
----
+______________________________________________________________________
 
-# 62. Counterfactual / Simulation Boundary
+## 62. Counterfactual / Simulation Boundary
 
 The Control Plane may use counterfactual reasoning before execution:
 
@@ -2151,9 +2157,9 @@ COUNTERFACTUAL
 AUTOMATIC AUTHORIZATION
 ```
 
----
+______________________________________________________________________
 
-# 63. Runtime Boundary
+## 63. Runtime Boundary
 
 The Control Plane determines whether and how execution may proceed.
 
@@ -2171,9 +2177,9 @@ WHEN / WHERE / HOW TO EXECUTE
 
 The boundary should remain explicit.
 
----
+______________________________________________________________________
 
-# 64. Agent Boundary
+## 64. Agent Boundary
 
 Agents may:
 
@@ -2197,9 +2203,9 @@ They do not gain authority merely because they can perform a function.
 
 The Control Plane governs their effectful boundaries.
 
----
+______________________________________________________________________
 
-# 65. Skill Boundary
+## 65. Skill Boundary
 
 Skills encapsulate reusable procedures.
 
@@ -2221,9 +2227,9 @@ for every task.
 
 Capability resolution and authority/policy still apply.
 
----
+______________________________________________________________________
 
-# 66. Tool Boundary
+## 66. Tool Boundary
 
 Tools are execution surfaces.
 
@@ -2249,9 +2255,9 @@ IS THE EFFECT REVERSIBLE?
 
 Those are Control Plane concerns.
 
----
+______________________________________________________________________
 
-# 67. Observability Boundary
+## 67. Observability Boundary
 
 A tool returning:
 
@@ -2281,9 +2287,9 @@ user objective completion
 
 where relevant.
 
----
+______________________________________________________________________
 
-# 68. Failure Classes
+## 68. Failure Classes
 
 The Control Plane should distinguish failures such as:
 
@@ -2319,9 +2325,9 @@ UNKNOWN_FAILURE
 
 Exact canonical identifiers belong in their respective registries.
 
----
+______________________________________________________________________
 
-# 69. Failure Localization
+## 69. Failure Localization
 
 When failure occurs, localize it to the smallest failing dependency.
 
@@ -2349,9 +2355,9 @@ REBUILD ENTIRE SYSTEM
 
 unless dependencies require it.
 
----
+______________________________________________________________________
 
-# 70. Anti-Fabrication Rules
+## 70. Anti-Fabrication Rules
 
 The Control Plane must never infer:
 
@@ -2391,9 +2397,9 @@ NO RISK
 
 Unknown remains unknown until resolved.
 
----
+______________________________________________________________________
 
-# 71. Anti-Regression
+## 71. Anti-Regression
 
 A Control Plane optimization is acceptable only if it preserves or improves:
 
@@ -2427,9 +2433,9 @@ efficiency
 
 If optimization weakens integrity, roll it back.
 
----
+______________________________________________________________________
 
-# 72. Proof Capsule for Consequential Control Decisions
+## 72. Proof Capsule for Consequential Control Decisions
 
 A consequential Control Plane decision should conceptually retain:
 
@@ -2498,9 +2504,9 @@ ControlPlaneProofCapsule:
 This is a conceptual proof structure, not evidence of a particular storage
 format.
 
----
+______________________________________________________________________
 
-# 73. Control Plane Fast Path
+## 73. Control Plane Fast Path
 
 A fast path may be used when:
 
@@ -2532,9 +2538,9 @@ The fast path must still preserve load-bearing checks.
 
 Fast does not mean ungoverned.
 
----
+______________________________________________________________________
 
-# 74. Escalation Conditions
+## 74. Escalation Conditions
 
 Escalate when:
 
@@ -2566,9 +2572,9 @@ commit state differs materially from resolution state
 large institutional or downstream impact exists
 ```
 
----
+______________________________________________________________________
 
-# 75. State Machine
+## 75. State Machine
 
 Conceptual control-plane state machine:
 
@@ -2616,9 +2622,9 @@ UNKNOWN
 
 Exact canonical state labels belong in detailed artifacts.
 
----
+______________________________________________________________________
 
-# 76. Finalization
+## 76. Finalization
 
 A Control Plane decision is not final merely because all modules returned
 success once.
@@ -2645,9 +2651,9 @@ external system finalized
 
 The relevant condition must be explicit.
 
----
+______________________________________________________________________
 
-# 77. Control Plane Observability Events
+## 77. Control Plane Observability Events
 
 Candidate event vocabulary:
 
@@ -2699,9 +2705,9 @@ SELECTIVE_INVALIDATION_APPLIED
 
 These are candidate labels unless separately registered.
 
----
+______________________________________________________________________
 
-# 78. Testing Expectations
+## 78. Testing Expectations
 
 The Control Plane should eventually be tested across at least:
 
@@ -2745,9 +2751,9 @@ selective invalidation
 
 The exact test suite belongs in the corresponding artifact/test directories.
 
----
+______________________________________________________________________
 
-# 79. Required Negative Tests
+## 79. Required Negative Tests
 
 The following must fail:
 
@@ -2762,44 +2768,52 @@ PREVIOUSLY AUTHORIZED
 →
 CURRENTLY AUTHORIZED
 ```
+
 ```text
 POLICY NOT FOUND
 →
 POLICY ALLOWS
 ```
+
 ```text
 READ DATA @ V0
 →
 ASSUME CURRENT @ COMMIT
 ```
+
 ```text
 TOOL SUCCESS
 →
 OBJECTIVE COMPLETE
 ```
+
 ```text
 SEND SUCCESS
 →
 RECEIVER FINALIZED
 ```
+
 ```text
 REPLAY MATCH
 →
 SEMANTIC CORRECTNESS
 ```
+
 ```text
 ROLLBACK EXISTS
 →
 ACTION HAS NO RISK
 ```
+
 ```text
 MULTIPLE DESCENDANT SOURCES
 →
 INDEPENDENT PROVENANCE
 ```
----
 
-# 80. Relationship to Kernel Authority
+______________________________________________________________________
+
+## 80. Relationship to Kernel Authority
 
 The Control Plane consumes kernel law.
 
@@ -2837,9 +2851,9 @@ Where one of those artifacts remains incomplete or placeholder-only, the
 Control Plane must preserve that dependency as a gap rather than inventing
 the missing law.
 
----
+______________________________________________________________________
 
-# 81. Relationship to Canon
+## 81. Relationship to Canon
 
 Canonical upstream sources include:
 
@@ -2867,9 +2881,9 @@ where present and promoted.
 
 A newer Control Plane file does not automatically supersede upstream canon.
 
----
+______________________________________________________________________
 
-# 82. Supersession Discipline
+## 82. Supersession Discipline
 
 Replacement of a Control Plane artifact should preserve:
 
@@ -2895,9 +2909,9 @@ preserved dependents
 
 Do not treat simple file recency as authority.
 
----
+______________________________________________________________________
 
-# 83. Provenance Discipline
+## 83. Provenance Discipline
 
 Every important Control Plane conclusion should be traceable to:
 
@@ -2922,9 +2936,9 @@ Derived conclusions remain derived.
 Documentation claims remain source claims until validated where validation is
 material.
 
----
+______________________________________________________________________
 
-# 84. Unknown / Gap Discipline
+## 84. Unknown / Gap Discipline
 
 Gaps should be classified:
 
@@ -2944,9 +2958,9 @@ A critical gap blocks consequential action when no safe fallback exists.
 
 An explanatory gap may remain unresolved if it cannot alter the decision.
 
----
+______________________________________________________________________
 
-# 85. Control Plane Completion Criteria
+## 85. Control Plane Completion Criteria
 
 The Control Plane is sufficiently resolved for an action when:
 
@@ -2974,9 +2988,9 @@ Not every action requires maximal proof depth.
 
 Every action requires sufficient proof depth.
 
----
+______________________________________________________________________
 
-# 86. Stop Condition
+## 86. Stop Condition
 
 Stop control-plane expansion when:
 
@@ -2993,9 +3007,9 @@ are achieved.
 More governance machinery is not automatically safer if it adds no
 decision-relevant information and creates new failure surface.
 
----
+______________________________________________________________________
 
-# 87. Compact Operational Contract
+## 87. Compact Operational Contract
 
 ```text
 REQUEST
@@ -3041,9 +3055,9 @@ PRESERVE PROVENANCE
 PRESERVE INVALIDATION CONDITIONS
 ```
 
----
+______________________________________________________________________
 
-# 88. Control Plane Master Invariants
+## 88. Control Plane Master Invariants
 
 ```text
 CP-I01
@@ -3110,9 +3124,9 @@ FINALITY DEPENDS ON THE EFFECT'S ACTUAL COMPLETION CONDITIONS.
 These identifiers are candidate documentation identifiers unless separately
 registered as canonical law IDs.
 
----
+______________________________________________________________________
 
-# 89. Minimal Control Plane Result
+## 89. Minimal Control Plane Result
 
 A compact result may look conceptually like:
 
@@ -3158,9 +3172,9 @@ control_plane_result:
 
 Exact canonical states belong to the individual artifacts.
 
----
+______________________________________________________________________
 
-# 90. High-Stakes Control Plane Result
+## 90. High-Stakes Control Plane Result
 
 For consequential actions, the result should additionally preserve:
 
@@ -3229,9 +3243,9 @@ control_plane_result:
   invalidation_conditions: []
 ```
 
----
+______________________________________________________________________
 
-# 91. README Scope Boundary
+## 91. README Scope Boundary
 
 This README establishes:
 
@@ -3269,9 +3283,9 @@ FINAL CANON PROMOTION
 
 Those require their own evidence.
 
----
+______________________________________________________________________
 
-# 92. Current Repository Contract
+## 92. Current Repository Contract
 
 The Control Plane currently contains the following canonical locations:
 
@@ -3313,9 +3327,9 @@ depending on their own provenance state.
 
 Directory existence does not imply implementation completeness.
 
----
+______________________________________________________________________
 
-# 93. Promotion Boundary
+## 93. Promotion Boundary
 
 This README may replace a placeholder as a substantive candidate artifact.
 
@@ -3344,9 +3358,9 @@ SUPERSESSION RECORD
 AUTHORITATIVE-STATE UPDATE
 ```
 
----
+______________________________________________________________________
 
-# 94. Canonical Compression
+## 94. Canonical Compression
 
 ```text
 AMOS CONTROL PLANE
@@ -3439,9 +3453,9 @@ WEAKEN
 INTEGRITY.
 ```
 
----
+______________________________________________________________________
 
-# 95. Final Contract
+## 95. Final Contract
 
 The Control Plane can be summarized conceptually as:
 
@@ -3525,34 +3539,37 @@ CORRECTNESS OR GOVERNANCE
 FOR SPEED.
 ```
 
-# END — AMOS OS CONTROL PLANE README
+## END — AMOS OS CONTROL PLANE README
 
 ```
 
 This version is aligned to the actual `03_CONTROL_PLANE` tree in `FULL_TREE.md`, including all current subdomains through `12_ROLLBACK`; it does not incorrectly reuse `K_COUNTERFACTUAL`, which belongs under `02_KERNEL/02_COGNITION/`.
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: index_control_plane_readme
 node_type: note
 path: 03_CONTROL_PLANE/00_INDEX/INDEX_CONTROL_PLANE_README.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
+
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
 
 ## Files
 
 - [[03_CONTROL_PLANE/00_INDEX/CONTROL_PLANE_MAP|CONTROL_PLANE_MAP]]
 
----
-**MOC:** [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]]
+______________________________________________________________________
 
+**MOC:** [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]]

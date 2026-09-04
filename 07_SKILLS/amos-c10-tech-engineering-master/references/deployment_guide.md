@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: deployment guide
 type: reference
 source: 07_SKILLS/amos-c10-tech-engineering-master/references
 tags:
-- reference
-- amos-c10-tech-engineering-master
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-c10-tech-engineering-master
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -20,10 +23,11 @@ rscf:
 > Source: `_00_Cosmo brain/specs/DEPLOYMENT_GUIDE.md`
 > Epistemic class: SOURCE_DERIVED
 
----
-tags: [specs]
----
-# AMOS Production Deployment Guide
+______________________________________________________________________
+
+## tags: [specs]
+
+## AMOS Production Deployment Guide
 
 ## Overview
 
@@ -50,6 +54,7 @@ pip3 install numpy scipy scikit-learn aiohttp psutil
 ### System Commands
 
 Ensure these system commands are available:
+
 - `python3`
 - `pip3`
 - `chmod`
@@ -81,12 +86,14 @@ python3 /Users/trangphan/AMOS/01_BRAIN/deploy_amos_production.py status
 ### Step 1: Repository Preparation
 
 1. **Clone/Update Repository**
+
    ```bash
    cd /path/to/amos
    git pull origin main
    ```
 
-2. **Verify Repository Structure**
+1. **Verify Repository Structure**
+
    ```bash
    ls -la 01_BRAIN/
    ls -la 01_KERNEL/
@@ -96,12 +103,14 @@ python3 /Users/trangphan/AMOS/01_BRAIN/deploy_amos_production.py status
 ### Step 2: Environment Setup
 
 1. **Create AMOS User (Optional)**
+
    ```bash
    sudo useradd -r -s /bin/false amos
    sudo usermod -L amos
    ```
 
-2. **Set Permissions**
+1. **Set Permissions**
+
    ```bash
    sudo chown -R $USER:$USER /path/to/amos
    chmod 755 /path/to/amos
@@ -111,12 +120,14 @@ python3 /Users/trangphan/AMOS/01_BRAIN/deploy_amos_production.py status
 
 1. **Production Configuration**
    The deployment script automatically creates production configuration at:
+
    ```
    ~/.amos/config/production_config.json
    ```
 
-2. **Custom Configuration**
+1. **Custom Configuration**
    Edit the configuration file to customize:
+
    - Scan intervals
    - Threat thresholds
    - Cache settings
@@ -127,18 +138,21 @@ python3 /Users/trangphan/AMOS/01_BRAIN/deploy_amos_production.py status
 #### Option A: Systemd Service (Recommended)
 
 1. **Create Service File**
+
    ```bash
    python3 /Users/trangphan/AMOS/01_BRAIN/deploy_amos_production.py deploy
    ```
 
-2. **Enable and Start Service**
+1. **Enable and Start Service**
+
    ```bash
    sudo systemctl daemon-reload
    sudo systemctl enable amos
    sudo systemctl start amos
    ```
 
-3. **Check Service Status**
+1. **Check Service Status**
+
    ```bash
    sudo systemctl status amos
    ```
@@ -146,11 +160,13 @@ python3 /Users/trangphan/AMOS/01_BRAIN/deploy_amos_production.py status
 #### Option B: Manual Process
 
 1. **Start Service Manually**
+
    ```bash
    python3 /Users/trangphan/AMOS/01_BRAIN/deploy_amos_production.py start
    ```
 
-2. **Check Process**
+1. **Check Process**
+
    ```bash
    ps aux | grep amos_integrated_system
    ```
@@ -159,17 +175,20 @@ python3 /Users/trangphan/AMOS/01_BRAIN/deploy_amos_production.py status
 
 1. **Log Monitoring**
    Logs are written to:
+
    ```
    ~/.amos/logs/amos_production.log
    ```
 
-2. **Health Checks**
+1. **Health Checks**
+
    ```bash
    python3 /Users/trangphan/AMOS/01_BRAIN/deploy_amos_production.py health
    ```
 
-3. **Audit Files**
+1. **Audit Files**
    Audit reports are generated in:
+
    ```
    17_OS/audits/
    ```
@@ -218,17 +237,19 @@ python3 /Users/trangphan/AMOS/01_BRAIN/deploy_amos_production.py status
 
 ### Key Parameters
 
-| Parameter | Description | Default | Recommended |
-|------------|-------------|---------|-------------|
-| `scan_interval` | Repositor
+| Parameter       | Description | Default | Recommended |
+| --------------- | ----------- | ------- | ----------- |
+| `scan_interval` | Repositor   |         |             |
 
----
+______________________________________________________________________
+
 **MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -236,13 +257,14 @@ python3 /Users/trangphan/AMOS/01_BRAIN/deploy_amos_production.py status
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-c10-tech-engineering-master-deployment-guide
 node_type: reference
 path: 07_SKILLS/amos-c10-tech-engineering-master/references/deployment_guide.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC
-

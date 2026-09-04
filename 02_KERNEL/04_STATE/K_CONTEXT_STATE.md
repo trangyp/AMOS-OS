@@ -16,58 +16,67 @@ domain: context-state
 scope: AMOS_OS
 updated: 2026-08-26
 tags:
-- amos-os
-- kernel
-- core
-- canon-group/tech-ai
-- canon/model
-- kernel/context
-- kernel/context-state
-- kernel/state
-- kernel/dependency
-- kernel/provenance
-- kernel/scope
-- kernel/regime
-- kernel/freshness
-- kernel/invalidation
-- kernel/concurrency
-- kernel/validation
-- rscf/context
-- rscf/state/model
-- topic/context-state
-- topic/state-management
-- topic/dependency-closure
-- k-structural-reasoning
-- k-causal-closure
-- k-causal-epoch
-- k-causal-hierarchy
-- k-counterfactual
-- k-multi-hypothesis
-- k-metacognition
-- readme
-- architecture
-- authoritative-state
-- amos-core-laws
-- law-hierarchy
-- canon-provenance
-- source-lineage
-- k-core19-logic
-- k-meta-logic
+  - amos-os
+  - kernel
+  - core
+  - canon-group/tech-ai
+  - canon/model
+  - kernel/context
+  - kernel/context-state
+  - kernel/state
+  - kernel/dependency
+  - kernel/provenance
+  - kernel/scope
+  - kernel/regime
+  - kernel/freshness
+  - kernel/invalidation
+  - kernel/concurrency
+  - kernel/validation
+  - rscf/context
+  - rscf/state/model
+  - topic/context-state
+  - topic/state-management
+  - topic/dependency-closure
+  - k-structural-reasoning
+  - k-causal-closure
+  - k-causal-epoch
+  - k-causal-hierarchy
+  - k-counterfactual
+  - k-multi-hypothesis
+  - k-metacognition
+  - readme
+  - architecture
+  - authoritative-state
+  - amos-core-laws
+  - law-hierarchy
+  - canon-provenance
+  - source-lineage
+  - k-core19-logic
+  - k-meta-logic
 aliases:
-- AMOS Context State Kernel - Context State Kernel - K Context State - K_CONTEXT_STATE
+  - AMOS Context State Kernel - Context State Kernel - K Context State - K_CONTEXT_STATE
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 # K CONTEXT STATE
+
 > **AMOS Core target:** `v4.4`
 > **Origin architect / steward:** Trang Phan
 > **Plane:** `02_KERNEL`
 > **Status:** `AMOS_MODEL`
 > **Conclusion class:** `AMOS_MODEL`
+
 ## Purpose
+
 `K_CONTEXT_STATE` defines the kernel-level model for representing, reading, updating, validating, and invalidating the bounded context used by AMOS reasoning and execution.
 Context is not an untyped container of information.
 It is a governed state projection containing only the information relevant to a bounded reasoning or execution scope.
 The central distinction is:
+
 ```text
 CONTEXT != GLOBAL STATE
 CONTEXT != MEMORY
@@ -76,16 +85,10 @@ CONTEXT != CANON
 CONTEXT != AUTHORITY
 CONTEXT != PROVENANCE
 ```
-Context may reference all of these, but it does not replace them.
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
----
 
+## Context may reference all of these, but it does not replace them. rscf: state: DERIVED claim_class: DERIVED provenance: AMOS_corpus scope: AMOS_general
 
-# 1. Core Definition
+## 1. Core Definition
 
 For an operation `O`, define its effective context:
 
@@ -119,9 +122,9 @@ THAT CAN MATERIALLY
 CHANGE THE RESULT
 ```
 
----
+______________________________________________________________________
 
-# 2. Context State Model
+## 2. Context State Model
 
 A context state may conceptually contain:
 
@@ -171,9 +174,9 @@ This schema is architectural.
 
 It does not assert that every field is currently implemented.
 
----
+______________________________________________________________________
 
-# 3. Context Identity
+## 3. Context Identity
 
 Every consequential context should possess a distinguishable identity.
 
@@ -197,9 +200,9 @@ POLICY_EPOCH
 
 These identifiers may be related but represent different semantic dimensions.
 
----
+______________________________________________________________________
 
-# 4. Context Boundary
+## 4. Context Boundary
 
 Every context requires an applicability boundary.
 
@@ -228,9 +231,9 @@ VALID(CLAIM | C2)
 
 unless compatibility is established.
 
----
+______________________________________________________________________
 
-# 5. Context Projection
+## 5. Context Projection
 
 AMOS should avoid indiscriminately loading all available information.
 
@@ -254,9 +257,9 @@ CONTEXT PROJECTION
 
 The result should contain the smallest sufficient proof state.
 
----
+______________________________________________________________________
 
-# 6. Context Completeness
+## 6. Context Completeness
 
 Context does not need to be globally complete.
 
@@ -278,9 +281,9 @@ LOCAL COMPLETENESS
 GLOBAL COMPLETENESS
 ```
 
----
+______________________________________________________________________
 
-# 7. Dependency Closure
+## 7. Dependency Closure
 
 For operation `O`:
 
@@ -309,9 +312,9 @@ UNKNOWN/GAP
 
 unless a valid alternate proof path removes that dependency.
 
----
+______________________________________________________________________
 
-# 8. Context Minimality
+## 8. Context Minimality
 
 AMOS v4.4 favors the smallest sufficient proof scope.
 
@@ -336,9 +339,9 @@ Minimality is an efficiency property.
 
 It must never weaken integrity.
 
----
+______________________________________________________________________
 
-# 9. Context Expansion
+## 9. Context Expansion
 
 A context should expand only when new information can materially change:
 
@@ -364,9 +367,9 @@ STOP
 
 This is a reasoning principle, not a required literal numerical calculation.
 
----
+______________________________________________________________________
 
-# 10. Context Contraction
+## 10. Context Contraction
 
 Once a branch or dependency is shown irrelevant:
 
@@ -384,9 +387,9 @@ AUDITABILITY
 
 Historical evidence may remain persisted even when no longer active.
 
----
+______________________________________________________________________
 
-# 11. Active vs Persistent Context
+## 11. Active vs Persistent Context
 
 Distinguish:
 
@@ -418,9 +421,9 @@ Therefore:
 ACTIVE != PERSISTED
 ```
 
----
+______________________________________________________________________
 
-# 12. Context vs Memory
+## 12. Context vs Memory
 
 Memory stores retained information.
 
@@ -452,9 +455,9 @@ CONFLICT
 
 checks where material.
 
----
+______________________________________________________________________
 
-# 13. Context vs Knowledge
+## 13. Context vs Knowledge
 
 Knowledge contains claims, evidence, models, RSCFs, and related structures.
 
@@ -475,9 +478,9 @@ KNOWN SOMEWHERE
 VALID HERE
 ```
 
----
+______________________________________________________________________
 
-# 14. Context vs State
+## 14. Context vs State
 
 Persistent state records system conditions.
 
@@ -499,9 +502,9 @@ AUTHORITATIVE STATE
 
 unless explicitly bound to the authoritative state version.
 
----
+______________________________________________________________________
 
-# 15. Context vs Canon
+## 15. Context vs Canon
 
 Canon defines authoritative laws and definitions.
 
@@ -517,9 +520,9 @@ CANON MUTATION
 
 Any canon change must pass the relevant provenance, governance, and supersession process.
 
----
+______________________________________________________________________
 
-# 16. Context vs Authority
+## 16. Context vs Authority
 
 Possessing information does not create authority.
 
@@ -539,9 +542,9 @@ DECISION MAY COMMIT
 
 Authority remains explicitly governed.
 
----
+______________________________________________________________________
 
-# 17. Context vs Capability
+## 17. Context vs Capability
 
 A context may expose capabilities available to an agent or workflow.
 
@@ -561,9 +564,9 @@ AUTHORIZED ACTION
 
 This firewall is mandatory.
 
----
+______________________________________________________________________
 
-# 18. Context vs Provenance
+## 18. Context vs Provenance
 
 Context may contain evidence.
 
@@ -586,9 +589,9 @@ REGIME
 
 where material.
 
----
+______________________________________________________________________
 
-# 19. Typed Context Elements
+## 19. Typed Context Elements
 
 Context entries should be typed rather than flattened into generic facts.
 
@@ -616,9 +619,9 @@ ERROR
 
 Typing prevents epistemic collapse.
 
----
+______________________________________________________________________
 
-# 20. Context Claim State
+## 20. Context Claim State
 
 A context claim should conceptually preserve:
 
@@ -639,9 +642,9 @@ claim:
 
 A claim's presence in context does not upgrade its conclusion class.
 
----
+______________________________________________________________________
 
-# 21. Context Inheritance
+## 21. Context Inheritance
 
 Child contexts may inherit state from parent contexts.
 
@@ -666,9 +669,9 @@ AUTHORITY
 DEPENDENCY GRAPH
 ```
 
----
+______________________________________________________________________
 
-# 22. Inheritance Firewall
+## 22. Inheritance Firewall
 
 ```text
 VALID IN PARENT
@@ -688,9 +691,9 @@ CHILD AUTHORITY
 
 unless explicitly delegated.
 
----
+______________________________________________________________________
 
-# 23. Context Fork
+## 23. Context Fork
 
 When incompatible reasoning branches must coexist:
 
@@ -713,9 +716,9 @@ CONCLUSIONS
 
 specific to that branch.
 
----
+______________________________________________________________________
 
-# 24. Context Merge
+## 24. Context Merge
 
 Contexts may merge only when their relevant state is compatible.
 
@@ -740,9 +743,9 @@ AUTHORITY
 
 Unresolved contradiction must survive the merge.
 
----
+______________________________________________________________________
 
-# 25. Merge Firewall
+## 25. Merge Firewall
 
 ```text
 MERGE
@@ -766,9 +769,9 @@ MERGED STATE = COMPETING
 
 not fabricated convergence.
 
----
+______________________________________________________________________
 
-# 26. Context Conflict
+## 26. Context Conflict
 
 A conflict exists when two active elements cannot simultaneously satisfy the required semantics.
 
@@ -786,9 +789,9 @@ DEPENDENCY CONFLICT
 
 Conflicts should be typed.
 
----
+______________________________________________________________________
 
-# 27. Conflict Resolution
+## 27. Conflict Resolution
 
 Resolution may occur through:
 
@@ -814,9 +817,9 @@ or:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 28. Context Freshness
+## 28. Context Freshness
 
 Context elements have bounded temporal validity.
 
@@ -830,9 +833,9 @@ must hold where freshness is load-bearing.
 
 A stale premise must not remain silently active.
 
----
+______________________________________________________________________
 
-# 29. Freshness Firewall
+## 29. Freshness Firewall
 
 ```text
 WAS TRUE
@@ -850,9 +853,9 @@ CURRENTLY VALID CONTEXT
 
 when time-sensitive dependencies have changed.
 
----
+______________________________________________________________________
 
-# 30. Regime Binding
+## 30. Regime Binding
 
 Context should record the operating regime when conclusions depend upon it.
 
@@ -874,9 +877,9 @@ REGIME SHIFT
 REVALIDATE AFFECTED CONTEXT
 ```
 
----
+______________________________________________________________________
 
-# 31. Scope Binding
+## 31. Scope Binding
 
 Context state should inherit the applicability envelope of load-bearing premises.
 
@@ -895,9 +898,9 @@ ASSUMPTIONS
 
 No silent generalization is permitted.
 
----
+______________________________________________________________________
 
-# 32. Context Validity
+## 32. Context Validity
 
 Conceptually:
 
@@ -914,9 +917,9 @@ DEPENDENCY_CLOSED(C)
 
 Additional governance constraints may apply for execution.
 
----
+______________________________________________________________________
 
-# 33. Context Status
+## 33. Context Status
 
 Recommended states:
 
@@ -933,9 +936,9 @@ UNKNOWN/GAP
 
 These are operational states, distinct from conclusion classes.
 
----
+______________________________________________________________________
 
-# 34. Read Set
+## 34. Read Set
 
 For operation `O`, maintain conceptually:
 
@@ -945,9 +948,9 @@ R(O) = {state read by O}
 
 This permits later validation that load-bearing state did not change before a consequential commit.
 
----
+______________________________________________________________________
 
-# 35. Write Set
+## 35. Write Set
 
 For operation `O`:
 
@@ -961,9 +964,9 @@ The write set should remain distinguishable from actual committed state.
 WRITE_INTENT != COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 36. Proposal vs Commit
+## 36. Proposal vs Commit
 
 Context may contain proposed changes.
 
@@ -985,9 +988,9 @@ Therefore:
 PROPOSAL != COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 37. Snapshot Semantics
+## 37. Snapshot Semantics
 
 A reasoning operation may operate against a bounded snapshot:
 
@@ -999,9 +1002,9 @@ where `v` identifies the relevant state version.
 
 The result should preserve its dependency on that snapshot when material.
 
----
+______________________________________________________________________
 
-# 38. Snapshot Firewall
+## 38. Snapshot Firewall
 
 A conclusion derived against:
 
@@ -1017,9 +1020,9 @@ S_v2
 
 if load-bearing state changed.
 
----
+______________________________________________________________________
 
-# 39. MVCC Concept
+## 39. MVCC Concept
 
 AMOS v4.4 may use an MVCC-style reasoning concept:
 
@@ -1037,9 +1040,9 @@ This describes an architectural reasoning pattern.
 
 It does not assert literal database MVCC implementation.
 
----
+______________________________________________________________________
 
-# 40. CAS Concept
+## 40. CAS Concept
 
 For consequential mutation:
 
@@ -1062,9 +1065,9 @@ prevents silent overwrite of changed state.
 
 Again, this is a kernel model unless implementation evidence establishes otherwise.
 
----
+______________________________________________________________________
 
-# 41. Atomic Context Reasoning
+## 41. Atomic Context Reasoning
 
 When several RSCFs or state elements form one load-bearing decision:
 
@@ -1082,9 +1085,9 @@ ATOMIC MULTI-RSCF REASONING
 
 does not mean every context requires global locking.
 
----
+______________________________________________________________________
 
-# 42. Local Fast Path
+## 42. Local Fast Path
 
 Local reasoning is permitted when:
 
@@ -1108,9 +1111,9 @@ LOCAL CONCLUSION
 
 may proceed without unnecessary global expansion.
 
----
+______________________________________________________________________
 
-# 43. Escalation Conditions
+## 43. Escalation Conditions
 
 Expand or escalate context when:
 
@@ -1130,9 +1133,9 @@ LOW PROVENANCE CONFIDENCE
 
 The fast path must never bypass these conditions.
 
----
+______________________________________________________________________
 
-# 44. Context and Causal Epoch
+## 44. Context and Causal Epoch
 
 A context may bind to:
 
@@ -1156,9 +1159,9 @@ VALID(C | E1)
 
 after a material causal transition.
 
----
+______________________________________________________________________
 
-# 45. Causal Epoch Finality
+## 45. Causal Epoch Finality
 
 Where a causal epoch has been finalized under the relevant kernel/control-plane contract, context may rely on that finalized epoch within its defined validity boundary.
 
@@ -1173,9 +1176,9 @@ E1 becomes current
 
 with explicit lineage.
 
----
+______________________________________________________________________
 
-# 46. Context and Policy Epoch
+## 46. Context and Policy Epoch
 
 Authorization or governance may depend on:
 
@@ -1185,9 +1188,9 @@ POLICY_EPOCH
 
 A context built under policy `P0` must not silently execute under `P1` when policy changes affect authority.
 
----
+______________________________________________________________________
 
-# 47. Context Provenance Topology
+## 47. Context Provenance Topology
 
 Context should preserve whether multiple supporting elements are actually independent.
 
@@ -1210,9 +1213,9 @@ CONTEXT SIZE
 EVIDENCE INDEPENDENCE
 ```
 
----
+______________________________________________________________________
 
-# 48. Context Sybil Hardening
+## 48. Context Sybil Hardening
 
 Repeated descendants of one origin must not inflate confidence.
 
@@ -1224,9 +1227,9 @@ N INDEPENDENT CONFIRMATIONS
 
 Context assembly should retain ancestry information sufficient to detect this when material.
 
----
+______________________________________________________________________
 
-# 49. Context Confidence Ceiling
+## 49. Context Confidence Ceiling
 
 For conclusion `Q` derived inside context `C`:
 
@@ -1240,9 +1243,9 @@ unless independent revalidation replaces the weaker premise.
 
 Adding unrelated high-confidence context cannot raise the ceiling.
 
----
+______________________________________________________________________
 
-# 50. Context Sensitivity
+## 50. Context Sensitivity
 
 Before expanding context broadly, identify:
 
@@ -1255,9 +1258,9 @@ Retrieve or test that element first.
 
 This minimizes unnecessary context while preserving integrity.
 
----
+______________________________________________________________________
 
-# 51. Context Uncertainty Vector
+## 51. Context Uncertainty Vector
 
 When material, context may track uncertainty separately across:
 
@@ -1273,9 +1276,9 @@ PROVENANCE-INDEPENDENCE
 
 Do not collapse all uncertainty into a single confidence score when the dimensions matter differently.
 
----
+______________________________________________________________________
 
-# 52. Context Gaps
+## 52. Context Gaps
 
 Gaps should be classified:
 
@@ -1290,9 +1293,9 @@ Resolve in that order.
 
 A critical unresolved gap blocks promotion of dependent conclusions.
 
----
+______________________________________________________________________
 
-# 53. Unknown Preservation
+## 53. Unknown Preservation
 
 If a required context value is unavailable:
 
@@ -1316,9 +1319,9 @@ MISSING
 PASS
 ```
 
----
+______________________________________________________________________
 
-# 54. Default Values
+## 54. Default Values
 
 Defaults are permitted only when they are explicitly part of the relevant contract.
 
@@ -1334,9 +1337,9 @@ value:
   scope:
 ```
 
----
+______________________________________________________________________
 
-# 55. Context Mutation
+## 55. Context Mutation
 
 Context mutation should be explicit.
 
@@ -1361,9 +1364,9 @@ INVALIDATED DESCENDANTS
 
 when material.
 
----
+______________________________________________________________________
 
-# 56. Immutable History
+## 56. Immutable History
 
 A newer context state should not erase historical context required for provenance or replay.
 
@@ -1377,9 +1380,9 @@ over silently rewriting `C0`.
 
 This preserves lineage.
 
----
+______________________________________________________________________
 
-# 57. Context Delta
+## 57. Context Delta
 
 A context transition may be represented as:
 
@@ -1398,9 +1401,9 @@ SUPERSEDE
 REVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 58. Selective Invalidation
+## 58. Selective Invalidation
 
 If premise `P` becomes invalid:
 
@@ -1432,9 +1435,9 @@ INVALIDATE R
 PRESERVE S
 ```
 
----
+______________________________________________________________________
 
-# 59. Recovery
+## 59. Recovery
 
 When context becomes invalid:
 
@@ -1454,9 +1457,9 @@ CONTINUE OR RETURN GAP
 
 Do not recompute globally unless necessary.
 
----
+______________________________________________________________________
 
-# 60. Failed Path Rule
+## 60. Failed Path Rule
 
 A failed reasoning path must not simply be repeated.
 
@@ -1475,9 +1478,9 @@ NEW METHOD
 CORRECTED DEPENDENCY
 ```
 
----
+______________________________________________________________________
 
-# 61. Context Replay
+## 61. Context Replay
 
 Persisted context should permit, where required:
 
@@ -1497,9 +1500,9 @@ RECOVERY
 VALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 62. Context Trace
+## 62. Context Trace
 
 A minimal trace may include:
 
@@ -1521,9 +1524,9 @@ Trace is evidence of execution history.
 
 It is not proof that the execution was correct.
 
----
+______________________________________________________________________
 
-# 63. Trace Firewall
+## 63. Trace Firewall
 
 ```text
 TRACE EXISTS
@@ -1541,9 +1544,9 @@ RESULT CORRECT
 
 Validation remains separate.
 
----
+______________________________________________________________________
 
-# 64. Context Authority Envelope
+## 64. Context Authority Envelope
 
 For action-capable contexts:
 
@@ -1560,9 +1563,9 @@ authority_envelope:
 
 This envelope must not be inferred from tool availability.
 
----
+______________________________________________________________________
 
-# 65. Irreversible Action Gate
+## 65. Irreversible Action Gate
 
 Before an irreversible or high-impact action, revalidate:
 
@@ -1577,9 +1580,9 @@ ACTION TARGET
 
 Prefer staged reversible action where uncertainty remains material.
 
----
+______________________________________________________________________
 
-# 66. Context Isolation
+## 66. Context Isolation
 
 Independent operations should not contaminate one another's active state.
 
@@ -1593,9 +1596,9 @@ should remain isolated unless an explicit dependency exists.
 
 This reduces accidental scope leakage.
 
----
+______________________________________________________________________
 
-# 67. Context Leakage
+## 67. Context Leakage
 
 Failure mode:
 
@@ -1615,9 +1618,9 @@ CONTEXT_LEAKAGE
 
 and must fail validation when load-bearing.
 
----
+______________________________________________________________________
 
-# 68. Agent Context
+## 68. Agent Context
 
 An agent receives a bounded working context.
 
@@ -1634,9 +1637,9 @@ within its contract.
 
 It may not infer authority merely because the context exposes information or tools.
 
----
+______________________________________________________________________
 
-# 69. Skill Context
+## 69. Skill Context
 
 A skill should receive only the state required for its reusable procedure.
 
@@ -1648,9 +1651,9 @@ should preserve inputs and dependencies necessary for deterministic or governed 
 
 A skill does not own global state by default.
 
----
+______________________________________________________________________
 
-# 70. Workflow Context
+## 70. Workflow Context
 
 A workflow may coordinate several child contexts:
 
@@ -1663,9 +1666,9 @@ WF_CONTEXT
 
 State passed between steps should be explicit and typed.
 
----
+______________________________________________________________________
 
-# 71. Tool Context
+## 71. Tool Context
 
 Tool invocation context should distinguish:
 
@@ -1680,9 +1683,9 @@ TOOL RESULT VALIDATED
 
 These are separate states.
 
----
+______________________________________________________________________
 
-# 72. Model Context
+## 72. Model Context
 
 Model output must retain its epistemic class.
 
@@ -1702,9 +1705,9 @@ EMPIRICAL VALIDATION
 
 Context assembly must preserve that distinction.
 
----
+______________________________________________________________________
 
-# 73. External State
+## 73. External State
 
 External systems may change independently of AMOS context.
 
@@ -1718,9 +1721,9 @@ must be freshness-bounded.
 
 For consequential actions, refresh when stale external state could change the result.
 
----
+______________________________________________________________________
 
-# 74. Context Canonicalization
+## 74. Context Canonicalization
 
 Equivalent representations may be normalized for comparison.
 
@@ -1737,9 +1740,9 @@ REGIME
 
 Canonical form is not permission to collapse distinct identities.
 
----
+______________________________________________________________________
 
-# 75. Context Hashing
+## 75. Context Hashing
 
 A context implementation may use hashes to identify or compare bounded state.
 
@@ -1762,9 +1765,9 @@ A matching hash proves equality only relative to the hashed representation and a
 
 It does not prove semantic correctness.
 
----
+______________________________________________________________________
 
-# 76. Cache Reuse
+## 76. Cache Reuse
 
 A previous proof/context capsule may be reused only if:
 
@@ -1779,9 +1782,9 @@ NO MATERIAL CONFLICT
 
 Otherwise revalidation is required.
 
----
+______________________________________________________________________
 
-# 77. Context Cache Firewall
+## 77. Context Cache Firewall
 
 ```text
 CACHE HIT
@@ -1791,9 +1794,9 @@ VALID RESULT
 
 Cache identity and semantic validity are separate.
 
----
+______________________________________________________________________
 
-# 78. Context Lifecycle
+## 78. Context Lifecycle
 
 ```text
 CREATE
@@ -1821,9 +1824,9 @@ INVALIDATE
 
 may occur when a load-bearing validity condition fails.
 
----
+______________________________________________________________________
 
-# 79. Context Invariants
+## 79. Context Invariants
 
 ```text
 CS-01
@@ -1902,9 +1905,9 @@ CS-25
 UNKNOWN/GAP MUST NOT BECOME PASS
 ```
 
----
+______________________________________________________________________
 
-# 80. Failure Modes
+## 80. Failure Modes
 
 ```text
 GLOBAL_CONTEXT_LOADING
@@ -1933,9 +1936,9 @@ HISTORICAL_STATE_REWRITE
 UNKNOWN_AS_PASS
 ```
 
----
+______________________________________________________________________
 
-# 81. Conceptual Context Builder
+## 81. Conceptual Context Builder
 
 ```python
 def build_context(operation, available_state):
@@ -1960,9 +1963,9 @@ def build_context(operation, available_state):
 
 This is architectural pseudocode, not a claim of deployed implementation.
 
----
+______________________________________________________________________
 
-# 82. Conceptual Context Validation
+## 82. Conceptual Context Validation
 
 ```python
 def validate_context(context):
@@ -1985,9 +1988,9 @@ def validate_context(context):
     return "INVALID"
 ```
 
----
+______________________________________________________________________
 
-# 83. Conceptual Commit Guard
+## 83. Conceptual Commit Guard
 
 ```python
 def commit(context, proposal):
@@ -2005,9 +2008,9 @@ def commit(context, proposal):
 
 Again, this specifies a reasoning architecture, not verified runtime behavior.
 
----
+______________________________________________________________________
 
-# 84. Relationship to [[02_KERNEL/02_COGNITION/K_STRUCTURAL_REASONING|K_STRUCTURAL_REASONING]]
+## 84. Relationship to [[02_KERNEL/02_COGNITION/K_STRUCTURAL_REASONING|K_STRUCTURAL_REASONING]]
 
 `K_STRUCTURAL_REASONING` determines relevant structural relationships.
 
@@ -2021,33 +2024,33 @@ DEPENDENCY ANALYSIS
 CONTEXT PROJECTION
 ```
 
----
+______________________________________________________________________
 
-# 85. Relationship to [[02_KERNEL/03_CAUSAL/K_CAUSAL_CLOSURE|K_CAUSAL_CLOSURE]]
+## 85. Relationship to [[02_KERNEL/03_CAUSAL/K_CAUSAL_CLOSURE|K_CAUSAL_CLOSURE]]
 
 `K_CAUSAL_CLOSURE` determines causal dependencies required for a conclusion.
 
 `K_CONTEXT_STATE` ensures those dependencies are present, validly referenced, or explicitly unresolved.
 
----
+______________________________________________________________________
 
-# 86. Relationship to [[02_KERNEL/03_CAUSAL/K_CAUSAL_EPOCH|K_CAUSAL_EPOCH]]
+## 86. Relationship to [[02_KERNEL/03_CAUSAL/K_CAUSAL_EPOCH|K_CAUSAL_EPOCH]]
 
 `K_CAUSAL_EPOCH` provides temporal/causal validity boundaries.
 
 `K_CONTEXT_STATE` binds active context to the appropriate epoch where required.
 
----
+______________________________________________________________________
 
-# 87. Relationship to [[02_KERNEL/03_CAUSAL/K_CAUSAL_HIERARCHY|K_CAUSAL_HIERARCHY]]
+## 87. Relationship to [[02_KERNEL/03_CAUSAL/K_CAUSAL_HIERARCHY|K_CAUSAL_HIERARCHY]]
 
 `K_CAUSAL_HIERARCHY` determines the permitted causal strength of claims.
 
 `K_CONTEXT_STATE` preserves those causal types when claims enter or move between contexts.
 
----
+______________________________________________________________________
 
-# 88. Relationship to [[02_KERNEL/02_COGNITION/K_COUNTERFACTUAL|K_COUNTERFACTUAL]]
+## 88. Relationship to [[02_KERNEL/02_COGNITION/K_COUNTERFACTUAL|K_COUNTERFACTUAL]]
 
 Counterfactual branches require isolated hypothetical contexts.
 
@@ -2059,9 +2062,9 @@ BASE_CONTEXT
 
 Counterfactual state must never silently overwrite observed state.
 
----
+______________________________________________________________________
 
-# 89. Relationship to [[02_KERNEL/02_COGNITION/K_MULTI_HYPOTHESIS|K_MULTI_HYPOTHESIS]]
+## 89. Relationship to [[02_KERNEL/02_COGNITION/K_MULTI_HYPOTHESIS|K_MULTI_HYPOTHESIS]]
 
 Competing hypotheses may maintain separate contexts until discriminating evidence exists.
 
@@ -2073,9 +2076,9 @@ H3_CONTEXT
 
 AMOS must not force them into a single asserted truth state.
 
----
+______________________________________________________________________
 
-# 90. Relationship to [[02_KERNEL/02_COGNITION/K_METACOGNITION|K_METACOGNITION]]
+## 90. Relationship to [[02_KERNEL/02_COGNITION/K_METACOGNITION|K_METACOGNITION]]
 
 Metacognitive validation should challenge context for:
 
@@ -2091,9 +2094,9 @@ AUTHORITY LEAK
 FALSE COMPLETENESS
 ```
 
----
+______________________________________________________________________
 
-# 91. Relationship to Runtime
+## 91. Relationship to Runtime
 
 The runtime may instantiate and transport context.
 
@@ -2109,9 +2112,9 @@ RUNTIME CONTEXT IMPLEMENTATION
 
 Runtime behavior must conform to the kernel contract rather than redefine it.
 
----
+______________________________________________________________________
 
-# 92. Relationship to Control Plane
+## 92. Relationship to Control Plane
 
 The control plane governs:
 
@@ -2126,9 +2129,9 @@ Context may carry references to these states.
 
 It cannot self-authorize.
 
----
+______________________________________________________________________
 
-# 93. Required Tests
+## 93. Required Tests
 
 Future implementation verification should include:
 
@@ -2158,9 +2161,9 @@ RECOVERY TEST
 REPLAY TEST
 ```
 
----
+______________________________________________________________________
 
-# 94. Negative Tests
+## 94. Negative Tests
 
 ```text
 MEMORY ENTRY EXISTS
@@ -2229,9 +2232,9 @@ PASS
 MUST FAIL
 ```
 
----
+______________________________________________________________________
 
-# 95. Promotion Gate
+## 95. Promotion Gate
 
 Before promotion beyond `AMOS_MODEL`:
 
@@ -2267,9 +2270,9 @@ EMPIRICAL_VALIDATION = UNKNOWN/GAP
 FORMAL_VERIFICATION = UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 96. Integrity Note
+## 96. Integrity Note
 
 This artifact replaces the repository placeholder with an AMOS v4.4-aligned context-state architecture model.
 
@@ -2305,9 +2308,9 @@ FORMAL_VERIFICATION = UNKNOWN/GAP
 RUNTIME_AUTHORITY = NONE
 ```
 
----
+______________________________________________________________________
 
-# 97. RSCF Node
+## 97. RSCF Node
 
 ```RSCF-NODE
 node_id: AMOS-OS-K-CONTEXT-STATE
@@ -2354,9 +2357,9 @@ RSCF-RELATIONS:
   - VERIFIED_BY: README
 ```
 
----
+______________________________________________________________________
 
-# 98. Canonical Summary
+## 98. Canonical Summary
 
 ```text
 DEFINE OBJECTIVE
@@ -2499,12 +2502,14 @@ README
 ```text
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 **MOC:** [[02_KERNEL/04_STATE/04_STATE_MOC|04_STATE_MOC]]

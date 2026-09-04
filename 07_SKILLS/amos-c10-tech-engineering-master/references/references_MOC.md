@@ -1,50 +1,53 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: References MOC — References — Amos C10 Tech Engineering Master
 type: moc
 source: 07_SKILLS/amos-c10-tech-engineering-master/references
 tags:
-- references
-- type/skill
-- 11k-architecture-decision-record
-- architecture-of-architecture
-- automation-engine-layer
-- automation-engine-v1
-- automation-super-engine
-- cloud-platform-kernel
-- coding-engine
-- coding-engine-gpt
-- coding-engine-layer
-- coding-engine-ultra
-- coding-engine-vinfinity
-- cpu-ram-optimization
-- data-engineering-kernel
-- deployment-guide
-- design-kernel
-- fabrication-engine
-- implementation-manifest
-- kernels-tech
-- mechanical-structural-engine-cognitive
-- mechanical-structural-engine-layer
-- ml-engineering-kernel
-- omega-thinking-engine
-- omni-factory-engine
-- super-factory-engine-v2
-- tech-architecture-kernel
-- tech-architecture-model
-- tech-design-engine
-- tech-engine-model
-- tech-engine-unipower
-- tech-engine-vinfinity
-- tech-partner-audit
-- tech-quantum-engine-domains
-- tech-quantum-engine-model
-- tech-super-engine
-- total-technical-engine-model
-- total-technical-engine-universe
-- unix-automated-tools
-- vault-domain-knowledge
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - references
+  - type/skill
+  - 11k-architecture-decision-record
+  - architecture-of-architecture
+  - automation-engine-layer
+  - automation-engine-v1
+  - automation-super-engine
+  - cloud-platform-kernel
+  - coding-engine
+  - coding-engine-gpt
+  - coding-engine-layer
+  - coding-engine-ultra
+  - coding-engine-vinfinity
+  - cpu-ram-optimization
+  - data-engineering-kernel
+  - deployment-guide
+  - design-kernel
+  - fabrication-engine
+  - implementation-manifest
+  - kernels-tech
+  - mechanical-structural-engine-cognitive
+  - mechanical-structural-engine-layer
+  - ml-engineering-kernel
+  - omega-thinking-engine
+  - omni-factory-engine
+  - super-factory-engine-v2
+  - tech-architecture-kernel
+  - tech-architecture-model
+  - tech-design-engine
+  - tech-engine-model
+  - tech-engine-unipower
+  - tech-engine-vinfinity
+  - tech-partner-audit
+  - tech-quantum-engine-domains
+  - tech-quantum-engine-model
+  - tech-super-engine
+  - total-technical-engine-model
+  - total-technical-engine-universe
+  - unix-automated-tools
+  - vault-domain-knowledge
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 moc: true
 rscf:
   state: SOURCE_CLAIM
@@ -101,9 +104,9 @@ rscf:
 - [[07_SKILLS/amos-c10-tech-engineering-master/references/unix_automated_tools|unix_automated_tools]]
 - [[07_SKILLS/amos-c10-tech-engineering-master/references/vault_domain_knowledge|vault_domain_knowledge]]
 
----
-**Parent:** [[07_SKILLS/amos-c10-tech-engineering-master/amos-c10-tech-engineering-master_MOC|amos-c10-tech-engineering-master_MOC]]
----
+______________________________________________________________________
+
+## **Parent:** [[07_SKILLS/amos-c10-tech-engineering-master/amos-c10-tech-engineering-master_MOC|amos-c10-tech-engineering-master_MOC]]
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -111,12 +114,14 @@ rscf:
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-c10-tech-engineering-master-references-MOC
 node_type: reference
 path: 07_SKILLS/amos-c10-tech-engineering-master/references/references_MOC.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

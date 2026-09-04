@@ -1,4 +1,7 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 name: sota
 title: sota
 description: Reference document for amos-mdformat-obsidian
@@ -6,9 +9,9 @@ type: reference
 parent_skill: amos-mdformat-obsidian
 source: 07_SKILLS/amos-mdformat-obsidian/references
 tags:
-- reference
-- sota
-- mdformat-obsidian
+  - reference
+  - sota
+  - mdformat-obsidian
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -45,10 +48,11 @@ A skill's procedure suppresses checks the agent would otherwise perform on its o
 ### Input-Grounded Reasoning
 
 All outputs from this skill MUST be grounded in:
+
 1. **Input data**: The actual data provided, not the skill's assumptions about what data should look like
-2. **User intent**: What the user actually asked for, not what the skill assumes they want
-3. **Observed context**: The real state of the world, not the skill's model of it
-4. **Source evidence**: Vault sources, empirical data, or established math — not the skill's internal logic
+1. **User intent**: What the user actually asked for, not what the skill assumes they want
+1. **Observed context**: The real state of the world, not the skill's model of it
+1. **Source evidence**: Vault sources, empirical data, or established math — not the skill's internal logic
 
 ### Grounding Checks (execute before output)
 
@@ -68,9 +72,9 @@ If any check fails, downgrade confidence and flag as GROUNDING_GAP.
 Before applying this skill's outputs, validate:
 
 1. **Freshness**: Is the source data current? Check `content_hash` and vault modification dates. If source is >90 days old and domain is fast-moving, flag as STALE_SOURCE.
-2. **Ownership**: Is the source owned by a recognized authority? Vault canon (Trang Phan) = SOURCE_CANON. External papers = SOURCE_CLAIM. User-provided = OBSERVATION. Unattributed = UNKNOWN/GAP.
-3. **Certification**: Has the source been validated? Validated sources have `content_hash` matches. Unvalidated sources require independent corroboration (2+ sources) before consolidation.
-4. **Integrity**: Has the source been modified since last validation? If `content_hash` mismatches recomputed hash, flag as INTEGRITY_GAP and trigger revalidation.
+1. **Ownership**: Is the source owned by a recognized authority? Vault canon (Trang Phan) = SOURCE_CANON. External papers = SOURCE_CLAIM. User-provided = OBSERVATION. Unattributed = UNKNOWN/GAP.
+1. **Certification**: Has the source been validated? Validated sources have `content_hash` matches. Unvalidated sources require independent corroboration (2+ sources) before consolidation.
+1. **Integrity**: Has the source been modified since last validation? If `content_hash` mismatches recomputed hash, flag as INTEGRITY_GAP and trigger revalidation.
 
 ### Trustworthiness Decision
 
@@ -115,8 +119,7 @@ eval_contract:
 ### Regression Test Protocol
 
 1. Run paired trials: with-skill vs without-skill
-2. Measure Skill Lift (improvement) and Regression (worsening)
-3. Track 3 regression modes: osmosis, grounding displacement, verification displacement
-4. If regression rate > 10%, flag skill for review
-5. Executor and grader MUST be structurally separated (no self-grading bias)
-
+1. Measure Skill Lift (improvement) and Regression (worsening)
+1. Track 3 regression modes: osmosis, grounding displacement, verification displacement
+1. If regression rate > 10%, flag skill for review
+1. Executor and grader MUST be structurally separated (no self-grading bias)

@@ -1,22 +1,25 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: L00_REALITY_ENVIRONMENT — Provenance
 type: provenance
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT
 tags:
-- amos
-- provenance
-- evidence
-- lineage
-- ancestry
-- sybil-hardening
-- trust
-- reality-environment
-- rscf
-- hml
-- tensors
-- control-plane
-- domain/cognitive-matrix
-- readme
+  - amos
+  - provenance
+  - evidence
+  - lineage
+  - ancestry
+  - sybil-hardening
+  - trust
+  - reality-environment
+  - rscf
+  - hml
+  - tensors
+  - control-plane
+  - domain/cognitive-matrix
+  - readme
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -30,9 +33,9 @@ rscf:
 **Origin architect / steward:** Trang Phan
 **Status:** `ARCHITECTURE CONTRACT / IMPLEMENTATION-DEPENDENT`
 
----
+______________________________________________________________________
 
-# 1. Purpose
+## 1. Purpose
 
 `L00_REALITY_ENVIRONMENT / PROVENANCE` defines the AMOS architecture for preserving the origin, transformation history, ancestry, identity, temporal state, scope, regime, observer context, trust state, and dependency lineage of information as it moves from reality/environment interaction into observation, evidence, reasoning, memory, decisions, and actions.
 
@@ -44,9 +47,9 @@ Provenance is therefore not merely metadata.
 
 It is part of the epistemic and control structure of AMOS.
 
----
+______________________________________________________________________
 
-# 2. Core Provenance Chain
+## 2. Core Provenance Chain
 
 ```text
 REALITY / ENVIRONMENT
@@ -90,16 +93,16 @@ REALITY / ENVIRONMENT
 
 Every transition should preserve the lineage necessary to reconstruct the previous state.
 
----
+______________________________________________________________________
 
-# 3. Provenance Tensor
+## 3. Provenance Tensor
 
 The minimal AMOS provenance tensor is:
 
-[
-\boxed{
+\[
+\\boxed{
 P =
-T[
+T\[
 source,
 root,
 fingerprint,
@@ -107,16 +110,16 @@ parent,
 time,
 regime,
 status
-]
+\]
 }
-]
+\]
 
 For L00 reality-environment operation, the expanded tensor is:
 
-[
-\boxed{
+\[
+\\boxed{
 T_P =
-T[
+T\[
 provenance_id,
 object_id,
 source_id,
@@ -142,20 +145,17 @@ revocation_state,
 license,
 dependencies,
 status
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 4. Provenance State
+## 4. Provenance State
 
 Let provenance state for object (x) be:
 
-[
-\boxed{
-Prov(x)
-=======
+## \[ \\boxed{ Prov(x)
 
 (
 Root_x,
@@ -169,13 +169,13 @@ Observer_x,
 Status_x
 )
 }
-]
+\]
 
 A provenance record is incomplete when one or more load-bearing fields required for the intended use are unknown.
 
----
+______________________________________________________________________
 
-# 5. Provenance Object Classes
+## 5. Provenance Object Classes
 
 AMOS provenance may apply to:
 
@@ -207,16 +207,13 @@ CANON OBJECT
 
 Each class may require different provenance fields.
 
----
+______________________________________________________________________
 
-# 6. Source Identity
+## 6. Source Identity
 
 Every evidence-bearing object should resolve, where possible, to a source identity.
 
-[
-\boxed{
-SourceIdentity(x)
-=================
+## \[ \\boxed{ SourceIdentity(x)
 
 (
 source_id,
@@ -226,7 +223,7 @@ version,
 fingerprint
 )
 }
-]
+\]
 
 A source label alone is insufficient.
 
@@ -234,93 +231,87 @@ A source label alone is insufficient.
 SOURCE NAME != SOURCE IDENTITY
 ```
 
----
+______________________________________________________________________
 
-# 7. Root Identity
+## 7. Root Identity
 
 A root is the earliest provenance object treated as the origin of a lineage for the current reasoning scope.
 
-[
-\boxed{
-Root(x)
-=======
+## \[ \\boxed{ Root(x)
 
 r
-\quad
-\text{such that}
-\quad
-r \leadsto x
+\\quad
+\\text{such that}
+\\quad
+r \\leadsto x
 }
-]
+\]
 
 The root is scope-dependent.
 
 A derivative document may be a local source while still having an upstream provenance root.
 
----
+______________________________________________________________________
 
-# 8. Root Equivalence
+## 8. Root Equivalence
 
 For exact-root identity where fingerprinting assumptions hold:
 
-[
-\boxed{
-SameRoot(i,j)
-=============
+## \[ \\boxed{ SameRoot(i,j)
 
-# Fingerprint(root_i)
+## Fingerprint(root_i)
 
 Fingerprint(root_j)
 }
-]
+\]
 
 This is an identity rule.
 
 It does not imply that every semantic interpretation derived from the root is equivalent.
 
----
+______________________________________________________________________
 
-# 9. Exact-Root Collapse
+## 9. Exact-Root Collapse
 
 If:
 
-[
+\[
 SameRoot(i,j)=TRUE
-]
+\]
 
 then for independent-source counting:
 
-[
-\boxed{
+\[
+\\boxed{
 RootCount(i,j)=1
 }
-]
+\]
 
 Multiple copies, aliases, mirrors, renamed files, or exact-root descendants do not automatically create multiple independent sources.
 
----
+______________________________________________________________________
 
-# 10. Alias Resolution
+## 10. Alias Resolution
 
 Let:
 
-[
+\[
 Alias(a,r)=1
-]
+\]
 
 mean alias (a) resolves to provenance root (r).
 
 Then:
 
-[
-\boxed{
+\[
+\\boxed{
 Alias(a_1,r)
-\land
+\\land
 Alias(a_2,r)
-\Rightarrow
+\\Rightarrow
 SameProvenanceFamily(a_1,a_2)
 }
-]
+\]
 
 Hard boundary:
 
@@ -328,54 +319,54 @@ Hard boundary:
 MULTIPLE ALIASES != MULTIPLE SOURCES
 ```
 
----
+______________________________________________________________________
 
-# 11. Paraphrase Invariant
+## 11. Paraphrase Invariant
 
 A paraphrase does not create independent provenance.
 
-[
-\boxed{
+\[
+\\boxed{
 DerivedByParaphrase(x,y)
-\Rightarrow
+\\Rightarrow
 Root(x)=Root(y)
 }
-]
+\]
 
 unless the paraphrased object independently introduces evidence from provenance-distinct sources.
 
----
+______________________________________________________________________
 
-# 12. Repetition Invariant
+## 12. Repetition Invariant
 
-[
-\boxed{
+\[
+\\boxed{
 Repeated(x,n)
-\not\Rightarrow
+\\not\\Rightarrow
 IndependentSupport(x,n)
 }
-]
+\]
 
 Repetition can increase visibility.
 
 It cannot by itself increase independent evidential authority.
 
----
+______________________________________________________________________
 
-# 13. Provenance Graph
+## 13. Provenance Graph
 
 Represent provenance as a directed graph:
 
-[
-\boxed{
+\[
+\\boxed{
 G_P=(V_P,E_P)
 }
-]
+\]
 
 where:
 
-- \(V_P\) = provenance-bearing objects;
-- \(E_P\) = lineage relations.
+- (V_P) = provenance-bearing objects;
+- (E_P) = lineage relations.
 
 Typical edges:
 
@@ -400,16 +391,13 @@ GENERATED_FROM
 COMMITTED_FROM
 ```
 
----
+______________________________________________________________________
 
-# 14. Provenance Relation Tensor
+## 14. Provenance Relation Tensor
 
-[
-\boxed{
-R^P_{ij}
-========
+## \[ \\boxed{ R^P\_{ij}
 
-T[
+T\[
 source_i,
 source_j,
 relation_type,
@@ -421,77 +409,71 @@ scope,
 transformation,
 independence,
 confidence
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 15. Ancestry
+## 15. Ancestry
 
 For object (x):
 
-[
-\boxed{
+\[
+\\boxed{
 A(x)=
-{a \mid a \leadsto x}
+{a \\mid a \\leadsto x}
 }
-]
+\]
 
-where (a \leadsto x) means that (a) is an ancestor of (x).
+where (a \\leadsto x) means that (a) is an ancestor of (x).
 
 Ancestry must preserve load-bearing upstream evidence where required for claim validation.
 
----
+______________________________________________________________________
 
-# 16. Shared Ancestry
+## 16. Shared Ancestry
 
 For evidence objects (i,j):
 
-[
-\boxed{
-O_{ij}
-======
+## \[ \\boxed{ O\_{ij}
 
 SharedLoadBearingAncestors(i,j)
 }
-]
+\]
 
 A non-empty shared load-bearing ancestry set indicates potential correlation.
 
----
+______________________________________________________________________
 
-# 17. Ancestry Overlap Ratio
+## 17. Ancestry Overlap Ratio
 
 An AMOS MODEL diagnostic may define:
 
-[
-\boxed{
-AO_{ij}
-=======
+## \[ \\boxed{ AO\_{ij}
 
-\frac{
-|A_i \cap A_j|
+\\frac{
+|A_i \\cap A_j|
 }{
-|A_i \cup A_j|
+|A_i \\cup A_j|
 }
 }
-]
+\]
 
 This is a structural overlap measure.
 
 It is not automatically a statistical dependence coefficient.
 
----
+______________________________________________________________________
 
-# 18. Independence State
+## 18. Independence State
 
 Evidence independence is typed:
 
-[
-\boxed{
-I_{ij}
-\in
+\[
+\\boxed{
+I\_{ij}
+\\in
 {
 INDEPENDENT,
 PARTIAL,
@@ -500,20 +482,20 @@ SAME_ROOT,
 UNKNOWN
 }
 }
-]
+\]
 
 Independence must be demonstrated.
 
 It must not be assumed from superficial source differences.
 
----
+______________________________________________________________________
 
-# 19. Independence Tensor
+## 19. Independence Tensor
 
-[
-\boxed{
+\[
+\\boxed{
 T_I =
-T[
+T\[
 evidence_i,
 evidence_j,
 root_i,
@@ -526,13 +508,13 @@ shared_institution,
 shared_pipeline,
 independence_class,
 confidence
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 20. Independence Invariant
+## 20. Independence Invariant
 
 ```text
 DIFFERENT URLS != INDEPENDENT
@@ -550,121 +532,115 @@ DIFFERENT SUMMARIES != INDEPENDENT
 
 Independence depends on ancestry and load-bearing information paths.
 
----
+______________________________________________________________________
 
-# 21. Effective Corroboration
+## 21. Effective Corroboration
 
-Let (R_L(C)) be the distinct load-bearing provenance roots supporting claim \(C\).
+Let (R_L(C)) be the distinct load-bearing provenance roots supporting claim (C).
 
 Then:
 
-[
-\boxed{
-Support_{eff}\(C\)
-\leq
+\[
+\\boxed{
+Support\_{eff}(C)
+\\leq
 |R_L(C)|
 }
-]
+\]
 
 Repeated descendants of the same root do not increase the number of independent provenance families.
 
----
+______________________________________________________________________
 
-# 22. Provenance-Adjusted Confidence
+## 22. Provenance-Adjusted Confidence
 
 AMOS confidence must respect provenance quality.
 
-[
-\boxed{
+\[
+\\boxed{
 Conf(C)
-\leq
-\min(
+\\leq
+\\min(
 PremiseCeiling,
 IndependenceCeiling,
 ScopeCeiling
 )
 }
-]
+\]
 
 The broader AMOS confidence invariant remains:
 
-[
-\boxed{
+\[
+\\boxed{
 Conf(C)
-\leq
-\min_i Conf(P_i)
+\\leq
+\\min_i Conf(P_i)
 }
-]
+\]
 
 for unresolved load-bearing premises unless a weak premise is independently revalidated through a provenance-distinct path.
 
----
+______________________________________________________________________
 
-# 23. Unknown Ancestry Ceiling
+## 23. Unknown Ancestry Ceiling
 
 If the ancestry of decisive evidence cannot be established:
 
-[
-\boxed{
+\[
+\\boxed{
 Ancestry(E)=UNKNOWN
-\Rightarrow
+\\Rightarrow
 Conf(C)
-\leq
-Ceiling_{unknown_ancestry}
+\\leq
+Ceiling\_{unknown_ancestry}
 }
-]
+\]
 
 The exact ceiling is application- and governance-dependent.
 
----
+______________________________________________________________________
 
-# 24. Provenance Preservation Law
+## 24. Provenance Preservation Law
 
 For transformation:
 
-[
+\[
 x
-\xrightarrow{f}
+\\xrightarrow{f}
 y
-]
+\]
 
 the output provenance must include the input provenance:
 
-[
-\boxed{
+\[
+\\boxed{
 Prov(y)
-\supseteq
+\\supseteq
 RequiredProv(x)
 }
-]
+\]
 
 plus the transformation record:
 
-[
-\boxed{
-Prov(y)
-=======
+## \[ \\boxed{ Prov(y)
 
 RequiredProv(x)
-\cup
+\\cup
 Prov(f)
 }
-]
+\]
 
 where `RequiredProv` means the lineage required for downstream validity, not necessarily every byte of upstream metadata.
 
----
+______________________________________________________________________
 
-# 25. Transformation Record
+## 25. Transformation Record
 
 Every material transformation should record:
 
-[
-\boxed{
-T_{TR}
-======
+## \[ \\boxed{ T\_{TR}
 
-T[
+T\[
 transformation_id,
 operator,
 input_ids,
@@ -677,9 +653,9 @@ timestamp,
 environment,
 loss_class,
 provenance
-]
+\]
 }
-]
+\]
 
 Examples:
 
@@ -698,29 +674,26 @@ MANUAL EDIT
 FORMAT CONVERSION
 ```
 
----
+______________________________________________________________________
 
-# 26. Transformation Loss
+## 26. Transformation Loss
 
 Transformation may lose information.
 
 Define:
 
-[
-\boxed{
-L_T
-===
+## \[ \\boxed{ L_T
 
-T[
+T\[
 semantic_loss,
 scope_loss,
 temporal_loss,
 provenance_loss,
 resolution_loss,
 uncertainty_loss
-]
+\]
 }
-]
+\]
 
 Hard invariant:
 
@@ -730,19 +703,19 @@ TRANSFORMATION != LOSSLESS
 
 unless losslessness has been established for the relevant properties.
 
----
+______________________________________________________________________
 
-# 27. Compression Invariant
+## 27. Compression Invariant
 
 No compressed representation may discard load-bearing provenance required to evaluate its claims.
 
-[
-\boxed{
+\[
+\\boxed{
 Compress(x)
-\Rightarrow
+\\Rightarrow
 Preserve(LoadBearingProv(x))
 }
-]
+\]
 
 Hard boundary:
 
@@ -750,18 +723,15 @@ Hard boundary:
 SHORTER REPRESENTATION != SAFE REPRESENTATION
 ```
 
----
+______________________________________________________________________
 
-# 28. Observation Provenance
+## 28. Observation Provenance
 
 Observation provenance should distinguish:
 
-[
-\boxed{
-T_{OP}
-======
+## \[ \\boxed{ T\_{OP}
 
-T[
+T\[
 target,
 observer,
 sensor,
@@ -773,9 +743,9 @@ resolution,
 measurement,
 uncertainty,
 source
-]
+\]
 }
-]
+\]
 
 Hard boundary:
 
@@ -783,18 +753,15 @@ Hard boundary:
 OBSERVATION != REALITY
 ```
 
----
+______________________________________________________________________
 
-# 29. Observer Provenance
+## 29. Observer Provenance
 
 Evidence may depend on who or what observed it.
 
-[
-\boxed{
-Prov_{observer}
-===============
+## \[ \\boxed{ Prov\_{observer}
 
-T[
+T\[
 observer_id,
 observer_type,
 capability,
@@ -804,15 +771,15 @@ access,
 conditions,
 bias_risk,
 timestamp
-]
+\]
 }
-]
+\]
 
 Observer context must not disappear when it can materially alter interpretation.
 
----
+______________________________________________________________________
 
-# 30. Temporal Provenance
+## 30. Temporal Provenance
 
 AMOS distinguishes:
 
@@ -829,66 +796,57 @@ COMMIT TIME
 
 These times must not be silently collapsed.
 
----
+______________________________________________________________________
 
-# 31. Temporal Provenance Tensor
+## 31. Temporal Provenance Tensor
 
-[
-\boxed{
-T_{TP}
-======
+## \[ \\boxed{ T\_{TP}
 
-T[
+T\[
 event_time,
 observation_time,
 ingestion_time,
 validation_time,
 decision_time,
 commit_time
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 32. Freshness
+## 32. Freshness
 
 Freshness is claim-relative:
 
-[
-\boxed{
-Fresh(E,C,t)
-============
+## \[ \\boxed{ Fresh(E,C,t)
 
 ValidTemporalEnvelope(E,C,t)
 }
-]
+\]
 
 A simple implementation may use:
 
-[
-\boxed{
-Fresh(E,t)
-==========
+## \[ \\boxed{ Fresh(E,t)
 
 Age(E,t)
-\leq
+\\leq
 TTL(E,C,R)
 }
-]
+\]
 
-where a TTL has been defined for claim \(C\) under regime \(R\).
+where a TTL has been defined for claim (C) under regime (R).
 
----
+______________________________________________________________________
 
-# 33. Scope Provenance
+## 33. Scope Provenance
 
 Every consequential evidence object should preserve its applicability scope.
 
-[
-\boxed{
+\[
+\\boxed{
 S_E =
-[
+\[
 domain,
 system,
 population,
@@ -897,9 +855,9 @@ scale,
 observer,
 measurement,
 assumptions
-]
+\]
 }
-]
+\]
 
 Hard invariant:
 
@@ -911,37 +869,37 @@ COMPLETE EVIDENCE LINEAGE
 
 when scope affects reuse.
 
----
+______________________________________________________________________
 
-# 34. Regime Provenance
+## 34. Regime Provenance
 
-[
-\boxed{
+\[
+\\boxed{
 R_E =
-T[
+T\[
 regime_id,
 regime_class,
 start,
 end,
 conditions,
 assumptions
-]
+\]
 }
-]
+\]
 
 Evidence cannot silently cross regimes.
 
-[
-\boxed{
+\[
+\\boxed{
 Reuse(E,R')
-\Rightarrow
+\\Rightarrow
 Compatible(R_E,R')
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 35. H/M/L Provenance
+## 35. H/M/L Provenance
 
 ## H — Governing Provenance
 
@@ -979,16 +937,13 @@ Tracks:
 - transformations;
 - claim-support edges.
 
----
+______________________________________________________________________
 
-# 36. H/M/L Provenance Tensor
+## 36. H/M/L Provenance Tensor
 
-[
-\boxed{
-T_{HML-P}
-=========
+## \[ \\boxed{ T\_{HML-P}
 
-T[
+T\[
 object,
 HML_scale,
 parent,
@@ -1001,13 +956,13 @@ scope,
 regime,
 time,
 status
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 37. Cross-Scale Provenance Invariant
+## 37. Cross-Scale Provenance Invariant
 
 ```text
 L-LEVEL SOURCE
@@ -1025,14 +980,14 @@ GLOBAL VALIDATION
 
 Promotion across scale requires an explicit aggregation or validation path.
 
----
+______________________________________________________________________
 
-# 38. Evidence Provenance Tensor
+## 38. Evidence Provenance Tensor
 
-[
-\boxed{
+\[
+\\boxed{
 T_E =
-T[
+T\[
 evidence_id,
 source_id,
 source_type,
@@ -1045,18 +1000,15 @@ measurement,
 quality,
 independence,
 revocation_state
-]
+\]
 }
-]
+\]
 
 Expanded:
 
-[
-\boxed{
-T_E^+
-=====
+## \[ \\boxed{ T_E^+
 
-T[
+T\[
 evidence_id,
 root,
 source,
@@ -1077,20 +1029,17 @@ independence_group,
 freshness,
 revocation,
 license
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 39. Claim Provenance
+## 39. Claim Provenance
 
 A claim must preserve its supporting lineage.
 
-[
-\boxed{
-Prov(C)
-=======
+## \[ \\boxed{ Prov(C)
 
 {
 Premises(C),
@@ -1102,18 +1051,15 @@ Regime(C),
 Time(C)
 }
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 40. Claim Provenance Tensor
+## 40. Claim Provenance Tensor
 
-[
-\boxed{
-T_{CP}
-======
+## \[ \\boxed{ T\_{CP}
 
-T[
+T\[
 claim_id,
 premise_ids,
 evidence_ids,
@@ -1125,18 +1071,18 @@ regime,
 freshness,
 falsifiers,
 confidence_ceiling
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 41. RSCF Node
+## 41. RSCF Node
 
 AMOS provenance integrates directly with RSCF.
 
-[
-\boxed{
+\[
+\\boxed{
 N =
 (
 id,
@@ -1153,14 +1099,14 @@ falsifier,
 status
 )
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 42. RSCF Edge
+## 42. RSCF Edge
 
-[
-\boxed{
+\[
+\\boxed{
 E =
 (
 parent,
@@ -1171,13 +1117,13 @@ independence,
 condition
 )
 }
-]
+\]
 
 Provenance determines whether apparently separate RSCF evidence paths are actually independent.
 
----
+______________________________________________________________________
 
-# 43. RSCF Provenance Capsule
+## 43. RSCF Provenance Capsule
 
 ```yaml
 rscf_provenance:
@@ -1217,9 +1163,9 @@ rscf_provenance:
   status:
 ```
 
----
+______________________________________________________________________
 
-# 44. Source Claim vs Observation
+## 44. Source Claim vs Observation
 
 AMOS preserves epistemic type:
 
@@ -1231,9 +1177,9 @@ OBSERVATION
 
 A document saying that an event occurred is not identical to direct observation of the event.
 
----
+______________________________________________________________________
 
-# 45. Source Claim vs Verified Claim
+## 45. Source Claim vs Verified Claim
 
 ```text
 SOURCE_CLAIM
@@ -1243,9 +1189,9 @@ VERIFIED
 
 A README, paper, report, specification, model card, benchmark claim, or architecture document remains a source claim until the relevant validation path supports stronger status.
 
----
+______________________________________________________________________
 
-# 46. Canon Provenance
+## 46. Canon Provenance
 
 Canon material should preserve:
 
@@ -1277,9 +1223,9 @@ SOURCE CANON
 EMPIRICAL VALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 47. AMOS Model Provenance
+## 47. AMOS Model Provenance
 
 AMOS-derived formalization should be distinguishable from source-derived canon.
 
@@ -1309,18 +1255,15 @@ AMOS_MODEL != SOURCE_CANON
 
 unless explicitly supported by source provenance.
 
----
+______________________________________________________________________
 
-# 48. AI Output Provenance
+## 48. AI Output Provenance
 
 AI-generated output must retain:
 
-[
-\boxed{
-T_{AI-P}
-========
+## \[ \\boxed{ T\_{AI-P}
 
-T[
+T\[
 model_identity,
 model_version,
 prompt_context,
@@ -1331,15 +1274,15 @@ generation_time,
 transformations,
 human_edits,
 output_id
-]
+\]
 }
-]
+\]
 
 where available and appropriate.
 
----
+______________________________________________________________________
 
-# 49. AI Output Boundary
+## 49. AI Output Boundary
 
 ```text
 AI OUTPUT != PRIMARY EVIDENCE
@@ -1353,9 +1296,9 @@ AI CONSENSUS != INDEPENDENT CORROBORATION
 
 unless the AI output itself is the object being studied.
 
----
+______________________________________________________________________
 
-# 50. Recursive AI Provenance
+## 50. Recursive AI Provenance
 
 A dangerous provenance loop is:
 
@@ -1377,25 +1320,25 @@ AI OUTPUT
 
 If the original ancestry is lost, the second model may falsely treat its own lineage as external corroboration.
 
----
+______________________________________________________________________
 
-# 51. Recursive Contamination Invariant
+## 51. Recursive Contamination Invariant
 
-[
-\boxed{
+\[
+\\boxed{
 AIderived(x)
-\land
+\\land
 Descendant(y,x)
-\Rightarrow
+\\Rightarrow
 Independent(y,x)=FALSE
 }
-]
+\]
 
 unless (y) contains genuinely provenance-distinct evidence.
 
----
+______________________________________________________________________
 
-# 52. Sybil Provenance Attack
+## 52. Sybil Provenance Attack
 
 A provenance Sybil attack occurs when one underlying origin is represented as many apparently independent sources.
 
@@ -1421,93 +1364,81 @@ AMOS provenance system:
 1 LOAD-BEARING ROOT FAMILY
 ```
 
----
+______________________________________________________________________
 
-# 53. Sybil-Hardening Equation
+## 53. Sybil-Hardening Equation
 
 Let evidence set:
 
-[
-E={E_1,\ldots,E_n}
-]
+\[
+E={E_1,\\ldots,E_n}
+\]
 
 and root resolution function:
 
-[
-\rho(E_i)=Root(E_i)
-]
+\[
+\\rho(E_i)=Root(E_i)
+\]
 
 Then effective root count is:
 
-[
-\boxed{
-N_{root}
-========
+## \[ \\boxed{ N\_{root}
 
 |
-{\rho(E_i)}
+{\\rho(E_i)}
 |
 }
-]
+\]
 
 after valid alias/root collapse.
 
----
+______________________________________________________________________
 
-# 54. Provenance Diversity
+## 54. Provenance Diversity
 
 A useful structural quantity is:
 
-[
-\boxed{
-D_P
-===
+## \[ \\boxed{ D_P
 
-\frac{
-N_{distinct\ roots}
+\\frac{
+N\_{distinct\\ roots}
 }{
-N_{evidence\ objects}
+N\_{evidence\\ objects}
 }
 }
-]
+\]
 
 with:
 
-[
-0 < D_P \leq 1
-]
+\[
+0 < D_P \\leq 1
+\]
 
 for non-empty evidence sets.
 
 This is an AMOS structural diagnostic, not a universal evidence-quality metric.
 
----
+______________________________________________________________________
 
-# 55. Provenance Concentration
+## 55. Provenance Concentration
 
-[
-\boxed{
-C_P
-===
+## \[ \\boxed{ C_P
 
 1-D_P
 }
-]
+\]
 
 High provenance concentration indicates that apparently broad evidence may depend on relatively few roots.
 
 It does not by itself prove the roots are low quality.
 
----
+______________________________________________________________________
 
-# 56. Provenance Trust
+## 56. Provenance Trust
 
 Trust is local and typed.
 
-[
-\boxed{
-Trust(E,C)
-==========
+## \[ \\boxed{ Trust(E,C)
 
 f(
 source,
@@ -1521,20 +1452,17 @@ revocation,
 independence
 )
 }
-]
+\]
 
 There is no universal AMOS rule that a source is globally trustworthy.
 
----
+______________________________________________________________________
 
-# 57. Trust Tensor
+## 57. Trust Tensor
 
-[
-\boxed{
-T_{Trust}
-=========
+## \[ \\boxed{ T\_{Trust}
 
-T[
+T\[
 source,
 claim_class,
 scope,
@@ -1545,13 +1473,13 @@ freshness,
 independence,
 revocation,
 confidence
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 58. Trust Locality Invariant
+## 58. Trust Locality Invariant
 
 ```text
 TRUSTED FOR CLAIM A
@@ -1567,56 +1495,53 @@ TRUSTED AT TIME A
 TRUSTED AT TIME B
 ```
 
----
+______________________________________________________________________
 
-# 59. Revocation
+## 59. Revocation
 
 A source, authority, evidence object, validator, or trust root may become revoked.
 
-[
-\boxed{
+\[
+\\boxed{
 Revoked(x,t)=TRUE
 }
-]
+\]
 
 Revocation changes the admissibility of dependent objects.
 
----
+______________________________________________________________________
 
-# 60. Selective Revocation
+## 60. Selective Revocation
 
-[
-\boxed{
+\[
+\\boxed{
 Revoked(x)
-\Rightarrow
+\\Rightarrow
 Invalidate(
 LoadBearingDescendants(x)
 )
 }
-]
+\]
 
 but:
 
-[
-\boxed{
+\[
+\\boxed{
 Independent(y,x)
-\Rightarrow
+\\Rightarrow
 Preserve(y)
 }
-]
+\]
 
 This prevents unnecessary global invalidation.
 
----
+______________________________________________________________________
 
-# 61. Provenance Revocation Tensor
+## 61. Provenance Revocation Tensor
 
-[
-\boxed{
-T_{REV}
-=======
+## \[ \\boxed{ T\_{REV}
 
-T[
+T\[
 object,
 revocation_state,
 revoked_at,
@@ -1625,21 +1550,21 @@ authority,
 affected_edges,
 affected_descendants,
 repair_state
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 62. Supersession
+## 62. Supersession
 
 Supersession is not deletion.
 
-[
-\boxed{
-Supersedes(x_{new},x_{old})
+\[
+\\boxed{
+Supersedes(x\_{new},x\_{old})
 }
-]
+\]
 
 should preserve:
 
@@ -1659,14 +1584,11 @@ affected dependencies
 migration path
 ```
 
----
+______________________________________________________________________
 
-# 63. Version Provenance
+## 63. Version Provenance
 
-[
-\boxed{
-VersionIdentity(x)
-==================
+## \[ \\boxed{ VersionIdentity(x)
 
 (
 object_id,
@@ -1674,20 +1596,17 @@ version,
 content_hash
 )
 }
-]
+\]
 
 A version label alone may be insufficient where content can change without a corresponding version update.
 
----
+______________________________________________________________________
 
-# 64. State Identity
+## 64. State Identity
 
 For mutable authoritative state:
 
-[
-\boxed{
-StateIdentity(x)
-================
+## \[ \\boxed{ StateIdentity(x)
 
 (
 object_id,
@@ -1696,32 +1615,29 @@ version,
 content_hash
 )
 }
-]
+\]
 
 where the architecture uses generation/version distinctions.
 
----
+______________________________________________________________________
 
-# 65. Read-Set Provenance
+## 65. Read-Set Provenance
 
 For decision-forming state:
 
-[
-\boxed{
-ReadSet
-=======
+## \[ \\boxed{ ReadSet
 
 {
 (object_i,version_i,content_hash_i)
 }
 }
-]
+\]
 
 The read set records which mutable objects actually influenced the decision.
 
----
+______________________________________________________________________
 
-# 66. Read-Set Invariant
+## 66. Read-Set Invariant
 
 ```text
 UNREAD OBJECT CHANGE
@@ -1731,18 +1647,15 @@ AUTOMATIC DECISION INVALIDATION
 
 when dependency structure establishes that the object was not load-bearing.
 
----
+______________________________________________________________________
 
-# 67. Commit Provenance
+## 67. Commit Provenance
 
 A durable effect should preserve lineage from decision to execution.
 
-[
-\boxed{
-Prov_{commit}
-=============
+## \[ \\boxed{ Prov\_{commit}
 
-T[
+T\[
 transaction,
 proposal,
 principal,
@@ -1753,20 +1666,17 @@ effect_intent,
 idempotency,
 release_state,
 receipt
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 68. Action Provenance
+## 68. Action Provenance
 
-[
-\boxed{
-T_{AP}
-======
+## \[ \\boxed{ T\_{AP}
 
-T[
+T\[
 action_id,
 actor,
 principal,
@@ -1781,9 +1691,9 @@ timestamp,
 result,
 receipt,
 rollback
-]
+\]
 }
-]
+\]
 
 Hard boundary:
 
@@ -1795,16 +1705,13 @@ ACTION WAS AUTHORIZED
 
 Provenance must preserve both separately.
 
----
+______________________________________________________________________
 
-# 69. Authority Provenance
+## 69. Authority Provenance
 
-[
-\boxed{
-T_{AUTH-P}
-==========
+## \[ \\boxed{ T\_{AUTH-P}
 
-T[
+T\[
 authority_id,
 issuer,
 principal,
@@ -1818,9 +1725,9 @@ revoked_at,
 evidence,
 signature,
 trust_root
-]
+\]
 }
-]
+\]
 
 Hard boundary:
 
@@ -1828,43 +1735,37 @@ Hard boundary:
 CAPABILITY != AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 70. Authority Lineage
+## 70. Authority Lineage
 
 For effect (e):
 
-[
-\boxed{
-AuthorityPath(e)
-================
+## \[ \\boxed{ AuthorityPath(e)
 
 Issuer
-\rightarrow
+\\rightarrow
 Authorization
-\rightarrow
+\\rightarrow
 Principal
-\rightarrow
+\\rightarrow
 EffectIntent
-\rightarrow
+\\rightarrow
 Commit
 }
-]
+\]
 
 A broken authority path blocks a claim of governed authorization.
 
----
+______________________________________________________________________
 
-# 71. Receipt Provenance
+## 71. Receipt Provenance
 
 Receipt lineage should bind the receipt to the exact effect.
 
-[
-\boxed{
-T_{RP}
-======
+## \[ \\boxed{ T\_{RP}
 
-T[
+T\[
 receipt,
 receiver,
 service_identity,
@@ -1877,13 +1778,13 @@ operation,
 time,
 signature,
 trust_registry
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 72. Receipt Boundary
+## 72. Receipt Boundary
 
 ```text
 RECEIPT ID != VERIFIED RECEIPT
@@ -1893,9 +1794,9 @@ SIGNED RECEIPT != CURRENT TRUST
 RECEIVER CLAIM != COMPLETE GLOBAL STATE
 ```
 
----
+______________________________________________________________________
 
-# 73. Provenance Operators
+## 73. Provenance Operators
 
 Core L00 provenance operators:
 
@@ -1949,21 +1850,21 @@ REPAIR_LINEAGE(x)
 AUDIT_PROVENANCE(x)
 ```
 
----
+______________________________________________________________________
 
-# 74. Root Resolution Operator
+## 74. Root Resolution Operator
 
-[
-\boxed{
+\[
+\\boxed{
 ResolveRoot(x)
-\rightarrow
+\\rightarrow
 {
 root,
 ancestry,
 confidence
 }
 }
-]
+\]
 
 Possible results:
 
@@ -1977,37 +1878,34 @@ AMBIGUOUS
 UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 75. Fingerprint Operator
+## 75. Fingerprint Operator
 
-[
-\boxed{
+\[
+\\boxed{
 Fingerprint:
 Object
-\rightarrow
+\\rightarrow
 Digest
 }
-]
+\]
 
 A fingerprint can support exact identity checks.
 
 It does not by itself establish semantic truth, quality, independence, or authority.
 
----
+______________________________________________________________________
 
-# 76. Provenance Admission Gate
+## 76. Provenance Admission Gate
 
-[
-\boxed{
-Admit(x)
-========
+## \[ \\boxed{ Admit(x)
 
-\bigwedge_i I_i(x)
+\\bigwedge_i I_i(x)
 }
-]
+\]
 
-where the required invariants \(I_i\) depend on the object's class and intended use.
+where the required invariants (I_i) depend on the object's class and intended use.
 
 Possible states:
 
@@ -2023,27 +1921,27 @@ REJECT
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 77. Provenance Quarantine
+## 77. Provenance Quarantine
 
 Quarantine preserves information without allowing it to silently influence trusted reasoning.
 
-[
-\boxed{
+\[
+\\boxed{
 Quarantine(x)
-\Rightarrow
+\\Rightarrow
 Stored(x)
-\land
+\\land
 ExcludedFromTrustedPromotion(x)
 }
-]
+\]
 
 until revalidation.
 
----
+______________________________________________________________________
 
-# 78. Provenance Repair
+## 78. Provenance Repair
 
 A provenance gap should be repaired at the smallest causal point.
 
@@ -2066,33 +1964,30 @@ RECOMPUTE INDEPENDENCE
 REVALIDATE DEPENDENTS
 ```
 
----
+______________________________________________________________________
 
-# 79. Repair Equation
+## 79. Repair Equation
 
 Let (p) be a broken provenance node.
 
-[
-\boxed{
-RepairSet(p)
-============
+## \[ \\boxed{ RepairSet(p)
 
 {p}
-\cup
+\\cup
 DependentDescendants(p)
 }
-]
+\]
 
 Independent branches remain valid unless separate evidence invalidates them.
 
----
+______________________________________________________________________
 
-# 80. Provenance Recovery State
+## 80. Provenance Recovery State
 
-[
-\boxed{
+\[
+\\boxed{
 Q_P
-\in
+\\in
 {
 VALID,
 PARTIAL,
@@ -2105,11 +2000,11 @@ RESTORED,
 UNKNOWN
 }
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 81. Provenance Failure Modes
+## 81. Provenance Failure Modes
 
 ## PV-F01 — Missing Source
 
@@ -2191,32 +2086,29 @@ Action cannot be linked to valid authorization.
 
 Completion evidence cannot be bound to the actual effect.
 
----
+______________________________________________________________________
 
-# 82. Circular Provenance Detection
+## 82. Circular Provenance Detection
 
 A provenance graph must reject unsupported ancestry cycles.
 
-[
-\boxed{
+\[
+\\boxed{
 Cycle(G_P)
-\Rightarrow
+\\Rightarrow
 QUARANTINE
 }
-]
+\]
 
 for evidence ancestry where the cycle would make a source depend on itself.
 
----
+______________________________________________________________________
 
-# 83. Provenance Entropy
+## 83. Provenance Entropy
 
 An AMOS structural diagnostic may represent provenance uncertainty as:
 
-[
-\boxed{
-H_P
-===
+## \[ \\boxed{ H_P
 
 H(
 root,
@@ -2227,22 +2119,19 @@ regime,
 observer
 )
 }
-]
+\]
 
 This represents uncertainty over provenance state.
 
 It should not be confused with thermodynamic entropy.
 
----
+______________________________________________________________________
 
-# 84. Provenance Lacunarity
+## 84. Provenance Lacunarity
 
 Provenance lacunarity represents structured gaps in lineage.
 
-[
-\boxed{
-L_P
-===
+## \[ \\boxed{ L_P
 
 f(
 missing_roots,
@@ -2253,84 +2142,75 @@ missing_scope,
 missing_regime
 )
 }
-]
+\]
 
 High provenance lacunarity means important lineage gaps remain unresolved.
 
 This is an AMOS MODEL construct.
 
----
+______________________________________________________________________
 
-# 85. Provenance Completeness
+## 85. Provenance Completeness
 
-For required provenance fields \(F_R\):
+For required provenance fields (F_R):
 
-[
-\boxed{
-Completeness_P(x)
-=================
+## \[ \\boxed{ Completeness_P(x)
 
-\frac{
-|F_{observed}(x)\cap F_R|
+\\frac{
+|F\_{observed}(x)\\cap F_R|
 }{
 |F_R|
 }
 }
-]
+\]
 
 This measures field completeness only.
 
 It does not prove correctness.
 
----
+______________________________________________________________________
 
-# 86. Provenance Integrity
+## 86. Provenance Integrity
 
-[
-\boxed{
-Integrity_P(x)
-==============
+## \[ \\boxed{ Integrity_P(x)
 
 IdentityValid
-\land
+\\land
 LineageValid
-\land
+\\land
 VersionValid
-\land
+\\land
 ScopeValid
-\land
+\\land
 RegimeValid
-\land
+\\land
 TemporalValid
-\land
+\\land
 RevocationValid
 }
-]
+\]
 
 for dimensions applicable to (x).
 
----
+______________________________________________________________________
 
-# 87. Provenance Sufficiency
+## 87. Provenance Sufficiency
 
-[
-\boxed{
-Sufficient_P(x,D)
-=================
+## \[ \\boxed{ Sufficient_P(x,D)
 
 Integrity_P(x)
-\land
+\\land
 RequiredLineagePresent(x,D)
 }
-]
+\]
 
-where \(D\) is the downstream decision or claim.
+where (D) is the downstream decision or claim.
 
 Provenance sufficiency is therefore decision-relative.
 
----
+______________________________________________________________________
 
-# 88. Provenance Hard Invariants
+## 88. Provenance Hard Invariants
 
 ## PV-I01 — Origin Preservation
 
@@ -2412,9 +2292,9 @@ Committed effects remain traceable to proposal, authority, state, and transactio
 
 Material provenance topology remains versioned and inspectable.
 
----
+______________________________________________________________________
 
-# 89. Control-Plane Requirements
+## 89. Control-Plane Requirements
 
 The L00 control plane should be able to inspect or resolve, where applicable:
 
@@ -2458,16 +2338,13 @@ trust roots
 
 The control plane must not invent missing provenance.
 
----
+______________________________________________________________________
 
-# 90. Control-Plane Provenance Tensor
+## 90. Control-Plane Provenance Tensor
 
-[
-\boxed{
-T_{CP-P}
-========
+## \[ \\boxed{ T\_{CP-P}
 
-T[
+T\[
 task,
 capability,
 evidence,
@@ -2480,13 +2357,13 @@ receipt,
 versions,
 roots,
 dependencies
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 91. Agent Requirements
+## 91. Agent Requirements
 
 Agents consuming provenance-bearing objects should:
 
@@ -2514,9 +2391,9 @@ preserve confidence ceilings
 
 Agents should not manufacture missing ancestry.
 
----
+______________________________________________________________________
 
-# 92. Skill Requirements
+## 92. Skill Requirements
 
 AMOS skills should expose enough provenance to identify:
 
@@ -2544,16 +2421,16 @@ implementation evidence
 benchmark evidence
 ```
 
----
+______________________________________________________________________
 
-# 93. Workflow Provenance
+## 93. Workflow Provenance
 
 A workflow execution should preserve:
 
-[
-\boxed{
+\[
+\\boxed{
 T_W =
-T[
+T\[
 workflow_id,
 version,
 steps,
@@ -2567,22 +2444,19 @@ timestamps,
 dependencies,
 authority,
 provenance
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 94. Protocol Provenance
+## 94. Protocol Provenance
 
 Every protocol message may carry:
 
-[
-\boxed{
-T_{MSG-P}
-=========
+## \[ \\boxed{ T\_{MSG-P}
 
-T[
+T\[
 message,
 sender,
 receiver,
@@ -2594,22 +2468,22 @@ regime,
 authority,
 evidence,
 provenance
-]
+\]
 }
-]
+\]
 
 Message transfer must not sever source ancestry.
 
----
+______________________________________________________________________
 
-# 95. Memory Provenance
+## 95. Memory Provenance
 
 Persistent memory should retain:
 
-[
-\boxed{
+\[
+\\boxed{
 T_M =
-T[
+T\[
 item_id,
 content_class,
 state,
@@ -2619,9 +2493,9 @@ freshness,
 contradiction_state,
 retention_class,
 revalidation_epoch
-]
+\]
 }
-]
+\]
 
 Hard boundary:
 
@@ -2631,9 +2505,9 @@ MEMORY != SOURCE
 MEMORY != CURRENT TRUTH
 ```
 
----
+______________________________________________________________________
 
-# 96. Memory Lineage
+## 96. Memory Lineage
 
 ```text
 SOURCE
@@ -2656,28 +2530,25 @@ NEW CLAIM
 
 The new claim must remain traceable to the original source family.
 
----
+______________________________________________________________________
 
-# 97. Provenance Mutation
+## 97. Provenance Mutation
 
 A provenance record itself is governed state.
 
-[
-\boxed{
+\[
+\\boxed{
 P_t
-\xrightarrow{\mu}
-P_{t+1}
+\\xrightarrow{\\mu}
+P\_{t+1}
 }
-]
+\]
 
 Mutation record:
 
-[
-\boxed{
-T_{\mu P}
-=========
+## \[ \\boxed{ T\_{\\mu P}
 
-T[
+T\[
 old_state,
 new_state,
 actor,
@@ -2687,13 +2558,13 @@ authority,
 timestamp,
 affected_dependencies,
 rollback
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 98. Provenance Mutation Invariant
+## 98. Provenance Mutation Invariant
 
 ```text
 EDITING PROVENANCE
@@ -2703,9 +2574,9 @@ CHANGING HISTORY
 
 Corrections must preserve prior state and correction lineage rather than silently rewriting history.
 
----
+______________________________________________________________________
 
-# 99. Provenance Validator Set
+## 99. Provenance Validator Set
 
 ```text
 L00-PV-T01 source identity validation
@@ -2769,36 +2640,36 @@ L00-PV-T29 protocol provenance
 L00-PV-T30 UNKNOWN/GAP preservation
 ```
 
----
+______________________________________________________________________
 
-# 100. Provenance Falsifiers
+## 100. Provenance Falsifiers
 
 The architecture is falsified as an implemented provenance system if:
 
 1. evidence cannot be traced to source identities;
-2. aliases of the same root are counted as independent sources;
-3. paraphrases create independent corroboration;
-4. shared ancestry is invisible;
-5. independence is assumed from different names or URLs;
-6. transformations destroy upstream lineage;
-7. compression removes load-bearing provenance;
-8. source claims become verified claims automatically;
-9. model outputs become observations through retrieval;
-10. AI-generated descendants can corroborate their own roots as independent evidence;
-11. versions cannot be distinguished;
-12. stale evidence remains valid without temporal checks;
-13. scope disappears during reuse;
-14. regime disappears during reuse;
-15. observer context disappears when material;
-16. revoked roots continue supporting dependent claims;
-17. revocation destroys unrelated independent branches;
-18. authority lineage cannot be reconstructed;
-19. committed effects cannot be traced to proposals and authority;
-20. missing provenance is silently replaced by fabricated lineage.
+1. aliases of the same root are counted as independent sources;
+1. paraphrases create independent corroboration;
+1. shared ancestry is invisible;
+1. independence is assumed from different names or URLs;
+1. transformations destroy upstream lineage;
+1. compression removes load-bearing provenance;
+1. source claims become verified claims automatically;
+1. model outputs become observations through retrieval;
+1. AI-generated descendants can corroborate their own roots as independent evidence;
+1. versions cannot be distinguished;
+1. stale evidence remains valid without temporal checks;
+1. scope disappears during reuse;
+1. regime disappears during reuse;
+1. observer context disappears when material;
+1. revoked roots continue supporting dependent claims;
+1. revocation destroys unrelated independent branches;
+1. authority lineage cannot be reconstructed;
+1. committed effects cannot be traced to proposals and authority;
+1. missing provenance is silently replaced by fabricated lineage.
 
----
+______________________________________________________________________
 
-# 101. Gap Matrix
+## 101. Gap Matrix
 
 | Area                   | Required capability                 | Status                   |
 | ---------------------- | ----------------------------------- | ------------------------ |
@@ -2823,9 +2694,9 @@ The architecture is falsified as an implemented provenance system if:
 | Effect lineage         | action/effect reconstruction        | implementation-dependent |
 | Receipt lineage        | receiver evidence binding           | implementation-dependent |
 
----
+______________________________________________________________________
 
-# 102. Canonical Provenance Workflow
+## 102. Canonical Provenance Workflow
 
 ```text
 ENUMERATE OBJECTS
@@ -2867,70 +2738,61 @@ BUILD RSCF PROVENANCE CAPSULE
 ADMIT / CONDITIONAL / QUARANTINE
 ```
 
----
+______________________________________________________________________
 
-# 103. Canonical Provenance Equation
+## 103. Canonical Provenance Equation
 
-[
-\boxed{
-ProvIntegrity(C)
-================
+## \[ \\boxed{ ProvIntegrity(C)
 
 RootIntegrity
-\land
+\\land
 AncestryIntegrity
-\land
+\\land
 TransformationIntegrity
-\land
+\\land
 ScopeIntegrity
-\land
+\\land
 RegimeIntegrity
-\land
+\\land
 TemporalIntegrity
-\land
+\\land
 RevocationIntegrity
 }
-]
+\]
 
 where each term applies to the claim.
 
----
+______________________________________________________________________
 
-# 104. Provenance-Adjusted Evidence Equation
+## 104. Provenance-Adjusted Evidence Equation
 
-For evidence set \(E_C\) supporting claim \(C\):
+For evidence set (E_C) supporting claim (C):
 
-[
-\boxed{
-EffectiveEvidence(C)
-====================
+## \[ \\boxed{ EffectiveEvidence(C)
 
 CollapseByRoot(
 ResolveAncestry(E_C)
 )
 }
-]
+\]
 
 followed by:
 
-[
-\boxed{
-IndependenceMatrix(C)
-=====================
+## \[ \\boxed{ IndependenceMatrix(C)
 
 ClassifyIndependence(
 EffectiveEvidence(C)
 )
 }
-]
+\]
 
 and:
 
-[
-\boxed{
+\[
+\\boxed{
 Confidence(C)
-\leq
-\min(
+\\leq
+\\min(
 PremiseCeiling,
 IndependenceCeiling,
 ScopeCeiling,
@@ -2938,39 +2800,39 @@ RegimeCeiling,
 FreshnessCeiling
 )
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 105. Selective Invalidation Equation
+## 105. Selective Invalidation Equation
 
 For invalid provenance node (p):
 
-[
-\boxed{
+\[
+\\boxed{
 Invalid(p)
-\Rightarrow
+\\Rightarrow
 Invalidate(
 LoadBearingDescendants(p)
 )
 }
-]
+\]
 
 while:
 
-[
-\boxed{
+\[
+\\boxed{
 Independent(x,p)
-\Rightarrow
+\\Rightarrow
 Preserve(x)
 }
-]
+\]
 
 unless separately invalidated.
 
----
+______________________________________________________________________
 
-# 106. AI Provenance Architecture
+## 106. AI Provenance Architecture
 
 ```text
 EXTERNAL SOURCE
@@ -3034,9 +2896,9 @@ PRESERVE UNCERTAINTY
 PRESERVE INVALIDATION CONDITIONS
 ```
 
----
+______________________________________________________________________
 
-# 107. Provenance and Reality Contact
+## 107. Provenance and Reality Contact
 
 Provenance does not prove reality.
 
@@ -3060,9 +2922,9 @@ REDUCED ABILITY TO VERIFY
 
 for claims whose validity depends on source reconstruction.
 
----
+______________________________________________________________________
 
-# 108. Provenance and Causality
+## 108. Provenance and Causality
 
 ```text
 PROVENANCE EDGE
@@ -3074,9 +2936,9 @@ CAUSAL EDGE
 
 It does not automatically establish causal influence in the external world.
 
----
+______________________________________________________________________
 
-# 109. Provenance and Trust
+## 109. Provenance and Trust
 
 ```text
 PROVENANCE != TRUST
@@ -3092,9 +2954,9 @@ REPETITION != CORROBORATION
 
 Provenance supplies the topology required to evaluate these properties without conflating them.
 
----
+______________________________________________________________________
 
-# 110. RSCF Completion State
+## 110. RSCF Completion State
 
 ```yaml
 claim_class: MODEL
@@ -3194,9 +3056,9 @@ confidence_ceiling:
   ontological_universality: unverified
 ```
 
----
+______________________________________________________________________
 
-# 111. Hard Boundaries
+## 111. Hard Boundaries
 
 ```text
 PROVENANCE != TRUTH
@@ -3264,77 +3126,77 @@ ADDRESSABLE != VALIDATED
 UNKNOWN/GAP != PASS
 ```
 
----
+______________________________________________________________________
 
-# 112. Canonical Provenance Law
+## 112. Canonical Provenance Law
 
-[
-\boxed{
+\[
+\\boxed{
 TrustworthyReuse(x)
-\Rightarrow
+\\Rightarrow
 ResolvableOrigin(x)
-\land
+\\land
 PreservedAncestry(x)
-\land
+\\land
 VisibleTransformations(x)
-\land
+\\land
 CompatibleScope(x)
-\land
+\\land
 CompatibleRegime(x)
-\land
+\\land
 ValidTemporalState(x)
 }
-]
+\]
 
 For independent corroboration:
 
-[
-\boxed{
+\[
+\\boxed{
 IndependentSupport(E_i,E_j)
-\Rightarrow
+\\Rightarrow
 DistinctLoadBearingRoots(E_i,E_j)
-\land
+\\land
 NoDisqualifyingSharedAncestry(E_i,E_j)
 }
-]
+\]
 
 For derivation:
 
-[
-\boxed{
+\[
+\\boxed{
 Derived(y,x)
-\Rightarrow
+\\Rightarrow
 Prov(y)
-\supseteq
+\\supseteq
 RequiredProv(x)
 }
-]
+\]
 
 For invalidation:
 
-[
-\boxed{
+\[
+\\boxed{
 Invalid(p)
-\Rightarrow
+\\Rightarrow
 Invalidate(LoadBearingDescendants(p))
 }
-]
+\]
 
 not automatically:
 
-[
-\boxed{
+\[
+\\boxed{
 Invalid(p)
-\Rightarrow
+\\Rightarrow
 Invalidate(EntireSystem)
 }
-]
+\]
 
 The governing architectural principle is:
 
 > **AMOS provenance preserves the topology of knowledge and action. Every consequential object must remain connected to the sources, ancestors, transformations, observers, temporal states, scopes, regimes, dependencies, and authority paths required to evaluate it. Multiple representations of one origin do not create independent evidence; transformation does not erase ancestry; repetition does not manufacture corroboration; and provenance itself does not manufacture truth.**
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · 06-Knowledge-Base-MOC · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · AMOS_Typed_Tensor_Contracts · AMOS_Evidence_Tensor_Architecture · Cosmo_Brain_BRIDGE_INDEX · AMOS_Relation_Tensor_Architecture · Cosmo_Brain_BRIDGE_INDEX
 
@@ -3343,23 +3205,26 @@ The governing architectural principle is:
 This is the cleaned, paste-ready Markdown version of the uploaded provenance content.
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: l00_reality_environment_primitives_cognitive_matrix_provenance
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_PROVENANCE.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_MOC|L00_REALITY_ENVIRONMENT_MOC]]
-

@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Vault Domain Knowledge — Amos Governed Executable Knowledge Repair Rscf
 type: reference
 source: 07_SKILLS/amos-governed-executable-knowledge-repair-rscf/references
 tags:
-- reference
-- amos-governed-executable-knowledge-repair-rscf
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-governed-executable-knowledge-repair-rscf
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -31,22 +34,24 @@ rscf:
 AMOS_CORE v3 – Deterministic Reasoning Kernel (Clean Single-File Version)
 
 Status:
+
 - Executable Python module (no external dependencies beyond stdlib).
 - Canon-aligned structure with:
- - Core-19 logic + rewrite system
- - Knowledge base + entailment + contradiction detection
+- Core-19 logic + rewrite system
+- Knowledge base + entailment + contradiction detection
 - TSS-style system state
- - Task + engine API
-- Minimal translation layer (NL <-> logic stubs)
- - Drift / integrity audit hooks
+- Task + engine API
+- Minimal translation layer (NL \<-> logic stubs)
+- Drift / integrity audit hooks
 - Placeholders for higher layers (universe, multi-agent, compression) as stubs
 
 This file is designed as a stable nucleus you can extend with:
- - Absolute-Human engine
- - UBI / TSS / PSI domain adapters
+
+- Absolute-Human engine
+- UBI / TSS / PSI domain adapters
 - Full multi-agent + universe simulation
-while remaining syntactically valid and runnable as-is.
-"""
+  while remaining syntactically valid and runnable as-is.
+  """
 
 from __future__ import annotations
 
@@ -58,114 +63,118 @@ import math
 import uuid
 import time
 
+## ============================================================
 
-# ============================================================
-# 0. META / CONFIG
-# ============================================================
+## 0. META / CONFIG
+
+## ============================================================
 
 AMOS_VERSION = "3.0.0-clean"
 
 @dataclass
 class CanonProfile:
- """Global canon configuration flags."""
- law_of_law: bool = True
- rule_of_two: bool = True
- rule_of_four: bool = True
- seven_cycle: bool = True
- noise_signal_enforced: bool = True
- causal_compression: bool = True
- identity_cognition_separation: bool = True
- structural_integrity_required: bool = True
-
+"""Global canon configuration flags."""
+law_of_law: bool = True
+rule_of_two: bool = True
+rule_of_four: bool = True
+seven_cycle: bool = True
+noise_signal_enforced: bool = True
+causal_compression: bool = True
+identity_cognition_separation: bool = True
+structural_integrity_required: bool = True
 
 @dataclass
 class AmosConfig:
- """Engine configuration hooks."""
- canon: CanonProfile = field(default_factory=CanonProfile)
- max_normalize_iters: int = 128
- max_backward_depth: int = 16
- max_learned_rules: int = 2048
- log_debug: bool = False
-
+"""Engine configuration hooks."""
+canon: CanonProfile = field(default_factory=CanonProfile)
+max_normalize_iters: int = 128
+max_backward_depth: int = 16
+max_learned_rules: int = 2048
+log_debug: bool = False
 
 GLOBAL_CONFIG = AmosConfig()
 
+## ============================================================
 
-# ============================================================
-# 1. CORE-19 LOGIC KERNEL
-# ============================================================
+## 1. CORE-19 LOGIC KERNEL
+
+## ============================================================
 
 class NodeType(Enum):
- # Base logical structure
- ATOM = auto()
- NOT = auto()
- AND = auto()
- OR = auto()
- IMPLIES = auto()
- BOTTOM = auto() # ⊥
 
- # Meta-patterns
- PARADOX = auto() # Π(X)
- CONV = auto() # Λ(X)
- DIVG = auto() # Δ(X)
+## Base logical structure
 
- # Logic modes
- PLOGIC = auto() # PositiveLogic
- NLOGIC = auto() # NegativeLogic
- ZLOGIC = auto() # ZeroLogic
- DLOGIC = auto() # DualLogic
- MLOGIC = auto() # MultiLogic
- METAL = auto() # MetaLogic
+ATOM = auto()
+NOT = auto()
+AND = auto()
+OR = auto()
+IMPLIES = auto()
+BOTTOM = auto() # ⊥
 
- # Meta-logic modes
- SUPRAL = auto() # SupraLogic
- ANTIL = auto() # AntiLogic
- NULLL = auto() # NullLogic
+## Meta-patterns
 
+PARADOX = auto() # Π(X)
+CONV = auto() # Λ(X)
+DIVG = auto() # Δ(X)
+
+## Logic modes
+
+PLOGIC = auto() # PositiveLogic
+NLOGIC = auto() # NegativeLogic
+ZLOGIC = auto() # ZeroLogic
+DLOGIC = auto() # DualLogic
+MLOGIC = auto() # MultiLogic
+METAL = auto() # MetaLogic
+
+## Meta-logic modes
+
+SUPRAL = auto() # SupraLogic
+ANTIL = auto() # AntiLogic
+NULLL = auto() # NullLogic
 
 @dataclass
 class Formula:
- """Tree-structured formula node."""
- node_type: NodeType
- children: List["Formula"] = field(default_factory=list)
- atom: Optional[Tuple[str, Tuple[Any, ...]]] = None # (predicate, args)
+"""Tree-structured formula node."""
+node_type: NodeType
+children: List["Formula"] = field(default_factory=list)
+atom: Optional\[Tuple\[str, Tuple[Any, ...]\]\] = None # (predicate, args)
 
- def __repr__(self) -> str:
- t = self.node_type
- if t == NodeType.ATOM:
- pred, args = self.atom or ("?", ())
- args_str = ", ".join(repr(a) for a in
+def __repr__(self) -> str:
+t = self.node_type
+if t == NodeType.ATOM:
+pred, args = self.atom or ("?", ())
+args_str = ", ".join(repr(a) for a in
 
----
+______________________________________________________________________
 
 ### Source 2: The Complete Human System — Book Knowledge Base
 
 > Path: `dated/2026-08-22/2026-08-22 The Complete Human System — Book Knowledge Base.md` | Size: 21469 chars | Match score: 12
 
-# The Complete Human System — Book Knowledge Base
+## The Complete Human System — Book Knowledge Base
 
 > **One model. All equations grounded in biology/neuroscience. No fluff.** >
 > Core claim: Humans are nested memory architectures across 10+ layers (genetic → cellular → immune → metabolic → ANS → emotional → narrative → cultural → civilizational). Every equation maps to specific anatomy, neurotransmitters, hormones, or cell types.
 
-> [!info] Epistemic Audit (post-ingestion test, 2026-08-22 — v2, full cross-note audit)
->
+> [!INFO] Epistemic Audit (post-ingestion test, 2026-08-22 — v2, full cross-note audit)
 > **Internal consistency:** PASS — 3/3 tests pass (equation set, distress equation, repair protocol identical across both versions)
 >
 > **Cross-note audit (65 equations cataloged):** > - Shared equations: 21
+>
 > - Canonical-only: 19
 > - Books-only: 25
 > - Formulation clashes: 5 (all resolved as complementary, not contradictory)
 > - Actual contradictions: **0** >
-> **Unverified claims flagged:** 6 claims need epistemic qualification before citing
+>   **Unverified claims flagged:** 6 claims need epistemic qualification before citing
 >
-> | Claim | Problem | Qualification |
-> |-------|---------|---------------|
-> | "Humans are not primarily rational" | 'Primarily' undefined | MODEL — supported by dual-process theory but no ratio given |
-> | "80-90% vagal fibers afferent" | No citation, range varies by source | OBSERVATION — well-supported anatomically but needs citation |
-> | "Social pain = physical pain (same network)" | 'Same' too strong for overlapping activation | OBSERVATION — better stated as "overlapping substrates in ACC/insula" (Eisenberger et al. 2003) |
-> | "Manipulation = control through regulation below awareness" | Definitional overreach; some manipulation is conscious | MODEL — applies to digital/commercial manipulation, not all manipulation |
-> | "Depression = Distinction_Collapse across Future_Space" | Not operationalizable; metaphors | MODEL — structural interpretation, not clinical diagnostic model |
-> | "Platform_Model(User) > User_Model(Self)" | Not true for all platforms | MODEL — true for engagement-optimized platforms, not generally |
+> | Claim                                                       | Problem                                                | Qualification                                                                                   |
+> | ----------------------------------------------------------- | ------------------------------------------------------ | ----------------------------------------------------------------------------------------------- |
+> | "Humans are not primarily rational"                         | 'Primarily' undefined                                  | MODEL — supported by dual-process theory but no ratio given                                     |
+> | "80-90% vagal fibers afferent"                              | No citation, range varies by source                    | OBSERVATION — well-supported anatomically but needs citation                                    |
+> | "Social pain = physical pain (same network)"                | 'Same' too strong for overlapping activation           | OBSERVATION — better stated as "overlapping substrates in ACC/insula" (Eisenberger et al. 2003) |
+> | "Manipulation = control through regulation below awareness" | Definitional overreach; some manipulation is conscious | MODEL — applies to digital/commercial manipulation, not all manipulation                        |
+> | "Depression = Distinction_Collapse across Future_Space"     | Not operationalizable; metaphors                       | MODEL — structural interpretation, not clinical diagnostic model                                |
+> | "Platform_Model(User) > User_Model(Self)"                   | Not true for all platforms                             | MODEL — true for engagement-optimized platforms, not generally                                  |
 >
 > **Falsifiability:** 2 easy-to-falsify, 2 moderate, 2 hard
 >
@@ -175,19 +184,20 @@ class Formula:
 
 ## Core Architecture
 
-
 ```
 Reality = Persistence of Distinction
 ```
+
 ```
 Potential ⇄ Distinction ⇄ Observer ⇄ Inquiry ⇄ Higher Distinction
 ```
-Everything else—physics, biology, mind, civilization, suffering, healing—is a fractal expression of this at different scales.
 
+Everything else—physics, biology, mind, civilization, suffering, healing—is a fractal expression of this at different scales.
 
 ```
 Human = Nested Memory Architecture
 ```
+
 ```
 BAD: Humans are not primarily rational creatures
 GOOD: The majority of human cognitive processing is automatic, affective, and regulatory
@@ -202,7 +212,7 @@ GOOD: Approximately 80% of the ~100,000 vag
 
 > Path: `dated/2026-08-22/2026-08-22 Executable Brain Model Lineage.md` | Size: 2738 chars | Match score: 12
 
-# Executable Brain Model — v1.0 Seed & v22 Lineage
+## Executable Brain Model — v1.0 Seed & v22 Lineage
 
 > Canonical anchor for the brain's executable core. The v1.0 spec the user supplied is the **foundational seed**; the vault's `cosmo-brain/executable_brain_model.py` is its direct, faithful descendant.
 > See also:  ·
@@ -249,10 +259,10 @@ All 8 v1.0 layers exist verbatim in `cosmo-brain/executable_brain_model.py` (70 
 ---
 **MOC:**
 ```
----
 
-**Related:** [[07_SKILLS/amos-governed-executable-knowledge-repair-rscf/amos-governed-executable-knowledge-repair-rscf_MOC|amos-governed-executable-knowledge-repair-rscf_MOC]]
----
+______________________________________________________________________
+
+## **Related:** [[07_SKILLS/amos-governed-executable-knowledge-repair-rscf/amos-governed-executable-knowledge-repair-rscf_MOC|amos-governed-executable-knowledge-repair-rscf_MOC]]
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -260,12 +270,14 @@ All 8 v1.0 layers exist verbatim in `cosmo-brain/executable_brain_model.py` (70 
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-governed-executable-knowledge-repair-rscf-vault-domain-knowledge
 node_type: reference
 path: 07_SKILLS/amos-governed-executable-knowledge-repair-rscf/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

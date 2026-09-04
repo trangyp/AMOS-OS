@@ -1,14 +1,17 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: brain taskengine integration
 type: reference
 source: 07_SKILLS/amos-os-runtime-master/references
 tags:
-- reference
-- amos-os-runtime-master
-- type/skill
-- integration
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-os-runtime-master
+  - type/skill
+  - integration
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -21,10 +24,11 @@ rscf:
 > Source: `_00_Cosmo brain/reports/AMOS_BRAIN_TASKENGINE_INTEGRATION_COMPLETE.md`
 > Epistemic class: SOURCE_DERIVED
 
----
-tags: [reports]
----
-# AMOS Brain - TaskEngine Integration: **COMPLETE**
+______________________________________________________________________
+
+## tags: [reports]
+
+## AMOS Brain - TaskEngine Integration: **COMPLETE**
 
 ## MISSION ACCOMPLISHED
 
@@ -33,14 +37,16 @@ tags: [reports]
 **DETERMINISM**: ✅ Unified execution pipeline operational
 **SPEED**: ✅ Parallel processing with governance enforcement
 
----
+______________________________________________________________________
 
 ## CORE INTEGRATION ACHIEVED
 
 ### 1. AMOS Brain Tensor Field Engine (`amos_brain_tensor_field_engine.py`)
+
 **MULTI-SCALE TENSOR FIELD ANALYSIS** - Models reality as S_t = T(Agents, Signals, Power, Incentives, Enforcement, Information, Constraints, Time)
 
 **Key Features**:
+
 - **Agent Representation**: A_i = (resources, incentives, constraints, network, information, enforcementExposure, leverage, entropyPosition)
 - **Agent Pack Coordination**: P_j for coordinated actors
 - **Structural Invariants**: ∂S/∂t = 0 under transformation group G
@@ -52,9 +58,11 @@ tags: [reports]
 - **Internet Enhancement**: State-of-the-art research integration
 
 ### 2. Core Kernels Engine (`core_kernels_engine.py`)
+
 **11 DETERMINISTIC KERNELS** - K = {Governance, Incentive, Enforcement, Information, Recourse, Audit, Evolution, Drift, Collapse, OutputScan, Logging}
 
 **Kernel Capabilities**:
+
 - **Governance Kernel**: Rule enforcement and compliance checking
 - **Incentive Kernel**: Incentive structure analysis and alignment
 - **Enforcement Kernel**: Enforcement mechanism effectiveness
@@ -68,9 +76,11 @@ tags: [reports]
 - **Logging Kernel**: Comprehensive system logging
 
 ### 3. Brain-TaskEngine Integration (`amos_brain_taskengine_integration.py`)
+
 **UNIFIED EXECUTION PIPELINE** - Combines TaskEngine's 9-state machine with AMOS Brain's tensor field analysis
 
 **Integration Features**:
+
 - **TaskEngine Compliance**: All brain tasks execute through TaskEngine state machine
 - **Brain Task Types**: 7 specialized task types for different analyses
 - **Unified Parameters**: Standardized BrainTaskParameters for all operations
@@ -79,11 +89,12 @@ tags: [reports]
 - **FreezeZone Protection**: Evidence integrity throughout execution
 - **Parallel Processing**: Multi-threaded execution for performance
 
----
+______________________________________________________________________
 
 ## PROVEN FUNCTIONALITY
 
 ### Test Results ✅
+
 ```
 🧠 Brain TaskEngine initialization... ✅ PASSED
 🔧 Tensor field analysis task... ✅ PASSED
@@ -98,6 +109,7 @@ tags: [reports]
 ```
 
 **Verified Capabilities**:
+
 - **TaskEngine Integration**: All brain tasks execute through 9-state machine
 - **Tensor Field Analysis**: Multi-scale agent representation functional
 - **Core Kernels**: All 11 kernels executing deterministically
@@ -107,13 +119,15 @@ tags: [reports]
 - **Internet Enhancement**: Research integration operational
 - **Parallel Execution**: Multi-threaded processing wo
 
----
+______________________________________________________________________
+
 **MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -121,12 +135,14 @@ tags: [reports]
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-os-runtime-master-brain-taskengine-integration
 node_type: reference
 path: 07_SKILLS/amos-os-runtime-master/references/brain_taskengine_integration.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

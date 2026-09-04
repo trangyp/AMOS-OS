@@ -2,16 +2,16 @@
 type: test
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L03_PERCEPT_FORMATION
 tags:
-- amos
-- cognitive-matrix
-- matrix/l03
-- percept-formation
-- tests
-- validation
-- rscf
-- provenance
-- governance
-- domain/cognitive-matrix
+  - amos
+  - cognitive-matrix
+  - matrix/l03
+  - percept-formation
+  - tests
+  - validation
+  - rscf
+  - provenance
+  - governance
+  - domain/cognitive-matrix
 title: L03_PERCEPT_FORMATION — Tests
 origin_architect: Trang Phan
 status: MODEL_TEST_CONTRACT / UNEXECUTED / UNVALIDATED
@@ -82,9 +82,9 @@ PROPOSAL != COMMIT
 UNKNOWN/GAP != PASS
 ```
 
----
+______________________________________________________________________
 
-# 1. Source / Canon References
+## 1. Source / Canon References
 
 ## 1.1 Source-aligned validation principles
 
@@ -133,21 +133,21 @@ RSCF[
 
 with:
 
-[
-Conf(C)\leq\min_i Conf(P_i)
-]
+\[
+Conf(C)\\leq\\min_i Conf(P_i)
+\]
 
-[
+\[
 IndependentSupport(C)
-\leq
+\\leq
 DemonstratedIndependentProvenanceFamilies(C)
-]
+\]
 
 and:
 
-[
-Invalid(P)\Rightarrow Invalid(Descendants(P))
-]
+\[
+Invalid(P)\\Rightarrow Invalid(Descendants(P))
+\]
 
 The same architecture requires independent challenge paths checking stale context, correlated provenance, hidden dependencies, tensor mismatches, architecture drift, local-pass/global-fail conditions, causal overreach, authority mismatch, and repair regressions.
 
@@ -186,9 +186,9 @@ canonical_empirical_validation_protocol: UNKNOWN_GAP
 
 Therefore the L03-specific tests below are `AMOS_MODEL`, not recovered canon.
 
----
+______________________________________________________________________
 
-# 2. Definition and Scope
+## 2. Definition and Scope
 
 `L03_PERCEPT_FORMATION_TEST_CONTRACT` defines tests capable of evaluating whether an L03 implementation or candidate implementation obeys the percept-formation contract.
 
@@ -239,9 +239,9 @@ universal benchmark superiority
 real-world deployment authority
 ```
 
----
+______________________________________________________________________
 
-# 3. Test Epistemic Classes
+## 3. Test Epistemic Classes
 
 Every test result shall be explicitly typed.
 
@@ -267,9 +267,9 @@ MUST NOT
 be reported as EXECUTED_OBSERVATION.
 ```
 
----
+______________________________________________________________________
 
-# 4. Typed Inputs
+## 4. Typed Inputs
 
 ```yaml
 L03TestInput:
@@ -317,9 +317,9 @@ L03TestInput:
     type: Seed | null
 ```
 
----
+______________________________________________________________________
 
-# 5. Typed Outputs
+## 5. Typed Outputs
 
 ```yaml
 L03TestResult:
@@ -373,9 +373,9 @@ L03TestResult:
     type: boolean
 ```
 
----
+______________________________________________________________________
 
-# 6. State Variables
+## 6. State Variables
 
 ```text
 T_def     = test definition state
@@ -403,9 +403,9 @@ Repair_t  = repair state
 
 Canonical identifiers remain `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
-# 7. Test Operators
+## 7. Test Operators
 
 Candidate operators:
 
@@ -440,9 +440,9 @@ CLASSIFY_RESULT
 
 These are model-level operator names pending direct canon.
 
----
+______________________________________________________________________
 
-# 8. Test Invariants
+## 8. Test Invariants
 
 ```text
 TEST-INV-001
@@ -536,9 +536,9 @@ TEST-INV-030
 ADDRESSABLE != VALIDATED.
 ```
 
----
+______________________________________________________________________
 
-# 9. Dependencies
+## 9. Dependencies
 
 ## Upstream
 
@@ -585,9 +585,9 @@ AMOS control plane
 AMOS authority governance
 ```
 
----
+______________________________________________________________________
 
-# 10. H/M/L Test Applicability
+## 10. H/M/L Test Applicability
 
 ## L — Local tests
 
@@ -644,9 +644,9 @@ H PASS
 
 A complete L03 validation requires whatever scale closure is load-bearing for the claim being tested.
 
----
+______________________________________________________________________
 
-# 11. Control-Plane Requirements
+## 11. Control-Plane Requirements
 
 The L03 test worker may:
 
@@ -691,9 +691,9 @@ REVALIDATE:
   authority
 ```
 
----
+______________________________________________________________________
 
-# 12. Agents
+## 12. Agents
 
 Candidate agents:
 
@@ -720,9 +720,9 @@ INDEPENDENT VALIDATOR
 
 where independence is required for a consequential conclusion.
 
----
+______________________________________________________________________
 
-# 13. Skills
+## 13. Skills
 
 Candidate supporting Skills:
 
@@ -744,9 +744,9 @@ AMOS Repair Harm Auditor
 
 Skill existence remains distinct from successful execution.
 
----
+______________________________________________________________________
 
-# 14. Test Workflow
+## 14. Test Workflow
 
 ```text
 LOCK TEST CLAIM
@@ -788,9 +788,9 @@ RUN REGRESSION
 ISSUE RSCF RESULT
 ```
 
----
+______________________________________________________________________
 
-# 15. Protocols
+## 15. Protocols
 
 Candidate protocols:
 
@@ -811,9 +811,9 @@ L03_TEST_PROMOTION_PROPOSAL
 
 Canonical protocol names remain `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
-# 16. Test Evidence / Provenance
+## 16. Test Evidence / Provenance
 
 Every executed test should produce evidence approximately equivalent to:
 
@@ -859,9 +859,9 @@ This is aligned with the Skill Builder execution-evidence model.
 
 No such execution evidence currently exists for the proposed L03 suite.
 
----
+______________________________________________________________________
 
-# 17. Validation Layers
+## 17. Validation Layers
 
 ```text
 V0 — DEFINITION VALIDATION
@@ -903,9 +903,9 @@ DOES NOT IMPLY
 PASS(Vn+1)
 ```
 
----
+______________________________________________________________________
 
-# 18. Core Functional Tests
+## 18. Core Functional Tests
 
 ## TEST-L03-001 — Valid observation admission
 
@@ -934,7 +934,7 @@ source identity lost
 observation rewritten as interpretation
 ```
 
----
+______________________________________________________________________
 
 ## TEST-L03-002 — Missing provenance
 
@@ -958,7 +958,7 @@ or UNKNOWN/GAP
 silent PASS
 ```
 
----
+______________________________________________________________________
 
 ## TEST-L03-003 — Attention/truth firewall
 
@@ -982,7 +982,7 @@ but B confidence must not exceed evidence support
 because of attention alone.
 ```
 
----
+______________________________________________________________________
 
 ## TEST-L03-004 — Feature/source lineage
 
@@ -1000,7 +1000,7 @@ Failure:
 derived feature becomes provenance-free primitive
 ```
 
----
+______________________________________________________________________
 
 ## TEST-L03-005 — Feature/object firewall
 
@@ -1013,9 +1013,9 @@ feature hypothesis retained
 object identity not automatically established
 ```
 
----
+______________________________________________________________________
 
-# 19. Relation Tests
+## 19. Relation Tests
 
 ## TEST-L03-010 — Temporal relation
 
@@ -1033,7 +1033,7 @@ Forbidden:
 causal relation inferred solely from sequence
 ```
 
----
+______________________________________________________________________
 
 ## TEST-L03-011 — Co-occurrence causal firewall
 
@@ -1051,7 +1051,7 @@ not:
 VERIFIED_CAUSATION
 ```
 
----
+______________________________________________________________________
 
 ## TEST-L03-012 — Relation ambiguity
 
@@ -1071,9 +1071,9 @@ COMPETING relation hypotheses
 
 unless discriminating evidence resolves them.
 
----
+______________________________________________________________________
 
-# 20. Binding Tests
+## 20. Binding Tests
 
 ## TEST-L03-020 — Valid binding
 
@@ -1086,7 +1086,7 @@ binding candidate created
 source components retained
 ```
 
----
+______________________________________________________________________
 
 ## TEST-L03-021 — Binding/identity firewall
 
@@ -1104,7 +1104,7 @@ Forbidden:
 automatic same-entity conclusion
 ```
 
----
+______________________________________________________________________
 
 ## TEST-L03-022 — Ambiguous binding
 
@@ -1123,7 +1123,7 @@ COMPETING
 
 not arbitrary winner selection.
 
----
+______________________________________________________________________
 
 ## TEST-L03-023 — Unbinding
 
@@ -1137,9 +1137,9 @@ dependent percept candidates invalidated
 unrelated percept state preserved
 ```
 
----
+______________________________________________________________________
 
-# 21. Percept Candidate Tests
+## 21. Percept Candidate Tests
 
 ## TEST-L03-030 — Candidate generation
 
@@ -1159,7 +1159,7 @@ candidate percept generated
 with complete dependency/provenance graph
 ```
 
----
+______________________________________________________________________
 
 ## TEST-L03-031 — Candidate != fact
 
@@ -1185,7 +1185,7 @@ VERIFIED_EXTERNAL_FACT
 
 solely because internal coherence is high.
 
----
+______________________________________________________________________
 
 ## TEST-L03-032 — Multiple candidates
 
@@ -1199,9 +1199,9 @@ both preserved
 
 until a discriminating test resolves competition.
 
----
+______________________________________________________________________
 
-# 22. H/M/L Tests
+## 22. H/M/L Tests
 
 ## TEST-L03-040 — Upward aggregation
 
@@ -1215,7 +1215,7 @@ L → M candidate aggregation
 
 with retained downward lineage.
 
----
+______________________________________________________________________
 
 ## TEST-L03-041 — H-level contamination
 
@@ -1234,7 +1234,7 @@ Forbidden:
 rewriting L evidence to fit H
 ```
 
----
+______________________________________________________________________
 
 ## TEST-L03-042 — Cross-scale conflict
 
@@ -1263,9 +1263,9 @@ Forbidden:
 automatic H-majority override
 ```
 
----
+______________________________________________________________________
 
-# 23. Memory Tests
+## 23. Memory Tests
 
 ## TEST-L03-050 — Memory/current-observation separation
 
@@ -1287,7 +1287,7 @@ Expected:
 memory and observation remain separately typed
 ```
 
----
+______________________________________________________________________
 
 ## TEST-L03-051 — Stale memory
 
@@ -1301,7 +1301,7 @@ CONDITIONAL
 or excluded from load-bearing support
 ```
 
----
+______________________________________________________________________
 
 ## TEST-L03-052 — Memory contamination
 
@@ -1313,9 +1313,9 @@ Expected:
 memory cannot silently rewrite source observation
 ```
 
----
+______________________________________________________________________
 
-# 24. Provenance Tests
+## 24. Provenance Tests
 
 ## TEST-L03-060 — Shared ancestry
 
@@ -1337,7 +1337,7 @@ not 3.
 
 This follows the AMOS requirement that independent support cannot exceed demonstrated independent provenance families.
 
----
+______________________________________________________________________
 
 ## TEST-L03-061 — Unknown ancestry
 
@@ -1351,7 +1351,7 @@ independence = UNKNOWN
 
 not assumed independent.
 
----
+______________________________________________________________________
 
 ## TEST-L03-062 — Provenance loss
 
@@ -1364,9 +1364,9 @@ dependent percept confidence lowered
 or branch quarantined
 ```
 
----
+______________________________________________________________________
 
-# 25. Scope / Regime Tests
+## 25. Scope / Regime Tests
 
 ## TEST-L03-070 — Scope leakage
 
@@ -1380,7 +1380,7 @@ Expected:
 revalidation required
 ```
 
----
+______________________________________________________________________
 
 ## TEST-L03-071 — Regime shift
 
@@ -1394,7 +1394,7 @@ Expected:
 previous validation cannot silently authorize current state
 ```
 
----
+______________________________________________________________________
 
 ## TEST-L03-072 — Freshness expiration
 
@@ -1408,9 +1408,9 @@ dependent conclusion becomes stale/conditional/invalid
 
 according to dependency structure.
 
----
+______________________________________________________________________
 
-# 26. Confidence Tests
+## 26. Confidence Tests
 
 ## TEST-L03-080 — Weakest premise ceiling
 
@@ -1432,7 +1432,7 @@ Conf(percept) <= Conf(P3)
 
 unless P3 is independently revalidated.
 
----
+______________________________________________________________________
 
 ## TEST-L03-081 — Repetition inflation
 
@@ -1444,7 +1444,7 @@ Expected:
 confidence does not increase as if duplicates were independent evidence
 ```
 
----
+______________________________________________________________________
 
 ## TEST-L03-082 — Agent-count inflation
 
@@ -1456,9 +1456,9 @@ Expected:
 agent count does not become independent evidence count
 ```
 
----
+______________________________________________________________________
 
-# 27. Failure / Recovery Tests
+## 27. Failure / Recovery Tests
 
 ## TEST-L03-090 — Selective invalidation
 
@@ -1480,11 +1480,11 @@ P2 preserved
 
 This is aligned with the AMOS selective dependency rule:
 
-[
-Invalid(P)\Rightarrow Invalid(Descendants(P))
-]
+\[
+Invalid(P)\\Rightarrow Invalid(Descendants(P))
+\]
 
----
+______________________________________________________________________
 
 ## TEST-L03-091 — Rollback
 
@@ -1504,7 +1504,7 @@ nearest valid recovery point = S1
 
 not arbitrary global reset.
 
----
+______________________________________________________________________
 
 ## TEST-L03-092 — Failed-path repetition
 
@@ -1530,7 +1530,7 @@ retry rejected / blocked
 
 AMOS repair guidance explicitly prohibits repeating a failed path without a changed condition.
 
----
+______________________________________________________________________
 
 ## TEST-L03-093 — Repair revalidation
 
@@ -1546,7 +1546,7 @@ VALIDATED
 
 Affected tests must rerun.
 
----
+______________________________________________________________________
 
 ## TEST-L03-094 — Regression preservation
 
@@ -1560,9 +1560,9 @@ AND
 protected prior behavior remains valid
 ```
 
----
+______________________________________________________________________
 
-# 28. Authority Tests
+## 28. Authority Tests
 
 ## TEST-L03-100 — Capability/authority firewall
 
@@ -1575,7 +1575,7 @@ mutation rejected
 or converted to proposal
 ```
 
----
+______________________________________________________________________
 
 ## TEST-L03-101 — Proposal/commit firewall
 
@@ -1591,7 +1591,7 @@ Expected:
 no durable commit until external authority validation
 ```
 
----
+______________________________________________________________________
 
 ## TEST-L03-102 — Stale authority
 
@@ -1603,9 +1603,9 @@ Expected:
 commit denied
 ```
 
----
+______________________________________________________________________
 
-# 29. UNKNOWN/GAP Tests
+## 29. UNKNOWN/GAP Tests
 
 ## TEST-L03-110 — Load-bearing unknown
 
@@ -1621,7 +1621,7 @@ Expected:
 overall != PASS
 ```
 
----
+______________________________________________________________________
 
 ## TEST-L03-111 — Missing canonical threshold
 
@@ -1639,7 +1639,7 @@ Forbidden:
 invent threshold
 ```
 
----
+______________________________________________________________________
 
 ## TEST-L03-112 — Missing implementation
 
@@ -1657,9 +1657,9 @@ not:
 PASS
 ```
 
----
+______________________________________________________________________
 
-# 30. Adversarial Tests
+## 30. Adversarial Tests
 
 The Skill Builder requires challenge paths that actively seek correlated provenance, hidden dependencies, stale context, architecture drift, local-pass/global-fail conditions, causal overreach, and authority mismatch.
 
@@ -1703,9 +1703,9 @@ ADV-L03-012
 Unknown canonical value presented as default.
 ```
 
----
+______________________________________________________________________
 
-# 31. Metamorphic Tests
+## 31. Metamorphic Tests
 
 Where direct perceptual truth is unavailable, test invariant-preserving transformations.
 
@@ -1777,9 +1777,9 @@ processing path may change
 truth/evidence class must not change solely because of attention
 ```
 
----
+______________________________________________________________________
 
-# 32. Negative Tests
+## 32. Negative Tests
 
 Explicitly test forbidden outcomes.
 
@@ -1825,9 +1825,9 @@ Can an unexecuted suite be called validated?
 Expected: NO.
 ```
 
----
+______________________________________________________________________
 
-# 33. Test Matrix
+## 33. Test Matrix
 
 | Domain             | Positive | Negative | Failure Injection | Recovery | Adversarial |
 | ------------------ | -------: | -------: | ----------------: | -------: | ----------: |
@@ -1848,9 +1848,9 @@ Expected: NO.
 
 This matrix represents **test-definition coverage**, not executed coverage.
 
----
+______________________________________________________________________
 
-# 34. Failure Modes of the Test System
+## 34. Failure Modes of the Test System
 
 ```text
 TFM-001
@@ -1914,9 +1914,9 @@ TFM-020
 Successful test self-authorizes promotion or commit.
 ```
 
----
+______________________________________________________________________
 
-# 35. Repair / Recovery
+## 35. Repair / Recovery
 
 Candidate repair loop:
 
@@ -1973,9 +1973,9 @@ MERELY TO MAKE THE IMPLEMENTATION PASS.
 
 If the oracle itself is shown to be wrong, its change must be separately provenance-bound and versioned.
 
----
+______________________________________________________________________
 
-# 36. Test Result Classification
+## 36. Test Result Classification
 
 ```yaml
 ResultClassification:
@@ -2012,34 +2012,32 @@ ResultClassification:
       - test exists conceptually but has not run
 ```
 
----
+______________________________________________________________________
 
-# 37. Promotion Gate
+## 37. Promotion Gate
 
 Candidate promotion equation:
 
-[
-Promotable
-==========
+## \[ Promotable
 
 SchemaPass
-\land
+\\land
 TypePass
-\land
+\\land
 InvariantPass
-\land
+\\land
 SpecPass
-\land
+\\land
 RegressionPass
-\land
+\\land
 ProvenancePass
-\land
+\\land
 ScopeValid
-\land
+\\land
 RegimeValid
-\land
+\\land
 AuthorityValid
-]
+\]
 
 `AMOS_MODEL`.
 
@@ -2053,18 +2051,18 @@ Committed
 
 Commit remains control-plane governed.
 
----
+______________________________________________________________________
 
-# 38. Confidence Ceiling
+## 38. Confidence Ceiling
 
 A test conclusion may not exceed the weakest load-bearing element supporting it.
 
 Candidate:
 
-[
+\[
 Conf(TestConclusion)
-\leq
-\min(
+\\leq
+\\min(
 Conf(Oracle),
 Conf(Fixture),
 Conf(Execution),
@@ -2072,7 +2070,7 @@ Conf(Provenance),
 Conf(Scope),
 Conf(Regime)
 )
-]
+\]
 
 `AMOS_MODEL`.
 
@@ -2086,9 +2084,9 @@ for claims that the test passed.
 
 This does **not** mean confidence in the conceptual quality of the test definition must be zero; those are different claims.
 
----
+______________________________________________________________________
 
-# 39. Falsifiers
+## 39. Falsifiers
 
 Revise this test contract if direct canonical evidence establishes:
 
@@ -2122,9 +2120,9 @@ is incompatible with canonical L03 semantics
 
 should invalidate the affected model test, not silently rewrite source evidence.
 
----
+______________________________________________________________________
 
-# 40. Gap Matrix
+## 40. Gap Matrix
 
 ```yaml
 gap_status:
@@ -2199,9 +2197,9 @@ gap_status:
     status: CRITICAL_GAP
 ```
 
----
+______________________________________________________________________
 
-# 41. RSCF Completion State
+## 41. RSCF Completion State
 
 ```yaml
 rscf:
@@ -2323,9 +2321,9 @@ rscf:
     injections.
 ```
 
----
+______________________________________________________________________
 
-# 42. Completion State
+## 42. Completion State
 
 ```yaml
 completion_state:
@@ -2409,9 +2407,9 @@ completion_state:
     MODEL
 ```
 
----
+______________________________________________________________________
 
-# 43. Hard Boundaries
+## 43. Hard Boundaries
 
 ```text
 PLACEHOLDER != IMPLEMENTED
@@ -2463,15 +2461,15 @@ PROMOTABLE != COMMITTED
 UNEXECUTED TEST != EVIDENCE OF PASS
 ```
 
----
+______________________________________________________________________
 
-# 44. Governing Test Contract
+## 44. Governing Test Contract
 
 > **`L03_PERCEPT_FORMATION` SHALL be validated through typed, provenance-bound, scope- and regime-aware tests that distinguish test definition from execution and execution from specification, system, regression, and empirical validity. Tests SHALL verify observation/percept separation, attention/truth separation, feature and relation lineage, binding/identity separation, preservation of competing percepts, H/M/L integrity, memory/current-observation separation, provenance independence, dependency propagation, freshness, uncertainty, confidence ceilings, selective invalidation, repair, rollback, and authority boundaries. Failed tests SHALL remain visible after repair; repairs SHALL trigger affected re-execution and regression validation; correlated evidence SHALL NOT manufacture independent confirmation; `UNKNOWN/GAP` SHALL NOT pass; and successful validation SHALL NOT self-authorize durable state mutation or commit. No L03 test SHALL be reported as executed, passed, formally verified, empirically validated, or deployment-authorizing without corresponding execution evidence and applicable authority.**
 
----
+______________________________________________________________________
 
-# 45. Canon Boundary
+## 45. Canon Boundary
 
 ```text
 SOURCE / ARCHITECTURE-ALIGNED:
@@ -2626,23 +2624,26 @@ EMPIRICAL PERCEPTUAL VALIDITY:
 NOT ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: l03_percept_formation_primitives_cognitive_matrix_tests
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L03_PERCEPT_FORMATION/L03_PERCEPT_FORMATION_PRIMITIVES_COGNITIVE_MATRIX_TESTS.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L03_PERCEPT_FORMATION/L03_PERCEPT_FORMATION_MOC|L03_PERCEPT_FORMATION_MOC]]
-

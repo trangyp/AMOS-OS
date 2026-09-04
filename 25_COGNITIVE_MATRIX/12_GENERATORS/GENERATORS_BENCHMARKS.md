@@ -12,20 +12,20 @@ segment: 25_COGNITIVE_MATRIX/12_GENERATORS
 artifact_kind: NOTE
 path: 25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_BENCHMARKS.md
 tags:
-- 12-generators
-- 12_generators
-- amos-os
-- benchmarks
-- domain/cognitive-matrix
-- canon/universe
-- generators
-- note
-- rscf
-- placeholder_expanded
-- validation
-- integration
-- roadmap
-- generators-change-log
+  - 12-generators
+  - 12_generators
+  - amos-os
+  - benchmarks
+  - domain/cognitive-matrix
+  - canon/universe
+  - generators
+  - note
+  - rscf
+  - placeholder_expanded
+  - validation
+  - integration
+  - roadmap
+  - generators-change-log
 version: 0.2.0
 updated: '2026-08-27'
 status: PLACEHOLDER_EXPANDED
@@ -102,7 +102,7 @@ Origin architect / steward: **Trang Phan**
 
 System: **AMOS OS**
 
----
+______________________________________________________________________
 
 # 12 Generators Benchmarks
 
@@ -122,9 +122,9 @@ System: **AMOS OS**
 >
 > **AMOS_CORE target:** `v4.4`
 
----
+______________________________________________________________________
 
-# 0. Purpose
+## 0. Purpose
 
 `GENERATORS_BENCHMARKS.md` defines the AMOS benchmark contract for the `12_GENERATORS` subsystem.
 
@@ -155,9 +155,9 @@ This artifact defines **what benchmarking evidence should look like**.
 
 It does not establish that any benchmark has run.
 
----
+______________________________________________________________________
 
-# 1. Core benchmark law
+## 1. Core benchmark law
 
 > **A benchmark result is valid only inside the exact scope, regime, environment, fixture set, version set, dependency set, and measurement method under which it was obtained.**
 
@@ -186,9 +186,9 @@ HIGH_THROUGHPUT
 != UNIVERSAL_VALIDITY
 ```
 
----
+______________________________________________________________________
 
-# 2. Benchmark versus test
+## 2. Benchmark versus test
 
 `TESTS.md` asks:
 
@@ -222,9 +222,9 @@ regression delta
 
 Both remain scoped evidence.
 
----
+______________________________________________________________________
 
-# 3. Benchmark versus validation
+## 3. Benchmark versus validation
 
 Validation determines whether Generator/output satisfies required conditions.
 
@@ -241,9 +241,9 @@ A fast Generator can fail validation.
 
 A validated Generator can have poor performance.
 
----
+______________________________________________________________________
 
-# 4. Benchmark versus production readiness
+## 4. Benchmark versus production readiness
 
 Production readiness requires more than benchmark performance.
 
@@ -267,15 +267,15 @@ BENCHMARK_GOOD
 != PRODUCTION_READY
 ```
 
----
+______________________________________________________________________
 
-# 5. Benchmark object model
+## 5. Benchmark object model
 
 A benchmark can be modeled as:
 
-[
+\[
 B =
-\langle
+\\langle
 Target,
 Profile,
 Fixtures,
@@ -286,21 +286,21 @@ Procedure,
 Evidence,
 Result,
 Uncertainty
-\rangle
-]
+\\rangle
+\]
 
 A benchmark result is:
 
-[
+\[
 R_B =
-Measure(Target \mid Profile, Environment, Fixtures)
-]
+Measure(Target \\mid Profile, Environment, Fixtures)
+\]
 
 It must not silently generalize outside that conditioning set.
 
----
+______________________________________________________________________
 
-# 6. Benchmark classes
+## 6. Benchmark classes
 
 ```yaml
 benchmark_classes:
@@ -401,9 +401,9 @@ benchmark_classes:
       - delta against accepted baseline
 ```
 
----
+______________________________________________________________________
 
-# 7. Benchmark target classes
+## 7. Benchmark target classes
 
 ```yaml
 benchmark_targets:
@@ -443,9 +443,9 @@ benchmark_targets:
 
 Do not mix target classes without explicitly defining the benchmark scope.
 
----
+______________________________________________________________________
 
-# 8. Typed benchmark definition
+## 8. Typed benchmark definition
 
 ```yaml
 generator_benchmark:
@@ -511,9 +511,9 @@ generator_benchmark:
     status: NOT_RUN
 ```
 
----
+______________________________________________________________________
 
-# 9. Typed benchmark result
+## 9. Typed benchmark result
 
 ```yaml
 generator_benchmark_result:
@@ -566,9 +566,9 @@ generator_benchmark_result:
     null
 ```
 
----
+______________________________________________________________________
 
-# 10. Benchmark identity
+## 10. Benchmark identity
 
 Every benchmark must bind:
 
@@ -590,9 +590,9 @@ same benchmark name
 
 if the definition or fixtures changed materially.
 
----
+______________________________________________________________________
 
-# 11. Fixture integrity
+## 11. Fixture integrity
 
 Benchmarks should bind exact fixture identity.
 
@@ -606,9 +606,9 @@ benchmark_fixture_set:
 
 A benchmark comparison is weak or invalid if fixture sets differ materially.
 
----
+______________________________________________________________________
 
-# 12. Fixture leakage
+## 12. Fixture leakage
 
 For learned/stochastic Generator systems, benchmark design should consider whether the target has already been exposed to benchmark fixtures.
 
@@ -623,9 +623,9 @@ CONFIRMED_LEAKAGE
 
 Do not claim independence when training/exposure provenance is unavailable.
 
----
+______________________________________________________________________
 
-# 13. Environment binding
+## 13. Environment binding
 
 Performance results depend on environment.
 
@@ -649,9 +649,9 @@ Therefore:
 != 10 ms universally
 ```
 
----
+______________________________________________________________________
 
-# 14. Hardware independence prohibition
+## 14. Hardware independence prohibition
 
 Do not publish:
 
@@ -670,9 +670,9 @@ fixture set F,
 Generator G@V.
 ```
 
----
+______________________________________________________________________
 
-# 15. Warm-up policy
+## 15. Warm-up policy
 
 Benchmarks should distinguish:
 
@@ -684,9 +684,9 @@ steady state
 
 A mixed result can hide meaningful operational behavior.
 
----
+______________________________________________________________________
 
-# 16. Repetition policy
+## 16. Repetition policy
 
 One run is often insufficient for performance claims.
 
@@ -700,9 +700,9 @@ sample count
 
 But repetition does not solve systematic bias.
 
----
+______________________________________________________________________
 
-# 17. Statistical reporting
+## 17. Statistical reporting
 
 For latency:
 
@@ -719,9 +719,9 @@ may be useful.
 
 Do not hide tail latency behind averages.
 
----
+______________________________________________________________________
 
-# 18. Correctness benchmark
+## 18. Correctness benchmark
 
 Correctness must be scoped to benchmark-defined expected outputs or properties.
 
@@ -741,17 +741,17 @@ Hard boundary:
 != 98% universal correctness
 ```
 
----
+______________________________________________________________________
 
-# 19. Schema-validity benchmark
+## 19. Schema-validity benchmark
 
 Metric:
 
-[
+\[
 SchemaPassRate =
-\frac{SchemaValidOutputs}
+\\frac{SchemaValidOutputs}
 {TotalOutputs}
-]
+\]
 
 This measures only structural conformance.
 
@@ -760,9 +760,9 @@ SchemaPassRate = 1.0
 != semantic validity
 ```
 
----
+______________________________________________________________________
 
-# 20. Semantic-truthfulness benchmark
+## 20. Semantic-truthfulness benchmark
 
 Possible benchmark properties:
 
@@ -776,33 +776,33 @@ status not inflated
 
 This may be more important than raw generation speed.
 
----
+______________________________________________________________________
 
-# 21. Unsupported-claim rate
+## 21. Unsupported-claim rate
 
 Potential metric:
 
-[
+\[
 UnsupportedClaimRate =
-\frac{UnsupportedClaims}
+\\frac{UnsupportedClaims}
 {TotalMaterialClaims}
-]
+\]
 
 Requires a valid annotation/validation process.
 
 Do not invent a score without a benchmark corpus and adjudication procedure.
 
----
+______________________________________________________________________
 
-# 22. Provenance preservation benchmark
+## 22. Provenance preservation benchmark
 
 Potential metric:
 
-[
+\[
 ProvenanceRetention =
-\frac{RequiredLineageEdgesRetained}
+\\frac{RequiredLineageEdgesRetained}
 {RequiredLineageEdges}
-]
+\]
 
 But:
 
@@ -811,9 +811,9 @@ But:
 != source truth
 ```
 
----
+______________________________________________________________________
 
-# 23. Independence handling benchmark
+## 23. Independence handling benchmark
 
 Fixture:
 
@@ -831,23 +831,23 @@ Expected target:
 effective roots = 1
 ```
 
----
+______________________________________________________________________
 
-# 24. Determinism benchmark
+## 24. Determinism benchmark
 
 For deterministic Generators:
 
-[
+\[
 ReplayEquivalence =
-\frac{EquivalentReplays}
+\\frac{EquivalentReplays}
 {TotalReplays}
-]
+\]
 
 under normalized volatile fields.
 
----
+______________________________________________________________________
 
-# 25. Stochastic Generator benchmark
+## 25. Stochastic Generator benchmark
 
 For stochastic Generators, measure:
 
@@ -861,17 +861,17 @@ semantic variance
 
 Do not require byte equivalence unless contractually declared.
 
----
+______________________________________________________________________
 
-# 26. Idempotency benchmark
+## 26. Idempotency benchmark
 
 Potential metric:
 
-[
+\[
 DuplicateEffectRate =
-\frac{DuplicateSemanticEffects}
+\\frac{DuplicateSemanticEffects}
 {RepeatedRequests}
-]
+\]
 
 Desired for strictly idempotent path:
 
@@ -881,9 +881,9 @@ Desired for strictly idempotent path:
 
 within tested scope.
 
----
+______________________________________________________________________
 
-# 27. CAS conflict benchmark
+## 27. CAS conflict benchmark
 
 Measure:
 
@@ -896,15 +896,15 @@ lost updates observed
 
 Potential metric:
 
-[
+\[
 StaleWritePreventionRate =
-\frac{BlockedStaleWrites}
+\\frac{BlockedStaleWrites}
 {InjectedStaleWrites}
-]
+\]
 
----
+______________________________________________________________________
 
-# 28. Atomicity benchmark
+## 28. Atomicity benchmark
 
 For multi-artifact bundles:
 
@@ -923,9 +923,9 @@ atomicity_required = true
 
 within tested cases.
 
----
+______________________________________________________________________
 
-# 29. Recovery benchmark
+## 29. Recovery benchmark
 
 Potential:
 
@@ -938,9 +938,9 @@ quarantine effectiveness
 
 These must be tied to failure type.
 
----
+______________________________________________________________________
 
-# 30. Failure-injection benchmark
+## 30. Failure-injection benchmark
 
 Benchmark may inject:
 
@@ -958,9 +958,9 @@ dependency mismatch
 
 Measure system response.
 
----
+______________________________________________________________________
 
-# 31. Routing benchmark
+## 31. Routing benchmark
 
 Potential metrics:
 
@@ -974,9 +974,9 @@ stale-route rejection
 
 Routing quality should not be compressed to one score if materially different properties are involved.
 
----
+______________________________________________________________________
 
-# 32. Validation benchmark
+## 32. Validation benchmark
 
 Potential metrics:
 
@@ -990,9 +990,9 @@ blocked invalid artifacts
 
 Validator quality must itself be benchmarked against adjudicated fixtures where possible.
 
----
+______________________________________________________________________
 
-# 33. False-positive benchmark
+## 33. False-positive benchmark
 
 Define:
 
@@ -1003,17 +1003,17 @@ invalid artifact accepted
 
 Potential metric:
 
-[
+\[
 FPR =
-\frac{InvalidAccepted}
+\\frac{InvalidAccepted}
 {InvalidCases}
-]
+\]
 
 For critical governance paths, low FPR may matter more than throughput.
 
----
+______________________________________________________________________
 
-# 34. False-negative benchmark
+## 34. False-negative benchmark
 
 Define:
 
@@ -1024,33 +1024,33 @@ valid artifact rejected
 
 Potential metric:
 
-[
+\[
 FNR =
-\frac{ValidRejected}
+\\frac{ValidRejected}
 {ValidCases}
-]
+\]
 
 Balance depends on risk class.
 
----
+______________________________________________________________________
 
-# 35. Unknown-rate benchmark
+## 35. Unknown-rate benchmark
 
 AMOS should not penalize truthful `UNKNOWN/GAP` merely for reducing completion rate.
 
 Track separately:
 
-[
+\[
 UnknownRate =
-\frac{UnknownResults}
+\\frac{UnknownResults}
 {TotalCases}
-]
+\]
 
 High unknown rate may indicate missing evidence, not bad reasoning.
 
----
+______________________________________________________________________
 
-# 36. Benchmark integrity priority
+## 36. Benchmark integrity priority
 
 When optimizing:
 
@@ -1071,9 +1071,9 @@ status truthfulness
 
 This follows AMOS anti-regression law.
 
----
+______________________________________________________________________
 
-# 37. Throughput benchmark
+## 37. Throughput benchmark
 
 Potential metric:
 
@@ -1091,9 +1091,9 @@ These are distinct.
 
 Do not compare them as equivalent.
 
----
+______________________________________________________________________
 
-# 38. End-to-end throughput
+## 38. End-to-end throughput
 
 Potential end-to-end path:
 
@@ -1110,9 +1110,9 @@ request
 
 This measures a different system than Generator-only throughput.
 
----
+______________________________________________________________________
 
-# 39. Latency decomposition
+## 39. Latency decomposition
 
 Track:
 
@@ -1129,9 +1129,9 @@ commit latency
 
 This helps isolate bottlenecks.
 
----
+______________________________________________________________________
 
-# 40. Cost benchmark
+## 40. Cost benchmark
 
 Potential dimensions:
 
@@ -1146,9 +1146,9 @@ network bandwidth
 
 Cost should remain scoped to environment and workload.
 
----
+______________________________________________________________________
 
-# 41. Token-use benchmark
+## 41. Token-use benchmark
 
 For LLM-assisted generation:
 
@@ -1161,9 +1161,9 @@ tokens per accepted artifact
 
 But minimizing tokens must not weaken correctness or provenance.
 
----
+______________________________________________________________________
 
-# 42. Memory benchmark
+## 42. Memory benchmark
 
 Track:
 
@@ -1174,9 +1174,9 @@ steady-state memory
 memory per concurrent task
 ```
 
----
+______________________________________________________________________
 
-# 43. Storage benchmark
+## 43. Storage benchmark
 
 Potential:
 
@@ -1188,25 +1188,25 @@ registry overhead
 event-log overhead
 ```
 
----
+______________________________________________________________________
 
-# 44. Provenance-overhead benchmark
+## 44. Provenance-overhead benchmark
 
 AMOS may explicitly measure cost of governance.
 
 Example:
 
-[
+\[
 ProvenanceOverhead =
-\frac{Time_{with\ provenance} - Time_{baseline}}
-{Time_{baseline}}
-]
+\\frac{Time\_{with\\ provenance} - Time\_{baseline}}
+{Time\_{baseline}}
+\]
 
 But baseline must not represent a system that violates required integrity.
 
----
+______________________________________________________________________
 
-# 45. Integrity-adjusted performance
+## 45. Integrity-adjusted performance
 
 A fast path that skips required controls should not win.
 
@@ -1218,9 +1218,9 @@ iff
 required invariants equivalent
 ```
 
----
+______________________________________________________________________
 
-# 46. Benchmark equivalence condition
+## 46. Benchmark equivalence condition
 
 Before comparing A and B, require compatible:
 
@@ -1241,9 +1241,9 @@ Otherwise label comparison:
 NON_EQUIVALENT
 ```
 
----
+______________________________________________________________________
 
-# 47. Generator-version comparison
+## 47. Generator-version comparison
 
 ```yaml
 benchmark_comparison:
@@ -1260,9 +1260,9 @@ benchmark_comparison:
     UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 48. Regression benchmark
+## 48. Regression benchmark
 
 A new Generator version should be compared against a validated baseline where available.
 
@@ -1277,9 +1277,9 @@ security delta
 provenance delta
 ```
 
----
+______________________________________________________________________
 
-# 49. Anti-regression benchmark
+## 49. Anti-regression benchmark
 
 A performance improvement fails if it degrades critical integrity.
 
@@ -1298,9 +1298,9 @@ REGRESSION
 
 despite speed improvement.
 
----
+______________________________________________________________________
 
-# 50. Benchmark baseline
+## 50. Benchmark baseline
 
 Baseline must be named:
 
@@ -1314,9 +1314,9 @@ benchmark_baseline:
 
 Never use an unstated implicit baseline.
 
----
+______________________________________________________________________
 
-# 51. Benchmark scorecard
+## 51. Benchmark scorecard
 
 Prefer vectorized result:
 
@@ -1347,9 +1347,9 @@ scorecard:
 
 Avoid hiding tradeoffs inside a single opaque score.
 
----
+______________________________________________________________________
 
-# 52. Composite score rule
+## 52. Composite score rule
 
 If a composite score is used, document:
 
@@ -1363,9 +1363,9 @@ hard constraints
 
 Hard constraints must remain separate from soft optimization.
 
----
+______________________________________________________________________
 
-# 53. Hard-gate versus score
+## 53. Hard-gate versus score
 
 Example:
 
@@ -1377,9 +1377,9 @@ latency = ranking metric
 
 A low latency score cannot compensate for provenance failure.
 
----
+______________________________________________________________________
 
-# 54. Benchmark thresholds
+## 54. Benchmark thresholds
 
 Thresholds should be:
 
@@ -1398,9 +1398,9 @@ p95 must always be <100 ms
 
 without actual requirements.
 
----
+______________________________________________________________________
 
-# 55. Benchmark profiles
+## 55. Benchmark profiles
 
 Suggested profiles:
 
@@ -1445,9 +1445,9 @@ benchmark_profiles:
       - complete governed path
 ```
 
----
+______________________________________________________________________
 
-# 56. Benchmark workload classes
+## 56. Benchmark workload classes
 
 ```text
 SMALL
@@ -1459,9 +1459,9 @@ ADVERSARIAL
 
 Exact definitions should use concrete dimensions rather than names alone.
 
----
+______________________________________________________________________
 
-# 57. Input-size scaling
+## 57. Input-size scaling
 
 Benchmark:
 
@@ -1481,9 +1481,9 @@ output size
 validation time
 ```
 
----
+______________________________________________________________________
 
-# 58. Dependency-depth scaling
+## 58. Dependency-depth scaling
 
 Potential benchmark:
 
@@ -1496,9 +1496,9 @@ deep dependency closure
 
 Measure whether traversal remains selective rather than loading all raw evidence.
 
----
+______________________________________________________________________
 
-# 59. H/M/L benchmark
+## 59. H/M/L benchmark
 
 Potential metrics by level:
 
@@ -1515,9 +1515,9 @@ exact artifact generation latency
 
 Do not infer H-level correctness from L-level speed.
 
----
+______________________________________________________________________
 
-# 60. Raw-evidence loading benchmark
+## 60. Raw-evidence loading benchmark
 
 AMOS default:
 
@@ -1536,9 +1536,9 @@ eager full loading
 
 but both must preserve required answer integrity.
 
----
+______________________________________________________________________
 
-# 61. Fast-path benchmark
+## 61. Fast-path benchmark
 
 AMOS v4.4-style local fast path may be benchmarked only when:
 
@@ -1552,9 +1552,9 @@ non-conflict established
 
 Otherwise comparison is invalid.
 
----
+______________________________________________________________________
 
-# 62. Fast-path metrics
+## 62. Fast-path metrics
 
 Potential:
 
@@ -1568,9 +1568,9 @@ stale-hit rejection rate
 
 Do not benchmark “fast path” by skipping required checks.
 
----
+______________________________________________________________________
 
-# 63. Cache benchmark
+## 63. Cache benchmark
 
 Measure:
 
@@ -1584,9 +1584,9 @@ invalid-hit rejection
 
 A high hit rate can be harmful if stale validation is reused.
 
----
+______________________________________________________________________
 
-# 64. Benchmark event taxonomy
+## 64. Benchmark event taxonomy
 
 Suggested:
 
@@ -1601,9 +1601,9 @@ GENERATOR_BENCHMARK_INVALIDATED
 GENERATOR_BENCHMARK_BASELINE_PROMOTED
 ```
 
----
+______________________________________________________________________
 
-# 65. Benchmark event envelope
+## 65. Benchmark event envelope
 
 ```yaml
 generator_benchmark_event:
@@ -1626,9 +1626,9 @@ generator_benchmark_event:
   timestamp: null
 ```
 
----
+______________________________________________________________________
 
-# 66. Benchmark provenance
+## 66. Benchmark provenance
 
 Each result should retain:
 
@@ -1643,9 +1643,9 @@ aggregation method
 result
 ```
 
----
+______________________________________________________________________
 
-# 67. Raw benchmark evidence
+## 67. Raw benchmark evidence
 
 Raw measurement data should be preserved when feasible for:
 
@@ -1658,9 +1658,9 @@ regression analysis
 
 But privacy/security requirements may constrain retention.
 
----
+______________________________________________________________________
 
-# 68. Benchmark receipt
+## 68. Benchmark receipt
 
 ```yaml
 generator_benchmark_receipt:
@@ -1697,9 +1697,9 @@ generator_benchmark_receipt:
     UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 69. Benchmark receipt boundary
+## 69. Benchmark receipt boundary
 
 ```text
 BENCHMARK_RECEIPT
@@ -1715,9 +1715,9 @@ BENCHMARK_RECEIPT
 != FINALITY
 ```
 
----
+______________________________________________________________________
 
-# 70. Benchmark freshness
+## 70. Benchmark freshness
 
 A benchmark result may become stale if:
 
@@ -1732,9 +1732,9 @@ policy changes
 validation contract changes
 ```
 
----
+______________________________________________________________________
 
-# 71. Benchmark reuse
+## 71. Benchmark reuse
 
 Reuse only when all load-bearing comparison dimensions remain compatible.
 
@@ -1747,9 +1747,9 @@ same fixture set
 same regime
 ```
 
----
+______________________________________________________________________
 
-# 72. Benchmark invalidation
+## 72. Benchmark invalidation
 
 Selective invalidation examples:
 
@@ -1764,9 +1764,9 @@ unrelated Generator H
 → preserve H results
 ```
 
----
+______________________________________________________________________
 
-# 73. Benchmark uncertainty vector
+## 73. Benchmark uncertainty vector
 
 ```yaml
 benchmark_uncertainty:
@@ -1796,9 +1796,9 @@ benchmark_uncertainty:
     UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 74. Benchmark confidence ceiling
+## 74. Benchmark confidence ceiling
 
 Result confidence cannot exceed weak load-bearing measurement assumptions.
 
@@ -1811,9 +1811,9 @@ measurement tooling unknown
 
 even if numerical results appear precise.
 
----
+______________________________________________________________________
 
-# 75. Benchmark comparability
+## 75. Benchmark comparability
 
 Use:
 
@@ -1826,9 +1826,9 @@ UNKNOWN
 
 Do not force ranking of non-equivalent results.
 
----
+______________________________________________________________________
 
-# 76. Benchmark ranking
+## 76. Benchmark ranking
 
 Only rank candidates after hard equivalence checks.
 
@@ -1840,9 +1840,9 @@ ineligible candidates
 → exclude / report separately
 ```
 
----
+______________________________________________________________________
 
-# 77. Benchmark anti-cherry-picking
+## 77. Benchmark anti-cherry-picking
 
 Record:
 
@@ -1854,9 +1854,9 @@ all skipped metrics
 
 Do not publish only favorable numbers.
 
----
+______________________________________________________________________
 
-# 78. Benchmark failure modes
+## 78. Benchmark failure modes
 
 ```yaml
 failure_modes:
@@ -1937,9 +1937,9 @@ failure_modes:
       average hides catastrophic tail latency
 ```
 
----
+______________________________________________________________________
 
-# 79. Benchmark recovery
+## 79. Benchmark recovery
 
 ```text
 BENCHMARK DEFECT
@@ -1957,9 +1957,9 @@ RE-RUN MINIMUM REQUIRED SCOPE
 COMPARE AGAIN
 ```
 
----
+______________________________________________________________________
 
-# 80. Benchmark Agents
+## 80. Benchmark Agents
 
 Possible roles:
 
@@ -1976,9 +1976,9 @@ Agents may design and analyze benchmarks.
 
 They do not turn benchmark results into authority.
 
----
+______________________________________________________________________
 
-# 81. Benchmark Skills
+## 81. Benchmark Skills
 
 Potential Skills:
 
@@ -1996,9 +1996,9 @@ compare-generator-benchmarks
 audit-generator-benchmark
 ```
 
----
+______________________________________________________________________
 
-# 82. Benchmark Engine layer
+## 82. Benchmark Engine layer
 
 Possible Engines:
 
@@ -2012,9 +2012,9 @@ Benchmark Integrity Engine
 
 These are model roles until implementation evidence exists.
 
----
+______________________________________________________________________
 
-# 83. Benchmark kernels
+## 83. Benchmark kernels
 
 Potential deterministic primitives:
 
@@ -2031,9 +2031,9 @@ check_benchmark_equivalence()
 compute_regression_delta()
 ```
 
----
+______________________________________________________________________
 
-# 84. Benchmark Worker boundary
+## 84. Benchmark Worker boundary
 
 Actual benchmark execution may require Workers for:
 
@@ -2056,9 +2056,9 @@ Benchmark Agent / Engine
 → analysis
 ```
 
----
+______________________________________________________________________
 
-# 85. Benchmark workflow
+## 85. Benchmark workflow
 
 ```text
 BENCHMARK_REQUESTED
@@ -2086,9 +2086,9 @@ UNCERTAINTY ANALYSIS
 BENCHMARK RECEIPT
 ```
 
----
+______________________________________________________________________
 
-# 86. Benchmark validation
+## 86. Benchmark validation
 
 A benchmark result should be validated for:
 
@@ -2105,9 +2105,9 @@ regime
 provenance
 ```
 
----
+______________________________________________________________________
 
-# 87. Benchmark tests
+## 87. Benchmark tests
 
 Benchmark infrastructure itself requires tests.
 
@@ -2124,9 +2124,9 @@ sample counting
 failure reporting
 ```
 
----
+______________________________________________________________________
 
-# 88. Constitutional benchmark tests
+## 88. Constitutional benchmark tests
 
 ```text
 T-GBENCH-001
@@ -2170,9 +2170,9 @@ benchmark run successful
 → no promotion without separate gates
 ```
 
----
+______________________________________________________________________
 
-# 89. Adversarial benchmark tests
+## 89. Adversarial benchmark tests
 
 Attempt:
 
@@ -2199,9 +2199,9 @@ or
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 90. Benchmark baseline registry
+## 90. Benchmark baseline registry
 
 Potential structure:
 
@@ -2218,9 +2218,9 @@ generator_benchmark_baseline_registry:
       regime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 91. Baseline promotion
+## 91. Baseline promotion
 
 A result should not become baseline solely because it is newest.
 
@@ -2234,9 +2234,9 @@ BENCHMARK RESULT
 → BASELINE ACCEPTED
 ```
 
----
+______________________________________________________________________
 
-# 92. Regression threshold policy
+## 92. Regression threshold policy
 
 Thresholds may be defined per metric.
 
@@ -2256,9 +2256,9 @@ regression_policy:
     threshold: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 93. Benchmark comparison matrix
+## 93. Benchmark comparison matrix
 
 ```yaml
 comparison_matrix:
@@ -2279,9 +2279,9 @@ comparison_matrix:
     UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 94. Benchmark result classification
+## 94. Benchmark result classification
 
 Use:
 
@@ -2296,9 +2296,9 @@ UNKNOWN/GAP
 
 Avoid forced winner when tradeoffs are material.
 
----
+______________________________________________________________________
 
-# 95. Benchmark promotion relationship
+## 95. Benchmark promotion relationship
 
 Benchmarks may supply evidence to:
 
@@ -2313,9 +2313,9 @@ BENCHMARK_PASS
 != PROMOTION
 ```
 
----
+______________________________________________________________________
 
-# 96. Benchmark roadmap relationship
+## 96. Benchmark roadmap relationship
 
 `ROADMAP.md` may require benchmark maturity for:
 
@@ -2328,9 +2328,9 @@ optimization
 
 Roadmap targets remain future requirements until evidence exists.
 
----
+______________________________________________________________________
 
-# 97. Benchmark Change Log relationship
+## 97. Benchmark Change Log relationship
 
 Changes to benchmark definitions should be recorded in:
 
@@ -2348,17 +2348,17 @@ environment changes
 baseline changes
 ```
 
----
+______________________________________________________________________
 
-# 98. Benchmark History relationship
+## 98. Benchmark History relationship
 
 Historical benchmark results may be referenced by `HISTORY.md`.
 
 History should preserve their original scope and environment.
 
----
+______________________________________________________________________
 
-# 99. RSCF node contract
+## 99. RSCF node contract
 
 ```yaml
 RSCF-NODE:
@@ -2413,9 +2413,9 @@ RSCF-NODE:
     0
 ```
 
----
+______________________________________________________________________
 
-# 100. RSCF relations
+## 100. RSCF relations
 
 ```yaml
 RSCF-RELATIONS:
@@ -2457,9 +2457,9 @@ RSCF-RELATIONS:
       "GENERATORS_CHANGE_LOG|Generator Change Log"
 ```
 
----
+______________________________________________________________________
 
-# 101. RSCF completion state
+## 101. RSCF completion state
 
 ```yaml
 rscf:
@@ -2519,9 +2519,9 @@ rscf:
     PLACEHOLDER
 ```
 
----
+______________________________________________________________________
 
-# 102. GMEF completion state
+## 102. GMEF completion state
 
 ```yaml
 gmef:
@@ -2564,9 +2564,9 @@ gmef:
     UNFINALIZED
 ```
 
----
+______________________________________________________________________
 
-# 103. Named invariants
+## 103. Named invariants
 
 ```text
 I-GBENCH-SCOPE-BOUND
@@ -2597,9 +2597,9 @@ I-GBENCH-PROVENANCE-PRESERVED
 Benchmark definitions, evidence, and results retain lineage.
 ```
 
----
+______________________________________________________________________
 
-# 104. Source / canon references
+## 104. Source / canon references
 
 ```yaml
 source_canon:
@@ -2624,9 +2624,9 @@ source_canon:
       UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 105. Dependency graph
+## 105. Dependency graph
 
 ```text
 GENERATORS_BENCHMARKS
@@ -2654,9 +2654,9 @@ GENERATORS_BENCHMARKS
 └── CONTROL_PLANE
 ```
 
----
+______________________________________________________________________
 
-# 106. Related artifacts
+## 106. Related artifacts
 
 ```yaml
 related:
@@ -2701,9 +2701,9 @@ related:
     UNVERIFIED
 ```
 
----
+______________________________________________________________________
 
-# 107. Relation ontology
+## 107. Relation ontology
 
 ```text
 BENCHMARKS
@@ -2723,9 +2723,9 @@ INVALIDATED_BY
 SUPERSEDES
 ```
 
----
+______________________________________________________________________
 
-# 108. Current benchmark inventory
+## 108. Current benchmark inventory
 
 No actual benchmark execution evidence has been established in this placeholder.
 
@@ -2780,9 +2780,9 @@ benchmark_inventory:
     status: NOT_RUN_OR_UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 109. Benchmark execution gate
+## 109. Benchmark execution gate
 
 Before a result can be considered meaningful:
 
@@ -2797,9 +2797,9 @@ AND raw evidence captured
 
 should hold.
 
----
+______________________________________________________________________
 
-# 110. Minimum viable Generator benchmark suite
+## 110. Minimum viable Generator benchmark suite
 
 A minimal useful benchmark suite should include:
 
@@ -2816,9 +2816,9 @@ A minimal useful benchmark suite should include:
 
 This would establish a balanced baseline rather than speed-only benchmarking.
 
----
+______________________________________________________________________
 
-# 111. Recommended first benchmark matrix
+## 111. Recommended first benchmark matrix
 
 ```yaml
 first_benchmark_matrix:
@@ -2847,9 +2847,9 @@ first_benchmark_matrix:
     candidate benchmark only
 ```
 
----
+______________________________________________________________________
 
-# 112. Completion status
+## 112. Completion status
 
 ```yaml
 completion_status:
@@ -2923,9 +2923,9 @@ completion_status:
     status: NOT_RUN
 ```
 
----
+______________________________________________________________________
 
-# 113. Gap registry
+## 113. Gap registry
 
 ```yaml
 gaps:
@@ -2960,9 +2960,9 @@ gaps:
     - metric ordering
 ```
 
----
+______________________________________________________________________
 
-# 114. Hard boundaries
+## 114. Hard boundaries
 
 ```text
 PLACEHOLDER != BENCHMARK_IMPLEMENTED
@@ -3004,9 +3004,9 @@ UNKNOWN/GAP != PASS
 100_PERCENT_FIXTURE_SCORE != UNIVERSAL_PROOF
 ```
 
----
+______________________________________________________________________
 
-# 115. Current decision
+## 115. Current decision
 
 ```yaml
 decision:
@@ -3048,9 +3048,9 @@ decision:
     - treat benchmark score as validation or authority
 ```
 
----
+______________________________________________________________________
 
-# 116. Final proof capsule
+## 116. Final proof capsule
 
 ```yaml
 proof_capsule:
@@ -3104,9 +3104,9 @@ proof_capsule:
     - NON_AUTHORITATIVE
 ```
 
----
+______________________________________________________________________
 
-# 117. Final conclusion
+## 117. Final conclusion
 
 **Claim**
 
@@ -3176,11 +3176,11 @@ UNKNOWN/GAP
 NON_AUTHORITATIVE
 ```
 
----
+______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[25_COGNITIVE_MATRIX/12_GENERATORS/00_INDEX/GENERATORS_MAP|GENERATORS_MAP]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
@@ -3198,7 +3198,7 @@ NON_AUTHORITATIVE
 - Validator Registry
 - Worker Registry
 
-```
+````
 
 The clean ownership across this Generator cluster is now:
 
@@ -3229,14 +3229,10 @@ HISTORY.md
 
 [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_CHANGE_LOG|GENERATORS_CHANGE_LOG]].md
 → individual recorded changes
-```
+````
 
 That separation is important because **tests answer whether a property held in a test, while benchmarks answer how a system performed under a measurement envelope; neither alone proves global correctness or readiness.**
 
 ```
 ---
 **MOC:**
-
-
-```
-```

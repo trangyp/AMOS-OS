@@ -12,22 +12,22 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: ARCHITECTURE
 path: 11_KNOWLEDGE/05_FRAMEWORKS/NEUROSYNCAI_DUAL_SYSTEM_ARCHITECTURE.md
 tags:
-- amos-os
-- knowledge
-- vault
-- 05_frameworks
-- neurosyncai_dual_system
-- dual_system_cognition
-- system_1_fast
-- system_2_slow
-- cognitive_arbitration
-- rscf
-- canon_candidate
-- canon/knowledge
-- neurosyncai-master
-- amos-mind-os-framework
-- ldai-logically-deterministic-ai
-- qls-framework
+  - amos-os
+  - knowledge
+  - vault
+  - 05_frameworks
+  - neurosyncai_dual_system
+  - dual_system_cognition
+  - system_1_fast
+  - system_2_slow
+  - cognitive_arbitration
+  - rscf
+  - canon_candidate
+  - canon/knowledge
+  - neurosyncai-master
+  - amos-mind-os-framework
+  - ldai-logically-deterministic-ai
+  - qls-framework
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -42,22 +42,22 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - NEUROSYNCAI_FRAMEWORK
-  - AMOS_CORPUS
+    - NEUROSYNCAI_FRAMEWORK
+    - AMOS_CORPUS
   scope:
-  - KNOWLEDGE_FRAMEWORKS
-  - DUAL_SYSTEM_ARCHITECTURE
-  - SOURCE_DEFINED_MODEL
+    - KNOWLEDGE_FRAMEWORKS
+    - DUAL_SYSTEM_ARCHITECTURE
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   master:
     artifact:
-    - - NEUROSYNCAI_MASTER
+      -   - NEUROSYNCAI_MASTER
   mind_os:
     artifact:
-    - - AMOS_MIND_OS_FRAMEWORK
+      -   - AMOS_MIND_OS_FRAMEWORK
   deterministic_logic:
     artifact:
-    - - LDAI_LOGICALLY_DETERMINISTIC_AI
+      -   - LDAI_LOGICALLY_DETERMINISTIC_AI
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
@@ -71,9 +71,9 @@ epistemic_boundary:
 
 It integrates **System 1 (fast, intuitive heuristic processing)** and **System 2 (slow, rigorous deterministic proof verification)** through dynamic biological cognitive load arbitration.
 
----
+______________________________________________________________________
 
-# 1. Dual-System Arbitration Model
+## 1. Dual-System Arbitration Model
 
 ```text
 INCOMING COGNITIVE TASK
@@ -87,18 +87,18 @@ COGNITIVE LOAD & STAKE ARBITRATOR
 SYNCHRONIZED COGNITIVE RESPONSE
 ```
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Master:** [[11_KNOWLEDGE/05_FRAMEWORKS/NEUROSYNCAI_MASTER|NEUROSYNCAI_MASTER]]
 - **Mind OS:** [[11_KNOWLEDGE/05_FRAMEWORKS/AMOS_MIND_OS_FRAMEWORK|AMOS_MIND_OS_FRAMEWORK]]
 - **Deterministic AI:** [[11_KNOWLEDGE/05_FRAMEWORKS/LDAI_LOGICALLY_DETERMINISTIC_AI|LDAI_LOGICALLY_DETERMINISTIC_AI]]
 - **Logic Scaffold:** [[11_KNOWLEDGE/05_FRAMEWORKS/QLS_FRAMEWORK|QLS_FRAMEWORK]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -116,9 +116,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/NEUROSYNCAI_MASTER|NEUROSYNCAI_MASTER]] · [[11_KNOWLEDGE/05_FRAMEWORKS/AMOS_MIND_OS_FRAMEWORK|AMOS_MIND_OS_FRAMEWORK]] · [[11_KNOWLEDGE/05_FRAMEWORKS/LDAI_LOGICALLY_DETERMINISTIC_AI|LDAI_LOGICALLY_DETERMINISTIC_AI]]
 
----
+______________________________________________________________________
+
 **MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]

@@ -1,12 +1,15 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: L21 LEARNING PRIMITIVES COGNITIVE MATRIX STATE
 type: note
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L21_LEARNING
 tags:
-- note
-- matrix/l21-learning
-- domain/cognitive-matrix
-- trang-framework-recursive-ontology-dynamics
+  - note
+  - matrix/l21-learning
+  - domain/cognitive-matrix
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -43,21 +46,23 @@ MODEL != VERIFIED
 UNKNOWN/GAP != PASS
 ```
 
----
+______________________________________________________________________
 
 [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: l21_primitives_state
 node_type: note
 path: 01_PRIMITIVES/L21_LEARNING/L21_LEARNING_PRIMITIVES_COGNITIVE_MATRIX_STATE.md
 claim_class: DERIVED
-node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/01_PRIMITIVES/L21_LEARNING/L21_LEARNING_PRIMITIVES_COGNITIVE_MATRIX_STATE.md
+node_path_note: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L21_LEARNING/L21_LEARNING_PRIMITIVES_COGNITIVE_MATRIX_STATE.md
 
----
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L21_LEARNING/L21_LEARNING_MOC|L21_LEARNING_MOC]]
 
----
-**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+______________________________________________________________________
 
+**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

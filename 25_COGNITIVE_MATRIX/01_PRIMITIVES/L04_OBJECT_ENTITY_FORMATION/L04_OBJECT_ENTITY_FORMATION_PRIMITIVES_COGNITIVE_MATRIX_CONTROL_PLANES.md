@@ -2,14 +2,14 @@
 type: control-plane
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L04_OBJECT_ENTITY_FORMATION
 tags:
-- amos
-- cognitive-matrix
-- object-entity-formation
-- control-plane
-- rscf
-- provenance
-- governance
-- domain/cognitive-matrix
+  - amos
+  - cognitive-matrix
+  - object-entity-formation
+  - control-plane
+  - rscf
+  - provenance
+  - governance
+  - domain/cognitive-matrix
 title: L04_OBJECT_ENTITY_FORMATION — Control Planes
 origin_architect: Trang Phan
 status: MODEL_CONTROL_PLANE_CONTRACT / UNIMPLEMENTED / UNVALIDATED
@@ -118,9 +118,9 @@ ADDRESSABLE != VALIDATED
 UNKNOWN/GAP != PASS
 ```
 
----
+______________________________________________________________________
 
-# 1. Source / Canon References
+## 1. Source / Canon References
 
 ## 1.1 Architecture-aligned source families
 
@@ -193,26 +193,26 @@ canonical_runtime_implementation: UNKNOWN_GAP
 
 All L04-specific control structures below therefore remain `AMOS_MODEL`.
 
----
+______________________________________________________________________
 
-# 2. Definition and Scope
+## 2. Definition and Scope
 
 An L04 control plane is the governance layer surrounding object/entity formation workers, state, memory, protocols, and durable effects.
 
 Candidate abstraction:
 
-[
-CP_{L04} :
-(Request,\ State,\ Evidence,\ Authority,\ Constraints)
-\rightarrow
-(ControlDecision,\ StateTransition?)
-]
+\[
+CP\_{L04} :
+(Request,\\ State,\\ Evidence,\\ Authority,\\ Constraints)
+\\rightarrow
+(ControlDecision,\\ StateTransition?)
+\]
 
 where:
 
-[
+\[
 ControlDecision
-\in
+\\in
 {
 ADMIT,
 REJECT,
@@ -222,7 +222,7 @@ ESCALATE,
 COMMIT,
 ROLLBACK
 }
-]
+\]
 
 `AMOS_MODEL`.
 
@@ -230,9 +230,9 @@ The control plane governs whether an L04 operation is permitted.
 
 It does not itself establish whether an object/entity hypothesis is true.
 
----
+______________________________________________________________________
 
-# 3. Responsibility Boundary
+## 3. Responsibility Boundary
 
 ## 3.1 Cognitive plane
 
@@ -293,9 +293,9 @@ falsifiers
 
 These planes must not silently collapse into one another.
 
----
+______________________________________________________________________
 
-# 4. Typed Control-Plane Input
+## 4. Typed Control-Plane Input
 
 ```yaml
 L04ControlRequest:
@@ -374,9 +374,9 @@ L04ControlRequest:
     type: UncertaintyVector
 ```
 
----
+______________________________________________________________________
 
-# 5. Typed Control-Plane Output
+## 5. Typed Control-Plane Output
 
 ```yaml
 L04ControlDecision:
@@ -453,9 +453,9 @@ L04ControlDecision:
     type: ConfidenceBound
 ```
 
----
+______________________________________________________________________
 
-# 6. State Variables
+## 6. State Variables
 
 ```text
 CP_t       = L04 control-plane state
@@ -504,9 +504,9 @@ Fail_t     = failure state
 Rep_t      = recovery state
 ```
 
----
+______________________________________________________________________
 
-# 7. Control-Plane Decomposition
+## 7. Control-Plane Decomposition
 
 The following decomposition is `AMOS_MODEL`, not established direct L04 canon.
 
@@ -537,7 +537,7 @@ QUARANTINE
 ESCALATE
 ```
 
----
+______________________________________________________________________
 
 ## 7.2 Capability Plane
 
@@ -567,7 +567,7 @@ CAPABILITY
 AUTHORITY
 ```
 
----
+______________________________________________________________________
 
 ## 7.3 Authority Plane
 
@@ -575,26 +575,24 @@ Determines whether the actor possesses legitimate authority for the proposed eff
 
 Candidate:
 
-[
-Authorized(a,e,t)
-=================
+## \[ Authorized(a,e,t)
 
 IdentityValid(a)
-\land
+\\land
 PermissionValid(a,e)
-\land
+\\land
 ScopeValid(a,e)
-\land
+\\land
 TemporalValidity(a,t)
-\land
+\\land
 NotRevoked(a)
-]
+\]
 
 `AMOS_MODEL`.
 
 Authority must bind to the proposed effect rather than merely the actor.
 
----
+______________________________________________________________________
 
 ## 7.4 State Plane
 
@@ -614,7 +612,7 @@ INVALIDATED STATE
 
 Workers must not silently mutate committed state.
 
----
+______________________________________________________________________
 
 ## 7.5 Provenance Plane
 
@@ -642,7 +640,7 @@ repair
 commit
 ```
 
----
+______________________________________________________________________
 
 ## 7.6 Dependency Plane
 
@@ -660,15 +658,15 @@ entity state → downstream reasoning
 
 Candidate dependency rule:
 
-[
+\[
 Invalid(p)
-\Rightarrow
+\\Rightarrow
 Invalidate(Descendants(p))
-]
+\]
 
 subject to selective dependency closure.
 
----
+______________________________________________________________________
 
 ## 7.7 Scope / Regime Plane
 
@@ -687,7 +685,7 @@ regime
 assumptions
 ```
 
----
+______________________________________________________________________
 
 ## 7.8 Freshness Plane
 
@@ -704,7 +702,7 @@ dependencies
 
 remain sufficiently current for the requested operation.
 
----
+______________________________________________________________________
 
 ## 7.9 H/M/L Plane
 
@@ -725,7 +723,7 @@ entity-level identity / scene structure
 
 Cross-scale promotion must preserve transformation lineage.
 
----
+______________________________________________________________________
 
 ## 7.10 Commit Plane
 
@@ -735,7 +733,7 @@ Workers may submit proposals.
 
 Only the commit plane may transition eligible proposals into authoritative persistent state.
 
----
+______________________________________________________________________
 
 ## 7.11 Recovery Plane
 
@@ -751,9 +749,9 @@ authority revocation response
 failed-transaction cleanup
 ```
 
----
+______________________________________________________________________
 
-# 8. Core Operators
+## 8. Core Operators
 
 ```text
 CP_ADMIT_REQUEST
@@ -804,9 +802,9 @@ CP_APPEND_AUDIT
 
 Canonical operator names remain `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
-# 9. Proposal / Commit Separation
+## 9. Proposal / Commit Separation
 
 Candidate lifecycle:
 
@@ -834,50 +832,50 @@ DIRECT DURABLE MUTATION
 
 Hard invariant:
 
-[
-Proposal(x)\not\Rightarrow Commit(x)
-]
+\[
+Proposal(x)\\not\\Rightarrow Commit(x)
+\]
 
----
+______________________________________________________________________
 
-# 10. Commit Eligibility
+## 10. Commit Eligibility
 
 Candidate:
 
-[
+\[
 EligibleCommit(x)=
 TypeValid(x)
-\land
+\\land
 CapabilityValid(x)
-\land
+\\land
 AuthorityValid(x)
-\land
+\\land
 ReadSetValid(x)
-\land
+\\land
 DependenciesValid(x)
-\land
+\\land
 ProvenanceValid(x)
-\land
+\\land
 ScopeValid(x)
-\land
+\\land
 RegimeValid(x)
-\land
+\\land
 Fresh(x)
-\land
+\\land
 HMLValid(x)
-\land
+\\land
 ConstraintsValid(x)
-\land
-\neg HardFalsifier(x)
-]
+\\land
+\\neg HardFalsifier(x)
+\]
 
 `AMOS_MODEL`.
 
 Any required `UNKNOWN/GAP` condition that can affect correctness or authority must fail closed rather than be interpreted as passing.
 
----
+______________________________________________________________________
 
-# 11. Commit-Time Revalidation
+## 11. Commit-Time Revalidation
 
 Validation performed when a proposal was created is insufficient if mutable state exists.
 
@@ -898,21 +896,21 @@ falsifiers
 
 Candidate:
 
-[
+\[
 Commit_t(x)
-\Rightarrow
+\\Rightarrow
 ValidNow_t(x)
-]
+\]
 
 not merely:
 
-[
+\[
 ValidAtProposalTime(x)
-]
+\]
 
----
+______________________________________________________________________
 
-# 12. State Versioning / CAS
+## 12. State Versioning / CAS
 
 Candidate state mutation:
 
@@ -935,21 +933,21 @@ if no:
 
 Candidate:
 
-[
-CAS(v_{expected},v_{current},update)
-]
+\[
+CAS(v\_{expected},v\_{current},update)
+\]
 
 succeeds only when:
 
-[
-v_{expected}=v_{current}
-]
+\[
+v\_{expected}=v\_{current}
+\]
 
 This is an AMOS-aligned control model, not evidence that a current L04 implementation literally executes CAS.
 
----
+______________________________________________________________________
 
-# 13. Observed Read Set
+## 13. Observed Read Set
 
 Commit validation should be tied to the state actually observed by the worker.
 
@@ -980,9 +978,9 @@ a different state than the state
 used to derive the proposal
 ```
 
----
+______________________________________________________________________
 
-# 14. Entity Mutation Classes
+## 14. Entity Mutation Classes
 
 ## 14.1 CREATE
 
@@ -1040,26 +1038,24 @@ identity proof
 
 Should selectively invalidate dependent conclusions without deleting historical lineage.
 
----
+______________________________________________________________________
 
-# 15. Entity Merge Control
+## 15. Entity Merge Control
 
 Candidate merge eligibility:
 
-[
-MergeAllowed(E_1,E_2)
-=====================
+## \[ MergeAllowed(E_1,E_2)
 
 IdentitySupport
-\land
+\\land
 NoHardConflict
-\land
+\\land
 ProvenancePreserved
-\land
+\\land
 AuthorityValid
-\land
+\\land
 RollbackAvailable
-]
+\]
 
 `AMOS_MODEL`.
 
@@ -1074,32 +1070,30 @@ agent consensus
 → merge
 ```
 
----
+______________________________________________________________________
 
-# 16. Entity Split Control
+## 16. Entity Split Control
 
 Candidate split eligibility:
 
-[
-SplitAllowed(E)
-===============
+## \[ SplitAllowed(E)
 
 DifferentiationSupport
-\land
+\\land
 LineageResolvable
-\land
+\\land
 ProvenancePreserved
-\land
+\\land
 AuthorityValid
-\land
+\\land
 RollbackAvailable
-]
+\]
 
 A weak anomalous feature alone should not automatically trigger a durable split.
 
----
+______________________________________________________________________
 
-# 17. Competing Entity State
+## 17. Competing Entity State
 
 The control plane must support:
 
@@ -1131,9 +1125,9 @@ COMPETING
 
 is a legitimate governed state.
 
----
+______________________________________________________________________
 
-# 18. H/M/L Applicability
+## 18. H/M/L Applicability
 
 ## L — Local control
 
@@ -1174,9 +1168,9 @@ cross-scale consequences
 
 Cross-scale transition:
 
-[
-Promote_{L\rightarrow M\rightarrow H}
-]
+\[
+Promote\_{L\\rightarrow M\\rightarrow H}
+\]
 
 must retain:
 
@@ -1190,9 +1184,9 @@ freshness
 dependencies
 ```
 
----
+______________________________________________________________________
 
-# 19. Control-Plane Invariants
+## 19. Control-Plane Invariants
 
 ```text
 CP-L04-001
@@ -1295,9 +1289,9 @@ CP-L04-032
 ADDRESSABLE != VALIDATED.
 ```
 
----
+______________________________________________________________________
 
-# 20. Dependencies
+## 20. Dependencies
 
 ## Upstream
 
@@ -1356,9 +1350,9 @@ AMOS Universal Variable Registry
 AMOS Universal Coordinate System
 ```
 
----
+______________________________________________________________________
 
-# 21. Agents
+## 21. Agents
 
 Candidate workers governed by this plane:
 
@@ -1382,9 +1376,9 @@ L04_ENTITY_AUDITOR_AGENT
 
 These are model roles, not established deployed agents.
 
----
+______________________________________________________________________
 
-# 22. Skills
+## 22. Skills
 
 Candidate skill dependencies:
 
@@ -1407,9 +1401,9 @@ RSCF Modeler
 
 Skill availability does not grant authority.
 
----
+______________________________________________________________________
 
-# 23. Workflow
+## 23. Workflow
 
 Candidate governed workflow:
 
@@ -1455,9 +1449,9 @@ COMMIT | REJECT | QUARANTINE | ESCALATE
 AUDIT / PROVENANCE APPEND
 ```
 
----
+______________________________________________________________________
 
-# 24. Protocols
+## 24. Protocols
 
 Candidate protocol surface:
 
@@ -1503,9 +1497,9 @@ L04_CP_AUDIT_APPEND
 
 Canonical protocol identifiers remain `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
-# 25. Evidence / Provenance
+## 25. Evidence / Provenance
 
 Every material control decision should carry:
 
@@ -1559,9 +1553,9 @@ WITHOUT RECOVERABLE DECISION LINEAGE
 → INVALID / QUARANTINE
 ```
 
----
+______________________________________________________________________
 
-# 26. Uncertainty Vector
+## 26. Uncertainty Vector
 
 ```text
 U_CP_L04 =
@@ -1584,17 +1578,17 @@ U_CP_L04 =
 
 These uncertainties should not be collapsed when their effects differ.
 
----
+______________________________________________________________________
 
-# 27. Confidence Ceiling
+## 27. Confidence Ceiling
 
 For a control decision:
 
-[
+\[
 Conf(CPDecision)
-\le
-\min Conf(load\text{-}bearing\ premises)
-]
+\\le
+\\min Conf(load\\text{-}bearing\\ premises)
+\]
 
 Potential load-bearing premises include:
 
@@ -1627,9 +1621,9 @@ HIGH MODEL CONFIDENCE
 COMMIT ELIGIBILITY
 ```
 
----
+______________________________________________________________________
 
-# 28. Failure Modes
+## 28. Failure Modes
 
 ```text
 CPFM-L04-001
@@ -1714,9 +1708,9 @@ CPFM-L04-027
 Simulation pass treated as empirical validation.
 ```
 
----
+______________________________________________________________________
 
-# 29. Repair / Recovery
+## 29. Repair / Recovery
 
 Candidate recovery workflow:
 
@@ -1763,25 +1757,25 @@ WITHOUT CHANGED EVIDENCE,
 STATE, AUTHORITY, OR CONTROL CONDITION
 ```
 
----
+______________________________________________________________________
 
-# 30. Selective Invalidation
+## 30. Selective Invalidation
 
 Candidate:
 
-[
+\[
 Invalidate(p)
-\rightarrow
+\\rightarrow
 Invalidate(Descendants(p))
-]
+\]
 
 but:
 
-[
+\[
 Unrelated(x,p)
-\rightarrow
+\\rightarrow
 Preserve(x)
-]
+\]
 
 Example:
 
@@ -1797,9 +1791,9 @@ invalidate O3 and E2-derived claims
 
 but unrelated `E9` remains intact.
 
----
+______________________________________________________________________
 
-# 31. Rollback
+## 31. Rollback
 
 Rollback should restore the nearest valid committed state.
 
@@ -1827,9 +1821,9 @@ repair history
 
 Those remain historical provenance.
 
----
+______________________________________________________________________
 
-# 32. Tests / Validators
+## 32. Tests / Validators
 
 ```text
 CP-TEST-L04-001
@@ -1919,9 +1913,9 @@ formal_verification: false
 empirical_validation: false
 ```
 
----
+______________________________________________________________________
 
-# 33. Concurrency Tests
+## 33. Concurrency Tests
 
 ```text
 CONC-L04-001
@@ -1947,6 +1941,7 @@ Agent B invalidates identity evidence for E2.
 Expected:
 merge must be revalidated before commit.
 ```
+
 ```text
 CONC-L04-003
 
@@ -1957,9 +1952,10 @@ Expected:
 alias mutation cannot silently commit
 without competition handling.
 ```
----
 
-# 34. Authority Tests
+______________________________________________________________________
+
+## 34. Authority Tests
 
 ```text
 AUTH-L04-001
@@ -1988,9 +1984,9 @@ Authority witness cannot be linked to requested effect.
 → DENY / GAP
 ```
 
----
+______________________________________________________________________
 
-# 35. Provenance Tests
+## 35. Provenance Tests
 
 ```text
 PROV-L04-001
@@ -2014,9 +2010,9 @@ Merge retains only merged identity.
 → reject; source identities must remain recoverable
 ```
 
----
+______________________________________________________________________
 
-# 36. Adversarial Validation
+## 36. Adversarial Validation
 
 Before consequential durable mutation, challenge:
 
@@ -2060,9 +2056,9 @@ REJECT
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 37. Control-Plane State Machine
+## 37. Control-Plane State Machine
 
 Candidate:
 
@@ -2109,9 +2105,9 @@ PROPOSED
 
 without required gates.
 
----
+______________________________________________________________________
 
-# 38. Minimal Commit Protocol
+## 38. Minimal Commit Protocol
 
 Candidate minimal protocol:
 
@@ -2161,9 +2157,9 @@ UNKNOWN/GAP
 
 prevents authoritative commit.
 
----
+______________________________________________________________________
 
-# 39. Falsifiers
+## 39. Falsifiers
 
 This model should be revised if direct canonical evidence establishes materially different:
 
@@ -2192,9 +2188,9 @@ demonstrates a different governed control model
 
 without violating higher-order AMOS canon.
 
----
+______________________________________________________________________
 
-# 40. Gap Matrix
+## 40. Gap Matrix
 
 ```yaml
 gap_status:
@@ -2278,9 +2274,9 @@ gap_status:
     status: CRITICAL_GAP
 ```
 
----
+______________________________________________________________________
 
-# 41. Competing Control Architectures
+## 41. Competing Control Architectures
 
 ## COMPETING-001 — Worker-Owned State
 
@@ -2302,7 +2298,7 @@ Current status:
 NOT PREFERRED
 ```
 
----
+______________________________________________________________________
 
 ## COMPETING-002 — Central Validation Only
 
@@ -2321,7 +2317,7 @@ validation may be confused with authority
 commit-time state may change
 ```
 
----
+______________________________________________________________________
 
 ## COMPETING-003 — Governed External Control Plane
 
@@ -2366,9 +2362,9 @@ MODEL PREFERENCE
 CANONICAL L04 IMPLEMENTATION
 ```
 
----
+______________________________________________________________________
 
-# 42. RSCF Completion State
+## 42. RSCF Completion State
 
 ```yaml
 rscf:
@@ -2478,9 +2474,9 @@ rscf:
     revalidation, rollback, and finality against this model.
 ```
 
----
+______________________________________________________________________
 
-# 43. Completion State
+## 43. Completion State
 
 ```yaml
 completion_state:
@@ -2564,9 +2560,9 @@ completion_state:
     MODEL
 ```
 
----
+______________________________________________________________________
 
-# 44. Hard Boundaries
+## 44. Hard Boundaries
 
 ```text
 PLACEHOLDER != IMPLEMENTED
@@ -2634,15 +2630,15 @@ REPAIR != REVALIDATION
 IMPLEMENTED CONTROL PLANE != VALIDATED CONTROL PLANE
 ```
 
----
+______________________________________________________________________
 
-# 45. Governing Control-Plane Contract
+## 45. Governing Control-Plane Contract
 
 > **`L04_OBJECT_ENTITY_FORMATION` SHALL separate cognitive object/entity formation from authoritative control. Workers MAY read authorized percept/object/entity state and MAY propose object formation, entity formation, identity, continuity, alias, relation, merge, split, invalidation, and repair operations within their capability envelopes; capability SHALL NOT constitute authority, validation SHALL NOT constitute authorization, and proposal SHALL NOT constitute commit. The L04 control plane SHALL govern typed admission, capability, effect-bound authority, observed read sets, dependency validity, provenance, scope, regime, freshness, H/M/L transitions, constraints, state versions, transaction state, commit eligibility, durable mutation, rollback, quarantine, revocation, and audit lineage. Commit eligibility SHALL be revalidated against current mutable state immediately before durable effect. Entity creation, update, merge, split, alias mutation, invalidation, and repair SHALL preserve source and transformation provenance and SHALL NOT silently erase competing hypotheses or historical lineage. Shared ancestry SHALL NOT manufacture independent confirmation. Invalidated premises SHALL selectively invalidate dependent entity state while preserving unrelated valid branches. Unknown load-bearing control conditions SHALL fail closed rather than silently pass. Recovery SHALL return to the nearest valid state, preserve failure history, and require revalidation before recommit. `PLACEHOLDER != IMPLEMENTED`, `ADDRESSABLE != VALIDATED`, `CAPABILITY != AUTHORITY`, `PROPOSAL != COMMIT`, and `UNKNOWN/GAP != PASS` remain mandatory invariants.**
 
----
+______________________________________________________________________
 
-# 46. Canon Boundary
+## 46. Canon Boundary
 
 ```text
 ARCHITECTURE-ALIGNED:
@@ -2765,22 +2761,27 @@ NOT ESTABLISHED
 
 ```text
 ```
----
+
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: l04_object_entity_formation_primitives_cognitive_matrix_control_planes
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L04_OBJECT_ENTITY_FORMATION/L04_OBJECT_ENTITY_FORMATION_PRIMITIVES_COGNITIVE_MATRIX_CONTROL_PLANES.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L04_OBJECT_ENTITY_FORMATION/L04_OBJECT_ENTITY_FORMATION_MOC|L04_OBJECT_ENTITY_FORMATION_MOC]]

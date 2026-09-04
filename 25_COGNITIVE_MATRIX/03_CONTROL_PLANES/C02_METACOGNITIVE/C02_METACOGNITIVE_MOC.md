@@ -1,15 +1,18 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: C02 Metacognitive MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C02_METACOGNITIVE
 tags:
-- c02-metacognitive
-- domain/cognitive-matrix
-- control-planes-cognitive-matrix-policies
-- control-planes-cognitive-matrix-scope
-- control-planes-cognitive-matrix-authority
-- control-planes-cognitive-matrix-decision-rules
-- control-planes-cognitive-matrix-observability
+  - c02-metacognitive
+  - domain/cognitive-matrix
+  - control-planes-cognitive-matrix-policies
+  - control-planes-cognitive-matrix-scope
+  - control-planes-cognitive-matrix-authority
+  - control-planes-cognitive-matrix-decision-rules
+  - control-planes-cognitive-matrix-observability
 moc: true
 rscf:
   state: DERIVED
@@ -51,5 +54,6 @@ rscf:
 
 - [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]] — 00_INDEX
 
----
+______________________________________________________________________
+
 **Parent:** [[25_COGNITIVE_MATRIX/03_CONTROL_PLANES/03_CONTROL_PLANES_MOC|03_CONTROL_PLANES_MOC]]

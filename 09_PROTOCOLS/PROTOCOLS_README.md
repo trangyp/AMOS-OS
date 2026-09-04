@@ -1,72 +1,88 @@
 ---
-title: PROTOCOLS README
-type: protocol
+title: "09_PROTOCOLS — Inter-Agent & System Interaction Architecture"
+type: architecture_specification
 source: 09_PROTOCOLS
-tags:
-- amos-os
-- canon/protocol
-- readme
-- routing-policy-validation-receipt
-- authz-engine-validation-receipt
-- law-hierarchy
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
+status: ACTIVE_SPECIFICATION
+epistemic_class: AMOS_MODEL
+conclusion_class: DERIVED
 rscf:
   state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  claim_class: AMOS_MODEL
+  provenance:
+    - 00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE
+    - 03_CONTROL_PLANE/CONTROL_PLANE_CONTROL_PLANE_CONTRACT
+    - 04_RUNTIME/RUNTIME_RUNTIME_CONTRACT
+  scope: active__AMOS_OS_protocols
+tags:
+  - amos-os
+  - protocols
+  - handoff
+  - coordination-avoidance
+  - proof-exchange
 ---
 
-# PROTOCOLS README
+# 09_PROTOCOLS — Master Protocol Architecture
 
-## Purpose
-`PROTOCOLS README` is the package readme for the **Protocols** plane segment at `09_PROTOCOLS`.
-The Protocols plane governs inter-component communication and handshake protocols. Normative load-bearing content lives in the sibling contract(s); this readme orients navigation.
+## 1. Purpose & Domain Boundary
 
-## Sibling artifacts
-- [[09_PROTOCOLS/PROTOCOLS_PROTOCOL_CONTRACT|PROTOCOLS_PROTOCOL_CONTRACT]]
+The `09_PROTOCOLS` plane defines the normative interaction contracts, cross-component handoffs, proof-exchange mechanisms, and coordination-avoidance rules for the entire AMOS OS ecosystem.
 
-## Contract discipline
-Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
+In the MECE Full Brain OS architecture (**Partition E: Interaction, Security & Effect Adapters**), protocols govern *how components talk to each other without violating authority boundaries*.
 
-## Gaps
-Executable binding PARTIAL unless an executed validation receipt exists for this subsystem ([[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]).
-## Worked semantics
-Given an operation touching `PROTOCOLS README` within the Protocols plane:
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-2. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-3. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-4. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-5. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-6. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
+```text
+CAPABILITY != AUTHORITY
+HANDOFF != GRANT
+PROTOCOL_SPECIFIED != MESSAGE_DELIVERED
+```
 
-## Promotion-gate checklist
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
+## 2. Core Protocol Taxonomy
 
-## Cross-plane bindings
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]|AMOS Core Laws · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
-- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
-- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
----
+```mermaid
+graph TD
+    A[AMOS Protocol Suite] --> B[Task Handoff Protocol]
+    A --> C[Proof Exchange Protocol]
+    A --> D[Coordination Avoidance Protocol]
+    A --> E[Routing & Arbitration Protocol]
+    
+    B --> B1[Context Capsule Transfer]
+    B --> B2[Confidence Ceiling Attenuation]
+    
+    C --> C1[Cryptographic Token Verification]
+    C --> C2[Empirical Grounding Validation]
+    
+    D --> D1[Shard-Local Finalization]
+    D --> D2[Conflict-Free Replicated State]
+```
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+### 2.1 Task Handoff Protocol (`TASK_HANDOFF_PROTOCOL.md`)
+Governs the safe transfer of task objectives, input data, constraints, and confidence bounds from an Orchestrator to a Specialist Agent.
+- Mandates fail-closed routing on unknown context.
+- Enforces strict confidence attenuation: Child task confidence ceiling cannot exceed Parent task confidence.
+- Requires unambiguous completion receipts with structured outputs.
 
----
-**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+### 2.2 Proof Exchange Protocol (`PROOF_EXCHANGE_PROTOCOL.md`)
+Defines the serialization and verification of proof capsules across execution barriers.
+- Proof of grounding: verified citations and empirical evidence.
+- Proof of authority: non-forgeable epoch-bound capability grants.
+- Proof of invariant adherence: formal verification against AMOS axioms (M01-M20).
 
----
-RSCF-NODE
-node_id: amos_09_protocols_protocols_readme_md
-node_type: note
-path: 09_PROTOCOLS/PROTOCOLS_README.md
-claim_class: AMOS_MODEL
+### 2.3 Coordination Avoidance Protocol (`COORDINATION_AVOIDANCE_PROTOCOL.md`)
+Implements the AMOS v4.4 Coordination Avoidance paradigm:
+- Permits shards to execute and finalize independent operations locally without acquiring global locks.
+- Identifies cross-shard causal dependencies and restricts synchronization barriers strictly to invariant-sensitive commit paths.
 
----
-**MOC:** [[09_PROTOCOLS/09_PROTOCOLS_MOC|09_PROTOCOLS_MOC]]
+## 3. Protocol Invariants & Failure Containment
+
+1. **Explicit Schema Binding**: Every message, packet, or RPC call must conform to an immutable schema in `16_SCHEMAS`.
+2. **Fail-Closed on Desynchronization**: If protocol versions mismatch or message digests fail validation, execution aborts immediately into the rollback basin.
+3. **Receipt Logging**: Every protocol handoff emits an event to `17_OBSERVABILITY` for deterministic replay.
+
+## 4. Master Navigation & Relationships
+
+- [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] — Root navigation hub
+- [[06_AGENTS/06_AGENTS_MOC|06_AGENTS_MOC]] — Agent identities governed by these protocols
+- [[16_SCHEMAS/16_SCHEMAS_MOC|16_SCHEMAS_MOC]] — Message and envelope schemas
+- [[18_SECURITY/18_SECURITY_MOC|18_SECURITY_MOC]] — Threat model and authorization gates

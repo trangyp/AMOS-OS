@@ -12,18 +12,18 @@ segment: 21_DOMAINS/08_LEGAL
 artifact_kind: DOMAIN_GOVERNANCE
 path: 21_DOMAINS/08_LEGAL/CANON_IP_GOVERNANCE.md
 tags:
-- amos-os
-- domain
-- vault
-- 08_legal
-- canon_ip_governance
-- intellectual_property
-- cryptographic_provenance_licensing
-- rscf
-- canon_candidate
-- canon/domain
-- law/L0-integrity
-- amos-legal-kernel
+  - amos-os
+  - domain
+  - vault
+  - 08_legal
+  - canon_ip_governance
+  - intellectual_property
+  - cryptographic_provenance_licensing
+  - rscf
+  - canon_candidate
+  - canon/domain
+  - law/L0-integrity
+  - amos-legal-kernel
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -38,20 +38,20 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: SYSTEM_INVARIANT
   provenance:
-  - 01_CANON/01_CORE_LAWS/L0_INTEGRITY
-  - 21_DOMAINS/08_LEGAL/08_LEGAL_MOC
-  - AMOS_CORPUS
+    - 01_CANON/01_CORE_LAWS/L0_INTEGRITY
+    - 21_DOMAINS/08_LEGAL/08_LEGAL_MOC
+    - AMOS_CORPUS
   scope:
-  - DOMAIN_LEGAL
-  - IP_GOVERNANCE
-  - SOURCE_DEFINED_MODEL
+    - DOMAIN_LEGAL
+    - IP_GOVERNANCE
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   law_of_law:
     artifact:
-    - - L0_INTEGRITY
+      -   - L0_INTEGRITY
   legal_moc:
     artifact:
-    - - 08_LEGAL_MOC
+      -   - 08_LEGAL_MOC
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   domain_structure: VERIFIED_SOURCE_STRUCTURE
@@ -63,25 +63,25 @@ epistemic_boundary:
 
 `CANON_IP_GOVERNANCE.md` is the canonical Domain Plane specification governing the cryptographic IP provenance licensing, architectural trademark protection, and sovereign intellectual property rights within `21_DOMAINS/08_LEGAL`.
 
----
+______________________________________________________________________
 
-# 1. Sovereign IP Governance Mechanics
+## 1. Sovereign IP Governance Mechanics
 
 1. **Cryptographic Proof of Authorship:** Embeds immutable SHA-256 author fingerprints and origin timestamps into all architectural nodes.
-2. **Dynamic Licensing Enforcement:** Automatically regulates third-party usage, derivative synthesis, and redistribution permissions based on cryptographically signed smart agreements.
-3. **Anti-Plagiarism & Exfiltration Shield:** Detects and blocks unauthorized exfiltration or misattribution of proprietary canonical equations.
+1. **Dynamic Licensing Enforcement:** Automatically regulates third-party usage, derivative synthesis, and redistribution permissions based on cryptographically signed smart agreements.
+1. **Anti-Plagiarism & Exfiltration Shield:** Detects and blocks unauthorized exfiltration or misattribution of proprietary canonical equations.
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Law of Law:** [[01_CANON/01_CORE_LAWS/L0_INTEGRITY|L0_INTEGRITY]]
 - **Legal Kernel:** [[11_KNOWLEDGE/kernel/AMOS_LEGAL_KERNEL|AMOS_LEGAL_KERNEL]]
 - **Legal MOC:** [[21_DOMAINS/08_LEGAL/08_LEGAL_MOC|08_LEGAL_MOC]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -99,10 +99,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[21_DOMAINS/21_DOMAINS_MOC|21_DOMAINS_MOC]] · [[01_CANON/01_CORE_LAWS/L0_INTEGRITY|L0_INTEGRITY]] · [[11_KNOWLEDGE/kernel/AMOS_LEGAL_KERNEL|AMOS_LEGAL_KERNEL]]
 
----
-**MOC:** [[21_DOMAINS/08_LEGAL/08_LEGAL_MOC|08_LEGAL_MOC]]
+______________________________________________________________________
 
+**MOC:** [[21_DOMAINS/08_LEGAL/08_LEGAL_MOC|08_LEGAL_MOC]]

@@ -12,17 +12,17 @@ segment: 22_RESEARCH/01_PAPERS
 artifact_kind: REGISTRY
 path: 22_RESEARCH/01_PAPERS/EXTERNAL_EVIDENCE_SOURCE_REGISTRY.md
 tags:
-- amos-os
-- research
-- vault
-- 01_papers
-- external_evidence_source_registry
-- arxiv_corpus
-- peer_reviewed_sources
-- rscf
-- canon_candidate
-- canon/research
-- provenance-x-confidence
+  - amos-os
+  - research
+  - vault
+  - 01_papers
+  - external_evidence_source_registry
+  - arxiv_corpus
+  - peer_reviewed_sources
+  - rscf
+  - canon_candidate
+  - canon/research
+  - provenance-x-confidence
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -37,13 +37,13 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: OBSERVATION_GROUNDED
   provenance:
-  - 11_KNOWLEDGE/_arxiv_md
-  - 22_RESEARCH/01_PAPERS/01_PAPERS_MOC
-  - AMOS_CORPUS
+    - 11_KNOWLEDGE/_arxiv_md
+    - 22_RESEARCH/01_PAPERS/01_PAPERS_MOC
+    - AMOS_CORPUS
   scope:
-  - RESEARCH_PAPERS
-  - EXTERNAL_EVIDENCE
-  - SOURCE_DEFINED_MODEL
+    - RESEARCH_PAPERS
+    - EXTERNAL_EVIDENCE
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   papers_moc:
     artifact: 22_RESEARCH/01_PAPERS/01_PAPERS_MOC
@@ -62,28 +62,28 @@ epistemic_boundary:
 
 `EXTERNAL_EVIDENCE_SOURCE_REGISTRY.md` is the canonical Research Plane registry cataloging and indexing all peer-reviewed external scientific papers and arXiv preprints within `22_RESEARCH/01_PAPERS` and `11_KNOWLEDGE/_arxiv_md/`.
 
----
+______________________________________________________________________
 
-# 1. External Evidence Catalog
+## 1. External Evidence Catalog
 
-| Paper Identifier | Primary Domain | Core Empirical Findings | Grounding Application |
-| :--- | :--- | :--- | :--- |
-| `arXiv:0704.3748` | Biological Networks | Clustering coefficients & scale-free topology in PPI networks | UBI Biological Graph Modularity |
-| `arXiv:0801.0142` | Statistical Physics | Power laws & anomalous fractional diffusion dynamics | Fractal Reasoning & Lacunarity |
-| `arXiv:0709.3897` | Microscopic Dynamics | Shape coexistence & quantum phase transitions | QLS Superposition States |
-| `arXiv:0802.0885` | Optical Tomography | Dispersive signal propagation & phase reconstruction | BEI Electromagnetic Sensor Calibration |
+| Paper Identifier  | Primary Domain       | Core Empirical Findings                                       | Grounding Application                  |
+| :---------------- | :------------------- | :------------------------------------------------------------ | :------------------------------------- |
+| `arXiv:0704.3748` | Biological Networks  | Clustering coefficients & scale-free topology in PPI networks | UBI Biological Graph Modularity        |
+| `arXiv:0801.0142` | Statistical Physics  | Power laws & anomalous fractional diffusion dynamics          | Fractal Reasoning & Lacunarity         |
+| `arXiv:0709.3897` | Microscopic Dynamics | Shape coexistence & quantum phase transitions                 | QLS Superposition States               |
+| `arXiv:0802.0885` | Optical Tomography   | Dispersive signal propagation & phase reconstruction          | BEI Electromagnetic Sensor Calibration |
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Papers MOC:** 22_RESEARCH/01_PAPERS/[[22_RESEARCH/01_PAPERS/01_PAPERS_MOC|01_PAPERS_MOC]]
 - **ArXiv Knowledge Index:** 11_KNOWLEDGE/[[11_KNOWLEDGE/11_KNOWLEDGE_MOC|11_KNOWLEDGE_MOC]]
 - **Provenance Matrix:** 25_COGNITIVE_MATRIX/[[25_COGNITIVE_MATRIX/PROVENANCE_X_CONFIDENCE|PROVENANCE_X_CONFIDENCE]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -101,10 +101,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[22_RESEARCH/22_RESEARCH_MOC|22_RESEARCH_MOC]] · 22_RESEARCH/01_PAPERS/[[22_RESEARCH/01_PAPERS/01_PAPERS_MOC|01_PAPERS_MOC]] · 11_KNOWLEDGE/[[11_KNOWLEDGE/11_KNOWLEDGE_MOC|11_KNOWLEDGE_MOC]]
 
----
-**MOC:** 22_RESEARCH/01_PAPERS/[[22_RESEARCH/01_PAPERS/01_PAPERS_MOC|01_PAPERS_MOC]]
+______________________________________________________________________
 
+**MOC:** 22_RESEARCH/01_PAPERS/[[22_RESEARCH/01_PAPERS/01_PAPERS_MOC|01_PAPERS_MOC]]

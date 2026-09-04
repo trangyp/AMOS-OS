@@ -16,50 +16,59 @@ domain: identity
 scope: AMOS_OS
 updated: 2026-08-26
 tags:
-- amos-os
-- kernel
-- core
-- canon-group/tech-ai
-- canon/model
-- kernel/identity
-- kernel/provenance
-- kernel/state
-- kernel/dependency
-- kernel/versioning
-- kernel/causality
-- kernel/validation
-- rscf/identity
-- rscf/provenance
-- rscf/state/model
-- topic/identity
-- topic/semantic-identity
-- topic/provenance-lineage
-- readme
-- architecture
-- authoritative-state
-- amos-core-laws
-- law-hierarchy
-- canonical-glossary
-- canon-provenance
-- source-lineage
-- supersession-log
-- k-context-state
-- k-event-bus
-- k-structural-reasoning
-- k-causal-epoch
+  - amos-os
+  - kernel
+  - core
+  - canon-group/tech-ai
+  - canon/model
+  - kernel/identity
+  - kernel/provenance
+  - kernel/state
+  - kernel/dependency
+  - kernel/versioning
+  - kernel/causality
+  - kernel/validation
+  - rscf/identity
+  - rscf/provenance
+  - rscf/state/model
+  - topic/identity
+  - topic/semantic-identity
+  - topic/provenance-lineage
+  - readme
+  - architecture
+  - authoritative-state
+  - amos-core-laws
+  - law-hierarchy
+  - canonical-glossary
+  - canon-provenance
+  - source-lineage
+  - supersession-log
+  - k-context-state
+  - k-event-bus
+  - k-structural-reasoning
+  - k-causal-epoch
 aliases:
-- AMOS Identity Kernel - Identity Kernel - K Identity - K_IDENTITY
+  - AMOS Identity Kernel - Identity Kernel - K Identity - K_IDENTITY
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 # K IDENTITY
+
 > **AMOS Core target:** `v4.4`
 > **Origin architect / steward:** Trang Phan
 > **Plane:** `02_KERNEL`
 > **Status:** `AMOS_MODEL`
 > **Conclusion class:** `AMOS_MODEL`
+
 ## Purpose
+
 `K_IDENTITY` defines the kernel-level contract for determining, preserving, comparing, resolving, versioning, and invalidating identity across AMOS OS.
 Identity is foundational because provenance, dependency closure, state transitions, authority, event lineage, memory reuse, supersession, and causal reasoning all require AMOS to distinguish:
+
 ```text
 WHAT IS THIS?
 IS THIS THE SAME THING?
@@ -69,7 +78,9 @@ IS THIS A COPY?
 IS THIS DERIVED FROM SOMETHING ELSE?
 HAS ITS IDENTITY CHANGED?
 ```
+
 The central firewall is:
+
 ```text
 NAME != IDENTITY
 PATH != IDENTITY
@@ -82,14 +93,10 @@ COPY != ORIGINAL
 DERIVATION != INDEPENDENT ORIGIN
 SIMILARITY != SAMENESS
 ```
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
----
 
-# K IDENTITY — part 2
+## rscf: state: DERIVED claim_class: DERIVED provenance: AMOS_corpus scope: AMOS_general
+
+## K IDENTITY — part 2
 
 ## 1. Identity Principle
 
@@ -115,7 +122,7 @@ Not every entity requires every dimension.
 
 The smallest sufficient identity representation should be used.
 
----
+______________________________________________________________________
 
 ## 2. Identity Dimensions
 
@@ -143,7 +150,7 @@ These dimensions may correlate.
 
 They must not be silently collapsed.
 
----
+______________________________________________________________________
 
 ## 3. Identity Firewall
 
@@ -185,7 +192,7 @@ DIFFERENT PATH
 DIFFERENT SEMANTIC IDENTITY
 ```
 
----
+______________________________________________________________________
 
 ## 4. Canonical Identity
 
@@ -214,7 +221,7 @@ FILE EXISTS
 CANONICAL IDENTITY
 ```
 
----
+______________________________________________________________________
 
 ## 5. Semantic Identity
 
@@ -239,7 +246,7 @@ hash changes
 
 provided the governing identity contract preserves continuity.
 
----
+______________________________________________________________________
 
 ## 6. Physical Identity
 
@@ -266,7 +273,7 @@ does not necessarily mean:
 CREATE_NEW_SEMANTIC_ENTITY
 ```
 
----
+______________________________________________________________________
 
 ## 7. Artifact Identity
 
@@ -289,7 +296,7 @@ NON-IDENTITY-BREAKING REVISIONS
 
 unless governance explicitly establishes a new identity.
 
----
+______________________________________________________________________
 
 ## 8. Filename Identity Firewall
 
@@ -319,7 +326,7 @@ artifact_id = AMOS-OS-K-IDENTITY
 
 The metadata and registry must agree.
 
----
+______________________________________________________________________
 
 ## 9. Path Identity Firewall
 
@@ -347,7 +354,7 @@ PLACED_IN_KERNEL
 VALIDATED_KERNEL CONTRACT
 ```
 
----
+______________________________________________________________________
 
 ## 10. Registry Identity
 
@@ -375,7 +382,7 @@ identity:
   status:
 ```
 
----
+______________________________________________________________________
 
 ## 11. Namespace
 
@@ -406,7 +413,7 @@ SAME LOCAL NAME
 SAME ENTITY
 ```
 
----
+______________________________________________________________________
 
 ## 12. Typed Identity
 
@@ -430,7 +437,7 @@ EXECUTION_ID
 
 Identifiers from different types must not be compared as interchangeable identities without an explicit mapping.
 
----
+______________________________________________________________________
 
 ## 13. Identity Resolution
 
@@ -466,7 +473,7 @@ CONFLICTING
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
 ## 14. Alias
 
@@ -490,7 +497,7 @@ Example:
 
 may resolve to one canonical artifact.
 
----
+______________________________________________________________________
 
 ## 15. Alias Firewall
 
@@ -503,7 +510,7 @@ ALIAS != DERIVATION
 
 Alias resolution must preserve the canonical target.
 
----
+______________________________________________________________________
 
 ## 16. Ambiguous Alias
 
@@ -535,7 +542,7 @@ UNKNOWN/GAP
 
 until discriminating information exists.
 
----
+______________________________________________________________________
 
 ## 17. Rename
 
@@ -565,7 +572,7 @@ NEW ENTITY
 
 unless explicitly defined as identity-breaking.
 
----
+______________________________________________________________________
 
 ## 18. Move
 
@@ -581,7 +588,7 @@ It does not necessarily change semantic identity.
 
 The move should preserve provenance where the artifact remains the same entity.
 
----
+______________________________________________________________________
 
 ## 19. Copy
 
@@ -606,7 +613,7 @@ BACKUP
 
 A copy must not automatically inherit canonical authority.
 
----
+______________________________________________________________________
 
 ## 20. Duplicate
 
@@ -626,7 +633,7 @@ IDENTITY(A) = IDENTITY(B)
 
 They may have different provenance or roles.
 
----
+______________________________________________________________________
 
 ## 21. Hash Identity
 
@@ -653,7 +660,7 @@ SAME PROVENANCE
 SAME VERSION ROLE
 ```
 
----
+______________________________________________________________________
 
 ## 22. Content Addressing
 
@@ -669,7 +676,7 @@ This provides content identity.
 
 It must remain distinct from semantic identity.
 
----
+______________________________________________________________________
 
 ## 23. Version Identity
 
@@ -692,7 +699,7 @@ A@r16 != A@r17
 
 as versions, while both may belong to semantic entity `A`.
 
----
+______________________________________________________________________
 
 ## 24. Canonical Filename Version Rule
 
@@ -717,7 +724,7 @@ K_IDENTITY.md
 
 can remain stable while its version history evolves.
 
----
+______________________________________________________________________
 
 ## 25. Unknown Version
 
@@ -738,7 +745,7 @@ SIMILARITY
 
 alone.
 
----
+______________________________________________________________________
 
 ## 26. Revision
 
@@ -756,7 +763,7 @@ A[r2]
 
 Each revision should preserve lineage.
 
----
+______________________________________________________________________
 
 ## 27. Identity-Breaking Change
 
@@ -774,7 +781,7 @@ INCOMPATIBLE CONTRACT CREATED
 
 Whether a change is identity-breaking must be governed, not guessed.
 
----
+______________________________________________________________________
 
 ## 28. Supersession
 
@@ -796,7 +803,7 @@ The old identity remains historically real.
 
 The new identity becomes the accepted successor under the specified scope.
 
----
+______________________________________________________________________
 
 ## 29. Deprecation
 
@@ -812,7 +819,7 @@ It does not mean the identity disappears.
 
 Historical provenance may still depend on it.
 
----
+______________________________________________________________________
 
 ## 30. Tombstone
 
@@ -832,7 +839,7 @@ tombstone:
 
 A tombstone prevents accidental identity reuse.
 
----
+______________________________________________________________________
 
 ## 31. Identity Reuse Firewall
 
@@ -850,7 +857,7 @@ ID_A → NEW_UNRELATED_ENTITY
 
 Identity reuse corrupts lineage.
 
----
+______________________________________________________________________
 
 ## 32. Provenance Identity
 
@@ -868,7 +875,7 @@ PROVENANCE(A) != PROVENANCE(B)
 
 This distinction is load-bearing for independence analysis.
 
----
+______________________________________________________________________
 
 ## 33. Source Identity
 
@@ -887,7 +894,7 @@ source_identity:
 
 Source identity is required for provenance topology and Sybil hardening.
 
----
+______________________________________________________________________
 
 ## 34. Provenance Ancestry
 
@@ -916,7 +923,7 @@ DISTINCT IDENTITY
 INDEPENDENT EVIDENCE
 ```
 
----
+______________________________________________________________________
 
 ## 35. Identity and Sybil Hardening
 
@@ -942,7 +949,7 @@ A + B + C
 
 as three independent sources is invalid if ancestry remains shared.
 
----
+______________________________________________________________________
 
 ## 36. Event Identity
 
@@ -963,7 +970,7 @@ CAUSAL_EPOCH
 
 This allows duplicate detection without collapsing related events.
 
----
+______________________________________________________________________
 
 ## 37. Execution Identity
 
@@ -989,7 +996,7 @@ SAME COMPUTATION TYPE
 SAME EXECUTION
 ```
 
----
+______________________________________________________________________
 
 ## 38. State Identity
 
@@ -1006,7 +1013,7 @@ may belong to the same system while representing different committed states.
 
 State identity is distinct from system identity.
 
----
+______________________________________________________________________
 
 ## 39. MVCC Identity
 
@@ -1028,7 +1035,7 @@ A reader must know which state identity it observed.
 
 This enables stale-read detection.
 
----
+______________________________________________________________________
 
 ## 40. CAS Identity
 
@@ -1048,7 +1055,7 @@ CURRENT = S19
 
 Identity comparison therefore protects state transitions.
 
----
+______________________________________________________________________
 
 ## 41. Causal Identity
 
@@ -1063,7 +1070,7 @@ CAUSAL EPOCH IDENTITY
 
 These must not be collapsed.
 
----
+______________________________________________________________________
 
 ## 42. Causal Epoch Identity
 
@@ -1077,7 +1084,7 @@ EPOCH_18
 
 An artifact bound to one epoch must not automatically be interpreted as current in another.
 
----
+______________________________________________________________________
 
 ## 43. Claim Identity
 
@@ -1095,7 +1102,7 @@ TEXT IDENTITY
 CLAIM IDENTITY
 ```
 
----
+______________________________________________________________________
 
 ## 44. RSCF Identity
 
@@ -1117,7 +1124,7 @@ INVALIDATION
 REUSE
 ```
 
----
+______________________________________________________________________
 
 ## 45. Model Identity
 
@@ -1133,7 +1140,7 @@ REGIME
 
 A model name alone may be insufficient.
 
----
+______________________________________________________________________
 
 ## 46. Agent Identity
 
@@ -1154,7 +1161,7 @@ Executor_Agent
 
 identifies a role/class but not necessarily a specific runtime execution.
 
----
+______________________________________________________________________
 
 ## 47. Skill Identity
 
@@ -1166,7 +1173,7 @@ AGENT != SKILL
 
 An agent invoking a skill does not transfer agent identity to the skill or vice versa.
 
----
+______________________________________________________________________
 
 ## 48. Workflow Identity
 
@@ -1178,7 +1185,7 @@ WORKFLOW_DEFINITION
 WORKFLOW_RUN
 ```
 
----
+______________________________________________________________________
 
 ## 49. Tool Identity
 
@@ -1198,7 +1205,7 @@ and:
 CAPABILITY != AUTHORITY
 ```
 
----
+______________________________________________________________________
 
 ## 50. Authority Identity
 
@@ -1221,7 +1228,7 @@ Identity proves which authority record is referenced.
 
 It does not independently prove that the authority is valid.
 
----
+______________________________________________________________________
 
 ## 51. Identity and Authority Firewall
 
@@ -1233,7 +1240,7 @@ AUTHORIZED IDENTITY
 
 Authentication, identity resolution, and authorization are separate operations.
 
----
+______________________________________________________________________
 
 ## 52. Identity and Authentication
 
@@ -1250,7 +1257,7 @@ CORRECTNESS
 
 outside that mechanism's scope.
 
----
+______________________________________________________________________
 
 ## 53. Identity and Trust
 
@@ -1276,7 +1283,7 @@ TRUST(
 )
 ```
 
----
+______________________________________________________________________
 
 ## 54. Identity and Scope
 
@@ -1295,7 +1302,7 @@ ENVIRONMENT
 
 where relevant.
 
----
+______________________________________________________________________
 
 ## 55. Cross-Scope Identity
 
@@ -1311,7 +1318,7 @@ the mapping itself should be explicit.
 
 Do not assume identical labels mean identical entities across systems.
 
----
+______________________________________________________________________
 
 ## 56. Identity and Regime
 
@@ -1334,7 +1341,7 @@ but properties derived under `R0` may not remain valid under `R1`.
 
 Identity continuity does not guarantee conclusion continuity.
 
----
+______________________________________________________________________
 
 ## 57. Identity and Freshness
 
@@ -1351,7 +1358,7 @@ AUTHORITY = stale
 
 Consumers must distinguish persistent identity from freshness-bounded attributes.
 
----
+______________________________________________________________________
 
 ## 58. Identity Conflict
 
@@ -1373,7 +1380,7 @@ Possible result:
 CONFLICTING
 ```
 
----
+______________________________________________________________________
 
 ## 59. Split Identity
 
@@ -1398,7 +1405,7 @@ UNKNOWN/GAP
 
 depending on provenance.
 
----
+______________________________________________________________________
 
 ## 60. Merge
 
@@ -1421,7 +1428,7 @@ only if sufficient evidence establishes they represent the same semantic entity.
 
 Similarity alone is insufficient.
 
----
+______________________________________________________________________
 
 ## 61. Split
 
@@ -1438,7 +1445,7 @@ when evidence shows multiple distinct entities were incorrectly represented as o
 
 Dependent conclusions must then be selectively revalidated.
 
----
+______________________________________________________________________
 
 ## 62. Identity Dependency
 
@@ -1458,7 +1465,7 @@ If the identity premise changes, dependent conclusions may change.
 
 Identity edges must therefore participate in dependency closure.
 
----
+______________________________________________________________________
 
 ## 63. Identity Invalidation
 
@@ -1477,7 +1484,7 @@ Invalid(p)
 
 Independent branches remain valid.
 
----
+______________________________________________________________________
 
 ## 64. Identity Sensitivity
 
@@ -1491,7 +1498,7 @@ or:
 
 If yes, identity is load-bearing and requires stronger validation.
 
----
+______________________________________________________________________
 
 ## 65. Identity Confidence Ceiling
 
@@ -1507,7 +1514,7 @@ C(load-bearing identity premise)
 
 unless another independent path removes that dependency.
 
----
+______________________________________________________________________
 
 ## 66. Identity Resolution Fast Path
 
@@ -1525,7 +1532,7 @@ NO MATERIAL CONFLICT
 
 Otherwise escalate.
 
----
+______________________________________________________________________
 
 ## 67. Identity Escalation
 
@@ -1545,7 +1552,7 @@ AUTHORITY DEPENDS ON IDENTITY
 IRREVERSIBLE ACTION DEPENDS ON IDENTITY
 ```
 
----
+______________________________________________________________________
 
 ## 68. Proof-Based Identity Resolution
 
@@ -1571,7 +1578,7 @@ RESOLVED IDENTITY
 
 Do not resolve solely because one candidate appears most fluent or familiar.
 
----
+______________________________________________________________________
 
 ## 69. Identity Independence
 
@@ -1589,7 +1596,7 @@ PROVENANCE_INDEPENDENT(A, B)
 
 Independence requires provenance topology.
 
----
+______________________________________________________________________
 
 ## 70. Persistent Identity
 
@@ -1608,7 +1615,7 @@ when those operations preserve the entity.
 
 Persistent identity enables stable dependency and provenance graphs.
 
----
+______________________________________________________________________
 
 ## 71. Identity Across Serialization
 
@@ -1632,7 +1639,7 @@ IDENTITY(OBJECT)
 
 under the serialization contract.
 
----
+______________________________________________________________________
 
 ## 72. Identity Across Transport
 
@@ -1648,7 +1655,7 @@ PROVENANCE_ID
 
 where those fields are load-bearing.
 
----
+______________________________________________________________________
 
 ## 73. Identity Across Replay
 
@@ -1660,7 +1667,7 @@ REPLAY
 NEW ORIGINAL EVENT
 ```
 
----
+______________________________________________________________________
 
 ## 74. Identity Across Recovery
 
@@ -1668,7 +1675,7 @@ Recovery should restore identity continuity.
 
 A restored state must not silently create new semantic identities for existing entities unless required by the recovery model.
 
----
+______________________________________________________________________
 
 ## 75. Identity Across Forks
 
@@ -1684,7 +1691,7 @@ A
 
 The fork edge must remain visible.
 
----
+______________________________________________________________________
 
 ## 76. Identity Across Derivation
 
@@ -1708,7 +1715,7 @@ or:
 A INDEPENDENT_OF B
 ```
 
----
+______________________________________________________________________
 
 ## 77. Identity Across Transformation
 
@@ -1724,7 +1731,7 @@ Whether semantic identity is preserved depends on the transformation contract.
 
 It must not be assumed universally.
 
----
+______________________________________________________________________
 
 ## 78. Identity Across Compression
 
@@ -1744,7 +1751,7 @@ DERIVED_FROM
 
 the source.
 
----
+______________________________________________________________________
 
 ## 79. Identity Across Models
 
@@ -1762,7 +1769,7 @@ A = B
 
 or shared causal origin.
 
----
+______________________________________________________________________
 
 ## 80. Identity Lifecycle
 
@@ -1784,7 +1791,7 @@ TOMBSTONED
 
 Not every identity requires every stage.
 
----
+______________________________________________________________________
 
 ## 81. Identity State Contract
 
@@ -1806,7 +1813,7 @@ identity_state:
   retired_at:
 ```
 
----
+______________________________________________________________________
 
 ## 82. Identity Registry Contract
 
@@ -1832,7 +1839,7 @@ VALIDATE
 
 Each mutation must preserve provenance.
 
----
+______________________________________________________________________
 
 ## 83. Registration
 
@@ -1851,7 +1858,7 @@ else:
 
 Registration does not automatically grant authority.
 
----
+______________________________________________________________________
 
 ## 84. Resolution
 
@@ -1877,7 +1884,7 @@ def resolve_identity(reference, registry):
 
 Architectural pseudocode only.
 
----
+______________________________________________________________________
 
 ## 85. Identity Comparison
 
@@ -1900,7 +1907,7 @@ UNKNOWN/GAP
 
 This avoids collapsing different relationships into equality.
 
----
+______________________________________________________________________
 
 ## 86. Strong Equality
 
@@ -1914,7 +1921,7 @@ IDENTICAL_FOR_OPERATION(A, B, O)
 
 rather than assuming one universal equality relation.
 
----
+______________________________________________________________________
 
 ## 87. Operational Identity
 
@@ -1942,7 +1949,7 @@ COMMIT
 
 Identity is therefore typed and operation-sensitive.
 
----
+______________________________________________________________________
 
 ## 88. Identity Invariants
 
@@ -2023,7 +2030,7 @@ ID-25
 UNKNOWN/GAP MUST NOT BECOME IDENTITY EQUALITY
 ```
 
----
+______________________________________________________________________
 
 ## 89. Failure Modes
 
@@ -2057,7 +2064,7 @@ GLOBAL_INVALIDATION
 UNKNOWN_AS_SAME
 ```
 
----
+______________________________________________________________________
 
 ## 90. Required Tests
 
@@ -2098,7 +2105,7 @@ SELECTIVE-INVALIDATION TEST
 RECOVERY-CONTINUITY TEST
 ```
 
----
+______________________________________________________________________
 
 ## 91. Negative Tests
 
@@ -2164,7 +2171,7 @@ UNKNOWN/GAP
 MUST FAIL
 ```
 
----
+______________________________________________________________________
 
 ## 92. Promotion Gate
 
@@ -2210,7 +2217,7 @@ EMPIRICAL_VALIDATION = UNKNOWN/GAP
 FORMAL_VERIFICATION = UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
 ## 93. Integrity Note
 
@@ -2254,7 +2261,7 @@ FORMAL_VERIFICATION = UNKNOWN/GAP
 RUNTIME_AUTHORITY = NONE
 ```
 
----
+______________________________________________________________________
 
 ## 94. RSCF Node
 
@@ -2303,7 +2310,7 @@ RSCF-RELATIONS:
   - VERIFIED_BY: README
 ```
 
----
+______________________________________________________________________
 
 ## 95. Canonical Summary
 
@@ -2440,12 +2447,14 @@ README
 ```text
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 **MOC:** [[02_KERNEL/04_STATE/04_STATE_MOC|04_STATE_MOC]]

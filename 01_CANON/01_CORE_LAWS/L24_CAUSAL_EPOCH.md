@@ -1,26 +1,29 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: L24 — Causal Epoch Law
 type: law
 source: 01_CANON/01_CORE_LAWS
 tags:
-- canon
-- core_law
-- causal_epoch
-- causal_time
-- monotonicity
-- epoch_boundary
-- causal_lineage
-- causal_lineage_closure
-- verdict_immutability
-- explicit_supersession
-- witness_receipts
-- fail_closed
-- replayability
-- provenance
-- time
-- canon/universe
-- law/L8-execution
-- law/L22-replayability
+  - canon
+  - core_law
+  - causal_epoch
+  - causal_time
+  - monotonicity
+  - epoch_boundary
+  - causal_lineage
+  - causal_lineage_closure
+  - verdict_immutability
+  - explicit_supersession
+  - witness_receipts
+  - fail_closed
+  - replayability
+  - provenance
+  - time
+  - canon/universe
+  - law/L8-execution
+  - law/L22-replayability
 rscf:
   state: CANON_LAW
   claim_class: CANONICAL_INVARIANT
@@ -37,9 +40,9 @@ rscf:
 **claim_class:** CANONICAL_INVARIANT\
 **provenance:** AMOS_CANON
 
----
+______________________________________________________________________
 
-# 0. Canonical Status
+## 0. Canonical Status
 
 L24 establishes the canonical AMOS law governing:
 
@@ -74,9 +77,9 @@ UNLINKED CONSEQUENCES
 FAIL CLOSED.
 ```
 
----
+______________________________________________________________________
 
-# 1. Governing Objective
+## 1. Governing Objective
 
 L24 asks:
 
@@ -112,9 +115,9 @@ HAS EXECUTION
 FAILED CLOSED?
 ```
 
----
+______________________________________________________________________
 
-# 2. Canonical Invariants
+## 2. Canonical Invariants
 
 The supplied source establishes three canonical invariants.
 
@@ -135,7 +138,7 @@ STRICTLY GREATER
 THAN THE PRIOR EPOCH.
 ```
 
----
+______________________________________________________________________
 
 ## CE-2 — No Time Travel
 
@@ -174,11 +177,11 @@ EXPLICIT LATER
 EPOCH REQUIRED
 ```
 
----
+______________________________________________________________________
 
 ## CE-3 — Causal Lineage Closure
 
-For every consequence \(C\):
+For every consequence (C):
 
 $$
 \forall C,\;
@@ -207,9 +210,9 @@ Epoch(C)
 
 A consequence cannot be causally grounded in a later epoch.
 
----
+______________________________________________________________________
 
-# 3. Strict Monotonicity Law
+## 3. Strict Monotonicity Law
 
 The first invariant establishes an ordered causal progression:
 
@@ -244,9 +247,9 @@ e5 → e4
 
 as transitions to the next causal epoch.
 
----
+______________________________________________________________________
 
-# 4. Strict Means Strict
+## 4. Strict Means Strict
 
 The source uses:
 
@@ -276,11 +279,11 @@ CANNOT BE EARLIER
 THAN CURRENT EPOCH.
 ```
 
----
+______________________________________________________________________
 
-# 5. Epoch Identity
+## 5. Epoch Identity
 
-The source establishes ordered epochs \(e_k\), but does not specify their physical representation.
+The source establishes ordered epochs (e_k), but does not specify their physical representation.
 
 It does **not** establish whether an epoch identifier is:
 
@@ -307,9 +310,9 @@ PHYSICAL ENCODING
 UNKNOWN / IMPLEMENTATION-DEPENDENT
 ```
 
----
+______________________________________________________________________
 
-# 6. Causal Time ≠ Wall-Clock Time
+## 6. Causal Time ≠ Wall-Clock Time
 
 L24 establishes:
 
@@ -333,9 +336,9 @@ PHYSICAL CLOCK TIME
 
 unless another canonical source explicitly binds them.
 
----
+______________________________________________________________________
 
-# 7. Epoch Order ≠ Timestamp Order
+## 7. Epoch Order ≠ Timestamp Order
 
 Do not infer:
 
@@ -353,9 +356,9 @@ from L24 alone.
 
 The canonical law concerns causal epochs, not a specified timestamp implementation.
 
----
+______________________________________________________________________
 
-# 8. Monotonicity ≠ Fixed Increment
+## 8. Monotonicity ≠ Fixed Increment
 
 The equation requires:
 
@@ -377,9 +380,9 @@ STRICTLY INCREASING
 UNIT INCREMENT
 ```
 
----
+______________________________________________________________________
 
-# 9. Monotonicity ≠ Continuity
+## 9. Monotonicity ≠ Continuity
 
 Nothing in the supplied source requires every mathematically possible epoch value to exist.
 
@@ -393,9 +396,9 @@ is not ruled out solely by the strict monotonicity equation if the epoch represe
 
 Whether skipped epochs are valid is unspecified.
 
----
+______________________________________________________________________
 
-# 10. Monotonicity ≠ Total Physical Serialization
+## 10. Monotonicity ≠ Total Physical Serialization
 
 L24 establishes strict ordering of the epoch sequence.
 
@@ -410,9 +413,9 @@ PROOF OF A SINGLE
 GLOBAL PHYSICAL CLOCK
 ```
 
----
+______________________________________________________________________
 
-# 11. Epoch Boundary
+## 11. Epoch Boundary
 
 An epoch boundary exists between:
 
@@ -436,9 +439,9 @@ Crossing this boundary becomes especially important for:
 - causal lineage,
 - and witness enforcement.
 
----
+______________________________________________________________________
 
-# 12. Epoch Transition
+## 12. Epoch Transition
 
 Canonical transition:
 
@@ -458,11 +461,11 @@ with:
 e_{k+1} > e_k
 ```
 
----
+______________________________________________________________________
 
-# 13. No Time Travel Law
+## 13. No Time Travel Law
 
-The second canonical invariant states that verdicts at \(e_k\):
+The second canonical invariant states that verdicts at (e_k):
 
 ```text
 cannot be silently rewritten
@@ -498,9 +501,9 @@ V2 @ e8
 
 is required.
 
----
+______________________________________________________________________
 
-# 14. Historical Verdict Preservation
+## 14. Historical Verdict Preservation
 
 Canonical pattern:
 
@@ -527,9 +530,9 @@ VERDICT = V2
 
 with V1 silently erased.
 
----
+______________________________________________________________________
 
-# 15. Supersession
+## 15. Supersession
 
 The source explicitly establishes:
 
@@ -551,9 +554,9 @@ and:
 LATER EPOCH
 ```
 
----
+______________________________________________________________________
 
-# 16. Supersession ≠ Deletion
+## 16. Supersession ≠ Deletion
 
 The source says an earlier verdict cannot be silently rewritten.
 
@@ -575,9 +578,9 @@ SUPERSEDING STATE
 
 The exact storage mechanism is not specified.
 
----
+______________________________________________________________________
 
-# 17. Supersession ≠ Contradiction Erasure
+## 17. Supersession ≠ Contradiction Erasure
 
 Suppose:
 
@@ -605,9 +608,9 @@ V2 @ e6
 
 preserves lineage.
 
----
+______________________________________________________________________
 
-# 18. New Evidence Does Not Rewrite Old Epistemic State
+## 18. New Evidence Does Not Rewrite Old Epistemic State
 
 A later observation can change what AMOS concludes now.
 
@@ -629,9 +632,9 @@ CANNOT SILENTLY CHANGE
 HISTORICAL VERDICT
 ```
 
----
+______________________________________________________________________
 
-# 19. Correction vs Rewrite
+## 19. Correction vs Rewrite
 
 A correction is compatible with L24 when represented as:
 
@@ -657,9 +660,9 @@ V2 @ e_k
 
 violates the stated no-time-travel invariant.
 
----
+______________________________________________________________________
 
-# 20. Explicit Transition Requirement
+## 20. Explicit Transition Requirement
 
 The source does not define the exact representation of an explicit transition.
 
@@ -675,9 +678,9 @@ Potential implementations might include:
 
 Only the requirement for explicit epoch transition is canonical here.
 
----
+______________________________________________________________________
 
-# 21. Historical Immutability Boundary
+## 21. Historical Immutability Boundary
 
 L24 establishes a semantic immutability property:
 
@@ -697,9 +700,9 @@ SEMANTIC IMMUTABILITY
 PHYSICAL WRITE-ONCE STORAGE
 ```
 
----
+______________________________________________________________________
 
-# 22. No Time Travel ≠ No Revision
+## 22. No Time Travel ≠ No Revision
 
 L24 does not prohibit revision.
 
@@ -721,9 +724,9 @@ BY SILENTLY ALTERING
 THE EARLIER EPOCH
 ```
 
----
+______________________________________________________________________
 
-# 23. Causal Lineage Closure
+## 23. Causal Lineage Closure
 
 The third canonical invariant requires every consequence to possess causal ancestry.
 
@@ -748,9 +751,9 @@ WITHOUT A CAUSAL LINK
 
 within the canonical model.
 
----
+______________________________________________________________________
 
-# 24. Cause Cannot Come From the Future
+## 24. Cause Cannot Come From the Future
 
 Because:
 
@@ -778,9 +781,9 @@ IN A LATER EPOCH
 
 relative to its consequence.
 
----
+______________________________________________________________________
 
-# 25. Same-Epoch Causation
+## 25. Same-Epoch Causation
 
 The equation uses:
 
@@ -806,9 +809,9 @@ for a cause and consequence.
 
 This is distinct from epoch-transition monotonicity.
 
----
+______________________________________________________________________
 
-# 26. Epoch Transition vs Cause Ordering
+## 26. Epoch Transition vs Cause Ordering
 
 Two separate relations must not be collapsed.
 
@@ -842,9 +845,9 @@ AS ITS CONSEQUENCE
 
 according to the supplied equations.
 
----
+______________________________________________________________________
 
-# 27. Causal Lineage
+## 27. Causal Lineage
 
 Minimal canonical form:
 
@@ -863,9 +866,9 @@ Epoch(A)
 Epoch(C)
 ```
 
----
+______________________________________________________________________
 
-# 28. Multi-Step Causal Lineage
+## 28. Multi-Step Causal Lineage
 
 Conceptually:
 
@@ -881,9 +884,9 @@ C @ e3
 
 Each consequence requires an admissible causal predecessor.
 
----
+______________________________________________________________________
 
-# 29. Causal Lineage Closure ≠ Unique Cause
+## 29. Causal Lineage Closure ≠ Unique Cause
 
 The equation states:
 
@@ -907,9 +910,9 @@ MULTIPLE CAUSES
 
 unless another canonical law imposes uniqueness.
 
----
+______________________________________________________________________
 
-# 30. Causal Lineage Closure ≠ Sufficient Cause
+## 30. Causal Lineage Closure ≠ Sufficient Cause
 
 The existence of a causal predecessor does not establish that the predecessor is:
 
@@ -921,9 +924,9 @@ The existence of a causal predecessor does not establish that the predecessor is
 
 L24 establishes lineage existence and temporal admissibility, not the full causal type.
 
----
+______________________________________________________________________
 
-# 31. Causal Firewall
+## 31. Causal Firewall
 
 L24 must not be used to infer causation merely because:
 
@@ -950,9 +953,9 @@ SAME / EARLIER EPOCH
 PROOF OF CAUSATION
 ```
 
----
+______________________________________________________________________
 
-# 32. Structural Lineage ≠ Empirical Causation
+## 32. Structural Lineage ≠ Empirical Causation
 
 An AMOS causal-lineage edge can represent a model or execution dependency.
 
@@ -969,9 +972,9 @@ CAUSAL EFFECT
 
 unless independently validated.
 
----
+______________________________________________________________________
 
-# 33. Cross-Epoch Causal Chain
+## 33. Cross-Epoch Causal Chain
 
 Example:
 
@@ -991,9 +994,9 @@ The source explicitly requires such chains to carry:
 SIGNED WITNESS RECEIPTS
 ```
 
----
+______________________________________________________________________
 
-# 34. Signed Witness Receipt Requirement
+## 34. Signed Witness Receipt Requirement
 
 Canonical enforcement:
 
@@ -1018,9 +1021,9 @@ SIGNED
 WITNESS RECEIPT
 ```
 
----
+______________________________________________________________________
 
-# 35. Witness Receipt Scope
+## 35. Witness Receipt Scope
 
 The source establishes the existence requirement.
 
@@ -1040,9 +1043,9 @@ It does **not** specify:
 
 Those remain unspecified.
 
----
+______________________________________________________________________
 
-# 36. Signed ≠ Trusted Automatically
+## 36. Signed ≠ Trusted Automatically
 
 A signature can establish some form of binding to a signing identity under an appropriate cryptographic system.
 
@@ -1058,9 +1061,9 @@ AUTOMATICALLY TRUSTED
 
 without valid signer authority and verification semantics.
 
----
+______________________________________________________________________
 
-# 37. Witness ≠ Independent Witness
+## 37. Witness ≠ Independent Witness
 
 The source says:
 
@@ -1081,17 +1084,17 @@ WITNESSES
 
 unless provenance independence is separately demonstrated.
 
----
+______________________________________________________________________
 
-# 38. Witness Receipt ≠ Proof of Empirical Causation
+## 38. Witness Receipt ≠ Proof of Empirical Causation
 
 A receipt can attest to a causal-chain transition under AMOS semantics.
 
 It does not by itself prove that the modeled causal relationship is empirically true in the external world.
 
----
+______________________________________________________________________
 
-# 39. Witness Receipt Function
+## 39. Witness Receipt Function
 
 At minimum, the canonical enforcement role is:
 
@@ -1106,9 +1109,9 @@ REQUIRED
 
 Anything beyond that is implementation detail unless established elsewhere.
 
----
+______________________________________________________________________
 
-# 40. Unlinked Consequence
+## 40. Unlinked Consequence
 
 An unlinked consequence is a consequence for which required causal ancestry is absent.
 
@@ -1130,9 +1133,9 @@ CAUSE A
 CONSEQUENCE C
 ```
 
----
+______________________________________________________________________
 
-# 41. Fail-Closed Enforcement
+## 41. Fail-Closed Enforcement
 
 The source explicitly establishes:
 
@@ -1155,9 +1158,9 @@ CONTINUE FAIL-CLOSED
          HALT
 ```
 
----
+______________________________________________________________________
 
-# 42. Fail-Closed ≠ Best-Effort Continuation
+## 42. Fail-Closed ≠ Best-Effort Continuation
 
 Invalid under the explicit enforcement rule:
 
@@ -1179,9 +1182,9 @@ MISSING
 HALT
 ```
 
----
+______________________________________________________________________
 
-# 43. Fail-Closed Scope
+## 43. Fail-Closed Scope
 
 The source says:
 
@@ -1201,9 +1204,9 @@ but does not define whether the halt is:
 
 Therefore the **halt requirement** is canonical, while the exact halt scope remains unspecified.
 
----
+______________________________________________________________________
 
-# 44. Missing Receipt vs Missing Causal Link
+## 44. Missing Receipt vs Missing Causal Link
 
 The source separately states:
 
@@ -1234,9 +1237,9 @@ ENFORCEMENT FAILURE
 
 but the exact error taxonomy remains unspecified.
 
----
+______________________________________________________________________
 
-# 45. Canonical Enforcement Flow
+## 45. Canonical Enforcement Flow
 
 ```text
 CAUSE / PRIOR STATE
@@ -1273,9 +1276,9 @@ HALT      CROSSED?
 
 The precise response to a missing receipt beyond non-compliance is not explicitly defined.
 
----
+______________________________________________________________________
 
-# 46. Verdict Evolution
+## 46. Verdict Evolution
 
 Canonical verdict evolution:
 
@@ -1297,9 +1300,9 @@ e1 < e2 < e3
 
 Each later verdict can supersede an earlier verdict explicitly.
 
----
+______________________________________________________________________
 
-# 47. Verdict Lineage
+## 47. Verdict Lineage
 
 Model-level representation:
 
@@ -1313,9 +1316,9 @@ V2 @ e2
 
 The exact relation name is not source-defined.
 
----
+______________________________________________________________________
 
-# 48. Evidence Evolution
+## 48. Evidence Evolution
 
 Suppose:
 
@@ -1349,9 +1352,9 @@ SUPERSEDED
 V2 @ e4
 ```
 
----
+______________________________________________________________________
 
-# 49. Contradiction Across Epochs
+## 49. Contradiction Across Epochs
 
 A later epoch can contradict an earlier verdict.
 
@@ -1367,9 +1370,9 @@ V2 @ e6
 
 is representable without destroying V1's historical state.
 
----
+______________________________________________________________________
 
-# 50. Competing Hypotheses Across Epochs
+## 50. Competing Hypotheses Across Epochs
 
 Suppose:
 
@@ -1404,9 +1407,9 @@ as though H2
 had already won
 ```
 
----
+______________________________________________________________________
 
-# 51. Epochs Preserve Epistemic History
+## 51. Epochs Preserve Epistemic History
 
 L24 therefore supports a distinction between:
 
@@ -1422,9 +1425,9 @@ WHAT IS JUSTIFIED NOW
 
 without conflating them.
 
----
+______________________________________________________________________
 
-# 52. Historical Error Remains Historical
+## 52. Historical Error Remains Historical
 
 If a verdict at e5 was later discovered to be wrong:
 
@@ -1448,9 +1451,9 @@ V_corrected @ e6
 
 This preserves causal and epistemic lineage.
 
----
+______________________________________________________________________
 
-# 53. No Retroactive Confidence Inflation
+## 53. No Retroactive Confidence Inflation
 
 Later evidence supporting an old claim does not justify silently increasing the confidence attached to the historical verdict at its original epoch.
 
@@ -1468,17 +1471,17 @@ CONFIDENCE C2 @ e5
 
 as a model-level consequence of the no-silent-rewrite law.
 
----
+______________________________________________________________________
 
-# 54. No Retroactive Confidence Deflation
+## 54. No Retroactive Confidence Deflation
 
 Likewise, later disconfirmation does not silently alter the historical confidence state.
 
 Historical and current evaluations remain distinguishable.
 
----
+______________________________________________________________________
 
-# 55. Epoch-Scoped Proof Capsule
+## 55. Epoch-Scoped Proof Capsule
 
 A model-level Proof Capsule may carry:
 
@@ -1505,9 +1508,9 @@ proof_capsule:
 
 This representation is consistent with L24 but is not explicitly specified by the supplied source.
 
----
+______________________________________________________________________
 
-# 56. Proof Capsule Reuse Across Epochs
+## 56. Proof Capsule Reuse Across Epochs
 
 A Proof Capsule from an earlier epoch should not automatically be assumed valid in a later epoch.
 
@@ -1525,9 +1528,9 @@ SUPERSESSION
 
 This follows broader AMOS proof-capsule discipline rather than the minimal L24 source alone.
 
----
+______________________________________________________________________
 
-# 57. RSCF Epoch Binding
+## 57. RSCF Epoch Binding
 
 An RSCF node can conceptually carry:
 
@@ -1549,9 +1552,9 @@ rscf:
 
 Exact serialization is model-level.
 
----
+______________________________________________________________________
 
-# 58. RSCF Historical Preservation
+## 58. RSCF Historical Preservation
 
 Under L24:
 
@@ -1569,9 +1572,9 @@ while pretending it remained the same historical state.
 
 Explicit lineage preserves the transition.
 
----
+______________________________________________________________________
 
-# 59. Causal Dependency Graph
+## 59. Causal Dependency Graph
 
 ```text
 A @ e1
@@ -1594,9 +1597,9 @@ Epoch(C) ≤ Epoch(D)
 
 Cross-epoch causal edges require signed witness receipts.
 
----
+______________________________________________________________________
 
-# 60. Invalid Future-Cause Graph
+## 60. Invalid Future-Cause Graph
 
 Invalid under the lineage equation:
 
@@ -1615,9 +1618,9 @@ $$
 8 \nleq 7
 $$
 
----
+______________________________________________________________________
 
-# 61. Unlinked Graph
+## 61. Unlinked Graph
 
 Invalid execution condition:
 
@@ -1633,9 +1636,9 @@ Canonical response:
 FAIL CLOSED
 ```
 
----
+______________________________________________________________________
 
-# 62. Cross-Epoch Witness Graph
+## 62. Cross-Epoch Witness Graph
 
 ```text
 A @ e4
@@ -1651,9 +1654,9 @@ The receipt requirement is canonical.
 
 Its cryptographic mechanics are not specified.
 
----
+______________________________________________________________________
 
-# 63. Multiple Cross-Epoch Edges
+## 63. Multiple Cross-Epoch Edges
 
 Conceptually:
 
@@ -1671,9 +1674,9 @@ Each causal chain crossing epoch boundaries falls under the witness-receipt requ
 
 Whether one receipt can cover multiple edges or an entire chain is not specified.
 
----
+______________________________________________________________________
 
-# 64. Epoch Jump
+## 64. Epoch Jump
 
 Suppose:
 
@@ -1688,9 +1691,9 @@ The source still treats this as crossing epoch boundaries.
 
 The exact number or structure of required receipts is unspecified.
 
----
+______________________________________________________________________
 
-# 65. Witness Granularity Gap
+## 65. Witness Granularity Gap
 
 L24 does not establish whether witness receipts bind:
 
@@ -1704,9 +1707,9 @@ L24 does not establish whether witness receipts bind:
 
 This is a decision-relevant implementation gap.
 
----
+______________________________________________________________________
 
-# 66. Signed Witness Identity Gap
+## 66. Signed Witness Identity Gap
 
 L24 does not define:
 
@@ -1724,9 +1727,9 @@ SIGNER AUTHORITY
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 67. Witness Trust Gap
+## 67. Witness Trust Gap
 
 Likewise:
 
@@ -1739,9 +1742,9 @@ is not answered by this note.
 
 The signature requirement alone does not define trust semantics.
 
----
+______________________________________________________________________
 
-# 68. Witness Freshness Gap
+## 68. Witness Freshness Gap
 
 The source does not define:
 
@@ -1753,9 +1756,9 @@ The source does not define:
 
 These require additional canon.
 
----
+______________________________________________________________________
 
-# 69. Replayability
+## 69. Replayability
 
 L24 explicitly relates to:
 
@@ -1769,9 +1772,9 @@ However, causal epoch history naturally provides ordering information relevant t
 
 Do not import additional L22 semantics without retrieving that canon.
 
----
+______________________________________________________________________
 
-# 70. Execution
+## 70. Execution
 
 L24 explicitly relates to:
 
@@ -1789,9 +1792,9 @@ FAIL-CLOSED EXECUTION HALT
 
 Additional L8 semantics require the actual L8 source.
 
----
+______________________________________________________________________
 
-# 71. Replay ≠ Rewrite
+## 71. Replay ≠ Rewrite
 
 A replay of historical execution should conceptually distinguish:
 
@@ -1809,17 +1812,17 @@ HISTORICAL STATE
 
 L24 prohibits the latter when it silently changes prior verdicts.
 
----
+______________________________________________________________________
 
-# 72. Replay and Epoch Identity
+## 72. Replay and Epoch Identity
 
 A replay system may need to know which epoch a historical verdict belonged to.
 
 But exact replay mechanics are not specified by L24.
 
----
+______________________________________________________________________
 
-# 73. L24 and MVCC/CAS
+## 73. L24 and MVCC/CAS
 
 The broader AMOS lineage includes MVCC/CAS concepts.
 
@@ -1847,9 +1850,9 @@ EPOCH
 
 unless authoritative canon explicitly binds them.
 
----
+______________________________________________________________________
 
-# 74. Version Monotonicity ≠ Epoch Monotonicity
+## 74. Version Monotonicity ≠ Epoch Monotonicity
 
 A storage version may increase for implementation reasons without representing a new causal epoch.
 
@@ -1857,9 +1860,9 @@ Likewise, an epoch transition may conceptually encompass multiple storage mutati
 
 L24 alone does not define their mapping.
 
----
+______________________________________________________________________
 
-# 75. L24 and Atomic Multi-RSCF Reasoning
+## 75. L24 and Atomic Multi-RSCF Reasoning
 
 Suppose a conclusion depends on:
 
@@ -1879,9 +1882,9 @@ the causal dependencies must not point backward from future premises.
 
 Exact atomic commit semantics are defined elsewhere, not by L24 alone.
 
----
+______________________________________________________________________
 
-# 76. L24 and Shard Locality
+## 76. L24 and Shard Locality
 
 Shard identity and causal epoch are separate axes:
 
@@ -1911,9 +1914,9 @@ SAME EPOCH
 SAME SHARD
 ```
 
----
+______________________________________________________________________
 
-# 77. Cross-Shard ≠ Cross-Epoch
+## 77. Cross-Shard ≠ Cross-Epoch
 
 Example:
 
@@ -1935,9 +1938,9 @@ S1 @ e6
 
 is cross-epoch but not cross-shard.
 
----
+______________________________________________________________________
 
-# 78. Cross-Shard Cross-Epoch Chain
+## 78. Cross-Shard Cross-Epoch Chain
 
 Both dimensions can coexist:
 
@@ -1964,9 +1967,9 @@ The cross-epoch witness requirement applies under L24.
 
 Any shard coordination requirement depends on the relevant distribution canon.
 
----
+______________________________________________________________________
 
-# 79. L24 and L25
+## 79. L24 and L25
 
 L24 governs:
 
@@ -1990,9 +1993,9 @@ MERGE DISCIPLINE
 
 They should remain orthogonal unless a dependency requires composition.
 
----
+______________________________________________________________________
 
-# 80. Causal Epoch Finality
+## 80. Causal Epoch Finality
 
 The broader AMOS evolution spine references:
 
@@ -2019,9 +2022,9 @@ COMPLETE FORMAL
 FINALITY PROTOCOL
 ```
 
----
+______________________________________________________________________
 
-# 81. Finality ≠ Impossibility of Supersession
+## 81. Finality ≠ Impossibility of Supersession
 
 The law explicitly allows supersession through a later epoch.
 
@@ -2040,9 +2043,9 @@ CAN DIFFER
 
 The invariant is instead against silent rewriting of the earlier verdict.
 
----
+______________________________________________________________________
 
-# 82. L24 and Persistent Provenance
+## 82. L24 and Persistent Provenance
 
 Persistent provenance is naturally compatible with L24 because it can preserve:
 
@@ -2056,9 +2059,9 @@ WITNESS
 
 But the supplied source does not prescribe a provenance storage architecture.
 
----
+______________________________________________________________________
 
-# 83. L24 and Provenance Topology
+## 83. L24 and Provenance Topology
 
 A consequence may have multiple causal ancestors:
 
@@ -2078,17 +2081,17 @@ MULTIPLE CAUSAL EDGES
 INDEPENDENT EVIDENCE
 ```
 
----
+______________________________________________________________________
 
-# 84. L24 and Sybil Hardening
+## 84. L24 and Sybil Hardening
 
 Multiple witness receipts derived from the same controlling origin do not automatically constitute independent validation.
 
 This follows broader AMOS provenance discipline, not the minimal L24 source.
 
----
+______________________________________________________________________
 
-# 85. L24 and Epistemic Regimes
+## 85. L24 and Epistemic Regimes
 
 Epoch and epistemic regime are separate concepts.
 
@@ -2127,9 +2130,9 @@ NEW EPOCH
 
 unless a specific transition binds them.
 
----
+______________________________________________________________________
 
-# 86. Regime Change Across Epochs
+## 86. Regime Change Across Epochs
 
 A regime transition may coincide with:
 
@@ -2139,9 +2142,9 @@ e_k → e_{k+1}
 
 but L24 does not require every epoch transition to represent a regime shift.
 
----
+______________________________________________________________________
 
-# 87. L24 and Scope
+## 87. L24 and Scope
 
 A verdict at epoch e5 may be valid only within scope S1.
 
@@ -2155,9 +2158,9 @@ LATER EPOCH
 BROADER APPLICABILITY
 ```
 
----
+______________________________________________________________________
 
-# 88. L24 and Freshness
+## 88. L24 and Freshness
 
 An old verdict can remain historically valid as a record of what was concluded at e3 while being stale for present decision-making.
 
@@ -2169,9 +2172,9 @@ HISTORICALLY PRESERVED
 CURRENTLY ACTIONABLE
 ```
 
----
+______________________________________________________________________
 
-# 89. L24 and Competing Hypotheses
+## 89. L24 and Competing Hypotheses
 
 L24 preserves the historical state of competing hypotheses.
 
@@ -2192,9 +2195,9 @@ H2 = supported
 
 The e5 state remains historically intact.
 
----
+______________________________________________________________________
 
-# 90. L24 and Selective Invalidation
+## 90. L24 and Selective Invalidation
 
 The broader AMOS lineage supports selective dependent invalidation.
 
@@ -2217,9 +2220,9 @@ while preserving unrelated conclusions.
 
 This is compatible with L24 but not explicitly specified in the supplied source.
 
----
+______________________________________________________________________
 
-# 91. Invalidation ≠ Historical Deletion
+## 91. Invalidation ≠ Historical Deletion
 
 Critical distinction:
 
@@ -2237,9 +2240,9 @@ EXISTENCE
 
 A conclusion can remain part of the historical causal record while no longer being valid for current reuse.
 
----
+______________________________________________________________________
 
-# 92. L24 and Failure Recovery
+## 92. L24 and Failure Recovery
 
 If an execution path fails because a causal link is missing:
 
@@ -2251,9 +2254,9 @@ HALT
 
 A corrected path should establish the missing lineage rather than pretending the original execution was valid.
 
----
+______________________________________________________________________
 
-# 93. L24 and Knowledge Harvest
+## 93. L24 and Knowledge Harvest
 
 Harvested knowledge may conceptually preserve:
 
@@ -2268,9 +2271,9 @@ where material.
 
 This is a model-level integration.
 
----
+______________________________________________________________________
 
-# 94. L24 and Adaptive Complexity
+## 94. L24 and Adaptive Complexity
 
 For simple same-epoch reasoning, extensive epoch machinery may not need to be surfaced.
 
@@ -2284,9 +2287,9 @@ Escalation becomes material when:
 
 This is operational guidance, not a new canonical law.
 
----
+______________________________________________________________________
 
-# 95. Causal Epoch State Machine
+## 95. Causal Epoch State Machine
 
 ```text
 ┌────────────────────┐
@@ -2330,9 +2333,9 @@ This is operational guidance, not a new canonical law.
                         REQUIRED
 ```
 
----
+______________________________________________________________________
 
-# 96. Canonical Integrity Invariants
+## 96. Canonical Integrity Invariants
 
 ```yaml
 causal_epoch_integrity_invariants:
@@ -2366,9 +2369,9 @@ causal_epoch_integrity_invariants:
       unlinked_consequences_trigger_fail_closed_execution_halt
 ```
 
----
+______________________________________________________________________
 
-# 97. Extended Model Invariants
+## 97. Extended Model Invariants
 
 ```yaml
 extended_causal_epoch_invariants:
@@ -2416,9 +2419,9 @@ extended_causal_epoch_invariants:
 
 These are interpretive/model protections, not additional source equations.
 
----
+______________________________________________________________________
 
-# 98. Anti-Patterns
+## 98. Anti-Patterns
 
 ## CE-A1 — Equal Next Epoch
 
@@ -2428,7 +2431,7 @@ e_k → e_k
 
 Rejected by strict monotonicity.
 
----
+______________________________________________________________________
 
 ## CE-A2 — Backward Epoch
 
@@ -2438,7 +2441,7 @@ e5 → e4
 
 Rejected.
 
----
+______________________________________________________________________
 
 ## CE-A3 — Silent Verdict Rewrite
 
@@ -2452,7 +2455,7 @@ V2 @ e5
 
 Rejected.
 
----
+______________________________________________________________________
 
 ## CE-A4 — Retroactive Historical Correction
 
@@ -2466,7 +2469,7 @@ WAS RECORDED AS
 
 Rejected when done silently.
 
----
+______________________________________________________________________
 
 ## CE-A5 — Supersession Without New Epoch
 
@@ -2478,7 +2481,7 @@ V2 @ e5
 
 Rejected.
 
----
+______________________________________________________________________
 
 ## CE-A6 — Future Cause
 
@@ -2494,7 +2497,7 @@ $$
 Epoch(A) \le Epoch(C)
 $$
 
----
+______________________________________________________________________
 
 ## CE-A7 — Consequence Without Cause
 
@@ -2506,7 +2509,7 @@ with no causal ancestry.
 
 Triggers fail-closed enforcement.
 
----
+______________________________________________________________________
 
 ## CE-A8 — Cross-Epoch Chain Without Required Receipt
 
@@ -2520,7 +2523,7 @@ without the required signed witness receipt.
 
 Non-compliant with enforcement.
 
----
+______________________________________________________________________
 
 ## CE-A9 — Timestamp Equals Epoch
 
@@ -2532,7 +2535,7 @@ CAUSAL EPOCH
 
 Not established.
 
----
+______________________________________________________________________
 
 ## CE-A10 — Earlier Means Cause
 
@@ -2544,7 +2547,7 @@ A CAUSED B
 
 Rejected by causal firewall.
 
----
+______________________________________________________________________
 
 ## CE-A11 — Signed Means Trusted
 
@@ -2556,7 +2559,7 @@ TRUSTED RECEIPT
 
 Not established without signer/trust semantics.
 
----
+______________________________________________________________________
 
 ## CE-A12 — Multiple Receipts Mean Independent Witnesses
 
@@ -2569,7 +2572,7 @@ SOURCES
 
 Not established.
 
----
+______________________________________________________________________
 
 ## CE-A13 — New Epoch Means New Regime
 
@@ -2581,7 +2584,7 @@ REGIME CHANGE
 
 Not established.
 
----
+______________________________________________________________________
 
 ## CE-A14 — New Epoch Means New Shard
 
@@ -2593,7 +2596,7 @@ SHARD CHANGE
 
 Not established.
 
----
+______________________________________________________________________
 
 ## CE-A15 — Epoch Equals Version
 
@@ -2605,7 +2608,7 @@ EPOCH 8
 
 Not established.
 
----
+______________________________________________________________________
 
 ## CE-A16 — Invalidation Deletes History
 
@@ -2618,7 +2621,7 @@ VERDICT
 
 Rejected as incompatible with no-silent-rewrite semantics.
 
----
+______________________________________________________________________
 
 ## CE-A17 — Finality Means Never Revisable
 
@@ -2631,7 +2634,7 @@ SUPERSESSION
 
 Not established by this source.
 
----
+______________________________________________________________________
 
 ## CE-A18 — Causal Lineage Proves Real-World Causality
 
@@ -2645,9 +2648,9 @@ CAUSES B
 
 Rejected without independently typed causal evidence.
 
----
+______________________________________________________________________
 
-# 99. Decision Matrix
+## 99. Decision Matrix
 
 | Condition                                            | Canonical treatment               |
 | ---------------------------------------------------- | --------------------------------- |
@@ -2663,9 +2666,9 @@ Rejected without independently typed causal evidence.
 | Cross-epoch chain lacks required receipt             | Enforcement non-compliance        |
 | Consequence has no causal link                       | Fail-closed execution halt        |
 
----
+______________________________________________________________________
 
-# 100. Extended Decision Matrix
+## 100. Extended Decision Matrix
 
 | Condition                                  | Treatment                                                    |
 | ------------------------------------------ | ------------------------------------------------------------ |
@@ -2682,9 +2685,9 @@ Rejected without independently typed causal evidence.
 | Causal edge represents model dependency    | Do not upgrade automatically to empirical causation          |
 | Cross-shard and cross-epoch                | Apply L24 cross-epoch rule; distribution rules separately    |
 
----
+______________________________________________________________________
 
-# 101. Minimal Causal Epoch Record
+## 101. Minimal Causal Epoch Record
 
 ```yaml
 causal_epoch:
@@ -2710,9 +2713,9 @@ causal_epoch:
 
 Illustrative representation only.
 
----
+______________________________________________________________________
 
-# 102. Full Causal Epoch Record
+## 102. Full Causal Epoch Record
 
 ```yaml
 causal_epoch:
@@ -2758,9 +2761,9 @@ causal_epoch:
 
 Only the invariant and enforcement semantics are canonical from this source.
 
----
+______________________________________________________________________
 
-# 103. Causal Epoch Graph
+## 103. Causal Epoch Graph
 
 ```text
 e1
@@ -2789,9 +2792,9 @@ e3
 
 Cross-epoch causal edges require the canonical witness condition.
 
----
+______________________________________________________________________
 
-# 104. Supersession Graph
+## 104. Supersession Graph
 
 ```text
 VERDICT V1
@@ -2808,9 +2811,9 @@ WHERE:
 e_{k+1} > e_k
 ```
 
----
+______________________________________________________________________
 
-# 105. Historical Record Graph
+## 105. Historical Record Graph
 
 ```text
 PAST                         PRESENT
@@ -2839,9 +2842,9 @@ L24 does not permit the historical chain to be silently rewritten into:
 V4 @ e1
 ```
 
----
+______________________________________________________________________
 
-# 106. Causal Closure Graph
+## 106. Causal Closure Graph
 
 ```text
 CAUSE A
@@ -2856,9 +2859,9 @@ REQUIREMENT:
 e_k ≤ e_j
 ```
 
----
+______________________________________________________________________
 
-# 107. Cross-Epoch Enforcement Graph
+## 107. Cross-Epoch Enforcement Graph
 
 ```text
 CAUSE A @ e5
@@ -2875,9 +2878,9 @@ CAUSE A @ e5
 CONSEQUENCE C @ e6
 ```
 
----
+______________________________________________________________________
 
-# 108. Fail-Closed Graph
+## 108. Fail-Closed Graph
 
 ```text
 CONSEQUENCE C
@@ -2894,9 +2897,9 @@ EPOCH   HALT
 RULES
 ```
 
----
+______________________________________________________________________
 
-# 109. L24 Canonical Compression
+## 109. L24 Canonical Compression
 
 ```text
 e_{k+1} > e_k
@@ -2907,42 +2910,48 @@ OLD VERDICT
 ≠
 SILENTLY REWRITABLE
 ```
+
 ```text
 SUPERSESSION
 =
 EXPLICIT LATER
 EPOCH TRANSITION
 ```
+
 ```text
 CONSEQUENCE
 ⇒
 CAUSAL ANCESTRY
 ```
+
 ```text
 CAUSE EPOCH
 ≤
 CONSEQUENCE EPOCH
 ```
+
 ```text
 CROSS-EPOCH
 CAUSAL CHAIN
 ⇒
 SIGNED WITNESS RECEIPT
 ```
+
 ```text
 UNLINKED CONSEQUENCE
 ⇒
 FAIL-CLOSED HALT
 ```
----
 
-# 110. Canonical One-Line Law
+______________________________________________________________________
+
+## 110. Canonical One-Line Law
 
 > **AMOS causal time advances strictly forward; historical verdicts may be superseded only through explicit later-epoch transitions, every consequence requires temporally admissible causal ancestry, cross-epoch causal chains require signed witness receipts, and unlinked consequences halt execution fail-closed.**
 
----
+______________________________________________________________________
 
-# 111. Canonical Equations
+## 111. Canonical Equations
 
 ## Strict Monotonicity
 
@@ -2998,9 +3007,9 @@ $$
 
 This makes the causal relation explicit as a model-level normalization of the supplied formula.
 
----
+______________________________________________________________________
 
-# 112. Operational Contract
+## 112. Operational Contract
 
 ```yaml
 causal_epoch_contract:
@@ -3029,9 +3038,9 @@ causal_epoch_contract:
       - unlinked_consequences_halt_execution_fail_closed
 ```
 
----
+______________________________________________________________________
 
-# 113. Source-Established Claims
+## 113. Source-Established Claims
 
 The supplied L24 note directly establishes:
 
@@ -3069,9 +3078,9 @@ The supplied L24 note directly establishes:
 
 These are SOURCE_CLAIM statements about the supplied AMOS canonical note; within that corpus, the note marks them as canonical invariants.
 
----
+______________________________________________________________________
 
-# 114. Not Established by This Source
+## 114. Not Established by This Source
 
 The supplied L24 note does **not** establish:
 
@@ -3112,9 +3121,9 @@ The supplied L24 note does **not** establish:
 
 These remain MODEL or UNKNOWN/GAP unless established by other canon.
 
----
+______________________________________________________________________
 
-# 115. Known Gaps
+## 115. Known Gaps
 
 ```yaml
 gaps:
@@ -3192,9 +3201,9 @@ gaps:
         L8 require retrieval of L8.
 ```
 
----
+______________________________________________________________________
 
-# 116. Claim Graph
+## 116. Claim Graph
 
 ```yaml
 claim_graph:
@@ -3283,9 +3292,9 @@ claim_graph:
         finality, replay, and runtime mechanisms.
 ```
 
----
+______________________________________________________________________
 
-# 117. Dependency Graph
+## 117. Dependency Graph
 
 ```yaml
 dependency_graph:
@@ -3319,9 +3328,9 @@ dependency_graph:
       - execution_enforcement
 ```
 
----
+______________________________________________________________________
 
-# 118. Proof Capsule
+## 118. Proof Capsule
 
 ```yaml
 proof_capsule:
@@ -3362,9 +3371,9 @@ proof_capsule:
     CANONICAL_INVARIANT
 ```
 
----
+______________________________________________________________________
 
-# 119. Self-Proof Capsule
+## 119. Self-Proof Capsule
 
 ```yaml
 proof_capsule:
@@ -3413,9 +3422,9 @@ proof_capsule:
     CANONICAL_INVARIANT
 ```
 
----
+______________________________________________________________________
 
-# 120. No Temporal Overreach
+## 120. No Temporal Overreach
 
 L24 must not reason:
 
@@ -3437,9 +3446,9 @@ TEMPORALLY
 ADMISSIBLE EPOCH
 ```
 
----
+______________________________________________________________________
 
-# 121. No Epoch Overreach
+## 121. No Epoch Overreach
 
 L24 must not reason:
 
@@ -3452,9 +3461,9 @@ INCREASED
 
 unless another governing specification defines that mapping.
 
----
+______________________________________________________________________
 
-# 122. No Witness Overreach
+## 122. No Witness Overreach
 
 L24 must not reason:
 
@@ -3483,9 +3492,9 @@ SEMANTICS
 
 Those semantics are not defined here.
 
----
+______________________________________________________________________
 
-# 123. No Historical Overreach
+## 123. No Historical Overreach
 
 L24 must not reason:
 
@@ -3507,9 +3516,9 @@ SUPERSESSION
 NEW VERDICT @ e_{k+1}
 ```
 
----
+______________________________________________________________________
 
-# 124. No Finality Overreach
+## 124. No Finality Overreach
 
 L24 must not reason:
 
@@ -3529,9 +3538,9 @@ EXPLICIT LATER
 SUPERSESSION ALLOWED
 ```
 
----
+______________________________________________________________________
 
-# 125. No Runtime Overclaim
+## 125. No Runtime Overclaim
 
 The canonical law describes AMOS causal semantics.
 
@@ -3547,9 +3556,9 @@ It does not by itself prove a literal implementation of:
 
 Independent implementation evidence is required for those claims.
 
----
+______________________________________________________________________
 
-# 126. Final Causal Epoch Invariant
+## 126. Final Causal Epoch Invariant
 
 ```text
 CURRENT EPOCH e_k
@@ -3684,9 +3693,9 @@ PROOF OF LITERAL
 DISTRIBUTED RUNTIME
 ```
 
----
+______________________________________________________________________
 
-# 127. RSCF Node
+## 127. RSCF Node
 
 ```yaml
 RSCF-NODE:
@@ -3750,13 +3759,13 @@ RSCF-RELATIONS:
   - RELATED_TO: FAILURE_RECOVERY
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[01_CANON/01_CORE_LAWS/L8_EXECUTION|L8_EXECUTION]] · [[01_CANON/01_CORE_LAWS/L22_REPLAYABILITY|L22_REPLAYABILITY]] · [[01_CANON/01_CORE_LAWS/01_CORE_LAWS_MOC|01_CORE_LAWS_MOC]]
 
----
+______________________________________________________________________
 
-# 128. Final Canon Boundary
+## 128. Final Canon Boundary
 
 The supplied source canonically supports:
 
@@ -3804,6 +3813,6 @@ scope:
 
 **Conclusion class: CANONICAL_INVARIANT within AMOS_CANON.**
 
----
+______________________________________________________________________
 
 **MOC:** [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]] · [[00_ROOT/00_HOME|00_HOME]]

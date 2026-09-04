@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: 09 Commit MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT
 tags:
-- 09-commit
-- canon/control-plane
-- causal-epoch-finality
-- proof-based-coordination-avoidance
-- shard-local-finalization
+  - 09-commit
+  - canon/control-plane
+  - causal-epoch-finality
+  - proof-based-coordination-avoidance
+  - shard-local-finalization
 moc: true
 rscf:
   state: DERIVED
@@ -134,5 +137,6 @@ rscf:
 - [[03_CONTROL_PLANE/09_COMMIT/98_DELEGATION_ASSIGNMENT_MODES/98_DELEGATION_ASSIGNMENT_MODES_MOC|98_DELEGATION_ASSIGNMENT_MODES_MOC]] — 98_DELEGATION_ASSIGNMENT_MODES
 - [[03_CONTROL_PLANE/09_COMMIT/99_ESCALATION_INTERVENTION_MODES/99_ESCALATION_INTERVENTION_MODES_MOC|99_ESCALATION_INTERVENTION_MODES_MOC]] — 99_ESCALATION_INTERVENTION_MODES
 
----
+______________________________________________________________________
+
 **Parent:** [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE_MOC]]

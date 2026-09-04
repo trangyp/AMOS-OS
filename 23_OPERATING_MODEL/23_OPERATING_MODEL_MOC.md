@@ -1,11 +1,14 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: 23 Operating Model MOC
 type: moc
 source: 23_OPERATING_MODEL
 tags:
-- 23-operating-model
-- canon/operating-model
-- amos-home
+  - 23-operating-model
+  - canon/operating-model
+  - amos-home
 moc: true
 rscf:
   state: DERIVED
@@ -33,5 +36,6 @@ rscf:
 - [[23_OPERATING_MODEL/04_ESCALATION/04_ESCALATION_MOC|04_ESCALATION_MOC]] — 04_ESCALATION
 - [[23_OPERATING_MODEL/05_SERVICE_LEVELS/05_SERVICE_LEVELS_MOC|05_SERVICE_LEVELS_MOC]] — 05_SERVICE_LEVELS
 
----
-**Parent:** [[AMOS_HOME|AMOS_HOME]]
+______________________________________________________________________
+
+**Parent:** [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/00_HOME|00_HOME]]

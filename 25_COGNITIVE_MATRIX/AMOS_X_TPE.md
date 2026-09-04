@@ -12,34 +12,34 @@ segment: 25_COGNITIVE_MATRIX
 artifact_kind: ARTIFACT
 path: 25_COGNITIVE_MATRIX/AMOS_X_TPE.md
 tags:
-- amos-os
-- cognitive-matrix
-- artifact
-- tpe
-- trang_prediction_engine
-- structural_foresight
-- forecasting
-- prediction
-- systems_dynamics
-- structural_drift
-- transition_prediction
-- window_prediction
-- cascade_prediction
-- intervention_sensitivity
-- tss
-- qls
-- qcla
-- ucp
-- ubi
-- ulf
-- cci
-- psi
-- rscf
-- canon_candidate
-- domain/cognitive-matrix
-- amos-x-qls
-- amos-x-qls-qcla-matrix
-- law-hierarchy
+  - amos-os
+  - cognitive-matrix
+  - artifact
+  - tpe
+  - trang_prediction_engine
+  - structural_foresight
+  - forecasting
+  - prediction
+  - systems_dynamics
+  - structural_drift
+  - transition_prediction
+  - window_prediction
+  - cascade_prediction
+  - intervention_sensitivity
+  - tss
+  - qls
+  - qcla
+  - ucp
+  - ubi
+  - ulf
+  - cci
+  - psi
+  - rscf
+  - canon_candidate
+  - domain/cognitive-matrix
+  - amos-x-qls
+  - amos-x-qls-qcla-matrix
+  - law-hierarchy
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -54,11 +54,11 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - AMOS_TPE_CORPUS
+    - AMOS_TPE_CORPUS
   scope:
-  - STRUCTURAL_FORESIGHT
-  - HUMAN_LINKED_SYSTEMS
-  - COGNITIVE_MATRIX
+    - STRUCTURAL_FORESIGHT
+    - HUMAN_LINKED_SYSTEMS
+    - COGNITIVE_MATRIX
 framework_binding:
   primary:
     name: The Trang Prediction Engine™
@@ -70,17 +70,17 @@ framework_binding:
     relation: OPERATIONALIZES_STRUCTURAL_LOGIC
 prediction_boundary:
   predicts:
-  - transition_classes
-  - time_windows
-  - cascade_effects
-  - structural_trajectories
-  - intervention_sensitivity
+    - transition_classes
+    - time_windows
+    - cascade_effects
+    - structural_trajectories
+    - intervention_sensitivity
   does_not_predict:
-  - exact_dates
-  - specific_individuals
-  - assassinations
-  - sudden_disasters
-  - deterministic_personal_outcomes
+    - exact_dates
+    - specific_individuals
+    - assassinations
+    - sudden_disasters
+    - deterministic_personal_outcomes
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
@@ -152,9 +152,9 @@ Origin architect / steward:
 
 **Trang Phan**
 
----
+______________________________________________________________________
 
-# 1. Core Definition
+## 1. Core Definition
 
 The native source frames TPE as:
 
@@ -189,9 +189,9 @@ What downstream cascades may follow?
 What interventions could alter the trajectory?
 ```
 
----
+______________________________________________________________________
 
-# 2. TPE Core Proposition
+## 2. TPE Core Proposition
 
 The source rests on two stated propositions.
 
@@ -227,9 +227,9 @@ SOURCE_CLAIM / MODEL
 
 unless externally validated for a defined scope.
 
----
+______________________________________________________________________
 
-# 3. Universal-Pattern Firewall
+## 3. Universal-Pattern Firewall
 
 The source describes some structural forces as universal.
 
@@ -253,9 +253,9 @@ CROSS-SCALE ANALOGY
 CROSS-SCALE VALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 4. Purpose
+## 4. Purpose
 
 The native manual states that TPE is intended to answer five principal questions:
 
@@ -277,18 +277,17 @@ The native manual states that TPE is intended to answer five principal questions
 
 These form the source-defined TPE purpose contract.
 
----
+______________________________________________________________________
 
-# 5. Structural Foresight
+## 5. Structural Foresight
 
 AMOS represents structural foresight as:
 
-\[
-F_s
-=
+## \[ F_s
+
 f(
 X_t,
-\dot X_t,
+\\dot X_t,
 C_t,
 B_t,
 E_t
@@ -313,9 +312,9 @@ This equation is `DERIVED`.
 
 It is not a native TPE equation.
 
----
+______________________________________________________________________
 
-# 6. Prediction Object
+## 6. Prediction Object
 
 TPE predicts:
 
@@ -345,9 +344,9 @@ TPEForecastTarget:
   intervention_space:
 ```
 
----
+______________________________________________________________________
 
-# 7. Six Core TPE Inputs
+## 7. Six Core TPE Inputs
 
 The source explicitly defines six core inputs from TSS:
 
@@ -360,9 +359,9 @@ C
 O
 ```
 
----
+______________________________________________________________________
 
-# 8. Ω — Overload
+## 8. Ω — Overload
 
 Native meaning:
 
@@ -388,9 +387,9 @@ SOURCE_DEFINED_CONSTRUCT
 
 until operationally measured.
 
----
+______________________________________________________________________
 
-# 9. H — Cohesion
+## 9. H — Cohesion
 
 Native meaning:
 
@@ -409,9 +408,9 @@ institutional cohesion
 cultural unity
 ```
 
----
+______________________________________________________________________
 
-# 10. F — Fragmentation
+## 10. F — Fragmentation
 
 Native meaning:
 
@@ -430,9 +429,9 @@ identity divides
 political polarization
 ```
 
----
+______________________________________________________________________
 
-# 11. S — Shock
+## 11. S — Shock
 
 Native meaning:
 
@@ -462,9 +461,9 @@ slow-moving
 
 disturbances.
 
----
+______________________________________________________________________
 
-# 12. C — Cycle
+## 12. C — Cycle
 
 Native meaning:
 
@@ -480,9 +479,9 @@ C1–C7
 
 as the source-defined seven-phase trajectory inherited from TSS.
 
----
+______________________________________________________________________
 
-# 13. O — Outcome Trajectory
+## 13. O — Outcome Trajectory
 
 Native meaning:
 
@@ -496,17 +495,16 @@ This is not ground truth.
 
 It is a model output/input state.
 
----
+______________________________________________________________________
 
-# 14. Input Vector
+## 14. Input Vector
 
 AMOS normalization:
 
-\[
-X_{TPE}
-=
+## \[ X\_{TPE}
+
 (
-\Omega,
+\\Omega,
 H,
 F,
 S,
@@ -531,9 +529,9 @@ C = cycle
 O = outcome trajectory
 ```
 
----
+______________________________________________________________________
 
-# 15. Input Epistemic Contract
+## 15. Input Epistemic Contract
 
 ```yaml
 TPEInput:
@@ -561,9 +559,9 @@ TPEInput:
 
 No TPE input should be treated as measured merely because it has a numerical representation.
 
----
+______________________________________________________________________
 
-# 16. Measurement Firewall
+## 16. Measurement Firewall
 
 ```text
 NAMED VARIABLE
@@ -583,9 +581,9 @@ MODEL OUTPUT
 GROUND TRUTH
 ```
 
----
+______________________________________________________________________
 
-# 17. Seven Analytical Layers
+## 17. Seven Analytical Layers
 
 The source expands the six TSS inputs through seven analytical layers:
 
@@ -605,9 +603,9 @@ The source expands the six TSS inputs through seven analytical layers:
 7. Resilience Buffers
 ```
 
----
+______________________________________________________________________
 
-# 18. Layer 1 — Load Architecture
+## 18. Layer 1 — Load Architecture
 
 Purpose:
 
@@ -631,9 +629,9 @@ coordination complexity
 operational demand
 ```
 
----
+______________________________________________________________________
 
-# 19. Load Architecture Schema
+## 19. Load Architecture Schema
 
 ```yaml
 LoadArchitecture:
@@ -655,9 +653,9 @@ LoadArchitecture:
   uncertainty:
 ```
 
----
+______________________________________________________________________
 
-# 20. Layer 2 — Cohesion Layers
+## 20. Layer 2 — Cohesion Layers
 
 Purpose:
 
@@ -682,9 +680,9 @@ identity alignment
 coordination capacity
 ```
 
----
+______________________________________________________________________
 
-# 21. Cohesion Is Not One Thing
+## 21. Cohesion Is Not One Thing
 
 AMOS requires:
 
@@ -704,9 +702,9 @@ low social cohesion
 
 simultaneously.
 
----
+______________________________________________________________________
 
-# 22. Layer 3 — Fragmentation Typology
+## 22. Layer 3 — Fragmentation Typology
 
 Purpose:
 
@@ -731,9 +729,9 @@ political polarization
 regional division
 ```
 
----
+______________________________________________________________________
 
-# 23. Fragmentation Topology
+## 23. Fragmentation Topology
 
 ```yaml
 FragmentationState:
@@ -753,9 +751,9 @@ FragmentationState:
   cross_domain_spillover:
 ```
 
----
+______________________________________________________________________
 
-# 24. Layer 4 — Shock Typology
+## 24. Layer 4 — Shock Typology
 
 Purpose:
 
@@ -788,9 +786,9 @@ unanticipated
 
 as derived typing.
 
----
+______________________________________________________________________
 
-# 25. Shock Contract
+## 25. Shock Contract
 
 ```yaml
 Shock:
@@ -818,9 +816,9 @@ Shock:
   provenance:
 ```
 
----
+______________________________________________________________________
 
-# 26. Layer 5 — Structural Velocity
+## 26. Layer 5 — Structural Velocity
 
 The source emphasizes the direction and rate of variable change.
 
@@ -834,17 +832,16 @@ as a source model principle.
 
 AMOS represents:
 
-\[
-v_X
-=
-\frac{\Delta X}{\Delta t}
+## \[ v_X
+
+\\frac{\\Delta X}{\\Delta t}
 \]
 
 for tracked structural variable `X`.
 
----
+______________________________________________________________________
 
-# 27. Drift State
+## 27. Drift State
 
 ```yaml
 StructuralDrift:
@@ -870,9 +867,9 @@ StructuralDrift:
   uncertainty:
 ```
 
----
+______________________________________________________________________
 
-# 28. Magnitude vs Velocity
+## 28. Magnitude vs Velocity
 
 Source example:
 
@@ -890,9 +887,9 @@ stable cohesion.
 
 AMOS stores this as a source heuristic.
 
----
+______________________________________________________________________
 
-# 29. Layer 6 — System Entanglement
+## 29. Layer 6 — System Entanglement
 
 Native meaning:
 
@@ -911,9 +908,9 @@ financial system ↔ politics
 national system ↔ alliances
 ```
 
----
+______________________________________________________________________
 
-# 30. Entanglement Firewall
+## 30. Entanglement Firewall
 
 The source term:
 
@@ -929,9 +926,9 @@ SYSTEM INTERDEPENDENCE
 QUANTUM ENTANGLEMENT
 ```
 
----
+______________________________________________________________________
 
-# 31. Dependency Topology
+## 31. Dependency Topology
 
 AMOS interpretation:
 
@@ -949,9 +946,9 @@ E = dependency or influence links
 
 This graph is the preferred representation of source "entanglement."
 
----
+______________________________________________________________________
 
-# 32. Layer 7 — Resilience Buffers
+## 32. Layer 7 — Resilience Buffers
 
 Native examples:
 
@@ -981,9 +978,9 @@ adaptive capacity
 
 when scope supports it.
 
----
+______________________________________________________________________
 
-# 33. Buffer Contract
+## 33. Buffer Contract
 
 ```yaml
 ResilienceBuffer:
@@ -1003,23 +1000,23 @@ ResilienceBuffer:
   evidence:
 ```
 
----
+______________________________________________________________________
 
-# 34. Seven-Layer Matrix
+## 34. Seven-Layer Matrix
 
-| Layer | Core Question |
-|---|---|
-| Load Architecture | What is generating pressure? |
-| Cohesion Layers | What holds the system together? |
-| Fragmentation Typology | Where is it splitting? |
-| Shock Typology | What disruption is acting on it? |
-| Structural Velocity | How quickly are variables moving? |
-| System Entanglement | What other systems transmit effects? |
-| Resilience Buffers | What prevents or absorbs failure? |
+| Layer                  | Core Question                        |
+| ---------------------- | ------------------------------------ |
+| Load Architecture      | What is generating pressure?         |
+| Cohesion Layers        | What holds the system together?      |
+| Fragmentation Typology | Where is it splitting?               |
+| Shock Typology         | What disruption is acting on it?     |
+| Structural Velocity    | How quickly are variables moving?    |
+| System Entanglement    | What other systems transmit effects? |
+| Resilience Buffers     | What prevents or absorbs failure?    |
 
----
+______________________________________________________________________
 
-# 35. Three Native Prediction Outputs
+## 35. Three Native Prediction Outputs
 
 TPE produces three principal output classes:
 
@@ -1031,9 +1028,9 @@ WINDOW PREDICTION
 CASCADE PREDICTION
 ```
 
----
+______________________________________________________________________
 
-# 36. Class Prediction
+## 36. Class Prediction
 
 Native purpose:
 
@@ -1057,9 +1054,9 @@ leadership instability
 structural reform
 ```
 
----
+______________________________________________________________________
 
-# 37. Class Prediction Contract
+## 37. Class Prediction Contract
 
 ```yaml
 TPEClassPrediction:
@@ -1083,9 +1080,9 @@ TPEClassPrediction:
   falsifiers:
 ```
 
----
+______________________________________________________________________
 
-# 38. Window Prediction
+## 38. Window Prediction
 
 Native purpose:
 
@@ -1108,9 +1105,9 @@ Civilizations:
 25–80 years
 ```
 
----
+______________________________________________________________________
 
-# 39. Window Status
+## 39. Window Status
 
 These windows are:
 
@@ -1120,9 +1117,9 @@ SOURCE_DEFINED_HEURISTICS
 
 not universal calibrated forecast intervals.
 
----
+______________________________________________________________________
 
-# 40. Time-Window Firewall
+## 40. Time-Window Firewall
 
 ```text
 SOURCE WINDOW
@@ -1138,9 +1135,9 @@ LONG WINDOW
 HIGH ACCURACY
 ```
 
----
+______________________________________________________________________
 
-# 41. Cascade Prediction
+## 41. Cascade Prediction
 
 Native purpose:
 
@@ -1158,9 +1155,9 @@ financial crisis
 → institutional reform or collapse
 ```
 
----
+______________________________________________________________________
 
-# 42. Cascade Contract
+## 42. Cascade Contract
 
 ```yaml
 TPECascade:
@@ -1184,34 +1181,34 @@ TPECascade:
   competing_cascades:
 ```
 
----
+______________________________________________________________________
 
-# 43. Cascade Confidence
+## 43. Cascade Confidence
 
 For a chain:
 
 \[
-A\rightarrow B\rightarrow C\rightarrow D
+A\\rightarrow B\\rightarrow C\\rightarrow D
 \]
 
 AMOS applies:
 
 \[
-Conf(A\rightarrow D)
-\le
-\min
-\{
-Conf(A\rightarrow B),
-Conf(B\rightarrow C),
-Conf(C\rightarrow D)
-\}
+Conf(A\\rightarrow D)
+\\le
+\\min
+{
+Conf(A\\rightarrow B),
+Conf(B\\rightarrow C),
+Conf(C\\rightarrow D)
+}
 \]
 
 unless end-to-end evidence independently validates the full cascade.
 
----
+______________________________________________________________________
 
-# 44. Seven-Step Predictive Logic
+## 44. Seven-Step Predictive Logic
 
 The native source defines seven prediction steps:
 
@@ -1231,9 +1228,9 @@ The native source defines seven prediction steps:
 7. Intervention Sensitivity Analysis
 ```
 
----
+______________________________________________________________________
 
-# 45. Step 1 — System State Identification
+## 45. Step 1 — System State Identification
 
 TPE identifies:
 
@@ -1252,9 +1249,9 @@ MODEL CLASSIFICATION
 
 unless cycle placement is empirically validated.
 
----
+______________________________________________________________________
 
-# 46. Cycle Assignment Contract
+## 46. Cycle Assignment Contract
 
 ```yaml
 TPECycleAssignment:
@@ -1276,9 +1273,9 @@ TPECycleAssignment:
   source_model:
 ```
 
----
+______________________________________________________________________
 
-# 47. No Forced Cycle Assignment
+## 47. No Forced Cycle Assignment
 
 If evidence supports:
 
@@ -1298,9 +1295,9 @@ must be preserved.
 
 Do not force one cycle merely because TPE expects a single label.
 
----
+______________________________________________________________________
 
-# 48. Step 2 — Variable Mapping
+## 48. Step 2 — Variable Mapping
 
 TPE maps:
 
@@ -1322,9 +1319,9 @@ The result is a source-described:
 structural fingerprint
 ```
 
----
+______________________________________________________________________
 
-# 49. Structural Fingerprint
+## 49. Structural Fingerprint
 
 AMOS representation:
 
@@ -1352,9 +1349,9 @@ StructuralFingerprint:
   uncertainty:
 ```
 
----
+______________________________________________________________________
 
-# 50. Fingerprint Firewall
+## 50. Fingerprint Firewall
 
 ```text
 COMPACT REPRESENTATION
@@ -1366,9 +1363,9 @@ Any compression can lose information.
 
 Critical omitted variables must remain visible as gaps.
 
----
+______________________________________________________________________
 
-# 51. Step 3 — Structural Drift Detection
+## 51. Step 3 — Structural Drift Detection
 
 TPE asks whether:
 
@@ -1391,20 +1388,19 @@ stable
 
 The trajectory of change is then used as predictive evidence.
 
----
+______________________________________________________________________
 
-# 52. Drift Vector
+## 52. Drift Vector
 
 AMOS representation:
 
-\[
-\dot X
-=
+## \[ \\dot X
+
 (
-\dot\Omega,
-\dot H,
-\dot F,
-\dot S
+\\dot\\Omega,
+\\dot H,
+\\dot F,
+\\dot S
 )
 \]
 
@@ -1416,14 +1412,14 @@ change over time
 
 not necessarily a continuous differentiable process.
 
----
+______________________________________________________________________
 
-# 53. Acceleration
+## 53. Acceleration
 
 Where data permit:
 
 \[
-\ddot X
+\\ddot X
 \]
 
 can represent acceleration in structural change.
@@ -1437,9 +1433,9 @@ but rising faster.
 
 This is an AMOS-derived analytical extension.
 
----
+______________________________________________________________________
 
-# 54. Step 4 — Transition Rule Application
+## 54. Step 4 — Transition Rule Application
 
 The native manual supplies source transition rules including:
 
@@ -1464,9 +1460,9 @@ These are preserved as:
 SOURCE_DEFINED_TRANSITION_RULES
 ```
 
----
+______________________________________________________________________
 
-# 55. Transition Rule Firewall
+## 55. Transition Rule Firewall
 
 ```text
 SOURCE RULE
@@ -1482,9 +1478,9 @@ INEVITABLE TRANSITION
 FORMALLY PROVEN IMPOSSIBILITY
 ```
 
----
+______________________________________________________________________
 
-# 56. Rule Registry
+## 56. Rule Registry
 
 ```yaml
 TPETransitionRule:
@@ -1510,9 +1506,9 @@ TPETransitionRule:
   empirical_status:
 ```
 
----
+______________________________________________________________________
 
-# 57. Rule 1 — C3 Instability
+## 57. Rule 1 — C3 Instability
 
 Source rule:
 
@@ -1537,9 +1533,9 @@ SOURCE_CLAIM
 
 until tested across specified system classes.
 
----
+______________________________________________________________________
 
-# 58. Rule 2 — Overload × Fragmentation
+## 58. Rule 2 — Overload × Fragmentation
 
 Source rule:
 
@@ -1561,9 +1557,9 @@ Crisis = modeled outcome
 
 Causal status remains claim-specific.
 
----
+______________________________________________________________________
 
-# 59. Rule 3 — Cohesion Buffer
+## 59. Rule 3 — Cohesion Buffer
 
 Source rule:
 
@@ -1581,9 +1577,9 @@ H moderates impact of S
 within bounded Ω regime.
 ```
 
----
+______________________________________________________________________
 
-# 60. Rule 4 — Fragmentation Reversal
+## 60. Rule 4 — Fragmentation Reversal
 
 Source rule:
 
@@ -1602,9 +1598,9 @@ SOURCE_CLAIM
 
 not universally verified law.
 
----
+______________________________________________________________________
 
-# 61. Rule 5 — Crisis Fork
+## 61. Rule 5 — Crisis Fork
 
 Source rule:
 
@@ -1617,9 +1613,9 @@ The native framework later also recognizes outcome families beyond a simple two-
 
 AMOS therefore does not force this binary outside the source-specific regime.
 
----
+______________________________________________________________________
 
-# 62. Step 5 — Outcome Boundary Identification
+## 62. Step 5 — Outcome Boundary Identification
 
 The native manual names long-term outcomes:
 
@@ -1637,9 +1633,9 @@ associated with the source framework's outcome taxonomy.
 
 The source says TPE determines which remain structurally open.
 
----
+______________________________________________________________________
 
-# 63. Outcome Boundary
+## 63. Outcome Boundary
 
 AMOS representation:
 
@@ -1663,9 +1659,9 @@ TPEOutcomeBoundary:
   irreversible_constraints:
 ```
 
----
+______________________________________________________________________
 
-# 64. Outcome Firewall
+## 64. Outcome Firewall
 
 ```text
 MODEL-CLOSED
@@ -1675,17 +1671,16 @@ REALITY-IMPOSSIBLE
 
 A TPE rule can make an outcome inadmissible under the active model without proving that reality cannot produce it.
 
----
+______________________________________________________________________
 
-# 65. Step 6 — Cascade Simulation
+## 65. Step 6 — Cascade Simulation
 
 TPE propagates changes across structural variables and linked systems.
 
 Conceptual form:
 
-\[
-X_{t+1}
-=
+## \[ X\_{t+1}
+
 F(X_t,U_t,E_t)
 \]
 
@@ -1701,9 +1696,9 @@ E = environmental disturbance
 
 This is an AMOS-derived state-transition form.
 
----
+______________________________________________________________________
 
-# 66. Simulation Firewall
+## 66. Simulation Firewall
 
 ```text
 SIMULATED CASCADE
@@ -1719,9 +1714,9 @@ MODEL PATH
 CAUSALLY VERIFIED PATH
 ```
 
----
+______________________________________________________________________
 
-# 67. Step 7 — Intervention Sensitivity Analysis
+## 67. Step 7 — Intervention Sensitivity Analysis
 
 The source proposes candidate interventions by structural variable.
 
@@ -1747,9 +1742,9 @@ Manage shocks
 → diversification
 ```
 
----
+______________________________________________________________________
 
-# 68. Intervention Gate
+## 68. Intervention Gate
 
 The native source states:
 
@@ -1776,9 +1771,9 @@ causal evidence
 scope
 ```
 
----
+______________________________________________________________________
 
-# 69. Intervention Contract
+## 69. Intervention Contract
 
 ```yaml
 TPEIntervention:
@@ -1808,9 +1803,9 @@ TPEIntervention:
   stop_condition:
 ```
 
----
+______________________________________________________________________
 
-# 70. Intervention Firewall
+## 70. Intervention Firewall
 
 ```text
 PREDICTED VARIABLE SHIFT
@@ -1826,9 +1821,9 @@ STRUCTURALLY DESIRABLE
 ETHICALLY / LEGALLY PERMITTED
 ```
 
----
+______________________________________________________________________
 
-# 71. Mathematics of Structural Pressure
+## 71. Mathematics of Structural Pressure
 
 The native manual explicitly describes TPE's mathematics as:
 
@@ -1850,9 +1845,9 @@ Fragmentation Multiplier
 Shock Conversion
 ```
 
----
+______________________________________________________________________
 
-# 72. Overload Pressure
+## 72. Overload Pressure
 
 Source proposition:
 
@@ -1867,9 +1862,9 @@ AMOS stores this as:
 SOURCE_DEFINED_DIRECTIONAL_RULE
 ```
 
----
+______________________________________________________________________
 
-# 73. Cohesion Buffer
+## 73. Cohesion Buffer
 
 Source proposition:
 
@@ -1880,9 +1875,9 @@ through coordination and trust.
 
 This is a moderation hypothesis.
 
----
+______________________________________________________________________
 
-# 74. Fragmentation Multiplier
+## 74. Fragmentation Multiplier
 
 Source proposition:
 
@@ -1895,15 +1890,15 @@ A schematic AMOS model could be:
 
 \[
 Pressure
-\sim
-(\Omega+S)\cdot g(F,H)
+\\sim
+(\\Omega+S)\\cdot g(F,H)
 \]
 
 but this is `DERIVED` and not native canon.
 
----
+______________________________________________________________________
 
-# 75. Shock Conversion
+## 75. Shock Conversion
 
 The native manual states:
 
@@ -1916,9 +1911,9 @@ into visible failure.
 
 AMOS preserves this as a strong source causal proposition.
 
----
+______________________________________________________________________
 
-# 76. Shock Firewall
+## 76. Shock Firewall
 
 The rule cannot be universalized without evidence.
 
@@ -1937,9 +1932,9 @@ Therefore source rule status:
 MODEL / SOURCE_CLAIM
 ```
 
----
+______________________________________________________________________
 
-# 77. Structural Pressure Object
+## 77. Structural Pressure Object
 
 ```yaml
 StructuralPressure:
@@ -1963,9 +1958,9 @@ StructuralPressure:
   confidence:
 ```
 
----
+______________________________________________________________________
 
-# 78. TPE Across Scales
+## 78. TPE Across Scales
 
 The manual applies TPE to:
 
@@ -1981,9 +1976,9 @@ civilizations
 
 with scale-specific interpretations of the same variables.
 
----
+______________________________________________________________________
 
-# 79. Individual Scale
+## 79. Individual Scale
 
 Native source mappings:
 
@@ -2005,9 +2000,9 @@ SOURCE_DEFINED_CROSS_SCALE_MAPPING
 
 not verified psychological law.
 
----
+______________________________________________________________________
 
-# 80. Organizational Scale
+## 80. Organizational Scale
 
 Native mappings:
 
@@ -2021,9 +2016,9 @@ F → interdepartmental conflict
 S → leadership turnover / market pressure
 ```
 
----
+______________________________________________________________________
 
-# 81. National Scale
+## 81. National Scale
 
 Native mappings:
 
@@ -2037,9 +2032,9 @@ F → political polarization
 S → war / crisis
 ```
 
----
+______________________________________________________________________
 
-# 82. Civilizational Scale
+## 82. Civilizational Scale
 
 Native mappings:
 
@@ -2051,9 +2046,9 @@ F → competing states and blocs
 S → climate change / transformative technology
 ```
 
----
+______________________________________________________________________
 
-# 83. Cross-Scale Claim
+## 83. Cross-Scale Claim
 
 The source states:
 
@@ -2070,9 +2065,9 @@ SOURCE_CLAIM
 
 This is one of the most important empirical validation targets.
 
----
+______________________________________________________________________
 
-# 84. Cross-Scale Firewall
+## 84. Cross-Scale Firewall
 
 ```text
 SAME VARIABLE NAME
@@ -2096,9 +2091,9 @@ STATE
 CIVILIZATION
 ```
 
----
+______________________________________________________________________
 
-# 85. Scale Contract
+## 85. Scale Contract
 
 ```yaml
 TPEScaleBinding:
@@ -2120,9 +2115,9 @@ TPEScaleBinding:
   validation_status:
 ```
 
----
+______________________________________________________________________
 
-# 86. Temporal Scale
+## 86. Temporal Scale
 
 Different systems may have different characteristic times.
 
@@ -2136,9 +2131,9 @@ TIME CONSTANT
 
 to be scale-specific unless evidence supports invariance.
 
----
+______________________________________________________________________
 
-# 87. Ethical and Scientific Boundaries
+## 87. Ethical and Scientific Boundaries
 
 The native manual explicitly states TPE does not predict:
 
@@ -2164,9 +2159,9 @@ not personal
 not deterministic
 ```
 
----
+______________________________________________________________________
 
-# 88. Ethical Purpose
+## 88. Ethical Purpose
 
 Source intent:
 
@@ -2188,9 +2183,9 @@ coercion
 
 This boundary is preserved as native canon intent.
 
----
+______________________________________________________________________
 
-# 89. Forecast Boundary
+## 89. Forecast Boundary
 
 ```yaml
 TPEForecastBoundary:
@@ -2210,9 +2205,9 @@ TPEForecastBoundary:
     - deterministic_individual_outcome
 ```
 
----
+______________________________________________________________________
 
-# 90. Prediction vs Decision
+## 90. Prediction vs Decision
 
 ```text
 FORECAST
@@ -2228,9 +2223,9 @@ MODEL RISK
 PERMISSION TO INTERVENE
 ```
 
----
+______________________________________________________________________
 
-# 91. Canonical Framework Integration
+## 91. Canonical Framework Integration
 
 The native manual explicitly links TPE with:
 
@@ -2250,9 +2245,9 @@ CCI
 PSI
 ```
 
----
+______________________________________________________________________
 
-# 92. TPE × TSS
+## 92. TPE × TSS
 
 This is the primary relationship.
 
@@ -2272,9 +2267,9 @@ TPE:
   DERIVED_FROM_FRAMEWORK: TSS
 ```
 
----
+______________________________________________________________________
 
-# 93. TPE × UBI
+## 93. TPE × UBI
 
 Native source role:
 
@@ -2291,9 +2286,9 @@ SOURCE_DEFINED_RELATION
 
 not verified biological causal equivalence.
 
----
+______________________________________________________________________
 
-# 94. TPE × ULF
+## 94. TPE × ULF
 
 Native role:
 
@@ -2302,9 +2297,9 @@ provides logical foundations
 to maintain internal consistency.
 ```
 
----
+______________________________________________________________________
 
-# 95. TPE × QLS
+## 95. TPE × QLS
 
 Native role:
 
@@ -2320,9 +2315,9 @@ QLS PASS
 FORECAST ACCURACY
 ```
 
----
+______________________________________________________________________
 
-# 96. TPE × QCLA
+## 96. TPE × QCLA
 
 Native source says QCLA:
 
@@ -2339,9 +2334,9 @@ Quantum Causality Layer Architecture
 
 not Chemical-QCLA.
 
----
+______________________________________________________________________
 
-# 97. TPE × UCP
+## 97. TPE × UCP
 
 Native role:
 
@@ -2358,9 +2353,9 @@ version
 provenance
 ```
 
----
+______________________________________________________________________
 
-# 98. TPE × CCI
+## 98. TPE × CCI
 
 Native role:
 
@@ -2373,9 +2368,9 @@ The source claims thousands of historical analogues.
 
 That quantity and independence require separate corpus validation before promotion.
 
----
+______________________________________________________________________
 
-# 99. Analogy Firewall
+## 99. Analogy Firewall
 
 ```text
 HISTORICAL ANALOGY
@@ -2392,9 +2387,9 @@ REPEATED MANY TIMES
 INDEPENDENT EVIDENCE
 ```
 
----
+______________________________________________________________________
 
-# 100. TPE × PSI
+## 100. TPE × PSI
 
 Native role:
 
@@ -2405,9 +2400,9 @@ such as climate and resources.
 
 This introduces external environmental constraints into TPE.
 
----
+______________________________________________________________________
 
-# 101. Full Source Integration
+## 101. Full Source Integration
 
 ```text
               TSS
@@ -2440,9 +2435,9 @@ This introduces external environmental constraints into TPE.
 
 This diagram is `DERIVED` from the source relations.
 
----
+______________________________________________________________________
 
-# 102. TPE Forecast State
+## 102. TPE Forecast State
 
 ```yaml
 TPEForecast:
@@ -2492,9 +2487,9 @@ TPEForecast:
   forecast_status:
 ```
 
----
+______________________________________________________________________
 
-# 103. Forecast Status
+## 103. Forecast Status
 
 ```text
 DRAFT
@@ -2514,9 +2509,9 @@ EXPIRED
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 104. Forecast Epoch
+## 104. Forecast Epoch
 
 Every prediction belongs to a causal/forecast epoch.
 
@@ -2540,9 +2535,9 @@ TPEForecastEpoch:
   invalidation_conditions:
 ```
 
----
+______________________________________________________________________
 
-# 105. Forecast Invalidation
+## 105. Forecast Invalidation
 
 A TPE prediction should be invalidated or revalidated when:
 
@@ -2564,9 +2559,9 @@ new evidence contradicts model
 intervention changes trajectory
 ```
 
----
+______________________________________________________________________
 
-# 106. Forecast Mutation Rule
+## 106. Forecast Mutation Rule
 
 Never rewrite an old prediction as though it had always contained new information.
 
@@ -2583,9 +2578,9 @@ REVISION
 → lineage edge
 ```
 
----
+______________________________________________________________________
 
-# 107. Forecast Provenance
+## 107. Forecast Provenance
 
 ```yaml
 TPEForecastProvenance:
@@ -2611,9 +2606,9 @@ TPEForecastProvenance:
   timestamp:
 ```
 
----
+______________________________________________________________________
 
-# 108. Forecast Leakage Firewall
+## 108. Forecast Leakage Firewall
 
 When evaluating historical performance, information unavailable at forecast time must not leak into inputs.
 
@@ -2624,9 +2619,9 @@ USED IN HISTORICAL FORECAST
 INVALID BACKTEST
 ```
 
----
+______________________________________________________________________
 
-# 109. Backtest Contract
+## 109. Backtest Contract
 
 ```yaml
 TPEBacktest:
@@ -2655,9 +2650,9 @@ TPEBacktest:
   result:
 ```
 
----
+______________________________________________________________________
 
-# 110. Calibration
+## 110. Calibration
 
 TPE claims about likelihood require calibration if probabilities or confidence bands are used.
 
@@ -2671,9 +2666,9 @@ under matched conditions.
 
 This is an AMOS validation principle, not a native TPE claim.
 
----
+______________________________________________________________________
 
-# 111. Calibration Firewall
+## 111. Calibration Firewall
 
 ```text
 CONFIDENT LANGUAGE
@@ -2689,9 +2684,9 @@ RANKED POSSIBILITY
 NUMERIC PROBABILITY
 ```
 
----
+______________________________________________________________________
 
-# 112. Prediction Scoring
+## 112. Prediction Scoring
 
 Where probabilities exist, evaluation may use proper scoring rules.
 
@@ -2711,9 +2706,9 @@ score
 baseline
 ```
 
----
+______________________________________________________________________
 
-# 113. Baseline Requirement
+## 113. Baseline Requirement
 
 TPE cannot establish predictive advantage without comparison.
 
@@ -2735,9 +2730,9 @@ consensus forecast
 
 The correct baseline depends on the task.
 
----
+______________________________________________________________________
 
-# 114. Predictive Advantage Firewall
+## 114. Predictive Advantage Firewall
 
 ```text
 A CORRECT FORECAST
@@ -2753,9 +2748,9 @@ POST-HOC EXPLANATION
 PREDICTION
 ```
 
----
+______________________________________________________________________
 
-# 115. Source "Why TPE Works" Claim
+## 115. Source "Why TPE Works" Claim
 
 The native manual argues that TPE works because it focuses on persistent forces:
 
@@ -2779,9 +2774,9 @@ SOURCE_THEORETICAL_JUSTIFICATION
 
 not independent predictive validation.
 
----
+______________________________________________________________________
 
-# 116. Universality Claim
+## 116. Universality Claim
 
 The source frames TPE as universal across:
 
@@ -2799,9 +2794,9 @@ and describes one unified structure.
 
 This is a high-value empirical target.
 
----
+______________________________________________________________________
 
-# 117. Universality Test
+## 117. Universality Test
 
 To validate that claim, TPE would require successful evaluation across genuinely distinct regimes such as:
 
@@ -2823,9 +2818,9 @@ different shock environments
 
 without post-hoc rule rewriting.
 
----
+______________________________________________________________________
 
-# 118. Regime Firewall
+## 118. Regime Firewall
 
 ```text
 MODEL WORKS IN DOMAIN A
@@ -2837,9 +2832,9 @@ MODEL WORKS IN PERIOD A
 MODEL WORKS AFTER STRUCTURAL CHANGE
 ```
 
----
+______________________________________________________________________
 
-# 119. Prediction Classes vs Exact Events
+## 119. Prediction Classes vs Exact Events
 
 The source's strongest epistemic protection is its explicit avoidance of exact event/date claims.
 
@@ -2853,9 +2848,9 @@ SPECIFIC EVENT CLAIM
 
 when data cannot support event-level prediction.
 
----
+______________________________________________________________________
 
-# 120. Prediction Granularity
+## 120. Prediction Granularity
 
 ```yaml
 TPEGranularity:
@@ -2872,9 +2867,9 @@ TPEGranularity:
     EXACT_EVENT: false
 ```
 
----
+______________________________________________________________________
 
-# 121. Uncertainty Vector
+## 121. Uncertainty Vector
 
 For every consequential TPE output:
 
@@ -2900,16 +2895,16 @@ TPEUncertainty:
   provenance_independence:
 ```
 
----
+______________________________________________________________________
 
-# 122. Confidence Ceiling
+## 122. Confidence Ceiling
 
 For prediction `P`:
 
 \[
 Conf(P)
-\le
-\min_i Conf(L_i)
+\\le
+\\min_i Conf(L_i)
 \]
 
 for load-bearing premises `Lᵢ`, absent independent revalidation.
@@ -2928,9 +2923,9 @@ causal transition rule   0.45
 
 Then overall prediction cannot honestly exceed the weak load-bearing causal premise.
 
----
+______________________________________________________________________
 
-# 123. Competing Forecasts
+## 123. Competing Forecasts
 
 TPE should retain multiple structurally admissible trajectories.
 
@@ -2950,9 +2945,9 @@ H4:
 cycle classification itself is wrong
 ```
 
----
+______________________________________________________________________
 
-# 124. Scenario Object
+## 124. Scenario Object
 
 ```yaml
 TPEScenario:
@@ -2982,9 +2977,9 @@ TPEScenario:
   confidence:
 ```
 
----
+______________________________________________________________________
 
-# 125. Scenario Resolution
+## 125. Scenario Resolution
 
 Collapse only when:
 
@@ -3006,9 +3001,9 @@ Otherwise:
 COMPETING
 ```
 
----
+______________________________________________________________________
 
-# 126. Causal Firewall
+## 126. Causal Firewall
 
 TPE is a prediction engine, but the source includes causal language.
 
@@ -3032,9 +3027,9 @@ feedback
 confounding
 ```
 
----
+______________________________________________________________________
 
-# 127. Prediction vs Causality
+## 127. Prediction vs Causality
 
 ```text
 A predicts B
@@ -3052,9 +3047,9 @@ changing A will change B
 
 This distinction is mandatory for intervention recommendations.
 
----
+______________________________________________________________________
 
-# 128. Intervention Causality
+## 128. Intervention Causality
 
 To claim:
 
@@ -3071,9 +3066,9 @@ fragmentation predicts crisis.
 
 Prediction and intervention are different problems.
 
----
+______________________________________________________________________
 
-# 129. Counterfactual Question
+## 129. Counterfactual Question
 
 Intervention reasoning asks:
 
@@ -3085,9 +3080,9 @@ while relevant other conditions remained comparable?
 
 That cannot be answered from correlation alone.
 
----
+______________________________________________________________________
 
-# 130. Sensitivity Analysis
+## 130. Sensitivity Analysis
 
 The source explicitly includes:
 
@@ -3115,9 +3110,9 @@ buffer strength
 shock magnitude
 ```
 
----
+______________________________________________________________________
 
-# 131. Forecast Fragility
+## 131. Forecast Fragility
 
 ```text
 ROBUST
@@ -3136,9 +3131,9 @@ small uncertainty changes
 forecast class/window materially.
 ```
 
----
+______________________________________________________________________
 
-# 132. Cheapest High-Information Test
+## 132. Cheapest High-Information Test
 
 For a TPE prediction, test first the premise most capable of reversing:
 
@@ -3152,9 +3147,9 @@ recommended intervention
 
 Do not spend effort validating decorative background claims first.
 
----
+______________________________________________________________________
 
-# 133. Historical Analogue Discipline
+## 133. Historical Analogue Discipline
 
 CCI-based analogues should carry:
 
@@ -3178,9 +3173,9 @@ HistoricalAnalogue:
   result:
 ```
 
----
+______________________________________________________________________
 
-# 134. Analogue Independence
+## 134. Analogue Independence
 
 One historical case can generate many documents.
 
@@ -3192,9 +3187,9 @@ ONE CASE
 
 not many independent validations.
 
----
+______________________________________________________________________
 
-# 135. Structural Similarity Firewall
+## 135. Structural Similarity Firewall
 
 ```text
 ROME RESEMBLES SYSTEM X
@@ -3210,9 +3205,9 @@ Analogy generates hypotheses.
 
 It does not establish destiny.
 
----
+______________________________________________________________________
 
-# 136. TPE Drift
+## 136. TPE Drift
 
 The source itself analyzes structural drift.
 
@@ -3236,9 +3231,9 @@ TPEModelDrift:
   provenance:
 ```
 
----
+______________________________________________________________________
 
-# 137. Model Update Discipline
+## 137. Model Update Discipline
 
 A model should not change rules after failed forecasts without preserving lineage.
 
@@ -3256,9 +3251,9 @@ reason for modification
 backtest separation
 ```
 
----
+______________________________________________________________________
 
-# 138. Forecast Finality
+## 138. Forecast Finality
 
 A forecast is final only for:
 
@@ -3276,9 +3271,9 @@ New information may justify a new forecast.
 
 It does not rewrite the old one.
 
----
+______________________________________________________________________
 
-# 139. TPE RSCF
+## 139. TPE RSCF
 
 ```yaml
 RSCF:
@@ -3364,9 +3359,9 @@ RSCF:
     NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 140. H/M/L Retrieval
+## 140. H/M/L Retrieval
 
 ## H — Framework
 
@@ -3436,9 +3431,9 @@ exact historical analogue
 
 Load source artifacts only where exact canon wording or provenance can change the conclusion.
 
----
+______________________________________________________________________
 
-# 141. Retrieval Examples
+## 141. Retrieval Examples
 
 ```yaml
 "What is TPE?":
@@ -3501,9 +3496,9 @@ Load source artifacts only where exact canon wording or provenance can change th
     - gaps
 ```
 
----
+______________________________________________________________________
 
-# 142. TPE Fast Path
+## 142. TPE Fast Path
 
 A local TPE forecast is eligible for a fast path only when:
 
@@ -3525,9 +3520,9 @@ no high-impact contradiction exists
 decision stakes remain reversible
 ```
 
----
+______________________________________________________________________
 
-# 143. Escalation Triggers
+## 143. Escalation Triggers
 
 Escalate when:
 
@@ -3553,9 +3548,9 @@ irreversible action is contemplated
 system regime changed
 ```
 
----
+______________________________________________________________________
 
-# 144. Adaptive Complexity
+## 144. Adaptive Complexity
 
 ```text
 C0
@@ -3575,9 +3570,9 @@ high-stakes, multi-scale,
 intervention-sensitive forecast
 ```
 
----
+______________________________________________________________________
 
-# 145. Forecast Governance
+## 145. Forecast Governance
 
 Consequential TPE forecasts require:
 
@@ -3601,9 +3596,9 @@ confidence ceiling
 action boundary
 ```
 
----
+______________________________________________________________________
 
-# 146. Forecast Receipt
+## 146. Forecast Receipt
 
 ```yaml
 TPEForecastReceipt:
@@ -3648,9 +3643,9 @@ TPEForecastReceipt:
   status:
 ```
 
----
+______________________________________________________________________
 
-# 147. Validation Receipt
+## 147. Validation Receipt
 
 ```yaml
 TPEValidationReceipt:
@@ -3686,9 +3681,9 @@ TPEValidationReceipt:
     - UNRESOLVED
 ```
 
----
+______________________________________________________________________
 
-# 148. Failure Classes
+## 148. Failure Classes
 
 ```text
 F1 wrong cycle classification
@@ -3720,9 +3715,9 @@ F13 hindsight contamination
 F14 unknown critical dependency
 ```
 
----
+______________________________________________________________________
 
-# 149. Local Failure Recovery
+## 149. Local Failure Recovery
 
 If a window forecast fails but the class forecast remains sound:
 
@@ -3744,9 +3739,9 @@ invalidate dependent forecasts
 
 not unrelated states.
 
----
+______________________________________________________________________
 
-# 150. Forecast Error Decomposition
+## 150. Forecast Error Decomposition
 
 ```yaml
 TPEForecastError:
@@ -3770,9 +3765,9 @@ TPEForecastError:
   provenance_error:
 ```
 
----
+______________________________________________________________________
 
-# 151. Recovery Sequence
+## 151. Recovery Sequence
 
 ```text
 FORECAST FAILURE
@@ -3792,9 +3787,9 @@ NEW VERSION
 RETEST
 ```
 
----
+______________________________________________________________________
 
-# 152. No Hindsight Repair
+## 152. No Hindsight Repair
 
 Forbidden:
 
@@ -3814,9 +3809,9 @@ success criteria preserved
 failure visible
 ```
 
----
+______________________________________________________________________
 
-# 153. Source Claim — Scientific Grounding
+## 153. Source Claim — Scientific Grounding
 
 The source states TPE provides a scientifically grounded basis for decision-makers.
 
@@ -3844,9 +3839,9 @@ replication
 
 before stronger promotion.
 
----
+______________________________________________________________________
 
-# 154. Source Claim — High Predictive Fidelity
+## 154. Source Claim — High Predictive Fidelity
 
 The source describes integration as producing:
 
@@ -3864,9 +3859,9 @@ Current status:
 NOT_INDEPENDENTLY_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 155. Source Claim — First Unified Forecast Engine
+## 155. Source Claim — First Unified Forecast Engine
 
 The manual describes TPE as the first forecasting engine designed to work across organizations, governments, markets, and civilizations with one unified structure.
 
@@ -3878,9 +3873,9 @@ SOURCE_PRIORITY_CLAIM
 
 not independently verified historical priority.
 
----
+______________________________________________________________________
 
-# 156. Strong Claim Firewall
+## 156. Strong Claim Firewall
 
 ```text
 "FIRST"
@@ -3899,9 +3894,9 @@ requires prospective performance.
 requires testable and validated methodology.
 ```
 
----
+______________________________________________________________________
 
-# 157. Promotion Gate — Canon
+## 157. Promotion Gate — Canon
 
 - [x] native TPE manual located
 - [x] primary identity established
@@ -3918,9 +3913,9 @@ requires testable and validated methodology.
 - [ ] conflicting variants registered
 - [ ] final canonical validation receipt issued
 
----
+______________________________________________________________________
 
-# 158. Promotion Gate — Measurement
+## 158. Promotion Gate — Measurement
 
 Before empirical use:
 
@@ -3934,9 +3929,9 @@ Before empirical use:
 - [ ] data provenance retained
 - [ ] uncertainty quantified
 
----
+______________________________________________________________________
 
-# 159. Promotion Gate — Forecast Validation
+## 159. Promotion Gate — Forecast Validation
 
 - [ ] historical backtest with strict data cutoffs
 - [ ] prospective forecasts
@@ -3950,9 +3945,9 @@ Before empirical use:
 - [ ] out-of-domain validation
 - [ ] independent replication
 
----
+______________________________________________________________________
 
-# 160. Promotion Gate — Intervention
+## 160. Promotion Gate — Intervention
 
 Before recommending consequential action:
 
@@ -3966,9 +3961,9 @@ Before recommending consequential action:
 - [ ] monitoring plan defined
 - [ ] stop conditions defined
 
----
+______________________________________________________________________
 
-# 161. Critical Gaps
+## 161. Critical Gaps
 
 ```yaml
 gaps:
@@ -4030,9 +4025,9 @@ gaps:
     state: NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 162. Ingestion Rule
+## 162. Ingestion Rule
 
 ```yaml
 AMOS_CANON_INGESTION_RULE:
@@ -4081,9 +4076,9 @@ AMOS_CANON_INGESTION_RULE:
       - NEVER_INVENT_CANON
 ```
 
----
+______________________________________________________________________
 
-# 163. Contract Discipline
+## 163. Contract Discipline
 
 ```text
 typed forecasts
@@ -4104,9 +4099,9 @@ typed forecasts
 · failed forecasts preserved
 ```
 
----
+______________________________________________________________________
 
-# 164. Worked Semantics — State Forecast
+## 164. Worked Semantics — State Forecast
 
 Question:
 
@@ -4135,9 +4130,9 @@ TPE procedure:
 8. surface uncertainty
 ```
 
----
+______________________________________________________________________
 
-# 165. Worked Semantics — Ambiguous Cycle
+## 165. Worked Semantics — Ambiguous Cycle
 
 Evidence supports:
 
@@ -4163,9 +4158,9 @@ C2
 
 unless discriminating evidence exists.
 
----
+______________________________________________________________________
 
-# 166. Worked Semantics — Crisis Forecast
+## 166. Worked Semantics — Crisis Forecast
 
 Suppose source model observes:
 
@@ -4193,9 +4188,9 @@ MODEL / CONDITIONAL
 
 unless forecast calibration supports a quantitative probability.
 
----
+______________________________________________________________________
 
-# 167. Worked Semantics — Window Prediction
+## 167. Worked Semantics — Window Prediction
 
 Source heuristic:
 
@@ -4216,9 +4211,9 @@ not:
 95% confidence interval.
 ```
 
----
+______________________________________________________________________
 
-# 168. Worked Semantics — Cascade
+## 168. Worked Semantics — Cascade
 
 Candidate:
 
@@ -4246,9 +4241,9 @@ then the full cascade remains:
 COMPETING
 ```
 
----
+______________________________________________________________________
 
-# 169. Worked Semantics — Shock
+## 169. Worked Semantics — Shock
 
 Source model says shocks reveal existing weakness.
 
@@ -4266,9 +4261,9 @@ Is there survivor bias?
 
 No causal conclusion is promoted without these checks.
 
----
+______________________________________________________________________
 
-# 170. Worked Semantics — Intervention
+## 170. Worked Semantics — Intervention
 
 Prediction:
 
@@ -4295,9 +4290,9 @@ monitoring
 
 before action.
 
----
+______________________________________________________________________
 
-# 171. Worked Semantics — Historical Analogue
+## 171. Worked Semantics — Historical Analogue
 
 Suppose CCI provides:
 
@@ -4315,9 +4310,9 @@ provenance family
 
 not document count.
 
----
+______________________________________________________________________
 
-# 172. Worked Semantics — Failed Forecast
+## 172. Worked Semantics — Failed Forecast
 
 Forecast:
 
@@ -4350,9 +4345,9 @@ regime shift?
 
 Do not retroactively redefine crisis.
 
----
+______________________________________________________________________
 
-# 173. Worked Semantics — Successful Intervention
+## 173. Worked Semantics — Successful Intervention
 
 If TPE predicts crisis but a major intervention occurs and crisis does not happen:
 
@@ -4372,9 +4367,9 @@ or unconditional.
 
 Forecast conditionality must be explicit.
 
----
+______________________________________________________________________
 
-# 174. Conditional Prediction Contract
+## 174. Conditional Prediction Contract
 
 ```yaml
 TPEConditionalForecast:
@@ -4394,9 +4389,9 @@ TPEConditionalForecast:
   window:
 ```
 
----
+______________________________________________________________________
 
-# 175. Falsifiability
+## 175. Falsifiability
 
 Each serious TPE forecast should specify:
 
@@ -4407,9 +4402,9 @@ against the forecast.
 
 Otherwise a prediction can become unfalsifiable through reinterpretation.
 
----
+______________________________________________________________________
 
-# 176. Forecast Falsifier
+## 176. Forecast Falsifier
 
 ```yaml
 TPEFalsifier:
@@ -4427,9 +4422,9 @@ TPEFalsifier:
   result:
 ```
 
----
+______________________________________________________________________
 
-# 177. Prediction Sufficiency
+## 177. Prediction Sufficiency
 
 Stop reasoning when:
 
@@ -4443,9 +4438,9 @@ additional evidence will not change action
 
 Do not overcompute background detail.
 
----
+______________________________________________________________________
 
-# 178. Action Sufficiency
+## 178. Action Sufficiency
 
 A forecast can be useful without exact prediction if it supports:
 
@@ -4461,9 +4456,9 @@ reversible risk reduction
 
 This aligns with TPE's structural-foresight intent.
 
----
+______________________________________________________________________
 
-# 179. Monitoring Plan
+## 179. Monitoring Plan
 
 ```yaml
 TPEMonitoringPlan:
@@ -4483,9 +4478,9 @@ TPEMonitoringPlan:
   intervention_triggers:
 ```
 
----
+______________________________________________________________________
 
-# 180. Early Warning
+## 180. Early Warning
 
 TPE can be modeled as an early-warning framework where:
 
@@ -4497,9 +4492,9 @@ surface consequences become visible.
 
 This is a source hypothesis requiring empirical lead-time validation.
 
----
+______________________________________________________________________
 
-# 181. Lead-Time Validation
+## 181. Lead-Time Validation
 
 A valid early-warning claim requires:
 
@@ -4515,9 +4510,9 @@ false-positive rate acceptable
 signal adds value beyond baseline
 ```
 
----
+______________________________________________________________________
 
-# 182. False Positives
+## 182. False Positives
 
 TPE must track:
 
@@ -4528,9 +4523,9 @@ that does not occur.
 
 These cannot be dismissed as hidden success unless predefined intervention logic explains them.
 
----
+______________________________________________________________________
 
-# 183. False Negatives
+## 183. False Negatives
 
 TPE must track:
 
@@ -4541,22 +4536,22 @@ without prior TPE warning.
 
 This is equally important.
 
----
+______________________________________________________________________
 
-# 184. Forecast Confusion Matrix
+## 184. Forecast Confusion Matrix
 
 For class prediction:
 
-| | Observed Transition | No Transition |
-|---|---:|---:|
-| Predicted Transition | TP | FP |
-| No Prediction | FN | TN |
+|                      | Observed Transition | No Transition |
+| -------------------- | ------------------: | ------------: |
+| Predicted Transition |                  TP |            FP |
+| No Prediction        |                  FN |            TN |
 
 This is an AMOS validation extension.
 
----
+______________________________________________________________________
 
-# 185. Base-Rate Firewall
+## 185. Base-Rate Firewall
 
 A common event can be predicted often with high raw accuracy.
 
@@ -4570,9 +4565,9 @@ FORECAST SKILL
 
 TPE should be compared against relevant base rates.
 
----
+______________________________________________________________________
 
-# 186. Time-Window Score
+## 186. Time-Window Score
 
 A prediction can get the class right but window wrong.
 
@@ -4586,9 +4581,9 @@ WINDOW ACCURACY
 CASCADE ACCURACY
 ```
 
----
+______________________________________________________________________
 
-# 187. Forecast Decomposition
+## 187. Forecast Decomposition
 
 ```yaml
 TPEForecastQuality:
@@ -4608,9 +4603,9 @@ TPEForecastQuality:
   explanatory_quality:
 ```
 
----
+______________________________________________________________________
 
-# 188. Prospective Validation
+## 188. Prospective Validation
 
 The strongest validation method for TPE is:
 
@@ -4628,9 +4623,9 @@ evaluate objectively
 
 This avoids retrospective pattern fitting.
 
----
+______________________________________________________________________
 
-# 189. Canonical TPE Capsule
+## 189. Canonical TPE Capsule
 
 ```yaml
 TPE_CANONICAL_CAPSULE:
@@ -4762,9 +4757,9 @@ TPE_CANONICAL_CAPSULE:
       NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 190. Proof Capsule
+## 190. Proof Capsule
 
 ```yaml
 PROOF_CAPSULE:
@@ -4839,9 +4834,9 @@ PROOF_CAPSULE:
       UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 191. Final Canonical Statement
+## 191. Final Canonical Statement
 
 AMOS × TPE represents the source-defined forecasting architecture:
 
@@ -5041,7 +5036,7 @@ remain claim-specific
 and evidence-bounded.
 ```
 
----
+______________________________________________________________________
 
 ## Source Lineage
 
@@ -5071,15 +5066,15 @@ Cross-Civilizational Intelligence™
 Planetary-Scale Intelligence™
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|AMOS MOC]]
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[25_COGNITIVE_MATRIX/AMOS_X_QLS|AMOS_X_QLS]] · [[25_COGNITIVE_MATRIX/AMOS_X_QLS_QCLA_MATRIX|AMOS_X_QLS_QCLA_MATRIX]] · [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]
 
----
+______________________________________________________________________
 
 RSCF-NODE
 
@@ -5097,32 +5092,32 @@ canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
 
 RSCF-RELATIONS:
 
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
-  - GOVERNED_BY: [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- GOVERNED_BY: [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
 
-  - DERIVED_FROM_FRAMEWORK: `TSS`
+- DERIVED_FROM_FRAMEWORK: `TSS`
 
-  - USES: UBI
+- USES: UBI
 
-  - USES: `ULF`
+- USES: `ULF`
 
-  - USES: [[25_COGNITIVE_MATRIX/AMOS_X_QLS|AMOS_X_QLS]]
+- USES: [[25_COGNITIVE_MATRIX/AMOS_X_QLS|AMOS_X_QLS]]
 
-  - USES: `QUANTUM_CAUSALITY_LAYER_ARCHITECTURE`
+- USES: `QUANTUM_CAUSALITY_LAYER_ARCHITECTURE`
 
-  - USES: `UCP`
+- USES: `UCP`
 
-  - USES: `CCI`
+- USES: `CCI`
 
-  - USES: `PSI`
+- USES: `PSI`
 
-  - RELATED_TO: [[25_COGNITIVE_MATRIX/AMOS_X_QLS_QCLA_MATRIX|AMOS_X_QLS_QCLA_MATRIX]]
+- RELATED_TO: [[25_COGNITIVE_MATRIX/AMOS_X_QLS_QCLA_MATRIX|AMOS_X_QLS_QCLA_MATRIX]]
 
-  - INDEXED_BY: [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]
+- INDEXED_BY: [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]
 
----
+______________________________________________________________________
 
 **MOC:** [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]

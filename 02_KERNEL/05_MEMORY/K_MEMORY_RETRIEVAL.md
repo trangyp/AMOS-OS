@@ -15,46 +15,46 @@ kernel_family: MEMORY
 scope: AMOS_OS
 updated: 2026-08-26
 tags:
-- amos-os
-- kernel
-- core
-- canon-group/tech-ai
-- kernel/memory
-- kernel/memory-retrieval
-- kernel/context
-- kernel/provenance
-- kernel/dependency
-- kernel/conflict
-- kernel/epistemic-integrity
-- rscf/retrieval
-- rscf/memory
-- rscf/provenance
-- rscf/dependency
-- hml
-- topic/selective-retrieval
-- topic/dependency-closure
-- topic/freshness
-- topic/regime
-- topic/context-relevance
-- canon/kernel
-- memory
-- readme
-- amos-core-laws
-- law-hierarchy
-- canon-provenance
-- source-lineage
-- k-identity
-- k-meta-logic
-- k-multi-hypothesis
-- k-context-state
-- k-context-compaction
-- k-memory-admission
-- k-memory-conflict
-- k-memory-immune
-- k-system-state
-- k-world-model
-- k-causal-closure
-- k-causal-epoch
+  - amos-os
+  - kernel
+  - core
+  - canon-group/tech-ai
+  - kernel/memory
+  - kernel/memory-retrieval
+  - kernel/context
+  - kernel/provenance
+  - kernel/dependency
+  - kernel/conflict
+  - kernel/epistemic-integrity
+  - rscf/retrieval
+  - rscf/memory
+  - rscf/provenance
+  - rscf/dependency
+  - hml
+  - topic/selective-retrieval
+  - topic/dependency-closure
+  - topic/freshness
+  - topic/regime
+  - topic/context-relevance
+  - canon/kernel
+  - memory
+  - readme
+  - amos-core-laws
+  - law-hierarchy
+  - canon-provenance
+  - source-lineage
+  - k-identity
+  - k-meta-logic
+  - k-multi-hypothesis
+  - k-context-state
+  - k-context-compaction
+  - k-memory-admission
+  - k-memory-conflict
+  - k-memory-immune
+  - k-system-state
+  - k-world-model
+  - k-causal-closure
+  - k-causal-epoch
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -95,7 +95,7 @@ CAPABILITY != AUTHORITY
 UNKNOWN/GAP != PASS
 ```
 
----
+______________________________________________________________________
 
 ## 1. Retrieval Objective
 
@@ -130,7 +130,7 @@ DECISION_SUFFICIENCY(R)
 
 This is an architectural objective, not an assertion of a currently implemented optimization algorithm.
 
----
+______________________________________________________________________
 
 ## 2. Core Retrieval Law
 
@@ -163,7 +163,7 @@ FALSE CONSENSUS
 ATTENTION DILUTION
 ```
 
----
+______________________________________________________________________
 
 ## 3. Retrieval Pipeline
 
@@ -209,7 +209,7 @@ RAW EVIDENCE
 DO_NOT_LOAD_UNLESS_REQUIRED
 ```
 
----
+______________________________________________________________________
 
 ## 4. Retrieval Object
 
@@ -253,7 +253,7 @@ retrieval_candidate:
   invalidation_conditions: []
 ```
 
----
+______________________________________________________________________
 
 ## 5. Retrieval Result
 
@@ -276,7 +276,7 @@ retrieval_result:
   retrieval_class:
 ```
 
----
+______________________________________________________________________
 
 ## 6. Memory Types
 
@@ -312,7 +312,7 @@ RETRIEVE(MODEL)
 VERIFY(MODEL)
 ```
 
----
+______________________________________________________________________
 
 ## 7. H/M/L Retrieval
 
@@ -340,7 +340,7 @@ H FIRST
 
 Expand only when H-level knowledge is insufficient.
 
----
+______________________________________________________________________
 
 ## 8. H-Level Retrieval
 
@@ -355,7 +355,7 @@ WHICH GOVERNING CONTEXT?
 
 H-level retrieval should maximize routing accuracy while minimizing detail loading.
 
----
+______________________________________________________________________
 
 ## 9. M-Level Retrieval
 
@@ -373,7 +373,7 @@ DOMAIN-SPECIFIC MODEL
 
 M-level expansion occurs only when it can materially change the result.
 
----
+______________________________________________________________________
 
 ## 10. L-Level Retrieval
 
@@ -390,7 +390,7 @@ SPECIFIC OBSERVATION
 
 L-level retrieval is appropriate when higher-level capsules cannot establish sufficiency.
 
----
+______________________________________________________________________
 
 ## 11. Raw Evidence Gate
 
@@ -417,7 +417,7 @@ REGIME SHIFTED
 HIGH-STAKES VALIDATION REQUIRED
 ```
 
----
+______________________________________________________________________
 
 ## 12. RSCF Retrieval
 
@@ -442,7 +442,7 @@ REUSE RSCF
 
 instead of recomputing its full evidence chain.
 
----
+______________________________________________________________________
 
 ## 13. Proof Capsule Retrieval
 
@@ -465,7 +465,7 @@ CONFIDENCE CEILING
 
 A claim detached from these fields may be insufficient for load-bearing reuse.
 
----
+______________________________________________________________________
 
 ## 14. Dependency Closure
 
@@ -489,7 +489,7 @@ This does not require blindly loading every ancestor.
 
 Only material dependencies need expansion.
 
----
+______________________________________________________________________
 
 ## 15. Smallest Sufficient Closure
 
@@ -511,7 +511,7 @@ FULL GRAPH EXPANSION
 
 unless necessary.
 
----
+______________________________________________________________________
 
 ## 16. Retrieval Relevance
 
@@ -535,7 +535,7 @@ decision_value
 
 No specific weighting is asserted unless separately implemented and validated.
 
----
+______________________________________________________________________
 
 ## 17. Decision-Changing Relevance
 
@@ -553,7 +553,7 @@ FRESHNESS QUESTION
 CAUSAL QUESTION
 ```
 
----
+______________________________________________________________________
 
 ## 18. Retrieval Ranking Firewall
 
@@ -585,7 +585,7 @@ Ranking is routing.
 
 Validation is separate.
 
----
+______________________________________________________________________
 
 ## 19. Semantic Similarity Firewall
 
@@ -605,7 +605,7 @@ SAME SCOPE
 SAME CAUSE
 ```
 
----
+______________________________________________________________________
 
 ## 20. Identity Gate
 
@@ -625,7 +625,7 @@ SEMANTIC IDENTITY
 
 Filename similarity is insufficient.
 
----
+______________________________________________________________________
 
 ## 21. Provenance Retrieval
 
@@ -649,7 +649,7 @@ PROVENANCE = UNKNOWN/GAP
 
 and trust must be bounded accordingly.
 
----
+______________________________________________________________________
 
 ## 22. Independence Retrieval
 
@@ -672,7 +672,7 @@ COUNT(RECORDS)
 COUNT(INDEPENDENT_SOURCES)
 ```
 
----
+______________________________________________________________________
 
 ## 23. Sybil-Hardened Retrieval
 
@@ -692,7 +692,7 @@ ONE PROVENANCE FAMILY
 
 unless independence is demonstrated.
 
----
+______________________________________________________________________
 
 ## 24. Conflict-Aware Retrieval
 
@@ -714,7 +714,7 @@ COMPETING
 
 must be preserved.
 
----
+______________________________________________________________________
 
 ## 25. Adversarial Retrieval
 
@@ -733,7 +733,7 @@ CAUSAL OVERREACH
 
 This path must not merely retrieve paraphrases of the original evidence.
 
----
+______________________________________________________________________
 
 ## 26. Competing Hypothesis Retrieval
 
@@ -757,7 +757,7 @@ DISCRIMINATING TEST
 
 over accumulating redundant support for one hypothesis.
 
----
+______________________________________________________________________
 
 ## 27. Conflict Preservation
 
@@ -777,7 +777,7 @@ CONFLICT STATE
 
 Do not force convergence for fluency.
 
----
+______________________________________________________________________
 
 ## 28. Freshness Gate
 
@@ -797,7 +797,7 @@ where relevant environmental conditions changed.
 
 Retrieval must check freshness when the conclusion depends on current state.
 
----
+______________________________________________________________________
 
 ## 29. Freshness-Bounded Trust
 
@@ -817,7 +817,7 @@ TRUST(M)
 PERMANENT
 ```
 
----
+______________________________________________________________________
 
 ## 30. Stale Retrieval
 
@@ -837,7 +837,7 @@ STALE != USELESS
 STALE != CURRENT
 ```
 
----
+______________________________________________________________________
 
 ## 31. Scope Gate
 
@@ -858,7 +858,7 @@ ASSUMPTIONS
 
 Retrieval must not silently generalize beyond that envelope.
 
----
+______________________________________________________________________
 
 ## 32. Regime Gate
 
@@ -880,7 +880,7 @@ When regime compatibility is unknown:
 REGIME_COMPATIBILITY = UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
 ## 33. Temporal Retrieval
 
@@ -894,7 +894,7 @@ STATE @ NOW
 
 Retrieving historical memory does not establish present validity.
 
----
+______________________________________________________________________
 
 ## 34. Causal Retrieval Firewall
 
@@ -916,7 +916,7 @@ must not be retrieved and silently interpreted as:
 CAUSAL EFFECT
 ```
 
----
+______________________________________________________________________
 
 ## 35. Causal Evidence Retrieval
 
@@ -935,7 +935,7 @@ FEEDBACK
 
 as relevant.
 
----
+______________________________________________________________________
 
 ## 36. Causal Epoch Retrieval
 
@@ -951,7 +951,7 @@ must remain linked.
 
 A conclusion finalized under an earlier causal epoch may require revalidation.
 
----
+______________________________________________________________________
 
 ## 37. Authority-Aware Retrieval
 
@@ -973,7 +973,7 @@ A highly relevant memory may have no authority to authorize action.
 RELEVANT != AUTHORIZED
 ```
 
----
+______________________________________________________________________
 
 ## 38. Canon-Aware Retrieval
 
@@ -987,7 +987,7 @@ should have explicit authority precedence over noncanonical memory, subject to v
 
 But conflicting empirical evidence must not be erased merely because canon exists.
 
----
+______________________________________________________________________
 
 ## 39. Memory/Canon Firewall
 
@@ -1001,7 +1001,7 @@ Retrieving a remembered policy or law does not prove that it remains active cano
 
 Where authority matters, retrieve canonical state or its validated reference.
 
----
+______________________________________________________________________
 
 ## 40. Retrieval and Memory Admission
 
@@ -1017,9 +1017,10 @@ K_MEMORY_RETRIEVAL
 SHOULD THIS MEMORY BE LOADED
 FOR THIS OBJECTIVE?
 ```
+
 A valid stored memory can still be irrelevant to the current task.
 
----
+______________________________________________________________________
 
 ## 41. Retrieval and Memory Immune
 
@@ -1034,6 +1035,7 @@ K_MEMORY_IMMUNE
 =
 INTEGRITY DEFENSE
 ```
+
 Retrieved memory failing immune validation should be:
 
 ```text
@@ -1045,7 +1047,7 @@ OR EXCLUDED
 
 depending on context.
 
----
+______________________________________________________________________
 
 ## 42. Retrieval and Memory Conflict
 
@@ -1061,7 +1063,8 @@ K_MEMORY_RETRIEVAL
 ENSURE MATERIAL DISAGREEMENT
 IS NOT HIDDEN BY SELECTION
 ```
----
+
+______________________________________________________________________
 
 ## 43. Retrieval and Context State
 
@@ -1079,7 +1082,7 @@ AVAILABLE AUTHORITY
 
 but context must not rewrite memory identity.
 
----
+______________________________________________________________________
 
 ## 44. Context Injection Firewall
 
@@ -1100,7 +1103,7 @@ PROVENANCE
 VALIDATION_STATE
 ```
 
----
+______________________________________________________________________
 
 ## 45. Context Compaction Interaction
 
@@ -1117,7 +1120,7 @@ PROVENANCE REFERENCES
 
 Compaction must not force indiscriminate reloading of the entire memory space.
 
----
+______________________________________________________________________
 
 ## 46. Retrieval Expansion
 
@@ -1143,7 +1146,7 @@ CROSS-DOMAIN
 RAW EVIDENCE
 ```
 
----
+______________________________________________________________________
 
 ## 47. Cross-Domain Retrieval
 
@@ -1163,7 +1166,7 @@ ANALOGY
 VALIDATED EQUIVALENCE
 ```
 
----
+______________________________________________________________________
 
 ## 48. Fast Path
 
@@ -1191,7 +1194,7 @@ Then:
 REUSE VALID CAPSULE
 ```
 
----
+______________________________________________________________________
 
 ## 49. Fast-Path Failure
 
@@ -1213,7 +1216,7 @@ LOAD LOWER H/M/L LEVEL
 LOAD RAW EVIDENCE
 ```
 
----
+______________________________________________________________________
 
 ## 50. Independence Must Be Demonstrated
 
@@ -1233,7 +1236,7 @@ INDEPENDENCE
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
 ## 51. Retrieval Sensitivity
 
@@ -1253,7 +1256,7 @@ only P2 can flip D
 → retrieve P2 first
 ```
 
----
+______________________________________________________________________
 
 ## 52. Gap-Driven Retrieval
 
@@ -1280,7 +1283,7 @@ COSMETIC
 
 Do not spend retrieval budget resolving cosmetic gaps while a critical premise remains unknown.
 
----
+______________________________________________________________________
 
 ## 53. Unknown/GAP Retrieval
 
@@ -1294,7 +1297,7 @@ and identify the minimum missing information.
 
 Never fabricate a bridging premise.
 
----
+______________________________________________________________________
 
 ## 54. Retrieval Stop Conditions
 
@@ -1312,7 +1315,7 @@ are reached.
 
 More retrieval after sufficiency may reduce quality.
 
----
+______________________________________________________________________
 
 ## 55. Retrieval Budget
 
@@ -1332,7 +1335,7 @@ STALE/CONFLICT CONTAMINATION RISK
 
 Continue only while expected value remains positive.
 
----
+______________________________________________________________________
 
 ## 56. Adaptive Retrieval Complexity
 
@@ -1355,7 +1358,7 @@ high-stakes adversarial retrieval
 
 Start at the lowest sufficient level.
 
----
+______________________________________________________________________
 
 ## 57. Escalation Conditions
 
@@ -1377,7 +1380,7 @@ LOW TRUST
 PROVENANCE CORRELATION
 ```
 
----
+______________________________________________________________________
 
 ## 58. Retrieval Recovery
 
@@ -1401,7 +1404,7 @@ PRESERVE UNAFFECTED RETRIEVAL
 REROUTE
 ```
 
----
+______________________________________________________________________
 
 ## 59. Local Rerouting
 
@@ -1418,7 +1421,7 @@ Use `PATH B`.
 
 Do not recompute the entire graph unless required.
 
----
+______________________________________________________________________
 
 ## 60. Retrieval Cache
 
@@ -1435,7 +1438,7 @@ PROVENANCE VALID
 
 Otherwise the cache must be invalidated or revalidated.
 
----
+______________________________________________________________________
 
 ## 61. Retrieval Cache Firewall
 
@@ -1447,7 +1450,7 @@ CURRENT
 
 Cache existence cannot substitute for validity checks.
 
----
+______________________________________________________________________
 
 ## 62. MVCC/CAS Compatibility
 
@@ -1471,7 +1474,7 @@ REVALIDATE
 
 This expresses compatibility with AMOS persistent-state reasoning; it does not assert implemented storage semantics.
 
----
+______________________________________________________________________
 
 ## 63. Atomic Multi-RSCF Retrieval
 
@@ -1493,7 +1496,7 @@ R3 @ EPOCH C
 
 when epoch mismatch affects validity.
 
----
+______________________________________________________________________
 
 ## 64. Retrieval Consistency
 
@@ -1513,7 +1516,7 @@ COHERENT VALIDATED SNAPSHOT
 
 The retrieval kernel should not impose one universal consistency model.
 
----
+______________________________________________________________________
 
 ## 65. Retrieval Failure Classes
 
@@ -1540,7 +1543,7 @@ CACHE_STALENESS
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
 ## 66. Over-Retrieval
 
@@ -1556,7 +1559,7 @@ ATTENTION DILUTION
 PROVENANCE CONFUSION
 ```
 
----
+______________________________________________________________________
 
 ## 67. Under-Retrieval
 
@@ -1580,7 +1583,7 @@ not:
 SMALLEST POSSIBLE
 ```
 
----
+______________________________________________________________________
 
 ## 68. Retrieval Integrity Invariants
 
@@ -1661,7 +1664,7 @@ MR-25
 UNKNOWN/GAP MUST NOT BECOME PASS
 ```
 
----
+______________________________________________________________________
 
 ## 69. Required Tests
 
@@ -1701,7 +1704,7 @@ LOCAL-REROUTING TEST
 UNKNOWN-GAP TEST
 ```
 
----
+______________________________________________________________________
 
 ## 70. Negative Tests
 
@@ -1772,7 +1775,7 @@ UNKNOWN/GAP
 MUST FAIL
 ```
 
----
+______________________________________________________________________
 
 ## 71. Retrieval Observability
 
@@ -1795,7 +1798,7 @@ GAPS
 
 Observability must not require exposing protected internal reasoning.
 
----
+______________________________________________________________________
 
 ## 72. Retrieval Trace
 
@@ -1816,7 +1819,7 @@ retrieval_trace:
   final_retrieval_class:
 ```
 
----
+______________________________________________________________________
 
 ## 73. Privacy and Security Boundary
 
@@ -1836,7 +1839,7 @@ AUTHORIZED TO RETRIEVE
 
 Authorization belongs to the appropriate security/control-plane contract.
 
----
+______________________________________________________________________
 
 ## 74. Tool Boundary
 
@@ -1858,7 +1861,7 @@ or:
 TOOL OUTPUT IS TRUSTED
 ```
 
----
+______________________________________________________________________
 
 ## 75. Runtime Boundary
 
@@ -1888,7 +1891,7 @@ KNOWLEDGE
 EVIDENCE / CLAIM / RSCF STRUCTURES
 ```
 
----
+______________________________________________________________________
 
 ## 76. Authority Boundary
 
@@ -1918,7 +1921,7 @@ RETRIEVAL CAPABILITY
 RETRIEVAL AUTHORITY
 ```
 
----
+______________________________________________________________________
 
 ## 77. Promotion Gate
 
@@ -1964,7 +1967,7 @@ FORMAL_VERIFICATION = UNKNOWN/GAP
 EMPIRICAL_VALIDATION = UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
 ## 78. RSCF Node
 
@@ -2012,7 +2015,7 @@ RSCF-RELATIONS:
   - OPERATED_BY: README
 ```
 
----
+______________________________________________________________________
 
 ## 79. Canonical Retrieval Summary
 
@@ -2230,12 +2233,14 @@ README
 ```text
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 **MOC:** [[02_KERNEL/05_MEMORY/05_MEMORY_MOC|05_MEMORY_MOC]]

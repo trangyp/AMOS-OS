@@ -5,18 +5,16 @@ source: 08_WORKFLOWS
 Type: Workflow
 Skill: amos-aibom-lifecycle-assurance-rscf
 Agent: amos-aibom-lifecycle-assurance-rscf-agent
-Trigger: When an AIBOM lifecycle claim must be classified, evidence validated, provenance
-  traced, confidence assessed, falsifier detected, lifecycle managed, drift detected,
-  or outputs validated; or when amos-rscf-epistemic-master routes to this capability
+Trigger: When an AIBOM lifecycle claim must be classified, evidence validated, provenance traced, confidence assessed, falsifier detected, lifecycle managed, drift detected, or outputs validated; or when amos-rscf-epistemic-master routes to this capability
 Version: 1.0.0
 tags:
-- type/workflow
-- type/workflow
-- domain/rscf-epistemic
-- epistemic/source_claim
-- hml/m
-- epistemic/source_claim
-- amos-os
+  - type/workflow
+  - type/workflow
+  - domain/rscf-epistemic
+  - epistemic/source_claim
+  - hml/m
+  - epistemic/source_claim
+  - amos-os
 rscf:
   state: AMOS_MODEL
   claim_class: EMPIRICAL
@@ -28,23 +26,23 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: M
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
-- L7_authority
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
+  - L7_authority
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L7
-- L16
-- L17
-- L18
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L7
+  - L16
+  - L17
+  - L18
 domain: rscf
 ---
 
@@ -53,7 +51,6 @@ domain: rscf
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
-
 
 ## Preconditions
 
@@ -68,28 +65,27 @@ Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic clas
 1. **Intake**: Identify the problem and confirm it matches the Aibom Lifecycle Assurance Rscf scope.
    - Classify the query against the AIBOM lifecycle capabilities: classify_claim, validate_evidence, trace_provenance, assess_confidence, detect_falsifier, manage_lifecycle, detect_drift, validate_outputs
    - Route to the appropriate capability
-2. **Skill Invocation**: Load the `amos-aibom-lifecycle-assurance-rscf` skill.
+1. **Skill Invocation**: Load the `amos-aibom-lifecycle-assurance-rscf` skill.
    - Read the skill content and validation gates
    - Identify which capability is most relevant
-3. **Application**: Apply the Aibom Lifecycle Assurance Rscf capability.
+1. **Application**: Apply the Aibom Lifecycle Assurance Rscf capability.
    - Tag every output with its epistemic status (SOURCE / DERIVED / AMOS_MODEL)
    - Record provenance for every derived claim
-4. **Validation**: Check results against validation gates.
+1. **Validation**: Check results against validation gates.
    - Law of Law: no unresolved contradictions
    - Epistemic class labels present
    - Provenance recorded
-5. **Output**: Present results with full provenance and epistemic labeling.
+1. **Output**: Present results with full provenance and epistemic labeling.
    - Include confidence ceiling
    - Record source path for every derived claim
-
 
 ## Operations
 
 1. **Intake**: Identify the problem and confirm it matches the Aibom Lifecycle Assurance Rscf scope. - Classify the query against the AIBOM lifecycle capabilities: classify_claim, validate_evidence, trace_provenance, assess_confidence, dete...
-2. **Skill Invocation**: Load the `amos-aibom-lifecycle-assurance-rscf` skill. - Read the skill content and validation gates - Identify which capability is most relevant
-3. **Application**: Apply the Aibom Lifecycle Assurance Rscf capability. - Tag every output with its epistemic status (SOURCE / DERIVED / AMOS_MODEL) - Record provenance for every derived claim
-4. **Validation**: Check results against validation gates. - Law of Law: no unresolved contradictions - Epistemic class labels present - Provenance recorded
-5. **Output**: Present results with full provenance and epistemic labeling. - Include confidence ceiling - Record source path for every derived claim
+1. **Skill Invocation**: Load the `amos-aibom-lifecycle-assurance-rscf` skill. - Read the skill content and validation gates - Identify which capability is most relevant
+1. **Application**: Apply the Aibom Lifecycle Assurance Rscf capability. - Tag every output with its epistemic status (SOURCE / DERIVED / AMOS_MODEL) - Record provenance for every derived claim
+1. **Validation**: Check results against validation gates. - Law of Law: no unresolved contradictions - Epistemic class labels present - Provenance recorded
+1. **Output**: Present results with full provenance and epistemic labeling. - Include confidence ceiling - Record source path for every derived claim
 
 ## Output
 
@@ -122,7 +118,8 @@ The workflow produces a structured result containing:
 - **Skill**: `amos-aibom-lifecycle-assurance-rscf`
 - **Agent**: `amos-aibom-lifecycle-assurance-rscf-agent`
 
----
+______________________________________________________________________
+
 **MOC:** [[08_WORKFLOWS/08_WORKFLOWS_MOC|08_WORKFLOWS_MOC]]
 
 ## Orchestration Pattern
@@ -130,42 +127,43 @@ The workflow produces a structured result containing:
 **Pattern**: Single-Agent with Validation Gates
 
 This workflow follows a single-agent orchestration with explicit validation gates between steps:
-1. **Intake** -> validation gate -> **Skill Invocation** -> validation gate -> **Application** -> validation gate -> **Output**
-2. Each gate checks: epistemic labeling, provenance, scope compliance, confidence ceiling
-3. On gate failure: route to error handling or escalate to parent workflow
 
+1. **Intake** -> validation gate -> **Skill Invocation** -> validation gate -> **Application** -> validation gate -> **Output**
+1. Each gate checks: epistemic labeling, provenance, scope compliance, confidence ceiling
+1. On gate failure: route to error handling or escalate to parent workflow
 
 ## Evaluation Gates
 
 ### Gate 1: Intake Validation
+
 - Query matches skill scope
 - Required inputs present
 - No scope violations detected
 
 ### Gate 2: Skill Load Validation
+
 - Skill file exists and is valid
 - Agent binding is valid
 - Required vault sources accessible
 
 ### Gate 3: Output Validation
+
 - Epistemic class labels present
 - Provenance recorded for all derived claims
 - Confidence ceiling not exceeded
 - No unresolved CRITICAL_GAPs
 - Scope compliance verified
 
-
 ## Error Handling
 
-| Error Type | Detection | Recovery |
-|---|---|---|
-| Scope violation | Gate 1 check | Route to parent skill |
-| Missing evidence | Gate 3 check | Flag as GAP, reduce confidence to 0.5 |
-| Contradiction | Gate 3 check | Flag as CRITICAL_GAP, halt |
-| Provenance loss | Gate 3 check | Mark as UNKNOWN, request human review |
-| Timeout | Step budget exceeded | Return partial result with warnings |
-| Drift | Confidence calibration check | Trigger drift alignment governor |
-
+| Error Type       | Detection                    | Recovery                              |
+| ---------------- | ---------------------------- | ------------------------------------- |
+| Scope violation  | Gate 1 check                 | Route to parent skill                 |
+| Missing evidence | Gate 3 check                 | Flag as GAP, reduce confidence to 0.5 |
+| Contradiction    | Gate 3 check                 | Flag as CRITICAL_GAP, halt            |
+| Provenance loss  | Gate 3 check                 | Mark as UNKNOWN, request human review |
+| Timeout          | Step budget exceeded         | Return partial result with warnings   |
+| Drift            | Confidence calibration check | Trigger drift alignment governor      |
 
 ## Human-in-the-Loop
 
@@ -177,14 +175,12 @@ This workflow follows a single-agent orchestration with explicit validation gate
   - Contradiction that cannot be auto-resolved
 - **Review checkpoint**: After Gate 3, if any warnings are present
 
-
 ## Monitoring
 
 - **Trace level**: Full (inputs, outputs, intermediate steps)
 - **Metrics**: Step count, token usage, confidence, gap count, execution time
 - **Alerts**: CRITICAL_GAP, confidence < 0.3, scope violation, timeout
 - **Provenance**: Every output traces back to source evidence via provenance chain
-
 
 ## Composition
 

@@ -12,279 +12,215 @@ segment: 00_ROOT/AMOS_TOTAL_ARCHITECTURE.md
 artifact_kind: ARCHITECTURE
 path: 00_ROOT/AMOS_TOTAL_ARCHITECTURE.md
 tags:
-- amos-os
-- architecture
-- canon/root
-- canon/universe
-- canon_placeholder
-- index
-- root
-- rscf
-- placeholder_expanded
-- routing-policy-validation-receipt
-- authz-engine-validation-receipt
-- law-hierarchy
-version: 0.2.0
-updated: '2026-08-27'
-status: PLACEHOLDER_EXPANDED
+  - amos-os
+  - architecture
+  - canon/root
+  - canon/universe
+  - mece-architecture
+  - full-brain-os
+  - cognitive-organism
+  - root
+  - rscf
+version: 1.0.0
+updated: '2026-09-03'
+status: POPULATED_ARCHITECTURE
 epistemic_class: AMOS_MODEL
-canonical_status: UNKNOWN/GAP
-implementation_status: NOT_ESTABLISHED
-validation_status: NOT_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: ADD_ONLY
+conclusion_class: AMOS_MODEL
+canonical_status: AMOS_MODEL
+implementation_status: SPECIFIED_DOCUMENTARY
+validation_status: DERIVED_CONSISTENT
+ingestion_action: EXPANDED_SYNTHESIS
 rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: 00_ROOT
-  regime: canon_placeholder
-  confidence_ceiling: source_supported
-  provenance_independence: NOT_ESTABLISHED
+  state: DERIVED
+  claim_class: AMOS_MODEL
+  provenance:
+    - 00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE
+    - 00_ROOT/PLANE_OWNERSHIP_MATRIX
+    - 01_CANON/03_COGNITION_CANON/FULL_BRAIN_OS_CANON
+    - 11_KNOWLEDGE/AMOS_FULL_BRAIN_OS_ARCHITECTURE
+  scope: repository_wide_total_architecture
 ---
 
-## 0. Canonical Status
+# AMOS Total Architecture — Unified Full Brain OS Specification
 
-`AMOS_TOTAL_ARCHITECTURE.md` is an **ADD-ONLY placeholder-expanded artifact** for the **00_ROOT** plane segment.
+**Origin architect / steward:** Trang Phan  
+**Status:** `POPULATED_ARCHITECTURE`  
+**Lineage target:** `AMOS Core v4.4`  
+**Epistemic classification:** `AMOS_MODEL`  
 
-It reserves the canonical slot for the AMOS framework family named **AMOS Total Architecture**.
+---
 
-The artifact is presently:
+## 1. Executive Architectural Overview
+
+The **AMOS Total Architecture** establishes the comprehensive, mutually exclusive and collectively exhaustive (MECE) systems model for AMOS OS.
+
+The numbered planes of AMOS (`00_ROOT` through `25_COGNITIVE_MATRIX`) are **physical and operational namespaces**, not twenty-five peer cognitive systems and not a single linear call chain.
 
 ```text
-status: PLACEHOLDER_EXPANDED
-epistemic_class: AMOS_MODEL
-canonical_status: UNKNOWN/GAP
-implementation_status: NOT_ESTABLISHED
-validation_status: NOT_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
+FUNCTIONAL OWNERSHIP != PHYSICAL STORAGE
+AUTHORITY PRECEDENCE != STRUCTURAL CONTAINMENT
+RUNTIME CALL ORDER   != ONTOLOGICAL DEPENDENCE
+EVIDENCE / RECEIPT   != CAPABILITY SPECIFICATION
 ```
 
-This artifact MUST NOT be interpreted as establishing completed, validated, or enforced canon.
+The Total Architecture models governed cognitive computing across three macro-systems, six MECE functional domains, and cross-cutting substrate invariants.
 
-## 1. Governing Integrity Boundary
+---
 
-The following distinctions are mandatory:
+## 2. The Tripartite Full Brain Model
+
+The architecture separates cognition, runtime state, and physical effect governance into three distinct systems:
 
 ```text
-PLACEHOLDER != IMPLEMENTED
-
-ADDRESSABLE != VALIDATED
-
-DOCUMENTED != ENFORCED
-
-MODEL != OBSERVATION
-
-SOURCE_CLAIM != VERIFIED
-
-CANON_CANDIDATE != CANONICAL
-
-CANONICAL != EMPIRICAL_TRUTH
-
-CAPABILITY != AUTHORITY
-
-AUTHORIZATION != COMMIT
-
-PROPOSAL != COMMIT
-
-IMPLEMENTED != VALIDATED
-
-LOGGED != APPROVED
-
-UNKNOWN/GAP != PASS
+┌────────────────────────────────────────────────────────────────────────┐
+│                              AMOS BRAIN                                │
+│ Representation · Cognition · Coordination · Capability · World Models  │
+│ (05 Cognitive Organism, 25 Cognitive Matrix, 11 Knowledge, 13 Models)  │
+└───────────────────────────────────┬────────────────────────────────────┘
+                                    │ (Proposals / Inferences)
+                                    ▼
+┌────────────────────────────────────────────────────────────────────────┐
+│                             AMOS RUNTIME                               │
+│ Typed Reasoning State · RSCF Algebra · H/M/L · Memory · Replay · State │
+│     (04 Runtime, 09 Protocols, 10 Memory, 12 State, 16 Schemas)        │
+└───────────────────────────────────┬────────────────────────────────────┘
+                                    │ (Execution Batches / Transactions)
+                                    ▼
+┌────────────────────────────────────────────────────────────────────────┐
+│                          AMOS CONTROL / BODY                           │
+│ Authority Grants · Capability Leases · Semantic Commit · Gated Effects │
+│  (03 Control Plane, 14 Tools, 15 Interfaces, 18 Security, 23 Op Model) │
+└────────────────────────────────────────────────────────────────────────┘
 ```
-
-No downstream layer may silently collapse these distinctions.
-
-Origin architect / steward: **Trang Phan**
-
-System: **AMOS OS**
 
 ---
 
-# AMOS Total Architecture
+## 3. Six MECE Functional Responsibility Domains
 
-## 0. Status
+Every numbered physical plane in AMOS OS belongs to exactly **one** primary responsibility domain:
 
-`AMOS_TOTAL_ARCHITECTURE.md` is an **ADD-ONLY placeholder** for the **Root** plane segment at `00_ROOT`.
+### Domain A — Normative & Governance Definition
+*Owns:* Admitted definitions, core laws, lineage, decision rights, and organizational accountability.
+* **`01_CANON`**: Admitted laws, axioms, invariances, variable registries, glossary, and supersession.
+* **`23_OPERATING_MODEL`**: Roles, decision rights, governance forums, escalation protocols, and service levels.
+* *Explicit non-ownership:* Runtime execution, empirical validation, cognitive inference, external effects.
 
-It marks a canonical slot reserved by the AMOS canon-ingestion manifest for the framework family named above. It is NOT populated canon, NOT validated, and NOT enforced.
+### Domain B — Execution Core & Effect Governance
+*Owns:* Deterministic reasoning primitives, active execution lifecycle, and durable-effect authorization.
+* **`02_KERNEL`**: Deterministic logic kernels (QLS, ULK), algebraic state-integrity primitives.
+* **`03_CONTROL_PLANE`**: Authority enforcement, semantic transactions, commit-time revalidation, finality gates.
+* **`04_RUNTIME`**: Bounded execution lifecycle, task scheduling, replay/recovery basins, and runtime state transitions.
+* *Explicit non-ownership:* Domain-specific truth, cognitive strategy, canon creation without review.
 
-The governing boundaries are:
+### Domain C — Cognitive Capability & Orchestration
+*Owns:* Cognitive loops, specialized actor identities, capability libraries, and workflow state transitions.
+* **`05_COGNITIVE_ORGANISM`**: Persistent cognitive loops, perceptual organs, supervisory cognition, self-regulation.
+* **`06_AGENTS`**: Bounded worker, orchestrator, and auditor identities.
+* **`07_SKILLS`**: Versioned, reusable capability procedures and tool recipes.
+* **`08_WORKFLOWS`**: Multi-step process orchestration and state-machine transitions.
+* **`21_DOMAINS`**: Specialist domain taxonomy and subject-matter knowledge routing.
+* **`25_COGNITIVE_MATRIX`**: Fractal cognitive coordinate decomposition (19×19 field and scales).
+* *Explicit non-ownership:* Durable authority grants, platform-level state commit.
+
+### Domain D — Information, Memory, State & Model Substrate
+*Owns:* Persisted knowledge representations, versioned state epochs, and system simulations.
+* **`10_MEMORY`**: Governed temporal persistence, episodic/semantic retrieval, working memory buffers.
+* **`11_KNOWLEDGE`**: Cross-domain knowledge graph, research synthesis, claim networks, and arXiv integration.
+* **`12_STATE`**: Machine state snapshots, epochs, identity ledgers, and divergence trackers.
+* **`13_MODELS`**: Explicit mathematical models, causal diagrams, and simulation systems.
+* **`16_SCHEMAS`**: Canonical tensor contracts, JSON schemas, and structured record definitions.
+* *Explicit non-ownership:* Policy decision rights, truth promotion without verification.
+
+### Domain E — Interaction, Security & Effect Adapters
+*Owns:* Physical I/O adapters, component communication handoffs, and boundary defense.
+* **`09_PROTOCOLS`**: Standard communication contracts, handoff schemas, and wire protocols.
+* **`14_TOOLS`**: Concrete host tool implementations, CLI drivers, and MCP executors.
+* **`15_INTERFACES`**: Typed UI/UX surfaces, API boundaries, and multimodal interaction points.
+* **`18_SECURITY`**: Access control lists, cryptographic trust roots, credential firewalls, isolation perimeters.
+* *Explicit non-ownership:* Domain semantics, execution scheduling.
+
+### Domain F — Assurance, Learning & Lifecycle Evidence
+*Owns:* Telemetry, test harnesses, recovery operations, research acquisition, and historical archive.
+* **`17_OBSERVABILITY`**: Telemetry pipelines, distributed traces, audit logs, failure diagnostics.
+* **`19_TESTS`**: Formal test suites, regression test benches, metamorphic verification harnesses.
+* **`20_OPERATIONS`**: Runbooks, incident handling, backup procedures, maintenance schedules, audit ledgers.
+* **`22_RESEARCH`**: Active external research intake, experimental evaluation, literature benchmarks.
+* **`24_ARCHIVE`**: Historical deprecations, superseded artifacts, legacy lineages.
+* *Explicit non-ownership:* Root authority, live execution gating.
+
+---
+
+## 4. Plane Ownership Completeness Check
 
 ```text
-PLACEHOLDER != IMPLEMENTED
+Domain A: {01, 23}
+Domain B: {02, 03, 04}
+Domain C: {05, 06, 07, 08, 21, 25}
+Domain D: {10, 11, 12, 13, 16}
+Domain E: {09, 14, 15, 18}
+Domain F: {17, 19, 20, 22, 24}
 
-ADDRESSABLE != VALIDATED
-
-DOCUMENTED != ENFORCED
-
-MODEL != OBSERVATION
-
-SOURCE_CLAIM != VERIFIED
-
-CANON_CANDIDATE != CANONICAL
-
-CANONICAL != EMPIRICAL_TRUTH
-
-CAPABILITY != AUTHORITY
-
-AUTHORIZATION != COMMIT
-
-PROPOSAL != COMMIT
-
-IMPLEMENTED != VALIDATED
-
-LOGGED != APPROVED
-
-UNKNOWN/GAP != PASS
-```
-
-Origin architect / steward:
-
-**Trang Phan**
-
----
-
-## 1. Purpose
-
-This artifact reserves the **AMOS Total Architecture** slot within the Root plane. The Root plane governs vault-wide identity, architecture map, authoritative state pointers, and release governance.
-
-Substantive content (canonical definitions, laws, registries, schemas, models, or bindings) is to be populated from verified native-canon sources under the AMOS_CANON_INGESTION_RULE. This placeholder does not, by its existence, establish canon, empirical validity, or runtime enforcement.
-
----
-
-## 2. Non-Purpose
-
-This placeholder MUST NOT be used to claim:
-
-- universal laws of reality;
-- scientific proof;
-- biological truth;
-- mathematical theoremhood;
-- philosophical certainty;
-- runtime enforcement that has not been implemented;
-- final canonical status;
-- authority merely from architectural importance;
-- or successful validation merely because the slot is addressable.
-
----
-
-## 3. Ingestion Rule
-
-```yaml
-AMOS_CANON_INGESTION_RULE:
-  existing_folder:
-    preserve: true
-  existing_file:
-    preserve: true
-    overwrite: false
-  new_framework:
-    action: ADD_FILE_TO_EXISTING_FOLDER
-  master_source:
-    action: NORMALIZE_TO_RSCF_FILE
-  framework_existing_in_multiple_sources:
-    action:
-      - CREATE_ONE_CANONICAL_NODE
-      - LINK_ALL_SOURCE_PROVENANCE
-      - DO_NOT_CREATE_DUPLICATE_CANON
-  historical_source:
-    action:
-      - LINK_TO_CANON
-      - RECORD_LINEAGE
-      - PRESERVE_HERITAGE
-  external_research:
-    action:
-      - KEEP_OUT_OF_NATIVE_CANON
-      - LINK_AS_EVIDENCE
-  duplicate_filename:
-    action:
-      - COMPARE_CONTENT_AND_LINEAGE
-      - DO_NOT_OVERWRITE
-  uncertainty:
-    action:
-      - MARK_GAP_OR_COMPETING
-      - NEVER_INVENT_CANON
+Union(A..F) = {01, 02, ..., 25}  (Exhaustive)
+Intersection(Any Pair) = ∅        (Mutually Exclusive)
+00_ROOT = Meta-Plane (Root navigation, authority pointers, master index)
 ```
 
 ---
 
-## 4. Contract discipline
+## 5. Architectural Invariants
 
-Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
+Every operation touching AMOS must satisfy the ten structural invariants:
 
----
-
-## 5. Gaps
-
-Executable binding NOT_ESTABLISHED. Canonical status UNKNOWN/GAP. Substantive content pending native-canon source ingestion. Validation receipt required before promotion: [[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]].
-
----
-
-## 6. Worked semantics (target)
-
-Given an operation touching `00_ROOT · ARCHITECTURE` within the Root plane:
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-2. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-3. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-4. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-5. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-6. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
+1. **Hierarchy of Truth:** `CANON > KERNEL > CONTROL PLANE > RUNTIME > CAPABILITY > ADAPTERS`.
+2. **Authority Decoupling:** Capability does not grant authority (`CAPABILITY != AUTHORITY`).
+3. **Commit Discipline:** Proposals are non-committal until control-plane gates validate (`PROPOSAL != COMMIT`).
+4. **Epistemic Honesty:** Gaps and uncertainties are preserved explicitly (`UNKNOWN/GAP != PASS`).
+5. **Reversibility Basin:** Consequential mutations must define a rollback basin prior to execution.
+6. **Provenance Chain:** Every derived claim must trace its dependency closure back to admitted sources.
+7. **Failure Locality:** Failures in specialist cognition (Domain C) must be isolated by Runtime (Domain B).
+8. **Freshness Enforcement:** State changes invalidate stale cache records across registry surfaces.
+9. **Single Stewardship:** Trang Phan remains the sole origin architect and steward of AMOS.
+10. **Archive Preservation:** Historical lineage is never deleted; superseded versions migrate to `24_ARCHIVE`.
 
 ---
 
-## 7. Promotion-gate checklist
+## 6. Governed Retrieval Protocol
 
-- [ ] substantive content populated from verified native-canon source
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
+When traversing the AMOS Brain:
 
----
+$$\text{AUTHORITATIVE\_STATE} \longrightarrow \text{00\_ROOT\_MOC} \longrightarrow \text{Plane MOC} \longrightarrow \text{Contract} \longrightarrow \text{Detail} \longrightarrow \text{Raw Evidence}$$
 
-## 8. Cross-plane bindings (target)
-
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]|AMOS Core Laws · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
-- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
-- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
+* **H (High-level):** Resolve the primary functional domain and plane.
+* **M (Mid-level):** Inspect the plane's MOC and Contract surface.
+* **L (Low-level):** Read the minimum set of detailed notes required to satisfy the goal.
+* **Raw Evidence:** Only inspect raw empirical logs or source texts when load-bearing to the decision.
 
 ---
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+## 7. Related Master Surfaces
 
----
-
-**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+- [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC — Authoritative Structural Navigation]]
+- [[00_ROOT/AUTHORITATIVE_STATE|AUTHORITATIVE_STATE — Active Authority Pointers]]
+- [[00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE|FULL_BRAIN_OS_MECE_ARCHITECTURE — Detailed MECE Model]]
+- [[00_ROOT/PLANE_OWNERSHIP_MATRIX|PLANE_OWNERSHIP_MATRIX — Responsibility Mappings]]
+- [[00_ROOT/FULL_BRAIN_SOURCE_MAP|FULL_BRAIN_SOURCE_MAP — Provenance Master]]
+- [[00_ROOT/CONTENT_DEPTH_STANDARD|CONTENT_DEPTH_STANDARD — Artifact Quality Rules]]
+- [[01_CANON/03_COGNITION_CANON/FULL_BRAIN_OS_CANON|FULL_BRAIN_OS_CANON — Canonical Specification]]
+- [[11_KNOWLEDGE/AMOS_FULL_BRAIN_OS_ARCHITECTURE|AMOS_FULL_BRAIN_OS_ARCHITECTURE — Full Brain Knowledge Base]]
+- [[00_ROOT/ARXIV_RSCF_KNOWLEDGE_NODE|ARXIV_RSCF_KNOWLEDGE_NODE — Arvix Research Corpus (66,026 Papers)]]
 
 ---
 
 RSCF-NODE
-
 node_id: amos_00_root_amos_total_architecture
-
 node_type: architecture
-
 path: 00_ROOT/AMOS_TOTAL_ARCHITECTURE.md
-
 claim_class: AMOS_MODEL
-
-rscf_state: placeholder
-
-canonical_status: UNKNOWN/GAP
-
+rscf_state: active_specification
+canonical_status: AMOS_MODEL
 RSCF-RELATIONS:
-
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-
-  - GOVERNED_BY: [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-
----
-**MOC:** [[00_ROOT/00_COSMO_BRAIN_MOC|00_COSMO_BRAIN_MOC]]
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]
+- DERIVED_FROM: [[00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE|FULL_BRAIN_OS_MECE_ARCHITECTURE]]
+- DERIVED_FROM: [[00_ROOT/PLANE_OWNERSHIP_MATRIX|PLANE_OWNERSHIP_MATRIX]]
+- GOVERNED_BY: [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]

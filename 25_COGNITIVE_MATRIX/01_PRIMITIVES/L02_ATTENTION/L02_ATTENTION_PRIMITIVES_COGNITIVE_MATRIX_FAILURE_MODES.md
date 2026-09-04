@@ -2,14 +2,14 @@
 type: failure-mode
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION
 tags:
-- amos
-- cognitive-matrix
-- matrix/l02
-- attention
-- failure-modes
-- rscf
-- hml
-- domain/cognitive-matrix
+  - amos
+  - cognitive-matrix
+  - matrix/l02
+  - attention
+  - failure-modes
+  - rscf
+  - hml
+  - domain/cognitive-matrix
 title: L02_ATTENTION — Failure Modes
 origin_architect: Trang Phan
 status: MODEL_SPECIFICATION / UNVALIDATED
@@ -32,9 +32,9 @@ rscf:
 
 > **Canon boundary:** The recovered L02 source supports attention as allocation of scarce reasoning/observation resources. The detailed failure taxonomy below is a governed `AMOS_MODEL` completion unless a failure mode is explicitly traceable to source canon or a governing AMOS invariant.
 
----
+______________________________________________________________________
 
-# 0. Purpose
+## 0. Purpose
 
 Define how `L02_ATTENTION` can fail, how failures are detected and typed, which state becomes invalid, how failure propagates across H/M/L dependencies, and how the system repairs attention without silently converting uncertainty into success.
 
@@ -71,9 +71,9 @@ GLOBAL SYSTEM FAILURE
 
 A failure should invalidate the smallest dependency-closed region that actually depends on the failed state.
 
----
+______________________________________________________________________
 
-# 1. Source / Canon References
+## 1. Source / Canon References
 
 ## 1.1 Recovered L02 primitive
 
@@ -101,25 +101,25 @@ Applicable governing forms include:
 
 ### Hard admission
 
-[
-Admit(x)=\bigwedge_i HardInvariant_i(x)
-]
+\[
+Admit(x)=\\bigwedge_i HardInvariant_i(x)
+\]
 
 A hard invariant failure is non-compensatory.
 
 ### Confidence ceiling
 
-[
-Conf(C)\leq\min_i Conf(P_i)
-]
+\[
+Conf(C)\\leq\\min_i Conf(P_i)
+\]
 
 Failure to respect a load-bearing premise confidence ceiling constitutes confidence inflation.
 
 ### Selective invalidation
 
-[
-Invalid(p)\Rightarrow Invalidate(Descendants(p))
-]
+\[
+Invalid(p)\\Rightarrow Invalidate(Descendants(p))
+\]
 
 Failure recovery should invalidate actual dependent descendants rather than unrelated state.
 
@@ -146,9 +146,9 @@ L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_README
 L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_README
 ```
 
----
+______________________________________________________________________
 
-# 2. Definition and Scope
+## 2. Definition and Scope
 
 An `L02_ATTENTION` failure is:
 
@@ -156,19 +156,19 @@ An `L02_ATTENTION` failure is:
 
 Formally:
 
-[
-Failure_{L02}(x,t)=
-\exists I_j:
+\[
+Failure\_{L02}(x,t)=
+\\exists I_j:
 Applicable(I_j,x,t)
-\land
+\\land
 Satisfied(I_j,x,t)=0
-]
+\]
 
 or:
 
-[
-Failure_{L02}(x,t)=UNKNOWN
-]
+\[
+Failure\_{L02}(x,t)=UNKNOWN
+\]
 
 when a load-bearing condition cannot be established.
 
@@ -178,9 +178,9 @@ Hard boundary:
 UNPROVEN_VALIDITY != VALIDITY
 ```
 
----
+______________________________________________________________________
 
-# 3. Failure Classes
+## 3. Failure Classes
 
 ```yaml
 FailureClass:
@@ -209,9 +209,9 @@ FailureClass:
   - UNKNOWN_FAILURE
 ```
 
----
+______________________________________________________________________
 
-# 4. Typed Inputs
+## 4. Typed Inputs
 
 ```yaml
 AttentionFailureInput:
@@ -262,9 +262,9 @@ AttentionFailureInput:
     type: ExecutionState
 ```
 
----
+______________________________________________________________________
 
-# 5. Typed Outputs
+## 5. Typed Outputs
 
 ```yaml
 AttentionFailureResult:
@@ -328,9 +328,9 @@ AttentionFailureResult:
 
 Detection does not grant repair authority.
 
----
+______________________________________________________________________
 
-# 6. State Variables
+## 6. State Variables
 
 ```text
 X_t        attention candidate set
@@ -363,9 +363,9 @@ F_extent   affected dependency closure
 F_status   OPEN / CONTAINED / REPAIRED / UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 7. Operators
+## 7. Operators
 
 ```text
 DETECT_FAILURE()
@@ -404,9 +404,9 @@ DETECT_FAILURE()
 AUTHORIZE_REPAIR()
 ```
 
----
+______________________________________________________________________
 
-# 8. Governing Invariants
+## 8. Governing Invariants
 
 ```text
 L02-FM-INV-001
@@ -476,17 +476,17 @@ L02-FM-INV-022
 Unexecuted validation cannot be represented as successful validation.
 ```
 
----
+______________________________________________________________________
 
-# 9. Core Failure Modes
+## 9. Core Failure Modes
 
 ## FM-L02-001 — Attention Budget Overflow
 
 Condition:
 
-[
-\sum_i a_i>B_t
-]
+\[
+\\sum_i a_i>B_t
+\]
 
 Failure:
 
@@ -510,15 +510,15 @@ reduce/reprioritize allocation
 revalidate
 ```
 
----
+______________________________________________________________________
 
 ## FM-L02-002 — Negative Allocation
 
 Condition:
 
-[
-a_i<0
-]
+\[
+a_i\<0
+\]
 
 Classification:
 
@@ -532,7 +532,7 @@ restore last valid state
 recompute
 ```
 
----
+______________________________________________________________________
 
 ## FM-L02-003 — Unknown Budget Treated as Known
 
@@ -562,7 +562,7 @@ or
 operate under explicitly bounded conservative assumption
 ```
 
----
+______________________________________________________________________
 
 ## FM-L02-004 — Hard-Constraint Compensation
 
@@ -576,9 +576,9 @@ therefore admit candidate
 
 Invalid because:
 
-[
-Admit(x)=\bigwedge_i HardInvariant_i(x)
-]
+\[
+Admit(x)=\\bigwedge_i HardInvariant_i(x)
+\]
 
 Repair:
 
@@ -587,7 +587,7 @@ remove failed candidate from ordinary allocation
 resolve invariant failure separately
 ```
 
----
+______________________________________________________________________
 
 ## FM-L02-005 — Salience Capture
 
@@ -613,7 +613,7 @@ separate salience from evidence
 recalculate priority from governing variables
 ```
 
----
+______________________________________________________________________
 
 ## FM-L02-006 — Novelty Capture
 
@@ -631,7 +631,7 @@ NOVEL != TRUE
 NOVEL != IMPORTANT
 ```
 
----
+______________________________________________________________________
 
 ## FM-L02-007 — Familiarity Capture
 
@@ -649,7 +649,7 @@ multiple descendants of one source
 → false appearance of confirmation
 ```
 
----
+______________________________________________________________________
 
 ## FM-L02-008 — Threat Capture
 
@@ -667,7 +667,7 @@ However, credible high-consequence threats may legitimately receive precautionar
 
 Therefore classification may remain `CONDITIONAL`.
 
----
+______________________________________________________________________
 
 ## FM-L02-009 — Goal Drift
 
@@ -675,9 +675,9 @@ Current allocation no longer serves the governing objective.
 
 Condition:
 
-[
-Goal(A_t)\not\sim Goal_{authoritative}
-]
+\[
+Goal(A_t)\\not\\sim Goal\_{authoritative}
+\]
 
 Possible causes:
 
@@ -697,7 +697,7 @@ invalidate dependent priorities
 reallocate
 ```
 
----
+______________________________________________________________________
 
 ## FM-L02-010 — Priority Inversion
 
@@ -705,7 +705,7 @@ A lower-decision-value target consumes resources needed by a higher-priority loa
 
 Detection requires validated priority semantics; it cannot be inferred merely from disagreement.
 
----
+______________________________________________________________________
 
 ## FM-L02-011 — Critical Target Starvation
 
@@ -713,11 +713,11 @@ A valid high-criticality target receives insufficient attention.
 
 Possible condition:
 
-[
+\[
 Critical_i=1
-\land
-a_i<a_i^{minimum}
-]
+\\land
+a_i\<a_i^{minimum}
+\]
 
 where the minimum is explicitly defined.
 
@@ -729,7 +729,7 @@ use reserve capacity
 or escalate resource insufficiency
 ```
 
----
+______________________________________________________________________
 
 ## FM-L02-012 — Background Starvation
 
@@ -752,7 +752,7 @@ reserve monitoring budget
 periodic revalidation
 ```
 
----
+______________________________________________________________________
 
 ## FM-L02-013 — Attention Thrashing
 
@@ -775,7 +775,7 @@ unfinished dependency chains
 duplicated retrieval
 ```
 
----
+______________________________________________________________________
 
 ## FM-L02-014 — Premature Focus Lock
 
@@ -799,7 +799,7 @@ identify cheapest discriminating test
 reallocate
 ```
 
----
+______________________________________________________________________
 
 ## FM-L02-015 — Endless Exploration
 
@@ -820,18 +820,18 @@ collapse equivalent branches
 preserve unresolved material gaps only
 ```
 
----
+______________________________________________________________________
 
-# 10. Evidence and Epistemic Failures
+## 10. Evidence and Epistemic Failures
 
 ## FM-L02-016 — Confidence Inflation
 
 Condition:
 
-[
+\[
 Conf(C)>
-\min_i Conf(P_i)
-]
+\\min_i Conf(P_i)
+\]
 
 for load-bearing premises.
 
@@ -842,7 +842,7 @@ downgrade confidence
 or independently revalidate weakest premise
 ```
 
----
+______________________________________________________________________
 
 ## FM-L02-017 — Evidence/Attention Confusion
 
@@ -859,7 +859,7 @@ Hard boundary:
 ATTENTION != EVIDENCE
 ```
 
----
+______________________________________________________________________
 
 ## FM-L02-018 — Repetition-as-Confirmation
 
@@ -873,7 +873,7 @@ collapse correlated evidence
 recompute confidence
 ```
 
----
+______________________________________________________________________
 
 ## FM-L02-019 — Contradiction Suppression
 
@@ -889,7 +889,7 @@ preserve COMPETING
 seek discriminating evidence
 ```
 
----
+______________________________________________________________________
 
 ## FM-L02-020 — Unknown-to-Pass Collapse
 
@@ -909,9 +909,9 @@ Correct state:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 11. Dependency Failures
+## 11. Dependency Failures
 
 ## FM-L02-021 — Hidden Dependency
 
@@ -925,7 +925,7 @@ confidence ceiling may be wrong
 repair may preserve invalid descendants
 ```
 
----
+______________________________________________________________________
 
 ## FM-L02-022 — Dependency Overreach
 
@@ -933,11 +933,11 @@ Unrelated state is treated as dependent and unnecessarily invalidated.
 
 Repair principle:
 
-[
+\[
 Invalid(p)
-\Rightarrow
+\\Rightarrow
 Invalidate(Descendants(p))
-]
+\]
 
 not:
 
@@ -945,7 +945,7 @@ not:
 InvalidateEverything()
 ```
 
----
+______________________________________________________________________
 
 ## FM-L02-023 — Missing Dependency Invalidation
 
@@ -959,7 +959,7 @@ invalidate descendants
 recompute only affected allocation
 ```
 
----
+______________________________________________________________________
 
 ## FM-L02-024 — Dependency/Causality Collapse
 
@@ -971,9 +971,9 @@ Hard boundary:
 DEPENDENCY != CAUSATION
 ```
 
----
+______________________________________________________________________
 
-# 12. Provenance Failures
+## 12. Provenance Failures
 
 ## FM-L02-025 — Missing Provenance
 
@@ -987,27 +987,27 @@ QUARANTINE / UNKNOWN
 
 not automatic trust.
 
----
+______________________________________________________________________
 
 ## FM-L02-026 — Provenance Collision
 
 Different sources are incorrectly merged as one source, or one source is represented as multiple independent sources.
 
----
+______________________________________________________________________
 
 ## FM-L02-027 — Sybil Confirmation
 
 Multiple aliases, copies, summaries, or descendants of one origin appear as independent confirmation.
 
----
+______________________________________________________________________
 
 ## FM-L02-028 — Stale Provenance
 
 Source identity remains known, but applicability has expired because the underlying state changed.
 
----
+______________________________________________________________________
 
-# 13. Scope / Regime / Temporal Failures
+## 13. Scope / Regime / Temporal Failures
 
 ## FM-L02-029 — Scope Leakage
 
@@ -1022,19 +1022,19 @@ one user/context → universal
 one benchmark → general capability
 ```
 
----
+______________________________________________________________________
 
 ## FM-L02-030 — Regime Leakage
 
-Priority evidence from regime \(R_1\) is applied in \(R_2\) without compatibility validation.
+Priority evidence from regime (R_1) is applied in (R_2) without compatibility validation.
 
----
+______________________________________________________________________
 
 ## FM-L02-031 — Freshness Blindness
 
 A mutable load-bearing premise is not revalidated after its freshness envelope expires.
 
----
+______________________________________________________________________
 
 ## FM-L02-032 — Temporal Priority Error
 
@@ -1050,27 +1050,27 @@ CONSEQUENCE
 
 Both may influence attention but are separate dimensions.
 
----
+______________________________________________________________________
 
-# 14. H/M/L Failure Modes
+## 14. H/M/L Failure Modes
 
 ## FM-L02-033 — H-Level Capture
 
 High-level framing consumes attention while decisive M/L evidence remains unresolved.
 
----
+______________________________________________________________________
 
 ## FM-L02-034 — L-Level Tunnel Vision
 
 Excessive detail allocation loses the governing objective or system context.
 
----
+______________________________________________________________________
 
 ## FM-L02-035 — M-Level Bottleneck
 
 Subsystem reasoning prevents necessary escalation to H or descent to L.
 
----
+______________________________________________________________________
 
 ## FM-L02-036 — Scale Collapse
 
@@ -1084,13 +1084,13 @@ CROSS-SCALE SIMILARITY
 CROSS-SCALE VALIDITY
 ```
 
----
+______________________________________________________________________
 
 ## FM-L02-037 — Failed Upward Escalation
 
 A decisive L-level falsifier does not trigger reconsideration of its dependent H-level conclusion.
 
----
+______________________________________________________________________
 
 ## FM-L02-038 — Invalid Downward Constraint
 
@@ -1104,9 +1104,9 @@ mark H model as MODEL
 reassess dependency
 ```
 
----
+______________________________________________________________________
 
-# 15. Control-Plane Failures
+## 15. Control-Plane Failures
 
 ## FM-L02-039 — Capability/Authority Collapse
 
@@ -1123,7 +1123,7 @@ Invalid:
 CAPABILITY != AUTHORITY
 ```
 
----
+______________________________________________________________________
 
 ## FM-L02-040 — Proposal/Commit Collapse
 
@@ -1142,7 +1142,7 @@ Invalid:
 PROPOSAL != COMMIT
 ```
 
----
+______________________________________________________________________
 
 ## FM-L02-041 — Stale Authority
 
@@ -1156,13 +1156,13 @@ commit-time authority freshness
 
 for consequential effects.
 
----
+______________________________________________________________________
 
 ## FM-L02-042 — Constraint Staleness
 
 Allocation is based on constraints that changed before execution.
 
----
+______________________________________________________________________
 
 ## FM-L02-043 — Worker Self-Authorization
 
@@ -1170,9 +1170,9 @@ An L02 worker creates or broadens its own authority.
 
 Must fail closed.
 
----
+______________________________________________________________________
 
-# 16. Agent Failure Modes
+## 16. Agent Failure Modes
 
 ```text
 FM-L02-044 Agent Goal Drift
@@ -1188,9 +1188,9 @@ FM-L02-052 Agent False Completion
 
 Agents remain candidate runtime roles unless executable implementation is independently established.
 
----
+______________________________________________________________________
 
-# 17. Skill Failure Modes
+## 17. Skill Failure Modes
 
 ```text
 FM-L02-053 Wrong Skill Selection
@@ -1211,9 +1211,9 @@ SKILL OUTPUT
 VALIDATED RESULT
 ```
 
----
+______________________________________________________________________
 
-# 18. Workflow Failure Modes
+## 18. Workflow Failure Modes
 
 ```text
 FM-L02-061 Admission Check Skipped
@@ -1228,9 +1228,9 @@ FM-L02-069 Missing Stopping Condition
 FM-L02-070 Failed Repair Repeated Without New Evidence
 ```
 
----
+______________________________________________________________________
 
-# 19. Protocol Failure Modes
+## 19. Protocol Failure Modes
 
 ```text
 FM-L02-071 Missing Required Field
@@ -1247,9 +1247,9 @@ FM-L02-081 Proposal Mislabelled Commit
 FM-L02-082 UNKNOWN Mislabelled PASS
 ```
 
----
+______________________________________________________________________
 
-# 20. Failure Severity
+## 20. Failure Severity
 
 Suggested model:
 
@@ -1280,41 +1280,41 @@ FailureSeverity:
 
 Severity is not equivalent to confidence.
 
----
+______________________________________________________________________
 
-# 21. Failure Propagation
+## 21. Failure Propagation
 
 Define failed premise (p).
 
 Affected closure:
 
-[
-Affected(p)={x:p\leadsto x}
-]
+\[
+Affected(p)={x:p\\leadsto x}
+\]
 
 Then:
 
-[
+\[
 Invalid(p)
-\Rightarrow
+\\Rightarrow
 Invalidate(Affected(p))
-]
+\]
 
 while:
 
-[
-y\notin Affected(p)
-\Rightarrow
+\[
+y\\notin Affected(p)
+\\Rightarrow
 Preserve(y)
-]
+\]
 
 unless another independent failure applies.
 
 This is an `AMOS_MODEL` application of selective invalidation.
 
----
+______________________________________________________________________
 
-# 22. Failure Containment
+## 22. Failure Containment
 
 Containment protocol:
 
@@ -1338,9 +1338,9 @@ SELECT smallest sufficient repair
 
 Containment does not mean resolution.
 
----
+______________________________________________________________________
 
-# 23. Repair / Recovery
+## 23. Repair / Recovery
 
 General repair state machine:
 
@@ -1385,9 +1385,9 @@ changed assumptions,
 or changed method.
 ```
 
----
+______________________________________________________________________
 
-# 24. Repair Classes
+## 24. Repair Classes
 
 ```yaml
 RepairClass:
@@ -1421,9 +1421,9 @@ RepairClass:
       no valid repair path exists within declared authority/resources
 ```
 
----
+______________________________________________________________________
 
-# 25. Recovery Invariants
+## 25. Recovery Invariants
 
 ```text
 L02-REC-001
@@ -1457,9 +1457,9 @@ L02-REC-010
 UNKNOWN recovery status cannot be marked successful.
 ```
 
----
+______________________________________________________________________
 
-# 26. Tests / Validators
+## 26. Tests / Validators
 
 Required validators:
 
@@ -1487,9 +1487,9 @@ VALIDATE_ROLLBACK
 VALIDATE_UNAFFECTED_STATE_PRESERVATION
 ```
 
----
+______________________________________________________________________
 
-# 27. Minimum Failure Tests
+## 27. Minimum Failure Tests
 
 ```text
 TEST-L02-FM-001
@@ -1559,9 +1559,9 @@ TEST-L02-FM-022
 Unexecuted failure test cannot be reported as passed.
 ```
 
----
+______________________________________________________________________
 
-# 28. Falsifiers
+## 28. Falsifiers
 
 Revise this failure contract if direct canon establishes that:
 
@@ -1585,9 +1585,9 @@ runtime implementation demonstrates a different validated failure model
 
 Individual failure hypotheses are falsified when their triggering conditions are shown not to produce the claimed contract violation under the applicable scope/regime.
 
----
+______________________________________________________________________
 
-# 29. Competing Failure Explanations
+## 29. Competing Failure Explanations
 
 When attention behavior appears wrong, preserve at least these competing classes until evidence discriminates them:
 
@@ -1625,9 +1625,9 @@ measurement/validator is wrong
 
 Do not force convergence without discriminating evidence.
 
----
+______________________________________________________________________
 
-# 30. Cheapest Discriminating Tests
+## 30. Cheapest Discriminating Tests
 
 For apparent L02 failure, preferred diagnostic order:
 
@@ -1646,9 +1646,9 @@ For apparent L02 failure, preferred diagnostic order:
 
 This order is a model diagnostic policy, not canonical source law.
 
----
+______________________________________________________________________
 
-# 31. Control-Plane Requirements
+## 31. Control-Plane Requirements
 
 The control plane should be able to distinguish:
 
@@ -1680,9 +1680,9 @@ commit-time revalidation
 
 L02 should not own durable finalization authority merely because it detected or repaired an attention failure.
 
----
+______________________________________________________________________
 
-# 32. Agents
+## 32. Agents
 
 Candidate logical roles:
 
@@ -1705,9 +1705,9 @@ MODEL ROLES
 
 not proven runtime deployments.
 
----
+______________________________________________________________________
 
-# 33. Skills
+## 33. Skills
 
 Relevant capability mappings include:
 
@@ -1725,9 +1725,9 @@ AMOS RSCF Modeler
 
 Skill availability does not establish canonical L02 dependency.
 
----
+______________________________________________________________________
 
-# 34. Failure Workflow
+## 34. Failure Workflow
 
 ```text
 ATTENTION EVENT
@@ -1755,9 +1755,9 @@ RETEST
 RESTORE only if validation succeeds
 ```
 
----
+______________________________________________________________________
 
-# 35. Failure Protocol
+## 35. Failure Protocol
 
 ```yaml
 AttentionFailureCapsule:
@@ -1812,9 +1812,9 @@ AttentionFailureCapsule:
   confidence_ceiling: 0
 ```
 
----
+______________________________________________________________________
 
-# 36. Evidence / Provenance Requirements
+## 36. Evidence / Provenance Requirements
 
 Every consequential failure determination should retain:
 
@@ -1840,9 +1840,9 @@ falsifiers
 
 A generated description of a failure is not itself evidence that the failure occurred.
 
----
+______________________________________________________________________
 
-# 37. Uncertainty Vector
+## 37. Uncertainty Vector
 
 Recommended uncertainty dimensions:
 
@@ -1886,9 +1886,9 @@ OBSERVED AT L02
 CAUSED BY L02
 ```
 
----
+______________________________________________________________________
 
-# 38. Confidence Ceiling
+## 38. Confidence Ceiling
 
 Current confidence is bounded because:
 
@@ -1920,9 +1920,9 @@ runtime-validated:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 39. Gap Matrix
+## 39. Gap Matrix
 
 ```yaml
 gap_matrix:
@@ -1983,9 +1983,9 @@ gap_matrix:
     criticality: CRITICAL
 ```
 
----
+______________________________________________________________________
 
-# 40. RSCF Completion State
+## 40. RSCF Completion State
 
 ```yaml
 rscf:
@@ -2096,9 +2096,9 @@ rscf:
     them against this taxonomy and the L02 invariant registry
 ```
 
----
+______________________________________________________________________
 
-# 41. Completion State
+## 41. Completion State
 
 ```yaml
 completion_state:
@@ -2176,9 +2176,9 @@ completion_state:
     MODEL / CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
-# 42. Hard Boundaries
+## 42. Hard Boundaries
 
 ```text
 PLACEHOLDER != IMPLEMENTED
@@ -2230,9 +2230,9 @@ TEST DEFINED != TEST EXECUTED
 NO DETECTED FAILURE != VERIFIED CORRECTNESS
 ```
 
----
+______________________________________________________________________
 
-# 43. References
+## 43. References
 
 ```text
 PLACEHOLDER
@@ -2271,15 +2271,15 @@ Cosmo_Brain_BRIDGE_INDEX
 Cosmo_Brain_BRIDGE_INDEX
 ```
 
----
+______________________________________________________________________
 
-# 44. Governing Failure Contract
+## 44. Governing Failure Contract
 
 > **L02_ATTENTION fails when scarce reasoning/observation resources are allocated, prioritized, propagated, or acted upon in violation of applicable hard invariants, valid dependency structure, evidence/provenance requirements, scope/regime/freshness boundaries, H/M/L identity, or authority constraints. Failure detection must preserve uncertainty and competing explanations; recovery must invalidate only affected descendants, preserve unaffected valid state, and remain a proposal until separately authorized where durable effects are involved.**
 
----
+______________________________________________________________________
 
-# 45. Canon Boundary
+## 45. Canon Boundary
 
 ```text
 SOURCE-SUPPORTED:
@@ -2332,23 +2332,27 @@ EXECUTED VALIDATION
 
 ```text
 ```
----
+
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: l02_attention_primitives_cognitive_matrix_failure_modes
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION/L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_FAILURE_MODES.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION/L02_ATTENTION_MOC|L02_ATTENTION_MOC]]
-

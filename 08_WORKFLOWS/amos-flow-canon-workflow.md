@@ -1,4 +1,7 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 Type: Workflow
 Skill: amos-flow-canon
 Agent: amos-flow-canon-agent
@@ -6,9 +9,9 @@ Trigger: When analyzing how power, energy, capital, or information moves through
 Version: 1.1.0
 title: AMOS Flow Canon
 tags:
-- type/workflow
-- domain/canon-universe
-- amos-os
+  - type/workflow
+  - domain/canon-universe
+  - amos-os
 type: workflow
 source: 08_WORKFLOWS
 rscf:
@@ -29,24 +32,24 @@ rscf:
 ## Steps
 
 1. **Detect flow assertion** — Identify where a flow claim is made (throughput, transmission, conversion, power movement).
-2. **Characterize throughput** — Determine the constrained throughput rate, conversion efficiency, and capacity limits.
-3. **Detect bottleneck** — Identify the rate-limiting step or component that constrains overall throughput.
-4. **Detect leakage** — Identify dissipation points where flow is lost without productive conversion.
-5. **Analyze queue** — Characterize queue dynamics: depth, wait time, backpressure, and overflow risk.
-6. **Map to 7-Part** — Connect flow findings to Part I (Constraint: capacity limits), Part III (Structure: flow topology), Part IV (Enforcement: flow invariants).
-7. **Scale transition check** — Verify flow persistence across H/M/L scale transitions.
-8. **Finalize** — Emit flow audit with throughput, bottleneck, leakage, and queue findings.
+1. **Characterize throughput** — Determine the constrained throughput rate, conversion efficiency, and capacity limits.
+1. **Detect bottleneck** — Identify the rate-limiting step or component that constrains overall throughput.
+1. **Detect leakage** — Identify dissipation points where flow is lost without productive conversion.
+1. **Analyze queue** — Characterize queue dynamics: depth, wait time, backpressure, and overflow risk.
+1. **Map to 7-Part** — Connect flow findings to Part I (Constraint: capacity limits), Part III (Structure: flow topology), Part IV (Enforcement: flow invariants).
+1. **Scale transition check** — Verify flow persistence across H/M/L scale transitions.
+1. **Finalize** — Emit flow audit with throughput, bottleneck, leakage, and queue findings.
 
 ## Operations
 
 1. **Detect flow assertion** — Identify where a flow claim is made (throughput, transmission, conversion, power movement).
-2. **Characterize throughput** — Determine the constrained throughput rate, conversion efficiency, and capacity limits.
-3. **Detect bottleneck** — Identify the rate-limiting step or component that constrains overall throughput.
-4. **Detect leakage** — Identify dissipation points where flow is lost without productive conversion.
-5. **Analyze queue** — Characterize queue dynamics: depth, wait time, backpressure, and overflow risk.
-6. **Map to 7-Part** — Connect flow findings to Part I (Constraint: capacity limits), Part III (Structure: flow topology), Part IV (Enforcement: flow invariants).
-7. **Scale transition check** — Verify flow persistence across H/M/L scale transitions.
-8. **Finalize** — Emit flow audit with throughput, bottleneck, leakage, and queue findings.
+1. **Characterize throughput** — Determine the constrained throughput rate, conversion efficiency, and capacity limits.
+1. **Detect bottleneck** — Identify the rate-limiting step or component that constrains overall throughput.
+1. **Detect leakage** — Identify dissipation points where flow is lost without productive conversion.
+1. **Analyze queue** — Characterize queue dynamics: depth, wait time, backpressure, and overflow risk.
+1. **Map to 7-Part** — Connect flow findings to Part I (Constraint: capacity limits), Part III (Structure: flow topology), Part IV (Enforcement: flow invariants).
+1. **Scale transition check** — Verify flow persistence across H/M/L scale transitions.
+1. **Finalize** — Emit flow audit with throughput, bottleneck, leakage, and queue findings.
 
 ## Validation Gates
 

@@ -1,119 +1,119 @@
 ---
 title: TENSOR REGISTRY
 aliases:
-- Tensor Registry
-- AMOS Tensor Registry
-- Typed Tensor Registry
-- Knowledge Tensor Registry
-- AMOS Typed Knowledge Registry
+  - Tensor Registry
+  - AMOS Tensor Registry
+  - Typed Tensor Registry
+  - Knowledge Tensor Registry
+  - AMOS Typed Knowledge Registry
 tags:
-- tensor
-- tensors
-- typed-tensor
-- typed-tensors
-- tensor-schema
-- tensor-system
-- multidimensional-knowledge
-- semantic-typing
-- semantic-axis
-- typed-axis
-- knowledge
-- knowledge-model
-- knowledge-representation
-- knowledge-architecture
-- knowledge-governance
-- knowledge-integrity
-- epistemic
-- epistemic-class
-- conclusion-class
-- evidence
-- evidence-tensor
-- evidence-lineage
-- evidence-quality
-- evidence-freshness
-- provenance
-- provenance-topology
-- provenance-independence
-- ancestry
-- source
-- source-claim
-- observation
-- derived
-- model
-- claim
-- claim-tensor
-- premises
-- falsifier
-- falsifiability
-- competing-hypotheses
-- confidence
-- confidence-ceiling
-- sensitivity
-- causal-level
-- causal-firewall
-- scope
-- scope-firewall
-- regime
-- regime-firewall
-- temporal-validity
-- freshness
-- uncertainty
-- uncertainty-vector
-- consequence
-- consequence-radius
-- stakes
-- irreversibility
-- governance
-- governance-tensor
-- capability
-- authority
-- permission
-- approval
-- rollback
-- reversibility
-- mutation
-- mutation-class
-- memory
-- memory-tensor
-- memory-state
-- contradiction
-- retention
-- revalidation
-- rscf
-- rscf-tensor
-- hml
-- fractal
-- harness
-- harness-tensor
-- query
-- query-tensor
-- task
-- artifact
-- code-state
-- execution-state
-- test-state
-- tool-state
-- permission-state
-- feedback-state
-- versioning
-- state
-- status
-- runtime
-- validation
-- auditability
-- traceability
-- integrity
-- canon
-- canon/knowledge
-- vault
-- amos
-- amos-os
-- tensor-contracts
-- relation-tensor
-- amos-cross-domain-tensor-composition-governor
-- amos-simulation-kernel-v0-math-foundations
-- system-scan-agent
-- automation-profiles
+  - tensor
+  - tensors
+  - typed-tensor
+  - typed-tensors
+  - tensor-schema
+  - tensor-system
+  - multidimensional-knowledge
+  - semantic-typing
+  - semantic-axis
+  - typed-axis
+  - knowledge
+  - knowledge-model
+  - knowledge-representation
+  - knowledge-architecture
+  - knowledge-governance
+  - knowledge-integrity
+  - epistemic
+  - epistemic-class
+  - conclusion-class
+  - evidence
+  - evidence-tensor
+  - evidence-lineage
+  - evidence-quality
+  - evidence-freshness
+  - provenance
+  - provenance-topology
+  - provenance-independence
+  - ancestry
+  - source
+  - source-claim
+  - observation
+  - derived
+  - model
+  - claim
+  - claim-tensor
+  - premises
+  - falsifier
+  - falsifiability
+  - competing-hypotheses
+  - confidence
+  - confidence-ceiling
+  - sensitivity
+  - causal-level
+  - causal-firewall
+  - scope
+  - scope-firewall
+  - regime
+  - regime-firewall
+  - temporal-validity
+  - freshness
+  - uncertainty
+  - uncertainty-vector
+  - consequence
+  - consequence-radius
+  - stakes
+  - irreversibility
+  - governance
+  - governance-tensor
+  - capability
+  - authority
+  - permission
+  - approval
+  - rollback
+  - reversibility
+  - mutation
+  - mutation-class
+  - memory
+  - memory-tensor
+  - memory-state
+  - contradiction
+  - retention
+  - revalidation
+  - rscf
+  - rscf-tensor
+  - hml
+  - fractal
+  - harness
+  - harness-tensor
+  - query
+  - query-tensor
+  - task
+  - artifact
+  - code-state
+  - execution-state
+  - test-state
+  - tool-state
+  - permission-state
+  - feedback-state
+  - versioning
+  - state
+  - status
+  - runtime
+  - validation
+  - auditability
+  - traceability
+  - integrity
+  - canon
+  - canon/knowledge
+  - vault
+  - amos
+  - amos-os
+  - tensor-contracts
+  - relation-tensor
+  - amos-cross-domain-tensor-composition-governor
+  - amos-simulation-kernel-v0-math-foundations
+  - system-scan-agent
+  - automation-profiles
 type: document
 source: 11_KNOWLEDGE/root
 path: 11_KNOWLEDGE/TENSOR_REGISTRY.md
@@ -129,18 +129,18 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
   provenance:
-  - AMOS_corpus
-  - 11_KNOWLEDGE/TENSOR_REGISTRY.md
+    - AMOS_corpus
+    - 11_KNOWLEDGE/TENSOR_REGISTRY.md
   scope:
-  - AMOS_knowledge
-  - tensor_registry
-  - typed_knowledge
-  - evidence
-  - claims
-  - reasoning
-  - governance
-  - memory
-  - execution_context
+    - AMOS_knowledge
+    - tensor_registry
+    - typed_knowledge
+    - evidence
+    - claims
+    - reasoning
+    - governance
+    - memory
+    - execution_context
   confidence_ceiling:
     registry_signatures: SOURCE_GROUNDED
     field_semantics: AMOS_MODEL
@@ -151,9 +151,9 @@ raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
 
 # TENSOR REGISTRY
 
-> **Source note**: The current Drive source confirms the seven registry contracts exactly as you supplied—`HARNESS`, `QUERY`, `EVIDENCE`, `CLAIM`, `RSCF`, `GOVERNANCE`, and `MEMORY`—but its metadata currently has only `tags: [tensor]`.  Below is a **filled, heavily tagged, source-preserving registry page**. The origin...
+> **Source note**: The current Drive source confirms the seven registry contracts exactly as you supplied—`HARNESS`, `QUERY`, `EVIDENCE`, `CLAIM`, `RSCF`, `GOVERNANCE`, and `MEMORY`—but its metadata currently has only `tags: [tensor]`. Below is a **filled, heavily tagged, source-preserving registry page**. The origin...
 
-# TENSOR REGISTRY — part 2
+## TENSOR REGISTRY — part 2
 
 ## 0. Purpose
 
@@ -191,9 +191,9 @@ TENSOR TYPE
 DECLARED SEMANTIC CONTRACT
 ```
 
----
+______________________________________________________________________
 
-# 1. Canonical Registry
+## 1. Canonical Registry
 
 ```text
 HARNESS[
@@ -224,6 +224,7 @@ QUERY[
   uncertainty
 ]
 ```
+
 ```text
 EVIDENCE[
   id,
@@ -244,6 +245,7 @@ EVIDENCE[
   license
 ]
 ```
+
 ```text
 CLAIM[
   id,
@@ -263,6 +265,7 @@ CLAIM[
   consequence
 ]
 ```
+
 ```text
 RSCF[
   id,
@@ -278,6 +281,7 @@ RSCF[
   status
 ]
 ```
+
 ```text
 GOVERNANCE[
   action,
@@ -291,6 +295,7 @@ GOVERNANCE[
   mutation_class
 ]
 ```
+
 ```text
 MEMORY[
   item_id,
@@ -304,13 +309,14 @@ MEMORY[
   revalidation_epoch
 ]
 ```
+
 These signatures are source-grounded.
 
 Their expanded operational semantics below are normalized AMOS-model descriptions unless separately established by a more specific governing source.
 
----
+______________________________________________________________________
 
-# 2. Registry Law
+## 2. Registry Law
 
 Each registered tensor owns a distinct semantic responsibility.
 
@@ -346,9 +352,9 @@ TENSOR_REGISTRY:
       persistent_knowledge_state
 ```
 
----
+______________________________________________________________________
 
-# 3. Typed-Axis Law
+## 3. Typed-Axis Law
 
 Tensor axes are typed.
 
@@ -376,9 +382,9 @@ even where two fields may interact.
 
 Similar names or values do not prove semantic equivalence.
 
----
+______________________________________________________________________
 
-# 4. Non-Interchangeability
+## 4. Non-Interchangeability
 
 For tensor:
 
@@ -402,9 +408,9 @@ Axis position alone is insufficient.
 
 Axis meaning is load-bearing.
 
----
+______________________________________________________________________
 
-# 5. Registry Integrity Law
+## 5. Registry Integrity Law
 
 A registered tensor must preserve:
 
@@ -428,9 +434,9 @@ VERSION WHERE REQUIRED
 
 The registry must not manufacture missing axis values.
 
----
+______________________________________________________________________
 
-# 6. UNKNOWN Preservation
+## 6. UNKNOWN Preservation
 
 Unknown tensor state must remain explicit.
 
@@ -472,9 +478,9 @@ authority: APPROVED
 
 without evidence.
 
----
+______________________________________________________________________
 
-# 7. Tensor Identity
+## 7. Tensor Identity
 
 Conceptually:
 
@@ -496,9 +502,9 @@ $$
 
 Two tensors containing identical scalar values may still represent different knowledge objects.
 
----
+______________________________________________________________________
 
-# 8. HARNESS Tensor
+## 8. HARNESS Tensor
 
 ## 8.1 Canonical Signature
 
@@ -520,9 +526,9 @@ HARNESS[
 
 The HARNESS tensor represents the integrated execution context surrounding a task or artifact.
 
----
+______________________________________________________________________
 
-# 9. HARNESS Field Contract
+## 9. HARNESS Field Contract
 
 ```yaml
 HARNESS:
@@ -572,9 +578,9 @@ HARNESS:
       overall harness state
 ```
 
----
+______________________________________________________________________
 
-# 10. HARNESS Separation Law
+## 10. HARNESS Separation Law
 
 The HARNESS tensor prevents these dimensions from collapsing:
 
@@ -600,9 +606,9 @@ ARTIFACT CREATED
 ARTIFACT VALIDATED
 ```
 
----
+______________________________________________________________________
 
-# 11. HARNESS Example
+## 11. HARNESS Example
 
 ```yaml
 HARNESS:
@@ -641,9 +647,9 @@ HARNESS:
     REVIEW
 ```
 
----
+______________________________________________________________________
 
-# 12. HARNESS Failure Conditions
+## 12. HARNESS Failure Conditions
 
 Potential failure states include:
 
@@ -669,9 +675,9 @@ STATUS_CONFLICT
 
 Exact runtime enums are not established by the registry source.
 
----
+______________________________________________________________________
 
-# 13. QUERY Tensor
+## 13. QUERY Tensor
 
 ## 13.1 Canonical Signature
 
@@ -691,9 +697,9 @@ QUERY[
 
 The QUERY tensor represents the decision-relevant context of a reasoning request.
 
----
+______________________________________________________________________
 
-# 14. QUERY Field Contract
+## 14. QUERY Field Contract
 
 ```yaml
 QUERY:
@@ -735,9 +741,9 @@ QUERY:
       unresolved uncertainty affecting reasoning
 ```
 
----
+______________________________________________________________________
 
-# 15. QUERY Objective
+## 15. QUERY Objective
 
 The `objective` axis answers:
 
@@ -769,9 +775,9 @@ retrieve
 
 These are illustrative, not an exhaustive canonical enum.
 
----
+______________________________________________________________________
 
-# 16. QUERY Domain
+## 16. QUERY Domain
 
 The `domain` axis prevents silent transfer between incompatible knowledge environments.
 
@@ -783,9 +789,9 @@ VALID IN DOMAIN B
 
 unless an explicit bridge is established.
 
----
+______________________________________________________________________
 
-# 17. QUERY Stakes
+## 17. QUERY Stakes
 
 `stakes` represents the cost or significance of an incorrect result.
 
@@ -801,9 +807,9 @@ HIGH STAKES
 
 This is an AMOS governance model, not a universal quantitative formula.
 
----
+______________________________________________________________________
 
-# 18. QUERY Irreversibility
+## 18. QUERY Irreversibility
 
 `irreversibility` distinguishes:
 
@@ -819,9 +825,9 @@ DIFFICULT OR IMPOSSIBLE TO REVERSE
 
 Higher irreversibility increases the need for validation before action.
 
----
+______________________________________________________________________
 
-# 19. QUERY Freshness Need
+## 19. QUERY Freshness Need
 
 Different questions require different evidence freshness.
 
@@ -845,9 +851,9 @@ FRESHNESS REQUIREMENT
 QUERY DEPENDENT
 ```
 
----
+______________________________________________________________________
 
-# 20. QUERY Consequence Radius
+## 20. QUERY Consequence Radius
 
 `consequence_radius` describes the potential downstream impact of a result or action.
 
@@ -863,9 +869,9 @@ SYSTEMIC
 
 Exact thresholds require a governing policy.
 
----
+______________________________________________________________________
 
-# 21. QUERY Scale
+## 21. QUERY Scale
 
 The query may operate at:
 
@@ -879,9 +885,9 @@ or another declared scale.
 
 Cross-scale answers must not silently assume identical mechanism.
 
----
+______________________________________________________________________
 
-# 22. QUERY Time Horizon
+## 22. QUERY Time Horizon
 
 Examples:
 
@@ -901,9 +907,9 @@ open-ended
 
 The registry does not establish an authoritative enum.
 
----
+______________________________________________________________________
 
-# 23. QUERY Uncertainty
+## 23. QUERY Uncertainty
 
 The `uncertainty` field may represent unresolved uncertainty affecting answer sufficiency.
 
@@ -927,9 +933,9 @@ provenance-independence
 
 where relevant.
 
----
+______________________________________________________________________
 
-# 24. QUERY Example
+## 24. QUERY Example
 
 ```yaml
 QUERY:
@@ -962,9 +968,9 @@ QUERY:
     test_coverage_unknown
 ```
 
----
+______________________________________________________________________
 
-# 25. EVIDENCE Tensor
+## 25. EVIDENCE Tensor
 
 ## 25.1 Canonical Signature
 
@@ -991,9 +997,9 @@ EVIDENCE[
 
 The EVIDENCE tensor preserves the state, applicability, ancestry, and governance properties of evidence.
 
----
+______________________________________________________________________
 
-# 26. EVIDENCE Field Contract
+## 26. EVIDENCE Field Contract
 
 ```yaml
 EVIDENCE:
@@ -1063,9 +1069,9 @@ EVIDENCE:
       use / distribution constraints where applicable
 ```
 
----
+______________________________________________________________________
 
-# 27. Evidence Identity
+## 27. Evidence Identity
 
 Evidence identity is not merely its textual content.
 
@@ -1091,9 +1097,9 @@ Regime
 Ancestry
 $$
 
----
+______________________________________________________________________
 
-# 28. Source vs Source Type
+## 28. Source vs Source Type
 
 ```text
 source
@@ -1119,9 +1125,9 @@ source_type:
 
 The classification does not replace the source identity.
 
----
+______________________________________________________________________
 
-# 29. Claim Support
+## 29. Claim Support
 
 `claim_support` records what proposition the evidence bears upon.
 
@@ -1141,9 +1147,9 @@ FAIL_TO_DISCRIMINATE
 
 The precise registry of relation states remains source-dependent.
 
----
+______________________________________________________________________
 
-# 30. Observation Method
+## 30. Observation Method
 
 The `observation_method` axis prevents measurements made through different methods from being treated as automatically equivalent.
 
@@ -1155,9 +1161,9 @@ METHOD B
 
 even where both produce the same numeric result.
 
----
+______________________________________________________________________
 
-# 31. Evidence Environment
+## 31. Evidence Environment
 
 Evidence validity may depend on environment.
 
@@ -1171,9 +1177,9 @@ $$
 
 without revalidation.
 
----
+______________________________________________________________________
 
-# 32. Evidence Scope
+## 32. Evidence Scope
 
 Scope may include:
 
@@ -1195,9 +1201,9 @@ assumptions
 
 where applicable.
 
----
+______________________________________________________________________
 
-# 33. Evidence Regime
+## 33. Evidence Regime
 
 Evidence must retain its epistemic regime.
 
@@ -1215,9 +1221,9 @@ SPECULATIVE
 
 where the governing regime registry supports them.
 
----
+______________________________________________________________________
 
-# 34. Evidence Ancestry
+## 34. Evidence Ancestry
 
 `ancestry` records source lineage.
 
@@ -1233,9 +1239,9 @@ SOURCE S
 
 A, B, and C do not automatically constitute three independent confirmations.
 
----
+______________________________________________________________________
 
-# 35. Independence Group
+## 35. Independence Group
 
 `independence_group` provides an explicit mechanism for detecting correlated evidence.
 
@@ -1254,9 +1260,9 @@ COUNT(EVIDENCE ITEMS)
 COUNT(INDEPENDENT SOURCES)
 ```
 
----
+______________________________________________________________________
 
-# 36. Evidence Quality
+## 36. Evidence Quality
 
 `quality` may reflect source-specific validation criteria.
 
@@ -1270,9 +1276,9 @@ UNIVERSALLY TRUE
 
 Quality is only one dimension.
 
----
+______________________________________________________________________
 
-# 37. Evidence Freshness
+## 37. Evidence Freshness
 
 Evidence can become stale while remaining historically accurate.
 
@@ -1282,9 +1288,9 @@ HISTORICALLY VALID
 CURRENTLY DECISION-SUFFICIENT
 ```
 
----
+______________________________________________________________________
 
-# 38. Evidence Revocation
+## 38. Evidence Revocation
 
 `revocation` prevents invalidated evidence from silently remaining active.
 
@@ -1304,9 +1310,9 @@ UNKNOWN
 
 may be relevant states, but exact enums require governing canon.
 
----
+______________________________________________________________________
 
-# 39. Evidence License
+## 39. Evidence License
 
 The `license` axis preserves legal or governance constraints on evidence use.
 
@@ -1316,9 +1322,9 @@ AVAILABLE TO READ
 AUTHORIZED FOR ALL USES
 ```
 
----
+______________________________________________________________________
 
-# 40. EVIDENCE Example
+## 40. EVIDENCE Example
 
 ```yaml
 EVIDENCE:
@@ -1372,9 +1378,9 @@ EVIDENCE:
     LICENSE_L
 ```
 
----
+______________________________________________________________________
 
-# 41. CLAIM Tensor
+## 41. CLAIM Tensor
 
 ## 41.1 Canonical Signature
 
@@ -1400,9 +1406,9 @@ CLAIM[
 
 The CLAIM tensor represents an epistemically typed proposition and its validity envelope.
 
----
+______________________________________________________________________
 
-# 42. CLAIM Field Contract
+## 42. CLAIM Field Contract
 
 ```yaml
 CLAIM:
@@ -1468,9 +1474,9 @@ CLAIM:
       impact of using the claim
 ```
 
----
+______________________________________________________________________
 
-# 43. Epistemic Class
+## 43. Epistemic Class
 
 Relevant AMOS evidence classes include:
 
@@ -1492,9 +1498,9 @@ where applicable.
 
 Epistemic classes must not be silently promoted.
 
----
+______________________________________________________________________
 
-# 44. Conclusion Class
+## 44. Conclusion Class
 
 AMOS conclusion classes include:
 
@@ -1514,9 +1520,9 @@ UNKNOWN/GAP
 
 Use the weakest accurate class.
 
----
+______________________________________________________________________
 
-# 45. Premise Law
+## 45. Premise Law
 
 A claim depends on its load-bearing premises.
 
@@ -1535,9 +1541,9 @@ ONLY DEPENDENT CLAIMS
 
 where dependency topology is known.
 
----
+______________________________________________________________________
 
-# 46. Evidence References
+## 46. Evidence References
 
 `evidence_refs` links claims to evidence tensors.
 
@@ -1549,9 +1555,9 @@ EVIDENCE E2 ─┘
 
 This permits evidence revocation to propagate selectively.
 
----
+______________________________________________________________________
 
-# 47. Claim Scope
+## 47. Claim Scope
 
 Claims inherit an applicability envelope.
 
@@ -1561,9 +1567,9 @@ VALID HERE
 VALID EVERYWHERE
 ```
 
----
+______________________________________________________________________
 
-# 48. Claim Regime
+## 48. Claim Regime
 
 A claim established in:
 
@@ -1577,9 +1583,9 @@ cannot silently become:
 EMPIRICAL VERIFIED
 ```
 
----
+______________________________________________________________________
 
-# 49. Temporal Validity
+## 49. Temporal Validity
 
 Claims may expire.
 
@@ -1595,9 +1601,9 @@ TRUE AT T2
 
 especially when environment or system state changes.
 
----
+______________________________________________________________________
 
-# 50. Causal Level
+## 50. Causal Level
 
 The causal axis should distinguish at minimum conceptually:
 
@@ -1623,9 +1629,9 @@ feedback
 
 where supported.
 
----
+______________________________________________________________________
 
-# 51. Causal Firewall
+## 51. Causal Firewall
 
 ```text
 SEQUENCE
@@ -1645,9 +1651,9 @@ STRUCTURAL SIMILARITY
 CAUSATION
 ```
 
----
+______________________________________________________________________
 
-# 52. Competing Set
+## 52. Competing Set
 
 When viable alternatives remain:
 
@@ -1659,9 +1665,9 @@ competing_set:
 
 the claim must not be forced into false convergence.
 
----
+______________________________________________________________________
 
-# 53. Falsifiers
+## 53. Falsifiers
 
 A claim should expose what could invalidate it.
 
@@ -1677,9 +1683,9 @@ falsifiers:
 
 These are illustrative.
 
----
+______________________________________________________________________
 
-# 54. Sensitivity
+## 54. Sensitivity
 
 `sensitivity` identifies how easily a conclusion changes when assumptions change.
 
@@ -1700,9 +1706,9 @@ CONDITIONAL
 
 classification.
 
----
+______________________________________________________________________
 
-# 55. Confidence Ceiling
+## 55. Confidence Ceiling
 
 Core AMOS constraint:
 
@@ -1714,9 +1720,9 @@ $$
 
 unless independent revalidation supports a stronger ceiling.
 
----
+______________________________________________________________________
 
-# 56. Consequence
+## 56. Consequence
 
 A claim with large downstream consequence requires stronger validation before action.
 
@@ -1732,9 +1738,9 @@ CONSEQUENCE
 
 are separate axes.
 
----
+______________________________________________________________________
 
-# 57. CLAIM Example
+## 57. CLAIM Example
 
 ```yaml
 CLAIM:
@@ -1787,9 +1793,9 @@ CLAIM:
     MEDIUM
 ```
 
----
+______________________________________________________________________
 
-# 58. RSCF Tensor
+## 58. RSCF Tensor
 
 ## 58.1 Canonical Signature
 
@@ -1811,9 +1817,9 @@ RSCF[
 
 The RSCF tensor represents a compact recursive structured state associated with AMOS reasoning and knowledge organization.
 
----
+______________________________________________________________________
 
-# 59. RSCF Field Contract
+## 59. RSCF Field Contract
 
 ```yaml
 RSCF:
@@ -1863,9 +1869,9 @@ RSCF:
       current lifecycle / validity state
 ```
 
----
+______________________________________________________________________
 
-# 60. H/M/L Axis
+## 60. H/M/L Axis
 
 The RSCF tensor explicitly carries:
 
@@ -1885,9 +1891,9 @@ L = local/detail level
 
 Cross-level mappings require explicit validation.
 
----
+______________________________________________________________________
 
-# 61. Recursive Structure
+## 61. Recursive Structure
 
 Conceptually:
 
@@ -1903,9 +1909,9 @@ RSCF-H
 
 A parent conclusion must not silently exceed the support of its load-bearing descendants.
 
----
+______________________________________________________________________
 
-# 62. RSCF Provenance
+## 62. RSCF Provenance
 
 Every consequential RSCF should preserve recoverable provenance.
 
@@ -1916,9 +1922,9 @@ RSCF
 
 where applicable.
 
----
+______________________________________________________________________
 
-# 63. RSCF Confidence
+## 63. RSCF Confidence
 
 `confidence` does not override:
 
@@ -1936,9 +1942,9 @@ falsifier
 
 A high-confidence RSCF outside its valid regime is not automatically usable.
 
----
+______________________________________________________________________
 
-# 64. RSCF Falsifier
+## 64. RSCF Falsifier
 
 The `falsifier` axis allows selective invalidation.
 
@@ -1952,9 +1958,9 @@ INVALIDATE DEPENDENT DESCENDANTS
 
 Unaffected independent branches remain intact.
 
----
+______________________________________________________________________
 
-# 65. RSCF Example
+## 65. RSCF Example
 
 ```yaml
 RSCF:
@@ -1994,9 +2000,9 @@ RSCF:
     ACTIVE
 ```
 
----
+______________________________________________________________________
 
-# 66. GOVERNANCE Tensor
+## 66. GOVERNANCE Tensor
 
 ## 66.1 Canonical Signature
 
@@ -2016,9 +2022,9 @@ GOVERNANCE[
 
 The GOVERNANCE tensor separates ability to act from authorization and risk.
 
----
+______________________________________________________________________
 
-# 67. GOVERNANCE Field Contract
+## 67. GOVERNANCE Field Contract
 
 ```yaml
 GOVERNANCE:
@@ -2060,9 +2066,9 @@ GOVERNANCE:
       type/severity of state change
 ```
 
----
+______________________________________________________________________
 
-# 68. Capability / Authority Law
+## 68. Capability / Authority Law
 
 $$
 Capability
@@ -2082,9 +2088,9 @@ does not mean:
 MAY EXECUTE
 ```
 
----
+______________________________________________________________________
 
-# 69. Authority / Approval Law
+## 69. Authority / Approval Law
 
 Likewise:
 
@@ -2100,9 +2106,9 @@ REQUIRED APPROVAL COMPLETED
 
 These states remain separate.
 
----
+______________________________________________________________________
 
-# 70. Consequence Radius
+## 70. Consequence Radius
 
 Examples conceptually:
 
@@ -2120,9 +2126,9 @@ IRREVERSIBLE_EXTERNAL
 
 Exact canonical categories are not established here.
 
----
+______________________________________________________________________
 
-# 71. Reversibility
+## 71. Reversibility
 
 Reversibility influences action governance.
 
@@ -2136,9 +2142,9 @@ HIGH CONSEQUENCE
 STRONGER VALIDATION REQUIREMENT
 ```
 
----
+______________________________________________________________________
 
-# 72. Rollback
+## 72. Rollback
 
 Rollback state should identify whether a known recovery path exists.
 
@@ -2152,9 +2158,9 @@ must not be interpreted as:
 ROLLBACK AVAILABLE
 ```
 
----
+______________________________________________________________________
 
-# 73. Evidence Threshold
+## 73. Evidence Threshold
 
 The evidence required for execution should scale with consequence and irreversibility.
 
@@ -2180,9 +2186,9 @@ $$
 
 This is a governance heuristic/model rather than an empirical universal equation.
 
----
+______________________________________________________________________
 
-# 74. Mutation Class
+## 74. Mutation Class
 
 `mutation_class` identifies the kind of state transition being requested.
 
@@ -2206,9 +2212,9 @@ GOVERNANCE_CHANGE
 
 The authoritative enum requires a specific governance schema.
 
----
+______________________________________________________________________
 
-# 75. GOVERNANCE Example
+## 75. GOVERNANCE Example
 
 ```yaml
 GOVERNANCE:
@@ -2249,9 +2255,9 @@ DO NOT EXECUTE YET
 
 because approval remains pending.
 
----
+______________________________________________________________________
 
-# 76. MEMORY Tensor
+## 76. MEMORY Tensor
 
 ## 76.1 Canonical Signature
 
@@ -2271,9 +2277,9 @@ MEMORY[
 
 The MEMORY tensor represents persistent knowledge state while preserving validity and lineage metadata.
 
----
+______________________________________________________________________
 
-# 77. MEMORY Field Contract
+## 77. MEMORY Field Contract
 
 ```yaml
 MEMORY:
@@ -2315,9 +2321,9 @@ MEMORY:
       point at which validity should be rechecked
 ```
 
----
+______________________________________________________________________
 
-# 78. Memory Is Not Truth
+## 78. Memory Is Not Truth
 
 Core firewall:
 
@@ -2337,9 +2343,9 @@ VALIDATED
 
 Memory persistence does not upgrade epistemic class.
 
----
+______________________________________________________________________
 
-# 79. Memory Content Class
+## 79. Memory Content Class
 
 A memory item should preserve whether its content is:
 
@@ -2359,9 +2365,9 @@ UNKNOWN
 
 where applicable.
 
----
+______________________________________________________________________
 
-# 80. Memory Provenance
+## 80. Memory Provenance
 
 Persistent memory should retain recoverable source ancestry.
 
@@ -2373,9 +2379,9 @@ PROVENANCE
 
 is stronger than storing content without origin.
 
----
+______________________________________________________________________
 
-# 81. Memory Dependencies
+## 81. Memory Dependencies
 
 Example:
 
@@ -2388,9 +2394,9 @@ MEMORY M3
 
 If E2 is revoked, M3 may require revalidation.
 
----
+______________________________________________________________________
 
-# 82. Memory Freshness
+## 82. Memory Freshness
 
 Possible conceptual states:
 
@@ -2408,9 +2414,9 @@ UNKNOWN
 
 Exact runtime enums are not established by the source.
 
----
+______________________________________________________________________
 
-# 83. Contradiction State
+## 83. Contradiction State
 
 Memory should preserve unresolved conflict.
 
@@ -2430,9 +2436,9 @@ PRESERVE CONTRADICTION
 
 rather than overwrite one item solely for consistency.
 
----
+______________________________________________________________________
 
-# 84. Retention Class
+## 84. Retention Class
 
 `retention_class` determines how memory should persist.
 
@@ -2454,9 +2460,9 @@ REVOKED
 
 These are normalized possibilities, not established canonical enums.
 
----
+______________________________________________________________________
 
-# 85. Revalidation Epoch
+## 85. Revalidation Epoch
 
 A persistent item may carry:
 
@@ -2466,9 +2472,9 @@ revalidation_epoch
 
 to determine when it must be checked against newer evidence or changed regimes.
 
----
+______________________________________________________________________
 
-# 86. MEMORY Example
+## 86. MEMORY Example
 
 ```yaml
 MEMORY:
@@ -2501,9 +2507,9 @@ MEMORY:
     EPOCH-12
 ```
 
----
+______________________________________________________________________
 
-# 87. Tensor Relationship Map
+## 87. Tensor Relationship Map
 
 ```text
 QUERY
@@ -2542,9 +2548,9 @@ This diagram is an AMOS-model integration view.
 
 It does not assert that every implementation must execute tensors in this exact sequence.
 
----
+______________________________________________________________________
 
-# 88. Query → Evidence
+## 88. Query → Evidence
 
 The query determines what evidence is decision-relevant.
 
@@ -2562,9 +2568,9 @@ EVIDENCE.freshness
 
 A freshness mismatch may make otherwise valid evidence insufficient.
 
----
+______________________________________________________________________
 
-# 89. Evidence → Claim
+## 89. Evidence → Claim
 
 Evidence tensors support claim tensors through:
 
@@ -2574,9 +2580,9 @@ CLAIM.evidence_refs
 
 This creates a provenance-preserving dependency.
 
----
+______________________________________________________________________
 
-# 90. Claim → RSCF
+## 90. Claim → RSCF
 
 Claims may be embedded or referenced by:
 
@@ -2604,9 +2610,9 @@ falsifier
 status
 ```
 
----
+______________________________________________________________________
 
-# 91. Claim → Governance
+## 91. Claim → Governance
 
 A claim may inform action, but:
 
@@ -2618,9 +2624,9 @@ AUTHORIZED ACTION
 
 The governance tensor remains independently required where action governance applies.
 
----
+______________________________________________________________________
 
-# 92. Governance → Harness
+## 92. Governance → Harness
 
 Governance state may constrain:
 
@@ -2634,9 +2640,9 @@ Governance describes action authority structure.
 
 Harness permission state describes execution-context permission status.
 
----
+______________________________________________________________________
 
-# 93. RSCF → Memory
+## 93. RSCF → Memory
 
 Validated or retained RSCF state may become persistent memory.
 
@@ -2650,9 +2656,9 @@ CANONICAL PROMOTION
 
 Memory class and provenance must remain intact.
 
----
+______________________________________________________________________
 
-# 94. Memory → Future Query
+## 94. Memory → Future Query
 
 Persistent memory may inform later reasoning.
 
@@ -2674,9 +2680,9 @@ regime
 
 where relevant.
 
----
+______________________________________________________________________
 
-# 95. Cross-Tensor Compatibility
+## 95. Cross-Tensor Compatibility
 
 Tensor composition requires semantic compatibility.
 
@@ -2700,9 +2706,9 @@ RSCF.status
 
 may both be called `status`, but they refer to different objects.
 
----
+______________________________________________________________________
 
-# 96. Shared Axis Compatibility
+## 96. Shared Axis Compatibility
 
 Fields that appear across multiple tensors include:
 
@@ -2724,9 +2730,9 @@ status
 
 Their semantic compatibility must be established before composition.
 
----
+______________________________________________________________________
 
-# 97. Provenance Topology
+## 97. Provenance Topology
 
 The registry enables provenance topology such as:
 
@@ -2744,9 +2750,9 @@ MEMORY
 
 A derived memory item remains connected to its source ancestry.
 
----
+______________________________________________________________________
 
-# 98. Provenance Independence
+## 98. Provenance Independence
 
 If:
 
@@ -2772,9 +2778,9 @@ EvidenceCount
 IndependentEvidenceCount
 $$
 
----
+______________________________________________________________________
 
-# 99. Epistemic Promotion Firewall
+## 99. Epistemic Promotion Firewall
 
 Forbidden transition:
 
@@ -2802,9 +2808,9 @@ EMPIRICAL FACT
 
 Promotion requires appropriate new evidence.
 
----
+______________________________________________________________________
 
-# 100. Scope Firewall
+## 100. Scope Firewall
 
 For any tensor:
 
@@ -2816,9 +2822,9 @@ $$
 
 without a supported bridge.
 
----
+______________________________________________________________________
 
-# 101. Regime Firewall
+## 101. Regime Firewall
 
 For any tensor:
 
@@ -2830,9 +2836,9 @@ $$
 
 without revalidation or an explicit regime bridge.
 
----
+______________________________________________________________________
 
-# 102. Temporal Firewall
+## 102. Temporal Firewall
 
 ```text
 VALID AT T1
@@ -2846,9 +2852,9 @@ VALID AT T2
 
 Freshness and temporal validity remain load-bearing.
 
----
+______________________________________________________________________
 
-# 103. Causal Firewall
+## 103. Causal Firewall
 
 The registry does not allow causal strength to be manufactured through composition.
 
@@ -2866,9 +2872,9 @@ does not automatically produce:
 CAUSAL_EFFECT
 ```
 
----
+______________________________________________________________________
 
-# 104. Confidence Firewall
+## 104. Confidence Firewall
 
 A numerical confidence field cannot override evidence quality or provenance.
 
@@ -2882,9 +2888,9 @@ $$
 
 unless independently revalidated.
 
----
+______________________________________________________________________
 
-# 105. Tensor Composition
+## 105. Tensor Composition
 
 Conceptually:
 
@@ -2912,9 +2918,9 @@ EPISTEMIC CLASS PRESERVATION
 
 where relevant.
 
----
+______________________________________________________________________
 
-# 106. Composition Result
+## 106. Composition Result
 
 Possible governed outcomes:
 
@@ -2930,9 +2936,9 @@ UNKNOWN/GAP
 
 The exact runtime representation remains implementation-dependent.
 
----
+______________________________________________________________________
 
-# 107. Tensor Dependency Graph
+## 107. Tensor Dependency Graph
 
 Example:
 
@@ -2953,9 +2959,9 @@ EVIDENCE E2 ─┘        │
                          HARNESS H1
 ```
 
----
+______________________________________________________________________
 
-# 108. Selective Invalidation
+## 108. Selective Invalidation
 
 If:
 
@@ -2979,9 +2985,9 @@ dependent objects require re-evaluation.
 
 Independent branches should remain valid where independence is established.
 
----
+______________________________________________________________________
 
-# 109. Contradiction Preservation
+## 109. Contradiction Preservation
 
 Suppose:
 
@@ -3001,9 +3007,9 @@ COMPETING
 
 rather than force convergence.
 
----
+______________________________________________________________________
 
-# 110. Cheapest Discriminating Test
+## 110. Cheapest Discriminating Test
 
 When competing tensors exist, prefer evidence that can distinguish between them.
 
@@ -3020,9 +3026,9 @@ C
 
 This is more informative than accumulating redundant evidence from the same ancestry.
 
----
+______________________________________________________________________
 
-# 111. Sensitivity Propagation
+## 111. Sensitivity Propagation
 
 If:
 
@@ -3040,9 +3046,9 @@ should inherit awareness of that fragility.
 
 A fragile premise should not silently produce a robust-looking action recommendation.
 
----
+______________________________________________________________________
 
-# 112. Consequence Propagation
+## 112. Consequence Propagation
 
 Consequence can propagate through dependency edges.
 
@@ -3064,9 +3070,9 @@ if the action amplifies impact.
 
 Therefore claim consequence and action consequence radius must remain distinct.
 
----
+______________________________________________________________________
 
-# 113. Registry Admission Contract
+## 113. Registry Admission Contract
 
 Before admitting a tensor:
 
@@ -3094,9 +3100,9 @@ Before admitting a tensor:
 11. RECORD STATUS
 ```
 
----
+______________________________________________________________________
 
-# 114. Registry Validation
+## 114. Registry Validation
 
 ```yaml
 TENSOR_REGISTRY_VALIDATION:
@@ -3133,9 +3139,9 @@ TENSOR_REGISTRY_VALIDATION:
     VALID | CONDITIONAL | BLOCKED | UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 115. HARNESS Validation
+## 115. HARNESS Validation
 
 ```yaml
 HARNESS_VALIDATION:
@@ -3163,9 +3169,9 @@ HARNESS_VALIDATION:
   overall_status:
 ```
 
----
+______________________________________________________________________
 
-# 116. QUERY Validation
+## 116. QUERY Validation
 
 ```yaml
 QUERY_VALIDATION:
@@ -3191,9 +3197,9 @@ QUERY_VALIDATION:
   status:
 ```
 
----
+______________________________________________________________________
 
-# 117. EVIDENCE Validation
+## 117. EVIDENCE Validation
 
 ```yaml
 EVIDENCE_VALIDATION:
@@ -3233,9 +3239,9 @@ EVIDENCE_VALIDATION:
   status:
 ```
 
----
+______________________________________________________________________
 
-# 118. CLAIM Validation
+## 118. CLAIM Validation
 
 ```yaml
 CLAIM_VALIDATION:
@@ -3273,9 +3279,9 @@ CLAIM_VALIDATION:
   status:
 ```
 
----
+______________________________________________________________________
 
-# 119. RSCF Validation
+## 119. RSCF Validation
 
 ```yaml
 RSCF_VALIDATION:
@@ -3303,9 +3309,9 @@ RSCF_VALIDATION:
   status_valid:
 ```
 
----
+______________________________________________________________________
 
-# 120. GOVERNANCE Validation
+## 120. GOVERNANCE Validation
 
 ```yaml
 GOVERNANCE_VALIDATION:
@@ -3331,9 +3337,9 @@ GOVERNANCE_VALIDATION:
   status:
 ```
 
----
+______________________________________________________________________
 
-# 121. MEMORY Validation
+## 121. MEMORY Validation
 
 ```yaml
 MEMORY_VALIDATION:
@@ -3359,9 +3365,9 @@ MEMORY_VALIDATION:
   status:
 ```
 
----
+______________________________________________________________________
 
-# 122. Fail-Closed Conditions
+## 122. Fail-Closed Conditions
 
 Consequential tensor use should not silently proceed when a load-bearing field is unresolved.
 
@@ -3388,9 +3394,9 @@ UNKNOWN
 
 rather than assume permission or validity.
 
----
+______________________________________________________________________
 
-# 123. Tensor Lifecycle
+## 123. Tensor Lifecycle
 
 ```text
 CREATE
@@ -3424,9 +3430,9 @@ REVALIDATE
 INVALIDATE / SUPERSEDE / RETAIN
 ```
 
----
+______________________________________________________________________
 
-# 124. Registry Versioning
+## 124. Registry Versioning
 
 The tensor registry itself should conceptually distinguish:
 
@@ -3442,9 +3448,9 @@ SOURCE VERSION
 
 These are not necessarily interchangeable.
 
----
+______________________________________________________________________
 
-# 125. Schema Evolution
+## 125. Schema Evolution
 
 Adding an axis may change compatibility.
 
@@ -3465,9 +3471,9 @@ sensitivity = UNKNOWN
 
 rather than fabricated backfilling.
 
----
+______________________________________________________________________
 
-# 126. Backward Compatibility
+## 126. Backward Compatibility
 
 A newer tensor schema should not silently reinterpret an older axis.
 
@@ -3481,9 +3487,9 @@ SCHEMA BREAK
 
 unless migration rules explicitly establish compatibility.
 
----
+______________________________________________________________________
 
-# 127. Tensor Serialization
+## 127. Tensor Serialization
 
 A generic serialized tensor may take the form:
 
@@ -3515,9 +3521,9 @@ tensor:
 
 This is a normalized implementation pattern, not a source-defined mandatory storage format.
 
----
+______________________________________________________________________
 
-# 128. Machine-Readable Registry
+## 128. Machine-Readable Registry
 
 ```yaml
 AMOS_TENSOR_REGISTRY:
@@ -3631,9 +3637,9 @@ AMOS_TENSOR_REGISTRY:
       - revalidation_epoch
 ```
 
----
+______________________________________________________________________
 
-# 129. Registry Crosswalk
+## 129. Registry Crosswalk
 
 | Tensor       | Primary Role                         | Critical Integrity Axes                                          |
 | ------------ | ------------------------------------ | ---------------------------------------------------------------- |
@@ -3645,9 +3651,9 @@ AMOS_TENSOR_REGISTRY:
 | `GOVERNANCE` | action control                       | capability, authority, consequence, reversibility, approval      |
 | `MEMORY`     | persistent knowledge state           | provenance, dependencies, freshness, contradiction, revalidation |
 
----
+______________________________________________________________________
 
-# 130. Core Anti-Collapse Rules
+## 130. Core Anti-Collapse Rules
 
 ```text
 TASK
@@ -3719,9 +3725,9 @@ RETRIEVAL
 REVALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 131. Core Registry Invariants
+## 131. Core Registry Invariants
 
 ```yaml
 TENSOR_REGISTRY_INVARIANTS:
@@ -3769,9 +3775,9 @@ TENSOR_REGISTRY_INVARIANTS:
     PROHIBITED
 ```
 
----
+______________________________________________________________________
 
-# 132. Canonical Compression
+## 132. Canonical Compression
 
 The registry is:
 
@@ -3873,9 +3879,9 @@ Causation
 }
 $$
 
----
+______________________________________________________________________
 
-# 133. Operational Spine
+## 133. Operational Spine
 
 ```text
 QUERY
@@ -3913,9 +3919,9 @@ CHECK EXECUTION / TEST / TOOL / PERMISSION STATE
 ACTION OR HOLD
 ```
 
----
+______________________________________________________________________
 
-# 134. Gap Register
+## 134. Gap Register
 
 ```yaml
 TENSOR_REGISTRY_GAPS:
@@ -3985,9 +3991,9 @@ TENSOR_REGISTRY_GAPS:
       NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 135. Promotion Gate
+## 135. Promotion Gate
 
 This registry may be promoted beyond `SOURCE_GROUNDED_REGISTRY` only when the relevant evidence establishes:
 
@@ -4029,9 +4035,9 @@ RUNTIME EXECUTION
 NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 136. Registry Summary
+## 136. Registry Summary
 
 The Tensor Registry defines seven distinct state contracts:
 
@@ -4083,9 +4089,9 @@ This ordering is an integration model.
 
 The seven tensor signatures themselves remain the source-grounded canonical registry content.
 
----
+______________________________________________________________________
 
-# 137. RSCF-NODE
+## 137. RSCF-NODE
 
 RSCF-NODE
 
@@ -4185,19 +4191,19 @@ RSCF-RELATIONS:
 
 claim_class: AMOS_MODEL
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/TENSORS|TENSORS]] · [[11_KNOWLEDGE/TENSOR_CONTRACTS|TENSOR_CONTRACTS]] · HARNESS_TENSOR · QUERY_TENSOR · [[11_KNOWLEDGE/EVIDENCE_TENSOR|EVIDENCE_TENSOR]] · [[11_KNOWLEDGE/CLAIM_TENSOR|CLAIM_TENSOR]] · RSCF_TENSOR · GOVERNANCE_TENSOR · MEMORY_TENSOR · 06-Knowledge-Base-MOC · AMOS_Simulation_Kernel_v0_Math_Foundations · system_scan_agent · automation_profiles
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
 
 **MOC:** [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]]
 
----
+______________________________________________________________________
 
 **Origin architect / steward:** **Trang Phan**
 

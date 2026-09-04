@@ -89,7 +89,7 @@
     "bluebook-strategy-system"
   ],
   "depends_on_workflows": [
-    "bluebook-strategy-system-workflow.md"
+    "amos-bluebook-strategy-system-workflow.md"
   ],
   "epistemic_class": "AMOS_MODEL",
   "claim_ceiling": 0.95,

@@ -4,25 +4,22 @@ title: SKILL — Amos Consciousness Candidate Governor
 type: skill
 source: 07_SKILLS/amos-consciousness-candidate-governor
 name: amos-consciousness-candidate-governor
-description: Consciousness Candidate Governor — mind and behavior capability. Use
-  when psychological analysis, behavioral reasoning, or cognitive modeling. Use when
-  amos-c05-mind-behavior-master routes to this specialized capability. Do not use
-  for generic tasks outside c05 domain.
+description: Consciousness Candidate Governor — mind and behavior capability. Use when psychological analysis, behavioral reasoning, or cognitive modeling. Use when amos-c05-mind-behavior-master routes to this specialized capability. Do not use for generic tasks outside c05 domain.
 parent_skill: amos-c05-mind-behavior-master
 domain: c05
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
 tags:
-- type/skill
-- type/skill
-- domain/mind-behavior
-- epistemic/source_claim
-- hml/m
-- epistemic/source_claim
-- amos-os
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/mind-behavior
+  - epistemic/source_claim
+  - hml/m
+  - epistemic/source_claim
+  - amos-os
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -32,20 +29,20 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: M
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L16
-- L17
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L16
+  - L17
 license: MIT
 steward: Trang Phan
 ---
@@ -55,6 +52,7 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: c05. Parent: amos-c05-mind-behavior-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
 ## When to Use
 
 - When modeling cognitive processes: attention, awareness, compression
@@ -74,6 +72,7 @@ Origin architect: **Trang Phan**. Domain: c05. Parent: amos-c05-mind-behavior-ma
 - **consciousness_candidate.govern_expression**: Govern artistic and emotional expression within healthy bounds
 
 > **Reference**: See `references/vault_domain_knowledge.md` (content_hash: 17be42ec861460fe) for the full vault-sourced domain knowledge (9552 chars).
+
 - **consciousness_candidate.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
 - **consciousness_candidate.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **consciousness_candidate.validate_outputs**: Validate outputs against domain constraints and epistemic class.
@@ -81,12 +80,12 @@ Origin architect: **Trang Phan**. Domain: c05. Parent: amos-c05-mind-behavior-ma
 ## Operations
 
 1. **consciousness_candidate.model_cognition**: Model cognitive processes: attention, awareness, compression, and inference
-2. **consciousness_candidate.allocate_attention**: Allocate attention resources across competing demands and priorities
-3. **consciousness_candidate.assess_awareness**: Assess awareness levels: meta-cognition, self-monitoring, and calibration
-4. **consciousness_candidate.govern_expression**: Govern artistic and emotional expression within healthy bounds
-5. **consciousness_candidate.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-6. **consciousness_candidate.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
-7. **consciousness_candidate.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+1. **consciousness_candidate.allocate_attention**: Allocate attention resources across competing demands and priorities
+1. **consciousness_candidate.assess_awareness**: Assess awareness levels: meta-cognition, self-monitoring, and calibration
+1. **consciousness_candidate.govern_expression**: Govern artistic and emotional expression within healthy bounds
+1. **consciousness_candidate.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+1. **consciousness_candidate.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+1. **consciousness_candidate.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## 11_KNOWLEDGE Vault Content
 
@@ -97,6 +96,7 @@ Origin architect: **Trang Phan**. Domain: c05. Parent: amos-c05-mind-behavior-ma
 The Cognitive Organism OS models consciousness-candidate governance as a structural framework, not a phenomenological claim.
 
 **Consciousness-candidate architecture**:
+
 - **DCC (Distinct Conscious Continuity)**: separates language capability from regulated conscious continuity
 - **Anti-faking mechanisms**: penalize narrative drift and deception gaps
 - **Sensorimotor grounding**: requires grounding in sensorimotor loops
@@ -106,11 +106,12 @@ The Cognitive Organism OS models consciousness-candidate governance as a structu
 **Governance law**: `SELF_MODEL != SUBJECTIVE_SELF`. The system's self-model is not a subjective self. Consciousness-candidate is a structural designation, not a phenomenological claim.
 
 **Candidate validation gates**:
+
 1. Structural completeness: all required components present
-2. Anti-faking: no narrative drift or deception gaps detected
-3. Temporal continuity: candidate maintains continuity over time
-4. Grounding: candidate is grounded in sensorimotor loops
-5. Integration: candidate integrates valence and temporal signals
+1. Anti-faking: no narrative drift or deception gaps detected
+1. Temporal continuity: candidate maintains continuity over time
+1. Grounding: candidate is grounded in sensorimotor loops
+1. Integration: candidate integrates valence and temporal signals
 
 ### Epistemic Boundary
 
@@ -132,7 +133,8 @@ Consciousness-candidate governance is an AMOS_MODEL. It does not prove conscious
 - **G4 (Anti-overreach)**: No claim beyond the skill's declared scope and epistemic class.
 - **G5 (Equation firewall)**: Equations carry status tags (ESTABLISHED_MATH / SOURCE_DERIVED / AMOS_MODEL / EMPIRICALLY_CALIBRATED / UN
 
----
+______________________________________________________________________
+
 **Links:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 ## Related
@@ -142,17 +144,19 @@ Consciousness-candidate governance is an AMOS_MODEL. It does not prove conscious
 ## Examples
 
 - **Scenario**: When modeling cognitive processes: attention, awareness, compression
+
   - **Input**: A query matching this skill's domain (c05)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When allocating attention resources across competing demands
+
   - **Input**: A query matching this skill's domain (c05)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When assessing awareness levels and meta-cognition
+
   - **Input**: A query matching this skill's domain (c05)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Anti-Patterns
 
@@ -162,7 +166,6 @@ Consciousness-candidate governance is an AMOS_MODEL. It does not prove conscious
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `amos-c05-mind-behavior-master` — routes to this skill when c05 specialization is needed
@@ -170,7 +173,6 @@ Consciousness-candidate governance is an AMOS_MODEL. It does not prove conscious
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -189,7 +191,6 @@ Consciousness-candidate governance is an AMOS_MODEL. It does not prove conscious
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -197,7 +198,6 @@ Consciousness-candidate governance is an AMOS_MODEL. It does not prove conscious
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -210,11 +210,12 @@ Consciousness-candidate governance is an AMOS_MODEL. It does not prove conscious
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `amos-c05-mind-behavior-master` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `amos-consciousness-candidate-governor-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -222,12 +223,14 @@ Consciousness-candidate governance is an AMOS_MODEL. It does not prove conscious
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-consciousness-candidate-governor
 node_type: skill
 path: 07_SKILLS/amos-consciousness-candidate-governor/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

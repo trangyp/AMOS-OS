@@ -1,23 +1,26 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: L00_REALITY_ENVIRONMENT — RSCF
 type: cognitive
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT
 tags:
-- amos
-- reality-environment
-- rscf
-- claim
-- evidence
-- provenance
-- scope
-- regime
-- causality
-- hml
-- confidence
-- falsification
-- control-plane
-- ai
-- domain/cognitive-matrix
+  - amos
+  - reality-environment
+  - rscf
+  - claim
+  - evidence
+  - provenance
+  - scope
+  - regime
+  - causality
+  - hml
+  - confidence
+  - falsification
+  - control-plane
+  - ai
+  - domain/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -31,9 +34,9 @@ rscf:
 **Origin architect / steward:** Trang Phan
 **Status:** `ARCHITECTURE CONTRACT / IMPLEMENTATION-DEPENDENT`
 
----
+______________________________________________________________________
 
-# 1. Purpose
+## 1. Purpose
 
 `L00_REALITY_ENVIRONMENT / RSCF` defines the Recursive Structured Claim Framework contract for reasoning about reality, environment state, observations, evidence, models, claims, decisions, actions, and resulting effects.
 
@@ -76,9 +79,9 @@ The governing principle is:
 
 > **AMOS may reason beyond direct observation, but every inferential step must preserve the distinction between reality, observation, evidence, derivation, model, decision, and action.**
 
----
+______________________________________________________________________
 
-# 2. RSCF Meaning
+## 2. RSCF Meaning
 
 RSCF means:
 
@@ -92,38 +95,35 @@ It is a typed proof/evidence capsule describing what supports a conclusion, what
 
 Conceptually:
 
-[
-\boxed{
-RSCF
-====
+## \[ \\boxed{ RSCF
 
 Claim
-+
+\+
 Premises
-+
+\+
 Evidence
-+
+\+
 Provenance
-+
+\+
 Scope
-+
+\+
 Regime
-+
+\+
 Time
-+
+\+
 Dependencies
-+
+\+
 Competing
-+
+\+
 Falsifiers
-+
+\+
 Confidence
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 3. Core Epistemic Firewall
+## 3. Core Epistemic Firewall
 
 AMOS must preserve:
 
@@ -167,9 +167,9 @@ EFFECT
 
 No downstream state automatically upgrades the epistemic status of an upstream state.
 
----
+______________________________________________________________________
 
-# 4. Reality-to-Claim Architecture
+## 4. Reality-to-Claim Architecture
 
 ```text
 REALITY / ENVIRONMENT
@@ -213,16 +213,13 @@ REALITY / ENVIRONMENT
 
 Every transition must remain provenance-bearing.
 
----
+______________________________________________________________________
 
-# 5. Universal RSCF Tensor
+## 5. Universal RSCF Tensor
 
-[
-\boxed{
-T_{RSCF}
-========
+## \[ \\boxed{ T\_{RSCF}
 
-T[
+T\[
 rscf_id,
 claim,
 claim_class,
@@ -243,18 +240,18 @@ confidence_ceiling,
 consequence,
 governance,
 provenance
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 6. Claim Tensor
+## 6. Claim Tensor
 
-[
-\boxed{
+\[
+\\boxed{
 T_C =
-T[
+T\[
 claim_id,
 text,
 epistemic_class,
@@ -270,9 +267,9 @@ falsifiers,
 sensitivity,
 confidence_ceiling,
 consequence
-]
+\]
 }
-]
+\]
 
 ## Hard invariant
 
@@ -287,14 +284,14 @@ invalidation conditions
 
 when compressed, summarized, transferred, or reused.
 
----
+______________________________________________________________________
 
-# 7. Evidence Tensor
+## 7. Evidence Tensor
 
-[
-\boxed{
+\[
+\\boxed{
 T_E =
-T[
+T\[
 evidence_id,
 source,
 source_type,
@@ -311,24 +308,21 @@ quality,
 freshness,
 revocation,
 license
-]
+\]
 }
-]
+\]
 
 Evidence is not treated as context-free support.
 
 Evidence validity is claim-relative.
 
----
+______________________________________________________________________
 
-# 8. Relation Tensor
+## 8. Relation Tensor
 
-[
-\boxed{
-R_{ij}
-======
+## \[ \\boxed{ R\_{ij}
 
-T[
+T\[
 type,
 direction,
 strength,
@@ -343,9 +337,9 @@ repair_coupling,
 mutation_transfer,
 observer_variance,
 provenance
-]
+\]
 }
-]
+\]
 
 Relation classes include:
 
@@ -369,14 +363,14 @@ governance
 
 A semantic, temporal, structural, or analogous relation cannot automatically be promoted to causal.
 
----
+______________________________________________________________________
 
-# 9. Premise Tensor
+## 9. Premise Tensor
 
-[
-\boxed{
+\[
+\\boxed{
 T_P =
-T[
+T\[
 premise_id,
 statement,
 class,
@@ -389,9 +383,9 @@ confidence,
 dependencies,
 falsifiers,
 status
-]
+\]
 }
-]
+\]
 
 Premise status may include:
 
@@ -404,14 +398,14 @@ FALSIFIED
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 10. Observation Tensor
+## 10. Observation Tensor
 
-[
-\boxed{
+\[
+\\boxed{
 T_O =
-T[
+T\[
 observation_id,
 object,
 observer,
@@ -423,24 +417,21 @@ instrument,
 resolution,
 uncertainty,
 provenance
-]
+\]
 }
-]
+\]
 
 Observation records what was observed.
 
 It does not automatically encode why the observation occurred.
 
----
+______________________________________________________________________
 
-# 11. Reality Representation Tensor
+## 11. Reality Representation Tensor
 
-[
-\boxed{
-T_{RR}
-======
+## \[ \\boxed{ T\_{RR}
 
-T[
+T\[
 object,
 reality_status,
 representation,
@@ -453,9 +444,9 @@ regime,
 fidelity,
 uncertainty,
 provenance
-]
+\]
 }
-]
+\]
 
 Possible reality statuses:
 
@@ -471,16 +462,13 @@ FORECAST
 UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 12. Confidence Tensor
+## 12. Confidence Tensor
 
-[
-\boxed{
-T_{Conf}
-========
+## \[ \\boxed{ T\_{Conf}
 
-T[
+T\[
 claim,
 evidence_uncertainty,
 model_uncertainty,
@@ -491,15 +479,15 @@ execution_uncertainty,
 provenance_uncertainty,
 independence_uncertainty,
 ceiling
-]
+\]
 }
-]
+\]
 
 Confidence must not be represented as a single scalar when materially different uncertainty dimensions can change the decision.
 
----
+______________________________________________________________________
 
-# 13. RSCF State
+## 13. RSCF State
 
 An RSCF may occupy:
 
@@ -522,9 +510,9 @@ These states describe proof/evidence status.
 
 They do not imply ontological truth outside the declared scope.
 
----
+______________________________________________________________________
 
-# 14. Conclusion Classes
+## 14. Conclusion Classes
 
 AMOS conclusion classes are:
 
@@ -546,55 +534,49 @@ QUARANTINED
 REVOKED
 ```
 
----
+______________________________________________________________________
 
-# 15. VERIFIED
+## 15. VERIFIED
 
 `VERIFIED` means the claim has passed the declared validation requirements within its applicability envelope.
 
 Conceptually:
 
-[
-\boxed{
-Verified(C)
-===========
+## \[ \\boxed{ Verified(C)
 
 EvidencePass
-\land
+\\land
 DependencyPass
-\land
+\\land
 ScopePass
-\land
+\\land
 RegimePass
-\land
+\\land
 FreshnessPass
-\land
+\\land
 ContradictionPass
 }
-]
+\]
 
 `VERIFIED` does not mean universally true.
 
----
+______________________________________________________________________
 
-# 16. DERIVED
+## 16. DERIVED
 
 `DERIVED` means the claim follows from accepted premises through an explicit transformation.
 
-[
-\boxed{
-C_D
-===
+## \[ \\boxed{ C_D
 
-f(P_1,P_2,\ldots,P_n)
+f(P_1,P_2,\\ldots,P_n)
 }
-]
+\]
 
 Its confidence cannot exceed the validity of the load-bearing premises and transformation.
 
----
+______________________________________________________________________
 
-# 17. MODEL
+## 17. MODEL
 
 `MODEL` identifies a representation, abstraction, hypothesis structure, simulation, equation family, or explanatory architecture not established as direct reality.
 
@@ -612,25 +594,25 @@ MODEL COHERENCE
 EMPIRICAL VALIDITY
 ```
 
----
+______________________________________________________________________
 
-# 18. CONDITIONAL
+## 18. CONDITIONAL
 
 A claim is `CONDITIONAL` when its validity depends on unresolved or explicitly bounded assumptions.
 
-[
-\boxed{
+\[
+\\boxed{
 C
-\mid
-A_1,A_2,\ldots,A_n
+\\mid
+A_1,A_2,\\ldots,A_n
 }
-]
+\]
 
 The assumptions must remain attached to the claim.
 
----
+______________________________________________________________________
 
-# 19. COMPETING
+## 19. COMPETING
 
 `COMPETING` is required when multiple incompatible explanations remain materially viable.
 
@@ -645,9 +627,9 @@ H4: transformation error
 
 AMOS must not force convergence without discriminating evidence.
 
----
+______________________________________________________________________
 
-# 20. UNKNOWN/GAP
+## 20. UNKNOWN/GAP
 
 `UNKNOWN/GAP` means the available evidence is insufficient to support the required conclusion.
 
@@ -673,45 +655,39 @@ MISSING EVIDENCE
 PERMISSION TO INFER
 ```
 
----
+______________________________________________________________________
 
-# 21. Recursive Structure
+## 21. Recursive Structure
 
 An RSCF may depend on other RSCFs.
 
-[
-\boxed{
-R_i
-===
+## \[ \\boxed{ R_i
 
 f(
-R_{i1},
-R_{i2},
-\ldots,
-R_{in}
+R\_{i1},
+R\_{i2},
+\\ldots,
+R\_{in}
 )
 }
-]
+\]
 
 This creates a recursive proof graph.
 
----
+______________________________________________________________________
 
-# 22. RSCF Dependency Graph
+## 22. RSCF Dependency Graph
 
-[
-\boxed{
-G_R
-===
+## \[ \\boxed{ G_R
 
 (V_R,E_R)
 }
-]
+\]
 
 where:
 
-- \(V_R\) = RSCF nodes;
-- \(E_R\) = typed dependency relations.
+- (V_R) = RSCF nodes;
+- (E_R) = typed dependency relations.
 
 Possible edges:
 
@@ -729,83 +705,78 @@ INVALIDATES
 REQUIRES
 ```
 
----
+______________________________________________________________________
 
-# 23. Load-Bearing Premises
+## 23. Load-Bearing Premises
 
-For claim \(C\), define:
+For claim (C), define:
 
-[
-LB(C)
-=====
+## \[ LB(C)
 
 {
 p_i :
 Failure(p_i)
-\Rightarrow
+\\Rightarrow
 MaterialChange(C)
 }
-]
+\]
 
 Only materially decision-relevant premises need to remain on the active reasoning path.
 
----
+______________________________________________________________________
 
-# 24. Smallest Sufficient Proof Scope
+## 24. Smallest Sufficient Proof Scope
 
 AMOS should retrieve the smallest dependency closure sufficient to support the current decision.
 
-[
-\boxed{
-ProofScope^*
-============
+## \[ \\boxed{ ProofScope^\*
 
-\arg\min_S Cost(S)
+\\arg\\min_S Cost(S)
 }
-]
+\]
 
 subject to:
 
-[
-\boxed{
+\[
+\\boxed{
 DecisionSufficiency(S)=1
 }
-]
+\]
 
 and:
 
-[
-\boxed{
+\[
+\\boxed{
 Integrity(S)=1
 }
-]
+\]
 
 This is an AMOS optimization model rather than a universal theorem.
 
----
+______________________________________________________________________
 
-# 25. Confidence Ceiling
+## 25. Confidence Ceiling
 
-For claim \(C\):
+For claim (C):
 
-[
-\boxed{
+\[
+\\boxed{
 Conf(C)
-\leq
-\min_{p\in LB(C)}
+\\leq
+\\min\_{p\\in LB(C)}
 Conf(p)
 }
-]
+\]
 
 unless an independent validation path supports a higher ceiling.
 
 Expanded:
 
-[
-\boxed{
+\[
+\\boxed{
 Conf(C)
-\leq
-\min(
+\\leq
+\\min(
 EvidenceCeiling,
 PremiseCeiling,
 ProvenanceCeiling,
@@ -815,54 +786,51 @@ TemporalCeiling,
 CausalCeiling
 )
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 26. Independence Requirement
+## 26. Independence Requirement
 
 Multiple evidence objects do not automatically provide multiple independent confirmations.
 
 Let:
 
-[
+\[
 A(E_i)
-]
+\]
 
-denote the ancestry of evidence \(E_i\).
+denote the ancestry of evidence (E_i).
 
 Then substantial ancestry overlap creates correlation risk:
 
-[
-\boxed{
-A(E_i)\cap A(E_j)\neq\varnothing
-\Rightarrow
-Independence(E_i,E_j)\text{ requires validation}
+\[
+\\boxed{
+A(E_i)\\cap A(E_j)\\neq\\varnothing
+\\Rightarrow
+Independence(E_i,E_j)\\text{ requires validation}
 }
-]
+\]
 
 Repetition does not create independence.
 
----
+______________________________________________________________________
 
-# 27. Evidence Independence Groups
+## 27. Evidence Independence Groups
 
 Evidence sharing a material origin should be grouped:
 
-[
-\boxed{
-IG_k
-====
+## \[ \\boxed{ IG_k
 
 {E_i : SharedMaterialAncestry(E_i)}
 }
-]
+\]
 
 Confidence aggregation should operate over independence structure rather than raw evidence count.
 
----
+______________________________________________________________________
 
-# 28. Sybil-Hardening Invariant
+## 28. Sybil-Hardening Invariant
 
 ```text
 MULTIPLE SOURCES
@@ -881,42 +849,39 @@ mirrors of one dataset
 paraphrases of one claim
 ```
 
----
+______________________________________________________________________
 
-# 29. Scope Envelope
+## 29. Scope Envelope
 
 Every important claim should carry:
 
-[
-\boxed{
+\[
+\\boxed{
 S_C =
-T[
+T\[
 system,
 population,
 environment,
 scale,
 measurement,
 assumptions
-]
+\]
 }
-]
+\]
 
 A claim cannot silently escape this envelope.
 
----
+______________________________________________________________________
 
-# 30. Scope Compatibility
+## 30. Scope Compatibility
 
-For evidence \(E\) and claim \(C\):
+For evidence (E) and claim (C):
 
-[
-\boxed{
-CompatibleScope(E,C)
-====================
+## \[ \\boxed{ CompatibleScope(E,C)
 
 1
 }
-]
+\]
 
 is required before direct promotion.
 
@@ -928,25 +893,25 @@ CLAIM = CONDITIONAL
 
 or the evidence must be transformed through an explicitly justified mapping.
 
----
+______________________________________________________________________
 
-# 31. Regime Envelope
+## 31. Regime Envelope
 
 A claim may only be valid in a particular regime:
 
-[
-\boxed{
+\[
+\\boxed{
 R_C =
-T[
+T\[
 regime_id,
 conditions,
 start,
 end,
 transition_rules,
 validity_assumptions
-]
+\]
 }
-]
+\]
 
 Examples:
 
@@ -961,31 +926,31 @@ simulation
 live environment
 ```
 
----
+______________________________________________________________________
 
-# 32. Regime Shift
+## 32. Regime Shift
 
 If:
 
-[
-R_t \neq R_{t+1}
-]
+\[
+R_t \\neq R\_{t+1}
+\]
 
 then:
 
-[
-\boxed{
+\[
+\\boxed{
 Revalidate(RegimeDependentClaims)
 }
-]
+\]
 
 is required.
 
 A historically verified claim may become stale or conditional after regime change.
 
----
+______________________________________________________________________
 
-# 33. Temporal Validity
+## 33. Temporal Validity
 
 Evidence and claims must distinguish:
 
@@ -1000,32 +965,26 @@ commit time
 
 Temporal validity tensor:
 
-[
-\boxed{
-T_T
-===
+## \[ \\boxed{ T_T
 
-T[
+T\[
 event_time,
 observed_time,
 recorded_time,
 valid_from,
 valid_until,
 freshness
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 34. Freshness
+## 34. Freshness
 
 Freshness is claim-relative.
 
-[
-\boxed{
-Fresh(E,C,t)
-============
+## \[ \\boxed{ Fresh(E,C,t)
 
 f(
 Age(E,t),
@@ -1034,20 +993,17 @@ Regime,
 DecisionHorizon
 )
 }
-]
+\]
 
 A source can be recent but irrelevant, or old but still valid.
 
----
+______________________________________________________________________
 
-# 35. Causal Level Tensor
+## 35. Causal Level Tensor
 
-[
-\boxed{
-T_{Cause}
-=========
+## \[ \\boxed{ T\_{Cause}
 
-T[
+T\[
 claim,
 association,
 correlation,
@@ -1060,15 +1016,15 @@ mechanism,
 intervention,
 feedback,
 causal_effect
-]
+\]
 }
-]
+\]
 
 Only supported causal levels may be asserted.
 
----
+______________________________________________________________________
 
-# 36. Causal Promotion Firewall
+## 36. Causal Promotion Firewall
 
 ```text
 SEQUENCE
@@ -1096,23 +1052,23 @@ PREDICTIVE POWER
 MECHANISM
 ```
 
----
+______________________________________________________________________
 
-# 37. Causal Claim Requirement
+## 37. Causal Claim Requirement
 
 A causal claim should identify the evidence class supporting causal promotion.
 
 Conceptually:
 
-[
-\boxed{
+\[
+\\boxed{
 CausalClaim
-\Rightarrow
+\\Rightarrow
 CausalEvidence
-\lor
+\\lor
 ExplicitModelStatus
 }
-]
+\]
 
 Without sufficient evidence:
 
@@ -1120,16 +1076,13 @@ Without sufficient evidence:
 CAUSAL CLAIM → MODEL / CONDITIONAL / UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 38. Competing Hypothesis Tensor
+## 38. Competing Hypothesis Tensor
 
-[
-\boxed{
-T_H
-===
+## \[ \\boxed{ T_H
 
-T[
+T\[
 hypothesis_id,
 claim,
 premises,
@@ -1141,59 +1094,50 @@ predictions,
 discriminators,
 falsifiers,
 confidence
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 39. Competing Hypothesis Set
+## 39. Competing Hypothesis Set
 
-[
-\boxed{
-\mathcal{H}
-===========
+## \[ \\boxed{ \\mathcal{H}
 
 {
-H_1,H_2,\ldots,H_n
+H_1,H_2,\\ldots,H_n
 }
 }
-]
+\]
 
-AMOS should preserve (\mathcal{H}) until discriminating evidence materially separates its members.
+AMOS should preserve (\\mathcal{H}) until discriminating evidence materially separates its members.
 
----
+______________________________________________________________________
 
-# 40. Discriminating Evidence
+## 40. Discriminating Evidence
 
 Preferred next evidence:
 
-[
-\boxed{
-E^*
-===
+## \[ \\boxed{ E^\*
 
-\arg\max_E
-\frac{
+\\arg\\max_E
+\\frac{
 ExpectedHypothesisDiscrimination(E)
 }{
 Cost(E)+Risk(E)
 }
 }
-]
+\]
 
 subject to governance and authority.
 
----
+______________________________________________________________________
 
-# 41. Falsifier Tensor
+## 41. Falsifier Tensor
 
-[
-\boxed{
-T_F
-===
+## \[ \\boxed{ T_F
 
-T[
+T\[
 claim,
 falsifier,
 observation_required,
@@ -1202,82 +1146,79 @@ scope,
 regime,
 time,
 status
-]
+\]
 }
-]
+\]
 
 A strong RSCF states what evidence would cause downgrade, invalidation, or rejection.
 
----
+______________________________________________________________________
 
-# 42. Invalidation Condition
+## 42. Invalidation Condition
 
-For claim \(C\):
+For claim (C):
 
-[
-\boxed{
+\[
+\\boxed{
 Invalidate(C)
-\Leftarrow
+\\Leftarrow
 FalsifierObserved(C)
 }
-]
+\]
 
 or:
 
-[
-\boxed{
+\[
+\\boxed{
 Invalidate(C)
-\Leftarrow
+\\Leftarrow
 LoadBearingPremiseInvalid(C)
 }
-]
+\]
 
 or:
 
-[
-\boxed{
+\[
+\\boxed{
 Invalidate(C)
-\Leftarrow
+\\Leftarrow
 ApplicabilityEnvelopeBroken(C)
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 43. Selective Invalidation
+## 43. Selective Invalidation
 
 If premise (p) fails:
 
-[
-\boxed{
+\[
+\\boxed{
 Invalidate(p)
-\Rightarrow
-Invalidate(Desc_{LB}(p))
+\\Rightarrow
+Invalidate(Desc\_{LB}(p))
 }
-]
+\]
 
 but:
 
-[
-\boxed{
+\[
+\\boxed{
 Independent(x,p)
-\Rightarrow
+\\Rightarrow
 Preserve(x)
 }
-]
+\]
 
 Global recomputation is not the default.
 
----
+______________________________________________________________________
 
-# 44. Contradiction Tensor
+## 44. Contradiction Tensor
 
-[
-\boxed{
-T_X
-===
+## \[ \\boxed{ T_X
 
-T[
+T\[
 claim_a,
 claim_b,
 contradiction_type,
@@ -1286,9 +1227,9 @@ shared_regime,
 temporal_relation,
 provenance,
 resolution_state
-]
+\]
 }
-]
+\]
 
 Contradictions may be:
 
@@ -1303,9 +1244,9 @@ APPARENT
 UNRESOLVED
 ```
 
----
+______________________________________________________________________
 
-# 45. Contradiction Preservation
+## 45. Contradiction Preservation
 
 ```text
 CONTRADICTION DETECTED
@@ -1331,16 +1272,13 @@ RESOLVE OR PRESERVE COMPETING
 
 Contradictions must not be silently averaged away.
 
----
+______________________________________________________________________
 
-# 46. Sensitivity Tensor
+## 46. Sensitivity Tensor
 
-[
-\boxed{
-T_S
-===
+## \[ \\boxed{ T_S
 
-T[
+T\[
 claim,
 premise,
 parameter,
@@ -1348,61 +1286,55 @@ threshold,
 perturbation,
 decision_impact,
 flip_condition
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 47. Decision Sensitivity
+## 47. Decision Sensitivity
 
 Define:
 
-[
-\boxed{
-Flip(C)
-=======
+## \[ \\boxed{ Flip(C)
 
 {
 p_i :
 Change(p_i)
-\Rightarrow
+\\Rightarrow
 Change(Decision)
 }
 }
-]
+\]
 
 High-impact low-cost flip premises should receive validation priority.
 
----
+______________________________________________________________________
 
-# 48. Robustness
+## 48. Robustness
 
 A conclusion is more robust when plausible changes in noncritical premises do not alter the decision.
 
 Conceptually:
 
-[
-\boxed{
+\[
+\\boxed{
 Robust(C)
-\propto
+\\propto
 1-
 DecisionSensitivity(C)
 }
-]
+\]
 
 This is an AMOS MODEL relation, not a universal quantitative law.
 
----
+______________________________________________________________________
 
-# 49. Consequence Tensor
+## 49. Consequence Tensor
 
-[
-\boxed{
-T_K
-===
+## \[ \\boxed{ T_K
 
-T[
+T\[
 claim,
 decision,
 stakeholders,
@@ -1415,54 +1347,51 @@ financial,
 health,
 safety,
 institutional
-]
+\]
 }
-]
+\]
 
 Higher consequence requires stronger validation.
 
----
+______________________________________________________________________
 
-# 50. Evidence Threshold by Consequence
+## 50. Evidence Threshold by Consequence
 
 Conceptually:
 
-[
-\boxed{
+\[
+\\boxed{
 RequiredEvidence
-\uparrow
-\quad
+\\uparrow
+\\quad
 as
-\quad
+\\quad
 Consequence
-\uparrow
+\\uparrow
 }
-]
+\]
 
 and:
 
-[
-\boxed{
+\[
+\\boxed{
 RequiredEvidence
-\uparrow
-\quad
+\\uparrow
+\\quad
 as
-\quad
+\\quad
 Irreversibility
-\uparrow
+\\uparrow
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 51. RSCF Governance Tensor
+## 51. RSCF Governance Tensor
 
-[
-\boxed{
-T_G
-===
+## \[ \\boxed{ T_G
 
-T[
+T\[
 claim,
 decision,
 capability,
@@ -1473,13 +1402,13 @@ reversibility,
 approval,
 commit_state,
 rollback
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 52. Epistemic / Authority Firewall
+## 52. Epistemic / Authority Firewall
 
 ```text
 KNOWING
@@ -1501,9 +1430,9 @@ AUTHORITY
 
 An RSCF can support a decision without granting permission to execute it.
 
----
+______________________________________________________________________
 
-# 53. Proposal / Commit Firewall
+## 53. Proposal / Commit Firewall
 
 ```text
 RSCF
@@ -1528,20 +1457,17 @@ CONTROL PLANE
       EFFECT
 ```
 
----
+______________________________________________________________________
 
-# 54. RSCF Composition
+## 54. RSCF Composition
 
-For RSCFs (R_1,\ldots,R_n):
+For RSCFs (R_1,\\ldots,R_n):
 
-[
-\boxed{
-R_C
-===
+## \[ \\boxed{ R_C
 
-Compose(R_1,\ldots,R_n)
+Compose(R_1,\\ldots,R_n)
 }
-]
+\]
 
 is allowed only when:
 
@@ -1555,30 +1481,27 @@ dependencies resolved
 contradictions visible
 ```
 
----
+______________________________________________________________________
 
-# 55. Composition Invariant
+## 55. Composition Invariant
 
-[
-\boxed{
-Composable(R_i,R_j)
-===================
+## \[ \\boxed{ Composable(R_i,R_j)
 
 SemanticCompatible
-\land
+\\land
 ScopeCompatible
-\land
+\\land
 RegimeCompatible
-\land
+\\land
 TemporalCompatible
 }
-]
+\]
 
 with provenance and contradiction checks where material.
 
----
+______________________________________________________________________
 
-# 56. Tensor Compatibility
+## 56. Tensor Compatibility
 
 Tensor composition is prohibited until shared axes are semantically compatible.
 
@@ -1600,100 +1523,88 @@ confidence(decision)
 
 unless explicitly mapped.
 
----
+______________________________________________________________________
 
-# 57. Atomic Multi-RSCF Reasoning
+## 57. Atomic Multi-RSCF Reasoning
 
 When several RSCFs jointly support one consequential conclusion:
 
-[
-\boxed{
-TX_{RSCF}
-=========
+## \[ \\boxed{ TX\_{RSCF}
 
-T[
+T\[
 rscf_set,
 read_set,
 dependencies,
 constraints,
 combined_claim,
 validation
-]
+\]
 }
-]
+\]
 
 The conclusion should not be finalized from a mixture of mutually inconsistent evidence states.
 
----
+______________________________________________________________________
 
-# 58. Read-Set Validity
+## 58. Read-Set Validity
 
 For load-bearing read set (RS):
 
-[
-\boxed{
-ValidReadSet
-============
+## \[ \\boxed{ ValidReadSet
 
-\bigwedge_{x\in RS}
+\\bigwedge\_{x\\in RS}
 VersionCurrent(x)
 }
-]
+\]
 
 when those objects are mutable and freshness matters.
 
----
+______________________________________________________________________
 
-# 59. Finalization
+## 59. Finalization
 
 A conclusion may be finalized only when its load-bearing state remains valid at the relevant decision boundary.
 
 Conceptually:
 
-[
-\boxed{
-Finalize(C)
-===========
+## \[ \\boxed{ Finalize(C)
 
 DependenciesValid
-\land
+\\land
 ScopeValid
-\land
+\\land
 RegimeValid
-\land
+\\land
 FreshnessValid
-\land
+\\land
 ConstraintPass
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 60. RSCF Epoch
+## 60. RSCF Epoch
 
 For mutable environments:
 
-[
-\boxed{
-Epoch_R
-=======
+## \[ \\boxed{ Epoch_R
 
-T[
+T\[
 epoch_id,
 environment,
 state_version,
 evidence_versions,
 regime,
 time
-]
+\]
 }
-]
+\]
 
 RSCFs validated against materially different epochs may require revalidation before composition.
 
----
+______________________________________________________________________
 
-# 61. RSCF Lifecycle
+## 61. RSCF Lifecycle
 
 ```text
 OBSERVE
@@ -1735,16 +1646,13 @@ ACTIVE RSCF
    └── INVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 62. RSCF Lifecycle Tensor
+## 62. RSCF Lifecycle Tensor
 
-[
-\boxed{
-T_L
-===
+## \[ \\boxed{ T_L
 
-T[
+T\[
 rscf_id,
 created,
 validated,
@@ -1754,45 +1662,42 @@ state,
 superseded_by,
 invalidated_by,
 revalidation_due
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 63. RSCF Reuse
+## 63. RSCF Reuse
 
 An existing RSCF may be reused only while:
 
-[
-\boxed{
-Reusable(R)
-===========
+## \[ \\boxed{ Reusable(R)
 
 DependenciesValid
-\land
+\\land
 ScopeCompatible
-\land
+\\land
 RegimeCompatible
-\land
+\\land
 FreshnessValid
-\land
+\\land
 NoMaterialContradiction
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 64. RSCF Compression
+## 64. RSCF Compression
 
 Compression may remove redundant explanatory detail.
 
 It may not remove load-bearing structure.
 
-[
-\boxed{
+\[
+\\boxed{
 Compress(R)
-\Rightarrow
+\\Rightarrow
 Preserve(
 Claim,
 LBPremises,
@@ -1803,11 +1708,11 @@ Falsifiers,
 ConfidenceCeiling
 )
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 65. Minimum RSCF Capsule
+## 65. Minimum RSCF Capsule
 
 ```yaml
 claim:
@@ -1837,9 +1742,9 @@ confidence_ceiling:
 
 This is the minimum reusable proof capsule.
 
----
+______________________________________________________________________
 
-# 66. Extended RSCF Capsule
+## 66. Extended RSCF Capsule
 
 ```yaml
 rscf:
@@ -1915,9 +1820,9 @@ rscf:
     trigger:
 ```
 
----
+______________________________________________________________________
 
-# 67. H/M/L RSCF Architecture
+## 67. H/M/L RSCF Architecture
 
 RSCFs may be recursively organized across:
 
@@ -1929,27 +1834,27 @@ L — observations / measurements / local evidence
 
 Conceptually:
 
-[
-\boxed{
+\[
+\\boxed{
 R_H
-\leftarrow
-{R_{M1},R_{M2},...,R_{Mn}}
+\\leftarrow
+{R\_{M1},R\_{M2},...,R\_{Mn}}
 }
-]
+\]
 
 and:
 
-[
-\boxed{
-R_{Mi}
-\leftarrow
-{R_{L1},R_{L2},...,R_{Lk}}
+\[
+\\boxed{
+R\_{Mi}
+\\leftarrow
+{R\_{L1},R\_{L2},...,R\_{Lk}}
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 68. H-Level RSCF
+## 68. H-Level RSCF
 
 H-level RSCFs represent:
 
@@ -1964,9 +1869,9 @@ cross-domain conclusions
 
 H-level confidence must remain bounded by its load-bearing M/L support.
 
----
+______________________________________________________________________
 
-# 69. M-Level RSCF
+## 69. M-Level RSCF
 
 M-level RSCFs represent:
 
@@ -1979,9 +1884,9 @@ causal hypotheses
 aggregated evidence
 ```
 
----
+______________________________________________________________________
 
-# 70. L-Level RSCF
+## 70. L-Level RSCF
 
 L-level RSCFs represent:
 
@@ -1997,22 +1902,19 @@ local state
 
 L-level evidence does not automatically establish H-level conclusions.
 
----
+______________________________________________________________________
 
-# 71. Cross-Scale Promotion
+## 71. Cross-Scale Promotion
 
 Promotion from L → M → H requires an explicit transformation.
 
-[
-\boxed{
-R_H
-===
+## \[ \\boxed{ R_H
 
 F_H(
 F_M(R_L)
 )
 }
-]
+\]
 
 Each transformation must preserve:
 
@@ -2024,9 +1926,9 @@ uncertainty
 dependencies
 ```
 
----
+______________________________________________________________________
 
-# 72. Cross-Scale Firewall
+## 72. Cross-Scale Firewall
 
 ```text
 LOCAL VALIDITY
@@ -2046,9 +1948,9 @@ SIMULATION SUCCESS
 REAL-WORLD SUCCESS
 ```
 
----
+______________________________________________________________________
 
-# 73. Source Claim
+## 73. Source Claim
 
 A statement contained in a source is represented as:
 
@@ -2064,9 +1966,9 @@ SOURCE SAYS X
 X VERIFIED
 ```
 
----
+______________________________________________________________________
 
-# 74. Observation
+## 74. Observation
 
 Directly recorded environmental or experimental information may be classified:
 
@@ -2078,9 +1980,9 @@ subject to measurement uncertainty and provenance.
 
 Observation does not automatically establish explanation.
 
----
+______________________________________________________________________
 
-# 75. Derived Claim
+## 75. Derived Claim
 
 A claim created through transformation is:
 
@@ -2098,9 +2000,9 @@ scope
 provenance
 ```
 
----
+______________________________________________________________________
 
-# 76. Model Claim
+## 76. Model Claim
 
 Framework equations, abstractions, simulations, conceptual tensors, or structural analogies remain:
 
@@ -2110,9 +2012,9 @@ MODEL
 
 unless independently validated for the claimed empirical use.
 
----
+______________________________________________________________________
 
-# 77. Decision
+## 77. Decision
 
 A decision is:
 
@@ -2124,9 +2026,9 @@ not evidence.
 
 Its existence may later become evidence about what the system decided, but not evidence that the decision was correct.
 
----
+______________________________________________________________________
 
-# 78. AI Application — Retrieval-Augmented Reasoning
+## 78. AI Application — Retrieval-Augmented Reasoning
 
 For AI retrieval:
 
@@ -2154,18 +2056,15 @@ RSCF
 
 Retrieved text must not be promoted directly to verified knowledge.
 
----
+______________________________________________________________________
 
-# 79. AI Application — Memory
+## 79. AI Application — Memory
 
 Persistent AI memory should store RSCF-compatible metadata:
 
-[
-\boxed{
-T_M
-===
+## \[ \\boxed{ T_M
 
-T[
+T\[
 item,
 content_class,
 state,
@@ -2175,15 +2074,15 @@ freshness,
 contradiction,
 retention,
 revalidation
-]
+\]
 }
-]
+\]
 
 Memory recall does not restore validity automatically.
 
----
+______________________________________________________________________
 
-# 80. AI Application — Hallucination Control
+## 80. AI Application — Hallucination Control
 
 Hallucination risk increases when:
 
@@ -2207,9 +2106,9 @@ model inference is presented as observation
 
 RSCF provides structural controls against these collapses.
 
----
+______________________________________________________________________
 
-# 81. AI Application — Multi-Agent Reasoning
+## 81. AI Application — Multi-Agent Reasoning
 
 Multiple agents do not automatically create independent evidence.
 
@@ -2223,16 +2122,13 @@ Agent C summarizes Agent A
 
 then the system may still possess only one material evidence root.
 
----
+______________________________________________________________________
 
-# 82. AI Application — Agent Output Tensor
+## 82. AI Application — Agent Output Tensor
 
-[
-\boxed{
-T_A
-===
+## \[ \\boxed{ T_A
 
-T[
+T\[
 agent,
 claim,
 evidence,
@@ -2242,15 +2138,15 @@ scope,
 regime,
 confidence,
 authority
-]
+\]
 }
-]
+\]
 
 Agent identity is not evidence independence.
 
----
+______________________________________________________________________
 
-# 83. AI Application — Tool Results
+## 83. AI Application — Tool Results
 
 Tool results should be classified by their actual epistemic status.
 
@@ -2266,9 +2162,9 @@ forecast → PREDICTION
 
 Tool output does not automatically become `VERIFIED`.
 
----
+______________________________________________________________________
 
-# 84. AI Application — Code Execution
+## 84. AI Application — Code Execution
 
 Execution evidence should retain:
 
@@ -2285,9 +2181,9 @@ time
 
 Passing one execution proves only the bounded observed result.
 
----
+______________________________________________________________________
 
-# 85. AI Application — Benchmark Claims
+## 85. AI Application — Benchmark Claims
 
 ```text
 BENCHMARK RESULT
@@ -2311,18 +2207,15 @@ result
 limitations
 ```
 
----
+______________________________________________________________________
 
-# 86. AI Application — Prediction
+## 86. AI Application — Prediction
 
 Prediction RSCF:
 
-[
-\boxed{
-T_{Pred}
-========
+## \[ \\boxed{ T\_{Pred}
 
-T[
+T\[
 target,
 horizon,
 model,
@@ -2334,15 +2227,15 @@ uncertainty,
 calibration,
 falsifier,
 outcome
-]
+\]
 }
-]
+\]
 
 Prediction must remain separate from retrospective explanation.
 
----
+______________________________________________________________________
 
-# 87. AI Application — Self-Correction
+## 87. AI Application — Self-Correction
 
 AI self-correction is not independent validation if the same model and evidence path simply reconsider the claim.
 
@@ -2354,9 +2247,9 @@ INDEPENDENT CONFIRMATION
 
 It may still provide useful contradiction search.
 
----
+______________________________________________________________________
 
-# 88. Adversarial Validation
+## 88. Adversarial Validation
 
 For consequential claims:
 
@@ -2381,9 +2274,9 @@ ADVERSARIAL PATH
         UPDATE RSCF
 ```
 
----
+______________________________________________________________________
 
-# 89. Challenge Result
+## 89. Challenge Result
 
 Possible challenge outcomes:
 
@@ -2396,9 +2289,9 @@ FALSIFIED
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 90. RSCF Control Plane
+## 90. RSCF Control Plane
 
 The control plane should govern:
 
@@ -2422,16 +2315,13 @@ selective invalidation
 commit eligibility
 ```
 
----
+______________________________________________________________________
 
-# 91. RSCF Control-Plane Tensor
+## 91. RSCF Control-Plane Tensor
 
-[
-\boxed{
-T_{CP}
-======
+## \[ \\boxed{ T\_{CP}
 
-T[
+T\[
 rscf,
 schema,
 state,
@@ -2442,13 +2332,13 @@ constraints,
 validation,
 epoch,
 finalization
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 92. Agent Contract
+## 92. Agent Contract
 
 RSCF-aware agents may:
 
@@ -2476,9 +2366,9 @@ promote MODEL to VERIFIED without validation
 convert capability into authority
 ```
 
----
+______________________________________________________________________
 
-# 93. Skill Contract
+## 93. Skill Contract
 
 Every RSCF-aware skill should expose:
 
@@ -2514,9 +2404,9 @@ rscf_contract:
   invalidation_policy:
 ```
 
----
+______________________________________________________________________
 
-# 94. RSCF Protocol
+## 94. RSCF Protocol
 
 ```yaml
 rscf_protocol:
@@ -2573,9 +2463,9 @@ rscf_protocol:
   state:
 ```
 
----
+______________________________________________________________________
 
-# 95. RSCF Workflow
+## 95. RSCF Workflow
 
 ```text
 1. Parse the exact claim.
@@ -2623,9 +2513,9 @@ rscf_protocol:
 22. Define revalidation triggers.
 ```
 
----
+______________________________________________________________________
 
-# 96. RSCF Invariants
+## 96. RSCF Invariants
 
 ## RSCF-I01 — Epistemic Typing
 
@@ -2707,9 +2597,9 @@ Missing evidence remains `UNKNOWN/GAP`.
 
 Compression preserves load-bearing proof structure.
 
----
+______________________________________________________________________
 
-# 97. Failure Modes
+## 97. Failure Modes
 
 ## RSCF-F01 — Evidence-Free Claim
 
@@ -2791,9 +2681,9 @@ Missing evidence becomes confident prose.
 
 Local invalidation unnecessarily destroys unrelated validated state.
 
----
+______________________________________________________________________
 
-# 98. Repair / Recovery
+## 98. Repair / Recovery
 
 When an RSCF fails:
 
@@ -2825,28 +2715,25 @@ REVALIDATE
 RESTORE / DOWNGRADE / COMPETE / GAP
 ```
 
----
+______________________________________________________________________
 
-# 99. RSCF Repair Equation
+## 99. RSCF Repair Equation
 
 For invalid component (x):
 
-[
-\boxed{
-Repair(R,x)
-===========
+## \[ \\boxed{ Repair(R,x)
 
-Preserve(R_{independent})
-+
-Invalidate(Desc_{LB}(x))
-+
+Preserve(R\_{independent})
+\+
+Invalidate(Desc\_{LB}(x))
+\+
 Revalidate(AffectedState)
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 100. RSCF Revalidation Triggers
+## 100. RSCF Revalidation Triggers
 
 Revalidation should occur when:
 
@@ -2866,9 +2753,9 @@ authority conditions change
 falsifier is observed
 ```
 
----
+______________________________________________________________________
 
-# 101. Validators
+## 101. Validators
 
 ```text
 L00-RSCF-T01 claim typing
@@ -2922,36 +2809,36 @@ L00-RSCF-T24 epoch/freshness validation
 L00-RSCF-T25 UNKNOWN/GAP preservation
 ```
 
----
+______________________________________________________________________
 
-# 102. Falsifiers
+## 102. Falsifiers
 
 This architecture is falsified as an implemented L00 RSCF system if:
 
 1. consequential claims cannot expose premises;
-2. evidence cannot be traced to sources;
-3. ancestry cannot be represented;
-4. correlated evidence is automatically counted as independent;
-5. scope is discarded during reuse;
-6. regime is discarded during reuse;
-7. freshness cannot invalidate stale conclusions;
-8. causal claims require no causal evidence;
-9. contradictions can disappear during synthesis;
-10. competing hypotheses must always collapse to one answer;
-11. confidence can exceed failed load-bearing premises without independent support;
-12. model states can silently become observations;
-13. simulations can silently become empirical evidence;
-14. benchmark results automatically become universal claims;
-15. agent agreement automatically becomes evidence independence;
-16. invalid child RSCFs leave dependent parents verified;
-17. compression removes provenance or falsifiers;
-18. strong evidence automatically grants execution authority;
-19. missing evidence can become `PASS`;
-20. `UNKNOWN/GAP` cannot be represented.
+1. evidence cannot be traced to sources;
+1. ancestry cannot be represented;
+1. correlated evidence is automatically counted as independent;
+1. scope is discarded during reuse;
+1. regime is discarded during reuse;
+1. freshness cannot invalidate stale conclusions;
+1. causal claims require no causal evidence;
+1. contradictions can disappear during synthesis;
+1. competing hypotheses must always collapse to one answer;
+1. confidence can exceed failed load-bearing premises without independent support;
+1. model states can silently become observations;
+1. simulations can silently become empirical evidence;
+1. benchmark results automatically become universal claims;
+1. agent agreement automatically becomes evidence independence;
+1. invalid child RSCFs leave dependent parents verified;
+1. compression removes provenance or falsifiers;
+1. strong evidence automatically grants execution authority;
+1. missing evidence can become `PASS`;
+1. `UNKNOWN/GAP` cannot be represented.
 
----
+______________________________________________________________________
 
-# 103. Gap Matrix
+## 103. Gap Matrix
 
 | Area           | Required capability                | Status                                    |
 | -------------- | ---------------------------------- | ----------------------------------------- |
@@ -2976,16 +2863,13 @@ This architecture is falsified as an implemented L00 RSCF system if:
 | Memory         | persistent proof capsules          | storage-dependent                         |
 | AI execution   | authority separation               | control-plane-dependent                   |
 
----
+______________________________________________________________________
 
-# 104. Canonical RSCF Equation
+## 104. Canonical RSCF Equation
 
-[
-\boxed{
-RSCF(C)
-=======
+## \[ \\boxed{ RSCF(C)
 
-T[
+T\[
 C,
 P,
 E,
@@ -3001,185 +2885,170 @@ U,
 Conf,
 K,
 G
-]
+\]
 }
-]
+\]
 
 where:
 
-- \(C\) = claim;
-- \(P\) = premises;
-- \(E\) = evidence;
+- (C) = claim;
+- (P) = premises;
+- (E) = evidence;
 - (Prov) = provenance;
-- \(S\) = scope;
-- \(R\) = regime;
-- \(T\) = temporal validity;
+- (S) = scope;
+- (R) = regime;
+- (T) = temporal validity;
 - (Cause) = causal level;
-- \(D\) = dependencies;
-- \(H\) = competing hypotheses;
-- \(F\) = falsifiers;
-- \(U\) = uncertainty;
+- (D) = dependencies;
+- (H) = competing hypotheses;
+- (F) = falsifiers;
+- (U) = uncertainty;
 - (Conf) = confidence ceiling;
-- \(K\) = consequence;
-- \(G\) = governance.
+- (K) = consequence;
+- (G) = governance.
 
----
+______________________________________________________________________
 
-# 105. Canonical Validity Equation
+## 105. Canonical Validity Equation
 
-[
-\boxed{
-Valid(C)
-========
+## \[ \\boxed{ Valid(C)
 
 PremiseIntegrity
-\land
+\\land
 EvidenceIntegrity
-\land
+\\land
 ProvenanceIntegrity
-\land
+\\land
 ScopeCompatibility
-\land
+\\land
 RegimeCompatibility
-\land
+\\land
 TemporalValidity
-\land
+\\land
 DependencyValidity
-\land
+\\land
 NoUnresolvedFatalContradiction
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 106. Canonical Confidence Equation
+## 106. Canonical Confidence Equation
 
-[
-\boxed{
+\[
+\\boxed{
 Conf(C)
-\leq
-\min_{x\in LB(C)}
+\\leq
+\\min\_{x\\in LB(C)}
 Conf(x)
 }
-]
+\]
 
 unless independently revalidated.
 
----
+______________________________________________________________________
 
-# 107. Canonical Independence Equation
+## 107. Canonical Independence Equation
 
-[
-\boxed{
-IndependentSupport(C)
-=====================
+## \[ \\boxed{ IndependentSupport(C)
 
 Count(
 DistinctMaterialAncestryGroups
 )
 }
-]
+\]
 
 not:
 
-[
-\boxed{
-IndependentSupport(C)
-=====================
+## \[ \\boxed{ IndependentSupport(C)
 
 Count(SourceLabels)
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 108. Canonical Scope Equation
+## 108. Canonical Scope Equation
 
-[
-\boxed{
-Applicable(C,x)
-===============
+## \[ \\boxed{ Applicable(C,x)
 
 ScopeMatch(C,x)
-\land
+\\land
 RegimeMatch(C,x)
-\land
+\\land
 TemporalMatch(C,x)
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 109. Canonical Invalidation Equation
+## 109. Canonical Invalidation Equation
 
-[
-\boxed{
+\[
+\\boxed{
 Invalid(x)
-\Rightarrow
-Invalidate(Desc_{LB}(x))
+\\Rightarrow
+Invalidate(Desc\_{LB}(x))
 }
-]
+\]
 
 while:
 
-[
-\boxed{
+\[
+\\boxed{
 Independent(y,x)
-\Rightarrow
+\\Rightarrow
 Preserve(y)
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 110. Canonical Competing Equation
+## 110. Canonical Competing Equation
 
 If:
 
-[
+\[
 Support(H_i)
-\approx
+\\approx
 Support(H_j)
-]
+\]
 
 and no reliable discriminator exists:
 
-[
-\boxed{
-State(H_i,H_j)
-==============
+## \[ \\boxed{ State(H_i,H_j)
 
 COMPETING
 }
-]
+\]
 
 rather than forced convergence.
 
----
+______________________________________________________________________
 
-# 111. Canonical Decision Sufficiency
+## 111. Canonical Decision Sufficiency
 
 A proof path is sufficient when additional evidence is unlikely to change the decision enough to justify its acquisition cost.
 
 Conceptually:
 
-[
-\boxed{
+\[
+\\boxed{
 Stop
-\iff
+\\iff
 ClaimSufficient
-\land
+\\land
 DecisionSufficient
-\land
+\\land
 ActionSufficient
 }
-]
+\]
 
 subject to unresolved critical gaps and governance requirements.
 
----
+______________________________________________________________________
 
-# 112. Canonical AI Reasoning Pipeline
+## 112. Canonical AI Reasoning Pipeline
 
 ```text
 USER / ENVIRONMENT INPUT
@@ -3236,9 +3105,9 @@ USER / ENVIRONMENT INPUT
        ACTION
 ```
 
----
+______________________________________________________________________
 
-# 113. Canonical RSCF Decision Rule
+## 113. Canonical RSCF Decision Rule
 
 ```text
 IF evidence is missing:
@@ -3275,9 +3144,9 @@ IF authority is absent:
     DO NOT COMMIT ACTION
 ```
 
----
+______________________________________________________________________
 
-# 114. RSCF Completion State
+## 114. RSCF Completion State
 
 ```yaml
 claim_class: MODEL
@@ -3378,9 +3247,9 @@ confidence_ceiling:
   ontological_universality: unverified
 ```
 
----
+______________________________________________________________________
 
-# 115. Hard Boundaries
+## 115. Hard Boundaries
 
 ```text
 REALITY != REPRESENTATION
@@ -3458,102 +3327,99 @@ PLACEHOLDER != IMPLEMENTED
 ADDRESSABLE != VALIDATED
 ```
 
----
+______________________________________________________________________
 
-# 116. Canonical RSCF Law
+## 116. Canonical RSCF Law
 
-[
-\boxed{
-KnowledgeIntegrity
-==================
+## \[ \\boxed{ KnowledgeIntegrity
 
 ClaimTyping
-\land
+\\land
 PremiseIntegrity
-\land
+\\land
 EvidenceIntegrity
-\land
+\\land
 ProvenanceIntegrity
-\land
+\\land
 ScopeIntegrity
-\land
+\\land
 RegimeIntegrity
-\land
+\\land
 TemporalIntegrity
-\land
+\\land
 CausalDiscipline
-\land
+\\land
 ContradictionVisibility
-\land
+\\land
 Falsifiability
 }
-]
+\]
 
 For derived conclusions:
 
-[
-\boxed{
+\[
+\\boxed{
 Confidence(C)
-\leq
+\\leq
 WeakestLoadBearingPremise(C)
 }
-]
+\]
 
 unless an independent validation path raises the justified ceiling.
 
 For evidence aggregation:
 
-[
-\boxed{
+\[
+\\boxed{
 EvidenceStrength
-\neq
+\\neq
 RawEvidenceCount
 }
-]
+\]
 
 and:
 
-[
-\boxed{
+\[
+\\boxed{
 IndependentEvidence
-\Rightarrow
+\\Rightarrow
 IndependentMaterialAncestry
 }
-]
+\]
 
 where independence is relevant and can be established.
 
 For recursive proof state:
 
-[
-\boxed{
+\[
+\\boxed{
 InvalidPremise
-\Rightarrow
+\\Rightarrow
 SelectiveInvalidation
 }
-]
+\]
 
 not global epistemic collapse.
 
 For unresolved explanations:
 
-[
-\boxed{
+\[
+\\boxed{
 NoDiscriminatingEvidence
-\Rightarrow
+\\Rightarrow
 Preserve(COMPETING)
 }
-]
+\]
 
 For missing evidence:
 
-[
-\boxed{
+\[
+\\boxed{
 CriticalGap
-\Rightarrow
+\\Rightarrow
 UNKNOWN/GAP
 }
-]
+\]
 
 not fluent completion.
 
@@ -3561,30 +3427,33 @@ The governing architectural principle is:
 
 > **AMOS RSCF converts reasoning into provenance-bound, scope-aware, regime-aware, falsifiable, recursively dependent claim structures. It permits inference without confusing inference with observation, supports confidence without confusing confidence with truth, preserves competing explanations instead of forcing convergence, and ensures that when evidence fails only the conclusions that materially depend on it are invalidated.**
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · 06-Knowledge-Base-MOC · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · Cosmo_Brain_BRIDGE_INDEX · Cosmo_Brain_BRIDGE_INDEX · Cosmo_Brain_BRIDGE_INDEX · Cosmo_Brain_BRIDGE_INDEX · RSCF Modeler · Cosmo_Brain_BRIDGE_INDEX · AMOS Provenance Sybil Hardening · AMOS Causal Hierarchy Governor · Cosmo_Brain_BRIDGE_INDEX
 
 ```
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: l00_reality_environment_primitives_cognitive_matrix_rscf
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_RSCF.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_MOC|L00_REALITY_ENVIRONMENT_MOC]]
-

@@ -74,7 +74,7 @@
     "arxiv-manifold-constrained-conformal-spatial-rscf"
   ],
   "depends_on_workflows": [
-    "arxiv-manifold-constrained-conformal-spatial-rscf-workflow.md"
+    "amos-arxiv-manifold-constrained-conformal-spatial-rscf-workflow.md"
   ],
   "epistemic_class": "AMOS_MODEL",
   "claim_ceiling": 0.95,

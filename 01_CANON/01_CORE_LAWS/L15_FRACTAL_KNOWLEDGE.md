@@ -1,31 +1,34 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: L15 FRACTAL KNOWLEDGE
 type: fractal
 source: 01_CANON/01_CORE_LAWS
 tags:
-- canon
-- core_laws
-- fractal
-- fractal_knowledge
-- family_taxonomy
-- statistical_validation
-- generative_systems
-- constructive_trace
-- analogy_firewall
-- bridge_governance
-- epistemic_governance
-- canon/universe
-- validation
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- amos-core-all-versions-fractal-knowledge-network
-- rscf
-- gmef
-- provenance-topology
-- competing-hypotheses
-- causal-firewall
-- scope-regime-firewall
-- law/L11-knowledge-memory
+  - canon
+  - core_laws
+  - fractal
+  - fractal_knowledge
+  - family_taxonomy
+  - statistical_validation
+  - generative_systems
+  - constructive_trace
+  - analogy_firewall
+  - bridge_governance
+  - epistemic_governance
+  - canon/universe
+  - validation
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - amos-core-all-versions-fractal-knowledge-network
+  - rscf
+  - gmef
+  - provenance-topology
+  - competing-hypotheses
+  - causal-firewall
+  - scope-regime-firewall
+  - law/L11-knowledge-memory
 rscf:
   state: SOURCE_CLAIM
   claim_class: CONDITIONAL
@@ -44,9 +47,9 @@ rscf:
 **canonical_status:** CONDITIONAL
 **updated:** 2026-08-26
 
----
+______________________________________________________________________
 
-# 0. Status
+## 0. Status
 
 L15 defines the proposed AMOS governance layer for claims involving fractals, fractal families, scale structure, statistical heavy-tail families, recursive generators, self-similarity, constructive systems, and cross-domain structural analogy.
 
@@ -76,7 +79,7 @@ It replaces the prior placeholder with a structured specification governing:
 
 L15 remains:
 
-```text
+````text
 PROPOSED_SPECIFICATION
         │
         ▼
@@ -109,11 +112,11 @@ SEMANTIC ISOMORPHISM
 ANALOGY
 ≠
 CAUSATION
-```
+````
 
----
+______________________________________________________________________
 
-# 1. Governing Objective
+## 1. Governing Objective
 
 L15 exists to prevent the word **fractal** from becoming an unrestricted metaphor or an inference shortcut.
 
@@ -147,9 +150,9 @@ FAMILY SPECIFICITY
 
 This is an AMOS conceptual model, not an empirical equation.
 
----
+______________________________________________________________________
 
-# 2. Core Fractal Knowledge Laws
+## 2. Core Fractal Knowledge Laws
 
 ```text
 FK-1
@@ -185,17 +188,17 @@ CLASSIFY CLAIM
 
 No step may be replaced merely by visual resemblance.
 
----
+______________________________________________________________________
 
-# 3. FK-1 — Family Declaration
+## 3. FK-1 — Family Declaration
 
 **Law**
 
 Every consequential fractal claim MUST identify:
 
 1. its canonical fractal family,
-2. its family identifier within the FR001–FR025 taxonomy,
-3. the validation method appropriate to that family.
+1. its family identifier within the FR001–FR025 taxonomy,
+1. the validation method appropriate to that family.
 
 Conceptually:
 
@@ -236,9 +239,9 @@ fractal_family_taxonomy:
 
 AMOS MUST NOT invent missing family definitions.
 
----
+______________________________________________________________________
 
-# 4. Why Family Declaration Is Required
+## 4. Why Family Declaration Is Required
 
 The term:
 
@@ -250,18 +253,18 @@ can refer to materially different structures.
 
 Possible classes may involve:
 
-* statistical scaling,
-* geometric self-similarity,
-* recursive construction,
-* iterated function systems,
-* L-systems,
-* substitution systems,
-* tilings,
-* multifractal structure,
-* scale-dependent measures,
-* graph or network scaling,
-* temporal scaling,
-* other canonical FR families.
+- statistical scaling,
+- geometric self-similarity,
+- recursive construction,
+- iterated function systems,
+- L-systems,
+- substitution systems,
+- tilings,
+- multifractal structure,
+- scale-dependent measures,
+- graph or network scaling,
+- temporal scaling,
+- other canonical FR families.
 
 But L15 does **not** establish that these correspond to particular FR identifiers unless authoritative taxonomy does so.
 
@@ -278,9 +281,9 @@ THIS CLAIM TARGETS FAMILY FRxxx
 AND IS TESTED BY METHOD M
 ```
 
----
+______________________________________________________________________
 
-# 5. Family-Specific Validation
+## 5. Family-Specific Validation
 
 Different families require different proof obligations.
 
@@ -314,9 +317,9 @@ ONE UNIVERSAL "FRACTAL TEST"
 
 is rejected unless authoritative canon explicitly defines one.
 
----
+______________________________________________________________________
 
-# 6. Fractal Claim Schema
+## 6. Fractal Claim Schema
 
 ```yaml
 fractal_claim:
@@ -370,9 +373,9 @@ fractal_claim:
     UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 7. Family Taxonomy Versioning
+## 7. Family Taxonomy Versioning
 
 Fractal family identity SHOULD be bound to a taxonomy version where relevant.
 
@@ -397,9 +400,9 @@ FR007@taxonomy_V2
 
 if authoritative taxonomy changes.
 
----
+______________________________________________________________________
 
-# 8. Unknown Family
+## 8. Unknown Family
 
 If a pattern appears fractal-like but cannot be assigned to a canonical family:
 
@@ -424,9 +427,9 @@ depending on what is actually supported.
 
 Do not fabricate the nearest FR identifier.
 
----
+______________________________________________________________________
 
-# 9. Competing Family Assignment
+## 9. Competing Family Assignment
 
 A structure may plausibly fit multiple families.
 
@@ -448,9 +451,9 @@ claim_class: COMPETING
 
 rather than forcing a single family.
 
----
+______________________________________________________________________
 
-# 10. Family Declaration Invariant
+## 10. Family Declaration Invariant
 
 ```text
 NO FAMILY
@@ -464,9 +467,9 @@ Thus:
 
 > **Classification precedes validation, but classification itself remains falsifiable.**
 
----
+______________________________________________________________________
 
-# 11. FK-2 — Fit Before Claim
+## 11. FK-2 — Fit Before Claim
 
 **Law**
 
@@ -492,9 +495,9 @@ LOG-LOG EYEBALLING
 
 as sufficient evidence.
 
----
+______________________________________________________________________
 
-# 12. Statistical Claim Pipeline
+## 12. Statistical Claim Pipeline
 
 ```text
 DATA
@@ -522,9 +525,9 @@ CLASSIFY RESULT
 
 A visually straight line on log-log axes cannot replace this process.
 
----
+______________________________________________________________________
 
-# 13. Power-Law Candidate Model
+## 13. Power-Law Candidate Model
 
 Where the canonical family is a power-law-type statistical model, a conceptual form may be:
 
@@ -542,9 +545,9 @@ The exact continuous/discrete likelihood formulation depends on the data and can
 
 L15 does not authorize one universal estimator for every statistical family.
 
----
+______________________________________________________________________
 
-# 14. Alpha Estimation
+## 14. Alpha Estimation
 
 The source requires:
 
@@ -571,9 +574,9 @@ The estimator MUST correspond to the actual model and data type.
 
 Do not apply a continuous estimator blindly to discrete data or vice versa.
 
----
+______________________________________________________________________
 
-# 15. Confidence Interval Requirement
+## 15. Confidence Interval Requirement
 
 A point estimate alone is insufficient.
 
@@ -598,9 +601,9 @@ The numerical interval must come from the actual fitted data.
 
 AMOS must never fabricate CI values.
 
----
+______________________________________________________________________
 
-# 16. x_min Declaration
+## 16. x_min Declaration
 
 The lower bound:
 
@@ -626,9 +629,9 @@ fit_domain:
 
 A fit that silently chooses its favorable scaling region is not adequately auditable.
 
----
+______________________________________________________________________
 
-# 17. x_min Sensitivity
+## 17. x_min Sensitivity
 
 Because the conclusion may depend strongly on `x_min`, L15 requires sensitivity awareness.
 
@@ -655,9 +658,9 @@ robustness: FRAGILE
 claim_class: CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
-# 18. Log-Log Eyeballing Rejection
+## 18. Log-Log Eyeballing Rejection
 
 A common weak inference is:
 
@@ -682,9 +685,9 @@ VALIDATED POWER-LAW FIT
 
 because alternative distributions can produce visually similar regions.
 
----
+______________________________________________________________________
 
-# 19. Alternative-Model Duel
+## 19. Alternative-Model Duel
 
 A statistical family must be challenged against credible alternatives.
 
@@ -711,9 +714,9 @@ alternative_model_set:
   exact_required_models: GAP_IF_CANON_NOT_LOADED
 ```
 
----
+______________________________________________________________________
 
-# 20. Alternative Comparison Record
+## 20. Alternative Comparison Record
 
 ```yaml
 model_duel:
@@ -738,9 +741,9 @@ model_duel:
     string|null
 ```
 
----
+______________________________________________________________________
 
-# 21. Competing Statistical Models
+## 21. Competing Statistical Models
 
 If:
 
@@ -768,9 +771,9 @@ claim_class: VERIFIED
 
 The cheapest high-information discriminating test should be preferred over accumulating redundant plots.
 
----
+______________________________________________________________________
 
-# 22. Statistical Provenance
+## 22. Statistical Provenance
 
 Every audited fit SHOULD preserve:
 
@@ -809,9 +812,9 @@ statistical_provenance:
 
 This allows later reconstruction.
 
----
+______________________________________________________________________
 
-# 23. Fit Reproducibility
+## 23. Fit Reproducibility
 
 A statistical fractal claim SHOULD be reproducible from:
 
@@ -838,9 +841,9 @@ reproducibility:
 
 and confidence must reflect that gap.
 
----
+______________________________________________________________________
 
-# 24. Statistical Scope
+## 24. Statistical Scope
 
 A validated statistical fit applies only to its tested domain.
 
@@ -868,9 +871,9 @@ POWER LAW AT ALL SCALES
 
 unless independently established.
 
----
+______________________________________________________________________
 
-# 25. Finite-Range Scaling
+## 25. Finite-Range Scaling
 
 Observed scaling over a finite range must remain explicitly finite-range.
 
@@ -899,9 +902,9 @@ scale_claim:
 
 unless separately validated.
 
----
+______________________________________________________________________
 
-# 26. Sample-Size Sensitivity
+## 26. Sample-Size Sensitivity
 
 Small samples may produce unstable apparent scaling.
 
@@ -918,19 +921,19 @@ Therefore sample adequacy should be considered in confidence classification.
 
 L15 does not specify a universal minimum sample size.
 
----
+______________________________________________________________________
 
-# 27. Preprocessing Sensitivity
+## 27. Preprocessing Sensitivity
 
 A fractal fit may depend on:
 
-* filtering,
-* binning,
-* thresholding,
-* aggregation,
-* missing-data treatment,
-* temporal resolution,
-* normalization.
+- filtering,
+- binning,
+- thresholding,
+- aggregation,
+- missing-data treatment,
+- temporal resolution,
+- normalization.
 
 Therefore:
 
@@ -948,9 +951,9 @@ must not be assumed equivalent.
 
 Load-bearing preprocessing should be recorded.
 
----
+______________________________________________________________________
 
-# 28. Statistical Failure Conditions
+## 28. Statistical Failure Conditions
 
 A statistical family claim should be downgraded when:
 
@@ -982,9 +985,9 @@ UNKNOWN
 
 using the weakest accurate class.
 
----
+______________________________________________________________________
 
-# 29. FK-3 — Constructive Trace
+## 29. FK-3 — Constructive Trace
 
 **Law**
 
@@ -1008,9 +1011,9 @@ not visual similarity.
 
 The source names these examples explicitly but does not claim they exhaust all generative FR families.
 
----
+______________________________________________________________________
 
-# 30. Generative Validation Pipeline
+## 30. Generative Validation Pipeline
 
 ```text
 CLAIMED GENERATIVE FAMILY
@@ -1032,9 +1035,9 @@ COMPARE GENERATED STRUCTURE
 CLASSIFY CLAIM
 ```
 
----
+______________________________________________________________________
 
-# 31. Constructive Proof Principle
+## 31. Constructive Proof Principle
 
 For a generative family, evidence should answer:
 
@@ -1058,9 +1061,9 @@ VISUAL MATCH
 CONSTRUCTIVE TRACE
 ```
 
----
+______________________________________________________________________
 
-# 32. Generator Schema
+## 32. Generator Schema
 
 ```yaml
 fractal_generator:
@@ -1097,9 +1100,9 @@ fractal_generator:
     source: string|null
 ```
 
----
+______________________________________________________________________
 
-# 33. Rule Trace
+## 33. Rule Trace
 
 A constructive trace SHOULD preserve the sequence:
 
@@ -1136,9 +1139,9 @@ trace:
 
 The exact representation depends on the generative family.
 
----
+______________________________________________________________________
 
-# 34. Deterministic Generators
+## 34. Deterministic Generators
 
 For deterministic rules:
 
@@ -1174,9 +1177,9 @@ status: UNKNOWN
 
 if evidence is incomplete.
 
----
+______________________________________________________________________
 
-# 35. Stochastic Generators
+## 35. Stochastic Generators
 
 If a canonical generative family contains stochastic rules, reproducibility may require:
 
@@ -1192,9 +1195,9 @@ However, stochastic family semantics are not supplied in the source.
 
 Therefore this remains a generic AMOS_MODEL extension rather than recovered fractal canon.
 
----
+______________________________________________________________________
 
-# 36. IFS Validation
+## 36. IFS Validation
 
 For an iterated-function-system-type claim, the conceptual proof obligation includes:
 
@@ -1218,9 +1221,9 @@ MODEL / ANALOGY
 
 not a validated IFS identification.
 
----
+______________________________________________________________________
 
-# 37. L-System Validation
+## 37. L-System Validation
 
 For an L-system-type claim, conceptually preserve:
 
@@ -1249,9 +1252,9 @@ GENERATED STRUCTURE
 
 The resulting object must be linked to the actual rewrite trace.
 
----
+______________________________________________________________________
 
-# 38. Tiling Validation
+## 38. Tiling Validation
 
 For a generative tiling claim, evidence should preserve the relevant canonical rules, such as:
 
@@ -1267,9 +1270,9 @@ RESULTING CONFIGURATION
 
 Exact canonical requirements depend on the relevant FR family and must not be invented.
 
----
+______________________________________________________________________
 
-# 39. Convergence Evidence
+## 39. Convergence Evidence
 
 FK-3 requires convergence evidence.
 
@@ -1291,17 +1294,17 @@ The appropriate notion of convergence is family-dependent.
 
 Examples may include:
 
-* geometric convergence,
-* measure convergence,
-* iterative stabilization,
-* invariant-set convergence,
-* substitution convergence.
+- geometric convergence,
+- measure convergence,
+- iterative stabilization,
+- invariant-set convergence,
+- substitution convergence.
 
 But the authoritative family validator controls which one applies.
 
----
+______________________________________________________________________
 
-# 40. Finite Approximation vs Limit Object
+## 40. Finite Approximation vs Limit Object
 
 A finite generated approximation:
 
@@ -1325,9 +1328,9 @@ FINITE ITERATION
 PROOF OF LIMIT OBJECT
 ```
 
----
+______________________________________________________________________
 
-# 41. Visual Similarity Firewall
+## 41. Visual Similarity Firewall
 
 A pattern may visually resemble a canonical fractal without sharing its generating mechanism.
 
@@ -1355,9 +1358,9 @@ FAMILY(B)
 
 Therefore visual resemblance can generate a hypothesis but not complete the validation.
 
----
+______________________________________________________________________
 
-# 42. Constructive Provenance
+## 42. Constructive Provenance
 
 A generative claim SHOULD preserve:
 
@@ -1383,9 +1386,9 @@ constructive_provenance:
 
 This enables later audit of whether the output actually came from the claimed generator.
 
----
+______________________________________________________________________
 
-# 43. Rule Mutation
+## 43. Rule Mutation
 
 If a generator changes:
 
@@ -1407,9 +1410,9 @@ CLAIM@R2
 
 unless invariant under the change and independently demonstrated.
 
----
+______________________________________________________________________
 
-# 44. Generative Failure Conditions
+## 44. Generative Failure Conditions
 
 A generative fractal claim fails or downgrades when:
 
@@ -1427,9 +1430,9 @@ OR
 ONLY VISUAL SIMILARITY EXISTS
 ```
 
----
+______________________________________________________________________
 
-# 45. FK-4 — Analogy ≠ Isomorphism
+## 45. FK-4 — Analogy ≠ Isomorphism
 
 **Law**
 
@@ -1454,9 +1457,9 @@ PROPERTY P OF A
 MUST HOLD FOR B
 ```
 
----
+______________________________________________________________________
 
-# 46. Analogy Hierarchy
+## 46. Analogy Hierarchy
 
 Conceptually:
 
@@ -1476,9 +1479,9 @@ Each arrow requires additional evidence.
 
 No stage may be skipped by rhetoric.
 
----
+______________________________________________________________________
 
-# 47. Visual Similarity
+## 47. Visual Similarity
 
 Weakest form:
 
@@ -1495,9 +1498,9 @@ epistemic_class: MODEL
 
 This supports hypothesis generation, not semantic transfer.
 
----
+______________________________________________________________________
 
-# 48. Structural Resemblance
+## 48. Structural Resemblance
 
 A stronger statement:
 
@@ -1517,9 +1520,9 @@ but still does not establish:
 ISOMORPHISM
 ```
 
----
+______________________________________________________________________
 
-# 49. Formal Isomorphism
+## 49. Formal Isomorphism
 
 An isomorphism claim requires a formally specified mapping preserving the relevant structure.
 
@@ -1535,9 +1538,9 @@ A valid isomorphism claim requires more than superficial similarity.
 
 The exact mathematical preservation rules depend on the structures involved.
 
----
+______________________________________________________________________
 
-# 50. Semantic Transfer
+## 50. Semantic Transfer
 
 Even formal structural equivalence does not automatically license transfer of every domain meaning.
 
@@ -1559,18 +1562,18 @@ SEMANTICS(B)
 
 because semantics may depend on:
 
-* interpretation,
-* measurement,
-* causal mechanism,
-* physical substrate,
-* scale,
-* regime,
-* boundary conditions,
-* domain ontology.
+- interpretation,
+- measurement,
+- causal mechanism,
+- physical substrate,
+- scale,
+- regime,
+- boundary conditions,
+- domain ontology.
 
----
+______________________________________________________________________
 
-# 51. Bridge Governance
+## 51. Bridge Governance
 
 Semantic transfer requires an explicit bridge.
 
@@ -1613,9 +1616,9 @@ SEMANTIC TRANSFER
 UNLICENSED
 ```
 
----
+______________________________________________________________________
 
-# 52. Bridge Proof Obligations
+## 52. Bridge Proof Obligations
 
 A bridge should answer:
 
@@ -1647,9 +1650,9 @@ or:
 CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
-# 53. Cross-Domain Fractal Analogy
+## 53. Cross-Domain Fractal Analogy
 
 Suppose:
 
@@ -1683,9 +1686,9 @@ STRUCTURAL RESEMBLANCE UNDER METRIC M
 
 within the observed scope.
 
----
+______________________________________________________________________
 
-# 54. Cross-Scale Transfer
+## 54. Cross-Scale Transfer
 
 A fractal claim at one scale does not automatically license another scale.
 
@@ -1707,9 +1710,9 @@ even when self-similarity is hypothesized.
 
 Cross-scale invariance must be tested.
 
----
+______________________________________________________________________
 
-# 55. Causal Firewall
+## 55. Causal Firewall
 
 Fractal structure is not itself a causal explanation.
 
@@ -1737,9 +1740,9 @@ A AND B SHARE GENERATIVE CAUSE
 
 The causal evidence must be independently typed.
 
----
+______________________________________________________________________
 
-# 56. Fractal Dimension Firewall
+## 56. Fractal Dimension Firewall
 
 Even where two objects share a measured fractal dimension:
 
@@ -1767,19 +1770,19 @@ SEMANTICS(A) = SEMANTICS(B)
 
 A scalar descriptor cannot carry the full structural or semantic identity.
 
----
+______________________________________________________________________
 
-# 57. Metric Dependence
+## 57. Metric Dependence
 
 Fractal measurements may depend on:
 
-* metric,
-* estimator,
-* scale range,
-* resolution,
-* sampling,
-* embedding,
-* preprocessing.
+- metric,
+- estimator,
+- scale range,
+- resolution,
+- sampling,
+- embedding,
+- preprocessing.
 
 Therefore:
 
@@ -1794,9 +1797,9 @@ fractal_measurement:
 
 should accompany consequential claims where relevant.
 
----
+______________________________________________________________________
 
-# 58. Measurement Method Preservation
+## 58. Measurement Method Preservation
 
 If:
 
@@ -1822,9 +1825,9 @@ SAME MEASUREMENT PROCESS
 
 Measurement provenance is part of scope.
 
----
+______________________________________________________________________
 
-# 59. Scope Envelope
+## 59. Scope Envelope
 
 Every consequential fractal claim SHOULD inherit:
 
@@ -1854,9 +1857,9 @@ scope:
 
 No silent generalization outside this envelope.
 
----
+______________________________________________________________________
 
-# 60. Regime Firewall
+## 60. Regime Firewall
 
 A fractal property observed in regime `R1` may fail in regime `R2`.
 
@@ -1880,9 +1883,9 @@ cannot silently become:
 F@ALL_REGIMES
 ```
 
----
+______________________________________________________________________
 
-# 61. Scale Break Detection
+## 61. Scale Break Detection
 
 A system may show different behavior at different scales.
 
@@ -1904,9 +1907,9 @@ A single-family claim across all scales would be invalid.
 
 Therefore scale breaks should be explicitly searched for where material.
 
----
+______________________________________________________________________
 
-# 62. Fractal Claim Provenance
+## 62. Fractal Claim Provenance
 
 ```yaml
 fractal_provenance:
@@ -1939,9 +1942,9 @@ fractal_provenance:
   timestamp: string|null
 ```
 
----
+______________________________________________________________________
 
-# 63. Descendant Repetition
+## 63. Descendant Repetition
 
 Suppose one paper claims a fractal pattern and ten later documents repeat it.
 
@@ -1965,9 +1968,9 @@ FROM SHARED ANCESTRY
 INDEPENDENT CONFIRMATION
 ```
 
----
+______________________________________________________________________
 
-# 64. Family Claim Confidence Ceiling
+## 64. Family Claim Confidence Ceiling
 
 Conceptually:
 
@@ -1987,9 +1990,9 @@ min(
 
 If any load-bearing component is `UNKNOWN`, the final claim cannot exceed that limitation without independent validation.
 
----
+______________________________________________________________________
 
-# 65. Statistical Proof Capsule
+## 65. Statistical Proof Capsule
 
 ```yaml
 statistical_fractal_proof_capsule:
@@ -2041,9 +2044,9 @@ statistical_fractal_proof_capsule:
     string
 ```
 
----
+______________________________________________________________________
 
-# 66. Constructive Proof Capsule
+## 66. Constructive Proof Capsule
 
 ```yaml
 constructive_fractal_proof_capsule:
@@ -2094,9 +2097,9 @@ constructive_fractal_proof_capsule:
     string
 ```
 
----
+______________________________________________________________________
 
-# 67. Analogy Proof Capsule
+## 67. Analogy Proof Capsule
 
 ```yaml
 fractal_analogy_proof_capsule:
@@ -2145,9 +2148,9 @@ fractal_analogy_proof_capsule:
     UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 68. Validation Method Registry
+## 68. Validation Method Registry
 
 Conceptually:
 
@@ -2185,9 +2188,9 @@ but does not supply the mapping.
 
 Filling these entries without authoritative fractal canon would violate anti-fabrication.
 
----
+______________________________________________________________________
 
-# 69. Family Validator Interface
+## 69. Family Validator Interface
 
 ```python
 class FractalFamilyValidator:
@@ -2217,9 +2220,9 @@ def validate_fractal_claim(claim, evidence):
 
 Semantic pseudocode only.
 
----
+______________________________________________________________________
 
-# 70. Statistical Validator Interface
+## 70. Statistical Validator Interface
 
 ```python
 class StatisticalFractalValidator:
@@ -2257,9 +2260,9 @@ class StatisticalFractalValidator:
 
 This encodes FK-2 semantics without claiming one implementation fits every FR family.
 
----
+______________________________________________________________________
 
-# 71. Constructive Validator Interface
+## 71. Constructive Validator Interface
 
 ```python
 class ConstructiveFractalValidator:
@@ -2288,9 +2291,9 @@ class ConstructiveFractalValidator:
         return PASS
 ```
 
----
+______________________________________________________________________
 
-# 72. Bridge Validator Interface
+## 72. Bridge Validator Interface
 
 ```python
 class StructuralBridgeValidator:
@@ -2312,9 +2315,9 @@ class StructuralBridgeValidator:
         return supported_claim_class(bridge)
 ```
 
----
+______________________________________________________________________
 
-# 73. Fractal Claim State Machine
+## 73. Fractal Claim State Machine
 
 ```text
 OBSERVED PATTERN
@@ -2346,9 +2349,9 @@ ALTERNATIVES CHALLENGED
          INVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 74. Statistical State Machine
+## 74. Statistical State Machine
 
 ```text
 DATA
@@ -2382,9 +2385,9 @@ ALTERNATIVE DUEL
       INVALID
 ```
 
----
+______________________________________________________________________
 
-# 75. Constructive State Machine
+## 75. Constructive State Machine
 
 ```text
 VISUAL CANDIDATE
@@ -2409,9 +2412,9 @@ OUTPUT MATCH?
   └── YES → SUPPORTED
 ```
 
----
+______________________________________________________________________
 
-# 76. Analogy State Machine
+## 76. Analogy State Machine
 
 ```text
 RESEMBLANCE
@@ -2437,9 +2440,9 @@ SEMANTIC BRIDGE?
 VALIDATE BRIDGE
 ```
 
----
+______________________________________________________________________
 
-# 77. Adversarial Validation
+## 77. Adversarial Validation
 
 For a consequential fractal claim, first construct the strongest supported version.
 
@@ -2493,9 +2496,9 @@ Is causation being inferred from shape?
 Does the mapping survive regime or scale changes?
 ```
 
----
+______________________________________________________________________
 
-# 78. Cheapest Discriminating Test
+## 78. Cheapest Discriminating Test
 
 When two family hypotheses compete:
 
@@ -2525,9 +2528,9 @@ IN DECISION-RELEVANT UNCERTAINTY
 
 This is an AMOS reasoning heuristic, not an empirical formula.
 
----
+______________________________________________________________________
 
-# 79. Fractal Sensitivity
+## 79. Fractal Sensitivity
 
 A consequential claim should identify the smallest assumption capable of flipping its class.
 
@@ -2565,9 +2568,9 @@ Fragile results should remain:
 CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
-# 80. Fractal Uncertainty Vector
+## 80. Fractal Uncertainty Vector
 
 ```yaml
 fractal_uncertainty:
@@ -2607,9 +2610,9 @@ fractal_uncertainty:
 
 These dimensions should not be collapsed into one confidence number when the distinction matters.
 
----
+______________________________________________________________________
 
-# 81. Fractal Knowledge and Memory
+## 81. Fractal Knowledge and Memory
 
 Validated fractal knowledge stored in memory SHOULD preserve:
 
@@ -2649,9 +2652,9 @@ If taxonomy or evidence changes:
 REVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 82. Fractal Knowledge Harvest
+## 82. Fractal Knowledge Harvest
 
 ```text
 RAW PATTERN
@@ -2681,9 +2684,9 @@ directly as:
 VERIFIED FRACTAL KNOWLEDGE
 ```
 
----
+______________________________________________________________________
 
-# 83. Fractal Retrieval
+## 83. Fractal Retrieval
 
 AMOS fractal retrieval should follow the smallest sufficient dependency path.
 
@@ -2708,9 +2711,9 @@ DO_NOT_LOAD_UNLESS_REQUIRED
 
 unless the conclusion depends on unresolved detail.
 
----
+______________________________________________________________________
 
-# 84. Fractal Bootstrap Capsule
+## 84. Fractal Bootstrap Capsule
 
 ```yaml
 fractal_bootstrap_capsule:
@@ -2744,9 +2747,9 @@ fractal_bootstrap_capsule:
 
 This is the smallest reusable proof representation.
 
----
+______________________________________________________________________
 
-# 85. Dependency Closure
+## 85. Dependency Closure
 
 A fractal conclusion may depend on:
 
@@ -2774,9 +2777,9 @@ INVALIDATE DEPENDENT FIT
 
 not unrelated fractal knowledge.
 
----
+______________________________________________________________________
 
-# 86. Local Invalidation
+## 86. Local Invalidation
 
 Suppose:
 
@@ -2810,9 +2813,9 @@ remains untouched.
 
 Fractal recovery follows dependency-local repair.
 
----
+______________________________________________________________________
 
-# 87. Taxonomy Change
+## 87. Taxonomy Change
 
 If authoritative fractal canon changes:
 
@@ -2838,9 +2841,9 @@ NEW FAMILY
 → no retroactive assignment without validation
 ```
 
----
+______________________________________________________________________
 
-# 88. Provenance Topology
+## 88. Provenance Topology
 
 ```text
 DATASET D
@@ -2864,9 +2867,9 @@ AUTOMATICALLY MULTIPLE INDEPENDENT DATASETS
 
 Independence must be demonstrated.
 
----
+______________________________________________________________________
 
-# 89. Sybil Hardening
+## 89. Sybil Hardening
 
 A fractal claim repeated across:
 
@@ -2896,9 +2899,9 @@ REPETITION
 STATISTICAL SUPPORT
 ```
 
----
+______________________________________________________________________
 
-# 90. Causal Overreach Detection
+## 90. Causal Overreach Detection
 
 Reject transformations of the form:
 
@@ -2927,9 +2930,9 @@ causal_status:
   licensed_by_fractal_fit_alone: false
 ```
 
----
+______________________________________________________________________
 
-# 91. Semantic Overreach Detection
+## 91. Semantic Overreach Detection
 
 Reject:
 
@@ -2949,9 +2952,9 @@ DECLARED STRUCTURAL PROPERTY S
 UNDER MAPPING M
 ```
 
----
+______________________________________________________________________
 
-# 92. Recursive Architecture Claims
+## 92. Recursive Architecture Claims
 
 AMOS may use recursive or fractal organizational patterns as architecture models.
 
@@ -2973,9 +2976,9 @@ may be described as a fractal knowledge organization pattern.
 
 This does not itself prove mathematical fractality.
 
----
+______________________________________________________________________
 
-# 93. Fractal Knowledge Network Firewall
+## 93. Fractal Knowledge Network Firewall
 
 The phrase:
 
@@ -2998,9 +3001,9 @@ AMOS_Fractal_Knowledge_Network:
 
 This preserves AMOS terminology without converting architecture metaphor into empirical proof.
 
----
+______________________________________________________________________
 
-# 94. Recursive RSCF Firewall
+## 94. Recursive RSCF Firewall
 
 Recursive RSCF structures may exhibit repeated organizational motifs.
 
@@ -3029,9 +3032,9 @@ with what metric?
 with what tolerance?
 ```
 
----
+______________________________________________________________________
 
-# 95. Fractal vs Recursive
+## 95. Fractal vs Recursive
 
 Conceptually:
 
@@ -3048,9 +3051,9 @@ family-specific validation
 
 Therefore recursion may be relevant evidence but is not sufficient by itself.
 
----
+______________________________________________________________________
 
-# 96. Fractal vs Hierarchical
+## 96. Fractal vs Hierarchical
 
 A hierarchy:
 
@@ -3074,9 +3077,9 @@ HIERARCHICAL
 FRACTAL
 ```
 
----
+______________________________________________________________________
 
-# 97. Fractal vs Modular
+## 97. Fractal vs Modular
 
 Likewise:
 
@@ -3088,9 +3091,9 @@ FRACTALITY
 
 A modular system can lack scale invariance, self-similarity, or any canonical FR-family property.
 
----
+______________________________________________________________________
 
-# 98. Fractal vs Complex
+## 98. Fractal vs Complex
 
 ```text
 COMPLEX
@@ -3100,9 +3103,9 @@ FRACTAL
 
 Complexity alone does not identify a fractal family.
 
----
+______________________________________________________________________
 
-# 99. Fractal vs Emergent
+## 99. Fractal vs Emergent
 
 ```text
 EMERGENT
@@ -3114,9 +3117,9 @@ Emergent behavior may or may not exhibit fractal properties.
 
 The relationship requires evidence.
 
----
+______________________________________________________________________
 
-# 100. Fractal vs Scale-Free
+## 100. Fractal vs Scale-Free
 
 ```text
 SCALE-FREE
@@ -3139,9 +3142,9 @@ relationship:
   status: DO_NOT_INVENT
 ```
 
----
+______________________________________________________________________
 
-# 101. Fractal vs Power Law
+## 101. Fractal vs Power Law
 
 Likewise:
 
@@ -3161,9 +3164,9 @@ ALWAYS POWER LAW
 
 unless a specific family definition establishes the relationship.
 
----
+______________________________________________________________________
 
-# 102. Fractal Knowledge Integrity Invariants
+## 102. Fractal Knowledge Integrity Invariants
 
 ```yaml
 fractal_knowledge_invariants:
@@ -3225,9 +3228,9 @@ fractal_knowledge_invariants:
       repeated_descendants_do_not_create_independence
 ```
 
----
+______________________________________________________________________
 
-# 103. Anti-Patterns
+## 103. Anti-Patterns
 
 ## FK-A1 — Family-Free Fractal Claim
 
@@ -3239,7 +3242,7 @@ without canonical family declaration.
 
 Rejected for consequential use.
 
----
+______________________________________________________________________
 
 ## FK-A2 — Log-Log Eyeballing
 
@@ -3250,7 +3253,7 @@ LOOKS STRAIGHT
 
 Rejected.
 
----
+______________________________________________________________________
 
 ## FK-A3 — Parameter Without Uncertainty
 
@@ -3262,7 +3265,7 @@ with no uncertainty or fit context.
 
 Insufficient for audited claim.
 
----
+______________________________________________________________________
 
 ## FK-A4 — Hidden x_min
 
@@ -3270,7 +3273,7 @@ Selecting only the region that appears linear without declaring the threshold.
 
 Rejected.
 
----
+______________________________________________________________________
 
 ## FK-A5 — No Alternative Duel
 
@@ -3278,7 +3281,7 @@ Fitting one candidate and declaring victory without testing plausible alternativ
 
 Rejected.
 
----
+______________________________________________________________________
 
 ## FK-A6 — Visual Generator Matching
 
@@ -3294,7 +3297,7 @@ IS GENERATED BY THAT SYSTEM
 
 Rejected.
 
----
+______________________________________________________________________
 
 ## FK-A7 — Finite Iteration Equals Limit
 
@@ -3310,7 +3313,7 @@ S_∞ PROVED
 
 Rejected.
 
----
+______________________________________________________________________
 
 ## FK-A8 — Analogy Laundering
 
@@ -3324,7 +3327,7 @@ without bridge validation.
 
 Rejected.
 
----
+______________________________________________________________________
 
 ## FK-A9 — Causal Laundering
 
@@ -3335,7 +3338,7 @@ POWER LAW OBSERVED
 
 Rejected.
 
----
+______________________________________________________________________
 
 ## FK-A10 — Scale Leakage
 
@@ -3346,7 +3349,7 @@ FRACTAL OVER RANGE R
 
 Rejected.
 
----
+______________________________________________________________________
 
 ## FK-A11 — Taxonomy Fabrication
 
@@ -3354,7 +3357,7 @@ Inventing definitions for missing `FR001–FR025` identifiers.
 
 Strictly prohibited.
 
----
+______________________________________________________________________
 
 ## FK-A12 — Echo Confirmation
 
@@ -3362,9 +3365,9 @@ Multiple descendants of one fractal claim treated as independent validations.
 
 Rejected.
 
----
+______________________________________________________________________
 
-# 104. Fractal Claim Algorithm
+## 104. Fractal Claim Algorithm
 
 ```python
 def evaluate_fractal_claim(claim, evidence):
@@ -3408,9 +3411,9 @@ def evaluate_fractal_claim(claim, evidence):
 
 Semantic pseudocode only.
 
----
+______________________________________________________________________
 
-# 105. Statistical Claim Algorithm
+## 105. Statistical Claim Algorithm
 
 ```python
 def evaluate_statistical_fractal(
@@ -3459,9 +3462,9 @@ def evaluate_statistical_fractal(
     )
 ```
 
----
+______________________________________________________________________
 
-# 106. Constructive Claim Algorithm
+## 106. Constructive Claim Algorithm
 
 ```python
 def evaluate_constructive_fractal(
@@ -3497,9 +3500,9 @@ def evaluate_constructive_fractal(
     return SUPPORTED
 ```
 
----
+______________________________________________________________________
 
-# 107. Analogy Governance Algorithm
+## 107. Analogy Governance Algorithm
 
 ```python
 def evaluate_fractal_analogy(
@@ -3538,9 +3541,9 @@ def evaluate_fractal_analogy(
     )
 ```
 
----
+______________________________________________________________________
 
-# 108. Claim Classes
+## 108. Claim Classes
 
 L15 uses the weakest accurate class.
 
@@ -3575,9 +3578,9 @@ fractal_claim_classes:
       evidence or canon insufficient
 ```
 
----
+______________________________________________________________________
 
-# 109. Falsifiers
+## 109. Falsifiers
 
 ## F1 — Recovered Fractal Canon Defines Different Family Taxonomy
 
@@ -3607,7 +3610,7 @@ invalidate affected family assignments
 revalidate dependent claims
 ```
 
----
+______________________________________________________________________
 
 ## F2 — Statistical Validation Canon Conflict
 
@@ -3624,21 +3627,21 @@ the affected FK-2 interpretation must be revised.
 
 The supplied source currently explicitly specifies those requirements, so any conflict requires authoritative supersession.
 
----
+______________________________________________________________________
 
 ## F3 — Constructive Validation Canon Conflict
 
 If authoritative generative-family canon defines a different proof obligation than rule trace plus convergence evidence, FK-3 must be updated accordingly.
 
----
+______________________________________________________________________
 
 ## F4 — Bridge Governance Conflict
 
 If authoritative canon defines formal conditions under which semantic transfer is licensed without the bridge model proposed here, FK-4 extensions must be revised.
 
----
+______________________________________________________________________
 
-# 110. Known Gaps
+## 110. Known Gaps
 
 ```yaml
 gaps:
@@ -3691,24 +3694,24 @@ gaps:
 
 These gaps must remain explicit.
 
----
+______________________________________________________________________
 
-# 111. Canonical Safety Boundary
+## 111. Canonical Safety Boundary
 
 L15 does **not** establish that:
 
-* AMOS itself is a mathematical fractal,
-* RSCF is mathematically fractal,
-* H/M/L recursion proves fractality,
-* recursive reasoning is fractal in the formal mathematical sense,
-* power-law appearance proves a power law,
-* every scale-free structure is fractal,
-* every fractal structure is scale-free,
-* shared fractal dimension proves common mechanism,
-* visual similarity proves common generator,
-* structural similarity proves semantic identity,
-* structural similarity proves causation,
-* FR001–FR025 definitions can be reconstructed from their identifiers alone.
+- AMOS itself is a mathematical fractal,
+- RSCF is mathematically fractal,
+- H/M/L recursion proves fractality,
+- recursive reasoning is fractal in the formal mathematical sense,
+- power-law appearance proves a power law,
+- every scale-free structure is fractal,
+- every fractal structure is scale-free,
+- shared fractal dimension proves common mechanism,
+- visual similarity proves common generator,
+- structural similarity proves semantic identity,
+- structural similarity proves causation,
+- FR001–FR025 definitions can be reconstructed from their identifiers alone.
 
 Unless separately validated, these remain:
 
@@ -3721,9 +3724,9 @@ GAP
 
 as appropriate.
 
----
+______________________________________________________________________
 
-# 112. RSCF Claim Graph
+## 112. RSCF Claim Graph
 
 ```yaml
 claim_graph:
@@ -3789,9 +3792,9 @@ claim_graph:
       Exact FR001-FR025 mappings remain unknown until authoritative taxonomy is recovered.
 ```
 
----
+______________________________________________________________________
 
-# 113. Dependency Graph
+## 113. Dependency Graph
 
 ```yaml
 dependency_graph:
@@ -3828,9 +3831,9 @@ dependency_graph:
       - semantic_preservation_conditions
 ```
 
----
+______________________________________________________________________
 
-# 114. Unified FK-1 → FK-4 Architecture
+## 114. Unified FK-1 → FK-4 Architecture
 
 ```text
                  FRACTAL CLAIM
@@ -3865,9 +3868,9 @@ dependency_graph:
                CLAIM CLASS
 ```
 
----
+______________________________________________________________________
 
-# 115. Fractal Validation Contract
+## 115. Fractal Validation Contract
 
 ```yaml
 fractal_validation_contract:
@@ -3918,9 +3921,9 @@ fractal_validation_contract:
 
 Only the family-relevant sections need be populated.
 
----
+______________________________________________________________________
 
-# 116. Minimal Statistical Contract
+## 116. Minimal Statistical Contract
 
 ```text
 FAMILY KNOWN?
@@ -3948,9 +3951,9 @@ Missing critical element:
 
 rather than unsupported certainty.
 
----
+______________________________________________________________________
 
-# 117. Minimal Constructive Contract
+## 117. Minimal Constructive Contract
 
 ```text
 FAMILY KNOWN?
@@ -3970,9 +3973,9 @@ CLAIM
 
 Visual similarity cannot substitute for the trace.
 
----
+______________________________________________________________________
 
-# 118. Minimal Analogy Contract
+## 118. Minimal Analogy Contract
 
 ```text
 STRUCTURAL PROPERTY IDENTIFIED?
@@ -3994,9 +3997,9 @@ Without bridge validation:
 ANALOGY REMAINS MODEL
 ```
 
----
+______________________________________________________________________
 
-# 119. Core Compression
+## 119. Core Compression
 
 ```text
 FK-1
@@ -4016,15 +4019,15 @@ RESEMBLANCE IS NOT ISOMORPHISM.
 ISOMORPHISM IS NOT AUTOMATIC SEMANTIC TRANSFER.
 ```
 
----
+______________________________________________________________________
 
-# 120. Canonical One-Line Law
+## 120. Canonical One-Line Law
 
 > **A fractal claim is only as strong as its declared family, family-appropriate validation, provenance, scope, and successful discrimination from competing explanations; visual or structural resemblance alone never licenses mathematical, semantic, or causal equivalence.**
 
----
+______________________________________________________________________
 
-# 121. Canonical Equations
+## 121. Canonical Equations
 
 Conceptual AMOS models:
 
@@ -4107,9 +4110,9 @@ STRUCTURAL SIMILARITY
 CAUSATION
 ```
 
----
+______________________________________________________________________
 
-# 122. Final Proof Capsule
+## 122. Final Proof Capsule
 
 ```yaml
 proof_capsule:
@@ -4185,9 +4188,9 @@ proof_capsule:
     PROPOSED_SPECIFICATION
 ```
 
----
+______________________________________________________________________
 
-# 123. RSCF Node
+## 123. RSCF Node
 
 ```yaml
 RSCF-NODE:
@@ -4242,19 +4245,19 @@ RSCF-RELATIONS:
   - RELATED_TO: [[01_CANON/01_CORE_LAWS/L11_KNOWLEDGE_MEMORY|L11_KNOWLEDGE_MEMORY]]
 ```
 
----
+______________________________________________________________________
 
 **00_ROOT_MOC:**
 
-**Related:**  ·  ·
+**Related:** · ·
 
 **MOC:**
 
 **Trang Framework:**
 
----
+______________________________________________________________________
 
-# 124. L15 Final Invariant
+## 124. L15 Final Invariant
 
 ```text
 FRACTAL KNOWLEDGE
@@ -4341,6 +4344,8 @@ CAUSAL PROOF
 
 **Conclusion class: CONDITIONAL / AMOS_MODEL.**
 
+```
+```
 
 ```
 ```

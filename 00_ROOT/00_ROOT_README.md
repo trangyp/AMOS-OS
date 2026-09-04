@@ -17,66 +17,65 @@ steward: Trang Phan
 created: 2026-08-25
 updated: 2026-08-25
 tags:
-- amos
-- amos-os
-- root
-- amos-os
-- architecture
-- cognitive-operating-system
-- infrastructure
-- canon
-- kernel
-- control-plane
-- runtime
-- cognition
-- cognitive-organism
-- agents
-- skills
-- workflows
-- protocols
-- memory
-- knowledge
-- state
-- models
-- tools
-- interfaces
-- schemas
-- provenance
-- rscf
-- gmef
-- hml
-- observability
-- security
-- tests
-- operations
-- domains
-- modes
-- research
-- operating-model
-- archive
-- cognitive-matrix
-- authority
-- dependency-closure
-- failure-recovery
-- provenance-topology
-- canon-group/tech-ai
-- canon/architecture
-- rscf/claim
-- rscf/provenance
-- rscf/state/derived
-- topic/amos-os
-- topic/system-architecture
-- readme
-- neural-network
-- full-tree
-- authoritative-state
-- placement-rules
-- roadmap
-- amos-full-brain-os-architecture
-- cognitive-matrix-architecture
+  - amos
+  - amos-os
+  - root
+  - amos-os
+  - architecture
+  - cognitive-operating-system
+  - infrastructure
+  - canon
+  - kernel
+  - control-plane
+  - runtime
+  - cognition
+  - cognitive-organism
+  - agents
+  - skills
+  - workflows
+  - protocols
+  - memory
+  - knowledge
+  - state
+  - models
+  - tools
+  - interfaces
+  - schemas
+  - provenance
+  - rscf
+  - gmef
+  - hml
+  - observability
+  - security
+  - tests
+  - operations
+  - domains
+  - modes
+  - research
+  - operating-model
+  - archive
+  - cognitive-matrix
+  - authority
+  - dependency-closure
+  - failure-recovery
+  - provenance-topology
+  - canon-group/tech-ai
+  - canon/architecture
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/derived
+  - topic/amos-os
+  - topic/system-architecture
+  - readme
+  - neural-network
+  - full-tree
+  - authoritative-state
+  - placement-rules
+  - roadmap
+  - amos-full-brain-os-architecture
+  - cognitive-matrix-architecture
 aliases:
-- AMOS OS - AMOS Operating System - AMOS Cognitive Operating System - AMOS System
-  Root
+  - AMOS OS - AMOS Operating System - AMOS Cognitive Operating System - AMOS System Root
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -85,13 +84,16 @@ rscf:
 ---
 
 # AMOS OS
+
 **Origin architect / steward:** Trang Phan
+
 > **Status:** `ACTIVE_ROOT`
 > **AMOS_CORE target:** `v4.4`
 > **Conclusion class:** `AMOS_MODEL`
-AMOS OS is the governed infrastructure, cognition, knowledge, agent, skill, workflow, protocol, memory, state, control, runtime, tool, model, security, validation, and operations architecture of the AMOS ecosystem.
-It is intentionally decomposed into authoritative planes so that semantic authority, computation, execution, knowledge, capability, and external effects remain distinguishable.
-The governing priority is:
+> AMOS OS is the governed infrastructure, cognition, knowledge, agent, skill, workflow, protocol, memory, state, control, runtime, tool, model, security, validation, and operations architecture of the AMOS ecosystem.
+> It is intentionally decomposed into authoritative planes so that semantic authority, computation, execution, knowledge, capability, and external effects remain distinguishable.
+> The governing priority is:
+
 ```text
 INTEGRITY
 >
@@ -103,15 +105,10 @@ SPEED
 >
 TOKEN SAVINGS
 ```
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: root_index
----
 
+## rscf: state: SOURCE_CLAIM claim_class: SOURCE_CLAIM provenance: AMOS_corpus scope: root_index
 
-# 1. System Spine
+## 1. System Spine
 
 ```text
 CANON
@@ -158,9 +155,9 @@ ARCHIVE
 COGNITIVE MATRIX
 ```
 
----
+______________________________________________________________________
 
-# 2. Core Separation Laws
+## 2. Core Separation Laws
 
 ```text
 CANON != KERNEL
@@ -191,9 +188,9 @@ UNKNOWN/GAP != PASS
 
 These boundaries are structural invariants, not stylistic preferences.
 
----
+______________________________________________________________________
 
-# 3. Root Plane Map
+## 3. Root Plane Map
 
 ```text
 AMOS_OS/
@@ -226,9 +223,9 @@ AMOS_OS/
 └── 25_COGNITIVE_MATRIX
 ```
 
----
+______________________________________________________________________
 
-# 4. Plane Responsibilities
+## 4. Plane Responsibilities
 
 | Plane                   | Primary responsibility                                            |
 | ----------------------- | ----------------------------------------------------------------- |
@@ -259,9 +256,9 @@ AMOS_OS/
 | `24_ARCHIVE`            | superseded, legacy and historical artifacts                       |
 | `25_COGNITIVE_MATRIX`   | cross-cognitive topology and relations                            |
 
----
+______________________________________________________________________
 
-# 5. Canon
+## 5. Canon
 
 `CANON` defines what AMOS treats as governing semantic structure.
 
@@ -286,9 +283,9 @@ IMPLEMENTATION
 
 A canonical specification can exist while executable support remains incomplete.
 
----
+______________________________________________________________________
 
-# 6. Kernel
+## 6. Kernel
 
 `KERNEL` owns deterministic or tightly constrained machinery.
 
@@ -312,9 +309,9 @@ not:
 
 > **Is the operation authorized?**
 
----
+______________________________________________________________________
 
-# 7. Control Plane
+## 7. Control Plane
 
 `CONTROL_PLANE` owns:
 
@@ -339,9 +336,9 @@ WORKER CAPABILITY
 CONTROL-PLANE AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 8. Runtime
+## 8. Runtime
 
 `RUNTIME` owns active coordination:
 
@@ -368,9 +365,9 @@ ARCHITECTURE
 LIVE RUNTIME
 ```
 
----
+______________________________________________________________________
 
-# 9. Cognitive Organism
+## 9. Cognitive Organism
 
 The Cognitive Organism coordinates cognitive subsystems such as:
 
@@ -397,9 +394,9 @@ embodiment
 autonomous external agency
 ```
 
----
+______________________________________________________________________
 
-# 10. Agents
+## 10. Agents
 
 Agents are scoped workers.
 
@@ -435,9 +432,9 @@ CAPABILITY
 AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 11. Skills
+## 11. Skills
 
 Skills encode reusable procedures.
 
@@ -464,9 +461,9 @@ A skill provides capability.
 
 It does not grant authority.
 
----
+______________________________________________________________________
 
-# 12. Workflows
+## 12. Workflows
 
 Workflows coordinate multiple operations.
 
@@ -497,9 +494,9 @@ Skill
 Protocol
 ```
 
----
+______________________________________________________________________
 
-# 13. Protocols
+## 13. Protocols
 
 Protocols define component interaction semantics.
 
@@ -529,9 +526,9 @@ commit semantics
 rollback semantics
 ```
 
----
+______________________________________________________________________
 
-# 14. Memory / Knowledge / State
+## 14. Memory / Knowledge / State
 
 These are independent planes.
 
@@ -559,9 +556,9 @@ KNOWLEDGE
 STATE
 ```
 
----
+______________________________________________________________________
 
-# 15. Epistemic Classes
+## 15. Epistemic Classes
 
 AMOS distinguishes:
 
@@ -593,9 +590,9 @@ UNKNOWN/GAP
 PASS
 ```
 
----
+______________________________________________________________________
 
-# 16. Proof Capsule
+## 16. Proof Capsule
 
 A consequential conclusion should conceptually retain:
 
@@ -621,9 +618,9 @@ ProofCapsule:
   confidence_ceiling:
 ```
 
----
+______________________________________________________________________
 
-# 17. Confidence Ceiling
+## 17. Confidence Ceiling
 
 Derived confidence may not exceed the weakest load-bearing premise unless that premise is independently revalidated.
 
@@ -637,9 +634,9 @@ WeakestLoadBearingPremise
 
 This prevents fluent synthesis from laundering weak evidence into strong claims.
 
----
+______________________________________________________________________
 
-# 18. Provenance Topology
+## 18. Provenance Topology
 
 AMOS tracks provenance as a graph rather than a flat citation count.
 
@@ -663,9 +660,9 @@ Hard rule:
 10 INDEPENDENT SOURCES
 ```
 
----
+______________________________________________________________________
 
-# 19. RSCF
+## 19. RSCF
 
 RSCF is a first-class recursive claim/state structure.
 
@@ -695,9 +692,9 @@ ITS DEPENDENT DESCENDANTS
 
 not unrelated reasoning branches.
 
----
+______________________________________________________________________
 
-# 20. Competing Hypotheses
+## 20. Competing Hypotheses
 
 AMOS does not force convergence when evidence does not discriminate.
 
@@ -715,9 +712,9 @@ COMPETING
 
 The preferred next action is the cheapest high-information discriminating test.
 
----
+______________________________________________________________________
 
-# 21. Causal Firewall
+## 21. Causal Firewall
 
 AMOS distinguishes:
 
@@ -744,9 +741,9 @@ CAUSATION
 
 Cross-domain mappings remain `MODEL` unless independently validated.
 
----
+______________________________________________________________________
 
-# 22. Scope / Regime Firewall
+## 22. Scope / Regime Firewall
 
 Consequential claims should retain an applicability envelope.
 
@@ -764,9 +761,9 @@ Applicability:
 
 A regime shift may invalidate a previously valid conclusion.
 
----
+______________________________________________________________________
 
-# 23. Freshness
+## 23. Freshness
 
 Evidence and state may be:
 
@@ -789,9 +786,9 @@ CURRENT
 
 Load-bearing stale premises require revalidation before consequential reuse.
 
----
+______________________________________________________________________
 
-# 24. H/M/L Architecture
+## 24. H/M/L Architecture
 
 AMOS recursively decomposes systems into:
 
@@ -835,9 +832,9 @@ L
 COMPONENT / TOOL CALL / STATE UPDATE / CLAIM / EVENT
 ```
 
----
+______________________________________________________________________
 
-# 25. H/M/L Integrity
+## 25. H/M/L Integrity
 
 A local optimization is acceptable only if higher-scale viability remains intact.
 
@@ -863,9 +860,9 @@ state corruption
 irrecoverable mutation
 ```
 
----
+______________________________________________________________________
 
-# 26. Fractal Retrieval
+## 26. Fractal Retrieval
 
 Preferred retrieval:
 
@@ -885,9 +882,9 @@ Raw evidence is not loaded by default.
 
 Descend only when additional detail can materially alter the result.
 
----
+______________________________________________________________________
 
-# 27. v4.4 Fast Path
+## 27. v4.4 Fast Path
 
 The v4.4 fast path uses the smallest sufficient proof scope.
 
@@ -928,9 +925,9 @@ not:
 LESS INTEGRITY
 ```
 
----
+______________________________________________________________________
 
-# 28. GMEF / Governed Evolution
+## 28. GMEF / Governed Evolution
 
 Evolution should preserve:
 
@@ -969,9 +966,9 @@ EVOLUTION
 UNCONTROLLED SELF-MODIFICATION
 ```
 
----
+______________________________________________________________________
 
-# 29. Transaction and Commit Boundary
+## 29. Transaction and Commit Boundary
 
 For consequential state changes:
 
@@ -1001,9 +998,9 @@ PROPOSAL
 COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 30. MVCC / CAS Concepts
+## 30. MVCC / CAS Concepts
 
 Where concurrent state exists, AMOS may reason in terms of:
 
@@ -1029,9 +1026,9 @@ at commit time.
 
 These are architectural concepts unless executable support is independently verified.
 
----
+______________________________________________________________________
 
-# 31. External Effects
+## 31. External Effects
 
 External effects include:
 
@@ -1048,9 +1045,9 @@ physical-system action
 
 Effectful actions require stronger governance than analysis.
 
----
+______________________________________________________________________
 
-# 32. Reversibility
+## 32. Reversibility
 
 Effects should be typed:
 
@@ -1072,9 +1069,9 @@ UNKNOWN REVERSIBILITY
 ESCALATE
 ```
 
----
+______________________________________________________________________
 
-# 33. Failure and Recovery
+## 33. Failure and Recovery
 
 Failure flow:
 
@@ -1105,9 +1102,9 @@ DEPENDENCY-AWARE
 PROVENANCE-PRESERVING
 ```
 
----
+______________________________________________________________________
 
-# 34. Failure States
+## 34. Failure States
 
 ```text
 BLOCKED
@@ -1141,9 +1138,9 @@ When final state cannot be established, use:
 IN_DOUBT
 ```
 
----
+______________________________________________________________________
 
-# 35. Models
+## 35. Models
 
 Models represent possible, estimated, simulated, or interpreted worlds.
 
@@ -1173,9 +1170,9 @@ MODEL
 OBSERVATION
 ```
 
----
+______________________________________________________________________
 
-# 36. Tools
+## 36. Tools
 
 Tools provide capability.
 
@@ -1201,9 +1198,9 @@ TOOL ACCESS
 PERMISSION
 ```
 
----
+______________________________________________________________________
 
-# 37. Security
+## 37. Security
 
 Security should preserve:
 
@@ -1218,9 +1215,9 @@ failure isolation
 
 Possession of credentials does not itself establish authorization to use them for a given action.
 
----
+______________________________________________________________________
 
-# 38. Observability
+## 38. Observability
 
 Observability records:
 
@@ -1244,9 +1241,9 @@ CORRECT
 
 Observability provides evidence for validation; it does not replace validation.
 
----
+______________________________________________________________________
 
-# 39. Tests
+## 39. Tests
 
 Verification progresses through:
 
@@ -1276,9 +1273,9 @@ UNIVERSAL VALIDITY
 
 All test claims inherit their tested scope.
 
----
+______________________________________________________________________
 
-# 40. Domains
+## 40. Domains
 
 Domains specialize AMOS without redefining core semantics.
 
@@ -1302,9 +1299,9 @@ ecology
 
 Only domains that can materially alter the result should be activated.
 
----
+______________________________________________________________________
 
-# 41. Modes
+## 41. Modes
 
 Modes alter operating behavior.
 
@@ -1333,9 +1330,9 @@ AGENT
 
 unless explicitly defined as an independent agent.
 
----
+______________________________________________________________________
 
-# 42. Research
+## 42. Research
 
 Research stores:
 
@@ -1359,9 +1356,9 @@ CANON
 
 Promotion requires evidence and governance.
 
----
+______________________________________________________________________
 
-# 43. Knowledge Promotion
+## 43. Knowledge Promotion
 
 Canonical path:
 
@@ -1383,9 +1380,9 @@ VALIDATED KNOWLEDGE
 
 Documentation or README claims remain `SOURCE_CLAIM` until validated.
 
----
+______________________________________________________________________
 
-# 44. Research-to-Canon Promotion
+## 44. Research-to-Canon Promotion
 
 ```text
 RESEARCH
@@ -1407,9 +1404,9 @@ CANON
 
 No direct promotion from hypothesis to canon.
 
----
+______________________________________________________________________
 
-# 45. Placement Law
+## 45. Placement Law
 
 Artifact ownership follows primary responsibility.
 
@@ -1487,9 +1484,9 @@ WHAT IS SUPERSEDED?
 → ARCHIVE
 ```
 
----
+______________________________________________________________________
 
-# 46. Identity Firewall
+## 46. Identity Firewall
 
 These are distinct:
 
@@ -1514,9 +1511,9 @@ IDENTITY
 
 Renaming or moving an artifact must not silently rewrite semantic identity or provenance.
 
----
+______________________________________________________________________
 
-# 47. Versioning
+## 47. Versioning
 
 Version dimensions may include:
 
@@ -1555,9 +1552,9 @@ rather than:
 ARCHITECTURE_FINAL_v2.md
 ```
 
----
+______________________________________________________________________
 
-# 48. Placeholder Rule
+## 48. Placeholder Rule
 
 A placeholder means:
 
@@ -1583,9 +1580,9 @@ UNKNOWN/GAP
 PASS
 ```
 
----
+______________________________________________________________________
 
-# 49. Authoritative State Firewall
+## 49. Authoritative State Firewall
 
 Architecture defines:
 
@@ -1597,9 +1594,9 @@ Architecture defines:
 
 Never infer implementation from architecture alone.
 
----
+______________________________________________________________________
 
-# 50. Capability Limits
+## 50. Capability Limits
 
 AMOS OS architecture does not establish:
 
@@ -1617,9 +1614,9 @@ universal empirical validity
 
 Cognitive, biological, emotional, somatic, quantum-fractal, or consciousness-related structures remain `MODEL` where not independently validated.
 
----
+______________________________________________________________________
 
-# 51. Adaptive Complexity
+## 51. Adaptive Complexity
 
 AMOS reasoning may operate at different complexity levels:
 
@@ -1648,9 +1645,9 @@ governance impact
 
 De-escalate when outcome-changing uncertainty is resolved.
 
----
+______________________________________________________________________
 
-# 52. Stop Condition
+## 52. Stop Condition
 
 Reasoning should stop when:
 
@@ -1666,9 +1663,9 @@ are reached.
 
 Do not expand merely because additional AMOS modules exist.
 
----
+______________________________________________________________________
 
-# 53. Gap Priority
+## 53. Gap Priority
 
 Gaps are classified:
 
@@ -1689,9 +1686,9 @@ RETURN UNKNOWN/GAP
 MINIMUM MISSING INFORMATION
 ```
 
----
+______________________________________________________________________
 
-# 54. Anti-Fabrication Laws
+## 54. Anti-Fabrication Laws
 
 ```text
 ABSENCE OF CONTRADICTION
@@ -1721,9 +1718,9 @@ FORMAL PROOF
 
 unless separately established.
 
----
+______________________________________________________________________
 
-# 55. Anti-Regression
+## 55. Anti-Regression
 
 No optimization may weaken:
 
@@ -1744,9 +1741,9 @@ If it does:
 ROLL BACK
 ```
 
----
+______________________________________________________________________
 
-# 56. Root Invariants
+## 56. Root Invariants
 
 ```text
 OS01 CANON != KERNEL
@@ -1781,9 +1778,9 @@ OS29 PROVENANCE MUST SURVIVE TRANSFORMATION
 OS30 ARCHIVE MUST PRESERVE LINEAGE
 ```
 
----
+______________________________________________________________________
 
-# 57. Failure Registry
+## 57. Failure Registry
 
 ```text
 OS-F001 CANON_KERNEL_COLLAPSE
@@ -1818,9 +1815,9 @@ OS-F029 FAST_PATH_WITHOUT_PROOF
 OS-F030 GLOBAL_RECOMPUTATION_WHEN_LOCAL_REPAIR_SUFFICIENT
 ```
 
----
+______________________________________________________________________
 
-# 58. 7-Part Persistence Mapping
+## 58. 7-Part Persistence Mapping
 
 | Part              | AMOS OS mapping                                      |
 | ----------------- | ---------------------------------------------------- |
@@ -1834,9 +1831,9 @@ OS-F030 GLOBAL_RECOMPUTATION_WHEN_LOCAL_REPAIR_SUFFICIENT
 
 **Conclusion class:** `AMOS_MODEL`
 
----
+______________________________________________________________________
 
-# 59. Master RSCF Node
+## 59. Master RSCF Node
 
 ```yaml
 node_id: AMOS_OS_ROOT
@@ -1905,9 +1902,9 @@ confidence_ceiling:
   empirical_universality: not_claimed
 ```
 
----
+______________________________________________________________________
 
-# 60. Changelog
+## 60. Changelog
 
 ## v2.1.0 — 2026-08-25
 
@@ -1963,9 +1960,9 @@ TOOLS / MODELS / DOMAIN ADAPTERS
 EXTERNAL EFFECTS
 ```
 
----
+______________________________________________________________________
 
-# 61. Final Operating Law
+## 61. Final Operating Law
 
 AMOS OS can be compressed to:
 
@@ -2058,29 +2055,33 @@ The third law is:
 
 > **AMOS expands recursively only when expansion preserves integrity, contradiction visibility, provenance recoverability, causal discipline, scope correctness, and repairability.**
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|MOC · [[00_ROOT/NEURAL_NETWORK|NEURAL_NETWORK]]|Neural Network · [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]|Architecture · [[00_ROOT/FULL_TREE|FULL_TREE]]|Full Tree · [[00_ROOT/SYSTEM_MAP|SYSTEM_MAP]]|System Map · [[00_ROOT/DEPENDENCY_MAP|DEPENDENCY_MAP]]|Dependency Map · [[00_ROOT/AUTHORITATIVE_STATE|AUTHORITATIVE_STATE]]|Authoritative State · [[00_ROOT/00_ROOT_NAMING_STANDARD|00_ROOT_NAMING_STANDARD]]|Naming Standard · [[00_ROOT/PLACEMENT_RULES|PLACEMENT_RULES]]|Placement Rules · [[00_ROOT/ROADMAP|ROADMAP]]|Roadmap · [[01_CANON/00_INDEX/CANON_MAP|CANON_MAP]]|CANON · [[02_KERNEL/00_INDEX/KERNEL_MAP|KERNEL_MAP]]|KERNEL · [[03_CONTROL_PLANE/00_INDEX/CONTROL_PLANE_MAP|CONTROL_PLANE_MAP]]|CONTROL_PLANE · [[04_RUNTIME/00_INDEX/RUNTIME_MAP|RUNTIME_MAP]]|RUNTIME · [[05_COGNITIVE_ORGANISM/00_INDEX/COGNITIVE_ORGANISM_MAP|COGNITIVE_ORGANISM_MAP]]|COGNITIVE_ORGANISM · [[06_AGENTS/00_INDEX/AGENT_MAP|AGENT_MAP]]|[[AGENTS|AGENTS]] · [[07_SKILLS/00_INDEX/SKILL_MAP|SKILL_MAP]]|SKILLS · [[08_WORKFLOWS/00_INDEX/WORKFLOW_MAP|WORKFLOW_MAP]]|WORKFLOWS · [[09_PROTOCOLS/00_INDEX/PROTOCOL_MAP|PROTOCOL_MAP]]|PROTOCOLS · [[10_MEMORY/00_INDEX/MEMORY_MEMORY_MAP|MEMORY_MEMORY_MAP]]|MEMORY · [[11_KNOWLEDGE/AMOS_FULL_BRAIN_OS_ARCHITECTURE|AMOS_FULL_BRAIN_OS_ARCHITECTURE]]|KNOWLEDGE · [[12_STATE/00_INDEX/STATE_STATE_MAP|STATE_STATE_MAP]]|STATE · [[13_MODELS/00_INDEX/MODEL_MAP|MODEL_MAP]]|MODELS · [[14_TOOLS/00_INDEX/TOOL_MAP|TOOL_MAP]]|TOOLS · [[15_INTERFACES/00_INDEX/INTERFACE_MAP|INTERFACE_MAP]]|INTERFACES · [[16_SCHEMAS/00_INDEX/SCHEMA_MAP|SCHEMA_MAP]]|SCHEMAS · [[17_OBSERVABILITY/00_INDEX/OBSERVABILITY_OBSERVABILITY_MAP|OBSERVABILITY_OBSERVABILITY_MAP]]|OBSERVABILITY · [[18_SECURITY/00_INDEX/SECURITY_MAP|SECURITY_MAP]]|SECURITY · [[19_TESTS/00_INDEX/TEST_MAP|TEST_MAP]]|TESTS · [[20_OPERATIONS/00_INDEX/OPERATIONS_MAP|OPERATIONS_MAP]]|OPERATIONS · [[21_DOMAINS/00_INDEX/DOMAIN_ALIAS_MAP|DOMAIN_ALIAS_MAP]]|DOMAINS · [[22_RESEARCH/00_INDEX/INDEX_RESEARCH_README|INDEX_RESEARCH_README]]|RESEARCH · [[23_OPERATING_MODEL/00_INDEX/OPERATING_MODEL|OPERATING_MODEL]]|[[23_OPERATING_MODEL/00_INDEX/OPERATING_MODEL|OPERATING_MODEL]] · [[24_ARCHIVE/00_LEGACY/LEGACY_ARCHIVE_README|LEGACY_ARCHIVE_README]]|ARCHIVE · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_ARCHITECTURE|COGNITIVE_MATRIX_ARCHITECTURE]]|COGNITIVE_MATRIX
 
 ```
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: 00_root_readme
 node_type: note
 path: 00_ROOT/00_ROOT_README.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[00_ROOT/00_COSMO_BRAIN_MOC|00_COSMO_BRAIN_MOC]]

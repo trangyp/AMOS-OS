@@ -1,36 +1,39 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: L17 RSCF
 type: rscf
 source: 01_CANON/01_CORE_LAWS
 tags:
-- canon
-- core_laws
-- rscf
-- claim_discipline
-- claim_taxonomy
-- proof_capsule
-- no_proof_no_claim
-- conditional_carry
-- dependency_propagation
-- confidence_ceiling
-- gaps
-- falsifiers
-- epistemic_governance
-- provenance
-- canon/universe
-- validation
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- amos-core-all-versions-fractal-knowledge-network
-- law/L16-hml
-- gmef
-- provenance-topology
-- competing-hypotheses
-- scope-regime-firewall
-- causal-firewall
-- law/L10-failure-recovery
-- law/L11-knowledge-memory
-- law/L15-fractal-knowledge
+  - canon
+  - core_laws
+  - rscf
+  - claim_discipline
+  - claim_taxonomy
+  - proof_capsule
+  - no_proof_no_claim
+  - conditional_carry
+  - dependency_propagation
+  - confidence_ceiling
+  - gaps
+  - falsifiers
+  - epistemic_governance
+  - provenance
+  - canon/universe
+  - validation
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - amos-core-all-versions-fractal-knowledge-network
+  - law/L16-hml
+  - gmef
+  - provenance-topology
+  - competing-hypotheses
+  - scope-regime-firewall
+  - causal-firewall
+  - law/L10-failure-recovery
+  - law/L11-knowledge-memory
+  - law/L15-fractal-knowledge
 rscf:
   state: SOURCE_CLAIM
   claim_class: CONDITIONAL
@@ -49,9 +52,9 @@ rscf:
 **canonical_status:** CONDITIONAL
 **updated:** 2026-08-26
 
----
+______________________________________________________________________
 
-# 0. Status
+## 0. Status
 
 L17 defines the proposed AMOS **RSCF Claim Discipline**.
 
@@ -80,7 +83,7 @@ It replaces the prior placeholder with a structured specification governing:
 
 L17 remains:
 
-```text
+````text
 PROPOSED_SPECIFICATION
         │
         ▼
@@ -98,7 +101,7 @@ RSCF-1 CLASS CONTRACT
 RSCF-2 PROOF CAPSULE
 RSCF-3 NO-PROOF-NO-CLAIM
 RSCF-4 CONDITIONAL CARRY
-```
+````
 
 The central invariant is:
 
@@ -109,9 +112,9 @@ ITS PREMISES,
 OR ITS CONDITIONS.
 ```
 
----
+______________________________________________________________________
 
-# 1. Governing Objective
+## 1. Governing Objective
 
 RSCF exists to prevent epistemic laundering.
 
@@ -157,9 +160,9 @@ COMPLETENESS OF NARRATIVE
 
 Missing proof remains missing.
 
----
+______________________________________________________________________
 
-# 2. Core RSCF Laws
+## 2. Core RSCF Laws
 
 ```text
 RSCF-1
@@ -198,9 +201,9 @@ SET CONFIDENCE CEILING
 CLASSIFY CONCLUSION
 ```
 
----
+______________________________________________________________________
 
-# 3. RSCF-1 — Class Contract
+## 3. RSCF-1 — Class Contract
 
 **Law**
 
@@ -235,9 +238,9 @@ They do not, by themselves, answer:
 
 > **How confident should we be that it is true?**
 
----
+______________________________________________________________________
 
-# 4. SOURCE
+## 4. SOURCE
 
 A `SOURCE` claim records what a source asserts.
 
@@ -271,9 +274,9 @@ SOURCE
 VERIFIED FACT
 ```
 
----
+______________________________________________________________________
 
-# 5. SOURCE_CLAIM Compatibility
+## 5. SOURCE_CLAIM Compatibility
 
 Existing AMOS metadata uses:
 
@@ -313,9 +316,9 @@ SOURCE = SOURCE_CLAIM
 
 is not asserted as canonical fact.
 
----
+______________________________________________________________________
 
-# 6. DERIVED
+## 6. DERIVED
 
 A `DERIVED` claim follows from identified premises through an explicit reasoning relation.
 
@@ -345,9 +348,9 @@ claim:
 
 A derived claim cannot be stronger than its load-bearing premises unless independently revalidated.
 
----
+______________________________________________________________________
 
-# 7. Derived Confidence Ceiling
+## 7. Derived Confidence Ceiling
 
 For:
 
@@ -382,9 +385,9 @@ STRONG CLAIM
 
 merely because the derivation is fluent or logically elaborate.
 
----
+______________________________________________________________________
 
-# 8. MODEL
+## 8. MODEL
 
 A `MODEL` claim is a proposed representation, interpretation, mechanism, abstraction, mapping, hypothesis, or explanatory structure.
 
@@ -399,11 +402,11 @@ claim:
 
 A model may be:
 
-* useful,
-* coherent,
-* predictive,
-* elegant,
-* operationally valuable,
+- useful,
+- coherent,
+- predictive,
+- elegant,
+- operationally valuable,
 
 without being empirically verified.
 
@@ -423,9 +426,9 @@ MODEL FIT
 CAUSAL PROOF
 ```
 
----
+______________________________________________________________________
 
-# 9. UNKNOWN
+## 9. UNKNOWN
 
 `UNKNOWN` records unresolved epistemic state.
 
@@ -457,16 +460,16 @@ NO SUFFICIENT PROOF
 PLAUSIBLE-SOUNDING COMPLETION
 ```
 
----
+______________________________________________________________________
 
-# 10. UNKNOWN Is Information
+## 10. UNKNOWN Is Information
 
 An explicit unknown communicates:
 
-* what has not been established,
-* where proof closure fails,
-* which dependency is missing,
-* what evidence could resolve it.
+- what has not been established,
+- where proof closure fails,
+- which dependency is missing,
+- what evidence could resolve it.
 
 Therefore:
 
@@ -478,9 +481,9 @@ FABRICATED COMPLETENESS
 
 under the AMOS integrity ordering.
 
----
+______________________________________________________________________
 
-# 11. Class Orthogonality
+## 11. Class Orthogonality
 
 Claim class is distinct from confidence/status.
 
@@ -518,9 +521,9 @@ VERIFIED / CONDITIONAL / COMPETING / GAP
 
 These represent different dimensions.
 
----
+______________________________________________________________________
 
-# 12. Epistemic Type vs Conclusion Class
+## 12. Epistemic Type vs Conclusion Class
 
 A useful conceptual separation is:
 
@@ -546,9 +549,9 @@ The exact canonical cross-product is not supplied.
 
 Therefore this is a proposed representation rather than recovered authoritative taxonomy.
 
----
+______________________________________________________________________
 
-# 13. Class Contract Invariant
+## 13. Class Contract Invariant
 
 Every consequential proposition should permit the question:
 
@@ -566,9 +569,9 @@ VIOLATED
 
 for purposes of this proposed specification.
 
----
+______________________________________________________________________
 
-# 14. No Silent Class Mixing
+## 14. No Silent Class Mixing
 
 Invalid:
 
@@ -594,9 +597,9 @@ SYNTHESIS:
 
 The epistemic class changed silently.
 
----
+______________________________________________________________________
 
-# 15. Explicit Class Transition
+## 15. Explicit Class Transition
 
 Class transitions may occur when justified.
 
@@ -630,9 +633,9 @@ REQUIRES
 JUSTIFICATION
 ```
 
----
+______________________________________________________________________
 
-# 16. Claim Identity
+## 16. Claim Identity
 
 A claim should be treated as a typed proposition rather than free-floating prose.
 
@@ -647,9 +650,9 @@ claim:
 
 This permits dependencies and invalidation to target claims precisely.
 
----
+______________________________________________________________________
 
-# 17. Claim Granularity
+## 17. Claim Granularity
 
 One paragraph may contain multiple claims with different classes.
 
@@ -664,9 +667,9 @@ U1: Whether Z causes Q.       UNKNOWN
 
 Flattening the paragraph into one undifferentiated status loses epistemic structure.
 
----
+______________________________________________________________________
 
-# 18. Atomic Claim Discipline
+## 18. Atomic Claim Discipline
 
 Where consequential, decompose compound claims:
 
@@ -686,9 +689,9 @@ when their proof states differ.
 
 Otherwise one established clause can mask an unsupported clause.
 
----
+______________________________________________________________________
 
-# 19. Mixed-Class Artifact
+## 19. Mixed-Class Artifact
 
 An artifact may legitimately contain:
 
@@ -710,9 +713,9 @@ artifact:
 
 The artifact itself should not silently flatten all claims to the strongest status.
 
----
+______________________________________________________________________
 
-# 20. RSCF-2 — Proof Capsule
+## 20. RSCF-2 — Proof Capsule
 
 **Law**
 
@@ -729,9 +732,9 @@ ceiling
 
 This is the minimum source-defined capsule.
 
----
+______________________________________________________________________
 
-# 21. Minimal Proof Capsule
+## 21. Minimal Proof Capsule
 
 ```yaml
 proof_capsule:
@@ -757,9 +760,9 @@ proof_capsule:
 
 This is the closest direct structural rendering of RSCF-2.
 
----
+______________________________________________________________________
 
-# 22. Claim Field
+## 22. Claim Field
 
 The capsule's `claim` field identifies the proposition being evaluated.
 
@@ -771,9 +774,9 @@ claim:
 
 A capsule without a precise claim risks proof leakage because evidence may support only part of an ambiguous proposition.
 
----
+______________________________________________________________________
 
-# 23. Established
+## 23. Established
 
 `established` records what the available proof actually supports.
 
@@ -803,9 +806,9 @@ X IS TRUE
 
 without additional proof.
 
----
+______________________________________________________________________
 
-# 24. Not Established
+## 24. Not Established
 
 `not_established` records propositions that the current proof does not support.
 
@@ -820,9 +823,9 @@ not_established:
 
 This field is critical because it prevents readers from inferring unsupported extensions from an otherwise strong capsule.
 
----
+______________________________________________________________________
 
-# 25. Established / Not-Established Firewall
+## 25. Established / Not-Established Firewall
 
 ```text
 ESTABLISHED
@@ -838,9 +841,9 @@ The second field is not redundant.
 
 It explicitly marks the epistemic boundary.
 
----
+______________________________________________________________________
 
-# 26. Gaps
+## 26. Gaps
 
 `gaps` record missing information or unresolved proof requirements.
 
@@ -853,9 +856,9 @@ gaps:
 
 A gap should identify the minimum missing element when possible.
 
----
+______________________________________________________________________
 
-# 27. Gap Severity
+## 27. Gap Severity
 
 A proposed extension may classify gaps as:
 
@@ -870,9 +873,9 @@ This taxonomy is consistent with broader AMOS gap handling but is not explicitly
 
 Therefore it remains an AMOS_MODEL extension.
 
----
+______________________________________________________________________
 
-# 28. Critical Gap
+## 28. Critical Gap
 
 A critical gap blocks the target claim or action.
 
@@ -894,9 +897,9 @@ UNKNOWN / CONDITIONAL
 
 depending on the exact logical structure.
 
----
+______________________________________________________________________
 
-# 29. Decision-Relevant Gap
+## 29. Decision-Relevant Gap
 
 A decision-relevant gap can change the selected action but may not invalidate all descriptive claims.
 
@@ -914,25 +917,25 @@ The first claim may survive.
 
 The action may remain blocked.
 
----
+______________________________________________________________________
 
-# 30. Explanatory Gap
+## 30. Explanatory Gap
 
 An explanatory gap affects understanding but not the current decision.
 
 It should remain visible but should not force unnecessary retrieval if it cannot change the outcome.
 
----
+______________________________________________________________________
 
-# 31. Cosmetic Gap
+## 31. Cosmetic Gap
 
 A cosmetic gap affects presentation rather than substantive claim validity.
 
 RSCF should not spend disproportionate validation effort resolving cosmetic gaps before critical ones.
 
----
+______________________________________________________________________
 
-# 32. Falsifiers
+## 32. Falsifiers
 
 A proof capsule carries conditions or observations that would invalidate, weaken, or require reconsideration of the claim.
 
@@ -944,9 +947,9 @@ falsifiers:
 
 A falsifier makes the claim operationally challengeable.
 
----
+______________________________________________________________________
 
-# 33. Falsifier Scope
+## 33. Falsifier Scope
 
 Falsifiers should target the actual claim.
 
@@ -964,9 +967,9 @@ MODEL M explains Y in regime R2
 
 unless dependency and scope establish that connection.
 
----
+______________________________________________________________________
 
-# 34. Ceiling
+## 34. Ceiling
 
 The `ceiling` field limits the strongest conclusion justified by current support.
 
@@ -979,9 +982,9 @@ ceiling:
 
 means the claim must not be presented as VERIFIED under the current proof state.
 
----
+______________________________________________________________________
 
-# 35. Confidence Ceiling Principle
+## 35. Confidence Ceiling Principle
 
 Conceptually:
 
@@ -993,19 +996,19 @@ PROOF CEILING
 
 The ceiling may be constrained by:
 
-* weak premises,
-* unresolved gaps,
-* source-only evidence,
-* correlated provenance,
-* stale evidence,
-* scope mismatch,
-* unresolved contradictions,
-* model uncertainty,
-* conditional dependencies.
+- weak premises,
+- unresolved gaps,
+- source-only evidence,
+- correlated provenance,
+- stale evidence,
+- scope mismatch,
+- unresolved contradictions,
+- model uncertainty,
+- conditional dependencies.
 
----
+______________________________________________________________________
 
-# 36. Ceiling Is Not Average Confidence
+## 36. Ceiling Is Not Average Confidence
 
 Suppose:
 
@@ -1029,9 +1032,9 @@ Instead the unresolved load-bearing premise constrains the conclusion.
 
 This is a structural ceiling, not an arithmetic mean.
 
----
+______________________________________________________________________
 
-# 37. Extended Proof Capsule
+## 37. Extended Proof Capsule
 
 A richer AMOS representation may preserve:
 
@@ -1083,20 +1086,20 @@ Only the six source fields are explicitly required by L17 as supplied.
 
 The rest are proposed extensions.
 
----
+______________________________________________________________________
 
-# 38. Capsule Completeness
+## 38. Capsule Completeness
 
 A proof capsule is not necessarily an exhaustive proof transcript.
 
 It should contain the smallest sufficient structure needed to preserve:
 
-* what is claimed,
-* what is established,
-* what remains unestablished,
-* what is missing,
-* what could falsify it,
-* how strongly it may be stated.
+- what is claimed,
+- what is established,
+- what remains unestablished,
+- what is missing,
+- what could falsify it,
+- how strongly it may be stated.
 
 Thus:
 
@@ -1108,9 +1111,9 @@ HIDDEN CHAIN OF THOUGHT
 
 It is a compact epistemic contract.
 
----
+______________________________________________________________________
 
-# 39. Capsule Reuse
+## 39. Capsule Reuse
 
 A proof capsule may be reused only while its load-bearing validity conditions remain satisfied.
 
@@ -1130,9 +1133,9 @@ NO  → REVALIDATE
 
 This is an AMOS_MODEL extension consistent with persistent provenance.
 
----
+______________________________________________________________________
 
-# 40. Capsule Identity
+## 40. Capsule Identity
 
 A reusable capsule should have stable identity.
 
@@ -1144,9 +1147,9 @@ proof_capsule:
 
 This allows dependent claims to reference the capsule without copying or silently altering it.
 
----
+______________________________________________________________________
 
-# 41. Capsule Versioning
+## 41. Capsule Versioning
 
 Conceptually:
 
@@ -1159,9 +1162,9 @@ proof_capsule:
 
 A new version should preserve lineage to the prior capsule when the proof state changes.
 
----
+______________________________________________________________________
 
-# 42. Capsule Provenance
+## 42. Capsule Provenance
 
 ```yaml
 proof_capsule:
@@ -1177,9 +1180,9 @@ proof_capsule:
 
 This prevents multiple descendants of one source from being mistaken for independent support.
 
----
+______________________________________________________________________
 
-# 43. Capsule Dependency Closure
+## 43. Capsule Dependency Closure
 
 A capsule need not load every known artifact.
 
@@ -1195,9 +1198,9 @@ LOAD-BEARING EVIDENCE
 
 Non-material background can remain unloaded.
 
----
+______________________________________________________________________
 
-# 44. RSCF-3 — No-Proof-No-Claim
+## 44. RSCF-3 — No-Proof-No-Claim
 
 **Law**
 
@@ -1221,9 +1224,9 @@ PLAUSIBLE INFERENCE
 CLAIM
 ```
 
----
+______________________________________________________________________
 
-# 45. No-Proof-No-Claim Invariant
+## 45. No-Proof-No-Claim Invariant
 
 ```text
 IF
@@ -1250,9 +1253,9 @@ It may not silently state:
 P is established
 ```
 
----
+______________________________________________________________________
 
-# 46. Fluent Inference Firewall
+## 46. Fluent Inference Firewall
 
 Language fluency creates no epistemic entitlement.
 
@@ -1278,9 +1281,9 @@ ABSENCE OF CONTRADICTION
 CONFIRMATION
 ```
 
----
+______________________________________________________________________
 
-# 47. Missing Bridge
+## 47. Missing Bridge
 
 Suppose:
 
@@ -1312,9 +1315,9 @@ gaps:
   - missing_derivation_rule_for_C
 ```
 
----
+______________________________________________________________________
 
-# 48. Missing Evidence
+## 48. Missing Evidence
 
 Suppose:
 
@@ -1342,9 +1345,9 @@ is not established.
 
 RSCF preserves the distinction.
 
----
+______________________________________________________________________
 
-# 49. Missing Source
+## 49. Missing Source
 
 If a claim is attributed to source S but S is unavailable:
 
@@ -1356,9 +1359,9 @@ may itself remain unverified unless reliable provenance establishes the attribut
 
 Do not reconstruct the missing source from downstream summaries and present the reconstruction as original source content.
 
----
+______________________________________________________________________
 
-# 50. Missing Canon
+## 50. Missing Canon
 
 If canonical detail is absent:
 
@@ -1378,9 +1381,9 @@ merely because a model extension fits the architecture.
 
 This is especially important for proposed AMOS specifications.
 
----
+______________________________________________________________________
 
-# 51. Model Completion
+## 51. Model Completion
 
 Model completion is allowed only when labeled.
 
@@ -1396,23 +1399,23 @@ C may follow if assumption Q holds.
 
 This is compliant because the epistemic transition is explicit.
 
----
+______________________________________________________________________
 
-# 52. Inference as DERIVED
+## 52. Inference as DERIVED
 
 Inference may also be permitted as `DERIVED` when:
 
-* premises are explicit,
-* the derivation rule is explicit or sufficiently defined,
-* the conclusion does not outrun those premises.
+- premises are explicit,
+- the derivation rule is explicit or sufficiently defined,
+- the conclusion does not outrun those premises.
 
 Thus RSCF-3 does not prohibit reasoning.
 
 It prohibits **unmarked reasoning being laundered into proof**.
 
----
+______________________________________________________________________
 
-# 53. No-Proof-No-Claim and UNKNOWN
+## 53. No-Proof-No-Claim and UNKNOWN
 
 The preferred terminal state for an unresolved proposition is often:
 
@@ -1427,9 +1430,9 @@ gap:
 
 This preserves both the question and the reason it remains unresolved.
 
----
+______________________________________________________________________
 
-# 54. No-Proof-No-Claim and COMPETING
+## 54. No-Proof-No-Claim and COMPETING
 
 If evidence supports multiple incompatible explanations:
 
@@ -1449,9 +1452,9 @@ is superior to inventing convergence.
 
 The unresolved discriminator becomes a gap.
 
----
+______________________________________________________________________
 
-# 55. Proof Absence vs Evidence of Absence
+## 55. Proof Absence vs Evidence of Absence
 
 RSCF must distinguish:
 
@@ -1471,9 +1474,9 @@ The first normally creates a gap.
 
 The second may support a negative proposition if the observation process is appropriate.
 
----
+______________________________________________________________________
 
-# 56. RSCF-4 — Conditional Carry
+## 56. RSCF-4 — Conditional Carry
 
 **Law**
 
@@ -1501,9 +1504,9 @@ C
 
 inherits dependence on Q unless C is independently revalidated without P.
 
----
+______________________________________________________________________
 
-# 57. Conditional Propagation
+## 57. Conditional Propagation
 
 ```text
 Q
@@ -1525,9 +1528,9 @@ D conditional on Q
 
 for all descendants whose proof requires that path.
 
----
+______________________________________________________________________
 
-# 58. Conditional Carry Equation
+## 58. Conditional Carry Equation
 
 For claim `C` with load-bearing parents:
 
@@ -1549,9 +1552,9 @@ for all load-bearing `Pi`.
 
 This is a proposed formalization of RSCF-4.
 
----
+______________________________________________________________________
 
-# 59. Conditional Carry Is Dependency-Specific
+## 59. Conditional Carry Is Dependency-Specific
 
 Conditions propagate only along actual dependency edges.
 
@@ -1577,9 +1580,9 @@ GRAPH-LOCAL
 
 not global contamination.
 
----
+______________________________________________________________________
 
-# 60. Conditional Carry Through Derivation
+## 60. Conditional Carry Through Derivation
 
 ```text
 P1 [conditional on A]
@@ -1600,9 +1603,9 @@ subject to the actual logical relationship.
 
 A richer condition expression may be required where dependencies are disjunctive rather than conjunctive.
 
----
+______________________________________________________________________
 
-# 61. Conjunctive Conditions
+## 61. Conjunctive Conditions
 
 If C requires both P1 and P2:
 
@@ -1623,9 +1626,9 @@ then conceptually:
 C conditional on A ∧ B
 ```
 
----
+______________________________________________________________________
 
-# 62. Disjunctive Conditions
+## 62. Disjunctive Conditions
 
 If either independent path can establish C:
 
@@ -1656,9 +1659,9 @@ depending on proof sufficiency.
 
 Therefore conditional carry should preserve logical structure rather than blindly concatenate labels.
 
----
+______________________________________________________________________
 
-# 63. Alternative Independent Proof
+## 63. Alternative Independent Proof
 
 Suppose:
 
@@ -1688,9 +1691,9 @@ This is not dropping a condition silently.
 
 It is independent revalidation.
 
----
+______________________________________________________________________
 
-# 64. Conditional Discharge
+## 64. Conditional Discharge
 
 A condition may be discharged when its proposition becomes established.
 
@@ -1714,9 +1717,9 @@ to be reclassified, provided no other unresolved conditions remain.
 
 The dependent capsule should record the revalidation event.
 
----
+______________________________________________________________________
 
-# 65. Conditional Failure
+## 65. Conditional Failure
 
 If:
 
@@ -1748,9 +1751,9 @@ INVALIDATE FAILED PATH
 SEARCH VALID ALTERNATIVE PATH IF MATERIAL
 ```
 
----
+______________________________________________________________________
 
-# 66. Conditional Unknown
+## 66. Conditional Unknown
 
 If:
 
@@ -1768,9 +1771,9 @@ cannot be upgraded merely because C otherwise appears plausible.
 
 The unresolved condition remains load-bearing.
 
----
+______________________________________________________________________
 
-# 67. Nested Conditional Carry
+## 67. Nested Conditional Carry
 
 ```text
 A conditional on X
@@ -1794,9 +1797,9 @@ C
 
 RSCF should preserve the transitive ancestry.
 
----
+______________________________________________________________________
 
-# 68. Condition Identity
+## 68. Condition Identity
 
 Conditions should have stable identities where consequential.
 
@@ -1815,9 +1818,9 @@ conditional_on:
 
 rather than duplicating potentially divergent prose.
 
----
+______________________________________________________________________
 
-# 69. Conditional Carry Schema
+## 69. Conditional Carry Schema
 
 ```yaml
 claim:
@@ -1841,9 +1844,9 @@ claim:
     - P2
 ```
 
----
+______________________________________________________________________
 
-# 70. Conditional Closure
+## 70. Conditional Closure
 
 Conceptually:
 
@@ -1861,9 +1864,9 @@ Semantic pseudocode only.
 
 Real implementations must handle cycles and alternative proof paths.
 
----
+______________________________________________________________________
 
-# 71. RSCF Claim Graph
+## 71. RSCF Claim Graph
 
 Claims form a provenance-aware dependency graph.
 
@@ -1891,9 +1894,9 @@ not merely:
 THEY ARE RELATED
 ```
 
----
+______________________________________________________________________
 
-# 72. Dependency Edge Types
+## 72. Dependency Edge Types
 
 A proposed RSCF extension may distinguish:
 
@@ -1913,9 +1916,9 @@ The supplied L17 source does not define this edge taxonomy.
 
 Therefore these remain model-level candidates.
 
----
+______________________________________________________________________
 
-# 73. Load-Bearing Edge
+## 73. Load-Bearing Edge
 
 A load-bearing edge means:
 
@@ -1933,24 +1936,24 @@ changes materially.
 
 This distinguishes causal/proof dependency from mere citation or contextual relevance.
 
----
+______________________________________________________________________
 
-# 74. Non-Load-Bearing Context
+## 74. Non-Load-Bearing Context
 
 A claim may cite contextual material that is not necessary for its proof.
 
 Such context should not automatically constrain:
 
-* confidence ceiling,
-* conditional carry,
-* invalidation,
-* H/M/L inheritance.
+- confidence ceiling,
+- conditional carry,
+- invalidation,
+- H/M/L inheritance.
 
 Only actual load-bearing dependencies do.
 
----
+______________________________________________________________________
 
-# 75. RSCF and Provenance
+## 75. RSCF and Provenance
 
 Every important claim should preserve source ancestry when material.
 
@@ -1964,9 +1967,9 @@ D2
 
 D2 should not appear provenance-independent merely because it is two derivation steps away from S.
 
----
+______________________________________________________________________
 
-# 76. Provenance Independence
+## 76. Provenance Independence
 
 Suppose:
 
@@ -1993,9 +1996,9 @@ S
 
 RSCF should preserve this topology.
 
----
+______________________________________________________________________
 
-# 77. Source Multiplicity Firewall
+## 77. Source Multiplicity Firewall
 
 ```text
 NUMBER OF CLAIMS
@@ -2013,16 +2016,16 @@ NUMBER OF INDEPENDENT PROOF ROOTS
 
 Independence must be demonstrated.
 
----
+______________________________________________________________________
 
-# 78. RSCF and Sybil Hardening
+## 78. RSCF and Sybil Hardening
 
 A source claim repeated across:
 
-* summaries,
-* mirrors,
-* derivative documents,
-* downstream models,
+- summaries,
+- mirrors,
+- derivative documents,
+- downstream models,
 
 must not gain artificial confidence through repetition.
 
@@ -2035,9 +2038,9 @@ ONE ROOT
 
 remains one ancestral root unless independent evidence exists.
 
----
+______________________________________________________________________
 
-# 79. RSCF and Contradiction
+## 79. RSCF and Contradiction
 
 If:
 
@@ -2063,9 +2066,9 @@ status:
 
 until authority, scope, provenance, or discriminating evidence resolves the conflict.
 
----
+______________________________________________________________________
 
-# 80. Contradiction Is Not Always Global
+## 80. Contradiction Is Not Always Global
 
 Claims may differ by scope:
 
@@ -2081,9 +2084,9 @@ These are not necessarily contradictory.
 
 RSCF contradiction analysis must compare applicability envelopes.
 
----
+______________________________________________________________________
 
-# 81. RSCF and Scope
+## 81. RSCF and Scope
 
 A proof capsule should preserve the domain in which the claim is established.
 
@@ -2101,9 +2104,9 @@ scope:
 
 The exact schema is an AMOS_MODEL extension.
 
----
+______________________________________________________________________
 
-# 82. Scope Inheritance
+## 82. Scope Inheritance
 
 A derived claim cannot silently broaden beyond its premises.
 
@@ -2129,9 +2132,9 @@ LOCAL EVIDENCE
 UNIVERSAL CLAIM
 ```
 
----
+______________________________________________________________________
 
-# 83. Scope Intersection
+## 83. Scope Intersection
 
 If C depends jointly on:
 
@@ -2152,9 +2155,9 @@ unless another proof establishes a broader envelope.
 
 This is a conceptual rule, not a recovered RSCF formula.
 
----
+______________________________________________________________________
 
-# 84. Regime Carry
+## 84. Regime Carry
 
 Conditional carry should include regime conditions when load-bearing.
 
@@ -2172,9 +2175,9 @@ C valid only in R1
 
 unless independently validated elsewhere.
 
----
+______________________________________________________________________
 
-# 85. Freshness Carry
+## 85. Freshness Carry
 
 If a claim depends on time-sensitive evidence:
 
@@ -2194,9 +2197,9 @@ STALE PREMISE
 DEPENDENT CLAIM REVALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 86. RSCF and Causal Firewall
+## 86. RSCF and Causal Firewall
 
 A source may establish:
 
@@ -2222,9 +2225,9 @@ causal interpretation
 
 until causal evidence licenses stronger classification.
 
----
+______________________________________________________________________
 
-# 87. Structural Similarity Firewall
+## 87. Structural Similarity Firewall
 
 ```text
 SYSTEM A
@@ -2248,9 +2251,9 @@ same causal mechanism
 
 unless a valid bridge exists.
 
----
+______________________________________________________________________
 
-# 88. Sequence Firewall
+## 88. Sequence Firewall
 
 ```text
 A happened
@@ -2266,9 +2269,9 @@ A caused B
 
 RSCF records the causal bridge as missing if no appropriate evidence exists.
 
----
+______________________________________________________________________
 
-# 89. RSCF and H/M/L
+## 89. RSCF and H/M/L
 
 RSCF claim discipline and H/M/L rigor are orthogonal.
 
@@ -2296,9 +2299,9 @@ GOVERNANCE RIGOR
 
 No contradiction exists.
 
----
+______________________________________________________________________
 
-# 90. RSCF/HML Composition
+## 90. RSCF/HML Composition
 
 Conceptually:
 
@@ -2326,9 +2329,9 @@ PROOF CAPSULE
 CONCLUSION
 ```
 
----
+______________________________________________________________________
 
-# 91. Strictness and Ceiling
+## 91. Strictness and Ceiling
 
 H/M/L provides a validation floor.
 
@@ -2354,9 +2357,9 @@ CONFIDENCE CEILING
 
 jointly constrain output.
 
----
+______________________________________________________________________
 
-# 92. RSCF and Competing Hypotheses
+## 92. RSCF and Competing Hypotheses
 
 Suppose:
 
@@ -2379,9 +2382,9 @@ conclusion:
 
 Do not force one model into DERIVED or VERIFIED merely because it is more fluent.
 
----
+______________________________________________________________________
 
-# 93. Cheapest Discriminating Test
+## 93. Cheapest Discriminating Test
 
 When competing claims matter, seek evidence E such that:
 
@@ -2395,9 +2398,9 @@ This has greater decision value than evidence both models predict.
 
 This is an AMOS_MODEL operational extension.
 
----
+______________________________________________________________________
 
-# 94. RSCF and Adversarial Validation
+## 94. RSCF and Adversarial Validation
 
 For consequential claims:
 
@@ -2409,15 +2412,15 @@ CHALLENGE IT
 
 Challenge for:
 
-* contradictory evidence,
-* correlated provenance,
-* hidden conditions,
-* stale premises,
-* scope leakage,
-* regime mismatch,
-* causal overreach,
-* stronger competing models,
-* missing proof bridges.
+- contradictory evidence,
+- correlated provenance,
+- hidden conditions,
+- stale premises,
+- scope leakage,
+- regime mismatch,
+- causal overreach,
+- stronger competing models,
+- missing proof bridges.
 
 If challenge succeeds:
 
@@ -2429,9 +2432,9 @@ or
 RETURN UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 95. RSCF and Sensitivity
+## 95. RSCF and Sensitivity
 
 Identify the smallest load-bearing premise that can flip the conclusion.
 
@@ -2455,9 +2458,9 @@ is a sensitivity pivot.
 
 Validation effort should prioritize P3 before collecting redundant evidence for P1.
 
----
+______________________________________________________________________
 
-# 96. RSCF and Uncertainty Vector
+## 96. RSCF and Uncertainty Vector
 
 A consequential proof capsule may distinguish:
 
@@ -2474,9 +2477,9 @@ uncertainty:
 
 This prevents one generic "confidence" number from hiding the actual uncertainty source.
 
----
+______________________________________________________________________
 
-# 97. RSCF and Failure Recovery
+## 97. RSCF and Failure Recovery
 
 If premise P fails:
 
@@ -2502,9 +2505,9 @@ only where dependency edges are load-bearing.
 
 Independent claims remain intact.
 
----
+______________________________________________________________________
 
-# 98. Local Invalidation
+## 98. Local Invalidation
 
 Suppose:
 
@@ -2535,9 +2538,9 @@ FAILURE
 GLOBAL RECOMPUTATION
 ```
 
----
+______________________________________________________________________
 
-# 99. Alternative Proof Recovery
+## 99. Alternative Proof Recovery
 
 Suppose:
 
@@ -2558,9 +2561,9 @@ but C may remain established through P2.
 
 Therefore invalidation must operate on proof paths, not only claim labels.
 
----
+______________________________________________________________________
 
-# 100. Proof Path Schema
+## 100. Proof Path Schema
 
 ```yaml
 proof_path:
@@ -2591,9 +2594,9 @@ proof_path:
 
 This is a proposed extension.
 
----
+______________________________________________________________________
 
-# 101. RSCF and Persistent Knowledge
+## 101. RSCF and Persistent Knowledge
 
 A claim promoted to persistent knowledge should preserve:
 
@@ -2636,9 +2639,9 @@ persistent_claim:
 
 Persistent storage does not convert a claim into fact.
 
----
+______________________________________________________________________
 
-# 102. Memory Is Not Proof
+## 102. Memory Is Not Proof
 
 ```text
 CLAIM STORED
@@ -2656,9 +2659,9 @@ CLAIM FRESH
 
 RSCF metadata must survive persistence and retrieval.
 
----
+______________________________________________________________________
 
-# 103. Knowledge Harvest
+## 103. Knowledge Harvest
 
 Conceptually:
 
@@ -2674,18 +2677,18 @@ DURABLE KNOWLEDGE
 
 At every transition preserve:
 
-* provenance,
-* class,
-* dependencies,
-* conditions,
-* gaps,
-* falsifiers,
-* scope,
-* freshness.
+- provenance,
+- class,
+- dependencies,
+- conditions,
+- gaps,
+- falsifiers,
+- scope,
+- freshness.
 
----
+______________________________________________________________________
 
-# 104. Promotion Firewall
+## 104. Promotion Firewall
 
 Invalid:
 
@@ -2709,9 +2712,9 @@ SAVE WITH MODEL CLASS
 REVALIDATE IF NEEDED
 ```
 
----
+______________________________________________________________________
 
-# 105. RSCF and Versioning
+## 105. RSCF and Versioning
 
 A claim may change over time.
 
@@ -2725,9 +2728,9 @@ claim:
 
 Do not overwrite prior epistemic state when lineage matters.
 
----
+______________________________________________________________________
 
-# 106. RSCF and Epochs
+## 106. RSCF and Epochs
 
 Conceptually:
 
@@ -2743,17 +2746,17 @@ CLAIM C @ E2
 
 if:
 
-* sources changed,
-* governance changed,
-* regime changed,
-* evidence became stale,
-* contradictions emerged.
+- sources changed,
+- governance changed,
+- regime changed,
+- evidence became stale,
+- contradictions emerged.
 
 Proof capsules should therefore preserve temporal validity where material.
 
----
+______________________________________________________________________
 
-# 107. RSCF and MVCC/CAS Concepts
+## 107. RSCF and MVCC/CAS Concepts
 
 Where AMOS uses versioned persistent state conceptually, RSCF should avoid silently finalizing a claim against stale premises.
 
@@ -2775,9 +2778,9 @@ REVALIDATE
 
 This is a reasoning pattern, not a claim that the conversational system literally implements MVCC/CAS.
 
----
+______________________________________________________________________
 
-# 108. Compare-And-Validate Pattern
+## 108. Compare-And-Validate Pattern
 
 Semantic pseudocode:
 
@@ -2795,9 +2798,9 @@ def finalize_claim(claim, snapshot):
     return classify(proof)
 ```
 
----
+______________________________________________________________________
 
-# 109. RSCF and Atomic Multi-Claim Reasoning
+## 109. RSCF and Atomic Multi-Claim Reasoning
 
 A decision may require:
 
@@ -2829,9 +2832,9 @@ inherits the unresolved condition from C2.
 
 Successful claims do not erase a weak load-bearing claim.
 
----
+______________________________________________________________________
 
-# 110. Atomic Finalization
+## 110. Atomic Finalization
 
 Conceptually:
 
@@ -2845,9 +2848,9 @@ before a consequential composite conclusion finalizes.
 
 Partial proof should remain partial.
 
----
+______________________________________________________________________
 
-# 111. RSCF and Decision Objects
+## 111. RSCF and Decision Objects
 
 Separate:
 
@@ -2880,9 +2883,9 @@ decision:
 
 The decision does not upgrade C1 or C2.
 
----
+______________________________________________________________________
 
-# 112. RSCF and Action Sufficiency
+## 112. RSCF and Action Sufficiency
 
 A proof capsule can be sufficient for one action but insufficient for another.
 
@@ -2904,9 +2907,9 @@ MAKE IRREVERSIBLE COMMITMENT
 
 Thus action sufficiency depends on stakes as well as descriptive confidence.
 
----
+______________________________________________________________________
 
-# 113. Consequential Claim
+## 113. Consequential Claim
 
 RSCF-2 explicitly requires proof capsules for **consequential claims**.
 
@@ -2914,35 +2917,35 @@ The supplied source does not define a formal threshold for "consequential."
 
 A proposed interpretation includes claims whose failure could materially affect:
 
-* governance,
-* irreversible action,
-* safety,
-* legal/financial exposure,
-* large downstream dependency,
-* canonical knowledge,
-* major institutional decisions.
+- governance,
+- irreversible action,
+- safety,
+- legal/financial exposure,
+- large downstream dependency,
+- canonical knowledge,
+- major institutional decisions.
 
 This remains an AMOS_MODEL extension.
 
----
+______________________________________________________________________
 
-# 114. Non-Consequential Claims
+## 114. Non-Consequential Claims
 
 RSCF need not impose maximal capsule overhead on every trivial statement.
 
 A lightweight internal capsule may suffice where:
 
-* stakes are low,
-* claim is local,
-* proof is direct,
-* dependencies are simple,
-* no material uncertainty exists.
+- stakes are low,
+- claim is local,
+- proof is direct,
+- dependencies are simple,
+- no material uncertainty exists.
 
 The source law requires consequential claims to carry capsules; it does not state that every sentence needs a maximal serialized structure.
 
----
+______________________________________________________________________
 
-# 115. Adaptive RSCF Depth
+## 115. Adaptive RSCF Depth
 
 Conceptually:
 
@@ -2961,9 +2964,9 @@ GOVERNANCE IMPACT
 
 Claim discipline remains constant while representation depth adapts.
 
----
+______________________________________________________________________
 
-# 116. Minimal RSCF Runtime
+## 116. Minimal RSCF Runtime
 
 ```text
 CLAIM
@@ -2983,9 +2986,9 @@ OUTPUT
 
 If these questions are resolved, deeper expansion may not be necessary.
 
----
+______________________________________________________________________
 
-# 117. Escalation Triggers
+## 117. Escalation Triggers
 
 Escalate RSCF depth when:
 
@@ -3004,9 +3007,9 @@ IRREVERSIBLE ACTION
 GOVERNANCE IMPACT
 ```
 
----
+______________________________________________________________________
 
-# 118. De-Escalation
+## 118. De-Escalation
 
 Once decision-changing uncertainty is resolved:
 
@@ -3018,9 +3021,9 @@ Do not continue proof expansion merely because more background could be collecte
 
 This preserves smallest-sufficient-proof behavior.
 
----
+______________________________________________________________________
 
-# 119. RSCF Claim Lifecycle
+## 119. RSCF Claim Lifecycle
 
 ```text
 PROPOSITION
@@ -3048,9 +3051,9 @@ PERSIST IF WARRANTED
 REVALIDATE WHEN INVALIDATED
 ```
 
----
+______________________________________________________________________
 
-# 120. SOURCE Lifecycle
+## 120. SOURCE Lifecycle
 
 ```text
 SOURCE MATERIAL
@@ -3065,9 +3068,9 @@ DO NOT UPGRADE
 WITHOUT VALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 121. DERIVED Lifecycle
+## 121. DERIVED Lifecycle
 
 ```text
 PREMISES
@@ -3083,9 +3086,9 @@ INHERIT SCOPE
 SET CEILING
 ```
 
----
+______________________________________________________________________
 
-# 122. MODEL Lifecycle
+## 122. MODEL Lifecycle
 
 ```text
 OBSERVATIONS / CLAIMS
@@ -3101,9 +3104,9 @@ RETAIN / REVISE / REJECT
 
 Model evaluation does not erase the distinction between model and observation.
 
----
+______________________________________________________________________
 
-# 123. UNKNOWN Lifecycle
+## 123. UNKNOWN Lifecycle
 
 ```text
 QUESTION
@@ -3119,9 +3122,9 @@ SEEK HIGH-VALUE DISCRIMINATOR
 RECLASSIFY ONLY IF WARRANTED
 ```
 
----
+______________________________________________________________________
 
-# 124. RSCF Claim Validation Algorithm
+## 124. RSCF Claim Validation Algorithm
 
 ```python
 def validate_claim(claim):
@@ -3147,9 +3150,9 @@ def validate_claim(claim):
 
 Semantic pseudocode only.
 
----
+______________________________________________________________________
 
-# 125. No-Proof-No-Claim Algorithm
+## 125. No-Proof-No-Claim Algorithm
 
 ```python
 def establish(proposition, proof):
@@ -3172,9 +3175,9 @@ def establish(proposition, proof):
     )
 ```
 
----
+______________________________________________________________________
 
-# 126. Class-Mixing Detector
+## 126. Class-Mixing Detector
 
 ```python
 def detect_class_laundering(source_claim, output_claim):
@@ -3190,9 +3193,9 @@ def detect_class_laundering(source_claim, output_claim):
     return PASS
 ```
 
----
+______________________________________________________________________
 
-# 127. Conditional-Carry Algorithm
+## 127. Conditional-Carry Algorithm
 
 ```python
 def propagate_conditions(claim):
@@ -3209,9 +3212,9 @@ def propagate_conditions(claim):
 
 A production implementation would need proof-path semantics for alternatives and cycles.
 
----
+______________________________________________________________________
 
-# 128. Confidence Ceiling Algorithm
+## 128. Confidence Ceiling Algorithm
 
 ```python
 def confidence_ceiling(claim):
@@ -3233,9 +3236,9 @@ def confidence_ceiling(claim):
 
 Conceptual only.
 
----
+______________________________________________________________________
 
-# 129. Proof Capsule Validation Algorithm
+## 129. Proof Capsule Validation Algorithm
 
 ```python
 REQUIRED_FIELDS = {
@@ -3264,9 +3267,9 @@ def validate_capsule(capsule):
 
 Structural validity does not establish semantic correctness.
 
----
+______________________________________________________________________
 
-# 130. Proof Capsule Integrity Invariants
+## 130. Proof Capsule Integrity Invariants
 
 ```yaml
 rscf_capsule_invariants:
@@ -3314,9 +3317,9 @@ rscf_capsule_invariants:
 
 Only the first six are directly anchored to the source capsule law; the remainder are extensions.
 
----
+______________________________________________________________________
 
-# 131. RSCF Integrity Invariants
+## 131. RSCF Integrity Invariants
 
 ```yaml
 rscf_integrity_invariants:
@@ -3370,9 +3373,9 @@ rscf_integrity_invariants:
       storage_does_not_upgrade_epistemic_class
 ```
 
----
+______________________________________________________________________
 
-# 132. RSCF Anti-Patterns
+## 132. RSCF Anti-Patterns
 
 ## RSCF-A1 — Source-to-Fact Laundering
 
@@ -3386,7 +3389,7 @@ without validation.
 
 Rejected.
 
----
+______________________________________________________________________
 
 ## RSCF-A2 — Model-to-Fact Laundering
 
@@ -3398,7 +3401,7 @@ M IS THE ACTUAL MECHANISM
 
 Rejected.
 
----
+______________________________________________________________________
 
 ## RSCF-A3 — Gap Filling by Fluency
 
@@ -3412,7 +3415,7 @@ CLAIM PRESENTED AS ESTABLISHED
 
 Rejected.
 
----
+______________________________________________________________________
 
 ## RSCF-A4 — Dropped Condition
 
@@ -3425,7 +3428,7 @@ C unconditional
 
 Rejected.
 
----
+______________________________________________________________________
 
 ## RSCF-A5 — Hidden Unknown
 
@@ -3439,7 +3442,7 @@ APPARENT CERTAINTY
 
 Rejected.
 
----
+______________________________________________________________________
 
 ## RSCF-A6 — Proof-by-Repetition
 
@@ -3451,7 +3454,7 @@ ONE SOURCE
 
 Rejected.
 
----
+______________________________________________________________________
 
 ## RSCF-A7 — Average-Away Weak Premise
 
@@ -3465,7 +3468,7 @@ Rejected.
 
 Rejected when the unknown is load-bearing.
 
----
+______________________________________________________________________
 
 ## RSCF-A8 — Persistence Upgrade
 
@@ -3477,7 +3480,7 @@ MODEL
 
 Rejected.
 
----
+______________________________________________________________________
 
 ## RSCF-A9 — Scope Laundering
 
@@ -3489,7 +3492,7 @@ VALID EVERYWHERE
 
 Rejected.
 
----
+______________________________________________________________________
 
 ## RSCF-A10 — Temporal Laundering
 
@@ -3501,7 +3504,7 @@ VALID FOREVER
 
 Rejected.
 
----
+______________________________________________________________________
 
 ## RSCF-A11 — Contradiction Erasure
 
@@ -3516,7 +3519,7 @@ without discriminating evidence.
 
 Rejected.
 
----
+______________________________________________________________________
 
 ## RSCF-A12 — Circular Validation
 
@@ -3530,9 +3533,9 @@ MODEL M
 
 Rejected as independent validation.
 
----
+______________________________________________________________________
 
-# 133. Proof vs Explanation
+## 133. Proof vs Explanation
 
 An explanation may improve comprehension without increasing proof strength.
 
@@ -3544,9 +3547,9 @@ STRONGER EVIDENCE
 
 Therefore prose quality must not influence claim classification.
 
----
+______________________________________________________________________
 
-# 134. Proof vs Computation
+## 134. Proof vs Computation
 
 A deterministic calculation can establish the result of that calculation given its inputs.
 
@@ -3562,9 +3565,9 @@ CORRECT CONDITIONAL RESULT
 
 The result remains conditional on input validity.
 
----
+______________________________________________________________________
 
-# 135. Proof vs Simulation
+## 135. Proof vs Simulation
 
 A simulation can establish:
 
@@ -3583,9 +3586,9 @@ will produce X
 
 The model-to-reality bridge remains separately load-bearing.
 
----
+______________________________________________________________________
 
-# 136. Proof vs Benchmark
+## 136. Proof vs Benchmark
 
 A benchmark may establish performance:
 
@@ -3601,9 +3604,9 @@ UNIVERSAL PERFORMANCE
 
 Scope must carry through the proof capsule.
 
----
+______________________________________________________________________
 
-# 137. Proof vs Formal Proof
+## 137. Proof vs Formal Proof
 
 If an artifact reports:
 
@@ -3615,9 +3618,9 @@ that remains a SOURCE claim until the proof or trusted validation establishes th
 
 Documentation language does not automatically become proof status.
 
----
+______________________________________________________________________
 
-# 138. RSCF and Canonical Documents
+## 138. RSCF and Canonical Documents
 
 A canonical document may be authoritative regarding what AMOS canon declares.
 
@@ -3635,9 +3638,9 @@ X corresponds to external reality
 
 These are different claims.
 
----
+______________________________________________________________________
 
-# 139. Corpus Model vs Empirical Claim
+## 139. Corpus Model vs Empirical Claim
 
 For AMOS corpus material:
 
@@ -3655,9 +3658,9 @@ unless external validation exists.
 
 This prevents architectural canon from being misrepresented as empirical science.
 
----
+______________________________________________________________________
 
-# 140. RSCF and Canon Authority
+## 140. RSCF and Canon Authority
 
 A canonical source may raise confidence about:
 
@@ -3673,9 +3676,9 @@ WHETHER THE DEFINED MODEL IS TRUE OF REALITY
 
 RSCF must preserve that boundary.
 
----
+______________________________________________________________________
 
-# 141. RSCF and Recursive Reasoning
+## 141. RSCF and Recursive Reasoning
 
 A derived claim may itself become a premise:
 
@@ -3691,17 +3694,17 @@ D3
 
 At every step preserve:
 
-* class,
-* conditions,
-* provenance,
-* scope,
-* ceiling.
+- class,
+- conditions,
+- provenance,
+- scope,
+- ceiling.
 
 Recursive depth does not wash away ancestry.
 
----
+______________________________________________________________________
 
-# 142. Recursive Confidence
+## 142. Recursive Confidence
 
 Conceptually:
 
@@ -3715,9 +3718,9 @@ in its proof ancestry
 
 unless an independent proof path revalidates D3.
 
----
+______________________________________________________________________
 
-# 143. Recursive Conditional Carry
+## 143. Recursive Conditional Carry
 
 ```text
 Q
@@ -3739,9 +3742,9 @@ D3 conditional on Q
 
 The condition must survive arbitrary derivation depth.
 
----
+______________________________________________________________________
 
-# 144. Recursive Provenance
+## 144. Recursive Provenance
 
 ```text
 D3
@@ -3757,9 +3760,9 @@ when provenance is material.
 
 A long derivation chain does not create independent evidence.
 
----
+______________________________________________________________________
 
-# 145. RSCF and Fractal Retrieval
+## 145. RSCF and Fractal Retrieval
 
 The smallest sufficient proof should retrieve:
 
@@ -3779,9 +3782,9 @@ RSCF determines when lower-level evidence is necessary to close a proof gap.
 
 Raw evidence should not be loaded merely for completeness.
 
----
+______________________________________________________________________
 
-# 146. Proof-Driven Retrieval
+## 146. Proof-Driven Retrieval
 
 ```text
 CLAIM C
@@ -3795,9 +3798,9 @@ RETRIEVE ONLY THAT PATH
 
 This minimizes irrelevant context while preserving integrity.
 
----
+______________________________________________________________________
 
-# 147. RSCF Stop Rule
+## 147. RSCF Stop Rule
 
 Stop retrieval when:
 
@@ -3813,27 +3816,27 @@ are achieved.
 
 Do not seek exhaustive proof when additional evidence cannot change the conclusion or action.
 
----
+______________________________________________________________________
 
-# 148. RSCF and Governance
+## 148. RSCF and Governance
 
 Higher-stakes claims require stronger proof discipline.
 
 Consequentiality may increase when claims affect:
 
-* core laws,
-* persistent canon,
-* irreversible action,
-* institutional decisions,
-* legal/financial exposure,
-* safety,
-* large dependency graphs.
+- core laws,
+- persistent canon,
+- irreversible action,
+- institutional decisions,
+- legal/financial exposure,
+- safety,
+- large dependency graphs.
 
 This affects proof depth, not the fundamental class contract.
 
----
+______________________________________________________________________
 
-# 149. RSCF Governance Mutation
+## 149. RSCF Governance Mutation
 
 Before changing a high-impact canonical claim:
 
@@ -3857,9 +3860,9 @@ COMMIT OR REJECT
 
 This is a proposed operational extension.
 
----
+______________________________________________________________________
 
-# 150. Dependent Revalidation
+## 150. Dependent Revalidation
 
 When a canonical claim changes:
 
@@ -3873,9 +3876,9 @@ all descendants that materially depend on the changed proposition should be mark
 
 Independent descendants remain intact.
 
----
+______________________________________________________________________
 
-# 151. RSCF Transactional Finalization
+## 151. RSCF Transactional Finalization
 
 Conceptually:
 
@@ -3901,9 +3904,9 @@ REVALIDATE
 
 Again, this is a reasoning pattern, not a literal claim about runtime implementation.
 
----
+______________________________________________________________________
 
-# 152. RSCF Proof-Path Independence
+## 152. RSCF Proof-Path Independence
 
 Two proof paths:
 
@@ -3924,9 +3927,9 @@ then apparent independence may be false.
 
 Therefore independence is a claim requiring proof.
 
----
+______________________________________________________________________
 
-# 153. Independent Revalidation
+## 153. Independent Revalidation
 
 A conditional or weak claim can escape its inherited ceiling only through a proof path that does not depend on the weak premise.
 
@@ -3948,9 +3951,9 @@ may permit C to be upgraded.
 
 But E must be genuinely independent and applicable to the same claim/scope.
 
----
+______________________________________________________________________
 
-# 154. RSCF Proof Topology
+## 154. RSCF Proof Topology
 
 ```text
          S1
@@ -3974,9 +3977,9 @@ where S1 and S2 may be independent.
 
 RSCF confidence should respond to topology, not raw edge count.
 
----
+______________________________________________________________________
 
-# 155. RSCF and Negative Claims
+## 155. RSCF and Negative Claims
 
 A negative claim:
 
@@ -3990,9 +3993,9 @@ Failure to find X is not automatically proof of universal nonexistence.
 
 Proof capsules should state the search envelope.
 
----
+______________________________________________________________________
 
-# 156. RSCF and Universal Claims
+## 156. RSCF and Universal Claims
 
 Universal claims have demanding scope.
 
@@ -4013,9 +4016,9 @@ without a valid generalization rule.
 
 The missing bridge must remain explicit.
 
----
+______________________________________________________________________
 
-# 157. RSCF and Existential Claims
+## 157. RSCF and Existential Claims
 
 An existential claim:
 
@@ -4027,26 +4030,26 @@ may be established by one valid witness.
 
 But the witness must itself be established and within the intended scope.
 
----
+______________________________________________________________________
 
-# 158. RSCF and Quantitative Claims
+## 158. RSCF and Quantitative Claims
 
 A quantitative claim should preserve:
 
-* units,
-* measurement method,
-* uncertainty,
-* sample,
-* time,
-* environment,
+- units,
+- measurement method,
+- uncertainty,
+- sample,
+- time,
+- environment,
 
 where load-bearing.
 
 A bare number without its applicability envelope risks false precision.
 
----
+______________________________________________________________________
 
-# 159. RSCF and Threshold Decisions
+## 159. RSCF and Threshold Decisions
 
 Suppose action A occurs if:
 
@@ -4074,9 +4077,9 @@ small uncertainty can flip the action.
 
 RSCF sensitivity should prioritize threshold-adjacent uncertainty.
 
----
+______________________________________________________________________
 
-# 160. RSCF and Falsification
+## 160. RSCF and Falsification
 
 A strong proof capsule should make clear:
 
@@ -4088,9 +4091,9 @@ If no possible evidence could alter a model claim, the claim may be unfalsifiabl
 
 RSCF should mark that limitation rather than treating resistance to falsification as strength.
 
----
+______________________________________________________________________
 
-# 161. Falsifier Status
+## 161. Falsifier Status
 
 ```yaml
 falsifier:
@@ -4119,9 +4122,9 @@ CLAIM
 
 unless the falsifier is logically decisive.
 
----
+______________________________________________________________________
 
-# 162. Not-Established Registry
+## 162. Not-Established Registry
 
 A consequential system may maintain:
 
@@ -4142,9 +4145,9 @@ not_established_registry:
 
 This prevents later summaries from forgetting proof boundaries.
 
----
+______________________________________________________________________
 
-# 163. Gap Registry
+## 163. Gap Registry
 
 ```yaml
 gap_registry:
@@ -4162,9 +4165,9 @@ gap_registry:
 
 This is a proposed extension.
 
----
+______________________________________________________________________
 
-# 164. Condition Registry
+## 164. Condition Registry
 
 ```yaml
 condition_registry:
@@ -4184,9 +4187,9 @@ condition_registry:
 
 This supports selective invalidation and discharge.
 
----
+______________________________________________________________________
 
-# 165. Claim Registry
+## 165. Claim Registry
 
 ```yaml
 claim_registry:
@@ -4225,9 +4228,9 @@ claim_registry:
       string|null
 ```
 
----
+______________________________________________________________________
 
-# 166. RSCF Serialization Contract
+## 166. RSCF Serialization Contract
 
 A compact serialization may be:
 
@@ -4268,9 +4271,9 @@ rscf:
 
 Only the class contract and six proof-capsule fields are source-required in the supplied L17 text.
 
----
+______________________________________________________________________
 
-# 167. RSCF Minimal Serialization
+## 167. RSCF Minimal Serialization
 
 ```yaml
 rscf:
@@ -4294,9 +4297,9 @@ rscf:
 
 This satisfies the conceptual minimum more directly.
 
----
+______________________________________________________________________
 
-# 168. RSCF Validation Contract
+## 168. RSCF Validation Contract
 
 ```yaml
 rscf_validation_contract:
@@ -4327,9 +4330,9 @@ rscf_validation_contract:
     UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 169. RSCF Compliance Matrix
+## 169. RSCF Compliance Matrix
 
 | Requirement                 | Source Law    | Failure                      |
 | --------------------------- | ------------- | ---------------------------- |
@@ -4345,9 +4348,9 @@ rscf_validation_contract:
 | Missing proof remains gap   | RSCF-3        | fabrication                  |
 | Conditions propagate        | RSCF-4        | false unconditionality       |
 
----
+______________________________________________________________________
 
-# 170. RSCF Self-Application
+## 170. RSCF Self-Application
 
 L17 itself is:
 
@@ -4372,9 +4375,9 @@ from:
 MODEL EXTENSION
 ```
 
----
+______________________________________________________________________
 
-# 171. L17 Source-Established Content
+## 171. L17 Source-Established Content
 
 From the supplied L17 source, the following are directly established as corpus claims:
 
@@ -4399,32 +4402,32 @@ From the supplied L17 source, the following are directly established as corpus c
 
 These are `SOURCE` claims about the supplied AMOS corpus note.
 
----
+______________________________________________________________________
 
-# 172. L17 Not Established by Source
+## 172. L17 Not Established by Source
 
 The supplied source does **not** itself establish:
 
-* exact semantics of SOURCE versus SOURCE_CLAIM,
-* complete RSCF v6+ taxonomy,
-* formal proof-path algorithms,
-* exact confidence ordering,
-* exact gap severity taxonomy,
-* exact provenance edge taxonomy,
-* exact condition algebra,
-* exact scope schema,
-* exact persistence schema,
-* exact concurrency implementation,
-* exact MVCC/CAS implementation,
-* exact mapping to H/M/L,
-* exact canonical threshold for "consequential,"
-* exact canonical claim-status cross-product.
+- exact semantics of SOURCE versus SOURCE_CLAIM,
+- complete RSCF v6+ taxonomy,
+- formal proof-path algorithms,
+- exact confidence ordering,
+- exact gap severity taxonomy,
+- exact provenance edge taxonomy,
+- exact condition algebra,
+- exact scope schema,
+- exact persistence schema,
+- exact concurrency implementation,
+- exact MVCC/CAS implementation,
+- exact mapping to H/M/L,
+- exact canonical threshold for "consequential,"
+- exact canonical claim-status cross-product.
 
 Those remain model extensions or gaps.
 
----
+______________________________________________________________________
 
-# 173. L17 Self-Proof Capsule
+## 173. L17 Self-Proof Capsule
 
 ```yaml
 proof_capsule:
@@ -4465,9 +4468,9 @@ proof_capsule:
     CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
-# 174. No Circular Self-Validation
+## 174. No Circular Self-Validation
 
 L17 cannot become authoritative by applying its own RSCF discipline to itself.
 
@@ -4492,9 +4495,9 @@ L17 REMAINS CONDITIONAL
 UNTIL EXTERNAL CANONICAL AUTHORITY RESOLVES IT
 ```
 
----
+______________________________________________________________________
 
-# 175. Falsifier F1
+## 175. Falsifier F1
 
 Original falsifier:
 
@@ -4522,41 +4525,41 @@ reclassify dependent claims
 rebuild affected capsules
 ```
 
----
+______________________________________________________________________
 
-# 176. Material Taxonomy Difference
+## 176. Material Taxonomy Difference
 
 A material difference may include authoritative canon establishing that:
 
-* SOURCE / DERIVED / MODEL / UNKNOWN are not the governing classes,
-* one or more classes have materially different semantics,
-* class mixing is governed differently,
-* additional mandatory classes change the four-class contract,
-* UNKNOWN is represented differently in a way that alters propagation,
-* DERIVED or MODEL have different proof semantics.
+- SOURCE / DERIVED / MODEL / UNKNOWN are not the governing classes,
+- one or more classes have materially different semantics,
+- class mixing is governed differently,
+- additional mandatory classes change the four-class contract,
+- UNKNOWN is represented differently in a way that alters propagation,
+- DERIVED or MODEL have different proof semantics.
 
 The precise threshold for "materially different" is itself not defined by the source.
 
----
+______________________________________________________________________
 
-# 177. Additional Invalidation Conditions
+## 177. Additional Invalidation Conditions
 
 The expanded model should also be reconsidered if authoritative canon defines materially different:
 
-* proof capsule fields,
-* conditional propagation semantics,
-* confidence ceilings,
-* provenance independence rules,
-* scope inheritance,
-* proof-path invalidation,
-* persistent knowledge semantics,
-* H/M/L integration.
+- proof capsule fields,
+- conditional propagation semantics,
+- confidence ceilings,
+- provenance independence rules,
+- scope inheritance,
+- proof-path invalidation,
+- persistent knowledge semantics,
+- H/M/L integration.
 
 These are derived invalidation conditions for the expansion, not additional source falsifiers.
 
----
+______________________________________________________________________
 
-# 178. Known Gaps
+## 178. Known Gaps
 
 ```yaml
 gaps:
@@ -4627,9 +4630,9 @@ gaps:
         is not defined by this source.
 ```
 
----
+______________________________________________________________________
 
-# 179. RSCF Claim Graph for L17
+## 179. RSCF Claim Graph for L17
 
 ```yaml
 claim_graph:
@@ -4714,9 +4717,9 @@ claim_graph:
         taxonomy supplied here.
 ```
 
----
+______________________________________________________________________
 
-# 180. RSCF Dependency Graph
+## 180. RSCF Dependency Graph
 
 ```yaml
 dependency_graph:
@@ -4745,9 +4748,9 @@ dependency_graph:
       - load_bearing_status
 ```
 
----
+______________________________________________________________________
 
-# 181. Unified RSCF Architecture
+## 181. Unified RSCF Architecture
 
 ```text
                     CLAIM
@@ -4780,9 +4783,9 @@ dependency_graph:
               CLAIM FINALIZATION
 ```
 
----
+______________________________________________________________________
 
-# 182. Four-Class Operational Contract
+## 182. Four-Class Operational Contract
 
 ```yaml
 four_class_contract:
@@ -4820,9 +4823,9 @@ four_class_contract:
 
 Only the four class names and prohibition on silent mixing are directly source-defined; these operational descriptions are proposed elaborations.
 
----
+______________________________________________________________________
 
-# 183. Proof Capsule Operational Contract
+## 183. Proof Capsule Operational Contract
 
 ```yaml
 proof_capsule_contract:
@@ -4852,9 +4855,9 @@ proof_capsule_contract:
       bound_maximum_claim_strength
 ```
 
----
+______________________________________________________________________
 
-# 184. RSCF Canonical Compression
+## 184. RSCF Canonical Compression
 
 ```text
 EVERY CLAIM
@@ -4912,15 +4915,15 @@ LOAD-BEARING DEPENDENT
 
 until Q is discharged or the dependent is independently revalidated.
 
----
+______________________________________________________________________
 
-# 185. Canonical One-Line Law
+## 185. Canonical One-Line Law
 
 > **AMOS RSCF requires every claim to preserve its epistemic class, every consequential claim to carry an explicit proof capsule, every missing proof to remain an explicit gap rather than being filled by fluent inference, and every load-bearing condition to propagate through dependent claims until independently discharged.**
 
----
+______________________________________________________________________
 
-# 186. Canonical Equations
+## 186. Canonical Equations
 
 Class contract:
 
@@ -4988,9 +4991,9 @@ LOAD-BEARING PREMISE
 
 unless independently revalidated.
 
----
+______________________________________________________________________
 
-# 187. RSCF Final Proof Capsule
+## 187. RSCF Final Proof Capsule
 
 ```yaml
 proof_capsule:
@@ -5044,9 +5047,9 @@ proof_capsule:
     PROPOSED_SPECIFICATION
 ```
 
----
+______________________________________________________________________
 
-# 188. RSCF Node
+## 188. RSCF Node
 
 ```yaml
 RSCF-NODE:
@@ -5105,19 +5108,19 @@ RSCF-RELATIONS:
   - RELATED_TO: [[01_CANON/01_CORE_LAWS/L15_FRACTAL_KNOWLEDGE|L15_FRACTAL_KNOWLEDGE]]
 ```
 
----
+______________________________________________________________________
 
 **00_ROOT_MOC:**
 
-**Related:**  ·  ·
+**Related:** · ·
 
 **MOC:**
 
 **Trang Framework:**
 
----
+______________________________________________________________________
 
-# 189. L17 Final Invariant
+## 189. L17 Final Invariant
 
 ```text
 EVERY CLAIM
@@ -5240,6 +5243,8 @@ VERIFIED EMPIRICAL REALITY
 
 **Conclusion class: CONDITIONAL / AMOS_MODEL.**
 
+```
+```
 
 ```
 ```

@@ -12,18 +12,18 @@ segment: 04_RUNTIME/06_EXECUTION
 artifact_kind: RUNTIME_SPEC
 path: 04_RUNTIME/06_EXECUTION/ADVERSARIAL_VALIDATION_RUNTIME.md
 tags:
-- amos-os
-- runtime
-- vault
-- 06_execution
-- adversarial_validation_runtime
-- stress_testing
-- falsifier_synthesis
-- rscf
-- canon_candidate
-- canon/runtime
-- law/L0-integrity
-- design-for-absolute-integrity
+  - amos-os
+  - runtime
+  - vault
+  - 06_execution
+  - adversarial_validation_runtime
+  - stress_testing
+  - falsifier_synthesis
+  - rscf
+  - canon_candidate
+  - canon/runtime
+  - law/L0-integrity
+  - design-for-absolute-integrity
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -38,13 +38,13 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - 04_RUNTIME/06_EXECUTION/06_EXECUTION_MOC
-  - 01_CANON/01_CORE_LAWS/L0_INTEGRITY
-  - AMOS_CORPUS
+    - 04_RUNTIME/06_EXECUTION/06_EXECUTION_MOC
+    - 01_CANON/01_CORE_LAWS/L0_INTEGRITY
+    - AMOS_CORPUS
   scope:
-  - RUNTIME_EXECUTION
-  - ADVERSARIAL_VALIDATION
-  - SOURCE_DEFINED_MODEL
+    - RUNTIME_EXECUTION
+    - ADVERSARIAL_VALIDATION
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   execution_moc:
     artifact: 04_RUNTIME/06_EXECUTION/06_EXECUTION_MOC
@@ -61,9 +61,9 @@ epistemic_boundary:
 
 `ADVERSARIAL_VALIDATION_RUNTIME.md` is the canonical Runtime Plane specification governing automated red-teaming, falsifier synthesis, and boundary stress-testing within `04_RUNTIME/06_EXECUTION`.
 
----
+______________________________________________________________________
 
-# 1. Adversarial Falsification Loop
+## 1. Adversarial Falsification Loop
 
 ```text
   Proposed Theorem / Model Output ($M$)
@@ -77,17 +77,17 @@ epistemic_boundary:
   4. Robustness Verification Score Emitted ($R \ge 0.95$ required for commit)
 ```
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Execution MOC:** 04_RUNTIME/06_EXECUTION/[[04_RUNTIME/06_EXECUTION/06_EXECUTION_MOC|06_EXECUTION_MOC]]
 - **Law of Law:** 01_CANON/01_CORE_LAWS/[[01_CANON/01_CORE_LAWS/L0_INTEGRITY|L0_INTEGRITY]]
 - **DFAI Framework:** 11_KNOWLEDGE/05_FRAMEWORKS/[[11_KNOWLEDGE/05_FRAMEWORKS/DESIGN_FOR_ABSOLUTE_INTEGRITY|DESIGN_FOR_ABSOLUTE_INTEGRITY]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -105,9 +105,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME_MOC]] · 04_RUNTIME/06_EXECUTION/[[04_RUNTIME/06_EXECUTION/06_EXECUTION_MOC|06_EXECUTION_MOC]] · 01_CANON/01_CORE_LAWS/[[01_CANON/01_CORE_LAWS/L0_INTEGRITY|L0_INTEGRITY]]
 
----
+______________________________________________________________________
+
 **MOC:** 04_RUNTIME/06_EXECUTION/[[04_RUNTIME/06_EXECUTION/06_EXECUTION_MOC|06_EXECUTION_MOC]]

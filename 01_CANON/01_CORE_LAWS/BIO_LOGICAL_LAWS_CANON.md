@@ -16,34 +16,34 @@ schema_family: RSCF
 schema_role: CANON_RSCF
 schema_version: AMOS_CORE_v4.4-compatible-conceptual
 tags:
-- amos-os
-- canon
-- universe
-- log
-- bio_logical
-- biological_logic
-- life_systems
-- adaptive_systems
-- cognition
-- emergence
-- regulation
-- homeostasis
-- feedback
-- evolution
-- causality
-- epistemic_firewall
-- scope_firewall
-- provenance
-- rscf
-- canon/universe
-- placeholder_expanded
-- memory
-- validation
-- law/L19-proof-capsule
-- architecture
-- law-hierarchy
-- routing-policy-validation-receipt
-- authz-engine-validation-receipt
+  - amos-os
+  - canon
+  - universe
+  - log
+  - bio_logical
+  - biological_logic
+  - life_systems
+  - adaptive_systems
+  - cognition
+  - emergence
+  - regulation
+  - homeostasis
+  - feedback
+  - evolution
+  - causality
+  - epistemic_firewall
+  - scope_firewall
+  - provenance
+  - rscf
+  - canon/universe
+  - placeholder_expanded
+  - memory
+  - validation
+  - law/L19-proof-capsule
+  - architecture
+  - law-hierarchy
+  - routing-policy-validation-receipt
+  - authz-engine-validation-receipt
 version: 0.2.0
 updated: '2026-08-27'
 status: PLACEHOLDER_EXPANDED
@@ -57,11 +57,7 @@ mathematical_validation_status: NOT_ESTABLISHED
 executable_binding: NOT_ESTABLISHED
 ingestion_action: ADD_ONLY
 overclaim_risk: true
-overclaim_note: '"Bio-Logical Laws" is presently an addressable AMOS framework family,
-  not an established body of biological laws. Any substantive law, equation, mechanism,
-  biological interpretation, cross-scale mapping, or universal claim requires native-canon
-  provenance and, where it concerns the empirical world, appropriately typed independent
-  evidence.
+overclaim_note: '"Bio-Logical Laws" is presently an addressable AMOS framework family, not an established body of biological laws. Any substantive law, equation, mechanism, biological interpretation, cross-scale mapping, or universal claim requires native-canon provenance and, where it concerns the empirical world, appropriately typed independent evidence.
 
   '
 rscf:
@@ -80,14 +76,14 @@ rscf:
 
 `BIO_LOGICAL_LAWS_CANON.md` is an **ADD-ONLY placeholder-expanded artifact** for the **Canon** plane segment:
 
-```text
+````text
 01_CANON/01_CORE_LAWS
 
 It reserves the canonical address for the AMOS framework family:
 
 ```text
 BIO-LOGICAL LAWS
-```
+````
 
 The artifact is presently:
 
@@ -127,9 +123,9 @@ System:
 
 **AMOS OS**
 
----
+______________________________________________________________________
 
-# 1. Canonical Integrity Boundary
+## 1. Canonical Integrity Boundary
 
 The following distinctions are mandatory:
 
@@ -189,9 +185,9 @@ UNKNOWN/GAP != PASS
 
 These distinctions form the epistemic firewall around this artifact.
 
----
+______________________________________________________________________
 
-# 2. Purpose
+## 2. Purpose
 
 This artifact reserves and structures the **Bio-Logical Laws Canon** slot within the AMOS Canon plane.
 
@@ -222,36 +218,36 @@ However, this list defines a **target ontology surface**, not validated laws.
 
 Substantive definitions, equations, laws, operators, schemas, or biological interpretations MUST be ingested from identified native AMOS sources rather than reconstructed from terminology alone.
 
----
+______________________________________________________________________
 
-# 3. Non-Purpose
+## 3. Non-Purpose
 
 This artifact MUST NOT by itself be used to claim:
 
-* universal biological laws;
-* scientific proof;
-* biological truth;
-* medical truth;
-* evolutionary inevitability;
-* mathematical theoremhood;
-* philosophical certainty;
-* consciousness;
-* sentience;
-* biological equivalence between organisms and software;
-* equivalence between neural and computational architectures;
-* equivalence between genetic and digital information;
-* universal optimization principles;
-* universal fitness functions;
-* universal definitions of life;
-* causal mechanisms inferred from analogy;
-* runtime enforcement not demonstrated by executable bindings;
-* final canonical status;
-* authority from architectural importance;
-* successful validation because the artifact is addressable.
+- universal biological laws;
+- scientific proof;
+- biological truth;
+- medical truth;
+- evolutionary inevitability;
+- mathematical theoremhood;
+- philosophical certainty;
+- consciousness;
+- sentience;
+- biological equivalence between organisms and software;
+- equivalence between neural and computational architectures;
+- equivalence between genetic and digital information;
+- universal optimization principles;
+- universal fitness functions;
+- universal definitions of life;
+- causal mechanisms inferred from analogy;
+- runtime enforcement not demonstrated by executable bindings;
+- final canonical status;
+- authority from architectural importance;
+- successful validation because the artifact is addressable.
 
----
+______________________________________________________________________
 
-# 4. Ingestion Rule
+## 4. Ingestion Rule
 
 ```yaml
 AMOS_CANON_INGESTION_RULE:
@@ -297,9 +293,9 @@ AMOS_CANON_INGESTION_RULE:
       - NEVER_INVENT_CANON
 ```
 
----
+______________________________________________________________________
 
-# 5. Native-Canon Admission Rule
+## 5. Native-Canon Admission Rule
 
 A substantive Bio-Logical law MUST NOT be populated merely because it is scientifically plausible or resembles an existing AMOS concept.
 
@@ -331,9 +327,9 @@ External scientific literature may validate or challenge a native AMOS claim.
 
 It MUST NOT silently become native AMOS canon.
 
----
+______________________________________________________________________
 
-# 6. Contract Discipline
+## 6. Contract Discipline
 
 All substantive Bio-Logical artifacts are expected to obey:
 
@@ -361,9 +357,9 @@ RECEIPTS FOR CONSEQUENTIAL EFFECTS
 ROLLBACK BASIN BEFORE MUTATION
 ```
 
----
+______________________________________________________________________
 
-# 7. Canonical Epistemic Classes
+## 7. Canonical Epistemic Classes
 
 Claims SHOULD use the weakest accurate class:
 
@@ -389,9 +385,9 @@ UNKNOWN
 
 A biological proposition does not become `VERIFIED` merely because it is encoded as a law.
 
----
+______________________________________________________________________
 
-# 8. Bio-Logical Law Object — Target Schema
+## 8. Bio-Logical Law Object — Target Schema
 
 A future substantive Bio-Logical law SHOULD conceptually normalize to:
 
@@ -465,9 +461,9 @@ This schema is a target normalization contract.
 
 It is not itself a substantive biological law.
 
----
+______________________________________________________________________
 
-# 9. Bio-Logical Variable Registry — Target
+## 9. Bio-Logical Variable Registry — Target
 
 Variables MUST NOT be invented merely to complete equations.
 
@@ -498,9 +494,9 @@ UNKNOWN/GAP
 
 until recovered from native-canon sources.
 
----
+______________________________________________________________________
 
-# 10. Variable Contract
+## 10. Variable Contract
 
 Every admitted variable SHOULD declare:
 
@@ -542,9 +538,9 @@ variable:
 
 A symbol without a declared interpretation is not a canonical biological variable.
 
----
+______________________________________________________________________
 
-# 11. Equation Admission Rule
+## 11. Equation Admission Rule
 
 A candidate equation:
 
@@ -576,9 +572,9 @@ CLAIM CLASS
 
 If empirical interpretation is claimed, also require appropriately typed evidence.
 
----
+______________________________________________________________________
 
-# 12. Formal Validity vs Biological Validity
+## 12. Formal Validity vs Biological Validity
 
 The following layers remain distinct:
 
@@ -614,9 +610,9 @@ MODEL FITS DATA
 CAUSAL LAW ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 13. Causal Firewall
+## 13. Causal Firewall
 
 Bio-Logical reasoning MUST distinguish:
 
@@ -648,9 +644,9 @@ DO NOT BY THEMSELVES ESTABLISH
 CAUSATION
 ```
 
----
+______________________________________________________________________
 
-# 14. Biological Analogy Firewall
+## 14. Biological Analogy Firewall
 
 AMOS may use biological concepts as models for computational, cognitive, organizational, or systemic architectures.
 
@@ -698,9 +694,9 @@ Similarity may motivate a model.
 
 Similarity does not establish equivalence.
 
----
+______________________________________________________________________
 
-# 15. Scale Firewall
+## 15. Scale Firewall
 
 Biological phenomena may occur across multiple organizational scales.
 
@@ -728,9 +724,9 @@ VALID_AT_ORGANISM_SCALE
 
 unless the cross-scale mapping is independently established.
 
----
+______________________________________________________________________
 
-# 16. Cross-Scale Mapping Contract
+## 16. Cross-Scale Mapping Contract
 
 A cross-scale claim SHOULD declare:
 
@@ -767,9 +763,9 @@ Absent this information:
 CROSS-SCALE CLAIM = MODEL / UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 17. Temporal Firewall
+## 17. Temporal Firewall
 
 Biological validity is often time-dependent.
 
@@ -786,9 +782,9 @@ EVOLUTIONARY CHANGE
 
 A short-term response MUST NOT automatically be interpreted as evolutionary adaptation.
 
----
+______________________________________________________________________
 
-# 18. Adaptation / Evolution Firewall
+## 18. Adaptation / Evolution Firewall
 
 Canonical distinction:
 
@@ -819,9 +815,9 @@ OTHER
 
 These meanings MUST NOT be silently merged.
 
----
+______________________________________________________________________
 
-# 19. Fitness Firewall
+## 19. Fitness Firewall
 
 `FITNESS` requires explicit semantics.
 
@@ -846,9 +842,9 @@ BIOLOGICAL FITNESS
 
 unless explicitly justified.
 
----
+______________________________________________________________________
 
-# 20. Information Firewall
+## 20. Information Firewall
 
 The word `information` may refer to materially different constructs.
 
@@ -883,9 +879,9 @@ DIGITAL INFORMATION
 
 without a declared mapping model.
 
----
+______________________________________________________________________
 
-# 21. Feedback Canon Boundary
+## 21. Feedback Canon Boundary
 
 Feedback may be modeled as:
 
@@ -912,9 +908,9 @@ GOAL REPRESENTATION
 
 A feedback loop may exist without any of those properties.
 
----
+______________________________________________________________________
 
-# 22. Homeostasis Boundary
+## 22. Homeostasis Boundary
 
 A target conceptual pattern may be represented:
 
@@ -938,9 +934,9 @@ HOMEOSTASIS
 
 unless the system, regulated variable, viable range, mechanism, and evidence support that classification.
 
----
+______________________________________________________________________
 
-# 23. Robustness Boundary
+## 23. Robustness Boundary
 
 Robustness conceptually concerns persistence of relevant function or state under perturbation.
 
@@ -962,9 +958,9 @@ ROBUST UNDER Δ1
 ROBUST UNDER ALL Δ
 ```
 
----
+______________________________________________________________________
 
-# 24. Resilience Boundary
+## 24. Resilience Boundary
 
 Resilience and robustness SHOULD remain distinct where native canon makes the distinction.
 
@@ -982,9 +978,9 @@ RECOVER AFTER CHANGE
 
 This representation is a conceptual distinction only and MUST NOT overwrite future native-canon definitions.
 
----
+______________________________________________________________________
 
-# 25. Repair Boundary
+## 25. Repair Boundary
 
 A repair process may conceptually be represented:
 
@@ -1010,9 +1006,9 @@ BIOLOGICAL REPAIR
 
 A software rollback may be structurally analogous to repair without being biologically equivalent.
 
----
+______________________________________________________________________
 
-# 26. Boundary / Identity Model
+## 26. Boundary / Identity Model
 
 Life-related models frequently require some representation of system boundary.
 
@@ -1034,9 +1030,9 @@ WHAT INVALIDATES IDENTITY?
 
 No universal answer is established by this placeholder.
 
----
+______________________________________________________________________
 
-# 27. Open-System Boundary
+## 27. Open-System Boundary
 
 If a future Bio-Logical law assumes an open system, the exchange terms MUST be explicit.
 
@@ -1056,9 +1052,9 @@ INTERACTIONS
 
 This is a generic model form, not an admitted canonical biological equation.
 
----
+______________________________________________________________________
 
-# 28. Resource Constraint Boundary
+## 28. Resource Constraint Boundary
 
 A future model may represent biological activity as constrained by finite resources.
 
@@ -1072,9 +1068,9 @@ UNIVERSAL OPTIMIZATION LAW
 
 A system may persist under constraint without globally optimizing any single objective.
 
----
+______________________________________________________________________
 
-# 29. Selection Boundary
+## 29. Selection Boundary
 
 Selection claims require explicit selection semantics.
 
@@ -1090,9 +1086,9 @@ RETENTION / HERITABILITY
 
 But the exact conditions for biological evolutionary selection must come from appropriately scoped biological evidence, not this placeholder.
 
----
+______________________________________________________________________
 
-# 30. Replication Boundary
+## 30. Replication Boundary
 
 Replication requires declaration of:
 
@@ -1107,9 +1103,9 @@ WHAT IS THE ENVIRONMENT?
 
 Digital copying does not establish biological replication.
 
----
+______________________________________________________________________
 
-# 31. Memory Boundary
+## 31. Memory Boundary
 
 Memory may refer to:
 
@@ -1128,9 +1124,9 @@ These meanings require explicit typing.
 
 A generic AMOS `memory` concept MUST NOT silently inherit biological implications.
 
----
+______________________________________________________________________
 
-# 32. Emergence Firewall
+## 32. Emergence Firewall
 
 A macro-level pattern may depend on lower-level interactions.
 
@@ -1163,9 +1159,9 @@ EVIDENCE
 
 where materially relevant.
 
----
+______________________________________________________________________
 
-# 33. Self-Organization Firewall
+## 33. Self-Organization Firewall
 
 Self-organization may describe organized patterns arising without centralized control.
 
@@ -1181,9 +1177,9 @@ PURPOSE
 
 These remain separate claims.
 
----
+______________________________________________________________________
 
-# 34. Agency Firewall
+## 34. Agency Firewall
 
 Observed goal-directed-looking behavior does not by itself establish internal agency.
 
@@ -1201,9 +1197,9 @@ AGENCY
 
 Competing explanations SHOULD remain visible until discriminating evidence exists.
 
----
+______________________________________________________________________
 
-# 35. Teleology Firewall
+## 35. Teleology Firewall
 
 Statements such as:
 
@@ -1227,9 +1223,9 @@ These must not be conflated.
 
 Purpose-like language requires careful typing.
 
----
+______________________________________________________________________
 
-# 36. Optimization Firewall
+## 36. Optimization Firewall
 
 Biological systems MUST NOT automatically be modeled as globally optimal.
 
@@ -1251,9 +1247,9 @@ PERFECT OPTIMIZATION
 
 Optimization assumptions MUST be explicitly declared as assumptions or models.
 
----
+______________________________________________________________________
 
-# 37. Determinism Firewall
+## 37. Determinism Firewall
 
 Biological models may contain deterministic equations without establishing deterministic biology.
 
@@ -1274,9 +1270,9 @@ MODEL ERROR
 INITIAL-CONDITION UNCERTAINTY
 ```
 
----
+______________________________________________________________________
 
-# 38. Probability Boundary
+## 38. Probability Boundary
 
 If a future Bio-Logical model uses probabilities, it MUST declare what the probability represents.
 
@@ -1293,9 +1289,9 @@ SAMPLING UNCERTAINTY
 
 These interpretations are not interchangeable.
 
----
+______________________________________________________________________
 
-# 39. Scope Envelope
+## 39. Scope Envelope
 
 Every consequential Bio-Logical claim SHOULD inherit:
 
@@ -1314,9 +1310,9 @@ scope:
 
 No silent generalization outside this envelope is permitted.
 
----
+______________________________________________________________________
 
-# 40. Regime Firewall
+## 40. Regime Firewall
 
 A relationship valid in one regime may fail in another.
 
@@ -1350,9 +1346,9 @@ MEASUREMENT METHOD
 
 where applicable.
 
----
+______________________________________________________________________
 
-# 41. Regime Shift Handling
+## 41. Regime Shift Handling
 
 ```text
 VALIDATED STATE
@@ -1366,9 +1362,9 @@ CHECK VALIDITY CONDITIONS
 
 Only affected descendants should be invalidated.
 
----
+______________________________________________________________________
 
-# 42. Provenance Topology
+## 42. Provenance Topology
 
 Substantive Bio-Logical claims SHOULD preserve:
 
@@ -1390,9 +1386,9 @@ CANONICAL DECISION
 
 Multiple transformations from one source remain one provenance ancestry unless genuinely independent evidence exists.
 
----
+______________________________________________________________________
 
-# 43. Anti-Sybil Evidence Rule
+## 43. Anti-Sybil Evidence Rule
 
 Invalid:
 
@@ -1419,9 +1415,9 @@ Correct:
 
 unless independent evidence is established.
 
----
+______________________________________________________________________
 
-# 44. Evidence Independence
+## 44. Evidence Independence
 
 Independence MUST be demonstrated, not assumed.
 
@@ -1440,9 +1436,9 @@ SHARED TRANSFORMATION
 
 Apparent repetition does not automatically increase confidence.
 
----
+______________________________________________________________________
 
-# 45. Proof Capsule Contract
+## 45. Proof Capsule Contract
 
 An important Bio-Logical conclusion SHOULD conceptually carry:
 
@@ -1484,9 +1480,9 @@ proof_capsule:
     state: established | partial | unknown
 ```
 
----
+______________________________________________________________________
 
-# 46. Confidence Ceiling
+## 46. Confidence Ceiling
 
 For a conclusion:
 
@@ -1508,9 +1504,9 @@ unless independent evidence directly revalidates the conclusion.
 
 More downstream derivation does not erase weak premises.
 
----
+______________________________________________________________________
 
-# 47. Competing Hypotheses
+## 47. Competing Hypotheses
 
 If two biologically relevant models remain plausible:
 
@@ -1528,9 +1524,9 @@ STATE = COMPETING
 
 The architecture MUST NOT force a false synthesis.
 
----
+______________________________________________________________________
 
-# 48. Discriminating Evidence
+## 48. Discriminating Evidence
 
 Preferred next evidence is the evidence most likely to change the decision between competing hypotheses.
 
@@ -1545,9 +1541,9 @@ DISCRIMINATING TEST
 
 rather than repeated collection of evidence that both hypotheses predict.
 
----
+______________________________________________________________________
 
-# 49. Sensitivity
+## 49. Sensitivity
 
 For consequential claims identify the smallest change capable of reversing the result.
 
@@ -1569,9 +1565,9 @@ If small plausible changes reverse the conclusion:
 CLASS = CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
-# 50. Robustness of Conclusions
+## 50. Robustness of Conclusions
 
 A conclusion is epistemically more robust if it survives plausible perturbations of noncritical assumptions.
 
@@ -1587,9 +1583,9 @@ Robustness concerns dependence on assumptions.
 
 Truth requires appropriate evidence.
 
----
+______________________________________________________________________
 
-# 51. Uncertainty Vector
+## 51. Uncertainty Vector
 
 For consequential Bio-Logical claims track separately:
 
@@ -1627,9 +1623,9 @@ U_provenance_independence
 
 A single scalar confidence SHOULD NOT erase materially different uncertainty types.
 
----
+______________________________________________________________________
 
-# 52. Gap Taxonomy
+## 52. Gap Taxonomy
 
 Gaps are classified:
 
@@ -1652,9 +1648,9 @@ EXPLANATORY
 COSMETIC
 ```
 
----
+______________________________________________________________________
 
-# 53. Current Critical Gap — Native Content
+## 53. Current Critical Gap — Native Content
 
 ```yaml
 gap:
@@ -1673,9 +1669,9 @@ gap:
     - provenance_lineage
 ```
 
----
+______________________________________________________________________
 
-# 54. Current Critical Gap — Equations
+## 54. Current Critical Gap — Equations
 
 ```yaml
 gap:
@@ -1689,9 +1685,9 @@ gap:
     the placeholder.
 ```
 
----
+______________________________________________________________________
 
-# 55. Current Critical Gap — Empirical Validation
+## 55. Current Critical Gap — Empirical Validation
 
 ```yaml
 gap:
@@ -1704,9 +1700,9 @@ gap:
     has not been established.
 ```
 
----
+______________________________________________________________________
 
-# 56. Current Critical Gap — Executable Binding
+## 56. Current Critical Gap — Executable Binding
 
 ```yaml
 gap:
@@ -1719,9 +1715,9 @@ gap:
     framework has been established.
 ```
 
----
+______________________________________________________________________
 
-# 57. Current Critical Gap — Canonical Authority
+## 57. Current Critical Gap — Canonical Authority
 
 ```yaml
 gap:
@@ -1734,9 +1730,9 @@ gap:
     canon has not occurred.
 ```
 
----
+______________________________________________________________________
 
-# 58. H/M/L Fractal Target
+## 58. H/M/L Fractal Target
 
 The future populated framework SHOULD be navigable through:
 
@@ -1762,9 +1758,9 @@ Raw evidence remains:
 DO_NOT_LOAD_UNLESS_REQUIRED
 ```
 
----
+______________________________________________________________________
 
-# 59. H Layer — Bio-Logical Laws System
+## 59. H Layer — Bio-Logical Laws System
 
 Target H node:
 
@@ -1788,9 +1784,9 @@ VALIDATION STATE
 
 The H node does not create truth by aggregation.
 
----
+______________________________________________________________________
 
-# 60. Candidate M-Layer Families
+## 60. Candidate M-Layer Families
 
 The following are **organizational candidates only** until native sources establish them:
 
@@ -1836,9 +1832,9 @@ MODEL / TARGET TAXONOMY
 
 not populated canon.
 
----
+______________________________________________________________________
 
-# 61. Candidate L-Layer Types
+## 61. Candidate L-Layer Types
 
 Potential atomic nodes include:
 
@@ -1863,9 +1859,9 @@ L.GAP
 L.VALIDATION_RECEIPT
 ```
 
----
+______________________________________________________________________
 
-# 62. RSCF Target Graph
+## 62. RSCF Target Graph
 
 ```text
 BIO_LOGICAL_CANON
@@ -1891,9 +1887,9 @@ BIO_LOGICAL_CANON
 
 This is a target graph schema.
 
----
+______________________________________________________________________
 
-# 63. Dependency Closure
+## 63. Dependency Closure
 
 When evaluating a Bio-Logical claim, traverse only dependencies that can materially change its status.
 
@@ -1909,9 +1905,9 @@ EVIDENCE
 
 Avoid loading unrelated biological background merely for completeness.
 
----
+______________________________________________________________________
 
-# 64. Fast-Path Eligibility
+## 64. Fast-Path Eligibility
 
 A local conclusion may use a minimal proof path only when:
 
@@ -1931,9 +1927,9 @@ NO MATERIAL CONFLICT
 
 Escalate if any of these fail.
 
----
+______________________________________________________________________
 
-# 65. Adversarial Validation
+## 65. Adversarial Validation
 
 For consequential Bio-Logical claims, validation SHOULD search for:
 
@@ -1969,9 +1965,9 @@ OR
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 66. Biological Evidence Gate
+## 66. Biological Evidence Gate
 
 A substantive empirical biological claim SHOULD require evidence appropriate to the claim type.
 
@@ -1995,9 +1991,9 @@ VALIDATION
 
 A documentation statement is not an observation.
 
----
+______________________________________________________________________
 
-# 67. Mechanism Gate
+## 67. Mechanism Gate
 
 A claim of biological mechanism requires more than statistical association.
 
@@ -2023,9 +2019,9 @@ UNKNOWN
 
 unless appropriate evidence establishes more.
 
----
+______________________________________________________________________
 
-# 68. Universal-Law Gate
+## 68. Universal-Law Gate
 
 Claims using terms such as:
 
@@ -2051,9 +2047,9 @@ DOWNGRADE
 
 to the narrowest supported envelope.
 
----
+______________________________________________________________________
 
-# 69. Formal Theorem Gate
+## 69. Formal Theorem Gate
 
 If a future Bio-Logical statement is presented as a theorem, require:
 
@@ -2075,9 +2071,9 @@ MATHEMATICAL THEOREM
 EMPIRICAL BIOLOGICAL LAW
 ```
 
----
+______________________________________________________________________
 
-# 70. External Research Boundary
+## 70. External Research Boundary
 
 External scientific research MAY:
 
@@ -2099,9 +2095,9 @@ EXTERNAL RESEARCH
 NATIVE AMOS CANON
 ```
 
----
+______________________________________________________________________
 
-# 71. Canonical Conflict Handling
+## 71. Canonical Conflict Handling
 
 If native AMOS sources disagree:
 
@@ -2125,9 +2121,9 @@ MARK COMPETING
 
 until discriminating evidence or supersession resolves the conflict.
 
----
+______________________________________________________________________
 
-# 72. Historical Lineage
+## 72. Historical Lineage
 
 Historical formulations SHOULD be preserved even after supersession.
 
@@ -2143,9 +2139,9 @@ V3
 
 Supersession does not erase lineage.
 
----
+______________________________________________________________________
 
-# 73. Canonical Identity
+## 73. Canonical Identity
 
 Each substantive law SHOULD possess stable identity independent of display title.
 
@@ -2159,9 +2155,9 @@ identity:
 
 Renaming a law MUST NOT silently create a new law if lineage indicates identity continuity.
 
----
+______________________________________________________________________
 
-# 74. Versioning
+## 74. Versioning
 
 Changes SHOULD distinguish:
 
@@ -2187,9 +2183,9 @@ SUPERSESSION
 
 Material semantic changes require explicit lineage.
 
----
+______________________________________________________________________
 
-# 75. Mutation Discipline
+## 75. Mutation Discipline
 
 Before consequential canon mutation:
 
@@ -2213,9 +2209,9 @@ VALIDATE
 COMMIT OR HOLD
 ```
 
----
+______________________________________________________________________
 
-# 76. Authority Boundary
+## 76. Authority Boundary
 
 Canonical capability is not canonical authority.
 
@@ -2227,9 +2223,9 @@ AUTHORITY
 
 An agent able to edit the artifact is not thereby authorized to establish a biological law.
 
----
+______________________________________________________________________
 
-# 77. Proposal Boundary
+## 77. Proposal Boundary
 
 A candidate law remains:
 
@@ -2245,9 +2241,9 @@ PROPOSAL
 COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 78. Observation Boundary
+## 78. Observation Boundary
 
 Monitoring an artifact or runtime does not validate biological meaning.
 
@@ -2265,9 +2261,9 @@ LOGGED
 APPROVED
 ```
 
----
+______________________________________________________________________
 
-# 79. Runtime Boundary
+## 79. Runtime Boundary
 
 If future code implements a Bio-Logical model:
 
@@ -2281,9 +2277,9 @@ Passing software tests can establish implementation behavior.
 
 It cannot alone establish biological truth.
 
----
+______________________________________________________________________
 
-# 80. Simulation Boundary
+## 80. Simulation Boundary
 
 A simulation may demonstrate consequences of a model.
 
@@ -2303,9 +2299,9 @@ SIMULATION SUCCESS
 REAL-WORLD BIOLOGICAL VALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 81. Benchmark Boundary
+## 81. Benchmark Boundary
 
 A benchmark result applies only within its declared environment.
 
@@ -2322,17 +2318,17 @@ benchmark_scope:
 
 No hardware-independent or universal performance claim follows automatically.
 
----
+______________________________________________________________________
 
-# 82. Biological Safety Boundary
+## 82. Biological Safety Boundary
 
 If a future Bio-Logical model is used to inform health, biological intervention, laboratory activity, or safety-critical decisions, validation requirements MUST increase with consequence and irreversibility.
 
 Architecture-level canon does not constitute medical or biological operational authorization.
 
----
+______________________________________________________________________
 
-# 83. Decision Governance
+## 83. Decision Governance
 
 Under uncertainty:
 
@@ -2352,9 +2348,9 @@ SHOULD remain distinguishable.
 
 Prefer reversible and repairable actions when outcomes remain uncertain.
 
----
+______________________________________________________________________
 
-# 84. Failure Recovery
+## 84. Failure Recovery
 
 If a premise fails:
 
@@ -2368,9 +2364,9 @@ INVALIDATE DESCENDANTS ONLY
 
 Do not erase unrelated valid work.
 
----
+______________________________________________________________________
 
-# 85. Local Rollback Example
+## 85. Local Rollback Example
 
 Suppose:
 
@@ -2399,36 +2395,36 @@ C2
 
 Global recomputation is a last resort.
 
----
+______________________________________________________________________
 
-# 86. Canon Promotion Gate
+## 86. Canon Promotion Gate
 
 Before this artifact can move beyond placeholder status:
 
-* [ ] native Bio-Logical source identified;
-* [ ] source provenance recorded;
-* [ ] framework definition recovered;
-* [ ] law families recovered from source rather than invented;
-* [ ] law statements normalized;
-* [ ] variables defined;
-* [ ] equations preserved exactly where present;
-* [ ] assumptions declared;
-* [ ] scope declared;
-* [ ] regime declared;
-* [ ] historical lineage linked;
-* [ ] competing native formulations preserved;
-* [ ] external research separated from native canon;
-* [ ] empirical claims typed;
-* [ ] biological validation status explicit;
-* [ ] executable binding explicit;
-* [ ] negative cases covered;
-* [ ] rollback basin demonstrated;
-* [ ] artifact-specific validation receipt produced;
-* [ ] unresolved critical gaps remain visible.
+- [ ] native Bio-Logical source identified;
+- [ ] source provenance recorded;
+- [ ] framework definition recovered;
+- [ ] law families recovered from source rather than invented;
+- [ ] law statements normalized;
+- [ ] variables defined;
+- [ ] equations preserved exactly where present;
+- [ ] assumptions declared;
+- [ ] scope declared;
+- [ ] regime declared;
+- [ ] historical lineage linked;
+- [ ] competing native formulations preserved;
+- [ ] external research separated from native canon;
+- [ ] empirical claims typed;
+- [ ] biological validation status explicit;
+- [ ] executable binding explicit;
+- [ ] negative cases covered;
+- [ ] rollback basin demonstrated;
+- [ ] artifact-specific validation receipt produced;
+- [ ] unresolved critical gaps remain visible.
 
----
+______________________________________________________________________
 
-# 87. Negative Validation Matrix
+## 87. Negative Validation Matrix
 
 Required cases SHOULD include:
 
@@ -2472,9 +2468,9 @@ FAILED DEPENDENCY
 FAILED VALIDATION RECEIPT
 ```
 
----
+______________________________________________________________________
 
-# 88. Worked Semantics — Canon Operation
+## 88. Worked Semantics — Canon Operation
 
 Given an operation touching:
 
@@ -2487,36 +2483,36 @@ the target semantics are:
 1. **Admit**
    Resolve artifact identity and version.
 
-2. **Bind scope**
+1. **Bind scope**
    Declare biological domain, regime, scale, and H/M/L applicability.
 
-3. **Check authority**
+1. **Check authority**
    `authority_ref` must be epoch-valid.
 
-4. **Resolve provenance**
+1. **Resolve provenance**
    Identify native AMOS source ancestry.
 
-5. **Validate preconditions**
+1. **Validate preconditions**
    Traverse the smallest result-changing dependency closure.
 
-6. **Classify claim**
+1. **Classify claim**
    Assign the weakest accurate epistemic class.
 
-7. **Challenge**
+1. **Challenge**
    Search for contradiction, scope leakage, stale evidence, causal overreach, and correlated provenance.
 
-8. **Propose**
+1. **Propose**
    Candidate state remains non-authoritative.
 
-9. **Commit or hold**
+1. **Commit or hold**
    Any failed critical premise causes fail-closed behavior.
 
-10. **Receipt**
-    Record the resulting state and unresolved gaps.
+1. **Receipt**
+   Record the resulting state and unresolved gaps.
 
----
+______________________________________________________________________
 
-# 89. Worked Semantics — Candidate Biological Law
+## 89. Worked Semantics — Candidate Biological Law
 
 Suppose a source proposes:
 
@@ -2551,9 +2547,9 @@ candidate:
 
 Only separate validation can change empirical status.
 
----
+______________________________________________________________________
 
-# 90. Worked Semantics — Analogy
+## 90. Worked Semantics — Analogy
 
 Suppose an AMOS architecture and a biological system both exhibit feedback.
 
@@ -2580,9 +2576,9 @@ The mapping remains:
 MODEL
 ```
 
----
+______________________________________________________________________
 
-# 91. Worked Semantics — Causality
+## 91. Worked Semantics — Causality
 
 Suppose:
 
@@ -2606,9 +2602,9 @@ Do not promote to:
 A CAUSES B
 ```
 
----
+______________________________________________________________________
 
-# 92. Worked Semantics — Cross-Scale Claim
+## 92. Worked Semantics — Cross-Scale Claim
 
 Suppose a relation is observed at cellular scale.
 
@@ -2629,9 +2625,9 @@ POPULATION SCALE
 
 Cross-scale promotion requires an explicit mapping and evidence.
 
----
+______________________________________________________________________
 
-# 93. Worked Semantics — Regime Shift
+## 93. Worked Semantics — Regime Shift
 
 Suppose model `L` is supported under environment `E1`.
 
@@ -2659,9 +2655,9 @@ If a load-bearing validity condition fails:
 INVALIDATE DEPENDENT CONCLUSIONS
 ```
 
----
+______________________________________________________________________
 
-# 94. Worked Semantics — Competing Models
+## 94. Worked Semantics — Competing Models
 
 Suppose:
 
@@ -2689,9 +2685,9 @@ OBSERVATION O2
 
 where predictions diverge materially.
 
----
+______________________________________________________________________
 
-# 95. Canonical Proof Capsule — Current Artifact
+## 95. Canonical Proof Capsule — Current Artifact
 
 ```yaml
 proof_capsule:
@@ -2728,9 +2724,9 @@ proof_capsule:
   empirical_biological_validity_established: false
 ```
 
----
+______________________________________________________________________
 
-# 96. Proof Capsule — Biological Truth
+## 96. Proof Capsule — Biological Truth
 
 ```yaml
 proof_capsule:
@@ -2752,9 +2748,9 @@ proof_capsule:
     - provenance_independence_not_established
 ```
 
----
+______________________________________________________________________
 
-# 97. Proof Capsule — Executable Enforcement
+## 97. Proof Capsule — Executable Enforcement
 
 ```yaml
 proof_capsule:
@@ -2775,9 +2771,9 @@ proof_capsule:
     - validation_not_established
 ```
 
----
+______________________________________________________________________
 
-# 98. Canonical Knowledge Capsule
+## 98. Canonical Knowledge Capsule
 
 **Class: AMOS_MODEL / SOURCE_CLAIM**
 
@@ -2841,9 +2837,9 @@ UNKNOWN/GAP
 
 with respect to substantive Bio-Logical laws.
 
----
+______________________________________________________________________
 
-# 99. Cross-Plane Bindings — Target
+## 99. Cross-Plane Bindings — Target
 
 ```text
 BIO_LOGICAL_LAWS_CANON
@@ -2865,13 +2861,13 @@ BIO_LOGICAL_LAWS_CANON
 
 Target references:
 
-*
-*
-*
-*
-*
-*
-*
+-
+-
+-
+-
+-
+-
+-
 
 Observability remains non-authoritative.
 
@@ -2881,9 +2877,9 @@ OBSERVATION
 AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 100. Validation Receipts Required
+## 100. Validation Receipts Required
 
 Before promotion, artifact-specific validation receipts SHOULD replace generic placeholders where applicable.
 
@@ -2899,9 +2895,9 @@ These references alone do not establish Bio-Logical validation.
 
 A substantive populated canon would additionally require evidence specific to the claims being promoted.
 
----
+______________________________________________________________________
 
-# 101. Final Promotion State
+## 101. Final Promotion State
 
 Current:
 
@@ -2945,9 +2941,9 @@ SUPPORTED / REJECTED / COMPETING
 
 The tracks MUST NOT be collapsed.
 
----
+______________________________________________________________________
 
-# 102. Canonical Invariants
+## 102. Canonical Invariants
 
 ```text
 INTEGRITY > COMPLETENESS > FLUENCY > SPEED > TOKEN SAVINGS
@@ -2997,9 +2993,9 @@ LOGGED != APPROVED
 UNKNOWN/GAP != PASS
 ```
 
----
+______________________________________________________________________
 
-# 103. Final Integrity Rule
+## 103. Final Integrity Rule
 
 Until verified native-canon sources containing the substantive **Bio-Logical Laws** are ingested:
 
@@ -3030,15 +3026,15 @@ PROMOTE ONLY WITH RECEIPTS
 
 This is the governing behavior of the current artifact.
 
----
+______________________________________________________________________
 
 00_ROOT_MOC|AMOS MOC
 
----
+______________________________________________________________________
 
-**Related:**  ·
+**Related:** ·
 
----
+______________________________________________________________________
 
 RSCF-NODE
 
@@ -3070,25 +3066,25 @@ executable_binding: NOT_ESTABLISHED
 
 RSCF-RELATIONS:
 
-* INDEXED_BY:
+- INDEXED_BY:
 
-* INDEXED_BY:
+- INDEXED_BY:
 
-* GOVERNED_BY:
+- GOVERNED_BY:
 
-* INTERACTS_WITH:
+- INTERACTS_WITH:
 
-* CONTROLLED_BY:
+- CONTROLLED_BY:
 
-* OBSERVED_BY:
+- OBSERVED_BY:
 
-* RECOVERED_BY:
+- RECOVERED_BY:
 
----
+______________________________________________________________________
 
 **MOC:**
 
----
+______________________________________________________________________
 
 **Origin Architect / Steward:** Trang Phan
 
@@ -3104,5 +3100,6 @@ RSCF-RELATIONS:
 
 **Substantive native Bio-Logical laws:** UNKNOWN/GAP
 
-
+```
+```
 ```

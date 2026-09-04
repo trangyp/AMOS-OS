@@ -1,4 +1,7 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 date: 2026-08-30
 epistemic_class: OBSERVATION
 provenance: GitHub README, not independently verified
@@ -10,6 +13,7 @@ rscf:
 source: https://raw.githubusercontent.com/XSkill-Agent/XSkill/main/README.md
 title: XSkill README — Raw Capture
 ---
+
 # XSkill README — Raw Capture
 
 Source: `https://github.com/XSkill-Agent/XSkill`
@@ -34,14 +38,14 @@ Source: `https://github.com/XSkill-Agent/XSkill`
   </a>
 </p>
 
----
+______________________________________________________________________
 
 ## News 🔥🔥
 
 - **2026.05.01:** XSkill has been accpeted by ICML 2026, see you in Seoul! 🎉
 - **2026.03.12:** We release our paper.
 
----
+______________________________________________________________________
 
 ## Overview
 
@@ -53,7 +57,7 @@ XSkill operates in two phases. **Phase I (Accumulation)**: after each batch of r
 
 Evaluated on diverse benchmarks (VisualToolBench, TIR-Bench, MMSearch-Plus, AgentVista, MMBrowseComp), XSkill achieves considerable performance gains over strong baselines across different backbone models, with superior zero-shot cross-task transferability.
 
----
+______________________________________________________________________
 
 ## Repository Structure
 
@@ -88,7 +92,7 @@ XSkill/
 └── requirements.txt
 ```
 
----
+______________________________________________________________________
 
 ## Installation
 
@@ -100,8 +104,7 @@ cd XSkill
 pip install -r requirements.txt
 ```
 
-
----
+______________________________________________________________________
 
 ## Configuration
 
@@ -112,31 +115,31 @@ Before running, you must fill in **two** configuration files.
 Open `eval/run_api_exskill.sh` and set the following variables:
 
 ```bash
-# ── Reasoning Model (the main agent) ──────────────────────────────────────
+## ── Reasoning Model (the main agent) ──────────────────────────────────────
 export REASONING_MODEL_NAME=""
 export REASONING_API_KEY=$API_KEY_1
 export REASONING_END_POINT=""       # OpenAI-compatible endpoint URL
 
-# Optional: second API key for round-robin fallback
+## Optional: second API key for round-robin fallback
 export REASONING_API_KEY_2=$API_KEY_2
 export REASONING_END_POINT_2=""
 
-# ── Verifier Model (LLM-as-judge for scoring) ─────────────────────────────
+## ── Verifier Model (LLM-as-judge for scoring) ─────────────────────────────
 export VERIFIER_MODEL_NAME=""
 export VERIFIER_API_KEY=$API_KEY_2
 export VERIFIER_END_POINT=""
 
-# ── Experience Model (experience generation & skill building) ──────────────
+## ── Experience Model (experience generation & skill building) ──────────────
 export EXPERIENCE_MODEL_NAME=""
 export EXPERIENCE_API_KEY=$API_KEY_2
 export EXPERIENCE_END_POINT=""
 
-# Embedding model for experience retrieval (OpenAI-compatible)
+## Embedding model for experience retrieval (OpenAI-compatible)
 export EXPERIENCE_EMBEDDING_MODEL="text-embedding-3-small"
 export EXPERIENCE_EMBEDDING_API_KEY=$API_KEY_2
 export EXPERIENCE_EMBEDDING_ENDPOINT=""
 
-# ── External Tool API Keys ─────────────────────────────────────────────────
+## ── External Tool API Keys ─────────────────────────────────────────────────
 export SERPAPI_KEY=""               # Required for web_search and image_search tool
 export JINA_API_KEY=""              # Required for visit tool
 ```
@@ -146,7 +149,7 @@ export JINA_API_KEY=""              # Required for visit tool
 ### 2. `eval/configs/tool_configs.yaml` — Per-Tool Runtime Settings
 
 ```yaml
-# visit tool — webpage content fetching
+## visit tool — webpage content fetching
 visit:
   max_content_length: 150000   # Max characters to extract per page
   timeout: 120                 # HTTP request timeout (seconds)
@@ -154,7 +157,7 @@ visit:
   api_endpoint: ""             # Optional: endpoint for the above
   model_name: ""               # Optional: model name for the above
 
-# image_search tool — reverse/visual image search
+## image_search tool — reverse/visual image search
 image_search:
   imgbb_api_key: ""            # Required: ImgBB API key for image hosting
   max_results: 5               # Max search results to return
@@ -162,7 +165,7 @@ image_search:
   search_image_quality: 85
 ```
 
----
+______________________________________________________________________
 
 ## Data Format and Preparation
 
@@ -182,14 +185,15 @@ The benchmark data file (passed via `--input-file`) must be a **JSON file contai
 ]
 ```
 
-| Field | Required | Description |
-|---|---|---|
-| `doc_id` or `question_id` | Required | Unique identifier for the sample |
-| `problem` or `question` | Required | Question text. Use `<image>` as a placeholder to indicate where each image appears in the question |
-| `images` | Optional | List of image file paths **relative to `--image-folder`**. The number of paths should match the number of `<image>` placeholders |
-| `solution` | Optional | Ground truth answer string, used by the LLM-as-judge verifier for scoring |
+| Field                     | Required | Description                                                                                                                      |
+| ------------------------- | -------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| `doc_id` or `question_id` | Required | Unique identifier for the sample                                                                                                 |
+| `problem` or `question`   | Required | Question text. Use `<image>` as a placeholder to indicate where each image appears in the question                               |
+| `images`                  | Optional | List of image file paths **relative to `--image-folder`**. The number of paths should match the number of `<image>` placeholders |
+| `solution`                | Optional | Ground truth answer string, used by the LLM-as-judge verifier for scoring                                                        |
 
 **Notes:**
+
 - If `<image>` placeholders are present in `problem`, images are injected in order of appearance.
 - If no `<image>` placeholder is present but `images` is non-empty, all listed images are passed to the model.
 - Text-only samples (no `images` field and no `<image>` placeholder) are also supported.
@@ -205,8 +209,7 @@ All image paths in the `images` field are resolved relative to `--image-folder`.
 
 with `"images": ["VisualProbe/val/img_001.jpg"]` will load `/data/benchmark/VisualProbe/val/img_001.jpg`.
 
-
----
+______________________________________________________________________
 
 ## Running
 
@@ -228,8 +231,6 @@ To evaluate the agent using the accumulated memory bank, run:
 bash eval/run_exskill_inference.sh
 ```
 
-
-
 ## Citation
 
 If you use XSkill in your research, please cite:
@@ -246,9 +247,8 @@ If you use XSkill in your research, please cite:
 }
 ```
 
----
+______________________________________________________________________
 
 ## License
 
 This project is released under the [MIT License](LICENSE).
-

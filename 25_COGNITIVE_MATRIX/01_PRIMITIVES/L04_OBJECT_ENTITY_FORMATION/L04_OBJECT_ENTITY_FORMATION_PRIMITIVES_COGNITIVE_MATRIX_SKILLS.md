@@ -10,11 +10,11 @@ primitive: L04_OBJECT_ENTITY_FORMATION
 artifact: SKILLS.md
 runtime_alignment: AMOS Full Brain OS / AMOS_CORE v4.4 lineage
 tags:
-- cognitive-matrix
-- primitives
-- matrix/l04-object-entity-formation
-- note
-- domain/cognitive-matrix
+  - cognitive-matrix
+  - primitives
+  - matrix/l04-object-entity-formation
+  - note
+  - domain/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -61,9 +61,9 @@ RESULT VALID != AUTHORIZED
 AUTHORIZED PROPOSAL != COMMITTED EFFECT
 ```
 
----
+______________________________________________________________________
 
-# 1. Source / Canon References
+## 1. Source / Canon References
 
 ## 1.1 Skill architecture
 
@@ -108,9 +108,9 @@ canonical_L04_skill_authority_model:
 
 The mappings below are therefore `AMOS_MODEL`.
 
----
+______________________________________________________________________
 
-# 2. Definition and Scope
+## 2. Definition and Scope
 
 An L04 Skill is a bounded capability that can materially assist one or more object/entity formation operations without owning authoritative L04 state.
 
@@ -145,9 +145,9 @@ unilateral authority escalation
 unilateral external effects
 ```
 
----
+______________________________________________________________________
 
-# 3. Typed Inputs
+## 3. Typed Inputs
 
 ```yaml
 L04SkillRoutingInput:
@@ -201,9 +201,9 @@ L04SkillRoutingInput:
     type: EffectClass | null
 ```
 
----
+______________________________________________________________________
 
-# 4. Typed Outputs
+## 4. Typed Outputs
 
 ```yaml
 L04SkillRoutingOutput:
@@ -264,9 +264,9 @@ L04SkillRoutingOutput:
     type: GapRecord[]
 ```
 
----
+______________________________________________________________________
 
-# 5. Skill Descriptor
+## 5. Skill Descriptor
 
 ```yaml
 L04SkillDescriptor:
@@ -326,9 +326,9 @@ L04SkillDescriptor:
     type: FailurePolicy
 ```
 
----
+______________________________________________________________________
 
-# 6. State Variables
+## 6. State Variables
 
 ```text
 S_avail    available Skill registry
@@ -351,18 +351,18 @@ Commit_t   commit state
 
 Candidate Skill-routing state:
 
-[
+\[
 S_t =
-(S_{avail},S_{app},S_{sel},Cap_{req},
+(S\_{avail},S\_{app},S\_{sel},Cap\_{req},
 Auth_t,Scope_t,Reg_t,Fresh_t,
 Prov_t,Result_t,Valid_t,Comp_t,Gap_t,Commit_t)
-]
+\]
 
 `AMOS_MODEL`.
 
----
+______________________________________________________________________
 
-# 7. Operators
+## 7. Operators
 
 ```text
 DISCOVER_SKILL
@@ -402,9 +402,9 @@ No operator may silently convert:
 SkillResult → AuthoritativeL04State
 ```
 
----
+______________________________________________________________________
 
-# 8. Invariants
+## 8. Invariants
 
 ```text
 SKILL-L04-001
@@ -474,9 +474,9 @@ SKILL-L04-020
 UNKNOWN/GAP != PASS.
 ```
 
----
+______________________________________________________________________
 
-# 9. Dependencies
+## 9. Dependencies
 
 Conceptual L04 Skill dependencies include:
 
@@ -507,9 +507,9 @@ AMOS infrastructure control plane
 
 Exact canonical dependency closure remains `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
-# 10. H/M/L Applicability
+## 10. H/M/L Applicability
 
 ## H — Entity / Identity Governance
 
@@ -573,9 +573,9 @@ observer-context preservation
 
 Skill routing should descend only to the minimum H/M/L depth needed to change the result.
 
----
+______________________________________________________________________
 
-# 11. Control-Plane Requirements
+## 11. Control-Plane Requirements
 
 Skills are execution/cognition capabilities, not the authoritative control plane.
 
@@ -614,9 +614,9 @@ SKILL SAYS "COMMIT"
 CONTROL PLANE AUTHORIZES COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 12. Agents
+## 12. Agents
 
 Candidate logical roles:
 
@@ -633,9 +633,9 @@ L04_CONTROL_PLANE_LIAISON
 
 These are logical `MODEL` roles, not evidence that autonomous agents exist in the runtime.
 
----
+______________________________________________________________________
 
-# 13. Skill Families
+## 13. Skill Families
 
 The currently addressable AMOS capability library suggests the following **candidate**, not canonical, L04 composition.
 
@@ -671,9 +671,9 @@ empirical cognitive validity
 authority
 ```
 
----
+______________________________________________________________________
 
-# 14. Skill Composition
+## 14. Skill Composition
 
 Candidate composition graph:
 
@@ -734,9 +734,9 @@ competing_architectures:
   canonical_resolution: UNKNOWN_GAP
 ```
 
----
+______________________________________________________________________
 
-# 15. Workflows
+## 15. Workflows
 
 ## 15.1 Capability routing
 
@@ -803,9 +803,9 @@ RECALCULATE CONFIDENCE CEILING
 RETURN COMPOSITE PROPOSAL
 ```
 
----
+______________________________________________________________________
 
-# 16. Protocols
+## 16. Protocols
 
 Candidate protocols:
 
@@ -827,9 +827,9 @@ L04_SKILL_TRANSITION_PROPOSAL
 
 Canonical protocol names remain `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
-# 17. Evidence / Provenance
+## 17. Evidence / Provenance
 
 Every consequential Skill invocation should conceptually emit:
 
@@ -883,9 +883,9 @@ SkillEvidenceCapsule:
 
 A Skill's own documentation is a `SOURCE_CLAIM` about its intended capability unless independently validated by execution evidence.
 
----
+______________________________________________________________________
 
-# 18. Uncertainty and Confidence Ceiling
+## 18. Uncertainty and Confidence Ceiling
 
 Track separately:
 
@@ -909,18 +909,18 @@ uncertainty:
 
 Candidate confidence rule:
 
-[
-C_{result}
-\le
-\min(
-C_{input},
-C_{skill},
-C_{execution},
-C_{provenance},
-C_{scope},
-C_{regime}
+\[
+C\_{result}
+\\le
+\\min(
+C\_{input},
+C\_{skill},
+C\_{execution},
+C\_{provenance},
+C\_{scope},
+C\_{regime}
 )
-]
+\]
 
 where each term is relevant to the conclusion.
 
@@ -928,9 +928,9 @@ This equation is `AMOS_MODEL`.
 
 A highly capable Skill cannot raise a weak source premise above its evidence ceiling merely through sophisticated processing.
 
----
+______________________________________________________________________
 
-# 19. Failure Modes
+## 19. Failure Modes
 
 ```yaml
 failure_modes:
@@ -993,9 +993,9 @@ failure_modes:
     effect: control_plane_violation
 ```
 
----
+______________________________________________________________________
 
-# 20. Repair / Recovery
+## 20. Repair / Recovery
 
 ```text
 DETECT SKILL FAILURE
@@ -1037,9 +1037,9 @@ RETURN:
 
 Do not retry an identical failed Skill path without changed evidence, parameters, dependencies, or environment.
 
----
+______________________________________________________________________
 
-# 21. Tests / Validators
+## 21. Tests / Validators
 
 ```text
 SKILL-T01
@@ -1144,9 +1144,9 @@ formal_verification: false
 empirical_validation: false
 ```
 
----
+______________________________________________________________________
 
-# 22. Falsifiers
+## 22. Falsifiers
 
 Revise this contract if authoritative L04 canon establishes:
 
@@ -1172,9 +1172,9 @@ Also revise individual candidate mappings when runtime evidence shows that a lis
 
 Failure of one candidate Skill mapping does not falsify the whole L04 capability architecture.
 
----
+______________________________________________________________________
 
-# 23. Gap Status
+## 23. Gap Status
 
 ```yaml
 gap_status:
@@ -1246,9 +1246,9 @@ file naming
 identifier conventions
 ```
 
----
+______________________________________________________________________
 
-# 24. Primary RSCF Capsule
+## 24. Primary RSCF Capsule
 
 ```yaml
 rscf:
@@ -1342,9 +1342,9 @@ rscf:
     canonical_L04_skill_architecture: UNKNOWN_GAP
 ```
 
----
+______________________________________________________________________
 
-# 25. Completion State
+## 25. Completion State
 
 ```yaml
 completion_state:
@@ -1422,9 +1422,9 @@ completion_state:
     MODEL
 ```
 
----
+______________________________________________________________________
 
-# 26. Hard Boundaries
+## 26. Hard Boundaries
 
 ```text
 PLACEHOLDER != IMPLEMENTED
@@ -1470,15 +1470,15 @@ SUCCESSFUL INVOCATION != VALIDATED RESULT
 VALIDATED RESULT != COMMITTED STATE
 ```
 
----
+______________________________________________________________________
 
-# 27. Governing Skill Contract
+## 27. Governing Skill Contract
 
 > **`L04_OBJECT_ENTITY_FORMATION` MAY invoke bounded Skills to support distinction, relation, boundary, binding, object formation, continuity, identity resolution, provenance analysis, RSCF construction, validation, and repair. Every Skill invocation SHALL remain typed, scope-bound, regime-bound, freshness-aware, provenance-preserving, dependency-visible, and constrained by the invocation's authority envelope. Skill availability SHALL NOT establish applicability; applicability SHALL NOT establish result validity; result validity SHALL NOT establish authority; and authority SHALL NOT itself establish durable commit. Skill outputs SHALL enter L04 as evidence, derivation, model, competing hypothesis, or proposal according to their actual epistemic status. Multiple Skill outputs sharing provenance ancestry SHALL NOT be counted as independent confirmation. Conflicting supported results SHALL remain `COMPETING` until discriminating evidence exists. Skill composition SHALL NOT amplify authority or bypass control-plane validation. Failed, unavailable, stale, unprovenanced, or critically incomplete capability paths SHALL resolve to rejection, quarantine, conditional status, or `UNKNOWN/GAP`, never synthetic `PASS`.**
 
----
+______________________________________________________________________
 
-# 28. Canon Boundary
+## 28. Canon Boundary
 
 ```text
 SOURCE-ALIGNED:
@@ -1573,23 +1573,27 @@ NOT ESTABLISHED
 
 ```
 ```
----
+
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: l04_object_entity_formation_primitives_cognitive_matrix_skills
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L04_OBJECT_ENTITY_FORMATION/L04_OBJECT_ENTITY_FORMATION_PRIMITIVES_COGNITIVE_MATRIX_SKILLS.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L04_OBJECT_ENTITY_FORMATION/L04_OBJECT_ENTITY_FORMATION_MOC|L04_OBJECT_ENTITY_FORMATION_MOC]]
-

@@ -18,27 +18,26 @@ version: 1.0.0
 created: 2026-08-25
 updated: 2026-08-25
 tags:
-- amos-os
-- canon
-- universe
-- canon-group/meta
-- canon/registry
-- canon/identity
-- canon/aliases
-- rscf/claim
-- rscf/provenance
-- rscf/state/source-claim
-- topic/identity-resolution
-- topic/naming
-- topic/provenance
-- readme
-- architecture
-- neural-network
-- amos-core-laws
-- law-hierarchy
+  - amos-os
+  - canon
+  - universe
+  - canon-group/meta
+  - canon/registry
+  - canon/identity
+  - canon/aliases
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - topic/identity-resolution
+  - topic/naming
+  - topic/provenance
+  - readme
+  - architecture
+  - neural-network
+  - amos-core-laws
+  - law-hierarchy
 aliases:
-- AMOS Alias Registry - AMOS Identity Alias Registry - Canonical Alias Registry -
-  Alias Resolu
+  - AMOS Alias Registry - AMOS Identity Alias Registry - Canonical Alias Registry - Alias Resolu
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -47,21 +46,27 @@ rscf:
 ---
 
 # AMOS OS Alias Registry
+
 > **Origin architect / steward:** Trang Phan
 > **AMOS Core target:** v4.4
 > **Conclusion class:** `AMOS_MODEL`
 > **Authority:** canonical identity-resolution registry
+
 ## 1. Purpose
+
 The **AMOS OS Alias Registry** defines how alternate names, historical names, abbreviations, display labels, legacy identifiers, renamed artifacts, and compatibility identifiers resolve to canonical AMOS identities.
 Its purpose is to preserve **identity continuity without collapsing distinct concepts**.
 An alias may provide another route to an existing identity.
 It does **not** automatically create a new identity.
+
 ```text
 ALIAS
 → RESOLUTION
 → CANONICAL IDENTITY
 ```
+
 The governing distinction is:
+
 ```text
 NAME != IDENTITY
 ALIAS != CANON
@@ -71,16 +76,10 @@ DISPLAY LABEL != IDENTITY
 VERSION LABEL != IDENTITY
 SEMANTIC SIMILARITY != IDENTITY
 ```
-This registry exists because AMOS artifacts can evolve, move, be renamed, acquire abbreviations, or retain historical references while their canonical identity and provenance must remain recoverable.
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
----
 
+## This registry exists because AMOS artifacts can evolve, move, be renamed, acquire abbreviations, or retain historical references while their canonical identity and provenance must remain recoverable. rscf: state: DERIVED claim_class: DERIVED provenance: AMOS_corpus scope: AMOS_general
 
-# 2. Canonical Identity Law
+## 2. Canonical Identity Law
 
 Every governed AMOS artifact SHOULD have one canonical identity.
 
@@ -121,9 +120,9 @@ The alias is a reference edge.
 
 The canonical artifact remains the authoritative identity.
 
----
+______________________________________________________________________
 
-# 3. Identity Firewall
+## 3. Identity Firewall
 
 AMOS maintains a strict separation between identity dimensions.
 
@@ -177,9 +176,9 @@ CONTROL_PLANE.md
 
 does not by itself create a new canonical identity.
 
----
+______________________________________________________________________
 
-# 4. Why Aliases Exist
+## 4. Why Aliases Exist
 
 Aliases are permitted when they preserve useful identity continuity.
 
@@ -202,9 +201,9 @@ Primary cases include:
 
 Aliases MUST be typed when the distinction affects resolution or governance.
 
----
+______________________________________________________________________
 
-# 5. Canonical Alias Record
+## 5. Canonical Alias Record
 
 Each governed alias SHOULD eventually resolve through a record of the form:
 
@@ -250,9 +249,9 @@ UNKNOWN/GAP
 
 They MUST NOT be inferred merely to complete the record.
 
----
+______________________________________________________________________
 
-# 6. Alias Resolution Contract
+## 6. Alias Resolution Contract
 
 Alias resolution follows:
 
@@ -291,9 +290,9 @@ PROPOSED_ALIAS
 
 but cannot become authoritative without the required governance path.
 
----
+______________________________________________________________________
 
-# 7. Resolution States
+## 7. Resolution States
 
 Alias resolution uses explicit states.
 
@@ -345,9 +344,9 @@ No governed resolution exists.
 
 The alias violates registry constraints or refers to a known invalid identity.
 
----
+______________________________________________________________________
 
-# 8. Deterministic Resolution Priority
+## 8. Deterministic Resolution Priority
 
 When resolving an identifier, precedence is:
 
@@ -369,9 +368,9 @@ It MAY be used for discovery but MUST be labeled as inference.
 DISCOVERY != RESOLUTION
 ```
 
----
+______________________________________________________________________
 
-# 9. Scope-Aware Aliases
+## 9. Scope-Aware Aliases
 
 Aliases are local and typed.
 
@@ -416,9 +415,9 @@ canonical_id: AMOS-CONTROL-PLANE
 
 does not establish that `CP` means AMOS Control Plane outside that scope.
 
----
+______________________________________________________________________
 
-# 10. Ambiguity Firewall
+## 10. Ambiguity Firewall
 
 If one alias maps to multiple canonical objects:
 
@@ -455,9 +454,9 @@ required_discriminator:
 
 This preserves competing interpretations instead of creating false certainty.
 
----
+______________________________________________________________________
 
-# 11. Alias Collision Rules
+## 11. Alias Collision Rules
 
 A collision occurs when:
 
@@ -489,9 +488,9 @@ Never resolve a collision based solely on:
 - number of inbound links,
 - model confidence.
 
----
+______________________________________________________________________
 
-# 12. Rename Semantics
+## 12. Rename Semantics
 
 Renaming is not identity replacement.
 
@@ -543,9 +542,9 @@ rename
 → invent unrelated new artifact
 ```
 
----
+______________________________________________________________________
 
-# 13. Version Firewall
+## 13. Version Firewall
 
 Alias resolution and version resolution are separate operations.
 
@@ -589,9 +588,9 @@ migration record
 
 not by silently embedding history into filenames.
 
----
+______________________________________________________________________
 
-# 14. Supersession
+## 14. Supersession
 
 Alias and supersession are different relations.
 
@@ -639,9 +638,9 @@ may represent actual architectural replacement.
 
 These relations MUST NOT be conflated.
 
----
+______________________________________________________________________
 
-# 15. Provenance Requirements
+## 15. Provenance Requirements
 
 Every authoritative alias SHOULD preserve enough provenance to answer:
 
@@ -676,9 +675,9 @@ UNKNOWN/GAP
 
 until evidence is bound.
 
----
+______________________________________________________________________
 
-# 16. Provenance Topology
+## 16. Provenance Topology
 
 Multiple alias records do not establish independent evidence if they descend from one source.
 
@@ -707,9 +706,9 @@ REPETITION != INDEPENDENT CONFIRMATION
 
 This protects canonical identity resolution from provenance amplification.
 
----
+______________________________________________________________________
 
-# 17. RSCF Relation Types
+## 17. RSCF Relation Types
 
 Alias records may participate in RSCF topology using typed relations such as:
 
@@ -738,9 +737,9 @@ RELATED_TO
 
 when the actual relationship is known.
 
----
+______________________________________________________________________
 
-# 18. Canonical AMOS OS Root Aliases
+## 18. Canonical AMOS OS Root Aliases
 
 The following mappings establish root-level naming conventions.
 
@@ -776,9 +775,9 @@ These are repository/navigation aliases.
 
 They do not erase the distinction between a directory, conceptual plane, implementation, and canonical definition.
 
----
+______________________________________________________________________
 
-# 19. Prefix Registry
+## 19. Prefix Registry
 
 AMOS naming prefixes are aliases for artifact classes, not substitutes for full canonical identity.
 
@@ -815,9 +814,9 @@ validation state
 runtime permission
 ```
 
----
+______________________________________________________________________
 
-# 20. Canonical Concept Aliases
+## 20. Canonical Concept Aliases
 
 Within the current AMOS OS architecture, the following conceptual short forms may be used when scope is clear:
 
@@ -852,9 +851,9 @@ RT:
 
 Where a long-form expansion is not explicitly established by bound canon, retain the abbreviation rather than inventing an expansion.
 
----
+______________________________________________________________________
 
-# 21. Canon Identity Protection
+## 21. Canon Identity Protection
 
 Alias handling MUST preserve AMOS architectural firewalls.
 
@@ -896,9 +895,9 @@ cognitive matrix
 
 Resolution must remain scoped or ambiguous.
 
----
+______________________________________________________________________
 
-# 22. Semantic Similarity Firewall
+## 22. Semantic Similarity Firewall
 
 AMOS explicitly rejects:
 
@@ -942,9 +941,9 @@ Their semantic identities remain distinct.
 ADDRESS-SPACE KINSHIP != IDENTITY
 ```
 
----
+______________________________________________________________________
 
-# 23. Cross-Language Aliases
+## 23. Cross-Language Aliases
 
 Translated labels MAY point to one canonical identity when explicitly governed.
 
@@ -967,9 +966,9 @@ Translation must preserve conceptual scope.
 
 A translated term with materially different meaning must not be registered as an alias merely because it appears linguistically similar.
 
----
+______________________________________________________________________
 
-# 24. Runtime Contract
+## 24. Runtime Contract
 
 A runtime alias resolver SHOULD expose a deterministic interface such as:
 
@@ -1010,9 +1009,9 @@ only means the resolver is certain about the registry result.
 
 It does **not** mean the underlying canonical claim has been empirically validated.
 
----
+______________________________________________________________________
 
-# 25. Unknown Handling
+## 25. Unknown Handling
 
 If no mapping exists:
 
@@ -1044,9 +1043,9 @@ but the canonical resolution remains:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 26. Alias Mutation Governance
+## 26. Alias Mutation Governance
 
 Alias mutation is governed because aliases affect repository-wide identity resolution.
 
@@ -1073,9 +1072,9 @@ PROPOSAL != COMMIT
 
 No agent, skill, model, or tool gains authority to modify canonical aliases merely because it can generate a candidate mapping.
 
----
+______________________________________________________________________
 
-# 27. Safe Rename Procedure
+## 27. Safe Rename Procedure
 
 Before a governed rename:
 
@@ -1096,9 +1095,9 @@ Before a governed rename:
 
 Rollback MUST be possible while identity lineage remains recoverable.
 
----
+______________________________________________________________________
 
-# 28. Deletion Rule
+## 28. Deletion Rule
 
 Aliases SHOULD NOT simply disappear when they have historical or compatibility value.
 
@@ -1124,9 +1123,9 @@ or explicitly removed through governance
 
 Deletion must not erase provenance required to interpret historical references.
 
----
+______________________________________________________________________
 
-# 29. Integrity Invariants
+## 29. Integrity Invariants
 
 The alias registry SHALL preserve these invariants:
 
@@ -1184,9 +1183,9 @@ Governed rename/migration operations SHOULD retain a rollback route.
 
 Alias validity is bounded by its namespace, scope, provenance, and applicable temporal regime.
 
----
+______________________________________________________________________
 
-# 30. Validation Tests
+## 30. Validation Tests
 
 A production alias registry SHOULD test at least:
 
@@ -1215,9 +1214,9 @@ fuzzy similarity does not become canon
 authority is never inherited from alias resolution
 ```
 
----
+______________________________________________________________________
 
-# 31. Forbidden States
+## 31. Forbidden States
 
 The following are invalid:
 
@@ -1254,9 +1253,9 @@ different canonical target
 
 must produce conflict/ambiguity rather than silent resolution.
 
----
+______________________________________________________________________
 
-# 32. Alias Chain Compression
+## 32. Alias Chain Compression
 
 Historical imports may temporarily contain:
 
@@ -1278,9 +1277,9 @@ while preserving historical lineage separately.
 
 This improves deterministic lookup without destroying provenance.
 
----
+______________________________________________________________________
 
-# 33. Relationship to Naming Standard
+## 33. Relationship to Naming Standard
 
 `NAMING_STANDARD.md` governs:
 
@@ -1308,9 +1307,9 @@ identity compatibility / resolution
 
 Neither replaces the other.
 
----
+______________________________________________________________________
 
-# 34. Relationship to Symbol Registry
+## 34. Relationship to Symbol Registry
 
 `SYMBOL_REGISTRY.md` governs canonical mathematical/logical symbols.
 
@@ -1328,9 +1327,9 @@ Symbol equivalence must be explicitly established.
 
 Visual resemblance is insufficient.
 
----
+______________________________________________________________________
 
-# 35. Relationship to Universal Variable Registry
+## 35. Relationship to Universal Variable Registry
 
 Variables require stable identity independently of their display notation.
 
@@ -1352,9 +1351,9 @@ same symbol != same variable
 same variable may have scoped notation aliases
 ```
 
----
+______________________________________________________________________
 
-# 36. Relationship to Provenance
+## 36. Relationship to Provenance
 
 Every consequential alias mapping SHOULD be recoverable through provenance.
 
@@ -1376,9 +1375,9 @@ An alias registry without provenance is a convenience index.
 
 It is not sufficient as an authoritative identity system.
 
----
+______________________________________________________________________
 
-# 37. Relationship to Runtime
+## 37. Relationship to Runtime
 
 Runtime systems MAY consume aliases.
 
@@ -1402,9 +1401,9 @@ runtime usage != canonical authority
 
 A runtime-discovered name MAY become an alias proposal but requires governance before canonical registration.
 
----
+______________________________________________________________________
 
-# 38. Relationship to Memory and Knowledge
+## 38. Relationship to Memory and Knowledge
 
 Memory may contain historical or informal names.
 
@@ -1427,9 +1426,9 @@ ALIASES
 
 This protects canon from accidental semantic drift.
 
----
+______________________________________________________________________
 
-# 39. Security Considerations
+## 39. Security Considerations
 
 Alias systems can become an attack surface when identifiers are intentionally made confusing.
 
@@ -1458,9 +1457,9 @@ Most importantly:
 ALIAS RESOLUTION != AUTHORIZATION
 ```
 
----
+______________________________________________________________________
 
-# 40. Authority Boundary
+## 40. Authority Boundary
 
 This registry has authority over:
 
@@ -1494,9 +1493,9 @@ Resolving:
 
 does not grant the caller Control Plane authority.
 
----
+______________________________________________________________________
 
-# 41. Failure Modes
+## 41. Failure Modes
 
 Primary failure modes:
 
@@ -1515,9 +1514,9 @@ Primary failure modes:
 | Canonical target superseded | follow governed supersession rules |
 | Corrupted registry          | restore last validated state       |
 
----
+______________________________________________________________________
 
-# 42. Recovery Semantics
+## 42. Recovery Semantics
 
 When alias integrity fails:
 
@@ -1541,9 +1540,9 @@ edges,
 and dependent conclusions
 ```
 
----
+______________________________________________________________________
 
-# 43. Promotion Gate
+## 43. Promotion Gate
 
 This artifact can be promoted only when its concrete alias entries are bound to canonical sources and reviewed.
 
@@ -1569,9 +1568,9 @@ Required gates:
 
 Until individual mappings have evidence, their status must remain appropriately typed.
 
----
+______________________________________________________________________
 
-# 44. Conclusion Classes
+## 44. Conclusion Classes
 
 Alias-related statements use the weakest accurate class.
 
@@ -1606,9 +1605,9 @@ No evidence identifies A
 → UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 45. Canonical Summary
+## 45. Canonical Summary
 
 The AMOS Alias Registry obeys one central rule:
 
@@ -1645,7 +1644,7 @@ RETURN UNKNOWN/GAP
 
 Never invent the missing mapping.
 
----
+______________________________________________________________________
 
 ## RSCF Node
 
@@ -1692,13 +1691,14 @@ NAMING_STANDARD ·
 ```text
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
-**MOC:** [[01_CANON/06_GLOSSARY/06_GLOSSARY_MOC|06_GLOSSARY_MOC]]
+______________________________________________________________________
 
+**MOC:** [[01_CANON/06_GLOSSARY/06_GLOSSARY_MOC|06_GLOSSARY_MOC]]

@@ -15,43 +15,43 @@ kernel_family: CONTEXT
 scope: AMOS_OS
 updated: 2026-08-26
 tags:
-- amos-os
-- kernel
-- core
-- canon-group/tech-ai
-- kernel/context
-- kernel/context-compaction
-- kernel/provenance
-- kernel/dependency
-- kernel/epistemics
-- kernel/recovery
-- rscf/claim
-- rscf/provenance
-- topic/compaction
-- topic/context-window
-- topic/information-preservation
-- topic/dependency-closure
-- topic/lossy-compression
-- topic/retrieval
-- canon/kernel
-- readme
-- architecture
-- amos-core-laws
-- law-hierarchy
-- canon-provenance
-- source-lineage
-- k-context-state
-- k-world-model
-- k-identity
-- k-system-state
-- k-event-bus
-- k-meta-logic
-- k-metacognition
-- k-multi-hypothesis
-- k-counterfactual
-- k-structural-reasoning
-- k-causal-closure
-- k-causal-epoch
+  - amos-os
+  - kernel
+  - core
+  - canon-group/tech-ai
+  - kernel/context
+  - kernel/context-compaction
+  - kernel/provenance
+  - kernel/dependency
+  - kernel/epistemics
+  - kernel/recovery
+  - rscf/claim
+  - rscf/provenance
+  - topic/compaction
+  - topic/context-window
+  - topic/information-preservation
+  - topic/dependency-closure
+  - topic/lossy-compression
+  - topic/retrieval
+  - canon/kernel
+  - readme
+  - architecture
+  - amos-core-laws
+  - law-hierarchy
+  - canon-provenance
+  - source-lineage
+  - k-context-state
+  - k-world-model
+  - k-identity
+  - k-system-state
+  - k-event-bus
+  - k-meta-logic
+  - k-metacognition
+  - k-multi-hypothesis
+  - k-counterfactual
+  - k-structural-reasoning
+  - k-causal-closure
+  - k-causal-epoch
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -110,7 +110,7 @@ TOKEN_SAVING != INTEGRITY
 FLUENCY != SEMANTIC_PRESERVATION
 ```
 
----
+______________________________________________________________________
 
 ## 1. Core Law
 
@@ -136,7 +136,7 @@ TOKEN_REDUCTION
 
 may never justify loss of a load-bearing fact, unresolved contradiction, provenance dependency, authority boundary, falsifier, scope condition, or recovery pointer.
 
----
+______________________________________________________________________
 
 ## 2. Context Model
 
@@ -174,7 +174,7 @@ This is an architectural representation.
 
 It does not assert that a runtime literally stores context in this exact object form.
 
----
+______________________________________________________________________
 
 ## 3. Context Is Not Knowledge
 
@@ -189,7 +189,7 @@ Context is an operational working set.
 
 Knowledge may exist outside active context and remain retrievable.
 
----
+______________________________________________________________________
 
 ## 4. Compaction Function
 
@@ -221,7 +221,7 @@ TRUE
 
 before the compacted state may replace the larger active state.
 
----
+______________________________________________________________________
 
 ## 5. Smallest Sufficient Proof Scope
 
@@ -249,7 +249,7 @@ INTEGRITY(C')
 
 This is a design objective, not a claim of universal computational optimality.
 
----
+______________________________________________________________________
 
 ## 6. Preservation Classes
 
@@ -267,7 +267,7 @@ UNKNOWN
 
 `UNKNOWN` must not default to `DISCARDABLE`.
 
----
+______________________________________________________________________
 
 ## 7. MUST_PRESERVE
 
@@ -291,7 +291,7 @@ IRREVERSIBLE-ACTION WARNINGS
 ACTIVE FALSIFIERS
 ```
 
----
+______________________________________________________________________
 
 ## 8. Preserve by Reference
 
@@ -319,7 +319,7 @@ The raw evidence may then return to:
 DO_NOT_LOAD_UNLESS_REQUIRED
 ```
 
----
+______________________________________________________________________
 
 ## 9. Reconstructible Content
 
@@ -348,7 +348,7 @@ or:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
 ## 10. Discardable Content
 
@@ -367,7 +367,7 @@ LOW-VALUE INTERMEDIATE FORMAT
 
 But semantic uniqueness must be tested before deletion.
 
----
+______________________________________________________________________
 
 ## 11. Semantic Preservation
 
@@ -385,7 +385,7 @@ within the required reasoning scope.
 
 A shorter sentence is not necessarily an equivalent sentence.
 
----
+______________________________________________________________________
 
 ## 12. Epistemic-Type Preservation
 
@@ -410,7 +410,7 @@ SOURCE_CLAIM(X, Source A)
 
 until independently promoted.
 
----
+______________________________________________________________________
 
 ## 13. Conclusion-Class Preservation
 
@@ -427,7 +427,7 @@ UNKNOWN/GAP
 
 A `CONDITIONAL` claim must not become an unconditional claim because its assumptions were compacted away.
 
----
+______________________________________________________________________
 
 ## 14. Provenance Preservation
 
@@ -453,7 +453,7 @@ DEPENDENCY EDGE
 VERSION / HASH WHEN AVAILABLE
 ```
 
----
+______________________________________________________________________
 
 ## 15. Provenance Topology
 
@@ -475,7 +475,7 @@ THREE INDEPENDENT SOURCES
 
 Source ancestry remains material after compaction.
 
----
+______________________________________________________________________
 
 ## 16. Sybil-Hardening Preservation
 
@@ -497,7 +497,7 @@ must not become:
 3 independent confirmations
 ```
 
----
+______________________________________________________________________
 
 ## 17. Dependency Preservation
 
@@ -524,7 +524,7 @@ DEPENDENCY(P2, P1)
 
 or an equivalent recoverable structure.
 
----
+______________________________________________________________________
 
 ## 18. Dependency Closure
 
@@ -542,7 +542,7 @@ changing Q
 
 Objects outside this closure are stronger candidates for unloading.
 
----
+______________________________________________________________________
 
 ## 19. Hidden Dependency Firewall
 
@@ -560,7 +560,7 @@ DEPENDENCY(x,Q) = FALSE
 
 Compaction should escalate until the ambiguity is resolved or preserved explicitly.
 
----
+______________________________________________________________________
 
 ## 20. Contradiction Preservation
 
@@ -597,7 +597,7 @@ or:
 
 merely because one representation is easier to summarize.
 
----
+______________________________________________________________________
 
 ## 21. Competing-Hypothesis Preservation
 
@@ -621,7 +621,7 @@ COMPETING {
 
 plus the discriminating evidence required to resolve them.
 
----
+______________________________________________________________________
 
 ## 22. Assumption Preservation
 
@@ -646,7 +646,7 @@ CLASS: CONDITIONAL
 REQUIRES: A, B
 ```
 
----
+______________________________________________________________________
 
 ## 23. Scope Preservation
 
@@ -666,7 +666,7 @@ when scope `Ω` is material.
 
 Applicability envelopes must survive.
 
----
+______________________________________________________________________
 
 ## 24. Regime Preservation
 
@@ -684,7 +684,7 @@ Compaction must not silently create:
 VALID(C | ANY_REGIME)
 ```
 
----
+______________________________________________________________________
 
 ## 25. Freshness Preservation
 
@@ -702,7 +702,7 @@ claim:
 
 Compaction that preserves the value but removes its expiration condition is invalid.
 
----
+______________________________________________________________________
 
 ## 26. Causal-Type Preservation
 
@@ -731,7 +731,7 @@ A correlated with B
 A causes B
 ```
 
----
+______________________________________________________________________
 
 ## 27. Structural-Similarity Firewall
 
@@ -749,7 +749,7 @@ A and B share the same mechanism
 
 Structural mappings remain `MODEL` unless independently validated.
 
----
+______________________________________________________________________
 
 ## 28. Quantitative Preservation
 
@@ -778,7 +778,7 @@ becoming:
 10 ms exactly
 ```
 
----
+______________________________________________________________________
 
 ## 29. Unit Preservation
 
@@ -800,7 +800,7 @@ or:
 10 kg
 ```
 
----
+______________________________________________________________________
 
 ## 30. Identity Preservation
 
@@ -812,7 +812,7 @@ ENTITY_ID != DISPLAY_NAME
 
 If two objects share a name, compaction must not merge them without justified identity resolution.
 
----
+______________________________________________________________________
 
 ## 31. Authority Preservation
 
@@ -835,7 +835,7 @@ CAPABILITY != AUTHORITY
 
 Removing the authority boundary can convert harmless capability into unsafe implied permission.
 
----
+______________________________________________________________________
 
 ## 32. Proposal/Commit Firewall
 
@@ -858,7 +858,7 @@ PROPOSAL != COMMIT
 
 must survive every compaction boundary.
 
----
+______________________________________________________________________
 
 ## 33. Tool/Permission Firewall
 
@@ -880,7 +880,7 @@ because:
 TOOL != PERMISSION
 ```
 
----
+______________________________________________________________________
 
 ## 34. Decision Preservation
 
@@ -899,7 +899,7 @@ INVALIDATION CONDITIONS
 
 when needed for continuation or audit.
 
----
+______________________________________________________________________
 
 ## 35. Decision vs Evidence
 
@@ -919,7 +919,7 @@ Model M is correct
 
 A decision can be rational under uncertainty without making its premises true.
 
----
+______________________________________________________________________
 
 ## 36. Recovery Pointer
 
@@ -937,7 +937,7 @@ recovery_ref:
   retrieval_method:
 ```
 
----
+______________________________________________________________________
 
 ## 37. Lossless vs Lossy Compaction
 
@@ -954,7 +954,7 @@ Lossy compaction intentionally removes some information judged non-load-bearing.
 
 Lossy compaction requires stronger integrity checks.
 
----
+______________________________________________________________________
 
 ## 38. Lossy Compaction Gate
 
@@ -982,7 +982,7 @@ DO NOT COMPACT
 
 or compact conservatively.
 
----
+______________________________________________________________________
 
 ## 39. RSCF Compaction
 
@@ -1008,7 +1008,7 @@ proof_capsule:
 
 This capsule can replace large active evidence only while its dependencies remain valid.
 
----
+______________________________________________________________________
 
 ## 40. Proof Capsule Reuse
 
@@ -1032,7 +1032,7 @@ Otherwise:
 REVALIDATE
 ```
 
----
+______________________________________________________________________
 
 ## 41. Capsule Invalidation
 
@@ -1056,7 +1056,7 @@ not:
 INVALIDATE ALL CONTEXT
 ```
 
----
+______________________________________________________________________
 
 ## 42. Fractal Compaction
 
@@ -1076,7 +1076,7 @@ BOOTSTRAP
 
 Each higher layer should retain sufficient pointers to descend when required.
 
----
+______________________________________________________________________
 
 ## 43. H-Level Context
 
@@ -1095,7 +1095,7 @@ DECISION STATE
 
 It should not contain unnecessary raw evidence.
 
----
+______________________________________________________________________
 
 ## 44. M-Level Context
 
@@ -1111,7 +1111,7 @@ DEPENDENCY BRANCH
 PROVENANCE CLUSTER
 ```
 
----
+______________________________________________________________________
 
 ## 45. L-Level Context
 
@@ -1127,7 +1127,7 @@ DO_NOT_LOAD_UNLESS_REQUIRED
 
 by default.
 
----
+______________________________________________________________________
 
 ## 46. Raw Evidence
 
@@ -1145,7 +1145,7 @@ SCOPE IS UNCLEAR
 HIGH-STAKES VALIDATION REQUIRES IT
 ```
 
----
+______________________________________________________________________
 
 ## 47. Compaction Cascade
 
@@ -1167,7 +1167,7 @@ BOOTSTRAP CONTEXT
 
 Each step reduces active detail while preserving dependency recoverability.
 
----
+______________________________________________________________________
 
 ## 48. Expansion
 
@@ -1187,7 +1187,7 @@ RAW
 
 This is contextual expansion.
 
----
+______________________________________________________________________
 
 ## 49. Expansion Trigger
 
@@ -1205,7 +1205,7 @@ CAUSAL CLAIM ESCALATES
 DECISION STAKES INCREASE
 ```
 
----
+______________________________________________________________________
 
 ## 50. Compaction Trigger
 
@@ -1221,7 +1221,7 @@ PHASE TRANSITION OCCURS
 HANDOFF REQUIRES STABLE STATE
 ```
 
----
+______________________________________________________________________
 
 ## 51. Decision-Changing Uncertainty
 
@@ -1235,7 +1235,7 @@ ACTION
 
 Such uncertainty remains active until resolved or explicitly represented.
 
----
+______________________________________________________________________
 
 ## 52. Uncertainty Vector Preservation
 
@@ -1255,7 +1255,7 @@ U = {
 
 Compaction must not collapse these dimensions into a misleading scalar.
 
----
+______________________________________________________________________
 
 ## 53. Confidence Preservation
 
@@ -1275,7 +1275,7 @@ if the number was conditional on material assumptions omitted from the summary.
 
 Confidence requires its dependency envelope.
 
----
+______________________________________________________________________
 
 ## 54. Confidence Ceiling Preservation
 
@@ -1291,7 +1291,7 @@ because `P` is load-bearing, compacting away `P` must not allow `C` to gain conf
 
 Compaction cannot create evidence.
 
----
+______________________________________________________________________
 
 ## 55. Evidence Independence Preservation
 
@@ -1308,7 +1308,7 @@ evidence_cluster:
   independence: correlated
 ```
 
----
+______________________________________________________________________
 
 ## 56. Duplicate Removal
 
@@ -1322,7 +1322,7 @@ INDEPENDENT CORROBORATION
 
 Removing duplicates must not remove genuinely independent confirmation.
 
----
+______________________________________________________________________
 
 ## 57. Contradiction Compression
 
@@ -1341,7 +1341,7 @@ conflict:
 
 This preserves the conflict without retaining every surrounding sentence.
 
----
+______________________________________________________________________
 
 ## 58. Branch Compaction
 
@@ -1357,7 +1357,7 @@ BRANCH C → unresolved
 
 Preserve rejection reasons when they prevent future repetition of failed paths.
 
----
+______________________________________________________________________
 
 ## 59. Failed-Path Memory
 
@@ -1380,7 +1380,7 @@ A FAILED PATH
 WITHOUT CHANGED EVIDENCE
 ```
 
----
+______________________________________________________________________
 
 ## 60. Resolved Branches
 
@@ -1396,7 +1396,7 @@ branch:
 
 This prevents unnecessary recomputation.
 
----
+______________________________________________________________________
 
 ## 61. Causal Branch Preservation
 
@@ -1410,7 +1410,7 @@ C → {A,B}
 
 compaction must preserve the alternatives until discriminating evidence exists.
 
----
+______________________________________________________________________
 
 ## 62. Falsifier Preservation
 
@@ -1426,7 +1426,7 @@ claim:
 
 This enables efficient future revalidation.
 
----
+______________________________________________________________________
 
 ## 63. Sensitivity Preservation
 
@@ -1440,7 +1440,7 @@ S* = decision-flipping premise
 
 If `S*` disappears, future reasoning may falsely treat a fragile conclusion as robust.
 
----
+______________________________________________________________________
 
 ## 64. High-Stakes Compaction
 
@@ -1460,7 +1460,7 @@ decisions, compaction should preserve more evidence and stronger recovery paths.
 
 Compression aggressiveness decreases as irreversible risk increases.
 
----
+______________________________________________________________________
 
 ## 65. Reversibility Principle
 
@@ -1475,7 +1475,7 @@ REHYDRATABLE
 
 over destructive compression.
 
----
+______________________________________________________________________
 
 ## 66. Rehydration
 
@@ -1495,7 +1495,7 @@ REHYDRATED CONTEXT
 
 Rehydration must not invent missing detail.
 
----
+______________________________________________________________________
 
 ## 67. Rehydration Failure
 
@@ -1513,7 +1513,7 @@ UNKNOWN/GAP
 
 or be downgraded according to surviving evidence.
 
----
+______________________________________________________________________
 
 ## 68. Version Preservation
 
@@ -1530,7 +1530,7 @@ when available.
 
 A pointer to a mutable source without version identity may not be sufficient for reproducibility.
 
----
+______________________________________________________________________
 
 ## 69. Mutable-Source Firewall
 
@@ -1550,7 +1550,7 @@ REF + VERSION/HASH
 
 or persistent evidence.
 
----
+______________________________________________________________________
 
 ## 70. Temporal Ordering
 
@@ -1565,7 +1565,7 @@ then B
 
 becoming an unordered set if sequence affects reasoning.
 
----
+______________________________________________________________________
 
 ## 71. Epoch Boundaries
 
@@ -1589,7 +1589,7 @@ AUTHORITY
 COMMIT STATE
 ```
 
----
+______________________________________________________________________
 
 ## 72. Persistent Provenance
 
@@ -1603,7 +1603,7 @@ PROVENANCE DELETION
 
 Persistent lineage should remain available according to governance policy.
 
----
+______________________________________________________________________
 
 ## 73. MVCC/CAS Conceptual Compatibility
 
@@ -1627,7 +1627,7 @@ REASONING VALID FOR CURRENT STATE
 
 if the state advanced.
 
----
+______________________________________________________________________
 
 ## 74. Stale-Context Detection
 
@@ -1641,7 +1641,7 @@ CAPSULE_VALIDATION_VERSION
 
 If relevant state changed, revalidation may be required.
 
----
+______________________________________________________________________
 
 ## 75. Atomic Multi-RSCF Reasoning
 
@@ -1659,7 +1659,7 @@ compaction must preserve their joint dependency.
 
 It must not make `C` appear independently supported by any single RSCF.
 
----
+______________________________________________________________________
 
 ## 76. Atomicity Firewall
 
@@ -1677,7 +1677,7 @@ R1 alone
 
 must not be sufficient after compaction unless separately proven.
 
----
+______________________________________________________________________
 
 ## 77. Context Handoff
 
@@ -1697,7 +1697,7 @@ AUTHORITY
 NEXT SAFE ACTION
 ```
 
----
+______________________________________________________________________
 
 ## 78. Handoff Firewall
 
@@ -1709,7 +1709,7 @@ HANDOFF_SUMMARY != CANON
 
 The receiver must retain the ability to inspect underlying evidence when necessary.
 
----
+______________________________________________________________________
 
 ## 79. Agent Boundary
 
@@ -1731,7 +1731,7 @@ PERMISSIONS
 COMMIT RIGHTS
 ```
 
----
+______________________________________________________________________
 
 ## 80. Security Boundary
 
@@ -1747,7 +1747,7 @@ into a persistent plaintext summary merely to preserve context.
 
 Prefer secure reference where policy permits.
 
----
+______________________________________________________________________
 
 ## 81. Security Preservation
 
@@ -1763,7 +1763,7 @@ THREAT CONDITION
 
 without unnecessarily reproducing sensitive values.
 
----
+______________________________________________________________________
 
 ## 82. Observability
 
@@ -1780,7 +1780,7 @@ WHICH CAPSULE REPLACED IT?
 
 where governance requires auditability.
 
----
+______________________________________________________________________
 
 ## 83. Compaction Trace
 
@@ -1801,7 +1801,7 @@ compaction_event:
 
 This is a contract shape, not proof of implementation.
 
----
+______________________________________________________________________
 
 ## 84. Compaction Quality
 
@@ -1823,7 +1823,7 @@ f(
 )
 ```
 
----
+______________________________________________________________________
 
 ## 85. Unsafe Optimization
 
@@ -1849,7 +1849,7 @@ SAFETY
 
 must be rejected or rolled back.
 
----
+______________________________________________________________________
 
 ## 86. Compaction Fast Path
 
@@ -1866,7 +1866,7 @@ NO GOVERNANCE IMPACT
 RECOVERY PATH VALID
 ```
 
----
+______________________________________________________________________
 
 ## 87. Escalation Conditions
 
@@ -1886,7 +1886,7 @@ IRREVERSIBLE ACTION POSSIBLE
 RECOVERY PATH UNCERTAIN
 ```
 
----
+______________________________________________________________________
 
 ## 88. Compaction Levels
 
@@ -1902,7 +1902,7 @@ CC4 — FRACTAL H-LEVEL CAPSULE
 
 Higher compaction requires stronger proof that removed detail is recoverable or non-load-bearing.
 
----
+______________________________________________________________________
 
 ## 89. CC0 — None
 
@@ -1915,7 +1915,7 @@ ACTIVE CONTRADICTION
 UNRESOLVED DEPENDENCIES
 ```
 
----
+______________________________________________________________________
 
 ## 90. CC1 — Redundancy Removal
 
@@ -1929,7 +1929,7 @@ NON-INDEPENDENT REPETITION
 
 while retaining all unique semantic content.
 
----
+______________________________________________________________________
 
 ## 91. CC2 — Structured Summary
 
@@ -1944,7 +1944,7 @@ SCOPE
 UNCERTAINTY
 ```
 
----
+______________________________________________________________________
 
 ## 92. CC3 — Proof Capsule
 
@@ -1952,7 +1952,7 @@ Retain only the proof-relevant closure plus recovery references.
 
 Appropriate when a conclusion has reached stable local sufficiency.
 
----
+______________________________________________________________________
 
 ## 93. CC4 — Fractal Capsule
 
@@ -1960,7 +1960,7 @@ Retain high-level H structure with M/L retrieval pointers.
 
 Appropriate for large persistent systems where deep detail is not continuously required.
 
----
+______________________________________________________________________
 
 ## 94. Anti-Drift Rule
 
@@ -1980,7 +1980,7 @@ should not be trusted indefinitely.
 
 Periodic revalidation against stable source evidence is required when the claim remains load-bearing.
 
----
+______________________________________________________________________
 
 ## 95. Source-Anchored Recompaction
 
@@ -2001,7 +2001,7 @@ OLD CAPSULE
 
 when cumulative information loss becomes material.
 
----
+______________________________________________________________________
 
 ## 96. Compression Debt
 
@@ -2015,7 +2015,7 @@ representing increased uncertainty about whether active summaries still preserve
 
 Compression debt should trigger rehydration/revalidation when material.
 
----
+______________________________________________________________________
 
 ## 97. Drift Detection
 
@@ -2036,7 +2036,7 @@ INCREASED CONFIDENCE WITHOUT NEW EVIDENCE
 
 Any of these should trigger review.
 
----
+______________________________________________________________________
 
 ## 98. Negation Preservation
 
@@ -2056,7 +2056,7 @@ X implies Y
 
 Compaction systems must explicitly protect polarity.
 
----
+______________________________________________________________________
 
 ## 99. Exception Preservation
 
@@ -2075,7 +2075,7 @@ becoming:
 RULE R ALWAYS
 ```
 
----
+______________________________________________________________________
 
 ## 100. Boundary Preservation
 
@@ -2090,7 +2090,7 @@ MODEL != AUTHORITY
 PROPOSAL != COMMIT
 ```
 
----
+______________________________________________________________________
 
 ## 101. Compaction Invariants
 
@@ -2171,7 +2171,7 @@ CC-25
 TOKEN SAVINGS MUST NEVER OVERRIDE INTEGRITY
 ```
 
----
+______________________________________________________________________
 
 ## 102. Failure Modes
 
@@ -2202,7 +2202,7 @@ UNKNOWN_PASS_COLLAPSE
 GLOBAL_CONTEXT_INVALIDATION
 ```
 
----
+______________________________________________________________________
 
 ## 103. Required Tests
 
@@ -2240,7 +2240,7 @@ SUMMARY-DRIFT TEST
 LOSSY-COMPACTION TEST
 ```
 
----
+______________________________________________________________________
 
 ## 104. Negative Tests
 
@@ -2316,7 +2316,7 @@ SUMMARY
 MUST FAIL
 ```
 
----
+______________________________________________________________________
 
 ## 105. Promotion Gate
 
@@ -2362,7 +2362,7 @@ FORMAL_VERIFICATION = UNKNOWN/GAP
 EMPIRICAL_VALIDATION = UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
 ## 106. Integrity Note
 
@@ -2397,7 +2397,7 @@ FORMAL_VERIFICATION = UNKNOWN/GAP
 RUNTIME_AUTHORITY = NONE
 ```
 
----
+______________________________________________________________________
 
 ## 107. RSCF Node
 
@@ -2442,7 +2442,7 @@ RSCF-RELATIONS:
   - VERIFIED_BY: README
 ```
 
----
+______________________________________________________________________
 
 ## 108. Canonical Summary
 
@@ -2610,12 +2610,14 @@ README
 ```text
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 **MOC:** [[02_KERNEL/05_MEMORY/05_MEMORY_MOC|05_MEMORY_MOC]]

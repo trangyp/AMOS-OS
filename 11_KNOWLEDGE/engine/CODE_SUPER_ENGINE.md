@@ -1,4 +1,7 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: CODE SUPER ENGINE
 type: engine
 source: 11_KNOWLEDGE/engine
@@ -7,17 +10,17 @@ canon-type: framework
 rscf-state: source-claim
 topic: code-super-engine
 tags:
-- canon-group/tech-ai
-- canon/framework
-- rscf/claim
-- rscf/provenance
-- rscf/state/observation
-- topic/code-super-engine
-- engine
-- system-scan-agent
-- automation-profiles
-- amos-simulation-kernel-v0-math-foundations
-- trang-framework-recursive-ontology-dynamics
+  - canon-group/tech-ai
+  - canon/framework
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/observation
+  - topic/code-super-engine
+  - engine
+  - system-scan-agent
+  - automation-profiles
+  - amos-simulation-kernel-v0-math-foundations
+  - trang-framework-recursive-ontology-dynamics
 created: 2026-08-22
 rscf:
   state: AMOS_MODEL
@@ -28,7 +31,7 @@ rscf:
 
 # CODE SUPER ENGINE
 
-```json
+````json
 {
   "meta": {
     "name": "Unified_Coding_Engine_vInfinity",
@@ -671,4 +674,4 @@ rscf:
 
 ---
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
-```
+````

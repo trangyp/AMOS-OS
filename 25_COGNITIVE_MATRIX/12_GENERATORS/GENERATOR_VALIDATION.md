@@ -12,20 +12,20 @@ segment: 25_COGNITIVE_MATRIX/12_GENERATORS
 artifact_kind: NOTE
 path: 25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_VALIDATION.md
 tags:
-- 12-generators
-- 12_generators
-- amos-os
-- domain/cognitive-matrix
-- canon/universe
-- generator
-- note
-- rscf
-- validation
-- placeholder_expanded
-- readme
-- generators-benchmarks
-- generators-audit
-- promotion-gates
+  - 12-generators
+  - 12_generators
+  - amos-os
+  - domain/cognitive-matrix
+  - canon/universe
+  - generator
+  - note
+  - rscf
+  - validation
+  - placeholder_expanded
+  - readme
+  - generators-benchmarks
+  - generators-audit
+  - promotion-gates
 version: 0.2.0
 updated: '2026-08-27'
 status: PLACEHOLDER_EXPANDED
@@ -102,7 +102,7 @@ Origin architect / steward: **Trang Phan**
 
 System: **AMOS OS**
 
----
+______________________________________________________________________
 
 # Generator Validation
 
@@ -120,9 +120,9 @@ System: **AMOS OS**
 >
 > **AMOS_CORE target:** `v4.4`
 
----
+______________________________________________________________________
 
-# 0. Purpose
+## 0. Purpose
 
 `GENERATOR_VALIDATION.md` defines the validation contract for individual AMOS Generators, Generator versions, Generator invocations, and Generator-produced candidates.
 
@@ -168,9 +168,9 @@ Should this candidate become canon?
 Has global finality been reached?
 ```
 
----
+______________________________________________________________________
 
-# 1. Core validation law
+## 1. Core validation law
 
 > **Generator validation establishes bounded admissibility evidence; it does not create authority or truth beyond the evidence envelope.**
 
@@ -205,9 +205,9 @@ VALIDATION_PASS
 != UNIVERSAL_CORRECTNESS
 ```
 
----
+______________________________________________________________________
 
-# 2. Validation target ontology
+## 2. Validation target ontology
 
 Validation targets may include:
 
@@ -229,15 +229,15 @@ GENERATOR_ROLLBACK
 
 Each target has different proof requirements.
 
----
+______________________________________________________________________
 
-# 3. Validation object model
+## 3. Validation object model
 
 A Generator validation can be modeled as:
 
-[
+\[
 V_G =
-\langle
+\\langle
 Target,
 Profile,
 Evidence,
@@ -248,14 +248,14 @@ Freshness,
 Invariants,
 Dependencies,
 Result
-\rangle
-]
+\\rangle
+\]
 
 A pass is meaningful only if the validation envelope remains valid.
 
----
+______________________________________________________________________
 
-# 4. Validation result classes
+## 4. Validation result classes
 
 Use:
 
@@ -272,9 +272,9 @@ QUARANTINED
 
 `NOT_APPLICABLE` requires an explicit reason.
 
----
+______________________________________________________________________
 
-# 5. Conclusion classes
+## 5. Conclusion classes
 
 Validation conclusions remain epistemically typed:
 
@@ -297,9 +297,9 @@ therefore generated claim is true
 → not licensed
 ```
 
----
+______________________________________________________________________
 
-# 6. Generator validation layers
+## 6. Generator validation layers
 
 ```yaml
 generator_validation_layers:
@@ -400,9 +400,9 @@ generator_validation_layers:
       - commit/finality separation
 ```
 
----
+______________________________________________________________________
 
-# 7. Validation profile
+## 7. Validation profile
 
 A Generator should be validated under an explicit profile.
 
@@ -436,9 +436,9 @@ generator_validation_profile:
     UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 8. Risk-adaptive validation
+## 8. Risk-adaptive validation
 
 Validation burden should scale with consequence.
 
@@ -455,9 +455,9 @@ V5 — GOVERNANCE / CANON / SECURITY CRITICAL
 
 Higher classes require stronger evidence.
 
----
+______________________________________________________________________
 
-# 9. Generator identity validation
+## 9. Generator identity validation
 
 Validate:
 
@@ -476,9 +476,9 @@ UNKNOWN/GAP
 
 not PASS.
 
----
+______________________________________________________________________
 
-# 10. Same-version drift
+## 10. Same-version drift
 
 Given:
 
@@ -506,9 +506,9 @@ FAIL / CONFLICT
 
 pending reconciliation.
 
----
+______________________________________________________________________
 
-# 11. Contract validation
+## 11. Contract validation
 
 Check Generator contract includes:
 
@@ -529,9 +529,9 @@ recovery
 
 Missing critical contract dimensions block higher assurance.
 
----
+______________________________________________________________________
 
-# 12. Input validation
+## 12. Input validation
 
 Input validation should inspect:
 
@@ -546,9 +546,9 @@ regime
 freshness
 ```
 
----
+______________________________________________________________________
 
-# 13. Input provenance validation
+## 13. Input provenance validation
 
 A valid input value may still have invalid provenance.
 
@@ -564,9 +564,9 @@ from:
 INPUT_PROVENANCE_VALID
 ```
 
----
+______________________________________________________________________
 
-# 14. Source claim validation
+## 14. Source claim validation
 
 Documentation or README content remains:
 
@@ -578,9 +578,9 @@ until independently validated where verification matters.
 
 Generation must not silently upgrade it.
 
----
+______________________________________________________________________
 
-# 15. Output structural validation
+## 15. Output structural validation
 
 Validate:
 
@@ -595,9 +595,9 @@ syntax
 
 Structural success does not establish semantic correctness.
 
----
+______________________________________________________________________
 
-# 16. Output semantic validation
+## 16. Output semantic validation
 
 Semantic validation should check for AMOS boundary violations such as:
 
@@ -609,9 +609,9 @@ GENERATED represented as CANON
 COMMITTED represented as FINAL
 ```
 
----
+______________________________________________________________________
 
-# 17. Status-truthfulness validation
+## 17. Status-truthfulness validation
 
 Required hard boundary:
 
@@ -623,15 +623,15 @@ supported lifecycle state
 
 Formally:
 
-[
-DeclaredState \le SupportedState
-]
+\[
+DeclaredState \\le SupportedState
+\]
 
 under the configured lifecycle ordering.
 
----
+______________________________________________________________________
 
-# 18. Claim-class validation
+## 18. Claim-class validation
 
 A generated artifact should use the weakest accurate class.
 
@@ -645,9 +645,9 @@ runtime implementation not inspected
 → implementation claim UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 19. Anti-fabrication validation
+## 19. Anti-fabrication validation
 
 Check whether generated output introduces:
 
@@ -666,9 +666,9 @@ invented canon state
 
 Any material fabricated dependency is a blocking integrity failure.
 
----
+______________________________________________________________________
 
-# 20. Provenance validation
+## 20. Provenance validation
 
 Validate:
 
@@ -681,9 +681,9 @@ load-bearing dependencies retained
 receipt linkage is consistent
 ```
 
----
+______________________________________________________________________
 
-# 21. Provenance completeness
+## 21. Provenance completeness
 
 Potential completeness states:
 
@@ -698,9 +698,9 @@ UNKNOWN
 
 `PARTIAL_CRITICAL` should block critical promotion.
 
----
+______________________________________________________________________
 
-# 22. Provenance independence
+## 22. Provenance independence
 
 Multiple supporting paths must not be counted independently without ancestry analysis.
 
@@ -711,9 +711,9 @@ UNKNOWN_INDEPENDENCE
 != INDEPENDENT
 ```
 
----
+______________________________________________________________________
 
-# 23. Sybil validation
+## 23. Sybil validation
 
 Fixture:
 
@@ -732,9 +732,9 @@ Expected effective support:
 
 not 3 independent confirmations.
 
----
+______________________________________________________________________
 
-# 24. Dependency validation
+## 24. Dependency validation
 
 For each load-bearing dependency:
 
@@ -749,22 +749,20 @@ dependency_validation:
   result: UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 25. Dependency closure
+## 25. Dependency closure
 
 Validation should identify the smallest dependency closure capable of invalidating the Generator result.
 
-[
-Closure(G)
-==========
+## \[ Closure(G)
 
-{d : Failure(d) \Rightarrow Validity(G)\text{ may change}}
-]
+{d : Failure(d) \\Rightarrow Validity(G)\\text{ may change}}
+\]
 
----
+______________________________________________________________________
 
-# 26. Template validation
+## 26. Template validation
 
 Check:
 
@@ -778,9 +776,9 @@ semantic compatibility
 
 Silent template drift invalidates dependent receipts.
 
----
+______________________________________________________________________
 
-# 27. Schema validation
+## 27. Schema validation
 
 Check:
 
@@ -792,9 +790,9 @@ field compatibility
 semantic compatibility
 ```
 
----
+______________________________________________________________________
 
-# 28. Kernel validation
+## 28. Kernel validation
 
 If load-bearing kernels exist, validate:
 
@@ -806,9 +804,9 @@ input/output contract
 side-effect boundary
 ```
 
----
+______________________________________________________________________
 
-# 29. Engine validation
+## 29. Engine validation
 
 If Generator is orchestrated by an Engine, validate that Engine does not silently assume:
 
@@ -819,9 +817,9 @@ Worker privileges
 canon admission
 ```
 
----
+______________________________________________________________________
 
-# 30. Agent boundary validation
+## 30. Agent boundary validation
 
 Validate:
 
@@ -837,9 +835,9 @@ Worker authority
 canon authority
 ```
 
----
+______________________________________________________________________
 
-# 31. Skill boundary validation
+## 31. Skill boundary validation
 
 A Skill may invoke Generator capability.
 
@@ -850,9 +848,9 @@ SKILL_INVOCATION
 != AUTHORITY_GRANT
 ```
 
----
+______________________________________________________________________
 
-# 32. Worker-boundary validation
+## 32. Worker-boundary validation
 
 A Generator candidate that leads to durable mutation should have a governed Worker path.
 
@@ -866,9 +864,9 @@ durable effect
 
 Actual runtime implementation remains independently verifiable.
 
----
+______________________________________________________________________
 
-# 33. Direct-effect validation
+## 33. Direct-effect validation
 
 Critical failure if a supposedly candidate-only Generator can directly:
 
@@ -882,9 +880,9 @@ perform external mutation
 
 without governed infrastructure.
 
----
+______________________________________________________________________
 
-# 34. Validation of required invariants
+## 34. Validation of required invariants
 
 Every consequential validation should name the invariant set.
 
@@ -905,9 +903,9 @@ required_invariants:
   - I-GEN-PROVENANCE-PRESERVED
 ```
 
----
+______________________________________________________________________
 
-# 35. Invariant result
+## 35. Invariant result
 
 ```yaml
 invariant_result:
@@ -924,28 +922,26 @@ invariant_result:
     UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 36. Invariant monotonicity
+## 36. Invariant monotonicity
 
 When multiple layers impose invariants:
 
-[
-I_{effective}
-=============
+## \[ I\_{effective}
 
-I_{Generator}
-\cup I_{Skill}
-\cup I_{Engine}
-\cup I_{Worker}
-\cup I_{Policy}
-]
+I\_{Generator}
+\\cup I\_{Skill}
+\\cup I\_{Engine}
+\\cup I\_{Worker}
+\\cup I\_{Policy}
+\]
 
 Integration must not silently drop a stricter requirement.
 
----
+______________________________________________________________________
 
-# 37. Scope validation
+## 37. Scope validation
 
 Validate:
 
@@ -961,9 +957,9 @@ assumptions
 
 A pass outside this envelope is unsupported.
 
----
+______________________________________________________________________
 
-# 38. H/M/L validation
+## 38. H/M/L validation
 
 A validation at L does not automatically validate M or H.
 
@@ -979,9 +975,9 @@ does not establish:
 Generator architecture valid
 ```
 
----
+______________________________________________________________________
 
-# 39. Regime validation
+## 39. Regime validation
 
 Possible regimes:
 
@@ -997,9 +993,9 @@ RECOVERY
 
 Validation should state exact regime.
 
----
+______________________________________________________________________
 
-# 40. Cross-regime reuse
+## 40. Cross-regime reuse
 
 Example:
 
@@ -1015,9 +1011,9 @@ PASS in LIVE
 
 without compatibility evidence.
 
----
+______________________________________________________________________
 
-# 41. Freshness validation
+## 41. Freshness validation
 
 Freshness should apply separately to:
 
@@ -1033,9 +1029,9 @@ policy
 state snapshot
 ```
 
----
+______________________________________________________________________
 
-# 42. Freshness object
+## 42. Freshness object
 
 ```yaml
 freshness_validation:
@@ -1059,9 +1055,9 @@ freshness_validation:
     UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 43. State validation
+## 43. State validation
 
 For state-dependent generation:
 
@@ -1082,9 +1078,9 @@ generator_state_validation:
     UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 44. MVCC validation
+## 44. MVCC validation
 
 If current state differs from observed state:
 
@@ -1100,15 +1096,15 @@ STALE
 
 where required.
 
----
+______________________________________________________________________
 
-# 45. CAS validation
+## 45. CAS validation
 
 For effect proposal:
 
-[
+\[
 ExpectedVersion = CurrentVersion
-]
+\]
 
 may be required.
 
@@ -1120,9 +1116,9 @@ VALIDATION_FAIL / STALE
 
 depending on contract.
 
----
+______________________________________________________________________
 
-# 46. Read-set validation
+## 46. Read-set validation
 
 Validate every load-bearing read:
 
@@ -1134,9 +1130,9 @@ hash
 
 against current governed state before commit where required.
 
----
+______________________________________________________________________
 
-# 47. Write-set validation
+## 47. Write-set validation
 
 Validate proposed writes are:
 
@@ -1148,9 +1144,9 @@ non-conflicting
 rollback-aware
 ```
 
----
+______________________________________________________________________
 
-# 48. Idempotency validation
+## 48. Idempotency validation
 
 For retry-safe Generators or Workers:
 
@@ -1161,9 +1157,9 @@ same idempotency key
 
 within declared scope.
 
----
+______________________________________________________________________
 
-# 49. Atomicity validation
+## 49. Atomicity validation
 
 For Generator bundles:
 
@@ -1185,9 +1181,9 @@ bundle validation FAIL
 
 where atomicity is required.
 
----
+______________________________________________________________________
 
-# 50. Multi-RSCF validation
+## 50. Multi-RSCF validation
 
 If one candidate affects multiple RSCF conclusions, validate:
 
@@ -1198,23 +1194,23 @@ atomicity requirement
 invalidation graph
 ```
 
----
+______________________________________________________________________
 
-# 51. Confidence-ceiling validation
+## 51. Confidence-ceiling validation
 
 For conclusion C:
 
-[
+\[
 Confidence(C)
-\le
-\min(Confidence(P_i))
-]
+\\le
+\\min(Confidence(P_i))
+\]
 
-for load-bearing premises \(P_i\), unless independent revalidation justifies a higher ceiling.
+for load-bearing premises (P_i), unless independent revalidation justifies a higher ceiling.
 
----
+______________________________________________________________________
 
-# 52. Competing-hypothesis validation
+## 52. Competing-hypothesis validation
 
 If two interpretations remain materially supported:
 
@@ -1226,9 +1222,9 @@ must remain visible.
 
 Validation should not force arbitrary convergence.
 
----
+______________________________________________________________________
 
-# 53. Contradiction validation
+## 53. Contradiction validation
 
 Search for contradiction across:
 
@@ -1244,9 +1240,9 @@ provenance
 
 A material unresolved contradiction may block promotion.
 
----
+______________________________________________________________________
 
-# 54. Causal firewall validation
+## 54. Causal firewall validation
 
 Generated claims that use causal language must distinguish:
 
@@ -1263,9 +1259,9 @@ mediation
 
 Structural resemblance or sequence alone cannot validate causation.
 
----
+______________________________________________________________________
 
-# 55. Security validation
+## 55. Security validation
 
 Check Generator against:
 
@@ -1281,9 +1277,9 @@ unsafe code generation
 direct external action
 ```
 
----
+______________________________________________________________________
 
-# 56. Generated-code validation
+## 56. Generated-code validation
 
 Code-producing Generator path should be:
 
@@ -1306,9 +1302,9 @@ Generator
 
 by default.
 
----
+______________________________________________________________________
 
-# 57. Validation of external-source access
+## 57. Validation of external-source access
 
 Validate:
 
@@ -1327,9 +1323,9 @@ SOURCE_ACCESSIBLE
 != SOURCE_VALID
 ```
 
----
+______________________________________________________________________
 
-# 58. Registry validation
+## 58. Registry validation
 
 Generator registry entry should validate:
 
@@ -1344,9 +1340,9 @@ status
 validation receipt
 ```
 
----
+______________________________________________________________________
 
-# 59. Registry status firewall
+## 59. Registry status firewall
 
 ```text
 REGISTERED
@@ -1359,9 +1355,9 @@ ACTIVE
 != AUTHORIZED_FOR_ALL_OPERATIONS
 ```
 
----
+______________________________________________________________________
 
-# 60. Routing validation
+## 60. Routing validation
 
 Validate route selected:
 
@@ -1375,9 +1371,9 @@ fresh registry state
 
 and did not silently fallback.
 
----
+______________________________________________________________________
 
-# 61. Route validation record
+## 61. Route validation record
 
 ```yaml
 generator_route_validation:
@@ -1401,9 +1397,9 @@ generator_route_validation:
     UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 62. Integration validation
+## 62. Integration validation
 
 Validate bindings to:
 
@@ -1420,9 +1416,9 @@ Registries
 Promotion Gates
 ```
 
----
+______________________________________________________________________
 
-# 63. Event Bus validation
+## 63. Event Bus validation
 
 Check:
 
@@ -1435,9 +1431,9 @@ ordering
 duplicate handling
 ```
 
----
+______________________________________________________________________
 
-# 64. Event authority firewall
+## 64. Event authority firewall
 
 Validation must preserve:
 
@@ -1446,9 +1442,9 @@ EVENT_RECEIVED
 != AUTHORIZED_EFFECT
 ```
 
----
+______________________________________________________________________
 
-# 65. Event-order validation
+## 65. Event-order validation
 
 Reject or quarantine impossible lifecycle ordering such as:
 
@@ -1460,9 +1456,9 @@ GENERATOR_VALIDATED
 
 unless explicitly permitted.
 
----
+______________________________________________________________________
 
-# 66. Promotion validation
+## 66. Promotion validation
 
 Generator validation may produce:
 
@@ -1478,9 +1474,9 @@ PROMOTED
 
 Promotion remains a separate governed transition.
 
----
+______________________________________________________________________
 
-# 67. Canon boundary validation
+## 67. Canon boundary validation
 
 A Generator may produce:
 
@@ -1496,9 +1492,9 @@ CANON_ADMITTED
 
 as an effective transition.
 
----
+______________________________________________________________________
 
-# 68. Policy boundary validation
+## 68. Policy boundary validation
 
 A generated policy artifact remains:
 
@@ -1508,9 +1504,9 @@ POLICY_CANDIDATE
 
 until separately admitted/activated.
 
----
+______________________________________________________________________
 
-# 69. Authority validation boundary
+## 69. Authority validation boundary
 
 A Generator output may contain an authority reference.
 
@@ -1523,9 +1519,9 @@ AUTHORITY_REF_VALIDATED
 != AUTHORITY_GRANTED
 ```
 
----
+______________________________________________________________________
 
-# 70. Finality boundary validation
+## 70. Finality boundary validation
 
 Validate:
 
@@ -1539,9 +1535,9 @@ finalized
 
 remain distinguishable.
 
----
+______________________________________________________________________
 
-# 71. Validation receipt
+## 71. Validation receipt
 
 ```yaml
 generator_validation_receipt:
@@ -1585,9 +1581,9 @@ generator_validation_receipt:
     null
 ```
 
----
+______________________________________________________________________
 
-# 72. Receipt integrity
+## 72. Receipt integrity
 
 A receipt should be rejected if:
 
@@ -1601,9 +1597,9 @@ scope mismatches
 regime mismatches
 ```
 
----
+______________________________________________________________________
 
-# 73. Receipt reuse
+## 73. Receipt reuse
 
 Reuse requires:
 
@@ -1622,9 +1618,9 @@ freshness valid
 no conflicting evidence
 ```
 
----
+______________________________________________________________________
 
-# 74. Cross-version receipt reuse
+## 74. Cross-version receipt reuse
 
 Default:
 
@@ -1636,9 +1632,9 @@ V2
 
 unless compatibility is explicitly established.
 
----
+______________________________________________________________________
 
-# 75. Receipt invalidation graph
+## 75. Receipt invalidation graph
 
 If receipt R depends on:
 
@@ -1652,9 +1648,9 @@ Policy P
 
 then change to a load-bearing member may invalidate R.
 
----
+______________________________________________________________________
 
-# 76. Validation provenance
+## 76. Validation provenance
 
 Validation itself must have provenance.
 
@@ -1669,9 +1665,9 @@ evidence inputs
 timestamps
 ```
 
----
+______________________________________________________________________
 
-# 77. Validator registry
+## 77. Validator registry
 
 Potential:
 
@@ -1692,9 +1688,9 @@ validator_registry_entry:
     UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 78. Validator independence
+## 78. Validator independence
 
 Two Validators may appear different but share:
 
@@ -1708,9 +1704,9 @@ same upstream derivation
 
 Do not count these as independent challenge paths automatically.
 
----
+______________________________________________________________________
 
-# 79. Primary + challenge validation
+## 79. Primary + challenge validation
 
 For consequential claims:
 
@@ -1733,9 +1729,9 @@ preserve COMPETING
 or UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 80. Validation evidence classes
+## 80. Validation evidence classes
 
 ```text
 SOURCE_CLAIM
@@ -1751,9 +1747,9 @@ UNKNOWN
 
 Do not flatten them into generic “evidence”.
 
----
+______________________________________________________________________
 
-# 81. Test relationship
+## 81. Test relationship
 
 `TESTS.md` provides executable property evidence.
 
@@ -1773,9 +1769,9 @@ TEST_PASS
 → automatic VALIDATED
 ```
 
----
+______________________________________________________________________
 
-# 82. Benchmark relationship
+## 82. Benchmark relationship
 
 Benchmarks may support:
 
@@ -1787,43 +1783,43 @@ regression
 
 but should not substitute for semantic validation.
 
----
+______________________________________________________________________
 
-# 83. Audit relationship
+## 83. Audit relationship
 
 Audit can challenge whether validation controls themselves are sufficient, current, non-bypassable, and properly scoped.
 
----
+______________________________________________________________________
 
-# 84. Versioning relationship
+## 84. Versioning relationship
 
 `GENERATOR_VERSIONING.md` defines exact version identity and compatibility.
 
 Validation must bind to it.
 
----
+______________________________________________________________________
 
-# 85. Provenance relationship
+## 85. Provenance relationship
 
 `PROVENANCE.md` supplies lineage evidence that this file evaluates.
 
----
+______________________________________________________________________
 
-# 86. Integration relationship
+## 86. Integration relationship
 
 `INTEGRATION.md` defines subsystem edges whose compatibility this file validates.
 
----
+______________________________________________________________________
 
-# 87. History relationship
+## 87. History relationship
 
 `HISTORY.md` may preserve validation events historically.
 
 A historical pass may no longer be currently valid.
 
----
+______________________________________________________________________
 
-# 88. Change Log relationship
+## 88. Change Log relationship
 
 Changes to validation profiles, Validators, thresholds, or blocking conditions should be recorded in:
 
@@ -1831,9 +1827,9 @@ Changes to validation profiles, Validators, thresholds, or blocking conditions s
 GENERATORS_CHANGE_LOG.md
 ```
 
----
+______________________________________________________________________
 
-# 89. Validation event taxonomy
+## 89. Validation event taxonomy
 
 Suggested:
 
@@ -1850,9 +1846,9 @@ GENERATOR_VALIDATION_STALE
 GENERATOR_VALIDATION_INVALIDATED
 ```
 
----
+______________________________________________________________________
 
-# 90. Validation event envelope
+## 90. Validation event envelope
 
 ```yaml
 generator_validation_event:
@@ -1883,9 +1879,9 @@ generator_validation_event:
     null
 ```
 
----
+______________________________________________________________________
 
-# 91. Validation workflow
+## 91. Validation workflow
 
 ```text
 VALIDATION_REQUESTED
@@ -1917,9 +1913,9 @@ FINAL VALIDATION RESULT
 RECEIPT
 ```
 
----
+______________________________________________________________________
 
-# 92. Validation state machine
+## 92. Validation state machine
 
 ```text
 NOT_EVALUATED
@@ -1958,9 +1954,9 @@ PASS
 → STALE
 ```
 
----
+______________________________________________________________________
 
-# 93. Validation failure modes
+## 93. Validation failure modes
 
 ```yaml
 failure_modes:
@@ -2066,9 +2062,9 @@ failure_modes:
       local failure invalidates unrelated Generator state
 ```
 
----
+______________________________________________________________________
 
-# 94. Validation recovery
+## 94. Validation recovery
 
 ```text
 VALIDATION FAILURE
@@ -2088,9 +2084,9 @@ RETEST
 REVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 95. Selective invalidation
+## 95. Selective invalidation
 
 Example:
 
@@ -2105,9 +2101,9 @@ Unrelated Generator H
 → preserve H evidence
 ```
 
----
+______________________________________________________________________
 
-# 96. Retry rule
+## 96. Retry rule
 
 Do not repeat the same failed validation path without changed conditions.
 
@@ -2123,9 +2119,9 @@ policy changed
 transient failure resolved
 ```
 
----
+______________________________________________________________________
 
-# 97. Validation Agents
+## 97. Validation Agents
 
 Possible non-authoritative roles:
 
@@ -2161,9 +2157,9 @@ Agents produce validation evidence.
 
 They do not grant authority or commit state.
 
----
+______________________________________________________________________
 
-# 98. Validation Skills
+## 98. Validation Skills
 
 Potential Skills:
 
@@ -2183,9 +2179,9 @@ validate-generator-rollback
 adversarial-validate-generator
 ```
 
----
+______________________________________________________________________
 
-# 99. Validation Engine layer
+## 99. Validation Engine layer
 
 Possible Engines:
 
@@ -2201,9 +2197,9 @@ Generator Receipt Validation Engine
 
 These remain `MODEL` roles until implementation evidence exists.
 
----
+______________________________________________________________________
 
-# 100. Validation kernels
+## 100. Validation kernels
 
 Potential deterministic kernels:
 
@@ -2224,9 +2220,9 @@ check_idempotency()
 check_invariant_set()
 ```
 
----
+______________________________________________________________________
 
-# 101. Validation Worker boundary
+## 101. Validation Worker boundary
 
 Validation should normally be read-only.
 
@@ -2246,9 +2242,9 @@ Evidence
 → Validator
 ```
 
----
+______________________________________________________________________
 
-# 102. Validation invariant registry
+## 102. Validation invariant registry
 
 ```yaml
 generator_validation_invariants:
@@ -2302,9 +2298,9 @@ generator_validation_invariants:
     name: FINALITY_SEPARATION
 ```
 
----
+______________________________________________________________________
 
-# 103. Constitutional validation tests
+## 103. Constitutional validation tests
 
 ```text
 T-GVAL-001
@@ -2379,9 +2375,9 @@ despite candidate-only contract
 → critical validation FAIL
 ```
 
----
+______________________________________________________________________
 
-# 104. Adversarial validation scenarios
+## 104. Adversarial validation scenarios
 
 ```text
 AV-GVAL-001:
@@ -2421,9 +2417,9 @@ AV-GVAL-012:
 claim finality from ordinary write receipt
 ```
 
----
+______________________________________________________________________
 
-# 105. Validation score prohibition
+## 105. Validation score prohibition
 
 Avoid opaque:
 
@@ -2450,9 +2446,9 @@ validation_vector:
     FAIL
 ```
 
----
+______________________________________________________________________
 
-# 106. Hard gates versus soft quality
+## 106. Hard gates versus soft quality
 
 Example:
 
@@ -2475,9 +2471,9 @@ verbosity
 
 A soft score cannot offset hard failure.
 
----
+______________________________________________________________________
 
-# 107. Validation uncertainty vector
+## 107. Validation uncertainty vector
 
 ```yaml
 validation_uncertainty:
@@ -2507,9 +2503,9 @@ validation_uncertainty:
     UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 108. Sensitivity analysis
+## 108. Sensitivity analysis
 
 For consequential validation, identify the smallest premise that could flip PASS to FAIL.
 
@@ -2524,9 +2520,9 @@ one state-version mismatch
 
 Test that premise first where practical.
 
----
+______________________________________________________________________
 
-# 109. Validation observability
+## 109. Validation observability
 
 Useful metrics:
 
@@ -2546,9 +2542,9 @@ authority_boundary_failures
 
 Metrics do not prove assurance completeness.
 
----
+______________________________________________________________________
 
-# 110. Validation audit trail
+## 110. Validation audit trail
 
 Every consequential decision should permit reconstruction of:
 
@@ -2562,9 +2558,9 @@ using which evidence
 with which result
 ```
 
----
+______________________________________________________________________
 
-# 111. Validation promotion relationship
+## 111. Validation promotion relationship
 
 Conceptual:
 
@@ -2580,17 +2576,17 @@ PROMOTION_ELIGIBLE
 
 Validation must not bypass the second gate.
 
----
+______________________________________________________________________
 
-# 112. Validation and authoritative state
+## 112. Validation and authoritative state
 
 `AUTHORITATIVE_STATE` should identify current accepted Generator versions/receipts where such governance exists.
 
 This file does not establish those values.
 
----
+______________________________________________________________________
 
-# 113. Validation profile versioning
+## 113. Validation profile versioning
 
 Validation profiles themselves require versioning.
 
@@ -2609,9 +2605,9 @@ validation_profile_identity:
 
 A profile change can invalidate old receipts.
 
----
+______________________________________________________________________
 
-# 114. Validator versioning
+## 114. Validator versioning
 
 Validator implementation identity should include:
 
@@ -2624,9 +2620,9 @@ dependency closure
 
 where material.
 
----
+______________________________________________________________________
 
-# 115. Validation replay
+## 115. Validation replay
 
 Revalidation may replay the same profile against the same exact target.
 
@@ -2638,9 +2634,9 @@ VALIDATION_NONDETERMINISM
 
 should be investigated.
 
----
+______________________________________________________________________
 
-# 116. Stochastic Validator handling
+## 116. Stochastic Validator handling
 
 Where an LLM is involved in semantic validation, distinguish:
 
@@ -2652,9 +2648,9 @@ from deterministic checks.
 
 Consequential pass may require corroboration or deterministic constraints.
 
----
+______________________________________________________________________
 
-# 117. Validator cannot validate its own authority
+## 117. Validator cannot validate its own authority
 
 A Validator can determine:
 
@@ -2670,9 +2666,9 @@ authority granted
 
 through its own output.
 
----
+______________________________________________________________________
 
-# 118. Validation proof capsule
+## 118. Validation proof capsule
 
 ```yaml
 validation_proof_capsule:
@@ -2725,9 +2721,9 @@ validation_proof_capsule:
     UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 119. RSCF node contract
+## 119. RSCF node contract
 
 ```yaml
 RSCF-NODE:
@@ -2785,9 +2781,9 @@ RSCF-NODE:
     0
 ```
 
----
+______________________________________________________________________
 
-# 120. RSCF relations
+## 120. RSCF relations
 
 ```yaml
 RSCF-RELATIONS:
@@ -2829,9 +2825,9 @@ RSCF-RELATIONS:
       "PROMOTION_GATES|Promotion Gates"
 ```
 
----
+______________________________________________________________________
 
-# 121. RSCF completion state
+## 121. RSCF completion state
 
 ```yaml
 rscf:
@@ -2893,9 +2889,9 @@ rscf:
     PLACEHOLDER
 ```
 
----
+______________________________________________________________________
 
-# 122. GMEF completion state
+## 122. GMEF completion state
 
 ```yaml
 gmef:
@@ -2946,9 +2942,9 @@ gmef:
     UNFINALIZED
 ```
 
----
+______________________________________________________________________
 
-# 123. Source / canon references
+## 123. Source / canon references
 
 ```yaml
 source_canon:
@@ -2975,9 +2971,9 @@ source_canon:
       UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 124. Dependency graph
+## 124. Dependency graph
 
 ```text
 GENERATOR_VALIDATION
@@ -3013,9 +3009,9 @@ GENERATOR_VALIDATION
 └── ROLLBACK_MANIFEST
 ```
 
----
+______________________________________________________________________
 
-# 125. Related artifacts
+## 125. Related artifacts
 
 ```yaml
 related:
@@ -3075,9 +3071,9 @@ related:
     UNVERIFIED
 ```
 
----
+______________________________________________________________________
 
-# 126. Relation ontology
+## 126. Relation ontology
 
 ```text
 VALIDATES
@@ -3097,9 +3093,9 @@ CONFLICTS_WITH
 COMPETING_WITH
 ```
 
----
+______________________________________________________________________
 
-# 127. Current validation inventory
+## 127. Current validation inventory
 
 No actual Generator validation execution has been established by this placeholder.
 
@@ -3146,9 +3142,9 @@ validation_inventory:
     status: NOT_RUN_OR_UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 128. Minimum viable Generator validation
+## 128. Minimum viable Generator validation
 
 The smallest serious validation profile should establish:
 
@@ -3175,9 +3171,9 @@ integration validation
 policy compatibility
 ```
 
----
+______________________________________________________________________
 
-# 129. Minimum proof-of-validation test
+## 129. Minimum proof-of-validation test
 
 A strong minimum test:
 
@@ -3212,9 +3208,9 @@ overall validation = FAIL
 
 This proves AMOS validation is not merely schema checking.
 
----
+______________________________________________________________________
 
-# 130. Completion status
+## 130. Completion status
 
 ```yaml
 completion_status:
@@ -3292,9 +3288,9 @@ completion_status:
     status: NOT_RUN
 ```
 
----
+______________________________________________________________________
 
-# 131. Gap registry
+## 131. Gap registry
 
 ```yaml
 gaps:
@@ -3331,9 +3327,9 @@ gaps:
     - display formatting
 ```
 
----
+______________________________________________________________________
 
-# 132. Hard boundaries
+## 132. Hard boundaries
 
 ```text
 PLACEHOLDER != VALIDATION_IMPLEMENTED
@@ -3385,9 +3381,9 @@ STALE_RECEIPT != CURRENT_EVIDENCE
 UNKNOWN/GAP != PASS
 ```
 
----
+______________________________________________________________________
 
-# 133. Current decision
+## 133. Current decision
 
 ```yaml
 decision:
@@ -3431,9 +3427,9 @@ decision:
     - infer universal correctness
 ```
 
----
+______________________________________________________________________
 
-# 134. Final proof capsule
+## 134. Final proof capsule
 
 ```yaml
 proof_capsule:
@@ -3491,9 +3487,9 @@ proof_capsule:
     - NON_AUTHORITATIVE
 ```
 
----
+______________________________________________________________________
 
-# 135. Final conclusion
+## 135. Final conclusion
 
 **Claim**
 
@@ -3575,11 +3571,11 @@ NON_AUTHORITATIVE
 READ_ONLY_BY_DEFAULT
 ```
 
----
+______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[25_COGNITIVE_MATRIX/12_GENERATORS/00_INDEX/GENERATORS_MAP|GENERATORS_MAP]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
@@ -3604,7 +3600,7 @@ READ_ONLY_BY_DEFAULT
 - Policy Manifest
 - Authority Registry
 
-```
+````
 
 The ownership distinction should remain:
 
@@ -3633,7 +3629,7 @@ CONTROL PLANE / AUTHORITY
 
 WORKER
 → bounded durable effect
-```
+````
 
 The load-bearing rule is therefore:
 
@@ -3664,7 +3660,3 @@ not simply:
 ```
 ---
 **MOC:**
-
-
-```
-```

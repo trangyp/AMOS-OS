@@ -1,4 +1,7 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: UNIFIED CODING ENGINE VINFINITY V1 6 0
 type: engine
 source: 11_KNOWLEDGE/engine
@@ -7,14 +10,14 @@ canon-type: framework
 rscf-state: source-claim
 topic: unified-coding-engine-vinfinity-v1-6-0
 tags:
-- canon-group/tech-ai
-- canon/framework
-- rscf/claim
-- rscf/provenance
-- rscf/state/observation
-- topic/unified-coding-engine-vinfinity-v1-6-0
-- engine
-- trang-framework-recursive-ontology-dynamics
+  - canon-group/tech-ai
+  - canon/framework
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/observation
+  - topic/unified-coding-engine-vinfinity-v1-6-0
+  - engine
+  - trang-framework-recursive-ontology-dynamics
 created: 2026-08-22
 rscf:
   state: AMOS_MODEL
@@ -661,9 +664,10 @@ rscf:
 **Related:**  ·  ·  ·  ·
 ```
 
----
+______________________________________________________________________
+
 **MOC:** [[11_KNOWLEDGE/engine/ENGINE_MOC|ENGINE_MOC]]
 
----
-**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+______________________________________________________________________
 
+**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

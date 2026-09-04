@@ -4,25 +4,22 @@ title: SKILL — Amos Heritage Decision Intelligence
 type: skill
 source: 07_SKILLS/amos-heritage-decision-intelligence
 name: amos-heritage-decision-intelligence
-description: Heritage Decision Intelligence — society and culture capability. Use
-  when social analysis, cultural reasoning, or anthropological study. Use when amos-c06-society-culture-master
-  routes to this specialized capability. Do not use for generic tasks outside c06
-  domain.
+description: Heritage Decision Intelligence — society and culture capability. Use when social analysis, cultural reasoning, or anthropological study. Use when amos-c06-society-culture-master routes to this specialized capability. Do not use for generic tasks outside c06 domain.
 parent_skill: amos-c06-society-culture-master
 domain: c06
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
 tags:
-- type/skill
-- type/skill
-- domain/society-culture
-- epistemic/source_claim
-- hml/m
-- epistemic/source_claim
-- amos-os
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/society-culture
+  - epistemic/source_claim
+  - hml/m
+  - epistemic/source_claim
+  - amos-os
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -32,23 +29,23 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: M
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
-- L7_authority
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
+  - L7_authority
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L7
-- L16
-- L17
-- L18
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L7
+  - L16
+  - L17
+  - L18
 license: MIT
 steward: Trang Phan
 ---
@@ -58,6 +55,7 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: c06. Parent: amos-c06-society-culture-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
 ## When to Use
 
 - When analyzing emergent social intelligence: norms, networks, culture
@@ -82,12 +80,12 @@ Origin architect: **Trang Phan**. Domain: c06. Parent: amos-c06-society-culture-
 ## Operations
 
 1. **heritage_decision.analyze_social**: Analyze emergent social intelligence: norms, networks, and cultural dynamics
-2. **heritage_decision.model_heritage**: Model heritage decision intelligence: tradition, continuity, and adaptation
-3. **heritage_decision.assess_language**: Assess language as equation: semantic structure, pragmatic force, and drift
-4. **heritage_decision.evaluate_pattern**: Evaluate heritage pattern claims: statistical validity, sample size, p-value
-5. **heritage_decision.detect_drift**: Detect drift in heritage patterns, cultural cycles, or evidence freshness
-6. **heritage_decision.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-7. **heritage_decision.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+1. **heritage_decision.model_heritage**: Model heritage decision intelligence: tradition, continuity, and adaptation
+1. **heritage_decision.assess_language**: Assess language as equation: semantic structure, pragmatic force, and drift
+1. **heritage_decision.evaluate_pattern**: Evaluate heritage pattern claims: statistical validity, sample size, p-value
+1. **heritage_decision.detect_drift**: Detect drift in heritage patterns, cultural cycles, or evidence freshness
+1. **heritage_decision.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+1. **heritage_decision.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## Vault-Sourced Domain Knowledge
 
@@ -100,12 +98,13 @@ Origin architect: **Trang Phan**. Domain: c06. Parent: amos-c06-society-culture-
 From Cosmo Brain Heritage Intelligence: 32 layers + 10 signal classes for multi-layer decision intelligence. Covers thermodynamic constraints, information-theoretic limits, biological integrity, and decision governance from cosmic entropy to micro-market behavior.
 
 **6 Foundational propositions**:
+
 1. **Life**: life as the fundamental organizing principle
-2. **Information Security**: information integrity as the basis of decision-making
-3. **Brain**: cognitive architecture for decision intelligence
-4. **Externalization**: externalizing decision intelligence into systems
-5. **Integrity**: maintaining integrity through transformations
-6. **Purpose**: purpose-driven decision-making
+1. **Information Security**: information integrity as the basis of decision-making
+1. **Brain**: cognitive architecture for decision intelligence
+1. **Externalization**: externalizing decision intelligence into systems
+1. **Integrity**: maintaining integrity through transformations
+1. **Purpose**: purpose-driven decision-making
 
 **32-layer architecture**: Multi-layer decision intelligence from cosmic entropy to micro-market behavior, covering thermodynamic constraints, information-theoretic limits, biological integrity, and decision governance across scales (H/M/L).
 
@@ -115,17 +114,17 @@ From Cosmo Brain Heritage Intelligence: 32 layers + 10 signal classes for multi-
 
 The Heritage framework identifies 9 cyclical patterns in human history:
 
-| Pattern | Cycle | Description |
-|---------|-------|-------------|
-| H1 | 17 years | Cicada cycle in human conflict (1618-2026, p < 0.01) |
-| H2 | 144 years | Technological revolutions (Gutenberg 1440 → Transformer AI 2016) |
-| H3 | 37 years | Financial crises (South Sea Bubble 1720 onward) |
-| H4 | 83 years | Empire collapse cycle |
-| H5 | 1,360 years | Civilizational complexity (solar correlation) |
-| H6 | 120 years | Language death/revival cycle |
-| H7 | Golden ratio | Dynastic lengths |
-| H8 | Prime numbers | Innovation cycles |
-| H9 | Variable | "Shadow civilization" signal in radiocarbon data |
+| Pattern | Cycle         | Description                                                      |
+| ------- | ------------- | ---------------------------------------------------------------- |
+| H1      | 17 years      | Cicada cycle in human conflict (1618-2026, p < 0.01)             |
+| H2      | 144 years     | Technological revolutions (Gutenberg 1440 → Transformer AI 2016) |
+| H3      | 37 years      | Financial crises (South Sea Bubble 1720 onward)                  |
+| H4      | 83 years      | Empire collapse cycle                                            |
+| H5      | 1,360 years   | Civilizational complexity (solar correlation)                    |
+| H6      | 120 years     | Language death/revival cycle                                     |
+| H7      | Golden ratio  | Dynastic lengths                                                 |
+| H8      | Prime numbers | Innovation cycles                                                |
+| H9      | Variable      | "Shadow civilization" signal in radiocarbon data                 |
 
 ### Epistemic Boundary
 
@@ -135,7 +134,8 @@ Heritage patterns are SOURCE_CLAIM. Statistical significance claims (e.g., p < 0
 
 - **Insufficient evidence**: If source material is insufficient, mark as UNKNOWN/GAP and fail closed — do
 
----
+______________________________________________________________________
+
 **Links:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 ## Related
@@ -145,17 +145,19 @@ Heritage patterns are SOURCE_CLAIM. Statistical significance claims (e.g., p < 0
 ## Examples
 
 - **Scenario**: When analyzing emergent social intelligence: norms, networks, culture
+
   - **Input**: A query matching this skill's domain (c06)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When modeling heritage decision intelligence: tradition and adaptation
+
   - **Input**: A query matching this skill's domain (c06)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When assessing long-term civilizational patterns and cyclical dynamics
+
   - **Input**: A query matching this skill's domain (c06)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Validation Gates
 
@@ -172,7 +174,6 @@ Heritage patterns are SOURCE_CLAIM. Statistical significance claims (e.g., p < 0
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `amos-c06-society-culture-master` — routes to this skill when c06 specialization is needed
@@ -180,7 +181,6 @@ Heritage patterns are SOURCE_CLAIM. Statistical significance claims (e.g., p < 0
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -199,7 +199,6 @@ Heritage patterns are SOURCE_CLAIM. Statistical significance claims (e.g., p < 0
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -207,7 +206,6 @@ Heritage patterns are SOURCE_CLAIM. Statistical significance claims (e.g., p < 0
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -220,11 +218,12 @@ Heritage patterns are SOURCE_CLAIM. Statistical significance claims (e.g., p < 0
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `amos-c06-society-culture-master` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `amos-heritage-decision-intelligence-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -232,12 +231,14 @@ Heritage patterns are SOURCE_CLAIM. Statistical significance claims (e.g., p < 0
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-heritage-decision-intelligence
 node_type: skill
 path: 07_SKILLS/amos-heritage-decision-intelligence/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

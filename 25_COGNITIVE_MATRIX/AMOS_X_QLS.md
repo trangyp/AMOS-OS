@@ -12,27 +12,27 @@ segment: 25_COGNITIVE_MATRIX
 artifact_kind: ARTIFACT
 path: 25_COGNITIVE_MATRIX/AMOS_X_QLS.md
 tags:
-- amos-os
-- cognitive-matrix
-- matrix
-- artifact
-- qls
-- quantum_logic_scaffold
-- quantum_logic_system
-- logic
-- non_contradiction
-- multi_state_reasoning
-- collapse_conditions
-- constraint_integrity
-- uncertainty
-- logic_gate
-- qcap
-- rscf
-- canon_candidate
-- domain/cognitive-matrix
-- amos-x-qls-qcla-matrix
-- law-hierarchy
-- ubi
+  - amos-os
+  - cognitive-matrix
+  - matrix
+  - artifact
+  - qls
+  - quantum_logic_scaffold
+  - quantum_logic_system
+  - logic
+  - non_contradiction
+  - multi_state_reasoning
+  - collapse_conditions
+  - constraint_integrity
+  - uncertainty
+  - logic_gate
+  - qcap
+  - rscf
+  - canon_candidate
+  - domain/cognitive-matrix
+  - amos-x-qls-qcla-matrix
+  - law-hierarchy
+  - ubi
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -47,11 +47,11 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - AMOS_QLS_CORPUS
+    - AMOS_QLS_CORPUS
   scope:
-  - AMOS_LOGIC_LAYER
-  - COGNITIVE_MATRIX
-  - SOURCE_DEFINED_QLS_MODEL
+    - AMOS_LOGIC_LAYER
+    - COGNITIVE_MATRIX
+    - SOURCE_DEFINED_QLS_MODEL
 framework_binding:
   primary:
     name: Quantum Logic Scaffold™
@@ -134,9 +134,9 @@ Origin architect / steward:
 
 **Trang Phan**
 
----
+______________________________________________________________________
 
-# 1. Purpose
+## 1. Purpose
 
 AMOS × QLS defines the Cognitive Matrix representation of the source-defined Quantum Logic Scaffold™.
 
@@ -162,9 +162,9 @@ QLS functions as a model-level logic gate.
 
 It does not by itself establish factual truth.
 
----
+______________________________________________________________________
 
-# 2. Fundamental Distinction
+## 2. Fundamental Distinction
 
 The governing distinction is:
 
@@ -192,9 +192,9 @@ unsupported causal assumptions
 
 Therefore QLS is necessary for disciplined reasoning but is not sufficient for empirical verification.
 
----
+______________________________________________________________________
 
-# 3. Native QLS Definition
+## 3. Native QLS Definition
 
 The native source presents Quantum Logic Scaffold™ as a logic framework intended to maintain coherent reasoning across human-linked systems.
 
@@ -212,9 +212,9 @@ QLS
 QUANTUM PHYSICS THEORY
 ```
 
----
+______________________________________________________________________
 
-# 4. Quantum Terminology Firewall
+## 4. Quantum Terminology Firewall
 
 The word:
 
@@ -256,9 +256,9 @@ QLS TERMINOLOGY
 EVIDENCE OF QUANTUM COMPUTATION
 ```
 
----
+______________________________________________________________________
 
-# 5. Four Native Logic Pillars
+## 5. Four Native Logic Pillars
 
 The source defines four principal QLS pillars:
 
@@ -274,9 +274,9 @@ The source defines four principal QLS pillars:
 
 AMOS preserves these as the H-level QLS architecture.
 
----
+______________________________________________________________________
 
-# 6. Pillar I — Non-Contradiction
+## 6. Pillar I — Non-Contradiction
 
 QLS requires reasoning to avoid mutually incompatible interpretations.
 
@@ -308,9 +308,9 @@ NonContradiction:
     - UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 7. Typed Contradiction
+## 7. Typed Contradiction
 
 Two statements are not contradictory merely because surface language differs.
 
@@ -344,9 +344,9 @@ System A is unstable at t2.
 
 is not intrinsically contradictory.
 
----
+______________________________________________________________________
 
-# 8. Contradiction Firewall
+## 8. Contradiction Firewall
 
 ```text
 DIFFERENCE
@@ -370,9 +370,9 @@ COMPETING HYPOTHESES
 LOGICAL ERROR
 ```
 
----
+______________________________________________________________________
 
-# 9. Contradiction Preservation
+## 9. Contradiction Preservation
 
 AMOS does not silently resolve a genuine contradiction.
 
@@ -390,9 +390,9 @@ PRESERVE COMPETING
 
 until discriminating evidence is available.
 
----
+______________________________________________________________________
 
-# 10. Pillar II — Multi-State Reasoning
+## 10. Pillar II — Multi-State Reasoning
 
 The native QLS source allows multiple candidate interpretations to remain active when evidence is incomplete.
 
@@ -404,28 +404,27 @@ COMPETING HYPOTHESIS STATE
 
 rather than premature convergence.
 
----
+______________________________________________________________________
 
-# 11. Native Multi-State Expression
+## 11. Native Multi-State Expression
 
 The source defines a candidate-state representation:
 
-\[
-\Sigma
-=
-\{p_1x_1,p_2x_2,\ldots,p_nx_n\}
+## \[ \\Sigma
+
+{p_1x_1,p_2x_2,\\ldots,p_nx_n}
 \]
 
 subject to:
 
 \[
-\sum_i p_i=1
+\\sum_i p_i=1
 \]
 
 and:
 
 \[
-p_i\ge0
+p_i\\ge0
 \]
 
 AMOS classification:
@@ -434,9 +433,9 @@ AMOS classification:
 SOURCE_DEFINED_MODEL
 ```
 
----
+______________________________________________________________________
 
-# 12. Candidate State Contract
+## 12. Candidate State Contract
 
 ```yaml
 QLSCandidateState:
@@ -464,9 +463,9 @@ QLSCandidateState:
   provenance:
 ```
 
----
+______________________________________________________________________
 
-# 13. Multi-State Integrity
+## 13. Multi-State Integrity
 
 Multiple states may coexist conceptually while unresolved.
 
@@ -484,9 +483,9 @@ evidence-typed
 falsifiable where applicable
 ```
 
----
+______________________________________________________________________
 
-# 14. Multi-State vs Contradiction
+## 14. Multi-State vs Contradiction
 
 QLS multi-state reasoning does not mean:
 
@@ -513,38 +512,38 @@ COMPETING
 
 not inconsistency.
 
----
+______________________________________________________________________
 
-# 15. Pillar III — Collapse Conditions
+## 15. Pillar III — Collapse Conditions
 
 The native source defines a collapse function:
 
 \[
-\kappa(\Sigma)\rightarrow x^*
+\\kappa(\\Sigma)\\rightarrow x^\*
 \]
 
 where a multi-state reasoning set resolves to one dominant interpretation.
 
----
+______________________________________________________________________
 
-# 16. Native Collapse Threshold
+## 16. Native Collapse Threshold
 
 The source proposes:
 
 \[
-\max(p_i)\ge\theta
+\\max(p_i)\\ge\\theta
 \]
 
 and gives a recommended:
 
 \[
-\theta=0.65
+\\theta=0.65
 \]
 
 with:
 
 \[
-x^*=\arg\max_i p_i
+x^\*=\\arg\\max_i p_i
 \]
 
 AMOS stores the value as:
@@ -555,9 +554,9 @@ SOURCE_DEFINED_PARAMETER
 
 not as a universal empirical constant.
 
----
+______________________________________________________________________
 
-# 17. Threshold Contract
+## 17. Threshold Contract
 
 ```yaml
 QLSCollapseThreshold:
@@ -580,9 +579,9 @@ QLSCollapseThreshold:
     NOT_AUTHORIZED_WITHOUT_BINDING
 ```
 
----
+______________________________________________________________________
 
-# 18. AMOS Collapse Hardening
+## 18. AMOS Collapse Hardening
 
 AMOS does not permit conclusion collapse solely because:
 
@@ -608,25 +607,24 @@ causal requirements satisfied when causal claims are made
 confidence ceiling respected
 ```
 
----
+______________________________________________________________________
 
-# 19. Hardened Collapse Function
+## 19. Hardened Collapse Function
 
 AMOS conceptual form:
 
-\[
-CollapseAllowed
-=
+## \[ CollapseAllowed
+
 T
-\land
+\\land
 I
-\land
+\\land
 P
-\land
+\\land
 S
-\land
+\\land
 R
-\land
+\\land
 F
 \]
 
@@ -646,9 +644,9 @@ R = regime valid
 F = freshness valid
 ```
 
----
+______________________________________________________________________
 
-# 20. No Forced Collapse
+## 20. No Forced Collapse
 
 Return:
 
@@ -672,9 +670,9 @@ probabilities are uncalibrated
 critical contradiction remains
 ```
 
----
+______________________________________________________________________
 
-# 21. Cheapest Discriminator
+## 21. Cheapest Discriminator
 
 When multiple candidate states survive, prefer:
 
@@ -688,9 +686,9 @@ over:
 collecting more redundant evidence
 ```
 
----
+______________________________________________________________________
 
-# 22. Pillar IV — Constraint Integrity
+## 22. Pillar IV — Constraint Integrity
 
 The native source requires candidate reasoning states to respect structural boundaries.
 
@@ -706,9 +704,9 @@ and:
 MODEL CONSTRAINT SET
 ```
 
----
+______________________________________________________________________
 
-# 23. Constraint Contract
+## 23. Constraint Contract
 
 ```yaml
 QLSConstraint:
@@ -734,9 +732,9 @@ QLSConstraint:
   empirical_status:
 ```
 
----
+______________________________________________________________________
 
-# 24. Constraint Firewall
+## 24. Constraint Firewall
 
 A source-defined QLS constraint is not automatically an empirical law.
 
@@ -754,9 +752,9 @@ CANONICAL CONSTRAINT
 UNIVERSAL SCIENTIFIC CONSTRAINT
 ```
 
----
+______________________________________________________________________
 
-# 25. Model Conflict
+## 25. Model Conflict
 
 If validated observation conflicts with a QLS model constraint:
 
@@ -781,14 +779,14 @@ model failure
 source interpretation
 ```
 
----
+______________________________________________________________________
 
-# 26. Native State Space
+## 26. Native State Space
 
 The QLS mathematical appendix defines:
 
 \[
-x=(C_i,\Omega,H,F,S)
+x=(C_i,\\Omega,H,F,S)
 \]
 
 where the source uses:
@@ -805,38 +803,38 @@ F  = fragmentation
 S  = shock pressure
 ```
 
----
+______________________________________________________________________
 
-# 27. Native Cycle Set
+## 27. Native Cycle Set
 
 The source defines:
 
 \[
-C=\{C_1,C_2,C_3,C_4,C_5,C_6,C_7\}
+C={C_1,C_2,C_3,C_4,C_5,C_6,C_7}
 \]
 
 AMOS stores this as a QLS/TSS-linked source model.
 
----
+______________________________________________________________________
 
-# 28. Native Variable Range
+## 28. Native Variable Range
 
 The source specifies:
 
 \[
-0\le\Omega\le1
+0\\le\\Omega\\le1
 \]
 
 \[
-0\le H\le1
+0\\le H\\le1
 \]
 
 \[
-0\le F\le1
+0\\le F\\le1
 \]
 
 \[
-0\le S\le1
+0\\le S\\le1
 \]
 
 Classification:
@@ -845,9 +843,9 @@ Classification:
 SOURCE_DEFINED_NORMALIZATION
 ```
 
----
+______________________________________________________________________
 
-# 29. Normalization Firewall
+## 29. Normalization Firewall
 
 Normalization to `[0,1]` does not establish measurement comparability.
 
@@ -859,9 +857,9 @@ Normalization to `[0,1]` does not establish measurement comparability.
 
 unless a valid operational crosswalk exists.
 
----
+______________________________________________________________________
 
-# 30. Measurement Contract
+## 30. Measurement Contract
 
 Before a QLS variable is treated empirically:
 
@@ -891,9 +889,9 @@ QLSMeasurement:
   reliability:
 ```
 
----
+______________________________________________________________________
 
-# 31. Overload — Ω
+## 31. Overload — Ω
 
 Native meaning:
 
@@ -910,9 +908,9 @@ SOURCE_DEFINED_CONSTRUCT
 
 until operationalized.
 
----
+______________________________________________________________________
 
-# 32. Cohesion — H
+## 32. Cohesion — H
 
 Native meaning:
 
@@ -927,9 +925,9 @@ AMOS classification:
 SOURCE_DEFINED_CONSTRUCT
 ```
 
----
+______________________________________________________________________
 
-# 33. Fragmentation — F
+## 33. Fragmentation — F
 
 Native meaning:
 
@@ -944,9 +942,9 @@ AMOS classification:
 SOURCE_DEFINED_CONSTRUCT
 ```
 
----
+______________________________________________________________________
 
-# 34. Shock — S
+## 34. Shock — S
 
 Native meaning:
 
@@ -960,20 +958,20 @@ AMOS classification:
 SOURCE_DEFINED_CONSTRUCT
 ```
 
----
+______________________________________________________________________
 
-# 35. Variable Relationship Claims
+## 35. Variable Relationship Claims
 
 The source proposes relations such as:
 
 \[
-\frac{\partial H}{\partial F}<0
+\\frac{\\partial H}{\\partial F}\<0
 \]
 
 and:
 
 \[
-\frac{\partial F}{\partial\Omega}>0
+\\frac{\\partial F}{\\partial\\Omega}>0
 \]
 
 These are retained as:
@@ -984,9 +982,9 @@ SOURCE_DEFINED_RELATIONS
 
 not independently verified general laws.
 
----
+______________________________________________________________________
 
-# 36. Causal Firewall on QLS Relations
+## 36. Causal Firewall on QLS Relations
 
 A directional derivative in a model does not establish causal identification.
 
@@ -998,9 +996,9 @@ EMPIRICAL CAUSAL EFFECT
 
 QLS may encode structural relations, while causal claims require separate causal evidence.
 
----
+______________________________________________________________________
 
-# 37. Source Transition Logic
+## 37. Source Transition Logic
 
 The source defines an ordered cycle progression including:
 
@@ -1022,9 +1020,9 @@ and source-defined reset/re-entry behavior.
 
 These are model transitions.
 
----
+______________________________________________________________________
 
-# 38. Transition Firewall
+## 38. Transition Firewall
 
 ```text
 MODEL-ALLOWED TRANSITION
@@ -1036,9 +1034,9 @@ MODEL-FORBIDDEN TRANSITION
 EMPIRICALLY IMPOSSIBLE TRANSITION
 ```
 
----
+______________________________________________________________________
 
-# 39. Transition Contract
+## 39. Transition Contract
 
 ```yaml
 QLSTransition:
@@ -1062,9 +1060,9 @@ QLSTransition:
   empirical_status:
 ```
 
----
+______________________________________________________________________
 
-# 40. Forbidden States
+## 40. Forbidden States
 
 The source defines certain combinations as inadmissible under its model.
 
@@ -1080,9 +1078,9 @@ not:
 UNIVERSAL_IMPOSSIBILITY
 ```
 
----
+______________________________________________________________________
 
-# 41. Forbidden-State Handling
+## 41. Forbidden-State Handling
 
 If an empirical observation appears to violate a source-defined forbidden state:
 
@@ -1101,9 +1099,9 @@ OBSERVATION
 → DISCARD BECAUSE MODEL DISAGREES
 ```
 
----
+______________________________________________________________________
 
-# 42. QLS Logic Environment
+## 42. QLS Logic Environment
 
 The later QLS-System source lineage expands the scaffold into a broader operating logic environment.
 
@@ -1121,9 +1119,9 @@ INTEGRATION
 
 AMOS preserves this as related source lineage.
 
----
+______________________________________________________________________
 
-# 43. Scaffold vs System
+## 43. Scaffold vs System
 
 ```text
 QLS Scaffold
@@ -1139,9 +1137,9 @@ The relationship is documented in source lineage.
 
 The two identities remain distinct.
 
----
+______________________________________________________________________
 
-# 44. Identity Firewall
+## 44. Identity Firewall
 
 ```text
 QLS
@@ -1165,9 +1163,9 @@ operational environment
 
 into one artifact identity.
 
----
+______________________________________________________________________
 
-# 45. QLS Logical State Types
+## 45. QLS Logical State Types
 
 QLS-System source lineage describes state categories including:
 
@@ -1199,9 +1197,9 @@ QLSLogicalStateType:
     meaning: temporary state during resolution
 ```
 
----
+______________________________________________________________________
 
-# 46. Epistemic Mapping
+## 46. Epistemic Mapping
 
 AMOS does not equate QLS logical-state types with epistemic truth classes.
 
@@ -1229,9 +1227,9 @@ UNKNOWN
 
 epistemically.
 
----
+______________________________________________________________________
 
-# 47. AMOS × QLS Dual Classification
+## 47. AMOS × QLS Dual Classification
 
 ```yaml
 Claim:
@@ -1252,9 +1250,9 @@ Claim:
     - UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 48. Logic Gate
+## 48. Logic Gate
 
 AMOS conceptual QLS gate:
 
@@ -1278,9 +1276,9 @@ REGISTER COMPETING STATES
 PASS / FAIL / HOLD
 ```
 
----
+______________________________________________________________________
 
-# 49. QLS Gate Contract
+## 49. QLS Gate Contract
 
 ```yaml
 QLSGate:
@@ -1318,9 +1316,9 @@ QLSGate:
   receipt_ref:
 ```
 
----
+______________________________________________________________________
 
-# 50. PASS Semantics
+## 50. PASS Semantics
 
 `PASS` means:
 
@@ -1335,9 +1333,9 @@ It does not mean:
 the conclusion is empirically true.
 ```
 
----
+______________________________________________________________________
 
-# 51. FAIL Semantics
+## 51. FAIL Semantics
 
 `FAIL` means at least one load-bearing logical condition is violated.
 
@@ -1355,9 +1353,9 @@ malformed state
 scope incompatibility
 ```
 
----
+______________________________________________________________________
 
-# 52. UNKNOWN Semantics
+## 52. UNKNOWN Semantics
 
 `UNKNOWN` means:
 
@@ -1376,9 +1374,9 @@ UNKNOWN/GAP
 PASS
 ```
 
----
+______________________________________________________________________
 
-# 53. COMPETING Semantics
+## 53. COMPETING Semantics
 
 `COMPETING` means:
 
@@ -1390,9 +1388,9 @@ without sufficient discriminating evidence.
 
 This is a valid endpoint.
 
----
+______________________________________________________________________
 
-# 54. Native QLS Constraint-Audit Protocol
+## 54. Native QLS Constraint-Audit Protocol
 
 The source defines a formal QLS Constraint-Audit Protocol:
 
@@ -1408,9 +1406,9 @@ AMOS classifies QCAP as:
 SOURCE_DEFINED_VALIDATION_PROTOCOL
 ```
 
----
+______________________________________________________________________
 
-# 55. QCAP Native Structure
+## 55. QCAP Native Structure
 
 The source protocol includes checks for:
 
@@ -1432,9 +1430,9 @@ structural drift
 final verdict
 ```
 
----
+______________________________________________________________________
 
-# 56. QCAP Step 1 — Cycle Verification
+## 56. QCAP Step 1 — Cycle Verification
 
 Source intent:
 
@@ -1460,9 +1458,9 @@ evidence
 
 before treating a cycle assignment as empirical.
 
----
+______________________________________________________________________
 
-# 57. QCAP Step 2 — Variable Validation
+## 57. QCAP Step 2 — Variable Validation
 
 Source logic checks:
 
@@ -1484,9 +1482,9 @@ from:
 measurement validity.
 ```
 
----
+______________________________________________________________________
 
-# 58. QCAP Step 3 — Multi-State Validity
+## 58. QCAP Step 3 — Multi-State Validity
 
 Source requirements include:
 
@@ -1510,9 +1508,9 @@ provenance independence check
 conflict check
 ```
 
----
+______________________________________________________________________
 
-# 59. QCAP Step 4 — Constraint Integrity
+## 59. QCAP Step 4 — Constraint Integrity
 
 Source intent:
 
@@ -1529,17 +1527,17 @@ CANON COMPATIBILITY
 EMPIRICAL VALIDITY
 ```
 
----
+______________________________________________________________________
 
-# 60. QCAP Step 5 — Effectiveness Equation
+## 60. QCAP Step 5 — Effectiveness Equation
 
 The source includes the internal alignment expression:
 
 \[
 i=
-\left[
-H(1-\Omega)(1-F)(1-S)
-\right]^{1/4}
+\\left\[
+H(1-\\Omega)(1-F)(1-S)
+\\right\]^{1/4}
 \]
 
 with:
@@ -1554,9 +1552,9 @@ Classification:
 SOURCE_DEFINED_MODEL
 ```
 
----
+______________________________________________________________________
 
-# 61. Effectiveness Equation Firewall
+## 61. Effectiveness Equation Firewall
 
 The existence of the equation does not establish that:
 
@@ -1582,9 +1580,9 @@ error model
 out-of-sample validation
 ```
 
----
+______________________________________________________________________
 
-# 62. Mathematical Status
+## 62. Mathematical Status
 
 The QLS mathematical appendix contains formal expressions.
 
@@ -1604,9 +1602,9 @@ SCIENTIFIC LAW
 EMPIRICALLY VALIDATED MODEL
 ```
 
----
+______________________________________________________________________
 
-# 63. Formalism Firewall
+## 63. Formalism Firewall
 
 ```text
 EQUATION
@@ -1626,9 +1624,9 @@ FORMAL CONSISTENCY
 EXTERNAL VALIDITY
 ```
 
----
+______________________________________________________________________
 
-# 64. QCAP Step 6 — Outcome Constraints
+## 64. QCAP Step 6 — Outcome Constraints
 
 The source uses outcome categories including:
 
@@ -1644,9 +1642,9 @@ Stagnation
 
 AMOS preserves these as source-defined categories when required by dependent artifacts.
 
----
+______________________________________________________________________
 
-# 65. Outcome Firewall
+## 65. Outcome Firewall
 
 ```text
 SOURCE OUTCOME CATEGORY
@@ -1656,9 +1654,9 @@ EXHAUSTIVE REAL-WORLD OUTCOME SPACE
 
 unless separately validated.
 
----
+______________________________________________________________________
 
-# 66. QCAP Step 7 — Structural Drift Audit
+## 66. QCAP Step 7 — Structural Drift Audit
 
 Source intent:
 
@@ -1680,9 +1678,9 @@ MODEL CONSISTENCY AUDIT
 
 rather than factual truth certification.
 
----
+______________________________________________________________________
 
-# 67. QCAP Step 8 — Final Verdict
+## 67. QCAP Step 8 — Final Verdict
 
 The native protocol describes verdicts resembling:
 
@@ -1712,9 +1710,9 @@ QCAPResult:
       one or more critical conditions fail
 ```
 
----
+______________________________________________________________________
 
-# 68. QCAP vs AMOS Validation
+## 68. QCAP vs AMOS Validation
 
 ```text
 QCAP VALID
@@ -1738,9 +1736,9 @@ regime validity
 causal licensing where relevant
 ```
 
----
+______________________________________________________________________
 
-# 69. QLS and Truth
+## 69. QLS and Truth
 
 A canonical syllogism illustrates the boundary:
 
@@ -1760,9 +1758,9 @@ P1
 
 is true.
 
----
+______________________________________________________________________
 
-# 70. Premise Contract
+## 70. Premise Contract
 
 ```yaml
 QLSPremise:
@@ -1790,23 +1788,23 @@ QLSPremise:
   load_bearing:
 ```
 
----
+______________________________________________________________________
 
-# 71. Weakest-Premise Ceiling
+## 71. Weakest-Premise Ceiling
 
 For any derived conclusion:
 
 \[
 Conf(C)
-\le
-\min_i Conf(P_i)
+\\le
+\\min_i Conf(P_i)
 \]
 
 for load-bearing premises unless independent revalidation exists.
 
----
+______________________________________________________________________
 
-# 72. Premise Failure
+## 72. Premise Failure
 
 If one premise fails:
 
@@ -1820,9 +1818,9 @@ invalidate dependent conclusions
 
 Do not invalidate unrelated branches.
 
----
+______________________________________________________________________
 
-# 73. Local Invalidation
+## 73. Local Invalidation
 
 ```text
 FAILED PREMISE
@@ -1834,9 +1832,9 @@ DEPENDENT CONCLUSION
 
 Only descendants are invalidated.
 
----
+______________________________________________________________________
 
-# 74. QLS Dependency Graph
+## 74. QLS Dependency Graph
 
 ```yaml
 QLSDependencyGraph:
@@ -1854,9 +1852,9 @@ QLSDependencyGraph:
   invalidation_edges:
 ```
 
----
+______________________________________________________________________
 
-# 75. Scope Binding
+## 75. Scope Binding
 
 Every significant QLS claim should carry:
 
@@ -1876,9 +1874,9 @@ measurement method
 assumptions
 ```
 
----
+______________________________________________________________________
 
-# 76. Scope Firewall
+## 76. Scope Firewall
 
 ```text
 LOGIC VALID IN MODEL A
@@ -1894,9 +1892,9 @@ VALID AT SCALE S1
 VALID AT SCALE S2
 ```
 
----
+______________________________________________________________________
 
-# 77. Regime Binding
+## 77. Regime Binding
 
 A reasoning structure may become invalid after:
 
@@ -1916,9 +1914,9 @@ policy change
 architectural epoch change
 ```
 
----
+______________________________________________________________________
 
-# 78. QLS Epoch
+## 78. QLS Epoch
 
 ```yaml
 QLSEpoch:
@@ -1938,9 +1936,9 @@ QLSEpoch:
   invalidators:
 ```
 
----
+______________________________________________________________________
 
-# 79. Freshness
+## 79. Freshness
 
 ```yaml
 QLSFreshness:
@@ -1958,9 +1956,9 @@ QLSFreshness:
   revalidation_trigger:
 ```
 
----
+______________________________________________________________________
 
-# 80. Provenance
+## 80. Provenance
 
 QLS conclusions inherit provenance from their load-bearing premises.
 
@@ -1982,9 +1980,9 @@ QLSProvenance:
   correlation_risk:
 ```
 
----
+______________________________________________________________________
 
-# 81. Provenance Independence
+## 81. Provenance Independence
 
 Multiple documents repeating the same originating claim do not become independent evidence.
 
@@ -1994,9 +1992,9 @@ REPETITION
 INDEPENDENCE
 ```
 
----
+______________________________________________________________________
 
-# 82. Sybil Hardening
+## 82. Sybil Hardening
 
 If:
 
@@ -2016,9 +2014,9 @@ B + C + D
 
 do not provide three independent confirmations.
 
----
+______________________________________________________________________
 
-# 83. Claim Typing
+## 83. Claim Typing
 
 AMOS applies:
 
@@ -2040,22 +2038,22 @@ before QLS reasoning.
 
 This prevents logic from treating incompatible evidence types as equivalent.
 
----
+______________________________________________________________________
 
-# 84. QLS × Claim Class
+## 84. QLS × Claim Class
 
-| Claim Class | QLS Function |
-|---|---|
-| SOURCE_CLAIM | test consistency, not truth |
-| OBSERVATION | test compatibility and contradiction |
-| DERIVED | audit premises and inference |
-| MODEL | test internal structure |
-| DECISION | test preconditions and constraints |
-| UNKNOWN | preserve unresolved state |
+| Claim Class  | QLS Function                         |
+| ------------ | ------------------------------------ |
+| SOURCE_CLAIM | test consistency, not truth          |
+| OBSERVATION  | test compatibility and contradiction |
+| DERIVED      | audit premises and inference         |
+| MODEL        | test internal structure              |
+| DECISION     | test preconditions and constraints   |
+| UNKNOWN      | preserve unresolved state            |
 
----
+______________________________________________________________________
 
-# 85. Competing Hypotheses
+## 85. Competing Hypotheses
 
 QLS should preserve:
 
@@ -2071,9 +2069,9 @@ when all remain logically admissible.
 
 Do not collapse merely because one is rhetorically simpler.
 
----
+______________________________________________________________________
 
-# 86. Competing Hypothesis Contract
+## 86. Competing Hypothesis Contract
 
 ```yaml
 QLSHypothesisSet:
@@ -2096,9 +2094,9 @@ QLSHypothesisSet:
     - UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 87. Contradiction vs Competition
+## 87. Contradiction vs Competition
 
 ```text
 H1: Cause is A.
@@ -2114,9 +2112,9 @@ A and B could jointly contribute.
 
 Typing matters.
 
----
+______________________________________________________________________
 
-# 88. Causal Firewall
+## 88. Causal Firewall
 
 QLS is a logic layer.
 
@@ -2138,9 +2136,9 @@ A CAUSED B
 
 Causal claims must traverse the appropriate causal layer.
 
----
+______________________________________________________________________
 
-# 89. Structural Similarity Firewall
+## 89. Structural Similarity Firewall
 
 ```text
 SYSTEM X resembles SYSTEM Y
@@ -2164,9 +2162,9 @@ MODEL
 
 unless independently validated.
 
----
+______________________________________________________________________
 
-# 90. Probability Firewall
+## 90. Probability Firewall
 
 A QLS weight:
 
@@ -2190,9 +2188,9 @@ depending on binding.
 
 Do not assume calibrated probability without an explicit contract.
 
----
+______________________________________________________________________
 
-# 91. Probability Contract
+## 91. Probability Contract
 
 ```yaml
 QLSProbability:
@@ -2214,9 +2212,9 @@ QLSProbability:
   provenance:
 ```
 
----
+______________________________________________________________________
 
-# 92. Determinism Firewall
+## 92. Determinism Firewall
 
 The source uses strong language about deterministic reasoning.
 
@@ -2238,9 +2236,9 @@ PERFECT FORECASTING
 ZERO UNCERTAINTY
 ```
 
----
+______________________________________________________________________
 
-# 93. Drift-Proof Firewall
+## 93. Drift-Proof Firewall
 
 A protocol cannot be called empirically drift-proof solely because the documentation says so.
 
@@ -2260,9 +2258,9 @@ regression evidence
 versioned validation receipt
 ```
 
----
+______________________________________________________________________
 
-# 94. Runtime Status
+## 94. Runtime Status
 
 Current status:
 
@@ -2284,9 +2282,9 @@ cognitive-matrix artifact
 
 not demonstrated executable enforcement.
 
----
+______________________________________________________________________
 
-# 95. Runtime Target
+## 95. Runtime Target
 
 Conceptual target:
 
@@ -2310,9 +2308,9 @@ COLLAPSE OR HOLD
 RECEIPT
 ```
 
----
+______________________________________________________________________
 
-# 96. Runtime Contract
+## 96. Runtime Contract
 
 ```yaml
 QLSRuntimeContract:
@@ -2346,9 +2344,9 @@ QLSRuntimeContract:
   receipt:
 ```
 
----
+______________________________________________________________________
 
-# 97. Fail-Closed Semantics
+## 97. Fail-Closed Semantics
 
 On unresolved critical dependency:
 
@@ -2362,9 +2360,9 @@ must not silently become:
 PASS
 ```
 
----
+______________________________________________________________________
 
-# 98. Negative Cases
+## 98. Negative Cases
 
 QLS implementation should eventually test:
 
@@ -2394,9 +2392,9 @@ missing provenance
 unauthorized rule mutation
 ```
 
----
+______________________________________________________________________
 
-# 99. Adversarial Validation
+## 99. Adversarial Validation
 
 For consequential conclusions:
 
@@ -2426,9 +2424,9 @@ premature collapse
 stronger competing hypothesis
 ```
 
----
+______________________________________________________________________
 
-# 100. Circularity Check
+## 100. Circularity Check
 
 ```text
 P1 depends on C
@@ -2444,9 +2442,9 @@ CIRCULAR SUPPORT
 VALID CONFIRMATION
 ```
 
----
+______________________________________________________________________
 
-# 101. Hidden Dependency
+## 101. Hidden Dependency
 
 Two premises may appear independent while sharing:
 
@@ -2462,9 +2460,9 @@ same upstream inference
 
 This must be represented in provenance topology.
 
----
+______________________________________________________________________
 
-# 102. Sensitivity
+## 102. Sensitivity
 
 For any QLS conclusion identify:
 
@@ -2478,9 +2476,9 @@ capable of flipping the result.
 
 Test it first.
 
----
+______________________________________________________________________
 
-# 103. Sensitivity Contract
+## 103. Sensitivity Contract
 
 ```yaml
 QLSSensitivity:
@@ -2501,9 +2499,9 @@ QLSSensitivity:
     - CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
-# 104. Collapse Sensitivity
+## 104. Collapse Sensitivity
 
 If a conclusion changes when:
 
@@ -2521,9 +2519,9 @@ then it is fragile.
 
 AMOS classification should reflect that.
 
----
+______________________________________________________________________
 
-# 105. Proof Capsule
+## 105. Proof Capsule
 
 Important QLS conclusions should carry:
 
@@ -2561,9 +2559,9 @@ QLSProofCapsule:
   result:
 ```
 
----
+______________________________________________________________________
 
-# 106. Proof Reuse
+## 106. Proof Reuse
 
 A QLS proof capsule may be reused only while:
 
@@ -2581,9 +2579,9 @@ evidence remains fresh
 contradictions remain absent
 ```
 
----
+______________________________________________________________________
 
-# 107. Selective Invalidation
+## 107. Selective Invalidation
 
 If one capsule premise expires:
 
@@ -2593,9 +2591,9 @@ invalidate dependent conclusions only.
 
 Preserve all unaffected capsules.
 
----
+______________________________________________________________________
 
-# 108. H/M/L Fractal Retrieval
+## 108. H/M/L Fractal Retrieval
 
 ## H — QLS Domain
 
@@ -2651,9 +2649,9 @@ exact premise
 
 Load native source text only when exact wording materially changes the result.
 
----
+______________________________________________________________________
 
-# 109. Retrieval Rules
+## 109. Retrieval Rules
 
 ```yaml
 "what is QLS?":
@@ -2696,9 +2694,9 @@ Load native source text only when exact wording materially changes the result.
     - required_claim_data
 ```
 
----
+______________________________________________________________________
 
-# 110. Adaptive Complexity
+## 110. Adaptive Complexity
 
 ```text
 C0
@@ -2717,9 +2715,9 @@ C4
 high-stakes multi-regime or governance reasoning
 ```
 
----
+______________________________________________________________________
 
-# 111. QLS Fast Path
+## 111. QLS Fast Path
 
 Local reasoning may use the fast path only if:
 
@@ -2739,9 +2737,9 @@ no load-bearing conflict exists
 stakes are reversible
 ```
 
----
+______________________________________________________________________
 
-# 112. Escalation Triggers
+## 112. Escalation Triggers
 
 Escalate if:
 
@@ -2765,9 +2763,9 @@ governance impact exists
 action is irreversible
 ```
 
----
+______________________________________________________________________
 
-# 113. Decision Governance
+## 113. Decision Governance
 
 For consequential decisions:
 
@@ -2789,9 +2787,9 @@ QLS PASS
 AUTHORIZATION
 ```
 
----
+______________________________________________________________________
 
-# 114. Authority Firewall
+## 114. Authority Firewall
 
 ```text
 CAPABILITY
@@ -2811,9 +2809,9 @@ LOGGED
 APPROVED
 ```
 
----
+______________________________________________________________________
 
-# 115. Reversible Action
+## 115. Reversible Action
 
 Under unresolved uncertainty, prefer:
 
@@ -2831,9 +2829,9 @@ actions.
 
 QLS should not force binary action merely because a dominant hypothesis exists.
 
----
+______________________________________________________________________
 
-# 116. Failure Recovery
+## 116. Failure Recovery
 
 When a logical path fails:
 
@@ -2851,9 +2849,9 @@ reroute if new evidence exists
 
 Do not globally recompute unless required.
 
----
+______________________________________________________________________
 
-# 117. QLS Rollback Contract
+## 117. QLS Rollback Contract
 
 ```yaml
 QLSRollback:
@@ -2873,9 +2871,9 @@ QLSRollback:
   receipt:
 ```
 
----
+______________________________________________________________________
 
-# 118. No Repeat Without Change
+## 118. No Repeat Without Change
 
 A failed QLS inference path should not be retried unchanged.
 
@@ -2895,9 +2893,9 @@ corrected contradiction
 changed threshold
 ```
 
----
+______________________________________________________________________
 
-# 119. QLS Evidence Topology
+## 119. QLS Evidence Topology
 
 ```yaml
 QLSEvidenceTopology:
@@ -2923,9 +2921,9 @@ QLSEvidenceTopology:
   derived_nodes:
 ```
 
----
+______________________________________________________________________
 
-# 120. Confidence Ceiling
+## 120. Confidence Ceiling
 
 Logical fluency cannot raise confidence above the weakest load-bearing premise.
 
@@ -2935,9 +2933,9 @@ BEAUTIFUL ARGUMENT
 STRONG EVIDENCE
 ```
 
----
+______________________________________________________________________
 
-# 121. Confidence Example
+## 121. Confidence Example
 
 ```text
 Premise 1: 0.95
@@ -2955,9 +2953,9 @@ Conclusion confidence ceiling
 0.41
 ```
 
----
+______________________________________________________________________
 
-# 122. Worked Example — Contradiction
+## 122. Worked Example — Contradiction
 
 Claims:
 
@@ -2987,9 +2985,9 @@ If yes and C3/C5 are mutually exclusive:
 CONTRADICTION
 ```
 
----
+______________________________________________________________________
 
-# 123. Worked Example — Apparent Contradiction
+## 123. Worked Example — Apparent Contradiction
 
 ```text
 A is cohesive nationally.
@@ -3005,9 +3003,9 @@ NON_CONFLICT
 
 because scope differs.
 
----
+______________________________________________________________________
 
-# 124. Worked Example — Multi-State
+## 124. Worked Example — Multi-State
 
 Evidence permits:
 
@@ -3029,9 +3027,9 @@ COMPETING
 
 not forced collapse.
 
----
+______________________________________________________________________
 
-# 125. Worked Example — Threshold
+## 125. Worked Example — Threshold
 
 Weights:
 
@@ -3071,9 +3069,9 @@ If unresolved:
 H1 = CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
-# 126. Worked Example — False Premise
+## 126. Worked Example — False Premise
 
 ```text
 P1: All institutions with high cohesion expand.
@@ -3093,9 +3091,9 @@ C
 
 cannot be promoted beyond the confidence of `P1`.
 
----
+______________________________________________________________________
 
-# 127. Worked Example — Canon Constraint
+## 127. Worked Example — Canon Constraint
 
 Suppose a source-defined QLS rule forbids transition:
 
@@ -3115,9 +3113,9 @@ not:
 IMPOSSIBLE IN REALITY
 ```
 
----
+______________________________________________________________________
 
-# 128. Worked Example — Regime Shift
+## 128. Worked Example — Regime Shift
 
 A previously valid rule assumes:
 
@@ -3133,9 +3131,9 @@ architecture B.
 
 Then old QLS conclusions must be revalidated.
 
----
+______________________________________________________________________
 
-# 129. Worked Example — Shared Source
+## 129. Worked Example — Shared Source
 
 Three reports support the same claim.
 
@@ -3149,9 +3147,9 @@ Independence count:
 
 not three.
 
----
+______________________________________________________________________
 
-# 130. Worked Example — QCAP
+## 130. Worked Example — QCAP
 
 Input:
 
@@ -3187,15 +3185,15 @@ provenance
 causal claims
 ```
 
----
+______________________________________________________________________
 
-# 131. Worked Example — Mathematical Model
+## 131. Worked Example — Mathematical Model
 
 Expression:
 
 \[
 i=
-[H(1-\Omega)(1-F)(1-S)]^{1/4}
+[H(1-\\Omega)(1-F)(1-S)]^{1/4}
 \]
 
 may be internally computable.
@@ -3212,9 +3210,9 @@ not:
 EMPIRICAL EFFECTIVENESS
 ```
 
----
+______________________________________________________________________
 
-# 132. Source Claim Preservation
+## 132. Source Claim Preservation
 
 Source statements describing QLS as:
 
@@ -3238,9 +3236,9 @@ SOURCE_CLAIM
 
 unless an independent validation layer promotes them.
 
----
+______________________________________________________________________
 
-# 133. External Validation Requirement
+## 133. External Validation Requirement
 
 Promotion of strong QLS empirical claims would require, depending on claim type:
 
@@ -3264,9 +3262,9 @@ out-of-domain testing
 formal proof where theoremhood is claimed
 ```
 
----
+______________________________________________________________________
 
-# 134. Internal vs External Validity
+## 134. Internal vs External Validity
 
 ```text
 INTERNAL LOGICAL CONSISTENCY
@@ -3282,27 +3280,27 @@ are separate dimensions.
 
 A framework can score high on one and remain unknown on the other.
 
----
+______________________________________________________________________
 
-# 135. QLS Validation Matrix
+## 135. QLS Validation Matrix
 
-| Dimension | Current State |
-|---|---|
-| Source presence | VERIFIED_SOURCE_PRESENCE |
-| Source identity | ESTABLISHED |
-| Four-pillar structure | SOURCE_GROUNDED |
-| Mathematical formalism | SOURCE_DEFINED_MODEL |
-| QCAP existence | SOURCE_GROUNDED |
-| Runtime implementation | NOT_ESTABLISHED |
-| Empirical calibration | NOT_ESTABLISHED |
-| Universal applicability | NOT_ESTABLISHED |
-| Fixed collapse threshold validity | NOT_ESTABLISHED |
-| Cross-scale equivalence | NOT_ESTABLISHED |
-| Deterministic prediction | NOT_ESTABLISHED |
+| Dimension                         | Current State            |
+| --------------------------------- | ------------------------ |
+| Source presence                   | VERIFIED_SOURCE_PRESENCE |
+| Source identity                   | ESTABLISHED              |
+| Four-pillar structure             | SOURCE_GROUNDED          |
+| Mathematical formalism            | SOURCE_DEFINED_MODEL     |
+| QCAP existence                    | SOURCE_GROUNDED          |
+| Runtime implementation            | NOT_ESTABLISHED          |
+| Empirical calibration             | NOT_ESTABLISHED          |
+| Universal applicability           | NOT_ESTABLISHED          |
+| Fixed collapse threshold validity | NOT_ESTABLISHED          |
+| Cross-scale equivalence           | NOT_ESTABLISHED          |
+| Deterministic prediction          | NOT_ESTABLISHED          |
 
----
+______________________________________________________________________
 
-# 136. Ingestion Rule
+## 136. Ingestion Rule
 
 ```yaml
 AMOS_CANON_INGESTION_RULE:
@@ -3356,9 +3354,9 @@ AMOS_CANON_INGESTION_RULE:
       - NEVER_INVENT_CANON
 ```
 
----
+______________________________________________________________________
 
-# 137. Contract Discipline
+## 137. Contract Discipline
 
 ```text
 typed claims
@@ -3376,9 +3374,9 @@ typed claims
 · rollback basin before mutation
 ```
 
----
+______________________________________________________________________
 
-# 138. Cross-Plane Bindings
+## 138. Cross-Plane Bindings
 
 Target/native integration references:
 
@@ -3404,9 +3402,9 @@ COGNITIVE_MATRIX
 
 No reference alone proves runtime implementation.
 
----
+______________________________________________________________________
 
-# 139. Framework Relations
+## 139. Framework Relations
 
 Source QLS material relates QLS to frameworks including:
 
@@ -3430,9 +3428,9 @@ CCI
 
 These relations are source-corpus architecture.
 
----
+______________________________________________________________________
 
-# 140. QLS × TSS
+## 140. QLS × TSS
 
 Source relation:
 
@@ -3451,9 +3449,9 @@ AMOS status:
 SOURCE_DEFINED_RELATION
 ```
 
----
+______________________________________________________________________
 
-# 141. QLS × TPE
+## 141. QLS × TPE
 
 Source relation:
 
@@ -3468,9 +3466,9 @@ and uncertainty structure.
 
 Prediction validity still requires evidence beyond logical consistency.
 
----
+______________________________________________________________________
 
-# 142. QLS × UCP
+## 142. QLS × UCP
 
 Source relation:
 
@@ -3481,9 +3479,9 @@ interpretation of alignment signals.
 
 AMOS does not infer empirical alignment validity from this relationship alone.
 
----
+______________________________________________________________________
 
-# 143. QLS × ULF
+## 143. QLS × ULF
 
 Source relation:
 
@@ -3504,9 +3502,9 @@ EMPIRICAL LAW
 
 unless separately established.
 
----
+______________________________________________________________________
 
-# 144. QLS × QCLA
+## 144. QLS × QCLA
 
 Source relation:
 
@@ -3522,9 +3520,9 @@ causal consistency
 
 QLS should not substitute for causal validation.
 
----
+______________________________________________________________________
 
-# 145. QLS × UBI
+## 145. QLS × UBI
 
 The source draws conceptual relationships between logical structure and biological/cognitive constraints.
 
@@ -3536,9 +3534,9 @@ SOURCE_DEFINED_CROSS_DOMAIN_MODEL
 
 not verified biological equivalence.
 
----
+______________________________________________________________________
 
-# 146. QLS × PSI
+## 146. QLS × PSI
 
 Source relation:
 
@@ -3549,9 +3547,9 @@ bound admissible system reasoning.
 
 Specific empirical claims require external planetary evidence.
 
----
+______________________________________________________________________
 
-# 147. QLS × CCI
+## 147. QLS × CCI
 
 Source relation:
 
@@ -3562,9 +3560,9 @@ of civilizational models.
 
 Structural recurrence does not prove universal civilizational laws.
 
----
+______________________________________________________________________
 
-# 148. QLS RSCF State
+## 148. QLS RSCF State
 
 ```yaml
 RSCF:
@@ -3632,9 +3630,9 @@ RSCF:
     NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 149. Promotion Gate — Canon
+## 149. Promotion Gate — Canon
 
 - [x] substantive native source located
 - [x] primary QLS identity located
@@ -3648,9 +3646,9 @@ RSCF:
 - [ ] contradictory QLS source variants reconciled or marked COMPETING
 - [ ] final canonical authority receipt issued
 
----
+______________________________________________________________________
 
-# 150. Promotion Gate — Runtime
+## 150. Promotion Gate — Runtime
 
 - [ ] executable QLS schema implemented
 - [ ] contradiction engine implemented
@@ -3665,9 +3663,9 @@ RSCF:
 - [ ] rollback demonstrated
 - [ ] governance authorization bound
 
----
+______________________________________________________________________
 
-# 151. Critical Gaps
+## 151. Critical Gaps
 
 ```yaml
 gaps:
@@ -3717,9 +3715,9 @@ gaps:
     state: NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 152. Canonical Capsule
+## 152. Canonical Capsule
 
 ```yaml
 QLS_CANONICAL_CAPSULE:
@@ -3815,9 +3813,9 @@ QLS_CANONICAL_CAPSULE:
       NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 153. Proof Capsule
+## 153. Proof Capsule
 
 ```yaml
 PROOF_CAPSULE:
@@ -3894,9 +3892,9 @@ PROOF_CAPSULE:
       UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 154. Final Canonical Statement
+## 154. Final Canonical Statement
 
 AMOS × QLS represents the source-grounded logic architecture:
 
@@ -4007,15 +4005,15 @@ DO NOT INVENT CANON.
 DO NOT FORCE COLLAPSE.
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|AMOS MOC]]
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[25_COGNITIVE_MATRIX/AMOS_X_QLS_QCLA_MATRIX|AMOS_X_QLS_QCLA_MATRIX]] · [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]
 
----
+______________________________________________________________________
 
 RSCF-NODE
 
@@ -4033,37 +4031,36 @@ canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
 
 RSCF-RELATIONS:
 
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
-  - GOVERNED_BY: [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- GOVERNED_BY: [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
 
-  - SOURCE_BINDING: `QUANTUM_LOGIC_SCAFFOLD`
+- SOURCE_BINDING: `QUANTUM_LOGIC_SCAFFOLD`
 
-  - RELATED_SOURCE_LINEAGE: `QUANTUM_LOGIC_SYSTEM`
+- RELATED_SOURCE_LINEAGE: `QUANTUM_LOGIC_SYSTEM`
 
-  - BINDS: [[25_COGNITIVE_MATRIX/AMOS_X_QLS_QCLA_MATRIX|AMOS_X_QLS_QCLA_MATRIX]]
+- BINDS: [[25_COGNITIVE_MATRIX/AMOS_X_QLS_QCLA_MATRIX|AMOS_X_QLS_QCLA_MATRIX]]
 
-  - RELATED_TO: `TSS`
+- RELATED_TO: `TSS`
 
-  - RELATED_TO: `TPE`
+- RELATED_TO: `TPE`
 
-  - RELATED_TO: `UCP`
+- RELATED_TO: `UCP`
 
-  - RELATED_TO: `ULF`
+- RELATED_TO: `ULF`
 
-  - RELATED_TO: `QCLA`
+- RELATED_TO: `QCLA`
 
-  - RELATED_TO: UBI
+- RELATED_TO: UBI
 
-  - RELATED_TO: `PSI`
+- RELATED_TO: `PSI`
 
-  - RELATED_TO: `CCI`
+- RELATED_TO: `CCI`
 
-  - INDEXED_BY: [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]
+- INDEXED_BY: [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]
 
----
+______________________________________________________________________
 
 **MOC:** [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]
-

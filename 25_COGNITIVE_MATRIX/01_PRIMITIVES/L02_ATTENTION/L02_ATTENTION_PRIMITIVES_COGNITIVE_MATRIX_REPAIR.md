@@ -2,16 +2,16 @@
 type: cognitive
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION
 tags:
-- amos
-- cognitive-matrix
-- matrix/l02
-- attention
-- repair
-- recovery
-- rscf
-- hml
-- governance
-- domain/cognitive-matrix
+  - amos
+  - cognitive-matrix
+  - matrix/l02
+  - attention
+  - repair
+  - recovery
+  - rscf
+  - hml
+  - governance
+  - domain/cognitive-matrix
 title: L02_ATTENTION — REPAIR
 origin_architect: Trang Phan
 status: MODEL_SPECIFICATION / SOURCE-BOUNDED / UNVALIDATED
@@ -34,9 +34,9 @@ rscf:
 
 > **Canon boundary:** available L02 material supports attention allocation and budgeting of scarce reasoning/observation resources. The repair architecture below is an AMOS-aligned model for restoring corrupted attention-allocation state. It is not asserted as recovered canonical L02 repair logic or as an implemented runtime.
 
----
+______________________________________________________________________
 
-# 0. Repair Contract
+## 0. Repair Contract
 
 `L02_ATTENTION` repair restores a valid attention-allocation state after allocation, prioritization, focus, resource, dependency, provenance, scope, regime, freshness, H/M/L, or governance integrity has degraded.
 
@@ -59,9 +59,9 @@ LOCAL FAILURE
 GLOBAL INVALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 1. Source / Canon References
+## 1. Source / Canon References
 
 ## 1.1 Source-supported semantic core
 
@@ -114,20 +114,20 @@ proposal/commit separation
 
 Alignment does not prove canonical derivation.
 
----
+______________________________________________________________________
 
-# 2. Definition and Scope
+## 2. Definition and Scope
 
 ## 2.1 Definition
 
 An attention-repair operation is a bounded transformation:
 
-[
+\[
 Repair:
-(A_{bad}, E, D, C, P)
-\rightarrow
-(A_{candidate}, R)
-]
+(A\_{bad}, E, D, C, P)
+\\rightarrow
+(A\_{candidate}, R)
+\]
 
 where:
 
@@ -177,9 +177,9 @@ authority expansion
 irreversible execution
 ```
 
----
+______________________________________________________________________
 
-# 3. Typed Inputs
+## 3. Typed Inputs
 
 ```yaml
 AttentionRepairInput:
@@ -233,9 +233,9 @@ AttentionRepairInput:
     type: RepairEvent[]
 ```
 
----
+______________________________________________________________________
 
-# 4. Typed Outputs
+## 4. Typed Outputs
 
 ```yaml
 AttentionRepairOutput:
@@ -297,9 +297,9 @@ REPAIRED_CANDIDATE
 COMMITTED_REPAIR
 ```
 
----
+______________________________________________________________________
 
-# 5. State Variables
+## 5. State Variables
 
 ```text
 A_t        = current attention state
@@ -324,9 +324,9 @@ Val_t      = validator state
 Gap_t      = unresolved repair gaps
 ```
 
----
+______________________________________________________________________
 
-# 6. Repair Operators
+## 6. Repair Operators
 
 Candidate repair operators:
 
@@ -376,9 +376,9 @@ TERMINATE_REPAIR()
 
 These operator names are `AMOS_MODEL`.
 
----
+______________________________________________________________________
 
-# 7. Repair Equations
+## 7. Repair Equations
 
 ## 7.1 Minimal invalidation
 
@@ -386,83 +386,81 @@ Let (x) be an invalid premise/state node and (Desc(x)) its actual dependent desc
 
 Candidate invalidation:
 
-[
-I(x)={x}\cup Desc(x)
-]
+\[
+I(x)={x}\\cup Desc(x)
+\]
 
 not:
 
-[
+\[
 I(x)=EntireAttentionState
-]
+\]
 
 unless dependency evidence requires global invalidation.
 
----
+______________________________________________________________________
 
 ## 7.2 Repair objective
 
 Conceptually:
 
-[
-A^*
-===
+## \[ A^\*
 
-\arg\min_{A'}
+\\arg\\min\_{A'}
 RepairCost(A,A')
-]
+\]
 
 subject to:
 
-[
+\[
 RequiredInvariants(A') = TRUE
-]
+\]
 
 and:
 
-[
+\[
 PreserveValidState(A,A')
-]
+\]
 
 and:
 
-[
-ResourceUse(A') \le Budget
-]
+\[
+ResourceUse(A') \\le Budget
+\]
 
 This is an architectural optimization model, not a canonical AMOS equation.
 
----
+______________________________________________________________________
 
 ## 7.3 Retry condition
 
 A failed repair path should only be retried if:
 
-[
+\[
 ChangedEvidence
-\lor
+\\lor
 ChangedState
-\lor
+\\lor
 ChangedMethod
-\lor
+\\lor
 ChangedConstraint
-]
+\]
 
 is true.
 
 Thus:
 
-[
+\[
 SamePath
-\land
+\\land
 SameState
-\land
+\\land
 SameEvidence
-\Rightarrow
+\\Rightarrow
 NoBlindRetry
-]
+\]
 
----
+______________________________________________________________________
 
 ## 7.4 Confidence after repair
 
@@ -470,17 +468,17 @@ Repair cannot manufacture confidence.
 
 For repaired conclusion (C'):
 
-[
+\[
 Conf(C')
-\le
-\min_j Conf(P_j)
-]
+\\le
+\\min_j Conf(P_j)
+\]
 
 for its unresolved load-bearing premises unless independent revalidation changes the evidence graph.
 
----
+______________________________________________________________________
 
-# 8. Repair Invariants
+## 8. Repair Invariants
 
 ```text
 L02-REP-INV-001
@@ -538,9 +536,9 @@ L02-REP-INV-018
 Repair confidence cannot exceed surviving load-bearing evidence.
 ```
 
----
+______________________________________________________________________
 
-# 9. Dependencies
+## 9. Dependencies
 
 ```yaml
 dependencies:
@@ -577,9 +575,9 @@ dependencies:
     - authority_state
 ```
 
----
+______________________________________________________________________
 
-# 10. H/M/L Applicability
+## 10. H/M/L Applicability
 
 ## H — Governing repair
 
@@ -597,7 +595,7 @@ governance boundary failure
 
 H repair should be conservative because downstream fan-out may be large.
 
----
+______________________________________________________________________
 
 ## M — Subsystem repair
 
@@ -617,7 +615,7 @@ Typical question:
 
 > Which allocation decision produced the subsystem failure?
 
----
+______________________________________________________________________
 
 ## L — Local repair
 
@@ -641,9 +639,9 @@ REPAIR AT THE LOWEST SUFFICIENT LEVEL.
 
 Escalate upward only when dependency closure requires it.
 
----
+______________________________________________________________________
 
-# 11. Control-Plane Requirements
+## 11. Control-Plane Requirements
 
 L02 repair may diagnose and propose.
 
@@ -677,9 +675,9 @@ AUTHORIZED ROLLBACK
 
 Commit-time validation should re-check material mutable conditions before durable repair.
 
----
+______________________________________________________________________
 
-# 12. Agents
+## 12. Agents
 
 Candidate roles:
 
@@ -701,9 +699,9 @@ DIFFERENT AGENT
 INDEPENDENT PROVENANCE
 ```
 
----
+______________________________________________________________________
 
-# 13. Skills
+## 13. Skills
 
 Potential supporting AMOS capabilities include:
 
@@ -722,9 +720,9 @@ RSCF Modeler
 
 These are capability mappings, not proof of runtime invocation.
 
----
+______________________________________________________________________
 
-# 14. Repair Workflow
+## 14. Repair Workflow
 
 ```text
 FAILURE SIGNAL
@@ -769,9 +767,9 @@ RESUME     REROUTE /
            TERMINATE
 ```
 
----
+______________________________________________________________________
 
-# 15. Protocols
+## 15. Protocols
 
 Candidate repair protocol family:
 
@@ -793,9 +791,9 @@ ATTENTION_RESUME_REQUEST
 
 Canonical names and schemas remain `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
-# 16. Evidence / Provenance
+## 16. Evidence / Provenance
 
 Every consequential repair should preserve:
 
@@ -864,9 +862,9 @@ ROLLED_BACK
 
 An attempted repair must never be recorded as completed merely because execution began.
 
----
+______________________________________________________________________
 
-# 17. Uncertainty and Confidence Ceiling
+## 17. Uncertainty and Confidence Ceiling
 
 Repair uncertainty should be decomposed:
 
@@ -903,9 +901,9 @@ repair mechanism
 post-repair validation
 ```
 
----
+______________________________________________________________________
 
-# 18. Failure Modes
+## 18. Failure Modes
 
 Repair-specific failure modes include:
 
@@ -935,9 +933,9 @@ cosmetic repair
 silent regression
 ```
 
----
+______________________________________________________________________
 
-# 19. Repair / Recovery Strategies
+## 19. Repair / Recovery Strategies
 
 ## 19.1 Priority order
 
@@ -990,9 +988,9 @@ NO METHOD CHANGE
 DO NOT REPEAT
 ```
 
----
+______________________________________________________________________
 
-# 20. Tests / Validators
+## 20. Tests / Validators
 
 Required repair validators:
 
@@ -1065,9 +1063,9 @@ Adversarial cases:
 
 Tests remain `UNEXECUTED` until actual evidence exists.
 
----
+______________________________________________________________________
 
-# 21. Falsifiers
+## 21. Falsifiers
 
 This repair contract must be revised if direct evidence establishes that:
 
@@ -1089,9 +1087,9 @@ Executable runtime evidence falsifies the modeled repair lifecycle.
 The source-defined attention primitive does not include resource allocation.
 ```
 
----
+______________________________________________________________________
 
-# 22. Gap Matrix
+## 22. Gap Matrix
 
 ```yaml
 gap_matrix:
@@ -1169,9 +1167,9 @@ gap_matrix:
     status: UNKNOWN_GAP
 ```
 
----
+______________________________________________________________________
 
-# 23. RSCF Completion State
+## 23. RSCF Completion State
 
 ```yaml
 rscf:
@@ -1265,9 +1263,9 @@ rscf:
     executed_validation: CRITICAL_GAP
 ```
 
----
+______________________________________________________________________
 
-# 24. Completion State
+## 24. Completion State
 
 ```yaml
 completion_state:
@@ -1345,9 +1343,9 @@ completion_state:
     MODEL
 ```
 
----
+______________________________________________________________________
 
-# 25. Hard Boundaries
+## 25. Hard Boundaries
 
 ```text
 PLACEHOLDER != IMPLEMENTED
@@ -1387,9 +1385,9 @@ REPAIRED MODEL != VALIDATED RUNTIME
 DOCUMENTED RECOVERY != EXECUTED RECOVERY
 ```
 
----
+______________________________________________________________________
 
-# 26. References
+## 26. References
 
 ```text
 L02_ATTENTION — Readme
@@ -1427,15 +1425,15 @@ Cosmo_Brain_BRIDGE_INDEX
 Cosmo_Brain_BRIDGE_INDEX
 ```
 
----
+______________________________________________________________________
 
-# 27. Governing Repair Contract
+## 27. Governing Repair Contract
 
 > **`L02_ATTENTION` repair restores a valid bounded attention-allocation state by identifying the smallest supported failure locus, preserving unaffected valid state, selectively invalidating actual dependents, restoring load-bearing objective/constraint/provenance/scope/regime/freshness/HML context, reallocating resources, and requiring post-repair validation. Repair must never manufacture evidence, erase unresolved contradictions, collapse genuine competing hypotheses, inflate confidence, broaden authority, or convert a repair proposal into a durable commit.**
 
----
+______________________________________________________________________
 
-# 28. Canon Boundary
+## 28. Canon Boundary
 
 ```text
 SOURCE-SUPPORTED:
@@ -1496,22 +1494,27 @@ AUTHORIZATION TO MUTATE OR COMMIT
 
 ```text
 ```
----
+
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: l02_attention_primitives_cognitive_matrix_repair
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION/L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_REPAIR.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION/L02_ATTENTION_MOC|L02_ATTENTION_MOC]]

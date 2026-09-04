@@ -1,15 +1,18 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: 11 Validation MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/11_VALIDATION
 tags:
-- 11-validation
-- domain/cognitive-matrix
-- matrix/l00-reality-validation-receipt
-- promotion-gates
-- routing-policy-validation-receipt
-- validation-evidence
-- validation-levels
+  - 11-validation
+  - domain/cognitive-matrix
+  - matrix/l00-reality-validation-receipt
+  - promotion-gates
+  - routing-policy-validation-receipt
+  - validation-evidence
+  - validation-levels
 moc: true
 rscf:
   state: DERIVED
@@ -37,5 +40,6 @@ rscf:
 
 - [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]] — 00_INDEX
 
----
+______________________________________________________________________
+
 **Parent:** [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]

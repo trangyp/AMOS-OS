@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: GENERATORS COGNITIVE MATRIX README
 type: cognitive
 source: 25_COGNITIVE_MATRIX/12_GENERATORS
 tags:
-- cognitive-matrix
-- generators
-- readme
-- domain/cognitive-matrix
-- skill
+  - cognitive-matrix
+  - generators
+  - readme
+  - domain/cognitive-matrix
+  - skill
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL
@@ -23,9 +26,9 @@ rscf:
 
 **Status:** `CONDITIONAL / ARCHITECTURE_DEFINED / IMPLEMENTATION_MUST_BE_PROVEN_PER GENERATOR`
 
----
+______________________________________________________________________
 
-# 1. Purpose
+## 1. Purpose
 
 `12_GENERATORS` defines the AMOS architecture for producing new candidate artifacts from validated inputs under explicit constraints.
 
@@ -95,9 +98,9 @@ PROMPT
 → ACCEPT
 ```
 
----
+______________________________________________________________________
 
-# 2. Architectural Position
+## 2. Architectural Position
 
 `12_GENERATORS` is **not the Full Brain OS**.
 
@@ -133,9 +136,9 @@ DEPLOYMENT / WORLD EFFECT
 
 The Full Brain OS preserves cognition, runtime, control-plane authority, and deployment as separate architectural dimensions. A generator therefore cannot grant itself authority merely because it knows how to produce an artifact.
 
----
+______________________________________________________________________
 
-# 3. Core Definition
+## 3. Core Definition
 
 ```text
 Generator
@@ -178,9 +181,9 @@ A generator is only an **artifact-producing capability**.
 
 It does not own final truth classification, authorization, or commit.
 
----
+______________________________________________________________________
 
-# 4. Non-Equivalences
+## 4. Non-Equivalences
 
 These boundaries are mandatory.
 
@@ -226,9 +229,9 @@ A generator may be **implemented through** a tool, skill, code module, model, or
 
 Those bindings do not redefine the generator's semantic role.
 
----
+______________________________________________________________________
 
-# 5. Generator Lifecycle
+## 5. Generator Lifecycle
 
 Every governed generator should follow:
 
@@ -270,9 +273,9 @@ Every governed generator should follow:
 18 PERSIST LINEAGE
 ```
 
----
+______________________________________________________________________
 
-# 6. Generator Registry
+## 6. Generator Registry
 
 Every generator must be registered using a typed record.
 
@@ -344,9 +347,9 @@ Unknown values remain `UNKNOWN`.
 
 Do not fill them with plausible-looking defaults.
 
----
+______________________________________________________________________
 
-# 7. Proposed Generator Families
+## 7. Proposed Generator Families
 
 The following taxonomy is a **DERIVED architecture proposal**, not automatically source-defined canon.
 
@@ -387,7 +390,7 @@ knowledge generation
 knowledge validation
 ```
 
----
+______________________________________________________________________
 
 ## 7.2 RSCF / Proof Capsule Generators
 
@@ -412,7 +415,7 @@ They may assemble a proof structure.
 
 They may not fabricate missing evidence.
 
----
+______________________________________________________________________
 
 ## 7.3 Hypothesis Generators
 
@@ -446,7 +449,7 @@ COMPETING
 
 not `VERIFIED`.
 
----
+______________________________________________________________________
 
 ## 7.4 Counter-Hypothesis Generators
 
@@ -466,7 +469,7 @@ seek stronger alternatives
 
 They must not merely paraphrase the primary hypothesis negatively.
 
----
+______________________________________________________________________
 
 ## 7.5 Plan Generators
 
@@ -496,7 +499,7 @@ PROPOSAL
 
 until approved.
 
----
+______________________________________________________________________
 
 ## 7.6 Workflow Generators
 
@@ -516,7 +519,7 @@ authority gates
 
 Generated workflows require validation before deployment.
 
----
+______________________________________________________________________
 
 ## 7.7 Protocol Generators
 
@@ -544,7 +547,7 @@ authority
 termination
 ```
 
----
+______________________________________________________________________
 
 ## 7.8 Schema Generators
 
@@ -569,7 +572,7 @@ compatibility
 validation
 ```
 
----
+______________________________________________________________________
 
 ## 7.9 Code Generators
 
@@ -590,7 +593,7 @@ environment assumptions
 
 Generated code must not be treated as executed or validated until actually tested.
 
----
+______________________________________________________________________
 
 ## 7.10 Test Generators
 
@@ -609,7 +612,7 @@ Families may include:
 
 Generated tests require review because a flawed test can validate a flawed implementation.
 
----
+______________________________________________________________________
 
 ## 7.11 Simulation Generators
 
@@ -637,7 +640,7 @@ simulation output
 observation of reality
 ```
 
----
+______________________________________________________________________
 
 ## 7.12 Scenario Generators
 
@@ -651,7 +654,7 @@ MODEL / CONDITIONAL
 
 A scenario is not automatically a forecast.
 
----
+______________________________________________________________________
 
 ## 7.13 Design Generators
 
@@ -668,7 +671,7 @@ Produce candidate system/design structures:
 
 Every design must expose assumptions and failure modes.
 
----
+______________________________________________________________________
 
 ## 7.14 Artifact Generators
 
@@ -698,7 +701,7 @@ not:
 artifact semantically correct
 ```
 
----
+______________________________________________________________________
 
 ## 7.15 Agent Generators
 
@@ -726,7 +729,7 @@ Generated agent:
 
 Activation belongs to deployment/control architecture.
 
----
+______________________________________________________________________
 
 ## 7.16 Skill Generators
 
@@ -750,7 +753,7 @@ AMOS ontology object
 
 A skill generator must preserve that distinction.
 
----
+______________________________________________________________________
 
 ## 7.17 Fabrication Generators
 
@@ -770,9 +773,9 @@ execution boundary
 
 before effectful use.
 
----
+______________________________________________________________________
 
-# 8. Typed Inputs
+## 8. Typed Inputs
 
 Generator inputs must be typed.
 
@@ -819,9 +822,9 @@ accepted_inputs:
 
 Unsupported types must be rejected or routed through an explicit translator.
 
----
+______________________________________________________________________
 
-# 9. Typed Outputs
+## 9. Typed Outputs
 
 Every generator output must have both an artifact type and epistemic status.
 
@@ -859,9 +862,9 @@ CONFIG
 DATASET
 ```
 
----
+______________________________________________________________________
 
-# 10. Generator State Machine
+## 10. Generator State Machine
 
 Recommended generator state machine:
 
@@ -909,9 +912,9 @@ VALIDATED
 UNAUTHORIZED_FOR_CURRENT_EFFECT
 ```
 
----
+______________________________________________________________________
 
-# 11. Request State
+## 11. Request State
 
 A specific generation request may move through:
 
@@ -952,9 +955,9 @@ UNKNOWN/GAP
 SUPERSEDED
 ```
 
----
+______________________________________________________________________
 
-# 12. Core Operators
+## 12. Core Operators
 
 The generator infrastructure may expose operators such as:
 
@@ -994,9 +997,9 @@ These are architecture-level operator names.
 
 They do not imply that corresponding source-code functions already exist.
 
----
+______________________________________________________________________
 
-# 13. Generation Function
+## 13. Generation Function
 
 Abstractly:
 
@@ -1025,9 +1028,9 @@ Confidence(weakest load-bearing input)
 
 unless independent revalidation increases support.
 
----
+______________________________________________________________________
 
-# 14. Invariants
+## 14. Invariants
 
 The generator layer must preserve the following invariants.
 
@@ -1100,9 +1103,9 @@ Multiple outputs generated from the same evidence ancestry do not create indepen
 
 When uncertainty and downstream cost are high, prefer reversible candidate actions.
 
----
+______________________________________________________________________
 
-# 15. H / M / L Applicability
+## 15. H / M / L Applicability
 
 Generators may operate at all H/M/L scales.
 
@@ -1141,9 +1144,9 @@ Generation should default to the **lowest sufficient scope**.
 
 Do not generate H-level restructuring when an L-level repair is enough.
 
----
+______________________________________________________________________
 
-# 16. Fractal Generation
+## 16. Fractal Generation
 
 Any generated object may itself contain subordinate generation contexts.
 
@@ -1165,9 +1168,9 @@ But dependency inheritance must remain explicit.
 
 A low-level artifact must not lose the provenance and constraints inherited from its parent generation.
 
----
+______________________________________________________________________
 
-# 17. Dependencies
+## 17. Dependencies
 
 `12_GENERATORS` depends on the following architectural services.
 
@@ -1235,9 +1238,9 @@ repair events
 commit lineage
 ```
 
----
+______________________________________________________________________
 
-# 18. Control-Plane Requirements
+## 18. Control-Plane Requirements
 
 A generator may read only authorized state.
 
@@ -1268,9 +1271,9 @@ does not imply:
 GeneratorMayCommit(X)
 ```
 
----
+______________________________________________________________________
 
-# 19. Read Sets
+## 19. Read Sets
 
 Every consequential generation should declare a read set.
 
@@ -1286,9 +1289,9 @@ read_set:
 
 The generator should be invalidated or rerun when a load-bearing read changes beyond permitted freshness/version rules.
 
----
+______________________________________________________________________
 
-# 20. Write Sets
+## 20. Write Sets
 
 Generators do not own unrestricted writes.
 
@@ -1302,9 +1305,9 @@ proposed_write_set:
 
 Actual write set becomes valid only after authorization.
 
----
+______________________________________________________________________
 
-# 21. MVCC / CAS Compatibility
+## 21. MVCC / CAS Compatibility
 
 When persistent state is mutable, generation may use snapshot/version concepts.
 
@@ -1333,9 +1336,9 @@ abort
 
 rather than blindly committing stale output.
 
----
+______________________________________________________________________
 
-# 22. Agents
+## 22. Agents
 
 Agents may orchestrate generators but generators are not automatically agents.
 
@@ -1363,9 +1366,9 @@ escalation: required
 audit: required
 ```
 
----
+______________________________________________________________________
 
-# 23. Skills
+## 23. Skills
 
 Skills are deployment bindings.
 
@@ -1389,9 +1392,9 @@ Skill implementation
 
 Skill failure should not silently redefine generator semantics.
 
----
+______________________________________________________________________
 
-# 24. Tools
+## 24. Tools
 
 Tools perform operational functions such as:
 
@@ -1406,9 +1409,9 @@ Generator output may be passed to tools.
 
 Tools must not be treated as epistemic validators by default.
 
----
+______________________________________________________________________
 
-# 25. Workflows
+## 25. Workflows
 
 A workflow can compose multiple generators.
 
@@ -1430,9 +1433,9 @@ REPORT GENERATOR
 
 Workflow order must preserve dependency and provenance.
 
----
+______________________________________________________________________
 
-# 26. Generator Composition
+## 26. Generator Composition
 
 Generators may be composed:
 
@@ -1452,9 +1455,9 @@ then descendants that materially depend on `G1` must be invalidated.
 
 Do not preserve downstream confidence after upstream failure.
 
----
+______________________________________________________________________
 
-# 27. Parallel Generation
+## 27. Parallel Generation
 
 Multiple generators may create competing candidates.
 
@@ -1475,9 +1478,9 @@ This is useful when:
 
 Parallel generation should not be used merely to generate stylistic duplicates.
 
----
+______________________________________________________________________
 
-# 28. Independence
+## 28. Independence
 
 Two outputs are not independent merely because they were generated separately.
 
@@ -1496,9 +1499,9 @@ their evidence may be correlated.
 
 Independence must be demonstrated.
 
----
+______________________________________________________________________
 
-# 29. Protocols
+## 29. Protocols
 
 Every generator should conform to at least these protocols.
 
@@ -1554,9 +1557,9 @@ candidate
 → persist provenance
 ```
 
----
+______________________________________________________________________
 
-# 30. Evidence and Provenance
+## 30. Evidence and Provenance
 
 Every consequential generated artifact should record:
 
@@ -1592,9 +1595,9 @@ confidence_ceiling: null
 commit_state: PROPOSED
 ```
 
----
+______________________________________________________________________
 
-# 31. Persistent Lineage
+## 31. Persistent Lineage
 
 Artifact lineage should support:
 
@@ -1616,9 +1619,9 @@ SUPERSESSION
 
 Previous states should remain recoverable when provenance matters.
 
----
+______________________________________________________________________
 
-# 32. Uncertainty Vector
+## 32. Uncertainty Vector
 
 Generator uncertainty should not be collapsed into one score when consequential.
 
@@ -1637,9 +1640,9 @@ uncertainty:
 
 The generator may only spend additional computation where reducing uncertainty can change the result.
 
----
+______________________________________________________________________
 
-# 33. Confidence Ceiling
+## 33. Confidence Ceiling
 
 Generated confidence is bounded by the weakest load-bearing dependency.
 
@@ -1657,9 +1660,9 @@ unless a premise is independently revalidated.
 
 Fluency, length, formal notation, or repeated generation must not raise this ceiling.
 
----
+______________________________________________________________________
 
-# 34. Failure Modes
+## 34. Failure Modes
 
 ## F01 — Fabrication
 
@@ -1672,7 +1675,7 @@ FAIL
 → UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
 ## F02 — Scope Leakage
 
@@ -1686,87 +1689,87 @@ or
 downgrade
 ```
 
----
+______________________________________________________________________
 
 ## F03 — Regime Leakage
 
 Output crosses operating regimes without a validated bridge.
 
----
+______________________________________________________________________
 
 ## F04 — Provenance Loss
 
 Generated artifact cannot be traced back to load-bearing sources.
 
----
+______________________________________________________________________
 
 ## F05 — Correlated Evidence Inflation
 
 Multiple generated descendants are counted as independent evidence.
 
----
+______________________________________________________________________
 
 ## F06 — Causal Overreach
 
 Association or analogy becomes a causal claim.
 
----
+______________________________________________________________________
 
 ## F07 — Authority Escalation
 
 Generator writes or acts beyond granted authority.
 
----
+______________________________________________________________________
 
 ## F08 — Proposal/Commit Collapse
 
 Candidate artifact is treated as committed state without control-plane admission.
 
----
+______________________________________________________________________
 
 ## F09 — Stale Read Set
 
 Generator uses outdated mutable state.
 
----
+______________________________________________________________________
 
 ## F10 — Invalid Composition
 
 Downstream generator depends on failed upstream output.
 
----
+______________________________________________________________________
 
 ## F11 — Generator Drift
 
 Implementation changes while generator identifier/version remains unchanged.
 
----
+______________________________________________________________________
 
 ## F12 — Validator Collusion
 
 Generator and validator share hidden assumptions that make validation circular.
 
----
+______________________________________________________________________
 
 ## F13 — Infinite Generation
 
 System repeatedly regenerates without reducing decision-relevant uncertainty.
 
----
+______________________________________________________________________
 
 ## F14 — Over-Generation
 
 The generator produces architecture or detail beyond what can materially change the outcome.
 
----
+______________________________________________________________________
 
 ## F15 — False Completeness
 
 Generator fills every field despite unresolved gaps.
 
----
+______________________________________________________________________
 
-# 35. Repair / Recovery
+## 35. Repair / Recovery
 
 Repair is local.
 
@@ -1792,9 +1795,9 @@ revalidate
 
 Global regeneration is last resort.
 
----
+______________________________________________________________________
 
-# 36. Retry Rule
+## 36. Retry Rule
 
 Do not retry the same generation path after failure unless something material changes:
 
@@ -1811,9 +1814,9 @@ environment
 
 Otherwise repeated generation only repeats the same failure class.
 
----
+______________________________________________________________________
 
-# 37. Tests and Validators
+## 37. Tests and Validators
 
 Generator infrastructure should support:
 
@@ -1871,9 +1874,9 @@ Generator infrastructure should support:
 - unauthorized write;
 - rollback.
 
----
+______________________________________________________________________
 
-# 38. Generator Acceptance Criteria
+## 38. Generator Acceptance Criteria
 
 A generator is not `VALIDATED` merely because it can generate output.
 
@@ -1903,28 +1906,28 @@ known limitations
 
 Domain-specific generators may require much more.
 
----
+______________________________________________________________________
 
-# 39. Falsifiers
+## 39. Falsifiers
 
 The architecture itself should be rejected or revised if implementation shows that:
 
 1. generator identity cannot be separated from deployment binding;
-2. provenance cannot be retained through generation;
-3. candidate state cannot be separated from committed state;
-4. scope cannot be enforced;
-5. downstream invalidation cannot identify dependency closure;
-6. authority cannot be independently controlled;
-7. validators cannot detect intentional generator failure cases;
-8. version changes cannot be tracked;
-9. generator outputs cannot be reproducibly attributed to inputs and context;
-10. the proposed abstraction adds no useful separation beyond ordinary tool/workflow contracts.
+1. provenance cannot be retained through generation;
+1. candidate state cannot be separated from committed state;
+1. scope cannot be enforced;
+1. downstream invalidation cannot identify dependency closure;
+1. authority cannot be independently controlled;
+1. validators cannot detect intentional generator failure cases;
+1. version changes cannot be tracked;
+1. generator outputs cannot be reproducibly attributed to inputs and context;
+1. the proposed abstraction adds no useful separation beyond ordinary tool/workflow contracts.
 
 These are genuine architecture falsifiers, not merely missing features.
 
----
+______________________________________________________________________
 
-# 40. Security / Governance Boundary
+## 40. Security / Governance Boundary
 
 Consequential generators require elevated validation when producing artifacts that may affect:
 
@@ -1952,9 +1955,9 @@ generate
 → expand authority only if justified
 ```
 
----
+______________________________________________________________________
 
-# 41. Irreversibility
+## 41. Irreversibility
 
 Define generation risk partly through:
 
@@ -1970,9 +1973,9 @@ Uncertainty
 
 High-risk generated actions should not proceed directly to effect.
 
----
+______________________________________________________________________
 
-# 42. Stopping Conditions
+## 42. Stopping Conditions
 
 Generation should stop when:
 
@@ -1990,9 +1993,9 @@ The next reversible safe action is known.
 
 Do not generate merely because more generation is possible.
 
----
+______________________________________________________________________
 
-# 43. Generator Selection
+## 43. Generator Selection
 
 Generator selection belongs primarily to routing.
 
@@ -2016,9 +2019,9 @@ f(
 
 The smallest sufficient generator should be preferred.
 
----
+______________________________________________________________________
 
-# 44. Mode Compatibility
+## 44. Mode Compatibility
 
 Generator mode can include:
 
@@ -2046,9 +2049,9 @@ ExperimentGenerator + MEASURE
 
 Mode is independent of generator identity.
 
----
+______________________________________________________________________
 
-# 45. Domain Binding
+## 45. Domain Binding
 
 Generators may be domain-neutral or domain-bound.
 
@@ -2068,9 +2071,9 @@ domain: null
 
 A domain-neutral generator cannot supply domain expertise that is absent from its inputs.
 
----
+______________________________________________________________________
 
-# 46. Cross-Domain Generation
+## 46. Cross-Domain Generation
 
 Cross-domain generation should declare every contributing domain.
 
@@ -2090,9 +2093,9 @@ Climate Adaptation Infrastructure Candidate
 
 Confidence must respect the weakest materially load-bearing cross-domain bridge.
 
----
+______________________________________________________________________
 
-# 47. Generator Matrix
+## 47. Generator Matrix
 
 A generator may be indexed across several independent axes.
 
@@ -2109,9 +2112,9 @@ A generator may be indexed across several independent axes.
 
 This is why `12_GENERATORS` is appropriately a **matrix infrastructure** branch.
 
----
+______________________________________________________________________
 
-# 48. Suggested Internal Folder Architecture
+## 48. Suggested Internal Folder Architecture
 
 The exact file/folder inventory remains an architectural proposal unless separately defined in canon.
 
@@ -2182,13 +2185,13 @@ Do not create a generator folder merely to make the tree look complete.
 
 Unimplemented families should remain explicit placeholders until real content exists.
 
----
+______________________________________________________________________
 
-# 49. Generator README Template
+## 49. Generator README Template
 
 Every generator folder should include a README with at least:
 
-# Generator Name
+## Generator Name
 
 ## Identity
 
@@ -2252,9 +2255,9 @@ Every generator folder should include a README with at least:
 
 ## Open Gaps
 
----
+______________________________________________________________________
 
-# 50. RSCF State for This README
+## 50. RSCF State for This README
 
 This README is no longer accurately represented as:
 
@@ -2324,9 +2327,9 @@ confidence_ceiling:
   implementation: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 51. Known Gaps
+## 51. Known Gaps
 
 The following remain `UNKNOWN/GAP` unless specific source artifacts close them:
 
@@ -2364,9 +2367,9 @@ version precedence among historical generator artifacts
 
 Do not invent these merely to complete the matrix.
 
----
+______________________________________________________________________
 
-# 52. Promotion Rules
+## 52. Promotion Rules
 
 A generator moves from:
 
@@ -2440,9 +2443,9 @@ only when authority, safety, and environment requirements are satisfied.
 
 None of those states are automatic.
 
----
+______________________________________________________________________
 
-# 53. Anti-Regression Contract
+## 53. Anti-Regression Contract
 
 Any future modification to `12_GENERATORS` must preserve or improve:
 
@@ -2462,9 +2465,9 @@ user fit
 
 An optimization that weakens one of these must be rejected or rolled back.
 
----
+______________________________________________________________________
 
-# 54. Core Laws
+## 54. Core Laws
 
 ```text
 INTEGRITY
@@ -2491,59 +2494,70 @@ VALIDATION
 !=
 AUTHORIZATION
 ```
+
 ```text
 AUTHORIZATION
 !=
 EXECUTION
 ```
+
 ```text
 EXECUTION
 !=
 SUCCESS
 ```
+
 ```text
 SUCCESS
 !=
 TRUTH
 ```
+
 ```text
 REPETITION
 !=
 INDEPENDENT CONFIRMATION
 ```
+
 ```text
 STRUCTURAL SIMILARITY
 !=
 CAUSATION
 ```
+
 ```text
 PLACEHOLDER
 !=
 IMPLEMENTED
 ```
+
 ```text
 ADDRESSABLE
 !=
 VALIDATED
 ```
+
 ```text
 CAPABILITY
 !=
 AUTHORITY
 ```
+
 ```text
 PROPOSAL
 !=
 COMMIT
 ```
+
 ```text
 UNKNOWN/GAP
 !=
 PASS
 ```
----
 
-# 55. Final Contract
+______________________________________________________________________
+
+## 55. Final Contract
 
 `12_GENERATORS` exists to make generation **governed, typed, provenance-aware, repairable, auditable, and separable from authority**.
 
@@ -2630,22 +2644,27 @@ This is the appropriate replacement for the current placeholder README: the **br
 
 **Conclusion class:** `DERIVED / CONDITIONAL`. The contract is AMOS-consistent; exact generator implementations and the canonical generator inventory remain `UNKNOWN/GAP`.
 ```
----
+
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[25_COGNITIVE_MATRIX/12_GENERATORS/00_INDEX/GENERATORS_MAP|GENERATORS_MAP]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: generators_cognitive_matrix_readme
 node_type: note
 path: 25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_COGNITIVE_MATRIX_README.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/12_GENERATORS/12_GENERATORS_MOC|12_GENERATORS_MOC]]

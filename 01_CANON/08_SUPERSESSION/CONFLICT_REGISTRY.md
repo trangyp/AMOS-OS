@@ -16,38 +16,38 @@ authority_scope: conflict-identification-preservation-classification-resolution-
 created: 2026-08-25
 updated: 2026-08-25
 tags:
-- amos-os
-- canon
-- universe
-- canon-group/meta
-- canon/framework
-- canon/registry
-- canon/provenance
-- canon/lineage
-- rscf/claim
-- rscf/provenance
-- rscf/state/source-claim
-- topic/contradiction
-- topic/competing-hypotheses
-- topic/evidence-topology
-- topic/provenance-topology
-- topic/source-independence
-- topic/regime
-- topic/scope
-- topic/invalidation
-- topic/adversarial-validation
-- readme
-- architecture
-- neural-network
-- amos-core-laws
-- law-hierarchy
-- canon-provenance
-- source-lineage
-- canonical-glossary
-- deprecated-terms
-- authoritative-state
+  - amos-os
+  - canon
+  - universe
+  - canon-group/meta
+  - canon/framework
+  - canon/registry
+  - canon/provenance
+  - canon/lineage
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - topic/contradiction
+  - topic/competing-hypotheses
+  - topic/evidence-topology
+  - topic/provenance-topology
+  - topic/source-independence
+  - topic/regime
+  - topic/scope
+  - topic/invalidation
+  - topic/adversarial-validation
+  - readme
+  - architecture
+  - neural-network
+  - amos-core-laws
+  - law-hierarchy
+  - canon-provenance
+  - source-lineage
+  - canonical-glossary
+  - deprecated-terms
+  - authoritative-state
 aliases:
-- AMOS Conflict Registry - AMOS OS Conflict Registry - Canon Conflict Registry
+  - AMOS Conflict Registry - AMOS OS Conflict Registry - Canon Conflict Registry
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -56,13 +56,17 @@ rscf:
 ---
 
 # AMOS OS Conflict Registry
+
 > **Origin architect / steward:** Trang Phan
 > **AMOS Core target:** `v4.4`
 > **Conclusion class:** `AMOS_MODEL`
 > **Status:** `SOURCE_CLAIM`
+
 ## 1. Purpose
+
 `CONFLICT_REGISTRY.md` defines the canonical AMOS OS contract for identifying, recording, preserving, classifying, testing, resolving, superseding, and auditing material conflicts.
 A conflict may exist between:
+
 ```text
 CLAIMS
 SOURCES
@@ -81,16 +85,10 @@ PROVENANCE RECORDS
 STATE RECORDS
 TEST RESULTS
 ```
-The registry exists so contradiction is never silently removed for fluency, convenience, majority agreement, or premature convergence.
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
----
 
+## The registry exists so contradiction is never silently removed for fluency, convenience, majority agreement, or premature convergence. rscf: state: DERIVED claim_class: DERIVED provenance: AMOS_corpus scope: AMOS_general
 
-# 2. Core Law
+## 2. Core Law
 
 ```text
 CONFLICT DETECTED
@@ -112,9 +110,9 @@ When incompatible hypotheses remain equally supported, incomparable, correlated,
 PRESERVE COMPETING
 ```
 
----
+______________________________________________________________________
 
-# 3. Integrity Priority
+## 3. Integrity Priority
 
 Conflict handling follows:
 
@@ -132,9 +130,9 @@ TOKEN SAVINGS
 
 A clean-looking answer must never be produced by hiding a material contradiction.
 
----
+______________________________________________________________________
 
-# 4. Conflict Registry Boundary
+## 4. Conflict Registry Boundary
 
 The Conflict Registry is distinct from:
 
@@ -189,9 +187,9 @@ CONFLICT_REGISTRY
    discrimination, qualification, or resolution
 ```
 
----
+______________________________________________________________________
 
-# 5. What Counts as a Conflict
+## 5. What Counts as a Conflict
 
 A conflict exists when two or more relevant states cannot all be accepted under the same declared interpretation, scope, time, regime, assumptions, or authority context.
 
@@ -231,9 +229,9 @@ vs
 AUTHORITY B DENIES ACTION
 ```
 
----
+______________________________________________________________________
 
-# 6. Apparent Conflict
+## 6. Apparent Conflict
 
 Not every disagreement is a genuine contradiction.
 
@@ -269,9 +267,9 @@ REGIME-SCOPED COMPATIBILITY
 
 rather than contradiction.
 
----
+______________________________________________________________________
 
-# 7. Conflict Classes
+## 7. Conflict Classes
 
 Recommended top-level classes:
 
@@ -296,9 +294,9 @@ IMPLEMENTATION_CONFLICT
 UNKNOWN_CONFLICT
 ```
 
----
+______________________________________________________________________
 
-# 8. Direct Contradiction
+## 8. Direct Contradiction
 
 ```text
 A
@@ -327,9 +325,9 @@ different perspectives
 
 when logical incompatibility is established.
 
----
+______________________________________________________________________
 
-# 9. Partial Contradiction
+## 9. Partial Contradiction
 
 Two claims may overlap only partly.
 
@@ -347,9 +345,9 @@ B conflicts with the universal portion of A but may not invalidate all narrower 
 
 Use targeted invalidation.
 
----
+______________________________________________________________________
 
-# 10. Scope Conflict
+## 10. Scope Conflict
 
 ```text
 A valid for population P₁
@@ -368,9 +366,9 @@ DIFFERENT SCOPE
 CONTRADICTION
 ```
 
----
+______________________________________________________________________
 
-# 11. Regime Conflict
+## 11. Regime Conflict
 
 A proposition may change validity across regimes.
 
@@ -387,9 +385,9 @@ R₁ != R₂
 
 The registry must preserve the regime boundary rather than forcing universal convergence.
 
----
+______________________________________________________________________
 
-# 12. Temporal Conflict
+## 12. Temporal Conflict
 
 Example:
 
@@ -411,9 +409,9 @@ revision
 
 before declaring unresolved conflict.
 
----
+______________________________________________________________________
 
-# 13. Version Conflict
+## 13. Version Conflict
 
 Different revisions may legitimately disagree.
 
@@ -432,9 +430,9 @@ OR AN UNRELATED CLAIM?
 
 Filename version labels alone do not answer this.
 
----
+______________________________________________________________________
 
-# 14. Semantic Conflict
+## 14. Semantic Conflict
 
 Different terms may refer to:
 
@@ -457,9 +455,9 @@ DEPRECATED_TERMS
 
 where available.
 
----
+______________________________________________________________________
 
-# 15. Unit Conflict
+## 15. Unit Conflict
 
 Example:
 
@@ -473,9 +471,9 @@ may arise from unit mismatch rather than evidence disagreement.
 
 Units must be resolved before epistemic conflict classification.
 
----
+______________________________________________________________________
 
-# 16. Measurement Conflict
+## 16. Measurement Conflict
 
 Two observations may differ because of:
 
@@ -490,9 +488,9 @@ different measurement windows
 
 Measurement incompatibility must remain visible.
 
----
+______________________________________________________________________
 
-# 17. Provenance Conflict
+## 17. Provenance Conflict
 
 A provenance conflict exists when source origin, ancestry, authorship, derivation, revision, or independence claims disagree.
 
@@ -512,9 +510,9 @@ but lineage shows shared ancestor
 
 This can materially alter evidence strength.
 
----
+______________________________________________________________________
 
-# 18. Authority Conflict
+## 18. Authority Conflict
 
 Authority conflicts occur when multiple authority-bearing artifacts issue incompatible directives inside overlapping authority scope.
 
@@ -529,9 +527,9 @@ Resolution requires authority hierarchy, scope, time, and supersession analysis.
 
 Popularity does not resolve authority conflicts.
 
----
+______________________________________________________________________
 
-# 19. Invariant Conflict
+## 19. Invariant Conflict
 
 An invariant conflict occurs when:
 
@@ -559,9 +557,9 @@ CAPABILITY != AUTHORITY
 
 The invariant violation must be surfaced before execution.
 
----
+______________________________________________________________________
 
-# 20. Model Conflict
+## 20. Model Conflict
 
 Models may produce incompatible explanations or predictions.
 
@@ -580,9 +578,9 @@ COMPETING
 
 where appropriate.
 
----
+______________________________________________________________________
 
-# 21. Observation Conflict
+## 21. Observation Conflict
 
 Observed states may conflict with:
 
@@ -596,9 +594,9 @@ historical state
 
 Observation conflict does not automatically identify which side is wrong.
 
----
+______________________________________________________________________
 
-# 22. State Conflict
+## 22. State Conflict
 
 Persistent or distributed state may disagree.
 
@@ -622,9 +620,9 @@ recovery semantics
 
 Repository-level canon should define the contract without pretending that conceptual mechanisms prove implementation.
 
----
+______________________________________________________________________
 
-# 23. Dependency Conflict
+## 23. Dependency Conflict
 
 A dependency conflict exists when a conclusion depends on premises that cannot simultaneously hold.
 
@@ -644,9 +642,9 @@ Then:
 C MUST NOT PASS UNCONDITIONALLY
 ```
 
----
+______________________________________________________________________
 
-# 24. Minimum Conflict Record
+## 24. Minimum Conflict Record
 
 Every consequential conflict SHOULD support a structure equivalent to:
 
@@ -716,9 +714,9 @@ conflict:
     unresolved_gaps: []
 ```
 
----
+______________________________________________________________________
 
-# 25. Conflict Identity
+## 25. Conflict Identity
 
 Each material conflict should receive a stable identity:
 
@@ -740,9 +738,9 @@ CNF::AMOS::CANON-001
 
 This is a naming model, not proof of current implementation.
 
----
+______________________________________________________________________
 
-# 26. Conflict Identity Firewall
+## 26. Conflict Identity Firewall
 
 ```text
 CONFLICT_ID
@@ -770,9 +768,9 @@ One conflict may involve many claims and sources.
 
 One claim may participate in multiple conflicts.
 
----
+______________________________________________________________________
 
-# 27. Conflict State
+## 27. Conflict State
 
 Recommended states:
 
@@ -789,9 +787,9 @@ DORMANT
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 28. DETECTED
+## 28. DETECTED
 
 Use when incompatibility has been identified but not sufficiently analyzed.
 
@@ -803,17 +801,17 @@ CONFIRMED DIRECT CONTRADICTION
 
 Classification may change after scope or regime analysis.
 
----
+______________________________________________________________________
 
-# 29. UNDER_REVIEW
+## 29. UNDER_REVIEW
 
 Use when active discrimination is underway.
 
 This state should preserve all material alternatives.
 
----
+______________________________________________________________________
 
-# 30. COMPETING
+## 30. COMPETING
 
 Use when incompatible hypotheses remain legitimately live.
 
@@ -831,9 +829,9 @@ INSUFFICIENT DISCRIMINATION
 COMPETING
 ```
 
----
+______________________________________________________________________
 
-# 31. CONDITIONAL
+## 31. CONDITIONAL
 
 Use when apparent disagreement can be resolved through explicit conditions.
 
@@ -846,9 +844,9 @@ IF R₂ → B
 
 The result is conditional, not universal.
 
----
+______________________________________________________________________
 
-# 32. RESOLVED
+## 32. RESOLVED
 
 A conflict may be marked `RESOLVED` only when discriminating evidence or governing authority is sufficient for the declared scope.
 
@@ -864,9 +862,9 @@ dependencies
 invalidation conditions
 ```
 
----
+______________________________________________________________________
 
-# 33. PARTIALLY_RESOLVED
+## 33. PARTIALLY_RESOLVED
 
 Use when only part of the conflict space has been resolved.
 
@@ -879,17 +877,17 @@ B remains competing for R₂
 
 Do not promote the whole conflict to resolved.
 
----
+______________________________________________________________________
 
-# 34. SUPERSEDED
+## 34. SUPERSEDED
 
 Use when a later conflict record or governed resolution replaces an earlier treatment.
 
 Historical conflict identity should remain recoverable.
 
----
+______________________________________________________________________
 
-# 35. UNKNOWN/GAP
+## 35. UNKNOWN/GAP
 
 Use when critical information is missing.
 
@@ -912,9 +910,9 @@ UNKNOWN/GAP
 PASS
 ```
 
----
+______________________________________________________________________
 
-# 36. Severity
+## 36. Severity
 
 Recommended decision-oriented severity classes:
 
@@ -937,9 +935,9 @@ EXPLANATORY
 COSMETIC
 ```
 
----
+______________________________________________________________________
 
-# 37. Critical Conflict
+## 37. Critical Conflict
 
 A conflict is `CRITICAL` when unresolved contradiction prevents safe or valid continuation.
 
@@ -953,9 +951,9 @@ conflicting invariants
 unresolved source identity for load-bearing evidence
 ```
 
----
+______________________________________________________________________
 
-# 38. Decision-Relevant Conflict
+## 38. Decision-Relevant Conflict
 
 A conflict is decision-relevant if resolving it can change:
 
@@ -970,25 +968,25 @@ governance path
 
 These conflicts deserve evidence spending.
 
----
+______________________________________________________________________
 
-# 39. Explanatory Conflict
+## 39. Explanatory Conflict
 
 An explanatory conflict affects understanding but not the current decision.
 
 It should remain visible without necessarily blocking execution.
 
----
+______________________________________________________________________
 
-# 40. Cosmetic Conflict
+## 40. Cosmetic Conflict
 
 Formatting, naming, or presentation disagreement that does not alter semantics may be classified as cosmetic.
 
 Do not spend deep reasoning budget on cosmetic conflicts while critical ones remain unresolved.
 
----
+______________________________________________________________________
 
-# 41. Conflict Detection
+## 41. Conflict Detection
 
 Conflict detection SHOULD test:
 
@@ -1005,9 +1003,9 @@ DEPENDENCY INCOMPATIBILITY
 PROVENANCE INCOMPATIBILITY
 ```
 
----
+______________________________________________________________________
 
-# 42. Conflict Normalization
+## 42. Conflict Normalization
 
 Before comparing claims:
 
@@ -1031,9 +1029,9 @@ COMPARE
 
 This reduces false contradiction.
 
----
+______________________________________________________________________
 
-# 43. Evidence Topology
+## 43. Evidence Topology
 
 Conflict analysis must distinguish:
 
@@ -1064,9 +1062,9 @@ vs
 OBSERVATION
 ```
 
----
+______________________________________________________________________
 
-# 44. Provenance Independence
+## 44. Provenance Independence
 
 Suppose:
 
@@ -1093,9 +1091,9 @@ SOURCE COUNT
 INDEPENDENT EVIDENCE COUNT
 ```
 
----
+______________________________________________________________________
 
-# 45. Sybil Hardening
+## 45. Sybil Hardening
 
 Conflict resolution must resist evidence multiplication.
 
@@ -1112,9 +1110,9 @@ may still constitute one evidence ancestry.
 
 Repetition does not resolve conflict.
 
----
+______________________________________________________________________
 
-# 46. Authority Firewall
+## 46. Authority Firewall
 
 ```text
 MORE AUTHORITATIVE
@@ -1134,9 +1132,9 @@ WHICH EMPIRICAL CLAIM IS TRUE?
 
 Keep governance and empirical resolution distinct.
 
----
+______________________________________________________________________
 
-# 47. Causal Firewall
+## 47. Causal Firewall
 
 Conflicts about causation require causal evidence.
 
@@ -1173,9 +1171,9 @@ feedback
 causal effect
 ```
 
----
+______________________________________________________________________
 
-# 48. Scope Firewall
+## 48. Scope Firewall
 
 A conflict can disappear after scope partitioning.
 
@@ -1198,9 +1196,9 @@ not:
 A WINS
 ```
 
----
+______________________________________________________________________
 
-# 49. Regime Firewall
+## 49. Regime Firewall
 
 If system behavior changes across regimes:
 
@@ -1213,9 +1211,9 @@ the registry should preserve both.
 
 A regime transition may invalidate a formerly correct resolution.
 
----
+______________________________________________________________________
 
-# 50. Freshness Conflict
+## 50. Freshness Conflict
 
 New evidence may conflict with older evidence because the environment changed.
 
@@ -1233,9 +1231,9 @@ DID THE SYSTEM CHANGE?
 
 These are not equivalent.
 
----
+______________________________________________________________________
 
-# 51. Conflict and Supersession
+## 51. Conflict and Supersession
 
 A newer artifact does not automatically win.
 
@@ -1253,9 +1251,9 @@ IS LINEAGE VERIFIED?
 IS THE NEW VERSION VALID FOR THIS REGIME?
 ```
 
----
+______________________________________________________________________
 
-# 52. Competing Hypothesis Structure
+## 52. Competing Hypothesis Structure
 
 Recommended representation:
 
@@ -1283,9 +1281,9 @@ hypotheses:
 
 Do not force a winner prematurely.
 
----
+______________________________________________________________________
 
-# 53. Strongest Supported Conclusion
+## 53. Strongest Supported Conclusion
 
 For consequential conflicts:
 
@@ -1307,9 +1305,9 @@ causal overreach
 stronger alternative
 ```
 
----
+______________________________________________________________________
 
-# 54. Adversarial Challenge
+## 54. Adversarial Challenge
 
 Conceptual process:
 
@@ -1335,9 +1333,9 @@ CHECK ALTERNATIVE MODEL
 RETAIN / DOWNGRADE / CONDITION / COMPETE / INVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 55. Discriminating Evidence
+## 55. Discriminating Evidence
 
 When multiple hypotheses remain live, prefer:
 
@@ -1349,9 +1347,9 @@ DISCRIMINATING TEST
 
 over accumulating redundant supporting material.
 
----
+______________________________________________________________________
 
-# 56. Discriminating Test
+## 56. Discriminating Test
 
 A discriminating test should have materially different expected outcomes under competing hypotheses.
 
@@ -1366,9 +1364,9 @@ TEST T observes X or NOT-X
 
 T has higher conflict-resolution value than another source repeating shared assumptions.
 
----
+______________________________________________________________________
 
-# 57. Sensitivity
+## 57. Sensitivity
 
 Identify:
 
@@ -1382,9 +1380,9 @@ CAPABLE OF FLIPPING THE RESULT
 
 Test it first.
 
----
+______________________________________________________________________
 
-# 58. Fragile Resolution
+## 58. Fragile Resolution
 
 If small plausible changes reverse the winner:
 
@@ -1394,17 +1392,17 @@ CONDITIONAL
 
 is preferable to an overconfident resolution.
 
----
+______________________________________________________________________
 
-# 59. Robust Resolution
+## 59. Robust Resolution
 
 A resolution is more robust when it survives plausible perturbations of noncritical assumptions.
 
 Robustness does not imply universality beyond the tested envelope.
 
----
+______________________________________________________________________
 
-# 60. Resolution Classes
+## 60. Resolution Classes
 
 Possible resolution outcomes:
 
@@ -1425,9 +1423,9 @@ INSUFFICIENT_EVIDENCE
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 61. Resolution Proof Capsule
+## 61. Resolution Proof Capsule
 
 Important conflict resolutions should conceptually preserve:
 
@@ -1445,9 +1443,9 @@ invalidation conditions
 confidence ceiling
 ```
 
----
+______________________________________________________________________
 
-# 62. Resolution Confidence Ceiling
+## 62. Resolution Confidence Ceiling
 
 Resolution confidence cannot exceed the weakest load-bearing premise unless that premise is independently revalidated or removed.
 
@@ -1457,9 +1455,9 @@ RESOLUTION CONFIDENCE
 WEAKEST LOAD-BEARING PREMISE
 ```
 
----
+______________________________________________________________________
 
-# 63. Local Resolution
+## 63. Local Resolution
 
 AMOS v4.4 reasoning permits local resolution only when relevant closure is established:
 
@@ -1474,9 +1472,9 @@ non-conflict with governing constraints
 
 Independence must be demonstrated, not assumed.
 
----
+______________________________________________________________________
 
-# 64. Escalation Conditions
+## 64. Escalation Conditions
 
 Escalate conflict handling when:
 
@@ -1493,9 +1491,9 @@ authority is unclear
 critical invariants may fail
 ```
 
----
+______________________________________________________________________
 
-# 65. Conflict Resolution Workflow
+## 65. Conflict Resolution Workflow
 
 ```text
 DETECT
@@ -1529,9 +1527,9 @@ CHALLENGE PROVISIONAL WINNER
 RESOLVE / CONDITION / COMPETE / UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 66. No Majority Rule
+## 66. No Majority Rule
 
 Canonical prohibition:
 
@@ -1549,9 +1547,9 @@ until provenance topology is considered.
 
 Ten descendants of one source may provide less independent confirmation than two truly independent observations.
 
----
+______________________________________________________________________
 
-# 67. No Authority-by-Repetition
+## 67. No Authority-by-Repetition
 
 ```text
 REPEATED CLAIM
@@ -1561,9 +1559,9 @@ CANON
 
 Canon requires governed promotion.
 
----
+______________________________________________________________________
 
-# 68. No Resolution-by-Fluency
+## 68. No Resolution-by-Fluency
 
 A synthesized paragraph that blends incompatible claims is not a valid resolution.
 
@@ -1575,9 +1573,9 @@ A and NOT-A are both essentially true
 
 unless a legitimate scope, regime, semantic, or conditional partition explains how.
 
----
+______________________________________________________________________
 
-# 69. No Silent Averaging
+## 69. No Silent Averaging
 
 Conflicting numerical claims must not automatically be averaged.
 
@@ -1597,9 +1595,9 @@ does not license:
 
 without a model that justifies aggregation.
 
----
+______________________________________________________________________
 
-# 70. No Silent Scope Expansion
+## 70. No Silent Scope Expansion
 
 If evidence supports:
 
@@ -1615,9 +1613,9 @@ UNIVERSAL CLAIM
 
 without evidence for the expanded scope.
 
----
+______________________________________________________________________
 
-# 71. No Silent Causal Upgrade
+## 71. No Silent Causal Upgrade
 
 Resolving an association conflict does not license a causal conclusion.
 
@@ -1627,9 +1625,9 @@ ASSOCIATION RESOLVED
 CAUSATION VERIFIED
 ```
 
----
+______________________________________________________________________
 
-# 72. No Silent Historical Rewrite
+## 72. No Silent Historical Rewrite
 
 When a newer canon supersedes an older canon:
 
@@ -1641,9 +1639,9 @@ must remain historically recoverable.
 
 Do not rewrite lineage to make the newer rule appear timeless.
 
----
+______________________________________________________________________
 
-# 73. Invalidation
+## 73. Invalidation
 
 If conflict resolution shows a premise invalid:
 
@@ -1654,9 +1652,9 @@ AND DEPENDENT DESCENDANTS
 
 not unrelated branches.
 
----
+______________________________________________________________________
 
-# 74. Selective Invalidation
+## 74. Selective Invalidation
 
 Example:
 
@@ -1677,9 +1675,9 @@ PRESERVE C3
 
 This is dependency-local recovery.
 
----
+______________________________________________________________________
 
-# 75. Rollback
+## 75. Rollback
 
 When a resolution fails:
 
@@ -1693,9 +1691,9 @@ Preserve unaffected work.
 
 Do not globally recompute unless necessary.
 
----
+______________________________________________________________________
 
-# 76. Failed Resolution Path
+## 76. Failed Resolution Path
 
 A failed path should not simply be repeated.
 
@@ -1706,9 +1704,9 @@ DO NOT REPEAT FAILED PATH
 WITHOUT CHANGED EVIDENCE
 ```
 
----
+______________________________________________________________________
 
-# 77. Conflict Reopening
+## 77. Conflict Reopening
 
 A resolved conflict may reopen when:
 
@@ -1724,9 +1722,9 @@ dependency changes
 falsifier is triggered
 ```
 
----
+______________________________________________________________________
 
-# 78. Resolution Validity Envelope
+## 78. Resolution Validity Envelope
 
 Every consequential resolution SHOULD specify:
 
@@ -1742,9 +1740,9 @@ assumptions
 
 Resolution outside this envelope remains unproven.
 
----
+______________________________________________________________________
 
-# 79. Conflict Lifecycle
+## 79. Conflict Lifecycle
 
 ```text
 DETECTED
@@ -1760,9 +1758,9 @@ MONITORED
 REOPENED if invalidation condition fires
 ```
 
----
+______________________________________________________________________
 
-# 80. Conflict Dependency Graph
+## 80. Conflict Dependency Graph
 
 Conceptually:
 
@@ -1782,9 +1780,9 @@ MODEL / DECISION / ACTION
 
 The registry should support reverse traversal to determine downstream impact.
 
----
+______________________________________________________________________
 
-# 81. Conflict Propagation
+## 81. Conflict Propagation
 
 A conflict does not automatically propagate everywhere.
 
@@ -1797,9 +1795,9 @@ CONFLICT
 → DEPENDENT DECISION
 ```
 
----
+______________________________________________________________________
 
-# 82. Canon Conflict
+## 82. Canon Conflict
 
 A conflict involving canon requires elevated governance.
 
@@ -1816,9 +1814,9 @@ semantic identity collision
 
 No agent should silently choose a canon branch.
 
----
+______________________________________________________________________
 
-# 83. Kernel Conflict
+## 83. Kernel Conflict
 
 Kernel conflicts concern deterministic operators or invariants.
 
@@ -1832,9 +1830,9 @@ invariants cannot simultaneously hold
 
 Resolution requires canonical dependency review.
 
----
+______________________________________________________________________
 
-# 84. Control Plane Conflict
+## 84. Control Plane Conflict
 
 Control-plane conflicts may involve:
 
@@ -1849,9 +1847,9 @@ state transitions
 
 These are governance-relevant and should generally escalate.
 
----
+______________________________________________________________________
 
-# 85. Runtime Conflict
+## 85. Runtime Conflict
 
 Runtime conflicts may involve:
 
@@ -1866,9 +1864,9 @@ commit observations
 
 Runtime observations must not silently redefine canon.
 
----
+______________________________________________________________________
 
-# 86. Agent Conflict
+## 86. Agent Conflict
 
 Agents may disagree.
 
@@ -1891,9 +1889,9 @@ same assumptions
 
 before treating disagreement as independent analysis.
 
----
+______________________________________________________________________
 
-# 87. Model Conflict
+## 87. Model Conflict
 
 Multiple models may disagree because of:
 
@@ -1909,9 +1907,9 @@ randomness
 
 Model disagreement is evidence about model uncertainty, not automatically about ground truth.
 
----
+______________________________________________________________________
 
-# 88. Tool Conflict
+## 88. Tool Conflict
 
 Two tools may return different values.
 
@@ -1929,9 +1927,9 @@ CHECK TRANSFORMATION
 
 Tool identity is not source authority.
 
----
+______________________________________________________________________
 
-# 89. Memory Conflict
+## 89. Memory Conflict
 
 Persistent memory may conflict with newer evidence.
 
@@ -1945,17 +1943,17 @@ CANON
 
 Memory should be revalidated when it becomes load-bearing and conflicts with fresher authoritative evidence.
 
----
+______________________________________________________________________
 
-# 90. Knowledge Conflict
+## 90. Knowledge Conflict
 
 Knowledge artifacts may legitimately preserve competing models.
 
 Do not force the knowledge layer into a single narrative where discriminating evidence is absent.
 
----
+______________________________________________________________________
 
-# 91. Research Conflict
+## 91. Research Conflict
 
 External papers may disagree.
 
@@ -1975,9 +1973,9 @@ shared authorship/source lineage
 
 Paper count alone does not resolve the conflict.
 
----
+______________________________________________________________________
 
-# 92. Conflict Query Model
+## 92. Conflict Query Model
 
 The registry SHOULD conceptually support:
 
@@ -2015,9 +2013,9 @@ GET REOPENED CONFLICTS
 GET DOWNSTREAM IMPACT
 ```
 
----
+______________________________________________________________________
 
-# 93. Logical Indexes
+## 93. Logical Indexes
 
 Potential indexes:
 
@@ -2041,9 +2039,9 @@ BY_DEPENDENT
 
 These describe architectural requirements, not current implementation proof.
 
----
+______________________________________________________________________
 
-# 94. Conflict Registry Invariants
+## 94. Conflict Registry Invariants
 
 ```text
 CNF-001
@@ -2122,9 +2120,9 @@ CNF-025
 MATERIAL CONTRADICTION MUST REMAIN VISIBLE
 ```
 
----
+______________________________________________________________________
 
-# 95. Integrity Gate
+## 95. Integrity Gate
 
 Before resolving a consequential conflict:
 
@@ -2152,9 +2150,9 @@ Before resolving a consequential conflict:
 [ ] unresolved gaps exposed
 ```
 
----
+______________________________________________________________________
 
-# 96. High-Stakes Gate
+## 96. High-Stakes Gate
 
 Increase validation when conflict resolution affects:
 
@@ -2173,9 +2171,9 @@ AUTHORITY ASSIGNMENT
 
 Prefer staged and reversible action until the decision-changing conflict is resolved.
 
----
+______________________________________________________________________
 
-# 97. Conflict Resolution Template
+## 97. Conflict Resolution Template
 
 ```yaml
 conflict_record:
@@ -2254,9 +2252,9 @@ conflict_record:
   gaps: []
 ```
 
----
+______________________________________________________________________
 
-# 98. Adversarial Test Suite
+## 98. Adversarial Test Suite
 
 A mature conflict system SHOULD survive:
 
@@ -2314,9 +2312,9 @@ NO DISCRIMINATING EVIDENCE
 → COMPETING / UNKNOWN, NOT FORCED WINNER
 ```
 
----
+______________________________________________________________________
 
-# 99. Conflict Metrics
+## 99. Conflict Metrics
 
 Potential observability metrics:
 
@@ -2339,9 +2337,9 @@ conflicts_without_discriminating_test
 
 Metrics do not themselves establish correctness.
 
----
+______________________________________________________________________
 
-# 100. Conflict and RSCF
+## 100. Conflict and RSCF
 
 A conflict may bind directly to RSCF structures.
 
@@ -2369,9 +2367,9 @@ falsifiers
 
 without duplicating entire RSCFs unnecessarily.
 
----
+______________________________________________________________________
 
-# 101. Proof Capsule Reuse
+## 101. Proof Capsule Reuse
 
 A resolved conflict may be reused only while:
 
@@ -2386,9 +2384,9 @@ no material contradiction has appeared
 
 Otherwise reopen or revalidate.
 
----
+______________________________________________________________________
 
-# 102. Conflict and Persistent Provenance
+## 102. Conflict and Persistent Provenance
 
 Conflict history must survive resolution.
 
@@ -2405,9 +2403,9 @@ ONLY RESOLUTION EXISTS
 
 Historical disagreement is part of provenance.
 
----
+______________________________________________________________________
 
-# 103. Conflict and Canon Provenance
+## 103. Conflict and Canon Provenance
 
 Canon provenance should be able to answer:
 
@@ -2423,9 +2421,9 @@ WHAT WAS SUPERSEDED?
 WHAT REMAINS VALID?
 ```
 
----
+______________________________________________________________________
 
-# 104. Conflict and Source Registry
+## 104. Conflict and Source Registry
 
 Relationship:
 
@@ -2447,9 +2445,9 @@ RSCF / CLAIM LAYER
 EPISTEMIC CONCLUSIONS
 ```
 
----
+______________________________________________________________________
 
-# 105. Conflict and Authority
+## 105. Conflict and Authority
 
 Where conflict concerns authority:
 
@@ -2463,9 +2461,9 @@ should govern resolution.
 
 Agents and runtime components may detect or propose resolution but must not silently manufacture authority.
 
----
+______________________________________________________________________
 
-# 106. Conflict and Runtime
+## 106. Conflict and Runtime
 
 Runtime MAY:
 
@@ -2482,9 +2480,9 @@ conflicts according to policy.
 
 Runtime must not erase unresolved canonical conflicts for execution convenience.
 
----
+______________________________________________________________________
 
-# 107. Conflict and Agents
+## 107. Conflict and Agents
 
 Agents MAY:
 
@@ -2504,9 +2502,9 @@ AGENT PROPOSAL
 CANON COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 108. Conflict and Human Governance
+## 108. Conflict and Human Governance
 
 Some conflicts cannot be resolved purely epistemically.
 
@@ -2532,9 +2530,9 @@ from:
 GOVERNANCE DECISION
 ```
 
----
+______________________________________________________________________
 
-# 109. Current Canonical Gaps
+## 109. Current Canonical Gaps
 
 The following remain `UNKNOWN/GAP` until separately populated and validated:
 
@@ -2558,9 +2556,9 @@ complete automated contradiction detection
 
 This artifact must not invent those records.
 
----
+______________________________________________________________________
 
-# 110. Promotion Gate
+## 110. Promotion Gate
 
 This file defines the canonical conflict-management contract.
 
@@ -2584,9 +2582,9 @@ DETECTION
 
 No unresolved critical gap should be hidden merely to achieve apparent completion.
 
----
+______________________________________________________________________
 
-# 111. RSCF Node
+## 111. RSCF Node
 
 ```RSCF-NODE
 node_id: AMOS-OS-CONFLICT-REGISTRY
@@ -2613,9 +2611,9 @@ RSCF-RELATIONS:
   - PRESERVES_HISTORY_WITH: README
 ```
 
----
+______________________________________________________________________
 
-# 112. Canonical Summary
+## 112. Canonical Summary
 
 ```text
 DETECT
@@ -2773,12 +2771,14 @@ README
 ```text
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 **MOC:** [[01_CANON/08_SUPERSESSION/08_SUPERSESSION_MOC|08_SUPERSESSION_MOC]]

@@ -16,26 +16,26 @@ schema_family: RSCF
 schema_role: COLLAPSE_RECOVERY_RSCF
 schema_version: AMOS_CORE_v4.4-compatible-conceptual
 tags:
-- amos-os
-- canon
-- universe
-- core_laws
-- collapse
-- collapse_recovery
-- recovery
-- rollback
-- repair
-- selective_invalidation
-- dependency_graph
-- provenance
-- epistemic_regimes
-- competing_hypotheses
-- finality
-- rscf
-- canon/universe
-- placeholder_expanded
-- validation
-- local-finality
+  - amos-os
+  - canon
+  - universe
+  - core_laws
+  - collapse
+  - collapse_recovery
+  - recovery
+  - rollback
+  - repair
+  - selective_invalidation
+  - dependency_graph
+  - provenance
+  - epistemic_regimes
+  - competing_hypotheses
+  - finality
+  - rscf
+  - canon/universe
+  - placeholder_expanded
+  - validation
+  - local-finality
 version: 0.2.0
 updated: '2026-08-27'
 status: PLACEHOLDER_EXPANDED
@@ -64,7 +64,7 @@ rscf:
 
 `COLLAPSE_RECOVERY_CANON.md` is an **ADD-ONLY placeholder-expanded artifact** for:
 
-```text
+````text
 01_CANON/01_CORE_LAWS
 
 It reserves the canonical slot for the AMOS framework family named **Collapse Recovery Canon**.
@@ -90,7 +90,7 @@ AMOS_MODEL
 TARGET CONTRACT
 +
 CANON CANDIDATE
-```
+````
 
 until verified native-canon sources establish otherwise.
 
@@ -117,9 +117,9 @@ System:
 
 **AMOS OS**
 
----
+______________________________________________________________________
 
-# 1. Governing Integrity Boundary
+## 1. Governing Integrity Boundary
 
 The Collapse Recovery Canon MUST preserve:
 
@@ -185,9 +185,9 @@ LOGGED != APPROVED
 UNKNOWN/GAP != PASS
 ```
 
----
+______________________________________________________________________
 
-# 2. Purpose
+## 2. Purpose
 
 The target **Collapse Recovery Canon** governs recovery after a collapse operation, committed state, reasoning structure, dependency chain, provenance structure, or operational transition becomes invalid, inconsistent, stale, corrupted, conflicted, or otherwise unsafe to retain.
 
@@ -229,9 +229,9 @@ DEPENDENCY-COMPLETE VALID STATE
 WITHOUT DESTROYING UNAFFECTED WORK
 ```
 
----
+______________________________________________________________________
 
-# 3. Terminology Firewall
+## 3. Terminology Firewall
 
 Because substantive native canon has not yet been established, the term:
 
@@ -260,9 +260,9 @@ AMOS_MODEL
 
 not verified native canon.
 
----
+______________________________________________________________________
 
-# 4. Core Target Law
+## 4. Core Target Law
 
 Target governing principle:
 
@@ -292,9 +292,9 @@ ESCALATE
 
 rather than inventing locality.
 
----
+______________________________________________________________________
 
-# 5. Recovery Preservation Law
+## 5. Recovery Preservation Law
 
 Target:
 
@@ -318,28 +318,28 @@ ONE FAILED PREMISE
 ALL KNOWLEDGE INVALID
 ```
 
----
+______________________________________________________________________
 
-# 6. Non-Purpose
+## 6. Non-Purpose
 
 This artifact MUST NOT be used to claim:
 
-* universal laws of recovery;
-* physical reversal of irreversible processes;
-* quantum-state restoration;
-* biological regeneration mechanisms;
-* guaranteed fault tolerance;
-* guaranteed Byzantine recovery;
-* guaranteed distributed consensus recovery;
-* automatic rollback from every failure;
-* mathematical proof of recoverability;
-* runtime recovery mechanisms that have not been implemented;
-* canonical authority merely from architectural importance;
-* successful recovery merely because a recovery path is documented.
+- universal laws of recovery;
+- physical reversal of irreversible processes;
+- quantum-state restoration;
+- biological regeneration mechanisms;
+- guaranteed fault tolerance;
+- guaranteed Byzantine recovery;
+- guaranteed distributed consensus recovery;
+- automatic rollback from every failure;
+- mathematical proof of recoverability;
+- runtime recovery mechanisms that have not been implemented;
+- canonical authority merely from architectural importance;
+- successful recovery merely because a recovery path is documented.
 
----
+______________________________________________________________________
 
-# 7. Ingestion Rule
+## 7. Ingestion Rule
 
 ```yaml
 AMOS_CANON_INGESTION_RULE:
@@ -385,9 +385,9 @@ AMOS_CANON_INGESTION_RULE:
       - NEVER_INVENT_CANON
 ```
 
----
+______________________________________________________________________
 
-# 8. Recovery Trigger Classes
+## 8. Recovery Trigger Classes
 
 Target recovery triggers:
 
@@ -435,9 +435,9 @@ UNKNOWN_CRITICAL_DEPENDENCY
 
 These triggers MUST remain typed.
 
----
+______________________________________________________________________
 
-# 9. Recovery Classes
+## 9. Recovery Classes
 
 Target classes:
 
@@ -473,9 +473,9 @@ MULTI_RSCF_RECOVERY
 UNKNOWN_RECOVERY_CLASS
 ```
 
----
+______________________________________________________________________
 
-# 10. Recovery State Machine
+## 10. Recovery State Machine
 
 Target:
 
@@ -511,9 +511,9 @@ UNRECOVERABLE_WITH_CURRENT_EVIDENCE
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 11. Failure Localization
+## 11. Failure Localization
 
 Before rollback or repair, identify:
 
@@ -541,9 +541,9 @@ WHICH PROVENANCE PATH WAS USED
 
 Do not expand recovery scope beyond demonstrated dependency impact unless integrity requires escalation.
 
----
+______________________________________________________________________
 
-# 12. Selective Invalidation
+## 12. Selective Invalidation
 
 Suppose:
 
@@ -579,9 +579,9 @@ P3 → C4
 
 when independence remains established.
 
----
+______________________________________________________________________
 
-# 13. Dependency-Descendant Rule
+## 13. Dependency-Descendant Rule
 
 Conceptually:
 
@@ -595,9 +595,9 @@ only for descendants whose validity depends materially on `x`.
 
 Do not invalidate unrelated nodes merely because they share storage, proximity, naming, or timing.
 
----
+______________________________________________________________________
 
-# 14. Dependency-Ancestor Preservation
+## 14. Dependency-Ancestor Preservation
 
 A failed derived conclusion does not automatically invalidate its valid premises.
 
@@ -623,9 +623,9 @@ INVALIDATE P1
 INVALIDATE P2
 ```
 
----
+______________________________________________________________________
 
-# 15. Recovery Basin
+## 15. Recovery Basin
 
 A **recovery basin** is a target conceptual structure representing a previously valid or reconstructable state from which safe forward progress can resume.
 
@@ -653,9 +653,9 @@ VALIDATION STATE
 RECOVERY POINTER
 ```
 
----
+______________________________________________________________________
 
-# 16. Nearest Valid Recovery Basin
+## 16. Nearest Valid Recovery Basin
 
 Target principle:
 
@@ -676,9 +676,9 @@ or:
 RECOMPUTE EVERYTHING
 ```
 
----
+______________________________________________________________________
 
-# 17. Recovery Basin Validity
+## 17. Recovery Basin Validity
 
 A checkpoint or prior state is not automatically valid merely because it exists.
 
@@ -706,9 +706,9 @@ FRESHNESS
 VALIDATION RECEIPT
 ```
 
----
+______________________________________________________________________
 
-# 18. Checkpoint Firewall
+## 18. Checkpoint Firewall
 
 ```text
 CHECKPOINT EXISTS
@@ -726,9 +726,9 @@ CHECKPOINT VALID AT t2
 
 when regime, authority, dependencies, or evidence changed.
 
----
+______________________________________________________________________
 
-# 19. Backup Firewall
+## 19. Backup Firewall
 
 ```text
 BACKUP EXISTS
@@ -740,9 +740,9 @@ A backup may preserve corrupted or invalid state.
 
 Recovery requires validation of the restored state.
 
----
+______________________________________________________________________
 
-# 20. Rollback
+## 20. Rollback
 
 Rollback conceptually means:
 
@@ -754,9 +754,9 @@ PRIOR VALID STATE
 
 Rollback does not automatically repair the cause of failure.
 
----
+______________________________________________________________________
 
-# 21. Repair
+## 21. Repair
 
 Repair conceptually means:
 
@@ -770,9 +770,9 @@ REVALIDATED COMPONENT / EDGE / STATE
 
 Repair may occur without global rollback.
 
----
+______________________________________________________________________
 
-# 22. Rollback vs Repair
+## 22. Rollback vs Repair
 
 ```text
 ROLLBACK
@@ -798,9 +798,9 @@ NEITHER
 
 depending on failure class.
 
----
+______________________________________________________________________
 
-# 23. Reroute
+## 23. Reroute
 
 If a reasoning or execution path fails:
 
@@ -824,9 +824,9 @@ REROUTE TO B
 
 rather than repeatedly executing failed `A`.
 
----
+______________________________________________________________________
 
-# 24. Failed-Path Rule
+## 24. Failed-Path Rule
 
 ```text
 DO NOT REPEAT
@@ -839,9 +839,9 @@ OR CONDITIONS
 
 Blind retry is not recovery.
 
----
+______________________________________________________________________
 
-# 25. Retry Firewall
+## 25. Retry Firewall
 
 ```text
 RETRY
@@ -851,9 +851,9 @@ RECOVERY
 
 A retry is justified only when the failure mode permits retry and relevant conditions have changed or the failure was transient.
 
----
+______________________________________________________________________
 
-# 26. Recompute Firewall
+## 26. Recompute Firewall
 
 ```text
 RECOMPUTE
@@ -863,9 +863,9 @@ REPAIR
 
 Recomputation may reproduce the same invalid result if the defective premise or dependency remains unchanged.
 
----
+______________________________________________________________________
 
-# 27. Global Recompute Boundary
+## 27. Global Recompute Boundary
 
 Global recomputation is a last resort.
 
@@ -887,9 +887,9 @@ LOCAL REPAIR CANNOT ESTABLISH SAFETY
 CROSS-RSCF IMPACT CANNOT BE BOUNDED
 ```
 
----
+______________________________________________________________________
 
-# 28. Epistemic Recovery
+## 28. Epistemic Recovery
 
 If a conclusion was previously selected:
 
@@ -921,9 +921,9 @@ depending on the remaining evidence.
 
 Recovery does not require restoring the exact previous hypothesis set.
 
----
+______________________________________________________________________
 
-# 29. Reopening
+## 29. Reopening
 
 Target:
 
@@ -937,9 +937,9 @@ REOPEN AFFECTED POSSIBILITY SPACE
 
 Only justified alternatives should reopen.
 
----
+______________________________________________________________________
 
-# 30. Selective Reopening
+## 30. Selective Reopening
 
 Suppose:
 
@@ -967,9 +967,9 @@ not:
 
 unless the other elimination bases also fail.
 
----
+______________________________________________________________________
 
-# 31. Competing Recovery States
+## 31. Competing Recovery States
 
 Recovery may produce multiple valid candidates:
 
@@ -989,9 +989,9 @@ must remain visible.
 
 Do not force one recovery state merely to regain apparent determinism.
 
----
+______________________________________________________________________
 
-# 32. Recovery Under UNKNOWN/GAP
+## 32. Recovery Under UNKNOWN/GAP
 
 If the nearest valid recovery state cannot be established:
 
@@ -1007,9 +1007,9 @@ HOLD
 
 unless a governed safe fallback exists.
 
----
+______________________________________________________________________
 
-# 33. State Recovery
+## 33. State Recovery
 
 State recovery concerns restoration of a modeled or operational system state.
 
@@ -1027,9 +1027,9 @@ VALIDATION
 
 State restoration does not establish empirical truth outside the system's declared scope.
 
----
+______________________________________________________________________
 
-# 34. Provenance Recovery
+## 34. Provenance Recovery
 
 If provenance is missing or corrupted, recovery must distinguish:
 
@@ -1045,9 +1045,9 @@ TRUST RECOVERED
 
 Recovered content without recoverable provenance may remain epistemically degraded.
 
----
+______________________________________________________________________
 
-# 35. Provenance Reconstruction
+## 35. Provenance Reconstruction
 
 Target provenance recovery may reconstruct:
 
@@ -1071,9 +1071,9 @@ where evidence permits.
 
 Do not invent missing ancestry.
 
----
+______________________________________________________________________
 
-# 36. Provenance Gap
+## 36. Provenance Gap
 
 If ancestry cannot be reconstructed:
 
@@ -1083,9 +1083,9 @@ PROVENANCE = UNKNOWN/GAP
 
 The associated confidence ceiling MUST reflect that limitation where provenance is load-bearing.
 
----
+______________________________________________________________________
 
-# 37. Correlated-Provenance Recovery
+## 37. Correlated-Provenance Recovery
 
 Suppose a collapse was justified by:
 
@@ -1118,9 +1118,9 @@ COMPETING
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 38. Scope Recovery
+## 38. Scope Recovery
 
 If a claim was overgeneralized:
 
@@ -1144,9 +1144,9 @@ INVALID GLOBAL CLAIM
 VALID DOMAIN-BOUNDED CLAIM
 ```
 
----
+______________________________________________________________________
 
-# 39. Regime Recovery
+## 39. Regime Recovery
 
 If a result was valid under:
 
@@ -1172,9 +1172,9 @@ PRESERVE REGIME-INDEPENDENT RESULTS
 REVALIDATE UNDER R2
 ```
 
----
+______________________________________________________________________
 
-# 40. Temporal Recovery
+## 40. Temporal Recovery
 
 A stale conclusion may not be false.
 
@@ -1186,9 +1186,9 @@ REVALIDATION_REQUIRED
 
 rather than automatic rejection.
 
----
+______________________________________________________________________
 
-# 41. Authority Recovery
+## 41. Authority Recovery
 
 If authority expires or is revoked:
 
@@ -1204,9 +1204,9 @@ Already committed state requires governance-specific handling.
 
 Do not infer rollback authority from detection capability.
 
----
+______________________________________________________________________
 
-# 42. Governance Recovery
+## 42. Governance Recovery
 
 Governance recovery may involve:
 
@@ -1228,9 +1228,9 @@ depending on policy.
 
 The existence of technical rollback capability does not authorize its use.
 
----
+______________________________________________________________________
 
-# 43. Commit Recovery
+## 43. Commit Recovery
 
 If commit fails before authoritative finalization:
 
@@ -1254,9 +1254,9 @@ RETRY / REVALIDATE / HOLD
 
 as appropriate.
 
----
+______________________________________________________________________
 
-# 44. Partial Commit Recovery
+## 44. Partial Commit Recovery
 
 A partial commit is especially consequential when atomic semantics were required.
 
@@ -1276,9 +1276,9 @@ RESTORE COHERENCE
 VALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 45. Atomic Multi-RSCF Recovery
+## 45. Atomic Multi-RSCF Recovery
 
 Suppose an operation requires coherent transition of:
 
@@ -1302,9 +1302,9 @@ Recovery must restore a coherent admissible state before exposing authoritative 
 
 This is a conceptual integrity pattern, not evidence of an implemented distributed transaction engine.
 
----
+______________________________________________________________________
 
-# 46. MVCC Recovery Concept
+## 46. MVCC Recovery Concept
 
 If an operation reads:
 
@@ -1332,9 +1332,9 @@ RECOMPUTE AFFECTED RESULT
 
 This is a conceptual AMOS pattern, not a claim that all artifacts implement MVCC.
 
----
+______________________________________________________________________
 
-# 47. CAS Recovery Concept
+## 47. CAS Recovery Concept
 
 Target compare-and-swap recovery:
 
@@ -1351,9 +1351,9 @@ REVALIDATE
 
 Executable binding remains NOT_ESTABLISHED.
 
----
+______________________________________________________________________
 
-# 48. Finality Recovery
+## 48. Finality Recovery
 
 Operational finality can require reopening when a load-bearing validity condition fails.
 
@@ -1367,9 +1367,9 @@ IMMUNE TO INVALIDATION
 
 Finality must remain scoped and typed.
 
----
+______________________________________________________________________
 
-# 49. Local Finality Recovery
+## 49. Local Finality Recovery
 
 If a shard-local finalized state becomes invalid:
 
@@ -1383,9 +1383,9 @@ LOCAL RECOVERY
 
 may be sufficient only if independence from external state remains demonstrated.
 
----
+______________________________________________________________________
 
-# 50. Causal Epoch Recovery
+## 50. Causal Epoch Recovery
 
 Target conceptual sequence:
 
@@ -1407,9 +1407,9 @@ Unchanged independent results may survive the epoch transition.
 
 This is a reasoning pattern, not a claim that ChatGPT implements distributed causal epochs.
 
----
+______________________________________________________________________
 
-# 51. Epoch-Bounded Recovery
+## 51. Epoch-Bounded Recovery
 
 A recovery receipt SHOULD declare the epoch or equivalent validity context where epoch semantics matter.
 
@@ -1419,9 +1419,9 @@ RECOVERED_IN_EPOCH_E
 
 does not imply validity under all future epochs.
 
----
+______________________________________________________________________
 
-# 52. Recovery and Persistent Provenance
+## 52. Recovery and Persistent Provenance
 
 Recovery requires knowing:
 
@@ -1443,9 +1443,9 @@ WHAT WAS AUTHORIZED
 
 Persistent provenance materially improves recoverability.
 
----
+______________________________________________________________________
 
-# 53. Recovery Without Provenance
+## 53. Recovery Without Provenance
 
 If state exists but ancestry does not:
 
@@ -1461,9 +1461,9 @@ EPISTEMIC RECOVERY REMAINS INCOMPLETE
 
 These states MUST remain separate.
 
----
+______________________________________________________________________
 
-# 54. Recovery Proof Capsule
+## 54. Recovery Proof Capsule
 
 ```yaml
 recovery_proof_capsule:
@@ -1536,9 +1536,9 @@ This is a target schema.
 
 Executable binding is NOT_ESTABLISHED.
 
----
+______________________________________________________________________
 
-# 55. Recovery Confidence Ceiling
+## 55. Recovery Confidence Ceiling
 
 Conceptually:
 
@@ -1557,9 +1557,9 @@ where those components are material.
 
 This is a reasoning constraint, not a universal probability theorem.
 
----
+______________________________________________________________________
 
-# 56. Recovery Provenance Topology
+## 56. Recovery Provenance Topology
 
 Target:
 
@@ -1583,9 +1583,9 @@ RECOVERED STATE
 RECOMMIT / HOLD
 ```
 
----
+______________________________________________________________________
 
-# 57. Recovery Receipt
+## 57. Recovery Receipt
 
 A consequential recovery SHOULD produce a receipt containing:
 
@@ -1621,9 +1621,9 @@ VALIDATION RESULT
 UNRESOLVED GAPS
 ```
 
----
+______________________________________________________________________
 
-# 58. Target Recovery Receipt Schema
+## 58. Target Recovery Receipt Schema
 
 ```yaml
 recovery_receipt:
@@ -1678,9 +1678,9 @@ recovery_receipt:
 
 No executed receipt of this form is established by the supplied placeholder.
 
----
+______________________________________________________________________
 
-# 59. Recovery Fast Path
+## 59. Recovery Fast Path
 
 Local recovery may use a fast path only when:
 
@@ -1708,9 +1708,9 @@ NO IRREVERSIBLE EXTERNAL EFFECT
 RECOVERY BASIN VALID
 ```
 
----
+______________________________________________________________________
 
-# 60. Recovery Escalation Conditions
+## 60. Recovery Escalation Conditions
 
 Escalate when:
 
@@ -1744,9 +1744,9 @@ MULTIPLE COMPETING RECOVERY BASINS
 CHECKPOINT TRUST UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 61. Proof-Based Coordination Avoidance
+## 61. Proof-Based Coordination Avoidance
 
 Recovery SHOULD avoid global coordination only when broader state cannot materially alter the safe recovery result.
 
@@ -1760,9 +1760,9 @@ INDEPENDENCE IS DEMONSTRATED
 
 not assumed.
 
----
+______________________________________________________________________
 
-# 62. Structural Locality Firewall
+## 62. Structural Locality Firewall
 
 ```text
 FAILURE STORED LOCALLY
@@ -1774,9 +1774,9 @@ A local node may have remote descendants or causal effects.
 
 Dependency closure must determine recovery scope.
 
----
+______________________________________________________________________
 
-# 63. Causal Recovery Firewall
+## 63. Causal Recovery Firewall
 
 A recovery operation may restore operational consistency without reversing external causal effects.
 
@@ -1800,9 +1800,9 @@ PHYSICAL ACTION
 
 External effects require separate recovery semantics.
 
----
+______________________________________________________________________
 
-# 64. Irreversibility Firewall
+## 64. Irreversibility Firewall
 
 ```text
 STATE ROLLED BACK
@@ -1812,9 +1812,9 @@ WORLD ROLLED BACK
 
 This distinction is mandatory.
 
----
+______________________________________________________________________
 
-# 65. Compensating Action
+## 65. Compensating Action
 
 When external effects cannot be reversed, recovery may require a compensating action.
 
@@ -1834,9 +1834,9 @@ COMPENSATION
 ERASURE OF E
 ```
 
----
+______________________________________________________________________
 
-# 66. Reversibility Classes
+## 66. Reversibility Classes
 
 Target:
 
@@ -1854,9 +1854,9 @@ REVERSIBILITY_UNKNOWN
 
 Recovery planning SHOULD declare the appropriate class where consequential.
 
----
+______________________________________________________________________
 
-# 67. Recovery Action Governance
+## 67. Recovery Action Governance
 
 Validation depth increases with:
 
@@ -1878,24 +1878,24 @@ DOWNSTREAM DEPENDENCY
 
 Prefer staged reversible recovery when possible.
 
----
+______________________________________________________________________
 
-# 68. Adversarial Recovery Validation
+## 68. Adversarial Recovery Validation
 
 Before consequential recovery, challenge the proposed path:
 
 1. Is the failed premise correctly identified?
-2. Is the dependency impact larger than assumed?
-3. Is the proposed checkpoint actually valid?
-4. Does provenance share hidden ancestry with the failed state?
-5. Is the checkpoint stale?
-6. Has the regime changed?
-7. Has authority changed?
-8. Are there irreversible external effects?
-9. Is another recovery basin safer?
-10. Would rollback destroy valid unaffected work?
-11. Would repair preserve an invalid descendant?
-12. Is global coordination actually required?
+1. Is the dependency impact larger than assumed?
+1. Is the proposed checkpoint actually valid?
+1. Does provenance share hidden ancestry with the failed state?
+1. Is the checkpoint stale?
+1. Has the regime changed?
+1. Has authority changed?
+1. Are there irreversible external effects?
+1. Is another recovery basin safer?
+1. Would rollback destroy valid unaffected work?
+1. Would repair preserve an invalid descendant?
+1. Is global coordination actually required?
 
 If challenge succeeds:
 
@@ -1927,9 +1927,9 @@ or:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 69. Sensitivity
+## 69. Sensitivity
 
 Identify the smallest recovery assumption capable of changing the selected recovery path.
 
@@ -1953,9 +1953,9 @@ ONE EXTERNAL EFFECT
 
 Test it first.
 
----
+______________________________________________________________________
 
-# 70. Fragile Recovery
+## 70. Fragile Recovery
 
 If a small plausible change switches the preferred recovery basin:
 
@@ -1979,17 +1979,17 @@ COMPETING
 
 rather than presenting recovery as robust.
 
----
+______________________________________________________________________
 
-# 71. Robust Recovery
+## 71. Robust Recovery
 
 A recovery is more robust when plausible perturbations of noncritical assumptions do not change the safe recovered state.
 
 Robustness does not establish universal recoverability.
 
----
+______________________________________________________________________
 
-# 72. Worked Semantics — Failed Premise
+## 72. Worked Semantics — Failed Premise
 
 Graph:
 
@@ -2019,9 +2019,9 @@ C3
 
 Then recompute only the affected branch if possible.
 
----
+______________________________________________________________________
 
-# 73. Worked Semantics — Malformed Derivation
+## 73. Worked Semantics — Malformed Derivation
 
 Graph:
 
@@ -2048,9 +2048,9 @@ P1
 P2
 ```
 
----
+______________________________________________________________________
 
-# 74. Worked Semantics — Stale Evidence
+## 74. Worked Semantics — Stale Evidence
 
 Conclusion:
 
@@ -2078,9 +2078,9 @@ not necessarily:
 C = FALSE
 ```
 
----
+______________________________________________________________________
 
-# 75. Worked Semantics — Provenance Failure
+## 75. Worked Semantics — Provenance Failure
 
 Conclusion:
 
@@ -2112,9 +2112,9 @@ and possibly:
 DOWNGRADE / REOPEN / COMPETING
 ```
 
----
+______________________________________________________________________
 
-# 76. Worked Semantics — Scope Leakage
+## 76. Worked Semantics — Scope Leakage
 
 Claim:
 
@@ -2137,9 +2137,9 @@ PRESERVE C_D
 
 if `C_D` remains supported.
 
----
+______________________________________________________________________
 
-# 77. Worked Semantics — Regime Shift
+## 77. Worked Semantics — Regime Shift
 
 At epoch `E`:
 
@@ -2166,9 +2166,9 @@ WHOSE VALIDITY DEPENDS ON R1
 
 then revalidate under `R2`.
 
----
+______________________________________________________________________
 
-# 78. Worked Semantics — Version Conflict
+## 78. Worked Semantics — Version Conflict
 
 Operation reads:
 
@@ -2194,9 +2194,9 @@ READ v6
 REVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 79. Worked Semantics — Partial Multi-RSCF Commit
+## 79. Worked Semantics — Partial Multi-RSCF Commit
 
 Required atomic transition:
 
@@ -2222,9 +2222,9 @@ SUCCESS = FALSE
 
 Recovery must restore coherent state according to the governing transaction semantics.
 
----
+______________________________________________________________________
 
-# 80. Worked Semantics — Invalid Checkpoint
+## 80. Worked Semantics — Invalid Checkpoint
 
 Current state fails.
 
@@ -2244,9 +2244,9 @@ K1 = INVALID_RECOVERY_BASIN
 
 Search earlier or alternative valid basin.
 
----
+______________________________________________________________________
 
-# 81. Worked Semantics — Valid Local Recovery
+## 81. Worked Semantics — Valid Local Recovery
 
 Failure affects only:
 
@@ -2269,9 +2269,9 @@ B
 C
 ```
 
----
+______________________________________________________________________
 
-# 82. Worked Semantics — Hidden Dependency
+## 82. Worked Semantics — Hidden Dependency
 
 Initially:
 
@@ -2293,9 +2293,9 @@ Correct:
 EXPAND RECOVERY CLOSURE TO B
 ```
 
----
+______________________________________________________________________
 
-# 83. Worked Semantics — Irreversible External Effect
+## 83. Worked Semantics — Irreversible External Effect
 
 State commits:
 
@@ -2319,9 +2319,9 @@ from:
 EXTERNAL EFFECT COMPENSATION
 ```
 
----
+______________________________________________________________________
 
-# 84. Worked Semantics — Competing Basins
+## 84. Worked Semantics — Competing Basins
 
 Two checkpoints:
 
@@ -2342,9 +2342,9 @@ COMPETING
 
 or governance selection if the choice is policy-based.
 
----
+______________________________________________________________________
 
-# 85. Worked Semantics — Unknown Basin
+## 85. Worked Semantics — Unknown Basin
 
 No trustworthy checkpoint exists and provenance is incomplete.
 
@@ -2356,9 +2356,9 @@ UNKNOWN/GAP
 
 not arbitrary rollback.
 
----
+______________________________________________________________________
 
-# 86. Worked Semantics — Recovery Without Rollback
+## 86. Worked Semantics — Recovery Without Rollback
 
 Failure is isolated to:
 
@@ -2378,9 +2378,9 @@ REVALIDATE DEPENDENTS
 
 No rollback required.
 
----
+______________________________________________________________________
 
-# 87. Worked Semantics — Recovery by Reroute
+## 87. Worked Semantics — Recovery by Reroute
 
 Path:
 
@@ -2406,9 +2406,9 @@ REROUTE THROUGH D
 
 after validating independence and scope.
 
----
+______________________________________________________________________
 
-# 88. Worked Semantics — Failed Retry
+## 88. Worked Semantics — Failed Retry
 
 Path `P` fails due to malformed input.
 
@@ -2428,9 +2428,9 @@ OR
 SELECT DIFFERENT PATH
 ```
 
----
+______________________________________________________________________
 
-# 89. Worked Semantics — Finalized but Invalidated
+## 89. Worked Semantics — Finalized but Invalidated
 
 State:
 
@@ -2456,9 +2456,9 @@ S VALIDITY = INVALIDATED
 
 Recovery begins from the nearest admissible state.
 
----
+______________________________________________________________________
 
-# 90. Worked Semantics — Recovery Receipt Failure
+## 90. Worked Semantics — Recovery Receipt Failure
 
 A recovery operation reports:
 
@@ -2484,9 +2484,9 @@ depending on available evidence.
 
 Do not promote to VERIFIED.
 
----
+______________________________________________________________________
 
-# 91. Worked Semantics — Decision Recovery
+## 91. Worked Semantics — Decision Recovery
 
 A decision selected action `A`.
 
@@ -2501,9 +2501,9 @@ A → B
 
 But execution consequences from `A` must be handled separately.
 
----
+______________________________________________________________________
 
-# 92. Worked Semantics — Epistemic Recovery Without Decision Change
+## 92. Worked Semantics — Epistemic Recovery Without Decision Change
 
 Decision `A` was selected under:
 
@@ -2537,9 +2537,9 @@ while:
 DECISION NEED NOT CHANGE
 ```
 
----
+______________________________________________________________________
 
-# 93. Worked Semantics — Decision Changes Without Truth Resolution
+## 93. Worked Semantics — Decision Changes Without Truth Resolution
 
 Competing hypotheses:
 
@@ -2566,9 +2566,9 @@ safe under both.
 
 Decision recovery may select `B` while hypotheses remain competing.
 
----
+______________________________________________________________________
 
-# 94. Worked Semantics — Corrupted Provenance Topology
+## 94. Worked Semantics — Corrupted Provenance Topology
 
 If dependency/provenance graph corruption prevents bounding impact:
 
@@ -2584,9 +2584,9 @@ ESCALATE
 
 potentially to broader reconstruction or recomputation.
 
----
+______________________________________________________________________
 
-# 95. Worked Semantics — Recovery and Authority
+## 95. Worked Semantics — Recovery and Authority
 
 A technically valid rollback exists.
 
@@ -2608,9 +2608,9 @@ HOLD / ESCALATE
 
 not execution.
 
----
+______________________________________________________________________
 
-# 96. Worked Semantics — Recovery and Observation
+## 96. Worked Semantics — Recovery and Observation
 
 Monitoring detects:
 
@@ -2630,9 +2630,9 @@ AUTHORITY
 
 Monitoring does not itself authorize mutation.
 
----
+______________________________________________________________________
 
-# 97. Worked Semantics — Recovery and Logging
+## 97. Worked Semantics — Recovery and Logging
 
 A recovery event is logged.
 
@@ -2654,9 +2654,9 @@ nor:
 VALIDATED RECOVERY
 ```
 
----
+______________________________________________________________________
 
-# 98. Recovery Scope Firewall
+## 98. Recovery Scope Firewall
 
 Every consequential recovery SHOULD declare:
 
@@ -2675,9 +2675,9 @@ scope:
 
 Do not silently generalize recovery success outside this envelope.
 
----
+______________________________________________________________________
 
-# 99. Recovery Regime Firewall
+## 99. Recovery Regime Firewall
 
 A recovery procedure validated in:
 
@@ -2693,9 +2693,9 @@ REGIME R2
 
 Regime-sensitive recovery must revalidate.
 
----
+______________________________________________________________________
 
-# 100. Recovery Temporal Firewall
+## 100. Recovery Temporal Firewall
 
 A recovery basin can become stale.
 
@@ -2709,9 +2709,9 @@ VALID CHECKPOINT AT t2
 
 when load-bearing conditions change.
 
----
+______________________________________________________________________
 
-# 101. Recovery Scale Firewall
+## 101. Recovery Scale Firewall
 
 Subsystem recovery does not establish global recovery.
 
@@ -2723,9 +2723,9 @@ SYSTEM HEALTHY
 
 unless dependencies support that inference.
 
----
+______________________________________________________________________
 
-# 102. Cross-Domain Firewall
+## 102. Cross-Domain Firewall
 
 Recovery patterns from:
 
@@ -2751,9 +2751,9 @@ MODEL
 
 until independently validated.
 
----
+______________________________________________________________________
 
-# 103. Quantum Firewall
+## 103. Quantum Firewall
 
 Words such as:
 
@@ -2769,9 +2769,9 @@ do not establish correspondence with quantum mechanics.
 
 Any physical interpretation requires independent scientific evidence.
 
----
+______________________________________________________________________
 
-# 104. Ontological Firewall
+## 104. Ontological Firewall
 
 ```text
 MODEL STATE RECOVERED
@@ -2789,9 +2789,9 @@ or:
 PAST STATE RESTORED PHYSICALLY
 ```
 
----
+______________________________________________________________________
 
-# 105. Causal Firewall
+## 105. Causal Firewall
 
 Recovery order does not establish causal structure.
 
@@ -2807,9 +2807,9 @@ A CAUSED B TO RECOVER
 
 Causal claims require appropriately typed evidence.
 
----
+______________________________________________________________________
 
-# 106. Persistent Provenance Requirement
+## 106. Persistent Provenance Requirement
 
 For consequential recovery, target provenance should preserve:
 
@@ -2833,9 +2833,9 @@ AUTHORITY
 VERSION LINEAGE
 ```
 
----
+______________________________________________________________________
 
-# 107. Recovery Lineage
+## 107. Recovery Lineage
 
 Target lineage:
 
@@ -2861,9 +2861,9 @@ STATE_v3 NEVER EXISTED
 
 Historical lineage remains preserved.
 
----
+______________________________________________________________________
 
-# 108. Supersession Boundary
+## 108. Supersession Boundary
 
 A recovered state may supersede an invalid state.
 
@@ -2877,9 +2877,9 @@ ERASED
 
 Historical provenance should remain recoverable where governance permits.
 
----
+______________________________________________________________________
 
-# 109. Recovery and Canon
+## 109. Recovery and Canon
 
 Recovery of a canonical artifact MUST NOT silently overwrite prior canon.
 
@@ -2897,9 +2897,9 @@ ADD / SUPERSEDE UNDER GOVERNANCE
 
 consistent with the ADD-ONLY ingestion rule.
 
----
+______________________________________________________________________
 
-# 110. Canon Recovery Boundary
+## 110. Canon Recovery Boundary
 
 If a canon candidate is later invalidated:
 
@@ -2923,9 +2923,9 @@ LINEAGE
 REPLACEMENT STATUS
 ```
 
----
+______________________________________________________________________
 
-# 111. Recovery H/M/L Fractal Target
+## 111. Recovery H/M/L Fractal Target
 
 ```text
 H — COLLAPSE RECOVERY SYSTEM
@@ -2943,9 +2943,9 @@ Raw evidence defaults:
 DO_NOT_LOAD_UNLESS_REQUIRED
 ```
 
----
+______________________________________________________________________
 
-# 112. H-Layer
+## 112. H-Layer
 
 Target node:
 
@@ -2975,9 +2975,9 @@ REVALIDATION
 FINALITY RECOVERY
 ```
 
----
+______________________________________________________________________
 
-# 113. Candidate M-Layer Families
+## 113. Candidate M-Layer Families
 
 ```text
 M.FAILURE_DETECTION
@@ -3005,9 +3005,9 @@ M.REVALIDATION
 
 These are target organizational categories, not established native canon.
 
----
+______________________________________________________________________
 
-# 114. Candidate L-Layer Nodes
+## 114. Candidate L-Layer Nodes
 
 ```text
 L.FAILURE_EVENT
@@ -3043,9 +3043,9 @@ L.VALIDATION_RECEIPT
 L.GAP
 ```
 
----
+______________________________________________________________________
 
-# 115. RSCF Recovery Graph
+## 115. RSCF Recovery Graph
 
 Target:
 
@@ -3068,9 +3068,9 @@ FAILURE_EVENT
      └── OBSERVED_BY ───────> OBSERVABILITY
 ```
 
----
+______________________________________________________________________
 
-# 116. Recovery Lifecycle
+## 116. Recovery Lifecycle
 
 Target:
 
@@ -3098,9 +3098,9 @@ RECOMMITTED OR HELD
 RECEIPT RECORDED
 ```
 
----
+______________________________________________________________________
 
-# 117. Recovery Stop Conditions
+## 117. Recovery Stop Conditions
 
 Reasoning may stop when:
 
@@ -3124,9 +3124,9 @@ is achieved.
 
 Perfect reconstruction is not required if unresolved information cannot change the safe action.
 
----
+______________________________________________________________________
 
-# 118. Recovery Decision Sufficiency
+## 118. Recovery Decision Sufficiency
 
 If every plausible failure model supports:
 
@@ -3136,9 +3136,9 @@ HOLD
 
 then the decision may be sufficient even if the exact failure cause remains unresolved.
 
----
+______________________________________________________________________
 
-# 119. Recovery Action Sufficiency
+## 119. Recovery Action Sufficiency
 
 Action may proceed when:
 
@@ -3154,9 +3154,9 @@ ROLLBACK / COMPENSATION PLAN ADEQUATE
 UNRESOLVED GAPS NON-DECISIVE
 ```
 
----
+______________________________________________________________________
 
-# 120. Adaptive Complexity
+## 120. Adaptive Complexity
 
 Target levels:
 
@@ -3198,9 +3198,9 @@ GOVERNANCE IMPACT
 LOW TRUST
 ```
 
----
+______________________________________________________________________
 
-# 121. Recovery Uncertainty Vector
+## 121. Recovery Uncertainty Vector
 
 When material, track separately:
 
@@ -3228,9 +3228,9 @@ PROVENANCE-INDEPENDENCE UNCERTAINTY
 AUTHORITY UNCERTAINTY
 ```
 
----
+______________________________________________________________________
 
-# 122. Gap Taxonomy
+## 122. Gap Taxonomy
 
 ```text
 CRITICAL
@@ -3244,9 +3244,9 @@ COSMETIC
 
 Resolve in that order.
 
----
+______________________________________________________________________
 
-# 123. Critical Gap — Native Canon
+## 123. Critical Gap — Native Canon
 
 ```yaml
 gap:
@@ -3265,9 +3265,9 @@ gap:
     - lineage
 ```
 
----
+______________________________________________________________________
 
-# 124. Critical Gap — Native Recovery Definition
+## 124. Critical Gap — Native Recovery Definition
 
 ```yaml
 gap:
@@ -3282,9 +3282,9 @@ gap:
     expansion remain AMOS_MODEL target semantics.
 ```
 
----
+______________________________________________________________________
 
-# 125. Critical Gap — Executable Binding
+## 125. Critical Gap — Executable Binding
 
 ```yaml
 gap:
@@ -3297,9 +3297,9 @@ gap:
     has been established.
 ```
 
----
+______________________________________________________________________
 
-# 126. Critical Gap — Validation
+## 126. Critical Gap — Validation
 
 ```yaml
 gap:
@@ -3312,9 +3312,9 @@ gap:
     Recovery Canon has been established.
 ```
 
----
+______________________________________________________________________
 
-# 127. Decision-Relevant Gap — Recovery Atomicity
+## 127. Decision-Relevant Gap — Recovery Atomicity
 
 ```yaml
 gap:
@@ -3327,9 +3327,9 @@ gap:
     if any, require atomic multi-RSCF semantics.
 ```
 
----
+______________________________________________________________________
 
-# 128. Decision-Relevant Gap — Finality Semantics
+## 128. Decision-Relevant Gap — Finality Semantics
 
 ```yaml
 gap:
@@ -3342,40 +3342,40 @@ gap:
     Recovery Canon have not been established.
 ```
 
----
+______________________________________________________________________
 
-# 129. Promotion Gates
+## 129. Promotion Gates
 
 Before promotion from placeholder-expanded to populated canon:
 
-* [ ] substantive native-canon source recovered;
-* [ ] native meaning of collapse recovery established;
-* [ ] provenance and lineage established;
-* [ ] failure classes established;
-* [ ] recovery classes established;
-* [ ] recovery basin schema bound;
-* [ ] rollback semantics established;
-* [ ] repair semantics established;
-* [ ] reroute semantics established;
-* [ ] selective invalidation semantics established;
-* [ ] selective reopening semantics established;
-* [ ] scope and regime semantics established;
-* [ ] authority requirements established;
-* [ ] version semantics established;
-* [ ] persistent provenance implemented;
-* [ ] partial commit behavior tested;
-* [ ] multi-RSCF recovery behavior tested where applicable;
-* [ ] invalid checkpoint cases tested;
-* [ ] stale checkpoint cases tested;
-* [ ] irreversible-effect handling tested;
-* [ ] UNKNOWN/GAP fail-closed behavior tested;
-* [ ] recovery receipts persisted;
-* [ ] artifact-specific validation receipt executed;
-* [ ] unresolved critical gaps remain visible.
+- [ ] substantive native-canon source recovered;
+- [ ] native meaning of collapse recovery established;
+- [ ] provenance and lineage established;
+- [ ] failure classes established;
+- [ ] recovery classes established;
+- [ ] recovery basin schema bound;
+- [ ] rollback semantics established;
+- [ ] repair semantics established;
+- [ ] reroute semantics established;
+- [ ] selective invalidation semantics established;
+- [ ] selective reopening semantics established;
+- [ ] scope and regime semantics established;
+- [ ] authority requirements established;
+- [ ] version semantics established;
+- [ ] persistent provenance implemented;
+- [ ] partial commit behavior tested;
+- [ ] multi-RSCF recovery behavior tested where applicable;
+- [ ] invalid checkpoint cases tested;
+- [ ] stale checkpoint cases tested;
+- [ ] irreversible-effect handling tested;
+- [ ] UNKNOWN/GAP fail-closed behavior tested;
+- [ ] recovery receipts persisted;
+- [ ] artifact-specific validation receipt executed;
+- [ ] unresolved critical gaps remain visible.
 
----
+______________________________________________________________________
 
-# 130. Negative Validation Matrix
+## 130. Negative Validation Matrix
 
 Required target cases:
 
@@ -3437,9 +3437,9 @@ MISSING PROVENANCE
 MISSING AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 131. Recovery Mutation Discipline
+## 131. Recovery Mutation Discipline
 
 For consequential recovery:
 
@@ -3483,9 +3483,9 @@ RECOMMIT OR HOLD
 RECEIPT
 ```
 
----
+______________________________________________________________________
 
-# 132. Fail-Closed Rule
+## 132. Fail-Closed Rule
 
 If a load-bearing recovery field is unresolved:
 
@@ -3507,9 +3507,9 @@ HOLD
 
 unless an explicitly governed safe fallback exists.
 
----
+______________________________________________________________________
 
-# 133. Anti-Regression Gate
+## 133. Anti-Regression Gate
 
 A recovery optimization is admissible only if it preserves or improves:
 
@@ -3545,9 +3545,9 @@ Otherwise:
 ROLL BACK THE OPTIMIZATION
 ```
 
----
+______________________________________________________________________
 
-# 134. Integrity Priority
+## 134. Integrity Priority
 
 Target priority:
 
@@ -3565,9 +3565,9 @@ TOKEN SAVINGS
 
 A faster recovery that loses valid unaffected state or hides unresolved dependencies is invalid optimization.
 
----
+______________________________________________________________________
 
-# 135. Current Supported Canonical Claim
+## 135. Current Supported Canonical Claim
 
 From the supplied artifact itself, the strongest supported native statement is:
 
@@ -3592,9 +3592,9 @@ AMOS_MODEL / TARGET CONTRACT
 
 pending native-canon ingestion.
 
----
+______________________________________________________________________
 
-# 136. Current Proof Capsule
+## 136. Current Proof Capsule
 
 ```yaml
 proof_capsule:
@@ -3644,9 +3644,9 @@ proof_capsule:
     false
 ```
 
----
+______________________________________________________________________
 
-# 137. Canonical Knowledge Capsule
+## 137. Canonical Knowledge Capsule
 
 **Class: AMOS_MODEL / SOURCE_CLAIM**
 
@@ -3748,9 +3748,9 @@ UNKNOWN/GAP
 
 until verified native-canon sources and executed validation receipts establish otherwise.
 
----
+______________________________________________________________________
 
-# 138. Final Integrity Rule
+## 138. Final Integrity Rule
 
 Until substantive native canon is recovered:
 
@@ -3796,9 +3796,9 @@ VALIDATE
 PROMOTE WITH RECEIPTS
 ```
 
----
+______________________________________________________________________
 
-# 139. Canonical Invariants
+## 139. Canonical Invariants
 
 ```text
 INTEGRITY > COMPLETENESS > FLUENCY > SPEED > TOKEN SAVINGS
@@ -3879,7 +3879,7 @@ UNKNOWN/GAP != PASS
 
 ---
 
-**Related:**  ·  ·
+**Related:**  
 
 ---
 
@@ -3956,5 +3956,8 @@ RSCF-RELATIONS:
 **Validation:** NOT_ESTABLISHED
 
 
+```
+
+```
 ```
 ```

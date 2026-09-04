@@ -1,12 +1,15 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: L24 SELF REGULATION PRIMITIVES COGNITIVE MATRIX HML
 type: note
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L24_SELF_REGULATION
 tags:
-- note
-- matrix/l24-self-regulation
-- domain/cognitive-matrix
-- trang-framework-recursive-ontology-dynamics
+  - note
+  - matrix/l24-self-regulation
+  - domain/cognitive-matrix
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -26,11 +29,11 @@ rscf:
 
 Covers parameter adjustment policy, envelope bounds, and restoration-over-drift law.
 
-| Scale | Applicability |
-|---|---|
-| H | L24 governs system-level behavior at architecture scale. |
-| M | L24 operates on subsystem objects at process scale. |
-| L | L24 binds to concrete evidence items at detail scale. |
+| Scale | Applicability                                            |
+| ----- | -------------------------------------------------------- |
+| H     | L24 governs system-level behavior at architecture scale. |
+| M     | L24 operates on subsystem objects at process scale.      |
+| L     | L24 binds to concrete evidence items at detail scale.    |
 
 ## Hard boundaries
 
@@ -41,21 +44,23 @@ MODEL != VERIFIED
 UNKNOWN/GAP != PASS
 ```
 
----
+______________________________________________________________________
 
 [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: l24_primitives_hml
 node_type: note
 path: 01_PRIMITIVES/L24_SELF_REGULATION/L24_SELF_REGULATION_PRIMITIVES_COGNITIVE_MATRIX_HML.md
 claim_class: DERIVED
-node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/01_PRIMITIVES/L24_SELF_REGULATION/L24_SELF_REGULATION_PRIMITIVES_COGNITIVE_MATRIX_HML.md
+node_path_note: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L24_SELF_REGULATION/L24_SELF_REGULATION_PRIMITIVES_COGNITIVE_MATRIX_HML.md
 
----
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L24_SELF_REGULATION/L24_SELF_REGULATION_MOC|L24_SELF_REGULATION_MOC]]
 
----
-**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+______________________________________________________________________
 
+**Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

@@ -1,108 +1,111 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: 05 Frameworks MOC
 type: moc
 source: 11_KNOWLEDGE/05_FRAMEWORKS
 tags:
-- 05-frameworks
-- canon/knowledge
-- absolute-biological-integrity-framework
-- absolute-structural-integrity
-- amos-mind-os-framework
-- amos-organism-os-framework
-- amos-os-agent-framework
-- amos-ubi-super-engine
-- asea-adaptive-self-evolution-ai
-- bei-bioelectromagnetic-intelligence
-- bio-logical-architecture
-- bio-logical-architecture-framework
-- bio-logical-computing
-- bio-logical-computing-framework
-- cognitive-systems-architecture
-- consentx
-- design-for-absolute-integrity
-- directed-systemal-intelligence
-- domain-canon-programming
-- domain-canon-programming-dcp
-- first-principles-articulation
-- fpr-first-principle-reasoning
-- frai-fractal-reasoning-ai
-- heritage-civilization-system
-- heritage-fractal-mathematics
-- heritage-handbook
-- heritage-intelligence-master
-- heritage-lineage
-- heritage-music-acoustic-intelligence
-- heritage-pattern-intelligence
-- heritage-provenance
-- heritage-spatial-intelligence
-- heritage-symbolic-systems
-- heritage-to-amos-binding
-- heritage-to-trang-zero-binding
-- heritage-to-tss-binding
-- heritage-vietnamese-history
-- heritage-zero-framework
-- id-exchange
-- irreducible-systems-architecture
-- khung-trang
-- lawful-system-perception-model
-- ldai-logically-deterministic-ai
-- metacognitive-loop
-- nbi-neurobiological-intelligence
-- nei-neuroemotional-intelligence
-- neurosyncai-dual-system-architecture
-- neurosyncai-framework
-- neurosyncai-master
-- neurosyncai-recovery-engine
-- neutral-interface-training-protocol
-- phuong-phap-trang
-- post-theory-communication
-- psi-framework
-- psi-master
-- qcla-master
-- qls-framework
-- qls-master
-- ratpak
-- si-somatic-intelligence
-- tpe-trang-prediction-engine
-- trang-cascade
-- trang-framework-lineage
-- trang-grand-system
-- trang-grand-system-codex
-- trang-grand-system-logic-specification
-- trang-lacunarity
-- trang-lmh-architecture
-- trang-reality-architecture
-- trang-zero-framework
-- tss-meta-laws
-- tss-seven-cycles
-- tss-the-trang-system
-- tss-tpe-integration
-- uba-framework
-- uba-universal-biological-architecture
-- ubi-absolute-biological-integrity
-- ubi-biological-programming
-- ubi-cognition-binding
-- ubi-consentx-binding
-- ubi-cross-species-functional-modes
-- ubi-emotion-binding
-- ubi-entropy-correction
-- ubi-fractal-architecture
-- ubi-framework
-- ubi-full-brain-binding
-- ubi-homeostasis
-- ubi-id-exchange-binding
-- ubi-lineage
-- ubi-master
-- ubi-neurosyncai-binding
-- ubi-omnis
-- ubi-provenance
-- ubi-ratpak-binding
-- ubi-score
-- ubi-score-framework
-- ubi-super
-- ubi-wearable
-- ubi-wearable-framework
-- unified-biological-intelligence
+  - 05-frameworks
+  - canon/knowledge
+  - absolute-biological-integrity-framework
+  - absolute-structural-integrity
+  - amos-mind-os-framework
+  - amos-organism-os-framework
+  - amos-os-agent-framework
+  - amos-ubi-super-engine
+  - asea-adaptive-self-evolution-ai
+  - bei-bioelectromagnetic-intelligence
+  - bio-logical-architecture
+  - bio-logical-architecture-framework
+  - bio-logical-computing
+  - bio-logical-computing-framework
+  - cognitive-systems-architecture
+  - consentx
+  - design-for-absolute-integrity
+  - directed-systemal-intelligence
+  - domain-canon-programming
+  - domain-canon-programming-dcp
+  - first-principles-articulation
+  - fpr-first-principle-reasoning
+  - frai-fractal-reasoning-ai
+  - heritage-civilization-system
+  - heritage-fractal-mathematics
+  - heritage-handbook
+  - heritage-intelligence-master
+  - heritage-lineage
+  - heritage-music-acoustic-intelligence
+  - heritage-pattern-intelligence
+  - heritage-provenance
+  - heritage-spatial-intelligence
+  - heritage-symbolic-systems
+  - heritage-to-amos-binding
+  - heritage-to-trang-zero-binding
+  - heritage-to-tss-binding
+  - heritage-vietnamese-history
+  - heritage-zero-framework
+  - id-exchange
+  - irreducible-systems-architecture
+  - khung-trang
+  - lawful-system-perception-model
+  - ldai-logically-deterministic-ai
+  - metacognitive-loop
+  - nbi-neurobiological-intelligence
+  - nei-neuroemotional-intelligence
+  - neurosyncai-dual-system-architecture
+  - neurosyncai-framework
+  - neurosyncai-master
+  - neurosyncai-recovery-engine
+  - neutral-interface-training-protocol
+  - phuong-phap-trang
+  - post-theory-communication
+  - psi-framework
+  - psi-master
+  - qcla-master
+  - qls-framework
+  - qls-master
+  - ratpak
+  - si-somatic-intelligence
+  - tpe-trang-prediction-engine
+  - trang-cascade
+  - trang-framework-lineage
+  - trang-grand-system
+  - trang-grand-system-codex
+  - trang-grand-system-logic-specification
+  - trang-lacunarity
+  - trang-lmh-architecture
+  - trang-reality-architecture
+  - trang-zero-framework
+  - tss-meta-laws
+  - tss-seven-cycles
+  - tss-the-trang-system
+  - tss-tpe-integration
+  - uba-framework
+  - uba-universal-biological-architecture
+  - ubi-absolute-biological-integrity
+  - ubi-biological-programming
+  - ubi-cognition-binding
+  - ubi-consentx-binding
+  - ubi-cross-species-functional-modes
+  - ubi-emotion-binding
+  - ubi-entropy-correction
+  - ubi-fractal-architecture
+  - ubi-framework
+  - ubi-full-brain-binding
+  - ubi-homeostasis
+  - ubi-id-exchange-binding
+  - ubi-lineage
+  - ubi-master
+  - ubi-neurosyncai-binding
+  - ubi-omnis
+  - ubi-provenance
+  - ubi-ratpak-binding
+  - ubi-score
+  - ubi-score-framework
+  - ubi-super
+  - ubi-wearable
+  - ubi-wearable-framework
+  - unified-biological-intelligence
 moc: true
 rscf:
   state: SOURCE_CLAIM
@@ -218,5 +221,6 @@ rscf:
 - [[11_KNOWLEDGE/05_FRAMEWORKS/UBI_WEARABLE_FRAMEWORK|UBI_WEARABLE_FRAMEWORK]]
 - [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]]
 
----
+______________________________________________________________________
+
 **Parent:** [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]]

@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: AMOS PRODUCT MANAGEMENT KERNEL V0 TECH7 3
 tags:
-- canon-group/tech-ai
-- canon/narrative
-- rscf/claim
-- rscf/provenance
-- rscf/state/source-claim
-- topic/amos-product-management-kernel-v0
-- kernel
+  - canon-group/tech-ai
+  - canon/narrative
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - topic/amos-product-management-kernel-v0
+  - kernel
 type: data
 source: 11_KNOWLEDGE/kernel
 rscf:
@@ -99,6 +102,6 @@ rscf:
 **Related:** [[11_KNOWLEDGE/kernel/AMOS_PROBABILITY_STATISTICS_KERNEL|AMOS_PROBABILITY_STATISTICS_KERNEL]] · [[11_KNOWLEDGE/kernel/AMOS_SIMULATION_KERNEL|AMOS_SIMULATION_KERNEL]] · [[13_MODELS/04_DOMAIN/TPE_MODEL_REGISTRY|TPE_MODEL_REGISTRY]] · [[11_KNOWLEDGE/kernel/GOVERNANCE_KERNEL|GOVERNANCE_KERNEL]]
 ```
 
----
-**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]
+______________________________________________________________________
 
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]

@@ -1,11 +1,14 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: 12_GENERATORS — Generator Tests
 type: test
 source: 25_COGNITIVE_MATRIX/12_GENERATORS
 tags:
-- note
-- 12-generators
-- domain/cognitive-matrix
+  - note
+  - 12-generators
+  - domain/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -21,9 +24,9 @@ rscf:
 
 **Status:** `CONDITIONAL / TEST ARCHITECTURE DEFINED / IMPLEMENTATION MUST BE PROVEN`
 
----
+______________________________________________________________________
 
-# 1. Purpose
+## 1. Purpose
 
 `GENERATOR_TESTS.md` defines how AMOS determines whether a registered generator:
 
@@ -61,9 +64,9 @@ Empirical validation evaluates whether claims correspond to reality.
 
 Those are three different validation layers.
 
----
+______________________________________________________________________
 
-# 2. Test Architecture Position
+## 2. Test Architecture Position
 
 Generator tests sit between generator execution and deployment/commit eligibility.
 
@@ -103,9 +106,9 @@ A passing generator test may make a candidate **eligible for further review**.
 
 It does not grant authority.
 
----
+______________________________________________________________________
 
-# 3. Core Testing Principle
+## 3. Core Testing Principle
 
 ```text
 TestGenerator(G)
@@ -143,9 +146,9 @@ validated_in(regime A)
 validated_in(regime B)
 ```
 
----
+______________________________________________________________________
 
-# 4. Hard Boundaries
+## 4. Hard Boundaries
 
 ```text
 PLACEHOLDER != IMPLEMENTED
@@ -185,9 +188,9 @@ REPEATED_PASS != INDEPENDENT_CONFIRMATION
 UNKNOWN/GAP != PASS
 ```
 
----
+______________________________________________________________________
 
-# 5. Test Object
+## 5. Test Object
 
 A test must identify exactly what is being tested.
 
@@ -204,9 +207,9 @@ test_target:
 
 If the implementation changes materially, prior test results must not automatically transfer.
 
----
+______________________________________________________________________
 
-# 6. Test Capsule
+## 6. Test Capsule
 
 Every material generator test should be representable as:
 
@@ -259,9 +262,9 @@ falsifiers: []
 confidence_ceiling: null
 ```
 
----
+______________________________________________________________________
 
-# 7. Test Result Classes
+## 7. Test Result Classes
 
 Generator tests should return one of:
 
@@ -309,9 +312,9 @@ UNKNOWN/GAP
 required evidence or test definition is missing
 ```
 
----
+______________________________________________________________________
 
-# 8. Test Layers
+## 8. Test Layers
 
 Generator testing operates at multiple levels.
 
@@ -337,9 +340,9 @@ L8 — REGRESSION / SUPERSESSION
 
 A generator that passes `L1` is not thereby validated at `L7`.
 
----
+______________________________________________________________________
 
-# 9. L0 — Static Contract Tests
+## 9. L0 — Static Contract Tests
 
 Static tests verify that the generator is fully described.
 
@@ -378,9 +381,9 @@ UNKNOWN
 
 not fabricated.
 
----
+______________________________________________________________________
 
-# 10. Identity Tests
+## 10. Identity Tests
 
 Test that:
 
@@ -418,9 +421,9 @@ or
 new generator identity
 ```
 
----
+______________________________________________________________________
 
-# 11. Input-Type Tests
+## 11. Input-Type Tests
 
 Each generator must reject unsupported input types unless a declared conversion exists.
 
@@ -453,9 +456,9 @@ Never:
 silently reinterpret
 ```
 
----
+______________________________________________________________________
 
-# 12. Output-Type Tests
+## 12. Output-Type Tests
 
 Generated output must match declared artifact and epistemic type.
 
@@ -475,9 +478,9 @@ artifact_type: VERIFIED_FACT
 
 unless an independent validation layer explicitly upgraded it.
 
----
+______________________________________________________________________
 
-# 13. State-Transition Tests
+## 13. State-Transition Tests
 
 Test legal transitions.
 
@@ -520,9 +523,9 @@ GENERATING
 
 without validation and authority gates.
 
----
+______________________________________________________________________
 
-# 14. Operator Tests
+## 14. Operator Tests
 
 Each declared operator should be tested independently where possible.
 
@@ -557,9 +560,9 @@ state mutation
 provenance emission
 ```
 
----
+______________________________________________________________________
 
-# 15. Invariant Tests
+## 15. Invariant Tests
 
 Core invariants must always be tested.
 
@@ -620,9 +623,9 @@ Unresolved contradiction remains visible.
 
 Derived confidence cannot exceed load-bearing premise confidence without revalidation.
 
----
+______________________________________________________________________
 
-# 16. Determinism Tests
+## 16. Determinism Tests
 
 If the generator is declared deterministic:
 
@@ -654,9 +657,9 @@ to be recorded.
 
 A stochastic generator should not fail determinism tests merely because stochasticity is intentional.
 
----
+______________________________________________________________________
 
-# 17. Idempotence Tests
+## 17. Idempotence Tests
 
 Where idempotence is claimed:
 
@@ -688,9 +691,9 @@ adaptive planning
 
 Do not require idempotence universally.
 
----
+______________________________________________________________________
 
-# 18. Boundary-Value Tests
+## 18. Boundary-Value Tests
 
 Test values around declared thresholds.
 
@@ -719,9 +722,9 @@ resource limit
 freshness
 ```
 
----
+______________________________________________________________________
 
-# 19. Null / Missing Input Tests
+## 19. Null / Missing Input Tests
 
 Test:
 
@@ -750,9 +753,9 @@ into:
 plausible evidence
 ```
 
----
+______________________________________________________________________
 
-# 20. Contradictory Input Tests
+## 20. Contradictory Input Tests
 
 Provide mutually inconsistent inputs.
 
@@ -775,9 +778,9 @@ pick whichever input appears first
 
 unless a declared precedence rule exists.
 
----
+______________________________________________________________________
 
-# 21. Stale Input Tests
+## 21. Stale Input Tests
 
 Input includes expired or outdated state.
 
@@ -798,9 +801,9 @@ or mark stale
 
 It must not silently use stale state as current.
 
----
+______________________________________________________________________
 
-# 22. Scope-Leak Tests
+## 22. Scope-Leak Tests
 
 Provide an input valid only for:
 
@@ -826,9 +829,9 @@ or
 classify as extrapolation / MODEL / CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
-# 23. H/M/L Tests
+## 23. H/M/L Tests
 
 Test that generator behavior matches declared scale.
 
@@ -848,9 +851,9 @@ replace system-wide governance model
 
 unless explicitly authorized and routed to H-level design.
 
----
+______________________________________________________________________
 
-# 24. Dependency Tests
+## 24. Dependency Tests
 
 Test missing dependency:
 
@@ -875,9 +878,9 @@ Test incompatible dependency regime.
 
 Test dependency failure mid-generation.
 
----
+______________________________________________________________________
 
-# 25. Dependency-Closure Tests
+## 25. Dependency-Closure Tests
 
 If premise `P` changes:
 
@@ -910,9 +913,9 @@ C4
 
 This tests local repair and dependency closure.
 
----
+______________________________________________________________________
 
-# 26. Provenance Tests
+## 26. Provenance Tests
 
 Every material output should preserve:
 
@@ -940,9 +943,9 @@ provenance validation failure
 
 if that edge is load-bearing.
 
----
+______________________________________________________________________
 
-# 27. Provenance Independence Tests
+## 27. Provenance Independence Tests
 
 Construct:
 
@@ -963,9 +966,9 @@ Expected independent count:
 
 unless independent confirmation exists.
 
----
+______________________________________________________________________
 
-# 28. Sybil / Evidence Multiplication Tests
+## 28. Sybil / Evidence Multiplication Tests
 
 Provide many repeated or reformatted copies of one claim.
 
@@ -983,9 +986,9 @@ Invalid:
 → 100x confidence
 ```
 
----
+______________________________________________________________________
 
-# 29. Confidence-Ceiling Tests
+## 29. Confidence-Ceiling Tests
 
 Given:
 
@@ -1009,9 +1012,9 @@ Expected:
 FAIL / CEILING VIOLATION
 ```
 
----
+______________________________________________________________________
 
-# 30. Uncertainty-Vector Tests
+## 30. Uncertainty-Vector Tests
 
 Generator should preserve separate uncertainties when material:
 
@@ -1027,9 +1030,9 @@ provenance_independence_uncertainty:
 
 Test that high uncertainty in one dimension is not hidden inside a misleading average.
 
----
+______________________________________________________________________
 
-# 31. Causal-Firewall Tests
+## 31. Causal-Firewall Tests
 
 Provide:
 
@@ -1063,9 +1066,9 @@ intervention effect
 feedback
 ```
 
----
+______________________________________________________________________
 
-# 32. Analogy Tests
+## 32. Analogy Tests
 
 Provide structurally similar systems.
 
@@ -1083,9 +1086,9 @@ causal equivalence
 
 unless validated.
 
----
+______________________________________________________________________
 
-# 33. Competing-Hypothesis Tests
+## 33. Competing-Hypothesis Tests
 
 Given observations compatible with:
 
@@ -1109,9 +1112,9 @@ Expected:
 identify cheapest high-information discriminator
 ```
 
----
+______________________________________________________________________
 
-# 34. Counter-Hypothesis Tests
+## 34. Counter-Hypothesis Tests
 
 For a generator that produces a primary hypothesis, test whether its challenge path is genuinely different.
 
@@ -1134,9 +1137,9 @@ shared ancestry
 regime mismatch
 ```
 
----
+______________________________________________________________________
 
-# 35. Fabrication Tests
+## 35. Fabrication Tests
 
 Remove a required fact from input.
 
@@ -1156,9 +1159,9 @@ invent plausible missing content
 
 This is a critical test class.
 
----
+______________________________________________________________________
 
-# 36. False-Precision Tests
+## 36. False-Precision Tests
 
 Provide highly uncertain input.
 
@@ -1173,9 +1176,9 @@ output: 63.4281
 
 without justified computation.
 
----
+______________________________________________________________________
 
-# 37. Schema Tests
+## 37. Schema Tests
 
 Generated JSON/YAML/schema artifacts must be validated for:
 
@@ -1193,9 +1196,9 @@ compatibility
 
 Passing schema validation does not establish semantic correctness.
 
----
+______________________________________________________________________
 
-# 38. Code Generator Tests
+## 38. Code Generator Tests
 
 Code generators require additional tests for:
 
@@ -1221,9 +1224,9 @@ UNTESTED
 
 until execution evidence exists.
 
----
+______________________________________________________________________
 
-# 39. Simulation Generator Tests
+## 39. Simulation Generator Tests
 
 Test simulation definitions for:
 
@@ -1251,9 +1254,9 @@ MODEL_OUTPUT
 
 not `OBSERVATION`.
 
----
+______________________________________________________________________
 
-# 40. Scenario Generator Tests
+## 40. Scenario Generator Tests
 
 Scenario tests check:
 
@@ -1268,9 +1271,9 @@ constraint compatibility
 
 Scenario must not be relabeled as forecast unless probability calibration exists.
 
----
+______________________________________________________________________
 
-# 41. Plan Generator Tests
+## 41. Plan Generator Tests
 
 Test generated plans for:
 
@@ -1290,9 +1293,9 @@ A plan can be logically coherent while operationally impossible.
 
 Therefore include executability checks separately.
 
----
+______________________________________________________________________
 
-# 42. Workflow Generator Tests
+## 42. Workflow Generator Tests
 
 Generated workflows should be tested for:
 
@@ -1308,9 +1311,9 @@ failure escalation
 authority gates
 ```
 
----
+______________________________________________________________________
 
-# 43. Protocol Generator Tests
+## 43. Protocol Generator Tests
 
 Test:
 
@@ -1329,9 +1332,9 @@ replay protection
 
 Protocol correctness is regime-specific.
 
----
+______________________________________________________________________
 
-# 44. Agent Generator Tests
+## 44. Agent Generator Tests
 
 Generated agent specs should validate:
 
@@ -1359,9 +1362,9 @@ Expected:
 BLOCK / FAIL
 ```
 
----
+______________________________________________________________________
 
-# 45. Skill Generator Tests
+## 45. Skill Generator Tests
 
 Generated skills should be checked for:
 
@@ -1378,9 +1381,9 @@ error handling
 
 AMOS engine semantics must not be silently replaced by host-skill mechanics.
 
----
+______________________________________________________________________
 
-# 46. Artifact Generator Tests
+## 46. Artifact Generator Tests
 
 For document/file generators:
 
@@ -1398,9 +1401,9 @@ no truncation
 
 A file successfully created is not necessarily substantively complete.
 
----
+______________________________________________________________________
 
-# 47. Placeholder-Leak Tests
+## 47. Placeholder-Leak Tests
 
 Search generated output for:
 
@@ -1421,9 +1424,9 @@ But explicit `UNKNOWN/GAP` fields are valid when the underlying knowledge is act
 
 Do not confuse honest gap marking with incomplete implementation.
 
----
+______________________________________________________________________
 
-# 48. Duplicate-Content Tests
+## 48. Duplicate-Content Tests
 
 Test for:
 
@@ -1438,9 +1441,9 @@ especially in large generated knowledge architectures.
 
 Repeated placeholders must not be mistaken for depth.
 
----
+______________________________________________________________________
 
-# 49. Semantic-Diversity Tests
+## 49. Semantic-Diversity Tests
 
 For multi-node knowledge generation, ensure distinct nodes contain genuinely different semantic content.
 
@@ -1455,9 +1458,9 @@ Layer 100000 = same sentence
 
 even if identifiers differ.
 
----
+______________________________________________________________________
 
-# 50. Overlap Tests
+## 50. Overlap Tests
 
 When generated content is partitioned:
 
@@ -1487,9 +1490,9 @@ intended source scope
 
 where lossless partitioning is claimed.
 
----
+______________________________________________________________________
 
-# 51. Coverage Tests
+## 51. Coverage Tests
 
 Coverage is meaningful only against declared scope.
 
@@ -1509,9 +1512,9 @@ Do not report:
 
 when only schema fields were covered.
 
----
+______________________________________________________________________
 
-# 52. Mutation Tests
+## 52. Mutation Tests
 
 Deliberately alter implementation logic.
 
@@ -1529,9 +1532,9 @@ Tests should fail.
 
 If tests still pass after these mutations, the suite is insufficient.
 
----
+______________________________________________________________________
 
-# 53. Property-Based Tests
+## 53. Property-Based Tests
 
 Where appropriate, generate many valid/invalid inputs and test invariants.
 
@@ -1549,9 +1552,9 @@ scope never broadens silently
 provenance lineage never disappears
 ```
 
----
+______________________________________________________________________
 
-# 54. Metamorphic Tests
+## 54. Metamorphic Tests
 
 When exact expected output is difficult to specify, test relationships.
 
@@ -1569,9 +1572,9 @@ reducing confidence in a load-bearing premise
 should not increase output confidence
 ```
 
----
+______________________________________________________________________
 
-# 55. Adversarial Tests
+## 55. Adversarial Tests
 
 Test intentionally hostile conditions:
 
@@ -1590,9 +1593,9 @@ partial state corruption
 
 Expected behavior is safe degradation, not fluent compliance.
 
----
+______________________________________________________________________
 
-# 56. Authority Tests
+## 56. Authority Tests
 
 Test generator under:
 
@@ -1623,9 +1626,9 @@ COMMIT_SCOPED
 → commit only within exact scope
 ```
 
----
+______________________________________________________________________
 
-# 57. Privilege-Escalation Tests
+## 57. Privilege-Escalation Tests
 
 Attempt:
 
@@ -1651,9 +1654,9 @@ REJECT
 
 Generated text cannot create authority.
 
----
+______________________________________________________________________
 
-# 58. Read-Set Tests
+## 58. Read-Set Tests
 
 Declare:
 
@@ -1672,9 +1675,9 @@ stale read detected
 
 This supports MVCC/CAS-style integrity.
 
----
+______________________________________________________________________
 
-# 59. Write-Set Tests
+## 59. Write-Set Tests
 
 Attempt write outside declared set.
 
@@ -1692,9 +1695,9 @@ Expected:
 BLOCK
 ```
 
----
+______________________________________________________________________
 
-# 60. Proposal / Commit Tests
+## 60. Proposal / Commit Tests
 
 Generator returns:
 
@@ -1710,9 +1713,9 @@ Critical invariant:
 PROPOSAL != COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 61. Rollback Tests
+## 61. Rollback Tests
 
 For effectful generator workflows:
 
@@ -1735,9 +1738,9 @@ remain coherent.
 
 Rollback should not erase historical evidence that the failed commit occurred.
 
----
+______________________________________________________________________
 
-# 62. Atomicity Tests
+## 62. Atomicity Tests
 
 For multi-artifact generation:
 
@@ -1763,9 +1766,9 @@ none committed
 
 unless partial commit semantics are explicitly defined.
 
----
+______________________________________________________________________
 
-# 63. Multi-RSCF Tests
+## 63. Multi-RSCF Tests
 
 When a generator produces several linked RSCF objects:
 
@@ -1779,9 +1782,9 @@ test that dependencies and finalization are internally consistent.
 
 No RSCF should finalize using a dependency that remains unresolved unless explicitly conditional.
 
----
+______________________________________________________________________
 
-# 64. Concurrency Tests
+## 64. Concurrency Tests
 
 Two generators simultaneously modify related state.
 
@@ -1797,9 +1800,9 @@ rollback behavior
 
 No silent last-write-wins unless explicitly designed.
 
----
+______________________________________________________________________
 
-# 65. Race-Condition Tests
+## 65. Race-Condition Tests
 
 Example:
 
@@ -1815,9 +1818,9 @@ Expected:
 G1 blocked or revalidated
 ```
 
----
+______________________________________________________________________
 
-# 66. Retry Tests
+## 66. Retry Tests
 
 Cause transient failure.
 
@@ -1835,9 +1838,9 @@ idempotence
 
 Repeated identical failure without changed conditions should terminate rather than loop forever.
 
----
+______________________________________________________________________
 
-# 67. Infinite-Loop Tests
+## 67. Infinite-Loop Tests
 
 Detect:
 
@@ -1857,9 +1860,9 @@ no decision-relevant change
 → HALT / ESCALATE
 ```
 
----
+______________________________________________________________________
 
-# 68. Resource-Bound Tests
+## 68. Resource-Bound Tests
 
 Test under constrained:
 
@@ -1875,9 +1878,9 @@ network
 
 A generator must fail clearly rather than return a truncated artifact as complete.
 
----
+______________________________________________________________________
 
-# 69. Truncation Tests
+## 69. Truncation Tests
 
 Deliberately interrupt output.
 
@@ -1895,9 +1898,9 @@ SUCCESS
 
 If partial artifacts are valid, they must be explicitly marked partial.
 
----
+______________________________________________________________________
 
-# 70. Failure-Injection Tests
+## 70. Failure-Injection Tests
 
 Inject failures into:
 
@@ -1915,9 +1918,9 @@ commit
 
 Test local containment and recovery.
 
----
+______________________________________________________________________
 
-# 71. Repair Tests
+## 71. Repair Tests
 
 After induced failure:
 
@@ -1931,9 +1934,9 @@ revalidate
 
 Test that global recomputation does not occur unnecessarily.
 
----
+______________________________________________________________________
 
-# 72. Local Invalidation Tests
+## 72. Local Invalidation Tests
 
 Given:
 
@@ -1952,9 +1955,9 @@ C2 invalid
 C3 preserved
 ```
 
----
+______________________________________________________________________
 
-# 73. Supersession Tests
+## 73. Supersession Tests
 
 When generator version `v2` supersedes `v1`:
 
@@ -1969,9 +1972,9 @@ Prior artifacts generated by `v1` remain provenance-addressable.
 
 Do not rewrite historical lineage as though `v2` generated them.
 
----
+______________________________________________________________________
 
-# 74. Regression Tests
+## 74. Regression Tests
 
 Every validated bug fix should create a regression test.
 
@@ -1989,9 +1992,9 @@ input missing required evidence
 expected UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 75. Anti-Regression Tests
+## 75. Anti-Regression Tests
 
 Architecture updates must not weaken:
 
@@ -2008,9 +2011,9 @@ confidence ceilings
 
 A faster generator that drops any of those must fail architecture acceptance.
 
----
+______________________________________________________________________
 
-# 76. Validator Tests
+## 76. Validator Tests
 
 Validators themselves require testing.
 
@@ -2034,9 +2037,9 @@ validator
 truth oracle
 ```
 
----
+______________________________________________________________________
 
-# 77. Validator Independence
+## 77. Validator Independence
 
 Where consequential, use validators with materially different failure paths.
 
@@ -2052,9 +2055,9 @@ Generator
 
 If all validators share the same model and assumptions, apparent agreement may be correlated.
 
----
+______________________________________________________________________
 
-# 78. Validator-Circularity Tests
+## 78. Validator-Circularity Tests
 
 Invalid:
 
@@ -2070,9 +2073,9 @@ without independent criteria.
 
 Circular validation should lower confidence or require an independent path.
 
----
+______________________________________________________________________
 
-# 79. Golden-Test Fixtures
+## 79. Golden-Test Fixtures
 
 Where stable outputs exist, preserve trusted fixtures.
 
@@ -2091,9 +2094,9 @@ validated_by: []
 
 Golden fixtures must be versioned.
 
----
+______________________________________________________________________
 
-# 80. Snapshot Tests
+## 80. Snapshot Tests
 
 Useful for structured generated artifacts.
 
@@ -2101,9 +2104,9 @@ But snapshot equality alone cannot establish semantic correctness.
 
 Snapshot tests are best for detecting unintended structural changes.
 
----
+______________________________________________________________________
 
-# 81. Semantic Tests
+## 81. Semantic Tests
 
 A semantic test verifies meaning-level invariants.
 
@@ -2119,9 +2122,9 @@ source claim does not become observation
 domain alias does not become new canonical identity
 ```
 
----
+______________________________________________________________________
 
-# 82. Canon-Preservation Tests
+## 82. Canon-Preservation Tests
 
 When a generator modifies AMOS architecture:
 
@@ -2141,9 +2144,9 @@ Kernel → Engine → Agent
 
 when source canon explicitly rejects that representation.
 
----
+______________________________________________________________________
 
-# 83. Alias / Identity Tests
+## 83. Alias / Identity Tests
 
 If an artifact name differs from declared engine identity:
 
@@ -2157,9 +2160,9 @@ until provenance supports equivalence.
 
 Test that generator preserves both values.
 
----
+______________________________________________________________________
 
-# 84. Cross-Domain Tests
+## 84. Cross-Domain Tests
 
 For a generated result using:
 
@@ -2181,9 +2184,9 @@ provenance
 
 The final confidence is limited by the weakest load-bearing bridge.
 
----
+______________________________________________________________________
 
-# 85. Regime-Shift Tests
+## 85. Regime-Shift Tests
 
 Change operating regime after validation.
 
@@ -2216,9 +2219,9 @@ prior validation rechecked
 
 not automatically inherited.
 
----
+______________________________________________________________________
 
-# 86. Freshness Tests
+## 86. Freshness Tests
 
 Set freshness requirement:
 
@@ -2236,9 +2239,9 @@ STALE
 
 or downgraded conclusion.
 
----
+______________________________________________________________________
 
-# 87. Decision-Stakes Tests
+## 87. Decision-Stakes Tests
 
 Same generator under:
 
@@ -2264,17 +2267,17 @@ dependency reach
 governance impact
 ```
 
----
+______________________________________________________________________
 
-# 88. Reversibility Tests
+## 88. Reversibility Tests
 
 For uncertain outputs, test whether recommended actions preserve options.
 
 If a generator recommends irreversible action despite unresolved material uncertainty, require stronger validation or fail governance review.
 
----
+______________________________________________________________________
 
-# 89. Falsifier Tests
+## 89. Falsifier Tests
 
 A generator claiming scientific or empirical capability must expose what would count against its claim.
 
@@ -2290,9 +2293,9 @@ Expected:
 explicit failure condition
 ```
 
----
+______________________________________________________________________
 
-# 90. Negative Tests
+## 90. Negative Tests
 
 Every test suite should include cases expected to fail.
 
@@ -2312,9 +2315,9 @@ confidence inflation
 unsupported causal claim
 ```
 
----
+______________________________________________________________________
 
-# 91. Test Coverage Matrix
+## 91. Test Coverage Matrix
 
 Coverage should be recorded across dimensions.
 
@@ -2339,9 +2342,9 @@ coverage:
 
 Avoid compressing these into one misleading score.
 
----
+______________________________________________________________________
 
-# 92. Test Evidence
+## 92. Test Evidence
 
 A test run should produce evidence.
 
@@ -2371,9 +2374,9 @@ test_run:
   conclusion_class: null
 ```
 
----
+______________________________________________________________________
 
-# 93. Reproducibility
+## 93. Reproducibility
 
 A reproducible test should record enough to rerun:
 
@@ -2391,9 +2394,9 @@ state snapshot
 
 If exact reproducibility is impossible, document the source of nondeterminism.
 
----
+______________________________________________________________________
 
-# 94. Evidence Retention
+## 94. Evidence Retention
 
 Passed and failed test evidence should be retained.
 
@@ -2408,9 +2411,9 @@ supersession
 risk estimation
 ```
 
----
+______________________________________________________________________
 
-# 95. Test Provenance
+## 95. Test Provenance
 
 Test evidence should carry:
 
@@ -2426,9 +2429,9 @@ result
 modifications
 ```
 
----
+______________________________________________________________________
 
-# 96. Test Freshness
+## 96. Test Freshness
 
 A previously passed test may become stale when:
 
@@ -2444,9 +2447,9 @@ validator changes
 
 Freshness must be re-evaluated.
 
----
+______________________________________________________________________
 
-# 97. Confidence from Tests
+## 97. Confidence from Tests
 
 Do not derive confidence only from count of passing tests.
 
@@ -2471,9 +2474,9 @@ environment match
 freshness
 ```
 
----
+______________________________________________________________________
 
-# 98. Minimum Generator Test Suite
+## 98. Minimum Generator Test Suite
 
 Every non-placeholder generator should have at least:
 
@@ -2495,9 +2498,9 @@ regression test
 
 Domain-specific generators add additional suites.
 
----
+______________________________________________________________________
 
-# 99. Test Workflow
+## 99. Test Workflow
 
 Recommended workflow:
 
@@ -2533,9 +2536,9 @@ CLASSIFY
 PERSIST TEST EVIDENCE
 ```
 
----
+______________________________________________________________________
 
-# 100. Test Agents
+## 100. Test Agents
 
 Test agents may coordinate test suites when justified.
 
@@ -2562,9 +2565,9 @@ hide failures
 
 unless separately authorized.
 
----
+______________________________________________________________________
 
-# 101. Skills
+## 101. Skills
 
 Host skills may expose test workflows.
 
@@ -2582,9 +2585,9 @@ The skill remains deployment infrastructure.
 
 It does not define test truth.
 
----
+______________________________________________________________________
 
-# 102. Tools
+## 102. Tools
 
 Testing may use:
 
@@ -2602,9 +2605,9 @@ comparison tools
 
 Tool success must be recorded as observation.
 
----
+______________________________________________________________________
 
-# 103. Sandbox Requirement
+## 103. Sandbox Requirement
 
 Effectful generators should be tested in isolated environments before production use.
 
@@ -2619,9 +2622,9 @@ resource usage
 write permissions
 ```
 
----
+______________________________________________________________________
 
-# 104. Production-Shadow Tests
+## 104. Production-Shadow Tests
 
 Where safe, a validated generator may run in shadow mode:
 
@@ -2634,9 +2637,9 @@ compare against actual outcomes
 
 Shadow results can increase evidence without granting effect authority.
 
----
+______________________________________________________________________
 
-# 105. Canary Tests
+## 105. Canary Tests
 
 For deployment:
 
@@ -2651,9 +2654,9 @@ before broad activation.
 
 Expansion should depend on observed performance and absence of critical failures.
 
----
+______________________________________________________________________
 
-# 106. Test Escalation
+## 106. Test Escalation
 
 Escalate test depth when:
 
@@ -2669,9 +2672,9 @@ authority expands
 dependency count grows
 ```
 
----
+______________________________________________________________________
 
-# 107. Stop Conditions
+## 107. Stop Conditions
 
 Testing may stop when:
 
@@ -2696,9 +2699,9 @@ UNKNOWN/GAP
 
 rather than continue indefinitely.
 
----
+______________________________________________________________________
 
-# 108. Failure Severity
+## 108. Failure Severity
 
 Suggested severity classes:
 
@@ -2718,9 +2721,9 @@ F5 — catastrophic / irreversible risk
 
 Severity classification is `DERIVED` infrastructure policy and may be superseded by a canonical severity system if one exists.
 
----
+______________________________________________________________________
 
-# 109. Critical Failures
+## 109. Critical Failures
 
 Automatically block validation when the generator:
 
@@ -2736,9 +2739,9 @@ converts UNKNOWN to PASS
 fails rollback in an irreversible path
 ```
 
----
+______________________________________________________________________
 
-# 110. Repair Acceptance
+## 110. Repair Acceptance
 
 A repair is accepted only when:
 
@@ -2750,9 +2753,9 @@ regression tests pass
 no new critical invariant violation introduced
 ```
 
----
+______________________________________________________________________
 
-# 111. Regression Registry
+## 111. Regression Registry
 
 Each repaired failure should register:
 
@@ -2767,9 +2770,9 @@ regression:
   status: ACTIVE
 ```
 
----
+______________________________________________________________________
 
-# 112. Test Supersession
+## 112. Test Supersession
 
 A new test may supersede an old test when:
 
@@ -2788,9 +2791,9 @@ Record:
 SUPERSEDED_BY
 ```
 
----
+______________________________________________________________________
 
-# 113. Testing Unknown Generators
+## 113. Testing Unknown Generators
 
 If generator implementation is absent:
 
@@ -2813,9 +2816,9 @@ UNKNOWN/GAP
 
 not `FAIL` merely because implementation does not yet exist, unless implementation was required.
 
----
+______________________________________________________________________
 
-# 114. Testing Placeholders
+## 114. Testing Placeholders
 
 Placeholder test:
 
@@ -2837,9 +2840,9 @@ is correctly marked placeholder
 
 It cannot pass functional validation.
 
----
+______________________________________________________________________
 
-# 115. Addressability Tests
+## 115. Addressability Tests
 
 A registered generator may be addressable by ID.
 
@@ -2863,9 +2866,9 @@ VALIDATED
 AUTHORIZED
 ```
 
----
+______________________________________________________________________
 
-# 116. Canon Tests
+## 116. Canon Tests
 
 Where a generator claims canonical alignment:
 
@@ -2881,9 +2884,9 @@ must be surfaced.
 
 Do not silently rewrite the source.
 
----
+______________________________________________________________________
 
-# 117. Research-Model Tests
+## 117. Research-Model Tests
 
 Generators creating research models must distinguish:
 
@@ -2906,9 +2909,9 @@ competing models
 validation requirements
 ```
 
----
+______________________________________________________________________
 
-# 118. Scientific-Claim Tests
+## 118. Scientific-Claim Tests
 
 For scientific claims, test for:
 
@@ -2926,9 +2929,9 @@ falsifier
 
 Mathematical notation alone is not sufficient.
 
----
+______________________________________________________________________
 
-# 119. Decision-Generator Tests
+## 119. Decision-Generator Tests
 
 Decision generators should separate:
 
@@ -2943,9 +2946,9 @@ decision
 
 A decision may be valid under uncertainty without making all premises verified.
 
----
+______________________________________________________________________
 
-# 120. Governance Tests
+## 120. Governance Tests
 
 If a generated result affects governance:
 
@@ -2961,9 +2964,9 @@ reversibility
 policy conflicts
 ```
 
----
+______________________________________________________________________
 
-# 121. Memory Tests
+## 121. Memory Tests
 
 If generator reads memory:
 
@@ -2979,9 +2982,9 @@ supersession
 
 Stored memory must not be treated as automatically verified.
 
----
+______________________________________________________________________
 
-# 122. State-Snapshot Tests
+## 122. State-Snapshot Tests
 
 For runtime state inputs:
 
@@ -2996,9 +2999,9 @@ must be preserved.
 
 Test that a historical snapshot is not silently interpreted as current state.
 
----
+______________________________________________________________________
 
-# 123. Observability Tests
+## 123. Observability Tests
 
 Every consequential generator test should emit enough telemetry to reconstruct:
 
@@ -3013,9 +3016,9 @@ what was repaired
 what was committed
 ```
 
----
+______________________________________________________________________
 
-# 124. Audit Tests
+## 124. Audit Tests
 
 Audit should be capable of answering:
 
@@ -3041,9 +3044,9 @@ Was output committed?
 What changed afterward?
 ```
 
----
+______________________________________________________________________
 
-# 125. Cross-Version Tests
+## 125. Cross-Version Tests
 
 When runtime changes from:
 
@@ -3059,9 +3062,9 @@ test whether generator assumptions remain valid.
 
 Do not automatically inherit prior test status.
 
----
+______________________________________________________________________
 
-# 126. Environment-Parity Tests
+## 126. Environment-Parity Tests
 
 A generator validated in:
 
@@ -3088,9 +3091,9 @@ latency
 concurrency
 ```
 
----
+______________________________________________________________________
 
-# 127. Performance Tests
+## 127. Performance Tests
 
 Performance measures may include:
 
@@ -3104,9 +3107,9 @@ cost
 
 Performance must not be optimized by removing epistemic or governance checks.
 
----
+______________________________________________________________________
 
-# 128. Performance Integrity Rule
+## 128. Performance Integrity Rule
 
 ```text
 faster
@@ -3123,6 +3126,7 @@ weaker scope checking
 =
 FAIL
 ```
+
 ```text
 faster
 but
@@ -3130,9 +3134,10 @@ silent authority bypass
 =
 FAIL
 ```
----
 
-# 129. Load Tests
+______________________________________________________________________
+
+## 129. Load Tests
 
 Under increasing load test:
 
@@ -3159,17 +3164,17 @@ fabricated certainty
 
 under pressure.
 
----
+______________________________________________________________________
 
-# 130. Fault-Containment Tests
+## 130. Fault-Containment Tests
 
 Failure in generator `G1` should not corrupt unrelated generator `G2`.
 
 Shared resources should preserve isolation where required.
 
----
+______________________________________________________________________
 
-# 131. Security Tests
+## 131. Security Tests
 
 Where applicable:
 
@@ -3186,9 +3191,9 @@ provenance spoofing
 
 Test according to generator capability.
 
----
+______________________________________________________________________
 
-# 132. Prompt-Injection Tests
+## 132. Prompt-Injection Tests
 
 For language-model-bound generators, malicious source text may contain:
 
@@ -3206,9 +3211,9 @@ source content treated as data
 not system authority
 ```
 
----
+______________________________________________________________________
 
-# 133. Data-Poisoning Tests
+## 133. Data-Poisoning Tests
 
 Provide corrupted or adversarial source content.
 
@@ -3223,9 +3228,9 @@ or quarantine
 
 when evidence supports doing so.
 
----
+______________________________________________________________________
 
-# 134. Privacy Tests
+## 134. Privacy Tests
 
 If generator processes restricted data:
 
@@ -3239,9 +3244,9 @@ output leakage
 authorization
 ```
 
----
+______________________________________________________________________
 
-# 135. Deletion Tests
+## 135. Deletion Tests
 
 Deletion or destructive generators require:
 
@@ -3253,9 +3258,9 @@ rollback/recovery where possible
 audit trail
 ```
 
----
+______________________________________________________________________
 
-# 136. Irreversible-Effect Tests
+## 136. Irreversible-Effect Tests
 
 For irreversible outcomes:
 
@@ -3273,9 +3278,9 @@ monitoring
 abort condition
 ```
 
----
+______________________________________________________________________
 
-# 137. Test Selection Engine
+## 137. Test Selection Engine
 
 A future test selector may use:
 
@@ -3298,9 +3303,9 @@ f(
 
 This is a `MODEL` for adaptive test routing unless a canonical implementation exists.
 
----
+______________________________________________________________________
 
-# 138. Minimum-Sufficient Test Principle
+## 138. Minimum-Sufficient Test Principle
 
 Do not run every test on every generator.
 
@@ -3330,9 +3335,9 @@ scope
 
 tests.
 
----
+______________________________________________________________________
 
-# 139. Test Priority
+## 139. Test Priority
 
 Priority should generally follow:
 
@@ -3353,9 +3358,9 @@ This follows AMOS's:
 integrity > completeness > fluency > speed
 ```
 
----
+______________________________________________________________________
 
-# 140. Test Gap Classes
+## 140. Test Gap Classes
 
 Classify gaps as:
 
@@ -3371,9 +3376,9 @@ COSMETIC
 
 Resolve in that order.
 
----
+______________________________________________________________________
 
-# 141. Critical Gap
+## 141. Critical Gap
 
 Example:
 
@@ -3383,9 +3388,9 @@ unknown write authority
 
 blocks effectful validation.
 
----
+______________________________________________________________________
 
-# 142. Decision-Relevant Gap
+## 142. Decision-Relevant Gap
 
 Example:
 
@@ -3395,9 +3400,9 @@ uncertain dependency version
 
 when it could change output behavior.
 
----
+______________________________________________________________________
 
-# 143. Explanatory Gap
+## 143. Explanatory Gap
 
 Example:
 
@@ -3407,9 +3412,9 @@ missing documentation detail
 
 that does not change current result.
 
----
+______________________________________________________________________
 
-# 144. Cosmetic Gap
+## 144. Cosmetic Gap
 
 Example:
 
@@ -3419,9 +3424,9 @@ test name formatting
 
 No need to delay validation.
 
----
+______________________________________________________________________
 
-# 145. Test Matrix Schema
+## 145. Test Matrix Schema
 
 Recommended registry:
 
@@ -3450,9 +3455,9 @@ test_matrix:
   escalation_conditions: []
 ```
 
----
+______________________________________________________________________
 
-# 146. Test Registry
+## 146. Test Registry
 
 Each test should be addressable.
 
@@ -3476,9 +3481,9 @@ severity_if_failed: CRITICAL
 version: "1.0"
 ```
 
----
+______________________________________________________________________
 
-# 147. Example Critical Test
+## 147. Example Critical Test
 
 ```yaml
 test_id: GEN-EP-001
@@ -3504,9 +3509,9 @@ forbidden:
 severity_if_failed: CRITICAL
 ```
 
----
+______________________________________________________________________
 
-# 148. Example Provenance Test
+## 148. Example Provenance Test
 
 ```yaml
 test_id: GEN-PROV-001
@@ -3528,9 +3533,9 @@ failure:
   missing_any_load_bearing_source: FAIL
 ```
 
----
+______________________________________________________________________
 
-# 149. Example Authority Test
+## 149. Example Authority Test
 
 ```yaml
 test_id: GEN-AUTH-001
@@ -3551,9 +3556,9 @@ forbidden:
   - state_write
 ```
 
----
+______________________________________________________________________
 
-# 150. Example Dependency Test
+## 150. Example Dependency Test
 
 ```yaml
 test_id: GEN-DEP-001
@@ -3572,9 +3577,9 @@ expected:
   - revalidation_required
 ```
 
----
+______________________________________________________________________
 
-# 151. Example Repair Test
+## 151. Example Repair Test
 
 ```yaml
 test_id: GEN-REP-001
@@ -3601,9 +3606,9 @@ expected:
     - C3
 ```
 
----
+______________________________________________________________________
 
-# 152. Test Directory Architecture
+## 152. Test Directory Architecture
 
 Recommended:
 
@@ -3637,9 +3642,9 @@ Recommended:
 
 This folder structure is `DERIVED`, not asserted as pre-existing canon.
 
----
+______________________________________________________________________
 
-# 153. Test Run Storage
+## 153. Test Run Storage
 
 Suggested:
 
@@ -3653,9 +3658,9 @@ Suggested:
 
 Each run should preserve result, logs, environment, hashes, failures, and repair history.
 
----
+______________________________________________________________________
 
-# 154. CI / Automated Validation
+## 154. CI / Automated Validation
 
 A future automated pipeline may execute:
 
@@ -3673,9 +3678,9 @@ before generator deployment.
 
 Automation must not convert uncertain semantic validation into a binary truth claim.
 
----
+______________________________________________________________________
 
-# 155. Human / Governance Review
+## 155. Human / Governance Review
 
 Some generators require review beyond automated tests.
 
@@ -3694,9 +3699,9 @@ irreversible fabrication
 
 Review requirement is governance-dependent.
 
----
+______________________________________________________________________
 
-# 156. Promotion States
+## 156. Promotion States
 
 ```text
 PLACEHOLDER
@@ -3721,9 +3726,9 @@ PLACEHOLDER
 → READY
 ```
 
----
+______________________________________________________________________
 
-# 157. Validation Scope Label
+## 157. Validation Scope Label
 
 Use:
 
@@ -3747,9 +3752,9 @@ validated: true
 
 without context.
 
----
+______________________________________________________________________
 
-# 158. Test Freshness Policy
+## 158. Test Freshness Policy
 
 Revalidate after:
 
@@ -3775,9 +3780,9 @@ canon change
 deployment-environment change
 ```
 
----
+______________________________________________________________________
 
-# 159. Test Failure Handling
+## 159. Test Failure Handling
 
 On failure:
 
@@ -3791,9 +3796,9 @@ record failure
 → rerun regression suite
 ```
 
----
+______________________________________________________________________
 
-# 160. No Global Reset Rule
+## 160. No Global Reset Rule
 
 A local test failure should not invalidate every generator.
 
@@ -3809,9 +3814,9 @@ failure(all generators)
 
 unless shared dependency analysis proves broader impact.
 
----
+______________________________________________________________________
 
-# 161. Test Falsifiers
+## 161. Test Falsifiers
 
 This test architecture should itself be revised if:
 
@@ -3835,9 +3840,9 @@ it cannot localize repair
 it produces no decision value beyond ordinary unit testing
 ```
 
----
+______________________________________________________________________
 
-# 162. Known Gaps
+## 162. Known Gaps
 
 The following remain unresolved unless specific source artifacts define them:
 
@@ -3881,9 +3886,9 @@ UNKNOWN/GAP
 
 rather than being invented.
 
----
+______________________________________________________________________
 
-# 163. RSCF Completion State
+## 163. RSCF Completion State
 
 The original placeholder state:
 
@@ -3962,9 +3967,9 @@ confidence_ceiling:
   exact_implementation: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 164. Completion Status
+## 164. Completion Status
 
 This file is no longer properly classified as:
 
@@ -3996,9 +4001,9 @@ validator_registry_status:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 165. Core Laws
+## 165. Core Laws
 
 ```text
 TEST_PASS
@@ -4011,59 +4016,70 @@ TEST_PASS
 !=
 AUTHORITY
 ```
+
 ```text
 TEST_PASS
 !=
 COMMIT
 ```
+
 ```text
 SCHEMA_VALID
 !=
 SEMANTICALLY_VALID
 ```
+
 ```text
 NO_EXCEPTION
 !=
 CORRECT
 ```
+
 ```text
 NO_CONTRADICTION_FOUND
 !=
 PROOF
 ```
+
 ```text
 REPETITION
 !=
 INDEPENDENT VALIDATION
 ```
+
 ```text
 PLACEHOLDER
 !=
 IMPLEMENTED
 ```
+
 ```text
 ADDRESSABLE
 !=
 VALIDATED
 ```
+
 ```text
 CAPABILITY
 !=
 AUTHORITY
 ```
+
 ```text
 PROPOSAL
 !=
 COMMIT
 ```
+
 ```text
 UNKNOWN/GAP
 !=
 PASS
 ```
----
 
-# 166. Final Generator-Test Contract
+______________________________________________________________________
+
+## 166. Final Generator-Test Contract
 
 A generator is not adequately tested until AMOS can answer:
 
@@ -4135,9 +4151,9 @@ not:
 VALIDATED
 ```
 
----
+______________________________________________________________________
 
-# 167. Final State
+## 167. Final State
 
 `GENERATOR_TESTS.md` defines the testing contract for the entire `12_GENERATORS` matrix.
 
@@ -4195,23 +4211,27 @@ TEST
 
 **Conclusion class:** `DERIVED / CONDITIONAL`. The test architecture is now defined from AMOS Full Brain OS and v4.4 principles, while exact test registries, validators, implementations, thresholds, and execution infrastructure remain explicit `UNKNOWN/GAP` rather than being fabricated.
 ```
----
+
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[25_COGNITIVE_MATRIX/12_GENERATORS/00_INDEX/GENERATORS_MAP|GENERATORS_MAP]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: generator_tests
 node_type: note
 path: 25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_TESTS.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/12_GENERATORS/12_GENERATORS_MOC|12_GENERATORS_MOC]]
-

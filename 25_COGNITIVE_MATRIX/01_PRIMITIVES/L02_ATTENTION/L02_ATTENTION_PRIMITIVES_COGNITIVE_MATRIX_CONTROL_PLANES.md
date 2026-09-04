@@ -2,16 +2,16 @@
 type: control-plane
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION
 tags:
-- amos
-- cognitive-matrix
-- matrix/l02
-- attention
-- control-plane
-- rscf
-- hml
-- provenance
-- governance
-- domain/cognitive-matrix
+  - amos
+  - cognitive-matrix
+  - matrix/l02
+  - attention
+  - control-plane
+  - rscf
+  - hml
+  - provenance
+  - governance
+  - domain/cognitive-matrix
 title: L02_ATTENTION — Control Planes
 origin_architect: Trang Phan
 status: MODEL_SPECIFICATION / UNVALIDATED
@@ -34,9 +34,9 @@ rscf:
 
 > **Integrity boundary:** recovered L02 material supports the primitive role of attention allocation over scarce reasoning/observation resources, but does not establish a canonical L02-specific control-plane implementation. Therefore the contracts below are an AMOS control-plane-aligned model, not recovered canon.
 
----
+______________________________________________________________________
 
-# 0. Purpose
+## 0. Purpose
 
 `L02_ATTENTION/CONTROL_PLANES.md` defines the governance boundary between attention cognition and authoritative resource/effect control.
 
@@ -74,9 +74,9 @@ Core law:
 ATTENTION PRIORITY != AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 1. Source / Canon References
+## 1. Source / Canon References
 
 ## 1.1 Recovered L02 source
 
@@ -148,9 +148,9 @@ source_status:
     status: UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 2. Definition
+## 2. Definition
 
 The `L02 Attention Control Plane` is the proposed authoritative governance layer that validates whether an attention-allocation proposal may modify governed cognitive-resource state.
 
@@ -175,9 +175,9 @@ ACTION QUESTION:
 Answer: NO.
 ```
 
----
+______________________________________________________________________
 
-# 3. Scope
+## 3. Scope
 
 The control plane may govern:
 
@@ -209,9 +209,9 @@ external-action authority
 
 merely by allocating attention.
 
----
+______________________________________________________________________
 
-# 4. Proposed Architecture
+## 4. Proposed Architecture
 
 ```text
                     ┌──────────────────────┐
@@ -249,9 +249,9 @@ merely by allocating attention.
       ATTENTION STATE COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 5. Typed Inputs
+## 5. Typed Inputs
 
 ```yaml
 AttentionControlInput:
@@ -302,9 +302,9 @@ AttentionControlInput:
     type: ObservabilityEnvelope | UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 6. Typed Outputs
+## 6. Typed Outputs
 
 ```yaml
 AttentionControlResult:
@@ -346,9 +346,9 @@ AttentionControlResult:
 
 These result labels are model-level mappings; exact canonical L02 result vocabulary remains a gap.
 
----
+______________________________________________________________________
 
-# 7. State Variables
+## 7. State Variables
 
 ```text
 B_total       = total governed attention budget
@@ -377,9 +377,9 @@ Hash_att      = canonical attention-state hash
 
 Exact canonical variable names are `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
-# 8. Proposed Operators
+## 8. Proposed Operators
 
 ```text
 VALIDATE_TASK()
@@ -409,18 +409,16 @@ ESCALATE()
 
 Operator existence in this file is `AMOS_MODEL`, not recovered L02 canon.
 
----
+______________________________________________________________________
 
-# 9. Admission Gate
+## 9. Admission Gate
 
 A candidate allocation should be admissible only when all required hard constraints pass.
 
-[
-Admit(A)
-========
+## \[ Admit(A)
 
-\bigwedge_i HardInvariant_i(A)
-]
+\\bigwedge_i HardInvariant_i(A)
+\]
 
 Therefore:
 
@@ -444,28 +442,26 @@ critical unresolved conflict
 invalid task contract
 ```
 
----
+______________________________________________________________________
 
-# 10. Budget Conservation
+## 10. Budget Conservation
 
 For governed finite attention:
 
-[
-\sum_i Allocation_i + Reserve \le B_{total}
-]
+\[
+\\sum_i Allocation_i + Reserve \\le B\_{total}
+\]
 
 and:
 
-[
-B_{available}
-=============
+## \[ B\_{available}
 
-## B_{total}
+## B\_{total}
 
-## B_{used}
+## B\_{used}
 
-B_{reserved}
-]
+B\_{reserved}
+\]
 
 Hard invariant:
 
@@ -475,9 +471,9 @@ A_proposed.cost <= B_available
 
 unless an explicitly authorized reserve-release/escalation protocol applies.
 
----
+______________________________________________________________________
 
-# 11. Objective Binding
+## 11. Objective Binding
 
 Every committed allocation must remain bound to an authoritative active objective.
 
@@ -508,22 +504,20 @@ agent preference
 
 when those differ from the governing objective.
 
----
+______________________________________________________________________
 
-# 12. Fine-Grained Read-Set Rule
+## 12. Fine-Grained Read-Set Rule
 
 Where allocation depends on mutable state, track the exact state actually used.
 
 Candidate:
 
-[
-ReadSet_{att}
-=============
+## \[ ReadSet\_{att}
 
 {
 (object_id, version, content_hash)
 }
-]
+\]
 
 At commit:
 
@@ -540,9 +534,9 @@ UNREAD OBJECT CHANGED
 
 This follows the AMOS infrastructure principle that precise observed read sets are preferable to one global state hash.
 
----
+______________________________________________________________________
 
-# 13. Attention State Identity
+## 13. Attention State Identity
 
 A scalar version alone may be insufficient if attention state can change without a version increment.
 
@@ -567,9 +561,9 @@ Mismatch:
 
 This is an AMOS_MODEL application of MVCC/CAS-style freshness reasoning.
 
----
+______________________________________________________________________
 
-# 14. Capability / Authority Separation
+## 14. Capability / Authority Separation
 
 ```text
 AGENT CAN SCORE
@@ -618,9 +612,9 @@ AttentionAuthority:
     type: AuthorityId
 ```
 
----
+______________________________________________________________________
 
-# 15. Proposal / Commit Separation
+## 15. Proposal / Commit Separation
 
 The lifecycle should preserve:
 
@@ -648,13 +642,13 @@ AUTOMATICALLY COMMITTED
 
 Formally:
 
-[
-Proposal(A) \not\Rightarrow Commit(A)
-]
+\[
+Proposal(A) \\not\\Rightarrow Commit(A)
+\]
 
----
+______________________________________________________________________
 
-# 16. Control-Plane Ownership
+## 16. Control-Plane Ownership
 
 ## Infrastructure-owned candidate responsibilities
 
@@ -685,9 +679,9 @@ attention-balancing proposal
 
 This separation prevents cognition from self-authorizing its own proposals.
 
----
+______________________________________________________________________
 
-# 17. H/M/L Applicability
+## 17. H/M/L Applicability
 
 ## H — Governing plane
 
@@ -727,29 +721,29 @@ local validation
 local budget accounting
 ```
 
----
+______________________________________________________________________
 
-# 18. Cross-Scale Governance
+## 18. Cross-Scale Governance
 
 Candidate rule:
 
-[
+\[
 Constraint_H
-\rightarrow
+\\rightarrow
 Bounds_M
-\rightarrow
+\\rightarrow
 Bounds_L
-]
+\]
 
 but invalidating evidence may propagate upward:
 
-[
+\[
 Failure_L
-\rightarrow
+\\rightarrow
 Invalidate_M
-\rightarrow
+\\rightarrow
 Reassess_H
-]
+\]
 
 only across actual dependency edges.
 
@@ -763,9 +757,9 @@ GLOBAL RESET
 
 unless global dependency closure genuinely requires it.
 
----
+______________________________________________________________________
 
-# 19. Agents
+## 19. Agents
 
 Control-plane relevant roles may include:
 
@@ -793,9 +787,9 @@ STATE_FINALIZER
 
 These are logical responsibilities, not proof of separately deployed agents.
 
----
+______________________________________________________________________
 
-# 20. Skills
+## 20. Skills
 
 Potential skill dependencies:
 
@@ -820,9 +814,9 @@ SKILL AVAILABLE
 SKILL AUTHORIZED FOR EVERY EFFECT
 ```
 
----
+______________________________________________________________________
 
-# 21. Standard Allocation Workflow
+## 21. Standard Allocation Workflow
 
 ```text
 1. RECEIVE TASK CONTRACT
@@ -860,9 +854,9 @@ SKILL AUTHORIZED FOR EVERY EFFECT
 11. RELEASE UNUSED RESOURCES
 ```
 
----
+______________________________________________________________________
 
-# 22. Reallocation Workflow
+## 22. Reallocation Workflow
 
 ```text
 CHANGE DETECTED
@@ -884,9 +878,9 @@ REVALIDATE AUTHORITY
 COMMIT REVISED STATE
 ```
 
----
+______________________________________________________________________
 
-# 23. High-Stakes Workflow
+## 23. High-Stakes Workflow
 
 For consequential attention routing:
 
@@ -916,9 +910,9 @@ AUDIT
 
 Attention escalation does not authorize the consequential action itself.
 
----
+______________________________________________________________________
 
-# 24. External-Effect Firewall
+## 24. External-Effect Firewall
 
 Suppose attention selects a tool action for deeper consideration.
 
@@ -952,15 +946,15 @@ L02 HIGH PRIORITY
 
 Hard invariant:
 
-[
+\[
 AttentionAuthorization
-\not\Rightarrow
+\\not\\Rightarrow
 EffectAuthorization
-]
+\]
 
----
+______________________________________________________________________
 
-# 25. Protocols
+## 25. Protocols
 
 Candidate protocol messages:
 
@@ -1004,9 +998,9 @@ protocol_envelope:
     type: PROPOSAL | COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 26. Semantic Transaction
+## 26. Semantic Transaction
 
 A proposed allocation may be represented as:
 
@@ -1046,9 +1040,9 @@ without corresponding
 budget/state update
 ```
 
----
+______________________________________________________________________
 
-# 27. Observability Requirements
+## 27. Observability Requirements
 
 The control plane must be able to determine at minimum:
 
@@ -1075,9 +1069,9 @@ UNKNOWN/GAP
 
 depending on consequence.
 
----
+______________________________________________________________________
 
-# 28. Evidence / Provenance
+## 28. Evidence / Provenance
 
 A committed attention allocation should preserve:
 
@@ -1098,11 +1092,9 @@ repair history
 
 Candidate provenance tensor:
 
-[
-P_{CP}^{L02}
-============
+## \[ P\_{CP}^{L02}
 
-T[
+T\[
 transaction,
 target,
 objective,
@@ -1115,39 +1107,39 @@ regime,
 authority,
 validation,
 commit
-]
-]
+\]
+\]
 
----
+______________________________________________________________________
 
-# 29. Confidence Ceiling
+## 29. Confidence Ceiling
 
-For control decision \(D\):
+For control decision (D):
 
-[
+\[
 Conf(D)
-\le
-\min_i Conf(P_i)
-]
+\\le
+\\min_i Conf(P_i)
+\]
 
 for all load-bearing premises.
 
 Candidate expansion:
 
-[
+\[
 Conf(D)
-\le
-\min(
-Conf_{objective},
-Conf_{state},
-Conf_{budget},
-Conf_{authority},
-Conf_{constraints},
-Conf_{scope},
-Conf_{regime},
-Conf_{provenance}
+\\le
+\\min(
+Conf\_{objective},
+Conf\_{state},
+Conf\_{budget},
+Conf\_{authority},
+Conf\_{constraints},
+Conf\_{scope},
+Conf\_{regime},
+Conf\_{provenance}
 )
-]
+\]
 
 Missing load-bearing state:
 
@@ -1157,9 +1149,9 @@ UNKNOWN/GAP
 
 not fabricated confidence.
 
----
+______________________________________________________________________
 
-# 30. Core Invariants
+## 30. Core Invariants
 
 ```text
 L02-CP-INV-001
@@ -1223,9 +1215,9 @@ L02-CP-INV-020
 Control-plane authority must remain outside self-generated cognitive preference.
 ```
 
----
+______________________________________________________________________
 
-# 31. Failure Modes
+## 31. Failure Modes
 
 ```text
 FM-L02-CP-001   Proposal-Auto-Commit
@@ -1255,9 +1247,9 @@ FM-L02-CP-024   Commit-Race
 FM-L02-CP-025   State-Identity-Ambiguity
 ```
 
----
+______________________________________________________________________
 
-# 32. Repair / Recovery
+## 32. Repair / Recovery
 
 General recovery:
 
@@ -1287,20 +1279,18 @@ COMMIT NEW STATE
 PRESERVE OLD + NEW LINEAGE
 ```
 
----
+______________________________________________________________________
 
-# 33. Rollback
+## 33. Rollback
 
 Rollback should restore the nearest valid state, not blindly return to an arbitrary historical snapshot.
 
 Candidate:
 
-[
-S_{rollback}
-============
+## \[ S\_{rollback}
 
-NearestValidAncestor(S_{failed})
-]
+NearestValidAncestor(S\_{failed})
+\]
 
 subject to:
 
@@ -1314,33 +1304,33 @@ dependency validity
 
 Rollback itself is a governed transition.
 
----
+______________________________________________________________________
 
-# 34. Selective Invalidation
+## 34. Selective Invalidation
 
 If premise (p) becomes invalid:
 
-[
+\[
 Invalid(p)
-\Rightarrow
+\\Rightarrow
 Invalidate(Descendants(p))
-]
+\]
 
 not:
 
-[
+\[
 Invalid(p)
-\Rightarrow
+\\Rightarrow
 Invalidate(AllState)
-]
+\]
 
 unless all state genuinely depends on (p).
 
 This is critical for scalable attention governance.
 
----
+______________________________________________________________________
 
-# 35. Tests / Validators
+## 35. Tests / Validators
 
 ```text
 VALIDATE_TASK_CONTRACT
@@ -1363,9 +1353,9 @@ VALIDATE_ROLLBACK
 VALIDATE_SELECTIVE_INVALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 36. Minimum Test Suite
+## 36. Minimum Test Suite
 
 ```text
 TEST_L02_CP_001
@@ -1429,9 +1419,9 @@ TEST_L02_CP_020
 Repair preserves previous failed transaction lineage.
 ```
 
----
+______________________________________________________________________
 
-# 37. Adversarial Validators
+## 37. Adversarial Validators
 
 Test against:
 
@@ -1459,9 +1449,9 @@ external-effect smuggling
 rollback tampering
 ```
 
----
+______________________________________________________________________
 
-# 38. Falsifiers
+## 38. Falsifiers
 
 Revise this model if:
 
@@ -1485,9 +1475,9 @@ formal analysis finds contradictory invariants
 executed tests falsify selective invalidation or commit assumptions
 ```
 
----
+______________________________________________________________________
 
-# 39. Gap Matrix
+## 39. Gap Matrix
 
 ```yaml
 gap_matrix:
@@ -1590,9 +1580,9 @@ gap_matrix:
     status: MODEL_COMPLETE_UNEXECUTED
 ```
 
----
+______________________________________________________________________
 
-# 40. Cheapest Discriminating Evidence
+## 40. Cheapest Discriminating Evidence
 
 Priority retrieval path:
 
@@ -1618,9 +1608,9 @@ Until resolved:
 COMPETING
 ```
 
----
+______________________________________________________________________
 
-# 41. Competing Architectures
+## 41. Competing Architectures
 
 ## COMPETING_001 — L02-owned control plane
 
@@ -1651,9 +1641,9 @@ cross-scale / consequential / external effects
 
 Current evidence does not justify forcing convergence.
 
----
+______________________________________________________________________
 
-# 42. RSCF Completion State
+## 42. RSCF Completion State
 
 ```yaml
 rscf:
@@ -1752,9 +1742,9 @@ rscf:
     whether L02 owns commit or only proposes allocation
 ```
 
----
+______________________________________________________________________
 
-# 43. Completion State
+## 43. Completion State
 
 ```yaml
 completion_state:
@@ -1835,9 +1825,9 @@ completion_state:
     MODEL / CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
-# 44. Hard Boundaries
+## 44. Hard Boundaries
 
 ```text
 PLACEHOLDER != IMPLEMENTED
@@ -1887,9 +1877,9 @@ MODEL_CONTROL_PLANE != IMPLEMENTED_CONTROL_PLANE
 IMPLEMENTED != VALIDATED
 ```
 
----
+______________________________________________________________________
 
-# 45. References
+## 45. References
 
 ```text
 PLACEHOLDER
@@ -1922,9 +1912,9 @@ AMOS Constraint Propagation
 Cosmo_Brain_BRIDGE_INDEX
 ```
 
----
+______________________________________________________________________
 
-# 46. Governing Contract
+## 46. Governing Contract
 
 > **L02 may determine what deserves scarce cognitive resources, but attention must remain downstream of evidence and upstream of authority. A priority proposal may consume governed resources only after the relevant objective, budget, scope, regime, provenance, constraints, freshness, and authority conditions are satisfied. Attention allocation never by itself authorizes an external effect.**
 
@@ -1933,22 +1923,26 @@ Cosmo_Brain_BRIDGE_INDEX
 The decisive unresolved gap remains **who canonically owns L02 attention-state commit**: L02 itself, the higher AMOS infrastructure control plane, or a hybrid hierarchy. Until direct canon resolves that, the correct class is `MODEL / COMPETING`, not `VERIFIED`.
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: l02_attention_primitives_cognitive_matrix_control_planes
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION/L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_CONTROL_PLANES.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION/L02_ATTENTION_MOC|L02_ATTENTION_MOC]]

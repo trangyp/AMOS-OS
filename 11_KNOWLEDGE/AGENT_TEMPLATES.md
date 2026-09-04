@@ -21,19 +21,19 @@ rscf-confidence-ceiling: source-bounded
 rscf-provenance-required: true
 topic: agent-templates
 tags:
-- canon-group/tech-ai
-- knowledge
-- vault
-- canon/framework
-- canon/agent
-- rscf/claim
-- rscf/provenance
-- rscf/state/source-claim
-- topic/agent-templates
-- topic/agent-architecture
-- topic/agent-factory
-- agents
-- agent-schema
+  - canon-group/tech-ai
+  - knowledge
+  - vault
+  - canon/framework
+  - canon/agent
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - topic/agent-templates
+  - topic/agent-architecture
+  - topic/agent-factory
+  - agents
+  - agent-schema
 created: 2026-08-22
 updated: 2026-08-25
 origin-architect: Trang Phan
@@ -55,7 +55,7 @@ rscf:
 > **Classification:** `STRUCTURAL_MODEL`
 > **RSCF State:** `SOURCE_CLAIM`
 
----
+______________________________________________________________________
 
 ## 1. Purpose
 
@@ -102,9 +102,9 @@ Identity
 
 This is an **AMOS structural equation**, not an empirical law of all agent systems.
 
----
+______________________________________________________________________
 
-# 2. Canonical Position
+## 2. Canonical Position
 
 ```text
 AMOS
@@ -147,9 +147,9 @@ Configuration
 Runtime Instance
 ```
 
----
+______________________________________________________________________
 
-# 3. Framework Invariants
+## 3. Framework Invariants
 
 Every AMOS agent template MUST preserve the following invariants.
 
@@ -161,7 +161,7 @@ Every agent has an explicit identity.
 AgentIdentity != implicit role inferred from prompt
 ```
 
----
+______________________________________________________________________
 
 ## AT-I02 — Purpose
 
@@ -175,7 +175,7 @@ DeclaredObjectiveSet
 
 An agent without a bounded purpose is incomplete.
 
----
+______________________________________________________________________
 
 ## AT-I03 — Scope
 
@@ -188,7 +188,7 @@ OUT_OF_SCOPE
 
 Absence of an explicit exclusion does not automatically grant capability or authority.
 
----
+______________________________________________________________________
 
 ## AT-I04 — Capability / Authority Separation
 
@@ -200,7 +200,7 @@ AuthorizedToPerform(x)
 
 Technical capability never creates authority.
 
----
+______________________________________________________________________
 
 ## AT-I05 — Dependency Declaration
 
@@ -212,7 +212,7 @@ AgentValid
 DependenciesResolvable
 ```
 
----
+______________________________________________________________________
 
 ## AT-I06 — Provenance
 
@@ -226,7 +226,7 @@ Claim
 → Result
 ```
 
----
+______________________________________________________________________
 
 ## AT-I07 — Evidence Boundary
 
@@ -241,7 +241,7 @@ DECISION
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
 ## AT-I08 — Scope / Regime Boundary
 
@@ -254,7 +254,7 @@ ScopeCompatible
 ∧ RegimeCompatible
 ```
 
----
+______________________________________________________________________
 
 ## AT-I09 — Safety
 
@@ -274,7 +274,7 @@ Safety
 AdmissibleActionSpace
 ```
 
----
+______________________________________________________________________
 
 ## AT-I10 — Version Identity
 
@@ -288,7 +288,7 @@ InstanceVersion
 RuntimeVersion
 ```
 
----
+______________________________________________________________________
 
 ## AT-I11 — Lifecycle
 
@@ -305,7 +305,7 @@ DRAFT
 
 Transitions need not be strictly linear, but promotion must be governed.
 
----
+______________________________________________________________________
 
 ## AT-I12 — No Decorative Completion
 
@@ -327,9 +327,9 @@ Validated
 Authorized
 ```
 
----
+______________________________________________________________________
 
-# 4. Agent Template Tensor
+## 4. Agent Template Tensor
 
 The canonical template can be represented as:
 
@@ -372,9 +372,9 @@ does not imply:
 authority.tool_execution = true
 ```
 
----
+______________________________________________________________________
 
-# 5. Canonical Agent Template
+## 5. Canonical Agent Template
 
 ```yaml
 agent:
@@ -500,9 +500,9 @@ agent:
     confidence_ceiling: ""
 ```
 
----
+______________________________________________________________________
 
-# 6. Template Families
+## 6. Template Families
 
 AMOS agent templates are organized by **function**, not by arbitrary persona.
 
@@ -530,9 +530,9 @@ These families describe functional architecture.
 
 They do not imply independent autonomous authority.
 
----
+______________________________________________________________________
 
-# 7. T00 — Base Agent
+## 7. T00 — Base Agent
 
 Every AMOS agent inherits the base contract.
 
@@ -561,9 +561,9 @@ template:
     initial_state: draft
 ```
 
----
+______________________________________________________________________
 
-# 8. T01 — Analyst Agent
+## 8. T01 — Analyst Agent
 
 Purpose:
 
@@ -592,9 +592,9 @@ Analysis
 AuthorityToAct
 ```
 
----
+______________________________________________________________________
 
-# 9. T02 — Research Agent
+## 9. T02 — Research Agent
 
 Purpose:
 
@@ -628,9 +628,9 @@ RepeatedSource
 IndependentConfirmation
 ```
 
----
+______________________________________________________________________
 
-# 10. T03 — Designer Agent
+## 10. T03 — Designer Agent
 
 Purpose:
 
@@ -658,9 +658,9 @@ MODEL
 
 until implemented and validated.
 
----
+______________________________________________________________________
 
-# 11. T04 — Engineer Agent
+## 11. T04 — Engineer Agent
 
 Purpose:
 
@@ -695,9 +695,9 @@ Where applicable:
 ∧ Performance
 ```
 
----
+______________________________________________________________________
 
-# 12. T05 — Auditor Agent
+## 12. T05 — Auditor Agent
 
 Purpose:
 
@@ -720,9 +720,9 @@ UNKNOWN/GAP
 
 A report must not manufacture evidence for itself.
 
----
+______________________________________________________________________
 
-# 13. T06 — Validator Agent
+## 13. T06 — Validator Agent
 
 Purpose:
 
@@ -749,9 +749,9 @@ UNKNOWN/GAP
 
 The validator may not promote a claim beyond its weakest load-bearing premise.
 
----
+______________________________________________________________________
 
-# 14. T07 — Governor Agent
+## 14. T07 — Governor Agent
 
 Purpose:
 
@@ -780,9 +780,9 @@ The governor controls admissibility.
 
 It does not replace domain expertise.
 
----
+______________________________________________________________________
 
-# 15. T08 — Orchestrator Agent
+## 15. T08 — Orchestrator Agent
 
 Purpose:
 
@@ -805,9 +805,9 @@ Orchestration
 DomainImplementation
 ```
 
----
+______________________________________________________________________
 
-# 16. T09 — Execution Support Agent
+## 16. T09 — Execution Support Agent
 
 Purpose:
 
@@ -826,9 +826,9 @@ Typical outputs:
 
 Execution support does not imply unrestricted execution authority.
 
----
+______________________________________________________________________
 
-# 17. T10 — Simulator Agent
+## 17. T10 — Simulator Agent
 
 Purpose:
 
@@ -852,9 +852,9 @@ ObservedReality
 
 Every simulation must preserve its assumption boundary.
 
----
+______________________________________________________________________
 
-# 18. T11 — Trainer Agent
+## 18. T11 — Trainer Agent
 
 Purpose:
 
@@ -868,9 +868,9 @@ LearningObjective
 
 Training assessment must not be confused with validated real-world competence unless the assessment supports that conclusion.
 
----
+______________________________________________________________________
 
-# 19. T12 — Specialist Agent
+## 19. T12 — Specialist Agent
 
 Specialist agents extend the base template with bounded domain expertise.
 
@@ -901,9 +901,9 @@ software
 
 High-risk specialists require stronger governance.
 
----
+______________________________________________________________________
 
-# 20. T13 — Observer Agent
+## 20. T13 — Observer Agent
 
 Purpose:
 
@@ -924,9 +924,9 @@ Derived
 
 Observation does not automatically establish causation.
 
----
+______________________________________________________________________
 
-# 21. T14 — Recovery Agent
+## 21. T14 — Recovery Agent
 
 Purpose:
 
@@ -948,9 +948,9 @@ unaffected valid state.
 
 Global recomputation is a last resort.
 
----
+______________________________________________________________________
 
-# 22. H / M / L Agent Structure
+## 22. H / M / L Agent Structure
 
 Every non-trivial agent can be represented recursively.
 
@@ -989,9 +989,9 @@ weakest load-bearing M/L premise
 
 unless independently revalidated.
 
----
+______________________________________________________________________
 
-# 23. Input Contract
+## 23. Input Contract
 
 Every template must define accepted input.
 
@@ -1015,9 +1015,9 @@ input_contract:
 
 Ambiguous input should not be silently converted into a high-impact action.
 
----
+______________________________________________________________________
 
-# 24. Output Contract
+## 24. Output Contract
 
 Canonical output structure:
 
@@ -1055,9 +1055,9 @@ Not every response needs every field rendered.
 
 The template defines the conceptual contract.
 
----
+______________________________________________________________________
 
-# 25. RSCF Contract
+## 25. RSCF Contract
 
 Important agent conclusions should conceptually carry:
 
@@ -1090,9 +1090,9 @@ rscf:
   confidence_ceiling:
 ```
 
----
+______________________________________________________________________
 
-# 26. Agent State Machine
+## 26. Agent State Machine
 
 Canonical lifecycle:
 
@@ -1124,9 +1124,9 @@ QUARANTINED
 
 A quarantined agent cannot silently return to `ACTIVE`.
 
----
+______________________________________________________________________
 
-# 27. Promotion Gates
+## 27. Promotion Gates
 
 ```text
 DRAFT → CONFIGURED
@@ -1154,9 +1154,9 @@ triggered by
 CriticalIntegrityFailure
 ```
 
----
+______________________________________________________________________
 
-# 28. Versioning
+## 28. Versioning
 
 AMOS agent templates use semantic structural versioning.
 
@@ -1189,9 +1189,9 @@ Increment when:
 - metadata is repaired;
 - non-semantic clarifications are made.
 
----
+______________________________________________________________________
 
-# 29. Version Lineage
+## 29. Version Lineage
 
 ```yaml
 version_lineage:
@@ -1214,9 +1214,9 @@ version_lineage:
 
 Never silently overwrite version lineage.
 
----
+______________________________________________________________________
 
-# 30. Template Inheritance
+## 30. Template Inheritance
 
 Templates may inherit from another template.
 
@@ -1240,9 +1240,9 @@ unless a separate authority grant exists.
 
 A child template cannot obtain new authority merely through inheritance.
 
----
+______________________________________________________________________
 
-# 31. Constraint Propagation
+## 31. Constraint Propagation
 
 Parent constraints propagate downward.
 
@@ -1258,9 +1258,9 @@ A child may tighten constraints.
 
 It may not silently weaken a hard parent invariant.
 
----
+______________________________________________________________________
 
-# 32. Capability Extension
+## 32. Capability Extension
 
 ```text
 Capabilities_child
@@ -1279,9 +1279,9 @@ SchemaValid
 ∧ GovernanceValid
 ```
 
----
+______________________________________________________________________
 
-# 33. Agent Assembly
+## 33. Agent Assembly
 
 Agent construction follows:
 
@@ -1311,9 +1311,9 @@ Instantiate
 
 No agent should be instantiated from capability declarations alone.
 
----
+______________________________________________________________________
 
-# 34. Assembly Validation
+## 34. Assembly Validation
 
 ```text
 AssemblyValid
@@ -1334,9 +1334,9 @@ If a critical term is unresolved:
 AssemblyState = BLOCKED
 ```
 
----
+______________________________________________________________________
 
-# 35. Runtime Preflight
+## 35. Runtime Preflight
 
 Before consequential execution:
 
@@ -1353,9 +1353,9 @@ ScopeFresh
 
 For mutable or irreversible effects, preflight alone is insufficient.
 
----
+______________________________________________________________________
 
-# 36. Commit-Time Revalidation
+## 36. Commit-Time Revalidation
 
 For consequential effects:
 
@@ -1378,9 +1378,9 @@ AuthorizedAtPlanTime
 AuthorizedAtCommitTime
 ```
 
----
+______________________________________________________________________
 
-# 37. Tool Contract
+## 37. Tool Contract
 
 Tool access must be explicit.
 
@@ -1409,9 +1409,9 @@ ToolAvailable
 ToolAuthorized
 ```
 
----
+______________________________________________________________________
 
-# 38. Memory Contract
+## 38. Memory Contract
 
 Memory-capable agents must distinguish:
 
@@ -1439,9 +1439,9 @@ Memory
 Canon
 ```
 
----
+______________________________________________________________________
 
-# 39. Memory Admission
+## 39. Memory Admission
 
 Conceptual admission gate:
 
@@ -1463,9 +1463,9 @@ QUARANTINE
 CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
-# 40. Provenance Contract
+## 40. Provenance Contract
 
 ```yaml
 provenance:
@@ -1482,9 +1482,9 @@ provenance:
 
 Agent provenance must survive downstream transformation when decision-relevant.
 
----
+______________________________________________________________________
 
-# 41. Agent Dependency Graph
+## 41. Agent Dependency Graph
 
 Represent dependencies as:
 
@@ -1510,9 +1510,9 @@ Descendants(D)
 
 not automatically the entire agent ecosystem.
 
----
+______________________________________________________________________
 
-# 42. Failure Recovery
+## 42. Failure Recovery
 
 ```text
 Failure
@@ -1540,9 +1540,9 @@ unless
 EvidenceChanged
 ```
 
----
+______________________________________________________________________
 
-# 43. Agent Audit
+## 43. Agent Audit
 
 Every active template should be auditable across:
 
@@ -1583,9 +1583,9 @@ audit:
 
 Overall status cannot exceed a critical failed dimension.
 
----
+______________________________________________________________________
 
-# 44. Agent Completion
+## 44. Agent Completion
 
 ```text
 AgentComplete
@@ -1607,9 +1607,9 @@ UniversallyCorrect
 
 Completion is scoped to the declared contract.
 
----
+______________________________________________________________________
 
-# 45. Agent Template Registry
+## 45. Agent Template Registry
 
 ```yaml
 registry:
@@ -1674,9 +1674,9 @@ registry:
     function: recovery
 ```
 
----
+______________________________________________________________________
 
-# 46. Anti-Patterns
+## 46. Anti-Patterns
 
 Do not create:
 
@@ -1694,9 +1694,9 @@ AGENT_WHERE_CAPABILITY_EQUALS_PERMISSION
 AGENT_WHERE_OUTPUT_EQUALS_EVIDENCE
 ```
 
----
+______________________________________________________________________
 
-# 47. Template Selection Rule
+## 47. Template Selection Rule
 
 Choose the smallest template capable of satisfying the objective.
 
@@ -1716,9 +1716,9 @@ ObjectiveCovered(T)
 
 Do not create an orchestrator where a bounded analyst is sufficient.
 
----
+______________________________________________________________________
 
-# 48. Composition
+## 48. Composition
 
 Multiple templates may compose:
 
@@ -1740,9 +1740,9 @@ Authority(composite)
 
 Authority must be explicitly resolved.
 
----
+______________________________________________________________________
 
-# 49. Separation of Cognition and Control
+## 49. Separation of Cognition and Control
 
 AMOS agent architecture should preserve:
 
@@ -1760,9 +1760,9 @@ A stochastic worker may propose an action.
 
 A governed control layer determines whether that action may become an effect.
 
----
+______________________________________________________________________
 
-# 50. RSCF Node
+## 50. RSCF Node
 
 ```yaml
 node_id: AMOS_AGENT_TEMPLATES_V2
@@ -1808,9 +1808,9 @@ confidence_ceiling: >
   architecture is universally optimal for all agent systems.
 ```
 
----
+______________________________________________________________________
 
-# 51. Version History
+## 51. Version History
 
 ## v2.0.0 — 2026-08-25
 
@@ -1852,9 +1852,9 @@ Initial agent-template framework family.
 
 Historical content should remain available through version lineage rather than being silently overwritten.
 
----
+______________________________________________________________________
 
-# 52. Canonical Rule
+## 52. Canonical Rule
 
 ```text
 SCHEMA
@@ -1882,29 +1882,33 @@ The central invariant is:
 
 > **An AMOS agent is not merely a prompt or persona. It is a versioned, scoped, provenance-aware, governed runtime role whose capability, authority, evidence, state, dependencies, and lifecycle remain explicitly distinguishable.**
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · 06-Knowledge-Base-MOC · [[11_KNOWLEDGE/AGENT_SCHEMA|AGENT_SCHEMA]] · AMOS_AGENT_ONBOARDING_GUIDE · AMOS_Simulation_Kernel_v0_Math_Foundations · system_scan_agent · automation_profiles
 
 ```text
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: agent_templates
 node_type: note
 path: 11_KNOWLEDGE/Agent_Templates.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]]

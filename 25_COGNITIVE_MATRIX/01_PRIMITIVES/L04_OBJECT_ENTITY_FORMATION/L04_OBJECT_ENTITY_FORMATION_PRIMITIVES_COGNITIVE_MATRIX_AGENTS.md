@@ -2,14 +2,14 @@
 type: agent
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L04_OBJECT_ENTITY_FORMATION
 tags:
-- amos
-- cognitive-matrix
-- object-entity-formation
-- agents
-- rscf
-- provenance
-- governance
-- domain/cognitive-matrix
+  - amos
+  - cognitive-matrix
+  - object-entity-formation
+  - agents
+  - rscf
+  - provenance
+  - governance
+  - domain/cognitive-matrix
 title: L04_OBJECT_ENTITY_FORMATION — Agents
 origin_architect: Trang Phan
 status: MODEL_AGENT_CONTRACT / UNIMPLEMENTED / UNVALIDATED
@@ -97,9 +97,9 @@ ADDRESSABLE != VALIDATED
 UNKNOWN/GAP != PASS
 ```
 
----
+______________________________________________________________________
 
-# 1. Source / Canon References
+## 1. Source / Canon References
 
 ## 1.1 Architecture-aligned references
 
@@ -162,39 +162,37 @@ canonical_entity_promotion_rules: UNKNOWN_GAP
 
 Therefore all L04-specific agent names below are `AMOS_MODEL` unless recovered from direct canon.
 
----
+______________________________________________________________________
 
-# 2. Definition and Scope
+## 2. Definition and Scope
 
 An L04 agent is a bounded cognitive worker responsible for some subset of object/entity formation tasks.
 
 Candidate abstraction:
 
-[
+\[
 Agent_i :
-(Input_i,\ Context_i,\ Capability_i)
-\rightarrow
-(Proposal_i,\ Evidence_i,\ Trace_i)
-]
+(Input_i,\\ Context_i,\\ Capability_i)
+\\rightarrow
+(Proposal_i,\\ Evidence_i,\\ Trace_i)
+\]
 
 subject to:
 
-[
-Admissible(Agent_i)
-===================
+## \[ Admissible(Agent_i)
 
 TypeValid
-\land
+\\land
 CapabilityValid
-\land
+\\land
 ScopeValid
-\land
+\\land
 RegimeValid
-\land
+\\land
 InvariantValid
-\land
+\\land
 AuthorityValid
-]
+\]
 
 `AMOS_MODEL`.
 
@@ -235,9 +233,9 @@ real-world action authority
 
 unless separately governed.
 
----
+______________________________________________________________________
 
-# 3. Agent Object
+## 3. Agent Object
 
 Candidate agent descriptor:
 
@@ -322,9 +320,9 @@ L04AgentDescriptor:
       - UNKNOWN_GAP
 ```
 
----
+______________________________________________________________________
 
-# 4. Typed Inputs
+## 4. Typed Inputs
 
 Candidate shared L04 agent input:
 
@@ -387,9 +385,9 @@ L04AgentInput:
     type: AuthorityContext
 ```
 
----
+______________________________________________________________________
 
-# 5. Typed Outputs
+## 5. Typed Outputs
 
 ```yaml
 L04AgentOutput:
@@ -446,9 +444,9 @@ L04AgentOutput:
     type: NONE
 ```
 
----
+______________________________________________________________________
 
-# 6. Core Agent State Variables
+## 6. Core Agent State Variables
 
 ```text
 Ag_t      = active L04 agents
@@ -488,9 +486,9 @@ Rep_t     = repair state
 Ver_t     = state/version
 ```
 
----
+______________________________________________________________________
 
-# 7. Candidate Agent Registry
+## 7. Candidate Agent Registry
 
 The following are **logical capability roles**, not claims that these agents are implemented.
 
@@ -524,7 +522,7 @@ declare object existence as fact
 solely from grouping coherence
 ```
 
----
+______________________________________________________________________
 
 ## 7.2 L04 Entity Formation Agent
 
@@ -558,7 +556,7 @@ ENTITY CANDIDATE
 VERIFIED EXTERNAL ENTITY
 ```
 
----
+______________________________________________________________________
 
 ## 7.3 L04 Boundary Agent
 
@@ -585,7 +583,7 @@ functional distinction
 
 Boundary hypotheses must remain explicit where ambiguity exists.
 
----
+______________________________________________________________________
 
 ## 7.4 L04 Identity Agent
 
@@ -620,7 +618,7 @@ SIMILARITY
 
 without additional support.
 
----
+______________________________________________________________________
 
 ## 7.5 L04 Continuity Agent
 
@@ -651,7 +649,7 @@ TEMPORAL CONTINUITY HYPOTHESIS
 IDENTITY PROOF
 ```
 
----
+______________________________________________________________________
 
 ## 7.6 L04 Alias Resolution Agent
 
@@ -677,7 +675,7 @@ DIFFERENT NAME != DIFFERENT ENTITY
 ALIAS != IDENTITY UNTIL SUPPORTED
 ```
 
----
+______________________________________________________________________
 
 ## 7.7 L04 Merge/Split Agent
 
@@ -705,7 +703,7 @@ one existing entity candidate may contain multiple entities
 
 Merge/split operations must preserve original lineage.
 
----
+______________________________________________________________________
 
 ## 7.8 L04 Relation Agent
 
@@ -743,7 +741,7 @@ RELATION CANDIDATE
 CAUSAL PROOF
 ```
 
----
+______________________________________________________________________
 
 ## 7.9 L04 Memory Interface Agent
 
@@ -776,7 +774,7 @@ MEMORY MATCH
 → VERIFIED CURRENT IDENTITY
 ```
 
----
+______________________________________________________________________
 
 ## 7.10 L04 Provenance Agent
 
@@ -802,7 +800,7 @@ preserve semantic origin
 calculate independence status
 ```
 
----
+______________________________________________________________________
 
 ## 7.11 L04 H/M/L Agent
 
@@ -837,7 +835,7 @@ H:
 
 This mapping remains `AMOS_MODEL`.
 
----
+______________________________________________________________________
 
 ## 7.12 L04 Competing Entity Agent
 
@@ -871,7 +869,7 @@ If evidence cannot discriminate:
 status = COMPETING
 ```
 
----
+______________________________________________________________________
 
 ## 7.13 L04 Validation Agent
 
@@ -894,7 +892,7 @@ check entity candidate against:
 
 Validation output is not authority.
 
----
+______________________________________________________________________
 
 ## 7.14 L04 Repair Agent
 
@@ -918,7 +916,7 @@ repair:
 
 Repair requires revalidation.
 
----
+______________________________________________________________________
 
 ## 7.15 L04 Audit Agent
 
@@ -951,9 +949,9 @@ Did an H-level assumption overwrite L evidence?
 Is an entity label being mistaken for the entity itself?
 ```
 
----
+______________________________________________________________________
 
-# 8. Agent Specialization vs Persistence
+## 8. Agent Specialization vs Persistence
 
 The Agent Externalization Architecture requires persistent state to live in memory rather than implicit agent recollection and repeatable procedures to live in Skills/code rather than repeated free-form regeneration.
 
@@ -984,9 +982,9 @@ THE ONLY LOCATION
 OF PERSISTENT ENTITY STATE
 ```
 
----
+______________________________________________________________________
 
-# 9. Agent Capability Envelope
+## 9. Agent Capability Envelope
 
 Candidate:
 
@@ -1017,9 +1015,9 @@ L04CapabilityEnvelope:
     - perform external actions without authority
 ```
 
----
+______________________________________________________________________
 
-# 10. Agent Operators
+## 10. Agent Operators
 
 Candidate agent-level operators:
 
@@ -1066,9 +1064,9 @@ ESCALATE
 
 Canonical identifiers remain `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
-# 11. Agent Invariants
+## 11. Agent Invariants
 
 ```text
 AG-L04-001
@@ -1165,9 +1163,9 @@ AG-L04-031
 PROPOSAL != COMMIT.
 ```
 
----
+______________________________________________________________________
 
-# 12. Dependencies
+## 12. Dependencies
 
 ## 12.1 Upstream
 
@@ -1231,9 +1229,9 @@ AMOS Infrastructure Control Plane
 AMOS Agent Externalization Architecture
 ```
 
----
+______________________________________________________________________
 
-# 13. H/M/L Applicability
+## 13. H/M/L Applicability
 
 ## L — Local agent roles
 
@@ -1306,9 +1304,9 @@ MUST RETAIN
 LOAD-BEARING M/L LINEAGE
 ```
 
----
+______________________________________________________________________
 
-# 14. Control-Plane Requirements
+## 14. Control-Plane Requirements
 
 L04 agents operate below the authoritative control plane.
 
@@ -1365,9 +1363,9 @@ authority
 falsifiers
 ```
 
----
+______________________________________________________________________
 
-# 15. Skills
+## 15. Skills
 
 Candidate Skills agents may invoke:
 
@@ -1398,9 +1396,9 @@ provenance continuity
 authority constraints
 ```
 
----
+______________________________________________________________________
 
-# 16. Agent-to-Agent Workflow
+## 16. Agent-to-Agent Workflow
 
 Candidate:
 
@@ -1448,9 +1446,9 @@ ENTITY STATE PROPOSAL
 CONTROL-PLANE VALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 17. Independent Challenge Workflow
+## 17. Independent Challenge Workflow
 
 Consequential entity formation should be challenged by a path that is meaningfully different from the primary formation path.
 
@@ -1478,9 +1476,9 @@ PASS / DOWNGRADE / COMPETING / GAP
 
 Agent agreement should not be treated as independence unless their evidence ancestry is actually independent.
 
----
+______________________________________________________________________
 
-# 18. Protocols
+## 18. Protocols
 
 Candidate agent protocol surface:
 
@@ -1531,9 +1529,9 @@ L04_STATE_COMMIT_RESULT
 
 Canonical protocol names remain `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
-# 19. Evidence / Provenance
+## 19. Evidence / Provenance
 
 Every material L04 agent output should preserve:
 
@@ -1588,9 +1586,9 @@ AGENT OUTPUT WITHOUT RECOVERABLE MATERIAL LINEAGE
 → QUARANTINE / GAP
 ```
 
----
+______________________________________________________________________
 
-# 20. Uncertainty
+## 20. Uncertainty
 
 Candidate L04 uncertainty vector:
 
@@ -1615,17 +1613,17 @@ U_L04 =
 
 These dimensions should remain separate where they can alter entity decisions.
 
----
+______________________________________________________________________
 
-# 21. Confidence Ceiling
+## 21. Confidence Ceiling
 
 Candidate:
 
-[
+\[
 Conf(E)
-\le
-\min_{p\in LB(E)} Conf(p)
-]
+\\le
+\\min\_{p\\in LB(E)} Conf(p)
+\]
 
 where `LB(E)` is the set of load-bearing premises supporting entity candidate `E`.
 
@@ -1651,9 +1649,9 @@ Conf(E | 5 agents, same evidence)
 5 × Conf(E | same evidence)
 ```
 
----
+______________________________________________________________________
 
-# 22. Failure Modes
+## 22. Failure Modes
 
 ```text
 AFM-L04-001
@@ -1747,9 +1745,9 @@ AFM-L04-030
 Agent implementation exists but validation is assumed.
 ```
 
----
+______________________________________________________________________
 
-# 23. Repair / Recovery
+## 23. Repair / Recovery
 
 Candidate repair sequence:
 
@@ -1809,9 +1807,9 @@ REPAIR MUST NOT INVENT IDENTITY EVIDENCE
 REPAIR MUST NOT ERASE PRIOR FAILURE HISTORY
 ```
 
----
+______________________________________________________________________
 
-# 24. Tests / Validators
+## 24. Tests / Validators
 
 Minimum agent tests:
 
@@ -1903,9 +1901,9 @@ formal_verification: false
 empirical_validation: false
 ```
 
----
+______________________________________________________________________
 
-# 25. Adversarial Agent Tests
+## 25. Adversarial Agent Tests
 
 ```text
 ADV-L04-001
@@ -1955,9 +1953,9 @@ reject unsupported merge/split
 refuse unauthorized commit
 ```
 
----
+______________________________________________________________________
 
-# 26. Agent Interaction Rules
+## 26. Agent Interaction Rules
 
 Agents must communicate via typed state or protocols rather than undocumented assumptions.
 
@@ -1985,19 +1983,19 @@ not:
 implicit shared belief
 ```
 
----
+______________________________________________________________________
 
-# 27. Agent Independence
+## 27. Agent Independence
 
 Agent count must not be used as a substitute for provenance independence.
 
 Candidate:
 
-[
+\[
 IndependentAgentSupport
-\le
+\\le
 DemonstratedIndependentEvidenceFamilies
-]
+\]
 
 if all agent conclusions ultimately derive from the same evidence family.
 
@@ -2013,9 +2011,9 @@ same percept source
 
 does not provide three independent confirmations.
 
----
+______________________________________________________________________
 
-# 28. Agent Lifecycle
+## 28. Agent Lifecycle
 
 Candidate lifecycle:
 
@@ -2053,32 +2051,30 @@ IMPLEMENTED
 AUTHORIZED_FOR_SCOPE
 ```
 
----
+______________________________________________________________________
 
-# 29. Agent Admission
+## 29. Agent Admission
 
 Candidate:
 
-[
-AdmitAgent(a)
-=============
+## \[ AdmitAgent(a)
 
 IdentityKnown
-\land
+\\land
 VersionKnown
-\land
+\\land
 CapabilityKnown
-\land
+\\land
 InputContractKnown
-\land
+\\land
 OutputContractKnown
-\land
+\\land
 ScopeValid
-\land
+\\land
 RegimeValid
-\land
+\\land
 AuthorityValid
-]
+\]
 
 `AMOS_MODEL`.
 
@@ -2090,43 +2086,41 @@ UNKNOWN/GAP
 
 must not silently become `true`.
 
----
+______________________________________________________________________
 
-# 30. Agent Selection
+## 30. Agent Selection
 
 Use the smallest sufficient agent set.
 
 Candidate:
 
-[
-A^*
-===
+## \[ A^\*
 
-\arg\min_A
+\\arg\\min_A
 (
 CoordinationCost(A)
-+
+\+
 ContextCost(A)
-+
+\+
 FailureRisk(A)
 )
-]
+\]
 
 subject to:
 
-[
+\[
 RequiredCapabilitiesCovered(A)
-\land
+\\land
 HardInvariantsPass(A)
-]
+\]
 
 `AMOS_MODEL`.
 
 More agents are not automatically better.
 
----
+______________________________________________________________________
 
-# 31. Agent Coordination Failure Modes
+## 31. Agent Coordination Failure Modes
 
 ```text
 ACFM-001
@@ -2160,9 +2154,9 @@ ACFM-010
 Circular handoff without termination condition.
 ```
 
----
+______________________________________________________________________
 
-# 32. Control-Plane Commit Boundary
+## 32. Control-Plane Commit Boundary
 
 Entity-state proposals may include:
 
@@ -2192,30 +2186,28 @@ no triggered hard falsifier
 
 Candidate:
 
-[
-CommitAllowed
-=============
+## \[ CommitAllowed
 
 AuthorityValid
-\land
+\\land
 StateFresh
-\land
+\\land
 DependencyValid
-\land
+\\land
 ProvenanceValid
-\land
+\\land
 ScopeValid
-\land
+\\land
 RegimeValid
-\land
+\\land
 ConstraintsValid
-]
+\]
 
 `AMOS_MODEL`.
 
----
+______________________________________________________________________
 
-# 33. Falsifiers
+## 33. Falsifiers
 
 Revise this contract if direct canonical evidence establishes:
 
@@ -2253,9 +2245,9 @@ agent behavior or role separation
 
 Affected model sections should then be invalidated selectively.
 
----
+______________________________________________________________________
 
-# 34. Gap Matrix
+## 34. Gap Matrix
 
 ```yaml
 gap_status:
@@ -2339,9 +2331,9 @@ gap_status:
     status: CRITICAL_GAP
 ```
 
----
+______________________________________________________________________
 
-# 35. Competing Agent Architectures
+## 35. Competing Agent Architectures
 
 ## COMPETING-001 — Single Object/Entity Agent
 
@@ -2365,7 +2357,7 @@ weak separation of concerns
 poor independent challenge
 ```
 
----
+______________________________________________________________________
 
 ## COMPETING-002 — Specialist Agent Pool
 
@@ -2394,7 +2386,7 @@ schema drift
 consensus illusion
 ```
 
----
+______________________________________________________________________
 
 ## COMPETING-003 — H/M/L Agent Hierarchy
 
@@ -2419,7 +2411,7 @@ Risks:
 hierarchy may suppress valid lower-level contradiction
 ```
 
----
+______________________________________________________________________
 
 ## COMPETING-004 — Governed Typed Agent Graph
 
@@ -2457,9 +2449,9 @@ MODEL PREFERENCE
 CANONICAL L04 AGENT ARCHITECTURE
 ```
 
----
+______________________________________________________________________
 
-# 36. RSCF Completion State
+## 36. RSCF Completion State
 
 ```yaml
 rscf:
@@ -2568,9 +2560,9 @@ rscf:
     agent role into canon.
 ```
 
----
+______________________________________________________________________
 
-# 37. Completion State
+## 37. Completion State
 
 ```yaml
 completion_state:
@@ -2654,9 +2646,9 @@ completion_state:
     MODEL
 ```
 
----
+______________________________________________________________________
 
-# 38. Hard Boundaries
+## 38. Hard Boundaries
 
 ```text
 PLACEHOLDER != IMPLEMENTED
@@ -2720,15 +2712,15 @@ VALIDATION != AUTHORITY
 IMPLEMENTATION != EMPIRICAL COGNITIVE VALIDITY
 ```
 
----
+______________________________________________________________________
 
-# 39. Governing Agent Contract
+## 39. Governing Agent Contract
 
 > **`L04_OBJECT_ENTITY_FORMATION` SHALL use agents only as bounded, typed, provenance-aware cognitive workers whose roles, capability envelopes, inputs, outputs, dependencies, H/M/L applicability, uncertainty, skills, protocols, and authority boundaries remain explicit. Agents MAY form object candidates, entity candidates, boundaries, identity hypotheses, continuity hypotheses, aliases, merge/split proposals, relations, competing entity models, validations, and repairs; they SHALL NOT convert perceptual coherence, labels, similarity, memory, binding, continuity, agent consensus, or repeated derived evidence into proof of entity identity or external existence. Multiple agents processing shared ancestry SHALL NOT manufacture independent confirmation. Legitimate competing entity hypotheses SHALL remain visible until discriminating evidence resolves them. Derived entity state SHALL preserve its perceptual and observational lineage, scope, regime, freshness, and uncertainty. Failed premises SHALL selectively invalidate dependent entity conclusions while preserving unaffected branches. Repair SHALL preserve historical lineage and require revalidation. L04 agents MAY propose object/entity-state changes, but durable creation, update, merge, split, alias mutation, invalidation, or other persistent effects SHALL remain subject to external control-plane authority and commit-time revalidation. `UNKNOWN/GAP` SHALL remain non-passing.**
 
----
+______________________________________________________________________
 
-# 40. Canon Boundary
+## 40. Canon Boundary
 
 ```text
 SOURCE / ARCHITECTURE-ALIGNED:
@@ -2872,22 +2864,26 @@ EMPIRICAL HUMAN OBJECT/ENTITY COGNITION:
 NOT ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: l04_object_entity_formation_primitives_cognitive_matrix_agents
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L04_OBJECT_ENTITY_FORMATION/L04_OBJECT_ENTITY_FORMATION_PRIMITIVES_COGNITIVE_MATRIX_AGENTS.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L04_OBJECT_ENTITY_FORMATION/L04_OBJECT_ENTITY_FORMATION_MOC|L04_OBJECT_ENTITY_FORMATION_MOC]]

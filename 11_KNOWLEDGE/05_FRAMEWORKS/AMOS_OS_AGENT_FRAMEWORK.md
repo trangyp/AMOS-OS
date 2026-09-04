@@ -12,18 +12,18 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: FRAMEWORK
 path: 11_KNOWLEDGE/05_FRAMEWORKS/AMOS_OS_AGENT_FRAMEWORK.md
 tags:
-- amos-os
-- knowledge
-- vault
-- 05_frameworks
-- agent_framework
-- multi_agent_systems
-- agent_contract
-- agent_schema
-- rscf
-- canon_candidate
-- canon/knowledge
-- agents
+  - amos-os
+  - knowledge
+  - vault
+  - 05_frameworks
+  - agent_framework
+  - multi_agent_systems
+  - agent_contract
+  - agent_schema
+  - rscf
+  - canon_candidate
+  - canon/knowledge
+  - agents
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -38,18 +38,18 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - AGENT_SCHEMA
-  - AGENT_TEMPLATES
-  - AGENT_ONBOARDING_GUIDE
-  - AMOS_CORPUS
+    - AGENT_SCHEMA
+    - AGENT_TEMPLATES
+    - AGENT_ONBOARDING_GUIDE
+    - AMOS_CORPUS
   scope:
-  - KNOWLEDGE_FRAMEWORKS
-  - AGENT_ARCHITECTURE
-  - SOURCE_DEFINED_MODEL
+    - KNOWLEDGE_FRAMEWORKS
+    - AGENT_ARCHITECTURE
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   agent_contract:
     artifact:
-    - - AGENTS
+      -   - AGENTS
   agent_schema:
     artifact: 11_KNOWLEDGE/AGENT_SCHEMA
   agent_templates:
@@ -67,9 +67,9 @@ epistemic_boundary:
 
 It establishes the structural schema, capability boundaries, and coordination protocols governing the **678+ canonical JSON agents** operating across the system.
 
----
+______________________________________________________________________
 
-# 1. Agent Architecture & Governance Invariants
+## 1. Agent Architecture & Governance Invariants
 
 ```text
                ┌────────────────────────────────────────────────────────┐
@@ -84,18 +84,18 @@ STRICT JSON SCHEMA BINDING         AUTHORITY SEPARATION              WORKFLOW RE
 • Validated in .devin/agents/      • Strict fail-closed defaults     • Cryptographic receipts
 ```
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Agent Contract:** [[AGENTS|AGENTS]]
 - **Agent Schema:** `11_KNOWLEDGE/AGENT_SCHEMA` and `11_KNOWLEDGE/AGENT_TEMPLATES`
 - **Onboarding Guide:** `11_KNOWLEDGE/AGENT_ONBOARDING_GUIDE`
 - **Agent Registry:** .devin/agents/amos-agent-registry-index
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -114,9 +114,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]] · [[AGENTS|AGENTS]] · `11_KNOWLEDGE/AGENT_SCHEMA` · `11_KNOWLEDGE/AGENT_ONBOARDING_GUIDE`
 
----
+______________________________________________________________________
+
 **MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]

@@ -5,18 +5,18 @@ title: SKILL — Amos Law Stack Enforcement
 type: note
 source: 07_SKILLS/amos-law-stack-enforcement
 tags:
-- type/skill
-- type/skill
-- domain/canon-universe
-- epistemic/source_claim
-- hml/m
-- epistemic/source_claim
-- amos-os
-- references
-- readme
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/canon-universe
+  - epistemic/source_claim
+  - hml/m
+  - epistemic/source_claim
+  - amos-os
+  - references
+  - readme
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL
@@ -28,31 +28,26 @@ epistemic_class: SOURCE_CLAIM
 rscf_state: SOURCE_CLAIM
 hml_level: M
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
-- L7_authority
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
+  - L7_authority
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L7
-- L16
-- L17
-- L18
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L7
+  - L16
+  - L17
+  - L18
 parent_skill: amos-canon-universe-master
 domain: canon
-description: AMOS Law Stack Enforcement — Part IV (Enforcement) of the 7-Part Universe
-  Canon. Validates Law of Law / Rule of 2 / Rule of 4 hierarchy, invariant enforcement
-  across scale transitions, UBI Score/ledger integrity. Use when validating whether
-  system rules hold across scale, checking law adherence to LoL/R2/R4 hierarchy, or
-  when a draft law short-circuits canonical order. Do not use for generic tasks outside
-  the declared amos domain.
+description: AMOS Law Stack Enforcement — Part IV (Enforcement) of the 7-Part Universe Canon. Validates Law of Law / Rule of 2 / Rule of 4 hierarchy, invariant enforcement across scale transitions, UBI Score/ledger integrity. Use when validating whether system rules hold across scale, checking law adherence to LoL/R2/R4 hierarchy, or when a draft law short-circuits canonical order. Do not use for generic tasks outside the declared amos domain.
 license: MIT
 steward: Trang Phan
 ---
@@ -62,7 +57,9 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: canon. Parent: amos-canon-universe-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
 ## When to Use
+
 - When validating whether a system's rules hold across scale transitions
 - When checking if a proposed law adheres to the Law of Law™/Rule of 2™/Rule of 4™ hierarchy
 - When a draft law short-circuits the canonical order: LoL→R2→R4 (contradictory drafts fail gate)
@@ -77,32 +74,36 @@ Origin architect: **Trang Phan**. Domain: canon. Parent: amos-canon-universe-mas
 ## Operations
 
 1. **canon_audit**: Audit structural completeness across the 7-Part Universe Canon
-2. **canon_validate**: Validate system against canon invariants
-3. **canon_map**: Map system elements to canon parts
+1. **canon_validate**: Validate system against canon invariants
+1. **canon_map**: Map system elements to canon parts
 
 ## Source
+
 Vault-generated from law stack enforcement research (2026-08-25)
 
 ## 7-Part Mapping
-| Part | Owned By | Gap Status |
-|------|----------|-----------|
-| I — Constraint | amos-law-stack-enforcement | ✅ Filled |
-| II — Flow | — | ⚪ Empty |
-| III — Structure | — | ⚪ Empty |
-| IV — Enforcement | amos-law-stack-enforcement | ✅ Filled |
-| V — Time | — | ⚪ Empty |
-| VI — Adaptation | — | ⚪ Empty |
-| VII — Termination | — | ⚪ Empty |
+
+| Part              | Owned By                   | Gap Status |
+| ----------------- | -------------------------- | ---------- |
+| I — Constraint    | amos-law-stack-enforcement | ✅ Filled  |
+| II — Flow         | —                          | ⚪ Empty   |
+| III — Structure   | —                          | ⚪ Empty   |
+| IV — Enforcement  | amos-law-stack-enforcement | ✅ Filled  |
+| V — Time          | —                          | ⚪ Empty   |
+| VI — Adaptation   | —                          | ⚪ Empty   |
+| VII — Termination | —                          | ⚪ Empty   |
 
 ## Part Details
 
 ### Part I — Constraint
+
 - **Properties:** Scarcity · Boundaries · Non-infinite capacity · Irreversibility
 - **Law Stack Connection:** A proposed law must first satisfy Constraint before Enforcement applies
 - **Examples:** Finite energy (physics), speed of light, metabolic limits (biology), logistics ceilings (war), time/attention/legitimacy (civilization)
 - **Law Stack Gate:** PreventionCheck — if constraint fails, law cannot proceed to R2 gate
 
 ### Part IV — Enforcement
+
 - **Definition:** The mechanism that prevents deviation from structure. Enforcement is not morality. It is mechanical correction.
 - **Law Stack Connection:** This is the primary responsibility — LoL→R2→R4 order must be preserved
 - **Properties:** Rule consistency · Boundary correction · Deviation cost · Predictability
@@ -110,8 +111,8 @@ Vault-generated from law stack enforcement research (2026-08-25)
 - **Law Stack Gate:** G3 — Law Stack validation runs before any expression translation; canon compliance fields derived from actual law stack results (capability_authorized, evolution_allowed, mutation_gate_passed, all_gates_passed)
 
 ## Epistemic Boundary
-This skill enforces the **Law of Law™/Rule of 2™/Rule of 4™** — the most-cited framework in the vault (official manual 743 lines) with ZERO executable enforcement previously. Created to fill the G3 'Law Stack' gate which had no defined checks. Contradictory drafts short-circuit: LoL→R2→R4 order must be preserved, and R4 quadrant completeness requires declared canonical family (UBI/TSS/PSI/QLS).
 
+This skill enforces the **Law of Law™/Rule of 2™/Rule of 4™** — the most-cited framework in the vault (official manual 743 lines) with ZERO executable enforcement previously. Created to fill the G3 'Law Stack' gate which had no defined checks. Contradictory drafts short-circuit: LoL→R2→R4 order must be preserved, and R4 quadrant completeness requires declared canonical family (UBI/TSS/PSI/QLS).
 
 ## Do not use
 
@@ -119,27 +120,32 @@ This skill enforces the **Law of Law™/Rule of 2™/Rule of 4™** — the most
 - As a substitute for domain-specific analysis
 - For empirical claims without evidence
 - Outside the AMOS canon law hierarchy
+
 ## References
+
 - references — session-specific detail and authoritative sources
 - references/README — references subdirectory readme
 
----
+______________________________________________________________________
+
 **MOC:** [[07_SKILLS/amos-law-stack-enforcement/amos-law-stack-enforcement_MOC|amos-law-stack-enforcement_MOC]]
 
 ## Examples
 
 - **Scenario**: When validating whether a system's rules hold across scale transitions
+
   - **Input**: A query matching this skill's domain ()
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When checking if a proposed law adheres to the Law of Law™/Rule of 2™/Rule of 4™ hierarchy
+
   - **Input**: A query matching this skill's domain ()
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When a draft law short-circuits the canonical order: LoL→R2→R4 (contradictory drafts fail gate)
+
   - **Input**: A query matching this skill's domain ()
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Validation Gates
 
@@ -150,20 +156,18 @@ This skill enforces the **Law of Law™/Rule of 2™/Rule of 4™** — the most
 
 ## Anti-Patterns
 
-- **Do not use** for tasks outside the  domain
+- **Do not use** for tasks outside the domain
 - **Do not use** when the query requires empirical validation that this skill cannot provide
 - **Do not use** when a parent skill or higher-level orchestrator should route instead
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
-- **Peers**: Other skills in the `` domain may be composed in sequence
+- **Peers**: Other skills in the \`\` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -182,7 +186,6 @@ This skill enforces the **Law of Law™/Rule of 2™/Rule of 4™** — the most
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -190,7 +193,8 @@ This skill enforces the **Law of Law™/Rule of 2™/Rule of 4™** — the most
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -198,12 +202,14 @@ This skill enforces the **Law of Law™/Rule of 2™/Rule of 4™** — the most
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-law-stack-enforcement
 node_type: skill
 path: 07_SKILLS/amos-law-stack-enforcement/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

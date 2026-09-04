@@ -89,7 +89,7 @@
     "arxiv-constrained-structured-decoding-rscf"
   ],
   "depends_on_workflows": [
-    "arxiv-constrained-structured-decoding-rscf-workflow.md"
+    "amos-arxiv-constrained-structured-decoding-rscf-workflow.md"
   ],
   "epistemic_class": "AMOS_MODEL",
   "claim_ceiling": 0.95,

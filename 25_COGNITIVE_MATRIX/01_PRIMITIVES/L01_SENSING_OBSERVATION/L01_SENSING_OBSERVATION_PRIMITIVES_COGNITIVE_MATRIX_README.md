@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: L01 SENSING OBSERVATION PRIMITIVES COGNITIVE MATRIX README
 type: cognitive
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION
 tags:
-- cognitive-matrix
-- primitives
-- matrix/l01-sensing-observation
-- readme
-- domain/cognitive-matrix
+  - cognitive-matrix
+  - primitives
+  - matrix/l01-sensing-observation
+  - readme
+  - domain/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -17,18 +20,21 @@ rscf:
 
 Here is the full `L01_SENSING_OBSERVATION/README.md` content to paste. I’m keeping the README as the **integration/index contract** for the L01 primitive rather than duplicating every sibling file in full.
 
----
+______________________________________________________________________
+
 tags:
-  - amos
-  - cognitive-matrix
-  - l01
-  - sensing-observation
-  - readme
-  - rscf
-  - hml
-  - provenance
-  - control-plane
----
+
+- amos
+- cognitive-matrix
+- l01
+- sensing-observation
+- readme
+- rscf
+- hml
+- provenance
+- control-plane
+
+______________________________________________________________________
 
 # L01_SENSING_OBSERVATION — README
 
@@ -42,9 +48,9 @@ tags:
 
 > **Epistemic boundary:** this README defines the proposed integration contract for `L01_SENSING_OBSERVATION`. It organizes the primitive's purpose, boundaries, interfaces, state, dependencies, governance, evidence requirements, failure handling, and sibling artifacts. It does not establish that L01 has been implemented, executed, formally verified, empirically validated, or canonically completed.
 
----
+______________________________________________________________________
 
-# 0. Executive Definition
+## 0. Executive Definition
 
 `L01_SENSING_OBSERVATION` is the proposed AMOS cognitive primitive responsible for converting available reality/environment contact into explicitly typed observation state suitable for governed downstream cognition.
 
@@ -64,33 +70,33 @@ DOWNSTREAM COGNITION
 
 Its core architectural responsibility is:
 
-[
-\boxed{
+\[
+\\boxed{
 RealityContact
-\rightarrow
+\\rightarrow
 Sensing
-\rightarrow
+\\rightarrow
 ObservationCandidate
-\rightarrow
+\\rightarrow
 TypedObservation
-\rightarrow
+\\rightarrow
 GovernedObservation
 }
-]
+\]
 
 while preserving the distinctions:
 
-[
-\boxed{
+\[
+\\boxed{
 Reality
-\neq
+\\neq
 Signal
-\neq
+\\neq
 Observation
-\neq
+\\neq
 Interpretation
 }
-]
+\]
 
 and:
 
@@ -113,9 +119,9 @@ OBSERVATION
 
 L01 is therefore a **reality-contact and observation-formation boundary**, not a universal truth engine.
 
----
+______________________________________________________________________
 
-# 1. Purpose
+## 1. Purpose
 
 The purpose of L01 is to provide AMOS with a governed interface for representing what was sensed, observed, reported, retrieved, measured, or otherwise made available from an environment without silently promoting that representation beyond the evidence supporting it.
 
@@ -150,9 +156,9 @@ to erase uncertainty
 to convert missing information into assumptions
 ```
 
----
+______________________________________________________________________
 
-# 2. Architectural Role
+## 2. Architectural Role
 
 L01 occupies the conceptual boundary between:
 
@@ -170,34 +176,32 @@ The primitive should make that boundary explicit.
 
 Conceptually:
 
-[
-O_t
-===
+## \[ O_t
 
-\mathcal{S}
+\\mathcal{S}
 (
 E_t,
 M_t,
 B_t,
 C_t
 )
-]
+\]
 
 where:
 
-- \(E_t\) = available environment state;
-- \(M_t\) = sensing modality/interface;
-- \(B_t\) = observer or sensor state;
-- \(C_t\) = contextual conditions;
-- \(O_t\) = observation state.
+- (E_t) = available environment state;
+- (M_t) = sensing modality/interface;
+- (B_t) = observer or sensor state;
+- (C_t) = contextual conditions;
+- (O_t) = observation state.
 
 This is an `AMOS_MODEL` equation.
 
 It is not asserted as universal sensing mathematics.
 
----
+______________________________________________________________________
 
-# 3. Source / Canon References
+## 3. Source / Canon References
 
 ## 3.1 Origin
 
@@ -298,9 +302,9 @@ IMPLEMENTED
 != VALIDATED
 ```
 
----
+______________________________________________________________________
 
-# 4. Definition and Scope
+## 4. Definition and Scope
 
 `L01_SENSING_OBSERVATION` is the AMOS primitive responsible for forming governed observation state from available environment/reality-contact inputs.
 
@@ -353,9 +357,9 @@ computed transformation
 
 unless stronger classification is independently justified.
 
----
+______________________________________________________________________
 
-# 5. Out of Scope
+## 5. Out of Scope
 
 L01 does not independently own:
 
@@ -378,9 +382,9 @@ L01 may provide evidence to those systems.
 
 It does not replace them.
 
----
+______________________________________________________________________
 
-# 6. Typed Inputs
+## 6. Typed Inputs
 
 ```yaml
 L01Input:
@@ -450,9 +454,9 @@ L01Input:
     type: AuthorityContext | null
 ```
 
----
+______________________________________________________________________
 
-# 7. Typed Outputs
+## 7. Typed Outputs
 
 ```yaml
 L01Output:
@@ -521,9 +525,9 @@ L01Output:
     type: GapRecord[]
 ```
 
----
+______________________________________________________________________
 
-# 8. State Variables
+## 8. State Variables
 
 Minimum proposed state variables:
 
@@ -551,12 +555,9 @@ R = revocation/supersession state
 
 Candidate observation tensor:
 
-[
-\boxed{
-T_{obs}
-=======
+## \[ \\boxed{ T\_{obs}
 
-T[
+T\[
 source,
 observer,
 modality,
@@ -569,15 +570,15 @@ quality,
 uncertainty,
 provenance,
 validation
-]
+\]
 }
-]
+\]
 
 This tensor is an `AMOS_MODEL`.
 
----
+______________________________________________________________________
 
-# 9. Operators
+## 9. Operators
 
 Candidate L01 operator registry:
 
@@ -623,9 +624,9 @@ not:
 EXECUTABLY IMPLEMENTED
 ```
 
----
+______________________________________________________________________
 
-# 10. Core Invariants
+## 10. Core Invariants
 
 ```text
 L01-INV-001  Reality/Observation Separation
@@ -652,63 +653,63 @@ L01-INV-021  Historical Observation Immutability
 L01-INV-022  Supersession Traceability
 ```
 
----
+______________________________________________________________________
 
-# 11. Fundamental Epistemic Invariants
+## 11. Fundamental Epistemic Invariants
 
-[
-\boxed{
-Observation \neq Reality
+\[
+\\boxed{
+Observation \\neq Reality
 }
-]
+\]
 
-[
-\boxed{
-Signal \neq Reality
+\[
+\\boxed{
+Signal \\neq Reality
 }
-]
+\]
 
-[
-\boxed{
-Observation \neq Interpretation
+\[
+\\boxed{
+Observation \\neq Interpretation
 }
-]
+\]
 
-[
-\boxed{
-SourceClaim \neq DirectObservation
+\[
+\\boxed{
+SourceClaim \\neq DirectObservation
 }
-]
+\]
 
-[
-\boxed{
-SimulationOutput \neq ObservedReality
+\[
+\\boxed{
+SimulationOutput \\neq ObservedReality
 }
-]
+\]
 
-[
-\boxed{
+\[
+\\boxed{
 NotObserved(x)
-\not\Rightarrow
+\\not\\Rightarrow
 NotExists(x)
 }
-]
+\]
 
-[
-\boxed{
-Validation \neq Truth
+\[
+\\boxed{
+Validation \\neq Truth
 }
-]
+\]
 
-[
-\boxed{
-Unknown \neq Pass
+\[
+\\boxed{
+Unknown \\neq Pass
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 12. Dependencies
+## 12. Dependencies
 
 ## 12.1 Primary Upstream Dependency
 
@@ -755,9 +756,9 @@ evidence-bearing observation state
 
 but downstream components must preserve L01 provenance and uncertainty where those properties remain load-bearing.
 
----
+______________________________________________________________________
 
-# 13. H/M/L Applicability
+## 13. H/M/L Applicability
 
 L01 applies recursively across:
 
@@ -823,47 +824,47 @@ Purpose:
 form decision-usable high-level observation while retaining recoverability
 ```
 
----
+______________________________________________________________________
 
-# 14. Cross-Scale Invariant
+## 14. Cross-Scale Invariant
 
 If:
 
-[
+\[
 O_L
-\rightarrow
+\\rightarrow
 O_M
-\rightarrow
+\\rightarrow
 O_H
-]
+\]
 
 then load-bearing evidence should remain recoverable:
 
-[
-\boxed{
+\[
+\\boxed{
 O_H
-\rightsquigarrow
+\\rightsquigarrow
 O_M
-\rightsquigarrow
+\\rightsquigarrow
 O_L
 }
-]
+\]
 
 where required for verification, contradiction analysis, repair, or audit.
 
 Aggregation must not manufacture evidence.
 
-[
-\boxed{
+\[
+\\boxed{
 Aggregation
-\neq
+\\neq
 IndependentEvidence
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 15. Control-Plane Requirements
+## 15. Control-Plane Requirements
 
 L01 should operate beneath explicit control-plane governance.
 
@@ -892,9 +893,9 @@ The cognitive worker may propose state.
 
 The control plane determines whether the proposed transition is authorized.
 
----
+______________________________________________________________________
 
-# 16. Capability / Authority Boundary
+## 16. Capability / Authority Boundary
 
 A component may possess the technical capability to:
 
@@ -913,17 +914,17 @@ without possessing authority to perform that operation.
 
 Therefore:
 
-[
-\boxed{
+\[
+\\boxed{
 Capability
-\neq
+\\neq
 Authority
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 17. Proposal / Commit Boundary
+## 17. Proposal / Commit Boundary
 
 L01 workers may produce:
 
@@ -939,19 +940,19 @@ MemoryAdmissionProposal
 
 but:
 
-[
-\boxed{
+\[
+\\boxed{
 Proposal
-\neq
+\\neq
 Commit
 }
-]
+\]
 
 Durable state changes require the appropriate authority and validation.
 
----
+______________________________________________________________________
 
-# 18. Commit-Time Validation
+## 18. Commit-Time Validation
 
 Before consequential admission or durable transition, check:
 
@@ -981,9 +982,9 @@ REVALIDATE
 
 rather than relying on the earlier result.
 
----
+______________________________________________________________________
 
-# 19. Agents
+## 19. Agents
 
 Candidate L01 agent roles:
 
@@ -1010,9 +1011,9 @@ ROLE
 != DEPLOYED AGENT
 ```
 
----
+______________________________________________________________________
 
-# 20. Skills
+## 20. Skills
 
 Candidate supporting skill families:
 
@@ -1038,9 +1039,9 @@ A skill may provide capability.
 
 It does not independently grant authority.
 
----
+______________________________________________________________________
 
-# 21. Primary Workflow
+## 21. Primary Workflow
 
 ```text
 L00 ENVIRONMENT STATE
@@ -1088,9 +1089,9 @@ ADMIT / CONDITIONAL / QUARANTINE / REJECT
 ROUTE DOWNSTREAM
 ```
 
----
+______________________________________________________________________
 
-# 22. Reobservation Workflow
+## 22. Reobservation Workflow
 
 ```text
 EXISTING OBSERVATION
@@ -1114,9 +1115,9 @@ SELECTIVELY REVALIDATE DEPENDENTS
 
 Historical observations should not simply be overwritten.
 
----
+______________________________________________________________________
 
-# 23. Conflict Workflow
+## 23. Conflict Workflow
 
 ```text
 OBSERVATION A
@@ -1154,9 +1155,9 @@ COMPETING
 
 must remain visible.
 
----
+______________________________________________________________________
 
-# 24. Protocols
+## 24. Protocols
 
 Candidate L01 protocol objects:
 
@@ -1192,9 +1193,9 @@ authority context
 validation state
 ```
 
----
+______________________________________________________________________
 
-# 25. Memory Relationship
+## 25. Memory Relationship
 
 L01 may produce observations that become candidates for memory.
 
@@ -1222,9 +1223,9 @@ COMMIT / QUARANTINE / REJECT
 
 The original observation provenance should remain recoverable after admission.
 
----
+______________________________________________________________________
 
-# 26. Evidence / Provenance
+## 26. Evidence / Provenance
 
 Every consequential observation should preserve, where available:
 
@@ -1251,9 +1252,9 @@ supersession history
 
 A downstream claim should be able to trace its load-bearing observation ancestry.
 
----
+______________________________________________________________________
 
-# 27. Provenance Independence
+## 27. Provenance Independence
 
 Multiple observations do not automatically constitute independent confirmation.
 
@@ -1275,48 +1276,45 @@ must not automatically be counted as three independent evidentiary origins.
 
 Therefore:
 
-[
-\boxed{
+\[
+\\boxed{
 Repetition
-\neq
+\\neq
 Independence
 }
-]
+\]
 
 and:
 
-[
-\boxed{
+\[
+\\boxed{
 MultipleDescendants(Source_X)
-\neq
+\\neq
 MultipleIndependentSources
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 28. Uncertainty
+## 28. Uncertainty
 
 Candidate L01 uncertainty vector:
 
-[
-\boxed{
-U_{L01}
-=======
+## \[ \\boxed{ U\_{L01}
 
-[
-U_{signal},
-U_{measurement},
-U_{observer},
-U_{source},
-U_{temporal},
-U_{scope},
-U_{regime},
-U_{transformation},
-U_{provenance}
-]
+\[
+U\_{signal},
+U\_{measurement},
+U\_{observer},
+U\_{source},
+U\_{temporal},
+U\_{scope},
+U\_{regime},
+U\_{transformation},
+U\_{provenance}
+\]
 }
-]
+\]
 
 Each component may be:
 
@@ -1329,26 +1327,26 @@ UNKNOWN
 
 Unknown uncertainty must not silently become zero uncertainty.
 
----
+______________________________________________________________________
 
-# 29. Confidence Ceiling
+## 29. Confidence Ceiling
 
 Conceptually:
 
-[
-\boxed{
+\[
+\\boxed{
 C(O)
-\le
-\min(
-C_{signal},
-C_{measurement},
-C_{source},
-C_{provenance},
-C_{scope},
-C_{regime}
+\\le
+\\min(
+C\_{signal},
+C\_{measurement},
+C\_{source},
+C\_{provenance},
+C\_{scope},
+C\_{regime}
 )
 }
-]
+\]
 
 for load-bearing premises.
 
@@ -1358,9 +1356,9 @@ Independent evidence may raise support only when its independence and applicabil
 
 Compression, repetition, summarization, or fluency cannot raise confidence by themselves.
 
----
+______________________________________________________________________
 
-# 30. Failure Modes
+## 30. Failure Modes
 
 Minimum failure registry:
 
@@ -1397,9 +1395,9 @@ FM-L01-029  Supersession Lineage Loss
 FM-L01-030  Primitive Scope Expansion
 ```
 
----
+______________________________________________________________________
 
-# 31. Repair / Recovery
+## 31. Repair / Recovery
 
 General repair path:
 
@@ -1431,20 +1429,18 @@ SELECTIVELY REVALIDATE DOWNSTREAM STATE
 
 The repair target should be the earliest material failure, not merely its latest symptom.
 
----
+______________________________________________________________________
 
-# 32. Selective Invalidation
+## 32. Selective Invalidation
 
-If observation \(O_i\) fails:
+If observation (O_i) fails:
 
-[
-Affected(O_i)
-=============
+## \[ Affected(O_i)
 
-Descendants_{load-bearing}\(O_i\)
-]
+Descendants\_{load-bearing}(O_i)
+\]
 
-Only downstream objects materially dependent upon \(O_i\) should be invalidated or revalidated.
+Only downstream objects materially dependent upon (O_i) should be invalidated or revalidated.
 
 Therefore:
 
@@ -1453,9 +1449,9 @@ LOCAL FAILURE
 != AUTOMATIC GLOBAL RESET
 ```
 
----
+______________________________________________________________________
 
-# 33. Tests / Validators
+## 33. Tests / Validators
 
 Minimum validator registry:
 
@@ -1485,9 +1481,9 @@ VALIDATOR_DOWNSTREAM_DEPENDENCY
 VALIDATOR_SUPERSESSION
 ```
 
----
+______________________________________________________________________
 
-# 34. Minimum Test Suite
+## 34. Minimum Test Suite
 
 ```text
 TEST_L01_001
@@ -1581,9 +1577,9 @@ TEST_L01_030
 README completeness does not promote runtime implementation status
 ```
 
----
+______________________________________________________________________
 
-# 35. Adversarial Validation
+## 35. Adversarial Validation
 
 L01 should eventually be tested against:
 
@@ -1628,9 +1624,9 @@ TEST_EXECUTED
 != TEST_PASSED
 ```
 
----
+______________________________________________________________________
 
-# 36. Falsifiers
+## 36. Falsifiers
 
 This README and its integrated model should be revised if:
 
@@ -1660,9 +1656,9 @@ runtime implementation demonstrates incompatible interface requirements
 empirical validation demonstrates systematic failure of a proposed sensing assumption
 ```
 
----
+______________________________________________________________________
 
-# 37. Gap Matrix
+## 37. Gap Matrix
 
 ```yaml
 gap_matrix:
@@ -1783,9 +1779,9 @@ gap_matrix:
     criticality: CRITICAL
 ```
 
----
+______________________________________________________________________
 
-# 38. Gap Resolution Priority
+## 38. Gap Resolution Priority
 
 ```text
 1. Locate direct canonical L01 material.
@@ -1829,9 +1825,9 @@ gap_matrix:
 20. Promote status only from actual evidence.
 ```
 
----
+______________________________________________________________________
 
-# 39. Sibling Artifact Map
+## 39. Sibling Artifact Map
 
 The complete L01 primitive should be decomposed across:
 
@@ -1862,9 +1858,9 @@ L01_SENSING_OBSERVATION/
 
 Each artifact owns a different part of the contract.
 
----
+______________________________________________________________________
 
-# 40. Artifact Responsibilities
+## 40. Artifact Responsibilities
 
 ```yaml
 artifact_responsibilities:
@@ -1986,9 +1982,9 @@ artifact_responsibilities:
       - completion priorities
 ```
 
----
+______________________________________________________________________
 
-# 41. Cross-File Consistency Rules
+## 41. Cross-File Consistency Rules
 
 The README must not override a more specific sibling contract without an explicit canonical update.
 
@@ -2030,9 +2026,9 @@ IDENTIFY AUTHORITATIVE SOURCE
 RESOLVE OR MARK COMPETING
 ```
 
----
+______________________________________________________________________
 
-# 42. Primitive State Lifecycle
+## 42. Primitive State Lifecycle
 
 Candidate lifecycle:
 
@@ -2070,9 +2066,9 @@ VALIDATED
 != UNIVERSALLY VALID
 ```
 
----
+______________________________________________________________________
 
-# 43. Hard Boundaries
+## 43. Hard Boundaries
 
 ```text
 PLACEHOLDER
@@ -2184,9 +2180,9 @@ README_COMPLETE
 PRIMITIVE_IMPLEMENTED
 ```
 
----
+______________________________________________________________________
 
-# 44. Evidence / Provenance of This README
+## 44. Evidence / Provenance of This README
 
 ```yaml
 artifact_provenance:
@@ -2217,9 +2213,9 @@ artifact_provenance:
 
 This README must not become self-validating evidence for its own reconstructed architecture.
 
----
+______________________________________________________________________
 
-# 45. Uncertainty Vector
+## 45. Uncertainty Vector
 
 ```yaml
 uncertainty:
@@ -2249,9 +2245,9 @@ uncertainty:
     level: MEDIUM_HIGH
 ```
 
----
+______________________________________________________________________
 
-# 46. Confidence Ceiling
+## 46. Confidence Ceiling
 
 The strongest warranted conclusion is:
 
@@ -2285,19 +2281,19 @@ EMPIRICALLY VERIFIED
 
 Therefore:
 
-[
-\boxed{
-C_{L01}
-\le
-C_{weakest\ load-bearing\ premise}
+\[
+\\boxed{
+C\_{L01}
+\\le
+C\_{weakest\\ load-bearing\\ premise}
 }
-]
+\]
 
 unless independently revalidated.
 
----
+______________________________________________________________________
 
-# 47. RSCF Completion State
+## 47. RSCF Completion State
 
 ```yaml
 rscf:
@@ -2405,9 +2401,9 @@ rscf:
     not empirical proof
 ```
 
----
+______________________________________________________________________
 
-# 48. Completion State
+## 48. Completion State
 
 ```yaml
 completion_state:
@@ -2491,9 +2487,9 @@ completion_state:
     MODEL / CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
-# 49. README Contract Summary
+## 49. README Contract Summary
 
 The integrated L01 architecture is:
 
@@ -2576,9 +2572,9 @@ RUNTIME IMPLEMENTATION
 EMPIRICAL VALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 50. Final Contract
+## 50. Final Contract
 
 ```text
 L01_SENSING_OBSERVATION
@@ -2660,30 +2656,33 @@ VALIDATED
 UNIVERSALLY TRUE
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README|L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[00_ROOT/00_HOME|00_HOME]] · 06-Knowledge-Base-MOC
 
 ```
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: l01_sensing_observation_primitives_cognitive_matrix_readme
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_PRIMITIVES_COGNITIVE_MATRIX_README.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/L01_SENSING_OBSERVATION_MOC|L01_SENSING_OBSERVATION_MOC]]
-

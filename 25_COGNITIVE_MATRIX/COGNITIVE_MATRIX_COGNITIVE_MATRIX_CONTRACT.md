@@ -12,12 +12,12 @@ segment: 25_COGNITIVE_MATRIX
 artifact_kind: CONTRACT
 path: 25_COGNITIVE_MATRIX/COGNITIVE_MATRIX_COGNITIVE_MATRIX_CONTRACT.md
 tags:
-- amos-os
-- cognitive-matrix
-- contract
-- governance
-- generators
-- domain/cognitive-matrix
+  - amos-os
+  - cognitive-matrix
+  - contract
+  - governance
+  - generators
+  - domain/cognitive-matrix
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -39,7 +39,7 @@ rscf:
   confidence_ceiling: AMOS_MODEL
 ---
 
----
+______________________________________________________________________
 
 # COGNITIVE MATRIX COGNITIVE MATRIX CONTRACT
 
@@ -51,7 +51,7 @@ rscf:
 **Freshness:** EVERGREEN
 **Canon Group:** `canon/cognitive-matrix`
 
-# 12 Generators Contract
+## 12 Generators Contract
 
 **STATUS:** DERIVED GOVERNANCE CONTRACT
 **Artifact Type:** Cognitive Matrix Generator Subsystem Contract
@@ -62,9 +62,9 @@ rscf:
 **Claim Class:** `AMOS_MODEL`
 **Origin Architect / Steward:** Trang Phan
 
----
+______________________________________________________________________
 
-# 0. Contract Purpose
+## 0. Contract Purpose
 
 This artifact defines the subsystem-level contract for generators operating within:
 
@@ -119,9 +119,9 @@ A generator produces a candidate result.
 
 Every stronger status requires its own evidence and governance path.
 
----
+______________________________________________________________________
 
-# 1. Contract Scope
+## 1. Contract Scope
 
 This contract applies to generator artifacts represented by or integrated with the Cognitive Matrix generator subsystem.
 
@@ -160,9 +160,9 @@ Individual generator contracts MAY impose stronger constraints.
 
 They MUST NOT weaken subsystem integrity requirements unless a valid superseding governance artifact explicitly changes those requirements.
 
----
+______________________________________________________________________
 
-# 2. Contract Authority Boundary
+## 2. Contract Authority Boundary
 
 This artifact is an AMOS governance/model artifact.
 
@@ -189,9 +189,9 @@ UNKNOWN/GAP
 
 must remain available.
 
----
+______________________________________________________________________
 
-# 3. Generator Definition
+## 3. Generator Definition
 
 A generator is a governed transformation mechanism that accepts an admitted input state and produces one or more candidate outputs under an explicit execution envelope.
 
@@ -203,12 +203,12 @@ $$
 
 where:
 
-- \(G\) = generator identity and version;
-- \(I\) = admitted input;
-- \(C\) = applicable constraints;
-- \(S\) = generator configuration/state;
-- \(E\) = execution environment;
-- \(O\) = generated output.
+- (G) = generator identity and version;
+- (I) = admitted input;
+- (C) = applicable constraints;
+- (S) = generator configuration/state;
+- (E) = execution environment;
+- (O) = generated output.
 
 For non-deterministic generators:
 
@@ -216,15 +216,15 @@ $$
 G(I,C,S,E,\xi) \rightarrow O
 $$
 
-where \(\xi\) represents stochastic or otherwise variable execution state.
+where (\\xi) represents stochastic or otherwise variable execution state.
 
 This notation is an architectural model.
 
 It does not assert that every generator is implemented as a literal mathematical function.
 
----
+______________________________________________________________________
 
-# 4. Generator Object Model
+## 4. Generator Object Model
 
 A generator SHOULD be representable through an identity envelope such as:
 
@@ -261,9 +261,9 @@ This is a conceptual contract representation.
 
 The dedicated schema artifacts remain authoritative for exact field definitions where they exist.
 
----
+______________________________________________________________________
 
-# 5. Generator Identity
+## 5. Generator Identity
 
 Every governed generator SHOULD possess a stable identity sufficient to distinguish:
 
@@ -287,9 +287,9 @@ $$
 
 A result produced by one version MUST NOT silently be attributed to another.
 
----
+______________________________________________________________________
 
-# 6. Identity Invariant
+## 6. Identity Invariant
 
 A generator identity MUST NOT be inferred solely from:
 
@@ -304,9 +304,9 @@ shared seed
 
 Identity requires the applicable registry/version/provenance relation.
 
----
+______________________________________________________________________
 
-# 7. Generator Classes
+## 7. Generator Classes
 
 The subsystem MAY contain multiple generator classes.
 
@@ -333,9 +333,9 @@ A generator class does not establish implementation.
 
 New generator classes SHOULD enter through the applicable admission and registry process.
 
----
+______________________________________________________________________
 
-# 8. Generator Contract Hierarchy
+## 8. Generator Contract Hierarchy
 
 Generator governance conceptually follows:
 
@@ -365,11 +365,11 @@ A lower-level contract may specialize an upper-level contract.
 
 It must not silently invalidate an inherited hard constraint.
 
----
+______________________________________________________________________
 
-# 9. Contract Inheritance
+## 9. Contract Inheritance
 
-Let \(C_P\) be a parent contract and \(C_C\) a child generator contract.
+Let (C_P) be a parent contract and (C_C) a child generator contract.
 
 Then:
 
@@ -379,9 +379,9 @@ $$
 
 unless an authorized supersession explicitly changes the parent rule.
 
----
+______________________________________________________________________
 
-# 10. Contract Conflict
+## 10. Contract Conflict
 
 If two applicable generator contracts conflict:
 
@@ -416,9 +416,9 @@ UNKNOWN/GAP
 
 where appropriate.
 
----
+______________________________________________________________________
 
-# 11–19. Registration, Seeds & Input Admission
+## 11–19. Registration, Seeds & Input Admission
 
 Before a generator is treated as governed subsystem capability, it SHOULD be represented in `GENERATOR_REGISTRY`.
 
@@ -441,7 +441,7 @@ $$
 Registered(G) \not\Rightarrow Validated(G)
 $$
 
-Registry presence establishes only that the subsystem has a registered representation of \(G\), not that it works correctly or is admitted.
+Registry presence establishes only that the subsystem has a registered representation of (G), not that it works correctly or is admitted.
 
 `GENERATOR_SEED` governs initialization material, potentially including assumptions, source material, parameters, configuration, hypotheses, prompts, templates, references, constraints, and dependency bindings.
 
@@ -477,9 +477,9 @@ UNKNOWN/GAP
 
 or produces a bounded conditional result.
 
----
+______________________________________________________________________
 
-# 20–25. Constraints & Dependencies
+## 20–25. Constraints & Dependencies
 
 Effective constraints conceptually satisfy:
 
@@ -535,9 +535,9 @@ $$
 
 while unrelated valid conclusions remain intact.
 
----
+______________________________________________________________________
 
-# 26–35. Execution & Generation Firewall
+## 26–35. Execution & Generation Firewall
 
 Generator execution is distinct from generator definition.
 
@@ -616,9 +616,9 @@ SOURCE\_CLAIM
 OBSERVATION
 $$
 
----
+______________________________________________________________________
 
-# 36–43. Provenance, Independence & Falsification
+## 36–43. Provenance, Independence & Falsification
 
 Consequential outputs SHOULD preserve enough ancestry to determine generator identity/version, input, seed, template, dependencies, source ancestry, execution and validation.
 
@@ -672,9 +672,9 @@ Consequential outputs SHOULD expose falsifiers where feasible.
 
 Adversarial validation SHOULD use a genuinely different challenge path seeking contradiction, correlated provenance, stale premises, scope leakage, hidden dependencies, causal overreach, constraint violations and stronger alternatives.
 
----
+______________________________________________________________________
 
-# 44–56. Testing, Validation, Admission & Promotion
+## 44–56. Testing, Validation, Admission & Promotion
 
 Tests may cover schemas, contracts, types, boundaries, constraints, dependencies, scope, regime, reproducibility, falsification and integration.
 
@@ -727,9 +727,9 @@ $$
 
 Governance may authorize status. It cannot manufacture missing empirical evidence.
 
----
+______________________________________________________________________
 
-# 57–67. Versioning, Supersession & Composition
+## 57–67. Versioning, Supersession & Composition
 
 The version law is:
 
@@ -739,7 +739,7 @@ $$
 
 unless an applicable versioning contract establishes equivalence.
 
-Validation attached to \(v_1\) MUST NOT silently migrate to \(v_2\).
+Validation attached to (v_1) MUST NOT silently migrate to (v_2).
 
 Supersession preserves old identities and historical lineage:
 
@@ -755,7 +755,7 @@ $$
 G_2(G_1(I))
 $$
 
-the output contract of \(G_1\) must satisfy the relevant input contract of \(G_2\).
+the output contract of (G_1) must satisfy the relevant input contract of (G_2).
 
 Composition compatibility conceptually requires:
 
@@ -773,9 +773,9 @@ Multiple generators participating in one logically indivisible reasoning operati
 
 Partial failure invalidates dependent results only, provided independence of unaffected results has been established.
 
----
+______________________________________________________________________
 
-# 68–80. Routing, Fast Path & Proof Capsules
+## 68–80. Routing, Fast Path & Proof Capsules
 
 Generator selection SHOULD follow capability and task requirements, not name matching alone.
 
@@ -857,9 +857,9 @@ when evidence is equal, incomparable, correlated or insufficient.
 
 Prefer high-information discriminating tests over redundant generator accumulation.
 
----
+______________________________________________________________________
 
-# 81–90. Counterfactual, Translation, Causal & Scope Firewalls
+## 81–90. Counterfactual, Translation, Causal & Scope Firewalls
 
 Counterfactual generators SHOULD preserve factual baseline, intervention, causal assumptions, held-fixed variables, alternative state, scope, regime, uncertainty and falsifiers.
 
@@ -900,7 +900,7 @@ $$
 
 Every consequential output SHOULD preserve its applicability envelope.
 
-Support in scope \(S_1\) does not silently establish support in a broader \(S_2\).
+Support in scope (S_1) does not silently establish support in a broader (S_2).
 
 Regime shifts trigger reconsideration of regime-dependent conclusions.
 
@@ -908,9 +908,9 @@ Sensitivity analysis SHOULD identify the cheapest plausible premise, threshold, 
 
 Fragile results become `CONDITIONAL` or explicitly expose their fragility.
 
----
+______________________________________________________________________
 
-# 91–110. Failure, Audit, Benchmarks, Governance & Lifecycle
+## 91–110. Failure, Audit, Benchmarks, Governance & Lifecycle
 
 Candidate generator failure classes include:
 
@@ -1053,9 +1053,9 @@ SUPERSEDE
 HISTORY
 ```
 
----
+______________________________________________________________________
 
-# 111. Generator Contract Invariants
+## 111. Generator Contract Invariants
 
 ```text
 GEN-C001  Generation never establishes truth by itself.
@@ -1110,9 +1110,9 @@ GEN-C049  Critical gaps remain visible.
 GEN-C050  This contract does not self-certify its implementation.
 ```
 
----
+______________________________________________________________________
 
-# 112–116. Minimum Contract & Checklists
+## 112–116. Minimum Contract & Checklists
 
 Minimum generator contract:
 
@@ -1205,9 +1205,9 @@ Before supersession:
 [ ] historical state preserved
 ```
 
----
+______________________________________________________________________
 
-# 117. Machine-Readable Contract Summary
+## 117. Machine-Readable Contract Summary
 
 ```yaml
 amos_generator_subsystem_contract:
@@ -1293,9 +1293,9 @@ amos_generator_subsystem_contract:
       DO_NOT_LOAD_UNLESS_REQUIRED
 ```
 
----
+______________________________________________________________________
 
-# 118. Dependency Map
+## 118. Dependency Map
 
 ```text
 GENERATORS_COGNITIVE_MATRIX_GENERATORS_CONTRACT
@@ -1348,9 +1348,9 @@ GENERATORS_HISTORY
 GENERATORS_ROADMAP
 ```
 
----
+______________________________________________________________________
 
-# 119. Contract Resolution Order
+## 119. Contract Resolution Order
 
 When generator governance artifacts disagree, resolution SHOULD consider:
 
@@ -1367,9 +1367,9 @@ When generator governance artifacts disagree, resolution SHOULD consider:
 
 Do not resolve contradiction by prose convenience.
 
----
+______________________________________________________________________
 
-# 120. Anti-Fabrication Contract
+## 120. Anti-Fabrication Contract
 
 ```text
 Do not invent missing generator definitions.
@@ -1385,9 +1385,9 @@ Do not infer causation from structural similarity.
 Do not convert missing evidence into fluent certainty.
 ```
 
----
+______________________________________________________________________
 
-# 121. Contract Failure State
+## 121. Contract Failure State
 
 If this contract cannot determine whether a generator operation is permitted or supported:
 
@@ -1399,9 +1399,9 @@ is a valid terminal result.
 
 A gap is preferable to fabricated resolution.
 
----
+______________________________________________________________________
 
-# 122. Final Generator Contract Law
+## 122. Final Generator Contract Law
 
 The generator subsystem exists to create useful candidate structures without allowing the act of generation to erase epistemic boundaries.
 
@@ -1460,9 +1460,9 @@ $$
 
 unless the generation event itself is the fact being evidenced.
 
----
+______________________________________________________________________
 
-# RSCF Node
+## RSCF Node
 
 ```text
 node_id:
@@ -1522,10 +1522,10 @@ RELATED_TO → MODE_COVERAGE_MATRIX
 RELATED_TO → MODE_DEPENDENCY_GRAPH
 ```
 
-**MOC:** ``
+**MOC:** \`\`
 
-**Related:** `` · `GENERATORS_MAP` · `COGNITIVE_MATRIX_MOC` · `AMOS_RSCF_NODES` · `GENERATOR_CONTRACT` · `GENERATOR_REGISTRY` · `GENERATOR_ADMISSION` · `GENERATOR_PROMOTION` · `GENERATORS_PROVENANCE` · `K_RSCF` · `L17_RSCF`
+**Related:** \`\` · `GENERATORS_MAP` · `COGNITIVE_MATRIX_MOC` · `AMOS_RSCF_NODES` · `GENERATOR_CONTRACT` · `GENERATOR_REGISTRY` · `GENERATOR_ADMISSION` · `GENERATOR_PROMOTION` · `GENERATORS_PROVENANCE` · `K_RSCF` · `L17_RSCF`
 
----
+______________________________________________________________________
 
 **Epistemic boundary:** the above is the supplied AMOS artifact content/model. It establishes source presence and the documented generator-governance structure; it does **not** independently establish runtime implementation, empirical validity, or enforcement.

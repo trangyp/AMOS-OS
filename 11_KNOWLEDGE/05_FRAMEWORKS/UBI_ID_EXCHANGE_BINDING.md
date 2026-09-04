@@ -12,19 +12,19 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: BINDING
 path: 11_KNOWLEDGE/05_FRAMEWORKS/UBI_ID_EXCHANGE_BINDING.md
 tags:
-- amos-os
-- knowledge
-- vault
-- 05_frameworks
-- ubi_id_exchange_binding
-- sovereign_identity
-- biological_attestation
-- rscf
-- canon_candidate
-- canon/knowledge
-- unified-biological-intelligence
-- id-exchange
-- ubi-consentx-binding
+  - amos-os
+  - knowledge
+  - vault
+  - 05_frameworks
+  - ubi_id_exchange_binding
+  - sovereign_identity
+  - biological_attestation
+  - rscf
+  - canon_candidate
+  - canon/knowledge
+  - unified-biological-intelligence
+  - id-exchange
+  - ubi-consentx-binding
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -39,19 +39,19 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - ID_EXCHANGE_PLUS_UBI_PLUS_NEUROSYNCAI
-  - AMOS_CORPUS
+    - ID_EXCHANGE_PLUS_UBI_PLUS_NEUROSYNCAI
+    - AMOS_CORPUS
   scope:
-  - KNOWLEDGE_FRAMEWORKS
-  - BINDINGS
-  - SOURCE_DEFINED_MODEL
+    - KNOWLEDGE_FRAMEWORKS
+    - BINDINGS
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   biological_master:
     artifact:
-    - - UNIFIED_BIOLOGICAL_INTELLIGENCE
+      -   - UNIFIED_BIOLOGICAL_INTELLIGENCE
   id_exchange:
     artifact:
-    - - ID_EXCHANGE
+      -   - ID_EXCHANGE
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
@@ -65,26 +65,26 @@ epistemic_boundary:
 
 It integrates continuous multi-domain biological presence proofs with [[11_KNOWLEDGE/05_FRAMEWORKS/ID_EXCHANGE|ID_EXCHANGE]], allowing zero-knowledge proof of genuine human aliveness without exposing sensitive biometric raw data.
 
----
+______________________________________________________________________
 
-# 1. Biological Attestation Pipeline
+## 1. Biological Attestation Pipeline
 
 1. **Proof of Biological Aliveness:** Multi-domain synchrony (ECG-EEG coherence + natural micro-tremor) proving living human presence.
-2. **Zero-Knowledge Encryption:** Transforms raw biometrics into non-invertible zero-knowledge identity tokens.
-3. **Dynamic Authority Issuance:** Grants temporary execution authority to AI agents bound strictly to the user's conscious attention window.
+1. **Zero-Knowledge Encryption:** Transforms raw biometrics into non-invertible zero-knowledge identity tokens.
+1. **Dynamic Authority Issuance:** Grants temporary execution authority to AI agents bound strictly to the user's conscious attention window.
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Biological Master:** [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]]
 - **Identity Exchange:** [[11_KNOWLEDGE/05_FRAMEWORKS/ID_EXCHANGE|ID_EXCHANGE]]
 - **Consent Binding:** [[11_KNOWLEDGE/05_FRAMEWORKS/UBI_CONSENTX_BINDING|UBI_CONSENTX_BINDING]]
 - **Native Vault Source:** `11_KNOWLEDGE/biology-ubi/ID_EXCHANGE_PLUS_UBI_PLUS_NEUROSYNCAI`
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -102,10 +102,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]] · [[11_KNOWLEDGE/05_FRAMEWORKS/ID_EXCHANGE|ID_EXCHANGE]] · [[11_KNOWLEDGE/05_FRAMEWORKS/UBI_CONSENTX_BINDING|UBI_CONSENTX_BINDING]]
 
----
-**MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]
+______________________________________________________________________
 
+**MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]

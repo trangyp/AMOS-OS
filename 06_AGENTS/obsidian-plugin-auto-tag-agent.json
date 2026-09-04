@@ -204,7 +204,7 @@
     "auto_tag.reconcile_tags"
   ],
   "depends_on_workflows": [
-    "obsidian-plugin-auto-tag-workflow.md"
+    "amos-obsidian-plugin-auto-tag-workflow.md"
   ],
   "telemetry": {
     "schema": "AMOS_telemetry_v1",

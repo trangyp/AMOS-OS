@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: AMOS POLITICAL DYNAMICS KERNEL V0 HUMAN SOCIETY
 tags:
-- canon-group/human-system
-- canon/framework
-- rscf/claim
-- rscf/provenance
-- rscf/state/source-claim
-- topic/amos-political-dynamics-kernel-v0
-- kernel
+  - canon-group/human-system
+  - canon/framework
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - topic/amos-political-dynamics-kernel-v0
+  - kernel
 type: data
 source: 11_KNOWLEDGE/kernel
 rscf:
@@ -146,6 +149,6 @@ rscf:
 **Related:** [[11_KNOWLEDGE/kernel/AMOS_MBB_CONSULTING_KERNEL_V0|AMOS_MBB_CONSULTING_KERNEL_V0]] · [[11_KNOWLEDGE/kernel/AMOS_ORGANIZATIONAL_BEHAVIOR_KERNEL|AMOS_ORGANIZATIONAL_BEHAVIOR_KERNEL]] · [[11_KNOWLEDGE/kernel/AMOS_META_KERNEL_SPECIFICATIONS|AMOS_META_KERNEL_SPECIFICATIONS]] · [[11_KNOWLEDGE/kernel/AMOS_TOOLCHAIN_INTEGRATION_KERNEL|AMOS_TOOLCHAIN_INTEGRATION_KERNEL]]
 ```
 
----
-**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]
+______________________________________________________________________
 
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]

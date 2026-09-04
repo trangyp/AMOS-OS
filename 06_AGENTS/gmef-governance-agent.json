@@ -94,7 +94,7 @@
     "gmef-governance"
   ],
   "depends_on_workflows": [
-    "gmef-governance-workflow.md"
+    "amos-gmef-governance-workflow.md"
   ],
   "epistemic_class": "AMOS_MODEL",
   "claim_ceiling": 0.95,

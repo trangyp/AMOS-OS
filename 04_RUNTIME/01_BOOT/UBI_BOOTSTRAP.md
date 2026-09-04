@@ -12,17 +12,17 @@ segment: 04_RUNTIME/01_BOOT
 artifact_kind: BOOTSTRAP_SPEC
 path: 04_RUNTIME/01_BOOT/UBI_BOOTSTRAP.md
 tags:
-- amos-os
-- runtime
-- vault
-- 01_boot
-- ubi_bootstrap
-- biological_initialization
-- rscf
-- canon_candidate
-- canon/runtime
-- unified-biological-intelligence
-- amos-x-ubi
+  - amos-os
+  - runtime
+  - vault
+  - 01_boot
+  - ubi_bootstrap
+  - biological_initialization
+  - rscf
+  - canon_candidate
+  - canon/runtime
+  - unified-biological-intelligence
+  - amos-x-ubi
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -37,13 +37,13 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - 11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE
-  - 04_RUNTIME/01_BOOT/01_BOOT_MOC
-  - AMOS_CORPUS
+    - 11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE
+    - 04_RUNTIME/01_BOOT/01_BOOT_MOC
+    - AMOS_CORPUS
   scope:
-  - RUNTIME_BOOT
-  - UBI_BOOTSTRAP
-  - SOURCE_DEFINED_MODEL
+    - RUNTIME_BOOT
+    - UBI_BOOTSTRAP
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   boot_moc:
     artifact: 04_RUNTIME/01_BOOT/01_BOOT_MOC
@@ -62,9 +62,9 @@ epistemic_boundary:
 
 `UBI_BOOTSTRAP.md` is the canonical Runtime Plane specification governing the cold-start calibration and baseline telemetry ingestion of the **Unified Biological Intelligence (UBI)** subsystem within `04_RUNTIME/01_BOOT`.
 
----
+______________________________________________________________________
 
-# 1. Biological Telemetry Ingestion Sequence
+## 1. Biological Telemetry Ingestion Sequence
 
 ```text
   Step 1: Neurobiological Calibration (NBI)
@@ -85,17 +85,17 @@ epistemic_boundary:
   Step 6: Biological Firewall Armed ($\tau_{\text{crit}} = 0.2$)
 ```
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Boot MOC:** 04_RUNTIME/01_BOOT/[[04_RUNTIME/01_BOOT/01_BOOT_MOC|01_BOOT_MOC]]
 - **Biological Master:** 11_KNOWLEDGE/05_FRAMEWORKS/[[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]]
 - **Cognitive Matrix:** 25_COGNITIVE_MATRIX/[[25_COGNITIVE_MATRIX/AMOS_X_UBI|AMOS_X_UBI]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -113,9 +113,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME_MOC]] · 04_RUNTIME/01_BOOT/[[04_RUNTIME/01_BOOT/01_BOOT_MOC|01_BOOT_MOC]] · 11_KNOWLEDGE/05_FRAMEWORKS/[[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]]
 
----
+______________________________________________________________________
+
 **MOC:** 04_RUNTIME/01_BOOT/[[04_RUNTIME/01_BOOT/01_BOOT_MOC|01_BOOT_MOC]]

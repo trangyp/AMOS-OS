@@ -1,9 +1,12 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: VIETNAM DEMOGRAPHIC ENGINE
 tags:
-- system-scan-agent
-- automation-profiles
-- amos-simulation-kernel-v0-math-foundations
+  - system-scan-agent
+  - automation-profiles
+  - amos-simulation-kernel-v0-math-foundations
 type: document
 source: 11_KNOWLEDGE/engine
 rscf:
@@ -2031,8 +2034,10 @@ rscf:
 | A39       | moderate_influence | medium_risk   | value_driven   | cost_sensitive | low_savings | limited_access | instability_concern | aspiration | security |
 | A40       | moderate_influence | medium_risk   | value_driven   | cost_sensitive | low_savings | limited_access | instability_concern | aspiration | security |
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS · SYSTEM_SCAN_AGENT · AUTOMATION_PROFILES
 
----
+______________________________________________________________________
+
 **MOC:** [[11_KNOWLEDGE/engine/ENGINE_MOC|ENGINE_MOC]]

@@ -1,4 +1,7 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 date: 2026-08-29
 epistemic_class: OBSERVATION
 provenance: GitHub README, not independently verified
@@ -10,14 +13,14 @@ rscf:
 source: https://raw.githubusercontent.com/agentskills/agentskills/main/README.md
 title: Agent Skills Spec README — Raw Capture
 ---
+
 # Agent Skills Spec README — Raw Capture
 
 Source: `https://github.com/agentskills/agentskills`
 
-# Agent Skills
+## Agent Skills
 
-[![Discord](https://img.shields.io/badge/Discord-Join-5865F2?logo=discord&logoColor=white)](https://discord.gg/MKPE9g8aUy)
-
+[![DISCORD]
 A standardized way to give AI agents new capabilities and expertise.
 
 ## What are Agent Skills?
@@ -49,9 +52,9 @@ Agents load skills through **progressive disclosure**, in three stages:
 
 1. **Discovery**: At startup, agents load only the name and description of each available skill, just enough to know when it might be relevant.
 
-2. **Activation**: When a task matches a skill's description, the agent reads the full `SKILL.md` instructions into context.
+1. **Activation**: When a task matches a skill's description, the agent reads the full `SKILL.md` instructions into context.
 
-3. **Execution**: The agent follows the instructions, optionally executing bundled code or loading referenced files as needed.
+1. **Execution**: The agent follows the instructions, optionally executing bundled code or loading referenced files as needed.
 
 Full instructions load only when a task calls for them, so agents can keep many skills on hand with only a small context footprint.
 

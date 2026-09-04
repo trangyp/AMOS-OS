@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: AMOS GOVERNANCE ECONOMY ENGINE V0 ORG RISK POLICY7 2
 tags:
-- canon-group/human-system
-- canon/framework
-- rscf/claim
-- rscf/provenance
-- rscf/state/source-claim
-- topic/amos-governance-economy-engine-v0
-- engine
+  - canon-group/human-system
+  - canon/framework
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - topic/amos-governance-economy-engine-v0
+  - engine
 type: data
 source: 11_KNOWLEDGE/engine
 rscf:
@@ -776,6 +779,6 @@ rscf:
 **Related:**  ·  ·  ·  ·
 ```
 
----
-**MOC:** [[11_KNOWLEDGE/engine/ENGINE_MOC|ENGINE_MOC]]
+______________________________________________________________________
 
+**MOC:** [[11_KNOWLEDGE/engine/ENGINE_MOC|ENGINE_MOC]]

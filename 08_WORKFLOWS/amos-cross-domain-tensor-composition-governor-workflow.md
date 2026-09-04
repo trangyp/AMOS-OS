@@ -5,20 +5,17 @@ source: 08_WORKFLOWS
 Type: Workflow
 Skill: amos-cross-domain-tensor-composition-governor
 Agent: amos-cross-domain-tensor-composition-governor-agent
-Trigger: When composing typed tensors (claims, evidence, reasoning) across two or
-  more AMOS domain boundaries (C01-C12), or when validating cross-domain epistemic
-  integrity, or when amos-rscf-epistemic-master routes to cross-domain composition
-  governance
+Trigger: When composing typed tensors (claims, evidence, reasoning) across two or more AMOS domain boundaries (C01-C12), or when validating cross-domain epistemic integrity, or when amos-rscf-epistemic-master routes to cross-domain composition governance
 Version: 1.0.0
 tags:
-- type/workflow
-- type/workflow
-- domain/cross-domain
-- epistemic/source_claim
-- hml/m
-- epistemic/source_claim
-- amos-os
-- tensor-contracts
+  - type/workflow
+  - type/workflow
+  - domain/cross-domain
+  - epistemic/source_claim
+  - hml/m
+  - epistemic/source_claim
+  - amos-os
+  - tensor-contracts
 rscf:
   state: AMOS_MODEL
   claim_class: AMOS_MODEL
@@ -30,23 +27,23 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: M
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
-- L7_authority
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
+  - L7_authority
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L7
-- L16
-- L17
-- L18
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L7
+  - L16
+  - L17
+  - L18
 ---
 
 # Workflow: Cross-Domain Tensor Composition Governor
@@ -54,7 +51,6 @@ law_compliance:
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
-
 
 ## Preconditions
 
@@ -68,51 +64,59 @@ Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic clas
 ## Steps
 
 1. **Intake**: Identify the problem and confirm it matches the Cross-Domain Tensor Composition Governor scope.
+
    - Classify the query: identify source domains (C01-C12) involved
    - Identify the tensors being composed (T_R, T_F, T_E, T_C, T_G, T_M)
    - Identify the composition operation (merge, join, propagate, infer)
    - Gate: `scope_confirmed` — query spans 2+ domains; fail closed if intra-domain
 
-2. **Axis Compatibility Check**: Validate that shared axes between source domain tensors are semantically compatible.
+1. **Axis Compatibility Check**: Validate that shared axes between source domain tensors are semantically compatible.
+
    - For each shared axis (scope, regime, causal_level, time, observer, provenance, confidence, consequence):
      - Look up axis semantics in each source domain's master knowledge
      - Check semantic compatibility (not lexical identity)
      - Flag same-name-different-meaning collisions
    - Gate: `axes_compatible` — all shared axes verified; collisions flagged; composition blocked if unresolved
 
-3. **Bridge Classification**: Classify the type of cross-domain bridge being attempted.
+1. **Bridge Classification**: Classify the type of cross-domain bridge being attempted.
+
    - Determine bridge type: ANALOGY / ISOMORPHISM / CAUSAL / INFORMATIONAL / STRUCTURAL
    - Assign confidence ceiling based on bridge type (≤0.50 / ≤0.95 / ≤0.80 / ≤0.60 / ≤0.55)
    - Record bridge type in provenance
    - Gate: `bridge_classified` — bridge type identified and confidence ceiling assigned
 
-4. **Epistemic Overreach Detection**: Detect cross-domain epistemic overreach.
+1. **Epistemic Overreach Detection**: Detect cross-domain epistemic overreach.
+
    - Check for class promotion (MODEL in domain A → VERIFIED in domain B)
    - Check for scope expansion (claim used beyond its declared scope in target domain)
    - Check for regime mismatch (claim valid in regime R_A used in regime R_B where R_A ∩ R_B = ∅)
    - Check for falsifier neglect (falsifiers from domain A not carried to domain B)
    - Gate: `overreach_checked` — no overreach detected; violations flagged and composition blocked if critical
 
-5. **Weakest Edge Enforcement**: Enforce the weakest-load-bearing-edge confidence rule.
+1. **Weakest Edge Enforcement**: Enforce the weakest-load-bearing-edge confidence rule.
+
    - Identify all load-bearing premises across all domain boundaries
    - Compute min(confidence) across all load-bearing premises
    - Set composition confidence ceiling = min(load_bearing_confidence, bridge_type_ceiling)
    - Gate: `confidence_bounded` — composition confidence does not exceed weakest edge
 
-6. **Cross-Domain Provenance Tracing**: Trace provenance chains across domain boundaries.
+1. **Cross-Domain Provenance Tracing**: Trace provenance chains across domain boundaries.
+
    - Record source domain for each tensor
    - Record source path, content hash, epistemic class at each hop
    - Record bridge type and compatibility verification result
    - Record any UNKNOWN/GAP markers from source domains
    - Gate: `provenance_traced` — full provenance chain recorded with all metadata
 
-7. **Scope and Regime Intersection**: Compute the valid scope and regime for the composition.
+1. **Scope and Regime Intersection**: Compute the valid scope and regime for the composition.
+
    - Composed scope ⊆ scope(T_A) ∩ scope(T_B)
    - Composed regime ⊆ regime(T_A) ∩ regime(T_B)
    - Flag if intersection is empty (composition produces no valid domain)
    - Gate: `scope_intersected` — composed scope and regime are valid intersections
 
-8. **Validation**: Check results against all 10 validation gates (G1-G10).
+1. **Validation**: Check results against all 10 validation gates (G1-G10).
+
    - G1: No contradictions within or across composed domains
    - G2: All claims labeled with epistemic class (no cross-domain promotion)
    - G3: Provenance recorded for every derived claim including domain of origin
@@ -125,67 +129,70 @@ Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic clas
    - G10: Scope and regime are valid intersections
    - Gate: `gates_passed` — all 10 gates pass; failures block composition
 
-9. **Output**: Present results with composition verdict, confidence ceiling, provenance chain, and gap flags.
+1. **Output**: Present results with composition verdict, confidence ceiling, provenance chain, and gap flags.
+
    - Include composition verdict (PERMITTED / BLOCKED / CONDITIONAL)
    - Include confidence ceiling and weakest edge identification
    - Include full
 
----
+______________________________________________________________________
+
 **MOC:** [[08_WORKFLOWS/08_WORKFLOWS_MOC|08_WORKFLOWS_MOC]]
 
 ## Operations
 
 1. **Intake**: Identify the problem and confirm it matches the Cross-Domain Tensor Composition Governor scope. - Classify the query: identify source domains (C01-C12) involved - Identify the tensors being composed (T_R, T_F, T_E, T_C, T_G,...
-2. **Axis Compatibility Check**: Validate that shared axes between source domain tensors are semantically compatible. - For each shared axis (scope, regime, causal_level, time, observer, provenance, confidence, consequence): - Look up axis...
-3. **Bridge Classification**: Classify the type of cross-domain bridge being attempted. - Determine bridge type: ANALOGY / ISOMORPHISM / CAUSAL / INFORMATIONAL / STRUCTURAL - Assign confidence ceiling based on bridge type (≤0.50 / ≤0.95 / ≤...
-4. **Epistemic Overreach Detection**: Detect cross-domain epistemic overreach. - Check for class promotion (MODEL in domain A → VERIFIED in domain B) - Check for scope expansion (claim used beyond its declared scope in target domain) - Chec...
-5. **Weakest Edge Enforcement**: Enforce the weakest-load-bearing-edge confidence rule. - Identify all load-bearing premises across all domain boundaries - Compute min(confidence) across all load-bearing premises - Set composition confidenc...
-6. **Cross-Domain Provenance Tracing**: Trace provenance chains across domain boundaries. - Record source domain for each tensor - Record source path, content hash, epistemic class at each hop - Record bridge type and compatibility verifica...
-7. **Scope and Regime Intersection**: Compute the valid scope and regime for the composition. - Composed scope ⊆ scope(T_A) ∩ scope(T_B) - Composed regime ⊆ regime(T_A) ∩ regime(T_B) - Flag if intersection is empty (composition produces no...
-8. **Validation**: Check results against all 10 validation gates (G1-G10). - G1: No contradictions within or across composed domains - G2: All claims labeled with epistemic class (no cross-domain promotion) - G3: Provenance recorded for eve...
-9. **Output**: Present results with composition verdict, confidence ceiling, provenance chain, and gap flags. - Include composition verdict (PERMITTED / BLOCKED / CONDITIONAL) - Include confidence ceiling and weakest edge identification - I...
+1. **Axis Compatibility Check**: Validate that shared axes between source domain tensors are semantically compatible. - For each shared axis (scope, regime, causal_level, time, observer, provenance, confidence, consequence): - Look up axis...
+1. **Bridge Classification**: Classify the type of cross-domain bridge being attempted. - Determine bridge type: ANALOGY / ISOMORPHISM / CAUSAL / INFORMATIONAL / STRUCTURAL - Assign confidence ceiling based on bridge type (≤0.50 / ≤0.95 / ≤...
+1. **Epistemic Overreach Detection**: Detect cross-domain epistemic overreach. - Check for class promotion (MODEL in domain A → VERIFIED in domain B) - Check for scope expansion (claim used beyond its declared scope in target domain) - Chec...
+1. **Weakest Edge Enforcement**: Enforce the weakest-load-bearing-edge confidence rule. - Identify all load-bearing premises across all domain boundaries - Compute min(confidence) across all load-bearing premises - Set composition confidenc...
+1. **Cross-Domain Provenance Tracing**: Trace provenance chains across domain boundaries. - Record source domain for each tensor - Record source path, content hash, epistemic class at each hop - Record bridge type and compatibility verifica...
+1. **Scope and Regime Intersection**: Compute the valid scope and regime for the composition. - Composed scope ⊆ scope(T_A) ∩ scope(T_B) - Composed regime ⊆ regime(T_A) ∩ regime(T_B) - Flag if intersection is empty (composition produces no...
+1. **Validation**: Check results against all 10 validation gates (G1-G10). - G1: No contradictions within or across composed domains - G2: All claims labeled with epistemic class (no cross-domain promotion) - G3: Provenance recorded for eve...
+1. **Output**: Present results with composition verdict, confidence ceiling, provenance chain, and gap flags. - Include composition verdict (PERMITTED / BLOCKED / CONDITIONAL) - Include confidence ceiling and weakest edge identification - I...
 
 ## Orchestration Pattern
 
 **Pattern**: Single-Agent with Validation Gates
 
 This workflow follows a single-agent orchestration with explicit validation gates between steps:
-1. **Intake** -> validation gate -> **Skill Invocation** -> validation gate -> **Application** -> validation gate -> **Output**
-2. Each gate checks: epistemic labeling, provenance, scope compliance, confidence ceiling
-3. On gate failure: route to error handling or escalate to parent workflow
 
+1. **Intake** -> validation gate -> **Skill Invocation** -> validation gate -> **Application** -> validation gate -> **Output**
+1. Each gate checks: epistemic labeling, provenance, scope compliance, confidence ceiling
+1. On gate failure: route to error handling or escalate to parent workflow
 
 ## Evaluation Gates
 
 ### Gate 1: Intake Validation
+
 - Query matches skill scope
 - Required inputs present
 - No scope violations detected
 
 ### Gate 2: Skill Load Validation
+
 - Skill file exists and is valid
 - Agent binding is valid
 - Required vault sources accessible
 
 ### Gate 3: Output Validation
+
 - Epistemic class labels present
 - Provenance recorded for all derived claims
 - Confidence ceiling not exceeded
 - No unresolved CRITICAL_GAPs
 - Scope compliance verified
 
-
 ## Error Handling
 
-| Error Type | Detection | Recovery |
-|---|---|---|
-| Scope violation | Gate 1 check | Route to parent skill |
-| Missing evidence | Gate 3 check | Flag as GAP, reduce confidence to 0.5 |
-| Contradiction | Gate 3 check | Flag as CRITICAL_GAP, halt |
-| Provenance loss | Gate 3 check | Mark as UNKNOWN, request human review |
-| Timeout | Step budget exceeded | Return partial result with warnings |
-| Drift | Confidence calibration check | Trigger drift alignment governor |
-
+| Error Type       | Detection                    | Recovery                              |
+| ---------------- | ---------------------------- | ------------------------------------- |
+| Scope violation  | Gate 1 check                 | Route to parent skill                 |
+| Missing evidence | Gate 3 check                 | Flag as GAP, reduce confidence to 0.5 |
+| Contradiction    | Gate 3 check                 | Flag as CRITICAL_GAP, halt            |
+| Provenance loss  | Gate 3 check                 | Mark as UNKNOWN, request human review |
+| Timeout          | Step budget exceeded         | Return partial result with warnings   |
+| Drift            | Confidence calibration check | Trigger drift alignment governor      |
 
 ## Human-in-the-Loop
 
@@ -197,14 +204,12 @@ This workflow follows a single-agent orchestration with explicit validation gate
   - Contradiction that cannot be auto-resolved
 - **Review checkpoint**: After Gate 3, if any warnings are present
 
-
 ## Monitoring
 
 - **Trace level**: Full (inputs, outputs, intermediate steps)
 - **Metrics**: Step count, token usage, confidence, gap count, execution time
 - **Alerts**: CRITICAL_GAP, confidence < 0.3, scope violation, timeout
 - **Provenance**: Every output traces back to source evidence via provenance chain
-
 
 ## Composition
 

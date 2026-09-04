@@ -12,34 +12,34 @@ segment: 25_COGNITIVE_MATRIX
 artifact_kind: ARTIFACT
 path: 25_COGNITIVE_MATRIX/AMOS_X_UBI.md
 tags:
-- amos-os
-- cognitive-matrix
-- artifact
-- ubi
-- unified_biological_intelligence
-- biological_logic
-- nbi
-- nei
-- si
-- bei
-- neurobiology
-- neuroemotion
-- somatic
-- bioelectromagnetics
-- effectiveness_equation
-- alignment
-- biological_systems
-- human_ai_interaction
-- rscf
-- canon_candidate
-- domain/cognitive-matrix
-- amos-x-ubi-matrix
-- amos-x-tss
-- amos-x-tpe
-- amos-x-neurosyncai
-- amos-x-qls
-- amos-x-trang-reality
-- law-hierarchy
+  - amos-os
+  - cognitive-matrix
+  - artifact
+  - ubi
+  - unified_biological_intelligence
+  - biological_logic
+  - nbi
+  - nei
+  - si
+  - bei
+  - neurobiology
+  - neuroemotion
+  - somatic
+  - bioelectromagnetics
+  - effectiveness_equation
+  - alignment
+  - biological_systems
+  - human_ai_interaction
+  - rscf
+  - canon_candidate
+  - domain/cognitive-matrix
+  - amos-x-ubi-matrix
+  - amos-x-tss
+  - amos-x-tpe
+  - amos-x-neurosyncai
+  - amos-x-qls
+  - amos-x-trang-reality
+  - law-hierarchy
 version: 1.1.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -54,13 +54,13 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - UBI_OFFICIAL_MANUAL
-  - UNIFIED_BIOLOGICAL_INTELLIGENCE_UBI_OFFICIAL
-  - AMOS_CORPUS
+    - UBI_OFFICIAL_MANUAL
+    - UNIFIED_BIOLOGICAL_INTELLIGENCE_UBI_OFFICIAL
+    - AMOS_CORPUS
   scope:
-  - BIOLOGICAL_INTELLIGENCE
-  - COGNITIVE_MATRIX
-  - SOURCE_DEFINED_UBI_MODEL
+    - BIOLOGICAL_INTELLIGENCE
+    - COGNITIVE_MATRIX
+    - SOURCE_DEFINED_UBI_MODEL
 framework_binding:
   primary:
     name: Unified Biological Intelligence™
@@ -73,7 +73,7 @@ framework_binding:
   matrix_conjunction:
     name: AMOS × UBI Matrix
     artifact:
-    - - AMOS_X_UBI_MATRIX
+      -   - AMOS_X_UBI_MATRIX
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
@@ -88,7 +88,7 @@ epistemic_boundary:
   runtime_enforcement: NOT_ESTABLISHED
 ---
 
----
+______________________________________________________________________
 
 ## title: AMOS X UBI type: note source: "25_COGNITIVE_MATRIX" rscf: state: SOURCE_CLAIM class: STRUCTURAL provenance: - internal freshness: EVERGREEN falsifiers: [] tags: [note, 25-cognitive-matrix] canon-group: canon/cognitive-matrix
 
@@ -159,9 +159,9 @@ Origin architect / steward:
 
 **Trang Phan**
 
----
+______________________________________________________________________
 
-# 1. Canonical Identity
+## 1. Canonical Identity
 
 At the source-framework level:
 
@@ -187,9 +187,9 @@ The `+` notation means integration.
 
 It does not imply arithmetic addition.
 
----
+______________________________________________________________________
 
-# 2. Core Biological Proposition
+## 2. Core Biological Proposition
 
 The UBI framework treats intelligence as dependent upon interacting
 biological systems rather than cognition alone.
@@ -215,9 +215,9 @@ UBI_Core_Proposition:
     NOT_INDEPENDENTLY_ESTABLISHED_AS_UBI_CONSTRUCT
 ```
 
----
+______________________________________________________________________
 
-# 3. Four-Domain Architecture
+## 3. Four-Domain Architecture
 
 ```text
                  UBI
@@ -235,9 +235,9 @@ AMOS interprets this diagram as structural integration.
 
 It does not imply a specific causal graph.
 
----
+______________________________________________________________________
 
-# 4. Neurobiological Intelligence™ — NBI
+## 4. Neurobiological Intelligence™ — NBI
 
 ```yaml
 NBI:
@@ -269,9 +269,9 @@ These measurement proposals remain framework-level operationalization
 claims unless independently validated as measurements of the NBI
 construct.
 
----
+______________________________________________________________________
 
-# 5. NBI Firewall
+## 5. NBI Firewall
 
 ```text
 COGNITIVE TEST
@@ -291,9 +291,9 @@ CORTICAL CORRELATE
 CAUSAL PROOF
 ```
 
----
+______________________________________________________________________
 
-# 6. Neuroemotional Intelligence™ — NEI
+## 6. Neuroemotional Intelligence™ — NEI
 
 ```yaml
 NEI:
@@ -319,9 +319,9 @@ NEI:
 The source associates NEI with biological and behavioral signals
 including HRV and affective-regulation measures.
 
----
+______________________________________________________________________
 
-# 7. NEI Firewall
+## 7. NEI Firewall
 
 ```text
 HRV
@@ -341,9 +341,9 @@ AUTONOMIC SIGNAL
 UNIQUE EMOTIONAL CAUSE
 ```
 
----
+______________________________________________________________________
 
-# 8. Somatic Intelligence™ — SI
+## 8. Somatic Intelligence™ — SI
 
 ```yaml
 SI:
@@ -371,9 +371,9 @@ SI:
 The UBI source associates SI with posture, gait, movement,
 biomechanics, and breathing-related measurements.
 
----
+______________________________________________________________________
 
-# 9. SI Firewall
+## 9. SI Firewall
 
 ```text
 POSTURE
@@ -393,9 +393,9 @@ SOMATIC ALIGNMENT
 IMMUNITY TO ILLNESS
 ```
 
----
+______________________________________________________________________
 
-# 10. Bioelectromagnetic Intelligence™ — BEI
+## 10. Bioelectromagnetic Intelligence™ — BEI
 
 ```yaml
 BEI:
@@ -430,9 +430,9 @@ MEG
 frequency-domain analysis
 ```
 
----
+______________________________________________________________________
 
-# 11. BEI Firewall
+## 11. BEI Firewall
 
 AMOS MUST distinguish:
 
@@ -472,9 +472,9 @@ QUANTUM CLAIM
 
 unless separately supported.
 
----
+______________________________________________________________________
 
-# 12. Functional Stack
+## 12. Functional Stack
 
 The source architecture can be normalized as:
 
@@ -498,9 +498,9 @@ TIMING + SYNCHRONY
 
 This is a compact source-grounded functional representation.
 
----
+______________________________________________________________________
 
-# 13. Interdependence
+## 13. Interdependence
 
 The source model describes the four domains as interdependent.
 
@@ -518,9 +518,9 @@ INTEGRATED BIOLOGICAL STATE
 
 rather than treating each domain as a fully isolated intelligence.
 
----
+______________________________________________________________________
 
-# 14. Non-Compensation
+## 14. Non-Compensation
 
 The UBI source makes the qualitative claim that one domain cannot fully
 compensate for loss in another.
@@ -545,9 +545,9 @@ HIGH BEI
 HIGH UBI
 ```
 
----
+______________________________________________________________________
 
-# 15. Non-Compensation Boundary
+## 15. Non-Compensation Boundary
 
 The qualitative non-compensation proposition does **not** uniquely
 determine a mathematical aggregation function.
@@ -576,9 +576,9 @@ COMPETING
 
 must be retained.
 
----
+______________________________________________________________________
 
-# 16. Alignment
+## 16. Alignment
 
 The source-grounded relationship is:
 
@@ -600,9 +600,9 @@ and `f` represents the integration function.
 The exact operational form of `f` is not established in the retrieved
 native UBI manual.
 
----
+______________________________________________________________________
 
-# 17. Geometric-Mean Candidate
+## 17. Geometric-Mean Candidate
 
 The submitted artifact proposed:
 
@@ -638,9 +638,9 @@ It MUST NOT currently be represented as:
 UBI ESTABLISHES THAT...
 ```
 
----
+______________________________________________________________________
 
-# 18. Why the Distinction Matters
+## 18. Why the Distinction Matters
 
 The following two claims are not equivalent:
 
@@ -660,9 +660,9 @@ i = (NBI × NEI × SI × BEI)^(1/4)
 
 The second specifies mathematical assumptions absent from the first.
 
----
+______________________________________________________________________
 
-# 19. Mathematical Requirements
+## 19. Mathematical Requirements
 
 Before the geometric mean could be operationally applied, all four
 domains would require:
@@ -686,9 +686,9 @@ MEASUREMENT UNCERTAINTY
 Those requirements are not presently established by the retrieved
 native source.
 
----
+______________________________________________________________________
 
-# 20. Mathematical Firewall
+## 20. Mathematical Firewall
 
 ```text
 FOUR DOMAINS
@@ -708,9 +708,9 @@ NON-COMPENSATION
 GEOMETRIC MEAN
 ```
 
----
+______________________________________________________________________
 
-# 21. Biological Effectiveness Equation
+## 21. Biological Effectiveness Equation
 
 The native UBI source associates integrated alignment `i` with:
 
@@ -739,9 +739,9 @@ Effectiveness:
     NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 22. Combined Source Relationship
+## 22. Combined Source Relationship
 
 The strongest source-grounded mathematical representation is therefore:
 
@@ -774,9 +774,9 @@ f(...)
 e = i²
 ```
 
----
+______________________________________________________________________
 
-# 23. Effectiveness Firewall
+## 23. Effectiveness Firewall
 
 ```text
 e = i²
@@ -796,9 +796,9 @@ QUADRATIC FORM
 PROOF OF QUADRATIC REAL-WORLD EFFECT
 ```
 
----
+______________________________________________________________________
 
-# 24. Exponential-Language Firewall
+## 24. Exponential-Language Firewall
 
 Where source material describes gains or losses as "exponential,"
 AMOS preserves that wording as:
@@ -818,9 +818,9 @@ e = i²
 
 is quadratic, not exponential in the strict mathematical sense.
 
----
+______________________________________________________________________
 
-# 25. Domain State
+## 25. Domain State
 
 AMOS represents each domain through:
 
@@ -850,9 +850,9 @@ UBI_Domain_State:
   freshness:
 ```
 
----
+______________________________________________________________________
 
-# 26. Observation Firewall
+## 26. Observation Firewall
 
 ```text
 OBSERVATION
@@ -872,9 +872,9 @@ BIOLOGICAL TRUTH CLAIM
 CAUSAL PROOF
 ```
 
----
+______________________________________________________________________
 
-# 27. Measurement Contract
+## 27. Measurement Contract
 
 ```yaml
 UBI_Measurement:
@@ -906,9 +906,9 @@ UBI_Measurement:
   interpretation_status:
 ```
 
----
+______________________________________________________________________
 
-# 28. Measurement / Construct Firewall
+## 28. Measurement / Construct Firewall
 
 This distinction is permanent:
 
@@ -934,9 +934,9 @@ COGNITIVE TESTING WORKS
 NBI VALIDATED
 ```
 
----
+______________________________________________________________________
 
-# 29. Construct Validity
+## 29. Construct Validity
 
 The existence of NBI, NEI, SI, and BEI as documented UBI constructs is
 source-grounded.
@@ -950,9 +950,9 @@ NOT_INDEPENDENTLY_ESTABLISHED
 
 within the current evidence envelope.
 
----
+______________________________________________________________________
 
-# 30. Causal Firewall
+## 30. Causal Firewall
 
 ```text
 BIOLOGICAL ASSOCIATION
@@ -976,9 +976,9 @@ INTERVENTION RESPONSE
 UNIQUE CAUSAL PATH
 ```
 
----
+______________________________________________________________________
 
-# 31. Domain Examples
+## 31. Domain Examples
 
 Source-described examples of strong/weak domain combinations may be
 retained as framework illustrations.
@@ -1012,9 +1012,9 @@ Domain_Configuration_Example:
     NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 32. Competing Explanations
+## 32. Competing Explanations
 
 Any observed low-domain state can have multiple explanations.
 
@@ -1039,9 +1039,9 @@ Competing_Explanation:
     COMPETING
 ```
 
----
+______________________________________________________________________
 
-# 33. Biological Scope
+## 33. Biological Scope
 
 Every consequential UBI interpretation inherits:
 
@@ -1065,9 +1065,9 @@ UBI_Scope:
   assumptions:
 ```
 
----
+______________________________________________________________________
 
-# 34. Regime
+## 34. Regime
 
 Relevant regime variables may include:
 
@@ -1094,9 +1094,9 @@ when they can materially change interpretation.
 These are AMOS regime controls, not automatically native UBI
 primitives.
 
----
+______________________________________________________________________
 
-# 35. Freshness
+## 35. Freshness
 
 ```text
 BIOLOGICAL STATE(t₀)
@@ -1106,9 +1106,9 @@ BIOLOGICAL STATE(t₁)
 
 A biological observation cannot be assumed indefinitely current.
 
----
+______________________________________________________________________
 
-# 36. Provenance
+## 36. Provenance
 
 ```yaml
 UBI_Provenance:
@@ -1136,9 +1136,9 @@ UBI_Provenance:
   freshness:
 ```
 
----
+______________________________________________________________________
 
-# 37. Provenance Independence
+## 37. Provenance Independence
 
 Multiple UBI documents derived from one source lineage are not
 independent empirical confirmation.
@@ -1156,9 +1156,9 @@ does not imply:
 THREE INDEPENDENT VALIDATIONS
 ```
 
----
+______________________________________________________________________
 
-# 38. Human-AI Application
+## 38. Human-AI Application
 
 UBI source material identifies technology and AI-human interaction as
 an application domain.
@@ -1175,9 +1175,9 @@ INTERFACE DESIGN
 
 as a framework application relationship.
 
----
+______________________________________________________________________
 
-# 39. Human-AI Firewall
+## 39. Human-AI Firewall
 
 ```text
 AI ESTIMATE
@@ -1197,9 +1197,9 @@ INTERACTION RHYTHM
 BEI MEASUREMENT
 ```
 
----
+______________________________________________________________________
 
-# 40. Candidate Human-AI Coupling
+## 40. Candidate Human-AI Coupling
 
 ```yaml
 UBI_AI_Coupling:
@@ -1233,9 +1233,9 @@ AMOS_DERIVED
 
 unless an exact native source establishes each mapping.
 
----
+______________________________________________________________________
 
-# 41. UBI × NeuroSyncAI
+## 41. UBI × NeuroSyncAI
 
 The corpus contains dedicated UBI + NeuroSyncAI integration material.
 
@@ -1254,9 +1254,9 @@ the core UBI definition.
 
 They MUST NOT silently redefine native UBI semantics.
 
----
+______________________________________________________________________
 
-# 42. UBI × TSS
+## 42. UBI × TSS
 
 The native UBI source connects UBI to:
 
@@ -1291,9 +1291,9 @@ dΩ/dt
 must be established from TSS-side source evidence rather than inferred
 from structural resemblance.
 
----
+______________________________________________________________________
 
-# 43. UBI × TPE
+## 43. UBI × TPE
 
 The source also connects UBI with:
 
@@ -1313,9 +1313,9 @@ is source-grounded at the framework-linkage level.
 
 Exact predictive semantics require separate TPE reconciliation.
 
----
+______________________________________________________________________
 
-# 44. UBI × UBF
+## 44. UBI × UBF
 
 The source framework distinguishes:
 
@@ -1339,9 +1339,9 @@ UBF
 
 subject to exact UBF canonical reconciliation.
 
----
+______________________________________________________________________
 
-# 45. Cross-Framework Firewall
+## 45. Cross-Framework Firewall
 
 ```text
 UBI
@@ -1369,9 +1369,9 @@ STRUCTURAL SIMILARITY
 CAUSAL EQUIVALENCE
 ```
 
----
+______________________________________________________________________
 
-# 46. QLS / Trang Reality Boundary
+## 46. QLS / Trang Reality Boundary
 
 Where AMOS connects UBI to:
 
@@ -1393,9 +1393,9 @@ relationships.
 Cross-scale or pre-symbolic mappings MUST NOT be promoted through
 analogy alone.
 
----
+______________________________________________________________________
 
-# 47. H/M/L Representation
+## 47. H/M/L Representation
 
 ```yaml
 H:
@@ -1446,9 +1446,9 @@ L:
     - human_ai_interface_guidelines
 ```
 
----
+______________________________________________________________________
 
-# 48. Fractal Traversal
+## 48. Fractal Traversal
 
 ```text
 UBI
@@ -1470,9 +1470,9 @@ DO_NOT_LOAD_UNLESS_REQUIRED
 
 until it can materially alter the answer.
 
----
+______________________________________________________________________
 
-# 49. RSCF Contract
+## 49. RSCF Contract
 
 ```yaml
 RSCF:
@@ -1562,9 +1562,9 @@ RSCF:
       UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 50. Multi-Domain RSCF
+## 50. Multi-Domain RSCF
 
 For conclusions dependent upon multiple domains:
 
@@ -1582,9 +1582,9 @@ must preserve domain-specific provenance.
 
 Do not prematurely collapse these into a single scalar.
 
----
+______________________________________________________________________
 
-# 51. No Forced Scalarization
+## 51. No Forced Scalarization
 
 ```text
 NBI
@@ -1618,9 +1618,9 @@ MISSING-DATA POLICY
 DECISION NEED
 ```
 
----
+______________________________________________________________________
 
-# 52. Missing Domain
+## 52. Missing Domain
 
 If a load-bearing domain is unresolved:
 
@@ -1639,9 +1639,9 @@ UNKNOWN/GAP
 
 unless an explicitly validated missing-data rule applies.
 
----
+______________________________________________________________________
 
-# 53. Confidence Ceiling
+## 53. Confidence Ceiling
 
 For a conclusion requiring all four domains:
 
@@ -1661,9 +1661,9 @@ This is an AMOS epistemic constraint.
 
 It is not a native UBI biological equation.
 
----
+______________________________________________________________________
 
-# 54. Uncertainty Vector
+## 54. Uncertainty Vector
 
 ```yaml
 UBI_Uncertainty:
@@ -1687,9 +1687,9 @@ UBI_Uncertainty:
   provenance_independence:
 ```
 
----
+______________________________________________________________________
 
-# 55. Sensitivity
+## 55. Sensitivity
 
 For consequential conclusions:
 
@@ -1702,9 +1702,9 @@ OR MODEL ASSUMPTION
 THAT FLIPS THE RESULT?
 ```
 
----
+______________________________________________________________________
 
-# 56. Sensitivity Contract
+## 56. Sensitivity Contract
 
 ```yaml
 UBI_Sensitivity:
@@ -1729,9 +1729,9 @@ UBI_Sensitivity:
     - CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
-# 57. Adversarial Validation
+## 57. Adversarial Validation
 
 A consequential UBI interpretation SHOULD be challenged for:
 
@@ -1757,9 +1757,9 @@ ALTERNATIVE BIOLOGICAL EXPLANATION
 INTEGRATION-MODEL DEPENDENCE
 ```
 
----
+______________________________________________________________________
 
-# 58. Challenge Outcome
+## 58. Challenge Outcome
 
 If the challenge succeeds:
 
@@ -1775,9 +1775,9 @@ OR
 RETURN UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 59. Proof Capsule
+## 59. Proof Capsule
 
 ```yaml
 UBI_Proof_Capsule:
@@ -1825,9 +1825,9 @@ UBI_Proof_Capsule:
   invalidation_conditions:
 ```
 
----
+______________________________________________________________________
 
-# 60. Local Invalidation
+## 60. Local Invalidation
 
 If:
 
@@ -1859,9 +1859,9 @@ BEI
 
 evidence.
 
----
+______________________________________________________________________
 
-# 61. Fast Path
+## 61. Fast Path
 
 Local UBI reasoning is permitted only when:
 
@@ -1885,9 +1885,9 @@ NO MATERIAL CONFLICT EXISTS
 ACTION IS REVERSIBLE
 ```
 
----
+______________________________________________________________________
 
-# 62. Escalation
+## 62. Escalation
 
 Escalate when:
 
@@ -1909,9 +1909,9 @@ POPULATION GENERALIZATION IS REQUIRED
 IRREVERSIBLE ACTION IS PROPOSED
 ```
 
----
+______________________________________________________________________
 
-# 63. Healthcare Boundary
+## 63. Healthcare Boundary
 
 The UBI corpus identifies healthcare as an application domain.
 
@@ -1929,9 +1929,9 @@ CLINICAL RISK DETERMINATION
 
 from UBI model output alone.
 
----
+______________________________________________________________________
 
-# 64. Clinical Firewall
+## 64. Clinical Firewall
 
 ```text
 UBI MODEL
@@ -1955,9 +1955,9 @@ SOURCE MODEL
 CLINICAL STANDARD OF CARE
 ```
 
----
+______________________________________________________________________
 
-# 65. Application Domains
+## 65. Application Domains
 
 The UBI source identifies application areas including:
 
@@ -1981,9 +1981,9 @@ SOURCE-CLAIMED APPLICATION DOMAINS
 
 not automatically validated applications.
 
----
+______________________________________________________________________
 
-# 66. Organizational Health
+## 66. Organizational Health
 
 UBI source material associates biological alignment with organizational
 topics including stress, burnout, leadership, and decision quality.
@@ -1996,9 +1996,9 @@ SOURCE_CLAIM
 
 until independently validated.
 
----
+______________________________________________________________________
 
-# 67. Population Firewall
+## 67. Population Firewall
 
 ```text
 INDIVIDUAL ASSOCIATION
@@ -2018,9 +2018,9 @@ ONE REGIME
 ALL REGIMES
 ```
 
----
+______________________________________________________________________
 
-# 68. Action Governance
+## 68. Action Governance
 
 ```yaml
 UBI_Action_Gate:
@@ -2048,9 +2048,9 @@ UBI_Action_Gate:
   receipt:
 ```
 
----
+______________________________________________________________________
 
-# 69. Reversible Action
+## 69. Reversible Action
 
 Under unresolved uncertainty prefer actions that are:
 
@@ -2068,9 +2068,9 @@ NON-DIAGNOSTIC
 
 where possible.
 
----
+______________________________________________________________________
 
-# 70. Validation Ladder
+## 70. Validation Ladder
 
 ```text
 L0
@@ -2114,9 +2114,9 @@ L1
 
 for the native UBI framework.
 
----
+______________________________________________________________________
 
-# 71. Domain Validation
+## 71. Domain Validation
 
 Each construct requires separate validation:
 
@@ -2132,9 +2132,9 @@ BEI
 
 Validation of one does not automatically validate another.
 
----
+______________________________________________________________________
 
-# 72. Integration Validation
+## 72. Integration Validation
 
 Even if every domain were independently validated:
 
@@ -2156,9 +2156,9 @@ VALID f(...)
 
 The integration function requires separate validation.
 
----
+______________________________________________________________________
 
-# 73. Effectiveness Validation
+## 73. Effectiveness Validation
 
 Likewise:
 
@@ -2174,9 +2174,9 @@ VALID e = i²
 
 The effectiveness relationship requires independent testing.
 
----
+______________________________________________________________________
 
-# 74. Empirical Status
+## 74. Empirical Status
 
 ```yaml
 UBI_Empirical_Status:
@@ -2215,9 +2215,9 @@ UBI_Empirical_Status:
     NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 75. Native Source Registry
+## 75. Native Source Registry
 
 Presently source-grounded:
 
@@ -2263,9 +2263,9 @@ public-policy application claim
 technology application claim
 ```
 
----
+______________________________________________________________________
 
-# 76. AMOS-Derived Registry
+## 76. AMOS-Derived Registry
 
 Unless separately sourced:
 
@@ -2303,11 +2303,11 @@ remain:
 AMOS_DERIVED
 ```
 
----
+______________________________________________________________________
 
-# 77. Cross-Artifact Consistency
+## 77. Cross-Artifact Consistency
 
-`` and:
+\`\` and:
 
 ```text
 
@@ -2333,9 +2333,9 @@ i = (NBI × NEI × SI × BEI)^(1/4)
 
 until new provenance changes that classification.
 
----
+______________________________________________________________________
 
-# 78. Canon Promotion Gate
+## 78. Canon Promotion Gate
 
 - [x] native UBI source located
 - [x] UBI identity located
@@ -2356,9 +2356,9 @@ until new provenance changes that classification.
 - [ ] conflicting formulations reconciled or retained as COMPETING
 - [ ] final canon-promotion receipt
 
----
+______________________________________________________________________
 
-# 79. Mathematical Promotion Gate
+## 79. Mathematical Promotion Gate
 
 - [ ] operational definition of NBI
 - [ ] operational definition of NEI
@@ -2372,9 +2372,9 @@ until new provenance changes that classification.
 - [ ] units / semantics of `e`
 - [ ] independent validation of `e = i²`
 
----
+______________________________________________________________________
 
-# 80. Runtime Promotion Gate
+## 80. Runtime Promotion Gate
 
 - [ ] executable typed schema
 - [ ] domain state implemented
@@ -2389,9 +2389,9 @@ until new provenance changes that classification.
 - [ ] rollback demonstrated
 - [ ] runtime validation receipt
 
----
+______________________________________________________________________
 
-# 81. Critical Gaps
+## 81. Critical Gaps
 
 ```yaml
 gaps:
@@ -2429,9 +2429,9 @@ gaps:
     state: NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 82. Invalidation Conditions
+## 82. Invalidation Conditions
 
 This artifact requires revalidation if:
 
@@ -2453,9 +2453,9 @@ EMPIRICAL VALIDATION CHANGES CLAIM STATUS
 EXECUTABLE BINDING IS IMPLEMENTED
 ```
 
----
+______________________________________________________________________
 
-# 83. Ingestion Rule
+## 83. Ingestion Rule
 
 ```yaml
 AMOS_CANON_INGESTION_RULE:
@@ -2505,9 +2505,9 @@ AMOS_CANON_INGESTION_RULE:
       - NEVER_INVENT_CANON
 ```
 
----
+______________________________________________________________________
 
-# 84. Contract Discipline
+## 84. Contract Discipline
 
 ```text
 typed artifacts
@@ -2530,9 +2530,9 @@ typed artifacts
 · clinical authority respected
 ```
 
----
+______________________________________________________________________
 
-# 85. Cross-Plane Bindings
+## 85. Cross-Plane Bindings
 
 Governed by:
 
@@ -2574,9 +2574,9 @@ Indexed through:
 
 ```
 
----
+______________________________________________________________________
 
-# 86. Framework Bindings
+## 86. Framework Bindings
 
 ```text
 
@@ -2600,9 +2600,9 @@ UNIFIED_BIOLOGICAL_FRAMEWORK_UBF
 
 subject to exact canonical node-name reconciliation.
 
----
+______________________________________________________________________
 
-# 87. Proof Capsule
+## 87. Proof Capsule
 
 ```yaml
 PROOF_CAPSULE:
@@ -2676,9 +2676,9 @@ PROOF_CAPSULE:
       UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 88. Final Canonical Statement
+## 88. Final Canonical Statement
 
 AMOS × UBI is the AMOS Cognitive Matrix representation of:
 
@@ -2821,17 +2821,17 @@ integration, causal, and outcome validation.
 Runtime promotion requires a separately implemented and validated
 executable binding.
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|AMOS MOC]]
 
----
+______________________________________________________________________
 
-**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] ·
+**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 [[25_COGNITIVE_MATRIX/AMOS_X_UBI_MATRIX|AMOS_X_UBI_MATRIX]] · [[25_COGNITIVE_MATRIX/AMOS_X_TSS|AMOS_X_TSS]] · [[25_COGNITIVE_MATRIX/AMOS_X_TPE|AMOS_X_TPE]] ·
 [[25_COGNITIVE_MATRIX/AMOS_X_NEUROSYNCAI|AMOS_X_NEUROSYNCAI]] · [[25_COGNITIVE_MATRIX/AMOS_X_QLS|AMOS_X_QLS]] · [[25_COGNITIVE_MATRIX/AMOS_X_TRANG_REALITY|AMOS_X_TRANG_REALITY]]
 
----
+______________________________________________________________________
 
 RSCF-NODE
 
@@ -2869,7 +2869,7 @@ RSCF-RELATIONS:
 
 - INDEXED_BY: [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]
 
----
+______________________________________________________________________
 
 **MOC:** [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]
 
@@ -2887,3 +2887,4 @@ i = (NBI × NEI × SI × BEI)^(1/4)
 ````
 
 That distinction should now be invariant across `AMOS_X_UBI.md` and `AMOS_X_UBI_MATRIX.md`. The corpus also contains separate UBI × NeuroSyncAI integration artifacts, including a recently updated copy dated August 26–27, 2026; those are useful cross-framework provenance but should remain separate from the native UBI-definition ancestry.
+```

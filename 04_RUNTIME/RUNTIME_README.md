@@ -1,72 +1,85 @@
 ---
-title: RUNTIME README
-type: runtime
+title: "04_RUNTIME — Causal Concurrency & Epoch Execution"
+type: architecture_specification
 source: 04_RUNTIME
-tags:
-- amos-os
-- canon/runtime
-- readme
-- routing-policy-validation-receipt
-- authz-engine-validation-receipt
-- law-hierarchy
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
+status: ACTIVE_SPECIFICATION
+epistemic_class: AMOS_MODEL
+conclusion_class: DERIVED
 rscf:
   state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  claim_class: AMOS_MODEL
+  provenance:
+    - 00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE
+    - 12_STATE/STATE_README
+  scope: runtime_architecture
+tags:
+  - amos-os
+  - runtime
+  - mvcc
+  - causal-epochs
+  - finality
 ---
 
-# RUNTIME README
+# 04_RUNTIME — Master Runtime Architecture
 
-## Purpose
-`RUNTIME README` is the package readme for the **Runtime** plane segment at `04_RUNTIME`.
-The Runtime plane governs execution substrate binding kernel contracts to runnable operators under v4.4 runtime rules. Normative load-bearing content lives in the sibling contract(s); this readme orients navigation.
+## 1. Plane Purpose
 
-## Sibling artifacts
-- [[04_RUNTIME/RUNTIME_RUNTIME_CONTRACT|RUNTIME_RUNTIME_CONTRACT]]
+The `04_RUNTIME` plane (**Partition B: Execution Core & Effect Governance**) provides the active execution environment for AMOS transactions, task dispatching, causal epoch management, and deterministic replay.
 
-## Contract discipline
-Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
+This plane is the execution substrate where cognitive decisions become computational effects. It enforces causal ordering, isolation, and finality guarantees for all state mutations produced by the cognitive organism and its agents.
 
-## Gaps
-Executable binding PARTIAL unless an executed validation receipt exists for this subsystem ([[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]).
-## Worked semantics
-Given an operation touching `RUNTIME · README` within the Runtime plane:
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-2. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-3. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-4. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-5. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-6. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
-
-## Promotion-gate checklist
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
-
-## Cross-plane bindings
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]|AMOS Core Laws · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
-- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
-- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
----
-
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+```text
+RUNTIME != CONTROL_PLANE
+EXECUTION != COMMIT
+REPLAY != RE-EXECUTION
+DOCUMENTED != IMPLEMENTED
+```
 
 ---
-**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+
+## 2. Architecture Overview
+
+The runtime architecture is built on three foundational principles:
+
+1. **Causal Isolation:** Concurrent transactions execute in isolated snapshots via Multi-Version Concurrency Control (MVCC), preventing dirty reads and write skew.
+2. **Epoch Finality:** All state mutations are sealed in monotonically increasing epochs. An epoch is finalized only when all constituent transactions pass invariant verification.
+3. **Deterministic Replay:** Every execution trace can be replayed bit-for-bit against a verified snapshot, enabling post-hoc debugging and regression testing.
 
 ---
-RSCF-NODE
-node_id: amos_04_runtime_runtime_readme_md
-node_type: note
-path: 04_RUNTIME/RUNTIME_README.md
-claim_class: AMOS_MODEL
+
+## 3. Key Components
+
+1. **MVCC Causal Concurrency Engine (`CAUSAL_CONCURRENCY_MVCC.md`)**: Manages multi-version isolated state transitions with conflict detection. Each transaction reads from a consistent snapshot and writes to a new version, with conflict detection via serializable isolation level.
+
+2. **Deterministic Causal Epoch Engine (`EPOCH_FINALITY_ENGINE.md`)**: Provides monotonic epoch stepping, barrier synchronizations, and finalized transaction receipts. Epochs advance only when all in-scope transactions have reached a terminal state (committed or aborted).
+
+3. **Execution Replay Harness**: Enables bit-for-bit replay of historical episodic event logs against verified snapshots. Replay uses deterministic scheduling with recorded random seeds and message ordering.
+
+4. **Task Dispatch Scheduler**: Routes cognitive tasks to available execution resources with priority queues, preemption support, and deadline-aware scheduling.
+
+5. **Sandboxed Execution Environment**: WASI-based microVM sandboxes for untrusted code execution with capability-scoped filesystem and network access.
 
 ---
-**MOC:** [[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME_MOC]]
+
+## 4. Navigation
+
+- **MVCC Engine:** [[04_RUNTIME/CAUSAL_CONCURRENCY_MVCC|CAUSAL_CONCURRENCY_MVCC]]
+- **Epoch Finality:** [[04_RUNTIME/EPOCH_FINALITY_ENGINE|EPOCH_FINALITY_ENGINE]]
+- **State Plane:** [[12_STATE/12_STATE_MOC|12_STATE_MOC]]
+- **Control Plane:** [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE_MOC]]
+- **Tools & Sandboxes:** [[14_TOOLS/14_TOOLS_MOC|14_TOOLS_MOC]]
+- **Tests & Replay:** [[19_TESTS/19_TESTS_MOC|19_TESTS_MOC]]
+- **Root Architecture:** [[00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE|FULL_BRAIN_OS_MECE_ARCHITECTURE]]
+
+---
+
+## 5. Status & Gaps
+
+- **Status:** `ACTIVE_SPECIFICATION` — all core runtime components are documented and structurally present.
+- **MVCC Implementation:** MVCC concurrency control is specified as an architectural pattern. Production-grade MVCC with serializable isolation requires integration with the state plane's Arrow IPC bus. This integration is `DOCUMENTED != IMPLEMENTED`.
+- **Epoch Finality in Distributed Mode:** Distributed epoch finality across multiple nodes requires BFT consensus integration with `09_PROTOCOLS`. The integration contract is specified but not yet executed.
+- **Replay Fidelity:** Deterministic replay assumes recorded message ordering and random seeds. Non-deterministic hardware behavior (e.g., floating-point rounding differences across architectures) may break replay fidelity. This remains `UNKNOWN/GAP`.
+- **WASI Sandbox Maturity:** WASI-based sandboxing is specified for untrusted code execution. Production deployment requires WASI preview2 compliance verification.

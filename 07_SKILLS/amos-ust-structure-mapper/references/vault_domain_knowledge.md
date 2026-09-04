@@ -1,21 +1,23 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Vault Domain Knowledge — Amos Ust Structure Mapper
 type: reference
 source: 07_SKILLS/amos-ust-structure-mapper/references
 tags:
-- reference
-- amos-ust-structure-mapper
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-ust-structure-mapper
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: CONDITIONAL
   claim_class: CONDITIONAL
   provenance: AMOS_corpus
   scope: skill_reference
 overclaim_risk: true
-overclaim_note: Contains language that may violate AMOS anti-overclaim principles;
-  classified as CONDITIONAL pending validation.
+overclaim_note: Contains language that may violate AMOS anti-overclaim principles; classified as CONDITIONAL pending validation.
 ---
 
 # Vault-Sourced Domain Knowledge
@@ -30,28 +32,33 @@ overclaim_note: Contains language that may violate AMOS anti-overclaim principle
 
 > Path: `amos-general/A/Universe/AMOS Universe Structure Tree.md` | Size: 1527 chars | Match score: 12 | content_hash: 9b05badda00fb1bf
 
-# AMOS Universe Structure Tree (UST)
+## AMOS Universe Structure Tree (UST)
 
 > **Pointer / alias note.** This note exists so that `AMOS Universe Structure Tree` resolves in the knowledge graph. The authoritative definition of the Universe Structure Tree (UST) lives in the canon master file.
 
 ## Canonical Source
+
 - Primary: AMOS Universe Total Canon UTC Master File — the UST canonical tree is specified within the UTC (Universe Total Canon) master structure.
 
 ## What UST is (per vault canon)
+
 UST = the canonical structural tree of the AMOS Universe domain: the MECE decomposition of universe-level systems, sub-systems, and canonical objects into a single rooted hierarchy used by the Canon Integration Layer (CIL) and the Universe domain kernels.
 
 ## Related
+
 - 0.Universe Logic Kernel-ULK.ulmk — Universe Logic Kernel (ULK) defines the logical atoms UST is built from.
 - AMOS Universe Interaction Engine — UIE defines how UST nodes interact.
 - AMOS Universe Total Canon UTC Master File — canonical home.
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 ## Epistemic note
+
 This note is a **link-resolution anchor**, not an independent architecture claim. All structural authority is delegated to the UTC master file above. Confidence = SOURCE (delegated to canonical master).
 
----
+______________________________________________________________________
 
 ### Source 2: Public Messaging
+
 - Making Consent Infrastructure Relatable
 
 > Path: `misc/PU/Public Messaging - Making Consent Infrastructure Relatable.md` | Size: 8720 chars | Match score: 10 | content_hash: e3b6066e6fb7320d
@@ -112,7 +119,6 @@ step of the journey, every person and community affected gets to participate in 
 
 is used and acknowledged."
 
-
 Why It Matters: "You know your purchases align with your values, and everyone in the supply chain
 
 benefits from transparency and fairness."
@@ -139,10 +145,10 @@ and your privacy choices are respected."
 
 4. The Forest That Has a Voice
 
-
----
+______________________________________________________________________
 
 ### Source 3: Planetary Consent Infrastructure
+
 - Investor Brief
 
 > Path: `misc/PL/Planetary Consent Infrastructure - Investor Brief.md` | Size: 5598 chars | Match score: 10 | content_hash: 7e07c5cb5a771b2d
@@ -201,7 +207,6 @@ Cross-border resource allocation and management
 
 Competitive Advantages
 
-
 1. First-Mover Monopoly
 
 No comparable planetary-scale consent infrastructure exists
@@ -231,10 +236,12 @@ Business Model
 Revenue Streams
 
 1. SaaS Licensing: Per-entity, per-decision pricing model
-2. Transaction Processing: Revenue share on consent-enabled transactions
 
-3. Premium Services: Custom integration and consulting
-4. Data Insights: Anonymized trend analysis and optimization recommendations
+1. Transaction Processing: Revenue share on consent-enabled transactions
+
+1. Premium Services: Custom integration and consulting
+
+1. Data Insights: Anonymized trend analysis and optimization recommendations
 
 Unit Economics
 
@@ -254,7 +261,6 @@ Process 1M+ consent cases daily
 
 Establish regulatory partnerships
 
-
 Phase 2: Ecosystem Expansion (Months 18-36)
 
 Supply chain integration across major global networks
@@ -273,9 +279,9 @@ Cross-species and environmental consent protocols
 
 Investme
 
----
-**MOC:** references_MOC
----
+______________________________________________________________________
+
+## **MOC:** references_MOC
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -283,12 +289,14 @@ Investme
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-ust-structure-mapper-vault-domain-knowledge
 node_type: reference
 path: 07_SKILLS/amos-ust-structure-mapper/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

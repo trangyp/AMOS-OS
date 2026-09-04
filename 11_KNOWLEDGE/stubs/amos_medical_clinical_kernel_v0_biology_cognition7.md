@@ -1,27 +1,58 @@
 ---
-title: amos medical clinical kernel v0 biology cognition7
-tags:
-- stub
-- amos
-- medical
-- clinical
-- kernel
-- biology
-- cognition
-- amos-medical-clinical-kernel-v0-biology-cognition7
-type: note
-source: 11_KNOWLEDGE/stubs
+title: "Amos Medical Clinical Kernel V0 Biology Cognition7 — Knowledge Base Synthesis & Reference"
+type: knowledge_specification
+source: 11_KNOWLEDGE
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
+status: ACTIVE_SPECIFICATION
+epistemic_class: AMOS_MODEL
+conclusion_class: DERIVED
 rscf:
   state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  claim_class: AMOS_MODEL
+  provenance:
+    - 11_KNOWLEDGE/11_KNOWLEDGE_MOC
+    - 00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE
+  scope: knowledge_synthesis
+tags:
+  - amos-os
+  - knowledge
+  - reference
+  - amos-medical-clinical-kernel-v0-biology-cognition7
 ---
 
-# amos medical clinical kernel v0 biology cognition7
+# Amos Medical Clinical Kernel V0 Biology Cognition7 — Knowledge Base Synthesis & Reference
 
-Stub note for [[11_KNOWLEDGE/stubs/amos_medical_clinical_kernel_v0_biology_cognition7|amos_medical_clinical_kernel_v0_biology_cognition7]].
+> **Origin Architect / Steward:** Trang Phan  
+> **AMOS_CORE Target:** `v4.4`  
+> **Conclusion Class:** `AMOS_MODEL`  
+> **Status:** `ACTIVE_SPECIFICATION`
 
 ---
 
-**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]] · [[00_ROOT/00_HOME|00_HOME]]
+## 1. Domain Overview & Substrate Role
+
+`amos_medical_clinical_kernel_v0_biology_cognition7` provides synthesized knowledge representations, cross-corpus embeddings, and structured reference material supporting AMOS OS cognitive reasoning under `11_KNOWLEDGE`.
+
+```text
+KNOWLEDGE != TRUTH
+OBSERVATION != VERIFICATION
+SYNTHESIS != CANONICAL_LAW
+```
+
+---
+
+## 2. Knowledge Graph & Epistemic Boundaries
+
+1. **Source Grounding:** All claims cite primary literature, experimental data, or canonical definitions.
+2. **Epistemic Invalidation:** Invalidation of foundational premises propagates downward through the semantic graph.
+3. **Confidence Upper Bound:** Capped at $\mathcal{C} \le 0.95$.
+
+---
+
+## 3. Integration & Navigation
+
+- **Knowledge MOC:** [[11_KNOWLEDGE/11_KNOWLEDGE_MOC|11_KNOWLEDGE_MOC]]
+- **Episodic Substrate:** [[10_MEMORY/EPISODIC_MEMORY_SUBSTRATE|EPISODIC_MEMORY_SUBSTRATE]]
+- **Research Foundations:** [[22_RESEARCH/22_RESEARCH_MOC|22_RESEARCH_MOC]]

@@ -17,29 +17,29 @@ schema_family: RSCF
 schema_role: EPISTEMIC_INTEGRITY_CANON_RSCF
 schema_version: AMOS_CORE_v4.4-compatible-conceptual
 tags:
-- amos-os
-- canon
-- universe
-- core_laws
-- epistemic_integrity
-- canon_placeholder
-- epistemic_class
-- evidence
-- provenance
-- lineage
-- confidence
-- uncertainty
-- contradiction
-- competing_hypotheses
-- scope
-- regime
-- causality
-- validation
-- governance
-- rscf
-- canon/universe
-- placeholder_expanded
-- law-hierarchy
+  - amos-os
+  - canon
+  - universe
+  - core_laws
+  - epistemic_integrity
+  - canon_placeholder
+  - epistemic_class
+  - evidence
+  - provenance
+  - lineage
+  - confidence
+  - uncertainty
+  - contradiction
+  - competing_hypotheses
+  - scope
+  - regime
+  - causality
+  - validation
+  - governance
+  - rscf
+  - canon/universe
+  - placeholder_expanded
+  - law-hierarchy
 version: 0.2.0
 updated: '2026-08-27'
 status: PLACEHOLDER_EXPANDED
@@ -81,14 +81,14 @@ rscf:
 
 `EPISTEMIC_INTEGRITY_CANON.md` is an **ADD-ONLY placeholder-expanded artifact** for:
 
-```text
+````text
 01_CANON/01_CORE_LAWS
 
 It reserves the canonical slot for the AMOS framework family named:
 
 ```text
 Epistemic Integrity
-```
+````
 
 The supplied artifact establishes:
 
@@ -140,9 +140,9 @@ System:
 
 **AMOS OS**
 
----
+______________________________________________________________________
 
-# 1. Governing Integrity Boundary
+## 1. Governing Integrity Boundary
 
 The supplied artifact explicitly states:
 
@@ -188,9 +188,9 @@ EMPIRICAL VALIDATION
 COMPLETE NATIVE EPISTEMIC INTEGRITY LAW
 ```
 
----
+______________________________________________________________________
 
-# 2. Current Strongest Supported Claim
+## 2. Current Strongest Supported Claim
 
 The strongest supported artifact-level claim is:
 
@@ -221,9 +221,9 @@ The substantive native Epistemic Integrity law remains:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 3. Source-Supported Contract Discipline
+## 3. Source-Supported Contract Discipline
 
 The supplied placeholder explicitly states:
 
@@ -278,9 +278,9 @@ VALIDATED
 
 without additional evidence.
 
----
+______________________________________________________________________
 
-# 4. Canonical Identity
+## 4. Canonical Identity
 
 ```yaml
 epistemic_integrity_identity:
@@ -325,9 +325,9 @@ epistemic_integrity_identity:
     UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 5. Title-Semantics Firewall
+## 5. Title-Semantics Firewall
 
 The title:
 
@@ -419,9 +419,9 @@ MODEL CANDIDATES / UNKNOWN
 
 until native canon establishes them.
 
----
+______________________________________________________________________
 
-# 6. Ordinary-Language Firewall
+## 6. Ordinary-Language Firewall
 
 Ordinary meanings of:
 
@@ -449,9 +449,9 @@ MUST NOT silently become native AMOS definitions.
 
 Native semantics require native evidence.
 
----
+______________________________________________________________________
 
-# 7. Purpose
+## 7. Purpose
 
 This artifact reserves the canonical Epistemic Integrity slot and provides a governed normalization structure for future verified native material.
 
@@ -491,35 +491,35 @@ CANON PROMOTION
 
 No stage may be silently skipped.
 
----
+______________________________________________________________________
 
-# 8. Non-Purpose
+## 8. Non-Purpose
 
 This artifact MUST NOT be used to claim:
 
-* universal laws of knowledge;
-* a complete theory of truth;
-* a complete theory of justification;
-* philosophical certainty;
-* that AMOS has solved epistemology;
-* that confidence equals probability;
-* that confidence equals truth;
-* that provenance guarantees truth;
-* that consensus guarantees truth;
-* that authority guarantees truth;
-* that internal consistency guarantees truth;
-* that absence of contradiction proves truth;
-* that documentation proves implementation;
-* that implementation proves validation;
-* that validation proves universal correctness;
-* scientific proof;
-* mathematical theoremhood;
-* runtime enforcement;
-* or final canonical status.
+- universal laws of knowledge;
+- a complete theory of truth;
+- a complete theory of justification;
+- philosophical certainty;
+- that AMOS has solved epistemology;
+- that confidence equals probability;
+- that confidence equals truth;
+- that provenance guarantees truth;
+- that consensus guarantees truth;
+- that authority guarantees truth;
+- that internal consistency guarantees truth;
+- that absence of contradiction proves truth;
+- that documentation proves implementation;
+- that implementation proves validation;
+- that validation proves universal correctness;
+- scientific proof;
+- mathematical theoremhood;
+- runtime enforcement;
+- or final canonical status.
 
----
+______________________________________________________________________
 
-# 9. Canon-Ingestion Rule
+## 9. Canon-Ingestion Rule
 
 ```yaml
 AMOS_CANON_INGESTION_RULE:
@@ -565,9 +565,9 @@ AMOS_CANON_INGESTION_RULE:
       - NEVER_INVENT_CANON
 ```
 
----
+______________________________________________________________________
 
-# 10. Native-Source Admission Contract
+## 10. Native-Source Admission Contract
 
 A candidate source MUST NOT populate this canon merely because it contains:
 
@@ -605,9 +605,9 @@ CURRENT OR HISTORICAL?
 ADMIT / COMPETE / HOLD
 ```
 
----
+______________________________________________________________________
 
-# 11. Candidate Source Classes
+## 11. Candidate Source Classes
 
 ```text
 NATIVE_CANON_SOURCE
@@ -625,9 +625,9 @@ UNKNOWN_SOURCE
 
 These classes MUST remain distinct.
 
----
+______________________________________________________________________
 
-# 12. Source-Claim Firewall
+## 12. Source-Claim Firewall
 
 If a source states:
 
@@ -661,9 +661,9 @@ The claims may remain:
 COMPETING
 ```
 
----
+______________________________________________________________________
 
-# 13. Duplicate-Source Firewall
+## 13. Duplicate-Source Firewall
 
 If:
 
@@ -687,9 +687,9 @@ THREE DESCENDANTS
 THREE INDEPENDENT CONFIRMATIONS
 ```
 
----
+______________________________________________________________________
 
-# 14. Candidate Native Definition Schema
+## 14. Candidate Native Definition Schema
 
 ```yaml
 epistemic_integrity_definition:
@@ -777,9 +777,9 @@ Current:
 native_statement = UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 15. Native-Text Preservation
+## 15. Native-Text Preservation
 
 When native material is discovered:
 
@@ -805,9 +805,9 @@ DECLARE NATIVE AMOS CANON
 
 External epistemology may be linked as evidence or comparison but MUST NOT silently replace native canon.
 
----
+______________________________________________________________________
 
-# 16. Canonical Proposition Slot
+## 16. Canonical Proposition Slot
 
 ```yaml
 epistemic_integrity_canonical_proposition:
@@ -831,9 +831,9 @@ epistemic_integrity_canonical_proposition:
     NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 17. Epistemic Integrity Definition Slot
+## 17. Epistemic Integrity Definition Slot
 
 ```yaml
 epistemic_integrity:
@@ -866,9 +866,9 @@ epistemic_integrity:
     UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 18. Truth Firewall
+## 18. Truth Firewall
 
 ```text
 CLAIM HAS HIGH CONFIDENCE
@@ -900,9 +900,9 @@ NO CONTRADICTION FOUND
 CLAIM IS TRUE
 ```
 
----
+______________________________________________________________________
 
-# 19. Knowledge Firewall
+## 19. Knowledge Firewall
 
 The placeholder does not establish a native AMOS definition of:
 
@@ -920,9 +920,9 @@ NATIVE AMOS KNOWLEDGE
 
 unless native canon explicitly establishes that equivalence.
 
----
+______________________________________________________________________
 
-# 20. Belief Firewall
+## 20. Belief Firewall
 
 The supplied artifact does not define:
 
@@ -945,9 +945,9 @@ Any such mapping remains:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 21. Evidence Slot
+## 21. Evidence Slot
 
 ```yaml
 epistemic_evidence:
@@ -977,9 +977,9 @@ epistemic_evidence:
     UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 22. Evidence-Type Target
+## 22. Evidence-Type Target
 
 A future native schema may distinguish types such as:
 
@@ -1005,9 +1005,9 @@ NOT_ESTABLISHED
 
 until native Epistemic Integrity canon establishes it.
 
----
+______________________________________________________________________
 
-# 23. Evidence Firewall
+## 23. Evidence Firewall
 
 ```text
 EVIDENCE EXISTS
@@ -1039,9 +1039,9 @@ SOURCE AUTHORITY
 CLAIM TRUTH
 ```
 
----
+______________________________________________________________________
 
-# 24. Provenance Slot
+## 24. Provenance Slot
 
 ```yaml
 epistemic_provenance:
@@ -1068,9 +1068,9 @@ epistemic_provenance:
     UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 25. Provenance Firewall
+## 25. Provenance Firewall
 
 ```text
 PROVENANCE KNOWN
@@ -1100,9 +1100,9 @@ It does not independently answer:
 IS THE CLAIM TRUE?
 ```
 
----
+______________________________________________________________________
 
-# 26. Provenance Independence
+## 26. Provenance Independence
 
 Independent confirmation MUST be demonstrated.
 
@@ -1122,9 +1122,9 @@ SOURCE_B
 
 do not automatically constitute two independent evidentiary roots.
 
----
+______________________________________________________________________
 
-# 27. Sybil-Hardening Principle
+## 27. Sybil-Hardening Principle
 
 ```text
 REPETITION
@@ -1150,9 +1150,9 @@ MULTIPLE ROOTS
 
 This is a reasoning constraint for provenance topology, not an empirical theorem.
 
----
+______________________________________________________________________
 
-# 28. Confidence Slot
+## 28. Confidence Slot
 
 ```yaml
 epistemic_confidence:
@@ -1179,9 +1179,9 @@ epistemic_confidence:
     UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 29. Confidence Firewall
+## 29. Confidence Firewall
 
 ```text
 CONFIDENCE
@@ -1195,9 +1195,9 @@ PROBABILITY
 
 unless native semantics explicitly define those relationships.
 
----
+______________________________________________________________________
 
-# 30. Confidence Ceiling
+## 30. Confidence Ceiling
 
 A conceptual AMOS integrity constraint is:
 
@@ -1212,9 +1212,9 @@ For this artifact, treat that as an AMOS reasoning-model constraint unless verif
 
 Do not represent it as a universal mathematical theorem.
 
----
+______________________________________________________________________
 
-# 31. Load-Bearing Premise Slot
+## 31. Load-Bearing Premise Slot
 
 ```yaml
 load_bearing_premise:
@@ -1253,9 +1253,9 @@ load_bearing_premise:
     optional
 ```
 
----
+______________________________________________________________________
 
-# 32. Weakest-Premise Firewall
+## 32. Weakest-Premise Firewall
 
 Suppose:
 
@@ -1269,9 +1269,9 @@ and conclusion `C` requires all three.
 
 Then `C` MUST NOT silently inherit the epistemic strength of `P1` and `P3` while hiding `P2`.
 
----
+______________________________________________________________________
 
-# 33. Uncertainty Slot
+## 33. Uncertainty Slot
 
 ```yaml
 epistemic_uncertainty:
@@ -1298,9 +1298,9 @@ epistemic_uncertainty:
     UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 34. Uncertainty Firewall
+## 34. Uncertainty Firewall
 
 ```text
 UNCERTAINTY
@@ -1332,9 +1332,9 @@ UNKNOWN
 PASS
 ```
 
----
+______________________________________________________________________
 
-# 35. UNKNOWN/GAP Semantics
+## 35. UNKNOWN/GAP Semantics
 
 The supplied placeholder explicitly requires fail-closed treatment of:
 
@@ -1368,9 +1368,9 @@ UNKNOWN/GAP != FALSE
 UNKNOWN/GAP != PASS
 ```
 
----
+______________________________________________________________________
 
-# 36. Gap Visibility
+## 36. Gap Visibility
 
 Missing evidence MUST NOT be hidden by fluent completion.
 
@@ -1386,9 +1386,9 @@ RESOLVE IF DECISION-RELEVANT
 OTHERWISE PRESERVE
 ```
 
----
+______________________________________________________________________
 
-# 37. Gap Taxonomy
+## 37. Gap Taxonomy
 
 Target:
 
@@ -1406,9 +1406,9 @@ Resolve in that order.
 
 This taxonomy belongs to the AMOS reasoning architecture; artifact-specific native binding remains subject to source validation.
 
----
+______________________________________________________________________
 
-# 38. Contradiction Slot
+## 38. Contradiction Slot
 
 ```yaml
 epistemic_contradiction:
@@ -1450,9 +1450,9 @@ epistemic_contradiction:
     UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 39. Contradiction Firewall
+## 39. Contradiction Firewall
 
 Two propositions that appear linguistically incompatible are not necessarily genuine contradictions.
 
@@ -1476,9 +1476,9 @@ VARIABLE BINDINGS
 CLAIM TYPE
 ```
 
----
+______________________________________________________________________
 
-# 40. Absence-of-Contradiction Firewall
+## 40. Absence-of-Contradiction Firewall
 
 ```text
 NO CONTRADICTION FOUND
@@ -1488,9 +1488,9 @@ VERIFIED
 
 Failure to find a contradiction is not positive proof.
 
----
+______________________________________________________________________
 
-# 41. Competing Hypotheses Slot
+## 41. Competing Hypotheses Slot
 
 ```yaml
 competing_hypotheses:
@@ -1511,9 +1511,9 @@ competing_hypotheses:
     UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 42. Competing-Hypotheses Firewall
+## 42. Competing-Hypotheses Firewall
 
 When incompatible hypotheses have:
 
@@ -1549,9 +1549,9 @@ COMPETING
 
 until discriminating evidence exists.
 
----
+______________________________________________________________________
 
-# 43. Discriminating Evidence
+## 43. Discriminating Evidence
 
 Prefer:
 
@@ -1578,9 +1578,9 @@ WOULD MOST CLEANLY DISCRIMINATE?
 TEST THAT FIRST
 ```
 
----
+______________________________________________________________________
 
-# 44. Verification Slot
+## 44. Verification Slot
 
 ```yaml
 verification:
@@ -1601,9 +1601,9 @@ verification:
     UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 45. Verification Firewall
+## 45. Verification Firewall
 
 ```text
 SOURCE_CLAIM
@@ -1635,9 +1635,9 @@ AUTOMATICALLY VERIFIED
 
 unless native verification semantics establish otherwise.
 
----
+______________________________________________________________________
 
-# 46. Validation Slot
+## 46. Validation Slot
 
 ```yaml
 validation:
@@ -1661,9 +1661,9 @@ validation:
     UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 47. Validation Firewall
+## 47. Validation Firewall
 
 The supplied artifact explicitly supports:
 
@@ -1683,9 +1683,9 @@ VALIDATED IN ENVIRONMENT B
 
 unless environment independence is established.
 
----
+______________________________________________________________________
 
-# 48. Observation Slot
+## 48. Observation Slot
 
 ```yaml
 observation:
@@ -1712,9 +1712,9 @@ observation:
     UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 49. Observation Firewall
+## 49. Observation Firewall
 
 The supplied artifact explicitly states:
 
@@ -1724,9 +1724,9 @@ MODEL != OBSERVATION
 
 Therefore a model prediction MUST NOT be represented as an observation merely because it is plausible or precise.
 
----
+______________________________________________________________________
 
-# 50. Model Slot
+## 50. Model Slot
 
 ```yaml
 model:
@@ -1756,9 +1756,9 @@ model:
     required
 ```
 
----
+______________________________________________________________________
 
-# 51. Model Firewall
+## 51. Model Firewall
 
 ```text
 MODEL FITS DATA
@@ -1774,9 +1774,9 @@ MODEL SUCCESS
 UNIVERSAL VALIDITY
 ```
 
----
+______________________________________________________________________
 
-# 52. Derived Claim Slot
+## 52. Derived Claim Slot
 
 ```yaml
 derived_claim:
@@ -1803,9 +1803,9 @@ derived_claim:
     optional
 ```
 
----
+______________________________________________________________________
 
-# 53. Derivation Firewall
+## 53. Derivation Firewall
 
 A derived claim inherits all material restrictions of its load-bearing premises.
 
@@ -1819,9 +1819,9 @@ INTERSECTION OF LOAD-BEARING PREMISE SCOPES
 
 unless an independently supported generalization is supplied.
 
----
+______________________________________________________________________
 
-# 54. Scope Slot
+## 54. Scope Slot
 
 ```yaml
 epistemic_scope:
@@ -1857,9 +1857,9 @@ epistemic_scope:
     UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 55. Scope Firewall
+## 55. Scope Firewall
 
 ```text
 VALID HERE
@@ -1883,9 +1883,9 @@ VALID AT SCALE S1
 VALID AT SCALE S2
 ```
 
----
+______________________________________________________________________
 
-# 56. Regime Slot
+## 56. Regime Slot
 
 ```yaml
 epistemic_regime:
@@ -1909,9 +1909,9 @@ epistemic_regime:
     UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 57. Regime Firewall
+## 57. Regime Firewall
 
 ```text
 CLAIM VALID @ R1
@@ -1921,9 +1921,9 @@ CLAIM VALID @ R2
 
 A regime shift may invalidate conclusions whose validity conditions fail.
 
----
+______________________________________________________________________
 
-# 58. Freshness Slot
+## 58. Freshness Slot
 
 ```yaml
 freshness:
@@ -1941,9 +1941,9 @@ freshness:
     UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 59. Freshness Firewall
+## 59. Freshness Firewall
 
 ```text
 OLD
@@ -1963,9 +1963,9 @@ AUTHORITATIVE
 VALIDATED
 ```
 
----
+______________________________________________________________________
 
-# 60. Temporal Integrity
+## 60. Temporal Integrity
 
 Claims with temporal validity MUST carry enough information to distinguish:
 
@@ -1983,9 +1983,9 @@ UNKNOWN
 
 Historical truth within an earlier regime MUST NOT be erased merely because a later state exists.
 
----
+______________________________________________________________________
 
-# 61. Causal Integrity Slot
+## 61. Causal Integrity Slot
 
 ```yaml
 causal_integrity:
@@ -2018,9 +2018,9 @@ causal_integrity:
     UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 62. Causal Firewall
+## 62. Causal Firewall
 
 Material causal claims MUST distinguish:
 
@@ -2048,9 +2048,9 @@ CAUSAL EFFECT
 
 Structural resemblance, sequence, or co-occurrence alone cannot establish causal effect.
 
----
+______________________________________________________________________
 
-# 63. Structural-Similarity Firewall
+## 63. Structural-Similarity Firewall
 
 ```text
 STRUCTURAL SIMILARITY
@@ -2074,9 +2074,9 @@ CROSS-SCALE SIMILARITY
 CROSS-SCALE VALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 64. Necessary / Sufficient Firewall
+## 64. Necessary / Sufficient Firewall
 
 ```text
 A IS NECESSARY FOR B
@@ -2100,9 +2100,9 @@ A PRECEDES B
 A CAUSES B
 ```
 
----
+______________________________________________________________________
 
-# 65. Authority Slot
+## 65. Authority Slot
 
 ```yaml
 epistemic_authority:
@@ -2123,9 +2123,9 @@ epistemic_authority:
     UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 66. Authority Firewall
+## 66. Authority Firewall
 
 The supplied artifact explicitly supports:
 
@@ -2147,9 +2147,9 @@ ABLE TO ASSERT
 AUTHORIZED TO CANONIZE
 ```
 
----
+______________________________________________________________________
 
-# 67. Proposal Firewall
+## 67. Proposal Firewall
 
 The supplied artifact explicitly supports:
 
@@ -2159,9 +2159,9 @@ PROPOSAL != COMMIT
 
 A candidate epistemic state remains non-authoritative until governing gates pass.
 
----
+______________________________________________________________________
 
-# 68. Documentation Firewall
+## 68. Documentation Firewall
 
 The supplied artifact explicitly supports:
 
@@ -2177,9 +2177,9 @@ RULE APPEARS IN DOCUMENT
 RUNTIME ENFORCES RULE
 ```
 
----
+______________________________________________________________________
 
-# 69. Implementation Firewall
+## 69. Implementation Firewall
 
 The supplied artifact explicitly supports:
 
@@ -2203,9 +2203,9 @@ VALIDATED
 ENFORCED
 ```
 
----
+______________________________________________________________________
 
-# 70. Logging Firewall
+## 70. Logging Firewall
 
 The supplied artifact explicitly supports:
 
@@ -2215,9 +2215,9 @@ LOGGED != APPROVED
 
 Therefore observability records MUST NOT be silently treated as authorization or validation receipts.
 
----
+______________________________________________________________________
 
-# 71. Canonicality Firewall
+## 71. Canonicality Firewall
 
 The supplied artifact explicitly supports:
 
@@ -2231,9 +2231,9 @@ Canonical status is a governance state.
 
 It is not automatically an empirical truth predicate.
 
----
+______________________________________________________________________
 
-# 72. Empirical-Truth Firewall
+## 72. Empirical-Truth Firewall
 
 ```text
 EMPIRICAL SUPPORT
@@ -2261,9 +2261,9 @@ FORMAL ELEGANCE
 
 is sufficient.
 
----
+______________________________________________________________________
 
-# 73. Mathematical Firewall
+## 73. Mathematical Firewall
 
 ```text
 FORMALIZED
@@ -2281,9 +2281,9 @@ EMPIRICAL VALIDATION
 
 unless the relevant proof and empirical claims are separately established.
 
----
+______________________________________________________________________
 
-# 74. Benchmark Firewall
+## 74. Benchmark Firewall
 
 ```text
 BENCHMARK SUCCESS
@@ -2293,9 +2293,9 @@ UNIVERSAL VALIDITY
 
 A benchmark establishes only what its design, environment, measurements, and scope support.
 
----
+______________________________________________________________________
 
-# 75. Latency Firewall
+## 75. Latency Firewall
 
 ```text
 REPORTED LATENCY
@@ -2305,9 +2305,9 @@ HARDWARE-INDEPENDENT LATENCY
 
 Environment, hardware, workload, implementation, and measurement method remain material unless independence is established.
 
----
+______________________________________________________________________
 
-# 76. Formal-Proof Firewall
+## 76. Formal-Proof Firewall
 
 ```text
 DISTRIBUTED TESTS
@@ -2321,9 +2321,9 @@ UNIVERSAL FORMAL PROOF
 
 unless an actual formal proof exists and covers the claimed property.
 
----
+______________________________________________________________________
 
-# 77. Negative-Evidence Firewall
+## 77. Negative-Evidence Firewall
 
 ```text
 ABSENCE OF EVIDENCE
@@ -2333,9 +2333,9 @@ EVIDENCE OF ABSENCE
 
 unless the observation process had sufficient power to detect the expected evidence.
 
----
+______________________________________________________________________
 
-# 78. Missing-Contradiction Firewall
+## 78. Missing-Contradiction Firewall
 
 ```text
 NO KNOWN COUNTEREXAMPLE
@@ -2355,9 +2355,9 @@ MEASUREMENT INSUFFICIENT
 FALSIFIER POORLY DEFINED
 ```
 
----
+______________________________________________________________________
 
-# 79. Falsifier Slot
+## 79. Falsifier Slot
 
 ```yaml
 falsifier:
@@ -2381,9 +2381,9 @@ falsifier:
     optional
 ```
 
----
+______________________________________________________________________
 
-# 80. Falsifiability Firewall
+## 80. Falsifiability Firewall
 
 A claim lacking a known falsifier is not automatically false.
 
@@ -2399,9 +2399,9 @@ UNKNOWN/GAP
 
 depending on the claim.
 
----
+______________________________________________________________________
 
-# 81. Proof Capsule Target
+## 81. Proof Capsule Target
 
 ```yaml
 proof_capsule:
@@ -2446,9 +2446,9 @@ proof_capsule:
     required
 ```
 
----
+______________________________________________________________________
 
-# 82. Proof-Capsule Reuse
+## 82. Proof-Capsule Reuse
 
 A proof capsule may be reused only while:
 
@@ -2472,9 +2472,9 @@ If a load-bearing premise fails:
 INVALIDATE ONLY DEPENDENT CONCLUSIONS
 ```
 
----
+______________________________________________________________________
 
-# 83. Epistemic Classification Target
+## 83. Epistemic Classification Target
 
 Material claims SHOULD be typed using the weakest accurate class.
 
@@ -2512,9 +2512,9 @@ UNKNOWN/GAP
 
 Exact native binding remains subject to verified canon ingestion.
 
----
+______________________________________________________________________
 
-# 84. No Epistemic Promotion by Fluency
+## 84. No Epistemic Promotion by Fluency
 
 ```text
 MORE FLUENT
@@ -2532,9 +2532,9 @@ MORE VERIFIED
 
 Missing evidence MUST NOT be bridged by prose.
 
----
+______________________________________________________________________
 
-# 85. No Promotion by Repetition
+## 85. No Promotion by Repetition
 
 ```text
 REPEATED MANY TIMES
@@ -2544,9 +2544,9 @@ VERIFIED
 
 especially when repetitions share provenance.
 
----
+______________________________________________________________________
 
-# 86. No Promotion by Popularity
+## 86. No Promotion by Popularity
 
 ```text
 POPULAR
@@ -2556,9 +2556,9 @@ TRUE
 
 Popularity may be evidence about belief distribution, not automatically about the proposition itself.
 
----
+______________________________________________________________________
 
-# 87. No Promotion by Authority
+## 87. No Promotion by Authority
 
 ```text
 AUTHORITATIVE SOURCE
@@ -2568,9 +2568,9 @@ INFALLIBLE SOURCE
 
 Authority may affect admissibility or governance weight but does not erase the need for correct epistemic typing.
 
----
+______________________________________________________________________
 
-# 88. No Promotion by Precision
+## 88. No Promotion by Precision
 
 ```text
 PRECISE NUMBER
@@ -2580,9 +2580,9 @@ ACCURATE NUMBER
 
 Precision and accuracy remain distinct.
 
----
+______________________________________________________________________
 
-# 89. No Promotion by Quantification
+## 89. No Promotion by Quantification
 
 ```text
 QUANTIFIED
@@ -2592,9 +2592,9 @@ VALIDATED
 
 A numerical representation does not itself establish measurement validity.
 
----
+______________________________________________________________________
 
-# 90. No Promotion by Formalism
+## 90. No Promotion by Formalism
 
 ```text
 FORMAL
@@ -2604,9 +2604,9 @@ TRUE
 
 Formal consistency and empirical correspondence are distinct dimensions.
 
----
+______________________________________________________________________
 
-# 91. No Promotion by Internal Consistency
+## 91. No Promotion by Internal Consistency
 
 ```text
 INTERNALLY CONSISTENT
@@ -2616,9 +2616,9 @@ EMPIRICALLY VALID
 
 A coherent model may still fail against observation.
 
----
+______________________________________________________________________
 
-# 92. No Demotion by Uncertainty Alone
+## 92. No Demotion by Uncertainty Alone
 
 ```text
 UNCERTAIN
@@ -2628,9 +2628,9 @@ FALSE
 
 Uncertainty must remain visible without being converted into rejection.
 
----
+______________________________________________________________________
 
-# 93. No Forced Convergence
+## 93. No Forced Convergence
 
 If evidence supports incompatible hypotheses without a valid discriminator:
 
@@ -2640,9 +2640,9 @@ PRESERVE COMPETING
 
 Do not manufacture a synthetic compromise merely for narrative closure.
 
----
+______________________________________________________________________
 
-# 94. Claim Identity
+## 94. Claim Identity
 
 Two text strings that look similar do not necessarily represent the same claim.
 
@@ -2664,9 +2664,9 @@ MEASUREMENT METHOD
 ASSUMPTIONS
 ```
 
----
+______________________________________________________________________
 
-# 95. Semantic-Collision Firewall
+## 95. Semantic-Collision Firewall
 
 ```text
 SAME WORD
@@ -2684,9 +2684,9 @@ SAME VARIABLE
 
 Native registries should resolve identity where material.
 
----
+______________________________________________________________________
 
-# 96. Scope Inheritance
+## 96. Scope Inheritance
 
 A derived claim MUST NOT silently exceed the applicability envelope of its load-bearing evidence.
 
@@ -2700,9 +2700,9 @@ SUPPORTED SCOPE
 
 unless independent evidence validates the extension.
 
----
+______________________________________________________________________
 
-# 97. Regime Inheritance
+## 97. Regime Inheritance
 
 A derived claim inherits material regime restrictions.
 
@@ -2716,9 +2716,9 @@ cannot silently become:
 VALID @ ALL R
 ```
 
----
+______________________________________________________________________
 
-# 98. Freshness Inheritance
+## 98. Freshness Inheritance
 
 If a conclusion depends on a freshness-bounded premise:
 
@@ -2730,9 +2730,9 @@ LOAD-BEARING PREMISE FRESHNESS
 
 unless revalidated.
 
----
+______________________________________________________________________
 
-# 99. Provenance Inheritance
+## 99. Provenance Inheritance
 
 Derived claims MUST retain links to load-bearing source ancestry.
 
@@ -2742,9 +2742,9 @@ DERIVATION
 PROVENANCE RESET
 ```
 
----
+______________________________________________________________________
 
-# 100. Causal Inheritance
+## 100. Causal Inheritance
 
 A derived conclusion MUST NOT upgrade the causal class of its premises.
 
@@ -2762,9 +2762,9 @@ does not automatically permit:
 CAUSAL EFFECT CONCLUSION
 ```
 
----
+______________________________________________________________________
 
-# 101. Claim-State Transitions
+## 101. Claim-State Transitions
 
 Target conceptual lifecycle:
 
@@ -2784,9 +2784,9 @@ VERIFIED WITHIN SCOPE
 
 This is a conceptual normalization path, not proof that the runtime implements these transitions.
 
----
+______________________________________________________________________
 
-# 102. No Automatic Monotonic Promotion
+## 102. No Automatic Monotonic Promotion
 
 New evidence may:
 
@@ -2808,9 +2808,9 @@ REQUIRE DOWNGRADE
 
 Therefore epistemic state evolution is not assumed to be monotonically upward.
 
----
+______________________________________________________________________
 
-# 103. Contradiction Preservation
+## 103. Contradiction Preservation
 
 If new evidence conflicts with a currently supported claim:
 
@@ -2826,9 +2826,9 @@ SEEK DISCRIMINATING EVIDENCE
 RESOLVE OR PRESERVE COMPETING
 ```
 
----
+______________________________________________________________________
 
-# 104. Local Invalidation
+## 104. Local Invalidation
 
 If premise `P2` fails:
 
@@ -2852,9 +2852,9 @@ P3
 UNRELATED CLAIMS
 ```
 
----
+______________________________________________________________________
 
-# 105. Failure Recovery
+## 105. Failure Recovery
 
 ```text
 FAILED PREMISE / EDGE
@@ -2872,9 +2872,9 @@ REROUTE USING CHANGED EVIDENCE
 
 Do not repeat a failed path without changed evidence.
 
----
+______________________________________________________________________
 
-# 106. Global Recompute Firewall
+## 106. Global Recompute Firewall
 
 ```text
 LOCAL FAILURE
@@ -2884,9 +2884,9 @@ GLOBAL INVALIDATION
 
 Global recomputation is a last resort when dependency boundaries cannot be safely localized.
 
----
+______________________________________________________________________
 
-# 107. Dependency Slot
+## 107. Dependency Slot
 
 ```yaml
 epistemic_integrity_dependencies:
@@ -2907,9 +2907,9 @@ epistemic_integrity_dependencies:
     UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 108. Dependency Firewall
+## 108. Dependency Firewall
 
 ```text
 REFERENCE
@@ -2925,9 +2925,9 @@ CONCEPTUAL SIMILARITY
 DEPENDENCY
 ```
 
----
+______________________________________________________________________
 
-# 109. Dependency Closure
+## 109. Dependency Closure
 
 Target:
 
@@ -2943,9 +2943,9 @@ ONLY RESULT-CHANGING TRANSITIVE DEPENDENCIES
 STOP
 ```
 
----
+______________________________________________________________________
 
-# 110. Provenance Topology
+## 110. Provenance Topology
 
 Target:
 
@@ -2963,9 +2963,9 @@ ACTION
 
 Important conclusions should remain recoverable to their load-bearing source roots.
 
----
+______________________________________________________________________
 
-# 111. Persistent Provenance
+## 111. Persistent Provenance
 
 ```yaml
 persistent_provenance:
@@ -3001,9 +3001,9 @@ persistent_provenance:
     required
 ```
 
----
+______________________________________________________________________
 
-# 112. RSCF Target
+## 112. RSCF Target
 
 ```yaml
 EPISTEMIC_INTEGRITY_RSCF:
@@ -3078,9 +3078,9 @@ EPISTEMIC_INTEGRITY_RSCF:
     NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 113. H/M/L Retrieval Target
+## 113. H/M/L Retrieval Target
 
 ```text
 H — EPISTEMIC INTEGRITY FAMILY
@@ -3098,9 +3098,9 @@ Raw evidence defaults:
 DO_NOT_LOAD_UNLESS_REQUIRED
 ```
 
----
+______________________________________________________________________
 
-# 114. H-Layer Target
+## 114. H-Layer Target
 
 ```text
 RSCF.AMOS.CANON.EPISTEMIC_INTEGRITY.H.SYSTEM
@@ -3142,9 +3142,9 @@ SUPERSESSION
 RECOVERY
 ```
 
----
+______________________________________________________________________
 
-# 115. Candidate M-Layer
+## 115. Candidate M-Layer
 
 ```text
 M.IDENTITY
@@ -3190,9 +3190,9 @@ M.RECOVERY
 
 These are organizational MODEL categories, not recovered native canon.
 
----
+______________________________________________________________________
 
-# 116. Candidate L-Layer
+## 116. Candidate L-Layer
 
 ```text
 L.NATIVE_STATEMENT
@@ -3244,9 +3244,9 @@ L.SUPERSESSION
 L.GAP
 ```
 
----
+______________________________________________________________________
 
-# 117. Smallest Sufficient Proof Scope
+## 117. Smallest Sufficient Proof Scope
 
 For an epistemic question, retrieve:
 
@@ -3266,9 +3266,9 @@ ONLY RESULT-CHANGING DEPENDENCIES
 
 not automatically the entire corpus.
 
----
+______________________________________________________________________
 
-# 118. Fast-Path Conditions
+## 118. Fast-Path Conditions
 
 Local reasoning is admissible only when:
 
@@ -3300,9 +3300,9 @@ NO CAUSAL TYPE LEAKAGE
 NO HIDDEN GOVERNANCE DEPENDENCY
 ```
 
----
+______________________________________________________________________
 
-# 119. Escalation Conditions
+## 119. Escalation Conditions
 
 Escalate when:
 
@@ -3346,36 +3346,36 @@ SUPERSESSION AMBIGUOUS
 IRREVERSIBLE GOVERNANCE EFFECT
 ```
 
----
+______________________________________________________________________
 
-# 120. Adversarial Validation
+## 120. Adversarial Validation
 
 For a consequential conclusion, challenge:
 
 1. Is the claim precisely identified?
-2. Is the claim type correct?
-3. Are any source claims being presented as observations?
-4. Are models being presented as observations?
-5. Are derived claims being presented as verified facts?
-6. Is confidence being treated as truth?
-7. Is authority being treated as truth?
-8. Is consensus being treated as independent confirmation?
-9. Do multiple sources share ancestry?
-10. Is absence of contradiction being treated as proof?
-11. Is absence of evidence being treated as evidence of absence?
-12. Is scope being widened?
-13. Has the regime changed?
-14. Is stale evidence load-bearing?
-15. Is correlation being converted into causation?
-16. Is sequence being converted into causation?
-17. Is structural similarity being converted into causation?
-18. Is a historical claim being treated as current?
-19. Is a newer source being treated as automatically authoritative?
-20. Is a conflicting hypothesis being hidden?
-21. Is one weak premise controlling the conclusion?
-22. What would falsify the claim?
-23. What is the cheapest discriminating test?
-24. Would failure of one premise invalidate only part of the conclusion?
+1. Is the claim type correct?
+1. Are any source claims being presented as observations?
+1. Are models being presented as observations?
+1. Are derived claims being presented as verified facts?
+1. Is confidence being treated as truth?
+1. Is authority being treated as truth?
+1. Is consensus being treated as independent confirmation?
+1. Do multiple sources share ancestry?
+1. Is absence of contradiction being treated as proof?
+1. Is absence of evidence being treated as evidence of absence?
+1. Is scope being widened?
+1. Has the regime changed?
+1. Is stale evidence load-bearing?
+1. Is correlation being converted into causation?
+1. Is sequence being converted into causation?
+1. Is structural similarity being converted into causation?
+1. Is a historical claim being treated as current?
+1. Is a newer source being treated as automatically authoritative?
+1. Is a conflicting hypothesis being hidden?
+1. Is one weak premise controlling the conclusion?
+1. What would falsify the claim?
+1. What is the cheapest discriminating test?
+1. Would failure of one premise invalidate only part of the conclusion?
 
 If challenge succeeds:
 
@@ -3401,9 +3401,9 @@ or:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 121. Sensitivity
+## 121. Sensitivity
 
 Identify the smallest premise capable of flipping:
 
@@ -3447,9 +3447,9 @@ ONE AUTHORITY REF
 
 Test these first.
 
----
+______________________________________________________________________
 
-# 122. Fragility
+## 122. Fragility
 
 If a plausible perturbation of one unresolved premise flips the conclusion, classify:
 
@@ -3465,9 +3465,9 @@ COMPETING
 
 A robust conclusion should survive plausible perturbations of noncritical assumptions.
 
----
+______________________________________________________________________
 
-# 123. Uncertainty Vector
+## 123. Uncertainty Vector
 
 When material, track separately:
 
@@ -3497,9 +3497,9 @@ NATIVE-LAW UNCERTAINTY
 EPISTEMIC-CLASS UNCERTAINTY
 ```
 
----
+______________________________________________________________________
 
-# 124. Adaptive Complexity
+## 124. Adaptive Complexity
 
 Target reasoning levels:
 
@@ -3543,9 +3543,9 @@ LOW TRUST
 
 De-escalate when outcome-changing uncertainty is resolved.
 
----
+______________________________________________________________________
 
-# 125. Epistemic Work Allocation
+## 125. Epistemic Work Allocation
 
 Spend reasoning where uncertainty reduction has positive expected decision value.
 
@@ -3563,9 +3563,9 @@ CRITICAL LOAD-BEARING UNCERTAINTY
 
 remains unresolved.
 
----
+______________________________________________________________________
 
-# 126. Action Sufficiency
+## 126. Action Sufficiency
 
 A reasoning process may stop when sufficient support exists for:
 
@@ -3579,9 +3579,9 @@ ACTION SUFFICIENCY
 
 It need not eliminate every explanatory gap.
 
----
+______________________________________________________________________
 
-# 127. Reversible Action Under Uncertainty
+## 127. Reversible Action Under Uncertainty
 
 Where uncertainty remains and action is necessary:
 
@@ -3600,9 +3600,9 @@ actions over irreversible commitments.
 
 This does not establish that all actions are reversible or that reversibility alone makes an action safe.
 
----
+______________________________________________________________________
 
-# 128. Governance Escalation
+## 128. Governance Escalation
 
 Increase validation for:
 
@@ -3624,9 +3624,9 @@ LARGE DOWNSTREAM DEPENDENCY
 CANON MUTATION
 ```
 
----
+______________________________________________________________________
 
-# 129. Canon Mutation Contract
+## 129. Canon Mutation Contract
 
 The supplied target semantics establish the following conceptual flow:
 
@@ -3674,9 +3674,9 @@ PROPOSAL ≠ COMMIT
 
 These are source-supported target semantics, not evidence of implementation.
 
----
+______________________________________________________________________
 
-# 130. Mutation Precondition Closure
+## 130. Mutation Precondition Closure
 
 Before consequential mutation, traverse:
 
@@ -3696,9 +3696,9 @@ INVALIDATE DEPENDENT DESCENDANTS ONLY
 RECORD RECEIPT
 ```
 
----
+______________________________________________________________________
 
-# 131. Rollback Basin
+## 131. Rollback Basin
 
 Before consequential mutation preserve:
 
@@ -3734,9 +3734,9 @@ AUTHORITY STATE
 VALIDATION STATE
 ```
 
----
+______________________________________________________________________
 
-# 132. MVCC Concept
+## 132. MVCC Concept
 
 A future implementation may conceptually use:
 
@@ -3764,9 +3764,9 @@ Implementation:
 NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 133. CAS Concept
+## 133. CAS Concept
 
 ```text
 EXPECTED = vN
@@ -3779,9 +3779,9 @@ NO STALE COMMIT
 
 This is an AMOS reasoning/architecture concept, not evidence of executable binding here.
 
----
+______________________________________________________________________
 
-# 134. Atomic Multi-RSCF Reasoning
+## 134. Atomic Multi-RSCF Reasoning
 
 A consequential epistemic mutation may affect:
 
@@ -3809,9 +3809,9 @@ PARTIAL UPDATE
 COMPLETE SUCCESS
 ```
 
----
+______________________________________________________________________
 
-# 135. Causal Epoch Concept
+## 135. Causal Epoch Concept
 
 Conceptually:
 
@@ -3829,9 +3829,9 @@ PRESERVE UNAFFECTED DERIVATIONS
 
 No literal distributed implementation is claimed.
 
----
+______________________________________________________________________
 
-# 136. Proof-Based Coordination Avoidance
+## 136. Proof-Based Coordination Avoidance
 
 Local reasoning is permissible only when independence is demonstrated.
 
@@ -3845,9 +3845,9 @@ LOCAL IMPACT
 
 without dependency closure.
 
----
+______________________________________________________________________
 
-# 137. Validation Contract
+## 137. Validation Contract
 
 Promotion SHOULD validate:
 
@@ -3899,9 +3899,9 @@ ROLLBACK
 RECEIPT
 ```
 
----
+______________________________________________________________________
 
-# 138. Negative Validation Matrix
+## 138. Negative Validation Matrix
 
 ```text
 MISSING ARTIFACT
@@ -4003,9 +4003,9 @@ PARTIAL MULTI-NODE COMMIT
 FAILED ROLLBACK
 ```
 
----
+______________________________________________________________________
 
-# 139. Validation Receipt Target
+## 139. Validation Receipt Target
 
 ```yaml
 epistemic_integrity_validation_receipt:
@@ -4106,9 +4106,9 @@ Current:
 NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 140. Critical Gap — Native Law
+## 140. Critical Gap — Native Law
 
 ```yaml
 gap:
@@ -4133,9 +4133,9 @@ gap:
     - canonical_statement
 ```
 
----
+______________________________________________________________________
 
-# 141. Critical Gap — Native Definition
+## 141. Critical Gap — Native Definition
 
 ```yaml
 gap:
@@ -4154,9 +4154,9 @@ gap:
     has not been established.
 ```
 
----
+______________________________________________________________________
 
-# 142. Critical Gap — Epistemic Classes
+## 142. Critical Gap — Epistemic Classes
 
 ```yaml
 gap:
@@ -4175,9 +4175,9 @@ gap:
     conclusion classes have not been established.
 ```
 
----
+______________________________________________________________________
 
-# 143. Critical Gap — Evidence Semantics
+## 143. Critical Gap — Evidence Semantics
 
 ```yaml
 gap:
@@ -4196,9 +4196,9 @@ gap:
     semantics for evidence have not been established.
 ```
 
----
+______________________________________________________________________
 
-# 144. Critical Gap — Provenance Semantics
+## 144. Critical Gap — Provenance Semantics
 
 ```yaml
 gap:
@@ -4217,9 +4217,9 @@ gap:
     to this canon remain unestablished.
 ```
 
----
+______________________________________________________________________
 
-# 145. Critical Gap — Confidence Semantics
+## 145. Critical Gap — Confidence Semantics
 
 ```yaml
 gap:
@@ -4238,9 +4238,9 @@ gap:
     calibration, and ceiling semantics are not established.
 ```
 
----
+______________________________________________________________________
 
-# 146. Critical Gap — Contradiction Semantics
+## 146. Critical Gap — Contradiction Semantics
 
 ```yaml
 gap:
@@ -4259,9 +4259,9 @@ gap:
     are not established.
 ```
 
----
+______________________________________________________________________
 
-# 147. Critical Gap — Scope
+## 147. Critical Gap — Scope
 
 ```yaml
 gap:
@@ -4280,9 +4280,9 @@ gap:
     Epistemic Integrity framework is not established.
 ```
 
----
+______________________________________________________________________
 
-# 148. Critical Gap — Validation
+## 148. Critical Gap — Validation
 
 ```yaml
 gap:
@@ -4301,9 +4301,9 @@ gap:
     establishes substantive Epistemic Integrity content.
 ```
 
----
+______________________________________________________________________
 
-# 149. Critical Gap — Executable Binding
+## 149. Critical Gap — Executable Binding
 
 ```yaml
 gap:
@@ -4322,9 +4322,9 @@ gap:
     has been established.
 ```
 
----
+______________________________________________________________________
 
-# 150. Worked Semantics — Placeholder Only
+## 150. Worked Semantics — Placeholder Only
 
 Input:
 
@@ -4352,9 +4352,9 @@ SOURCE_CLAIM
 
 but MUST NOT be promoted to a complete native law.
 
----
+______________________________________________________________________
 
-# 151. Worked Semantics — Source Claim
+## 151. Worked Semantics — Source Claim
 
 Input:
 
@@ -4376,9 +4376,9 @@ VERIFIED:
 C
 ```
 
----
+______________________________________________________________________
 
-# 152. Worked Semantics — Observation
+## 152. Worked Semantics — Observation
 
 Evidence:
 
@@ -4399,9 +4399,9 @@ Not automatically:
 MODEL EXPLANATION X IS VERIFIED
 ```
 
----
+______________________________________________________________________
 
-# 153. Worked Semantics — Model Prediction
+## 153. Worked Semantics — Model Prediction
 
 Model `M` predicts:
 
@@ -4425,9 +4425,9 @@ X occurred
 
 until observed.
 
----
+______________________________________________________________________
 
-# 154. Worked Semantics — Shared Provenance
+## 154. Worked Semantics — Shared Provenance
 
 Three documents support claim `C`.
 
@@ -4447,9 +4447,9 @@ not:
 THREE INDEPENDENT CONFIRMATIONS
 ```
 
----
+______________________________________________________________________
 
-# 155. Worked Semantics — Confidence
+## 155. Worked Semantics — Confidence
 
 Premises:
 
@@ -4469,9 +4469,9 @@ CONCLUSION REMAINS LIMITED BY P2
 
 unless `P2` is independently revalidated.
 
----
+______________________________________________________________________
 
-# 156. Worked Semantics — Contradiction
+## 156. Worked Semantics — Contradiction
 
 Claim A:
 
@@ -4493,9 +4493,9 @@ NOT NECESSARILY A CONTRADICTION
 
 because regime differs.
 
----
+______________________________________________________________________
 
-# 157. Worked Semantics — Genuine Competition
+## 157. Worked Semantics — Genuine Competition
 
 Hypothesis H1 and H2 make incompatible predictions under the same:
 
@@ -4514,9 +4514,9 @@ Correct:
 COMPETING
 ```
 
----
+______________________________________________________________________
 
-# 158. Worked Semantics — Absence of Evidence
+## 158. Worked Semantics — Absence of Evidence
 
 Search finds no observation of `X`.
 
@@ -4534,9 +4534,9 @@ X DOES NOT EXIST
 
 unless the search had sufficient detection power.
 
----
+______________________________________________________________________
 
-# 159. Worked Semantics — Causal Overreach
+## 159. Worked Semantics — Causal Overreach
 
 Observation:
 
@@ -4556,9 +4556,9 @@ Incorrect without further evidence:
 A CAUSES B
 ```
 
----
+______________________________________________________________________
 
-# 160. Worked Semantics — Scope Leakage
+## 160. Worked Semantics — Scope Leakage
 
 Evidence establishes:
 
@@ -4580,9 +4580,9 @@ Incorrect:
 C for all populations
 ```
 
----
+______________________________________________________________________
 
-# 161. Worked Semantics — Stale Evidence
+## 161. Worked Semantics — Stale Evidence
 
 Claim depends on source `S@t1`.
 
@@ -4596,9 +4596,9 @@ REVALIDATE
 
 if the environment change can invalidate the premise.
 
----
+______________________________________________________________________
 
-# 162. Worked Semantics — Historical Claim
+## 162. Worked Semantics — Historical Claim
 
 Historical source states:
 
@@ -4618,9 +4618,9 @@ CURRENT STATUS:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 163. Worked Semantics — Proposal
+## 163. Worked Semantics — Proposal
 
 Candidate canon content passes formatting checks.
 
@@ -4638,9 +4638,9 @@ COMMIT
 
 until governance gates pass.
 
----
+______________________________________________________________________
 
-# 164. Worked Semantics — Logged Mutation
+## 164. Worked Semantics — Logged Mutation
 
 A mutation attempt appears in observability logs.
 
@@ -4656,9 +4656,9 @@ Not:
 APPROVED MUTATION
 ```
 
----
+______________________________________________________________________
 
-# 165. Worked Semantics — Implemented Rule
+## 165. Worked Semantics — Implemented Rule
 
 Code appears to implement rule `R`.
 
@@ -4674,9 +4674,9 @@ Not automatically:
 R VALIDATED
 ```
 
----
+______________________________________________________________________
 
-# 166. Worked Semantics — Validation Environment
+## 166. Worked Semantics — Validation Environment
 
 Rule `R` passes tests in environment `E1`.
 
@@ -4688,9 +4688,9 @@ VALIDATED WITHIN TESTED E1 ENVELOPE
 
 Do not silently generalize to `E2`.
 
----
+______________________________________________________________________
 
-# 167. Worked Semantics — Failed Premise
+## 167. Worked Semantics — Failed Premise
 
 Conclusion `C1` depends on `P`.
 
@@ -4708,9 +4708,9 @@ PRESERVE C2
 
 if independence is established.
 
----
+______________________________________________________________________
 
-# 168. Worked Semantics — Canonical Claim
+## 168. Worked Semantics — Canonical Claim
 
 A claim becomes canonically approved.
 
@@ -4726,9 +4726,9 @@ Not automatically:
 EMPIRICALLY TRUE
 ```
 
----
+______________________________________________________________________
 
-# 169. Worked Semantics — Unknown
+## 169. Worked Semantics — Unknown
 
 Evidence is insufficient to decide whether `C`.
 
@@ -4750,9 +4750,9 @@ and not:
 PASS
 ```
 
----
+______________________________________________________________________
 
-# 170. Worked Semantics — Strongest Supported Conclusion
+## 170. Worked Semantics — Strongest Supported Conclusion
 
 Evidence supports only:
 
@@ -4773,9 +4773,9 @@ Do not strengthen it to:
 C IS TRUE
 ```
 
----
+______________________________________________________________________
 
-# 171. Worked Semantics — Adversarial Challenge
+## 171. Worked Semantics — Adversarial Challenge
 
 Primary path concludes:
 
@@ -4800,9 +4800,9 @@ DOWNGRADE PROVENANCE-INDEPENDENCE CONFIDENCE
 
 and reassess `C`.
 
----
+______________________________________________________________________
 
-# 172. Worked Semantics — Cheap Discriminator
+## 172. Worked Semantics — Cheap Discriminator
 
 H1 predicts:
 
@@ -4826,9 +4826,9 @@ TEST X FIRST
 
 rather than gathering redundant background evidence.
 
----
+______________________________________________________________________
 
-# 173. Worked Semantics — Reversible Action
+## 173. Worked Semantics — Reversible Action
 
 Evidence cannot resolve between two options.
 
@@ -4846,9 +4846,9 @@ PREFER STAGED / REVERSIBLE ACTION
 
 while preserving uncertainty.
 
----
+______________________________________________________________________
 
-# 174. Cross-Plane Bindings
+## 174. Cross-Plane Bindings
 
 Source-supported artifact relation:
 
@@ -4884,9 +4884,9 @@ Target integration points:
 
 These references do not establish executable binding.
 
----
+______________________________________________________________________
 
-# 175. Kernel Boundary
+## 175. Kernel Boundary
 
 ```text
 CANON EXISTS
@@ -4900,9 +4900,9 @@ Current executable kernel binding:
 NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 176. Control-Plane Boundary
+## 176. Control-Plane Boundary
 
 A control plane may eventually gate epistemic-state mutation.
 
@@ -4922,9 +4922,9 @@ AUTHORIZATION
 COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 177. Observability Boundary
+## 177. Observability Boundary
 
 Observability may expose:
 
@@ -4952,9 +4952,9 @@ OBSERVATION
 AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 178. Operations Boundary
+## 178. Operations Boundary
 
 Recovery may eventually bind through:
 
@@ -4968,52 +4968,52 @@ Current executable recovery binding:
 NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 179. Promotion Gate
+## 179. Promotion Gate
 
 Before promotion:
 
-* [ ] verified native Epistemic Integrity source recovered;
-* [ ] artifact identity matched;
-* [ ] source version resolved;
-* [ ] provenance ancestry resolved;
-* [ ] current/historical status resolved;
-* [ ] canonical native statement extracted;
-* [ ] native Epistemic Integrity definition established;
-* [ ] native claim classes established;
-* [ ] native evidence semantics established;
-* [ ] native observation semantics established;
-* [ ] native model semantics established;
-* [ ] native derivation semantics established;
-* [ ] native provenance semantics established;
-* [ ] provenance-independence rules established;
-* [ ] native confidence semantics established;
-* [ ] confidence-ceiling semantics established;
-* [ ] native uncertainty semantics established;
-* [ ] UNKNOWN/GAP semantics established;
-* [ ] contradiction semantics established;
-* [ ] competing-hypothesis semantics established;
-* [ ] falsifier semantics established;
-* [ ] scope envelope established;
-* [ ] regime envelope established;
-* [ ] freshness semantics established;
-* [ ] causal typing established;
-* [ ] dependency topology established;
-* [ ] authority semantics established;
-* [ ] precedence established;
-* [ ] supersession lineage established;
-* [ ] negative cases executed;
-* [ ] stale mutation rejected;
-* [ ] unauthorized mutation rejected;
-* [ ] rollback basin demonstrated;
-* [ ] executable binding established if enforcement is claimed;
-* [ ] artifact-specific validation receipt executed;
-* [ ] unresolved critical gaps remain visible.
+- [ ] verified native Epistemic Integrity source recovered;
+- [ ] artifact identity matched;
+- [ ] source version resolved;
+- [ ] provenance ancestry resolved;
+- [ ] current/historical status resolved;
+- [ ] canonical native statement extracted;
+- [ ] native Epistemic Integrity definition established;
+- [ ] native claim classes established;
+- [ ] native evidence semantics established;
+- [ ] native observation semantics established;
+- [ ] native model semantics established;
+- [ ] native derivation semantics established;
+- [ ] native provenance semantics established;
+- [ ] provenance-independence rules established;
+- [ ] native confidence semantics established;
+- [ ] confidence-ceiling semantics established;
+- [ ] native uncertainty semantics established;
+- [ ] UNKNOWN/GAP semantics established;
+- [ ] contradiction semantics established;
+- [ ] competing-hypothesis semantics established;
+- [ ] falsifier semantics established;
+- [ ] scope envelope established;
+- [ ] regime envelope established;
+- [ ] freshness semantics established;
+- [ ] causal typing established;
+- [ ] dependency topology established;
+- [ ] authority semantics established;
+- [ ] precedence established;
+- [ ] supersession lineage established;
+- [ ] negative cases executed;
+- [ ] stale mutation rejected;
+- [ ] unauthorized mutation rejected;
+- [ ] rollback basin demonstrated;
+- [ ] executable binding established if enforcement is claimed;
+- [ ] artifact-specific validation receipt executed;
+- [ ] unresolved critical gaps remain visible.
 
----
+______________________________________________________________________
 
-# 180. Current Proof Capsule
+## 180. Current Proof Capsule
 
 ```yaml
 proof_capsule:
@@ -5096,9 +5096,9 @@ proof_capsule:
     false
 ```
 
----
+______________________________________________________________________
 
-# 181. Canonical Knowledge Capsule
+## 181. Canonical Knowledge Capsule
 
 **Class: SOURCE_CLAIM / AMOS_MODEL**
 
@@ -5258,9 +5258,9 @@ VALIDATION
 NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 182. Final Integrity Rule
+## 182. Final Integrity Rule
 
 Until verified native content is recovered:
 
@@ -5326,9 +5326,9 @@ VALIDATE
 PROMOTE WITH RECEIPT
 ```
 
----
+______________________________________________________________________
 
-# 183. Canonical Invariants
+## 183. Canonical Invariants
 
 ```text
 INTEGRITY > COMPLETENESS > FLUENCY > SPEED > TOKEN SAVINGS
@@ -5432,9 +5432,9 @@ LOGGED != APPROVED
 LOCAL FAILURE != GLOBAL INVALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 184. Status Matrix
+## 184. Status Matrix
 
 | Dimension               | Current status             | Promotion requirement        |
 | ----------------------- | -------------------------- | ---------------------------- |
@@ -5469,9 +5469,9 @@ LOCAL FAILURE != GLOBAL INVALIDATION
 | Validation              | NOT_ESTABLISHED            | executed receipt             |
 | Empirical validity      | NOT_ESTABLISHED            | appropriately typed evidence |
 
----
+______________________________________________________________________
 
-# 185. Minimum Missing Information
+## 185. Minimum Missing Information
 
 The minimum evidence required to replace the central `UNKNOWN/GAP` is:
 
@@ -5555,15 +5555,15 @@ Without that evidence, substantive completion would violate:
 NEVER_INVENT_CANON
 ```
 
----
+______________________________________________________________________
 
 00_ROOT_MOC|AMOS MOC
 
----
+______________________________________________________________________
 
-**Related:**  ·  ·
+**Related:** · ·
 
----
+______________________________________________________________________
 
 RSCF-NODE
 
@@ -5625,25 +5625,25 @@ native_supersession_status: NOT_ESTABLISHED
 
 RSCF-RELATIONS:
 
-* INDEXED_BY:
+- INDEXED_BY:
 
-* INDEXED_BY:
+- INDEXED_BY:
 
-* GOVERNED_BY:
+- GOVERNED_BY:
 
-* TARGET_INTERACTS_WITH:
+- TARGET_INTERACTS_WITH:
 
-* TARGET_CONTROLLED_BY:
+- TARGET_CONTROLLED_BY:
 
-* TARGET_OBSERVED_BY:
+- TARGET_OBSERVED_BY:
 
-* TARGET_RECOVERED_BY:
+- TARGET_RECOVERED_BY:
 
----
+______________________________________________________________________
 
 **MOC:**
 
----
+______________________________________________________________________
 
 **Origin Architect / Steward:** Trang Phan
 
@@ -5695,7 +5695,8 @@ RSCF-RELATIONS:
 
 **Validation:** NOT_ESTABLISHED
 
-
 Critical distinction preserved: unlike a completely content-empty title placeholder, this source already contains **explicit epistemic boundary and contract statements**—for example `MODEL != OBSERVATION`, `SOURCE_CLAIM != VERIFIED`, `CANONICAL != EMPIRICAL_TRUTH`, `CAPABILITY != AUTHORITY`, and `UNKNOWN/GAP != PASS`. Those can be retained as `SOURCE_CLAIM`; they still do **not** establish a complete native Epistemic Integrity law, executable enforcement, or validation.
 
+```
+```
 ```

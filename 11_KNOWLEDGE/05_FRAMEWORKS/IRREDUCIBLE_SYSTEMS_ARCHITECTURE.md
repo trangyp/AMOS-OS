@@ -12,21 +12,21 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: ARCHITECTURE
 path: 11_KNOWLEDGE/05_FRAMEWORKS/IRREDUCIBLE_SYSTEMS_ARCHITECTURE.md
 tags:
-- amos-os
-- knowledge
-- vault
-- 05_frameworks
-- irreducible_systems_architecture
-- minimality
-- non_redundant_architecture
-- core_kernel
-- rscf
-- canon_candidate
-- canon/knowledge
-- absolute-structural-integrity
-- trang-zero-framework
-- first-principles-articulation
-- trang-lmh-architecture
+  - amos-os
+  - knowledge
+  - vault
+  - 05_frameworks
+  - irreducible_systems_architecture
+  - minimality
+  - non_redundant_architecture
+  - core_kernel
+  - rscf
+  - canon_candidate
+  - canon/knowledge
+  - absolute-structural-integrity
+  - trang-zero-framework
+  - first-principles-articulation
+  - trang-lmh-architecture
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -41,19 +41,19 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - ABSOLUTE_INTEGRITY_ARCHITECTURE_CANONICAL_ROOT
-  - AMOS_CORPUS
+    - ABSOLUTE_INTEGRITY_ARCHITECTURE_CANONICAL_ROOT
+    - AMOS_CORPUS
   scope:
-  - KNOWLEDGE_FRAMEWORKS
-  - ARCHITECTURAL_MINIMALITY
-  - SOURCE_DEFINED_MODEL
+    - KNOWLEDGE_FRAMEWORKS
+    - ARCHITECTURAL_MINIMALITY
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   structural_integrity:
     artifact:
-    - - ABSOLUTE_STRUCTURAL_INTEGRITY
+      -   - ABSOLUTE_STRUCTURAL_INTEGRITY
   null_state:
     artifact:
-    - - TRANG_ZERO_FRAMEWORK
+      -   - TRANG_ZERO_FRAMEWORK
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
@@ -67,28 +67,28 @@ epistemic_boundary:
 
 It establishes the principle that a robust architecture cannot be stripped of any remaining component without collapsing its fundamental invariant guarantees ($\text{Minimality Law}$).
 
----
+______________________________________________________________________
 
-# 1. Minimality & Irreducibility Law
+## 1. Minimality & Irreducibility Law
 
 $$\mathcal{S} \text{ is Irreducible} \iff \forall c \in \mathcal{S}, \; \text{Integrity}(\mathcal{S} \setminus \{c\}) = 0$$
 
 1. **Zero Redundant Abstractions:** Every layer, type, and interface must satisfy a necessary invariant requirement.
-2. **Coupling Minimization:** Components interact strictly across defined type contracts and immutable gates.
-3. **Null-State Anchor:** Systems must possess a clean ground state ($S_0$) where all temporary state collapses without catastrophic data loss.
+1. **Coupling Minimization:** Components interact strictly across defined type contracts and immutable gates.
+1. **Null-State Anchor:** Systems must possess a clean ground state ($S_0$) where all temporary state collapses without catastrophic data loss.
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Structural Integrity:** [[11_KNOWLEDGE/05_FRAMEWORKS/ABSOLUTE_STRUCTURAL_INTEGRITY|ABSOLUTE_STRUCTURAL_INTEGRITY]]
 - **Zero Framework:** [[01_CANON/02_UNIVERSE_CANON/TRANG_ZERO_FRAMEWORK|TRANG_ZERO_FRAMEWORK]]
 - **First Principles:** [[11_KNOWLEDGE/05_FRAMEWORKS/FIRST_PRINCIPLES_ARTICULATION|FIRST_PRINCIPLES_ARTICULATION]]
 - **Tri-Layer Stack:** [[11_KNOWLEDGE/05_FRAMEWORKS/TRANG_LMH_ARCHITECTURE|TRANG_LMH_ARCHITECTURE]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -106,10 +106,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/ABSOLUTE_STRUCTURAL_INTEGRITY|ABSOLUTE_STRUCTURAL_INTEGRITY]] · [[01_CANON/02_UNIVERSE_CANON/TRANG_ZERO_FRAMEWORK|TRANG_ZERO_FRAMEWORK]] · [[11_KNOWLEDGE/05_FRAMEWORKS/FIRST_PRINCIPLES_ARTICULATION|FIRST_PRINCIPLES_ARTICULATION]]
 
----
-**MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]
+______________________________________________________________________
 
+**MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]

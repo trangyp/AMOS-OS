@@ -12,56 +12,56 @@ segment: 25_COGNITIVE_MATRIX
 artifact_kind: MATRIX
 path: 25_COGNITIVE_MATRIX/HERITAGE_X_TSS_MATRIX.md
 tags:
-- amos-os
-- cognitive-matrix
-- matrix
-- heritage
-- heritage_decision_intelligence
-- tss
-- trang_system
-- heritage_tss_matrix
-- decision_routing
-- governance
-- lifecycle_matrix
-- cycle_governance
-- risk_lattice
-- cycle_location
-- trust
-- identity
-- timing
-- readiness
-- self_refutation
-- rollback
-- preservation
-- adversarial_pass
-- authority_warrant
-- decision_receipt
-- fail_closed
-- hold
-- rscf
-- canon_candidate
-- domain/cognitive-matrix
-- heritage-x-tss
-- validation
-- adversarial-validation
-- tss-the-trang-system-official-manual
-- amos-x-tss
-- canon
-- amos-x-tss-tpe-matrix
-- amos-x-tpe
-- heritage-x-trang-zero
-- k-rscf
-- k-hml
-- k-gmef
-- k-provenance
-- k-provenance-topology
-- k-failure-recovery
-- k-causal-epoch
-- k-mvcc
-- k-cas
-- k-atomic-multi-rscf
-- amos-core-v4-4
-- diagnosis
+  - amos-os
+  - cognitive-matrix
+  - matrix
+  - heritage
+  - heritage_decision_intelligence
+  - tss
+  - trang_system
+  - heritage_tss_matrix
+  - decision_routing
+  - governance
+  - lifecycle_matrix
+  - cycle_governance
+  - risk_lattice
+  - cycle_location
+  - trust
+  - identity
+  - timing
+  - readiness
+  - self_refutation
+  - rollback
+  - preservation
+  - adversarial_pass
+  - authority_warrant
+  - decision_receipt
+  - fail_closed
+  - hold
+  - rscf
+  - canon_candidate
+  - domain/cognitive-matrix
+  - heritage-x-tss
+  - validation
+  - adversarial-validation
+  - tss-the-trang-system-official-manual
+  - amos-x-tss
+  - canon
+  - amos-x-tss-tpe-matrix
+  - amos-x-tpe
+  - heritage-x-trang-zero
+  - k-rscf
+  - k-hml
+  - k-gmef
+  - k-provenance
+  - k-provenance-topology
+  - k-failure-recovery
+  - k-causal-epoch
+  - k-mvcc
+  - k-cas
+  - k-atomic-multi-rscf
+  - amos-core-v4-4
+  - diagnosis
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -78,20 +78,20 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - HERITAGE_INTELLIGENCE_CANON
-  - TSS_THE_TRANG_SYSTEM_OFFICIAL_MANUAL
-  - AMOS_CORPUS
+    - HERITAGE_INTELLIGENCE_CANON
+    - TSS_THE_TRANG_SYSTEM_OFFICIAL_MANUAL
+    - AMOS_CORPUS
   scope:
-  - DECISION_ROUTING
-  - MATRIX_TRAVERSAL
-  - CYCLE_GOVERNANCE
-  - RISK_LATTICE
-  - COGNITIVE_MATRIX
+    - DECISION_ROUTING
+    - MATRIX_TRAVERSAL
+    - CYCLE_GOVERNANCE
+    - RISK_LATTICE
+    - COGNITIVE_MATRIX
 framework_binding:
   artifact:
     name: Heritage × TSS
     artifact_ref:
-    - - HERITAGE_X_TSS
+      -   - HERITAGE_X_TSS
   heritage:
     name: Heritage Decision Intelligence™
     role: DECISION_INTELLIGENCE_AND_GOVERNANCE
@@ -116,7 +116,7 @@ epistemic_boundary:
 
 `HERITAGE_X_TSS_MATRIX.md` is the source-grounded multidimensional Cognitive Matrix routing interface over:
 
-```text
+````text
 Heritage Decision Intelligence™
 
 ×
@@ -127,7 +127,7 @@ It operationalizes the source-defined framework relationship in:
 
 ```text
 [[25_COGNITIVE_MATRIX/HERITAGE_X_TSS|HERITAGE_X_TSS]]
-```
+````
 
 into:
 
@@ -167,24 +167,24 @@ This artifact establishes those relationships as an **AMOS source-defined model*
 
 It does not, by itself, establish executable cycle detection, calibrated collapse probabilities, calibrated trust scores, runtime authority enforcement, empirical predictive validity, or formal verification.
 
----
+______________________________________________________________________
 
-# 0. Epistemic Boundary
+## 0. Epistemic Boundary
 
 ## Directly source-defined
 
 The supplied artifact establishes:
 
 1. a seven-cycle TSS decision matrix;
-2. four Heritage decision dimensions;
-3. twenty-eight cycle × decision-dimension cells;
-4. a five-stage traversal protocol;
-5. cycle location using the TSS variable vector \((\Omega,H,F,S)\);
-6. a risk lattice using \(P_{\text{collapse}}\) and a trust score;
-7. an adversarial Self-Refutation pass;
-8. an authority warrant;
-9. an explicit rollback-basin requirement;
-10. a `COMMIT` or fail-closed `HOLD` outcome.
+1. four Heritage decision dimensions;
+1. twenty-eight cycle × decision-dimension cells;
+1. a five-stage traversal protocol;
+1. cycle location using the TSS variable vector ((\\Omega,H,F,S));
+1. a risk lattice using (P\_{\\text{collapse}}) and a trust score;
+1. an adversarial Self-Refutation pass;
+1. an authority warrant;
+1. an explicit rollback-basin requirement;
+1. a `COMMIT` or fail-closed `HOLD` outcome.
 
 The explicit source traversal is:
 
@@ -258,9 +258,9 @@ SourceDefinedRiskLattice
 CalibratedRiskModel
 $$
 
----
+______________________________________________________________________
 
-# 1. Framework Conjunction
+## 1. Framework Conjunction
 
 The source defines the matrix over:
 
@@ -296,14 +296,14 @@ $$
 
 where:
 
-* \(H_D\) = Heritage decision dimensions;
-* \(T_C\) = TSS lifecycle cycles.
+- (H_D) = Heritage decision dimensions;
+- (T_C) = TSS lifecycle cycles.
 
 This notation is a normalization of the source structure, not a claim that the conjunction is literal mathematical multiplication.
 
----
+______________________________________________________________________
 
-# 2. Matrix Dimensions
+## 2. Matrix Dimensions
 
 The source defines two primary axes.
 
@@ -339,9 +339,9 @@ $$
 
 explicit source-defined cells.
 
----
+______________________________________________________________________
 
-# 3. Canonical 2D Decision Matrix
+## 3. Canonical 2D Decision Matrix
 
 | TSS Cycle         | Trust & Identity    | Timing & Readiness   | Self-Refutation    | Rollback & Preservation     |
 | ----------------- | ------------------- | -------------------- | ------------------ | --------------------------- |
@@ -357,9 +357,9 @@ These twenty-eight entries are source-defined matrix cells.
 
 The artifact does not provide complete executable semantics for every cell.
 
----
+______________________________________________________________________
 
-# 4. Matrix Cell Addressing
+## 4. Matrix Cell Addressing
 
 A derived cell-addressing convention is:
 
@@ -403,9 +403,9 @@ $$
 
 This addressing convention is derived; the cell contents are source-defined.
 
----
+______________________________________________________________________
 
-# 5. C1 — Emergence
+## 5. C1 — Emergence
 
 The source defines:
 
@@ -444,9 +444,9 @@ $$
 
 The tuple notation is derived.
 
----
+______________________________________________________________________
 
-# 6. C1 — Genesis Invariants
+## 6. C1 — Genesis Invariants
 
 The source-defined Trust & Identity concern during Emergence is:
 
@@ -468,9 +468,9 @@ COMPLETE_INVARIANT_SET:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 7. C1 — Formative Pacing
+## 7. C1 — Formative Pacing
 
 The source-defined Timing & Readiness concern is:
 
@@ -482,9 +482,9 @@ This implies timing sensitivity during system formation.
 
 No pacing function, threshold, duration, or quantitative readiness rule is supplied.
 
----
+______________________________________________________________________
 
-# 8. C1 — Anti-Thesis Test
+## 8. C1 — Anti-Thesis Test
 
 The source-defined Self-Refutation concern is:
 
@@ -496,9 +496,9 @@ This establishes an adversarial challenge requirement at emergence.
 
 The source does not specify the exact anti-thesis generation algorithm.
 
----
+______________________________________________________________________
 
-# 9. C1 — Clean Root Basin
+## 9. C1 — Clean Root Basin
 
 The source-defined Rollback & Preservation concern is:
 
@@ -510,9 +510,9 @@ This provides a recovery-ground requirement at emergence.
 
 The artifact does not establish executable snapshot, persistence, or rollback semantics.
 
----
+______________________________________________________________________
 
-# 10. C2 — Expansion
+## 10. C2 — Expansion
 
 The source defines:
 
@@ -549,9 +549,9 @@ ReversibleGrowthBets
 \rangle
 $$
 
----
+______________________________________________________________________
 
-# 11. C2 — Cultural Cohesion
+## 11. C2 — Cultural Cohesion
 
 The Trust & Identity cell is:
 
@@ -563,9 +563,9 @@ This is source-defined.
 
 The artifact does not provide a universal cohesion score or measurement protocol.
 
----
+______________________________________________________________________
 
-# 12. C2 — Reserve-Scaled Speed
+## 12. C2 — Reserve-Scaled Speed
 
 The Timing & Readiness cell is:
 
@@ -583,11 +583,11 @@ $$
 ExpansionSpeed=f(Reserve)
 $$
 
-is a reasonable derived abstraction, but the function \(f\) is unknown.
+is a reasonable derived abstraction, but the function (f) is unknown.
 
----
+______________________________________________________________________
 
-# 13. C2 — Scale Stress-Test
+## 13. C2 — Scale Stress-Test
 
 The Self-Refutation cell is:
 
@@ -599,9 +599,9 @@ This requires challenging whether the system's assumptions remain valid under ex
 
 The source does not define the stress scenarios or acceptance criteria.
 
----
+______________________________________________________________________
 
-# 14. C2 — Reversible Growth Bets
+## 14. C2 — Reversible Growth Bets
 
 The Rollback & Preservation cell is:
 
@@ -613,9 +613,9 @@ This explicitly favors growth structures retaining reversal capacity.
 
 It does not imply that every expansion action must be fully reversible.
 
----
+______________________________________________________________________
 
-# 15. C3 — Overreach
+## 15. C3 — Overreach
 
 The source defines:
 
@@ -652,9 +652,9 @@ DeescalationTriggers
 \rangle
 $$
 
----
+______________________________________________________________________
 
-# 16. C3 — Value Alignment
+## 16. C3 — Value Alignment
 
 The source-defined Trust & Identity concern is:
 
@@ -678,9 +678,9 @@ AUTHORITY OVER VALUES
 
 These remain dependencies.
 
----
+______________________________________________________________________
 
-# 17. C3 — Pre-Emptive Pruning
+## 17. C3 — Pre-Emptive Pruning
 
 The Timing & Readiness cell is:
 
@@ -692,9 +692,9 @@ This places reduction before full crisis or collapse.
 
 The source does not specify what is pruned or the trigger thresholds.
 
----
+______________________________________________________________________
 
-# 18. C3 — Bureaucracy Audit
+## 18. C3 — Bureaucracy Audit
 
 The Self-Refutation cell is:
 
@@ -706,9 +706,9 @@ This establishes institutional/process complexity as an adversarial audit target
 
 The source does not define a bureaucracy metric.
 
----
+______________________________________________________________________
 
-# 19. C3 — De-Escalation Triggers
+## 19. C3 — De-Escalation Triggers
 
 The Rollback & Preservation cell is:
 
@@ -728,9 +728,9 @@ TRIGGER_SET:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 20. C4 — Fragment
+## 20. C4 — Fragment
 
 The source defines:
 
@@ -767,9 +767,9 @@ CoreAssetRingFencing
 \rangle
 $$
 
----
+______________________________________________________________________
 
-# 21. C4 — Cross-Silo Trust
+## 21. C4 — Cross-Silo Trust
 
 The Trust & Identity cell is:
 
@@ -781,9 +781,9 @@ This establishes inter-fragment trust as the relevant Heritage concern.
 
 The source does not provide a cross-silo trust metric.
 
----
+______________________________________________________________________
 
-# 22. C4 — Freeze Expansion
+## 22. C4 — Freeze Expansion
 
 The Timing & Readiness cell is:
 
@@ -797,9 +797,9 @@ Its exact scope, duration, override conditions, and authority requirements are n
 
 Therefore it should not be interpreted as an automatically executable universal command.
 
----
+______________________________________________________________________
 
-# 23. C4 — Neutral Mediation
+## 23. C4 — Neutral Mediation
 
 The Self-Refutation cell is:
 
@@ -811,9 +811,9 @@ This places mediation in the adversarial/contradiction-resolution dimension.
 
 The artifact does not define how neutrality is established or audited.
 
----
+______________________________________________________________________
 
-# 24. C4 — Core Asset Ring-Fencing
+## 24. C4 — Core Asset Ring-Fencing
 
 The Rollback & Preservation cell is:
 
@@ -825,9 +825,9 @@ This establishes preservation of critical assets during fragmentation.
 
 The source does not enumerate the asset set or technical isolation method.
 
----
+______________________________________________________________________
 
-# 25. C5 — Crisis
+## 25. C5 — Crisis
 
 The source defines:
 
@@ -864,9 +864,9 @@ SurvivalFallbackLock
 \rangle
 $$
 
----
+______________________________________________________________________
 
-# 26. C5 — Emergency Command
+## 26. C5 — Emergency Command
 
 The Trust & Identity cell is:
 
@@ -890,9 +890,9 @@ $$
 
 Authority still requires a warrant under the traversal protocol.
 
----
+______________________________________________________________________
 
-# 27. C5 — Rapid Triage Window
+## 27. C5 — Rapid Triage Window
 
 The Timing & Readiness cell is:
 
@@ -904,9 +904,9 @@ The source does not define the duration of the window.
 
 Therefore no numerical time limit should be invented.
 
----
+______________________________________________________________________
 
-# 28. C5 — Worst-Case Models
+## 28. C5 — Worst-Case Models
 
 The Self-Refutation cell is:
 
@@ -926,9 +926,9 @@ WorstCase
 ExpectedCase
 $$
 
----
+______________________________________________________________________
 
-# 29. C5 — Survival Fallback Lock
+## 29. C5 — Survival Fallback Lock
 
 The Rollback & Preservation cell is:
 
@@ -940,9 +940,9 @@ This establishes a preservation fallback under crisis.
 
 The exact lock semantics, protected assets, release conditions, and implementation are undefined here.
 
----
+______________________________________________________________________
 
-# 30. C6 — Collapse
+## 30. C6 — Collapse
 
 The source defines:
 
@@ -979,9 +979,9 @@ ArchiveSeedPreservation
 \rangle
 $$
 
----
+______________________________________________________________________
 
-# 31. C6 — Minimum Viable Core
+## 31. C6 — Minimum Viable Core
 
 The Trust & Identity cell is:
 
@@ -993,9 +993,9 @@ The artifact does not enumerate what constitutes the core.
 
 This is context-dependent unless another TSS source defines it.
 
----
+______________________________________________________________________
 
-# 32. C6 — Orderly Wind-Down
+## 32. C6 — Orderly Wind-Down
 
 The Timing & Readiness cell is:
 
@@ -1007,9 +1007,9 @@ This source-defined route distinguishes governed collapse from uncontrolled cont
 
 The operational procedure remains unspecified.
 
----
+______________________________________________________________________
 
-# 33. C6 — Legacy Post-Mortem
+## 33. C6 — Legacy Post-Mortem
 
 The Self-Refutation cell is:
 
@@ -1021,9 +1021,9 @@ This establishes retrospective challenge and failure analysis during Collapse.
 
 A post-mortem should not automatically be treated as causal proof; causal conclusions still require appropriately typed evidence.
 
----
+______________________________________________________________________
 
-# 34. C6 — Archive & Seed Preservation
+## 34. C6 — Archive & Seed Preservation
 
 The Rollback & Preservation cell is:
 
@@ -1035,9 +1035,9 @@ This establishes persistence of recoverable knowledge/assets for possible future
 
 The artifact does not define archive format, retention period, integrity mechanism, or seed contents.
 
----
+______________________________________________________________________
 
-# 35. C7 — Reset
+## 35. C7 — Reset
 
 The source defines:
 
@@ -1074,9 +1074,9 @@ IterativeRollForward
 \rangle
 $$
 
----
+______________________________________________________________________
 
-# 36. C7 — New Social Charter
+## 36. C7 — New Social Charter
 
 The Trust & Identity cell is:
 
@@ -1088,9 +1088,9 @@ This establishes renewed identity/governance formation during Reset.
 
 The artifact does not specify charter content or authority.
 
----
+______________________________________________________________________
 
-# 37. C7 — Reconstruction Phase
+## 37. C7 — Reconstruction Phase
 
 The Timing & Readiness cell is:
 
@@ -1102,9 +1102,9 @@ This establishes reconstruction as a temporally distinct phase.
 
 No duration or readiness threshold is supplied.
 
----
+______________________________________________________________________
 
-# 38. C7 — Reform Audit
+## 38. C7 — Reform Audit
 
 The Self-Refutation cell is:
 
@@ -1116,9 +1116,9 @@ This requires the reconstruction itself to be challenged.
 
 Thus Reset is not exempt from adversarial validation.
 
----
+______________________________________________________________________
 
-# 39. C7 — Iterative Roll-Forward
+## 39. C7 — Iterative Roll-Forward
 
 The Rollback & Preservation cell is:
 
@@ -1130,9 +1130,9 @@ This establishes staged reconstruction rather than an implied single irreversibl
 
 The exact iteration mechanics remain unspecified.
 
----
+______________________________________________________________________
 
-# 40. Lifecycle Progression Boundary
+## 40. Lifecycle Progression Boundary
 
 The matrix lists:
 
@@ -1152,9 +1152,9 @@ without skipping, reversing, branching, oscillating, or remaining in a cycle.
 
 Transition semantics remain dependent on TSS canon.
 
----
+______________________________________________________________________
 
-# 41. Cycle Is Not Destiny
+## 41. Cycle Is Not Destiny
 
 Classification into a TSS cycle is a model assignment.
 
@@ -1168,9 +1168,9 @@ $$
 
 unless validated predictive rules establish otherwise.
 
----
+______________________________________________________________________
 
-# 42. Matrix Is Not Deterministic Execution
+## 42. Matrix Is Not Deterministic Execution
 
 A cell identifies a source-defined governance concern.
 
@@ -1183,9 +1183,9 @@ CELL LOOKUP
 
 without context, authority, evidence, and rollback conditions.
 
----
+______________________________________________________________________
 
-# 43. Matrix Traversal Protocol
+## 43. Matrix Traversal Protocol
 
 The source explicitly defines:
 
@@ -1216,9 +1216,9 @@ The source explicitly defines:
 
 This five-stage protocol is source-defined.
 
----
+______________________________________________________________________
 
-# 44. Traversal Function
+## 44. Traversal Function
 
 A derived representation is:
 
@@ -1238,17 +1238,17 @@ $$
 
 where:
 
-* \(D\) = decision/query;
-* \(L\) = cycle location;
-* \(C_i\) = located TSS cycle;
-* \(R\) = risk lattice;
-* \(A\) = adversarial pass;
-* \(G\) = governance gate;
-* \(O\) = `COMMIT` or `HOLD`.
+- (D) = decision/query;
+- (L) = cycle location;
+- (C_i) = located TSS cycle;
+- (R) = risk lattice;
+- (A) = adversarial pass;
+- (G) = governance gate;
+- (O) = `COMMIT` or `HOLD`.
 
----
+______________________________________________________________________
 
-# 45. Stage 1 — Cycle Locate
+## 45. Stage 1 — Cycle Locate
 
 The source requires:
 
@@ -1267,9 +1267,9 @@ $$
 
 The vector notation follows the source.
 
----
+______________________________________________________________________
 
-# 46. TSS Variable Vector Boundary
+## 46. TSS Variable Vector Boundary
 
 The source explicitly names:
 
@@ -1291,9 +1291,9 @@ DEPENDENCY / UNKNOWN
 
 Load authoritative TSS material only when these semantics are decision-relevant.
 
----
+______________________________________________________________________
 
-# 47. Ω Boundary
+## 47. Ω Boundary
 
 The symbol:
 
@@ -1303,7 +1303,7 @@ $$
 
 is source-defined as part of the TSS diagnostic vector.
 
-Its semantics must not be inferred solely from other AMOS artifacts that also use \(\Omega\).
+Its semantics must not be inferred solely from other AMOS artifacts that also use (\\Omega).
 
 Therefore:
 
@@ -1315,9 +1315,9 @@ $$
 
 without authoritative binding.
 
----
+______________________________________________________________________
 
-# 48. H Boundary
+## 48. H Boundary
 
 The symbol:
 
@@ -1329,13 +1329,13 @@ is source-defined as part of the TSS diagnostic vector.
 
 The supplied matrix does not define it.
 
-Do not infer that \(H\) means Heritage merely because Heritage is also represented by `H` in derived shorthand elsewhere.
+Do not infer that (H) means Heritage merely because Heritage is also represented by `H` in derived shorthand elsewhere.
 
 This is a symbol-collision risk.
 
----
+______________________________________________________________________
 
-# 49. F Boundary
+## 49. F Boundary
 
 The symbol:
 
@@ -1349,9 +1349,9 @@ The supplied artifact does not establish its exact metric semantics.
 
 Do not automatically import a fragmentation threshold from another artifact unless TSS canon confirms identity.
 
----
+______________________________________________________________________
 
-# 50. S Boundary
+## 50. S Boundary
 
 The symbol:
 
@@ -1365,9 +1365,9 @@ The artifact does not define its measurement semantics.
 
 No threshold should be invented.
 
----
+______________________________________________________________________
 
-# 51. Cycle Classification Function
+## 51. Cycle Classification Function
 
 A conceptual derived representation is:
 
@@ -1383,9 +1383,9 @@ The function exists only as a normalization of the source protocol.
 
 The actual classification function is not supplied.
 
----
+______________________________________________________________________
 
-# 52. Classification Uncertainty
+## 52. Classification Uncertainty
 
 If the variable vector does not clearly distinguish between cycles:
 
@@ -1406,9 +1406,9 @@ may remain competing until discriminating evidence exists.
 
 This is a derived v4.4 integrity rule.
 
----
+______________________________________________________________________
 
-# 53. Cycle-Boundary Sensitivity
+## 53. Cycle-Boundary Sensitivity
 
 If a small plausible change in one variable changes:
 
@@ -1426,9 +1426,9 @@ CONDITIONAL
 
 rather than robust.
 
----
+______________________________________________________________________
 
-# 54. Cheapest Discriminating Test
+## 54. Cheapest Discriminating Test
 
 When two cycles compete, identify the observation most likely to distinguish them.
 
@@ -1436,9 +1436,9 @@ Do not accumulate redundant evidence if one high-information test can resolve th
 
 This is a derived decision-efficiency rule.
 
----
+______________________________________________________________________
 
-# 55. Stage 2 — Risk Lattice
+## 55. Stage 2 — Risk Lattice
 
 The source requires:
 
@@ -1465,9 +1465,9 @@ $$
 Threshold(C_i)
 $$
 
----
+______________________________________________________________________
 
-# 56. Risk-Lattice Representation
+## 56. Risk-Lattice Representation
 
 A derived representation is:
 
@@ -1485,9 +1485,9 @@ The tuple is derived.
 
 The named elements are source-defined.
 
----
+______________________________________________________________________
 
-# 57. Pcollapse Boundary
+## 57. Pcollapse Boundary
 
 The source uses:
 
@@ -1513,9 +1513,9 @@ EMPIRICAL_ACCURACY:
 NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 58. Probability Firewall
+## 58. Probability Firewall
 
 The notation:
 
@@ -1535,9 +1535,9 @@ P_collapse = empirically calibrated probability
 
 without validation evidence.
 
----
+______________________________________________________________________
 
-# 59. Trust Score Boundary
+## 59. Trust Score Boundary
 
 The source explicitly calls for a:
 
@@ -1563,9 +1563,9 @@ VALIDATION:
 NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 60. Trust Is Not Source Popularity
+## 60. Trust Is Not Source Popularity
 
 A derived provenance rule is:
 
@@ -1585,9 +1585,9 @@ $$
 
 when sources share ancestry.
 
----
+______________________________________________________________________
 
-# 61. Cycle-Specific Threshold
+## 61. Cycle-Specific Threshold
 
 The source explicitly says:
 
@@ -1595,7 +1595,7 @@ The source explicitly says:
 cycle-specific threshold
 ```
 
-This establishes that thresholding may vary with \(C_i\).
+This establishes that thresholding may vary with (C_i).
 
 Conceptually:
 
@@ -1607,9 +1607,9 @@ $$
 
 No values are supplied.
 
----
+______________________________________________________________________
 
-# 62. Threshold Firewall
+## 62. Threshold Firewall
 
 Do not invent:
 
@@ -1625,9 +1625,9 @@ C7 threshold = ...
 
 without authoritative source evidence.
 
----
+______________________________________________________________________
 
-# 63. Risk-Lattice Decision Rule Gap
+## 63. Risk-Lattice Decision Rule Gap
 
 The artifact does not explicitly specify how:
 
@@ -1671,9 +1671,9 @@ RISK_COMBINATION_RULE:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 64. Correlation Firewall
+## 64. Correlation Firewall
 
 If the same evidence influences both:
 
@@ -1691,9 +1691,9 @@ the two signals may be correlated.
 
 They must not automatically be counted as independent confirmation.
 
----
+______________________________________________________________________
 
-# 65. Stage 3 — Adversarial Pass
+## 65. Stage 3 — Adversarial Pass
 
 The source requires:
 
@@ -1704,9 +1704,9 @@ to locate unmodeled downside catastrophic basins.
 
 This establishes adversarial challenge as a mandatory source-defined stage.
 
----
+______________________________________________________________________
 
-# 66. Self-Refutation
+## 66. Self-Refutation
 
 The Self-Refutation stage asks whether the proposed decision undermines its own assumptions, goals, or survivability.
 
@@ -1722,9 +1722,9 @@ $$
 
 If supported, the proposal is self-refuting under that path.
 
----
+______________________________________________________________________
 
-# 67. Unmodeled Downside
+## 67. Unmodeled Downside
 
 The source specifically seeks:
 
@@ -1736,9 +1736,9 @@ Therefore the adversarial pass should not merely recompute the original model.
 
 It must search for failure modes absent from the primary path.
 
----
+______________________________________________________________________
 
-# 68. Catastrophic Basin
+## 68. Catastrophic Basin
 
 The source uses:
 
@@ -1760,9 +1760,9 @@ FORMAL_METRIC:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 69. Catastrophic Basin Is Not Physical Attractor by Default
+## 69. Catastrophic Basin Is Not Physical Attractor by Default
 
 The term `basin` must not automatically be promoted into a dynamical-systems claim about a mathematically proven attractor basin.
 
@@ -1774,9 +1774,9 @@ DecisionBasin
 VerifiedDynamicalAttractor
 $$
 
----
+______________________________________________________________________
 
-# 70. Adversarial Independence
+## 70. Adversarial Independence
 
 The strongest challenge should use a genuinely different reasoning or evidence path when possible.
 
@@ -1789,9 +1789,9 @@ PRIMARY MODEL
 
 does not constitute strong adversarial validation.
 
----
+______________________________________________________________________
 
-# 71. Adversarial Pass Questions
+## 71. Adversarial Pass Questions
 
 A derived challenge set includes:
 
@@ -1823,9 +1823,9 @@ HAS THE REGIME CHANGED?
 
 These are derived, not additional source-defined matrix cells.
 
----
+______________________________________________________________________
 
-# 72. Stage 4 — Governance Gate
+## 72. Stage 4 — Governance Gate
 
 The source requires:
 
@@ -1847,9 +1847,9 @@ $$
 ExplicitRollbackBasin
 $$
 
----
+______________________________________________________________________
 
-# 73. Capability Firewall
+## 73. Capability Firewall
 
 The source explicitly states:
 
@@ -1867,9 +1867,9 @@ $$
 
 This distinction applies even during crisis.
 
----
+______________________________________________________________________
 
-# 74. Authority Warrant
+## 74. Authority Warrant
 
 The source requires an:
 
@@ -1889,9 +1889,9 @@ WARRANT_SCHEMA:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 75. Authority Is Scope-Bound
+## 75. Authority Is Scope-Bound
 
 A derived governance rule is:
 
@@ -1899,13 +1899,13 @@ $$
 Authority(A,X,S)
 $$
 
-where authority may depend on actor \(A\), action \(X\), and scope \(S\).
+where authority may depend on actor (A), action (X), and scope (S).
 
 Authority to perform one action does not automatically authorize another.
 
----
+______________________________________________________________________
 
-# 76. Emergency Authority Firewall
+## 76. Emergency Authority Firewall
 
 The C5 cell:
 
@@ -1929,9 +1929,9 @@ $$
 
 unless governing canon explicitly provides such authority.
 
----
+______________________________________________________________________
 
-# 77. Explicit Rollback Basin
+## 77. Explicit Rollback Basin
 
 The governance gate mandates:
 
@@ -1943,9 +1943,9 @@ This means rollback cannot remain merely implicit where the gate applies.
 
 The source does not define the technical representation of that basin.
 
----
+______________________________________________________________________
 
-# 78. Rollback Basin Candidate
+## 78. Rollback Basin Candidate
 
 A derived schema is:
 
@@ -1979,9 +1979,9 @@ Rollback_Basin:
 
 Derived schema only.
 
----
+______________________________________________________________________
 
-# 79. Rollback Is Not Guaranteed Reversibility
+## 79. Rollback Is Not Guaranteed Reversibility
 
 Declaring a rollback basin does not prove the action is reversible.
 
@@ -1995,9 +1995,9 @@ $$
 
 A consequential action may have external effects that cannot be restored.
 
----
+______________________________________________________________________
 
-# 80. Rollback Completeness
+## 80. Rollback Completeness
 
 A rollback analysis should distinguish:
 
@@ -2021,9 +2021,9 @@ when material.
 
 This is a derived governance expansion.
 
----
+______________________________________________________________________
 
-# 81. Stage 5 — Commit or Hold
+## 81. Stage 5 — Commit or Hold
 
 The source states:
 
@@ -2048,9 +2048,9 @@ $$
 
 within this matrix traversal.
 
----
+______________________________________________________________________
 
-# 82. Commit Condition
+## 82. Commit Condition
 
 A source-faithful normalization is:
 
@@ -2062,9 +2062,9 @@ $$
 
 The artifact does not define a complete Boolean formula for `all gates pass`.
 
----
+______________________________________________________________________
 
-# 83. Fail-Closed Condition
+## 83. Fail-Closed Condition
 
 The source explicitly establishes:
 
@@ -2076,9 +2076,9 @@ $$
 
 This is stronger than merely flagging uncertainty.
 
----
+______________________________________________________________________
 
-# 84. HOLD Is Not REFUSE
+## 84. HOLD Is Not REFUSE
 
 The source uses:
 
@@ -2104,9 +2104,9 @@ $$
 
 unless another governance artifact establishes otherwise.
 
----
+______________________________________________________________________
 
-# 85. HOLD Semantics
+## 85. HOLD Semantics
 
 A derived interpretation is:
 
@@ -2120,9 +2120,9 @@ HOLD
 
 This is consistent with the source's fail-closed routing but is not an explicit executable protocol.
 
----
+______________________________________________________________________
 
-# 86. Critical Gap Boundary
+## 86. Critical Gap Boundary
 
 The source explicitly references:
 
@@ -2143,9 +2143,9 @@ COSMETIC
 
 Only the first category necessarily invokes the explicit fail-closed rule.
 
----
+______________________________________________________________________
 
-# 87. Candidate Critical Gaps
+## 87. Candidate Critical Gaps
 
 Within this matrix, likely critical gaps include:
 
@@ -2169,9 +2169,9 @@ WITHOUT DISCRIMINATION
 
 These are derived candidate classifications, not an exhaustive source list.
 
----
+______________________________________________________________________
 
-# 88. Decision Receipt
+## 88. Decision Receipt
 
 The source explicitly requires:
 
@@ -2183,9 +2183,9 @@ when all gates pass.
 
 The artifact does not define the receipt schema.
 
----
+______________________________________________________________________
 
-# 89. Decision Receipt Candidate
+## 89. Decision Receipt Candidate
 
 ```yaml
 Decision_Receipt:
@@ -2250,9 +2250,9 @@ Decision_Receipt:
 
 Derived schema.
 
----
+______________________________________________________________________
 
-# 90. Matrix Cell Receipt Candidate
+## 90. Matrix Cell Receipt Candidate
 
 ```yaml
 Cell_Governance_Receipt:
@@ -2288,9 +2288,9 @@ Cell_Governance_Receipt:
 
 Derived schema.
 
----
+______________________________________________________________________
 
-# 91. Risk-Lattice Receipt Candidate
+## 91. Risk-Lattice Receipt Candidate
 
 ```yaml
 Risk_Lattice_Receipt:
@@ -2324,9 +2324,9 @@ Risk_Lattice_Receipt:
 
 Derived schema.
 
----
+______________________________________________________________________
 
-# 92. Adversarial Receipt Candidate
+## 92. Adversarial Receipt Candidate
 
 ```yaml
 Adversarial_Pass_Receipt:
@@ -2362,9 +2362,9 @@ Adversarial_Pass_Receipt:
 
 Derived schema.
 
----
+______________________________________________________________________
 
-# 93. Authority Receipt Candidate
+## 93. Authority Receipt Candidate
 
 ```yaml
 Authority_Warrant_Receipt:
@@ -2397,9 +2397,9 @@ Authority_Warrant_Receipt:
 
 Derived schema.
 
----
+______________________________________________________________________
 
-# 94. Rollback Receipt Candidate
+## 94. Rollback Receipt Candidate
 
 ```yaml
 Rollback_Receipt:
@@ -2433,9 +2433,9 @@ Rollback_Receipt:
 
 Derived schema.
 
----
+______________________________________________________________________
 
-# 95. Traversal Proof Capsule
+## 95. Traversal Proof Capsule
 
 ```yaml
 Traversal_Proof_Capsule:
@@ -2479,9 +2479,9 @@ Traversal_Proof_Capsule:
 
 Derived schema.
 
----
+______________________________________________________________________
 
-# 96. Source Decision Logic
+## 96. Source Decision Logic
 
 The source-defined logic can be compressed as:
 
@@ -2507,9 +2507,9 @@ CRITICAL GAP?
 
 This is a structural normalization of the supplied protocol.
 
----
+______________________________________________________________________
 
-# 97. Four-Dimension Integrity Rule
+## 97. Four-Dimension Integrity Rule
 
 No single Heritage dimension should silently replace the others.
 
@@ -2528,9 +2528,9 @@ $$
 
 A decision that considers only one dimension is not a complete traversal of the source-defined matrix.
 
----
+______________________________________________________________________
 
-# 98. Trust × Timing Interaction
+## 98. Trust × Timing Interaction
 
 A system may have strong trust but poor readiness.
 
@@ -2544,9 +2544,9 @@ $$
 
 The matrix explicitly separates these dimensions.
 
----
+______________________________________________________________________
 
-# 99. Timing × Rollback Interaction
+## 99. Timing × Rollback Interaction
 
 A decision may be timely but lack a credible rollback basin.
 
@@ -2558,9 +2558,9 @@ GoodTiming
 Commit
 $$
 
----
+______________________________________________________________________
 
-# 100. Self-Refutation × Trust Interaction
+## 100. Self-Refutation × Trust Interaction
 
 High internal trust does not remove the need for adversarial challenge.
 
@@ -2572,9 +2572,9 @@ HighTrust
 SkipSelfRefutation
 $$
 
----
+______________________________________________________________________
 
-# 101. Rollback × Authority Interaction
+## 101. Rollback × Authority Interaction
 
 A fully reversible action may still be unauthorized.
 
@@ -2586,9 +2586,9 @@ Reversible
 Authorized
 $$
 
----
+______________________________________________________________________
 
-# 102. Risk × Authority Interaction
+## 102. Risk × Authority Interaction
 
 Low estimated collapse risk does not create authority.
 
@@ -2600,9 +2600,9 @@ LowP_{\text{collapse}}
 Authority
 $$
 
----
+______________________________________________________________________
 
-# 103. Risk × Self-Refutation Interaction
+## 103. Risk × Self-Refutation Interaction
 
 A favorable primary risk estimate does not remove the need to search for unmodeled catastrophic basins.
 
@@ -2614,9 +2614,9 @@ LowEstimatedRisk
 NoCatastrophicDownside
 $$
 
----
+______________________________________________________________________
 
-# 104. Matrix Traversal State Machine
+## 104. Matrix Traversal State Machine
 
 A derived state model is:
 
@@ -2642,9 +2642,9 @@ DECISION_READY
 
 This is a derived representation, not evidence of an executable runtime state machine.
 
----
+______________________________________________________________________
 
-# 105. Competing Cycle States
+## 105. Competing Cycle States
 
 If two cycle assignments remain materially plausible:
 
@@ -2656,9 +2656,9 @@ should be preserved.
 
 The decision can proceed locally only if both candidate rows produce materially equivalent governance outcomes.
 
----
+______________________________________________________________________
 
-# 106. Branch Equivalence
+## 106. Branch Equivalence
 
 Suppose:
 
@@ -2692,9 +2692,9 @@ cycle discrimination is decision-relevant.
 
 This is a derived smallest-sufficient-proof rule.
 
----
+______________________________________________________________________
 
-# 107. Cross-Cycle Conflict
+## 107. Cross-Cycle Conflict
 
 Different rows may recommend incompatible governance orientations.
 
@@ -2712,9 +2712,9 @@ If the system could plausibly be either C2 or C4, cycle classification becomes l
 
 Do not average the two directives without authoritative justification.
 
----
+______________________________________________________________________
 
-# 108. C3 / C4 Boundary
+## 108. C3 / C4 Boundary
 
 A system near:
 
@@ -2737,9 +2737,9 @@ C4 → Freeze expansion
 
 This is an example of why boundary sensitivity matters.
 
----
+______________________________________________________________________
 
-# 109. C5 / C6 Boundary
+## 109. C5 / C6 Boundary
 
 A system near:
 
@@ -2762,9 +2762,9 @@ C6 → Orderly wind-down
 
 Misclassification could therefore materially alter action.
 
----
+______________________________________________________________________
 
-# 110. C6 / C7 Boundary
+## 110. C6 / C7 Boundary
 
 A system near:
 
@@ -2804,9 +2804,9 @@ Iterative roll-forward
 
 The transition boundary is therefore governance-relevant.
 
----
+______________________________________________________________________
 
-# 111. Lifecycle Nonlinearity Gap
+## 111. Lifecycle Nonlinearity Gap
 
 The artifact does not establish whether:
 
@@ -2830,9 +2830,9 @@ $$
 
 remains a dependency question.
 
----
+______________________________________________________________________
 
-# 112. Cycle Transition Gap
+## 112. Cycle Transition Gap
 
 The matrix provides cycle-specific cells but not transition equations.
 
@@ -2845,9 +2845,9 @@ DEPENDENCY / UNKNOWN
 
 unless supplied by TSS canon.
 
----
+______________________________________________________________________
 
-# 113. Matrix vs TSS Manual
+## 113. Matrix vs TSS Manual
 
 This artifact is a routing matrix.
 
@@ -2875,9 +2875,9 @@ remain dependent on:
 
 when exact semantics are required.
 
----
+______________________________________________________________________
 
-# 114. Matrix vs Heritage Canon
+## 114. Matrix vs Heritage Canon
 
 The matrix supplies cycle-specific Heritage cells.
 
@@ -2889,9 +2889,9 @@ HERITAGE_INTELLIGENCE_CANON
 
 when exact trust, timing, self-refutation, preservation, or historical-governance semantics are required.
 
----
+______________________________________________________________________
 
-# 115. Matrix vs Heritage × TSS
+## 115. Matrix vs Heritage × TSS
 
 The source explicitly states that this matrix:
 
@@ -2914,9 +2914,9 @@ $$
 
 at the source-model level.
 
----
+______________________________________________________________________
 
-# 116. Dependency Direction
+## 116. Dependency Direction
 
 ```text
 HERITAGE INTELLIGENCE CANON
@@ -2935,9 +2935,9 @@ HERITAGE INTELLIGENCE CANON
 
 This topology is derived from the explicit provenance and artifact binding.
 
----
+______________________________________________________________________
 
-# 117. Related AMOS × TSS
+## 117. Related AMOS × TSS
 
 The source references:
 
@@ -2949,9 +2949,9 @@ but does not define its contents here.
 
 Do not invent its role beyond what authoritative source material establishes.
 
----
+______________________________________________________________________
 
-# 118. Related AMOS × TSS × TPE Matrix
+## 118. Related AMOS × TSS × TPE Matrix
 
 The source references:
 
@@ -2963,9 +2963,9 @@ This suggests a related routing structure but does not establish its semantics i
 
 Load only if required.
 
----
+______________________________________________________________________
 
-# 119. Related AMOS × TPE
+## 119. Related AMOS × TPE
 
 The source references:
 
@@ -2975,9 +2975,9 @@ The source references:
 
 No TPE semantics should be invented from the acronym alone.
 
----
+______________________________________________________________________
 
-# 120. Related Heritage × Trang Zero
+## 120. Related Heritage × Trang Zero
 
 The source references:
 
@@ -2991,9 +2991,9 @@ The relationship is relevant because both artifacts include governance, adversar
 
 Exact precedence between the two frameworks is not explicitly established by this matrix.
 
----
+______________________________________________________________________
 
-# 121. Heritage × TSS vs Heritage × Trang Zero
+## 121. Heritage × TSS vs Heritage × Trang Zero
 
 Source-grounded distinction:
 
@@ -3007,9 +3007,9 @@ HERITAGE × TRANG ZERO
 
 Do not collapse these into one artifact.
 
----
+______________________________________________________________________
 
-# 122. Potential Combined Routing
+## 122. Potential Combined Routing
 
 A derived combined model could be:
 
@@ -3031,9 +3031,9 @@ This is a cross-artifact derived integration.
 
 The supplied matrix alone does not establish this exact precedence.
 
----
+______________________________________________________________________
 
-# 123. Precedence Gap
+## 123. Precedence Gap
 
 Possible framework orderings include:
 
@@ -3060,9 +3060,9 @@ CROSS_FRAMEWORK_PRECEDENCE:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 124. Commit vs Heritage × Trang Zero Outcome
+## 124. Commit vs Heritage × Trang Zero Outcome
 
 This matrix uses:
 
@@ -3090,9 +3090,9 @@ negative governance determination
 
 This distinction is plausible and source-compatible but requires authoritative integration to become canonical.
 
----
+______________________________________________________________________
 
-# 125. HOLD vs Ethical Refusal
+## 125. HOLD vs Ethical Refusal
 
 Therefore:
 
@@ -3106,9 +3106,9 @@ unless explicitly mapped elsewhere.
 
 A critical evidence gap may warrant HOLD without establishing an ethical reason for refusal.
 
----
+______________________________________________________________________
 
-# 126. Decision Terminal-State Candidate
+## 126. Decision Terminal-State Candidate
 
 A derived cross-framework terminal set is:
 
@@ -3122,15 +3122,15 @@ REFUSE
 
 where:
 
-* `COMMIT` = gates passed;
-* `HOLD` = critical gap blocks commit;
-* `REFUSE` = substantive governance condition blocks action.
+- `COMMIT` = gates passed;
+- `HOLD` = critical gap blocks commit;
+- `REFUSE` = substantive governance condition blocks action.
 
 Only the first two are explicit in this matrix.
 
----
+______________________________________________________________________
 
-# 127. Provenance Topology
+## 127. Provenance Topology
 
 The artifact declares provenance from:
 
@@ -3146,9 +3146,9 @@ These should not automatically be counted as three independent confirmations.
 
 Shared ancestry may exist.
 
----
+______________________________________________________________________
 
-# 128. Source Multiplicity Firewall
+## 128. Source Multiplicity Firewall
 
 $$
 DocumentCount
@@ -3158,9 +3158,9 @@ $$
 
 Independence must be demonstrated through source ancestry when decision-relevant.
 
----
+______________________________________________________________________
 
-# 129. Risk-Lattice Provenance
+## 129. Risk-Lattice Provenance
 
 For:
 
@@ -3198,19 +3198,19 @@ TRANSFORMATION
 
 This is a derived v4.4 requirement.
 
----
+______________________________________________________________________
 
-# 130. Trust Provenance
+## 130. Trust Provenance
 
 If trust evidence is generated from the same observations used to classify the cycle, cycle classification and trust score may be correlated.
 
 This does not invalidate them, but the correlation must not be mistaken for independent confirmation.
 
----
+______________________________________________________________________
 
-# 131. Collapse-Risk Provenance
+## 131. Collapse-Risk Provenance
 
-If \(P_{\text{collapse}}\) is derived from the same TSS vector used for cycle location, then:
+If (P\_{\\text{collapse}}) is derived from the same TSS vector used for cycle location, then:
 
 $$
 Cycle
@@ -3226,9 +3226,9 @@ may share dependencies.
 
 This dependency should remain visible.
 
----
+______________________________________________________________________
 
-# 132. Confidence Ceiling
+## 132. Confidence Ceiling
 
 For any routed decision:
 
@@ -3242,9 +3242,9 @@ unless independently revalidated.
 
 A high-confidence matrix cell cannot rescue a low-confidence cycle classification if the cell changes with the cycle.
 
----
+______________________________________________________________________
 
-# 133. Confidence Propagation Example
+## 133. Confidence Propagation Example
 
 If:
 
@@ -3266,9 +3266,9 @@ then the final decision cannot legitimately inherit `0.90` confidence if cycle i
 
 The numerical example is illustrative, not source data.
 
----
+______________________________________________________________________
 
-# 134. Scope Firewall
+## 134. Scope Firewall
 
 A matrix route inherits the scope of:
 
@@ -3292,11 +3292,11 @@ AUTHORITY DOMAIN
 
 Do not silently generalize beyond that envelope.
 
----
+______________________________________________________________________
 
-# 135. Regime Firewall
+## 135. Regime Firewall
 
-A decision routed under regime \(R_1\) may become invalid under \(R_2\):
+A decision routed under regime (R_1) may become invalid under (R_2):
 
 $$
 Valid(D,R_1)
@@ -3306,9 +3306,9 @@ $$
 
 when load-bearing conditions change.
 
----
+______________________________________________________________________
 
-# 136. Freshness
+## 136. Freshness
 
 The artifact declares:
 
@@ -3320,9 +3320,9 @@ This establishes the artifact's declared update date.
 
 It does not establish the freshness of every TSS input, Heritage premise, risk estimate, or authority warrant used in a future traversal.
 
----
+______________________________________________________________________
 
-# 137. Temporal Validity
+## 137. Temporal Validity
 
 Cycle classification is inherently time-sensitive.
 
@@ -3338,9 +3338,9 @@ may occur.
 
 Therefore stale cycle classifications should not be reused blindly.
 
----
+______________________________________________________________________
 
-# 138. Stale Decision Receipt
+## 138. Stale Decision Receipt
 
 If a load-bearing variable changes after a receipt is issued:
 
@@ -3352,9 +3352,9 @@ $$
 
 Revalidation may be required.
 
----
+______________________________________________________________________
 
-# 139. Causal Firewall
+## 139. Causal Firewall
 
 The matrix is a decision-routing model.
 
@@ -3372,9 +3372,9 @@ ARCHIVE PRESERVATION CAUSES SUCCESSFUL RESET
 
 Those require appropriately typed evidence.
 
----
+______________________________________________________________________
 
-# 140. Association vs Prescription
+## 140. Association vs Prescription
 
 A matrix cell can encode a governance prescription without proving that the prescription is causally optimal.
 
@@ -3386,9 +3386,9 @@ SourceDefinedPrescription
 EmpiricallyVerifiedOptimalPolicy
 $$
 
----
+______________________________________________________________________
 
-# 141. Historical Analogy Firewall
+## 141. Historical Analogy Firewall
 
 Heritage reasoning may draw on historical patterns.
 
@@ -3408,17 +3408,17 @@ PastSuccess
 GuaranteedPresentSuccess
 $$
 
----
+______________________________________________________________________
 
-# 142. Cycle Label Causal Firewall
+## 142. Cycle Label Causal Firewall
 
 Assigning a system to `C4: Fragment` does not prove that fragmentation caused its current problems.
 
 Cycle classification and causal diagnosis are separate questions.
 
----
+______________________________________________________________________
 
-# 143. Pcollapse Causal Firewall
+## 143. Pcollapse Causal Firewall
 
 A collapse-risk estimate does not by itself identify the causes of collapse.
 
@@ -3430,9 +3430,9 @@ $$
 
 unless the underlying model explicitly supports causal interpretation.
 
----
+______________________________________________________________________
 
-# 144. Adversarial Validation Contract
+## 144. Adversarial Validation Contract
 
 For consequential decisions:
 
@@ -3457,9 +3457,9 @@ DOWNGRADE / HOLD IF CHALLENGE SUCCEEDS
 
 Derived v4.4 expansion.
 
----
+______________________________________________________________________
 
-# 145. Competing Hypotheses — Cycle Location
+## 145. Competing Hypotheses — Cycle Location
 
 When classification is uncertain:
 
@@ -3477,11 +3477,11 @@ Only materially plausible hypotheses need remain active.
 
 Do not force convergence without discriminating evidence.
 
----
+______________________________________________________________________
 
-# 146. Competing Hypotheses — High Collapse Risk
+## 146. Competing Hypotheses — High Collapse Risk
 
-If \(P_{\text{collapse}}\) appears high, alternatives may include:
+If (P\_{\\text{collapse}}) appears high, alternatives may include:
 
 ```text
 H1:
@@ -3506,9 +3506,9 @@ H7:
 REGIME SHIFT
 ```
 
----
+______________________________________________________________________
 
-# 147. Competing Hypotheses — Low Trust
+## 147. Competing Hypotheses — Low Trust
 
 Low trust score may reflect:
 
@@ -3534,9 +3534,9 @@ BAD TRUST METRIC
 
 The source does not provide the discriminating procedure.
 
----
+______________________________________________________________________
 
-# 148. Competing Hypotheses — Apparent Overreach
+## 148. Competing Hypotheses — Apparent Overreach
 
 Apparent `C3: Overreach` may instead reflect:
 
@@ -3557,9 +3557,9 @@ H5:
 MEASUREMENT ARTIFACT
 ```
 
----
+______________________________________________________________________
 
-# 149. Competing Hypotheses — Apparent Collapse
+## 149. Competing Hypotheses — Apparent Collapse
 
 Apparent `C6: Collapse` may instead reflect:
 
@@ -3582,9 +3582,9 @@ SYSTEM REORGANIZATION
 
 This distinction may materially change routing.
 
----
+______________________________________________________________________
 
-# 150. Sensitivity Analysis
+## 150. Sensitivity Analysis
 
 Identify the smallest premise capable of flipping:
 
@@ -3604,9 +3604,9 @@ COMMIT / HOLD
 
 and test it first.
 
----
+______________________________________________________________________
 
-# 151. Cycle Sensitivity
+## 151. Cycle Sensitivity
 
 If one TSS variable determines whether the system is classified as:
 
@@ -3622,9 +3622,9 @@ C5
 
 that variable is load-bearing and deserves priority validation.
 
----
+______________________________________________________________________
 
-# 152. Threshold Sensitivity
+## 152. Threshold Sensitivity
 
 If a small change in:
 
@@ -3648,25 +3648,25 @@ CONDITIONAL
 
 until the uncertainty is resolved or safely governed.
 
----
+______________________________________________________________________
 
-# 153. Authority Sensitivity
+## 153. Authority Sensitivity
 
 If the entire decision changes solely on whether the actor has authority, authority is the smallest flipping premise.
 
 Validate it before expensive secondary analysis.
 
----
+______________________________________________________________________
 
-# 154. Rollback Sensitivity
+## 154. Rollback Sensitivity
 
 If commit is acceptable only because rollback is believed possible, rollback validity is load-bearing.
 
 Test actual reversibility before commitment.
 
----
+______________________________________________________________________
 
-# 155. Adaptive Complexity
+## 155. Adaptive Complexity
 
 A compact traversal may suffice when:
 
@@ -3688,9 +3688,9 @@ STAKES ARE LIMITED
 
 Escalate when these conditions fail.
 
----
+______________________________________________________________________
 
-# 156. Fast-Path Eligibility
+## 156. Fast-Path Eligibility
 
 A local fast path is permissible only when:
 
@@ -3716,9 +3716,9 @@ ROLLBACK IS ESTABLISHED
 
 This is a derived v4.4 rule.
 
----
+______________________________________________________________________
 
-# 157. Escalation Conditions
+## 157. Escalation Conditions
 
 Escalate when:
 
@@ -3752,9 +3752,9 @@ CAUSAL CLAIMS DRIVE THE DECISION
 GOVERNANCE IMPACT IS HIGH
 ```
 
----
+______________________________________________________________________
 
-# 158. Uncertainty Vector
+## 158. Uncertainty Vector
 
 For consequential matrix traversal, uncertainty may be separated into:
 
@@ -3784,9 +3784,9 @@ PROVENANCE-INDEPENDENCE UNCERTAINTY
 
 Only decision-changing dimensions need expensive resolution.
 
----
+______________________________________________________________________
 
-# 159. Decision Sufficiency
+## 159. Decision Sufficiency
 
 A complete traversal does not require every explanatory question to be solved.
 
@@ -3800,9 +3800,9 @@ DecisionSufficiency
 TotalKnowledge
 $$
 
----
+______________________________________________________________________
 
-# 160. Critical Gap Law
+## 160. Critical Gap Law
 
 The source explicitly establishes:
 
@@ -3816,9 +3816,9 @@ $$
 
 This fail-closed behavior must be preserved.
 
----
+______________________________________________________________________
 
-# 161. No Silent Gap Bridging
+## 161. No Silent Gap Bridging
 
 Forbidden:
 
@@ -3840,9 +3840,9 @@ ASSUME AUTHORIZED
 COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 162. HOLD Recovery
+## 162. HOLD Recovery
 
 A derived recovery pattern is:
 
@@ -3860,9 +3860,9 @@ REVALIDATE DEPENDENTS
 COMMIT OR REMAIN HOLD
 ```
 
----
+______________________________________________________________________
 
-# 163. Local Invalidation
+## 163. Local Invalidation
 
 If one risk input fails:
 
@@ -3876,9 +3876,9 @@ DEPENDENT DECISION
 
 Preserve unaffected matrix analysis.
 
----
+______________________________________________________________________
 
-# 164. Cycle Reclassification
+## 164. Cycle Reclassification
 
 If new evidence changes:
 
@@ -3890,15 +3890,15 @@ invalidate the cycle-dependent cells and downstream decisions.
 
 Do not automatically discard evidence or governance checks that remain valid across both cycles.
 
----
+______________________________________________________________________
 
-# 165. Risk Recalculation
+## 165. Risk Recalculation
 
-If \(P_{\text{collapse}}\) changes but cycle identity remains valid, only the risk-dependent branch and its descendants need revalidation.
+If (P\_{\\text{collapse}}) changes but cycle identity remains valid, only the risk-dependent branch and its descendants need revalidation.
 
----
+______________________________________________________________________
 
-# 166. Authority Change
+## 166. Authority Change
 
 If authority expires after the rest of the traversal remains valid:
 
@@ -3910,9 +3910,9 @@ COMMIT ELIGIBILITY
 
 Preserve unaffected cycle, risk, and adversarial work if still fresh.
 
----
+______________________________________________________________________
 
-# 167. Rollback Failure
+## 167. Rollback Failure
 
 If the rollback basin proves invalid:
 
@@ -3924,9 +3924,9 @@ COMMIT ELIGIBILITY
 
 Do not automatically invalidate cycle classification.
 
----
+______________________________________________________________________
 
-# 168. Failure Recovery
+## 168. Failure Recovery
 
 A derived failure-recovery path is:
 
@@ -3946,9 +3946,9 @@ REVALIDATE DESCENDANTS
 
 Global recomputation is unnecessary unless dependency closure requires it.
 
----
+______________________________________________________________________
 
-# 169. No Blind Retry
+## 169. No Blind Retry
 
 A failed traversal should not be repeated unchanged.
 
@@ -3964,9 +3964,9 @@ $$
 
 Change the evidence, model, assumption, or decision before retry.
 
----
+______________________________________________________________________
 
-# 170. Provenance-Persistent Decision Receipt
+## 170. Provenance-Persistent Decision Receipt
 
 A robust decision receipt should preserve:
 
@@ -4006,9 +4006,9 @@ INVALIDATION CONDITIONS
 
 Derived v4.4 requirement.
 
----
+______________________________________________________________________
 
-# 171. Decision Lineage Candidate
+## 171. Decision Lineage Candidate
 
 ```yaml
 Decision_Lineage:
@@ -4048,9 +4048,9 @@ Decision_Lineage:
 
 Derived schema.
 
----
+______________________________________________________________________
 
-# 172. Anti-Sybil Evidence Rule
+## 172. Anti-Sybil Evidence Rule
 
 If multiple inputs descend from the same root source:
 
@@ -4070,9 +4070,9 @@ must not automatically count as two independent confirmations.
 
 This is particularly important for trust and risk calculations.
 
----
+______________________________________________________________________
 
-# 173. Proof Capsule Reuse
+## 173. Proof Capsule Reuse
 
 A previous matrix traversal may be reused only while:
 
@@ -4096,17 +4096,17 @@ ROLLBACK REMAINS VALID
 NO NEW MATERIAL CONFLICT APPEARS
 ```
 
----
+______________________________________________________________________
 
-# 174. Proof Capsule Invalidation
+## 174. Proof Capsule Invalidation
 
 When one dependency changes, invalidate only conclusions that depend on it.
 
 This prevents unnecessary destruction of valid prior work.
 
----
+______________________________________________________________________
 
-# 175. MVCC-Compatible Interpretation
+## 175. MVCC-Compatible Interpretation
 
 A possible derived implementation pattern is:
 
@@ -4122,9 +4122,9 @@ with commit allowed only if load-bearing state has not changed.
 
 This is not a claim that this matrix implements MVCC.
 
----
+______________________________________________________________________
 
-# 176. CAS-Compatible Commit Guard
+## 176. CAS-Compatible Commit Guard
 
 A derived implementation pattern could use:
 
@@ -4146,9 +4146,9 @@ DERIVED IMPLEMENTATION PATTERN
 SOURCE IMPLEMENTATION CLAIM
 ```
 
----
+______________________________________________________________________
 
-# 177. Causal Epoch Compatibility
+## 177. Causal Epoch Compatibility
 
 A matrix decision may conceptually be bound to:
 
@@ -4166,9 +4166,9 @@ the receipt may require revalidation.
 
 No literal causal-epoch runtime is established.
 
----
+______________________________________________________________________
 
-# 178. Atomic Multi-RSCF Reasoning
+## 178. Atomic Multi-RSCF Reasoning
 
 A consequential traversal may depend jointly on:
 
@@ -4188,9 +4188,9 @@ ROLLBACK RSCF
 
 Joint reasoning is necessary only when those dependencies can materially change the outcome.
 
----
+______________________________________________________________________
 
-# 179. Proof-Based Coordination Avoidance
+## 179. Proof-Based Coordination Avoidance
 
 If the decision is demonstrably local and its dependencies are closed:
 
@@ -4201,9 +4201,9 @@ LOCAL PROOF SUFFICIENCY
 
 But independence must be demonstrated, not assumed.
 
----
+______________________________________________________________________
 
-# 180. Runtime Boundary
+## 180. Runtime Boundary
 
 Metadata explicitly states:
 
@@ -4249,9 +4249,9 @@ EXECUTES COMMIT
 ENFORCES HOLD
 ```
 
----
+______________________________________________________________________
 
-# 181. Runtime Validation Requirements
+## 181. Runtime Validation Requirements
 
 Before promoting runtime status, establish:
 
@@ -4307,9 +4307,9 @@ NEGATIVE TESTS
 STALE-STATE TESTS
 ```
 
----
+______________________________________________________________________
 
-# 182. Empirical Validation Requirements
+## 182. Empirical Validation Requirements
 
 Before claiming predictive effectiveness, establish:
 
@@ -4341,9 +4341,9 @@ REGIME ROBUSTNESS
 REPLICATION
 ```
 
----
+______________________________________________________________________
 
-# 183. Formal Verification Requirements
+## 183. Formal Verification Requirements
 
 Before changing:
 
@@ -4356,63 +4356,63 @@ require actual formal proofs of the specific properties claimed.
 
 Symbolic equations, matrices, or pseudocode alone are not formal verification.
 
----
+______________________________________________________________________
 
-# 184. Anti-Fabrication Rules
+## 184. Anti-Fabrication Rules
 
 This artifact MUST NOT by itself be used to claim:
 
 1. that every system necessarily follows C1→C7 linearly;
-2. that C7 necessarily returns to C1;
-3. that cycle transitions are formally defined here;
-4. that \(\Omega,H,F,S\) have complete semantics here;
-5. that symbols reused elsewhere necessarily have the same meanings;
-6. that \(H\) means Heritage inside the TSS vector;
-7. that \(F\) inherits a threshold from another artifact without authoritative binding;
-8. that \(S\) inherits a threshold from another artifact without authoritative binding;
-9. that cycle classification is deterministic;
-10. that cycle classification predicts inevitable future state;
-11. that the 28 cells are executable commands;
-12. that `Freeze expansion` overrides authority;
-13. that `Emergency command` creates unlimited authority;
-14. that `Worst-case models` are expected-case forecasts;
-15. that `catastrophic basin` is a formally proven dynamical attractor;
-16. that \(P_{\text{collapse}}\) has a known formula;
-17. that \(P_{\text{collapse}}\) is empirically calibrated;
-18. that trust score has a known formula;
-19. that trust score has a known scale;
-20. that cycle-specific thresholds have known values;
-21. that risk signals are independent;
-22. that risk and trust have a known combination formula;
-23. that Self-Refutation has an executable algorithm;
-24. that every catastrophic downside can be discovered;
-25. that capability grants authority;
-26. that emergency removes the authority requirement;
-27. that an asserted rollback basin proves reversibility;
-28. that internal rollback reverses external consequences;
-29. that a Decision Receipt is an executable commit object;
-30. that `HOLD` means permanent refusal;
-31. that `HOLD` is identical to ethical refusal;
-32. that missing critical evidence can be assumed favorable;
-33. that historical analogy proves causal effectiveness;
-34. that matrix prescription proves policy optimality;
-35. that cycle label identifies causal mechanism;
-36. that collapse risk identifies collapse cause;
-37. that multiple descendant sources are independent evidence;
-38. that runtime enforcement exists;
-39. that the matrix is empirically validated;
-40. that the matrix is formally verified;
-41. that MVCC is implemented;
-42. that CAS is implemented;
-43. that causal epochs are implemented;
-44. that atomic multi-RSCF coordination is implemented;
-45. that distributed finalization is implemented;
-46. that cross-framework precedence with Trang Zero is established;
-47. that AMOS_X_TSS, AMOS_X_TSS_TPE_MATRIX, or AMOS_X_TPE semantics can be invented from their names.
+1. that C7 necessarily returns to C1;
+1. that cycle transitions are formally defined here;
+1. that (\\Omega,H,F,S) have complete semantics here;
+1. that symbols reused elsewhere necessarily have the same meanings;
+1. that (H) means Heritage inside the TSS vector;
+1. that (F) inherits a threshold from another artifact without authoritative binding;
+1. that (S) inherits a threshold from another artifact without authoritative binding;
+1. that cycle classification is deterministic;
+1. that cycle classification predicts inevitable future state;
+1. that the 28 cells are executable commands;
+1. that `Freeze expansion` overrides authority;
+1. that `Emergency command` creates unlimited authority;
+1. that `Worst-case models` are expected-case forecasts;
+1. that `catastrophic basin` is a formally proven dynamical attractor;
+1. that (P\_{\\text{collapse}}) has a known formula;
+1. that (P\_{\\text{collapse}}) is empirically calibrated;
+1. that trust score has a known formula;
+1. that trust score has a known scale;
+1. that cycle-specific thresholds have known values;
+1. that risk signals are independent;
+1. that risk and trust have a known combination formula;
+1. that Self-Refutation has an executable algorithm;
+1. that every catastrophic downside can be discovered;
+1. that capability grants authority;
+1. that emergency removes the authority requirement;
+1. that an asserted rollback basin proves reversibility;
+1. that internal rollback reverses external consequences;
+1. that a Decision Receipt is an executable commit object;
+1. that `HOLD` means permanent refusal;
+1. that `HOLD` is identical to ethical refusal;
+1. that missing critical evidence can be assumed favorable;
+1. that historical analogy proves causal effectiveness;
+1. that matrix prescription proves policy optimality;
+1. that cycle label identifies causal mechanism;
+1. that collapse risk identifies collapse cause;
+1. that multiple descendant sources are independent evidence;
+1. that runtime enforcement exists;
+1. that the matrix is empirically validated;
+1. that the matrix is formally verified;
+1. that MVCC is implemented;
+1. that CAS is implemented;
+1. that causal epochs are implemented;
+1. that atomic multi-RSCF coordination is implemented;
+1. that distributed finalization is implemented;
+1. that cross-framework precedence with Trang Zero is established;
+1. that AMOS_X_TSS, AMOS_X_TSS_TPE_MATRIX, or AMOS_X_TPE semantics can be invented from their names.
 
----
+______________________________________________________________________
 
-# 185. Anti-Regression Rules
+## 185. Anti-Regression Rules
 
 Any revision should preserve or improve:
 
@@ -4482,9 +4482,9 @@ LOCAL INVALIDATION
 GAP VISIBILITY
 ```
 
----
+______________________________________________________________________
 
-# 186. Invalidation Conditions
+## 186. Invalidation Conditions
 
 Revalidate this artifact when:
 
@@ -4530,9 +4530,9 @@ RUNTIME BINDING APPEARS
 VALIDATION EVIDENCE FALSIFIES A LOAD-BEARING CLAIM
 ```
 
----
+______________________________________________________________________
 
-# 187. Local Invalidation — Cycle
+## 187. Local Invalidation — Cycle
 
 If cycle classification changes:
 
@@ -4545,9 +4545,9 @@ DEPENDENT ROUTING
 
 Preserve evidence and governance checks that remain valid.
 
----
+______________________________________________________________________
 
-# 188. Local Invalidation — Risk
+## 188. Local Invalidation — Risk
 
 If the risk model changes:
 
@@ -4560,9 +4560,9 @@ DEPENDENT PASS / HOLD RESULT
 
 Do not automatically invalidate the source-defined matrix cells.
 
----
+______________________________________________________________________
 
-# 189. Local Invalidation — Authority
+## 189. Local Invalidation — Authority
 
 If an authority warrant expires:
 
@@ -4575,9 +4575,9 @@ COMMIT ELIGIBILITY
 
 Preserve unrelated cycle and risk conclusions if still valid.
 
----
+______________________________________________________________________
 
-# 190. Local Invalidation — Rollback
+## 190. Local Invalidation — Rollback
 
 If rollback feasibility fails:
 
@@ -4590,9 +4590,9 @@ COMMIT ELIGIBILITY
 
 Preserve unaffected upstream work.
 
----
+______________________________________________________________________
 
-# 191. Source Presence vs Runtime Failure
+## 191. Source Presence vs Runtime Failure
 
 These can coexist:
 
@@ -4609,9 +4609,9 @@ TRAVERSAL CORRECTLY.
 
 Runtime non-conformance does not erase source presence.
 
----
+______________________________________________________________________
 
-# 192. Canon Candidate Boundary
+## 192. Canon Candidate Boundary
 
 Current status:
 
@@ -4629,74 +4629,74 @@ $$
 
 Promotion remains subject to AMOS governance.
 
----
+______________________________________________________________________
 
-# 193. Canon Promotion Checklist
+## 193. Canon Promotion Checklist
 
-* [ ] artifact identity preserved
-* [ ] origin architect preserved
-* [ ] provenance preserved
-* [ ] Heritage × TSS binding verified
-* [ ] seven TSS cycles preserved
-* [ ] four Heritage dimensions preserved
-* [ ] all 28 matrix cells preserved
-* [ ] Cycle Locate preserved
-* [ ] \((\Omega,H,F,S)\) preserved
-* [ ] Risk Lattice preserved
-* [ ] \(P_{\text{collapse}}\) preserved
-* [ ] trust score preserved
-* [ ] cycle-specific threshold preserved
-* [ ] Adversarial Pass preserved
-* [ ] Self-Refutation preserved
-* [ ] catastrophic-basin language preserved as model terminology
-* [ ] Governance Gate preserved
-* [ ] `Capability != Authority` preserved
-* [ ] authority warrant preserved
-* [ ] explicit rollback basin preserved
-* [ ] Commit or Hold preserved
-* [ ] Decision Receipt preserved
-* [ ] critical-gap fail-closed rule preserved
-* [ ] no TSS variable semantics invented
-* [ ] no thresholds invented
-* [ ] no risk formula invented
-* [ ] no trust formula invented
-* [ ] no runtime enforcement invented
-* [ ] no causal effectiveness invented
-* [ ] no cross-framework precedence invented
-* [ ] source/derived boundary preserved
-* [ ] competing cycle hypotheses preserved
-* [ ] gaps preserved
-* [ ] supersession authority established
+- [ ] artifact identity preserved
+- [ ] origin architect preserved
+- [ ] provenance preserved
+- [ ] Heritage × TSS binding verified
+- [ ] seven TSS cycles preserved
+- [ ] four Heritage dimensions preserved
+- [ ] all 28 matrix cells preserved
+- [ ] Cycle Locate preserved
+- [ ] ((\\Omega,H,F,S)) preserved
+- [ ] Risk Lattice preserved
+- [ ] (P\_{\\text{collapse}}) preserved
+- [ ] trust score preserved
+- [ ] cycle-specific threshold preserved
+- [ ] Adversarial Pass preserved
+- [ ] Self-Refutation preserved
+- [ ] catastrophic-basin language preserved as model terminology
+- [ ] Governance Gate preserved
+- [ ] `Capability != Authority` preserved
+- [ ] authority warrant preserved
+- [ ] explicit rollback basin preserved
+- [ ] Commit or Hold preserved
+- [ ] Decision Receipt preserved
+- [ ] critical-gap fail-closed rule preserved
+- [ ] no TSS variable semantics invented
+- [ ] no thresholds invented
+- [ ] no risk formula invented
+- [ ] no trust formula invented
+- [ ] no runtime enforcement invented
+- [ ] no causal effectiveness invented
+- [ ] no cross-framework precedence invented
+- [ ] source/derived boundary preserved
+- [ ] competing cycle hypotheses preserved
+- [ ] gaps preserved
+- [ ] supersession authority established
 
----
+______________________________________________________________________
 
-# 194. Runtime Validation Checklist
+## 194. Runtime Validation Checklist
 
-* [ ] target system schema defined
-* [ ] \(\Omega\) defined
-* [ ] \(H\) defined
-* [ ] \(F\) defined
-* [ ] \(S\) defined
-* [ ] cycle classifier implemented
-* [ ] cycle boundary behavior tested
-* [ ] competing-cycle handling implemented
-* [ ] \(P_{\text{collapse}}\) model defined
-* [ ] \(P_{\text{collapse}}\) calibrated
-* [ ] trust score defined
-* [ ] trust score calibrated
-* [ ] cycle thresholds defined
-* [ ] risk-combination rule defined
-* [ ] Self-Refutation executable
-* [ ] catastrophic-basin search tested
-* [ ] authority-warrant validation executable
-* [ ] rollback-basin validation executable
-* [ ] critical-gap classifier executable
-* [ ] Decision Receipt implemented
-* [ ] HOLD semantics implemented
-* [ ] commit semantics implemented
-* [ ] stale-state handling implemented
-* [ ] provenance persistence tested
-* [ ] negative cases tested
+- [ ] target system schema defined
+- [ ] (\\Omega) defined
+- [ ] (H) defined
+- [ ] (F) defined
+- [ ] (S) defined
+- [ ] cycle classifier implemented
+- [ ] cycle boundary behavior tested
+- [ ] competing-cycle handling implemented
+- [ ] (P\_{\\text{collapse}}) model defined
+- [ ] (P\_{\\text{collapse}}) calibrated
+- [ ] trust score defined
+- [ ] trust score calibrated
+- [ ] cycle thresholds defined
+- [ ] risk-combination rule defined
+- [ ] Self-Refutation executable
+- [ ] catastrophic-basin search tested
+- [ ] authority-warrant validation executable
+- [ ] rollback-basin validation executable
+- [ ] critical-gap classifier executable
+- [ ] Decision Receipt implemented
+- [ ] HOLD semantics implemented
+- [ ] commit semantics implemented
+- [ ] stale-state handling implemented
+- [ ] provenance persistence tested
+- [ ] negative cases tested
 
 Until then:
 
@@ -4705,9 +4705,9 @@ implementation_status:
 CONCEPTUAL_SOURCE_DEFINED
 ```
 
----
+______________________________________________________________________
 
-# 195. Machine-Readable Matrix
+## 195. Machine-Readable Matrix
 
 ```yaml
 Heritage_X_TSS_Matrix:
@@ -4827,9 +4827,9 @@ Heritage_X_TSS_Matrix:
     NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 196. Master RSCF Frame
+## 196. Master RSCF Frame
 
 ```yaml
 RSCF:
@@ -4911,9 +4911,9 @@ RSCF:
       UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 197. H/M/L Retrieval Contract
+## 197. H/M/L Retrieval Contract
 
 ```yaml
 HML:
@@ -4959,9 +4959,9 @@ HML:
       - formal_proofs
 ```
 
----
+______________________________________________________________________
 
-# 198. RSCF Relations
+## 198. RSCF Relations
 
 ```yaml
 RSCF_RELATIONS:
@@ -5019,9 +5019,9 @@ RSCF_RELATIONS:
       "[[00_ROOT/AMOS_CORE_v4_4|AMOS_CORE_v4_4]]"
 ```
 
----
+______________________________________________________________________
 
-# 199. Ingestion Rule
+## 199. Ingestion Rule
 
 ```yaml
 HERITAGE_X_TSS_MATRIX_INGESTION:
@@ -5093,9 +5093,9 @@ HERITAGE_X_TSS_MATRIX_INGESTION:
       - NEVER_INVENT
 ```
 
----
+______________________________________________________________________
 
-# 200. Final Proof Capsule
+## 200. Final Proof Capsule
 
 ```yaml
 PROOF_CAPSULE:
@@ -5227,9 +5227,9 @@ PROOF_CAPSULE:
       UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 201. Final Canonical Candidate Statement
+## 201. Final Canonical Candidate Statement
 
 The **Heritage × TSS Matrix** source-defines a multidimensional AMOS decision-routing architecture over:
 
@@ -5362,7 +5362,7 @@ The source does not establish that C7 necessarily returns to C1.
 
 The source does not establish that a matrix cell is an automatically executable command.
 
-The source does not establish that \(P_{\text{collapse}}\) is an empirically calibrated probability.
+The source does not establish that (P\_{\\text{collapse}}) is an empirically calibrated probability.
 
 The source does not establish that trust score is empirically calibrated.
 
@@ -5605,11 +5605,11 @@ OR IMPLEMENTATION IS ABSENT:
 UNKNOWN/GAP.
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[25_COGNITIVE_MATRIX/HERITAGE_X_TSS|HERITAGE_X_TSS]] · [[11_KNOWLEDGE/trang/TSS_THE_TRANG_SYSTEM_OFFICIAL_MANUAL|TSS_THE_TRANG_SYSTEM_OFFICIAL_MANUAL]] · [[01_CANON/02_UNIVERSE_CANON/TSS_7_CYCLE|TSS_7_CYCLE]] · [[01_CANON/02_UNIVERSE_CANON/TPE_PREDICTION_LAYER|TPE_PREDICTION_LAYER]] · [[11_KNOWLEDGE/03_RSCF/TSS_TPE_RSCF_INDEX|TSS_TPE_RSCF_INDEX]] · [[11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/HERITAGE_SPATIAL_INTELLIGENCE|HERITAGE_SPATIAL_INTELLIGENCE]] · [[11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/HERITAGE_MUSIC_ACOUSTIC_RULES|HERITAGE_MUSIC_ACOUSTIC_RULES]] · [[25_COGNITIVE_MATRIX/HERITAGE_X_TRANG_ZERO_MATRIX|HERITAGE_X_TRANG_ZERO_MATRIX]] · [[25_COGNITIVE_MATRIX/AMOS_X_TSS|AMOS_X_TSS]] · [[25_COGNITIVE_MATRIX/AMOS_X_TPE|AMOS_X_TPE]] · [[25_COGNITIVE_MATRIX/AMOS_X_QLS|AMOS_X_QLS]] · [[25_COGNITIVE_MATRIX/AMOS_X_QCLA|AMOS_X_QCLA]] · [[01_CANON/01_CORE_LAWS/L0_INTEGRITY|L0_INTEGRITY]] · [[01_CANON/01_CORE_LAWS/L3_DEPENDENCY|L3_DEPENDENCY]] · [[01_CANON/01_CORE_LAWS/L7_AUTHORITY|L7_AUTHORITY]] · [[01_CANON/01_CORE_LAWS/L10_FAILURE_RECOVERY|L10_FAILURE_RECOVERY]] · [[01_CANON/01_CORE_LAWS/L18_GMEF|L18_GMEF]] · [[25_COGNITIVE_MATRIX/COGNITIVE_MATRIX_README|COGNITIVE_MATRIX_README]]
 
----
+______________________________________________________________________
 
 RSCF-NODE
 
@@ -5627,57 +5627,85 @@ canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
 
 RSCF-RELATIONS:
 
-* INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-* INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-* INDEXED_BY: [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]
-* PART_OF: [[25_COGNITIVE_MATRIX/COGNITIVE_MATRIX_README|COGNITIVE_MATRIX_README]]
-* OPERATIONALIZES: [[25_COGNITIVE_MATRIX/HERITAGE_X_TSS|HERITAGE_X_TSS]]
-* UPSTREAM: [[11_KNOWLEDGE/trang/TSS_THE_TRANG_SYSTEM_OFFICIAL_MANUAL|TSS_THE_TRANG_SYSTEM_OFFICIAL_MANUAL]]
-* RELATED_TO: [[25_COGNITIVE_MATRIX/AMOS_X_TSS|AMOS_X_TSS]]
-* RELATED_TO: [[25_COGNITIVE_MATRIX/AMOS_X_TPE|AMOS_X_TPE]]
-* RELATED_TO: [[25_COGNITIVE_MATRIX/AMOS_X_QLS|AMOS_X_QLS]]
-* RELATED_TO: [[25_COGNITIVE_MATRIX/AMOS_X_QCLA|AMOS_X_QCLA]]
-* RELATED_TO: [[25_COGNITIVE_MATRIX/HERITAGE_X_TRANG_ZERO_MATRIX|HERITAGE_X_TRANG_ZERO_MATRIX]]
-* RELATED_TO: [[01_CANON/02_UNIVERSE_CANON/TSS_7_CYCLE|TSS_7_CYCLE]]
-* RELATED_TO: [[01_CANON/02_UNIVERSE_CANON/TPE_PREDICTION_LAYER|TPE_PREDICTION_LAYER]]
-* RELATED_TO: [[11_KNOWLEDGE/03_RSCF/TSS_TPE_RSCF_INDEX|TSS_TPE_RSCF_INDEX]]
-* RELATED_TO: [[11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/HERITAGE_SPATIAL_INTELLIGENCE|HERITAGE_SPATIAL_INTELLIGENCE]]
-* RELATED_TO: [[11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/HERITAGE_MUSIC_ACOUSTIC_RULES|HERITAGE_MUSIC_ACOUSTIC_RULES]]
-* RELATED_TO: [[01_CANON/01_CORE_LAWS/L0_INTEGRITY|L0_INTEGRITY]]
-* RELATED_TO: [[01_CANON/01_CORE_LAWS/L3_DEPENDENCY|L3_DEPENDENCY]]
-* RELATED_TO: [[01_CANON/01_CORE_LAWS/L7_AUTHORITY|L7_AUTHORITY]]
-* RELATED_TO: [[01_CANON/01_CORE_LAWS/L10_FAILURE_RECOVERY|L10_FAILURE_RECOVERY]]
-* RELATED_TO: [[01_CANON/01_CORE_LAWS/L18_GMEF|L18_GMEF]]
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 
-* DEFINES: TSS_CYCLE_X_HERITAGE_DECISION_MATRIX
-* DEFINES: CYCLE_LOCATION_STAGE
-* DEFINES: RISK_LATTICE_STAGE
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
-* DEFINES: ADVERSARIAL_PASS_STAGE
+- INDEXED_BY: [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]
 
-* DEFINES: GOVERNANCE_GATE_STAGE
+- PART_OF: [[25_COGNITIVE_MATRIX/COGNITIVE_MATRIX_README|COGNITIVE_MATRIX_README]]
 
-* DEFINES: COMMIT_OR_HOLD_STAGE
+- OPERATIONALIZES: [[25_COGNITIVE_MATRIX/HERITAGE_X_TSS|HERITAGE_X_TSS]]
 
-* DEFINES: CRITICAL_GAP_FAIL_CLOSED_RULE
+- UPSTREAM: [[11_KNOWLEDGE/trang/TSS_THE_TRANG_SYSTEM_OFFICIAL_MANUAL|TSS_THE_TRANG_SYSTEM_OFFICIAL_MANUAL]]
 
-* RELATED_TO: [[00_ROOT/00_HOME|00_HOME]]
-* RELATED_TO: [[01_CANON/01_CORE_LAWS/ATOMIC_MULTI_RSCF|ATOMIC_MULTI_RSCF]]
-* RELATED_TO: [[01_CANON/01_CORE_LAWS/L0_INTEGRITY|L0_INTEGRITY]]
-* RELATED_TO: [[02_KERNEL/K_ATOMIC_MULTI_RSCF|K_ATOMIC_MULTI_RSCF]]
-* RELATED_TO: [[11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/HERITAGE_PATTERN_SYSTEMS|HERITAGE_PATTERN_SYSTEMS]]
-* RELATED_TO: [[11_KNOWLEDGE/03_RSCF/TSS_TPE_RSCF_INDEX|TSS_TPE_RSCF_INDEX]]
-* RELATED_TO: [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]
+- RELATED_TO: [[25_COGNITIVE_MATRIX/AMOS_X_TSS|AMOS_X_TSS]]
 
----
+- RELATED_TO: [[25_COGNITIVE_MATRIX/AMOS_X_TPE|AMOS_X_TPE]]
+
+- RELATED_TO: [[25_COGNITIVE_MATRIX/AMOS_X_QLS|AMOS_X_QLS]]
+
+- RELATED_TO: [[25_COGNITIVE_MATRIX/AMOS_X_QCLA|AMOS_X_QCLA]]
+
+- RELATED_TO: [[25_COGNITIVE_MATRIX/HERITAGE_X_TRANG_ZERO_MATRIX|HERITAGE_X_TRANG_ZERO_MATRIX]]
+
+- RELATED_TO: [[01_CANON/02_UNIVERSE_CANON/TSS_7_CYCLE|TSS_7_CYCLE]]
+
+- RELATED_TO: [[01_CANON/02_UNIVERSE_CANON/TPE_PREDICTION_LAYER|TPE_PREDICTION_LAYER]]
+
+- RELATED_TO: [[11_KNOWLEDGE/03_RSCF/TSS_TPE_RSCF_INDEX|TSS_TPE_RSCF_INDEX]]
+
+- RELATED_TO: [[11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/HERITAGE_SPATIAL_INTELLIGENCE|HERITAGE_SPATIAL_INTELLIGENCE]]
+
+- RELATED_TO: [[11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/HERITAGE_MUSIC_ACOUSTIC_RULES|HERITAGE_MUSIC_ACOUSTIC_RULES]]
+
+- RELATED_TO: [[01_CANON/01_CORE_LAWS/L0_INTEGRITY|L0_INTEGRITY]]
+
+- RELATED_TO: [[01_CANON/01_CORE_LAWS/L3_DEPENDENCY|L3_DEPENDENCY]]
+
+- RELATED_TO: [[01_CANON/01_CORE_LAWS/L7_AUTHORITY|L7_AUTHORITY]]
+
+- RELATED_TO: [[01_CANON/01_CORE_LAWS/L10_FAILURE_RECOVERY|L10_FAILURE_RECOVERY]]
+
+- RELATED_TO: [[01_CANON/01_CORE_LAWS/L18_GMEF|L18_GMEF]]
+
+- DEFINES: TSS_CYCLE_X_HERITAGE_DECISION_MATRIX
+
+- DEFINES: CYCLE_LOCATION_STAGE
+
+- DEFINES: RISK_LATTICE_STAGE
+
+- DEFINES: ADVERSARIAL_PASS_STAGE
+
+- DEFINES: GOVERNANCE_GATE_STAGE
+
+- DEFINES: COMMIT_OR_HOLD_STAGE
+
+- DEFINES: CRITICAL_GAP_FAIL_CLOSED_RULE
+
+- RELATED_TO: [[00_ROOT/00_HOME|00_HOME]]
+
+- RELATED_TO: [[01_CANON/01_CORE_LAWS/ATOMIC_MULTI_RSCF|ATOMIC_MULTI_RSCF]]
+
+- RELATED_TO: [[01_CANON/01_CORE_LAWS/L0_INTEGRITY|L0_INTEGRITY]]
+
+- RELATED_TO: [[02_KERNEL/K_ATOMIC_MULTI_RSCF|K_ATOMIC_MULTI_RSCF]]
+
+- RELATED_TO: [[11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/HERITAGE_PATTERN_SYSTEMS|HERITAGE_PATTERN_SYSTEMS]]
+
+- RELATED_TO: [[11_KNOWLEDGE/03_RSCF/TSS_TPE_RSCF_INDEX|TSS_TPE_RSCF_INDEX]]
+
+- RELATED_TO: [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]
+
+______________________________________________________________________
 
 **Parent:** [[00_ROOT/00_HOME|00_HOME]] · [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]
 
----
+______________________________________________________________________
 
 **MOC:** [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]
 
----
+______________________________________________________________________
 
 **END OF `HERITAGE_X_TSS_MATRIX.md`**
-
+```

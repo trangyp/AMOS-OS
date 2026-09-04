@@ -1,4 +1,7 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: INDEX ROUTING COGNITIVE MATRIX README
 type: note
 source: 25_COGNITIVE_MATRIX/10_ROUTING/00_INDEX
@@ -6,31 +9,27 @@ rscf:
   state: SOURCE_CLAIM
   class: STRUCTURAL
   provenance:
-  - internal
+    - internal
   freshness: EVERGREEN
   falsifiers: []
 tags:
-- note
-- readme
-- task-resolver
-- capability-resolver
-- mode-admission-queue
-- mode-coverage-matrix
-- mode-dependency-graph
-- routing-policy-validation-receipt
-- authz-engine-validation-receipt
-- k-rscf
-- law/L17-rscf
-- law-hierarchy
-- references
+  - note
+  - readme
+  - task-resolver
+  - capability-resolver
+  - mode-admission-queue
+  - mode-coverage-matrix
+  - mode-dependency-graph
+  - routing-policy-validation-receipt
+  - authz-engine-validation-receipt
+  - k-rscf
+  - law/L17-rscf
+  - law-hierarchy
+  - references
 canon-group: canon/cognitive-matrix
 ---
 
----title: "INDEX ROUTING COGNITIVE MATRIX README"
-type: document
-tags: [note]
----
-
+## ---title: "INDEX ROUTING COGNITIVE MATRIX README" type: document tags: [note]
 
 # INDEX ROUTING COGNITIVE MATRIX README
 
@@ -46,9 +45,9 @@ tags: [note]
 **Canonical Path:** `25_COGNITIVE_MATRIX/10_ROUTING/00_INDEX/INDEX_ROUTING_COGNITIVE_MATRIX_README.md`
 **Origin Architect / Steward:** Trang Phan
 
----
+______________________________________________________________________
 
-# 0. Purpose
+## 0. Purpose
 
 `INDEX_ROUTING_COGNITIVE_MATRIX_README.md` is the orientation and local-resolution entry point for the Routing index segment of the AMOS Cognitive Matrix.
 
@@ -95,9 +94,9 @@ The governing distinction is:
 
 $$\boxed{ Index \neq Contract \neq Runtime \neq Validation }$$
 
----
+______________________________________________________________________
 
-# 1. Index
+## 1. Index
 
 Primary local references:
 
@@ -129,9 +128,9 @@ Cross-plane navigation includes:
 - [[02_KERNEL/09_INTEGRATION/K_RSCF|K_RSCF]]
 - [[01_CANON/01_CORE_LAWS/L17_RSCF|L17_RSCF]]
 
----
+______________________________________________________________________
 
-# 2. Reading Order
+## 2. Reading Order
 
 The preferred reading order is:
 
@@ -175,9 +174,9 @@ DEPENDENCY EVIDENCE
 
 is required as applicable.
 
----
+______________________________________________________________________
 
-# 3. Indexing Rule
+## 3. Indexing Rule
 
 This index resolves artifacts **by basename within its own directory**.
 
@@ -219,9 +218,9 @@ Cross-plane resolution goes through:
 
 and the applicable subsystem map.
 
----
+______________________________________________________________________
 
-# 4. Basename Resolution Invariant
+## 4. Basename Resolution Invariant
 
 Within the local directory, basename resolution is valid only when identity is unambiguous.
 
@@ -256,9 +255,9 @@ UNKNOWN/GAP
 
 until version, path, supersession, or canonical status discriminates.
 
----
+______________________________________________________________________
 
-# 5. Identity Is More Than Filename
+## 5. Identity Is More Than Filename
 
 A filename is a locator.
 
@@ -274,9 +273,9 @@ Therefore:
 
 $$SameBasename \not\Rightarrow SameArtifact$$
 
----
+______________________________________________________________________
 
-# 6. Local Resolution Envelope
+## 6. Local Resolution Envelope
 
 Conceptually:
 
@@ -297,9 +296,9 @@ local_resolution:
   status:
 ```
 
----
+______________________________________________________________________
 
-# 7. Cross-Plane Resolution
+## 7. Cross-Plane Resolution
 
 A local routing artifact MUST NOT invent cross-plane paths.
 
@@ -329,9 +328,9 @@ typed relationships
 
 rather than relying on filename similarity.
 
----
+______________________________________________________________________
 
-# 8. Locality Firewall
+## 8. Locality Firewall
 
 This README is authoritative only for the semantics explicitly assigned to this index segment under its declared status.
 
@@ -348,9 +347,9 @@ all operations recovery behavior.
 
 Those belong to their own artifacts and contracts.
 
----
+______________________________________________________________________
 
-# 9. Core Routing Index Law
+## 9. Core Routing Index Law
 
 The index exists to answer:
 
@@ -366,9 +365,9 @@ not:
 
 $$\boxed{ Index \rightarrow Assume }$$
 
----
+______________________________________________________________________
 
-# 10. Worked Semantics Overview
+## 10. Worked Semantics Overview
 
 Given an operation touching:
 
@@ -396,9 +395,9 @@ RECEIPT
 
 Each stage establishes a different property.
 
----
+______________________________________________________________________
 
-# 11. Stage 1 — Admit
+## 11. Stage 1 — Admit
 
 Admission resolves the intended artifact by identity and version.
 
@@ -425,17 +424,17 @@ UNKNOWN/GAP
 
 and consequential mutation MUST fail closed.
 
----
+______________________________________________________________________
 
-# 12. Admission Law
+## 12. Admission Law
 
 $$UnresolvedIdentity \Rightarrow NoConsequentialCommit$$
 
 This prevents mutation against a merely similar artifact.
 
----
+______________________________________________________________________
 
-# 13. Admission Is Not Authorization
+## 13. Admission Is Not Authorization
 
 Artifact admission establishes:
 
@@ -449,9 +448,9 @@ Therefore:
 
 $$AdmittedArtifact \not\Rightarrow AuthorizedMutation$$
 
----
+______________________________________________________________________
 
-# 14. Stage 2 — Bind Scope
+## 14. Stage 2 — Bind Scope
 
 Before consequential mutation or execution, the operation SHOULD declare its applicability envelope.
 
@@ -470,9 +469,9 @@ scope_binding:
   assumptions: []
 ```
 
----
+______________________________________________________________________
 
-# 15. H/M/L Applicability
+## 15. H/M/L Applicability
 
 Routing operations SHOULD identify the smallest relevant AMOS Fractal Knowledge Network level.
 
@@ -488,9 +487,9 @@ L — Index / Contract / Specific Artifact
 
 Do not traverse unrelated L-level material when the current operation is index-local.
 
----
+______________________________________________________________________
 
-# 16. Scope Containment
+## 16. Scope Containment
 
 If operation scope is $S_o$ and artifact-valid scope is $S_a$:
 
@@ -506,9 +505,9 @@ SCOPE_MISMATCH
 
 or a governed scope-transfer process is required.
 
----
+______________________________________________________________________
 
-# 17. Regime Binding
+## 17. Regime Binding
 
 Artifact meaning and validity MAY depend on regime.
 
@@ -527,9 +526,9 @@ A previously valid operation under $R_1$ MUST NOT silently transfer to $R_2$.
 
 $$Valid(Operation,R_1) \not\Rightarrow Valid(Operation,R_2)$$
 
----
+______________________________________________________________________
 
-# 18. Regime Isolation
+## 18. Regime Isolation
 
 Core invariant:
 
@@ -537,9 +536,9 @@ $$\boxed{ RegimeIsolation }$$
 
 Routing decisions, authority, validation receipts, and dependency states inherit the regime in which they were established.
 
----
+______________________________________________________________________
 
-# 19. Stage 3 — Check Authority
+## 19. Stage 3 — Check Authority
 
 Capability and authorization MUST remain separate.
 
@@ -547,9 +546,9 @@ $$Capability \neq Authority$$
 
 A component may be technically capable of modifying an artifact but not authorized to do so.
 
----
+______________________________________________________________________
 
-# 20. Authority Reference
+## 20. Authority Reference
 
 Consequential operations SHOULD identify:
 
@@ -566,9 +565,9 @@ authority:
 
 where those dimensions are defined and material.
 
----
+______________________________________________________________________
 
-# 21. Authority Epoch Validity
+## 21. Authority Epoch Validity
 
 If authority is epoch-sensitive:
 
@@ -586,9 +585,9 @@ Therefore:
 authority_ref must be epoch-valid.
 ```
 
----
+______________________________________________________________________
 
-# 22. Capability Never Self-Authorizes
+## 22. Capability Never Self-Authorizes
 
 The following implication is forbidden:
 
@@ -600,9 +599,9 @@ $$CanExecute(x) \land Authorized(x)$$
 
 must both be established where authorization is required.
 
----
+______________________________________________________________________
 
-# 23. Observability Never Self-Authorizes
+## 23. Observability Never Self-Authorizes
 
 An observer may know that an event occurred.
 
@@ -616,9 +615,9 @@ This is why:
 
 is explicitly treated as observation, not governing authority.
 
----
+______________________________________________________________________
 
-# 24. Stage 4 — Validate Preconditions
+## 24. Stage 4 — Validate Preconditions
 
 Before consequential mutation, resolve the smallest dependency closure capable of changing the result.
 
@@ -632,9 +631,9 @@ $$D^*(O) \subseteq D(O)$$
 
 where $D^*\(O\)$ is the **smallest result-changing closure**.
 
----
+______________________________________________________________________
 
-# 25. Dependency Closure Rule
+## 25. Dependency Closure Rule
 
 Do not traverse the entire knowledge graph merely because dependencies exist.
 
@@ -653,9 +652,9 @@ rollback
 
 for the current operation.
 
----
+______________________________________________________________________
 
-# 26. Dependency Types
+## 26. Dependency Types
 
 Index-level operations MAY depend on:
 
@@ -673,9 +672,9 @@ cross-plane contract
 rollback mechanism
 ```
 
----
+______________________________________________________________________
 
-# 27. Dependency Freshness
+## 27. Dependency Freshness
 
 Dependencies can become stale.
 
@@ -692,17 +691,17 @@ changed RSCF topology
 
 A stale dependency MUST NOT silently be reused as current.
 
----
+______________________________________________________________________
 
-# 28. Freshness Invariant
+## 28. Freshness Invariant
 
 $$\boxed{ PreviouslyValid \not\Rightarrow CurrentlyValid }$$
 
 when a load-bearing mutable dependency may have changed.
 
----
+______________________________________________________________________
 
-# 29. Preconditions Gate
+## 29. Preconditions Gate
 
 Conceptually:
 
@@ -722,9 +721,9 @@ If a required term is `UNKNOWN`:
 
 $$UNKNOWN/GAP \neq PASS$$
 
----
+______________________________________________________________________
 
-# 30. Stage 5 — Propose
+## 30. Stage 5 — Propose
 
 A proposed mutation is not authoritative state.
 
@@ -748,9 +747,9 @@ proposal:
   status: PROPOSED
 ```
 
----
+______________________________________________________________________
 
-# 31. Proposal Firewall
+## 31. Proposal Firewall
 
 $$\boxed{ PROPOSAL \neq COMMIT }$$
 
@@ -768,9 +767,9 @@ conflict detection
 
 without prematurely changing authoritative state.
 
----
+______________________________________________________________________
 
-# 32. Proposal Cannot Rewrite History
+## 32. Proposal Cannot Rewrite History
 
 A proposal must preserve:
 
@@ -782,9 +781,9 @@ change relationship
 
 rather than presenting proposed content as if it had always been current.
 
----
+______________________________________________________________________
 
-# 33. Proposal Provenance
+## 33. Proposal Provenance
 
 Consequential proposals SHOULD preserve:
 
@@ -800,9 +799,9 @@ timestamp
 
 where available.
 
----
+______________________________________________________________________
 
-# 34. Stage 6 — Commit or Hold
+## 34. Stage 6 — Commit or Hold
 
 Commit occurs only after the required gates pass.
 
@@ -817,9 +816,9 @@ GATE EVALUATION
    └── UNKNOWN → HOLD / ESCALATE
 ```
 
----
+______________________________________________________________________
 
-# 35. Commit Gate
+## 35. Commit Gate
 
 Conceptually:
 
@@ -827,9 +826,9 @@ $$CommitAllowed = IdentityValid \land VersionCurrent \land ScopeValid \land Regi
 
 for operations requiring those conditions.
 
----
+______________________________________________________________________
 
-# 36. Fail-Closed Commit
+## 36. Fail-Closed Commit
 
 If a required premise fails:
 
@@ -850,9 +849,9 @@ or escalate
 
 according to governance.
 
----
+______________________________________________________________________
 
-# 37. UNKNOWN/GAP Commit Rule
+## 37. UNKNOWN/GAP Commit Rule
 
 $$UNKNOWN/GAP \neq PASS$$
 
@@ -867,9 +866,9 @@ UNKNOWN/GAP
 
 is the preferred fail-closed behavior unless explicit canon states otherwise.
 
----
+______________________________________________________________________
 
-# 38. Local Failure Recovery
+## 38. Local Failure Recovery
 
 On failed premise $P$:
 
@@ -885,9 +884,9 @@ invalidate only the affected descendants.
 
 Do not invalidate unrelated valid state.
 
----
+______________________________________________________________________
 
-# 39. Selective Invalidation
+## 39. Selective Invalidation
 
 Core law:
 
@@ -897,9 +896,9 @@ not:
 
 $$Failure(P) \Rightarrow Invalidate(AllState)$$
 
----
+______________________________________________________________________
 
-# 40. Failure Localization
+## 40. Failure Localization
 
 A failure record SHOULD identify:
 
@@ -917,9 +916,9 @@ failure:
   recovery_target:
 ```
 
----
+______________________________________________________________________
 
-# 41. Receipt Requirement
+## 41. Receipt Requirement
 
 Every consequential commit, hold, rejection, rollback, or invalidation SHOULD create a receipt.
 
@@ -954,9 +953,9 @@ operation_receipt:
   timestamp:
 ```
 
----
+______________________________________________________________________
 
-# 42. Receipt Semantics
+## 42. Receipt Semantics
 
 A receipt records what occurred and why.
 
@@ -966,9 +965,9 @@ $$Receipt(x) \not\Rightarrow Validity(x)$$
 
 unless the receipt contains sufficient evidence for the corresponding validity claim.
 
----
+______________________________________________________________________
 
-# 43. Promotion-Gate Checklist
+## 43. Promotion-Gate Checklist
 
 Before promoting this artifact or a directly governed successor beyond conditional/reference status, verify:
 
@@ -1020,9 +1019,9 @@ Before promoting this artifact or a directly governed successor beyond condition
 [ ] unresolved critical gaps remain visible
 ```
 
----
+______________________________________________________________________
 
-# 44. Promotion Gate Law
+## 44. Promotion Gate Law
 
 The existence of documentation is not sufficient for promotion.
 
@@ -1030,9 +1029,9 @@ $$DocumentationComplete \not\Rightarrow PromotionEligible$$
 
 Promotion requires the evidence demanded by the target canonical state.
 
----
+______________________________________________________________________
 
-# 45. Typed Schema Requirement
+## 45. Typed Schema Requirement
 
 A promotion-ready artifact SHOULD have a typed structural contract.
 
@@ -1055,9 +1054,9 @@ artifact_schema:
   validation_requirements: []
 ```
 
----
+______________________________________________________________________
 
-# 46. Negative Case Coverage
+## 46. Negative Case Coverage
 
 Positive-path validation is insufficient for consequential routing artifacts.
 
@@ -1079,9 +1078,9 @@ superseded contract
 failed rollback
 ```
 
----
+______________________________________________________________________
 
-# 47. Missing Input Semantics
+## 47. Missing Input Semantics
 
 If required identity information is missing:
 
@@ -1091,9 +1090,9 @@ UNKNOWN/GAP
 
 not guessed identity.
 
----
+______________________________________________________________________
 
-# 48. Malformed Input Semantics
+## 48. Malformed Input Semantics
 
 Malformed routing metadata SHOULD produce:
 
@@ -1105,9 +1104,9 @@ or the appropriate governed failure state.
 
 Malformed data MUST NOT silently normalize into a different artifact identity.
 
----
+______________________________________________________________________
 
-# 49. Stale Input Semantics
+## 49. Stale Input Semantics
 
 If artifact or authority state is stale:
 
@@ -1119,9 +1118,9 @@ and targeted revalidation is required.
 
 Stale does not necessarily mean false.
 
----
+______________________________________________________________________
 
-# 50. Unauthorized Input Semantics
+## 50. Unauthorized Input Semantics
 
 If identity and all technical preconditions are valid but authority is absent:
 
@@ -1141,9 +1140,9 @@ or:
 UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 51. Provenance Persistence
+## 51. Provenance Persistence
 
 Promotion SHOULD require evidence that provenance remains recoverable after consequential operations.
 
@@ -1163,9 +1162,9 @@ NEW VERSION
 
 The chain SHOULD remain reconstructable.
 
----
+______________________________________________________________________
 
-# 52. Provenance Topology
+## 52. Provenance Topology
 
 Multiple documentation files describing one routing policy do not constitute independent proof of that policy's behavior.
 
@@ -1184,9 +1183,9 @@ Therefore:
 
 $$3Artifacts \neq 3IndependentValidationSources$$
 
----
+______________________________________________________________________
 
-# 53. Sybil-Hardening
+## 53. Sybil-Hardening
 
 The index MUST resist apparent confirmation created by duplicated descendants.
 
@@ -1194,9 +1193,9 @@ Independence must be demonstrated when load-bearing.
 
 $$Repetition \neq Independence$$
 
----
+______________________________________________________________________
 
-# 54. Rollback Basin
+## 54. Rollback Basin
 
 A consequential mutation SHOULD define the nearest known safe rollback state.
 
@@ -1217,9 +1216,9 @@ rollback_basin:
   validation:
 ```
 
----
+______________________________________________________________________
 
-# 55. Rollback Requirement
+## 55. Rollback Requirement
 
 Before irreversible or high-impact commit, the system SHOULD determine whether rollback is:
 
@@ -1232,9 +1231,9 @@ UNKNOWN
 
 Unknown rollback capability is decision-relevant for consequential effects.
 
----
+______________________________________________________________________
 
-# 56. Rollback Is a New Governed Operation
+## 56. Rollback Is a New Governed Operation
 
 Rollback does not erase the failed commit.
 
@@ -1250,9 +1249,9 @@ STATE A'
 
 where $A'$ may be equivalent to $A$ only if equivalence is established.
 
----
+______________________________________________________________________
 
-# 57. Executed Validation Receipt
+## 57. Executed Validation Receipt
 
 Promotion SHOULD require a validation receipt specific to the exact artifact/version being promoted.
 
@@ -1279,9 +1278,9 @@ validation_receipt:
   generated_at:
 ```
 
----
+______________________________________________________________________
 
-# 58. Receipt Specificity
+## 58. Receipt Specificity
 
 A receipt for:
 
@@ -1307,9 +1306,9 @@ does not automatically validate:
 mutation commit
 ```
 
----
+______________________________________________________________________
 
-# 59. Current Validation Gap
+## 59. Current Validation Gap
 
 Current declared condition:
 
@@ -1326,9 +1325,9 @@ This means:
 
 > Link and execution semantics described by this index MUST NOT be represented as universally implemented or fully validated unless the corresponding receipt establishes that claim.
 
----
+______________________________________________________________________
 
-# 60. Partial Means Partial
+## 60. Partial Means Partial
 
 The state:
 
@@ -1350,9 +1349,9 @@ COMPLETE
 
 Partial validation can support only the dimensions actually tested.
 
----
+______________________________________________________________________
 
-# 61. Link-Integrity Validation
+## 61. Link-Integrity Validation
 
 Link-integrity validation SHOULD conceptually test:
 
@@ -1367,9 +1366,9 @@ versioned targets
 RSCF edge resolution
 ```
 
----
+______________________________________________________________________
 
-# 62. Automated Execution Boundary
+## 62. Automated Execution Boundary
 
 A Markdown link resolving syntactically does not prove the target behavior is executable.
 
@@ -1384,17 +1383,17 @@ routing executor
 rollback system
 ```
 
----
+______________________________________________________________________
 
-# 63. Cross-Plane Bindings
+## 63. Cross-Plane Bindings
 
 The Routing index participates in several cross-plane relationships.
 
 These relationships are references to specialized governing surfaces, not proof that every integration is executable.
 
----
+______________________________________________________________________
 
-# 64. Canon Governance Binding
+## 64. Canon Governance Binding
 
 Governed by canon:
 
@@ -1407,9 +1406,9 @@ Conceptually:
 
 $$LocalContract \subseteq ApplicableCanon$$
 
----
+______________________________________________________________________
 
-# 65. Canon Conflict
+## 65. Canon Conflict
 
 If a local artifact conflicts with higher valid canon:
 
@@ -1429,9 +1428,9 @@ identify supersession
 resolve or preserve UNKNOWN/COMPETING
 ```
 
----
+______________________________________________________________________
 
-# 66. Kernel Interaction
+## 66. Kernel Interaction
 
 Kernel interaction:
 
@@ -1441,17 +1440,17 @@ The Routing index may reference kernel-level services or semantics.
 
 It MUST NOT infer kernel behavior merely from a local routing declaration.
 
----
+______________________________________________________________________
 
-# 67. Kernel Boundary
+## 67. Kernel Boundary
 
 $$RoutingReferenceToKernel \not\Rightarrow KernelImplementationProof$$
 
 The kernel artifact itself and its evidence govern kernel claims.
 
----
+______________________________________________________________________
 
-# 68. Control-Plane Gates
+## 68. Control-Plane Gates
 
 Control-plane gates:
 
@@ -1471,9 +1470,9 @@ where applicable.
 
 Routing MUST respect control-plane authority rather than inventing local authority.
 
----
+______________________________________________________________________
 
-# 69. Control-Plane Firewall
+## 69. Control-Plane Firewall
 
 A routing decision can propose an action.
 
@@ -1481,9 +1480,9 @@ It cannot bypass control-plane gates merely because the route is otherwise valid
 
 $$RouteValid \not\Rightarrow ControlGatePassed$$
 
----
+______________________________________________________________________
 
-# 70. Observability Binding
+## 70. Observability Binding
 
 Observed by:
 
@@ -1507,9 +1506,9 @@ An observer reports state.
 
 It does not define canonical state unless explicitly governed to do so.
 
----
+______________________________________________________________________
 
-# 71. Observation vs Decision
+## 71. Observation vs Decision
 
 An observability artifact may establish:
 
@@ -1525,9 +1524,9 @@ DECISION
 
 These evidence types MUST remain distinct.
 
----
+______________________________________________________________________
 
-# 72. Operations Recovery Binding
+## 72. Operations Recovery Binding
 
 Recovered through:
 
@@ -1548,9 +1547,9 @@ where applicable.
 
 The Routing index does not duplicate those procedures.
 
----
+______________________________________________________________________
 
-# 73. Recovery Boundary
+## 73. Recovery Boundary
 
 Routing may request recovery.
 
@@ -1562,9 +1561,9 @@ does not mean:
 
 $$RoutingIndex = OperationsSystem$$
 
----
+______________________________________________________________________
 
-# 74. Cross-Plane Binding Matrix
+## 74. Cross-Plane Binding Matrix
 
 | Plane / Surface | Routing Relationship              | Authority Meaning                 |
 | --------------- | --------------------------------- | --------------------------------- |
@@ -1576,9 +1575,9 @@ $$RoutingIndex = OperationsSystem$$
 | RSCF            | preserves graph relationships     | knowledge/provenance topology     |
 | Root Map        | resolves global navigation        | global index/topology             |
 
----
+______________________________________________________________________
 
-# 75. Mutation Semantics
+## 75. Mutation Semantics
 
 A mutation touching this index SHOULD be modeled as:
 
@@ -1604,9 +1603,9 @@ NEW VERSION / NO CHANGE
 RECEIPT
 ```
 
----
+______________________________________________________________________
 
-# 76. Mutation Object
+## 76. Mutation Object
 
 Conceptually:
 
@@ -1634,9 +1633,9 @@ routing_index_mutation:
   receipt_ref:
 ```
 
----
+______________________________________________________________________
 
-# 77. Version-Aware Mutation
+## 77. Version-Aware Mutation
 
 A mutation SHOULD bind to an expected artifact version.
 
@@ -1660,9 +1659,9 @@ REVALIDATE
 
 rather than silently overwriting newer state.
 
----
+______________________________________________________________________
 
-# 78. CAS-Style Governance
+## 78. CAS-Style Governance
 
 Conceptually:
 
@@ -1681,9 +1680,9 @@ This is an AMOS governance concept.
 
 It does not claim literal processor-level CAS implementation.
 
----
+______________________________________________________________________
 
-# 79. MVCC-Style Governance
+## 79. MVCC-Style Governance
 
 Where multiple readers or proposals coexist, the architecture MAY reason through versioned snapshots.
 
@@ -1705,9 +1704,9 @@ A/B must revalidate before commit
 
 Again, this is a reasoning/governance pattern, not proof of literal database MVCC.
 
----
+______________________________________________________________________
 
-# 80. Causal Epoch Finality
+## 80. Causal Epoch Finality
 
 If artifact authority or routing state is bound to a causal epoch:
 
@@ -1722,9 +1721,9 @@ a completed epoch SHOULD remain historically reconstructable.
 
 Later correction is appended through governed lineage rather than silently rewriting the past.
 
----
+______________________________________________________________________
 
-# 81. Persistent Provenance
+## 81. Persistent Provenance
 
 A consequential artifact mutation SHOULD preserve enough data to answer:
 
@@ -1752,9 +1751,9 @@ What was superseded?
 Can the prior state be recovered?
 ```
 
----
+______________________________________________________________________
 
-# 82. Proposal / Commit State Machine
+## 82. Proposal / Commit State Machine
 
 ```text
 DRAFT_CHANGE
@@ -1779,9 +1778,9 @@ COMMIT
 RECEIPT
 ```
 
----
+______________________________________________________________________
 
-# 83. Failure Classes
+## 83. Failure Classes
 
 Candidate failure classes:
 
@@ -1805,9 +1804,9 @@ IDX_COMMIT_CONFLICT
 IDX_UNKNOWN_FAILURE
 ```
 
----
+______________________________________________________________________
 
-# 84. Failure Record
+## 84. Failure Record
 
 ```yaml
 index_failure:
@@ -1831,9 +1830,9 @@ index_failure:
   receipt_ref:
 ```
 
----
+______________________________________________________________________
 
-# 85. Failure Recovery Law
+## 85. Failure Recovery Law
 
 $$\boxed{ LocalFailure \rightarrow LocalInvalidation }$$
 
@@ -1841,9 +1840,9 @@ where independence is established.
 
 Do not trigger global invalidation merely because one local index edge fails.
 
----
+______________________________________________________________________
 
-# 86. No Unchanged Retry
+## 86. No Unchanged Retry
 
 A failed operation SHOULD NOT be repeated without changed evidence or state.
 
@@ -1860,9 +1859,9 @@ updated regime
 new rollback path
 ```
 
----
+______________________________________________________________________
 
-# 87. Sensitivity
+## 87. Sensitivity
 
 For consequential mutation, identify the smallest premise capable of changing the commit decision.
 
@@ -1878,9 +1877,9 @@ one scope mismatch
 
 Check these before non-decision-relevant details.
 
----
+______________________________________________________________________
 
-# 88. Critical Premise Template
+## 88. Critical Premise Template
 
 ```yaml
 critical_premise:
@@ -1897,9 +1896,9 @@ critical_premise:
   decision_impact:
 ```
 
----
+______________________________________________________________________
 
-# 89. Adaptive Complexity
+## 89. Adaptive Complexity
 
 Index operations SHOULD use the smallest sufficient validation depth.
 
@@ -1913,9 +1912,9 @@ C3 — authority + provenance + adversarial validation
 C4 — maximum governance / irreversible mutation analysis
 ```
 
----
+______________________________________________________________________
 
-# 90. C0 — Direct Lookup
+## 90. C0 — Direct Lookup
 
 Applicable to low-stakes navigation where:
 
@@ -1926,9 +1925,9 @@ no cross-plane effect
 no governance consequence
 ```
 
----
+______________________________________________________________________
 
-# 91. C1 — Identity Resolution
+## 91. C1 — Identity Resolution
 
 Adds:
 
@@ -1939,9 +1938,9 @@ local path
 canonical status
 ```
 
----
+______________________________________________________________________
 
-# 92. C2 — Structured Resolution
+## 92. C2 — Structured Resolution
 
 Adds:
 
@@ -1952,9 +1951,9 @@ dependency closure
 freshness
 ```
 
----
+______________________________________________________________________
 
-# 93. C3 — Governed Mutation
+## 93. C3 — Governed Mutation
 
 Adds:
 
@@ -1966,9 +1965,9 @@ rollback
 conflict analysis
 ```
 
----
+______________________________________________________________________
 
-# 94. C4 — Maximum Validation
+## 94. C4 — Maximum Validation
 
 Appropriate when operation is:
 
@@ -1981,9 +1980,9 @@ high-downstream-impact
 dependency-central
 ```
 
----
+______________________________________________________________________
 
-# 95. Adversarial Validation
+## 95. Adversarial Validation
 
 For consequential commits, challenge the preferred path.
 
@@ -2002,9 +2001,9 @@ stronger conflicting canon
 superseded contract
 ```
 
----
+______________________________________________________________________
 
-# 96. Competing Interpretations
+## 96. Competing Interpretations
 
 If two artifacts plausibly claim authority over the same operation and neither clearly supersedes the other:
 
@@ -2016,9 +2015,9 @@ SHOULD remain visible.
 
 Do not manufacture synthetic precedence.
 
----
+______________________________________________________________________
 
-# 97. Contract Precedence
+## 97. Contract Precedence
 
 Precedence SHOULD consider:
 
@@ -2036,9 +2035,9 @@ provenance
 
 in accordance with applicable canon.
 
----
+______________________________________________________________________
 
-# 98. Cross-Plane Mutation
+## 98. Cross-Plane Mutation
 
 A mutation crossing planes requires explicit bindings.
 
@@ -2058,9 +2057,9 @@ AUTHORITY / VALIDATION
 
 The Routing index MUST NOT infer target-plane permission from its own local contract.
 
----
+______________________________________________________________________
 
-# 99. Global Graph Boundary
+## 99. Global Graph Boundary
 
 This index does not claim a complete global dependency graph.
 
@@ -2073,9 +2072,9 @@ Therefore:
 
 $$LocalGraph \neq GlobalGraph$$
 
----
+______________________________________________________________________
 
-# 100. RSCF Role
+## 100. RSCF Role
 
 This artifact is an RSCF node participating in a wider knowledge graph.
 
@@ -2090,9 +2089,9 @@ cross-plane linkage
 provenance topology
 ```
 
----
+______________________________________________________________________
 
-# 101. RSCF Relation Semantics
+## 101. RSCF Relation Semantics
 
 Potential relations include:
 
@@ -2110,9 +2109,9 @@ INTERACTS_WITH
 
 Exact canonical relation semantics remain governed by the RSCF contract.
 
----
+______________________________________________________________________
 
-# 102. Link Integrity
+## 102. Link Integrity
 
 A correct RSCF link SHOULD preserve:
 
@@ -2126,9 +2125,9 @@ version where relevant
 
 A syntactically valid link with incorrect semantics is not sufficient graph integrity.
 
----
+______________________________________________________________________
 
-# 103. Link Failure
+## 103. Link Failure
 
 A link can fail through:
 
@@ -2144,9 +2143,9 @@ wrong relation type
 
 Link-integrity validation SHOULD distinguish these cases.
 
----
+______________________________________________________________________
 
-# 104. Automated Validation Boundary
+## 104. Automated Validation Boundary
 
 Current status:
 
@@ -2162,9 +2161,9 @@ link map
 
 remains an architectural/reference surface unless stronger execution evidence exists.
 
----
+______________________________________________________________________
 
-# 105. Routing Policy Receipt Boundary
+## 105. Routing Policy Receipt Boundary
 
 [[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]]
 
@@ -2186,9 +2185,9 @@ limitations
 
 before using it as implementation evidence.
 
----
+______________________________________________________________________
 
-# 106. Authorization Receipt Boundary
+## 106. Authorization Receipt Boundary
 
 [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]
 
@@ -2196,9 +2195,9 @@ may support claims about authorization behavior.
 
 It MUST NOT be assumed to validate every authority path merely by name.
 
----
+______________________________________________________________________
 
-# 107. Receipt Freshness
+## 107. Receipt Freshness
 
 A receipt becomes stale when its load-bearing conditions no longer match current state.
 
@@ -2213,9 +2212,9 @@ dependency change
 contract supersession
 ```
 
----
+______________________________________________________________________
 
-# 108. Proof Capsule
+## 108. Proof Capsule
 
 A consequential mutation decision MAY conceptually carry:
 
@@ -2249,9 +2248,9 @@ index_proof_capsule:
   confidence_ceiling:
 ```
 
----
+______________________________________________________________________
 
-# 109. Proof Capsule Reuse
+## 109. Proof Capsule Reuse
 
 Reuse is allowed only while:
 
@@ -2266,9 +2265,9 @@ freshness valid
 no new conflict
 ```
 
----
+______________________________________________________________________
 
-# 110. Confidence Ceiling
+## 110. Confidence Ceiling
 
 A mutation decision cannot be more certain than its weakest load-bearing premise unless independently revalidated.
 
@@ -2276,9 +2275,9 @@ $$Conf(Decision) \leq \min_i Conf(P_i)$$
 
 where $P_i$ are load-bearing premises.
 
----
+______________________________________________________________________
 
-# 111. Uncertainty Vector
+## 111. Uncertainty Vector
 
 Consequential index operations MAY track:
 
@@ -2295,9 +2294,9 @@ uncertainty:
 
 Not every dimension applies equally.
 
----
+______________________________________________________________________
 
-# 112. Gap Classification
+## 112. Gap Classification
 
 Gaps SHOULD be classified:
 
@@ -2310,9 +2309,9 @@ COSMETIC
 
 Resolve in that order.
 
----
+______________________________________________________________________
 
-# 113. Current Gap — Link Integrity
+## 113. Current Gap — Link Integrity
 
 ```yaml
 gap:
@@ -2329,9 +2328,9 @@ gap:
   state: PARTIAL
 ```
 
----
+______________________________________________________________________
 
-# 114. Current Gap — Executable Binding
+## 114. Current Gap — Executable Binding
 
 ```yaml
 gap:
@@ -2345,9 +2344,9 @@ gap:
   state: PARTIAL
 ```
 
----
+______________________________________________________________________
 
-# 115. Current Gap — Cross-Plane Completeness
+## 115. Current Gap — Cross-Plane Completeness
 
 ```yaml
 gap:
@@ -2361,9 +2360,9 @@ gap:
   state: EXPECTED_BOUNDARY
 ```
 
----
+______________________________________________________________________
 
-# 116. Anti-Fabrication Rules
+## 116. Anti-Fabrication Rules
 
 This index MUST NOT:
 
@@ -2381,9 +2380,9 @@ infer current validity from stale evidence;
 infer runtime binding from Markdown links.
 ```
 
----
+______________________________________________________________________
 
-# 117. Documentation Claim Rule
+## 117. Documentation Claim Rule
 
 Statements in this README about intended behavior remain:
 
@@ -2395,9 +2394,9 @@ unless supported by stronger evidence.
 
 Documentation is not itself execution evidence.
 
----
+______________________________________________________________________
 
-# 118. Architecture / Implementation Firewall
+## 118. Architecture / Implementation Firewall
 
 $$Architecture \neq Implementation$$
 
@@ -2407,9 +2406,9 @@ $$ReceiptReference \neq ValidatedReceipt$$
 
 $$Link \neq ExecutableEdge$$
 
----
+______________________________________________________________________
 
-# 119. Promotion Invariants
+## 119. Promotion Invariants
 
 ```text
 IDX-PROM-001
@@ -2443,9 +2442,9 @@ IDX-PROM-010
 Proposal and commit must remain separate.
 ```
 
----
+______________________________________________________________________
 
-# 120. Index Invariants
+## 120. Index Invariants
 
 ```text
 IDX-INV-001
@@ -2539,9 +2538,9 @@ IDX-INV-030
 This README does not self-promote to final canon.
 ```
 
----
+______________________________________________________________________
 
-# 121. Machine-Readable Index Contract
+## 121. Machine-Readable Index Contract
 
 ```yaml
 index_routing_cognitive_matrix:
@@ -2631,9 +2630,9 @@ index_routing_cognitive_matrix:
     required_where_consequential: true
 ```
 
----
+______________________________________________________________________
 
-# 122. Worked Example — Read-Only Resolution
+## 122. Worked Example — Read-Only Resolution
 
 Request:
 
@@ -2660,9 +2659,9 @@ RESOLVED
 
 No authority check beyond read permission is conceptually required if no consequential mutation occurs.
 
----
+______________________________________________________________________
 
-# 123. Worked Example — Ambiguous Identity
+## 123. Worked Example — Ambiguous Identity
 
 Suppose local directory contains:
 
@@ -2689,9 +2688,9 @@ not:
 choose newest-looking filename
 ```
 
----
+______________________________________________________________________
 
-# 124. Worked Example — Unauthorized Mutation
+## 124. Worked Example — Unauthorized Mutation
 
 Request:
 
@@ -2717,9 +2716,9 @@ HOLD / UNAUTHORIZED
 
 not commit.
 
----
+______________________________________________________________________
 
-# 125. Worked Example — Stale Authority
+## 125. Worked Example — Stale Authority
 
 Authority receipt applies to:
 
@@ -2742,9 +2741,9 @@ AUTHORITY_STALE
 → REVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 126. Worked Example — Failed Dependency
+## 126. Worked Example — Failed Dependency
 
 Proposed mutation depends on:
 
@@ -2765,9 +2764,9 @@ Only dependent mutation state is invalidated.
 
 The rest of the index remains valid.
 
----
+______________________________________________________________________
 
-# 127. Worked Example — Proposal vs Commit
+## 127. Worked Example — Proposal vs Commit
 
 ```text
 Proposal P:
@@ -2786,9 +2785,9 @@ Until gates pass:
 
 $$P \neq AuthoritativeState$$
 
----
+______________________________________________________________________
 
-# 128. Worked Example — Partial Receipt
+## 128. Worked Example — Partial Receipt
 
 A receipt proves:
 
@@ -2810,9 +2809,9 @@ link_integrity: PARTIAL
 
 must remain partial.
 
----
+______________________________________________________________________
 
-# 129. Worked Example — Cross-Plane Resolution
+## 129. Worked Example — Cross-Plane Resolution
 
 Request:
 
@@ -2841,9 +2840,9 @@ kernel plane
 KERNEL_README
 ```
 
----
+______________________________________________________________________
 
-# 130. Worked Example — Observability Evidence
+## 130. Worked Example — Observability Evidence
 
 Observability reports:
 
@@ -2866,9 +2865,9 @@ the route was correct;
 the artifact was canonical.
 ```
 
----
+______________________________________________________________________
 
-# 131. Worked Example — Recovery
+## 131. Worked Example — Recovery
 
 A committed link later proves invalid.
 
@@ -2888,9 +2887,9 @@ restore / repair
 write receipt
 ```
 
----
+______________________________________________________________________
 
-# 132. Smallest-Sufficient Traversal Example
+## 132. Smallest-Sufficient Traversal Example
 
 Question:
 
@@ -2919,9 +2918,9 @@ all raw validation evidence
 
 unless a decision-changing dependency requires them.
 
----
+______________________________________________________________________
 
-# 133. Canon Boundary
+## 133. Canon Boundary
 
 This artifact remains:
 
@@ -2942,9 +2941,9 @@ PARTIAL → COMPLETE
 
 require their applicable evidence and governance.
 
----
+______________________________________________________________________
 
-# 134. Final Index Law
+## 134. Final Index Law
 
 The Routing index exists to ensure that navigation and mutation begin from correct identity and correct authority rather than from filename convenience.
 
@@ -3010,15 +3009,15 @@ Where does cross-plane resolution continue?
 
 If any load-bearing answer is missing, AMOS preserves the gap instead of inventing certainty.
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
 
 **Related:** [[25_COGNITIVE_MATRIX/10_ROUTING/00_INDEX/ROUTING_COGNITIVE_MATRIX_ROUTING_CONTRACT|ROUTING_COGNITIVE_MATRIX_ROUTING_CONTRACT]] · [[25_COGNITIVE_MATRIX/10_ROUTING/00_INDEX/ROUTING_MAP|ROUTING_MAP]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/00_ROOT_MAP|00_ROOT_MAP]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[03_CONTROL_PLANE/01_TASK_CONTRACT/TASK_CONTRACT|TASK_CONTRACT]] · [[03_CONTROL_PLANE/01_TASK_CONTRACT/TASK_RESOLVER|TASK_RESOLVER]] · [[03_CONTROL_PLANE/02_CAPABILITY/CAPABILITY_RESOLVER|CAPABILITY_RESOLVER]] · [[03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX/MODE_ADMISSION_QUEUE|MODE_ADMISSION_QUEUE]] · [[03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX/MODE_COMPOSITION_REGISTRY|MODE_COMPOSITION_REGISTRY]] · [[03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX/MODE_CONFLICT_REGISTRY|MODE_CONFLICT_REGISTRY]] · [[03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX/MODE_COVERAGE_MATRIX|MODE_COVERAGE_MATRIX]] · [[03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX/MODE_DEPENDENCY_GRAPH|MODE_DEPENDENCY_GRAPH]] · [[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[02_KERNEL/KERNEL_README|KERNEL_README]] · [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]] · [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]] · [[02_KERNEL/09_INTEGRATION/K_RSCF|K_RSCF]] · [[01_CANON/01_CORE_LAWS/L17_RSCF|L17_RSCF]]
 
----
+______________________________________________________________________
 
 RSCF-NODE
 
@@ -3093,6 +3092,6 @@ This keeps the file correctly scoped as an **index/readme**, while making the ad
 - [[25_COGNITIVE_MATRIX/10_ROUTING/00_INDEX/ROUTING_COGNITIVE_MATRIX_ROUTING_CONTRACT|ROUTING_COGNITIVE_MATRIX_ROUTING_CONTRACT]]
 - [[25_COGNITIVE_MATRIX/10_ROUTING/00_INDEX/ROUTING_MAP|ROUTING_MAP]]
 
----
-**MOC:** [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]]
+______________________________________________________________________
 
+**MOC:** [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]]

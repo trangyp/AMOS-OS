@@ -1,23 +1,26 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: TENSORS — Full Source-Grounded Expansion
 type: knowledge
 source: 11_KNOWLEDGE
 tags:
-- tensors
-- rscf/T-topology
-- rscf/G-relation
-- rscf/type-model
-- rscf/epistemic
-- topic/tensors
-- knowledge
-- tensor-contracts
-- claim-tensor
-- amos-cross-domain-tensor-composition-governor
-- evidence-tensor
-- relation-tensor
-- amos-simulation-kernel-v0-math-foundations
-- system-scan-agent
-- automation-profiles
+  - tensors
+  - rscf/T-topology
+  - rscf/G-relation
+  - rscf/type-model
+  - rscf/epistemic
+  - topic/tensors
+  - knowledge
+  - tensor-contracts
+  - claim-tensor
+  - amos-cross-domain-tensor-composition-governor
+  - evidence-tensor
+  - relation-tensor
+  - amos-simulation-kernel-v0-math-foundations
+  - system-scan-agent
+  - automation-profiles
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -29,44 +32,46 @@ rscf:
 
 The Drive corpus confirms the seed `tensors.md` exactly around the nine-axis tensor `M[cause,mediator,target,relation_type,time,scale,regime,evidence_class,provenance]`, with the explicit rule that axes are typed/non-interchangeable and `UNKNOWN` plus provenance must be preserved.
 
-The wider tensor canon adds six explicit tensor contracts—reasoning, fractal, evidence, claim, governance, and memory—and the critical compatibility invariant: tensor composition is prohibited until shared axes are **semantically compatible**; same-name axes alone do not establish compatibility.  The cross-domain governor further formalizes preservation of epistemic class, provenance, scope/regime intersections, weakest-load-bearing confidence, and explicit bridge typing. That document itself labels the composition law `AMOS_MODEL`, so I preserve that epistemic ceiling rather than presenting it as an empirical mathematical theorem.
+The wider tensor canon adds six explicit tensor contracts—reasoning, fractal, evidence, claim, governance, and memory—and the critical compatibility invariant: tensor composition is prohibited until shared axes are **semantically compatible**; same-name axes alone do not establish compatibility. The cross-domain governor further formalizes preservation of epistemic class, provenance, scope/regime intersections, weakest-load-bearing confidence, and explicit bridge typing. That document itself labels the composition law `AMOS_MODEL`, so I preserve that epistemic ceiling rather than presenting it as an empirical mathematical theorem.
 
----
+______________________________________________________________________
+
 title: TENSORS
 
 tags:
-  - tensor
-  - tensors
-  - typed-tensor
-  - knowledge
-  - knowledge-representation
-  - multidimensional-knowledge
-  - tensor-contract
-  - tensor-composition
-  - semantic-axes
-  - relation-tensor
-  - reasoning-tensor
-  - evidence-tensor
-  - claim-tensor
-  - governance-tensor
-  - memory-tensor
-  - fractal-tensor
-  - causality
-  - mediator
-  - target
-  - relation-type
-  - time
-  - scale
-  - regime
-  - evidence-class
-  - provenance
-  - scope
-  - confidence
-  - epistemic
-  - unknown
-  - hml
-  - rscf
-  - canon/knowledge
+
+- tensor
+- tensors
+- typed-tensor
+- knowledge
+- knowledge-representation
+- multidimensional-knowledge
+- tensor-contract
+- tensor-composition
+- semantic-axes
+- relation-tensor
+- reasoning-tensor
+- evidence-tensor
+- claim-tensor
+- governance-tensor
+- memory-tensor
+- fractal-tensor
+- causality
+- mediator
+- target
+- relation-type
+- time
+- scale
+- regime
+- evidence-class
+- provenance
+- scope
+- confidence
+- epistemic
+- unknown
+- hml
+- rscf
+- canon/knowledge
 
 type: document
 
@@ -86,40 +91,39 @@ epistemic_status: AMOS_MODEL
 
 rscf:
 
-  state: SOURCE_CLAIM
+state: SOURCE_CLAIM
 
-  claim_class: SOURCE_CLAIM
+claim_class: SOURCE_CLAIM
 
-  provenance:
-    - AMOS_corpus
-    - 11_KNOWLEDGE/tensors.md
-    - 11_KNOWLEDGE/[[11_KNOWLEDGE/TENSOR_CONTRACTS|TENSOR_CONTRACTS]].md
-    - [[11_KNOWLEDGE/AMOS_CROSS_DOMAIN_TENSOR_COMPOSITION_GOVERNOR|AMOS_CROSS_DOMAIN_TENSOR_COMPOSITION_GOVERNOR]].md
+provenance:
+\- AMOS_corpus
+\- 11_KNOWLEDGE/tensors.md
+\- 11_KNOWLEDGE/[[11_KNOWLEDGE/TENSOR_CONTRACTS|TENSOR_CONTRACTS]].md
+\- [[11_KNOWLEDGE/AMOS_CROSS_DOMAIN_TENSOR_COMPOSITION_GOVERNOR|AMOS_CROSS_DOMAIN_TENSOR_COMPOSITION_GOVERNOR]].md
 
-  scope:
-    - AMOS_knowledge
-    - typed_tensor_representation
-    - reasoning
-    - evidence
-    - claims
-    - provenance
-    - governance
-    - memory
-    - fractal_reasoning
-    - cross_domain_composition
+scope:
+\- AMOS_knowledge
+\- typed_tensor_representation
+\- reasoning
+\- evidence
+\- claims
+\- provenance
+\- governance
+\- memory
+\- fractal_reasoning
+\- cross_domain_composition
 
-  confidence_ceiling:
-    seed_tensor: SOURCE_GROUNDED
-    tensor_contracts: SOURCE_GROUNDED
-    composition_invariant: SOURCE_GROUNDED
-    expanded_tensor_semantics: AMOS_MODEL
-    empirical_universality: NOT_ESTABLISHED
-    runtime_enforcement: NOT_ESTABLISHED
+confidence_ceiling:
+seed_tensor: SOURCE_GROUNDED
+tensor_contracts: SOURCE_GROUNDED
+composition_invariant: SOURCE_GROUNDED
+expanded_tensor_semantics: AMOS_MODEL
+empirical_universality: NOT_ESTABLISHED
+runtime_enforcement: NOT_ESTABLISHED
 
-raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
----
+## raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
 
-# TENSORS
+## TENSORS
 
 ## 0. Canonical Definition
 
@@ -154,9 +158,9 @@ A tensor in this knowledge architecture is therefore not merely an ordered colle
 
 It is a typed multidimensional knowledge object whose coordinates preserve the semantic role of each dimension.
 
----
+______________________________________________________________________
 
-# 1. Core Tensor
+## 1. Core Tensor
 
 The canonical seed structure is:
 
@@ -209,9 +213,9 @@ These symbolic abbreviations are convenience notation only.
 
 The semantic axis names remain authoritative.
 
----
+______________________________________________________________________
 
-# 2. Tensor Axis Contract
+## 2. Tensor Axis Contract
 
 Every tensor axis carries a distinct semantic function.
 
@@ -259,9 +263,9 @@ These descriptions normalize the source-defined axis names.
 
 They do not assert that every tensor encodes a verified causal mechanism.
 
----
+______________________________________________________________________
 
-# 3. Axis Typing Law
+## 3. Axis Typing Law
 
 The primary invariant is:
 
@@ -299,9 +303,9 @@ provenance
 
 even when underlying stored values happen to share a representation.
 
----
+______________________________________________________________________
 
-# 4. Non-Interchangeability
+## 4. Non-Interchangeability
 
 Given:
 
@@ -335,9 +339,9 @@ $$
 
 for typed axes.
 
----
+______________________________________________________________________
 
-# 5. UNKNOWN Preservation
+## 5. UNKNOWN Preservation
 
 Missing information is represented explicitly.
 
@@ -391,9 +395,9 @@ $$
 
 unless the relevant schema explicitly defines such equivalence.
 
----
+______________________________________________________________________
 
-# 6. Unknown-Axis Example
+## 6. Unknown-Axis Example
 
 ```yaml
 tensor:
@@ -438,9 +442,9 @@ not:
 NO CAUSE
 ```
 
----
+______________________________________________________________________
 
-# 7. Provenance Preservation
+## 7. Provenance Preservation
 
 Every consequential tensor should retain provenance.
 
@@ -462,9 +466,9 @@ $$
 
 Tensor transformations therefore preserve recoverable ancestry where materially required.
 
----
+______________________________________________________________________
 
-# 8. Provenance Axis
+## 8. Provenance Axis
 
 The provenance axis may conceptually identify:
 
@@ -492,9 +496,9 @@ Exact implementation is not established by the seed note.
 
 This is a normalized AMOS-model representation.
 
----
+______________________________________________________________________
 
-# 9. Cause Axis
+## 9. Cause Axis
 
 The `cause` axis records the entity or factor occupying the causal-source position in the represented relation.
 
@@ -518,9 +522,9 @@ CauseAxis(X)
 VerifiedCausalEffect(X)
 $$
 
----
+______________________________________________________________________
 
-# 10. Causal Firewall
+## 10. Causal Firewall
 
 The tensor architecture must distinguish:
 
@@ -548,9 +552,9 @@ feedback
 
 These relations must not be collapsed.
 
----
+______________________________________________________________________
 
-# 11. Mediator Axis
+## 11. Mediator Axis
 
 A mediator occupies an intermediate position between represented factors.
 
@@ -576,9 +580,9 @@ StructuralMediation
 VerifiedMediation
 $$
 
----
+______________________________________________________________________
 
-# 12. Target Axis
+## 12. Target Axis
 
 The `target` axis identifies the entity, state, outcome, variable, or object toward which the represented relation points.
 
@@ -602,9 +606,9 @@ model variable
 
 depending on the tensor's declared domain.
 
----
+______________________________________________________________________
 
-# 13. Relation-Type Axis
+## 13. Relation-Type Axis
 
 `relation_type` prevents semantically different edges from becoming indistinguishable.
 
@@ -638,9 +642,9 @@ The exact admissible registry is not established by the seed source.
 
 Therefore this list is an AMOS-model normalization rather than an authoritative exhaustive enum.
 
----
+______________________________________________________________________
 
-# 14. Time Axis
+## 14. Time Axis
 
 The `time` axis preserves temporal applicability.
 
@@ -670,9 +674,9 @@ TIME
 
 must be interpreted relative to the tensor contract.
 
----
+______________________________________________________________________
 
-# 15. Scale Axis
+## 15. Scale Axis
 
 The `scale` axis preserves the level at which a tensor relation applies.
 
@@ -688,9 +692,9 @@ L = detail / local state
 
 Cross-scale similarity does not automatically establish identical mechanism.
 
----
+______________________________________________________________________
 
-# 16. Scale Firewall
+## 16. Scale Firewall
 
 $$
 Valid(C,H)
@@ -708,9 +712,9 @@ $$
 
 without an explicit bridge.
 
----
+______________________________________________________________________
 
-# 17. Regime Axis
+## 17. Regime Axis
 
 The `regime` axis preserves the environment or epistemic regime under which the tensor is valid.
 
@@ -728,9 +732,9 @@ SPECULATIVE
 
 A tensor valid in one regime cannot automatically be promoted into another.
 
----
+______________________________________________________________________
 
-# 18. Regime Firewall
+## 18. Regime Firewall
 
 $$
 Valid(T,R_1)
@@ -748,9 +752,9 @@ SIMULATION TENSOR
 EMPIRICAL OBSERVATION
 ```
 
----
+______________________________________________________________________
 
-# 19. Evidence-Class Axis
+## 19. Evidence-Class Axis
 
 The `evidence_class` axis records epistemic typing.
 
@@ -768,9 +772,9 @@ MODEL
 
 The tensor must preserve this class during transformations unless a justified transition occurs.
 
----
+______________________________________________________________________
 
-# 20. Evidence-Class Preservation
+## 20. Evidence-Class Preservation
 
 Forbidden:
 
@@ -800,9 +804,9 @@ Transform(T)
 EpistemicPromotion(T)
 $$
 
----
+______________________________________________________________________
 
-# 21. Tensor Identity
+## 21. Tensor Identity
 
 A tensor is identified not only by its values but by:
 
@@ -834,9 +838,9 @@ Applicability(T)
 Lineage(T)
 $$
 
----
+______________________________________________________________________
 
-# 22. Tensor Schema
+## 22. Tensor Schema
 
 ```yaml
 TYPED_TENSOR:
@@ -876,9 +880,9 @@ TYPED_TENSOR:
   status:
 ```
 
----
+______________________________________________________________________
 
-# 23. Universal Tensor Contracts
+## 23. Universal Tensor Contracts
 
 The broader AMOS corpus defines six explicit typed tensor contracts:
 
@@ -898,9 +902,9 @@ T_M = Memory Tensor
 
 These extend rather than replace the seed tensor.
 
----
+______________________________________________________________________
 
-# 24. Universal Reasoning Tensor
+## 24. Universal Reasoning Tensor
 
 Canonical contract:
 
@@ -922,9 +926,9 @@ T_R = T[
 
 This tensor represents a reasoning object with epistemic, contextual, temporal, provenance, confidence, consequence, and governance dimensions.
 
----
+______________________________________________________________________
 
-# 25. Reasoning Tensor Contract
+## 25. Reasoning Tensor Contract
 
 ```yaml
 T_R:
@@ -952,9 +956,9 @@ T_R:
   governance:
 ```
 
----
+______________________________________________________________________
 
-# 26. Reasoning Tensor Integrity
+## 26. Reasoning Tensor Integrity
 
 A reasoning conclusion must not be evaluated solely from:
 
@@ -980,9 +984,9 @@ governance
 
 because these dimensions encode different constraints.
 
----
+______________________________________________________________________
 
-# 27. Fractal Tensor
+## 27. Fractal Tensor
 
 Canonical contract:
 
@@ -1003,9 +1007,9 @@ T_F = T[
 ]
 ```
 
----
+______________________________________________________________________
 
-# 28. Fractal Tensor Contract
+## 28. Fractal Tensor Contract
 
 ```yaml
 T_F:
@@ -1035,9 +1039,9 @@ T_F:
   provenance:
 ```
 
----
+______________________________________________________________________
 
-# 29. Fractal Tensor Firewall
+## 29. Fractal Tensor Firewall
 
 The tensor does not imply that every represented pattern is a mathematically verified fractal.
 
@@ -1061,9 +1065,9 @@ CROSS-SCALE ANALOGY
 CAUSATION
 ```
 
----
+______________________________________________________________________
 
-# 30. Evidence Tensor
+## 30. Evidence Tensor
 
 Canonical contract:
 
@@ -1084,9 +1088,9 @@ T_E = T[
 ]
 ```
 
----
+______________________________________________________________________
 
-# 31. Evidence Tensor Contract
+## 31. Evidence Tensor Contract
 
 ```yaml
 T_E:
@@ -1116,9 +1120,9 @@ T_E:
   revocation_state:
 ```
 
----
+______________________________________________________________________
 
-# 32. Evidence Ancestry
+## 32. Evidence Ancestry
 
 The `ancestry` axis preserves source lineage.
 
@@ -1133,9 +1137,9 @@ SOURCE A
 
 The three descendants do not automatically represent three independent sources.
 
----
+______________________________________________________________________
 
-# 33. Independence Axis
+## 33. Independence Axis
 
 The `independence` axis exists because:
 
@@ -1161,9 +1165,9 @@ UNKNOWN
 
 where the applicable implementation defines them.
 
----
+______________________________________________________________________
 
-# 34. Revocation State
+## 34. Revocation State
 
 Evidence may become:
 
@@ -1189,9 +1193,9 @@ REVOCATION
 ERASURE
 ```
 
----
+______________________________________________________________________
 
-# 35. Claim Tensor
+## 35. Claim Tensor
 
 Canonical contract:
 
@@ -1212,9 +1216,9 @@ T_C = T[
 ]
 ```
 
----
+______________________________________________________________________
 
-# 36. Claim Tensor Contract
+## 36. Claim Tensor Contract
 
 ```yaml
 T_C:
@@ -1244,9 +1248,9 @@ T_C:
   confidence_ceiling:
 ```
 
----
+______________________________________________________________________
 
-# 37. Claim Tensor Dependency Law
+## 37. Claim Tensor Dependency Law
 
 A claim retains its load-bearing premises.
 
@@ -1262,9 +1266,9 @@ T_C
 
 If a premise fails, dependent claims must be re-evaluated.
 
----
+______________________________________________________________________
 
-# 38. Confidence Ceiling
+## 38. Confidence Ceiling
 
 The claim tensor explicitly contains:
 
@@ -1282,9 +1286,9 @@ $$
 
 unless independently revalidated.
 
----
+______________________________________________________________________
 
-# 39. Competing Set
+## 39. Competing Set
 
 The `competing_set` axis preserves incompatible viable claims or models.
 
@@ -1305,9 +1309,9 @@ COMPETING
 
 is preserved.
 
----
+______________________________________________________________________
 
-# 40. Falsifier Axis
+## 40. Falsifier Axis
 
 The claim tensor explicitly records:
 
@@ -1317,9 +1321,9 @@ falsifiers
 
 A claim therefore carries conditions under which it should be invalidated, downgraded, or re-opened.
 
----
+______________________________________________________________________
 
-# 41. Causal-Level Axis
+## 41. Causal-Level Axis
 
 `causal_level` prevents different causal strengths from collapsing.
 
@@ -1339,9 +1343,9 @@ CAUSAL_EFFECT
 
 Exact enumerations require the governing causal registry.
 
----
+______________________________________________________________________
 
-# 42. Governance Tensor
+## 42. Governance Tensor
 
 Canonical contract:
 
@@ -1359,9 +1363,9 @@ T_G = T[
 ]
 ```
 
----
+______________________________________________________________________
 
-# 43. Governance Tensor Contract
+## 43. Governance Tensor Contract
 
 ```yaml
 T_G:
@@ -1385,9 +1389,9 @@ T_G:
   mutation_class:
 ```
 
----
+______________________________________________________________________
 
-# 44. Capability / Authority Firewall
+## 44. Capability / Authority Firewall
 
 The governance tensor preserves:
 
@@ -1399,17 +1403,17 @@ $$
 
 A system being capable of an action does not establish permission to execute it.
 
----
+______________________________________________________________________
 
-# 45. Consequence Radius
+## 45. Consequence Radius
 
 `consequence_radius` represents the downstream impact envelope of an action.
 
 Higher consequence radius should correspond to stronger validation/governance requirements under the broader AMOS governance model.
 
----
+______________________________________________________________________
 
-# 46. Reversibility
+## 46. Reversibility
 
 The tensor explicitly records whether an action can be reversed.
 
@@ -1425,9 +1429,9 @@ HIGH UNCERTAINTY + IRREVERSIBLE
 
 This is a governance model, not a universal quantitative law.
 
----
+______________________________________________________________________
 
-# 47. Rollback
+## 47. Rollback
 
 `rollback` represents the available recovery mechanism if an action fails.
 
@@ -1439,9 +1443,9 @@ rollback = UNKNOWN
 
 rather than assume reversibility.
 
----
+______________________________________________________________________
 
-# 48. Memory Tensor
+## 48. Memory Tensor
 
 Canonical contract:
 
@@ -1459,9 +1463,9 @@ T_M = T[
 ]
 ```
 
----
+______________________________________________________________________
 
-# 49. Memory Tensor Contract
+## 49. Memory Tensor Contract
 
 ```yaml
 T_M:
@@ -1485,9 +1489,9 @@ T_M:
   revalidation_epoch:
 ```
 
----
+______________________________________________________________________
 
-# 50. Memory Is Not Current Truth
+## 50. Memory Is Not Current Truth
 
 The memory tensor preserves freshness because:
 
@@ -1499,9 +1503,9 @@ CURRENT OBSERVATION
 
 Therefore memory reuse may require revalidation.
 
----
+______________________________________________________________________
 
-# 51. Contradiction State
+## 51. Contradiction State
 
 The memory tensor explicitly carries:
 
@@ -1527,9 +1531,9 @@ where a governing schema defines them.
 
 Contradictions should remain visible.
 
----
+______________________________________________________________________
 
-# 52. Revalidation Epoch
+## 52. Revalidation Epoch
 
 `revalidation_epoch` records when memory should be reconsidered or was last revalidated.
 
@@ -1545,9 +1549,9 @@ REVALIDATION
 UPDATED MEMORY STATE
 ```
 
----
+______________________________________________________________________
 
-# 53. Tensor Compatibility Invariant
+## 53. Tensor Compatibility Invariant
 
 The wider AMOS tensor contract states:
 
@@ -1564,9 +1568,9 @@ Same-name axes do not prove same meaning.
 
 This is the central composition invariant.
 
----
+______________________________________________________________________
 
-# 54. Semantic Compatibility
+## 54. Semantic Compatibility
 
 Given:
 
@@ -1602,9 +1606,9 @@ Name(Axis_A)=Name(Axis_B)
 Meaning(Axis_A)=Meaning(Axis_B)
 $$
 
----
+______________________________________________________________________
 
-# 55. Axis Compatibility Contract
+## 55. Axis Compatibility Contract
 
 Before composition:
 
@@ -1639,9 +1643,9 @@ AXIS_COMPATIBILITY:
 
 This is an AMOS-model normalization of the source invariant.
 
----
+______________________________________________________________________
 
-# 56. Composition
+## 56. Composition
 
 Conceptually:
 
@@ -1671,9 +1675,9 @@ The cross-domain governor further formalizes the composition requirements as:
 
 This formalization is itself classified `AMOS_MODEL`.
 
----
+______________________________________________________________________
 
-# 57. Composition Result States
+## 57. Composition Result States
 
 A governed composition may return:
 
@@ -1693,9 +1697,9 @@ UNKNOWN/GAP
 
 should be preserved rather than silently treated as permitted.
 
----
+______________________________________________________________________
 
-# 58. Epistemic Preservation Under Composition
+## 58. Epistemic Preservation Under Composition
 
 Given:
 
@@ -1723,9 +1727,9 @@ Compose(T_A,T_B)
 EpistemicUpgrade
 $$
 
----
+______________________________________________________________________
 
-# 59. Provenance Union
+## 59. Provenance Union
 
 The cross-domain tensor model requires composed provenance to retain the input ancestry.
 
@@ -1737,13 +1741,13 @@ Prov(T_C)
 Prov(T_A)\cup Prov(T_B)
 $$
 
-for a composed tensor \(T_C\).
+for a composed tensor (T_C).
 
 This prevents lineage loss.
 
----
+______________________________________________________________________
 
-# 60. Scope Intersection
+## 60. Scope Intersection
 
 Cross-domain composition should not silently expand applicability.
 
@@ -1757,9 +1761,9 @@ $$
 
 unless an independently validated bridge establishes broader scope.
 
----
+______________________________________________________________________
 
-# 61. Regime Intersection
+## 61. Regime Intersection
 
 Likewise:
 
@@ -1773,9 +1777,9 @@ under ordinary composition.
 
 A simulation tensor and empirical tensor cannot simply merge into an unrestricted universal tensor.
 
----
+______________________________________________________________________
 
-# 62. Weakest-Edge Rule
+## 62. Weakest-Edge Rule
 
 For a composed tensor:
 
@@ -1791,9 +1795,9 @@ unless independently revalidated.
 
 Composition cannot manufacture confidence.
 
----
+______________________________________________________________________
 
-# 63. Cross-Domain Bridge Types
+## 63. Cross-Domain Bridge Types
 
 The Drive corpus defines the following bridge classes in the cross-domain governor:
 
@@ -1811,9 +1815,9 @@ STRUCTURAL
 
 These types are not interchangeable.
 
----
+______________________________________________________________________
 
-# 64. Analogy Bridge
+## 64. Analogy Bridge
 
 ```text
 ANALOGY
@@ -1833,9 +1837,9 @@ or:
 CAUSATION
 ```
 
----
+______________________________________________________________________
 
-# 65. Structural Bridge
+## 65. Structural Bridge
 
 A structural bridge indicates comparable organization or pattern.
 
@@ -1847,9 +1851,9 @@ StructuralSimilarity
 CausalIdentity
 $$
 
----
+______________________________________________________________________
 
-# 66. Causal Bridge
+## 66. Causal Bridge
 
 A causal bridge makes a stronger claim.
 
@@ -1857,9 +1861,9 @@ Therefore it requires evidence appropriate to causal inference rather than mere 
 
 A causal label cannot be licensed by tensor geometry alone.
 
----
+______________________________________________________________________
 
-# 67. Informational Bridge
+## 67. Informational Bridge
 
 An informational bridge transfers relationships based on information structure.
 
@@ -1875,17 +1879,17 @@ or:
 causal equivalence
 ```
 
----
+______________________________________________________________________
 
-# 68. Isomorphism Bridge
+## 68. Isomorphism Bridge
 
 An isomorphism bridge represents a structure-preserving mapping.
 
 Even a valid mathematical isomorphism does not automatically prove that two real-world systems share the same causal mechanism.
 
----
+______________________________________________________________________
 
-# 69. Cross-Domain Composition Firewall
+## 69. Cross-Domain Composition Firewall
 
 Forbidden:
 
@@ -1913,9 +1917,9 @@ STRUCTURAL ANALOGY DETECTED
 → VALIDATE DOMAIN-SPECIFICALLY
 ```
 
----
+______________________________________________________________________
 
-# 70. Tensor Transformation
+## 70. Tensor Transformation
 
 A tensor may undergo:
 
@@ -1941,9 +1945,9 @@ revalidation
 
 Each transformation should preserve enough metadata to reconstruct the epistemic effect.
 
----
+______________________________________________________________________
 
-# 71. Projection
+## 71. Projection
 
 Projection removes axes from the active representation.
 
@@ -1963,9 +1967,9 @@ PROJECT AWAY provenance
 
 may be acceptable for visualization but not for consequential epistemic reasoning.
 
----
+______________________________________________________________________
 
-# 72. Lossy Projection
+## 72. Lossy Projection
 
 A projection is epistemically lossy if it removes dimensions required to validate the resulting claim.
 
@@ -1991,9 +1995,9 @@ Such projection should be marked:
 LOSSY
 ```
 
----
+______________________________________________________________________
 
-# 73. Tensor Aggregation
+## 73. Tensor Aggregation
 
 Aggregation may combine many tensors.
 
@@ -2005,9 +2009,9 @@ $$
 
 But aggregation must not convert correlated provenance into independent confirmation.
 
----
+______________________________________________________________________
 
-# 74. Provenance-Sybil Firewall
+## 74. Provenance-Sybil Firewall
 
 If:
 
@@ -2033,9 +2037,9 @@ THREE INDEPENDENT SOURCES
 
 The ancestry axis must expose common origin.
 
----
+______________________________________________________________________
 
-# 75. Tensor Update
+## 75. Tensor Update
 
 Updating one axis should invalidate only dependent conclusions when dependency structure is known.
 
@@ -2053,9 +2057,9 @@ regime-dependent derived tensors
 
 while preserving unrelated historical provenance.
 
----
+______________________________________________________________________
 
-# 76. Tensor Versioning
+## 76. Tensor Versioning
 
 A tensor should conceptually carry:
 
@@ -2077,9 +2081,9 @@ when version distinction materially affects reuse.
 
 Exact runtime implementation remains unestablished.
 
----
+______________________________________________________________________
 
-# 77. Tensor Freshness
+## 77. Tensor Freshness
 
 Freshness can affect:
 
@@ -2101,9 +2105,9 @@ source
 
 A tensor may therefore remain structurally valid while becoming stale for a specific decision.
 
----
+______________________________________________________________________
 
-# 78. Tensor Scope
+## 78. Tensor Scope
 
 Every consequential tensor should have an applicability envelope.
 
@@ -2127,9 +2131,9 @@ scope:
 
 This normalized scope structure prevents silent generalization.
 
----
+______________________________________________________________________
 
-# 79. Tensor Dependency Graph
+## 79. Tensor Dependency Graph
 
 Tensors can form a dependency graph:
 
@@ -2155,9 +2159,9 @@ T_G = governance
 
 This permits selective invalidation.
 
----
+______________________________________________________________________
 
-# 80. Selective Invalidation
+## 80. Selective Invalidation
 
 If:
 
@@ -2169,9 +2173,9 @@ is revoked, only tensors dependent on `T_E1` should be invalidated or re-evaluat
 
 Unrelated tensor branches remain intact where independence is established.
 
----
+______________________________________________________________________
 
-# 81. Tensor Contradiction
+## 81. Tensor Contradiction
 
 Two tensors may contradict.
 
@@ -2203,9 +2207,9 @@ PRESERVE BOTH
 → SEEK DISCRIMINATING EVIDENCE
 ```
 
----
+______________________________________________________________________
 
-# 82. Tensor Competition
+## 82. Tensor Competition
 
 When incompatible tensors remain similarly supported:
 
@@ -2219,9 +2223,9 @@ T_B
 
 The system should preserve competition.
 
----
+______________________________________________________________________
 
-# 83. Tensor Equality
+## 83. Tensor Equality
 
 Two tensors should not be treated as epistemically identical merely because their visible values match.
 
@@ -2251,9 +2255,9 @@ provenance
 freshness
 ```
 
----
+______________________________________________________________________
 
-# 84. Value Equality vs Semantic Equality
+## 84. Value Equality vs Semantic Equality
 
 ```text
 VALUE_EQUAL
@@ -2277,9 +2281,9 @@ The scalar values match.
 
 The dimensions do not.
 
----
+______________________________________________________________________
 
-# 85. Tensor Normalization
+## 85. Tensor Normalization
 
 Normalization may map compatible representations into a common schema.
 
@@ -2303,9 +2307,9 @@ seconds
 
 requires a validated mapping.
 
----
+______________________________________________________________________
 
-# 86. Tensor Alignment
+## 86. Tensor Alignment
 
 Before composition:
 
@@ -2333,9 +2337,9 @@ epistemic compatibility
 
 where applicable.
 
----
+______________________________________________________________________
 
-# 87. Tensor Composition Pipeline
+## 87. Tensor Composition Pipeline
 
 ```text
 INPUT TENSORS
@@ -2365,9 +2369,9 @@ COMPOSE
 VALIDATE OUTPUT
 ```
 
----
+______________________________________________________________________
 
-# 88. Composition Failure
+## 88. Composition Failure
 
 If any load-bearing compatibility test fails:
 
@@ -2393,9 +2397,9 @@ UNKNOWN/GAP
 
 depending on the governing contract.
 
----
+______________________________________________________________________
 
-# 89. Tensor Proof Capsule
+## 89. Tensor Proof Capsule
 
 Consequential composed tensors should conceptually carry:
 
@@ -2441,9 +2445,9 @@ TENSOR_PROOF_CAPSULE:
   composition_status:
 ```
 
----
+______________________________________________________________________
 
-# 90. Tensor Causal Example
+## 90. Tensor Causal Example
 
 ```yaml
 M:
@@ -2488,9 +2492,9 @@ Not automatically:
 X IS VERIFIED TO CAUSE Y THROUGH M
 ```
 
----
+______________________________________________________________________
 
-# 91. Tensor Observation Example
+## 91. Tensor Observation Example
 
 ```yaml
 M:
@@ -2525,9 +2529,9 @@ M:
 
 This preserves the fact that causal structure is unknown.
 
----
+______________________________________________________________________
 
-# 92. Tensor Source-Claim Example
+## 92. Tensor Source-Claim Example
 
 ```yaml
 M:
@@ -2572,9 +2576,9 @@ not:
 THE RELATION IS VERIFIED
 ```
 
----
+______________________________________________________________________
 
-# 93. Tensor Simulation Example
+## 93. Tensor Simulation Example
 
 ```yaml
 M:
@@ -2609,9 +2613,9 @@ M:
 
 This cannot be silently converted to an empirical tensor.
 
----
+______________________________________________________________________
 
-# 94. Tensor Memory Example
+## 94. Tensor Memory Example
 
 ```yaml
 T_M:
@@ -2650,9 +2654,9 @@ Correct result:
 REVALIDATE BEFORE CONSEQUENTIAL REUSE
 ```
 
----
+______________________________________________________________________
 
-# 95. Tensor Governance Example
+## 95. Tensor Governance Example
 
 ```yaml
 T_G:
@@ -2693,9 +2697,9 @@ BUT AUTHORITY IS UNKNOWN
 → DO NOT COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 96. Tensor Claim Example
+## 96. Tensor Claim Example
 
 ```yaml
 T_C:
@@ -2741,9 +2745,9 @@ T_C:
 
 The `causal_level` prevents the wording from being interpreted more strongly than the evidence licenses.
 
----
+______________________________________________________________________
 
-# 97. Tensor Fractal Example
+## 97. Tensor Fractal Example
 
 ```yaml
 T_F:
@@ -2797,9 +2801,9 @@ not necessarily:
 MATHEMATICALLY PROVEN FRACTAL
 ```
 
----
+______________________________________________________________________
 
-# 98. Tensor Reasoning Example
+## 98. Tensor Reasoning Example
 
 ```yaml
 T_R:
@@ -2841,9 +2845,9 @@ T_R:
 
 The confidence value cannot erase the epistemic class or provenance.
 
----
+______________________________________________________________________
 
-# 99. Cross-Domain Example
+## 99. Cross-Domain Example
 
 Suppose:
 
@@ -2879,9 +2883,9 @@ COMPOSITION = BLOCKED
 
 or requires an explicitly modeled bridge.
 
----
+______________________________________________________________________
 
-# 100. Cross-Scale Example
+## 100. Cross-Scale Example
 
 ```text
 T_H
@@ -2905,9 +2909,9 @@ L CAUSAL MECHANISM
 
 without a validated cross-scale bridge.
 
----
+______________________________________________________________________
 
-# 101. Tensor Anti-Overreach Laws
+## 101. Tensor Anti-Overreach Laws
 
 ```text
 AXIS NAME MATCH
@@ -2951,9 +2955,9 @@ COMPOSITION
 EPISTEMIC PROMOTION
 ```
 
----
+______________________________________________________________________
 
-# 102. Tensor Admission Contract
+## 102. Tensor Admission Contract
 
 Before admitting a tensor:
 
@@ -2981,9 +2985,9 @@ Before admitting a tensor:
 
 where applicable.
 
----
+______________________________________________________________________
 
-# 103. Tensor Validation Contract
+## 103. Tensor Validation Contract
 
 ```yaml
 TENSOR_VALIDATION:
@@ -3014,9 +3018,9 @@ TENSOR_VALIDATION:
     VALID | CONDITIONAL | BLOCKED | UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 104. Tensor Composition Validation
+## 104. Tensor Composition Validation
 
 ```yaml
 TENSOR_COMPOSITION_VALIDATION:
@@ -3046,9 +3050,9 @@ TENSOR_COMPOSITION_VALIDATION:
   result:
 ```
 
----
+______________________________________________________________________
 
-# 105. Tensor Lifecycle
+## 105. Tensor Lifecycle
 
 ```text
 CREATE
@@ -3074,9 +3078,9 @@ PERSIST LINEAGE
 REVALIDATE / INVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 106. Tensor Mutation
+## 106. Tensor Mutation
 
 A tensor mutation may change:
 
@@ -3102,9 +3106,9 @@ freshness
 
 These mutations have different epistemic consequences and should not be treated identically.
 
----
+______________________________________________________________________
 
-# 107. Value Mutation
+## 107. Value Mutation
 
 Changing a value while preserving schema:
 
@@ -3117,9 +3121,9 @@ may invalidate dependent conclusions.
 
 It does not necessarily invalidate the tensor type itself.
 
----
+______________________________________________________________________
 
-# 108. Schema Mutation
+## 108. Schema Mutation
 
 Adding, deleting, or changing axis semantics is a stronger mutation.
 
@@ -3135,9 +3139,9 @@ may alter compatibility with existing tensors.
 
 Therefore schema mutation requires compatibility revalidation.
 
----
+______________________________________________________________________
 
-# 109. Provenance Mutation
+## 109. Provenance Mutation
 
 Changing provenance may alter:
 
@@ -3155,9 +3159,9 @@ revocation state
 
 Therefore provenance is load-bearing metadata, not decorative metadata.
 
----
+______________________________________________________________________
 
-# 110. Regime Mutation
+## 110. Regime Mutation
 
 Changing:
 
@@ -3171,9 +3175,9 @@ is not a normal field update.
 
 It is an epistemic transition requiring a valid bridge.
 
----
+______________________________________________________________________
 
-# 111. Evidence-Class Mutation
+## 111. Evidence-Class Mutation
 
 Changing:
 
@@ -3187,9 +3191,9 @@ requires new observational evidence.
 
 Changing the label alone is invalid.
 
----
+______________________________________________________________________
 
-# 112. Tensor Persistence
+## 112. Tensor Persistence
 
 Persistent tensor storage should preserve:
 
@@ -3217,9 +3221,9 @@ invalidation state
 
 where these fields are material.
 
----
+______________________________________________________________________
 
-# 113. Tensor Retrieval
+## 113. Tensor Retrieval
 
 Retrieval should not automatically imply validity.
 
@@ -3245,9 +3249,9 @@ USE
 
 for consequential reuse.
 
----
+______________________________________________________________________
 
-# 114. Tensor Compression
+## 114. Tensor Compression
 
 Tensor compression is permitted only if epistemically load-bearing dimensions remain recoverable.
 
@@ -3271,9 +3275,9 @@ into:
 
 when those removed dimensions determine validity.
 
----
+______________________________________________________________________
 
-# 115. Tensor Serialization
+## 115. Tensor Serialization
 
 A tensor may be serialized as:
 
@@ -3299,9 +3303,9 @@ tensor:
 
 Serialization format does not change epistemic status.
 
----
+______________________________________________________________________
 
-# 116. Tensor Graph Representation
+## 116. Tensor Graph Representation
 
 A tensor can also be represented graphically:
 
@@ -3325,9 +3329,9 @@ metadata:
 
 This graph is a representation of the tensor, not a different epistemic object unless transformation semantics say otherwise.
 
----
+______________________________________________________________________
 
-# 117. Tensor and RSCF
+## 117. Tensor and RSCF
 
 Typed tensors complement RSCF structures.
 
@@ -3355,9 +3359,9 @@ TENSOR
 
 without being treated as identical structures.
 
----
+______________________________________________________________________
 
-# 118. Tensor and Proof Capsule
+## 118. Tensor and Proof Capsule
 
 A tensor may supply structured state to a proof capsule.
 
@@ -3373,9 +3377,9 @@ PROOF CAPSULE
 
 The proof capsule records the reasoning validity around the tensor rather than replacing it.
 
----
+______________________________________________________________________
 
-# 119. Tensor and H/M/L
+## 119. Tensor and H/M/L
 
 Tensor state may exist recursively at:
 
@@ -3399,9 +3403,9 @@ T_L = local observation
 
 Cross-level composition still requires semantic compatibility.
 
----
+______________________________________________________________________
 
-# 120. Tensor Dependency Closure
+## 120. Tensor Dependency Closure
 
 Before consequential composition, load-bearing tensor dependencies should be resolved.
 
@@ -3424,9 +3428,9 @@ INCOMPLETE
 
 and the result should be conditional or gap-marked.
 
----
+______________________________________________________________________
 
-# 121. Tensor Contradiction Test
+## 121. Tensor Contradiction Test
 
 ```text
 INPUT:
@@ -3446,9 +3450,9 @@ IF incompatible conclusions remain:
 PRESERVE CONTRADICTION / COMPETING
 ```
 
----
+______________________________________________________________________
 
-# 122. Tensor Freshness Test
+## 122. Tensor Freshness Test
 
 ```text
 CHECK:
@@ -3472,9 +3476,9 @@ where these axes apply.
 
 A stale tensor can remain historically valid while being unsuitable for current action.
 
----
+______________________________________________________________________
 
-# 123. Tensor Independence Test
+## 123. Tensor Independence Test
 
 ```text
 T_A.provenance
@@ -3496,9 +3500,9 @@ FULL
 
 The system should not assume independent confirmation.
 
----
+______________________________________________________________________
 
-# 124. Tensor Sensitivity Test
+## 124. Tensor Sensitivity Test
 
 For a derived tensor:
 
@@ -3516,9 +3520,9 @@ T_out.status = CONDITIONAL
 
 under the broader AMOS reasoning model.
 
----
+______________________________________________________________________
 
-# 125. Tensor Adversarial Validation
+## 125. Tensor Adversarial Validation
 
 Challenge a consequential tensor through an independent reasoning path looking for:
 
@@ -3544,9 +3548,9 @@ stronger competing tensor
 confidence inflation
 ```
 
----
+______________________________________________________________________
 
-# 126. Tensor Failure Modes
+## 126. Tensor Failure Modes
 
 ```yaml
 TENSOR_FAILURE_MODES:
@@ -3582,9 +3586,9 @@ TENSOR_FAILURE_MODES:
   - HIDDEN_SCHEMA_MUTATION
 ```
 
----
+______________________________________________________________________
 
-# 127. Failure Recovery
+## 127. Failure Recovery
 
 When tensor validation fails:
 
@@ -3602,9 +3606,9 @@ RECOMPOSE ONLY IF VALID
 
 Global recomputation should not be required where dependency isolation is established.
 
----
+______________________________________________________________________
 
-# 128. Minimal Tensor
+## 128. Minimal Tensor
 
 A tensor need not populate every axis with known values.
 
@@ -3643,9 +3647,9 @@ M:
 
 This is preferable to inventing causal fields.
 
----
+______________________________________________________________________
 
-# 129. Tensor Completeness
+## 129. Tensor Completeness
 
 More populated axes do not necessarily mean more truthful knowledge.
 
@@ -3665,9 +3669,9 @@ CORRECT UNKNOWN
 FABRICATED COMPLETENESS
 ```
 
----
+______________________________________________________________________
 
-# 130. Tensor Precision
+## 130. Tensor Precision
 
 A tensor is stronger when its semantic axes are explicit.
 
@@ -3693,9 +3697,9 @@ provenance: dataset_D
 
 The second representation exposes what is known and unknown.
 
----
+______________________________________________________________________
 
-# 131. Tensor Epistemic Value
+## 131. Tensor Epistemic Value
 
 The value of typed tensor representation is not dimensional complexity by itself.
 
@@ -3717,9 +3721,9 @@ source vs provenance
 unknown vs false
 ```
 
----
+______________________________________________________________________
 
-# 132. Tensor Governance Value
+## 132. Tensor Governance Value
 
 For action-bearing reasoning, tensors can preserve the distinction:
 
@@ -3735,9 +3739,9 @@ WHAT MAY BE DONE
 
 through separate reasoning and governance tensor contracts.
 
----
+______________________________________________________________________
 
-# 133. Tensor Memory Value
+## 133. Tensor Memory Value
 
 For persistent knowledge, tensors can preserve:
 
@@ -3757,9 +3761,9 @@ WHEN IT NEEDS REVALIDATION
 
 rather than reducing memory to content alone.
 
----
+______________________________________________________________________
 
-# 134. Tensor Evidence Value
+## 134. Tensor Evidence Value
 
 Evidence tensors preserve the topology needed to distinguish:
 
@@ -3775,9 +3779,9 @@ from:
 
 This distinction is load-bearing for confidence.
 
----
+______________________________________________________________________
 
-# 135. Tensor Claim Value
+## 135. Tensor Claim Value
 
 Claim tensors preserve:
 
@@ -3803,9 +3807,9 @@ confidence ceiling
 
 so a claim cannot safely be reduced to text alone.
 
----
+______________________________________________________________________
 
-# 136. Tensor Composition Value
+## 136. Tensor Composition Value
 
 Composition allows AMOS to combine structured knowledge while preventing:
 
@@ -3825,9 +3829,9 @@ confidence laundering
 
 when the governing invariants are applied.
 
----
+______________________________________________________________________
 
-# 137. Canonical Tensor Family
+## 137. Canonical Tensor Family
 
 ```yaml
 AMOS_TYPED_TENSOR_FAMILY:
@@ -3956,9 +3960,9 @@ AMOS_TYPED_TENSOR_FAMILY:
       - revalidation_epoch
 ```
 
----
+______________________________________________________________________
 
-# 138. Core Invariants
+## 138. Core Invariants
 
 ```yaml
 TENSOR_INVARIANTS:
@@ -3997,9 +4001,9 @@ TENSOR_INVARIANTS:
     prohibited
 ```
 
----
+______________________________________________________________________
 
-# 139. Composition Law
+## 139. Composition Law
 
 Source-grounded invariant:
 
@@ -4038,9 +4042,9 @@ BridgeTyped
 }
 $$
 
----
+______________________________________________________________________
 
-# 140. Canonical Compression
+## 140. Canonical Compression
 
 The seed tensor is:
 
@@ -4138,9 +4142,9 @@ Causation
 }
 $$
 
----
+______________________________________________________________________
 
-# 141. Operational Spine
+## 141. Operational Spine
 
 ```text
 KNOWLEDGE OBJECT
@@ -4190,9 +4194,9 @@ VALIDATE OUTPUT
 PERSIST LINEAGE
 ```
 
----
+______________________________________________________________________
 
-# 142. Gap Register
+## 142. Gap Register
 
 ```yaml
 TENSOR_GAPS:
@@ -4254,9 +4258,9 @@ TENSOR_GAPS:
       NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 143. RSCF-NODE
+## 143. RSCF-NODE
 
 RSCF-NODE
 
@@ -4342,19 +4346,19 @@ RSCF-RELATIONS:
 claim_class:
 AMOS_MODEL
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/TENSOR_CONTRACTS|TENSOR_CONTRACTS]] · [[11_KNOWLEDGE/CLAIM_TENSOR|CLAIM_TENSOR]] · [[11_KNOWLEDGE/EVIDENCE_TENSOR|EVIDENCE_TENSOR]] · [[11_KNOWLEDGE/RELATION_TENSOR|RELATION_TENSOR]] · [[11_KNOWLEDGE/AMOS_CROSS_DOMAIN_TENSOR_COMPOSITION_GOVERNOR|AMOS_CROSS_DOMAIN_TENSOR_COMPOSITION_GOVERNOR]] · 06-Knowledge-Base-MOC · AMOS_Simulation_Kernel_v0_Math_Foundations · system_scan_agent · automation_profiles
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
 
 **MOC:** [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]]
 
----
+______________________________________________________________________
 
 **Origin architect / steward:** **Trang Phan**
 

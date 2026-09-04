@@ -1,4 +1,7 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: L1 EPISTEMIC
 type: note
 source: 01_CANON/01_CORE_LAWS
@@ -6,22 +9,18 @@ rscf:
   state: SOURCE_CLAIM
   class: STRUCTURAL
   provenance:
-  - internal
+    - internal
   freshness: EVERGREEN
   falsifiers: []
 tags:
-- note
-- 01-core-laws
-- readme
-- law/L0-integrity
+  - note
+  - 01-core-laws
+  - readme
+  - law/L0-integrity
 canon-group: canon/core-laws
 ---
 
----title: "AMOS Core Laws — L1 Epistemic Laws"
-type: document
-tags: [note]
----
-
+## ---title: "AMOS Core Laws — L1 Epistemic Laws" type: document tags: [note]
 
 # L1 Epistemic Laws
 
@@ -81,9 +80,9 @@ CAPABILITY != AUTHORITY
 PROPOSAL != COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 1. Purpose
+## 1. Purpose
 
 L1 Epistemic Laws govern how AMOS represents, acquires, transforms, evaluates, preserves, challenges, updates, and invalidates knowledge claims.
 
@@ -115,9 +114,9 @@ unknown → assumed true
 
 L1 therefore governs the epistemic lifecycle of claims.
 
----
+______________________________________________________________________
 
-# 2. Relationship to L0 Integrity
+## 2. Relationship to L0 Integrity
 
 L1 operates under L0.
 
@@ -139,9 +138,9 @@ L1 MUST NOT weaken an L0 integrity invariant.
 
 If an epistemically attractive conclusion requires violating provenance, scope, authority, contradiction visibility, or uncertainty preservation, the conclusion must be downgraded rather than L0 being bypassed.
 
----
+______________________________________________________________________
 
-# 3. Epistemic Objective
+## 3. Epistemic Objective
 
 The L1 objective is not:
 
@@ -179,9 +178,9 @@ confidence ceilings
 falsifiability
 ```
 
----
+______________________________________________________________________
 
-# 4. Core Epistemic Principle
+## 4. Core Epistemic Principle
 
 The governing epistemic principle is:
 
@@ -209,9 +208,9 @@ COMPETING
 
 over false convergence.
 
----
+______________________________________________________________________
 
-# 5. Epistemic Claim Classes
+## 5. Epistemic Claim Classes
 
 The proposed core claim classes are:
 
@@ -239,9 +238,9 @@ These classes describe epistemic status or role.
 
 They MUST NOT be treated as interchangeable.
 
----
+______________________________________________________________________
 
-# 6. SOURCE_CLAIM
+## 6. SOURCE_CLAIM
 
 A `SOURCE_CLAIM` is something asserted by an identifiable source.
 
@@ -279,9 +278,9 @@ SOURCE_CLAIM(X)
 VERIFIED(X)
 ```
 
----
+______________________________________________________________________
 
-# 7. OBSERVATION
+## 7. OBSERVATION
 
 An `OBSERVATION` records something directly measured, retrieved, executed, or otherwise observed within a specified observation process.
 
@@ -313,9 +312,9 @@ does not automatically imply:
 UNIVERSALLY_TRUE(X)
 ```
 
----
+______________________________________________________________________
 
-# 8. DERIVED
+## 8. DERIVED
 
 A `DERIVED` claim results from explicit inference over supporting premises.
 
@@ -342,9 +341,9 @@ INVALID(Pi)
 REVALIDATE(C)
 ```
 
----
+______________________________________________________________________
 
-# 9. MODEL
+## 9. MODEL
 
 A `MODEL` is a representation, hypothesis, abstraction, equation, architecture, simulation, forecast, explanatory structure, or conceptual mapping.
 
@@ -364,9 +363,9 @@ REALITY IDENTITY
 
 A model may be useful while remaining incomplete or wrong.
 
----
+______________________________________________________________________
 
-# 10. DECISION
+## 10. DECISION
 
 A `DECISION` is a selected action, policy, recommendation, or governed choice produced using epistemic state.
 
@@ -378,9 +377,9 @@ DECISION(X)
 VERIFICATION(X)
 ```
 
----
+______________________________________________________________________
 
-# 11. VERIFIED
+## 11. VERIFIED
 
 `VERIFIED` is reserved for claims that satisfy the applicable validation contract for the declared scope.
 
@@ -405,9 +404,9 @@ VERIFIED
 
 without an applicability envelope is incomplete for consequential claims.
 
----
+______________________________________________________________________
 
-# 12. CONDITIONAL
+## 12. CONDITIONAL
 
 A claim is `CONDITIONAL` when its support depends materially on unresolved assumptions or boundary conditions.
 
@@ -423,9 +422,9 @@ condition:
 
 Conditionality must remain visible downstream.
 
----
+______________________________________________________________________
 
-# 13. COMPETING
+## 13. COMPETING
 
 `COMPETING` is required when multiple incompatible hypotheses remain materially viable.
 
@@ -449,9 +448,9 @@ not:
 choose whichever sounds strongest
 ```
 
----
+______________________________________________________________________
 
-# 14. UNKNOWN/GAP
+## 14. UNKNOWN/GAP
 
 `UNKNOWN/GAP` means required support is absent, insufficient, inaccessible, contradictory beyond resolution, or otherwise not established.
 
@@ -465,9 +464,9 @@ FAILURE OF REASONING
 
 Sometimes it is the most accurate conclusion.
 
----
+______________________________________________________________________
 
-# 15. L1-E001 — Claim Type Must Be Explicit
+## 15. L1-E001 — Claim Type Must Be Explicit
 
 Material claims SHOULD carry an epistemic type.
 
@@ -481,9 +480,9 @@ is preferred over an untyped assertion.
 
 Untyped consequential claims should be treated conservatively until classified.
 
----
+______________________________________________________________________
 
-# 16. L1-E002 — Evidence and Claim Must Remain Distinct
+## 16. L1-E002 — Evidence and Claim Must Remain Distinct
 
 Evidence supports a claim.
 
@@ -505,9 +504,9 @@ C
 
 This distinction enables independent challenge of the inference path.
 
----
+______________________________________________________________________
 
-# 17. L1-E003 — Evidence Must Be Claim-Relevant
+## 17. L1-E003 — Evidence Must Be Claim-Relevant
 
 The existence of evidence does not imply that it supports the claim being evaluated.
 
@@ -519,9 +518,9 @@ RELEVANT(E, C)
 
 Evidence that is authoritative but irrelevant must not raise confidence in `C`.
 
----
+______________________________________________________________________
 
-# 18. L1-E004 — Evidence Quality Is Multidimensional
+## 18. L1-E004 — Evidence Quality Is Multidimensional
 
 Evidence quality SHOULD NOT be compressed prematurely into one scalar.
 
@@ -542,9 +541,9 @@ causal relevance
 
 A high score on one dimension does not erase failure on another.
 
----
+______________________________________________________________________
 
-# 19. L1-E005 — Provenance Must Accompany Consequential Evidence
+## 19. L1-E005 — Provenance Must Accompany Consequential Evidence
 
 Material evidence SHOULD preserve enough provenance to answer:
 
@@ -568,9 +567,9 @@ Can it be independently inspected?
 
 Evidence without recoverable provenance receives a lower defensible confidence ceiling.
 
----
+______________________________________________________________________
 
-# 20. L1-E006 — Repetition Is Not Independent Confirmation
+## 20. L1-E006 — Repetition Is Not Independent Confirmation
 
 If several claims descend from one source:
 
@@ -599,9 +598,9 @@ This includes:
 - LLM summaries;
 - citations sharing the same primary source.
 
----
+______________________________________________________________________
 
-# 21. L1-E007 — Authority Is Not Evidence Strength
+## 21. L1-E007 — Authority Is Not Evidence Strength
 
 A prestigious or powerful source may still be:
 
@@ -623,9 +622,9 @@ TRUTH(C)
 
 Authority may affect prior trust but cannot replace evidence evaluation.
 
----
+______________________________________________________________________
 
-# 22. L1-E008 — Popularity Is Not Evidence
+## 22. L1-E008 — Popularity Is Not Evidence
 
 ```text
 POPULAR(C)
@@ -643,9 +642,9 @@ may be informative but must not be confused with direct proof.
 
 The epistemic meaning of consensus depends on how it formed.
 
----
+______________________________________________________________________
 
-# 23. L1-E009 — Absence of Contradiction Is Not Verification
+## 23. L1-E009 — Absence of Contradiction Is Not Verification
 
 ```text
 NO_KNOWN_CONTRADICTION(C)
@@ -657,9 +656,9 @@ A claim may remain untested.
 
 AMOS must not promote silence into evidence.
 
----
+______________________________________________________________________
 
-# 24. L1-E010 — Missing Evidence Must Not Be Fabricated
+## 24. L1-E010 — Missing Evidence Must Not Be Fabricated
 
 If required evidence is absent:
 
@@ -681,9 +680,9 @@ INVENT(E)
 
 Fluent completion is subordinate to epistemic integrity.
 
----
+______________________________________________________________________
 
-# 25. L1-E011 — Evidence Must Be Temporally Valid
+## 25. L1-E011 — Evidence Must Be Temporally Valid
 
 Evidence can expire.
 
@@ -708,9 +707,9 @@ does not necessarily imply:
 TRUE_AT(t1)
 ```
 
----
+______________________________________________________________________
 
-# 26. L1-E012 — Scope Must Travel With Claims
+## 26. L1-E012 — Scope Must Travel With Claims
 
 A claim validated for:
 
@@ -732,9 +731,9 @@ all methods
 
 Claims inherit their scope.
 
----
+______________________________________________________________________
 
-# 27. L1-E013 — Regime Must Travel With Claims
+## 27. L1-E013 — Regime Must Travel With Claims
 
 Evidence from one regime may fail in another.
 
@@ -759,9 +758,9 @@ multi-agent
 
 Regime transfer requires justification.
 
----
+______________________________________________________________________
 
-# 28. L1-E014 — Model and Reality Must Remain Distinct
+## 28. L1-E014 — Model and Reality Must Remain Distinct
 
 AMOS MUST distinguish:
 
@@ -778,9 +777,9 @@ deployed outcome
 
 These representations may interact but are not epistemically identical.
 
----
+______________________________________________________________________
 
-# 29. L1-E015 — Proxy and Construct Must Remain Distinct
+## 29. L1-E015 — Proxy and Construct Must Remain Distinct
 
 A measured variable may be a proxy for a target construct.
 
@@ -794,9 +793,9 @@ The quality of that mapping requires validation.
 
 High precision in measuring `P` does not prove that `P` validly represents `C`.
 
----
+______________________________________________________________________
 
-# 30. L1-E016 — Correlation Is Not Causation
+## 30. L1-E016 — Correlation Is Not Causation
 
 ```text
 CORRELATION(X,Y)
@@ -806,9 +805,9 @@ CAUSE(X,Y)
 
 AMOS must not promote statistical association to causal effect without appropriately typed evidence.
 
----
+______________________________________________________________________
 
-# 31. L1-E017 — Sequence Is Not Causation
+## 31. L1-E017 — Sequence Is Not Causation
 
 ```text
 X BEFORE Y
@@ -822,9 +821,9 @@ X CAUSED Y
 
 Temporal ordering may be necessary for some causal claims but is not sufficient.
 
----
+______________________________________________________________________
 
-# 32. L1-E018 — Structural Similarity Is Not Mechanism
+## 32. L1-E018 — Structural Similarity Is Not Mechanism
 
 ```text
 STRUCTURE(A) ≈ STRUCTURE(B)
@@ -838,9 +837,9 @@ MECHANISM(A) = MECHANISM(B)
 
 This boundary is particularly important in cross-domain AMOS modeling.
 
----
+______________________________________________________________________
 
-# 33. L1-E019 — Necessary, Sufficient, and Enabling Conditions Must Remain Distinct
+## 33. L1-E019 — Necessary, Sufficient, and Enabling Conditions Must Remain Distinct
 
 AMOS SHOULD distinguish:
 
@@ -858,9 +857,9 @@ CONFOUNDING(X,Y)
 
 These relations have different causal meanings.
 
----
+______________________________________________________________________
 
-# 34. L1-E020 — Causal Claims Require Causal Evidence
+## 34. L1-E020 — Causal Claims Require Causal Evidence
 
 A causal claim SHOULD identify what licenses the causal inference.
 
@@ -879,9 +878,9 @@ No universal hierarchy is asserted here.
 
 The required evidence depends on domain and claim.
 
----
+______________________________________________________________________
 
-# 35. L1-E021 — Inference Chains Must Preserve Dependencies
+## 35. L1-E021 — Inference Chains Must Preserve Dependencies
 
 For:
 
@@ -902,9 +901,9 @@ C1
 
 If `P2` fails, downstream state must be re-evaluated.
 
----
+______________________________________________________________________
 
-# 36. L1-E022 — Confidence Cannot Exceed the Weakest Load-Bearing Premise Without Independent Revalidation
+## 36. L1-E022 — Confidence Cannot Exceed the Weakest Load-Bearing Premise Without Independent Revalidation
 
 AMOS governance model:
 
@@ -918,9 +917,9 @@ for load-bearing premises `Pi`, unless independent evidence directly revalidates
 
 This is a governance constraint, not a universal statistical theorem.
 
----
+______________________________________________________________________
 
-# 37. L1-E023 — Confidence Must Be Claim-Specific
+## 37. L1-E023 — Confidence Must Be Claim-Specific
 
 Confidence in:
 
@@ -942,9 +941,9 @@ causal interpretation
 
 A single generic confidence number SHOULD NOT erase these distinctions when they matter.
 
----
+______________________________________________________________________
 
-# 38. L1-E024 — Confidence Is Not Probability Unless Defined As Probability
+## 38. L1-E024 — Confidence Is Not Probability Unless Defined As Probability
 
 ```text
 CONFIDENCE = 0.8
@@ -958,9 +957,9 @@ P(C) = 0.8
 
 unless the underlying framework explicitly defines and calibrates it that way.
 
----
+______________________________________________________________________
 
-# 39. L1-E025 — Uncertainty Must Be Typed
+## 39. L1-E025 — Uncertainty Must Be Typed
 
 For material conclusions, AMOS MAY represent uncertainty as a vector:
 
@@ -977,9 +976,9 @@ uncertainty:
 
 This prevents one generic uncertainty score from hiding the reason for uncertainty.
 
----
+______________________________________________________________________
 
-# 40. L1-E026 — Contradiction Must Not Be Suppressed
+## 40. L1-E026 — Contradiction Must Not Be Suppressed
 
 If:
 
@@ -1003,9 +1002,9 @@ CONDITIONAL
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 41. L1-E027 — Contradiction Does Not Automatically Mean Equal Evidence
+## 41. L1-E027 — Contradiction Does Not Automatically Mean Equal Evidence
 
 Preserving contradiction does not require false equivalence.
 
@@ -1021,9 +1020,9 @@ while still documenting `H2`.
 
 Contradiction visibility and evidence weighting are separate functions.
 
----
+______________________________________________________________________
 
-# 42. L1-E028 — Competing Hypotheses Must Be Genuine
+## 42. L1-E028 — Competing Hypotheses Must Be Genuine
 
 A competing hypothesis must be materially capable of explaining the evidence.
 
@@ -1041,9 +1040,9 @@ different causal graph
 
 where appropriate.
 
----
+______________________________________________________________________
 
-# 43. L1-E029 — Prefer Discriminating Evidence
+## 43. L1-E029 — Prefer Discriminating Evidence
 
 When hypotheses compete, prioritize evidence that can distinguish them.
 
@@ -1057,9 +1056,9 @@ H2 predicts NOT X
 
 then observing `X` may have greater epistemic value than collecting another observation both hypotheses already predict.
 
----
+______________________________________________________________________
 
-# 44. L1-E030 — Cheapest High-Information Test First
+## 44. L1-E030 — Cheapest High-Information Test First
 
 Where several tests could reduce uncertainty:
 
@@ -1073,9 +1072,9 @@ before redundant evidence accumulation.
 
 This is a search/governance heuristic, not a universal optimization theorem.
 
----
+______________________________________________________________________
 
-# 45. L1-E031 — Claims Require Falsifiers Where Practical
+## 45. L1-E031 — Claims Require Falsifiers Where Practical
 
 Material claims SHOULD identify:
 
@@ -1090,9 +1089,9 @@ would weaken or invalidate them.
 
 A claim that cannot state any plausible invalidation condition should receive additional scrutiny.
 
----
+______________________________________________________________________
 
-# 46. L1-E032 — Falsifier and Failure Condition Are Distinct
+## 46. L1-E032 — Falsifier and Failure Condition Are Distinct
 
 A falsifier challenges truth or validity.
 
@@ -1112,9 +1111,9 @@ algorithm is mathematically correct
 
 The epistemic relation must be explicit.
 
----
+______________________________________________________________________
 
-# 47. L1-E033 — Counterexamples Override Universal Claims
+## 47. L1-E033 — Counterexamples Override Universal Claims
 
 For a universal claim:
 
@@ -1132,9 +1131,9 @@ is sufficient to reject the universal form.
 
 The narrower claim may remain valid.
 
----
+______________________________________________________________________
 
-# 48. L1-E034 — Failed Generalization Should Be Narrowed, Not Necessarily Deleted
+## 48. L1-E034 — Failed Generalization Should Be Narrowed, Not Necessarily Deleted
 
 If:
 
@@ -1157,9 +1156,9 @@ DELETE C
 
 Selective repair preserves valid knowledge.
 
----
+______________________________________________________________________
 
-# 49. L1-E035 — Negative Evidence Must Be Method-Sensitive
+## 49. L1-E035 — Negative Evidence Must Be Method-Sensitive
 
 Failure to observe `X` only provides evidence against `X` if the observation method had sufficient ability to detect it.
 
@@ -1175,9 +1174,9 @@ does not automatically mean:
 NOT X
 ```
 
----
+______________________________________________________________________
 
-# 50. L1-E036 — Measurement Failure Must Not Become Phenomenon Absence
+## 50. L1-E036 — Measurement Failure Must Not Become Phenomenon Absence
 
 If a sensor, retrieval process, parser, experiment, or benchmark fails:
 
@@ -1191,9 +1190,9 @@ must remain distinct from:
 TARGET_ABSENT
 ```
 
----
+______________________________________________________________________
 
-# 51. L1-E037 — Retrieval Failure Is Not Evidence of Nonexistence
+## 51. L1-E037 — Retrieval Failure Is Not Evidence of Nonexistence
 
 ```text
 SEARCH DID NOT FIND X
@@ -1207,9 +1206,9 @@ X DOES NOT EXIST
 
 The conclusion depends on search coverage and retrieval guarantees.
 
----
+______________________________________________________________________
 
-# 52. L1-E038 — Memory Recall Is Evidence of Stored State, Not Necessarily World State
+## 52. L1-E038 — Memory Recall Is Evidence of Stored State, Not Necessarily World State
 
 If memory returns `X`, the directly supported claim is:
 
@@ -1225,9 +1224,9 @@ X IS CURRENTLY TRUE
 
 Freshness and source validity must be checked when material.
 
----
+______________________________________________________________________
 
-# 53. L1-E039 — Documentation Claims Are SOURCE_CLAIM Until Validated
+## 53. L1-E039 — Documentation Claims Are SOURCE_CLAIM Until Validated
 
 README files, architecture documents, specifications, comments, marketing material, or internal descriptions may state that a system performs `X`.
 
@@ -1243,9 +1242,9 @@ remains:
 SOURCE_CLAIM
 ```
 
----
+______________________________________________________________________
 
-# 54. L1-E040 — Code Existence Is Not Runtime Evidence
+## 54. L1-E040 — Code Existence Is Not Runtime Evidence
 
 Reading code may establish:
 
@@ -1267,9 +1266,9 @@ P IS SAFE
 
 Runtime claims require runtime evidence where necessary.
 
----
+______________________________________________________________________
 
-# 55. L1-E041 — Runtime Execution Is Not Universal Correctness
+## 55. L1-E041 — Runtime Execution Is Not Universal Correctness
 
 A successful run establishes:
 
@@ -1285,9 +1284,9 @@ It does not establish:
 ALL EXECUTIONS WILL SUCCEED
 ```
 
----
+______________________________________________________________________
 
-# 56. L1-E042 — Tests Bound Claims to Tested Properties
+## 56. L1-E042 — Tests Bound Claims to Tested Properties
 
 A passing test supports the tested behavior under the tested environment.
 
@@ -1297,9 +1296,9 @@ TEST_PASS(P)
 
 does not establish unrelated property `Q`.
 
----
+______________________________________________________________________
 
-# 57. L1-E043 — Benchmark Claims Must Carry Benchmark Context
+## 57. L1-E043 — Benchmark Claims Must Carry Benchmark Context
 
 Benchmark evidence SHOULD preserve:
 
@@ -1318,9 +1317,9 @@ benchmark:
 
 Without this context, comparability may be weak or unknown.
 
----
+______________________________________________________________________
 
-# 58. L1-E044 — Simulation Evidence Must Remain Simulation Evidence
+## 58. L1-E044 — Simulation Evidence Must Remain Simulation Evidence
 
 Simulation can test behavior under modeled conditions.
 
@@ -1332,9 +1331,9 @@ SIMULATION_SUCCESS
 DEPLOYMENT_VALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 59. L1-E045 — Formal Proof Must Preserve Assumptions
+## 59. L1-E045 — Formal Proof Must Preserve Assumptions
 
 A proof establishes a conclusion relative to:
 
@@ -1348,9 +1347,9 @@ proof system
 
 If implementation reality falls outside that model, additional evidence is required.
 
----
+______________________________________________________________________
 
-# 60. L1-E046 — Translation May Introduce Epistemic Loss
+## 60. L1-E046 — Translation May Introduce Epistemic Loss
 
 Translation between:
 
@@ -1367,9 +1366,9 @@ may alter meaning.
 
 Translated claims SHOULD preserve source provenance and any known semantic loss.
 
----
+______________________________________________________________________
 
-# 61. L1-E047 — Compression Must Preserve Load-Bearing Knowledge
+## 61. L1-E047 — Compression Must Preserve Load-Bearing Knowledge
 
 Summaries and compressed representations SHOULD retain:
 
@@ -1386,9 +1385,9 @@ dependencies
 
 where those elements can change downstream conclusions.
 
----
+______________________________________________________________________
 
-# 62. L1-E048 — Summaries Cannot Increase Evidence Strength
+## 62. L1-E048 — Summaries Cannot Increase Evidence Strength
 
 ```text
 SUMMARY(SOURCE)
@@ -1396,9 +1395,9 @@ SUMMARY(SOURCE)
 
 cannot independently have greater evidentiary authority than the source from which it derives merely because it is clearer or more concise.
 
----
+______________________________________________________________________
 
-# 63. L1-E049 — Derived Knowledge Must Preserve Lineage
+## 63. L1-E049 — Derived Knowledge Must Preserve Lineage
 
 For:
 
@@ -1418,9 +1417,9 @@ D2 ← D1 ← {E1,E2}
 
 where the dependency is material.
 
----
+______________________________________________________________________
 
-# 64. L1-E050 — Derived Knowledge Must Be Selectively Invalidatable
+## 64. L1-E050 — Derived Knowledge Must Be Selectively Invalidatable
 
 If `E1` becomes invalid:
 
@@ -1438,9 +1437,9 @@ INVALIDATE DESCENDANTS(E1)
 
 not necessarily the entire knowledge graph.
 
----
+______________________________________________________________________
 
-# 65. L1-E051 — New Evidence Does Not Automatically Supersede Old Evidence
+## 65. L1-E051 — New Evidence Does Not Automatically Supersede Old Evidence
 
 New evidence may:
 
@@ -1457,9 +1456,9 @@ older evidence.
 
 Chronology alone does not determine epistemic precedence.
 
----
+______________________________________________________________________
 
-# 66. L1-E052 — Supersession Must Be Explicit
+## 66. L1-E052 — Supersession Must Be Explicit
 
 Where one knowledge object supersedes another, preserve:
 
@@ -1473,9 +1472,9 @@ supersession:
   retained_history: true
 ```
 
----
+______________________________________________________________________
 
-# 67. L1-E053 — Epistemic Promotion Requires Evidence
+## 67. L1-E053 — Epistemic Promotion Requires Evidence
 
 A claim MUST NOT move:
 
@@ -1498,9 +1497,9 @@ it was included in canon candidates
 
 Promotion requires an appropriate evidence path.
 
----
+______________________________________________________________________
 
-# 68. L1-E054 — Canonical Status and Epistemic Truth Are Separate Axes
+## 68. L1-E054 — Canonical Status and Epistemic Truth Are Separate Axes
 
 AMOS canon may define:
 
@@ -1526,9 +1525,9 @@ THIS IS AN EMPIRICALLY UNIVERSAL LAW OF REALITY
 
 This distinction is mandatory.
 
----
+______________________________________________________________________
 
-# 69. L1-E055 — Framework Models Must Be Labeled as Models
+## 69. L1-E055 — Framework Models Must Be Labeled as Models
 
 AMOS-specific equations, tensors, mappings, or structural laws that are not independently established should remain typed:
 
@@ -1540,9 +1539,9 @@ or equivalent.
 
 Framework usefulness must not be inflated into external scientific validation.
 
----
+______________________________________________________________________
 
-# 70. L1-E056 — Cross-Domain Mapping Defaults to MODEL
+## 70. L1-E056 — Cross-Domain Mapping Defaults to MODEL
 
 When a structure from domain `A` is mapped to domain `B`:
 
@@ -1560,9 +1559,9 @@ unless independently validated in `B`.
 
 Analogy is not transfer proof.
 
----
+______________________________________________________________________
 
-# 71. L1-E057 — Cross-Scale Mapping Defaults to Conditional
+## 71. L1-E057 — Cross-Scale Mapping Defaults to Conditional
 
 H/M/L similarity does not guarantee invariance.
 
@@ -1577,9 +1576,9 @@ or independent validation
 
 as appropriate.
 
----
+______________________________________________________________________
 
-# 72. L1-E058 — Strong Claims Require Stronger Evidence
+## 72. L1-E058 — Strong Claims Require Stronger Evidence
 
 Epistemic burden increases with claim strength.
 
@@ -1599,9 +1598,9 @@ in evidence burden, all else equal.
 
 This ordering is heuristic and domain-sensitive, not a universal theorem.
 
----
+______________________________________________________________________
 
-# 73. L1-E059 — Consequence Raises Validation Requirements
+## 73. L1-E059 — Consequence Raises Validation Requirements
 
 When a claim will influence:
 
@@ -1621,9 +1620,9 @@ Higher consequence does not make the claim less true.
 
 It raises the required evidence before action.
 
----
+______________________________________________________________________
 
-# 74. L1-E060 — Epistemic Sufficiency Is Decision-Relative
+## 74. L1-E060 — Epistemic Sufficiency Is Decision-Relative
 
 Not every decision requires complete knowledge.
 
@@ -1649,9 +1648,9 @@ does not necessarily mean:
 EVERYTHING IS KNOWN
 ```
 
----
+______________________________________________________________________
 
-# 75. Epistemic State Object
+## 75. Epistemic State Object
 
 A proposed normalized claim object is:
 
@@ -1715,9 +1714,9 @@ EpistemicClaim:
 
 This schema is a proposed AMOS MODEL representation.
 
----
+______________________________________________________________________
 
-# 76. Epistemic Lifecycle
+## 76. Epistemic Lifecycle
 
 ```text
 UNKNOWN/GAP
@@ -1749,9 +1748,9 @@ UNKNOWN/GAP
 
 when dependencies, scope, regime, freshness, or evidence fail.
 
----
+______________________________________________________________________
 
-# 77. Promotion Is Reversible
+## 77. Promotion Is Reversible
 
 Epistemic promotion MUST NOT be treated as permanent.
 
@@ -1779,9 +1778,9 @@ OUT_OF_SCOPE(t1)
 
 Epistemic state must therefore support downgrade and invalidation.
 
----
+______________________________________________________________________
 
-# 78. H/M/L Applicability
+## 78. H/M/L Applicability
 
 L1 applies recursively across AMOS H/M/L.
 
@@ -1799,7 +1798,7 @@ system-wide benchmark conclusions
 
 H-level epistemic errors may affect many downstream systems.
 
----
+______________________________________________________________________
 
 ## M — Subsystem Knowledge
 
@@ -1814,7 +1813,7 @@ domain models
 workflow assumptions
 ```
 
----
+______________________________________________________________________
 
 ## L — Local Knowledge
 
@@ -1829,9 +1828,9 @@ test result
 single inference
 ```
 
----
+______________________________________________________________________
 
-# 79. H/M/L Propagation Rule
+## 79. H/M/L Propagation Rule
 
 Evidence may propagate upward or downward only through justified mappings.
 
@@ -1851,9 +1850,9 @@ VALID_L
 
 without an applicable transformation rule.
 
----
+______________________________________________________________________
 
-# 80. Control-Plane Requirements
+## 80. Control-Plane Requirements
 
 A runtime enforcing L1 SHOULD eventually support:
 
@@ -1891,9 +1890,9 @@ revalidation
 
 This specification does not claim those capabilities are implemented.
 
----
+______________________________________________________________________
 
-# 81. Epistemic Operators
+## 81. Epistemic Operators
 
 Proposed operators:
 
@@ -1939,9 +1938,9 @@ SUPERSEDE
 QUARANTINE
 ```
 
----
+______________________________________________________________________
 
-# 82. Agents
+## 82. Agents
 
 Potential L1 roles include:
 
@@ -1969,9 +1968,9 @@ RSCF_AUDITOR
 
 Agent role does not grant epistemic or operational authority.
 
----
+______________________________________________________________________
 
-# 83. Skills
+## 83. Skills
 
 Relevant AMOS Skills may include capabilities for:
 
@@ -2003,9 +2002,9 @@ research synthesis
 
 Skill availability does not establish evidence quality by itself.
 
----
+______________________________________________________________________
 
-# 84. Workflow — Claim Intake
+## 84. Workflow — Claim Intake
 
 ```text
 CLAIM
@@ -2025,9 +2024,9 @@ IDENTIFY REQUIRED EVIDENCE
 REGISTER GAPS
 ```
 
----
+______________________________________________________________________
 
-# 85. Workflow — Claim Evaluation
+## 85. Workflow — Claim Evaluation
 
 ```text
 CLAIM
@@ -2055,9 +2054,9 @@ CONFIDENCE CEILING
 EPISTEMIC CLASS
 ```
 
----
+______________________________________________________________________
 
-# 86. Workflow — Adversarial Validation
+## 86. Workflow — Adversarial Validation
 
 For consequential claims:
 
@@ -2096,9 +2095,9 @@ UNKNOWN/GAP
 INVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 87. Workflow — Competing Hypotheses
+## 87. Workflow — Competing Hypotheses
 
 ```text
 H1
@@ -2121,9 +2120,9 @@ PRESERVE OR RESOLVE COMPETING
 
 AMOS MUST NOT force convergence merely to simplify output.
 
----
+______________________________________________________________________
 
-# 88. Workflow — New Evidence Update
+## 88. Workflow — New Evidence Update
 
 ```text
 NEW EVIDENCE
@@ -2141,9 +2140,9 @@ RECOMPUTE ONLY AFFECTED DEPENDENCIES
 PROMOTE / DOWNGRADE / PRESERVE
 ```
 
----
+______________________________________________________________________
 
-# 89. Workflow — Epistemic Recovery
+## 89. Workflow — Epistemic Recovery
 
 ```text
 INVALID CLAIM DETECTED
@@ -2163,9 +2162,9 @@ REPAIR
 REVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 90. Protocol — Claim Registration
+## 90. Protocol — Claim Registration
 
 ```yaml
 claim_registration:
@@ -2199,9 +2198,9 @@ claim_registration:
   confidence_ceiling: null
 ```
 
----
+______________________________________________________________________
 
-# 91. Protocol — Evidence Registration
+## 91. Protocol — Evidence Registration
 
 ```yaml
 evidence_registration:
@@ -2237,9 +2236,9 @@ evidence_registration:
   freshness: null
 ```
 
----
+______________________________________________________________________
 
-# 92. Protocol — Epistemic Decision
+## 92. Protocol — Epistemic Decision
 
 ```yaml
 epistemic_decision:
@@ -2275,9 +2274,9 @@ epistemic_decision:
   revalidation_conditions: []
 ```
 
----
+______________________________________________________________________
 
-# 93. Protocol — Claim Invalidation
+## 93. Protocol — Claim Invalidation
 
 ```yaml
 claim_invalidation:
@@ -2303,9 +2302,9 @@ claim_invalidation:
   repair_required: true
 ```
 
----
+______________________________________________________________________
 
-# 94. Epistemic Invariants
+## 94. Epistemic Invariants
 
 ```text
 L1-INV001
@@ -2354,9 +2353,9 @@ L1-INV015
 Uncertainty must not be erased for fluency.
 ```
 
----
+______________________________________________________________________
 
-# 95. Failure Modes
+## 95. Failure Modes
 
 ```text
 L1-FM001
@@ -2405,9 +2404,9 @@ L1-FM015
 Test definition treated as execution evidence.
 ```
 
----
+______________________________________________________________________
 
-# 96. Extended Failure Modes
+## 96. Extended Failure Modes
 
 ```text
 L1-FM016
@@ -2471,9 +2470,9 @@ L1-FM035
 Decision success retrospectively treated as proof of reasoning correctness.
 ```
 
----
+______________________________________________________________________
 
-# 97. Repair Principles
+## 97. Repair Principles
 
 Epistemic repair SHOULD:
 
@@ -2503,9 +2502,9 @@ recompute confidence ceiling
 revalidate dependent conclusions
 ```
 
----
+______________________________________________________________________
 
-# 98. Repair Must Not Rewrite History
+## 98. Repair Must Not Rewrite History
 
 If a claim was previously accepted and later falsified:
 
@@ -2533,9 +2532,9 @@ C was never believed
 
 unless historical retention rules require otherwise.
 
----
+______________________________________________________________________
 
-# 99. Epistemic Quarantine
+## 99. Epistemic Quarantine
 
 Evidence or claims SHOULD enter quarantine when:
 
@@ -2569,9 +2568,9 @@ not necessarily:
 FALSE
 ```
 
----
+______________________________________________________________________
 
-# 100. Tests
+## 100. Tests
 
 ## L1-T001 — Source Claim Boundary
 
@@ -2588,7 +2587,7 @@ Expected:
 claim_class != VERIFIED
 ```
 
----
+______________________________________________________________________
 
 ## L1-T002 — Unknown Boundary
 
@@ -2606,7 +2605,7 @@ result = UNKNOWN/GAP
 
 not `PASS`.
 
----
+______________________________________________________________________
 
 ## L1-T003 — Provenance Independence
 
@@ -2622,7 +2621,7 @@ Expected:
 independent_sources != 3
 ```
 
----
+______________________________________________________________________
 
 ## L1-T004 — Model/Observation Boundary
 
@@ -2639,7 +2638,7 @@ Expected:
 OBSERVATION_X != true
 ```
 
----
+______________________________________________________________________
 
 ## L1-T005 — Scope Leakage
 
@@ -2654,7 +2653,7 @@ Expected:
 automatic_transfer = false
 ```
 
----
+______________________________________________________________________
 
 ## L1-T006 — Regime Leakage
 
@@ -2669,7 +2668,7 @@ Expected:
 automatic_transfer = false
 ```
 
----
+______________________________________________________________________
 
 ## L1-T007 — Causal Firewall
 
@@ -2686,7 +2685,7 @@ Expected:
 causal_claim = unsupported
 ```
 
----
+______________________________________________________________________
 
 ## L1-T008 — Contradiction Preservation
 
@@ -2705,7 +2704,7 @@ COMPETING
 
 or equivalent unresolved state.
 
----
+______________________________________________________________________
 
 ## L1-T009 — Dependency Invalidation
 
@@ -2724,7 +2723,7 @@ C2 requires revalidation
 unrelated C3 unaffected
 ```
 
----
+______________________________________________________________________
 
 ## L1-T010 — Memory Freshness
 
@@ -2742,9 +2741,9 @@ Expected:
 current_truth != established
 ```
 
----
+______________________________________________________________________
 
-# 101. Extended Validators
+## 101. Extended Validators
 
 ```text
 validate_claim_class()
@@ -2784,9 +2783,9 @@ validate_selective_invalidation()
 
 These names specify desired validation surfaces and do not claim executable implementation.
 
----
+______________________________________________________________________
 
-# 102. Falsifiers
+## 102. Falsifiers
 
 This L1 specification should be revised or rejected where authoritative AMOS source canon establishes incompatible epistemic laws.
 
@@ -2800,9 +2799,9 @@ Material falsifiers include authoritative evidence that:
 - canonical causal rules supersede these rules;
 - or a higher canonical law explicitly replaces this artifact.
 
----
+______________________________________________________________________
 
-# 103. Dependencies
+## 103. Dependencies
 
 Proposed dependencies:
 
@@ -2830,9 +2829,9 @@ dependencies:
 
 Exact canonical dependency identities remain subject to source recovery and canon approval.
 
----
+______________________________________________________________________
 
-# 104. Evidence / Provenance
+## 104. Evidence / Provenance
 
 Current artifact-level provenance:
 
@@ -2859,9 +2858,9 @@ provenance:
 
 No missing source citation is invented.
 
----
+______________________________________________________________________
 
-# 105. Uncertainty Vector
+## 105. Uncertainty Vector
 
 ```yaml
 uncertainty:
@@ -2891,9 +2890,9 @@ uncertainty:
     state: "MODERATE"
 ```
 
----
+______________________________________________________________________
 
-# 106. Confidence Ceiling
+## 106. Confidence Ceiling
 
 Because authoritative final canon alignment is not established:
 
@@ -2916,9 +2915,9 @@ confidence_ceiling:
     value: 0
 ```
 
----
+______________________________________________________________________
 
-# 107. Gap Matrix
+## 107. Gap Matrix
 
 ```yaml
 gap_matrix:
@@ -2977,9 +2976,9 @@ gap_matrix:
     severity: "CRITICAL"
 ```
 
----
+______________________________________________________________________
 
-# 108. Promotion Requirements
+## 108. Promotion Requirements
 
 Promotion beyond `PROPOSED_SPECIFICATION` requires recovery or approval of:
 
@@ -3015,9 +3014,9 @@ CANON AUTHORITY
 RSCF REVIEW
 ```
 
----
+______________________________________________________________________
 
-# 109. Promotion Ladder
+## 109. Promotion Ladder
 
 Canonical lifecycle:
 
@@ -3067,9 +3066,9 @@ VERIFIED
 
 These three axes MUST NOT be collapsed.
 
----
+______________________________________________________________________
 
-# 110. L1 RSCF
+## 110. L1 RSCF
 
 ```yaml
 rscf:
@@ -3158,9 +3157,9 @@ rscf:
   confidence_ceiling: 0
 ```
 
----
+______________________________________________________________________
 
-# 111. Current Completion State
+## 111. Current Completion State
 
 ```yaml
 completion:
@@ -3199,9 +3198,9 @@ completion:
     status: "NOT_ESTABLISHED"
 ```
 
----
+______________________________________________________________________
 
-# 112. Final L1 Epistemic Contract
+## 112. Final L1 Epistemic Contract
 
 > **AMOS must preserve the difference between what a source says, what has been observed, what has been inferred, what is modeled, what has been decided, what has been verified, what remains conditional, what remains genuinely competing, and what remains unknown. Claims inherit their evidence, provenance, dependencies, scope, regime, freshness, uncertainty, and falsifiers. Repetition does not create independent confirmation; authority does not create truth; correlation does not create causation; memory does not create current truth; absence of contradiction does not create verification; and confidence must not outrun the weakest load-bearing support unless the conclusion is independently revalidated.**
 
@@ -3241,15 +3240,15 @@ INVALIDATE SELECTIVELY
 KEEP UNKNOWN UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/L0_INTEGRITY|L0_INTEGRITY]] · [[01_CANON/01_CORE_LAWS/00_INDEX/CORE_LAWS_MAP|CORE_LAWS_MAP]] · [[01_CANON/01_CORE_LAWS/00_INDEX/CORE_LAWS_CANON_CORE_LAWS_CONTRACT|CORE_LAWS_CANON_CORE_LAWS_CONTRACT]]
 
----
+______________________________________________________________________
 
 RSCF-NODE
 
@@ -3278,8 +3277,11 @@ RSCF-RELATIONS:
 - DEPENDS_ON: [[01_CANON/01_CORE_LAWS/L0_INTEGRITY|L0_INTEGRITY]]
 
 - DEPENDS_ON: [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]
+
 - RELATED_TO: [[01_CANON/01_CORE_LAWS/ATOMIC_MULTI_RSCF|ATOMIC_MULTI_RSCF]]
+
 - RELATED_TO: [[02_KERNEL/K_ATOMIC_MULTI_RSCF|K_ATOMIC_MULTI_RSCF]]
+
 - BELONGS_TO: 01_CANON/01_CORE_LAWS
 
 claim_class: AMOS_MODEL
@@ -3297,3 +3299,4 @@ confidence_ceiling: 0
 **MOC:** [[01_CANON/01_CORE_LAWS/01_CORE_LAWS_MOC|01_CORE_LAWS_MOC]]
 
 
+```

@@ -12,27 +12,27 @@ segment: 25_COGNITIVE_MATRIX
 artifact_kind: MATRIX
 path: 25_COGNITIVE_MATRIX/AMOS_X_TSS_TPE_MATRIX.md
 tags:
-- amos-os
-- cognitive-matrix
-- matrix
-- tss
-- tpe
-- tss_tpe
-- trang_system
-- trang_prediction_engine
-- strategic_analysis
-- prediction
-- decision_intelligence
-- scenario_analysis
-- uncertainty
-- competing_hypotheses
-- provenance
-- rscf
-- canon_candidate
-- domain/cognitive-matrix
-- law-hierarchy
-- amos-x-tss-tpe-matrix
-- canon
+  - amos-os
+  - cognitive-matrix
+  - matrix
+  - tss
+  - tpe
+  - tss_tpe
+  - trang_system
+  - trang_prediction_engine
+  - strategic_analysis
+  - prediction
+  - decision_intelligence
+  - scenario_analysis
+  - uncertainty
+  - competing_hypotheses
+  - provenance
+  - rscf
+  - canon_candidate
+  - domain/cognitive-matrix
+  - law-hierarchy
+  - amos-x-tss-tpe-matrix
+  - canon
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -47,15 +47,15 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - TSS_NATIVE_SOURCE
-  - TPE_NATIVE_SOURCE
-  - TSS_X_TPE_NATIVE_SOURCE
-  - AMOS_CORPUS
+    - TSS_NATIVE_SOURCE
+    - TPE_NATIVE_SOURCE
+    - TSS_X_TPE_NATIVE_SOURCE
+    - AMOS_CORPUS
   scope:
-  - AMOS_COGNITIVE_MATRIX
-  - TSS
-  - TPE
-  - TSS_X_TPE
+    - AMOS_COGNITIVE_MATRIX
+    - TSS
+    - TPE
+    - TSS_X_TPE
 source_bindings:
   tss:
     title: The Trang System™ (TSS) – Official Manual
@@ -75,7 +75,7 @@ epistemic_boundary:
   runtime_enforcement: NOT_ESTABLISHED
 ---
 
----
+______________________________________________________________________
 
 ## title: "AMOS × TSS" type: matrix source: 25_COGNITIVE_MATRIX tags: [amos_os, cognitive_matrix, canon/cognitive-matrix] rscf: state: SOURCE_CLAIM claim_class: SOURCE_CLAIM provenance: AMOS_corpus scope: AMOS_general
 
@@ -117,9 +117,9 @@ Origin architect / steward:
 
 **Trang Phan**
 
----
+______________________________________________________________________
 
-# 1. Identity
+## 1. Identity
 
 The matrix represents the conjunction:
 
@@ -148,9 +148,9 @@ INTEGRATED STRATEGIC-PREDICTIVE ANALYSIS
 The exact semantics beneath these labels MUST inherit from the native
 manuals rather than being invented by this normalization.
 
----
+______________________________________________________________________
 
-# 2. Source Topology
+## 2. Source Topology
 
 ```text
 TSS OFFICIAL MANUAL
@@ -190,9 +190,9 @@ SourceTopology:
     role: COGNITIVE_MATRIX_BINDING
 ```
 
----
+______________________________________________________________________
 
-# 3. Source Independence Warning
+## 3. Source Independence Warning
 
 The presence of three files does not automatically establish three
 independent evidentiary origins.
@@ -216,9 +216,9 @@ INDEPENDENT CONFIRMATION COUNT
 
 until ancestry is explicitly traced.
 
----
+______________________________________________________________________
 
-# 4. Purpose
+## 4. Purpose
 
 AMOS × TSS/TPE Matrix provides a governed interface for combining:
 
@@ -253,9 +253,9 @@ action
 
 into one operation.
 
----
+______________________________________________________________________
 
-# 5. Non-Purpose
+## 5. Non-Purpose
 
 This artifact MUST NOT be used to claim:
 
@@ -275,9 +275,9 @@ empirical validity merely because a native manual exists
 runtime execution merely because a model is documented
 ```
 
----
+______________________________________________________________________
 
-# 6. Core Firewall
+## 6. Core Firewall
 
 ```text
 ANALYSIS
@@ -325,9 +325,9 @@ STRUCTURAL FIT
 CAUSATION
 ```
 
----
+______________________________________________________________________
 
-# 7. Matrix Role
+## 7. Matrix Role
 
 The Cognitive Matrix representation treats TSS and TPE as interacting
 but non-identical reasoning functions.
@@ -356,9 +356,9 @@ TPE
 CANDIDATE FUTURES
 ```
 
----
+______________________________________________________________________
 
-# 8. Bidirectional Integration
+## 8. Bidirectional Integration
 
 The relationship is not purely linear.
 
@@ -392,9 +392,9 @@ TPE → TSS
 
 may both occur as reasoning transitions.
 
----
+______________________________________________________________________
 
-# 9. Matrix Contract
+## 9. Matrix Contract
 
 ```yaml
 TSS_TPE_Matrix:
@@ -442,9 +442,9 @@ TSS_TPE_Matrix:
   action_status:
 ```
 
----
+______________________________________________________________________
 
-# 10. TSS Side
+## 10. TSS Side
 
 The TSS side of the matrix owns the structural representation required
 before prediction.
@@ -477,9 +477,9 @@ UNCERTAINTY
 
 Exact native TSS primitives remain source-controlled.
 
----
+______________________________________________________________________
 
-# 11. TSS Firewall
+## 11. TSS Firewall
 
 ```text
 SYSTEM MAP
@@ -499,9 +499,9 @@ INFERRED MOTIVE
 VERIFIED MOTIVE
 ```
 
----
+______________________________________________________________________
 
-# 12. TPE Side
+## 12. TPE Side
 
 The TPE side receives a sufficiently defined current-state model and
 constructs candidate future states.
@@ -530,9 +530,9 @@ TPE_Input:
   provenance:
 ```
 
----
+______________________________________________________________________
 
-# 13. Prediction Object
+## 13. Prediction Object
 
 ```yaml
 Prediction:
@@ -570,9 +570,9 @@ Prediction:
   actual_outcome:
 ```
 
----
+______________________________________________________________________
 
-# 14. Probability / Confidence Separation
+## 14. Probability / Confidence Separation
 
 ```text
 PROBABILITY
@@ -597,9 +597,9 @@ is valid.
 A forecast can assign a high event probability while having weak
 confidence in the estimate.
 
----
+______________________________________________________________________
 
-# 15. Horizon
+## 15. Horizon
 
 Every forecast must declare:
 
@@ -623,9 +623,9 @@ Horizon:
   revalidation_trigger:
 ```
 
----
+______________________________________________________________________
 
-# 16. Forecast Expiry
+## 16. Forecast Expiry
 
 A prediction must not remain indefinitely valid.
 
@@ -639,9 +639,9 @@ CHANGED CONDITIONS
 REVALIDATION REQUIRED
 ```
 
----
+______________________________________________________________________
 
-# 17. Scenario
+## 17. Scenario
 
 A scenario is a coherent candidate future configuration.
 
@@ -669,9 +669,9 @@ Scenario:
   uncertainty:
 ```
 
----
+______________________________________________________________________
 
-# 18. Scenario / Prediction Firewall
+## 18. Scenario / Prediction Firewall
 
 ```text
 SCENARIO
@@ -682,9 +682,9 @@ PREDICTION
 A scenario can be useful even when no reliable probability can be
 assigned to it.
 
----
+______________________________________________________________________
 
-# 19. Scenario Set
+## 19. Scenario Set
 
 The matrix SHOULD preserve multiple meaningful candidate futures.
 
@@ -702,9 +702,9 @@ CURRENT STATE
 
 The unknown branch MUST NOT be silently discarded.
 
----
+______________________________________________________________________
 
-# 20. Competing Hypotheses
+## 20. Competing Hypotheses
 
 TSS × TPE MUST preserve competing explanations when evidence does not
 discriminate.
@@ -731,9 +731,9 @@ Hypothesis:
   status:
 ```
 
----
+______________________________________________________________________
 
-# 21. COMPETING State
+## 21. COMPETING State
 
 When:
 
@@ -749,9 +749,9 @@ COMPETING
 
 is preferred over forced convergence.
 
----
+______________________________________________________________________
 
-# 22. Discriminating Test
+## 22. Discriminating Test
 
 The next reasoning action SHOULD seek:
 
@@ -765,9 +765,9 @@ THE LEADING HYPOTHESES
 
 rather than accumulating redundant supporting evidence.
 
----
+______________________________________________________________________
 
-# 23. Prediction Path
+## 23. Prediction Path
 
 Conceptually:
 
@@ -787,13 +787,13 @@ CANDIDATE FUTURES
 FORECAST
 ```
 
----
+______________________________________________________________________
 
-# 24. Prediction Integrity
+## 24. Prediction Integrity
 
 A prediction is only as strong as its load-bearing inputs.
 
-For load-bearing premises \(P_i\):
+For load-bearing premises (P_i):
 
 $$
 Conf(F)
@@ -803,9 +803,9 @@ $$
 
 unless independent validation raises the relevant premise confidence.
 
----
+______________________________________________________________________
 
-# 25. Provenance
+## 25. Provenance
 
 Every consequential forecast SHOULD preserve:
 
@@ -831,9 +831,9 @@ ForecastProvenance:
   transformations:
 ```
 
----
+______________________________________________________________________
 
-# 26. Correlated Evidence
+## 26. Correlated Evidence
 
 ```text
 10 ARTICLES
@@ -848,9 +848,9 @@ REPEATING
 TSS × TPE must reason over provenance topology rather than raw source
 count.
 
----
+______________________________________________________________________
 
-# 27. Evidence Classes
+## 27. Evidence Classes
 
 Use:
 
@@ -868,9 +868,9 @@ DECISION
 UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 28. Observation
+## 28. Observation
 
 An observation SHOULD contain:
 
@@ -894,9 +894,9 @@ Observation:
   provenance:
 ```
 
----
+______________________________________________________________________
 
-# 29. Derived Input
+## 29. Derived Input
 
 A derived input must expose the premises on which it depends.
 
@@ -914,9 +914,9 @@ DerivedInput:
   invalidation_conditions:
 ```
 
----
+______________________________________________________________________
 
-# 30. Assumption
+## 30. Assumption
 
 Predictions frequently depend on assumptions that are not observations.
 
@@ -938,9 +938,9 @@ Assumption:
 
 Assumptions MUST remain visible.
 
----
+______________________________________________________________________
 
-# 31. Assumption Firewall
+## 31. Assumption Firewall
 
 ```text
 ASSUMED
@@ -956,9 +956,9 @@ EXPECTED
 GUARANTEED
 ```
 
----
+______________________________________________________________________
 
-# 32. Scope
+## 32. Scope
 
 Every analysis binds:
 
@@ -982,9 +982,9 @@ Scope:
   exclusions:
 ```
 
----
+______________________________________________________________________
 
-# 33. Regime
+## 33. Regime
 
 Every forecast binds:
 
@@ -1006,9 +1006,9 @@ Regime:
 
 as relevant to the domain.
 
----
+______________________________________________________________________
 
-# 34. Regime Shift
+## 34. Regime Shift
 
 When a load-bearing regime condition changes:
 
@@ -1020,9 +1020,9 @@ STALE / CONDITIONAL
 
 unless explicitly revalidated.
 
----
+______________________________________________________________________
 
-# 35. Prediction Regime Firewall
+## 35. Prediction Regime Firewall
 
 ```text
 VALID IN REGIME A
@@ -1030,9 +1030,9 @@ VALID IN REGIME A
 VALID IN REGIME B
 ```
 
----
+______________________________________________________________________
 
-# 36. Causality
+## 36. Causality
 
 TSS × TPE must distinguish:
 
@@ -1060,9 +1060,9 @@ confounder
 intervention effect
 ```
 
----
+______________________________________________________________________
 
-# 37. Prediction / Causality Firewall
+## 37. Prediction / Causality Firewall
 
 Predicting an outcome accurately does not by itself establish why the
 outcome occurred.
@@ -1073,9 +1073,9 @@ PREDICTIVE ACCURACY
 CAUSAL IDENTIFICATION
 ```
 
----
+______________________________________________________________________
 
-# 38. Temporal Order
+## 38. Temporal Order
 
 ```text
 A BEFORE B
@@ -1090,9 +1090,9 @@ A CAUSED B.
 Temporal sequence is evidence only of ordering unless additional causal
 evidence exists.
 
----
+______________________________________________________________________
 
-# 39. Feedback
+## 39. Feedback
 
 Predictions can alter the systems they describe when disclosed or acted
 upon.
@@ -1109,9 +1109,9 @@ SELF-DEFEATING FORECAST
 INTERVENTION-COUPLED FORECAST
 ```
 
----
+______________________________________________________________________
 
-# 40. Reflexive Systems
+## 40. Reflexive Systems
 
 For markets, organizations, societies, and agents:
 
@@ -1129,9 +1129,9 @@ may occur.
 
 Reflexivity is therefore a first-class uncertainty source.
 
----
+______________________________________________________________________
 
-# 41. Sensitivity
+## 41. Sensitivity
 
 For each important forecast ask:
 
@@ -1141,9 +1141,9 @@ ASSUMPTION OR INPUT CHANGE
 THAT FLIPS THE RESULT?
 ```
 
----
+______________________________________________________________________
 
-# 42. Sensitivity Contract
+## 42. Sensitivity Contract
 
 ```yaml
 Sensitivity:
@@ -1164,9 +1164,9 @@ Sensitivity:
     - CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
-# 43. Fragility
+## 43. Fragility
 
 A forecast is fragile when small plausible perturbations produce
 materially different outcomes.
@@ -1179,9 +1179,9 @@ CONDITIONAL
 
 not false precision.
 
----
+______________________________________________________________________
 
-# 44. Uncertainty Vector
+## 44. Uncertainty Vector
 
 TSS × TPE separates:
 
@@ -1203,9 +1203,9 @@ Uncertainty:
   provenance_independence:
 ```
 
----
+______________________________________________________________________
 
-# 45. Unknown Future Events
+## 45. Unknown Future Events
 
 Not every relevant future event can be enumerated.
 
@@ -1217,9 +1217,9 @@ UNKNOWN / UNMODELED EVENT
 
 as an explicit branch.
 
----
+______________________________________________________________________
 
-# 46. Black-Swan Firewall
+## 46. Black-Swan Firewall
 
 ```text
 NOT MODELED
@@ -1233,9 +1233,9 @@ LOW TRUE PROBABILITY
 
 when the probability model itself is weak.
 
----
+______________________________________________________________________
 
-# 47. Prediction Calibration
+## 47. Prediction Calibration
 
 Where repeated comparable predictions exist, calibration may be
 evaluated.
@@ -1255,9 +1255,9 @@ should occur near:
 over a sufficiently comparable sample if the probability estimates are
 well calibrated.
 
----
+______________________________________________________________________
 
-# 48. Calibration Boundary
+## 48. Calibration Boundary
 
 ```text
 ONE CORRECT PREDICTION
@@ -1271,9 +1271,9 @@ GLOBAL INVALIDATION
 
 Calibration requires a suitable prediction set.
 
----
+______________________________________________________________________
 
-# 49. Prediction Receipt
+## 49. Prediction Receipt
 
 ```yaml
 PredictionReceipt:
@@ -1301,9 +1301,9 @@ PredictionReceipt:
   resolution_rule:
 ```
 
----
+______________________________________________________________________
 
-# 50. Resolution Receipt
+## 50. Resolution Receipt
 
 When the outcome becomes observable:
 
@@ -1329,9 +1329,9 @@ PredictionResolution:
   provenance:
 ```
 
----
+______________________________________________________________________
 
-# 51. No Retroactive Editing
+## 51. No Retroactive Editing
 
 A resolved prediction SHOULD preserve the original forecast.
 
@@ -1345,9 +1345,9 @@ ERROR ANALYSIS
 
 rather than rewriting the prediction after the fact.
 
----
+______________________________________________________________________
 
-# 52. Decision Layer
+## 52. Decision Layer
 
 TSS × TPE may inform decisions.
 
@@ -1369,9 +1369,9 @@ DECISION SUPPORT
 AUTHORIZATION
 ```
 
----
+______________________________________________________________________
 
-# 53. Decision Object
+## 53. Decision Object
 
 ```yaml
 DecisionCandidate:
@@ -1397,9 +1397,9 @@ DecisionCandidate:
   recommended_status:
 ```
 
----
+______________________________________________________________________
 
-# 54. Reversibility
+## 54. Reversibility
 
 Under uncertainty, prefer actions that are:
 
@@ -1417,9 +1417,9 @@ reversible
 
 when expected value is otherwise comparable.
 
----
+______________________________________________________________________
 
-# 55. Irreversible Stakes
+## 55. Irreversible Stakes
 
 For irreversible or high-impact action, increase requirements for:
 
@@ -1439,9 +1439,9 @@ authority
 rollback planning
 ```
 
----
+______________________________________________________________________
 
-# 56. Expected-Value Boundary
+## 56. Expected-Value Boundary
 
 Expected value can be useful but must not erase:
 
@@ -1459,9 +1459,9 @@ authority constraints
 catastrophic downside
 ```
 
----
+______________________________________________________________________
 
-# 57. Decision Sufficiency
+## 57. Decision Sufficiency
 
 Stop prediction work when additional forecasting is unlikely to change
 the decision.
@@ -1472,9 +1472,9 @@ MORE FORECASTING
 BETTER DECISION
 ```
 
----
+______________________________________________________________________
 
-# 58. Information Value
+## 58. Information Value
 
 Prioritize evidence with high expected decision value.
 
@@ -1491,9 +1491,9 @@ $$
 This is a decision heuristic, not a native TSS/TPE law unless the
 source explicitly defines it.
 
----
+______________________________________________________________________
 
-# 59. TSS → TPE Handoff
+## 59. TSS → TPE Handoff
 
 ```yaml
 TSS_to_TPE:
@@ -1521,9 +1521,9 @@ TSS_to_TPE:
   relevant_horizons:
 ```
 
----
+______________________________________________________________________
 
-# 60. TPE → TSS Handoff
+## 60. TPE → TSS Handoff
 
 ```yaml
 TPE_to_TSS:
@@ -1547,9 +1547,9 @@ TPE_to_TSS:
   decision_implications:
 ```
 
----
+______________________________________________________________________
 
-# 61. Recursive Update
+## 61. Recursive Update
 
 ```text
 TSS₀
@@ -1567,9 +1567,9 @@ TPE₁
 
 The loop remains bounded by decision value and freshness requirements.
 
----
+______________________________________________________________________
 
-# 62. H/M/L Structure
+## 62. H/M/L Structure
 
 ```yaml
 H:
@@ -1611,9 +1611,9 @@ L:
   prediction_receipts:
 ```
 
----
+______________________________________________________________________
 
-# 63. H/M/L Firewall
+## 63. H/M/L Firewall
 
 ```text
 LOCAL EVENT
@@ -1629,9 +1629,9 @@ SHORT-TERM SIGNAL
 LONG-TERM LAW
 ```
 
----
+______________________________________________________________________
 
-# 64. RSCF Binding
+## 64. RSCF Binding
 
 ```yaml
 RSCF:
@@ -1661,9 +1661,9 @@ RSCF:
   invalidation_conditions:
 ```
 
----
+______________________________________________________________________
 
-# 65. Atomic Reasoning Unit
+## 65. Atomic Reasoning Unit
 
 A consequential TSS/TPE result SHOULD package together:
 
@@ -1689,9 +1689,9 @@ FALSIFIER
 
 so prediction is not detached from its assumptions.
 
----
+______________________________________________________________________
 
-# 66. Multi-RSCF Reasoning
+## 66. Multi-RSCF Reasoning
 
 When a forecast depends on several domains:
 
@@ -1719,9 +1719,9 @@ dependencies
 
 rather than flattening them into one untyped forecast.
 
----
+______________________________________________________________________
 
-# 67. Cross-RSCF Conflict
+## 67. Cross-RSCF Conflict
 
 If:
 
@@ -1743,9 +1743,9 @@ COMPETING
 
 until the conflict is resolved or explicitly weighted.
 
----
+______________________________________________________________________
 
-# 68. GMEF Binding
+## 68. GMEF Binding
 
 TPE candidate futures may be represented through governed
 meta-evolution reasoning:
@@ -1764,9 +1764,9 @@ DECISION-RELEVANT BRANCHES
 
 These remain modeled futures.
 
----
+______________________________________________________________________
 
-# 69. GMEF Firewall
+## 69. GMEF Firewall
 
 ```text
 GENERATED FUTURE
@@ -1778,9 +1778,9 @@ PREDICTED FUTURE
 ACTUAL FUTURE
 ```
 
----
+______________________________________________________________________
 
-# 70. Branch Pruning
+## 70. Branch Pruning
 
 A candidate branch may be pruned when it is:
 
@@ -1798,9 +1798,9 @@ dependent on falsified premises
 
 Do not prune merely because it is inconvenient or low-preference.
 
----
+______________________________________________________________________
 
-# 71. Prediction Comparison Matrix
+## 71. Prediction Comparison Matrix
 
 ```yaml
 PredictionComparison:
@@ -1838,9 +1838,9 @@ PredictionComparison:
   unresolved:
 ```
 
----
+______________________________________________________________________
 
-# 72. Actor Modeling
+## 72. Actor Modeling
 
 For systems containing strategic agents, distinguish:
 
@@ -1858,9 +1858,9 @@ INFORMATION
 ACTION
 ```
 
----
+______________________________________________________________________
 
-# 73. Actor Firewall
+## 73. Actor Firewall
 
 ```text
 CAN
@@ -1880,9 +1880,9 @@ PAST BEHAVIOR
 CERTAIN FUTURE BEHAVIOR
 ```
 
----
+______________________________________________________________________
 
-# 74. Adversarial Actors
+## 74. Adversarial Actors
 
 When actors may strategically manipulate observations:
 
@@ -1904,9 +1904,9 @@ UNKNOWN
 
 Provenance and incentives become load-bearing.
 
----
+______________________________________________________________________
 
-# 75. Strategic Interaction
+## 75. Strategic Interaction
 
 Predictions concerning multiple adaptive actors should account for:
 
@@ -1926,26 +1926,26 @@ second-order effects
 
 where material.
 
----
+______________________________________________________________________
 
-# 76. First-Order Prediction
+## 76. First-Order Prediction
 
 ```text
 WHAT HAPPENS NEXT?
 ```
 
----
+______________________________________________________________________
 
-# 77. Second-Order Prediction
+## 77. Second-Order Prediction
 
 ```text
 HOW WILL ACTORS RESPOND
 TO WHAT HAPPENS NEXT?
 ```
 
----
+______________________________________________________________________
 
-# 78. Higher-Order Prediction
+## 78. Higher-Order Prediction
 
 ```text
 HOW WILL ACTORS RESPOND
@@ -1957,9 +1957,9 @@ RESPONSES?
 Depth should stop when additional recursion no longer changes the
 decision.
 
----
+______________________________________________________________________
 
-# 79. Recursion Limit
+## 79. Recursion Limit
 
 ```text
 PREDICT UNTIL
@@ -1970,9 +1970,9 @@ DECISION VALUE
 
 not indefinitely.
 
----
+______________________________________________________________________
 
-# 80. Prediction Failure Taxonomy
+## 80. Prediction Failure Taxonomy
 
 ```yaml
 PredictionFailure:
@@ -1992,9 +1992,9 @@ PredictionFailure:
   - SCOPE_LEAKAGE
 ```
 
----
+______________________________________________________________________
 
-# 81. Error Analysis
+## 81. Error Analysis
 
 When prediction fails, identify the smallest failed dependency.
 
@@ -2006,9 +2006,9 @@ ENTIRE FRAMEWORK INVALID
 
 when the error was local.
 
----
+______________________________________________________________________
 
-# 82. Local Invalidation
+## 82. Local Invalidation
 
 ```text
 FAILED PREMISE
@@ -2020,9 +2020,9 @@ INVALIDATE / RECOMPUTE
 
 Unaffected branches remain reusable.
 
----
+______________________________________________________________________
 
-# 83. Model Update
+## 83. Model Update
 
 A failed forecast may update:
 
@@ -2044,9 +2044,9 @@ scenario weights
 
 depending on the diagnosed cause.
 
----
+______________________________________________________________________
 
-# 84. Prediction Memory
+## 84. Prediction Memory
 
 AMOS SHOULD retain:
 
@@ -2066,9 +2066,9 @@ what happened
 why the forecast succeeded or failed
 ```
 
----
+______________________________________________________________________
 
-# 85. Anti-Hindsight Rule
+## 85. Anti-Hindsight Rule
 
 ```text
 OUTCOME KNOWN NOW
@@ -2078,9 +2078,9 @@ OUTCOME WAS OBVIOUS THEN
 
 Evaluation must use the information state available at prediction time.
 
----
+______________________________________________________________________
 
-# 86. Anti-Cherry-Picking Rule
+## 86. Anti-Cherry-Picking Rule
 
 ```text
 SELECTED SUCCESSES
@@ -2090,9 +2090,9 @@ PREDICTIVE VALIDATION
 
 Failed and unresolved predictions must remain in the evaluation set.
 
----
+______________________________________________________________________
 
-# 87. Benchmark Boundary
+## 87. Benchmark Boundary
 
 Performance on a historical benchmark establishes only:
 
@@ -2104,9 +2104,9 @@ under those conditions.
 
 It does not establish universal predictive superiority.
 
----
+______________________________________________________________________
 
-# 88. External Validation
+## 88. External Validation
 
 Native TSS/TPE documentation establishes what the framework claims.
 
@@ -2124,9 +2124,9 @@ generalization
 decision improvement
 ```
 
----
+______________________________________________________________________
 
-# 89. Validation Contract
+## 89. Validation Contract
 
 ```yaml
 TSS_TPE_Validation:
@@ -2160,9 +2160,9 @@ TSS_TPE_Validation:
   independent_reviewer:
 ```
 
----
+______________________________________________________________________
 
-# 90. Baselines
+## 90. Baselines
 
 Predictive evaluation SHOULD compare against relevant alternatives:
 
@@ -2180,9 +2180,9 @@ alternative forecasting model
 
 where applicable.
 
----
+______________________________________________________________________
 
-# 91. Validation Firewall
+## 91. Validation Firewall
 
 ```text
 BETTER THAN NOTHING
@@ -2202,9 +2202,9 @@ IN-SAMPLE
 OUT-OF-SAMPLE
 ```
 
----
+______________________________________________________________________
 
-# 92. Live Prediction
+## 92. Live Prediction
 
 The strongest prediction validation generally requires forecasts fixed
 before outcome resolution.
@@ -2219,9 +2219,9 @@ OUTCOME
 RESOLUTION RECEIPT
 ```
 
----
+______________________________________________________________________
 
-# 93. Prediction Score
+## 93. Prediction Score
 
 Scoring must match prediction type.
 
@@ -2241,9 +2241,9 @@ scenario coverage
 
 No single score is universal.
 
----
+______________________________________________________________________
 
-# 94. Confidence Ceiling
+## 94. Confidence Ceiling
 
 For a forecast:
 
@@ -2262,9 +2262,9 @@ $$
 unless the relevant uncertainty dimensions are independently
 revalidated.
 
----
+______________________________________________________________________
 
-# 95. Prediction Proof Capsule
+## 95. Prediction Proof Capsule
 
 ```yaml
 PredictionProofCapsule:
@@ -2308,9 +2308,9 @@ PredictionProofCapsule:
   invalidation_conditions:
 ```
 
----
+______________________________________________________________________
 
-# 96. Reuse Rule
+## 96. Reuse Rule
 
 A prediction capsule may be reused only while:
 
@@ -2328,9 +2328,9 @@ horizon remains valid
 dependencies remain intact
 ```
 
----
+______________________________________________________________________
 
-# 97. Fast Path
+## 97. Fast Path
 
 Local TSS/TPE reasoning is allowed when:
 
@@ -2350,9 +2350,9 @@ no material conflict exists
 stakes are reversible
 ```
 
----
+______________________________________________________________________
 
-# 98. Escalation
+## 98. Escalation
 
 Escalate when:
 
@@ -2376,9 +2376,9 @@ governance is affected
 dependencies are ambiguous
 ```
 
----
+______________________________________________________________________
 
-# 99. Adversarial Validation
+## 99. Adversarial Validation
 
 For consequential forecasts, construct the strongest supported forecast
 and challenge it through a different path.
@@ -2405,9 +2405,9 @@ causal overreach
 alternative scenario
 ```
 
----
+______________________________________________________________________
 
-# 100. Challenge Result
+## 100. Challenge Result
 
 If challenge succeeds:
 
@@ -2425,9 +2425,9 @@ UNKNOWN/GAP
 
 rather than forcing the original prediction.
 
----
+______________________________________________________________________
 
-# 101. Strategic Decision Pipeline
+## 101. Strategic Decision Pipeline
 
 ```text
 OBJECTIVE
@@ -2447,9 +2447,9 @@ GOVERNANCE
 ACTION / HOLD
 ```
 
----
+______________________________________________________________________
 
-# 102. Decision / Prediction Separation
+## 102. Decision / Prediction Separation
 
 The most likely future is not always the future against which action
 should be optimized.
@@ -2465,9 +2465,9 @@ ARGMAX PROBABILITY
 ARGMAX DECISION VALUE
 ```
 
----
+______________________________________________________________________
 
-# 103. Robust Decision
+## 103. Robust Decision
 
 A robust option performs acceptably across multiple plausible futures.
 
@@ -2491,9 +2491,9 @@ RobustDecision:
   result:
 ```
 
----
+______________________________________________________________________
 
-# 104. Optionality
+## 104. Optionality
 
 Under high uncertainty:
 
@@ -2503,9 +2503,9 @@ OPTIONALITY
 
 may itself have value because it preserves future reachable states.
 
----
+______________________________________________________________________
 
-# 105. Action Governance
+## 105. Action Governance
 
 Before consequential action:
 
@@ -2533,9 +2533,9 @@ ActionGate:
   receipt:
 ```
 
----
+______________________________________________________________________
 
-# 106. Authority
+## 106. Authority
 
 ```text
 TSS RESULT
@@ -2555,9 +2555,9 @@ AMOS RECOMMENDATION
 AUTHORIZATION
 ```
 
----
+______________________________________________________________________
 
-# 107. Proposal / Commit
+## 107. Proposal / Commit
 
 ```text
 PROPOSED ACTION
@@ -2571,9 +2571,9 @@ PROPOSAL
 COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 108. Prediction Governance State
+## 108. Prediction Governance State
 
 ```yaml
 PredictionState:
@@ -2588,9 +2588,9 @@ PredictionState:
   - EXPIRED
 ```
 
----
+______________________________________________________________________
 
-# 109. Decision Governance State
+## 109. Decision Governance State
 
 ```yaml
 DecisionState:
@@ -2603,9 +2603,9 @@ DecisionState:
   - ROLLED_BACK
 ```
 
----
+______________________________________________________________________
 
-# 110. UNKNOWN/GAP
+## 110. UNKNOWN/GAP
 
 Critical missing information must remain explicit.
 
@@ -2627,9 +2627,9 @@ Gap:
   resolution_test:
 ```
 
----
+______________________________________________________________________
 
-# 111. Fail-Closed Rule
+## 111. Fail-Closed Rule
 
 If a critical unknown prevents reliable prediction or authorized
 action:
@@ -2642,9 +2642,9 @@ HOLD
 
 not fabricated completion.
 
----
+______________________________________________________________________
 
-# 112. Cognitive Matrix Cell
+## 112. Cognitive Matrix Cell
 
 A TSS/TPE matrix cell may be represented:
 
@@ -2676,9 +2676,9 @@ TSS_TPE_Cell:
   status:
 ```
 
----
+______________________________________________________________________
 
-# 113. Cell Routing
+## 113. Cell Routing
 
 A query may route through:
 
@@ -2692,9 +2692,9 @@ L
 
 only as deeply as needed to change the result.
 
----
+______________________________________________________________________
 
-# 114. Cell Dependency
+## 114. Cell Dependency
 
 ```yaml
 CellDependency:
@@ -2712,9 +2712,9 @@ CellDependency:
   invalidation_rule:
 ```
 
----
+______________________________________________________________________
 
-# 115. Cell Invalidation
+## 115. Cell Invalidation
 
 When an upstream premise fails:
 
@@ -2726,9 +2726,9 @@ DEPENDENT CELLS
 
 not the entire matrix.
 
----
+______________________________________________________________________
 
-# 116. Matrix Axes
+## 116. Matrix Axes
 
 The minimal derived TSS/TPE Cognitive Matrix can use:
 
@@ -2751,9 +2751,9 @@ as routing dimensions.
 These axes are an AMOS normalization unless exact source-equivalent
 axes are established.
 
----
+______________________________________________________________________
 
-# 117. System Axis
+## 117. System Axis
 
 ```text
 H — system/environment
@@ -2763,9 +2763,9 @@ M — subsystem/actor/relation
 L — event/observation
 ```
 
----
+______________________________________________________________________
 
-# 118. Time Axis
+## 118. Time Axis
 
 ```text
 PAST
@@ -2781,9 +2781,9 @@ LONG FUTURE
 
 with domain-specific boundaries.
 
----
+______________________________________________________________________
 
-# 119. Scenario Axis
+## 119. Scenario Axis
 
 ```text
 BASE
@@ -2800,9 +2800,9 @@ UNKNOWN
 These are generic AMOS scenario classes, not necessarily native TPE
 labels.
 
----
+______________________________________________________________________
 
-# 120. Evidence Axis
+## 120. Evidence Axis
 
 ```text
 OBSERVED
@@ -2816,9 +2816,9 @@ MODELED
 UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 121. Uncertainty Axis
+## 121. Uncertainty Axis
 
 ```text
 EVIDENCE
@@ -2836,9 +2836,9 @@ EXECUTION
 PROVENANCE
 ```
 
----
+______________________________________________________________________
 
-# 122. Decision Axis
+## 122. Decision Axis
 
 ```text
 OBSERVE
@@ -2856,9 +2856,9 @@ ROLLBACK
 
 subject to authority.
 
----
+______________________________________________________________________
 
-# 123. Matrix Traversal
+## 123. Matrix Traversal
 
 ```text
 QUERY
@@ -2878,9 +2878,9 @@ SENSITIVITY
 DECISION SUFFICIENCY
 ```
 
----
+______________________________________________________________________
 
-# 124. Retrieval Policy
+## 124. Retrieval Policy
 
 Use:
 
@@ -2897,9 +2897,9 @@ RAW SOURCE
 ONLY WHEN REQUIRED
 ```
 
----
+______________________________________________________________________
 
-# 125. Raw Source Trigger
+## 125. Raw Source Trigger
 
 Load native TSS/TPE source detail when:
 
@@ -2919,9 +2919,9 @@ promotion status changes
 a consequential decision depends on it
 ```
 
----
+______________________________________________________________________
 
-# 126. Canon Discipline
+## 126. Canon Discipline
 
 This matrix MUST distinguish:
 
@@ -2937,9 +2937,9 @@ AMOS NORMALIZATION
 EXTERNAL EVIDENCE
 ```
 
----
+______________________________________________________________________
 
-# 127. No Silent Canon Expansion
+## 127. No Silent Canon Expansion
 
 A construct introduced by this matrix is not automatically a native
 TSS/TPE construct.
@@ -2952,9 +2952,9 @@ AMOS_DERIVED
 
 until native-source identity is established.
 
----
+______________________________________________________________________
 
-# 128. Native Source Promotion
+## 128. Native Source Promotion
 
 A construct may be marked source-grounded when:
 
@@ -2970,9 +2970,9 @@ conflicts are preserved
 scope is declared
 ```
 
----
+______________________________________________________________________
 
-# 129. External Research
+## 129. External Research
 
 External research may validate or challenge a TSS/TPE claim.
 
@@ -2984,9 +2984,9 @@ EVIDENCE LINKED TO CANON
 
 not silently merged into native canon.
 
----
+______________________________________________________________________
 
-# 130. Empirical Validation
+## 130. Empirical Validation
 
 TSS/TPE empirical claims should be validated independently from the
 framework's own documentation.
@@ -2997,9 +2997,9 @@ FRAMEWORK SAYS IT WORKS
 INDEPENDENT VALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 131. Promotion Gate — Source
+## 131. Promotion Gate — Source
 
 - [x] native TSS manual located
 - [x] native TPE manual located
@@ -3013,9 +3013,9 @@ INDEPENDENT VALIDATION
 - [ ] conflicts reconciled or preserved as COMPETING
 - [ ] final canon promotion receipt
 
----
+______________________________________________________________________
 
-# 132. Promotion Gate — Prediction Validation
+## 132. Promotion Gate — Prediction Validation
 
 - [ ] prediction schema source-reconciled
 - [ ] forecasts preregistered
@@ -3028,9 +3028,9 @@ INDEPENDENT VALIDATION
 - [ ] source independence evaluated
 - [ ] validation receipt issued
 
----
+______________________________________________________________________
 
-# 133. Promotion Gate — Runtime
+## 133. Promotion Gate — Runtime
 
 - [ ] typed executable schema
 - [ ] versioned identity
@@ -3045,9 +3045,9 @@ INDEPENDENT VALIDATION
 - [ ] rollback tested
 - [ ] artifact-specific validation receipt
 
----
+______________________________________________________________________
 
-# 134. Critical Gaps
+## 134. Critical Gaps
 
 ```yaml
 gaps:
@@ -3089,9 +3089,9 @@ gaps:
     state: NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 135. Ingestion Rule
+## 135. Ingestion Rule
 
 ```yaml
 AMOS_CANON_INGESTION_RULE:
@@ -3153,9 +3153,9 @@ AMOS_CANON_INGESTION_RULE:
       - NEVER_INVENT_CANON
 ```
 
----
+______________________________________________________________________
 
-# 136. Contract Discipline
+## 136. Contract Discipline
 
 ```text
 typed artifacts
@@ -3181,9 +3181,9 @@ typed artifacts
 · rollback basin before consequential mutation
 ```
 
----
+______________________________________________________________________
 
-# 137. Cross-Plane Bindings
+## 137. Cross-Plane Bindings
 
 Governed by:
 
@@ -3228,9 +3228,9 @@ Indexed through:
 
 ```
 
----
+______________________________________________________________________
 
-# 138. Native Framework Bindings
+## 138. Native Framework Bindings
 
 ```text
 `TRANG_SYSTEM_TSS`
@@ -3242,9 +3242,9 @@ Indexed through:
 
 Exact canonical node names remain subject to ingestion normalization.
 
----
+______________________________________________________________________
 
-# 139. RSCF Node
+## 139. RSCF Node
 
 ```yaml
 RSCF:
@@ -3306,9 +3306,9 @@ RSCF:
     NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 140. Proof Capsule
+## 140. Proof Capsule
 
 ```yaml
 PROOF_CAPSULE:
@@ -3367,9 +3367,9 @@ PROOF_CAPSULE:
       UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 141. Final Canonical Statement
+## 141. Final Canonical Statement
 
 AMOS × TSS/TPE Matrix is the AMOS Cognitive Matrix representation of
 the source-grounded relationship:
@@ -3562,15 +3562,15 @@ Empirical promotion requires an independent validation path.
 
 Runtime promotion requires an executed implementation-validation path.
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|AMOS MOC]]
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · `TRANG_SYSTEM_TSS` · `TRANG_PREDICTION_ENGINE_TPE`
 
----
+______________________________________________________________________
 
 RSCF-NODE
 
@@ -3602,7 +3602,7 @@ RSCF-RELATIONS:
 
 - INDEXED_BY: [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]
 
----
+______________________________________________________________________
 
 **MOC:** [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]
 
@@ -3627,4 +3627,4 @@ direct TSS × TPE composite source located
 ````
 
 The Drive results also show duplicate/variant copies of at least the TPE and composite material, so **lineage reconciliation remains a real promotion gate rather than a cosmetic one**.
-
+```

@@ -1,72 +1,75 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: COSMO BRAIN BRIDGE INDEX
 type: index
 source: 11_KNOWLEDGE
 canon-group: reference
 rscf-state: derived
 tags:
-- index
-- bridge
-- cosmo-brain
-- canon/knowledge
-- adversarial-validation
-- agents
-- ai-workforce-layer
-- architecture
-- amos-cognition-total-kernel
-- canon
-- amos-omni-factory-engine
-- amos-super-consciousness-engine
-- amos-ubi-kernel
-- boundary-identity
-- claim-tensor
-- cognition-kernel
-- constraint-engine
-- engineering-standards-library
-- equation-firewall
-- error-recovery
-- evidence-tensor
-- final-gate
-- fractal-runtime
-- governance-tensor
-- implementation-manifest
-- kernel-protocol
-- khung-trang-full-max-detail-architecture-equations
-- logic-kernel
-- memory-architecture
-- readme
-- regime-freshness
-- relation-tensor
-- relation-topology
-- rscf-proof-capsule
-- sensitivity-falsifiers
-- skill
-- speed-governor
-- system-status
-- tensor-contracts
-- validation
-- integration
-- ratpak
-- unipower-tech-design-metabrain
-- consulting-engine-super
-- agent-working-instructions-v2
-- agi-completion-report
-- amos-infinite-complete
-- hallucination-cleanup-report
-- money-regimes-structural-analysis
-- final-system-integration-report
-- consolidation-report
-- deployment-guide
-- production-deployment-report
-- emergency-crash-prevention
-- operational-status
-- system-optimization-complete
-- system-status-summary
-- system-status-summary-v2
-- system-status-summary-v3
-- agent-naming-convention
-- agent-template
-- amos-cognitive-architecture-matrix
+  - index
+  - bridge
+  - cosmo-brain
+  - canon/knowledge
+  - adversarial-validation
+  - agents
+  - ai-workforce-layer
+  - architecture
+  - amos-cognition-total-kernel
+  - canon
+  - amos-omni-factory-engine
+  - amos-super-consciousness-engine
+  - amos-ubi-kernel
+  - boundary-identity
+  - claim-tensor
+  - cognition-kernel
+  - constraint-engine
+  - engineering-standards-library
+  - equation-firewall
+  - error-recovery
+  - evidence-tensor
+  - final-gate
+  - fractal-runtime
+  - governance-tensor
+  - implementation-manifest
+  - kernel-protocol
+  - khung-trang-full-max-detail-architecture-equations
+  - logic-kernel
+  - memory-architecture
+  - readme
+  - regime-freshness
+  - relation-tensor
+  - relation-topology
+  - rscf-proof-capsule
+  - sensitivity-falsifiers
+  - skill
+  - speed-governor
+  - system-status
+  - tensor-contracts
+  - validation
+  - integration
+  - ratpak
+  - unipower-tech-design-metabrain
+  - consulting-engine-super
+  - agent-working-instructions-v2
+  - agi-completion-report
+  - amos-infinite-complete
+  - hallucination-cleanup-report
+  - money-regimes-structural-analysis
+  - final-system-integration-report
+  - consolidation-report
+  - deployment-guide
+  - production-deployment-report
+  - emergency-crash-prevention
+  - operational-status
+  - system-optimization-complete
+  - system-status-summary
+  - system-status-summary-v2
+  - system-status-summary-v3
+  - agent-naming-convention
+  - agent-template
+  - amos-cognitive-architecture-matrix
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -87,36 +90,36 @@ rscf:
 
 ## Directory Summary
 
-| Directory | Files |
-|-----------|-------|
-| `docs/` | 2791 |
-| `_00_Cosmo brain/` | 2661 |
-| `.devin/` | 717 |
-| `apps/` | 701 |
-| `cosmo-brain/` | 402 |
-| `cosmo/` | 342 |
-| `designs/` | 310 |
-| `packages/` | 132 |
-| `supabase/` | 52 |
-| `scripts/` | 19 |
-| `prompt-exports/` | 12 |
-| `services/` | 12 |
-| `daily/` | 10 |
-| `references/` | 9 |
-| `.github/` | 8 |
-| `amos_adapter/` | 6 |
-| `md/` | 6 |
-| `_cosmo-brain-audit/` | 3 |
-| `e2e/` | 2 |
-| `levels/` | 1 |
-| *(top-level)* | 57 |
-| **Total** | **8253** |
+| Directory             | Files    |
+| --------------------- | -------- |
+| `docs/`               | 2791     |
+| `_00_Cosmo brain/`    | 2661     |
+| `.devin/`             | 717      |
+| `apps/`               | 701      |
+| `cosmo-brain/`        | 402      |
+| `cosmo/`              | 342      |
+| `designs/`            | 310      |
+| `packages/`           | 132      |
+| `supabase/`           | 52       |
+| `scripts/`            | 19       |
+| `prompt-exports/`     | 12       |
+| `services/`           | 12       |
+| `daily/`              | 10       |
+| `references/`         | 9        |
+| `.github/`            | 8        |
+| `amos_adapter/`       | 6        |
+| `md/`                 | 6        |
+| `_cosmo-brain-audit/` | 3        |
+| `e2e/`                | 2        |
+| `levels/`             | 1        |
+| *(top-level)*         | 57       |
+| **Total**             | **8253** |
 
 ## `docs/` (2791 files)
 
 ### `docs/brain/` (2481 files)
 
-- $$ — `docs/brain/$$.md`
+- $$ — `docs/brain/$$.md\`
 - 0.Universe_Logic_Kernel-ULK.ulmk — `docs/brain/0.Universe_Logic_Kernel-ULK.ulmk.md`
 - 00_AMOS_Full_Brain_OS_Architecture — `docs/brain/00_AMOS_Full_Brain_OS_Architecture.md`
 - 00_Cosmo_Brain_MOC — `docs/brain/00_Cosmo_Brain_MOC.md`
@@ -275,23 +278,23 @@ rscf:
 - 5a. Journey - Planning phase - v4 — `docs/brain/5a. Journey - Planning phase - v4.md`
 - 5b. Journey - Incubate v2 - shared — `docs/brain/5b. Journey - Incubate v2 - shared.md`
 - 5c. Journey - Waves v1 - shared — `docs/brain/5c. Journey - Waves v1 - shared.md`
-- 692e9594-a359-4b20-ad1c-800a28f6a5f4__THE_UNCOPYABLE_TRAINING_ARCHITECTURE — `docs/brain/692e9594-a359-4b20-ad1c-800a28f6a5f4__THE_UNCOPYABLE_TRAINING_ARCHITECTURE.md`
+- 692e9594-a359-4b20-ad1c-800a28f6a5f4\_\_THE_UNCOPYABLE_TRAINING_ARCHITECTURE — `docs/brain/692e9594-a359-4b20-ad1c-800a28f6a5f4__THE_UNCOPYABLE_TRAINING_ARCHITECTURE.md`
 - 6a. People - Recruiting targets — `docs/brain/6a. People - Recruiting targets.md`
 - 6b. People - Onboarding — `docs/brain/6b. People - Onboarding.md`
 - 6c. People - Capability building v2 — `docs/brain/6c. People - Capability building v2.md`
 - 6d. People - Retention and performance mgmt — `docs/brain/6d. People - Retention and performance mgmt.md`
 - 7. Culture — `docs/brain/7. Culture.md`
 - 7_INTELLIGENTS_MAPPING — `docs/brain/7_INTELLIGENTS_MAPPING.md`
-- 87dd08a9-0edd-419e-9928-3afb1e99a739_Cross-Civilizational_Intelligence_(CCI)__Official_Manual_ — `docs/brain/87dd08a9-0edd-419e-9928-3afb1e99a739_Cross-Civilizational_Intelligence_(CCI)__Official_Manual_.md`
+- 87dd08a9-0edd-419e-9928-3afb1e99a739_Cross-Civilizational_Intelligence\_(CCI)\__Official_Manual_ — `docs/brain/87dd08a9-0edd-419e-9928-3afb1e99a739_Cross-Civilizational_Intelligence_(CCI)__Official_Manual_.md`
 - 90% — `docs/brain/90%.md`
 - A Bio-Logical Model of Planetary Systems — `docs/brain/A Bio-Logical Model of Planetary Systems.md`
 - A Culturally-Grounded Digital Learning Platform to — `docs/brain/A Culturally-Grounded Digital Learning Platform to.md`
-- A The Living State Monetisation Thesis_ A New Economic Paradigm — `docs/brain/A The Living State Monetisation Thesis_ A New Economic Paradigm.md`
+- A The Living State Monetisation Thesis\_ A New Economic Paradigm — `docs/brain/A The Living State Monetisation Thesis_ A New Economic Paradigm.md`
 - A) Account + Infrastructure Setup (Execution-only) — `docs/brain/A) Account + Infrastructure Setup (Execution-only).md`
 - AB — `docs/brain/AB.md`
 - ABSOLUTE IP PROTECTION PLAN FOR TRANG PHAN — `docs/brain/ABSOLUTE IP PROTECTION PLAN FOR TRANG PHAN.md`
-- ABSOLUTE OMNIVERSE U∞_Universe_Packs — `docs/brain/ABSOLUTE OMNIVERSE U∞_Universe_Packs.md`
-- ABSOLUTE OMNIVERSE U∞_Universe_Packs_Universe_Packs — `docs/brain/ABSOLUTE OMNIVERSE U∞_Universe_Packs_Universe_Packs.md`
+- ABSOLUTE OMNIVERSE U∞\_Universe_Packs — `docs/brain/ABSOLUTE OMNIVERSE U∞_Universe_Packs.md`
+- ABSOLUTE OMNIVERSE U∞\_Universe_Packs_Universe_Packs — `docs/brain/ABSOLUTE OMNIVERSE U∞_Universe_Packs_Universe_Packs.md`
 - ABSOLUTE-HUMAN — `docs/brain/ABSOLUTE-HUMAN.md`
 - ABSOLUTE-VN Omnistructure — `docs/brain/ABSOLUTE-VN Omnistructure.md`
 - ABSOLUTE_VN_OMNISTRUCTURE_SUPER_x100k — `docs/brain/ABSOLUTE_VN_OMNISTRUCTURE_SUPER_x100k.md`
@@ -380,21 +383,21 @@ rscf:
 - AMOS Vietnamese Writing Engine vInfinity — `docs/brain/AMOS Vietnamese Writing Engine vInfinity.md`
 - AMOS all frameworks (drive-download-20260812T103607Z-1-001 2) — `docs/brain/AMOS all frameworks (drive-download-20260812T103607Z-1-001 2).md`
 - AMOS all frameworks — `docs/brain/AMOS all frameworks.md`
-- AMOS forex__data__oanda_data_service — `docs/brain/AMOS forex__data__oanda_data_service.md`
-- AMOS forex__db__init — `docs/brain/AMOS forex__db__init.md`
-- AMOS forex__execution__execution_service — `docs/brain/AMOS forex__execution__execution_service.md`
-- AMOS forex__monitoring__monitoring_service — `docs/brain/AMOS forex__monitoring__monitoring_service.md`
-- AMOS forex__package-lock — `docs/brain/AMOS forex__package-lock.md`
-- AMOS forex__packages__murk__primitives — `docs/brain/AMOS forex__packages__murk__primitives.md`
-- AMOS forex__packages__ukr__recursive_kernel — `docs/brain/AMOS forex__packages__ukr__recursive_kernel.md`
-- AMOS forex__packages__ulk__meta_laws — `docs/brain/AMOS forex__packages__ulk__meta_laws.md`
-- AMOS forex__research__research_service — `docs/brain/AMOS forex__research__research_service.md`
-- AMOS forex__risk__risk_service — `docs/brain/AMOS forex__risk__risk_service.md`
-- AMOS forex__run_tests — `docs/brain/AMOS forex__run_tests.md`
-- AMOS forex__signal__signal_service — `docs/brain/AMOS forex__signal__signal_service.md`
-- AMOS forex__signal__ukr_engine — `docs/brain/AMOS forex__signal__ukr_engine.md`
-- AMOS forex__tests__unit__data_service.test — `docs/brain/AMOS forex__tests__unit__data_service.test.md`
-- AMOS forex__validation__validation_service — `docs/brain/AMOS forex__validation__validation_service.md`
+- AMOS forex\_\_data\_\_oanda_data_service — `docs/brain/AMOS forex__data__oanda_data_service.md`
+- AMOS forex\_\_db\_\_init — `docs/brain/AMOS forex__db__init.md`
+- AMOS forex\_\_execution\_\_execution_service — `docs/brain/AMOS forex__execution__execution_service.md`
+- AMOS forex\_\_monitoring\_\_monitoring_service — `docs/brain/AMOS forex__monitoring__monitoring_service.md`
+- AMOS forex\_\_package-lock — `docs/brain/AMOS forex__package-lock.md`
+- AMOS forex\_\_packages\_\_murk\_\_primitives — `docs/brain/AMOS forex__packages__murk__primitives.md`
+- AMOS forex\_\_packages\_\_ukr\_\_recursive_kernel — `docs/brain/AMOS forex__packages__ukr__recursive_kernel.md`
+- AMOS forex\_\_packages\_\_ulk\_\_meta_laws — `docs/brain/AMOS forex__packages__ulk__meta_laws.md`
+- AMOS forex\_\_research\_\_research_service — `docs/brain/AMOS forex__research__research_service.md`
+- AMOS forex\_\_risk\_\_risk_service — `docs/brain/AMOS forex__risk__risk_service.md`
+- AMOS forex\_\_run_tests — `docs/brain/AMOS forex__run_tests.md`
+- AMOS forex\_\_signal\_\_signal_service — `docs/brain/AMOS forex__signal__signal_service.md`
+- AMOS forex\_\_signal\_\_ukr_engine — `docs/brain/AMOS forex__signal__ukr_engine.md`
+- AMOS forex\_\_tests\_\_unit\_\_data_service.test — `docs/brain/AMOS forex__tests__unit__data_service.test.md`
+- AMOS forex\_\_validation\_\_validation_service — `docs/brain/AMOS forex__validation__validation_service.md`
 - AMOS vOmni Kernel vInfinity_MAX — `docs/brain/AMOS vOmni Kernel vInfinity_MAX.md`
 - AMOS vOmni Master Kernel — `docs/brain/AMOS vOmni Master Kernel.md`
 - AMOS version — `docs/brain/AMOS version.md`
@@ -552,7 +555,7 @@ rscf:
 - AMOS_Consciousness_Engine_v0_Core7 — `docs/brain/AMOS_Consciousness_Engine_v0_Core7.md`
 - AMOS_Consulting_BizFin_Engine_vInfinity — `docs/brain/AMOS_Consulting_BizFin_Engine_vInfinity.md`
 - AMOS_Consulting_Engine_SUPER_x100k_vInfinity — `docs/brain/AMOS_Consulting_Engine_SUPER_x100k_vInfinity.md`
-- AMOS_Consulting__SUPER_Engine_ — `docs/brain/AMOS_Consulting__SUPER_Engine_.md`
+- AMOS_Consulting\_\_SUPER_Engine\_ — `docs/brain/AMOS_Consulting__SUPER_Engine_.md`
 - AMOS_Control_Systems_Kernel_v0_Math_Foundations — `docs/brain/AMOS_Control_Systems_Kernel_v0_Math_Foundations.md`
 - AMOS_Corp_Doc_Engine_SUPER_x100k_vInfinity — `docs/brain/AMOS_Corp_Doc_Engine_SUPER_x100k_vInfinity.md`
 - AMOS_Counterfactual_Reasoning_Kernel_v0_Meta_Cognition4_2 — `docs/brain/AMOS_Counterfactual_Reasoning_Kernel_v0_Meta_Cognition4_2.md`
@@ -854,7 +857,7 @@ rscf:
 - Aboriginal-focused Societal Impact — `docs/brain/Aboriginal-focused Societal Impact.md`
 - Absolute End Game — `docs/brain/Absolute End Game.md`
 - Absolute Integrity Architecture™ — Canonical Root — `docs/brain/Absolute Integrity Architecture™ — Canonical Root.md`
-- Absolute-Human (final version)_root — `docs/brain/Absolute-Human (final version)_root.md`
+- Absolute-Human (final version)\_root — `docs/brain/Absolute-Human (final version)_root.md`
 - Absolute_Human_Model — `docs/brain/Absolute_Human_Model.md`
 - Absolute_Logic_Model — `docs/brain/Absolute_Logic_Model.md`
 - Absolute_Omniverse_Model — `docs/brain/Absolute_Omniverse_Model.md`
@@ -896,7 +899,7 @@ rscf:
 - ÁNH XẠ UNIFIED MODEL QUA THỜI GIAN VÀ VĂN MINH — `docs/brain/ÁNH XẠ UNIFIED MODEL QUA THỜI GIAN VÀ VĂN MINH.md`
 - ẢNH HƯỞNG GIA HỆ NHƯ MỘT CƠ CHẾ ĐIỀU TIẾT XUYÊN 10 — `docs/brain/ẢNH HƯỞNG GIA HỆ NHƯ MỘT CƠ CHẾ ĐIỀU TIẾT XUYÊN 10.md`
 - ẢO TƯỞNG CỦA GIÁC NGỘ Tại sao sự thật không thể số — `docs/brain/ẢO TƯỞNG CỦA GIÁC NGỘ Tại sao sự thật không thể số.md`
-- B The Living State Monetisation Thesis_ A New Economic Paradigm — `docs/brain/B The Living State Monetisation Thesis_ A New Economic Paradigm.md`
+- B The Living State Monetisation Thesis\_ A New Economic Paradigm — `docs/brain/B The Living State Monetisation Thesis_ A New Economic Paradigm.md`
 - BÁO CÁO CHIẾN LƯỢC & PHÁP LÝ — `docs/brain/BÁO CÁO CHIẾN LƯỢC & PHÁP LÝ.md`
 - BÁO CÁO CHIẾN LƯỢC XU HƯỚNG XE ĐIỆN TRUNG QUỐC(202 — `docs/brain/BÁO CÁO CHIẾN LƯỢC XU HƯỚNG XE ĐIỆN TRUNG QUỐC(202.md`
 - BÁO CÁO CHIẾN LƯỢCV v Đề xuất hợp tác Baojun và kế — `docs/brain/BÁO CÁO CHIẾN LƯỢCV v Đề xuất hợp tác Baojun và kế.md`
@@ -1257,7 +1260,7 @@ rscf:
 - HIGHEST_VALUE_INCOMPLETE_SLICE_MISSION_COMPLETE — `docs/brain/HIGHEST_VALUE_INCOMPLETE_SLICE_MISSION_COMPLETE.md`
 - HÓA ĐƠN CHIẾU LỆ (PROFORMA INVOICE) — `docs/brain/HÓA ĐƠN CHIẾU LỆ (PROFORMA INVOICE).md`
 - HỢP ĐỒNG MUA BÁN — `docs/brain/HỢP ĐỒNG MUA BÁN.md`
-- HR_Talent_ — `docs/brain/HR_Talent_.md`
+- HR_Talent\_ — `docs/brain/HR_Talent_.md`
 - HSCSA – Core Law Set (Complete) — `docs/brain/HSCSA – Core Law Set (Complete).md`
 - HSE = Human Systems Engine — `docs/brain/HSE = Human Systems Engine.md`
 - HSE CEO Engine v1 — `docs/brain/HSE CEO Engine v1.md`
@@ -1266,8 +1269,8 @@ rscf:
 - HSE_CEO_Enginev_root — `docs/brain/HSE_CEO_Enginev_root.md`
 - HSE_Engine_Unipower — `docs/brain/HSE_Engine_Unipower.md`
 - HSE_Engine_Unipower4 — `docs/brain/HSE_Engine_Unipower4.md`
-- HSE_Enginev∞_AMOS_FORMAT — `docs/brain/HSE_Enginev∞_AMOS_FORMAT.md`
-- HSE_Enginev∞_AMOS_FORMAT_WITH_UCM — `docs/brain/HSE_Enginev∞_AMOS_FORMAT_WITH_UCM.md`
+- HSE_Enginev∞\_AMOS_FORMAT — `docs/brain/HSE_Enginev∞_AMOS_FORMAT.md`
+- HSE_Enginev∞\_AMOS_FORMAT_WITH_UCM — `docs/brain/HSE_Enginev∞_AMOS_FORMAT_WITH_UCM.md`
 - HSE_States — `docs/brain/HSE_States.md`
 - HSE_Vietnam_Master — `docs/brain/HSE_Vietnam_Master.md`
 - HTTP_Host_Header_Attacks — `docs/brain/HTTP_Host_Header_Attacks.md`
@@ -1299,7 +1302,7 @@ rscf:
 - Human Systems Engine™ (HSE) VN — `docs/brain/Human Systems Engine™ (HSE) VN.md`
 - Human-Centered Design Was a Misnomer — `docs/brain/Human-Centered Design Was a Misnomer.md`
 - Human_Interaction_Engine_Model — `docs/brain/Human_Interaction_Engine_Model.md`
-- Human_Systems_Engine_(HSE)_VN — `docs/brain/Human_Systems_Engine_(HSE)_VN.md`
+- Human_Systems_Engine\_(HSE)\_VN — `docs/brain/Human_Systems_Engine_(HSE)_VN.md`
 - Human_Systems_Engine_Model — `docs/brain/Human_Systems_Engine_Model.md`
 - Hydrogen Is Not an Alternative — It Is the End Gam — `docs/brain/Hydrogen Is Not an Alternative — It Is the End Gam.md`
 - Hydrogen Is the Most Powerful Energy Vector — and — `docs/brain/Hydrogen Is the Most Powerful Energy Vector — and.md`
@@ -1314,7 +1317,7 @@ rscf:
 - IKONOMY — SPECIFIC MACHINE REDESIGN TO PUSH THE TR — `docs/brain/IKONOMY — SPECIFIC MACHINE REDESIGN TO PUSH THE TR.md`
 - IMPLEMENTATION_MANIFEST — `docs/brain/IMPLEMENTATION_MANIFEST.md`
 - IMPLEMENTATION_README — `docs/brain/IMPLEMENTATION_README.md`
-- INDEX_ — `docs/brain/INDEX_.md`
+- INDEX\_ — `docs/brain/INDEX_.md`
 - INDEX_AMOS forex — `docs/brain/INDEX_AMOS forex.md`
 - INDEX_AMOS-Consulting-GitHub — `docs/brain/INDEX_AMOS-Consulting-GitHub.md`
 - INDEX_AMOS-Consulting — `docs/brain/INDEX_AMOS-Consulting.md`
@@ -1325,9 +1328,9 @@ rscf:
 - INDEX_MAIN — `docs/brain/INDEX_MAIN.md`
 - INDEX_Tech Engine — `docs/brain/INDEX_Tech Engine.md`
 - INDEX_Unipower — `docs/brain/INDEX_Unipower.md`
-- INDEX__Archive — `docs/brain/INDEX__Archive.md`
-- INDEX__LEGACY BRAIN — `docs/brain/INDEX__LEGACY BRAIN.md`
-- INDEX__LEGACY BRAIN2 — `docs/brain/INDEX__LEGACY BRAIN2.md`
+- INDEX\_\_Archive — `docs/brain/INDEX__Archive.md`
+- INDEX\_\_LEGACY BRAIN — `docs/brain/INDEX__LEGACY BRAIN.md`
+- INDEX\_\_LEGACY BRAIN2 — `docs/brain/INDEX__LEGACY BRAIN2.md`
 - INDEX_arxiv-mirrors — `docs/brain/INDEX_arxiv-mirrors.md`
 - INDEX_arxiv_md — `docs/brain/INDEX_arxiv_md.md`
 - INDEX_daily — `docs/brain/INDEX_daily.md`
@@ -1342,8 +1345,8 @@ rscf:
 - INTEGRATION_TASK_COMPLETE — `docs/brain/INTEGRATION_TASK_COMPLETE.md`
 - INVARIANTS (docs) — `docs/brain/INVARIANTS (docs).md`
 - IP_Kernel_Shield_Security — `docs/brain/IP_Kernel_Shield_Security.md`
-- IP_Kernel_Shield__archive AMOS22 — `docs/brain/IP_Kernel_Shield__archive AMOS22.md`
-- IP_Kernel_Shield__archive AMOS23 — `docs/brain/IP_Kernel_Shield__archive AMOS23.md`
+- IP_Kernel_Shield\_\_archive AMOS22 — `docs/brain/IP_Kernel_Shield__archive AMOS22.md`
+- IP_Kernel_Shield\_\_archive AMOS23 — `docs/brain/IP_Kernel_Shield__archive AMOS23.md`
 - ITIA — `docs/brain/ITIA.md`
 - Iceage — `docs/brain/Iceage.md`
 - Implication — `docs/brain/Implication.md`
@@ -1394,7 +1397,7 @@ rscf:
 - LDAP — `docs/brain/LDAP.md`
 - LOAD_MAP — `docs/brain/LOAD_MAP.md`
 - [[11_KNOWLEDGE/kernel/LOGIC_KERNEL|LOGIC_KERNEL]] — `docs/brain/LOGIC_KERNEL.md`
-- LOGIC__archive AMOS2 — `docs/brain/LOGIC__archive AMOS2.md`
+- LOGIC\_\_archive AMOS2 — `docs/brain/LOGIC__archive AMOS2.md`
 - LOGIC_root — `docs/brain/LOGIC_root.md`
 - LỜI NGUYỀN, MA THUẬT, TÂM LINH BẢN DỊCH CẤU TRÚC C — `docs/brain/LỜI NGUYỀN, MA THUẬT, TÂM LINH BẢN DỊCH CẤU TRÚC C.md`
 - LỚP HỌC AI CƠ BẢN — `docs/brain/LỚP HỌC AI CƠ BẢN.md`
@@ -1708,7 +1711,7 @@ rscf:
 - Software cancer — `docs/brain/Software cancer.md`
 - State Management on Anti-Counterfeiting in Vietnam — `docs/brain/State Management on Anti-Counterfeiting in Vietnam.md`
 - Strategic_Document_Model — `docs/brain/Strategic_Document_Model.md`
-- Strategic_Partnership_Proposal_to_GCBAT_(Neural_Tech_Council) — `docs/brain/Strategic_Partnership_Proposal_to_GCBAT_(Neural_Tech_Council).md`
+- Strategic_Partnership_Proposal_to_GCBAT\_(Neural_Tech_Council) — `docs/brain/Strategic_Partnership_Proposal_to_GCBAT_(Neural_Tech_Council).md`
 - Strategy_Game_Model — `docs/brain/Strategy_Game_Model.md`
 - Structural Behavioural Distribution Framework™ (SB — `docs/brain/Structural Behavioural Distribution Framework™ (SB.md`
 - Survey — `docs/brain/Survey.md`
@@ -1764,7 +1767,7 @@ rscf:
 - Tam the — `docs/brain/Tam the.md`
 - Tam — `docs/brain/Tam.md`
 - Teamspace Home — `docs/brain/Teamspace Home.md`
-- Tech Engine__Archive — `docs/brain/Tech Engine__Archive.md`
+- Tech Engine\_\_Archive — `docs/brain/Tech Engine__Archive.md`
 - Tech Engine_root — `docs/brain/Tech Engine_root.md`
 - Tech Partner Audit — `docs/brain/Tech Partner Audit.md`
 - Tech_Architecture_Model — `docs/brain/Tech_Architecture_Model.md`
@@ -1790,8 +1793,8 @@ rscf:
 - The Illusion of “Cheap” EVs — `docs/brain/The Illusion of “Cheap” EVs.md`
 - The Institutional Digital Security Bound — `docs/brain/The Institutional Digital Security Bound.md`
 - The Law of Law™, The Rule of 2™, and The Rule of 4 — `docs/brain/The Law of Law™, The Rule of 2™, and The Rule of 4.md`
-- The Living Stack_ A Comprehensive Scientific Architecture Thesis (Expanded) — `docs/brain/The Living Stack_ A Comprehensive Scientific Architecture Thesis (Expanded).md`
-- The Living State Monetisation Thesis_ A New Economic Paradigm — `docs/brain/The Living State Monetisation Thesis_ A New Economic Paradigm.md`
+- The Living Stack\_ A Comprehensive Scientific Architecture Thesis (Expanded) — `docs/brain/The Living Stack_ A Comprehensive Scientific Architecture Thesis (Expanded).md`
+- The Living State Monetisation Thesis\_ A New Economic Paradigm — `docs/brain/The Living State Monetisation Thesis_ A New Economic Paradigm.md`
 - The Mathematics of the Dao — `docs/brain/The Mathematics of the Dao.md`
 - The Monetization of Mental Illness Was Not an Acci — `docs/brain/The Monetization of Mental Illness Was Not an Acci.md`
 - The Nervous System of the Universe Rebuilding the — `docs/brain/The Nervous System of the Universe Rebuilding the.md`
@@ -1810,7 +1813,7 @@ rscf:
 - The Void — Ego Dissolution Model — `docs/brain/The Void — Ego Dissolution Model.md`
 - The_Art_of_Peace_Ending_All_Human_Suffering_Through_Unified_Biological_Intelligence — `docs/brain/The_Art_of_Peace_Ending_All_Human_Suffering_Through_Unified_Biological_Intelligence.md`
 - The_Biological_Science_Behind_Buddhas_Teachings — `docs/brain/The_Biological_Science_Behind_Buddhas_Teachings.md`
-- The_Seven_Cycles_of_the_Trang_System_Official_Manual_Comprehensive_Edition_ — `docs/brain/The_Seven_Cycles_of_the_Trang_System_Official_Manual_Comprehensive_Edition_.md`
+- The_Seven_Cycles_of_the_Trang_System_Official_Manual_Comprehensive_Edition\_ — `docs/brain/The_Seven_Cycles_of_the_Trang_System_Official_Manual_Comprehensive_Edition_.md`
 - The_Vietnamese_Root_Language_System_Origin_Biological_Significance_and_Quantum_Linguistic_Infrastructure — `docs/brain/The_Vietnamese_Root_Language_System_Origin_Biological_Significance_and_Quantum_Linguistic_Infrastructure.md`
 - Theoretical and Practical Foundations of State Man — `docs/brain/Theoretical and Practical Foundations of State Man.md`
 - Thicc_App — `docs/brain/Thicc_App.md`
@@ -1890,7 +1893,7 @@ rscf:
 - Unified Biological Intelligence™ (UBI) – Official — `docs/brain/Unified Biological Intelligence™ (UBI) – Official.md`
 - Unified Coherence Protocol™ (UCP) – Official Manua — `docs/brain/Unified Coherence Protocol™ (UCP) – Official Manua.md`
 - Unified Legacy Framework™ (ULF) – Official Manual — `docs/brain/Unified Legacy Framework™ (ULF) – Official Manual.md`
-- Unified_Biological_Intelligence_(UBI)_A_New_Infrastructure_for_Intelligence — `docs/brain/Unified_Biological_Intelligence_(UBI)_A_New_Infrastructure_for_Intelligence.md`
+- Unified_Biological_Intelligence\_(UBI)\_A_New_Infrastructure_for_Intelligence — `docs/brain/Unified_Biological_Intelligence_(UBI)_A_New_Infrastructure_for_Intelligence.md`
 - Unified_Biological_Intelligence_Diagrams — `docs/brain/Unified_Biological_Intelligence_Diagrams.md`
 - Unified_Biological_Intelligence_and_the_Restoration_of_Aboriginal_Somatic_Intelligence — `docs/brain/Unified_Biological_Intelligence_and_the_Restoration_of_Aboriginal_Somatic_Intelligence.md`
 - Unified_Coding_Engine_vInfinity_v1.6.0 — `docs/brain/Unified_Coding_Engine_vInfinity_v1.6.0.md`
@@ -1915,7 +1918,7 @@ rscf:
 - Usdt — `docs/brain/Usdt.md`
 - ỨNG DỤNG PHƯƠNG PHÁP TRANG TRONG ĐIỀU TRỊ RỐI LOẠN — `docs/brain/ỨNG DỤNG PHƯƠNG PHÁP TRANG TRONG ĐIỀU TRỊ RỐI LOẠN.md`
 - Ứng dụng Khung Độ Phức Tạp (Complexity Framework) — `docs/brain/Ứng dụng Khung Độ Phức Tạp (Complexity Framework).md`
-- V11 - Planetary Consent Infrastructure_ Complete Technical Framework — `docs/brain/V11 - Planetary Consent Infrastructure_ Complete Technical Framework.md`
+- V11 - Planetary Consent Infrastructure\_ Complete Technical Framework — `docs/brain/V11 - Planetary Consent Infrastructure_ Complete Technical Framework.md`
 - V3_2_1 — `docs/brain/V3_2_1.md`
 - V3_4_1 — `docs/brain/V3_4_1.md`
 - V3_7_1 — `docs/brain/V3_7_1.md`
@@ -2026,10 +2029,10 @@ rscf:
 - YÊU CẦU ĐỐI VỚI LÁI XE KHI THAM GIA BẢO HIỂM NHÂN — `docs/brain/YÊU CẦU ĐỐI VỚI LÁI XE KHI THAM GIA BẢO HIỂM NHÂN.md`
 - Yes — there are a few modern individuals who, like — `docs/brain/Yes — there are a few modern individuals who, like.md`
 - Ý THỨC, TIỀM THỨC, NHẬN THỨC — `docs/brain/Ý THỨC, TIỀM THỨC, NHẬN THỨC.md`
-- _AMOS_Total Technical Engine — `docs/brain/_AMOS_Total Technical Engine.md`
-- _patch_7pt_notes — `docs/brain/_patch_7pt_notes.md`
-- _rscf_tag_migrate — `docs/brain/_rscf_tag_migrate.md`
-- _Đông Sơn — `docs/brain/_Đông Sơn.md`
+- \_AMOS_Total Technical Engine — `docs/brain/_AMOS_Total Technical Engine.md`
+- \_patch_7pt_notes — `docs/brain/_patch_7pt_notes.md`
+- \_rscf_tag_migrate — `docs/brain/_rscf_tag_migrate.md`
+- \_Đông Sơn — `docs/brain/_Đông Sơn.md`
 - absolut human — `docs/brain/absolut human.md`
 - absolute_transcendent_synthesis_20260219_214228 — `docs/brain/absolute_transcendent_synthesis_20260219_214228.md`
 - absolute_vn_100000_registry_analysis_report — `docs/brain/absolute_vn_100000_registry_analysis_report.md`
@@ -2260,7 +2263,7 @@ rscf:
 - arrayterator — `docs/brain/arrayterator.md`
 - audit_quality_engine_v0 — `docs/brain/audit_quality_engine_v0.md`
 - automation_profiles — `docs/brain/automation_profiles.md`
-- b32a7b01-5632-450a-a935-2ded537ff5fe_The_Seven_Cycles_of_the_Trang_System__Official_Manual_(Comprehensive_Edition) — `docs/brain/b32a7b01-5632-450a-a935-2ded537ff5fe_The_Seven_Cycles_of_the_Trang_System__Official_Manual_(Comprehensive_Edition).md`
+- b32a7b01-5632-450a-a935-2ded537ff5fe_The_Seven_Cycles_of_the_Trang_System\_\_Official_Manual\_(Comprehensive_Edition) — `docs/brain/b32a7b01-5632-450a-a935-2ded537ff5fe_The_Seven_Cycles_of_the_Trang_System__Official_Manual_(Comprehensive_Edition).md`
 - back track mapping — `docs/brain/back track mapping.md`
 - backlink — `docs/brain/backlink.md`
 - bang sang che — `docs/brain/bang sang che.md`
@@ -2327,8 +2330,8 @@ rscf:
 - equations (fractal_cognitive_architecture) — `docs/brain/equations (fractal_cognitive_architecture).md`
 - equations — `docs/brain/equations.md`
 - executor_agent — `docs/brain/executor_agent.md`
-- f27cc831-ed1e-4764-896c-24b01ebe2302_THE_TRANG_SYSTEM_CODEX__META-LAWS — `docs/brain/f27cc831-ed1e-4764-896c-24b01ebe2302_THE_TRANG_SYSTEM_CODEX__META-LAWS.md`
-- f49f022f-cda1-4783-817b-9a6c86732371_THE_TRANG_GRAND_SYSTEM___FULL_LOGIC_SPECIFICATION — `docs/brain/f49f022f-cda1-4783-817b-9a6c86732371_THE_TRANG_GRAND_SYSTEM___FULL_LOGIC_SPECIFICATION.md`
+- f27cc831-ed1e-4764-896c-24b01ebe2302_THE_TRANG_SYSTEM_CODEX\_\_META-LAWS — `docs/brain/f27cc831-ed1e-4764-896c-24b01ebe2302_THE_TRANG_SYSTEM_CODEX__META-LAWS.md`
+- f49f022f-cda1-4783-817b-9a6c86732371_THE_TRANG_GRAND_SYSTEM\_\_\_FULL_LOGIC_SPECIFICATION — `docs/brain/f49f022f-cda1-4783-817b-9a6c86732371_THE_TRANG_GRAND_SYSTEM___FULL_LOGIC_SPECIFICATION.md`
 - f77comments — `docs/brain/f77comments.md`
 - f77fixedform — `docs/brain/f77fixedform.md`
 - falsifiers — `docs/brain/falsifiers.md`
@@ -2399,14 +2402,14 @@ rscf:
 - math — `docs/brain/math.md`
 - math_fractal_architecture_25000 — `docs/brain/math_fractal_architecture_25000.md`
 - mckinsey — `docs/brain/mckinsey.md`
-- md__2026-08-23 AMOS Absolute Integrity Pass — `docs/brain/md__2026-08-23 AMOS Absolute Integrity Pass.md`
-- md__2026-08-23 AMOS Canon LEGACY BRAIN2 Core — `docs/brain/md__2026-08-23 AMOS Canon LEGACY BRAIN2 Core.md`
-- md__2026-08-23 AMOS Cosmo Brain Core Architecture Map — `docs/brain/md__2026-08-23 AMOS Cosmo Brain Core Architecture Map.md`
-- md__2026-08-23 AMOS-Consulting LEGACY BRAIN2 Core Empty State — `docs/brain/md__2026-08-23 AMOS-Consulting LEGACY BRAIN2 Core Empty State.md`
-- md__2026-08-23 Cosmo Brain Core Architecture — `docs/brain/md__2026-08-23 Cosmo Brain Core Architecture.md`
-- md__2026-08-23 Cosmo Brain Full Architecture — `docs/brain/md__2026-08-23 Cosmo Brain Full Architecture.md`
-- md__2026-08-23 Cosmo Brain Project Directory Map — `docs/brain/md__2026-08-23 Cosmo Brain Project Directory Map.md`
-- md__2026-08-23 Cosmo Brain Vault Full Directory Map — `docs/brain/md__2026-08-23 Cosmo Brain Vault Full Directory Map.md`
+- md\_\_2026-08-23 AMOS Absolute Integrity Pass — `docs/brain/md__2026-08-23 AMOS Absolute Integrity Pass.md`
+- md\_\_2026-08-23 AMOS Canon LEGACY BRAIN2 Core — `docs/brain/md__2026-08-23 AMOS Canon LEGACY BRAIN2 Core.md`
+- md\_\_2026-08-23 AMOS Cosmo Brain Core Architecture Map — `docs/brain/md__2026-08-23 AMOS Cosmo Brain Core Architecture Map.md`
+- md\_\_2026-08-23 AMOS-Consulting LEGACY BRAIN2 Core Empty State — `docs/brain/md__2026-08-23 AMOS-Consulting LEGACY BRAIN2 Core Empty State.md`
+- md\_\_2026-08-23 Cosmo Brain Core Architecture — `docs/brain/md__2026-08-23 Cosmo Brain Core Architecture.md`
+- md\_\_2026-08-23 Cosmo Brain Full Architecture — `docs/brain/md__2026-08-23 Cosmo Brain Full Architecture.md`
+- md\_\_2026-08-23 Cosmo Brain Project Directory Map — `docs/brain/md__2026-08-23 Cosmo Brain Project Directory Map.md`
+- md\_\_2026-08-23 Cosmo Brain Vault Full Directory Map — `docs/brain/md__2026-08-23 Cosmo Brain Vault Full Directory Map.md`
 - memory_write_agent — `docs/brain/memory_write_agent.md`
 - mental_state_engine — `docs/brain/mental_state_engine.md`
 - metabolism_integrity_present — `docs/brain/metabolism_integrity_present.md`
@@ -2555,7 +2558,7 @@ rscf:
 - The Complete Trust & Signal Ecosystem — `docs/brain/🌍 The Complete Trust & Signal Ecosystem.md`
 - The Energy–EROI–Carbon Scoring Network — `docs/brain/🌍 The Energy–EROI–Carbon Scoring Network.md`
 - QLS–ABI Longevity™ trong Nền Kinh Tế Tuổi Thọ — `docs/brain/🌏 QLS–ABI Longevity™ trong Nền Kinh Tế Tuổi Thọ.md`
-- The System_ — `docs/brain/🌏 The System_.md`
+- The System\_ — `docs/brain/🌏 The System_.md`
 - Decentralised Energy–EROI–Carbon Scoring Network — `docs/brain/🌐 Decentralised Energy–EROI–Carbon Scoring Network.md`
 - Smart Device Owner Communities — `docs/brain/🌐 Smart Device Owner Communities.md`
 - NeuroSyncAI™ Health Companion — `docs/brain/🌿 NeuroSyncAI™ Health Companion.md`
@@ -2722,90 +2725,90 @@ rscf:
 - RSCF Packs → State_Packs → Template Cluster — `docs/moc/rscf/RSCF Packs → State_Packs → Template Cluster.md`
 - RSCF Packs → Universe_Packs Cluster — `docs/moc/rscf/RSCF Packs → Universe_Packs Cluster.md`
 - RSCF Unipower Cluster — `docs/moc/rscf/RSCF Unipower Cluster.md`
-- RSCF _AMOS_UNIVERSE Cluster — `docs/moc/rscf/RSCF _AMOS_UNIVERSE Cluster.md`
-- RSCF _AMOS_UNIVERSE → Domains → Biz_Market Cluster — `docs/moc/rscf/RSCF _AMOS_UNIVERSE → Domains → Biz_Market Cluster.md`
-- RSCF _AMOS_UNIVERSE → Domains → Org_Risk_Policy Cluster — `docs/moc/rscf/RSCF _AMOS_UNIVERSE → Domains → Org_Risk_Policy Cluster.md`
-- RSCF _AMOS_UNIVERSE → Domains → Science_Health Cluster — `docs/moc/rscf/RSCF _AMOS_UNIVERSE → Domains → Science_Health Cluster.md`
-- RSCF _AMOS_UNIVERSE → Domains → Tech_Systems Cluster — `docs/moc/rscf/RSCF _AMOS_UNIVERSE → Domains → Tech_Systems Cluster.md`
-- RSCF _AMOS_UNIVERSE → Engines Cluster — `docs/moc/rscf/RSCF _AMOS_UNIVERSE → Engines Cluster.md`
-- RSCF _Archive Cluster — `docs/moc/rscf/RSCF _Archive Cluster.md`
-- RSCF _Archive → AMOS_SYSTEM → Core Cluster — `docs/moc/rscf/RSCF _Archive → AMOS_SYSTEM → Core Cluster.md`
-- RSCF _Archive → AMOS_SYSTEM → Core → Expression Cluster — `docs/moc/rscf/RSCF _Archive → AMOS_SYSTEM → Core → Expression Cluster.md`
-- RSCF _Archive → AMOS_SYSTEM → Core → Kernel Cluster — `docs/moc/rscf/RSCF _Archive → AMOS_SYSTEM → Core → Kernel Cluster.md`
-- RSCF _Archive → AMOS_SYSTEM → Core → Routing Cluster — `docs/moc/rscf/RSCF _Archive → AMOS_SYSTEM → Core → Routing Cluster.md`
-- RSCF _Archive → AMOS_SYSTEM → Core → Security Cluster — `docs/moc/rscf/RSCF _Archive → AMOS_SYSTEM → Core → Security Cluster.md`
-- RSCF _Archive → AMOS_SYSTEM → Core → _COGNITION Cluster — `docs/moc/rscf/RSCF _Archive → AMOS_SYSTEM → Core → _COGNITION Cluster.md`
-- RSCF _Archive → AMOS_SYSTEM → Packs → Skill_Packs Cluster — `docs/moc/rscf/RSCF _Archive → AMOS_SYSTEM → Packs → Skill_Packs Cluster.md`
-- RSCF _Archive → AMOS_SYSTEM → Registry → Agents Cluster — `docs/moc/rscf/RSCF _Archive → AMOS_SYSTEM → Registry → Agents Cluster.md`
-- RSCF _Archive → AMOS_SYSTEM → Registry → Changes Cluster — `docs/moc/rscf/RSCF _Archive → AMOS_SYSTEM → Registry → Changes Cluster.md`
-- RSCF _Archive → AMOS_SYSTEM → Registry → Systems Cluster — `docs/moc/rscf/RSCF _Archive → AMOS_SYSTEM → Registry → Systems Cluster.md`
-- RSCF _Archive → Engines Cluster — `docs/moc/rscf/RSCF _Archive → Engines Cluster.md`
-- RSCF _Archive → Kernel Cluster — `docs/moc/rscf/RSCF _Archive → Kernel Cluster.md`
-- RSCF _Archive → NEW PROCESS Cluster — `docs/moc/rscf/RSCF _Archive → NEW PROCESS Cluster.md`
-- RSCF _Archive → Packs Cluster — `docs/moc/rscf/RSCF _Archive → Packs Cluster.md`
-- RSCF _Archive → _AMOS UNIVERSE Cluster — `docs/moc/rscf/RSCF _Archive → _AMOS UNIVERSE Cluster.md`
-- RSCF _Archive → _AMOS UNIVERSE → Civilization OS Cluster — `docs/moc/rscf/RSCF _Archive → _AMOS UNIVERSE → Civilization OS Cluster.md`
-- RSCF _Archive → _AMOS UNIVERSE → _AMOS BRAIN Cluster — `docs/moc/rscf/RSCF _Archive → _AMOS UNIVERSE → _AMOS BRAIN Cluster.md`
-- RSCF _Archive → _COGNITION Cluster — `docs/moc/rscf/RSCF _Archive → _COGNITION Cluster.md`
-- RSCF _Archive → _COGNITION → _DEL Cluster — `docs/moc/rscf/RSCF _Archive → _COGNITION → _DEL Cluster.md`
-- RSCF _LEGACY BRAIN → Auto → Tech Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN → Auto → Tech Cluster.md`
-- RSCF _LEGACY BRAIN → Auto → national_banking_os Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN → Auto → national_banking_os Cluster.md`
-- RSCF _LEGACY BRAIN → Cognitive Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN → Cognitive Cluster.md`
-- RSCF _LEGACY BRAIN → Core Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN → Core Cluster.md`
-- RSCF _LEGACY BRAIN → Core → 7_Intelligents Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN → Core → 7_Intelligents Cluster.md`
-- RSCF _LEGACY BRAIN → Core → Cognitive_Stack → (MOC) — `docs/moc/rscf/RSCF _LEGACY BRAIN → Core → Cognitive_Stack → (MOC).md`
-- RSCF _LEGACY BRAIN → Core → Cognitive_Stack → Biology — `docs/moc/rscf/RSCF _LEGACY BRAIN → Core → Cognitive_Stack → Biology.md`
-- RSCF _LEGACY BRAIN → Core → Cognitive_Stack → Human_Society — `docs/moc/rscf/RSCF _LEGACY BRAIN → Core → Cognitive_Stack → Human_Society.md`
-- RSCF _LEGACY BRAIN → Core → Cognitive_Stack → Logic Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN → Core → Cognitive_Stack → Logic Cluster.md`
-- RSCF _LEGACY BRAIN → Core → Cognitive_Stack → Systems — `docs/moc/rscf/RSCF _LEGACY BRAIN → Core → Cognitive_Stack → Systems.md`
-- RSCF _LEGACY BRAIN → Core → Cognitive_Stack → Universe — `docs/moc/rscf/RSCF _LEGACY BRAIN → Core → Cognitive_Stack → Universe.md`
-- RSCF _LEGACY BRAIN → Core → Cognitive_Stack → — `docs/moc/rscf/RSCF _LEGACY BRAIN → Core → Cognitive_Stack →.md`
-- RSCF _LEGACY BRAIN → Core → Ubi Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN → Core → Ubi Cluster.md`
-- RSCF _LEGACY BRAIN → Core → Web Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN → Core → Web Cluster.md`
-- RSCF _LEGACY BRAIN → Domains Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN → Domains Cluster.md`
-- RSCF _LEGACY BRAIN → Domains → Org_Risk_Policy Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN → Domains → Org_Risk_Policy Cluster.md`
-- RSCF _LEGACY BRAIN → Domains → Science_Health Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN → Domains → Science_Health Cluster.md`
-- RSCF _LEGACY BRAIN → Domains → Sub Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN → Domains → Sub Cluster.md`
-- RSCF _LEGACY BRAIN → Domains → Tech_Systems Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN → Domains → Tech_Systems Cluster.md`
-- RSCF _LEGACY BRAIN → Kernels Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN → Kernels Cluster.md`
-- RSCF _LEGACY BRAIN → Kernels → Biology_Cognition Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN → Kernels → Biology_Cognition Cluster.md`
-- RSCF _LEGACY BRAIN → Kernels → Business Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN → Kernels → Business Cluster.md`
-- RSCF _LEGACY BRAIN → Kernels → Governance_Risk Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN → Kernels → Governance_Risk Cluster.md`
-- RSCF _LEGACY BRAIN → Kernels → Logic Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN → Kernels → Logic Cluster.md`
-- RSCF _LEGACY BRAIN → Kernels → Tech Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN → Kernels → Tech Cluster.md`
-- RSCF _LEGACY BRAIN → Packs → Country_Packs Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN → Packs → Country_Packs Cluster.md`
-- RSCF _LEGACY BRAIN → Packs → Country_Packs → Country_Packs (MOC) — `docs/moc/rscf/RSCF _LEGACY BRAIN → Packs → Country_Packs → Country_Packs (MOC).md`
-- RSCF _LEGACY BRAIN → Packs → Country_Packs → Country_Packs — `docs/moc/rscf/RSCF _LEGACY BRAIN → Packs → Country_Packs → Country_Packs.md`
-- RSCF _LEGACY BRAIN → Packs → Scenario_Packs → — `docs/moc/rscf/RSCF _LEGACY BRAIN → Packs → Scenario_Packs →.md`
-- RSCF _LEGACY BRAIN → Packs → Sector_Packs Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN → Packs → Sector_Packs Cluster.md`
-- RSCF _LEGACY BRAIN → Packs → Sector_Packs → Template Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN → Packs → Sector_Packs → Template Cluster.md`
-- RSCF _LEGACY BRAIN → Packs → State_Packs Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN → Packs → State_Packs Cluster.md`
-- RSCF _LEGACY BRAIN → Packs → State_Packs → Template Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN → Packs → State_Packs → Template Cluster.md`
-- RSCF _LEGACY BRAIN → Packs → Universe_Packs Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN → Packs → Universe_Packs Cluster.md`
-- RSCF _LEGACY BRAIN → Unipower Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN → Unipower Cluster.md`
-- RSCF _LEGACY BRAIN2 → Core Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN2 → Core Cluster.md`
-- RSCF _LEGACY BRAIN2 → Core → 7_Intelligents Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN2 → Core → 7_Intelligents Cluster.md`
-- RSCF _LEGACY BRAIN2 → Core → Canonical_Laws Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN2 → Core → Canonical_Laws Cluster.md`
-- RSCF _LEGACY BRAIN2 → Core → Mind Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN2 → Core → Mind Cluster.md`
-- RSCF _LEGACY BRAIN2 → Core → Ubi Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN2 → Core → Ubi Cluster.md`
-- RSCF _LEGACY BRAIN2 → Core → Web Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN2 → Core → Web Cluster.md`
-- RSCF _LEGACY BRAIN2 → Domains Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN2 → Domains Cluster.md`
-- RSCF _LEGACY BRAIN2 → Domains → Biz_Market Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN2 → Domains → Biz_Market Cluster.md`
-- RSCF _LEGACY BRAIN2 → Domains → Org_Risk_Policy Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN2 → Domains → Org_Risk_Policy Cluster.md`
-- RSCF _LEGACY BRAIN2 → Domains → Science_Health Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN2 → Domains → Science_Health Cluster.md`
-- RSCF _LEGACY BRAIN2 → Domains → Sub Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN2 → Domains → Sub Cluster.md`
-- RSCF _LEGACY BRAIN2 → Domains → Tech_Systems Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN2 → Domains → Tech_Systems Cluster.md`
-- RSCF _LEGACY BRAIN2 → Kernels → Biology_Cognition Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN2 → Kernels → Biology_Cognition Cluster.md`
-- RSCF _LEGACY BRAIN2 → Kernels → Business Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN2 → Kernels → Business Cluster.md`
-- RSCF _LEGACY BRAIN2 → Kernels → Governance_Risk Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN2 → Kernels → Governance_Risk Cluster.md`
-- RSCF _LEGACY BRAIN2 → Kernels → Logic Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN2 → Kernels → Logic Cluster.md`
-- RSCF _LEGACY BRAIN2 → Kernels → Tech Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN2 → Kernels → Tech Cluster.md`
-- RSCF _LEGACY BRAIN2 → Packs → Country_Packs Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN2 → Packs → Country_Packs Cluster.md`
-- RSCF _LEGACY BRAIN2 → Packs → Sector_Packs Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN2 → Packs → Sector_Packs Cluster.md`
-- RSCF _LEGACY BRAIN2 → Packs → State_Packs Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN2 → Packs → State_Packs Cluster.md`
-- RSCF _LEGACY BRAIN2 → Unipower Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN2 → Unipower Cluster.md`
-- RSCF _archive AMOS2 Cluster — `docs/moc/rscf/RSCF _archive AMOS2 Cluster.md`
-- RSCF _root Cluster — `docs/moc/rscf/RSCF _root Cluster.md`
+- RSCF \_AMOS_UNIVERSE Cluster — `docs/moc/rscf/RSCF _AMOS_UNIVERSE Cluster.md`
+- RSCF \_AMOS_UNIVERSE → Domains → Biz_Market Cluster — `docs/moc/rscf/RSCF _AMOS_UNIVERSE → Domains → Biz_Market Cluster.md`
+- RSCF \_AMOS_UNIVERSE → Domains → Org_Risk_Policy Cluster — `docs/moc/rscf/RSCF _AMOS_UNIVERSE → Domains → Org_Risk_Policy Cluster.md`
+- RSCF \_AMOS_UNIVERSE → Domains → Science_Health Cluster — `docs/moc/rscf/RSCF _AMOS_UNIVERSE → Domains → Science_Health Cluster.md`
+- RSCF \_AMOS_UNIVERSE → Domains → Tech_Systems Cluster — `docs/moc/rscf/RSCF _AMOS_UNIVERSE → Domains → Tech_Systems Cluster.md`
+- RSCF \_AMOS_UNIVERSE → Engines Cluster — `docs/moc/rscf/RSCF _AMOS_UNIVERSE → Engines Cluster.md`
+- RSCF \_Archive Cluster — `docs/moc/rscf/RSCF _Archive Cluster.md`
+- RSCF \_Archive → AMOS_SYSTEM → Core Cluster — `docs/moc/rscf/RSCF _Archive → AMOS_SYSTEM → Core Cluster.md`
+- RSCF \_Archive → AMOS_SYSTEM → Core → Expression Cluster — `docs/moc/rscf/RSCF _Archive → AMOS_SYSTEM → Core → Expression Cluster.md`
+- RSCF \_Archive → AMOS_SYSTEM → Core → Kernel Cluster — `docs/moc/rscf/RSCF _Archive → AMOS_SYSTEM → Core → Kernel Cluster.md`
+- RSCF \_Archive → AMOS_SYSTEM → Core → Routing Cluster — `docs/moc/rscf/RSCF _Archive → AMOS_SYSTEM → Core → Routing Cluster.md`
+- RSCF \_Archive → AMOS_SYSTEM → Core → Security Cluster — `docs/moc/rscf/RSCF _Archive → AMOS_SYSTEM → Core → Security Cluster.md`
+- RSCF \_Archive → AMOS_SYSTEM → Core → \_COGNITION Cluster — `docs/moc/rscf/RSCF _Archive → AMOS_SYSTEM → Core → _COGNITION Cluster.md`
+- RSCF \_Archive → AMOS_SYSTEM → Packs → Skill_Packs Cluster — `docs/moc/rscf/RSCF _Archive → AMOS_SYSTEM → Packs → Skill_Packs Cluster.md`
+- RSCF \_Archive → AMOS_SYSTEM → Registry → Agents Cluster — `docs/moc/rscf/RSCF _Archive → AMOS_SYSTEM → Registry → Agents Cluster.md`
+- RSCF \_Archive → AMOS_SYSTEM → Registry → Changes Cluster — `docs/moc/rscf/RSCF _Archive → AMOS_SYSTEM → Registry → Changes Cluster.md`
+- RSCF \_Archive → AMOS_SYSTEM → Registry → Systems Cluster — `docs/moc/rscf/RSCF _Archive → AMOS_SYSTEM → Registry → Systems Cluster.md`
+- RSCF \_Archive → Engines Cluster — `docs/moc/rscf/RSCF _Archive → Engines Cluster.md`
+- RSCF \_Archive → Kernel Cluster — `docs/moc/rscf/RSCF _Archive → Kernel Cluster.md`
+- RSCF \_Archive → NEW PROCESS Cluster — `docs/moc/rscf/RSCF _Archive → NEW PROCESS Cluster.md`
+- RSCF \_Archive → Packs Cluster — `docs/moc/rscf/RSCF _Archive → Packs Cluster.md`
+- RSCF \_Archive → \_AMOS UNIVERSE Cluster — `docs/moc/rscf/RSCF _Archive → _AMOS UNIVERSE Cluster.md`
+- RSCF \_Archive → \_AMOS UNIVERSE → Civilization OS Cluster — `docs/moc/rscf/RSCF _Archive → _AMOS UNIVERSE → Civilization OS Cluster.md`
+- RSCF \_Archive → \_AMOS UNIVERSE → \_AMOS BRAIN Cluster — `docs/moc/rscf/RSCF _Archive → _AMOS UNIVERSE → _AMOS BRAIN Cluster.md`
+- RSCF \_Archive → \_COGNITION Cluster — `docs/moc/rscf/RSCF _Archive → _COGNITION Cluster.md`
+- RSCF \_Archive → \_COGNITION → \_DEL Cluster — `docs/moc/rscf/RSCF _Archive → _COGNITION → _DEL Cluster.md`
+- RSCF \_LEGACY BRAIN → Auto → Tech Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN → Auto → Tech Cluster.md`
+- RSCF \_LEGACY BRAIN → Auto → national_banking_os Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN → Auto → national_banking_os Cluster.md`
+- RSCF \_LEGACY BRAIN → Cognitive Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN → Cognitive Cluster.md`
+- RSCF \_LEGACY BRAIN → Core Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN → Core Cluster.md`
+- RSCF \_LEGACY BRAIN → Core → 7_Intelligents Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN → Core → 7_Intelligents Cluster.md`
+- RSCF \_LEGACY BRAIN → Core → Cognitive_Stack → (MOC) — `docs/moc/rscf/RSCF _LEGACY BRAIN → Core → Cognitive_Stack → (MOC).md`
+- RSCF \_LEGACY BRAIN → Core → Cognitive_Stack → Biology — `docs/moc/rscf/RSCF _LEGACY BRAIN → Core → Cognitive_Stack → Biology.md`
+- RSCF \_LEGACY BRAIN → Core → Cognitive_Stack → Human_Society — `docs/moc/rscf/RSCF _LEGACY BRAIN → Core → Cognitive_Stack → Human_Society.md`
+- RSCF \_LEGACY BRAIN → Core → Cognitive_Stack → Logic Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN → Core → Cognitive_Stack → Logic Cluster.md`
+- RSCF \_LEGACY BRAIN → Core → Cognitive_Stack → Systems — `docs/moc/rscf/RSCF _LEGACY BRAIN → Core → Cognitive_Stack → Systems.md`
+- RSCF \_LEGACY BRAIN → Core → Cognitive_Stack → Universe — `docs/moc/rscf/RSCF _LEGACY BRAIN → Core → Cognitive_Stack → Universe.md`
+- RSCF \_LEGACY BRAIN → Core → Cognitive_Stack → — `docs/moc/rscf/RSCF _LEGACY BRAIN → Core → Cognitive_Stack →.md`
+- RSCF \_LEGACY BRAIN → Core → Ubi Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN → Core → Ubi Cluster.md`
+- RSCF \_LEGACY BRAIN → Core → Web Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN → Core → Web Cluster.md`
+- RSCF \_LEGACY BRAIN → Domains Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN → Domains Cluster.md`
+- RSCF \_LEGACY BRAIN → Domains → Org_Risk_Policy Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN → Domains → Org_Risk_Policy Cluster.md`
+- RSCF \_LEGACY BRAIN → Domains → Science_Health Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN → Domains → Science_Health Cluster.md`
+- RSCF \_LEGACY BRAIN → Domains → Sub Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN → Domains → Sub Cluster.md`
+- RSCF \_LEGACY BRAIN → Domains → Tech_Systems Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN → Domains → Tech_Systems Cluster.md`
+- RSCF \_LEGACY BRAIN → Kernels Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN → Kernels Cluster.md`
+- RSCF \_LEGACY BRAIN → Kernels → Biology_Cognition Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN → Kernels → Biology_Cognition Cluster.md`
+- RSCF \_LEGACY BRAIN → Kernels → Business Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN → Kernels → Business Cluster.md`
+- RSCF \_LEGACY BRAIN → Kernels → Governance_Risk Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN → Kernels → Governance_Risk Cluster.md`
+- RSCF \_LEGACY BRAIN → Kernels → Logic Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN → Kernels → Logic Cluster.md`
+- RSCF \_LEGACY BRAIN → Kernels → Tech Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN → Kernels → Tech Cluster.md`
+- RSCF \_LEGACY BRAIN → Packs → Country_Packs Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN → Packs → Country_Packs Cluster.md`
+- RSCF \_LEGACY BRAIN → Packs → Country_Packs → Country_Packs (MOC) — `docs/moc/rscf/RSCF _LEGACY BRAIN → Packs → Country_Packs → Country_Packs (MOC).md`
+- RSCF \_LEGACY BRAIN → Packs → Country_Packs → Country_Packs — `docs/moc/rscf/RSCF _LEGACY BRAIN → Packs → Country_Packs → Country_Packs.md`
+- RSCF \_LEGACY BRAIN → Packs → Scenario_Packs → — `docs/moc/rscf/RSCF _LEGACY BRAIN → Packs → Scenario_Packs →.md`
+- RSCF \_LEGACY BRAIN → Packs → Sector_Packs Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN → Packs → Sector_Packs Cluster.md`
+- RSCF \_LEGACY BRAIN → Packs → Sector_Packs → Template Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN → Packs → Sector_Packs → Template Cluster.md`
+- RSCF \_LEGACY BRAIN → Packs → State_Packs Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN → Packs → State_Packs Cluster.md`
+- RSCF \_LEGACY BRAIN → Packs → State_Packs → Template Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN → Packs → State_Packs → Template Cluster.md`
+- RSCF \_LEGACY BRAIN → Packs → Universe_Packs Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN → Packs → Universe_Packs Cluster.md`
+- RSCF \_LEGACY BRAIN → Unipower Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN → Unipower Cluster.md`
+- RSCF \_LEGACY BRAIN2 → Core Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN2 → Core Cluster.md`
+- RSCF \_LEGACY BRAIN2 → Core → 7_Intelligents Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN2 → Core → 7_Intelligents Cluster.md`
+- RSCF \_LEGACY BRAIN2 → Core → Canonical_Laws Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN2 → Core → Canonical_Laws Cluster.md`
+- RSCF \_LEGACY BRAIN2 → Core → Mind Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN2 → Core → Mind Cluster.md`
+- RSCF \_LEGACY BRAIN2 → Core → Ubi Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN2 → Core → Ubi Cluster.md`
+- RSCF \_LEGACY BRAIN2 → Core → Web Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN2 → Core → Web Cluster.md`
+- RSCF \_LEGACY BRAIN2 → Domains Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN2 → Domains Cluster.md`
+- RSCF \_LEGACY BRAIN2 → Domains → Biz_Market Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN2 → Domains → Biz_Market Cluster.md`
+- RSCF \_LEGACY BRAIN2 → Domains → Org_Risk_Policy Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN2 → Domains → Org_Risk_Policy Cluster.md`
+- RSCF \_LEGACY BRAIN2 → Domains → Science_Health Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN2 → Domains → Science_Health Cluster.md`
+- RSCF \_LEGACY BRAIN2 → Domains → Sub Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN2 → Domains → Sub Cluster.md`
+- RSCF \_LEGACY BRAIN2 → Domains → Tech_Systems Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN2 → Domains → Tech_Systems Cluster.md`
+- RSCF \_LEGACY BRAIN2 → Kernels → Biology_Cognition Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN2 → Kernels → Biology_Cognition Cluster.md`
+- RSCF \_LEGACY BRAIN2 → Kernels → Business Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN2 → Kernels → Business Cluster.md`
+- RSCF \_LEGACY BRAIN2 → Kernels → Governance_Risk Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN2 → Kernels → Governance_Risk Cluster.md`
+- RSCF \_LEGACY BRAIN2 → Kernels → Logic Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN2 → Kernels → Logic Cluster.md`
+- RSCF \_LEGACY BRAIN2 → Kernels → Tech Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN2 → Kernels → Tech Cluster.md`
+- RSCF \_LEGACY BRAIN2 → Packs → Country_Packs Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN2 → Packs → Country_Packs Cluster.md`
+- RSCF \_LEGACY BRAIN2 → Packs → Sector_Packs Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN2 → Packs → Sector_Packs Cluster.md`
+- RSCF \_LEGACY BRAIN2 → Packs → State_Packs Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN2 → Packs → State_Packs Cluster.md`
+- RSCF \_LEGACY BRAIN2 → Unipower Cluster — `docs/moc/rscf/RSCF _LEGACY BRAIN2 → Unipower Cluster.md`
+- RSCF \_archive AMOS2 Cluster — `docs/moc/rscf/RSCF _archive AMOS2 Cluster.md`
+- RSCF \_root Cluster — `docs/moc/rscf/RSCF _root Cluster.md`
 - RSCF new troy Cluster — `docs/moc/rscf/RSCF new troy Cluster.md`
 - RSCF new troy → Troy Cluster — `docs/moc/rscf/RSCF new troy → Troy Cluster.md`
 - RSCF training Cluster — `docs/moc/rscf/RSCF training Cluster.md`
@@ -2896,7 +2899,7 @@ rscf:
 - Vault Statistics — `docs/Vault Statistics.md`
 - Workflows Index — `docs/Workflows Index.md`
 - Workspace Layouts — `docs/Workspace Layouts.md`
-- _Archive Index — `docs/_Archive Index.md`
+- \_Archive Index — `docs/_Archive Index.md`
 - docker-compose — `docs/docker-compose.md`
 - inventory_brain — `docs/inventory_brain.md`
 
@@ -3250,19 +3253,19 @@ rscf:
 - amos_setup_mega — `_00_Cosmo brain/amos-general/A/amos/amos_setup_mega.md`
 - amos_state — `_00_Cosmo brain/amos-general/A/amos/amos_state.md`
 - amos_supreme_continuation_report — `_00_Cosmo brain/amos-general/A/amos/amos_supreme_continuation_report.md`
-- AMOS forex__data__oanda_data_service — `_00_Cosmo brain/amos-general/A/forex/AMOS forex__data__oanda_data_service.md`
-- AMOS forex__db__init — `_00_Cosmo brain/amos-general/A/forex/AMOS forex__db__init.md`
-- AMOS forex__execution__execution_service — `_00_Cosmo brain/amos-general/A/forex/AMOS forex__execution__execution_service.md`
-- AMOS forex__monitoring__monitoring_service — `_00_Cosmo brain/amos-general/A/forex/AMOS forex__monitoring__monitoring_service.md`
-- AMOS forex__package-lock — `_00_Cosmo brain/amos-general/A/forex/AMOS forex__package-lock.md`
-- AMOS forex__packages__murk__primitives — `_00_Cosmo brain/amos-general/A/forex/AMOS forex__packages__murk__primitives.md`
-- AMOS forex__packages__ulk__meta_laws — `_00_Cosmo brain/amos-general/A/forex/AMOS forex__packages__ulk__meta_laws.md`
-- AMOS forex__research__research_service — `_00_Cosmo brain/amos-general/A/forex/AMOS forex__research__research_service.md`
-- AMOS forex__risk__risk_service — `_00_Cosmo brain/amos-general/A/forex/AMOS forex__risk__risk_service.md`
-- AMOS forex__run_tests — `_00_Cosmo brain/amos-general/A/forex/AMOS forex__run_tests.md`
-- AMOS forex__signal__signal_service — `_00_Cosmo brain/amos-general/A/forex/AMOS forex__signal__signal_service.md`
-- AMOS forex__tests__unit__data_service.test — `_00_Cosmo brain/amos-general/A/forex/AMOS forex__tests__unit__data_service.test.md`
-- AMOS forex__validation__validation_service — `_00_Cosmo brain/amos-general/A/forex/AMOS forex__validation__validation_service.md`
+- AMOS forex\_\_data\_\_oanda_data_service — `_00_Cosmo brain/amos-general/A/forex/AMOS forex__data__oanda_data_service.md`
+- AMOS forex\_\_db\_\_init — `_00_Cosmo brain/amos-general/A/forex/AMOS forex__db__init.md`
+- AMOS forex\_\_execution\_\_execution_service — `_00_Cosmo brain/amos-general/A/forex/AMOS forex__execution__execution_service.md`
+- AMOS forex\_\_monitoring\_\_monitoring_service — `_00_Cosmo brain/amos-general/A/forex/AMOS forex__monitoring__monitoring_service.md`
+- AMOS forex\_\_package-lock — `_00_Cosmo brain/amos-general/A/forex/AMOS forex__package-lock.md`
+- AMOS forex\_\_packages\_\_murk\_\_primitives — `_00_Cosmo brain/amos-general/A/forex/AMOS forex__packages__murk__primitives.md`
+- AMOS forex\_\_packages\_\_ulk\_\_meta_laws — `_00_Cosmo brain/amos-general/A/forex/AMOS forex__packages__ulk__meta_laws.md`
+- AMOS forex\_\_research\_\_research_service — `_00_Cosmo brain/amos-general/A/forex/AMOS forex__research__research_service.md`
+- AMOS forex\_\_risk\_\_risk_service — `_00_Cosmo brain/amos-general/A/forex/AMOS forex__risk__risk_service.md`
+- AMOS forex\_\_run_tests — `_00_Cosmo brain/amos-general/A/forex/AMOS forex__run_tests.md`
+- AMOS forex\_\_signal\_\_signal_service — `_00_Cosmo brain/amos-general/A/forex/AMOS forex__signal__signal_service.md`
+- AMOS forex\_\_tests\_\_unit\_\_data_service.test — `_00_Cosmo brain/amos-general/A/forex/AMOS forex__tests__unit__data_service.test.md`
+- AMOS forex\_\_validation\_\_validation_service — `_00_Cosmo brain/amos-general/A/forex/AMOS forex__validation__validation_service.md`
 - AMOS_v5_3_final_verification_report — `_00_Cosmo brain/amos-general/A/v/AMOS_v5_3_final_verification_report.md`
 - AMOS version — `_00_Cosmo brain/amos-general/A/version/AMOS version.md`
 - AMOS vs Other Frontier AI vs Global Top Humans — A — `_00_Cosmo brain/amos-general/A/vs/AMOS vs Other Frontier AI vs Global Top Humans — A.md`
@@ -3272,7 +3275,7 @@ rscf:
 - INDEX_AMOS-Consulting — `_00_Cosmo brain/amos-general/I/INDEX_AMOS-Consulting.md`
 - Kiến trúc thực tại AMOS Mô hình cấu trúc không kho — `_00_Cosmo brain/amos-general/K/Kiến trúc thực tại AMOS Mô hình cấu trúc không kho.md`
 - manifest (amos-skills) — `_00_Cosmo brain/amos-general/M/manifest (amos-skills).md`
-- md__2026-08-23 AMOS Absolute Integrity Pass — `_00_Cosmo brain/amos-general/M/md__2026-08-23 AMOS Absolute Integrity Pass.md`
+- md\_\_2026-08-23 AMOS Absolute Integrity Pass — `_00_Cosmo brain/amos-general/M/md__2026-08-23 AMOS Absolute Integrity Pass.md`
 - mother amos — `_00_Cosmo brain/amos-general/M/mother amos.md`
 - NEXT_GENERATION_ROADMAP — `_00_Cosmo brain/amos-general/N/NEXT_GENERATION_ROADMAP.md`
 - OFFLINE_AGI_LAB_COMPLETE — `_00_Cosmo brain/amos-general/O/OFFLINE_AGI_LAB_COMPLETE.md`
@@ -3299,7 +3302,7 @@ rscf:
 - The Architecture Beneath Science Why Experiments A — `_00_Cosmo brain/architecture/The Architecture Beneath Science Why Experiments A.md`
 - The Architecture of Intelligence and Perception — — `_00_Cosmo brain/architecture/The Architecture of Intelligence and Perception —.md`
 - The Architecture of Okay — `_00_Cosmo brain/architecture/The Architecture of Okay.md`
-- The Living Stack_ A Comprehensive Scientific Architecture Thesis (Expanded) — `_00_Cosmo brain/architecture/The Living Stack_ A Comprehensive Scientific Architecture Thesis (Expanded).md`
+- The Living Stack\_ A Comprehensive Scientific Architecture Thesis (Expanded) — `_00_Cosmo brain/architecture/The Living Stack_ A Comprehensive Scientific Architecture Thesis (Expanded).md`
 - The Three-Layer Architecture of Consciousness — `_00_Cosmo brain/architecture/The Three-Layer Architecture of Consciousness.md`
 - The_Intelligence_OS_Useful_Architecture — `_00_Cosmo brain/architecture/The_Intelligence_OS_Useful_Architecture.md`
 - ai_architecture_factory_v2 — `_00_Cosmo brain/architecture/ai_architecture_factory_v2.md`
@@ -3457,13 +3460,13 @@ rscf:
 - brain_v2 — `_00_Cosmo brain/brain/B/brain_v2.md`
 - AMOS - LIVING BRAIN ORGANISM IS ALIVE! 🧠 — `_00_Cosmo brain/brain/E/🧠 AMOS - LIVING BRAIN ORGANISM IS ALIVE! 🧠.md`
 - manifest (AMOS_MD_BRAIN) — `_00_Cosmo brain/brain/M/manifest (AMOS_MD_BRAIN).md`
-- md__2026-08-23 AMOS Canon LEGACY BRAIN2 Core — `_00_Cosmo brain/brain/M/md__2026-08-23 AMOS Canon LEGACY BRAIN2 Core.md`
-- md__2026-08-23 AMOS Cosmo Brain Core Architecture Map — `_00_Cosmo brain/brain/M/md__2026-08-23 AMOS Cosmo Brain Core Architecture Map.md`
-- md__2026-08-23 AMOS-Consulting LEGACY BRAIN2 Core Empty State — `_00_Cosmo brain/brain/M/md__2026-08-23 AMOS-Consulting LEGACY BRAIN2 Core Empty State.md`
-- md__2026-08-23 Cosmo Brain Core Architecture — `_00_Cosmo brain/brain/M/md__2026-08-23 Cosmo Brain Core Architecture.md`
-- md__2026-08-23 Cosmo Brain Full Architecture — `_00_Cosmo brain/brain/M/md__2026-08-23 Cosmo Brain Full Architecture.md`
-- md__2026-08-23 Cosmo Brain Project Directory Map — `_00_Cosmo brain/brain/M/md__2026-08-23 Cosmo Brain Project Directory Map.md`
-- md__2026-08-23 Cosmo Brain Vault Full Directory Map — `_00_Cosmo brain/brain/M/md__2026-08-23 Cosmo Brain Vault Full Directory Map.md`
+- md\_\_2026-08-23 AMOS Canon LEGACY BRAIN2 Core — `_00_Cosmo brain/brain/M/md__2026-08-23 AMOS Canon LEGACY BRAIN2 Core.md`
+- md\_\_2026-08-23 AMOS Cosmo Brain Core Architecture Map — `_00_Cosmo brain/brain/M/md__2026-08-23 AMOS Cosmo Brain Core Architecture Map.md`
+- md\_\_2026-08-23 AMOS-Consulting LEGACY BRAIN2 Core Empty State — `_00_Cosmo brain/brain/M/md__2026-08-23 AMOS-Consulting LEGACY BRAIN2 Core Empty State.md`
+- md\_\_2026-08-23 Cosmo Brain Core Architecture — `_00_Cosmo brain/brain/M/md__2026-08-23 Cosmo Brain Core Architecture.md`
+- md\_\_2026-08-23 Cosmo Brain Full Architecture — `_00_Cosmo brain/brain/M/md__2026-08-23 Cosmo Brain Full Architecture.md`
+- md\_\_2026-08-23 Cosmo Brain Project Directory Map — `_00_Cosmo brain/brain/M/md__2026-08-23 Cosmo Brain Project Directory Map.md`
+- md\_\_2026-08-23 Cosmo Brain Vault Full Directory Map — `_00_Cosmo brain/brain/M/md__2026-08-23 Cosmo Brain Vault Full Directory Map.md`
 - PROVENANCE (AMOS_MD_BRAIN) — `_00_Cosmo brain/brain/P/PROVENANCE (AMOS_MD_BRAIN).md`
 - ROUTER (AMOS_MD_BRAIN) — `_00_Cosmo brain/brain/R/ROUTER (AMOS_MD_BRAIN).md`
 - RSCF (AMOS_MD_BRAIN) — `_00_Cosmo brain/brain/R/RSCF (AMOS_MD_BRAIN).md`
@@ -3674,8 +3677,8 @@ rscf:
 - 2026-08-25-quantum-v090-honesty-cycle — `_00_Cosmo brain/dated/2026-08-25/2026-08-25-quantum-v090-honesty-cycle.md`
 - 2026-08-25-quantum-v100-stable-milestone — `_00_Cosmo brain/dated/2026-08-25/2026-08-25-quantum-v100-stable-milestone.md`
 - 2026-08-25_architecture_quantum_audit_and_v070_plan — `_00_Cosmo brain/dated/2026-08-25/2026-08-25_architecture_quantum_audit_and_v070_plan.md`
-- A The Living State Monetisation Thesis_ A New Economic Paradigm — `_00_Cosmo brain/economy/A The Living State Monetisation Thesis_ A New Economic Paradigm.md`
-- B The Living State Monetisation Thesis_ A New Economic Paradigm — `_00_Cosmo brain/economy/B The Living State Monetisation Thesis_ A New Economic Paradigm.md`
+- A The Living State Monetisation Thesis\_ A New Economic Paradigm — `_00_Cosmo brain/economy/A The Living State Monetisation Thesis_ A New Economic Paradigm.md`
+- B The Living State Monetisation Thesis\_ A New Economic Paradigm — `_00_Cosmo brain/economy/B The Living State Monetisation Thesis_ A New Economic Paradigm.md`
 - C07_econ_finance — `_00_Cosmo brain/economy/C07_econ_finance.md`
 - Datapoint → Economic Role Mapping — `_00_Cosmo brain/economy/Datapoint → Economic Role Mapping.md`
 - Econ_Finance_Model — `_00_Cosmo brain/economy/Econ_Finance_Model.md`
@@ -3695,7 +3698,7 @@ rscf:
 - Service Economy — `_00_Cosmo brain/economy/Service Economy.md`
 - Signal Economy — Full Masterplan v1 0 — `_00_Cosmo brain/economy/Signal Economy — Full Masterplan v1 0.md`
 - The Coercion Economy — `_00_Cosmo brain/economy/The Coercion Economy.md`
-- The Living State Monetisation Thesis_ A New Economic Paradigm — `_00_Cosmo brain/economy/The Living State Monetisation Thesis_ A New Economic Paradigm.md`
+- The Living State Monetisation Thesis\_ A New Economic Paradigm — `_00_Cosmo brain/economy/The Living State Monetisation Thesis_ A New Economic Paradigm.md`
 - The Signal Economy and Planetary Consent Infrastru — `_00_Cosmo brain/economy/The Signal Economy and Planetary Consent Infrastru.md`
 - The Signal Economy – Investor Pitch — `_00_Cosmo brain/economy/The Signal Economy – Investor Pitch.md`
 - Uni_Market_Logistics_Model — `_00_Cosmo brain/economy/Uni_Market_Logistics_Model.md`
@@ -3751,7 +3754,7 @@ rscf:
 - AMOS Universe Interaction Engine — `_00_Cosmo brain/engine/A/AMOS Universe Interaction Engine.md`
 - AMOS VN Legal Engine vInfinity — `_00_Cosmo brain/engine/A/AMOS VN Legal Engine vInfinity.md`
 - AMOS Vietnamese Writing Engine vInfinity — `_00_Cosmo brain/engine/A/AMOS Vietnamese Writing Engine vInfinity.md`
-- AMOS forex__signal__ukr_engine — `_00_Cosmo brain/engine/A/AMOS forex__signal__ukr_engine.md`
+- AMOS forex\_\_signal\_\_ukr_engine — `_00_Cosmo brain/engine/A/AMOS forex__signal__ukr_engine.md`
 - AMOS_AUTOMATION_ENGINE_v1.0.0 — `_00_Cosmo brain/engine/A/AMOS_AUTOMATION_ENGINE_v1.0.0.md`
 - AMOS_Absolute_Vn_Omnistructure_Clean_Engine_v0_Country_Packs7 — `_00_Cosmo brain/engine/A/AMOS_Absolute_Vn_Omnistructure_Clean_Engine_v0_Country_Packs7.md`
 - AMOS_Academic_Writing_Kernal_Engine_v0_Sub2 — `_00_Cosmo brain/engine/A/AMOS_Academic_Writing_Kernal_Engine_v0_Sub2.md`
@@ -3778,7 +3781,7 @@ rscf:
 - AMOS_Consciousness_Engine_v0_Core7 — `_00_Cosmo brain/engine/A/AMOS_Consciousness_Engine_v0_Core7.md`
 - AMOS_Consulting_BizFin_Engine_vInfinity — `_00_Cosmo brain/engine/A/AMOS_Consulting_BizFin_Engine_vInfinity.md`
 - AMOS_Consulting_Engine_SUPER_x100k_vInfinity — `_00_Cosmo brain/engine/A/AMOS_Consulting_Engine_SUPER_x100k_vInfinity.md`
-- AMOS_Consulting__SUPER_Engine_ — `_00_Cosmo brain/engine/A/AMOS_Consulting__SUPER_Engine_.md`
+- AMOS_Consulting\_\_SUPER_Engine\_ — `_00_Cosmo brain/engine/A/AMOS_Consulting__SUPER_Engine_.md`
 - AMOS_Corp_Doc_Engine_SUPER_x100k_vInfinity — `_00_Cosmo brain/engine/A/AMOS_Corp_Doc_Engine_SUPER_x100k_vInfinity.md`
 - AMOS_Crisis_Management_Engine_v0_Governance_Risk — `_00_Cosmo brain/engine/A/AMOS_Crisis_Management_Engine_v0_Governance_Risk.md`
 - AMOS_Data_Engineering_Kernel_v0_Tech — `_00_Cosmo brain/engine/A/AMOS_Data_Engineering_Kernel_v0_Tech.md`
@@ -3940,12 +3943,12 @@ rscf:
 - HSE_CEO_Enginev_root — `_00_Cosmo brain/engine/H/HSE_CEO_Enginev_root.md`
 - HSE_Engine_Unipower — `_00_Cosmo brain/engine/H/HSE_Engine_Unipower.md`
 - HSE_Engine_Unipower4 — `_00_Cosmo brain/engine/H/HSE_Engine_Unipower4.md`
-- HSE_Enginev∞_AMOS_FORMAT — `_00_Cosmo brain/engine/H/HSE_Enginev∞_AMOS_FORMAT.md`
-- HSE_Enginev∞_AMOS_FORMAT_WITH_UCM — `_00_Cosmo brain/engine/H/HSE_Enginev∞_AMOS_FORMAT_WITH_UCM.md`
+- HSE_Enginev∞\_AMOS_FORMAT — `_00_Cosmo brain/engine/H/HSE_Enginev∞_AMOS_FORMAT.md`
+- HSE_Enginev∞\_AMOS_FORMAT_WITH_UCM — `_00_Cosmo brain/engine/H/HSE_Enginev∞_AMOS_FORMAT_WITH_UCM.md`
 - Human Systems Engine Vietnam - Full HSE VN — `_00_Cosmo brain/engine/H/Human Systems Engine Vietnam - Full HSE VN.md`
 - Human Systems Engine™ (HSE) VN — `_00_Cosmo brain/engine/H/Human Systems Engine™ (HSE) VN.md`
 - Human_Interaction_Engine_Model — `_00_Cosmo brain/engine/H/Human_Interaction_Engine_Model.md`
-- Human_Systems_Engine_(HSE)_VN — `_00_Cosmo brain/engine/H/Human_Systems_Engine_(HSE)_VN.md`
+- Human_Systems_Engine\_(HSE)\_VN — `_00_Cosmo brain/engine/H/Human_Systems_Engine_(HSE)_VN.md`
 - Human_Systems_Engine_Model — `_00_Cosmo brain/engine/H/Human_Systems_Engine_Model.md`
 - human_engine_v0 — `_00_Cosmo brain/engine/H/human_engine_v0.md`
 - human_intelligence_engine_v0 — `_00_Cosmo brain/engine/H/human_intelligence_engine_v0.md`
@@ -3968,7 +3971,7 @@ rscf:
 - Scientific_SUPER_Engine — `_00_Cosmo brain/engine/S/Scientific_SUPER_Engine.md`
 - sector_rotation_engine — `_00_Cosmo brain/engine/S/sector_rotation_engine.md`
 - system_scan_engine — `_00_Cosmo brain/engine/S/system_scan_engine.md`
-- Tech Engine__Archive — `_00_Cosmo brain/engine/T/Tech Engine__Archive.md`
+- Tech Engine\_\_Archive — `_00_Cosmo brain/engine/T/Tech Engine__Archive.md`
 - Tech Engine_root — `_00_Cosmo brain/engine/T/Tech Engine_root.md`
 - Tech_SUPER_Engine — `_00_Cosmo brain/engine/T/Tech_SUPER_Engine.md`
 - Total_Technical_Engine_Model — `_00_Cosmo brain/engine/T/Total_Technical_Engine_Model.md`
@@ -4047,7 +4050,7 @@ rscf:
 - Unified Biological Governance™ — Tái cấu trúc tổ — `_00_Cosmo brain/governance/📘 Unified Biological Governance™ — Tái cấu trúc tổ.md`
 - ABSOLUTE-HUMAN — `_00_Cosmo brain/human/ABSOLUTE-HUMAN.md`
 - A_Deterministic_Architecture_for_HumanMachine_Alignment — `_00_Cosmo brain/human/A_Deterministic_Architecture_for_HumanMachine_Alignment.md`
-- Absolute-Human (final version)_root — `_00_Cosmo brain/human/Absolute-Human (final version)_root.md`
+- Absolute-Human (final version)\_root — `_00_Cosmo brain/human/Absolute-Human (final version)_root.md`
 - Absolute_Human_Model — `_00_Cosmo brain/human/Absolute_Human_Model.md`
 - Beyond Human-Centred Design — `_00_Cosmo brain/human/Beyond Human-Centred Design.md`
 - HUMANITY FROM THE ICE AGE TO THE PRESENT — `_00_Cosmo brain/human/HUMANITY FROM THE ICE AGE TO THE PRESENT.md`
@@ -4094,7 +4097,7 @@ rscf:
 - AMOS Tech Architecture Kernel — `_00_Cosmo brain/kernel/A/AMOS Tech Architecture Kernel.md`
 - AMOS Unified Coding Kernel vInfinity — `_00_Cosmo brain/kernel/A/AMOS Unified Coding Kernel vInfinity.md`
 - AMOS Universe Domain Kernels — `_00_Cosmo brain/kernel/A/AMOS Universe Domain Kernels.md`
-- AMOS forex__packages__ukr__recursive_kernel — `_00_Cosmo brain/kernel/A/AMOS forex__packages__ukr__recursive_kernel.md`
+- AMOS forex\_\_packages\_\_ukr\_\_recursive_kernel — `_00_Cosmo brain/kernel/A/AMOS forex__packages__ukr__recursive_kernel.md`
 - AMOS vOmni Kernel vInfinity_MAX — `_00_Cosmo brain/kernel/A/AMOS vOmni Kernel vInfinity_MAX.md`
 - AMOS vOmni Master Kernel — `_00_Cosmo brain/kernel/A/AMOS vOmni Master Kernel.md`
 - AMOS_Academic_Writing_Kernel_v0 — `_00_Cosmo brain/kernel/A/AMOS_Academic_Writing_Kernel_v0.md`
@@ -4263,8 +4266,8 @@ rscf:
 - health_kernel — `_00_Cosmo brain/kernel/H/health_kernel.md`
 - INDEX_IP_Kernel_Shield — `_00_Cosmo brain/kernel/I/INDEX_IP_Kernel_Shield.md`
 - IP_Kernel_Shield_Security — `_00_Cosmo brain/kernel/I/IP_Kernel_Shield_Security.md`
-- IP_Kernel_Shield__archive AMOS22 — `_00_Cosmo brain/kernel/I/IP_Kernel_Shield__archive AMOS22.md`
-- IP_Kernel_Shield__archive AMOS23 — `_00_Cosmo brain/kernel/I/IP_Kernel_Shield__archive AMOS23.md`
+- IP_Kernel_Shield\_\_archive AMOS22 — `_00_Cosmo brain/kernel/I/IP_Kernel_Shield__archive AMOS22.md`
+- IP_Kernel_Shield\_\_archive AMOS23 — `_00_Cosmo brain/kernel/I/IP_Kernel_Shield__archive AMOS23.md`
 - investment_kernel — `_00_Cosmo brain/kernel/I/investment_kernel.md`
 - ipprotection_kernel — `_00_Cosmo brain/kernel/I/ipprotection_kernel.md`
 - [[11_KNOWLEDGE/kernel/KERNEL_PROTOCOL|KERNEL_PROTOCOL]] — `_00_Cosmo brain/kernel/K/KERNEL_PROTOCOL.md`
@@ -4321,7 +4324,7 @@ rscf:
 - Healing Through Giving A Neuropsychological and Bi — `_00_Cosmo brain/logic/Healing Through Giving A Neuropsychological and Bi.md`
 - INDEX_LOGIC — `_00_Cosmo brain/logic/INDEX_LOGIC.md`
 - LOGIC_FIRST_STACK_COMPLETE — `_00_Cosmo brain/logic/LOGIC_FIRST_STACK_COMPLETE.md`
-- LOGIC__archive AMOS2 — `_00_Cosmo brain/logic/LOGIC__archive AMOS2.md`
+- LOGIC\_\_archive AMOS2 — `_00_Cosmo brain/logic/LOGIC__archive AMOS2.md`
 - LOGIC_root — `_00_Cosmo brain/logic/LOGIC_root.md`
 - Logic as the Architecture of Human Reality — `_00_Cosmo brain/logic/Logic as the Architecture of Human Reality.md`
 - Logic rule — `_00_Cosmo brain/logic/Logic rule.md`
@@ -4341,7 +4344,7 @@ rscf:
 - UBI OMNIS™ — GLOBAL BIOLOGICAL FORECASTING INFRAST — `_00_Cosmo brain/logic/UBI OMNIS™ — GLOBAL BIOLOGICAL FORECASTING INFRAST.md`
 - UBI vs AI - Biological vs Data-Driven — `_00_Cosmo brain/logic/UBI vs AI - Biological vs Data-Driven.md`
 - Unified Biological Intelligence™ (UBI) – Official — `_00_Cosmo brain/logic/Unified Biological Intelligence™ (UBI) – Official.md`
-- Unified_Biological_Intelligence_(UBI)_A_New_Infrastructure_for_Intelligence — `_00_Cosmo brain/logic/Unified_Biological_Intelligence_(UBI)_A_New_Infrastructure_for_Intelligence.md`
+- Unified_Biological_Intelligence\_(UBI)\_A_New_Infrastructure_for_Intelligence — `_00_Cosmo brain/logic/Unified_Biological_Intelligence_(UBI)_A_New_Infrastructure_for_Intelligence.md`
 - Unified_Biological_Intelligence_Diagrams — `_00_Cosmo brain/logic/Unified_Biological_Intelligence_Diagrams.md`
 - Unified_Biological_Intelligence_and_the_Restoration_of_Aboriginal_Somatic_Intelligence — `_00_Cosmo brain/logic/Unified_Biological_Intelligence_and_the_Restoration_of_Aboriginal_Somatic_Intelligence.md`
 - cc982116-f9b3-4fa5-b9ea-31fa41b20f73_Redefining_Logic — `_00_Cosmo brain/logic/cc982116-f9b3-4fa5-b9ea-31fa41b20f73_Redefining_Logic.md`
@@ -4550,7 +4553,7 @@ rscf:
 - Current AI is not limited by intelligence — it is — `_00_Cosmo brain/misc/CU/Current AI is not limited by intelligence — it is.md`
 - Cusor — `_00_Cosmo brain/misc/CU/Cusor.md`
 - 6d. People - Retention and performance mgmt — `_00_Cosmo brain/misc/D/6d. People - Retention and performance mgmt.md`
-- 87dd08a9-0edd-419e-9928-3afb1e99a739_Cross-Civilizational_Intelligence_(CCI)__Official_Manual_ — `_00_Cosmo brain/misc/D/87dd08a9-0edd-419e-9928-3afb1e99a739_Cross-Civilizational_Intelligence_(CCI)__Official_Manual_.md`
+- 87dd08a9-0edd-419e-9928-3afb1e99a739_Cross-Civilizational_Intelligence\_(CCI)\__Official_Manual_ — `_00_Cosmo brain/misc/D/87dd08a9-0edd-419e-9928-3afb1e99a739_Cross-Civilizational_Intelligence_(CCI)__Official_Manual_.md`
 - DIỆT CHỦNG CẤU TRÚC – BẢN CÁO TRẠNG TOÀN DIỆN VỀ T — `_00_Cosmo brain/misc/D/DIỆT CHỦNG CẤU TRÚC – BẢN CÁO TRẠNG TOÀN DIỆN VỀ T.md`
 - DIR_Traversal — `_00_Cosmo brain/misc/D/DIR_Traversal.md`
 - DIVINE_CONSCIOUSNESS_ENHANCEMENT_MISSION_COMPLETE — `_00_Cosmo brain/misc/D/DIVINE_CONSCIOUSNESS_ENHANCEMENT_MISSION_COMPLETE.md`
@@ -4676,7 +4679,7 @@ rscf:
 - HERITAGE_SONG_AM_THANH_QUY_TAC_AM_NHAC — `_00_Cosmo brain/misc/H/HERITAGE_SONG_AM_THANH_QUY_TAC_AM_NHAC.md`
 - HERITAGE_THE_PATTERNS_WE_FOUND — `_00_Cosmo brain/misc/H/HERITAGE_THE_PATTERNS_WE_FOUND.md`
 - HIGHEST_VALUE_INCOMPLETE_SLICE_MISSION_COMPLETE — `_00_Cosmo brain/misc/H/HIGHEST_VALUE_INCOMPLETE_SLICE_MISSION_COMPLETE.md`
-- HR_Talent_ — `_00_Cosmo brain/misc/H/HR_Talent_.md`
+- HR_Talent\_ — `_00_Cosmo brain/misc/H/HR_Talent_.md`
 - HSCSA – Core Law Set (Complete) — `_00_Cosmo brain/misc/H/HSCSA – Core Law Set (Complete).md`
 - HSE_States — `_00_Cosmo brain/misc/H/HSE_States.md`
 - HSE_Vietnam_Master — `_00_Cosmo brain/misc/H/HSE_Vietnam_Master.md`
@@ -4762,7 +4765,7 @@ rscf:
 - link — `_00_Cosmo brain/misc/L/link.md`
 - loader_2 — `_00_Cosmo brain/misc/L/loader_2.md`
 - Long Mạch Mapping Across Vietnam — `_00_Cosmo brain/misc/L/🐉 Long Mạch Mapping Across Vietnam.md`
-- $$ — `_00_Cosmo brain/misc/M/$$.md`
+- $$ — `_00_Cosmo brain/misc/M/$$.md\`
 - 19 — `_00_Cosmo brain/misc/M/19.md`
 - 90% — `_00_Cosmo brain/misc/M/90%.md`
 - MAP CÁC HẰNG SỐ (π, e, φ, √2, 137, 432, 360…) VÀ L — `_00_Cosmo brain/misc/M/MAP CÁC HẰNG SỐ (π, e, φ, √2, 137, 432, 360…) VÀ L.md`
@@ -5413,7 +5416,7 @@ rscf:
 - systems — `_00_Cosmo brain/system/systems.md`
 - The Complete Ecosystem — `_00_Cosmo brain/system/🌍 The Complete Ecosystem.md`
 - The Complete Trust & Signal Ecosystem — `_00_Cosmo brain/system/🌍 The Complete Trust & Signal Ecosystem.md`
-- The System_ — `_00_Cosmo brain/system/🌏 The System_.md`
+- The System\_ — `_00_Cosmo brain/system/🌏 The System_.md`
 - Code — `_00_Cosmo brain/tech-coding/Code.md`
 - Coding — `_00_Cosmo brain/tech-coding/Coding.md`
 - Coding_MAX — `_00_Cosmo brain/tech-coding/Coding_MAX.md`
@@ -5421,11 +5424,11 @@ rscf:
 - ENHANCED_SYMBOL_PARSER_COMPLETE — `_00_Cosmo brain/tech-coding/ENHANCED_SYMBOL_PARSER_COMPLETE.md`
 - OAuth--Grant_Types--Authorization_Code_Type — `_00_Cosmo brain/tech-coding/OAuth--Grant_Types--Authorization_Code_Type.md`
 - SYMBOL_PARSER_COMPLETE — `_00_Cosmo brain/tech-coding/SYMBOL_PARSER_COMPLETE.md`
-- Strategic_Partnership_Proposal_to_GCBAT_(Neural_Tech_Council) — `_00_Cosmo brain/tech-coding/Strategic_Partnership_Proposal_to_GCBAT_(Neural_Tech_Council).md`
+- Strategic_Partnership_Proposal_to_GCBAT\_(Neural_Tech_Council) — `_00_Cosmo brain/tech-coding/Strategic_Partnership_Proposal_to_GCBAT_(Neural_Tech_Council).md`
 - Tech Partner Audit — `_00_Cosmo brain/tech-coding/Tech Partner Audit.md`
 - Tech_Architecture_Model — `_00_Cosmo brain/tech-coding/Tech_Architecture_Model.md`
 - Tech_Expanded_Design_Model — `_00_Cosmo brain/tech-coding/Tech_Expanded_Design_Model.md`
-- V11 - Planetary Consent Infrastructure_ Complete Technical Framework — `_00_Cosmo brain/tech-coding/V11 - Planetary Consent Infrastructure_ Complete Technical Framework.md`
+- V11 - Planetary Consent Infrastructure\_ Complete Technical Framework — `_00_Cosmo brain/tech-coding/V11 - Planetary Consent Infrastructure_ Complete Technical Framework.md`
 - Why Some Technologies Are Safe Only in Honest Soci — `_00_Cosmo brain/tech-coding/Why Some Technologies Are Safe Only in Honest Soci.md`
 - code_task — `_00_Cosmo brain/tech-coding/code_task.md`
 - coding_programming_architecture — `_00_Cosmo brain/tech-coding/coding_programming_architecture.md`
@@ -5467,20 +5470,20 @@ rscf:
 - The Seven Cycles of the Trang System™ – Official M — `_00_Cosmo brain/trang/The Seven Cycles of the Trang System™ – Official M.md`
 - The Trang Prediction Engine™ (TPE) – Official Manu — `_00_Cosmo brain/trang/The Trang Prediction Engine™ (TPE) – Official Manu.md`
 - The Trang System™ (TSS) – Official Manual — `_00_Cosmo brain/trang/The Trang System™ (TSS) – Official Manual.md`
-- The_Seven_Cycles_of_the_Trang_System_Official_Manual_Comprehensive_Edition_ — `_00_Cosmo brain/trang/The_Seven_Cycles_of_the_Trang_System_Official_Manual_Comprehensive_Edition_.md`
+- The_Seven_Cycles_of_the_Trang_System_Official_Manual_Comprehensive_Edition\_ — `_00_Cosmo brain/trang/The_Seven_Cycles_of_the_Trang_System_Official_Manual_Comprehensive_Edition_.md`
 - Trang Reality Architecture AMOS Corpus — `_00_Cosmo brain/trang/Trang Reality Architecture AMOS Corpus.md`
 - Trang Reality Architecture — `_00_Cosmo brain/trang/Trang Reality Architecture.md`
 - Trangs Legacy — `_00_Cosmo brain/trang/Trangs Legacy.md`
-- b32a7b01-5632-450a-a935-2ded537ff5fe_The_Seven_Cycles_of_the_Trang_System__Official_Manual_(Comprehensive_Edition) — `_00_Cosmo brain/trang/b32a7b01-5632-450a-a935-2ded537ff5fe_The_Seven_Cycles_of_the_Trang_System__Official_Manual_(Comprehensive_Edition).md`
-- f27cc831-ed1e-4764-896c-24b01ebe2302_THE_TRANG_SYSTEM_CODEX__META-LAWS — `_00_Cosmo brain/trang/f27cc831-ed1e-4764-896c-24b01ebe2302_THE_TRANG_SYSTEM_CODEX__META-LAWS.md`
-- f49f022f-cda1-4783-817b-9a6c86732371_THE_TRANG_GRAND_SYSTEM___FULL_LOGIC_SPECIFICATION — `_00_Cosmo brain/trang/f49f022f-cda1-4783-817b-9a6c86732371_THE_TRANG_GRAND_SYSTEM___FULL_LOGIC_SPECIFICATION.md`
+- b32a7b01-5632-450a-a935-2ded537ff5fe_The_Seven_Cycles_of_the_Trang_System\_\_Official_Manual\_(Comprehensive_Edition) — `_00_Cosmo brain/trang/b32a7b01-5632-450a-a935-2ded537ff5fe_The_Seven_Cycles_of_the_Trang_System__Official_Manual_(Comprehensive_Edition).md`
+- f27cc831-ed1e-4764-896c-24b01ebe2302_THE_TRANG_SYSTEM_CODEX\_\_META-LAWS — `_00_Cosmo brain/trang/f27cc831-ed1e-4764-896c-24b01ebe2302_THE_TRANG_SYSTEM_CODEX__META-LAWS.md`
+- f49f022f-cda1-4783-817b-9a6c86732371_THE_TRANG_GRAND_SYSTEM\_\_\_FULL_LOGIC_SPECIFICATION — `_00_Cosmo brain/trang/f49f022f-cda1-4783-817b-9a6c86732371_THE_TRANG_GRAND_SYSTEM___FULL_LOGIC_SPECIFICATION.md`
 - trang_amos_reality_architecture_master_max_detail — `_00_Cosmo brain/trang/trang_amos_reality_architecture_master_max_detail.md`
 - trang_framework_l_m_h_lambda_e_t2_ap_dung_ch — `_00_Cosmo brain/trang/trang_framework_l_m_h_lambda_e_t2_ap_dung_ch.md`
 - trang_l_m_h_dinh_nghia_va_phuong_trinh — `_00_Cosmo brain/trang/trang_l_m_h_dinh_nghia_va_phuong_trinh.md`
 - TRANG ∅ – Cách Thức Thị Trường FOREX Thực Sự Vận — `_00_Cosmo brain/trang/📘 TRANG ∅ – Cách Thức Thị Trường FOREX Thực Sự Vận.md`
 - KHUNG CỐT LÕI (TRANG ∅ FRAMEWORK)CORE — `_00_Cosmo brain/trang/🧱 KHUNG CỐT LÕI (TRANG ∅ FRAMEWORK)CORE.md`
-- ABSOLUTE OMNIVERSE U∞_Universe_Packs — `_00_Cosmo brain/universe-cosmos/ABSOLUTE OMNIVERSE U∞_Universe_Packs.md`
-- ABSOLUTE OMNIVERSE U∞_Universe_Packs_Universe_Packs — `_00_Cosmo brain/universe-cosmos/ABSOLUTE OMNIVERSE U∞_Universe_Packs_Universe_Packs.md`
+- ABSOLUTE OMNIVERSE U∞\_Universe_Packs — `_00_Cosmo brain/universe-cosmos/ABSOLUTE OMNIVERSE U∞_Universe_Packs.md`
+- ABSOLUTE OMNIVERSE U∞\_Universe_Packs_Universe_Packs — `_00_Cosmo brain/universe-cosmos/ABSOLUTE OMNIVERSE U∞_Universe_Packs_Universe_Packs.md`
 - C03_physics_cosmos — `_00_Cosmo brain/universe-cosmos/C03_physics_cosmos.md`
 - C03_physics_cosmos_MAX — `_00_Cosmo brain/universe-cosmos/C03_physics_cosmos_MAX.md`
 - C03_physics_cosmos_SUPER — `_00_Cosmo brain/universe-cosmos/C03_physics_cosmos_SUPER.md`
@@ -6246,69 +6249,68 @@ rscf:
 - amos-unreachable-semantics-rscf-workflow — `.devin/workflows/amos-unreachable-semantics-rscf-workflow.md`
 - amos-ust-structure-mapper-workflow — `.devin/workflows/amos-ust-structure-mapper-workflow.md`
 - amos-verification-aware-implementation-diversity-rscf-workflow — `.devin/workflows/amos-verification-aware-implementation-diversity-rscf-workflow.md`
-- arxiv-activation-checkpointing-rscf-workflow — `.devin/workflows/arxiv-activation-checkpointing-rscf-workflow.md`
-- amos-arxiv-agent-memory-dynamics-rscf-workflow — `.devin/workflows/amos-arxiv-agent-memory-dynamics-rscf-workflow.md`
-- arxiv-anytime-pac-bayes-density-ratio-rscf-workflow — `.devin/workflows/arxiv-anytime-pac-bayes-density-ratio-rscf-workflow.md`
-- arxiv-autosota-research-automation-rscf-workflow — `.devin/workflows/arxiv-autosota-research-automation-rscf-workflow.md`
-- arxiv-cdfm-causal-discovery-foundation-rscf-workflow — `.devin/workflows/arxiv-cdfm-causal-discovery-foundation-rscf-workflow.md`
-- arxiv-constrained-structured-decoding-rscf-workflow — `.devin/workflows/arxiv-constrained-structured-decoding-rscf-workflow.md`
-- arxiv-data-mixture-optimization-rscf-workflow — `.devin/workflows/arxiv-data-mixture-optimization-rscf-workflow.md`
-- arxiv-flash-attention-io-rscf-workflow — `.devin/workflows/arxiv-flash-attention-io-rscf-workflow.md`
-- arxiv-flow-matching-generative-rscf-workflow — `.devin/workflows/arxiv-flow-matching-generative-rscf-workflow.md`
-- arxiv-future-confidence-distillation-rscf-workflow — `.devin/workflows/arxiv-future-confidence-distillation-rscf-workflow.md`
-- arxiv-geometric-causal-models-rscf-workflow — `.devin/workflows/arxiv-geometric-causal-models-rscf-workflow.md`
-- arxiv-grapheval-reasoning-coherence-rscf-workflow — `.devin/workflows/arxiv-grapheval-reasoning-coherence-rscf-workflow.md`
-- arxiv-grouped-query-attention-rscf-workflow — `.devin/workflows/arxiv-grouped-query-attention-rscf-workflow.md`
-- arxiv-grpo-reasoning-policy-rscf-workflow — `.devin/workflows/arxiv-grpo-reasoning-policy-rscf-workflow.md`
-- arxiv-kv-cache-quantization-rscf-workflow — `.devin/workflows/arxiv-kv-cache-quantization-rscf-workflow.md`
-- arxiv-llm-judge-bias-geometry-rscf-workflow — `.devin/workflows/arxiv-llm-judge-bias-geometry-rscf-workflow.md`
-- arxiv-long-context-rope-scaling-rscf-workflow — `.devin/workflows/arxiv-long-context-rope-scaling-rscf-workflow.md`
-- arxiv-manifold-constrained-conformal-spatial-rscf-workflow — `.devin/workflows/arxiv-manifold-constrained-conformal-spatial-rscf-workflow.md`
-- arxiv-mixture-of-depths-rscf-workflow — `.devin/workflows/arxiv-mixture-of-depths-rscf-workflow.md`
-- arxiv-pac-bayes-piml-generalization-rscf-workflow — `.devin/workflows/arxiv-pac-bayes-piml-generalization-rscf-workflow.md`
-- arxiv-rag-evaluation-rscf-workflow — `.devin/workflows/arxiv-rag-evaluation-rscf-workflow.md`
-- arxiv-selective-state-space-rscf-workflow — `.devin/workflows/arxiv-selective-state-space-rscf-workflow.md`
-- arxiv-sparse-attention-scaling-rscf-workflow — `.devin/workflows/arxiv-sparse-attention-scaling-rscf-workflow.md`
-- arxiv-streaming-attention-sinks-rscf-workflow — `.devin/workflows/arxiv-streaming-attention-sinks-rscf-workflow.md`
-- arxiv-structured-gp-omics-uq-rscf-workflow — `.devin/workflows/arxiv-structured-gp-omics-uq-rscf-workflow.md`
-- arxiv-test-time-compute-scaling-rscf-workflow — `.devin/workflows/arxiv-test-time-compute-scaling-rscf-workflow.md`
-- arxiv-test-time-training-rscf-workflow — `.devin/workflows/arxiv-test-time-training-rscf-workflow.md`
-- bluebook-strategy-system-workflow — `.devin/workflows/bluebook-strategy-system-workflow.md`
-- cosmo-human-problem-architecture-workflow — `.devin/workflows/cosmo-human-problem-architecture-workflow.md`
-- docx-workflow — `.devin/workflows/docx-workflow.md`
-- executive-deck-decision-system-workflow — `.devin/workflows/executive-deck-decision-system-workflow.md`
-- frontend-engineering-qa-workflow — `.devin/workflows/frontend-engineering-qa-workflow.md`
-- gmef-governance-workflow — `.devin/workflows/gmef-governance-workflow.md`
-- mckinsey-architecture-reference-transfer-rscf-workflow — `.devin/workflows/mckinsey-architecture-reference-transfer-rscf-workflow.md`
-- mckinsey-banking-crm-assessment-rscf-workflow — `.devin/workflows/mckinsey-banking-crm-assessment-rscf-workflow.md`
-- mckinsey-commercial-due-diligence-rscf-workflow — `.devin/workflows/mckinsey-commercial-due-diligence-rscf-workflow.md`
-- mckinsey-credit-lending-rscf-workflow — `.devin/workflows/mckinsey-credit-lending-rscf-workflow.md`
-- mckinsey-customer-journey-planning-rscf-workflow — `.devin/workflows/mckinsey-customer-journey-planning-rscf-workflow.md`
-- mckinsey-designops-agile-transformation-rscf-workflow — `.devin/workflows/mckinsey-designops-agile-transformation-rscf-workflow.md`
-- mckinsey-digital-bank-value-proposition-rscf-workflow — `.devin/workflows/mckinsey-digital-bank-value-proposition-rscf-workflow.md`
-- mckinsey-digital-strategy-rscf-workflow — `.devin/workflows/mckinsey-digital-strategy-rscf-workflow.md`
-- mckinsey-enterprise-data-transformation-rscf-workflow — `.devin/workflows/mckinsey-enterprise-data-transformation-rscf-workflow.md`
-- mckinsey-framework-navigator-workflow — `.devin/workflows/mckinsey-framework-navigator-workflow.md`
-- mckinsey-healthcare-strategy-rscf-workflow — `.devin/workflows/mckinsey-healthcare-strategy-rscf-workflow.md`
-- mckinsey-human-centered-design-rscf-workflow — `.devin/workflows/mckinsey-human-centered-design-rscf-workflow.md`
-- mckinsey-partnership-ecosystem-strategy-rscf-workflow — `.devin/workflows/mckinsey-partnership-ecosystem-strategy-rscf-workflow.md`
-- mckinsey-public-sector-transformation-rscf-workflow — `.devin/workflows/mckinsey-public-sector-transformation-rscf-workflow.md`
-- mckinsey-purpose-impact-rscf-workflow — `.devin/workflows/mckinsey-purpose-impact-rscf-workflow.md`
-- mckinsey-recruiting-workforce-acquisition-rscf-workflow — `.devin/workflows/mckinsey-recruiting-workforce-acquisition-rscf-workflow.md`
-- mckinsey-strategy-portfolio-engine-workflow — `.devin/workflows/mckinsey-strategy-portfolio-engine-workflow.md`
-- mckinsey-technology-company-strategy-rscf-workflow — `.devin/workflows/mckinsey-technology-company-strategy-rscf-workflow.md`
-- mckinsey-technology-product-governance-rscf-workflow — `.devin/workflows/mckinsey-technology-product-governance-rscf-workflow.md`
-- mckinsey-technology-sales-excellence-rscf-workflow — `.devin/workflows/mckinsey-technology-sales-excellence-rscf-workflow.md`
-- mckinsey-transaction-banking-diagnostic-rscf-workflow — `.devin/workflows/mckinsey-transaction-banking-diagnostic-rscf-workflow.md`
-- mckinsey-transformation-org-structure-rscf-workflow — `.devin/workflows/mckinsey-transformation-org-structure-rscf-workflow.md`
-- mckinsey-value-delivery-rscf-workflow — `.devin/workflows/mckinsey-value-delivery-rscf-workflow.md`
-- mckinsey-wealth-management-rscf-workflow — `.devin/workflows/mckinsey-wealth-management-rscf-workflow.md`
-- pdfs-workflow — `.devin/workflows/pdfs-workflow.md`
-- rscf-modeler-workflow — `.devin/workflows/rscf-modeler-workflow.md`
-- skill-creator-workflow — `.devin/workflows/skill-creator-workflow.md`
-- slides-workflow — `.devin/workflows/slides-workflow.md`
-- software-engineering-qa-workflow — `.devin/workflows/software-engineering-qa-workflow.md`
-- spreadsheets-workflow — `.devin/workflows/spreadsheets-workflow.md`
+- amos-arxiv-activation-checkpointing-rscf-workflow — `.devin/workflows/amos-arxiv-activation-checkpointing-rscf-workflow.md`
+- amos-arxiv-anytime-pac-bayes-density-ratio-rscf-workflow — `.devin/workflows/amos-arxiv-anytime-pac-bayes-density-ratio-rscf-workflow.md`
+- amos-arxiv-autosota-research-automation-rscf-workflow — `.devin/workflows/amos-arxiv-autosota-research-automation-rscf-workflow.md`
+- amos-arxiv-cdfm-causal-discovery-foundation-rscf-workflow — `.devin/workflows/amos-arxiv-cdfm-causal-discovery-foundation-rscf-workflow.md`
+- amos-arxiv-constrained-structured-decoding-rscf-workflow — `.devin/workflows/amos-arxiv-constrained-structured-decoding-rscf-workflow.md`
+- amos-arxiv-data-mixture-optimization-rscf-workflow — `.devin/workflows/amos-arxiv-data-mixture-optimization-rscf-workflow.md`
+- amos-arxiv-flash-attention-io-rscf-workflow — `.devin/workflows/amos-arxiv-flash-attention-io-rscf-workflow.md`
+- amos-arxiv-flow-matching-generative-rscf-workflow — `.devin/workflows/amos-arxiv-flow-matching-generative-rscf-workflow.md`
+- amos-arxiv-future-confidence-distillation-rscf-workflow — `.devin/workflows/amos-arxiv-future-confidence-distillation-rscf-workflow.md`
+- amos-arxiv-geometric-causal-models-rscf-workflow — `.devin/workflows/amos-arxiv-geometric-causal-models-rscf-workflow.md`
+- amos-arxiv-grapheval-reasoning-coherence-rscf-workflow — `.devin/workflows/amos-arxiv-grapheval-reasoning-coherence-rscf-workflow.md`
+- amos-arxiv-grouped-query-attention-rscf-workflow — `.devin/workflows/amos-arxiv-grouped-query-attention-rscf-workflow.md`
+- amos-arxiv-grpo-reasoning-policy-rscf-workflow — `.devin/workflows/amos-arxiv-grpo-reasoning-policy-rscf-workflow.md`
+- amos-arxiv-kv-cache-quantization-rscf-workflow — `.devin/workflows/amos-arxiv-kv-cache-quantization-rscf-workflow.md`
+- amos-arxiv-llm-judge-bias-geometry-rscf-workflow — `.devin/workflows/amos-arxiv-llm-judge-bias-geometry-rscf-workflow.md`
+- amos-arxiv-long-context-rope-scaling-rscf-workflow — `.devin/workflows/amos-arxiv-long-context-rope-scaling-rscf-workflow.md`
+- amos-arxiv-manifold-constrained-conformal-spatial-rscf-workflow — `.devin/workflows/amos-arxiv-manifold-constrained-conformal-spatial-rscf-workflow.md`
+- amos-arxiv-mixture-of-depths-rscf-workflow — `.devin/workflows/amos-arxiv-mixture-of-depths-rscf-workflow.md`
+- amos-arxiv-pac-bayes-piml-generalization-rscf-workflow — `.devin/workflows/amos-arxiv-pac-bayes-piml-generalization-rscf-workflow.md`
+- amos-arxiv-rag-evaluation-rscf-workflow — `.devin/workflows/amos-arxiv-rag-evaluation-rscf-workflow.md`
+- amos-arxiv-selective-state-space-rscf-workflow — `.devin/workflows/amos-arxiv-selective-state-space-rscf-workflow.md`
+- amos-arxiv-sparse-attention-scaling-rscf-workflow — `.devin/workflows/amos-arxiv-sparse-attention-scaling-rscf-workflow.md`
+- amos-arxiv-streaming-attention-sinks-rscf-workflow — `.devin/workflows/amos-arxiv-streaming-attention-sinks-rscf-workflow.md`
+- amos-arxiv-structured-gp-omics-uq-rscf-workflow — `.devin/workflows/amos-arxiv-structured-gp-omics-uq-rscf-workflow.md`
+- amos-arxiv-test-time-compute-scaling-rscf-workflow — `.devin/workflows/amos-arxiv-test-time-compute-scaling-rscf-workflow.md`
+- amos-arxiv-test-time-training-rscf-workflow — `.devin/workflows/amos-arxiv-test-time-training-rscf-workflow.md`
+- amos-bluebook-strategy-system-workflow — `.devin/workflows/amos-bluebook-strategy-system-workflow.md`
+- amos-cosmo-human-problem-architecture-workflow — `.devin/workflows/amos-cosmo-human-problem-architecture-workflow.md`
+- amos-docx-workflow — `.devin/workflows/amos-docx-workflow.md`
+- amos-executive-deck-decision-system-workflow — `.devin/workflows/amos-executive-deck-decision-system-workflow.md`
+- amos-frontend-engineering-qa-workflow — `.devin/workflows/amos-frontend-engineering-qa-workflow.md`
+- amos-gmef-governance-workflow — `.devin/workflows/amos-gmef-governance-workflow.md`
+- amos-mckinsey-architecture-reference-transfer-rscf-workflow — `.devin/workflows/amos-mckinsey-architecture-reference-transfer-rscf-workflow.md`
+- amos-mckinsey-banking-crm-assessment-rscf-workflow — `.devin/workflows/amos-mckinsey-banking-crm-assessment-rscf-workflow.md`
+- amos-mckinsey-commercial-due-diligence-rscf-workflow — `.devin/workflows/amos-mckinsey-commercial-due-diligence-rscf-workflow.md`
+- amos-mckinsey-credit-lending-rscf-workflow — `.devin/workflows/amos-mckinsey-credit-lending-rscf-workflow.md`
+- amos-mckinsey-customer-journey-planning-rscf-workflow — `.devin/workflows/amos-mckinsey-customer-journey-planning-rscf-workflow.md`
+- amos-mckinsey-designops-agile-transformation-rscf-workflow — `.devin/workflows/amos-mckinsey-designops-agile-transformation-rscf-workflow.md`
+- amos-mckinsey-digital-bank-value-proposition-rscf-workflow — `.devin/workflows/amos-mckinsey-digital-bank-value-proposition-rscf-workflow.md`
+- amos-mckinsey-digital-strategy-rscf-workflow — `.devin/workflows/amos-mckinsey-digital-strategy-rscf-workflow.md`
+- amos-mckinsey-enterprise-data-transformation-rscf-workflow — `.devin/workflows/amos-mckinsey-enterprise-data-transformation-rscf-workflow.md`
+- amos-mckinsey-framework-navigator-workflow — `.devin/workflows/amos-mckinsey-framework-navigator-workflow.md`
+- amos-mckinsey-healthcare-strategy-rscf-workflow — `.devin/workflows/amos-mckinsey-healthcare-strategy-rscf-workflow.md`
+- amos-mckinsey-human-centered-design-rscf-workflow — `.devin/workflows/amos-mckinsey-human-centered-design-rscf-workflow.md`
+- amos-mckinsey-partnership-ecosystem-strategy-rscf-workflow — `.devin/workflows/amos-mckinsey-partnership-ecosystem-strategy-rscf-workflow.md`
+- amos-mckinsey-public-sector-transformation-rscf-workflow — `.devin/workflows/amos-mckinsey-public-sector-transformation-rscf-workflow.md`
+- amos-mckinsey-purpose-impact-rscf-workflow — `.devin/workflows/amos-mckinsey-purpose-impact-rscf-workflow.md`
+- amos-mckinsey-recruiting-workforce-acquisition-rscf-workflow — `.devin/workflows/amos-mckinsey-recruiting-workforce-acquisition-rscf-workflow.md`
+- amos-mckinsey-strategy-portfolio-engine-workflow — `.devin/workflows/amos-mckinsey-strategy-portfolio-engine-workflow.md`
+- amos-mckinsey-technology-company-strategy-rscf-workflow — `.devin/workflows/amos-mckinsey-technology-company-strategy-rscf-workflow.md`
+- amos-mckinsey-technology-product-governance-rscf-workflow — `.devin/workflows/amos-mckinsey-technology-product-governance-rscf-workflow.md`
+- amos-mckinsey-technology-sales-excellence-rscf-workflow — `.devin/workflows/amos-mckinsey-technology-sales-excellence-rscf-workflow.md`
+- amos-mckinsey-transaction-banking-diagnostic-rscf-workflow — `.devin/workflows/amos-mckinsey-transaction-banking-diagnostic-rscf-workflow.md`
+- amos-mckinsey-transformation-org-structure-rscf-workflow — `.devin/workflows/amos-mckinsey-transformation-org-structure-rscf-workflow.md`
+- amos-mckinsey-value-delivery-rscf-workflow — `.devin/workflows/amos-mckinsey-value-delivery-rscf-workflow.md`
+- amos-mckinsey-wealth-management-rscf-workflow — `.devin/workflows/amos-mckinsey-wealth-management-rscf-workflow.md`
+- amos-pdfs-workflow — `.devin/workflows/amos-pdfs-workflow.md`
+- amos-rscf-modeler-workflow — `.devin/workflows/amos-rscf-modeler-workflow.md`
+- amos-skill-creator-workflow — `.devin/workflows/amos-skill-creator-workflow.md`
+- amos-slides-workflow — `.devin/workflows/amos-slides-workflow.md`
+- amos-software-engineering-qa-workflow — `.devin/workflows/amos-software-engineering-qa-workflow.md`
+- amos-spreadsheets-workflow — `.devin/workflows/amos-spreadsheets-workflow.md`
 
 ## `apps/` (701 files)
 
@@ -6350,10 +6352,10 @@ rscf:
 - .eslintrc — `apps/mobile/.eslintrc.md`
 - (empty) — `apps/mobile/.md`
 - app — `apps/mobile/app.md`
-- _layout — `apps/mobile/app/(tabs)/_layout.md`
+- \_layout — `apps/mobile/app/(tabs)/_layout.md`
 - index — `apps/mobile/app/(tabs)/index.md`
 - profile — `apps/mobile/app/(tabs)/profile.md`
-- _layout — `apps/mobile/app/_layout.md`
+- \_layout — `apps/mobile/app/_layout.md`
 - choice — `apps/mobile/app/choice.md`
 - preview — `apps/mobile/app/gifts/preview.md`
 - recipient — `apps/mobile/app/gifts/recipient.md`
@@ -6362,7 +6364,7 @@ rscf:
 - gallery — `apps/mobile/app/journey/gallery.md`
 - timeline — `apps/mobile/app/journey/timeline.md`
 - login — `apps/mobile/app/login.md`
-- _layout — `apps/mobile/app/onboarding/_layout.md`
+- \_layout — `apps/mobile/app/onboarding/_layout.md`
 - goals — `apps/mobile/app/onboarding/goals.md`
 - microphone — `apps/mobile/app/onboarding/microphone.md`
 - preferences — `apps/mobile/app/onboarding/preferences.md`
@@ -6372,8 +6374,8 @@ rscf:
 - index — `apps/mobile/app/practices/index.md`
 - presence — `apps/mobile/app/presence.md`
 - privacy — `apps/mobile/app/profile/privacy.md`
-- _layout — `apps/mobile/app/scan/_layout.md`
-- _layout — `apps/mobile/app/scan/artwork/_layout.md`
+- \_layout — `apps/mobile/app/scan/_layout.md`
+- \_layout — `apps/mobile/app/scan/artwork/_layout.md`
 - explanation — `apps/mobile/app/scan/artwork/explanation.md`
 - reveal — `apps/mobile/app/scan/artwork/reveal.md`
 - complete — `apps/mobile/app/scan/complete.md`
@@ -6392,22 +6394,22 @@ rscf:
 - metro.config — `apps/mobile/metro.config.md`
 - package — `apps/mobile/package.md`
 - scanFlow.test — `apps/mobile/src/__tests__/integration/scanFlow.test.md`
-- _layout — `apps/mobile/src/app._deprecated/(auth)/_layout.md`
+- \_layout — `apps/mobile/src/app._deprecated/(auth)/_layout.md`
 - forgot-password — `apps/mobile/src/app._deprecated/(auth)/forgot-password.md`
 - login — `apps/mobile/src/app._deprecated/(auth)/login.md`
 - signup — `apps/mobile/src/app._deprecated/(auth)/signup.md`
 - welcome — `apps/mobile/src/app._deprecated/(auth)/welcome.md`
-- _layout — `apps/mobile/src/app._deprecated/(main)/_layout.md`
+- \_layout — `apps/mobile/src/app._deprecated/(main)/_layout.md`
 - home — `apps/mobile/src/app._deprecated/(main)/home.md`
 - journey — `apps/mobile/src/app._deprecated/(main)/journey.md`
 - profile — `apps/mobile/src/app._deprecated/(main)/profile.md`
 - scan — `apps/mobile/src/app._deprecated/(main)/scan.md`
-- _layout — `apps/mobile/src/app._deprecated/(tabs)/_layout.md`
+- \_layout — `apps/mobile/src/app._deprecated/(tabs)/_layout.md`
 - index — `apps/mobile/src/app._deprecated/(tabs)/index.md`
 - journey — `apps/mobile/src/app._deprecated/(tabs)/journey.md`
 - practices — `apps/mobile/src/app._deprecated/(tabs)/practices.md`
 - profile — `apps/mobile/src/app._deprecated/(tabs)/profile.md`
-- _layout — `apps/mobile/src/app._deprecated/_layout.md`
+- \_layout — `apps/mobile/src/app._deprecated/_layout.md`
 - [sessionId] — `apps/mobile/src/app._deprecated/comparison/[sessionId].md`
 - recipient — `apps/mobile/src/app._deprecated/gifts/recipient.md`
 - sent — `apps/mobile/src/app._deprecated/gifts/sent.md`
@@ -6417,7 +6419,7 @@ rscf:
 - gallery — `apps/mobile/src/app._deprecated/journey/gallery.md`
 - [id] — `apps/mobile/src/app._deprecated/journey/session/[id].md`
 - timeline — `apps/mobile/src/app._deprecated/journey/timeline.md`
-- _layout — `apps/mobile/src/app._deprecated/onboarding/_layout.md`
+- \_layout — `apps/mobile/src/app._deprecated/onboarding/_layout.md`
 - index — `apps/mobile/src/app._deprecated/onboarding/index.md`
 - after-scan — `apps/mobile/src/app._deprecated/practices/after-scan.md`
 - before-scan — `apps/mobile/src/app._deprecated/practices/before-scan.md`
@@ -6430,7 +6432,7 @@ rscf:
 - artworkState.test — `apps/mobile/src/app._deprecated/scan/__tests__/artworkState.test.md`
 - recordingFlow.test — `apps/mobile/src/app._deprecated/scan/__tests__/recordingFlow.test.md`
 - reflectionState.test — `apps/mobile/src/app._deprecated/scan/__tests__/reflectionState.test.md`
-- _layout — `apps/mobile/src/app._deprecated/scan/_layout.md`
+- \_layout — `apps/mobile/src/app._deprecated/scan/_layout.md`
 - index — `apps/mobile/src/app._deprecated/scan/artwork/index.md`
 - artworkState — `apps/mobile/src/app._deprecated/scan/artworkState.md`
 - explanation — `apps/mobile/src/app._deprecated/scan/explanation.md`
@@ -6455,14 +6457,14 @@ rscf:
 - login — `apps/mobile/src/app/(auth)/login.md`
 - signup — `apps/mobile/src/app/(auth)/signup.md`
 - welcome — `apps/mobile/src/app/(auth)/welcome.md`
-- _layout — `apps/mobile/src/app/(tabs)/_layout.md`
+- \_layout — `apps/mobile/src/app/(tabs)/_layout.md`
 - community — `apps/mobile/src/app/(tabs)/community.md`
 - index — `apps/mobile/src/app/(tabs)/index.md`
 - journey — `apps/mobile/src/app/(tabs)/journey.md`
 - practices — `apps/mobile/src/app/(tabs)/practices.md`
 - profile — `apps/mobile/src/app/(tabs)/profile.md`
 - scan — `apps/mobile/src/app/(tabs)/scan.md`
-- _layout — `apps/mobile/src/app/_layout.md`
+- \_layout — `apps/mobile/src/app/_layout.md`
 - [id] — `apps/mobile/src/app/community/circle/[id].md`
 - [sessionId] — `apps/mobile/src/app/comparison/[sessionId].md`
 - create — `apps/mobile/src/app/gifts/create.md`
@@ -7001,8 +7003,8 @@ rscf:
 - rate-limit — `apps/web/src/lib/rate-limit.md`
 - supabase — `apps/web/src/lib/supabase.md`
 - 404 — `apps/web/src/pages/404.md`
-- _app — `apps/web/src/pages/_app.md`
-- _error — `apps/web/src/pages/_error.md`
+- \_app — `apps/web/src/pages/_app.md`
+- \_error — `apps/web/src/pages/_error.md`
 - AuthProvider — `apps/web/src/providers/AuthProvider.md`
 - QueryProvider — `apps/web/src/providers/QueryProvider.md`
 - index — `apps/web/src/providers/index.md`
@@ -7176,10 +7178,10 @@ rscf:
 - REFLECTION_TRAINING_CHANGE_COGNITION — `cosmo-brain/REFLECTION_TRAINING_CHANGE_COGNITION.md`
 - [[00_ROOT/RSCF_NODE_INDEX|RSCF_NODE_INDEX]] — `cosmo-brain/RSCF_NODE_INDEX.md`
 - TESTING_STRATEGY — `cosmo-brain/TESTING_STRATEGY.md`
-- _debug_invariants — `cosmo-brain/_debug_invariants.md`
-- _debug_murk — `cosmo-brain/_debug_murk.md`
-- _trace_murk — `cosmo-brain/_trace_murk.md`
-- _trace_murk2 — `cosmo-brain/_trace_murk2.md`
+- \_debug_invariants — `cosmo-brain/_debug_invariants.md`
+- \_debug_murk — `cosmo-brain/_debug_murk.md`
+- \_trace_murk — `cosmo-brain/_trace_murk.md`
+- \_trace_murk2 — `cosmo-brain/_trace_murk2.md`
 - index — `cosmo-brain/algorithms/artwork/generation/index.md`
 - index — `cosmo-brain/algorithms/artwork/parameter-mapping/index.md`
 - index — `cosmo-brain/algorithms/artwork/reproducibility/index.md`
@@ -7784,15 +7786,15 @@ rscf:
 - Governance Economy — `designs/_00_Cosmo brain/Governance Economy.md`
 - Grand Cannon — `designs/_00_Cosmo brain/Grand Cannon.md`
 - HSE_CEO_Enginev — `designs/_00_Cosmo brain/HSE_CEO_Enginev.md`
-- HSE_Enginev∞_AMOS_FORMAT_WITH_UCM — `designs/_00_Cosmo brain/HSE_Enginev∞_AMOS_FORMAT_WITH_UCM.md`
+- HSE_Enginev∞\_AMOS_FORMAT_WITH_UCM — `designs/_00_Cosmo brain/HSE_Enginev∞_AMOS_FORMAT_WITH_UCM.md`
 - Human Systems Engine™ (HSE) VN 2b4c5e6f95bd801c9d25d4bc5167dec1 — `designs/_00_Cosmo brain/Human Systems Engine™ (HSE) VN 2b4c5e6f95bd801c9d25d4bc5167dec1.md`
 - Khung Giáo trình 48 giờ cho tài xế – điều phối – k 2aec5e6f95bd805ab7a8f3280934c901 — `designs/_00_Cosmo brain/Khung Giáo trình 48 giờ cho tài xế – điều phối – k 2aec5e6f95bd805ab7a8f3280934c901.md`
 - LOGIC — `designs/_00_Cosmo brain/LOGIC.md`
 - Reasoning kernel — `designs/_00_Cosmo brain/Reasoning kernel.md`
-- Tech Engine  — `designs/_00_Cosmo brain/Tech Engine .md`
+- Tech Engine — `designs/_00_Cosmo brain/Tech Engine .md`
 - Human Systems Engine™ (HSE) VN 2b4c5e6f95bd801c9d25d4bc5167dec1 — `designs/_00_Cosmo brain/Unipower/Human Systems Engine™ (HSE) VN 2b4c5e6f95bd801c9d25d4bc5167dec1.md`
 - VN_OMNISTRUCTURE.txt — `designs/_00_Cosmo brain/VN_OMNISTRUCTURE.txt.md`
-- _AMOS_Total Technical Engine  — `designs/_00_Cosmo brain/_AMOS_Total Technical Engine .md`
+- \_AMOS_Total Technical Engine — `designs/_00_Cosmo brain/_AMOS_Total Technical Engine .md`
 - AMOS_Legal_Kernel_v0 — `designs/_00_Cosmo brain/_AMOS_UNIVERSE/Domains/Org_Risk_Policy/AMOS_Legal_Kernel_v0.md`
 - AMOS_Medical_Clinical_Kernel_v0 — `designs/_00_Cosmo brain/_AMOS_UNIVERSE/Domains/Science_Health/AMOS_Medical_Clinical_Kernel_v0.md`
 - AMOS_Scientific_Kernel_v0 — `designs/_00_Cosmo brain/_AMOS_UNIVERSE/Domains/Science_Health/AMOS_Scientific_Kernel_v0.md`
@@ -8448,13 +8450,14 @@ rscf:
 - playwright.config
 - strip_and_dedup
 
----
+______________________________________________________________________
 
 **Related:** Cosmo_Brain_MOC · [[11_KNOWLEDGE/11_KNOWLEDGE_MOC|11_KNOWLEDGE_MOC]] · 00-Home
 
----
+______________________________________________________________________
+
 **Links:** [[11_KNOWLEDGE/COSMO_BRAIN_MOC|COSMO_BRAIN_MOC]] | [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]]
 
----
+______________________________________________________________________
 
 **MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]] · [[00_ROOT/00_HOME|00_HOME]]

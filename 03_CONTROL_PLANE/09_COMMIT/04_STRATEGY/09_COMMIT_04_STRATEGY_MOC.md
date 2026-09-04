@@ -1,19 +1,22 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: 04 Strategy MOC — 04 Strategy — 09 Commit / 04 Strategy
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/04_STRATEGY
 tags:
-- 04-strategy
-- canon/control-plane
-- strategy-commit-control-plane-mode-spec
-- strategy-commit-control-plane-provenance
-- strategy-commit-control-plane-activation-rules
-- strategy-commit-control-plane-domain-weights
-- strategy-commit-control-plane-engine-weights
-- strategy-commit-control-plane-layer-weights
-- strategy-commit-control-plane-mode-family-spec
-- strategy-commit-control-plane-preconditions
-- strategy-commit-control-plane-purpose-scope
+  - 04-strategy
+  - canon/control-plane
+  - strategy-commit-control-plane-mode-spec
+  - strategy-commit-control-plane-provenance
+  - strategy-commit-control-plane-activation-rules
+  - strategy-commit-control-plane-domain-weights
+  - strategy-commit-control-plane-engine-weights
+  - strategy-commit-control-plane-layer-weights
+  - strategy-commit-control-plane-mode-family-spec
+  - strategy-commit-control-plane-preconditions
+  - strategy-commit-control-plane-purpose-scope
 moc: true
 rscf:
   state: DERIVED
@@ -43,5 +46,6 @@ rscf:
 - [[03_CONTROL_PLANE/09_COMMIT/04_STRATEGY/STRATEGY_COMMIT_CONTROL_PLANE_PURPOSE_SCOPE|STRATEGY_COMMIT_CONTROL_PLANE_PURPOSE_SCOPE]]
 - [[03_CONTROL_PLANE/09_COMMIT/04_STRATEGY/STRATEGY_COMMIT_CONTROL_PLANE_README|STRATEGY_COMMIT_CONTROL_PLANE_README]]
 
----
+______________________________________________________________________
+
 **Parent:** [[03_CONTROL_PLANE/09_COMMIT/09_COMMIT_MOC|09_COMMIT_MOC]]

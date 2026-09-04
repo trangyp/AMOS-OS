@@ -4,25 +4,22 @@ title: SKILL — Mckinsey Wealth Management Rscf
 type: skill
 source: 07_SKILLS/mckinsey-wealth-management-rscf
 name: mckinsey-wealth-management-rscf
-description: Wealth Management — McKinsey strategic capability. Use when strategic
-  analysis, business consulting, or McKinsey-framework reasoning. Use when amos-c08-strategy-game-master
-  routes to this specialized capability. Do not use for generic tasks outside mckinsey
-  domain.
+description: Wealth Management — McKinsey strategic capability. Use when strategic analysis, business consulting, or McKinsey-framework reasoning. Use when amos-c08-strategy-game-master routes to this specialized capability. Do not use for generic tasks outside mckinsey domain.
 parent_skill: amos-c08-strategy-game-master
 domain: mckinsey
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
 tags:
-- type/skill
-- type/skill
-- domain/strategy-game
-- epistemic/source_claim
-- hml/m
-- epistemic/source_claim
-- amos-os
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/strategy-game
+  - epistemic/source_claim
+  - hml/m
+  - epistemic/source_claim
+  - amos-os
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -32,20 +29,20 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: M
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L16
-- L17
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L16
+  - L17
 license: MIT
 steward: Trang Phan
 ---
@@ -55,6 +52,7 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: mckinsey. Parent: amos-c08-strategy-game-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
 ## When to Use
 
 - When mckinsey strategy framework for mckinsey: wealth management rscf is needed within the mckinsey domain
@@ -77,12 +75,12 @@ Origin architect: **Trang Phan**. Domain: mckinsey. Parent: amos-c08-strategy-ga
 ## Operations
 
 1. **wealth_management.assess_commercial**: Assess commercial due diligence: market, competitive position, and growth
-2. **wealth_management.evaluate_credit**: Evaluate credit and lending: risk scoring, portfolio, and concentration
-3. **wealth_management.analyze_banking**: Analyze banking CRM: customer lifetime value, retention, and cross-sell
-4. **wealth_management.transfer_architecture**: Transfer architecture references: best practices across organizational contexts
-5. **wealth_management.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-6. **wealth_management.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
-7. **wealth_management.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+1. **wealth_management.evaluate_credit**: Evaluate credit and lending: risk scoring, portfolio, and concentration
+1. **wealth_management.analyze_banking**: Analyze banking CRM: customer lifetime value, retention, and cross-sell
+1. **wealth_management.transfer_architecture**: Transfer architecture references: best practices across organizational contexts
+1. **wealth_management.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+1. **wealth_management.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+1. **wealth_management.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## 11_KNOWLEDGE Vault Content
 
@@ -94,23 +92,27 @@ Origin architect: **Trang Phan**. Domain: mckinsey. Parent: amos-c08-strategy-ga
 From C07 Econ & Finance: Investment management and portfolio theory. From C08 Strategy & Game: Strategic portfolio management.
 
 **Wealth management model**:
+
 - **Asset allocation**: strategic allocation across asset classes (equity, fixed income, alternatives)
 - **Risk management**: risk budgeting, VaR, stress testing
 - **Portfolio optimization**: mean-variance optimization, factor models
 - **Wealth preservation**: capital preservation, downside protection, generational transfer
 
 **Wealth management laws**:
+
 - `RETURN != ALPHA`: returns may be from beta (market) not alpha (skill)
 - `PAST != FUTURE`: past performance does not guarantee future results
 - `DIVERSIFICATION != GUARANTEE`: diversification reduces risk but does not eliminate it
 
 **RSCF integration**:
+
 - Wealth management claims are MODEL (conditional on assumptions)
-- Confidence ceiling: return predictions <= evidence support
+- Confidence ceiling: return predictions \<= evidence support
 - Falsifier: underperformance vs benchmark over declared period
 - Scope: claims valid only within declared market regime
 
 **McKinsey framework integration**:
+
 - Portfolio analysis using BCG matrix (stars, cash cows, question marks, dogs)
 - Strategic allocation using GE-McKinsey matrix (attractiveness vs strength)
 - Risk-adjusted returns using Sharpe, Sortino, Calmar ratios
@@ -129,6 +131,7 @@ fully COVERED.
 ## What Was Implemented
 
 ### `UnknownUnknownEntry` dataclass
+
 - `entry_id`: unique identifier (e.g., "UU-001")
 - `surface_area`: what domain/area was surveyed
 - `survey_method`: how we looked for unknowns (architectural_review, fuzzing, etc.)
@@ -139,6 +142,7 @@ fully COVERED.
 - `notes`: additional context
 
 ### `UnknownUnknownRegistry` class
+
 - **5 pre-populated surface areas**:
   - UU-001: BRAIN_CORE_ubi_integration (surveyed, est=5, conf=0.3)
   - UU-002: OMNI_KERNEL_runtime_integration (surveyed, est=3, conf=0.4)
@@ -146,7 +150,8 @@ fully COVERED.
   - UU-004: EXPRESSION_TRANSLATION_edge_cases (unsurveyed)
   - UU
 
----
+______________________________________________________________________
+
 **Links:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 ## Related
@@ -156,17 +161,19 @@ fully COVERED.
 ## Examples
 
 - **Scenario**: When mckinsey strategy framework for mckinsey: wealth management rscf is needed within the mckinsey domain
+
   - **Input**: A query matching this skill's domain (mckinsey)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When the parent skill (`amos-c08-strategy-game-master`) routes to this specialized capability
+
   - **Input**: A query matching this skill's domain (mckinsey)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When a query requires mckinsey-specific reasoning grounded in vault sources
+
   - **Input**: A query matching this skill's domain (mckinsey)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Validation Gates
 
@@ -183,7 +190,6 @@ fully COVERED.
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `amos-c08-strategy-game-master` — routes to this skill when mckinsey specialization is needed
@@ -191,7 +197,6 @@ fully COVERED.
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -210,7 +215,6 @@ fully COVERED.
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -218,7 +222,6 @@ fully COVERED.
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -231,11 +234,12 @@ fully COVERED.
 
 - `references/money_regimes_for_wealth.md` — loaded on demand
 - `references/references_MOC.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `amos-c08-strategy-game-master` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `mckinsey-wealth-management-rscf-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -243,12 +247,14 @@ fully COVERED.
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: mckinsey-wealth-management-rscf
 node_type: skill
 path: 07_SKILLS/mckinsey-wealth-management-rscf/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

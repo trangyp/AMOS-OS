@@ -1,4 +1,7 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: MBB CONSULTING KERNEL
 type: kernel
 source: 11_KNOWLEDGE/kernel
@@ -7,13 +10,13 @@ canon-type: framework
 rscf-state: source-claim
 topic: mbb-consulting-kernel
 tags:
-- canon-group/tech-ai
-- canon/framework
-- rscf/claim
-- rscf/provenance
-- rscf/state/source-claim
-- topic/mbb-consulting-kernel
-- kernel
+  - canon-group/tech-ai
+  - canon/framework
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - topic/mbb-consulting-kernel
+  - kernel
 created: 2026-08-22
 rscf:
   state: SOURCE_CLAIM
@@ -328,6 +331,6 @@ rscf:
 **Related:** [[11_KNOWLEDGE/kernel/NEGOTIATION_DIPLOMACY_KERNEL|NEGOTIATION_DIPLOMACY_KERNEL]] · [[11_KNOWLEDGE/kernel/AMOS_COGNITION_TOTAL_KERNEL|AMOS_COGNITION_TOTAL_KERNEL]] · [[11_KNOWLEDGE/kernel/SYSTEM_SENSOR_KERNEL|SYSTEM_SENSOR_KERNEL]] · [[11_KNOWLEDGE/kernel/OPERATIONS_SUPPLYCHAIN_KERNEL|OPERATIONS_SUPPLYCHAIN_KERNEL]]
 ```
 
----
-**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]
+______________________________________________________________________
 
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]

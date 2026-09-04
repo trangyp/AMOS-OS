@@ -4,24 +4,22 @@ title: SKILL — Arxiv Kv Cache Quantization Rscf
 type: skill
 source: 07_SKILLS/arxiv-kv-cache-quantization-rscf
 name: arxiv-kv-cache-quantization-rscf
-description: Kv Cache Quantization — arxiv research capability. Use when arxiv research,
-  paper analysis, or literature review. Use when amos-knowledge-research-master routes
-  to this specialized capability. Do not use for generic tasks outside arxiv domain.
+description: Kv Cache Quantization — arxiv research capability. Use when arxiv research, paper analysis, or literature review. Use when amos-knowledge-research-master routes to this specialized capability. Do not use for generic tasks outside arxiv domain.
 parent_skill: amos-knowledge-research-master
 domain: arxiv
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
 tags:
-- type/skill
-- type/skill
-- domain/knowledge-research
-- epistemic/source_claim
-- hml/m
-- epistemic/source_claim
-- amos-os
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/knowledge-research
+  - epistemic/source_claim
+  - hml/m
+  - epistemic/source_claim
+  - amos-os
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -31,20 +29,20 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: M
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L16
-- L17
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L16
+  - L17
 license: MIT
 steward: Trang Phan
 ---
@@ -54,6 +52,7 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: arxiv. Parent: amos-knowledge-research-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
 ## When to Use
 
 - When arxiv research paper rscf skill for arxiv: kv cache quantization rscf is needed within the arxiv domain
@@ -76,12 +75,12 @@ Origin architect: **Trang Phan**. Domain: arxiv. Parent: amos-knowledge-research
 ## Operations
 
 1. **kv_cache.analyze_paper**: Analyze arxiv papers: extract claims, methods, evidence, and limitations
-2. **kv_cache.classify_research**: Classify research by epistemic state: established, emerging, speculative, refuted
-3. **kv_cache.assess_reproducibility**: Assess reproducibility: can the results be independently verified?
-4. **kv_cache.trace_literature**: Trace literature chains: citations, dependencies, and influence networks
-5. **kv_cache.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-6. **kv_cache.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
-7. **kv_cache.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+1. **kv_cache.classify_research**: Classify research by epistemic state: established, emerging, speculative, refuted
+1. **kv_cache.assess_reproducibility**: Assess reproducibility: can the results be independently verified?
+1. **kv_cache.trace_literature**: Trace literature chains: citations, dependencies, and influence networks
+1. **kv_cache.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+1. **kv_cache.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+1. **kv_cache.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## 11_KNOWLEDGE Vault Content
 
@@ -93,20 +92,23 @@ Origin architect: **Trang Phan**. Domain: arxiv. Parent: amos-knowledge-research
 From arxiv research: Key-Value cache quantization for efficient LLM inference.
 
 **KV cache quantization model**:
+
 - **KV cache**: LLM inference caches key-value pairs for attention computation
 - **Quantization**: reduce precision of cached KV pairs (e.g., FP16 -> INT8 -> INT4)
 - **Memory savings**: quantization reduces memory footprint of KV cache
 - **Quality tradeoff**: lower precision may degrade output quality
 
 **Quantization levels**:
+
 - **FP16**: full precision, no quantization (baseline)
 - **INT8**: 8-bit quantization, moderate savings, minimal quality loss
 - **INT4**: 4-bit quantization, large savings, noticeable quality loss
 - **Mixed**: mixed precision (important layers FP16, others quantized)
 
 **RSCF integration**:
+
 - Quantization claims are DERIVED from experiments, not OBSERVED
-- Confidence ceiling: quality claims <= experimental evidence
+- Confidence ceiling: quality claims \<= experimental evidence
 - Falsifier: tasks where quantized model fails but full-precision succeeds
 - Scope: quantization results valid only for declared model, task, and hardware
 
@@ -117,6 +119,7 @@ From arxiv research: Key-Value cache quantization for efficient LLM inference.
 KV cache quantization is an engineering optimization. It does not prove zero quality loss, that quantization is always beneficial, or that results generalize across models.
 
 ## Exploiting Implementation Flaws
+
 Cache key flaws
 
 Cache probing methodology
@@ -136,9 +139,9 @@ Unkeyed query string
 Unkeyed query parameters
 
 Cache parameter cloaking
-   	Exploiting Param parsing quirks
-    Exploiting fat GET support
-    Exploiting dynamic content in resource imports
+Exploiting Param parsing quirks
+Exploiting fat GET support
+Exploiting dynamic content in resource imports
 
 Normalised cache keys
 
@@ -146,15 +149,16 @@ Cache key injection
 
 Internal cache
 
----
+______________________________________________________________________
 
----
+______________________________________________________________________
 
 ### Source 2: Web_Cache_Posioning--Exploiting_design_flaws
 
 > Path: `misc/W/Web_Cache_Posioning--Exploiting_design_flaws.md` | Size: 2446 chars | Match score: 10 | content_hash: 3b1ab9a9cb3f296e
 
 ## Exploiting design flaws
+
 General
 
 Vulnerabilities generally arise due to flaws in design, and with poor implementation.
@@ -171,15 +175,16 @@ Exploit responses that expose too much info
 
 Exploit DOM-based vulnerabilities
 
----
+______________________________________________________________________
 
----
+______________________________________________________________________
 
 ### Source 3: Web Cache Posioning
 
 > Path: `misc/W/Web_Cache_Posioning.md` | Size: 1897 chars | Match score: 10 | content_hash: 45084231982ef7aa
 
-# Web Cache Posioning
+## Web Cache Posioning
+
 Good Caching Settings
 
 When Testing
@@ -190,12 +195,14 @@ Impact
 
 Prevention
 
----
+______________________________________________________________________
 
 ## Failure Modes
-- **Insufficient evide
 
----
+- \*\*Insufficient evide
+
+______________________________________________________________________
+
 **Links:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 ## Related
@@ -205,17 +212,19 @@ Prevention
 ## Examples
 
 - **Scenario**: When arxiv research paper rscf skill for arxiv: kv cache quantization rscf is needed within the arxiv domain
+
   - **Input**: A query matching this skill's domain (arxiv)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When the parent skill (`amos-knowledge-research-master`) routes to this specialized capability
+
   - **Input**: A query matching this skill's domain (arxiv)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When a query requires arxiv-specific reasoning grounded in vault sources
+
   - **Input**: A query matching this skill's domain (arxiv)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Validation Gates
 
@@ -232,7 +241,6 @@ Prevention
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `amos-knowledge-research-master` — routes to this skill when arxiv specialization is needed
@@ -240,7 +248,6 @@ Prevention
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -259,7 +266,6 @@ Prevention
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -267,7 +273,6 @@ Prevention
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -280,11 +285,12 @@ Prevention
 
 - `references/memory_optimization_for_kv_cache.md` — loaded on demand
 - `references/references_MOC.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `amos-knowledge-research-master` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `arxiv-kv-cache-quantization-rscf-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -292,12 +298,14 @@ Prevention
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: arxiv-kv-cache-quantization-rscf
 node_type: skill
 path: 07_SKILLS/arxiv-kv-cache-quantization-rscf/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

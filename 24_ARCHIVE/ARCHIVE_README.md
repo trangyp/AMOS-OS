@@ -1,49 +1,14 @@
 ---
-title: ARCHIVE README
-type: archive
-source: 24_ARCHIVE
-tags:
-- amos-os
-- canon/archive
-- readme
-- routing-policy-validation-receipt
-- authz-engine-validation-receipt
-rscf:
-  state: DERIVED
-  claim_class: CONDITIONAL
-  provenance: AMOS_corpus
-  scope: AMOS_general
+title: "24_ARCHIVE — Repository Overview"
+type: plane_readme
+plane: 24_ARCHIVE
+amos_core_target: v4.4
+origin_architect: Trang Phan
+steward: Trang Phan
+status: ACTIVE_README
+epistemic_class: HISTORICAL_RECORD
 ---
 
-# ARCHIVE README
+# 24_ARCHIVE — Repository Overview
 
-STATUS: PROPOSED_SPECIFICATION
-epistemic_class: AMOS_MODEL
-canonical_status: CONDITIONAL
-updated: 2026-08-26
-
-## Purpose
-Package readme; normative content lives in the contract.
-
-## Contract discipline
-Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
-
-## Gaps
-Executable binding PARTIAL unless an executed validation receipt exists for this subsystem (see [[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]], [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]).
-
----
-
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
-
----
-**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-
----
-RSCF-NODE
-node_id: amos_24_archive_archive_readme_md
-node_type: note
-path: 24_ARCHIVE/ARCHIVE_README.md
-claim_class: AMOS_MODEL
-
----
-**MOC:** [[24_ARCHIVE/24_ARCHIVE_MOC|24_ARCHIVE_MOC]]
+Plane 24 serves as the immutable preservation substrate for superseded specifications, legacy agent templates, and historical research notes.

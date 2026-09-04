@@ -1,10 +1,13 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: 51 Temporal Horizon Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/51_TEMPORAL_HORIZON_MODES
 tags:
-- 51-temporal-horizon-modes
-- canon/control-plane
+  - 51-temporal-horizon-modes
+  - canon/control-plane
 moc: true
 rscf:
   state: DERIVED
@@ -24,5 +27,6 @@ rscf:
 - [[03_CONTROL_PLANE/09_COMMIT/51_TEMPORAL_HORIZON_MODES/TEMPORAL_HORIZON_MODES_COMMIT_CONTROL_PLANE_MODE_FAMILY_SPEC|TEMPORAL_HORIZON_MODES_COMMIT_CONTROL_PLANE_MODE_FAMILY_SPEC]]
 - [[03_CONTROL_PLANE/09_COMMIT/51_TEMPORAL_HORIZON_MODES/TEMPORAL_HORIZON_MODES_COMMIT_CONTROL_PLANE_README|TEMPORAL_HORIZON_MODES_COMMIT_CONTROL_PLANE_README]]
 
----
+______________________________________________________________________
+
 **Parent:** [[03_CONTROL_PLANE/09_COMMIT/09_COMMIT_MOC|09_COMMIT_MOC]]

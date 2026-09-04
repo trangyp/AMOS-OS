@@ -12,19 +12,19 @@ segment: 25_COGNITIVE_MATRIX/12_GENERATORS
 artifact_kind: NOTE
 path: 25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_HISTORY.md
 tags:
-- 12-generators
-- 12_generators
-- amos-os
-- domain/cognitive-matrix
-- canon/universe
-- generators
-- history
-- note
-- rscf
-- placeholder_expanded
-- roadmap
-- integration
-- validation
+  - 12-generators
+  - 12_generators
+  - amos-os
+  - domain/cognitive-matrix
+  - canon/universe
+  - generators
+  - history
+  - note
+  - rscf
+  - placeholder_expanded
+  - roadmap
+  - integration
+  - validation
 version: 0.2.0
 updated: '2026-08-27'
 status: PLACEHOLDER_EXPANDED
@@ -101,7 +101,7 @@ Origin architect / steward: **Trang Phan**
 
 System: **AMOS OS**
 
----
+______________________________________________________________________
 
 # 12 Generators History
 
@@ -119,9 +119,9 @@ System: **AMOS OS**
 >
 > **AMOS_CORE target:** `v4.4`
 
----
+______________________________________________________________________
 
-# 0. Purpose
+## 0. Purpose
 
 `12_GENERATORS/HISTORY.md` defines the AMOS historical and lineage contract for the Generator subsystem.
 
@@ -149,9 +149,9 @@ This document is not a narrative biography of the subsystem.
 
 It is a **provenance-aware historical ledger specification**.
 
----
+______________________________________________________________________
 
-# 1. Core historical law
+## 1. Core historical law
 
 The primary AMOS rule is:
 
@@ -185,9 +185,9 @@ CURRENT_STATE
 != COMPLETE_HISTORY
 ```
 
----
+______________________________________________________________________
 
-# 2. History versus provenance
+## 2. History versus provenance
 
 `PROVENANCE.md` answers:
 
@@ -214,9 +214,9 @@ HISTORY
 
 Neither implies truth or authority.
 
----
+______________________________________________________________________
 
-# 3. History versus roadmap
+## 3. History versus roadmap
 
 Hard boundary:
 
@@ -237,9 +237,9 @@ ROADMAP_PHASE
 
 until completion evidence exists.
 
----
+______________________________________________________________________
 
-# 4. History versus changelog
+## 4. History versus changelog
 
 A changelog is normally an authored summary.
 
@@ -263,15 +263,15 @@ EFFECT STATE
 
 where available.
 
----
+______________________________________________________________________
 
-# 5. History object model
+## 5. History object model
 
 A historical state may be modeled as:
 
-[
+\[
 H_t =
-\langle
+\\langle
 Time,
 Artifacts,
 Versions,
@@ -283,27 +283,27 @@ Validation,
 Runtime,
 Authority,
 Gaps
-\rangle
-]
+\\rangle
+\]
 
 A transition:
 
-[
-T_{i\rightarrow j} =
-\langle
+\[
+T\_{i\\rightarrow j} =
+\\langle
 State_i,
 Change,
 Cause,
 Evidence,
 State_j
-\rangle
-]
+\\rangle
+\]
 
 No causal interpretation should be added unless evidence supports it.
 
----
+______________________________________________________________________
 
-# 6. Historical event ontology
+## 6. Historical event ontology
 
 Recommended event classes:
 
@@ -362,9 +362,9 @@ HISTORICAL_GAP_DISCOVERED
 HISTORICAL_CLAIM_CORRECTED
 ```
 
----
+______________________________________________________________________
 
-# 7. Historical claim classes
+## 7. Historical claim classes
 
 Every history entry should be typed:
 
@@ -393,9 +393,9 @@ No implementation evidence exists
 → UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 8. Historical evidence classes
+## 8. Historical evidence classes
 
 History evidence may include:
 
@@ -418,9 +418,9 @@ UNKNOWN
 
 These must not be treated as equal-strength evidence automatically.
 
----
+______________________________________________________________________
 
-# 9. Typed history entry
+## 9. Typed history entry
 
 ```yaml
 generator_history_entry:
@@ -502,9 +502,9 @@ generator_history_entry:
     []
 ```
 
----
+______________________________________________________________________
 
-# 10. Time precision
+## 10. Time precision
 
 Historical timestamps should carry precision.
 
@@ -531,9 +531,9 @@ implementation completed at
 
 unless supported.
 
----
+______________________________________________________________________
 
-# 11. Time source hierarchy
+## 11. Time source hierarchy
 
 Potential timestamp sources:
 
@@ -550,9 +550,9 @@ inferred sequence
 
 These differ in evidentiary quality.
 
----
+______________________________________________________________________
 
-# 12. Event occurrence versus discovery
+## 12. Event occurrence versus discovery
 
 History should distinguish:
 
@@ -575,9 +575,9 @@ but recovered in 2026
 
 The 2026 discovery does not change the 2024 event time if the earlier date is independently established.
 
----
+______________________________________________________________________
 
-# 13. Version lineage
+## 13. Version lineage
 
 Generator lineage may be represented:
 
@@ -601,9 +601,9 @@ G@V3
 
 remain separate versions with `UNKNOWN` succession relation.
 
----
+______________________________________________________________________
 
-# 14. No version-number inference
+## 14. No version-number inference
 
 Hard rule:
 
@@ -615,9 +615,9 @@ v1 → v2 valid supersession
 
 A version number may indicate author intent, but lineage should be verified where consequential.
 
----
+______________________________________________________________________
 
-# 15. Supersession history
+## 15. Supersession history
 
 ```yaml
 generator_supersession_history:
@@ -653,9 +653,9 @@ generator_supersession_history:
     UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 16. Rollback history
+## 16. Rollback history
 
 Rollback must remain explicit.
 
@@ -688,9 +688,9 @@ generator_rollback_history:
 
 Rollback must not delete the failed path from history.
 
----
+______________________________________________________________________
 
-# 17. Failed version history
+## 17. Failed version history
 
 A Generator version can exist historically even if never activated.
 
@@ -707,9 +707,9 @@ This remains historically important.
 
 Do not rewrite history as though only successful versions existed.
 
----
+______________________________________________________________________
 
-# 18. Experimental history
+## 18. Experimental history
 
 Experiments should be distinguishable from production evolution.
 
@@ -723,9 +723,9 @@ experiment_history:
   production_effect: false
 ```
 
----
+______________________________________________________________________
 
-# 19. Candidate history
+## 19. Candidate history
 
 Generated candidates may have lifecycle:
 
@@ -746,9 +746,9 @@ GENERATED
 
 History should preserve both paths.
 
----
+______________________________________________________________________
 
-# 20. Generator contract history
+## 20. Generator contract history
 
 Track revisions to:
 
@@ -770,9 +770,9 @@ dependency model
 
 Formatting-only changes should be distinguished.
 
----
+______________________________________________________________________
 
-# 21. Semantic versus cosmetic change
+## 21. Semantic versus cosmetic change
 
 Suggested classes:
 
@@ -789,9 +789,9 @@ UNKNOWN
 
 A cosmetic update should not automatically invalidate implementation evidence.
 
----
+______________________________________________________________________
 
-# 22. Schema history
+## 22. Schema history
 
 Track:
 
@@ -807,9 +807,9 @@ meaning changes
 
 Semantic schema change without version change should be flagged.
 
----
+______________________________________________________________________
 
-# 23. Template history
+## 23. Template history
 
 Template history should include:
 
@@ -824,9 +824,9 @@ affected artifacts
 
 Template revisions can materially alter generated outputs even if Generator code does not change.
 
----
+______________________________________________________________________
 
-# 24. Registry history
+## 24. Registry history
 
 Registry evolution should preserve snapshots or deltas.
 
@@ -843,9 +843,9 @@ generator_registry_history:
   captured_at: null
 ```
 
----
+______________________________________________________________________
 
-# 25. Activation history
+## 25. Activation history
 
 Distinguish:
 
@@ -858,9 +858,9 @@ Generator activated
 
 An active-state claim requires stronger evidence than a file existence claim.
 
----
+______________________________________________________________________
 
-# 26. Validation history
+## 26. Validation history
 
 Track validation changes separately from Generator changes.
 
@@ -881,9 +881,9 @@ receipt
 freshness
 ```
 
----
+______________________________________________________________________
 
-# 27. Test history
+## 27. Test history
 
 A test result is scoped to:
 
@@ -903,9 +903,9 @@ History must not say:
 
 without preserving the test context when consequential.
 
----
+______________________________________________________________________
 
-# 28. Test regression history
+## 28. Test regression history
 
 A regression should record:
 
@@ -920,9 +920,9 @@ regression_history:
   evidence_refs: []
 ```
 
----
+______________________________________________________________________
 
-# 29. Provenance history
+## 29. Provenance history
 
 Historical provenance evolution may include:
 
@@ -936,9 +936,9 @@ lineage conflict detected
 
 These can retroactively downgrade earlier conclusions.
 
----
+______________________________________________________________________
 
-# 30. Historical correction
+## 30. Historical correction
 
 Corrections should append rather than silently rewrite.
 
@@ -955,9 +955,9 @@ Correction:
 independence downgraded to SHARED_ROOT.
 ```
 
----
+______________________________________________________________________
 
-# 31. Correction object
+## 31. Correction object
 
 ```yaml
 historical_correction:
@@ -981,9 +981,9 @@ historical_correction:
     UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 32. Historical conflict
+## 32. Historical conflict
 
 Use `COMPETING` when two historical reconstructions cannot yet be resolved.
 
@@ -1007,9 +1007,9 @@ competing_history:
     COMPETING
 ```
 
----
+______________________________________________________________________
 
-# 33. Historical gap ontology
+## 33. Historical gap ontology
 
 Classify missing history:
 
@@ -1030,9 +1030,9 @@ unknown exact day of a documentation rename
 → COSMETIC
 ```
 
----
+______________________________________________________________________
 
-# 34. History gap object
+## 34. History gap object
 
 ```yaml
 historical_gap:
@@ -1058,9 +1058,9 @@ historical_gap:
     OPEN
 ```
 
----
+______________________________________________________________________
 
-# 35. AMOS_CORE evolution spine
+## 35. AMOS_CORE evolution spine
 
 The Generator subsystem should remain compatible with the broader AMOS_CORE lineage where relevant.
 
@@ -1089,9 +1089,9 @@ This spine is a reasoning/architecture lineage.
 
 It must not be misrepresented as evidence that every Generator runtime mechanism was literally implemented at each stage.
 
----
+______________________________________________________________________
 
-# 36. Generator impact of v4.4 lineage
+## 36. Generator impact of v4.4 lineage
 
 Potential Generator-relevant implications include:
 
@@ -1107,9 +1107,9 @@ finality separation
 
 Their actual implementation status remains `UNKNOWN/GAP` unless recovered.
 
----
+______________________________________________________________________
 
-# 37. History phase model
+## 37. History phase model
 
 A useful historical decomposition is:
 
@@ -1128,9 +1128,9 @@ H9 — HARDENED OPERATION
 
 These are descriptive model phases, not claims that AMOS has passed through each phase.
 
----
+______________________________________________________________________
 
-# 38. Current recoverable structural state
+## 38. Current recoverable structural state
 
 From the present artifact set, `12_GENERATORS` has conceptual surfaces for:
 
@@ -1148,9 +1148,9 @@ This establishes an addressable documentation topology.
 
 It does not establish runtime completion.
 
----
+______________________________________________________________________
 
-# 39. Current structural-history inference
+## 39. Current structural-history inference
 
 A defensible `DERIVED` observation is:
 
@@ -1165,9 +1165,9 @@ This is a documentation-architecture statement.
 
 It is not a claim that runtime features corresponding to those documents are implemented.
 
----
+______________________________________________________________________
 
-# 40. Current history state contract
+## 40. Current history state contract
 
 ```yaml
 current_generator_history_state:
@@ -1212,9 +1212,9 @@ current_generator_history_state:
     null
 ```
 
----
+______________________________________________________________________
 
-# 41. Historical source priority
+## 41. Historical source priority
 
 When reconstructing history, prefer:
 
@@ -1240,9 +1240,9 @@ memory
 inference
 ```
 
----
+______________________________________________________________________
 
-# 42. Repository history integration
+## 42. Repository history integration
 
 Where repository evidence exists, history may incorporate:
 
@@ -1258,9 +1258,9 @@ path
 
 But repository history alone does not prove deployed runtime history.
 
----
+______________________________________________________________________
 
-# 43. Drive revision history integration
+## 43. Drive revision history integration
 
 Drive revision history may establish:
 
@@ -1278,9 +1278,9 @@ deployment
 canon admission
 ```
 
----
+______________________________________________________________________
 
-# 44. Runtime receipt integration
+## 44. Runtime receipt integration
 
 Runtime receipts can provide stronger evidence for:
 
@@ -1293,9 +1293,9 @@ state changed
 
 provided receipt identity/integrity is valid.
 
----
+______________________________________________________________________
 
-# 45. Event history integration
+## 45. Event history integration
 
 Event Bus records may provide a partial order:
 
@@ -1308,9 +1308,9 @@ REQUESTED
 
 But event logs themselves require integrity validation.
 
----
+______________________________________________________________________
 
-# 46. Causal history firewall
+## 46. Causal history firewall
 
 Sequence does not prove causation.
 
@@ -1330,9 +1330,9 @@ CAUSES
 
 where supported.
 
----
+______________________________________________________________________
 
-# 47. Causal relation ontology
+## 47. Causal relation ontology
 
 ```text
 PRECEDES
@@ -1350,9 +1350,9 @@ ROLLS_BACK
 
 Use `CAUSES` only with adequate evidence.
 
----
+______________________________________________________________________
 
-# 48. State-transition history
+## 48. State-transition history
 
 Generator state transitions may be represented:
 
@@ -1367,9 +1367,9 @@ DRAFT
 
 but only actual evidenced transitions should be instantiated.
 
----
+______________________________________________________________________
 
-# 49. Governance history
+## 49. Governance history
 
 Track changes to:
 
@@ -1384,9 +1384,9 @@ security requirements
 
 because the same Generator version may have different admissibility under different policy epochs.
 
----
+______________________________________________________________________
 
-# 50. Policy epoch history
+## 50. Policy epoch history
 
 ```yaml
 policy_history:
@@ -1401,9 +1401,9 @@ policy_history:
       changes: []
 ```
 
----
+______________________________________________________________________
 
-# 51. Provenance epoch history
+## 51. Provenance epoch history
 
 ```yaml
 provenance_epoch_history:
@@ -1419,9 +1419,9 @@ provenance_epoch_history:
 
 Exact implementation remains `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
-# 52. Generator integration history
+## 52. Generator integration history
 
 Track when Generator relationships changed with:
 
@@ -1440,9 +1440,9 @@ Promotion Gates
 
 Integration addition is a historical event only when supported by evidence.
 
----
+______________________________________________________________________
 
-# 53. Worker-boundary history
+## 53. Worker-boundary history
 
 Particularly important questions:
 
@@ -1464,9 +1464,9 @@ UNKNOWN/GAP
 
 unless implementation evidence is recovered.
 
----
+______________________________________________________________________
 
-# 54. Event Bus history
+## 54. Event Bus history
 
 Track:
 
@@ -1480,9 +1480,9 @@ idempotency semantics
 
 if/when runtime evidence exists.
 
----
+______________________________________________________________________
 
-# 55. State model history
+## 55. State model history
 
 Potential evolution:
 
@@ -1495,9 +1495,9 @@ unversioned state
 
 This remains a MODEL until actual implementation history is recovered.
 
----
+______________________________________________________________________
 
-# 56. Atomicity history
+## 56. Atomicity history
 
 Track introduction or revision of:
 
@@ -1508,9 +1508,9 @@ rollback semantics
 partial failure semantics
 ```
 
----
+______________________________________________________________________
 
-# 57. Finality history
+## 57. Finality history
 
 Do not infer finality implementation from documentation.
 
@@ -1523,9 +1523,9 @@ epoch semantics
 finality semantics
 ```
 
----
+______________________________________________________________________
 
-# 58. Security history
+## 58. Security history
 
 Security-relevant history should preserve:
 
@@ -1539,9 +1539,9 @@ regression test
 residual risk
 ```
 
----
+______________________________________________________________________
 
-# 59. Incident record
+## 59. Incident record
 
 ```yaml
 generator_incident:
@@ -1572,9 +1572,9 @@ generator_incident:
     UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 60. Historical integrity invariants
+## 60. Historical integrity invariants
 
 ## I-GHIST-001 — No fabricated events
 
@@ -1628,9 +1628,9 @@ Historical claims apply only to evidenced scope.
 
 ## I-GHIST-016 — Local historical error invalidates only dependent interpretation
 
----
+______________________________________________________________________
 
-# 61. History workflow
+## 61. History workflow
 
 ```text
 HISTORICAL_QUESTION
@@ -1656,9 +1656,9 @@ PRESERVE GAPS / COMPETING
 EMIT HISTORY ENTRY
 ```
 
----
+______________________________________________________________________
 
-# 62. Historical admission workflow
+## 62. Historical admission workflow
 
 An event should enter authoritative history only through a governed path such as:
 
@@ -1678,9 +1678,9 @@ Current implementation:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 63. Historical correction workflow
+## 63. Historical correction workflow
 
 ```text
 CONTRADICTORY_EVIDENCE_DISCOVERED
@@ -1696,9 +1696,9 @@ RECLASSIFY DEPENDENT CLAIMS
 UPDATE CURRENT INTERPRETATION
 ```
 
----
+______________________________________________________________________
 
-# 64. History event envelope
+## 64. History event envelope
 
 ```yaml
 generator_history_event:
@@ -1726,9 +1726,9 @@ generator_history_event:
     UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 65. Historical receipts
+## 65. Historical receipts
 
 Potential receipt:
 
@@ -1758,9 +1758,9 @@ history_admission_receipt:
     UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 66. History Agents
+## 66. History Agents
 
 Possible non-authoritative roles:
 
@@ -1778,9 +1778,9 @@ Agents may reconstruct hypotheses.
 
 They do not create historical facts.
 
----
+______________________________________________________________________
 
-# 67. History Skills
+## 67. History Skills
 
 Potential Skills:
 
@@ -1796,9 +1796,9 @@ repair-generator-history
 build-generator-history-receipt
 ```
 
----
+______________________________________________________________________
 
-# 68. History Engine layer
+## 68. History Engine layer
 
 Possible Engine roles:
 
@@ -1813,9 +1813,9 @@ Historical Gap Engine
 
 These remain `MODEL` roles unless implemented.
 
----
+______________________________________________________________________
 
-# 69. History kernels
+## 69. History kernels
 
 Potential deterministic primitives:
 
@@ -1831,9 +1831,9 @@ detect_history_conflict()
 resolve_predecessor()
 ```
 
----
+______________________________________________________________________
 
-# 70. Worker boundary
+## 70. Worker boundary
 
 Historical reconstruction may be read-only.
 
@@ -1850,9 +1850,9 @@ Worker
 → durable history write
 ```
 
----
+______________________________________________________________________
 
-# 71. History validation
+## 71. History validation
 
 History should validate:
 
@@ -1869,9 +1869,9 @@ receipt integrity
 contradictions
 ```
 
----
+______________________________________________________________________
 
-# 72. History tests
+## 72. History tests
 
 Required classes:
 
@@ -1887,9 +1887,9 @@ correction test
 local invalidation test
 ```
 
----
+______________________________________________________________________
 
-# 73. Constitutional history tests
+## 73. Constitutional history tests
 
 ```text
 T-GHIST-001
@@ -1935,9 +1935,9 @@ one history entry corrected
 → unrelated entries remain valid
 ```
 
----
+______________________________________________________________________
 
-# 74. Adversarial history tests
+## 74. Adversarial history tests
 
 Attempt:
 
@@ -1964,9 +1964,9 @@ UNKNOWN/GAP
 
 as appropriate.
 
----
+______________________________________________________________________
 
-# 75. Historical failure modes
+## 75. Historical failure modes
 
 ```yaml
 failure_modes:
@@ -2037,9 +2037,9 @@ failure_modes:
       historical record treated as final canon automatically
 ```
 
----
+______________________________________________________________________
 
-# 76. Repair / recovery
+## 76. Repair / recovery
 
 ```text
 HISTORY DEFECT
@@ -2059,9 +2059,9 @@ RECLASSIFY DEPENDENT CLAIMS
 PRESERVE UNAFFECTED HISTORY
 ```
 
----
+______________________________________________________________________
 
-# 77. Selective historical invalidation
+## 77. Selective historical invalidation
 
 Example:
 
@@ -2088,9 +2088,9 @@ V2 test results
 unrelated V3 evidence
 ```
 
----
+______________________________________________________________________
 
-# 78. Historical tombstones
+## 78. Historical tombstones
 
 Deleted or deprecated components may retain:
 
@@ -2112,9 +2112,9 @@ history_tombstone:
   evidence_refs: []
 ```
 
----
+______________________________________________________________________
 
-# 79. Historical observability
+## 79. Historical observability
 
 Useful queries:
 
@@ -2136,9 +2136,9 @@ Which regressions caused rollback?
 Which historical claims remain disputed?
 ```
 
----
+______________________________________________________________________
 
-# 80. History metrics
+## 80. History metrics
 
 Potential metrics:
 
@@ -2157,17 +2157,17 @@ events_without_exact_time
 
 Metrics do not prove historical completeness.
 
----
+______________________________________________________________________
 
-# 81. Historical completeness
+## 81. Historical completeness
 
 A conceptual measure:
 
-[
+\[
 HistoryCompleteness =
-\frac{RecoveredRequiredEvents}
+\\frac{RecoveredRequiredEvents}
 {KnownRequiredEvents}
-]
+\]
 
 But:
 
@@ -2178,9 +2178,9 @@ But:
 
 because unknown unknowns may remain.
 
----
+______________________________________________________________________
 
-# 82. History freshness
+## 82. History freshness
 
 History itself can become stale when new archival evidence appears.
 
@@ -2200,9 +2200,9 @@ history_freshness:
     - canon lineage changed
 ```
 
----
+______________________________________________________________________
 
-# 83. Historical proof capsule
+## 83. Historical proof capsule
 
 ```yaml
 proof_capsule:
@@ -2238,9 +2238,9 @@ proof_capsule:
     - supersession correction
 ```
 
----
+______________________________________________________________________
 
-# 84. Historical RSCF model
+## 84. Historical RSCF model
 
 ```yaml
 rscf:
@@ -2309,9 +2309,9 @@ rscf:
     PLACEHOLDER
 ```
 
----
+______________________________________________________________________
 
-# 85. GMEF history state
+## 85. GMEF history state
 
 ```yaml
 gmef:
@@ -2358,9 +2358,9 @@ gmef:
     UNFINALIZED
 ```
 
----
+______________________________________________________________________
 
-# 86. Source / canon references
+## 86. Source / canon references
 
 ```yaml
 source_canon:
@@ -2388,9 +2388,9 @@ source_canon:
     status: UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 87. Dependency graph
+## 87. Dependency graph
 
 ```text
 12_GENERATORS/HISTORY
@@ -2420,9 +2420,9 @@ source_canon:
 └── FINALITY_LAYER
 ```
 
----
+______________________________________________________________________
 
-# 88. Related artifacts
+## 88. Related artifacts
 
 ```yaml
 related:
@@ -2484,9 +2484,9 @@ related:
     UNVERIFIED
 ```
 
----
+______________________________________________________________________
 
-# 89. Relation ontology
+## 89. Relation ontology
 
 ```text
 PRECEDES
@@ -2511,9 +2511,9 @@ COMPETING_WITH
 CONFLICTS_WITH
 ```
 
----
+______________________________________________________________________
 
-# 90. Completion status
+## 90. Completion status
 
 ```yaml
 completion_status:
@@ -2595,9 +2595,9 @@ completion_status:
     status: NOT_RUN
 ```
 
----
+______________________________________________________________________
 
-# 91. Gap registry
+## 91. Gap registry
 
 ```yaml
 gaps:
@@ -2632,9 +2632,9 @@ gaps:
     - nonsemantic rename dates
 ```
 
----
+______________________________________________________________________
 
-# 92. Hard boundaries
+## 92. Hard boundaries
 
 ```text
 PLACEHOLDER != COMPLETE_HISTORY
@@ -2682,9 +2682,9 @@ UNKNOWN_DATE != ESTIMATED_DATE
 UNKNOWN/GAP != PASS
 ```
 
----
+______________________________________________________________________
 
-# 93. Current historical decision
+## 93. Current historical decision
 
 ```yaml
 decision:
@@ -2724,9 +2724,9 @@ decision:
     - treat history file as final canon
 ```
 
----
+______________________________________________________________________
 
-# 94. Current reconstructed history ledger
+## 94. Current reconstructed history ledger
 
 ```yaml
 history_ledger:
@@ -2806,9 +2806,9 @@ history_ledger:
       OPEN
 ```
 
----
+______________________________________________________________________
 
-# 95. Current lineage interpretation
+## 95. Current lineage interpretation
 
 The most defensible current interpretation is:
 
@@ -2834,9 +2834,9 @@ This is a **documentation-topology derivation**.
 
 It is not a verified runtime evolution chronology.
 
----
+______________________________________________________________________
 
-# 96. Minimum evidence needed to promote history beyond placeholder
+## 96. Minimum evidence needed to promote history beyond placeholder
 
 ```text
 revision history for Generator artifacts
@@ -2859,9 +2859,9 @@ complete Generator history
 = UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 97. Final proof capsule
+## 97. Final proof capsule
 
 ```yaml
 proof_capsule:
@@ -2917,9 +2917,9 @@ proof_capsule:
     - NON_AUTHORITATIVE
 ```
 
----
+______________________________________________________________________
 
-# 98. Final conclusion
+## 98. Final conclusion
 
 **Claim**
 
@@ -3001,11 +3001,11 @@ UNKNOWN/GAP
 NON_AUTHORITATIVE
 ```
 
----
+______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[25_COGNITIVE_MATRIX/12_GENERATORS/00_INDEX/GENERATORS_MAP|GENERATORS_MAP]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]]
 
@@ -3023,7 +3023,7 @@ NON_AUTHORITATIVE
 - Authoritative State
 - Provenance Manifest
 
-```
+````
 
 The important structural distinction is now:
 
@@ -3048,22 +3048,24 @@ TESTS.md
 
 [[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_CONTRACT|GENERATOR_CONTRACT]].md
 → Generator semantics
-```
+````
 
 That prevents `HISTORY.md` from becoming a retrospective roadmap or a fabricated chronology. Its strongest AMOS property is that **missing history stays missing until provenance-bearing evidence closes the gap**.
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: generators_history
 node_type: note
 path: 25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_HISTORY.md
 RSCF-RELATIONS:
-  - INDEXED_BY:
-  - INDEXED_BY:
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY:
+- INDEXED_BY:
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:**
-
 
 ```

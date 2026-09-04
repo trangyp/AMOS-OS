@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: AMOS ETHICAL REASONING KERNEL V0 HUMAN SOCIETY4 2
 tags:
-- canon-group/human-system
-- canon/framework
-- rscf/claim
-- rscf/provenance
-- rscf/state/source-claim
-- topic/amos-ethical-reasoning-kernel-v0
-- kernel
+  - canon-group/human-system
+  - canon/framework
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - topic/amos-ethical-reasoning-kernel-v0
+  - kernel
 type: data
 source: 11_KNOWLEDGE/kernel
 rscf:
@@ -74,6 +77,6 @@ rscf:
 **Related:** [[11_KNOWLEDGE/kernel/GOVERNANCE_KERNEL|GOVERNANCE_KERNEL]] · [[11_KNOWLEDGE/kernel/AMOS_KERNEL_CONFIG_KERNEL|AMOS_KERNEL_CONFIG_KERNEL]] · [[11_KNOWLEDGE/kernel/IP_KERNEL_SHIELD_ARCHIVE_AMOS23|IP_KERNEL_SHIELD_ARCHIVE_AMOS23]] · [[11_KNOWLEDGE/kernel/LIFE_CORE_KERNEL|LIFE_CORE_KERNEL]]
 ```
 
----
-**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]
+______________________________________________________________________
 
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]

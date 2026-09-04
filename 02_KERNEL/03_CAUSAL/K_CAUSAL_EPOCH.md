@@ -17,62 +17,71 @@ scope: AMOS_OS
 created: 2026-08-25
 updated: 2026-08-25
 tags:
-- amos-os
-- kernel
-- core
-- canon-group/tech-ai
-- canon/model
-- kernel/causal
-- kernel/causal-epoch
-- kernel/causal-finality
-- kernel/dependency
-- kernel/provenance
-- kernel/state
-- kernel/regime
-- kernel/freshness
-- kernel/concurrency
-- kernel/rscf
-- kernel/validation
-- kernel/recovery
-- causal/epoch
-- causal/lineage
-- causal/finality
-- causal/closure
-- provenance/topology
-- provenance/persistence
-- state/authoritative
-- rscf/state/model
-- topic/causal-epoch
-- topic/causal-finality
-- topic/epoch-boundary
-- k-causal-closure
-- k-counterfactual
-- k-multi-hypothesis
-- k-metacognition
-- k-structural-reasoning
-- readme
-- architecture
-- authoritative-state
-- amos-core-laws
-- law-hierarchy
-- canon-provenance
-- source-lineage
-- supersession-log
-- k-core19-logic
-- k-meta-logic
+  - amos-os
+  - kernel
+  - core
+  - canon-group/tech-ai
+  - canon/model
+  - kernel/causal
+  - kernel/causal-epoch
+  - kernel/causal-finality
+  - kernel/dependency
+  - kernel/provenance
+  - kernel/state
+  - kernel/regime
+  - kernel/freshness
+  - kernel/concurrency
+  - kernel/rscf
+  - kernel/validation
+  - kernel/recovery
+  - causal/epoch
+  - causal/lineage
+  - causal/finality
+  - causal/closure
+  - provenance/topology
+  - provenance/persistence
+  - state/authoritative
+  - rscf/state/model
+  - topic/causal-epoch
+  - topic/causal-finality
+  - topic/epoch-boundary
+  - k-causal-closure
+  - k-counterfactual
+  - k-multi-hypothesis
+  - k-metacognition
+  - k-structural-reasoning
+  - readme
+  - architecture
+  - authoritative-state
+  - amos-core-laws
+  - law-hierarchy
+  - canon-provenance
+  - source-lineage
+  - supersession-log
+  - k-core19-logic
+  - k-meta-logic
 aliases:
-- AMOS Causal Epoch Kernel - Causal Epoch Kernel - K Causal Epoch - K_CAUSAL_EPOCH
+  - AMOS Causal Epoch Kernel - Causal Epoch Kernel - K Causal Epoch - K_CAUSAL_EPOCH
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
 ---
 
 # K CAUSAL EPOCH
+
 > **AMOS Core target:** `v4.4`
 > **Origin architect / steward:** Trang Phan
 > **Plane:** `02_KERNEL`
 > **Status:** `AMOS_MODEL`
 > **Conclusion class:** `AMOS_MODEL`
+
 ## Purpose
+
 `K_CAUSAL_EPOCH` defines the AMOS kernel model for establishing, identifying, validating, finalizing, superseding, and recovering **bounded causal epochs**.
 A causal epoch is a validity interval in which a defined causal state may be treated as internally coherent under an explicit set of:
+
 ```text
 CAUSAL DEPENDENCIES
 PROVENANCE
@@ -83,23 +92,20 @@ POLICY / AUTHORITY CONDITIONS
 TEMPORAL ASSUMPTIONS
 VALIDATION CONDITIONS
 ```
+
 The epoch provides a boundary around causal conclusions.
 It does **not** make those conclusions universally or permanently true.
 Core distinction:
+
 ```text
 FINALIZED_FOR_EPOCH
 !=
 ETERNALLY TRUE
 ```
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
----
 
+## rscf: state: DERIVED claim_class: DERIVED provenance: AMOS_corpus scope: AMOS_general
 
-# 1. Core Law
+## 1. Core Law
 
 For causal conclusion `C` evaluated within epoch `E`:
 
@@ -134,9 +140,9 @@ EPOCH VALIDITY
 UNIVERSAL VALIDITY
 ```
 
----
+______________________________________________________________________
 
-# 2. Why Causal Epochs Exist
+## 2. Why Causal Epochs Exist
 
 AMOS reasoning operates over systems that can change.
 
@@ -184,9 +190,9 @@ EPOCH E1
 REVALIDATE AFFECTED CONCLUSIONS
 ```
 
----
+______________________________________________________________________
 
-# 3. Hard Boundaries
+## 3. Hard Boundaries
 
 ```text
 EPOCH
@@ -246,9 +252,9 @@ UNKNOWN/GAP
 PASS
 ```
 
----
+______________________________________________________________________
 
-# 4. Causal Epoch Primitive
+## 4. Causal Epoch Primitive
 
 Conceptually:
 
@@ -290,9 +296,9 @@ causal_epoch:
   status:
 ```
 
----
+______________________________________________________________________
 
-# 5. Epoch Identity
+## 5. Epoch Identity
 
 Epoch identity must be explicit.
 
@@ -328,9 +334,9 @@ CE-000003
 
 The exact encoding is an implementation concern.
 
----
+______________________________________________________________________
 
-# 6. Epoch Lineage
+## 6. Epoch Lineage
 
 Epochs form lineage.
 
@@ -365,9 +371,9 @@ ERASES
 
 Previous epochs remain recoverable for provenance, replay, audit, and comparison.
 
----
+______________________________________________________________________
 
-# 7. Epoch Opening
+## 7. Epoch Opening
 
 An epoch opens when AMOS begins operating under a causally relevant state that is distinguishable from its predecessor.
 
@@ -390,9 +396,9 @@ PROVENANCE ANCHOR
 
 to be known or explicitly marked `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
-# 8. Epoch Boundary
+## 8. Epoch Boundary
 
 A causal epoch boundary occurs when a change can materially invalidate the causal assumptions of the active epoch.
 
@@ -413,9 +419,9 @@ CONFLICT RESOLUTION
 
 Not every event creates a new causal epoch.
 
----
+______________________________________________________________________
 
-# 9. Boundary Decision
+## 9. Boundary Decision
 
 For event `Δ`:
 
@@ -440,9 +446,9 @@ else:
     remain_in_epoch()
 ```
 
----
+______________________________________________________________________
 
-# 10. Non-Boundary Changes
+## 10. Non-Boundary Changes
 
 Examples that may not require a new causal epoch:
 
@@ -457,9 +463,9 @@ FORMATTING CHANGE
 
 provided they do not alter semantic identity, provenance, authority, or causal interpretation.
 
----
+______________________________________________________________________
 
-# 11. Causal State Snapshot
+## 11. Causal State Snapshot
 
 Each finalized epoch should conceptually bind a causal state snapshot.
 
@@ -476,9 +482,9 @@ This need not duplicate every underlying artifact.
 
 References or content-addressed bindings may be sufficient.
 
----
+______________________________________________________________________
 
-# 12. Dependency Snapshot
+## 12. Dependency Snapshot
 
 Epoch validity depends on load-bearing dependencies.
 
@@ -505,9 +511,9 @@ MAY REQUIRE
 REVALIDATION OR NEW EPOCH
 ```
 
----
+______________________________________________________________________
 
-# 13. Provenance Snapshot
+## 13. Provenance Snapshot
 
 A causal epoch should preserve provenance topology sufficient to reconstruct why its conclusions were accepted.
 
@@ -522,9 +528,9 @@ provenance_state:
 
 Where available.
 
----
+______________________________________________________________________
 
-# 14. Persistent Provenance
+## 14. Persistent Provenance
 
 Epoch transitions must not destroy historical provenance.
 
@@ -546,9 +552,9 @@ NEW EPOCH
 PROVENANCE RESET
 ```
 
----
+______________________________________________________________________
 
-# 15. Provenance Topology
+## 15. Provenance Topology
 
 The epoch should distinguish:
 
@@ -569,9 +575,9 @@ SOURCE_Z → CLAIM_D
 
 because evidence independence may affect causal confidence.
 
----
+______________________________________________________________________
 
-# 16. Sybil-Hardening Rule
+## 16. Sybil-Hardening Rule
 
 Multiple descendants of one provenance root remain one correlated ancestry family.
 
@@ -585,9 +591,9 @@ N INDEPENDENT SOURCES
 
 This remains true across epoch boundaries unless independent provenance is actually established.
 
----
+______________________________________________________________________
 
-# 17. Scope Binding
+## 17. Scope Binding
 
 Every causal epoch has a scope envelope.
 
@@ -605,9 +611,9 @@ scope:
 
 Claims finalized in the epoch inherit compatible scope constraints.
 
----
+______________________________________________________________________
 
-# 18. Scope Firewall
+## 18. Scope Firewall
 
 If:
 
@@ -630,9 +636,9 @@ S1 ⊆ S0
 
 or cross-scope transfer is independently validated.
 
----
+______________________________________________________________________
 
-# 19. Regime Binding
+## 19. Regime Binding
 
 Each causal epoch should bind its operative regime.
 
@@ -655,9 +661,9 @@ X ↛ Y
 
 Therefore regime is potentially load-bearing.
 
----
+______________________________________________________________________
 
-# 20. Regime Shift
+## 20. Regime Shift
 
 A detected regime shift is a primary causal-epoch boundary candidate.
 
@@ -671,9 +677,9 @@ E1 / R1
 
 Conclusions dependent on `R0` must not silently propagate into `R1`.
 
----
+______________________________________________________________________
 
-# 21. Temporal Binding
+## 21. Temporal Binding
 
 A causal epoch may have:
 
@@ -695,9 +701,9 @@ CAUSAL EPOCH CHANGED
 
 unless freshness or causal state changes make time material.
 
----
+______________________________________________________________________
 
-# 22. Freshness Binding
+## 22. Freshness Binding
 
 A causal premise may expire while the epoch otherwise remains stable.
 
@@ -717,9 +723,9 @@ EPOCH VALIDITY
 
 may require reopening or revalidation.
 
----
+______________________________________________________________________
 
-# 23. Causal Closure Integration
+## 23. Causal Closure Integration
 
 `K_CAUSAL_CLOSURE` determines the minimal load-bearing causal graph for a claim.
 
@@ -741,9 +747,9 @@ CC(C, E)
 
 means causal closure for claim `C` under epoch `E`.
 
----
+______________________________________________________________________
 
-# 24. Epoch-Specific Closure
+## 24. Epoch-Specific Closure
 
 It is possible that:
 
@@ -766,9 +772,9 @@ NEW PROVENANCE
 
 Therefore causal closure must not be assumed invariant across epochs.
 
----
+______________________________________________________________________
 
-# 25. Causal Epoch Finality
+## 25. Causal Epoch Finality
 
 A finalized epoch asserts:
 
@@ -792,9 +798,9 @@ rather than:
 ABSOLUTELY_FINAL
 ```
 
----
+______________________________________________________________________
 
-# 26. Finality Preconditions
+## 26. Finality Preconditions
 
 Conceptually:
 
@@ -818,9 +824,9 @@ AUTHORITY VALID
 
 where required for the intended action.
 
----
+______________________________________________________________________
 
-# 27. Unresolved Competing Hypotheses
+## 27. Unresolved Competing Hypotheses
 
 An epoch may be finalized while retaining competing hypotheses if convergence is not required.
 
@@ -841,9 +847,9 @@ THE DECISION DOES NOT REQUIRE
 FALSE CONVERGENCE.
 ```
 
----
+______________________________________________________________________
 
-# 28. Finality Does Not Erase COMPETING
+## 28. Finality Does Not Erase COMPETING
 
 ```text
 FINALIZED EPOCH
@@ -855,9 +861,9 @@ is allowed.
 
 Finality means the state of knowledge is fixed for the epoch, not that every uncertainty disappeared.
 
----
+______________________________________________________________________
 
-# 29. Finality Does Not Erase UNKNOWN
+## 29. Finality Does Not Erase UNKNOWN
 
 Likewise:
 
@@ -869,9 +875,9 @@ may remain in a finalized epoch when explicitly bounded and noncritical.
 
 Critical gaps that affect the authorized conclusion block finalization.
 
----
+______________________________________________________________________
 
-# 30. Gap Classes
+## 30. Gap Classes
 
 Use:
 
@@ -896,9 +902,9 @@ unless the final state itself is explicitly:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 31. Epoch Commit
+## 31. Epoch Commit
 
 A proposed epoch state is not committed merely because computation completed.
 
@@ -922,9 +928,9 @@ COMMIT
 FINALIZE
 ```
 
----
+______________________________________________________________________
 
-# 32. Authority Firewall
+## 32. Authority Firewall
 
 The kernel may determine:
 
@@ -942,9 +948,9 @@ CONTROL PLANE
 
 Actual authority to commit or promote state belongs to the appropriate control-plane contract.
 
----
+______________________________________________________________________
 
-# 33. Proposal vs Commit
+## 33. Proposal vs Commit
 
 ```text
 PROPOSED_EPOCH
@@ -964,9 +970,9 @@ Therefore:
 PROPOSAL != COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 34. MVCC Analogy
+## 34. MVCC Analogy
 
 AMOS causal epoch handling may use MVCC-like concepts.
 
@@ -984,9 +990,9 @@ UNTIL E5 IS COMMITTED
 
 This is an architectural reasoning pattern, not a claim that every AMOS runtime literally implements database MVCC.
 
----
+______________________________________________________________________
 
-# 35. Snapshot Isolation Concept
+## 35. Snapshot Isolation Concept
 
 Reasoning started against epoch `E_n` should know whether its load-bearing state changed before commit.
 
@@ -1008,9 +1014,9 @@ E_n+1
 
 revalidation may be required.
 
----
+______________________________________________________________________
 
-# 36. CAS Concept
+## 36. CAS Concept
 
 Conceptually:
 
@@ -1031,9 +1037,9 @@ else:
 
 This prevents stale reasoning from silently overwriting newer authoritative state.
 
----
+______________________________________________________________________
 
-# 37. CAS Failure
+## 37. CAS Failure
 
 A CAS-style failure is not necessarily a logical failure.
 
@@ -1055,9 +1061,9 @@ not:
 BLINDLY RETRY EVERYTHING
 ```
 
----
+______________________________________________________________________
 
-# 38. Atomic Multi-RSCF Epoch Reasoning
+## 38. Atomic Multi-RSCF Epoch Reasoning
 
 A causal epoch may depend on multiple RSCFs that must be evaluated consistently.
 
@@ -1079,9 +1085,9 @@ PARTIAL COMMIT
 
 must not create a falsely coherent causal state.
 
----
+______________________________________________________________________
 
-# 39. Atomicity Principle
+## 39. Atomicity Principle
 
 For a logically atomic causal transition:
 
@@ -1097,9 +1103,9 @@ NONE BECOME AUTHORITATIVE
 
 when partial state would violate invariants.
 
----
+______________________________________________________________________
 
-# 40. Causal Order
+## 40. Causal Order
 
 Epoch ordering must distinguish:
 
@@ -1121,9 +1127,9 @@ A → B
 
 then the system must preserve the dependency relation even when timestamps are close, delayed, or distributed.
 
----
+______________________________________________________________________
 
-# 41. Causal Lineage
+## 41. Causal Lineage
 
 For state transitions:
 
@@ -1139,9 +1145,9 @@ epoch lineage should preserve which state transitions depend on which earlier st
 
 This enables selective invalidation.
 
----
+______________________________________________________________________
 
-# 42. Epoch DAG
+## 42. Epoch DAG
 
 Not all causal lineage must be a simple chain.
 
@@ -1167,9 +1173,9 @@ DAG-LIKE
 
 when the architecture permits branching.
 
----
+______________________________________________________________________
 
-# 43. Branching Epochs
+## 43. Branching Epochs
 
 Branching may be appropriate for:
 
@@ -1183,9 +1189,9 @@ COUNTERFACTUAL STATE
 
 These branches must not automatically become authoritative.
 
----
+______________________________________________________________________
 
-# 44. Authoritative Epoch
+## 44. Authoritative Epoch
 
 At any authority scope, the system should be able to identify the currently accepted epoch.
 
@@ -1207,9 +1213,9 @@ AUTHORITATIVE EPOCH
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 45. Shadow Epoch
+## 45. Shadow Epoch
 
 A shadow epoch may be used for evaluation without authority.
 
@@ -1225,9 +1231,9 @@ PROMOTE OR DISCARD
 
 This supports reversible evolution.
 
----
+______________________________________________________________________
 
-# 46. Recovery Epoch
+## 46. Recovery Epoch
 
 A recovery path may establish:
 
@@ -1253,9 +1259,9 @@ E6
 
 History should preserve the failed `E5` rather than erase it.
 
----
+______________________________________________________________________
 
-# 47. Selective Invalidation
+## 47. Selective Invalidation
 
 If premise `P` fails:
 
@@ -1280,9 +1286,9 @@ INVALIDATE C1, C2
 PRESERVE C3
 ```
 
----
+______________________________________________________________________
 
-# 48. Epoch-Wide Invalidation
+## 48. Epoch-Wide Invalidation
 
 An entire epoch should be invalidated only when failure is sufficiently global.
 
@@ -1298,9 +1304,9 @@ SYSTEM-WIDE LOAD-BEARING INVARIANT FAILURE
 
 Global invalidation is last resort.
 
----
+______________________________________________________________________
 
-# 49. Recovery Law
+## 49. Recovery Law
 
 ```text
 INVALIDATE MINIMALLY
@@ -1316,9 +1322,9 @@ DELETE EVERYTHING
 RECOMPUTE EVERYTHING
 ```
 
----
+______________________________________________________________________
 
-# 50. Nearest Valid State
+## 50. Nearest Valid State
 
 Recovery should locate:
 
@@ -1344,9 +1350,9 @@ RECOVERY BASE = E2
 
 unless evidence requires an earlier boundary.
 
----
+______________________________________________________________________
 
-# 51. Causal Epoch Freshness
+## 51. Causal Epoch Freshness
 
 Each finalized conclusion should retain freshness semantics.
 
@@ -1361,9 +1367,9 @@ where applicable.
 
 A causal epoch can remain historically valid while becoming unsuitable for present reuse.
 
----
+______________________________________________________________________
 
-# 52. Historical Validity vs Current Validity
+## 52. Historical Validity vs Current Validity
 
 ```text
 VALID_AT(E0)
@@ -1379,9 +1385,9 @@ are different predicates.
 
 Historical preservation must not imply current applicability.
 
----
+______________________________________________________________________
 
-# 53. Epoch Reuse Gate
+## 53. Epoch Reuse Gate
 
 Reuse conclusion `C` from epoch `E0` only when:
 
@@ -1396,9 +1402,9 @@ NO MATERIAL CONFLICT
 
 Otherwise reopen or revalidate.
 
----
+______________________________________________________________________
 
-# 54. Fast Path
+## 54. Fast Path
 
 Epoch-local reasoning is eligible when:
 
@@ -1414,9 +1420,9 @@ NO CROSS-EPOCH LOAD-BEARING CHANGE EXISTS
 
 Then global coordination may be unnecessary.
 
----
+______________________________________________________________________
 
-# 55. Proof-Based Coordination Avoidance
+## 55. Proof-Based Coordination Avoidance
 
 Conceptually:
 
@@ -1436,9 +1442,9 @@ This is a coordination-avoidance reasoning principle.
 
 It is not a claim that AMOS has universally solved distributed consensus.
 
----
+______________________________________________________________________
 
-# 56. Cross-Shard Epoch Coupling
+## 56. Cross-Shard Epoch Coupling
 
 Suppose:
 
@@ -1457,9 +1463,9 @@ then independent local finalization may be insufficient.
 
 The cross-shard causal dependency becomes load-bearing.
 
----
+______________________________________________________________________
 
-# 57. Shard-Local Finalization
+## 57. Shard-Local Finalization
 
 Shard-local finalization is safe only when independence is demonstrated.
 
@@ -1475,9 +1481,9 @@ REGIME COMPATIBLE
 
 Independence must not be assumed from physical separation.
 
----
+______________________________________________________________________
 
-# 58. Epoch Conflict
+## 58. Epoch Conflict
 
 An epoch conflict exists when concurrent candidate transitions cannot both be accepted under the same authority scope.
 
@@ -1497,9 +1503,9 @@ CONFLICT
 
 must remain visible until resolved.
 
----
+______________________________________________________________________
 
-# 59. Conflict Firewall
+## 59. Conflict Firewall
 
 Do not silently select:
 
@@ -1514,9 +1520,9 @@ as the winner.
 
 Conflict resolution requires an explicit rule, evidence, or authority decision.
 
----
+______________________________________________________________________
 
-# 60. Competing Epochs
+## 60. Competing Epochs
 
 When two candidate epoch states have incomparable support:
 
@@ -1534,9 +1540,9 @@ COMPETING
 
 until discriminating evidence exists.
 
----
+______________________________________________________________________
 
-# 61. Discriminating Test
+## 61. Discriminating Test
 
 Prefer:
 
@@ -1550,9 +1556,9 @@ that distinguishes competing epoch states.
 
 Do not accumulate redundant evidence if it cannot change the decision.
 
----
+______________________________________________________________________
 
-# 62. Epoch Sensitivity
+## 62. Epoch Sensitivity
 
 Identify the smallest condition capable of forcing a new epoch.
 
@@ -1568,9 +1574,9 @@ ONE DEPENDENCY BECAME CROSS-SHARD
 
 These are high-sensitivity epoch conditions.
 
----
+______________________________________________________________________
 
-# 63. Epoch Stability
+## 63. Epoch Stability
 
 An epoch is comparatively stable when plausible perturbations of noncritical assumptions do not require:
 
@@ -1582,9 +1588,9 @@ DOWNGRADE
 
 Stability does not imply truth.
 
----
+______________________________________________________________________
 
-# 64. Epoch State Machine
+## 64. Epoch State Machine
 
 Recommended conceptual states:
 
@@ -1603,9 +1609,9 @@ RECOVERY
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 65. PROPOSED
+## 65. PROPOSED
 
 ```text
 PROPOSED
@@ -1613,9 +1619,9 @@ PROPOSED
 
 means a candidate epoch exists but carries no authoritative status.
 
----
+______________________________________________________________________
 
-# 66. OPEN
+## 66. OPEN
 
 ```text
 OPEN
@@ -1623,9 +1629,9 @@ OPEN
 
 means the epoch is active but causal closure or validation remains incomplete.
 
----
+______________________________________________________________________
 
-# 67. VALIDATING
+## 67. VALIDATING
 
 ```text
 VALIDATING
@@ -1633,9 +1639,9 @@ VALIDATING
 
 means required causal, provenance, dependency, scope, and regime checks are underway.
 
----
+______________________________________________________________________
 
-# 68. ELIGIBLE
+## 68. ELIGIBLE
 
 ```text
 ELIGIBLE
@@ -1645,9 +1651,9 @@ means kernel-level conditions for commit appear satisfied.
 
 It does not itself grant commit authority.
 
----
+______________________________________________________________________
 
-# 69. COMMITTED
+## 69. COMMITTED
 
 ```text
 COMMITTED
@@ -1655,9 +1661,9 @@ COMMITTED
 
 means the authorized control path accepted the epoch state.
 
----
+______________________________________________________________________
 
-# 70. FINALIZED_FOR_SCOPE
+## 70. FINALIZED_FOR_SCOPE
 
 ```text
 FINALIZED_FOR_SCOPE
@@ -1667,9 +1673,9 @@ means the committed epoch is closed for its declared applicability envelope.
 
 It does not imply universal finality.
 
----
+______________________________________________________________________
 
-# 71. STALE
+## 71. STALE
 
 ```text
 STALE
@@ -1677,9 +1683,9 @@ STALE
 
 means historical integrity remains, but present reuse requires revalidation.
 
----
+______________________________________________________________________
 
-# 72. SUPERSEDED
+## 72. SUPERSEDED
 
 ```text
 SUPERSEDED
@@ -1689,9 +1695,9 @@ means a later governed epoch replaced the epoch for current authoritative use.
 
 Superseded does not mean erroneous.
 
----
+______________________________________________________________________
 
-# 73. INVALIDATED
+## 73. INVALIDATED
 
 ```text
 INVALIDATED
@@ -1699,9 +1705,9 @@ INVALIDATED
 
 means a load-bearing failure undermined the epoch or relevant portion of its state.
 
----
+______________________________________________________________________
 
-# 74. RECOVERY
+## 74. RECOVERY
 
 ```text
 RECOVERY
@@ -1709,9 +1715,9 @@ RECOVERY
 
 means the system is rebuilding from a valid causal ancestor or unaffected state.
 
----
+______________________________________________________________________
 
-# 75. UNKNOWN/GAP
+## 75. UNKNOWN/GAP
 
 ```text
 UNKNOWN/GAP
@@ -1721,9 +1727,9 @@ means sufficient information to determine epoch state is absent.
 
 Never convert this to `PASS`.
 
----
+______________________________________________________________________
 
-# 76. Epoch Record
+## 76. Epoch Record
 
 Recommended conceptual schema:
 
@@ -1765,9 +1771,9 @@ causal_epoch_record:
   recovery_parent:
 ```
 
----
+______________________________________________________________________
 
-# 77. Epoch Proof Capsule
+## 77. Epoch Proof Capsule
 
 Important finalized epoch conclusions should conceptually preserve:
 
@@ -1795,9 +1801,9 @@ epoch_proof_capsule:
   confidence_ceiling:
 ```
 
----
+______________________________________________________________________
 
-# 78. Proof Capsule Reuse
+## 78. Proof Capsule Reuse
 
 Reuse only while:
 
@@ -1822,9 +1828,9 @@ or:
 REOPEN
 ```
 
----
+______________________________________________________________________
 
-# 79. Epoch Invariants
+## 79. Epoch Invariants
 
 ```text
 CE-01
@@ -1900,9 +1906,9 @@ CE-24
 UNKNOWN/GAP MUST NOT BECOME PASS
 ```
 
----
+______________________________________________________________________
 
-# 80. Failure Modes
+## 80. Failure Modes
 
 ```text
 EPOCH_ID_COLLISION
@@ -1931,9 +1937,9 @@ RECOVERY_FROM_INVALID_BASE
 UNKNOWN_AS_PASS
 ```
 
----
+______________________________________________________________________
 
-# 81. Conceptual Epoch Boundary Algorithm
+## 81. Conceptual Epoch Boundary Algorithm
 
 ```python
 def requires_new_causal_epoch(event, active_epoch):
@@ -1962,9 +1968,9 @@ def requires_new_causal_epoch(event, active_epoch):
 
 This is architectural pseudocode, not evidence of deployed implementation.
 
----
+______________________________________________________________________
 
-# 82. Conceptual Finalization Algorithm
+## 82. Conceptual Finalization Algorithm
 
 ```python
 def finalize_epoch(epoch, authority):
@@ -1986,9 +1992,9 @@ def finalize_epoch(epoch, authority):
     return epoch
 ```
 
----
+______________________________________________________________________
 
-# 83. Conceptual CAS Commit
+## 83. Conceptual CAS Commit
 
 ```python
 def commit_epoch(expected_epoch, candidate_epoch):
@@ -2005,9 +2011,9 @@ def commit_epoch(expected_epoch, candidate_epoch):
 
 Again, this expresses the v4.4 reasoning pattern rather than asserting a particular deployed storage mechanism.
 
----
+______________________________________________________________________
 
-# 84. Conceptual Selective Recovery
+## 84. Conceptual Selective Recovery
 
 ```python
 def recover_from_failure(failed_premise, epoch):
@@ -2021,9 +2027,9 @@ def recover_from_failure(failed_premise, epoch):
     return rebuild_only_affected_closure(base)
 ```
 
----
+______________________________________________________________________
 
-# 85. Relationship to [[02_KERNEL/03_CAUSAL/K_CAUSAL_CLOSURE|K_CAUSAL_CLOSURE]]
+## 85. Relationship to [[02_KERNEL/03_CAUSAL/K_CAUSAL_CLOSURE|K_CAUSAL_CLOSURE]]
 
 ```text
 K_CAUSAL_CLOSURE
@@ -2047,9 +2053,9 @@ CAUSAL VALIDITY INTERVAL
 EPOCH-BOUNDED CAUSAL CLAIM
 ```
 
----
+______________________________________________________________________
 
-# 86. Relationship to [[02_KERNEL/02_COGNITION/K_COUNTERFACTUAL|K_COUNTERFACTUAL]]
+## 86. Relationship to [[02_KERNEL/02_COGNITION/K_COUNTERFACTUAL|K_COUNTERFACTUAL]]
 
 Counterfactual branches should normally preserve their source epoch.
 
@@ -2061,9 +2067,9 @@ COUNTERFACTUAL BRANCH CF-E4-A
 
 The counterfactual branch must not silently replace authoritative epoch state.
 
----
+______________________________________________________________________
 
-# 87. Relationship to [[02_KERNEL/02_COGNITION/K_MULTI_HYPOTHESIS|K_MULTI_HYPOTHESIS]]
+## 87. Relationship to [[02_KERNEL/02_COGNITION/K_MULTI_HYPOTHESIS|K_MULTI_HYPOTHESIS]]
 
 Competing hypotheses may produce competing causal epoch candidates.
 
@@ -2074,9 +2080,9 @@ H2 → E5-B
 
 Preserve both until discriminating evidence or governed authority resolves the conflict.
 
----
+______________________________________________________________________
 
-# 88. Relationship to [[02_KERNEL/02_COGNITION/K_METACOGNITION|K_METACOGNITION]]
+## 88. Relationship to [[02_KERNEL/02_COGNITION/K_METACOGNITION|K_METACOGNITION]]
 
 `K_METACOGNITION` should challenge epoch validity for:
 
@@ -2091,9 +2097,9 @@ STALE WRITE
 UNAUTHORIZED COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 89. Relationship to [[02_KERNEL/02_COGNITION/K_STRUCTURAL_REASONING|K_STRUCTURAL_REASONING]]
+## 89. Relationship to [[02_KERNEL/02_COGNITION/K_STRUCTURAL_REASONING|K_STRUCTURAL_REASONING]]
 
 `K_STRUCTURAL_REASONING` identifies system structure.
 
@@ -2109,9 +2115,9 @@ CAUSAL CLOSURE
 CAUSAL EPOCH
 ```
 
----
+______________________________________________________________________
 
-# 90. Relationship to State
+## 90. Relationship to State
 
 The state plane stores:
 
@@ -2132,9 +2138,9 @@ STATE STORAGE
 CAUSAL VALIDITY
 ```
 
----
+______________________________________________________________________
 
-# 91. Relationship to Control Plane
+## 91. Relationship to Control Plane
 
 The control plane governs:
 
@@ -2160,9 +2166,9 @@ CONTROL_PLANE
 AUTHORIZATION / COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 92. Relationship to Runtime
+## 92. Relationship to Runtime
 
 The runtime may operationalize:
 
@@ -2184,9 +2190,9 @@ KERNEL
 DEFINES
 ```
 
----
+______________________________________________________________________
 
-# 93. Required Tests
+## 93. Required Tests
 
 Future implementation verification should include:
 
@@ -2214,9 +2220,9 @@ SUPERSESSION-LINEAGE TEST
 HISTORICAL-REPLAY TEST
 ```
 
----
+______________________________________________________________________
 
-# 94. Negative Tests
+## 94. Negative Tests
 
 ```text
 NEWER FILE
@@ -2285,9 +2291,9 @@ PASS
 MUST FAIL
 ```
 
----
+______________________________________________________________________
 
-# 95. Lifecycle
+## 95. Lifecycle
 
 ```text
 PLACEHOLDER
@@ -2313,9 +2319,9 @@ IMPLEMENTATION != VALIDATION
 VALIDATION != AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 96. Promotion Gate
+## 96. Promotion Gate
 
 Before promotion beyond `AMOS_MODEL`:
 
@@ -2351,9 +2357,9 @@ Until evidenced:
 IMPLEMENTATION_STATUS = UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 97. Integrity Note
+## 97. Integrity Note
 
 This artifact replaces a repository placeholder with a structured AMOS v4.4-aligned causal-epoch model.
 
@@ -2385,9 +2391,9 @@ FORMAL_VERIFICATION = UNKNOWN/GAP
 RUNTIME_AUTHORITY = NONE
 ```
 
----
+______________________________________________________________________
 
-# 98. RSCF Node
+## 98. RSCF Node
 
 ```RSCF-NODE
 node_id: AMOS-OS-K-CAUSAL-EPOCH
@@ -2438,9 +2444,9 @@ RSCF-RELATIONS:
   - VERIFIED_BY: README
 ```
 
----
+______________________________________________________________________
 
-# 99. Canonical Summary
+## 99. Canonical Summary
 
 ```text
 ACTIVE CAUSAL EPOCH
@@ -2582,13 +2588,14 @@ README
 ```text
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
-**MOC:** [[02_KERNEL/03_CAUSAL/03_CAUSAL_MOC|03_CAUSAL_MOC]]
+______________________________________________________________________
 
+**MOC:** [[02_KERNEL/03_CAUSAL/03_CAUSAL_MOC|03_CAUSAL_MOC]]

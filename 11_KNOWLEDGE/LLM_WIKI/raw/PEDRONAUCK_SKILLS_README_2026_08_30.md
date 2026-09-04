@@ -1,4 +1,7 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 date: 2026-08-30
 epistemic_class: OBSERVATION
 provenance: GitHub README, not independently verified
@@ -10,11 +13,12 @@ rscf:
 source: https://raw.githubusercontent.com/pedronauck/skills/main/README.md
 title: Pedro Nauck Skills README — Raw Capture
 ---
+
 # Pedro Nauck Skills README — Raw Capture
 
 Source: `https://github.com/pedronauck/skills`
 
-# Pedro Nauck's Skills
+## Pedro Nauck's Skills
 
 A curated collection of **131 agent skills** for Claude Code and compatible AI coding assistants — **38 original** (⭐️), **29 hand-picked** (💎), **18 marketing & business** (📣), plus **46 community** skills. Each skill provides domain-specific knowledge, best practices, and guided workflows that enhance an agent's ability to perform specialized tasks.
 
@@ -33,10 +37,10 @@ npx skills add https://github.com/pedronauck/skills
 Use the `owner/repo/<subpath>` shorthand to install only one bucket:
 
 ```bash
-# Only the original skills
+## Only the original skills
 npx skills add pedronauck/skills/skills/mine
 
-# Only the curated skills
+## Only the curated skills
 npx skills add pedronauck/skills/skills/curated
 ```
 
@@ -51,10 +55,10 @@ npx skills add pedronauck/skills/skills/mine --skill react
 Copy or symlink the skills you need into your Claude Code configuration:
 
 ```bash
-# Copy a single skill
+## Copy a single skill
 cp -r skills/mine/react ~/.claude/skills/react
 
-# Or symlink an entire bucket
+## Or symlink an entire bucket
 ln -s $(pwd)/skills/mine ~/.claude/skills/mine
 ```
 
@@ -75,7 +79,7 @@ Skills are structured instruction sets that give AI agents deep expertise in spe
 
 ## Skill Catalog
 
-> ⭐️ = original skill authored in this repository &nbsp;·&nbsp; 💎 = hand-picked community skill &nbsp;·&nbsp; 📣 = marketing & business skill
+> ⭐️ = original skill authored in this repository  ·  💎 = hand-picked community skill  ·  📣 = marketing & business skill
 
 ### Mine ⭐️
 
@@ -257,9 +261,9 @@ To add a new skill:
    - `skills/curated/` — hand-picked, high-quality community skills you maintain
    - `skills/marketing/` — marketing, sales, business, or writing skills
    - `skills/community/` — broader community skills
-2. Add a `SKILL.md` with proper frontmatter (`name` and `description` fields)
-3. Include reference material, examples, and templates as needed
-4. Follow the conventions documented in `skills/mine/writing-skills/SKILL.md`
+1. Add a `SKILL.md` with proper frontmatter (`name` and `description` fields)
+1. Include reference material, examples, and templates as needed
+1. Follow the conventions documented in `skills/mine/writing-skills/SKILL.md`
 
 ## License
 

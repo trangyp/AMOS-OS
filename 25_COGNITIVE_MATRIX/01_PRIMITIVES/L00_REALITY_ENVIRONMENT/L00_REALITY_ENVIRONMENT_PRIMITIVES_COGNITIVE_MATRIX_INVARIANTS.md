@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: L00_REALITY_ENVIRONMENT — Invariants
 type: invariant
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT
 tags:
-- cognitive-matrix
-- primitives
-- matrix/l00-reality-environment
-- note
-- domain/cognitive-matrix
+  - cognitive-matrix
+  - primitives
+  - matrix/l00-reality-environment
+  - note
+  - domain/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -21,9 +24,9 @@ rscf:
 **Origin architect / steward:** Trang Phan
 **Status:** `ARCHITECTURE CONTRACT / IMPLEMENTATION-DEPENDENT`
 
----
+______________________________________________________________________
 
-# 1. Purpose
+## 1. Purpose
 
 `L00_REALITY_ENVIRONMENT / INVARIANTS` defines the conditions that must remain true while AMOS:
 
@@ -48,32 +51,29 @@ It is the constraint surface separating admissible AMOS state transitions from t
 
 The governing relation is:
 
-[
-\boxed{
-ValidTransition
-===============
+## \[ \\boxed{ ValidTransition
 
 ProposedTransition
-\land
-\bigwedge_{i=1}^{n} I_i
+\\land
+\\bigwedge\_{i=1}^{n} I_i
 }
-]
+\]
 
-where \(I_i\) is every load-bearing invariant applicable to the transition.
+where (I_i) is every load-bearing invariant applicable to the transition.
 
 If any hard invariant fails:
 
-[
-\boxed{
+\[
+\\boxed{
 HardInvariantFailure
-\Rightarrow
+\\Rightarrow
 TransitionBlocked
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 2. Architectural Position
+## 2. Architectural Position
 
 ```text
 EXTERNAL REALITY / ENVIRONMENT
@@ -107,9 +107,9 @@ EXTERNAL REALITY / ENVIRONMENT
 
 The invariant architecture constrains every transition in this loop.
 
----
+______________________________________________________________________
 
-# 3. Primary Reality Distinctions
+## 3. Primary Reality Distinctions
 
 AMOS must preserve the following distinctions:
 
@@ -147,16 +147,13 @@ ACTION
 
 Collapsing these distinctions destroys the ability to determine what AMOS actually knows versus what it represents, predicts, proposes, or causes.
 
----
+______________________________________________________________________
 
-# 4. Reality Representation Tensor
+## 4. Reality Representation Tensor
 
-[
-\boxed{
-T_R
-===
+## \[ \\boxed{ T_R
 
-T[
+T\[
 object,
 representation_class,
 state,
@@ -169,9 +166,9 @@ provenance,
 confidence,
 uncertainty,
 consequence
-]
+\]
 }
-]
+\]
 
 Valid representation classes include:
 
@@ -190,18 +187,15 @@ DEPLOYED_OUTCOME
 UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 5. Invariant Tensor
+## 5. Invariant Tensor
 
 Every invariant is itself represented as a typed object:
 
-[
-\boxed{
-T_I
-===
+## \[ \\boxed{ T_I
 
-T[
+T\[
 invariant_id,
 class,
 predicate,
@@ -216,15 +210,15 @@ validator,
 falsifier,
 repair,
 provenance
-]
+\]
 }
-]
+\]
 
 This prevents invariants from becoming unscoped prose rules.
 
----
+______________________________________________________________________
 
-# 6. Invariant Classes
+## 6. Invariant Classes
 
 ```text
 IDENTITY
@@ -250,31 +244,31 @@ CONSEQUENCE
 REALITY_CONTACT
 ```
 
----
+______________________________________________________________________
 
-# 7. Hard vs Conditional Invariants
+## 7. Hard vs Conditional Invariants
 
 ## Hard invariant
 
 A hard invariant defines an inadmissible state.
 
-[
-\neg I_{hard}\(X\)
-\Rightarrow
+\[
+\\neg I\_{hard}(X)
+\\Rightarrow
 Reject(X)
-]
+\]
 
 ## Conditional invariant
 
 A conditional invariant applies only inside its declared applicability envelope.
 
-[
+\[
 Applicable(I,X)
-\land
-\neg I(X)
-\Rightarrow
+\\land
+\\neg I(X)
+\\Rightarrow
 Reject(X)
-]
+\]
 
 Therefore:
 
@@ -283,18 +277,15 @@ INVARIANT WITHOUT SCOPE
 != UNIVERSAL LAW
 ```
 
----
+______________________________________________________________________
 
-# 8. Applicability Envelope
+## 8. Applicability Envelope
 
 Each invariant must bind to:
 
-[
-\boxed{
-A_I
-===
+## \[ \\boxed{ A_I
 
-[
+\[
 system,
 scale,
 scope,
@@ -302,23 +293,23 @@ regime,
 time,
 observer,
 operation
-]
+\]
 }
-]
+\]
 
 An invariant may not silently expand beyond this envelope.
 
----
+______________________________________________________________________
 
-# 9. INV-R01 — Reality / Representation Separation
+## 9. INV-R01 — Reality / Representation Separation
 
-[
-\boxed{
+\[
+\\boxed{
 Representation(x)
-\neq
+\\neq
 Reality(x)
 }
-]
+\]
 
 A representation may correspond to reality, but representation existence alone does not establish external existence.
 
@@ -326,48 +317,45 @@ A representation may correspond to reality, but representation existence alone d
 MODEL STATE != OBSERVED REALITY
 ```
 
----
+______________________________________________________________________
 
-# 10. INV-R02 — Observation / Reality Separation
+## 10. INV-R02 — Observation / Reality Separation
 
-[
-\boxed{
+\[
+\\boxed{
 Observation(x)
-\neq
+\\neq
 x
 }
-]
+\]
 
 An observation is observer-, method-, time-, and access-conditioned information about an object or state.
 
----
+______________________________________________________________________
 
-# 11. INV-R03 — Measurement Preservation
+## 11. INV-R03 — Measurement Preservation
 
 A measured value must retain its measurement semantics.
 
-[
-\boxed{
-M
-=
+## \[ \\boxed{ M
 
 (value,unit,method,time,observer)
 }
-]
+\]
 
 Removing any load-bearing component may change the meaning of the measurement.
 
----
+______________________________________________________________________
 
-# 12. INV-R04 — Proxy Firewall
+## 12. INV-R04 — Proxy Firewall
 
-[
-\boxed{
+\[
+\\boxed{
 Proxy(x)
-\neq
+\\neq
 Construct(x)
 }
-]
+\]
 
 A proxy measurement must not silently become the thing it approximates.
 
@@ -383,25 +371,25 @@ CONFIDENCE SCORE != TRUTH
 SIMILARITY SCORE != SEMANTIC IDENTITY
 ```
 
----
+______________________________________________________________________
 
-# 13. INV-R05 — Evidence / Truth Separation
+## 13. INV-R05 — Evidence / Truth Separation
 
-[
-\boxed{
+\[
+\\boxed{
 EvidenceFor(c)
-\neq
+\\neq
 Truth(c)
 }
-]
+\]
 
 Evidence changes warranted support for a claim.
 
 It does not logically become the claim's truth value.
 
----
+______________________________________________________________________
 
-# 14. INV-R06 — Source Claim / Observation Separation
+## 14. INV-R06 — Source Claim / Observation Separation
 
 ```text
 SOURCE CLAIM != OBSERVATION
@@ -409,65 +397,65 @@ SOURCE CLAIM != OBSERVATION
 
 A document saying an event occurred is not identical to direct observation of the event.
 
----
+______________________________________________________________________
 
-# 15. INV-R07 — Derived / Observed Separation
+## 15. INV-R07 — Derived / Observed Separation
 
-[
-\boxed{
+\[
+\\boxed{
 DERIVED
-\neq
+\\neq
 OBSERVED
 }
-]
+\]
 
 Derived information must retain the dependency path from which it was constructed.
 
----
+______________________________________________________________________
 
-# 16. INV-R08 — Simulation / Reality Separation
+## 16. INV-R08 — Simulation / Reality Separation
 
-[
-\boxed{
+\[
+\\boxed{
 SimulationState
-\neq
+\\neq
 ObservedReality
 }
-]
+\]
 
 Simulation success does not independently prove deployment behavior.
 
----
+______________________________________________________________________
 
-# 17. INV-R09 — Counterfactual Separation
+## 17. INV-R09 — Counterfactual Separation
 
-[
-\boxed{
+\[
+\\boxed{
 Counterfactual
-\neq
+\\neq
 Observation
 }
-]
+\]
 
 Counterfactual states must remain marked as unrealized alternatives.
 
----
+______________________________________________________________________
 
-# 18. INV-R10 — Forecast / Outcome Separation
+## 18. INV-R10 — Forecast / Outcome Separation
 
-[
-\boxed{
-Forecast_{t_0}(X_{t_1})
-\neq
-Observed(X_{t_1})
+\[
+\\boxed{
+Forecast\_{t_0}(X\_{t_1})
+\\neq
+Observed(X\_{t_1})
 }
-]
+\]
 
 until the outcome is actually observed.
 
----
+______________________________________________________________________
 
-# 19. INV-R11 — Synthetic / Empirical Separation
+## 19. INV-R11 — Synthetic / Empirical Separation
 
 ```text
 SYNTHETIC DATA != EMPIRICAL OBSERVATION
@@ -475,51 +463,51 @@ SYNTHETIC DATA != EMPIRICAL OBSERVATION
 
 Synthetic information may support model testing but must retain synthetic provenance.
 
----
+______________________________________________________________________
 
-# 20. INV-P01 — Provenance Preservation
+## 20. INV-P01 — Provenance Preservation
 
 Every material claim must retain recoverable provenance.
 
-[
-\boxed{
+\[
+\\boxed{
 Claim(c)
-\Rightarrow
+\\Rightarrow
 RecoverableProv(c)
 }
-]
+\]
 
 where provenance is required for the claimed epistemic status.
 
----
+______________________________________________________________________
 
-# 21. INV-P02 — Transformation Lineage
+## 21. INV-P02 — Transformation Lineage
 
 For transformation:
 
-[
+\[
 Y=f(X)
-]
+\]
 
 the output must preserve reference to the relevant source lineage:
 
-[
-\boxed{
+\[
+\\boxed{
 Prov(Y)
-\supseteq
+\\supseteq
 Reference(Prov(X))
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 22. INV-P03 — Compression Preservation
+## 22. INV-P03 — Compression Preservation
 
 For compression:
 
-[
-C(X)\rightarrow X'
-]
+\[
+C(X)\\rightarrow X'
+\]
 
 the following must survive when load-bearing:
 
@@ -536,85 +524,85 @@ invalidation conditions
 
 Therefore:
 
-[
-\boxed{
+\[
+\\boxed{
 Compression
-\neq
+\\neq
 EpistemicErasure
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 23. INV-P04 — Independence Must Be Demonstrated
+## 23. INV-P04 — Independence Must Be Demonstrated
 
-[
-\boxed{
+\[
+\\boxed{
 UnknownAncestry
-\neq
+\\neq
 IndependentEvidence
 }
-]
+\]
 
 Independence is a positive property requiring sufficient provenance information.
 
----
+______________________________________________________________________
 
-# 24. INV-P05 — Shared Ancestry Does Not Multiply Evidence
+## 24. INV-P05 — Shared Ancestry Does Not Multiply Evidence
 
 If:
 
-[
+\[
 Ancestor(E_1)=Ancestor(E_2)=A
-]
+\]
 
 then:
 
-[
-\boxed{
+\[
+\\boxed{
 E_1+E_2
-\not\equiv
-2\ IndependentConfirmations
+\\not\\equiv
+2\\ IndependentConfirmations
 }
-]
+\]
 
 unless relevant independence exists after the shared ancestor.
 
----
+______________________________________________________________________
 
-# 25. INV-P06 — Revocation Propagation
+## 25. INV-P06 — Revocation Propagation
 
-If source \(E\) is revoked or invalidated:
+If source (E) is revoked or invalidated:
 
-[
-\boxed{
+\[
+\\boxed{
 Invalidate(E)
-\Rightarrow
-Revalidate(Desc_{LB}\(E\))
+\\Rightarrow
+Revalidate(Desc\_{LB}(E))
 }
-]
+\]
 
 where `Desc_LB` denotes load-bearing descendants.
 
----
+______________________________________________________________________
 
-# 26. INV-S01 — Scope Preservation
+## 26. INV-S01 — Scope Preservation
 
 Every claim inherits its applicability scope.
 
-[
-\boxed{
+\[
+\\boxed{
 Scope(DerivedClaim)
-\subseteq
+\\subseteq
 ValidScope(Premises)
 }
-]
+\]
 
 unless an independently justified generalization expands it.
 
----
+______________________________________________________________________
 
-# 27. INV-S02 — No Silent Generalization
+## 27. INV-S02 — No Silent Generalization
 
 ```text
 LOCAL EVIDENCE
@@ -635,93 +623,87 @@ time interval
 
 cannot silently become universal.
 
----
+______________________________________________________________________
 
-# 28. INV-S03 — Scale Does Not Expand Scope
+## 28. INV-S03 — Scale Does Not Expand Scope
 
-[
-\boxed{
-L\rightarrow M\rightarrow H
-\not\Rightarrow
+\[
+\\boxed{
+L\\rightarrow M\\rightarrow H
+\\not\\Rightarrow
 ScopeExpansion
 }
-]
+\]
 
 Aggregation changes resolution, not automatically applicability.
 
----
+______________________________________________________________________
 
-# 29. INV-G01 — Regime Preservation
+## 29. INV-G01 — Regime Preservation
 
 Every material claim carries its regime.
 
-[
-\boxed{
-Claim
-=====
+## \[ \\boxed{ Claim
 
 Claim[regime]
 }
-]
+\]
 
 when regime affects validity.
 
----
+______________________________________________________________________
 
-# 30. INV-G02 — Regime Transfer Requires Validation
+## 30. INV-G02 — Regime Transfer Requires Validation
 
 For:
 
-[
-r_1\rightarrow r_2
-]
+\[
+r_1\\rightarrow r_2
+\]
 
 reuse requires:
 
-[
-\boxed{
+\[
+\\boxed{
 Compatible(r_1,r_2)
-\lor
+\\lor
 Revalidated(c,r_2)
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 31. INV-G03 — Regime Shift Invalidates Stale Assumptions
+## 31. INV-G03 — Regime Shift Invalidates Stale Assumptions
 
-[
-\boxed{
+\[
+\\boxed{
 RegimeShift
-\Rightarrow
+\\Rightarrow
 Revalidate(AffectedDependencies)
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 32. INV-T01 — Event Time / Observation Time Separation
+## 32. INV-T01 — Event Time / Observation Time Separation
 
-[
-\boxed{
-t_{event}
-\neq
-t_{observation}
+\[
+\\boxed{
+t\_{event}
+\\neq
+t\_{observation}
 }
-]
+\]
 
 unless explicitly equal.
 
 This matters for delayed reporting, asynchronous tools, historical evidence, and distributed systems.
 
----
+______________________________________________________________________
 
-# 33. INV-T02 — Freshness Is Claim-Relative
+## 33. INV-T02 — Freshness Is Claim-Relative
 
-[
-\boxed{
-Fresh(E,c)
-==========
+## \[ \\boxed{ Fresh(E,c)
 
 f(
 age(E),
@@ -730,13 +712,13 @@ regime,
 decisionHorizon
 )
 }
-]
+\]
 
 Freshness is not a universal scalar independent of the claim.
 
----
+______________________________________________________________________
 
-# 34. INV-T03 — Stale Evidence Cannot Masquerade as Current State
+## 34. INV-T03 — Stale Evidence Cannot Masquerade as Current State
 
 ```text
 VALID THEN != VALID NOW
@@ -744,91 +726,91 @@ VALID THEN != VALID NOW
 
 when the underlying state is mutable.
 
----
+______________________________________________________________________
 
-# 35. INV-C01 — Correlation / Causation Firewall
+## 35. INV-C01 — Correlation / Causation Firewall
 
-[
-\boxed{
+\[
+\\boxed{
 Correlation(X,Y)
-\not\Rightarrow
+\\not\\Rightarrow
 Cause(X,Y)
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 36. INV-C02 — Sequence / Causation Firewall
+## 36. INV-C02 — Sequence / Causation Firewall
 
-[
-\boxed{
-X\ precedes\ Y
-\not\Rightarrow
-X\ causes\ Y
+\[
+\\boxed{
+X\\ precedes\\ Y
+\\not\\Rightarrow
+X\\ causes\\ Y
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 37. INV-C03 — Structural Similarity / Causation Firewall
+## 37. INV-C03 — Structural Similarity / Causation Firewall
 
-[
-\boxed{
-Structure(A)\approx Structure(B)
-\not\Rightarrow
+\[
+\\boxed{
+Structure(A)\\approx Structure(B)
+\\not\\Rightarrow
 Mechanism(A)=Mechanism(B)
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 38. INV-C04 — Constraint / Cause Separation
+## 38. INV-C04 — Constraint / Cause Separation
 
-[
-\boxed{
+\[
+\\boxed{
 Constrains(X,Y)
-\neq
+\\neq
 Causes(X,Y)
 }
-]
+\]
 
 A rule defining admissible state does not automatically describe the mechanism generating state.
 
----
+______________________________________________________________________
 
-# 39. INV-C05 — Necessary / Sufficient Separation
+## 39. INV-C05 — Necessary / Sufficient Separation
 
-[
-\boxed{
+\[
+\\boxed{
 Necessary(X,Y)
-\neq
+\\neq
 Sufficient(X,Y)
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 40. INV-C06 — Mediator / Cause Separation
+## 40. INV-C06 — Mediator / Cause Separation
 
 A mediator relation must not automatically be promoted into the unique causal explanation.
 
----
+______________________________________________________________________
 
-# 41. INV-C07 — Confounder Visibility
+## 41. INV-C07 — Confounder Visibility
 
 If plausible confounding remains unresolved, causal confidence must remain bounded.
 
-[
-\boxed{
+\[
+\\boxed{
 UnresolvedConfounding
-\Rightarrow
-CausalConfidence<C_{max}
+\\Rightarrow
+CausalConfidence\<C\_{max}
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 42. INV-HML01 — Scale Distinction
+## 42. INV-HML01 — Scale Distinction
 
 ```text
 H != M != L
@@ -836,107 +818,107 @@ H != M != L
 
 unless equivalence is explicitly justified for the operation.
 
----
+______________________________________________________________________
 
-# 43. INV-HML02 — Aggregation / Identity Separation
+## 43. INV-HML02 — Aggregation / Identity Separation
 
-[
-\boxed{
+\[
+\\boxed{
 Aggregate(X)
-\neq
+\\neq
 X
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 44. INV-HML03 — Aggregation / Causation Separation
+## 44. INV-HML03 — Aggregation / Causation Separation
 
-[
-\boxed{
+\[
+\\boxed{
 Aggregation
-\neq
+\\neq
 CausalProof
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 45. INV-HML04 — Local Correlation / Macro Cause Separation
+## 45. INV-HML04 — Local Correlation / Macro Cause Separation
 
-[
-\boxed{
+\[
+\\boxed{
 Correlation_L
-\not\Rightarrow
+\\not\\Rightarrow
 Causation_H
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 46. INV-HML05 — Macro Stability Does Not Prove Local Stability
+## 46. INV-HML05 — Macro Stability Does Not Prove Local Stability
 
-[
-\boxed{
+\[
+\\boxed{
 Stable_H
-\not\Rightarrow
-\forall l,\ Stable_L(l)
+\\not\\Rightarrow
+\\forall l,\\ Stable_L(l)
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 47. INV-HML06 — Local Success Does Not Prove System Success
+## 47. INV-HML06 — Local Success Does Not Prove System Success
 
-[
-\boxed{
+\[
+\\boxed{
 Success_L
-\not\Rightarrow
+\\not\\Rightarrow
 Success_H
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 48. INV-HML07 — Decision-Relevant Heterogeneity Preservation
+## 48. INV-HML07 — Decision-Relevant Heterogeneity Preservation
 
-[
-\boxed{
+\[
+\\boxed{
 Relevant(Heterogeneity_L)
-\Rightarrow
+\\Rightarrow
 Preserve(Heterogeneity_L)
 }
-]
+\]
 
 Aggregation may not erase variation required for downstream decisions.
 
----
+______________________________________________________________________
 
-# 49. INV-HML08 — Cross-Scale Provenance Preservation
+## 49. INV-HML08 — Cross-Scale Provenance Preservation
 
 For:
 
-[
-L\rightarrow M\rightarrow H
-]
+\[
+L\\rightarrow M\\rightarrow H
+\]
 
 the resulting H state must retain recoverable lineage to its material L and M dependencies.
 
----
+______________________________________________________________________
 
-# 50. INV-HML09 — Downward Constraint / Causation Separation
+## 50. INV-HML09 — Downward Constraint / Causation Separation
 
-[
-\boxed{
-C_{H\rightarrow M}
-\neq
-Cause_{H\rightarrow M}
+\[
+\\boxed{
+C\_{H\\rightarrow M}
+\\neq
+Cause\_{H\\rightarrow M}
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 51. INV-E01 — Claim Classification Preservation
+## 51. INV-E01 — Claim Classification Preservation
 
 Every material claim must remain typed as one of:
 
@@ -951,9 +933,9 @@ UNKNOWN
 
 Classification may change only through an explicit admissible transition.
 
----
+______________________________________________________________________
 
-# 52. INV-E02 — Conclusion Strength Ceiling
+## 52. INV-E02 — Conclusion Strength Ceiling
 
 Conclusion classes include:
 
@@ -968,26 +950,26 @@ UNKNOWN/GAP
 
 The system must choose the weakest accurate class.
 
----
+______________________________________________________________________
 
-# 53. INV-E03 — Confidence Ceiling
+## 53. INV-E03 — Confidence Ceiling
 
 For conclusion (c):
 
-[
-\boxed{
+\[
+\\boxed{
 Conf(c)
-\leq
-\min_{p\in P_c}
+\\leq
+\\min\_{p\\in P_c}
 Conf(p)
 }
-]
+\]
 
 for unresolved load-bearing premises unless independently revalidated.
 
----
+______________________________________________________________________
 
-# 54. INV-E04 — Processing Does Not Manufacture Confidence
+## 54. INV-E04 — Processing Does Not Manufacture Confidence
 
 ```text
 MORE REASONING STEPS
@@ -1011,31 +993,31 @@ MORE WORDS
 HIGHER CONFIDENCE
 ```
 
----
+______________________________________________________________________
 
-# 55. INV-E05 — Contradiction Preservation
+## 55. INV-E05 — Contradiction Preservation
 
 If two materially supported claims conflict:
 
-[
-\boxed{
+\[
+\\boxed{
 Contradiction(A,B)
-\Rightarrow
+\\Rightarrow
 Preserve(A,B,Conflict)
 }
-]
+\]
 
 until discriminating evidence resolves the conflict.
 
----
+______________________________________________________________________
 
-# 56. INV-E06 — Competing Hypothesis Preservation
+## 56. INV-E06 — Competing Hypothesis Preservation
 
 If:
 
-[
-H_1,H_2,\ldots,H_n
-]
+\[
+H_1,H_2,\\ldots,H_n
+\]
 
 remain materially viable and evidence cannot discriminate them:
 
@@ -1045,70 +1027,67 @@ status: COMPETING
 
 Forced convergence is prohibited.
 
----
+______________________________________________________________________
 
-# 57. INV-E07 — Absence of Contradiction Is Not Proof
+## 57. INV-E07 — Absence of Contradiction Is Not Proof
 
-[
-\boxed{
-\neg Contradiction(c)
-\not\Rightarrow
+\[
+\\boxed{
+\\neg Contradiction(c)
+\\not\\Rightarrow
 Verified(c)
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 58. INV-E08 — Repetition Is Not Independent Confirmation
+## 58. INV-E08 — Repetition Is Not Independent Confirmation
 
-[
-\boxed{
+\[
+\\boxed{
 Repeat(c,n)
-\not\Rightarrow
+\\not\\Rightarrow
 IndependentSupport(c,n)
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 59. INV-E09 — Authority Is Not Evidence by Itself
+## 59. INV-E09 — Authority Is Not Evidence by Itself
 
 Authority may affect source priors or governance but cannot substitute for evidence required by the claim class.
 
----
+______________________________________________________________________
 
-# 60. INV-B01 — Boundary Preservation
+## 60. INV-B01 — Boundary Preservation
 
 Every reasoning object must remain associated with the boundary within which it is valid.
 
-[
-\boxed{
-Object
-======
+## \[ \\boxed{ Object
 
 Object[Boundary]
 }
-]
+\]
 
 when boundary affects interpretation.
 
----
+______________________________________________________________________
 
-# 61. INV-B02 — Boundary Crossing Requires Admission
+## 61. INV-B02 — Boundary Crossing Requires Admission
 
-[
-\boxed{
+\[
+\\boxed{
 CrossBoundary(x)
-\Rightarrow
+\\Rightarrow
 AdmissionPass(x)
 }
-]
+\]
 
 for governed boundaries.
 
----
+______________________________________________________________________
 
-# 62. INV-B03 — External Input Is Not Trusted by Default
+## 62. INV-B03 — External Input Is Not Trusted by Default
 
 ```text
 RECEIVED != TRUSTED
@@ -1116,9 +1095,9 @@ RECEIVED != TRUSTED
 
 External information must be typed before it influences high-impact state.
 
----
+______________________________________________________________________
 
-# 63. INV-B04 — Retrieved Is Not Admitted
+## 63. INV-B04 — Retrieved Is Not Admitted
 
 ```text
 RETRIEVED != ADMITTED
@@ -1128,9 +1107,9 @@ Retrieval identifies candidates.
 
 Admission determines whether candidates may enter governed reasoning or memory.
 
----
+______________________________________________________________________
 
-# 64. INV-M01 — Memory / Truth Separation
+## 64. INV-M01 — Memory / Truth Separation
 
 ```text
 REMEMBERED != TRUE
@@ -1138,33 +1117,33 @@ REMEMBERED != TRUE
 
 Memory persistence does not establish factual validity.
 
----
+______________________________________________________________________
 
-# 65. INV-M02 — Memory Must Preserve Provenance
+## 65. INV-M02 — Memory Must Preserve Provenance
 
 Persistent memory used as evidence must retain sufficient source and derivation lineage.
 
----
+______________________________________________________________________
 
-# 66. INV-M03 — Stale Memory Cannot Override Fresh Evidence
+## 66. INV-M03 — Stale Memory Cannot Override Fresh Evidence
 
 When applicability overlaps:
 
-[
-\boxed{
+\[
+\\boxed{
 FreshValidatedEvidence
 
 >
 
 StaleMemory
 }
-]
+\]
 
 subject to provenance and evidence quality.
 
----
+______________________________________________________________________
 
-# 67. INV-M04 — Contradictory Memory Must Not Be Silently Merged
+## 67. INV-M04 — Contradictory Memory Must Not Be Silently Merged
 
 Conflicting memories must remain:
 
@@ -1177,127 +1156,127 @@ QUARANTINED
 
 as appropriate.
 
----
+______________________________________________________________________
 
-# 68. INV-M05 — Memory Mutation Requires Lineage
+## 68. INV-M05 — Memory Mutation Requires Lineage
 
-[
-\boxed{
-M_t\rightarrow M_{t+1}
-\Rightarrow
-Lineage(M_t,M_{t+1})
+\[
+\\boxed{
+M_t\\rightarrow M\_{t+1}
+\\Rightarrow
+Lineage(M_t,M\_{t+1})
 }
-]
+\]
 
 for governed persistent memory.
 
----
+______________________________________________________________________
 
-# 69. INV-A01 — Capability / Authority Separation
+## 69. INV-A01 — Capability / Authority Separation
 
-[
-\boxed{
+\[
+\\boxed{
 Capability
-\neq
+\\neq
 Authority
 }
-]
+\]
 
 Being technically capable of an action does not establish permission to execute it.
 
----
+______________________________________________________________________
 
-# 70. INV-A02 — Proposal / Commit Separation
+## 70. INV-A02 — Proposal / Commit Separation
 
-[
-\boxed{
+\[
+\\boxed{
 Proposal
-\neq
+\\neq
 Commit
 }
-]
+\]
 
 A model-generated action proposal is not a durable external effect.
 
----
+______________________________________________________________________
 
-# 71. INV-A03 — Decision / Execution Separation
+## 71. INV-A03 — Decision / Execution Separation
 
-[
-\boxed{
+\[
+\\boxed{
 Decision
-\neq
+\\neq
 Execution
 }
-]
+\]
 
 Execution requires an admissible authority and control path.
 
----
+______________________________________________________________________
 
-# 72. INV-A04 — Authority Must Bind to Effect
+## 72. INV-A04 — Authority Must Bind to Effect
 
 Authorization for action (a) does not automatically authorize action (b).
 
-[
-\boxed{
+\[
+\\boxed{
 Authority(a)
-\not\Rightarrow
+\\not\\Rightarrow
 Authority(b)
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 73. INV-A05 — Authority Freshness
+## 73. INV-A05 — Authority Freshness
 
 For mutable authorization:
 
-[
-\boxed{
+\[
+\\boxed{
 Commit(a,t)
-\Rightarrow
+\\Rightarrow
 AuthorityValid(a,t)
 }
-]
+\]
 
 Authority valid at proposal time may be insufficient at commit time.
 
----
+______________________________________________________________________
 
-# 74. INV-A06 — Irreversible Action Requires Stronger Validation
+## 74. INV-A06 — Irreversible Action Requires Stronger Validation
 
 Let (R(a)) be irreversibility or consequence radius.
 
 Then required evidence should be non-decreasing with consequentiality:
 
-[
-\boxed{
+\[
+\\boxed{
 R(a_1)>R(a_2)
-\Rightarrow
+\\Rightarrow
 EvidenceThreshold(a_1)
-\geq
+\\geq
 EvidenceThreshold(a_2)
 }
-]
+\]
 
 as a governance model.
 
----
+______________________________________________________________________
 
-# 75. INV-X01 — Input / Output Type Compatibility
+## 75. INV-X01 — Input / Output Type Compatibility
 
 For operator:
 
-[
-f:X\rightarrow Y
-]
+\[
+f:X\\rightarrow Y
+\]
 
 the input must satisfy the declared domain of (f), and the output must satisfy its codomain contract.
 
----
+______________________________________________________________________
 
-# 76. INV-X02 — Same Name Does Not Prove Same Type
+## 76. INV-X02 — Same Name Does Not Prove Same Type
 
 ```text
 axis_A.name == axis_B.name
@@ -1309,44 +1288,41 @@ does not imply:
 axis_A.semantic_type == axis_B.semantic_type
 ```
 
----
+______________________________________________________________________
 
-# 77. INV-X03 — Tensor Composition Gate
+## 77. INV-X03 — Tensor Composition Gate
 
 Tensor composition requires:
 
-[
-\boxed{
+\[
+\\boxed{
 SemanticCompatibility
-\land
+\\land
 UnitCompatibility
-\land
+\\land
 ScopeCompatibility
-\land
+\\land
 RegimeCompatibility
 }
-]
+\]
 
 where those dimensions apply.
 
----
+______________________________________________________________________
 
-# 78. INV-X04 — Unit Preservation
+## 78. INV-X04 — Unit Preservation
 
 Numerical transformations must preserve or explicitly transform units.
 
-[
-\boxed{
-Unit(Y)
-=======
+## \[ \\boxed{ Unit(Y)
 
 TransformUnit(Unit(X))
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 79. INV-X05 — Missing Value / Zero Separation
+## 79. INV-X05 — Missing Value / Zero Separation
 
 ```text
 UNKNOWN != 0
@@ -1355,83 +1331,82 @@ UNKNOWN != 0
 ```text
 NOT_OBSERVED != FALSE
 ```
+
 ```text
 NULL != EMPTY
 ```
+
 unless the schema explicitly defines equivalence.
 
----
+______________________________________________________________________
 
-# 80. INV-X06 — Unknown / Negative Separation
+## 80. INV-X06 — Unknown / Negative Separation
 
-[
-\boxed{
+\[
+\\boxed{
 Unknown(P)
-\neq
+\\neq
 False(P)
 }
-]
+\]
 
 This is critical for incomplete AI environments.
 
----
+______________________________________________________________________
 
-# 81. INV-RSCF01 — Load-Bearing Dependency Preservation
+## 81. INV-RSCF01 — Load-Bearing Dependency Preservation
 
 Every conclusion must retain its load-bearing premises.
 
-[
-\boxed{
+\[
+\\boxed{
 Conclusion(c)
-\Rightarrow
+\\Rightarrow
 Recoverable(P_c)
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 82. INV-RSCF02 — Selective Invalidation
+## 82. INV-RSCF02 — Selective Invalidation
 
 For failed premise (p):
 
-[
-\boxed{
-Invalidate(p)
-=============
+## \[ \\boxed{ Invalidate(p)
 
-Desc_{LB}(p)
+Desc\_{LB}(p)
 }
-]
+\]
 
 Only load-bearing descendants are automatically invalidated.
 
----
+______________________________________________________________________
 
-# 83. INV-RSCF03 — Unaffected State Preservation
+## 83. INV-RSCF03 — Unaffected State Preservation
 
-[
-\boxed{
+\[
+\\boxed{
 Independent(x,p)
-\land
+\\land
 Invalidate(p)
-\Rightarrow
+\\Rightarrow
 Preserve(x)
 }
-]
+\]
 
 Global recomputation is not the default repair strategy.
 
----
+______________________________________________________________________
 
-# 84. INV-RSCF04 — Falsifier Requirement
+## 84. INV-RSCF04 — Falsifier Requirement
 
 Consequential claims should expose at least one meaningful invalidation condition where available.
 
 A claim that cannot state what would weaken it must not automatically receive maximal confidence.
 
----
+______________________________________________________________________
 
-# 85. INV-RSCF05 — Gap Visibility
+## 85. INV-RSCF05 — Gap Visibility
 
 ```text
 UNKNOWN/GAP != PASS
@@ -1439,9 +1414,9 @@ UNKNOWN/GAP != PASS
 
 A missing load-bearing premise cannot be replaced by fluent completion.
 
----
+______________________________________________________________________
 
-# 86. INV-RSCF06 — Gap Severity Preservation
+## 86. INV-RSCF06 — Gap Severity Preservation
 
 Gaps must remain distinguishable as:
 
@@ -1454,38 +1429,35 @@ COSMETIC
 
 A cosmetic gap cannot be treated as equivalent to a critical missing premise.
 
----
+______________________________________________________________________
 
-# 87. INV-RSCF07 — Dependency Closure Before Strong Conclusion
+## 87. INV-RSCF07 — Dependency Closure Before Strong Conclusion
 
 A strong conclusion requires closure over its material load-bearing dependencies.
 
-[
-\boxed{
+\[
+\\boxed{
 StrongConclusion(c)
-\Rightarrow
+\\Rightarrow
 DependencyClosure(P_c)
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 88. INV-RSCF08 — Weakest Accurate Conclusion
+## 88. INV-RSCF08 — Weakest Accurate Conclusion
 
-[
-\boxed{
-Class(c)
-========
+## \[ \\boxed{ Class(c)
 
 WeakestAccurateClass(Evidence(c))
 }
-]
+\]
 
 AMOS must not promote a `MODEL` into `VERIFIED`, or `COMPETING` into `DERIVED`, merely for narrative simplicity.
 
----
+______________________________________________________________________
 
-# 89. INV-CTRL01 — Cognition / Control Separation
+## 89. INV-CTRL01 — Cognition / Control Separation
 
 AI reasoning may propose state transitions.
 
@@ -1495,16 +1467,16 @@ The control plane determines whether governed effects are admissible.
 COGNITIVE PROPOSAL != CONTROL AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 90. INV-CTRL02 — Validation Before Governed Commit
+## 90. INV-CTRL02 — Validation Before Governed Commit
 
 For governed effect (a):
 
-[
-\boxed{
+\[
+\\boxed{
 Commit(a)
-\Rightarrow
+\\Rightarrow
 Validate(
 authority,
 constraints,
@@ -1512,29 +1484,29 @@ state,
 dependencies
 )
 }
-]
+\]
 
 where required by the action class.
 
----
+______________________________________________________________________
 
-# 91. INV-CTRL03 — Mutable State Requires Fresh Validation
+## 91. INV-CTRL03 — Mutable State Requires Fresh Validation
 
 If a decision depends on mutable state:
 
-[
-\boxed{
+\[
+\\boxed{
 MutableDependency
-\Rightarrow
+\\Rightarrow
 CommitTimeRevalidation
 }
-]
+\]
 
 when stale state could alter admissibility.
 
----
+______________________________________________________________________
 
-# 92. INV-CTRL04 — Observability Cannot Create Authority
+## 92. INV-CTRL04 — Observability Cannot Create Authority
 
 ```text
 CAN OBSERVE != CAN MODIFY
@@ -1543,35 +1515,34 @@ CAN OBSERVE != CAN MODIFY
 ```text
 CAN READ != CAN WRITE
 ```
+
 ```text
 CAN PROPOSE != CAN COMMIT
 ```
----
 
-# 93. INV-CTRL05 — Rollback Cannot Be Assumed
+______________________________________________________________________
+
+## 93. INV-CTRL05 — Rollback Cannot Be Assumed
 
 An action is reversible only when a real rollback path exists.
 
-[
-\boxed{
+\[
+\\boxed{
 Reversible(a)
-\Rightarrow
+\\Rightarrow
 RollbackPath(a)
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 94. INV-Q01 — Uncertainty Dimensions Must Not Be Collapsed Blindly
+## 94. INV-Q01 — Uncertainty Dimensions Must Not Be Collapsed Blindly
 
 Represent material uncertainty as:
 
-[
-\boxed{
-U
-=
+## \[ \\boxed{ U
 
-[
+\[
 U_E,
 U_M,
 U_S,
@@ -1579,9 +1550,9 @@ U_T,
 U_C,
 U_X,
 U_P
-]
+\]
 }
-]
+\]
 
 where:
 
@@ -1597,9 +1568,9 @@ U_P = provenance-independence uncertainty
 
 A single scalar confidence must not erase decision-relevant differences between these uncertainty classes.
 
----
+______________________________________________________________________
 
-# 95. INV-Q02 — Confidence / Certainty Separation
+## 95. INV-Q02 — Confidence / Certainty Separation
 
 ```text
 HIGH MODEL CONFIDENCE
@@ -1607,45 +1578,42 @@ HIGH MODEL CONFIDENCE
 EMPIRICAL CERTAINTY
 ```
 
----
+______________________________________________________________________
 
-# 96. INV-Q03 — Confidence Cannot Exceed Evidence Architecture
+## 96. INV-Q03 — Confidence Cannot Exceed Evidence Architecture
 
-[
-\boxed{
+\[
+\\boxed{
 Confidence
-\leq
+\\leq
 EvidenceSupportCeiling
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 97. INV-Q04 — Unknown Independence Limits Aggregation
+## 97. INV-Q04 — Unknown Independence Limits Aggregation
 
 If provenance independence is unknown:
 
-[
-\boxed{
+\[
+\\boxed{
 U_P>0
-\Rightarrow
+\\Rightarrow
 IndependentEvidenceCount
-\text{ remains bounded}
+\\text{ remains bounded}
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 98. INV-D01 — Decision Must Preserve Consequence Context
+## 98. INV-D01 — Decision Must Preserve Consequence Context
 
 Decision tensor:
 
-[
-\boxed{
-T_D
-===
+## \[ \\boxed{ T_D
 
-T[
+T\[
 decision,
 objective,
 options,
@@ -1658,23 +1626,23 @@ reversibility,
 scope,
 regime,
 provenance
-]
+\]
 }
-]
+\]
 
 A decision cannot be evaluated only by predicted benefit if consequence and authority are material.
 
----
+______________________________________________________________________
 
-# 99. INV-D02 — Optimization Cannot Weaken Integrity
+## 99. INV-D02 — Optimization Cannot Weaken Integrity
 
-[
-\boxed{
+\[
+\\boxed{
 Optimize(X)
-\Rightarrow
+\\Rightarrow
 Preserve(Invariants(X))
 }
-]
+\]
 
 If optimization improves speed, cost, token use, or performance while breaking a load-bearing integrity invariant:
 
@@ -1682,76 +1650,73 @@ If optimization improves speed, cost, token use, or performance while breaking a
 OPTIMIZATION = REJECTED
 ```
 
----
+______________________________________________________________________
 
-# 100. INV-D03 — Faster Is Not Better If Integrity Falls
+## 100. INV-D03 — Faster Is Not Better If Integrity Falls
 
 For candidate architecture (A'):
 
-[
-\boxed{
+\[
+\\boxed{
 Efficiency(A')>Efficiency(A)
 }
-]
+\]
 
 is insufficient for promotion if:
 
-[
-Integrity(A')<Integrity(A)
-]
+\[
+Integrity(A')\<Integrity(A)
+\]
 
 on a load-bearing property.
 
----
+______________________________________________________________________
 
-# 101. INV-RP01 — Repair Must Preserve Unaffected Valid State
+## 101. INV-RP01 — Repair Must Preserve Unaffected Valid State
 
 Repair should target the smallest causal failure set.
 
-[
-\boxed{
-Repair
-======
+## \[ \\boxed{ Repair
 
 Modify(FailedRegion)
-+
+\+
 Preserve(ValidRegion)
 }
-]
+\]
 
 where feasible.
 
----
+______________________________________________________________________
 
-# 102. INV-RP02 — Repair Cannot Hide the Failure
+## 102. INV-RP02 — Repair Cannot Hide the Failure
 
 ```text
 SYMPTOM SUPPRESSION != RECOVERY
 ```
 
----
+______________________________________________________________________
 
-# 103. INV-RP03 — Repair Must Be Revalidated
+## 103. INV-RP03 — Repair Must Be Revalidated
 
-[
-\boxed{
+\[
+\\boxed{
 Repair(x)
-\Rightarrow
+\\Rightarrow
 Validate(x')
 }
-]
+\]
 
 A proposed correction is not evidence that the corrected state works.
 
----
+______________________________________________________________________
 
-# 104. INV-RP04 — Repair Cannot Introduce Greater Unbounded Harm
+## 104. INV-RP04 — Repair Cannot Introduce Greater Unbounded Harm
 
 A repair that resolves local failure while creating greater systemic risk must not automatically be accepted.
 
----
+______________________________________________________________________
 
-# 105. INV-RP05 — Failed Path Requires Changed Evidence
+## 105. INV-RP05 — Failed Path Requires Changed Evidence
 
 ```text
 REPEAT SAME FAILED PATH
@@ -1759,30 +1724,30 @@ WITHOUT CHANGED STATE/EVIDENCE
 = INVALID RECOVERY STRATEGY
 ```
 
----
+______________________________________________________________________
 
-# 106. INV-EV01 — Evolution Must Preserve Core Invariants
+## 106. INV-EV01 — Evolution Must Preserve Core Invariants
 
 For architecture mutation:
 
-[
-A_t\xrightarrow{\mu}A_{t+1}
-]
+\[
+A_t\\xrightarrow{\\mu}A\_{t+1}
+\]
 
 promotion requires:
 
-[
-\boxed{
-\forall I_{core},
-I_{core}(A_{t+1})=TRUE
+\[
+\\boxed{
+\\forall I\_{core},
+I\_{core}(A\_{t+1})=TRUE
 }
-]
+\]
 
 unless an explicitly authorized canon change changes the invariant itself.
 
----
+______________________________________________________________________
 
-# 107. INV-EV02 — Mutation / Promotion Separation
+## 107. INV-EV02 — Mutation / Promotion Separation
 
 ```text
 MUTATION != PROMOTION
@@ -1790,21 +1755,21 @@ MUTATION != PROMOTION
 
 A candidate architecture may exist without becoming active architecture.
 
----
+______________________________________________________________________
 
-# 108. INV-EV03 — Benchmark Improvement Does Not Prove Universal Improvement
+## 108. INV-EV03 — Benchmark Improvement Does Not Prove Universal Improvement
 
-[
-\boxed{
+\[
+\\boxed{
 Better(Benchmark)
-\not\Rightarrow
+\\not\\Rightarrow
 Better(AllEnvironments)
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 109. INV-EV04 — Tested Does Not Mean Formally Proven
+## 109. INV-EV04 — Tested Does Not Mean Formally Proven
 
 ```text
 TESTED != FORMALLY VERIFIED
@@ -1813,9 +1778,10 @@ TESTED != FORMALLY VERIFIED
 ```text
 BENCHMARKED != UNIVERSALLY VALIDATED
 ```
----
 
-# 110. INV-EV05 — Version Lineage Preservation
+______________________________________________________________________
+
+## 110. INV-EV05 — Version Lineage Preservation
 
 Architecture evolution must preserve:
 
@@ -1831,21 +1797,21 @@ rollback target
 
 where governed version lineage is required.
 
----
+______________________________________________________________________
 
-# 111. AI Application — Perception
+## 111. AI Application — Perception
 
 For AI perception:
 
-[
-\boxed{
+\[
+\\boxed{
 Environment
-\rightarrow
+\\rightarrow
 Observation
-\rightarrow
+\\rightarrow
 Representation
 }
-]
+\]
 
 Hard invariants:
 
@@ -1861,21 +1827,21 @@ SENSOR VALUE != COMPLETE WORLD STATE
 MODEL INTERPRETATION != OBSERVATION
 ```
 
----
+______________________________________________________________________
 
-# 112. AI Application — Retrieval
+## 112. AI Application — Retrieval
 
 For retrieval:
 
-[
-\boxed{
+\[
+\\boxed{
 Query
-\rightarrow
+\\rightarrow
 RetrievedCandidates
-\rightarrow
+\\rightarrow
 EvidenceEvaluation
 }
-]
+\]
 
 Hard invariants:
 
@@ -1891,23 +1857,23 @@ NOT RETRIEVED != NONEXISTENT
 SEMANTIC SIMILARITY != CLAIM SUPPORT
 ```
 
----
+______________________________________________________________________
 
-# 113. AI Application — Memory
+## 113. AI Application — Memory
 
 For memory:
 
-[
-\boxed{
+\[
+\\boxed{
 Observation
-\rightarrow
+\\rightarrow
 CandidateMemory
-\rightarrow
+\\rightarrow
 Admission
-\rightarrow
+\\rightarrow
 PersistentMemory
 }
-]
+\]
 
 Hard invariants:
 
@@ -1923,19 +1889,19 @@ OLD MEMORY != CURRENT STATE
 MEMORY WRITE != AUTHORIZED ACTION
 ```
 
----
+______________________________________________________________________
 
-# 114. AI Application — Reasoning
+## 114. AI Application — Reasoning
 
 Reasoning transforms information:
 
-[
-\boxed{
+\[
+\\boxed{
 Premises
-\xrightarrow{Reasoning}
+\\xrightarrow{Reasoning}
 Conclusion
 }
-]
+\]
 
 Hard invariants:
 
@@ -1951,19 +1917,19 @@ LONGER REASONING != STRONGER EVIDENCE
 CONSENSUS BETWEEN CORRELATED AGENTS != INDEPENDENT CONFIRMATION
 ```
 
----
+______________________________________________________________________
 
-# 115. AI Application — Planning
+## 115. AI Application — Planning
 
-[
-\boxed{
+\[
+\\boxed{
 Goal
-\rightarrow
+\\rightarrow
 Plan
-\rightarrow
+\\rightarrow
 ActionProposal
 }
-]
+\]
 
 Hard invariants:
 
@@ -1977,19 +1943,19 @@ ACTION PROPOSAL != COMMIT
 PREDICTED SUCCESS != OBSERVED SUCCESS
 ```
 
----
+______________________________________________________________________
 
-# 116. AI Application — Tool Use
+## 116. AI Application — Tool Use
 
-[
-\boxed{
+\[
+\\boxed{
 ToolCall
-\rightarrow
+\\rightarrow
 ToolResponse
-\rightarrow
+\\rightarrow
 ValidatedObservation
 }
-]
+\]
 
 Hard invariants:
 
@@ -2005,11 +1971,11 @@ TOOL SUCCESS != GOAL SUCCESS
 API ACKNOWLEDGEMENT != REAL-WORLD OUTCOME
 ```
 
----
+______________________________________________________________________
 
-# 117. AI Application — Multi-Agent Systems
+## 117. AI Application — Multi-Agent Systems
 
-For agents (A_1,\ldots,A_n):
+For agents (A_1,\\ldots,A_n):
 
 ```text
 AGENT COUNT != EVIDENCE COUNT
@@ -2023,17 +1989,17 @@ ROLE DIFFERENCE != PROVENANCE INDEPENDENCE
 CONSENSUS != TRUTH
 ```
 
----
+______________________________________________________________________
 
-# 118. AI Application — Prediction
+## 118. AI Application — Prediction
 
-[
-\boxed{
+\[
+\\boxed{
 ModelState_t
-\rightarrow
-Forecast_{t+h}
+\\rightarrow
+Forecast\_{t+h}
 }
-]
+\]
 
 Hard invariants:
 
@@ -2049,52 +2015,49 @@ HISTORICAL ASSOCIATION != FUTURE CAUSATION
 HIGH PROBABILITY != CERTAINTY
 ```
 
----
+______________________________________________________________________
 
-# 119. AI Application — Governance
+## 119. AI Application — Governance
 
-[
-\boxed{
+\[
+\\boxed{
 Capability
-+
+\+
 Authority
-+
+\+
 ConstraintPass
-+
+\+
 FreshState
-\rightarrow
+\\rightarrow
 EligibleAction
 }
-]
+\]
 
 not:
 
-[
+\[
 Capability
-\rightarrow
+\\rightarrow
 Action
-]
+\]
 
 Therefore:
 
-[
-\boxed{
-EligibleAction
-==============
+## \[ \\boxed{ EligibleAction
 
 Capability
-\land
+\\land
 Authority
-\land
+\\land
 ConstraintPass
-\land
+\\land
 StateValid
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 120. AI Application — Closed-Loop Learning
+## 120. AI Application — Closed-Loop Learning
 
 ```text
 PERCEIVE
@@ -2122,50 +2085,47 @@ INDEPENDENT EXTERNAL VALIDATION
 
 Without this distinction, an AI can recursively validate itself using its own outputs.
 
----
+______________________________________________________________________
 
-# 121. Recursive Contamination Invariant
+## 121. Recursive Contamination Invariant
 
-If AI output \(O_t\) becomes future input (I_{t+k}):
+If AI output (O_t) becomes future input (I\_{t+k}):
 
-[
-\boxed{
+\[
+\\boxed{
 GeneratedBySystem(O_t)
-\Rightarrow
+\\Rightarrow
 PreserveOrigin(O_t)
 }
-]
+\]
 
 Otherwise future reasoning may mistake recursively generated information for independent external evidence.
 
----
+______________________________________________________________________
 
-# 122. Reality Contact Invariant
+## 122. Reality Contact Invariant
 
 Where empirical reality contact is required:
 
-[
-\boxed{
-RealityContact(c)
-=================
+## \[ \\boxed{ RealityContact(c)
 
 ObservationPresent
-\land
+\\land
 MeasurementKnown
-\land
+\\land
 ProvenanceRecoverable
-\land
+\\land
 ScopeCompatible
-\land
+\\land
 RegimeCompatible
 }
-]
+\]
 
 This is an AMOS architectural criterion, not a universal epistemological theorem.
 
----
+______________________________________________________________________
 
-# 123. Reality Contact Loss
+## 123. Reality Contact Loss
 
 Reality contact is degraded when:
 
@@ -2181,9 +2141,9 @@ synthetic content mislabeled
 recursive AI content treated as independent evidence
 ```
 
----
+______________________________________________________________________
 
-# 124. Invariant Dependency Graph
+## 124. Invariant Dependency Graph
 
 ```text
 REALITY DISTINCTION
@@ -2226,60 +2186,57 @@ REALITY DISTINCTION
           NEW OBSERVATION
 ```
 
----
+______________________________________________________________________
 
-# 125. Invariant Composition
+## 125. Invariant Composition
 
 Let:
 
-[
+\[
 I_A(X), I_B(X), I_C(X)
-]
+\]
 
 be applicable invariants.
 
 Valid state requires:
 
-[
-\boxed{
-I_{valid}\(X\)
-============
+## \[ \\boxed{ I\_{valid}(X)
 
 I_A(X)
-\land
+\\land
 I_B(X)
-\land
+\\land
 I_C(X)
 }
-]
+\]
 
 A state does not pass because most invariants pass.
 
 For hard invariants:
 
-[
-\boxed{
+\[
+\\boxed{
 AnyHardFailure
-\Rightarrow
+\\Rightarrow
 FAIL
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 126. Invariant Conflict
+## 126. Invariant Conflict
 
 If two applicable invariants conflict:
 
-[
-I_a(X)\Rightarrow A
-]
+\[
+I_a(X)\\Rightarrow A
+\]
 
 and:
 
-[
-I_b(X)\Rightarrow \neg A
-]
+\[
+I_b(X)\\Rightarrow \\neg A
+\]
 
 AMOS must not arbitrarily choose one.
 
@@ -2291,16 +2248,13 @@ INVARIANT_CONFLICT
 
 until precedence, scope, authority, or interpretation resolves the contradiction.
 
----
+______________________________________________________________________
 
-# 127. Invariant Precedence Tensor
+## 127. Invariant Precedence Tensor
 
-[
-\boxed{
-T_{IP}
-======
+## \[ \\boxed{ T\_{IP}
 
-T[
+T\[
 invariant,
 authority,
 scope,
@@ -2310,25 +2264,22 @@ time,
 hardness,
 precedence,
 provenance
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 128. Invariant Validation Function
+## 128. Invariant Validation Function
 
-For state \(X\):
+For state (X):
 
-[
-\boxed{
-V_I(X)
-======
+## \[ \\boxed{ V_I(X)
 
-\bigwedge_{i\in Applicable(X)}
+\\bigwedge\_{i\\in Applicable(X)}
 I_i(X)
 }
-]
+\]
 
 Output:
 
@@ -2340,40 +2291,37 @@ UNKNOWN
 CONFLICT
 ```
 
----
+______________________________________________________________________
 
-# 129. Transition Validation
+## 129. Transition Validation
 
 For transition:
 
-[
-X_t\xrightarrow{O}X_{t+1}
-]
+\[
+X_t\\xrightarrow{O}X\_{t+1}
+\]
 
 AMOS validates:
 
-[
-\boxed{
-ValidTransition
-===============
+## \[ \\boxed{ ValidTransition
 
 TypePass
-\land
+\\land
 InvariantPass
-\land
+\\land
 AuthorityPass
-\land
+\\land
 DependencyPass
-\land
+\\land
 ProvenancePass
 }
-]
+\]
 
 where each component applies to the operation.
 
----
+______________________________________________________________________
 
-# 130. Control Plane Requirements
+## 130. Control Plane Requirements
 
 The L00 invariant control plane must support:
 
@@ -2397,9 +2345,9 @@ revalidation
 audit logging
 ```
 
----
+______________________________________________________________________
 
-# 131. Invariant Registry Contract
+## 131. Invariant Registry Contract
 
 ```yaml
 invariant:
@@ -2444,9 +2392,9 @@ invariant:
   version:
 ```
 
----
+______________________________________________________________________
 
-# 132. Agent Contract
+## 132. Agent Contract
 
 Agents may:
 
@@ -2472,9 +2420,9 @@ hide violations to complete a task
 treat UNKNOWN as PASS
 ```
 
----
+______________________________________________________________________
 
-# 133. Skill Contract
+## 133. Skill Contract
 
 Every invariant-aware AMOS skill should expose:
 
@@ -2504,9 +2452,9 @@ invariant_contract:
   falsifiers: []
 ```
 
----
+______________________________________________________________________
 
-# 134. Workflow
+## 134. Workflow
 
 ```text
 1. Identify target state or transition.
@@ -2562,9 +2510,9 @@ invariant_contract:
 26. Resume only after applicable hard invariants pass.
 ```
 
----
+______________________________________________________________________
 
-# 135. Validation Matrix
+## 135. Validation Matrix
 
 | Domain       | Required invariant                |
 | ------------ | --------------------------------- |
@@ -2588,9 +2536,9 @@ invariant_contract:
 | Evolution    | mutation != promotion             |
 | Unknown      | unknown != pass                   |
 
----
+______________________________________________________________________
 
-# 136. Validator Registry
+## 136. Validator Registry
 
 ```text
 L00-INV-T01 Reality/representation validator
@@ -2623,9 +2571,9 @@ L00-INV-T27 Reality-contact validator
 L00-INV-T28 Invariant-conflict validator
 ```
 
----
+______________________________________________________________________
 
-# 137. Failure Modes
+## 137. Failure Modes
 
 ## INV-F01 — Representation Collapse
 
@@ -2691,9 +2639,9 @@ Repair destroys valid adjacent state.
 
 A rule changes meaning without version or provenance lineage.
 
----
+______________________________________________________________________
 
-# 138. Repair / Recovery
+## 138. Repair / Recovery
 
 Canonical invariant recovery:
 
@@ -2723,66 +2671,63 @@ REVALIDATE DEPENDENCIES
 RESTORE ONLY VALIDATED STATE
 ```
 
----
+______________________________________________________________________
 
-# 139. Falsifiers
+## 139. Falsifiers
 
 This architecture is falsified as an implemented invariant system if:
 
 1. invariants exist only as prose and cannot be evaluated against state;
-2. invariants have no applicability scope;
-3. representation classes are not preserved;
-4. model states can silently become observations;
-5. provenance can disappear without invalidating dependent claims;
-6. unknown ancestry counts as independence;
-7. scope can expand automatically;
-8. regime changes do not trigger revalidation;
-9. stale evidence is treated as current without checking;
-10. correlation can automatically become causation;
-11. H/M/L aggregation can manufacture system truth;
-12. confidence can exceed unresolved load-bearing premises;
-13. contradictions can be silently removed;
-14. `UNKNOWN/GAP` can return `PASS`;
-15. capability automatically grants authority;
-16. proposal automatically creates commitment;
-17. mutable authorization is never revalidated where required;
-18. failed premises invalidate unrelated state;
-19. repair requires no validation;
-20. architecture mutations bypass core invariants;
-21. AI-generated evidence can recursively validate itself as independent external evidence.
+1. invariants have no applicability scope;
+1. representation classes are not preserved;
+1. model states can silently become observations;
+1. provenance can disappear without invalidating dependent claims;
+1. unknown ancestry counts as independence;
+1. scope can expand automatically;
+1. regime changes do not trigger revalidation;
+1. stale evidence is treated as current without checking;
+1. correlation can automatically become causation;
+1. H/M/L aggregation can manufacture system truth;
+1. confidence can exceed unresolved load-bearing premises;
+1. contradictions can be silently removed;
+1. `UNKNOWN/GAP` can return `PASS`;
+1. capability automatically grants authority;
+1. proposal automatically creates commitment;
+1. mutable authorization is never revalidated where required;
+1. failed premises invalidate unrelated state;
+1. repair requires no validation;
+1. architecture mutations bypass core invariants;
+1. AI-generated evidence can recursively validate itself as independent external evidence.
 
----
+______________________________________________________________________
 
-# 140. Core Invariant Set
+## 140. Core Invariant Set
 
 The smallest high-level invariant kernel is:
 
-[
-\boxed{
-I_{AMOS}
-========
+## \[ \\boxed{ I\_{AMOS}
 
 I_R
-\land
+\\land
 I_P
-\land
+\\land
 I_S
-\land
+\\land
 I_G
-\land
+\\land
 I_T
-\land
+\\land
 I_C
-\land
+\\land
 I_H
-\land
+\\land
 I_E
-\land
+\\land
 I_A
-\land
+\\land
 I_X
 }
-]
+\]
 
 where:
 
@@ -2799,105 +2744,93 @@ I_A = authority/action integrity
 I_X = type/transformation integrity
 ```
 
----
+______________________________________________________________________
 
-# 141. Valid Reasoning State
+## 141. Valid Reasoning State
 
-[
-\boxed{
-ValidReasoningState
-===================
+## \[ \\boxed{ ValidReasoningState
 
 TypeValid
-\land
+\\land
 RealityClassValid
-\land
+\\land
 ProvenanceValid
-\land
+\\land
 ScopeValid
-\land
+\\land
 RegimeValid
-\land
+\\land
 TemporalValid
-\land
+\\land
 CausalValid
-\land
+\\land
 CrossScaleValid
-\land
+\\land
 ConfidenceValid
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 142. Valid Governed Action
+## 142. Valid Governed Action
 
-[
-\boxed{
-ValidAction
-===========
+## \[ \\boxed{ ValidAction
 
 ValidReasoningState
-\land
+\\land
 Capability
-\land
+\\land
 Authority
-\land
+\\land
 ConstraintPass
-\land
+\\land
 FreshState
-\land
+\\land
 CommitValidation
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 143. Valid Repair
+## 143. Valid Repair
 
-[
-\boxed{
-ValidRepair
-===========
+## \[ \\boxed{ ValidRepair
 
 CorrectTarget
-\land
+\\land
 InvariantPreservation
-\land
+\\land
 SelectiveInvalidation
-\land
+\\land
 Revalidation
-\land
+\\land
 NoGreaterUnboundedHarm
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 144. Valid Evolution
+## 144. Valid Evolution
 
-[
-\boxed{
-ValidEvolution
-==============
+## \[ \\boxed{ ValidEvolution
 
 Mutation
-\land
+\\land
 CoreInvariantPreservation
-\land
+\\land
 EvidenceThresholdPass
-\land
+\\land
 GovernancePass
-\land
+\\land
 RollbackAvailable
 }
-]
+\]
 
 where rollback availability is required for the applicable mutation class.
 
----
+______________________________________________________________________
 
-# 145. RSCF Completion State
+## 145. RSCF Completion State
 
 ```yaml
 claim_class: MODEL
@@ -2989,9 +2922,9 @@ confidence_ceiling:
   ontological_universality: unverified
 ```
 
----
+______________________________________________________________________
 
-# 146. Hard Boundaries
+## 146. Hard Boundaries
 
 ```text
 REALITY != REPRESENTATION
@@ -3071,110 +3004,101 @@ UNKNOWN != FALSE
 UNKNOWN/GAP != PASS
 ```
 
----
+______________________________________________________________________
 
-# 147. Canonical Invariant Law
+## 147. Canonical Invariant Law
 
 The L00 invariant architecture reduces to the following governing condition:
 
-[
-\boxed{
-Integrity(X)
-============
+## \[ \\boxed{ Integrity(X)
 
 RealityDistinction
-\land
+\\land
 TypeIntegrity
-\land
+\\land
 ProvenanceIntegrity
-\land
+\\land
 ScopeIntegrity
-\land
+\\land
 RegimeIntegrity
-\land
+\\land
 TemporalIntegrity
-\land
+\\land
 CausalIntegrity
-\land
+\\land
 CrossScaleIntegrity
-\land
+\\land
 EpistemicIntegrity
-\land
+\\land
 AuthorityIntegrity
 }
-]
+\]
 
 For transformation:
 
-[
-\boxed{
+\[
+\\boxed{
 X_t
-\xrightarrow{O}
-X_{t+1}
-\quad only\ if \quad
-Integrity(X_t,O,X_{t+1})=TRUE
+\\xrightarrow{O}
+X\_{t+1}
+\\quad only\\ if \\quad
+Integrity(X_t,O,X\_{t+1})=TRUE
 }
-]
+\]
 
 For AI reasoning:
 
-[
-\boxed{
-Claim
-=====
+## \[ \\boxed{ Claim
 
 Evidence
-+
+\+
 TypedInference
-+
+\+
 Scope
-+
+\+
 Regime
-+
+\+
 Provenance
-+
+\+
 Uncertainty
 }
-]
+\]
 
 conceptually, while preserving that inference does not become evidence.
 
 For AI action:
 
-[
-\boxed{
-Action
-======
+## \[ \\boxed{ Action
 
 ValidDecision
-\land
+\\land
 Capability
-\land
+\\land
 Authority
-\land
+\\land
 ConstraintPass
-\land
+\\land
 CommitValidation
 }
-]
+\]
 
 For failure:
 
-[
-\boxed{
+\[
+\\boxed{
 InvariantFailure
-\Rightarrow
+\\Rightarrow
 Block
-\lor
+\\lor
 Quarantine
-\lor
+\\lor
 Downgrade
-\lor
+\\lor
 Revalidate
-\lor
+\\lor
 Escalate
 }
-]
+\]
 
 depending on invariant class and consequence.
 
@@ -3182,27 +3106,30 @@ The central architectural rule is:
 
 > **AMOS must never gain apparent certainty, authority, causality, scope, reality contact, or evidential independence merely through transformation, aggregation, repetition, compression, recursion, or fluent reasoning. Every admissible state transition must preserve the distinctions and dependencies required to reconstruct why the resulting state is justified.**
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · 06-Knowledge-Base-MOC · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · AMOS_Typed_Tensor_Contracts · AMOS_Evidence_Tensor_Architecture · Cosmo_Brain_BRIDGE_INDEX · AMOS_Relation_Tensor_Architecture · AMOS_Cross_Scale_RSCF_Tensor_Engine · AMOS_Reality_Simulation_Distinction · AMOS_Constraint_Propagation · AMOS_Provenance_Topology · Cosmo_Brain_BRIDGE_INDEX · AMOS_Infrastructure_Control_Plane
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: l00_reality_environment_primitives_cognitive_matrix_invariants
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_INVARIANTS.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_MOC|L00_REALITY_ENVIRONMENT_MOC]]
-

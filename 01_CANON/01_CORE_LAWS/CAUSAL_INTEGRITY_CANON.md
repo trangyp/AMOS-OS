@@ -16,31 +16,31 @@ schema_family: RSCF
 schema_role: CAUSAL_INTEGRITY_RSCF
 schema_version: AMOS_CORE_v4.4-compatible-conceptual
 tags:
-- amos-os
-- canon
-- universe
-- core_laws
-- causal_integrity
-- causal_firewall
-- causal_lineage
-- provenance
-- provenance_topology
-- competing_hypotheses
-- epistemic_regimes
-- scope
-- regime
-- dependency_graph
-- falsification
-- validation
-- rscf
-- canon/universe
-- placeholder_expanded
-- architecture
-- law/L19-proof-capsule
-- law-hierarchy
-- canon-law-crosswalk
-- routing-policy-validation-receipt
-- authz-engine-validation-receipt
+  - amos-os
+  - canon
+  - universe
+  - core_laws
+  - causal_integrity
+  - causal_firewall
+  - causal_lineage
+  - provenance
+  - provenance_topology
+  - competing_hypotheses
+  - epistemic_regimes
+  - scope
+  - regime
+  - dependency_graph
+  - falsification
+  - validation
+  - rscf
+  - canon/universe
+  - placeholder_expanded
+  - architecture
+  - law/L19-proof-capsule
+  - law-hierarchy
+  - canon-law-crosswalk
+  - routing-policy-validation-receipt
+  - authz-engine-validation-receipt
 version: 0.2.0
 updated: '2026-08-27'
 status: PLACEHOLDER_EXPANDED
@@ -69,7 +69,7 @@ rscf:
 
 `CAUSAL_INTEGRITY_CANON.md` is an **ADD-ONLY placeholder-expanded artifact** for:
 
-```text
+````text
 01_CANON/01_CORE_LAWS
 
 It reserves the canonical slot for the AMOS framework family concerned with **causal integrity**.
@@ -91,7 +91,7 @@ executable_binding: NOT_ESTABLISHED
 native_causal_law_status: NOT_ESTABLISHED
 causal_inference_engine_status: NOT_ESTABLISHED
 causal_validation_status: NOT_ESTABLISHED
-```
+````
 
 Origin architect / steward:
 
@@ -101,9 +101,9 @@ System:
 
 **AMOS OS**
 
----
+______________________________________________________________________
 
-# 1. Governing Integrity Boundary
+## 1. Governing Integrity Boundary
 
 The Causal Integrity Canon MUST preserve:
 
@@ -165,9 +165,9 @@ UNKNOWN/GAP != PASS
 
 These distinctions are mandatory.
 
----
+______________________________________________________________________
 
-# 2. Purpose
+## 2. Purpose
 
 The **Causal Integrity Canon** is intended to govern how AMOS represents, evaluates, propagates, challenges, and invalidates causal claims.
 
@@ -202,9 +202,9 @@ MAXIMUM CAUSAL INTEGRITY
 UNDER AVAILABLE EVIDENCE
 ```
 
----
+______________________________________________________________________
 
-# 3. Core Causal Law
+## 3. Core Causal Law
 
 The target governing principle is:
 
@@ -226,28 +226,28 @@ must hold before promotion.
 
 This is a reasoning discipline, not a claim of a universally established mathematical law.
 
----
+______________________________________________________________________
 
-# 4. Non-Purpose
+## 4. Non-Purpose
 
 This artifact MUST NOT be used to claim:
 
-* universal causal laws of reality;
-* scientific proof from architectural coherence;
-* biological causation from analogy;
-* causal necessity from correlation;
-* causal sufficiency from temporal ordering;
-* mechanisms merely because a model can describe observations;
-* intervention validity without identification assumptions;
-* universal applicability from success in one regime;
-* causal independence from duplicated sources;
-* empirical validation from simulation alone;
-* mathematical theoremhood where no proof exists;
-* runtime enforcement where executable binding is absent.
+- universal causal laws of reality;
+- scientific proof from architectural coherence;
+- biological causation from analogy;
+- causal necessity from correlation;
+- causal sufficiency from temporal ordering;
+- mechanisms merely because a model can describe observations;
+- intervention validity without identification assumptions;
+- universal applicability from success in one regime;
+- causal independence from duplicated sources;
+- empirical validation from simulation alone;
+- mathematical theoremhood where no proof exists;
+- runtime enforcement where executable binding is absent.
 
----
+______________________________________________________________________
 
-# 5. Ingestion Rule
+## 5. Ingestion Rule
 
 ```yaml
 AMOS_CANON_INGESTION_RULE:
@@ -293,9 +293,9 @@ AMOS_CANON_INGESTION_RULE:
       - NEVER_INVENT_CANON
 ```
 
----
+______________________________________________________________________
 
-# 6. Causal Firewall
+## 6. Causal Firewall
 
 AMOS causal reasoning SHOULD distinguish at minimum:
 
@@ -331,9 +331,9 @@ UNKNOWN
 
 These relation classes MUST NOT be silently collapsed.
 
----
+______________________________________________________________________
 
-# 7. Association
+## 7. Association
 
 Association means variables, states, or events exhibit a relationship under a declared observation process.
 
@@ -365,9 +365,9 @@ C → {A,B}
 
 The causal structure remains unresolved.
 
----
+______________________________________________________________________
 
-# 8. Correlation
+## 8. Correlation
 
 A correlation is an association represented by an appropriate statistical relationship.
 
@@ -402,9 +402,9 @@ MODEL MISSPECIFICATION
 
 until discriminating evidence resolves alternatives.
 
----
+______________________________________________________________________
 
-# 9. Temporal Precedence
+## 9. Temporal Precedence
 
 If:
 
@@ -445,9 +445,9 @@ BEFORE
 CAUSE
 ```
 
----
+______________________________________________________________________
 
-# 10. Dependency
+## 10. Dependency
 
 A logical, computational, architectural, or evidential dependency is not automatically a causal relation in the empirical sense.
 
@@ -469,9 +469,9 @@ CLAIM_B
 
 in the world being modeled.
 
----
+______________________________________________________________________
 
-# 11. Enabling Condition
+## 11. Enabling Condition
 
 An enabling condition permits or facilitates an outcome.
 
@@ -493,9 +493,9 @@ E is necessary for Y
 
 The exact relation must remain typed.
 
----
+______________________________________________________________________
 
-# 12. Necessary Condition
+## 12. Necessary Condition
 
 A target semantic form:
 
@@ -517,9 +517,9 @@ does not establish:
 X SUFFICIENT_FOR Y
 ```
 
----
+______________________________________________________________________
 
-# 13. Sufficient Condition
+## 13. Sufficient Condition
 
 A target semantic form:
 
@@ -541,9 +541,9 @@ does not establish:
 X sufficient under R2
 ```
 
----
+______________________________________________________________________
 
-# 14. Necessary and Sufficient
+## 14. Necessary and Sufficient
 
 A biconditional causal or logical relationship requires stronger support than either direction independently.
 
@@ -555,9 +555,9 @@ MUST NOT be inferred merely because both frequently co-occur.
 
 Each direction requires support appropriate to its semantics.
 
----
+______________________________________________________________________
 
-# 15. Mechanism
+## 15. Mechanism
 
 A mechanism describes an intermediate process by which an antecedent may produce an outcome.
 
@@ -583,9 +583,9 @@ until appropriately validated.
 
 Mechanistic plausibility strengthens explanation but is not itself universal proof of causal effect.
 
----
+______________________________________________________________________
 
-# 16. Mediation
+## 16. Mediation
 
 A mediation structure may be represented:
 
@@ -597,9 +597,9 @@ The claim that `M` mediates an effect requires more than observing correlations 
 
 Alternative structures MUST remain visible when supported.
 
----
+______________________________________________________________________
 
-# 17. Confounding
+## 17. Confounding
 
 A confounding structure may be represented:
 
@@ -624,9 +624,9 @@ X → Y
 
 A causal claim SHOULD identify material confounders or explicitly register their uncertainty.
 
----
+______________________________________________________________________
 
-# 18. Collider Boundary
+## 18. Collider Boundary
 
 A target causal model may contain:
 
@@ -640,9 +640,9 @@ Therefore conditioning decisions are themselves part of causal integrity.
 
 The presence and treatment of colliders must not be invented when the causal structure is unknown.
 
----
+______________________________________________________________________
 
-# 19. Feedback
+## 19. Feedback
 
 Causal systems may contain feedback:
 
@@ -666,9 +666,9 @@ REGIME
 
 when material.
 
----
+______________________________________________________________________
 
-# 20. Direct and Indirect Effects
+## 20. Direct and Indirect Effects
 
 Target distinction:
 
@@ -688,9 +688,9 @@ TOTAL EFFECT
 
 These MUST NOT be conflated when the distinction changes interpretation or action.
 
----
+______________________________________________________________________
 
-# 21. Causal Effect
+## 21. Causal Effect
 
 A causal effect concerns how an outcome would differ under appropriately defined changes or interventions in a cause.
 
@@ -716,9 +716,9 @@ IDENTIFICATION BASIS
 
 Without these, the claim may be under-specified.
 
----
+______________________________________________________________________
 
-# 22. Counterfactual Boundary
+## 22. Counterfactual Boundary
 
 Counterfactual reasoning conceptually compares:
 
@@ -738,9 +738,9 @@ The unobserved counterfactual is not directly observed merely because the factua
 
 Therefore counterfactual conclusions remain dependent on assumptions, design, or validated causal models.
 
----
+______________________________________________________________________
 
-# 23. Intervention Boundary
+## 23. Intervention Boundary
 
 An intervention is not automatically a valid causal experiment.
 
@@ -774,9 +774,9 @@ INTERVENTION OCCURRED
 CAUSAL EFFECT IDENTIFIED
 ```
 
----
+______________________________________________________________________
 
-# 24. Experimental Evidence
+## 24. Experimental Evidence
 
 Randomized intervention evidence may support causal inference when the design and execution satisfy the relevant assumptions.
 
@@ -804,9 +804,9 @@ MEASUREMENT
 REGIME
 ```
 
----
+______________________________________________________________________
 
-# 25. Observational Evidence
+## 25. Observational Evidence
 
 Observational evidence can support causal inference only under appropriately justified assumptions and methods.
 
@@ -820,9 +820,9 @@ Correct class:
 METHOD- AND ASSUMPTION-DEPENDENT
 ```
 
----
+______________________________________________________________________
 
-# 26. Natural Experiments
+## 26. Natural Experiments
 
 A natural experiment may strengthen causal identification when assignment or exposure approximates a suitable exogenous variation.
 
@@ -836,9 +836,9 @@ NATURAL EXPERIMENT
 
 does not itself prove validity.
 
----
+______________________________________________________________________
 
-# 27. Quasi-Experimental Evidence
+## 27. Quasi-Experimental Evidence
 
 Methods such as:
 
@@ -858,9 +858,9 @@ may support causal inference under method-specific assumptions.
 
 This canon does not declare those assumptions universally satisfied.
 
----
+______________________________________________________________________
 
-# 28. Simulation Boundary
+## 28. Simulation Boundary
 
 Simulation can test consequences of a model.
 
@@ -872,9 +872,9 @@ SIMULATION CONSISTENT
 REAL-WORLD CAUSAL VALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 29. Prediction Boundary
+## 29. Prediction Boundary
 
 A model may predict `Y` accurately from `X` without `X` causing `Y`.
 
@@ -888,9 +888,9 @@ CAUSAL IDENTIFICATION
 
 Predictive evidence and causal evidence remain distinct.
 
----
+______________________________________________________________________
 
-# 30. Explanation Boundary
+## 30. Explanation Boundary
 
 A coherent explanation may organize observations well.
 
@@ -904,9 +904,9 @@ VERIFIED CAUSAL MODEL
 
 Narrative coherence must not bridge missing causal evidence.
 
----
+______________________________________________________________________
 
-# 31. Causal Claim Classes
+## 31. Causal Claim Classes
 
 Target causal claim vocabulary:
 
@@ -942,9 +942,9 @@ UNKNOWN_CAUSAL_RELATION
 
 Every consequential causal edge SHOULD use the weakest accurate class.
 
----
+______________________________________________________________________
 
-# 32. Epistemic Classes
+## 32. Epistemic Classes
 
 Causal conclusions remain separately classified as:
 
@@ -971,9 +971,9 @@ epistemic_class: CONDITIONAL
 
 if its causal interpretation depends materially on unresolved assumptions.
 
----
+______________________________________________________________________
 
-# 33. Causal Claim Target Schema
+## 33. Causal Claim Target Schema
 
 ```yaml
 causal_claim:
@@ -1042,9 +1042,9 @@ This is a target schema.
 
 It is not evidence of an implemented causal engine.
 
----
+______________________________________________________________________
 
-# 34. Evidence Typing
+## 34. Evidence Typing
 
 Causal support SHOULD distinguish:
 
@@ -1075,9 +1075,9 @@ is evidence that a source made the claim.
 
 It is not itself an observation establishing that causal relation.
 
----
+______________________________________________________________________
 
-# 35. Observation Boundary
+## 35. Observation Boundary
 
 An observation may establish:
 
@@ -1102,9 +1102,9 @@ A caused B
 
 The causal step must be separately licensed.
 
----
+______________________________________________________________________
 
-# 36. Source Claim Boundary
+## 36. Source Claim Boundary
 
 If ten documents state:
 
@@ -1122,9 +1122,9 @@ but all descend from one original source, the topology may contain:
 
 not ten independent causal confirmations.
 
----
+______________________________________________________________________
 
-# 37. Provenance Topology
+## 37. Provenance Topology
 
 Target representation:
 
@@ -1142,9 +1142,9 @@ CAUSAL CONCLUSION
 
 Each consequential conclusion SHOULD retain enough lineage to recover its load-bearing ancestry.
 
----
+______________________________________________________________________
 
-# 38. Provenance Independence
+## 38. Provenance Independence
 
 Independent causal confirmation MUST be demonstrated rather than inferred from file count, popularity, authority, or repetition.
 
@@ -1170,9 +1170,9 @@ DOCUMENT LINEAGE
 
 when material.
 
----
+______________________________________________________________________
 
-# 39. Anti-Sybil Causal Evidence Rule
+## 39. Anti-Sybil Causal Evidence Rule
 
 Invalid:
 
@@ -1197,9 +1197,9 @@ Correct:
 
 unless independent evidence paths are demonstrated.
 
----
+______________________________________________________________________
 
-# 40. Causal Lineage
+## 40. Causal Lineage
 
 A causal conclusion SHOULD retain lineage:
 
@@ -1219,9 +1219,9 @@ DECISION
 
 This permits selective invalidation.
 
----
+______________________________________________________________________
 
-# 41. Dependency Closure
+## 41. Dependency Closure
 
 For causal conclusion `C`, traverse only dependencies that can materially alter `C`.
 
@@ -1247,9 +1247,9 @@ Raw evidence defaults to:
 DO_NOT_LOAD_UNLESS_REQUIRED
 ```
 
----
+______________________________________________________________________
 
-# 42. Confidence Ceiling
+## 42. Confidence Ceiling
 
 For a causal conclusion depending on premises:
 
@@ -1269,9 +1269,9 @@ MIN_LOAD_BEARING_CONFIDENCE(P1...Pn)
 
 This is a reasoning constraint, not a universal probability theorem.
 
----
+______________________________________________________________________
 
-# 43. Causal Identification
+## 43. Causal Identification
 
 A causal claim requires an identification path appropriate to its evidence and design.
 
@@ -1289,9 +1289,9 @@ If no answer exists:
 CAUSAL IDENTIFICATION = UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 44. Competing Hypotheses
+## 44. Competing Hypotheses
 
 Suppose observation:
 
@@ -1319,9 +1319,9 @@ H7: chance / instability
 
 The system MUST NOT force convergence while multiple explanations remain viable.
 
----
+______________________________________________________________________
 
-# 45. COMPETING State
+## 45. COMPETING State
 
 When hypotheses have:
 
@@ -1343,9 +1343,9 @@ COMPETING
 
 until discriminating evidence exists.
 
----
+______________________________________________________________________
 
-# 46. Discriminating Evidence
+## 46. Discriminating Evidence
 
 The preferred next action is not necessarily more evidence.
 
@@ -1361,9 +1361,9 @@ MINIMIZE:
 COST + RISK + IRREVERSIBILITY
 ```
 
----
+______________________________________________________________________
 
-# 47. Falsifiers
+## 47. Falsifiers
 
 Every consequential causal model SHOULD identify conditions that would weaken or invalidate it.
 
@@ -1383,9 +1383,9 @@ MECHANISM MEASUREMENT CONTRADICTS MODEL
 REGIME CHANGE INVALIDATES ASSUMPTIONS
 ```
 
----
+______________________________________________________________________
 
-# 48. Absence of Falsification
+## 48. Absence of Falsification
 
 Canonical boundary:
 
@@ -1397,9 +1397,9 @@ VERIFIED
 
 A model may survive because discriminating tests have not been performed.
 
----
+______________________________________________________________________
 
-# 49. Scope Firewall
+## 49. Scope Firewall
 
 Every important causal claim SHOULD inherit an applicability envelope:
 
@@ -1417,9 +1417,9 @@ scope:
 
 Causal validity outside this envelope is not automatically established.
 
----
+______________________________________________________________________
 
-# 50. Regime Firewall
+## 50. Regime Firewall
 
 A causal relation valid under:
 
@@ -1445,9 +1445,9 @@ VALID_CAUSAL_CLAIM(R2)
 
 unless transfer is established.
 
----
+______________________________________________________________________
 
-# 51. Regime Shift
+## 51. Regime Shift
 
 A regime shift SHOULD trigger revalidation when it changes any load-bearing causal premise.
 
@@ -1469,9 +1469,9 @@ BEHAVIORAL ADAPTATION
 FEEDBACK STRUCTURE CHANGE
 ```
 
----
+______________________________________________________________________
 
-# 52. Temporal Validity
+## 52. Temporal Validity
 
 Causal relations may change over time.
 
@@ -1487,9 +1487,9 @@ does not universally imply:
 CAUSE AT t2
 ```
 
----
+______________________________________________________________________
 
-# 53. Scale Firewall
+## 53. Scale Firewall
 
 A relation observed at one scale may not hold at another.
 
@@ -1505,9 +1505,9 @@ POPULATION
 
 Cross-scale inference remains `MODEL` unless independently validated.
 
----
+______________________________________________________________________
 
-# 54. Aggregation Boundary
+## 54. Aggregation Boundary
 
 Aggregate relationships do not automatically establish unit-level causal relationships.
 
@@ -1521,9 +1521,9 @@ AGGREGATE PATTERN
 INDIVIDUAL CAUSAL EFFECT
 ```
 
----
+______________________________________________________________________
 
-# 55. Cross-Domain Firewall
+## 55. Cross-Domain Firewall
 
 Structural correspondence between:
 
@@ -1546,9 +1546,9 @@ MODEL
 
 until independently validated.
 
----
+______________________________________________________________________
 
-# 56. Structural Similarity Firewall
+## 56. Structural Similarity Firewall
 
 If two systems share:
 
@@ -1574,9 +1574,9 @@ SAME CAUSAL LAW
 
 unless supported independently.
 
----
+______________________________________________________________________
 
-# 57. Causal Direction
+## 57. Causal Direction
 
 When direction is unresolved:
 
@@ -1594,9 +1594,9 @@ A → B
 
 because it produces a cleaner narrative.
 
----
+______________________________________________________________________
 
-# 58. Hidden Variables
+## 58. Hidden Variables
 
 Potential unobserved variables SHOULD remain represented as uncertainty rather than silently excluded.
 
@@ -1622,17 +1622,17 @@ UNKNOWN/GAP
 
 depending on severity.
 
----
+______________________________________________________________________
 
-# 59. Selection Effects
+## 59. Selection Effects
 
 Selection into observation, treatment, survival, publication, or analysis may alter apparent relationships.
 
 A causal claim SHOULD test selection mechanisms when they can change the conclusion.
 
----
+______________________________________________________________________
 
-# 60. Measurement Integrity
+## 60. Measurement Integrity
 
 Causal integrity depends on measurement integrity.
 
@@ -1656,9 +1656,9 @@ POST-TREATMENT MEASUREMENT
 
 A causal conclusion cannot be stronger than load-bearing measurement validity.
 
----
+______________________________________________________________________
 
-# 61. Proxy Boundary
+## 61. Proxy Boundary
 
 A proxy variable:
 
@@ -1680,9 +1680,9 @@ P = L
 
 Causal interpretation must preserve proxy uncertainty.
 
----
+______________________________________________________________________
 
-# 62. Intervention Fidelity
+## 62. Intervention Fidelity
 
 If an intervention is intended to modify:
 
@@ -1700,17 +1700,17 @@ then attributing all effects to `X` may be invalid.
 
 Intervention fidelity is therefore load-bearing.
 
----
+______________________________________________________________________
 
-# 63. Interference
+## 63. Interference
 
 If one unit's treatment affects another unit's outcome, naive independent-unit assumptions may fail.
 
 Target systems SHOULD represent interference when material rather than silently assume independence.
 
----
+______________________________________________________________________
 
-# 64. Heterogeneous Effects
+## 64. Heterogeneous Effects
 
 A causal effect may differ by:
 
@@ -1732,9 +1732,9 @@ SUBSYSTEM
 
 Therefore an average effect MUST NOT automatically be interpreted as a universal individual effect.
 
----
+______________________________________________________________________
 
-# 65. Nonlinearity
+## 65. Nonlinearity
 
 Causal response may be nonlinear:
 
@@ -1750,9 +1750,9 @@ large ΔX → proportionally large ΔY
 
 Extrapolation beyond observed or validated ranges remains conditional.
 
----
+______________________________________________________________________
 
-# 66. Threshold Effects
+## 66. Threshold Effects
 
 A causal mechanism may activate only beyond:
 
@@ -1762,9 +1762,9 @@ X ≥ θ
 
 A target claim SHOULD preserve threshold assumptions where they materially affect outcomes.
 
----
+______________________________________________________________________
 
-# 67. Saturation
+## 67. Saturation
 
 Effects may plateau:
 
@@ -1777,9 +1777,9 @@ Y ≈ constant
 
 Linear extrapolation beyond saturation can produce invalid causal predictions.
 
----
+______________________________________________________________________
 
-# 68. Interaction Effects
+## 68. Interaction Effects
 
 Potential structure:
 
@@ -1793,9 +1793,9 @@ Then `Z` is an effect modifier or interaction variable under the model.
 
 A marginal causal statement may be misleading if interaction is load-bearing.
 
----
+______________________________________________________________________
 
-# 69. Feedback Adaptation
+## 69. Feedback Adaptation
 
 Interventions may change the system that generated the original evidence.
 
@@ -1813,9 +1813,9 @@ NEW CAUSAL REGIME
 
 Thus historical causal estimates may become stale after deployment.
 
----
+______________________________________________________________________
 
-# 70. Reflexive Systems
+## 70. Reflexive Systems
 
 In systems where agents react to predictions, policies, or measurements:
 
@@ -1833,9 +1833,9 @@ The causal model may participate in its own invalidation.
 
 This requires regime-aware revalidation.
 
----
+______________________________________________________________________
 
-# 71. Sensitivity
+## 71. Sensitivity
 
 For every consequential causal conclusion, identify the smallest premise capable of flipping the result.
 
@@ -1857,9 +1857,9 @@ ONE EFFECT-MODIFICATION THRESHOLD
 
 Test these first.
 
----
+______________________________________________________________________
 
-# 72. Fragility
+## 72. Fragility
 
 If plausible perturbation of one assumption changes:
 
@@ -1881,9 +1881,9 @@ Correct class:
 CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
-# 73. Robustness
+## 73. Robustness
 
 A causal conclusion is more robust when it survives plausible changes to noncritical:
 
@@ -1905,9 +1905,9 @@ without changing the decision-relevant result.
 
 Robustness does not eliminate scope boundaries.
 
----
+______________________________________________________________________
 
-# 74. Proof Capsule — Causal Claim
+## 74. Proof Capsule — Causal Claim
 
 A consequential causal conclusion SHOULD conceptually carry:
 
@@ -1963,9 +1963,9 @@ proof_capsule:
     state: established | partial | unknown
 ```
 
----
+______________________________________________________________________
 
-# 75. Proof Capsule Reuse
+## 75. Proof Capsule Reuse
 
 A causal proof capsule may be reused only while:
 
@@ -1989,9 +1989,9 @@ If any fail:
 REVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 76. Selective Invalidation
+## 76. Selective Invalidation
 
 Suppose:
 
@@ -2016,9 +2016,9 @@ but preserve unrelated conclusions.
 
 This is causal lineage repair, not global erasure.
 
----
+______________________________________________________________________
 
-# 77. Causal Epoch
+## 77. Causal Epoch
 
 A causal model may be treated as valid only for a bounded causal epoch:
 
@@ -2042,9 +2042,9 @@ A new regime may require a new causal epoch.
 
 This is a conceptual governance model, not a claim that the current ChatGPT runtime implements distributed causal epochs.
 
----
+______________________________________________________________________
 
-# 78. Epoch Finality Boundary
+## 78. Epoch Finality Boundary
 
 A finalized causal conclusion for epoch `E` means only that it satisfied the declared governance conditions for that epoch.
 
@@ -2054,9 +2054,9 @@ It does not mean:
 TRUE FOR ALL FUTURE EPOCHS
 ```
 
----
+______________________________________________________________________
 
-# 79. H/M/L Fractal Target
+## 79. H/M/L Fractal Target
 
 ```text
 H — CAUSAL INTEGRITY SYSTEM
@@ -2074,9 +2074,9 @@ Raw evidence:
 DO_NOT_LOAD_UNLESS_REQUIRED
 ```
 
----
+______________________________________________________________________
 
-# 80. H-Layer
+## 80. H-Layer
 
 Target node:
 
@@ -2102,9 +2102,9 @@ CONFLICT VISIBILITY
 VALIDATION ROUTING
 ```
 
----
+______________________________________________________________________
 
-# 81. Candidate M-Layer Families
+## 81. Candidate M-Layer Families
 
 Target organization:
 
@@ -2138,9 +2138,9 @@ M.VALIDATION
 
 These are organizational target categories, not claims of already populated native canon.
 
----
+______________________________________________________________________
 
-# 82. Candidate L-Layer Nodes
+## 82. Candidate L-Layer Nodes
 
 ```text
 L.CAUSAL_CLAIM
@@ -2176,9 +2176,9 @@ L.VALIDATION_RECEIPT
 L.GAP
 ```
 
----
+______________________________________________________________________
 
-# 83. RSCF Causal Graph
+## 83. RSCF Causal Graph
 
 Target:
 
@@ -2204,9 +2204,9 @@ CAUSAL_CLAIM
      └── VALIDATED_BY ───────> RECEIPT
 ```
 
----
+______________________________________________________________________
 
-# 84. Fast Path
+## 84. Fast Path
 
 Local causal reasoning is allowed only when:
 
@@ -2228,9 +2228,9 @@ CAUSAL TYPE DOES NOT EXCEED EVIDENCE
 
 Otherwise escalate.
 
----
+______________________________________________________________________
 
-# 85. Escalation Conditions
+## 85. Escalation Conditions
 
 Escalate when:
 
@@ -2260,22 +2260,22 @@ IRREVERSIBLE STAKES
 AMBIGUOUS DEPENDENCIES
 ```
 
----
+______________________________________________________________________
 
-# 86. Adversarial Validation
+## 86. Adversarial Validation
 
 For consequential causal claims:
 
 1. construct the strongest supported conclusion;
-2. independently search for a contradictory causal path;
-3. test correlated provenance;
-4. test stale premises;
-5. test scope leakage;
-6. test regime mismatch;
-7. test hidden dependency;
-8. test causal-direction reversal;
-9. test confounding;
-10. test stronger competing explanations.
+1. independently search for a contradictory causal path;
+1. test correlated provenance;
+1. test stale premises;
+1. test scope leakage;
+1. test regime mismatch;
+1. test hidden dependency;
+1. test causal-direction reversal;
+1. test confounding;
+1. test stronger competing explanations.
 
 If challenge succeeds:
 
@@ -2301,9 +2301,9 @@ or:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 87. Causal Challenge Matrix
+## 87. Causal Challenge Matrix
 
 Target challenge questions:
 
@@ -2329,9 +2329,9 @@ COULD THE INTERVENTION HAVE CHANGED ANOTHER VARIABLE?
 COULD ONE ASSUMPTION FLIP THE CONCLUSION?
 ```
 
----
+______________________________________________________________________
 
-# 88. Worked Semantics — Correlation
+## 88. Worked Semantics — Correlation
 
 Given:
 
@@ -2353,9 +2353,9 @@ A CAUSES B
 
 unless additional evidence licenses promotion.
 
----
+______________________________________________________________________
 
-# 89. Worked Semantics — Temporal Sequence
+## 89. Worked Semantics — Temporal Sequence
 
 Given:
 
@@ -2377,9 +2377,9 @@ Invalid without more support:
 A CAUSES B
 ```
 
----
+______________________________________________________________________
 
-# 90. Worked Semantics — Mechanism
+## 90. Worked Semantics — Mechanism
 
 Given:
 
@@ -2404,9 +2404,9 @@ not:
 VERIFIED
 ```
 
----
+______________________________________________________________________
 
-# 91. Worked Semantics — Confounder
+## 91. Worked Semantics — Confounder
 
 Observed:
 
@@ -2443,9 +2443,9 @@ CONDITIONAL
 
 as appropriate.
 
----
+______________________________________________________________________
 
-# 92. Worked Semantics — Intervention
+## 92. Worked Semantics — Intervention
 
 Suppose an intervention changes `A` and then `B` changes.
 
@@ -2475,9 +2475,9 @@ REGIME
 TIME
 ```
 
----
+______________________________________________________________________
 
-# 93. Worked Semantics — Cross-Regime Transfer
+## 93. Worked Semantics — Cross-Regime Transfer
 
 Suppose:
 
@@ -2505,9 +2505,9 @@ REVALIDATE
 
 not automatic causal reuse.
 
----
+______________________________________________________________________
 
-# 94. Worked Semantics — Shared Provenance
+## 94. Worked Semantics — Shared Provenance
 
 Suppose three studies derive from the same underlying dataset.
 
@@ -2525,9 +2525,9 @@ do not necessarily equal:
 
 Causal confidence must reflect ancestry.
 
----
+______________________________________________________________________
 
-# 95. Worked Semantics — Structural Analogy
+## 95. Worked Semantics — Structural Analogy
 
 Suppose biological system `B` and computational system `C` share a feedback architecture.
 
@@ -2549,9 +2549,9 @@ Not established:
 SAME CAUSAL LAW
 ```
 
----
+______________________________________________________________________
 
-# 96. Worked Semantics — Prediction
+## 96. Worked Semantics — Prediction
 
 Suppose model `M` predicts outcome `Y` from variable `X` with high accuracy.
 
@@ -2567,9 +2567,9 @@ Not automatically supported:
 X CAUSES Y
 ```
 
----
+______________________________________________________________________
 
-# 97. Worked Semantics — Dependency Failure
+## 97. Worked Semantics — Dependency Failure
 
 Suppose:
 
@@ -2589,9 +2589,9 @@ or downgrade it to the strongest remaining supported class.
 
 Do not invalidate unrelated claims.
 
----
+______________________________________________________________________
 
-# 98. Worked Semantics — Competing Direction
+## 98. Worked Semantics — Competing Direction
 
 Evidence supports both:
 
@@ -2615,9 +2615,9 @@ COMPETING
 
 not arbitrary direction selection.
 
----
+______________________________________________________________________
 
-# 99. Worked Semantics — Feedback
+## 99. Worked Semantics — Feedback
 
 Suppose:
 
@@ -2636,9 +2636,9 @@ may be incomplete.
 
 The causal model SHOULD preserve bidirectional temporal feedback.
 
----
+______________________________________________________________________
 
-# 100. Worked Semantics — Threshold
+## 100. Worked Semantics — Threshold
 
 Suppose evidence supports:
 
@@ -2656,9 +2656,9 @@ The causal claim MUST preserve the threshold.
 
 It MUST NOT be generalized to all `A`.
 
----
+______________________________________________________________________
 
-# 101. Worked Semantics — Heterogeneity
+## 101. Worked Semantics — Heterogeneity
 
 Suppose an average treatment effect is positive but effects vary across subgroups.
 
@@ -2677,9 +2677,9 @@ POSITIVE EFFECT FOR EVERY UNIT
 
 unless separately established.
 
----
+______________________________________________________________________
 
-# 102. Worked Semantics — Missing Counterfactual
+## 102. Worked Semantics — Missing Counterfactual
 
 Observed:
 
@@ -2705,9 +2705,9 @@ MEASUREMENT CHANGE
 
 Causal attribution remains limited.
 
----
+______________________________________________________________________
 
-# 103. Worked Semantics — Causal Decision
+## 103. Worked Semantics — Causal Decision
 
 Suppose action `A` is recommended because:
 
@@ -2733,9 +2733,9 @@ REVERSIBLE ACTION
 
 rather than presenting the causal model as certainty.
 
----
+______________________________________________________________________
 
-# 104. Action Governance
+## 104. Action Governance
 
 Validation depth SHOULD increase with:
 
@@ -2755,9 +2755,9 @@ LARGE DOWNSTREAM DEPENDENCY
 
 When causal uncertainty is material, prefer staged and reversible action.
 
----
+______________________________________________________________________
 
-# 105. Reversibility
+## 105. Reversibility
 
 Under unresolved causal uncertainty:
 
@@ -2771,9 +2771,9 @@ when expected information value and risk permit.
 
 This is a governance preference, not a universal optimization theorem.
 
----
+______________________________________________________________________
 
-# 106. Causal Decision Sufficiency
+## 106. Causal Decision Sufficiency
 
 Perfect causal knowledge is not always necessary for action.
 
@@ -2793,17 +2793,17 @@ CRITICAL GAPS EXPOSED
 
 But the causal claim itself must remain correctly classified.
 
----
+______________________________________________________________________
 
-# 107. Claim Sufficiency
+## 107. Claim Sufficiency
 
 A causal analysis may stop when the strongest decision-relevant conclusion has been established and remaining uncertainty cannot materially change the outcome.
 
 Do not continue accumulating redundant evidence merely for completeness.
 
----
+______________________________________________________________________
 
-# 108. Gap Taxonomy
+## 108. Gap Taxonomy
 
 ```text
 CRITICAL
@@ -2827,9 +2827,9 @@ EXPLANATORY
 COSMETIC
 ```
 
----
+______________________________________________________________________
 
-# 109. Critical Gap — Native Canon
+## 109. Critical Gap — Native Canon
 
 ```yaml
 gap:
@@ -2849,9 +2849,9 @@ gap:
     - lineage
 ```
 
----
+______________________________________________________________________
 
-# 110. Critical Gap — Executable Binding
+## 110. Critical Gap — Executable Binding
 
 ```yaml
 gap:
@@ -2864,9 +2864,9 @@ gap:
     inference binding has been established.
 ```
 
----
+______________________________________________________________________
 
-# 111. Critical Gap — Validation
+## 111. Critical Gap — Validation
 
 ```yaml
 gap:
@@ -2879,9 +2879,9 @@ gap:
     the Causal Integrity Canon has been established.
 ```
 
----
+______________________________________________________________________
 
-# 112. Critical Gap — Relation Registry
+## 112. Critical Gap — Relation Registry
 
 ```yaml
 gap:
@@ -2895,35 +2895,35 @@ gap:
     unestablished.
 ```
 
----
+______________________________________________________________________
 
-# 113. Promotion Gates
+## 113. Promotion Gates
 
 Before promotion from placeholder to populated canon:
 
-* [ ] substantive native-canon content recovered;
-* [ ] provenance and lineage established;
-* [ ] causal relation registry established;
-* [ ] epistemic claim classes bound;
-* [ ] scope schema bound;
-* [ ] regime schema bound;
-* [ ] causal provenance topology persisted;
-* [ ] competing-hypothesis representation implemented;
-* [ ] falsifier representation implemented;
-* [ ] dependency invalidation implemented;
-* [ ] confidence-ceiling behavior validated;
-* [ ] causal-direction negative cases tested;
-* [ ] confounding negative cases tested;
-* [ ] scope leakage tested;
-* [ ] regime shifts tested;
-* [ ] correlated provenance tested;
-* [ ] rollback basin demonstrated;
-* [ ] artifact-specific validation receipt executed;
-* [ ] critical UNKNOWN/GAP entries remain visible.
+- [ ] substantive native-canon content recovered;
+- [ ] provenance and lineage established;
+- [ ] causal relation registry established;
+- [ ] epistemic claim classes bound;
+- [ ] scope schema bound;
+- [ ] regime schema bound;
+- [ ] causal provenance topology persisted;
+- [ ] competing-hypothesis representation implemented;
+- [ ] falsifier representation implemented;
+- [ ] dependency invalidation implemented;
+- [ ] confidence-ceiling behavior validated;
+- [ ] causal-direction negative cases tested;
+- [ ] confounding negative cases tested;
+- [ ] scope leakage tested;
+- [ ] regime shifts tested;
+- [ ] correlated provenance tested;
+- [ ] rollback basin demonstrated;
+- [ ] artifact-specific validation receipt executed;
+- [ ] critical UNKNOWN/GAP entries remain visible.
 
----
+______________________________________________________________________
 
-# 114. Negative Validation Matrix
+## 114. Negative Validation Matrix
 
 Required target cases:
 
@@ -2969,9 +2969,9 @@ FAILED VALIDATION RECEIPT
 UNKNOWN/GAP TREATED AS PASS
 ```
 
----
+______________________________________________________________________
 
-# 115. Mutation Discipline
+## 115. Mutation Discipline
 
 For any consequential causal-canon mutation:
 
@@ -3005,9 +3005,9 @@ COMMIT OR HOLD
 RECEIPT
 ```
 
----
+______________________________________________________________________
 
-# 116. Fail-Closed Rule
+## 116. Fail-Closed Rule
 
 If any load-bearing causal field is unresolved:
 
@@ -3023,9 +3023,9 @@ PASS
 
 For consequential operations, fail closed unless governance explicitly defines a safe reversible fallback.
 
----
+______________________________________________________________________
 
-# 117. Rollback Basin
+## 117. Rollback Basin
 
 Before consequential mutation preserve enough state to reverse:
 
@@ -3047,9 +3047,9 @@ REGIME CHANGE
 CANONICAL PROMOTION
 ```
 
----
+______________________________________________________________________
 
-# 118. Repair Semantics
+## 118. Repair Semantics
 
 When a causal premise fails:
 
@@ -3067,9 +3067,9 @@ RECOMPUTE LOCAL CLOSURE
 
 Do not recompute the entire system unless dependency ambiguity makes local repair unsafe.
 
----
+______________________________________________________________________
 
-# 119. Observability Boundary
+## 119. Observability Boundary
 
 Observability MAY report:
 
@@ -3099,9 +3099,9 @@ AUTHORITY
 
 A monitoring event cannot itself authorize canonical mutation.
 
----
+______________________________________________________________________
 
-# 120. Cross-Plane Bindings
+## 120. Cross-Plane Bindings
 
 Target:
 
@@ -3127,20 +3127,20 @@ CAUSAL_INTEGRITY_CANON
 
 References:
 
-*
-*
-*
-*
-*
-*
-*
-*
+-
+-
+-
+-
+-
+-
+-
+-
 
 The `CROSSWALKED_BY` relation above is a **target relation** until independently established in native canon.
 
----
+______________________________________________________________________
 
-# 121. Validation Receipt Boundary
+## 121. Validation Receipt Boundary
 
 The placeholder references:
 
@@ -3154,9 +3154,9 @@ These do not establish causal-integrity validation.
 
 A dedicated artifact-specific receipt is required.
 
----
+______________________________________________________________________
 
-# 122. Target Validation Receipt
+## 122. Target Validation Receipt
 
 ```yaml
 validation_receipt:
@@ -3223,9 +3223,9 @@ validation_receipt:
 
 No executed receipt of this form is established by the supplied placeholder.
 
----
+______________________________________________________________________
 
-# 123. Causal Proof-State Transition
+## 123. Causal Proof-State Transition
 
 Target:
 
@@ -3247,9 +3247,9 @@ Promotion between states is not automatic.
 
 Every transition requires evidence appropriate to the stronger state.
 
----
+______________________________________________________________________
 
-# 124. No Monotonic Promotion Assumption
+## 124. No Monotonic Promotion Assumption
 
 Knowledge state can move backward.
 
@@ -3275,9 +3275,9 @@ UNKNOWN/GAP
 
 Downgrade is integrity preservation, not failure.
 
----
+______________________________________________________________________
 
-# 125. Causal State Machine
+## 125. Causal State Machine
 
 Target conceptual state machine:
 
@@ -3299,9 +3299,9 @@ with allowed backward transitions whenever dependencies fail.
 
 Not every claim must traverse every state.
 
----
+______________________________________________________________________
 
-# 126. Causal Contradiction
+## 126. Causal Contradiction
 
 Suppose:
 
@@ -3331,9 +3331,9 @@ they may genuinely conflict.
 
 If scopes differ, both may remain valid.
 
----
+______________________________________________________________________
 
-# 127. Contradiction Visibility
+## 127. Contradiction Visibility
 
 Unresolved causal contradiction MUST remain visible.
 
@@ -3345,9 +3345,9 @@ CONTRADICTION
 INVITATION TO INVENT CONSENSUS
 ```
 
----
+______________________________________________________________________
 
-# 128. Causal Model Selection
+## 128. Causal Model Selection
 
 A model SHOULD NOT be preferred merely because it is:
 
@@ -3365,9 +3365,9 @@ MORE AUTHORITATIVE-SOUNDING
 
 Preference requires decision-relevant evidence, assumptions, predictive discrimination, causal identification, or governance criteria appropriate to the task.
 
----
+______________________________________________________________________
 
-# 129. Parsimony Boundary
+## 129. Parsimony Boundary
 
 Parsimony may be a model-selection consideration.
 
@@ -3379,9 +3379,9 @@ SIMPLER MODEL
 TRUE CAUSAL MODEL
 ```
 
----
+______________________________________________________________________
 
-# 130. Authority Boundary
+## 130. Authority Boundary
 
 Expert or institutional authority may affect source reliability assessment.
 
@@ -3399,9 +3399,9 @@ SOURCE_CLAIM
 
 until evidence and provenance justify stronger classification.
 
----
+______________________________________________________________________
 
-# 131. Consensus Boundary
+## 131. Consensus Boundary
 
 Consensus may indicate convergence of expert judgment.
 
@@ -3415,9 +3415,9 @@ INDEPENDENT CAUSAL PROOF
 
 The evidentiary topology beneath consensus remains relevant.
 
----
+______________________________________________________________________
 
-# 132. Replication Boundary
+## 132. Replication Boundary
 
 Replication strengthens causal confidence only to the extent that replications are sufficiently independent and applicable.
 
@@ -3437,9 +3437,9 @@ MEASUREMENT FAILURE
 
 can create correlated replication.
 
----
+______________________________________________________________________
 
-# 133. External Validity
+## 133. External Validity
 
 A causal effect established in one environment may not transfer.
 
@@ -3461,9 +3461,9 @@ TIME
 
 before generalization.
 
----
+______________________________________________________________________
 
-# 134. Transportability State
+## 134. Transportability State
 
 Target classifications:
 
@@ -3479,9 +3479,9 @@ TRANSFER_UNKNOWN
 
 A causal effect can be internally valid yet externally uncertain.
 
----
+______________________________________________________________________
 
-# 135. Causal Uncertainty Vector
+## 135. Causal Uncertainty Vector
 
 When material, causal uncertainty SHOULD be decomposed into:
 
@@ -3503,9 +3503,9 @@ PROVENANCE-INDEPENDENCE UNCERTAINTY
 
 Do not compress materially different uncertainty sources into one opaque score.
 
----
+______________________________________________________________________
 
-# 136. Decision-Relevant Uncertainty
+## 136. Decision-Relevant Uncertainty
 
 Reasoning effort SHOULD prioritize uncertainty that can change:
 
@@ -3525,9 +3525,9 @@ GOVERNANCE REQUIREMENT
 
 Low-impact uncertainty may remain unresolved.
 
----
+______________________________________________________________________
 
-# 137. Causal Action Ladder
+## 137. Causal Action Ladder
 
 Under uncertainty:
 
@@ -3547,9 +3547,9 @@ IRREVERSIBLE COMMITMENT
 
 Validation burden rises with downstream consequence.
 
----
+______________________________________________________________________
 
-# 138. Causal Governance Invariant
+## 138. Causal Governance Invariant
 
 Optimization MUST NOT weaken:
 
@@ -3573,9 +3573,9 @@ VALIDATION
 
 A faster causal inference that silently removes these protections is a regression.
 
----
+______________________________________________________________________
 
-# 139. Anti-Regression Gate
+## 139. Anti-Regression Gate
 
 A causal optimization is admissible only if it preserves or improves:
 
@@ -3605,9 +3605,9 @@ Otherwise:
 ROLL BACK
 ```
 
----
+______________________________________________________________________
 
-# 140. Current Supported Canonical Claim
+## 140. Current Supported Canonical Claim
 
 From the supplied artifact itself, the strongest supported native statement is:
 
@@ -3633,9 +3633,9 @@ AMOS_MODEL / TARGET CONTRACT
 
 pending native-canon ingestion and validation.
 
----
+______________________________________________________________________
 
-# 141. Current Proof Capsule
+## 141. Current Proof Capsule
 
 ```yaml
 proof_capsule:
@@ -3682,9 +3682,9 @@ proof_capsule:
     false
 ```
 
----
+______________________________________________________________________
 
-# 142. Canonical Knowledge Capsule
+## 142. Canonical Knowledge Capsule
 
 **Class: AMOS_MODEL / SOURCE_CLAIM**
 
@@ -3781,9 +3781,9 @@ UNKNOWN/GAP
 
 until verified native-canon sources and validation receipts establish otherwise.
 
----
+______________________________________________________________________
 
-# 143. Final Integrity Rule
+## 143. Final Integrity Rule
 
 Until substantive native canon is recovered:
 
@@ -3818,9 +3818,9 @@ VALIDATE
 PROMOTE WITH RECEIPTS
 ```
 
----
+______________________________________________________________________
 
-# 144. Canonical Invariants
+## 144. Canonical Invariants
 
 ```text
 INTEGRITY > COMPLETENESS > FLUENCY > SPEED > TOKEN SAVINGS
@@ -3889,7 +3889,7 @@ UNKNOWN/GAP != PASS
 
 ---
 
-**Related:**  ·
+**Related:**  
 
 ---
 
@@ -3962,5 +3962,8 @@ RSCF-RELATIONS:
 **Validation:** NOT_ESTABLISHED
 
 
+```
+
+```
 ```
 ```

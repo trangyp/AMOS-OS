@@ -1,4 +1,7 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: AMOS SUPER FABRICATION KERNEL
 type: kernel
 source: 11_KNOWLEDGE/kernel
@@ -7,13 +10,13 @@ canon-type: os-module
 rscf-state: source-claim
 topic: amos-super-fabrication
 tags:
-- canon-group/tech-ai
-- canon/framework
-- rscf/claim
-- rscf/provenance
-- rscf/state/observation
-- topic/amos-super-fabrication
-- kernel
+  - canon-group/tech-ai
+  - canon/framework
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/observation
+  - topic/amos-super-fabrication
+  - kernel
 created: 2026-08-22
 rscf:
   state: CONDITIONAL
@@ -21,8 +24,7 @@ rscf:
   provenance: AMOS_corpus
   scope: AMOS_knowledge
 overclaim_risk: true
-overclaim_note: Contains language that may violate AMOS anti-overclaim principles;
-  classified as CONDITIONAL pending validation.
+overclaim_note: Contains language that may violate AMOS anti-overclaim principles; classified as CONDITIONAL pending validation.
 ---
 
 # AMOS SUPER FABRICATION KERNEL
@@ -1077,6 +1079,6 @@ overclaim_note: Contains language that may violate AMOS anti-overclaim principle
 **Related:** [[11_KNOWLEDGE/kernel/EV_KERNEL_MODEL|EV_KERNEL_MODEL]] · [[11_KNOWLEDGE/kernel/AMOS_TECH_EMOTION_KERNEL_V1_TECH4|AMOS_TECH_EMOTION_KERNEL_V1_TECH4]] · [[11_KNOWLEDGE/kernel/AMOS_MARKET_ECON_KERNEL_V0|AMOS_MARKET_ECON_KERNEL_V0]] · [[11_KNOWLEDGE/kernel/GOVERNANCE_KERNEL|GOVERNANCE_KERNEL]]
 ```
 
----
-**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]
+______________________________________________________________________
 
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]

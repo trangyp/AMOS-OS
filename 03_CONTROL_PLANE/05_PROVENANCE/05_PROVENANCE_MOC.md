@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: 05 Provenance MOC
 type: moc
 source: 03_CONTROL_PLANE/05_PROVENANCE
 tags:
-- 05-provenance
-- canon/control-plane
-- observed-read-set
-- provenance-ledger
-- read-set-validator
+  - 05-provenance
+  - canon/control-plane
+  - observed-read-set
+  - provenance-ledger
+  - read-set-validator
 moc: true
 rscf:
   state: DERIVED
@@ -33,5 +36,6 @@ rscf:
 
 - [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]] — 00_INDEX
 
----
+______________________________________________________________________
+
 **Parent:** [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC|03_CONTROL_PLANE_MOC]]

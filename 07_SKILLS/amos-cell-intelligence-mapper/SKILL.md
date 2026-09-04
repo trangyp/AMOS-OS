@@ -4,25 +4,22 @@ title: SKILL — Amos Cell Intelligence Mapper
 type: skill
 source: 07_SKILLS/amos-cell-intelligence-mapper
 name: amos-cell-intelligence-mapper
-description: Cell Intelligence Mapper — biology and neuroscience capability. Use when
-  biological reasoning, neuroscience, or medical analysis. Use when amos-c04-bio-neuro-master
-  routes to this specialized capability. Do not use for generic tasks outside c04
-  domain.
+description: Cell Intelligence Mapper — biology and neuroscience capability. Use when biological reasoning, neuroscience, or medical analysis. Use when amos-c04-bio-neuro-master routes to this specialized capability. Do not use for generic tasks outside c04 domain.
 parent_skill: amos-c04-bio-neuro-master
 domain: c04
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
 tags:
-- type/skill
-- type/skill
-- domain/bio-neuro
-- epistemic/source_claim
-- hml/m
-- epistemic/source_claim
-- amos-os
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/bio-neuro
+  - epistemic/source_claim
+  - hml/m
+  - epistemic/source_claim
+  - amos-os
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -32,23 +29,23 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: M
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
-- L7_authority
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
+  - L7_authority
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L7
-- L16
-- L17
-- L18
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L7
+  - L16
+  - L17
+  - L18
 license: MIT
 steward: Trang Phan
 ---
@@ -58,6 +55,7 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: c04. Parent: amos-c04-bio-neuro-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
 ## When to Use
 
 - When mapping biological mechanisms: cellular, neural, developmental, and evolutionary
@@ -83,13 +81,13 @@ Origin architect: **Trang Phan**. Domain: c04. Parent: amos-c04-bio-neuro-master
 ## Operations
 
 1. **cell_intelligence.map_mechanism**: Map biological mechanisms: cellular, neural, developmental, and evolutionary
-2. **cell_intelligence.assess_cognition**: Assess cross-species cognition: comparative neural computation and intelligence
-3. **cell_intelligence.model_morphogenesis**: Model morphogenesis: pattern formation, self-organization, and development
-4. **cell_intelligence.apply_nbi**: Apply NBI (Neurobiological Intelligence) structural analysis to biological questions
-5. **cell_intelligence.assess_claim**: Assess biological claims for epistemic class (AMOS_MODEL not medical advice)
-6. **cell_intelligence.detect_drift**: Detect drift in biological models, mechanism understanding, or evidence freshness
-7. **cell_intelligence.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-8. **cell_intelligence.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+1. **cell_intelligence.assess_cognition**: Assess cross-species cognition: comparative neural computation and intelligence
+1. **cell_intelligence.model_morphogenesis**: Model morphogenesis: pattern formation, self-organization, and development
+1. **cell_intelligence.apply_nbi**: Apply NBI (Neurobiological Intelligence) structural analysis to biological questions
+1. **cell_intelligence.assess_claim**: Assess biological claims for epistemic class (AMOS_MODEL not medical advice)
+1. **cell_intelligence.detect_drift**: Detect drift in biological models, mechanism understanding, or evidence freshness
+1. **cell_intelligence.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+1. **cell_intelligence.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## Vault-Sourced Domain Knowledge
 
@@ -139,7 +137,8 @@ NBI is AMOS_MODEL — structural reasoning about biological systems, NOT medical
 
 - **G1 (Law of Law)**
 
----
+______________________________________________________________________
+
 **Links:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 ## Related
@@ -149,17 +148,19 @@ NBI is AMOS_MODEL — structural reasoning about biological systems, NOT medical
 ## Examples
 
 - **Scenario**: When mapping biological mechanisms: cellular, neural, developmental, and evolutionary
+
   - **Input**: A query matching this skill's domain (c04)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When assessing cross-species cognition and comparative intelligence
+
   - **Input**: A query matching this skill's domain (c04)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When modeling morphogenesis: pattern formation, self-organization, and development
+
   - **Input**: A query matching this skill's domain (c04)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Anti-Patterns
 
@@ -169,7 +170,6 @@ NBI is AMOS_MODEL — structural reasoning about biological systems, NOT medical
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `amos-c04-bio-neuro-master` — routes to this skill when c04 specialization is needed
@@ -177,7 +177,6 @@ NBI is AMOS_MODEL — structural reasoning about biological systems, NOT medical
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -196,7 +195,6 @@ NBI is AMOS_MODEL — structural reasoning about biological systems, NOT medical
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -204,7 +202,6 @@ NBI is AMOS_MODEL — structural reasoning about biological systems, NOT medical
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -217,11 +214,12 @@ NBI is AMOS_MODEL — structural reasoning about biological systems, NOT medical
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `amos-c04-bio-neuro-master` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `amos-cell-intelligence-mapper-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -229,12 +227,14 @@ NBI is AMOS_MODEL — structural reasoning about biological systems, NOT medical
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-cell-intelligence-mapper
 node_type: skill
 path: 07_SKILLS/amos-cell-intelligence-mapper/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

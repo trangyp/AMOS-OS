@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Vault Domain Knowledge — Amos Reality Simulation Distinction
 type: reference
 source: 07_SKILLS/amos-reality-simulation-distinction/references
 tags:
-- reference
-- amos-reality-simulation-distinction
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-reality-simulation-distinction
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -27,47 +30,46 @@ rscf:
 
 > Path: `architecture/Four-Process-Architecture-DMER.md` | Size: 4240 chars | Match score: 12
 
-# Four-Process Architecture — Distinction, Mutation, Entropy, Repair
+## Four-Process Architecture — Distinction, Mutation, Entropy, Repair
 
 ## Canonical primitives
 
-| Primitive | Function | AMOS/vault mapping |
-|-----------|----------|-------------------|
-| **D — Distinction** | Creation/preservation of meaningful difference; decision-relevant differentiation | 7PT Constraint (scarcity/boundaries), Go Board MARK, reality gate RC/IR |
-| **M — Mutation** | Change in distinguished state; introduces time | 7PT Time + Adaptation, brain model state transitions |
-| **E — Entropy** | Degradation pressure: overload, fragmentation, contradiction, staleness | 7PT Termination pressure, evolutionary debt, memory decay |
-| **R — Repair** | Restoration of viable integrity (not historical identity) | 7PT Enforcement, rollback/recovery, substrate dependency-safe forgetting |
-
+| Primitive           | Function                                                                          | AMOS/vault mapping                                                       |
+| ------------------- | --------------------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| **D — Distinction** | Creation/preservation of meaningful difference; decision-relevant differentiation | 7PT Constraint (scarcity/boundaries), Go Board MARK, reality gate RC/IR  |
+| **M — Mutation**    | Change in distinguished state; introduces time                                    | 7PT Time + Adaptation, brain model state transitions                     |
+| **E — Entropy**     | Degradation pressure: overload, fragmentation, contradiction, staleness           | 7PT Termination pressure, evolutionary debt, memory decay                |
+| **R — Repair**      | Restoration of viable integrity (not historical identity)                         | 7PT Enforcement, rollback/recovery, substrate dependency-safe forgetting |
 
 ## Core laws extracted
 
 1. **Function ≠ implementation.**
 
 Immune response, restructuring, and memory invalidation are analogous R implementations, not identical mechanisms.
-2. **D is an integrity variable**, not just perceptual. Hallucination = failure to distinguish plausibility from evidentiary support.
-3. **Decision-relevant differentiation only.**
+2\. **D is an integrity variable**, not just perceptual. Hallucination = failure to distinguish plausibility from evidentiary support.
+3\. **Decision-relevant differentiation only.**
 
 Max distinctions ≠ intelligence; resolution must scale with consequence.
-4. **M changes D.**
+4\. **M changes D.**
 
 Knowledge without mutation awareness becomes stale knowledge.
-5. **Capability ≠ authority to mutate.**
+5\. **Capability ≠ authority to mutate.**
 
 Governance required on all self-modification.
-6. **Central scaling law:** *capability growth without repair-capacity growth increases systemic exposure.*
-7. **Resilience = persistence of effective repair under disturbance**, not absence of disturbance.
-8. **Repair quality depends on distinction quality.**
+6\. **Central scaling law:** *capability growth without repair-capacity growth increases systemic exposure.*
+7\. **Resilience = persistence of effective repair under disturbance**, not absence of disturbance.
+8\. **Repair quality depends on distinction quality.**
 
 Misdiagnosed repair increases E. → meta-repair: "repair the repair mechanism."
-9. **Collapse precedes visible failure** — repair capacity degrades silently while output stays stable. Leading indicators are R variables (slack, rollback, trust, redundancy).
-10. **Independence of failure modes > multiplicity of components.**
+9\. **Collapse precedes visible failure** — repair capacity degrades silently while output stays stable. Leading indicators are R variables (slack, rollback, trust, redundancy).
+10\. **Independence of failure modes > multiplicity of components.**
 
 Five same-model agents ≠ independent repair capacity.
-11. **Governance should target state-integrity, not just output filtering.**
-12. **Viability management ≠ performance management.**
+11\. **Governance should target state-integrity, not just output filtering.**
+12\. **Viability management ≠ performance management.**
 
 Excellent performance with declining viability is possible.
-13. **Intelligence = preservation of adaptive optionality.**
+13\. **Intelligence = preservation of adaptive optionality.**
 
 ## Diagnostic grammar (the six questions)
 
@@ -81,29 +83,22 @@ What distinctions must be preserved? What is mutating them? What is degrading co
 
 ## Executable kernel
 
-`cosmo-brain/dmer_kernel.py` — runnable implementation: `DMERSystem` with `add_distinction/add_repairer/mutat
+`cosmo-brain/dmer_kernel.py` — runnable implementation: `DMERSystem` with \`add_distinction/add_repairer/mutat
 
----
+______________________________________________________________________
 
 ### Source 2: Trang Reality Architecture
 
 > Path: `trang/Trang Reality Architecture.md` | Size: 501109 chars | Match score: 10
 
-Trang Reality Architecture
-Ontological Foundation
-Trang Reality Architecture begins from the position that reality is not fundamentally a collection of isolated objects, but a continuously evolving structure of distinctions, relations, constraints, transformations, and recursive memory. Before mathematics, language, geometry, or symbolic abstraction, the architecture places pre-symbolic operations: potential becoming distinction, distinction producing relation, relation creating constraint, and constraint stabilizing form. Topology precedes geometry; connection, separation, transformation, and persistence exist before measurement. Mathematics is therefore treated not as ultimate reality itself, but as observer-generated compression of recurring relational structures. Morphogenesis becomes a universal process in which fields generate gradients, gradients produce constraints, constraints create boundaries, boundaries guide flow, and stabilized flow becomes form. This root ontology forms the deepest layer beneath cosmology, biology, cognition, civilization, AI, and governance.
----
+## Trang Reality Architecture Ontological Foundation Trang Reality Architecture begins from the position that reality is not fundamentally a collection of isolated objects, but a continuously evolving structure of distinctions, relations, constraints, transformations, and recursive memory. Before mathematics, language, geometry, or symbolic abstraction, the architecture places pre-symbolic operations: potential becoming distinction, distinction producing relation, relation creating constraint, and constraint stabilizing form. Topology precedes geometry; connection, separation, transformation, and persistence exist before measurement. Mathematics is therefore treated not as ultimate reality itself, but as observer-generated compression of recurring relational structures. Morphogenesis becomes a universal process in which fields generate gradients, gradients produce constraints, constraints create boundaries, boundaries guide flow, and stabilized flow becomes form. This root ontology forms the deepest layer beneath cosmology, biology, cognition, civilization, AI, and governance.
 
-
-Universe Structure and Law Architecture
-The architecture models universes as viability-filtered possibility ensembles rather than singular absolute realities. A universe emerges from interactions between law systems, constant structures, dimensional constraints, symmetry conditions, entropy profiles, and observer compatibility. Constants such as π, φ, e, c, ħ, G, α, and kB are interpreted not merely as numbers, but as functional recurrence permissions governing closure, growth, process continuity, causal reach, action granularity, binding, coupling, and entropy translation. The architecture treats dimensionality as a structural determinant of adjacency, motion, memory retention, stable form formation, and observer viability. Reality emerges through symmetry-breaking and stabilized memory, where actuality is selected possibility rather than unrestricted potential. Universe health is evaluated through coherence between high-level laws, middle-layer structures, and local events under entropy pressure.
----
-
+## Universe Structure and Law Architecture The architecture models universes as viability-filtered possibility ensembles rather than singular absolute realities. A universe emerges from interactions between law systems, constant structures, dimensional constraints, symmetry conditions, entropy profiles, and observer compatibility. Constants such as π, φ, e, c, ħ, G, α, and kB are interpreted not merely as numbers, but as functional recurrence permissions governing closure, growth, process continuity, causal reach, action granularity, binding, coupling, and entropy translation. The architecture treats dimensionality as a structural determinant of adjacency, motion, memory retention, stable form formation, and observer viability. Reality emerges through symmetry-breaking and stabilized memory, where actuality is selected possibility rather than unrestricted potential. Universe health is evaluated through coherence between high-level laws, middle-layer structures, and local events under entropy pressure.
 
 QLS Substrate and Universal Logic
 At the substrate level, reality is modeled through QIC units interacting through QLS operators under Four Constraints. QLS extends across five domains: physical logic, biological logic, cognitive logic, social logic, and technological logic. In this framework, intelligence is not limited to human cognition; all adaptive systems perform discrimination, compression, prediction, and correction. Concepts become QIC clusters, learning becomes propagation, prediction becomes stabilization, and introspection becomes internal interaction. Failure across domains emerges through weak boundaries, unstable ratios, fragmented memory, stalled propagation, and failed discrimination. The architecture attempts to unify matter, biology, institutions, AI systems, and civilizations through shared recursive operational laws rather
 
----
+______________________________________________________________________
 
 ### Source 3: Distinction–Mutation–Entropy–Repair
 
@@ -145,11 +140,11 @@ The conversion preserves the source's strongest reusable structural ideas while 
 
 The retained core is:
 
-[
-\boxed{
-D \rightarrow M \rightarrow E \rightarrow R
+\[
+\\boxed{
+D \\rightarrow M \\rightarrow E \\rightarrow R
 }
-]
+\]
 
 where:
 
@@ -163,19 +158,19 @@ R — Repair: restore valid distinctions, provenance, consistency, capability, a
 
 For AI operation, persistence is not modeled as a universal physical law. It is a control objective:
 
-[
-\boxed{
-Viability_{AI}(t)
-\propto
+\[
+\\boxed{
+Viability\_{AI}(t)
+\\propto
 RepairCapacity(t)-EntropyGrowth(t)
 }
-]
+\]
 
 with the operational condition:
 
-[
+\[
 R_t > E_t
-]
+\]
 
 meaning only:
 
@@ -224,10 +219,10 @@ are not treated as biological human types, genes, diagnoses, or fixed personalit
 
 They become four AI operating modes:
 
-HUNTER      exploration / anomaly search / novelty / sparse action
-FARMER      stabilization / memory / repetition / maintenance
-WARRIOR     intervention / containment / decisive execution
-DIPLOMAT    coordination / translation / negotiation / consensus
+HUNTER exploration / anomaly search / novelty / sparse action
+FARMER stabilization / memory / repetition / maintenance
+WARRIOR intervention / containment / decisive execution
+DIPLOMAT coordination / translation / negotiation / consensus
 
 1.3 Quarantined from runtime authority
 
@@ -238,13 +233,15 @@ medical or psychiatric diagnoses mapped to archetypes
 diet prescriptions tied to archetype
 claims of inheren
 
----
+______________________________________________________________________
+
 **MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -252,12 +249,14 @@ claims of inheren
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-reality-simulation-distinction-vault-domain-knowledge
 node_type: reference
 path: 07_SKILLS/amos-reality-simulation-distinction/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

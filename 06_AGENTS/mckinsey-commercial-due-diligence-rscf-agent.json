@@ -89,7 +89,7 @@
     "mckinsey-commercial-due-diligence-rscf"
   ],
   "depends_on_workflows": [
-    "mckinsey-commercial-due-diligence-rscf-workflow.md"
+    "amos-mckinsey-commercial-due-diligence-rscf-workflow.md"
   ],
   "epistemic_class": "AMOS_MODEL",
   "claim_ceiling": 0.95,

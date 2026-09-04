@@ -12,23 +12,23 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: FRAMEWORK
 path: 11_KNOWLEDGE/05_FRAMEWORKS/UBI_WEARABLE_FRAMEWORK.md
 tags:
-- amos-os
-- knowledge
-- vault
-- 05_frameworks
-- ubi_wearable_framework
-- wearable_sensors
-- real_time_telemetry
-- biological_monitoring
-- adaptive_interfaces
-- rscf
-- canon_candidate
-- canon/knowledge
-- unified-biological-intelligence
-- ubi-score-framework
-- neurosyncai-framework
-- ubi-neurosyncai-binding
-- ubi-absolute-biological-integrity
+  - amos-os
+  - knowledge
+  - vault
+  - 05_frameworks
+  - ubi_wearable_framework
+  - wearable_sensors
+  - real_time_telemetry
+  - biological_monitoring
+  - adaptive_interfaces
+  - rscf
+  - canon_candidate
+  - canon/knowledge
+  - unified-biological-intelligence
+  - ubi-score-framework
+  - neurosyncai-framework
+  - ubi-neurosyncai-binding
+  - ubi-absolute-biological-integrity
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -43,22 +43,22 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - UBI_OFFICIAL_MANUAL
-  - AMOS_CORPUS
+    - UBI_OFFICIAL_MANUAL
+    - AMOS_CORPUS
   scope:
-  - KNOWLEDGE_FRAMEWORKS
-  - WEARABLE_TECHNOLOGY
-  - SOURCE_DEFINED_MODEL
+    - KNOWLEDGE_FRAMEWORKS
+    - WEARABLE_TECHNOLOGY
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   master_framework:
     artifact:
-    - - UNIFIED_BIOLOGICAL_INTELLIGENCE
+      -   - UNIFIED_BIOLOGICAL_INTELLIGENCE
   score_framework:
     artifact:
-    - - UBI_SCORE_FRAMEWORK
+      -   - UBI_SCORE_FRAMEWORK
   neurosyncai_coupling:
     artifact:
-    - - NEUROSYNCAI_FRAMEWORK
+      -   - NEUROSYNCAI_FRAMEWORK
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
@@ -73,9 +73,9 @@ epistemic_boundary:
 
 It defines continuous physiological telemetry collection across non-invasive sensors to quantify real-time biological alignment ($i$) and drive bio-adaptive AI pacing.
 
----
+______________________________________________________________________
 
-# 1. Wearable Sensor Mapping
+## 1. Wearable Sensor Mapping
 
 ```text
                ┌────────────────────────────────────────────────────────┐
@@ -89,18 +89,18 @@ PPG & ECG SENSORS   IMU MOTION SENSORS  GSR / EDA SENSORS   EEG HEADBAND / SENSO
   analysis (NEI)      & gait (SI)         arousal (NEI)       rhythm coherence (BEI)
 ```
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Master Framework:** [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]]
 - **Scoring Protocols:** [[11_KNOWLEDGE/05_FRAMEWORKS/UBI_SCORE_FRAMEWORK|UBI_SCORE_FRAMEWORK]]
 - **Adaptive AI:** [[11_KNOWLEDGE/05_FRAMEWORKS/NEUROSYNCAI_FRAMEWORK|NEUROSYNCAI_FRAMEWORK]] and [[11_KNOWLEDGE/05_FRAMEWORKS/UBI_NEUROSYNCAI_BINDING|UBI_NEUROSYNCAI_BINDING]]
 - **Biological Integrity:** [[11_KNOWLEDGE/05_FRAMEWORKS/UBI_ABSOLUTE_BIOLOGICAL_INTEGRITY|UBI_ABSOLUTE_BIOLOGICAL_INTEGRITY]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -119,9 +119,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]] · [[11_KNOWLEDGE/05_FRAMEWORKS/UBI_SCORE_FRAMEWORK|UBI_SCORE_FRAMEWORK]] · [[11_KNOWLEDGE/05_FRAMEWORKS/NEUROSYNCAI_FRAMEWORK|NEUROSYNCAI_FRAMEWORK]]
 
----
+______________________________________________________________________
+
 **MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]

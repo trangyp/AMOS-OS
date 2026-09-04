@@ -89,7 +89,7 @@
     "mckinsey-strategy-portfolio-engine"
   ],
   "depends_on_workflows": [
-    "mckinsey-strategy-portfolio-engine-workflow.md"
+    "amos-mckinsey-strategy-portfolio-engine-workflow.md"
   ],
   "epistemic_class": "AMOS_MODEL",
   "claim_ceiling": 0.95,

@@ -15,47 +15,47 @@ kernel_family: WORLD_MODEL
 scope: AMOS_OS
 updated: 2026-08-26
 tags:
-- amos-os
-- kernel
-- core
-- canon-group/tech-ai
-- canon/model
-- kernel/world-model
-- kernel/state
-- kernel/causality
-- kernel/context
-- kernel/provenance
-- kernel/epistemics
-- kernel/multi-hypothesis
-- kernel/counterfactual
-- kernel/structural-reasoning
-- rscf/state/model
-- rscf/claim
-- rscf/provenance
-- topic/world-model
-- topic/epistemic-regime
-- topic/causal-model
-- topic/prediction
-- topic/simulation
-- topic/uncertainty
-- readme
-- architecture
-- amos-core-laws
-- law-hierarchy
-- canon-provenance
-- source-lineage
-- k-identity
-- k-system-state
-- k-context-state
-- k-event-bus
-- k-meta-logic
-- k-metacognition
-- k-multi-hypothesis
-- k-counterfactual
-- k-structural-reasoning
-- k-causal-closure
-- k-causal-epoch
-- k-causal-hierarchy
+  - amos-os
+  - kernel
+  - core
+  - canon-group/tech-ai
+  - canon/model
+  - kernel/world-model
+  - kernel/state
+  - kernel/causality
+  - kernel/context
+  - kernel/provenance
+  - kernel/epistemics
+  - kernel/multi-hypothesis
+  - kernel/counterfactual
+  - kernel/structural-reasoning
+  - rscf/state/model
+  - rscf/claim
+  - rscf/provenance
+  - topic/world-model
+  - topic/epistemic-regime
+  - topic/causal-model
+  - topic/prediction
+  - topic/simulation
+  - topic/uncertainty
+  - readme
+  - architecture
+  - amos-core-laws
+  - law-hierarchy
+  - canon-provenance
+  - source-lineage
+  - k-identity
+  - k-system-state
+  - k-context-state
+  - k-event-bus
+  - k-meta-logic
+  - k-metacognition
+  - k-multi-hypothesis
+  - k-counterfactual
+  - k-structural-reasoning
+  - k-causal-closure
+  - k-causal-epoch
+  - k-causal-hierarchy
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -107,7 +107,7 @@ UNKNOWN/GAP != FALSE
 ABSENCE_OF_CONTRADICTION != PROOF
 ```
 
----
+______________________________________________________________________
 
 ## 1. World-Model Principle
 
@@ -145,7 +145,7 @@ This is an architectural model.
 
 It does not assert that AMOS maintains one physically centralized world-model object.
 
----
+______________________________________________________________________
 
 ## 2. Representation Firewall
 
@@ -176,7 +176,7 @@ MODEL_CONFIDENCE = 1
 
 must never be interpreted as metaphysical certainty.
 
----
+______________________________________________________________________
 
 ## 3. Typed Epistemic Objects
 
@@ -206,7 +206,7 @@ CONSTRAINT
 
 These types must not silently collapse into one another.
 
----
+______________________________________________________________________
 
 ## 4. Source Claim
 
@@ -232,7 +232,7 @@ Documentation, papers, README files, databases, humans, agents, models, APIs, an
 
 Authority of the source does not eliminate the distinction.
 
----
+______________________________________________________________________
 
 ## 5. Observation
 
@@ -259,7 +259,7 @@ provenance
 
 Observation does not automatically establish mechanism or causality.
 
----
+______________________________________________________________________
 
 ## 6. Derived Knowledge
 
@@ -281,7 +281,7 @@ min C(P_load-bearing)
 
 unless an independent validation path supplies stronger support.
 
----
+______________________________________________________________________
 
 ## 7. Model Objects
 
@@ -301,7 +301,7 @@ SIMULATION MODEL
 
 A model's validity is always bounded by an applicability envelope.
 
----
+______________________________________________________________________
 
 ## 8. Applicability Envelope
 
@@ -332,7 +332,7 @@ VALID(M, Ω2)
 
 outside the validated envelope.
 
----
+______________________________________________________________________
 
 ## 9. Scope Firewall
 
@@ -349,7 +349,7 @@ ONE SCALE → ANOTHER SCALE
 
 Cross-scope transfer remains `MODEL` unless independently validated.
 
----
+______________________________________________________________________
 
 ## 10. World State Estimate
 
@@ -381,7 +381,7 @@ K_WORLD_MODEL != K_SYSTEM_STATE
 
 `K_WORLD_MODEL` concerns AMOS's bounded representation of relevant reality outside or including the system.
 
----
+______________________________________________________________________
 
 ## 11. Context Firewall
 
@@ -401,7 +401,7 @@ CONTEXT ⊂ AVAILABLE WORLD-MODEL VIEW
 
 may hold for an operation without implying the full world model is loaded.
 
----
+______________________________________________________________________
 
 ## 12. Fractal Knowledge Loading
 
@@ -429,7 +429,7 @@ DO_NOT_LOAD_UNLESS_REQUIRED
 
 until required to resolve decision-changing uncertainty.
 
----
+______________________________________________________________________
 
 ## 13. H/M/L Decomposition
 
@@ -453,7 +453,7 @@ L: specific security / venue / interval
 
 Validity at one level does not automatically transfer to another.
 
----
+______________________________________________________________________
 
 ## 14. Dependency Closure
 
@@ -473,7 +473,7 @@ REQUIRED EVIDENCE
 
 Do not load unrelated world-model regions merely for completeness.
 
----
+______________________________________________________________________
 
 ## 15. RSCF Integration
 
@@ -497,7 +497,7 @@ The world model is therefore not merely a collection of facts.
 
 It is a dependency-aware epistemic graph.
 
----
+______________________________________________________________________
 
 ## 16. Provenance Topology
 
@@ -525,7 +525,7 @@ ONE ORIGIN
 THREE DESCENDANTS
 ```
 
----
+______________________________________________________________________
 
 ## 17. Independence Firewall
 
@@ -550,7 +550,7 @@ COMMON TRAINING CORPUS
 COMMON EVENT
 ```
 
----
+______________________________________________________________________
 
 ## 18. Sybil Hardening
 
@@ -586,7 +586,7 @@ COUNT(SOURCES)
 
 alone.
 
----
+______________________________________________________________________
 
 ## 19. Freshness
 
@@ -605,7 +605,7 @@ freshness:
 
 Historical correctness does not guarantee current applicability.
 
----
+______________________________________________________________________
 
 ## 20. Regime Awareness
 
@@ -639,7 +639,7 @@ SYSTEM
 
 depending on domain.
 
----
+______________________________________________________________________
 
 ## 21. Regime Shift
 
@@ -661,7 +661,7 @@ Dependent claims should be revalidated where:
 ASSUMPTIONS(C) ∩ CHANGED_PROPERTIES(R) ≠ ∅
 ```
 
----
+______________________________________________________________________
 
 ## 22. Multi-Hypothesis World Model
 
@@ -685,7 +685,7 @@ H1
 
 without justified discrimination.
 
----
+______________________________________________________________________
 
 ## 23. Competing Hypotheses
 
@@ -707,7 +707,7 @@ different applicability envelopes
 
 `COMPETING` is a valid epistemic state.
 
----
+______________________________________________________________________
 
 ## 24. Hypothesis Record
 
@@ -729,7 +729,7 @@ hypothesis:
   confidence:
 ```
 
----
+______________________________________________________________________
 
 ## 25. Discriminating Evidence
 
@@ -749,7 +749,7 @@ argmax(
 
 This is a decision heuristic, not a universal empirical law.
 
----
+______________________________________________________________________
 
 ## 26. Causal Firewall
 
@@ -771,7 +771,7 @@ CAUSAL EFFECT
 
 These are not interchangeable.
 
----
+______________________________________________________________________
 
 ## 27. Correlation
 
@@ -797,7 +797,7 @@ MEASUREMENT ARTIFACT
 COINCIDENCE
 ```
 
----
+______________________________________________________________________
 
 ## 28. Temporal Ordering
 
@@ -813,7 +813,7 @@ A CAUSED B
 
 Sequence is evidence about temporal ordering only unless stronger evidence is available.
 
----
+______________________________________________________________________
 
 ## 29. Structural Similarity
 
@@ -839,7 +839,7 @@ CAUSAL_IDENTITY
 
 Cross-domain analogies remain `MODEL` unless validated.
 
----
+______________________________________________________________________
 
 ## 30. Mechanism
 
@@ -855,7 +855,7 @@ B
 
 The existence of an explanatory story is not itself evidence that mechanism `M` operates.
 
----
+______________________________________________________________________
 
 ## 31. Confounding
 
@@ -872,7 +872,7 @@ can generate association between `A` and `B` without:
 A → B
 ```
 
----
+______________________________________________________________________
 
 ## 32. Mediation
 
@@ -891,7 +891,7 @@ C → B
 
 The model must preserve this distinction where decision-relevant.
 
----
+______________________________________________________________________
 
 ## 33. Feedback
 
@@ -907,7 +907,7 @@ Feedback invalidates naive one-directional interpretations.
 
 Time and state boundaries should be explicit where required.
 
----
+______________________________________________________________________
 
 ## 34. Necessary and Sufficient Conditions
 
@@ -921,7 +921,7 @@ NECESSARY_AND_SUFFICIENT(A,B)
 
 Evidence for one does not automatically establish another.
 
----
+______________________________________________________________________
 
 ## 35. Counterfactual Model
 
@@ -944,7 +944,7 @@ Counterfactual outputs are model-derived.
 
 They are not observations of the unrealized world.
 
----
+______________________________________________________________________
 
 ## 36. Counterfactual Firewall
 
@@ -965,7 +965,7 @@ REGIME
 DATA QUALITY
 ```
 
----
+______________________________________________________________________
 
 ## 37. Prediction
 
@@ -983,7 +983,7 @@ PREDICTION != FACT
 
 When the future observation arrives, prediction and outcome should remain separately represented.
 
----
+______________________________________________________________________
 
 ## 38. Forecast Validation
 
@@ -1001,7 +1001,7 @@ CALIBRATION UPDATE
 
 Do not rewrite the historical prediction after observing the result.
 
----
+______________________________________________________________________
 
 ## 39. Simulation
 
@@ -1029,7 +1029,7 @@ MODEL
 
 unless independently validated against reality.
 
----
+______________________________________________________________________
 
 ## 40. Simulation Firewall
 
@@ -1049,7 +1049,7 @@ EMPIRICAL STABILITY
 
 Benchmark success similarly does not prove universal validity.
 
----
+______________________________________________________________________
 
 ## 41. Calibration
 
@@ -1068,7 +1068,7 @@ dependent.
 
 Calibration in one environment must not silently transfer to another.
 
----
+______________________________________________________________________
 
 ## 42. Uncertainty Vector
 
@@ -1088,7 +1088,7 @@ U = {
 
 A single scalar confidence may conceal the uncertainty that actually matters.
 
----
+______________________________________________________________________
 
 ## 43. Evidence Uncertainty
 
@@ -1103,7 +1103,7 @@ sampling
 data integrity
 ```
 
----
+______________________________________________________________________
 
 ## 44. Model Uncertainty
 
@@ -1118,7 +1118,7 @@ poor calibration
 alternative models
 ```
 
----
+______________________________________________________________________
 
 ## 45. Scope Uncertainty
 
@@ -1132,7 +1132,7 @@ scale
 domain
 ```
 
----
+______________________________________________________________________
 
 ## 46. Temporal Uncertainty
 
@@ -1146,7 +1146,7 @@ unknown event timing
 regime transition
 ```
 
----
+______________________________________________________________________
 
 ## 47. Causal Uncertainty
 
@@ -1161,7 +1161,7 @@ feedback
 identifiability
 ```
 
----
+______________________________________________________________________
 
 ## 48. Provenance-Independence Uncertainty
 
@@ -1179,7 +1179,7 @@ not:
 INDEPENDENCE = TRUE
 ```
 
----
+______________________________________________________________________
 
 ## 49. Confidence Ceiling
 
@@ -1205,7 +1205,7 @@ min CONF(P_load-bearing)
 
 unless independent validation changes the support structure.
 
----
+______________________________________________________________________
 
 ## 50. Confidence Is Local
 
@@ -1224,7 +1224,7 @@ A source may be strong for one claim class and weak for another.
 
 There is no universal trust scalar sufficient for all reasoning.
 
----
+______________________________________________________________________
 
 ## 51. Contradiction
 
@@ -1249,7 +1249,7 @@ POPULARITY
 
 unless the governing epistemic contract explicitly makes that factor decisive.
 
----
+______________________________________________________________________
 
 ## 52. Conflict Record
 
@@ -1274,7 +1274,7 @@ Some apparent contradictions disappear after scope or regime separation.
 
 Others remain genuine.
 
----
+______________________________________________________________________
 
 ## 53. Adversarial Validation
 
@@ -1303,7 +1303,7 @@ or
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
 ## 54. Alternative-Path Requirement
 
@@ -1321,7 +1321,7 @@ SAME PATH
 
 A meaningful challenge should alter at least one load-bearing epistemic path.
 
----
+______________________________________________________________________
 
 ## 55. Falsifiers
 
@@ -1338,7 +1338,7 @@ falsifiers:
 
 A claim with no conceivable falsifier may require classification as a different kind of proposition rather than an empirical model claim.
 
----
+______________________________________________________________________
 
 ## 56. Invalidation
 
@@ -1358,7 +1358,7 @@ INVALIDATE(DESCENDANTS(p))
 
 Do not destroy unrelated world-model knowledge.
 
----
+______________________________________________________________________
 
 ## 57. Local Repair
 
@@ -1378,7 +1378,7 @@ REVALIDATE DEPENDENTS
 
 Global world-model recomputation is a last resort.
 
----
+______________________________________________________________________
 
 ## 58. World-Model Update
 
@@ -1406,7 +1406,7 @@ conflicts
 causal implications
 ```
 
----
+______________________________________________________________________
 
 ## 59. Update Is Not Overwrite
 
@@ -1429,7 +1429,7 @@ REGIME
 INTERPRETATION
 ```
 
----
+______________________________________________________________________
 
 ## 60. Evidence Persistence
 
@@ -1447,7 +1447,7 @@ WHAT REPLACED IT?
 
 This supports causal lineage and auditability.
 
----
+______________________________________________________________________
 
 ## 61. Knowledge Harvest
 
@@ -1471,7 +1471,7 @@ SOURCE_CLAIM
 
 until validated.
 
----
+______________________________________________________________________
 
 ## 62. Source Authority Firewall
 
@@ -1488,7 +1488,7 @@ without thereby possessing empirical authority over unrelated reality.
 
 Authority must remain typed and scoped.
 
----
+______________________________________________________________________
 
 ## 63. Consensus Firewall
 
@@ -1512,7 +1512,7 @@ INDEPENDENT CONFIRMATION
 
 Consensus strength depends on how it was produced.
 
----
+______________________________________________________________________
 
 ## 64. Absence of Evidence
 
@@ -1535,7 +1535,7 @@ TESTED AND NOT DETECTED
 DISCONFIRMED
 ```
 
----
+______________________________________________________________________
 
 ## 65. Missingness
 
@@ -1550,7 +1550,7 @@ UNKNOWN
 
 The missingness mechanism may materially change inference.
 
----
+______________________________________________________________________
 
 ## 66. Negative Evidence
 
@@ -1568,7 +1568,7 @@ DETECTION(E) expected
 evidence against H
 ```
 
----
+______________________________________________________________________
 
 ## 67. Identity
 
@@ -1590,7 +1590,7 @@ SAME NAME
 SAME ENTITY
 ```
 
----
+______________________________________________________________________
 
 ## 68. Entity Resolution
 
@@ -1613,7 +1613,7 @@ relationships
 
 Ambiguous identity remains unresolved.
 
----
+______________________________________________________________________
 
 ## 69. Relation Types
 
@@ -1640,7 +1640,7 @@ SUPPORTS
 
 Untyped edges create causal and semantic leakage.
 
----
+______________________________________________________________________
 
 ## 70. Directionality
 
@@ -1657,7 +1657,7 @@ NON-TRANSITIVE
 
 These properties must not be assumed from visualization alone.
 
----
+______________________________________________________________________
 
 ## 71. Transitivity Firewall
 
@@ -1676,7 +1676,7 @@ A R C
 
 unless relation `R` is validly transitive in the relevant scope.
 
----
+______________________________________________________________________
 
 ## 72. Composition Firewall
 
@@ -1695,7 +1695,7 @@ does not establish:
 A causes C
 ```
 
----
+______________________________________________________________________
 
 ## 73. Scale Firewall
 
@@ -1711,7 +1711,7 @@ models must not be silently treated as equivalent.
 
 Emergent macro behavior may not be reducible to a naive copy of micro-level relations.
 
----
+______________________________________________________________________
 
 ## 74. Cross-Domain Mapping
 
@@ -1733,7 +1733,7 @@ MODEL
 
 until domain-specific evidence validates transferred claims.
 
----
+______________________________________________________________________
 
 ## 75. Ontology Evolution
 
@@ -1752,7 +1752,7 @@ SUPERSEDE
 
 These operations have different lineage semantics.
 
----
+______________________________________________________________________
 
 ## 76. Model Registry Integration
 
@@ -1766,7 +1766,7 @@ The kernel world-model contract defines how model-derived representations partic
 MODEL_REGISTRY != WORLD_MODEL
 ```
 
----
+______________________________________________________________________
 
 ## 77. Knowledge Integration
 
@@ -1781,7 +1781,7 @@ FRAMEWORK KNOWLEDGE
 
 `K_WORLD_MODEL` defines kernel semantics for composing such objects into bounded representations used for reasoning.
 
----
+______________________________________________________________________
 
 ## 78. Memory Integration
 
@@ -1802,7 +1802,7 @@ MEMORY != CURRENT WORLD
 
 Memory objects must pass freshness and regime checks before current reuse.
 
----
+______________________________________________________________________
 
 ## 79. State Integration
 
@@ -1818,7 +1818,7 @@ AUTHORITATIVE SYSTEM STATE
 
 Authoritative system state remains governed by `K_SYSTEM_STATE` and control-plane authority.
 
----
+______________________________________________________________________
 
 ## 80. Event Integration
 
@@ -1836,7 +1836,7 @@ WORLD-MODEL UPDATE
 
 An event signal should not bypass epistemic classification.
 
----
+______________________________________________________________________
 
 ## 81. Sensor / Tool Integration
 
@@ -1859,7 +1859,7 @@ LLM → MODEL OUTPUT / SOURCE_CLAIM
 
 depending on the specific operation.
 
----
+______________________________________________________________________
 
 ## 82. Model-Generated Content
 
@@ -1873,7 +1873,7 @@ INDEPENDENT OBSERVATION
 
 Multiple outputs from models trained on overlapping corpora may have correlated provenance.
 
----
+______________________________________________________________________
 
 ## 83. Decision Integration
 
@@ -1897,7 +1897,7 @@ WORLD_MODEL != DECISION
 
 Decision policy belongs to governance/control structures, not to epistemic representation alone.
 
----
+______________________________________________________________________
 
 ## 84. Action Feedback
 
@@ -1919,7 +1919,7 @@ MODEL UPDATE
 
 This feedback means forecasts may become self-affecting.
 
----
+______________________________________________________________________
 
 ## 85. Reflexivity
 
@@ -1939,7 +1939,7 @@ may occur.
 
 The world model should represent such reflexive mechanisms when decision-relevant.
 
----
+______________________________________________________________________
 
 ## 86. Intervention
 
@@ -1959,7 +1959,7 @@ are not generally equivalent.
 
 This distinction is required for causal reasoning.
 
----
+______________________________________________________________________
 
 ## 87. World-Model Fast Path
 
@@ -1977,7 +1977,7 @@ NO HIDDEN CAUSAL COUPLING
 
 Then only the relevant world-model fragment needs to be loaded.
 
----
+______________________________________________________________________
 
 ## 88. Escalation Conditions
 
@@ -1996,7 +1996,7 @@ GOVERNANCE IS AFFECTED
 IRREVERSIBLE STAKES EXIST
 ```
 
----
+______________________________________________________________________
 
 ## 89. Sensitivity
 
@@ -2013,7 +2013,7 @@ flip(premise) → flip(conclusion)
 
 Test `S*` before accumulating low-value evidence.
 
----
+______________________________________________________________________
 
 ## 90. Fragility
 
@@ -2027,7 +2027,7 @@ CONDITIONAL
 
 rather than overstated.
 
----
+______________________________________________________________________
 
 ## 91. Robustness
 
@@ -2037,7 +2037,7 @@ Robustness does not mean universal truth.
 
 It is bounded by the tested perturbation set and applicability envelope.
 
----
+______________________________________________________________________
 
 ## 92. Conclusion Classes
 
@@ -2054,7 +2054,7 @@ UNKNOWN/GAP
 
 Do not promote merely for fluency or convenience.
 
----
+______________________________________________________________________
 
 ## 93. Verified
 
@@ -2070,7 +2070,7 @@ INFALLIBLE
 
 Verification remains scoped and freshness-bounded.
 
----
+______________________________________________________________________
 
 ## 94. Derived
 
@@ -2078,13 +2078,13 @@ Verification remains scoped and freshness-bounded.
 
 Its validity remains dependent on those premises.
 
----
+______________________________________________________________________
 
 ## 95. Model
 
 `MODEL` means a representation, hypothesis, abstraction, or explanatory/predictive construct not promoted to verified empirical fact.
 
----
+______________________________________________________________________
 
 ## 96. Conditional
 
@@ -2097,7 +2097,7 @@ THEN conclusion C
 
 and one or more assumptions remain decision-relevant.
 
----
+______________________________________________________________________
 
 ## 97. Competing
 
@@ -2105,7 +2105,7 @@ and one or more assumptions remain decision-relevant.
 
 This is mandatory when forcing one conclusion would exceed available evidence.
 
----
+______________________________________________________________________
 
 ## 98. Unknown / Gap
 
@@ -2125,7 +2125,7 @@ UNKNOWN/GAP
 PASS
 ```
 
----
+______________________________________________________________________
 
 ## 99. World-Model Invariants
 
@@ -2206,7 +2206,7 @@ WM-25
 EPISTEMIC TYPE MUST SURVIVE WORLD-MODEL TRANSFORMATION
 ```
 
----
+______________________________________________________________________
 
 ## 100. Failure Modes
 
@@ -2240,7 +2240,7 @@ HISTORICAL_OVERWRITE
 GLOBAL_INVALIDATION
 ```
 
----
+______________________________________________________________________
 
 ## 101. Required Tests
 
@@ -2283,7 +2283,7 @@ ESCALATION TEST
 SENSITIVITY TEST
 ```
 
----
+______________________________________________________________________
 
 ## 102. Negative Tests
 
@@ -2349,7 +2349,7 @@ NEWER CLAIM
 MUST FAIL
 ```
 
----
+______________________________________________________________________
 
 ## 103. Promotion Gate
 
@@ -2397,7 +2397,7 @@ FORMAL_VERIFICATION = UNKNOWN/GAP
 EMPIRICAL_VALIDATION = UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
 ## 104. Integrity Note
 
@@ -2439,7 +2439,7 @@ FORMAL_VERIFICATION = UNKNOWN/GAP
 RUNTIME_AUTHORITY = NONE
 ```
 
----
+______________________________________________________________________
 
 ## 105. RSCF Node
 
@@ -2487,7 +2487,7 @@ RSCF-RELATIONS:
   - VERIFIED_BY: README
 ```
 
----
+______________________________________________________________________
 
 ## 106. Canonical Summary
 
@@ -2652,13 +2652,14 @@ README
 ```text
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
-**MOC:** [[02_KERNEL/04_STATE/04_STATE_MOC|04_STATE_MOC]]
+______________________________________________________________________
 
+**MOC:** [[02_KERNEL/04_STATE/04_STATE_MOC|04_STATE_MOC]]

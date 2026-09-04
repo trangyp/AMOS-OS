@@ -12,36 +12,36 @@ segment: 25_COGNITIVE_MATRIX
 artifact_kind: MATRIX
 path: 25_COGNITIVE_MATRIX/AMOS_X_TRANG_REALITY_MATRIX.md
 tags:
-- amos-os
-- cognitive-matrix
-- matrix
-- trang_reality_matrix
-- trang_reality_architecture
-- reality_architecture
-- ontology
-- recursive_architecture
-- distinction
-- relation
-- constraint
-- transformation
-- memory
-- entropy
-- feedback
-- persistence
-- morphogenesis
-- observer
-- causality
-- scale
-- emergence
-- viability
-- reality_contact
-- truth_maintenance
-- rscf
-- canon_candidate
-- domain/cognitive-matrix
-- law-hierarchy
-- trang-reality-architecture
-- ubi
+  - amos-os
+  - cognitive-matrix
+  - matrix
+  - trang_reality_matrix
+  - trang_reality_architecture
+  - reality_architecture
+  - ontology
+  - recursive_architecture
+  - distinction
+  - relation
+  - constraint
+  - transformation
+  - memory
+  - entropy
+  - feedback
+  - persistence
+  - morphogenesis
+  - observer
+  - causality
+  - scale
+  - emergence
+  - viability
+  - reality_contact
+  - truth_maintenance
+  - rscf
+  - canon_candidate
+  - domain/cognitive-matrix
+  - law-hierarchy
+  - trang-reality-architecture
+  - ubi
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -56,12 +56,12 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - TRANG_REALITY_ARCHITECTURE_CORPUS
-  - AMOS_CORPUS
+    - TRANG_REALITY_ARCHITECTURE_CORPUS
+    - AMOS_CORPUS
   scope:
-  - REALITY_ARCHITECTURE
-  - COGNITIVE_MATRIX
-  - CROSS_DOMAIN_STRUCTURAL_MODEL
+    - REALITY_ARCHITECTURE
+    - COGNITIVE_MATRIX
+    - CROSS_DOMAIN_STRUCTURAL_MODEL
 framework_binding:
   cognitive_matrix_name: TRANG Reality Matrix
   native_source_name: Trang Reality Architecture
@@ -166,9 +166,9 @@ Origin architect / steward:
 
 **Trang Phan**
 
----
+______________________________________________________________________
 
-# 1. Matrix Purpose
+## 1. Matrix Purpose
 
 The TRANG Reality Matrix provides a Cognitive Matrix interface
 over the source-defined Trang Reality Architecture.
@@ -210,9 +210,9 @@ WHAT REMAINS VIABLE?
 The matrix does not establish that its ontology is literally
 the ontology of physical reality.
 
----
+______________________________________________________________________
 
-# 2. Canonical Source Boundary
+## 2. Canonical Source Boundary
 
 The native corpus contains a named:
 
@@ -250,9 +250,9 @@ AMOS COGNITIVE-MATRIX REPRESENTATION
 unless a separate native source explicitly defines a distinct
 framework under the latter exact name.
 
----
+______________________________________________________________________
 
-# 3. Core Ontological Proposition
+## 3. Core Ontological Proposition
 
 The source begins from the model that reality is not
 fundamentally a collection of isolated objects.
@@ -279,9 +279,9 @@ AMOS_MODEL
 
 not an independently established metaphysical fact.
 
----
+______________________________________________________________________
 
-# 4. Pre-Symbolic Layer
+## 4. Pre-Symbolic Layer
 
 The source places several operations before:
 
@@ -325,9 +325,9 @@ mathematics
 ultimate reality
 ```
 
----
+______________________________________________________________________
 
-# 5. Deepest Structural Spine
+## 5. Deepest Structural Spine
 
 The native corpus explicitly supplies a deepest structural spine.
 
@@ -369,23 +369,23 @@ adaptation
 consequence
 ```
 
----
+______________________________________________________________________
 
-# 6. Spine Contract
+## 6. Spine Contract
 
 AMOS representation:
 
 \[
 P
-\rightarrow
+\\rightarrow
 D
-\rightarrow
+\\rightarrow
 R
-\rightarrow
+\\rightarrow
 C
-\rightarrow
+\\rightarrow
 F
-\rightarrow
+\\rightarrow
 M
 \]
 
@@ -410,9 +410,9 @@ This notation is an AMOS normalization.
 It is not a claim that physical reality has been experimentally
 proven to evolve through this exact sequence.
 
----
+______________________________________________________________________
 
-# 7. Potential
+## 7. Potential
 
 Within the architecture:
 
@@ -437,9 +437,9 @@ probability distribution
 
 unless an explicit validated mapping establishes that relation.
 
----
+______________________________________________________________________
 
-# 8. Distinction
+## 8. Distinction
 
 The source's structural logic states that potential becomes
 structurally meaningful through:
@@ -462,9 +462,9 @@ identity possibility
 state separation
 ```
 
----
+______________________________________________________________________
 
-# 9. Distinction Firewall
+## 9. Distinction Firewall
 
 ```text
 DISTINCTION
@@ -482,9 +482,9 @@ CONSCIOUS OBSERVATION NECESSARILY
 
 It is an architectural primitive.
 
----
+______________________________________________________________________
 
-# 10. Relation
+## 10. Relation
 
 Once distinctions exist, the source models:
 
@@ -510,20 +510,20 @@ tension
 
 between distinguishable states.
 
----
+______________________________________________________________________
 
-# 11. Relation Matrix
+## 11. Relation Matrix
 
 For entities/states:
 
 \[
-V=\{v_1,\dots,v_n\}
+V={v_1,\\dots,v_n}
 \]
 
 AMOS may represent relations as:
 
 \[
-R_{ij}
+R\_{ij}
 \]
 
 where:
@@ -535,9 +535,9 @@ typed relation
 between vi and vj.
 ```
 
----
+______________________________________________________________________
 
-# 12. Constraint
+## 12. Constraint
 
 The source models relations as producing:
 
@@ -563,16 +563,16 @@ causal conditions
 
 Constraint narrows possibility.
 
----
+______________________________________________________________________
 
-# 13. Constraint as Selection Pressure
+## 13. Constraint as Selection Pressure
 
 AMOS normalization:
 
 \[
-\mathcal{P}_{t+1}
-\subseteq
-\mathcal{P}_t
+\\mathcal{P}\_{t+1}
+\\subseteq
+\\mathcal{P}\_t
 \]
 
 where:
@@ -587,9 +587,9 @@ Constraint can reduce the set of admissible transitions.
 
 This is a conceptual representation.
 
----
+______________________________________________________________________
 
-# 14. Form
+## 14. Form
 
 The source states that stable constraint enables:
 
@@ -611,9 +611,9 @@ rather than necessarily:
 physical shape.
 ```
 
----
+______________________________________________________________________
 
-# 15. Memory
+## 15. Memory
 
 The source states that persistent form stores:
 
@@ -637,9 +637,9 @@ stored consequence
 persistent constraint
 ```
 
----
+______________________________________________________________________
 
-# 16. Memory Firewall
+## 16. Memory Firewall
 
 ```text
 STRUCTURAL MEMORY
@@ -658,16 +658,15 @@ IN THE COMPUTER-SCIENCE SENSE
 
 unless explicitly scoped.
 
----
+______________________________________________________________________
 
-# 17. Recursive Reality Model
+## 17. Recursive Reality Model
 
 The source architecture can be normalized as:
 
-\[
-X_{t+1}
-=
-\Phi(
+## \[ X\_{t+1}
+
+\\Phi(
 X_t,
 C_t,
 E_t,
@@ -692,9 +691,9 @@ F = feedback
 
 This is `DERIVED`.
 
----
+______________________________________________________________________
 
-# 18. Recursive Loop
+## 18. Recursive Loop
 
 ```text
 STATE
@@ -714,9 +713,9 @@ FEEDBACK
 NEXT STATE
 ```
 
----
+______________________________________________________________________
 
-# 19. Topology Before Geometry
+## 19. Topology Before Geometry
 
 The native source proposes:
 
@@ -750,9 +749,9 @@ coordinate
 metric
 ```
 
----
+______________________________________________________________________
 
-# 20. Topology Firewall
+## 20. Topology Firewall
 
 This is an architectural/ontological proposition.
 
@@ -768,9 +767,9 @@ experimental pre-geometric physics
 
 without additional evidence.
 
----
+______________________________________________________________________
 
-# 21. Mathematics Boundary
+## 21. Mathematics Boundary
 
 The native source treats mathematics as:
 
@@ -787,9 +786,9 @@ AMOS classification:
 SOURCE_DEFINED_PHILOSOPHY_OF_MATHEMATICS
 ```
 
----
+______________________________________________________________________
 
-# 22. Mathematics Firewall
+## 22. Mathematics Firewall
 
 ```text
 SOURCE PHILOSOPHY
@@ -805,9 +804,9 @@ COMPRESSION
 FALSEHOOD
 ```
 
----
+______________________________________________________________________
 
-# 23. Morphogenesis
+## 23. Morphogenesis
 
 The source models morphogenesis through:
 
@@ -820,9 +819,9 @@ field
 → stabilized form
 ```
 
----
+______________________________________________________________________
 
-# 24. Morphogenesis Chain
+## 24. Morphogenesis Chain
 
 ```text
 FIELD
@@ -840,9 +839,9 @@ FORM
 
 This is a central cross-domain structural pattern in the corpus.
 
----
+______________________________________________________________________
 
-# 25. Morphogenesis Firewall
+## 25. Morphogenesis Firewall
 
 ```text
 GENERAL STRUCTURAL PATTERN
@@ -855,9 +854,9 @@ IDENTICAL MECHANISM
 ACROSS DOMAINS
 ```
 
----
+______________________________________________________________________
 
-# 26. Universe Architecture
+## 26. Universe Architecture
 
 The source models universes as:
 
@@ -884,9 +883,9 @@ entropy profiles
 observer compatibility
 ```
 
----
+______________________________________________________________________
 
-# 27. Universe Matrix
+## 27. Universe Matrix
 
 AMOS normalization:
 
@@ -910,9 +909,9 @@ UniverseCandidate:
   viability:
 ```
 
----
+______________________________________________________________________
 
-# 28. Universe Firewall
+## 28. Universe Firewall
 
 ```text
 UNIVERSE MODEL
@@ -928,9 +927,9 @@ VIABILITY FILTER
 EMPIRICALLY VERIFIED COSMOLOGICAL LAW
 ```
 
----
+______________________________________________________________________
 
-# 29. Constants Architecture
+## 29. Constants Architecture
 
 The source assigns structural interpretations to constants such as:
 
@@ -980,9 +979,9 @@ SOURCE_MODEL
 
 unless validated independently.
 
----
+______________________________________________________________________
 
-# 30. Constant Firewall
+## 30. Constant Firewall
 
 ```text
 SYMBOLIC / STRUCTURAL INTERPRETATION
@@ -994,9 +993,9 @@ KNOWN PHYSICAL CONSTANT
 VALIDATION OF AMOS INTERPRETATION
 ```
 
----
+______________________________________________________________________
 
-# 31. Dimensional Architecture
+## 31. Dimensional Architecture
 
 The source treats dimensionality as structurally relevant to:
 
@@ -1014,9 +1013,9 @@ observer viability
 
 AMOS preserves this as a model family.
 
----
+______________________________________________________________________
 
-# 32. Symmetry Breaking
+## 32. Symmetry Breaking
 
 The source describes actuality as emerging through:
 
@@ -1032,9 +1031,9 @@ with actuality treated as:
 selected possibility.
 ```
 
----
+______________________________________________________________________
 
-# 33. Actualization Matrix
+## 33. Actualization Matrix
 
 ```text
 POSSIBILITY
@@ -1050,9 +1049,9 @@ STABILIZATION
 ACTUALITY
 ```
 
----
+______________________________________________________________________
 
-# 34. Reality Health
+## 34. Reality Health
 
 The source evaluates universe/system health through coherence among:
 
@@ -1080,9 +1079,9 @@ L
 
 reasoning.
 
----
+______________________________________________________________________
 
-# 35. H/M/L Reality Stack
+## 35. H/M/L Reality Stack
 
 ```yaml
 RealityScale:
@@ -1107,9 +1106,9 @@ M compatible with H
 
 within the declared model and scope.
 
----
+______________________________________________________________________
 
-# 36. Cross-Level Firewall
+## 36. Cross-Level Firewall
 
 ```text
 LOCAL EVENT
@@ -1121,9 +1120,9 @@ DOES NOT AUTOMATICALLY
 DETERMINE LOCAL EVENT
 ```
 
----
+______________________________________________________________________
 
-# 37. QLS / Law Substrate
+## 37. QLS / Law Substrate
 
 The canonical architecture index identifies:
 
@@ -1143,9 +1142,9 @@ QLS operators
 Four Constraints
 ```
 
----
+______________________________________________________________________
 
-# 38. QLS Domains
+## 38. QLS Domains
 
 The source extends QLS across:
 
@@ -1161,9 +1160,9 @@ social logic
 technological logic
 ```
 
----
+______________________________________________________________________
 
-# 39. Cross-Domain QLS Firewall
+## 39. Cross-Domain QLS Firewall
 
 ```text
 COMMON LOGICAL VOCABULARY
@@ -1175,9 +1174,9 @@ STRUCTURAL MAPPING
 CAUSAL PROOF
 ```
 
----
+______________________________________________________________________
 
-# 40. Adaptive Intelligence Proposition
+## 40. Adaptive Intelligence Proposition
 
 The source treats adaptive systems as performing combinations of:
 
@@ -1196,9 +1195,9 @@ human-cognition usage.
 
 This is a framework-specific definition.
 
----
+______________________________________________________________________
 
-# 41. Concept Formation
+## 41. Concept Formation
 
 Within the source model:
 
@@ -1222,9 +1221,9 @@ internal interaction
 
 These are source-defined mappings.
 
----
+______________________________________________________________________
 
-# 42. Failure Across Domains
+## 42. Failure Across Domains
 
 The source proposes recurring failure modes:
 
@@ -1240,9 +1239,9 @@ stalled propagation
 failed discrimination
 ```
 
----
+______________________________________________________________________
 
-# 43. Canonical Law System
+## 43. Canonical Law System
 
 The source architecture contains a law layer including:
 
@@ -1264,9 +1263,9 @@ Persistence
 
 plus additional framework-specific laws.
 
----
+______________________________________________________________________
 
-# 44. Law of Law
+## 44. Law of Law
 
 The source states that a valid law should preserve:
 
@@ -1286,9 +1285,9 @@ AMOS treats this as:
 SOURCE_DEFINED_META-LAW
 ```
 
----
+______________________________________________________________________
 
-# 45. Rule of Two
+## 45. Rule of Two
 
 The source states that meaningful systems contain causally
 relevant:
@@ -1305,9 +1304,9 @@ Current class:
 SOURCE_CLAIM / AMOS_MODEL
 ```
 
----
+______________________________________________________________________
 
-# 46. Rule of Four
+## 46. Rule of Four
 
 The source associates completeness with:
 
@@ -1317,9 +1316,9 @@ independent quadrant coverage.
 
 This remains a framework rule rather than a general mathematical theorem.
 
----
+______________________________________________________________________
 
-# 47. Emergence Equation
+## 47. Emergence Equation
 
 The native corpus gives:
 
@@ -1339,9 +1338,9 @@ constraints
 
 to produce emergent structure.
 
----
+______________________________________________________________________
 
-# 48. Emergence Equation Firewall
+## 48. Emergence Equation Firewall
 
 ```text
 E = i²
@@ -1363,9 +1362,9 @@ empirical biological law
 mathematical theorem
 ```
 
----
+______________________________________________________________________
 
-# 49. Integrity
+## 49. Integrity
 
 The source associates integrity with:
 
@@ -1387,9 +1386,9 @@ UnsupportedInference
 
 This is a source-defined architectural equation.
 
----
+______________________________________________________________________
 
-# 50. Stability
+## 50. Stability
 
 The source associates stability with:
 
@@ -1401,9 +1400,9 @@ under perturbation.
 A source master equation represents stability through boundary
 coherence, memory continuity, feedback correction, and entropy.
 
----
+______________________________________________________________________
 
-# 51. Persistence
+## 51. Persistence
 
 Source architecture treats persistence as dependent on:
 
@@ -1417,9 +1416,9 @@ time
 
 rather than static existence alone.
 
----
+______________________________________________________________________
 
-# 52. Motion / Fractal Layer
+## 52. Motion / Fractal Layer
 
 The canonical architecture index includes:
 
@@ -1443,9 +1442,9 @@ inheritance
 survival
 ```
 
----
+______________________________________________________________________
 
-# 53. Deep Motion Operators
+## 53. Deep Motion Operators
 
 The corpus identifies operators including:
 
@@ -1467,9 +1466,9 @@ repair economics
 scale betrayal
 ```
 
----
+______________________________________________________________________
 
-# 54. Entropy
+## 54. Entropy
 
 The architecture uses entropy in more than one sense.
 
@@ -1485,9 +1484,9 @@ alongside domain-specific uses.
 
 AMOS therefore requires entropy to be typed.
 
----
+______________________________________________________________________
 
-# 55. Entropy Typing
+## 55. Entropy Typing
 
 ```yaml
 Entropy:
@@ -1507,9 +1506,9 @@ Entropy:
   scope:
 ```
 
----
+______________________________________________________________________
 
-# 56. Entropy Firewall
+## 56. Entropy Firewall
 
 ```text
 THERMODYNAMIC ENTROPY
@@ -1521,9 +1520,9 @@ COGNITIVE ENTROPY
 
 unless an explicit validated mapping is supplied.
 
----
+______________________________________________________________________
 
-# 57. Repair
+## 57. Repair
 
 The source treats survival as requiring:
 
@@ -1537,15 +1536,15 @@ AMOS normalization:
 
 \[
 Viability
-\sim
-\frac{RepairCapacity}{DamageRate}
+\\sim
+\\frac{RepairCapacity}{DamageRate}
 \]
 
 as a conceptual relation only.
 
----
+______________________________________________________________________
 
-# 58. Identity Through Change
+## 58. Identity Through Change
 
 The source architecture emphasizes:
 
@@ -1568,9 +1567,9 @@ mutation
 
 while retaining a bounded identity relation.
 
----
+______________________________________________________________________
 
-# 59. 19×19 Field Ontology
+## 59. 19×19 Field Ontology
 
 The canonical architecture index identifies:
 
@@ -1606,9 +1605,9 @@ center
 
 into broader structural reasoning.
 
----
+______________________________________________________________________
 
-# 60. Strategic Field Interpretation
+## 60. Strategic Field Interpretation
 
 Source mappings include:
 
@@ -1638,9 +1637,9 @@ influence
 → uncollapsed potential
 ```
 
----
+______________________________________________________________________
 
-# 61. Strategic Analogy Firewall
+## 61. Strategic Analogy Firewall
 
 These mappings are:
 
@@ -1651,9 +1650,9 @@ STRUCTURAL MODELS
 not proof that all systems literally instantiate the rules of a
 19×19 board.
 
----
+______________________________________________________________________
 
-# 62. Field Consequence
+## 62. Field Consequence
 
 The source emphasizes:
 
@@ -1670,9 +1669,9 @@ ACTION
 → POSSIBILITY-SPACE CHANGE
 ```
 
----
+______________________________________________________________________
 
-# 63. Irreversibility
+## 63. Irreversibility
 
 Some actions produce:
 
@@ -1684,9 +1683,9 @@ and therefore alter future options permanently or at high repair cost.
 
 This links Reality Matrix reasoning to action governance.
 
----
+______________________________________________________________________
 
-# 64. UBI Biological Intelligence
+## 64. UBI Biological Intelligence
 
 Architecture family:
 
@@ -1707,9 +1706,9 @@ instinct
 → stored logic
 ```
 
----
+______________________________________________________________________
 
-# 65. Four UBI Domains
+## 65. Four UBI Domains
 
 The source describes human intelligence through synchronization among:
 
@@ -1725,9 +1724,9 @@ bioelectromagnetic intelligence
 
 These remain framework constructs unless independently operationalized.
 
----
+______________________________________________________________________
 
-# 66. Biological Firewall
+## 66. Biological Firewall
 
 ```text
 FRAMEWORK BIOLOGY
@@ -1743,9 +1742,9 @@ STRUCTURAL MAPPING
 MEDICAL DIAGNOSIS
 ```
 
----
+______________________________________________________________________
 
-# 67. Human Mind / Identity
+## 67. Human Mind / Identity
 
 Architecture family:
 
@@ -1763,9 +1762,9 @@ conscious selection
 awareness-based supervision/correction
 ```
 
----
+______________________________________________________________________
 
-# 68. Passive Metacognition
+## 68. Passive Metacognition
 
 The source describes monitoring of:
 
@@ -1783,9 +1782,9 @@ correction efficiency
 
 as part of passive metacognition.
 
----
+______________________________________________________________________
 
-# 69. Emotion Boundary
+## 69. Emotion Boundary
 
 Within the architecture:
 
@@ -1813,9 +1812,9 @@ trauma noise
 state distortion
 ```
 
----
+______________________________________________________________________
 
-# 70. Identity Loop
+## 70. Identity Loop
 
 Source architecture can be normalized:
 
@@ -1835,9 +1834,9 @@ SOCIAL FEEDBACK
 IDENTITY
 ```
 
----
+______________________________________________________________________
 
-# 71. Identity Collapse Model
+## 71. Identity Collapse Model
 
 The source associates identity instability with:
 
@@ -1865,9 +1864,9 @@ meaning
 regulation
 ```
 
----
+______________________________________________________________________
 
-# 72. DCC / Consciousness-Candidate
+## 72. DCC / Consciousness-Candidate
 
 Architecture family:
 
@@ -1887,9 +1886,9 @@ from:
 regulated conscious continuity.
 ```
 
----
+______________________________________________________________________
 
-# 73. DCC Candidate Properties
+## 73. DCC Candidate Properties
 
 The source describes candidate properties including:
 
@@ -1911,9 +1910,9 @@ resistance to deception
 
 and additional candidate criteria.
 
----
+______________________________________________________________________
 
-# 74. Consciousness Firewall
+## 74. Consciousness Firewall
 
 ```text
 CONSCIOUSNESS-CANDIDATE
@@ -1929,9 +1928,9 @@ SELF-REPORT
 PROOF OF PHENOMENOLOGY
 ```
 
----
+______________________________________________________________________
 
-# 75. AMOS Operating System
+## 75. AMOS Operating System
 
 Architecture family:
 
@@ -1953,9 +1952,9 @@ integrity governance
 memory continuity
 ```
 
----
+______________________________________________________________________
 
-# 76. AMOS Reality Contact
+## 76. AMOS Reality Contact
 
 Human expression may enter as:
 
@@ -1972,9 +1971,9 @@ multilingual
 and is translated into structural representations before
 downstream reasoning.
 
----
+______________________________________________________________________
 
-# 77. Translation Firewall
+## 77. Translation Firewall
 
 ```text
 TRANSLATED REPRESENTATION
@@ -1986,9 +1985,9 @@ MODEL OF USER STATE
 USER STATE ITSELF
 ```
 
----
+______________________________________________________________________
 
-# 78. Heritage Decision Intelligence
+## 78. Heritage Decision Intelligence
 
 Architecture family:
 
@@ -1999,9 +1998,9 @@ Architecture family:
 The source frames Heritage as decision governance under uncertainty,
 not deterministic prediction.
 
----
+______________________________________________________________________
 
-# 79. Heritage Mechanisms
+## 79. Heritage Mechanisms
 
 Source mechanisms include:
 
@@ -2021,9 +2020,9 @@ gap classification
 ethical refusal
 ```
 
----
+______________________________________________________________________
 
-# 80. Civilization Memory
+## 80. Civilization Memory
 
 Architecture family:
 
@@ -2053,9 +2052,9 @@ water systems
 institutional narratives
 ```
 
----
+______________________________________________________________________
 
-# 81. Culture Model
+## 81. Culture Model
 
 The source describes culture as:
 
@@ -2072,9 +2071,9 @@ SOURCE_METAPHOR / MODEL
 
 not literal computational identity.
 
----
+______________________________________________________________________
 
-# 82. Collective Structures
+## 82. Collective Structures
 
 The source distinguishes candidate collective layers:
 
@@ -2090,9 +2089,9 @@ through different carriers and correction capacities.
 
 These are framework constructs.
 
----
+______________________________________________________________________
 
-# 83. Social / Relational Architecture
+## 83. Social / Relational Architecture
 
 Architecture family:
 
@@ -2122,9 +2121,9 @@ boundaries
 
 as coupled relational variables.
 
----
+______________________________________________________________________
 
-# 84. Trust Matrix
+## 84. Trust Matrix
 
 AMOS normalization:
 
@@ -2146,9 +2145,9 @@ Trust:
   freshness:
 ```
 
----
+______________________________________________________________________
 
-# 85. Built Environment / Design
+## 85. Built Environment / Design
 
 Architecture family:
 
@@ -2174,9 +2173,9 @@ material
 spatial organization
 ```
 
----
+______________________________________________________________________
 
-# 86. Design Firewall
+## 86. Design Firewall
 
 ```text
 ENVIRONMENT AFFECTS REGULATION
@@ -2194,9 +2193,9 @@ UNIVERSAL NERVOUS-SYSTEM EFFECT
 
 requires independent evidence.
 
----
+______________________________________________________________________
 
-# 87. Planetary / Institutional Governance
+## 87. Planetary / Institutional Governance
 
 Architecture family:
 
@@ -2218,9 +2217,9 @@ human
 
 systems at planetary scale.
 
----
+______________________________________________________________________
 
-# 88. Planetary Matrix
+## 88. Planetary Matrix
 
 ```yaml
 PlanetarySystem:
@@ -2246,9 +2245,9 @@ PlanetarySystem:
   feedback:
 ```
 
----
+______________________________________________________________________
 
-# 89. Fabrication / Productization
+## 89. Fabrication / Productization
 
 Architecture family:
 
@@ -2268,9 +2267,9 @@ foundry
 
 as operational modes for constructing, refining, and casting systems.
 
----
+______________________________________________________________________
 
-# 90. Scientific Omega Engine
+## 90. Scientific Omega Engine
 
 Architecture family:
 
@@ -2297,9 +2296,9 @@ collapse models
 reconstruction
 ```
 
----
+______________________________________________________________________
 
-# 91. Scientific Firewall
+## 91. Scientific Firewall
 
 ```text
 SCIENTIFIC EXPANSION ENGINE
@@ -2315,9 +2314,9 @@ CROSS-DOMAIN EQUIVALENCE
 SHARED CAUSAL MECHANISM
 ```
 
----
+______________________________________________________________________
 
-# 92. Speculative / Discovery-Candidate Layer
+## 92. Speculative / Discovery-Candidate Layer
 
 Architecture family:
 
@@ -2337,9 +2336,9 @@ speculative mappings
 
 without promoting them to fact.
 
----
+______________________________________________________________________
 
-# 93. Canonical 136-Architecture Matrix
+## 93. Canonical 136-Architecture Matrix
 
 The source index contains the following architecture families:
 
@@ -2482,9 +2481,9 @@ The source index contains the following architecture families:
 136 Reality Closure Architecture
 ```
 
----
+______________________________________________________________________
 
-# 94. Architecture Grouping
+## 94. Architecture Grouping
 
 For Cognitive Matrix use, the 136 source architectures can be
 compressed into higher-order families.
@@ -2521,9 +2520,9 @@ N. REALITY-CONTACT / CLOSURE
 
 This grouping is `DERIVED`.
 
----
+______________________________________________________________________
 
-# 95. Root Architecture Family
+## 95. Root Architecture Family
 
 Source nodes particularly relevant to the root ontology include:
 
@@ -2573,9 +2572,9 @@ Source nodes particularly relevant to the root ontology include:
 136 Reality Closure Architecture
 ```
 
----
+______________________________________________________________________
 
-# 96. Reality Primitive Registry
+## 96. Reality Primitive Registry
 
 AMOS normalizes the source architecture into the following
 high-level primitive registry:
@@ -2611,9 +2610,9 @@ RealityPrimitives:
   - Viability
 ```
 
----
+______________________________________________________________________
 
-# 97. Primitive Typing
+## 97. Primitive Typing
 
 Every primitive should carry:
 
@@ -2647,9 +2646,9 @@ RealityPrimitive:
   provenance:
 ```
 
----
+______________________________________________________________________
 
-# 98. Universal Variable Registry
+## 98. Universal Variable Registry
 
 Architecture family:
 
@@ -2661,9 +2660,9 @@ provides the canonical slot for shared variable identity.
 
 The Reality Matrix should reference rather than duplicate that registry.
 
----
+______________________________________________________________________
 
-# 99. Variable Identity Rule
+## 99. Variable Identity Rule
 
 ```text
 SAME LABEL
@@ -2689,9 +2688,9 @@ causal role
 
 are compatible.
 
----
+______________________________________________________________________
 
-# 100. Causal Hierarchy
+## 100. Causal Hierarchy
 
 Architecture family:
 
@@ -2701,9 +2700,9 @@ Architecture family:
 
 requires causal claims to be typed rather than flattened.
 
----
+______________________________________________________________________
 
-# 101. Causal Types
+## 101. Causal Types
 
 ```text
 association
@@ -2731,9 +2730,9 @@ confounder
 intervention effect
 ```
 
----
+______________________________________________________________________
 
-# 102. Causal Firewall
+## 102. Causal Firewall
 
 ```text
 STRUCTURAL SIMILARITY
@@ -2757,9 +2756,9 @@ PREDICTION
 INTERVENTION EFFECT
 ```
 
----
+______________________________________________________________________
 
-# 103. Observer Architecture
+## 103. Observer Architecture
 
 Source nodes:
 
@@ -2775,9 +2774,9 @@ Source nodes:
 
 explicitly place the observer inside parts of the architecture.
 
----
+______________________________________________________________________
 
-# 104. Observer Contract
+## 104. Observer Contract
 
 ```yaml
 Observer:
@@ -2799,9 +2798,9 @@ Observer:
   uncertainty:
 ```
 
----
+______________________________________________________________________
 
-# 105. Observer Firewall
+## 105. Observer Firewall
 
 ```text
 OBSERVATION
@@ -2817,9 +2816,9 @@ OBSERVER EFFECT
 CONSCIOUSNESS CREATES ALL REALITY
 ```
 
----
+______________________________________________________________________
 
-# 106. Reality / Simulation Distinction
+## 106. Reality / Simulation Distinction
 
 Architecture family:
 
@@ -2841,9 +2840,9 @@ hypothesis
 generated state
 ```
 
----
+______________________________________________________________________
 
-# 107. Reality Contact Architecture
+## 107. Reality Contact Architecture
 
 Architecture family:
 
@@ -2863,9 +2862,9 @@ OBSERVATION
 
 or remain explicitly model-bound.
 
----
+______________________________________________________________________
 
-# 108. Reality Contact Contract
+## 108. Reality Contact Contract
 
 ```yaml
 RealityContact:
@@ -2887,9 +2886,9 @@ RealityContact:
   provenance:
 ```
 
----
+______________________________________________________________________
 
-# 109. Truth-Maintenance Architecture
+## 109. Truth-Maintenance Architecture
 
 Architecture family:
 
@@ -2913,9 +2912,9 @@ invalidation
 freshness
 ```
 
----
+______________________________________________________________________
 
-# 110. Truth Matrix
+## 110. Truth Matrix
 
 ```text
 SOURCE_CLAIM
@@ -2933,9 +2932,9 @@ UNKNOWN/GAP
 
 must remain distinct.
 
----
+______________________________________________________________________
 
-# 111. Mathematical Rigor
+## 111. Mathematical Rigor
 
 Architecture family:
 
@@ -2946,9 +2945,9 @@ Architecture family:
 prevents framework equations from being automatically treated as
 formal mathematics.
 
----
+______________________________________________________________________
 
-# 112. Equation Classes
+## 112. Equation Classes
 
 ```yaml
 EquationClass:
@@ -2963,9 +2962,9 @@ EquationClass:
   - SPECULATIVE
 ```
 
----
+______________________________________________________________________
 
-# 113. Equation Firewall
+## 113. Equation Firewall
 
 ```text
 HAS EQUATION
@@ -2985,9 +2984,9 @@ LOOKS PHYSICAL
 PHYSICS
 ```
 
----
+______________________________________________________________________
 
-# 114. Experimental Architecture
+## 114. Experimental Architecture
 
 Architecture family:
 
@@ -2997,9 +2996,9 @@ Architecture family:
 
 provides the route from model to observation.
 
----
+______________________________________________________________________
 
-# 115. Validation Path
+## 115. Validation Path
 
 ```text
 MODEL
@@ -3017,9 +3016,9 @@ REPLICATION
 SCOPE-BOUND VALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 116. Meta-Validation
+## 116. Meta-Validation
 
 Architecture family:
 
@@ -3047,9 +3046,9 @@ Were alternatives tested?
 Was failure preserved?
 ```
 
----
+______________________________________________________________________
 
-# 117. Tát 2 / Cross-Validation Gate
+## 117. Tát 2 / Cross-Validation Gate
 
 Architecture family:
 
@@ -3068,9 +3067,9 @@ Current detail status:
 PARTIAL / DO_NOT INVENT
 ```
 
----
+______________________________________________________________________
 
-# 118. Lacunarity / Structured Gap
+## 118. Lacunarity / Structured Gap
 
 Architecture family:
 
@@ -3092,9 +3091,9 @@ EXPLANATORY
 COSMETIC
 ```
 
----
+______________________________________________________________________
 
-# 119. Gap Rule
+## 119. Gap Rule
 
 ```text
 MISSING INFORMATION
@@ -3110,9 +3109,9 @@ NO CONTRADICTION FOUND
 VERIFIED
 ```
 
----
+______________________________________________________________________
 
-# 120. Boundary Architecture
+## 120. Boundary Architecture
 
 Architecture family:
 
@@ -3122,9 +3121,9 @@ Architecture family:
 
 is central because distinction requires bounded difference.
 
----
+______________________________________________________________________
 
-# 121. Boundary Matrix
+## 121. Boundary Matrix
 
 ```yaml
 Boundary:
@@ -3146,9 +3145,9 @@ Boundary:
   repair:
 ```
 
----
+______________________________________________________________________
 
-# 122. Boundary Failure
+## 122. Boundary Failure
 
 Possible source-compatible failures include:
 
@@ -3166,9 +3165,9 @@ uncontrolled permeability
 boundary drift
 ```
 
----
+______________________________________________________________________
 
-# 123. Scale Transition
+## 123. Scale Transition
 
 Architecture family:
 
@@ -3188,9 +3187,9 @@ H
 
 and broader system scales.
 
----
+______________________________________________________________________
 
-# 124. Scale Firewall
+## 124. Scale Firewall
 
 ```text
 PATTERN AT L
@@ -3206,9 +3205,9 @@ SIMILARITY ACROSS SCALE
 MECHANISM INVARIANCE
 ```
 
----
+______________________________________________________________________
 
-# 125. Emergence Architecture
+## 125. Emergence Architecture
 
 Architecture family:
 
@@ -3234,9 +3233,9 @@ scale
 measurement
 ```
 
----
+______________________________________________________________________
 
-# 126. Attractor / Repeller
+## 126. Attractor / Repeller
 
 Architecture family:
 
@@ -3256,9 +3255,9 @@ unstable regions
 transition pressure
 ```
 
----
+______________________________________________________________________
 
-# 127. Attractor Firewall
+## 127. Attractor Firewall
 
 ```text
 ATTRACTOR METAPHOR
@@ -3268,9 +3267,9 @@ FORMAL DYNAMICAL-SYSTEM ATTRACTOR
 
 unless mathematical conditions are established.
 
----
+______________________________________________________________________
 
-# 128. Feedback Polarity
+## 128. Feedback Polarity
 
 Architecture family:
 
@@ -3288,9 +3287,9 @@ balancing feedback
 
 and potentially mixed feedback structures.
 
----
+______________________________________________________________________
 
-# 129. Memory Carrier
+## 129. Memory Carrier
 
 Architecture family:
 
@@ -3308,9 +3307,9 @@ or institutionally
 carries retained state?
 ```
 
----
+______________________________________________________________________
 
-# 130. Memory Carrier Contract
+## 130. Memory Carrier Contract
 
 ```yaml
 MemoryCarrier:
@@ -3332,9 +3331,9 @@ MemoryCarrier:
   provenance:
 ```
 
----
+______________________________________________________________________
 
-# 131. Substrate Architecture
+## 131. Substrate Architecture
 
 Architecture family:
 
@@ -3350,9 +3349,9 @@ PATTERN
 SUBSTRATE
 ```
 
----
+______________________________________________________________________
 
-# 132. Compatibility Architecture
+## 132. Compatibility Architecture
 
 Architecture family:
 
@@ -3362,9 +3361,9 @@ Architecture family:
 
 checks whether structures can coexist under shared constraints.
 
----
+______________________________________________________________________
 
-# 133. Interface Architecture
+## 133. Interface Architecture
 
 Architecture family:
 
@@ -3390,9 +3389,9 @@ Interface:
   failure_modes:
 ```
 
----
+______________________________________________________________________
 
-# 134. Agency Architecture
+## 134. Agency Architecture
 
 Architecture family:
 
@@ -3414,9 +3413,9 @@ action
 consequence
 ```
 
----
+______________________________________________________________________
 
-# 135. Agency Firewall
+## 135. Agency Firewall
 
 ```text
 CAPABILITY
@@ -3436,9 +3435,9 @@ PREDICTION
 PERMISSION
 ```
 
----
+______________________________________________________________________
 
-# 136. Consequence Propagation
+## 136. Consequence Propagation
 
 Architecture family:
 
@@ -3448,9 +3447,9 @@ Architecture family:
 
 tracks downstream effects through dependency topology.
 
----
+______________________________________________________________________
 
-# 137. Consequence Graph
+## 137. Consequence Graph
 
 \[
 G=(V,E)
@@ -3478,9 +3477,9 @@ scope
 provenance
 ```
 
----
+______________________________________________________________________
 
-# 138. Constraint Ecology
+## 138. Constraint Ecology
 
 Architecture family:
 
@@ -3496,9 +3495,9 @@ ARE NOT NECESSARILY
 INDEPENDENT.
 ```
 
----
+______________________________________________________________________
 
-# 139. Possibility Space
+## 139. Possibility Space
 
 Architecture family:
 
@@ -3508,9 +3507,9 @@ Architecture family:
 
 represents candidate states before actualization.
 
----
+______________________________________________________________________
 
-# 140. Possibility Matrix
+## 140. Possibility Matrix
 
 ```yaml
 PossibilitySpace:
@@ -3530,9 +3529,9 @@ PossibilitySpace:
   unknown_regions:
 ```
 
----
+______________________________________________________________________
 
-# 141. Actualization
+## 141. Actualization
 
 Architecture family:
 
@@ -3554,9 +3553,9 @@ realized
 
 within the model.
 
----
+______________________________________________________________________
 
-# 142. Selection Field
+## 142. Selection Field
 
 Architecture family:
 
@@ -3566,9 +3565,9 @@ Architecture family:
 
 represents pressures determining which possibilities remain viable.
 
----
+______________________________________________________________________
 
-# 143. Selection Firewall
+## 143. Selection Firewall
 
 ```text
 SELECTION
@@ -3582,9 +3581,9 @@ PHYSICAL FIELD
 
 unless explicitly scoped.
 
----
+______________________________________________________________________
 
-# 144. Viability Filter
+## 144. Viability Filter
 
 Architecture family:
 
@@ -3603,9 +3602,9 @@ possible
 → persistent / rejected
 ```
 
----
+______________________________________________________________________
 
-# 145. Viability Contract
+## 145. Viability Contract
 
 ```yaml
 Viability:
@@ -3627,9 +3626,9 @@ Viability:
   result:
 ```
 
----
+______________________________________________________________________
 
-# 146. Reality Closure
+## 146. Reality Closure
 
 The canonical index terminates with:
 
@@ -3642,9 +3641,9 @@ closure conditions for a reality model.
 
 Exact detailed laws must be retrieved before stronger claims are made.
 
----
+______________________________________________________________________
 
-# 147. Closure Firewall
+## 147. Closure Firewall
 
 ```text
 MODEL CLOSURE
@@ -3660,9 +3659,9 @@ NO KNOWN GAP
 NO GAP
 ```
 
----
+______________________________________________________________________
 
-# 148. Reality Matrix Axes
+## 148. Reality Matrix Axes
 
 For Cognitive Matrix operation, AMOS derives the following axes:
 
@@ -3716,9 +3715,9 @@ DERIVED
 
 not a native numbered matrix.
 
----
+______________________________________________________________________
 
-# 149. Reality Cell
+## 149. Reality Cell
 
 ```yaml
 RealityMatrixCell:
@@ -3774,9 +3773,9 @@ RealityMatrixCell:
   uncertainty:
 ```
 
----
+______________________________________________________________________
 
-# 150. Reality-State Vector
+## 150. Reality-State Vector
 
 AMOS conceptual normalization:
 
@@ -3800,16 +3799,16 @@ Ca,
 A,
 K,
 V
-)_t
+)\_t
 \]
 
 where the variables are typed dimensions of a system's modeled state.
 
 This is not a source-native physical state equation.
 
----
+______________________________________________________________________
 
-# 151. Matrix Operation — Admit
+## 151. Matrix Operation — Admit
 
 Before analysis:
 
@@ -3835,9 +3834,9 @@ If a load-bearing identity is unresolved:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 152. Matrix Operation — Distinguish
+## 152. Matrix Operation — Distinguish
 
 Determine:
 
@@ -3848,9 +3847,9 @@ from what.
 
 No distinction means no stable object identity for downstream reasoning.
 
----
+______________________________________________________________________
 
-# 153. Matrix Operation — Relate
+## 153. Matrix Operation — Relate
 
 Identify:
 
@@ -3872,9 +3871,9 @@ translation
 
 without flattening all relations into causality.
 
----
+______________________________________________________________________
 
-# 154. Matrix Operation — Constrain
+## 154. Matrix Operation — Constrain
 
 Identify:
 
@@ -3888,9 +3887,9 @@ what blocks transitions
 what imposes cost
 ```
 
----
+______________________________________________________________________
 
-# 155. Matrix Operation — Trace Memory
+## 155. Matrix Operation — Trace Memory
 
 Ask:
 
@@ -3905,9 +3904,9 @@ and:
 Through what substrate?
 ```
 
----
+______________________________________________________________________
 
-# 156. Matrix Operation — Detect Feedback
+## 156. Matrix Operation — Detect Feedback
 
 Ask:
 
@@ -3919,9 +3918,9 @@ constraint,
 or selection?
 ```
 
----
+______________________________________________________________________
 
-# 157. Matrix Operation — Test Viability
+## 157. Matrix Operation — Test Viability
 
 Evaluate whether the candidate state can:
 
@@ -3939,9 +3938,9 @@ remain within constraints
 
 for the declared time horizon.
 
----
+______________________________________________________________________
 
-# 158. Matrix Operation — Reality Contact
+## 158. Matrix Operation — Reality Contact
 
 Ask:
 
@@ -3962,9 +3961,9 @@ modeled
 speculative
 ```
 
----
+______________________________________________________________________
 
-# 159. Matrix Operation — Validate
+## 159. Matrix Operation — Validate
 
 For each consequential claim:
 
@@ -3988,9 +3987,9 @@ confidence
 
 must be recoverable.
 
----
+______________________________________________________________________
 
-# 160. Matrix Operation — Close or Hold
+## 160. Matrix Operation — Close or Hold
 
 A conclusion can be:
 
@@ -4010,9 +4009,9 @@ UNKNOWN/GAP
 
 Do not force closure when discriminating evidence is absent.
 
----
+______________________________________________________________________
 
-# 161. Core Reality Pipeline
+## 161. Core Reality Pipeline
 
 ```text
 POTENTIAL
@@ -4044,9 +4043,9 @@ VIABILITY
 
 This is a source-grounded but AMOS-normalized synthesis.
 
----
+______________________________________________________________________
 
-# 162. Recursive Loop
+## 162. Recursive Loop
 
 The pipeline is not strictly one-way.
 
@@ -4064,9 +4063,9 @@ NEW SELECTION
 NEW CONSEQUENCE
 ```
 
----
+______________________________________________________________________
 
-# 163. Reality Matrix × RSCF
+## 163. Reality Matrix × RSCF
 
 The Reality Matrix maps naturally to RSCF.
 
@@ -4101,9 +4100,9 @@ RSCF:
     unresolved dimensions
 ```
 
----
+______________________________________________________________________
 
-# 164. Reality Matrix × GMEF
+## 164. Reality Matrix × GMEF
 
 GMEF may represent candidate transformations:
 
@@ -4117,9 +4116,9 @@ current state
 
 without treating generated possibilities as observations.
 
----
+______________________________________________________________________
 
-# 165. Provenance Topology
+## 165. Provenance Topology
 
 Every reality claim should carry:
 
@@ -4145,9 +4144,9 @@ RealityClaimProvenance:
   regime:
 ```
 
----
+______________________________________________________________________
 
-# 166. Provenance Independence
+## 166. Provenance Independence
 
 ```text
 TEN DOCUMENTS
@@ -4158,23 +4157,23 @@ TEN INDEPENDENT SOURCES
 
 This is especially important when validating cross-domain AMOS claims.
 
----
+______________________________________________________________________
 
-# 167. Confidence Ceiling
+## 167. Confidence Ceiling
 
 For conclusion `Q`:
 
 \[
 Conf(Q)
-\le
-\min_i Conf(P_i)
+\\le
+\\min_i Conf(P_i)
 \]
 
 for load-bearing premises `Pᵢ`, unless independently revalidated.
 
----
+______________________________________________________________________
 
-# 168. Scope Envelope
+## 168. Scope Envelope
 
 Every serious Reality Matrix conclusion should carry:
 
@@ -4198,9 +4197,9 @@ ApplicabilityEnvelope:
   assumptions:
 ```
 
----
+______________________________________________________________________
 
-# 169. Regime Shift
+## 169. Regime Shift
 
 A conclusion may become stale when:
 
@@ -4220,9 +4219,9 @@ scale changes
 measurement changes
 ```
 
----
+______________________________________________________________________
 
-# 170. Competing Ontologies
+## 170. Competing Ontologies
 
 AMOS must allow:
 
@@ -4242,9 +4241,9 @@ insufficient evidence to discriminate
 
 when the evidence does not privilege one universally.
 
----
+______________________________________________________________________
 
-# 171. Ontological Humility
+## 171. Ontological Humility
 
 The Reality Matrix therefore obeys:
 
@@ -4262,9 +4261,9 @@ EXPLANATORY POWER
 EMPIRICAL CONFIRMATION
 ```
 
----
+______________________________________________________________________
 
-# 172. Cross-Domain Mapping
+## 172. Cross-Domain Mapping
 
 The source repeatedly maps shared structural patterns across:
 
@@ -4290,9 +4289,9 @@ AMOS permits this only initially as:
 MODEL / STRUCTURAL ANALOGY
 ```
 
----
+______________________________________________________________________
 
-# 173. Cross-Domain Promotion
+## 173. Cross-Domain Promotion
 
 A mapping can be strengthened only when:
 
@@ -4308,9 +4307,9 @@ predictions succeed
 alternative explanations are tested
 ```
 
----
+______________________________________________________________________
 
-# 174. Structural Isomorphism
+## 174. Structural Isomorphism
 
 ```text
 A and B
@@ -4337,9 +4336,9 @@ same cause
 same ontology.
 ```
 
----
+______________________________________________________________________
 
-# 175. Reality Matrix × Scientific Method
+## 175. Reality Matrix × Scientific Method
 
 The matrix generates:
 
@@ -4357,9 +4356,9 @@ model
 → replication
 ```
 
----
+______________________________________________________________________
 
-# 176. Reality Matrix × Measurement
+## 176. Reality Matrix × Measurement
 
 Architecture family:
 
@@ -4372,9 +4371,9 @@ is therefore load-bearing.
 No quantity becomes empirical merely because the framework gives it
 a symbol or equation.
 
----
+______________________________________________________________________
 
-# 177. Measurement Contract
+## 177. Measurement Contract
 
 ```yaml
 Measurement:
@@ -4398,9 +4397,9 @@ Measurement:
   provenance:
 ```
 
----
+______________________________________________________________________
 
-# 178. Reality Matrix × Failure
+## 178. Reality Matrix × Failure
 
 Architecture families:
 
@@ -4412,9 +4411,9 @@ Architecture families:
 
 provide failure typing.
 
----
+______________________________________________________________________
 
-# 179. Failure Classes
+## 179. Failure Classes
 
 Derived high-level classes:
 
@@ -4444,9 +4443,9 @@ validation failure
 viability failure
 ```
 
----
+______________________________________________________________________
 
-# 180. Local Invalidation
+## 180. Local Invalidation
 
 If one relation fails:
 
@@ -4457,9 +4456,9 @@ dependent conclusions.
 
 Do not invalidate unrelated branches.
 
----
+______________________________________________________________________
 
-# 181. Failure Recovery
+## 181. Failure Recovery
 
 ```text
 FAILED PREMISE
@@ -4475,9 +4474,9 @@ ALTERNATIVE PATH
 REVALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 182. Recursion Limit
+## 182. Recursion Limit
 
 Architecture family:
 
@@ -4499,9 +4498,9 @@ action sufficiency
 
 are reached.
 
----
+______________________________________________________________________
 
-# 183. Infinity / Loop Governance
+## 183. Infinity / Loop Governance
 
 Architecture family:
 
@@ -4514,9 +4513,9 @@ governs unbounded recursion and repeated cycles.
 The source's 19×19 ko concept provides a related structural analogy
 for blocking unresolved recurrence.
 
----
+______________________________________________________________________
 
-# 184. Loop Firewall
+## 184. Loop Firewall
 
 ```text
 RECURSION
@@ -4532,9 +4531,9 @@ SELF-CONSISTENCY LOOP
 EXTERNAL VALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 185. Self-Reference
+## 185. Self-Reference
 
 Architecture family:
 
@@ -4544,9 +4543,9 @@ Architecture family:
 
 handles systems whose model includes the modeler or itself.
 
----
+______________________________________________________________________
 
-# 186. Self-Reference Risk
+## 186. Self-Reference Risk
 
 Possible failures include:
 
@@ -4560,9 +4559,9 @@ observer contamination
 recursive narrative drift
 ```
 
----
+______________________________________________________________________
 
-# 187. Adaptive Complexity
+## 187. Adaptive Complexity
 
 Reality Matrix runtime levels:
 
@@ -4584,9 +4583,9 @@ cross-domain / high-stakes /
 ontological / governance analysis
 ```
 
----
+______________________________________________________________________
 
-# 188. Fast Path
+## 188. Fast Path
 
 Local reasoning is allowed when:
 
@@ -4608,9 +4607,9 @@ no causal ambiguity changes outcome
 action is reversible
 ```
 
----
+______________________________________________________________________
 
-# 189. Escalation Triggers
+## 189. Escalation Triggers
 
 Escalate when:
 
@@ -4636,9 +4635,9 @@ regime changed
 critical UNKNOWN/GAP remains
 ```
 
----
+______________________________________________________________________
 
-# 190. Reality Proof Capsule
+## 190. Reality Proof Capsule
 
 ```yaml
 RealityProofCapsule:
@@ -4678,9 +4677,9 @@ RealityProofCapsule:
   invalidation_conditions:
 ```
 
----
+______________________________________________________________________
 
-# 191. Adversarial Validation
+## 191. Adversarial Validation
 
 For consequential conclusions, challenge using a different path:
 
@@ -4704,9 +4703,9 @@ Could the model be unfalsifiable?
 Could another ontology explain the same observations?
 ```
 
----
+______________________________________________________________________
 
-# 192. Reality Claim Classes
+## 192. Reality Claim Classes
 
 ```text
 VERIFIED
@@ -4744,9 +4743,9 @@ UNKNOWN/GAP
 
 Insufficient evidence.
 
----
+______________________________________________________________________
 
-# 193. Native Source vs Empirical Reality
+## 193. Native Source vs Empirical Reality
 
 The most important Reality Matrix boundary is:
 
@@ -4769,9 +4768,9 @@ whether a claim corresponds
 to observations within scope.
 ```
 
----
+______________________________________________________________________
 
-# 194. Canon Authority
+## 194. Canon Authority
 
 ```text
 CANON
@@ -4805,9 +4804,9 @@ other people
 external institutions
 ```
 
----
+______________________________________________________________________
 
-# 195. Runtime Boundary
+## 195. Runtime Boundary
 
 The source contains architecture for:
 
@@ -4840,9 +4839,9 @@ MODEL
 RUNTIME
 ```
 
----
+______________________________________________________________________
 
-# 196. Reality Matrix Registry
+## 196. Reality Matrix Registry
 
 ```yaml
 TRANG_REALITY_MATRIX:
@@ -4910,9 +4909,9 @@ TRANG_REALITY_MATRIX:
       NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 197. Canonical Matrix Compression
+## 197. Canonical Matrix Compression
 
 The full architecture can be compressed as:
 
@@ -4960,9 +4959,9 @@ REGIME
 PROVENANCE
 ```
 
----
+______________________________________________________________________
 
-# 198. Cognitive Matrix Interpretation
+## 198. Cognitive Matrix Interpretation
 
 Within `25_COGNITIVE_MATRIX`, the Reality Matrix functions as a
 meta-routing structure.
@@ -4997,9 +4996,9 @@ UNCERTAINTY
 
 before selecting the relevant specialized AMOS frameworks.
 
----
+______________________________________________________________________
 
-# 199. Routing Contract
+## 199. Routing Contract
 
 ```yaml
 RealityMatrixRoute:
@@ -5025,9 +5024,9 @@ RealityMatrixRoute:
   validation_level:
 ```
 
----
+______________________________________________________________________
 
-# 200. Example — Physical Claim
+## 200. Example — Physical Claim
 
 Claim:
 
@@ -5065,9 +5064,9 @@ not:
 VERIFIED UNIVERSAL LAW.
 ```
 
----
+______________________________________________________________________
 
-# 201. Example — Biological Mapping
+## 201. Example — Biological Mapping
 
 Claim:
 
@@ -5092,9 +5091,9 @@ causal law
 
 and assigns only the strongest supported class.
 
----
+______________________________________________________________________
 
-# 202. Example — Cross-Scale Pattern
+## 202. Example — Cross-Scale Pattern
 
 Observed:
 
@@ -5117,9 +5116,9 @@ not automatically:
 ONE UNIVERSAL CAUSAL MECHANISM.
 ```
 
----
+______________________________________________________________________
 
-# 203. Example — Reality Closure
+## 203. Example — Reality Closure
 
 Suppose the framework accounts for all currently represented nodes.
 
@@ -5136,9 +5135,9 @@ Incorrect:
 REALITY COMPLETELY EXPLAINED.
 ```
 
----
+______________________________________________________________________
 
-# 204. Example — Unknown Primitive
+## 204. Example — Unknown Primitive
 
 If an observation cannot be represented by existing primitives:
 
@@ -5168,9 +5167,9 @@ or model failure
 
 is required.
 
----
+______________________________________________________________________
 
-# 205. Example — Competing Models
+## 205. Example — Competing Models
 
 Observation `O` is compatible with:
 
@@ -5190,9 +5189,9 @@ COMPETING
 
 must remain visible.
 
----
+______________________________________________________________________
 
-# 206. Example — Causal Overreach
+## 206. Example — Causal Overreach
 
 Observed:
 
@@ -5215,9 +5214,9 @@ fragmentation causes instability.
 
 Intervention requires stronger evidence still.
 
----
+______________________________________________________________________
 
-# 207. Example — Observer Effect
+## 207. Example — Observer Effect
 
 If measurement changes the system:
 
@@ -5241,9 +5240,9 @@ consciousness creates reality
 
 without evidence.
 
----
+______________________________________________________________________
 
-# 208. Example — Persistence
+## 208. Example — Persistence
 
 A system changes components while retaining organizational continuity.
 
@@ -5261,9 +5260,9 @@ boundary stable
 
 rather than treating identity as simple material sameness.
 
----
+______________________________________________________________________
 
-# 209. Example — Dissolution
+## 209. Example — Dissolution
 
 A system loses:
 
@@ -5285,9 +5284,9 @@ dissolution.
 
 Empirical thresholds remain domain-specific.
 
----
+______________________________________________________________________
 
-# 210. Example — Viability
+## 210. Example — Viability
 
 Two possible future states:
 
@@ -5313,9 +5312,9 @@ with:
 maximum viability.
 ```
 
----
+______________________________________________________________________
 
-# 211. Promotion Gate — Native Canon
+## 211. Promotion Gate — Native Canon
 
 - [x] native Trang Reality Architecture corpus located
 - [x] origin architect/steward established
@@ -5336,9 +5335,9 @@ maximum viability.
 - [ ] duplicate architecture definitions reconciled by provenance
 - [ ] final canon promotion receipt issued
 
----
+______________________________________________________________________
 
-# 212. Promotion Gate — Empirical Claims
+## 212. Promotion Gate — Empirical Claims
 
 - [ ] constructs operationalized
 - [ ] measurable variables identified
@@ -5352,9 +5351,9 @@ maximum viability.
 - [ ] replication completed
 - [ ] scope limits documented
 
----
+______________________________________________________________________
 
-# 213. Promotion Gate — Mathematical Claims
+## 213. Promotion Gate — Mathematical Claims
 
 - [ ] symbols formally defined
 - [ ] units/dimensions defined where applicable
@@ -5364,9 +5363,9 @@ maximum viability.
 - [ ] counterexamples tested
 - [ ] mathematical peer checking completed where required
 
----
+______________________________________________________________________
 
-# 214. Promotion Gate — Runtime
+## 214. Promotion Gate — Runtime
 
 - [ ] typed executable schema
 - [ ] architecture registry binding
@@ -5379,9 +5378,9 @@ maximum viability.
 - [ ] rollback demonstrated
 - [ ] executed validation receipt
 
----
+______________________________________________________________________
 
-# 215. Critical Gaps
+## 215. Critical Gaps
 
 ```yaml
 gaps:
@@ -5431,9 +5430,9 @@ gaps:
     state: NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 216. Ingestion Rule
+## 216. Ingestion Rule
 
 ```yaml
 AMOS_CANON_INGESTION_RULE:
@@ -5493,9 +5492,9 @@ AMOS_CANON_INGESTION_RULE:
       - NEVER_INVENT_CANON
 ```
 
----
+______________________________________________________________________
 
-# 217. Contract Discipline
+## 217. Contract Discipline
 
 ```text
 typed reality claims
@@ -5516,9 +5515,9 @@ typed reality claims
 · rollback basin before consequential mutation
 ```
 
----
+______________________________________________________________________
 
-# 218. H/M/L Retrieval
+## 218. H/M/L Retrieval
 
 ## H — Reality Framework
 
@@ -5602,9 +5601,9 @@ or provenance
 
 can change the answer.
 
----
+______________________________________________________________________
 
-# 219. Retrieval Examples
+## 219. Retrieval Examples
 
 ```yaml
 "What is the Trang Reality Matrix?":
@@ -5677,9 +5676,9 @@ can change the answer.
     - gap_state
 ```
 
----
+______________________________________________________________________
 
-# 220. RSCF Node
+## 220. RSCF Node
 
 ```yaml
 RSCF:
@@ -5763,9 +5762,9 @@ RSCF:
     NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 221. Proof Capsule
+## 221. Proof Capsule
 
 ```yaml
 PROOF_CAPSULE:
@@ -5851,9 +5850,9 @@ PROOF_CAPSULE:
       UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 222. Final Canonical Statement
+## 222. Final Canonical Statement
 
 AMOS × TRANG Reality Matrix is the Cognitive Matrix representation
 of the source-defined:
@@ -6085,15 +6084,15 @@ not
 VERIFIED FINAL THEORY OF REALITY.
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|AMOS MOC]]
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]
 
----
+______________________________________________________________________
 
 RSCF-NODE
 
@@ -6111,44 +6110,44 @@ canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
 
 RSCF-RELATIONS:
 
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
-  - GOVERNED_BY: [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
+- GOVERNED_BY: [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
 
-  - NORMALIZES: [[11_KNOWLEDGE/trang/TRANG_REALITY_ARCHITECTURE|TRANG_REALITY_ARCHITECTURE]]
+- NORMALIZES: [[11_KNOWLEDGE/trang/TRANG_REALITY_ARCHITECTURE|TRANG_REALITY_ARCHITECTURE]]
 
-  - USES: `QLS`
+- USES: `QLS`
 
-  - USES: UBI
+- USES: UBI
 
-  - USES: `DCC`
+- USES: `DCC`
 
-  - USES: `HERITAGE`
+- USES: `HERITAGE`
 
-  - USES: `SCIENTIFIC_OMEGA_ENGINE`
+- USES: `SCIENTIFIC_OMEGA_ENGINE`
 
-  - RELATED_TO: `REALITY_ROOT_LAYER`
+- RELATED_TO: `REALITY_ROOT_LAYER`
 
-  - RELATED_TO: `CAUSAL_HIERARCHY_ARCHITECTURE`
+- RELATED_TO: `CAUSAL_HIERARCHY_ARCHITECTURE`
 
-  - RELATED_TO: `OBSERVER_ARCHITECTURE`
+- RELATED_TO: `OBSERVER_ARCHITECTURE`
 
-  - RELATED_TO: `MEASUREMENT_ARCHITECTURE`
+- RELATED_TO: `MEASUREMENT_ARCHITECTURE`
 
-  - RELATED_TO: `META_VALIDATION_ARCHITECTURE`
+- RELATED_TO: `META_VALIDATION_ARCHITECTURE`
 
-  - RELATED_TO: `REALITY_CONTACT_ARCHITECTURE`
+- RELATED_TO: `REALITY_CONTACT_ARCHITECTURE`
 
-  - RELATED_TO: `TRUTH_MAINTENANCE_ARCHITECTURE`
+- RELATED_TO: `TRUTH_MAINTENANCE_ARCHITECTURE`
 
-  - RELATED_TO: `VIABILITY_FILTER_ARCHITECTURE`
+- RELATED_TO: `VIABILITY_FILTER_ARCHITECTURE`
 
-  - RELATED_TO: `REALITY_CLOSURE_ARCHITECTURE`
+- RELATED_TO: `REALITY_CLOSURE_ARCHITECTURE`
 
-  - INDEXED_BY: [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]
+- INDEXED_BY: [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]
 
----
+______________________________________________________________________
 
 **MOC:** [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]

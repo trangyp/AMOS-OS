@@ -1,16 +1,19 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: fabrication engine — References — Amos C10 Tech Engineering Master
 type: reference
 source: 07_SKILLS/amos-c10-tech-engineering-master/references
 tags:
-- reference
-- amos-c10-tech-engineering-master
-- type/skill
-- system-scan-agent
-- automation-profiles
-- amos-simulation-kernel-v0-math-foundations
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-c10-tech-engineering-master
+  - type/skill
+  - system-scan-agent
+  - automation-profiles
+  - amos-simulation-kernel-v0-math-foundations
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -23,19 +26,20 @@ rscf:
 > Source: `_00_Cosmo brain/engine/A/AMOS_Fabrication_Engine_v0.md`
 > Epistemic class: SOURCE_DERIVED
 
----
-tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-fabrication-engine-v0, engine]
----
+______________________________________________________________________
 
-# AMOS Fabrication Engine v0 — part 2
+## tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-fabrication-engine-v0, engine]
 
-> [!info] Populated Stub
+## AMOS Fabrication Engine v0 — part 2
+
+> [!INFO] Populated Stub
 > Source: `amos-general/A/Meta/AMOS_Meta_Cognition_Self_Improvement.md` (L157: AMOS_SUPER_FABRICATION) and `misc/PO/Portfolio.md` (Section 19: Agent/OS fabrication layer).
 > Canon group: tech-ai
 > **Epistemic class**: SOURCE_CLAIM (vault-sourced)
 > **Audit**: Populated 2026-08-26 from vault references.
 
 ## Status
+
 - **Type**: Engine spec (from vault references)
 - **Content**: Vault-sourced from Meta Cognition + Portfolio
 - **Action**: Populated 2026-08-26
@@ -100,12 +104,13 @@ platform_safety > ip_protection > creator_intent > structural_integrity > user_r
 - **AMOS_KERNEL_CONFIG** — Kernel registry with priorities, dependencies, routing rules
 - **AMOS_OPERATOR_META_SECTOR_ENGINE** — Meta-sector operator: cross-sector analysis
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS · SYSTEM_SCAN_AGENT · AUTOMATION_PROFILES
 
----
-**MOC:** references_MOC
----
+______________________________________________________________________
+
+## **MOC:** references_MOC
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -113,12 +118,14 @@ platform_safety > ip_protection > creator_intent > structural_integrity > user_r
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-c10-tech-engineering-master-fabrication-engine
 node_type: reference
 path: 07_SKILLS/amos-c10-tech-engineering-master/references/fabrication_engine.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

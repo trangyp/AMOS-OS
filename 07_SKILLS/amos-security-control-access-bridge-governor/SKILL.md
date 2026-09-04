@@ -4,17 +4,7 @@ title: SKILL — Amos Security Control Access Bridge Governor
 type: skill
 source: 07_SKILLS/amos-security-control-access-bridge-governor
 name: amos-security-control-access-bridge-governor
-description: 'Security-Control-Access Bridge Governor — cross-domain capability bridging
-  C09 Org-Law-Policy (policy definition), C10 Tech-Engineering (access control mechanisms),
-  and Runtime Enforcement (enforcement attestation). Governs the unified policy-to-enforcement
-  pipeline: C09 policy → translate to mechanism → C10 mechanism → validate enforcement
-  → Runtime enforcement → audit feedback → C09 policy. Enforces policy-mechanism match
-  (every mechanism has a policy), mechanism-enforcement match (every enforcement matches
-  mechanism), and no layer drift. Use when security policies need to be translated
-  to access control mechanisms, when mechanisms need runtime enforcement validation,
-  or when the full policy-to-enforcement pipeline needs governance. Use when amos-security-safety-master
-  routes to this specialized capability. Do not use for generic security audits, penetration
-  testing, or tasks outside the policy-to-enforcement pipeline governance.'
+description: 'Security-Control-Access Bridge Governor — cross-domain capability bridging C09 Org-Law-Policy (policy definition), C10 Tech-Engineering (access control mechanisms), and Runtime Enforcement (enforcement attestation). Governs the unified policy-to-enforcement pipeline: C09 policy → translate to mechanism → C10 mechanism → validate enforcement → Runtime enforcement → audit feedback → C09 policy. Enforces policy-mechanism match (every mechanism has a policy), mechanism-enforcement match (every enforcement matches mechanism), and no layer drift. Use when security policies need to be translated to access control mechanisms, when mechanisms need runtime enforcement validation, or when the full policy-to-enforcement pipeline needs governance. Use when amos-security-safety-master routes to this specialized capability. Do not use for generic security audits, penetration testing, or tasks outside the policy-to-enforcement pipeline governance.'
 parent_skill: amos-security-safety-master
 domain: cross-domain (C09 → C10 → Runtime)
 origin_architect: Trang Phan
@@ -23,16 +13,16 @@ claim_ceiling: 0.9
 status: production_ready
 created: 2026-08-27
 tags:
-- type/skill
-- type/skill
-- domain/cross-domain
-- epistemic/source_claim
-- hml/m
-- epistemic/source_claim
-- amos-os
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/cross-domain
+  - epistemic/source_claim
+  - hml/m
+  - epistemic/source_claim
+  - amos-os
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -42,23 +32,23 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: M
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
-- L7_authority
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
+  - L7_authority
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L7
-- L16
-- L17
-- L18
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L7
+  - L16
+  - L17
+  - L18
 license: MIT
 steward: Trang Phan
 ---
@@ -68,6 +58,7 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: cross-domain (C09 → C10 → Runtime). Parent: amos-security-safety-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
 ## The Problem This Skill Solves
 
 The `_00_Cosmo brain` exploration identified: *"Security and Control and Access: Security policies, access control mechanisms, and runtime enforcement are separate layers without unified policy-to-enforcement pipelines."*
@@ -75,9 +66,9 @@ The `_00_Cosmo brain` exploration identified: *"Security and Control and Access:
 Specifically:
 
 1. **C09's policy definitions have no bridge to C10's access control mechanisms** — policies are written but not automatically translated to implementable mechanisms
-2. **C10's access control mechanisms have no bridge to runtime enforcement validation** — mechanisms are implemented but not verified at runtime
-3. **Runtime enforcement has no feedback bridge to C09 policy** — enforcement failures don't automatically inform policy updates
-4. **No unified pipeline connects all three layers** — each operates in isolation, creating security gaps
+1. **C10's access control mechanisms have no bridge to runtime enforcement validation** — mechanisms are implemented but not verified at runtime
+1. **Runtime enforcement has no feedback bridge to C09 policy** — enforcement failures don't automatically inform policy updates
+1. **No unified pipeline connects all three layers** — each operates in isolation, creating security gaps
 
 ## The Pipeline
 
@@ -116,14 +107,15 @@ The pipeline has 4 transition types:
 - **sca_bridge.validate_mechanism_enforcement**: Validate C10 mechanism is correctly enforced at runtime. Checks enforcement attestation (ERA), enforcement trust contract (ETC), capability-bound governance. Returns enforcement validation result + attestation chain.
 - **sca_bridge.govern_pipeline**: Govern the full pipeline (PIPELINE_PERMITTED / BLOCKED / CONDITIONAL). Block if: policy-mechanism mismatch, mechanism-enforcement mismatch, layer drift, audit failure. Returns pipeline
 
----
+______________________________________________________________________
+
 **Links:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 ## Operations
 
 1. **sca_bridge.translate_policy_to_mechanism**: Translate C09 policy into C10 access control mechanisms. Maps policy requirements to implementable mechanisms (RBAC, ABAC, capability bounds, fail-closed design). Returns mechanism specificat...
-2. **sca_bridge.validate_mechanism_enforcement**: Validate C10 mechanism is correctly enforced at runtime. Checks enforcement attestation (ERA), enforcement trust contract (ETC), capability-bound governance. Returns enforcement validation r...
-3. **sca_bridge.govern_pipeline**: Govern the full pipeline (PIPELINE_PERMITTED / BLOCKED / CONDITIONAL). Block if: policy-mechanism mismatch, mechanism-enforcement mismatch, layer drift, audit failure. Returns pipeline
+1. **sca_bridge.validate_mechanism_enforcement**: Validate C10 mechanism is correctly enforced at runtime. Checks enforcement attestation (ERA), enforcement trust contract (ETC), capability-bound governance. Returns enforcement validation r...
+1. **sca_bridge.govern_pipeline**: Govern the full pipeline (PIPELINE_PERMITTED / BLOCKED / CONDITIONAL). Block if: policy-mechanism mismatch, mechanism-enforcement mismatch, layer drift, audit failure. Returns pipeline
 
 ## Related
 
@@ -132,17 +124,19 @@ The pipeline has 4 transition types:
 ## Examples
 
 - **Scenario**: When C09 security policies need to be translated to C10 access control mechanisms
+
   - **Input**: A query matching this skill's domain (cross-domain (C09 → C10 → Runtime))
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When C10 mechanisms need runtime enforcement validation
+
   - **Input**: A query matching this skill's domain (cross-domain (C09 → C10 → Runtime))
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When runtime enforcement failures need to feed back to C09 policy
+
   - **Input**: A query matching this skill's domain (cross-domain (C09 → C10 → Runtime))
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Validation Gates
 
@@ -159,7 +153,6 @@ The pipeline has 4 transition types:
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `amos-security-safety-master` — routes to this skill when cross-domain (C09 → C10 → Runtime) specialization is needed
@@ -167,7 +160,6 @@ The pipeline has 4 transition types:
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -186,7 +178,6 @@ The pipeline has 4 transition types:
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -194,7 +185,6 @@ The pipeline has 4 transition types:
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -207,11 +197,12 @@ The pipeline has 4 transition types:
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `amos-security-safety-master` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `amos-security-control-access-bridge-governor-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -219,13 +210,14 @@ The pipeline has 4 transition types:
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-security-control-access-bridge-governor
 node_type: skill
 path: 07_SKILLS/amos-security-control-access-bridge-governor/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
-

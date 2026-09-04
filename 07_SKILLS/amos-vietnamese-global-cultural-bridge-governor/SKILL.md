@@ -4,17 +4,7 @@ title: SKILL — Amos Vietnamese Global Cultural Bridge Governor
 type: skill
 source: 07_SKILLS/amos-vietnamese-global-cultural-bridge-governor
 name: amos-vietnamese-global-cultural-bridge-governor
-description: Vietnamese-Global Cultural Bridge Governor — cross-domain capability
-  bridging C06 Vietnamese-specific cultural systems (F07 Vietnam Regional, gia hệ
-  energy models) with C06 global frameworks (F01-F06, F08-F10). Governs bidirectional
-  translation preserving Vietnamese cultural specificity while enabling global comparison.
-  Enforces universalization firewall (no VN-specific claim universalized without cross-cultural
-  evidence) and cultural specificity preservation (no global model applied to VN context
-  without validation). Use when Vietnamese cultural claims need translation to global
-  framework terms, when global models need validation for Vietnamese context, or when
-  the bidirectional cultural bridge needs governance. Use when amos-c06-society-culture-master
-  routes to this specialized capability. Do not use for generic translation services,
-  monolingual analysis, or tasks outside the bidirectional cultural bridge governance.
+description: Vietnamese-Global Cultural Bridge Governor — cross-domain capability bridging C06 Vietnamese-specific cultural systems (F07 Vietnam Regional, gia hệ energy models) with C06 global frameworks (F01-F06, F08-F10). Governs bidirectional translation preserving Vietnamese cultural specificity while enabling global comparison. Enforces universalization firewall (no VN-specific claim universalized without cross-cultural evidence) and cultural specificity preservation (no global model applied to VN context without validation). Use when Vietnamese cultural claims need translation to global framework terms, when global models need validation for Vietnamese context, or when the bidirectional cultural bridge needs governance. Use when amos-c06-society-culture-master routes to this specialized capability. Do not use for generic translation services, monolingual analysis, or tasks outside the bidirectional cultural bridge governance.
 parent_skill: amos-c06-society-culture-master
 domain: cross-domain (C06 Vietnamese ↔ Global)
 origin_architect: Trang Phan
@@ -23,16 +13,16 @@ claim_ceiling: 0.9
 status: production_ready
 created: 2026-08-27
 tags:
-- type/skill
-- type/skill
-- domain/cross-domain
-- epistemic/source_claim
-- hml/m
-- epistemic/source_claim
-- amos-os
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/cross-domain
+  - epistemic/source_claim
+  - hml/m
+  - epistemic/source_claim
+  - amos-os
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -42,23 +32,23 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: M
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
-- L7_authority
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
+  - L7_authority
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L7
-- L16
-- L17
-- L18
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L7
+  - L16
+  - L17
+  - L18
 license: MIT
 steward: Trang Phan
 ---
@@ -68,6 +58,7 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: cross-domain (C06 Vietnamese ↔ Global). Parent: amos-c06-society-culture-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
 ## The Problem This Skill Solves
 
 The `_00_Cosmo brain` exploration identified: *"Vietnamese-Specific and Global Models: Vietnamese-specific cultural, legal, and business models lack bridges to global frameworks."*
@@ -75,9 +66,9 @@ The `_00_Cosmo brain` exploration identified: *"Vietnamese-Specific and Global M
 Specifically:
 
 1. **Vietnamese cultural claims (F07) have no bridge to global frameworks** — VN-specific insights remain local, never contributing to global understanding
-2. **Global frameworks have no bridge to Vietnamese context** — global models are applied to VN without validation of cultural fit
-3. **No universalization firewall** — VN-specific claims risk being universalized without cross-cultural evidence
-4. **No cultural specificity preservation** — global models risk erasing VN cultural specificity during application
+1. **Global frameworks have no bridge to Vietnamese context** — global models are applied to VN without validation of cultural fit
+1. **No universalization firewall** — VN-specific claims risk being universalized without cross-cultural evidence
+1. **No cultural specificity preservation** — global models risk erasing VN cultural specificity during application
 
 ## The Bridge
 
@@ -111,15 +102,16 @@ Bidirectional translation with two firewall rules:
 - **vgc_bridge.govern_bridge**: Govern bidirectional bridge (BRIDGE_PERMITTED / BLOCKED / CONDITIONAL). Block if: universalization without evidence, global model without VN validation, cultural specificity loss. Returns bridge state + blocking reason.
 - **vgc_bridge.detect_cultural_drift**: Detect cultural drift between VN and global models. Checks: VN model updated without global sync, global model updated without VN validation, cultural specif
 
----
+______________________________________________________________________
+
 **Links:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 ## Operations
 
 1. **vgc_bridge.translate_vietnamese_to_global**: Translate VN claims to global framework terms. Maps F07 VN-specific concepts to F01-F06/F08-F10 global equivalents. Tags translated claims as CONDITIONAL (context-dependent). Returns transla...
-2. **vgc_bridge.validate_global_for_vietnamese**: Validate global model applies to VN context. Checks cultural fit, contextual validity, and specificity preservation. Returns validation result + context adaptation requirements.
-3. **vgc_bridge.govern_bridge**: Govern bidirectional bridge (BRIDGE_PERMITTED / BLOCKED / CONDITIONAL). Block if: universalization without evidence, global model without VN validation, cultural specificity loss. Returns bridge state + bloc...
-4. **vgc_bridge.detect_cultural_drift**: Detect cultural drift between VN and global models. Checks: VN model updated without global sync, global model updated without VN validation, cultural specif
+1. **vgc_bridge.validate_global_for_vietnamese**: Validate global model applies to VN context. Checks cultural fit, contextual validity, and specificity preservation. Returns validation result + context adaptation requirements.
+1. **vgc_bridge.govern_bridge**: Govern bidirectional bridge (BRIDGE_PERMITTED / BLOCKED / CONDITIONAL). Block if: universalization without evidence, global model without VN validation, cultural specificity loss. Returns bridge state + bloc...
+1. **vgc_bridge.detect_cultural_drift**: Detect cultural drift between VN and global models. Checks: VN model updated without global sync, global model updated without VN validation, cultural specif
 
 ## Related
 
@@ -128,17 +120,19 @@ Bidirectional translation with two firewall rules:
 ## Examples
 
 - **Scenario**: When Vietnamese cultural claims need translation to global framework terms
+
   - **Input**: A query matching this skill's domain (cross-domain (C06 Vietnamese ↔ Global))
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When global models need validation for Vietnamese context
+
   - **Input**: A query matching this skill's domain (cross-domain (C06 Vietnamese ↔ Global))
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When governing the bidirectional cultural bridge (BRIDGE_PERMITTED / BLOCKED / CONDITIONAL)
+
   - **Input**: A query matching this skill's domain (cross-domain (C06 Vietnamese ↔ Global))
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Validation Gates
 
@@ -155,7 +149,6 @@ Bidirectional translation with two firewall rules:
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `amos-c06-society-culture-master` — routes to this skill when cross-domain (C06 Vietnamese ↔ Global) specialization is needed
@@ -163,7 +156,6 @@ Bidirectional translation with two firewall rules:
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -182,7 +174,6 @@ Bidirectional translation with two firewall rules:
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -190,7 +181,6 @@ Bidirectional translation with two firewall rules:
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -212,11 +202,12 @@ Bidirectional translation with two firewall rules:
 - `references/vn_map_of_everything.md` — loaded on demand
 - `references/vn_neural_invariance_silence.md` — loaded on demand
 - `references/vn_what_you_discovered.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `amos-c06-society-culture-master` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `amos-vietnamese-global-cultural-bridge-governor-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -224,13 +215,14 @@ Bidirectional translation with two firewall rules:
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-vietnamese-global-cultural-bridge-governor
 node_type: skill
 path: 07_SKILLS/amos-vietnamese-global-cultural-bridge-governor/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
-

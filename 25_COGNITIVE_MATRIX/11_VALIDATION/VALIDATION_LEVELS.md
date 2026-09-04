@@ -1,11 +1,14 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: 11_VALIDATION — Validation Levels
 type: validation
 source: 25_COGNITIVE_MATRIX/11_VALIDATION
 tags:
-- note
-- 11-validation
-- domain/cognitive-matrix
+  - note
+  - 11-validation
+  - domain/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -21,9 +24,9 @@ rscf:
 
 **Status:** `CONDITIONAL / ARCHITECTURE DEFINED / IMPLEMENTATION PARTIAL OR UNKNOWN`
 
----
+______________________________________________________________________
 
-# 1. Purpose
+## 1. Purpose
 
 `VALIDATION_LEVELS.md` defines how AMOS represents **how far a claim, model, component, generator, workflow, agent, protocol, artifact, decision, or implementation has actually been validated**.
 
@@ -64,9 +67,9 @@ The purpose of the validation-level architecture is to prevent:
 
 from being collapsed into one unjustified inference.
 
----
+______________________________________________________________________
 
-# 2. Core Validation Boundary
+## 2. Core Validation Boundary
 
 The central rule is:
 
@@ -123,9 +126,9 @@ not:
 X is simply "validated"
 ```
 
----
+______________________________________________________________________
 
-# 3. Architectural Position
+## 3. Architectural Position
 
 Validation sits across the Full Brain architecture rather than inside one engine.
 
@@ -167,9 +170,9 @@ Validation may inform authority decisions.
 
 Validation does not create authority.
 
----
+______________________________________________________________________
 
-# 4. Hard Boundaries
+## 4. Hard Boundaries
 
 ```text
 PLACEHOLDER != IMPLEMENTED
@@ -214,9 +217,9 @@ NO_CONTRADICTION_FOUND != PROOF
 UNKNOWN/GAP != PASS
 ```
 
----
+______________________________________________________________________
 
-# 5. What Can Be Validated
+## 5. What Can Be Validated
 
 Validation may apply to:
 
@@ -257,9 +260,9 @@ The validation contract depends on object type.
 
 A scientific model and a Markdown formatter cannot share the same validation requirements.
 
----
+______________________________________________________________________
 
-# 6. Validation Object
+## 6. Validation Object
 
 Every validation event must identify its target.
 
@@ -285,9 +288,9 @@ VALIDATION = BLOCKED
 
 because AMOS cannot know what was validated.
 
----
+______________________________________________________________________
 
-# 7. Validation Capsule
+## 7. Validation Capsule
 
 Every consequential validation result should be representable as:
 
@@ -354,9 +357,9 @@ supersession:
   superseded_by: null
 ```
 
----
+______________________________________________________________________
 
-# 8. Validation Result States
+## 8. Validation Result States
 
 Each validation attempt returns:
 
@@ -410,9 +413,9 @@ UNKNOWN/GAP
 required evidence or definition does not exist
 ```
 
----
+______________________________________________________________________
 
-# 9. Validation Is Multi-Axis
+## 9. Validation Is Multi-Axis
 
 AMOS validation must not be compressed into only one scalar level when the dimensions matter.
 
@@ -435,9 +438,9 @@ A single summary level may exist for routing.
 
 The full vector must remain recoverable.
 
----
+______________________________________________________________________
 
-# 10. Proposed Validation Ladder
+## 10. Proposed Validation Ladder
 
 The following ladder is a **DERIVED AMOS validation architecture**, not a claim that these exact labels already exist in earlier canon.
 
@@ -479,9 +482,9 @@ under specified governance,
 for the declared deployment envelope
 ```
 
----
+______________________________________________________________________
 
-# 11. V0 — Undefined / Placeholder
+## 11. V0 — Undefined / Placeholder
 
 A `V0` object exists only as:
 
@@ -526,9 +529,9 @@ Not allowed:
 "the capability works"
 ```
 
----
+______________________________________________________________________
 
-# 12. V1 — Defined
+## 12. V1 — Defined
 
 A `V1` object has a complete semantic contract.
 
@@ -564,9 +567,9 @@ not:
 whether an implementation exists
 ```
 
----
+______________________________________________________________________
 
-# 13. V1 Acceptance
+## 13. V1 Acceptance
 
 Minimum:
 
@@ -587,9 +590,9 @@ Critical failure:
 undefined semantics hidden behind a name
 ```
 
----
+______________________________________________________________________
 
-# 14. V2 — Structural Validation
+## 14. V2 — Structural Validation
 
 V2 checks architecture and structure.
 
@@ -631,9 +634,9 @@ valid agent specification
 
 V2 does not prove semantics.
 
----
+______________________________________________________________________
 
-# 15. V2 Hard Boundary
+## 15. V2 Hard Boundary
 
 ```text
 SCHEMA_VALID
@@ -653,9 +656,9 @@ V2 cannot imply VERIFIED
 
 for an empirical claim.
 
----
+______________________________________________________________________
 
-# 16. V3 — Logical / Internal Validation
+## 16. V3 — Logical / Internal Validation
 
 V3 asks whether the object is internally coherent.
 
@@ -683,9 +686,9 @@ conclusion
 
 must be logically valid under stated assumptions.
 
----
+______________________________________________________________________
 
-# 17. V3 Does Not Establish Reality
+## 17. V3 Does Not Establish Reality
 
 A logically valid statement can have false premises.
 
@@ -709,9 +712,9 @@ The logic may be valid.
 
 The premise may be false.
 
----
+______________________________________________________________________
 
-# 18. V3 Dimensional Validation
+## 18. V3 Dimensional Validation
 
 For physical/quantitative models:
 
@@ -735,9 +738,9 @@ without a defined transformation.
 
 Normalization does not erase physical meaning.
 
----
+______________________________________________________________________
 
-# 19. V4 — Implementation Validation
+## 19. V4 — Implementation Validation
 
 V4 requires an actual executable or operational implementation.
 
@@ -778,9 +781,9 @@ not:
 every output is correct
 ```
 
----
+______________________________________________________________________
 
-# 20. V4 Negative Boundary
+## 20. V4 Negative Boundary
 
 ```text
 CODE EXISTS
@@ -796,9 +799,9 @@ CODE RUNS
 SYSTEM IS VALIDATED
 ```
 
----
+______________________________________________________________________
 
-# 21. V5 — Behavioral Validation
+## 21. V5 — Behavioral Validation
 
 V5 verifies observable behavior against the declared contract.
 
@@ -829,9 +832,9 @@ fail safely
 
 within tested conditions.
 
----
+______________________________________________________________________
 
-# 22. V5 Scope
+## 22. V5 Scope
 
 Behavioral validation is always:
 
@@ -853,9 +856,9 @@ does not imply:
 correct on every possible input
 ```
 
----
+______________________________________________________________________
 
-# 23. V6 — Empirical Validation
+## 23. V6 — Empirical Validation
 
 V6 is required when the object makes claims about external reality.
 
@@ -878,9 +881,9 @@ Does the model/claim correspond to observations
 within the declared domain?
 ```
 
----
+______________________________________________________________________
 
-# 24. V6 Requirements
+## 24. V6 Requirements
 
 As applicable:
 
@@ -898,9 +901,9 @@ independent evidence
 
 A physics model, behavioral model, or ecological model cannot reach V6 through code tests alone.
 
----
+______________________________________________________________________
 
-# 25. Prospective vs Retrospective Validation
+## 25. Prospective vs Retrospective Validation
 
 Retrospective fit:
 
@@ -920,9 +923,9 @@ empirical_validation:
 
 Do not silently equate them.
 
----
+______________________________________________________________________
 
-# 26. V6 Replication
+## 26. V6 Replication
 
 Replication increases confidence only if evidence ancestry is sufficiently independent.
 
@@ -935,9 +938,9 @@ using one dataset
 
 AMOS provenance topology must preserve this.
 
----
+______________________________________________________________________
 
-# 27. V7 — Causal / Mechanistic Validation
+## 27. V7 — Causal / Mechanistic Validation
 
 V7 applies when the object claims:
 
@@ -966,9 +969,9 @@ mediation structure
 counterfactual validation
 ```
 
----
+______________________________________________________________________
 
-# 28. V7 Causal Types
+## 28. V7 Causal Types
 
 Validation must specify the causal claim:
 
@@ -996,9 +999,9 @@ intervention effect
 
 Do not use one generic "causal" label.
 
----
+______________________________________________________________________
 
-# 29. Causal Firewall
+## 29. Causal Firewall
 
 ```text
 association
@@ -1012,9 +1015,9 @@ intervention effect
 
 Structural similarity across H/M/L does not establish causation.
 
----
+______________________________________________________________________
 
-# 30. V8 — Cross-Scope / Cross-Regime Validation
+## 30. V8 — Cross-Scope / Cross-Regime Validation
 
 V8 validates transfer beyond the original envelope.
 
@@ -1044,9 +1047,9 @@ Transfer must be proven.
 
 It cannot be assumed.
 
----
+______________________________________________________________________
 
-# 31. V8 Scope Envelope
+## 31. V8 Scope Envelope
 
 Each validated object should record:
 
@@ -1064,9 +1067,9 @@ applicability:
 
 V8 expands this envelope only with evidence.
 
----
+______________________________________________________________________
 
-# 32. Regime Shift
+## 32. Regime Shift
 
 A regime shift may invalidate earlier validation.
 
@@ -1097,9 +1100,9 @@ persistent drought regime
 
 Validation is conditional on regime.
 
----
+______________________________________________________________________
 
-# 33. V9 — Integration / System Validation
+## 33. V9 — Integration / System Validation
 
 V9 asks whether independently functioning parts work correctly **together**.
 
@@ -1132,9 +1135,9 @@ latency
 failure propagation
 ```
 
----
+______________________________________________________________________
 
-# 34. V9 Multi-RSCF Validation
+## 34. V9 Multi-RSCF Validation
 
 When multiple RSCF objects form one conclusion:
 
@@ -1158,9 +1161,9 @@ contradiction state
 finalization conditions
 ```
 
----
+______________________________________________________________________
 
-# 35. V9 Cross-Domain Validation
+## 35. V9 Cross-Domain Validation
 
 Example:
 
@@ -1178,9 +1181,9 @@ Each bridge must be validated.
 
 Final confidence cannot exceed the weakest load-bearing bridge.
 
----
+______________________________________________________________________
 
-# 36. V10 — Operational Validation
+## 36. V10 — Operational Validation
 
 V10 requires evidence under realistic operational conditions.
 
@@ -1212,9 +1215,9 @@ canary deployment
 limited production
 ```
 
----
+______________________________________________________________________
 
-# 37. V10 Does Not Mean Unrestricted Deployment
+## 37. V10 Does Not Mean Unrestricted Deployment
 
 Operational validation may still be:
 
@@ -1229,9 +1232,9 @@ limited authority
 
 The envelope must be explicit.
 
----
+______________________________________________________________________
 
-# 38. V11 — Longitudinal / Adversarial Validation
+## 38. V11 — Longitudinal / Adversarial Validation
 
 V11 requires persistence over time and active challenge.
 
@@ -1252,9 +1255,9 @@ adversarial inputs
 
 V11 exists because systems that perform well once may drift or fail later.
 
----
+______________________________________________________________________
 
-# 39. Longitudinal Questions
+## 39. Longitudinal Questions
 
 ```text
 Does performance decay?
@@ -1272,9 +1275,9 @@ Does model behavior shift?
 Does the environment leave the validated regime?
 ```
 
----
+______________________________________________________________________
 
-# 40. V12 — Governed Deployment-Eligible
+## 40. V12 — Governed Deployment-Eligible
 
 V12 means the object has passed the validation required for its intended governed deployment.
 
@@ -1304,9 +1307,9 @@ It is:
 "eligible within this declared deployment envelope"
 ```
 
----
+______________________________________________________________________
 
-# 41. Validation Level Does Not Replace Claim Class
+## 41. Validation Level Does Not Replace Claim Class
 
 An RSCF claim class remains separate.
 
@@ -1341,9 +1344,9 @@ the source claim is structurally represented
 
 not that the claim itself is true.
 
----
+______________________________________________________________________
 
-# 42. Conclusion Classes vs Validation Levels
+## 42. Conclusion Classes vs Validation Levels
 
 Keep separate:
 
@@ -1374,9 +1377,9 @@ The second answers:
 How far has this object been validated?
 ```
 
----
+______________________________________________________________________
 
-# 43. Example Matrix
+## 43. Example Matrix
 
 ```yaml
 object:
@@ -1399,9 +1402,9 @@ This is more honest than:
 validated: true
 ```
 
----
+______________________________________________________________________
 
-# 44. Validation State Variables
+## 44. Validation State Variables
 
 Recommended state variables:
 
@@ -1441,9 +1444,9 @@ V_deployment_envelope
 V_supersession_state
 ```
 
----
+______________________________________________________________________
 
-# 45. Validation Operators
+## 45. Validation Operators
 
 Proposed architecture-level operators:
 
@@ -1497,9 +1500,9 @@ These are architectural operators.
 
 Their existence does not imply source-code implementation.
 
----
+______________________________________________________________________
 
-# 46. Promotion Rule
+## 46. Promotion Rule
 
 A validation level may only increase when the next level's requirements are actually met.
 
@@ -1517,9 +1520,9 @@ all mandatory gates for Vn+1
 
 No automatic promotion.
 
----
+______________________________________________________________________
 
-# 47. Skipping Levels
+## 47. Skipping Levels
 
 Not every object requires every level.
 
@@ -1563,9 +1566,9 @@ V8
 
 Therefore the ladder is not a mandatory linear pipeline for every artifact.
 
----
+______________________________________________________________________
 
-# 48. Validation Profile
+## 48. Validation Profile
 
 Each object type should define a profile.
 
@@ -1590,9 +1593,9 @@ validation_profile:
     V12: deployment_only
 ```
 
----
+______________________________________________________________________
 
-# 49. Validation Requirements by Artifact
+## 49. Validation Requirements by Artifact
 
 ## Generator
 
@@ -1666,9 +1669,9 @@ consequence analysis
 governance
 ```
 
----
+______________________________________________________________________
 
-# 50. Validation Dependencies
+## 50. Validation Dependencies
 
 Validation depends on:
 
@@ -1698,9 +1701,9 @@ or:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 51. Provenance Requirement
+## 51. Provenance Requirement
 
 Every validation result must identify:
 
@@ -1724,9 +1727,9 @@ which ancestry
 
 Validation without provenance is incomplete.
 
----
+______________________________________________________________________
 
-# 52. Provenance Topology
+## 52. Provenance Topology
 
 Suppose:
 
@@ -1745,9 +1748,9 @@ independence < 3
 
 AMOS must not count only surface source count.
 
----
+______________________________________________________________________
 
-# 53. Sybil Hardening
+## 53. Sybil Hardening
 
 Validation must resist artificial evidence multiplication.
 
@@ -1767,9 +1770,9 @@ These may add analysis.
 
 They do not automatically add independent empirical confirmation.
 
----
+______________________________________________________________________
 
-# 54. Validator Identity
+## 54. Validator Identity
 
 Validators must themselves be versioned.
 
@@ -1786,9 +1789,9 @@ validator:
 
 Unvalidated validators cannot be treated as infallible truth oracles.
 
----
+______________________________________________________________________
 
-# 55. Validator Independence
+## 55. Validator Independence
 
 Consequential validation should prefer different failure paths.
 
@@ -1808,9 +1811,9 @@ adversarial validator
 
 is stronger than five copies of the same checker.
 
----
+______________________________________________________________________
 
-# 56. Circular Validation
+## 56. Circular Validation
 
 Invalid pattern:
 
@@ -1829,9 +1832,9 @@ This is correlated validation.
 
 It must be marked accordingly.
 
----
+______________________________________________________________________
 
-# 57. Self-Validation
+## 57. Self-Validation
 
 An object may perform self-checks.
 
@@ -1846,9 +1849,9 @@ runtime errors
 
 but self-validation does not create independent confirmation.
 
----
+______________________________________________________________________
 
-# 58. Evidence Strength
+## 58. Evidence Strength
 
 Validation evidence can differ in strength.
 
@@ -1870,9 +1873,9 @@ longitudinal operational evidence
 
 Do not treat this as a universal ranking across all domains.
 
----
+______________________________________________________________________
 
-# 59. Simulation Evidence
+## 59. Simulation Evidence
 
 Simulation validates consequences of assumptions.
 
@@ -1892,9 +1895,9 @@ evidence that reality behaves identically
 
 Empirical comparison is separate.
 
----
+______________________________________________________________________
 
-# 60. Benchmark Validation
+## 60. Benchmark Validation
 
 Benchmark results are bounded by:
 
@@ -1910,9 +1913,9 @@ implementation
 
 A benchmark score must not be generalized universally.
 
----
+______________________________________________________________________
 
-# 61. Training-Test Leakage
+## 61. Training-Test Leakage
 
 If test data influenced model construction:
 
@@ -1922,9 +1925,9 @@ evaluation independence decreases
 
 Validation records should disclose leakage or overlap.
 
----
+______________________________________________________________________
 
-# 62. Scope Validation
+## 62. Scope Validation
 
 Every validation result inherits an applicability envelope.
 
@@ -1948,9 +1951,9 @@ status = UNVALIDATED / CONDITIONAL
 
 unless transfer validation exists.
 
----
+______________________________________________________________________
 
-# 63. H/M/L Applicability
+## 63. H/M/L Applicability
 
 Validation may occur at:
 
@@ -1976,9 +1979,9 @@ does not prove:
 H-level architecture sound
 ```
 
----
+______________________________________________________________________
 
-# 64. Bottom-Up Validation
+## 64. Bottom-Up Validation
 
 ```text
 L validated
@@ -1990,9 +1993,9 @@ may be appropriate when higher-level properties derive from lower-level behavior
 
 But emergent interactions may invalidate simple aggregation.
 
----
+______________________________________________________________________
 
-# 65. Top-Down Validation
+## 65. Top-Down Validation
 
 H-level requirements may constrain M/L validation.
 
@@ -2010,9 +2013,9 @@ subsystem redundancy
 
 even if each subsystem individually passes.
 
----
+______________________________________________________________________
 
-# 66. Cross-Level Closure
+## 66. Cross-Level Closure
 
 For high-stakes systems:
 
@@ -2040,9 +2043,9 @@ system behavior
 
 Validation is stronger when this loop closes.
 
----
+______________________________________________________________________
 
-# 67. Scope Leakage Failure
+## 67. Scope Leakage Failure
 
 Failure:
 
@@ -2076,9 +2079,9 @@ restrict scope
 or require transfer validation
 ```
 
----
+______________________________________________________________________
 
-# 68. Regime Validation
+## 68. Regime Validation
 
 Regimes may include:
 
@@ -2101,9 +2104,9 @@ transition regime
 
 Validation must record regime.
 
----
+______________________________________________________________________
 
-# 69. Temporal Validation
+## 69. Temporal Validation
 
 Validation has time.
 
@@ -2118,9 +2121,9 @@ Some objects have no known fixed expiry.
 
 They still may become stale when dependencies change.
 
----
+______________________________________________________________________
 
-# 70. Freshness Triggers
+## 70. Freshness Triggers
 
 Revalidate after material change in:
 
@@ -2138,9 +2141,9 @@ canon
 domain model
 ```
 
----
+______________________________________________________________________
 
-# 71. Confidence Ceiling
+## 71. Confidence Ceiling
 
 Validation cannot raise confidence above what evidence supports.
 
@@ -2160,9 +2163,9 @@ min(
 
 unless independent revalidation addresses the limiting premise.
 
----
+______________________________________________________________________
 
-# 72. Confidence Is Not Validation Level
+## 72. Confidence Is Not Validation Level
 
 A target can have:
 
@@ -2184,9 +2187,9 @@ high internal consistency
 
 Neither should be collapsed.
 
----
+______________________________________________________________________
 
-# 73. Uncertainty Vector
+## 73. Uncertainty Vector
 
 Track separately:
 
@@ -2203,9 +2206,9 @@ uncertainty:
 
 Do not average them away when one dimension is decision-critical.
 
----
+______________________________________________________________________
 
-# 74. Sensitivity Validation
+## 74. Sensitivity Validation
 
 Identify:
 
@@ -2232,9 +2235,9 @@ If not:
 ROBUST within tested perturbation range
 ```
 
----
+______________________________________________________________________
 
-# 75. Robustness Validation
+## 75. Robustness Validation
 
 Robustness may test:
 
@@ -2250,9 +2253,9 @@ model variation
 
 Robustness is scope-specific.
 
----
+______________________________________________________________________
 
-# 76. Falsifier Requirement
+## 76. Falsifier Requirement
 
 Every meaningful empirical or causal claim should expose what could invalidate it.
 
@@ -2267,9 +2270,9 @@ falsifiers:
 
 A claim that cannot lose is not genuinely validated through falsification.
 
----
+______________________________________________________________________
 
-# 77. Negative Evidence
+## 77. Negative Evidence
 
 Validation must retain negative results.
 
@@ -2283,9 +2286,9 @@ must not disappear merely because later positive evidence exists.
 
 Evidence history matters.
 
----
+______________________________________________________________________
 
-# 78. Contradiction Handling
+## 78. Contradiction Handling
 
 If:
 
@@ -2305,9 +2308,9 @@ when no discriminator resolves them.
 
 Validation is not forcing convergence.
 
----
+______________________________________________________________________
 
-# 79. Competing Hypothesis Validation
+## 79. Competing Hypothesis Validation
 
 For each hypothesis:
 
@@ -2324,9 +2327,9 @@ hypothesis:
 
 Compare them on evidence, not fluency.
 
----
+______________________________________________________________________
 
-# 80. Discriminating Evidence
+## 80. Discriminating Evidence
 
 Best next test is often:
 
@@ -2338,9 +2341,9 @@ to distinguish H1 from H2
 
 rather than accumulating redundant support.
 
----
+______________________________________________________________________
 
-# 81. Causal Validation
+## 81. Causal Validation
 
 Causal validation should ask:
 
@@ -2360,9 +2363,9 @@ Is mechanism compatible with timing?
 Does intervention evidence support direction?
 ```
 
----
+______________________________________________________________________
 
-# 82. Mechanism Validation
+## 82. Mechanism Validation
 
 A proposed mechanism needs:
 
@@ -2377,9 +2380,9 @@ failure conditions
 
 A story is not a mechanism merely because it sounds plausible.
 
----
+______________________________________________________________________
 
-# 83. Necessary / Sufficient Conditions
+## 83. Necessary / Sufficient Conditions
 
 Validation must not confuse:
 
@@ -2401,9 +2404,9 @@ A increases probability of B
 
 These are different claims.
 
----
+______________________________________________________________________
 
-# 84. Observational Validation
+## 84. Observational Validation
 
 Observation supports:
 
@@ -2415,9 +2418,9 @@ within measurement uncertainty.
 
 Interpretation of why it happened may remain `MODEL`.
 
----
+______________________________________________________________________
 
-# 85. Measurement Validation
+## 85. Measurement Validation
 
 A measured variable requires:
 
@@ -2433,9 +2436,9 @@ processing
 
 If measurement validity fails, derived validation depending on it must be downgraded.
 
----
+______________________________________________________________________
 
-# 86. Data Validation
+## 86. Data Validation
 
 Data should be checked for:
 
@@ -2454,9 +2457,9 @@ representativeness
 
 Clean data is not automatically unbiased data.
 
----
+______________________________________________________________________
 
-# 87. Derived Data
+## 87. Derived Data
 
 Processed data must preserve lineage:
 
@@ -2470,9 +2473,9 @@ RAW
 
 A derived table must not be relabeled raw observation.
 
----
+______________________________________________________________________
 
-# 88. Implementation Validation
+## 88. Implementation Validation
 
 For code/tools:
 
@@ -2489,9 +2492,9 @@ dependency versions
 
 must be documented.
 
----
+______________________________________________________________________
 
-# 89. Security Validation
+## 89. Security Validation
 
 For effectful systems:
 
@@ -2508,9 +2511,9 @@ sandboxing
 
 may become mandatory gates.
 
----
+______________________________________________________________________
 
-# 90. Safety Validation
+## 90. Safety Validation
 
 Safety validation should consider:
 
@@ -2525,9 +2528,9 @@ dependency reach
 
 High irreversible harm requires stronger evidence.
 
----
+______________________________________________________________________
 
-# 91. Authority Validation
+## 91. Authority Validation
 
 Authority validation answers:
 
@@ -2540,9 +2543,9 @@ for how long?
 
 It is separate from correctness validation.
 
----
+______________________________________________________________________
 
-# 92. Capability / Authority Boundary
+## 92. Capability / Authority Boundary
 
 ```text
 SYSTEM CAN DO X
@@ -2566,9 +2569,9 @@ cannot substitute for:
 authority validation
 ```
 
----
+______________________________________________________________________
 
-# 93. Control-Plane Requirements
+## 93. Control-Plane Requirements
 
 Before effectful commit:
 
@@ -2588,9 +2591,9 @@ Validation may establish eligibility evidence.
 
 It does not override the gate.
 
----
+______________________________________________________________________
 
-# 94. Proposal / Commit Boundary
+## 94. Proposal / Commit Boundary
 
 A validated plan may still remain:
 
@@ -2606,9 +2609,9 @@ VALIDATED PROPOSAL
 COMMITTED ACTION
 ```
 
----
+______________________________________________________________________
 
-# 95. Deployment Validation
+## 95. Deployment Validation
 
 Deployment validation checks:
 
@@ -2625,9 +2628,9 @@ security
 
 A component may be validated but undeployable in a particular environment.
 
----
+______________________________________________________________________
 
-# 96. Shadow Validation
+## 96. Shadow Validation
 
 Shadow mode:
 
@@ -2639,9 +2642,9 @@ real inputs
 
 Useful for operational evidence without full authority.
 
----
+______________________________________________________________________
 
-# 97. Canary Validation
+## 97. Canary Validation
 
 Canary:
 
@@ -2654,9 +2657,9 @@ high monitoring
 
 before broader deployment.
 
----
+______________________________________________________________________
 
-# 98. Progressive Validation
+## 98. Progressive Validation
 
 A safe pattern:
 
@@ -2673,9 +2676,9 @@ when applicable.
 
 Not every artifact requires all stages.
 
----
+______________________________________________________________________
 
-# 99. Rollback Validation
+## 99. Rollback Validation
 
 For mutable systems:
 
@@ -2691,9 +2694,9 @@ Are side effects reversible?
 
 Rollback evidence is part of operational validation.
 
----
+______________________________________________________________________
 
-# 100. Repair Validation
+## 100. Repair Validation
 
 AMOS repair principle:
 
@@ -2713,9 +2716,9 @@ A repair is not validated merely because a new output appears.
 
 The original failure must no longer reproduce.
 
----
+______________________________________________________________________
 
-# 101. Repair Acceptance
+## 101. Repair Acceptance
 
 Required:
 
@@ -2733,9 +2736,9 @@ regression suite passes
 no new critical failure introduced
 ```
 
----
+______________________________________________________________________
 
-# 102. Local vs Global Invalidation
+## 102. Local vs Global Invalidation
 
 If:
 
@@ -2762,9 +2765,9 @@ C3
 
 unless another dependency exists.
 
----
+______________________________________________________________________
 
-# 103. Validation Graph
+## 103. Validation Graph
 
 Validation should be graph-shaped.
 
@@ -2785,9 +2788,9 @@ Premise P2
 
 If E1 fails, only dependent edges are invalidated.
 
----
+______________________________________________________________________
 
-# 104. Atomic Multi-Object Validation
+## 104. Atomic Multi-Object Validation
 
 When several objects must be valid together:
 
@@ -2813,9 +2816,9 @@ partial pass
 finalized pass
 ```
 
----
+______________________________________________________________________
 
-# 105. Concurrency Validation
+## 105. Concurrency Validation
 
 For mutable systems:
 
@@ -2830,9 +2833,9 @@ must detect stale validation.
 
 This supports MVCC/CAS-style integrity.
 
----
+______________________________________________________________________
 
-# 106. Validation Snapshot
+## 106. Validation Snapshot
 
 A validation result should bind to:
 
@@ -2845,9 +2848,9 @@ validator versions
 
 Without this, future state may invalidate the result invisibly.
 
----
+______________________________________________________________________
 
-# 107. Revalidation
+## 107. Revalidation
 
 Revalidation is not always full recomputation.
 
@@ -2861,9 +2864,9 @@ changed dependency
 
 where dependency closure is known.
 
----
+______________________________________________________________________
 
-# 108. Stale Validation
+## 108. Stale Validation
 
 A validation result becomes stale when its load-bearing conditions no longer hold.
 
@@ -2877,9 +2880,9 @@ A stale result is not automatically false.
 
 It is no longer safely reusable.
 
----
+______________________________________________________________________
 
-# 109. Validation Reuse
+## 109. Validation Reuse
 
 A prior validation may be reused only if:
 
@@ -2901,9 +2904,9 @@ same required authority assumptions
 same relevant environment
 ```
 
----
+______________________________________________________________________
 
-# 110. Proof Capsule Reuse
+## 110. Proof Capsule Reuse
 
 A validation proof capsule may be reused while:
 
@@ -2923,9 +2926,9 @@ When one fails:
 invalidate dependent validation only
 ```
 
----
+______________________________________________________________________
 
-# 111. Validation Escalation
+## 111. Validation Escalation
 
 Increase validation depth when:
 
@@ -2942,9 +2945,9 @@ evidence weakens
 contradictions appear
 ```
 
----
+______________________________________________________________________
 
-# 112. Adaptive Complexity
+## 112. Adaptive Complexity
 
 Validation may use:
 
@@ -2972,9 +2975,9 @@ high-stakes irreversible cross-domain object
 → deeper validation
 ```
 
----
+______________________________________________________________________
 
-# 113. Validation Priority
+## 113. Validation Priority
 
 Default integrity order:
 
@@ -2992,9 +2995,9 @@ identity
 
 Do not spend effort polishing invalid content.
 
----
+______________________________________________________________________
 
-# 114. Validation Gap Types
+## 114. Validation Gap Types
 
 Classify:
 
@@ -3010,9 +3013,9 @@ COSMETIC
 
 Resolve in that order.
 
----
+______________________________________________________________________
 
-# 115. Critical Gap
+## 115. Critical Gap
 
 Examples:
 
@@ -3030,9 +3033,9 @@ unknown safety boundary
 
 Critical gaps may block promotion.
 
----
+______________________________________________________________________
 
-# 116. Decision-Relevant Gap
+## 116. Decision-Relevant Gap
 
 A missing fact that could change:
 
@@ -3045,21 +3048,21 @@ authority
 
 should be prioritized.
 
----
+______________________________________________________________________
 
-# 117. Explanatory Gap
+## 117. Explanatory Gap
 
 Missing detail that improves understanding but does not currently change action.
 
----
+______________________________________________________________________
 
-# 118. Cosmetic Gap
+## 118. Cosmetic Gap
 
 Formatting, naming, or presentation issue without semantic consequence.
 
----
+______________________________________________________________________
 
-# 119. Validation Workflow
+## 119. Validation Workflow
 
 Recommended:
 
@@ -3095,9 +3098,9 @@ CLASSIFY RESULT
 PERSIST VALIDATION CAPSULE
 ```
 
----
+______________________________________________________________________
 
-# 120. Validation Protocol
+## 120. Validation Protocol
 
 ```text
 VALIDATE(target, requested_level)
@@ -3117,9 +3120,9 @@ challenge result
 persist output
 ```
 
----
+______________________________________________________________________
 
-# 121. Promotion Protocol
+## 121. Promotion Protocol
 
 ```text
 PROMOTE(target, Vn → Vn+1)
@@ -3139,9 +3142,9 @@ regime explicitly inherited or updated
 confidence ceiling recomputed
 ```
 
----
+______________________________________________________________________
 
-# 122. Downgrade Protocol
+## 122. Downgrade Protocol
 
 ```text
 DOWNGRADE(target)
@@ -3160,9 +3163,9 @@ implementation change
 validator defect
 ```
 
----
+______________________________________________________________________
 
-# 123. Invalidation Protocol
+## 123. Invalidation Protocol
 
 ```text
 INVALIDATE(validation_id)
@@ -3180,9 +3183,9 @@ affected descendants
 
 Do not delete history.
 
----
+______________________________________________________________________
 
-# 124. Supersession Protocol
+## 124. Supersession Protocol
 
 When a newer object replaces an older one:
 
@@ -3201,9 +3204,9 @@ superseded_by
 
 Prior validation remains historically attributable to V1.
 
----
+______________________________________________________________________
 
-# 125. Validation Agents
+## 125. Validation Agents
 
 Validation agents may coordinate:
 
@@ -3218,9 +3221,9 @@ gap escalation
 
 They may not self-grant authority or hide failures.
 
----
+______________________________________________________________________
 
-# 126. Validator Agents
+## 126. Validator Agents
 
 A validator agent requires:
 
@@ -3236,9 +3239,9 @@ agent:
   audit: required
 ```
 
----
+______________________________________________________________________
 
-# 127. Skills
+## 127. Skills
 
 Host skills may expose validation workflows.
 
@@ -3252,9 +3255,9 @@ host skill
 
 Skill behavior does not redefine validation semantics.
 
----
+______________________________________________________________________
 
-# 128. Tools
+## 128. Tools
 
 Validation may use:
 
@@ -3274,9 +3277,9 @@ Tool output is evidence.
 
 It is not automatically the final validation conclusion.
 
----
+______________________________________________________________________
 
-# 129. Workflows
+## 129. Workflows
 
 Example:
 
@@ -3298,9 +3301,9 @@ validation synthesis
 
 Workflow order should reflect dependency.
 
----
+______________________________________________________________________
 
-# 130. Protocols
+## 130. Protocols
 
 Validation protocols may include:
 
@@ -3317,9 +3320,9 @@ deployment validation
 
 Each should inherit the core invariants in this document.
 
----
+______________________________________________________________________
 
-# 131. Validation Invariants
+## 131. Validation Invariants
 
 ## Identity invariant
 
@@ -3387,9 +3390,9 @@ remains unknown
 until evidence changes
 ```
 
----
+______________________________________________________________________
 
-# 132. Structural Validation Tests
+## 132. Structural Validation Tests
 
 Check:
 
@@ -3415,9 +3418,9 @@ hash
 file completeness
 ```
 
----
+______________________________________________________________________
 
-# 133. Logical Validation Tests
+## 133. Logical Validation Tests
 
 Check:
 
@@ -3435,9 +3438,9 @@ invariant consistency
 state-machine consistency
 ```
 
----
+______________________________________________________________________
 
-# 134. Implementation Tests
+## 134. Implementation Tests
 
 Check:
 
@@ -3457,9 +3460,9 @@ interface adherence
 resource constraints
 ```
 
----
+______________________________________________________________________
 
-# 135. Behavioral Tests
+## 135. Behavioral Tests
 
 Check:
 
@@ -3479,9 +3482,9 @@ regression
 property-based invariants
 ```
 
----
+______________________________________________________________________
 
-# 136. Empirical Tests
+## 136. Empirical Tests
 
 Check:
 
@@ -3501,9 +3504,9 @@ out-of-sample behavior
 prospective prediction
 ```
 
----
+______________________________________________________________________
 
-# 137. Causal Tests
+## 137. Causal Tests
 
 Check:
 
@@ -3521,9 +3524,9 @@ mechanism
 reverse causality
 ```
 
----
+______________________________________________________________________
 
-# 138. Cross-Regime Tests
+## 138. Cross-Regime Tests
 
 Check:
 
@@ -3541,9 +3544,9 @@ new regime
 new measurement method
 ```
 
----
+______________________________________________________________________
 
-# 139. Integration Tests
+## 139. Integration Tests
 
 Check:
 
@@ -3563,9 +3566,9 @@ rollback
 concurrency
 ```
 
----
+______________________________________________________________________
 
-# 140. Operational Tests
+## 140. Operational Tests
 
 Check:
 
@@ -3585,9 +3588,9 @@ monitoring
 incident recovery
 ```
 
----
+______________________________________________________________________
 
-# 141. Adversarial Tests
+## 141. Adversarial Tests
 
 Check:
 
@@ -3613,9 +3616,9 @@ dependency failure
 race conditions
 ```
 
----
+______________________________________________________________________
 
-# 142. Regression Tests
+## 142. Regression Tests
 
 Every repaired validation failure should create a regression record.
 
@@ -3629,9 +3632,9 @@ regression:
   status:
 ```
 
----
+______________________________________________________________________
 
-# 143. Validation Coverage
+## 143. Validation Coverage
 
 Do not use one naive percentage.
 
@@ -3652,9 +3655,9 @@ coverage:
   longitudinal:
 ```
 
----
+______________________________________________________________________
 
-# 144. Coverage Does Not Equal Confidence
+## 144. Coverage Does Not Equal Confidence
 
 ```text
 100% test coverage
@@ -3672,9 +3675,9 @@ wrong environment
 
 Coverage is one validation signal.
 
----
+______________________________________________________________________
 
-# 145. Validation Metrics
+## 145. Validation Metrics
 
 Possible metrics:
 
@@ -3706,9 +3709,9 @@ rollback success
 
 Metrics must be interpreted within context.
 
----
+______________________________________________________________________
 
-# 146. Performance Metrics
+## 146. Performance Metrics
 
 Performance validation may include:
 
@@ -3724,9 +3727,9 @@ storage
 
 Performance optimization must not weaken integrity.
 
----
+______________________________________________________________________
 
-# 147. Anti-Regression Rule
+## 147. Anti-Regression Rule
 
 Reject optimization that improves speed by reducing:
 
@@ -3746,9 +3749,9 @@ authority separation
 auditability
 ```
 
----
+______________________________________________________________________
 
-# 148. Failure Modes
+## 148. Failure Modes
 
 ## F01 — Validation Inflation
 
@@ -3761,123 +3764,123 @@ schema pass
 → "scientifically validated"
 ```
 
----
+______________________________________________________________________
 
 ## F02 — Scope Leakage
 
 Validation silently generalized beyond tested population/environment.
 
----
+______________________________________________________________________
 
 ## F03 — Regime Leakage
 
 Validation transferred to a new operating regime without evidence.
 
----
+______________________________________________________________________
 
 ## F04 — Provenance Loss
 
 Evidence ancestry missing.
 
----
+______________________________________________________________________
 
 ## F05 — Correlated Evidence Inflation
 
 Repeated descendants treated as independent support.
 
----
+______________________________________________________________________
 
 ## F06 — Circular Validation
 
 Model validates itself through the same assumptions.
 
----
+______________________________________________________________________
 
 ## F07 — Benchmark Overreach
 
 Benchmark success generalized to real-world universal capability.
 
----
+______________________________________________________________________
 
 ## F08 — Simulation Overreach
 
 Simulation result relabeled observation.
 
----
+______________________________________________________________________
 
 ## F09 — Causal Overreach
 
 Association relabeled causal evidence.
 
----
+______________________________________________________________________
 
 ## F10 — Authority Collapse
 
 Validation relabeled authorization.
 
----
+______________________________________________________________________
 
 ## F11 — Freshness Failure
 
 Stale validation treated as current.
 
----
+______________________________________________________________________
 
 ## F12 — Version Ambiguity
 
 Object changed but old validation reused.
 
----
+______________________________________________________________________
 
 ## F13 — Validator Failure
 
 Validator has defect or blind spot.
 
----
+______________________________________________________________________
 
 ## F14 — Hidden Gap
 
 Missing evidence represented as pass.
 
----
+______________________________________________________________________
 
 ## F15 — Contradiction Suppression
 
 Conflicting evidence discarded to preserve validation.
 
----
+______________________________________________________________________
 
 ## F16 — False Universality
 
 Scoped validation represented as universal truth.
 
----
+______________________________________________________________________
 
 ## F17 — Post-Hoc Validation
 
 Success criterion changed after seeing outcome without disclosure.
 
----
+______________________________________________________________________
 
 ## F18 — Data Leakage
 
 Validation set contaminates construction/training process.
 
----
+______________________________________________________________________
 
 ## F19 — Overfitting
 
 Object optimized specifically for validation suite.
 
----
+______________________________________________________________________
 
 ## F20 — Validation Drift
 
 Environment changes while validation record remains unchanged.
 
----
+______________________________________________________________________
 
-# 149. Critical Validation Failures
+## 149. Critical Validation Failures
 
 Automatically block promotion when:
 
@@ -3903,9 +3906,9 @@ UNKNOWN converted to PASS
 failed high-stakes safety gate
 ```
 
----
+______________________________________________________________________
 
-# 150. Repair / Recovery
+## 150. Repair / Recovery
 
 On validation failure:
 
@@ -3929,9 +3932,9 @@ rerun regression where required
 persist new lineage
 ```
 
----
+______________________________________________________________________
 
-# 151. Validation of Validators
+## 151. Validation of Validators
 
 Validators themselves must be validated.
 
@@ -3959,9 +3962,9 @@ provenance
 
 No validator is universally trustworthy.
 
----
+______________________________________________________________________
 
-# 152. Meta-Validation
+## 152. Meta-Validation
 
 At higher stakes, AMOS may validate:
 
@@ -3983,9 +3986,9 @@ Did governance interfere with evidence?
 Was the confidence ceiling respected?
 ```
 
----
+______________________________________________________________________
 
-# 153. Adversarial Validation
+## 153. Adversarial Validation
 
 For consequential claims:
 
@@ -4014,9 +4017,9 @@ or
 return UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 154. Validation and Decisions
+## 154. Validation and Decisions
 
 A decision can be made before every premise is verified.
 
@@ -4042,9 +4045,9 @@ Validation level informs decision quality.
 
 It does not remove uncertainty.
 
----
+______________________________________________________________________
 
-# 155. Validation and Irreversibility
+## 155. Validation and Irreversibility
 
 Required validation depth grows with:
 
@@ -4064,9 +4067,9 @@ large downstream dependency
 difficulty of rollback
 ```
 
----
+______________________________________________________________________
 
-# 156. Validation and Reversibility
+## 156. Validation and Reversibility
 
 Under uncertainty prefer:
 
@@ -4081,9 +4084,9 @@ actions.
 
 This reduces the validation burden for early exploratory action.
 
----
+______________________________________________________________________
 
-# 157. Validation and Governance
+## 157. Validation and Governance
 
 Governance may specify:
 
@@ -4105,9 +4108,9 @@ higher deployment threshold
 
 Exact thresholds remain governance-specific.
 
----
+______________________________________________________________________
 
-# 158. Validation Profiles by Risk
+## 158. Validation Profiles by Risk
 
 A possible derived profile:
 
@@ -4129,9 +4132,9 @@ deep empirical/causal/operational/adversarial validation
 
 These are architectural guidance, not canonical numerical thresholds.
 
----
+______________________________________________________________________
 
-# 159. Domain-Specific Validation
+## 159. Domain-Specific Validation
 
 Domains should define additional requirements.
 
@@ -4154,9 +4157,9 @@ C10 engineering:
 safety factors, failure modes, material/environment constraints
 ```
 
----
+______________________________________________________________________
 
-# 160. Cross-Domain Validation
+## 160. Cross-Domain Validation
 
 For cross-domain conclusions:
 
@@ -4174,9 +4177,9 @@ A → B bridge
 
 The bridge itself needs validation.
 
----
+______________________________________________________________________
 
-# 161. Cross-Domain Confidence Ceiling
+## 161. Cross-Domain Confidence Ceiling
 
 If:
 
@@ -4190,9 +4193,9 @@ C_B = 0.85
 
 then a conclusion materially dependent on the bridge should not exceed the bridge's evidentiary ceiling unless independently revalidated.
 
----
+______________________________________________________________________
 
-# 162. Validation Storage
+## 162. Validation Storage
 
 Recommended architecture:
 
@@ -4247,9 +4250,9 @@ Recommended architecture:
 
 This folder structure is `DERIVED`, not asserted as pre-existing canon.
 
----
+______________________________________________________________________
 
-# 163. Validation Registry Entry
+## 163. Validation Registry Entry
 
 Recommended:
 
@@ -4292,9 +4295,9 @@ validation_record:
   superseded_by: null
 ```
 
----
+______________________________________________________________________
 
-# 164. Validation Level Registry
+## 164. Validation Level Registry
 
 Recommended:
 
@@ -4341,9 +4344,9 @@ levels:
     name: GOVERNED_DEPLOYMENT_ELIGIBLE
 ```
 
----
+______________________________________________________________________
 
-# 165. Example — Placeholder
+## 165. Example — Placeholder
 
 ```yaml
 object: GENERATOR_X
@@ -4357,9 +4360,9 @@ claim_class: UNKNOWN/GAP
 confidence_ceiling: 0
 ```
 
----
+______________________________________________________________________
 
-# 166. Example — Defined but Unimplemented
+## 166. Example — Defined but Unimplemented
 
 ```yaml
 object: GENERATOR_X
@@ -4384,9 +4387,9 @@ not:
 IMPLEMENTED
 ```
 
----
+______________________________________________________________________
 
-# 167. Example — Implemented Generator
+## 167. Example — Implemented Generator
 
 ```yaml
 object: GENERATOR_X
@@ -4401,9 +4404,9 @@ empirical:
   required: false
 ```
 
----
+______________________________________________________________________
 
-# 168. Example — Scientific Model
+## 168. Example — Scientific Model
 
 ```yaml
 object: MODEL_Y
@@ -4431,9 +4434,9 @@ Not:
 final verified theory
 ```
 
----
+______________________________________________________________________
 
-# 169. Example — Agent Deployment
+## 169. Example — Agent Deployment
 
 ```yaml
 object: AGENT_Z
@@ -4458,9 +4461,9 @@ AGENT_Z may not commit effects
 
 because authority remains `PROPOSE_ONLY`.
 
----
+______________________________________________________________________
 
-# 170. Example — Cross-Domain Decision
+## 170. Example — Cross-Domain Decision
 
 ```yaml
 decision:
@@ -4481,9 +4484,9 @@ conclusion:
 
 The bridge is the limiting dependency.
 
----
+______________________________________________________________________
 
-# 171. Validation Freshness Example
+## 171. Validation Freshness Example
 
 ```yaml
 validation:
@@ -4507,9 +4510,9 @@ STALE_FOR_CURRENT_VERSION
 
 not necessarily false.
 
----
+______________________________________________________________________
 
-# 172. Validation Falsifiers
+## 172. Validation Falsifiers
 
 This validation architecture itself should be revised if evidence shows that:
 
@@ -4533,9 +4536,9 @@ validation levels cannot represent competing hypotheses
 multi-axis validation cannot be recovered
 ```
 
----
+______________________________________________________________________
 
-# 173. Known Gaps
+## 173. Known Gaps
 
 The following remain `UNKNOWN/GAP` unless specific AMOS source artifacts define them:
 
@@ -4573,9 +4576,9 @@ exact precedence of validation vs Control Plane policy
 
 These should not be invented merely to make the branch appear complete.
 
----
+______________________________________________________________________
 
-# 174. RSCF Completion State
+## 174. RSCF Completion State
 
 The original placeholder state:
 
@@ -4673,9 +4676,9 @@ confidence_ceiling:
   implementation: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 175. Completion Status
+## 175. Completion Status
 
 At the architecture level this file should no longer be labeled:
 
@@ -4705,9 +4708,9 @@ promotion_threshold_status: UNKNOWN/GAP
 control_plane_binding_status: PARTIAL_OR_UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 176. Core Validation Laws
+## 176. Core Validation Laws
 
 ```text
 VALIDATION
@@ -4720,80 +4723,95 @@ VALIDATION
 !=
 AUTHORITY
 ```
+
 ```text
 VALIDATION
 !=
 COMMIT
 ```
+
 ```text
 STRUCTURAL_VALIDITY
 !=
 SEMANTIC_VALIDITY
 ```
+
 ```text
 LOGICAL_VALIDITY
 !=
 EMPIRICAL_VALIDITY
 ```
+
 ```text
 EMPIRICAL_SUPPORT
 !=
 CAUSAL_PROOF
 ```
+
 ```text
 BENCHMARK_SUCCESS
 !=
 UNIVERSAL_VALIDITY
 ```
+
 ```text
 SIMULATION_SUCCESS
 !=
 REALITY_CONFIRMATION
 ```
+
 ```text
 REPLICATION
 !=
 INDEPENDENCE
 unless ancestry differs
 ```
+
 ```text
 HIGH_CONFIDENCE
 !=
 HIGH_VALIDATION_LEVEL
 ```
+
 ```text
 HIGH_VALIDATION_LEVEL
 !=
 HIGH_AUTHORITY
 ```
+
 ```text
 PLACEHOLDER
 !=
 IMPLEMENTED
 ```
+
 ```text
 ADDRESSABLE
 !=
 VALIDATED
 ```
+
 ```text
 CAPABILITY
 !=
 AUTHORITY
 ```
+
 ```text
 PROPOSAL
 !=
 COMMIT
 ```
+
 ```text
 UNKNOWN/GAP
 !=
 PASS
 ```
----
 
-# 177. Validation Decision Table
+______________________________________________________________________
+
+## 177. Validation Decision Table
 
 ```text
 Object is undefined?
@@ -4840,9 +4858,9 @@ Do not select the highest flattering level.
 
 Select the weakest accurate level supported by evidence.
 
----
+______________________________________________________________________
 
-# 178. Final Validation Contract
+## 178. Final Validation Contract
 
 Before assigning a validation level, AMOS must be able to answer:
 
@@ -4932,9 +4950,9 @@ not:
 PASS
 ```
 
----
+______________________________________________________________________
 
-# 179. Final State
+## 179. Final State
 
 `VALIDATION_LEVELS.md` exists to prevent AMOS from treating all successful checks as equivalent.
 
@@ -4999,22 +5017,27 @@ ACTUALLY SUPPORTS.
 
 **Conclusion class:** `DERIVED / CONDITIONAL`. The distinction between epistemic state, validation, authority, and deployment is source-aligned; the exact `V0–V12` taxonomy above is a derived architecture proposal and should remain conditional until a canonical AMOS artifact explicitly defines or supersedes the validation-level enumeration.
 ```
----
+
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: validation_levels
 node_type: note
 path: 25_COGNITIVE_MATRIX/11_VALIDATION/VALIDATION_LEVELS.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/11_VALIDATION/11_VALIDATION_MOC|11_VALIDATION_MOC]]

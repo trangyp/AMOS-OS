@@ -2,9 +2,7 @@
 schema_version: 1.0
 title: SKILL
 name: kimi-k3-in-c
-description: Build, test, and run the FareedKhan-dev/kimi-k3-in-c C99 Kimi K3 inference
-  engine. Weightless tests need no checkpoint; full generation requires the 1.56 TB
-  model. Do not use for training, fine-tuning, or non-C99 inference.
+description: Build, test, and run the FareedKhan-dev/kimi-k3-in-c C99 Kimi K3 inference engine. Weightless tests need no checkpoint; full generation requires the 1.56 TB model. Do not use for training, fine-tuning, or non-C99 inference.
 license: MIT
 steward: Trang Phan
 version: 1.1.0
@@ -13,13 +11,13 @@ epistemic_class: SOURCE_CLAIM
 rscf_state: DERIVED
 hml_level: L
 tags:
-- c99
-- inference
-- kimi-k3
-- weightless-test
-- model-free
-- operational
-- readme
+  - c99
+  - inference
+  - kimi-k3
+  - weightless-test
+  - model-free
+  - operational
+  - readme
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -56,13 +54,13 @@ Operational skill for the FareedKhan-dev/kimi-k3-in-c Kimi K3 C99 inference engi
 ## Operations
 
 1. **k3_in_c.build**: Compile the engine.
-2. **k3_in_c.test**: Run the weightless test suite and report gates.
-3. **k3_in_c.run**: Execute `bin/k3` with a local model once a checkpoint is present.
-4. **k3_in_c.diagnose**: Run `scripts/k3-doctor.sh` (Linux only) to check the toolchain and storage. On macOS it exits immediately; use `bin/k3 --list-presets` and `df -h` instead.
-5. **k3_in_c.budget**: Compute memory budgets with `tools/budget.py <model_dir>` after a checkpoint is present (needs `.safetensors` shards).
-6. **k3_in_c.info**: Show presets, version, help, and architecture notes.
-7. **k3_in_c.preset**: Select or validate `--preset` memory configurations.
-8. **k3_in_c.verify**: Confirm a downloaded checkpoint's byte totals and shard sizes.
+1. **k3_in_c.test**: Run the weightless test suite and report gates.
+1. **k3_in_c.run**: Execute `bin/k3` with a local model once a checkpoint is present.
+1. **k3_in_c.diagnose**: Run `scripts/k3-doctor.sh` (Linux only) to check the toolchain and storage. On macOS it exits immediately; use `bin/k3 --list-presets` and `df -h` instead.
+1. **k3_in_c.budget**: Compute memory budgets with `tools/budget.py <model_dir>` after a checkpoint is present (needs `.safetensors` shards).
+1. **k3_in_c.info**: Show presets, version, help, and architecture notes.
+1. **k3_in_c.preset**: Select or validate `--preset` memory configurations.
+1. **k3_in_c.verify**: Confirm a downloaded checkpoint's byte totals and shard sizes.
 
 ## Build
 
@@ -134,6 +132,6 @@ Use `--ids` to bypass the tokenizer and run ids-to-ids with no checkpoint vocabu
 - **Official model canon**: `https://github.com/MoonshotAI/Kimi-K3` — Moonshot AI model card, API, and vLLM/SGLang recipes. This is the upstream model, not the C99 engine; do not conflate the two.
 - **Build/test reference for this skill**: the FareedKhan-dev repository README, `docs/`, `scripts/k3-doctor.sh`, `tools/budget.py`, and the weightless test suite.
 
----
+______________________________________________________________________
 
 **MOC:** references_MOC · [[00_ROOT/00_HOME|00_HOME]]

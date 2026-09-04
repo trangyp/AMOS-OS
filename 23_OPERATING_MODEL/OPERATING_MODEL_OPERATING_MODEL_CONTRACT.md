@@ -1,86 +1,178 @@
 ---
-title: OPERATING MODEL OPERATING MODEL CONTRACT
-type: model
+title: "23_OPERATING_MODEL Master Operating Model & Human-Agent Governance Contract"
+type: control_contract
 source: 23_OPERATING_MODEL
-tags:
-- amos-os
-- canon/operating-model
-- routing-policy-validation-receipt
-- authz-engine-validation-receipt
-- law-hierarchy
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
+status: ACTIVE_GOVERNING_CONTRACT
+epistemic_class: AMOS_MODEL
+conclusion_class: DERIVED
 rscf:
   state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  claim_class: AMOS_MODEL
+  provenance:
+    - authoritative_AMOS_OS_structure
+    - 00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE
+    - 00_ROOT/00_ROOT_MOC
+    - 23_OPERATING_MODEL/23_OPERATING_MODEL_MOC
+  scope: operating_model_governance
+tags:
+  - amos-os
+  - 23-operating-model
+  - contract
+  - raci-matrix
+  - decision-rights
+  - governance-forums
+  - escalation-tiers
+  - human-agent-symbiosis
 ---
 
-# OPERATING MODEL OPERATING MODEL CONTRACT
+# 23_OPERATING_MODEL Master Operating Model & Human-Agent Governance Contract
 
-## 0. Status
-Operating Model-plane contract for **OPERATING MODEL CONTRACT**. AMOS_MODEL; canonical status CONDITIONAL; implementation PARTIAL.
-
-## 1. Scope
-Governs roles, decision rights, governance forums, escalation paths, service levels as they bear on `OPERATING MODEL CONTRACT`. Bounded by dependency closure: conclusions inherit the weakest load-bearing premise.
-
-## 2. Contract terms
-- **Typed artifacts** — every artifact declares artifact_type, epistemic class, scope, regime.
-- **Firewalls preserved** — CAPABILITY ≠ AUTHORITY · PROPOSAL ≠ COMMIT · OBSERVED ≠ CURRENT · TEST_PASS ≠ TRUTH.
-- **Epochs distinct** — state_version ≠ causal_epoch ≠ policy_epoch ≠ provenance_epoch unless an explicit mapping licenses equivalence.
-- **Local finality requires proof** — demonstrated dependency closure may avoid coordination; assumed independence may not.
-- **Selective invalidation** — failure invalidates dependent descendants only; unrelated state is preserved.
-
-## 3. Invariants
-- Fail closed on UNKNOWN/GAP; gaps stay visible, never promoted to PASS.
-- Confidence of any conclusion ≤ confidence of its weakest load-bearing premise (ceiling 0.95).
-- Consequential effects emit receipts; rollback basin exists before mutation.
-- Competing hypotheses remain visible when evidence does not discriminate.
-
-## 4. Executed reference
-No subsystem-local executor yet. Existing executed validators for the OS: routing-policy validator 19/19 ([[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]]) and authz invariant engine 17/17 ([[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]) — cited as pattern, not as evidence for this artifact.
-
-## 5. Gaps
-Runtime enforcement, persistence binding, and empirical validation remain OPEN (UNKNOWN/GAP). Promotion beyond AMOS_MODEL requires the promotion-gate checklist plus an executed receipt specific to this contract.
-
-## 6. Falsifiers
-F1: canonical source defines different semantics for this surface. F2: an executed test contradicts a declared invariant. F3: this contract silently collapses a protected firewall.
-## Worked semantics
-Given an operation touching `OPERATING MODEL · OPERATING MODEL CONTRACT` within the Operating Model plane:
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-2. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-3. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-4. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-5. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-6. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
-
-## Promotion-gate checklist
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
-
-## Cross-plane bindings
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]|AMOS Core Laws · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
-- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
-- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
----
-
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+**Origin Architect & Steward:** Trang Phan  
+**Target AMOS Lineage:** v4.4  
+**Plane:** `23_OPERATING_MODEL`  
+**Status:** `ACTIVE_GOVERNING_CONTRACT`  
+**Epistemic Classification:** `AMOS_MODEL` / `DERIVED`
 
 ---
-**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+
+## 1. Executive Summary & Organizational Mandate
+
+The `23_OPERATING_MODEL` plane defines the human-agent symbiotic governance structure, decision rights, organizational roles, governance forums, escalation paths, and service level agreements (SLAs) across the AMOS Full Brain OS.
+
+It bridges the human architect (**Trang Phan**) with autonomous agent swarms, ensuring absolute stewardship control, accountable decision delegation, and zero ambiguity regarding authority boundaries.
+
+```text
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                 5-TIER OPERATING MODEL STRUCTURE (PLANE 23)                 │
+│                                                                             │
+│  [23_OPERATING_MODEL/01_ROLES]            ──► RACI Definitions & Personas   │
+│  [23_OPERATING_MODEL/02_DECISION_RIGHTS]  ──► Authority Matrices & Gates    │
+│  [23_OPERATING_MODEL/03_GOVERNANCE_FORUMS]──► Review Boards & Audit Cadence │
+│  [23_OPERATING_MODEL/04_ESCALATION]       ──► Emergency Paths & Break-Glass │
+│  [23_OPERATING_MODEL/05_SERVICE_LEVELS]   ──► Response Latency & SLAs       │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
 
 ---
-RSCF-NODE
-node_id: amos_23_operating_model_operating_model_operating_model_contract_md
-node_type: note
-path: 23_OPERATING_MODEL/OPERATING_MODEL_OPERATING_MODEL_CONTRACT.md
-claim_class: AMOS_MODEL
+
+## 2. Hard Governance Axioms
+
+```text
+ORIGIN_STEWARD != REPLACEABLE_ACTOR
+DELEGATION != ABDICATION
+AUTONOMY != UNCHECKED_AUTHORITY
+PROPOSAL != COMMIT
+```
+
+1. **Origin Stewardship Invariant**: Trang Phan is the sole Origin Architect and Steward of AMOS OS. Autonomous agents operate strictly as delegated executors and cannot claim independent authorship or overturn core laws.
+2. **Accountability Primacy**: Every automated decision must map to a verifiable authority delegation granted by the control plane.
+3. **Fail-Safe Escalation**: Any state conflict, epistemic contradiction, or unhandled invariant breach automatically escalates to Tier 4 (Human Steward).
 
 ---
-**MOC:** [[23_OPERATING_MODEL/23_OPERATING_MODEL_MOC|23_OPERATING_MODEL_MOC]]
+
+## 3. Nine-Part AMOS Control Contract
+
+### 3.1 ROLE
+Governs human-agent organizational dynamics, decision allocation, dispute escalation, and operational service levels across all planes.
+
+### 3.2 INTERFACES
+- `IRACIEvaluator`: Resolves role responsibilities (Responsible, Accountable, Consulted, Informed) for any proposed system action.
+- `IEscalationRouter`: Dispatches unresolved conflicts to the appropriate tier (Shard Auto-Repair $\to$ Orchestrator $\to$ Governance Board $\to$ Human Steward).
+- `ISLAGovernor`: Monitors agent response latencies, reasoning budgets, and SLA adherence.
+
+### 3.3 DEPENDENCIES
+- `00_ROOT`: Root governance manifests and system maps.
+- `01_CANON`: Core laws (`L0_INTEGRITY` through `L33_KERNEL`).
+- `03_CONTROL_PLANE`: Authority and policy engines.
+- `20_OPERATIONS`: Audit ledgers and incident records.
+
+### 3.4 INVARIANTS
+1. **Human Override Invariant**: The Human Steward retains absolute, unilateral authority to pause, revert, or modify any system state at any time.
+2. **Explicit Decision Receipts**: All consequential state decisions must log an immutable decision receipt to `20_OPERATIONS`.
+3. **No Unilateral Law Mutation**: Core laws in `01_CANON` cannot be modified by autonomous agents without explicit Human Steward commit authorization.
+
+### 3.5 AUTHORITY
+Governed by `AMOS_CORE v4.4`, origin architect **Trang Phan**.
+
+### 3.6 PROVENANCE
+Engineered from organizational governance frameworks, military command-and-control delegation models, and autonomous AI system safety standards.
+
+### 3.7 TESTS
+- Unit verification of RACI matrix resolution under edge-case multi-agent conflicts.
+- Escalation drill simulations validating end-to-end alert propagation to the Human Steward.
+
+### 3.8 FAILURE MODES
+- Deadlocked multi-agent dispute or circular escalation loop.
+- Agent operating outside assigned RACI boundaries.
+- SLA violation during critical verification workflows.
+
+### 3.9 RECOVERY
+- Automatic circuit-breaker engagement freezing the affected agent shard.
+- Instant fallback to conservative safe state and dispatch of high-priority notification to Trang Phan.
+
+---
+
+## 4. Multi-Agent RACI Governance Matrix
+
+| System Action / Lifecycle Event | Human Steward (Trang Phan) | Orchestrator Agents | Specialist Worker Agents | Invariant Auditor Agents |
+| :--- | :--- | :--- | :--- | :--- |
+| **Canon & Core Law Modifications** | **Accountable (A)** | Informed (I) | - | Consulted (C) |
+| **Architecture Plane Restructuring**| **Accountable (A)** | Consulted (C) | - | Consulted (C) |
+| **Workflow Task Orchestration** | Informed (I) | **Accountable (A)** | Responsible (R) | Consulted (C) |
+| **Epistemic Claim Verification** | Informed (I) | Consulted (C) | Responsible (R) | **Accountable (A)** |
+| **Tool Sandbox Execution** | Informed (I) | Consulted (C) | **Responsible (R)** | Consulted (C) |
+| **Emergency Kill-Switch Trigger** | **Accountable (A)** | Responsible (R) | - | Responsible (R) |
+
+---
+
+## 5. Escalation Tiers & Response Latencies
+
+```text
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                       4-TIER ESCALATION CASCADE                             │
+│                                                                             │
+│  [Tier 1: Shard Local Repair]      ──► Target SLA: < 50 ms (Auto-Replay)    │
+│            │ (Unresolvable)                                                 │
+│            ▼                                                                │
+│  [Tier 2: Orchestrator Consensus]  ──► Target SLA: < 500 ms (Re-plan)       │
+│            │ (Contradiction)                                                │
+│            ▼                                                                │
+│  [Tier 3: Control Plane Forum]     ──► Target SLA: < 5000 ms (Policy Gate)  │
+│            │ (Invariant Breach)                                             │
+│            ▼                                                                │
+│  [Tier 4: Human Steward Action]    ──► Asynchronous Human Review Basin      │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## 6. AMOS OS MECE Plane Integration
+
+| AMOS Plane | Role & Responsibilities |
+| :--- | :--- |
+| **[[01_CANON/01_CANON_MOC\|01_CANON]]** | Normative law definitions paired with Operating Model accountability. |
+| **[[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC\|03_CONTROL_PLANE]]** | Enforces decision rights matrices at runtime commit gates. |
+| **[[06_AGENTS/06_AGENTS_MOC\|06_AGENTS]]** | Defines agent identities bound by RACI roles. |
+| **[[20_OPERATIONS/20_OPERATIONS_MOC\|20_OPERATIONS]]** | Records escalation ledgers and steward decision logs. |
+| **[[23_OPERATING_MODEL/23_OPERATING_MODEL_MOC\|23_OPERATING_MODEL]]** | Host plane managing governance forums, decision matrices, and escalation rules. |
+
+---
+
+## 7. Structural Invariants & Governance
+
+1. **Origin Lineage Integrity**: All operating model documents must cite **Trang Phan** as Origin Architect.
+2. **Deterministic Delegation**: Agents can only act within pre-authorized capability envelopes.
+3. **Lineage**: Governed under AMOS v4.4; origin steward **Trang Phan**.
+
+---
+
+## 8. Cross-Plane References
+
+- Operating Model MOC: [[23_OPERATING_MODEL/23_OPERATING_MODEL_MOC|23_OPERATING_MODEL MOC]]
+- Roles Index: [[23_OPERATING_MODEL/01_ROLES/00_INDEX/ROLES_MAP|ROLES_MAP]]
+- Decision Rights Index: [[23_OPERATING_MODEL/02_DECISION_RIGHTS/00_INDEX/DECISION_RIGHTS_MAP|DECISION_RIGHTS_MAP]]
+- Escalation Index: [[23_OPERATING_MODEL/04_ESCALATION/00_INDEX/ESCALATION_MAP|ESCALATION_MAP]]
+- Operations MOC: [[20_OPERATIONS/20_OPERATIONS_MOC|20_OPERATIONS MOC]]

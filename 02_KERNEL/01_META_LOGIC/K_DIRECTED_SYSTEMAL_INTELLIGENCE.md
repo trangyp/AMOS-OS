@@ -16,31 +16,31 @@ artifact_kind: INTELLIGENCE
 domain: directed-systemal-intelligence
 path: 02_KERNEL/01_META_LOGIC/K_DIRECTED_SYSTEMAL_INTELLIGENCE.md
 tags:
-- amos-os
-- kernel
-- core
-- intelligence
-- directed_intelligence
-- systemal_intelligence
-- meta_logic
-- canon/kernel
-- canon/model
-- rscf
-- rscf/claim
-- rscf/provenance
-- hml
-- dependency
-- provenance
-- scope
-- regime
-- governance
-- validation
-- recovery
-- law-hierarchy
-- amos-core-laws
-- canon-provenance
-- source-lineage
-- supersession-log
+  - amos-os
+  - kernel
+  - core
+  - intelligence
+  - directed_intelligence
+  - systemal_intelligence
+  - meta_logic
+  - canon/kernel
+  - canon/model
+  - rscf
+  - rscf/claim
+  - rscf/provenance
+  - hml
+  - dependency
+  - provenance
+  - scope
+  - regime
+  - governance
+  - validation
+  - recovery
+  - law-hierarchy
+  - amos-core-laws
+  - canon-provenance
+  - source-lineage
+  - supersession-log
 version: 0.2.0
 updated: '2026-08-27'
 status: AMOS_MODEL
@@ -83,9 +83,9 @@ integrity:
 > **Domain:** `directed-systemal-intelligence`
 > **Current class:** `AMOS_MODEL`
 
----
+______________________________________________________________________
 
-# 0. Canon Status
+## 0. Canon Status
 
 `K_DIRECTED_SYSTEMAL_INTELLIGENCE` represents the current
 AMOS-model expansion of the canonical slot named:
@@ -126,9 +126,9 @@ $$
 
 This artifact MUST NOT invent historical canon merely to fill the reserved slot.
 
----
+______________________________________________________________________
 
-# 1. Purpose
+## 1. Purpose
 
 Directed Systemal Intelligence is modeled here as the kernel-level
 discipline for transforming an explicit objective into a
@@ -170,9 +170,9 @@ WHEN TO STOP
 
 It does not independently authorize external effects.
 
----
+______________________________________________________________________
 
-# 2. Core Interpretation
+## 2. Core Interpretation
 
 The operative model is:
 
@@ -220,9 +220,9 @@ Direction
 Commit
 $$
 
----
+______________________________________________________________________
 
-# 3. Meaning of "Directed"
+## 3. Meaning of "Directed"
 
 Within this AMOS model, `DIRECTED` means reasoning is organized
 relative to an explicit objective, constraint, question, or
@@ -254,9 +254,9 @@ $$
 
 where integrity has priority.
 
----
+______________________________________________________________________
 
-# 4. Meaning of "Systemal"
+## 4. Meaning of "Systemal"
 
 `SYSTEMAL` is modeled as reasoning over the relevant system and its
 material relations rather than treating an isolated component as
@@ -302,9 +302,9 @@ What feedback can invalidate the conclusion?
 What cross-component invariants apply?
 ```
 
----
+______________________________________________________________________
 
-# 5. Meaning of "Intelligence"
+## 5. Meaning of "Intelligence"
 
 Within this artifact, `INTELLIGENCE` is an architectural capability
 class.
@@ -322,9 +322,9 @@ SCIENTIFIC INTELLIGENCE METRICS
 
 The term identifies an AMOS architectural role.
 
----
+______________________________________________________________________
 
-# 6. Hard Boundary
+## 6. Hard Boundary
 
 ```text
 DSI != CANON
@@ -358,9 +358,9 @@ CURRENT DSI DOCUMENT
 RECOVERED HISTORICAL CANON
 ```
 
----
+______________________________________________________________________
 
-# 7. Integrity Ordering
+## 7. Integrity Ordering
 
 Directed intelligence remains subordinate to:
 
@@ -389,9 +389,9 @@ CONTRADICTION HIDING
 AUTHORITY ESCALATION
 ```
 
----
+______________________________________________________________________
 
-# 8. Systemal Intelligence Function
+## 8. Systemal Intelligence Function
 
 Conceptually:
 
@@ -427,9 +427,9 @@ $$
 
 This is an architectural model, not an established executable API.
 
----
+______________________________________________________________________
 
-# 9. Input Envelope
+## 9. Input Envelope
 
 ```yaml
 directed_systemal_intelligence_input:
@@ -479,9 +479,9 @@ directed_systemal_intelligence_input:
     reversibility:
 ```
 
----
+______________________________________________________________________
 
-# 10. Output Envelope
+## 10. Output Envelope
 
 ```yaml
 directed_systemal_intelligence_result:
@@ -522,9 +522,9 @@ directed_systemal_intelligence_result:
   invalidation_conditions: []
 ```
 
----
+______________________________________________________________________
 
-# 11. Objective Binding
+## 11. Objective Binding
 
 Every directed process requires an objective envelope.
 
@@ -544,9 +544,9 @@ unless the ambiguity is irrelevant to the result.
 
 The system MUST NOT silently substitute a different objective.
 
----
+______________________________________________________________________
 
-# 12. Objective Integrity
+## 12. Objective Integrity
 
 An objective cannot override kernel integrity.
 
@@ -561,9 +561,9 @@ $$
 A request to optimize for an outcome does not license distortion of
 evidence.
 
----
+______________________________________________________________________
 
-# 13. System Boundary
+## 13. System Boundary
 
 Every systemal conclusion inherits a system boundary.
 
@@ -579,11 +579,11 @@ system_boundary:
 If an excluded component can materially change the conclusion, the
 boundary is incomplete.
 
----
+______________________________________________________________________
 
-# 14. Boundary Closure
+## 14. Boundary Closure
 
-For objective \(O\):
+For objective (O):
 
 $$
 B^*(O)
@@ -601,9 +601,9 @@ SmallestSufficientSystemBoundary
 }
 $$
 
----
+______________________________________________________________________
 
-# 15. H/M/L Direction
+## 15. H/M/L Direction
 
 Directed Systemal Intelligence interacts recursively with:
 
@@ -626,9 +626,9 @@ L = detail
 Traversal proceeds only while a branch can materially alter the
 objective, decision, or action.
 
----
+______________________________________________________________________
 
-# 16. Fractal Retrieval
+## 16. Fractal Retrieval
 
 Preferred retrieval:
 
@@ -655,9 +655,9 @@ DO_NOT_LOAD_UNLESS_REQUIRED
 Direction therefore reduces irrelevant traversal without weakening
 integrity.
 
----
+______________________________________________________________________
 
-# 17. RSCF Interaction
+## 17. RSCF Interaction
 
 Conceptually:
 
@@ -690,9 +690,9 @@ FALSIFIERS
 CONFIDENCE CEILING
 ```
 
----
+______________________________________________________________________
 
-# 18. Evidence Typing
+## 18. Evidence Typing
 
 Evidence retains type:
 
@@ -717,9 +717,9 @@ STRONG OBJECTIVE
 VERIFIED
 ```
 
----
+______________________________________________________________________
 
-# 19. Provenance-Aware Direction
+## 19. Provenance-Aware Direction
 
 Multiple inputs do not constitute multiple confirmations merely
 because they are presented separately.
@@ -744,11 +744,11 @@ Multiplicity
 Independence
 $$
 
----
+______________________________________________________________________
 
-# 20. Objective-Relevant Dependency Closure
+## 20. Objective-Relevant Dependency Closure
 
-For objective \(O\):
+For objective (O):
 
 $$
 Closure(O)
@@ -761,9 +761,9 @@ DSI SHOULD avoid dependencies that cannot alter the outcome.
 But omission is admissible only when irrelevance is established
 sufficiently for the stakes.
 
----
+______________________________________________________________________
 
-# 21. Decision-Changing Uncertainty
+## 21. Decision-Changing Uncertainty
 
 Not all uncertainty deserves equal reasoning cost.
 
@@ -775,14 +775,14 @@ U_D
 \{u \mid resolving\ u\ can\ change\ the\ disposition\}
 $$
 
-Priority belongs to \(U_D\).
+Priority belongs to (U_D).
 
 This supports efficient reasoning without pretending other
 uncertainty does not exist.
 
----
+______________________________________________________________________
 
-# 22. Uncertainty Vector
+## 22. Uncertainty Vector
 
 Material uncertainty may be separated into:
 
@@ -800,9 +800,9 @@ uncertainty:
 A single aggregate confidence score SHOULD NOT erase materially
 different uncertainty types.
 
----
+______________________________________________________________________
 
-# 23. Direction Selection
+## 23. Direction Selection
 
 For candidate directions:
 
@@ -829,9 +829,9 @@ EXPECTED INFORMATION VALUE
 No single factor automatically dominates all others except hard
 integrity/governance constraints.
 
----
+______________________________________________________________________
 
-# 24. Competing Directions
+## 24. Competing Directions
 
 If two incompatible directions remain comparably supported:
 
@@ -848,9 +848,9 @@ COMPETING
 
 rather than artificial convergence.
 
----
+______________________________________________________________________
 
-# 25. Discriminating Test
+## 25. Discriminating Test
 
 When alternatives remain competing, prefer a test capable of
 changing the decision.
@@ -871,9 +871,9 @@ $$
 This is a model heuristic, not claimed as recovered historical
 canon.
 
----
+______________________________________________________________________
 
-# 26. Sensitivity
+## 26. Sensitivity
 
 Identify the smallest premise or threshold capable of changing the
 direction.
@@ -888,7 +888,7 @@ Change(x)\Rightarrow Change(D)
 \}
 $$
 
-Possible \(x\):
+Possible (x):
 
 ```text
 PREMISE
@@ -900,9 +900,9 @@ SCOPE
 REGIME
 ```
 
----
+______________________________________________________________________
 
-# 27. Robust Direction
+## 27. Robust Direction
 
 A direction is more robust when plausible perturbations of
 non-load-bearing assumptions do not alter it.
@@ -915,9 +915,9 @@ CONDITIONAL
 
 rather than overstated.
 
----
+______________________________________________________________________
 
-# 28. Causal Firewall
+## 28. Causal Firewall
 
 Systemal reasoning may expose relations but must preserve causal
 typing.
@@ -953,9 +953,9 @@ StructuralSimilarity
 Causation
 $$
 
----
+______________________________________________________________________
 
-# 29. Feedback
+## 29. Feedback
 
 Systemal intelligence explicitly considers feedback when material.
 
@@ -971,9 +971,9 @@ C
 A conclusion based on a one-way model may become invalid if a
 load-bearing feedback edge exists.
 
----
+______________________________________________________________________
 
-# 30. Scope Firewall
+## 30. Scope Firewall
 
 A directed conclusion inherits:
 
@@ -990,17 +990,17 @@ scope:
 
 No silent generalization is permitted.
 
----
+______________________________________________________________________
 
-# 31. Regime Firewall
+## 31. Regime Firewall
 
-A direction valid in \(R_1\):
+A direction valid in (R_1):
 
 $$
 D|R_1
 $$
 
-cannot automatically transfer to \(R_2\).
+cannot automatically transfer to (R_2).
 
 If the regime changes materially:
 
@@ -1008,9 +1008,9 @@ If the regime changes materially:
 D → REVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 32. Freshness
+## 32. Freshness
 
 Direction depends on the freshness of load-bearing premises.
 
@@ -1024,9 +1024,9 @@ HISTORICALLY VALID != CURRENTLY VALID
 
 Stale load-bearing information requires revalidation.
 
----
+______________________________________________________________________
 
-# 33. State Awareness
+## 33. State Awareness
 
 Systemal direction may depend on explicit state:
 
@@ -1040,9 +1040,9 @@ state:
 A direction computed against stale state is not automatically valid
 against current state.
 
----
+______________________________________________________________________
 
-# 34. Concurrent Change
+## 34. Concurrent Change
 
 Conceptually:
 
@@ -1064,9 +1064,9 @@ Valid(D|V_1)
 Valid(D|V_2)
 $$
 
----
+______________________________________________________________________
 
-# 35. Atomic Systemal Reasoning
+## 35. Atomic Systemal Reasoning
 
 Suppose:
 
@@ -1092,9 +1092,9 @@ LocalValidity
 SystemValidity
 $$
 
----
+______________________________________________________________________
 
-# 36. Multi-RSCF Reasoning
+## 36. Multi-RSCF Reasoning
 
 For coupled RSCFs:
 
@@ -1108,9 +1108,9 @@ If joint dependencies materially couple them, evaluation must
 include those relations before a system-level direction is
 promoted.
 
----
+______________________________________________________________________
 
-# 37. Local Reasoning Fast Path
+## 37. Local Reasoning Fast Path
 
 Local reasoning is eligible only when:
 
@@ -1128,9 +1128,9 @@ Locality must be demonstrated.
 
 It must not be assumed merely because it is cheaper.
 
----
+______________________________________________________________________
 
-# 38. Escalation Conditions
+## 38. Escalation Conditions
 
 Escalate when evidence:
 
@@ -1145,9 +1145,9 @@ AFFECTS GOVERNANCE
 HAS IRREVERSIBLE CONSEQUENCES
 ```
 
----
+______________________________________________________________________
 
-# 39. Adaptive Complexity
+## 39. Adaptive Complexity
 
 Conceptual reasoning levels:
 
@@ -1176,9 +1176,9 @@ COMPETING MODELS
 GOVERNANCE IMPACT
 ```
 
----
+______________________________________________________________________
 
-# 40. De-Escalation
+## 40. De-Escalation
 
 Complexity should fall once outcome-changing uncertainty is
 resolved.
@@ -1193,9 +1193,9 @@ ALWAYS BETTER REASONING
 
 The target is sufficient reasoning.
 
----
+______________________________________________________________________
 
-# 41. Directional Sufficiency
+## 41. Directional Sufficiency
 
 A directed reasoning cycle may stop when:
 
@@ -1211,33 +1211,33 @@ have been reached for the requested objective.
 
 This does not imply omniscience or complete system knowledge.
 
----
+______________________________________________________________________
 
-# 42. Claim Sufficiency
+## 42. Claim Sufficiency
 
 Claim sufficiency exists when the conclusion is supported strongly
 enough for its stated epistemic class and scope.
 
 It does not require eliminating every explanatory gap.
 
----
+______________________________________________________________________
 
-# 43. Decision Sufficiency
+## 43. Decision Sufficiency
 
 Decision sufficiency exists when remaining uncertainty cannot
 reasonably change the decision under the declared constraints.
 
----
+______________________________________________________________________
 
-# 44. Action Sufficiency
+## 44. Action Sufficiency
 
 Action sufficiency exists when the next eligible action can be
 selected without unresolved critical governance, safety, authority,
 or dependency gaps.
 
----
+______________________________________________________________________
 
-# 45. Gap Priority
+## 45. Gap Priority
 
 ```text
 CRITICAL
@@ -1254,9 +1254,9 @@ Resolve in that order.
 A cosmetic gap should not consume resources needed to resolve a
 decision-critical uncertainty.
 
----
+______________________________________________________________________
 
-# 46. Gap Handling
+## 46. Gap Handling
 
 If a critical gap cannot be resolved:
 
@@ -1269,11 +1269,11 @@ MINIMUM MISSING INFORMATION
 
 Do not fill it with plausible prose.
 
----
+______________________________________________________________________
 
-# 47. Adversarial Validation
+## 47. Adversarial Validation
 
-For consequential direction \(D\), construct a genuinely different
+For consequential direction (D), construct a genuinely different
 challenge path seeking:
 
 ```text
@@ -1298,9 +1298,9 @@ OR
 RETURN UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 48. Different-Path Requirement
+## 48. Different-Path Requirement
 
 Repeating the same derivation in different words does not constitute
 independent validation.
@@ -1315,9 +1315,9 @@ SameMethod
 IndependentChallenge
 $$
 
----
+______________________________________________________________________
 
-# 49. Governance Firewall
+## 49. Governance Firewall
 
 Directed intelligence produces semantic direction.
 
@@ -1347,9 +1347,9 @@ CAPABILITY != AUTHORITY
 PROPOSAL != COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 50. Irreversibility
+## 50. Irreversibility
 
 Validation effort should rise with irreversible downside.
 
@@ -1366,9 +1366,9 @@ $$
 When equivalent outcomes exist, prefer the more reversible path
 under material uncertainty.
 
----
+______________________________________________________________________
 
-# 51. Repairability
+## 51. Repairability
 
 Under uncertainty:
 
@@ -1382,9 +1382,9 @@ OBSERVABLE
 actions are generally preferable to equally effective irreversible
 actions, subject to objective and governance constraints.
 
----
+______________________________________________________________________
 
-# 52. Failure Recovery
+## 52. Failure Recovery
 
 On failed direction:
 
@@ -1404,9 +1404,9 @@ REROUTE
 
 Global restart is not the default.
 
----
+______________________________________________________________________
 
-# 53. Failed-Path Rule
+## 53. Failed-Path Rule
 
 Do not repeat:
 
@@ -1424,9 +1424,9 @@ after failure.
 
 Retry requires changed evidence, assumptions, state, or method.
 
----
+______________________________________________________________________
 
-# 54. Directional Repair
+## 54. Directional Repair
 
 A failed direction does not invalidate the objective itself.
 
@@ -1441,9 +1441,9 @@ OBJECTIVE
 
 Failure recovery should reroute locally when possible.
 
----
+______________________________________________________________________
 
-# 55. Proof Capsule
+## 55. Proof Capsule
 
 A consequential directed conclusion SHOULD conceptually carry:
 
@@ -1496,9 +1496,9 @@ directed_intelligence_proof_capsule:
   invalidation_conditions: []
 ```
 
----
+______________________________________________________________________
 
-# 56. Proof Reuse
+## 56. Proof Reuse
 
 A prior direction may be reused only while:
 
@@ -1518,9 +1518,9 @@ Otherwise:
 REVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 57. Persistent Provenance
+## 57. Persistent Provenance
 
 A persistent direction without recoverable provenance is degraded.
 
@@ -1534,9 +1534,9 @@ INTEGRITY LOSS
 
 Its load-bearing origin should remain recoverable.
 
----
+______________________________________________________________________
 
-# 58. Direction vs Optimization
+## 58. Direction vs Optimization
 
 Optimization asks:
 
@@ -1570,9 +1570,9 @@ DSI
 UnconstrainedOptimization
 $$
 
----
+______________________________________________________________________
 
-# 59. Local vs Global Objective
+## 59. Local vs Global Objective
 
 A local optimum may damage the wider system.
 
@@ -1582,13 +1582,13 @@ Optimize(M_i)
 Optimize(H)
 $$
 
-where \(M_i\) is a subsystem and \(H\) is its containing system.
+where (M_i) is a subsystem and (H) is its containing system.
 
 Cross-level effects must be evaluated when material.
 
----
+______________________________________________________________________
 
-# 60. Objective Conflict
+## 60. Objective Conflict
 
 System objectives may conflict.
 
@@ -1603,9 +1603,9 @@ DSI must not silently collapse them into one objective.
 The governing priority or tradeoff rule must be explicit or remain
 `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
-# 61. Constraint Types
+## 61. Constraint Types
 
 Potential constraints include:
 
@@ -1623,9 +1623,9 @@ DEPENDENCY REQUIREMENTS
 
 A hard constraint is not merely another optimization preference.
 
----
+______________________________________________________________________
 
-# 62. Direction Classes
+## 62. Direction Classes
 
 Recommended model classes:
 
@@ -1642,9 +1642,9 @@ UNKNOWN/GAP
 
 These are dispositions, not runtime commands.
 
----
+______________________________________________________________________
 
-# 63. PROCEED
+## 63. PROCEED
 
 Use when:
 
@@ -1658,18 +1658,18 @@ RISK ACCEPTABLE
 GOVERNANCE SATISFIABLE
 ```
 
----
+______________________________________________________________________
 
-# 64. PROCEED_CONDITIONALLY
+## 64. PROCEED_CONDITIONALLY
 
 Use when a direction remains valid only while explicit assumptions
 or thresholds hold.
 
 Its conditions must remain visible.
 
----
+______________________________________________________________________
 
-# 65. DISCRIMINATE
+## 65. DISCRIMINATE
 
 Use when competing alternatives require new information before
 selection.
@@ -1677,9 +1677,9 @@ selection.
 The preferred next operation is the highest-value discriminating
 test.
 
----
+______________________________________________________________________
 
-# 66. ESCALATE
+## 66. ESCALATE
 
 Use when resolution crosses a boundary that local reasoning cannot
 safely resolve, including:
@@ -1693,9 +1693,9 @@ HIGH IRREVERSIBILITY
 AMBIGUOUS DEPENDENCY
 ```
 
----
+______________________________________________________________________
 
-# 67. HOLD
+## 67. HOLD
 
 Use when action should not proceed because a blocking condition
 remains unresolved.
@@ -1708,23 +1708,23 @@ FAILURE
 
 It may be the correct systemal disposition.
 
----
+______________________________________________________________________
 
-# 68. REPAIR
+## 68. REPAIR
 
 Use when the existing state or reasoning structure is recoverable
 through localized correction.
 
----
+______________________________________________________________________
 
-# 69. ROLLBACK
+## 69. ROLLBACK
 
 Use when maintaining the candidate state would violate integrity or
 a governing invariant and a valid prior state exists.
 
----
+______________________________________________________________________
 
-# 70. UNKNOWN/GAP
+## 70. UNKNOWN/GAP
 
 Use when required information is missing and no valid conditional
 direction can be established.
@@ -1733,9 +1733,9 @@ direction can be established.
 UNKNOWN/GAP != PASS
 ```
 
----
+______________________________________________________________________
 
-# 71. Reference Algorithm
+## 71. Reference Algorithm
 
 ```python
 def directed_systemal_intelligence(objective, context):
@@ -1812,9 +1812,9 @@ This is architectural pseudocode.
 PSEUDOCODE != IMPLEMENTATION
 ```
 
----
+______________________________________________________________________
 
-# 72. Compact Runtime Model
+## 72. Compact Runtime Model
 
 ```text
 PARSE OBJECTIVE
@@ -1838,9 +1838,9 @@ GOVERNANCE
 ACTION ELIGIBILITY
 ```
 
----
+______________________________________________________________________
 
-# 73. Anti-Fabrication Contract
+## 73. Anti-Fabrication Contract
 
 Never convert:
 
@@ -1878,9 +1878,9 @@ ARCHITECTURAL MODEL
 IMPLEMENTED RUNTIME
 ```
 
----
+______________________________________________________________________
 
-# 74. Anti-Regression Contract
+## 74. Anti-Regression Contract
 
 Any evolution of this artifact should preserve or improve:
 
@@ -1904,9 +1904,9 @@ If not:
 REJECT / ROLLBACK
 ```
 
----
+______________________________________________________________________
 
-# 75. Evolution
+## 75. Evolution
 
 ```text
 CURRENT DSI MODEL
@@ -1924,9 +1924,9 @@ COMMIT
 
 Generated improvements have no automatic canonical authority.
 
----
+______________________________________________________________________
 
-# 76. Ingestion Rule
+## 76. Ingestion Rule
 
 ```yaml
 AMOS_CANON_INGESTION_RULE:
@@ -1972,9 +1972,9 @@ AMOS_CANON_INGESTION_RULE:
       - NEVER_INVENT_CANON
 ```
 
----
+______________________________________________________________________
 
-# 77. Historical Canon Gap
+## 77. Historical Canon Gap
 
 ```yaml
 gap:
@@ -1998,9 +1998,9 @@ gap:
     - architectural relationships
 ```
 
----
+______________________________________________________________________
 
-# 78. Implementation Gap
+## 78. Implementation Gap
 
 ```yaml
 gap:
@@ -2016,9 +2016,9 @@ gap:
     - governance binding
 ```
 
----
+______________________________________________________________________
 
-# 79. Validation Gap
+## 79. Validation Gap
 
 ```yaml
 gap:
@@ -2033,9 +2033,9 @@ gap:
     - validation receipt
 ```
 
----
+______________________________________________________________________
 
-# 80. Validation Matrix
+## 80. Validation Matrix
 
 Before promotion, test at minimum:
 
@@ -2058,9 +2058,9 @@ FAILED-PATH REROUTING
 ROLLBACK
 ```
 
----
+______________________________________________________________________
 
-# 81. Negative Cases
+## 81. Negative Cases
 
 | Condition                            | Required disposition        |
 | ------------------------------------ | --------------------------- |
@@ -2079,9 +2079,9 @@ ROLLBACK
 | Failed path unchanged                | do not repeat               |
 | Critical gap unresolved              | never unconditional proceed |
 
----
+______________________________________________________________________
 
-# 82. Validation Receipt
+## 82. Validation Receipt
 
 ```yaml
 directed_systemal_intelligence_validation_receipt:
@@ -2129,9 +2129,9 @@ VALIDATION_STATUS
 NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 83. Cross-Plane Binding
+## 83. Cross-Plane Binding
 
 ```text
 01_CANON
@@ -2153,9 +2153,9 @@ DSI occupies the kernel reasoning layer.
 
 It does not collapse these planes.
 
----
+______________________________________________________________________
 
-# 84. Canon Interaction
+## 84. Canon Interaction
 
 Canon may constrain:
 
@@ -2170,9 +2170,9 @@ AUTHORITY BOUNDARIES
 DSI consumes applicable canon but does not generate canon merely by
 reasoning.
 
----
+______________________________________________________________________
 
-# 85. Kernel Interaction
+## 85. Kernel Interaction
 
 Likely conceptual kernel dependencies include:
 
@@ -2194,9 +2194,9 @@ INTEGRATION
 Specific binding identities remain subject to native-canon
 resolution.
 
----
+______________________________________________________________________
 
-# 86. Control-Plane Interaction
+## 86. Control-Plane Interaction
 
 ```text
 DSI DIRECTION
@@ -2208,9 +2208,9 @@ AUTHORIZED / DENIED / ESCALATED
 
 A semantically preferred direction can still be unauthorized.
 
----
+______________________________________________________________________
 
-# 87. Runtime Interaction
+## 87. Runtime Interaction
 
 ```text
 AUTHORIZED DIRECTION
@@ -2222,9 +2222,9 @@ Runtime success or failure becomes new evidence.
 
 It does not retroactively prove the model universally correct.
 
----
+______________________________________________________________________
 
-# 88. Observability Interaction
+## 88. Observability Interaction
 
 ```text
 RUNTIME
@@ -2242,9 +2242,9 @@ Observability supplies evidence.
 
 It does not grant authority.
 
----
+______________________________________________________________________
 
-# 89. Recovery Interaction
+## 89. Recovery Interaction
 
 ```text
 FAILURE RECEIPT
@@ -2258,9 +2258,9 @@ ALTERNATIVE DIRECTION
 REVALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 90. Current Claim Register
+## 90. Current Claim Register
 
 ```yaml
 claims:
@@ -2295,9 +2295,9 @@ claims:
     class: UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 91. Evidence Register
+## 91. Evidence Register
 
 ```yaml
 evidence:
@@ -2337,9 +2337,9 @@ evidence:
       - runtime enforcement
 ```
 
----
+______________________________________________________________________
 
-# 92. Gap Register
+## 92. Gap Register
 
 ```yaml
 gaps:
@@ -2375,9 +2375,9 @@ gaps:
     status: OPEN
 ```
 
----
+______________________________________________________________________
 
-# 93. Invalidation Conditions
+## 93. Invalidation Conditions
 
 Reclassify or partially invalidate this artifact if native evidence
 establishes:
@@ -2402,9 +2402,9 @@ AN EXECUTED VALIDATION RECEIPT
 
 Invalidate only affected claims.
 
----
+______________________________________________________________________
 
-# 94. Promotion Gate — Canon
+## 94. Promotion Gate — Canon
 
 - [ ] native DSI source identified;
 - [ ] source identity verified;
@@ -2416,9 +2416,9 @@ Invalidate only affected claims.
 - [ ] contradictions preserved;
 - [ ] supersession state established.
 
----
+______________________________________________________________________
 
-# 95. Promotion Gate — Implementation
+## 95. Promotion Gate — Implementation
 
 - [ ] objective schema implemented;
 - [ ] system-boundary representation implemented;
@@ -2431,9 +2431,9 @@ Invalidate only affected claims.
 - [ ] recovery semantics implemented;
 - [ ] state/version handling implemented.
 
----
+______________________________________________________________________
 
-# 96. Promotion Gate — Validation
+## 96. Promotion Gate — Validation
 
 - [ ] deterministic replay;
 - [ ] objective ambiguity test;
@@ -2453,9 +2453,9 @@ Invalidate only affected claims.
 - [ ] adversarial challenge;
 - [ ] executed validation receipt.
 
----
+______________________________________________________________________
 
-# 97. Lifecycle
+## 97. Lifecycle
 
 ```text
 PLACEHOLDER
@@ -2477,9 +2477,9 @@ AUTHORIZED / ENFORCED
 
 These states MUST remain distinct.
 
----
+______________________________________________________________________
 
-# 98. Completion Matrix
+## 98. Completion Matrix
 
 ```text
 ┌─────────────────────────────────────┬──────────────────────────┐
@@ -2500,9 +2500,9 @@ These states MUST remain distinct.
 └─────────────────────────────────────┴──────────────────────────┘
 ```
 
----
+______________________________________________________________________
 
-# 99. Machine-Readable Contract
+## 99. Machine-Readable Contract
 
 ```yaml
 AMOS_DIRECTED_SYSTEMAL_INTELLIGENCE:
@@ -2564,9 +2564,9 @@ AMOS_DIRECTED_SYSTEMAL_INTELLIGENCE:
     status: NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 100. RSCF Node
+## 100. RSCF Node
 
 ```text
 RSCF-NODE
@@ -2637,9 +2637,9 @@ RSCF-RELATIONS:
   - RECOVERED_BY:
 ```
 
----
+______________________________________________________________________
 
-# 101. Canon Integrity Declaration
+## 101. Canon Integrity Declaration
 
 The current artifact supports the following terminal classification:
 
@@ -2737,11 +2737,11 @@ Verified\ Historical\ Canon
 }
 $$
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
 
 **Related:**
 [[00_ROOT/00_HOME|00_HOME]] ·
@@ -2760,11 +2760,11 @@ $$
 [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] ·
 [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
 
----
+______________________________________________________________________
 
 **MOC:** [[02_KERNEL/01_META_LOGIC/01_META_LOGIC_MOC|01_META_LOGIC_MOC]]
 
----
+______________________________________________________________________
 
 ## Terminal Classification
 

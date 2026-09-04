@@ -1,15 +1,18 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: references MOC
 type: moc
 source: 07_SKILLS/amos-mdformat-obsidian/references
 tags:
-- references
-- amos-mdformat-obsidian
-- type/skill
-- [[07_SKILLS/amos-mdformat-obsidian/references/sota|sota]]
-- law-hierarchy
-- skill
-- trang-framework-recursive-ontology-dynamics
+  - references
+  - amos-mdformat-obsidian
+  - type/skill
+  - [[07_SKILLS/amos-mdformat-obsidian/references/sota|sota]]
+  - law-hierarchy
+  - skill
+  - trang-framework-recursive-ontology-dynamics
 moc: true
 rscf:
   state: DERIVED
@@ -25,9 +28,10 @@ rscf:
 Map-of-content for the Mdformat Obsidian reference files.
 
 ## References
+
 - [[07_SKILLS/amos-mdformat-obsidian/references/sota|sota]] — SOTA regression prevention, grounding support, data trustworthiness, and evaluation contract
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · SKILL
 
@@ -35,12 +39,14 @@ Map-of-content for the Mdformat Obsidian reference files.
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-mdformat-obsidian_references_moc
 node_type: moc
 path: 07_SKILLS/amos-mdformat-obsidian/references/references_MOC.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

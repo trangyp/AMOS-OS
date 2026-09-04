@@ -4,24 +4,22 @@ title: SKILL — Amos Law Hierarchy Resolver
 type: skill
 source: 07_SKILLS/amos-law-hierarchy-resolver
 name: amos-law-hierarchy-resolver
-description: Law Hierarchy Resolver — meta logic capability. Use when logic reasoning,
-  decomposition, or meta-law validation. Use when amos-c01-meta-logic-master routes
-  to this specialized capability. Do not use for generic tasks outside c01 domain.
+description: Law Hierarchy Resolver — meta logic capability. Use when logic reasoning, decomposition, or meta-law validation. Use when amos-c01-meta-logic-master routes to this specialized capability. Do not use for generic tasks outside c01 domain.
 parent_skill: amos-c01-meta-logic-master
 domain: c01
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
 tags:
-- type/skill
-- type/skill
-- domain/meta-logic
-- epistemic/source_claim
-- hml/h
-- epistemic/source_claim
-- amos-os
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/meta-logic
+  - epistemic/source_claim
+  - hml/h
+  - epistemic/source_claim
+  - amos-os
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -31,24 +29,24 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: H
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
-- L7_authority
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
+  - L7_authority
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L7
-- L16
-- L17
-- L18
-- L19
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L7
+  - L16
+  - L17
+  - L18
+  - L19
 license: MIT
 steward: Trang Phan
 ---
@@ -58,6 +56,7 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: c01. Parent: amos-c01-meta-logic-master. Epistemic class: SOURCE_CLAIM. H/M/L: H.
+
 ## When to Use
 
 - When resolving conflicts between meta-laws, domain laws, and operational rules
@@ -83,13 +82,13 @@ Origin architect: **Trang Phan**. Domain: c01. Parent: amos-c01-meta-logic-maste
 ## Operations
 
 1. **law_hierarchy.resolve_hierarchy**: Resolve law hierarchy: meta-laws, domain laws, and operational rules
-2. **law_hierarchy.validate_consistency**: Validate cross-law consistency using the Law of Law constraint
-3. **law_hierarchy.apply_rule_of_2**: Apply the Rule of 2 to decompose systems into complementary force pairs
-4. **law_hierarchy.apply_rule_of_4**: Apply the Rule of 4 to classify system behavior into structural quadrants
-5. **law_hierarchy.detect_drift**: Detect logical drift, contradiction, or overextension beyond structural boundaries
-6. **law_hierarchy.escalate_gaps**: Escalate unresolved law conflicts as UNKNOWN/GAP — do not force-fit
-7. **law_hierarchy.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-8. **law_hierarchy.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+1. **law_hierarchy.validate_consistency**: Validate cross-law consistency using the Law of Law constraint
+1. **law_hierarchy.apply_rule_of_2**: Apply the Rule of 2 to decompose systems into complementary force pairs
+1. **law_hierarchy.apply_rule_of_4**: Apply the Rule of 4 to classify system behavior into structural quadrants
+1. **law_hierarchy.detect_drift**: Detect logical drift, contradiction, or overextension beyond structural boundaries
+1. **law_hierarchy.escalate_gaps**: Escalate unresolved law conflicts as UNKNOWN/GAP — do not force-fit
+1. **law_hierarchy.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+1. **law_hierarchy.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## Vault-Sourced Domain Knowledge
 
@@ -102,6 +101,7 @@ The governing constraint applied to all reasoning. Every valid system, interpret
 **Core Definition**: Every system operates within an overarching set of governing constraints, and these constraints themselves operate within a final meta-constraint. This final constraint determines which interpretations are allowed, which transitions are legitimate, and which outcomes are structurally impossible.
 
 **Function — Stabilizer**:
+
 - Prevents: contradictory outcomes, logically impossible transitions, drift in analysis, overextension beyond structural boundaries
 - Ensures: structural alignment, lawful causal pathways, constraint inheritance, cross-time self-consistency
 
@@ -110,6 +110,7 @@ The governing constraint applied to all reasoning. Every valid system, interpret
 Defines the fundamental dual structure underlying all human-linked systems. Ensures every system reduces to two core forces that interact.
 
 **Core Definition**: All systems contain two opposing but complementary forces that maintain dynamic equilibrium:
+
 - expansion ↔ contraction
 - integration ↔ fragmentation
 - stability ↔ volatility
@@ -123,26 +124,28 @@ Defines the fundamental dual structure underlying all human-linked systems. Ensu
 Defines the structural quadrants that govern all higher-order system behavior.
 
 **Core Definition**: Four quadrants classify system state and determine which interventions are structurally valid:
+
 1. **Stable + Aligned** — maintain and optimize
-2. **Stable + Misaligned** — correct direction before acceleration
-3. **Unstable + Aligned** — stabilize before scaling
-4. **Unstable + Misaligned** — halt, diagnose, restructure
+1. **Stable + Misaligned** — correct direction before acceleration
+1. **Unstable + Aligned** — stabilize before scaling
+1. **Unstable + Misaligned** — halt, diagnose, restructure
 
 ### Canon Hierarchy (5 Levels)
 
-| Level | Name | Role |
-|-------|------|------|
-| 1 | Meta-Framework | UBA (Universal Bio-Logical Architecture) — above everything |
-| 2 | Top-Level Disciplines | Bio-Logical Computing, Cognitive Systems Architecture, AMOS Organism OS, Governance, Life Systems |
-| 3 | Core Frameworks | UBI, QLS, QCLA, ULF, PSI, TSS, TPE, AMOS_CORE |
-| 4 | Domain Engines | C01-C12 domain-specific reasoning engines |
-| 5 | Operational Skills | Individual skills, agents, workflows |
+| Level | Name                  | Role                                                                                              |
+| ----- | --------------------- | ------------------------------------------------------------------------------------------------- |
+| 1     | Meta-Framework        | UBA (Universal Bio-Logical Architecture) — above everything                                       |
+| 2     | Top-Level Disciplines | Bio-Logical Computing, Cognitive Systems Architecture, AMOS Organism OS, Governance, Life Systems |
+| 3     | Core Frameworks       | UBI, QLS, QCLA, ULF, PSI, TSS, TPE, AMOS_CORE                                                     |
+| 4     | Domain Engines        | C01-C12 domain-specific reasoning engines                                                         |
+| 5     | Operational Skills    | Individual skills, agents, workflows                                                              |
 
 **Precedence Rule**: Higher levels constrain lower levels. A lower-level rule cannot override a higher-level law. Conflicts escalate upward.
 
 ## Failur
 
----
+______________________________________________________________________
+
 **Links:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 ## Related
@@ -152,17 +155,19 @@ Defines the structural quadrants that govern all higher-order system behavior.
 ## Examples
 
 - **Scenario**: When resolving conflicts between meta-laws, domain laws, and operational rules
+
   - **Input**: A query matching this skill's domain (c01)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When applying the Law of Law, Rule of 2, and Rule of 4 to validate structural consistency
+
   - **Input**: A query matching this skill's domain (c01)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When determining which law takes precedence in a hierarchy conflict
+
   - **Input**: A query matching this skill's domain (c01)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Validation Gates
 
@@ -179,7 +184,6 @@ Defines the structural quadrants that govern all higher-order system behavior.
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `amos-c01-meta-logic-master` — routes to this skill when c01 specialization is needed
@@ -187,7 +191,6 @@ Defines the structural quadrants that govern all higher-order system behavior.
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -206,7 +209,6 @@ Defines the structural quadrants that govern all higher-order system behavior.
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -214,7 +216,6 @@ Defines the structural quadrants that govern all higher-order system behavior.
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -227,11 +228,12 @@ Defines the structural quadrants that govern all higher-order system behavior.
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `amos-c01-meta-logic-master` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `amos-law-hierarchy-resolver-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -239,12 +241,14 @@ Defines the structural quadrants that govern all higher-order system behavior.
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-law-hierarchy-resolver
 node_type: skill
 path: 07_SKILLS/amos-law-hierarchy-resolver/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

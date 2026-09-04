@@ -4,25 +4,22 @@ title: SKILL — Amos Claim Verifier
 type: skill
 source: 07_SKILLS/amos-claim-verifier
 name: amos-claim-verifier
-description: Claim Verifier — audit and repair capability. Use when auditing, failure
-  analysis, gap discovery, or repair allocation. Use when amos-audit-repair-master
-  routes to this specialized capability. Do not use for generic tasks outside audit
-  domain.
+description: Claim Verifier — audit and repair capability. Use when auditing, failure analysis, gap discovery, or repair allocation. Use when amos-audit-repair-master routes to this specialized capability. Do not use for generic tasks outside audit domain.
 parent_skill: amos-audit-repair-master
 domain: audit
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
 tags:
-- type/skill
-- type/skill
-- domain/audit-repair
-- epistemic/source_claim
-- hml/m
-- epistemic/source_claim
-- amos-os
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/audit-repair
+  - epistemic/source_claim
+  - hml/m
+  - epistemic/source_claim
+  - amos-os
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -32,25 +29,25 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: M
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
-- L7_authority
-- L22_replayability
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
+  - L7_authority
+  - L22_replayability
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L7
-- L16
-- L17
-- L18
-- L22
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L7
+  - L16
+  - L17
+  - L18
+  - L22
 license: MIT
 steward: Trang Phan
 ---
@@ -60,6 +57,7 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: audit. Parent: amos-audit-repair-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
 ## When to Use
 
 - When auditing claims against evidence and provenance
@@ -87,13 +85,13 @@ Origin architect: **Trang Phan**. Domain: audit. Parent: amos-audit-repair-maste
 ## Operations
 
 1. **claim_verifier.audit_claim**: Audit claims against evidence, provenance, and epistemic class
-2. **claim_verifier.detect_gap**: Detect gaps: missing capabilities, missing evidence, missing tests, missing monitors
-3. **claim_verifier.allocate_repair**: Allocate repair resources to highest-leverage gaps and failure modes
-4. **claim_verifier.verify_closure**: Verify gap closure: requirement → capability → component → test → evidence
-5. **claim_verifier.benchmark_forensics**: Benchmark forensic analysis: trace performance regressions to root causes
-6. **claim_verifier.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-7. **claim_verifier.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
-8. **claim_verifier.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+1. **claim_verifier.detect_gap**: Detect gaps: missing capabilities, missing evidence, missing tests, missing monitors
+1. **claim_verifier.allocate_repair**: Allocate repair resources to highest-leverage gaps and failure modes
+1. **claim_verifier.verify_closure**: Verify gap closure: requirement → capability → component → test → evidence
+1. **claim_verifier.benchmark_forensics**: Benchmark forensic analysis: trace performance regressions to root causes
+1. **claim_verifier.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+1. **claim_verifier.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+1. **claim_verifier.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## 11_KNOWLEDGE Vault Content
 
@@ -105,27 +103,30 @@ Origin architect: **Trang Phan**. Domain: audit. Parent: amos-audit-repair-maste
 From Cosmo Brain Vortical Persistence RSCF Architecture: Claim verification with epistemic typing and quarantine. From C01 Meta Logic: 5 meta-laws.
 
 **Claim verification model**:
+
 - **Claim parsing**: parse the claim into components (subject, predicate, object, scope, regime)
 - **Epistemic typing**: type the claim with epistemic class (SOURCE_CLAIM, DOMAIN_EMPIRICAL, AMOS_MODEL, DERIVED, COMPETING, UNKNOWN/GAP, DECISION)
 - **Load-bearing statement typing**: identify which statements are load-bearing
 - **Quarantine**: quarantine unvalidated claims
 
 **5 Meta-laws for verification**:
+
 1. **Law of Law**: no unresolved contradictions within the claim
-2. **Rule of 2**: at least 2 independent supports for the claim
-3. **Rule of 4**: check 4 dimensions: scope, regime, evidence, falsifier
-4. **Signal Fidelity Preservation**: no loss of signal fidelity through verification
-5. **Structural Integrity**: the claim's structure is maintained under verification
+1. **Rule of 2**: at least 2 independent supports for the claim
+1. **Rule of 4**: check 4 dimensions: scope, regime, evidence, falsifier
+1. **Signal Fidelity Preservation**: no loss of signal fidelity through verification
+1. **Structural Integrity**: the claim's structure is maintained under verification
 
 **Verification protocol**:
+
 1. **Parse**: parse the claim into components
-2. **Type**: type the claim with epistemic class
-3. **Check evidence**: check if the claim has sufficient evidence
-4. **Trace provenance**: trace the claim's provenance to its source
-5. **Check scope**: check if the claim is within its declared scope
-6. **Check falsifier**: check if the claim has a declared falsifier
-7. **Check confidence**: check if confidence does not exceed evidence support
-8. **Quarantine**: quarantine if verification fails
+1. **Type**: type the claim with epistemic class
+1. **Check evidence**: check if the claim has sufficient evidence
+1. **Trace provenance**: trace the claim's provenance to its source
+1. **Check scope**: check if the claim is within its declared scope
+1. **Check falsifier**: check if the claim has a declared falsifier
+1. **Check confidence**: check if confidence does not exceed evidence support
+1. **Quarantine**: quarantine if verification fails
 
 **Verification outcome**: VERIFIED, PARTIALLY_VERIFIED, UNVERIFIED, CONTRADICTED, UNKNOWN
 
@@ -136,12 +137,14 @@ From Cosmo Brain Vortical Persistence RSCF Architecture: Claim verification with
 Claim verification is an epistemic governance construct. It does not prove claims are true, that all verification dimensions are covered, or that verification is always correct.
 
 ## Failure Modes
+
 - **Insufficient evidence**: If source material is insufficient, mark as UNKNOWN/GAP and fail closed — do not fabricate.
 - **Scope violation**: If the query falls outside the skill's declared scope, escalate to the parent skill or steward.
 - **Binding broken**: If 1:1:1 binding (skill→agent→workflow) is broken, flag routing mismatch and block execution.
 - **Validation failure**: If validation gates fail, downgra
 
----
+______________________________________________________________________
+
 **Links:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 ## Related
@@ -151,17 +154,19 @@ Claim verification is an epistemic governance construct. It does not prove claim
 ## Examples
 
 - **Scenario**: When auditing claims against evidence and provenance
+
   - **Input**: A query matching this skill's domain (audit)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When detecting gaps in capabilities, evidence, tests, or monitors
+
   - **Input**: A query matching this skill's domain (audit)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When allocating repair resources to highest-leverage gaps
+
   - **Input**: A query matching this skill's domain (audit)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Validation Gates
 
@@ -178,7 +183,6 @@ Claim verification is an epistemic governance construct. It does not prove claim
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `amos-audit-repair-master` — routes to this skill when audit specialization is needed
@@ -186,7 +190,6 @@ Claim verification is an epistemic governance construct. It does not prove claim
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -205,7 +208,6 @@ Claim verification is an epistemic governance construct. It does not prove claim
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -213,7 +215,6 @@ Claim verification is an epistemic governance construct. It does not prove claim
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -226,11 +227,12 @@ Claim verification is an epistemic governance construct. It does not prove claim
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `amos-audit-repair-master` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `amos-claim-verifier-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -238,12 +240,14 @@ Claim verification is an epistemic governance construct. It does not prove claim
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-claim-verifier
 node_type: skill
 path: 07_SKILLS/amos-claim-verifier/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

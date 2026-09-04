@@ -17,43 +17,43 @@ authority_level: root_state_record
 created: 2026-08-25
 updated: 2026-08-25
 tags:
-- amos-os
-- amos-os
-- root
-- canon-group/tech-ai
-- canon/model
-- state
-- state/authoritative
-- state/epoch
-- state/lifecycle
-- state/validation
-- state/recovery
-- state/mvcc
-- state/cas
-- provenance
-- provenance/persistent
-- provenance/lineage
-- governance
-- governance/authority
-- governance/commit
-- kernel/dependency
-- kernel/atomicity
-- kernel/validation
-- rscf/state/model
-- topic/authoritative-state
-- topic/state-transition
-- topic/commit-integrity
-- readme
-- architecture
-- placement-rules
-- roadmap
-- amos-core-laws
-- law-hierarchy
-- canon-provenance
-- source-lineage
-- supersession-log
+  - amos-os
+  - amos-os
+  - root
+  - canon-group/tech-ai
+  - canon/model
+  - state
+  - state/authoritative
+  - state/epoch
+  - state/lifecycle
+  - state/validation
+  - state/recovery
+  - state/mvcc
+  - state/cas
+  - provenance
+  - provenance/persistent
+  - provenance/lineage
+  - governance
+  - governance/authority
+  - governance/commit
+  - kernel/dependency
+  - kernel/atomicity
+  - kernel/validation
+  - rscf/state/model
+  - topic/authoritative-state
+  - topic/state-transition
+  - topic/commit-integrity
+  - readme
+  - architecture
+  - placement-rules
+  - roadmap
+  - amos-core-laws
+  - law-hierarchy
+  - canon-provenance
+  - source-lineage
+  - supersession-log
 aliases:
-- AMOS OS Authoritative State - Authoritative State - AMOS Authoritative State - AUTHORITATIVE
+  - AMOS OS Authoritative State - Authoritative State - AMOS Authoritative State - AUTHORITATIVE
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -62,41 +62,43 @@ rscf:
 ---
 
 # AMOS OS Authoritative State
+
 > **AMOS Core target:** `v4.4`
 > **Origin architect / steward:** Trang Phan
 > **State plane:** `12_STATE`
 > **Status:** `AMOS_MODEL`
 > **Conclusion class:** `AMOS_MODEL`
+
 ## Purpose
+
 `AUTHORITATIVE_STATE` is the single root contract for determining which AMOS OS repository/vault state is currently accepted as authoritative.
 It exists to prevent:
+
 ```text
 NEWEST FILE
 =
 AUTHORITATIVE FILE
 ```
+
 or:
+
 ```text
 MOST COMPLETE-LOOKING COPY
 =
 CURRENT TRUTH
 ```
+
 or:
+
 ```text
 IMPLEMENTED
 =
 AUTHORIZED
 ```
-The authoritative state is established only through explicit identity, provenance, compatibility, validation, authority, and commit semantics.
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: root_index
----
 
+## The authoritative state is established only through explicit identity, provenance, compatibility, validation, authority, and commit semantics. rscf: state: SOURCE_CLAIM claim_class: SOURCE_CLAIM provenance: AMOS_corpus scope: root_index
 
-# 1. Core State Contract
+## 1. Core State Contract
 
 ```yaml
 authoritative_state:
@@ -141,9 +143,9 @@ UNKNOWN/GAP
 INFERRED VALUE
 ```
 
----
+______________________________________________________________________
 
-# 2. Authoritative-State Law
+## 2. Authoritative-State Law
 
 ```text
 EXISTS
@@ -185,9 +187,9 @@ COMMIT
 AUTHORITATIVE
 ```
 
----
+______________________________________________________________________
 
-# 3. Authority Firewall
+## 3. Authority Firewall
 
 ```text
 CAPABILITY != AUTHORITY
@@ -203,9 +205,9 @@ VALID RESULT != AUTHORIZED RESULT
 
 Authority is explicit, typed, scoped, and provenance-bound.
 
----
+______________________________________________________________________
 
-# 4. State Classes
+## 4. State Classes
 
 AMOS OS state should distinguish:
 
@@ -225,9 +227,9 @@ UNKNOWN
 
 These states must not silently collapse into one another.
 
----
+______________________________________________________________________
 
-# 5. AUTHORITATIVE
+## 5. AUTHORITATIVE
 
 `AUTHORITATIVE` means the state currently accepted for governed system interpretation and operation within its declared scope.
 
@@ -245,9 +247,9 @@ COMMIT RECORD
 
 where required by the applicable governance regime.
 
----
+______________________________________________________________________
 
-# 6. WORKING
+## 6. WORKING
 
 `WORKING` state is mutable development state.
 
@@ -270,9 +272,9 @@ MIGRATION ARTIFACTS
 
 without affecting authoritative state.
 
----
+______________________________________________________________________
 
-# 7. CANDIDATE
+## 7. CANDIDATE
 
 A `CANDIDATE` is a proposed successor to authoritative state.
 
@@ -292,9 +294,9 @@ candidate:
 
 Candidate existence creates no automatic promotion.
 
----
+______________________________________________________________________
 
-# 8. SHADOW
+## 8. SHADOW
 
 `SHADOW` state may mirror or independently evaluate authoritative state without controlling it.
 
@@ -317,9 +319,9 @@ SHADOW SUCCESS
 AUTHORITATIVE COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 9. CHECKPOINT
+## 9. CHECKPOINT
 
 A checkpoint preserves a known state boundary suitable for comparison or recovery.
 
@@ -335,9 +337,9 @@ TIMESTAMP
 VALIDATION STATE
 ```
 
----
+______________________________________________________________________
 
-# 10. RECOVERY
+## 10. RECOVERY
 
 `RECOVERY` state is a state selected for rollback or restoration.
 
@@ -349,9 +351,9 @@ CURRENT AUTHORITY
 
 until recovery governance completes.
 
----
+______________________________________________________________________
 
-# 11. SUPERSEDED
+## 11. SUPERSEDED
 
 A superseded state remains historically meaningful.
 
@@ -372,9 +374,9 @@ EFFECTIVE EPOCH
 COMPATIBILITY NOTES
 ```
 
----
+______________________________________________________________________
 
-# 12. INVALIDATED
+## 12. INVALIDATED
 
 An invalidated state has lost validity because one or more load-bearing conditions failed.
 
@@ -393,9 +395,9 @@ INCOMPATIBLE MIGRATION
 
 Invalidation should be selective where possible.
 
----
+______________________________________________________________________
 
-# 13. State Identity
+## 13. State Identity
 
 State identity must remain distinct from filenames.
 
@@ -423,9 +425,9 @@ TIMESTAMP
 
 Renaming an artifact must not silently change authoritative identity.
 
----
+______________________________________________________________________
 
-# 14. Snapshot Identity
+## 14. Snapshot Identity
 
 A committed state should conceptually have:
 
@@ -451,9 +453,9 @@ HASH MATCH
 AUTHORIZATION
 ```
 
----
+______________________________________________________________________
 
-# 15. Epoch Model
+## 15. Epoch Model
 
 AMOS authoritative state may require multiple epoch dimensions.
 
@@ -467,17 +469,17 @@ SCHEMA_EPOCH
 
 These dimensions should not be silently conflated.
 
----
+______________________________________________________________________
 
-# 16. Policy Epoch
+## 16. Policy Epoch
 
 `POLICY_EPOCH` identifies the governance/policy context under which a state transition was evaluated.
 
 A state validated under one policy epoch may require revalidation when policy changes materially.
 
----
+______________________________________________________________________
 
-# 17. Provenance Epoch
+## 17. Provenance Epoch
 
 `PROVENANCE_EPOCH` represents the relevant provenance topology state.
 
@@ -491,9 +493,9 @@ INVALID
 
 then conclusions dependent on that assumption may require revalidation.
 
----
+______________________________________________________________________
 
-# 18. Causal Epoch
+## 18. Causal Epoch
 
 Where state depends on causal ordering:
 
@@ -523,9 +525,9 @@ A
 
 without an explicit new lineage.
 
----
+______________________________________________________________________
 
-# 19. Finality
+## 19. Finality
 
 Finality means a state transition has passed the applicable commit/finality rules.
 
@@ -537,9 +539,9 @@ IMMUTABLE TRUTH
 
 A finalized state can later be superseded or invalidated through governed evolution.
 
----
+______________________________________________________________________
 
-# 20. Causal Epoch Finality
+## 20. Causal Epoch Finality
 
 Conceptually:
 
@@ -555,9 +557,9 @@ FINALIZE EPOCH
 
 Once finalized, historical mutation should require explicit supersession rather than silent rewriting.
 
----
+______________________________________________________________________
 
-# 21. Provenance Requirement
+## 21. Provenance Requirement
 
 Every authoritative transition should preserve provenance sufficient to answer:
 
@@ -572,9 +574,9 @@ WHICH VALIDATION OCCURRED?
 WHAT CAN INVALIDATE IT?
 ```
 
----
+______________________________________________________________________
 
-# 22. Persistent Provenance
+## 22. Persistent Provenance
 
 Provenance must survive beyond transient reasoning context.
 
@@ -592,9 +594,9 @@ UNKNOWN/GAP
 
 or require revalidation.
 
----
+______________________________________________________________________
 
-# 23. Provenance Topology
+## 23. Provenance Topology
 
 Provenance should preserve ancestry, not merely a flat source list.
 
@@ -608,9 +610,9 @@ ROOT SOURCE
 
 This prevents duplicated descendants from masquerading as independent confirmation.
 
----
+______________________________________________________________________
 
-# 24. Dependency Closure
+## 24. Dependency Closure
 
 A candidate cannot be promoted merely because the changed artifact validates locally.
 
@@ -636,9 +638,9 @@ OR
 EXPLICITLY CONDITIONED
 ```
 
----
+______________________________________________________________________
 
-# 25. Selective Dependency Revalidation
+## 25. Selective Dependency Revalidation
 
 Global recomputation is not the default.
 
@@ -668,9 +670,9 @@ LOCAL INVALIDATION
 
 where dependency structure permits it.
 
----
+______________________________________________________________________
 
-# 26. MVCC Concept
+## 26. MVCC Concept
 
 AMOS authoritative state may use MVCC-style reasoning:
 
@@ -694,9 +696,9 @@ VERIFY THAT STATE BEFORE COMMIT
 
 This document does not assert that every AMOS implementation literally uses a database MVCC engine.
 
----
+______________________________________________________________________
 
-# 27. CAS Concept
+## 27. CAS Concept
 
 Compare-and-swap style promotion may be modeled as:
 
@@ -715,9 +717,9 @@ if current.hash != candidate.expected_parent_hash:
 
 This prevents stale writers from silently overwriting newer authoritative state.
 
----
+______________________________________________________________________
 
-# 28. Stale Candidate Rule
+## 28. Stale Candidate Rule
 
 If:
 
@@ -740,9 +742,9 @@ REJECT
 
 but never silent overwrite.
 
----
+______________________________________________________________________
 
-# 29. Atomic Commit
+## 29. Atomic Commit
 
 A logically indivisible authoritative transition must not expose partial state.
 
@@ -764,9 +766,9 @@ C FAILED
 
 must not masquerade as the intended final state.
 
----
+______________________________________________________________________
 
-# 30. Multi-RSCF Atomicity
+## 30. Multi-RSCF Atomicity
 
 Where multiple RSCFs jointly support a state transition:
 
@@ -780,9 +782,9 @@ their dependent conclusion may require atomic validation/commit semantics.
 
 Partial promotion can create epistemically inconsistent state.
 
----
+______________________________________________________________________
 
-# 31. Shard-Local Finalization
+## 31. Shard-Local Finalization
 
 Where a transition is demonstrably local and dependency closure proves independence from other shards:
 
@@ -798,9 +800,9 @@ LOCAL FINALIZATION MAY BE SUFFICIENT
 
 Independence must be demonstrated, not assumed.
 
----
+______________________________________________________________________
 
-# 32. Coordination-Avoidance Boundary
+## 32. Coordination-Avoidance Boundary
 
 Proof-based coordination avoidance is permissible only when:
 
@@ -816,9 +818,9 @@ NO CROSS-SHARD CAUSAL COUPLING
 
 Otherwise escalate coordination.
 
----
+______________________________________________________________________
 
-# 33. Conflict Gate
+## 33. Conflict Gate
 
 An unresolved material conflict blocks promotion when it can change:
 
@@ -842,9 +844,9 @@ unresolved_conflicts:
     blocking:
 ```
 
----
+______________________________________________________________________
 
-# 34. Competing State Candidates
+## 34. Competing State Candidates
 
 Multiple valid-looking candidates may coexist.
 
@@ -862,9 +864,9 @@ COMPETING
 
 is preferable to arbitrary promotion.
 
----
+______________________________________________________________________
 
-# 35. Validation Gate
+## 35. Validation Gate
 
 Promotion requires validation appropriate to the transition.
 
@@ -883,9 +885,9 @@ RECOVERY VALIDATION
 
 depending on scope.
 
----
+______________________________________________________________________
 
-# 36. Validation Is Scoped
+## 36. Validation Is Scoped
 
 ```text
 TEST PASSED
@@ -901,9 +903,9 @@ unless the test scope covers the relevant claim.
 
 Every validation result should preserve its applicability envelope.
 
----
+______________________________________________________________________
 
-# 37. Freshness
+## 37. Freshness
 
 Validation is freshness-bounded.
 
@@ -919,9 +921,9 @@ SECURITY CHANGE
 RUNTIME CHANGE
 ```
 
----
+______________________________________________________________________
 
-# 38. Confidence Ceiling
+## 38. Confidence Ceiling
 
 An authoritative-state conclusion cannot be stronger than its weakest load-bearing premise.
 
@@ -939,9 +941,9 @@ MIN(
 
 unless a weak premise is independently revalidated or removed from the dependency path.
 
----
+______________________________________________________________________
 
-# 39. Placeholder Firewall
+## 39. Placeholder Firewall
 
 Repository existence does not imply implementation.
 
@@ -961,9 +963,9 @@ FEATURE EXISTS
 
 Therefore placeholder population must not automatically advance authoritative state.
 
----
+______________________________________________________________________
 
-# 40. Canon Firewall
+## 40. Canon Firewall
 
 ```text
 STATE
@@ -977,9 +979,9 @@ Canon establishes governing definitions and laws.
 
 State cannot silently rewrite canon.
 
----
+______________________________________________________________________
 
-# 41. Kernel Firewall
+## 41. Kernel Firewall
 
 ```text
 STATE
@@ -991,9 +993,9 @@ State records accepted values/configuration/snapshots.
 
 Kernel defines deterministic invariants/operators.
 
----
+______________________________________________________________________
 
-# 42. Control-Plane Firewall
+## 42. Control-Plane Firewall
 
 ```text
 STATE
@@ -1005,9 +1007,9 @@ State may record authority outcomes.
 
 The control plane governs authorization and commit behavior.
 
----
+______________________________________________________________________
 
-# 43. Runtime Firewall
+## 43. Runtime Firewall
 
 ```text
 STATE
@@ -1019,9 +1021,9 @@ Runtime may read/write candidate state.
 
 Runtime execution does not independently grant authority.
 
----
+______________________________________________________________________
 
-# 44. Memory Firewall
+## 44. Memory Firewall
 
 ```text
 MEMORY
@@ -1031,9 +1033,9 @@ AUTHORITATIVE STATE
 
 A remembered value may be useful context but must not silently override governed state.
 
----
+______________________________________________________________________
 
-# 45. Knowledge Firewall
+## 45. Knowledge Firewall
 
 ```text
 KNOWLEDGE CLAIM
@@ -1045,9 +1047,9 @@ Knowledge can inform validation.
 
 It does not become state merely by being stored.
 
----
+______________________________________________________________________
 
-# 46. Model Firewall
+## 46. Model Firewall
 
 ```text
 MODEL OUTPUT
@@ -1059,9 +1061,9 @@ Models can propose candidates.
 
 Authority requires the governed transition path.
 
----
+______________________________________________________________________
 
-# 47. Tool Firewall
+## 47. Tool Firewall
 
 ```text
 TOOL CAN WRITE
@@ -1071,9 +1073,9 @@ TOOL MAY COMMIT
 
 Capability and authority remain separate.
 
----
+______________________________________________________________________
 
-# 48. Agent Firewall
+## 48. Agent Firewall
 
 ```text
 AGENT PROPOSES
@@ -1083,9 +1085,9 @@ AGENT COMMITS
 
 unless explicit authority contracts grant the relevant commit permission.
 
----
+______________________________________________________________________
 
-# 49. Recovery Contract
+## 49. Recovery Contract
 
 When authoritative state fails:
 
@@ -1107,9 +1109,9 @@ REVALIDATE
 RECOMMIT
 ```
 
----
+______________________________________________________________________
 
-# 50. Nearest Valid State
+## 50. Nearest Valid State
 
 Recovery should prefer:
 
@@ -1125,9 +1127,9 @@ GLOBAL RESET
 
 unless local repair cannot preserve integrity.
 
----
+______________________________________________________________________
 
-# 51. Rollback
+## 51. Rollback
 
 Rollback must itself be a governed transition.
 
@@ -1149,9 +1151,9 @@ ROLLBACK_TO_S0_AS_S2
 
 This retains the historical fact that `S1` existed.
 
----
+______________________________________________________________________
 
-# 52. Repair
+## 52. Repair
 
 When only one dependency fails:
 
@@ -1163,9 +1165,9 @@ is preferred over rebuilding unaffected state.
 
 Repair must preserve provenance of the change.
 
----
+______________________________________________________________________
 
-# 53. Replay
+## 53. Replay
 
 Persistent state transitions should support conceptual replay:
 
@@ -1182,9 +1184,9 @@ where sufficient event/provenance information exists.
 
 Replay capability improves auditability and recovery.
 
----
+______________________________________________________________________
 
-# 54. Audit Trail
+## 54. Audit Trail
 
 Every authoritative transition should eventually support:
 
@@ -1204,9 +1206,9 @@ transition:
   rollback_ref:
 ```
 
----
+______________________________________________________________________
 
-# 55. Authoritative-State Registry
+## 55. Authoritative-State Registry
 
 Conceptually:
 
@@ -1228,9 +1230,9 @@ state_registry:
   recovery_points: []
 ```
 
----
+______________________________________________________________________
 
-# 56. Transition States
+## 56. Transition States
 
 ```text
 PROPOSED
@@ -1248,9 +1250,9 @@ ROLLED_BACK
 
 These lifecycle states should not be silently collapsed.
 
----
+______________________________________________________________________
 
-# 57. Transition Invariants
+## 57. Transition Invariants
 
 ```text
 AS-01
@@ -1329,9 +1331,9 @@ AS-25
 UNKNOWN/GAP MUST NOT BE PROMOTED AS PASS
 ```
 
----
+______________________________________________________________________
 
-# 58. Candidate Promotion Algorithm
+## 58. Candidate Promotion Algorithm
 
 Conceptually:
 
@@ -1374,9 +1376,9 @@ def promote_candidate(candidate, current):
 
 This is architectural pseudocode, not a claim of deployed implementation.
 
----
+______________________________________________________________________
 
-# 59. Fast Path
+## 59. Fast Path
 
 A state transition may use the smallest sufficient proof scope when:
 
@@ -1402,9 +1404,9 @@ LOCAL COMMIT
 
 may be sufficient.
 
----
+______________________________________________________________________
 
-# 60. Escalation Conditions
+## 60. Escalation Conditions
 
 Escalate beyond local finalization when:
 
@@ -1423,9 +1425,9 @@ STALE VALIDATION
 REGIME SHIFT
 ```
 
----
+______________________________________________________________________
 
-# 61. Gap Classification
+## 61. Gap Classification
 
 Unresolved state gaps should be classified:
 
@@ -1456,9 +1458,9 @@ MISSING OPTIONAL DESCRIPTION
 
 depending on actual dependencies.
 
----
+______________________________________________________________________
 
-# 62. Current Known State
+## 62. Current Known State
 
 Based on this artifact alone, the defensible state remains:
 
@@ -1487,9 +1489,9 @@ This is deliberate.
 
 No version, epoch, hash, validation timestamp, or authority record should be fabricated from repository naming or document appearance.
 
----
+______________________________________________________________________
 
-# 63. Current Architectural Target
+## 63. Current Architectural Target
 
 The declared target is:
 
@@ -1511,9 +1513,9 @@ EVERY ARTIFACT VERIFIED AS v4.4
 
 Each implementation artifact still requires provenance and compatibility validation.
 
----
+______________________________________________________________________
 
-# 64. Promotion Requirements
+## 64. Promotion Requirements
 
 Before this file can represent a populated authoritative state rather than an architectural contract:
 
@@ -1549,9 +1551,9 @@ AUTHORITATIVE_STATE_POPULATION
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 65. Integrity Note
+## 65. Integrity Note
 
 This document defines the AMOS OS authoritative-state architecture aligned to the declared v4.4 target and its governed-state principles.
 
@@ -1579,9 +1581,9 @@ VALIDATION_STATUS = UNKNOWN/GAP
 CURRENT_SNAPSHOT = UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 66. RSCF Node
+## 66. RSCF Node
 
 ```RSCF-NODE
 node_id: AMOS-OS-AUTHORITATIVE-STATE
@@ -1627,9 +1629,9 @@ RSCF-RELATIONS:
   - RECOVERED_BY: README
 ```
 
----
+______________________________________________________________________
 
-# 67. Canonical Summary
+## 67. Canonical Summary
 
 ```text
 CURRENT AUTHORITATIVE STATE
@@ -1762,13 +1764,14 @@ README
 ```text
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
-**MOC:** [[00_ROOT/00_COSMO_BRAIN_MOC|00_COSMO_BRAIN_MOC]]
+______________________________________________________________________
 
+**MOC:** [[00_ROOT/00_COSMO_BRAIN_MOC|00_COSMO_BRAIN_MOC]]

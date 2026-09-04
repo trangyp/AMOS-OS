@@ -1,17 +1,20 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: 08 Supersession MOC
 type: moc
 source: 01_CANON/08_SUPERSESSION
 tags:
-- 08-supersession
-- canon/universe
-- amos-core-version-lineage
-- amos-framework-supersession
-- heritage-supersession
-- supersession-log
-- trang-framework-supersession
-- ubi-supersession
-- universe-canon-supersession
+  - 08-supersession
+  - canon/universe
+  - amos-core-version-lineage
+  - amos-framework-supersession
+  - heritage-supersession
+  - supersession-log
+  - trang-framework-supersession
+  - ubi-supersession
+  - universe-canon-supersession
 moc: true
 rscf:
   state: DERIVED
@@ -44,5 +47,6 @@ rscf:
 
 - [[01_CANON/00_INDEX/00_INDEX_MOC|00_INDEX_MOC]] — 00_INDEX
 
----
+______________________________________________________________________
+
 **Parent:** [[01_CANON/01_CANON_MOC|01_CANON_MOC]]

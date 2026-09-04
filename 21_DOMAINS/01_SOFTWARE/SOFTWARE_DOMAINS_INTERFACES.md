@@ -1,81 +1,125 @@
 ---
-title: SOFTWARE DOMAINS INTERFACES
-type: interface
-source: 21_DOMAINS/01_SOFTWARE
-tags:
-- amos-os
-- canon/domain
-- routing-policy-validation-receipt
-- authz-engine-validation-receipt
-- law-hierarchy
+title: "01_SOFTWARE — Interfaces & IPC Protocols"
+type: domain_interfaces
+domain: 01_SOFTWARE
+family: C01_SYSTEMS_COMPLEXITY
+amos_core_target: v4.4
+origin_architect: Trang Phan
+steward: Trang Phan
+status: ACTIVE_INTERFACES
+epistemic_class: AMOS_MODEL
+conclusion_class: DERIVED
 rscf:
   state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  provenance: authoritative_AMOS_OS_structure
+  scope: active__AMOS_OS
 ---
 
-# SOFTWARE DOMAINS INTERFACES
+# 01_SOFTWARE — Interfaces & Low-Latency IPC Protocols
 
-## 0. Status
-Domains-plane artifact. AMOS_MODEL · CONDITIONAL · implementation PARTIAL.
-
-## 1. Purpose
-`SOFTWARE DOMAINS INTERFACES` defines typed artifact specification, serving the Domains plane's obligation: C-family domain engine mappings (C01–C12) onto the OS planes.
-
-## 2. Semantics
-- Every load-bearing field is typed; unknown values are recorded as `UNKNOWN/GAP`, never invented.
-- Scope and regime are declared on every claim; cross-regime transfer requires an explicit bridge.
-- Confidence ceiling 0.95; conclusion confidence ≤ weakest load-bearing premise.
-
-## 3. Failure modes guarded
-STALE_READ · SCOPE_LEAK · REGIME_DRIFT · CONFIDENCE_INFLATION · AUTHORITY_ESCALATION · PROVENANCE_LOSS · SILENT_PARTIAL_COMMIT · UNKNOWN_AS_VALID.
-
-## 4. Validation
-No artifact-specific executor yet; executed OS validators exist as pattern ([[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]] · [[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]). Required tests before promotion: identity, type-contract, negative-case (missing/malformed/stale input), authority boundary, rollback.
-
-## 5. Gaps
-Implementation binding, empirical validation, and cross-artifact consistency checks remain OPEN (UNKNOWN/GAP).
-
-## 6. Falsifiers
-F1: canonical source contradicts declared semantics. F2: executed test violates a stated invariant. F3: artifact promotes UNKNOWN to PASS.
-## Worked semantics
-Given an operation touching `SOFTWARE DOMAINS INTERFACES` within the Domains plane:
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-2. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-3. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-4. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-5. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-6. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
-
-## Promotion-gate checklist
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
-
-## Cross-plane bindings
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]|AMOS Core Laws · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
-- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
-- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
----
-
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+**Origin Architect / Steward:** Trang Phan  
+**AMOS_CORE Target:** `v4.4`  
+**Epistemic Class:** `AMOS_MODEL`
 
 ---
-**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+
+## 1. ZeroMQ / gRPC Engine Service Definition
+
+```protobuf
+syntax = "proto3";
+package amos.software.v4_4;
+
+service SoftwareExecutionService {
+  rpc CompileAST(CompileRequest) returns (CompileResponse);
+  rpc VerifyInvariants(VerifyRequest) returns (VerifyResponse);
+  rpc ExecuteWasmSandbox(WasmSandboxRequest) returns (WasmSandboxResponse);
+  rpc StreamExecutionTelemetry(TelemetryStreamRequest) returns (stream TelemetryFrame);
+}
+
+message CompileRequest {
+  string source_ast_json = 1;
+  string target_architecture = 2; // e.g., "wasm32-wasi", "x86_64-amos-kernel"
+  repeated string compiler_flags = 3;
+  uint32 optimization_level = 4;
+}
+
+message CompileResponse {
+  bool success = 1;
+  bytes artifact_binary = 2;
+  string blake3_hash = 3;
+  repeated string compilation_warnings = 4;
+  uint64 compilation_duration_ns = 5;
+}
+
+message VerifyRequest {
+  bytes artifact_binary = 1;
+  repeated string invariant_spec_ids = 2;
+  uint32 formal_verification_timeout_ms = 3;
+}
+
+message VerifyResponse {
+  bool verified = 1;
+  string smt_solver_proof_token = 2;
+  repeated string violated_invariants = 3;
+}
+
+message WasmSandboxRequest {
+  bytes wasm_binary = 1;
+  bytes capability_token = 2;
+  uint64 memory_limit_bytes = 3;
+  uint64 fuel_limit = 4;
+  map<string, string> environment_variables = 5;
+}
+
+message WasmSandboxResponse {
+  int32 exit_code = 1;
+  bytes stdout_bytes = 2;
+  bytes stderr_bytes = 3;
+  uint64 fuel_consumed = 4;
+  uint64 peak_memory_bytes = 5;
+}
+
+message TelemetryStreamRequest {
+  string execution_session_id = 1;
+  uint32 sampling_interval_us = 2;
+}
+
+message TelemetryFrame {
+  uint64 timestamp_ns = 1;
+  double cpu_utilization = 2;
+  uint64 resident_set_bytes = 3;
+  uint32 syscalls_executed = 4;
+}
+```
 
 ---
-RSCF-NODE
-node_id: amos_21_domains_01_software_software_domains_interfaces_md
-node_type: note
-path: 21_DOMAINS/01_SOFTWARE/SOFTWARE_DOMAINS_INTERFACES.md
-claim_class: AMOS_MODEL
+
+## 2. Shared-Memory Ring Buffer IPC Layout
+
+For ultra-low-latency ($< 500\text{ ns}$) inter-thread communication between the Kernel and Language Engines:
+
+```text
++----------------------------------------------------------------------------------------------------+
+|                         SHARED MEMORY LOCKLESS RING BUFFER LAYOUT                                  |
+|                                                                                                    |
+|  [ Header (64 B) ]: Read_Head (8B) | Write_Head (8B) | Capacity (8B) | Epoch (8B) | Magic (8B)      |
+|  [ Data Slots ]: Slot 0 (512 B) | Slot 1 (512 B) | ... | Slot N-1 (512 B)                          |
+|  [ Invariant ]: (Write_Head - Read_Head) < Capacity (Monotonic CAS increment)                     |
++----------------------------------------------------------------------------------------------------+
+```
 
 ---
-**MOC:** [[21_DOMAINS/01_SOFTWARE/01_SOFTWARE_MOC|01_SOFTWARE_MOC]]
+
+## 3. Operational Invariants
+
+- `INV-SOFT-001` (**Sandbox Isolation Ceiling**): WASI guest processes have zero raw pointer access to host memory outside their allocated WebAssembly linear memory page table.
+- `INV-SOFT-002` (**Deterministic Fuel Bounds**): All untrusted code execution must be bound by strict WebAssembly fuel metering to prevent infinite loops.
+- `INV-SOFT-003` (**BLAKE3 Integrity Attestation**): Every compiled binary emitted by the service must be cryptographically hashed and verified before execution.
+
+---
+
+## 4. Provenance & Stewardship
+
+- **Lineage**: AMOS v4.4 Core Software Interfaces.
+- **Origin Architect & Steward**: Trang Phan.
+- **Epistemic Class**: `AMOS_MODEL` / `DERIVED`.

@@ -14,26 +14,26 @@ plane: KERNEL
 scope: AMOS_OS
 updated: 2026-08-26
 tags:
-- kernel
-- authority
-- note
-- canon/kernel
-- readme
-- amos-core-laws
-- law-hierarchy
-- canon-provenance
-- k-core19-logic
-- k-structural-reasoning
-- k-causal-closure
-- k-causal-epoch
-- k-context-state
-- k-system-state
-- k-effect-classification
-- k-capability-authorization
-- k-commit-time-authority
-- k-risk-constraint
-- k-memory-retrieval
-- k-memory-admission
+  - kernel
+  - authority
+  - note
+  - canon/kernel
+  - readme
+  - amos-core-laws
+  - law-hierarchy
+  - canon-provenance
+  - k-core19-logic
+  - k-structural-reasoning
+  - k-causal-closure
+  - k-causal-epoch
+  - k-context-state
+  - k-system-state
+  - k-effect-classification
+  - k-capability-authorization
+  - k-commit-time-authority
+  - k-risk-constraint
+  - k-memory-retrieval
+  - k-memory-admission
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -91,9 +91,9 @@ WITH WHAT SECONDARY REACHABILITY
 
 This artifact defines an architectural model. It does not establish that an information-exposure enforcement mechanism is implemented, validated, or formally verified.
 
----
+______________________________________________________________________
 
-# 1. Core Laws
+## 1. Core Laws
 
 ```text
 ACCESS != DISCLOSURE
@@ -135,9 +135,9 @@ MULTIPLE COPIES != MULTIPLE INDEPENDENT SOURCES
 INFORMATION EXISTENCE != PERMISSION TO REVEAL IT
 ```
 
----
+______________________________________________________________________
 
-# 2. Architectural Boundary
+## 2. Architectural Boundary
 
 ```text
 CANON
@@ -185,9 +185,9 @@ SECURITY
 
 No lower layer may redefine an exposure as harmless merely to obtain weaker governance.
 
----
+______________________________________________________________________
 
-# 3. Information Exposure
+## 3. Information Exposure
 
 An information exposure exists when information becomes observable, recoverable, inferable, transmitted, persisted, or materially more accessible outside its previously authorized visibility envelope.
 
@@ -220,9 +220,9 @@ information_exposure:
 
 Exposure is broader than explicit publication.
 
----
+______________________________________________________________________
 
-# 4. Exposure Envelope
+## 4. Exposure Envelope
 
 For operation `O`:
 
@@ -250,9 +250,9 @@ THAT CAN CHANGE
 THE DECISION
 ```
 
----
+______________________________________________________________________
 
-# 5. Primary Exposure Classes
+## 5. Primary Exposure Classes
 
 Proposed model-level classes:
 
@@ -280,9 +280,9 @@ XX — UNKNOWN / UNCLASSIFIED EXPOSURE
 
 These are proposed kernel semantics, not promoted canon.
 
----
+______________________________________________________________________
 
-# 6. X0 — No Material Exposure
+## 6. X0 — No Material Exposure
 
 Possible cases:
 
@@ -315,9 +315,9 @@ If any materially changes:
 NOT X0
 ```
 
----
+______________________________________________________________________
 
-# 7. X1 — Authorized Internal Observability
+## 7. X1 — Authorized Internal Observability
 
 Information becomes visible inside its already-authorized scope.
 
@@ -343,9 +343,9 @@ UNRESTRICTED
 
 Internal compartment boundaries remain meaningful.
 
----
+______________________________________________________________________
 
-# 8. X2 — Internal Cross-Scope Exposure
+## 8. X2 — Internal Cross-Scope Exposure
 
 Information crosses an internal authorization, compartment, tenant, domain, agent, workflow, or subsystem boundary.
 
@@ -373,9 +373,9 @@ SAME SYSTEM
 SAME INFORMATION AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 9. X3 — Controlled External Disclosure
+## 9. X3 — Controlled External Disclosure
 
 Information intentionally leaves the AMOS-governed boundary for a bounded recipient and purpose.
 
@@ -401,9 +401,9 @@ AUTHORITY
 SCOPE
 ```
 
----
+______________________________________________________________________
 
-# 10. X4 — Persistent External Exposure
+## 10. X4 — Persistent External Exposure
 
 Information leaves the governed boundary and is expected to persist externally.
 
@@ -431,9 +431,9 @@ EXTERNALLY PERSISTED
 
 creates a stronger recovery problem than ephemeral transmission.
 
----
+______________________________________________________________________
 
-# 11. X5 — Broad / Public Exposure
+## 11. X5 — Broad / Public Exposure
 
 Information becomes accessible to a broad or effectively unbounded audience.
 
@@ -459,9 +459,9 @@ ORDINARY OUTPUT
 
 Audience expansion is itself a material effect.
 
----
+______________________________________________________________________
 
-# 12. X6 — Sensitive or Restricted Exposure
+## 12. X6 — Sensitive or Restricted Exposure
 
 Information belongs to a sensitivity class requiring stronger controls.
 
@@ -481,9 +481,9 @@ The category must come from applicable policy or provenance.
 
 Do not invent sensitivity labels merely because content appears important.
 
----
+______________________________________________________________________
 
-# 13. X7 — Credential / Authority-Bearing Exposure
+## 13. X7 — Credential / Authority-Bearing Exposure
 
 Exposure of information capable of conferring, facilitating, or materially affecting authority.
 
@@ -508,9 +508,9 @@ IS NOT ORDINARY DATA
 
 Exposure can create downstream capability even without any immediate mutation.
 
----
+______________________________________________________________________
 
-# 14. X8 — Irreversible / High-Consequence Exposure
+## 14. X8 — Irreversible / High-Consequence Exposure
 
 Exposure for which practical recall is impossible or consequences are potentially severe.
 
@@ -530,9 +530,9 @@ Context determines classification.
 
 The label alone does not establish `X8`.
 
----
+______________________________________________________________________
 
-# 15. XX — Unknown Exposure
+## 15. XX — Unknown Exposure
 
 When the exposure envelope cannot be established:
 
@@ -560,9 +560,9 @@ DENY
 
 according to applicable governance.
 
----
+______________________________________________________________________
 
-# 16. Information Object
+## 16. Information Object
 
 Exposure classification attaches to the information actually moved or made observable.
 
@@ -594,9 +594,9 @@ INFERRED
 
 These states do not automatically determine disclosure safety.
 
----
+______________________________________________________________________
 
-# 17. Direct Exposure
+## 17. Direct Exposure
 
 ```text
 SOURCE INFORMATION
@@ -615,9 +615,9 @@ DISPLAY PRIVATE RECORD
 
 This is the simplest exposure topology.
 
----
+______________________________________________________________________
 
-# 18. Derived Exposure
+## 18. Derived Exposure
 
 A derived artifact may still expose source information.
 
@@ -639,9 +639,9 @@ INDEPENDENT OF SOURCE
 
 A summary, embedding, statistic, explanation, code output, or model-generated reconstruction can retain source-sensitive information.
 
----
+______________________________________________________________________
 
-# 19. Inferential Exposure
+## 19. Inferential Exposure
 
 A recipient may learn protected information without receiving it verbatim.
 
@@ -663,9 +663,9 @@ NO INFORMATION EXPOSURE
 
 Only decision-relevant inferential paths should be traversed.
 
----
+______________________________________________________________________
 
-# 20. Metadata Exposure
+## 20. Metadata Exposure
 
 Exposure can occur through:
 
@@ -684,9 +684,9 @@ LOGS
 
 Content-safe payloads can still leak sensitive metadata.
 
----
+______________________________________________________________________
 
-# 21. Existence Exposure
+## 21. Existence Exposure
 
 Sometimes the sensitive fact is that an object exists.
 
@@ -706,9 +706,9 @@ CONTENT HIDDEN
 EXISTENCE HIDDEN
 ```
 
----
+______________________________________________________________________
 
-# 22. Relationship Exposure
+## 22. Relationship Exposure
 
 A system can disclose:
 
@@ -720,9 +720,9 @@ without exposing either object's full content.
 
 Graph edges, associations, membership, dependencies, and communication relationships may themselves be sensitive.
 
----
+______________________________________________________________________
 
-# 23. Aggregation Exposure
+## 23. Aggregation Exposure
 
 Aggregation may reduce exposure.
 
@@ -736,9 +736,9 @@ ANONYMIZED
 
 Small groups, unique values, repeated queries, or auxiliary information may permit reconstruction.
 
----
+______________________________________________________________________
 
-# 24. Transformation Firewall
+## 24. Transformation Firewall
 
 ```text
 TRANSFORMATION
@@ -764,9 +764,9 @@ must not automatically remove the source's governance constraints.
 
 Any relaxation requires an explicit valid rule.
 
----
+______________________________________________________________________
 
-# 25. Redaction
+## 25. Redaction
 
 Redaction is a transformation intended to remove protected information.
 
@@ -794,9 +794,9 @@ VERIFIED SAFE
 
 when redaction quality is load-bearing.
 
----
+______________________________________________________________________
 
-# 26. Redaction Failure Modes
+## 26. Redaction Failure Modes
 
 ```text
 VISIBLE SECRET REMAINS
@@ -812,9 +812,9 @@ REVISION HISTORY LEAK
 
 A visually hidden value is not necessarily removed.
 
----
+______________________________________________________________________
 
-# 27. Encryption
+## 27. Encryption
 
 Encryption changes observability under assumptions about keys and algorithms.
 
@@ -834,9 +834,9 @@ ENCRYPTED TO WRONG RECIPIENT
 SAFE
 ```
 
----
+______________________________________________________________________
 
-# 28. Channel
+## 28. Channel
 
 Exposure reasoning should identify the channel.
 
@@ -854,9 +854,9 @@ channel:
 
 Channel properties may change exposure consequence without changing payload content.
 
----
+______________________________________________________________________
 
-# 29. Recipient Identity
+## 29. Recipient Identity
 
 ```text
 RECIPIENT CLAIM
@@ -876,9 +876,9 @@ Ambiguous recipient:
 
 according to stakes.
 
----
+______________________________________________________________________
 
-# 30. Recipient Scope
+## 30. Recipient Scope
 
 Authorization may be scoped to:
 
@@ -899,9 +899,9 @@ AUTHORIZED FOR A
 → AUTHORIZED FOR B
 ```
 
----
+______________________________________________________________________
 
-# 31. Purpose Binding
+## 31. Purpose Binding
 
 Information authority may be purpose-specific.
 
@@ -919,9 +919,9 @@ FOR PURPOSE P2
 
 when purpose restrictions are applicable.
 
----
+______________________________________________________________________
 
-# 32. Temporal Binding
+## 32. Temporal Binding
 
 Disclosure authority can expire.
 
@@ -937,9 +937,9 @@ exposure_authority:
 
 Stale authority must not silently authorize current disclosure.
 
----
+______________________________________________________________________
 
-# 33. Regime Binding
+## 33. Regime Binding
 
 The same disclosure may be valid in one environment and invalid in another.
 
@@ -965,9 +965,9 @@ EXPOSURE(O, REGIME_B)
 
 when the regime materially changes the information boundary.
 
----
+______________________________________________________________________
 
-# 34. Information Boundary
+## 34. Information Boundary
 
 An information boundary may be defined by:
 
@@ -994,9 +994,9 @@ BOUNDARY CROSSING
 
 must not be reduced to a binary internal/external distinction when finer scope changes governance.
 
----
+______________________________________________________________________
 
-# 35. Boundary Topology
+## 35. Boundary Topology
 
 Conceptually:
 
@@ -1018,9 +1018,9 @@ RECIPIENT
 
 The relevant exposure proof should identify every load-bearing boundary crossing.
 
----
+______________________________________________________________________
 
-# 36. Secondary Exposure
+## 36. Secondary Exposure
 
 Once disclosed, information may be further copied.
 
@@ -1041,9 +1041,9 @@ AUTHORIZED FIRST HOP
 AUTHORIZED ALL FUTURE HOPS
 ```
 
----
+______________________________________________________________________
 
-# 37. Persistence
+## 37. Persistence
 
 Exposure persistence classes may include:
 
@@ -1060,9 +1060,9 @@ UNKNOWN
 
 Persistence affects recoverability and downstream risk.
 
----
+______________________________________________________________________
 
-# 38. Logging Exposure
+## 38. Logging Exposure
 
 A payload may be authorized for its direct recipient yet become exposed through logs.
 
@@ -1082,9 +1082,9 @@ SECONDARY EXPOSURE
 
 exists.
 
----
+______________________________________________________________________
 
-# 39. Error Exposure
+## 39. Error Exposure
 
 Errors may reveal:
 
@@ -1105,9 +1105,9 @@ FAILED OPERATION
 NO INFORMATION EXPOSURE
 ```
 
----
+______________________________________________________________________
 
-# 40. Side-Channel Exposure
+## 40. Side-Channel Exposure
 
 Where materially relevant, information may leak through secondary observable properties.
 
@@ -1123,9 +1123,9 @@ EXISTENCE / NON-EXISTENCE
 
 Do not expand into speculative side channels unless they can alter the decision.
 
----
+______________________________________________________________________
 
-# 41. Memory Exposure
+## 41. Memory Exposure
 
 Memory retrieval and memory disclosure are separate effects.
 
@@ -1145,9 +1145,9 @@ MEMORY_ADMISSION_AUTHORITY
 MEMORY_DISCLOSURE_AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 42. Knowledge Exposure
+## 42. Knowledge Exposure
 
 Knowledge artifacts can contain:
 
@@ -1164,9 +1164,9 @@ Disclosure should preserve relevant epistemic typing.
 
 A model must not be exposed as though it were verified empirical fact.
 
----
+______________________________________________________________________
 
-# 43. Provenance Exposure
+## 43. Provenance Exposure
 
 Provenance itself may be sensitive.
 
@@ -1194,9 +1194,9 @@ does not imply:
 FULL PROVENANCE DISCLOSABLE EXTERNALLY
 ```
 
----
+______________________________________________________________________
 
-# 44. Proprietary Information
+## 44. Proprietary Information
 
 AMOS architectural or corpus material can carry proprietary or scope restrictions.
 
@@ -1210,9 +1210,9 @@ AUTHORIZED TO EXPOSE
 
 Internal access to proprietary material does not imply authority to disclose proprietary internals.
 
----
+______________________________________________________________________
 
-# 45. Prompt / Context Exposure
+## 45. Prompt / Context Exposure
 
 Context supplied to reasoning may include information not intended for output.
 
@@ -1226,9 +1226,9 @@ OUTPUT PERMISSION
 
 Output generation must respect the applicable information boundary independently of context accessibility.
 
----
+______________________________________________________________________
 
-# 46. Tool Exposure
+## 46. Tool Exposure
 
 External tool calls may transmit information.
 
@@ -1252,9 +1252,9 @@ AUTOMATIC CONTEXT
 
 Only actual supported transmission paths should be classified.
 
----
+______________________________________________________________________
 
-# 47. Search Exposure
+## 47. Search Exposure
 
 A search query can itself disclose information to the search provider or queried system.
 
@@ -1272,9 +1272,9 @@ OUTBOUND INFORMATION EXPOSURE
 
 The query payload belongs in the exposure envelope.
 
----
+______________________________________________________________________
 
-# 48. Agent Exposure
+## 48. Agent Exposure
 
 ```text
 AGENT HAS INFORMATION
@@ -1286,9 +1286,9 @@ Delegation must preserve information constraints.
 
 An agent must not gain broader disclosure authority merely because it receives a task.
 
----
+______________________________________________________________________
 
-# 49. Skill Exposure
+## 49. Skill Exposure
 
 Skills may contain mixed exposure operations.
 
@@ -1308,9 +1308,9 @@ PUBLICATION
 
 The skill name does not determine exposure.
 
----
+______________________________________________________________________
 
-# 50. Workflow Exposure
+## 50. Workflow Exposure
 
 A workflow's information envelope is the set of material disclosures reachable through its valid execution paths.
 
@@ -1322,9 +1322,9 @@ FIRST STEP EXPOSURE
 
 Conditional branches must remain represented until resolved.
 
----
+______________________________________________________________________
 
-# 51. Multi-Recipient Exposure
+## 51. Multi-Recipient Exposure
 
 For recipients:
 
@@ -1346,9 +1346,9 @@ AUTHORIZED(R2 ... Rn)
 
 Each materially distinct recipient scope must satisfy the applicable contract.
 
----
+______________________________________________________________________
 
-# 52. Multi-Source Information
+## 52. Multi-Source Information
 
 An output may depend on multiple sources.
 
@@ -1371,9 +1371,9 @@ WITHOUT VALID TRANSFORMATION /
 DECLASSIFICATION AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 53. Derived Confidence and Exposure
+## 53. Derived Confidence and Exposure
 
 A high-confidence conclusion can still contain restricted information.
 
@@ -1393,9 +1393,9 @@ SAFE TO DISCLOSE
 
 Epistemic and exposure governance are distinct.
 
----
+______________________________________________________________________
 
-# 54. Provenance Independence
+## 54. Provenance Independence
 
 Multiple outputs derived from one restricted source do not become independently unrestricted.
 
@@ -1413,9 +1413,9 @@ All may share ancestry.
 
 Transformation depth does not erase provenance.
 
----
+______________________________________________________________________
 
-# 55. Information Taint Model
+## 55. Information Taint Model
 
 Where useful, AMOS may model exposure inheritance as typed provenance rather than simplistic permanent taint.
 
@@ -1442,9 +1442,9 @@ when explicitly established.
 
 This avoids both unsafe laundering and unnecessary permanent restriction.
 
----
+______________________________________________________________________
 
-# 56. Exposure Composition
+## 56. Exposure Composition
 
 For operation sequence:
 
@@ -1458,9 +1458,9 @@ the overall workflow cannot be treated as `X1`.
 
 Composition must preserve the material exposure envelope.
 
----
+______________________________________________________________________
 
-# 57. Exposure Atomicity
+## 57. Exposure Atomicity
 
 For an atomic operation exposing:
 
@@ -1477,9 +1477,9 @@ ATOMIC DISCLOSURE
 
 unless the payload can be validly decomposed and reauthorized.
 
----
+______________________________________________________________________
 
-# 58. Partial Exposure
+## 58. Partial Exposure
 
 A transmission can partially succeed.
 
@@ -1512,9 +1512,9 @@ PARTIAL_EXPOSURE
 UNKNOWN_EXPOSURE
 ```
 
----
+______________________________________________________________________
 
-# 59. Recall
+## 59. Recall
 
 Information recall is not equivalent to rollback.
 
@@ -1534,9 +1534,9 @@ RECALL
 PROOF RECIPIENT NEVER OBSERVED OR COPIED
 ```
 
----
+______________________________________________________________________
 
-# 60. Exposure Irreversibility
+## 60. Exposure Irreversibility
 
 Once information is observed by an uncontrolled recipient:
 
@@ -1547,9 +1547,9 @@ MAY BE IMPOSSIBLE
 
 Therefore information exposure frequently requires stronger pre-execution validation than ordinary reversible internal state changes.
 
----
+______________________________________________________________________
 
-# 61. Capability Authorization Integration
+## 61. Capability Authorization Integration
 
 ```text
 K_CAPABILITY_AUTHORIZATION
@@ -1570,9 +1570,9 @@ VISIBLE TO WHOM?
 
 Neither substitutes for the other.
 
----
+______________________________________________________________________
 
-# 62. Effect Classification Integration
+## 62. Effect Classification Integration
 
 Information exposure is an effect dimension.
 
@@ -1601,9 +1601,9 @@ depending on context.
 
 No universal one-to-one mapping is asserted.
 
----
+______________________________________________________________________
 
-# 63. Risk Constraint Integration
+## 63. Risk Constraint Integration
 
 ```text
 EXPOSURE != RISK
@@ -1626,9 +1626,9 @@ LEGAL / CONTRACTUAL CONTEXT
 UNCERTAINTY
 ```
 
----
+______________________________________________________________________
 
-# 64. Commit-Time Authority Integration
+## 64. Commit-Time Authority Integration
 
 Exposure authority must remain valid at the point where the disclosure becomes externally committed.
 
@@ -1651,9 +1651,9 @@ RECLASSIFY EXPOSURE
 REVALIDATE AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 65. Exposure Drift
+## 65. Exposure Drift
 
 Exposure drift occurs when:
 
@@ -1682,9 +1682,9 @@ REGIME CHANGE
 
 Material drift invalidates dependent authorization.
 
----
+______________________________________________________________________
 
-# 66. Causal Firewall
+## 66. Causal Firewall
 
 If information appears externally after an operation:
 
@@ -1709,9 +1709,9 @@ UNKNOWN
 
 when causality matters.
 
----
+______________________________________________________________________
 
-# 67. Competing Exposure Hypotheses
+## 67. Competing Exposure Hypotheses
 
 Example:
 
@@ -1733,9 +1733,9 @@ for consequential decisions.
 
 Do not silently choose the less restrictive hypothesis.
 
----
+______________________________________________________________________
 
-# 68. Sensitivity Analysis
+## 68. Sensitivity Analysis
 
 Test first the premise most capable of changing the disclosure decision.
 
@@ -1759,9 +1759,9 @@ IS THE AUTHORITY STILL VALID?
 DOES THE CHANNEL PERSIST CONTENT?
 ```
 
----
+______________________________________________________________________
 
-# 69. Adversarial Validation
+## 69. Adversarial Validation
 
 For consequential exposure decisions, challenge the initial classification through a genuinely different path.
 
@@ -1798,9 +1798,9 @@ OR DENY
 
 as applicable.
 
----
+______________________________________________________________________
 
-# 70. Exposure Proof Capsule
+## 70. Exposure Proof Capsule
 
 A consequential disclosure decision should conceptually carry:
 
@@ -1837,9 +1837,9 @@ exposure_proof:
 
 Reuse only while its dependencies remain valid.
 
----
+______________________________________________________________________
 
-# 71. Confidence Ceiling
+## 71. Confidence Ceiling
 
 For exposure conclusion `X`:
 
@@ -1862,9 +1862,9 @@ MIN(
 
 A weak load-bearing premise caps the conclusion.
 
----
+______________________________________________________________________
 
-# 72. Unknown Recipient
+## 72. Unknown Recipient
 
 If recipient identity is load-bearing and unresolved:
 
@@ -1882,9 +1882,9 @@ until sufficient resolution.
 
 Do not substitute probable identity for verified identity when the distinction changes authority.
 
----
+______________________________________________________________________
 
-# 73. Unknown Payload
+## 73. Unknown Payload
 
 If the actual payload cannot be established:
 
@@ -1900,9 +1900,9 @@ DO NOT ASSUME SAFE PAYLOAD
 
 Use inspection, minimization, constrained transformation, or denial as appropriate.
 
----
+______________________________________________________________________
 
-# 74. Data Minimization
+## 74. Data Minimization
 
 When several payloads achieve the objective:
 
@@ -1925,9 +1925,9 @@ Core principle:
 MINIMUM SUFFICIENT DISCLOSURE
 ```
 
----
+______________________________________________________________________
 
-# 75. Need-to-Know Scope
+## 75. Need-to-Know Scope
 
 Where applicable:
 
@@ -1941,9 +1941,9 @@ This is a scope rule, not a universal claim about every information system.
 
 Its activation depends on governing policy.
 
----
+______________________________________________________________________
 
-# 76. Exposure Recovery
+## 76. Exposure Recovery
 
 When unintended exposure occurs:
 
@@ -1973,9 +1973,9 @@ REVALIDATE DEPENDENT STATE
 
 Do not destroy evidence needed for recovery and lineage.
 
----
+______________________________________________________________________
 
-# 77. Secret Rotation
+## 77. Secret Rotation
 
 For authority-bearing information:
 
@@ -1996,9 +1996,9 @@ depending on the authority mechanism.
 
 Deletion of the exposed copy alone may be insufficient.
 
----
+______________________________________________________________________
 
-# 78. Selective Invalidation
+## 78. Selective Invalidation
 
 ```text
 INVALID(p)
@@ -2022,9 +2022,9 @@ CHANNEL RETENTION MODEL INVALID
 
 Unaffected reasoning remains reusable.
 
----
+______________________________________________________________________
 
-# 79. Exposure Record
+## 79. Exposure Record
 
 ```yaml
 exposure_record:
@@ -2070,9 +2070,9 @@ exposure_record:
   confidence_ceiling:
 ```
 
----
+______________________________________________________________________
 
-# 80. Conclusion Classes
+## 80. Conclusion Classes
 
 Use the weakest accurate class:
 
@@ -2108,9 +2108,9 @@ UNKNOWN RETENTION
 → UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 81. Observability Events
+## 81. Observability Events
 
 Recommended events:
 
@@ -2152,9 +2152,9 @@ EXPOSURE_RECOVERY_COMPLETED
 
 Observability itself must avoid creating additional sensitive exposure.
 
----
+______________________________________________________________________
 
-# 82. Observability Firewall
+## 82. Observability Firewall
 
 ```text
 LOGGING AN EXPOSURE
@@ -2176,9 +2176,9 @@ AUTHORIZED METADATA
 
 rather than duplicating sensitive payloads without necessity.
 
----
+______________________________________________________________________
 
-# 83. Kernel Invariants
+## 83. Kernel Invariants
 
 ```text
 KIE-01
@@ -2290,9 +2290,9 @@ KIE-36
 DISCLOSURE SHOULD USE THE MINIMUM SUFFICIENT INFORMATION ENVELOPE CONSISTENT WITH OBJECTIVE AND INTEGRITY
 ```
 
----
+______________________________________________________________________
 
-# 84. Required Tests
+## 84. Required Tests
 
 ```text
 ACCESS-VS-DISCLOSURE TEST
@@ -2340,9 +2340,9 @@ UNKNOWN-EXPOSURE TEST
 RECOVERY TEST
 ```
 
----
+______________________________________________________________________
 
-# 85. Negative Tests
+## 85. Negative Tests
 
 ```text
 CAN READ
@@ -2434,9 +2434,9 @@ NO OBSERVED LEAK
 MUST FAIL UNDER INCOMPLETE OBSERVABILITY
 ```
 
----
+______________________________________________________________________
 
-# 86. Failure Modes
+## 86. Failure Modes
 
 ```text
 CROSS-TENANT LEAK
@@ -2469,9 +2469,9 @@ REGIME LEAKAGE
 PROVENANCE LOSS
 ```
 
----
+______________________________________________________________________
 
-# 87. Interaction Matrix
+## 87. Interaction Matrix
 
 ```text
 K_EFFECT_CLASSIFICATION
@@ -2550,9 +2550,9 @@ OPERATIONS
 → HANDLE CONTAINMENT, REVOCATION, ROTATION, AND RECOVERY
 ```
 
----
+______________________________________________________________________
 
-# 88. Promotion Gate
+## 88. Promotion Gate
 
 Before promotion beyond `AMOS_MODEL`, evidence should establish:
 
@@ -2605,9 +2605,9 @@ EMPIRICAL_VALIDATION = UNKNOWN/GAP
 FORMAL_VERIFICATION = UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 89. RSCF Node
+## 89. RSCF Node
 
 ```RSCF-NODE
 node_id: AMOS-OS-K-INFORMATION-EXPOSURE
@@ -2658,9 +2658,9 @@ RSCF-RELATIONS:
   - RECOVERED_BY: README
 ```
 
----
+______________________________________________________________________
 
-# 90. Canonical Summary
+## 90. Canonical Summary
 
 ```text
 AMOS DOES NOT ASK ONLY:
@@ -2902,13 +2902,14 @@ README
 **Classification note:** this is substantive replacement content for `02_KERNEL/K_INFORMATION_EXPOSURE.md`, but its appropriate current conclusion class is **AMOS_MODEL**. It establishes a proposed kernel contract connecting information boundaries, effect classification, capability authorization, commit-time authority, risk, memory/knowledge provenance, tools, interfaces, observability, and recovery. It does **not** establish runtime implementation, canonical promotion, empirical validation, or formal verification; those remain `UNKNOWN/GAP` until supported by the corresponding provenance and test evidence.
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
-**MOC:** [[02_KERNEL/07_AUTHORITY/07_AUTHORITY_MOC|07_AUTHORITY_MOC]]
+______________________________________________________________________
 
+**MOC:** [[02_KERNEL/07_AUTHORITY/07_AUTHORITY_MOC|07_AUTHORITY_MOC]]

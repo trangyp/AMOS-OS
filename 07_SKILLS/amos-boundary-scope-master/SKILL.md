@@ -4,25 +4,23 @@ title: SKILL — Amos Boundary Scope Master
 type: skill
 source: 07_SKILLS/amos-boundary-scope-master
 name: amos-boundary-scope-master
-description: AMOS Boundary & Scope — scope regimes, boundary admission, context continuity,
-  capability bounds. Use when scope analysis, boundary reasoning, or context management.
-  Do not use for generic tasks outside boundary domain.
+description: AMOS Boundary & Scope — scope regimes, boundary admission, context continuity, capability bounds. Use when scope analysis, boundary reasoning, or context management. Do not use for generic tasks outside boundary domain.
 parent_skill: none
 domain: boundary
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CANON
 tags:
-- type/skill
-- type/skill
-- domain/boundary-scope
-- epistemic/source_claim
-- hml/h
-- epistemic/source_canon
-- amos-os
-- agent-template
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/boundary-scope
+  - epistemic/source_claim
+  - hml/h
+  - epistemic/source_canon
+  - amos-os
+  - agent-template
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -32,23 +30,23 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: H
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
-- L7_authority
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
+  - L7_authority
 collapse_class: fail_closed
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L7
-- L16
-- L17
-- L18
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L7
+  - L16
+  - L17
+  - L18
 license: MIT
 steward: Trang Phan
 ---
@@ -58,6 +56,7 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: boundary. Parent: none. Epistemic class: SOURCE_CANON. H/M/L: H.
+
 ## When to Use
 
 - When evaluating scope boundaries, context continuity, or capability bounds
@@ -82,14 +81,14 @@ Origin architect: **Trang Phan**. Domain: boundary. Parent: none. Epistemic clas
 ## Operations
 
 1. **boundary_scope.evaluate_influence**: Evaluate whether memory may influence a pending action through the AMOS Boundary & Scope consent, provenance, and risk gates.
-2. **boundary_scope.validate_gates**: Validate AMOS Boundary & Scope decisions against hard partition gates, epistemic class preservation, and consent state requirements.
-3. **boundary_scope.analyze_state**: Analyze AMOS Boundary & Scope memory state: working, episodic, semantic stores, consolidation, and retrieval graph health.
-4. **boundary_scope.trace_provenance**: Trace AMOS Boundary & Scope memory entries to source, encoding operation, consolidation history, and field-level lineage.
-5. **boundary_scope.assess_claim**: Assess AMOS Boundary & Scope memory claims for epistemic class, freshness, contradiction status, and confidence ceiling.
-6. **boundary_scope.manage_lifecycle**: Manage AMOS Boundary & Scope lifecycle: encode, normalize, admit, consolidate, index, retrieve, filter, update.
-7. **boundary_scope.detect_drift**: Detect memory drift: stale entries, broken provenance, epistemic class erosion, and context discontinuity.
-8. **boundary_scope.escalate_gaps**: Escalate AMOS Boundary & Scope memory gaps: flag UNKNOWN/GAP entries, quarantine untrusted data, trigger memory repair.
-9. **boundary_scope.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+1. **boundary_scope.validate_gates**: Validate AMOS Boundary & Scope decisions against hard partition gates, epistemic class preservation, and consent state requirements.
+1. **boundary_scope.analyze_state**: Analyze AMOS Boundary & Scope memory state: working, episodic, semantic stores, consolidation, and retrieval graph health.
+1. **boundary_scope.trace_provenance**: Trace AMOS Boundary & Scope memory entries to source, encoding operation, consolidation history, and field-level lineage.
+1. **boundary_scope.assess_claim**: Assess AMOS Boundary & Scope memory claims for epistemic class, freshness, contradiction status, and confidence ceiling.
+1. **boundary_scope.manage_lifecycle**: Manage AMOS Boundary & Scope lifecycle: encode, normalize, admit, consolidate, index, retrieve, filter, update.
+1. **boundary_scope.detect_drift**: Detect memory drift: stale entries, broken provenance, epistemic class erosion, and context discontinuity.
+1. **boundary_scope.escalate_gaps**: Escalate AMOS Boundary & Scope memory gaps: flag UNKNOWN/GAP entries, quarantine untrusted data, trigger memory repair.
+1. **boundary_scope.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## Vault-Sourced Domain Knowledge
 
@@ -100,6 +99,7 @@ Origin architect: **Trang Phan**. Domain: boundary. Parent: none. Epistemic clas
 `B_i = <Inside, Outside, Ingress, Egress, Permissions, Permeability>`
 
 A boundary is defined by:
+
 - **Inside**: what is within the boundary's scope
 - **Outside**: what is outside the boundary's scope
 - **Ingress**: rules for admitting new elements
@@ -123,18 +123,20 @@ A boundary is defined by:
 ### Identity Drift
 
 Identity drift above tolerance triggers one of:
+
 1. **Clarification**: refine the identity definition
-2. **Split**: divide into multiple distinct boundaries
-3. **Ontology revision**: update the taxonomy
-4. **Merge**: combine with another boundary
-5. **Quarantine**: isolate the drifting boundary
-6. **Retirement**: decommission the boundary
+1. **Split**: divide into multiple distinct boundaries
+1. **Ontology revision**: update the taxonomy
+1. **Merge**: combine with another boundary
+1. **Quarantine**: isolate the drifting boundary
+1. **Retirement**: decommission the boundary
 
 ### Distinction Function
 
 `Distinct(R_i, R_j) = 1` only when a structurally relevant property differs.
 
 Identity is defined by:
+
 - Positive identity conditions (what makes it what it is)
 - Negative/exclusion conditions (what makes it not-something-else)
 - Invariants (what must remain unchanged)
@@ -143,9 +145,7 @@ Identity is defined by:
 
 This parent skill consolidates the following sub-skills. Each is a section within this domain:
 
-
 > **Reference**: See `references/vault_domain_knowledge.md` (content_hash: 7da6df099a658e6d) for additional vault-sourced domain knowledge.
-
 
 > **Reference**: See `references/boundary_identity.md` (content_hash: 1d7f33221b789ce7) for the Boundary Identity (boundary identity, scope boundaries, identity-boundary mapping).
 
@@ -153,26 +153,29 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 
 - **Skill**: amos-boundary-scope-master
 - **Source**: AMOS_OS Obsidian vault (`/Users/mac/Documents/AMOS_OS`)
-- **Vault s
+- \*\*Vault s
 - AGENT_TEMPLATE
 
----
+______________________________________________________________________
+
 **MOC:** [[07_SKILLS/amos-boundary-scope-master/amos-boundary-scope-master_MOC|amos-boundary-scope-master_MOC]]
 
 ## Examples
 
 - **Scenario**: When evaluating scope boundaries, context continuity, or capability bounds
+
   - **Input**: A query matching this skill's domain (boundary)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When determining whether a query falls inside or outside a declared scope regime
+
   - **Input**: A query matching this skill's domain (boundary)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When managing boundary admission, ingress/egress, and permeability
+
   - **Input**: A query matching this skill's domain (boundary)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Validation Gates
 
@@ -189,7 +192,6 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `none` — routes to this skill when boundary specialization is needed
@@ -197,7 +199,6 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -216,7 +217,6 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -224,7 +224,6 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -238,11 +237,12 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 - `references/boundary_identity.md` — loaded on demand
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `none` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `amos-boundary-scope-master-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -250,12 +250,14 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-boundary-scope-master
 node_type: skill
 path: 07_SKILLS/amos-boundary-scope-master/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

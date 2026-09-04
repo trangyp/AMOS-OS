@@ -12,19 +12,19 @@ segment: 11_KNOWLEDGE/03_RSCF
 artifact_kind: INDEX
 path: 11_KNOWLEDGE/03_RSCF/TRANG_REALITY_RSCF_INDEX.md
 tags:
-- amos-os
-- knowledge
-- vault
-- 03_rscf
-- trang_reality_rscf_index
-- proof_capsules
-- reality_architecture_proofs
-- rscf
-- canon_candidate
-- canon/knowledge
-- trang-reality-architecture
-- trang-zero-framework
-- amos-x-trang-reality
+  - amos-os
+  - knowledge
+  - vault
+  - 03_rscf
+  - trang_reality_rscf_index
+  - proof_capsules
+  - reality_architecture_proofs
+  - rscf
+  - canon_candidate
+  - canon/knowledge
+  - trang-reality-architecture
+  - trang-zero-framework
+  - amos-x-trang-reality
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -39,23 +39,23 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - TRANG_REALITY_ARCHITECTURE
-  - TRANG_ZERO_FRAMEWORK
-  - AMOS_CORPUS
+    - TRANG_REALITY_ARCHITECTURE
+    - TRANG_ZERO_FRAMEWORK
+    - AMOS_CORPUS
   scope:
-  - KNOWLEDGE_RSCF
-  - REALITY_RSCF_INDEX
-  - SOURCE_DEFINED_MODEL
+    - KNOWLEDGE_RSCF
+    - REALITY_RSCF_INDEX
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   rscf_moc:
     artifact:
-    - - 03_RSCF_MOC
+      -   - 03_RSCF_MOC
   reality_master:
     artifact:
-    - - TRANG_REALITY_ARCHITECTURE
+      -   - TRANG_REALITY_ARCHITECTURE
   zero_master:
     artifact:
-    - - TRANG_ZERO_FRAMEWORK
+      -   - TRANG_ZERO_FRAMEWORK
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   index_structure: VERIFIED_SOURCE_STRUCTURE
@@ -69,29 +69,29 @@ epistemic_boundary:
 
 It catalogs verifiable proof capsules governing pre-symbolic ontology ($P \to D \to R \to C \to F \to M$), absolute null invariants ($S_0$), and tri-layer $[L, M, H]$ dynamics.
 
----
+______________________________________________________________________
 
-# 1. Indexed RSCF Capsules
+## 1. Indexed RSCF Capsules
 
-| Node ID | Reality Framework | Claim Class | Core Invariant / Mechanism | Status |
-| :--- | :--- | :--- | :--- | :--- |
-| `RSCF-TRG-001` | Trang Reality Architecture | `AMOS_MODEL` | Pre-Symbolic Spine ($P \to D \to R \to C \to F \to M$) | Active |
-| `RSCF-TRG-002` | Trang ∅ Framework | `SYSTEM_INVARIANT` | Absolute Null-State Anchor ($S_0$) | Active |
-| `RSCF-TRG-003` | Khung Trang Dynamics | `MATHEMATICAL_MODEL` | Decoupling Gates & Survival Boundaries | Active |
-| `RSCF-TRG-004` | Trang Lacunarity | `MATHEMATICAL_MODEL` | Texture Gapping Metric ($\Lambda$) | Active |
+| Node ID        | Reality Framework          | Claim Class          | Core Invariant / Mechanism                             | Status |
+| :------------- | :------------------------- | :------------------- | :----------------------------------------------------- | :----- |
+| `RSCF-TRG-001` | Trang Reality Architecture | `AMOS_MODEL`         | Pre-Symbolic Spine ($P \to D \to R \to C \to F \to M$) | Active |
+| `RSCF-TRG-002` | Trang ∅ Framework          | `SYSTEM_INVARIANT`   | Absolute Null-State Anchor ($S_0$)                     | Active |
+| `RSCF-TRG-003` | Khung Trang Dynamics       | `MATHEMATICAL_MODEL` | Decoupling Gates & Survival Boundaries                 | Active |
+| `RSCF-TRG-004` | Trang Lacunarity           | `MATHEMATICAL_MODEL` | Texture Gapping Metric ($\Lambda$)                     | Active |
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **RSCF MOC:** [[11_KNOWLEDGE/03_RSCF/03_RSCF_MOC|03_RSCF_MOC]]
 - **Reality Architecture:** [[11_KNOWLEDGE/trang/TRANG_REALITY_ARCHITECTURE|TRANG_REALITY_ARCHITECTURE]]
 - **Zero Framework:** [[01_CANON/02_UNIVERSE_CANON/TRANG_ZERO_FRAMEWORK|TRANG_ZERO_FRAMEWORK]]
 - **Cognitive Matrix:** [[25_COGNITIVE_MATRIX/AMOS_X_TRANG_REALITY|AMOS_X_TRANG_REALITY]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -109,11 +109,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[01_CANON/01_CORE_LAWS/ATOMIC_MULTI_RSCF|ATOMIC_MULTI_RSCF]] · [[02_KERNEL/K_ATOMIC_MULTI_RSCF|K_ATOMIC_MULTI_RSCF]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/03_RSCF/03_RSCF_MOC|03_RSCF_MOC]] · [[11_KNOWLEDGE/trang/TRANG_REALITY_ARCHITECTURE|TRANG_REALITY_ARCHITECTURE]] · [[01_CANON/02_UNIVERSE_CANON/TRANG_ZERO_FRAMEWORK|TRANG_ZERO_FRAMEWORK]] · [[25_COGNITIVE_MATRIX/AMOS_X_TRANG_REALITY|AMOS_X_TRANG_REALITY]] · [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]
 
----
+______________________________________________________________________
+
 **MOC:** [[11_KNOWLEDGE/03_RSCF/03_RSCF_MOC|03_RSCF_MOC]]
-
-

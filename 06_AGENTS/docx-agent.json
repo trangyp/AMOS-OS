@@ -94,7 +94,7 @@
     "docx"
   ],
   "depends_on_workflows": [
-    "docx-workflow.md"
+    "amos-docx-workflow.md"
   ],
   "epistemic_class": "AMOS_MODEL",
   "claim_ceiling": 0.95,

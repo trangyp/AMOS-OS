@@ -1,4 +1,7 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 date: 2026-08-30
 epistemic_class: OBSERVATION
 provenance: GitHub README, not independently verified
@@ -10,6 +13,7 @@ rscf:
 source: https://raw.githubusercontent.com/ynulihao/AgentSkillOS/main/README.md
 title: AgentSkillOS README — Raw Capture
 ---
+
 # AgentSkillOS README — Raw Capture
 
 Source: `https://github.com/ynulihao/AgentSkillOS`
@@ -28,8 +32,6 @@ Source: `https://github.com/ynulihao/AgentSkillOS`
   通过技能<ins>检索</ins>与<ins>编排</ins>，从 200,000+ 技能中构建Agent
 </h2>
 
-
-
 <p align="center">
   <a href="https://ynulihao.github.io/AgentSkillOS/"><img src="https://img.shields.io/badge/🌐_Main_Page-AgentSkillOS-purple" alt="Main Page"></a>
   <a href="https://www.python.org/downloads/"><img src="https://img.shields.io/badge/python-3.10+-blue.svg" alt="Python 3.10+"></a>
@@ -47,6 +49,7 @@ Source: `https://github.com/ynulihao/AgentSkillOS`
 </p>
 
 > **News**
+>
 > - [2026/03] Our new [project homepage](https://ynulihao.github.io/AgentSkillOS/) is now live!
 > - [2026/03] **Benchmark** released — 30 multi-format creative tasks across 5 categories with pairwise Bradley-Terry evaluation.
 > - [2026/03] **Modular Architecture** released — pluggable retrieval/orchestration modules. See [ARCHITECTURE.md](ARCHITECTURE.md) for details.
@@ -92,7 +95,7 @@ Source: `https://github.com/ynulihao/AgentSkillOS`
   <sub><b>CLI</b> · Headless execution with terminal progress and logs</sub>
 </p>
 
- ## 🌟 Highlights
+## 🌟 Highlights
 
 - 🔍 **Skill Search & Discovery** — Creatively discover task-relevant skills with a skill tree that organizes skills into a hierarchy based on their capabilities.
 - 🔗 **Skill Orchestration** — Compose and orchestrate multiple skills into a single workflow with a directed acyclic graph, automatically managing execution order, dependencies, and data flow across steps.
@@ -109,6 +112,7 @@ Source: `https://github.com/ynulihao/AgentSkillOS`
 📊 [**Check out the comparison report: AgentSkillOS vs. without skills →**](comparison_en.md)
 
 ![Case Study](docs/assets/paper_figures/fig_case_study.png)
+
 > Qualitative comparison between the vanilla baseline and AgentSkillOS Quality-First outputs.
 
 <table>
@@ -148,15 +152,19 @@ Source: `https://github.com/ynulihao/AgentSkillOS`
 
 <!-- 
 > Capability Tree organizes skills hierarchically → Complementarity-aware Retrieval selects diverse skill sets → Graph-based Orchestration executes them as DAG -->
+
 ## 🏗️ Method
+
 - Skill tree construction: Organizes over 200,000+ skills into a capability tree, providing structured, coarse-to-fine access for efficient and creative skill discovery.
 - Skill retrieval: Automatically selects a task-relevant subset of usable skills given a user’s request.
 - Skill orchestration: Composes the selected skills into a coordinated plan (e.g., a DAG-based workflow) to solve tasks beyond the reach of any single skill. Note that we also support a freestyle mode (i.e., Claude Code).
 
 ![AgentSkillOS Framework](docs/assets/paper_figures/fig_framework.png)
+
 ### 🌲 Why Skill Tree?
 
 ![Skill Retrieval Comparison](assets/skill_retrieval_academic_comparison.png)
+
 > **Left**: Pure semantic retrieval prioritizes texutal similarity, often missing skills that look unrelated in embedding space but are crucial for actually solving the task—leading to narrow, myopic skill usage.
 >
 > **Right**: Our LLM + Skill Tree navigates the capability hierarchy to surface non-obvious but functionally relevant skills, enabling broader, more creative, and more effective skill composition.
@@ -179,6 +187,7 @@ Source: `https://github.com/ynulihao/AgentSkillOS`
 We propose a benchmark of **30 multi-format creative tasks** spanning **5 categories**, evaluated via pairwise comparison with Bradley-Terry aggregation.
 
 Three key properties:
+
 - **Multi-format creative tasks** — Tasks require end-user artifacts in formats such as PDF, PPTX, DOCX, HTML, video, and generated images.
 - **Pairwise evaluation** — Outputs are compared in both orders to reduce position bias and capture reliable preference signals.
 - **Bradley-Terry scores** — Pairwise preferences are aggregated into continuous ranking scores for fine-grained system comparisons.
@@ -199,6 +208,7 @@ Three key properties:
 Evaluated across 200 / 1K / 200K skill ecosystems, AgentSkillOS demonstrates consistent superiority over baselines, with ablation confirming that both retrieval and orchestration are indispensable, and strategy selection producing structurally distinct execution graphs.
 
 **Key findings:**
+
 - **Substantial Gains over Baselines at Every Scale** — All three AgentSkillOS variants achieve the highest Bradley-Terry scores across 200 / 1K / 200K ecosystems. The w/ Full Pool baseline scores poorly because a growing fraction of skills becomes invisible — structured retrieval and orchestration overcome this scalability bottleneck.
 - **Ablation: Both Retrieval and Orchestration Are Essential** — Removing components reveals a clear degradation gradient: without DAG orchestration, retrieval alone is insufficient; without retrieval, even oracle skills cannot close the gap. Quality-First shows only a modest deficit versus the oracle upper bound, and the gap narrows as the ecosystem grows.
 - **Strategy Choice Shapes Execution Structure** — Each orchestration strategy faithfully translates its design intent into a distinct DAG topology. Quality-First builds deep, multi-stage pipelines; Efficiency-First trades depth for width to maximize parallelism; Simplicity-First retains only essential steps.
@@ -228,11 +238,13 @@ Evaluated across 200 / 1K / 200K skill ecosystems, AgentSkillOS demonstrates con
 <summary><b>Installation & Configuration</b></summary>
 
 ### Prerequisites
+
 - Python 3.10+
 - [Claude Code](https://github.com/anthropics/claude-code) (must be installed and available in PATH)
 - Use [cc-switch](https://github.com/farion1231/cc-switch) to switch to other LLM providers
 
 ### Install & Run
+
 ```bash
 git clone https://github.com/ynulihao/AgentSkillOS.git
 cd AgentSkillOS
@@ -242,18 +254,20 @@ python run.py --port 8765
 ```
 
 ### Download Pre-built Trees
-| Tree | Skills | Description |
-|------|--------|-------------|
-| 🌱 `skill_seeds` | ~50 | Curated skill set (default) |
-| 📦 `skill_200` | 200 | 200 skills |
-| 🗃️ `skill_1000` | ~1,000 | 1,000 skills |
+
+| Tree             | Skills  | Description                            |
+| ---------------- | ------- | -------------------------------------- |
+| 🌱 `skill_seeds` | ~50     | Curated skill set (default)            |
+| 📦 `skill_200`   | 200     | 200 skills                             |
+| 🗃️ `skill_1000`  | ~1,000  | 1,000 skills                           |
 | 🏗️ `skill_10000` | ~10,000 | 10,000 active + layered dormant skills |
 
 - [Google Drive](https://drive.google.com/file/d/1IHbnrv9aSnsnMGYHzVTZJ8EtQl0dJfUL/view?usp=sharing) | [Baidu Pan (cei9)](https://pan.baidu.com/s/1Sg_a33PjLbYrBZj4hmsb-w?pwd=cei9)
 
 ### Configuration
+
 ```bash
-# .env
+## .env
 LLM_MODEL=openai/anthropic/claude-opus-4.5
 LLM_BASE_URL=https://openrouter.ai/api/v1
 LLM_API_KEY=your-key
@@ -264,9 +278,10 @@ EMBEDDING_API_KEY=your-key
 ```
 
 ### Custom Skill Groups
+
 1. Create `data/my_skills/skill-name/SKILL.md`
-2. Register in `src/config.py` → `SKILL_GROUPS`
-3. Build: `python run.py build -g my_skills -v`
+1. Register in `src/config.py` → `SKILL_GROUPS`
+1. Build: `python run.py build -g my_skills -v`
 
 </details>
 
@@ -307,16 +322,16 @@ tasks:
 
 ### CLI Flags
 
-| Flag | Description |
-|------|-------------|
-| `--task PATH`, `-T` | Path to batch YAML config (required) |
-| `--parallel N`, `-p` | Override parallel task count |
-| `--resume PATH`, `-R` | Resume an interrupted batch run |
-| `--output-dir PATH`, `-o` | Override output directory |
-| `--dry-run` | Preview tasks without execution |
-| `--verbose`, `-v` | Show detailed logs |
-| `--manager PLUGIN`, `-m` | Override skill manager (e.g., `tree`, `vector`) |
-| `--orchestrator PLUGIN` | Override orchestrator (e.g., `dag`, `free-style`) |
+| Flag                      | Description                                       |
+| ------------------------- | ------------------------------------------------- |
+| `--task PATH`, `-T`       | Path to batch YAML config (required)              |
+| `--parallel N`, `-p`      | Override parallel task count                      |
+| `--resume PATH`, `-R`     | Resume an interrupted batch run                   |
+| `--output-dir PATH`, `-o` | Override output directory                         |
+| `--dry-run`               | Preview tasks without execution                   |
+| `--verbose`, `-v`         | Show detailed logs                                |
+| `--manager PLUGIN`, `-m`  | Override skill manager (e.g., `tree`, `vector`)   |
+| `--orchestrator PLUGIN`   | Override orchestrator (e.g., `dag`, `free-style`) |
 
 ### Resume Interrupted Runs
 
@@ -350,10 +365,10 @@ Completed tasks are skipped; only remaining tasks are re-executed.
 - [ ] History Management
 - [ ] Multi-CLI Support (Codex, Gemini CLI, Cursor)
 
-
 ## Citation
 
 If you find AgentSKillOS useful, consider citing our paper:
+
 ```bibtex
 @article{li2026organizing,
   title={Organizing, Orchestrating, and Benchmarking Agent Skills at Ecosystem Scale},

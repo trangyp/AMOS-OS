@@ -1,4 +1,7 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 date: 2026-08-29
 epistemic_class: OBSERVATION
 provenance: GitHub README, not independently verified
@@ -10,6 +13,7 @@ rscf:
 source: https://raw.githubusercontent.com/songfang/AgentSkillOS/main/README.md
 title: AgentSkillOS README — Raw Capture
 ---
+
 # AgentSkillOS README — Raw Capture
 
 Source: `https://github.com/songfang/AgentSkillOS`
@@ -28,8 +32,6 @@ Source: `https://github.com/songfang/AgentSkillOS`
   通过技能<ins>检索</ins>与<ins>编排</ins>，从 90,000+ 技能中构建Agent
 </h2>
 
-
-
 <p align="center">
   <a href="https://ynulihao.github.io/AgentSkillOS/"><img src="https://img.shields.io/badge/🌐_Main_Page-AgentSkillOS-purple" alt="Main Page"></a>
   <a href="https://www.python.org/downloads/"><img src="https://img.shields.io/badge/python-3.10+-blue.svg" alt="Python 3.10+"></a>
@@ -39,12 +41,12 @@ Source: `https://github.com/songfang/AgentSkillOS`
 </p>
 
 > **News**
+>
 > - [2026/03] Paper is on [Arxiv](https://arxiv.org/abs/2603.02176)!
 > - [2026/03] **Benchmark** coming soon — 30 multi-format creative tasks across 5 categories with pairwise Bradley-Terry evaluation.
 > - [2026/03] **Modular Architecture** upgrade on the way — pluggable retrieval/orchestration modules and more.
 
 ## 🌐 Overview
-
 
 <div align="center">
 
@@ -76,8 +78,7 @@ Source: `https://github.com/songfang/AgentSkillOS`
   <img src="assets/workflow_en.png" alt="Skill Workflow Overview" style="zoom:90%;" height="454">
 </p>
 
-
- ## 🌟 Highlights
+## 🌟 Highlights
 
 - 🔍 **Skill Search & Discovery** — Creatively discover task-relevant skills with a skill tree that organizes skills into a hierarchy based on their capabilities.
 - 🔗 **Skill Orchestration** — Compose and orchestrate multiple skills into a single workflow with a directed acyclic graph, automatically managing execution order, dependencies, and data flow across steps.
@@ -85,7 +86,6 @@ Source: `https://github.com/songfang/AgentSkillOS`
 - ⭐ **High-Quality Skill Pool** — A curated collection of high-quality skills, selected based on Claude's implementation, GitHub stars, and download volume.
 - 📊 **Observability & Debugging** — Trace each step with logs and metadata to debug faster and iterate on workflows with confidence.
 - 🧩 **Extensible Skill Registry** — Easily plug in new skills, bring your own skills via a flexible registry.
-
 
 ## 💡 Examples
 
@@ -95,8 +95,8 @@ Source: `https://github.com/songfang/AgentSkillOS`
 
 ### Example 1: Cat Meme Video Generation
 
-> **Task:**  I'm a short-video creator. Generate a cat meme video featuring a boss (Angry Cat) questioning an employee (Sad Cat) about work progress, with witty responses. Use `video.mp4` (green-screen footage) and `background.jpg`. Requirements: remove green-screen, maintain aspect ratio, add "Boss"/"Employee" labels, sync subtitles with meowing, and create humorous dialogue with viral potential.
-> 
+> **Task:** I'm a short-video creator. Generate a cat meme video featuring a boss (Angry Cat) questioning an employee (Sad Cat) about work progress, with witty responses. Use `video.mp4` (green-screen footage) and `background.jpg`. Requirements: remove green-screen, maintain aspect ratio, add "Boss"/"Employee" labels, sync subtitles with meowing, and create humorous dialogue with viral potential.
+
 **Generated Video:**
 
 <p align="center">
@@ -117,10 +117,11 @@ Source: `https://github.com/songfang/AgentSkillOS`
 
 <video src="https://github.com/user-attachments/assets/18360452-5d4f-4139-8733-7d28b85be257.mp4" width="20%" controls></video> -->
 
----
+______________________________________________________________________
+
 ### Example 2: UI Design Research & Concept Generation
 
-> **Task:**  I'm a product designer planning a knowledge management software. Research products like Notion and Confluence, then create a visual design style report (`report.docx`) with screenshots. Based on the analysis, generate three design concept images (`fusion_design_1/2/3.png`) that synthesize their design characteristics.
+> **Task:** I'm a product designer planning a knowledge management software. Research products like Notion and Confluence, then create a visual design style report (`report.docx`) with screenshots. Based on the analysis, generate three design concept images (`fusion_design_1/2/3.png`) that synthesize their design characteristics.
 
 **Generated Design Concepts:**
 
@@ -130,11 +131,11 @@ Source: `https://github.com/songfang/AgentSkillOS`
 
 ![](assets/case2_ui_design/word_UI.png)
 
----
+______________________________________________________________________
 
 ### Example 3: Front-End Bug Diagnosis & Report
 
-> **Task:**  I'm a front-end developer. Users reported a bug when accessing my login page on mobile devices. Please identify and fix the bug, then generate a bug report with before/after screenshots highlighting the issue (For demonstration purposes, the bug screenshot is shown below).
+> **Task:** I'm a front-end developer. Users reported a bug when accessing my login page on mobile devices. Please identify and fix the bug, then generate a bug report with before/after screenshots highlighting the issue (For demonstration purposes, the bug screenshot is shown below).
 
 <!-- **Original page with bug:** -->
 
@@ -150,12 +151,11 @@ Source: `https://github.com/songfang/AgentSkillOS`
 
 ![](assets/case1_bug_report/bug_report_en_merged.png)
 
----
+______________________________________________________________________
 
 ### Example 4: Academic Paper Promotion
 
-> **Task:**  As a PhD student, I've completed a research paper (`Avengers.pdf`) and want to promote it on social media platforms. Help me create promotional materials that effectively present my research findings to a broader audience.
-
+> **Task:** As a PhD student, I've completed a research paper (`Avengers.pdf`) and want to promote it on social media platforms. Help me create promotional materials that effectively present my research findings to a broader audience.
 
 **Generated Promotional Materials:**
 
@@ -169,24 +169,26 @@ Source: `https://github.com/songfang/AgentSkillOS`
 
 *Scientific Slides:*
 
-![](assets/case3_paper_promotion/scientific_slide.png)
----
+## ![](assets/case3_paper_promotion/scientific_slide.png)
 
 <!-- 
 > Capability Tree organizes skills hierarchically → Complementarity-aware Retrieval selects diverse skill sets → Graph-based Orchestration executes them as DAG -->
+
 ## 🏗️ Architecture
+
 - Skill tree construction: Organizes over 90,000+ skills into a capability tree, providing structured, coarse-to-fine access for efficient and creative skill discovery.
 - Skill retrieval: Automatically selects a task-relevant subset of usable skills given a user’s request.
 - Skill orchestration: Composes the selected skills into a coordinated plan (e.g., a DAG-based workflow) to solve tasks beyond the reach of any single skill. Note that we also support a freestyle mode (i.e., Claude Code).
 
 ![AgentSkillOS Framework](assets/framework.png)
+
 ### 🌲 Why Skill Tree?
 
 ![Skill Retrieval Comparison](assets/skill_retrieval_academic_comparison.png)
+
 > **Left**: Pure semantic retrieval prioritizes texutal similarity, often missing skills that look unrelated in embedding space but are crucial for actually solving the task—leading to narrow, myopic skill usage.
 >
 > **Right**: Our LLM + Skill Tree navigates the capability hierarchy to surface non-obvious but functionally relevant skills, enabling broader, more creative, and more effective skill composition.
-
 
 ## 🚀 How to Use
 
@@ -194,11 +196,13 @@ Source: `https://github.com/songfang/AgentSkillOS`
 <summary><b>Installation & Configuration</b></summary>
 
 ### Prerequisites
+
 - Python 3.10+
 - [Claude Code](https://github.com/anthropics/claude-code) (must be installed and available in PATH)
 - Use [cc-switch](https://github.com/farion1231/cc-switch) to switch to other LLM providers
 
 ### Install & Run
+
 ```bash
 git clone https://github.com/ynulihao/AgentSkillOS.git
 cd AgentSkillOS
@@ -208,17 +212,19 @@ python run.py --port 8765
 ```
 
 ### Download Pre-built Trees
-| Tree | Skills | Description |
-|------|--------|-------------|
-| 🌱 `skill_seeds` | ~50 | Curated skill set (default) |
-| 📦 `top500` | ~500 | Top 500 from skills.sh |
-| 🗃️ `top1000` | ~1000 | Top 1000 from skills.sh |
+
+| Tree             | Skills | Description                 |
+| ---------------- | ------ | --------------------------- |
+| 🌱 `skill_seeds` | ~50    | Curated skill set (default) |
+| 📦 `top500`      | ~500   | Top 500 from skills.sh      |
+| 🗃️ `top1000`     | ~1000  | Top 1000 from skills.sh     |
 
 - [Google Drive](https://drive.google.com/file/d/1IHbnrv9aSnsnMGYHzVTZJ8EtQl0dJfUL/view?usp=sharing) | [Baidu Pan (cei9)](https://pan.baidu.com/s/1Sg_a33PjLbYrBZj4hmsb-w?pwd=cei9)
 
 ### Configuration
+
 ```bash
-# .env
+## .env
 LLM_MODEL=openai/anthropic/claude-opus-4.5
 LLM_BASE_URL=https://openrouter.ai/api/v1
 LLM_API_KEY=your-key
@@ -229,9 +235,10 @@ EMBEDDING_API_KEY=your-key
 ```
 
 ### Custom Skill Groups
+
 1. Create `data/my_skills/skill-name/SKILL.md`
-2. Register in `src/config.py` → `SKILL_GROUPS`
-3. Build: `python run.py build -g my_skills -v`
+1. Register in `src/config.py` → `SKILL_GROUPS`
+1. Build: `python run.py build -g my_skills -v`
 
 </details>
 
@@ -245,10 +252,10 @@ EMBEDDING_API_KEY=your-key
 - [ ] Recipe Generation & Storage
 - [ ] Multi-CLI Support (Codex, Gemini CLI, Cursor)
 
-
 ## Citation
 
 If you find AgentSKillOS useful, consider citing our paper:
+
 ```bibtex
 @article{li2026organizingorchestratingbenchmarkingagent,
       title={Organizing, Orchestrating, and Benchmarking Agent Skills at Ecosystem Scale},
@@ -260,4 +267,3 @@ If you find AgentSKillOS useful, consider citing our paper:
       url={https://arxiv.org/abs/2603.02176},
 }
 ```
-

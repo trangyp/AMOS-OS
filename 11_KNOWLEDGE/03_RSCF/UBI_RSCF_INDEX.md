@@ -12,19 +12,19 @@ segment: 11_KNOWLEDGE/03_RSCF
 artifact_kind: INDEX
 path: 11_KNOWLEDGE/03_RSCF/UBI_RSCF_INDEX.md
 tags:
-- amos-os
-- knowledge
-- vault
-- 03_rscf
-- ubi_rscf_index
-- proof_capsules
-- ubi_proofs
-- biological_proofs
-- rscf
-- canon_candidate
-- canon/knowledge
-- unified-biological-intelligence
-- amos-x-ubi
+  - amos-os
+  - knowledge
+  - vault
+  - 03_rscf
+  - ubi_rscf_index
+  - proof_capsules
+  - ubi_proofs
+  - biological_proofs
+  - rscf
+  - canon_candidate
+  - canon/knowledge
+  - unified-biological-intelligence
+  - amos-x-ubi
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -39,20 +39,20 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - UBI_OFFICIAL_MANUAL
-  - UNIFIED_BIOLOGICAL_INTELLIGENCE
-  - AMOS_CORPUS
+    - UBI_OFFICIAL_MANUAL
+    - UNIFIED_BIOLOGICAL_INTELLIGENCE
+    - AMOS_CORPUS
   scope:
-  - KNOWLEDGE_RSCF
-  - UBI_RSCF_INDEX
-  - SOURCE_DEFINED_MODEL
+    - KNOWLEDGE_RSCF
+    - UBI_RSCF_INDEX
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   rscf_moc:
     artifact:
-    - - 03_RSCF_MOC
+      -   - 03_RSCF_MOC
   biological_master:
     artifact:
-    - - UNIFIED_BIOLOGICAL_INTELLIGENCE
+      -   - UNIFIED_BIOLOGICAL_INTELLIGENCE
   claims_registry:
     artifact: 11_KNOWLEDGE/02_CLAIMS/UBI_CLAIM_REGISTRY
 epistemic_boundary:
@@ -68,29 +68,29 @@ epistemic_boundary:
 
 It catalogs verifiable proof capsules governing the 4 non-compensatory biological domains, quadratic emergence, thermodynamic entropy dissipation, and biological substrate firewalls.
 
----
+______________________________________________________________________
 
-# 1. Indexed RSCF Capsules
+## 1. Indexed RSCF Capsules
 
-| Node ID | Biological Module | Claim Class | Core Equation / Invariant | Status |
-| :--- | :--- | :--- | :--- | :--- |
-| `RSCF-UBI-001` | UBI Core Model | `AMOS_MODEL` | $i_{\text{UBI}} = (\text{NBI} \cdot \text{NEI} \cdot \text{SI} \cdot \text{BEI})^{1/4}$ | Active |
-| `RSCF-UBI-002` | UBI Quadratic Emergence | `MATHEMATICAL_MODEL` | Emergent Capability $e = i_{\text{UBI}}^2$ | Active |
-| `RSCF-UBI-003` | UBI Entropy Correction | `PHYSICAL_MODEL` | Thermodynamic Dissipation ($\frac{d_e S}{dt} < 0$) | Active |
-| `RSCF-UBI-004` | Biological Integrity Firewall | `SYSTEM_INVARIANT` | Substrate Protection Threshold ($\tau_{\text{crit}} = 0.2$) | Active |
+| Node ID        | Biological Module             | Claim Class          | Core Equation / Invariant                                                               | Status |
+| :------------- | :---------------------------- | :------------------- | :-------------------------------------------------------------------------------------- | :----- |
+| `RSCF-UBI-001` | UBI Core Model                | `AMOS_MODEL`         | $i_{\text{UBI}} = (\text{NBI} \cdot \text{NEI} \cdot \text{SI} \cdot \text{BEI})^{1/4}$ | Active |
+| `RSCF-UBI-002` | UBI Quadratic Emergence       | `MATHEMATICAL_MODEL` | Emergent Capability $e = i_{\text{UBI}}^2$                                              | Active |
+| `RSCF-UBI-003` | UBI Entropy Correction        | `PHYSICAL_MODEL`     | Thermodynamic Dissipation ($\frac{d_e S}{dt} < 0$)                                      | Active |
+| `RSCF-UBI-004` | Biological Integrity Firewall | `SYSTEM_INVARIANT`   | Substrate Protection Threshold ($\tau_{\text{crit}} = 0.2$)                             | Active |
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **RSCF MOC:** [[11_KNOWLEDGE/03_RSCF/03_RSCF_MOC|03_RSCF_MOC]]
 - **Biological Master:** [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]]
 - **Claims Registry:** [[11_KNOWLEDGE/02_CLAIMS/UBI_CLAIM_REGISTRY|UBI_CLAIM_REGISTRY]]
 - **Cognitive Matrix:** [[25_COGNITIVE_MATRIX/AMOS_X_UBI|AMOS_X_UBI]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -108,11 +108,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[01_CANON/01_CORE_LAWS/ATOMIC_MULTI_RSCF|ATOMIC_MULTI_RSCF]] · [[02_KERNEL/K_ATOMIC_MULTI_RSCF|K_ATOMIC_MULTI_RSCF]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/03_RSCF/03_RSCF_MOC|03_RSCF_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]] · [[11_KNOWLEDGE/02_CLAIMS/UBI_CLAIM_REGISTRY|UBI_CLAIM_REGISTRY]] · [[25_COGNITIVE_MATRIX/AMOS_X_UBI|AMOS_X_UBI]] · [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]
 
----
+______________________________________________________________________
+
 **MOC:** [[11_KNOWLEDGE/03_RSCF/03_RSCF_MOC|03_RSCF_MOC]]
-
-

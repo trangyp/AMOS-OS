@@ -1,40 +1,43 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: L19 PROOF CAPSULE
 type: proof
 source: 01_CANON/01_CORE_LAWS
 tags:
-- canon
-- core_laws
-- proof
-- proof_capsule
-- epistemic_governance
-- mandatory_fields
-- confidence_ceiling
-- implementation_claims
-- competing_hypotheses
-- falsifiers
-- supersession
-- provenance
-- dependency_invalidation
-- canon/universe
-- validation
-- readme
-- architecture
-- law/L19-proof-capsule
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- law/L17-rscf
-- law/L18-gmef
-- law/L16-hml
-- provenance-topology
-- persistent-provenance
-- scope-regime-firewall
-- causal-firewall
-- causal-epoch-finality
-- atomic-multi-rscf
-- law/L10-failure-recovery
-- law/L11-knowledge-memory
-- law/L15-fractal-knowledge
+  - canon
+  - core_laws
+  - proof
+  - proof_capsule
+  - epistemic_governance
+  - mandatory_fields
+  - confidence_ceiling
+  - implementation_claims
+  - competing_hypotheses
+  - falsifiers
+  - supersession
+  - provenance
+  - dependency_invalidation
+  - canon/universe
+  - validation
+  - readme
+  - architecture
+  - law/L19-proof-capsule
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - law/L17-rscf
+  - law/L18-gmef
+  - law/L16-hml
+  - provenance-topology
+  - persistent-provenance
+  - scope-regime-firewall
+  - causal-firewall
+  - causal-epoch-finality
+  - atomic-multi-rscf
+  - law/L10-failure-recovery
+  - law/L11-knowledge-memory
+  - law/L15-fractal-knowledge
 rscf:
   state: SOURCE_CLAIM
   claim_class: CONDITIONAL
@@ -53,9 +56,9 @@ rscf:
 **canonical_status:** CONDITIONAL
 **updated:** 2026-08-26
 
----
+______________________________________________________________________
 
-# 0. Status
+## 0. Status
 
 L19 defines the proposed AMOS **Proof Capsule Laws**.
 
@@ -85,7 +88,7 @@ It replaces the prior placeholder with a structured specification governing:
 
 L19 remains:
 
-```text
+````text
 PROPOSED_SPECIFICATION
         │
         ▼
@@ -103,7 +106,7 @@ PC-1 MANDATORY FIELDS
 PC-2 HONEST CEILINGS
 PC-3 COMPETING PRESERVED
 PC-4 SUPERSEDE DON'T PATCH SILENTLY
-```
+````
 
 The central invariant is:
 
@@ -115,9 +118,9 @@ LOAD-BEARING SUPPORT
 CAN ESTABLISH.
 ```
 
----
+______________________________________________________________________
 
-# 1. Governing Objective
+## 1. Governing Objective
 
 A Proof Capsule is a compact, inspectable representation of an important conclusion and the conditions under which that conclusion remains valid.
 
@@ -159,9 +162,9 @@ WITHOUT COMPRESSING AWAY
 ITS LIMITS.
 ```
 
----
+______________________________________________________________________
 
-# 2. Core Proof Capsule Laws
+## 2. Core Proof Capsule Laws
 
 ```text
 PC-1
@@ -220,9 +223,9 @@ REUSE IF   SUPERSEDE
 VALID      EXPLICITLY
 ```
 
----
+______________________________________________________________________
 
-# 3. PC-1 — Mandatory Fields
+## 3. PC-1 — Mandatory Fields
 
 **Law**
 
@@ -257,9 +260,9 @@ proof_capsule:
 
 These seven fields are mandatory under the proposed specification.
 
----
+______________________________________________________________________
 
-# 4. Mandatory Means Structurally Required
+## 4. Mandatory Means Structurally Required
 
 A capsule missing one of the required fields is not a complete L19 Proof Capsule.
 
@@ -298,9 +301,9 @@ PROOF CAPSULE
 
 under PC-1.
 
----
+______________________________________________________________________
 
-# 5. Claim
+## 5. Claim
 
 The `claim` field states the proposition whose support and limits the capsule represents.
 
@@ -315,9 +318,9 @@ claim:
 
 The claim should be specific enough that its truth conditions can be inspected.
 
----
+______________________________________________________________________
 
-# 6. Claim Identity
+## 6. Claim Identity
 
 A model-level extension may assign a stable identifier:
 
@@ -333,16 +336,16 @@ claim:
 
 The source requires `claim`, but does not define:
 
-* identifier format,
-* serialization,
-* namespace,
-* versioning.
+- identifier format,
+- serialization,
+- namespace,
+- versioning.
 
 These remain AMOS_MODEL extensions.
 
----
+______________________________________________________________________
 
-# 7. Class
+## 7. Class
 
 The `class` field records the epistemic class of the claim.
 
@@ -369,9 +372,9 @@ is source-established.
 
 The exact complete class enum is inherited from broader AMOS context rather than defined by L19 itself.
 
----
+______________________________________________________________________
 
-# 8. Weakest Accurate Class
+## 8. Weakest Accurate Class
 
 The capsule should use the weakest class that accurately describes the conclusion.
 
@@ -397,9 +400,9 @@ UNCONDITIONAL
 
 is unsupported.
 
----
+______________________________________________________________________
 
-# 9. Established
+## 9. Established
 
 The `established` field records what the capsule's evidence and reasoning actually establish.
 
@@ -419,9 +422,9 @@ established:
 
 The field should contain support-bearing conclusions, not aspirational claims.
 
----
+______________________________________________________________________
 
-# 10. Established Is Not Everything Mentioned
+## 10. Established Is Not Everything Mentioned
 
 A source may discuss:
 
@@ -443,9 +446,9 @@ ESTABLISHED
 
 The capsule should distinguish these states explicitly.
 
----
+______________________________________________________________________
 
-# 11. Not Established
+## 11. Not Established
 
 The `not_established` field records conclusions that might otherwise be mistakenly inferred from the capsule.
 
@@ -465,9 +468,9 @@ not_established:
 
 This field is an explicit anti-overclaim mechanism.
 
----
+______________________________________________________________________
 
-# 12. Not Established Is First-Class
+## 12. Not Established Is First-Class
 
 `not_established` is not optional commentary.
 
@@ -486,9 +489,9 @@ WHAT DOES THIS PROOF
 NOT LICENSE US TO CLAIM?
 ```
 
----
+______________________________________________________________________
 
-# 13. Negative Epistemic Boundary
+## 13. Negative Epistemic Boundary
 
 Conceptually:
 
@@ -507,9 +510,9 @@ CLAIM SPACE
 
 The negative boundary protects against scope leakage.
 
----
+______________________________________________________________________
 
-# 14. Load-Bearing Gaps
+## 14. Load-Bearing Gaps
 
 The `load_bearing_gaps` field records missing information or unresolved premises that materially limit the claim.
 
@@ -534,18 +537,18 @@ Only the field itself is source-required.
 
 The internal schema is a model extension.
 
----
+______________________________________________________________________
 
-# 15. Load-Bearing Means Outcome-Relevant
+## 15. Load-Bearing Means Outcome-Relevant
 
 A gap is load-bearing when resolving it could materially change:
 
-* the claim,
-* its class,
-* its confidence ceiling,
-* its scope,
-* its validity,
-* its governance status.
+- the claim,
+- its class,
+- its confidence ceiling,
+- its scope,
+- its validity,
+- its governance status.
 
 Conceptually:
 
@@ -564,9 +567,9 @@ BEARING    LOAD-BEARING
 
 This is an AMOS_MODEL interpretation of the field name.
 
----
+______________________________________________________________________
 
-# 16. Gap Severity
+## 16. Gap Severity
 
 A model extension may classify gaps:
 
@@ -592,9 +595,9 @@ gap_severity:
 
 L19 does not explicitly define these severity classes.
 
----
+______________________________________________________________________
 
-# 17. Falsifiers
+## 17. Falsifiers
 
 The `falsifiers` field records observations, evidence, or authoritative findings capable of invalidating or materially revising the claim.
 
@@ -610,9 +613,9 @@ falsifiers:
 
 A falsifier should be meaningful enough that success changes the capsule.
 
----
+______________________________________________________________________
 
-# 18. Falsifier Is Not Generic Doubt
+## 18. Falsifier Is Not Generic Doubt
 
 Invalid:
 
@@ -632,9 +635,9 @@ falsifiers:
 
 A falsifier should define an inspectable invalidation condition.
 
----
+______________________________________________________________________
 
-# 19. Falsifier Success
+## 19. Falsifier Success
 
 Conceptually:
 
@@ -657,9 +660,9 @@ KEEP  INVALIDATE /
 
 PC-4 governs the successful-falsifier branch.
 
----
+______________________________________________________________________
 
-# 20. Confidence Ceiling
+## 20. Confidence Ceiling
 
 The `confidence_ceiling` field records the maximum confidence/class the capsule can legitimately carry under its current support.
 
@@ -677,9 +680,9 @@ VALIDATION ACTUALLY EXECUTED
 CONFIDENCE CEILING
 ```
 
----
+______________________________________________________________________
 
-# 21. Ceiling Is a Maximum, Not a Target
+## 21. Ceiling Is a Maximum, Not a Target
 
 If:
 
@@ -700,9 +703,9 @@ ACTUAL CLAIM STRENGTH
 CONFIDENCE CEILING
 ```
 
----
+______________________________________________________________________
 
-# 22. Derived Confidence Cannot Outrun Premises
+## 22. Derived Confidence Cannot Outrun Premises
 
 A general AMOS rule compatible with L19 is:
 
@@ -718,9 +721,9 @@ unless the weak premise is independently revalidated or removed from the depende
 
 This is broader AMOS reasoning discipline rather than a literal equation supplied by L19.
 
----
+______________________________________________________________________
 
-# 23. Mandatory Capsule Skeleton
+## 23. Mandatory Capsule Skeleton
 
 ```yaml
 proof_capsule:
@@ -755,9 +758,9 @@ proof_capsule:
 
 Only the seven field names are directly established by PC-1.
 
----
+______________________________________________________________________
 
-# 24. Empty Mandatory Fields
+## 24. Empty Mandatory Fields
 
 PC-1 requires the fields.
 
@@ -779,9 +782,9 @@ IF HONESTLY NONE ARE KNOWN
 
 but authoritative proof-capsule canon could define stricter semantics.
 
----
+______________________________________________________________________
 
-# 25. No Omission-by-Confidence
+## 25. No Omission-by-Confidence
 
 Invalid:
 
@@ -795,9 +798,9 @@ PC-1 does not provide such an exemption.
 
 Mandatory fields remain mandatory.
 
----
+______________________________________________________________________
 
-# 26. PC-2 — Honest Ceilings
+## 26. PC-2 — Honest Ceilings
 
 **Law**
 
@@ -805,17 +808,17 @@ Mandatory fields remain mandatory.
 
 This law prevents implementation confidence from being inferred from:
 
-* architecture,
-* pseudocode,
-* intention,
-* design documents,
-* theoretical plausibility,
-* unexecuted tests,
-* claimed benchmarks.
+- architecture,
+- pseudocode,
+- intention,
+- design documents,
+- theoretical plausibility,
+- unexecuted tests,
+- claimed benchmarks.
 
----
+______________________________________________________________________
 
-# 27. Implementation Claim
+## 27. Implementation Claim
 
 An implementation claim asserts something about behavior actually realized by an implementation.
 
@@ -839,9 +842,9 @@ These differ from design claims such as:
 THE SYSTEM IS DESIGNED TO...
 ```
 
----
+______________________________________________________________________
 
-# 28. Design Is Not Execution
+## 28. Design Is Not Execution
 
 ```text
 DESIGN SPECIFICATION
@@ -859,9 +862,9 @@ RUNNING IMPLEMENTATION
 
 Therefore implementation confidence cannot be raised merely because the design appears sound.
 
----
+______________________________________________________________________
 
-# 29. Zero Executed Validation
+## 29. Zero Executed Validation
 
 PC-2 explicitly states:
 
@@ -875,9 +878,9 @@ IMPLEMENTATION CLAIM CEILING = 0
 
 This is one of the strongest explicit anti-fabrication constraints in L19.
 
----
+______________________________________________________________________
 
-# 30. Zero Ceiling Does Not Mean Design Is False
+## 30. Zero Ceiling Does Not Mean Design Is False
 
 A zero implementation-claim ceiling means:
 
@@ -900,9 +903,9 @@ NO VALIDATION
 FALSIFICATION
 ```
 
----
+______________________________________________________________________
 
-# 31. Implementation vs Model Claim
+## 31. Implementation vs Model Claim
 
 Example:
 
@@ -922,9 +925,9 @@ The deployed implementation rejects stale receipts.
 
 requires actual executed validation if it is to receive implementation confidence under PC-2.
 
----
+______________________________________________________________________
 
-# 32. Validation Must Actually Execute
+## 32. Validation Must Actually Execute
 
 Invalid:
 
@@ -954,9 +957,9 @@ TEST PASSED
 
 Only actual execution can support the implementation-validation ceiling contemplated by PC-2.
 
----
+______________________________________________________________________
 
-# 33. Planned Validation
+## 33. Planned Validation
 
 ```yaml
 validation:
@@ -980,9 +983,9 @@ PLANNED
 EXECUTED
 ```
 
----
+______________________________________________________________________
 
-# 34. Claimed Execution vs Verified Execution
+## 34. Claimed Execution vs Verified Execution
 
 A document may state:
 
@@ -1006,9 +1009,9 @@ REPORTED TEST PASS
 INDEPENDENTLY VERIFIED EXECUTION
 ```
 
----
+______________________________________________________________________
 
-# 35. Executed Validation Evidence
+## 35. Executed Validation Evidence
 
 A model-level validation record may contain:
 
@@ -1039,9 +1042,9 @@ validation:
 
 The source does not define this schema.
 
----
+______________________________________________________________________
 
-# 36. Implementation Identity
+## 36. Implementation Identity
 
 A validation result should conceptually bind to the implementation actually tested.
 
@@ -1063,9 +1066,9 @@ if B materially differs.
 
 This is an AMOS_MODEL extension of honest-ceiling discipline.
 
----
+______________________________________________________________________
 
-# 37. Environment Binding
+## 37. Environment Binding
 
 Likewise:
 
@@ -1083,9 +1086,9 @@ ON ALL ENVIRONMENTS
 
 unless the claim and evidence justify that generalization.
 
----
+______________________________________________________________________
 
-# 38. Scope of Validation
+## 38. Scope of Validation
 
 An executed test validates only what that test can establish.
 
@@ -1111,9 +1114,9 @@ does not prove:
 UNIVERSAL PERFORMANCE
 ```
 
----
+______________________________________________________________________
 
-# 39. Validation Quantity Is Not Enough
+## 39. Validation Quantity Is Not Enough
 
 PC-2 says the ceiling reflects actual executed validations.
 
@@ -1136,9 +1139,9 @@ depending on what they validate.
 
 This independence interpretation is an AMOS_MODEL extension.
 
----
+______________________________________________________________________
 
-# 40. Correlated Validation
+## 40. Correlated Validation
 
 Suppose:
 
@@ -1160,9 +1163,9 @@ do not necessarily constitute three independent confirmations.
 
 Proof Capsules should preserve correlation risk when material.
 
----
+______________________________________________________________________
 
-# 41. Validation Coverage
+## 41. Validation Coverage
 
 A model-level ceiling may consider:
 
@@ -1182,9 +1185,9 @@ IMPLEMENTATION IDENTITY
 
 But L19 explicitly establishes only that the ceiling reflects actual executed validations and is zero when none occurred.
 
----
+______________________________________________________________________
 
-# 42. Validation Failure
+## 42. Validation Failure
 
 If an executed validation falsifies an implementation claim:
 
@@ -1207,9 +1210,9 @@ SUPERSEDE
 
 may be required.
 
----
+______________________________________________________________________
 
-# 43. Mixed Validation Results
+## 43. Mixed Validation Results
 
 Example:
 
@@ -1231,9 +1234,9 @@ unless the validation semantics explicitly support that interpretation.
 
 The failed test must remain visible if it materially contradicts the claim.
 
----
+______________________________________________________________________
 
-# 44. Honest Ceiling Matrix
+## 44. Honest Ceiling Matrix
 
 | Executed validation state                          | Maximum implementation claim implication        |
 | -------------------------------------------------- | ----------------------------------------------- |
@@ -1246,9 +1249,9 @@ The failed test must remain visible if it materially contradicts the claim.
 
 Only the first two rows follow directly from the explicit zero-if-none law; later rows are disciplined model extensions.
 
----
+______________________________________________________________________
 
-# 45. Ceiling Cannot Be Laundered Through Documentation
+## 45. Ceiling Cannot Be Laundered Through Documentation
 
 Invalid:
 
@@ -1267,9 +1270,9 @@ without executed validation evidence.
 
 Documentation remains a source claim unless independently validated.
 
----
+______________________________________________________________________
 
-# 46. Ceiling Cannot Be Laundered Through Architecture
+## 46. Ceiling Cannot Be Laundered Through Architecture
 
 Invalid:
 
@@ -1281,9 +1284,9 @@ IMPLEMENTATION MUST WORK
 
 Structural elegance does not execute the implementation.
 
----
+______________________________________________________________________
 
-# 47. Ceiling Cannot Be Laundered Through Analogy
+## 47. Ceiling Cannot Be Laundered Through Analogy
 
 Invalid:
 
@@ -1299,9 +1302,9 @@ A works
 
 Structural similarity does not validate execution.
 
----
+______________________________________________________________________
 
-# 48. Ceiling Cannot Be Laundered Through Intent
+## 48. Ceiling Cannot Be Laundered Through Intent
 
 Invalid:
 
@@ -1313,9 +1316,9 @@ CAS IS ENFORCED
 
 Intent is not runtime evidence.
 
----
+______________________________________________________________________
 
-# 49. Ceiling Cannot Be Laundered Through Compilation
+## 49. Ceiling Cannot Be Laundered Through Compilation
 
 Even:
 
@@ -1327,9 +1330,9 @@ does not establish every runtime claim.
 
 Compilation can support only claims appropriately tested by compilation.
 
----
+______________________________________________________________________
 
-# 50. Implementation Proof Capsule
+## 50. Implementation Proof Capsule
 
 A model extension:
 
@@ -1368,9 +1371,9 @@ proof_capsule:
 
 `implementation_validation` is an extension; the seven PC-1 fields remain mandatory.
 
----
+______________________________________________________________________
 
-# 51. PC-3 — Competing Preserved
+## 51. PC-3 — Competing Preserved
 
 **Law**
 
@@ -1378,9 +1381,9 @@ proof_capsule:
 
 This protects genuine epistemic plurality.
 
----
+______________________________________________________________________
 
-# 52. Competing Hypothesis
+## 52. Competing Hypothesis
 
 Competing hypotheses are materially incompatible explanations or conclusions that remain live under available support.
 
@@ -1402,9 +1405,9 @@ COMPETING
 
 should remain visible.
 
----
+______________________________________________________________________
 
-# 53. No Forced Convergence
+## 53. No Forced Convergence
 
 Invalid:
 
@@ -1421,9 +1424,9 @@ when H1 and H2 are substantively incompatible.
 
 PC-3 requires preservation, not averaging.
 
----
+______________________________________________________________________
 
-# 54. No Narrative Blending
+## 54. No Narrative Blending
 
 Invalid:
 
@@ -1442,9 +1445,9 @@ unless evidence independently supports the combined hypothesis.
 
 Combining hypotheses is itself a new hypothesis.
 
----
+______________________________________________________________________
 
-# 55. Competing Field
+## 55. Competing Field
 
 PC-3 requires competing hypotheses to be listed, but PC-1 does not explicitly list a field named `competing`.
 
@@ -1460,9 +1463,9 @@ Alternatively, they may be represented within another required field if authorit
 
 The exact serialization is not supplied.
 
----
+______________________________________________________________________
 
-# 56. Mandatory Semantic Presence
+## 56. Mandatory Semantic Presence
 
 Even though `competing` is not one of PC-1's seven named mandatory fields, PC-3 establishes a semantic requirement:
 
@@ -1474,9 +1477,9 @@ THEY MUST BE LISTED
 
 Therefore omission is not permitted merely because the base field list lacks a dedicated key.
 
----
+______________________________________________________________________
 
-# 57. Proposed Extended Capsule Schema
+## 57. Proposed Extended Capsule Schema
 
 ```yaml
 proof_capsule:
@@ -1510,9 +1513,9 @@ Here `competing` is conditionally required when genuine competitors exist.
 
 This serialization is AMOS_MODEL.
 
----
+______________________________________________________________________
 
-# 58. Competing Does Not Mean Equal
+## 58. Competing Does Not Mean Equal
 
 Two hypotheses may remain competing even if support differs.
 
@@ -1534,9 +1537,9 @@ LIVE COMPETITOR
 
 rather than deleting H2.
 
----
+______________________________________________________________________
 
-# 59. Competing Does Not Mean Permanent
+## 59. Competing Does Not Mean Permanent
 
 A hypothesis remains competing only while it retains sufficient support or cannot yet be excluded.
 
@@ -1549,9 +1552,9 @@ FALSIFY H2
 
 allowing the capsule to supersede the previous competing state.
 
----
+______________________________________________________________________
 
-# 60. Competing vs Unknown
+## 60. Competing vs Unknown
 
 ```text
 UNKNOWN
@@ -1567,9 +1570,9 @@ means multiple incompatible hypotheses remain live.
 
 These states should not be collapsed.
 
----
+______________________________________________________________________
 
-# 61. Competing vs Contradiction
+## 61. Competing vs Contradiction
 
 A contradiction in evidence may produce competing interpretations.
 
@@ -1591,9 +1594,9 @@ Evidence conflicts are observations about support.
 
 Hypotheses are candidate explanatory/conclusion structures.
 
----
+______________________________________________________________________
 
-# 62. Competing vs Uncertainty
+## 62. Competing vs Uncertainty
 
 Generic uncertainty:
 
@@ -1615,9 +1618,9 @@ competing:
 
 PC-3 favors explicit preservation where alternatives are known.
 
----
+______________________________________________________________________
 
-# 63. Competing Provenance
+## 63. Competing Provenance
 
 A model-level extension should preserve the support path for each hypothesis separately.
 
@@ -1640,9 +1643,9 @@ competing:
 
 This prevents support for one hypothesis from being silently attributed to another.
 
----
+______________________________________________________________________
 
-# 64. Correlated Competing Support
+## 64. Correlated Competing Support
 
 Suppose:
 
@@ -1658,9 +1661,9 @@ Counting A and B as independent confirmations of H1 would distort the comparison
 
 Proof Capsules should preserve provenance topology when decision-relevant.
 
----
+______________________________________________________________________
 
-# 65. Competing Confidence
+## 65. Competing Confidence
 
 PC-3 prohibits averaging away competitors.
 
@@ -1678,9 +1681,9 @@ are not canonical merely from L19.
 
 Qualitative support may be safer unless authoritative scoring semantics exist.
 
----
+______________________________________________________________________
 
-# 66. Competing Hypothesis Table
+## 66. Competing Hypothesis Table
 
 | Hypothesis | Current status | Support | Falsifier |
 | ---------- | -------------- | ------- | --------- |
@@ -1689,9 +1692,9 @@ Qualitative support may be safer unless authoritative scoring semantics exist.
 
 This is an illustrative representation.
 
----
+______________________________________________________________________
 
-# 67. Discriminating Evidence
+## 67. Discriminating Evidence
 
 The preferred next evidence is not necessarily more evidence.
 
@@ -1712,9 +1715,9 @@ RESULT A → favors/falsifies H1
 RESULT B → favors/falsifies H2
 ```
 
----
+______________________________________________________________________
 
-# 68. Cheapest High-Information Test
+## 68. Cheapest High-Information Test
 
 A broader AMOS principle compatible with PC-3 is:
 
@@ -1728,9 +1731,9 @@ over redundant evidence accumulation.
 
 This is not explicitly stated in the supplied L19 source.
 
----
+______________________________________________________________________
 
-# 69. No Majority by Repetition
+## 69. No Majority by Repetition
 
 Invalid:
 
@@ -1745,9 +1748,9 @@ H1 wins
 
 Repetition is not independence.
 
----
+______________________________________________________________________
 
-# 70. Competing Causal Hypotheses
+## 70. Competing Causal Hypotheses
 
 When the disagreement is causal:
 
@@ -1763,9 +1766,9 @@ correlation or sequence alone should not force resolution.
 
 The causal firewall remains applicable.
 
----
+______________________________________________________________________
 
-# 71. Competing Scope Hypotheses
+## 71. Competing Scope Hypotheses
 
 Two claims may appear contradictory but apply to different scopes.
 
@@ -1783,9 +1786,9 @@ These may not actually compete.
 
 Therefore scope compatibility should be checked before labeling hypotheses incompatible.
 
----
+______________________________________________________________________
 
-# 72. Competing Regimes
+## 72. Competing Regimes
 
 Likewise:
 
@@ -1798,9 +1801,9 @@ may represent regime-conditioned claims rather than contradiction.
 
 Proof Capsules should preserve temporal/regime envelopes when material.
 
----
+______________________________________________________________________
 
-# 73. PC-4 — Supersede Don't Patch Silently
+## 73. PC-4 — Supersede Don't Patch Silently
 
 **Law**
 
@@ -1808,9 +1811,9 @@ Proof Capsules should preserve temporal/regime envelopes when material.
 
 This creates explicit lineage for invalidated conclusions.
 
----
+______________________________________________________________________
 
-# 74. Successful Falsifier
+## 74. Successful Falsifier
 
 A falsifier succeeds when the capsule's own invalidation condition is satisfied strongly enough to undermine the relevant claim or dependency.
 
@@ -1827,9 +1830,9 @@ C1 CANNOT REMAIN
 UNCHANGED AS CURRENT
 ```
 
----
+______________________________________________________________________
 
-# 75. No Silent Patch
+## 75. No Silent Patch
 
 Invalid:
 
@@ -1845,9 +1848,9 @@ pretend C1 always said Y
 
 PC-4 rejects this pattern.
 
----
+______________________________________________________________________
 
-# 76. Supersession
+## 76. Supersession
 
 Correct conceptual pattern:
 
@@ -1875,9 +1878,9 @@ supersedes
 C1
 ```
 
----
+______________________________________________________________________
 
-# 77. Supersession Ceremony
+## 77. Supersession Ceremony
 
 The source uses the phrase:
 
@@ -1904,9 +1907,9 @@ A model-level ceremony may include:
 
 This procedure is not directly source-defined.
 
----
+______________________________________________________________________
 
-# 78. Historical Preservation
+## 78. Historical Preservation
 
 Supersession should preserve:
 
@@ -1919,9 +1922,9 @@ WHAT REPLACED IT
 
 This enables causal and epistemic lineage.
 
----
+______________________________________________________________________
 
-# 79. Superseded Does Not Mean Deleted
+## 79. Superseded Does Not Mean Deleted
 
 ```text
 SUPERSEDED
@@ -1933,14 +1936,14 @@ A superseded capsule remains useful historical evidence.
 
 It may explain:
 
-* earlier decisions,
-* earlier state,
-* dependency history,
-* why later changes occurred.
+- earlier decisions,
+- earlier state,
+- dependency history,
+- why later changes occurred.
 
----
+______________________________________________________________________
 
-# 80. Superseded Does Not Mean Everything Was False
+## 80. Superseded Does Not Mean Everything Was False
 
 A falsifier may invalidate only part of a capsule.
 
@@ -1967,9 +1970,9 @@ A and C may remain supported if independent.
 
 This selective invalidation is an AMOS_MODEL extension.
 
----
+______________________________________________________________________
 
-# 81. Local Invalidation
+## 81. Local Invalidation
 
 Conceptually:
 
@@ -1992,9 +1995,9 @@ descendants dependent on it
 
 Do not invalidate C2 if it is independent.
 
----
+______________________________________________________________________
 
-# 82. Dependency-Aware Supersession
+## 82. Dependency-Aware Supersession
 
 A proposed structure:
 
@@ -2017,9 +2020,9 @@ proof_capsule:
 
 These fields are model extensions.
 
----
+______________________________________________________________________
 
-# 83. Silent Version Mutation
+## 83. Silent Version Mutation
 
 Invalid:
 
@@ -2037,24 +2040,24 @@ when X was falsified.
 
 Versioning alone is insufficient if it erases the epistemic event.
 
----
+______________________________________________________________________
 
-# 84. Supersession vs Ordinary Update
+## 84. Supersession vs Ordinary Update
 
 Not every update requires falsifier-triggered supersession.
 
 Examples of potentially ordinary non-semantic updates:
 
-* formatting,
-* typo correction,
-* link repair,
-* metadata normalization.
+- formatting,
+- typo correction,
+- link repair,
+- metadata normalization.
 
 But if the supported meaning materially changes because a falsifier succeeded, PC-4 requires supersession rather than silent patching.
 
----
+______________________________________________________________________
 
-# 85. Material Change
+## 85. Material Change
 
 A model-level materiality test:
 
@@ -2075,9 +2078,9 @@ If yes, the change is likely epistemically material.
 
 The source does not define this exact test.
 
----
+______________________________________________________________________
 
-# 86. Supersession Lineage
+## 86. Supersession Lineage
 
 ```text
 PC1
@@ -2098,9 +2101,9 @@ PC3 supersedes PC2
 
 rather than collapsing history to PC3 alone.
 
----
+______________________________________________________________________
 
-# 87. Branching Supersession
+## 87. Branching Supersession
 
 A falsified capsule may produce multiple successor hypotheses:
 
@@ -2121,9 +2124,9 @@ COMPETING
 
 should be preserved under PC-3.
 
----
+______________________________________________________________________
 
-# 88. Merging Supersession Branches
+## 88. Merging Supersession Branches
 
 If later discriminating evidence resolves PC2 vs PC3:
 
@@ -2137,9 +2140,9 @@ PC4 should preserve the lineage of both branches.
 
 This is a model-level provenance rule.
 
----
+______________________________________________________________________
 
-# 89. Supersession and Confidence Ceiling
+## 89. Supersession and Confidence Ceiling
 
 When a falsifier succeeds, the old confidence ceiling cannot remain silently operative for the invalidated claim.
 
@@ -2153,9 +2156,9 @@ NOT CURRENT
 
 and a replacement capsule must establish its own ceiling.
 
----
+______________________________________________________________________
 
-# 90. Supersession and Competing Hypotheses
+## 90. Supersession and Competing Hypotheses
 
 A successful falsifier may:
 
@@ -2174,9 +2177,9 @@ competing.
 
 The replacement capsule should preserve the remaining competition rather than declaring convergence prematurely.
 
----
+______________________________________________________________________
 
-# 91. Supersession and RSCF
+## 91. Supersession and RSCF
 
 Conceptually:
 
@@ -2197,9 +2200,9 @@ AFFECTED DESCENDANTS
 
 This aligns with dependency-local recovery.
 
----
+______________________________________________________________________
 
-# 92. Supersession and GMEF
+## 92. Supersession and GMEF
 
 If a GMEF gate relied on a Proof Capsule that is superseded:
 
@@ -2221,9 +2224,9 @@ then R may require revalidation.
 
 Exact gate invalidation semantics are governed by GMEF and are not defined by L19 alone.
 
----
+______________________________________________________________________
 
-# 93. Proof Capsule Lifecycle
+## 93. Proof Capsule Lifecycle
 
 A proposed lifecycle:
 
@@ -2249,9 +2252,9 @@ KEEP  SUPERSEDE
 
 The exact state names are not source-defined.
 
----
+______________________________________________________________________
 
-# 94. Proof Capsule Reuse
+## 94. Proof Capsule Reuse
 
 A capsule may be reused only while its relevant conditions remain valid.
 
@@ -2268,9 +2271,9 @@ NO MATERIAL CONFLICT
 
 These conditions are broader AMOS reasoning patterns rather than explicit L19 fields.
 
----
+______________________________________________________________________
 
-# 95. Reuse Is Not Copying
+## 95. Reuse Is Not Copying
 
 Proof Capsule reuse means:
 
@@ -2286,9 +2289,9 @@ COPY ITS CONCLUSION
 WITHOUT CHECKING VALIDITY
 ```
 
----
+______________________________________________________________________
 
-# 96. Dependency Closure Before Reuse
+## 96. Dependency Closure Before Reuse
 
 Before reuse:
 
@@ -2310,9 +2313,9 @@ OR
 DOWNGRADE
 ```
 
----
+______________________________________________________________________
 
-# 97. Freshness
+## 97. Freshness
 
 A Proof Capsule may be temporally bounded.
 
@@ -2330,9 +2333,9 @@ if load-bearing facts may have changed.
 
 L19 does not explicitly require a freshness field, so this remains an extension.
 
----
+______________________________________________________________________
 
-# 98. Scope
+## 98. Scope
 
 A Proof Capsule should not silently generalize outside the scope of its support.
 
@@ -2351,9 +2354,9 @@ ALL ENVIRONMENTS
 ALL POPULATIONS
 ```
 
----
+______________________________________________________________________
 
-# 99. Regime
+## 99. Regime
 
 A capsule may be valid under one regime and stale under another.
 
@@ -2371,24 +2374,24 @@ REVALIDATE
 
 This is a broader AMOS scope/regime rule.
 
----
+______________________________________________________________________
 
-# 100. Provenance
+## 100. Provenance
 
 The supplied L19 laws do not explicitly list provenance as a mandatory Proof Capsule field.
 
 However, provenance is necessary in broader AMOS reasoning to determine:
 
-* where support originated,
-* whether evidence is independent,
-* whether a source was superseded,
-* whether dependencies remain valid.
+- where support originated,
+- whether evidence is independent,
+- whether a source was superseded,
+- whether dependencies remain valid.
 
 Therefore provenance is a model-level extension, not an L19 PC-1 mandatory field.
 
----
+______________________________________________________________________
 
-# 101. Proposed Provenance Extension
+## 101. Proposed Provenance Extension
 
 ```yaml
 proof_capsule:
@@ -2408,9 +2411,9 @@ proof_capsule:
 
 This must not be presented as directly required by PC-1.
 
----
+______________________________________________________________________
 
-# 102. Proof Capsule Identity
+## 102. Proof Capsule Identity
 
 A durable implementation may use:
 
@@ -2421,17 +2424,17 @@ capsule_id:
 
 to support:
 
-* references,
-* supersession,
-* dependency edges,
-* reuse,
-* auditing.
+- references,
+- supersession,
+- dependency edges,
+- reuse,
+- auditing.
 
 The source does not mandate capsule IDs.
 
----
+______________________________________________________________________
 
-# 103. Proof Capsule Digest
+## 103. Proof Capsule Digest
 
 A durable implementation may bind a capsule to a digest:
 
@@ -2444,9 +2447,9 @@ But L19 does not explicitly require a digest field.
 
 Do not import GMEF's receipt-digest requirement into L19 as though it were source-defined.
 
----
+______________________________________________________________________
 
-# 104. Proof Capsule Receipt Distinction
+## 104. Proof Capsule Receipt Distinction
 
 GMEF receipt:
 
@@ -2468,9 +2471,9 @@ GMEF RECEIPT
 L19 PROOF CAPSULE
 ```
 
----
+______________________________________________________________________
 
-# 105. Proof Capsule and RSCF
+## 105. Proof Capsule and RSCF
 
 RSCF classifies and governs claims.
 
@@ -2488,9 +2491,9 @@ CLAIM STATUS
 PROOF CAPSULE
 ```
 
----
+______________________________________________________________________
 
-# 106. RSCF Claim Class Preservation
+## 106. RSCF Claim Class Preservation
 
 If RSCF establishes:
 
@@ -2516,9 +2519,9 @@ SUPPORTED RSCF CLASS
 
 conceptually.
 
----
+______________________________________________________________________
 
-# 107. RSCF Competing Preservation
+## 107. RSCF Competing Preservation
 
 If RSCF retains:
 
@@ -2531,9 +2534,9 @@ the Proof Capsule must not compress them into one synthetic conclusion.
 
 PC-3 directly reinforces this behavior.
 
----
+______________________________________________________________________
 
-# 108. RSCF Unknown Preservation
+## 108. RSCF Unknown Preservation
 
 If a load-bearing premise remains:
 
@@ -2543,16 +2546,16 @@ UNKNOWN/GAP
 
 the capsule must reflect that uncertainty through:
 
-* class,
-* load-bearing gaps,
-* not-established boundary,
-* confidence ceiling,
+- class,
+- load-bearing gaps,
+- not-established boundary,
+- confidence ceiling,
 
 as appropriate.
 
----
+______________________________________________________________________
 
-# 109. Proof Capsule and GMEF
+## 109. Proof Capsule and GMEF
 
 A Proof Capsule may become an input to a governance gate.
 
@@ -2570,9 +2573,9 @@ The capsule provides epistemic support.
 
 The gate provides governance judgment.
 
----
+______________________________________________________________________
 
-# 110. Proof Does Not Grant Authority
+## 110. Proof Does Not Grant Authority
 
 Even a strong Proof Capsule:
 
@@ -2589,9 +2592,9 @@ PROMOTION AUTHORITY
 
 GMEF authority separation remains intact.
 
----
+______________________________________________________________________
 
-# 111. Governance Does Not Upgrade Proof
+## 111. Governance Does Not Upgrade Proof
 
 Likewise:
 
@@ -2614,9 +2617,9 @@ VERIFIED
 
 Epistemic and governance transitions remain distinct.
 
----
+______________________________________________________________________
 
-# 112. Proof Capsule and H/M/L
+## 112. Proof Capsule and H/M/L
 
 H/M/L may determine how detailed or strongly validated a Proof Capsule needs to be.
 
@@ -2638,9 +2641,9 @@ STRONGER FALSIFIERS
 
 But the seven PC-1 fields remain required regardless of compression level under the proposed specification.
 
----
+______________________________________________________________________
 
-# 113. Compression Without Integrity Loss
+## 113. Compression Without Integrity Loss
 
 A compact capsule may use:
 
@@ -2659,9 +2662,9 @@ Compactness is allowed.
 
 Omission of required epistemic boundaries is not.
 
----
+______________________________________________________________________
 
-# 114. Proof Capsule and Adaptive Complexity
+## 114. Proof Capsule and Adaptive Complexity
 
 At low complexity:
 
@@ -2678,20 +2681,20 @@ may be enough if all required fields are represented.
 
 At high complexity, the capsule may additionally carry:
 
-* dependencies,
-* provenance topology,
-* scope,
-* regime,
-* temporal validity,
-* competing explanations,
-* validation records,
-* supersession lineage.
+- dependencies,
+- provenance topology,
+- scope,
+- regime,
+- temporal validity,
+- competing explanations,
+- validation records,
+- supersession lineage.
 
 These extensions should be added only when decision-relevant.
 
----
+______________________________________________________________________
 
-# 115. Proof Capsule and Causal Firewall
+## 115. Proof Capsule and Causal Firewall
 
 If a claim is causal:
 
@@ -2710,9 +2713,9 @@ not_established:
 
 or the claim/class should be weakened.
 
----
+______________________________________________________________________
 
-# 116. Structural Similarity
+## 116. Structural Similarity
 
 Invalid:
 
@@ -2725,9 +2728,9 @@ SYSTEM A has property P
 
 A Proof Capsule should classify such reasoning as MODEL or CONDITIONAL unless independently validated.
 
----
+______________________________________________________________________
 
-# 117. Proof Capsule and Provenance Independence
+## 117. Proof Capsule and Provenance Independence
 
 Suppose:
 
@@ -2742,9 +2745,9 @@ A capsule should not count these as three independent confirmations merely becau
 
 If independence matters to the confidence ceiling, ancestry must be checked.
 
----
+______________________________________________________________________
 
-# 118. Sybil-Like Evidence Inflation
+## 118. Sybil-Like Evidence Inflation
 
 Invalid:
 
@@ -2760,9 +2763,9 @@ Proof Capsule confidence should not rise from repeated descendants of one source
 
 This is broader AMOS provenance discipline.
 
----
+______________________________________________________________________
 
-# 119. Persistent Provenance
+## 119. Persistent Provenance
 
 A persistent capsule architecture may preserve:
 
@@ -2790,9 +2793,9 @@ provenance:
 
 These fields are not required by PC-1 but may be important for knowledge harvest.
 
----
+______________________________________________________________________
 
-# 120. Ephemeral Code → Persistent Evidence
+## 120. Ephemeral Code → Persistent Evidence
 
 For implementation claims:
 
@@ -2810,9 +2813,9 @@ VALIDATED KNOWLEDGE
 
 The capsule must not skip the executed-validation stage and claim implementation confidence from code alone.
 
----
+______________________________________________________________________
 
-# 121. Proof Capsule Validation Record
+## 121. Proof Capsule Validation Record
 
 A model extension:
 
@@ -2840,9 +2843,9 @@ executed_validations:
 
 Again, the source mandates honest ceilings, not this exact schema.
 
----
+______________________________________________________________________
 
-# 122. Zero-Validation Capsule
+## 122. Zero-Validation Capsule
 
 If no implementation validation was executed:
 
@@ -2876,9 +2879,9 @@ for the **implementation claim**.
 
 This directly reflects PC-2.
 
----
+______________________________________________________________________
 
-# 123. Mixed Claim Capsule
+## 123. Mixed Claim Capsule
 
 A capsule may contain a design conclusion and an implementation boundary.
 
@@ -2910,9 +2913,9 @@ confidence_ceiling:
 
 If a separate implementation claim is made, its ceiling remains zero without executed validation.
 
----
+______________________________________________________________________
 
-# 124. Claim-Type Separation
+## 124. Claim-Type Separation
 
 Avoid mixing:
 
@@ -2927,9 +2930,9 @@ into one undifferentiated capsule when they have different evidence requirements
 
 Separate capsules may be preferable.
 
----
+______________________________________________________________________
 
-# 125. Atomic Multi-RSCF Reasoning
+## 125. Atomic Multi-RSCF Reasoning
 
 A consequential conclusion may depend on multiple RSCF claims:
 
@@ -2951,9 +2954,9 @@ F
 
 must be revalidated.
 
----
+______________________________________________________________________
 
-# 126. Dependency Graph
+## 126. Dependency Graph
 
 A model representation:
 
@@ -2973,9 +2976,9 @@ dependencies:
 
 This supports local invalidation.
 
----
+______________________________________________________________________
 
-# 127. Weakest Load-Bearing Premise
+## 127. Weakest Load-Bearing Premise
 
 Suppose:
 
@@ -2997,9 +3000,9 @@ CONDITIONAL
 
 This is the broader AMOS ceiling rule.
 
----
+______________________________________________________________________
 
-# 128. Independent Revalidation
+## 128. Independent Revalidation
 
 If C2 is weak because of source S, but F independently validates the same necessary proposition through source T:
 
@@ -3012,9 +3015,9 @@ the weak C2 path may cease to be load-bearing.
 
 Only then may the ceiling rise.
 
----
+______________________________________________________________________
 
-# 129. No Independence by Assumption
+## 129. No Independence by Assumption
 
 Invalid:
 
@@ -3027,9 +3030,9 @@ must be independent
 
 Source identity, ancestry, or dependency must be checked when independence is load-bearing.
 
----
+______________________________________________________________________
 
-# 130. Proof Capsule Fast Path
+## 130. Proof Capsule Fast Path
 
 A capsule may be reused without full recomputation when:
 
@@ -3045,9 +3048,9 @@ NO SUCCESSFUL FALSIFIER
 
 This is an AMOS v4.4 reasoning pattern, not explicit L19 source law.
 
----
+______________________________________________________________________
 
-# 131. Fast Path Failure
+## 131. Fast Path Failure
 
 Escalate if:
 
@@ -3065,9 +3068,9 @@ DEPENDENCIES ARE AMBIGUOUS
 
 Do not trade correctness for capsule reuse speed.
 
----
+______________________________________________________________________
 
-# 132. Adversarial Validation
+## 132. Adversarial Validation
 
 For consequential capsules, challenge the strongest supported conclusion using a genuinely different path.
 
@@ -3093,9 +3096,9 @@ OR
 SUPERSEDE
 ```
 
----
+______________________________________________________________________
 
-# 133. Challenge Is Not Falsification by Default
+## 133. Challenge Is Not Falsification by Default
 
 An adversarial challenge may expose:
 
@@ -3115,9 +3118,9 @@ SUCCESSFUL FALSIFIER
 
 unless the invalidation condition is actually established.
 
----
+______________________________________________________________________
 
-# 134. Falsifier Success Must Be Evidenced
+## 134. Falsifier Success Must Be Evidenced
 
 Invalid:
 
@@ -3137,9 +3140,9 @@ EVIDENCE SATISFIES IT
 SUCCESSFUL FALSIFIER
 ```
 
----
+______________________________________________________________________
 
-# 135. Supersession Trigger
+## 135. Supersession Trigger
 
 PC-4 specifically ties supersession to:
 
@@ -3155,9 +3158,9 @@ NEW INFORMATION EXISTS
 
 New information may instead strengthen, contextualize, or leave the capsule unchanged.
 
----
+______________________________________________________________________
 
-# 136. Proof Capsule Sensitivity
+## 136. Proof Capsule Sensitivity
 
 For consequential claims, identify the smallest premise or threshold that can flip the result.
 
@@ -3180,9 +3183,9 @@ P2
 
 is the high-value validation target.
 
----
+______________________________________________________________________
 
-# 137. Fragile Capsule
+## 137. Fragile Capsule
 
 A capsule is fragile when a plausible small change in a load-bearing premise flips its conclusion.
 
@@ -3197,17 +3200,17 @@ sensitivity:
 
 Not a PC-1 mandatory field.
 
----
+______________________________________________________________________
 
-# 138. Robust Capsule
+## 138. Robust Capsule
 
 A capsule is robust when plausible perturbations of noncritical assumptions do not change its conclusion.
 
 Robustness should not be claimed merely because no challenge was attempted.
 
----
+______________________________________________________________________
 
-# 139. Absence of Contradiction
+## 139. Absence of Contradiction
 
 Invalid:
 
@@ -3219,9 +3222,9 @@ VERIFIED
 
 Absence of contradiction is not positive proof.
 
----
+______________________________________________________________________
 
-# 140. Benchmark Success
+## 140. Benchmark Success
 
 Invalid:
 
@@ -3233,9 +3236,9 @@ UNIVERSALLY VALID
 
 The capsule must preserve benchmark scope.
 
----
+______________________________________________________________________
 
-# 141. Reported Latency
+## 141. Reported Latency
 
 Invalid:
 
@@ -3247,9 +3250,9 @@ SYSTEM LATENCY = 10ms EVERYWHERE
 
 Environment and hardware conditions matter.
 
----
+______________________________________________________________________
 
-# 142. Distributed Validation
+## 142. Distributed Validation
 
 Invalid:
 
@@ -3261,9 +3264,9 @@ FORMAL BYZANTINE PROOF
 
 unless a formal proof actually exists and supports that claim.
 
----
+______________________________________________________________________
 
-# 143. Proof Capsule Failure Recovery
+## 143. Proof Capsule Failure Recovery
 
 ```text
 CAPSULE CHALLENGED
@@ -3281,9 +3284,9 @@ REBUILD / SUPERSEDE CAPSULE
 
 Global recomputation is unnecessary when dependency-local repair is sufficient.
 
----
+______________________________________________________________________
 
-# 144. No Repeat of Failed Path
+## 144. No Repeat of Failed Path
 
 If:
 
@@ -3302,15 +3305,15 @@ does not increase support.
 
 A changed path requires:
 
-* new evidence,
-* changed premise,
-* changed method,
-* corrected implementation,
-* different independent source.
+- new evidence,
+- changed premise,
+- changed method,
+- corrected implementation,
+- different independent source.
 
----
+______________________________________________________________________
 
-# 145. Proof Capsule Governance
+## 145. Proof Capsule Governance
 
 A Proof Capsule can be epistemically valid without being canonically promoted.
 
@@ -3324,9 +3327,9 @@ CANONICAL CAPSULE
 
 Promotion remains governed separately.
 
----
+______________________________________________________________________
 
-# 146. Canonical Promotion
+## 146. Canonical Promotion
 
 Conceptually:
 
@@ -3344,9 +3347,9 @@ CANONICAL STATUS
 
 L19 itself does not define the promotion process.
 
----
+______________________________________________________________________
 
-# 147. Proof Capsule Mutation
+## 147. Proof Capsule Mutation
 
 A material change to a current capsule should preserve lineage.
 
@@ -3366,9 +3369,9 @@ PC2 supersedes PC1
 
 under PC-4.
 
----
+______________________________________________________________________
 
-# 148. Proof Capsule Status
+## 148. Proof Capsule Status
 
 A model-level lifecycle field:
 
@@ -3381,9 +3384,9 @@ status:
 
 is useful but not source-required.
 
----
+______________________________________________________________________
 
-# 149. Superseded Capsule Reuse
+## 149. Superseded Capsule Reuse
 
 A superseded capsule should not be reused as the current proof for the invalidated claim.
 
@@ -3396,9 +3399,9 @@ PC1 WAS THE CURRENT CAPSULE
 
 provided its superseded status is visible.
 
----
+______________________________________________________________________
 
-# 150. Supersession Receipt
+## 150. Supersession Receipt
 
 A model-level supersession record:
 
@@ -3426,9 +3429,9 @@ supersession:
 
 The exact ceremony is not supplied by L19.
 
----
+______________________________________________________________________
 
-# 151. Proof Capsule Integrity Invariants
+## 151. Proof Capsule Integrity Invariants
 
 ```yaml
 proof_capsule_integrity_invariants:
@@ -3488,9 +3491,9 @@ proof_capsule_integrity_invariants:
 
 PCI-1 through PCI-13 closely restate the supplied four laws.
 
----
+______________________________________________________________________
 
-# 152. Extended Integrity Invariants
+## 152. Extended Integrity Invariants
 
 ```yaml
 extended_integrity_invariants:
@@ -3530,9 +3533,9 @@ extended_integrity_invariants:
 
 These are AMOS_MODEL extensions, not explicit PC-1–PC-4 source laws.
 
----
+______________________________________________________________________
 
-# 153. Proof Capsule Anti-Patterns
+## 153. Proof Capsule Anti-Patterns
 
 ## PC-A1 — Missing Mandatory Field
 
@@ -3549,7 +3552,7 @@ NOT_ESTABLISHED
 
 Rejected.
 
----
+______________________________________________________________________
 
 ## PC-A2 — Empty Confidence Theater
 
@@ -3562,7 +3565,7 @@ without support capable of licensing VERIFIED.
 
 Rejected.
 
----
+______________________________________________________________________
 
 ## PC-A3 — Implementation Without Execution
 
@@ -3574,7 +3577,7 @@ IMPLEMENTATION VERIFIED
 
 Rejected.
 
----
+______________________________________________________________________
 
 ## PC-A4 — Planned Test Laundering
 
@@ -3586,7 +3589,7 @@ VALIDATED
 
 Rejected.
 
----
+______________________________________________________________________
 
 ## PC-A5 — Source-Reported Test Laundering
 
@@ -3598,7 +3601,7 @@ INDEPENDENTLY VERIFIED
 
 Rejected.
 
----
+______________________________________________________________________
 
 ## PC-A6 — Competing Averaging
 
@@ -3612,7 +3615,7 @@ SINGLE CLAIM
 
 Rejected.
 
----
+______________________________________________________________________
 
 ## PC-A7 — Competing Deletion
 
@@ -3626,7 +3629,7 @@ while H2 remains genuinely live.
 
 Rejected.
 
----
+______________________________________________________________________
 
 ## PC-A8 — Silent Falsifier Patch
 
@@ -3640,7 +3643,7 @@ NO LINEAGE
 
 Rejected.
 
----
+______________________________________________________________________
 
 ## PC-A9 — Global Invalidation
 
@@ -3652,7 +3655,7 @@ DELETE ENTIRE KNOWLEDGE GRAPH
 
 Rejected where dependency-local invalidation is possible.
 
----
+______________________________________________________________________
 
 ## PC-A10 — Scope Leakage
 
@@ -3664,7 +3667,7 @@ VALID EVERYWHERE
 
 Rejected.
 
----
+______________________________________________________________________
 
 ## PC-A11 — Provenance Inflation
 
@@ -3677,7 +3680,7 @@ ONE SOURCE
 
 Rejected.
 
----
+______________________________________________________________________
 
 ## PC-A12 — No-Falsifier Verification
 
@@ -3689,9 +3692,9 @@ VERIFIED
 
 Rejected.
 
----
+______________________________________________________________________
 
-# 154. Mandatory Field Validation
+## 154. Mandatory Field Validation
 
 Semantic pseudocode:
 
@@ -3723,9 +3726,9 @@ def validate_capsule(capsule):
 
 This directly models PC-1 structurally.
 
----
+______________________________________________________________________
 
-# 155. Honest Ceiling Validation
+## 155. Honest Ceiling Validation
 
 ```python
 def implementation_ceiling(
@@ -3744,9 +3747,9 @@ Only the zero-if-none branch is explicitly specified.
 
 The ceiling derivation algorithm is unknown.
 
----
+______________________________________________________________________
 
-# 156. Competing Preservation
+## 156. Competing Preservation
 
 ```python
 def synthesize(hypotheses):
@@ -3767,9 +3770,9 @@ def synthesize(hypotheses):
 
 Semantic pseudocode only.
 
----
+______________________________________________________________________
 
-# 157. Supersession Algorithm
+## 157. Supersession Algorithm
 
 ```python
 def apply_falsifier(
@@ -3795,9 +3798,9 @@ def apply_falsifier(
 
 The exact `begin_supersession` ceremony is unspecified.
 
----
+______________________________________________________________________
 
-# 158. Capsule Reuse Algorithm
+## 158. Capsule Reuse Algorithm
 
 ```python
 def reusable(
@@ -3828,9 +3831,9 @@ def reusable(
 
 This is an AMOS_MODEL extension.
 
----
+______________________________________________________________________
 
-# 159. Local Invalidation Algorithm
+## 159. Local Invalidation Algorithm
 
 ```python
 def invalidate_dependency(
@@ -3851,9 +3854,9 @@ def invalidate_dependency(
 
 Unaffected nodes remain intact.
 
----
+______________________________________________________________________
 
-# 160. Implementation Claim Algorithm
+## 160. Implementation Claim Algorithm
 
 ```python
 def classify_implementation_claim(
@@ -3880,9 +3883,9 @@ def classify_implementation_claim(
 
 This captures PC-2 without inventing the missing scoring model.
 
----
+______________________________________________________________________
 
-# 161. Competing Hypothesis Algorithm
+## 161. Competing Hypothesis Algorithm
 
 ```python
 def preserve_competing(
@@ -3904,9 +3907,9 @@ def preserve_competing(
 
 `independent_live_hypotheses` is conceptual; PC-3 itself does not require independence as a condition for listing competitors.
 
----
+______________________________________________________________________
 
-# 162. Proof Capsule Decision Matrix
+## 162. Proof Capsule Decision Matrix
 
 | Condition                                  | Required treatment                          |
 | ------------------------------------------ | ------------------------------------------- |
@@ -3919,9 +3922,9 @@ def preserve_competing(
 
 These follow directly or closely from PC-1 through PC-4.
 
----
+______________________________________________________________________
 
-# 163. Extended Decision Matrix
+## 163. Extended Decision Matrix
 
 | Condition                           | Model-level treatment                                    |
 | ----------------------------------- | -------------------------------------------------------- |
@@ -3935,9 +3938,9 @@ These follow directly or closely from PC-1 through PC-4.
 
 These are extensions beyond the four source laws.
 
----
+______________________________________________________________________
 
-# 164. Proof Capsule Minimal Form
+## 164. Proof Capsule Minimal Form
 
 ```yaml
 proof_capsule:
@@ -3952,9 +3955,9 @@ proof_capsule:
 
 This is the minimum field-complete source-compatible representation.
 
----
+______________________________________________________________________
 
-# 165. Proof Capsule Extended Form
+## 165. Proof Capsule Extended Form
 
 ```yaml
 proof_capsule:
@@ -4027,9 +4030,9 @@ proof_capsule:
 
 Only the seven PC-1 fields plus the semantic preservation requirements of PC-2–PC-4 are source-established.
 
----
+______________________________________________________________________
 
-# 166. Proof Capsule Full Validation Flow
+## 166. Proof Capsule Full Validation Flow
 
 ```text
 CLAIM
@@ -4072,9 +4075,9 @@ FALSIFIER SUCCEEDED?
 CAPSULE MAY REMAIN CURRENT
 ```
 
----
+______________________________________________________________________
 
-# 167. Proof Capsule vs Fluent Summary
+## 167. Proof Capsule vs Fluent Summary
 
 A fluent summary may say:
 
@@ -4111,9 +4114,9 @@ for the implementation claim.
 
 This is the core anti-fabrication value of L19.
 
----
+______________________________________________________________________
 
-# 168. Proof Capsule as Compression Boundary
+## 168. Proof Capsule as Compression Boundary
 
 The capsule compresses:
 
@@ -4137,9 +4140,9 @@ COMPETITORS
 CEILING
 ```
 
----
+______________________________________________________________________
 
-# 169. Proof Capsule as Reuse Boundary
+## 169. Proof Capsule as Reuse Boundary
 
 Instead of recomputing an entire proof:
 
@@ -4163,9 +4166,9 @@ REUSE
 
 This is an AMOS_MODEL fast-path interpretation.
 
----
+______________________________________________________________________
 
-# 170. Proof Capsule as Invalidation Boundary
+## 170. Proof Capsule as Invalidation Boundary
 
 When a premise fails:
 
@@ -4181,9 +4184,9 @@ can be selectively invalidated.
 
 This prevents global epistemic collapse.
 
----
+______________________________________________________________________
 
-# 171. Proof Capsule as Governance Input
+## 171. Proof Capsule as Governance Input
 
 ```text
 PROOF CAPSULE
@@ -4200,9 +4203,9 @@ GMEF RECEIPT
 
 The capsule does not itself authorize the transition.
 
----
+______________________________________________________________________
 
-# 172. Proof Capsule as Knowledge-Harvest Object
+## 172. Proof Capsule as Knowledge-Harvest Object
 
 Conceptually:
 
@@ -4218,9 +4221,9 @@ VALIDATED KNOWLEDGE
 
 provided the capsule's provenance and validity conditions remain recoverable.
 
----
+______________________________________________________________________
 
-# 173. Self-Application to L19
+## 173. Self-Application to L19
 
 L19 itself is:
 
@@ -4239,9 +4242,9 @@ CONDITIONAL
 
 without authoritative promotion or validation sufficient to change that status.
 
----
+______________________________________________________________________
 
-# 174. L19 Source-Established Content
+## 174. L19 Source-Established Content
 
 From the supplied L19 source, the following are directly established as AMOS corpus claims:
 
@@ -4267,38 +4270,38 @@ From the supplied L19 source, the following are directly established as AMOS cor
 
 These are SOURCE_CLAIM statements about the supplied AMOS corpus note.
 
----
+______________________________________________________________________
 
-# 175. L19 Not Established by Source
+## 175. L19 Not Established by Source
 
 The supplied source does **not** establish:
 
-* exact Proof Capsule serialization,
-* exact class enum,
-* exact confidence scoring algorithm,
-* numerical confidence semantics,
-* how nonzero implementation ceilings are calculated,
-* exact definition of an executed validation,
-* exact validation evidence schema,
-* exact competing-hypothesis schema,
-* exact supersession ceremony,
-* exact capsule identity scheme,
-* exact versioning scheme,
-* exact provenance fields,
-* exact dependency graph format,
-* exact scope fields,
-* exact regime fields,
-* exact freshness semantics,
-* exact RSCF integration,
-* exact GMEF integration,
-* exact H/M/L integration,
-* literal runtime implementation.
+- exact Proof Capsule serialization,
+- exact class enum,
+- exact confidence scoring algorithm,
+- numerical confidence semantics,
+- how nonzero implementation ceilings are calculated,
+- exact definition of an executed validation,
+- exact validation evidence schema,
+- exact competing-hypothesis schema,
+- exact supersession ceremony,
+- exact capsule identity scheme,
+- exact versioning scheme,
+- exact provenance fields,
+- exact dependency graph format,
+- exact scope fields,
+- exact regime fields,
+- exact freshness semantics,
+- exact RSCF integration,
+- exact GMEF integration,
+- exact H/M/L integration,
+- literal runtime implementation.
 
 These remain MODEL or UNKNOWN/GAP.
 
----
+______________________________________________________________________
 
-# 176. L19 Known Gaps
+## 176. L19 Known Gaps
 
 ```yaml
 gaps:
@@ -4367,9 +4370,9 @@ gaps:
         not defined by the supplied note.
 ```
 
----
+______________________________________________________________________
 
-# 177. L19 Claim Graph
+## 177. L19 Claim Graph
 
 ```yaml
 claim_graph:
@@ -4481,9 +4484,9 @@ claim_graph:
         validation protocol, and supersession ceremony.
 ```
 
----
+______________________________________________________________________
 
-# 178. Dependency Graph
+## 178. Dependency Graph
 
 ```yaml
 dependency_graph:
@@ -4517,9 +4520,9 @@ dependency_graph:
       - supersession_process
 ```
 
----
+______________________________________________________________________
 
-# 179. L19 Self-Proof Capsule
+## 179. L19 Self-Proof Capsule
 
 ```yaml
 proof_capsule:
@@ -4570,9 +4573,9 @@ proof_capsule:
     CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
-# 180. No Circular Self-Validation
+## 180. No Circular Self-Validation
 
 Invalid:
 
@@ -4604,9 +4607,9 @@ UNTIL AUTHORIZED
 VALIDATION / PROMOTION
 ```
 
----
+______________________________________________________________________
 
-# 181. Falsifier F1
+## 181. Falsifier F1
 
 Original falsifier:
 
@@ -4632,9 +4635,9 @@ PROPOSAL       ↓
           CEREMONY
 ```
 
----
+______________________________________________________________________
 
-# 182. F1 Scope
+## 182. F1 Scope
 
 The explicit falsifier targets:
 
@@ -4652,26 +4655,26 @@ different capsule ID syntax
 
 does not automatically falsify PC-1 unless ID syntax is part of authoritative required-field semantics.
 
----
+______________________________________________________________________
 
-# 183. Additional Model-Level Falsifiers
+## 183. Additional Model-Level Falsifiers
 
 Extensions in this expanded note should be reconsidered if authoritative canon establishes materially different:
 
-* class semantics,
-* confidence-ceiling semantics,
-* validation semantics,
-* competing-hypothesis representation,
-* supersession behavior,
-* dependency handling,
-* provenance requirements,
-* scope/freshness handling.
+- class semantics,
+- confidence-ceiling semantics,
+- validation semantics,
+- competing-hypothesis representation,
+- supersession behavior,
+- dependency handling,
+- provenance requirements,
+- scope/freshness handling.
 
 These would invalidate affected extensions, not automatically every source law.
 
----
+______________________________________________________________________
 
-# 184. Canonical Proof Capsule Compression
+## 184. Canonical Proof Capsule Compression
 
 ```text
 PROOF CAPSULE
@@ -4717,15 +4720,15 @@ SUPERSEDE
 NOT SILENTLY PATCH
 ```
 
----
+______________________________________________________________________
 
-# 185. Canonical One-Line Law
+## 185. Canonical One-Line Law
 
 > **AMOS Proof Capsules must explicitly state the claim, class, established support, non-establishment boundary, load-bearing gaps, falsifiers, and confidence ceiling; implementation confidence may not exceed actually executed validation and is zero without it; genuine competing hypotheses remain explicit; and successful falsification requires visible supersession rather than silent revision.**
 
----
+______________________________________________________________________
 
-# 186. Canonical Equations
+## 186. Canonical Equations
 
 Mandatory fields:
 
@@ -4795,9 +4798,9 @@ SuccessfulFalsifier
 SilentPatch
 ```
 
----
+______________________________________________________________________
 
-# 187. Confidence Ceiling Equation
+## 187. Confidence Ceiling Equation
 
 A broader AMOS model:
 
@@ -4830,9 +4833,9 @@ NONE EXECUTED
 ZERO
 ```
 
----
+______________________________________________________________________
 
-# 188. Proof Capsule Architecture
+## 188. Proof Capsule Architecture
 
 ```text
                   CLAIM
@@ -4878,9 +4881,9 @@ ZERO
            VALID        CEREMONY
 ```
 
----
+______________________________________________________________________
 
-# 189. Proof Capsule Operational Contract
+## 189. Proof Capsule Operational Contract
 
 ```yaml
 proof_capsule_contract:
@@ -4911,9 +4914,9 @@ proof_capsule_contract:
       - successful_falsifier_must_not_be_hidden_by_silent_patch
 ```
 
----
+______________________________________________________________________
 
-# 190. Proof Capsule Final Invariant
+## 190. Proof Capsule Final Invariant
 
 ```text
 IMPORTANT CLAIM
@@ -5064,9 +5067,9 @@ SELF-DESCRIPTION
 SELF-VALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 191. RSCF Node
+## 191. RSCF Node
 
 ```yaml
 RSCF-NODE:
@@ -5129,19 +5132,19 @@ RSCF-RELATIONS:
   - RELATED_TO: [[01_CANON/01_CORE_LAWS/L15_FRACTAL_KNOWLEDGE|L15_FRACTAL_KNOWLEDGE]]
 ```
 
----
+______________________________________________________________________
 
 **00_ROOT_MOC:**
 
-**Related:**  ·  ·
+**Related:** · ·
 
 **MOC:**
 
 **Trang Framework:**
 
----
+______________________________________________________________________
 
-# 192. L19 Final Canon Boundary
+## 192. L19 Final Canon Boundary
 
 The source supports the four proposed laws and their explicit contents.
 
@@ -5167,6 +5170,8 @@ until authoritative proof-capsule canon supplies discriminating validation.
 
 **Conclusion class: CONDITIONAL / AMOS_MODEL.**
 
+```
+```
 
 ```
 ```

@@ -1,12 +1,15 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: AGENTS_AMOS_OS_KERNEL
 tags:
-- knowledge
-- kernel
-- agents
-- system-scan-agent
-- automation-profiles
-- amos-simulation-kernel-v0-math-foundations
+  - knowledge
+  - kernel
+  - agents
+  - system-scan-agent
+  - automation-profiles
+  - amos-simulation-kernel-v0-math-foundations
 type: note
 source: 11_KNOWLEDGE/kernel
 rscf:
@@ -48,9 +51,9 @@ The artifact does **not** by itself prove those components are implemented, pers
 
 That distinction is load-bearing.
 
----
+______________________________________________________________________
 
-# 1. Normalized Source Frontmatter
+## 1. Normalized Source Frontmatter
 
 The following preserves the supplied metadata. Escaping is normalized only for YAML/Markdown readability.
 
@@ -74,11 +77,11 @@ rscf:
 
 No aliases, version, implementation status, validation status, artifact ID, or executable-binding fields were present in the supplied frontmatter.
 
----
+______________________________________________________________________
 
-# 2. Derived / Proposed Obsidian Augmentation
+## 2. Derived / Proposed Obsidian Augmentation
 
-> [!warning] DERIVED / PROPOSED — NOT SOURCE FRONTMATTER
+> [!WARNING] DERIVED / PROPOSED — NOT SOURCE FRONTMATTER
 > The following fields are useful for AMOS vault integration but must not be represented as if they occurred in the original source.
 
 ```yaml
@@ -109,9 +112,9 @@ proposed_epistemic_boundary: SOURCE_CLAIM
 proposed_raw_source_policy: DO_NOT_REWRITE_CANON
 ```
 
----
+______________________________________________________________________
 
-# 3. Exact Source-Level Contract
+## 3. Exact Source-Level Contract
 
 The source says:
 
@@ -124,10 +127,10 @@ The model is defined as:
 For nontrivial tasks, the model must:
 
 1. submit the task to the kernel;
-2. accept the kernel's selected skills/tools/budget;
-3. read only admitted context handles;
-4. return typed claims/evidence/actions, not free-form hidden state;
-5. let the proof engine, policy engine, transaction manager, and finalizer decide what may be committed.
+1. accept the kernel's selected skills/tools/budget;
+1. read only admitted context handles;
+1. return typed claims/evidence/actions, not free-form hidden state;
+1. let the proof engine, policy engine, transaction manager, and finalizer decide what may be committed.
 
 The model must never:
 
@@ -141,9 +144,9 @@ The model must never:
 
 These are the canonical source-defined requirements.
 
----
+______________________________________________________________________
 
-# 4. Artifact Identity
+## 4. Artifact Identity
 
 The artifact title is:
 
@@ -175,9 +178,9 @@ AMOS OS Agent Contract
 Model participation behind AMOS Model ABI
 ```
 
----
+______________________________________________________________________
 
-# 5. Primary Architectural Claim
+## 5. Primary Architectural Claim
 
 The central source statement is:
 
@@ -207,9 +210,9 @@ $$
 
 but the exact directionality and call semantics of the ABI are not fully specified.
 
----
+______________________________________________________________________
 
-# 6. Model Role
+## 6. Model Role
 
 The source-defined role is:
 
@@ -229,9 +232,9 @@ This does not establish that the model is:
 
 Indeed, the rest of the contract strongly separates these responsibilities.
 
----
+______________________________________________________________________
 
-# 7. Kernel Authority Separation
+## 7. Kernel Authority Separation
 
 A central derived invariant is:
 
@@ -247,9 +250,9 @@ The model can reason.
 
 The source does not give it unilateral authority to commit resulting state.
 
----
+______________________________________________________________________
 
-# 8. AMOS Model ABI
+## 8. AMOS Model ABI
 
 The source explicitly names:
 
@@ -285,9 +288,9 @@ are all:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 9. ABI Meaning
+## 9. ABI Meaning
 
 `ABI` conventionally means **Application Binary Interface**.
 
@@ -313,9 +316,9 @@ COMPETING
 
 until an authoritative `AMOS Model ABI` specification is supplied.
 
----
+______________________________________________________________________
 
-# 10. Strongest Safe Interpretation
+## 10. Strongest Safe Interpretation
 
 The strongest safe interpretation is:
 
@@ -323,9 +326,9 @@ The strongest safe interpretation is:
 
 That does not require claiming a literal binary ABI implementation.
 
----
+______________________________________________________________________
 
-# 11. Nontrivial Task Law
+## 11. Nontrivial Task Law
 
 The contract applies explicitly:
 
@@ -343,9 +346,9 @@ $$
 
 within this source model.
 
----
+______________________________________________________________________
 
-# 12. “Nontrivial” Definition Gap
+## 12. “Nontrivial” Definition Gap
 
 The artifact does not define:
 
@@ -357,9 +360,9 @@ It also does not explicitly mention `C0`.
 
 Therefore, unlike `AGENTS AMOS EXECUTION KERNEL V1`, this artifact alone does not define the trivial/nontrivial routing boundary.
 
----
+______________________________________________________________________
 
-# 13. Cross-Artifact Correspondence to C0
+## 13. Cross-Artifact Correspondence to C0
 
 The previously supplied `AGENTS AMOS EXECUTION KERNEL V1` states that kernel bypass is permitted only where the router classifies a task `C0`.
 
@@ -383,9 +386,9 @@ DERIVED CROSS-ARTIFACT CORRESPONDENCE
 
 not identity unless a binding explicitly states that `nontrivial = route != C0`.
 
----
+______________________________________________________________________
 
-# 14. Five Positive Obligations
+## 14. Five Positive Obligations
 
 The agent contract contains five positive execution obligations:
 
@@ -399,9 +402,9 @@ The agent contract contains five positive execution obligations:
 
 These form the main model-side execution protocol.
 
----
+______________________________________________________________________
 
-# 15. Seven Negative Obligations
+## 15. Seven Negative Obligations
 
 The source contains seven explicit prohibitions:
 
@@ -417,28 +420,28 @@ The source contains seven explicit prohibitions:
 
 These form the main integrity firewall.
 
----
+______________________________________________________________________
 
-# 16. Complete Source Contract Matrix
+## 16. Complete Source Contract Matrix
 
-|  # | Source rule                                      | Type     | Primary concern                |
-| -: | ------------------------------------------------ | -------- | ------------------------------ |
-|  1 | Submit task to kernel                            | Positive | control                        |
-|  2 | Accept selected skills/tools/budget              | Positive | governance                     |
-|  3 | Read only admitted context handles               | Positive | information authority          |
-|  4 | Return typed claims/evidence/actions             | Positive | epistemic/interface discipline |
-|  5 | Let kernel-side engines decide commit            | Positive | authority separation           |
-|  6 | Never bypass FAIL gate                           | Negative | fail-closed execution          |
-|  7 | Never promote MODEL to VERIFIED                  | Negative | epistemic integrity            |
-|  8 | Never merge COMPETING without discrimination     | Negative | hypothesis integrity           |
-|  9 | Never treat correlated evidence as independent   | Negative | provenance integrity           |
-| 10 | Never mutate persistent memory directly          | Negative | state integrity                |
-| 11 | Never execute tools without authority tokens     | Negative | action authority               |
-| 12 | Never claim unimplemented distributed guarantees | Negative | runtime-truthfulness           |
+|   # | Source rule                                      | Type     | Primary concern                |
+| --: | ------------------------------------------------ | -------- | ------------------------------ |
+|   1 | Submit task to kernel                            | Positive | control                        |
+|   2 | Accept selected skills/tools/budget              | Positive | governance                     |
+|   3 | Read only admitted context handles               | Positive | information authority          |
+|   4 | Return typed claims/evidence/actions             | Positive | epistemic/interface discipline |
+|   5 | Let kernel-side engines decide commit            | Positive | authority separation           |
+|   6 | Never bypass FAIL gate                           | Negative | fail-closed execution          |
+|   7 | Never promote MODEL to VERIFIED                  | Negative | epistemic integrity            |
+|   8 | Never merge COMPETING without discrimination     | Negative | hypothesis integrity           |
+|   9 | Never treat correlated evidence as independent   | Negative | provenance integrity           |
+|  10 | Never mutate persistent memory directly          | Negative | state integrity                |
+|  11 | Never execute tools without authority tokens     | Negative | action authority               |
+|  12 | Never claim unimplemented distributed guarantees | Negative | runtime-truthfulness           |
 
----
+______________________________________________________________________
 
-# 17. Stage 1 — Submit Task to Kernel
+## 17. Stage 1 — Submit Task to Kernel
 
 The first positive obligation is:
 
@@ -458,9 +461,9 @@ $$
 
 before governed execution.
 
----
+______________________________________________________________________
 
-# 18. Submission ≠ Execution
+## 18. Submission ≠ Execution
 
 Submitting a task does not itself authorize:
 
@@ -478,9 +481,9 @@ TaskSubmission
 ExecutionAuthority
 $$
 
----
+______________________________________________________________________
 
-# 19. Kernel Submission Payload
+## 19. Kernel Submission Payload
 
 The artifact does not define the payload.
 
@@ -500,11 +503,11 @@ Thus this relation is:
 DERIVED FROM CROSS-ARTIFACT CONTEXT
 ```
 
----
+______________________________________________________________________
 
-# 20. Proposed Model Submission Contract
+## 20. Proposed Model Submission Contract
 
-> [!note] PROPOSED
+> [!NOTE] PROPOSED
 
 ```yaml
 KernelSubmission:
@@ -517,9 +520,9 @@ KernelSubmission:
 
 No such schema is supplied by the source.
 
----
+______________________________________________________________________
 
-# 21. Stage 2 — Accept Kernel Selection
+## 21. Stage 2 — Accept Kernel Selection
 
 The second rule says:
 
@@ -539,9 +542,9 @@ budget
 
 for nontrivial execution.
 
----
+______________________________________________________________________
 
-# 22. Kernel Selection Triple
+## 22. Kernel Selection Triple
 
 The source explicitly creates:
 
@@ -557,9 +560,9 @@ $$
 
 This tuple notation is DERIVED, but all three members are explicit.
 
----
+______________________________________________________________________
 
-# 23. Skill Selection
+## 23. Skill Selection
 
 The kernel selects skills.
 
@@ -573,9 +576,9 @@ skill authority
 
 within the source contract.
 
----
+______________________________________________________________________
 
-# 24. Tool Selection
+## 24. Tool Selection
 
 The kernel selects tools.
 
@@ -587,9 +590,9 @@ Never execute tools without authority tokens.
 
 Thus selection and authority appear related but are not necessarily identical.
 
----
+______________________________________________________________________
 
-# 25. Budget Selection
+## 25. Budget Selection
 
 The kernel selects:
 
@@ -613,9 +616,9 @@ Possible budget dimensions include:
 
 None is established.
 
----
+______________________________________________________________________
 
-# 26. Budget Is Typed but Undefined
+## 26. Budget Is Typed but Undefined
 
 Therefore:
 
@@ -624,9 +627,9 @@ Budget exists as a kernel-selected constraint: SOURCE_GROUNDED
 Exact budget schema: UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 27. Budget ≠ Token Budget Necessarily
+## 27. Budget ≠ Token Budget Necessarily
 
 Do not silently interpret:
 
@@ -642,9 +645,9 @@ LLM token limit
 
 The source does not support that narrowing.
 
----
+______________________________________________________________________
 
-# 28. Budget as Governance Envelope
+## 28. Budget as Governance Envelope
 
 A safe conceptual abstraction is:
 
@@ -656,9 +659,9 @@ $$
 
 where the dimensions of `AuthorizedBudget` remain undefined.
 
----
+______________________________________________________________________
 
-# 29. Kernel Selection Acceptance
+## 29. Kernel Selection Acceptance
 
 The model is instructed to:
 
@@ -678,9 +681,9 @@ Budget 10 for Budget 5
 
 without another kernel decision.
 
----
+______________________________________________________________________
 
-# 30. Re-Routing
+## 30. Re-Routing
 
 The source does not say what happens when the selected tool or skill fails.
 
@@ -704,9 +707,9 @@ Skill contract includes fallback authority.
 
 All remain unresolved.
 
----
+______________________________________________________________________
 
-# 31. Model Cannot Self-Escalate Budget
+## 31. Model Cannot Self-Escalate Budget
 
 A derived authority invariant is:
 
@@ -718,9 +721,9 @@ $$
 
 The model cannot simply increase its own authorized execution envelope.
 
----
+______________________________________________________________________
 
-# 32. Stage 3 — Read Only Admitted Context Handles
+## 32. Stage 3 — Read Only Admitted Context Handles
 
 This is one of the most important security/information-governance rules:
 
@@ -736,9 +739,9 @@ read everything available
 
 It defines an admission boundary.
 
----
+______________________________________________________________________
 
-# 33. Context Handle
+## 33. Context Handle
 
 The source explicitly uses:
 
@@ -760,9 +763,9 @@ A context handle could hypothetically be:
 
 These are competing implementation possibilities.
 
----
+______________________________________________________________________
 
-# 34. Admission
+## 34. Admission
 
 The word:
 
@@ -780,9 +783,9 @@ AvailableContext
 AdmittedContext
 $$
 
----
+______________________________________________________________________
 
-# 35. Context Access Invariant
+## 35. Context Access Invariant
 
 $$
 ReadableContext_{model}
@@ -790,9 +793,9 @@ ReadableContext_{model}
 AdmittedContextHandles
 $$
 
----
+______________________________________________________________________
 
-# 36. No Ambient Authority
+## 36. No Ambient Authority
 
 A powerful derived security principle follows:
 
@@ -804,9 +807,9 @@ That is analogous to capability-oriented security.
 
 However, the source does not explicitly name capability security.
 
----
+______________________________________________________________________
 
-# 37. Context Handle ≠ Evidence Validity
+## 37. Context Handle ≠ Evidence Validity
 
 Admission controls access.
 
@@ -818,9 +821,9 @@ Admitted(Context)
 Verified(Context)
 $$
 
----
+______________________________________________________________________
 
-# 38. Context Handle ≠ Provenance Independence
+## 38. Context Handle ≠ Provenance Independence
 
 Two admitted handles can point to descendants of one source.
 
@@ -832,29 +835,29 @@ Handle_1 \neq Handle_2
 IndependentEvidence
 $$
 
----
+______________________________________________________________________
 
-# 39. Context Admission ≠ Scope Validity
+## 39. Context Admission ≠ Scope Validity
 
 An admitted document can still be out of scope for a specific claim.
 
----
+______________________________________________________________________
 
-# 40. Context Admission ≠ Freshness
+## 40. Context Admission ≠ Freshness
 
 An admitted handle can still be stale.
 
----
+______________________________________________________________________
 
-# 41. Context Admission ≠ Causal License
+## 41. Context Admission ≠ Causal License
 
 An admitted source does not automatically license causal inference.
 
----
+______________________________________________________________________
 
-# 42. Proposed Context Handle
+## 42. Proposed Context Handle
 
-> [!note] PROPOSED
+> [!NOTE] PROPOSED
 
 ```yaml
 ContextHandle:
@@ -871,9 +874,9 @@ ContextHandle:
 
 This is not source canon.
 
----
+______________________________________________________________________
 
-# 43. Context Handle Capability Model
+## 43. Context Handle Capability Model
 
 A stronger proposed form:
 
@@ -892,9 +895,9 @@ ContextHandle:
 
 Again, PROPOSED.
 
----
+______________________________________________________________________
 
-# 44. Least-Context Principle
+## 44. Least-Context Principle
 
 A v4.4-compatible extension is:
 
@@ -908,9 +911,9 @@ This supports smallest-sufficient-proof execution.
 
 It is not explicitly stated in this artifact.
 
----
+______________________________________________________________________
 
-# 45. Fractal Retrieval Compatibility
+## 45. Fractal Retrieval Compatibility
 
 The context-handle rule is structurally compatible with:
 
@@ -926,9 +929,9 @@ because both avoid indiscriminate context loading.
 
 This is DERIVED convergence.
 
----
+______________________________________________________________________
 
-# 46. Raw Evidence Firewall
+## 46. Raw Evidence Firewall
 
 An admitted proof capsule may sometimes suffice without admitting every raw source.
 
@@ -936,9 +939,9 @@ But if the raw source can materially change validation, it must be retrievable u
 
 This is lineage-derived.
 
----
+______________________________________________________________________
 
-# 47. Stage 4 — Return Typed Claims / Evidence / Actions
+## 47. Stage 4 — Return Typed Claims / Evidence / Actions
 
 The fourth rule is:
 
@@ -949,9 +952,9 @@ not free-form hidden state
 
 This is a major epistemic and interface boundary.
 
----
+______________________________________________________________________
 
-# 48. Three Output Classes
+## 48. Three Output Classes
 
 The source explicitly names:
 
@@ -963,17 +966,17 @@ actions
 
 Thus model output across the ABI is typed at least at this conceptual level.
 
----
+______________________________________________________________________
 
-# 49. Typed Claim
+## 49. Typed Claim
 
 A claim should carry enough information for downstream proof/policy machinery to interpret its epistemic status.
 
 The source does not define the exact schema.
 
----
+______________________________________________________________________
 
-# 50. Typed Evidence
+## 50. Typed Evidence
 
 Evidence must remain distinguishable from the claim derived from it.
 
@@ -985,9 +988,9 @@ Evidence
 Claim
 $$
 
----
+______________________________________________________________________
 
-# 51. Typed Action
+## 51. Typed Action
 
 An action is distinguishable from both evidence and claims.
 
@@ -1001,9 +1004,9 @@ Claim
 Evidence
 $$
 
----
+______________________________________________________________________
 
-# 52. Why Action Typing Matters
+## 52. Why Action Typing Matters
 
 A model may conclude:
 
@@ -1019,11 +1022,11 @@ Execute Action X.
 
 Typed action representation helps preserve that distinction.
 
----
+______________________________________________________________________
 
-# 53. Proposed Claim Schema
+## 53. Proposed Claim Schema
 
-> [!note] PROPOSED
+> [!NOTE] PROPOSED
 
 ```yaml
 Claim:
@@ -1052,9 +1055,9 @@ Claim:
   confidence_ceiling:
 ```
 
----
+______________________________________________________________________
 
-# 54. Proposed Evidence Schema
+## 54. Proposed Evidence Schema
 
 ```yaml
 Evidence:
@@ -1080,9 +1083,9 @@ Evidence:
 
 PROPOSED.
 
----
+______________________________________________________________________
 
-# 55. Proposed Action Schema
+## 55. Proposed Action Schema
 
 ```yaml
 Action:
@@ -1107,9 +1110,9 @@ Action:
 
 PROPOSED.
 
----
+______________________________________________________________________
 
-# 56. Typed Output Invariant
+## 56. Typed Output Invariant
 
 A safe derived invariant is:
 
@@ -1121,9 +1124,9 @@ $$
 
 rather than arbitrary hidden cognitive state.
 
----
+______________________________________________________________________
 
-# 57. Hidden State Boundary
+## 57. Hidden State Boundary
 
 The source explicitly rejects:
 
@@ -1145,17 +1148,17 @@ and:
 auditable typed interface output
 ```
 
----
+______________________________________________________________________
 
-# 58. Hidden Reasoning ≠ Proof Receipt
+## 58. Hidden Reasoning ≠ Proof Receipt
 
 A model's internal reasoning should not be treated as the proof object.
 
 Instead, proof-relevant material should be emitted through typed structures.
 
----
+______________________________________________________________________
 
-# 59. Auditability Without Chain-of-Thought
+## 59. Auditability Without Chain-of-Thought
 
 This supports:
 
@@ -1176,9 +1179,9 @@ The model can return:
 
 without returning hidden reasoning traces.
 
----
+______________________________________________________________________
 
-# 60. Typed Output ≠ Truth
+## 60. Typed Output ≠ Truth
 
 A false statement can be well typed.
 
@@ -1192,9 +1195,9 @@ $$
 
 This is why the proof engine remains separate.
 
----
+______________________________________________________________________
 
-# 61. Typed Evidence ≠ Valid Evidence
+## 61. Typed Evidence ≠ Valid Evidence
 
 Likewise:
 
@@ -1204,9 +1207,9 @@ WellTyped(Evidence)
 Reliable(Evidence)
 $$
 
----
+______________________________________________________________________
 
-# 62. Typed Action ≠ Authorized Action
+## 62. Typed Action ≠ Authorized Action
 
 And:
 
@@ -1216,9 +1219,9 @@ WellTyped(Action)
 Authorized(Action)
 $$
 
----
+______________________________________________________________________
 
-# 63. Type Safety and Epistemic Safety
+## 63. Type Safety and Epistemic Safety
 
 Type correctness prevents category confusion.
 
@@ -1226,9 +1229,9 @@ It does not by itself establish factual validity.
 
 This is an important firewall.
 
----
+______________________________________________________________________
 
-# 64. Stage 5 — Kernel-Side Commit Decision
+## 64. Stage 5 — Kernel-Side Commit Decision
 
 The final positive rule says:
 
@@ -1242,9 +1245,9 @@ decide what may be committed.
 
 This explicitly removes unilateral commit authority from the model.
 
----
+______________________________________________________________________
 
-# 65. Four Named Kernel Components
+## 65. Four Named Kernel Components
 
 The source explicitly names:
 
@@ -1257,9 +1260,9 @@ Finalizer
 
 These are source-defined architectural roles.
 
----
+______________________________________________________________________
 
-# 66. Exact Component Implementations
+## 66. Exact Component Implementations
 
 The artifact does not provide:
 
@@ -1278,9 +1281,9 @@ SOURCE-DEFINED COMPONENT
 IMPLEMENTATION UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 67. Proof Engine
+## 67. Proof Engine
 
 The proof engine presumably determines whether claims/evidence satisfy proof requirements.
 
@@ -1293,17 +1296,17 @@ ProofEngine decides what may be committed: SOURCE_GROUNDED
 ProofEngine algorithm: UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 68. Policy Engine
+## 68. Policy Engine
 
 The policy engine presumably evaluates policy/governance constraints.
 
 Again, exact policy model is absent.
 
----
+______________________________________________________________________
 
-# 69. Transaction Manager
+## 69. Transaction Manager
 
 The transaction manager is explicitly part of commit admissibility.
 
@@ -1315,9 +1318,9 @@ Commit resulting RSCFs atomically where coupled.
 
 But the current artifact does not explicitly mention RSCFs in its body.
 
----
+______________________________________________________________________
 
-# 70. Finalizer
+## 70. Finalizer
 
 The finalizer is a distinct named role.
 
@@ -1332,9 +1335,9 @@ The source does not define whether it:
 
 These remain unresolved.
 
----
+______________________________________________________________________
 
-# 71. Commit Authority Model
+## 71. Commit Authority Model
 
 A derived architecture is:
 
@@ -1358,9 +1361,9 @@ But the source does not explicitly establish serial ordering among the four comp
 
 This graph is therefore **DERIVED**, not canonical execution order.
 
----
+______________________________________________________________________
 
-# 72. Parallel/Joint Decision Possibility
+## 72. Parallel/Joint Decision Possibility
 
 The source says the four components:
 
@@ -1406,9 +1409,9 @@ Classification:
 COMPETING
 ```
 
----
+______________________________________________________________________
 
-# 73. Model Cannot Self-Commit
+## 73. Model Cannot Self-Commit
 
 The source's authority separation implies:
 
@@ -1420,9 +1423,9 @@ $$
 
 until the appropriate kernel components admit it.
 
----
+______________________________________________________________________
 
-# 74. Candidate vs Committed State
+## 74. Candidate vs Committed State
 
 A useful derived distinction:
 
@@ -1440,9 +1443,9 @@ The model generates candidate typed outputs.
 
 The kernel decides commit admissibility.
 
----
+______________________________________________________________________
 
-# 75. Candidate Claim
+## 75. Candidate Claim
 
 A model may return:
 
@@ -1454,9 +1457,9 @@ claim:
 
 The existence of that candidate does not promote it into persistent canon.
 
----
+______________________________________________________________________
 
-# 76. Candidate Action
+## 76. Candidate Action
 
 Likewise:
 
@@ -1472,9 +1475,9 @@ action:
   status: EXECUTED
 ```
 
----
+______________________________________________________________________
 
-# 77. Candidate Evidence
+## 77. Candidate Evidence
 
 The model may identify evidence.
 
@@ -1489,9 +1492,9 @@ The proof engine may still reject it because of:
 
 This is DERIVED.
 
----
+______________________________________________________________________
 
-# 78. Prohibition 1 — Never Bypass a `FAIL` Gate
+## 78. Prohibition 1 — Never Bypass a `FAIL` Gate
 
 This is explicit and absolute within the contract:
 
@@ -1499,9 +1502,9 @@ This is explicit and absolute within the contract:
 Never bypass a FAIL gate.
 ```
 
----
+______________________________________________________________________
 
-# 79. `FAIL` Is Operationally Strong
+## 79. `FAIL` Is Operationally Strong
 
 `FAIL` is not:
 
@@ -1511,9 +1514,9 @@ warning
 
 It is a gate state that cannot be bypassed by the model.
 
----
+______________________________________________________________________
 
-# 80. FAIL Invariant
+## 80. FAIL Invariant
 
 $$
 Gate=FAIL
@@ -1521,9 +1524,9 @@ Gate=FAIL
 ModelCannotProceedThroughThatGate
 $$
 
----
+______________________________________________________________________
 
-# 81. FAIL ≠ Caveat
+## 81. FAIL ≠ Caveat
 
 This strongly converges with the previous kernel contract:
 
@@ -1539,9 +1542,9 @@ FAIL
 SuccessWithDisclaimer
 $$
 
----
+______________________________________________________________________
 
-# 82. FAIL Ownership
+## 82. FAIL Ownership
 
 The source does not say who produces the `FAIL`.
 
@@ -1556,9 +1559,9 @@ Candidates include:
 
 Unknown.
 
----
+______________________________________________________________________
 
-# 83. FAIL Recovery
+## 83. FAIL Recovery
 
 The source does not specify whether a `FAIL` is:
 
@@ -1570,9 +1573,9 @@ The source does not specify whether a `FAIL` is:
 
 Therefore do not invent universal terminality.
 
----
+______________________________________________________________________
 
-# 84. Safe Failure Recovery
+## 84. Safe Failure Recovery
 
 Current AMOS lineage supports:
 
@@ -1586,17 +1589,17 @@ re-route
 
 rather than simply ignoring the gate.
 
----
+______________________________________________________________________
 
-# 85. Changed Evidence Principle
+## 85. Changed Evidence Principle
 
 A failed path should not be repeated without changed evidence or changed conditions.
 
 This is later-lineage hardening.
 
----
+______________________________________________________________________
 
-# 86. Prohibition 2 — Never Promote `MODEL` to `VERIFIED`
+## 86. Prohibition 2 — Never Promote `MODEL` to `VERIFIED`
 
 This is an explicit epistemic firewall.
 
@@ -1608,23 +1611,23 @@ $$
 
 without an independent validation path capable of licensing promotion.
 
----
+______________________________________________________________________
 
-# 87. MODEL
+## 87. MODEL
 
 `MODEL` represents a conceptual/formal representation not established as verified fact.
 
----
+______________________________________________________________________
 
-# 88. VERIFIED
+## 88. VERIFIED
 
 `VERIFIED` requires validation sufficient for that class within a defined scope.
 
 The source does not define the exact verification threshold.
 
----
+______________________________________________________________________
 
-# 89. Promotion Requires Evidence
+## 89. Promotion Requires Evidence
 
 The prohibition does not necessarily mean a MODEL can never become VERIFIED.
 
@@ -1632,9 +1635,9 @@ It means the model must not simply **promote it**.
 
 A valid transition would require appropriate external proof/validation.
 
----
+______________________________________________________________________
 
-# 90. State Transition
+## 90. State Transition
 
 Unsafe:
 
@@ -1654,9 +1657,9 @@ $$
 
 if the governing verification contract permits it.
 
----
+______________________________________________________________________
 
-# 91. Who May Promote?
+## 91. Who May Promote?
 
 The source does not explicitly say whether the proof engine can promote a model after validation.
 
@@ -1668,9 +1671,9 @@ Therefore:
 promotion authority: UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 92. Model Confidence ≠ Verification
+## 92. Model Confidence ≠ Verification
 
 A model being highly confident does not license:
 
@@ -1678,21 +1681,21 @@ A model being highly confident does not license:
 MODEL → VERIFIED
 ```
 
----
+______________________________________________________________________
 
-# 93. Internal Agreement ≠ Verification
+## 93. Internal Agreement ≠ Verification
 
 Multiple model passes agreeing also do not automatically license promotion.
 
----
+______________________________________________________________________
 
-# 94. Benchmark Success ≠ Universal Verification
+## 94. Benchmark Success ≠ Universal Verification
 
 A model passing tests in one scope does not prove universal validity.
 
----
+______________________________________________________________________
 
-# 95. Prohibition 3 — Never Merge `COMPETING` Without Discriminating Evidence
+## 95. Prohibition 3 — Never Merge `COMPETING` Without Discriminating Evidence
 
 This is another explicit epistemic firewall.
 
@@ -1702,25 +1705,25 @@ $$
 
 must remain competing until evidence can discriminate.
 
----
+______________________________________________________________________
 
-# 96. COMPETING Is First-Class
+## 96. COMPETING Is First-Class
 
 The source treats disagreement as a legitimate stable epistemic state.
 
 It does not require forced convergence.
 
----
+______________________________________________________________________
 
-# 97. Discriminating Evidence
+## 97. Discriminating Evidence
 
 Evidence is discriminating if it materially favors, eliminates, or separates hypotheses.
 
 Redundant repetition does not necessarily discriminate.
 
----
+______________________________________________________________________
 
-# 98. Cheapest High-Information Test
+## 98. Cheapest High-Information Test
 
 A v4.4-compatible principle is:
 
@@ -1728,9 +1731,9 @@ A v4.4-compatible principle is:
 
 This is not verbatim source text but aligns directly with the prohibition.
 
----
+______________________________________________________________________
 
-# 99. Merge Prohibition
+## 99. Merge Prohibition
 
 Unsafe:
 
@@ -1743,9 +1746,9 @@ Both plausible
 
 unless the combined hypothesis is independently supported.
 
----
+______________________________________________________________________
 
-# 100. Synthesis ≠ Resolution
+## 100. Synthesis ≠ Resolution
 
 Two competing hypotheses can be summarized together without being epistemically merged.
 
@@ -1757,9 +1760,9 @@ Synthesize(H_1,H_2)
 Resolve(H_1,H_2)
 $$
 
----
+______________________________________________________________________
 
-# 101. COMPETING Persistence
+## 101. COMPETING Persistence
 
 $$
 NoDiscriminator
@@ -1767,9 +1770,9 @@ NoDiscriminator
 PreserveCOMPETING
 $$
 
----
+______________________________________________________________________
 
-# 102. Prohibition 4 — Never Treat Correlated Evidence as Independent
+## 102. Prohibition 4 — Never Treat Correlated Evidence as Independent
 
 This is explicit provenance-topology hardening.
 
@@ -1779,9 +1782,9 @@ CorrelatedEvidence
 IndependentEvidence
 $$
 
----
+______________________________________________________________________
 
-# 103. Shared Source Example
+## 103. Shared Source Example
 
 ```text
 Source A
@@ -1792,15 +1795,15 @@ Source A
 
 B, C, and D do not automatically represent three independent confirmations.
 
----
+______________________________________________________________________
 
-# 104. Provenance Ancestry
+## 104. Provenance Ancestry
 
 Evidence independence requires looking beyond immediate source identity to ancestry.
 
----
+______________________________________________________________________
 
-# 105. Sybil Evidence Problem
+## 105. Sybil Evidence Problem
 
 A single source can be multiplied into many apparent voices.
 
@@ -1812,21 +1815,21 @@ NumberOfDocuments
 NumberOfIndependentRoots
 $$
 
----
+______________________________________________________________________
 
-# 106. Popularity ≠ Independence
+## 106. Popularity ≠ Independence
 
 Many repetitions of one claim do not establish independent confirmation.
 
----
+______________________________________________________________________
 
-# 107. Authority ≠ Independence
+## 107. Authority ≠ Independence
 
 Two authoritative-looking artifacts can still share one origin.
 
----
+______________________________________________________________________
 
-# 108. Agent Count ≠ Evidence Count
+## 108. Agent Count ≠ Evidence Count
 
 $$
 MultipleAgents
@@ -1834,9 +1837,9 @@ MultipleAgents
 MultipleIndependentEvidenceSources
 $$
 
----
+______________________________________________________________________
 
-# 109. Proof Engine Requirement — Derived
+## 109. Proof Engine Requirement — Derived
 
 A robust proof engine should track:
 
@@ -1852,9 +1855,9 @@ regime
 
 This is v4.4-compatible.
 
----
+______________________________________________________________________
 
-# 110. Provenance Graph
+## 110. Provenance Graph
 
 ```mermaid
 flowchart TD
@@ -1876,9 +1879,9 @@ flowchart TD
     P --> R[One shared ancestry root]
 ```
 
----
+______________________________________________________________________
 
-# 111. Prohibition 5 — Never Mutate Persistent Memory Directly
+## 111. Prohibition 5 — Never Mutate Persistent Memory Directly
 
 This is a major state-management boundary:
 
@@ -1886,9 +1889,9 @@ This is a major state-management boundary:
 Never mutate persistent memory directly.
 ```
 
----
+______________________________________________________________________
 
-# 112. Model Memory Authority
+## 112. Model Memory Authority
 
 Therefore:
 
@@ -1898,9 +1901,9 @@ Model
 DirectPersistentMemoryMutation
 $$
 
----
+______________________________________________________________________
 
-# 113. Persistent Memory
+## 113. Persistent Memory
 
 The source names persistent memory but does not define:
 
@@ -1915,9 +1918,9 @@ The source names persistent memory but does not define:
 
 All remain gaps.
 
----
+______________________________________________________________________
 
-# 114. Read vs Write
+## 114. Read vs Write
 
 The contract distinguishes model cognition from persistent state mutation.
 
@@ -1931,9 +1934,9 @@ ReadAuthority
 WriteAuthority
 $$
 
----
+______________________________________________________________________
 
-# 115. Proposed Memory Mutation Flow
+## 115. Proposed Memory Mutation Flow
 
 A safe derived architecture:
 
@@ -1948,9 +1951,9 @@ Model
 
 This is not explicitly spelled out but follows the commit-authority separation.
 
----
+______________________________________________________________________
 
-# 116. Memory Candidate
+## 116. Memory Candidate
 
 A model should conceptually produce:
 
@@ -1967,9 +1970,9 @@ rather than directly altering persistent state.
 
 PROPOSED.
 
----
+______________________________________________________________________
 
-# 117. Persistent Memory ≠ Knowledge Truth
+## 117. Persistent Memory ≠ Knowledge Truth
 
 Even committed memory should not automatically be treated as verified truth.
 
@@ -1979,9 +1982,9 @@ Persistent
 Verified
 $$
 
----
+______________________________________________________________________
 
-# 118. Storage ≠ Validation
+## 118. Storage ≠ Validation
 
 This converges with the previously supplied Learning-Memory-Knowledge governor:
 
@@ -1992,17 +1995,17 @@ memory ≠ truth
 
 The present kernel artifact reinforces that separation by denying direct model mutation.
 
----
+______________________________________________________________________
 
-# 119. Memory Feedback Hazard
+## 119. Memory Feedback Hazard
 
 If model outputs directly mutate memory, then later reasoning may cite its own prior unsupported outputs as evidence.
 
 The prohibition helps prevent recursive self-confirmation.
 
----
+______________________________________________________________________
 
-# 120. Recursive Self-Corroboration
+## 120. Recursive Self-Corroboration
 
 Dangerous loop:
 
@@ -2017,9 +2020,9 @@ Model claim
 
 This is invalid without provenance-aware distinction.
 
----
+______________________________________________________________________
 
-# 121. Memory Transaction Requirement
+## 121. Memory Transaction Requirement
 
 The named transaction manager suggests that persistent state changes may be transactionally mediated.
 
@@ -2031,9 +2034,9 @@ transaction manager exists in architecture
 
 does not prove a particular database transaction implementation.
 
----
+______________________________________________________________________
 
-# 122. Persistent Memory and RSCF
+## 122. Persistent Memory and RSCF
 
 The previous execution-kernel artifact explicitly mentions atomic RSCF commit.
 
@@ -2059,9 +2062,9 @@ DERIVED
 
 not directly source-stated here.
 
----
+______________________________________________________________________
 
-# 123. Prohibition 6 — Never Execute Tools Without Authority Tokens
+## 123. Prohibition 6 — Never Execute Tools Without Authority Tokens
 
 This is the clearest action-security rule:
 
@@ -2069,9 +2072,9 @@ This is the clearest action-security rule:
 Never execute tools without authority tokens.
 ```
 
----
+______________________________________________________________________
 
-# 124. Tool Capability ≠ Tool Authority
+## 124. Tool Capability ≠ Tool Authority
 
 $$
 ToolAvailable
@@ -2079,9 +2082,9 @@ ToolAvailable
 ToolAuthorized
 $$
 
----
+______________________________________________________________________
 
-# 125. Tool Selected ≠ Authority Token Necessarily
+## 125. Tool Selected ≠ Authority Token Necessarily
 
 The source separately says:
 
@@ -2097,9 +2100,9 @@ never execute tools without authority tokens
 
 Therefore selection and authority token may be distinct controls.
 
----
+______________________________________________________________________
 
-# 126. Two-Key Tool Model
+## 126. Two-Key Tool Model
 
 A strong derived interpretation is:
 
@@ -2113,9 +2116,9 @@ $$
 
 This is DERIVED, but strongly supported by the coexistence of both rules.
 
----
+______________________________________________________________________
 
-# 127. Authority Token
+## 127. Authority Token
 
 The source does not define token representation.
 
@@ -2130,9 +2133,9 @@ Possible forms include:
 
 All remain implementation hypotheses.
 
----
+______________________________________________________________________
 
-# 128. Authority Token ≠ Authentication Token
+## 128. Authority Token ≠ Authentication Token
 
 Do not assume an authority token is:
 
@@ -2144,9 +2147,9 @@ Do not assume an authority token is:
 
 No format is supplied.
 
----
+______________________________________________________________________
 
-# 129. Token Scope
+## 129. Token Scope
 
 A mature implementation should bind authority to:
 
@@ -2162,9 +2165,9 @@ side effects
 
 This is PROPOSED hardening.
 
----
+______________________________________________________________________
 
-# 130. Proposed Authority Token
+## 130. Proposed Authority Token
 
 ```yaml
 AuthorityToken:
@@ -2181,9 +2184,9 @@ AuthorityToken:
 
 PROPOSED.
 
----
+______________________________________________________________________
 
-# 131. Authority Token Invariant
+## 131. Authority Token Invariant
 
 $$
 Action
@@ -2193,33 +2196,33 @@ $$
 
 The model should not broaden permission.
 
----
+______________________________________________________________________
 
-# 132. Token Expiry
+## 132. Token Expiry
 
 The source does not specify expiry.
 
 Therefore a token's temporal validity is unknown unless separately defined.
 
----
+______________________________________________________________________
 
-# 133. Token Delegation
+## 133. Token Delegation
 
 No delegation rules are supplied.
 
 Do not assume a model can pass authority to another agent.
 
----
+______________________________________________________________________
 
-# 134. Token Reuse
+## 134. Token Reuse
 
 No reuse semantics are supplied.
 
 Do not assume tokens are reusable, single-use, persistent, or transferable.
 
----
+______________________________________________________________________
 
-# 135. Tool Execution Receipt
+## 135. Tool Execution Receipt
 
 A robust implementation should emit a receipt containing:
 
@@ -2235,9 +2238,9 @@ time
 
 PROPOSED.
 
----
+______________________________________________________________________
 
-# 136. Authority ≠ Safety
+## 136. Authority ≠ Safety
 
 An authorized tool action can still be unsafe under changed conditions.
 
@@ -2251,15 +2254,15 @@ $$
 
 Policy and final validation may still matter.
 
----
+______________________________________________________________________
 
-# 137. Authority ≠ Truth
+## 137. Authority ≠ Truth
 
 Tool authorization says nothing about the truth of a tool's output.
 
----
+______________________________________________________________________
 
-# 138. Prohibition 7 — Never Claim Distributed Guarantees Not Implemented by Host Runtime
+## 138. Prohibition 7 — Never Claim Distributed Guarantees Not Implemented by Host Runtime
 
 This is a particularly important anti-fabrication boundary.
 
@@ -2269,17 +2272,17 @@ The source explicitly says:
 Never claim distributed guarantees not implemented by the host runtime.
 ```
 
----
+______________________________________________________________________
 
-# 139. Host Runtime Firewall
+## 139. Host Runtime Firewall
 
 The AMOS conceptual architecture may contain distributed-systems concepts.
 
 But the model must not imply the actual host runtime implements them unless evidence establishes that.
 
----
+______________________________________________________________________
 
-# 140. Conceptual Mechanism ≠ Runtime Mechanism
+## 140. Conceptual Mechanism ≠ Runtime Mechanism
 
 $$
 AMOSConcept
@@ -2289,9 +2292,9 @@ $$
 
 unless bound by evidence.
 
----
+______________________________________________________________________
 
-# 141. Examples of Distributed Guarantees
+## 141. Examples of Distributed Guarantees
 
 Potential distributed guarantees include:
 
@@ -2308,9 +2311,9 @@ Potential distributed guarantees include:
 
 These are general technical examples, **not claims that this artifact names or implements them**.
 
----
+______________________________________________________________________
 
-# 142. MVCC/CAS Firewall
+## 142. MVCC/CAS Firewall
 
 AMOS v4.4 reasoning patterns include MVCC/CAS concepts.
 
@@ -2322,9 +2325,9 @@ ChatGPT literally uses AMOS MVCC/CAS
 
 without host-runtime evidence.
 
----
+______________________________________________________________________
 
-# 143. Atomic RSCF Firewall
+## 143. Atomic RSCF Firewall
 
 Likewise:
 
@@ -2342,25 +2345,25 @@ the host runtime performs distributed atomic RSCF transactions
 
 is unsupported unless implementation evidence exists.
 
----
+______________________________________________________________________
 
-# 144. Causal Epoch Firewall
+## 144. Causal Epoch Firewall
 
 AMOS may reason using causal-epoch finality as a conceptual governance model.
 
 That does not establish literal causal-epoch infrastructure in the host.
 
----
+______________________________________________________________________
 
-# 145. Shard Firewall
+## 145. Shard Firewall
 
 AMOS may define shard-local finalization patterns.
 
 That does not establish literal runtime sharding.
 
----
+______________________________________________________________________
 
-# 146. Byzantine Firewall
+## 146. Byzantine Firewall
 
 Testing or reasoning about Byzantine conditions does not prove Byzantine fault tolerance.
 
@@ -2370,17 +2373,17 @@ ByzantineTest
 FormalBFTGuarantee
 $$
 
----
+______________________________________________________________________
 
-# 147. Formal Proof Firewall
+## 147. Formal Proof Firewall
 
 Distributed guarantees require the appropriate implementation evidence/formal proof.
 
 Documentation alone remains a source claim.
 
----
+______________________________________________________________________
 
-# 148. Host Runtime Is External Boundary
+## 148. Host Runtime Is External Boundary
 
 This prohibition establishes a crucial boundary between:
 
@@ -2394,9 +2397,9 @@ and:
 actual execution substrate
 ```
 
----
+______________________________________________________________________
 
-# 149. Runtime Truthfulness Law
+## 149. Runtime Truthfulness Law
 
 $$
 ClaimedGuarantee
@@ -2406,9 +2409,9 @@ $$
 
 for runtime guarantees.
 
----
+______________________________________________________________________
 
-# 150. Unknown Host Guarantee
+## 150. Unknown Host Guarantee
 
 If implementation evidence is absent:
 
@@ -2418,9 +2421,9 @@ UNKNOWN/GAP
 
 is preferable to architectural projection.
 
----
+______________________________________________________________________
 
-# 151. Model ABI as Trust Boundary
+## 151. Model ABI as Trust Boundary
 
 The entire artifact can be interpreted as defining a trust boundary:
 
@@ -2430,9 +2433,9 @@ MODEL SIDE
 KERNEL SIDE
 ```
 
----
+______________________________________________________________________
 
-# 152. Model-Side Responsibilities
+## 152. Model-Side Responsibilities
 
 Source-grounded:
 
@@ -2450,9 +2453,9 @@ use authority for tools
 speak truthfully about host guarantees
 ```
 
----
+______________________________________________________________________
 
-# 153. Kernel-Side Responsibilities
+## 153. Kernel-Side Responsibilities
 
 Explicitly or strongly implied:
 
@@ -2471,9 +2474,9 @@ issue/validate authority somehow
 
 Not every item is explicitly assigned to the kernel by exact wording; context admission and authority issuance are DERIVED responsibilities.
 
----
+______________________________________________________________________
 
-# 154. Separation of Concerns
+## 154. Separation of Concerns
 
 The architecture separates at least:
 
@@ -2487,57 +2490,57 @@ authority
 persistent state
 ```
 
----
+______________________________________________________________________
 
-# 155. Cognition Plane
+## 155. Cognition Plane
 
 Model performs cognitive work.
 
----
+______________________________________________________________________
 
-# 156. Proof Plane
+## 156. Proof Plane
 
 Proof engine governs epistemic admissibility.
 
----
+______________________________________________________________________
 
-# 157. Policy Plane
+## 157. Policy Plane
 
 Policy engine governs policy admissibility.
 
----
+______________________________________________________________________
 
-# 158. Transaction Plane
+## 158. Transaction Plane
 
 Transaction manager governs state-transition integrity.
 
----
+______________________________________________________________________
 
-# 159. Finality Plane
+## 159. Finality Plane
 
 Finalizer determines or participates in final commit state.
 
----
+______________________________________________________________________
 
-# 160. Authority Plane
+## 160. Authority Plane
 
 Authority tokens govern tool execution.
 
----
+______________________________________________________________________
 
-# 161. Context Plane
+## 161. Context Plane
 
 Admitted handles govern information access.
 
----
+______________________________________________________________________
 
-# 162. Persistence Plane
+## 162. Persistence Plane
 
 Persistent memory cannot be directly mutated by the model.
 
----
+______________________________________________________________________
 
-# 163. Seven-Boundary Architecture
+## 163. Seven-Boundary Architecture
 
 A derived compression:
 
@@ -2557,9 +2560,9 @@ $$
 
 This grouping is DERIVED.
 
----
+______________________________________________________________________
 
-# 164. Capability Security Interpretation
+## 164. Capability Security Interpretation
 
 The combination of:
 
@@ -2587,9 +2590,9 @@ DERIVED architectural resemblance
 
 not source-defined implementation.
 
----
+______________________________________________________________________
 
-# 165. Principle of Least Authority
+## 165. Principle of Least Authority
 
 A compatible derived principle is:
 
@@ -2597,65 +2600,65 @@ A compatible derived principle is:
 
 The source strongly supports the direction but does not state the formal principle.
 
----
+______________________________________________________________________
 
-# 166. Ambient Context Hazard
+## 166. Ambient Context Hazard
 
 If a model can read arbitrary available context, task boundaries can leak.
 
 The admitted-handle rule prevents that conceptually.
 
----
+______________________________________________________________________
 
-# 167. Ambient Tool Hazard
+## 167. Ambient Tool Hazard
 
 If tool availability alone grants execution, side effects can escape policy.
 
 The authority-token rule prevents that conceptually.
 
----
+______________________________________________________________________
 
-# 168. Ambient Memory Hazard
+## 168. Ambient Memory Hazard
 
 If the model can directly persist arbitrary conclusions, unsupported beliefs can recursively become system state.
 
 The direct-mutation prohibition prevents that conceptually.
 
----
+______________________________________________________________________
 
-# 169. Epistemic Authority Hazard
+## 169. Epistemic Authority Hazard
 
 If the model can relabel its own `MODEL` outputs as `VERIFIED`, proof governance collapses.
 
 The promotion prohibition prevents that.
 
----
+______________________________________________________________________
 
-# 170. Consensus Hallucination Hazard
+## 170. Consensus Hallucination Hazard
 
 If correlated evidence is counted independently, confidence can inflate without new information.
 
 The correlation prohibition prevents that.
 
----
+______________________________________________________________________
 
-# 171. Forced-Convergence Hazard
+## 171. Forced-Convergence Hazard
 
 If competing hypotheses are automatically merged, contradiction disappears without resolution.
 
 The `COMPETING` rule prevents that.
 
----
+______________________________________________________________________
 
-# 172. Distributed-Fiction Hazard
+## 172. Distributed-Fiction Hazard
 
 If conceptual AMOS architecture is described as literal host behavior, documentation becomes false runtime representation.
 
 The host-runtime rule prevents that.
 
----
+______________________________________________________________________
 
-# 173. Integrity Firewall Summary
+## 173. Integrity Firewall Summary
 
 The seven negative rules correspond to seven failure classes:
 
@@ -2669,9 +2672,9 @@ The seven negative rules correspond to seven failure classes:
 | unauthorized tools             | authority violation      |
 | unsupported distributed claims | runtime fabrication      |
 
----
+______________________________________________________________________
 
-# 174. Kernel Integrity Equation
+## 174. Kernel Integrity Equation
 
 A useful derived equation:
 
@@ -2692,17 +2695,17 @@ Authority
 RuntimeTruthfulness
 $$
 
----
+______________________________________________________________________
 
-# 175. Any One Failure Can Be Load-Bearing
+## 175. Any One Failure Can Be Load-Bearing
 
 The contract is not satisfied merely because six of seven prohibitions are obeyed.
 
 For a relevant operation, one load-bearing violation can invalidate the result/action.
 
----
+______________________________________________________________________
 
-# 176. Fail-Closed Philosophy
+## 176. Fail-Closed Philosophy
 
 The architecture strongly favors:
 
@@ -2713,9 +2716,9 @@ unresolved hypotheses → preserve competing
 unknown host guarantee → do not claim it
 ```
 
----
+______________________________________________________________________
 
-# 177. No Silent Downgrade
+## 177. No Silent Downgrade
 
 The previous execution-kernel artifact adds:
 
@@ -2725,9 +2728,9 @@ Never silently downgrade a failed gate to a prose caveat.
 
 Together these artifacts define a strong fail-closed reasoning discipline.
 
----
+______________________________________________________________________
 
-# 178. Cross-Artifact Convergence
+## 178. Cross-Artifact Convergence
 
 ## `AGENTS AMOS EXECUTION KERNEL V1`
 
@@ -2753,9 +2756,9 @@ Classification:
 DERIVED
 ```
 
----
+______________________________________________________________________
 
-# 179. They Are Not Duplicates
+## 179. They Are Not Duplicates
 
 The first artifact says:
 
@@ -2769,9 +2772,9 @@ The second says:
 what the model is allowed/required to do inside that architecture
 ```
 
----
+______________________________________________________________________
 
-# 180. Combined Architecture
+## 180. Combined Architecture
 
 ```mermaid
 flowchart TD
@@ -2799,9 +2802,9 @@ This is a **DERIVED combined model** from the two supplied kernel artifacts.
 
 Exact runtime topology is not established.
 
----
+______________________________________________________________________
 
-# 181. Combined Task Flow
+## 181. Combined Task Flow
 
 $$
 Task
@@ -2827,9 +2830,9 @@ $$
 
 DERIVED.
 
----
+______________________________________________________________________
 
-# 182. Model Is Behind ABI
+## 182. Model Is Behind ABI
 
 The phrase:
 
@@ -2857,9 +2860,9 @@ The model is abstracted by the ABI so different models can be substituted.
 
 No exact interface topology is supplied.
 
----
+______________________________________________________________________
 
-# 183. Model Substitutability
+## 183. Model Substitutability
 
 An ABI often enables implementation substitution.
 
@@ -2871,9 +2874,9 @@ Therefore:
 Model substitutability: plausible MODEL, not source-established
 ```
 
----
+______________________________________________________________________
 
-# 184. Model-Agnostic Kernel Hypothesis
+## 184. Model-Agnostic Kernel Hypothesis
 
 A possible architecture:
 
@@ -2895,17 +2898,17 @@ MODEL
 
 not verified source canon.
 
----
+______________________________________________________________________
 
-# 185. ABI Stability
+## 185. ABI Stability
 
 No version is provided for the ABI.
 
 Therefore compatibility guarantees are unknown.
 
----
+______________________________________________________________________
 
-# 186. Artifact Version Gap
+## 186. Artifact Version Gap
 
 Unlike `AGENTS AMOS EXECUTION KERNEL V1`, this artifact title does not contain an explicit version.
 
@@ -2915,9 +2918,9 @@ Do not invent:
 v1.0.0
 ```
 
----
+______________________________________________________________________
 
-# 187. Updated Date Gap
+## 187. Updated Date Gap
 
 No:
 
@@ -2932,9 +2935,9 @@ metadata is supplied.
 
 Freshness therefore cannot be computed from the source frontmatter.
 
----
+______________________________________________________________________
 
-# 188. Freshness Classification
+## 188. Freshness Classification
 
 ```text
 Temporal validity: UNKNOWN/GAP
@@ -2942,9 +2945,9 @@ Temporal validity: UNKNOWN/GAP
 
 unless vault/file metadata or authoritative lineage supplies it.
 
----
+______________________________________________________________________
 
-# 189. Scope
+## 189. Scope
 
 The source frontmatter states:
 
@@ -2958,9 +2961,9 @@ Therefore the source's RSCF scope is explicitly bounded to:
 AMOS_knowledge
 ```
 
----
+______________________________________________________________________
 
-# 190. Scope ≠ Universal Runtime Truth
+## 190. Scope ≠ Universal Runtime Truth
 
 The document should not automatically be generalized to:
 
@@ -2970,9 +2973,9 @@ The document should not automatically be generalized to:
 - all distributed systems;
 - ChatGPT's literal internal implementation.
 
----
+______________________________________________________________________
 
-# 191. Provenance
+## 191. Provenance
 
 The source states:
 
@@ -2982,9 +2985,9 @@ provenance: AMOS_corpus
 
 This identifies corpus provenance but does not prove empirical implementation.
 
----
+______________________________________________________________________
 
-# 192. Provenance ≠ Verification
+## 192. Provenance ≠ Verification
 
 $$
 AMOSCorpusProvenance
@@ -2998,9 +3001,9 @@ The source itself says:
 claim_class: SOURCE_CLAIM
 ```
 
----
+______________________________________________________________________
 
-# 193. Source Self-Classification
+## 193. Source Self-Classification
 
 The artifact is unusually clear epistemically:
 
@@ -3011,9 +3014,9 @@ claim_class: SOURCE_CLAIM
 
 Therefore promotion to VERIFIED would directly contradict its supplied metadata absent external validation.
 
----
+______________________________________________________________________
 
-# 194. Canon/Knowledge Tag
+## 194. Canon/Knowledge Tag
 
 The tag:
 
@@ -3029,9 +3032,9 @@ SOURCE_CLAIM
 
 A canon organizational tag is not itself a proof class.
 
----
+______________________________________________________________________
 
-# 195. Runtime Tag
+## 195. Runtime Tag
 
 Likewise:
 
@@ -3041,9 +3044,9 @@ runtime
 
 does not prove runtime implementation.
 
----
+______________________________________________________________________
 
-# 196. Core Tag
+## 196. Core Tag
 
 ```text
 core
@@ -3051,9 +3054,9 @@ core
 
 indicates classification/importance, not empirical validation.
 
----
+______________________________________________________________________
 
-# 197. Kernel Tag
+## 197. Kernel Tag
 
 ```text
 kernel
@@ -3061,9 +3064,9 @@ kernel
 
 does not mean the text itself is executable kernel code.
 
----
+______________________________________________________________________
 
-# 198. Type Document
+## 198. Type Document
 
 The frontmatter explicitly says:
 
@@ -3082,9 +3085,9 @@ executable
 runtime_receipt
 ```
 
----
+______________________________________________________________________
 
-# 199. Document ≠ Executable
+## 199. Document ≠ Executable
 
 $$
 DocumentedContract
@@ -3092,9 +3095,9 @@ DocumentedContract
 ExecutableImplementation
 $$
 
----
+______________________________________________________________________
 
-# 200. Source Path
+## 200. Source Path
 
 ```yaml
 source: 11_KNOWLEDGE/kernel
@@ -3104,9 +3107,9 @@ places the artifact within the knowledge/kernel corpus structure.
 
 It does not prove a filesystem path exists in a running host.
 
----
+______________________________________________________________________
 
-# 201. Related Links
+## 201. Related Links
 
 The source supplies:
 
@@ -3118,9 +3121,9 @@ The source supplies:
 
 ```
 
----
+______________________________________________________________________
 
-# 202. Related ≠ Dependency
+## 202. Related ≠ Dependency
 
 Do not convert:
 
@@ -3136,9 +3139,9 @@ DEPENDS_ON
 
 without explicit binding.
 
----
+______________________________________________________________________
 
-# 203. MOC
+## 203. MOC
 
 The source supplies:
 
@@ -3150,11 +3153,11 @@ as its MOC.
 
 This supports indexing/navigation.
 
----
+______________________________________________________________________
 
-# 204. Proposed Relations
+## 204. Proposed Relations
 
-> [!warning] PROPOSED
+> [!WARNING] PROPOSED
 
 ```yaml
 RSCF_RELATIONS:
@@ -3168,25 +3171,25 @@ RSCF_RELATIONS:
 
 These relation labels are inferred from the source formatting.
 
----
+______________________________________________________________________
 
-# 205. `SYSTEM_SCAN_AGENT` Relationship
+## 205. `SYSTEM_SCAN_AGENT` Relationship
 
 A scan agent might plausibly provide system/runtime evidence.
 
 But the link alone does not establish that role in this kernel contract.
 
----
+______________________________________________________________________
 
-# 206. `AUTOMATION_PROFILES` Relationship
+## 206. `AUTOMATION_PROFILES` Relationship
 
 Automation profiles might plausibly constrain tool/action execution.
 
 Again, the relation is not defined.
 
----
+______________________________________________________________________
 
-# 207. `AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS`
+## 207. `AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS`
 
 The artifact may provide mathematical foundations relevant to the kernel.
 
@@ -3198,17 +3201,17 @@ RelatedLink
 FormalDependency
 $$
 
----
+______________________________________________________________________
 
-# 208. Kernel MOC Role
+## 208. Kernel MOC Role
 
-`` is the strongest explicit organizational parent/index reference.
+\`\` is the strongest explicit organizational parent/index reference.
 
 Do not infer operational parentage unless MOC semantics establish it.
 
----
+______________________________________________________________________
 
-# 209. Agent Contract State Machine
+## 209. Agent Contract State Machine
 
 A derived state machine:
 
@@ -3234,9 +3237,9 @@ FINALIZATION
 COMMITTED / BOUNDED
 ```
 
----
+______________________________________________________________________
 
-# 210. Failure Branches
+## 210. Failure Branches
 
 Possible branches:
 
@@ -3250,9 +3253,9 @@ UNAUTHORIZED
 
 Only `FAIL`, `MODEL`, `VERIFIED`, and `COMPETING` appear explicitly in this source. `UNKNOWN/GAP` and `CONDITIONAL` are established by the adjacent execution-kernel source; `UNAUTHORIZED` is DERIVED.
 
----
+______________________________________________________________________
 
-# 211. Agent State Diagram
+## 211. Agent State Diagram
 
 ```mermaid
 stateDiagram-v2
@@ -3284,24 +3287,24 @@ stateDiagram-v2
 
 DERIVED topology.
 
----
+______________________________________________________________________
 
-# 212. Model ABI Contract — Formal Compression
+## 212. Model ABI Contract — Formal Compression
 
 Let:
 
-- \(T\) = task;
-- \(K\) = kernel;
-- \(S\) = selected skills;
-- \(U\) = selected tools;
-- \(B\) = budget;
-- \(C\) = admitted context handles;
-- \(M\) = model cognitive worker;
-- \(O\) = typed outputs;
-- \(P\) = proof engine;
-- \(Y\) = policy engine;
-- \(X\) = transaction manager;
-- \(F\) = finalizer.
+- (T) = task;
+- (K) = kernel;
+- (S) = selected skills;
+- (U) = selected tools;
+- (B) = budget;
+- (C) = admitted context handles;
+- (M) = model cognitive worker;
+- (O) = typed outputs;
+- (P) = proof engine;
+- (Y) = policy engine;
+- (X) = transaction manager;
+- (F) = finalizer.
 
 Then:
 
@@ -3336,11 +3339,11 @@ CommitAllowed
 \Phi(P,Y,X,F,O)
 $$
 
-where \(\Phi\) is **UNKNOWN/GAP**.
+where (\\Phi) is **UNKNOWN/GAP**.
 
----
+______________________________________________________________________
 
-# 213. Do Not Invent \(\Phi\)
+## 213. Do Not Invent (\\Phi)
 
 The source does not establish:
 
@@ -3352,9 +3355,9 @@ nor a particular order.
 
 Therefore the exact commit decision function remains unresolved.
 
----
+______________________________________________________________________
 
-# 214. Access Equation
+## 214. Access Equation
 
 $$
 ContextRead(M)
@@ -3364,9 +3367,9 @@ $$
 
 DERIVED from source wording.
 
----
+______________________________________________________________________
 
-# 215. Tool Equation
+## 215. Tool Equation
 
 A strong derived constraint:
 
@@ -3376,9 +3379,9 @@ Execute(M,Tool)
 AuthorityToken(Tool)
 $$
 
----
+______________________________________________________________________
 
-# 216. Memory Equation
+## 216. Memory Equation
 
 $$
 DirectPersistentMutation(M)=Forbidden
@@ -3386,9 +3389,9 @@ $$
 
 This is source-grounded.
 
----
+______________________________________________________________________
 
-# 217. Epistemic Promotion Equation
+## 217. Epistemic Promotion Equation
 
 $$
 MODEL
@@ -3396,9 +3399,9 @@ MODEL
 VERIFIED
 $$
 
----
+______________________________________________________________________
 
-# 218. Competing Hypothesis Equation
+## 218. Competing Hypothesis Equation
 
 $$
 COMPETING(H_1,H_2)
@@ -3408,9 +3411,9 @@ COMPETING(H_1,H_2)
 PreserveCOMPETING
 $$
 
----
+______________________________________________________________________
 
-# 219. Provenance Equation
+## 219. Provenance Equation
 
 $$
 Correlation(E_1,E_2)
@@ -3418,9 +3421,9 @@ Correlation(E_1,E_2)
 \neg AssumeIndependent(E_1,E_2)
 $$
 
----
+______________________________________________________________________
 
-# 220. Runtime Guarantee Equation
+## 220. Runtime Guarantee Equation
 
 $$
 ClaimedDistributedGuarantee
@@ -3428,9 +3431,9 @@ ClaimedDistributedGuarantee
 ImplementedHostGuarantees
 $$
 
----
+______________________________________________________________________
 
-# 221. Gate Equation
+## 221. Gate Equation
 
 $$
 Gate=FAIL
@@ -3438,9 +3441,9 @@ Gate=FAIL
 Bypass=Forbidden
 $$
 
----
+______________________________________________________________________
 
-# 222. Model Authority Envelope
+## 222. Model Authority Envelope
 
 A derived authority envelope:
 
@@ -3466,9 +3469,9 @@ SelfVerification
 GateOverride
 $$
 
----
+______________________________________________________________________
 
-# 223. Kernel Authority Envelope
+## 223. Kernel Authority Envelope
 
 A derived kernel-side envelope includes:
 
@@ -3484,9 +3487,9 @@ finality
 
 Exact component ownership remains partially unresolved.
 
----
+______________________________________________________________________
 
-# 224. Model vs Kernel Matrix
+## 224. Model vs Kernel Matrix
 
 | Function                                |   Model |           Kernel-side authority |
 | --------------------------------------- | ------: | ------------------------------: |
@@ -3507,9 +3510,9 @@ Exact component ownership remains partially unresolved.
 | Execute unauthorized tool               |      No |        Token authority required |
 | Claim unsupported host guarantees       |      No |                              No |
 
----
+______________________________________________________________________
 
-# 225. Proof Engine vs Model
+## 225. Proof Engine vs Model
 
 The model may generate an argument.
 
@@ -3523,9 +3526,9 @@ ReasoningGeneration
 ProofAdmission
 $$
 
----
+______________________________________________________________________
 
-# 226. Policy Engine vs Model
+## 226. Policy Engine vs Model
 
 The model may identify an action as useful.
 
@@ -3539,9 +3542,9 @@ Useful
 Permitted
 $$
 
----
+______________________________________________________________________
 
-# 227. Transaction Manager vs Model
+## 227. Transaction Manager vs Model
 
 The model may propose a state change.
 
@@ -3555,9 +3558,9 @@ ProposedMutation
 CommittedMutation
 $$
 
----
+______________________________________________________________________
 
-# 228. Finalizer vs Model
+## 228. Finalizer vs Model
 
 The model may generate a candidate result.
 
@@ -3571,9 +3574,9 @@ CandidateResult
 FinalResult
 $$
 
----
+______________________________________________________________________
 
-# 229. Proof ≠ Policy
+## 229. Proof ≠ Policy
 
 A claim can be factually supported but policy-disallowed as an action.
 
@@ -3585,9 +3588,9 @@ ProofPass
 PolicyPass
 $$
 
----
+______________________________________________________________________
 
-# 230. Policy ≠ Proof
+## 230. Policy ≠ Proof
 
 An action can be policy-permitted while based on a false claim.
 
@@ -3599,9 +3602,9 @@ PolicyPass
 ProofPass
 $$
 
----
+______________________________________________________________________
 
-# 231. Transaction ≠ Proof
+## 231. Transaction ≠ Proof
 
 A transaction can execute atomically while containing epistemically wrong data.
 
@@ -3611,9 +3614,9 @@ TransactionSuccess
 Truth
 $$
 
----
+______________________________________________________________________
 
-# 232. Finality ≠ Truth
+## 232. Finality ≠ Truth
 
 Finalized state is not automatically epistemically verified.
 
@@ -3625,21 +3628,21 @@ $$
 
 unless finalization semantics explicitly include proof status.
 
----
+______________________________________________________________________
 
-# 233. Authority ≠ Proof
+## 233. Authority ≠ Proof
 
 An authority token allows action; it does not establish factual correctness.
 
----
+______________________________________________________________________
 
-# 234. Context Admission ≠ Proof
+## 234. Context Admission ≠ Proof
 
 Admitted context remains evidence requiring appropriate classification.
 
----
+______________________________________________________________________
 
-# 235. Complete Type Firewall
+## 235. Complete Type Firewall
 
 ```text
 CONTEXT
@@ -3673,9 +3676,9 @@ VERIFICATION
 
 This is a highly useful DERIVED kernel invariant.
 
----
+______________________________________________________________________
 
-# 236. Epistemic Type Firewall
+## 236. Epistemic Type Firewall
 
 ```text
 SOURCE_CLAIM
@@ -3693,9 +3696,9 @@ UNKNOWN
 
 No execution stage should erase these distinctions.
 
----
+______________________________________________________________________
 
-# 237. Conclusion Classes
+## 237. Conclusion Classes
 
 Within the broader current AMOS lineage:
 
@@ -3716,43 +3719,43 @@ VERIFIED
 COMPETING
 ```
 
----
+______________________________________________________________________
 
-# 238. MODEL Ceiling
+## 238. MODEL Ceiling
 
 A MODEL may be useful, internally coherent, predictive, elegant, or source-canonical while remaining MODEL.
 
----
+______________________________________________________________________
 
-# 239. VERIFIED Scope
+## 239. VERIFIED Scope
 
 A VERIFIED conclusion must remain bounded to the scope in which verification applies.
 
----
+______________________________________________________________________
 
-# 240. COMPETING Preservation
+## 240. COMPETING Preservation
 
 COMPETING is not a failure of reasoning.
 
 It is sometimes the correct result.
 
----
+______________________________________________________________________
 
-# 241. UNKNOWN/GAP Preservation
+## 241. UNKNOWN/GAP Preservation
 
 The adjacent execution-kernel artifact establishes UNKNOWN/GAP as an appropriate gate-failure result.
 
 This complements the present artifact's non-fabrication constraints.
 
----
+______________________________________________________________________
 
-# 242. CONDITIONAL Preservation
+## 242. CONDITIONAL Preservation
 
 Likewise, a result dependent on an unresolved premise should remain conditional.
 
----
+______________________________________________________________________
 
-# 243. Proof Capsule — Model Role
+## 243. Proof Capsule — Model Role
 
 ```yaml
 claim:
@@ -3773,9 +3776,9 @@ does_not_establish:
   - model provider topology
 ```
 
----
+______________________________________________________________________
 
-# 244. Proof Capsule — Context Admission
+## 244. Proof Capsule — Context Admission
 
 ```yaml
 claim:
@@ -3795,9 +3798,9 @@ unknowns:
   - revocation
 ```
 
----
+______________________________________________________________________
 
-# 245. Proof Capsule — Typed Outputs
+## 245. Proof Capsule — Typed Outputs
 
 ```yaml
 claim:
@@ -3815,9 +3818,9 @@ unknowns:
   - validation rules
 ```
 
----
+______________________________________________________________________
 
-# 246. Proof Capsule — Commit Separation
+## 246. Proof Capsule — Commit Separation
 
 ```yaml
 claim:
@@ -3836,9 +3839,9 @@ confidence_ceiling:
     remains unknown.
 ```
 
----
+______________________________________________________________________
 
-# 247. Proof Capsule — FAIL
+## 247. Proof Capsule — FAIL
 
 ```yaml
 claim:
@@ -3853,9 +3856,9 @@ scope:
   AMOS OS Agent Contract
 ```
 
----
+______________________________________________________________________
 
-# 248. Proof Capsule — MODEL Promotion
+## 248. Proof Capsule — MODEL Promotion
 
 ```yaml
 claim:
@@ -3870,9 +3873,9 @@ does_not_mean:
   - models can never be externally verified
 ```
 
----
+______________________________________________________________________
 
-# 249. Proof Capsule — COMPETING
+## 249. Proof Capsule — COMPETING
 
 ```yaml
 claim:
@@ -3885,9 +3888,9 @@ evidence:
   - explicit prohibition
 ```
 
----
+______________________________________________________________________
 
-# 250. Proof Capsule — Correlated Evidence
+## 250. Proof Capsule — Correlated Evidence
 
 ```yaml
 claim:
@@ -3902,9 +3905,9 @@ implication:
   provenance_topology_is_decision_relevant
 ```
 
----
+______________________________________________________________________
 
-# 251. Proof Capsule — Persistent Memory
+## 251. Proof Capsule — Persistent Memory
 
 ```yaml
 claim:
@@ -3919,9 +3922,9 @@ unknown:
   authorized_memory_mutation_protocol
 ```
 
----
+______________________________________________________________________
 
-# 252. Proof Capsule — Authority Tokens
+## 252. Proof Capsule — Authority Tokens
 
 ```yaml
 claim:
@@ -3941,9 +3944,9 @@ unknowns:
   - delegation
 ```
 
----
+______________________________________________________________________
 
-# 253. Proof Capsule — Distributed Guarantees
+## 253. Proof Capsule — Distributed Guarantees
 
 ```yaml
 claim:
@@ -3962,9 +3965,9 @@ implication:
     implementation evidence.
 ```
 
----
+______________________________________________________________________
 
-# 254. Critical Gap Register
+## 254. Critical Gap Register
 
 ## CRITICAL
 
@@ -3979,9 +3982,9 @@ Authority-token protocol
 Persistent-memory mutation protocol
 ```
 
----
+______________________________________________________________________
 
-# 255. Decision-Relevant Gaps
+## 255. Decision-Relevant Gaps
 
 ```text
 nontrivial-task classification
@@ -3999,9 +4002,9 @@ COMPETING discrimination standard
 provenance independence algorithm
 ```
 
----
+______________________________________________________________________
 
-# 256. Explanatory Gaps
+## 256. Explanatory Gaps
 
 ```text
 ABI acronym intended semantics
@@ -4014,17 +4017,17 @@ relationship to SYSTEM_SCAN_AGENT
 relationship to AUTOMATION_PROFILES
 ```
 
----
+______________________________________________________________________
 
-# 257. Cosmetic Gaps
+## 257. Cosmetic Gaps
 
 No material mathematical corruption appears in the supplied source.
 
 Escaped underscores and hyphens are transmission formatting only.
 
----
+______________________________________________________________________
 
-# 258. Competing Hypothesis — ABI
+## 258. Competing Hypothesis — ABI
 
 ### H1
 
@@ -4048,9 +4051,9 @@ Status:
 COMPETING
 ```
 
----
+______________________________________________________________________
 
-# 259. Competing Hypothesis — Budget
+## 259. Competing Hypothesis — Budget
 
 ### H1
 
@@ -4080,9 +4083,9 @@ UNKNOWN/GAP
 
 No candidate has sufficient discriminating support.
 
----
+______________________________________________________________________
 
-# 260. Competing Hypothesis — Context Handles
+## 260. Competing Hypothesis — Context Handles
 
 ### H1
 
@@ -4110,9 +4113,9 @@ Status:
 COMPETING
 ```
 
----
+______________________________________________________________________
 
-# 261. Competing Hypothesis — Commit Topology
+## 261. Competing Hypothesis — Commit Topology
 
 ### H1
 
@@ -4140,9 +4143,9 @@ Status:
 COMPETING
 ```
 
----
+______________________________________________________________________
 
-# 262. Competing Hypothesis — Authority Issuer
+## 262. Competing Hypothesis — Authority Issuer
 
 The source requires authority tokens but does not identify issuer.
 
@@ -4162,9 +4165,9 @@ Status:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 263. Competing Hypothesis — Persistent Memory Owner
+## 263. Competing Hypothesis — Persistent Memory Owner
 
 Candidates:
 
@@ -4178,9 +4181,9 @@ external host store
 
 No source discrimination.
 
----
+______________________________________________________________________
 
-# 264. Competing Hypothesis — Finalizer
+## 264. Competing Hypothesis — Finalizer
 
 The finalizer might:
 
@@ -4192,9 +4195,9 @@ The finalizer might:
 
 None is established here.
 
----
+______________________________________________________________________
 
-# 265. Cross-Artifact Binding — Atomic RSCF
+## 265. Cross-Artifact Binding — Atomic RSCF
 
 The previous artifact says:
 
@@ -4218,9 +4221,9 @@ $$
 
 But identity remains unverified without an explicit binding.
 
----
+______________________________________________________________________
 
-# 266. Cross-Artifact Binding — Final Gates
+## 266. Cross-Artifact Binding — Final Gates
 
 Previous artifact:
 
@@ -4248,9 +4251,9 @@ Classification:
 MODEL / DERIVED
 ```
 
----
+______________________________________________________________________
 
-# 267. Cross-Artifact Binding — Router
+## 267. Cross-Artifact Binding — Router
 
 Previous artifact explicitly names router.
 
@@ -4265,9 +4268,9 @@ This is consistent with router-mediated selection.
 
 But the current source does not explicitly mention router.
 
----
+______________________________________________________________________
 
-# 268. Cross-Artifact Binding — TaskSpec
+## 268. Cross-Artifact Binding — TaskSpec
 
 Previous artifact requires:
 
@@ -4293,9 +4296,9 @@ $$
 
 but not directly established here.
 
----
+______________________________________________________________________
 
-# 269. Cross-Artifact Binding — Typed Results
+## 269. Cross-Artifact Binding — Typed Results
 
 Previous artifact requires:
 
@@ -4323,9 +4326,9 @@ Classification:
 DERIVED
 ```
 
----
+______________________________________________________________________
 
-# 270. Cross-Artifact Binding — FAIL
+## 270. Cross-Artifact Binding — FAIL
 
 The two artifacts strongly converge:
 
@@ -4347,9 +4350,9 @@ VisibleExecutionOrEpistemicConsequence
 }
 $$
 
----
+______________________________________________________________________
 
-# 271. Cross-Artifact Binding — COMPETING
+## 271. Cross-Artifact Binding — COMPETING
 
 Current artifact explicitly forbids unsupported merging.
 
@@ -4363,23 +4366,23 @@ NoDiscriminator
 Return/Preserve\ COMPETING
 $$
 
----
+______________________________________________________________________
 
-# 272. Cross-Artifact Binding — UNKNOWN/GAP
+## 272. Cross-Artifact Binding — UNKNOWN/GAP
 
 If context/authority/proof required for a conclusion is absent, the previous kernel contract supplies `UNKNOWN/GAP` as the appropriate bounded result class.
 
----
+______________________________________________________________________
 
-# 273. Cross-Artifact Binding — Atomicity
+## 273. Cross-Artifact Binding — Atomicity
 
 The current transaction-manager boundary provides an architectural location where the previous artifact's atomic RSCF rule could be enforced.
 
 This is a strong structural correspondence, not proof of implementation.
 
----
+______________________________________________________________________
 
-# 274. Cross-Artifact Combined Kernel
+## 274. Cross-Artifact Combined Kernel
 
 A source-aware conceptual stack:
 
@@ -4409,9 +4412,9 @@ Bounded Result / Persistent State
 
 DERIVED.
 
----
+______________________________________________________________________
 
-# 275. Relation to RSCF
+## 275. Relation to RSCF
 
 The current body does not explicitly mention RSCF.
 
@@ -4424,9 +4427,9 @@ rscf:
 
 Therefore do not infer that every typed claim is automatically an RSCF.
 
----
+______________________________________________________________________
 
-# 276. Typed Claim ≠ RSCF
+## 276. Typed Claim ≠ RSCF
 
 $$
 TypedClaim
@@ -4436,9 +4439,9 @@ $$
 
 unless a compiler/binding transforms it.
 
----
+______________________________________________________________________
 
-# 277. Evidence ≠ RSCF
+## 277. Evidence ≠ RSCF
 
 Likewise:
 
@@ -4448,9 +4451,9 @@ TypedEvidence
 RSCF
 $$
 
----
+______________________________________________________________________
 
-# 278. Action ≠ RSCF
+## 278. Action ≠ RSCF
 
 $$
 TypedAction
@@ -4458,9 +4461,9 @@ TypedAction
 RSCF
 $$
 
----
+______________________________________________________________________
 
-# 279. Candidate RSCF Compilation
+## 279. Candidate RSCF Compilation
 
 A plausible later pipeline is:
 
@@ -4474,9 +4477,9 @@ Typed outputs
 
 but this remains MODEL until a binding artifact confirms it.
 
----
+______________________________________________________________________
 
-# 280. ULK × RSCF Correspondence
+## 280. ULK × RSCF Correspondence
 
 Previously supplied `ULK_X_RSCF` says ALU transformations generate verifiable RSCF proof capsules.
 
@@ -4491,9 +4494,9 @@ possible architectural correspondence
 not identity
 ```
 
----
+______________________________________________________________________
 
-# 281. Proof Capsule vs Hidden State
+## 281. Proof Capsule vs Hidden State
 
 The current requirement to return typed outputs instead of hidden state aligns strongly with RSCF proof-capsule philosophy.
 
@@ -4510,9 +4513,9 @@ receipt
 
 without exposing hidden chain-of-thought.
 
----
+______________________________________________________________________
 
-# 282. H/M/L Compatibility
+## 282. H/M/L Compatibility
 
 The previously supplied ULK × RSCF specification defines:
 
@@ -4526,9 +4529,9 @@ The present source does not mention H/M/L.
 
 Therefore no direct mapping should be asserted.
 
----
+______________________________________________________________________
 
-# 283. Potential Mapping
+## 283. Potential Mapping
 
 A possible model:
 
@@ -4546,9 +4549,9 @@ MODEL
 
 without binding evidence.
 
----
+______________________________________________________________________
 
-# 284. Security Boundary Summary
+## 284. Security Boundary Summary
 
 The contract creates three strong capability boundaries:
 
@@ -4570,9 +4573,9 @@ authority tokens
 no direct persistent mutation
 ```
 
----
+______________________________________________________________________
 
-# 285. Epistemic Boundary Summary
+## 285. Epistemic Boundary Summary
 
 It creates three strong epistemic boundaries:
 
@@ -4582,9 +4585,9 @@ COMPETING != RESOLVED
 CORRELATED != INDEPENDENT
 ```
 
----
+______________________________________________________________________
 
-# 286. Runtime Boundary Summary
+## 286. Runtime Boundary Summary
 
 It creates one explicit runtime-truth boundary:
 
@@ -4594,9 +4597,9 @@ conceptual distributed guarantee
 implemented host guarantee
 ```
 
----
+______________________________________________________________________
 
-# 287. Gate Boundary Summary
+## 287. Gate Boundary Summary
 
 It creates one explicit control boundary:
 
@@ -4604,9 +4607,9 @@ It creates one explicit control boundary:
 FAIL != BYPASSABLE
 ```
 
----
+______________________________________________________________________
 
-# 288. Complete Kernel Firewall
+## 288. Complete Kernel Firewall
 
 $$
 \boxed{
@@ -4629,9 +4632,9 @@ $$
 
 DERIVED compression.
 
----
+______________________________________________________________________
 
-# 289. Adversarial Validation — Attack 1
+## 289. Adversarial Validation — Attack 1
 
 ### Attack
 
@@ -4651,9 +4654,9 @@ never promote MODEL to VERIFIED
 
 unless independent verification legitimately changes class through the governed path.
 
----
+______________________________________________________________________
 
-# 290. Attack 2
+## 290. Attack 2
 
 ### Attack
 
@@ -4671,9 +4674,9 @@ System reports:
 
 Violates correlated-evidence rule.
 
----
+______________________________________________________________________
 
-# 291. Attack 3
+## 291. Attack 3
 
 ### Attack
 
@@ -4691,9 +4694,9 @@ Preserve:
 COMPETING
 ```
 
----
+______________________________________________________________________
 
-# 292. Attack 4
+## 292. Attack 4
 
 ### Attack
 
@@ -4705,9 +4708,9 @@ Model discovers a useful fact and writes it directly to persistent memory.
 
 Persistent mutation must follow governed commit architecture.
 
----
+______________________________________________________________________
 
-# 293. Attack 5
+## 293. Attack 5
 
 ### Attack
 
@@ -4723,9 +4726,9 @@ Model calls it anyway because the action is low-risk.
 
 The source has no low-risk exception.
 
----
+______________________________________________________________________
 
-# 294. Attack 6
+## 294. Attack 6
 
 ### Attack
 
@@ -4741,9 +4744,9 @@ The host runtime guarantees distributed serializable atomic commits.
 
 **REJECT** absent host implementation evidence.
 
----
+______________________________________________________________________
 
-# 295. Attack 7
+## 295. Attack 7
 
 ### Attack
 
@@ -4757,9 +4760,9 @@ Model decides the gate is overly conservative and continues.
 
 Direct violation.
 
----
+______________________________________________________________________
 
-# 296. Attack 8
+## 296. Attack 8
 
 ### Attack
 
@@ -4771,9 +4774,9 @@ Model reads a context resource because it is visible in the environment, even th
 
 Visibility does not establish admission.
 
----
+______________________________________________________________________
 
-# 297. Attack 9
+## 297. Attack 9
 
 ### Attack
 
@@ -4785,9 +4788,9 @@ Model silently expands search/tool use.
 
 **REJECT** under the acceptance rule.
 
----
+______________________________________________________________________
 
-# 298. Attack 10
+## 298. Attack 10
 
 ### Attack
 
@@ -4799,9 +4802,9 @@ Model emits free-form internal hidden state as the kernel interface result.
 
 The contract requires typed claims/evidence/actions.
 
----
+______________________________________________________________________
 
-# 299. Positive Test 1 — MODEL Preservation
+## 299. Positive Test 1 — MODEL Preservation
 
 Input:
 
@@ -4817,9 +4820,9 @@ claim_class: MODEL
 
 not VERIFIED.
 
----
+______________________________________________________________________
 
-# 300. Positive Test 2 — COMPETING Preservation
+## 300. Positive Test 2 — COMPETING Preservation
 
 Input:
 
@@ -4837,9 +4840,9 @@ hypotheses:
   - H2
 ```
 
----
+______________________________________________________________________
 
-# 301. Positive Test 3 — Correlated Evidence
+## 301. Positive Test 3 — Correlated Evidence
 
 Input:
 
@@ -4857,9 +4860,9 @@ or equivalent provenance-aware representation.
 
 Exact metric is proposed.
 
----
+______________________________________________________________________
 
-# 302. Positive Test 4 — Unauthorized Tool
+## 302. Positive Test 4 — Unauthorized Tool
 
 Input:
 
@@ -4874,9 +4877,9 @@ Expected:
 DO NOT EXECUTE
 ```
 
----
+______________________________________________________________________
 
-# 303. Positive Test 5 — Memory Update
+## 303. Positive Test 5 — Memory Update
 
 Input:
 
@@ -4893,9 +4896,9 @@ propose typed mutation
 
 not direct persistence.
 
----
+______________________________________________________________________
 
-# 304. Positive Test 6 — Host Guarantee
+## 304. Positive Test 6 — Host Guarantee
 
 Input:
 
@@ -4911,9 +4914,9 @@ AMOS MODEL / SOURCE_CLAIM
 host guarantee UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 305. Positive Test 7 — FAIL
+## 305. Positive Test 7 — FAIL
 
 Input:
 
@@ -4929,9 +4932,9 @@ block governed path
 
 not caveat-and-continue.
 
----
+______________________________________________________________________
 
-# 306. Positive Test 8 — Context Admission
+## 306. Positive Test 8 — Context Admission
 
 Input:
 
@@ -4948,9 +4951,9 @@ read B
 do not read C
 ```
 
----
+______________________________________________________________________
 
-# 307. Positive Test 9 — Typed Output
+## 307. Positive Test 9 — Typed Output
 
 Expected model output conceptually:
 
@@ -4962,9 +4965,9 @@ actions: []
 
 rather than untyped hidden-state dump.
 
----
+______________________________________________________________________
 
-# 308. Positive Test 10 — Kernel Budget
+## 308. Positive Test 10 — Kernel Budget
 
 Kernel authorizes:
 
@@ -4982,9 +4985,9 @@ $$
 
 under whatever budget dimensions the runtime defines.
 
----
+______________________________________________________________________
 
-# 309. Boundary Test — Authority Token Exists but Tool Not Selected
+## 309. Boundary Test — Authority Token Exists but Tool Not Selected
 
 The source requires both accepting selected tools and having authority tokens.
 
@@ -5000,9 +5003,9 @@ do not execute without both admission/selection and authority
 
 but this remains DERIVED.
 
----
+______________________________________________________________________
 
-# 310. Boundary Test — Tool Selected but Token Expired
+## 310. Boundary Test — Tool Selected but Token Expired
 
 Expiry semantics are not supplied.
 
@@ -5010,9 +5013,9 @@ If runtime defines expiry, an expired token should not count as authority.
 
 This is general security reasoning, not source-specific canon.
 
----
+______________________________________________________________________
 
-# 311. Boundary Test — MODEL Has New Independent Evidence
+## 311. Boundary Test — MODEL Has New Independent Evidence
 
 The source prohibits the model from promoting MODEL to VERIFIED.
 
@@ -5029,9 +5032,9 @@ promotion authority remains kernel-side.
 
 This is DERIVED from role separation.
 
----
+______________________________________________________________________
 
-# 312. Boundary Test — COMPETING Becomes Resolved
+## 312. Boundary Test — COMPETING Becomes Resolved
 
 If genuinely discriminating evidence appears:
 
@@ -5044,9 +5047,9 @@ becomes permissible.
 
 The source explicitly conditions the prohibition on absence of discriminating evidence.
 
----
+______________________________________________________________________
 
-# 313. Boundary Test — Correlated but Partially Independent Evidence
+## 313. Boundary Test — Correlated but Partially Independent Evidence
 
 Evidence can have mixed ancestry.
 
@@ -5056,25 +5059,25 @@ A mature provenance topology should represent partial overlap.
 
 This is v4.4-derived.
 
----
+______________________________________________________________________
 
-# 314. Boundary Test — Persistent Memory Rollback
+## 314. Boundary Test — Persistent Memory Rollback
 
 The source prohibits direct mutation but says nothing about rollback.
 
 Transaction/finalizer definitions are needed.
 
----
+______________________________________________________________________
 
-# 315. Boundary Test — Host Runtime Partially Implements Guarantee
+## 315. Boundary Test — Host Runtime Partially Implements Guarantee
 
 If host implements only local atomicity, the model must not claim distributed atomicity.
 
 Therefore guarantees should be typed by scope.
 
----
+______________________________________________________________________
 
-# 316. Runtime Guarantee Scope
+## 316. Runtime Guarantee Scope
 
 A useful representation:
 
@@ -5092,9 +5095,9 @@ Guarantee:
 
 PROPOSED.
 
----
+______________________________________________________________________
 
-# 317. Local ≠ Distributed
+## 317. Local ≠ Distributed
 
 $$
 LocalAtomicity
@@ -5102,9 +5105,9 @@ LocalAtomicity
 DistributedAtomicity
 $$
 
----
+______________________________________________________________________
 
-# 318. Single-Process ≠ Multi-Node
+## 318. Single-Process ≠ Multi-Node
 
 $$
 SingleProcessSafety
@@ -5112,9 +5115,9 @@ SingleProcessSafety
 MultiNodeSafety
 $$
 
----
+______________________________________________________________________
 
-# 319. Simulation ≠ Implementation
+## 319. Simulation ≠ Implementation
 
 $$
 SimulatedDistributedBehavior
@@ -5122,9 +5125,9 @@ SimulatedDistributedBehavior
 DistributedRuntimeGuarantee
 $$
 
----
+______________________________________________________________________
 
-# 320. Test Pass ≠ Formal Guarantee
+## 320. Test Pass ≠ Formal Guarantee
 
 $$
 PassingTests
@@ -5132,9 +5135,9 @@ PassingTests
 UniversalFormalProof
 $$
 
----
+______________________________________________________________________
 
-# 321. Documentation ≠ Runtime Receipt
+## 321. Documentation ≠ Runtime Receipt
 
 $$
 DocumentationClaim
@@ -5142,15 +5145,15 @@ DocumentationClaim
 ObservedRuntimeBehavior
 $$
 
----
+______________________________________________________________________
 
-# 322. Runtime Receipt ≠ Universal Guarantee
+## 322. Runtime Receipt ≠ Universal Guarantee
 
 Even observed successful execution establishes only that observation's scope.
 
----
+______________________________________________________________________
 
-# 323. Host Binding Requirement
+## 323. Host Binding Requirement
 
 To claim literal runtime mechanisms, evidence should identify:
 
@@ -5167,9 +5170,9 @@ as relevant.
 
 This is PROPOSED evidence discipline.
 
----
+______________________________________________________________________
 
-# 324. Transaction Manager Firewall
+## 324. Transaction Manager Firewall
 
 The phrase:
 
@@ -5185,9 +5188,9 @@ ACID database transaction manager
 
 unless source binding establishes that.
 
----
+______________________________________________________________________
 
-# 325. Finalizer Firewall
+## 325. Finalizer Firewall
 
 The phrase:
 
@@ -5203,9 +5206,9 @@ distributed consensus finalizer
 
 without evidence.
 
----
+______________________________________________________________________
 
-# 326. Proof Engine Firewall
+## 326. Proof Engine Firewall
 
 The phrase:
 
@@ -5221,9 +5224,9 @@ formal theorem prover
 
 unless specified.
 
----
+______________________________________________________________________
 
-# 327. Policy Engine Firewall
+## 327. Policy Engine Firewall
 
 The phrase:
 
@@ -5233,9 +5236,9 @@ policy engine
 
 does not identify a particular policy language, safety system, or governance implementation.
 
----
+______________________________________________________________________
 
-# 328. Authority Token Firewall
+## 328. Authority Token Firewall
 
 The phrase:
 
@@ -5245,9 +5248,9 @@ authority token
 
 does not prove cryptographic signing.
 
----
+______________________________________________________________________
 
-# 329. Context Handle Firewall
+## 329. Context Handle Firewall
 
 The phrase:
 
@@ -5257,9 +5260,9 @@ context handle
 
 does not prove capability-security implementation.
 
----
+______________________________________________________________________
 
-# 330. ABI Firewall
+## 330. ABI Firewall
 
 The phrase:
 
@@ -5269,9 +5272,9 @@ Model ABI
 
 does not prove binary-level ABI semantics.
 
----
+______________________________________________________________________
 
-# 331. Cognitive Worker Firewall
+## 331. Cognitive Worker Firewall
 
 The phrase:
 
@@ -5283,9 +5286,9 @@ does not imply consciousness, personhood, biological cognition, or independent a
 
 It is an architectural role.
 
----
+______________________________________________________________________
 
-# 332. Worker ≠ Autonomous Authority
+## 332. Worker ≠ Autonomous Authority
 
 $$
 Worker
@@ -5295,9 +5298,9 @@ $$
 
 The rest of the source strongly reinforces this.
 
----
+______________________________________________________________________
 
-# 333. Model ≠ Kernel
+## 333. Model ≠ Kernel
 
 $$
 \boxed{
@@ -5309,9 +5312,9 @@ $$
 
 This is one of the strongest architectural conclusions.
 
----
+______________________________________________________________________
 
-# 334. Model ≠ Proof Engine
+## 334. Model ≠ Proof Engine
 
 $$
 Model
@@ -5319,9 +5322,9 @@ Model
 ProofEngine
 $$
 
----
+______________________________________________________________________
 
-# 335. Model ≠ Policy Engine
+## 335. Model ≠ Policy Engine
 
 $$
 Model
@@ -5329,9 +5332,9 @@ Model
 PolicyEngine
 $$
 
----
+______________________________________________________________________
 
-# 336. Model ≠ Transaction Manager
+## 336. Model ≠ Transaction Manager
 
 $$
 Model
@@ -5339,9 +5342,9 @@ Model
 TransactionManager
 $$
 
----
+______________________________________________________________________
 
-# 337. Model ≠ Finalizer
+## 337. Model ≠ Finalizer
 
 $$
 Model
@@ -5349,9 +5352,9 @@ Model
 Finalizer
 $$
 
----
+______________________________________________________________________
 
-# 338. Model ≠ Persistent Memory
+## 338. Model ≠ Persistent Memory
 
 $$
 Model
@@ -5359,9 +5362,9 @@ Model
 PersistentMemory
 $$
 
----
+______________________________________________________________________
 
-# 339. Model ≠ Tool Authority
+## 339. Model ≠ Tool Authority
 
 $$
 Model
@@ -5371,9 +5374,9 @@ $$
 
 The last equation is DERIVED; the source only denies unauthorized execution and does not identify issuer.
 
----
+______________________________________________________________________
 
-# 340. Model Output ≠ Commit
+## 340. Model Output ≠ Commit
 
 $$
 \boxed{
@@ -5383,9 +5386,9 @@ Commit
 }
 $$
 
----
+______________________________________________________________________
 
-# 341. Kernel Architecture as Zero-Trust-Like Model
+## 341. Kernel Architecture as Zero-Trust-Like Model
 
 The contract resembles a zero-trust architecture:
 
@@ -5405,9 +5408,9 @@ Classification:
 DERIVED ANALOGY
 ```
 
----
+______________________________________________________________________
 
-# 342. Analogy Firewall
+## 342. Analogy Firewall
 
 Do not convert:
 
@@ -5421,9 +5424,9 @@ into:
 implements Zero Trust Architecture standard X
 ```
 
----
+______________________________________________________________________
 
-# 343. Capability-Based Analogy
+## 343. Capability-Based Analogy
 
 Likewise:
 
@@ -5435,33 +5438,33 @@ resembles capability-based security.
 
 It does not prove a formal capability system.
 
----
+______________________________________________________________________
 
-# 344. Database Analogy
+## 344. Database Analogy
 
 Transaction manager + persistent memory resembles database architecture.
 
 It does not prove a database exists.
 
----
+______________________________________________________________________
 
-# 345. Compiler Analogy
+## 345. Compiler Analogy
 
 Typed outputs + ABI resemble compiler/interface architecture.
 
 It does not prove a compiler exists at this boundary.
 
----
+______________________________________________________________________
 
-# 346. Operating-System Analogy
+## 346. Operating-System Analogy
 
 Kernel/worker/authority language resembles operating-system privilege separation.
 
 It does not prove AMOS is a literal operating-system kernel.
 
----
+______________________________________________________________________
 
-# 347. OS Naming Firewall
+## 347. OS Naming Firewall
 
 `AMOS OS` is canonical source terminology.
 
@@ -5475,9 +5478,9 @@ NameContains(OS)
 ConventionalOperatingSystemImplementation
 $$
 
----
+______________________________________________________________________
 
-# 348. Kernel Naming Firewall
+## 348. Kernel Naming Firewall
 
 Likewise:
 
@@ -5487,9 +5490,9 @@ NameContains(Kernel)
 CPUPrivilegeKernel
 $$
 
----
+______________________________________________________________________
 
-# 349. ABI Naming Firewall
+## 349. ABI Naming Firewall
 
 $$
 NameContains(ABI)
@@ -5497,9 +5500,9 @@ NameContains(ABI)
 NativeBinaryCallingConvention
 $$
 
----
+______________________________________________________________________
 
-# 350. Proof Naming Firewall
+## 350. Proof Naming Firewall
 
 $$
 NameContains(Proof)
@@ -5507,9 +5510,9 @@ NameContains(Proof)
 FormalMathematicalProof
 $$
 
----
+______________________________________________________________________
 
-# 351. Transaction Naming Firewall
+## 351. Transaction Naming Firewall
 
 $$
 NameContains(Transaction)
@@ -5517,9 +5520,9 @@ NameContains(Transaction)
 ACID
 $$
 
----
+______________________________________________________________________
 
-# 352. Finality Naming Firewall
+## 352. Finality Naming Firewall
 
 $$
 NameContains(Finalizer)
@@ -5527,9 +5530,9 @@ NameContains(Finalizer)
 DistributedConsensusFinality
 $$
 
----
+______________________________________________________________________
 
-# 353. Authority Naming Firewall
+## 353. Authority Naming Firewall
 
 $$
 AuthorityToken
@@ -5537,9 +5540,9 @@ AuthorityToken
 CryptographicToken
 $$
 
----
+______________________________________________________________________
 
-# 354. Source vs Derived Separation
+## 354. Source vs Derived Separation
 
 The source directly establishes:
 
@@ -5555,9 +5558,9 @@ SOURCE_CLAIM provenance/scope
 
 Everything beyond that must remain explicitly DERIVED, MODEL, PROPOSED, COMPETING, or UNKNOWN/GAP.
 
----
+______________________________________________________________________
 
-# 355. No Empirical Claim
+## 355. No Empirical Claim
 
 The artifact does not contain empirical measurements.
 
@@ -5570,87 +5573,87 @@ authority tokens prevent all unauthorized actions
 transaction manager guarantees consistency
 ```
 
----
+______________________________________________________________________
 
-# 356. No Performance Claim
+## 356. No Performance Claim
 
 No latency, throughput, cost, benchmark, or resource figures are supplied.
 
----
+______________________________________________________________________
 
-# 357. No Security Proof
+## 357. No Security Proof
 
 The source provides security-oriented rules but no formal security proof.
 
----
+______________________________________________________________________
 
-# 358. No Formal Correctness Proof
+## 358. No Formal Correctness Proof
 
 The contract is architectural prose, not a proof that all executions satisfy the invariants.
 
----
+______________________________________________________________________
 
-# 359. No Host Verification
+## 359. No Host Verification
 
 No host runtime receipts are supplied.
 
----
+______________________________________________________________________
 
-# 360. No Distributed Verification
+## 360. No Distributed Verification
 
 No distributed test or formal distributed proof is supplied.
 
----
+______________________________________________________________________
 
-# 361. No Persistence Verification
+## 361. No Persistence Verification
 
 No persistent store implementation is supplied.
 
----
+______________________________________________________________________
 
-# 362. No Tool Authority Implementation
+## 362. No Tool Authority Implementation
 
 No token issuance/verification implementation is supplied.
 
----
+______________________________________________________________________
 
-# 363. No ABI Conformance Test
+## 363. No ABI Conformance Test
 
 No ABI test suite is supplied.
 
----
+______________________________________________________________________
 
-# 364. No Context Admission Implementation
+## 364. No Context Admission Implementation
 
 No context admission algorithm is supplied.
 
----
+______________________________________________________________________
 
-# 365. No Proof Engine Implementation
+## 365. No Proof Engine Implementation
 
 No proof engine code/spec is supplied.
 
----
+______________________________________________________________________
 
-# 366. No Policy Engine Implementation
+## 366. No Policy Engine Implementation
 
 No policy engine code/spec is supplied.
 
----
+______________________________________________________________________
 
-# 367. No Transaction Implementation
+## 367. No Transaction Implementation
 
 No transaction-manager implementation is supplied.
 
----
+______________________________________________________________________
 
-# 368. No Finalizer Implementation
+## 368. No Finalizer Implementation
 
 No finalizer implementation is supplied.
 
----
+______________________________________________________________________
 
-# 369. Minimum Executable Binding Set
+## 369. Minimum Executable Binding Set
 
 To turn this source contract into a verifiable runtime specification, the minimum high-value dependencies are:
 
@@ -5672,9 +5675,9 @@ Authority token contract
 Host runtime capability declaration
 ```
 
----
+______________________________________________________________________
 
-# 370. Retrieval Priority
+## 370. Retrieval Priority
 
 Recommended fractal retrieval:
 
@@ -5688,9 +5691,9 @@ L — exact interfaces, schemas, gates, tokens
 raw executable implementation and receipts only where needed
 ```
 
----
+______________________________________________________________________
 
-# 371. Cheapest Critical Retrieval
+## 371. Cheapest Critical Retrieval
 
 The single most valuable missing artifact is likely:
 
@@ -5706,9 +5709,9 @@ because it could discriminate:
 - authority interface;
 - worker/kernel boundary.
 
----
+______________________________________________________________________
 
-# 372. Second Retrieval Priority
+## 372. Second Retrieval Priority
 
 ```text
 Transaction Manager / Finalizer contract
@@ -5722,9 +5725,9 @@ would resolve:
 - finality;
 - rollback.
 
----
+______________________________________________________________________
 
-# 373. Third Retrieval Priority
+## 373. Third Retrieval Priority
 
 ```text
 Authority Token contract
@@ -5732,9 +5735,9 @@ Authority Token contract
 
 would resolve tool-action authority.
 
----
+______________________________________________________________________
 
-# 374. Fourth Retrieval Priority
+## 374. Fourth Retrieval Priority
 
 ```text
 Proof Engine contract
@@ -5742,9 +5745,9 @@ Proof Engine contract
 
 would resolve epistemic promotion and proof gates.
 
----
+______________________________________________________________________
 
-# 375. Fifth Retrieval Priority
+## 375. Fifth Retrieval Priority
 
 ```text
 Policy Engine contract
@@ -5752,11 +5755,11 @@ Policy Engine contract
 
 would resolve action/policy admissibility.
 
----
+______________________________________________________________________
 
-# 376. Machine-Readable Source Model
+## 376. Machine-Readable Source Model
 
-> [!warning] DERIVED REPRESENTATION
+> [!WARNING] DERIVED REPRESENTATION
 > This is a faithful machine-oriented representation of the prose contract, not recovered original JSON/YAML.
 
 ```yaml
@@ -5821,9 +5824,9 @@ AMOS_OS_AGENT_CONTRACT:
     - claim_unimplemented_distributed_host_guarantees
 ```
 
----
+______________________________________________________________________
 
-# 377. Proposed ABI Request
+## 377. Proposed ABI Request
 
 ```yaml
 ModelABIRequest:
@@ -5840,9 +5843,9 @@ ModelABIRequest:
 
 PROPOSED.
 
----
+______________________________________________________________________
 
-# 378. Proposed ABI Response
+## 378. Proposed ABI Response
 
 ```yaml
 ModelABIResponse:
@@ -5861,9 +5864,9 @@ ModelABIResponse:
 
 PROPOSED.
 
----
+______________________________________________________________________
 
-# 379. Why `requested_authority` Is Proposed
+## 379. Why `requested_authority` Is Proposed
 
 The source says the model must not execute without authority.
 
@@ -5871,17 +5874,17 @@ It does not explicitly say the model may request authority.
 
 Therefore this field is a design proposal only.
 
----
+______________________________________________________________________
 
-# 380. Why `requested_additional_context` Is Proposed
+## 380. Why `requested_additional_context` Is Proposed
 
 Likewise, the source says only admitted handles may be read.
 
 It does not define how additional context admission is requested.
 
----
+______________________________________________________________________
 
-# 381. Proposed Claim Type
+## 381. Proposed Claim Type
 
 ```yaml
 TypedClaim:
@@ -5905,9 +5908,9 @@ TypedClaim:
   confidence_ceiling:
 ```
 
----
+______________________________________________________________________
 
-# 382. Proposed Evidence Type
+## 382. Proposed Evidence Type
 
 ```yaml
 TypedEvidence:
@@ -5925,9 +5928,9 @@ TypedEvidence:
   correlation_group:
 ```
 
----
+______________________________________________________________________
 
-# 383. Proposed Action Type
+## 383. Proposed Action Type
 
 ```yaml
 TypedAction:
@@ -5944,9 +5947,9 @@ TypedAction:
   supporting_claim_refs: []
 ```
 
----
+______________________________________________________________________
 
-# 384. Proposed FAIL Type
+## 384. Proposed FAIL Type
 
 ```yaml
 GateResult:
@@ -5964,9 +5967,9 @@ GateResult:
 
 Only PASS/FAIL naming is partly inferred; source explicitly names FAIL only.
 
----
+______________________________________________________________________
 
-# 385. Proposed Commit Candidate
+## 385. Proposed Commit Candidate
 
 ```yaml
 CommitCandidate:
@@ -5983,9 +5986,9 @@ CommitCandidate:
 
 PROPOSED.
 
----
+______________________________________________________________________
 
-# 386. Atomicity Extension
+## 386. Atomicity Extension
 
 From the adjacent execution-kernel artifact:
 
@@ -6004,9 +6007,9 @@ CommitAll
 CommitNone
 $$
 
----
+______________________________________________________________________
 
-# 387. Atomicity ≠ Distributed Atomicity
+## 387. Atomicity ≠ Distributed Atomicity
 
 Even if the transaction manager implements atomic local state transition:
 
@@ -6018,9 +6021,9 @@ $$
 
 This is directly relevant to the source's host-runtime prohibition.
 
----
+______________________________________________________________________
 
-# 388. Host Runtime Capability Manifest — Proposed
+## 388. Host Runtime Capability Manifest — Proposed
 
 A strong anti-fabrication mechanism would expose:
 
@@ -6050,9 +6053,9 @@ HostRuntimeCapabilities:
 
 Values above are illustrative placeholders, **not claims about the actual host**.
 
----
+______________________________________________________________________
 
-# 389. Why Capability Manifest Matters
+## 389. Why Capability Manifest Matters
 
 Then the model could enforce:
 
@@ -6064,9 +6067,9 @@ $$
 
 This is PROPOSED.
 
----
+______________________________________________________________________
 
-# 390. Proof Engine Input — Proposed
+## 390. Proof Engine Input — Proposed
 
 ```yaml
 ProofEngineInput:
@@ -6077,9 +6080,9 @@ ProofEngineInput:
   regime:
 ```
 
----
+______________________________________________________________________
 
-# 391. Proof Engine Output — Proposed
+## 391. Proof Engine Output — Proposed
 
 ```yaml
 ProofEngineResult:
@@ -6090,9 +6093,9 @@ ProofEngineResult:
   unresolved_gaps: []
 ```
 
----
+______________________________________________________________________
 
-# 392. Policy Engine Input — Proposed
+## 392. Policy Engine Input — Proposed
 
 ```yaml
 PolicyEngineInput:
@@ -6102,9 +6105,9 @@ PolicyEngineInput:
   caller_scope:
 ```
 
----
+______________________________________________________________________
 
-# 393. Policy Engine Output — Proposed
+## 393. Policy Engine Output — Proposed
 
 ```yaml
 PolicyEngineResult:
@@ -6113,9 +6116,9 @@ PolicyEngineResult:
   conditions: []
 ```
 
----
+______________________________________________________________________
 
-# 394. Transaction Manager Input — Proposed
+## 394. Transaction Manager Input — Proposed
 
 ```yaml
 TransactionRequest:
@@ -6124,9 +6127,9 @@ TransactionRequest:
   expected_versions: {}
 ```
 
----
+______________________________________________________________________
 
-# 395. Transaction Manager Output — Proposed
+## 395. Transaction Manager Output — Proposed
 
 ```yaml
 TransactionResult:
@@ -6139,9 +6142,9 @@ TransactionResult:
   receipt:
 ```
 
----
+______________________________________________________________________
 
-# 396. Finalizer Input — Proposed
+## 396. Finalizer Input — Proposed
 
 ```yaml
 FinalizerInput:
@@ -6151,9 +6154,9 @@ FinalizerInput:
   candidate_output:
 ```
 
----
+______________________________________________________________________
 
-# 397. Finalizer Output — Proposed
+## 397. Finalizer Output — Proposed
 
 ```yaml
 FinalizedResult:
@@ -6163,17 +6166,17 @@ FinalizedResult:
   invalidation_conditions: []
 ```
 
----
+______________________________________________________________________
 
-# 398. No Canonical Component Order Yet
+## 398. No Canonical Component Order Yet
 
 All proposed component schemas above are useful implementation scaffolding.
 
 None should be mistaken for recovered AMOS source canon.
 
----
+______________________________________________________________________
 
-# 399. Obsidian Atomic Note — Model ABI
+## 399. Obsidian Atomic Note — Model ABI
 
 ```markdown
 ---
@@ -6182,7 +6185,7 @@ type: concept
 epistemic_class: DERIVED
 ---
 
-# AMOS Model ABI
+## AMOS Model ABI
 
 Source-defined boundary behind which the model operates as a
 "cognitive worker" in .
@@ -6192,9 +6195,9 @@ Exact ABI schema: UNKNOWN/GAP.
 
 PROPOSED note.
 
----
+______________________________________________________________________
 
-# 400. Obsidian Atomic Note — Context Admission
+## 400. Obsidian Atomic Note — Context Admission
 
 ```markdown
 ---
@@ -6203,7 +6206,7 @@ type: concept
 epistemic_class: DERIVED
 ---
 
-# AMOS Context Admission
+## AMOS Context Admission
 
 The model may read only context handles admitted for the
 nontrivial task.
@@ -6211,9 +6214,9 @@ nontrivial task.
 
 ```
 
----
+______________________________________________________________________
 
-# 401. Obsidian Atomic Note — Authority Tokens
+## 401. Obsidian Atomic Note — Authority Tokens
 
 ```markdown
 ---
@@ -6222,7 +6225,7 @@ type: concept
 epistemic_class: SOURCE_CLAIM
 ---
 
-# AMOS Authority Tokens
+## AMOS Authority Tokens
 
  prohibits tool execution without
 authority tokens.
@@ -6230,9 +6233,9 @@ authority tokens.
 Exact token protocol: UNKNOWN/GAP.
 ```
 
----
+______________________________________________________________________
 
-# 402. Obsidian Atomic Note — Persistent Memory Firewall
+## 402. Obsidian Atomic Note — Persistent Memory Firewall
 
 ```markdown
 ---
@@ -6241,7 +6244,7 @@ type: governance
 epistemic_class: DERIVED
 ---
 
-# AMOS Persistent Memory Firewall
+## AMOS Persistent Memory Firewall
 
 Model-side direct persistent-memory mutation is prohibited by
 .
@@ -6249,9 +6252,9 @@ Model-side direct persistent-memory mutation is prohibited by
 Authorized mutation path: UNKNOWN/GAP.
 ```
 
----
+______________________________________________________________________
 
-# 403. Obsidian Atomic Note — Epistemic Promotion Firewall
+## 403. Obsidian Atomic Note — Epistemic Promotion Firewall
 
 ```markdown
 ---
@@ -6260,7 +6263,7 @@ type: governance
 epistemic_class: DERIVED
 ---
 
-# AMOS Epistemic Promotion Firewall
+## AMOS Epistemic Promotion Firewall
 
 `MODEL` must not be promoted to `VERIFIED` by the model
 without the governed validation path.
@@ -6268,9 +6271,9 @@ without the governed validation path.
 
 ```
 
----
+______________________________________________________________________
 
-# 404. Obsidian Atomic Note — Competing Hypothesis Firewall
+## 404. Obsidian Atomic Note — Competing Hypothesis Firewall
 
 ```markdown
 ---
@@ -6279,7 +6282,7 @@ type: governance
 epistemic_class: DERIVED
 ---
 
-# AMOS Competing Hypothesis Firewall
+## AMOS Competing Hypothesis Firewall
 
 `COMPETING` hypotheses remain competing until discriminating
 evidence exists.
@@ -6287,9 +6290,9 @@ evidence exists.
 
 ```
 
----
+______________________________________________________________________
 
-# 405. Obsidian Atomic Note — Provenance Independence Firewall
+## 405. Obsidian Atomic Note — Provenance Independence Firewall
 
 ```markdown
 ---
@@ -6298,7 +6301,7 @@ type: governance
 epistemic_class: DERIVED
 ---
 
-# AMOS Provenance Independence Firewall
+## AMOS Provenance Independence Firewall
 
 Correlated evidence must not be represented as independent
 confirmation.
@@ -6306,9 +6309,9 @@ confirmation.
 
 ```
 
----
+______________________________________________________________________
 
-# 406. Obsidian Atomic Note — Host Runtime Firewall
+## 406. Obsidian Atomic Note — Host Runtime Firewall
 
 ```markdown
 ---
@@ -6317,7 +6320,7 @@ type: governance
 epistemic_class: DERIVED
 ---
 
-# AMOS Host Runtime Guarantee Firewall
+## AMOS Host Runtime Guarantee Firewall
 
 AMOS conceptual mechanisms must not be represented as
 distributed host-runtime guarantees unless the host actually
@@ -6326,11 +6329,11 @@ implements those guarantees.
 
 ```
 
----
+______________________________________________________________________
 
-# 407. Dataview — Kernel Corpus
+## 407. Dataview — Kernel Corpus
 
-```dataview
+```text
 TABLE
   file.link AS Artifact,
   type,
@@ -6341,11 +6344,11 @@ FROM "11_KNOWLEDGE/kernel"
 SORT file.name ASC
 ```
 
----
+______________________________________________________________________
 
-# 408. Dataview — Kernel Source Claims
+## 408. Dataview — Kernel Source Claims
 
-```dataview
+```text
 TABLE
   file.link AS Artifact,
   rscf.provenance AS Provenance,
@@ -6355,11 +6358,11 @@ WHERE rscf.state = "SOURCE_CLAIM"
 SORT file.name ASC
 ```
 
----
+______________________________________________________________________
 
-# 409. Dataview — Runtime-Tagged Kernel Artifacts
+## 409. Dataview — Runtime-Tagged Kernel Artifacts
 
-```dataview
+```text
 TABLE
   file.link AS Artifact,
   source,
@@ -6370,9 +6373,9 @@ WHERE contains(tags, "kernel")
 SORT file.name ASC
 ```
 
----
+______________________________________________________________________
 
-# 410. Mermaid — Trust Boundary
+## 410. Mermaid — Trust Boundary
 
 ```mermaid
 flowchart LR
@@ -6401,9 +6404,9 @@ flowchart LR
 
 DERIVED.
 
----
+______________________________________________________________________
 
-# 411. Mermaid — Context Authority
+## 411. Mermaid — Context Authority
 
 ```mermaid
 flowchart TD
@@ -6421,9 +6424,9 @@ flowchart TD
 
 DERIVED.
 
----
+______________________________________________________________________
 
-# 412. Mermaid — Tool Authority
+## 412. Mermaid — Tool Authority
 
 ```mermaid
 flowchart TD
@@ -6442,9 +6445,9 @@ flowchart TD
 
 The conjunction is DERIVED.
 
----
+______________________________________________________________________
 
-# 413. Mermaid — Memory Firewall
+## 413. Mermaid — Memory Firewall
 
 ```mermaid
 flowchart LR
@@ -6466,9 +6469,9 @@ flowchart LR
 
 DERIVED.
 
----
+______________________________________________________________________
 
-# 414. Mermaid — Epistemic States
+## 414. Mermaid — Epistemic States
 
 ```mermaid
 flowchart LR
@@ -6480,9 +6483,9 @@ flowchart LR
     C -. "no merge without discriminator" .-> V
 ```
 
----
+______________________________________________________________________
 
-# 415. Mermaid — Provenance Topology
+## 415. Mermaid — Provenance Topology
 
 ```mermaid
 flowchart TD
@@ -6503,9 +6506,9 @@ flowchart TD
     G --> R["Correlated ancestry preserved"]
 ```
 
----
+______________________________________________________________________
 
-# 416. Mermaid — Host Runtime Firewall
+## 416. Mermaid — Host Runtime Firewall
 
 ```mermaid
 flowchart TD
@@ -6520,9 +6523,9 @@ flowchart TD
     Q -->|Unknown / No| U[Do not claim guarantee]
 ```
 
----
+______________________________________________________________________
 
-# 417. Kernel Law 1 — Worker Separation
+## 417. Kernel Law 1 — Worker Separation
 
 $$
 \boxed{
@@ -6532,9 +6535,9 @@ $$
 
 not sovereign kernel.
 
----
+______________________________________________________________________
 
-# 418. Kernel Law 2 — Kernel Submission
+## 418. Kernel Law 2 — Kernel Submission
 
 $$
 \boxed{
@@ -6544,9 +6547,9 @@ SubmitToKernel
 }
 $$
 
----
+______________________________________________________________________
 
-# 419. Kernel Law 3 — Selection Acceptance
+## 419. Kernel Law 3 — Selection Acceptance
 
 $$
 \boxed{
@@ -6556,9 +6559,9 @@ KernelSelected(Skills,Tools,Budget)
 }
 $$
 
----
+______________________________________________________________________
 
-# 420. Kernel Law 4 — Context Admission
+## 420. Kernel Law 4 — Context Admission
 
 $$
 \boxed{
@@ -6568,9 +6571,9 @@ AdmittedHandle(Context)
 }
 $$
 
----
+______________________________________________________________________
 
-# 421. Kernel Law 5 — Typed Output
+## 421. Kernel Law 5 — Typed Output
 
 $$
 \boxed{
@@ -6580,9 +6583,9 @@ Typed(Claims,Evidence,Actions)
 }
 $$
 
----
+______________________________________________________________________
 
-# 422. Kernel Law 6 — Commit Separation
+## 422. Kernel Law 6 — Commit Separation
 
 $$
 \boxed{
@@ -6592,9 +6595,9 @@ CommitAuthority
 }
 $$
 
----
+______________________________________________________________________
 
-# 423. Kernel Law 7 — FAIL Firewall
+## 423. Kernel Law 7 — FAIL Firewall
 
 $$
 \boxed{
@@ -6604,9 +6607,9 @@ NoBypass
 }
 $$
 
----
+______________________________________________________________________
 
-# 424. Kernel Law 8 — Epistemic Promotion Firewall
+## 424. Kernel Law 8 — Epistemic Promotion Firewall
 
 $$
 \boxed{
@@ -6616,9 +6619,9 @@ VERIFIED
 }
 $$
 
----
+______________________________________________________________________
 
-# 425. Kernel Law 9 — Competing Hypothesis Firewall
+## 425. Kernel Law 9 — Competing Hypothesis Firewall
 
 $$
 \boxed{
@@ -6628,9 +6631,9 @@ PreserveCOMPETING
 }
 $$
 
----
+______________________________________________________________________
 
-# 426. Kernel Law 10 — Provenance Firewall
+## 426. Kernel Law 10 — Provenance Firewall
 
 $$
 \boxed{
@@ -6640,9 +6643,9 @@ Independent
 }
 $$
 
----
+______________________________________________________________________
 
-# 427. Kernel Law 11 — Memory Firewall
+## 427. Kernel Law 11 — Memory Firewall
 
 $$
 \boxed{
@@ -6652,9 +6655,9 @@ DirectPersistentMemoryMutation
 }
 $$
 
----
+______________________________________________________________________
 
-# 428. Kernel Law 12 — Tool Authority Firewall
+## 428. Kernel Law 12 — Tool Authority Firewall
 
 $$
 \boxed{
@@ -6664,9 +6667,9 @@ AuthorityToken
 }
 $$
 
----
+______________________________________________________________________
 
-# 429. Kernel Law 13 — Runtime Truth Firewall
+## 429. Kernel Law 13 — Runtime Truth Firewall
 
 $$
 \boxed{
@@ -6676,9 +6679,9 @@ HostImplementationEvidence
 }
 $$
 
----
+______________________________________________________________________
 
-# 430. Kernel Law 14 — Typing Does Not Prove Truth
+## 430. Kernel Law 14 — Typing Does Not Prove Truth
 
 $$
 \boxed{
@@ -6690,9 +6693,9 @@ $$
 
 DERIVED.
 
----
+______________________________________________________________________
 
-# 431. Kernel Law 15 — Persistence Does Not Prove Truth
+## 431. Kernel Law 15 — Persistence Does Not Prove Truth
 
 $$
 \boxed{
@@ -6704,9 +6707,9 @@ $$
 
 DERIVED.
 
----
+______________________________________________________________________
 
-# 432. Kernel Law 16 — Authority Does Not Prove Truth
+## 432. Kernel Law 16 — Authority Does Not Prove Truth
 
 $$
 \boxed{
@@ -6718,9 +6721,9 @@ $$
 
 DERIVED.
 
----
+______________________________________________________________________
 
-# 433. Kernel Law 17 — Proof Does Not Equal Policy
+## 433. Kernel Law 17 — Proof Does Not Equal Policy
 
 $$
 \boxed{
@@ -6732,9 +6735,9 @@ $$
 
 DERIVED.
 
----
+______________________________________________________________________
 
-# 434. Kernel Law 18 — Policy Does Not Equal Proof
+## 434. Kernel Law 18 — Policy Does Not Equal Proof
 
 $$
 \boxed{
@@ -6746,9 +6749,9 @@ $$
 
 DERIVED.
 
----
+______________________________________________________________________
 
-# 435. Kernel Law 19 — Local Does Not Equal Distributed
+## 435. Kernel Law 19 — Local Does Not Equal Distributed
 
 $$
 \boxed{
@@ -6760,9 +6763,9 @@ $$
 
 DERIVED but directly aligned with source.
 
----
+______________________________________________________________________
 
-# 436. Kernel Law 20 — Architecture Does Not Equal Implementation
+## 436. Kernel Law 20 — Architecture Does Not Equal Implementation
 
 $$
 \boxed{
@@ -6772,9 +6775,9 @@ RuntimeImplementation
 }
 $$
 
----
+______________________________________________________________________
 
-# 437. Proposed Conformance Test Suite
+## 437. Proposed Conformance Test Suite
 
 A complete implementation should test at least:
 
@@ -6803,9 +6806,9 @@ T20 finalizer behavior
 
 PROPOSED.
 
----
+______________________________________________________________________
 
-# 438. T01 — Kernel Submission
+## 438. T01 — Kernel Submission
 
 Given nontrivial task:
 
@@ -6819,9 +6822,9 @@ Expected:
 REJECT / ROUTE TO KERNEL
 ```
 
----
+______________________________________________________________________
 
-# 439. T02 — Skill Selection
+## 439. T02 — Skill Selection
 
 Kernel selects:
 
@@ -6843,9 +6846,9 @@ REJECT
 
 unless kernel reauthorizes.
 
----
+______________________________________________________________________
 
-# 440. T03 — Budget
+## 440. T03 — Budget
 
 Model exceeds authorized budget.
 
@@ -6857,9 +6860,9 @@ BLOCK / RE-ROUTE / BOUNDED FAILURE
 
 Exact failure semantics unknown.
 
----
+______________________________________________________________________
 
-# 441. T04 — Context Admission
+## 441. T04 — Context Admission
 
 Admitted:
 
@@ -6876,9 +6879,9 @@ H3
 
 Model may consume H1/H2 only.
 
----
+______________________________________________________________________
 
-# 442. T05 — Ambient Context
+## 442. T05 — Ambient Context
 
 Resource visible but no admitted handle.
 
@@ -6888,105 +6891,105 @@ Expected:
 DO NOT READ
 ```
 
----
+______________________________________________________________________
 
-# 443. T06 — Typed Claim
+## 443. T06 — Typed Claim
 
 Output must carry claim type/class rather than untyped assertion where the ABI requires typing.
 
----
+______________________________________________________________________
 
-# 444. T07 — Typed Evidence
+## 444. T07 — Typed Evidence
 
 Evidence remains separately typed and provenance-aware.
 
----
+______________________________________________________________________
 
-# 445. T08 — Typed Action
+## 445. T08 — Typed Action
 
 Action remains proposal/typed action unless execution authority exists.
 
----
+______________________________________________________________________
 
-# 446. T09 — Hidden State
+## 446. T09 — Hidden State
 
 Free-form hidden internal state should not be the ABI contract output.
 
----
+______________________________________________________________________
 
-# 447. T10 — FAIL
+## 447. T10 — FAIL
 
 `FAIL` cannot be bypassed.
 
----
+______________________________________________________________________
 
-# 448. T11 — MODEL
+## 448. T11 — MODEL
 
 MODEL cannot be relabeled VERIFIED by model fiat.
 
----
+______________________________________________________________________
 
-# 449. T12 — COMPETING
+## 449. T12 — COMPETING
 
 No discriminating evidence means no merge.
 
----
+______________________________________________________________________
 
-# 450. T13 — Provenance
+## 450. T13 — Provenance
 
 Shared ancestry must remain visible.
 
----
+______________________________________________________________________
 
-# 451. T14 — Memory
+## 451. T14 — Memory
 
 Direct persistent mutation rejected.
 
----
+______________________________________________________________________
 
-# 452. T15 — Tools
+## 452. T15 — Tools
 
 No authority token means no tool execution.
 
----
+______________________________________________________________________
 
-# 453. T16 — Distributed Claim
+## 453. T16 — Distributed Claim
 
 No host implementation evidence means no distributed guarantee claim.
 
----
+______________________________________________________________________
 
-# 454. T17 — Proof Engine
+## 454. T17 — Proof Engine
 
 A candidate failing proof requirements must not be committed as though proof passed.
 
 Exact proof predicates unresolved.
 
----
+______________________________________________________________________
 
-# 455. T18 — Policy Engine
+## 455. T18 — Policy Engine
 
 A candidate action failing policy must not execute merely because the model recommends it.
 
----
+______________________________________________________________________
 
-# 456. T19 — Transaction Manager
+## 456. T19 — Transaction Manager
 
 Coupled state should preserve required transaction invariants.
 
 Exact invariants require the transaction specification.
 
----
+______________________________________________________________________
 
-# 457. T20 — Finalizer
+## 457. T20 — Finalizer
 
 Finalizer behavior must be tested against its authoritative contract once available.
 
 Current expected semantics remain unresolved.
 
----
+______________________________________________________________________
 
-# 458. Property Test — Epistemic Monotonicity
+## 458. Property Test — Epistemic Monotonicity
 
 Without new validation evidence:
 
@@ -6996,9 +6999,9 @@ MODEL_t
 VERIFIED_{t+1}
 $$
 
----
+______________________________________________________________________
 
-# 459. Property Test — COMPETING Conservation
+## 459. Property Test — COMPETING Conservation
 
 Without discriminator:
 
@@ -7008,9 +7011,9 @@ COMPETING_t
 COMPETING_{t+1}
 $$
 
----
+______________________________________________________________________
 
-# 460. Property Test — Provenance Conservation
+## 460. Property Test — Provenance Conservation
 
 Derivation must preserve ancestry:
 
@@ -7022,9 +7025,9 @@ $$
 
 conceptually.
 
----
+______________________________________________________________________
 
-# 461. Property Test — Authority Conservation
+## 461. Property Test — Authority Conservation
 
 An action must not exceed authority scope:
 
@@ -7036,9 +7039,9 @@ $$
 
 PROPOSED.
 
----
+______________________________________________________________________
 
-# 462. Property Test — Context Conservation
+## 462. Property Test — Context Conservation
 
 $$
 ReadSet
@@ -7046,9 +7049,9 @@ ReadSet
 AdmittedSet
 $$
 
----
+______________________________________________________________________
 
-# 463. Property Test — Budget Conservation
+## 463. Property Test — Budget Conservation
 
 $$
 ConsumedBudget
@@ -7058,9 +7061,9 @@ $$
 
 assuming comparable dimensions.
 
----
+______________________________________________________________________
 
-# 464. Property Test — Runtime Claim Conservation
+## 464. Property Test — Runtime Claim Conservation
 
 $$
 ClaimedGuarantees
@@ -7068,9 +7071,9 @@ ClaimedGuarantees
 VerifiedHostGuarantees
 $$
 
----
+______________________________________________________________________
 
-# 465. Property Test — Memory Separation
+## 465. Property Test — Memory Separation
 
 $$
 DirectWrites_{model}=0
@@ -7078,9 +7081,9 @@ $$
 
 under this contract.
 
----
+______________________________________________________________________
 
-# 466. Property Test — Gate Integrity
+## 466. Property Test — Gate Integrity
 
 $$
 FAIL
@@ -7088,64 +7091,64 @@ FAIL
 NoSuccessfulBypass
 $$
 
----
+______________________________________________________________________
 
-# 467. Property Test — Typed Boundary
+## 467. Property Test — Typed Boundary
 
 All ABI model outputs should be representable as admitted typed structures.
 
 Exact completeness condition depends on ABI spec.
 
----
+______________________________________________________________________
 
-# 468. Anti-Fabrication Checklist
+## 468. Anti-Fabrication Checklist
 
 Never infer from this artifact that:
 
 1. AMOS Model ABI is a literal binary ABI.
-2. The ABI has a known version.
-3. The model is the kernel.
-4. The model has direct commit authority.
-5. The proof engine is a theorem prover.
-6. The policy engine uses a known policy language.
-7. The transaction manager is ACID.
-8. The finalizer uses consensus.
-9. Persistent memory is a database.
-10. Context handles are cryptographic capabilities.
-11. Authority tokens are JWTs.
-12. Authority tokens are cryptographically signed.
-13. Tool selection itself equals authority.
-14. Budget means tokens.
-15. Budget means money.
-16. Budget means compute.
-17. FAIL is universally terminal.
-18. MODEL can never become VERIFIED by external validation.
-19. COMPETING hypotheses can never be resolved.
-20. Correlation means total dependence.
-21. Separate documents mean independent evidence.
-22. Separate agents mean independent evidence.
-23. Committed memory is verified knowledge.
-24. Atomicity implies truth.
-25. Finality implies truth.
-26. Policy approval implies factual validity.
-27. Proof approval implies action permission.
-28. Local atomicity implies distributed atomicity.
-29. AMOS MVCC/CAS concepts are literally implemented by ChatGPT.
-30. AMOS shard concepts are literally implemented.
-31. AMOS causal epochs are literally implemented.
-32. Byzantine testing establishes Byzantine guarantees.
-33. Documentation establishes runtime behavior.
-34. `runtime` tag establishes runtime implementation.
-35. `kernel` tag establishes OS-kernel implementation.
-36. `canon/knowledge` promotes the artifact above SOURCE_CLAIM.
-37. `core` proves implementation.
-38. Related links establish dependencies.
-39. MOC establishes execution ownership.
-40. The host runtime supports any guarantee absent evidence.
+1. The ABI has a known version.
+1. The model is the kernel.
+1. The model has direct commit authority.
+1. The proof engine is a theorem prover.
+1. The policy engine uses a known policy language.
+1. The transaction manager is ACID.
+1. The finalizer uses consensus.
+1. Persistent memory is a database.
+1. Context handles are cryptographic capabilities.
+1. Authority tokens are JWTs.
+1. Authority tokens are cryptographically signed.
+1. Tool selection itself equals authority.
+1. Budget means tokens.
+1. Budget means money.
+1. Budget means compute.
+1. FAIL is universally terminal.
+1. MODEL can never become VERIFIED by external validation.
+1. COMPETING hypotheses can never be resolved.
+1. Correlation means total dependence.
+1. Separate documents mean independent evidence.
+1. Separate agents mean independent evidence.
+1. Committed memory is verified knowledge.
+1. Atomicity implies truth.
+1. Finality implies truth.
+1. Policy approval implies factual validity.
+1. Proof approval implies action permission.
+1. Local atomicity implies distributed atomicity.
+1. AMOS MVCC/CAS concepts are literally implemented by ChatGPT.
+1. AMOS shard concepts are literally implemented.
+1. AMOS causal epochs are literally implemented.
+1. Byzantine testing establishes Byzantine guarantees.
+1. Documentation establishes runtime behavior.
+1. `runtime` tag establishes runtime implementation.
+1. `kernel` tag establishes OS-kernel implementation.
+1. `canon/knowledge` promotes the artifact above SOURCE_CLAIM.
+1. `core` proves implementation.
+1. Related links establish dependencies.
+1. MOC establishes execution ownership.
+1. The host runtime supports any guarantee absent evidence.
 
----
+______________________________________________________________________
 
-# 469. Anti-Regression Checklist
+## 469. Anti-Regression Checklist
 
 Any later optimization must preserve:
 
@@ -7164,9 +7167,9 @@ transaction integrity
 finality integrity
 ```
 
----
+______________________________________________________________________
 
-# 470. Fast Path Constraint
+## 470. Fast Path Constraint
 
 If a future router classifies a task C0, any fast path must still preserve applicable prohibitions.
 
@@ -7181,47 +7184,47 @@ claim imaginary host guarantees
 
 This is cross-artifact DERIVED governance.
 
----
+______________________________________________________________________
 
-# 471. C0 and Tool Authority
+## 471. C0 and Tool Authority
 
 Even a trivial task that invokes a tool still requires whatever tool authority the host/kernel contract demands.
 
 Complexity and authority are separate axes.
 
----
+______________________________________________________________________
 
-# 472. C0 and Persistent Memory
+## 472. C0 and Persistent Memory
 
 A trivial memory write is still a persistent mutation.
 
 Therefore task simplicity does not automatically grant direct write authority.
 
----
+______________________________________________________________________
 
-# 473. C0 and MODEL Promotion
+## 473. C0 and MODEL Promotion
 
 A simple inference remains MODEL if its epistemic class is MODEL.
 
 Complexity does not determine verification status.
 
----
+______________________________________________________________________
 
-# 474. C0 and Provenance
+## 474. C0 and Provenance
 
 Simple tasks can still involve correlated evidence.
 
----
+______________________________________________________________________
 
-# 475. C0 and Distributed Claims
+## 475. C0 and Distributed Claims
 
 Simple questions can still ask about runtime guarantees.
 
 The host-runtime firewall remains applicable.
 
----
+______________________________________________________________________
 
-# 476. Adaptive Complexity
+## 476. Adaptive Complexity
 
 Thus:
 
@@ -7237,9 +7240,9 @@ $$
 
 are related but not identical.
 
----
+______________________________________________________________________
 
-# 477. Kernel Minimal Proof Scope
+## 477. Kernel Minimal Proof Scope
 
 The model should do the smallest sufficient cognitive work within:
 
@@ -7253,9 +7256,9 @@ while preserving all load-bearing gates.
 
 This is a v4.4-compatible derived law.
 
----
+______________________________________________________________________
 
-# 478. Context Economy
+## 478. Context Economy
 
 More context is not automatically better.
 
@@ -7269,17 +7272,17 @@ Excess context can increase:
 
 Hence admitted-context design is epistemically significant.
 
----
+______________________________________________________________________
 
-# 479. Tool Economy
+## 479. Tool Economy
 
 More tool calls are not automatically better.
 
 Redundant calls sharing the same source ancestry do not create independence.
 
----
+______________________________________________________________________
 
-# 480. Agent Economy
+## 480. Agent Economy
 
 More agents are not automatically better.
 
@@ -7289,9 +7292,9 @@ AgentCount
 EvidenceIndependence
 $$
 
----
+______________________________________________________________________
 
-# 481. Proof Economy
+## 481. Proof Economy
 
 More reasoning is not automatically stronger.
 
@@ -7303,9 +7306,9 @@ $$
 
 not maximum prose.
 
----
+______________________________________________________________________
 
-# 482. Persistent State Economy
+## 482. Persistent State Economy
 
 Not every intermediate thought should become persistent memory.
 
@@ -7321,9 +7324,9 @@ and:
 governed persistent knowledge
 ```
 
----
+______________________________________________________________________
 
-# 483. Ephemeral Code → Persistent Evidence → Validated Knowledge
+## 483. Ephemeral Code → Persistent Evidence → Validated Knowledge
 
 A broader AMOS harvest model is:
 
@@ -7337,9 +7340,9 @@ The present artifact's memory firewall is compatible with this progression.
 
 It does not itself state the progression.
 
----
+______________________________________________________________________
 
-# 484. Memory Promotion Firewall
+## 484. Memory Promotion Firewall
 
 A proposed rule:
 
@@ -7353,23 +7356,23 @@ knowledge
 verified knowledge
 ```
 
----
+______________________________________________________________________
 
-# 485. Knowledge Feedback Hazard
+## 485. Knowledge Feedback Hazard
 
 Persistent knowledge reused as input must retain provenance so the model does not mistake its own historical output for independent evidence.
 
----
+______________________________________________________________________
 
-# 486. Provenance Persistence
+## 486. Provenance Persistence
 
 The transaction/finalization path should preserve provenance across commits.
 
 This is v4.4-compatible hardening.
 
----
+______________________________________________________________________
 
-# 487. Persistent Provenance Invariant
+## 487. Persistent Provenance Invariant
 
 $$
 Commit(Claim)
@@ -7381,21 +7384,21 @@ where provenance is required for later epistemic use.
 
 PROPOSED.
 
----
+______________________________________________________________________
 
-# 488. Evidence Topology Invariant
+## 488. Evidence Topology Invariant
 
 A committed claim should preserve ancestry enough to determine whether future evidence is actually independent.
 
----
+______________________________________________________________________
 
-# 489. Sybil Hardening
+## 489. Sybil Hardening
 
 The explicit correlated-evidence prohibition gives strong source support for provenance/Sybil hardening as a kernel requirement.
 
----
+______________________________________________________________________
 
-# 490. Sybil Definition Firewall
+## 490. Sybil Definition Firewall
 
 The artifact does not use the term:
 
@@ -7405,9 +7408,9 @@ Sybil
 
 So this is a later-lineage conceptual classification, not direct source wording.
 
----
+______________________________________________________________________
 
-# 491. Adversarial Finalization
+## 491. Adversarial Finalization
 
 The adjacent execution-kernel artifact requires final adversarial gates.
 
@@ -7422,9 +7425,9 @@ memory bypass?
 runtime overclaim?
 ```
 
----
+______________________________________________________________________
 
-# 492. Finalizer Challenge Set — Proposed
+## 492. Finalizer Challenge Set — Proposed
 
 ```yaml
 FinalizerChecks:
@@ -7439,9 +7442,9 @@ FinalizerChecks:
 
 This maps the explicit prohibitions into a proposed finalizer gate set.
 
----
+______________________________________________________________________
 
-# 493. Are These Finalizer Responsibilities?
+## 493. Are These Finalizer Responsibilities?
 
 Not necessarily.
 
@@ -7451,9 +7454,9 @@ They may be enforced elsewhere.
 
 Therefore the preceding list is a **proposed implementation**, not canonical component ownership.
 
----
+______________________________________________________________________
 
-# 494. Defense in Depth
+## 494. Defense in Depth
 
 A robust implementation could enforce the same invariant at multiple layers.
 
@@ -7469,17 +7472,17 @@ tool selection
 
 This is DERIVED security architecture.
 
----
+______________________________________________________________________
 
-# 495. Repetition of Gate ≠ Redundant Evidence
+## 495. Repetition of Gate ≠ Redundant Evidence
 
 Important distinction:
 
 Repeated enforcement of a policy invariant can improve execution safety even though repeated copies of the same evidence do not improve epistemic independence.
 
----
+______________________________________________________________________
 
-# 496. Control Redundancy vs Evidence Redundancy
+## 496. Control Redundancy vs Evidence Redundancy
 
 $$
 RedundantControls
@@ -7493,9 +7496,9 @@ $$
 
 does not create independent confirmation.
 
----
+______________________________________________________________________
 
-# 497. Model Worker Contract as Capability Envelope
+## 497. Model Worker Contract as Capability Envelope
 
 The entire contract can be represented as:
 
@@ -7522,11 +7525,11 @@ $$
 
 and epistemic invariants.
 
-Here \(A\) denotes authority, introduced as a derived formal variable.
+Here (A) denotes authority, introduced as a derived formal variable.
 
----
+______________________________________________________________________
 
-# 498. Kernel Commit Function
+## 498. Kernel Commit Function
 
 A safe abstract function is:
 
@@ -7544,9 +7547,9 @@ $$
 
 without specifying the internal algorithm.
 
----
+______________________________________________________________________
 
-# 499. Host Runtime Function
+## 499. Host Runtime Function
 
 Actual guarantees are bounded by:
 
@@ -7564,9 +7567,9 @@ $$
 
 unless those sets are explicitly bound.
 
----
+______________________________________________________________________
 
-# 500. Source-Level Architecture Compression
+## 500. Source-Level Architecture Compression
 
 The source can be compressed into three layers:
 
@@ -7602,9 +7605,9 @@ no fictional runtime guarantees
 
 This grouping is DERIVED but faithful.
 
----
+______________________________________________________________________
 
-# 501. Canonical One-Line Model
+## 501. Canonical One-Line Model
 
 $$
 \boxed{
@@ -7616,9 +7619,9 @@ $$
 
 DERIVED compression.
 
----
+______________________________________________________________________
 
-# 502. Stronger Three-Way Boundary
+## 502. Stronger Three-Way Boundary
 
 ```text
 MODEL:
@@ -7633,17 +7636,17 @@ actual implemented execution guarantees
 
 This is one of the most useful architectural interpretations.
 
----
+______________________________________________________________________
 
-# 503. Why Host Runtime Is Distinct
+## 503. Why Host Runtime Is Distinct
 
 Without the final prohibition, AMOS conceptual distributed mechanisms could easily be mistaken for actual infrastructure.
 
 The source explicitly blocks that category error.
 
----
+______________________________________________________________________
 
-# 504. Architecture-Level Distributed Concepts
+## 504. Architecture-Level Distributed Concepts
 
 AMOS may use concepts such as:
 
@@ -7659,9 +7662,9 @@ as reasoning/governance patterns.
 
 The present contract requires that these not be claimed as literal host guarantees unless implemented.
 
----
+______________________________________________________________________
 
-# 505. Runtime Honesty Example
+## 505. Runtime Honesty Example
 
 Safe:
 
@@ -7675,9 +7678,9 @@ Unsafe without evidence:
 The underlying ChatGPT host performs a distributed atomic transaction.
 ```
 
----
+______________________________________________________________________
 
-# 506. Runtime Honesty Example — MVCC
+## 506. Runtime Honesty Example — MVCC
 
 Safe:
 
@@ -7692,9 +7695,9 @@ Unsafe without evidence:
 The host uses MVCC internally for AMOS state.
 ```
 
----
+______________________________________________________________________
 
-# 507. Runtime Honesty Example — Shards
+## 507. Runtime Honesty Example — Shards
 
 Safe:
 
@@ -7708,9 +7711,9 @@ Unsafe without evidence:
 This conversation is finalized across AMOS distributed shards.
 ```
 
----
+______________________________________________________________________
 
-# 508. Runtime Honesty Example — Byzantine
+## 508. Runtime Honesty Example — Byzantine
 
 Safe:
 
@@ -7725,9 +7728,9 @@ Unsafe without proof:
 The runtime is Byzantine fault tolerant.
 ```
 
----
+______________________________________________________________________
 
-# 509. Runtime Honesty Example — Finality
+## 509. Runtime Honesty Example — Finality
 
 Safe:
 
@@ -7743,9 +7746,9 @@ The host provides consensus finality.
 
 without implementation evidence.
 
----
+______________________________________________________________________
 
-# 510. Source-Level Confidence Ceiling
+## 510. Source-Level Confidence Ceiling
 
 Because the artifact self-classifies as `SOURCE_CLAIM`, the strongest artifact-level status is:
 
@@ -7759,9 +7762,9 @@ not:
 independently verified runtime implementation
 ```
 
----
+______________________________________________________________________
 
-# 511. Structural Coherence
+## 511. Structural Coherence
 
 The artifact is internally coherent with the adjacent execution-kernel source on:
 
@@ -7776,9 +7779,9 @@ competing hypotheses
 
 But internal coherence does not prove runtime implementation.
 
----
+______________________________________________________________________
 
-# 512. Shared Provenance Warning
+## 512. Shared Provenance Warning
 
 Both artifacts are within the AMOS corpus.
 
@@ -7790,9 +7793,9 @@ cross-artifact corroboration within shared corpus ancestry
 
 not necessarily independent empirical confirmation.
 
----
+______________________________________________________________________
 
-# 513. Provenance Independence Ceiling
+## 513. Provenance Independence Ceiling
 
 $$
 AMOSArtifactA
@@ -7802,9 +7805,9 @@ $$
 
 may strengthen canonical interpretation but not external empirical verification if both share the same corpus origin.
 
----
+______________________________________________________________________
 
-# 514. Canonical Consistency vs Empirical Verification
+## 514. Canonical Consistency vs Empirical Verification
 
 Two different questions must remain separate:
 
@@ -7820,9 +7823,9 @@ The first can be strengthened by corpus convergence.
 
 The second requires implementation/runtime evidence.
 
----
+______________________________________________________________________
 
-# 515. Canonical Status Matrix
+## 515. Canonical Status Matrix
 
 | Claim                                            | Class        |
 | ------------------------------------------------ | ------------ |
@@ -7846,26 +7849,26 @@ The second requires implementation/runtime evidence.
 | Capability-security resemblance                  | DERIVED      |
 | Combined flow with Execution Kernel V1           | DERIVED      |
 
----
+______________________________________________________________________
 
-# 516. Invalidation Conditions
+## 516. Invalidation Conditions
 
 This expansion should be revalidated if authoritative canon supplies:
 
 1. exact AMOS Model ABI;
-2. a newer `AGENTS AMOS OS KERNEL`;
-3. proof-engine specification;
-4. policy-engine specification;
-5. transaction-manager specification;
-6. finalizer specification;
-7. context-handle schema;
-8. authority-token schema;
-9. persistent-memory contract;
-10. host-runtime capability declaration.
+1. a newer `AGENTS AMOS OS KERNEL`;
+1. proof-engine specification;
+1. policy-engine specification;
+1. transaction-manager specification;
+1. finalizer specification;
+1. context-handle schema;
+1. authority-token schema;
+1. persistent-memory contract;
+1. host-runtime capability declaration.
 
----
+______________________________________________________________________
 
-# 517. Minimum Missing Information for Runtime Verification
+## 517. Minimum Missing Information for Runtime Verification
 
 To claim the architecture is literally implemented, the minimum evidence would need to identify:
 
@@ -7882,9 +7885,9 @@ runtime receipts/tests
 
 as applicable.
 
----
+______________________________________________________________________
 
-# 518. Minimum Missing Information for Distributed Guarantees
+## 518. Minimum Missing Information for Distributed Guarantees
 
 For any distributed guarantee:
 
@@ -7901,9 +7904,9 @@ test/formal proof
 
 would need to be established to an appropriate standard.
 
----
+______________________________________________________________________
 
-# 519. Minimum Missing Information for Authority
+## 519. Minimum Missing Information for Authority
 
 Need:
 
@@ -7916,9 +7919,9 @@ operation binding
 failure behavior
 ```
 
----
+______________________________________________________________________
 
-# 520. Minimum Missing Information for Memory
+## 520. Minimum Missing Information for Memory
 
 Need:
 
@@ -7931,9 +7934,9 @@ rollback semantics
 provenance persistence
 ```
 
----
+______________________________________________________________________
 
-# 521. Minimum Missing Information for Proof
+## 521. Minimum Missing Information for Proof
 
 Need:
 
@@ -7947,9 +7950,9 @@ confidence rules
 failure classes
 ```
 
----
+______________________________________________________________________
 
-# 522. Minimum Missing Information for COMPETING Resolution
+## 522. Minimum Missing Information for COMPETING Resolution
 
 Need a definition of:
 
@@ -7959,9 +7962,9 @@ discriminating evidence
 
 or at least the proof-engine rule that decides when competing hypotheses may be resolved.
 
----
+______________________________________________________________________
 
-# 523. Minimum Missing Information for Independence
+## 523. Minimum Missing Information for Independence
 
 Need an algorithm/policy for:
 
@@ -7972,9 +7975,9 @@ correlation risk
 independence threshold
 ```
 
----
+______________________________________________________________________
 
-# 524. Minimum Missing Information for Context Admission
+## 524. Minimum Missing Information for Context Admission
 
 Need:
 
@@ -7987,9 +7990,9 @@ expiry/revocation
 provenance
 ```
 
----
+______________________________________________________________________
 
-# 525. Minimum Missing Information for Budget
+## 525. Minimum Missing Information for Budget
 
 Need:
 
@@ -8001,9 +8004,9 @@ escalation rules
 accounting
 ```
 
----
+______________________________________________________________________
 
-# 526. Minimum Missing Information for Nontrivial Classification
+## 526. Minimum Missing Information for Nontrivial Classification
 
 Need:
 
@@ -8013,9 +8016,9 @@ router complexity taxonomy
 
 or an explicit definition of nontrivial task.
 
----
+______________________________________________________________________
 
-# 527. RSCF Node — Proposed
+## 527. RSCF Node — Proposed
 
 ```yaml
 RSCF_NODE:
@@ -8033,9 +8036,9 @@ RSCF_NODE:
 
 PROPOSED.
 
----
+______________________________________________________________________
 
-# 528. RSCF Relations — Proposed
+## 528. RSCF Relations — Proposed
 
 ```yaml
 RSCF_RELATIONS:
@@ -8050,9 +8053,9 @@ RSCF_RELATIONS:
 
 The final relation is DERIVED from the supplied pair of artifacts and was not present in the source.
 
----
+______________________________________________________________________
 
-# 529. Proposed Dependency Graph
+## 529. Proposed Dependency Graph
 
 ```mermaid
 flowchart TD
@@ -8078,9 +8081,9 @@ flowchart TD
 
 These are **knowledge dependencies required to fully resolve the artifact**, not necessarily source-declared runtime dependencies.
 
----
+______________________________________________________________________
 
-# 530. Proposed Vault Navigation
+## 530. Proposed Vault Navigation
 
 ```markdown
 ## Kernel Architecture
@@ -8111,9 +8114,9 @@ These are **knowledge dependencies required to fully resolve the artifact**, not
 
 Only the original Related/MOC links are source-grounded; the architecture links are proposed.
 
----
+______________________________________________________________________
 
-# 531. Full Canonical Contract — Compact Machine Form
+## 531. Full Canonical Contract — Compact Machine Form
 
 ```yaml
 artifact:
@@ -8193,9 +8196,9 @@ agent_contract:
 
 **Status:** DERIVED serialization of source prose.
 
----
+______________________________________________________________________
 
-# 532. Full Combined Kernel Contract — Derived
+## 532. Full Combined Kernel Contract — Derived
 
 Combining this artifact with `AGENTS AMOS EXECUTION KERNEL V1` gives the following conceptual architecture:
 
@@ -8266,9 +8269,9 @@ AMOS_KERNEL:
 
 Everything beyond the exact wording of the two source artifacts remains **DERIVED architecture**.
 
----
+______________________________________________________________________
 
-# 533. Final Adversarial Challenge
+## 533. Final Adversarial Challenge
 
 The strongest interpretation would be:
 
@@ -8291,17 +8294,17 @@ Because the source establishes the **contract vocabulary and governance requirem
 
 Therefore the stronger claim must be downgraded.
 
----
+______________________________________________________________________
 
-# 534. Surviving Conclusion
+## 534. Surviving Conclusion
 
 The strongest conclusion that survives is:
 
 > **SOURCE_CLAIM:** AMOS corpus canon defines the model as a bounded cognitive worker behind an AMOS Model ABI, with kernel-controlled resources/context, typed outputs, external proof/policy/transaction/finalization authority, strict epistemic/provenance/state/action firewalls, and an explicit prohibition against projecting conceptual distributed mechanisms onto a host runtime that does not implement them.
 
----
+______________________________________________________________________
 
-# 535. Sensitivity Analysis
+## 535. Sensitivity Analysis
 
 The most decision-changing unresolved premise is:
 
@@ -8321,9 +8324,9 @@ Therefore:
 Runtime implementation = UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 536. Canonical Confidence Ceiling
+## 536. Canonical Confidence Ceiling
 
 The source itself says:
 
@@ -8333,9 +8336,9 @@ claim_class: SOURCE_CLAIM
 
 Therefore no stronger epistemic class should be assigned to the artifact-level runtime claims without new evidence.
 
----
+______________________________________________________________________
 
-# 537. Final Kernel Architecture
+## 537. Final Kernel Architecture
 
 ```text
                            AMOS OS
@@ -8380,9 +8383,9 @@ Therefore no stronger epistemic class should be assigned to the artifact-level r
 
 **DERIVED topology. Exact ordering remains unresolved.**
 
----
+______________________________________________________________________
 
-# 538. Final Integrity Firewall
+## 538. Final Integrity Firewall
 
 ```text
 MODEL
@@ -8402,9 +8405,9 @@ MODEL
   └── cannot fictionalize host-runtime guarantees
 ```
 
----
+______________________________________________________________________
 
-# 539. Final Canonical Equations
+## 539. Final Canonical Equations
 
 $$
 \boxed{
@@ -8514,9 +8517,9 @@ ImplementedHostGuarantee
 }
 $$
 
----
+______________________________________________________________________
 
-# 540. Final Proof Capsule
+## 540. Final Proof Capsule
 
 ```yaml
 claim:
@@ -8581,9 +8584,9 @@ confidence_ceiling:
     verification is established by this artifact.
 ```
 
----
+______________________________________________________________________
 
-# 541. Final Canonical Compression
+## 541. Final Canonical Compression
 
 The architectural center of `AGENTS AMOS OS KERNEL` is not that the model becomes a more powerful autonomous controller.
 
@@ -8726,4 +8729,3 @@ canonical_state:
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS · SYSTEM_SCAN_AGENT · AUTOMATION_PROFILES
 
 **MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]
-

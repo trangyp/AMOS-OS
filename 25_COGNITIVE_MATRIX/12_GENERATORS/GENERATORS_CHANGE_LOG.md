@@ -12,19 +12,19 @@ segment: 25_COGNITIVE_MATRIX/12_GENERATORS
 artifact_kind: NOTE
 path: 25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_CHANGE_LOG.md
 tags:
-- 12-generators
-- 12_generators
-- amos-os
-- domain/cognitive-matrix
-- canon/universe
-- change
-- generators
-- note
-- rscf
-- placeholder_expanded
-- validation
-- roadmap
-- integration
+  - 12-generators
+  - 12_generators
+  - amos-os
+  - domain/cognitive-matrix
+  - canon/universe
+  - change
+  - generators
+  - note
+  - rscf
+  - placeholder_expanded
+  - validation
+  - roadmap
+  - integration
 version: 0.2.0
 updated: '2026-08-27'
 status: PLACEHOLDER_EXPANDED
@@ -101,7 +101,7 @@ Origin architect / steward: **Trang Phan**
 
 System: **AMOS OS**
 
----
+______________________________________________________________________
 
 # 12 Generators Change Log
 
@@ -121,9 +121,9 @@ System: **AMOS OS**
 >
 > **AMOS_CORE target:** `v4.4`
 
----
+______________________________________________________________________
 
-# 0. Purpose
+## 0. Purpose
 
 `GENERATORS_CHANGE_LOG.md` defines the AMOS change-record contract for `12_GENERATORS`.
 
@@ -165,9 +165,9 @@ rollback-aware
 
 It is not intended to be a free-form diary.
 
----
+______________________________________________________________________
 
-# 1. Core change-log law
+## 1. Core change-log law
 
 The primary rule is:
 
@@ -198,9 +198,9 @@ ACTIVE_CHANGE
 != FINALIZED_CHANGE
 ```
 
----
+______________________________________________________________________
 
-# 2. Change Log versus History
+## 2. Change Log versus History
 
 `HISTORY.md` answers:
 
@@ -220,9 +220,9 @@ The Change Log is more operational and revision-centric.
 
 History may synthesize from the Change Log plus other evidence.
 
----
+______________________________________________________________________
 
-# 3. Change Log versus Roadmap
+## 3. Change Log versus Roadmap
 
 ```text
 ROADMAP
@@ -241,9 +241,9 @@ ROADMAP_ITEM
 
 until actual change evidence exists.
 
----
+______________________________________________________________________
 
-# 4. Change Log versus Git history
+## 4. Change Log versus Git history
 
 Repository commits may be evidence for a Change Log entry.
 
@@ -264,9 +264,9 @@ unpromoted
 unreleased
 ```
 
----
+______________________________________________________________________
 
-# 5. Change Log versus provenance
+## 5. Change Log versus provenance
 
 `PROVENANCE.md` tracks ancestry.
 
@@ -284,15 +284,15 @@ under evidence E,
 with lifecycle state S
 ```
 
----
+______________________________________________________________________
 
-# 6. Change event object
+## 6. Change event object
 
 A Generator change can be modeled as:
 
-[
-\Delta G =
-\langle
+\[
+\\Delta G =
+\\langle
 Before,
 After,
 ChangeClass,
@@ -303,8 +303,8 @@ Authority,
 Scope,
 Regime,
 Dependencies
-\rangle
-]
+\\rangle
+\]
 
 A complete entry should distinguish:
 
@@ -321,9 +321,9 @@ whether it was activated
 whether it was later reverted
 ```
 
----
+______________________________________________________________________
 
-# 7. Change classes
+## 7. Change classes
 
 ```yaml
 generator_change_classes:
@@ -437,9 +437,9 @@ generator_change_classes:
       - supersession correction
 ```
 
----
+______________________________________________________________________
 
-# 8. Change lifecycle
+## 8. Change lifecycle
 
 Recommended lifecycle:
 
@@ -465,9 +465,9 @@ STALE
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 9. Change-state hard boundaries
+## 9. Change-state hard boundaries
 
 ```text
 PROPOSED
@@ -492,9 +492,9 @@ ACTIVE
 != FINALIZED
 ```
 
----
+______________________________________________________________________
 
-# 10. Typed change entry
+## 10. Typed change entry
 
 ```yaml
 generator_change_entry:
@@ -606,9 +606,9 @@ generator_change_entry:
     0
 ```
 
----
+______________________________________________________________________
 
-# 11. Change ID policy
+## 11. Change ID policy
 
 Each material change should use stable identity.
 
@@ -622,9 +622,9 @@ or a repository/provider-native stable ID.
 
 Do not use mutable titles as the sole identity.
 
----
+______________________________________________________________________
 
-# 12. Version-diff identity
+## 12. Version-diff identity
 
 For version transition:
 
@@ -644,9 +644,9 @@ version_diff:
 
 This prevents ambiguous “updated” entries.
 
----
+______________________________________________________________________
 
-# 13. Change summary contract
+## 13. Change summary contract
 
 A change summary should answer:
 
@@ -664,9 +664,9 @@ WHICH evidence validates it?
 WHAT invalidates or reverts it?
 ```
 
----
+______________________________________________________________________
 
-# 14. Change significance
+## 14. Change significance
 
 Suggested:
 
@@ -683,9 +683,9 @@ UNKNOWN
 
 Do not infer semantic version class solely from numeric version.
 
----
+______________________________________________________________________
 
-# 15. Breaking-change definition
+## 15. Breaking-change definition
 
 A change is potentially breaking if it alters:
 
@@ -701,9 +701,9 @@ provenance requirements
 validation requirements
 ```
 
----
+______________________________________________________________________
 
-# 16. Non-breaking change
+## 16. Non-breaking change
 
 Possible non-breaking changes include:
 
@@ -716,9 +716,9 @@ new test with no runtime semantics change
 
 Compatibility should still be demonstrated where consequential.
 
----
+______________________________________________________________________
 
-# 17. Documentation-only change
+## 17. Documentation-only change
 
 Documentation-only status should be explicit:
 
@@ -734,9 +734,9 @@ DOCUMENTATION_CHANGED
 != RUNTIME_CHANGED
 ```
 
----
+______________________________________________________________________
 
-# 18. Change provenance
+## 18. Change provenance
 
 Each change should preserve:
 
@@ -751,9 +751,9 @@ test receipts
 promotion receipts
 ```
 
----
+______________________________________________________________________
 
-# 19. Source-root preservation
+## 19. Source-root preservation
 
 If a change was derived from one canonical source copied across multiple docs:
 
@@ -764,9 +764,9 @@ multiple changed files
 
 Source ancestry remains one root where appropriate.
 
----
+______________________________________________________________________
 
-# 20. Change evidence topology
+## 20. Change evidence topology
 
 A change may have evidence such as:
 
@@ -781,24 +781,22 @@ runtime observation
 
 Do not count multiple downstream artifacts from one implementation diff as independent confirmation.
 
----
+______________________________________________________________________
 
-# 21. Change dependency graph
+## 21. Change dependency graph
 
-For change \(C\):
+For change (C):
 
-[
-Dependents(C)
-=============
+## \[ Dependents(C)
 
-{x : validity(x) \text{ can change if C changes}}
-]
+{x : validity(x) \\text{ can change if C changes}}
+\]
 
 Track this set where practical.
 
----
+______________________________________________________________________
 
-# 22. Selective invalidation
+## 22. Selective invalidation
 
 If a Generator schema changes:
 
@@ -815,9 +813,9 @@ preserve:
 
 Avoid global invalidation.
 
----
+______________________________________________________________________
 
-# 23. Change read set
+## 23. Change read set
 
 Consequential changes may bind the state they observed.
 
@@ -829,9 +827,9 @@ change_read_set:
     load_bearing: true
 ```
 
----
+______________________________________________________________________
 
-# 24. Change write set
+## 24. Change write set
 
 ```yaml
 change_write_set:
@@ -843,9 +841,9 @@ change_write_set:
 
 A change should not silently exceed its declared effect.
 
----
+______________________________________________________________________
 
-# 25. MVCC / CAS change semantics
+## 25. MVCC / CAS change semantics
 
 Conceptually:
 
@@ -864,9 +862,9 @@ STALE_CHANGE
 
 before commit.
 
----
+______________________________________________________________________
 
-# 26. Change atomicity
+## 26. Change atomicity
 
 Coupled changes may require atomic treatment.
 
@@ -888,9 +886,9 @@ If these must remain consistent:
 atomicity_required = true
 ```
 
----
+______________________________________________________________________
 
-# 27. Partial change rule
+## 27. Partial change rule
 
 If an atomic change bundle fails:
 
@@ -904,9 +902,9 @@ Possible result:
 PARTIAL / QUARANTINED / ROLLED_BACK
 ```
 
----
+______________________________________________________________________
 
-# 28. Change bundle record
+## 28. Change bundle record
 
 ```yaml
 change_bundle:
@@ -924,9 +922,9 @@ change_bundle:
   rollback_target: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 29. Generator contract changes
+## 29. Generator contract changes
 
 Material changes to `GENERATOR_CONTRACT.md` should record:
 
@@ -939,9 +937,9 @@ changed effect model
 changed authority boundary
 ```
 
----
+______________________________________________________________________
 
-# 30. Validation changes
+## 30. Validation changes
 
 Changes to `VALIDATION.md` should record:
 
@@ -955,9 +953,9 @@ changed receipt semantics
 
 A weaker validation requirement is governance-significant.
 
----
+______________________________________________________________________
 
-# 31. Test-suite changes
+## 31. Test-suite changes
 
 Changes to `TESTS.md` should record:
 
@@ -972,9 +970,9 @@ changed test classification
 
 Removing a test can invalidate confidence in prior validation.
 
----
+______________________________________________________________________
 
-# 32. Provenance changes
+## 32. Provenance changes
 
 Changes to `PROVENANCE.md` should record:
 
@@ -987,9 +985,9 @@ epoch changes
 retention changes
 ```
 
----
+______________________________________________________________________
 
-# 33. Integration changes
+## 33. Integration changes
 
 Changes to `INTEGRATION.md` should record:
 
@@ -1002,9 +1000,9 @@ changed event route
 changed state semantics
 ```
 
----
+______________________________________________________________________
 
-# 34. Roadmap changes
+## 34. Roadmap changes
 
 Roadmap changes belong in the Change Log as plan changes, not implementation events.
 
@@ -1016,9 +1014,9 @@ runtime_effect:
   none_claimed: true
 ```
 
----
+______________________________________________________________________
 
-# 35. History corrections
+## 35. History corrections
 
 A correction to `HISTORY.md` should be recorded as:
 
@@ -1035,9 +1033,9 @@ evidence
 affected dependent claims
 ```
 
----
+______________________________________________________________________
 
-# 36. Generator registry changes
+## 36. Generator registry changes
 
 Track:
 
@@ -1052,9 +1050,9 @@ scope changed
 
 A registry edit does not prove runtime activation.
 
----
+______________________________________________________________________
 
-# 37. Template registry changes
+## 37. Template registry changes
 
 Track:
 
@@ -1065,9 +1063,9 @@ semantic changes
 affected Generator classes
 ```
 
----
+______________________________________________________________________
 
-# 38. Validator registry changes
+## 38. Validator registry changes
 
 Track changes to:
 
@@ -1078,9 +1076,9 @@ validation scope
 status
 ```
 
----
+______________________________________________________________________
 
-# 39. Worker registry changes
+## 39. Worker registry changes
 
 Particularly sensitive changes include:
 
@@ -1092,9 +1090,9 @@ rollback semantics
 idempotency requirements
 ```
 
----
+______________________________________________________________________
 
-# 40. Event Bus changes
+## 40. Event Bus changes
 
 Track:
 
@@ -1109,9 +1107,9 @@ idempotency semantics
 
 Event transport changes may invalidate integration tests.
 
----
+______________________________________________________________________
 
-# 41. State model changes
+## 41. State model changes
 
 Track changes to:
 
@@ -1124,9 +1122,9 @@ write-set semantics
 conflict behavior
 ```
 
----
+______________________________________________________________________
 
-# 42. Promotion changes
+## 42. Promotion changes
 
 Track:
 
@@ -1139,9 +1137,9 @@ blocking conditions
 
 A change that lowers promotion burden is governance-critical.
 
----
+______________________________________________________________________
 
-# 43. Policy changes
+## 43. Policy changes
 
 Generated policy candidates should not appear as active changes until independently promoted.
 
@@ -1150,9 +1148,9 @@ POLICY_CANDIDATE
 != ACTIVE_POLICY_CHANGE
 ```
 
----
+______________________________________________________________________
 
-# 44. Authority changes
+## 44. Authority changes
 
 Track changes to:
 
@@ -1167,9 +1165,9 @@ revocation
 
 Authority changes are among the highest-risk Change Log entries.
 
----
+______________________________________________________________________
 
-# 45. Security changes
+## 45. Security changes
 
 Security-related changes should include:
 
@@ -1182,9 +1180,9 @@ regression tests
 residual risk
 ```
 
----
+______________________________________________________________________
 
-# 46. Recovery changes
+## 46. Recovery changes
 
 Track changes to:
 
@@ -1197,9 +1195,9 @@ rebind
 selective invalidation
 ```
 
----
+______________________________________________________________________
 
-# 47. Finality changes
+## 47. Finality changes
 
 Track separately from ordinary commit behavior.
 
@@ -1208,9 +1206,9 @@ COMMIT_CHANGE
 != FINALITY_CHANGE
 ```
 
----
+______________________________________________________________________
 
-# 48. Change event taxonomy
+## 48. Change event taxonomy
 
 Suggested events:
 
@@ -1228,9 +1226,9 @@ GENERATOR_CHANGE_SUPERSEDED
 GENERATOR_CHANGE_CORRECTED
 ```
 
----
+______________________________________________________________________
 
-# 49. Change event envelope
+## 49. Change event envelope
 
 ```yaml
 generator_change_event:
@@ -1258,9 +1256,9 @@ generator_change_event:
   timestamp: null
 ```
 
----
+______________________________________________________________________
 
-# 50. Change authority firewall
+## 50. Change authority firewall
 
 Event presence cannot authorize change.
 
@@ -1276,9 +1274,9 @@ CHANGE_LOG_ENTRY
 != COMMIT_PERMISSION
 ```
 
----
+______________________________________________________________________
 
-# 51. Change admission workflow
+## 51. Change admission workflow
 
 ```text
 CHANGE_PROPOSED
@@ -1302,9 +1300,9 @@ CHANGE LOG ENTRY FINALIZED
 
 This is a structural model until implementation is recovered.
 
----
+______________________________________________________________________
 
-# 52. Rejected-change workflow
+## 52. Rejected-change workflow
 
 ```text
 CHANGE_PROPOSED
@@ -1318,9 +1316,9 @@ LOG FAILURE
 
 Rejected changes should remain historically visible.
 
----
+______________________________________________________________________
 
-# 53. Revert workflow
+## 53. Revert workflow
 
 ```text
 ACTIVE CHANGE
@@ -1334,9 +1332,9 @@ REVERT ENTRY
 DEPENDENT STATE REVALIDATED
 ```
 
----
+______________________________________________________________________
 
-# 54. Supersession workflow
+## 54. Supersession workflow
 
 ```text
 CHANGE C1
@@ -1348,9 +1346,9 @@ Only if explicit succession evidence exists.
 
 Do not infer from timestamps.
 
----
+______________________________________________________________________
 
-# 55. Change correction workflow
+## 55. Change correction workflow
 
 ```text
 CHANGE LOG ENTRY E1
@@ -1364,9 +1362,9 @@ E1 RETAINED
 CURRENT INTERPRETATION UPDATED
 ```
 
----
+______________________________________________________________________
 
-# 56. Append-only preference
+## 56. Append-only preference
 
 The Change Log should prefer append-preserving corrections over silent deletion.
 
@@ -1380,9 +1378,9 @@ provenance
 historical reconstruction
 ```
 
----
+______________________________________________________________________
 
-# 57. Mutable current-state fields
+## 57. Mutable current-state fields
 
 Some metadata may represent current interpretation:
 
@@ -1394,9 +1392,9 @@ current_validation
 
 But prior entries should remain recoverable.
 
----
+______________________________________________________________________
 
-# 58. Change-log invariants
+## 58. Change-log invariants
 
 ## I-GCHG-001 — No fabricated changes
 
@@ -1430,9 +1428,9 @@ But prior entries should remain recoverable.
 
 ## I-GCHG-016 — Change causation must not be inferred from sequence alone
 
----
+______________________________________________________________________
 
-# 59. Change validation
+## 59. Change validation
 
 Validate each material change for:
 
@@ -1451,9 +1449,9 @@ authority
 provenance
 ```
 
----
+______________________________________________________________________
 
-# 60. Change validation result
+## 60. Change validation result
 
 ```yaml
 change_validation_result:
@@ -1474,9 +1472,9 @@ change_validation_result:
     UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 61. Change tests
+## 61. Change tests
 
 Required classes:
 
@@ -1494,9 +1492,9 @@ regression
 security
 ```
 
----
+______________________________________________________________________
 
-# 62. Constitutional change-log tests
+## 62. Constitutional change-log tests
 
 ```text
 T-GCHG-001
@@ -1544,9 +1542,9 @@ later timestamp
 → not sufficient to establish successor
 ```
 
----
+______________________________________________________________________
 
-# 63. Adversarial tests
+## 63. Adversarial tests
 
 Test against:
 
@@ -1563,9 +1561,9 @@ roadmap-to-implementation promotion
 commit-to-deployment overclaim
 ```
 
----
+______________________________________________________________________
 
-# 64. Failure modes
+## 64. Failure modes
 
 ```yaml
 failure_modes:
@@ -1636,9 +1634,9 @@ failure_modes:
       Change Log metadata treated as authorization
 ```
 
----
+______________________________________________________________________
 
-# 65. Repair / recovery
+## 65. Repair / recovery
 
 ```text
 CHANGE LOG DEFECT
@@ -1656,9 +1654,9 @@ RECLASSIFY DEPENDENT ENTRIES
 PRESERVE UNAFFECTED ENTRIES
 ```
 
----
+______________________________________________________________________
 
-# 66. Regression linkage
+## 66. Regression linkage
 
 Every material fixed defect should link:
 
@@ -1671,9 +1669,9 @@ regression_link:
   regression_test: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 67. Change receipt
+## 67. Change receipt
 
 ```yaml
 generator_change_receipt:
@@ -1698,9 +1696,9 @@ generator_change_receipt:
   recorded_at: null
 ```
 
----
+______________________________________________________________________
 
-# 68. Receipt boundary
+## 68. Receipt boundary
 
 ```text
 CHANGE_RECEIPT
@@ -1713,9 +1711,9 @@ AUTHORITY
 != FINALITY
 ```
 
----
+______________________________________________________________________
 
-# 69. Change Agents
+## 69. Change Agents
 
 Potential roles:
 
@@ -1733,9 +1731,9 @@ Agents may structure change evidence.
 
 They do not promote changes by themselves.
 
----
+______________________________________________________________________
 
-# 70. Change Skills
+## 70. Change Skills
 
 Potential Skills:
 
@@ -1752,9 +1750,9 @@ record-generator-revert
 record-generator-supersession
 ```
 
----
+______________________________________________________________________
 
-# 71. Change Engine layer
+## 71. Change Engine layer
 
 Possible Engines:
 
@@ -1769,9 +1767,9 @@ Supersession Engine
 
 These remain MODEL-level architecture unless implemented.
 
----
+______________________________________________________________________
 
-# 72. Change kernels
+## 72. Change kernels
 
 Potential deterministic kernels:
 
@@ -1788,9 +1786,9 @@ check_rollback_target()
 invalidate_dependents()
 ```
 
----
+______________________________________________________________________
 
-# 73. Worker boundary
+## 73. Worker boundary
 
 Durable Change Log updates should not imply direct runtime mutation.
 
@@ -1807,9 +1805,9 @@ Worker
 → persists change record
 ```
 
----
+______________________________________________________________________
 
-# 74. Change Log observability
+## 74. Change Log observability
 
 Useful queries:
 
@@ -1833,9 +1831,9 @@ Which changes invalidated prior receipts?
 Which changes remain unresolved?
 ```
 
----
+______________________________________________________________________
 
-# 75. Change metrics
+## 75. Change metrics
 
 Potential metrics:
 
@@ -1854,9 +1852,9 @@ stale_change_receipts
 
 Metrics are operational summaries, not assurance proofs.
 
----
+______________________________________________________________________
 
-# 76. Change impact vector
+## 76. Change impact vector
 
 ```yaml
 change_impact:
@@ -1873,9 +1871,9 @@ change_impact:
   finality: NONE_OR_UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 77. Change risk classification
+## 77. Change risk classification
 
 Suggested:
 
@@ -1890,9 +1888,9 @@ R5 GOVERNANCE_OR_SECURITY_CRITICAL
 
 Exact thresholds remain policy-dependent.
 
----
+______________________________________________________________________
 
-# 78. High-risk change escalation
+## 78. High-risk change escalation
 
 Escalate when a change affects:
 
@@ -1908,9 +1906,9 @@ finality
 provenance independence
 ```
 
----
+______________________________________________________________________
 
-# 79. Change freshness
+## 79. Change freshness
 
 A Change Log entry may remain historically valid while its current applicability becomes stale.
 
@@ -1923,9 +1921,9 @@ change_temporal:
   valid_until: null
 ```
 
----
+______________________________________________________________________
 
-# 80. Change scope
+## 80. Change scope
 
 Every change should declare applicability:
 
@@ -1938,9 +1936,9 @@ scope:
   HML: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 81. Regime binding
+## 81. Regime binding
 
 A change valid in:
 
@@ -1956,9 +1954,9 @@ LIVE
 
 without additional evidence.
 
----
+______________________________________________________________________
 
-# 82. RSCF node contract
+## 82. RSCF node contract
 
 ```yaml
 RSCF-NODE:
@@ -2013,9 +2011,9 @@ RSCF-NODE:
     0
 ```
 
----
+______________________________________________________________________
 
-# 83. RSCF relations
+## 83. RSCF relations
 
 ```yaml
 RSCF-RELATIONS:
@@ -2054,9 +2052,9 @@ RSCF-RELATIONS:
       "Generator History"
 ```
 
----
+______________________________________________________________________
 
-# 84. RSCF completion state
+## 84. RSCF completion state
 
 ```yaml
 rscf:
@@ -2117,9 +2115,9 @@ rscf:
     PLACEHOLDER
 ```
 
----
+______________________________________________________________________
 
-# 85. GMEF completion state
+## 85. GMEF completion state
 
 ```yaml
 gmef:
@@ -2167,9 +2165,9 @@ gmef:
     UNFINALIZED
 ```
 
----
+______________________________________________________________________
 
-# 86. Source / canon references
+## 86. Source / canon references
 
 ```yaml
 source_canon:
@@ -2196,9 +2194,9 @@ source_canon:
       UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 87. Dependency graph
+## 87. Dependency graph
 
 ```text
 GENERATORS_CHANGE_LOG
@@ -2228,9 +2226,9 @@ GENERATORS_CHANGE_LOG
 └── CONTROL_PLANE
 ```
 
----
+______________________________________________________________________
 
-# 88. Related artifacts
+## 88. Related artifacts
 
 ```yaml
 related:
@@ -2275,9 +2273,9 @@ related:
     UNVERIFIED
 ```
 
----
+______________________________________________________________________
 
-# 89. Relation ontology
+## 89. Relation ontology
 
 ```text
 CHANGES
@@ -2300,9 +2298,9 @@ MIGRATES_TO
 CORRECTS
 ```
 
----
+______________________________________________________________________
 
-# 90. Current recoverable Change Log
+## 90. Current recoverable Change Log
 
 Only evidence-supported entries should appear here.
 
@@ -2456,9 +2454,9 @@ change_log:
       UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 91. Current interpretation
+## 91. Current interpretation
 
 The defensible current interpretation is:
 
@@ -2479,9 +2477,9 @@ Change Log
 
 This does **not** establish corresponding runtime implementation.
 
----
+______________________________________________________________________
 
-# 92. Missing change evidence
+## 92. Missing change evidence
 
 Not yet established:
 
@@ -2505,9 +2503,9 @@ These remain:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 93. Completion status
+## 93. Completion status
 
 ```yaml
 completion_status:
@@ -2581,9 +2579,9 @@ completion_status:
     status: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 94. Gap registry
+## 94. Gap registry
 
 ```yaml
 gaps:
@@ -2616,9 +2614,9 @@ gaps:
     - display ordering
 ```
 
----
+______________________________________________________________________
 
-# 95. Hard boundaries
+## 95. Hard boundaries
 
 ```text
 PLACEHOLDER != COMPLETE_CHANGE_LOG
@@ -2666,9 +2664,9 @@ SEQUENCE != CAUSATION
 UNKNOWN/GAP != PASS
 ```
 
----
+______________________________________________________________________
 
-# 96. Current decision
+## 96. Current decision
 
 ```yaml
 decision:
@@ -2710,9 +2708,9 @@ decision:
     - treat change record as authority
 ```
 
----
+______________________________________________________________________
 
-# 97. Final proof capsule
+## 97. Final proof capsule
 
 ```yaml
 proof_capsule:
@@ -2765,9 +2763,9 @@ proof_capsule:
     - NON_AUTHORITATIVE
 ```
 
----
+______________________________________________________________________
 
-# 98. Final conclusion
+## 98. Final conclusion
 
 **Claim**
 
@@ -2836,11 +2834,11 @@ UNKNOWN/GAP
 NON_AUTHORITATIVE
 ```
 
----
+______________________________________________________________________
 
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] · [[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[25_COGNITIVE_MATRIX/12_GENERATORS/00_INDEX/GENERATORS_MAP|GENERATORS_MAP]] · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
@@ -2859,7 +2857,7 @@ NON_AUTHORITATIVE
 - Authoritative State
 - Provenance Manifest
 
-```
+````
 
 The intended separation across the Generator records is:
 
@@ -2887,12 +2885,12 @@ HISTORY.md
 
 GENERATORS_CHANGE_LOG.md
 → append-oriented record of individual accepted/rejected/reverted changes
-```
+````
 
 That keeps the Change Log operational and auditable instead of allowing it to become a second History file or a narrative list of unsupported “updates.”
 
----
-**MOC:**
+______________________________________________________________________
 
+**MOC:**
 
 ```

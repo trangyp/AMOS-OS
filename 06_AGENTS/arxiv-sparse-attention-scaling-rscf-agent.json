@@ -74,7 +74,7 @@
     "arxiv-sparse-attention-scaling-rscf"
   ],
   "depends_on_workflows": [
-    "arxiv-sparse-attention-scaling-rscf-workflow.md"
+    "amos-arxiv-sparse-attention-scaling-rscf-workflow.md"
   ],
   "epistemic_class": "AMOS_MODEL",
   "claim_ceiling": 0.95,

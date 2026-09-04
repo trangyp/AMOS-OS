@@ -5,36 +5,36 @@ origin_architect: Trang Phan
 type: moc
 source: 11_KNOWLEDGE
 tags:
-- canon-group/human-system
-- canon/framework
-- rscf/claim
-- rscf/provenance
-- rscf/state/observation
-- index
-- architecture
-- amos-obsidian-linking-plugins
-- amos-layer-maps
-- amos-templates
-- fractal-runtime
-- logic-kernel
-- constraint-engine
-- tensor-contracts
-- claim-tensor
-- evidence-tensor
-- relation-tensor
-- memory-architecture
-- boundary-identity
-- governance-tensor
-- rscf-proof-capsule
-- regime-freshness
-- adversarial-validation
-- sensitivity-falsifiers
-- error-recovery
-- cognition-kernel
-- final-gate
-- speed-governor
-- agents
-- skill
+  - canon-group/human-system
+  - canon/framework
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/observation
+  - index
+  - architecture
+  - amos-obsidian-linking-plugins
+  - amos-layer-maps
+  - amos-templates
+  - fractal-runtime
+  - logic-kernel
+  - constraint-engine
+  - tensor-contracts
+  - claim-tensor
+  - evidence-tensor
+  - relation-tensor
+  - memory-architecture
+  - boundary-identity
+  - governance-tensor
+  - rscf-proof-capsule
+  - regime-freshness
+  - adversarial-validation
+  - sensitivity-falsifiers
+  - error-recovery
+  - cognition-kernel
+  - final-gate
+  - speed-governor
+  - agents
+  - skill
 status: living
 provenance: MODEL
 confidence: DERIVED
@@ -65,27 +65,29 @@ answer the question, expand only when outcome-changing uncertainty remains.
 - **Agent skills:** `.devin/skills/` (20,324 skills — **~100% coverage** of all ~81,700 brain spec Markdown files including subdirectories, 2026-08-24)
 - **Always-on contract:** `.github/copilot-instructions.md`, `GEMINI.md`
 
-
 ### Obsidian linking stack
 
 - [[11_KNOWLEDGE/AMOS_OBSIDIAN_LINKING_PLUGINS|AMOS_OBSIDIAN_LINKING_PLUGINS]] — configured plugin IDs, Templater starter, and linking checklist
+
 ### Layer map index
 
 - [[00_ROOT/AMOS_LAYER_MAPS|AMOS_LAYER_MAPS]] — top-level AMOS layer map index
+
 ### Templates
 
 - [[00_ROOT/AMOS_TEMPLATES|AMOS_TEMPLATES]] — AMOS template index
 - linked-note|linked-note template
 - [[00_ROOT/00_HOME|00_HOME]] — universal vault hub
+
 ## Operational brain — module map
 
 - 00_boot: brain/00_boot/BOOTSTRAP · ROUTER · LOAD_MAP · OS_Agent_Model
-- 10_core: INVARIANTS · CLAIM_CLASSES · [[04_RUNTIME/06_EXECUTION/FRACTAL_RUNTIME|FRACTAL_RUNTIME]] · [[11_KNOWLEDGE/kernel/LOGIC_KERNEL|LOGIC_KERNEL]] · EQUATION_* · VARIABLE_REGISTRY · [[11_KNOWLEDGE/engine/CONSTRAINT_ENGINE|CONSTRAINT_ENGINE]] · Consciousness_Engine_Model · Personality_Engine_Model · Emotion_Engine_Model · Cognition_Engine_Model · Mind_OS_Model
+- 10_core: INVARIANTS · CLAIM_CLASSES · [[04_RUNTIME/06_EXECUTION/FRACTAL_RUNTIME|FRACTAL_RUNTIME]] · [[11_KNOWLEDGE/kernel/LOGIC_KERNEL|LOGIC_KERNEL]] · EQUATION\_\* · VARIABLE_REGISTRY · [[11_KNOWLEDGE/engine/CONSTRAINT_ENGINE|CONSTRAINT_ENGINE]] · Consciousness_Engine_Model · Personality_Engine_Model · Emotion_Engine_Model · Cognition_Engine_Model · Mind_OS_Model
 - 20_state: [[11_KNOWLEDGE/TENSOR_CONTRACTS|TENSOR_CONTRACTS]] · [[11_KNOWLEDGE/CLAIM_TENSOR|CLAIM_TENSOR]] · [[11_KNOWLEDGE/EVIDENCE_TENSOR|EVIDENCE_TENSOR]] · [[11_KNOWLEDGE/RELATION_TENSOR|RELATION_TENSOR]] · MEMORY_ARCHITECTURE · WORKING_MEMORY · BOUNDARY_IDENTITY · UNCERTAINTY_VECTOR · ENTROPY_LACUNARITY · STATE_MACHINE · CONTEXT_ORIENTATION · GOVERNANCE_TENSOR
 - 30_epistemics: PROVENANCE_TOPOLOGY · RSCF_PROOF_CAPSULE · COMPETING_HYPOTHESES · REGIME_FRESHNESS · ADVERSARIAL_VALIDATION · SENSITIVITY_FALSIFIERS · CAUSAL_FIREWALL · ERROR_RECOVERY · SYBIL_HARDENING
 - 40_runtime: RUNTIME_LINEAGE · TRANSACTION_PROTOCOL · V3_0…V4_4 (MVCC/CAS, causal epoch, coordination avoidance)
 - 50_governance: GMEF · AUTHORITY_GOVERNOR · EVOLUTION_DEBT · EVOLUTION_MEMORY · REPAIR_ROLLBACK
-- 60_execution: REPOSITORY_REASONING · KNOWLEDGE_HARVEST · EXECUTION_HARNESS · EXECUTION_PROVENANCE · BENCHMARK_FIREWALL · *_EVIDENCE_SCHEMA
+- 60_execution: REPOSITORY_REASONING · KNOWLEDGE_HARVEST · EXECUTION_HARNESS · EXECUTION_PROVENANCE · BENCHMARK_FIREWALL · \*\_EVIDENCE_SCHEMA
 - 70_domain: [[11_KNOWLEDGE/kernel/COGNITION_KERNEL|COGNITION_KERNEL]] · UNIVERSAL_FIELD_MODEL · SOURCE_MODEL_BOUNDARY
 - 90_output: FINAL_GATE · OUTPUT_PROTOCOL · CONTEXT_BUDGET · TOKEN_GOVERNOR · SPEED_GOVERNOR
 - 95_meta: SELF_REVIEW (self-review loop — hardens reasoning before any consequential output or brain write)
@@ -105,7 +107,7 @@ answer the question, expand only when outcome-changing uncertainty remains.
 - Unipower Regional & Legal (NEW): amos-australia-engine-layer · AMOS_Australia_Engines_Model · amos-china-engine-layer · AMOS_China_Engines_Model · amos-vietnam-engine-layer · AMOS_Vietnam_Engines_Model · amos-global-legal-engine-layer · AMOS_Global_Legal_Engine_Model
 - Absolute & Systems Kernels (NEW): amos-absolute-omniverse-layer · Absolute_Omniverse_Model · amos-human-systems-engine-layer · Human_Systems_Engine_Model · amos-grand-cannon-mobility-layer · Grand_Cannon_Mobility_Model · amos-vn-omnistructure-layer · VN_Omnistructure_Model · amos-human-interaction-engine-layer · Human_Interaction_Engine_Model · amos-canon-integration-layer · Canon_Integration_Layer_Model · amos-reasoning-kernel-layer · Reasoning_Kernel_Model · amos-absolute-logic-layer · Absolute_Logic_Model · amos-hse-ceo-engine-layer · HSE_CEO_Engine_Model · amos-extractive-economy-layer · Extractive_Economy_Model · amos-absolute-human-layer · Absolute_Human_Model · amos-total-technical-engine-layer · Total_Technical_Engine_Model · amos-os-masterfile-layer · OS_Masterfile_Model · amos-vomni-kernel-layer · Vomni_Kernel_Model
 - Domain tensors: agency-consequence · boundary-topology · causal-mediation · civilization-memory · identity-continuity · consequence-propagation · field-permeability · mutation-selection-repair · observer-information-injection · phase-transition-metastability · planetary-coupled-intelligence · recurrence-hysteresis · recursive-governance-finality · resonance-coupling · rule-dna-integrity · semantic-compression · signal-noise-compression · strategic-field-19x19 · symmetry-breaking
-- Orchestration (rp-*): build · deep-plan · investigate · optimize · oracle-export · orchestrate · refactor · reminder · review · amos-os-agent-layer
+- Orchestration (rp-\*): build · deep-plan · investigate · optimize · oracle-export · orchestrate · refactor · reminder · review · amos-os-agent-layer
 - Governance: amos-governed-evolution · amos-speed-token-governor
 - Brain specs → skills (session 2): amos-gmef-spec · amos-self-review-capsule · amos-state-machine-spec · amos-brain-architecture-audit-spec · amos-brain-consistency-audit-spec · amos-meta-kernel-spec · amos-agent-specifications · amos-agent-execution-templates · amos-agent-skill-index · amos-absolute-protocol-synthesis · amos-agency-consequence-tensor · amos-causal-mediation-tensor · amos-domain-tensor-index · amos-trang-phi-framework-spec · amos-formal-systems-invariants-spec · amos-trang-grand-system-spec · amos-brain-fragment-structure · amos-brain-current-state-memory · amos-brain-inventory-verified · amos-agent-systems-learning-record · amos-deep-structure-learning · amos-7-part-universe-canon · amos-complete-human-system-distilled · amos-human-interaction-governance · amos-decision-risk-governance · amos-canon-cryptographic-infrastructure · amos-cognitive-architecture-matrix-governance · amos-obsidian-memory-bridge · amos-obsidian-operating-manual · amos-go-board-19x19-formal-system · amos-build-from-spec-organism-blueprint · amos-meta-gap-analysis-completion-graph · amos-system-completion-roadmap · amos-all-249-gaps-closed · amos-complete-human-system-books · amos-complete-human-system-epistemic-audit-v2 · amos-go-board-19x19-computational-completeness
 - Conversion doc: 2026-08-23 AMOS Brain Specs to Skills Conversion
@@ -120,7 +122,7 @@ answer the question, expand only when outcome-changing uncertainty remains.
 
 - `amos-quantum-canon-gate` — O1 quantum grounding channel: 75-entry library v0.8.0, rarest-first merge, frontier rule. Self-test 10/10.
 - `amos-fractal-math-canon-gate` — O1b fractal/math channel: 25-family FractalAtlas + DMER trajectory simulation (classify_dmer_scenario → OPEN/CLOSING/CLOSED verdicts). Self-test 13/13. Atlas is FR ID authority (FR019=Logistic).
-- `amos-ubcar-router` — executable routing harness S_{t+1}=C(F(S_t,U_t)); O1/O1b receipts in provenance; self-test 8/8
+- `amos-ubcar-router` — executable routing harness S\_{t+1}=C(F(S_t,U_t)); O1/O1b receipts in provenance; self-test 8/8
 - `amos-fractal-math-engine` — DMER kernel runbook + FR table aligned to atlas authority
 - `amos-formal-engines-runner` — five-gate engine verification runbook
 - `amos-quantum-knowledge-pipeline` — library→loader→bridge→index pipeline (v0.8.0 counts)
@@ -175,7 +177,7 @@ answer the question, expand only when outcome-changing uncertainty remains.
 
 - `amos-formal-systems-invariants` — G-N-D-C-B dynamical system (universal stability model), 300 formal invariants (Inv 701-1000), C301-C500 constraint catalog, 19×19 sparse coupling matrix, micro↔macro 100k-year civilization map. CSI=(D+B)/(G·N).
 - `amos-proof-checking-kernel-gate` — Post-execution proof checking gate wired into AmosKernel. 4 gates per claim (scope-regime, confidence, causal, falsifier). Conditional execution when claims present. ProofChecker + ProvenanceGraph.
-- `amos-cognitive-substrate-reality-gate` — Prevents epistemic autopoisoning. RC/IR gate: Promote(X) => RC(X) >= theta_RC AND IR(X) <= theta_IR. Memory I/O pipelines with quarantine. 4-slice consolidation (146 self-tests).
+- `amos-cognitive-substrate-reality-gate` — Prevents epistemic autopoisoning. RC/IR gate: Promote(X) => RC(X) >= theta_RC AND IR(X) \<= theta_IR. Memory I/O pipelines with quarantine. 4-slice consolidation (146 self-tests).
 - `amos-gap-discovery-engine` — All 6 discovery modes: structural, failure-driven, compliance-driven, boundary-driven, contradiction-driven, temporal. GAP-MGMT-001 NOT_COVERED → COVERED. 15/15 self-tests.
 - `amos-qfm-five-layer-master-router` — Single entry point for QFM stack. 5-layer architecture (L1 Knowledge, L2 Bridges, L3 Dynamics, L4 Collapse, L5 Enforcement). Gate composition: G1-G8 always, G9 when L2 matched, G10 when L5 matched.
 - `amos-a-matrix-system-dynamics` — 19×19 sparse coupling matrix dynamics layer. dX/dt = A·X + U, 48 non-zero edges, 5 clusters, C6/C7 regime diagnostics. Completes four-layer 19×19 family (Logic/MURK, Semantic Matrix, Go Board, System Dynamics).
@@ -239,6 +241,7 @@ answer the question, expand only when outcome-changing uncertainty remains.
 - `daily/` — dated notes and decision log.
 
 ## Cognitive Stack — 20 kernel wrappers (NEW)
+
 The 20 `Core/Cognitive_Stack/*` kernel JSON specs are recovery stubs (`autofixed_raw` empty);
 their **authoritative reasoning layer lives in these wrapper skills**. Load the specific one when
 its trigger matches (parent overview: amos-cognitive-stack).
@@ -258,6 +261,7 @@ its trigger matches (parent overview: amos-cognitive-stack).
   run by the assistant before any non-trivial answer / code / decision. Keeps reasoning deterministic + auditable.
 
 ## Brain spec cluster wrappers (NEW, 2026-08-22)
+
 The whole-brain scan found 135 real specs with no wrapper (my earlier "57/57" only counted Cognitive_Stack — a false confidence caught by
 `amos-meta-epistemology-kernel`). Distilled into MECE cluster wrappers (per `amos-cognitive-compression-kernel` + `amos-meta-ontology-kernel`),
 each lists its REAL member specs. Coverage: 135 → 0 genuine gaps.
@@ -268,7 +272,7 @@ each lists its REAL member specs. Coverage: 135 → 0 genuine gaps.
 - amos-unipower-engines — AU/CN/VN/Global/EV/BOD/Risk-Policy/Scientific/Strategic-Doc/Tech/Uni-AI/Market/SystemOps engines
 - amos-domains-engines — Audit/Quality, Species Interaction, Tech (Unified/Quantum/Expanded), Unified Coding, VN Legal, Vomni
 - amos-kernels-tech · amos-kernels-governance-risk · amos-kernels-biology-cognition · amos-kernels-logic — the 4 Kernels subdirs
-- amos-brain-operating-config — bootstrap, registry, glossary, modes, body registry, OS-master, HSE, Grand Cannon, VN Omnistructure, Absolute-Human/Omniverse, Code Architect, Monogram, Auto/*
+- amos-brain-operating-config — bootstrap, registry, glossary, modes, body registry, OS-master, HSE, Grand Cannon, VN Omnistructure, Absolute-Human/Omniverse, Code Architect, Monogram, Auto/\*
 - amos-packs-country-sector-universe — Country (VN), Sector (National Brain), Universe (Absolute Omniverse) packs
 - amos-designer-os-profiles — Designer OS config, automation profiles, driver curriculum, Kernels-root Audit Quality
 - amos-new-troy-research — New Troy project (Planetary Consent Infrastructure, Living Stack, Monetisation, Floating Economy, AI Sweet Spots, Master Relationship Pack, The System, Break Mirrors) — 21 real files
@@ -299,60 +303,62 @@ each lists its REAL member specs. Coverage: 135 → 0 genuine gaps.
 - Live real-spec brain coverage: 57/57 (0 genuine gaps).
 
 ## New Kernel Notes (2026-08-22/23) — Google Drive Kernels Ingestion
+
 The following structured notes were created from offline-synced Google Drive `_00_AMOS_CANON/Kernels/` JSON files:
 
-| Kernel | Vault Note | Source Directory |
-|--------|------------|------------------|
-| Org Governance Engine v∞ | `AMOS Org Governance Engine vInfinity.md` | Governance_Risk/ |
-| Policy Geostrategy Engine v∞ | `AMOS Policy Geostrategy Engine vInfinity.md` | Governance_Risk/ |
-| Risk Compliance Engine v∞ | `AMOS Risk Compliance Engine vInfinity.md` | Governance_Risk/ |
-| Medical Clinical Kernel v∞ | `AMOS Medical Clinical Kernel vInfinity.md` | Biology_Cognition/ |
-| Scientific Kernel v∞ | `AMOS Scientific Kernel vInfinity.md` | Biology_Cognition/ |
-| Legal Kernel v∞ | `AMOS Legal Kernel vInfinity.md` | Governance_Risk/ |
-| Academic Writing Engine v∞ | `AMOS Academic Writing Engine vInfinity.md` | Logic/ |
-| Vietnamese Writing Engine v∞ | `AMOS Vietnamese Writing Engine vInfinity.md` | Logic/ |
-| Automation Kernel v∞ | `AMOS Automation Kernel vInfinity.md` | Tech/ |
-| Coding Engine Ω v∞ | `AMOS Coding Engine vInfinity.md` | Tech/ |
-| Design Engine MAX (X1000) | `AMOS Design Engine vInfinity_MAX.md` | Tech/ |
-| Corp Doc Engine v∞ | `AMOS Corp Doc Engine vInfinity.md` | Tech/ |
-| Engineering Math Kernel v∞ | `AMOS Engineering Math Kernel vInfinity.md` | Tech/ |
-| Tech Architecture Kernel v∞ | `AMOS Tech Architecture Kernel vInfinity.md` | Tech/ |
-| Unified Coding Kernel v∞ | `AMOS Unified Coding Kernel vInfinity.md` | Tech/ |
-| vOmni Kernel MAX | `AMOS vOmni Kernel vInfinity_MAX.md` | Tech/ |
-| VN Legal Engine v∞ | `AMOS VN Legal Engine vInfinity.md` | Governance_Risk/ |
-| Governance Economy Engine v∞ | `AMOS Governance Economy Engine vInfinity.md` | Governance_Risk/ |
-| Species Interaction Core Engine | `AMOS Species Interaction Core Engine.md` | Biology_Cognition/ |
-| Cognition Engine v∞ | `AMOS Cognition Engine vInfinity.md` | Core/ |
-| Consciousness Engine v∞ | `AMOS Consciousness Engine vInfinity.md` | Core/ |
-| Emotion Engine v∞ | `AMOS Emotion Engine vInfinity.md` | Core/ |
-| Personality Engine v∞ | `AMOS Personality Engine vInfinity.md` | Core/ |
-| Coding Kernel v∞ | `AMOS Coding Kernel vInfinity.md` | Tech/ |
-| Design Kernel v∞ | `AMOS Design Kernel vInfinity.md` | Tech/ |
-| Tech Architecture Kernel SUPER v∞ | `AMOS Tech Architecture Kernel SUPER vInfinity.md` | Tech/ |
-| Tech Design Engine v∞ | `AMOS Tech Design Engine vInfinity.md` | Tech/ |
-| Tech Quantum Engine v∞ | `AMOS Tech Quantum Engine vInfinity.md` | Tech/ |
-| Unified Coding Kernel v∞ | `AMOS Unified Coding Kernel vInfinity.md` | Tech/ |
-| VN Legal Engine v∞ | `AMOS VN Legal Engine vInfinity.md` | Governance_Risk/ |
-| Scientific Engine v∞ | `AMOS Scientific Engine vInfinity.md` | Core/ |
-| Brain Core v∞ | `AMOS_BRAIN_CORE_vInfinity.md` | Core/ |
-| Brain Core v∞ Expanded | `AMOS_BRAIN_CORE_vInfinity_EXPANDED.md` | Core/ |
-| Brain Core v∞ X300 | `AMOS_BRAIN_CORE_vInfinity_X300.md` | Core/ |
-| Consulting BizFin Engine v∞ | `AMOS_Consulting_BizFin_Engine_vInfinity.md` | Core/ |
-| Consulting Engine SUPER v∞ | `AMOS_Consulting_Engine_SUPER_x100k_vInfinity.md` | Core/ |
-| Corp Doc Engine SUPER v∞ | `AMOS_Corp_Doc_Engine_SUPER_x100k_vInfinity.md` | Tech/ |
-| EV Infrastructure Agents SUPER v∞ | `AMOS_EV_INFRASTRUCTURE_AGENTS_SUPER_ENGINE_vInfinity_X100k_GLOBAL_C_REFACTORED.md` | Tech/ |
-| EV Infrastructure Agents SUPER v2 | `AMOS_EV_INFRASTRUCTURE_AGENTS_SUPER_ENGINE_vInfinity_X100k_GLOBAL_C_REFACTORED_v2.md` | Tech/ |
-| EV Infrastructure Agents SUPER v3 | `AMOS_EV_INFRASTRUCTURE_AGENTS_SUPER_ENGINE_vInfinity_X100k_GLOBAL_C_REFACTORED_v3.md` | Tech/ |
-| Expression Translation v∞ | `AMOS_EXPRESSION_TRANSLATION_vInfinity_v4.md` | Core/ |
-| Kernel SUPER v∞ | `AMOS_KERNEL_SUPER_vInfinity.md` | Core/ |
-| Legal SUPER Engine v∞ | `AMOS_Legal_SUPER_Engine_vInfinity.md` | Core/ |
-| Meta Engines Index v∞ | `AMOS_META_ENGINES_INDEX_vInfinity.md` | Core/ |
-| OS Fabrication Stack v∞ | `AMOS_OS_FABRICATION_STACK_vInfinity.md` | Core/ |
-| Super Consciousness Engine v∞ | `AMOS_SUPER_CONSCIOUSNESS_ENGINE_vInfinity_MAX_H3.md` | Core/ |
-| Scientific Engine v∞ | `AMOS_Scientific_Engine_vInfinity.md` | Core/ |
-| Universe Kernel v∞ | `AMOS_UNIVERSE_KERNEL_vInfinity.md` | Core/ |
+| Kernel                            | Vault Note                                                                             | Source Directory   |
+| --------------------------------- | -------------------------------------------------------------------------------------- | ------------------ |
+| Org Governance Engine v∞          | `AMOS Org Governance Engine vInfinity.md`                                              | Governance_Risk/   |
+| Policy Geostrategy Engine v∞      | `AMOS Policy Geostrategy Engine vInfinity.md`                                          | Governance_Risk/   |
+| Risk Compliance Engine v∞         | `AMOS Risk Compliance Engine vInfinity.md`                                             | Governance_Risk/   |
+| Medical Clinical Kernel v∞        | `AMOS Medical Clinical Kernel vInfinity.md`                                            | Biology_Cognition/ |
+| Scientific Kernel v∞              | `AMOS Scientific Kernel vInfinity.md`                                                  | Biology_Cognition/ |
+| Legal Kernel v∞                   | `AMOS Legal Kernel vInfinity.md`                                                       | Governance_Risk/   |
+| Academic Writing Engine v∞        | `AMOS Academic Writing Engine vInfinity.md`                                            | Logic/             |
+| Vietnamese Writing Engine v∞      | `AMOS Vietnamese Writing Engine vInfinity.md`                                          | Logic/             |
+| Automation Kernel v∞              | `AMOS Automation Kernel vInfinity.md`                                                  | Tech/              |
+| Coding Engine Ω v∞                | `AMOS Coding Engine vInfinity.md`                                                      | Tech/              |
+| Design Engine MAX (X1000)         | `AMOS Design Engine vInfinity_MAX.md`                                                  | Tech/              |
+| Corp Doc Engine v∞                | `AMOS Corp Doc Engine vInfinity.md`                                                    | Tech/              |
+| Engineering Math Kernel v∞        | `AMOS Engineering Math Kernel vInfinity.md`                                            | Tech/              |
+| Tech Architecture Kernel v∞       | `AMOS Tech Architecture Kernel vInfinity.md`                                           | Tech/              |
+| Unified Coding Kernel v∞          | `AMOS Unified Coding Kernel vInfinity.md`                                              | Tech/              |
+| vOmni Kernel MAX                  | `AMOS vOmni Kernel vInfinity_MAX.md`                                                   | Tech/              |
+| VN Legal Engine v∞                | `AMOS VN Legal Engine vInfinity.md`                                                    | Governance_Risk/   |
+| Governance Economy Engine v∞      | `AMOS Governance Economy Engine vInfinity.md`                                          | Governance_Risk/   |
+| Species Interaction Core Engine   | `AMOS Species Interaction Core Engine.md`                                              | Biology_Cognition/ |
+| Cognition Engine v∞               | `AMOS Cognition Engine vInfinity.md`                                                   | Core/              |
+| Consciousness Engine v∞           | `AMOS Consciousness Engine vInfinity.md`                                               | Core/              |
+| Emotion Engine v∞                 | `AMOS Emotion Engine vInfinity.md`                                                     | Core/              |
+| Personality Engine v∞             | `AMOS Personality Engine vInfinity.md`                                                 | Core/              |
+| Coding Kernel v∞                  | `AMOS Coding Kernel vInfinity.md`                                                      | Tech/              |
+| Design Kernel v∞                  | `AMOS Design Kernel vInfinity.md`                                                      | Tech/              |
+| Tech Architecture Kernel SUPER v∞ | `AMOS Tech Architecture Kernel SUPER vInfinity.md`                                     | Tech/              |
+| Tech Design Engine v∞             | `AMOS Tech Design Engine vInfinity.md`                                                 | Tech/              |
+| Tech Quantum Engine v∞            | `AMOS Tech Quantum Engine vInfinity.md`                                                | Tech/              |
+| Unified Coding Kernel v∞          | `AMOS Unified Coding Kernel vInfinity.md`                                              | Tech/              |
+| VN Legal Engine v∞                | `AMOS VN Legal Engine vInfinity.md`                                                    | Governance_Risk/   |
+| Scientific Engine v∞              | `AMOS Scientific Engine vInfinity.md`                                                  | Core/              |
+| Brain Core v∞                     | `AMOS_BRAIN_CORE_vInfinity.md`                                                         | Core/              |
+| Brain Core v∞ Expanded            | `AMOS_BRAIN_CORE_vInfinity_EXPANDED.md`                                                | Core/              |
+| Brain Core v∞ X300                | `AMOS_BRAIN_CORE_vInfinity_X300.md`                                                    | Core/              |
+| Consulting BizFin Engine v∞       | `AMOS_Consulting_BizFin_Engine_vInfinity.md`                                           | Core/              |
+| Consulting Engine SUPER v∞        | `AMOS_Consulting_Engine_SUPER_x100k_vInfinity.md`                                      | Core/              |
+| Corp Doc Engine SUPER v∞          | `AMOS_Corp_Doc_Engine_SUPER_x100k_vInfinity.md`                                        | Tech/              |
+| EV Infrastructure Agents SUPER v∞ | `AMOS_EV_INFRASTRUCTURE_AGENTS_SUPER_ENGINE_vInfinity_X100k_GLOBAL_C_REFACTORED.md`    | Tech/              |
+| EV Infrastructure Agents SUPER v2 | `AMOS_EV_INFRASTRUCTURE_AGENTS_SUPER_ENGINE_vInfinity_X100k_GLOBAL_C_REFACTORED_v2.md` | Tech/              |
+| EV Infrastructure Agents SUPER v3 | `AMOS_EV_INFRASTRUCTURE_AGENTS_SUPER_ENGINE_vInfinity_X100k_GLOBAL_C_REFACTORED_v3.md` | Tech/              |
+| Expression Translation v∞         | `AMOS_EXPRESSION_TRANSLATION_vInfinity_v4.md`                                          | Core/              |
+| Kernel SUPER v∞                   | `AMOS_KERNEL_SUPER_vInfinity.md`                                                       | Core/              |
+| Legal SUPER Engine v∞             | `AMOS_Legal_SUPER_Engine_vInfinity.md`                                                 | Core/              |
+| Meta Engines Index v∞             | `AMOS_META_ENGINES_INDEX_vInfinity.md`                                                 | Core/              |
+| OS Fabrication Stack v∞           | `AMOS_OS_FABRICATION_STACK_vInfinity.md`                                               | Core/              |
+| Super Consciousness Engine v∞     | `AMOS_SUPER_CONSCIOUSNESS_ENGINE_vInfinity_MAX_H3.md`                                  | Core/              |
+| Scientific Engine v∞              | `AMOS_Scientific_Engine_vInfinity.md`                                                  | Core/              |
+| Universe Kernel v∞                | `AMOS_UNIVERSE_KERNEL_vInfinity.md`                                                    | Core/              |
 
 ## How to extend (governed evolution)
+
 Any change to skills/agents/prompts/memory/architecture passes the gate in
 amos-governed-evolution: target+benefit, authority, dependencies, predicted improvement,
 predicted regressions, validation plan, rollout scope, rollback path, provenance/version.
@@ -445,16 +451,16 @@ before persisting any conclusion.
 
 ### 7-Part Universe Canon + Integrity Infrastructure (2026-08-23, latest)
 
-| Note | Summary |
-|------|---------|
-| 2026-08-23 Brain Improvement Audit | Vault structural repairs: 9 broken wikilinks fixed, frontmatter added to templates, graph-health audit principle established |
-| 2026-08-23 LEGACY BRAIN2 Core Engine and Law Inventory | SOURCE survey: 55 files (Core/Domains/Kernels/Packs/Unipower), 5 Canonical Laws, UBI orchestrator NBI/NEI/SI/BEI, 3 JSON schema variants |
-| 7PT_CONSTRAINT_CANON · 7PT_FLOW_CANON · 7PT_STRUCTURE_CANON · 7PT_ENFORCEMENT_CANON · 7PT_TIME_CANON · 7PT_ADAPTATION_CANON · 7PT_TERMINATION_CANON | All 7 canon parts validated; Flow closes genuine gap, Enforcement sharpened. Pass `validate_canon_notes.py --strict` |
-| 2026-08-22 7-Part Universe Canon + Reaudit + Template + Content Mapping | Canon home, re-audit, note template, content mapping — the full 7PT cluster |
-| AMOS Universe Structure Tree | Pointer/anchor to Universe Total Canon (UTC) master file — structure tree of the 10 MECE canon parts |
-| AMOS Universe Interaction Engine | Pointer/anchor to Universe OS master AI integration layer — the interaction engine across universe domains |
-| amos-completion-graph-workflow | Workflow anchor for the AMOS meta-gap completion graph (Phase C closure) |
-| 2026-08-23 Vault Integrity Pass | Latest integrity pass: canon-cluster broken links closed, audit methodology durable in `amos-vault-integrity-audit` |
+| Note                                                                                                                                                | Summary                                                                                                                                  |
+| --------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| 2026-08-23 Brain Improvement Audit                                                                                                                  | Vault structural repairs: 9 broken wikilinks fixed, frontmatter added to templates, graph-health audit principle established             |
+| 2026-08-23 LEGACY BRAIN2 Core Engine and Law Inventory                                                                                              | SOURCE survey: 55 files (Core/Domains/Kernels/Packs/Unipower), 5 Canonical Laws, UBI orchestrator NBI/NEI/SI/BEI, 3 JSON schema variants |
+| 7PT_CONSTRAINT_CANON · 7PT_FLOW_CANON · 7PT_STRUCTURE_CANON · 7PT_ENFORCEMENT_CANON · 7PT_TIME_CANON · 7PT_ADAPTATION_CANON · 7PT_TERMINATION_CANON | All 7 canon parts validated; Flow closes genuine gap, Enforcement sharpened. Pass `validate_canon_notes.py --strict`                     |
+| 2026-08-22 7-Part Universe Canon + Reaudit + Template + Content Mapping                                                                             | Canon home, re-audit, note template, content mapping — the full 7PT cluster                                                              |
+| AMOS Universe Structure Tree                                                                                                                        | Pointer/anchor to Universe Total Canon (UTC) master file — structure tree of the 10 MECE canon parts                                     |
+| AMOS Universe Interaction Engine                                                                                                                    | Pointer/anchor to Universe OS master AI integration layer — the interaction engine across universe domains                               |
+| amos-completion-graph-workflow                                                                                                                      | Workflow anchor for the AMOS meta-gap completion graph (Phase C closure)                                                                 |
+| 2026-08-23 Vault Integrity Pass                                                                                                                     | Latest integrity pass: canon-cluster broken links closed, audit methodology durable in `amos-vault-integrity-audit`                      |
 
 **Integrity infrastructure:** stable validator at `cosmo-brain/tools/validate_canon_notes.py` (vault mutates .py→.md); Hermes skills synced from `.devin/skills/` (1,500+), workflows (200+), agents (60+). Audit skill: amos-vault-integrity-audit.
 
@@ -463,45 +469,45 @@ before persisting any conclusion.
 - AUTO-EXTRACTED AND ARCHIVE INDEX — master index; links every per-source/per-folder auto-MOC below.
 - Non-curated extracted/archive notes (flattened source mirrors, versioned duplicates, hash-prefixed) are reachable through these indexes. Curated canon + MOCs above remain the authoritative graph.
 
-| Note | Summary |
-|------|---------|
-| `2026-08-23 AMOS Runtime Test Expansion.md` | Runtime tests 17→37, finalize status priority, task_from default fix (1934 total Python) |
-| `2026-08-23 AMOS Expression Translation Test Expansion.md` | Expression translation 5→47 tests, intent→expression_type mapping, confidence ceiling (325 total deterministic) |
-| `2026-08-23 AMOS Server CLI IO Replay Test Expansion.md` | 37 new tests for server, CLI, IO payload, and replay modules |
-| `2026-08-23 AMOS ABI and IO Test Expansion.md` | ABI registry + IO payload parsing test expansion |
-| `2026-08-23 AMOS Authority and GMEF Gate Integration.md` | AuthorityGovernor + GMEF wired into kernel with 75 tests |
-| `2026-08-23 AMOS Cognitive Substrate Bug Fixes.md` | Fixed 5 bugs in AMOS_COGNITIVE_SUBSTRATE.py, 125 self-tests pass |
-| `2026-08-23 AMOS Cognitive Substrate Query and Tag Retrieval.md` | Added query(), retrieve_by_tag(), MetaCognitiveEvent, 19 new self-tests (136 total) |
-| `2026-08-23 AMOS Brain Cortex and Executable Brain Model Bug Fixes.md` | Fixed 3 bugs: failure memory state leakage, rollback snapshot, RSCFFormalLayer ordering (71/71 + runs) |
-| `2026-08-23 AMOS TypeScript Test Expansion.md` | Added 115 TypeScript tests: type-guards (39), safety-filter (37), meta-logic (39). TS total 1195→1253 |
-| `2026-08-23 AMOS Cognitive Substrate Dependency-Safe Forgetting.md` | Added get_dependents(), dependency_safe_forget(), get_memory_stats(), 10 new self-tests (146 total) |
-| `2026-08-23 AMOS Kafka Brain Buffer.md` | Kafka brain buffer v1.0 — verbena-first brain engine spec |
-| `2026-08-23 AMOS Kafka Brain Buffer Module Fix.md` | TypeScript module fixes: 180/180 tests pass (was 0/180). 24 fixes: classes, functions, concept registry, route classes, sync methods, enum values |
-| `2026-08-23 AMOS Kafka Brain Buffer — All 180 Tests Passing.md` | All 180 Kafka Brain Buffer tests passing. Fixed enums, duplicate declarations, buffer behavior, ACL, flow, topology. TS compilation 0 errors |
-| `2026-08-23 AMOS Kafka Brain Buffer Complete Fix.md` | Complete module fix: 180/180 tests pass. ESM type erasure fixes, concept registry (71 concepts), ACL system (22 ve+ tags, 19 channels), D6Buffer/D6delta, route classes, floating point precision |
-| `2026-08-23 AMOS TypeScript Type-Guards Safety-Filter Meta-Logic Tests.md` | 4 new TS test files (119 tests): type-guards, safety-filter, meta-logic, meta-logic-bug. TS: 1195→1253 |
-| `2026-08-23 AMOS Kafka Brain Buffer Test Suite.md` | 180-test standalone suite for Kafka Brain Buffer (30+ categories, 3320 lines). 24 fixes applied |
-| `2026-08-23 AMOS Gap Registry Test Suite.md` | 63 pytest tests + 15 self-tests for GapRegistry (914 lines). 5 enums, 10-link chain, 6 discovery modes |
-| `2026-08-23 AMOS Consulting GitHub Archive.md` | 3,755 markdown files from 14 versions of github.com/trangyp/AMOS-Consulting (61 MB, 12 tags + main + fix branch) |
-| `2026-08-23 AMOS Gap Discovery Engine All 6 Modes.md` | Implemented 3 remaining gap discovery modes (compliance, contradiction, temporal). 15/15 self-tests pass. GAP-MGMT-001 now COVERED |
-| `2026-08-23 AMOS Unknown-Unknown Registry.md` | UnknownUnknownRegistry implemented. 24/24 self-tests. GAP-MGMT-002 + GAP-OMNIVERSE-003 COVERED. GAP_MANAGEMENT fully COVERED |
-| `2026-08-23 AMOS Cosmo Brain Core Architecture Map.md` | Complete architecture map of cosmo-brain/core/ — 26 TS files, 6,365 lines, 8 subdirectories, 475 tests. Epistemics, reasoning, orchestration, memory, identity, constraints, validation, design-synthesis |
-| `2026-08-23 AMOS Brain Specs to Skills Conversion.md` | 78 brain spec skills created from vault markdown specs covering all 9 brain architecture sections (00_boot through 90_output) — boot/router, invariants, epistemics, tensors, state/memory, fractal/cognition, governance/evolution, execution/repository, output/context |
-| `2026-08-23 Memory — AMOS Kafka Brain Buffer.md` | Memory note for Kafka brain buffer (stream+log+buffer, D5-D8 consciousness) |
-| `2026-08-23 Deterministic Verification Summary.md` | Deterministic verification across 4 storage mechanisms |
-| `2026-08-23 Deterministic_Verification_Complete.md` | All 3 task areas verified — external write gating, memory bridge, decision log |
-| `2026-08-22 AMOS Core Infrastructure Modules.md` | 22 modules across 8 directories (abi, adapters, graph, memory, proof, replay, runtime, server) |
-| `2026-08-22 AMOS Proof Checking Kernel Gate.md` | ProofChecker wired into AmosKernel as post-execution gate |
-| `2026-08-22 AMOS Core Module Test Coverage.md` | Core module tests (131 new tests) |
-| `2026-08-22 TypeScript Data Quality Governance.md` | TS data-quality governance (gaps 239-249, 49 tests) |
-| `2026-08-22 AMOS Core Runtime Modules.md` | Core runtime: proof/memory/graph/runtime/abi/replay (109 tests) |
-| `2026-08-22 AMOS Remaining Module Test Coverage.md` | State/IO/GMEF/Authority/Server/CLI tests |
-| `2026-08-22 AMOS Quantum Physics Knowledge Base.md` | 80+ quantum physics entries (ak-28+), 4 new TS tests |
-| `2026-08-22 AMOS Quantum Knowledge Base Integration.md` | 103 approved knowledge entries with quantum physics domain coverage |
-| `2026-08-22 AMOS All 230 Meta-Gaps Closed.md` | All 230 meta-gaps (91-320) closed in completion graph |
-| `2026-08-22 AMOS System Completion Audit.md` | System completion audit |
-| `2026-08-22 AMOS System Completion Baseline.md` | System completion baseline |
-| `2026-08-22 AMOS System Completion Roadmap.md` | System completion roadmap |
+| Note                                                                       | Summary                                                                                                                                                                                                                                                                   |
+| -------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `2026-08-23 AMOS Runtime Test Expansion.md`                                | Runtime tests 17→37, finalize status priority, task_from default fix (1934 total Python)                                                                                                                                                                                  |
+| `2026-08-23 AMOS Expression Translation Test Expansion.md`                 | Expression translation 5→47 tests, intent→expression_type mapping, confidence ceiling (325 total deterministic)                                                                                                                                                           |
+| `2026-08-23 AMOS Server CLI IO Replay Test Expansion.md`                   | 37 new tests for server, CLI, IO payload, and replay modules                                                                                                                                                                                                              |
+| `2026-08-23 AMOS ABI and IO Test Expansion.md`                             | ABI registry + IO payload parsing test expansion                                                                                                                                                                                                                          |
+| `2026-08-23 AMOS Authority and GMEF Gate Integration.md`                   | AuthorityGovernor + GMEF wired into kernel with 75 tests                                                                                                                                                                                                                  |
+| `2026-08-23 AMOS Cognitive Substrate Bug Fixes.md`                         | Fixed 5 bugs in AMOS_COGNITIVE_SUBSTRATE.py, 125 self-tests pass                                                                                                                                                                                                          |
+| `2026-08-23 AMOS Cognitive Substrate Query and Tag Retrieval.md`           | Added query(), retrieve_by_tag(), MetaCognitiveEvent, 19 new self-tests (136 total)                                                                                                                                                                                       |
+| `2026-08-23 AMOS Brain Cortex and Executable Brain Model Bug Fixes.md`     | Fixed 3 bugs: failure memory state leakage, rollback snapshot, RSCFFormalLayer ordering (71/71 + runs)                                                                                                                                                                    |
+| `2026-08-23 AMOS TypeScript Test Expansion.md`                             | Added 115 TypeScript tests: type-guards (39), safety-filter (37), meta-logic (39). TS total 1195→1253                                                                                                                                                                     |
+| `2026-08-23 AMOS Cognitive Substrate Dependency-Safe Forgetting.md`        | Added get_dependents(), dependency_safe_forget(), get_memory_stats(), 10 new self-tests (146 total)                                                                                                                                                                       |
+| `2026-08-23 AMOS Kafka Brain Buffer.md`                                    | Kafka brain buffer v1.0 — verbena-first brain engine spec                                                                                                                                                                                                                 |
+| `2026-08-23 AMOS Kafka Brain Buffer Module Fix.md`                         | TypeScript module fixes: 180/180 tests pass (was 0/180). 24 fixes: classes, functions, concept registry, route classes, sync methods, enum values                                                                                                                         |
+| `2026-08-23 AMOS Kafka Brain Buffer — All 180 Tests Passing.md`            | All 180 Kafka Brain Buffer tests passing. Fixed enums, duplicate declarations, buffer behavior, ACL, flow, topology. TS compilation 0 errors                                                                                                                              |
+| `2026-08-23 AMOS Kafka Brain Buffer Complete Fix.md`                       | Complete module fix: 180/180 tests pass. ESM type erasure fixes, concept registry (71 concepts), ACL system (22 ve+ tags, 19 channels), D6Buffer/D6delta, route classes, floating point precision                                                                         |
+| `2026-08-23 AMOS TypeScript Type-Guards Safety-Filter Meta-Logic Tests.md` | 4 new TS test files (119 tests): type-guards, safety-filter, meta-logic, meta-logic-bug. TS: 1195→1253                                                                                                                                                                    |
+| `2026-08-23 AMOS Kafka Brain Buffer Test Suite.md`                         | 180-test standalone suite for Kafka Brain Buffer (30+ categories, 3320 lines). 24 fixes applied                                                                                                                                                                           |
+| `2026-08-23 AMOS Gap Registry Test Suite.md`                               | 63 pytest tests + 15 self-tests for GapRegistry (914 lines). 5 enums, 10-link chain, 6 discovery modes                                                                                                                                                                    |
+| `2026-08-23 AMOS Consulting GitHub Archive.md`                             | 3,755 markdown files from 14 versions of github.com/trangyp/AMOS-Consulting (61 MB, 12 tags + main + fix branch)                                                                                                                                                          |
+| `2026-08-23 AMOS Gap Discovery Engine All 6 Modes.md`                      | Implemented 3 remaining gap discovery modes (compliance, contradiction, temporal). 15/15 self-tests pass. GAP-MGMT-001 now COVERED                                                                                                                                        |
+| `2026-08-23 AMOS Unknown-Unknown Registry.md`                              | UnknownUnknownRegistry implemented. 24/24 self-tests. GAP-MGMT-002 + GAP-OMNIVERSE-003 COVERED. GAP_MANAGEMENT fully COVERED                                                                                                                                              |
+| `2026-08-23 AMOS Cosmo Brain Core Architecture Map.md`                     | Complete architecture map of cosmo-brain/core/ — 26 TS files, 6,365 lines, 8 subdirectories, 475 tests. Epistemics, reasoning, orchestration, memory, identity, constraints, validation, design-synthesis                                                                 |
+| `2026-08-23 AMOS Brain Specs to Skills Conversion.md`                      | 78 brain spec skills created from vault markdown specs covering all 9 brain architecture sections (00_boot through 90_output) — boot/router, invariants, epistemics, tensors, state/memory, fractal/cognition, governance/evolution, execution/repository, output/context |
+| `2026-08-23 Memory — AMOS Kafka Brain Buffer.md`                           | Memory note for Kafka brain buffer (stream+log+buffer, D5-D8 consciousness)                                                                                                                                                                                               |
+| `2026-08-23 Deterministic Verification Summary.md`                         | Deterministic verification across 4 storage mechanisms                                                                                                                                                                                                                    |
+| `2026-08-23 Deterministic_Verification_Complete.md`                        | All 3 task areas verified — external write gating, memory bridge, decision log                                                                                                                                                                                            |
+| `2026-08-22 AMOS Core Infrastructure Modules.md`                           | 22 modules across 8 directories (abi, adapters, graph, memory, proof, replay, runtime, server)                                                                                                                                                                            |
+| `2026-08-22 AMOS Proof Checking Kernel Gate.md`                            | ProofChecker wired into AmosKernel as post-execution gate                                                                                                                                                                                                                 |
+| `2026-08-22 AMOS Core Module Test Coverage.md`                             | Core module tests (131 new tests)                                                                                                                                                                                                                                         |
+| `2026-08-22 TypeScript Data Quality Governance.md`                         | TS data-quality governance (gaps 239-249, 49 tests)                                                                                                                                                                                                                       |
+| `2026-08-22 AMOS Core Runtime Modules.md`                                  | Core runtime: proof/memory/graph/runtime/abi/replay (109 tests)                                                                                                                                                                                                           |
+| `2026-08-22 AMOS Remaining Module Test Coverage.md`                        | State/IO/GMEF/Authority/Server/CLI tests                                                                                                                                                                                                                                  |
+| `2026-08-22 AMOS Quantum Physics Knowledge Base.md`                        | 80+ quantum physics entries (ak-28+), 4 new TS tests                                                                                                                                                                                                                      |
+| `2026-08-22 AMOS Quantum Knowledge Base Integration.md`                    | 103 approved knowledge entries with quantum physics domain coverage                                                                                                                                                                                                       |
+| `2026-08-22 AMOS All 230 Meta-Gaps Closed.md`                              | All 230 meta-gaps (91-320) closed in completion graph                                                                                                                                                                                                                     |
+| `2026-08-22 AMOS System Completion Audit.md`                               | System completion audit                                                                                                                                                                                                                                                   |
+| `2026-08-22 AMOS System Completion Baseline.md`                            | System completion baseline                                                                                                                                                                                                                                                |
+| `2026-08-22 AMOS System Completion Roadmap.md`                             | System completion roadmap                                                                                                                                                                                                                                                 |
 
 **Test counts** (unverified — prior claim was 3701; actual self-test runs show ~22 modules passing, ~50 failing with import errors, ~115 no tests; full verification pending). 257 gaps closed (91-347), 0 open. Grand total with deterministic verification: 4060 (claims, not verified).
 
@@ -924,12 +930,12 @@ to architectural skills in `.devin/skills/`. Each skill contains:
 
 ### Pass 1 themed skills (99 skills, 6,970 files)
 
-- `amos-main-core-foundation` / `amos-main-core-quantum` / `amos-main-core-brain` / `amos-main-core-architecture` / `amos-main-core-biological` / `amos-main-core-policy` / `amos-main-core-core-kernel` / `amos-main-core-consciousness` / `amos-main-core-governance` / `amos-main-core-intelligence` / `amos-main-core-mathematical` / `amos-main-core-tools` / `amos-main-core-health` / `amos-main-core-advanced` / `amos-main-core-clawd` / `amos-main-core-execution` / `amos-main-core-systems-misc` — MAIN__SYSTEMS__CORE__AMOS_CORE_SYSTEMS__ sub-clusters
-- `amos-main-prod-src` / `amos-main-prod-docs` / `amos-main-prod-tests` / `amos-main-prod-compiler` / `amos-main-prod-ui` / `amos-main-prod-scripts` / `amos-main-prod-seed` / `amos-main-prod-config` / `amos-main-prod-runtime` / `amos-main-prod-amosl` / `amos-main-prod-amos` / `amos-main-prod-misc` — MAIN__SYSTEMS__PROD__AMOS_PRODUCTION__ sub-clusters
-- `amos-main-brain` / `amos-main-cognitive-misc` — MAIN__BRAIN__ cluster
-- `amos-invest-claws` / `amos-invest-amos` / `amos-invest-amos-stack` / `amos-invest-reports` / `amos-invest-docs` / `amos-invest-learn` / `amos-invest-repo-doctor` / `amos-invest-canon` / `amos-invest-k8s-manifests` / `amos-invest-system` / `amos-invest-rtk-ai` / `amos-invest-bolt-diy` / `amos-invest-k8s` / `amos-invest-tradingview` / `amos-invest-misc` — AMOS-Consulting__AMOS-Invest__ sub-clusters
-- `amos-openclaw-codex` / `amos-openclaw-src-brain` / `amos-openclaw-src-mother` / `amos-openclaw-src-integration` / `amos-openclaw-src-agents` / `amos-openclaw-src-digital-biological` / `amos-openclaw-src-world-model` / `amos-openclaw-src-plugins` / `amos-openclaw-src-sensing` / `amos-openclaw-src-learning` / `amos-openclaw-src-gateway` / `amos-openclaw-src-infra` / `amos-openclaw-src-consciousness` / `amos-openclaw-src-evolution` / `amos-openclaw-src-misc` / `amos-openclaw-docs` / `amos-openclaw-test` / `amos-openclaw-scripts` / `amos-openclaw-apps` / `amos-openclaw-agents` / `amos-openclaw-github` / `amos-openclaw-misc` — openclaw-main__ sub-clusters
-- `amos-system-engines` / `amos-system-tests` / `amos-system-agents` / `amos-system-canon` / `amos-system-amos-os` / `amos-system-world` / `amos-system-trust` / `amos-system-universe` / `amos-system-autogen` / `amos-system-misc` — AMOS-SYSTEM-main__ sub-clusters
+- `amos-main-core-foundation` / `amos-main-core-quantum` / `amos-main-core-brain` / `amos-main-core-architecture` / `amos-main-core-biological` / `amos-main-core-policy` / `amos-main-core-core-kernel` / `amos-main-core-consciousness` / `amos-main-core-governance` / `amos-main-core-intelligence` / `amos-main-core-mathematical` / `amos-main-core-tools` / `amos-main-core-health` / `amos-main-core-advanced` / `amos-main-core-clawd` / `amos-main-core-execution` / `amos-main-core-systems-misc` — MAIN\_\_SYSTEMS\_\_CORE\_\_AMOS_CORE_SYSTEMS\_\_ sub-clusters
+- `amos-main-prod-src` / `amos-main-prod-docs` / `amos-main-prod-tests` / `amos-main-prod-compiler` / `amos-main-prod-ui` / `amos-main-prod-scripts` / `amos-main-prod-seed` / `amos-main-prod-config` / `amos-main-prod-runtime` / `amos-main-prod-amosl` / `amos-main-prod-amos` / `amos-main-prod-misc` — MAIN\_\_SYSTEMS\_\_PROD\_\_AMOS_PRODUCTION\_\_ sub-clusters
+- `amos-main-brain` / `amos-main-cognitive-misc` — MAIN\_\_BRAIN\_\_ cluster
+- `amos-invest-claws` / `amos-invest-amos` / `amos-invest-amos-stack` / `amos-invest-reports` / `amos-invest-docs` / `amos-invest-learn` / `amos-invest-repo-doctor` / `amos-invest-canon` / `amos-invest-k8s-manifests` / `amos-invest-system` / `amos-invest-rtk-ai` / `amos-invest-bolt-diy` / `amos-invest-k8s` / `amos-invest-tradingview` / `amos-invest-misc` — AMOS-Consulting\_\_AMOS-Invest\_\_ sub-clusters
+- `amos-openclaw-codex` / `amos-openclaw-src-brain` / `amos-openclaw-src-mother` / `amos-openclaw-src-integration` / `amos-openclaw-src-agents` / `amos-openclaw-src-digital-biological` / `amos-openclaw-src-world-model` / `amos-openclaw-src-plugins` / `amos-openclaw-src-sensing` / `amos-openclaw-src-learning` / `amos-openclaw-src-gateway` / `amos-openclaw-src-infra` / `amos-openclaw-src-consciousness` / `amos-openclaw-src-evolution` / `amos-openclaw-src-misc` / `amos-openclaw-docs` / `amos-openclaw-test` / `amos-openclaw-scripts` / `amos-openclaw-apps` / `amos-openclaw-agents` / `amos-openclaw-github` / `amos-openclaw-misc` — openclaw-main\_\_ sub-clusters
+- `amos-system-engines` / `amos-system-tests` / `amos-system-agents` / `amos-system-canon` / `amos-system-amos-os` / `amos-system-world` / `amos-system-trust` / `amos-system-universe` / `amos-system-autogen` / `amos-system-misc` — AMOS-SYSTEM-main\_\_ sub-clusters
 - `amos-standalone-*` (19 skills) — standalone AMOS framework documents
 - `amos-index-cluster` / `amos-ip-shield-cluster` / `amos-uuid-training` / `amos-uuid-cci` / `amos-emoji-global` / `amos-vietnamese-12-phat-hien` / `amos-remaining-misc` / `amos-final-catchall` — remaining small clusters
 
@@ -1104,7 +1110,7 @@ to architectural skills in `.devin/skills/`. Each skill contains:
 - `amos-arxiv-2605-01035-fpga-real-time-qldpc-gari` — scalable FPGA GARI decoder for quantum LDPC codes; serial DX/DZ + parallel U/V BP units; $$$$144,12,12$$$$ bivariate bicycle VCU19P case study; 596 ns average latency; 6× resource reduction. arXiv preprint (unrefereed)
 - `amos-qic-ldpc-gari-fpga-agent.json` — agent for GARI transform, DX/DZ and U/V units, scheduling, FPGA case study
 - `amos-arxiv-2605-01035-fpga-real-time-qldpc-gari-workflow.md` — 9-phase workflow: metadata → QEC context → GARI → DX/DZ → U/V → scheduling → case study → resources → epistemic label
-- `amos-arxiv-2605-00784-gauge-invariant-gaussian-fermion-operations` — Eric A. Carlen. Gauge-invariant Gaussian quantum operations on finite Fermion systems; CAR algebra, Araki-Wyss algebra, GIG states; two main structure theorems; semigroup parameterization (G,A) with 0 ≤ A ≤ −G − G*; extension to full CAR algebra. arXiv preprint (unrefereed)
+- `amos-arxiv-2605-00784-gauge-invariant-gaussian-fermion-operations` — Eric A. Carlen. Gauge-invariant Gaussian quantum operations on finite Fermion systems; CAR algebra, Araki-Wyss algebra, GIG states; two main structure theorems; semigroup parameterization (G,A) with 0 ≤ A ≤ −G − G\*; extension to full CAR algebra. arXiv preprint (unrefereed)
 - `amos-qsm-gaussian-fermion-operations-agent.json` — agent for CAR setup, GIG states, Araki-Wyss theorem, structure theorems, semigroup parameterization
 - `amos-arxiv-2605-00784-gauge-invariant-gaussian-fermion-operations-workflow.md` — 11-phase workflow: metadata → CAR setup → GIG states → Araki-Wyss transform → G_H1 → Theorem 1.8 → first main result → second main result → extension → epistemic label
 
@@ -1252,22 +1258,26 @@ to architectural skills in `.devin/skills/`. Each skill contains:
 
 `Cosmo_Brain` → `/Users/mac/Downloads/stitch_project_cosmo` — the live Obsidian brain vault, mounted read-through at `11_KNOWLEDGE/Cosmo_Brain`. Wikilinks inside resolve within the vault itself; navigate into the folder for the canonical canon notes (`md/7PT_*_CANON.md`), MOCs, and daily notes. Git-ignored (symlink, not content).
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: cosmo_brain_moc
 node_type: note
 path: 11_KNOWLEDGE/Cosmo_Brain_MOC.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **Root:** [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]]

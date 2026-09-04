@@ -1,4 +1,7 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: AMOS SUPER ENGINE V1 0 0
 type: engine
 source: 11_KNOWLEDGE/engine
@@ -7,13 +10,13 @@ canon-type: framework
 rscf-state: source-claim
 topic: amos-super-engine-v1-0-0
 tags:
-- canon-group/tech-ai
-- canon/framework
-- rscf/claim
-- rscf/provenance
-- rscf/state/observation
-- topic/amos-super-engine-v1-0-0
-- engine
+  - canon-group/tech-ai
+  - canon/framework
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/observation
+  - topic/amos-super-engine-v1-0-0
+  - engine
 created: 2026-08-22
 rscf:
   state: AMOS_MODEL
@@ -343,6 +346,6 @@ rscf:
 **Related:**  ·  ·  ·  ·
 ```
 
----
-**MOC:** [[11_KNOWLEDGE/engine/ENGINE_MOC|ENGINE_MOC]]
+______________________________________________________________________
 
+**MOC:** [[11_KNOWLEDGE/engine/ENGINE_MOC|ENGINE_MOC]]

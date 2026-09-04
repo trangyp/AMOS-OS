@@ -1,4 +1,7 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: AMOS TECH AMOS CORE KERNEL V1 TECH4
 type: kernel
 source: 11_KNOWLEDGE/kernel
@@ -7,13 +10,13 @@ canon-type: framework
 rscf-state: source-claim
 topic: amos-tech-amos-core-kernel-v1
 tags:
-- canon-group/tech-ai
-- canon/framework
-- rscf/claim
-- rscf/provenance
-- rscf/state/source-claim
-- topic/amos-tech-amos-core-kernel-v1
-- kernel
+  - canon-group/tech-ai
+  - canon/framework
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - topic/amos-tech-amos-core-kernel-v1
+  - kernel
 created: 2026-08-22
 rscf:
   state: SOURCE_CLAIM
@@ -54,6 +57,6 @@ rscf:
 **Related:** [[11_KNOWLEDGE/kernel/AMOS_KERNEL_ROUTING_WORKFLOW|AMOS_KERNEL_ROUTING_WORKFLOW]] · [[11_KNOWLEDGE/kernel/AMOS_UNIVERSE_DOMAIN_KERNELS|AMOS_UNIVERSE_DOMAIN_KERNELS]] · [[11_KNOWLEDGE/kernel/AMOS_POLITICAL_DYNAMICS_KERNEL|AMOS_POLITICAL_DYNAMICS_KERNEL]] · [[11_KNOWLEDGE/kernel/AMOS_PARTNERSHIPS_CHANNELS_KERNEL|AMOS_PARTNERSHIPS_CHANNELS_KERNEL]]
 ```
 
----
-**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]
+______________________________________________________________________
 
+**MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]

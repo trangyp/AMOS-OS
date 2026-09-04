@@ -22,24 +22,23 @@ conclusion_class: SOURCE_CLAIM / STRUCTURAL_MODEL
 implementation_state: REGISTERED_STUB
 runtime_state: NON_DESTRUCTIVE_TRACE_ONLY
 aliases:
-- Executor Agent - AMOS Executor Agent - Execution System Executor - Governed Effect
-  Executor
+  - Executor Agent - AMOS Executor Agent - Execution System Executor - Governed Effect Executor
 tags:
-- agents
-- knowledge
-- vault
-- canon-group/tech-ai
-- canon/component
-- rscf/claim
-- rscf/provenance
-- rscf/state/source-claim
-- topic/executor-agent
-- topic/execution-system
-- topic/effect-execution
-- topic/commit-governance
-- topic/agent-runtime
-- architecture
-- validation
+  - agents
+  - knowledge
+  - vault
+  - canon-group/tech-ai
+  - canon/component
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - topic/executor-agent
+  - topic/execution-system
+  - topic/effect-execution
+  - topic/commit-governance
+  - topic/agent-runtime
+  - architecture
+  - validation
 governing_law: integrity > completeness > fluency > speed > token savings
 rscf:
   state: SOURCE_CLAIM
@@ -49,6 +48,7 @@ rscf:
 ---
 
 # AMOS Executor Agent
+
 ## Governed Execution-System Component
 
 > **System:** `EXECUTION_SYSTEM`
@@ -60,9 +60,9 @@ rscf:
 > **Current runtime behavior:** trace append → context return
 > **Effect authority:** `NONE_IMPLEMENTED`
 
----
+______________________________________________________________________
 
-# 0. EXECUTIVE STATUS
+## 0. EXECUTIVE STATUS
 
 The supplied `Executor_Agent` does **not currently execute external or durable actions**.
 
@@ -138,9 +138,9 @@ not:
 LIVE EFFECT EXECUTOR
 ```
 
----
+______________________________________________________________________
 
-# 1. VERSION / LINEAGE MODEL
+## 1. VERSION / LINEAGE MODEL
 
 The component has four separate version axes:
 
@@ -211,9 +211,9 @@ rollback semantics change
 context contract break
 ```
 
----
+______________________________________________________________________
 
-# 2. SOURCE IMPLEMENTATION
+## 2. SOURCE IMPLEMENTATION
 
 ```python
 """AMOS logical component.
@@ -261,9 +261,9 @@ class Executor_Agent(Agent):
         return context
 ```
 
----
+______________________________________________________________________
 
-# 3. SOURCE-CODE SEMANTICS
+## 3. SOURCE-CODE SEMANTICS
 
 Current behavior:
 
@@ -283,14 +283,12 @@ same Context object
 
 State transition:
 
-[
-C_{t+1}
-=======
+## \[ C\_{t+1}
 
 C_t
-\oplus
+\\oplus
 TraceEvent
-]
+\]
 
 where:
 
@@ -308,9 +306,9 @@ No authority is checked.
 
 No external system is changed.
 
----
+______________________________________________________________________
 
-# 4. HARD STATUS FIREWALL
+## 4. HARD STATUS FIREWALL
 
 The component name must not be used as evidence of actual execution capability.
 
@@ -325,34 +323,40 @@ Executor_Agent
 !=
 EffectExecutionProof
 ```
+
 ```text
 run()
 !=
 Commit()
 ```
+
 ```text
 Trace
 !=
 Effect
 ```
+
 ```text
 ActionProposal
 !=
 AuthorizedAction
 ```
+
 ```text
 AuthorizedAction
 !=
 CommittedEffect
 ```
+
 ```text
 CommittedEffect
 !=
 SuccessfulOutcome
 ```
----
 
-# 5. AMOS SYSTEM POSITION
+______________________________________________________________________
+
+## 5. AMOS SYSTEM POSITION
 
 Canonical placement:
 
@@ -397,9 +401,9 @@ EXECUTOR AGENT
 TRACE
 ```
 
----
+______________________________________________________________________
 
-# 6. EXECUTION FLOW VS AUTHORITY TOPOLOGY
+## 6. EXECUTION FLOW VS AUTHORITY TOPOLOGY
 
 AMOS must distinguish execution flow from authority precedence.
 
@@ -441,9 +445,9 @@ does not substitute
 for infrastructure authorization
 ```
 
----
+______________________________________________________________________
 
-# 7. H / M / L [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]
+## 7. H / M / L [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]
 
 ```text
 H — EXECUTION_SYSTEM governance
@@ -493,9 +497,9 @@ coverage:
     effect_receipt: NONE
 ```
 
----
+______________________________________________________________________
 
-# 8. AGENT TEMPLATE MAPPING
+## 8. AGENT TEMPLATE MAPPING
 
 `Executor_Agent` most closely maps to:
 
@@ -523,9 +527,9 @@ Executor
 Governor
 ```
 
----
+______________________________________________________________________
 
-# 9. PURPOSE
+## 9. PURPOSE
 
 The intended role of a governed Executor Agent is:
 
@@ -549,9 +553,9 @@ VERIFY
 RECEIPT
 ```
 
----
+______________________________________________________________________
 
-# 10. NON-GOALS
+## 10. NON-GOALS
 
 Executor_Agent should not independently:
 
@@ -567,17 +571,17 @@ discard provenance
 silently retry irreversible effects
 ```
 
----
+______________________________________________________________________
 
-# 11. CAPABILITY / AUTHORITY FIREWALL
+## 11. CAPABILITY / AUTHORITY FIREWALL
 
 Fundamental invariant:
 
-[
+\[
 Capability(a,e)
-\neq
+\\neq
 Authority(a,e)
-]
+\]
 
 An executor may technically know how to perform effect `e`.
 
@@ -594,14 +598,16 @@ CredentialAvailable
 !=
 Permission
 ```
+
 ```text
 FunctionCallable
 !=
 ActionAdmissible
 ```
----
 
-# 12. ACTION PROPOSAL OBJECT
+______________________________________________________________________
+
+## 12. ACTION PROPOSAL OBJECT
 
 ```yaml
 ActionProposal:
@@ -643,9 +649,9 @@ ActionProposal
 Authority
 ```
 
----
+______________________________________________________________________
 
-# 13. EXECUTION REQUEST
+## 13. EXECUTION REQUEST
 
 Only a proposal that has passed upstream governance should become an execution request.
 
@@ -686,9 +692,9 @@ ExecutionRequest:
   expires_at:
 ```
 
----
+______________________________________________________________________
 
-# 14. EXECUTION RESULT
+## 14. EXECUTION RESULT
 
 ```yaml
 ExecutionResult:
@@ -729,9 +735,9 @@ ExecutionResult:
     status:
 ```
 
----
+______________________________________________________________________
 
-# 15. EXECUTION RECEIPT
+## 15. EXECUTION RECEIPT
 
 Every consequential external effect should produce an execution receipt when possible.
 
@@ -776,9 +782,9 @@ ExecutionReceipt:
     state:
 ```
 
----
+______________________________________________________________________
 
-# 16. EXECUTION STATE MACHINE
+## 16. EXECUTION STATE MACHINE
 
 ```text
 PROPOSED
@@ -815,9 +821,9 @@ must not silently restart in place.
 
 A retry should use a new attempt identity while preserving lineage.
 
----
+______________________________________________________________________
 
-# 17. PRE-FLIGHT GATE
+## 17. PRE-FLIGHT GATE
 
 ```text
 Preflight(request)
@@ -834,9 +840,9 @@ SchemaValid
 
 Passing preflight is not permission to commit.
 
----
+______________________________________________________________________
 
-# 18. COMMIT-TIME GATE
+## 18. COMMIT-TIME GATE
 
 AMOS v4.4 requires stronger finality semantics.
 
@@ -862,9 +868,9 @@ AuthorizedAtPlanTime
 AuthorizedAtCommitTime
 ```
 
----
+______________________________________________________________________
 
-# 19. OBSERVED READ SET
+## 19. OBSERVED READ SET
 
 A consequential transaction should preserve the state it actually relied upon.
 
@@ -886,9 +892,9 @@ policy drift
 authority revocation
 ```
 
----
+______________________________________________________________________
 
-# 20. INTENDED WRITE SET
+## 20. INTENDED WRITE SET
 
 ```yaml
 IntendedWrite:
@@ -901,9 +907,9 @@ IntendedWrite:
 
 Commit should fail if required preconditions no longer hold.
 
----
+______________________________________________________________________
 
-# 21. MVCC / CAS MODEL
+## 21. MVCC / CAS MODEL
 
 Conceptually:
 
@@ -914,9 +920,9 @@ CurrentVersion = v_c
 
 Commit only when:
 
-[
+\[
 v_r=v_c
-]
+\]
 
 where exact equality is required by the transaction semantics.
 
@@ -930,9 +936,9 @@ must succeed atomically.
 
 These are AMOS control-plane patterns, not claims that the current source stub implements MVCC/CAS.
 
----
+______________________________________________________________________
 
-# 22. EFFECT CLASSIFICATION
+## 22. EFFECT CLASSIFICATION
 
 Every effect should be typed.
 
@@ -951,9 +957,9 @@ IRREVERSIBLE_EFFECT
 
 Validation depth increases with consequence.
 
----
+______________________________________________________________________
 
-# 23. RISK MODEL
+## 23. RISK MODEL
 
 ```yaml
 EffectRisk:
@@ -977,9 +983,9 @@ HIGH
 CRITICAL
 ```
 
----
+______________________________________________________________________
 
-# 24. REVERSIBILITY
+## 24. REVERSIBILITY
 
 Every effect should state:
 
@@ -1001,9 +1007,9 @@ HighImpact
 ESCALATE / REJECT
 ```
 
----
+______________________________________________________________________
 
-# 25. TOOL / ADAPTER CONTRACT
+## 25. TOOL / ADAPTER CONTRACT
 
 Executor should not embed every domain effect directly.
 
@@ -1042,9 +1048,9 @@ EffectAdapter:
   provenance:
 ```
 
----
+______________________________________________________________________
 
-# 26. DOMAIN SEPARATION
+## 26. DOMAIN SEPARATION
 
 Executor owns execution mechanics.
 
@@ -1068,9 +1074,9 @@ must not absorb
 domain decision logic.
 ```
 
----
+______________________________________________________________________
 
-# 27. EXECUTION AUTHORITY
+## 27. EXECUTION AUTHORITY
 
 ```yaml
 ExecutionAuthority:
@@ -1098,23 +1104,23 @@ ExecutionAuthority:
   revoked: false
 ```
 
----
+______________________________________________________________________
 
-# 28. AUTHORITY ATTENUATION
+## 28. AUTHORITY ATTENUATION
 
 Delegation must only tighten authority.
 
-[
-Authority_{child}
-\subseteq
-Authority_{parent}
-]
+\[
+Authority\_{child}
+\\subseteq
+Authority\_{parent}
+\]
 
 A worker may not mint broader authority through tool access or configuration.
 
----
+______________________________________________________________________
 
-# 29. AUTHORITY FRESHNESS
+## 29. AUTHORITY FRESHNESS
 
 Before commit:
 
@@ -1129,9 +1135,9 @@ cumulative limits not exceeded
 revocation not triggered
 ```
 
----
+______________________________________________________________________
 
-# 30. POLICY VALIDATION
+## 30. POLICY VALIDATION
 
 ```yaml
 PolicyDecision:
@@ -1165,9 +1171,9 @@ into:
 ALLOW
 ```
 
----
+______________________________________________________________________
 
-# 31. EFFECT FINALITY
+## 31. EFFECT FINALITY
 
 Finality states:
 
@@ -1190,9 +1196,9 @@ SUCCESS
 
 merely because the local function returned.
 
----
+______________________________________________________________________
 
-# 32. EXTERNAL EFFECT FIREWALL
+## 32. EXTERNAL EFFECT FIREWALL
 
 For external services:
 
@@ -1207,16 +1213,18 @@ HTTP 200
 !=
 business outcome succeeded
 ```
+
 ```text
 provider accepted
 !=
 recipient observed
 ```
+
 Finality must match the provider contract.
 
----
+______________________________________________________________________
 
-# 33. IDEMPOTENCY
+## 33. IDEMPOTENCY
 
 Retries can duplicate effects.
 
@@ -1239,9 +1247,9 @@ NonIdempotentEffect
 DO NOT BLINDLY RETRY
 ```
 
----
+______________________________________________________________________
 
-# 34. IN_DOUBT STATE
+## 34. IN_DOUBT STATE
 
 If an executor cannot determine whether an external effect happened:
 
@@ -1257,9 +1265,9 @@ FAILED
 
 or retry automatically until the external state is reconciled.
 
----
+______________________________________________________________________
 
-# 35. RETRY POLICY
+## 35. RETRY POLICY
 
 ```yaml
 RetryPolicy:
@@ -1279,9 +1287,9 @@ only when
 retry semantics are safe.
 ```
 
----
+______________________________________________________________________
 
-# 36. ROLLBACK
+## 36. ROLLBACK
 
 Rollback can mean:
 
@@ -1304,9 +1312,9 @@ RollbackPlan:
   verification:
 ```
 
----
+______________________________________________________________________
 
-# 37. COMPENSATING ACTION
+## 37. COMPENSATING ACTION
 
 Some external effects cannot be rolled back.
 
@@ -1331,9 +1339,9 @@ Compensation
 Rollback
 ```
 
----
+______________________________________________________________________
 
-# 38. EXECUTION PROVENANCE
+## 38. EXECUTION PROVENANCE
 
 Every consequential run should preserve:
 
@@ -1361,9 +1369,9 @@ ExecutionProvenance:
   parent_run_id:
 ```
 
----
+______________________________________________________________________
 
-# 39. OBSERVABILITY
+## 39. OBSERVABILITY
 
 Track:
 
@@ -1382,9 +1390,9 @@ stale-state failures
 
 Metrics must specify denominator and time window.
 
----
+______________________________________________________________________
 
-# 40. TRACE CONTRACT
+## 40. TRACE CONTRACT
 
 Current source event:
 
@@ -1425,9 +1433,9 @@ trace:
   status:
 ```
 
----
+______________________________________________________________________
 
-# 41. AUDIT LOG VS TRACE
+## 41. AUDIT LOG VS TRACE
 
 ```text
 Trace
@@ -1441,9 +1449,9 @@ governance evidence
 
 A trace event does not automatically satisfy audit requirements.
 
----
+______________________________________________________________________
 
-# 42. CONTEXT CONTRACT
+## 42. CONTEXT CONTRACT
 
 Current source:
 
@@ -1478,9 +1486,9 @@ Context:
     epoch:
 ```
 
----
+______________________________________________________________________
 
-# 43. CONTEXT OWNERSHIP
+## 43. CONTEXT OWNERSHIP
 
 Executor should mutate only owned fields.
 
@@ -1501,18 +1509,16 @@ authority
 evidence
 ```
 
----
+______________________________________________________________________
 
-# 44. CURRENT NON-DESTRUCTIVE INVARIANT
+## 44. CURRENT NON-DESTRUCTIVE INVARIANT
 
 For the supplied implementation:
 
-[
-C'_{-\text{trace}}
-==================
+## \[ C'\_{-\\text{trace}}
 
-C_{-\text{trace}}
-]
+C\_{-\\text{trace}}
+\]
 
 assuming standard `Context` mapping semantics.
 
@@ -1524,9 +1530,9 @@ DERIVED_FROM_SOURCE
 
 not independently runtime-verified.
 
----
+______________________________________________________________________
 
-# 45. EXECUTION TRANSACTION
+## 45. EXECUTION TRANSACTION
 
 Conceptual object:
 
@@ -1554,9 +1560,9 @@ ExecutionTransaction:
   finality:
 ```
 
----
+______________________________________________________________________
 
-# 46. TRANSACTION STATE MACHINE
+## 46. TRANSACTION STATE MACHINE
 
 ```text
 CREATED
@@ -1583,9 +1589,9 @@ ROLLED_BACK
 COMPENSATED
 ```
 
----
+______________________________________________________________________
 
-# 47. ATOMICITY
+## 47. ATOMICITY
 
 When one action consists of multiple coupled effects:
 
@@ -1615,9 +1621,9 @@ applies.
 
 Do not imply atomicity without implementation.
 
----
+______________________________________________________________________
 
-# 48. MULTI-EFFECT REQUEST
+## 48. MULTI-EFFECT REQUEST
 
 ```yaml
 CompositeExecution:
@@ -1636,9 +1642,9 @@ CompositeExecution:
   failure_policy:
 ```
 
----
+______________________________________________________________________
 
-# 49. EFFECT DEPENDENCY GRAPH
+## 49. EFFECT DEPENDENCY GRAPH
 
 ```text
 Effect A
@@ -1655,9 +1661,9 @@ B cannot commit
 before A satisfies required finality.
 ```
 
----
+______________________________________________________________________
 
-# 50. CONCURRENCY
+## 50. CONCURRENCY
 
 Concurrent executors may target the same state.
 
@@ -1674,9 +1680,9 @@ fencing token
 
 The correct method depends on the target resource.
 
----
+______________________________________________________________________
 
-# 51. STALE EXECUTOR
+## 51. STALE EXECUTOR
 
 In leased or distributed execution:
 
@@ -1693,18 +1699,16 @@ fencing token
 
 Conceptually:
 
-[
-token_{worker}
-==============
+## \[ token\_{worker}
 
-token_{current}
-]
+token\_{current}
+\]
 
 must hold at commit.
 
----
+______________________________________________________________________
 
-# 52. CANCELLATION
+## 52. CANCELLATION
 
 Cancellation states:
 
@@ -1723,9 +1727,9 @@ cancel signal
 proof external effect stopped
 ```
 
----
+______________________________________________________________________
 
-# 53. TIMEOUT
+## 53. TIMEOUT
 
 ```yaml
 TimeoutPolicy:
@@ -1741,9 +1745,9 @@ TimeoutPolicy:
 
 Timeout handling depends on effect semantics.
 
----
+______________________________________________________________________
 
-# 54. FAILURE REGISTRY
+## 54. FAILURE REGISTRY
 
 ```text
 F01 INVALID_EXECUTION_REQUEST
@@ -1772,9 +1776,9 @@ F23 STALE_WORKER_COMMIT
 F24 FINALITY_OVERCLAIM
 ```
 
----
+______________________________________________________________________
 
-# 55. FAILURE RECORD
+## 55. FAILURE RECORD
 
 ```yaml
 ExecutionFailure:
@@ -1808,9 +1812,9 @@ ExecutionFailure:
   status:
 ```
 
----
+______________________________________________________________________
 
-# 56. FAILURE RECOVERY
+## 56. FAILURE RECOVERY
 
 ```text
 FAILURE
@@ -1832,9 +1836,9 @@ CLOSE TRANSACTION
 
 Do not erase evidence of partial execution.
 
----
+______________________________________________________________________
 
-# 57. SELECTIVE INVALIDATION
+## 57. SELECTIVE INVALIDATION
 
 If an authority witness is revoked:
 
@@ -1851,9 +1855,9 @@ previously finalized unrelated transactions
 
 unless revocation semantics explicitly require it.
 
----
+______________________________________________________________________
 
-# 58. REPLAY
+## 58. REPLAY
 
 A replayable execution record should retain enough information to reconstruct:
 
@@ -1873,9 +1877,9 @@ ReplayEvidence
 ReplayEffect
 ```
 
----
+______________________________________________________________________
 
-# 59. EXECUTION LEDGER
+## 59. EXECUTION LEDGER
 
 ```yaml
 ExecutionLedgerEntry:
@@ -1902,9 +1906,9 @@ ExecutionLedgerEntry:
   parent_run_id:
 ```
 
----
+______________________________________________________________________
 
-# 60. INFORMATION BOUNDARY
+## 60. INFORMATION BOUNDARY
 
 Executor may transmit information externally.
 
@@ -1927,9 +1931,9 @@ does not imply
 AllowedAggregateDisclosure
 ```
 
----
+______________________________________________________________________
 
-# 61. SECRET HANDLING
+## 61. SECRET HANDLING
 
 Credentials may be required for effects.
 
@@ -1944,9 +1948,9 @@ include secrets in receipts
 
 Use references/handles where possible.
 
----
+______________________________________________________________________
 
-# 62. SECURITY BOUNDARY
+## 62. SECURITY BOUNDARY
 
 Executor should operate under least privilege.
 
@@ -1963,9 +1967,9 @@ Not:
 all credentials available to process
 ```
 
----
+______________________________________________________________________
 
-# 63. HUMAN APPROVAL
+## 63. HUMAN APPROVAL
 
 For high-impact actions:
 
@@ -1981,9 +1985,9 @@ Approval:
 
 Approval should bind the actual effect, not just a vague plan.
 
----
+______________________________________________________________________
 
-# 64. HIGH-IMPACT EFFECT GATE
+## 64. HIGH-IMPACT EFFECT GATE
 
 Possible high-impact categories:
 
@@ -2000,9 +2004,9 @@ infrastructure modification
 
 Require increased validation and explicit authority.
 
----
+______________________________________________________________________
 
-# 65. DRY-RUN MODE
+## 65. DRY-RUN MODE
 
 Executor may support:
 
@@ -2030,9 +2034,9 @@ DryRunSuccess
 CommitSuccess
 ```
 
----
+______________________________________________________________________
 
-# 66. SIMULATION VS EXECUTION
+## 66. SIMULATION VS EXECUTION
 
 ```text
 SIMULATION
@@ -2046,9 +2050,9 @@ actual target effect
 
 Do not label simulated execution as committed.
 
----
+______________________________________________________________________
 
-# 67. EFFECT VERIFICATION
+## 67. EFFECT VERIFICATION
 
 After commit:
 
@@ -2068,9 +2072,9 @@ query result
 
 Verification method depends on target semantics.
 
----
+______________________________________________________________________
 
-# 68. SUCCESS CLASSES
+## 68. SUCCESS CLASSES
 
 Prefer explicit states:
 
@@ -2087,9 +2091,9 @@ rather than one generic:
 SUCCESS
 ```
 
----
+______________________________________________________________________
 
-# 69. CURRENT SOURCE TESTS
+## 69. CURRENT SOURCE TESTS
 
 Minimum tests for supplied stub:
 
@@ -2108,9 +2112,9 @@ T11 unrelated keys preserved
 T12 repeated run appends trace
 ```
 
----
+______________________________________________________________________
 
-# 70. LIVE EXECUTOR TESTS
+## 70. LIVE EXECUTOR TESTS
 
 Before promotion to `LIVE_EXECUTOR`:
 
@@ -2145,9 +2149,9 @@ T39 finality verification
 T40 replay evidence
 ```
 
----
+______________________________________________________________________
 
-# 71. PROMOTION STATES
+## 71. PROMOTION STATES
 
 ```text
 REGISTERED_STUB
@@ -2169,9 +2173,9 @@ VALIDATED_EXECUTOR
 LIVE_EXECUTOR
 ```
 
----
+______________________________________________________________________
 
-# 72. PROMOTION GATE
+## 72. PROMOTION GATE
 
 ```text
 PromoteToLiveExecutor
@@ -2196,9 +2200,9 @@ For irreversible effects:
 ∧ HighImpactApprovalPass
 ```
 
----
+______________________________________________________________________
 
-# 73. DO NOT CLAIM LIVE UNTIL
+## 73. DO NOT CLAIM LIVE UNTIL
 
 ```text
 real execution request enters component
@@ -2210,9 +2214,9 @@ real execution receipt exists
 real runtime path invokes Executor_Agent
 ```
 
----
+______________________________________________________________________
 
-# 74. MINIMUM LIVE IMPLEMENTATION
+## 74. MINIMUM LIVE IMPLEMENTATION
 
 A first useful implementation should support only:
 
@@ -2229,9 +2233,9 @@ tests
 
 before expanding to irreversible effects.
 
----
+______________________________________________________________________
 
-# 75. RECOMMENDED EXECUTION SKELETON
+## 75. RECOMMENDED EXECUTION SKELETON
 
 ```python
 def run(self, context: Context) -> Context:
@@ -2280,9 +2284,9 @@ This is an `AMOS_MODEL / DESIGN_PROPOSAL`.
 
 It is not the supplied source implementation.
 
----
+______________________________________________________________________
 
-# 76. HARD EXECUTOR INVARIANTS
+## 76. HARD EXECUTOR INVARIANTS
 
 ```text
 I01 Capability != Authority
@@ -2307,9 +2311,9 @@ I19 Simulation != Execution
 I20 Live Status Requires Executed Evidence
 ```
 
----
+______________________________________________________________________
 
-# 77. SOURCE DEPENDENCIES
+## 77. SOURCE DEPENDENCIES
 
 The supplied source references:
 
@@ -2333,9 +2337,9 @@ UNKNOWN/GAP
 
 until inspected.
 
----
+______________________________________________________________________
 
-# 78. DEPENDENCY GRAPH
+## 78. DEPENDENCY GRAPH
 
 Current:
 
@@ -2364,9 +2368,9 @@ Executor_Agent
 └── Metrics / Trace
 ```
 
----
+______________________________________________________________________
 
-# 79. 7-PART PERSISTENCE MAPPING
+## 79. 7-PART PERSISTENCE MAPPING
 
 | Part        | Executor mapping                          |
 | ----------- | ----------------------------------------- |
@@ -2382,9 +2386,9 @@ Class:
 
 `AMOS_MODEL`
 
----
+______________________________________________________________________
 
-# 80. EXECUTOR COMPLETION AUDIT
+## 80. EXECUTOR COMPLETION AUDIT
 
 ```yaml
 completion:
@@ -2410,9 +2414,9 @@ completion:
     state: REGISTERED_STUB
 ```
 
----
+______________________________________________________________________
 
-# 81. GAP REGISTRY
+## 81. GAP REGISTRY
 
 | Gap                     | Class    | Consequence                    |
 | ----------------------- | -------- | ------------------------------ |
@@ -2427,9 +2431,9 @@ completion:
 | No rollback/recovery    | CRITICAL | effect failure unrecoverable   |
 | No live tests           | CRITICAL | runtime capability unverified  |
 
----
+______________________________________________________________________
 
-# 82. RSCF — CURRENT IMPLEMENTATION
+## 82. RSCF — CURRENT IMPLEMENTATION
 
 ```yaml
 claim_id: EXECUTOR-IMPL-001
@@ -2458,9 +2462,9 @@ confidence_ceiling:
   runtime_execution: not_independently_verified
 ```
 
----
+______________________________________________________________________
 
-# 83. RSCF — NON-DESTRUCTIVE SOURCE BEHAVIOR
+## 83. RSCF — NON-DESTRUCTIVE SOURCE BEHAVIOR
 
 ```yaml
 claim_id: EXECUTOR-SAFE-001
@@ -2484,9 +2488,9 @@ invalidates_if:
   - Context overrides mapping semantics
 ```
 
----
+______________________________________________________________________
 
-# 84. RSCF — LIVE EXECUTION CAPABILITY
+## 84. RSCF — LIVE EXECUTION CAPABILITY
 
 ```yaml
 claim_id: EXECUTOR-CAP-001
@@ -2509,9 +2513,9 @@ status:
   unsupported_by_current_source: true
 ```
 
----
+______________________________________________________________________
 
-# 85. RSCF — GOVERNED EXECUTOR MODEL
+## 85. RSCF — GOVERNED EXECUTOR MODEL
 
 ```yaml
 claim_id: EXECUTOR-MODEL-001
@@ -2538,9 +2542,9 @@ confidence_ceiling:
   implementation: environment_dependent
 ```
 
----
+______________________________________________________________________
 
-# 86. EXECUTION RESULT CLASSES
+## 86. EXECUTION RESULT CLASSES
 
 Canonical conclusion classes:
 
@@ -2566,9 +2570,9 @@ SUCCESS
 
 for consequential execution.
 
----
+______________________________________________________________________
 
-# 87. ACTION GOVERNANCE MODEL
+## 87. ACTION GOVERNANCE MODEL
 
 ```text
 ActionCandidate
@@ -2596,9 +2600,9 @@ Executor begins after upstream reasoning and governance.
 
 It does not replace them.
 
----
+______________________________________________________________________
 
-# 88. EXECUTION / DECISION SEPARATION
+## 88. EXECUTION / DECISION SEPARATION
 
 ```text
 Decision
@@ -2626,9 +2630,9 @@ not:
 invent substitute action
 ```
 
----
+______________________________________________________________________
 
-# 89. SEMANTIC TRANSACTION
+## 89. SEMANTIC TRANSACTION
 
 Cross-step workflows may require semantic consistency.
 
@@ -2652,9 +2656,9 @@ must equal
 CommittedMeaning
 ```
 
----
+______________________________________________________________________
 
-# 90. EFFECT BINDING
+## 90. EFFECT BINDING
 
 Authority should bind:
 
@@ -2678,9 +2682,9 @@ A broad token like:
 
 is insufficient authorization for a consequential action.
 
----
+______________________________________________________________________
 
-# 91. REVALIDATION EPOCHS
+## 91. REVALIDATION EPOCHS
 
 Potential epochs:
 
@@ -2699,9 +2703,9 @@ If a load-bearing epoch changes before commit:
 REVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 92. CONFIGURATION ADMISSION
+## 92. CONFIGURATION ADMISSION
 
 Executor configuration is not trusted merely because it exists.
 
@@ -2718,9 +2722,9 @@ freshness
 rollback
 ```
 
----
+______________________________________________________________________
 
-# 93. EXECUTOR STATUS OBJECT
+## 93. EXECUTOR STATUS OBJECT
 
 Recommended:
 
@@ -2753,9 +2757,9 @@ component_status:
     live_tests:
 ```
 
----
+______________________________________________________________________
 
-# 94. FAILURE-TO-STATUS RULE
+## 94. FAILURE-TO-STATUS RULE
 
 If no real effect path exists:
 
@@ -2767,9 +2771,9 @@ REGISTERED_STUB
 
 Adding documentation, names, or placeholder methods cannot promote it.
 
----
+______________________________________________________________________
 
-# 95. REALITY / MODEL FIREWALL
+## 95. REALITY / MODEL FIREWALL
 
 ```text
 ExecutionPlan
@@ -2791,9 +2795,9 @@ REALITY CONTACT
 
 Do not merge them.
 
----
+______________________________________________________________________
 
-# 96. FINAL RSCF NODE
+## 96. FINAL RSCF NODE
 
 ```yaml
 node_id: AMOS_EXECUTOR_AGENT_V2
@@ -2869,9 +2873,9 @@ confidence_ceiling:
   execution_capability: unknown
 ```
 
----
+______________________________________________________________________
 
-# 97. CHANGELOG
+## 97. CHANGELOG
 
 ## v2.0.0 — 2026-08-25
 
@@ -2933,9 +2937,9 @@ context return
 
 No actual effect execution logic is present in the supplied source.
 
----
+______________________________________________________________________
 
-# 98. FINAL AMOS POSITION
+## 98. FINAL AMOS POSITION
 
 The supplied component is correctly described as:
 
@@ -2985,30 +2989,33 @@ The third invariant is:
 
 > **No execution is complete until the system knows what effect actually occurred.**
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · 06-Knowledge-Base-MOC · AMOS_AGENT_SCHEMA_FULL · AMOS_AGENT_TEMPLATES · AMOS_AGENT_ONBOARDING_GUIDE · EnvironmentScan_Agent · system_scan_agent · automation_profiles
 
 ```
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: executor_agent
 node_type: note
 path: 11_KNOWLEDGE/executor_agent.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]]
-

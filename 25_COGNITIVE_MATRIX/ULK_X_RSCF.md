@@ -12,19 +12,19 @@ segment: 25_COGNITIVE_MATRIX
 artifact_kind: MATRIX
 path: 25_COGNITIVE_MATRIX/ULK_X_RSCF.md
 tags:
-- amos-os
-- cognitive-matrix
-- canon/matrix
-- rscf
-- provenance
-- reality-x-ulk
-- ulk-logic-kernel
-- ulk-x-rscf
-- law/L19-proof-capsule
-- ulk-x-rscf-matrix
-- k-provenance
-- k-fail-closed
-- amos-core-v4-4
+  - amos-os
+  - cognitive-matrix
+  - canon/matrix
+  - rscf
+  - provenance
+  - reality-x-ulk
+  - ulk-logic-kernel
+  - ulk-x-rscf
+  - law/L19-proof-capsule
+  - ulk-x-rscf-matrix
+  - k-provenance
+  - k-fail-closed
+  - amos-core-v4-4
 version: 1.0.0
 updated: '2026-08-28'
 status: CANON_CANDIDATE
@@ -43,9 +43,9 @@ rscf:
   regime: AMOS_OS_MODEL
 ---
 
-Below is the expanded **Obsidian-native canonical candidate**. I preserve the source-defined compiler invariant and Proof Conservation Law, while treating the visibly corrupted equation tokens conservatively. The recoverable structure is `∀ op ∈ {...}, ∃ Capsule = ⟨H(Intent), M(ProofSteps), L(Receipt)⟩`; the exact corrupted ALU-0/ALU-4 glyphs remain subordinate to ``.
+Below is the expanded **Obsidian-native canonical candidate**. I preserve the source-defined compiler invariant and Proof Conservation Law, while treating the visibly corrupted equation tokens conservatively. The recoverable structure is `∀ op ∈ {...}, ∃ Capsule = ⟨H(Intent), M(ProofSteps), L(Receipt)⟩`; the exact corrupted ALU-0/ALU-4 glyphs remain subordinate to \`\`.
 
-```markdown
+````markdown
 ---
 title: ULK x RSCF Cognitive Matrix Specification
 aliases:
@@ -258,7 +258,7 @@ epistemic_boundary:
 
 ---
 
-# 0. Artifact Identity
+## 0. Artifact Identity
 
 | Field | Value |
 |---|---|
@@ -280,7 +280,7 @@ epistemic_boundary:
 
 ---
 
-# 1. Source-Grounded Core
+## 1. Source-Grounded Core
 
 The supplied source defines `ULK_X_RSCF` as the specification that:
 
@@ -326,7 +326,7 @@ These mappings are explicit enough to preserve as canonical source structure.
 
 ---
 
-# 2. Source Recovery Note
+## 2. Source Recovery Note
 
 The supplied mathematical expression contains encoding corruption resembling:
 
@@ -334,7 +334,7 @@ The supplied mathematical expression contains encoding corruption resembling:
 48307
 ...
 angle48307
-```
+````
 
 and malformed rendering around:
 
@@ -376,14 +376,14 @@ $$
 \}.
 $$
 
-> [!warning] Symbol authority
+> [!WARNING] Symbol authority
 > `\emptyset \to S_0` and `\tau` are normalized from corrupted source rendering and the matrix counterpart. Their exact canonical glyphs remain governed by .
 >
 > The structural claim that six ULK operators participate in the compiler invariant is stronger than the certainty of every recovered glyph.
 
----
+______________________________________________________________________
 
-# 3. Compiler Transformation Invariant
+## 3. Compiler Transformation Invariant
 
 ## 3.1 Canonical Form
 
@@ -404,10 +404,10 @@ $$
 
 where:
 
-* \(I\) = Intent;
-* \(P\) = Proof Steps;
-* \(R\) = Receipt;
-* \(C_{\mathrm{op}}\) = RSCF proof capsule associated with the operator transformation.
+- (I) = Intent;
+- (P) = Proof Steps;
+- (R) = Receipt;
+- (C\_{\\mathrm{op}}) = RSCF proof capsule associated with the operator transformation.
 
 Expanded:
 
@@ -435,9 +435,9 @@ L(\mathrm{Receipt})
 }
 $$
 
----
+______________________________________________________________________
 
-# 4. Quantifier Semantics
+## 4. Quantifier Semantics
 
 The invariant contains two important logical components:
 
@@ -488,9 +488,9 @@ capsule_cardinality:
     NOT_EXCLUDED
 ```
 
----
+______________________________________________________________________
 
-# 5. Deterministic Compilation Pipeline
+## 5. Deterministic Compilation Pipeline
 
 The specification explicitly calls the pipeline:
 
@@ -533,9 +533,9 @@ but `state` and `context` are not explicit source parameters here.
 
 Therefore that function signature is only a **MODEL abstraction**, not canonical source syntax.
 
----
+______________________________________________________________________
 
-# 6. Determinism Boundary
+## 6. Determinism Boundary
 
 The term **deterministic compilation pipeline** licenses the model-level expectation:
 
@@ -551,15 +551,15 @@ only if all hidden dependencies are themselves fixed.
 
 The artifact does not enumerate:
 
-* compiler state;
-* context state;
-* version state;
-* canonical serialization;
-* environmental inputs;
-* clock inputs;
-* randomness;
-* concurrent mutation;
-* external dependencies.
+- compiler state;
+- context state;
+- version state;
+- canonical serialization;
+- environmental inputs;
+- clock inputs;
+- randomness;
+- concurrent mutation;
+- external dependencies.
 
 Therefore a stronger universal equation:
 
@@ -590,9 +590,9 @@ determinism:
     NOT_DEFINED_HERE
 ```
 
----
+______________________________________________________________________
 
-# 7. RSCF Capsule Architecture
+## 7. RSCF Capsule Architecture
 
 The source defines the capsule as:
 
@@ -622,9 +622,9 @@ RSCF PROOF CAPSULE
 
 This is one of the most important explicit structures in the artifact.
 
----
+______________________________________________________________________
 
-# 8. H — Intent Layer
+## 8. H — Intent Layer
 
 The H component is:
 
@@ -651,21 +651,21 @@ H:
 
 The artifact does not specify whether Intent includes:
 
-* objective;
-* actor;
-* scope;
-* authority;
-* requested state transition;
-* expected result;
-* constraints;
-* regime;
-* timestamp.
+- objective;
+- actor;
+- scope;
+- authority;
+- requested state transition;
+- expected result;
+- constraints;
+- regime;
+- timestamp.
 
 Those fields must not be fabricated.
 
----
+______________________________________________________________________
 
-# 9. M — Proof Steps Layer
+## 9. M — Proof Steps Layer
 
 The M component is:
 
@@ -690,20 +690,20 @@ M:
 
 The source does not specify whether the proof steps are:
 
-* formal derivations;
-* execution traces;
-* logical predicates;
-* ULK operator receipts;
-* theorem prover steps;
-* dependency references;
-* hashes;
-* signed assertions.
+- formal derivations;
+- execution traces;
+- logical predicates;
+- ULK operator receipts;
+- theorem prover steps;
+- dependency references;
+- hashes;
+- signed assertions.
 
 These remain unresolved.
 
----
+______________________________________________________________________
 
-# 10. L — Receipt Layer
+## 10. L — Receipt Layer
 
 The L component is:
 
@@ -738,9 +738,9 @@ Receipt
 AutomaticallyKnownReceiptSchema.
 $$
 
----
+______________________________________________________________________
 
-# 11. H/M/L Conservation
+## 11. H/M/L Conservation
 
 The compiler invariant requires a capsule of the form:
 
@@ -762,9 +762,9 @@ This is a **DERIVED structural rule** from the explicit tuple.
 
 It does not establish the internal validity of each component.
 
----
+______________________________________________________________________
 
-# 12. Structural Completeness vs Proof Validity
+## 12. Structural Completeness vs Proof Validity
 
 A capsule may contain all three components while still failing validation.
 
@@ -798,13 +798,13 @@ $$
 
 Structural completeness is necessary under the tuple model but is not sufficient for proof acceptance.
 
----
+______________________________________________________________________
 
-# 13. Proof Conservation Law
+## 13. Proof Conservation Law
 
 The source explicitly states:
 
-> No state transition is admitted to the runtime plane unless accompanied by a cryptographically signed RSCF proof capsule verified by ALU-5 \((\mathcal H)\).
+> No state transition is admitted to the runtime plane unless accompanied by a cryptographically signed RSCF proof capsule verified by ALU-5 ((\\mathcal H)).
 
 This is the strongest governance statement in the artifact.
 
@@ -832,18 +832,18 @@ ALU5Verification
 }
 $$
 
----
+______________________________________________________________________
 
-# 14. Necessary Condition
+## 14. Necessary Condition
 
 The Proof Conservation Law defines signed, ALU-5-verified proof as a **necessary condition** for runtime admission.
 
 If:
 
-* \(A(T)\) = transition \(T\) is admitted;
-* \(C(T)\) = transition has the required capsule;
-* \(S(C)\) = capsule is cryptographically signed;
-* \(V_5(C)\) = ALU-5 verifies the capsule;
+- (A(T)) = transition (T) is admitted;
+- (C(T)) = transition has the required capsule;
+- (S(C)) = capsule is cryptographically signed;
+- (V_5(C)) = ALU-5 verifies the capsule;
 
 then:
 
@@ -879,9 +879,9 @@ $$
 \neg A(T).
 $$
 
----
+______________________________________________________________________
 
-# 15. Necessary Does Not Mean Sufficient
+## 15. Necessary Does Not Mean Sufficient
 
 The source does **not** say:
 
@@ -909,9 +909,9 @@ SufficientForAdmission
 }
 $$
 
----
+______________________________________________________________________
 
-# 16. Fail-Closed Admission Model
+## 16. Fail-Closed Admission Model
 
 The Proof Conservation Law supports a fail-closed admission structure:
 
@@ -945,9 +945,9 @@ DENY       SIGNATURE
 
 The `OTHER GATES` node is deliberately retained because ALU-5 verification is not established as sufficient.
 
----
+______________________________________________________________________
 
-# 17. Contrapositive Admission Rule
+## 17. Contrapositive Admission Rule
 
 From:
 
@@ -979,9 +979,9 @@ $$
 
 Thus any missing load-bearing proof requirement blocks admission under the source-defined law.
 
----
+______________________________________________________________________
 
-# 18. Proof Conservation as Runtime Boundary
+## 18. Proof Conservation as Runtime Boundary
 
 The architecture can be represented as two domains:
 
@@ -1011,9 +1011,9 @@ ADMITTED RUNTIME DOMAIN
 
 The specification therefore makes proof accompaniment part of the transition boundary rather than an optional post-hoc annotation.
 
----
+______________________________________________________________________
 
-# 19. Proof-Carrying Transition Model
+## 19. Proof-Carrying Transition Model
 
 A useful derived abstraction is:
 
@@ -1044,9 +1044,9 @@ This is a **DERIVED architectural compression**.
 
 The exact runtime data structure is not supplied.
 
----
+______________________________________________________________________
 
-# 20. ULK Operator Domain
+## 20. ULK Operator Domain
 
 The source enumerates six operator forms.
 
@@ -1054,21 +1054,21 @@ Normalized against the matrix counterpart:
 
 | Operator  | Symbol                | Matrix Verification              |
 | --------- | --------------------- | -------------------------------- |
-| **ALU-0** | \(\emptyset \to S_0\) | Ground state conservation        |
-| **ALU-1** | \(\Delta\)            | Distinction & regime non-leakage |
-| **ALU-2** | \(\otimes\)           | Relational coupling valid        |
-| **ALU-3** | \(\Pi_{\mathcal C}\)  | All 21 core laws satisfied       |
-| **ALU-4** | \(\tau\)              | Type well-formedness             |
-| **ALU-5** | \(\mathcal H\)        | SHA-256 state hash verified      |
+| **ALU-0** | (\\emptyset \\to S_0) | Ground state conservation        |
+| **ALU-1** | (\\Delta)             | Distinction & regime non-leakage |
+| **ALU-2** | (\\otimes)            | Relational coupling valid        |
+| **ALU-3** | (\\Pi\_{\\mathcal C}) | All 21 core laws satisfied       |
+| **ALU-4** | (\\tau)               | Type well-formedness             |
+| **ALU-5** | (\\mathcal H)         | SHA-256 state hash verified      |
 
-> [!info] Provenance distinction
+> [!INFO] Provenance distinction
 > The operator set appears directly in this specification.
 >
 > The verification descriptions in the third column are supplied by , not by the visible body of this specification.
 
----
+______________________________________________________________________
 
-# 21. ALU-0 — Ground-State Transformation
+## 21. ALU-0 — Ground-State Transformation
 
 The normalized source operator:
 
@@ -1094,11 +1094,11 @@ GroundStateConservation
 NullStateAbort_{failure}.
 $$
 
-The exact semantics of \(S_0\) remain governed by .
+The exact semantics of (S_0) remain governed by .
 
----
+______________________________________________________________________
 
-# 22. ALU-1 — Distinction
+## 22. ALU-1 — Distinction
 
 ALU-1 uses:
 
@@ -1132,9 +1132,9 @@ $$
 
 This provides a direct structural relationship between ULK distinction and scope/regime governance.
 
----
+______________________________________________________________________
 
-# 23. ALU-2 — Relational Coupling
+## 23. ALU-2 — Relational Coupling
 
 ALU-2 uses:
 
@@ -1170,9 +1170,9 @@ A coupling may be logical, structural, dependency-based, compositional, or causa
 
 The relationship type must remain explicit.
 
----
+______________________________________________________________________
 
-# 24. ALU-3 — Constitutional Projection
+## 24. ALU-3 — Constitutional Projection
 
 ALU-3 is represented as:
 
@@ -1202,9 +1202,9 @@ This artifact does not enumerate those 21 laws.
 
 Therefore they remain an external canonical dependency.
 
----
+______________________________________________________________________
 
-# 25. ALU-4 — Type Formation / Validation
+## 25. ALU-4 — Type Formation / Validation
 
 The corrupted source is normalized as:
 
@@ -1238,9 +1238,9 @@ $$
 
 Type validity establishes structural compatibility, not empirical correctness.
 
----
+______________________________________________________________________
 
-# 26. ALU-5 — Cryptographic Verification
+## 26. ALU-5 — Cryptographic Verification
 
 ALU-5 is explicitly identified by the Proof Conservation Law:
 
@@ -1266,9 +1266,9 @@ $$
 
 The Proof Conservation Law further assigns ALU-5 a runtime admission role.
 
----
+______________________________________________________________________
 
-# 27. ALU-5 Dual Role
+## 27. ALU-5 Dual Role
 
 Across the supplied specification and matrix counterpart, ALU-5 participates in two related surfaces:
 
@@ -1304,9 +1304,9 @@ ALU_5:
     NOT_PROVEN
 ```
 
----
+______________________________________________________________________
 
-# 28. Signature vs Hash
+## 28. Signature vs Hash
 
 The Proof Conservation Law requires:
 
@@ -1340,15 +1340,15 @@ $$
 
 The source does not define:
 
-* signature algorithm;
-* key type;
-* key ownership;
-* key rotation;
-* signature encoding;
-* certificate structure;
-* trust anchor;
-* revocation;
-* signature/hash composition.
+- signature algorithm;
+- key type;
+- key ownership;
+- key rotation;
+- signature encoding;
+- certificate structure;
+- trust anchor;
+- revocation;
+- signature/hash composition.
 
 Therefore:
 
@@ -1362,9 +1362,9 @@ $$
 
 even though both appear in the broader proof-verification architecture.
 
----
+______________________________________________________________________
 
-# 29. Cryptographic Signature Gap
+## 29. Cryptographic Signature Gap
 
 Canonical unresolved fields:
 
@@ -1407,9 +1407,9 @@ cryptographic_signature:
 
 No algorithm should be invented.
 
----
+______________________________________________________________________
 
-# 30. SHA-256 Scope
+## 30. SHA-256 Scope
 
 The matrix counterpart specifically names:
 
@@ -1427,12 +1427,12 @@ only establishes a digest relation.
 
 It does not establish:
 
-* truth of \(m_1\);
-* authority of \(m_1\);
-* independence of \(m_1\);
-* freshness of \(m_1\);
-* causal validity of \(m_1\);
-* scope validity of \(m_1\).
+- truth of (m_1);
+- authority of (m_1);
+- independence of (m_1);
+- freshness of (m_1);
+- causal validity of (m_1);
+- scope validity of (m_1).
 
 Therefore:
 
@@ -1444,18 +1444,18 @@ EpistemicTruth
 }
 $$
 
----
+______________________________________________________________________
 
-# 31. RSCF Proof Capsule vs Cryptographic Proof
+## 31. RSCF Proof Capsule vs Cryptographic Proof
 
 The phrase **proof capsule** must not automatically be interpreted as a cryptographic proof system such as:
 
-* SNARK;
-* STARK;
-* zero-knowledge proof;
-* interactive proof;
-* proof-of-work;
-* proof-of-stake.
+- SNARK;
+- STARK;
+- zero-knowledge proof;
+- interactive proof;
+- proof-of-work;
+- proof-of-stake.
 
 The source instead defines an AMOS RSCF structure:
 
@@ -1487,9 +1487,9 @@ proof_capsule:
     NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 32. Compiler–Proof Relationship
+## 32. Compiler–Proof Relationship
 
 The central transformation is:
 
@@ -1515,9 +1515,9 @@ $$
 
 This expanded function is **DERIVED**, because the source establishes the capsule structure but does not explicitly write each component as a function of `op`.
 
----
+______________________________________________________________________
 
-# 33. Intent Conservation
+## 33. Intent Conservation
 
 Because H explicitly contains Intent, a reasonable integrity requirement is:
 
@@ -1537,9 +1537,9 @@ Canonical status:
 
 until defined by the compiler specification or executable binding.
 
----
+______________________________________________________________________
 
-# 34. Proof-Step Conservation
+## 34. Proof-Step Conservation
 
 Similarly, M carries:
 
@@ -1561,9 +1561,9 @@ Again:
 
 `DERIVED / REQUIRES IMPLEMENTATION EVIDENCE`
 
----
+______________________________________________________________________
 
-# 35. Receipt Conservation
+## 35. Receipt Conservation
 
 L carries:
 
@@ -1583,9 +1583,9 @@ The exact receipt content remains unknown.
 
 Possible fields must not be invented.
 
----
+______________________________________________________________________
 
-# 36. Three Conservation Surfaces
+## 36. Three Conservation Surfaces
 
 The H/M/L tuple creates three conceptually distinct conservation questions:
 
@@ -1597,9 +1597,9 @@ The H/M/L tuple creates three conceptually distinct conservation questions:
 
 These are derived interpretation surfaces, useful for validation without changing source semantics.
 
----
+______________________________________________________________________
 
-# 37. Proof Mesh
+## 37. Proof Mesh
 
 The artifact tag:
 
@@ -1635,11 +1635,11 @@ The source does not provide a graph-theoretic definition of the mesh.
 
 Therefore `logic_proof_mesh` remains a source-defined architectural label rather than a mathematically complete graph specification.
 
----
+______________________________________________________________________
 
-# 38. Matrix Counterpart Reconciliation
+## 38. Matrix Counterpart Reconciliation
 
-The matrix counterpart  contains a column:
+The matrix counterpart contains a column:
 
 **Generated RSCF Section**
 
@@ -1664,9 +1664,9 @@ Therefore the following remains unresolved:
 | ALU-4    | `UNKNOWN`                    |
 | ALU-5    | `UNKNOWN`                    |
 
----
+______________________________________________________________________
 
-# 39. What the Specification Resolves
+## 39. What the Specification Resolves
 
 The specification resolves:
 
@@ -1695,9 +1695,9 @@ resolved:
     REQUIRED_FOR_RUNTIME_ADMISSION
 ```
 
----
+______________________________________________________________________
 
-# 40. What the Specification Does Not Resolve
+## 40. What the Specification Does Not Resolve
 
 ```yaml
 unresolved:
@@ -1736,9 +1736,9 @@ unresolved:
     UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 41. Competing RSCF Compilation Models
+## 41. Competing RSCF Compilation Models
 
 Until more source is available, several models remain compatible.
 
@@ -1756,7 +1756,7 @@ $$
 
 Status: `COMPETING MODEL`
 
----
+______________________________________________________________________
 
 ## Hypothesis B — Operators Populate Different Capsule Components
 
@@ -1770,7 +1770,7 @@ The current source does not identify the mapping.
 
 Status: `COMPETING MODEL`
 
----
+______________________________________________________________________
 
 ## Hypothesis C — Operators Cooperatively Build One Capsule
 
@@ -1782,7 +1782,7 @@ $$
 
 Status: `COMPETING MODEL`
 
----
+______________________________________________________________________
 
 ## Hypothesis D — Capsule Is Generated Elsewhere and ULK Verifies It
 
@@ -1790,9 +1790,9 @@ The operators may validate rather than directly construct all capsule fields.
 
 Status: `COMPETING MODEL`
 
----
+______________________________________________________________________
 
-# 42. No Forced Convergence
+## 42. No Forced Convergence
 
 The source sentence says the pipeline:
 
@@ -1816,30 +1816,28 @@ $$
 
 remain `COMPETING` where their detailed claims differ.
 
----
+______________________________________________________________________
 
-# 43. Cheapest Discriminating Evidence
+## 43. Cheapest Discriminating Evidence
 
 The next smallest sufficient sources would be:
 
 1. explicit compiler schema inside ;
-2. populated version of ;
-3. canonical RSCF schema;
-4. executable compiler binding;
-5. runtime proof capsule example;
-6. cryptographic receipt specification.
+1. populated version of ;
+1. canonical RSCF schema;
+1. executable compiler binding;
+1. runtime proof capsule example;
+1. cryptographic receipt specification.
 
 Raw implementation evidence should remain:
 
 `DO_NOT_LOAD_UNLESS_REQUIRED`.
 
----
+______________________________________________________________________
 
-# 44. Reality × ULK Connection
+## 44. Reality × ULK Connection
 
 The source explicitly links:
-
-
 
 Therefore `ULK_X_RSCF` participates in a broader inter-plane topology:
 
@@ -1866,9 +1864,9 @@ This is a navigation/architecture representation.
 
 It must not be interpreted as proof that every arrow is a causal relation unless the linked artifacts define it as causal.
 
----
+______________________________________________________________________
 
-# 45. Causal Firewall
+## 45. Causal Firewall
 
 The compilation relationship is stronger than mere analogy because the source explicitly states that the pipeline converts transformations into capsules.
 
@@ -1904,9 +1902,9 @@ $$
 
 is not valid.
 
----
+______________________________________________________________________
 
-# 46. Scope Firewall
+## 46. Scope Firewall
 
 The specification applies within:
 
@@ -1940,16 +1938,16 @@ applicability_envelope:
 
 It does not establish universal applicability to arbitrary:
 
-* operating systems;
-* compilers;
-* CPUs;
-* theorem provers;
-* cryptographic protocols;
-* distributed systems.
+- operating systems;
+- compilers;
+- CPUs;
+- theorem provers;
+- cryptographic protocols;
+- distributed systems.
 
----
+______________________________________________________________________
 
-# 47. Compiler Integrity Invariant
+## 47. Compiler Integrity Invariant
 
 A derived compiler integrity predicate can be represented as:
 
@@ -1969,9 +1967,9 @@ This is a useful AMOS model abstraction.
 
 The exact predicates are not supplied by the source.
 
----
+______________________________________________________________________
 
-# 48. Runtime Admission Predicate
+## 48. Runtime Admission Predicate
 
 The strongest source-grounded admission predicate is only one-way:
 
@@ -2007,9 +2005,9 @@ VerifiedByALU5(C)
 }
 $$
 
----
+______________________________________________________________________
 
-# 49. Minimal Denial Predicate
+## 49. Minimal Denial Predicate
 
 A conservative denial predicate follows:
 
@@ -2027,9 +2025,9 @@ This follows from the source-defined necessary conditions.
 
 Additional denial conditions may exist.
 
----
+______________________________________________________________________
 
-# 50. Proof Conservation Invariant
+## 50. Proof Conservation Invariant
 
 The Proof Conservation Law can be compressed as:
 
@@ -2055,9 +2053,9 @@ $$
 
 where `ProofVerified` includes the source-required signature and ALU-5 verification surfaces.
 
----
+______________________________________________________________________
 
-# 51. Conservation Does Not Mean Immutability
+## 51. Conservation Does Not Mean Immutability
 
 The word **Conservation** in `Proof Conservation Law` should not automatically be interpreted as physical conservation or immutable storage.
 
@@ -2065,29 +2063,29 @@ The source establishes a governance invariant around runtime transition admissio
 
 It does not explicitly establish:
 
-* append-only persistence;
-* permanent storage;
-* immutable ledger;
-* blockchain;
-* distributed consensus;
-* replicated state;
-* MVCC;
-* CAS;
-* causal epoch finality.
+- append-only persistence;
+- permanent storage;
+- immutable ledger;
+- blockchain;
+- distributed consensus;
+- replicated state;
+- MVCC;
+- CAS;
+- causal epoch finality.
 
 Those concepts require their own source bindings.
 
----
+______________________________________________________________________
 
-# 52. Provenance Implications
+## 52. Provenance Implications
 
 The presence of:
 
-* Intent;
-* ProofSteps;
-* Receipt;
-* cryptographic signature;
-* ALU-5 verification;
+- Intent;
+- ProofSteps;
+- Receipt;
+- cryptographic signature;
+- ALU-5 verification;
 
 supports a provenance-oriented model.
 
@@ -2114,19 +2112,15 @@ VERIFICATION
 
 But the exact provenance topology is not specified here.
 
----
+______________________________________________________________________
 
-# 53. Source Ancestry vs Independent Confirmation
+## 53. Source Ancestry vs Independent Confirmation
 
 The specification and matrix counterpart are closely related artifacts.
 
 Therefore agreement between:
 
-
-
 and:
-
-
 
 should not automatically count as two independent confirmations.
 
@@ -2142,17 +2136,17 @@ $$
 
 Their strongest role is cross-artifact consistency within the same AMOS corpus.
 
----
+______________________________________________________________________
 
-# 54. Proof Capsule Provenance Envelope
+## 54. Proof Capsule Provenance Envelope
 
 A conceptual proof capsule should preserve enough provenance to reconstruct why a transition was considered admissible.
 
 The source explicitly supplies:
 
-* Intent;
-* ProofSteps;
-* Receipt.
+- Intent;
+- ProofSteps;
+- Receipt.
 
 Additional provenance fields are not explicitly supplied.
 
@@ -2177,9 +2171,9 @@ proof_capsule:
     REQUIRED_FOR_RUNTIME_ADMISSION
 ```
 
----
+______________________________________________________________________
 
-# 55. Proof Capsule Validity States
+## 55. Proof Capsule Validity States
 
 A useful derived state machine is:
 
@@ -2214,9 +2208,9 @@ $$
 
 under the supplied evidence.
 
----
+______________________________________________________________________
 
-# 56. Invalid Capsule States
+## 56. Invalid Capsule States
 
 Potential model-level invalidity classes include:
 
@@ -2252,9 +2246,9 @@ Only `UNSIGNED` and `ALU5_UNVERIFIED` are directly tied to the visible Proof Con
 
 The others are derived validation categories.
 
----
+______________________________________________________________________
 
-# 57. Proof Capsule Identity
+## 57. Proof Capsule Identity
 
 A proof capsule should not be conflated with the state transition itself.
 
@@ -2274,9 +2268,9 @@ The source says the transition is **accompanied by** the capsule.
 
 That wording supports distinct objects or distinct logical roles.
 
----
+______________________________________________________________________
 
-# 58. Accompaniment Relation
+## 58. Accompaniment Relation
 
 Define:
 
@@ -2299,9 +2293,9 @@ $$
 
 This preserves the explicit relational wording of the source.
 
----
+______________________________________________________________________
 
-# 59. Capsule Existence vs Capsule Validity
+## 59. Capsule Existence vs Capsule Validity
 
 The compiler invariant provides capsule existence:
 
@@ -2331,9 +2325,9 @@ ADMISSION ELIGIBILITY
 
 Existence alone is insufficient.
 
----
+______________________________________________________________________
 
-# 60. Compilation vs Verification
+## 60. Compilation vs Verification
 
 The specification contains at least two conceptual phases:
 
@@ -2379,9 +2373,9 @@ $$
 
 is required for admission eligibility.
 
----
+______________________________________________________________________
 
-# 61. Verification Must Not Rewrite Evidence Silently
+## 61. Verification Must Not Rewrite Evidence Silently
 
 A proof verifier should not silently transform failed evidence into passing evidence.
 
@@ -2397,11 +2391,11 @@ $$
 
 The matrix counterpart reinforces fail-closed behavior through explicit fallback routes.
 
----
+______________________________________________________________________
 
-# 62. Cross-Artifact Fail-Closed Integration
+## 62. Cross-Artifact Fail-Closed Integration
 
- defines:
+defines:
 
 | ALU   | Failure Route              |
 | ----- | -------------------------- |
@@ -2430,9 +2424,9 @@ MissingRequiredProof
 NoRuntimeAdmission.
 $$
 
----
+______________________________________________________________________
 
-# 63. Local vs Global Verification
+## 63. Local vs Global Verification
 
 A useful distinction is:
 
@@ -2456,9 +2450,9 @@ Pass(ALU_i)
 GlobalAdmission.
 $$
 
----
+______________________________________________________________________
 
-# 64. ALU-5 as Final Admission Dependency
+## 64. ALU-5 as Final Admission Dependency
 
 The Proof Conservation Law explicitly names ALU-5 as required for runtime admission.
 
@@ -2472,9 +2466,9 @@ It does not prove ALU-5 is the only final gate.
 
 Nor does it prove that ALU-5 alone evaluates all other ALU conditions.
 
----
+______________________________________________________________________
 
-# 65. Potential Verification Composition
+## 65. Potential Verification Composition
 
 A possible composite model is:
 
@@ -2494,9 +2488,9 @@ Therefore the full conjunction remains:
 
 until the ULK source explicitly establishes it.
 
----
+______________________________________________________________________
 
-# 66. Strongest Source-Grounded Runtime Law
+## 66. Strongest Source-Grounded Runtime Law
 
 The strongest safe law is:
 
@@ -2522,9 +2516,9 @@ $$
 
 The biconditional would invent sufficiency.
 
----
+______________________________________________________________________
 
-# 67. Proof Capsule as Typed Evidence
+## 67. Proof Capsule as Typed Evidence
 
 Within AMOS epistemic typing, the capsule can be modeled as a structured evidence object.
 
@@ -2556,9 +2550,9 @@ These are architectural interpretations.
 
 The exact evidence taxonomy inside the executable implementation is not supplied.
 
----
+______________________________________________________________________
 
-# 68. Proof Capsule Does Not Raise Premise Quality
+## 68. Proof Capsule Does Not Raise Premise Quality
 
 Even a perfectly formed capsule cannot increase the epistemic quality of a weak premise merely by packaging it.
 
@@ -2576,9 +2570,9 @@ Cryptographic integrity preserves content identity.
 
 It does not upgrade evidence quality.
 
----
+______________________________________________________________________
 
-# 69. Signed Falsehood Problem
+## 69. Signed Falsehood Problem
 
 A cryptographically valid signature can authenticate a false or unsupported statement.
 
@@ -2608,9 +2602,9 @@ $$
 
 This separation is required for epistemic integrity.
 
----
+______________________________________________________________________
 
-# 70. Proof-Step Correlation Risk
+## 70. Proof-Step Correlation Risk
 
 Multiple proof steps may descend from one premise.
 
@@ -2626,9 +2620,9 @@ The proof capsule must not count repeated descendants of the same source as inde
 
 This is a provenance-topology constraint applied to the model.
 
----
+______________________________________________________________________
 
-# 71. RSCF Dependency Closure
+## 71. RSCF Dependency Closure
 
 A capsule is locally reusable only while its load-bearing dependencies remain valid.
 
@@ -2650,9 +2644,9 @@ $$
 
 This is a broader AMOS governance rule applied to the artifact, not an equation explicitly supplied in this source.
 
----
+______________________________________________________________________
 
-# 72. Proof Invalidation
+## 72. Proof Invalidation
 
 If a load-bearing premise fails:
 
@@ -2668,9 +2662,9 @@ Thus the model supports selective proof invalidation rather than automatic globa
 
 This is a v4.4 governance interpretation, not a claim that this specification alone implements dependency-aware runtime invalidation.
 
----
+______________________________________________________________________
 
-# 73. Runtime Admission and Freshness
+## 73. Runtime Admission and Freshness
 
 The visible source does not define freshness.
 
@@ -2700,9 +2694,9 @@ freshness:
     UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 74. Replay Protection Gap
+## 74. Replay Protection Gap
 
 A signed capsule may be cryptographically authentic but stale.
 
@@ -2718,17 +2712,17 @@ The source does not define replay protection.
 
 This is a decision-relevant implementation gap for any real runtime interpretation.
 
----
+______________________________________________________________________
 
-# 75. Version Binding Gap
+## 75. Version Binding Gap
 
 The artifact does not specify whether a capsule is bound to:
 
-* ULK version;
-* RSCF schema version;
-* constitutional law version;
-* runtime version;
-* state version.
+- ULK version;
+- RSCF schema version;
+- constitutional law version;
+- runtime version;
+- state version.
 
 Therefore:
 
@@ -2751,9 +2745,9 @@ version_binding:
     UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 76. Regime Binding Gap
+## 76. Regime Binding Gap
 
 Because ALU-1 explicitly concerns regime non-leakage in the matrix counterpart, a capsule may require regime-scoped validity.
 
@@ -2762,18 +2756,18 @@ But the capsule schema shown here does not expose a regime field.
 Therefore one of several possibilities remains:
 
 1. regime is encoded inside H;
-2. regime is encoded inside M;
-3. regime is encoded inside L;
-4. regime exists outside the tuple;
-5. regime binding is handled by ULK independently.
+1. regime is encoded inside M;
+1. regime is encoded inside L;
+1. regime exists outside the tuple;
+1. regime binding is handled by ULK independently.
 
 Status:
 
 `COMPETING / UNRESOLVED`
 
----
+______________________________________________________________________
 
-# 77. H/M/L Are Roles, Not Necessarily Storage Tiers
+## 77. H/M/L Are Roles, Not Necessarily Storage Tiers
 
 The notation:
 
@@ -2785,9 +2779,9 @@ should not automatically be interpreted as physical storage layers.
 
 Within the source they identify capsule components:
 
-* H(Intent)
-* M(ProofSteps)
-* L(Receipt)
+- H(Intent)
+- M(ProofSteps)
+- L(Receipt)
 
 The broader AMOS Fractal Knowledge Network also uses H/M/L abstraction.
 
@@ -2803,9 +2797,9 @@ $$
 
 is at most a structural model relationship unless explicitly bound.
 
----
+______________________________________________________________________
 
-# 78. Cross-Scale Similarity Firewall
+## 78. Cross-Scale Similarity Firewall
 
 Because both systems use H/M/L structures, it may be tempting to assert:
 
@@ -2841,9 +2835,9 @@ hml_cross_binding:
     NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 79. Deterministic Logic Firewall
+## 79. Deterministic Logic Firewall
 
 Deterministic compilation does not imply that all upstream evidence is deterministic.
 
@@ -2869,9 +2863,9 @@ DeterministicProcess
 CertainPremises.
 $$
 
----
+______________________________________________________________________
 
-# 80. Deterministic Compilation vs Deterministic Reality
+## 80. Deterministic Compilation vs Deterministic Reality
 
 Similarly:
 
@@ -2885,9 +2879,9 @@ The specification governs an AMOS compilation model.
 
 It does not establish metaphysical determinism or universal physical determinism.
 
----
+______________________________________________________________________
 
-# 81. Proof Mesh Integrity Layers
+## 81. Proof Mesh Integrity Layers
 
 A derived integrity stack is:
 
@@ -2905,9 +2899,9 @@ This is an analytical decomposition.
 
 It is not a replacement for the canonical six ALU layers.
 
----
+______________________________________________________________________
 
-# 82. State Transition Governance
+## 82. State Transition Governance
 
 Define a candidate transition:
 
@@ -2923,7 +2917,7 @@ T
 C_T
 $$
 
-before admission, where \(C_T\) is the accompanying proof capsule.
+before admission, where (C_T) is the accompanying proof capsule.
 
 More precisely:
 
@@ -2933,9 +2927,9 @@ Admit(S_t\to S_{t+1})
 ExistsVerifiedSignedCapsule(T).
 $$
 
----
+______________________________________________________________________
 
-# 83. No Bare Transition Invariant
+## 83. No Bare Transition Invariant
 
 The Proof Conservation Law can therefore be compressed into:
 
@@ -2951,9 +2945,9 @@ meaning:
 
 This is a **DERIVED compression** of the explicit law.
 
----
+______________________________________________________________________
 
-# 84. Runtime Plane Boundary
+## 84. Runtime Plane Boundary
 
 The phrase:
 
@@ -2981,9 +2975,9 @@ runtime_plane:
     NOT_INDEPENDENTLY_VERIFIED
 ```
 
----
+______________________________________________________________________
 
-# 85. Verification Receipt Requirement
+## 85. Verification Receipt Requirement
 
 The presence of:
 
@@ -3013,9 +3007,9 @@ $$
 
 These remain separate concepts unless another artifact binds them.
 
----
+______________________________________________________________________
 
-# 86. Receipt Identity Hypotheses
+## 86. Receipt Identity Hypotheses
 
 ```yaml
 receipt_hypotheses:
@@ -3047,9 +3041,9 @@ receipt_hypotheses:
 
 No hypothesis is promoted.
 
----
+______________________________________________________________________
 
-# 87. Proof-Step Identity Hypotheses
+## 87. Proof-Step Identity Hypotheses
 
 Likewise, `ProofSteps` may mean:
 
@@ -3074,9 +3068,9 @@ proof_step_hypotheses:
 
 The source only names the field.
 
----
+______________________________________________________________________
 
-# 88. Intent Identity Hypotheses
+## 88. Intent Identity Hypotheses
 
 `Intent` may encode:
 
@@ -3101,9 +3095,9 @@ intent_hypotheses:
 
 Again, no forced convergence.
 
----
+______________________________________________________________________
 
-# 89. Adversarial Validation — Compiler Claim
+## 89. Adversarial Validation — Compiler Claim
 
 ## Strongest supported claim
 
@@ -3133,9 +3127,9 @@ not:
 
 `INDEPENDENTLY_RUNTIME_VERIFIED`.
 
----
+______________________________________________________________________
 
-# 90. Adversarial Validation — Cryptographic Claim
+## 90. Adversarial Validation — Cryptographic Claim
 
 ## Strongest supported claim
 
@@ -3149,12 +3143,12 @@ No.
 
 Missing:
 
-* signature algorithm;
-* key management;
-* canonical serialization;
-* trust anchors;
-* replay protection;
-* verification implementation.
+- signature algorithm;
+- key management;
+- canonical serialization;
+- trust anchors;
+- replay protection;
+- verification implementation.
 
 Therefore:
 
@@ -3174,9 +3168,9 @@ cryptographic_claim:
     UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 91. Adversarial Validation — Proof Claim
+## 91. Adversarial Validation — Proof Claim
 
 ## Strongest supported claim
 
@@ -3190,11 +3184,11 @@ No.
 
 The source does not provide:
 
-* inference rules;
-* axioms;
-* proof checker;
-* soundness theorem;
-* completeness theorem.
+- inference rules;
+- axioms;
+- proof checker;
+- soundness theorem;
+- completeness theorem.
 
 Therefore:
 
@@ -3206,9 +3200,9 @@ $$
 
 without additional source.
 
----
+______________________________________________________________________
 
-# 92. Adversarial Validation — Conservation Claim
+## 92. Adversarial Validation — Conservation Claim
 
 ## Strongest supported claim
 
@@ -3239,25 +3233,25 @@ proof_conservation:
     NOT_PRESENT
 ```
 
----
+______________________________________________________________________
 
-# 93. Sensitivity Analysis
+## 93. Sensitivity Analysis
 
 The most decision-sensitive premises are:
 
 1. exact meaning of `verified by ALU-5`;
-2. signature scheme;
-3. capsule-to-transition binding;
-4. capsule freshness;
-5. serialization;
-6. runtime enforcement;
-7. exact operator-to-RSCF mapping.
+1. signature scheme;
+1. capsule-to-transition binding;
+1. capsule freshness;
+1. serialization;
+1. runtime enforcement;
+1. exact operator-to-RSCF mapping.
 
 If any of these differ materially, implementation-level conclusions may change while the high-level source law remains intact.
 
----
+______________________________________________________________________
 
-# 94. Critical Flip Conditions
+## 94. Critical Flip Conditions
 
 The conclusion:
 
@@ -3265,18 +3259,18 @@ The conclusion:
 
 would be invalidated if an authoritative source established that:
 
-* the Proof Conservation Law was superseded;
-* some transition class is explicitly exempt;
-* `runtime plane` refers to a narrower domain than assumed;
-* ALU-5 verification is optional for defined transition classes.
+- the Proof Conservation Law was superseded;
+- some transition class is explicitly exempt;
+- `runtime plane` refers to a narrower domain than assumed;
+- ALU-5 verification is optional for defined transition classes.
 
 No such exception appears in the supplied source.
 
 Therefore the law remains source-grounded within its declared scope.
 
----
+______________________________________________________________________
 
-# 95. Gap Registry
+## 95. Gap Registry
 
 ```yaml
 GAPS:
@@ -3320,9 +3314,9 @@ GAPS:
     - EQUATION_RENDERING
 ```
 
----
+______________________________________________________________________
 
-# 96. Uncertainty Vector
+## 96. Uncertainty Vector
 
 ```yaml
 UNCERTAINTY_VECTOR:
@@ -3356,9 +3350,9 @@ UNCERTAINTY_VECTOR:
     HIGH
 ```
 
----
+______________________________________________________________________
 
-# 97. Confidence Ceiling
+## 97. Confidence Ceiling
 
 ```yaml
 CONFIDENCE_CEILING:
@@ -3397,9 +3391,9 @@ CONFIDENCE_CEILING:
     NOT_INDEPENDENTLY_VERIFIED
 ```
 
----
+______________________________________________________________________
 
-# 98. Source-Declared Validation Status
+## 98. Source-Declared Validation Status
 
 Metadata states:
 
@@ -3446,9 +3440,9 @@ validation_status_interpretation:
     NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 99. Source-Declared Executable Binding
+## 99. Source-Declared Executable Binding
 
 Metadata states:
 
@@ -3485,9 +3479,9 @@ executable_binding_interpretation:
     NOT_PRESENT
 ```
 
----
+______________________________________________________________________
 
-# 100. Machine-Readable Core Specification
+## 100. Machine-Readable Core Specification
 
 ```yaml
 ULK_X_RSCF:
@@ -3597,9 +3591,9 @@ ULK_X_RSCF:
       "[[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]"
 ```
 
----
+______________________________________________________________________
 
-# 101. RSCF H-Level Capsule
+## 101. RSCF H-Level Capsule
 
 ```yaml
 H:
@@ -3623,9 +3617,9 @@ H:
     ULK_RSCF_COMPILATION_AND_RUNTIME_ADMISSION
 ```
 
----
+______________________________________________________________________
 
-# 102. RSCF M-Level Capsule
+## 102. RSCF M-Level Capsule
 
 ```yaml
 M:
@@ -3656,9 +3650,9 @@ M:
     - exact operator-to-HML mapping
 ```
 
----
+______________________________________________________________________
 
-# 103. RSCF L-Level Capsule
+## 103. RSCF L-Level Capsule
 
 ```yaml
 L:
@@ -3693,9 +3687,9 @@ L:
       NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 104. Artifact Proof Capsule
+## 104. Artifact Proof Capsule
 
 ```yaml
 PROOF_CAPSULE:
@@ -3751,56 +3745,56 @@ PROOF_CAPSULE:
     SOURCE_GROUNDED_AMOS_MODEL
 ```
 
----
+______________________________________________________________________
 
-# 105. Anti-Fabrication Contract
+## 105. Anti-Fabrication Contract
 
 This artifact MUST NOT be used to claim without additional canonical evidence that:
 
 1. every ALU operator generates exactly one capsule;
-2. every ALU operator generates a specific H, M, or L section;
-3. ALU-0 maps specifically to H;
-4. ALU-1 maps specifically to M;
-5. ALU-2 maps specifically to L;
-6. ALU-3, ALU-4, or ALU-5 map to any specific RSCF field;
-7. H/M/L are physical storage tiers;
-8. H/M/L are identical to every other H/M/L structure in AMOS;
-9. `ProofSteps` constitute a formally sound theorem calculus;
-10. `Receipt` is a Merkle proof;
-11. `Receipt` is a hash;
-12. `Receipt` is a digital signature;
-13. SHA-256 itself constitutes a digital signature;
-14. the signature algorithm is known;
-15. key custody is known;
-16. signer identity is known;
-17. replay protection exists;
-18. freshness enforcement exists;
-19. version binding exists;
-20. cryptographic verification establishes factual truth;
-21. cryptographic verification establishes source independence;
-22. hash verification establishes causal validity;
-23. type validity establishes factual validity;
-24. relational coupling establishes causation;
-25. constitutional compliance establishes empirical truth;
-26. ALU-5 verification alone is sufficient for runtime admission;
-27. every successful ALU-5 verification must be admitted;
-28. all six ALU checks are necessarily executed serially;
-29. all six ALU checks are necessarily executed for every transition;
-30. the runtime implementation has been independently observed;
-31. `PASSED_CONSTITUTIONAL_TESTS` means universal formal correctness;
-32. `ESTABLISHED` executable binding means deployment has been independently verified;
-33. the corrupted source symbols may be permanently normalized without checking ;
-34. structural similarity to external proof systems establishes implementation identity;
-35. RSCF proof capsules are blockchain transactions;
-36. RSCF proof capsules are zero-knowledge proofs;
-37. RSCF proof capsules are SNARKs or STARKs;
-38. proof conservation implies physical conservation;
-39. proof conservation implies permanent immutable storage;
-40. proof conservation alone proves Byzantine fault tolerance.
+1. every ALU operator generates a specific H, M, or L section;
+1. ALU-0 maps specifically to H;
+1. ALU-1 maps specifically to M;
+1. ALU-2 maps specifically to L;
+1. ALU-3, ALU-4, or ALU-5 map to any specific RSCF field;
+1. H/M/L are physical storage tiers;
+1. H/M/L are identical to every other H/M/L structure in AMOS;
+1. `ProofSteps` constitute a formally sound theorem calculus;
+1. `Receipt` is a Merkle proof;
+1. `Receipt` is a hash;
+1. `Receipt` is a digital signature;
+1. SHA-256 itself constitutes a digital signature;
+1. the signature algorithm is known;
+1. key custody is known;
+1. signer identity is known;
+1. replay protection exists;
+1. freshness enforcement exists;
+1. version binding exists;
+1. cryptographic verification establishes factual truth;
+1. cryptographic verification establishes source independence;
+1. hash verification establishes causal validity;
+1. type validity establishes factual validity;
+1. relational coupling establishes causation;
+1. constitutional compliance establishes empirical truth;
+1. ALU-5 verification alone is sufficient for runtime admission;
+1. every successful ALU-5 verification must be admitted;
+1. all six ALU checks are necessarily executed serially;
+1. all six ALU checks are necessarily executed for every transition;
+1. the runtime implementation has been independently observed;
+1. `PASSED_CONSTITUTIONAL_TESTS` means universal formal correctness;
+1. `ESTABLISHED` executable binding means deployment has been independently verified;
+1. the corrupted source symbols may be permanently normalized without checking ;
+1. structural similarity to external proof systems establishes implementation identity;
+1. RSCF proof capsules are blockchain transactions;
+1. RSCF proof capsules are zero-knowledge proofs;
+1. RSCF proof capsules are SNARKs or STARKs;
+1. proof conservation implies physical conservation;
+1. proof conservation implies permanent immutable storage;
+1. proof conservation alone proves Byzantine fault tolerance.
 
----
+______________________________________________________________________
 
-# 106. Anti-Regression Contract
+## 106. Anti-Regression Contract
 
 Any future revision of this artifact should preserve or strengthen:
 
@@ -3847,9 +3841,9 @@ ANTI_REGRESSION:
     PRESERVE_OR_STRENGTHEN
 ```
 
----
+______________________________________________________________________
 
-# 107. Invalidation Conditions
+## 107. Invalidation Conditions
 
 Revalidation is required if any of the following changes:
 
@@ -3885,9 +3879,9 @@ INVALIDATION_CONDITIONS:
   - EXECUTABLE_BINDING_CHANGE
 ```
 
----
+______________________________________________________________________
 
-# 108. Canonical Dependency Topology
+## 108. Canonical Dependency Topology
 
 ```text
 [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC|25_COGNITIVE_MATRIX_MOC]]
@@ -3922,9 +3916,9 @@ MATRIX]]   KERNEL]]
  RUNTIME ADMISSION GATE
 ```
 
----
+______________________________________________________________________
 
-# 109. Mermaid — Compiler Pipeline
+## 109. Mermaid — Compiler Pipeline
 
 ```mermaid
 flowchart TD
@@ -3963,9 +3957,9 @@ flowchart TD
     GATE -->|Required proof passes| NEXT
 ```
 
----
+______________________________________________________________________
 
-# 110. Mermaid — H/M/L Capsule
+## 110. Mermaid — H/M/L Capsule
 
 ```mermaid
 flowchart LR
@@ -3985,9 +3979,9 @@ flowchart LR
     L --> R["Receipt"]
 ```
 
----
+______________________________________________________________________
 
-# 111. Mermaid — Inter-Plane Graph
+## 111. Mermaid — Inter-Plane Graph
 
 ```mermaid
 graph TD
@@ -4007,11 +4001,11 @@ graph TD
     SPEC --> RSCF
 ```
 
----
+______________________________________________________________________
 
-# 112. Obsidian Dataview — ULK × RSCF Family
+## 112. Obsidian Dataview — ULK × RSCF Family
 
-```dataview
+```text
 TABLE
   artifact_kind AS "Kind",
   version AS "Version",
@@ -4022,11 +4016,11 @@ FROM #ulk_x_rscf
 SORT artifact_kind ASC
 ```
 
----
+______________________________________________________________________
 
-# 113. Obsidian Dataview — Logic Proof Mesh
+## 113. Obsidian Dataview — Logic Proof Mesh
 
-```dataview
+```text
 TABLE
   title AS "Artifact",
   plane AS "Plane",
@@ -4036,11 +4030,11 @@ FROM #logic_proof_mesh
 SORT plane ASC, title ASC
 ```
 
----
+______________________________________________________________________
 
-# 114. Obsidian Dataview — RSCF Proof Capsules
+## 114. Obsidian Dataview — RSCF Proof Capsules
 
-```dataview
+```text
 TABLE
   title AS "Artifact",
   plane AS "Plane",
@@ -4050,11 +4044,11 @@ FROM #proof_capsule
 SORT title ASC
 ```
 
----
+______________________________________________________________________
 
-# 115. Obsidian Dataview — ULK Family
+## 115. Obsidian Dataview — ULK Family
 
-```dataview
+```text
 TABLE
   artifact AS "Artifact",
   artifact_kind AS "Kind",
@@ -4064,11 +4058,11 @@ FROM #universal_logic_kernel OR #ulk
 SORT artifact ASC
 ```
 
----
+______________________________________________________________________
 
-# 116. Obsidian Dataview — Verification Surface
+## 116. Obsidian Dataview — Verification Surface
 
-```dataview
+```text
 TABLE
   title AS "Artifact",
   artifact_kind AS "Kind",
@@ -4079,11 +4073,11 @@ WHERE system = "AMOS OS"
 SORT title ASC
 ```
 
----
+______________________________________________________________________
 
-# 117. Obsidian Dataview — Cognitive Matrix
+## 117. Obsidian Dataview — Cognitive Matrix
 
-```dataview
+```text
 TABLE
   artifact AS "Artifact",
   artifact_kind AS "Kind",
@@ -4094,9 +4088,9 @@ WHERE system = "AMOS OS"
 SORT artifact ASC
 ```
 
----
+______________________________________________________________________
 
-# 118. Obsidian Search Tags
+## 118. Obsidian Search Tags
 
 ## Primary
 
@@ -4192,9 +4186,9 @@ SORT artifact ASC
 #canon/proof-mesh
 ```
 
----
+______________________________________________________________________
 
-# 119. Fractal Retrieval Contract
+## 119. Fractal Retrieval Contract
 
 ```yaml
 FRACTAL_RETRIEVAL:
@@ -4244,9 +4238,9 @@ FRACTAL_RETRIEVAL:
     DO_NOT_LOAD_UNLESS_REQUIRED
 ```
 
----
+______________________________________________________________________
 
-# 120. Canonical Compression
+## 120. Canonical Compression
 
 The specification can be compressed without losing its central source meaning as:
 
@@ -4296,9 +4290,9 @@ $$
 
 within the scope of the source-defined AMOS model.
 
----
+______________________________________________________________________
 
-# 121. Epistemic Compression
+## 121. Epistemic Compression
 
 ```text
 SOURCE DEFINES
@@ -4344,9 +4338,9 @@ SOURCE DOES NOT FULLY DEFINE
 ? Independent runtime enforcement evidence
 ```
 
----
+______________________________________________________________________
 
-# 122. Canonical Candidate Statement
+## 122. Canonical Candidate Statement
 
 `ULK_X_RSCF.md v2.0.0` is the AMOS OS Cognitive Matrix specification for the deterministic cross-plane compilation relationship between the **Universal Logic Kernel** and **RSCF**.
 
@@ -4435,34 +4429,34 @@ The specification therefore creates a source-defined AMOS proof-governance bound
 
 It does not independently establish the cryptographic implementation, signature algorithm, key model, exact RSCF compiler algorithm, runtime enforcement, or operator-to-H/M/L mapping.
 
----
+______________________________________________________________________
 
-# 123. Inter-Plane Connections
+## 123. Inter-Plane Connections
 
 ## Source-Defined Connections
 
-* **Matrix Table:**
-* **Universal Logic Kernel:**
-* **Reality × ULK:**
-* **Cognitive Matrix Plane:**
+- **Matrix Table:**
+- **Universal Logic Kernel:**
+- **Reality × ULK:**
+- **Cognitive Matrix Plane:**
 
 ## Derived Navigation Surfaces
 
-* **RSCF:**
-* **Proof Capsules:**
-* **Scope Firewall:** K_SCOPE_FIREWALL
-* **Fail-Closed Governance:**
-* **Provenance:**
-* **Causal Firewall:** K_CAUSAL_FIREWALL
+- **RSCF:**
+- **Proof Capsules:**
+- **Scope Firewall:** K_SCOPE_FIREWALL
+- **Fail-Closed Governance:**
+- **Provenance:**
+- **Causal Firewall:** K_CAUSAL_FIREWALL
 
-> [!warning]
+> [!WARNING]
 > The first four links are explicitly supplied by the source.
 >
 > The additional links are Obsidian navigation candidates and must not be treated as canonical dependency edges unless confirmed by their authoritative artifacts.
 
----
+______________________________________________________________________
 
-# 124. Obsidian Navigation Footer
+## 124. Obsidian Navigation Footer
 
 **Home:**
 
@@ -4476,9 +4470,9 @@ It does not independently establish the cryptographic implementation, signature 
 
 **Reality × ULK:**
 
----
+______________________________________________________________________
 
-# 125. RSCF-NODE
+## 125. RSCF-NODE
 
 ```yaml
 RSCF-NODE:
@@ -4575,9 +4569,9 @@ RSCF-NODE:
       DO_NOT_LOAD_UNLESS_REQUIRED
 ```
 
----
+______________________________________________________________________
 
-# 126. RSCF-RELATIONS
+## 126. RSCF-RELATIONS
 
 ```yaml
 RSCF-RELATIONS:
@@ -4637,7 +4631,7 @@ RSCF-RELATIONS:
 ```
 ---
 
-# 127. Final Integrity Statement
+## 127. Final Integrity Statement
 
 > [!success] Source-grounded core
 > The supplied artifact supports a deterministic ULK → RSCF compilation model and explicitly establishes:
@@ -4669,7 +4663,7 @@ RSCF-RELATIONS:
 
 ---
 
-# 128. Final Canonical Invariants
+## 128. Final Canonical Invariants
 
 $$
 \boxed{
@@ -4757,7 +4751,7 @@ $$
 
 ---
 
-# 129. Final Vault Tags
+## 129. Final Vault Tags
 
 #amos_os #cognitive_matrix #vault #25_cognitive_matrix #ulk_x_rscf #ulk_rscf #logic_proof_mesh #proof_mesh #rscf #rscf_capsule #proof_capsule #proof_conservation #proof_conservation_law #universal_logic_kernel #ulk #logic_kernel #deterministic_logic #deterministic_compilation #compiler #compiler_pipeline #compiler_invariant #transformation_invariant #alu #alu_operator #alu_transformation #state_transition #runtime_plane #runtime_admission #verification #cryptographic_verification #cryptographic_signature #state_hash #sha256 #merkle_verification #ground_state #distinction #regime #regime_non_leakage #scope_firewall #relational_coupling #tensor_coupling #constitutional_projection #invariant #invariant_verification #type_system #type_safety #receipt #proof_steps #intent #hml #h_level #m_level #l_level #recursive_structure #recursive_reasoning #fractal_knowledge_network #provenance #persistent_provenance #provenance_aware #fail_closed #source_grounded #source_claim #amos_model #canon_candidate #active_reference #conceptual_source_defined #executable_binding #constitutional_tests #epistemic_boundary #governance #integrity #causal_firewall #scope_regime_firewall #reality_x_ulk #cognitive_matrix_spec #canon/cognitive-matrix #canon/ulk #canon/rscf #canon/proof-mesh
 
@@ -4774,7 +4768,3 @@ $$
 ---
 
 **END OF `ULK_X_RSCF.md`**
-
-
-```
-```

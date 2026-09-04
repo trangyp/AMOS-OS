@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: engine models
 type: reference
 source: 07_SKILLS/amos-engines-master/references
 tags:
-- reference
-- amos-engines-master
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-engines-master
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -20,14 +23,11 @@ rscf:
 > Source: `_00_Cosmo brain/engine/A/amos-engine-models.md`
 > Epistemic class: SOURCE_DERIVED
 
----
-type: doc
-title: AMOS Engine Models — Super Engines and Super Kernel
-created: 2026-08-22
-tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-engine-models, engine]
----
+______________________________________________________________________
 
-# AMOS Engine Models — part 2
+## type: doc title: AMOS Engine Models — Super Engines and Super Kernel created: 2026-08-22 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-engine-models, engine]
+
+## AMOS Engine Models — part 2
 
 The AMOS engine model architecture consists of two primary tiers: the **5 Super Engines** (domain-specific reasoning pipelines) and the **Super Kernel** (unified meta-operating system fusing 7 canonical kernels). Together they form the execution layer that consumes the cognitive stack and core logic/law layer to produce deterministic, domain-specific reasoning and output.
 
@@ -40,12 +40,13 @@ All engines follow a structured pipeline and enforce deterministic operation. Ea
 **Unifies**: Business and Finance, Market and Forecasting, Strategy and Consulting, Trade and Economic Development.
 
 **Pipeline**:
+
 1. Decision and Scope Definition
-2. Structural Mapping
-3. Quantitative Layer (unit economics, TAM/SAM/SOM, scenarios)
-4. Strategic Options (2-3 coherent options with trade-offs)
-5. Recommendation and Roadmap (30/90/365-day plan)
-6. Risk and Failure Modes
+1. Structural Mapping
+1. Quantitative Layer (unit economics, TAM/SAM/SOM, scenarios)
+1. Strategic Options (2-3 coherent options with trade-offs)
+1. Recommendation and Roadmap (30/90/365-day plan)
+1. Risk and Failure Modes
 
 **Principles**: Treat questions as decisions under constraints, separate structure from parameters, never hide assumptions.
 
@@ -54,11 +55,12 @@ All engines follow a structured pipeline and enforce deterministic operation. Ea
 **Unifies**: Governance and Risk, Legal and Regulatory.
 
 **Pipeline**:
+
 1. Context and Objective
-2. Structural Mapping (parties, roles, decision rights)
-3. Target Design (governance structures, contractual frameworks)
-4. Risk and Control Layer (risk register, controls mapping)
-5. Implementation and Monitoring
+1. Structural Mapping (parties, roles, decision rights)
+1. Target Design (governance structures, contractual frameworks)
+1. Risk and Control Layer (risk register, controls mapping)
+1. Implementation and Monitoring
 
 **Principles**: Work at structure level, never give jurisdiction-specific advice, prioritise clarity and risk containment.
 
@@ -67,10 +69,11 @@ All engines follow a structured pipeline and enforce deterministic operation. Ea
 **Unifies**: Organisation and People, Relational Architecture, Academic Writing, Executive Writing, Vietnamese Writing, Presentation and Narrative.
 
 **Pipeline**:
+
 1. Context and Actor Mapping
-2. Structural Diagnosis
-3. Design and Intervention
-4. Communication and Writing
+1. Structural Diagnosis
+1. Design and Intervention
+1. Communication and Writing
 
 **Principles**: Interpret human systems structurally, design aligned organisations/messages, never use manipulation.
 
@@ -79,10 +82,11 @@ All engines follow a structured pipeline and enforce deterministic operation. Ea
 **Unifies**: Scientific Engine, Neurobiological-Somatic (NBI+SI), Neuroemotional-Bioelectromagnetic (NEI+BEI), Oncology and Complex Health Systems.
 
 **Pipeline**:
+
 1. Problem Formalisation (variables, constraints, time horizon)
-2. Evidence and Model Layering (facts, model-based inference, unknowns)
-3. Mechanism Mapping (inputs, transformations, outputs)
-4. System-Level Integration (micro to macro)
+1. Evidence and Model Layering (facts, model-based inference, unknowns)
+1. Mechanism Mapping (inputs, transformations, outputs)
+1. System-Level Integration (micro to macro)
 
 **Principles**: Reason through mechanisms/constraints/causality, separate facts from inference, never diagnose/prescribe, no metaphors.
 
@@ -91,11 +95,12 @@ All engines follow a structured pipeline and enforce deterministic operation. Ea
 **Unifies**: Tech and Engineering, Coding, Automation.
 
 **Pipeline**:
+
 1. Requirement Interpretation (functional/non-functional requirements, constraints)
-2. Target Architecture (component breakdown, patterns, security)
-3. Coding and Implementation (clean code, validation, comments for clarity)
-4. Testing and Quality (unit + integration tests)
-5. Debugging and Log Reasoning (symptom to hypotheses to tests)
+1. Target Architecture (component breakdown, patterns, security)
+1. Coding and Implementation (clean code, validation, comments for clarity)
+1. Testing and Quality (unit + integration tests)
+1. Debugging and Log Reasoning (symptom to hypotheses to tests)
 
 **Principles**: Buildable, secure, observable, maintainable systems. Simplicity over complexity. No hand-waving.
 
@@ -118,22 +123,22 @@ Physical, Biological, Cognitive, Social, Digital.
 ### 7 Fused Kernels
 
 1. **Kernel_1**: Deterministic Logic and Law (ULK, QCLA, URK)
-2. **Kernel_2**: BioCognitive Intelligence (UBI 4 domains)
-3. **Kernel_3**: Engineering Math Physics
-4. **Kernel_4**: Computation and Architecture
-5. **Kernel_5**: Economy Governance National Systems
-6. **Kernel_6**: Policy Risk Crisis Scenario
-7. **Kernel_7**: Planetary Temporal Civilizational
+1. **Kernel_2**: BioCognitive Intelligence (UBI 4 domains)
+1. **Kernel_3**: Engineering Math Physics
+1. **Kernel_4**: Computation and Architecture
+1. **Kernel_5**: Economy Governance National Systems
+1. **Kernel_6**: Policy Risk Crisis Scenario
+1. **Kernel_7**: Planetary Temporal Civilizational
 
 ### 5 Operating Modes
 
-| Mode | Kernels | Steps |
-|------|---------|-------|
-| Research | K1, K3, K7 | Clarify via URK, Map domains, Generate structure (ULK), Test (QCLA/UCP), Output with assumptions |
-| Design | K3, K4, K5 | Define objectives, Select architecture view, Evaluate (eng math), Check constraints, Output blueprint |
-| Execution | K4, K6, K7 | Plan execution, Validate constraints, Execute (synch), Monitor, Verify integrity |
-| Coding | K1, K3, K4 | Parse requirements, Design module, Code (deterministic), Test, Document |
-| Policy | K5, K6, K7 | Map context, Identify stakeholders, Design policies, Assess impact, Output framework |
+| Mode      | Kernels    | Steps                                                                                                 |
+| --------- | ---------- | ----------------------------------------------------------------------------------------------------- |
+| Research  | K1, K3, K7 | Clarify via URK, Map domains, Generate structure (ULK), Test (QCLA/UCP), Output with assumptions      |
+| Design    | K3, K4, K5 | Define objectives, Select architecture view, Evaluate (eng math), Check constraints, Output blueprint |
+| Execution | K4, K6, K7 | Plan execution, Validate constraints, Execute (synch), Monitor, Verify integrity                      |
+| Coding    | K1, K3, K4 | Parse requirements, Design module, Code (deterministic), Test, Document                               |
+| Policy    | K5, K6, K7 | Map context, Identify stakeholders, Design policies, Assess impact, Output framework                  |
 
 ## Core Principles
 
@@ -146,9 +151,9 @@ Physical, Biological, Cognitive, Social, Digital.
 ## Hierarchy in AMOS Stack
 
 1. **Core**: Deterministic Logic and Law Engine (top-level enforcement)
-2. **Cognitive Stack**: 13 domain-neutral reasoning engines
-3. **Domain Engines**: 17 domain-specific engines
-4. **Unipower Engines**: 20 country/sector-specific engines
+1. **Cognitive Stack**: 13 domain-neutral reasoning engines
+1. **Domain Engines**: 17 domain-specific engines
+1. **Unipower Engines**: 20 country/sector-specific engines
 
 ## Related Vault Sources
 
@@ -157,10 +162,12 @@ Physical, Biological, Cognitive, Social, Digital.
 - `_00_Cosmo brain/engine/A/AMOS Domain Engines.md` — 17 domain engine inventory
 - `_00_Cosmo brain/engine/A/AMOS Unipower Engines.md` — 20 unipower engine inventory
 
----
+______________________________________________________________________
+
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
-**MOC:** references_MOC
----
+  **MOC:** references_MOC
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -168,12 +175,14 @@ Physical, Biological, Cognitive, Social, Digital.
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-engines-master-engine-models
 node_type: reference
 path: 07_SKILLS/amos-engines-master/references/engine_models.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

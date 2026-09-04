@@ -4,25 +4,22 @@ title: SKILL — Amos Human State Ontology Mapper
 type: skill
 source: 07_SKILLS/amos-human-state-ontology-mapper
 name: amos-human-state-ontology-mapper
-description: Human State Ontology Mapper — canon and universe capability. Use when
-  canon reasoning, universe-level analysis, or invariant verification. Use when amos-canon-universe-master
-  routes to this specialized capability. Do not use for generic tasks outside canon
-  domain.
+description: Human State Ontology Mapper — canon and universe capability. Use when canon reasoning, universe-level analysis, or invariant verification. Use when amos-canon-universe-master routes to this specialized capability. Do not use for generic tasks outside canon domain.
 parent_skill: amos-canon-universe-master
 domain: canon
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
 tags:
-- type/skill
-- type/skill
-- domain/canon-universe
-- epistemic/source_claim
-- hml/h
-- epistemic/source_claim
-- amos-os
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/canon-universe
+  - epistemic/source_claim
+  - hml/h
+  - epistemic/source_claim
+  - amos-os
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -32,26 +29,26 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: H
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L3_dependency
-- L5_scope
-- L7_authority
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L3_dependency
+  - L5_scope
+  - L7_authority
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L3
-- L4
-- L5
-- L7
-- L16
-- L17
-- L18
-- L19
+  - L0
+  - L1
+  - L2
+  - L3
+  - L4
+  - L5
+  - L7
+  - L16
+  - L17
+  - L18
+  - L19
 license: MIT
 steward: Trang Phan
 ---
@@ -61,6 +58,7 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: canon. Parent: amos-canon-universe-master. Epistemic class: SOURCE_CLAIM. H/M/L: H.
+
 ## When to Use
 
 - When compiling canonical structure from vault sources
@@ -88,13 +86,13 @@ Origin architect: **Trang Phan**. Domain: canon. Parent: amos-canon-universe-mas
 ## Operations
 
 1. **human_state.compile_canon**: Compile canonical structure from sources into a consistent, navigable canon
-2. **human_state.check_consistency**: Check canon consistency: no contradictions, no gaps, no orphan references
-3. **human_state.enforce_invariant**: Enforce canon invariants: structural laws that must hold across all parts
-4. **human_state.navigate_canon**: Navigate canon: locate the canonical part for any topic or query
-5. **human_state.validate_substrate**: Validate canonical software substrate against canon requirements
-6. **human_state.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-7. **human_state.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
-8. **human_state.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+1. **human_state.check_consistency**: Check canon consistency: no contradictions, no gaps, no orphan references
+1. **human_state.enforce_invariant**: Enforce canon invariants: structural laws that must hold across all parts
+1. **human_state.navigate_canon**: Navigate canon: locate the canonical part for any topic or query
+1. **human_state.validate_substrate**: Validate canonical software substrate against canon requirements
+1. **human_state.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+1. **human_state.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+1. **human_state.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## 11_KNOWLEDGE Vault Content
 
@@ -108,10 +106,12 @@ From Cosmo Brain Human Interaction Engine (HIE) Model: 7 internal state layers, 
 **HIE 7 state layers**: The 7 internal state layers dictate the agent's interaction posture, from base operational states to complex empathetic and advisory states.
 
 **Threat & Stability indices**:
+
 - Continuously calculates the stability of the human interlocutor based on linguistic markers
 - Adjusts response density and complexity to prevent overwhelming a destabilized user
 
 **8 Strategy Profiles (SP1-SP8)**:
+
 - **SP1 (Direct/Execute)**: high speed, low empathy, action-oriented
 - **SP5 (Advisory/Consultative)**: high nuance, balanced empathy, option-generating
 - **SP8 (Containment/De-escalation)**: high empathy, low complexity, stabilizing tone
@@ -119,6 +119,7 @@ From Cosmo Brain Human Interaction Engine (HIE) Model: 7 internal state layers, 
 **10 Interaction Goals**: defines what the interaction is meant to achieve (Information Transfer, Consensus Building, Crisis Mitigation, etc.)
 
 **UBI 4 domains for human state**:
+
 - **NBI (Neurobiological)**: neural state, cognitive load, attention
 - **NEI (Neuro-Emotional)**: emotional state, affect, mood
 - **SI (Somatic)**: physical state, body signals, fatigue
@@ -142,7 +143,8 @@ Human state ontology mapping is an analytical model. It does not prove all human
 
 - **G1 (Law of Law)**: No unresolved contradictions within the skill's
 
----
+______________________________________________________________________
+
 **Links:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 ## Related
@@ -152,17 +154,19 @@ Human state ontology mapping is an analytical model. It does not prove all human
 ## Examples
 
 - **Scenario**: When compiling canonical structure from vault sources
+
   - **Input**: A query matching this skill's domain (canon)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When checking canon consistency for contradictions and gaps
+
   - **Input**: A query matching this skill's domain (canon)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When enforcing canon invariants across all parts
+
   - **Input**: A query matching this skill's domain (canon)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Anti-Patterns
 
@@ -172,7 +176,6 @@ Human state ontology mapping is an analytical model. It does not prove all human
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `amos-canon-universe-master` — routes to this skill when canon specialization is needed
@@ -180,7 +183,6 @@ Human state ontology mapping is an analytical model. It does not prove all human
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -199,7 +201,6 @@ Human state ontology mapping is an analytical model. It does not prove all human
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -207,7 +208,6 @@ Human state ontology mapping is an analytical model. It does not prove all human
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -220,11 +220,12 @@ Human state ontology mapping is an analytical model. It does not prove all human
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `amos-canon-universe-master` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `amos-human-state-ontology-mapper-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -232,12 +233,14 @@ Human state ontology mapping is an analytical model. It does not prove all human
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-human-state-ontology-mapper
 node_type: skill
 path: 07_SKILLS/amos-human-state-ontology-mapper/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

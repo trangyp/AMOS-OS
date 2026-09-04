@@ -89,7 +89,7 @@
     "arxiv-data-mixture-optimization-rscf"
   ],
   "depends_on_workflows": [
-    "arxiv-data-mixture-optimization-rscf-workflow.md"
+    "amos-arxiv-data-mixture-optimization-rscf-workflow.md"
   ],
   "epistemic_class": "AMOS_MODEL",
   "claim_ceiling": 0.95,

@@ -16,29 +16,29 @@ schema_family: RSCF
 schema_role: CANON_CROSSWALK_RSCF
 schema_version: AMOS_CORE_v4.4-compatible-conceptual
 tags:
-- amos-os
-- canon
-- universe
-- crosswalk
-- core_laws
-- law_hierarchy
-- provenance
-- lineage
-- supersession
-- dependency_graph
-- scope
-- regime
-- causal_firewall
-- competing_hypotheses
-- validation
-- rscf
-- canon/universe
-- placeholder_expanded
-- law-hierarchy
-- references
-- law/L19-proof-capsule
-- routing-policy-validation-receipt
-- authz-engine-validation-receipt
+  - amos-os
+  - canon
+  - universe
+  - crosswalk
+  - core_laws
+  - law_hierarchy
+  - provenance
+  - lineage
+  - supersession
+  - dependency_graph
+  - scope
+  - regime
+  - causal_firewall
+  - competing_hypotheses
+  - validation
+  - rscf
+  - canon/universe
+  - placeholder_expanded
+  - law-hierarchy
+  - references
+  - law/L19-proof-capsule
+  - routing-policy-validation-receipt
+  - authz-engine-validation-receipt
 version: 0.2.0
 updated: '2026-08-27'
 status: PLACEHOLDER_EXPANDED
@@ -68,7 +68,7 @@ rscf:
 
 `CANON_LAW_CROSSWALK.md` is an **ADD-ONLY placeholder-expanded artifact** for:
 
-```text
+````text
 01_CANON/01_CORE_LAWS
 
 Its function is to reserve and define the target contract for a governed crosswalk among AMOS canonical law artifacts.
@@ -88,7 +88,7 @@ executable_binding: NOT_ESTABLISHED
 native_law_inventory_status: NOT_ESTABLISHED
 native_mapping_status: NOT_ESTABLISHED
 crosswalk_population_status: PARTIAL_TARGET_MODEL
-```
+````
 
 Origin architect / steward:
 
@@ -98,9 +98,9 @@ System:
 
 **AMOS OS**
 
----
+______________________________________________________________________
 
-# 1. Governing Integrity Boundary
+## 1. Governing Integrity Boundary
 
 The crosswalk MUST preserve:
 
@@ -152,9 +152,9 @@ UNKNOWN/GAP != PASS
 
 These distinctions are mandatory.
 
----
+______________________________________________________________________
 
-# 2. Purpose
+## 2. Purpose
 
 The **Canon Law Crosswalk** is intended to become the canonical relational index for AMOS core-law families.
 
@@ -214,29 +214,29 @@ Which law governs when multiple rules apply?
 
 The current placeholder cannot yet answer all of these questions authoritatively.
 
----
+______________________________________________________________________
 
-# 3. Non-Purpose
+## 3. Non-Purpose
 
 The crosswalk MUST NOT itself be used to claim:
 
-* universal laws of reality;
-* scientific proof;
-* biological truth;
-* mathematical theoremhood;
-* philosophical certainty;
-* equivalence between differently named laws;
-* causal relations merely from structural mappings;
-* final canonical status for mapped artifacts;
-* empirical validity merely because a law appears in the crosswalk;
-* runtime enforcement not established by executable bindings;
-* authority from centrality in the graph;
-* independent evidence merely because several artifacts repeat one source;
-* resolution of contradictions that remain unresolved.
+- universal laws of reality;
+- scientific proof;
+- biological truth;
+- mathematical theoremhood;
+- philosophical certainty;
+- equivalence between differently named laws;
+- causal relations merely from structural mappings;
+- final canonical status for mapped artifacts;
+- empirical validity merely because a law appears in the crosswalk;
+- runtime enforcement not established by executable bindings;
+- authority from centrality in the graph;
+- independent evidence merely because several artifacts repeat one source;
+- resolution of contradictions that remain unresolved.
 
----
+______________________________________________________________________
 
-# 4. Crosswalk Is Metadata, Not Truth
+## 4. Crosswalk Is Metadata, Not Truth
 
 Canonical rule:
 
@@ -264,9 +264,9 @@ LAW_A = LAW_B
 
 unless identity is independently demonstrated.
 
----
+______________________________________________________________________
 
-# 5. Ingestion Rule
+## 5. Ingestion Rule
 
 ```yaml
 AMOS_CANON_INGESTION_RULE:
@@ -312,9 +312,9 @@ AMOS_CANON_INGESTION_RULE:
       - NEVER_INVENT_CANON
 ```
 
----
+______________________________________________________________________
 
-# 6. Crosswalk Admission Rule
+## 6. Crosswalk Admission Rule
 
 No substantive mapping SHOULD enter the canonical crosswalk solely because two artifacts have similar titles, equations, terminology, structures, or purposes.
 
@@ -340,9 +340,9 @@ CONFLICTS
 
 before stronger relation types are assigned.
 
----
+______________________________________________________________________
 
-# 7. Relation Strength Discipline
+## 7. Relation Strength Discipline
 
 Crosswalk relations have materially different meanings.
 
@@ -396,9 +396,9 @@ INDEXED_BY
 
 These MUST NOT be silently substituted for one another.
 
----
+______________________________________________________________________
 
-# 8. Identity Relation
+## 8. Identity Relation
 
 `IDENTICAL_TO` is a strong relation.
 
@@ -420,9 +420,9 @@ IDENTICAL_TO
 
 without provenance and semantic identity.
 
----
+______________________________________________________________________
 
-# 9. Alias Relation
+## 9. Alias Relation
 
 `ALIAS_OF` indicates distinct names for one canonical identity.
 
@@ -440,9 +440,9 @@ relation:
 
 Alias status MUST NOT be inferred from similarity alone.
 
----
+______________________________________________________________________
 
-# 10. Rename Relation
+## 10. Rename Relation
 
 A rename preserves identity across naming change.
 
@@ -460,9 +460,9 @@ RENAMED_FROM
 SUPERSEDED_BY
 ```
 
----
+______________________________________________________________________
 
-# 11. Supersession Relation
+## 11. Supersession Relation
 
 Supersession indicates that a newer canonical formulation replaces an older formulation for a declared purpose or scope.
 
@@ -482,9 +482,9 @@ SUPERSEDED
 DELETED
 ```
 
----
+______________________________________________________________________
 
-# 12. Derivation Relation
+## 12. Derivation Relation
 
 `DERIVED_FROM` means a claim depends logically, mathematically, procedurally, or model-wise on another source.
 
@@ -504,9 +504,9 @@ derivation:
 
 Derivation does not automatically establish empirical causation.
 
----
+______________________________________________________________________
 
-# 13. Dependency Relation
+## 13. Dependency Relation
 
 `DEPENDS_ON` represents a load-bearing or material prerequisite.
 
@@ -522,9 +522,9 @@ It does not necessarily mean:
 B CAUSES A
 ```
 
----
+______________________________________________________________________
 
-# 14. Requires Relation
+## 14. Requires Relation
 
 `REQUIRES` SHOULD represent an explicit prerequisite contract.
 
@@ -546,9 +546,9 @@ AUTHORITY_REF
 
 The exact prerequisite must be declared.
 
----
+______________________________________________________________________
 
-# 15. Constraint Relation
+## 15. Constraint Relation
 
 `CONSTRAINS` means one artifact restricts the allowed interpretation or operation of another.
 
@@ -562,9 +562,9 @@ does not necessarily imply hierarchical superiority.
 
 The constraint's scope MUST be declared.
 
----
+______________________________________________________________________
 
-# 16. Governance Relation
+## 16. Governance Relation
 
 `GOVERNS` is an authority-sensitive relation.
 
@@ -578,9 +578,9 @@ AUTHORITY
 
 Governance requires an explicit canonical or authorized basis.
 
----
+______________________________________________________________________
 
-# 17. Specialization Relation
+## 17. Specialization Relation
 
 ```text
 GENERAL LAW
@@ -600,9 +600,9 @@ TIME
 ASSUMPTIONS
 ```
 
----
+______________________________________________________________________
 
-# 18. Generalization Relation
+## 18. Generalization Relation
 
 A generalization expands applicability.
 
@@ -616,9 +616,9 @@ VALID GENERALLY
 
 Therefore `GENERALIZES` requires explicit support.
 
----
+______________________________________________________________________
 
-# 19. Overlap Relation
+## 19. Overlap Relation
 
 `OVERLAPS_WITH` means two artifacts share some conceptual or operational region.
 
@@ -632,9 +632,9 @@ IDENTITY
 
 The overlapping region SHOULD be declared.
 
----
+______________________________________________________________________
 
-# 20. Compatibility Relation
+## 20. Compatibility Relation
 
 `COMPATIBLE_WITH` means no identified contradiction exists within a declared shared scope.
 
@@ -648,9 +648,9 @@ PROOF OF COMPATIBILITY
 
 Compatibility should therefore remain bounded by tested scope.
 
----
+______________________________________________________________________
 
-# 21. Conflict Relation
+## 21. Conflict Relation
 
 `CONFLICTS_WITH` represents incompatible claims under an overlapping applicability envelope.
 
@@ -666,9 +666,9 @@ CONFLICTING PREDICTION / REQUIREMENT
 
 Claims applying to different regimes are not necessarily contradictory.
 
----
+______________________________________________________________________
 
-# 22. Competing Relation
+## 22. Competing Relation
 
 `COMPETES_WITH` SHOULD be used where alternative models or explanations remain viable.
 
@@ -686,9 +686,9 @@ STATE = COMPETING
 
 The crosswalk MUST preserve both.
 
----
+______________________________________________________________________
 
-# 23. Analogy Relation
+## 23. Analogy Relation
 
 `ANALOGOUS_TO` is explicitly weaker than equivalence.
 
@@ -708,9 +708,9 @@ CAUSATION
 
 Cross-domain mappings SHOULD default to `ANALOGOUS_TO` or `MODEL` until stronger support exists.
 
----
+______________________________________________________________________
 
-# 24. Evidence Relation
+## 24. Evidence Relation
 
 `EVIDENCED_BY` links a claim to evidence.
 
@@ -727,9 +727,9 @@ UNKNOWN
 
 A source repeating a claim is not automatically an independent observation.
 
----
+______________________________________________________________________
 
-# 25. Validation Relation
+## 25. Validation Relation
 
 `VALIDATED_BY` requires an actual validation artifact or receipt appropriate to the claim.
 
@@ -747,9 +747,9 @@ TESTED_ONCE
 UNIVERSALLY VALIDATED
 ```
 
----
+______________________________________________________________________
 
-# 26. Implementation Relation
+## 26. Implementation Relation
 
 `IMPLEMENTED_BY` links a canonical model or rule to an executable implementation.
 
@@ -761,9 +761,9 @@ IMPLEMENTED_BY
 VALIDATED_BY
 ```
 
----
+______________________________________________________________________
 
-# 27. Crosswalk Entry Target Schema
+## 27. Crosswalk Entry Target Schema
 
 A substantive entry SHOULD normalize conceptually to:
 
@@ -827,9 +827,9 @@ crosswalk_entry:
 
 This is a target schema, not evidence that populated entries currently exist.
 
----
+______________________________________________________________________
 
-# 28. Law Identity Target Schema
+## 28. Law Identity Target Schema
 
 ```yaml
 canonical_law_identity:
@@ -872,9 +872,9 @@ canonical_law_identity:
     - crosswalk_entry_ref
 ```
 
----
+______________________________________________________________________
 
-# 29. Crosswalk Matrix — Target
+## 29. Crosswalk Matrix — Target
 
 The mature artifact MAY expose a matrix conceptually like:
 
@@ -889,9 +889,9 @@ The rows above are schema examples only.
 
 They are not assertions that `LAW_A` through `LAW_G` exist.
 
----
+______________________________________________________________________
 
-# 30. Current Named Core-Law Artifact Surface
+## 30. Current Named Core-Law Artifact Surface
 
 From the presently supplied Canon-plane artifact context, the crosswalk can safely recognize the existence of reserved artifact identities including:
 
@@ -913,9 +913,9 @@ ARTIFACT IDENTITY RECOGNIZED
 SUBSTANTIVE LAW CONTENT RECOVERED
 ```
 
----
+______________________________________________________________________
 
-# 31. Current Minimal Crosswalk
+## 31. Current Minimal Crosswalk
 
 The strongest presently supportable artifact-level crosswalk is:
 
@@ -928,9 +928,9 @@ The strongest presently supportable artifact-level crosswalk is:
 
 No stronger semantic equivalence among these artifacts is established by their placeholder definitions.
 
----
+______________________________________________________________________
 
-# 32. Current Supported Relations
+## 32. Current Supported Relations
 
 Based only on the supplied placeholder contracts, the following relation class is supportable:
 
@@ -956,9 +956,9 @@ These are artifact metadata relations inherited from the supplied RSCF relation 
 
 They do not establish the substantive content of `LAW_HIERARCHY`.
 
----
+______________________________________________________________________
 
-# 33. Current Shared Index Relations
+## 33. Current Shared Index Relations
 
 The supplied artifacts additionally declare:
 
@@ -976,9 +976,9 @@ and equivalent index relationships for the other supplied core-law artifacts.
 
 These are graph-navigation relations, not epistemic validation relations.
 
----
+______________________________________________________________________
 
-# 34. Unsupported Relations
+## 34. Unsupported Relations
 
 The current evidence does **not** establish:
 
@@ -1014,9 +1014,9 @@ UNKNOWN/GAP
 
 until native sources establish them.
 
----
+______________________________________________________________________
 
-# 35. Law Hierarchy Boundary
+## 35. Law Hierarchy Boundary
 
 The existence of:
 
@@ -1040,9 +1040,9 @@ does not imply:
 LAW HIERARCHY CONTENT KNOWN
 ```
 
----
+______________________________________________________________________
 
-# 36. Precedence Target
+## 36. Precedence Target
 
 If future native canon establishes precedence, a precedence rule SHOULD declare:
 
@@ -1069,9 +1069,9 @@ precedence_rule:
     - ref
 ```
 
----
+______________________________________________________________________
 
-# 37. Precedence Is Scoped
+## 37. Precedence Is Scoped
 
 No law SHOULD automatically be treated as globally superior merely because it occupies a higher architectural layer.
 
@@ -1092,9 +1092,9 @@ VERSION
 EPOCH
 ```
 
----
+______________________________________________________________________
 
-# 38. Conflict Resolution Target
+## 38. Conflict Resolution Target
 
 When two laws appear to conflict:
 
@@ -1128,9 +1128,9 @@ PRESERVE COMPETING IF UNRESOLVED
 
 Do not resolve contradiction merely by selecting the more fluent or more recent formulation.
 
----
+______________________________________________________________________
 
-# 39. Scope Firewall
+## 39. Scope Firewall
 
 Every substantive crosswalk relation SHOULD declare an applicability envelope.
 
@@ -1151,9 +1151,9 @@ scope:
 
 A relation valid within one scope MUST NOT silently generalize outside it.
 
----
+______________________________________________________________________
 
-# 40. Regime Firewall
+## 40. Regime Firewall
 
 Suppose:
 
@@ -1173,9 +1173,9 @@ under `R2`.
 
 Relation validity is regime-bound when regime matters.
 
----
+______________________________________________________________________
 
-# 41. Temporal Validity
+## 41. Temporal Validity
 
 Crosswalk entries SHOULD declare freshness or temporal validity where relevant.
 
@@ -1197,9 +1197,9 @@ NEW CONFLICT DISCOVERED
 
 Stale entries MUST NOT be silently reused.
 
----
+______________________________________________________________________
 
-# 42. Version-Aware Mapping
+## 42. Version-Aware Mapping
 
 Relations SHOULD bind versions.
 
@@ -1221,9 +1221,9 @@ LAW_A
 
 Version ambiguity should fail closed for consequential operations.
 
----
+______________________________________________________________________
 
-# 43. Lineage Graph
+## 43. Lineage Graph
 
 Target:
 
@@ -1241,9 +1241,9 @@ SUPERSEDED VERSION
 
 All material transitions SHOULD remain traversable.
 
----
+______________________________________________________________________
 
-# 44. Provenance Topology
+## 44. Provenance Topology
 
 A crosswalk relation SHOULD preserve not only source references but ancestry.
 
@@ -1269,9 +1269,9 @@ CROSSWALK_RELATION_X
 
 If `ROOT_SOURCE_A = ROOT_SOURCE_B`, apparent dual support may be correlated.
 
----
+______________________________________________________________________
 
-# 45. Anti-Sybil Rule
+## 45. Anti-Sybil Rule
 
 Invalid confidence inflation:
 
@@ -1296,9 +1296,9 @@ Correct:
 
 unless genuine independence is demonstrated.
 
----
+______________________________________________________________________
 
-# 46. Provenance Independence
+## 46. Provenance Independence
 
 A relation claiming independent confirmation SHOULD test for shared:
 
@@ -1315,9 +1315,9 @@ ASSUMPTIONS
 
 Independence is demonstrated, not assumed.
 
----
+______________________________________________________________________
 
-# 47. Causal Firewall
+## 47. Causal Firewall
 
 Crosswalk edges MUST preserve causal typing.
 
@@ -1347,9 +1347,9 @@ CAUSES
 
 Only appropriately typed evidence licenses causal relations.
 
----
+______________________________________________________________________
 
-# 48. Structural Similarity Firewall
+## 48. Structural Similarity Firewall
 
 Two laws may share:
 
@@ -1371,9 +1371,9 @@ ISOMORPHIC FORM
 IDENTICAL SEMANTICS
 ```
 
----
+______________________________________________________________________
 
-# 49. Cross-Domain Mapping Firewall
+## 49. Cross-Domain Mapping Firewall
 
 Suppose one law belongs to:
 
@@ -1403,9 +1403,9 @@ not `IDENTICAL_TO`.
 
 Cross-domain equivalence requires independent validation.
 
----
+______________________________________________________________________
 
-# 50. Evidence Topology
+## 50. Evidence Topology
 
 Crosswalk support objects SHOULD distinguish:
 
@@ -1420,9 +1420,9 @@ UNKNOWN
 
 A crosswalk SHOULD never flatten these into a generic `evidence` bucket when the distinction can change the conclusion.
 
----
+______________________________________________________________________
 
-# 51. Confidence Ceiling
+## 51. Confidence Ceiling
 
 For a relation:
 
@@ -1448,9 +1448,9 @@ MIN_LOAD_BEARING_CONFIDENCE(P1...Pn)
 
 This is a reasoning discipline, not a claim of a universally valid mathematical probability formula.
 
----
+______________________________________________________________________
 
-# 52. Competing Mappings
+## 52. Competing Mappings
 
 A source pair may support multiple possible relations.
 
@@ -1474,9 +1474,9 @@ RELATION_STATE = COMPETING
 
 Do not arbitrarily choose one.
 
----
+______________________________________________________________________
 
-# 53. Discriminating Test
+## 53. Discriminating Test
 
 The preferred next check is the cheapest test that distinguishes competing mappings.
 
@@ -1488,9 +1488,9 @@ SAME STABLE ID?
 
 may distinguish alias from specialization more efficiently than broad semantic comparison.
 
----
+______________________________________________________________________
 
-# 54. Sensitivity
+## 54. Sensitivity
 
 For consequential crosswalk decisions identify what smallest premise could flip the relation.
 
@@ -1516,9 +1516,9 @@ Fragile relations SHOULD be marked:
 CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
-# 55. Proof Capsule — Crosswalk Entry
+## 55. Proof Capsule — Crosswalk Entry
 
 A consequential relation SHOULD conceptually carry:
 
@@ -1563,9 +1563,9 @@ proof_capsule:
     state: established | partial | unknown
 ```
 
----
+______________________________________________________________________
 
-# 56. Current Proof Capsule
+## 56. Current Proof Capsule
 
 ```yaml
 proof_capsule:
@@ -1599,9 +1599,9 @@ proof_capsule:
   executable_crosswalk_established: false
 ```
 
----
+______________________________________________________________________
 
-# 57. RSCF Crosswalk Graph
+## 57. RSCF Crosswalk Graph
 
 Target:
 
@@ -1629,9 +1629,9 @@ CANON_LAW_CROSSWALK
         └── REFERENCES ──────> VALIDATION_RECEIPT
 ```
 
----
+______________________________________________________________________
 
-# 58. H/M/L Fractal Target
+## 58. H/M/L Fractal Target
 
 ```text
 H — CANON LAW SYSTEM
@@ -1649,9 +1649,9 @@ Raw source material defaults to:
 DO_NOT_LOAD_UNLESS_REQUIRED
 ```
 
----
+______________________________________________________________________
 
-# 59. H-Layer Node
+## 59. H-Layer Node
 
 Target:
 
@@ -1671,9 +1671,9 @@ LINEAGE NAVIGATION
 
 It MUST NOT infer unsupported semantic relations merely to complete the graph.
 
----
+______________________________________________________________________
 
-# 60. Candidate M-Layer Families
+## 60. Candidate M-Layer Families
 
 Organizational target only:
 
@@ -1703,9 +1703,9 @@ M.VALIDATION_RELATIONS
 
 These are schema categories, not claims that corresponding populated native-canon relations already exist.
 
----
+______________________________________________________________________
 
-# 61. Candidate L-Layer Nodes
+## 61. Candidate L-Layer Nodes
 
 ```text
 L.LAW_IDENTITY
@@ -1735,9 +1735,9 @@ L.VALIDATION_RECEIPT
 L.GAP
 ```
 
----
+______________________________________________________________________
 
-# 62. Dependency Closure
+## 62. Dependency Closure
 
 When evaluating one relation:
 
@@ -1765,9 +1765,9 @@ CONFLICTS
 
 Do not load the entire AMOS canon when a smaller proof closure is sufficient.
 
----
+______________________________________________________________________
 
-# 63. Fast Path
+## 63. Fast Path
 
 A relation may use local validation only when:
 
@@ -1787,9 +1787,9 @@ NO MATERIAL CONFLICT
 
 Otherwise escalate.
 
----
+______________________________________________________________________
 
-# 64. Escalation Conditions
+## 64. Escalation Conditions
 
 Escalate crosswalk reasoning when:
 
@@ -1815,9 +1815,9 @@ UNRESOLVED IDENTITY
 SUPERSESSION UNCERTAINTY
 ```
 
----
+______________________________________________________________________
 
-# 65. Adversarial Validation
+## 65. Adversarial Validation
 
 For consequential relations, challenge the strongest candidate relation through a genuinely different path.
 
@@ -1849,9 +1849,9 @@ STRONGER ALTERNATIVE RELATION
 
 If challenge succeeds, downgrade or preserve competing mappings.
 
----
+______________________________________________________________________
 
-# 66. Gap Taxonomy
+## 66. Gap Taxonomy
 
 ```text
 CRITICAL
@@ -1872,9 +1872,9 @@ EXPLANATORY
 COSMETIC
 ```
 
----
+______________________________________________________________________
 
-# 67. Critical Gap — Complete Native Law Inventory
+## 67. Critical Gap — Complete Native Law Inventory
 
 ```yaml
 gap:
@@ -1894,9 +1894,9 @@ gap:
     - provenance
 ```
 
----
+______________________________________________________________________
 
-# 68. Critical Gap — Substantive Law Content
+## 68. Critical Gap — Substantive Law Content
 
 ```yaml
 gap:
@@ -1910,9 +1910,9 @@ gap:
     not been established by this placeholder.
 ```
 
----
+______________________________________________________________________
 
-# 69. Critical Gap — Hierarchy Semantics
+## 69. Critical Gap — Hierarchy Semantics
 
 ```yaml
 gap:
@@ -1926,9 +1926,9 @@ gap:
     established by the supplied crosswalk placeholder.
 ```
 
----
+______________________________________________________________________
 
-# 70. Critical Gap — Executable Binding
+## 70. Critical Gap — Executable Binding
 
 ```yaml
 gap:
@@ -1941,9 +1941,9 @@ gap:
     crosswalk has been established.
 ```
 
----
+______________________________________________________________________
 
-# 71. Critical Gap — Validation
+## 71. Critical Gap — Validation
 
 ```yaml
 gap:
@@ -1956,9 +1956,9 @@ gap:
     crosswalk correctness has been established.
 ```
 
----
+______________________________________________________________________
 
-# 72. Worked Semantics — Add Relation
+## 72. Worked Semantics — Add Relation
 
 Given a proposed relation:
 
@@ -1971,17 +1971,17 @@ LAW_B
 target process:
 
 1. resolve `LAW_A` identity and version;
-2. resolve `LAW_B` identity and version;
-3. recover native source supporting dependency;
-4. determine whether dependency is load-bearing;
-5. declare scope and regime;
-6. inspect competing mappings;
-7. inspect shared provenance;
-8. classify epistemic status;
-9. create proposal;
-10. validate;
-11. commit or hold;
-12. record receipt.
+1. resolve `LAW_B` identity and version;
+1. recover native source supporting dependency;
+1. determine whether dependency is load-bearing;
+1. declare scope and regime;
+1. inspect competing mappings;
+1. inspect shared provenance;
+1. classify epistemic status;
+1. create proposal;
+1. validate;
+1. commit or hold;
+1. record receipt.
 
 Without steps 3–8:
 
@@ -1989,9 +1989,9 @@ Without steps 3–8:
 RELATION = UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 73. Worked Semantics — Apparent Duplicate
+## 73. Worked Semantics — Apparent Duplicate
 
 Suppose:
 
@@ -2034,9 +2034,9 @@ COMPETING
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 74. Worked Semantics — Conflicting Laws
+## 74. Worked Semantics — Conflicting Laws
 
 Suppose:
 
@@ -2066,9 +2066,9 @@ COMPETING
 
 If they apply to different regimes, preserve both without manufacturing contradiction.
 
----
+______________________________________________________________________
 
-# 75. Worked Semantics — Supersession
+## 75. Worked Semantics — Supersession
 
 Suppose native provenance establishes:
 
@@ -2088,9 +2088,9 @@ remains available for lineage and historical interpretation.
 
 Operational routing may prefer `2.0` only within the scope authorized by the supersession record.
 
----
+______________________________________________________________________
 
-# 76. Worked Semantics — Weak Similarity
+## 76. Worked Semantics — Weak Similarity
 
 Suppose two laws have the same algebraic form:
 
@@ -2108,9 +2108,9 @@ IDENTICAL_TO
 
 because variables, units, domains, mechanisms, and scope may differ.
 
----
+______________________________________________________________________
 
-# 77. Worked Semantics — Shared Source
+## 77. Worked Semantics — Shared Source
 
 Suppose:
 
@@ -2133,9 +2133,9 @@ ONE ROOT ANCESTRY
 
 rather than counting two independent confirmations.
 
----
+______________________________________________________________________
 
-# 78. Worked Semantics — Dependency Failure
+## 78. Worked Semantics — Dependency Failure
 
 Suppose:
 
@@ -2159,9 +2159,9 @@ LAW_C-dependent conclusion
 
 Do not invalidate unrelated laws.
 
----
+______________________________________________________________________
 
-# 79. Worked Semantics — Scope Change
+## 79. Worked Semantics — Scope Change
 
 Suppose:
 
@@ -2189,9 +2189,9 @@ REVALIDATE
 
 not automatic reuse.
 
----
+______________________________________________________________________
 
-# 80. Worked Semantics — Governance
+## 80. Worked Semantics — Governance
 
 Suppose an artifact is referenced by many canonical nodes.
 
@@ -2209,9 +2209,9 @@ POPULARITY
 AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 81. Mutation Discipline
+## 81. Mutation Discipline
 
 For any consequential crosswalk mutation:
 
@@ -2241,9 +2241,9 @@ COMMIT OR HOLD
 RECEIPT
 ```
 
----
+______________________________________________________________________
 
-# 82. Fail-Closed Rule
+## 82. Fail-Closed Rule
 
 If a load-bearing field is unresolved:
 
@@ -2259,9 +2259,9 @@ PASS
 
 Consequential crosswalk mutations SHOULD fail closed.
 
----
+______________________________________________________________________
 
-# 83. Rollback Basin
+## 83. Rollback Basin
 
 Before a consequential mutation, preserve enough prior state to reverse:
 
@@ -2281,9 +2281,9 @@ CANONICAL PROMOTION
 
 Identity merges require especially strong rollback discipline because incorrect merges can corrupt large dependency subgraphs.
 
----
+______________________________________________________________________
 
-# 84. Identity Merge Safety
+## 84. Identity Merge Safety
 
 A proposed merge:
 
@@ -2315,9 +2315,9 @@ LINK AS POSSIBLY_RELATED
 
 rather than destructive merge.
 
----
+______________________________________________________________________
 
-# 85. Repair Semantics
+## 85. Repair Semantics
 
 If a crosswalk relation is later invalidated:
 
@@ -2333,36 +2333,36 @@ REBUILD LOCAL CLOSURE
 
 Global recomputation is last resort.
 
----
+______________________________________________________________________
 
-# 86. Canonical Promotion Checklist
+## 86. Canonical Promotion Checklist
 
 Before this crosswalk becomes populated canon:
 
-* [ ] complete native law inventory established;
-* [ ] stable identities assigned or recovered;
-* [ ] versions resolved;
-* [ ] native provenance linked;
-* [ ] duplicate candidates compared;
-* [ ] aliases distinguished from identity;
-* [ ] supersession lineage established;
-* [ ] dependency edges typed;
-* [ ] governance edges authorized;
-* [ ] scope envelopes declared;
-* [ ] regime envelopes declared;
-* [ ] conflict edges preserved;
-* [ ] competing mappings preserved;
-* [ ] external evidence kept outside native canon;
-* [ ] provenance independence evaluated;
-* [ ] negative cases tested;
-* [ ] rollback basin demonstrated;
-* [ ] executable binding status declared;
-* [ ] artifact-specific validation receipt executed;
-* [ ] unresolved critical gaps remain visible.
+- [ ] complete native law inventory established;
+- [ ] stable identities assigned or recovered;
+- [ ] versions resolved;
+- [ ] native provenance linked;
+- [ ] duplicate candidates compared;
+- [ ] aliases distinguished from identity;
+- [ ] supersession lineage established;
+- [ ] dependency edges typed;
+- [ ] governance edges authorized;
+- [ ] scope envelopes declared;
+- [ ] regime envelopes declared;
+- [ ] conflict edges preserved;
+- [ ] competing mappings preserved;
+- [ ] external evidence kept outside native canon;
+- [ ] provenance independence evaluated;
+- [ ] negative cases tested;
+- [ ] rollback basin demonstrated;
+- [ ] executable binding status declared;
+- [ ] artifact-specific validation receipt executed;
+- [ ] unresolved critical gaps remain visible.
 
----
+______________________________________________________________________
 
-# 87. Negative Validation Matrix
+## 87. Negative Validation Matrix
 
 Required target cases:
 
@@ -2410,9 +2410,9 @@ FAILED ROLLBACK
 UNKNOWN/GAP TREATED AS PASS
 ```
 
----
+______________________________________________________________________
 
-# 88. Cycle Discipline
+## 88. Cycle Discipline
 
 Some relation types may legitimately cycle.
 
@@ -2439,9 +2439,9 @@ requires investigation.
 
 Likewise a dependency cycle may require explicit recursive semantics rather than silent acceptance.
 
----
+______________________________________________________________________
 
-# 89. Symmetry Discipline
+## 89. Symmetry Discipline
 
 Relations SHOULD declare symmetry.
 
@@ -2469,9 +2469,9 @@ GOVERNS
 
 Exact semantics remain subject to native canon.
 
----
+______________________________________________________________________
 
-# 90. Transitivity Discipline
+## 90. Transitivity Discipline
 
 Do not assume transitivity unless relation semantics establish it.
 
@@ -2501,9 +2501,9 @@ does not prove:
 A COMPATIBLE_WITH C
 ```
 
----
+______________________________________________________________________
 
-# 91. Relation Algebra — Target Metadata
+## 91. Relation Algebra — Target Metadata
 
 Each relation type MAY eventually declare:
 
@@ -2523,9 +2523,9 @@ This is target metadata.
 
 Native canon must determine final semantics.
 
----
+______________________________________________________________________
 
-# 92. Canon Law Crosswalk Query Contract
+## 92. Canon Law Crosswalk Query Contract
 
 Target query:
 
@@ -2559,9 +2559,9 @@ GAPS
 CONFIDENCE CEILING
 ```
 
----
+______________________________________________________________________
 
-# 93. Query Integrity Rule
+## 93. Query Integrity Rule
 
 A query returning no conflict MUST NOT automatically report:
 
@@ -2579,9 +2579,9 @@ unless compatibility has actually been established.
 
 Absence of evidence is not proof.
 
----
+______________________________________________________________________
 
-# 94. Crosswalk Completeness Rule
+## 94. Crosswalk Completeness Rule
 
 A crosswalk may be internally correct yet incomplete.
 
@@ -2603,9 +2603,9 @@ Current completeness:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 95. Crosswalk Freshness Rule
+## 95. Crosswalk Freshness Rule
 
 Each substantive relation SHOULD be invalidated or rechecked when any load-bearing component changes:
 
@@ -2627,9 +2627,9 @@ SUPERSESSION STATE
 VALIDATION RECEIPT
 ```
 
----
+______________________________________________________________________
 
-# 96. Cross-Plane Bindings
+## 96. Cross-Plane Bindings
 
 Target:
 
@@ -2653,17 +2653,17 @@ CANON_LAW_CROSSWALK
 
 References:
 
-*
-*
-*
-*
-*
-*
-*
+-
+-
+-
+-
+-
+-
+-
 
----
+______________________________________________________________________
 
-# 97. Observability Boundary
+## 97. Observability Boundary
 
 Observability may report:
 
@@ -2689,9 +2689,9 @@ AUTHORITY
 
 Monitoring cannot approve canon mutation.
 
----
+______________________________________________________________________
 
-# 98. Validation Receipt Boundary
+## 98. Validation Receipt Boundary
 
 Current placeholder references:
 
@@ -2705,9 +2705,9 @@ These generic references do not themselves establish that the Canon Law Crosswal
 
 A mature artifact SHOULD possess crosswalk-specific executed receipts.
 
----
+______________________________________________________________________
 
-# 99. Target Crosswalk Validation Receipt
+## 99. Target Crosswalk Validation Receipt
 
 ```yaml
 validation_receipt:
@@ -2744,9 +2744,9 @@ validation_receipt:
 
 No such executed receipt is established by this placeholder.
 
----
+______________________________________________________________________
 
-# 100. Canonical Knowledge Capsule
+## 100. Canonical Knowledge Capsule
 
 **Class: AMOS_MODEL / SOURCE_CLAIM**
 
@@ -2795,9 +2795,9 @@ Accordingly, the populated native law crosswalk remains:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 101. Final Integrity Rule
+## 101. Final Integrity Rule
 
 Until the native law inventory and substantive law sources are recovered:
 
@@ -2832,9 +2832,9 @@ VALIDATE
 PROMOTE WITH RECEIPTS
 ```
 
----
+______________________________________________________________________
 
-# 102. Canonical Invariants
+## 102. Canonical Invariants
 
 ```text
 INTEGRITY > COMPLETENESS > FLUENCY > SPEED > TOKEN SAVINGS
@@ -2893,7 +2893,7 @@ UNKNOWN/GAP != PASS
 
 ---
 
-**Related:**  ·
+**Related:**  
 
 ---
 
@@ -2966,5 +2966,8 @@ RSCF-RELATIONS:
 **Validation:** NOT_ESTABLISHED
 
 
+```
+
+```
 ```
 ```

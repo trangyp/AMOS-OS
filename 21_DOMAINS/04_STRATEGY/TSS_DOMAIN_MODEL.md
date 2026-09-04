@@ -12,18 +12,18 @@ segment: 21_DOMAINS/04_STRATEGY
 artifact_kind: DOMAIN_MODEL
 path: 21_DOMAINS/04_STRATEGY/TSS_DOMAIN_MODEL.md
 tags:
-- amos-os
-- domain
-- vault
-- 04_strategy
-- tss_domain_model
-- lifecycle_strategy
-- state_vector_omega_h_f_s
-- rscf
-- canon_candidate
-- canon/domain
-- tss-the-trang-system
-- amos-x-tss
+  - amos-os
+  - domain
+  - vault
+  - 04_strategy
+  - tss_domain_model
+  - lifecycle_strategy
+  - state_vector_omega_h_f_s
+  - rscf
+  - canon_candidate
+  - canon/domain
+  - tss-the-trang-system
+  - amos-x-tss
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -38,23 +38,23 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - 11_KNOWLEDGE/05_FRAMEWORKS/TSS_THE_TRANG_SYSTEM
-  - 21_DOMAINS/04_STRATEGY/04_STRATEGY_MOC
-  - AMOS_CORPUS
+    - 11_KNOWLEDGE/05_FRAMEWORKS/TSS_THE_TRANG_SYSTEM
+    - 21_DOMAINS/04_STRATEGY/04_STRATEGY_MOC
+    - AMOS_CORPUS
   scope:
-  - DOMAIN_STRATEGY
-  - TSS_STRATEGY_MODEL
-  - SOURCE_DEFINED_MODEL
+    - DOMAIN_STRATEGY
+    - TSS_STRATEGY_MODEL
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   tss_master:
     artifact:
-    - - TSS_THE_TRANG_SYSTEM
+      -   - TSS_THE_TRANG_SYSTEM
   strategy_moc:
     artifact:
-    - - 04_STRATEGY_MOC
+      -   - 04_STRATEGY_MOC
   matrix_binding:
     artifact:
-    - - AMOS_X_TSS
+      -   - AMOS_X_TSS
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   domain_structure: VERIFIED_SOURCE_STRUCTURE
@@ -66,9 +66,9 @@ epistemic_boundary:
 
 `TSS_DOMAIN_MODEL.md` is the canonical Domain Plane specification governing the strategic lifecycle state tracking, decoupling analysis, and governance modeling of **The Trang System (TSS)** within `21_DOMAINS/04_STRATEGY`.
 
----
+______________________________________________________________________
 
-# 1. Strategic State Vector & Alignment Formulation
+## 1. Strategic State Vector & Alignment Formulation
 
 $$i_{\text{TSS}} = [H(1-\Omega)(1-F)(1-S)]^{1/4}, \quad e = i_{\text{TSS}}^2$$
 
@@ -77,20 +77,20 @@ $$i_{\text{TSS}} = [H(1-\Omega)(1-F)(1-S)]^{1/4}, \quad e = i_{\text{TSS}}^2$$
    - $H \in [0, 1]$: Systemic health, coherence, and resource vitality.
    - $F \in [0, 1]$: Operational fragmentation and modular breakdown.
    - $S \in [0, 1]$: External shock pressure and environmental turbulence.
-2. **Decoupling Gating:** When fragility exceeds critical bounds ($\Omega > 0.7$), activates modular decoupling to prevent catastrophic contagion.
-3. **Quadratic Capability Scaling:** Scales organizational strategic capability non-linearly with holistic health ($e = i^2$).
+1. **Decoupling Gating:** When fragility exceeds critical bounds ($\Omega > 0.7$), activates modular decoupling to prevent catastrophic contagion.
+1. **Quadratic Capability Scaling:** Scales organizational strategic capability non-linearly with holistic health ($e = i^2$).
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **TSS Master:** [[11_KNOWLEDGE/05_FRAMEWORKS/TSS_THE_TRANG_SYSTEM|TSS_THE_TRANG_SYSTEM]]
 - **Strategy MOC:** 04_STRATEGY_MOC
 - **Cognitive Matrix:** [[25_COGNITIVE_MATRIX/AMOS_X_TSS|AMOS_X_TSS]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -108,10 +108,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[21_DOMAINS/21_DOMAINS_MOC|21_DOMAINS_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/TSS_THE_TRANG_SYSTEM|TSS_THE_TRANG_SYSTEM]] · [[25_COGNITIVE_MATRIX/AMOS_X_TSS|AMOS_X_TSS]]
 
----
-**MOC:** 04_STRATEGY_MOC
+______________________________________________________________________
 
+**MOC:** 04_STRATEGY_MOC

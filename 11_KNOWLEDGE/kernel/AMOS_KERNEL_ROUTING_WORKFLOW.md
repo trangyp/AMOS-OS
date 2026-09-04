@@ -1,18 +1,21 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: AMOS KERNEL ROUTING WORKFLOW
 tags:
-- canon-group/tech-ai
-- canon/os-module
-- rscf/claim
-- rscf/provenance
-- rscf/state/source-claim
-- topic/amos-kernel-routing-workflow
-- kernel
-- k-meta-logic
-- amos-ubi-kernel
-- system-scan-agent
-- amos-simulation-kernel-v0-math-foundations
-- automation-profiles
+  - canon-group/tech-ai
+  - canon/os-module
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - topic/amos-kernel-routing-workflow
+  - kernel
+  - k-meta-logic
+  - amos-ubi-kernel
+  - system-scan-agent
+  - amos-simulation-kernel-v0-math-foundations
+  - automation-profiles
 type: document
 source: 11_KNOWLEDGE/kernel
 rscf:
@@ -28,56 +31,60 @@ Determine which AMOS kernels handle a task, using the brain's kernel registry an
 
 ## Kernel Registry (from AMOS_KERNEL_CONFIG.json)
 
-| ID | Name | Priority | Required | Domains | Dependencies |
-|----|------|----------|----------|---------|--------------|
-| [[02_KERNEL/01_META_LOGIC/K_META_LOGIC|K_META_LOGIC]] | Meta Logic & Law Kernel | 10 | Yes | logic, law_of_law, reasoning | — |
-| K_MATH_COMPUTE | Math & Computation Kernel | 9 | Yes | math, compute, optimization | [[02_KERNEL/01_META_LOGIC/K_META_LOGIC|K_META_LOGIC]] |
-| K_BIO_NEURO | Biology & Neuro Kernel | 9 | Yes | ubi, biology, nervous_system | [[02_KERNEL/01_META_LOGIC/K_META_LOGIC|K_META_LOGIC]] |
-| K_MIND_BEHAVIOR | Mind, Emotion & Behaviour Kernel | 8 | Yes | psychology, emotion, behaviour | K_BIO_NEURO, [[02_KERNEL/01_META_LOGIC/K_META_LOGIC|K_META_LOGIC]] |
-| K_TECH_ENGINE | Technology & Engineering Kernel | 7 | No | software, ai, cloud, infra | [[02_KERNEL/01_META_LOGIC/K_META_LOGIC|K_META_LOGIC]], K_MATH_COMPUTE |
-| K_EV_INFRA | EV Infrastructure Kernel | 7 | No | ev, charging, logistics, fleet | K_TECH_ENGINE, K_MATH_COMPUTE |
-| K_UNIPOWER_OPS | UniPower Operational Brain | 8 | No | unipower, vn, ops, drivers, stations | K_EV_INFRA, K_TECH_ENGINE |
-| K_UNIPOWER_TECH | UniPower Tech & Design MetaBrain | 8 | No | unipower, tech, ai, design | K_TECH_ENGINE, [[02_KERNEL/01_META_LOGIC/K_META_LOGIC|K_META_LOGIC]] |
+| ID                                       | Name                             | Priority                | Required | Domains                              | Dependencies                                            |
+| ---------------------------------------- | -------------------------------- | ----------------------- | -------- | ------------------------------------ | ------------------------------------------------------- |
+| \[\[02_KERNEL/01_META_LOGIC/K_META_LOGIC | K_META_LOGIC\]\]                 | Meta Logic & Law Kernel | 10       | Yes                                  | logic, law_of_law, reasoning                            |
+| K_MATH_COMPUTE                           | Math & Computation Kernel        | 9                       | Yes      | math, compute, optimization          | \[\[02_KERNEL/01_META_LOGIC/K_META_LOGIC                |
+| K_BIO_NEURO                              | Biology & Neuro Kernel           | 9                       | Yes      | ubi, biology, nervous_system         | \[\[02_KERNEL/01_META_LOGIC/K_META_LOGIC                |
+| K_MIND_BEHAVIOR                          | Mind, Emotion & Behaviour Kernel | 8                       | Yes      | psychology, emotion, behaviour       | K_BIO_NEURO, \[\[02_KERNEL/01_META_LOGIC/K_META_LOGIC   |
+| K_TECH_ENGINE                            | Technology & Engineering Kernel  | 7                       | No       | software, ai, cloud, infra           | \[\[02_KERNEL/01_META_LOGIC/K_META_LOGIC                |
+| K_EV_INFRA                               | EV Infrastructure Kernel         | 7                       | No       | ev, charging, logistics, fleet       | K_TECH_ENGINE, K_MATH_COMPUTE                           |
+| K_UNIPOWER_OPS                           | UniPower Operational Brain       | 8                       | No       | unipower, vn, ops, drivers, stations | K_EV_INFRA, K_TECH_ENGINE                               |
+| K_UNIPOWER_TECH                          | UniPower Tech & Design MetaBrain | 8                       | No       | unipower, tech, ai, design           | K_TECH_ENGINE, \[\[02_KERNEL/01_META_LOGIC/K_META_LOGIC |
 
 ## Routing Rules
 
 ### ROUTE_EV
+
 Match tags: ev, charging, station, driver, fleet
 Activate: [[02_KERNEL/01_META_LOGIC/K_META_LOGIC|K_META_LOGIC]], K_MATH_COMPUTE, K_EV_INFRA, K_UNIPOWER_OPS
 
 ### ROUTE_TECH
+
 Match tags: software, ai, architecture, system_design
 Activate: [[02_KERNEL/01_META_LOGIC/K_META_LOGIC|K_META_LOGIC]], K_MATH_COMPUTE, K_TECH_ENGINE, K_UNIPOWER_TECH
 
 ### ROUTE_PSYCH
+
 Match tags: emotion, behaviour, psychology, ubi
 Activate: [[02_KERNEL/01_META_LOGIC/K_META_LOGIC|K_META_LOGIC]], K_BIO_NEURO, K_MIND_BEHAVIOR
 
 ### ROUTE_DEFAULT (fallback)
+
 Match tags: * (all)
 Activate: [[02_KERNEL/01_META_LOGIC/K_META_LOGIC|K_META_LOGIC]], K_MATH_COMPUTE, K_BIO_NEURO
 
 ## Routing Procedure
 
 1. Identify task tags (what domains does this touch?)
-2. Check specific routes in order: EV → TECH → PSYCH. Multiple routes can match → union of kernels.
-3. Apply ROUTE_DEFAULT as baseline (always included).
-4. Check dependencies: every kernel's dependencies must also be activated. K_MIND_BEHAVIOR needs K_BIO_NEURO+[[02_KERNEL/01_META_LOGIC/K_META_LOGIC|K_META_LOGIC]]. K_TECH_ENGINE needs [[02_KERNEL/01_META_LOGIC/K_META_LOGIC|K_META_LOGIC]]+K_MATH_COMPUTE. K_EV_INFRA needs K_TECH_ENGINE+K_MATH_COMPUTE. K_UNIPOWER_OPS needs K_EV_INFRA+K_TECH_ENGINE. K_UNIPOWER_TECH needs K_TECH_ENGINE+[[02_KERNEL/01_META_LOGIC/K_META_LOGIC|K_META_LOGIC]].
-5. Resolve conflicts: [[02_KERNEL/01_META_LOGIC/K_META_LOGIC|K_META_LOGIC]] resolves (Law of Law — never override).
-6. Final set = matched kernels + dependency closure + default baseline.
+1. Check specific routes in order: EV → TECH → PSYCH. Multiple routes can match → union of kernels.
+1. Apply ROUTE_DEFAULT as baseline (always included).
+1. Check dependencies: every kernel's dependencies must also be activated. K_MIND_BEHAVIOR needs K_BIO_NEURO+[[02_KERNEL/01_META_LOGIC/K_META_LOGIC|K_META_LOGIC]]. K_TECH_ENGINE needs [[02_KERNEL/01_META_LOGIC/K_META_LOGIC|K_META_LOGIC]]+K_MATH_COMPUTE. K_EV_INFRA needs K_TECH_ENGINE+K_MATH_COMPUTE. K_UNIPOWER_OPS needs K_EV_INFRA+K_TECH_ENGINE. K_UNIPOWER_TECH needs K_TECH_ENGINE+[[02_KERNEL/01_META_LOGIC/K_META_LOGIC|K_META_LOGIC]].
+1. Resolve conflicts: [[02_KERNEL/01_META_LOGIC/K_META_LOGIC|K_META_LOGIC]] resolves (Law of Law — never override).
+1. Final set = matched kernels + dependency closure + default baseline.
 
 ## Task Type → Kernel Mapping
 
-| Task type | Primary | Secondary | Tertiary |
-|-----------|---------|-----------|----------|
-| Logic, law, reasoning | [[02_KERNEL/01_META_LOGIC/K_META_LOGIC|K_META_LOGIC]] | — | — |
-| Math, computation, optimisation | K_MATH_COMPUTE | [[02_KERNEL/01_META_LOGIC/K_META_LOGIC|K_META_LOGIC]] | — |
-| Biology, neuroscience, UBI | K_BIO_NEURO | [[02_KERNEL/01_META_LOGIC/K_META_LOGIC|K_META_LOGIC]] | — |
-| Emotion, psychology, behaviour | K_MIND_BEHAVIOR | K_BIO_NEURO | [[02_KERNEL/01_META_LOGIC/K_META_LOGIC|K_META_LOGIC]] |
-| Software, AI, cloud, infra | K_TECH_ENGINE | [[02_KERNEL/01_META_LOGIC/K_META_LOGIC|K_META_LOGIC]], K_MATH_COMPUTE | — |
-| EV, charging, logistics, fleet | K_EV_INFRA | K_TECH_ENGINE, K_MATH_COMPUTE | K_UNIPOWER_OPS |
-| VN operations, drivers, stations | K_UNIPOWER_OPS | K_EV_INFRA, K_TECH_ENGINE | — |
-| Tech design, AI, meta-design, governance | K_UNIPOWER_TECH | K_TECH_ENGINE, [[02_KERNEL/01_META_LOGIC/K_META_LOGIC|K_META_LOGIC]] | — |
+| Task type                                | Primary                                  | Secondary                                               | Tertiary                                 |
+| ---------------------------------------- | ---------------------------------------- | ------------------------------------------------------- | ---------------------------------------- |
+| Logic, law, reasoning                    | \[\[02_KERNEL/01_META_LOGIC/K_META_LOGIC | K_META_LOGIC\]\]                                        | —                                        |
+| Math, computation, optimisation          | K_MATH_COMPUTE                           | \[\[02_KERNEL/01_META_LOGIC/K_META_LOGIC                | K_META_LOGIC\]\]                         |
+| Biology, neuroscience, UBI               | K_BIO_NEURO                              | \[\[02_KERNEL/01_META_LOGIC/K_META_LOGIC                | K_META_LOGIC\]\]                         |
+| Emotion, psychology, behaviour           | K_MIND_BEHAVIOR                          | K_BIO_NEURO                                             | \[\[02_KERNEL/01_META_LOGIC/K_META_LOGIC |
+| Software, AI, cloud, infra               | K_TECH_ENGINE                            | \[\[02_KERNEL/01_META_LOGIC/K_META_LOGIC                | K_META_LOGIC\]\], K_MATH_COMPUTE         |
+| EV, charging, logistics, fleet           | K_EV_INFRA                               | K_TECH_ENGINE, K_MATH_COMPUTE                           | K_UNIPOWER_OPS                           |
+| VN operations, drivers, stations         | K_UNIPOWER_OPS                           | K_EV_INFRA, K_TECH_ENGINE                               | —                                        |
+| Tech design, AI, meta-design, governance | K_UNIPOWER_TECH                          | K_TECH_ENGINE, \[\[02_KERNEL/01_META_LOGIC/K_META_LOGIC | K_META_LOGIC\]\]                         |
 
 ## Mode-Based Selection (from AMOS_Omni_KERNEL routing)
 
@@ -115,8 +122,10 @@ Dependency closure: [[02_KERNEL/01_META_LOGIC/K_META_LOGIC|K_META_LOGIC]] (none)
 
 Final: [[02_KERNEL/01_META_LOGIC/K_META_LOGIC|K_META_LOGIC]], K_MATH_COMPUTE, K_TECH_ENGINE, K_EV_INFRA, K_UNIPOWER_OPS, K_UNIPOWER_TECH (6 kernels).
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS · SYSTEM_SCAN_AGENT · AUTOMATION_PROFILES · [[11_KNOWLEDGE/kernel/AMOS_UNIFIED_CODING_KERNEL_VINFINITY|AMOS_UNIFIED_CODING_KERNEL_VINFINITY]] · [[11_KNOWLEDGE/kernel/AMOS_REINFORCEMENT_LEARNING_ANALYSIS_KERNEL|AMOS_REINFORCEMENT_LEARNING_ANALYSIS_KERNEL]] · [[11_KNOWLEDGE/kernel/AMOS_BEHAVIORAL_ECONOMICS_KERNEL|AMOS_BEHAVIORAL_ECONOMICS_KERNEL]] · [[11_KNOWLEDGE/kernel/AMOS_ORG_GOVERNANCE_KERNEL|AMOS_ORG_GOVERNANCE_KERNEL]]
 
----
+______________________________________________________________________
+
 **MOC:** [[11_KNOWLEDGE/kernel/KERNEL_MOC|KERNEL_MOC]]

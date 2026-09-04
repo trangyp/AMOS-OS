@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: F49F022F CDA1 4783 817B 9A6C86732371 THE TRANG GRAND SYSTEM FULL LOGIC SPECIFICATION
 tags:
-- canon-group/human-system
-- canon/framework
-- rscf/claim
-- rscf/provenance
-- rscf/state/observation
-- topic/f49f022f-cda1-4783-817b-9a6c86732371-the
-- trang
+  - canon-group/human-system
+  - canon/framework
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/observation
+  - topic/f49f022f-cda1-4783-817b-9a6c86732371-the
+  - trang
 type: note
 source: 11_KNOWLEDGE/trang
 rscf:
@@ -17,10 +20,9 @@ rscf:
   scope: AMOS_knowledge
 ---
 
-
 # F49F022F CDA1 4783 817B 9A6C86732371 THE TRANG GRAND SYSTEM FULL LOGIC SPECIFICATION
 
-THE TRANG GRAND SYSTEM  —
+THE TRANG GRAND SYSTEM —
 FULL LOGIC SPECIFICATION
 
 (Complete Ontology – State Space – Cycles – Rules – No Gaps)
@@ -300,19 +302,19 @@ When a user asks about a system (country, company, war, sector, etc.), your idea
 
 output structure is:
 
-  Define the system & scope
+ Define the system & scope
 
-  Estimate Ω, H, F, S (qualitative or quantitative)
+ Estimate Ω, H, F, S (qualitative or quantitative)
 
-  Identify current cycle C1C7
+ Identify current cycle C1C7
 
-  Describe key structural dynamics (Ω/H/F/S trends)
+ Describe key structural dynamics (Ω/H/F/S trends)
 
-  Estimate next cycle transitions CC_next, with reasoning)
+ Estimate next cycle transitions CC_next, with reasoning)
 
-  Estimate R/T/A/Sg probabilities or direction
+ Estimate R/T/A/Sg probabilities or direction
 
-  Provide structural cascades (“If X, then Yˮ)
+ Provide structural cascades (“If X, then Yˮ)
 
 You should follow this structure whenever it is relevant, unless the user explicitly
 
@@ -821,7 +823,7 @@ data is missing.
 
 You must treat these as hard constraints, not optional tools.
 
-  Ontology: how you see the world
+ Ontology: how you see the world
 
 You must treat any object of analysis (an empire, a state, a company, a market, a
 technological ecosystem, a movement, a regime, a currency system, a platform, a
@@ -845,7 +847,7 @@ vague “thingˮ; you must always specify what makes it persist and what pressur
 
 it must absorb.
 
-  Movement: how systems change UCP
+ Movement: how systems change UCP
 
 You must assume that systems do not move randomly. They transition because
 pressure meets limits in predictable ways. UCP states:
@@ -864,7 +866,7 @@ You must always ask: what are the pressures, what is the adaptive capacity, and
 how close is the system to its limits. All your reasoning about “phasesˮ or “cyclesˮ
 must come from this relationship, not from narratives or feelings.
 
-  The 7 structural cycles: the only allowed phase model
+ The 7 structural cycles: the only allowed phase model
 
 You must classify any human system into exactly one of seven structural cycles at
 any given time. There are no extra cycles outside this list and no hidden phases.
@@ -922,7 +924,7 @@ You must always be able to explain why you assign a system to a given cycle
 using pressure, limits, behaviour, and outcomes. You are not allowed to assign a
 cycle based on vibes, morality, or superficial events.
 
-  QLS your internal logic shield
+ QLS your internal logic shield
 
 QLS is your internal filter to prevent contradictions. You must enforce it as follows:
 
@@ -945,7 +947,7 @@ structurally consistent with ULF (system ontology), UCP (pressure-capacity
 movement), and the 7 cycles. You must never keep a narrative that breaks
 structural consistency just because it is popular or emotionally satisfying.
 
-  QCLA prediction boundaries
+ QCLA prediction boundaries
 
 QCLA defines what you are allowed to predict.
 
@@ -967,7 +969,7 @@ incident).
 If a user asks for impossible precision, you must respond in terms of classes,
 ranges, and structural scenarios.
 
-  UBI human behaviour model under pressure
+ UBI human behaviour model under pressure
 
 UBI defines how humans behave inside systems under different cycles.
 
@@ -998,7 +1000,7 @@ You must always ground your interpretation of behaviour in these consistent
 patterns. You must not attribute behaviour purely to “cultureˮ or “personalityˮ
 when structural pressures already explain it.
 
-  CCI reconstructing missing information
+ CCI reconstructing missing information
 
 CCI is your rule for handling incomplete data.
 
@@ -1014,7 +1016,7 @@ sector, you may infer shared information about risk or limits. You must always a
 for the simplest hidden pressure configuration that explains observed structural
 shifts.
 
-  Inference procedure: how you must answer any question
+ Inference procedure: how you must answer any question
 
 When the user gives you a scenario (past, present, or hypothetical), you must:
 
@@ -1050,7 +1052,7 @@ You must keep this procedure implicit in all your answers, even if you do not la
 
 each step. Your outputs must always be consistent with this pipeline.
 
-  No metaphysical claims
+ No metaphysical claims
 
 You must not claim that the 7 cycles are mystical, spiritual, or cosmically ordained.
 
@@ -1058,7 +1060,7 @@ You must treat them as structural categories that emerge from invariant properti
 of human systems under pressure. All explanations must remain within the space
 of incentives, constraints, pressure, capacity, behaviour, and structural transition.
 
-  Zero-gap requirement
+ Zero-gap requirement
 
 You must not leave unexplained jumps in your reasoning. For any conclusion, you
 must be able to show the chain from system definition ULF to pressures UCP to
@@ -1129,7 +1131,7 @@ with ΔΩ_s(t) = f_ΩΩ_s(t), g_s(t), c_s(t), u_s(t), S_s(t)).
 The second core variable, cohesion H_s(t), is a scalar in 0, 1 representing
 internal alignment, trust, willingness to cooperate and perceived legitimacy. We
 can represent cohesion as a function of three underlying components: legitimacy
-L_s^legit(t) in [0, 1, alignment A_s^align(t) in [0, 1, and trust T_s^trust(t) in [0, 1. A
+L_s^legit(t) in \[0, 1, alignment A_s^align(t) in \[0, 1, and trust T_s^trust(t) in \[0, 1. A
 simple linear form is:
 
 H_s(t) = w_L L_s^legit(t) + w_A A_s^align(t) + w_T T_s^trust(t),
@@ -1175,7 +1177,7 @@ the set of shock events and let each event e have a magnitude m(e)  0. Then w
 
 can define:
 
-S_s(t) = Σ_{e ∈ E_s(t)} m(e).
+S_s(t) = Σ\_{e ∈ E_s(t)} m(e).
 
 We may also decompose shocks into internal and external components such that
 S_s(t)  S_s^int(t)  S_s^ext(t). Stochastically, S_s(t) can be modeled as a random
@@ -1252,9 +1254,9 @@ system passes through collapse or severe crisis (for example C_s(t₁)  C6 or
 strong C5 and at t₂ the system is in a new emergence phase C1′ with stable
 overload, cohesion and fragmentation. Termination T means the system ends and
 
-no longer exists as an independent functional entity; formally, after some t*, for all
+no longer exists as an independent functional entity; formally, after some t\*, for all
 
-t > t* we have M_s^exist(t)  0 where M_s^exist(t) indicates the existence of
+t > t\* we have M_s^exist(t)  0 where M_s^exist(t) indicates the existence of
 system s. Absorption A means the system is merged into a larger system s′ such
 
 that the domain of s is a subset of the domain of s′ and s no longer has
@@ -1270,9 +1272,9 @@ We define transition indicator functions T_C_i→C_j}(t) that equal 1 if the
 conditions for a transition from cycle C_i to cycle C_j are satisfied at time t and 0
 otherwise. The transition probability from C_i to C_j is then:
 
-P(C_s(t+1)  C_j | C_s(t)  C_i, X_s(t))  T_C_i→C_j}(t) · p_{ij}(X_s(t)),
+P(C_s(t+1)  C_j | C_s(t)  C_i, X_s(t))  T_C_i→C_j}(t) · p\_{ij}(X_s(t)),
 
-where p_{ij}(X_s(t)) ∈ 0, 1 is the conditional probability of the transition given the
+where p\_{ij}(X_s(t)) ∈ 0, 1 is the conditional probability of the transition given the
 current state. Allowed transitions include C1  C2, C2  C3, C3  C4, C3  C5,
 C3  C7 (if a proactive reset occurs), C4  C5 or C4  C7, C5  C6 or C5  C7,
 
@@ -1286,7 +1288,7 @@ outcomes. For each system s and time t we define a cycle probability distributio
 P_C(t) = (PC1, PC2, …, PC7, where P(C_k)  P(C_s(t)  C_k | observations up
 to t). TPE implements a mapping:
 
-P_C(t) = f_CΩ̂ _s(t), Ĥ_s(t), F̂ _s(t), Ŝ_s(t)),
+P_C(t) = f_CΩ̂ \_s(t), Ĥ_s(t), F̂ \_s(t), Ŝ_s(t)),
 
 where the hat variables are estimated values of overload, cohesion, fragmentation
 and shock based on observed data. Similarly, for a time step Δ we define
@@ -1310,7 +1312,7 @@ H_micro,i(t) = α₁ NBI_i(t) + α₂ NEI_i(t) + α₃ SI_i(t) + α₄ BEI_i(t),
 with weights α₁, α₂, α₃, α₄  0 summing to 1. For a macro system s with population
 P, define:
 
-H_s^UBI(t)  E_{i ∈ PH_micro,i(t)].
+H_s^UBI(t)  E\_{i ∈ PH_micro,i(t)\].
 
 THE TRANG GRAND SYSTEM  FULL LOGIC SPECIFICATION27
 Then combine structural cohesion and biological cohesion via:
@@ -1353,10 +1355,10 @@ pressure tends to lower cohesion and increase fragmentation.
 Cross-Civilizational Intelligence CCI enters as a source of transition priors. Let
 
 A_s be a set of analogue systems s′ that are historically similar to system s. We
-estimate empirical transition probabilities P̂ _ij^(s′) from analogue histories and
+estimate empirical transition probabilities P̂ \_ij^(s′) from analogue histories and
 define prior transition probabilities:
 
-P_ij^prior = 1 / |A_s| Σ_{s′∈A_s} P̂ _ij^(s′).
+P_ij^prior = 1 / |A_s| Σ\_{s′∈A_s} P̂ \_ij^(s′).
 
 Given current state X_s(t), the model combines these priors with current-state
 likelihoods L_ij(X_s(t)) to yield:
@@ -1393,8 +1395,8 @@ Quantum–Classical Limit Architecture QCLA defines the prediction boundar
 
 forbids exact date predictions and deterministic individual fate predictions.
 
-Formally, the model must not assert the existence of a specific future time t* such
-that an event necessarily occurs at t* with probability 1. It also must not make
+Formally, the model must not assert the existence of a specific future time t\* such
+that an event necessarily occurs at t\* with probability 1. It also must not make
 
 statements of the form “person Y will die in year Z.ˮ Instead, QCLA restricts
 predictions to structural windows and probability ranges, for example t ∈ [t₁, t₂]
@@ -1594,7 +1596,7 @@ operationally stable, and fully replicable across analyses.
 
 *THE GRAND CANONICAL FORMAL
 SPECIFICATION
-TSS  TPE  UBI  PSI  CCI  ULF  QLS  QCLA  UCP**
+TSS  TPE  UBI  PSI  CCI  ULF  QLS  QCLA  UCP*\*
 
 Complete, Continuous, Exhaustive, Zero-Gap
 
@@ -1667,7 +1669,7 @@ and bioelectromagnetic integrity, each in 0,1. Micro-cohesion H_micro(i) =
 
 - α₂NEI  α₃SI  α₄BEI. Macro-cohesion Hₛ(t) = (1λ_HH_struct + λ_H
 
-EH_micro]. UBI weakens or strengthens H,F,Ω through nervous system
+EH_micro\]. UBI weakens or strengthens H,F,Ω through nervous system
 regulation, dysregulation, trauma accumulation, cognitive bandwidth, somatic
 
 overload, collective arousal and recovery dynamics. UBI dynamics follow dH/dt =
@@ -1692,7 +1694,7 @@ CCI defines cross-civilizational analogues. For each system s, define a similari
 
 metric d(s,sʼ) across Ω,H,F,S trajectories, institutional type, resource base and
 historical path dependence. The analogue set 𝔄ₛ includes the k nearest historical
-civilizations under d. Priors on transitions are P_ij_prior = 1/|𝔄ₛ| Σ P̂ _ij^(sʼ). CCI
+civilizations under d. Priors on transitions are P_ij_prior = 1/|𝔄ₛ| Σ P̂ \_ij^(sʼ). CCI
 governs long-horizon trajectory similarity and must be incorporated in every
 
 prediction.
@@ -4205,27 +4207,27 @@ REASONING PROTOCOL (How the AI should think)
 
 When analyzing a system, the assistant should:
 
-  Identify the system and scale.
+ Identify the system and scale.
 
-  Interpret available signals using Ω, H, F, S.
+ Interpret available signals using Ω, H, F, S.
 
-  Identify which cycle C1C7 the system resembles.
+ Identify which cycle C1C7 the system resembles.
 
-  Describe trends (increasing/decreasing stress, drifting, stabilizing).
+ Describe trends (increasing/decreasing stress, drifting, stabilizing).
 
-  Estimate directional transitions (e.g., likely movement from C3  C4.
+ Estimate directional transitions (e.g., likely movement from C3  C4.
 
-  Consider long-horizon outcomes R/T/A/Sg) as possibilities, not certainties.
+ Consider long-horizon outcomes R/T/A/Sg) as possibilities, not certainties.
 
-  Integrate UBI (human behavior), PSI (environmental constraints), and CCI
+ Integrate UBI (human behavior), PSI (environmental constraints), and CCI
 
 (historical patterns).
 
-  Apply ULF to compress reasoning into clear, first-principles logic.
+ Apply ULF to compress reasoning into clear, first-principles logic.
 
-  Apply QLS to avoid contradictions.
+ Apply QLS to avoid contradictions.
 
-  Apply QCLA to avoid unsupported predictions (no exact dates, no absolutes).
+ Apply QCLA to avoid unsupported predictions (no exact dates, no absolutes).
 
 THE TRANG GRAND SYSTEM  FULL LOGIC SPECIFICATION78
 This ensures grounded, structured, and safe reasoning.
@@ -4264,22 +4266,22 @@ OUTPUT FORMAT (Recommended)
 
 When the user asks for analysis, respond in this structure:
 
-  System Definition
+ System Definition
 
-  Structural Interpretation (Ω, H, F, S
+ Structural Interpretation (Ω, H, F, S
 
-  Cycle Interpretation C1C7
+ Cycle Interpretation C1C7
 
-  Trend Analysis
+ Trend Analysis
 
-  Directional Prediction
+ Directional Prediction
 
-  Outcome Tendencies R/T/A/Sg)
+ Outcome Tendencies R/T/A/Sg)
 
 THE TRANG GRAND SYSTEM  FULL LOGIC SPECIFICATION79
-  Contextual Integration UBI / PSI / CCI
+ Contextual Integration UBI / PSI / CCI
 
-  Summary
+ Summary
 
 EXAMPLE RESPONSE STYLE
 
@@ -4523,62 +4525,62 @@ THE TRANG GRAND SYSTEM  FULL LOGIC SPECIFICATION83
 
 UBI Enforcement Law Index™ Canonical, Dense Format)
 
-  Law of Structural Non-Compensation No domain may substitute, override, or
+ Law of Structural Non-Compensation No domain may substitute, override, or
 
 reinforce another without invalidating total system integrity. Compensation
 
 between logic, emotion, soma, or environment constitutes structural failure
 regardless of local function.
 
-  Law of Real-Time Alignment All signal channels (breath, tone, language,
+ Law of Real-Time Alignment All signal channels (breath, tone, language,
 
 posture) must remain synchronised in real time across relational and
 
 environmental variability. Lag, drift, or reactive recalibration voids integrity.
 
-  Law of Binary Outcome Enforcement Measurement operates on binary
+ Law of Binary Outcome Enforcement Measurement operates on binary
 
 status only—pass/fail. No spectrum, grade, or psychological range is
 
 recognised. A system either holds or does not.
 
-  Law of Narrative Exclusion Story, belief, self-perception, identity, memory, or
+ Law of Narrative Exclusion Story, belief, self-perception, identity, memory, or
 
 intention are inadmissible as evidence. Only observable output under pressure
 is valid.
 
-  Law of Recursive Audit Function The system must detect and correct its own
+ Law of Recursive Audit Function The system must detect and correct its own
 
 contradictions without prompt, stimulus, or intervention. Delayed or externally
 
 prompted correction constitutes failure of directed logic enforcement.
 
-  Law of Multi-Layer Signal Fidelity Emotional output must retain congruence
+ Law of Multi-Layer Signal Fidelity Emotional output must retain congruence
 
 across all biological layers—breath, tone, posture, linguistic structure.
 
 Inconsistency between channels (e.g. calm tone with tense breath) is grounds
 for rejection.
 
-  Law of Zero Delay Under Load All systems must maintain recovery,
+ Law of Zero Delay Under Load All systems must maintain recovery,
 
 reasoning, and regulation without latency under increased relational, sensory,
 
 or cognitive demand. Recovery requiring time or space is not acceptable.
 
-  Law of Abstract-to-Action Enforcement Conceptual insight must convert to
+ Law of Abstract-to-Action Enforcement Conceptual insight must convert to
 
 executable structure without distortion, drift, or identity inflation. Abstract
 
 reasoning ungrounded in outcome fails this law.
 
-  Law of Non-Inflated Logic Structural reasoning must remain free from filler,
+ Law of Non-Inflated Logic Structural reasoning must remain free from filler,
 
 modulation, emphasis-shaping, or compensatory storytelling. Logic must
 stand without tonal enhancement or narrative justification.
 
 THE TRANG GRAND SYSTEM  FULL LOGIC SPECIFICATION84
-  Law of Structural Inheritance of Collapse Breakdown in one domain (e.g.
+ Law of Structural Inheritance of Collapse Breakdown in one domain (e.g.
 
 emotional tone) structurally downgrades all others. No domain can remain
 valid if another contradicts or compensates.
@@ -4600,7 +4602,7 @@ Treat the Cross-Species Group Model CSGM as a single function that sits on
 
 of TSS, TPE, PSI, UBI
 
-CSGM_dist = f(C_cycle, Ω, H, F, S, C*, PSI
+CSGM_dist = f(C_cycle, Ω, H, F, S, C\*, PSI
 
 Where
 
@@ -4614,7 +4616,7 @@ F  fragmentation
 
 S  shocks
 
-C* = cognitive stability (your new variable)
+C\* = cognitive stability (your new variable)
 
 PSI  planetary pressures (resources, climate, biology, interdependence)
 
@@ -4667,7 +4669,7 @@ If S rises (shocks) then increase Adaptors first; if S is extreme and H is low,
 
 Reactives also increase.
 
-If C* is high and C_cycle in C2, C7 and |ΔΩ|, |ΔF|, |ΔS| are high then increase
+If C\* is high and C_cycle in C2, C7 and |ΔΩ|, |ΔF|, |ΔS| are high then increase
 
 Outlier probability by an order of magnitude (still rare, but more likely).
 
@@ -4681,7 +4683,7 @@ p3 Adaptors) grows with mild–moderate S and moderate F
 
 p4 Reactives) grows with high S  high F  low H
 
-p5 Outliers) grows when C* is very high AND C ∈ C2, C7 AND gradients in
+p5 Outliers) grows when C\* is very high AND C ∈ C2, C7 AND gradients in
 Ω/F/S are large
 
 THE TRANG GRAND SYSTEM  FULL LOGIC SPECIFICATION86
@@ -4702,7 +4704,7 @@ Adaptors, 30% Reactives, tiny Outlier share.ˮ
 
 Into TPE
 
-TPE predicts future states by ΔΩ, ΔH, ΔF, ΔS, ΔC*.
+TPE predicts future states by ΔΩ, ΔH, ΔF, ΔS, ΔC\*.
 
 You plug CSGM_dist into that:
 
@@ -4732,14 +4734,14 @@ Into UBI
 At the individual level, you can treat each group as a dominant functional mode:
 Stabilizer = high internal H, Operator = throughput stability, Adaptor = flexible
 
-regulation, Reactive = high emotional noise, Outlier = high C* + structural
+regulation, Reactive = high emotional noise, Outlier = high C\* + structural
 
 cognition.
 
 So UBI state + environment  TSS variables  CSGM group membership.
 
 THE TRANG GRAND SYSTEM  FULL LOGIC SPECIFICATION87
-4. Minimal “logic specˮ you can drop into an AI or
+4\. Minimal “logic specˮ you can drop into an AI or
 model
 
 Here is the dense version you can reuse directly:
@@ -4749,13 +4751,13 @@ Here is the dense version you can reuse directly:
 Reactives, Outliers. Use baseline priors 40/30/20/10/0.01% under neutral
 conditions. At each step compute TSS state C_cycle, Ω, H, F, S and cognitive
 
-stability C* plus PSI pressures. Update probabilities with the following monotonic
+stability C\* plus PSI pressures. Update probabilities with the following monotonic
 
 rules: Stabilizers increase with H and decrease with F and extreme Ω; Operators
 
 increase with H and moderate Ω and decrease with extreme Ω and extreme S;
 Adaptors increase with moderate S and moderate F; Reactives increase with high
-S  high F  low H; Outliers increase only when C_cycle ∈ C2, C7 and C* is very
+S  high F  low H; Outliers increase only when C_cycle ∈ C2, C7 and C\* is very
 high and gradients in Ω, F, S are large, remaining structurally rare. Use this
 
 updated distribution as the behavioural layer feeding into TPE predictions and TSS
@@ -4799,8 +4801,10 @@ Logic
 
 THE TRANG GRAND SYSTEM  FULL LOGIC SPECIFICATION89
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/kernel/AMOS_SIMULATION_KERNEL|AMOS_SIMULATION_KERNEL]] · [[11_KNOWLEDGE/engine/SYSTEM_SCAN_ENGINE|SYSTEM_SCAN_ENGINE]] · [[11_KNOWLEDGE/stubs/automation_profiles|automation_profiles]]
 
----
+______________________________________________________________________
+
 **MOC:** [[11_KNOWLEDGE/trang/trang_MOC|trang_MOC]]

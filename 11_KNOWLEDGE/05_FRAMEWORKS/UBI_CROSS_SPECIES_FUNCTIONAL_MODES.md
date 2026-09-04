@@ -12,20 +12,20 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: FRAMEWORK
 path: 11_KNOWLEDGE/05_FRAMEWORKS/UBI_CROSS_SPECIES_FUNCTIONAL_MODES.md
 tags:
-- amos-os
-- knowledge
-- vault
-- 05_frameworks
-- ubi_cross_species
-- cross_species_modes
-- comparative_biology
-- evolutionary_adaptations
-- rscf
-- canon_candidate
-- canon/knowledge
-- unified-biological-intelligence
-- ubi-absolute-biological-integrity
-- ubi-fractal-architecture
+  - amos-os
+  - knowledge
+  - vault
+  - 05_frameworks
+  - ubi_cross_species
+  - cross_species_modes
+  - comparative_biology
+  - evolutionary_adaptations
+  - rscf
+  - canon_candidate
+  - canon/knowledge
+  - unified-biological-intelligence
+  - ubi-absolute-biological-integrity
+  - ubi-fractal-architecture
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -40,16 +40,16 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - UBI_OFFICIAL_MANUAL
-  - AMOS_CORPUS
+    - UBI_OFFICIAL_MANUAL
+    - AMOS_CORPUS
   scope:
-  - KNOWLEDGE_FRAMEWORKS
-  - COMPARATIVE_BIOLOGY
-  - SOURCE_DEFINED_MODEL
+    - KNOWLEDGE_FRAMEWORKS
+    - COMPARATIVE_BIOLOGY
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   master_framework:
     artifact:
-    - - UNIFIED_BIOLOGICAL_INTELLIGENCE
+      -   - UNIFIED_BIOLOGICAL_INTELLIGENCE
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
@@ -63,29 +63,29 @@ epistemic_boundary:
 
 It maps how the 4 UBI domains (NBI, NEI, SI, BEI) specialize across diverse biological taxa and species lineages.
 
----
+______________________________________________________________________
 
-# 1. Cross-Species Domain Specializations
+## 1. Cross-Species Domain Specializations
 
-| Taxon / Lineage | Primary Domain Weight | Key Adaptive Mechanism | Human/AI Parallel |
-|---|---|---|---|
-| **Cetaceans / Dolphins** | BEI & NEI | Acoustic echolocation, unihemispheric sleep, deep pod empathy | Acoustic harmonic networking |
-| **Avian / Migratory Birds** | BEI & SI | Geomagnetic navigation, high-speed flocking synchrony | Multi-agent coordination algorithms |
-| **Cephalopods / Octopus** | NBI & SI | Distributed peripheral nervous system, chromatophore skin signaling | Decentralized edge-node computing |
-| **Social Insects / Ants & Bees** | SI & BEI | Pheromone stigmergy, collective vibrational dances | Swarm intelligence & stigmergic memory |
+| Taxon / Lineage                  | Primary Domain Weight | Key Adaptive Mechanism                                              | Human/AI Parallel                      |
+| -------------------------------- | --------------------- | ------------------------------------------------------------------- | -------------------------------------- |
+| **Cetaceans / Dolphins**         | BEI & NEI             | Acoustic echolocation, unihemispheric sleep, deep pod empathy       | Acoustic harmonic networking           |
+| **Avian / Migratory Birds**      | BEI & SI              | Geomagnetic navigation, high-speed flocking synchrony               | Multi-agent coordination algorithms    |
+| **Cephalopods / Octopus**        | NBI & SI              | Distributed peripheral nervous system, chromatophore skin signaling | Decentralized edge-node computing      |
+| **Social Insects / Ants & Bees** | SI & BEI              | Pheromone stigmergy, collective vibrational dances                  | Swarm intelligence & stigmergic memory |
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Master Framework:** [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]]
 - **Biological Integrity:** [[11_KNOWLEDGE/05_FRAMEWORKS/UBI_ABSOLUTE_BIOLOGICAL_INTEGRITY|UBI_ABSOLUTE_BIOLOGICAL_INTEGRITY]]
 - **Fractal Biology:** [[11_KNOWLEDGE/05_FRAMEWORKS/UBI_FRACTAL_ARCHITECTURE|UBI_FRACTAL_ARCHITECTURE]]
 - **Knowledge MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -103,10 +103,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]] · [[11_KNOWLEDGE/05_FRAMEWORKS/UBI_ABSOLUTE_BIOLOGICAL_INTEGRITY|UBI_ABSOLUTE_BIOLOGICAL_INTEGRITY]]
 
----
-**MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]
+______________________________________________________________________
 
+**MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]

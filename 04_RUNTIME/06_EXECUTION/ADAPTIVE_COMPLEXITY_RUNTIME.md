@@ -12,18 +12,18 @@ segment: 04_RUNTIME/06_EXECUTION
 artifact_kind: RUNTIME_SPEC
 path: 04_RUNTIME/06_EXECUTION/ADAPTIVE_COMPLEXITY_RUNTIME.md
 tags:
-- amos-os
-- runtime
-- vault
-- 06_execution
-- adaptive_complexity_runtime
-- system2_reasoning
-- depth_governor
-- rscf
-- canon_candidate
-- canon/runtime
-- frai-fractal-reasoning-ai
-- ubi-x-cognition-matrix
+  - amos-os
+  - runtime
+  - vault
+  - 06_execution
+  - adaptive_complexity_runtime
+  - system2_reasoning
+  - depth_governor
+  - rscf
+  - canon_candidate
+  - canon/runtime
+  - frai-fractal-reasoning-ai
+  - ubi-x-cognition-matrix
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -38,13 +38,13 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - 04_RUNTIME/06_EXECUTION/06_EXECUTION_MOC
-  - 11_KNOWLEDGE/05_FRAMEWORKS/FRAI_FRACTAL_REASONING_AI
-  - AMOS_CORPUS
+    - 04_RUNTIME/06_EXECUTION/06_EXECUTION_MOC
+    - 11_KNOWLEDGE/05_FRAMEWORKS/FRAI_FRACTAL_REASONING_AI
+    - AMOS_CORPUS
   scope:
-  - RUNTIME_EXECUTION
-  - ADAPTIVE_COMPLEXITY
-  - SOURCE_DEFINED_MODEL
+    - RUNTIME_EXECUTION
+    - ADAPTIVE_COMPLEXITY
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   execution_moc:
     artifact: 04_RUNTIME/06_EXECUTION/06_EXECUTION_MOC
@@ -63,9 +63,9 @@ epistemic_boundary:
 
 `ADAPTIVE_COMPLEXITY_RUNTIME.md` is the canonical Runtime Plane specification governing the dynamic depth scaling, multi-branch superposition, and deep formal proof synthesis (System 2 mode) within `04_RUNTIME/06_EXECUTION`.
 
----
+______________________________________________________________________
 
-# 1. Adaptive Complexity Reasoning Loop
+## 1. Adaptive Complexity Reasoning Loop
 
 ```text
   Complex Hypothesis / Multi-System Query
@@ -81,17 +81,17 @@ epistemic_boundary:
   5. Multi-Branch Dominance Collapse -> Synthesized Proof Capsule
 ```
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Execution MOC:** 04_RUNTIME/06_EXECUTION/[[04_RUNTIME/06_EXECUTION/06_EXECUTION_MOC|06_EXECUTION_MOC]]
 - **FRAI Framework:** 11_KNOWLEDGE/05_FRAMEWORKS/[[11_KNOWLEDGE/05_FRAMEWORKS/FRAI_FRACTAL_REASONING_AI|FRAI_FRACTAL_REASONING_AI]]
 - **Cognitive Matrix:** 25_COGNITIVE_MATRIX/[[25_COGNITIVE_MATRIX/UBI_X_COGNITION_MATRIX|UBI_X_COGNITION_MATRIX]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -109,9 +109,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[04_RUNTIME/04_RUNTIME_MOC|04_RUNTIME_MOC]] · 04_RUNTIME/06_EXECUTION/[[04_RUNTIME/06_EXECUTION/06_EXECUTION_MOC|06_EXECUTION_MOC]] · 11_KNOWLEDGE/05_FRAMEWORKS/[[11_KNOWLEDGE/05_FRAMEWORKS/FRAI_FRACTAL_REASONING_AI|FRAI_FRACTAL_REASONING_AI]]
 
----
+______________________________________________________________________
+
 **MOC:** 04_RUNTIME/06_EXECUTION/[[04_RUNTIME/06_EXECUTION/06_EXECUTION_MOC|06_EXECUTION_MOC]]

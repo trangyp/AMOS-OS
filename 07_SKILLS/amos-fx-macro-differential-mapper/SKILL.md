@@ -4,24 +4,22 @@ title: SKILL — Amos Fx Macro Differential Mapper
 type: skill
 source: 07_SKILLS/amos-fx-macro-differential-mapper
 name: amos-fx-macro-differential-mapper
-description: Macro Differential Mapper — forex and finance capability. Use when forex
-  analysis, currency trading, or market dynamics. Use when amos-c07-econ-finance-master
-  routes to this specialized capability. Do not use for generic tasks outside fx domain.
+description: Macro Differential Mapper — forex and finance capability. Use when forex analysis, currency trading, or market dynamics. Use when amos-c07-econ-finance-master routes to this specialized capability. Do not use for generic tasks outside fx domain.
 parent_skill: amos-c07-econ-finance-master
 domain: fx
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
 tags:
-- type/skill
-- type/skill
-- domain/econ-finance
-- epistemic/source_claim
-- hml/m
-- epistemic/source_claim
-- amos-os
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/econ-finance
+  - epistemic/source_claim
+  - hml/m
+  - epistemic/source_claim
+  - amos-os
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -31,22 +29,22 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: M
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
-- L6_uncertainty
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
+  - L6_uncertainty
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L6
-- L16
-- L17
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L6
+  - L16
+  - L17
 license: MIT
 steward: Trang Phan
 ---
@@ -56,6 +54,7 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: fx. Parent: amos-c07-econ-finance-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
 ## When to Use
 
 - When calibrating FX models: Bayesian neural SDEs, volatility surfaces
@@ -82,12 +81,12 @@ Origin architect: **Trang Phan**. Domain: fx. Parent: amos-c07-econ-finance-mast
 ## Operations
 
 1. **macro_differential.calibrate_model**: Calibrate FX models: Bayesian neural SDEs, volatility surfaces, and term structures
-2. **macro_differential.assess_risk**: Assess FX risk: currency exposure, correlation breakdown, and tail events
-3. **macro_differential.backtest_strategy**: Backtest FX strategies: walk-forward, regime-aware, and stress-tested
-4. **macro_differential.monitor_regime**: Monitor FX regime shifts: volatility, correlation, and liquidity transitions
-5. **macro_differential.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-6. **macro_differential.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
-7. **macro_differential.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+1. **macro_differential.assess_risk**: Assess FX risk: currency exposure, correlation breakdown, and tail events
+1. **macro_differential.backtest_strategy**: Backtest FX strategies: walk-forward, regime-aware, and stress-tested
+1. **macro_differential.monitor_regime**: Monitor FX regime shifts: volatility, correlation, and liquidity transitions
+1. **macro_differential.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+1. **macro_differential.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+1. **macro_differential.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## 11_KNOWLEDGE Vault Content
 
@@ -99,11 +98,13 @@ Origin architect: **Trang Phan**. Domain: fx. Parent: amos-c07-econ-finance-mast
 From Cosmo Brain Game: FX macro in trading strategy context. Market architecture, trading power equations, Soros/Druckenmiller macro break trades, policy contradiction trades. From C07 Econ & Finance: FX macro analysis.
 
 **FX macro differential model**:
+
 - **Macro break trades**: Soros/Druckenmiller style -- identify macroeconomic breaks and trade the differential
 - **Policy contradiction trades**: identify when policy contradicts economic reality and trade the differential
 - **Board-flipping concepts**: identify when the market "board" flips from one state to another
 
 **Differential mapping**:
+
 - **Interest rate differential**: the differential between central bank rates
 - **Inflation differential**: the differential between inflation rates
 - **Growth differential**: the differential between growth rates
@@ -111,17 +112,19 @@ From Cosmo Brain Game: FX macro in trading strategy context. Market architecture
 - **Sentiment differential**: the differential between market sentiment measures
 
 **Mapping protocol**:
+
 1. **Identify macro state**: identify the current macroeconomic state
-2. **Identify differentials**: identify the key differentials
-3. **Identify breaks**: identify potential macro breaks
-4. **Identify contradictions**: identify policy contradictions
-5. **Map**: map the differential structure
-6. **Record**: record with provenance
+1. **Identify differentials**: identify the key differentials
+1. **Identify breaks**: identify potential macro breaks
+1. **Identify contradictions**: identify policy contradictions
+1. **Map**: map the differential structure
+1. **Record**: record with provenance
 
 **Mapping laws**:
+
 - `DIFFERENTIAL != SPREAD`: a differential is a macroeconomic difference; a spread is a market price difference
-- `MACRO != MICRO**: macro is economy-wide; micro is firm-specific
-- `BREAK != TREND**: a break is a regime change; a trend is a continuation
+- \`MACRO != MICRO\*\*: macro is economy-wide; micro is firm-specific
+- \`BREAK != TREND\*\*: a break is a regime change; a trend is a continuation
 
 **Risk warning**: FX macro trading carries significant risk. This is an AMOS_MODEL, not financial advice.
 
@@ -130,12 +133,14 @@ From Cosmo Brain Game: FX macro in trading strategy context. Market architecture
 FX macro differential mapping is an AMOS_MODEL. It does not prove macro breaks are predictable, that differentials predict exchange rates, or that the mapping is always correct.
 
 ## Failure Modes
+
 - **Insufficient evidence**: If source material is insufficient, mark as UNKNOWN/GAP and fail closed — do not fabricate.
 - **Scope violation**: If the query falls outside the skill's declared scope, escalate to the parent skill or steward.
 - **Binding broken**: If 1:1:1 binding (skill→agent→workflow) is broken, flag routing mismatch and block execution.
 - **Validation failure**: If validation gates fail,
 
----
+______________________________________________________________________
+
 **Links:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 ## Related
@@ -145,17 +150,19 @@ FX macro differential mapping is an AMOS_MODEL. It does not prove macro breaks a
 ## Examples
 
 - **Scenario**: When calibrating FX models: Bayesian neural SDEs, volatility surfaces
+
   - **Input**: A query matching this skill's domain (fx)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When assessing FX risk: currency exposure, correlation, tail events
+
   - **Input**: A query matching this skill's domain (fx)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When backtesting FX strategies: walk-forward, regime-aware, stress-tested
+
   - **Input**: A query matching this skill's domain (fx)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Validation Gates
 
@@ -172,7 +179,6 @@ FX macro differential mapping is an AMOS_MODEL. It does not prove macro breaks a
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `amos-c07-econ-finance-master` — routes to this skill when fx specialization is needed
@@ -180,7 +186,6 @@ FX macro differential mapping is an AMOS_MODEL. It does not prove macro breaks a
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -199,7 +204,6 @@ FX macro differential mapping is an AMOS_MODEL. It does not prove macro breaks a
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -207,7 +211,6 @@ FX macro differential mapping is an AMOS_MODEL. It does not prove macro breaks a
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -220,11 +223,12 @@ FX macro differential mapping is an AMOS_MODEL. It does not prove macro breaks a
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `amos-c07-econ-finance-master` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `amos-fx-macro-differential-mapper-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -232,12 +236,14 @@ FX macro differential mapping is an AMOS_MODEL. It does not prove macro breaks a
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-fx-macro-differential-mapper
 node_type: skill
 path: 07_SKILLS/amos-fx-macro-differential-mapper/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

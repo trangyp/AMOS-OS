@@ -4,25 +4,22 @@ title: SKILL — Amos Designer Os
 type: skill
 source: 07_SKILLS/amos-designer-os
 name: amos-designer-os
-description: Designer Os — technology and engineering capability. Use when software
-  development, engineering design, or technical architecture. Use when amos-c10-tech-engineering-master
-  routes to this specialized capability. Do not use for generic tasks outside c10
-  domain.
+description: Designer Os — technology and engineering capability. Use when software development, engineering design, or technical architecture. Use when amos-c10-tech-engineering-master routes to this specialized capability. Do not use for generic tasks outside c10 domain.
 parent_skill: amos-c10-tech-engineering-master
 domain: c10
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
 tags:
-- type/skill
-- type/skill
-- domain/tech-engineering
-- epistemic/source_claim
-- hml/m
-- epistemic/source_claim
-- amos-os
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/tech-engineering
+  - epistemic/source_claim
+  - hml/m
+  - epistemic/source_claim
+  - amos-os
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -32,25 +29,25 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: M
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
-- L7_authority
-- L8_execution
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
+  - L7_authority
+  - L8_execution
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L7
-- L8
-- L16
-- L17
-- L18
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L7
+  - L8
+  - L16
+  - L17
+  - L18
 license: MIT
 steward: Trang Phan
 ---
@@ -60,6 +57,7 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: c10. Parent: amos-c10-tech-engineering-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
 ## When to Use
 
 - When analyzing software architecture: patterns, dependencies, coupling
@@ -87,13 +85,13 @@ Origin architect: **Trang Phan**. Domain: c10. Parent: amos-c10-tech-engineering
 ## Operations
 
 1. **designer.analyze_architecture**: Analyze software architecture: patterns, dependencies, coupling, cohesion
-2. **designer.discover_program**: Discover program behavior: black-box analysis, symbolic execution, fuzzing
-3. **designer.verify_code_facts**: Verify code facts: type safety, memory safety, termination, complexity
-4. **designer.optimize_performance**: Optimize performance: profiling, bottleneck analysis, and resource tuning
-5. **designer.enforce_bounds**: Enforce bounded code: resource limits, time limits, and capability limits
-6. **designer.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-7. **designer.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
-8. **designer.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+1. **designer.discover_program**: Discover program behavior: black-box analysis, symbolic execution, fuzzing
+1. **designer.verify_code_facts**: Verify code facts: type safety, memory safety, termination, complexity
+1. **designer.optimize_performance**: Optimize performance: profiling, bottleneck analysis, and resource tuning
+1. **designer.enforce_bounds**: Enforce bounded code: resource limits, time limits, and capability limits
+1. **designer.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+1. **designer.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+1. **designer.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## 11_KNOWLEDGE Vault Content
 
@@ -104,6 +102,7 @@ Origin architect: **Trang Phan**. Domain: c10. Parent: amos-c10-tech-engineering
 From Cosmo Brain AMOS Designer OS: Standalone shell for organizing ideas, roles, and brain model auditably. 5-file standalone shell with 7-layer brain model.
 
 **5 Files**:
+
 - `AMOS.brain` (2,066B): designer-facing control file (identity, goals, constraints, brain model)
 - `AMOS.config.json` (506B): runtime configuration
 - `README.txt` (1,410B): setup and usage instructions
@@ -111,30 +110,34 @@ From Cosmo Brain AMOS Designer OS: Standalone shell for organizing ideas, roles,
 - `workers.py` (3,323B): small worker layer (WORKER_REGISTRY, WorkerResponse)
 
 **4 Goals**:
+
 1. Model multi-layer reasoning and systemic behaviour
-2. Maintain full auditability of every reasoning step
-3. Keep humans in control, not the machine
-4. Support sovereign-grade AI governance and compliance
+1. Maintain full auditability of every reasoning step
+1. Keep humans in control, not the machine
+1. Support sovereign-grade AI governance and compliance
 
 **4 Constraints**:
+
 1. Deterministic execution (no hidden randomness)
-2. Every decision must be loggable and explainable
-3. No irreversible actions without explicit human confirmation
-4. All worker actions pass through a single motor layer
+1. Every decision must be loggable and explainable
+1. No irreversible actions without explicit human confirmation
+1. All worker actions pass through a single motor layer
 
 **7-Layer Brain Model**:
+
 1. **Sensory layer**: raw inputs (text, data, events, metrics)
-2. **Perceptual layer**: pattern detection from inputs
-3. **Concept layer**: stable concepts, entities, relationships
-4. **Narrative layer**: stories, scenarios, timelines
-5. **Causal layer**: cause-effect chains, interventions, levers
-6. **Systemic layer**: multi-system, multi-actor, multi-decade reasoning
-7. **Meta layer**: self-audit, ethics, risk, invariants, boundaries
+1. **Perceptual layer**: pattern detection from inputs
+1. **Concept layer**: stable concepts, entities, relationships
+1. **Narrative layer**: stories, scenarios, timelines
+1. **Causal layer**: cause-effect chains, interventions, levers
+1. **Systemic layer**: multi-system, multi-actor, multi-decade reasoning
+1. **Meta layer**: self-audit, ethics, risk, invariants, boundaries
 
 **Designer OS laws**:
+
 - `DESIGNER != USER`: the designer organizes the system; the user operates it
-- `AUDITABLE != TRANSPARENT**: auditable means decisions are loggable; transparent means visible in real-time
-- `DETERMINISTIC != RIGID**: deterministic means reproducible; rigid means inflexible
+- \`AUDITABLE != TRANSPARENT\*\*: auditable means decisions are loggable; transparent means visible in real-time
+- \`DETERMINISTIC != RIGID\*\*: deterministic means reproducible; rigid means inflexible
 
 ### Epistemic Boundary
 
@@ -147,7 +150,8 @@ Designer OS is a standalone shell architecture. It does not prove all design is 
 - **Binding broken**: If 1:1:1 binding (skill→agent→workflow) is broken, flag routing mismatch and block execution.
 - **Validation failure**: If validation gates fail, downgrade confidence, flag the gap, and escalate — do not
 
----
+______________________________________________________________________
+
 **Links:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 ## Related
@@ -157,17 +161,19 @@ Designer OS is a standalone shell architecture. It does not prove all design is 
 ## Examples
 
 - **Scenario**: When analyzing software architecture: patterns, dependencies, coupling
+
   - **Input**: A query matching this skill's domain (c10)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When discovering program behavior via black-box analysis or symbolic execution
+
   - **Input**: A query matching this skill's domain (c10)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When verifying code facts: type safety, memory safety, termination
+
   - **Input**: A query matching this skill's domain (c10)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Validation Gates
 
@@ -184,7 +190,6 @@ Designer OS is a standalone shell architecture. It does not prove all design is 
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `amos-c10-tech-engineering-master` — routes to this skill when c10 specialization is needed
@@ -192,7 +197,6 @@ Designer OS is a standalone shell architecture. It does not prove all design is 
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -211,7 +215,6 @@ Designer OS is a standalone shell architecture. It does not prove all design is 
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -219,7 +222,6 @@ Designer OS is a standalone shell architecture. It does not prove all design is 
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -232,11 +234,12 @@ Designer OS is a standalone shell architecture. It does not prove all design is 
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `amos-c10-tech-engineering-master` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `amos-designer-os-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -244,12 +247,14 @@ Designer OS is a standalone shell architecture. It does not prove all design is 
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-designer-os
 node_type: skill
 path: 07_SKILLS/amos-designer-os/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

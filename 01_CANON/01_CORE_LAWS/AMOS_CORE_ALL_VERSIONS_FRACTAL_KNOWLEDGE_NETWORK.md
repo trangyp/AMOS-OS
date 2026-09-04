@@ -12,37 +12,37 @@ segment: 01_CANON/01_CORE_LAWS
 artifact_kind: CORE_LINEAGE_NETWORK
 path: 01_CANON/01_CORE_LAWS/AMOS_CORE_ALL_VERSIONS_FRACTAL_KNOWLEDGE_NETWORK.md
 tags:
-- amos-os
-- canon
-- core
-- core_law
-- versions
-- lineage
-- evolution
-- fractal_knowledge_network
-- rscf
-- hml
-- gmef
-- provenance
-- provenance_topology
-- persistent_provenance
-- causal_lineage
-- competing_hypotheses
-- epistemic_regimes
-- mvcc
-- cas
-- transactions
-- causal_epochs
-- coordination_avoidance
-- knowledge_harvest
-- recursive_retrieval
-- canon/core
-- readme
-- amos-core
-- runtime-lineage
-- fractal-knowledge-network
-- selective-invalidation
-- trang-framework-recursive-ontology-dynamics
+  - amos-os
+  - canon
+  - core
+  - core_law
+  - versions
+  - lineage
+  - evolution
+  - fractal_knowledge_network
+  - rscf
+  - hml
+  - gmef
+  - provenance
+  - provenance_topology
+  - persistent_provenance
+  - causal_lineage
+  - competing_hypotheses
+  - epistemic_regimes
+  - mvcc
+  - cas
+  - transactions
+  - causal_epochs
+  - coordination_avoidance
+  - knowledge_harvest
+  - recursive_retrieval
+  - canon/core
+  - readme
+  - amos-core
+  - runtime-lineage
+  - fractal-knowledge-network
+  - selective-invalidation
+  - trang-framework-recursive-ontology-dynamics
 version: 1.0.0
 updated: '2026-08-28'
 status: ACTIVE_REFERENCE
@@ -57,19 +57,19 @@ rscf:
   state: SOURCE_GROUNDED
   claim_class: AMOS_MODEL
   provenance:
-  - AMOS_CORE_ALL_VERSIONS_FRACTAL_KNOWLEDGE_NETWORK.json
-  - AMOS_CORE_ALL_VERSIONS_EXHAUSTIVE_MASTER_UPDATED.json
-  - AMOS_CORE_ALL_VERSIONS_EXHAUSTIVE_MASTER.json
-  - AMOS_CORE_v3_0_to_v4_4_lineage
-  - AMOS_corpus
+    - AMOS_CORE_ALL_VERSIONS_FRACTAL_KNOWLEDGE_NETWORK.json
+    - AMOS_CORE_ALL_VERSIONS_EXHAUSTIVE_MASTER_UPDATED.json
+    - AMOS_CORE_ALL_VERSIONS_EXHAUSTIVE_MASTER.json
+    - AMOS_CORE_v3_0_to_v4_4_lineage
+    - AMOS_corpus
   scope:
-  - AMOS_CORE
-  - CORE_LAWS
-  - VERSION_LINEAGE
-  - FRACTAL_KNOWLEDGE_NETWORK
-  - RSCF
-  - GMEF
-  - KNOWLEDGE_HARVEST
+    - AMOS_CORE
+    - CORE_LAWS
+    - VERSION_LINEAGE
+    - FRACTAL_KNOWLEDGE_NETWORK
+    - RSCF
+    - GMEF
+    - KNOWLEDGE_HARVEST
   confidence_ceiling:
     lineage_v3_0_to_v4_4: SOURCE_GROUNDED
     lineage_v1_0_to_v5_8: UNKNOWN/GAP
@@ -129,9 +129,9 @@ UNKNOWN/GAP
 
 The missing ranges must not be fabricated.
 
----
+______________________________________________________________________
 
-# 1. Core Identity
+## 1. Core Identity
 
 The native network identifies itself as:
 
@@ -154,9 +154,9 @@ That purpose is architectural.
 
 It does not claim that every knowledge node is empirically verified.
 
----
+______________________________________________________________________
 
-# 2. Governing Integrity Boundary
+## 2. Governing Integrity Boundary
 
 The entire lineage network is governed by the following firewalls:
 
@@ -194,9 +194,9 @@ LOCAL FINALITY != GLOBAL FINALITY
 UNKNOWN/GAP != PASS
 ```
 
----
+______________________________________________________________________
 
-# 3. Preservation Law
+## 3. Preservation Law
 
 Every preserved runtime version remains independently addressable.
 
@@ -242,9 +242,9 @@ VERSION_PRESERVATION:
     true
 ```
 
----
+______________________________________________________________________
 
-# 4. Causal Lineage
+## 4. Causal Lineage
 
 AMOS Core evolution is represented as a causal lineage rather than a flat file collection.
 
@@ -272,9 +272,9 @@ and:
 A CAUSAL NODE IN THE EVOLUTION GRAPH
 ```
 
----
+______________________________________________________________________
 
-# 5. Evolution Spine
+## 5. Evolution Spine
 
 The source-grounded AMOS Core evolution spine is:
 
@@ -299,9 +299,9 @@ The source-grounded AMOS Core evolution spine is:
 
 This spine is the canonical compression of the supported lineage.
 
----
+______________________________________________________________________
 
-# 6. v3.0 — Deterministic Reasoning Kernel
+## 6. v3.0 — Deterministic Reasoning Kernel
 
 `v3.0` establishes the deterministic reasoning foundation.
 
@@ -335,9 +335,9 @@ DETERMINISTIC IMPLEMENTATION
 UNIVERSAL LOGICAL COMPLETENESS
 ```
 
----
+______________________________________________________________________
 
-# 7. v3.1 — Propositional Logic Repair
+## 7. v3.1 — Propositional Logic Repair
 
 `v3.1` is characterized in the lineage as:
 
@@ -359,9 +359,9 @@ v3.0
 
 The fact that a later version repairs a prior one is itself provenance-bearing knowledge.
 
----
+______________________________________________________________________
 
-# 8. v3.2.1 — Recursive RSCF + H/M/L Runtime
+## 8. v3.2.1 — Recursive RSCF + H/M/L Runtime
 
 `v3.2.1` introduces the major recursive architecture:
 
@@ -403,9 +403,9 @@ These are AMOS-model laws.
 
 They are not universal empirical laws of nature.
 
----
+______________________________________________________________________
 
-# 9. RSCF
+## 9. RSCF
 
 RSCF becomes the recursive structural carrier.
 
@@ -449,9 +449,9 @@ GENERATION
 HISTORY HASH
 ```
 
----
+______________________________________________________________________
 
-# 10. RSCF Stability
+## 10. RSCF Stability
 
 The source architecture contains the structural viability expression:
 
@@ -481,9 +481,9 @@ This is an **AMOS structural-model metric**.
 
 It is not established as a universal scientific equation.
 
----
+______________________________________________________________________
 
-# 11. Recursive Identity Preservation
+## 11. Recursive Identity Preservation
 
 Scale translation may modify effective variables.
 
@@ -507,9 +507,9 @@ $$
 
 unless an explicitly governed identity transition exists.
 
----
+______________________________________________________________________
 
-# 12. Renormalization Boundary
+## 12. Renormalization Boundary
 
 The recursive architecture allows effective variables to change across scale while preserving load-bearing identity.
 
@@ -533,9 +533,9 @@ EFFECTIVE VARIABLE CHANGE
 IDENTITY ERASURE
 ```
 
----
+______________________________________________________________________
 
-# 13. Future Debt
+## 13. Future Debt
 
 The preserved model includes:
 
@@ -556,9 +556,9 @@ This formalizes deferred structural cost inside the AMOS model.
 
 A system whose future debt exceeds repair capacity may become structurally non-viable under the model.
 
----
+______________________________________________________________________
 
-# 14. Repair
+## 14. Repair
 
 Repair acts on degradation.
 
@@ -584,9 +584,9 @@ ROLLBACK
 PROVENANCE DELETION
 ```
 
----
+______________________________________________________________________
 
-# 15. Recursive Closure
+## 15. Recursive Closure
 
 An RSCF tree is structurally closed when every recursively reachable state remains representable under the same grammar.
 
@@ -600,9 +600,9 @@ $$
 
 This supports recursive reasoning without flattening every child into the parent.
 
----
+______________________________________________________________________
 
-# 16. Bottom-Up Aggregation
+## 16. Bottom-Up Aggregation
 
 Child RSCFs may influence a parent through bounded aggregation.
 
@@ -624,9 +624,9 @@ CHILD IDENTITY DELETION
 
 A child failure may create pressure at higher scale without forcing automatic total collapse.
 
----
+______________________________________________________________________
 
-# 17. Top-Down Constraint
+## 17. Top-Down Constraint
 
 The architecture also supports top-down constraint projection.
 
@@ -648,9 +648,9 @@ TOP-DOWN GOVERNANCE
 
 without requiring the two to be epistemically equivalent.
 
----
+______________________________________________________________________
 
-# 18. v3.3 — Governed Recursive Self-Modification
+## 18. v3.3 — Governed Recursive Self-Modification
 
 `v3.3` extends recursive structure into governed mutation.
 
@@ -678,9 +678,9 @@ CAN MODIFY
 AUTHORIZED TO MODIFY
 ```
 
----
+______________________________________________________________________
 
-# 19. Mutation Selection
+## 19. Mutation Selection
 
 A mutation candidate must not be accepted merely because it differs from its parent.
 
@@ -702,9 +702,9 @@ FIT IMPROVEMENT
 
 This establishes **governed evolution**, not unrestricted self-modification.
 
----
+______________________________________________________________________
 
-# 20. v3.4.1 — Distributed Causal Evolution
+## 20. v3.4.1 — Distributed Causal Evolution
 
 `v3.4.1` introduces distribution into the lineage.
 
@@ -718,9 +718,9 @@ DISTRIBUTED CAUSAL EVOLUTION
 
 This requires causal lineage to survive across multiple participants or state partitions.
 
----
+______________________________________________________________________
 
-# 21. Distributed Boundary
+## 21. Distributed Boundary
 
 Distributed operation introduces new risks:
 
@@ -740,9 +740,9 @@ COORDINATION COST
 
 The presence of distributed tests or mechanisms does not establish a universal proof of distributed consensus.
 
----
+______________________________________________________________________
 
-# 22. v3.5 — Environment + Epistemic Regime Lineage
+## 22. v3.5 — Environment + Epistemic Regime Lineage
 
 `v3.5` introduces explicit regime lineage.
 
@@ -774,9 +774,9 @@ $$
 
 without a valid regime bridge.
 
----
+______________________________________________________________________
 
-# 23. Epistemic Regime
+## 23. Epistemic Regime
 
 A regime-bearing proof capsule should preserve:
 
@@ -792,9 +792,9 @@ epistemic_regime:
 
 A regime transition can invalidate a conclusion without invalidating the entire historical lineage.
 
----
+______________________________________________________________________
 
-# 24. v3.6 — Competing Hypothesis Field
+## 24. v3.6 — Competing Hypothesis Field
 
 `v3.6` introduces explicit competing-hypothesis preservation.
 
@@ -816,9 +816,9 @@ not:
 FORCE ONE WINNER
 ```
 
----
+______________________________________________________________________
 
-# 25. Competing Preservation
+## 25. Competing Preservation
 
 When incompatible models have:
 
@@ -835,9 +835,9 @@ COMPETING
 
 This is a valid epistemic state.
 
----
+______________________________________________________________________
 
-# 26. Discriminating Evidence
+## 26. Discriminating Evidence
 
 The preferred resolution is not indiscriminate evidence accumulation.
 
@@ -851,9 +851,9 @@ DISCRIMINATING TEST
 
 capable of changing the hypothesis ranking.
 
----
+______________________________________________________________________
 
-# 27. v3.7 — Evidence Provenance Topology
+## 27. v3.7 — Evidence Provenance Topology
 
 `v3.7` adds provenance topology.
 
@@ -877,9 +877,9 @@ SOURCE A
 
 This permits correlation analysis.
 
----
+______________________________________________________________________
 
-# 28. Provenance Topology
+## 28. Provenance Topology
 
 Important provenance fields include:
 
@@ -903,9 +903,9 @@ FRESHNESS
 CORRELATION RISK
 ```
 
----
+______________________________________________________________________
 
-# 29. v3.7.1 — Provenance Sybil Hardening
+## 29. v3.7.1 — Provenance Sybil Hardening
 
 `v3.7.1` hardens the system against apparent evidence multiplicity.
 
@@ -935,9 +935,9 @@ RepresentationCount
 IndependentEvidenceCount
 $$
 
----
+______________________________________________________________________
 
-# 30. Provenance Independence
+## 30. Provenance Independence
 
 Independence must be demonstrated rather than assumed.
 
@@ -965,9 +965,9 @@ UNKNOWN
 
 rather than automatically independent.
 
----
+______________________________________________________________________
 
-# 31. v3.8 — Iterative Deep Provenance
+## 31. v3.8 — Iterative Deep Provenance
 
 `v3.8` extends provenance analysis through multiple layers of ancestry.
 
@@ -993,9 +993,9 @@ OBSERVATION
 
 when decision value warrants deeper retrieval.
 
----
+______________________________________________________________________
 
-# 32. Progressive Provenance Depth
+## 32. Progressive Provenance Depth
 
 Provenance traversal should be progressive.
 
@@ -1011,9 +1011,9 @@ STOP DEEPER TRACE
 
 This anticipates the later Fractal Knowledge Network's progressive disclosure rule.
 
----
+______________________________________________________________________
 
-# 33. v3.9 — Persistent Incremental Provenance
+## 33. v3.9 — Persistent Incremental Provenance
 
 `v3.9` shifts provenance from per-query reconstruction toward persistent incremental state.
 
@@ -1031,9 +1031,9 @@ FUTURE QUERY REUSES GRAPH
 
 The system therefore avoids rebuilding all ancestry from scratch on every reasoning cycle.
 
----
+______________________________________________________________________
 
-# 34. Persistent Provenance Law
+## 34. Persistent Provenance Law
 
 Provenance should persist through:
 
@@ -1061,9 +1061,9 @@ Compression may reduce repetition.
 
 It may not erase ancestry.
 
----
+______________________________________________________________________
 
-# 35. v4.0 — MVCC + Causal CAS Concurrency
+## 35. v4.0 — MVCC + Causal CAS Concurrency
 
 `v4.0` introduces concurrency controls conceptually analogous to:
 
@@ -1075,9 +1075,9 @@ CAUSAL CAS
 
 The problem addressed is stale-state mutation.
 
----
+______________________________________________________________________
 
-# 36. MVCC Concept
+## 36. MVCC Concept
 
 A reasoning transaction may read state version:
 
@@ -1111,9 +1111,9 @@ Potential result:
 REVALIDATE / REJECT / RECONCILE
 ```
 
----
+______________________________________________________________________
 
-# 37. Causal CAS
+## 37. Causal CAS
 
 Conceptually:
 
@@ -1133,9 +1133,9 @@ STALE WRITE
 VALID COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 38. v4.1 — Transactional Multi-RSCF Atomicity
+## 38. v4.1 — Transactional Multi-RSCF Atomicity
 
 `v4.1` extends reasoning transactions across multiple RSCFs.
 
@@ -1159,9 +1159,9 @@ NO AUTHORITATIVE COMMIT
 
 at the model level.
 
----
+______________________________________________________________________
 
-# 39. Atomic Multi-RSCF Reasoning
+## 39. Atomic Multi-RSCF Reasoning
 
 For load-bearing closure:
 
@@ -1173,9 +1173,9 @@ the relevant semantic transaction must validate the closure coherently.
 
 This does not imply that every read or query requires global coordination.
 
----
+______________________________________________________________________
 
-# 40. Partial Commit Firewall
+## 40. Partial Commit Firewall
 
 Forbidden state:
 
@@ -1197,9 +1197,9 @@ ROLLBACK / HOLD / RETRY
 
 while preserving failure evidence.
 
----
+______________________________________________________________________
 
-# 41. v4.2 — Deterministic Causal Epoch Finality
+## 41. v4.2 — Deterministic Causal Epoch Finality
 
 `v4.2` introduces explicit causal epoch finality.
 
@@ -1217,9 +1217,9 @@ without claiming:
 TRUE FOREVER
 ```
 
----
+______________________________________________________________________
 
-# 42. Epoch Distinction
+## 42. Epoch Distinction
 
 The architecture must not silently collapse:
 
@@ -1235,9 +1235,9 @@ provenance_epoch
 
 unless an explicit mapping establishes equivalence.
 
----
+______________________________________________________________________
 
-# 43. Causal Finality
+## 43. Causal Finality
 
 Conceptually:
 
@@ -1245,7 +1245,7 @@ $$
 Final(C,E)
 $$
 
-means that \(C\) satisfies the finalization rules for epoch \(E\).
+means that (C) satisfies the finalization rules for epoch (E).
 
 It does not imply:
 
@@ -1257,9 +1257,9 @@ $$
 
 after material regime or dependency change.
 
----
+______________________________________________________________________
 
-# 44. v4.3 — Hardened Adaptive Epoch + Shard-Local Finalization
+## 44. v4.3 — Hardened Adaptive Epoch + Shard-Local Finalization
 
 `v4.3` further hardens finalization.
 
@@ -1275,9 +1275,9 @@ The key question becomes:
 
 > Can a conclusion be finalized safely within a local dependency shard without coordinating with unrelated state?
 
----
+______________________________________________________________________
 
-# 45. Shard-Local Boundary
+## 45. Shard-Local Boundary
 
 Local finalization is admissible only when the local closure is sufficient.
 
@@ -1297,9 +1297,9 @@ FRESHNESS VALID
 PROVENANCE RELATIONS KNOWN
 ```
 
----
+______________________________________________________________________
 
-# 46. v4.4 — Proof-Based Coordination Avoidance
+## 46. v4.4 — Proof-Based Coordination Avoidance
 
 `v4.4` culminates the current supported lineage with:
 
@@ -1323,9 +1323,9 @@ ONLY WHEN LOCAL SUFFICIENCY
 IS DEMONSTRATED
 ```
 
----
+______________________________________________________________________
 
-# 47. v4.4 Fast Path
+## 47. v4.4 Fast Path
 
 The smallest sufficient proof scope may be used when all material conditions hold:
 
@@ -1353,9 +1353,9 @@ LOCAL FINALIZATION
 
 may avoid unnecessary coordination.
 
----
+______________________________________________________________________
 
-# 48. Independence Must Be Proven
+## 48. Independence Must Be Proven
 
 The v4.4 firewall is:
 
@@ -1376,9 +1376,9 @@ Escalation is required when:
 - irreversible effects are possible;
 - dependencies are ambiguous.
 
----
+______________________________________________________________________
 
-# 49. Version Evolution as Proof Graph
+## 49. Version Evolution as Proof Graph
 
 The complete supported evolution can be compressed as:
 
@@ -1432,15 +1432,15 @@ v4.4
 PROOF-BASED COORDINATION AVOIDANCE
 ```
 
----
+______________________________________________________________________
 
-# 50. Fractal Knowledge Network
+## 50. Fractal Knowledge Network
 
 The version archive is not intended to be loaded in full during normal reasoning.
 
 Instead, it is exposed through the:
 
-# **AMOS Fractal Knowledge Network**
+## **AMOS Fractal Knowledge Network**
 
 Version:
 
@@ -1458,9 +1458,9 @@ CAPSULE_FIRST
 → RAW_SOURCE_ONLY_IF_REQUIRED
 ```
 
----
+______________________________________________________________________
 
-# 51. Fractal Runtime Purpose
+## 51. Fractal Runtime Purpose
 
 The network exists so an agent can access the full knowledge field without scanning millions of bytes of raw source on every request.
 
@@ -1478,9 +1478,9 @@ LOADING
 
 A node may be globally addressable without being loaded into active context.
 
----
+______________________________________________________________________
 
-# 52. Bootstrap Capsule
+## 52. Bootstrap Capsule
 
 The network starts with a small bootstrap capsule.
 
@@ -1499,9 +1499,9 @@ bootstrap_capsule:
     Do not scan versions/raw_source_text_full unless explicitly required.
 ```
 
----
+______________________________________________________________________
 
-# 53. Primary H Roots
+## 53. Primary H Roots
 
 The current network contains five major knowledge roots beneath `H0`.
 
@@ -1524,9 +1524,9 @@ H0 — AMOS KNOWLEDGE FIELD
        Reality / Structural Architecture
 ```
 
----
+______________________________________________________________________
 
-# 54. Root Capsule
+## 54. Root Capsule
 
 `H0` is the compressed root for:
 
@@ -1548,9 +1548,9 @@ REALITY ARCHITECTURE
 
 Its role is routing, not full-detail storage.
 
----
+______________________________________________________________________
 
-# 55. H/M/L Fractal Addressing
+## 55. H/M/L Fractal Addressing
 
 The network organizes knowledge at three principal scales.
 
@@ -1569,9 +1569,9 @@ This is recursive.
 
 An L node may itself conceptually become an H node for deeper expansion if the knowledge field requires it.
 
----
+______________________________________________________________________
 
-# 56. H-Level
+## 56. H-Level
 
 H-level answers:
 
@@ -1594,9 +1594,9 @@ KNOWLEDGE HARVEST
 REALITY ARCHITECTURE
 ```
 
----
+______________________________________________________________________
 
-# 57. M-Level
+## 57. M-Level
 
 M-level answers:
 
@@ -1619,9 +1619,9 @@ RSCF TRUST
 RSCF ENGINE
 ```
 
----
+______________________________________________________________________
 
-# 58. L-Level
+## 58. L-Level
 
 L-level contains detailed structures such as:
 
@@ -1643,9 +1643,9 @@ VALIDATION CONDITIONS
 
 L-level is loaded only when required.
 
----
+______________________________________________________________________
 
-# 59. Current Network Statistics
+## 59. Current Network Statistics
 
 The native FKN reports:
 
@@ -1669,9 +1669,9 @@ statistics:
 
 These are source-reported network structure counts for this artifact.
 
----
+______________________________________________________________________
 
-# 60. Memory Tiers
+## 60. Memory Tiers
 
 The Fractal Knowledge Network defines five retrieval/storage tiers.
 
@@ -1692,9 +1692,9 @@ T4
 RAW ARCHIVE
 ```
 
----
+______________________________________________________________________
 
-# 61. T0 — Bootstrap
+## 61. T0 — Bootstrap
 
 ```text
 T0_BOOTSTRAP
@@ -1710,9 +1710,9 @@ This tier is intended to be always available.
 
 It should remain small.
 
----
+______________________________________________________________________
 
-# 62. T1 — Concept Mesh
+## 62. T1 — Concept Mesh
 
 `T1` contains:
 
@@ -1724,9 +1724,9 @@ RELATION EDGES
 
 It is usually loaded selectively according to query routing.
 
----
+______________________________________________________________________
 
-# 63. T2 — Detail Cells
+## 63. T2 — Detail Cells
 
 `T2` contains:
 
@@ -1744,9 +1744,9 @@ VERSION DELTAS
 
 This tier is used when concept-level information is insufficient.
 
----
+______________________________________________________________________
 
-# 64. T3 — Evidence
+## 64. T3 — Evidence
 
 `T3` contains:
 
@@ -1766,9 +1766,9 @@ VALIDATION EVIDENCE
 
 This is where claims are checked against their source ancestry.
 
----
+______________________________________________________________________
 
-# 65. T4 — Raw Archive
+## 65. T4 — Raw Archive
 
 `T4` contains full raw source.
 
@@ -1794,9 +1794,9 @@ MISSING DETAIL
 PROVENANCE FAILURE
 ```
 
----
+______________________________________________________________________
 
-# 66. Raw Source Firewall
+## 66. Raw Source Firewall
 
 The raw archive is not the default reasoning interface.
 
@@ -1812,9 +1812,9 @@ NORMAL REASONING INTERFACE
 
 This distinction is fundamental to the Fractal Knowledge Network.
 
----
+______________________________________________________________________
 
-# 67. Core Runtime Retrieval Rule
+## 67. Core Runtime Retrieval Rule
 
 The native retrieval policy is:
 
@@ -1832,9 +1832,9 @@ RAW SOURCE ONLY IF REQUIRED
 
 The system should not blindly scan all versions.
 
----
+______________________________________________________________________
 
-# 68. Agent Retrieval Protocol
+## 68. Agent Retrieval Protocol
 
 The source network defines a nine-stage retrieval protocol.
 
@@ -1869,9 +1869,9 @@ Normalized:
    once epistemic + decision + action sufficiency are reached
 ```
 
----
+______________________________________________________________________
 
-# 69. Query Routing
+## 69. Query Routing
 
 Conceptually:
 
@@ -1906,9 +1906,9 @@ verify->T3/T4 only when required
 stop when sufficiency threshold passes
 ```
 
----
+______________________________________________________________________
 
-# 70. Routing Lexicon
+## 70. Routing Lexicon
 
 The bootstrap capsule contains routing associations including:
 
@@ -1980,9 +1980,9 @@ Routing references are structural indexes.
 
 They are not definitions of the terms themselves.
 
----
+______________________________________________________________________
 
-# 71. Stop Condition
+## 71. Stop Condition
 
 The network's source stop condition is:
 
@@ -2018,9 +2018,9 @@ SATISFIED
 
 Efficiency cannot override integrity.
 
----
+______________________________________________________________________
 
-# 72. Network Integrity Rule
+## 72. Network Integrity Rule
 
 The source rule is:
 
@@ -2044,9 +2044,9 @@ COMPRESSION MAY NOT REMOVE:
 - load-bearing dependencies
 ```
 
----
+______________________________________________________________________
 
-# 73. Bootstrap Invariants
+## 73. Bootstrap Invariants
 
 The network bootstrap contains the following invariants:
 
@@ -2086,13 +2086,13 @@ THE CAPSULE GRAPH IS THE NORMAL
 REASONING INTERFACE
 ```
 
----
+______________________________________________________________________
 
-# 74. GMEF Integration
+## 74. GMEF Integration
 
 The Fractal Knowledge Network also indexes the:
 
-# **Governed Machine Evolution Framework — GMEF**
+## **Governed Machine Evolution Framework — GMEF**
 
 GMEF complements RSCF.
 
@@ -2109,9 +2109,9 @@ HOW CHANGE TO THAT STATE
 IS GOVERNED
 ```
 
----
+______________________________________________________________________
 
-# 75. RSCF / GMEF Relationship
+## 75. RSCF / GMEF Relationship
 
 ```text
 RSCF STATE
@@ -2134,9 +2134,9 @@ ACCEPT / HOLD / REJECT
 
 Neither framework silently replaces the other.
 
----
+______________________________________________________________________
 
-# 76. Knowledge Harvest Architecture
+## 76. Knowledge Harvest Architecture
 
 The FKN contains an H-level root for knowledge harvest.
 
@@ -2152,9 +2152,9 @@ VALIDATED KNOWLEDGE
 
 This process preserves provenance and lineage.
 
----
+______________________________________________________________________
 
-# 77. Harvested Knowledge Contract
+## 77. Harvested Knowledge Contract
 
 Where available, harvested knowledge should preserve:
 
@@ -2190,9 +2190,9 @@ SOURCE_CLAIM
 
 until validated.
 
----
+______________________________________________________________________
 
-# 78. Proof Capsule Layer
+## 78. Proof Capsule Layer
 
 Important conclusions traversing the Fractal Knowledge Network should conceptually carry:
 
@@ -2232,9 +2232,9 @@ PROOF_CAPSULE:
   status:
 ```
 
----
+______________________________________________________________________
 
-# 79. Proof Capsule Reuse
+## 79. Proof Capsule Reuse
 
 A proof capsule may be reused only if:
 
@@ -2260,9 +2260,9 @@ INVALIDATE ONLY DEPENDENT CONCLUSIONS
 
 not the entire knowledge field.
 
----
+______________________________________________________________________
 
-# 80. Selective Invalidation
+## 80. Selective Invalidation
 
 Suppose:
 
@@ -2291,9 +2291,9 @@ provided dependency analysis establishes independence.
 
 This is the repair-locality principle.
 
----
+______________________________________________________________________
 
-# 81. Contradiction Preservation
+## 81. Contradiction Preservation
 
 Contradictions are structural information.
 
@@ -2325,9 +2325,9 @@ GENUINE COMPETING MODELS
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 82. Causal Firewall
+## 82. Causal Firewall
 
 The version network and Fractal Knowledge Network must distinguish:
 
@@ -2359,9 +2359,9 @@ Version sequence itself does not prove that every later feature was causally pro
 
 Lineage edges are architectural lineage unless stronger causal evidence exists.
 
----
+______________________________________________________________________
 
-# 83. Scope Firewall
+## 83. Scope Firewall
 
 A benchmark or validation result belongs to the environment in which it was measured.
 
@@ -2383,9 +2383,9 @@ $$
 
 without supporting evidence.
 
----
+______________________________________________________________________
 
-# 84. Benchmark Boundary
+## 84. Benchmark Boundary
 
 The source master explicitly preserves benchmark records as reported.
 
@@ -2407,9 +2407,9 @@ TEST-MODEL RESULTS
 
 unless a formal proof separately exists.
 
----
+______________________________________________________________________
 
-# 85. Memory and Lineage
+## 85. Memory and Lineage
 
 The network distinguishes:
 
@@ -2441,9 +2441,9 @@ HISTORICAL PASS
 
 does not automatically remain current.
 
----
+______________________________________________________________________
 
-# 86. Anti-Regression
+## 86. Anti-Regression
 
 A proposed optimization is acceptable only if it preserves or improves:
 
@@ -2471,9 +2471,9 @@ If optimization weakens integrity:
 ROLL BACK
 ```
 
----
+______________________________________________________________________
 
-# 87. Failure Recovery
+## 87. Failure Recovery
 
 Recovery follows:
 
@@ -2493,9 +2493,9 @@ REVALIDATE
 
 Global recomputation is a last resort.
 
----
+______________________________________________________________________
 
-# 88. Do-Not Rules
+## 88. Do-Not Rules
 
 The network explicitly rejects several default behaviors.
 
@@ -2514,9 +2514,9 @@ TO SAVE CONTEXT
 
 These restrictions preserve epistemic and computational integrity.
 
----
+______________________________________________________________________
 
-# 89. Fractal Knowledge Cell
+## 89. Fractal Knowledge Cell
 
 Conceptually, a knowledge cell is not merely text.
 
@@ -2555,9 +2555,9 @@ KNOWLEDGE_CELL:
 
 This lets the same field be navigated structurally rather than linearly.
 
----
+______________________________________________________________________
 
-# 90. Relation Graph
+## 90. Relation Graph
 
 Knowledge can be related by edges such as:
 
@@ -2587,9 +2587,9 @@ The precise relation type matters.
 
 A `RELATED_TO` edge must not be silently strengthened into `CAUSES`.
 
----
+______________________________________________________________________
 
-# 91. Indexes
+## 91. Indexes
 
 The FKN maintains indexes conceptually including:
 
@@ -2607,9 +2607,9 @@ These indexes improve retrieval.
 
 They do not change epistemic status.
 
----
+______________________________________________________________________
 
-# 92. Addressability Rule
+## 92. Addressability Rule
 
 Every knowledge unit should be addressable without requiring it to be loaded.
 
@@ -2623,9 +2623,9 @@ $$
 
 This is central to scaling the knowledge field.
 
----
+______________________________________________________________________
 
-# 93. Whole-Knowledge Accessibility
+## 93. Whole-Knowledge Accessibility
 
 The phrase:
 
@@ -2648,9 +2648,9 @@ MUST EXIST IN ACTIVE CONTEXT
 AT ONCE
 ```
 
----
+______________________________________________________________________
 
-# 94. Recursive Retrieval
+## 94. Recursive Retrieval
 
 A query can recursively open only the necessary path.
 
@@ -2672,9 +2672,9 @@ T3: exact implementation / test evidence
 
 No unrelated v3.0 raw source needs to be loaded unless it can change the conclusion.
 
----
+______________________________________________________________________
 
-# 95. Retrieval Sufficiency
+## 95. Retrieval Sufficiency
 
 The agent should stop expanding when all three are satisfied:
 
@@ -2688,9 +2688,9 @@ ACTION SUFFICIENCY
 
 This is the canonical runtime stopping principle.
 
----
+______________________________________________________________________
 
-# 96. Uncertainty Vector
+## 96. Uncertainty Vector
 
 When material, uncertainty should remain factored across:
 
@@ -2712,9 +2712,9 @@ PROVENANCE-INDEPENDENCE UNCERTAINTY
 
 A single scalar confidence must not hide a critical unresolved dimension.
 
----
+______________________________________________________________________
 
-# 97. Gap Priority
+## 97. Gap Priority
 
 Unresolved gaps may be classified:
 
@@ -2732,9 +2732,9 @@ Resolve them in that order.
 
 A critical unresolved gap blocks dependent promotion.
 
----
+______________________________________________________________________
 
-# 98. Current Lineage Gap
+## 98. Current Lineage Gap
 
 The primary gap in the seed artifact is the mismatch:
 
@@ -2770,9 +2770,9 @@ LINEAGE_GAP:
 
 No missing versions should be invented.
 
----
+______________________________________________________________________
 
-# 99. Other Current Gaps
+## 99. Other Current Gaps
 
 ```yaml
 FKN_GAPS:
@@ -2802,9 +2802,9 @@ FKN_GAPS:
     state: NOT_CLAIMED
 ```
 
----
+______________________________________________________________________
 
-# 100. Promotion Gate
+## 100. Promotion Gate
 
 Promotion of this artifact from `SOURCE_GROUNDED_CANON_CANDIDATE` to stronger canonical status requires:
 
@@ -2823,9 +2823,9 @@ Promotion of this artifact from `SOURCE_GROUNDED_CANON_CANDIDATE` to stronger ca
 - [ ] artifact-specific validation receipt available for the network structure;
 - [ ] no unresolved critical lineage gap hidden by the title.
 
----
+______________________________________________________________________
 
-# 101. H-Level RSCF
+## 101. H-Level RSCF
 
 ```yaml
 H:
@@ -2855,9 +2855,9 @@ H:
     - H5_REALITY
 ```
 
----
+______________________________________________________________________
 
-# 102. M-Level RSCF
+## 102. M-Level RSCF
 
 ```yaml
 M:
@@ -2886,9 +2886,9 @@ M:
     - CONFIDENCE_CEILING
 ```
 
----
+______________________________________________________________________
 
-# 103. L-Level RSCF
+## 103. L-Level RSCF
 
 ```yaml
 L:
@@ -2928,9 +2928,9 @@ L:
     raw_archives_integrated: 2
 ```
 
----
+______________________________________________________________________
 
-# 104. Full RSCF Contract
+## 104. Full RSCF Contract
 
 ```yaml
 RSCF:
@@ -3033,9 +3033,9 @@ RSCF:
       NOT_LICENSED
 ```
 
----
+______________________________________________________________________
 
-# 105. Machine-Readable Version Registry
+## 105. Machine-Readable Version Registry
 
 ```yaml
 AMOS_CORE_VERSION_LINEAGE:
@@ -3121,9 +3121,9 @@ AMOS_CORE_VERSION_LINEAGE:
       proof_based_coordination_avoidance
 ```
 
----
+______________________________________________________________________
 
-# 106. Canonical Evolution Equation
+## 106. Canonical Evolution Equation
 
 At the AMOS-model level, version evolution may be represented as:
 
@@ -3167,9 +3167,9 @@ $$
 
 This is a structural representation of the lineage, not a universal mathematical law.
 
----
+______________________________________________________________________
 
-# 107. Fractal Retrieval Equation
+## 107. Fractal Retrieval Equation
 
 Conceptually:
 
@@ -3207,9 +3207,9 @@ $$
 
 This formalizes the **smallest sufficient proof scope** principle as an AMOS model.
 
----
+______________________________________________________________________
 
-# 108. Compression Quality
+## 108. Compression Quality
 
 Compression is acceptable only when the compressed representation preserves all load-bearing information.
 
@@ -3229,9 +3229,9 @@ $$
 
 Token reduction alone is not a successful compression criterion.
 
----
+______________________________________________________________________
 
-# 109. Fractal Survival Rule
+## 109. Fractal Survival Rule
 
 A knowledge network remains operationally viable when its ability to repair invalid or stale structure exceeds the rate at which degradation accumulates.
 
@@ -3243,9 +3243,9 @@ $$
 
 This does not establish a universal law outside the AMOS framework.
 
----
+______________________________________________________________________
 
-# 110. Core Canon Compression
+## 110. Core Canon Compression
 
 The entire artifact can be compressed to:
 
@@ -3340,9 +3340,9 @@ TokenSavings
 }
 $$
 
----
+______________________________________________________________________
 
-# 111. RSCF Node
+## 111. RSCF Node
 
 RSCF-NODE
 
@@ -3435,19 +3435,19 @@ RSCF-RELATIONS:
 - RELATED_FRAMEWORK:
   [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
 
 **Related:** AMOS_CORE · [[01_CANON/01_CORE_LAWS/01_CORE_LAWS_MOC|01_CORE_LAWS_MOC]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · RSCF · GMEF · [[01_CANON/01_CORE_LAWS/FRACTAL_KNOWLEDGE_NETWORK|FRACTAL_KNOWLEDGE_NETWORK]] · [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
 
 **MOC:** [[01_CANON/01_CORE_LAWS/01_CORE_LAWS_MOC|01_CORE_LAWS_MOC]]
 
----
+______________________________________________________________________
 
 **Origin architect / steward:** **Trang Phan**
 

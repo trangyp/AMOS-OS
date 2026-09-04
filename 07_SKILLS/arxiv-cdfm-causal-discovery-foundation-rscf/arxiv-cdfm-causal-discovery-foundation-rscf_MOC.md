@@ -1,11 +1,14 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Arxiv-Cdfm-Causal-Discovery-Foundation-Rscf MOC
 type: moc
 source: 07_SKILLS/arxiv-cdfm-causal-discovery-foundation-rscf
 tags:
-- arxiv-cdfm-causal-discovery-foundation-r
-- type/skill
-- skill
+  - arxiv-cdfm-causal-discovery-foundation-r
+  - type/skill
+  - skill
 moc: true
 rscf:
   state: DERIVED
@@ -25,13 +28,16 @@ rscf:
 
 ## Subdirectories
 
-- references_MOC — references
+- [[07_SKILLS/arxiv-cdfm-causal-discovery-foundation-rscf/references/references_MOC|references_MOC]] — references
 
----
----
-**References MOC:** [[07_SKILLS/spreadsheets/references/references_MOC|references_MOC]]
+______________________________________________________________________
 
----
+______________________________________________________________________
+
+**References MOC:** [[07_SKILLS/arxiv-cdfm-causal-discovery-foundation-rscf/references/references_MOC|references_MOC]]
+
+______________________________________________________________________
+
 **Skill:** [[07_SKILLS/arxiv-cdfm-causal-discovery-foundation-rscf/SKILL|SKILL]]
 
 **Parent:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

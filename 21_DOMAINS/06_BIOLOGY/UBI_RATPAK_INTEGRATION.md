@@ -12,19 +12,19 @@ segment: 21_DOMAINS/06_BIOLOGY
 artifact_kind: DOMAIN_INTEGRATION
 path: 21_DOMAINS/06_BIOLOGY/UBI_RATPAK_INTEGRATION.md
 tags:
-- amos-os
-- domain
-- vault
-- 06_biology
-- ubi_ratpak_integration
-- binary_serialization
-- state_tensor_packaging
-- rscf
-- canon_candidate
-- canon/domain
-- ratpak
-- ubi-ratpak-binding
-- unified-biological-intelligence
+  - amos-os
+  - domain
+  - vault
+  - 06_biology
+  - ubi_ratpak_integration
+  - binary_serialization
+  - state_tensor_packaging
+  - rscf
+  - canon_candidate
+  - canon/domain
+  - ratpak
+  - ubi-ratpak-binding
+  - unified-biological-intelligence
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -39,13 +39,13 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - 11_KNOWLEDGE/05_FRAMEWORKS/RATPAK
-  - 11_KNOWLEDGE/05_FRAMEWORKS/UBI_RATPAK_BINDING
-  - AMOS_CORPUS
+    - 11_KNOWLEDGE/05_FRAMEWORKS/RATPAK
+    - 11_KNOWLEDGE/05_FRAMEWORKS/UBI_RATPAK_BINDING
+    - AMOS_CORPUS
   scope:
-  - DOMAIN_BIOLOGY
-  - RATPAK_INTEGRATION
-  - SOURCE_DEFINED_MODEL
+    - DOMAIN_BIOLOGY
+    - RATPAK_INTEGRATION
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   ratpak_framework:
     artifact: 11_KNOWLEDGE/05_FRAMEWORKS/RATPAK
@@ -62,25 +62,25 @@ epistemic_boundary:
 
 `UBI_RATPAK_INTEGRATION.md` is the canonical Domain Plane specification governing the high-density binary serialization, state tensor compression, and cryptographic packaging of biological telemetry within `21_DOMAINS/06_BIOLOGY`.
 
----
+______________________________________________________________________
 
-# 1. High-Density Telemetry Serialization
+## 1. High-Density Telemetry Serialization
 
 1. **Relational State Packaging:** Serializes high-frequency 4-domain biological telemetry streams (NBI, NEI, SI, BEI) into compact binary payloads.
-2. **Zero-Loss Data Compression:** Applies deterministic tensor encodings to minimize I/O overhead without losing waveform precision.
-3. **Cryptographic Header Attestation:** Embeds signed RSCF proof capsules into every transmitted telemetry packet.
+1. **Zero-Loss Data Compression:** Applies deterministic tensor encodings to minimize I/O overhead without losing waveform precision.
+1. **Cryptographic Header Attestation:** Embeds signed RSCF proof capsules into every transmitted telemetry packet.
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Ratpak Framework:** 11_KNOWLEDGE/05_FRAMEWORKS/[[11_KNOWLEDGE/05_FRAMEWORKS/RATPAK|RATPAK]]
 - **Ratpak Binding:** 11_KNOWLEDGE/05_FRAMEWORKS/[[11_KNOWLEDGE/05_FRAMEWORKS/UBI_RATPAK_BINDING|UBI_RATPAK_BINDING]]
 - **Biological Master:** 11_KNOWLEDGE/05_FRAMEWORKS/[[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -98,10 +98,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[21_DOMAINS/21_DOMAINS_MOC|21_DOMAINS_MOC]] · 11_KNOWLEDGE/05_FRAMEWORKS/[[11_KNOWLEDGE/05_FRAMEWORKS/RATPAK|RATPAK]] · 11_KNOWLEDGE/05_FRAMEWORKS/[[11_KNOWLEDGE/05_FRAMEWORKS/UBI_RATPAK_BINDING|UBI_RATPAK_BINDING]]
 
----
-**MOC:** [[21_DOMAINS/21_DOMAINS_MOC|21_DOMAINS_MOC]]
+______________________________________________________________________
 
+**MOC:** [[21_DOMAINS/21_DOMAINS_MOC|21_DOMAINS_MOC]]

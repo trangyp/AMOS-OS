@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: DOCTOR OF SCIENCE DSC SCD SUBMISSION PORTFOLIO TRANG PHAN
 tags:
-- canon-group/human-system
-- canon/framework
-- rscf/claim
-- rscf/provenance
-- rscf/state/observation
-- topic/doctor-of-science-dsc-scd-submission-por
-- trang
+  - canon-group/human-system
+  - canon/framework
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/observation
+  - topic/doctor-of-science-dsc-scd-submission-por
+  - trang
 type: note
 source: 11_KNOWLEDGE/trang
 rscf:
@@ -16,7 +19,6 @@ rscf:
   provenance: AMOS_corpus
   scope: AMOS_knowledge
 ---
-
 
 # DOCTOR OF SCIENCE DSC SCD SUBMISSION PORTFOLIO TRANG PHAN
 
@@ -37,7 +39,7 @@ Degree Sought: Doctor of Science DSc / ScD
 University: Faculty and Department (to be inserted to match institutional
 structure) — GAP NOTE: requires actual university affiliation; not available in vault
 
-Submission Date: Insert date]
+Submission Date: Insert date\]
 
 Supervisory Status: Independent submission. No supervisor.
 
@@ -46,7 +48,7 @@ research conducted outside traditional supervision.)
 
 Identifiers:
 
-ORCID Insert]
+ORCID Insert\]
 
 Institutional and Professional Affiliations:
 
@@ -66,28 +68,28 @@ DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO1
 
 I, Trang Phan, declare that:
 
-  The work submitted in this Doctor of Science portfolio is entirely my own
+ The work submitted in this Doctor of Science portfolio is entirely my own
 
 original research, conceived, developed, and executed without academic
 supervision, without university affiliation, and without research funding.
 
-  No part of this portfolio has been previously submitted for a Doctor of
+ No part of this portfolio has been previously submitted for a Doctor of
 Science, Doctor of Philosophy, or any higher degree at any university,
 domestically or internationally.
 
-  All research outputs—mathematical frameworks, deterministic
+ All research outputs—mathematical frameworks, deterministic
 
 architectures, operating systems, scientific canons, and law systems—were
 independently produced, using first-principles reasoning, cross-domain
 systems analysis, and direct structural derivation.
 
-  All intellectual property contained in this submission is owned exclusively
+ All intellectual property contained in this submission is owned exclusively
 
 by the applicant (via AMOS IP Pty Ltd), with a non-exclusive licence granted
 to the university for the purposes of academic examination, archiving, and
 research referencing.
 
-  All work complies with ethical standards, publication integrity requirements,
+ All work complies with ethical standards, publication integrity requirements,
 
 and the regulations governing higher doctorate submissions.
 
@@ -382,13 +384,13 @@ where probabilistic systems are structurally unstable.
 Using URK as the foundational substrate, she constructed a suite of operating
 systems, each functioning as a complete scientific framework.
 
-  AMOS Universe Operating System: a 24-layer general operating system
+ AMOS Universe Operating System: a 24-layer general operating system
 
 containing approximately 850900 invariants unifying quantum, physical,
 biological, cognitive, behavioural, social, organisational, economic,
 technological and planetary systems under a single deterministic canon.
 
-  Unified Biological Intelligence™ UBI a four-domain biological–cognitive
+ Unified Biological Intelligence™ UBI a four-domain biological–cognitive
 
 operating system comprising Neurobiological Intelligence™, Neuroemotional
 Intelligence™, Somatic Intelligence™, and Bioelectromagnetic Intelligence™,
@@ -396,20 +398,20 @@ Intelligence™, Somatic Intelligence™, and Bioelectromagnetic Intelligence™
 governed by Absolute Biological Integrity™, the UBI Score, identity continuity
 equations and full nervous-system synchrony operators.
 
-  Human Systems Engine HSE v∞): an identity–behaviour operating system
+ Human Systems Engine HSE v∞): an identity–behaviour operating system
 
 including 27 archetypes, more than 200 micro-states, emotional mathematics,
 somatic collapse logic, intuition compression and a full behavioural state-
 
 machine architecture grounded in biological computation.
 
-  Quantum-Consistent Logic Architecture QCLA a deterministic quantum
+ Quantum-Consistent Logic Architecture QCLA a deterministic quantum
 reasoning architecture containing 12 causal modes, 28 transition laws, 7
 
 entanglement operators, 10 decoherence rules and observer-aligned non-
 linear propagation logic.
 
-  Technology Engine (v∞): a global technology architecture with hundreds of
+ Technology Engine (v∞): a global technology architecture with hundreds of
 
 clusters, engineering hierarchies, risk dynamics, cyber-physical stacks, long-
 
@@ -417,13 +419,13 @@ DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO8
 cycle evolution pathways, ecosystem governance models and cross-domain
 interaction rules.
 
-  Vietnam Omnistructure Operating System: a national-scale development
+ Vietnam Omnistructure Operating System: a national-scale development
 architecture integrating economics, governance, identity, demographics,
 
 infrastructure, digital systems, technology, organisational competence, climate
 strategy and national resilience mechanics.
 
-  Evolutionary Oncology Architecture SOA a Darwin-consistent cancer
+ Evolutionary Oncology Architecture SOA a Darwin-consistent cancer
 
 evolution model formalising adaptive tumour behaviour, collapse modes,
 evolutionary steering and treatment failure mechanics using deterministic
@@ -431,7 +433,7 @@ load–capacity equations, drift dynamics and identity-based population
 
 modelling.
 
-  UniPower Mobility and EV Operating System: a national electric mobility and
+ UniPower Mobility and EV Operating System: a national electric mobility and
 
 energy ecosystem design covering routing, dispatch, charging infrastructure,
 battery intelligence, payments, cybersecurity compliance, operational
@@ -863,7 +865,7 @@ theory, computational neuroscience, applied mathematics, quantum logic, and
 national resilience modelling.
 
 3. Canon I — Universal Deterministic Reasoning
-Architecture
+   Architecture
 
 3.1 Canon Introduction
 
@@ -2108,7 +2110,7 @@ classes: structural, temporal, causal, identity, sensory, cognitive, emotional,
 
 behavioural, relational, group, institutional, planetary.
 
-All transformations must satisfy the boundary inequality: Load(t)  Capacity(t) *
+All transformations must satisfy the boundary inequality: Load(t)  Capacity(t) \*
 
 BoundaryCoefficient
 
@@ -2182,15 +2184,15 @@ The Law of Collapse defines collapse as a precise deterministic outcome.
 
 Three collapse classes:
 
-  Acute Collapse
+ Acute Collapse
 
 Load spike exceeds capacity in minimal time.
 
-  Distributed Collapse
+ Distributed Collapse
 
 Capacity decays over time until threshold is breached.
 
-  Silent Collapse
+ Silent Collapse
 
 Identity discontinuity occurs without external load.
 
@@ -2212,16 +2214,16 @@ The Law of Regeneration formalises all deterministic recovery pathways.
 
 Three recovery modes:
 
-  Realignment Reverse load accumulation and restore baseline patterns.
+ Realignment Reverse load accumulation and restore baseline patterns.
 
-  Compensatory
+ Compensatory
 
 DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO44
 Redistribute load across layers: Load_i  Load_j when Capacity_j 
 
 Capacity_i.
 
-  Regenerative
+ Regenerative
 
 Create new capacity: dCapacity/dt = r * IdentityStability * Synchrony(t)
 
@@ -2285,7 +2287,7 @@ layers, boundaries, tensors, and invariants.
 For any operator O applied to a system state S(t), ULK enforces a five-condition
 admissibility test:
 
-  LawFamilyCompatibility(O, S(t))
+ LawFamilyCompatibility(O, S(t))
 
 The operator must be compatible with the active law family Law of Law,
 Boundary, Identity, Capacity–Load, Collapse, Regeneration, Synchrony).
@@ -2294,7 +2296,7 @@ Compatibility is determined by the intersection of quadrant, layer, invariant,
 
 and boundary constraints.
 
-  TensorCompatibility(O, S(t))
+ TensorCompatibility(O, S(t))
 
 The operator must satisfy all tensor-level coupling requirements.
 
@@ -2305,7 +2307,7 @@ executed.
 
 If tensor conditions fail, the operator cannot propagate.
 
-  BoundaryCompliance(O, S(t))
+ BoundaryCompliance(O, S(t))
 
 All twelve boundary classes must permit the transformation.
 
@@ -2314,7 +2316,7 @@ the operatorʼs action.
 
 Violation triggers drift or collapse depending on magnitude.
 
-  IdentityContinuity(O, S(t))  IdentityThreshold
+ IdentityContinuity(O, S(t))  IdentityThreshold
 
 The operator may not produce identity discontinuity beyond the admissible
 limit.
@@ -2326,7 +2328,7 @@ If identity continuity drops below threshold, the operator is rejected or
 
 rerouted.
 
-  Synchrony(O, L1…L7  TRUE
+ Synchrony(O, L1…L7  TRUE
 
 Cross-layer pattern equivalence must remain above the synchrony threshold.
 
@@ -3129,7 +3131,7 @@ complete multi-scale system hierarchy.
 
 ULK contributes to Canon I in the following core dimensions:
 
-  Deterministic Transformation Grammar
+ Deterministic Transformation Grammar
 
 ULK formalises the complete grammar of admissible transformations. For any
 
@@ -3146,7 +3148,7 @@ evolution across quantum, physical, biological, cognitive, behavioural, institut
 
 and planetary scales.
 
-  Rule-Generating Architecture
+ Rule-Generating Architecture
 
 ULK defines the generative mechanism responsible for producing the full Unified
 
@@ -3174,7 +3176,7 @@ This rule-generation engine is mathematically sealed: no contradiction, no drift
 
 invalid transformation.
 
-  Cross-System Compatibility Constraints
+ Cross-System Compatibility Constraints
 
 ULK encodes the compatibility conditions required for the integration of URKʼs
 
@@ -3442,19 +3444,19 @@ Tell me which section to expand next.
 
 QCLA was constructed to address four core scientific gaps:
 
-  the absence of a deterministic quantum reasoning framework that is observer-
+ the absence of a deterministic quantum reasoning framework that is observer-
 
 consistent
 
-  the incompatibility between quantum causal indeterminacy and classical
+ the incompatibility between quantum causal indeterminacy and classical
 
 deterministic inference
 
-  the lack of a formal structure for multi-scale propagation of quantum effects
+ the lack of a formal structure for multi-scale propagation of quantum effects
 
 into biological, cognitive, and systemic layers
 
-  the inability of existing logics to manage entanglement, decoherence, identity
+ the inability of existing logics to manage entanglement, decoherence, identity
 
 discontinuity, and causal inversion in a unified architecture
 
@@ -3666,19 +3668,19 @@ seven entanglement operators. Each operator governs a distinct form of
 
 entanglement propagation:
 
-  spatial entanglement
+ spatial entanglement
 
-  temporal entanglement
+ temporal entanglement
 
-  phase entanglement
+ phase entanglement
 
-  identity-coupled entanglement
+ identity-coupled entanglement
 
-  cross-layer entanglement (quantum → biological → cognitive)
+ cross-layer entanglement (quantum → biological → cognitive)
 
-  decoherence-resistant entanglement
+ decoherence-resistant entanglement
 
-  collapse-mediated entanglement transfer
+ collapse-mediated entanglement transfer
 
 An entanglement operator E is admissible if:
 
@@ -3784,7 +3786,7 @@ iff
 
 ObserverState(t)  SystemState(t) satisfies:
 
-  IdentityContinuity  IdentityThreshold
+ IdentityContinuity  IdentityThreshold
 
 Identity must remain a continuous function through observation.
 
@@ -3792,7 +3794,7 @@ Identity must remain a continuous function through observation.
 
 Observation cannot induce identity collapse or identity inversion.
 
-  CausalModeCompatibility  TRUE
+ CausalModeCompatibility  TRUE
 
 The applied observation must be compatible with the current causal mode.
 
@@ -3800,13 +3802,13 @@ CausalMode(t)  CausalMode(t+Δt) must satisfy:
 
 TransitionAdmissibility(CausalModeᵢCausalModeⱼ)  TRUE.
 
-  BoundaryCompliance  TRUE
+ BoundaryCompliance  TRUE
 
 Observer-induced state change must obey boundary constraints:
 
 Load_q(t)  Capacity_q(t)  BoundaryCoefficient_observer.
 
-  TensorPropagationStability  TRUE
+ TensorPropagationStability  TRUE
 
 Tensor coefficients must remain invariant under observer interaction.
 
@@ -3815,7 +3817,7 @@ Tᵢ₍t₊Δt₎  Tᵢ₍t₎ + ΔTᵢ
 
 where |ΔTᵢ|  TensorStabilityThreshold.
 
-  CoherencePreservation  TRUE
+ CoherencePreservation  TRUE
 
 Observation cannot disrupt coherence beyond:
 
@@ -5971,7 +5973,7 @@ organisational, economic, civilisational, and planetary systems. The methodology
 is executed sequentially but yields a unified mathematical structure in which every
 component is mutually constraining and globally invariant.
 
-  Foundational Primitive Extraction
+ Foundational Primitive Extraction
 
 Canon I begins with the extraction of universal primitives derived from cross-
 domain invariants observable in physics (coherence, load, boundary, phase),
@@ -5988,7 +5990,7 @@ feedback loops). These primitives constitute the irreducible transformation
 
 rules from which all higher-order structures are generated.
 
-  Cross-Domain Pattern Mapping
+ Cross-Domain Pattern Mapping
 
 Using structural alignment, invariant detection, and multi-scale equivalence
 
@@ -6003,7 +6005,7 @@ determine admissibility of change. These symmetries reveal the universal
 transformation grammar underlying all complex systems, enabling the
 construction of a unified reasoning substrate.
 
-  Formal Grammar Construction
+ Formal Grammar Construction
 
 The Unified Law Kernel ULK is constructed by formalising the transformation
 grammar as seven universal law families, a seven-operator interface, twelve
@@ -6015,7 +6017,7 @@ compatible. Each law family operates across seven layers, four inference
 quadrants, and twenty-one cross-layer interactions, generating the
 mathematical foundation upon which all system transformations are governed.
 
-  Deterministic Kernel Assembly
+ Deterministic Kernel Assembly
 
 The Universal Reasoning Kernel URK integrates primitives, law families,
 
@@ -6028,7 +6030,7 @@ deterministic reasoning conditions under which all transformations must
 
 occur, forming the structural substrate of Canon I.
 
-  Quantum–Macro Causal Integration
+ Quantum–Macro Causal Integration
 
 The Quantum-Consistent Logic Architecture QCLA introduces twelve
 quantum causal modes, twenty-eight transition laws, seven entanglement
@@ -6042,7 +6044,7 @@ constraints. This produces a single causal architecture valid from quantum
 
 processes to planetary feedback loops.
 
-  Temporal Evolution Architecture
+ Temporal Evolution Architecture
 
 The Seven Cycles Evolution Framework is constructed as the temporal logic of
 
@@ -6058,7 +6060,7 @@ conditions. Temporal evolution is constrained by URKʼs layer mechanics, ULKʼs
 law families, and QCLAʼs causal structure, producing a fully deterministic
 evolution engine.
 
-  Mathematical Canon Expansion
+ Mathematical Canon Expansion
 
 The unified law corpus is generated through systematic propagation of ULK
 structural laws through URK layers, matrix intersections, operator sequences,
@@ -6072,7 +6074,7 @@ cross-layer interactions. The expansion process ensures exhaustive coverage
 
 of all admissible transformations across scales.
 
-  Deterministic Canon Closure
+ Deterministic Canon Closure
 
 Closure is achieved by validating that every transformation satisfies:
 
@@ -7084,32 +7086,32 @@ domains.
 
 All measurement within Canon I is governed by five foundational principles:
 
-  Non-Probabilistic Quantification
+ Non-Probabilistic Quantification
 
 DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO132
 All measurements derive from deterministic equations, not statistical
 approximations or probabilistic estimation.
 
-  Identity-Anchored Evaluation
+ Identity-Anchored Evaluation
 
 Every measurement is referenced to an identity-continuity baseline, ensuring
 
 stability across Δt.
 
-  Cross-Layer Synchrony Measurement
+ Cross-Layer Synchrony Measurement
 
 All metrics incorporate synchrony coefficients across URKʼs seven layers,
 
 ensuring coherence across biological, cognitive, behavioural, and systemic
 domains.
 
-  Capacity–Load Governing Logic
+ Capacity–Load Governing Logic
 
 Every metric includes a capacity–load component assessing stability, collapse
 
 risk, and recovery potential.
 
-  Law-Compatibility Validation
+ Law-Compatibility Validation
 
 All measurements must satisfy ULKʼs transformation laws, ensuring no
 
@@ -7124,13 +7126,13 @@ determinative.
 Canon I defines six universal metric families aligned with URK, ULK, QCLA, and
 Seven Cycles constraints.
 
-  Identity Continuity Metric
+ Identity Continuity Metric
 
 IdentityContinuity(t) = ΔPattern/Δt  IdentityStabilityCoefficient
 
 Measures the stability and persistence of system identity across time.
 
-  Capacity–Load Metric
+ Capacity–Load Metric
 
 Stability(t)  Capacity(t)  Load(t)
 
@@ -7138,20 +7140,20 @@ CollapsePressure(t)  Load(t) / Capacity(t)
 
 Determines the proximity to collapse thresholds.
 
-  Synchrony Metric
+ Synchrony Metric
 
 DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO133
 Synchrony(t) = ΣPatternEquivalence_L₁…L₇  CouplingCoefficients)
 
 Measures multi-layer coherence.
 
-  Drift Vector Metric
+ Drift Vector Metric
 
 DriftVector(t) = ∂Identity/∂Load + ∂Synchrony/∂t
 
 Determines deviation from identity-consistent evolution paths.
 
-  Tensor Compatibility Metric
+ Tensor Compatibility Metric
 
 TensorCompatibility = ΠTensorᵢ.InvariantsSatisfied)
 
@@ -7159,7 +7161,7 @@ Ensures transformation admissibility across cross-layer propagation
 
 pathways.
 
-  Causal Mode Stability Metric
+ Causal Mode Stability Metric
 
 CausalStability  ModeValidity  PhaseAlignment  CoherencePreservation
 
@@ -7174,7 +7176,7 @@ families.
 Each of URKʼs seven layers includes its own measurement space derived from
 ULKʼs law families and tensor invariants.
 
-  Physical Layer Metrics
+ Physical Layer Metrics
 
 decoherence gradients
 
@@ -7184,7 +7186,7 @@ spatial–temporal continuity
 
 entropy-bound information propagation
 
-  Biological Layer Metrics
+ Biological Layer Metrics
 
 metabolic load
 
@@ -7197,7 +7199,7 @@ neural synchrony
 
 sensory fidelity
 
-  Cognitive Layer Metrics
+ Cognitive Layer Metrics
 
 contradiction accumulation rate
 
@@ -7207,7 +7209,7 @@ inference stability coefficient
 
 identity-consistent reasoning
 
-  Emotional Layer Metrics
+ Emotional Layer Metrics
 
 affective ratio functions
 
@@ -7217,7 +7219,7 @@ threat-modulation gradients
 
 emotional-load accumulation
 
-  Behavioural Layer Metrics
+ Behavioural Layer Metrics
 
 sequential integrity index
 
@@ -7227,7 +7229,7 @@ risk-modulation states
 
 behavioural drift vectors
 
-  Social Layer Metrics
+ Social Layer Metrics
 
 trust-formation velocity
 
@@ -7237,7 +7239,7 @@ power-gradient tensors
 
 fragmentation potential
 
-  Planetary Layer Metrics
+ Planetary Layer Metrics
 
 biosphere load
 
@@ -7980,26 +7982,26 @@ A state transformation at time t is valid only when all four deterministic const
 
 are satisfied:
 
-  IdentityContinuity  IdentityThreshold
+ IdentityContinuity  IdentityThreshold
 
 Identity continuity measures whether the organismʼs internal reference pattern
 
 is preserved through time. Identity discontinuity indicates fragmentation and
 invalidates transformation validity.
 
-  Load(t)  Capacity(t)
+ Load(t)  Capacity(t)
 
 Load must never exceed capacity. A violation produces deterministic drift,
 collapse, or shutdown in the affected domain.
 
-  TensorCompatibility  TRUE
+ TensorCompatibility  TRUE
 
 All cross-domain propagation must follow the pre-defined tensor coupling
 rules. If a tensor-mediated transformation is not admissible, the system rejects
 
 the transformation.
 
-  SynchronyAcrossDomains  SynchronyThreshold
+ SynchronyAcrossDomains  SynchronyThreshold
 
 Synchrony ensures NB, NE, SI, and BE are aligned. Synchrony failure predicts
 fragmentation, behavioural incoherence, emotional instability, and cognitive
@@ -8185,20 +8187,20 @@ For any UBI domain D(t) ∈ NBI, NEI, SI, BEI, an operator O applied to a 
 state S(t) is admissible only when all of the following conditions are
 simultaneously satisfied:
 
-  BoundaryCompliance(D, O, t)  TRUE
+ BoundaryCompliance(D, O, t)  TRUE
 
 Structural, physiological, identity, and temporal boundaries must permit the
 
 transformation. Boundary violations trigger instantaneous drift, forced
 recovery, or collapse depending on severity.
 
-  IdentityContinuity(D, O, t)  IdentityThreshold
+ IdentityContinuity(D, O, t)  IdentityThreshold
 
 The transformation must preserve identity-layer consistency. Any operator
 that reduces identity continuity below threshold becomes a Silent Collapse
 trigger.
 
-  TensorCompatibility(D, O, t)  TRUE
+ TensorCompatibility(D, O, t)  TRUE
 
 The transformation must be compatible with the fourteen URK tensors,
 particularly T₆ Identity Tensor), T₇ Capacity–Load Tensor), T₉ Cross-Domain
@@ -8206,7 +8208,7 @@ Propagation Tensor), and T₁₀ Synchrony Tensor). Tensor mismatch produces
 
 invalid propagation states.
 
-  LoadCapacityConstraint: Load_D(t)  Capacity_D(t)
+ LoadCapacityConstraint: Load_D(t)  Capacity_D(t)
 
 Biological transformation is admissible only when load does not exceed
 
@@ -8214,7 +8216,7 @@ capacity. Operator application under overload conditions becomes collapse-
 inducing.
 
 DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO154
-  SynchronyCrossDomain  SynchronyThreshold
+ SynchronyCrossDomain  SynchronyThreshold
 
 The transformation must maintain synchrony across NBI, NEI, SI, and BEI. If
 
@@ -8611,28 +8613,28 @@ and remains within allowable load–capacity limits.
 DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO162
 The twelve boundaries are:
 
-  Structural Boundary
+ Structural Boundary
 
 Governs musculoskeletal alignment, joint integrity, fascial tension, mechanical
 load distribution, and structural coherence. Structural deviation alters SI
 
 capacity and propagates into NEI and BEI through tensor-coupled pathways.
 
-  Identity Boundary
+ Identity Boundary
 
 Governs biological and cognitive continuity, ensuring that state transitions do
 
 not violate identity anchoring. Identity boundary breaches generate silent
 collapse, emotional implosion, or cognitive fragmentation.
 
-  Temporal Boundary
+ Temporal Boundary
 
 Governs the allowable rate of biological change. Rapid shifts in hormonal
 ratios, neural firing patterns, emotional intensity, or somatic tension can
 
 exceed temporal boundary coefficients and trigger collapse.
 
-  Causal Boundary
+ Causal Boundary
 
 Governs deterministic causal propagation within biological systems. Only
 
@@ -8641,19 +8643,19 @@ violations create drift or collapse through contradictory biological–cognitive
 
 states.
 
-  Sensory Boundary
+ Sensory Boundary
 
 Governs the threshold at which sensory input transitions from signal to
 overload. Sensory saturation elevates NBI load, amplifies NEI gradients,
 destabilises SI, and disrupts BEI oscillatory coherence.
 
-  Cognitive Boundary
+ Cognitive Boundary
 
 Governs working-memory load, pattern stability, contradiction accumulation,
 and inference coherence. Cognitive overload propagates backward into NEI
 (emotional instability) and SI (somatic tightening).
 
-  Emotional Boundary
+ Emotional Boundary
 
 Governs affective intensities, contraction thresholds, and limbic activation.
 Emotional overload compresses cognitive capacity, destabilises biological
@@ -8661,33 +8663,33 @@ Emotional overload compresses cognitive capacity, destabilises biological
 ratios, and produces somatic contraction.
 
 DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO163
-  Behavioural Boundary
+ Behavioural Boundary
 
 Governs action-sequence stability, risk modulation, motor precision, and
 
 behavioural fragmentation. Breaches generate chaotic output, reinforcing drift
 across all domains.
 
-  Somatic Boundary
+ Somatic Boundary
 
 Governs proprioception, interoception, mechanical equilibrium, and trauma
 
 pattern activation. Somatic overload destabilises NEI and BEI through
 mechanical–electromagnetic coupling.
 
-  Physiological Boundary
+ Physiological Boundary
 
 Governs metabolic equilibrium, homeostatic parameters, oxygenation, glucose
 availability, immune load, and autonomic balance. Every UBI domain depends
 on physiological boundary integrity.
 
-  Relational Boundary
+ Relational Boundary
 
 Governs dyadic and group interaction load. Social perturbations propagate
 
 through emotional tensors, modulating NEI, SI, and BEI states.
 
-  Planetary Boundary
+ Planetary Boundary
 
 Governs ecological, environmental, and civilisational conditions. Macro-scale
 
@@ -8714,19 +8716,19 @@ DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO164
 If the inequality fails, the boundary is breached, and the system enters one of
 three deterministic outcomes:
 
-  Boundary-Induced Drift
+ Boundary-Induced Drift
 
 The transformation is partially admissible but misaligned; the system enters
 
 reversible deviation.
 
-  Boundary Compression
+ Boundary Compression
 
 Capacity collapses faster than load; the system is forced into a compensatory
 
 mode.
 
-  Boundary-Induced Collapse
+ Boundary-Induced Collapse
 
 Load overwhelms the domain; collapse propagates to other domains through
 tensor pathways.
@@ -8740,11 +8742,11 @@ state transitions across the four domains.
 
 UBI defines three deterministic collapse classes:
 
-  Acute Collapse – sudden overload
+ Acute Collapse – sudden overload
 
-  Distributed Collapse – accumulated drift
+ Distributed Collapse – accumulated drift
 
-  Silent Collapse – identity discontinuity
+ Silent Collapse – identity discontinuity
 
 Drift is defined as:
 
@@ -8752,11 +8754,11 @@ Drift(t)  ChangeInStateOverTime * IdentityDeviation
 
 Recovery has three modes:
 
-  Realignment (restoring baseline)
+ Realignment (restoring baseline)
 
-  Compensatory (cross-domain load redistribution)
+ Compensatory (cross-domain load redistribution)
 
-  Regenerative (formation of new capacity)
+ Regenerative (formation of new capacity)
 
 Recovery is valid only when synchrony is restored across NB, NE, SI, and BE.
 
@@ -8795,18 +8797,18 @@ required to avoid silent collapse or multi-domain drift. If identity continuity 
 below threshold, the system encounters one of the following deterministic
 outcomes:
 
-  Identity Drift
+ Identity Drift
 
 Gradual deviation from previously stable pattern trajectories, reversible under
 synchrony rebalancing and domain-specific recovery operations.
 
-  Identity Compression
+ Identity Compression
 
 Forced contraction of pattern space due to cognitive overload, emotional
 
 overactivation, somatic contraction, or electromagnetic desynchronisation.
 
-  Identity Collapse
+ Identity Collapse
 
 Pattern inversion, loss of structural continuity, or abrupt discontinuity across
 any UBI domain. Identity collapse is a silent-collapse class because it occurs
@@ -8985,7 +8987,7 @@ URKʼs collapse–recovery equations.
 
 The deterministic nature of UBI derives from five structural properties:
 
-  Biological Determinism
+ Biological Determinism
 
 All UBI variables correspond to measurable physiological quantities: metabolic
 ratios, autonomic tone, inflammatory markers, oscillatory coherence, affective
@@ -8993,7 +8995,7 @@ ratios, proprioceptive integrity, and electrophysiological patterns. No domain
 
 relies on unmeasurable constructs.
 
-  Identity Anchoring
+ Identity Anchoring
 
 Identity functions as the global stabiliser. All transformations must preserve
 identity continuity across time. Emotional, cognitive, somatic, or
@@ -9001,7 +9003,7 @@ identity continuity across time. Emotional, cognitive, somatic, or
 electromagnetic changes that violate identity requirements immediately trigger
 silent collapse or compensatory correction.
 
-  Synchrony Enforcement
+ Synchrony Enforcement
 
 The organism operates as a multi-system computational unit. Cross-domain
 
@@ -9009,7 +9011,7 @@ alignment is enforced through synchrony equations, ensuring no
 transformation in one domain can destabilise another without deterministic
 propagation rules.
 
-  Boundary-Governed Transformation
+ Boundary-Governed Transformation
 
 All transitions occur within boundary-defined constraints—structural,
 temporal, causal, physiological, and relational. Boundary violations do not
@@ -9017,7 +9019,7 @@ temporal, causal, physiological, and relational. Boundary violations do not
 create random outcomes; they deterministically produce drift vectors or
 collapse pathways.
 
-  Tensor-Defined Propagation
+ Tensor-Defined Propagation
 
 The fourteen tensors connecting NB, NE, SI, and BE define exactly how state
 
@@ -9087,7 +9089,7 @@ coherence.
 NBI comprises seven core subsystems, each defined by explicit invariants and
 governed by deterministic transformation rules:
 
-  Metabolic Equilibrium
+ Metabolic Equilibrium
 
  ATP production and consumption ratios
 
@@ -9097,7 +9099,7 @@ governed by deterministic transformation rules:
 
 – inflammatory load equations
 
-  Neurochemical Ratio Invariants
+ Neurochemical Ratio Invariants
 
 – dopamine–serotonin–noradrenaline balance
 
@@ -9105,7 +9107,7 @@ governed by deterministic transformation rules:
 
 – excitatory–inhibitory neurotransmission ratios (glutamate/GABA
 
-  Autonomic Symmetry
+ Autonomic Symmetry
 
 – sympathetic/parasympathetic ratio
 
@@ -9115,7 +9117,7 @@ governed by deterministic transformation rules:
 
 – autonomic collapse thresholds
 
-  Neural Oscillation Stability
+ Neural Oscillation Stability
 
 – cross-frequency coupling
 
@@ -9126,7 +9128,7 @@ governed by deterministic transformation rules:
 – large-scale network coherence
 
 DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO172
-  Thalamic Gating and Sensory Fidelity
+ Thalamic Gating and Sensory Fidelity
 
 – signal-to-noise ratio SNR
 
@@ -9136,7 +9138,7 @@ DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO172
 
 – overload curves
 
-  Endocrine Integration
+ Endocrine Integration
 
 – hormonal timing dynamics
 
@@ -9146,7 +9148,7 @@ DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO172
 
 – capacity modulation via hormonal drift
 
-  Inflammatory–Immune Coupling
+ Inflammatory–Immune Coupling
 
 – cytokine load
 
@@ -9219,24 +9221,24 @@ Load_NB(t)  Capacity_NB(t)
 
 Collapse_NB manifests through:
 
-  Autonomic Crash
+ Autonomic Crash
 
 sympathetic overactivation → parasympathetic shutdown → loss of regulation
 
-  Metabolic Insolvency
+ Metabolic Insolvency
 
 ATP deficit → mitochondrial falloff → systemic functional degradation
 
-  Neurochemical Destabilisation
+ Neurochemical Destabilisation
 
 monoamine ratio inversion → cognitive/emotional destabilisation
 
 DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO174
-  Sensory Gating Failure
+ Sensory Gating Failure
 
 SNR collapse → sensory overload → cognitive fragmentation
 
-  Oscillatory Desynchronisation
+ Oscillatory Desynchronisation
 
 phase-lock breakdown → conduction disruption → network dissociation
 
@@ -9255,7 +9257,7 @@ BoundaryCompliance  TRUE
 
 Recovery occurs in three modes:
 
-  Realignment Recovery
+ Realignment Recovery
 
 – autonomic rebalancing
 
@@ -9267,7 +9269,7 @@ Recovery occurs in three modes:
 
 – low-intensity oscillatory stabilisation
 
-  Compensatory Recovery
+ Compensatory Recovery
 
 – cross-domain delegation of regulatory load
 
@@ -9277,7 +9279,7 @@ Recovery occurs in three modes:
 
 – coherence borrowing across BEI channels
 
-  Regenerative Recovery
+ Regenerative Recovery
 
 – mitochondrial upregulation
 
@@ -9326,11 +9328,11 @@ This equation defines emotional state as the interaction of three measurable
 
 variables:
 
-  Valence(t): positive/negative appraisal ratios
+ Valence(t): positive/negative appraisal ratios
 
-  Intensity(t): amplitude of limbic activation
+ Intensity(t): amplitude of limbic activation
 
-  LoadModifier(t): amplification or damping factor imposed by biological load
+ LoadModifier(t): amplification or damping factor imposed by biological load
 
 This system determines all affective transitions, including:
 
@@ -9416,27 +9418,27 @@ Load_NE(t)  Capacity_NE(t)
 
 Collapse_NE manifests in deterministic patterns:
 
-  Affective Flooding
+ Affective Flooding
 
 excessive emotional amplitude → cognitive override → behavioural
 dysregulation
 
-  Limbic Overdrive
+ Limbic Overdrive
 
 hyperactivation of threat circuits → contraction lock → loss of rational
 inference
 
-  Fear-Lock Loops
+ Fear-Lock Loops
 
 repeating contraction cycles → no expansion pathways → identity
 
 compression
 
-  Rage Implosion
+ Rage Implosion
 
 high-intensity affect → collapse inward → emotional fragmentation
 
-  Emotional Nullification
+ Emotional Nullification
 
 DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO178
 complete shutdown of affective computation → identity silence → drift
@@ -9457,7 +9459,7 @@ BoundaryCompliance  TRUE
 
 Recovery occurs in three deterministic modes:
 
-  Ratio Neutralisation
+ Ratio Neutralisation
 
 – recalibration of Valence/Intensity ratios
 
@@ -9465,7 +9467,7 @@ Recovery occurs in three deterministic modes:
 
 – restoration of affective symmetry
 
-  Somatic Modulation
+ Somatic Modulation
 
 – grounding oscillatory and proprioceptive systems
 
@@ -9473,7 +9475,7 @@ Recovery occurs in three deterministic modes:
 
 – restoring mechanical–affective coherence
 
-  Identity Re-Stabilisation
+ Identity Re-Stabilisation
 
 – reinforcing identity patterns disrupted during emotional overload
 
@@ -9621,28 +9623,28 @@ Load_SI(t)  Capacity_SI(t)
 
 Collapse manifests through deterministic patterns:
 
-  Fascial Contraction Locks
+ Fascial Contraction Locks
 
 High-tension fascial bands restrict movement, breathing, and emotional
 amplitude; propagate contraction into NEI.
 
-  Proprioceptive Desynchronisation
+ Proprioceptive Desynchronisation
 
 Mismatch between internal position sense and external motor output;
 destabilises cognitive prediction and behavioural sequencing.
 
-  Breath–Motor Collapse
+ Breath–Motor Collapse
 
 Shallow or dysregulated respiration leads to autonomic imbalance, emotional
 amplification, and oscillatory incoherence.
 
-  Structural Fragmentation
+ Structural Fragmentation
 
 Differential tension between body segments produces disintegration of
 
 movement patterns and identity–body dissociation.
 
-  Trauma Reactivation
+ Trauma Reactivation
 
 DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO182
 Mechanical triggers activate stored neural–somatic trauma loops, causing
@@ -9665,28 +9667,28 @@ Load_SI  Capacity_SI
 
 Recovery mechanics occur through three deterministic pathways:
 
-  Proprioceptive Realignment
+ Proprioceptive Realignment
 
 Recalibration of sensory–motor accuracy; restoration of positional coherence;
 reduction of cognitive noise.
 
-  Fascial Decompression
+ Fascial Decompression
 
 Release of chronic tension patterns; rehydration and elasticity restoration;
 reduction of emotional amplification from mechanical distortions.
 
-  Respiratory–Structural Integration
+ Respiratory–Structural Integration
 
 Re-establishing breath–movement synchrony; increasing vagal tone;
 stabilising autonomic balance and affective amplitude.
 
-  Structural–Identity Integration
+ Structural–Identity Integration
 
 Restoring connection between somatic pattern and identity representation;
 
 preventing trauma recurrence; stabilising NEI and NBI.
 
-  Somatic–Emotional Synchrony
+ Somatic–Emotional Synchrony
 
 Alignment of movement, breath, and affective cycles; reduction of limbic
 oscillation; increase in behavioural coherence.
@@ -9861,28 +9863,28 @@ Load_BE(t)  Capacity_BE(t)
 
 Collapse manifests as:
 
-  Oscillatory Fragmentation
+ Oscillatory Fragmentation
 
 EEG bands decouple, multi-frequency alignment collapses, large-scale
 networks desynchronise.
 
-  Conduction Breakdown
+ Conduction Breakdown
 
 Reduced conduction velocity, erratic ion-channel behaviour, refractory-cycle
 
 instability.
 
-  Decoherence-like Electromagnetic Drift
+ Decoherence-like Electromagnetic Drift
 
 Loss of phase coherence replicating quantum-like decoherence at a biological
 scale.
 
-  Signal Noise Amplification
+ Signal Noise Amplification
 
 Excessive electrical noise from autonomic imbalance or emotional volatility
 saturates conduction pathways.
 
-  Electromagnetic Identity Disruption
+ Electromagnetic Identity Disruption
 
 Identity-level oscillatory signatures degrade, triggering silent collapse in
 
@@ -9905,28 +9907,28 @@ PhaseStability_Restore  TRUE
 
 Recovery mechanics include:
 
-  Phase Re-Alignment
+ Phase Re-Alignment
 
 Restoring coherence between cortical, subcortical, cardiac, respiratory, and
 
 somatic oscillations.
 
-  Conduction Regularisation
+ Conduction Regularisation
 
 Re-establishing stable conduction velocity and ion-channel consistency.
 
-  Bioelectric Re-Stabilisation
+ Bioelectric Re-Stabilisation
 
 Reducing electrical noise, re-establishing pattern stability, restoring
 electrophysiological integrity.
 
-  Electromagnetic Identity Reintegration
+ Electromagnetic Identity Reintegration
 
 Reconstructing identity-linked oscillatory patterns to restore cognitive,
 
 emotional, and somatic alignment.
 
-  Oscillatory–Autonomic Coupling Restoration
+ Oscillatory–Autonomic Coupling Restoration
 
 Stabilising vagal tone HRV, respiratory entrainment, cardiac variability, and
 phase-locking.
@@ -10088,15 +10090,15 @@ Synchrony(NB, NE, SI, BE  TRUE
 
 iff the following conditions hold simultaneously:
 
-  PatternEquivalence(NB(t), NE(t), SI(t), BE(t))  PatternThreshold
+ PatternEquivalence(NB(t), NE(t), SI(t), BE(t))  PatternThreshold
 
-  OperatorAlignment across the four domains remains internally consistent
+ OperatorAlignment across the four domains remains internally consistent
 
-  Load(t)  Capacity(t) in all domains
+ Load(t)  Capacity(t) in all domains
 
-  IdentityContinuity  IdentityThreshold across all transformations
+ IdentityContinuity  IdentityThreshold across all transformations
 
-  TensorCompatibility across all domain tensors  TRUE
+ TensorCompatibility across all domain tensors  TRUE
 
 Synchrony therefore constitutes a multi-constraint equilibrium across temporal,
 physiological, emotional, somatic, and electromagnetic layers.
@@ -10118,29 +10120,29 @@ Propagation_AB  Threshold_B
 
 Seven tensors are dominant in UBI cross-domain propagation:
 
-  Sensory Tensor T₁): conveys external input into NB, NE, SI, BE simultaneously.
+ Sensory Tensor T₁): conveys external input into NB, NE, SI, BE simultaneously.
 
-  Somatic Tensor T₂): propagates structural alignment into emotional, cognitive,
+ Somatic Tensor T₂): propagates structural alignment into emotional, cognitive,
 
 and electromagnetic coherence.
 
-  Emotional Tensor T₃): maps affective ratios into biological load, somatic
+ Emotional Tensor T₃): maps affective ratios into biological load, somatic
 
 tension, and oscillatory distortion.
 
-  Cognitive Tensor T₄): modulates emotional ratio stability and somatic
+ Cognitive Tensor T₄): modulates emotional ratio stability and somatic
 
 precision through attentional gating.
 
-  Behavioural Tensor T₅): links internal biological states to action-sequence
+ Behavioural Tensor T₅): links internal biological states to action-sequence
 
 selection.
 
-  Identity Tensor T₆): maintains cross-domain identity continuity under all
+ Identity Tensor T₆): maintains cross-domain identity continuity under all
 
 transformations.
 
-  Bioelectromagnetic Tensor T₈): synchronises oscillatory coherence across
+ Bioelectromagnetic Tensor T₈): synchronises oscillatory coherence across
 
 NB, NE, SI via conduction and phase-locking.
 
@@ -10237,19 +10239,19 @@ Capacity(t))
 
 Components include:
 
-  Biological Stability Index NBI
+ Biological Stability Index NBI
 
-  Emotional Alignment Index NEI
+ Emotional Alignment Index NEI
 
-  Somatic Grounding Index SI
+ Somatic Grounding Index SI
 
-  Electromagnetic Coherence Index BEI
+ Electromagnetic Coherence Index BEI
 
-  Identity Continuity Score
+ Identity Continuity Score
 
-  Multi-Domain Synchrony Score
+ Multi-Domain Synchrony Score
 
-  Load–Capacity Stability Score
+ Load–Capacity Stability Score
 
 Measurement is deterministic, not statistical. The UBI Score predicts:
 
@@ -10894,7 +10896,7 @@ intelligence architecture that unifies previously fragmented domains into a sing
 computationally sealed system.
 
 5. Canon III — AMOS Universe OS & Planetary–
-National Systems
+   National Systems
 
 5.1 Canon Introduction
 
@@ -11304,17 +11306,17 @@ Synchrony(t))
 
 A national transformation is admissible only when:
 
-  Load(t)  Capacity(t) across all macro-systems
+ Load(t)  Capacity(t) across all macro-systems
 
-  IdentityContinuity  IdentityThreshold_National
+ IdentityContinuity  IdentityThreshold_National
 
-  BoundaryCompliance  TRUE for institutional, social, ecological, economic,
+ BoundaryCompliance  TRUE for institutional, social, ecological, economic,
 
 and geopolitical boundaries
 
-  Synchrony(NationalLayers)  S_threshold_National
+ Synchrony(NationalLayers)  S_threshold_National
 
-  TensorCompatibility  TRUE across economic, institutional, demographic,
+ TensorCompatibility  TRUE across economic, institutional, demographic,
 
 ecological, and technological tensors
 
@@ -11713,7 +11715,7 @@ population-level fracturing
 
 SOA formalises cancer into three deterministic evolutionary regimes:
 
-  Stable State S-state)
+ Stable State S-state)
 
 tumour population in equilibrium with tissue capacity
 
@@ -11725,7 +11727,7 @@ high predictability
 
 metastasis risk low because identity remains localised
 
-  Operational State O-state)
+ Operational State O-state)
 
 tumour actively growing without catastrophic constraint violation
 
@@ -11737,7 +11739,7 @@ treatment vulnerability highest
 
 small selective shifts influence long-term trajectory
 
-  Adaptive State A-state)
+ Adaptive State A-state)
 
 tumour under high selective pressure
 
@@ -11940,20 +11942,20 @@ equations into the entire mobility ecosystem of a nation.
 The UniPower EV OS is built on seven deterministic layers derived from AMOS and
 URK
 
-  physical–infrastructure layer (roads, chargers, grid nodes)
+ physical–infrastructure layer (roads, chargers, grid nodes)
 
-  vehicular–mechanical layer (battery physics, thermal maps, wear profiles)
+ vehicular–mechanical layer (battery physics, thermal maps, wear profiles)
 
 DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO228
-  electromobility layer (charging, routing, power flows)
+ electromobility layer (charging, routing, power flows)
 
-  operational layer (dispatch, fleet control, scheduling)
+ operational layer (dispatch, fleet control, scheduling)
 
-  behavioural–driver layer (risk, pattern, compliance)
+ behavioural–driver layer (risk, pattern, compliance)
 
-  organisational–economic layer (fleet economics, incentives, demand)
+ organisational–economic layer (fleet economics, incentives, demand)
 
-  regulatory–national layer (policy boundaries, compliance rules)
+ regulatory–national layer (policy boundaries, compliance rules)
 
 Each layer is governed by:
 
@@ -12712,7 +12714,7 @@ civilisational trajectories, and planetary feedback systems. Every subsystem,
 regardless of scale, must satisfy the same eight invariants to remain structurally
 admissible.
 
-  Identity Continuity
+ Identity Continuity
 
 DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO244
 IdentityContinuity = ΔPattern/Δt defines the degree to which a system
@@ -12725,7 +12727,7 @@ of the systemʼs scale. This invariant ensures that identity-preserving
 transformations are lawful from quantum identity constraints to national
 identity architectures.
 
-  Load–Capacity Inequalities
+ Load–Capacity Inequalities
 
 Every system must satisfy Load(t)  Capacity(t) across transformations. This
 
@@ -12738,7 +12740,7 @@ a universal mathematical rule for biological burnout, emotional breakdown,
 organisational fragmentation, economic recession, civilisational decline, and
 ecological collapse.
 
-  Tensor Compatibility
+ Tensor Compatibility
 
 All transformations must satisfy TensorCompatibility across fourteen universal
 tensors that map cross-domain propagation. Tensor constraints ensure lawful
@@ -12749,7 +12751,7 @@ trajectories, and between civilisational drift and planetary feedback cycles.
 Tensor compatibility guarantees that micro-scale effects propagate lawfully
 into macro-scale systems and vice versa.
 
-  Operator Coherence
+ Operator Coherence
 
 The seven universal operators Initialise, Load, Threshold, Collapse, Drift,
 Recovery, Synchrony) must operate coherently across all domains. Operator-
@@ -12761,7 +12763,7 @@ layer constraints. Operator coherence enables identical collapse–recovery
 mechanics from neurons to nations.
 
 DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO245
-  Boundary Compliance
+ Boundary Compliance
 
 All transformations must satisfy the twelve boundary classes that restrict
 
@@ -12773,7 +12775,7 @@ emotional responses, organisations, regulatory systems, and ecological
 
 behaviour.
 
-  Cross-Layer Synchrony
+ Cross-Layer Synchrony
 
 Synchrony(L₁…L₇)  TRUE governs alignment across the seven URK
 computational layers. Synchrony failure results in emotional volatility, cognitive
@@ -12783,7 +12785,7 @@ ensures that the same structural rules govern coherence from biological
 
 systems to planetary systems.
 
-  Temporal Stability Seven Cycles)
+ Temporal Stability Seven Cycles)
 
 The Seven Cycles framework governs deterministic temporal evolution. All
 
@@ -12793,7 +12795,7 @@ biological growth, emotional evolution, organisational development,
 civilisational trajectories, and long-horizon planetary dynamics follow identical
 temporal laws.
 
-  Quantum Causal Alignment QCLA
+ Quantum Causal Alignment QCLA
 
 All transformations must satisfy QCLAʼs twelve causal modes, twenty-eight
 
@@ -12829,7 +12831,7 @@ institutional, civilisational, and planetary systems. They ensure that lawful
 transformations at one scale remain lawful at all scales, producing a single
 deterministic architecture.
 
-  Identity continuity
+ Identity continuity
 
 IdentityContinuity = ΔPattern/Δt must remain above threshold across all
 transformations. This invariant governs persistence of biological identity,
@@ -12838,7 +12840,7 @@ emotional stability, cognitive structure, organisational cohesion, institutional
 continuity, civilisational integrity, and planetary trajectory coherence. Identity
 discontinuity triggers drift or collapse at any scale.
 
-  Load–capacity inequalities
+ Load–capacity inequalities
 
 Every system must satisfy Load(t)  Capacity(t) across all transformations.
 The same inequality governs metabolic stress, emotional overload, somatic
@@ -12846,7 +12848,7 @@ strain, cognitive saturation, organisational burden, institutional instability,
 economic fragility, and planetary ecological load. Collapse emerges
 universally when this boundary is breached.
 
-  Tensor compatibility
+ Tensor compatibility
 
 All cross-domain transformations must satisfy TensorCompatibility across
 
@@ -12856,7 +12858,7 @@ institutions and nations, and between civilisations and planetary systems.
 Tensor violations produce unlawful propagation or collapse.
 
 DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO247
-  Operator coherence
+ Operator coherence
 
 The seven universal operators Initialise, Load, Threshold, Collapse, Drift,
 
@@ -12865,7 +12867,7 @@ admissible only when operator sequences remain coherent under identity,
 boundary, load–capacity, and tensor constraints. Operator coherence unifies
 collapse–recovery behaviour across scales.
 
-  Boundary compliance
+ Boundary compliance
 
 All transformations must satisfy twelve boundary classes: structural, identity,
 
@@ -12873,7 +12875,7 @@ temporal, causal, sensory, cognitive, emotional, behavioural, relational,
 institutional, ecological, planetary. A transformation violating any boundary
 induces deterministic drift, collapse, or forced recovery.
 
-  Cross-layer synchrony
+ Cross-layer synchrony
 
 Synchrony across URKʼs seven computational layers must remain above
 threshold. Synchrony failure produces fragmentation at the biological,
@@ -12881,14 +12883,14 @@ cognitive, organisational, institutional, civilisational, or planetary scale
 depending on the location of the mismatch. Synchrony is the primary
 determinant of stability across systems.
 
-  Temporal stability Seven Cycles)
+ Temporal stability Seven Cycles)
 
 All systems must evolve according to the Seven Cycles temporal architecture,
 respecting cycle-specific sub-stages, transitions, drift vectors, collapse
 pressures, and recovery potentials. Temporal invariance ensures identical
 evolution logic from neural development to civilisational trajectories.
 
-  Quantum causal alignment QCLA
+ Quantum causal alignment QCLA
 
 All transformations must obey QCLAʼs quantum causal modes, transition laws,
 entanglement operators, and decoherence rules. This ensures that macro-
@@ -13571,30 +13573,30 @@ All frameworks, laws, kernels, tensors, equations, operators, and system
 architectures were derived using first-principles analysis. The method proceeds
 through:
 
-  identification of irreducible primitives across physics, biology, cognition,
+ identification of irreducible primitives across physics, biology, cognition,
 
 behaviour, economics, and planetary systems
 
-  extraction of cross-domain invariants through pattern equivalence analysis
+ extraction of cross-domain invariants through pattern equivalence analysis
 
-  construction of deterministic transformation rules that remain valid across all
+ construction of deterministic transformation rules that remain valid across all
 
 domains
 
 DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO262
-  formulation of identity, boundary, load–capacity, synchrony, and tensor
+ formulation of identity, boundary, load–capacity, synchrony, and tensor
 
 equations
 
-  integration of primitives into canonical law families ULK and computational
+ integration of primitives into canonical law families ULK and computational
 
 layers URK
 
-  elimination of abstractions, metaphors, probabilistic reasoning, and domain-
+ elimination of abstractions, metaphors, probabilistic reasoning, and domain-
 
 dependent terminology
 
-  enforcement of deterministic closure at every step of derivation
+ enforcement of deterministic closure at every step of derivation
 
 All components of the canon ultimately reduce to mathematically defined
 
@@ -13643,15 +13645,15 @@ synchrony thresholds
 
 Patterns are adopted only if they meet five conditions:
 
-  invariance across at least three unrelated scientific domains
+ invariance across at least three unrelated scientific domains
 
-  compatibility with URK operator sequences
+ compatibility with URK operator sequences
 
-  validity under ULK boundary and identity laws
+ validity under ULK boundary and identity laws
 
-  tensor-consistent propagation across multiple scales
+ tensor-consistent propagation across multiple scales
 
-  mathematical reducibility to first principles
+ mathematical reducibility to first principles
 
 This ensures that all cross-domain laws remain structurally grounded rather than
 analogical or metaphorical.
@@ -13662,40 +13664,40 @@ The entire canon is governed by the Structural Integrity Strategy, which ensures
 that all laws, equations, and architectures satisfy deterministic closure. Internal
 proof is conducted through:
 
-  identity-continuity validation
+ identity-continuity validation
 
 IdentityContinuity = ΔPattern/Δt is tested across all transformations and
 layers.
 
-  boundary compliance proof
+ boundary compliance proof
 
 Every law must satisfy Load  Capacity  BoundaryCoefficient.
 
-  synchrony validation
+ synchrony validation
 
 Synchrony(L1…L7 ensures multi-layer alignment across biological, cognitive,
 behavioural, institutional, and planetary systems.
 
-  operator coherence proof
+ operator coherence proof
 
 All transformations must follow admissible operator sequences Initialise 
 Load  Threshold  Collapse/Drift  Recovery  Synchrony).
 
-  tensor compatibility proof
+ tensor compatibility proof
 
 All cross-domain interactions must satisfy tensor-governed propagation rules.
 
 DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO264
-  causal stability under quantum constraints
+ causal stability under quantum constraints
 
 QCLAʼs quantum causal modes are validated for macro-level consistency.
 
-  matrix integrity proofs
+ matrix integrity proofs
 
 The 1919 domain-invariant matrix and 77 operator-layer matrix are tested
 for contradiction-free propagation.
 
-  temporal coherence checks
+ temporal coherence checks
 
 Seven Cycles evolution obeys identity, boundary, and synchrony constraints
 across long horizons.
@@ -13865,7 +13867,7 @@ system.
 
 Reproducibility is ensured through a multi-layer structure:
 
-  Explicit Mathematical Equations
+ Explicit Mathematical Equations
 
 All behaviour—biological, cognitive, emotional, somatic, organisational,
 technological, civilisational, planetary—is expressed through equations for
@@ -13875,7 +13877,7 @@ causal mode validity, synchrony thresholds, and collapse–recovery dynamics.
 These equations can be independently implemented, simulated, stress-tested,
 and empirically verified.
 
-  Deterministic Logical Rules
+ Deterministic Logical Rules
 
 Every transformation obeys URK and ULK invariants. Because all logic is
 deterministic, repeating the same conditions always yields the same
@@ -13884,14 +13886,14 @@ DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO268
 transformation outcome. No randomness, heuristics, or probabilistic inference
 is used anywhere in the canon.
 
-  Law Families with Full Derivation Chains
+ Law Families with Full Derivation Chains
 
 Each law is not only stated but derivable from first principles through ULKʼs
 law families. This means any researcher can reconstruct the entire law corpus
 400,000800,000 units) by following the same derivation grammar,
 ensuring complete reproducibility of the canonical structure.
 
-  Operator-Governed Transformation Sequences
+ Operator-Governed Transformation Sequences
 
 All changes follow strictly defined operator sequences Initialise, Load,
 Threshold, Collapse, Drift, Recovery, Synchrony). These sequences function
@@ -13899,14 +13901,14 @@ Threshold, Collapse, Drift, Recovery, Synchrony). These sequences function
 like machine-level instructions and are fully reproducible across domains,
 scales, and contexts.
 
-  Tensor-Driven Propagation Pathways
+ Tensor-Driven Propagation Pathways
 
 The fourteen universal tensors define how changes propagate through
 physical, biological, cognitive, behavioural, organisational, technological, and
 planetary systems. Tensor pathways are deterministic and numerically
 modelled, allowing reproducible simulations of cross-domain effects.
 
-  Identity and Boundary Constraints
+ Identity and Boundary Constraints
 
 Identity continuity and boundary compliance equations constrain all
 transformations. The same invariants that govern neural behaviour govern
@@ -13914,7 +13916,7 @@ transformations. The same invariants that govern neural behaviour govern
 institutional stability, market oscillations, and planetary feedback cycles. This
 ensures reproducible outcomes across independent implementations.
 
-  Measurement Protocols for UBI, PSI, SOA, and AMOS
+ Measurement Protocols for UBI, PSI, SOA, and AMOS
 
 Each subsystem includes explicit measurement frameworks:
 
@@ -13934,33 +13936,33 @@ Falsifiability is inherently built into the architecture because every law relat
 measurable variables and observable system behaviour. The system is falsifiable
 in several ways:
 
-  Boundary Violation
+ Boundary Violation
 
 If empirical data shows Load(t)  Capacity(t) but collapse does not occur, the
 collapse law for that domain must be refined or disproven.
 
-  Identity Discontinuity Deviations
+ Identity Discontinuity Deviations
 
 If IdentityContinuity drops below threshold without triggering drift or collapse,
 identity equations must be updated.
 
-  Synchrony Failure Cases
+ Synchrony Failure Cases
 
 If a system remains stable with Synchrony  S_threshold, the synchrony law
 requires revision.
 
-  Tensor Propagation Failures
+ Tensor Propagation Failures
 
 If cross-domain propagation does not follow Impact  CouplingCoefficient
 relationships, tensor coefficients must be recalibrated.
 
-  Evolutionary or Civilisational Mismatch
+ Evolutionary or Civilisational Mismatch
 
 If empirical civilisational behaviour contradicts Seven Cycles dynamics under
 
 matched parameters, the relevant cycle equations must be modified.
 
-  Quantum–Macro Causal Anomalies
+ Quantum–Macro Causal Anomalies
 
 If QCLA predictions fail to align with observed coherence/decoherence
 patterns, causal mode definitions must be updated.
@@ -14134,23 +14136,23 @@ shared load–capacity laws
 
 Proof is established by demonstrating that:
 
-  Biological transformations UBI do not violate URK structural laws.
+ Biological transformations UBI do not violate URK structural laws.
 
-  Quantum causal modes QCLA remain compatible with macro-deterministic
+ Quantum causal modes QCLA remain compatible with macro-deterministic
 
 patterns.
 
-  Planetary systems PSI obey the same load–capacity laws as cellular or
+ Planetary systems PSI obey the same load–capacity laws as cellular or
 
 cognitive systems.
 
-  National systems Vietnam OS remain consistent with identity and boundary
+ National systems Vietnam OS remain consistent with identity and boundary
 
 equations.
 
-  Technology evolution (v∞) follows Seven Cycles temporal logic.
+ Technology evolution (v∞) follows Seven Cycles temporal logic.
 
-  The AMOS Universe OS integrates all domains under one causal hierarchy.
+ The AMOS Universe OS integrates all domains under one causal hierarchy.
 
 This ensures that the entire portfolio operates as a single, non-contradictory
 deterministic universe model.
@@ -14328,7 +14330,7 @@ This ensures compliance with scientific philosophy standards for validity,
 empirical grounding, and testability.
 
 DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO277
-7. Structural Completeness
+7\. Structural Completeness
 
 The Unified Law Corpus contains approximately 400,000800,000 deterministic
 
@@ -14547,7 +14549,7 @@ Engine v∞ and AMOS invariants. Observed collapse behaviours matched
 deterministic collapse classes.
 
 3. Cross-domain synchrony between technical systems and organisational
-behaviour
+   behaviour
 
 Team behaviours, decision cycles, escalation patterns, and alignment failures
 closely matched the predictive structures embedded in the Human Systems
@@ -15046,14 +15048,14 @@ processes, biological computation, cognitive and emotional dynamics,
 organisational behaviour, national systems, and planetary-scale evolution. Its
 impact cuts across four major scientific and applied domains:
 
-  AI safety and deterministic AI infrastructure
+ AI safety and deterministic AI infrastructure
 
 DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO292
-  Medicine and oncology
+ Medicine and oncology
 
-  National and civilisational strategic planning
+ National and civilisational strategic planning
 
-  Climate, biosphere, and planetary-scale modelling
+ Climate, biosphere, and planetary-scale modelling
 
 In each domain, the canon replaces probabilistic, siloed, and heuristic frameworks
 with a law-governed, identity-anchored, load–capacity constrained, tensor-
@@ -15457,7 +15459,7 @@ civilisation using a single deterministic causal grammar.
 
 Future work can proceed along five main lines:
 
-  Formalisation and Publication
+ Formalisation and Publication
 
 peer-reviewed exposition of URK, ULK, QCLA, UBI, AMOS, PSI, SOA
 
@@ -15468,7 +15470,7 @@ comparative analyses against existing systems theories, AI alignment
 
 frameworks, oncology models, and climate models
 
-  Empirical and Clinical Programs
+ Empirical and Clinical Programs
 
 UBI-based clinical trials HRV, EEG, emotional ratio mapping, somatic
 diagnostics)
@@ -15478,7 +15480,7 @@ SOA-informed oncology treatment studies
 longitudinal studies of load–capacity and drift in human performance and
 mental health contexts
 
-  AI and Infrastructure Implementations
+ AI and Infrastructure Implementations
 
 implementation of URK/ULK/QCLA as a Deterministic Reasoning Core in
 AI systems
@@ -15488,7 +15490,7 @@ risk sectors
 
 NeuroSyncAI prototypes built directly on UBI and Canon I
 
-  National and Planetary Simulators
+ National and Planetary Simulators
 
 Canon-based simulators for national planning Vietnam OS as a reference
 model)
@@ -15500,7 +15502,7 @@ stress-testing of policy, technology, and climate scenarios within a
 deterministic framework
 
 DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO301
-  Standardisation and Certification
+ Standardisation and Certification
 
 development of standards for deterministic AI and systemic integrity
 
@@ -16152,7 +16154,7 @@ Founder, QBII
 Director of Digital Transformation, PVcomBank
 
 DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO314
-11. Curriculum Vitae and Professional Standing
+11\. Curriculum Vitae and Professional Standing
 
 This section summarises the candidateʼs professional history, roles, and
 recognitions as they relate to the three canons and the integrated deterministic
@@ -16477,10 +16479,10 @@ This professional standing meets and exceeds the criteria for a Doctor of Scienc
 DSc/ScD candidate.
 
 12. Appendices
-The appendices contain the full set of structural, mathematical, and conceptual
-materials required for doctoral examination of the unified deterministic
-architecture. All materials included are descriptive and structural; no proprietary
-engines, commercial OS codebases, or internal systems are provided.
+    The appendices contain the full set of structural, mathematical, and conceptual
+    materials required for doctoral examination of the unified deterministic
+    architecture. All materials included are descriptive and structural; no proprietary
+    engines, commercial OS codebases, or internal systems are provided.
 
 Appendices are organised across four domains:
 
@@ -16523,44 +16525,44 @@ The matrix spans the following deterministic domains, each with its own
 primitives, invariants, boundaries, identity structures, operator-responses,
 collapse modes, recovery pathways, tensor mappings, and synchrony patterns:
 
-  Quantum
+ Quantum
 
-  Physical
+ Physical
 
-  Chemical
+ Chemical
 
-  Biological
+ Biological
 
 DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO322
-  Neurobiological
+ Neurobiological
 
-  Cognitive
+ Cognitive
 
-  Emotional
+ Emotional
 
-  Somatic
+ Somatic
 
-  Behavioural
+ Behavioural
 
-  Social
+ Social
 
-  Relational
+ Relational
 
-  Organisational
+ Organisational
 
-  Institutional
+ Institutional
 
-  Economic
+ Economic
 
-  Demographic
+ Demographic
 
-  Cultural
+ Cultural
 
-  Civilisational
+ Civilisational
 
-  Ecological
+ Ecological
 
-  Planetary
+ Planetary
 
 These nineteen domains collectively span all micro-, meso-, and macro-scale
 processes in the unified deterministic architecture.
@@ -16625,20 +16627,20 @@ expansion, load–capacity mappings, and boundary differentiation.
 
 Invariant generation involves:
 
-  tensor decomposition 14 tensors)
+ tensor decomposition 14 tensors)
 
-  operator-sequence expansion 7 operators)
+ operator-sequence expansion 7 operators)
 
-  boundary-conditional branching 12 boundaries)
+ boundary-conditional branching 12 boundaries)
 
-  identity-anchored case differentiation (identity levels 19
+ identity-anchored case differentiation (identity levels 19
 
 DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO324
-  synchrony-stratified propagation (cross-domain synchrony gradients)
+ synchrony-stratified propagation (cross-domain synchrony gradients)
 
-  collapse/recovery case mapping (three collapse and three recovery modes)
+ collapse/recovery case mapping (three collapse and three recovery modes)
 
-  drift-field mapping 12 drift modes × triggers)
+ drift-field mapping 12 drift modes × triggers)
 
 Each intersection therefore becomes a self-contained deterministic law engine.
 
@@ -16762,19 +16764,19 @@ The Seven Computational Layers
 
 The Layer–Operator Matrix spans the full canonical architecture:
 
-  Physical
+ Physical
 
-  Biological
+ Biological
 
-  Cognitive
+ Cognitive
 
-  Emotional
+ Emotional
 
-  Behavioural
+ Behavioural
 
-  Social
+ Social
 
-  Planetary
+ Planetary
 
 Each layer Lᵢ has its own primitives, invariants, identity structures, load–capacity
 
@@ -16786,19 +16788,19 @@ The Seven Universal Operators
 Each operator Oⱼ modifies system state according to deterministic rules:
 
 DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO327
-  Initialise
+ Initialise
 
-  Load
+ Load
 
-  Threshold
+ Threshold
 
-  Collapse
+ Collapse
 
-  Drift
+ Drift
 
-  Recovery
+ Recovery
 
-  Synchrony
+ Synchrony
 
 The Layer–Operator Matrix specifies how these operators behave within each
 layer and how operator-layer interactions propagate upward and downward.
@@ -17500,45 +17502,45 @@ triggering drift propagation or collapse.
 
 The twelve boundary classes are:
 
-  Structural Boundary
+ Structural Boundary
 
 Defines physical and architectural constraints. Governs material stability,
 mechanical tolerances, organisational structure, institutional architecture, and
 systemic frameworks. Violations produce structural drift or fragmentation.
 
-  Identity Boundary
+ Identity Boundary
 
 Constrains pattern evolution relative to identity-continuity requirements.
 Prevents identity inversion or discontinuity across neural, emotional, somatic,
 organisational, national, or civilisational layers.
 
-  Temporal Boundary
+ Temporal Boundary
 
 Defines allowable rates of change. Ensures ΔPattern/Δt remains within
 domain-specific thresholds. Violations yield temporal overload, accelerated
 
 drift, or acute collapse.
 
-  Causal Boundary
+ Causal Boundary
 
 Constrains causal propagation. Ensures only causally valid transformations
 
 occur, consistent with QCLAʼs causal-mode invariants. Violations produce
 causal inversion, degenerate transitions, or systemic instability.
 
-  Sensory Boundary
+ Sensory Boundary
 
 Governs sensory load, fidelity, and gating. Prevents overload, saturation, or
 noise-induced collapse in biological and technological systems.
 
-  Cognitive Boundary
+ Cognitive Boundary
 
 Constrains inference load, working memory, contradiction thresholds, and
 cognitive pattern stability. Violations lead to cognitive drift, fragmentation, or
 
 collapse.
 
-  Emotional Boundary
+ Emotional Boundary
 
 Defines affective intensity, limbic activation limits, ratio tolerances, and
 emotional drift thresholds. Violations yield emotional flooding, impulsive
@@ -17546,32 +17548,32 @@ emotional drift thresholds. Violations yield emotional flooding, impulsive
 collapse, or contraction-lock behaviour.
 
 DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO342
-  Behavioural Boundary
+ Behavioural Boundary
 
 Constrains action-selection sequences, risk gradients, and behavioural load
 
 accumulation. Violations result in behavioural fragmentation, volatility, or
 downward cycle transitions.
 
-  Somatic Boundary
+ Somatic Boundary
 
 Governs structural alignment, proprioceptive fidelity, interoceptive load, fascial
 tension, and mechanical coherence. Violations produce somatic collapse or
 trauma reactivation.
 
-  Physiological Boundary
+ Physiological Boundary
 
 Defines metabolic, autonomic, endocrine, immunological, and
 electrophysiological tolerances. Violations result in biological collapse,
 autonomic shock, or homeostatic failure.
 
-  Relational Boundary
+ Relational Boundary
 
 Constrains interpersonal, group, and institutional interactions. Regulates trust
 coefficients, influence propagation, and social synchrony. Violations lead to
 relational drift or group fragmentation.
 
-  Planetary Boundary
+ Planetary Boundary
 
 Defines ecological load–capacity thresholds, climate stability ranges,
 biosphere regeneration rates, and civilisational impact tolerances. Violations
@@ -17796,38 +17798,38 @@ cross-layer interaction pathways, six exceptional-case conditions, and three
 degenerate-case configurations. Each law family generates 200 sub-laws; the
 full set produces 1,400 formal laws before tensor and matrix expansion.
 
-  Law of Law
+ Law of Law
 
 DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO347
 Governs creation, validation, modification, rejection, inheritance, compatibility,
 and global admissibility of all laws.
 
-  Law of Boundary
+ Law of Boundary
 
 Governs structural, identity, temporal, causal, sensory, cognitive, emotional,
 behavioural, somatic, physiological, relational, and planetary constraints.
 
-  Law of Identity
+ Law of Identity
 
 Governs pattern continuity, identity stability, identity-protected
 transformations, and identity-based collapse/inversion.
 
-  Law of Capacity–Load
+ Law of Capacity–Load
 
 Governs equilibrium, overload, decay, and recovery across every system and
 timescale.
 
-  Law of Collapse
+ Law of Collapse
 
 Governs acute, distributed, and silent collapse classes, propagation rules,
 threshold conditions, and amplification behaviour.
 
-  Law of Regeneration
+ Law of Regeneration
 
 Governs recovery, realignment, compensatory transformation, and
 regenerative capacity creation.
 
-  Law of Synchrony
+ Law of Synchrony
 
 Governs cross-layer equivalence, pattern alignment, temporal coordination,
 
@@ -17845,18 +17847,18 @@ SynchronyState)
 
 subject to the core admissibility conditions:
 
-  IdentityContinuity  IdentityThreshold
+ IdentityContinuity  IdentityThreshold
 
-  Load  Capacity
+ Load  Capacity
 
 DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO348
-  BoundaryCompliance  TRUE
+ BoundaryCompliance  TRUE
 
-  TensorCompatibility  TRUE
+ TensorCompatibility  TRUE
 
-  OperatorCoherence  TRUE
+ OperatorCoherence  TRUE
 
-  SynchronyCrossLayer  TRUE
+ SynchronyCrossLayer  TRUE
 
 If any condition fails, ULK rejects the law or re-routes the derivation through drift
 or collapse branches.
@@ -17885,21 +17887,21 @@ Law-Propagation Rules
 
 ULK propagates laws through:
 
-  Tensor-based projection
+ Tensor-based projection
 
-  Operator sequencing
+ Operator sequencing
 
-  Boundary modulation
+ Boundary modulation
 
-  Identity constraint embedding
+ Identity constraint embedding
 
-  Synchrony-gating
+ Synchrony-gating
 
-  Layer-intersection expansion
+ Layer-intersection expansion
 
-  Domain-invariant matrix intersection 1919
+ Domain-invariant matrix intersection 1919
 
-  Layer–operator matrix expansion 77
+ Layer–operator matrix expansion 77
 
 DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO349
 Propagation produces micro-laws, emergent interactions, and multi-layer
@@ -17963,29 +17965,29 @@ pathways. They represent the complete set of allowable causal relationships
 
 under quantum–macro consistency.
 
-  direct linear causation
+ direct linear causation
 
-  bidirectional causal reciprocity
+ bidirectional causal reciprocity
 
-  delayed causal release
+ delayed causal release
 
-  phase-gated causal transmission
+ phase-gated causal transmission
 
-  coherence-coupled causation
+ coherence-coupled causation
 
-  decoherence-induced causal collapse
+ decoherence-induced causal collapse
 
-  observer-constrained causation
+ observer-constrained causation
 
-  entanglement-propagated causation
+ entanglement-propagated causation
 
-  tensor-mediated cross-layer propagation
+ tensor-mediated cross-layer propagation
 
-  identity-modulated causal redirection
+ identity-modulated causal redirection
 
-  temporal inversion causal pathways
+ temporal inversion causal pathways
 
-  identity-anchored multi-state causal superposition
+ identity-anchored multi-state causal superposition
 
 Each causal mode Mᵢ must satisfy:
 
@@ -18883,28 +18885,28 @@ Biological Recovery Invariants
 
 All recovery processes across NB, NE, SI, and BE follow the same invariants:
 
-  Identity Preservation
+ Identity Preservation
 
 No recovery is valid if identity continuity fails.
 
-  Boundary Compliance
+ Boundary Compliance
 
 Recovery paths must respect twelve physiological boundaries.
 
-  Tensor-Governed Propagation
+ Tensor-Governed Propagation
 
 Cross-domain recovery flows follow tensor pathways, not arbitrary
 interactions.
 
-  Load–Capacity Restitution
+ Load–Capacity Restitution
 
 Recovery must restore Load  Capacity.
 
-  Synchrony Restoration
+ Synchrony Restoration
 
 Cross-domain pattern equivalence must be re-established.
 
-  Drift Reversal
+ Drift Reversal
 
 Drift vectors must be neutralised or reversed during recovery.
 
@@ -19610,13 +19612,13 @@ sensitive system blueprints
 
 This distinction ensures:
 
-  academic transparency
+ academic transparency
 
-  preservation of IP rights
+ preservation of IP rights
 
-  compliance with industry confidentiality
+ compliance with industry confidentiality
 
-  scientific reproducibility without exposing proprietary assets
+ scientific reproducibility without exposing proprietary assets
 
 DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO383
 12.3.5 Use Rights Granted to the University
@@ -19788,8 +19790,10 @@ enabling the university to execute its examination responsibilities.
 
 DOCTOR OF SCIENCE DSc/ScD SUBMISSION PORTFOLIO387
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/kernel/AMOS_SIMULATION_KERNEL|AMOS_SIMULATION_KERNEL]] · [[11_KNOWLEDGE/engine/SYSTEM_SCAN_ENGINE|SYSTEM_SCAN_ENGINE]] · [[11_KNOWLEDGE/stubs/automation_profiles|automation_profiles]]
 
----
+______________________________________________________________________
+
 **MOC:** [[11_KNOWLEDGE/trang/trang_MOC|trang_MOC]]

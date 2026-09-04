@@ -1,31 +1,51 @@
 ---
-title: 05 Calibration MOC
-type: moc
-source: 13_MODELS/05_CALIBRATION
-tags:
-- 05-calibration
-- canon/model
-- confidence-ceiling-calibration
-- provenance-independence-calibration
-- ubi-score-calibration
-moc: true
+title: "05 Calibration Moc — Plane Governance Specification"
+type: specification
+source: 13_MODELS
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
+status: ACTIVE_SPECIFICATION
+epistemic_class: AMOS_MODEL
+conclusion_class: DERIVED
 rscf:
   state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  claim_class: AMOS_MODEL
+  provenance:
+    - 00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE
+    - 00_ROOT/00_ROOT_MOC
+  scope: plane_governance
+tags:
+  - amos-os
+  - 13-models
+  - specification
+  - 05-calibration-moc
 ---
 
-# 05 Calibration — Map of Content
+# 05 Calibration Moc — Plane Governance Specification
 
-**Path:** `13_MODELS/05_CALIBRATION`
-**Files:** 3 | **Subdirectories:** 0
-
-## Files
-
-- [[13_MODELS/05_CALIBRATION/CONFIDENCE_CEILING_CALIBRATION|CONFIDENCE_CEILING_CALIBRATION]]
-- [[13_MODELS/05_CALIBRATION/PROVENANCE_INDEPENDENCE_CALIBRATION|PROVENANCE_INDEPENDENCE_CALIBRATION]]
-- [[13_MODELS/05_CALIBRATION/UBI_SCORE_CALIBRATION|UBI_SCORE_CALIBRATION]]
+> **Origin Architect / Steward:** Trang Phan  
+> **AMOS_CORE Target:** `v4.4`  
+> **Conclusion Class:** `AMOS_MODEL`  
+> **Status:** `ACTIVE_SPECIFICATION`
 
 ---
-**Parent:** [[13_MODELS/13_MODELS_MOC|13_MODELS_MOC]]
+
+## 1. Architectural Scope
+
+`05_CALIBRATION_MOC` defines the typed contracts, invariants, and operational procedures for `13_MODELS` within the AMOS Full OS MECE architecture.
+
+---
+
+## 2. Governing Invariants
+
+- **Axiom Adherence:** Strictly bound by M01–M20 core laws.
+- **Fail-Closed Execution:** Rejects unverified or malformed inputs into the rollback basin.
+- **Immutable Receipts:** Emits auditable trace logs to `17_OBSERVABILITY`.
+
+---
+
+## 3. Navigation & Bindings
+
+- **Master MOC:** [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]
+- **Partition Architecture:** [[00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE|FULL_BRAIN_OS_MECE_ARCHITECTURE]]

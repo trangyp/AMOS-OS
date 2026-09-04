@@ -1,86 +1,62 @@
 ---
-title: DOMAINS STRATEGY CONTRACT
-type: strategy
-source: 21_DOMAINS/04_STRATEGY
-tags:
-- amos-os
-- canon/domain
-- routing-policy-validation-receipt
-- authz-engine-validation-receipt
-- law-hierarchy
+title: "Domains Strategy Contract — Specialist Domain Specification"
+type: domain_specification
+source: 21_DOMAINS
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
+status: ACTIVE_SPECIFICATION
+epistemic_class: AMOS_MODEL
+conclusion_class: DERIVED
 rscf:
   state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  claim_class: AMOS_MODEL
+  provenance:
+    - 21_DOMAINS/00_INDEX/DOMAIN_EXTENSION_PROTOCOL
+    - 00_ROOT/FULL_BRAIN_OS_MECE_ARCHITECTURE
+  scope: domain_specialization
+tags:
+  - amos-os
+  - domains
+  - c01-c12
+  - domains-strategy-contract
 ---
 
-# DOMAINS STRATEGY CONTRACT
+# Domains Strategy Contract — Specialist Domain Specification
 
-## 0. Status
-Domains-plane contract for **DOMAINS STRATEGY CONTRACT**. AMOS_MODEL; canonical status CONDITIONAL; implementation PARTIAL.
-
-## 1. Scope
-Governs C-family domain engine mappings (C01–C12) onto the OS planes as they bear on `DOMAINS STRATEGY CONTRACT`. Bounded by dependency closure: conclusions inherit the weakest load-bearing premise.
-
-## 2. Contract terms
-- **Typed artifacts** — every artifact declares artifact_type, epistemic class, scope, regime.
-- **Firewalls preserved** — CAPABILITY ≠ AUTHORITY · PROPOSAL ≠ COMMIT · OBSERVED ≠ CURRENT · TEST_PASS ≠ TRUTH.
-- **Epochs distinct** — state_version ≠ causal_epoch ≠ policy_epoch ≠ provenance_epoch unless an explicit mapping licenses equivalence.
-- **Local finality requires proof** — demonstrated dependency closure may avoid coordination; assumed independence may not.
-- **Selective invalidation** — failure invalidates dependent descendants only; unrelated state is preserved.
-
-## 3. Invariants
-- Fail closed on UNKNOWN/GAP; gaps stay visible, never promoted to PASS.
-- Confidence of any conclusion ≤ confidence of its weakest load-bearing premise (ceiling 0.95).
-- Consequential effects emit receipts; rollback basin exists before mutation.
-- Competing hypotheses remain visible when evidence does not discriminate.
-
-## 4. Executed reference
-No subsystem-local executor yet. Existing executed validators for the OS: routing-policy validator 19/19 ([[25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT|ROUTING_POLICY_VALIDATION_RECEIPT]]) and authz invariant engine 17/17 ([[03_CONTROL_PLANE/04_AUTHORITY/AUTHZ_ENGINE_VALIDATION_RECEIPT|AUTHZ_ENGINE_VALIDATION_RECEIPT]]) — cited as pattern, not as evidence for this artifact.
-
-## 5. Gaps
-Runtime enforcement, persistence binding, and empirical validation remain OPEN (UNKNOWN/GAP). Promotion beyond AMOS_MODEL requires the promotion-gate checklist plus an executed receipt specific to this contract.
-
-## 6. Falsifiers
-F1: canonical source defines different semantics for this surface. F2: an executed test contradicts a declared invariant. F3: this contract silently collapses a protected firewall.
-## Worked semantics
-Given an operation touching `DOMAINS STRATEGY CONTRACT` within the Domains plane:
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-2. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-3. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-4. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-5. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-6. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
-
-## Promotion-gate checklist
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
-
-## Cross-plane bindings
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]|AMOS Core Laws · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]
-- Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
-- Control-plane gates — [[03_CONTROL_PLANE/CONTROL_PLANE_README|CONTROL_PLANE_README]]
-- Observed by — [[17_OBSERVABILITY/OBSERVABILITY_README|OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[20_OPERATIONS/OPERATIONS_README|OPERATIONS_README]]
----
-
-[[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
+> **Origin Architect / Steward:** Trang Phan  
+> **AMOS_CORE Target:** `v4.4`  
+> **Conclusion Class:** `AMOS_MODEL`  
+> **Status:** `ACTIVE_SPECIFICATION`
 
 ---
-**Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+
+## 1. Domain Scope & Objectives
+
+`DOMAINS_STRATEGY_CONTRACT` defines the specialized domain models, ontologies, regulatory frameworks, and operational packages under `21_DOMAINS`.
+
+Governed under **Partition C: Cognitive Capability & Orchestration** and the [[21_DOMAINS/00_INDEX/DOMAIN_EXTENSION_PROTOCOL|DOMAIN_EXTENSION_PROTOCOL]].
 
 ---
-RSCF-NODE
-node_id: amos_21_domains_04_strategy_domains_strategy_contract_md
-node_type: note
-path: 21_DOMAINS/04_STRATEGY/DOMAINS_STRATEGY_CONTRACT.md
-claim_class: AMOS_MODEL
+
+## 2. Domain Rules & Invariants
+
+1. **Non-Contradiction with Canon:** Specialist domain rules cannot supersede root axioms in `01_CANON`.
+2. **Explicit Confidence Attenuation:** Conclusions derived within `DOMAINS_STRATEGY_CONTRACT` must declare confidence ceilings ($\mathcal{C} \le 0.95$).
+3. **Cross-Regime Bridges:** Transfers from this domain to adjacent domains require formal translation penalties.
 
 ---
-**MOC:** 04_STRATEGY_MOC
+
+## 3. Operational Mechanics & Datasets
+
+- **Domain Models:** Mathematical, empirical, or statistical formulations specific to `Domains Strategy Contract`.
+- **Allowed Tooling:** Strictly sandboxed Tier 1 and Tier 2 adapters.
+- **Verification Gates:** Invariant tests codified in `19_TESTS/`.
+
+---
+
+## 4. Integration
+
+- **Master Domain Hub:** [[21_DOMAINS/21_DOMAINS_MOC|21_DOMAINS_MOC]]
+- **Protocol Standard:** [[21_DOMAINS/00_INDEX/DOMAIN_EXTENSION_PROTOCOL|DOMAIN_EXTENSION_PROTOCOL]]
+- **Agent Roles:** [[06_AGENTS/AGENT_ROLE_REGISTRY|AGENT_ROLE_REGISTRY]]

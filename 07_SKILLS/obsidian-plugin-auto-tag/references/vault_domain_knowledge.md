@@ -1,16 +1,19 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: obsidian-plugin-auto-tag — Vault Domain Knowledge
 type: reference
 source: 07_SKILLS/obsidian-plugin-auto-tag/references
 tags:
-- reference
-- obsidian-plugin-auto-tag
-- plugin
-- tagging
-- knowledge
-- law-hierarchy
-- skill
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - obsidian-plugin-auto-tag
+  - plugin
+  - tagging
+  - knowledge
+  - law-hierarchy
+  - skill
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -44,10 +47,10 @@ The Auto Tag plugin for Obsidian assists users in automatically generating tags 
 ## Getting Started
 
 1. Install from Obsidian's community plugins list.
-2. Create an OpenAI API key at https://platform.openai.com.
-3. Configure billing and a maximum monthly spend.
-4. Enter the API key in the plugin settings.
-5. Open a note, optionally select text, and trigger the "Auto Tag" command.
+1. Create an OpenAI API key at https://platform.openai.com.
+1. Configure billing and a maximum monthly spend.
+1. Enter the API key in the plugin settings.
+1. Open a note, optionally select text, and trigger the "Auto Tag" command.
 
 ## Cost Notes
 
@@ -64,7 +67,7 @@ The Auto Tag plugin for Obsidian assists users in automatically generating tags 
 - 0.2.9 — fix multi-word tags with spaces.
 - 0.2.6 — first public release.
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC · SKILL
 
@@ -72,12 +75,14 @@ The Auto Tag plugin for Obsidian assists users in automatically generating tags 
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: obsidian-plugin-auto-tag_vault_domain_knowledge
 node_type: reference
 path: 07_SKILLS/obsidian-plugin-auto-tag/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

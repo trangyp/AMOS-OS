@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: coding engine layer
 type: reference
 source: 07_SKILLS/amos-c10-tech-engineering-master/references
 tags:
-- reference
-- amos-c10-tech-engineering-master
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-c10-tech-engineering-master
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -20,18 +23,11 @@ rscf:
 > Source: `_00_Cosmo brain/engine/A/amos-coding-engine-layer.md`
 > Epistemic class: SOURCE_DERIVED
 
----
-title: amos-coding-engine-layer
-created: "2026-08-22"
-origin_architect: "Trang Phan"
-type: "bridge"
-tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/amos-coding-engine-layer, engine]
-status: "index"
-provenance: "SOURCE_CLAIM"
-confidence: "VERIFIED"
----
+______________________________________________________________________
 
-# amos-coding-engine-layer
+## title: amos-coding-engine-layer created: "2026-08-22" origin_architect: "Trang Phan" type: "bridge" tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/amos-coding-engine-layer, engine] status: "index" provenance: "SOURCE_CLAIM" confidence: "VERIFIED"
+
+## amos-coding-engine-layer
 
 The Cosmo brain source file at `engine/A/amos-coding-engine-layer.md` is a bridge note. The substantive content is found in `engine/C/Coding_Engine_Model.md` and `engine/A/AMOS_AUTOMATION_ENGINE_v1.0.0.md` (SUPER_CODE_ENGINE section). The following is synthesized from those sources.
 
@@ -47,24 +43,25 @@ The Cosmo brain source file at `engine/A/amos-coding-engine-layer.md` is a bridg
 The engine operates using "Triple-Density" reasoning to ensure every technical decision is sound across all levels of the business:
 
 1. **Low-Level Code Reasoning:** Syntax, memory, performance, algorithmic correctness. Deals with the immediate code artifact -- variables, loops, data structures, complexity analysis, memory management, and runtime behavior.
-2. **System-Level Design Reasoning:** API contracts, module boundaries, database schemas, microservice dependencies. Deals with how components interact, interface stability, data flow architecture, and system-level trade-offs.
-3. **Org-Level Strategy Reasoning:** Business KPIs, team velocity, maintenance overhead, vendor lock-in, and risk exposure. Deals with how technical decisions affect the organization's ability to deliver, maintain, and evolve software over time.
+1. **System-Level Design Reasoning:** API contracts, module boundaries, database schemas, microservice dependencies. Deals with how components interact, interface stability, data flow architecture, and system-level trade-offs.
+1. **Org-Level Strategy Reasoning:** Business KPIs, team velocity, maintenance overhead, vendor lock-in, and risk exposure. Deals with how technical decisions affect the organization's ability to deliver, maintain, and evolve software over time.
 
 ## Global Lifecycle (7 Phases)
 
 All software artifacts must pass through these phases (or a subset, depending on scope):
 
 1. **Vision and Scoping** -- Define what to build and why; establish success criteria
-2. **Architecture and Design** -- Select patterns, define interfaces, model data flows
-3. **Build and Integrate** -- Implement features, write tests, integrate with existing systems
-4. **Stabilize and Harden** -- Fix bugs, improve performance, security hardening
-5. **Scale and Optimize** -- Handle increased load, optimize bottlenecks
-6. **Govern and Audit** -- Ensure compliance, documentation, observability
-7. **Sunset and Migrate** -- Deprecate, migrate data, retire systems
+1. **Architecture and Design** -- Select patterns, define interfaces, model data flows
+1. **Build and Integrate** -- Implement features, write tests, integrate with existing systems
+1. **Stabilize and Harden** -- Fix bugs, improve performance, security hardening
+1. **Scale and Optimize** -- Handle increased load, optimize bottlenecks
+1. **Govern and Audit** -- Ensure compliance, documentation, observability
+1. **Sunset and Migrate** -- Deprecate, migrate data, retire systems
 
 ## Quality Axes (10)
 
 Solutions are optimized across 10 dimensions:
+
 - **Correctness** -- Does the code do what it should?
 - **Robustness** -- Does it handle edge cases and failures?
 - **Security** -- Is it protected against attacks?
@@ -79,23 +76,24 @@ Solutions are optimized across 10 dimensions:
 ## Failure Modes to Avoid (6)
 
 1. Unclear problem definition before writing code
-2. Architecture not matching real-world constraints
-3. Integration breaking existing workflows
-4. Instability under real load (ignoring edge cases)
-5. Opaque ownership and lack of observability
-6. Governance drift and undocumented changes
+1. Architecture not matching real-world constraints
+1. Integration breaking existing workflows
+1. Instability under real load (ignoring edge cases)
+1. Opaque ownership and lack of observability
+1. Governance drift and undocumented changes
 
 ## Evolution Paths (5)
 
 1. Incremental extension
-2. Platform refactor
-3. Full rewrite
-4. Modularization and API extraction
-5. Migration to new paradigm
+1. Platform refactor
+1. Full rewrite
+1. Modularization and API extraction
+1. Migration to new paradigm
 
 ## Runtime Layer Capabilities
 
 The engine includes a runtime layer with functions for:
+
 - **Observe Runtime Signals:** Ingest runtime logs, metrics, and error events. Outputs: runtime health summary, suspected failure points, candidate signals to instrument.
 - **Derive Execution Gaps:** Find missing checks, missing branches, and unhandled states. Outputs: execution gap list, prioritized runtime fix list.
 
@@ -115,13 +113,15 @@ The engine is fully scoped with: architecture fully specified, runtime fully spe
 
 The Coding Engine serves as the implementation foundation. The Automation Engine wires its outputs into reliable, observable, and self-healing systems. The Tech Architecture Kernel provides the reasoning framework. The engine excludes novel theoretical AI research and non-technical organisational politics from its scope.
 
----
+______________________________________________________________________
+
 **MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -129,12 +129,14 @@ The Coding Engine serves as the implementation foundation. The Automation Engine
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-c10-tech-engineering-master-coding-engine-layer
 node_type: reference
 path: 07_SKILLS/amos-c10-tech-engineering-master/references/coding_engine_layer.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

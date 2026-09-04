@@ -4,25 +4,22 @@ title: SKILL — Amos Awareness Inference Governor
 type: skill
 source: 07_SKILLS/amos-awareness-inference-governor
 name: amos-awareness-inference-governor
-description: Awareness Inference Governor — mind and behavior capability. Use when
-  psychological analysis, behavioral reasoning, or cognitive modeling. Use when amos-c05-mind-behavior-master
-  routes to this specialized capability. Do not use for generic tasks outside c05
-  domain.
+description: Awareness Inference Governor — mind and behavior capability. Use when psychological analysis, behavioral reasoning, or cognitive modeling. Use when amos-c05-mind-behavior-master routes to this specialized capability. Do not use for generic tasks outside c05 domain.
 parent_skill: amos-c05-mind-behavior-master
 domain: c05
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
 tags:
-- type/skill
-- type/skill
-- domain/mind-behavior
-- epistemic/source_claim
-- hml/m
-- epistemic/source_claim
-- amos-os
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/mind-behavior
+  - epistemic/source_claim
+  - hml/m
+  - epistemic/source_claim
+  - amos-os
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -32,20 +29,20 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: M
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L16
-- L17
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L16
+  - L17
 license: MIT
 steward: Trang Phan
 ---
@@ -55,6 +52,7 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: c05. Parent: amos-c05-mind-behavior-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
 ## When to Use
 
 - When modeling cognitive processes: attention, awareness, compression
@@ -74,6 +72,7 @@ Origin architect: **Trang Phan**. Domain: c05. Parent: amos-c05-mind-behavior-ma
 - **awareness_inference.govern_expression**: Govern artistic and emotional expression within healthy bounds
 
 > **Reference**: See `references/vault_domain_knowledge.md` (content_hash: 44621ad92d9bd957) for the full vault-sourced domain knowledge (9396 chars).
+
 - **awareness_inference.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
 - **awareness_inference.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **awareness_inference.validate_outputs**: Validate outputs against domain constraints and epistemic class.
@@ -81,12 +80,12 @@ Origin architect: **Trang Phan**. Domain: c05. Parent: amos-c05-mind-behavior-ma
 ## Operations
 
 1. **awareness_inference.model_cognition**: Model cognitive processes: attention, awareness, compression, and inference
-2. **awareness_inference.allocate_attention**: Allocate attention resources across competing demands and priorities
-3. **awareness_inference.assess_awareness**: Assess awareness levels: meta-cognition, self-monitoring, and calibration
-4. **awareness_inference.govern_expression**: Govern artistic and emotional expression within healthy bounds
-5. **awareness_inference.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-6. **awareness_inference.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
-7. **awareness_inference.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+1. **awareness_inference.allocate_attention**: Allocate attention resources across competing demands and priorities
+1. **awareness_inference.assess_awareness**: Assess awareness levels: meta-cognition, self-monitoring, and calibration
+1. **awareness_inference.govern_expression**: Govern artistic and emotional expression within healthy bounds
+1. **awareness_inference.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+1. **awareness_inference.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+1. **awareness_inference.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## 11_KNOWLEDGE Vault Content
 
@@ -98,18 +97,21 @@ Origin architect: **Trang Phan**. Domain: c05. Parent: amos-c05-mind-behavior-ma
 From C05 Mind & Behavior: Awareness, metacognition, and consciousness modeling. From Cognitive Organism OS: Awareness as part of the cognitive substrate.
 
 **Awareness inference model**:
+
 - **Self-awareness**: the system's model of its own state
 - **Context-awareness**: the system's model of its environment
 - **Task-awareness**: the system's model of the current task
 - **Meta-awareness**: the system's awareness of its own awareness
 
 **Inference governance**:
+
 - **Awareness inference**: infer awareness states from observable behavior
 - **Confidence ceiling**: awareness claims cannot exceed evidence support
 - **Falsifier requirement**: every awareness claim must declare its falsifier
 - **Scope bounding**: awareness claims are valid only within their declared scope
 
 **Governor laws**:
+
 - `AWARENESS != CONSCIOUSNESS`: awareness is a model; consciousness is a stronger claim
 - `INFERENCE != OBSERVATION`: awareness inference is inferred from behavior; it is not directly observed
 - `SELF_MODEL != SELF`: the system's self-model is not the system's self
@@ -134,7 +136,8 @@ Awareness inference governance is an epistemic construct. It does not prove the 
 
 - **G1 (Law of Law)**: No unresolved contradictions withi
 
----
+______________________________________________________________________
+
 **Links:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 ## Related
@@ -144,17 +147,19 @@ Awareness inference governance is an epistemic construct. It does not prove the 
 ## Examples
 
 - **Scenario**: When modeling cognitive processes: attention, awareness, compression
+
   - **Input**: A query matching this skill's domain (c05)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When allocating attention resources across competing demands
+
   - **Input**: A query matching this skill's domain (c05)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When assessing awareness levels and meta-cognition
+
   - **Input**: A query matching this skill's domain (c05)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Anti-Patterns
 
@@ -164,7 +169,6 @@ Awareness inference governance is an epistemic construct. It does not prove the 
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `amos-c05-mind-behavior-master` — routes to this skill when c05 specialization is needed
@@ -172,7 +176,6 @@ Awareness inference governance is an epistemic construct. It does not prove the 
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -191,7 +194,6 @@ Awareness inference governance is an epistemic construct. It does not prove the 
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -199,7 +201,6 @@ Awareness inference governance is an epistemic construct. It does not prove the 
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -212,11 +213,12 @@ Awareness inference governance is an epistemic construct. It does not prove the 
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `amos-c05-mind-behavior-master` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `amos-awareness-inference-governor-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -224,12 +226,14 @@ Awareness inference governance is an epistemic construct. It does not prove the 
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-awareness-inference-governor
 node_type: skill
 path: 07_SKILLS/amos-awareness-inference-governor/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

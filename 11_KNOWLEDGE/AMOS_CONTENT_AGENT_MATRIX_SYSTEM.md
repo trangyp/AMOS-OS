@@ -1,26 +1,29 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: AMOS Content Agent Matrix — Governed Multi-Agent Content Operating System
 type: agent
 source: 11_KNOWLEDGE
 tags:
-- agents
-- knowledge
-- vault
-- canon-group/tech-ai
-- canon/framework
-- canon/protocol
-- rscf/claim
-- rscf/provenance
-- rscf/state/source-claim
-- topic/content-agent
-- topic/content-matrix
-- topic/multi-agent
-- topic/content-marketing
-- topic/orchestration
-- architecture
-- memory
-- skill
-- validation
+  - agents
+  - knowledge
+  - vault
+  - canon-group/tech-ai
+  - canon/framework
+  - canon/protocol
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - topic/content-agent
+  - topic/content-matrix
+  - topic/multi-agent
+  - topic/content-marketing
+  - topic/orchestration
+  - architecture
+  - memory
+  - skill
+  - validation
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -29,6 +32,7 @@ rscf:
 ---
 
 # AMOS Content Agent Matrix
+
 ## Governed Multi-Agent Content Operating System
 
 > **Document:** `v3.0.0`
@@ -39,9 +43,9 @@ rscf:
 > **Primary source:** “HƯỚNG DẪN XÂY DỰNG HỆ THỐNG MA TRẬN CONTENT AGENT VỚI CLAUDE”
 > **Epistemic class:** `AMOS_MODEL / SOURCE_CLAIM`
 
----
+______________________________________________________________________
 
-# 0. PURPOSE
+## 0. PURPOSE
 
 AMOS Content Agent Matrix chuyển mô hình content thủ công thành một **hệ điều hành nội dung có cấu trúc**.
 
@@ -85,9 +89,9 @@ VALIDATION
 LEARNING LOOP
 ```
 
----
+______________________________________________________________________
 
-# 1. SOURCE / MODEL / REALITY FIREWALL
+## 1. SOURCE / MODEL / REALITY FIREWALL
 
 Tài liệu nguồn cung cấp một kiến trúc content gồm:
 
@@ -143,9 +147,9 @@ PrescribedRatio
 EmpiricallyOptimalRatio
 ```
 
----
+______________________________________________________________________
 
-# 2. VERSION LINEAGE
+## 2. VERSION LINEAGE
 
 ```text
 SOURCE GUIDE
@@ -184,9 +188,9 @@ MatrixVersion
 PublishedContentVersion
 ```
 
----
+______________________________________________________________________
 
-# 3. CORE SYSTEM IDEA
+## 3. CORE SYSTEM IDEA
 
 Nguồn mô tả content như một chuỗi tâm lý 30 ngày.
 
@@ -200,12 +204,10 @@ Sequence(ContentUnit_t)
 
 với:
 
-[
-C_{1:T}
-=======
+## \[ C\_{1:T}
 
-[C_1,C_2,\dots,C_T]
-]
+[C_1,C_2,\\dots,C_T]
+\]
 
 Trong đó mỗi content unit có:
 
@@ -226,9 +228,9 @@ Một bài content không nhất thiết đứng độc lập.
 
 Nó có thể tạo dependency với content trước và sau.
 
----
+______________________________________________________________________
 
-# 4. CUSTOMER JOURNEY MODEL
+## 4. CUSTOMER JOURNEY MODEL
 
 Nguồn định nghĩa 4 tầng:
 
@@ -266,9 +268,9 @@ J[
 
 Mỗi dimension nằm trong:
 
-[
+\[
 [0,1]
-]
+\]
 
 nếu hệ thống dùng normalized scoring.
 
@@ -278,9 +280,9 @@ nếu hệ thống dùng normalized scoring.
 
 không phải trực tiếp là trạng thái tâm lý có thể quan sát hoàn hảo.
 
----
+______________________________________________________________________
 
-# 5. FOUR STAGES
+## 5. FOUR STAGES
 
 ## J1 — Awareness
 
@@ -299,7 +301,7 @@ Content chính:
 Viral / Awareness
 ```
 
----
+______________________________________________________________________
 
 ## J2 — Connection
 
@@ -317,7 +319,7 @@ Content:
 Story / Connection
 ```
 
----
+______________________________________________________________________
 
 ## J3 — Trust / Authority
 
@@ -338,7 +340,7 @@ Proof
 Case Study
 ```
 
----
+______________________________________________________________________
 
 ## J4 — Conversion
 
@@ -358,9 +360,9 @@ Content:
 Conversion / CTA
 ```
 
----
+______________________________________________________________________
 
-# 6. CONTENT CLASS MODEL
+## 6. CONTENT CLASS MODEL
 
 Nguồn định nghĩa 5 nhóm:
 
@@ -385,9 +387,9 @@ ContentClass:
   risk_flags:
 ```
 
----
+______________________________________________________________________
 
-# 7. SOURCE ALLOCATION POLICY
+## 7. SOURCE ALLOCATION POLICY
 
 Nguồn đề xuất:
 
@@ -419,23 +421,23 @@ Không phải:
 UNIVERSAL_MARKETING_LAW
 ```
 
----
+______________________________________________________________________
 
-# 8. ALLOCATION CONSISTENCY CORRECTION
+## 8. ALLOCATION CONSISTENCY CORRECTION
 
 Khoảng tỷ lệ nguồn không tạo một allocation duy nhất.
 
 Lower-bound total:
 
-[
+\[
 30+20+25+10+8=93%
-]
+\]
 
 Upper-bound total:
 
-[
+\[
 40+20+25+15+10=110%
-]
+\]
 
 Do đó cần explicit allocator.
 
@@ -451,9 +453,9 @@ Conversion  = 2
 
 Tổng:
 
-[
+\[
 11+6+8+3+2=30
-]
+\]
 
 Tỷ lệ:
 
@@ -475,33 +477,31 @@ Vì vậy chính ví dụ nguồn và tỷ lệ nguồn không hoàn toàn tươ
 
 AMOS không che mâu thuẫn này.
 
----
+______________________________________________________________________
 
-# 9. ALLOCATION ENGINE
+## 9. ALLOCATION ENGINE
 
 Một allocator chính xác hơn:
 
-[
-n_k
-===
+## \[ n_k
 
-\operatorname{round}
+\\operatorname{round}
 (
 Nw_k
 )
-]
+\]
 
 với:
 
-[
-\sum_k w_k=1
-]
+\[
+\\sum_k w_k=1
+\]
 
 và:
 
-[
-\sum_k n_k=N
-]
+\[
+\\sum_k n_k=N
+\]
 
 Canonical configuration:
 
@@ -530,9 +530,9 @@ CONFIG
 
 không phải canon law.
 
----
+______________________________________________________________________
 
-# 10. CONTENT PILLARS
+## 10. CONTENT PILLARS
 
 Nguồn đề xuất:
 
@@ -564,9 +564,9 @@ at least one declared pillar.
 
 Cross-pillar content có thể tồn tại nhưng phải explicit.
 
----
+______________________________________________________________________
 
-# 11. CONTENT MATRIX
+## 11. CONTENT MATRIX
 
 Canonical matrix:
 
@@ -589,9 +589,9 @@ Nguồn chỉ yêu cầu 6 cột.
 
 AMOS v3 mở rộng để hệ thống có thể học từ execution.
 
----
+______________________________________________________________________
 
-# 12. CONTENT UNIT OBJECT
+## 12. CONTENT UNIT OBJECT
 
 ```yaml
 ContentUnit:
@@ -645,9 +645,9 @@ ContentUnit:
     sales:
 ```
 
----
+______________________________________________________________________
 
-# 13. CONTENT LIFECYCLE
+## 13. CONTENT LIFECYCLE
 
 ```text
 IDEA
@@ -683,9 +683,9 @@ PUBLISHED
 
 without applicable gates.
 
----
+______________________________________________________________________
 
-# 14. AGENT [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]
+## 14. AGENT [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]
 
 Nguồn định nghĩa 6 agents:
 
@@ -709,9 +709,9 @@ A4 → DESIGNER
 A5 → AUDITOR + VALIDATOR
 ```
 
----
+______________________________________________________________________
 
-# 15. A0 — ORCHESTRATOR
+## 15. A0 — ORCHESTRATOR
 
 Vai trò:
 
@@ -752,9 +752,9 @@ Orchestrator:
     may_modify_source_evidence: false
 ```
 
----
+______________________________________________________________________
 
-# 16. A1 — RESEARCH AGENT
+## 16. A1 — RESEARCH AGENT
 
 Nguồn yêu cầu:
 
@@ -785,9 +785,9 @@ viral_rank = UNKNOWN/GAP
 
 Không được tự sinh dữ liệu.
 
----
+______________________________________________________________________
 
-# 17. RESEARCH EVIDENCE OBJECT
+## 17. RESEARCH EVIDENCE OBJECT
 
 ```yaml
 ResearchObservation:
@@ -823,9 +823,9 @@ GeneratedIdea
 MarketObservation
 ```
 
----
+______________________________________________________________________
 
-# 18. A2 — STRATEGY AGENT
+## 18. A2 — STRATEGY AGENT
 
 Strategy Agent biến evidence thành matrix.
 
@@ -851,24 +851,22 @@ configured rule
 data-derived recommendation
 ```
 
----
+______________________________________________________________________
 
-# 19. STRATEGY OBJECTIVE
+## 19. STRATEGY OBJECTIVE
 
 Một generic strategy objective:
 
-[
-U
-=
+## \[ U
 
 w_RR
-+
+\+
 w_EE
-+
+\+
 w_TT
-+
+\+
 w_CC
-]
+\]
 
 Trong đó:
 
@@ -883,9 +881,9 @@ Class:
 
 `AMOS_MODEL`
 
----
+______________________________________________________________________
 
-# 20. A3 — CONTENT AGENT
+## 20. A3 — CONTENT AGENT
 
 Nguồn yêu cầu script 60–90 giây với:
 
@@ -919,9 +917,9 @@ fabricate medical evidence
 fabricate business results
 ```
 
----
+______________________________________________________________________
 
-# 21. PERSONAL STORY FIREWALL
+## 21. PERSONAL STORY FIREWALL
 
 Nguồn khuyến nghị:
 
@@ -949,9 +947,9 @@ AI must never invent first-person biography
 and present it as creator truth.
 ```
 
----
+______________________________________________________________________
 
-# 22. A4 — VISUAL AGENT
+## 22. A4 — VISUAL AGENT
 
 Visual Agent tạo:
 
@@ -984,9 +982,9 @@ DESIGN_PROPOSAL
 
 không phải performance proof.
 
----
+______________________________________________________________________
 
-# 23. A5 — REVIEWER AGENT
+## 23. A5 — REVIEWER AGENT
 
 Nguồn yêu cầu Reviewer kiểm tra:
 
@@ -1023,9 +1021,9 @@ ReviewResult:
     REJECT
 ```
 
----
+______________________________________________________________________
 
-# 24. REVIEWER INDEPENDENCE
+## 24. REVIEWER INDEPENDENCE
 
 Reviewer nhận toàn bộ output từ agent trước.
 
@@ -1049,9 +1047,9 @@ known constraints
 
 nhưng không biến source-less factual claims thành facts.
 
----
+______________________________________________________________________
 
-# 25. MULTI-AGENT PIPELINE
+## 25. MULTI-AGENT PIPELINE
 
 Source sequence:
 
@@ -1091,9 +1089,9 @@ FINAL SYNTHESIS
 HUMAN APPROVAL / PUBLISH
 ```
 
----
+______________________________________________________________________
 
-# 26. ACTUAL ORCHESTRATION FIREWALL
+## 26. ACTUAL ORCHESTRATION FIREWALL
 
 Nguồn mô tả:
 
@@ -1125,9 +1123,9 @@ Nếu không:
 architecture_state = MANUAL_MULTI_ROLE_WORKFLOW
 ```
 
----
+______________________________________________________________________
 
-# 27. EXTERNALIZATION [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]
+## 27. EXTERNALIZATION [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]
 
 AMOS mapping:
 
@@ -1150,9 +1148,9 @@ should not carry
 all persistent state.
 ```
 
----
+______________________________________________________________________
 
-# 28. STATE MODEL
+## 28. STATE MODEL
 
 ```yaml
 ContentSystemState:
@@ -1180,9 +1178,9 @@ ContentSystemState:
   rollback_pointer:
 ```
 
----
+______________________________________________________________________
 
-# 29. H / M / L MODEL
+## 29. H / M / L MODEL
 
 ```text
 H — Campaign / business level
@@ -1218,9 +1216,9 @@ does not automatically prove
 H-level business success.
 ```
 
----
+______________________________________________________________________
 
-# 30. CONTENT CLAIM PROVENANCE
+## 30. CONTENT CLAIM PROVENANCE
 
 Every factual content claim should support:
 
@@ -1250,9 +1248,9 @@ product-performance
 
 claims.
 
----
+______________________________________________________________________
 
-# 31. PROOF / CASE STUDY FIREWALL
+## 31. PROOF / CASE STUDY FIREWALL
 
 Nguồn khuyến nghị sử dụng:
 
@@ -1280,9 +1278,9 @@ fake revenue
 fake health outcome
 ```
 
----
+______________________________________________________________________
 
-# 32. HEALTH CONTENT GUARD
+## 32. HEALTH CONTENT GUARD
 
 Nguồn sử dụng giảm cân/sức khỏe làm ví dụ.
 
@@ -1304,9 +1302,9 @@ EducationContent
 MedicalAdvice
 ```
 
----
+______________________________________________________________________
 
-# 33. RESEARCH → STRATEGY TRANSACTION
+## 33. RESEARCH → STRATEGY TRANSACTION
 
 ```yaml
 ResearchBundle:
@@ -1328,9 +1326,9 @@ validated / admitted ResearchBundle
 
 Không dùng invisible assumptions như facts.
 
----
+______________________________________________________________________
 
-# 34. STRATEGY → CONTENT CONTRACT
+## 34. STRATEGY → CONTENT CONTRACT
 
 ```yaml
 ContentBrief:
@@ -1348,9 +1346,9 @@ ContentBrief:
 
 Content Agent không được tự thay strategy nếu không explicit.
 
----
+______________________________________________________________________
 
-# 35. CONTENT → VISUAL CONTRACT
+## 35. CONTENT → VISUAL CONTRACT
 
 ```yaml
 VisualBrief:
@@ -1364,9 +1362,9 @@ VisualBrief:
   prohibited_elements:
 ```
 
----
+______________________________________________________________________
 
-# 36. REVIEW CONTRACT
+## 36. REVIEW CONTRACT
 
 Reviewer nhận:
 
@@ -1382,9 +1380,9 @@ không chỉ output cuối cùng.
 
 Điều này cho phép kiểm tra lineage.
 
----
+______________________________________________________________________
 
-# 37. WEEKLY OPERATING CYCLE
+## 37. WEEKLY OPERATING CYCLE
 
 Nguồn đề xuất:
 
@@ -1429,24 +1427,22 @@ LEARN
 NEXT CYCLE
 ```
 
----
+______________________________________________________________________
 
-# 38. CLOSED LEARNING LOOP
+## 38. CLOSED LEARNING LOOP
 
 Nguồn chủ yếu dừng ở generation.
 
 AMOS bổ sung feedback:
 
-[
-Strategy_{t+1}
-==============
+## \[ Strategy\_{t+1}
 
 Update
 (
 Strategy_t,
 Performance_t
 )
-]
+\]
 
 Nhưng update phải controlled.
 
@@ -1456,9 +1452,9 @@ does not automatically imply
 RepeatEverything
 ```
 
----
+______________________________________________________________________
 
-# 39. ANALYTICS TENSOR
+## 39. ANALYTICS TENSOR
 
 ```text
 M[
@@ -1480,45 +1476,37 @@ M[
 
 Không compress sớm thành một score duy nhất nếu decision cần phân biệt metrics.
 
----
+______________________________________________________________________
 
-# 40. FUNNEL METRICS
+## 40. FUNNEL METRICS
 
 Example:
 
-[
-CTR
-===
+## \[ CTR
 
-\frac{Clicks}{Impressions}
-]
+\\frac{Clicks}{Impressions}
+\]
 
-[
-CVR
-===
+## \[ CVR
 
-\frac{Conversions}{QualifiedVisits}
-]
+\\frac{Conversions}{QualifiedVisits}
+\]
 
-[
-FollowRate
-==========
+## \[ FollowRate
 
-\frac{NewFollowers}{Views}
-]
+\\frac{NewFollowers}{Views}
+\]
 
-[
-ShareRate
-=========
+## \[ ShareRate
 
-\frac{Shares}{Views}
-]
+\\frac{Shares}{Views}
+\]
 
 Định nghĩa denominator phải explicit.
 
----
+______________________________________________________________________
 
-# 41. VIRALITY FIREWALL
+## 41. VIRALITY FIREWALL
 
 ```text
 HighViews
@@ -1544,15 +1532,13 @@ Conversion
 
 AMOS phải giữ metrics tách biệt.
 
----
+______________________________________________________________________
 
-# 42. CONTENT MATRIX PERFORMANCE
+## 42. CONTENT MATRIX PERFORMANCE
 
 Matrix performance có thể model:
 
-[
-P(M)
-====
+## \[ P(M)
 
 f(
 Reach,
@@ -1560,7 +1546,7 @@ Retention,
 Trust,
 Conversion
 )
-]
+\]
 
 Nhưng:
 
@@ -1572,27 +1558,25 @@ phải được định nghĩa theo business objective.
 
 Không có một universal content score.
 
----
+______________________________________________________________________
 
-# 43. ADAPTIVE ALLOCATION
+## 43. ADAPTIVE ALLOCATION
 
 Thay vì cố định tỷ lệ mãi mãi:
 
-[
-w_{k,t+1}
-=========
+## \[ w\_{k,t+1}
 
-w_{k,t}
-+
-\eta
-\Delta_{k,t}
-]
+w\_{k,t}
+\+
+\\eta
+\\Delta\_{k,t}
+\]
 
 trong đó:
 
-- (w_{k,t}): allocation weight;
-- (\Delta_{k,t}): validated performance signal;
-- (\eta): learning rate.
+- (w\_{k,t}): allocation weight;
+- (\\Delta\_{k,t}): validated performance signal;
+- (\\eta): learning rate.
 
 Class:
 
@@ -1600,19 +1584,19 @@ Class:
 
 Constraints:
 
-[
-\sum_kw_k=1
-]
+\[
+\\sum_kw_k=1
+\]
 
 và:
 
-[
-w_k\ge0
-]
+\[
+w_k\\ge0
+\]
 
----
+______________________________________________________________________
 
-# 44. EXPLORATION / EXPLOITATION
+## 44. EXPLORATION / EXPLOITATION
 
 Content engine cần cân bằng:
 
@@ -1628,14 +1612,12 @@ test new formats
 
 Model:
 
-[
-Budget
-======
+## \[ Budget
 
-B_{exploit}
-+
-B_{explore}
-]
+B\_{exploit}
+\+
+B\_{explore}
+\]
 
 Không nên tối ưu chỉ bằng past winners vì:
 
@@ -1645,9 +1627,9 @@ audience fatigue
 creative saturation
 ```
 
----
+______________________________________________________________________
 
-# 45. CONTENT FATIGUE
+## 45. CONTENT FATIGUE
 
 Nếu cùng hook / format lặp lại:
 
@@ -1667,9 +1649,9 @@ CreativeFatigue:
   status:
 ```
 
----
+______________________________________________________________________
 
-# 46. NOVELTY
+## 46. NOVELTY
 
 Novelty không đồng nghĩa quality.
 
@@ -1691,9 +1673,9 @@ evidence
 fit
 ```
 
----
+______________________________________________________________________
 
-# 47. PLATFORM REGIME
+## 47. PLATFORM REGIME
 
 TikTok, YouTube Shorts, Instagram Reels và Facebook Reels không phải cùng một hệ.
 
@@ -1715,9 +1697,9 @@ Cross-platform transfer phải là:
 CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
-# 48. CONTENT LOCALIZATION
+## 48. CONTENT LOCALIZATION
 
 Nguồn ưu tiên thị trường Việt Nam.
 
@@ -1735,9 +1717,9 @@ GlobalMarketTruth
 
 Language, platform usage, cultural reference, pricing, health beliefs và conversion behavior có thể khác.
 
----
+______________________________________________________________________
 
-# 49. HUMAN CREATOR BOUNDARY
+## 49. HUMAN CREATOR BOUNDARY
 
 Agent system hỗ trợ creator.
 
@@ -1759,9 +1741,9 @@ Human owns identity
 Human approves publication
 ```
 
----
+______________________________________________________________________
 
-# 50. AUTHORITY MODEL
+## 50. AUTHORITY MODEL
 
 ```yaml
 Authority:
@@ -1793,9 +1775,9 @@ Authority:
     may_final_approve: true
 ```
 
----
+______________________________________________________________________
 
-# 51. INFORMATION BOUNDARY
+## 51. INFORMATION BOUNDARY
 
 Sensitive creator information should be minimized.
 
@@ -1808,9 +1790,9 @@ when explicitly relevant.
 
 Memory should not accumulate private information without need.
 
----
+______________________________________________________________________
 
-# 52. FAILURE REGISTRY
+## 52. FAILURE REGISTRY
 
 ```text
 F01 FAKE_MARKET_RESEARCH
@@ -1835,9 +1817,9 @@ F19 SOURCE_CORRELATION
 F20 AUTOMATION_WITHOUT_AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 53. FAILURE RECOVERY
+## 53. FAILURE RECOVERY
 
 ```text
 Failure
@@ -1874,15 +1856,15 @@ derived posts
 
 not the entire campaign.
 
----
+______________________________________________________________________
 
-# 54. SELECTIVE INVALIDATION
+## 54. SELECTIVE INVALIDATION
 
-[
+\[
 Invalid(p)
-\Rightarrow
+\\Rightarrow
 Invalid(Descendants(p))
-]
+\]
 
 Example:
 
@@ -1894,9 +1876,9 @@ invalidate content ideas dependent on R17
 recompute only affected strategy units
 ```
 
----
+______________________________________________________________________
 
-# 55. LOOP DETECTION
+## 55. LOOP DETECTION
 
 Content system can enter repetition loops:
 
@@ -1924,9 +1906,9 @@ CTA
 
 Repeated high-similarity fingerprints should trigger novelty review.
 
----
+______________________________________________________________________
 
-# 56. CONTENT PROVENANCE GRAPH
+## 56. CONTENT PROVENANCE GRAPH
 
 ```text
 Research Source
@@ -1950,9 +1932,9 @@ Performance Evidence
 
 This is preferable to isolated prompts.
 
----
+______________________________________________________________________
 
-# 57. RSCF — CONTENT ALLOCATION
+## 57. RSCF — CONTENT ALLOCATION
 
 ```yaml
 claim_id: CONTENT-MATRIX-ALLOC-001
@@ -1987,9 +1969,9 @@ confidence_ceiling:
   exact_ratios: source-bounded
 ```
 
----
+______________________________________________________________________
 
-# 58. RSCF — MULTI-AGENT CLAIM
+## 58. RSCF — MULTI-AGENT CLAIM
 
 ```yaml
 claim_id: CONTENT-MULTIAGENT-001
@@ -2016,9 +1998,9 @@ falsifier:
     materially lower orchestration complexity
 ```
 
----
+______________________________________________________________________
 
-# 59. RSCF — RESEARCH CLAIM
+## 59. RSCF — RESEARCH CLAIM
 
 ```yaml
 claim_id: CONTENT-RESEARCH-001
@@ -2041,9 +2023,9 @@ invalid_if:
   - platform/context mismatch exists
 ```
 
----
+______________________________________________________________________
 
-# 60. RSCF — CUSTOMER JOURNEY
+## 60. RSCF — CUSTOMER JOURNEY
 
 ```yaml
 claim_id: CONTENT-JOURNEY-001
@@ -2062,9 +2044,9 @@ does_not_establish:
   - one content unit affects only one stage
 ```
 
----
+______________________________________________________________________
 
-# 61. NON-LINEAR JOURNEY CORRECTION
+## 61. NON-LINEAR JOURNEY CORRECTION
 
 Nguồn mô tả journey tương đối tuyến tính.
 
@@ -2087,15 +2069,15 @@ Connected → Ignore
 
 Do đó:
 
-[
-P(J_{t+1}|J_t,C_t)
-]
+\[
+P(J\_{t+1}|J_t,C_t)
+\]
 
 là probabilistic, không deterministic.
 
----
+______________________________________________________________________
 
-# 62. CONTENT MATRIX AS POLICY
+## 62. CONTENT MATRIX AS POLICY
 
 Matrix không phải truth.
 
@@ -2114,9 +2096,9 @@ PLAN
 → UPDATE
 ```
 
----
+______________________________________________________________________
 
-# 63. WEEKLY POLICY UPDATE
+## 63. WEEKLY POLICY UPDATE
 
 ```yaml
 WeeklyReview:
@@ -2131,9 +2113,9 @@ WeeklyReview:
   next_experiments:
 ```
 
----
+______________________________________________________________________
 
-# 64. EXPERIMENT REGISTRY
+## 64. EXPERIMENT REGISTRY
 
 ```yaml
 Experiment:
@@ -2161,9 +2143,9 @@ posting time
 pillar
 ```
 
----
+______________________________________________________________________
 
-# 65. GOODHART FIREWALL
+## 65. GOODHART FIREWALL
 
 Nếu hệ thống tối ưu:
 
@@ -2188,9 +2170,9 @@ must match
 Objective
 ```
 
----
+______________________________________________________________________
 
-# 66. CONTENT QUALITY TENSOR
+## 66. CONTENT QUALITY TENSOR
 
 ```text
 Q[
@@ -2207,30 +2189,28 @@ Q[
 
 Không nhất thiết compress thành một scalar.
 
----
+______________________________________________________________________
 
-# 67. REVIEW SCORE
+## 67. REVIEW SCORE
 
 Nếu cần scalar:
 
-[
-Q_{total}
-=========
+## \[ Q\_{total}
 
-\sum_iw_iQ_i
-]
+\\sum_iw_iQ_i
+\]
 
 với:
 
-[
-\sum_iw_i=1
-]
+\[
+\\sum_iw_i=1
+\]
 
 Weights phải config/calibrated.
 
----
+______________________________________________________________________
 
-# 68. AUTOPUBLISH GOVERNANCE
+## 68. AUTOPUBLISH GOVERNANCE
 
 Nguồn đề xuất:
 
@@ -2259,9 +2239,9 @@ credential protection
 rollback/correction path
 ```
 
----
+______________________________________________________________________
 
-# 69. AUTOPUBLISH STATE MACHINE
+## 69. AUTOPUBLISH STATE MACHINE
 
 ```text
 DRAFT
@@ -2287,9 +2267,9 @@ PUBLISHED
 
 unless user explicitly configures such authority and risk is acceptable.
 
----
+______________________________________________________________________
 
-# 70. 30-DAY MATRIX GENERATION CONTRACT
+## 70. 30-DAY MATRIX GENERATION CONTRACT
 
 Inputs:
 
@@ -2321,9 +2301,9 @@ MatrixResult:
   experiments: []
 ```
 
----
+______________________________________________________________________
 
-# 71. VALIDATION GATES
+## 71. VALIDATION GATES
 
 Before matrix approval:
 
@@ -2340,9 +2320,9 @@ V9 PlatformFit
 V10 CreatorTruth
 ```
 
----
+______________________________________________________________________
 
-# 72. AGENT HANDOFF CONTRACT
+## 72. AGENT HANDOFF CONTRACT
 
 Every handoff should include:
 
@@ -2362,9 +2342,9 @@ Handoff:
 
 This prevents context loss.
 
----
+______________________________________________________________________
 
-# 73. ORCHESTRATOR STATE
+## 73. ORCHESTRATOR STATE
 
 ```yaml
 OrchestratorState:
@@ -2379,9 +2359,9 @@ OrchestratorState:
   retry_count:
 ```
 
----
+______________________________________________________________________
 
-# 74. RETRY RULE
+## 74. RETRY RULE
 
 ```text
 Retry
@@ -2393,9 +2373,9 @@ new evidence exists.
 
 Không retry vô hạn cùng prompt.
 
----
+______________________________________________________________________
 
-# 75. MODEL / TOOL SEPARATION
+## 75. MODEL / TOOL SEPARATION
 
 ```text
 LLM
@@ -2421,9 +2401,9 @@ orchestration / effect layer
 
 Một LLM không tự có access chỉ vì prompt yêu cầu.
 
----
+______________________________________________________________________
 
-# 76. CONTENT AGENT SYSTEM — AMOS STACK
+## 76. CONTENT AGENT SYSTEM — AMOS STACK
 
 ```text
 HUMAN / CREATOR
@@ -2448,9 +2428,9 @@ RESEARCH STRATEGY CONTENT VISUAL REVIEWER
           LEARNING / UPDATE
 ```
 
----
+______________________________________________________________________
 
-# 77. MINIMUM VIABLE CONFIGURATION
+## 77. MINIMUM VIABLE CONFIGURATION
 
 Một version nhỏ hơn có thể là:
 
@@ -2482,42 +2462,40 @@ latency
 maintainability
 ```
 
----
+______________________________________________________________________
 
-# 78. ORCHESTRATION COST
+## 78. ORCHESTRATION COST
 
 Generic model:
 
-[
-Cost_{total}
-============
+## \[ Cost\_{total}
 
-Cost_{generation}
-+
-Cost_{handoff}
-+
-Cost_{validation}
-+
-Cost_{retry}
-]
+Cost\_{generation}
+\+
+Cost\_{handoff}
+\+
+Cost\_{validation}
+\+
+Cost\_{retry}
+\]
 
 Multi-agent chỉ có lợi khi:
 
-[
-Value_{quality}
+\[
+Value\_{quality}
 
 >
 
-Cost_{coordination}
-]
+Cost\_{coordination}
+\]
 
 Class:
 
 `AMOS_MODEL`
 
----
+______________________________________________________________________
 
-# 79. COMPLETION MODEL
+## 79. COMPLETION MODEL
 
 ```text
 ContentCycleComplete
@@ -2551,9 +2529,9 @@ PublishedCycleComplete
 ∧ StrategyUpdated
 ```
 
----
+______________________________________________________________________
 
-# 80. COMPLETION != SUCCESS
+## 80. COMPLETION != SUCCESS
 
 ```text
 CycleCompleted
@@ -2563,9 +2541,9 @@ CampaignSucceeded
 
 Campaign success requires outcomes relative to explicit objective.
 
----
+______________________________________________________________________
 
-# 81. PRODUCTION-READINESS GATE
+## 81. PRODUCTION-READINESS GATE
 
 ```text
 ProductionReady
@@ -2587,9 +2565,9 @@ Without executed evidence:
 ProductionReady = UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 82. SOURCE PROMPT STATUS
+## 82. SOURCE PROMPT STATUS
 
 Các 6 prompts trong source nên được giữ như:
 
@@ -2617,9 +2595,9 @@ agent contracts
 validators
 ```
 
----
+______________________________________________________________________
 
-# 83. SHARED CONFIGURATION
+## 83. SHARED CONFIGURATION
 
 ```yaml
 ContentSystemConfig:
@@ -2662,9 +2640,9 @@ ContentSystemConfig:
 
 Agents reference config instead of duplicating the entire ruleset.
 
----
+______________________________________________________________________
 
-# 84. DRIFT PREVENTION
+## 84. DRIFT PREVENTION
 
 Duplicating rules into six prompts creates:
 
@@ -2682,9 +2660,9 @@ ONE SHARED CONFIG
 ROLE-SPECIFIC SKILL
 ```
 
----
+______________________________________________________________________
 
-# 85. SINGLE SOURCE OF TRUTH
+## 85. SINGLE SOURCE OF TRUTH
 
 ```text
 ContentRules
@@ -2696,9 +2674,9 @@ Agent prompts chỉ reference.
 
 Không copy-paste nhiều versions nếu system có shared state.
 
----
+______________________________________________________________________
 
-# 86. CONTENT MEMORY
+## 86. CONTENT MEMORY
 
 Persistent memory nên lưu:
 
@@ -2720,9 +2698,9 @@ all trend guesses
 all unverified observations
 ```
 
----
+______________________________________________________________________
 
-# 87. NEGATIVE MEMORY
+## 87. NEGATIVE MEMORY
 
 Store failures such as:
 
@@ -2744,9 +2722,9 @@ CTA caused dropoff
 unsupported claim rejected
 ```
 
----
+______________________________________________________________________
 
-# 88. FRESHNESS
+## 88. FRESHNESS
 
 Trend research nhanh stale.
 
@@ -2764,9 +2742,9 @@ Freshness:
 
 No one TTL fits all data.
 
----
+______________________________________________________________________
 
-# 89. PROVENANCE TOPOLOGY
+## 89. PROVENANCE TOPOLOGY
 
 Nếu 10 articles copy cùng một viral claim từ một original source:
 
@@ -2778,9 +2756,9 @@ Nếu 10 articles copy cùng một viral claim từ một original source:
 
 Research Agent nên track ancestry khi material.
 
----
+______________________________________________________________________
 
-# 90. RSCF MASTER NODE
+## 90. RSCF MASTER NODE
 
 ```yaml
 node_id: AMOS_CONTENT_AGENT_MATRIX_V3
@@ -2842,9 +2820,9 @@ confidence_ceiling:
   runtime_effectiveness: implementation_dependent
 ```
 
----
+______________________________________________________________________
 
-# 91. CHANGELOG
+## 91. CHANGELOG
 
 ## v3.0.0 — 2026-08-25
 
@@ -2904,9 +2882,9 @@ manual Claude.ai project setup
 Make.com / Zapier future automation
 ```
 
----
+______________________________________________________________________
 
-# 92. FINAL AMOS POSITION
+## 92. FINAL AMOS POSITION
 
 The source framework's strongest idea is not the exact content percentage.
 
@@ -2970,29 +2948,33 @@ The third rule is:
 
 > **Content heuristics are starting policies. Real analytics determine whether they survive, adapt, or are rejected.**
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · 06-Knowledge-Base-MOC · AMOS_AGENT_SCHEMA_FULL · AMOS_AGENT_TEMPLATES · AMOS_AGENT_ONBOARDING_GUIDE · system_scan_agent · automation_profiles
 
 ```
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos_content_agent_matrix_system
 node_type: note
 path: 11_KNOWLEDGE/AMOS_CONTENT_AGENT_MATRIX_SYSTEM.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]]

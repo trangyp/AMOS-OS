@@ -74,7 +74,7 @@
     "mckinsey-value-delivery-rscf"
   ],
   "depends_on_workflows": [
-    "mckinsey-value-delivery-rscf-workflow.md"
+    "amos-mckinsey-value-delivery-rscf-workflow.md"
   ],
   "epistemic_class": "AMOS_MODEL",
   "claim_ceiling": 0.95,

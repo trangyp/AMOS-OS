@@ -1,4 +1,7 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Vault Domain Knowledge — Amos Forex Unified Os Updated
 type: reference
 source: 07_SKILLS/amos-forex-unified-os-updated/references
@@ -157,7 +160,7 @@ rscf:
 
 <!-- NOTE: Source JSON truncated in original vault content. Closing braces added for structural validity. -->
 
----
+______________________________________________________________________
 
 ### Source 2: AMOS Unified Equation Framework (UEF)
 
@@ -165,7 +168,7 @@ rscf:
 
 > Path: `math/UNIFIED_EQUATION_FRAMEWORK_COMPLETE.md` | Size: 7174 chars | Match score: 13
 
-# AMOS Unified Equation Framework (UEF) - Implementation Complete
+## AMOS Unified Equation Framework (UEF) - Implementation Complete
 
 ## MISSION ACCOMPLISHED
 
@@ -247,6 +250,7 @@ Equation Types: ['algebra', 'ode', 'pde', 'vector']
 Total Dimensionality: 2
 
 ```
+
 ```
 
 S_{t+1} = F(S_t)
@@ -323,9 +327,10 @@ ______________________________________________________________________
 }
 }
 ```
+
 <!-- NOTE: Source JSON truncated in original vault content. Closing braces added for structural validity. -->
 
----
+______________________________________________________________________
 
 **MOC:** references_MOC
 
@@ -333,7 +338,7 @@ ______________________________________________________________________
 
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -341,7 +346,7 @@ ______________________________________________________________________
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
 
 RSCF-NODE
 node_id: amos-forex-unified-os-updated-vault-domain-knowledge
@@ -352,3 +357,4 @@ RSCF-RELATIONS:
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC
+```

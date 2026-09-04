@@ -1,45 +1,48 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: References MOC — References — Amos C07 Econ Finance Master
 type: moc
 source: 07_SKILLS/amos-c07-econ-finance-master/references
 tags:
-- references
-- type/skill
-- 11k-investment-agent
-- australia-economy-engine
-- australia-engine-layer
-- bizfin-engine-sector-packs
-- bizfin-kernel
-- bizfin-super-engine
-- business-finance-super-engine
-- coercion-economy
-- consulting-bizfin-engine
-- datapoint-economic-role-mapping
-- easy-fractal-money
-- econ-finance-engine-cognitive
-- econ-finance-engine-layer
-- floating-economy-market
-- fractal-economy
-- global-signal-economy-masterplan
-- innovative-private-sector-solutions
-- market-econ-kernel
-- money-regimes-structural-analysis
-- revenue-architecture-kernel
-- sector-rotation-engine
-- signal-economy-investor-pitch
-- signal-economy-planetary-consent
-- signal-economy-rollout-playbook
-- signal-economy-trust-study
-- subscription-agent
-- ubi-super-engine
-- uni-market-engine
-- vault-domain-knowledge
-- vn-business-model-criteria
-- vn-vscci-investment-proposal
-- wealth-game-hack-5000
-- wealth-game-hack-50000
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - references
+  - type/skill
+  - 11k-investment-agent
+  - australia-economy-engine
+  - australia-engine-layer
+  - bizfin-engine-sector-packs
+  - bizfin-kernel
+  - bizfin-super-engine
+  - business-finance-super-engine
+  - coercion-economy
+  - consulting-bizfin-engine
+  - datapoint-economic-role-mapping
+  - easy-fractal-money
+  - econ-finance-engine-cognitive
+  - econ-finance-engine-layer
+  - floating-economy-market
+  - fractal-economy
+  - global-signal-economy-masterplan
+  - innovative-private-sector-solutions
+  - market-econ-kernel
+  - money-regimes-structural-analysis
+  - revenue-architecture-kernel
+  - sector-rotation-engine
+  - signal-economy-investor-pitch
+  - signal-economy-planetary-consent
+  - signal-economy-rollout-playbook
+  - signal-economy-trust-study
+  - subscription-agent
+  - ubi-super-engine
+  - uni-market-engine
+  - vault-domain-knowledge
+  - vn-business-model-criteria
+  - vn-vscci-investment-proposal
+  - wealth-game-hack-5000
+  - wealth-game-hack-50000
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 moc: true
 rscf:
   state: SOURCE_CLAIM
@@ -89,9 +92,9 @@ rscf:
 - [[07_SKILLS/amos-c07-econ-finance-master/references/wealth_game_hack_5000|wealth_game_hack_5000]]
 - [[07_SKILLS/amos-c07-econ-finance-master/references/wealth_game_hack_50000|wealth_game_hack_50000]]
 
----
-**Parent:** [[07_SKILLS/amos-c07-econ-finance-master/amos-c07-econ-finance-master_MOC|amos-c07-econ-finance-master_MOC]]
----
+______________________________________________________________________
+
+## **Parent:** [[07_SKILLS/amos-c07-econ-finance-master/amos-c07-econ-finance-master_MOC|amos-c07-econ-finance-master_MOC]]
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -99,12 +102,14 @@ rscf:
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-c07-econ-finance-master-references-MOC
 node_type: reference
 path: 07_SKILLS/amos-c07-econ-finance-master/references/references_MOC.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

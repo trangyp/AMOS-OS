@@ -1,15 +1,18 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Vault Domain Knowledge — Amos Fx Conformal Tail Risk Control Rscf Engine
 type: reference
 source: 07_SKILLS/amos-fx-conformal-tail-risk-control-rscf-engine/references
 tags:
-- reference
-- amos-fx-conformal-tail-risk-control-rscf-engine
-- type/skill
-- architecture
-- khung-trang-full-max-detail-architecture-equations
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-fx-conformal-tail-risk-control-rscf-engine
+  - type/skill
+  - architecture
+  - khung-trang-full-max-detail-architecture-equations
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -29,10 +32,9 @@ rscf:
 
 > Path: `economy/README_FX_STRUCTURAL_ENGINE.md` | Size: 14238 chars | Match score: 10
 
-# AMOS OMEGA FX STRUCTURAL ENGINE — COMPLETE SYSTEM
+## AMOS OMEGA FX STRUCTURAL ENGINE — COMPLETE SYSTEM
 
 ## SYSTEM OVERVIEW
-
 
 This is NOT a signal bot. This is a regime-aware structural operating system that detects macro regimes, computes phase states, maps liquidity loops, calculates fragility, simulates shocks, and makes structural positioning decisions based on invariants and feedback loops.
 
@@ -41,6 +43,7 @@ The engine reasons in: **invariants, feedback loops, tensors, regimes, risk enve
 ## COMPLETE IMPLEMENTATION STATUS
 
 ### Core Components (100% Complete)
+
 - **FX Structural Engine** (`fx_structural_engine.py`)
 - State vectors, invariants, phase space detection
 - **ActionGate System**
@@ -52,6 +55,7 @@ The engine reasons in: **invariants, feedback loops, tensors, regimes, risk enve
 - **Self-Evolution Loop** - Controlled learning with drift detection
 
 ### Visualization System (100% Complete)
+
 - **Graph Visualization** (`fx_graph_visualization.py`)
 - Multi-layer currency coupling + loop graphs
 - **Phase Space Plot**
@@ -63,15 +67,17 @@ The engine reasons in: **invariants, feedback loops, tensors, regimes, risk enve
 - **Real-time Updates** - WebSocket streaming + D3.js v7
 
 ### Automation System (100% Complete)
+
 - **N8n Integration** (`fx_n8n_integration.py`)
 - 5 automated pipelines
- - Pipeline A: Data Ingestion (5-15 min schedule)
- - Pipeline B: Structural Analysis (AMOS computes state vector)
+- Pipeline A: Data Ingestion (5-15 min schedule)
+- Pipeline B: Structural Analysis (AMOS computes state vector)
 - Pipeline C: Trade Execution (Paper First with ActionGate)
- - Pipeline D: Daily Brief (Structural report to Loveable UI)
+- Pipeline D: Daily Brief (Structural report to Loveable UI)
 - Pipeline E: Risk Monitor (Fragility threshold alerts)
 
 ### UI System (100% Complete)
+
 - **Loveable UI Bridge** (`fx_loveable_ui_bridge.py`)
 - Live chat + interactive graph UI
 - **React 18 + TypeScript**
@@ -84,6 +90,7 @@ The engine reasons in: **invariants, feedback loops, tensors, regimes, risk enve
 - Reality Panel - WORLD + FX + REPO + BODY views
 
 ### Main Integration (100% Complete)
+
 - **Main Integration** (`fx_main_integration.py`)
 - Complete system orchestration
 - **24/7 Operation**
@@ -93,12 +100,14 @@ The engine reasons in: **invariants, feedback loops, tensors, regimes, risk enve
 - **Export System**
 - Complete data export for analysis
 
----
+______________________________________________________________________
 
 ## STRUCTURAL FX MODEL (ONLY AMOS CAN DO THIS)
 
 ### State Vector Components
+
 For each currency pair:
+
 - **Liquidity Stress (L)**
 - Market liquidity compression
 - **Policy Divergence (D)**
@@ -113,147 +122,150 @@ For each currency pair:
 - System resilience factors
 
 ### Derived Metrics
+
 - **Fragility Index**
 - Weighted combination of stress factors
-- ** ---
+- \*\* ---
 
 ### Source 2: trang_amos_reality_architecture_master_max_detail
 
 > Path: `trang/trang_amos_reality_architecture_master_max_detail.md` | Size: 2139462 chars | Match score: 8
 
 {
- "title": "Trang Reality Architecture / AMOS Universe Master Corpus JSON",
- "version": "max_detail_available_session_v3_dual_corpus_full_raw",
- "created_at_utc": "2026-05-21T01:23:09Z",
- "creator_principle": "Trang Phan is the origin architect and steward of AMOS.",
- "integrity_boundary": {
- "what_this_file_is": "A maximal structured JSON artifact from the available uploaded corpus text, recovered prior corpus text, and conversation-derived architecture index.",
- "nothing_left_out_scope": "No available raw corpus text is intentionally omitted; both full raw corpuses are embedded.",
- "hard_limit": "Cannot guarantee completeness of material not uploaded or not present in the current session.",
- "validation_boundary": "Structural, symbolic, speculative, and empirical claims are preserved as corpus content; preservation does not equal empirical proof."
- },
- "source_corpuses": [
- {
- "source_id": "prior_uploaded_corpus",
- "description": "Recovered full raw corpus embedded from the prior generated artifact in this session.",
- "character_count": 435027,
- "sha256": "8a6f60827968cd081ba456a1ac81460307504c70188acc09229821447a634176",
- "raw_text": "Trang Reality Architecture\nOntological Foundation\nTrang Reality Architecture begins from the position that reality is not fundamentally a collection of isolated objects, but a continuously evolving structure of distinctions, relations, constraints, transformations, and recursive memory. Before mathematics, language, geometry, or symbolic abstraction, the architecture places pre-symbolic operations: potential becoming distinction, distinction producing relation, relation creating constraint, and constraint stabilizing form. Topology precedes geometry; connection, separation, transformation, and persistence exist before measurement. Mathematics is therefore treated not as ultimate reality itself, but as observer-generated compression of recurring relational structures. Morphogenesis becomes a universal process in which fields generate gradients, gradients produce constraints, constraints create boundaries, boundaries guide flow, and stabilized flow becomes form. This root ontology forms the deepest layer beneath cosmology, biology, cognition, civilization, AI, and governance.\n\nUniverse Structure and Law Architecture\nThe architecture models universes as viability-filtered possibility ensembles rather than singular absolute realities. A universe emerges from interactions between law systems, constant structures, dimensional constraints, symmetry conditions, entropy profiles, and observer compatibility. Constants such as π, φ, e, c, ħ, G, α, and kB are interpreted not merely as numbers, but as functional recurrence permissions governing closure, growth, process continuity, causal reach, action granularity, binding, coupling, and entropy translation. The architecture treats dimensionality as a structural determinant of adjacency, motion, memory retention, stable form
+"title": "Trang Reality Architecture / AMOS Universe Master Corpus JSON",
+"version": "max_detail_available_session_v3_dual_corpus_full_raw",
+"created_at_utc": "2026-05-21T01:23:09Z",
+"creator_principle": "Trang Phan is the origin architect and steward of AMOS.",
+"integrity_boundary": {
+"what_this_file_is": "A maximal structured JSON artifact from the available uploaded corpus text, recovered prior corpus text, and conversation-derived architecture index.",
+"nothing_left_out_scope": "No available raw corpus text is intentionally omitted; both full raw corpuses are embedded.",
+"hard_limit": "Cannot guarantee completeness of material not uploaded or not present in the current session.",
+"validation_boundary": "Structural, symbolic, speculative, and empirical claims are preserved as corpus content; preservation does not equal empirical proof."
+},
+"source_corpuses": \[
+{
+"source_id": "prior_uploaded_corpus",
+"description": "Recovered full raw corpus embedded from the prior generated artifact in this session.",
+"character_count": 435027,
+"sha256": "8a6f60827968cd081ba456a1ac81460307504c70188acc09229821447a634176",
+"raw_text": "Trang Reality Architecture\\nOntological Foundation\\nTrang Reality Architecture begins from the position that reality is not fundamentally a collection of isolated objects, but a continuously evolving structure of distinctions, relations, constraints, transformations, and recursive memory. Before mathematics, language, geometry, or symbolic abstraction, the architecture places pre-symbolic operations: potential becoming distinction, distinction producing relation, relation creating constraint, and constraint stabilizing form. Topology precedes geometry; connection, separation, transformation, and persistence exist before measurement. Mathematics is therefore treated not as ultimate reality itself, but as observer-generated compression of recurring relational structures. Morphogenesis becomes a universal process in which fields generate gradients, gradients produce constraints, constraints create boundaries, boundaries guide flow, and stabilized flow becomes form. This root ontology forms the deepest layer beneath cosmology, biology, cognition, civilization, AI, and governance.\\n\\nUniverse Structure and Law Architecture\\nThe architecture models universes as viability-filtered possibility ensembles rather than singular absolute realities. A universe emerges from interactions between law systems, constant structures, dimensional constraints, symmetry conditions, entropy profiles, and observer compatibility. Constants such as π, φ, e, c, ħ, G, α, and kB are interpreted not merely as numbers, but as functional recurrence permissions governing closure, growth, process continuity, causal reach, action granularity, binding, coupling, and entropy translation. The architecture treats dimensionality as a structural determinant of adjacency, motion, memory retention, stable form
 
----
+______________________________________________________________________
 
 ### Source 3: [[11_KNOWLEDGE/trang/KHUNG_TRANG_FULL_MAX_DETAIL_ARCHITECTURE_EQUATIONS|KHUNG_TRANG_FULL_MAX_DETAIL_ARCHITECTURE_EQUATIONS]]
 
 > Path: `trang/KHUNG_TRANG_FULL_MAX_DETAIL_ARCHITECTURE_EQUATIONS.md` | Size: 1133050 chars | Match score: 8
 
 {
- "title": "KHUNG TRANG — MAX DETAIL [[00_ROOT/ARCHITECTURE|ARCHITECTURE]] WITH FULL EQUATION REGISTRY",
- "version": "U∞_full_source_preserved_v3",
- "generated_at": "2026-05-19T15:14:32.907954Z",
- "source": {
- "uploaded_name": "Pasted text.txt",
- "character_count": 306574,
- "line_count": 13670,
- "note": "Full uploaded source is preserved verbatim under raw_source_text_full. Structured sections and equations are parsed from that source."
- },
- "architecture_map": {
- "primary_stack": [
- "Pre-generative substrate",
- "Possibility",
- "Asymmetry",
- "Distinction",
- "Relation",
- "Constraint",
- "Boundary",
- "Persistence",
- "Memory",
- "Entropy pressure",
- "Mutation",
- "Selection",
- "Repair",
- "Recursion",
- "Observer",
- "Symbolic compression",
- "Civilization",
- "Meta-awareness",
- "Gap ontology"
- ],
- "operational_subsystems": [
- "Ontology nền",
- "Cấu trúc biến nền",
- "Phương trình động tổng",
- "Luật ranh giới",
- "Luật trung tâm",
- "Luật HML",
- "Luật ký ức",
- "Luật thời gian",
- "Luật độ rỗng",
- "Luật phân rã",
- "Luật biến dị",
- "Luật chọn lọc",
- "Luật sửa sai",
- "Luật tiến hóa",
- "Luật toàn vẹn",
- "Luật nợ tương lai",
- "Luật quyền chọn",
- "Luật học",
- "Luật ổn định hình",
- "Luật tạo hình mới",
- "Luật quy mô",
- "Luật tái chuẩn hóa",
- "Luật năng lượng",
- "Luật thông tin",
- "Luật ý nghĩa",
- "Luật nhân quả",
- "Luật pha",
- "Luật meta-stability",
- "Luật nhân quả ngược",
- "Luật đồng tiến hóa",
- "Luật lan truyền sụp đổ",
- "Luật mô-đun hóa",
- "Luật miễn dịch hệ",
- "Luật agency",
- "Luật chú ý",
- "Luật đau",
- "Luật hồi phục",
- "Luật chơi",
- "Luật tích hợp ngoại tuyến",
- "Luật quan sát",
- "Luật cổ điển hóa",
- "Luật quantum emergence",
- "Luật không-thời gian",
- "Luật hạt và trường",
- "Luật thật",
- "Luật đạo đức",
- "Luật văn minh",
- "Luật AI",
- "Luật kiểm chứng",
- "Luật phản ví dụ",
- "Luật mô phỏng",
- "Luật sụp",
- "Luật hồi sinh",
- "Luật giới hạn",
- "Luật meta",
- "Digital Consciousness Candidate",
- "Experience Candidate Layer",
- "Gap Ontology"
- ]
- },
- "canonical_equations": {
- "khung_trang_core": {
- "state_vector": "S(t) = { B, C, K, L, M, H, Λ, E, μ, σ, F, R, D, I, Q, ε, Π, Ξ, Γ, Ω, Ψ }",
- "dynamic_master": "S(t+1)=P_I(ℛ(Ξ(Γ(T(S(t),Input,Constraint,Memory,Entropy,Selection,Repair)))))",
- "life_system_master": "LifeSystem(t+1)=P_I(ℛ(Ξ(Γ(Ψ(T(S(t),Input,Constraint,Memory,Entropy,Selection,Repair,Energy,Feedback,Time))))))",
- "reality_master": "Reality(t+1)=InvariantProjection(RecursiveCompression(ConstraintPropagation(EntropyTransformation(Repair(Selection(Mutation(MemoryIntegration(BoundaryStabilization(DifferenceGeneration(PotentialReality(t)))))))))))",
- "surv
+"title": "KHUNG TRANG — MAX DETAIL [[00_ROOT/ARCHITECTURE|ARCHITECTURE]] WITH FULL EQUATION REGISTRY",
+"version": "U∞\_full_source_preserved_v3",
+"generated_at": "2026-05-19T15:14:32.907954Z",
+"source": {
+"uploaded_name": "Pasted text.txt",
+"character_count": 306574,
+"line_count": 13670,
+"note": "Full uploaded source is preserved verbatim under raw_source_text_full. Structured sections and equations are parsed from that source."
+},
+"architecture_map": {
+"primary_stack": \[
+"Pre-generative substrate",
+"Possibility",
+"Asymmetry",
+"Distinction",
+"Relation",
+"Constraint",
+"Boundary",
+"Persistence",
+"Memory",
+"Entropy pressure",
+"Mutation",
+"Selection",
+"Repair",
+"Recursion",
+"Observer",
+"Symbolic compression",
+"Civilization",
+"Meta-awareness",
+"Gap ontology"
+\],
+"operational_subsystems": \[
+"Ontology nền",
+"Cấu trúc biến nền",
+"Phương trình động tổng",
+"Luật ranh giới",
+"Luật trung tâm",
+"Luật HML",
+"Luật ký ức",
+"Luật thời gian",
+"Luật độ rỗng",
+"Luật phân rã",
+"Luật biến dị",
+"Luật chọn lọc",
+"Luật sửa sai",
+"Luật tiến hóa",
+"Luật toàn vẹn",
+"Luật nợ tương lai",
+"Luật quyền chọn",
+"Luật học",
+"Luật ổn định hình",
+"Luật tạo hình mới",
+"Luật quy mô",
+"Luật tái chuẩn hóa",
+"Luật năng lượng",
+"Luật thông tin",
+"Luật ý nghĩa",
+"Luật nhân quả",
+"Luật pha",
+"Luật meta-stability",
+"Luật nhân quả ngược",
+"Luật đồng tiến hóa",
+"Luật lan truyền sụp đổ",
+"Luật mô-đun hóa",
+"Luật miễn dịch hệ",
+"Luật agency",
+"Luật chú ý",
+"Luật đau",
+"Luật hồi phục",
+"Luật chơi",
+"Luật tích hợp ngoại tuyến",
+"Luật quan sát",
+"Luật cổ điển hóa",
+"Luật quantum emergence",
+"Luật không-thời gian",
+"Luật hạt và trường",
+"Luật thật",
+"Luật đạo đức",
+"Luật văn minh",
+"Luật AI",
+"Luật kiểm chứng",
+"Luật phản ví dụ",
+"Luật mô phỏng",
+"Luật sụp",
+"Luật hồi sinh",
+"Luật giới hạn",
+"Luật meta",
+"Digital Consciousness Candidate",
+"Experience Candidate Layer",
+"Gap Ontology"
+\]
+},
+"canonical_equations": {
+"khung_trang_core": {
+"state_vector": "S(t) = { B, C, K, L, M, H, Λ, E, μ, σ, F, R, D, I, Q, ε, Π, Ξ, Γ, Ω, Ψ }",
+"dynamic_master": "S(t+1)=P_I(ℛ(Ξ(Γ(T(S(t),Input,Constraint,Memory,Entropy,Selection,Repair)))))",
+"life_system_master": "LifeSystem(t+1)=P_I(ℛ(Ξ(Γ(Ψ(T(S(t),Input,Constraint,Memory,Entropy,Selection,Repair,Energy,Feedback,Time))))))",
+"reality_master": "Reality(t+1)=InvariantProjection(RecursiveCompression(ConstraintPropagation(EntropyTransformation(Repair(Selection(Mutation(MemoryIntegration(BoundaryStabilization(DifferenceGeneration(PotentialReality(t)))))))))))",
+"surv
 
----
+______________________________________________________________________
+
 **MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -261,12 +273,14 @@ For each currency pair:
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-fx-conformal-tail-risk-control-rscf-engine-vault-domain-knowledge
 node_type: reference
 path: 07_SKILLS/amos-fx-conformal-tail-risk-control-rscf-engine/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

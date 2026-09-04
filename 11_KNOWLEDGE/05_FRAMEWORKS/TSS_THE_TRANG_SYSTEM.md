@@ -12,27 +12,27 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: FRAMEWORK
 path: 11_KNOWLEDGE/05_FRAMEWORKS/TSS_THE_TRANG_SYSTEM.md
 tags:
-- amos-os
-- knowledge
-- vault
-- 05_frameworks
-- tss
-- trang_system
-- seven_cycles
-- four_variables
-- systems_dynamics
-- governance
-- lifecycle_analysis
-- rscf
-- canon_candidate
-- canon/knowledge
-- tpe-trang-prediction-engine
-- amos-x-tss
-- amos-x-tss-tpe-matrix
-- tss-the-trang-system-official-manual
-- unified-biological-intelligence
-- the-seven-cycles-of-the-trang-system-official-m
-- trang-reality-architecture
+  - amos-os
+  - knowledge
+  - vault
+  - 05_frameworks
+  - tss
+  - trang_system
+  - seven_cycles
+  - four_variables
+  - systems_dynamics
+  - governance
+  - lifecycle_analysis
+  - rscf
+  - canon_candidate
+  - canon/knowledge
+  - tpe-trang-prediction-engine
+  - amos-x-tss
+  - amos-x-tss-tpe-matrix
+  - tss-the-trang-system-official-manual
+  - unified-biological-intelligence
+  - the-seven-cycles-of-the-trang-system-official-m
+  - trang-reality-architecture
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -47,13 +47,13 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - TSS_THE_TRANG_SYSTEM_OFFICIAL_MANUAL
-  - THE_SEVEN_CYCLES_OF_THE_TRANG_SYSTEM_OFFICIAL_M
-  - AMOS_CORPUS
+    - TSS_THE_TRANG_SYSTEM_OFFICIAL_MANUAL
+    - THE_SEVEN_CYCLES_OF_THE_TRANG_SYSTEM_OFFICIAL_M
+    - AMOS_CORPUS
   scope:
-  - KNOWLEDGE_FRAMEWORKS
-  - SYSTEMS_DYNAMICS
-  - SOURCE_DEFINED_TSS_MODEL
+    - KNOWLEDGE_FRAMEWORKS
+    - SYSTEMS_DYNAMICS
+    - SOURCE_DEFINED_TSS_MODEL
 framework_binding:
   primary:
     name: The Trang System™
@@ -63,12 +63,12 @@ framework_binding:
     name: The Trang Prediction Engine™
     acronym: TPE
     artifact:
-    - - TPE_TRANG_PREDICTION_ENGINE
+      -   - TPE_TRANG_PREDICTION_ENGINE
   cognitive_matrix_binding:
     artifact:
-    - - AMOS_X_TSS
+      -   - AMOS_X_TSS
     matrix:
-    - - AMOS_X_TSS_TPE_MATRIX
+      -   - AMOS_X_TSS_TPE_MATRIX
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
@@ -81,12 +81,13 @@ epistemic_boundary:
 `TSS_THE_TRANG_SYSTEM.md` is the canonical Knowledge Plane reference artifact for **The Trang System™ (TSS)** within `11_KNOWLEDGE/05_FRAMEWORKS`.
 
 It integrates the foundational models established in native vault manuals:
+
 - [[11_KNOWLEDGE/trang/TSS_THE_TRANG_SYSTEM_OFFICIAL_MANUAL|TSS_THE_TRANG_SYSTEM_OFFICIAL_MANUAL]]
 - [[11_KNOWLEDGE/trang/THE_SEVEN_CYCLES_OF_THE_TRANG_SYSTEM_OFFICIAL_M|THE_SEVEN_CYCLES_OF_THE_TRANG_SYSTEM_OFFICIAL_M]]
 
----
+______________________________________________________________________
 
-# 1. Structural Architecture
+## 1. Structural Architecture
 
 The Trang System™ provides a universal language for interpreting how human-linked systems evolve across time, scale, and complexity.
 
@@ -102,9 +103,9 @@ The Trang System™ provides a universal language for interpreting how human-lin
  F: Fragmentation, S: Shock)                                         Absorption, Stagnation)
 ```
 
----
+______________________________________________________________________
 
-# 2. Key Mathematical Formulations
+## 2. Key Mathematical Formulations
 
 - **Variable Couplings:**
   $$\frac{\partial H}{\partial F} < 0 \quad (\text{Internal division erodes social trust and cohesion})$$
@@ -114,9 +115,9 @@ The Trang System™ provides a universal language for interpreting how human-lin
 - **Internal Coherence ($i$) and Emergence ($e$):**
   $$i = \left[ H \cdot (1 - \Omega) \cdot (1 - F) \cdot (1 - S) \right]^{1/4}, \quad e = i^2$$
 
----
+______________________________________________________________________
 
-# 3. Inter-Plane & Cross-Framework Connections
+## 3. Inter-Plane & Cross-Framework Connections
 
 - **Cognitive Matrix:** [[25_COGNITIVE_MATRIX/AMOS_X_TSS|AMOS_X_TSS]] and [[25_COGNITIVE_MATRIX/AMOS_X_TSS_TPE_MATRIX|AMOS_X_TSS_TPE_MATRIX]] (Decision and foresight routing).
 - **Prediction Engine:** [[11_KNOWLEDGE/trang/TPE_TRANG_PREDICTION_ENGINE|TPE_TRANG_PREDICTION_ENGINE]] (Trajectory and window forecasting).
@@ -124,9 +125,9 @@ The Trang System™ provides a universal language for interpreting how human-lin
 - **Ontological Grounding:** [[11_KNOWLEDGE/trang/TRANG_REALITY_ARCHITECTURE|TRANG_REALITY_ARCHITECTURE]] ($P \to D \to R \to C \to F \to M$).
 - **Native Sources:** `11_KNOWLEDGE/trang/TSS_THE_TRANG_SYSTEM_OFFICIAL_MANUAL`
 
----
+______________________________________________________________________
 
-# 4. RSCF Contract
+## 4. RSCF Contract
 
 ```yaml
 RSCF:
@@ -147,9 +148,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]] · [[11_KNOWLEDGE/trang/TPE_TRANG_PREDICTION_ENGINE|TPE_TRANG_PREDICTION_ENGINE]] · [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]] · [[25_COGNITIVE_MATRIX/AMOS_X_TSS|AMOS_X_TSS]] · [[25_COGNITIVE_MATRIX/AMOS_X_TSS_TPE_MATRIX|AMOS_X_TSS_TPE_MATRIX]]
 
----
+______________________________________________________________________
+
 **MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]

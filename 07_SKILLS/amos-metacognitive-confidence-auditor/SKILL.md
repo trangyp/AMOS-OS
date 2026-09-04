@@ -4,25 +4,22 @@ title: SKILL — Amos Metacognitive Confidence Auditor
 type: skill
 source: 07_SKILLS/amos-metacognitive-confidence-auditor
 name: amos-metacognitive-confidence-auditor
-description: Metacognitive Confidence Auditor — audit and repair capability. Use when
-  auditing, failure analysis, gap discovery, or repair allocation. Use when amos-audit-repair-master
-  routes to this specialized capability. Do not use for generic tasks outside audit
-  domain.
+description: Metacognitive Confidence Auditor — audit and repair capability. Use when auditing, failure analysis, gap discovery, or repair allocation. Use when amos-audit-repair-master routes to this specialized capability. Do not use for generic tasks outside audit domain.
 parent_skill: amos-audit-repair-master
 domain: audit
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
 tags:
-- type/skill
-- type/skill
-- domain/audit-repair
-- epistemic/source_claim
-- hml/m
-- epistemic/source_claim
-- amos-os
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/audit-repair
+  - epistemic/source_claim
+  - hml/m
+  - epistemic/source_claim
+  - amos-os
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -32,25 +29,25 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: M
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
-- L7_authority
-- L22_replayability
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
+  - L7_authority
+  - L22_replayability
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L7
-- L16
-- L17
-- L18
-- L22
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L7
+  - L16
+  - L17
+  - L18
+  - L22
 license: MIT
 steward: Trang Phan
 ---
@@ -60,6 +57,7 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: audit. Parent: amos-audit-repair-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
 ## When to Use
 
 - When auditing claims against evidence and provenance
@@ -87,13 +85,13 @@ Origin architect: **Trang Phan**. Domain: audit. Parent: amos-audit-repair-maste
 ## Operations
 
 1. **metacognitive_confidence.audit_claim**: Audit claims against evidence, provenance, and epistemic class
-2. **metacognitive_confidence.detect_gap**: Detect gaps: missing capabilities, missing evidence, missing tests, missing monitors
-3. **metacognitive_confidence.allocate_repair**: Allocate repair resources to highest-leverage gaps and failure modes
-4. **metacognitive_confidence.verify_closure**: Verify gap closure: requirement → capability → component → test → evidence
-5. **metacognitive_confidence.benchmark_forensics**: Benchmark forensic analysis: trace performance regressions to root causes
-6. **metacognitive_confidence.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-7. **metacognitive_confidence.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
-8. **metacognitive_confidence.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+1. **metacognitive_confidence.detect_gap**: Detect gaps: missing capabilities, missing evidence, missing tests, missing monitors
+1. **metacognitive_confidence.allocate_repair**: Allocate repair resources to highest-leverage gaps and failure modes
+1. **metacognitive_confidence.verify_closure**: Verify gap closure: requirement → capability → component → test → evidence
+1. **metacognitive_confidence.benchmark_forensics**: Benchmark forensic analysis: trace performance regressions to root causes
+1. **metacognitive_confidence.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+1. **metacognitive_confidence.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+1. **metacognitive_confidence.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## 11_KNOWLEDGE Vault Content
 
@@ -105,41 +103,47 @@ Origin architect: **Trang Phan**. Domain: audit. Parent: amos-audit-repair-maste
 From Cosmo Brain Metacognitive: Metacognitive monitoring and control. From C05 Mind & Behavior: Confidence calibration and metacognitive awareness.
 
 **Metacognitive confidence model**:
+
 - **Confidence calibration**: confidence must be calibrated to evidence strength
 - **Confidence ceiling**: confidence cannot exceed evidence support (from RSCF)
 - **Confidence tracking**: track confidence changes through reasoning chains
 - **Confidence audit**: audit confidence against actual outcomes
 
 **Metacognitive monitoring**:
+
 - **Self-monitoring**: the system monitors its own reasoning process
 - **Error detection**: the system detects errors in its own reasoning
 - **Uncertainty awareness**: the system is aware of its own uncertainty
 - **Confidence awareness**: the system is aware of its own confidence level
 
 **Auditing protocol**:
+
 1. **Sample**: sample reasoning chains for audit
-2. **Check confidence**: check confidence against evidence support
-3. **Check calibration**: check confidence calibration against outcomes
-4. **Check ceiling**: check confidence does not exceed evidence
-5. **Report**: report audit findings with provenance
+1. **Check confidence**: check confidence against evidence support
+1. **Check calibration**: check confidence calibration against outcomes
+1. **Check ceiling**: check confidence does not exceed evidence
+1. **Report**: report audit findings with provenance
 
 **Auditing laws**:
+
 - `CONFIDENCE != ACCURACY`: high confidence does not imply high accuracy
-- `CALIBRATION != CORRECTION**: calibration aligns confidence with accuracy; correction fixes errors
-- `METACOGNITION != COGNITION**: metacognition is cognition about cognition; it is not cognition itself
+- \`CALIBRATION != CORRECTION\*\*: calibration aligns confidence with accuracy; correction fixes errors
+- \`METACOGNITION != COGNITION\*\*: metacognition is cognition about cognition; it is not cognition itself
 
 ### Epistemic Boundary
 
 Metacognitive confidence auditing is an epistemic construct. It does not prove confidence is always calibrated, that metacognition is always accurate, or that auditing detects all confidence errors.
 
 ## Failure Modes
+
 - **Insufficient evidence**: If source material is insufficient, mark as UNKNOWN/GAP and fail closed — do not fabricate.
 - **Scope violation**: If the query falls outside the skill's declared scope, escalate to the parent skill or steward.
 - **Binding broken**: If 1:1:1 binding (skill→agent→workflow) is broken, flag routing mismatch and block execution.
 - **Validation failure**: If validation gates fail, downgrade confidence, flag the gap, and escalate — do not force-fit.
 - **Epistemic overreach**: I
 
----
+______________________________________________________________________
+
 **Links:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 ## Related
@@ -149,17 +153,19 @@ Metacognitive confidence auditing is an epistemic construct. It does not prove c
 ## Examples
 
 - **Scenario**: When auditing claims against evidence and provenance
+
   - **Input**: A query matching this skill's domain (audit)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When detecting gaps in capabilities, evidence, tests, or monitors
+
   - **Input**: A query matching this skill's domain (audit)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When allocating repair resources to highest-leverage gaps
+
   - **Input**: A query matching this skill's domain (audit)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Validation Gates
 
@@ -176,7 +182,6 @@ Metacognitive confidence auditing is an epistemic construct. It does not prove c
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `amos-audit-repair-master` — routes to this skill when audit specialization is needed
@@ -184,7 +189,6 @@ Metacognitive confidence auditing is an epistemic construct. It does not prove c
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -203,7 +207,6 @@ Metacognitive confidence auditing is an epistemic construct. It does not prove c
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -211,7 +214,6 @@ Metacognitive confidence auditing is an epistemic construct. It does not prove c
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -224,11 +226,12 @@ Metacognitive confidence auditing is an epistemic construct. It does not prove c
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `amos-audit-repair-master` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `amos-metacognitive-confidence-auditor-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -236,12 +239,14 @@ Metacognitive confidence auditing is an epistemic construct. It does not prove c
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-metacognitive-confidence-auditor
 node_type: skill
 path: 07_SKILLS/amos-metacognitive-confidence-auditor/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: 11k investment agent
 type: reference
 source: 07_SKILLS/amos-c07-econ-finance-master/references
 tags:
-- reference
-- amos-c07-econ-finance-master
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-c07-econ-finance-master
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -20,7 +23,8 @@ rscf:
 > Source: `/Users/mac/Documents/AMOS_OS/11_KNOWLEDGE/investment_agent.md`
 > Epistemic class: SOURCE_DERIVED
 
----
+______________________________________________________________________
+
 artifact_id: AMOS-INVESTMENT-AGENT
 name: Investment_Agent
 title: AMOS Investment Agent — Governed Money-System Component
@@ -51,28 +55,30 @@ financial_authority_state: "NONE_IMPLEMENTED"
 topic: investment-agent
 
 aliases:
-  - Investment Agent
-  - AMOS Investment Agent
-  - Money System Investment Agent
-  - Governed Investment Analysis Agent
+
+- Investment Agent
+- AMOS Investment Agent
+- Money System Investment Agent
+- Governed Investment Analysis Agent
 
 tags:
-  - agents
-  - canon-group/tech-ai
-  - canon/component
-  - rscf/claim
-  - rscf/provenance
-  - rscf/state/source-claim
-  - topic/investment-agent
-  - topic/money-system
-  - topic/investment-analysis
-  - topic/portfolio
-  - topic/financial-governance
 
-governing_law: "integrity > completeness > fluency > speed > token savings"
----
+- agents
+- canon-group/tech-ai
+- canon/component
+- rscf/claim
+- rscf/provenance
+- rscf/state/source-claim
+- topic/investment-agent
+- topic/money-system
+- topic/investment-analysis
+- topic/portfolio
+- topic/financial-governance
 
-# AMOS Investment Agent
+## governing_law: "integrity > completeness > fluency > speed > token savings"
+
+## AMOS Investment Agent
+
 ## Governed Money-System Component
 
 > **System:** `MONEY_SYSTEM`
@@ -85,9 +91,9 @@ governing_law: "integrity > completeness > fluency > speed > token savings"
 > **Current behavior:** append trace → return context unchanged
 > **Trading / transaction authority:** `NONE_IMPLEMENTED`
 
----
+______________________________________________________________________
 
-# 0. EXECUTIVE STATUS
+## 0. EXECUTIVE STATUS
 
 The supplied `Investment_Agent` currently does **not**:
 
@@ -177,9 +183,9 @@ status:
     state: REGISTERED_STUB
 ```
 
----
+______________________________________________________________________
 
-# 1. SOURCE IMPLEMENTATION
+## 1. SOURCE IMPLEMENTATION
 
 ```python
 """AMOS logical component.
@@ -223,10 +229,9 @@ class Investment_Agent(Agent):
 -
 ```
 
----
+______________________________________________________________________
 
-**Related:** [[07_SKILLS/amos-c07-econ-finance-master/amos-c07-econ-finance-master_MOC|amos-c07-econ-finance-master_MOC]]
----
+## **Related:** [[07_SKILLS/amos-c07-econ-finance-master/amos-c07-econ-finance-master_MOC|amos-c07-econ-finance-master_MOC]]
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -234,13 +239,14 @@ class Investment_Agent(Agent):
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-c07-econ-finance-master-11k-investment-agent
 node_type: reference
 path: 07_SKILLS/amos-c07-econ-finance-master/references/11k_investment_agent.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC
-

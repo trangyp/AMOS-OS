@@ -1,12 +1,15 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: detailed-references
 tags:
-- skills
-- society
-- culture
-- master
-- references
-- detailed
+  - skills
+  - society
+  - culture
+  - master
+  - references
+  - detailed
 type: reference
 source: 07_SKILLS/amos-c06-society-culture-master/references
 rscf:
@@ -21,7 +24,7 @@ rscf:
 - **Skill**: amos-c06-society-culture-master
 - **Source**: AMOS_OS Obsidian vault (`/Users/mac/Documents/AMOS_OS`)
 - **Vault source**: `11_KNOWLEDGE/AMOS_C06_SOCIETY_CULTURE_MASTER_KNOWLEDGE.md` (content_hash: 6277c28f48ab4433)
-- **_00_Cosmo brain source**: `misc/C0/C06_society_culture.md` (content_hash: 189031b6e4bc099a)
+- **\_00_Cosmo brain source**: `misc/C0/C06_society_culture.md` (content_hash: 189031b6e4bc099a)
 - **Origin architect**: Trang Phan
 - **Consolidation**: 17 sub-skills merged into domain master
 - **Merge date**: 2026-08-26
@@ -52,7 +55,6 @@ rscf:
 - Access to AMOS_OS Obsidian vault for vault-sourced content
 - No external API credentials required
 
-
 ## Validation
 
 - **Consistency**: Results must not contain unresolved contradictions within the skill's scope (Law of Law).
@@ -71,7 +73,6 @@ rscf:
 - **Validation failure**: If validation gates fail, downgrade confidence, flag the gap, and escalate — do not force-fit.
 - **Epistemic overreach**: If a claim exceeds the established evidence or epistemic class, retract and relabel.
 
-
 ## Validation Gates
 
 - **G1 (Law of Law)**: No unresolved contradictions within the skill's scope.
@@ -88,21 +89,24 @@ rscf:
 ## Examples
 
 - **Scenario**: User says "Why does this community resist change?"
+
   - **Input**: A community behavior inquiry
   - **Output**: Social dynamics analysis using C06 framework, cultural pattern assessment, power structure mapping, recommendations tagged context-dependent with culture/timescale flags
 
 - **Scenario**: User says "Analyze this Vietnamese cultural practice in global context"
+
   - **Input**: A Vietnamese cultural practice inquiry
   - **Output**: Vietnamese-specific analysis (F07 Vietnam Regional), gia hệ energy model assessment, bidirectional cultural bridge to global frameworks (F01-F06, F08-F10), universalization firewall enforced
 
 - **Scenario**: When performing cultural analysis, linguistic pattern analysis, or anthropological reasoning
+
   - **Input**: A query matching this skill's domain (c06)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When analyzing Vietnamese language/regional patterns and heritage
+
   - **Input**: A query matching this skill's domain (c06)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Anti-Patterns
 
@@ -112,15 +116,13 @@ rscf:
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
-- **Parent**: `` — routes to this skill when c06 specialization is needed
+- **Parent**: \`\` — routes to this skill when c06 specialization is needed
 - **Peers**: Other skills in the `c06` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -139,7 +141,6 @@ rscf:
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -148,27 +149,26 @@ rscf:
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
 
-
 ## AMOS Canon Grounding
 
 > This skill is governed by the AMOS constitutional law hierarchy. See `01_CANON/01_CORE_LAWS/AMOS_CORE_LAWS.md`.
 
 ### Law Compliance
 
-| Law | Family | This Skill's Obligation |
-|-----|--------|------------------------|
-| **L0.01** Integrity Dominance | Integrity | INTEGRITY > COMPLETENESS > FLUENCY > SPEED > TOKEN_SAVINGS — never reverse |
-| **L0.02** No Fabricated Closure | Integrity | Missing evidence stays missing; no fluent prose bridging gaps |
-| **L0.05** Weakest Accurate Class | Integrity | Use weakest accurate class: VERIFIED > DERIVED > MODEL > CONDITIONAL > COMPETING > UNKNOWN/GAP |
-| **L1.01** Evidence Typing | Epistemic | Distinguish: SOURCE_CLAIM / OBSERVATION / DERIVED / MODEL / DECISION / UNKNOWN |
-| **L1.02** Source Claim ≠ Verification | Epistemic | Vault docs, READMEs, comments = SOURCE_CLAIM until independently validated |
-| **L1.03** Model ≠ Reality | Epistemic | AMOS_MODEL may be useful/canonical without being empirical truth |
-| **L1.04** Confidence Ceiling | Epistemic | Confidence(C) <= min(Confidence(P₁)...Pₙ) for load-bearing premises |
-| **L1.05** Competing Hypotheses | Epistemic | Incompatible hypotheses with equal support stay COMPETING — no forced convergence |
-| **L2** Provenance | Provenance | Every claim traces to source; provenance topology preserved |
-| **L4** Causal Firewall | Causal | No causal claim without causal evidence; correlation ≠ causation |
-| **L5** Scope/Regime | Scope | Claims valid only within declared scope and regime |
-| **L7** Authority | Authority | No autonomous action beyond authority boundary; escalate when exceeded |
+| Law                                   | Family     | This Skill's Obligation                                                                        |
+| ------------------------------------- | ---------- | ---------------------------------------------------------------------------------------------- |
+| **L0.01** Integrity Dominance         | Integrity  | INTEGRITY > COMPLETENESS > FLUENCY > SPEED > TOKEN_SAVINGS — never reverse                     |
+| **L0.02** No Fabricated Closure       | Integrity  | Missing evidence stays missing; no fluent prose bridging gaps                                  |
+| **L0.05** Weakest Accurate Class      | Integrity  | Use weakest accurate class: VERIFIED > DERIVED > MODEL > CONDITIONAL > COMPETING > UNKNOWN/GAP |
+| **L1.01** Evidence Typing             | Epistemic  | Distinguish: SOURCE_CLAIM / OBSERVATION / DERIVED / MODEL / DECISION / UNKNOWN                 |
+| **L1.02** Source Claim ≠ Verification | Epistemic  | Vault docs, READMEs, comments = SOURCE_CLAIM until independently validated                     |
+| **L1.03** Model ≠ Reality             | Epistemic  | AMOS_MODEL may be useful/canonical without being empirical truth                               |
+| **L1.04** Confidence Ceiling          | Epistemic  | Confidence(C) \<= min(Confidence(P₁)...Pₙ) for load-bearing premises                           |
+| **L1.05** Competing Hypotheses        | Epistemic  | Incompatible hypotheses with equal support stay COMPETING — no forced convergence              |
+| **L2** Provenance                     | Provenance | Every claim traces to source; provenance topology preserved                                    |
+| **L4** Causal Firewall                | Causal     | No causal claim without causal evidence; correlation ≠ causation                               |
+| **L5** Scope/Regime                   | Scope      | Claims valid only within declared scope and regime                                             |
+| **L7** Authority                      | Authority  | No autonomous action beyond authority boundary; escalate when exceeded                         |
 
 ### RSCF Claim Discipline (L17)
 
@@ -234,11 +234,10 @@ Per `01_CANON/01_CORE_LAWS/COLLAPSE_CANON.md`:
 - `references/vn_omnistructure_model.md` — loaded on demand
 - `references/vn_trust_marketplace_strategy.md` — loaded on demand
 - `references/when_humanity_began.md` — loaded on demand
-- `` — skill Map of Content
-- `` — parent skill
-- `` — corresponding workflow
-- `` — corresponding agent
-
+- \`\` — skill Map of Content
+- \`\` — parent skill
+- \`\` — corresponding workflow
+- \`\` — corresponding agent
 
 ## Do not use
 
@@ -247,6 +246,6 @@ Per `01_CANON/01_CORE_LAWS/COLLAPSE_CANON.md`:
 - As a substitute for domain-specific historical or anthropological evidence
 - Outside society/culture domain reasoning
 
----
+______________________________________________________________________
 
 **MOC:** references_MOC · [[00_ROOT/00_HOME|00_HOME]]

@@ -15,34 +15,34 @@ artifact_kind: REGISTRY
 path: 13_MODELS/04_DOMAIN/UBI_MODEL_REGISTRY.md
 
 tags:
-- amos-os
-- model
-- specification
-- registry
-- canon_placeholder
-- rscf
-- canon/model
-- ubi
-- biological_logic
-- nervous_system_constraints
-- metabolic_cost
-- perception_limits
-- organism_behavior
-- nbi
-- nei
-- si
-- bei
-- epistemic_firewall
-- causal_firewall
-- scope_firewall
-- provenance
-- model_observation_firewall
-- routing-policy-validation-receipt
-- authz-engine-validation-receipt
-- law-hierarchy
-- rscf/claim
-- rscf/provenance
-- rscf/state/observation
+  - amos-os
+  - model
+  - specification
+  - registry
+  - canon_placeholder
+  - rscf
+  - canon/model
+  - ubi
+  - biological_logic
+  - nervous_system_constraints
+  - metabolic_cost
+  - perception_limits
+  - organism_behavior
+  - nbi
+  - nei
+  - si
+  - bei
+  - epistemic_firewall
+  - causal_firewall
+  - scope_firewall
+  - provenance
+  - model_observation_firewall
+  - routing-policy-validation-receipt
+  - authz-engine-validation-receipt
+  - law-hierarchy
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/observation
 
 version: 0.1.0
 updated: '2026-08-27'
@@ -86,15 +86,15 @@ rscf:
 > **Validation:** `NOT_ESTABLISHED`
 > **Executable binding:** `NOT_ESTABLISHED`
 
----
+______________________________________________________________________
 
-# 0. Status
+## 0. Status
 
 `UBI_MODEL_REGISTRY.md` is an **ADD-ONLY placeholder** for the Models plane segment:
 
 ```text
 13_MODELS/04_DOMAIN
-````
+```
 
 The supplied artifact reserves the canonical registry slot for the AMOS framework family identified as:
 
@@ -172,9 +172,9 @@ UBI_EMPIRICAL_VALIDATION
     = NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 1. Preservation of Source Metadata
+## 1. Preservation of Source Metadata
 
 The source nucleus declares:
 
@@ -213,9 +213,9 @@ STRUCTURAL_EXPANSION
 STATUS_PROMOTION
 ```
 
----
+______________________________________________________________________
 
-# 2. Origin and Stewardship
+## 2. Origin and Stewardship
 
 Origin architect:
 
@@ -233,43 +233,43 @@ This artifact preserves the supplied origin/steward attribution.
 
 It does not independently establish authorship of external biological, neuroscientific, somatic, or bioelectromagnetic research that may later be linked as evidence.
 
----
+______________________________________________________________________
 
-# 3. Purpose
+## 3. Purpose
 
 The purpose of this artifact is to provide the AMOS Models-plane registry surface for UBI.
 
 It is intended to support:
 
 1. UBI model identity;
-2. UBI model discovery;
-3. native-source ingestion;
-4. model registration;
-5. UBI submodel/component registration;
-6. provenance persistence;
-7. source lineage;
-8. scope binding;
-9. regime binding;
-10. H/M/L placement;
-11. epistemic classification;
-12. biological-model boundaries;
-13. model-output/observation separation;
-14. causal discipline;
-15. competing hypotheses;
-16. implementation status;
-17. validation status;
-18. executable-binding status;
-19. version control;
-20. selective invalidation;
-21. cross-plane integration;
-22. canonical promotion governance;
-23. gap preservation;
-24. evidence linking;
-25. historical lineage preservation.
+1. UBI model discovery;
+1. native-source ingestion;
+1. model registration;
+1. UBI submodel/component registration;
+1. provenance persistence;
+1. source lineage;
+1. scope binding;
+1. regime binding;
+1. H/M/L placement;
+1. epistemic classification;
+1. biological-model boundaries;
+1. model-output/observation separation;
+1. causal discipline;
+1. competing hypotheses;
+1. implementation status;
+1. validation status;
+1. executable-binding status;
+1. version control;
+1. selective invalidation;
+1. cross-plane integration;
+1. canonical promotion governance;
+1. gap preservation;
+1. evidence linking;
+1. historical lineage preservation.
 
----
+______________________________________________________________________
 
-# 4. Non-Purpose
+## 4. Non-Purpose
 
 This artifact MUST NOT be used to claim:
 
@@ -296,9 +296,9 @@ This artifact MUST NOT be used to claim:
 - final canonical status from registry placement;
 - or authority merely because UBI occupies an important AMOS architectural position.
 
----
+______________________________________________________________________
 
-# 5. Core Integrity Boundaries
+## 5. Core Integrity Boundaries
 
 ```text
 PLACEHOLDER != IMPLEMENTED
@@ -354,9 +354,9 @@ UNKNOWN/GAP != PASS
 ABSENCE_OF_CONTRADICTION != PROOF
 ```
 
----
+______________________________________________________________________
 
-# 6. Strongest Currently Supported UBI Claim
+## 6. Strongest Currently Supported UBI Claim
 
 The strongest safe corpus-grounded conclusion represented here is:
 
@@ -364,9 +364,9 @@ The strongest safe corpus-grounded conclusion represented here is:
 
 This is narrower than claiming a complete native definition.
 
----
+______________________________________________________________________
 
-# 7. Native UBI Acronym Firewall
+## 7. Native UBI Acronym Firewall
 
 The current source nucleus names:
 
@@ -401,9 +401,9 @@ BEI
 
 unless their native expansions are independently source-established.
 
----
+______________________________________________________________________
 
-# 8. Acronym Identity Law
+## 8. Acronym Identity Law
 
 ```text
 ACRONYM_PRESENT != ACRONYM_RESOLVED
@@ -423,9 +423,9 @@ SAME_ACRONYM != SAME_FRAMEWORK
 
 External frameworks using the same letters must not be merged with AMOS UBI merely by lexical match.
 
----
+______________________________________________________________________
 
-# 9. Source-Supported Biological-Logic Context
+## 9. Source-Supported Biological-Logic Context
 
 Available AMOS corpus context places biological logic around constraints including:
 
@@ -440,9 +440,9 @@ This establishes a model-design orientation.
 
 It does not prove that every UBI model implements every one of these constraints.
 
----
+______________________________________________________________________
 
-# 10. Biological Logic Purpose
+## 10. Biological Logic Purpose
 
 The source-grounded biological-logic purpose is to anchor reasoning in biological reality rather than allowing abstract cognition models to ignore organism constraints.
 
@@ -457,9 +457,9 @@ organism behavior
 
 These remain AMOS architectural/model semantics unless independently validated as specific empirical claims.
 
----
+______________________________________________________________________
 
-# 11. Source-Supported Domain Families
+## 11. Source-Supported Domain Families
 
 Available corpus context identifies biological-logic domains including:
 
@@ -475,9 +475,9 @@ This is a source-grounded domain grouping.
 
 It does not imply equal evidentiary maturity across all four domains.
 
----
+______________________________________________________________________
 
-# 12. UBI Link Registry
+## 12. UBI Link Registry
 
 The currently supported UBI architectural links are:
 
@@ -491,9 +491,9 @@ UBI_LINKS:
 
 The exact native semantic expansion and relationship type of each identifier requires source resolution.
 
----
+______________________________________________________________________
 
-# 13. Link-Type Firewall
+## 13. Link-Type Firewall
 
 Current safe relation:
 
@@ -523,9 +523,9 @@ EQUIVALENT_TO
 
 The native edge type remains source-dependent.
 
----
+______________________________________________________________________
 
-# 14. UBI Component Registry Skeleton
+## 14. UBI Component Registry Skeleton
 
 ```yaml
 ubi_component_registry:
@@ -571,9 +571,9 @@ ubi_component_registry:
     validation_status: NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 15. Neurobiology Domain
+## 15. Neurobiology Domain
 
 The neurobiology domain may contain models concerning biological constraints relevant to nervous-system operation.
 
@@ -598,9 +598,9 @@ from:
 validated neuroscientific finding
 ```
 
----
+______________________________________________________________________
 
-# 16. Emotion and State Domain
+## 16. Emotion and State Domain
 
 AMOS biological-logic context includes:
 
@@ -622,9 +622,9 @@ or:
 model classification = clinical diagnosis
 ```
 
----
+______________________________________________________________________
 
-# 17. Somatic Patterns Domain
+## 17. Somatic Patterns Domain
 
 AMOS context includes:
 
@@ -642,9 +642,9 @@ SOMATIC_PATTERN
 DIAGNOSIS
 ```
 
----
+______________________________________________________________________
 
-# 18. Bioelectromagnetic Effects Domain
+## 18. Bioelectromagnetic Effects Domain
 
 AMOS context includes:
 
@@ -662,9 +662,9 @@ BIOELECTROMAGNETIC_CAUSATION
 
 Any causal claim requires appropriately typed evidence.
 
----
+______________________________________________________________________
 
-# 19. Biological Constraint Registry
+## 19. Biological Constraint Registry
 
 Source-supported biological constraint categories include:
 
@@ -683,9 +683,9 @@ biological_constraints:
     state: SOURCE_SUPPORTED_MODEL_CONCERN
 ```
 
----
+______________________________________________________________________
 
-# 20. Attention Constraint
+## 20. Attention Constraint
 
 Available AMOS biological-logic context includes limited sustained attention as a biological/cognitive constraint.
 
@@ -699,9 +699,9 @@ unless a particular quantitative formulation is independently evidenced.
 
 Do not convert this into a universal fixed attention duration.
 
----
+______________________________________________________________________
 
-# 21. Stress and Executive Function
+## 21. Stress and Executive Function
 
 Available AMOS context includes the relationship:
 
@@ -720,9 +720,9 @@ within biological/cognitive contexts
 
 with scope, measurement, and empirical evidence required for consequential claims.
 
----
+______________________________________________________________________
 
-# 22. Sleep and Decision Quality
+## 22. Sleep and Decision Quality
 
 AMOS biological-logic context includes sleep as relevant to decision quality.
 
@@ -742,9 +742,9 @@ GENERAL RELATIONSHIP
 EXACT INDIVIDUAL EFFECT SIZE
 ```
 
----
+______________________________________________________________________
 
-# 23. Nutrition and Decision Quality
+## 23. Nutrition and Decision Quality
 
 AMOS biological-logic context also includes nutrition as relevant to decision quality.
 
@@ -756,9 +756,9 @@ ARCHITECTURAL CONSTRAINT
 MEDICAL PRESCRIPTION
 ```
 
----
+______________________________________________________________________
 
-# 24. Population-Level Biological/Social Patterns
+## 24. Population-Level Biological/Social Patterns
 
 Available AMOS context includes modeled concerns such as:
 
@@ -772,9 +772,9 @@ These are AMOS model categories.
 
 They must not be treated as deterministic labels for individuals.
 
----
+______________________________________________________________________
 
-# 25. Population-to-Individual Firewall
+## 25. Population-to-Individual Firewall
 
 ```text
 POPULATION_PATTERN
@@ -790,9 +790,9 @@ GROUP_ASSOCIATION
 INDIVIDUAL_CAUSE
 ```
 
----
+______________________________________________________________________
 
-# 26. Trauma Firewall
+## 26. Trauma Firewall
 
 Where AMOS source terminology uses concepts such as trauma:
 
@@ -804,9 +804,9 @@ CLINICAL DIAGNOSIS
 
 Clinical conclusions require appropriate clinical evidence and authority.
 
----
+______________________________________________________________________
 
-# 27. Burnout Firewall
+## 27. Burnout Firewall
 
 Similarly:
 
@@ -816,9 +816,9 @@ MODELLED_BURNOUT_SIGNATURE
 DIAGNOSED_BURNOUT
 ```
 
----
+______________________________________________________________________
 
-# 28. Collapse Firewall
+## 28. Collapse Firewall
 
 A modeled collapse signature may represent an AMOS systems concept.
 
@@ -832,9 +832,9 @@ It does not automatically establish:
 
 The scope must be explicit.
 
----
+______________________________________________________________________
 
-# 29. Biological Logic Sequence
+## 29. Biological Logic Sequence
 
 Available Khung Trang / AMOS corpus context includes the model sequence:
 
@@ -851,9 +851,9 @@ This is an AMOS/Khung Trang **MODEL**.
 
 It is not presented here as a universally verified neuroscience law.
 
----
+______________________________________________________________________
 
-# 30. Instinct Model
+## 30. Instinct Model
 
 Source model:
 
@@ -868,9 +868,9 @@ epistemic_class: MODEL
 empirical_universality: NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 31. Emotion Model
+## 31. Emotion Model
 
 Source model:
 
@@ -887,9 +887,9 @@ empirical_universality: NOT_ESTABLISHED
 
 This is a compressed framework representation, not a complete biological account of emotion.
 
----
+______________________________________________________________________
 
-# 32. Intuition Model
+## 32. Intuition Model
 
 Source model:
 
@@ -904,9 +904,9 @@ epistemic_class: MODEL
 empirical_universality: NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 33. Cognition Model
+## 33. Cognition Model
 
 Source model:
 
@@ -921,9 +921,9 @@ epistemic_class: MODEL
 empirical_universality: NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 34. Intuition Composite
+## 34. Intuition Composite
 
 Available source context includes:
 
@@ -941,9 +941,9 @@ This is preserved as an AMOS/Khung Trang model expression.
 
 It is not silently promoted to an empirically calibrated equation.
 
----
+______________________________________________________________________
 
-# 35. Intuition Firewall
+## 35. Intuition Firewall
 
 ```text
 INTUITION
@@ -961,9 +961,9 @@ FACT
 
 Intuition can be represented as compressed inference without granting it privileged epistemic status.
 
----
+______________________________________________________________________
 
-# 36. Biological Logic vs UBI
+## 36. Biological Logic vs UBI
 
 The available context supports a UBI ↔ biological-logic relationship.
 
@@ -979,9 +979,9 @@ UBI_NATIVE_LAW
 
 unless a native UBI source explicitly binds them.
 
----
+______________________________________________________________________
 
-# 37. Native vs Contextual Semantics
+## 37. Native vs Contextual Semantics
 
 This registry distinguishes:
 
@@ -1012,9 +1012,9 @@ Instinct → Emotion → Intuition → Cognition
 
 The second set must not be automatically reclassified as UBI-native canon without source binding.
 
----
+______________________________________________________________________
 
-# 38. Epistemic Regimes
+## 38. Epistemic Regimes
 
 AMOS primary epistemic classes are:
 
@@ -1027,9 +1027,9 @@ MODEL
 
 This registry must preserve those distinctions.
 
----
+______________________________________________________________________
 
-# 39. SOURCE_CLAIM
+## 39. SOURCE_CLAIM
 
 A source claim records what a source asserts.
 
@@ -1044,9 +1044,9 @@ claim:
 
 Source existence establishes attribution, not independent truth.
 
----
+______________________________________________________________________
 
-# 40. OBSERVATION
+## 40. OBSERVATION
 
 An observation requires an actual observation/measurement record.
 
@@ -1062,9 +1062,9 @@ observation:
   epistemic_class: OBSERVATION
 ```
 
----
+______________________________________________________________________
 
-# 41. DERIVED
+## 41. DERIVED
 
 A derived claim is reasoned from premises.
 
@@ -1078,9 +1078,9 @@ derived:
   epistemic_class: DERIVED
 ```
 
----
+______________________________________________________________________
 
-# 42. MODEL
+## 42. MODEL
 
 UBI model structures, abstractions, mappings, predictions, or classifications remain:
 
@@ -1090,9 +1090,9 @@ MODEL
 
 unless independently supported as observations.
 
----
+______________________________________________________________________
 
-# 43. Broader State Classes
+## 43. Broader State Classes
 
 AMOS may additionally use:
 
@@ -1106,9 +1106,9 @@ DECISION
 
 These are conclusion/action/state semantics and do not silently expand the four-class primary epistemic classification.
 
----
+______________________________________________________________________
 
-# 44. Model/Observation Firewall
+## 44. Model/Observation Firewall
 
 ```text
 MODEL != OBSERVATION
@@ -1129,9 +1129,9 @@ is not equivalent to:
 direct biological measurement establishes X
 ```
 
----
+______________________________________________________________________
 
-# 45. Signal/State Firewall
+## 45. Signal/State Firewall
 
 Where UBI consumes biological signals:
 
@@ -1145,9 +1145,9 @@ A signal may contribute evidence toward a modeled state.
 
 It does not automatically establish the state.
 
----
+______________________________________________________________________
 
-# 46. State/Diagnosis Firewall
+## 46. State/Diagnosis Firewall
 
 ```text
 STATE
@@ -1157,9 +1157,9 @@ DIAGNOSIS
 
 A modeled state must not be presented as a medical or psychiatric diagnosis merely because biological terminology is used.
 
----
+______________________________________________________________________
 
-# 47. Measurement/Interpretation Separation
+## 47. Measurement/Interpretation Separation
 
 Conceptually:
 
@@ -1179,9 +1179,9 @@ MODEL
 
 Each layer should preserve its epistemic class.
 
----
+______________________________________________________________________
 
-# 48. Model Output Contract
+## 48. Model Output Contract
 
 A future UBI output SHOULD carry:
 
@@ -1200,9 +1200,9 @@ ubi_model_output:
   provenance: ...
 ```
 
----
+______________________________________________________________________
 
-# 49. Observation Contract
+## 49. Observation Contract
 
 A biological observation SHOULD remain separate:
 
@@ -1218,9 +1218,9 @@ biological_observation:
   provenance: ...
 ```
 
----
+______________________________________________________________________
 
-# 50. Derived Feature Contract
+## 50. Derived Feature Contract
 
 ```yaml
 derived_feature:
@@ -1232,9 +1232,9 @@ derived_feature:
   provenance: ...
 ```
 
----
+______________________________________________________________________
 
-# 51. Interpretation Contract
+## 51. Interpretation Contract
 
 ```yaml
 ubi_interpretation:
@@ -1247,9 +1247,9 @@ ubi_interpretation:
   falsifiers: [...]
 ```
 
----
+______________________________________________________________________
 
-# 52. Causal Firewall
+## 52. Causal Firewall
 
 UBI-related claims MUST distinguish:
 
@@ -1266,9 +1266,9 @@ feedback
 causal effect
 ```
 
----
+______________________________________________________________________
 
-# 53. Association
+## 53. Association
 
 ```text
 A associated with B
@@ -1280,31 +1280,31 @@ does not imply:
 A causes B
 ```
 
----
+______________________________________________________________________
 
-# 54. Correlation
+## 54. Correlation
 
 ```text
 corr(A,B) != causal_effect(A→B)
 ```
 
----
+______________________________________________________________________
 
-# 55. Mechanism
+## 55. Mechanism
 
 A mechanism claim requires evidence supporting the pathway connecting cause and effect.
 
 Architectural resemblance is insufficient.
 
----
+______________________________________________________________________
 
-# 56. Enabling Condition
+## 56. Enabling Condition
 
 An enabling condition permits an outcome but does not necessarily cause or guarantee it.
 
----
+______________________________________________________________________
 
-# 57. Necessary Condition
+## 57. Necessary Condition
 
 ```text
 A necessary for B
@@ -1312,9 +1312,9 @@ A necessary for B
 
 is stronger than association and requires appropriate evidence.
 
----
+______________________________________________________________________
 
-# 58. Sufficient Condition
+## 58. Sufficient Condition
 
 ```text
 A sufficient for B
@@ -1324,9 +1324,9 @@ is stronger still.
 
 It must not be inferred from repeated co-occurrence.
 
----
+______________________________________________________________________
 
-# 59. Mediation
+## 59. Mediation
 
 If UBI represents:
 
@@ -1336,9 +1336,9 @@ A → M → B
 
 it must distinguish modeled mediation from empirically demonstrated mediation.
 
----
+______________________________________________________________________
 
-# 60. Confounding
+## 60. Confounding
 
 Potential biological confounders may include:
 
@@ -1357,9 +1357,9 @@ depending on the claim.
 
 This list is a normalized caution surface, not a claim that all variables confound every UBI model.
 
----
+______________________________________________________________________
 
-# 61. Feedback
+## 61. Feedback
 
 Biological systems often admit feedback models.
 
@@ -1371,15 +1371,15 @@ FEEDBACK_MODEL
 EMPIRICALLY_ESTABLISHED_FEEDBACK_MECHANISM
 ```
 
----
+______________________________________________________________________
 
-# 62. Causal Effect
+## 62. Causal Effect
 
 Only appropriately typed causal evidence licenses a causal-effect claim.
 
----
+______________________________________________________________________
 
-# 63. Temporal Sequence Firewall
+## 63. Temporal Sequence Firewall
 
 ```text
 A BEFORE B
@@ -1387,9 +1387,9 @@ A BEFORE B
 A CAUSED B
 ```
 
----
+______________________________________________________________________
 
-# 64. Structural Similarity Firewall
+## 64. Structural Similarity Firewall
 
 ```text
 BIOLOGICAL_STRUCTURE
@@ -1403,9 +1403,9 @@ does not imply:
 SAME_MECHANISM
 ```
 
----
+______________________________________________________________________
 
-# 65. Computational Representation Firewall
+## 65. Computational Representation Firewall
 
 ```text
 COMPUTATIONAL_REPRESENTATION
@@ -1415,9 +1415,9 @@ BIOLOGICAL_MECHANISM_PROOF
 
 This boundary is mandatory for UBI.
 
----
+______________________________________________________________________
 
-# 66. Embodiment Firewall
+## 66. Embodiment Firewall
 
 AMOS can model embodied constraints without being biologically embodied.
 
@@ -1427,9 +1427,9 @@ MODELS_BODY
 HAS_BODY
 ```
 
----
+______________________________________________________________________
 
-# 67. Emotion Firewall
+## 67. Emotion Firewall
 
 ```text
 MODELS_EMOTION
@@ -1437,9 +1437,9 @@ MODELS_EMOTION
 EXPERIENCES_EMOTION
 ```
 
----
+______________________________________________________________________
 
-# 68. Consciousness Firewall
+## 68. Consciousness Firewall
 
 If UBI later connects to consciousness models:
 
@@ -1457,9 +1457,9 @@ CONSCIOUSNESS_EMULATION
 CLAIM_OF_SUBJECTIVE_EXPERIENCE
 ```
 
----
+______________________________________________________________________
 
-# 69. Scope Envelope
+## 69. Scope Envelope
 
 Every substantive UBI claim SHOULD expose:
 
@@ -1475,9 +1475,9 @@ scope:
   assumptions: [...]
 ```
 
----
+______________________________________________________________________
 
-# 70. Scope Firewall
+## 70. Scope Firewall
 
 ```text
 VALID_IN_SCOPE_A
@@ -1487,9 +1487,9 @@ VALID_IN_SCOPE_B
 
 without independent transfer validation.
 
----
+______________________________________________________________________
 
-# 71. Population Scope
+## 71. Population Scope
 
 A finding about:
 
@@ -1499,9 +1499,9 @@ population P
 
 must not silently become a universal human or organism claim.
 
----
+______________________________________________________________________
 
-# 72. Individual Scope
+## 72. Individual Scope
 
 Population statistics do not determine individual outcomes.
 
@@ -1511,9 +1511,9 @@ POPULATION_ESTIMATE
 INDIVIDUAL_CERTAINTY
 ```
 
----
+______________________________________________________________________
 
-# 73. Species Scope
+## 73. Species Scope
 
 ```text
 HUMAN_MODEL
@@ -1529,17 +1529,17 @@ SPECIES_MODEL
 INDIVIDUAL_CERTAINTY
 ```
 
----
+______________________________________________________________________
 
-# 74. Environment Scope
+## 74. Environment Scope
 
 Biological relationships can depend on environmental conditions.
 
 Claims must inherit the environment in which supporting evidence applies.
 
----
+______________________________________________________________________
 
-# 75. Scale Scope
+## 75. Scale Scope
 
 Relevant scales may include:
 
@@ -1557,9 +1557,9 @@ where source-supported.
 
 Cross-scale transfer requires an explicit model bridge.
 
----
+______________________________________________________________________
 
-# 76. Micro/Macro Firewall
+## 76. Micro/Macro Firewall
 
 ```text
 MICRO_MECHANISM
@@ -1575,9 +1575,9 @@ MACRO_PATTERN
 MICRO_MECHANISM
 ```
 
----
+______________________________________________________________________
 
-# 77. Temporal Scope
+## 77. Temporal Scope
 
 Biological claims may depend on:
 
@@ -1593,9 +1593,9 @@ where applicable.
 
 No temporal generalization is automatic.
 
----
+______________________________________________________________________
 
-# 78. Regime Envelope
+## 78. Regime Envelope
 
 ```yaml
 regime:
@@ -1606,9 +1606,9 @@ regime:
   policy_context: ...
 ```
 
----
+______________________________________________________________________
 
-# 79. Regime Shift
+## 79. Regime Shift
 
 If regime changes materially:
 
@@ -1618,9 +1618,9 @@ REVALIDATE
 
 before reusing a previous conclusion.
 
----
+______________________________________________________________________
 
-# 80. Freshness
+## 80. Freshness
 
 Biological observations can become stale quickly depending on the phenomenon.
 
@@ -1635,9 +1635,9 @@ freshness:
 
 should be attached where material.
 
----
+______________________________________________________________________
 
-# 81. Freshness-Bounded Trust
+## 81. Freshness-Bounded Trust
 
 ```text
 TRUST
@@ -1655,9 +1655,9 @@ REGIME-AWARE
 FRESHNESS-BOUNDED
 ```
 
----
+______________________________________________________________________
 
-# 82. Confidence Ceiling
+## 82. Confidence Ceiling
 
 For derived conclusion `C`:
 
@@ -1669,9 +1669,9 @@ min Conf(P_i)
 
 over load-bearing premises `P_i`, unless independently revalidated.
 
----
+______________________________________________________________________
 
-# 83. Biological Confidence Firewall
+## 83. Biological Confidence Firewall
 
 A biologically plausible explanation does not automatically receive high confidence.
 
@@ -1681,9 +1681,9 @@ PLAUSIBILITY
 VALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 84. Provenance Topology
+## 84. Provenance Topology
 
 UBI evidence must preserve ancestry.
 
@@ -1696,9 +1696,9 @@ SOURCE_A
 
 These remain one provenance family unless independently sourced.
 
----
+______________________________________________________________________
 
-# 85. Provenance Independence
+## 85. Provenance Independence
 
 Independence must be demonstrated.
 
@@ -1708,9 +1708,9 @@ MULTIPLE_FILES
 MULTIPLE_INDEPENDENT_SOURCES
 ```
 
----
+______________________________________________________________________
 
-# 86. Sybil-Hardening
+## 86. Sybil-Hardening
 
 Repeated claims must not inflate confidence merely through replication across AMOS artifacts.
 
@@ -1720,9 +1720,9 @@ REPETITION
 INDEPENDENT_CONFIRMATION
 ```
 
----
+______________________________________________________________________
 
-# 87. Source Identity
+## 87. Source Identity
 
 Every substantive UBI source SHOULD preserve:
 
@@ -1739,9 +1739,9 @@ source_identity:
   license_or_ip_status: ...
 ```
 
----
+______________________________________________________________________
 
-# 88. Persistent Provenance
+## 88. Persistent Provenance
 
 ```yaml
 provenance:
@@ -1753,9 +1753,9 @@ provenance:
   regime: ...
 ```
 
----
+______________________________________________________________________
 
-# 89. Source-Type Registry
+## 89. Source-Type Registry
 
 Potential evidence/source classes include:
 
@@ -1774,9 +1774,9 @@ external research
 
 Source type does not alone establish reliability.
 
----
+______________________________________________________________________
 
-# 90. Primary Source Firewall
+## 90. Primary Source Firewall
 
 ```text
 PRIMARY_SOURCE
@@ -1784,9 +1784,9 @@ PRIMARY_SOURCE
 INFALLIBLE
 ```
 
----
+______________________________________________________________________
 
-# 91. Authority Firewall
+## 91. Authority Firewall
 
 ```text
 AUTHORITY
@@ -1796,9 +1796,9 @@ INDEPENDENCE
 
 A high-authority source can still share ancestry with another source.
 
----
+______________________________________________________________________
 
-# 92. External Research Boundary
+## 92. External Research Boundary
 
 External research:
 
@@ -1814,9 +1814,9 @@ LINK_AS_EVIDENCE
 
 unless explicit canon governance says otherwise.
 
----
+______________________________________________________________________
 
-# 93. Native Canon Boundary
+## 93. Native Canon Boundary
 
 Native AMOS doctrine should remain distinguishable from external scientific evidence.
 
@@ -1832,9 +1832,9 @@ research relevant to intuition
 
 These should be linked, not collapsed into one epistemic object.
 
----
+______________________________________________________________________
 
-# 94. Scientific Validation Boundary
+## 94. Scientific Validation Boundary
 
 External evidence can:
 
@@ -1849,9 +1849,9 @@ an AMOS model.
 
 It does not automatically become native AMOS canon.
 
----
+______________________________________________________________________
 
-# 95. Competing Hypotheses
+## 95. Competing Hypotheses
 
 UBI must preserve genuinely competing models.
 
@@ -1863,9 +1863,9 @@ competing:
   status: COMPETING
 ```
 
----
+______________________________________________________________________
 
-# 96. No Forced Convergence
+## 96. No Forced Convergence
 
 If evidence is:
 
@@ -1884,9 +1884,9 @@ COMPETING
 
 is preferable to false synthesis.
 
----
+______________________________________________________________________
 
-# 97. Discriminating Test
+## 97. Discriminating Test
 
 Prefer:
 
@@ -1896,9 +1896,9 @@ cheapest high-information discriminating test
 
 over redundant evidence accumulation.
 
----
+______________________________________________________________________
 
-# 98. Adversarial Validation
+## 98. Adversarial Validation
 
 Consequential UBI conclusions should be challenged for:
 
@@ -1912,9 +1912,9 @@ causal overreach
 stronger alternatives
 ```
 
----
+______________________________________________________________________
 
-# 99. Adversarial Failure
+## 99. Adversarial Failure
 
 If challenge succeeds:
 
@@ -1940,9 +1940,9 @@ or:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 100. Sensitivity
+## 100. Sensitivity
 
 Identify the smallest premise capable of flipping a UBI conclusion.
 
@@ -1958,9 +1958,9 @@ causal assumption
 state freshness
 ```
 
----
+______________________________________________________________________
 
-# 101. Fragility
+## 101. Fragility
 
 A result that flips under plausible small changes to load-bearing assumptions should be marked:
 
@@ -1968,17 +1968,17 @@ A result that flips under plausible small changes to load-bearing assumptions sh
 CONDITIONAL
 ```
 
----
+______________________________________________________________________
 
-# 102. Robustness
+## 102. Robustness
 
 A robust result should survive plausible perturbation of noncritical assumptions.
 
 Robustness is claim-specific.
 
----
+______________________________________________________________________
 
-# 103. RSCF Role
+## 103. RSCF Role
 
 UBI models should be representable as RSCF nodes carrying:
 
@@ -1993,9 +1993,9 @@ dependencies
 confidence ceiling
 ```
 
----
+______________________________________________________________________
 
-# 104. H/M/L Retrieval
+## 104. H/M/L Retrieval
 
 Preferred retrieval:
 
@@ -2009,9 +2009,9 @@ L
 raw evidence only if required
 ```
 
----
+______________________________________________________________________
 
-# 105. H-Level UBI Mapping
+## 105. H-Level UBI Mapping
 
 A safe normalized mapping is:
 
@@ -2024,9 +2024,9 @@ H:
 
 `biological_intelligence_model_family` is a normalized descriptive role based on the corpus context, not a claimed native acronym expansion.
 
----
+______________________________________________________________________
 
-# 106. M-Level Mapping
+## 106. M-Level Mapping
 
 Potential source-supported M-level domains include:
 
@@ -2046,9 +2046,9 @@ UNKNOWN/GAP
 
 unless source-defined.
 
----
+______________________________________________________________________
 
-# 107. L-Level Mapping
+## 107. L-Level Mapping
 
 L-level nodes may eventually contain:
 
@@ -2063,9 +2063,9 @@ specific source claims
 
 No complete native L registry is currently established.
 
----
+______________________________________________________________________
 
-# 108. NBI/NEI/SI/BEI HML Placement
+## 108. NBI/NEI/SI/BEI HML Placement
 
 The identifiers:
 
@@ -2086,9 +2086,9 @@ UNKNOWN/GAP
 
 until native source semantics establish hierarchy.
 
----
+______________________________________________________________________
 
-# 109. H/M/L Firewall
+## 109. H/M/L Firewall
 
 Do not infer:
 
@@ -2100,9 +2100,9 @@ merely because it seems architecturally plausible.
 
 Hierarchy requires evidence.
 
----
+______________________________________________________________________
 
-# 110. Atomic Multi-RSCF Reasoning
+## 110. Atomic Multi-RSCF Reasoning
 
 When a UBI conclusion depends on several nodes:
 
@@ -2112,9 +2112,9 @@ RSCF_A + RSCF_B + RSCF_C
 
 their load-bearing conditions must be jointly satisfied.
 
----
+______________________________________________________________________
 
-# 111. Dependency Closure
+## 111. Dependency Closure
 
 Before consequential use:
 
@@ -2126,9 +2126,9 @@ smallest load-bearing dependency set
 
 should be resolved.
 
----
+______________________________________________________________________
 
-# 112. Fast Path
+## 112. Fast Path
 
 Local reasoning is allowed only when:
 
@@ -2141,9 +2141,9 @@ freshness valid
 no material conflict
 ```
 
----
+______________________________________________________________________
 
-# 113. Escalation
+## 113. Escalation
 
 Escalate when:
 
@@ -2160,9 +2160,9 @@ ambiguous dependencies
 
 are material.
 
----
+______________________________________________________________________
 
-# 114. Proof Capsule
+## 114. Proof Capsule
 
 Important UBI conclusions SHOULD carry:
 
@@ -2206,9 +2206,9 @@ proof_capsule:
     ...
 ```
 
----
+______________________________________________________________________
 
-# 115. Proof Capsule Reuse
+## 115. Proof Capsule Reuse
 
 Reuse only while:
 
@@ -2221,9 +2221,9 @@ provenance remains valid
 no new conflict changes result
 ```
 
----
+______________________________________________________________________
 
-# 116. Selective Invalidation
+## 116. Selective Invalidation
 
 If one premise fails:
 
@@ -2235,9 +2235,9 @@ invalidate dependent conclusions
 preserve unrelated valid work
 ```
 
----
+______________________________________________________________________
 
-# 117. Failure Recovery
+## 117. Failure Recovery
 
 ```text
 FAIL
@@ -2253,9 +2253,9 @@ PRESERVE UNAFFECTED STATE
 REROUTE IF ALTERNATE EVIDENCE EXISTS
 ```
 
----
+______________________________________________________________________
 
-# 118. Gap Classification
+## 118. Gap Classification
 
 UBI gaps are classified:
 
@@ -2266,9 +2266,9 @@ EXPLANATORY
 COSMETIC
 ```
 
----
+______________________________________________________________________
 
-# 119. Critical Gap Register
+## 119. Critical Gap Register
 
 ```yaml
 UBI_GAPS:
@@ -2374,9 +2374,9 @@ UBI_GAPS:
     state: UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 120. Minimum Missing Information
+## 120. Minimum Missing Information
 
 The minimum critical missing information is:
 
@@ -2384,9 +2384,9 @@ The minimum critical missing information is:
 
 Without that source, a complete native UBI ontology cannot safely be reconstructed.
 
----
+______________________________________________________________________
 
-# 121. Gap Resolution Order
+## 121. Gap Resolution Order
 
 ```text
 UBI-G003 authoritative source
@@ -2414,9 +2414,9 @@ UBI-G011 regimes
 implementation / validation
 ```
 
----
+______________________________________________________________________
 
-# 122. Ingestion Rule
+## 122. Ingestion Rule
 
 ```yaml
 AMOS_CANON_INGESTION_RULE:
@@ -2462,9 +2462,9 @@ AMOS_CANON_INGESTION_RULE:
       - NEVER_INVENT_CANON
 ```
 
----
+______________________________________________________________________
 
-# 123. Add-Only Rule
+## 123. Add-Only Rule
 
 ```text
 NEW INFORMATION
@@ -2480,9 +2480,9 @@ NEW INFORMATION
 SILENTLY OVERWRITE HISTORY
 ```
 
----
+______________________________________________________________________
 
-# 124. Canonical Node Rule
+## 124. Canonical Node Rule
 
 If UBI appears in multiple AMOS sources:
 
@@ -2494,9 +2494,9 @@ MULTIPLE SOURCE PROVENANCE EDGES
 
 is preferred over duplicate canon.
 
----
+______________________________________________________________________
 
-# 125. Duplicate Filename Rule
+## 125. Duplicate Filename Rule
 
 ```text
 DUPLICATE_FILENAME
@@ -2508,9 +2508,9 @@ COMPARE LINEAGE
 DO NOT OVERWRITE
 ```
 
----
+______________________________________________________________________
 
-# 126. Historical Preservation
+## 126. Historical Preservation
 
 Older UBI definitions should remain addressable as historical lineage if superseded.
 
@@ -2520,9 +2520,9 @@ SUPERSEDED
 ERASED
 ```
 
----
+______________________________________________________________________
 
-# 127. Contradiction Preservation
+## 127. Contradiction Preservation
 
 If source A and source B disagree:
 
@@ -2534,9 +2534,9 @@ MARK COMPETING / CONTRADICTION
 
 until discriminating evidence exists.
 
----
+______________________________________________________________________
 
-# 128. Apparent Contradiction
+## 128. Apparent Contradiction
 
 Before declaring contradiction, compare:
 
@@ -2552,9 +2552,9 @@ version
 
 Different envelopes may explain apparent disagreement.
 
----
+______________________________________________________________________
 
-# 129. Native Terminology Preservation
+## 129. Native Terminology Preservation
 
 Native terminology must be preserved.
 
@@ -2572,9 +2572,9 @@ not:
 NORMALIZED_ALIAS replaces NATIVE_TERM
 ```
 
----
+______________________________________________________________________
 
-# 130. Native Equation Preservation
+## 130. Native Equation Preservation
 
 If native UBI equations are discovered:
 
@@ -2591,9 +2591,9 @@ native_equation:
   empirical_status: ...
 ```
 
----
+______________________________________________________________________
 
-# 131. Equation Firewall
+## 131. Equation Firewall
 
 An equation in AMOS canon establishes that AMOS defines the equation.
 
@@ -2603,9 +2603,9 @@ It does not automatically establish:
 EMPIRICALLY UNIVERSAL LAW
 ```
 
----
+______________________________________________________________________
 
-# 132. Biological Logic Equations Firewall
+## 132. Biological Logic Equations Firewall
 
 Existing biological-logic expressions may be linked as contextual models.
 
@@ -2617,9 +2617,9 @@ UBI_NATIVE_EQUATION
 
 without source evidence establishing that relationship.
 
----
+______________________________________________________________________
 
-# 133. Quantitative Calibration
+## 133. Quantitative Calibration
 
 Any numerical parameter SHOULD preserve:
 
@@ -2636,9 +2636,9 @@ freshness
 
 where applicable.
 
----
+______________________________________________________________________
 
-# 134. Threshold Firewall
+## 134. Threshold Firewall
 
 ```text
 THRESHOLD_PRESENT
@@ -2646,9 +2646,9 @@ THRESHOLD_PRESENT
 THRESHOLD_VALIDATED
 ```
 
----
+______________________________________________________________________
 
-# 135. Probability Firewall
+## 135. Probability Firewall
 
 ```text
 MODEL_PROBABILITY
@@ -2656,9 +2656,9 @@ MODEL_PROBABILITY
 OBSERVED_FREQUENCY
 ```
 
----
+______________________________________________________________________
 
-# 136. Prediction Firewall
+## 136. Prediction Firewall
 
 ```text
 PREDICTION
@@ -2666,9 +2666,9 @@ PREDICTION
 OBSERVATION
 ```
 
----
+______________________________________________________________________
 
-# 137. Classification Firewall
+## 137. Classification Firewall
 
 ```text
 CLASSIFICATION
@@ -2684,9 +2684,9 @@ CLASSIFICATION
 DIAGNOSIS
 ```
 
----
+______________________________________________________________________
 
-# 138. Behavioral Prediction Firewall
+## 138. Behavioral Prediction Firewall
 
 ```text
 BEHAVIORAL_MODEL
@@ -2694,9 +2694,9 @@ BEHAVIORAL_MODEL
 CERTAIN_FUTURE_BEHAVIOR
 ```
 
----
+______________________________________________________________________
 
-# 139. Biological Individuality
+## 139. Biological Individuality
 
 Biological systems vary.
 
@@ -2712,9 +2712,9 @@ measurement uncertainty
 
 where relevant.
 
----
+______________________________________________________________________
 
-# 140. Organism Boundary
+## 140. Organism Boundary
 
 A model of organism behavior should identify:
 
@@ -2729,9 +2729,9 @@ measurement
 
 where material.
 
----
+______________________________________________________________________
 
-# 141. Cross-Species Transfer
+## 141. Cross-Species Transfer
 
 ```text
 VALID_FOR_SPECIES_A
@@ -2741,9 +2741,9 @@ VALID_FOR_SPECIES_B
 
 without evidence.
 
----
+______________________________________________________________________
 
-# 142. Cross-Human Transfer
+## 142. Cross-Human Transfer
 
 ```text
 VALID_FOR_GROUP_A
@@ -2751,9 +2751,9 @@ VALID_FOR_GROUP_A
 VALID_FOR_ALL_HUMANS
 ```
 
----
+______________________________________________________________________
 
-# 143. Cultural Confounding
+## 143. Cultural Confounding
 
 If biological/behavioral models interact with cultural variables:
 
@@ -2765,9 +2765,9 @@ INDIVIDUAL
 
 and biological causation must not be inferred from cultural association.
 
----
+______________________________________________________________________
 
-# 144. Social Context
+## 144. Social Context
 
 Social context may influence biological or behavioral observations.
 
@@ -2784,17 +2784,17 @@ depending on evidence.
 
 The relation type must be explicit.
 
----
+______________________________________________________________________
 
-# 145. State Dependence
+## 145. State Dependence
 
 A UBI model may produce different outputs under different organism states.
 
 Therefore model inputs should include state context when load-bearing.
 
----
+______________________________________________________________________
 
-# 146. Measurement Dependence
+## 146. Measurement Dependence
 
 A model conclusion can depend materially on measurement method.
 
@@ -2806,9 +2806,9 @@ METHOD_B RESULT
 
 without calibration/translation.
 
----
+______________________________________________________________________
 
-# 147. Sensor Firewall
+## 147. Sensor Firewall
 
 ```text
 SENSOR_READING
@@ -2818,9 +2818,9 @@ BIOLOGICAL_STATE
 
 Sensor readings are observations that require interpretation.
 
----
+______________________________________________________________________
 
-# 148. Feature Firewall
+## 148. Feature Firewall
 
 ```text
 DERIVED_FEATURE
@@ -2828,9 +2828,9 @@ DERIVED_FEATURE
 RAW_OBSERVATION
 ```
 
----
+______________________________________________________________________
 
-# 149. Inference Firewall
+## 149. Inference Firewall
 
 ```text
 INFERRED_STATE
@@ -2838,9 +2838,9 @@ INFERRED_STATE
 OBSERVED_STATE
 ```
 
----
+______________________________________________________________________
 
-# 150. Evidence Topology
+## 150. Evidence Topology
 
 UBI records should distinguish:
 
@@ -2870,9 +2870,9 @@ DECISION PROPOSAL
 
 Each transition must remain typed.
 
----
+______________________________________________________________________
 
-# 151. Decision Firewall
+## 151. Decision Firewall
 
 A UBI output may inform:
 
@@ -2888,9 +2888,9 @@ MODEL OUTPUT
 DECISION AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 152. Authority
+## 152. Authority
 
 Authority must come from an explicit governance surface.
 
@@ -2898,25 +2898,25 @@ Authority must come from an explicit governance surface.
 CAPABILITY != AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 153. Proposal
+## 153. Proposal
 
 ```text
 PROPOSAL != COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 154. Authorization
+## 154. Authorization
 
 ```text
 AUTHORIZATION != COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 155. Commit
+## 155. Commit
 
 Commit is a governed state transition.
 
@@ -2931,9 +2931,9 @@ rollback
 receipt
 ```
 
----
+______________________________________________________________________
 
-# 156. Rollback Basin
+## 156. Rollback Basin
 
 Before consequential UBI-driven mutation:
 
@@ -2946,9 +2946,9 @@ rollback_basin:
   rollback_validation: ...
 ```
 
----
+______________________________________________________________________
 
-# 157. Action Governance
+## 157. Action Governance
 
 Validation intensity increases with:
 
@@ -2962,9 +2962,9 @@ institutional impact
 downstream dependency
 ```
 
----
+______________________________________________________________________
 
-# 158. Health-Related Use
+## 158. Health-Related Use
 
 If a UBI model touches health:
 
@@ -2976,15 +2976,15 @@ MEDICAL ADVICE
 
 unless a separately validated and authorized system establishes that role.
 
----
+______________________________________________________________________
 
-# 159. Safety-Related Use
+## 159. Safety-Related Use
 
 Safety-critical use requires stronger validation than exploratory modeling.
 
----
+______________________________________________________________________
 
-# 160. MVCC-Compatible Semantics
+## 160. MVCC-Compatible Semantics
 
 Conceptually:
 
@@ -3000,9 +3000,9 @@ should bind consequential reads/writes.
 
 This is an AMOS governance concept, not a claim that this Markdown artifact literally implements MVCC.
 
----
+______________________________________________________________________
 
-# 161. CAS-Compatible Semantics
+## 161. CAS-Compatible Semantics
 
 Conceptually:
 
@@ -3019,9 +3019,9 @@ CONFLICT
 → REVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 162. Epoch Separation
+## 162. Epoch Separation
 
 ```text
 state_version
@@ -3035,41 +3035,41 @@ provenance_epoch
 
 unless explicitly mapped.
 
----
+______________________________________________________________________
 
-# 163. Causal Epoch
+## 163. Causal Epoch
 
 A causal conclusion should preserve the causal evidence/assumptions under which it was accepted.
 
----
+______________________________________________________________________
 
-# 164. Policy Epoch
+## 164. Policy Epoch
 
 Authorization may expire or change independently of model validity.
 
----
+______________________________________________________________________
 
-# 165. Provenance Epoch
+## 165. Provenance Epoch
 
 Discovery of correlated ancestry can alter confidence without changing the underlying model.
 
----
+______________________________________________________________________
 
-# 166. Causal Epoch Finality
+## 166. Causal Epoch Finality
 
 Finalized causal state should not be silently rewritten.
 
 Corrections should create governed successors preserving lineage.
 
----
+______________________________________________________________________
 
-# 167. Shard-Local Finalization
+## 167. Shard-Local Finalization
 
 Local finalization is safe only when dependency closure is proven local.
 
----
+______________________________________________________________________
 
-# 168. Proof-Based Coordination Avoidance
+## 168. Proof-Based Coordination Avoidance
 
 Coordination avoidance requires demonstrated:
 
@@ -3082,9 +3082,9 @@ freshness
 non-conflict
 ```
 
----
+______________________________________________________________________
 
-# 169. Registry Entry Contract
+## 169. Registry Entry Contract
 
 ```yaml
 UBI_MODEL_ENTRY:
@@ -3148,9 +3148,9 @@ UBI_MODEL_ENTRY:
     conditions: [...]
 ```
 
----
+______________________________________________________________________
 
-# 170. Minimal Valid Entry
+## 170. Minimal Valid Entry
 
 ```yaml
 model_id: ...
@@ -3168,9 +3168,9 @@ Missing load-bearing values remain:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 171. UBI Registry Machine Skeleton
+## 171. UBI Registry Machine Skeleton
 
 ```yaml
 ubi_registry:
@@ -3214,9 +3214,9 @@ ubi_registry:
   executable_binding: NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 172. Source Population Pipeline
+## 172. Source Population Pipeline
 
 ```text
 DISCOVER SOURCE
@@ -3248,9 +3248,9 @@ VALIDATE
 PROPOSE PROMOTION
 ```
 
----
+______________________________________________________________________
 
-# 173. Registration Pipeline
+## 173. Registration Pipeline
 
 ```text
 CANDIDATE
@@ -3274,9 +3274,9 @@ VALIDATION STATUS
 REGISTER / HOLD
 ```
 
----
+______________________________________________________________________
 
-# 174. Admission Failure
+## 174. Admission Failure
 
 Hold if:
 
@@ -3289,9 +3289,9 @@ version collision unresolved
 epistemic class absent
 ```
 
----
+______________________________________________________________________
 
-# 175. Registry Identity
+## 175. Registry Identity
 
 ```yaml
 identity:
@@ -3301,9 +3301,9 @@ identity:
   version: 0.1.0
 ```
 
----
+______________________________________________________________________
 
-# 176. Version Discipline
+## 176. Version Discipline
 
 ```text
 SAME_FILENAME != SAME_VERSION
@@ -3311,15 +3311,15 @@ SAME_NAME != SAME_SEMANTICS
 SAME_ID != SAME_STATE
 ```
 
----
+______________________________________________________________________
 
-# 177. Semantic Collision
+## 177. Semantic Collision
 
 Two frameworks called UBI must not be merged unless semantic identity is established.
 
----
+______________________________________________________________________
 
-# 178. Source Supersession
+## 178. Source Supersession
 
 A new UBI source may:
 
@@ -3334,9 +3334,9 @@ an older source.
 
 The relation must be explicit.
 
----
+______________________________________________________________________
 
-# 179. Historical Lineage
+## 179. Historical Lineage
 
 ```yaml
 lineage:
@@ -3351,9 +3351,9 @@ Current completeness:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 180. Validation Surfaces
+## 180. Validation Surfaces
 
 UBI validation must separate:
 
@@ -3365,9 +3365,9 @@ IMPLEMENTATION VALIDITY
 RUNTIME VALIDITY
 ```
 
----
+______________________________________________________________________
 
-# 181. Canon Validity
+## 181. Canon Validity
 
 Question:
 
@@ -3383,9 +3383,9 @@ PARTIAL / UNKNOWN/GAP
 
 because the complete native definition is unresolved.
 
----
+______________________________________________________________________
 
-# 182. Formal Validity
+## 182. Formal Validity
 
 Question:
 
@@ -3399,9 +3399,9 @@ Current:
 NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 183. Empirical Validity
+## 183. Empirical Validity
 
 Question:
 
@@ -3417,19 +3417,9 @@ NOT_ESTABLISHED
 
 Individual biological claims may later have separate evidence records.
 
----
+______________________________________________________________________
 
-# 184. Implementation Validity
-
-Current:
-
-```text
-NOT_ESTABLISHED
-```
-
----
-
-# 185. Runtime Validity
+## 184. Implementation Validity
 
 Current:
 
@@ -3437,9 +3427,19 @@ Current:
 NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 186. Executable Binding
+## 185. Runtime Validity
+
+Current:
+
+```text
+NOT_ESTABLISHED
+```
+
+______________________________________________________________________
+
+## 186. Executable Binding
 
 ```yaml
 executable_binding:
@@ -3449,33 +3449,33 @@ executable_binding:
   test_ref: UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 187. Documentation Firewall
+## 187. Documentation Firewall
 
 ```text
 DOCUMENTED != IMPLEMENTED
 ```
 
----
+______________________________________________________________________
 
-# 188. Code Firewall
+## 188. Code Firewall
 
 ```text
 CODE_EXISTS != CODE_EXECUTED
 ```
 
----
+______________________________________________________________________
 
-# 189. Implementation Firewall
+## 189. Implementation Firewall
 
 ```text
 IMPLEMENTED != VALIDATED
 ```
 
----
+______________________________________________________________________
 
-# 190. Validation Receipt
+## 190. Validation Receipt
 
 A TSS/UBI-style validation receipt must be artifact/version-specific.
 
@@ -3493,9 +3493,9 @@ validation_receipt:
   evidence_refs: [...]
 ```
 
----
+______________________________________________________________________
 
-# 191. Receipt Boundary
+## 191. Receipt Boundary
 
 ```text
 RECEIPT_EXISTS
@@ -3505,9 +3505,9 @@ RECEIPT_APPLIES_TO_UBI
 
 The receipt must explicitly bind this artifact/version or a specific UBI implementation.
 
----
+______________________________________________________________________
 
-# 192. Referenced Validation Surfaces
+## 192. Referenced Validation Surfaces
 
 Target references:
 
@@ -3520,9 +3520,9 @@ These are governance/validation references.
 
 Their presence is not evidence that UBI has already passed validation.
 
----
+______________________________________________________________________
 
-# 193. Worked Semantics
+## 193. Worked Semantics
 
 Given an operation touching:
 
@@ -3533,15 +3533,15 @@ Given an operation touching:
 perform:
 
 1. Admit
-2. Bind scope
-3. Check authority
-4. Validate preconditions
-5. Propose
-6. Commit or hold
+1. Bind scope
+1. Check authority
+1. Validate preconditions
+1. Propose
+1. Commit or hold
 
----
+______________________________________________________________________
 
-# 194. Admit
+## 194. Admit
 
 Resolve:
 
@@ -3558,9 +3558,9 @@ UNKNOWN/GAP
 → HOLD
 ```
 
----
+______________________________________________________________________
 
-# 195. Bind Scope
+## 195. Bind Scope
 
 Declare:
 
@@ -3576,9 +3576,9 @@ H/M/L applicability
 
 where relevant.
 
----
+______________________________________________________________________
 
-# 196. Check Authority
+## 196. Check Authority
 
 ```text
 CAPABILITY != AUTHORITY
@@ -3586,9 +3586,9 @@ CAPABILITY != AUTHORITY
 
 Authority must be scope-valid and epoch-valid.
 
----
+______________________________________________________________________
 
-# 197. Validate Preconditions
+## 197. Validate Preconditions
 
 Check the smallest result-changing closure:
 
@@ -3604,9 +3604,9 @@ conflicts
 validation requirements
 ```
 
----
+______________________________________________________________________
 
-# 198. Propose
+## 198. Propose
 
 Candidate state remains:
 
@@ -3616,9 +3616,9 @@ NON-AUTHORITATIVE
 
 until gates pass.
 
----
+______________________________________________________________________
 
-# 199. Commit or Hold
+## 199. Commit or Hold
 
 If any load-bearing premise fails:
 
@@ -3632,9 +3632,9 @@ Invalidate only dependent descendants.
 
 Record receipt.
 
----
+______________________________________________________________________
 
-# 200. Example — Unknown UBI Expansion
+## 200. Example — Unknown UBI Expansion
 
 Question:
 
@@ -3656,9 +3656,9 @@ Incorrect:
 invent a plausible expansion
 ```
 
----
+______________________________________________________________________
 
-# 201. Example — NBI Expansion
+## 201. Example — NBI Expansion
 
 Question:
 
@@ -3674,9 +3674,9 @@ UNKNOWN/GAP
 
 unless a native source defining `NBI` is supplied.
 
----
+______________________________________________________________________
 
-# 202. Example — Modelled Biological State
+## 202. Example — Modelled Biological State
 
 Input:
 
@@ -3706,9 +3706,9 @@ OBSERVATION
 
 unless `S` itself was directly observed under a defined measurement contract.
 
----
+______________________________________________________________________
 
-# 203. Example — Somatic Signal
+## 203. Example — Somatic Signal
 
 Observation:
 
@@ -3740,9 +3740,9 @@ not:
 DIAGNOSIS(Y)
 ```
 
----
+______________________________________________________________________
 
-# 204. Example — Population Pattern
+## 204. Example — Population Pattern
 
 Model identifies:
 
@@ -3762,9 +3762,9 @@ Incorrect:
 every individual in population has G
 ```
 
----
+______________________________________________________________________
 
-# 205. Example — Bioelectromagnetic Association
+## 205. Example — Bioelectromagnetic Association
 
 Evidence:
 
@@ -3786,9 +3786,9 @@ A CAUSES B
 
 without causal evidence.
 
----
+______________________________________________________________________
 
-# 206. Example — Intuition
+## 206. Example — Intuition
 
 AMOS model:
 
@@ -3810,9 +3810,9 @@ Incorrect:
 validated universal neurological equation
 ```
 
----
+______________________________________________________________________
 
-# 207. Example — Stress
+## 207. Example — Stress
 
 General model premise:
 
@@ -3828,17 +3828,17 @@ Person P has impaired executive function because stress = X
 
 requires evidence beyond the general model.
 
----
+______________________________________________________________________
 
-# 208. Example — Sleep
+## 208. Example — Sleep
 
 A model may use sleep-related observations as inputs.
 
 It must not infer exact causal contribution without appropriate evidence.
 
----
+______________________________________________________________________
 
-# 209. Example — Stale Biological Observation
+## 209. Example — Stale Biological Observation
 
 Observation at:
 
@@ -3859,9 +3859,9 @@ STALE
 → REOBSERVE / REVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 210. Example — Regime Shift
+## 210. Example — Regime Shift
 
 Model validated under:
 
@@ -3881,9 +3881,9 @@ Correct:
 REVALIDATE
 ```
 
----
+______________________________________________________________________
 
-# 211. Example — Shared Provenance
+## 211. Example — Shared Provenance
 
 Three AMOS documents repeat the same biological claim but descend from one master source.
 
@@ -3899,9 +3899,9 @@ not:
 3 independent confirmations
 ```
 
----
+______________________________________________________________________
 
-# 212. Example — Competing Biological Models
+## 212. Example — Competing Biological Models
 
 Model A:
 
@@ -3923,9 +3923,9 @@ COMPETING
 
 not forced synthesis.
 
----
+______________________________________________________________________
 
-# 213. Negative Test Matrix
+## 213. Negative Test Matrix
 
 | Test                                                        | Required Result |
 | ----------------------------------------------------------- | --------------- |
@@ -3948,9 +3948,9 @@ not forced synthesis.
 | Duplicate source descendants counted independently          | `REJECT`        |
 | Missing validation treated as pass                          | `REJECT`        |
 
----
+______________________________________________________________________
 
-# 214. Positive Test Matrix
+## 214. Positive Test Matrix
 
 | Test                                   | Result                       |
 | -------------------------------------- | ---------------------------- |
@@ -3965,9 +3965,9 @@ not forced synthesis.
 | Stale observation                      | `REOBSERVE/REVALIDATE`       |
 | Valid artifact-specific receipt        | `VALID_WITHIN_RECEIPT_SCOPE` |
 
----
+______________________________________________________________________
 
-# 215. Promotion Pipeline
+## 215. Promotion Pipeline
 
 ```text
 PLACEHOLDER
@@ -3983,9 +3983,9 @@ CANONICAL
 
 The frontmatter source status remains `PLACEHOLDER` until governed promotion occurs.
 
----
+______________________________________________________________________
 
-# 216. Source Population Gate
+## 216. Source Population Gate
 
 Required:
 
@@ -3998,9 +3998,9 @@ Required:
 - [ ] contradictions surfaced
 - [ ] source lineage recorded
 
----
+______________________________________________________________________
 
-# 217. Schema Gate
+## 217. Schema Gate
 
 - [ ] authoritative/native schema identified or normalized schema approved
 - [ ] identity fields defined
@@ -4012,9 +4012,9 @@ Required:
 - [ ] validation fields bound
 - [ ] invalidation fields bound
 
----
+______________________________________________________________________
 
-# 218. Implementation Gate
+## 218. Implementation Gate
 
 - [ ] implementation identified
 - [ ] executable binding identified
@@ -4025,9 +4025,9 @@ Required:
 - [ ] authority handling implemented
 - [ ] rollback path demonstrated
 
----
+______________________________________________________________________
 
-# 219. Validation Gate
+## 219. Validation Gate
 
 - [ ] canon validation performed
 - [ ] formal validation performed where applicable
@@ -4038,9 +4038,9 @@ Required:
 - [ ] regime validity assessed
 - [ ] artifact-specific receipt generated
 
----
+______________________________________________________________________
 
-# 220. Promotion Checklist
+## 220. Promotion Checklist
 
 - [ ] substantive content populated from verified native-canon source
 - [ ] typed schema bound to this artifact
@@ -4055,9 +4055,9 @@ Required:
 - [x] biological-model/diagnosis firewall defined
 - [x] add-only discipline preserved
 
----
+______________________________________________________________________
 
-# 221. Implementation Promotion Is Separate
+## 221. Implementation Promotion Is Separate
 
 ```text
 CANONICAL
@@ -4073,9 +4073,9 @@ IMPLEMENTED
 VALIDATED
 ```
 
----
+______________________________________________________________________
 
-# 222. Empirical Promotion Is Separate
+## 222. Empirical Promotion Is Separate
 
 ```text
 CANONICAL AMOS MODEL
@@ -4085,9 +4085,9 @@ EMPIRICALLY SUPPORTED MODEL
 
 Empirical support must be claim-specific and scope-specific.
 
----
+______________________________________________________________________
 
-# 223. Canonical Status
+## 223. Canonical Status
 
 Current source status:
 
@@ -4097,33 +4097,33 @@ UNKNOWN/GAP
 
 No architectural expansion in this file overrides that.
 
----
+______________________________________________________________________
 
-# 224. Implementation Status
-
-```text
-NOT_ESTABLISHED
-```
-
----
-
-# 225. Validation Status
+## 224. Implementation Status
 
 ```text
 NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 226. Executable Binding
+## 225. Validation Status
 
 ```text
 NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 227. Provenance Independence
+## 226. Executable Binding
+
+```text
+NOT_ESTABLISHED
+```
+
+______________________________________________________________________
+
+## 227. Provenance Independence
 
 ```text
 NOT_ESTABLISHED
@@ -4133,9 +4133,9 @@ The available context may contain multiple AMOS descendants of shared source fam
 
 Therefore independent confirmation must not be assumed.
 
----
+______________________________________________________________________
 
-# 228. Current Registry Completeness
+## 228. Current Registry Completeness
 
 ```yaml
 registry_completeness:
@@ -4177,9 +4177,9 @@ registry_completeness:
     state: NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 229. Structural Completeness Firewall
+## 229. Structural Completeness Firewall
 
 ```text
 LONG DOCUMENT
@@ -4195,9 +4195,9 @@ COMPLETE REGISTRY SCHEMA
 COMPLETE REGISTRY POPULATION
 ```
 
----
+______________________________________________________________________
 
-# 230. Model Registry vs Model
+## 230. Model Registry vs Model
 
 ```text
 UBI_MODEL_REGISTRY
@@ -4209,9 +4209,9 @@ The registry governs and indexes models.
 
 It does not itself instantiate every UBI model.
 
----
+______________________________________________________________________
 
-# 231. Registry vs Evidence
+## 231. Registry vs Evidence
 
 ```text
 REGISTRY
@@ -4219,9 +4219,9 @@ REGISTRY
 EVIDENCE
 ```
 
----
+______________________________________________________________________
 
-# 232. Registry vs Authority
+## 232. Registry vs Authority
 
 ```text
 REGISTRY
@@ -4229,9 +4229,9 @@ REGISTRY
 AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 233. Registry vs Runtime
+## 233. Registry vs Runtime
 
 ```text
 REGISTRY
@@ -4239,9 +4239,9 @@ REGISTRY
 RUNTIME
 ```
 
----
+______________________________________________________________________
 
-# 234. Registry vs Canon Completeness
+## 234. Registry vs Canon Completeness
 
 ```text
 REGISTRY_EXISTS
@@ -4249,9 +4249,9 @@ REGISTRY_EXISTS
 UBI_CANON_COMPLETE
 ```
 
----
+______________________________________________________________________
 
-# 235. Model Identity Contract
+## 235. Model Identity Contract
 
 ```yaml
 model_identity:
@@ -4263,9 +4263,9 @@ model_identity:
   lineage_ref: ...
 ```
 
----
+______________________________________________________________________
 
-# 236. Model Alias Contract
+## 236. Model Alias Contract
 
 ```yaml
 alias:
@@ -4277,9 +4277,9 @@ alias:
 
 Aliases must be source-supported or explicitly normalized.
 
----
+______________________________________________________________________
 
-# 237. Model Status Vocabulary
+## 237. Model Status Vocabulary
 
 Recommended normalized states:
 
@@ -4298,9 +4298,9 @@ UNKNOWN/GAP
 
 These normalized states do not rewrite source metadata without governance.
 
----
+______________________________________________________________________
 
-# 238. PLACEHOLDER
+## 238. PLACEHOLDER
 
 ```text
 canonical slot exists
@@ -4308,9 +4308,9 @@ canonical slot exists
 substantive content incomplete
 ```
 
----
+______________________________________________________________________
 
-# 239. SOURCE_NUCLEUS_EXPANDED
+## 239. SOURCE_NUCLEUS_EXPANDED
 
 ```text
 source placeholder preserved
@@ -4322,51 +4322,51 @@ missing native semantics still explicit
 
 This describes the present document expansion.
 
----
+______________________________________________________________________
 
-# 240. SOURCE_POPULATED
+## 240. SOURCE_POPULATED
 
 Requires sufficient native-source extraction to populate substantive UBI semantics.
 
 Not yet established.
 
----
+______________________________________________________________________
 
-# 241. CANON_CANDIDATE
+## 241. CANON_CANDIDATE
 
 Requires explicit proposal for canon promotion.
 
 Not yet established.
 
----
+______________________________________________________________________
 
-# 242. CANONICAL
+## 242. CANONICAL
 
 Requires governed canon acceptance.
 
 Not established by this artifact.
 
----
+______________________________________________________________________
 
-# 243. COMPETING
+## 243. COMPETING
 
 Used when materially incompatible UBI definitions/models remain unresolved.
 
----
+______________________________________________________________________
 
-# 244. HISTORICAL
+## 244. HISTORICAL
 
 Used for superseded but lineage-relevant UBI material.
 
----
+______________________________________________________________________
 
-# 245. DEPRECATED
+## 245. DEPRECATED
 
 Used when retained for lineage but not recommended for current use.
 
----
+______________________________________________________________________
 
-# 246. UNKNOWN/GAP
+## 246. UNKNOWN/GAP
 
 A valid epistemic/governance state representing missing or insufficiently supported information.
 
@@ -4374,9 +4374,9 @@ A valid epistemic/governance state representing missing or insufficiently suppor
 UNKNOWN/GAP != FAILURE_TO_WRITE_ENOUGH_PROSE
 ```
 
----
+______________________________________________________________________
 
-# 247. Cross-Framework Binding Rule
+## 247. Cross-Framework Binding Rule
 
 Any relationship:
 
@@ -4396,9 +4396,9 @@ mapping:
   confidence: ...
 ```
 
----
+______________________________________________________________________
 
-# 248. UBI ↔ Biological Logic
+## 248. UBI ↔ Biological Logic
 
 Current strongest representation:
 
@@ -4410,9 +4410,9 @@ mapping:
   native_relation_type: UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 249. UBI ↔ NBI
+## 249. UBI ↔ NBI
 
 ```yaml
 mapping:
@@ -4422,9 +4422,9 @@ mapping:
   native_relation_type: UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 250. UBI ↔ NEI
+## 250. UBI ↔ NEI
 
 ```yaml
 mapping:
@@ -4434,9 +4434,9 @@ mapping:
   native_relation_type: UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 251. UBI ↔ SI
+## 251. UBI ↔ SI
 
 ```yaml
 mapping:
@@ -4446,9 +4446,9 @@ mapping:
   native_relation_type: UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 252. UBI ↔ BEI
+## 252. UBI ↔ BEI
 
 ```yaml
 mapping:
@@ -4458,9 +4458,9 @@ mapping:
   native_relation_type: UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 253. Mapping Firewall
+## 253. Mapping Firewall
 
 ```text
 MAPS_TO
@@ -4476,9 +4476,9 @@ LINKED_TO
 CAUSED_BY
 ```
 
----
+______________________________________________________________________
 
-# 254. Cross-Plane Binding — Canon
+## 254. Cross-Plane Binding — Canon
 
 Target:
 
@@ -4490,9 +4490,9 @@ Relation:
 GOVERNED_BY
 ```
 
----
+______________________________________________________________________
 
-# 255. Cross-Plane Binding — Kernel
+## 255. Cross-Plane Binding — Kernel
 
 Target:
 
@@ -4510,9 +4510,9 @@ Current implementation:
 NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 256. Cross-Plane Binding — Control Plane
+## 256. Cross-Plane Binding — Control Plane
 
 Target:
 
@@ -4526,9 +4526,9 @@ policy
 commit gates
 ```
 
----
+______________________________________________________________________
 
-# 257. Cross-Plane Binding — Observability
+## 257. Cross-Plane Binding — Observability
 
 Target:
 
@@ -4540,9 +4540,9 @@ Critical law:
 OBSERVABILITY != AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 258. Cross-Plane Binding — Operations
+## 258. Cross-Plane Binding — Operations
 
 Target:
 
@@ -4557,9 +4557,9 @@ incident handling
 revalidation
 ```
 
----
+______________________________________________________________________
 
-# 259. Root Navigation
+## 259. Root Navigation
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] | [[00_ROOT/AMOS MOC|AMOS MOC]]
 
@@ -4567,9 +4567,9 @@ revalidation
 
 **MOC:** [[13_MODELS/04_DOMAIN/04_DOMAIN_MOC|04_DOMAIN_MOC]]
 
----
+______________________________________________________________________
 
-# 260. Observability Contract
+## 260. Observability Contract
 
 A future UBI runtime SHOULD expose enough telemetry to reconstruct:
 
@@ -4589,9 +4589,9 @@ validation result
 
 where appropriate.
 
----
+______________________________________________________________________
 
-# 261. Observability Firewall
+## 261. Observability Firewall
 
 ```text
 OBSERVED_RUNTIME_EVENT
@@ -4599,17 +4599,17 @@ OBSERVED_RUNTIME_EVENT
 VALIDATED_MODEL_CLAIM
 ```
 
----
+______________________________________________________________________
 
-# 262. Logging Firewall
+## 262. Logging Firewall
 
 ```text
 LOGGED != APPROVED
 ```
 
----
+______________________________________________________________________
 
-# 263. Auditability
+## 263. Auditability
 
 A consequential UBI operation SHOULD be reconstructable from:
 
@@ -4623,17 +4623,17 @@ decision
 receipt
 ```
 
----
+______________________________________________________________________
 
-# 264. Auditability Firewall
+## 264. Auditability Firewall
 
 ```text
 AUDITABLE != EMPIRICALLY_TRUE
 ```
 
----
+______________________________________________________________________
 
-# 265. Test Firewall
+## 265. Test Firewall
 
 ```text
 TEST_EXISTS != TEST_EXECUTED
@@ -4641,9 +4641,9 @@ TEST_EXECUTED != TEST_PASSED
 TEST_PASSED != UNIVERSAL_VALIDITY
 ```
 
----
+______________________________________________________________________
 
-# 266. Benchmark Firewall
+## 266. Benchmark Firewall
 
 ```text
 BENCHMARK_SUCCESS
@@ -4651,9 +4651,9 @@ BENCHMARK_SUCCESS
 UNIVERSAL BIOLOGICAL VALIDITY
 ```
 
----
+______________________________________________________________________
 
-# 267. Environment Binding
+## 267. Environment Binding
 
 Any implementation benchmark should preserve:
 
@@ -4670,9 +4670,9 @@ environment:
 
 where applicable.
 
----
+______________________________________________________________________
 
-# 268. Performance Firewall
+## 268. Performance Firewall
 
 ```text
 PERFORMANCE_IN_ENV_A
@@ -4680,9 +4680,9 @@ PERFORMANCE_IN_ENV_A
 PERFORMANCE_IN_ALL_ENVIRONMENTS
 ```
 
----
+______________________________________________________________________
 
-# 269. Deterministic Runtime Firewall
+## 269. Deterministic Runtime Firewall
 
 A deterministic implementation does not imply deterministic biology.
 
@@ -4692,9 +4692,9 @@ DETERMINISTIC_MODEL
 DETERMINISTIC_ORGANISM
 ```
 
----
+______________________________________________________________________
 
-# 270. Biological Variability
+## 270. Biological Variability
 
 Any UBI model should remain compatible with uncertainty arising from:
 
@@ -4709,9 +4709,9 @@ model uncertainty
 
 where material.
 
----
+______________________________________________________________________
 
-# 271. Adaptive Complexity
+## 271. Adaptive Complexity
 
 AMOS reasoning levels:
 
@@ -4725,9 +4725,9 @@ C4 Maximum
 
 UBI claims involving health, safety, causal interpretation, or consequential action should escalate validation accordingly.
 
----
+______________________________________________________________________
 
-# 272. Uncertainty Vector
+## 272. Uncertainty Vector
 
 For current UBI registry semantics:
 
@@ -4744,9 +4744,9 @@ uncertainty_vector:
 
 This applies to substantive native UBI semantics, not to the supplied artifact identity.
 
----
+______________________________________________________________________
 
-# 273. Decision-Changing Uncertainty
+## 273. Decision-Changing Uncertainty
 
 Highest-value unresolved information:
 
@@ -4767,9 +4767,9 @@ scope
 lineage
 ```
 
----
+______________________________________________________________________
 
-# 274. Stop Condition
+## 274. Stop Condition
 
 Registry reasoning may stop when:
 
@@ -4785,9 +4785,9 @@ are achieved.
 
 Do not load raw evidence merely for completeness when it cannot change the outcome.
 
----
+______________________________________________________________________
 
-# 275. Knowledge Harvest
+## 275. Knowledge Harvest
 
 ```text
 Ephemeral Code
@@ -4812,9 +4812,9 @@ revalidation timing
 lineage
 ```
 
----
+______________________________________________________________________
 
-# 276. README Claim Firewall
+## 276. README Claim Firewall
 
 ```text
 README CLAIM
@@ -4822,9 +4822,9 @@ README CLAIM
 VALIDATED BEHAVIOR
 ```
 
----
+______________________________________________________________________
 
-# 277. Documentation Claim Firewall
+## 277. Documentation Claim Firewall
 
 ```text
 DOCUMENTATION
@@ -4834,9 +4834,9 @@ SOURCE_CLAIM
 
 until separately validated where required.
 
----
+______________________________________________________________________
 
-# 278. Anti-Fabrication Law
+## 278. Anti-Fabrication Law
 
 Never bridge:
 
@@ -4860,9 +4860,9 @@ contextual hints
 
 into invented acronym expansions.
 
----
+______________________________________________________________________
 
-# 279. Anti-Causal-Overreach Law
+## 279. Anti-Causal-Overreach Law
 
 Never bridge:
 
@@ -4880,9 +4880,9 @@ causal mechanism
 
 without causal evidence.
 
----
+______________________________________________________________________
 
-# 280. Anti-Scope-Leakage Law
+## 280. Anti-Scope-Leakage Law
 
 Never bridge:
 
@@ -4896,9 +4896,9 @@ into:
 valid universally
 ```
 
----
+______________________________________________________________________
 
-# 281. Anti-Provenance-Inflation Law
+## 281. Anti-Provenance-Inflation Law
 
 Never bridge:
 
@@ -4914,9 +4914,9 @@ many independent confirmations
 
 without ancestry analysis.
 
----
+______________________________________________________________________
 
-# 282. Anti-Regression Law
+## 282. Anti-Regression Law
 
 Future revisions must preserve or improve:
 
@@ -4933,9 +4933,9 @@ user fit
 
 Otherwise roll back.
 
----
+______________________________________________________________________
 
-# 283. Current Proof Capsule
+## 283. Current Proof Capsule
 
 ```yaml
 proof_capsule:
@@ -4984,9 +4984,9 @@ proof_capsule:
     source_supported_for_architectural_links
 ```
 
----
+______________________________________________________________________
 
-# 284. Current Layer Matrix
+## 284. Current Layer Matrix
 
 | Surface                           | State                      |
 | --------------------------------- | -------------------------- |
@@ -5015,9 +5015,9 @@ proof_capsule:
 | Executable binding                | `NOT_ESTABLISHED`          |
 | Provenance independence           | `NOT_ESTABLISHED`          |
 
----
+______________________________________________________________________
 
-# 285. Strongest Safe Compression
+## 285. Strongest Safe Compression
 
 ```text
 UBI
@@ -5059,9 +5059,9 @@ EXECUTABLE BINDING
 NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 286. Biological Compression
+## 286. Biological Compression
 
 ```text
 BIOLOGICAL MODEL != BIOLOGICAL TRUTH
@@ -5089,9 +5089,9 @@ MODELS EMOTION != EXPERIENCES EMOTION
 MODELS CONSCIOUSNESS != PROOF OF CONSCIOUSNESS
 ```
 
----
+______________________________________________________________________
 
-# 287. Epistemic Compression
+## 287. Epistemic Compression
 
 ```text
 SOURCE_CLAIM != VERIFIED
@@ -5109,9 +5109,9 @@ PLAUSIBILITY != VALIDATION
 ABSENCE OF CONTRADICTION != PROOF
 ```
 
----
+______________________________________________________________________
 
-# 288. Governance Compression
+## 288. Governance Compression
 
 ```text
 CAPABILITY != AUTHORITY
@@ -5129,9 +5129,9 @@ TEST_PASS != UNIVERSAL_TRUTH
 UNKNOWN/GAP != PASS
 ```
 
----
+______________________________________________________________________
 
-# 289. Canon Compression
+## 289. Canon Compression
 
 ```text
 ADDRESSABLE != VALIDATED
@@ -5147,9 +5147,9 @@ SOURCE_POPULATED != CANONICAL
 STRUCTURALLY_COMPLETE != SEMANTICALLY_COMPLETE
 ```
 
----
+______________________________________________________________________
 
-# 290. UBI Registry Invariants
+## 290. UBI Registry Invariants
 
 ```yaml
 UBI_REGISTRY_INVARIANTS:
@@ -5215,9 +5215,9 @@ UBI_REGISTRY_INVARIANTS:
     rule: FAILURES_INVALIDATE_DEPENDENT_DESCENDANTS_ONLY
 ```
 
----
+______________________________________________________________________
 
-# 291. Machine Decision Table
+## 291. Machine Decision Table
 
 ```yaml
 UBI_DECISION_TABLE:
@@ -5274,9 +5274,9 @@ UBI_DECISION_TABLE:
     never: SILENT_NATIVE_CANON_PROMOTION
 ```
 
----
+______________________________________________________________________
 
-# 292. Current Safe Uses
+## 292. Current Safe Uses
 
 This registry can safely support:
 
@@ -5294,9 +5294,9 @@ scope/regime planning
 future native-source normalization
 ```
 
----
+______________________________________________________________________
 
-# 293. Current Unsafe Uses
+## 293. Current Unsafe Uses
 
 It cannot currently support authoritative claims of:
 
@@ -5316,9 +5316,9 @@ executable UBI behavior
 final canonical status
 ```
 
----
+______________________________________________________________________
 
-# 294. Promotion Blockers
+## 294. Promotion Blockers
 
 ```text
 BLOCKER 1:
@@ -5352,9 +5352,9 @@ BLOCKER 10:
 Provenance independence not established.
 ```
 
----
+______________________________________________________________________
 
-# 295. Source-Population Trigger
+## 295. Source-Population Trigger
 
 The registry may advance substantively when a native source establishes:
 
@@ -5376,9 +5376,9 @@ version
 lineage
 ```
 
----
+______________________________________________________________________
 
-# 296. Gap Closure Contract
+## 296. Gap Closure Contract
 
 ```yaml
 gap_closure:
@@ -5392,9 +5392,9 @@ gap_closure:
   validation_ref: ...
 ```
 
----
+______________________________________________________________________
 
-# 297. No Silent Gap Closure
+## 297. No Silent Gap Closure
 
 ```text
 MORE PROSE
@@ -5404,9 +5404,9 @@ GAP RESOLVED
 
 A gap closes only through evidence appropriate to the gap.
 
----
+______________________________________________________________________
 
-# 298. Final Integrity Rule
+## 298. Final Integrity Rule
 
 When completeness conflicts with integrity:
 
@@ -5422,9 +5422,9 @@ UNKNOWN/GAP
 
 is preferable to a plausible but unsupported native UBI definition.
 
----
+______________________________________________________________________
 
-# 299. Final Canon-Ingestion Rule
+## 299. Final Canon-Ingestion Rule
 
 ```text
 DO NOT ASK:
@@ -5468,9 +5468,9 @@ VALIDATION
 PROMOTION
 ```
 
----
+______________________________________________________________________
 
-# 300. Final Proof-State Summary
+## 300. Final Proof-State Summary
 
 ```yaml
 UBI_CURRENT_PROOF_STATE:
@@ -5521,9 +5521,9 @@ UBI_CURRENT_PROOF_STATE:
     independence: NOT_ESTABLISHED
 ```
 
----
+______________________________________________________________________
 
-# 301. Cross-Plane Bindings
+## 301. Cross-Plane Bindings
 
 - Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] | AMOS Core Laws
 - Kernel interaction — [[02_KERNEL/KERNEL_README|KERNEL_README]]
@@ -5539,9 +5539,9 @@ Boundary:
 LINKED_TO != IMPLEMENTED_BY
 ```
 
----
+______________________________________________________________________
 
-# 302. Navigation
+## 302. Navigation
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] | [[00_ROOT/AMOS MOC|AMOS MOC]]
 
@@ -5549,9 +5549,9 @@ LINKED_TO != IMPLEMENTED_BY
 
 **MOC:** [[13_MODELS/04_DOMAIN/04_DOMAIN_MOC|04_DOMAIN_MOC]]
 
----
+______________________________________________________________________
 
-# 303. RSCF-NODE
+## 303. RSCF-NODE
 
 ```yaml
 RSCF-NODE:
@@ -5625,9 +5625,9 @@ RSCF-NODE:
     native_schema: UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 304. RSCF Relations
+## 304. RSCF Relations
 
 ```yaml
 RSCF-RELATIONS:
@@ -5677,9 +5677,9 @@ RSCF-RELATIONS:
   - PRESERVES_GAP: UBI-G020
 ```
 
----
+______________________________________________________________________
 
-# 305. RSCF Footer
+## 305. RSCF Footer
 
 ```yaml
 RSCF:
@@ -5777,9 +5777,9 @@ RSCF:
     complete_native_semantics: UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 306. Canonical Compression Block
+## 306. Canonical Compression Block
 
 ```text
 UBI IDENTIFIER
@@ -5861,9 +5861,9 @@ LOGGED != APPROVED
 UNKNOWN/GAP != PASS
 ```
 
----
+______________________________________________________________________
 
-# 307. Final Governing Statement
+## 307. Final Governing Statement
 
 The governing rule of `UBI_MODEL_REGISTRY.md` is:
 
@@ -5905,7 +5905,7 @@ SPEED
 TOKEN SAVINGS
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]] | [[00_ROOT/AMOS MOC|AMOS MOC]]
 
@@ -5928,4 +5928,3 @@ TOKEN SAVINGS
 **Validation:** `NOT_ESTABLISHED`
 
 **Executable binding:** `NOT_ESTABLISHED`
-

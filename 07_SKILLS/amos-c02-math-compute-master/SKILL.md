@@ -4,22 +4,19 @@ title: SKILL — Amos C02 Math Compute Master
 type: skill
 source: 07_SKILLS/amos-c02-math-compute-master
 name: amos-c02-math-compute-master
-description: 'AMOS C02 Math & Compute — 10 families: problem framing, numerical methods,
-  probability, optimization, complexity, control, signal processing, simulation. Use
-  when mathematical reasoning or computational analysis. Do not use for generic math
-  tutoring, symbolic algebra, or tasks outside the 10-family computational framework.'
+description: 'AMOS C02 Math & Compute — 10 families: problem framing, numerical methods, probability, optimization, complexity, control, signal processing, simulation. Use when mathematical reasoning or computational analysis. Do not use for generic math tutoring, symbolic algebra, or tasks outside the 10-family computational framework.'
 parent_skill: none
 domain: c02
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CANON
 tags:
-- type/skill
-- type/skill
-- domain/physics-cosmos
-- epistemic/source_claim
-- hml/h
-- epistemic/source_canon
-- amos-os
+  - type/skill
+  - type/skill
+  - domain/physics-cosmos
+  - epistemic/source_claim
+  - hml/h
+  - epistemic/source_canon
+  - amos-os
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -29,23 +26,23 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: H
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
-- L7_authority
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
+  - L7_authority
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L7
-- L16
-- L17
-- L18
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L7
+  - L16
+  - L17
+  - L18
 license: MIT
 steward: Trang Phan
 ---
@@ -86,15 +83,15 @@ AMOS C02 Math & Compute — 10 knowledge families: problem framing, numerical me
 ## Operations
 
 1. **c02.problem_framing**: F01 — Classify quantity sought (exact/approximate/order-of-magnitude), optimization vs constraint vs fixed. Run dimensional analysis before numerics (cheapest correctness filter). Back-of-envelope estimation agai...
-2. **c02.numerical_methods**: F02 — State four disciplines: error control (truncation vs round-off budget), conditioning (κ(A) estimate; flag κ≫1), stability (forward/backward; stiff-system handling), convergence (rate, criteria, terminatio...
-3. **c02.probability_statistics**: F03 — Apply Kolmogorov axioms, Bayes' theorem with base-rate-neglect guard. Select distribution by data-generating process. Enforce descriptive vs inferential gate (sample mean ≠ population claim without U...
-4. **c02.optimization**: F04 — Specify decision variables, objective, constraints, parameters, solution, sensitivity. Match problem class (LP/NLP/MIP/convex/multi-objective/stochastic). No global-optimum claims for nonconvex/integer/large-s...
-5. **c02.complexity_scaling**: F05 — Asymptotic analysis (big-O/Θ) with constant factors treated separately. Hardness classes (P/NP/NP-hard/NP-complete). Practical scaling discipline: report measured behavior, memory footprint, convergence...
-6. **c02.control_systems**: F06 — Require all six components (plant, controller, sensors, actuators, reference, closed-loop behavior). Tabulate performance trade-off axes (steady-state error vs overshoot vs settling time vs robustness). Lin...
-7. **c02.signal_processing**: F07 — Filtering (FIR/IIR/Kalman), transforms (FFT family), spectral estimation, noise suppression (spectral subtraction with floor). Spectral governance: window choice, leakage behavior, and resolution limits m...
-8. **c02.simulation_validation**: F08 — Paradigm selection (discrete-event/system dynamics/agent-based/Monte Carlo/scenario) with rationale. Document model formulation → parameterisation → execution → output analysis → validation. Execution...
-9. **c02.meta_control**: F09 — Govern precision mode (low/medium/high), solution strategy (exact vs approximate), computation strategy (symbolic vs numeric). Uncertainty propagation: report bands not points (band width IS part of the answer...
-10. **c02.math_research_bridge**: F10 — QFM stack integration (C02 provides numeric rigor backbone). Fractal/math canon gate: C02 supplies rigor machinery but does NOT certify fractal or quantum claims. Cross-domain handoff: C02 verifies int...
+1. **c02.numerical_methods**: F02 — State four disciplines: error control (truncation vs round-off budget), conditioning (κ(A) estimate; flag κ≫1), stability (forward/backward; stiff-system handling), convergence (rate, criteria, terminatio...
+1. **c02.probability_statistics**: F03 — Apply Kolmogorov axioms, Bayes' theorem with base-rate-neglect guard. Select distribution by data-generating process. Enforce descriptive vs inferential gate (sample mean ≠ population claim without U...
+1. **c02.optimization**: F04 — Specify decision variables, objective, constraints, parameters, solution, sensitivity. Match problem class (LP/NLP/MIP/convex/multi-objective/stochastic). No global-optimum claims for nonconvex/integer/large-s...
+1. **c02.complexity_scaling**: F05 — Asymptotic analysis (big-O/Θ) with constant factors treated separately. Hardness classes (P/NP/NP-hard/NP-complete). Practical scaling discipline: report measured behavior, memory footprint, convergence...
+1. **c02.control_systems**: F06 — Require all six components (plant, controller, sensors, actuators, reference, closed-loop behavior). Tabulate performance trade-off axes (steady-state error vs overshoot vs settling time vs robustness). Lin...
+1. **c02.signal_processing**: F07 — Filtering (FIR/IIR/Kalman), transforms (FFT family), spectral estimation, noise suppression (spectral subtraction with floor). Spectral governance: window choice, leakage behavior, and resolution limits m...
+1. **c02.simulation_validation**: F08 — Paradigm selection (discrete-event/system dynamics/agent-based/Monte Carlo/scenario) with rationale. Document model formulation → parameterisation → execution → output analysis → validation. Execution...
+1. **c02.meta_control**: F09 — Govern precision mode (low/medium/high), solution strategy (exact vs approximate), computation strategy (symbolic vs numeric). Uncertainty propagation: report bands not points (band width IS part of the answer...
+1. **c02.math_research_bridge**: F10 — QFM stack integration (C02 provides numeric rigor backbone). Fractal/math canon gate: C02 supplies rigor machinery but does NOT certify fractal or quantum claims. Cross-domain handoff: C02 verifies int...
 
 ## Consolidated Sub-Skills (100)
 
@@ -145,40 +142,28 @@ The domain is organized into source families:
 
 Every equation class typed: SOURCE_CANON for established math, AMOS_MODEL for Trang constructs. No result without error characterization. No optimum without convexity/hardness statement. No statistical estimate without uncertainty quantification. Control governance: design-support only, no safety-critical deployment, no autonomous actuation. C02 is not an oracle of correctness.
 
-
 > **Reference**: See `references/vault_domain_knowledge.md` (content_hash: 49fa929af7ab6b6f) for detailed vault-sourced domain knowledge.
 > **Reference**: See `references/domain_config.md` (content_hash: 5b59808b7d7a3cca) for Mathematics & Computation domain configuration (typical questions, core methods, risk notes).
 
-
 > **Reference**: See `references/spectral_method_governance.md` (content_hash: 977e0c7e1809f788) for the Spectral-Method Governance Layer (spectral method validation, convergence tests, stability gates).
-
 
 > **Reference**: See `references/network_structure_diagnostics.md` (content_hash: 63582d102dcaa1b4) for the Network-Structure Diagnostics Layer (network structure validation, graph diagnostics, topology tests).
 
-
 > **Reference**: See `references/control_systems_kernel.md` (content_hash: 3a8858d1be1880c8) for the Control Systems Kernel v0 Math Foundations (control theory, stability analysis, feedback systems).
-
 
 > **Reference**: See `references/engineering_math_kernel.md` (content_hash: adedfcf90e737fd1) for the Engineering Math Kernel v0 Tech Systems (engineering mathematics, computational methods, numerical analysis).
 
-
 > **Reference**: See `references/complex_analysis_bridge.md` (content_hash: a417235d3adf5093) for the AMOS Complex Analysis Bridge (complex analysis, mathematical bridges, computational methods).
-
 
 > **Reference**: See `references/computational_complexity_model.md` (content_hash: a718b1de21a41fe3) for the AMOS Computational Complexity Model (complexity classes, computational models, complexity analysis).
 
-
 > **Reference**: See `references/integrated_optimization.md` (content_hash: 596ccb222679ad08) for the Integrated Optimization Complete (optimization integration, performance tuning, system optimization).
-
 
 > **Reference**: See `references/numerical_methods_engine_layer.md` (content_hash: e40b9f5708c1d2f2) for the AMOS Numerical Methods Engine Layer (numerical methods, computational layer, numerical processing).
 
-
 > **Reference**: See `references/engineering_math_engine_cognitive.md` (content_hash: 127d892d5c9dbc79) for the AMOS Engineering and Mathematics Engine Cognitive (engineering cognition, math cognition, cognitive engineering).
 
-
 > **Reference**: See `references/engineering_math_kernel_vinfinity.md` (content_hash: 35e05816b7e55665) for the AMOS Engineering Math Kernel vInfinity (engineering math, kernel, vInfinity).
-
 
 > **Reference**: See `references/ancient_math.md` (content_hash: 54dff928d7ac1b59) for the Ancient Math (ancient mathematics, historical math, mathematical foundations).
 
@@ -300,7 +285,6 @@ Every equation class typed: SOURCE_CANON for established math, AMOS_MODEL for Tr
 - Access to AMOS_OS Obsidian vault for vault-sourced content
 - No external API credentials required
 
-
 ## Failure Modes
 
 - **Insufficient evidence**: If source material is insufficient, mark as UNKNOWN/GAP and fail closed — do not fabricate.
@@ -308,7 +292,6 @@ Every equation class typed: SOURCE_CANON for established math, AMOS_MODEL for Tr
 - **Binding broken**: If 1:1:1 binding (skill→agent→workflow) is broken, flag routing mismatch and block execution.
 - **Validation failure**: If validation gates fail, downgrade confidence, flag the gap, and escalate — do not force-fit.
 - **Epistemic overreach**: If a claim exceeds the established evidence or epistemic class, retract and relabel.
-
 
 ## Validation Gates
 
@@ -323,21 +306,24 @@ Every equation class typed: SOURCE_CANON for established math, AMOS_MODEL for Tr
 ## Examples
 
 - **Scenario**: User says "What's the computational complexity of this algorithm?"
+
   - **Input**: An algorithm with unclear complexity
   - **Output**: Complexity analysis across 10 math families (problem framing, numerical methods, probability, optimization, complexity, control, signal processing, simulation), Big-O classification tagged DERIVED
 
 - **Scenario**: User says "Optimize this numerical method for better convergence"
+
   - **Input**: A numerical method with slow convergence
   - **Output**: Convergence analysis, optimization recommendation from the 10-family framework, stability check, tagged AMOS_MODEL with falsifiers declared
 
 - **Scenario**: When detecting drift in evidence chains, provenance freshness, or confidence calibration
+
   - **Input**: A query matching this skill's domain (c02)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When validating outputs against domain constraints and epistemic class
+
   - **Input**: A query matching this skill's domain (c02)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Anti-Patterns
 
@@ -347,15 +333,13 @@ Every equation class typed: SOURCE_CANON for established math, AMOS_MODEL for Tr
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
-- **Parent**: `` — routes to this skill when c02 specialization is needed
+- **Parent**: \`\` — routes to this skill when c02 specialization is needed
 - **Peers**: Other skills in the `c02` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -374,7 +358,6 @@ Every equation class typed: SOURCE_CANON for established math, AMOS_MODEL for Tr
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -382,7 +365,6 @@ Every equation class typed: SOURCE_CANON for established math, AMOS_MODEL for Tr
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 See `references/detailed-content.md` for detailed amos canon grounding.
 
@@ -401,11 +383,10 @@ See `references/detailed-content.md` for detailed amos canon grounding.
 - `references/numerical_methods_engine_layer.md` — loaded on demand
 - `references/spectral_method_governance.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `` — skill Map of Content
-- `` — parent skill
-- `` — corresponding workflow
-- `` — corresponding agent
-
+- \`\` — skill Map of Content
+- \`\` — parent skill
+- \`\` — corresponding workflow
+- \`\` — corresponding agent
 
 ## Do not use
 
@@ -414,6 +395,6 @@ See `references/detailed-content.md` for detailed amos canon grounding.
 - As a substitute for domain-specific mathematical or computational evidence
 - Outside math/compute domain reasoning
 
----
+______________________________________________________________________
 
 **MOC:** references_MOC · [[00_ROOT/00_HOME|00_HOME]]

@@ -17,32 +17,31 @@ authority_scope: terminology-deprecation-and-semantic-migration
 created: 2026-08-25
 updated: 2026-08-30
 tags:
-- amos-os
-- canon
-- universe
-- canon-group/meta
-- canon/semantics
-- canon/terminology
-- canon/deprecation
-- canon/supersession
-- canon/registry
-- rscf/claim
-- rscf/provenance
-- rscf/state/source-claim
-- topic/deprecated-terms
-- topic/semantic-integrity
-- topic/semantic-migration
-- topic/lineage
-- topic/provenance
-- readme
-- architecture
-- neural-network
-- amos-core-laws
-- law-hierarchy
-- canonical-glossary
+  - amos-os
+  - canon
+  - universe
+  - canon-group/meta
+  - canon/semantics
+  - canon/terminology
+  - canon/deprecation
+  - canon/supersession
+  - canon/registry
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/source-claim
+  - topic/deprecated-terms
+  - topic/semantic-integrity
+  - topic/semantic-migration
+  - topic/lineage
+  - topic/provenance
+  - readme
+  - architecture
+  - neural-network
+  - amos-core-laws
+  - law-hierarchy
+  - canonical-glossary
 aliases:
-- AMOS Deprecated Terms - Deprecated Terminology Registry - AMOS Terminology Migration
-  Registry
+  - AMOS Deprecated Terms - Deprecated Terminology Registry - AMOS Terminology Migration Registry
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -51,12 +50,16 @@ rscf:
 ---
 
 # AMOS OS Deprecated Terms
+
 > **Origin architect / steward:** Trang Phan
 > **AMOS Core target:** v4.4
 > **Conclusion class:** `AMOS_MODEL`
+
 ## 1. Purpose
+
 `DEPRECATED_TERMS.md` is the canonical lifecycle registry for terminology that should no longer be used as the preferred semantic identity in current AMOS OS artifacts.
 Deprecation preserves lineage rather than erasing history.
+
 ```text
 OLD TERM
 → DEPRECATION RECORD
@@ -64,17 +67,10 @@ OLD TERM
 → MIGRATION
 → PROVENANCE PRESERVED
 ```
-A deprecated term may remain visible in historical artifacts, aliases, citations, provenance records, migration tables, archived code, and supersession chains.
-It must not silently regain canonical status through repetition.
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
----
 
+## A deprecated term may remain visible in historical artifacts, aliases, citations, provenance records, migration tables, archived code, and supersession chains. It must not silently regain canonical status through repetition. rscf: state: DERIVED claim_class: DERIVED provenance: AMOS_corpus scope: AMOS_general
 
-# 2. Hard Laws
+## 2. Hard Laws
 
 ```text
 DEPRECATED != DELETED
@@ -98,9 +94,9 @@ UNKNOWN_REPLACEMENT != INVENTED_REPLACEMENT
 
 Deprecation is a governed semantic operation.
 
----
+______________________________________________________________________
 
-# 3. Authority Boundary
+## 3. Authority Boundary
 
 This registry may establish that a term is:
 
@@ -129,9 +125,9 @@ historical authorship
 
 Term lifecycle and claim validity are separate dimensions.
 
----
+______________________________________________________________________
 
-# 4. Why Deprecated Terms Are Preserved
+## 4. Why Deprecated Terms Are Preserved
 
 AMOS preserves deprecated terminology because deletion can destroy:
 
@@ -160,9 +156,9 @@ DEPRECATE
 → ERASE
 ```
 
----
+______________________________________________________________________
 
-# 5. Canonical Deprecation Record
+## 5. Canonical Deprecation Record
 
 Each mature entry SHOULD use a structure equivalent to:
 
@@ -211,9 +207,9 @@ UNKNOWN/GAP
 
 They must not be inferred merely to complete the record.
 
----
+______________________________________________________________________
 
-# 6. Deprecation Change Types
+## 6. Deprecation Change Types
 
 Canonical change classes:
 
@@ -302,9 +298,9 @@ The old term survives only as an alias for discovery or compatibility.
 
 The term is retained solely for provenance/history.
 
----
+______________________________________________________________________
 
-# 7. Deprecation State Machine
+## 7. Deprecation State Machine
 
 ```text
 CURRENT
@@ -325,9 +321,9 @@ A transition must be explicit.
 
 Repository age alone does not establish lifecycle state.
 
----
+______________________________________________________________________
 
-# 8. Current AMOS Core Version Vocabulary
+## 8. Current AMOS Core Version Vocabulary
 
 Current AMOS architecture targets:
 
@@ -358,9 +354,9 @@ Earlier vocabulary must not be discarded simply because later vocabulary is more
 
 Historical terms should instead be mapped through lineage when evidence supports the mapping.
 
----
+______________________________________________________________________
 
-# 9. Deprecated Marketing / Magnitude Qualifiers
+## 9. Deprecated Marketing / Magnitude Qualifiers
 
 Historical AMOS artifacts may contain magnitude or promotional qualifiers such as:
 
@@ -429,9 +425,9 @@ New canonical naming: DISCOURAGED
 Automatic historical rewrite: PROHIBITED
 ```
 
----
+______________________________________________________________________
 
-# 10. `vInfinity` / `INFINITY` as Version Identity
+## 10. `vInfinity` / `INFINITY` as Version Identity
 
 Using terms such as:
 
@@ -467,9 +463,9 @@ VERSION IDENTITY
 
 Historical names remain historical evidence and must not be rewritten without provenance-aware migration.
 
----
+______________________________________________________________________
 
-# 11. Filename-Encoded Version Authority
+## 11. Filename-Encoded Version Authority
 
 The practice of inferring canonical version solely from filenames such as:
 
@@ -491,9 +487,9 @@ PROVEN VERSION
 
 A filename may contain a version for compatibility or historical purposes, but it cannot independently establish lineage.
 
----
+______________________________________________________________________
 
-# 12. Automatic `_v0` Assignment
+## 12. Automatic `_v0` Assignment
 
 Automatically assigning:
 
@@ -519,9 +515,9 @@ MISSING VERSION
 
 This protects provenance from fabricated historical ordering.
 
----
+______________________________________________________________________
 
-# 13. Filename as Canonical Identity
+## 13. Filename as Canonical Identity
 
 Using the physical filename as the sole canonical identity is deprecated.
 
@@ -541,9 +537,9 @@ VERSION IDENTITY
 
 Renaming a file must therefore not silently mutate semantic identity.
 
----
+______________________________________________________________________
 
-# 14. Path as Authority
+## 14. Path as Authority
 
 Treating repository location alone as proof of authority is deprecated.
 
@@ -563,9 +559,9 @@ Canonical placement is necessary for organization but insufficient for promotion
 
 Authority also depends on applicable governance and provenance.
 
----
+______________________________________________________________________
 
-# 15. `FULL` as Completeness Assertion
+## 15. `FULL` as Completeness Assertion
 
 The term:
 
@@ -591,9 +587,9 @@ EXHAUSTIVE
 
 Completeness requires explicit scope and evidence.
 
----
+______________________________________________________________________
 
-# 16. `CANON` as Validation Assertion
+## 16. `CANON` as Validation Assertion
 
 Historical use of `CANON` inside a filename or title does not independently establish current canonical authority.
 
@@ -613,9 +609,9 @@ artifact metadata
 → applicable governance
 ```
 
----
+______________________________________________________________________
 
-# 17. `Agent` as Universal Component Name
+## 17. `Agent` as Universal Component Name
 
 Using `Agent` for every active component is semantically deprecated.
 
@@ -644,9 +640,9 @@ AGENT
 
 Only role-based workers satisfying the applicable agent contract should use `Agent` as their canonical type.
 
----
+______________________________________________________________________
 
-# 18. `Skill` and `Workflow` Interchangeability
+## 18. `Skill` and `Workflow` Interchangeability
 
 Using:
 
@@ -678,9 +674,9 @@ Thus:
 SKILL != WORKFLOW
 ```
 
----
+______________________________________________________________________
 
-# 19. `Protocol` as Workflow
+## 19. `Protocol` as Workflow
 
 Historical usage that labels orchestration logic as a protocol should be migrated where the distinction is known.
 
@@ -700,9 +696,9 @@ Therefore:
 WORKFLOW != PROTOCOL
 ```
 
----
+______________________________________________________________________
 
-# 20. `Memory` as Canon
+## 20. `Memory` as Canon
 
 Treating stored memory as canonical truth is deprecated.
 
@@ -723,9 +719,9 @@ prior decisions
 
 Each retains its own epistemic status.
 
----
+______________________________________________________________________
 
-# 21. `Knowledge` as Verified Fact
+## 21. `Knowledge` as Verified Fact
 
 Using the term `knowledge` to imply automatic verification is deprecated.
 
@@ -745,9 +741,9 @@ Therefore:
 KNOWLEDGE ENTRY != VERIFIED FACT
 ```
 
----
+______________________________________________________________________
 
-# 22. `Model` as Authority
+## 22. `Model` as Authority
 
 Using a model's output as self-authorizing policy or truth is deprecated.
 
@@ -768,9 +764,9 @@ generate hypotheses
 
 but authority must originate from the appropriate governance boundary.
 
----
+______________________________________________________________________
 
-# 23. `Tool` as Permission
+## 23. `Tool` as Permission
 
 Language implying that possession of a tool establishes authorization is deprecated.
 
@@ -795,9 +791,9 @@ CONTEXT
 
 as applicable.
 
----
+______________________________________________________________________
 
-# 24. Capability as Authority
+## 24. Capability as Authority
 
 Any terminology or implementation assumption equating capability with authority is deprecated.
 
@@ -809,9 +805,9 @@ CAPABILITY != AUTHORITY
 
 An agent capable of mutation does not thereby possess commit authority.
 
----
+______________________________________________________________________
 
-# 25. Proposal as Commit
+## 25. Proposal as Commit
 
 Terminology treating proposed state as committed state is deprecated.
 
@@ -830,9 +826,9 @@ PROPOSE
 
 subject to the governing workflow.
 
----
+______________________________________________________________________
 
-# 26. `Unknown` as Failure
+## 26. `Unknown` as Failure
 
 Treating:
 
@@ -857,9 +853,9 @@ UNKNOWN/GAP != FALSE
 UNKNOWN/GAP != ZERO
 ```
 
----
+______________________________________________________________________
 
-# 27. `No Contradiction` as Proof
+## 27. `No Contradiction` as Proof
 
 Language implying:
 
@@ -876,9 +872,9 @@ Absence of detected contradiction may increase support in a defined validation p
 ABSENCE_OF_CONTRADICTION != PROOF
 ```
 
----
+______________________________________________________________________
 
-# 28. Multiple Sources Without Provenance Independence
+## 28. Multiple Sources Without Provenance Independence
 
 Calling several descendant artifacts:
 
@@ -910,9 +906,9 @@ independence UNKNOWN/GAP
 
 until independence is demonstrated.
 
----
+______________________________________________________________________
 
-# 29. Structural Similarity as Equivalence
+## 29. Structural Similarity as Equivalence
 
 Language asserting identity because two systems share:
 
@@ -932,9 +928,9 @@ STRUCTURAL_SIMILARITY
 SEMANTIC_IDENTITY
 ```
 
----
+______________________________________________________________________
 
-# 30. Structural Similarity as Causation
+## 30. Structural Similarity as Causation
 
 Any terminology promoting structural resemblance directly into causal claims is deprecated.
 
@@ -955,9 +951,9 @@ STRUCTURAL_MAPPING
 
 until causally validated.
 
----
+______________________________________________________________________
 
-# 31. Correlation as Causation
+## 31. Correlation as Causation
 
 Terminology collapsing correlation into causal effect is deprecated.
 
@@ -978,9 +974,9 @@ CAUSES
 
 only when the evidence licenses that type.
 
----
+______________________________________________________________________
 
-# 32. Global Trust
+## 32. Global Trust
 
 The notion of a source, model, agent, or artifact being simply:
 
@@ -1006,9 +1002,9 @@ Canonical principle:
 TRUST IS LOCAL
 ```
 
----
+______________________________________________________________________
 
-# 33. Universal Confidence
+## 33. Universal Confidence
 
 Single confidence values that obscure distinct uncertainty dimensions are discouraged for consequential reasoning.
 
@@ -1026,9 +1022,9 @@ provenance-independence uncertainty
 
 A scalar confidence score may still be used where its semantics are explicitly defined.
 
----
+______________________________________________________________________
 
-# 34. Global Recompute as Default Recovery
+## 34. Global Recompute as Default Recovery
 
 Treating every invalidated premise as requiring total recomputation is deprecated as the default recovery model.
 
@@ -1044,9 +1040,9 @@ FAILURE
 
 Global recomputation remains available when dependency closure cannot safely isolate the failure.
 
----
+______________________________________________________________________
 
-# 35. Global Coordination as Default Correctness Mechanism
+## 35. Global Coordination as Default Correctness Mechanism
 
 Treating global coordination as mandatory for every operation is not the current AMOS v4.4 preferred model.
 
@@ -1072,9 +1068,9 @@ PROOF-BASED COORDINATION AVOIDANCE
 
 not unconditional coordination avoidance.
 
----
+______________________________________________________________________
 
-# 36. Local Finality as Global Finality
+## 36. Local Finality as Global Finality
 
 Terminology collapsing shard-local or bounded finality into system-wide finality is deprecated.
 
@@ -1086,9 +1082,9 @@ GLOBAL FINALITY
 
 Finality must declare scope.
 
----
+______________________________________________________________________
 
-# 37. Conversational Runtime as Literal Distributed Implementation
+## 37. Conversational Runtime as Literal Distributed Implementation
 
 Language claiming that a conversational AMOS adaptation literally implements all source-code distributed mechanisms is deprecated unless implementation evidence establishes it.
 
@@ -1107,9 +1103,9 @@ may function as reasoning and architecture models.
 
 Their conceptual use does not prove literal infrastructure implementation.
 
----
+______________________________________________________________________
 
-# 38. Canonical Naming Migration
+## 38. Canonical Naming Migration
 
 For new AMOS OS artifacts, prefer semantic names tied to architectural role.
 
@@ -1145,9 +1141,9 @@ A_ENVIRONMENT_SCAN
 
 unless the historical name itself must be preserved.
 
----
+______________________________________________________________________
 
-# 39. Historical Artifact Firewall
+## 39. Historical Artifact Firewall
 
 Historical artifacts are evidence of historical state.
 
@@ -1172,9 +1168,9 @@ historical interpretation
 
 Use mappings instead.
 
----
+______________________________________________________________________
 
-# 40. Migration Mapping
+## 40. Migration Mapping
 
 Preferred migration representation:
 
@@ -1189,9 +1185,9 @@ Preferred migration representation:
 
 No replacement should be invented to make the table complete.
 
----
+______________________________________________________________________
 
-# 41. Safe Automatic Migration
+## 41. Safe Automatic Migration
 
 Automatic migration is allowed only when:
 
@@ -1221,9 +1217,9 @@ or:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 42. Unsafe Automatic Migration
+## 42. Unsafe Automatic Migration
 
 Automatic replacement MUST NOT occur when:
 
@@ -1238,9 +1234,9 @@ artifact hash/provenance must remain stable
 term identity is uncertain
 ```
 
----
+______________________________________________________________________
 
-# 43. Deprecation and Aliases
+## 43. Deprecation and Aliases
 
 Deprecated terms may be retained in `ALIASES.md`.
 
@@ -1264,9 +1260,9 @@ The alias registry resolves identity.
 
 This registry governs lifecycle status.
 
----
+______________________________________________________________________
 
-# 44. Deprecation and the Canonical Glossary
+## 44. Deprecation and the Canonical Glossary
 
 `CANONICAL_GLOSSARY.md` defines current canonical meanings.
 
@@ -1286,9 +1282,9 @@ DEPRECATED_TERMS
 ALIASES / ARCHIVE / PROVENANCE
 ```
 
----
+______________________________________________________________________
 
-# 45. Deprecation and Supersession
+## 45. Deprecation and Supersession
 
 Deprecation and supersession are related but distinct.
 
@@ -1318,9 +1314,9 @@ replacement: UNKNOWN/GAP
 
 This is valid.
 
----
+______________________________________________________________________
 
-# 46. Deprecation and Deletion
+## 46. Deprecation and Deletion
 
 Deletion should not be used merely to clean terminology.
 
@@ -1340,9 +1336,9 @@ IDENTIFY
 
 Physical deletion is a separate lifecycle decision.
 
----
+______________________________________________________________________
 
-# 47. Semantic Collision Resolution
+## 47. Semantic Collision Resolution
 
 When one historical term refers to multiple concepts:
 
@@ -1372,9 +1368,9 @@ definition
 provenance
 ```
 
----
+______________________________________________________________________
 
-# 48. Deprecation Review Triggers
+## 48. Deprecation Review Triggers
 
 Review a term when:
 
@@ -1390,9 +1386,9 @@ Review a term when:
 - its domain-specific meaning leaks into root canon
 - a newer term more precisely preserves the intended semantics
 
----
+______________________________________________________________________
 
-# 49. Non-Reasons for Deprecation
+## 49. Non-Reasons for Deprecation
 
 A term should **not** be deprecated solely because:
 
@@ -1408,9 +1404,9 @@ a model generated an alternative
 
 Semantic governance requires a material reason.
 
----
+______________________________________________________________________
 
-# 50. Required Deprecation Evidence
+## 50. Required Deprecation Evidence
 
 Consequential deprecation SHOULD identify:
 
@@ -1438,9 +1434,9 @@ should remain distinct from:
 COMMITTED DEPRECATION
 ```
 
----
+______________________________________________________________________
 
-# 51. Dependency Handling
+## 51. Dependency Handling
 
 When term `T` is deprecated:
 
@@ -1457,9 +1453,9 @@ only dependencies whose semantics are materially affected should be migrated.
 
 Do not globally invalidate unrelated descendants.
 
----
+______________________________________________________________________
 
-# 52. Deprecation Proof Capsule
+## 52. Deprecation Proof Capsule
 
 A consequential deprecation can be represented conceptually as:
 
@@ -1495,9 +1491,9 @@ confidence_ceiling: ""
 
 If a load-bearing premise fails, dependent migration decisions should be invalidated locally.
 
----
+______________________________________________________________________
 
-# 53. Reversal
+## 53. Reversal
 
 Deprecation may be reversed if new canonical evidence establishes that the decision was incorrect.
 
@@ -1513,9 +1509,9 @@ does not erase the intermediate state.
 
 This protects causal and governance lineage.
 
----
+______________________________________________________________________
 
-# 54. Registry Integrity Invariants
+## 54. Registry Integrity Invariants
 
 ### DT-1 — No invented replacement
 
@@ -1584,9 +1580,9 @@ Renaming files does not automatically migrate semantic identity.
 
 Conflicting migration records must remain `COMPETING` until resolved.
 
----
+______________________________________________________________________
 
-# 55. Initial Canonical Deprecation Rules
+## 55. Initial Canonical Deprecation Rules
 
 The following are current semantic deprecation rules for AMOS OS:
 
@@ -1616,9 +1612,9 @@ The following are current semantic deprecation rules for AMOS OS:
 | local finality = global finality             | explicit finality scope                                           |
 | conceptual MVCC/CAS = literal implementation | implementation evidence required                                  |
 
----
+______________________________________________________________________
 
-# 56. Terms Not Yet Proven Deprecated
+## 56. Terms Not Yet Proven Deprecated
 
 This registry must not fabricate a comprehensive deprecated-term inventory.
 
@@ -1650,9 +1646,9 @@ status: DEPRECATED
 
 This distinction is mandatory.
 
----
+______________________________________________________________________
 
-# 57. Validation Work Required
+## 57. Validation Work Required
 
 Before this registry can be promoted beyond its current source-claim/model status:
 
@@ -1675,9 +1671,9 @@ Before this registry can be promoted beyond its current source-claim/model statu
 [ ] mark uncertain mappings UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 58. Migration Algorithm
+## 58. Migration Algorithm
 
 ```text
 INPUT: historical term T
@@ -1713,9 +1709,9 @@ ELSE:
     UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 59. Current-Artifact Rule
+## 59. Current-Artifact Rule
 
 New AMOS OS artifacts SHOULD:
 
@@ -1736,9 +1732,9 @@ preserve historically accurate terminology
 
 unless a governed migration specifically requires modification.
 
----
+______________________________________________________________________
 
-# 60. Canonical Summary
+## 60. Canonical Summary
 
 AMOS terminology evolves without destroying its history.
 
@@ -1783,7 +1779,7 @@ UNKNOWN/GAP
 
 is the correct canonical state.
 
----
+______________________________________________________________________
 
 ## RSCF Node
 
@@ -1845,13 +1841,14 @@ README
 ```text
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
-**MOC:** [[01_CANON/06_GLOSSARY/06_GLOSSARY_MOC|06_GLOSSARY_MOC]]
+______________________________________________________________________
 
+**MOC:** [[01_CANON/06_GLOSSARY/06_GLOSSARY_MOC|06_GLOSSARY_MOC]]

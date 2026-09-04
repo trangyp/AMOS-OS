@@ -12,21 +12,21 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: MASTER
 path: 11_KNOWLEDGE/05_FRAMEWORKS/QLS_MASTER.md
 tags:
-- amos-os
-- knowledge
-- vault
-- 05_frameworks
-- qls_master
-- quantum_logic_structure
-- four_pillars
-- formal_logic
-- rscf
-- canon_candidate
-- canon/knowledge
-- qls-framework
-- qcla-master
-- ldai-logically-deterministic-ai
-- amos-x-qls
+  - amos-os
+  - knowledge
+  - vault
+  - 05_frameworks
+  - qls_master
+  - quantum_logic_structure
+  - four_pillars
+  - formal_logic
+  - rscf
+  - canon_candidate
+  - canon/knowledge
+  - qls-framework
+  - qcla-master
+  - ldai-logically-deterministic-ai
+  - amos-x-qls
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -41,23 +41,23 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - QLS_FRAMEWORK
-  - QLS_QUANTUM_LOGIC_STRUCTURE_MASTER_PROVENANCE_AND
-  - AMOS_CORPUS
+    - QLS_FRAMEWORK
+    - QLS_QUANTUM_LOGIC_STRUCTURE_MASTER_PROVENANCE_AND
+    - AMOS_CORPUS
   scope:
-  - KNOWLEDGE_FRAMEWORKS
-  - LOGIC_MASTER
-  - SOURCE_DEFINED_MODEL
+    - KNOWLEDGE_FRAMEWORKS
+    - LOGIC_MASTER
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   framework:
     artifact:
-    - - QLS_FRAMEWORK
+      -   - QLS_FRAMEWORK
   causal_logic:
     artifact:
-    - - QCLA_MASTER
+      -   - QCLA_MASTER
   deterministic_logic:
     artifact:
-    - - LDAI_LOGICALLY_DETERMINISTIC_AI
+      -   - LDAI_LOGICALLY_DETERMINISTIC_AI
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
@@ -71,9 +71,9 @@ epistemic_boundary:
 
 It oversees the 4 foundational pillars of QLS—**Superposition Reasoning**, **Entanglement Coupling**, **Interference Filtering**, and **Deterministic Collapse**—governing non-binary multi-hypothesis evaluation across AMOS OS.
 
----
+______________________________________________________________________
 
-# 1. The Four QLS Pillars
+## 1. The Four QLS Pillars
 
 ```text
                ┌────────────────────────────────────────────────────────┐
@@ -87,18 +87,18 @@ PILLAR I: SUPERPOSITION PILLAR II: ENTANGLEMENT PILLAR III: INTERFERENCE PILLAR 
   competing hypotheses    state dependencies       destructive filtering   state to S_{t+1}
 ```
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Parent Framework:** [[11_KNOWLEDGE/05_FRAMEWORKS/QLS_FRAMEWORK|QLS_FRAMEWORK]]
 - **Causal Logic Master:** [[11_KNOWLEDGE/05_FRAMEWORKS/QCLA_MASTER|QCLA_MASTER]]
 - **Deterministic AI:** [[11_KNOWLEDGE/05_FRAMEWORKS/LDAI_LOGICALLY_DETERMINISTIC_AI|LDAI_LOGICALLY_DETERMINISTIC_AI]]
 - **Cognitive Matrix:** [[25_COGNITIVE_MATRIX/AMOS_X_QLS|AMOS_X_QLS]] and `AMOS_X_QLS_MATRIX`
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -116,9 +116,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/QLS_FRAMEWORK|QLS_FRAMEWORK]] · [[11_KNOWLEDGE/05_FRAMEWORKS/QCLA_MASTER|QCLA_MASTER]] · [[11_KNOWLEDGE/05_FRAMEWORKS/LDAI_LOGICALLY_DETERMINISTIC_AI|LDAI_LOGICALLY_DETERMINISTIC_AI]] · [[25_COGNITIVE_MATRIX/AMOS_X_QLS|AMOS_X_QLS]]
 
----
+______________________________________________________________________
+
 **MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC|05_FRAMEWORKS_MOC]]

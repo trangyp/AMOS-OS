@@ -1,25 +1,28 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: L00_REALITY_ENVIRONMENT — README
 type: cognitive
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT
 tags:
-- amos
-- reality-environment
-- reality-grounding
-- observation
-- measurement
-- evidence
-- provenance
-- rscf
-- hml
-- control-plane
-- authority
-- repair
-- validation
-- ai
-- domain/cognitive-matrix
-- readme
-- matrix/l00-reality-validation-receipt
+  - amos
+  - reality-environment
+  - reality-grounding
+  - observation
+  - measurement
+  - evidence
+  - provenance
+  - rscf
+  - hml
+  - control-plane
+  - authority
+  - repair
+  - validation
+  - ai
+  - domain/cognitive-matrix
+  - readme
+  - matrix/l00-reality-validation-receipt
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -33,9 +36,9 @@ rscf:
 **Origin architect / steward:** Trang Phan
 **Status:** `ARCHITECTURE CONTRACT / IMPLEMENTATION-DEPENDENT`
 
----
+______________________________________________________________________
 
-# 1. Purpose
+## 1. Purpose
 
 `L00_REALITY_ENVIRONMENT` defines the AMOS root architectural layer governing the interface between an AMOS reasoning system and the reality/environment that supplies observations, measurements, external state, evidence, constraints, feedback, and effects.
 
@@ -85,9 +88,9 @@ The governing principle is:
 
 > **AMOS must remain epistemically and operationally connected to the environment it reasons about while preserving the distinction between reality, observation, representation, inference, decision, and effect.**
 
----
+______________________________________________________________________
 
-# 2. Architectural Role
+## 2. Architectural Role
 
 L00 is the foundational reality-contact layer beneath higher AMOS reasoning, memory, cognition, planning, prediction, governance, and action systems.
 
@@ -144,58 +147,58 @@ L00 is the foundational reality-contact layer beneath higher AMOS reasoning, mem
                 NEW OBSERVATION
 ```
 
----
+______________________________________________________________________
 
-# 3. L00 Architectural Objective
+## 3. L00 Architectural Objective
 
 Let:
 
-- \(W_t\) = external environment state;
-- \(O_t\) = observation;
-- \(M_t\) = measurement;
-- \(X_t\) = internal representation;
-- \(B_t\) = belief/model state;
-- \(C_t\) = claim state;
-- \(D_t\) = decision;
-- \(P_t\) = action proposal;
-- \(A_t\) = authorized action;
-- \(E_t\) = external effect.
+- (W_t) = external environment state;
+- (O_t) = observation;
+- (M_t) = measurement;
+- (X_t) = internal representation;
+- (B_t) = belief/model state;
+- (C_t) = claim state;
+- (D_t) = decision;
+- (P_t) = action proposal;
+- (A_t) = authorized action;
+- (E_t) = external effect.
 
 Then the L00 interaction architecture is:
 
-[
-\boxed{
+\[
+\\boxed{
 W_t
-\xrightarrow{\mathcal{O}}
+\\xrightarrow{\\mathcal{O}}
 O_t
-\xrightarrow{\mathcal{M}}
+\\xrightarrow{\\mathcal{M}}
 M_t
-\xrightarrow{\mathcal{R}}
+\\xrightarrow{\\mathcal{R}}
 X_t
-\xrightarrow{\mathcal{I}}
+\\xrightarrow{\\mathcal{I}}
 B_t
-\xrightarrow{\mathcal{C}}
+\\xrightarrow{\\mathcal{C}}
 C_t
-\xrightarrow{\mathcal{D}}
+\\xrightarrow{\\mathcal{D}}
 D_t
-\xrightarrow{\mathcal{P}}
+\\xrightarrow{\\mathcal{P}}
 P_t
-\xrightarrow{\mathcal{A}}
+\\xrightarrow{\\mathcal{A}}
 A_t
-\xrightarrow{\mathcal{E}}
-W_{t+1}
+\\xrightarrow{\\mathcal{E}}
+W\_{t+1}
 }
-]
+\]
 
 followed by:
 
-[
-\boxed{
-W_{t+1}
-\xrightarrow{\mathcal{O}}
-O_{t+1}
+\[
+\\boxed{
+W\_{t+1}
+\\xrightarrow{\\mathcal{O}}
+O\_{t+1}
 }
-]
+\]
 
 to close the reality-feedback loop.
 
@@ -203,9 +206,9 @@ This is an `AMOS MODEL` architecture.
 
 It is not asserted as a universal empirical law.
 
----
+______________________________________________________________________
 
-# 4. Core Reality Firewall
+## 4. Core Reality Firewall
 
 The foundational L00 distinctions are:
 
@@ -255,16 +258,13 @@ UNKNOWN/GAP != PASS
 
 No later AMOS layer may erase these distinctions.
 
----
+______________________________________________________________________
 
-# 5. L00 Root Tensor
+## 5. L00 Root Tensor
 
-[
-\boxed{
-T_{L00}
-=======
+## \[ \\boxed{ T\_{L00}
 
-T[
+T\[
 environment,
 object,
 state,
@@ -286,24 +286,24 @@ authority,
 action,
 effect,
 repair
-]
+\]
 }
-]
+\]
 
 The tensor is an internal representation of the reality/environment contract.
 
 It is not reality itself.
 
----
+______________________________________________________________________
 
-# 6. Universal Reasoning Tensor
+## 6. Universal Reasoning Tensor
 
 L00 interoperates with the AMOS universal reasoning tensor:
 
-[
-\boxed{
+\[
+\\boxed{
 T_R =
-T[
+T\[
 claim,
 evidence_class,
 domain,
@@ -315,20 +315,20 @@ provenance,
 confidence,
 consequence,
 governance
-]
+\]
 }
-]
+\]
 
 This provides a shared compatibility surface for higher AMOS layers.
 
----
+______________________________________________________________________
 
-# 7. Evidence Tensor
+## 7. Evidence Tensor
 
-[
-\boxed{
+\[
+\\boxed{
 T_E =
-T[
+T\[
 evidence_id,
 source_id,
 source_type,
@@ -341,18 +341,15 @@ measurement,
 quality,
 independence,
 revocation_state
-]
+\]
 }
-]
+\]
 
 Expanded L00 form:
 
-[
-\boxed{
-T_E^+
-=====
+## \[ \\boxed{ T_E^+
 
-T[
+T\[
 evidence_id,
 source,
 root,
@@ -370,18 +367,18 @@ quality,
 freshness,
 revocation,
 license
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 8. Claim Tensor
+## 8. Claim Tensor
 
-[
-\boxed{
+\[
+\\boxed{
 T_C =
-T[
+T\[
 claim_id,
 text,
 epistemic_class,
@@ -397,22 +394,19 @@ falsifiers,
 sensitivity,
 confidence_ceiling,
 consequence
-]
+\]
 }
-]
+\]
 
 No claim may lose its load-bearing premises, scope, provenance, or invalidation conditions during compression or reuse.
 
----
+______________________________________________________________________
 
-# 9. Relation Tensor
+## 9. Relation Tensor
 
-[
-\boxed{
-R_{ij}
-======
+## \[ \\boxed{ R\_{ij}
 
-T[
+T\[
 type,
 direction,
 strength,
@@ -427,9 +421,9 @@ repair_coupling,
 mutation_transfer,
 observer_variance,
 provenance
-]
+\]
 }
-]
+\]
 
 Relation classes may include:
 
@@ -451,14 +445,14 @@ analogy
 governance
 ```
 
----
+______________________________________________________________________
 
-# 10. Memory Tensor
+## 10. Memory Tensor
 
-[
-\boxed{
+\[
+\\boxed{
 T_M =
-T[
+T\[
 item_id,
 content_class,
 state,
@@ -468,9 +462,9 @@ freshness,
 contradiction_state,
 retention_class,
 revalidation_epoch
-]
+\]
 }
-]
+\]
 
 Hard boundary:
 
@@ -478,14 +472,14 @@ Hard boundary:
 MEMORY != CURRENT REALITY
 ```
 
----
+______________________________________________________________________
 
-# 11. Governance Tensor
+## 11. Governance Tensor
 
-[
-\boxed{
+\[
+\\boxed{
 T_G =
-T[
+T\[
 action,
 capability,
 authority,
@@ -495,18 +489,18 @@ approval,
 rollback,
 evidence_threshold,
 mutation_class
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 12. Environment Identity
+## 12. Environment Identity
 
 Every consequential interaction should identify the relevant environment as precisely as available.
 
-[
-\boxed{
+\[
+\\boxed{
 EnvID =
 (
 system,
@@ -516,7 +510,7 @@ location,
 regime
 )
 }
-]
+\]
 
 Examples include:
 
@@ -532,16 +526,16 @@ market + timestamp
 physical environment + observation context
 ```
 
----
+______________________________________________________________________
 
-# 13. Observation Contract
+## 13. Observation Contract
 
 An observation should preserve:
 
-[
-\boxed{
+\[
+\\boxed{
 T_O =
-T[
+T\[
 observation_id,
 target,
 observer,
@@ -554,22 +548,19 @@ environment,
 resolution,
 uncertainty,
 provenance
-]
+\]
 }
-]
+\]
 
 Observation is conditioned by the observer, access path, sensor/tool, method, resolution, and environment.
 
----
+______________________________________________________________________
 
-# 14. Measurement Contract
+## 14. Measurement Contract
 
-[
-\boxed{
-T_{MEAS}
-========
+## \[ \\boxed{ T\_{MEAS}
 
-T[
+T\[
 measurement_id,
 target,
 construct,
@@ -584,9 +575,9 @@ error,
 timestamp,
 scope,
 provenance
-]
+\]
 }
-]
+\]
 
 Hard boundary:
 
@@ -596,16 +587,13 @@ MEASURED PROXY != UNDERLYING CONSTRUCT
 
 unless the measurement model supports that equivalence.
 
----
+______________________________________________________________________
 
-# 15. Representation Contract
+## 15. Representation Contract
 
-[
-\boxed{
-T_{REP}
-=======
+## \[ \\boxed{ T\_{REP}
 
-T[
+T\[
 representation_id,
 source,
 encoding,
@@ -617,9 +605,9 @@ scope,
 regime,
 time,
 provenance
-]
+\]
 }
-]
+\]
 
 Representation transformations may include:
 
@@ -637,68 +625,62 @@ model inference
 
 Every material transformation should remain provenance-visible.
 
----
+______________________________________________________________________
 
-# 16. Reality Contact
+## 16. Reality Contact
 
 L00 may represent reality contact structurally as:
 
-[
-\boxed{
-RC(x)
-=====
+## \[ \\boxed{ RC(x)
 
-T[
+T\[
 source_distance,
 observation_distance,
 transformation_depth,
 temporal_distance,
 scope_distance,
 provenance_integrity
-]
+\]
 }
-]
+\]
 
 This is an `AMOS MODEL` diagnostic, not a universal metric.
 
 The purpose is to prevent heavily transformed internal representations from being treated as direct observations.
 
----
+______________________________________________________________________
 
-# 17. Grounding Condition
+## 17. Grounding Condition
 
-For claim \(C\):
+For claim (C):
 
-[
-\boxed{
-Grounded(C)
-===========
+## \[ \\boxed{ Grounded(C)
 
 EvidencePresent(C)
-\land
+\\land
 ProvenanceValid(C)
-\land
+\\land
 ScopeCompatible(C)
-\land
+\\land
 RegimeCompatible(C)
-\land
+\\land
 TemporalValid(C)
 }
-]
+\]
 
 Grounded does not mean universally true.
 
 It means the claim possesses an admissible evidence path inside the declared applicability envelope.
 
----
+______________________________________________________________________
 
-# 18. Grounding Confidence Ceiling
+## 18. Grounding Confidence Ceiling
 
-[
-\boxed{
+\[
+\\boxed{
 Conf(C)
-\leq
-\min(
+\\leq
+\\min(
 EvidenceCeiling,
 PremiseCeiling,
 ProvenanceCeiling,
@@ -708,24 +690,24 @@ TemporalCeiling,
 MeasurementCeiling
 )
 }
-]
+\]
 
 For unresolved load-bearing premises:
 
-[
-\boxed{
+\[
+\\boxed{
 Conf(C)
-\leq
-\min_{p\in LB(C)}
+\\leq
+\\min\_{p\\in LB(C)}
 Conf(p)
 }
-]
+\]
 
 unless an independent validation path raises the justified ceiling.
 
----
+______________________________________________________________________
 
-# 19. Epistemic Classes
+## 19. Epistemic Classes
 
 L00 supports explicit epistemic typing:
 
@@ -746,9 +728,9 @@ EFFECT
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 20. Conclusion Classes
+## 20. Conclusion Classes
 
 AMOS reasoning above L00 may produce:
 
@@ -770,9 +752,9 @@ QUARANTINED
 REVOKED
 ```
 
----
+______________________________________________________________________
 
-# 21. H/M/L Architecture
+## 21. H/M/L Architecture
 
 L00 applies recursively across:
 
@@ -782,9 +764,9 @@ M — subsystem/environment domain
 L — local observation/state/evidence object
 ```
 
----
+______________________________________________________________________
 
-# 22. H-Level
+## 22. H-Level
 
 H-level L00 concerns include:
 
@@ -798,9 +780,9 @@ global regime
 system-wide evidence dependencies
 ```
 
----
+______________________________________________________________________
 
-# 23. M-Level
+## 23. M-Level
 
 M-level concerns include:
 
@@ -817,9 +799,9 @@ market
 runtime
 ```
 
----
+______________________________________________________________________
 
-# 24. L-Level
+## 24. L-Level
 
 L-level concerns include:
 
@@ -836,9 +818,9 @@ evidence record
 state variable
 ```
 
----
+______________________________________________________________________
 
-# 25. Cross-Scale Invariant
+## 25. Cross-Scale Invariant
 
 ```text
 LOCAL OBSERVATION
@@ -864,18 +846,15 @@ UNIVERSAL CAPABILITY
 
 Cross-scale promotion requires an explicit transformation.
 
----
+______________________________________________________________________
 
-# 26. RSCF Architecture
+## 26. RSCF Architecture
 
 Every consequential L00 claim should be representable through an RSCF capsule.
 
-[
-\boxed{
-RSCF(C)
-=======
+## \[ \\boxed{ RSCF(C)
 
-T[
+T\[
 claim,
 premises,
 evidence,
@@ -891,13 +870,13 @@ uncertainty,
 confidence,
 consequence,
 governance
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 27. Minimum RSCF Capsule
+## 27. Minimum RSCF Capsule
 
 ```yaml
 claim:
@@ -925,9 +904,9 @@ falsifiers: []
 confidence_ceiling:
 ```
 
----
+______________________________________________________________________
 
-# 28. Provenance Architecture
+## 28. Provenance Architecture
 
 L00 provenance preserves:
 
@@ -952,19 +931,19 @@ license
 
 Conceptually:
 
-[
-\boxed{
+\[
+\\boxed{
 Prov(y)
-\supseteq
+\\supseteq
 RequiredProv(x)
 }
-]
+\]
 
 when (y) is derived from (x).
 
----
+______________________________________________________________________
 
-# 29. Provenance Independence
+## 29. Provenance Independence
 
 ```text
 MULTIPLE FILES != MULTIPLE ROOTS
@@ -982,18 +961,15 @@ REPETITION != CORROBORATION
 
 Independent support requires provenance analysis.
 
----
+______________________________________________________________________
 
-# 30. Scope Architecture
+## 30. Scope Architecture
 
 Every consequential claim should retain:
 
-[
-\boxed{
-T_{SCOPE}
-=========
+## \[ \\boxed{ T\_{SCOPE}
 
-T[
+T\[
 system,
 population,
 environment,
@@ -1002,9 +978,9 @@ measurement,
 observer,
 time,
 assumptions
-]
+\]
 }
-]
+\]
 
 Hard invariant:
 
@@ -1016,16 +992,13 @@ VALID IN SCOPE B
 
 without an explicit compatibility path.
 
----
+______________________________________________________________________
 
-# 31. Regime Architecture
+## 31. Regime Architecture
 
-[
-\boxed{
-T_{REG}
-=======
+## \[ \\boxed{ T\_{REG}
 
-T[
+T\[
 regime_id,
 conditions,
 start,
@@ -1034,23 +1007,23 @@ transition_signals,
 assumptions,
 confidence,
 provenance
-]
+\]
 }
-]
+\]
 
 When a material regime changes:
 
-[
-\boxed{
-R_t\neq R_{t+1}
-\Rightarrow
+\[
+\\boxed{
+R_t\\neq R\_{t+1}
+\\Rightarrow
 Revalidate(RegimeDependentState)
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 32. Temporal Architecture
+## 32. Temporal Architecture
 
 L00 distinguishes:
 
@@ -1067,26 +1040,23 @@ commit time
 
 These times must not silently collapse.
 
----
+______________________________________________________________________
 
-# 33. Freshness
+## 33. Freshness
 
 Freshness is claim-relative.
 
-[
-\boxed{
-Fresh(E,C,t)
-============
+## \[ \\boxed{ Fresh(E,C,t)
 
 ValidTemporalEnvelope(E,C,t)
 }
-]
+\]
 
 A source may remain valid for one claim and become stale for another.
 
----
+______________________________________________________________________
 
-# 34. Causal Firewall
+## 34. Causal Firewall
 
 ```text
 SEQUENCE != CAUSATION
@@ -1104,20 +1074,17 @@ PREDICTIVE POWER != MECHANISM
 
 Only suitably typed evidence licenses causal promotion.
 
----
+______________________________________________________________________
 
-# 35. Competing Hypotheses
+## 35. Competing Hypotheses
 
 If multiple explanations remain materially viable:
 
-[
-\boxed{
-\mathcal{H}
-===========
+## \[ \\boxed{ \\mathcal{H}
 
-{H_1,H_2,\ldots,H_n}
+{H_1,H_2,\\ldots,H_n}
 }
-]
+\]
 
 AMOS preserves:
 
@@ -1127,33 +1094,30 @@ COMPETING
 
 until discriminating evidence exists.
 
----
+______________________________________________________________________
 
-# 36. Discriminating Evidence
+## 36. Discriminating Evidence
 
 Conceptually:
 
-[
-\boxed{
-E^*
-===
+## \[ \\boxed{ E^\*
 
-\arg\max_E
-\frac{
+\\arg\\max_E
+\\frac{
 ExpectedDiscrimination(E)
 }{
 Cost(E)+Risk(E)+Delay(E)
 }
 }
-]
+\]
 
 subject to governance constraints.
 
 This is an AMOS MODEL decision relation.
 
----
+______________________________________________________________________
 
-# 37. Core Operators
+## 37. Core Operators
 
 L00 operator families include:
 
@@ -1193,9 +1157,9 @@ Operator names define architecture contracts.
 
 They do not prove executable implementations exist.
 
----
+______________________________________________________________________
 
-# 38. Operator Contract
+## 38. Operator Contract
 
 ```yaml
 operator:
@@ -1231,26 +1195,26 @@ operator:
   validators: []
 ```
 
----
+______________________________________________________________________
 
-# 39. Protocol Architecture
+## 39. Protocol Architecture
 
 L00 protocols should preserve semantic state across system boundaries.
 
 A protocol is represented as:
 
-[
-\boxed{
+\[
+\\boxed{
 P:
 (Sender,Receiver,Message,State,Context,Authority)
-\rightarrow
+\\rightarrow
 (State',Receipt,Provenance)
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 40. Protocol State
+## 40. Protocol State
 
 Possible states include:
 
@@ -1272,17 +1236,17 @@ ROLLED_BACK
 UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 41. Protocol Transition Invariant
+## 41. Protocol Transition Invariant
 
-[
-\boxed{
+\[
+\\boxed{
 Transition(Q_i,Q_j)
-\Rightarrow
+\\Rightarrow
 Preconditions(Q_j)=PASS
 }
-]
+\]
 
 Hard boundaries:
 
@@ -1296,32 +1260,29 @@ AUTHORIZED != COMMITTED
 COMMITTED != VERIFIED EFFECT
 ```
 
----
+______________________________________________________________________
 
-# 42. Skills Architecture
+## 42. Skills Architecture
 
 A skill is a bounded capability contract.
 
-[
-\boxed{
-Skill
-=====
+## \[ \\boxed{ Skill
 
 Capability
-+
+\+
 InputContract
-+
+\+
 Transformation
-+
+\+
 OutputContract
-+
+\+
 Dependencies
-+
+\+
 Constraints
-+
+\+
 Governance
 }
-]
+\]
 
 Hard boundaries:
 
@@ -1337,16 +1298,13 @@ SKILL != AUTHORITY
 SKILL OUTPUT != VERIFIED REALITY
 ```
 
----
+______________________________________________________________________
 
-# 43. Skill Tensor
+## 43. Skill Tensor
 
-[
-\boxed{
-T_{SK}
-======
+## \[ \\boxed{ T\_{SK}
 
-T[
+T\[
 skill_id,
 class,
 capability,
@@ -1366,22 +1324,22 @@ validators,
 falsifiers,
 version,
 state
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 44. Agents Architecture
+## 44. Agents Architecture
 
 Agents are actors that may select, invoke, coordinate, or synthesize skills.
 
 Agent tensor:
 
-[
-\boxed{
+\[
+\\boxed{
 T_A =
-T[
+T\[
 agent_id,
 role,
 capabilities,
@@ -1394,9 +1352,9 @@ scope,
 regime,
 provenance,
 constraints
-]
+\]
 }
-]
+\]
 
 Hard boundary:
 
@@ -1404,16 +1362,16 @@ Hard boundary:
 AGENT CAPABILITY != AGENT AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 45. Workflow Architecture
+## 45. Workflow Architecture
 
 A workflow coordinates multiple state transitions, agents, skills, tools, and evidence objects.
 
-[
-\boxed{
+\[
+\\boxed{
 T_W =
-T[
+T\[
 workflow_id,
 version,
 objective,
@@ -1428,13 +1386,13 @@ dependencies,
 authority,
 timestamps,
 provenance
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 46. Grounded Workflow
+## 46. Grounded Workflow
 
 ```text
 IDENTIFY ENVIRONMENT
@@ -1485,9 +1443,9 @@ VERIFY EFFECT
 REOBSERVE
 ```
 
----
+______________________________________________________________________
 
-# 47. Control-Plane Architecture
+## 47. Control-Plane Architecture
 
 L00 separates cognition from control.
 
@@ -1519,23 +1477,23 @@ Hard invariant:
 COGNITION != CONTROL
 ```
 
----
+______________________________________________________________________
 
-# 48. Capability / Authority Separation
+## 48. Capability / Authority Separation
 
-[
-\boxed{
+\[
+\\boxed{
 Capability
-\not\Rightarrow
+\\not\\Rightarrow
 Authority
 }
-]
+\]
 
 The ability to execute an action does not itself authorize that action.
 
----
+______________________________________________________________________
 
-# 49. Proposal / Commit Separation
+## 49. Proposal / Commit Separation
 
 ```text
 MODEL OUTPUT
@@ -1553,54 +1511,46 @@ CONTROL PLANE
 COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 50. Read-Set Architecture
+## 50. Read-Set Architecture
 
 A consequential decision should preserve the state actually read:
 
-[
-\boxed{
-ReadSet
-=======
+## \[ \\boxed{ ReadSet
 
 {
 (object_i,version_i,hash_i)
 }
 }
-]
+\]
 
 This allows selective freshness validation.
 
----
+______________________________________________________________________
 
-# 51. Read-Set Freshness
+## 51. Read-Set Freshness
 
-[
-\boxed{
-Fresh(ReadSet)
-==============
+## \[ \\boxed{ Fresh(ReadSet)
 
-\bigwedge_i
-CurrentIdentity(object_i)
-=========================
+## \\bigwedge_i CurrentIdentity(object_i)
 
 ObservedIdentity(object_i)
 }
-]
+\]
 
 Only load-bearing changed state needs revalidation.
 
----
+______________________________________________________________________
 
-# 52. Semantic Transactions
+## 52. Semantic Transactions
 
 When multiple reasoning or effect steps form one semantic operation:
 
-[
-\boxed{
+\[
+\\boxed{
 TX =
-T[
+T\[
 transaction_id,
 claims,
 read_set,
@@ -1610,81 +1560,69 @@ constraints,
 authority,
 provenance,
 commit_state
-]
+\]
 }
-]
+\]
 
 When partial completion would violate meaning:
 
-[
-\boxed{
-SemanticAtomicity
-=================
+## \[ \\boxed{ SemanticAtomicity
 
 ALL
-\lor
+\\lor
 NONE
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 53. Commit-Time Validation
+## 53. Commit-Time Validation
 
 For consequential external effects:
 
-[
-\boxed{
-CommitAllowed
-=============
+## \[ \\boxed{ CommitAllowed
 
 EvidenceValid
-\land
+\\land
 ReadSetFresh
-\land
+\\land
 ConstraintsFresh
-\land
+\\land
 AuthorityFresh
-\land
+\\land
 TransactionValid
-\land
+\\land
 EffectIdentityValid
 }
-]
+\]
 
 where each requirement applies.
 
----
+______________________________________________________________________
 
-# 54. Effect Verification
+## 54. Effect Verification
 
-[
-\boxed{
-VerifiedEffect
-==============
+## \[ \\boxed{ VerifiedEffect
 
 CommitEvidence
-\land
+\\land
 PostStateObserved
-\land
+\\land
 EffectBindingValid
 }
-]
+\]
 
 A success response alone may be insufficient.
 
----
+______________________________________________________________________
 
-# 55. Receipt Architecture
+## 55. Receipt Architecture
 
 Receipt tensor:
 
-[
-\boxed{
-T_{Receipt}
-===========
+## \[ \\boxed{ T\_{Receipt}
 
-T[
+T\[
 receipt_id,
 receiver,
 service_identity,
@@ -1696,9 +1634,9 @@ principal,
 operation,
 timestamp,
 verification
-]
+\]
 }
-]
+\]
 
 Hard boundary:
 
@@ -1706,16 +1644,13 @@ Hard boundary:
 RECEIPT ID != VERIFIED EFFECT
 ```
 
----
+______________________________________________________________________
 
-# 56. Idempotency
+## 56. Idempotency
 
 For retryable durable effects:
 
-[
-\boxed{
-I_K
-===
+## \[ \\boxed{ I_K
 
 Hash(
 principal,
@@ -1724,7 +1659,7 @@ target,
 semantic_effect
 )
 }
-]
+\]
 
 Conceptually:
 
@@ -1734,9 +1669,9 @@ RETRY != NEW EFFECT
 
 when semantic identity is unchanged.
 
----
+______________________________________________________________________
 
-# 57. Crash Ambiguity
+## 57. Crash Ambiguity
 
 If effect status cannot be determined:
 
@@ -1754,9 +1689,9 @@ Hard boundary:
 TIMEOUT != PROOF OF NO EFFECT
 ```
 
----
+______________________________________________________________________
 
-# 58. Memory Architecture
+## 58. Memory Architecture
 
 Persistent memory must preserve:
 
@@ -1774,9 +1709,9 @@ revalidation state
 
 Memory admission is governed separately from generation.
 
----
+______________________________________________________________________
 
-# 59. Memory Write Flow
+## 59. Memory Write Flow
 
 ```text
 CANDIDATE MEMORY
@@ -1806,9 +1741,9 @@ RETENTION CLASS
 ADMIT / QUARANTINE / REJECT
 ```
 
----
+______________________________________________________________________
 
-# 60. Memory Read Flow
+## 60. Memory Read Flow
 
 ```text
 QUERY
@@ -1835,9 +1770,9 @@ CHECK CONTRADICTIONS
 USE / CONDITIONAL / QUARANTINE
 ```
 
----
+______________________________________________________________________
 
-# 61. AI Application
+## 61. AI Application
 
 For AI systems:
 
@@ -1884,9 +1819,9 @@ EXTERNAL EFFECT
 NEW OBSERVATION
 ```
 
----
+______________________________________________________________________
 
-# 62. AI Reality Firewall
+## 62. AI Reality Firewall
 
 ```text
 MODEL TOKEN != WORLD STATE
@@ -1906,9 +1841,9 @@ TOOL AVAILABILITY != AUTHORITY
 TOOL CALL != VERIFIED EFFECT
 ```
 
----
+______________________________________________________________________
 
-# 63. Recursive AI Contamination
+## 63. Recursive AI Contamination
 
 A critical L00 failure loop is:
 
@@ -1940,16 +1875,16 @@ INDEPENDENT CONFIRMATION
 
 unless provenance-distinct evidence is introduced.
 
----
+______________________________________________________________________
 
-# 64. Uncertainty Architecture
+## 64. Uncertainty Architecture
 
 L00 uses a multidimensional uncertainty vector:
 
-[
-\boxed{
+\[
+\\boxed{
 U =
-[
+\[
 U_E,
 U_M,
 U_S,
@@ -1957,23 +1892,23 @@ U_T,
 U_C,
 U_X,
 U_P
-]
+\]
 }
-]
+\]
 
 where:
 
-- \(U_E\) = evidence uncertainty;
-- \(U_M\) = model uncertainty;
-- \(U_S\) = scope uncertainty;
-- \(U_T\) = temporal uncertainty;
-- \(U_C\) = causal uncertainty;
-- \(U_X\) = execution uncertainty;
-- \(U_P\) = provenance/independence uncertainty.
+- (U_E) = evidence uncertainty;
+- (U_M) = model uncertainty;
+- (U_S) = scope uncertainty;
+- (U_T) = temporal uncertainty;
+- (U_C) = causal uncertainty;
+- (U_X) = execution uncertainty;
+- (U_P) = provenance/independence uncertainty.
 
----
+______________________________________________________________________
 
-# 65. Gap Architecture
+## 65. Gap Architecture
 
 L00 gaps should be classified:
 
@@ -1986,16 +1921,13 @@ COSMETIC
 
 A critical unresolved gap blocks any conclusion or effect that materially depends on it.
 
----
+______________________________________________________________________
 
-# 66. Gap Tensor
+## 66. Gap Tensor
 
-[
-\boxed{
-T_{Gap}
-=======
+## \[ \\boxed{ T\_{Gap}
 
-T[
+T\[
 gap_id,
 class,
 missing_state,
@@ -2004,13 +1936,13 @@ affected_actions,
 consequence,
 minimum_evidence,
 resolution_state
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 67. Core L00 Invariants
+## 67. Core L00 Invariants
 
 ## L00-I01 — Reality Distinction
 
@@ -2092,9 +2024,9 @@ Failure invalidates dependent state, not unrelated valid state.
 
 `UNKNOWN/GAP` cannot silently become `PASS`.
 
----
+______________________________________________________________________
 
-# 68. Failure Modes
+## 68. Failure Modes
 
 ## L00-F01 — Reality / Model Collapse
 
@@ -2176,9 +2108,9 @@ Local failure destroys independent state.
 
 Missing information becomes fluent certainty.
 
----
+______________________________________________________________________
 
-# 69. Repair Architecture
+## 69. Repair Architecture
 
 Repair begins by locating the actual failure target.
 
@@ -2213,59 +2145,56 @@ REVALIDATE
 RECOVER
 ```
 
----
+______________________________________________________________________
 
-# 70. Selective Invalidation
+## 70. Selective Invalidation
 
 For failed load-bearing premise (p):
 
-[
-\boxed{
+\[
+\\boxed{
 Invalidate(p)
-\Rightarrow
-Invalidate(Desc_{LB}(p))
+\\Rightarrow
+Invalidate(Desc\_{LB}(p))
 }
-]
+\]
 
 while:
 
-[
-\boxed{
+\[
+\\boxed{
 Independent(x,p)
-\Rightarrow
+\\Rightarrow
 Preserve(x)
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 71. Repair Equation
+## 71. Repair Equation
 
 Let:
 
-- \(S_V\) = unaffected valid state;
-- \(S_F\) = failed state;
-- \(R_F\) = repaired state;
-- \(D_F\) = dependent state.
+- (S_V) = unaffected valid state;
+- (S_F) = failed state;
+- (R_F) = repaired state;
+- (D_F) = dependent state.
 
 Then:
 
-[
-\boxed{
-S_{recovered}
-=============
+## \[ \\boxed{ S\_{recovered}
 
 S_V
-\cup
+\\cup
 R_F
-\cup
+\\cup
 Revalidated(D_F)
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 72. Repair Boundaries
+## 72. Repair Boundaries
 
 ```text
 REPAIR != RETRY
@@ -2283,9 +2212,9 @@ REPAIR APPLIED != REPAIR VALIDATED
 REPAIR SUCCESS != CAUSAL PROOF
 ```
 
----
+______________________________________________________________________
 
-# 73. Recovery States
+## 73. Recovery States
 
 ```text
 RECOVERED
@@ -2298,9 +2227,9 @@ ESCALATED
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 74. Validation Architecture
+## 74. Validation Architecture
 
 Validation should distinguish:
 
@@ -2318,36 +2247,33 @@ EFFECT VALIDATION
 RECOVERY VALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 75. Validation Equation
+## 75. Validation Equation
 
-[
-\boxed{
-Valid(C)
-========
+## \[ \\boxed{ Valid(C)
 
 PremiseIntegrity
-\land
+\\land
 EvidenceIntegrity
-\land
+\\land
 ProvenanceIntegrity
-\land
+\\land
 ScopeCompatibility
-\land
+\\land
 RegimeCompatibility
-\land
+\\land
 TemporalValidity
-\land
+\\land
 DependencyValidity
 }
-]
+\]
 
 where applicable.
 
----
+______________________________________________________________________
 
-# 76. L00 Validators
+## 76. L00 Validators
 
 ```text
 L00-T01 environment identity
@@ -2382,36 +2308,36 @@ L00-T29 recursive AI contamination
 L00-T30 UNKNOWN/GAP preservation
 ```
 
----
+______________________________________________________________________
 
-# 77. Falsifiers
+## 77. Falsifiers
 
 The L00 architecture fails as an implemented reality-environment system if:
 
 1. reality and model state cannot be distinguished;
-2. observations cannot retain source lineage;
-3. measurements cannot retain method or context;
-4. evidence cannot retain provenance;
-5. shared-origin evidence is automatically treated as independent;
-6. scope cannot constrain reuse;
-7. regime cannot constrain reuse;
-8. stale evidence cannot be detected;
-9. model outputs can silently become observations;
-10. simulations can silently become empirical evidence;
-11. forecasts can silently become future facts;
-12. memory can automatically represent current state;
-13. causal claims require no suitable evidence;
-14. contradictions can disappear during synthesis;
-15. competing hypotheses cannot remain unresolved;
-16. capability automatically grants authority;
-17. proposals automatically create durable effects;
-18. action attempts automatically become verified effects;
-19. failures cannot selectively invalidate dependent state;
-20. `UNKNOWN/GAP` cannot be represented.
+1. observations cannot retain source lineage;
+1. measurements cannot retain method or context;
+1. evidence cannot retain provenance;
+1. shared-origin evidence is automatically treated as independent;
+1. scope cannot constrain reuse;
+1. regime cannot constrain reuse;
+1. stale evidence cannot be detected;
+1. model outputs can silently become observations;
+1. simulations can silently become empirical evidence;
+1. forecasts can silently become future facts;
+1. memory can automatically represent current state;
+1. causal claims require no suitable evidence;
+1. contradictions can disappear during synthesis;
+1. competing hypotheses cannot remain unresolved;
+1. capability automatically grants authority;
+1. proposals automatically create durable effects;
+1. action attempts automatically become verified effects;
+1. failures cannot selectively invalidate dependent state;
+1. `UNKNOWN/GAP` cannot be represented.
 
----
+______________________________________________________________________
 
-# 78. Dependency Architecture
+## 78. Dependency Architecture
 
 L00 may depend on or interface with:
 
@@ -2431,9 +2357,9 @@ AMOS governance architecture
 
 Detailed dependency edges should remain versioned and provenance-bound.
 
----
+______________________________________________________________________
 
-# 79. L00 Component Map
+## 79. L00 Component Map
 
 ```text
 L00_REALITY_ENVIRONMENT/
@@ -2459,9 +2385,9 @@ L00_REALITY_ENVIRONMENT/
 
 Additional components may be added only when they have a distinct architectural responsibility.
 
----
+______________________________________________________________________
 
-# 80. Component Responsibilities
+## 80. Component Responsibilities
 
 | Component           | Primary responsibility                     |
 | ------------------- | ------------------------------------------ |
@@ -2483,16 +2409,13 @@ Additional components may be added only when they have a distinct architectural 
 | `REPAIR.md`         | selective repair/recovery                  |
 | `GAP_MATRIX.md`     | unresolved implementation/completion state |
 
----
+______________________________________________________________________
 
-# 81. Architectural Completion Tensor
+## 81. Architectural Completion Tensor
 
-[
-\boxed{
-T_{COMP}
-========
+## \[ \\boxed{ T\_{COMP}
 
-T[
+T\[
 definition,
 purpose,
 dependencies,
@@ -2509,59 +2432,56 @@ control_planes,
 failure_modes,
 repair,
 gaps
-]
+\]
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 82. Structural Completion Equation
+## 82. Structural Completion Equation
 
 Conceptually:
 
-[
-\boxed{
-Complete_{structure}
-====================
+## \[ \\boxed{ Complete\_{structure}
 
-\bigwedge_{m\in RequiredModules}
+\\bigwedge\_{m\\in RequiredModules}
 Defined(m)
 }
-]
+\]
 
 but:
 
-[
-\boxed{
-Complete_{structure}
-\not\Rightarrow
+\[
+\\boxed{
+Complete\_{structure}
+\\not\\Rightarrow
 Implemented
 }
-]
+\]
 
 and:
 
-[
-\boxed{
+\[
+\\boxed{
 Implemented
-\not\Rightarrow
+\\not\\Rightarrow
 Validated
 }
-]
+\]
 
 and:
 
-[
-\boxed{
+\[
+\\boxed{
 Validated
-\not\Rightarrow
+\\not\\Rightarrow
 UniversallyValid
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 83. Implementation State
+## 83. Implementation State
 
 A component may occupy:
 
@@ -2580,9 +2500,9 @@ UNKNOWN/GAP
 
 These states must remain distinct.
 
----
+______________________________________________________________________
 
-# 84. Runtime Evidence
+## 84. Runtime Evidence
 
 Implementation claims should be supported by appropriate executable evidence such as:
 
@@ -2601,9 +2521,9 @@ commit/receipt evidence
 
 Documentation claims alone remain `SOURCE_CLAIM`.
 
----
+______________________________________________________________________
 
-# 85. Benchmark Boundary
+## 85. Benchmark Boundary
 
 ```text
 BENCHMARK SUCCESS
@@ -2626,9 +2546,9 @@ limitations
 raw evidence
 ```
 
----
+______________________________________________________________________
 
-# 86. AI Skill Routing
+## 86. AI Skill Routing
 
 For AI execution, L00 capability routing should follow:
 
@@ -2666,41 +2586,38 @@ OUTPUT CLASSIFICATION
 RSCF UPDATE
 ```
 
----
+______________________________________________________________________
 
-# 87. Skill Routing Principle
+## 87. Skill Routing Principle
 
 Choose the smallest sufficient capability path.
 
-[
-\boxed{
-Path^*
-======
+## \[ \\boxed{ Path^\*
 
-\arg\min_P
+\\arg\\min_P
 Cost(P)
 }
-]
+\]
 
 subject to:
 
-[
-\boxed{
+\[
+\\boxed{
 OutcomeSufficient(P)=1
 }
-]
+\]
 
 and:
 
-[
-\boxed{
+\[
+\\boxed{
 Integrity(P)=1
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 88. Adversarial Validation
+## 88. Adversarial Validation
 
 Consequential L00 conclusions should be challenged for:
 
@@ -2719,9 +2636,9 @@ effect ambiguity
 stronger competing explanations
 ```
 
----
+______________________________________________________________________
 
-# 89. Challenge Outcomes
+## 89. Challenge Outcomes
 
 ```text
 SURVIVES
@@ -2732,9 +2649,9 @@ FALSIFIED
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 90. Source / Canon Boundary
+## 90. Source / Canon Boundary
 
 The architecture distinguishes:
 
@@ -2756,9 +2673,9 @@ AMOS_MODEL != SOURCE_CANON
 
 unless exact source lineage supports promotion.
 
----
+______________________________________________________________________
 
-# 91. Canon Provenance Requirements
+## 91. Canon Provenance Requirements
 
 Where L00 structures are asserted as canonical, preserve:
 
@@ -2773,9 +2690,9 @@ dependencies
 implementation status
 ```
 
----
+______________________________________________________________________
 
-# 92. Canon / Empirical Firewall
+## 92. Canon / Empirical Firewall
 
 ```text
 SOURCE_CANON
@@ -2787,9 +2704,9 @@ Canonical architecture defines the AMOS framework.
 
 It does not by itself establish universal scientific validity.
 
----
+______________________________________________________________________
 
-# 93. Core RSCF Completion State
+## 93. Core RSCF Completion State
 
 ```yaml
 claim_class: MODEL
@@ -2894,37 +2811,37 @@ confidence_ceiling:
   ontological_universality: unverified
 ```
 
----
+______________________________________________________________________
 
-# 94. Gap Matrix
+## 94. Gap Matrix
 
-| Area                 | Required capability            | Status                                   |
-| -------------------- | ------------------------------ | ---------------------------------------- |
-| Environment identity | stable environment identities  | implementation-dependent                 |
-| Observation          | typed observation interface    | implementation-dependent                 |
-| Measurement          | method/unit/error preservation | implementation-dependent                 |
-| Representation       | transformation tracking        | implementation-dependent                 |
-| Evidence             | typed evidence state           | architecture-defined / runtime-dependent |
-| Provenance           | ancestry/root resolution       | implementation-dependent                 |
-| Independence         | correlated-source detection    | implementation-dependent                 |
-| Scope                | applicability envelopes        | architecture-defined                     |
-| Regime               | regime-aware validity          | architecture-defined / runtime-dependent |
-| Time                 | temporal/freshness integrity   | implementation-dependent                 |
-| H/M/L                | recursive scale decomposition  | architecture-defined                     |
-| RSCF                 | recursive claim/evidence graph | architecture-defined / runtime-dependent |
-| Memory               | provenance-bound persistence   | implementation-dependent                 |
-| Skills               | typed capability contracts     | architecture-defined / runtime-dependent |
-| Agents               | bounded agent roles            | implementation-dependent                 |
-| Protocols            | typed state transitions        | implementation-dependent                 |
-| Control plane        | authority/finality governance  | implementation-dependent                 |
-| Transactions         | semantic atomicity             | implementation-dependent                 |
-| Effect verification  | post-action state confirmation | environment-dependent                    |
-| Repair               | selective recovery             | implementation-dependent                 |
-| Runtime proof        | executable validation          | TEST-TABLE EXECUTED-VALIDATED (see [[25_COGNITIVE_MATRIX/11_VALIDATION/L00_REALITY_VALIDATION_RECEIPT|L00_REALITY_VALIDATION_RECEIPT]], 91/91, 2026-08-26); live observation-channel enforcement UNKNOWN/GAP |
+| Area                 | Required capability            | Status                                                                                                  |
+| -------------------- | ------------------------------ | ------------------------------------------------------------------------------------------------------- |
+| Environment identity | stable environment identities  | implementation-dependent                                                                                |
+| Observation          | typed observation interface    | implementation-dependent                                                                                |
+| Measurement          | method/unit/error preservation | implementation-dependent                                                                                |
+| Representation       | transformation tracking        | implementation-dependent                                                                                |
+| Evidence             | typed evidence state           | architecture-defined / runtime-dependent                                                                |
+| Provenance           | ancestry/root resolution       | implementation-dependent                                                                                |
+| Independence         | correlated-source detection    | implementation-dependent                                                                                |
+| Scope                | applicability envelopes        | architecture-defined                                                                                    |
+| Regime               | regime-aware validity          | architecture-defined / runtime-dependent                                                                |
+| Time                 | temporal/freshness integrity   | implementation-dependent                                                                                |
+| H/M/L                | recursive scale decomposition  | architecture-defined                                                                                    |
+| RSCF                 | recursive claim/evidence graph | architecture-defined / runtime-dependent                                                                |
+| Memory               | provenance-bound persistence   | implementation-dependent                                                                                |
+| Skills               | typed capability contracts     | architecture-defined / runtime-dependent                                                                |
+| Agents               | bounded agent roles            | implementation-dependent                                                                                |
+| Protocols            | typed state transitions        | implementation-dependent                                                                                |
+| Control plane        | authority/finality governance  | implementation-dependent                                                                                |
+| Transactions         | semantic atomicity             | implementation-dependent                                                                                |
+| Effect verification  | post-action state confirmation | environment-dependent                                                                                   |
+| Repair               | selective recovery             | implementation-dependent                                                                                |
+| Runtime proof        | executable validation          | TEST-TABLE EXECUTED-VALIDATED (see \[\[25_COGNITIVE_MATRIX/11_VALIDATION/L00_REALITY_VALIDATION_RECEIPT |
 
----
+______________________________________________________________________
 
-# 95. Canonical L00 Workflow
+## 95. Canonical L00 Workflow
 
 ```text
 REALITY / ENVIRONMENT
@@ -2987,171 +2904,159 @@ REOBSERVE
 UPDATE / REPAIR / MEMORY
 ```
 
----
+______________________________________________________________________
 
-# 96. Canonical L00 Validity Equation
+## 96. Canonical L00 Validity Equation
 
-[
-\boxed{
-L00Validity
-===========
+## \[ \\boxed{ L00Validity
 
 RealityDistinction
-\land
+\\land
 EvidenceTyping
-\land
+\\land
 ProvenanceIntegrity
-\land
+\\land
 ScopeIntegrity
-\land
+\\land
 RegimeIntegrity
-\land
+\\land
 TemporalIntegrity
-\land
+\\land
 CausalDiscipline
-\land
+\\land
 AuthorityIntegrity
-\land
+\\land
 EffectIntegrity
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 97. Canonical Grounded AI Equation
+## 97. Canonical Grounded AI Equation
 
-For AI claim \(C\):
+For AI claim (C):
 
-[
-\boxed{
-GroundedAI(C)
-=============
+## \[ \\boxed{ GroundedAI(C)
 
 Typed(C)
-\land
+\\land
 EvidenceLinked(C)
-\land
+\\land
 ProvenanceValid(C)
-\land
+\\land
 ScopeValid(C)
-\land
+\\land
 RegimeValid(C)
-\land
+\\land
 TemporalValid(C)
 }
-]
+\]
 
 This establishes minimum grounding structure.
 
 It does not guarantee truth.
 
----
+______________________________________________________________________
 
-# 98. Canonical Grounded Action Equation
+## 98. Canonical Grounded Action Equation
 
-For action \(A\):
+For action (A):
 
-[
-\boxed{
-GroundedAction(A)
-=================
+## \[ \\boxed{ GroundedAction(A)
 
 DecisionValid
-\land
+\\land
 StateFresh
-\land
+\\land
 AuthorityValid
-\land
+\\land
 ConstraintValid
-\land
+\\land
 EffectBound
 }
-]
+\]
 
 For verified effect:
 
-[
-\boxed{
-VerifiedAction(A)
-=================
+## \[ \\boxed{ VerifiedAction(A)
 
 GroundedAction(A)
-\land
+\\land
 PostEffectObservation
 }
-]
+\]
 
 where external verification is required.
 
----
+______________________________________________________________________
 
-# 99. Canonical Confidence Law
+## 99. Canonical Confidence Law
 
-[
-\boxed{
+\[
+\\boxed{
 Conf(C)
-\leq
+\\leq
 WeakestLoadBearingPremise(C)
 }
-]
+\]
 
 unless independently revalidated.
 
----
+______________________________________________________________________
 
-# 100. Canonical Provenance Law
+## 100. Canonical Provenance Law
 
-[
-\boxed{
+\[
+\\boxed{
 Derived(y,x)
-\Rightarrow
+\\Rightarrow
 Prov(y)
-\supseteq
+\\supseteq
 RequiredProv(x)
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 101. Canonical Independence Law
+## 101. Canonical Independence Law
 
-[
-\boxed{
+\[
+\\boxed{
 IndependentSupport
-\Rightarrow
+\\Rightarrow
 DistinctMaterialAncestry
 }
-]
+\]
 
 when independence is required.
 
----
+______________________________________________________________________
 
-# 102. Canonical Scope Law
+## 102. Canonical Scope Law
 
-[
-\boxed{
+\[
+\\boxed{
 Reuse(C,x)
-\Rightarrow
+\\Rightarrow
 ScopeCompatible(C,x)
-\land
+\\land
 RegimeCompatible(C,x)
-\land
+\\land
 TemporalCompatible(C,x)
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 103. Canonical Causal Law
+## 103. Canonical Causal Law
 
-[
-\boxed{
+\[
+\\boxed{
 CausalPromotion
-\Rightarrow
+\\Rightarrow
 SuitableCausalEvidence
 }
-]
+\]
 
 Otherwise causal status remains:
 
@@ -3164,70 +3069,67 @@ UNKNOWN/GAP
 
 as appropriate.
 
----
+______________________________________________________________________
 
-# 104. Canonical Control Law
+## 104. Canonical Control Law
 
-[
-\boxed{
+\[
+\\boxed{
 Capability
-\not\Rightarrow
+\\not\\Rightarrow
 Authority
 }
-]
+\]
 
 and:
 
-[
-\boxed{
+\[
+\\boxed{
 Proposal
-\not\Rightarrow
+\\not\\Rightarrow
 Commit
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 105. Canonical Failure Law
+## 105. Canonical Failure Law
 
-[
-\boxed{
+\[
+\\boxed{
 Failure(p)
-\Rightarrow
+\\Rightarrow
 Invalidate(LoadBearingDescendants(p))
 }
-]
+\]
 
 while:
 
-[
-\boxed{
+\[
+\\boxed{
 Independent(x,p)
-\Rightarrow
+\\Rightarrow
 Preserve(x)
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 106. Canonical Recovery Law
+## 106. Canonical Recovery Law
 
-[
-\boxed{
-Recovery
-========
+## \[ \\boxed{ Recovery
 
 RepairApplied
-\land
+\\land
 RealityRecontact
-\land
+\\land
 DependentStateRevalidation
 }
-]
+\]
 
----
+______________________________________________________________________
 
-# 107. Hard Boundaries
+## 107. Hard Boundaries
 
 ```text
 REALITY != REPRESENTATION
@@ -3307,14 +3209,14 @@ ADDRESSABLE != VALIDATED
 UNKNOWN/GAP != PASS
 ```
 
----
+______________________________________________________________________
 
-# 108. Canonical L00 Law
+## 108. Canonical L00 Law
 
-[
-\boxed{
+\[
+\\boxed{
 AMOSReasoning
-\Rightarrow
+\\Rightarrow
 PreserveDistinction(
 Reality,
 Observation,
@@ -3329,100 +3231,103 @@ Action,
 Effect
 )
 }
-]
+\]
 
 For evidence:
 
-[
-\boxed{
+\[
+\\boxed{
 AdmissibleEvidence
-\Rightarrow
+\\Rightarrow
 Typed
-\land
+\\land
 ProvenanceBound
-\land
+\\land
 ScopeBound
-\land
+\\land
 RegimeBound
-\land
+\\land
 TimeBound
 }
-]
+\]
 
 For claims:
 
-[
-\boxed{
+\[
+\\boxed{
 ClaimValidity
-\Rightarrow
+\\Rightarrow
 PremiseIntegrity
-\land
+\\land
 EvidenceIntegrity
-\land
+\\land
 DependencyIntegrity
 }
-]
+\]
 
 For effects:
 
-[
-\boxed{
+\[
+\\boxed{
 Effect
-\Rightarrow
+\\Rightarrow
 Proposal
-\land
+\\land
 Authority
-\land
+\\land
 FreshState
-\land
+\\land
 CommitValidation
 }
-]
+\]
 
 For failure:
 
-[
-\boxed{
+\[
+\\boxed{
 Failure
-\Rightarrow
+\\Rightarrow
 PreserveIndependentState
-+
+\+
 InvalidateDependentState
-+
+\+
 RepairSmallestSupportedTarget
-+
+\+
 Revalidate
 }
-]
+\]
 
 The governing architectural principle is:
 
 > **L00_REALITY_ENVIRONMENT is the AMOS reality-contact root. It exists to ensure that every observation, measurement, evidence object, claim, memory, model, prediction, decision, skill invocation, action proposal, committed effect, and repair remains connected to the environment, provenance, scope, regime, time, uncertainty, authority, and dependency structure required to interpret it correctly. Higher AMOS layers may reason, compress, predict, simulate, optimize, and act, but they may never erase the distinctions that separate internal representation from external reality or capability from authority.**
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · 06-Knowledge-Base-MOC · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README|L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · Cosmo_Brain_BRIDGE_INDEX · Cosmo_Brain_BRIDGE_INDEX · Cosmo_Brain_BRIDGE_INDEX · Cosmo_Brain_BRIDGE_INDEX
 
 ```
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC|COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: l00_reality_environment_primitives_cognitive_matrix_readme
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/L00_REALITY_ENVIRONMENT_MOC|L00_REALITY_ENVIRONMENT_MOC]]
-

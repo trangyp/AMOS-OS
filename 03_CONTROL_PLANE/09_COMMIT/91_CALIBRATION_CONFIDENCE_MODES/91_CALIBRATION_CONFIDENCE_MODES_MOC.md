@@ -1,10 +1,13 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: 91 Calibration Confidence Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/91_CALIBRATION_CONFIDENCE_MODES
 tags:
-- 91-calibration-confidence-modes
-- canon/control-plane
+  - 91-calibration-confidence-modes
+  - canon/control-plane
 moc: true
 rscf:
   state: DERIVED
@@ -24,5 +27,6 @@ rscf:
 - [[03_CONTROL_PLANE/09_COMMIT/91_CALIBRATION_CONFIDENCE_MODES/CALIBRATION_CONFIDENCE_MODES_COMMIT_CONTROL_PLANE_MODE_FAMILY_SPEC|CALIBRATION_CONFIDENCE_MODES_COMMIT_CONTROL_PLANE_MODE_FAMILY_SPEC]]
 - [[03_CONTROL_PLANE/09_COMMIT/91_CALIBRATION_CONFIDENCE_MODES/CALIBRATION_CONFIDENCE_MODES_COMMIT_CONTROL_PLANE_README|CALIBRATION_CONFIDENCE_MODES_COMMIT_CONTROL_PLANE_README]]
 
----
+______________________________________________________________________
+
 **Parent:** [[03_CONTROL_PLANE/09_COMMIT/09_COMMIT_MOC|09_COMMIT_MOC]]

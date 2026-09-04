@@ -1,16 +1,19 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: design engine model
 type: reference
 source: 07_SKILLS/amos-c11-design-language-master/references
 tags:
-- reference
-- amos-c11-design-language-master
-- type/skill
-- system-scan-agent
-- automation-profiles
-- amos-simulation-kernel-v0-math-foundations
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-c11-design-language-master
+  - type/skill
+  - system-scan-agent
+  - automation-profiles
+  - amos-simulation-kernel-v0-math-foundations
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -23,12 +26,11 @@ rscf:
 > Source: `_00_Cosmo brain/engine/D/Design_Engine_Model.md`
 > Epistemic class: SOURCE_DERIVED
 
----
-aliases: [Unified Design Kernel, AMOS_Design_Engine, Design Kernel]
-tags: [canon-group/tech-ai, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/design-engine-model, engine]
----
+______________________________________________________________________
 
-# AMOS Unified Design Engine
+## aliases: [Unified Design Kernel, AMOS_Design_Engine, Design Kernel] tags: [canon-group/tech-ai, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/design-engine-model, engine]
+
+## AMOS Unified Design Engine
 
 **Version:** 1.0.0
 **Source:** `AMOS_Design_Kernel_v0.json`
@@ -38,6 +40,7 @@ The **Unified Design Kernel** provides a 96-cluster, 20-dimension virtual expans
 ## The 20 Design Dimensions
 
 Every design is evaluated against dimensions such as:
+
 - Perceptual clarity
 - Cognitive load
 - Behavioral outcome fit
@@ -53,6 +56,7 @@ Every design is evaluated against dimensions such as:
 ## The 96 Clusters (Domain Buckets)
 
 These clusters cover the full design spectrum, organized into buckets including:
+
 - **Visual Identity:** Logos, colors, typography.
 - **Brand Language:** Tone of voice, messaging, naming.
 - **Product Experience:** Surface UI, onboarding, core flows.
@@ -66,18 +70,21 @@ These clusters cover the full design spectrum, organized into buckets including:
 - **Planetary/Local Context:** Urban context, climate constraints, cultural norms.
 
 ## Reasoning Modes
-The engine operates in 4 modes:
-1. **Decomposition:** Understand the problem space.
-2. **Synthesis:** Create new design structures.
-3. **Evaluation:** Critique and score existing designs.
-4. **Evolution:** Roadmap iterative changes over time.
 
----
+The engine operates in 4 modes:
+
+1. **Decomposition:** Understand the problem space.
+1. **Synthesis:** Create new design structures.
+1. **Evaluation:** Critique and score existing designs.
+1. **Evolution:** Roadmap iterative changes over time.
+
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS · SYSTEM_SCAN_AGENT · AUTOMATION_PROFILES
 
----
-**MOC:** references_MOC
----
+______________________________________________________________________
+
+## **MOC:** references_MOC
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -85,12 +92,14 @@ The engine operates in 4 modes:
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-c11-design-language-master-design-engine-model
 node_type: reference
 path: 07_SKILLS/amos-c11-design-language-master/references/design_engine_model.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

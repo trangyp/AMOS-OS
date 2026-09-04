@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Vault Domain Knowledge — Amos Tool Grounded Configuration Repair Rscf
 type: reference
 source: 07_SKILLS/amos-tool-grounded-configuration-repair-rscf/references
 tags:
-- reference
-- amos-tool-grounded-configuration-repair-rscf
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-tool-grounded-configuration-repair-rscf
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -37,79 +40,79 @@ import tomli
 from typing import Dict, Optional, Any
 from pathlib import Path
 
-
 class ConfigurationLoader:
- """
- Load TOML configuration files.
- """
+"""
+Load TOML configuration files.
+"""
 
- def __init__(self, data_dir: Optional[str] = None):
- """Initialize loader."""
- if data_dir is None:
- data_dir = Path(__file__).parent
- else:
- data_dir = Path(data_dir)
+def __init__(self, data_dir: Optional[str] = None):
+"""Initialize loader."""
+if data_dir is None:
+data_dir = Path(__file__).parent
+else:
+data_dir = Path(data_dir)
 
- self.data_dir = data_dir
- self._cache = {}
+self.data_dir = data_dir
+self.\_cache = {}
 
- # Define configuration files
- self.config_files = {
- 'fractal_cognitive_architecture_v2':
- 'fractal_cognitive_architecture_v2/pyproject.toml',
- }
+## Define configuration files
 
- def load_config(self, key: str) -> Dict:
- """Load TOML configuration file."""
- if key in self._cache:
- return self._cache[key]
+self.config_files = {
+'fractal_cognitive_architecture_v2':
+'fractal_cognitive_architecture_v2/pyproject.toml',
+}
 
- if key not in self.config_files:
- raise ValueError(f"Unknown configuration file: {key}")
+def load_config(self, key: str) -> Dict:
+"""Load TOML configuration file."""
+if key in self.\_cache:
+return self.\_cache[key]
 
- filepath = self.data_dir / self.config_files[key]
+if key not in self.config_files:
+raise ValueError(f"Unknown configuration file: {key}")
 
- if not filepath.exists():
- print(f"[WARNING] Configuration file not found: {filepath}")
- return {}
+filepath = self.data_dir / self.config_files[key]
 
- try:
- with open(filepath, 'rb') as f:
- data = tomli.load(f)
- self._cache[key] = data
- return data
- except Exception as e:
- print(f"[ERROR] Failed to load configuration file {filepath}: {e}")
- return {}
+if not filepath.exists():
+print(f"[WARNING] Configuration file not found: {filepath}")
+return {}
 
- def get_available_files(self) -> list:
- """Get list of available configuration files."""
- return list(self.config_files.keys())
+try:
+with open(filepath, 'rb') as f:
+data = tomli.load(f)
+self.\_cache[key] = data
+return data
+except Exception as e:
+print(f"[ERROR] Failed to load configuration file {filepath}: {e}")
+return {}
 
- def get_status(self) -> Dict[str, Any]:
- """Get loader status."""
- return {
- 'data_dir': str(self.data_dir),
- 'available_files': len(self.config_files),
- 'cached_files': len(self._cache),
- 'files': list(self.config_files.keys())
- }
+def get_available_files(self) -> list:
+"""Get list of available configuration files."""
+return list(self.config_files.keys())
 
+def get_status(self) -> Dict\[str, Any\]:
+"""Get loader status."""
+return {
+'data_dir': str(self.data_dir),
+'available_files': len(self.config_files),
+'cached_files': len(self.\_cache),
+'files': list(self.config_files.keys())
+}
 
 def create_configuration_loader(data_dir: Optional[str] = None) -> ConfigurationLoader:
- """Factory function to create configuration loader."""
- return ConfigurationLoader(data_dir)
+"""Factory function to create configuration loader."""
+return ConfigurationLoader(data_dir)
 
----
+______________________________________________________________________
 
----
+______________________________________________________________________
 
 ### Source 2: AMOS Super-Agent
+
 - Tensorized Multi-Agent Brain with Passive Repair - FINAL IMPLEMENTATION
 
 > Path: `agents/AMOS_SUPER_AGENT_FINAL_COMPLETE.md` | Size: 7872 chars | Match score: 7 | content_hash: 149c05516f880012
 
-# AMOS Super-Agent - Tensorized Multi-Agent Brain with Passive Repair - FINAL IMPLEMENTATION
+## AMOS Super-Agent - Tensorized Multi-Agent Brain with Passive Repair - FINAL IMPLEMENTATION
 
 ## MISSION ACCOMPLISHED
 
@@ -118,6 +121,7 @@ I have successfully implemented the **complete AMOS Super-Agent** following your
 ### **Core Identity Achieved** ### **All 6 Core Components Working** ### **Cognitive Tensor Implementation**
 
 **n = 7**: Expert agents/LLMs
+
 - **m = 5**: Task domains (reasoning, coding, testing, debugging, architecture)
 - **k = 8**: Cognitive modes (reasoning, code_generation, code_review, simulation, debugging, architecture_refinement, memory_retrieval, adversarial_critique)
 - **τ = 10**: Time horizon steps
@@ -125,24 +129,27 @@ I have successfully implemented the **complete AMOS Super-Agent** following your
 ### **Master Runtime Equation**
 
 1. **Perception**: Observe workspace and system state
-2. **Routing**: Route tasks to expert LLMs in parallel
-3. **Consolidation**: Merge outputs in global workspace
-4. **Action Selection**: Choose optimal motor action
-5. **Passive Repair**: Run background health/bug-repair scan
-6. **Apply Fixes**: Apply low-disruption repairs
-7. **Audit**: Audit coherence and regression risk
-8. **Update**: Update memory and architecture
+1. **Routing**: Route tasks to expert LLMs in parallel
+1. **Consolidation**: Merge outputs in global workspace
+1. **Action Selection**: Choose optimal motor action
+1. **Passive Repair**: Run background health/bug-repair scan
+1. **Apply Fixes**: Apply low-disruption repairs
+1. **Audit**: Audit coherence and regression risk
+1. **Update**: Update memory and architecture
 
 ### **Passive Background Repair Loop**
 
 **i**: artifact/module (10 artifacts)
+
 - **j**: bug class (7 classes: syntax, logic, race_condition, state_corruption, memory_leak, api_mismatch, architecture_drift)
 - **k**: repair strategy (7 strategies: syntax_fix, logic_correction, race_fix, state_restore, memory_cleanup, api_update, architecture_realign)
 
-### **Demonstration Results
-- ACTUAL WORKING SYSTEM**
+### \*\*Demonstration Results
+
+- ACTUAL WORKING SYSTEM\*\*
 
 **Brain Coherence**: 0.066-0.081 (meta-cognitive self-awareness)
+
 - **System Health**: 1.000 (perfect health)
 - **Motor Actions**: Selected optimal actions (observe, edit, patch, test, etc.)
 - **Tensor Activity**: 0.459 (active cognitive processing)
@@ -163,13 +170,15 @@ I have successfully implemented the **complete AMOS Super-Agent** following your
 
 ### **Technical Excellence Achieved** **Tensor Architecture**: Complete 4D cognitive tensor with confidence and salience weighting **Parallel Processing**: 7 expert LLMs runnin
 
----
+______________________________________________________________________
+
 **MOC:** references_MOC
 
 ## Related
 
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -177,12 +186,14 @@ I have successfully implemented the **complete AMOS Super-Agent** following your
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-tool-grounded-configuration-repair-rscf-vault-domain-knowledge
 node_type: reference
 path: 07_SKILLS/amos-tool-grounded-configuration-repair-rscf/references/vault_domain_knowledge.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

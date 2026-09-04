@@ -4,24 +4,22 @@ title: SKILL — Amos Ai Entropy Rscf Engine
 type: skill
 source: 07_SKILLS/amos-ai-entropy-rscf-engine
 name: amos-ai-entropy-rscf-engine
-description: Ai Entropy — fractal systems capability. Use when fractal analysis, scale
-  reasoning, or self-similarity detection. Use when amos-fractal-systems-master routes
-  to this specialized capability. Do not use for generic tasks outside fractal domain.
+description: Ai Entropy — fractal systems capability. Use when fractal analysis, scale reasoning, or self-similarity detection. Use when amos-fractal-systems-master routes to this specialized capability. Do not use for generic tasks outside fractal domain.
 parent_skill: amos-fractal-systems-master
 domain: fractal
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
 tags:
-- type/skill
-- type/skill
-- domain/fractal-systems
-- epistemic/source_claim
-- hml/m
-- epistemic/source_claim
-- amos-os
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
-- skill
+  - type/skill
+  - type/skill
+  - domain/fractal-systems
+  - epistemic/source_claim
+  - hml/m
+  - epistemic/source_claim
+  - amos-os
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
+  - skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -31,20 +29,20 @@ version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: M
 gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
+  - L0_integrity
+  - L1_epistemic
+  - L2_provenance
+  - L5_scope
 collapse_class: reversible
 qfm_gate_set: QFM_v43
 law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L16
-- L17
+  - L0
+  - L1
+  - L2
+  - L4
+  - L5
+  - L16
+  - L17
 license: MIT
 steward: Trang Phan
 ---
@@ -54,6 +52,7 @@ steward: Trang Phan
 ## Identity
 
 Origin architect: **Trang Phan**. Domain: fractal. Parent: amos-fractal-systems-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
 ## When to Use
 
 - When analyzing fractal structure: self-similarity and scale invariance
@@ -73,6 +72,7 @@ Origin architect: **Trang Phan**. Domain: fractal. Parent: amos-fractal-systems-
 - **ai_entropy.map_biology**: Map human biology fractal patterns: branching, scaling, and self-organization
 
 > **Reference**: See `references/vault_domain_knowledge.md` (content_hash: 59eaafd723b6ac78) for the full vault-sourced domain knowledge (9500 chars).
+
 - **ai_entropy.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
 - **ai_entropy.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **ai_entropy.validate_outputs**: Validate outputs against domain constraints and epistemic class.
@@ -80,12 +80,12 @@ Origin architect: **Trang Phan**. Domain: fractal. Parent: amos-fractal-systems-
 ## Operations
 
 1. **ai_entropy.analyze_fractal**: Analyze fractal structure: self-similarity, scale invariance, and recursion
-2. **ai_entropy.quantify_entropy**: Quantify AI entropy within fractal architectures: information vs disorder
-3. **ai_entropy.validate_equation**: Validate strict fractal equations against scale-invariance requirements
-4. **ai_entropy.map_biology**: Map human biology fractal patterns: branching, scaling, and self-organization
-5. **ai_entropy.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
-6. **ai_entropy.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
-7. **ai_entropy.validate_outputs**: Validate outputs against domain constraints and epistemic class.
+1. **ai_entropy.quantify_entropy**: Quantify AI entropy within fractal architectures: information vs disorder
+1. **ai_entropy.validate_equation**: Validate strict fractal equations against scale-invariance requirements
+1. **ai_entropy.map_biology**: Map human biology fractal patterns: branching, scaling, and self-organization
+1. **ai_entropy.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
+1. **ai_entropy.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
+1. **ai_entropy.validate_outputs**: Validate outputs against domain constraints and epistemic class.
 
 ## 11_KNOWLEDGE Vault Content
 
@@ -100,6 +100,7 @@ This RSCF engine operates on the AMOS RSCF (Reasoning, Scope, Claim, Falsifier) 
 **RSCF state kinds**: OBSERVATION, SOURCE_CLAIM, DERIVED, MODEL, DECISION, UNKNOWN.
 
 **RSCF laws**:
+
 - `CLAIM != FACT`: a claim is not a fact; it must be labeled with epistemic class
 - `CONFIDENCE <= EVIDENCE`: confidence cannot exceed evidence support
 - `FALSIFIER_REQUIRED`: every claim must declare its falsifier
@@ -107,6 +108,7 @@ This RSCF engine operates on the AMOS RSCF (Reasoning, Scope, Claim, Falsifier) 
 - `PROVENANCE_REQUIRED`: every claim must have traceable provenance
 
 **RSCF validation gates**:
+
 - G1 (Law of Law): no unresolved contradictions
 - G2 (Epistemic class): all claims labeled, no class promotion without evidence
 - G3 (Provenance): source path recorded for every derived claim
@@ -137,9 +139,10 @@ This RSCF engine is an epistemic governance tool. It does not prove claims are t
 
 ## Provenance
 
-- **
+- \*\*
 
----
+______________________________________________________________________
+
 **Links:** [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
 ## Related
@@ -149,17 +152,19 @@ This RSCF engine is an epistemic governance tool. It does not prove claims are t
 ## Examples
 
 - **Scenario**: When analyzing fractal structure: self-similarity and scale invariance
+
   - **Input**: A query matching this skill's domain (fractal)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When quantifying AI entropy within fractal architectures
+
   - **Input**: A query matching this skill's domain (fractal)
   - **Output**: Structured result with epistemic labels and provenance
 
 - **Scenario**: When validating fractal equations against scale-invariance
+
   - **Input**: A query matching this skill's domain (fractal)
   - **Output**: Structured result with epistemic labels and provenance
-
 
 ## Anti-Patterns
 
@@ -169,7 +174,6 @@ This RSCF engine is an epistemic governance tool. It does not prove claims are t
 - **Do not bypass** epistemic class labeling — every output must carry SOURCE/DERIVED/AMOS_MODEL tags
 - **Do not chain** more than 3 skills without explicit orchestrator approval
 
-
 ## Composition
 
 - **Parent**: `amos-fractal-systems-master` — routes to this skill when fractal specialization is needed
@@ -177,7 +181,6 @@ This RSCF engine is an epistemic governance tool. It does not prove claims are t
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
 - **Agent**: Each skill has a corresponding agent in `06_AGENTS/`
-
 
 ## Evaluation
 
@@ -196,7 +199,6 @@ This RSCF engine is an epistemic governance tool. It does not prove claims are t
 - **Provenance loss**: Output cannot trace back to source evidence
 - **Confidence inflation**: Output confidence exceeds the weakest-premise ceiling
 
-
 ## Error Handling
 
 - **On scope violation**: Reject the query and route back to parent skill
@@ -204,7 +206,6 @@ This RSCF engine is an epistemic governance tool. It does not prove claims are t
 - **On contradiction**: Flag as CRITICAL_GAP and halt until resolved
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
-
 
 ## Do not use
 
@@ -217,11 +218,12 @@ This RSCF engine is an epistemic governance tool. It does not prove claims are t
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `` — skill Map of Content
+- \`\` — skill Map of Content
 - `amos-fractal-systems-master` — parent skill
-- `` — corresponding workflow
+- \`\` — corresponding workflow
 - `amos-ai-entropy-rscf-engine-agent` — corresponding agent
----
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]] · references_MOC
 
@@ -229,12 +231,14 @@ This RSCF engine is an epistemic governance tool. It does not prove claims are t
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-ai-entropy-rscf-engine
 node_type: skill
 path: 07_SKILLS/amos-ai-entropy-rscf-engine/SKILL.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]

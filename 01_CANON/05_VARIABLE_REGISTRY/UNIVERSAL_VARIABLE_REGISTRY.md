@@ -16,40 +16,39 @@ steward: Trang Phan
 created: 2026-08-25
 updated: 2026-08-25
 tags:
-- amos
-- canon
-- universe
-- amos-os
-- amos-core
-- amos-core-v4-4
-- registry
-- variables
-- symbols
-- units
-- types
-- semantics
-- scope
-- provenance
-- epistemics
-- uncertainty
-- causality
-- state
-- cognition
-- rscf
-- hml
-- canon-group/meta
-- canon/registry
-- topic/variables
-- topic/semantic-identity
-- readme
-- architecture
-- placement-rules
-- amos-core-laws
-- law-hierarchy
-- cognitive-matrix-architecture
+  - amos
+  - canon
+  - universe
+  - amos-os
+  - amos-core
+  - amos-core-v4-4
+  - registry
+  - variables
+  - symbols
+  - units
+  - types
+  - semantics
+  - scope
+  - provenance
+  - epistemics
+  - uncertainty
+  - causality
+  - state
+  - cognition
+  - rscf
+  - hml
+  - canon-group/meta
+  - canon/registry
+  - topic/variables
+  - topic/semantic-identity
+  - readme
+  - architecture
+  - placement-rules
+  - amos-core-laws
+  - law-hierarchy
+  - cognitive-matrix-architecture
 aliases:
-- AMOS Universal Variable Registry - Universal Variable Registry - AMOS Variable Registry
-  - AM
+  - AMOS Universal Variable Registry - Universal Variable Registry - AMOS Variable Registry - AM
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -58,20 +57,27 @@ rscf:
 ---
 
 # AMOS Universal Variable Registry
+
 **Origin architect / steward:** Trang Phan
+
 > **Status:** `ACTIVE_CANON_CANDIDATE`
 > **AMOS Core target:** `v4.4`
 > **Conclusion class:** `AMOS_MODEL`
+
 ## 0. Purpose
+
 The **Universal Variable Registry (UVR)** defines the canonical identity, typing, scope, semantics, provenance, lifecycle, and interoperability rules for variables used throughout AMOS OS.
 It exists to prevent a variable from becoming meaningful merely because a symbol or field name exists.
 Core law:
+
 ```text
 VARIABLE NAME
 !=
 VARIABLE IDENTITY
 ```
+
 A variable is conceptually:
+
 ```text
 VARIABLE
 =
@@ -89,7 +95,9 @@ TEMPORAL VALIDITY
 +
 PROVENANCE
 ```
+
 with additional dimensions where applicable:
+
 ```text
 +
 UNIT
@@ -104,17 +112,10 @@ DEPENDENCIES
 +
 VERSION
 ```
-The registry is a semantic identity layer.
-It is not a store of all runtime values.
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
----
 
+## The registry is a semantic identity layer. It is not a store of all runtime values. rscf: state: DERIVED claim_class: DERIVED provenance: AMOS_corpus scope: AMOS_general
 
-# 1. Hard Boundary
+## 1. Hard Boundary
 
 ```text
 VARIABLE
@@ -152,9 +153,9 @@ IMPLEMENTATION FIELD
 
 A Python identifier, JSON key, mathematical symbol, database column, Obsidian term, and canonical AMOS variable may refer to the same concept, but that equivalence must be established rather than assumed.
 
----
+______________________________________________________________________
 
-# 2. Registry Responsibility
+## 2. Registry Responsibility
 
 The UVR answers:
 
@@ -196,9 +197,9 @@ IS THE SYSTEM IMPLEMENTED?
 
 Those require their respective evidence, provenance, authority, runtime, and validation layers.
 
----
+______________________________________________________________________
 
-# 3. Canonical Variable Identity
+## 3. Canonical Variable Identity
 
 A canonical variable should have a persistent identity independent of its display symbol.
 
@@ -239,9 +240,9 @@ Not every implementation must serialize this exact schema.
 
 The distinctions are load-bearing.
 
----
+______________________________________________________________________
 
-# 4. Identity Firewall
+## 4. Identity Firewall
 
 AMOS distinguishes:
 
@@ -271,9 +272,9 @@ symbol: C
 
 The symbol `C` does not establish variable identity by itself.
 
----
+______________________________________________________________________
 
-# 5. Symbol Registry Boundary
+## 5. Symbol Registry Boundary
 
 The Symbol Registry answers:
 
@@ -299,9 +300,9 @@ A symbol may map to multiple variables under different namespaces.
 
 A variable may have multiple symbols or representations.
 
----
+______________________________________________________________________
 
-# 6. Unit Registry Boundary
+## 6. Unit Registry Boundary
 
 The Unit Registry governs quantity/unit semantics.
 
@@ -344,9 +345,9 @@ recovery_time_ms
 
 may share a unit while representing different variables.
 
----
+______________________________________________________________________
 
-# 7. Variable Classes
+## 7. Variable Classes
 
 AMOS recognizes at least:
 
@@ -383,9 +384,9 @@ These classes are semantic categories.
 
 They do not imply that every historical AMOS variable has already been classified.
 
----
+______________________________________________________________________
 
-# 8. Constant
+## 8. Constant
 
 A constant is fixed within a declared semantic scope.
 
@@ -405,9 +406,9 @@ may be constant for a particular AMOS architecture while not being a universal m
 
 Every non-universal constant should inherit scope.
 
----
+______________________________________________________________________
 
-# 9. Input Variable
+## 9. Input Variable
 
 An input variable enters a reasoning, runtime, model, or workflow boundary.
 
@@ -432,9 +433,9 @@ UNAUTHORIZED
 
 independently of being structurally accepted.
 
----
+______________________________________________________________________
 
-# 10. Observation Variable
+## 10. Observation Variable
 
 An observation represents an acquired measurement or recorded event.
 
@@ -457,9 +458,9 @@ UNCERTAINTY
 
 where material.
 
----
+______________________________________________________________________
 
-# 11. State Variable
+## 11. State Variable
 
 A state variable represents part of a system state at a defined logical or temporal point.
 
@@ -481,9 +482,9 @@ A state variable can exist transiently.
 
 Persistence requires a separate storage/commit contract.
 
----
+______________________________________________________________________
 
-# 12. Parameter
+## 12. Parameter
 
 A parameter influences system/model behavior.
 
@@ -513,9 +514,9 @@ ADAPTIVE
 
 The mode should be explicit when important.
 
----
+______________________________________________________________________
 
-# 13. Configuration Variable
+## 13. Configuration Variable
 
 Configuration variables select operating behavior.
 
@@ -534,9 +535,9 @@ CONFIGURATION
 OBSERVED REALITY
 ```
 
----
+______________________________________________________________________
 
-# 14. Control Variable
+## 14. Control Variable
 
 A control variable can influence runtime or system transitions.
 
@@ -556,9 +557,9 @@ CONTROL CAPABILITY
 CONTROL AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 15. Derived Variable
+## 15. Derived Variable
 
 A derived variable is computed from other premises or variables.
 
@@ -580,9 +581,9 @@ THE WEAKEST LOAD-BEARING PREMISE
 
 unless independent revalidation establishes stronger support.
 
----
+______________________________________________________________________
 
-# 16. Model Output
+## 16. Model Output
 
 A model output is produced by a model.
 
@@ -602,9 +603,9 @@ VERIFIED FACT
 
 A model output should preserve model identity/version where consequential.
 
----
+______________________________________________________________________
 
-# 17. Score
+## 17. Score
 
 A score is a model- or rule-derived quantity.
 
@@ -624,9 +625,9 @@ AUTHORITY
 
 The mapping from score to decision must be explicit.
 
----
+______________________________________________________________________
 
-# 18. Probability Variable
+## 18. Probability Variable
 
 A probability variable represents a probability only when its semantics establish that interpretation.
 
@@ -644,9 +645,9 @@ VALUE IN [0,1]
 PROBABILITY
 ```
 
----
+______________________________________________________________________
 
-# 19. Confidence Variable
+## 19. Confidence Variable
 
 AMOS confidence is epistemic.
 
@@ -672,9 +673,9 @@ HIGH CONFIDENCE
 PERMISSION TO COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 20. Uncertainty Variable
+## 20. Uncertainty Variable
 
 AMOS may distinguish uncertainty dimensions such as:
 
@@ -697,9 +698,9 @@ A SINGLE SCALAR WOULD HIDE
 DECISION-RELEVANT DIFFERENCES.
 ```
 
----
+______________________________________________________________________
 
-# 21. Hypothesis Variable
+## 21. Hypothesis Variable
 
 A hypothesis identifier or state represents a candidate explanation/model.
 
@@ -728,9 +729,9 @@ H1 XOR H2
 
 without sufficient evidence.
 
----
+______________________________________________________________________
 
-# 22. Decision Variable
+## 22. Decision Variable
 
 A decision variable represents a selected decision or decision candidate.
 
@@ -750,9 +751,9 @@ AUTHORIZATION
 
 unless governance explicitly binds them.
 
----
+______________________________________________________________________
 
-# 23. Authority Variable
+## 23. Authority Variable
 
 Authority-related variables require especially strict typing.
 
@@ -789,9 +790,9 @@ can_commit = true
 
 must not be inferred merely from tool availability.
 
----
+______________________________________________________________________
 
-# 24. Identifier Variable
+## 24. Identifier Variable
 
 Identifiers provide identity, not quantity.
 
@@ -816,9 +817,9 @@ ORDINAL QUANTITY
 
 An ID such as `100` does not mean "greater" than ID `99` unless ordering semantics are separately defined.
 
----
+______________________________________________________________________
 
-# 25. Count Variable
+## 25. Count Variable
 
 Count variables are semantically typed.
 
@@ -834,9 +835,9 @@ Count variables are semantically typed.
 
 even though the numerical value and mathematical dimension may match.
 
----
+______________________________________________________________________
 
-# 26. Rate Variable
+## 26. Rate Variable
 
 Rates preserve numerator and denominator semantics.
 
@@ -856,9 +857,9 @@ NUMERATOR_QUANTITY
 DENOMINATOR_QUANTITY
 ```
 
----
+______________________________________________________________________
 
-# 27. Temporal Variable
+## 27. Temporal Variable
 
 Temporal variables include:
 
@@ -884,9 +885,9 @@ SEQUENCE != TIME
 TTL != AGE
 ```
 
----
+______________________________________________________________________
 
-# 28. Coordinate Variable
+## 28. Coordinate Variable
 
 Coordinate variables identify positions within an address space.
 
@@ -916,9 +917,9 @@ SAME SEMANTIC LOCATION
 
 across different spaces.
 
----
+______________________________________________________________________
 
-# 29. Provenance Variables
+## 29. Provenance Variables
 
 Provenance variables identify lineage.
 
@@ -937,9 +938,9 @@ These variables are integrity-bearing metadata.
 
 Optimization must not silently discard them when they are required for trust evaluation.
 
----
+______________________________________________________________________
 
-# 30. Governance Variables
+## 30. Governance Variables
 
 Governance variables may include:
 
@@ -962,9 +963,9 @@ EPISTEMIC CONFIDENCE
 GOVERNANCE AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 31. Execution Variables
+## 31. Execution Variables
 
 Execution variables may include:
 
@@ -986,9 +987,9 @@ EXECUTED SUCCESSFULLY
 CLAIM VERIFIED
 ```
 
----
+______________________________________________________________________
 
-# 32. H/M/L Variable Scope
+## 32. H/M/L Variable Scope
 
 Variables may exist at:
 
@@ -1012,9 +1013,9 @@ L VARIABLE
 
 unless an explicit mapping binds them.
 
----
+______________________________________________________________________
 
-# 33. Cross-Level Mapping
+## 33. Cross-Level Mapping
 
 A lower-level variable may contribute to a higher-level variable.
 
@@ -1038,9 +1039,9 @@ STRUCTURAL MEMBERSHIP
 NUMERICAL AGGREGATION RULE
 ```
 
----
+______________________________________________________________________
 
-# 34. Recursive Variable Context
+## 34. Recursive Variable Context
 
 RSCF-style reasoning may attach variables recursively to:
 
@@ -1058,9 +1059,9 @@ Variable identity must survive recursion.
 
 A local alias must not silently overwrite global semantic identity.
 
----
+______________________________________________________________________
 
-# 35. Scope Envelope
+## 35. Scope Envelope
 
 Every consequential variable may inherit an applicability envelope:
 
@@ -1078,9 +1079,9 @@ scope:
 
 A value outside this envelope cannot automatically be generalized.
 
----
+______________________________________________________________________
 
-# 36. Regime
+## 36. Regime
 
 A regime defines conditions under which semantics or relationships remain valid.
 
@@ -1106,9 +1107,9 @@ DOES NOT GUARANTEE
 SAME DISTRIBUTION OR BEHAVIOR.
 ```
 
----
+______________________________________________________________________
 
-# 37. Regime Shift
+## 37. Regime Shift
 
 If the regime changes:
 
@@ -1130,9 +1131,9 @@ VALID IN R1
 VALID IN R2
 ```
 
----
+______________________________________________________________________
 
-# 38. Temporal Validity
+## 38. Temporal Validity
 
 A variable may be:
 
@@ -1147,9 +1148,9 @@ CONTINUOUSLY_UPDATED
 
 Freshness semantics should be explicit where stale values can alter decisions.
 
----
+______________________________________________________________________
 
-# 39. Freshness
+## 39. Freshness
 
 Conceptually:
 
@@ -1169,9 +1170,9 @@ KNOWN ONCE
 KNOWN NOW
 ```
 
----
+______________________________________________________________________
 
-# 40. Value Domain
+## 40. Value Domain
 
 Each variable should define its allowable value domain where possible.
 
@@ -1196,9 +1197,9 @@ DISTRIBUTION
 STRUCTURE
 ```
 
----
+______________________________________________________________________
 
-# 41. Boolean Firewall
+## 41. Boolean Firewall
 
 A boolean variable supports:
 
@@ -1229,9 +1230,9 @@ UNKNOWN/GAP
 FALSE
 ```
 
----
+______________________________________________________________________
 
-# 42. Tri-State and Multi-State Variables
+## 42. Tri-State and Multi-State Variables
 
 Where appropriate, use explicit states such as:
 
@@ -1252,9 +1253,9 @@ NOT_APPLICABLE
 
 rather than forcing binary representation.
 
----
+______________________________________________________________________
 
-# 43. Null Firewall
+## 43. Null Firewall
 
 Distinguish:
 
@@ -1271,9 +1272,9 @@ EMPTY
 
 These states must not silently collapse.
 
----
+______________________________________________________________________
 
-# 44. Numeric Domain
+## 44. Numeric Domain
 
 A numeric variable should declare constraints where relevant.
 
@@ -1294,9 +1295,9 @@ IN RANGE
 VALID MEANING
 ```
 
----
+______________________________________________________________________
 
-# 45. Enum Variables
+## 45. Enum Variables
 
 Enums require canonical member identity.
 
@@ -1313,9 +1314,9 @@ UNKNOWN/GAP
 
 Do not infer enum equivalence merely from similar wording.
 
----
+______________________________________________________________________
 
-# 46. Conclusion-Class Variable
+## 46. Conclusion-Class Variable
 
 AMOS conclusion classes are:
 
@@ -1338,9 +1339,9 @@ MUST NOT
 UPGRADE CONCLUSION CLASS.
 ```
 
----
+______________________________________________________________________
 
-# 47. Epistemic Type
+## 47. Epistemic Type
 
 Evidence-bearing variables may carry:
 
@@ -1357,9 +1358,9 @@ This field describes epistemic/evidence role.
 
 It does not replace conclusion class.
 
----
+______________________________________________________________________
 
-# 48. Evidence-Type Firewall
+## 48. Evidence-Type Firewall
 
 ```text
 SOURCE_CLAIM
@@ -1381,9 +1382,9 @@ DECISION
 
 A value moving through a pipeline must not silently change evidence type.
 
----
+______________________________________________________________________
 
-# 49. Provenance Identity
+## 49. Provenance Identity
 
 A variable value may have provenance distinct from the variable definition.
 
@@ -1407,9 +1408,9 @@ DIFFERENT SOURCE
 DIFFERENT VALUE INSTANCE PROVENANCE
 ```
 
----
+______________________________________________________________________
 
-# 50. Source Ancestry
+## 50. Source Ancestry
 
 Evidence values should preserve ancestry when independence matters.
 
@@ -1432,9 +1433,9 @@ OF ONE SOURCE
 MULTIPLE INDEPENDENT SOURCES
 ```
 
----
+______________________________________________________________________
 
-# 51. Provenance-Independence Variable
+## 51. Provenance-Independence Variable
 
 Where important, AMOS may represent independence state explicitly:
 
@@ -1447,9 +1448,9 @@ UNKNOWN
 
 Independence must be demonstrated rather than assumed.
 
----
+______________________________________________________________________
 
-# 52. Dependency Variables
+## 52. Dependency Variables
 
 A derived variable should maintain dependency edges.
 
@@ -1472,9 +1473,9 @@ when `B` is load-bearing.
 
 Unaffected branches should remain valid.
 
----
+______________________________________________________________________
 
-# 53. Dependency Closure
+## 53. Dependency Closure
 
 Before reusing a variable-derived conclusion:
 
@@ -1492,9 +1493,9 @@ REGIME-COMPATIBLE
 NON-CONFLICTING
 ```
 
----
+______________________________________________________________________
 
-# 54. Confidence Ceiling
+## 54. Confidence Ceiling
 
 For a derived conclusion `D`:
 
@@ -1515,9 +1516,9 @@ Independent revalidation may justify a different confidence path.
 
 It must be explicit.
 
----
+______________________________________________________________________
 
-# 55. Sensitivity
+## 55. Sensitivity
 
 Consequential variables should identify threshold sensitivity when applicable.
 
@@ -1538,9 +1539,9 @@ then `T` is decision-critical.
 
 AMOS should prioritize validating `X` near `T`.
 
----
+______________________________________________________________________
 
-# 56. Threshold Variable
+## 56. Threshold Variable
 
 Thresholds are variables with governance/model semantics.
 
@@ -1554,9 +1555,9 @@ unless externally established as such.
 
 Threshold provenance should be preserved.
 
----
+______________________________________________________________________
 
-# 57. Causal Variable Types
+## 57. Causal Variable Types
 
 Where causal reasoning is performed, variables may be typed as:
 
@@ -1576,9 +1577,9 @@ These roles are model-relative.
 
 They must not be inferred from sequence alone.
 
----
+______________________________________________________________________
 
-# 58. Causal Firewall
+## 58. Causal Firewall
 
 ```text
 X PRECEDES Y
@@ -1591,16 +1592,18 @@ X CORRELATES WITH Y
 !=
 X CAUSES Y
 ```
+
 ```text
 X STRUCTURALLY RESEMBLES Y
 !=
 X CAUSES Y
 ```
+
 Causal interpretation requires appropriately typed evidence/model assumptions.
 
----
+______________________________________________________________________
 
-# 59. Necessary and Sufficient Variables
+## 59. Necessary and Sufficient Variables
 
 Distinguish:
 
@@ -1614,9 +1617,9 @@ ASSOCIATED VARIABLE
 
 These are different logical relationships.
 
----
+______________________________________________________________________
 
-# 60. Intervention Variables
+## 60. Intervention Variables
 
 An intervention variable represents deliberate manipulation.
 
@@ -1640,9 +1643,9 @@ OBSERVATION
 INTERVENTION
 ```
 
----
+______________________________________________________________________
 
-# 61. Feedback Variables
+## 61. Feedback Variables
 
 Feedback systems may create:
 
@@ -1652,9 +1655,9 @@ X → Y → X
 
 Acyclic dependency assumptions must not be imposed where feedback is part of the model.
 
----
+______________________________________________________________________
 
-# 62. Variable Mutability
+## 62. Variable Mutability
 
 Variables may be:
 
@@ -1675,9 +1678,9 @@ MUTABLE
 AUTHORIZED TO MUTATE
 ```
 
----
+______________________________________________________________________
 
-# 63. Variable Persistence
+## 63. Variable Persistence
 
 Persistence classes may include:
 
@@ -1700,9 +1703,9 @@ PERSISTED
 AUTHORITATIVE
 ```
 
----
+______________________________________________________________________
 
-# 64. Authoritative State Variable
+## 64. Authoritative State Variable
 
 An authoritative state variable is valid only through the applicable commit/governance path.
 
@@ -1720,9 +1723,9 @@ PROPOSAL
 COMMIT
 ```
 
----
+______________________________________________________________________
 
-# 65. Shadow Variable
+## 65. Shadow Variable
 
 Shadow state can be used for:
 
@@ -1742,9 +1745,9 @@ SHADOW
 AUTHORITATIVE
 ```
 
----
+______________________________________________________________________
 
-# 66. Recovery Variable
+## 66. Recovery Variable
 
 Recovery variables support rollback/reconstruction.
 
@@ -1759,9 +1762,9 @@ recovery_generation
 
 Recovery metadata should preserve causal lineage where necessary.
 
----
+______________________________________________________________________
 
-# 67. MVCC-Style Variables
+## 67. MVCC-Style Variables
 
 Where AMOS uses MVCC concepts, variables may include:
 
@@ -1776,9 +1779,9 @@ These express concurrency/version semantics.
 
 They must not be treated as physical time unless explicitly mapped.
 
----
+______________________________________________________________________
 
-# 68. CAS Variables
+## 68. CAS Variables
 
 Compare-and-swap style reasoning may use:
 
@@ -1803,9 +1806,9 @@ under the applicable CAS contract.
 
 This is a reasoning/architecture model, not a claim that ChatGPT itself implements CAS storage.
 
----
+______________________________________________________________________
 
-# 69. Epoch Finality Variables
+## 69. Epoch Finality Variables
 
 Causal epoch/finality reasoning may use:
 
@@ -1830,9 +1833,9 @@ only where the subsystem defines them.
 
 Do not invent state members for an implementation lacking such a contract.
 
----
+______________________________________________________________________
 
-# 70. Atomic Multi-RSCF Variables
+## 70. Atomic Multi-RSCF Variables
 
 Atomic reasoning across multiple RSCFs may require:
 
@@ -1853,9 +1856,9 @@ MASQUERADE AS
 ATOMIC SUCCESS.
 ```
 
----
+______________________________________________________________________
 
-# 71. Local Finalization Variables
+## 71. Local Finalization Variables
 
 Shard/local finalization concepts may use:
 
@@ -1870,9 +1873,9 @@ These variables require explicit subsystem binding.
 
 Their presence in the registry does not assert a deployed distributed implementation.
 
----
+______________________________________________________________________
 
-# 72. Proof Variables
+## 72. Proof Variables
 
 Proof-based coordination reasoning may carry:
 
@@ -1895,9 +1898,9 @@ PROOF VALIDITY
 
 The proof must be verifiable under its applicable contract.
 
----
+______________________________________________________________________
 
-# 73. Cognitive Variables
+## 73. Cognitive Variables
 
 Cognitive subsystem variables may include:
 
@@ -1913,9 +1916,9 @@ cognitive_step
 
 These remain model variables unless empirical calibration establishes stronger interpretation.
 
----
+______________________________________________________________________
 
-# 74. Activation
+## 74. Activation
 
 `activation` should preserve:
 
@@ -1944,9 +1947,9 @@ ACTIVATION
 AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 75. Attention
+## 75. Attention
 
 Attention variables indicate allocation/selection within a cognitive model.
 
@@ -1964,9 +1967,9 @@ ATTENTION
 TRUTH
 ```
 
----
+______________________________________________________________________
 
-# 76. Salience
+## 76. Salience
 
 Salience is a model-relative prominence variable.
 
@@ -1978,9 +1981,9 @@ HIGH EVIDENCE QUALITY
 
 A salient claim may still be false, weakly supported, or irrelevant.
 
----
+______________________________________________________________________
 
-# 77. Memory Variables
+## 77. Memory Variables
 
 Memory-related variables may include:
 
@@ -2009,9 +2012,9 @@ MEMORY
 CANON
 ```
 
----
+______________________________________________________________________
 
-# 78. Retrieval Score
+## 78. Retrieval Score
 
 A retrieval score measures retrieval relevance under a retrieval model.
 
@@ -2029,9 +2032,9 @@ TOP RESULT
 BEST EVIDENCE
 ```
 
----
+______________________________________________________________________
 
-# 79. Knowledge Variables
+## 79. Knowledge Variables
 
 Knowledge-layer variables may include:
 
@@ -2048,9 +2051,9 @@ falsifier_set
 
 A knowledge record must preserve epistemic class rather than flatten all content into facts.
 
----
+______________________________________________________________________
 
-# 80. RSCF Variables
+## 80. RSCF Variables
 
 A conceptual RSCF variable set may include:
 
@@ -2073,9 +2076,9 @@ state
 
 The exact serialization remains schema-specific.
 
----
+______________________________________________________________________
 
-# 81. GMEF Variables
+## 81. GMEF Variables
 
 Where GMEF structures are used, their variables must preserve canonical meanings from the bound source.
 
@@ -2089,9 +2092,9 @@ GMEF_FIELD = UNKNOWN/GAP
 
 until source binding resolves it.
 
----
+______________________________________________________________________
 
-# 82. Competing-Hypothesis Variables
+## 82. Competing-Hypothesis Variables
 
 A competing set should conceptually support:
 
@@ -2106,9 +2109,9 @@ competing_set:
 
 Do not collapse to a winner merely because one hypothesis has more textual mentions.
 
----
+______________________________________________________________________
 
-# 83. Discriminator Variable
+## 83. Discriminator Variable
 
 A discriminator is an observation/test capable of materially changing relative support between competing hypotheses.
 
@@ -2124,9 +2127,9 @@ DECISION-CHANGING
 
 discriminators over redundant evidence collection.
 
----
+______________________________________________________________________
 
-# 84. Falsifier Variable
+## 84. Falsifier Variable
 
 A falsifier identifies evidence or conditions capable of invalidating a claim/model.
 
@@ -2138,9 +2141,9 @@ CURRENT CONTRADICTION
 
 It specifies an invalidation condition.
 
----
+______________________________________________________________________
 
-# 85. Contradiction Variable
+## 85. Contradiction Variable
 
 Contradiction state may be:
 
@@ -2161,9 +2164,9 @@ NO CONTRADICTION DETECTED
 PROOF OF TRUTH
 ```
 
----
+______________________________________________________________________
 
-# 86. Trust Variable
+## 86. Trust Variable
 
 Trust is local and typed.
 
@@ -2189,9 +2192,9 @@ GLOBAL SCALAR REPUTATION
 
 unless a local model explicitly chooses such simplification.
 
----
+______________________________________________________________________
 
-# 87. Trust Scope
+## 87. Trust Scope
 
 A source may be trustworthy for:
 
@@ -2213,9 +2216,9 @@ TRUSTED SOURCE
 
 without scope can be semantically incomplete.
 
----
+______________________________________________________________________
 
-# 88. Authority Variables vs Trust Variables
+## 88. Authority Variables vs Trust Variables
 
 ```text
 TRUST
@@ -2227,9 +2230,9 @@ A source may be epistemically reliable without having permission to commit chang
 
 An authority may have decision rights without being the strongest empirical evidence source.
 
----
+______________________________________________________________________
 
-# 89. Capability Variable
+## 89. Capability Variable
 
 Capability describes what a component can technically perform.
 
@@ -2252,9 +2255,9 @@ AUTHORITY
 
 This boundary must survive serialization, UI rendering, and agent reasoning.
 
----
+______________________________________________________________________
 
-# 90. Permission Variable
+## 90. Permission Variable
 
 Permission represents an authorization decision under a defined policy.
 
@@ -2266,9 +2269,9 @@ CAPABILITY
 
 A system may be technically capable but unauthorized.
 
----
+______________________________________________________________________
 
-# 91. Proposal Variable
+## 91. Proposal Variable
 
 A proposal represents a candidate mutation/decision.
 
@@ -2280,9 +2283,9 @@ COMMIT
 
 Proposal state should remain distinct from authoritative state.
 
----
+______________________________________________________________________
 
-# 92. Commit Variable
+## 92. Commit Variable
 
 Commit semantics belong to the control-plane/state architecture.
 
@@ -2299,9 +2302,9 @@ COMMIT RESULT
 
 where required.
 
----
+______________________________________________________________________
 
-# 93. Rollback Variable
+## 93. Rollback Variable
 
 Rollback requires:
 
@@ -2314,9 +2317,9 @@ AUTHORITY
 
 Rollback should invalidate only dependent state when possible.
 
----
+______________________________________________________________________
 
-# 94. Failure Variables
+## 94. Failure Variables
 
 Failure should be typed.
 
@@ -2341,9 +2344,9 @@ FAILURE
 ONE UNIVERSAL ERROR CLASS
 ```
 
----
+______________________________________________________________________
 
-# 95. Gap Variable
+## 95. Gap Variable
 
 A gap may be classified:
 
@@ -2366,9 +2369,9 @@ EXPLANATORY
 COSMETIC
 ```
 
----
+______________________________________________________________________
 
-# 96. UNKNOWN/GAP
+## 96. UNKNOWN/GAP
 
 `UNKNOWN/GAP` is a first-class epistemic state.
 
@@ -2391,9 +2394,9 @@ UNKNOWN/GAP
 PASS
 ```
 
----
+______________________________________________________________________
 
-# 97. Variable Alias
+## 97. Variable Alias
 
 Aliases support interoperability.
 
@@ -2409,9 +2412,9 @@ Aliases must not redefine semantics.
 
 If two historical names have materially different definitions, they are not simple aliases.
 
----
+______________________________________________________________________
 
-# 98. Semantic Collision
+## 98. Semantic Collision
 
 A semantic collision occurs when:
 
@@ -2441,9 +2444,9 @@ UNVERIFIED EQUIVALENCE
 
 The registry must preserve ambiguity until resolved.
 
----
+______________________________________________________________________
 
-# 99. Homonym
+## 99. Homonym
 
 A homonym is:
 
@@ -2463,9 +2466,9 @@ could mean different variables depending on namespace.
 
 Homonyms require qualification.
 
----
+______________________________________________________________________
 
-# 100. Synonym
+## 100. Synonym
 
 A synonym is:
 
@@ -2477,9 +2480,9 @@ ONE VARIABLE
 
 Synonym status requires semantic equivalence, not superficial similarity.
 
----
+______________________________________________________________________
 
-# 101. Variable Namespace
+## 101. Variable Namespace
 
 Recommended namespace families may include:
 
@@ -2502,9 +2505,9 @@ AMOS:DOMAIN
 
 Exact machine syntax may be finalized in schemas.
 
----
+______________________________________________________________________
 
-# 102. Qualified Identity
+## 102. Qualified Identity
 
 A qualified identity may conceptually look like:
 
@@ -2518,9 +2521,9 @@ AMOS:STATE:CAUSAL_EPOCH
 
 This avoids reliance on short symbols alone.
 
----
+______________________________________________________________________
 
-# 103. Variable Versioning
+## 103. Variable Versioning
 
 Semantic definition changes require explicit version lineage.
 
@@ -2536,9 +2539,9 @@ SAME VARIABLE VERSION
 
 A semantic version should not be inferred from filename alone.
 
----
+______________________________________________________________________
 
-# 104. Version Identity Firewall
+## 104. Version Identity Firewall
 
 ```text
 VARIABLE_VERSION
@@ -2560,9 +2563,9 @@ VALUE_REVISION
 
 These may correlate but remain distinct identities.
 
----
+______________________________________________________________________
 
-# 105. Supersession
+## 105. Supersession
 
 A variable definition may be superseded.
 
@@ -2580,9 +2583,9 @@ Historical data retains the semantics of `V1`.
 
 Do not retroactively reinterpret old values under `V2` without migration evidence.
 
----
+______________________________________________________________________
 
-# 106. Variable Migration
+## 106. Variable Migration
 
 Migration requires:
 
@@ -2603,9 +2606,9 @@ RENAMING
 SEMANTIC MIGRATION
 ```
 
----
+______________________________________________________________________
 
-# 107. Lossless Mapping
+## 107. Lossless Mapping
 
 A mapping is lossless only if the original semantic value can be reconstructed within the declared domain.
 
@@ -2615,9 +2618,9 @@ LOSSLESS
 
 must not be assumed.
 
----
+______________________________________________________________________
 
-# 108. Lossy Mapping
+## 108. Lossy Mapping
 
 Lossy transformations should be explicit.
 
@@ -2637,9 +2640,9 @@ MUST NOT
 HIDE DECISION-RELEVANT LOSS.
 ```
 
----
+______________________________________________________________________
 
-# 109. Variable Normalization
+## 109. Variable Normalization
 
 Normalization creates a transformed representation.
 
@@ -2661,9 +2664,9 @@ even when a reversible mapping exists.
 
 The normalization function becomes a dependency.
 
----
+______________________________________________________________________
 
-# 110. Derived-Variable Lineage
+## 110. Derived-Variable Lineage
 
 For:
 
@@ -2684,9 +2687,9 @@ where Y is consequential.
 
 If `f` changes, historical Y values may require version distinction.
 
----
+______________________________________________________________________
 
-# 111. Formula Identity
+## 111. Formula Identity
 
 Formula identity is part of derived-variable semantics.
 
@@ -2698,9 +2701,9 @@ DIFFERENT FORMULA
 POTENTIALLY DIFFERENT VARIABLE VERSION
 ```
 
----
+______________________________________________________________________
 
-# 112. Variable Constraints
+## 112. Variable Constraints
 
 Constraints may include:
 
@@ -2719,9 +2722,9 @@ AUTHORITY
 
 Constraints should be typed by source.
 
----
+______________________________________________________________________
 
-# 113. Invariant Variable
+## 113. Invariant Variable
 
 An invariant is a condition intended to remain true within its scope.
 
@@ -2741,9 +2744,9 @@ Example:
 
 if that scale is canonically defined.
 
----
+______________________________________________________________________
 
-# 114. Hard vs Soft Constraints
+## 114. Hard vs Soft Constraints
 
 Distinguish:
 
@@ -2759,9 +2762,9 @@ SOFT_PREFERENCE
 
 A soft optimization target must not silently become an invariant.
 
----
+______________________________________________________________________
 
-# 115. Optimization Variable
+## 115. Optimization Variable
 
 Optimization objectives may include:
 
@@ -2789,9 +2792,9 @@ TOKEN SAVINGS
 
 Optimization variables may not weaken integrity constraints.
 
----
+______________________________________________________________________
 
-# 116. Objective vs Constraint
+## 116. Objective vs Constraint
 
 ```text
 OBJECTIVE
@@ -2811,9 +2814,9 @@ does not authorize violation of:
 provenance_required = true
 ```
 
----
+______________________________________________________________________
 
-# 117. Decision Sufficiency Variables
+## 117. Decision Sufficiency Variables
 
 Execution may stop when sufficient conditions are met for:
 
@@ -2825,9 +2828,9 @@ ACTION SUFFICIENCY
 
 These are governance/reasoning states, not empirical measurements unless explicitly operationalized.
 
----
+______________________________________________________________________
 
-# 118. Complexity Variables
+## 118. Complexity Variables
 
 Adaptive complexity levels:
 
@@ -2843,9 +2846,9 @@ These represent reasoning-depth policy classes.
 
 They are ordinal categories unless a subsystem defines further quantitative semantics.
 
----
+______________________________________________________________________
 
-# 119. Complexity Firewall
+## 119. Complexity Firewall
 
 ```text
 C4
@@ -2855,9 +2858,9 @@ C4
 
 The labels are ordered operating modes, not ratio-scale quantities.
 
----
+______________________________________________________________________
 
-# 120. Escalation Variables
+## 120. Escalation Variables
 
 Escalation may depend on:
 
@@ -2877,9 +2880,9 @@ The exact escalation function is subsystem-specific.
 
 Do not fabricate numerical thresholds absent canon.
 
----
+______________________________________________________________________
 
-# 121. Reversibility Variable
+## 121. Reversibility Variable
 
 Action reversibility may be modeled as:
 
@@ -2902,9 +2905,9 @@ HIGHER VALIDATION REQUIREMENT
 
 as governance guidance.
 
----
+______________________________________________________________________
 
-# 122. Stakes Variable
+## 122. Stakes Variable
 
 Stakes are multidimensional.
 
@@ -2923,9 +2926,9 @@ DOWNSTREAM_DEPENDENCY
 
 A single scalar should not be forced where it hides material differences.
 
----
+______________________________________________________________________
 
-# 123. Repairability Variable
+## 123. Repairability Variable
 
 Repairability describes the feasibility/cost of correcting a failed action/state.
 
@@ -2939,9 +2942,9 @@ STRONGER PRE-COMMIT VALIDATION
 
 as a governance model.
 
----
+______________________________________________________________________
 
-# 124. Provenance Topology Variables
+## 124. Provenance Topology Variables
 
 Provenance topology may require:
 
@@ -2955,9 +2958,9 @@ correlation_risk
 
 These support Sybil/correlation hardening.
 
----
+______________________________________________________________________
 
-# 125. Repetition Firewall
+## 125. Repetition Firewall
 
 ```text
 REPETITION COUNT
@@ -2974,9 +2977,9 @@ INDEPENDENT SOURCES
 ANCESTRAL ROOTS
 ```
 
----
+______________________________________________________________________
 
-# 126. Popularity Variable
+## 126. Popularity Variable
 
 Popularity is not epistemic validity.
 
@@ -2988,9 +2991,9 @@ HIGH TRUTH
 
 Popularity may be useful as its own variable, but cannot substitute for provenance-aware evidence.
 
----
+______________________________________________________________________
 
-# 127. Authority-Popularity Firewall
+## 127. Authority-Popularity Firewall
 
 ```text
 AUTHORITY
@@ -3006,9 +3009,9 @@ REPETITION
 VALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 128. Runtime Variable Boundary
+## 128. Runtime Variable Boundary
 
 Runtime variables describe execution state.
 
@@ -3022,9 +3025,9 @@ CANONICAL DEFINITION
 
 A runtime observation may inform canon review, but requires provenance/governance.
 
----
+______________________________________________________________________
 
-# 129. Canon Variable Boundary
+## 129. Canon Variable Boundary
 
 Canon defines authoritative semantic contracts.
 
@@ -3036,9 +3039,9 @@ CURRENT RUNTIME VALUE
 
 The registry itself belongs to canon/meta architecture, while most variable instances live elsewhere.
 
----
+______________________________________________________________________
 
-# 130. Kernel Variable Boundary
+## 130. Kernel Variable Boundary
 
 Kernel variables participate in deterministic/invariant logic.
 
@@ -3050,9 +3053,9 @@ CONTROL-PLANE AUTHORITY
 
 The kernel may evaluate conditions without owning policy authority.
 
----
+______________________________________________________________________
 
-# 131. Control-Plane Variable Boundary
+## 131. Control-Plane Variable Boundary
 
 Control-plane variables represent:
 
@@ -3065,9 +3068,9 @@ PROVENANCE CONTROL
 
 They must not be confused with worker-local execution variables.
 
----
+______________________________________________________________________
 
-# 132. Agent Variable Boundary
+## 132. Agent Variable Boundary
 
 An agent may possess local:
 
@@ -3088,9 +3091,9 @@ AUTHORITATIVE GLOBAL STATE
 
 unless committed through the proper control path.
 
----
+______________________________________________________________________
 
-# 133. Skill Variable Boundary
+## 133. Skill Variable Boundary
 
 A skill may define inputs, outputs, and intermediate variables.
 
@@ -3102,9 +3105,9 @@ COMMIT
 
 A reusable procedure does not acquire authority from execution.
 
----
+______________________________________________________________________
 
-# 134. Workflow Variable Boundary
+## 134. Workflow Variable Boundary
 
 Workflow variables coordinate steps.
 
@@ -3116,9 +3119,9 @@ EMPIRICAL VALIDATION
 
 unless validation itself is an explicit verified step.
 
----
+______________________________________________________________________
 
-# 135. Protocol Variable Boundary
+## 135. Protocol Variable Boundary
 
 Protocol variables define interaction state.
 
@@ -3133,9 +3136,9 @@ handshake_state
 
 Protocol compliance does not establish truth of message content.
 
----
+______________________________________________________________________
 
-# 136. Security Variables
+## 136. Security Variables
 
 Security variables may include:
 
@@ -3158,9 +3161,9 @@ REGISTER VARIABLE DEFINITION
 STORE SECRET VALUE
 ```
 
----
+______________________________________________________________________
 
-# 137. Secret Variable
+## 137. Secret Variable
 
 Secrets require dedicated security/storage controls.
 
@@ -3172,9 +3175,9 @@ API_CREDENTIAL_REFERENCE
 
 but should not contain actual secret material.
 
----
+______________________________________________________________________
 
-# 138. Observability Variables
+## 138. Observability Variables
 
 Observability variables include:
 
@@ -3190,9 +3193,9 @@ error_count
 
 Telemetry remains evidence about operation, not automatic proof of system correctness.
 
----
+______________________________________________________________________
 
-# 139. Health Variable
+## 139. Health Variable
 
 Health state may be:
 
@@ -3213,9 +3216,9 @@ HEALTH CHECK PASS
 FULL SYSTEM CORRECTNESS
 ```
 
----
+______________________________________________________________________
 
-# 140. Test Variables
+## 140. Test Variables
 
 Test variables may include:
 
@@ -3239,9 +3242,9 @@ UNIVERSAL PROOF
 
 Tests establish evidence within their tested scope.
 
----
+______________________________________________________________________
 
-# 141. Benchmark Variables
+## 141. Benchmark Variables
 
 Benchmark results must inherit:
 
@@ -3265,9 +3268,9 @@ BENCHMARK SUCCESS
 UNIVERSAL VALIDITY
 ```
 
----
+______________________________________________________________________
 
-# 142. Simulation Variables
+## 142. Simulation Variables
 
 Simulation variables belong to a model environment.
 
@@ -3279,9 +3282,9 @@ REAL-WORLD OBSERVATION
 
 unless independently validated against reality.
 
----
+______________________________________________________________________
 
-# 143. Cross-Domain Mapping
+## 143. Cross-Domain Mapping
 
 Variables from different domains may be structurally mapped.
 
@@ -3303,9 +3306,9 @@ CAUSATION
 
 Cross-domain mappings remain `MODEL` until validated.
 
----
+______________________________________________________________________
 
-# 144. Cross-Scale Mapping
+## 144. Cross-Scale Mapping
 
 Micro-, meso-, and macro-level variables must not be silently identified.
 
@@ -3317,9 +3320,9 @@ MACRO CAUSE
 
 Aggregation or emergence requires an explicit model.
 
----
+______________________________________________________________________
 
-# 145. Variable Equivalence
+## 145. Variable Equivalence
 
 Two variables may be considered equivalent only if relevant semantics align:
 
@@ -3338,9 +3341,9 @@ where applicable.
 
 Name similarity is insufficient.
 
----
+______________________________________________________________________
 
-# 146. Variable Compatibility
+## 146. Variable Compatibility
 
 Compatibility is weaker than identity.
 
@@ -3352,9 +3355,9 @@ IDENTICAL
 
 Two variables may be transformable without being the same variable.
 
----
+______________________________________________________________________
 
-# 147. Variable Mapping Record
+## 147. Variable Mapping Record
 
 Conceptually:
 
@@ -3379,9 +3382,9 @@ mapping:
   status:
 ```
 
----
+______________________________________________________________________
 
-# 148. Mapping Types
+## 148. Mapping Types
 
 Useful mapping classes include:
 
@@ -3400,17 +3403,17 @@ CROSS_DOMAIN_ANALOGY
 
 Each carries different epistemic strength.
 
----
+______________________________________________________________________
 
-# 149. Identity Mapping
+## 149. Identity Mapping
 
 `IDENTITY` is the strongest mapping and requires semantic identity.
 
 Do not use it for mere structural similarity.
 
----
+______________________________________________________________________
 
-# 150. Approximation Mapping
+## 150. Approximation Mapping
 
 Approximate mappings must remain explicit:
 
@@ -3428,9 +3431,9 @@ SOURCE
 TARGET
 ```
 
----
+______________________________________________________________________
 
-# 151. Variable Registry Invariants
+## 151. Variable Registry Invariants
 
 ```text
 UVR-001 VARIABLE != VALUE
@@ -3534,9 +3537,9 @@ UVR-049 BENCHMARK SUCCESS != UNIVERSAL VALIDITY
 UVR-050 MISSING VARIABLE SEMANTICS MUST REMAIN UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
-# 152. Variable Registration Gate
+## 152. Variable Registration Gate
 
 Before registering a variable as canonical, establish at minimum:
 
@@ -3568,9 +3571,9 @@ AUTHORITY CLASS
 CONSTRAINTS
 ```
 
----
+______________________________________________________________________
 
-# 153. Collision Gate
+## 153. Collision Gate
 
 Before accepting a new canonical variable:
 
@@ -3598,9 +3601,9 @@ CLASSIFY:
 
 Do not force equivalence when evidence is insufficient.
 
----
+______________________________________________________________________
 
-# 154. Variable Use Gate
+## 154. Variable Use Gate
 
 Before using a variable in consequential reasoning:
 
@@ -3631,9 +3634,9 @@ CONDITIONAL
 
 is preferred to fabrication.
 
----
+______________________________________________________________________
 
-# 155. Derived Variable Gate
+## 155. Derived Variable Gate
 
 For:
 
@@ -3658,9 +3661,9 @@ UNCERTAINTY PROPAGATION
 
 where material.
 
----
+______________________________________________________________________
 
-# 156. Causal Variable Gate
+## 156. Causal Variable Gate
 
 Before interpreting:
 
@@ -3685,9 +3688,9 @@ INTERVENTION EFFECT
 
 Do not upgrade causal class through prose.
 
----
+______________________________________________________________________
 
-# 157. Authority Gate
+## 157. Authority Gate
 
 Before a variable drives an external mutation:
 
@@ -3707,9 +3710,9 @@ COMMIT CONDITIONS
 
 must be satisfied under the applicable governance contract.
 
----
+______________________________________________________________________
 
-# 158. Machine-Readable Example
+## 158. Machine-Readable Example
 
 ```yaml
 variables:
@@ -3763,9 +3766,9 @@ These entries illustrate registry structure.
 
 They do not assert that every shown field is already bound to an implemented runtime schema.
 
----
+______________________________________________________________________
 
-# 159. Minimum Variable Record
+## 159. Minimum Variable Record
 
 A minimal canonical record:
 
@@ -3791,9 +3794,9 @@ is valid.
 
 Do not fabricate it to satisfy completeness.
 
----
+______________________________________________________________________
 
-# 160. Extended Variable Record
+## 160. Extended Variable Record
 
 ```yaml
 variable:
@@ -3848,9 +3851,9 @@ variable:
     status:
 ```
 
----
+______________________________________________________________________
 
-# 161. Registry Lifecycle
+## 161. Registry Lifecycle
 
 Recommended lifecycle:
 
@@ -3879,9 +3882,9 @@ ARCHIVED
 
 A discovered variable name is not automatically canonical.
 
----
+______________________________________________________________________
 
-# 162. Corpus Harvest
+## 162. Corpus Harvest
 
 Variable harvesting follows:
 
@@ -3921,9 +3924,9 @@ LEGACY
 
 Every extracted variable retains source provenance.
 
----
+______________________________________________________________________
 
-# 163. Source Priority
+## 163. Source Priority
 
 Canonical variable identity should not be determined by filename popularity.
 
@@ -3942,9 +3945,9 @@ CONFLICT
 
 A legacy file may preserve historically important semantics without remaining authoritative.
 
----
+______________________________________________________________________
 
-# 164. Documentation Firewall
+## 164. Documentation Firewall
 
 README/documentation definitions are:
 
@@ -3970,9 +3973,9 @@ IMPLEMENTED
 EMPIRICALLY VALIDATED
 ```
 
----
+______________________________________________________________________
 
-# 165. Code Firewall
+## 165. Code Firewall
 
 A variable found in source code proves that the identifier exists in that code context.
 
@@ -3985,9 +3988,9 @@ EMPIRICAL VALIDITY
 CURRENT AUTHORITY
 ```
 
----
+______________________________________________________________________
 
-# 166. Historical Variable Reconstruction
+## 166. Historical Variable Reconstruction
 
 When historical versions disagree:
 
@@ -4007,9 +4010,9 @@ until supersession/equivalence is established.
 
 Do not overwrite history with the newest definition.
 
----
+______________________________________________________________________
 
-# 167. Competing Definitions
+## 167. Competing Definitions
 
 If two active sources define the same variable incompatibly:
 
@@ -4027,9 +4030,9 @@ COMPETING
 
 until discriminating canonical evidence resolves the conflict.
 
----
+______________________________________________________________________
 
-# 168. Unknown Definition
+## 168. Unknown Definition
 
 If only a symbol/name is known:
 
@@ -4042,9 +4045,9 @@ status: UNRESOLVED
 
 This is preferable to inventing semantics from context similarity.
 
----
+______________________________________________________________________
 
-# 169. Validation Test Families
+## 169. Validation Test Families
 
 A mature UVR implementation should test:
 
@@ -4098,9 +4101,9 @@ CROSS-DOMAIN MAPPING
 CAUSAL-TYPE VALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 170. Adversarial Tests
+## 170. Adversarial Tests
 
 High-value adversarial cases include:
 
@@ -4144,9 +4147,9 @@ TEST PASS TREATED AS UNIVERSAL PROOF
 LEGACY DEFINITION SILENTLY OVERWRITTEN
 ```
 
----
+______________________________________________________________________
 
-# 171. Failure Semantics
+## 171. Failure Semantics
 
 On variable-resolution failure:
 
@@ -4164,9 +4167,9 @@ TRY ALTERNATE PROVENANCE PATH
 
 Do not globally invalidate unrelated registry content.
 
----
+______________________________________________________________________
 
-# 172. Local Repair
+## 172. Local Repair
 
 Canonical principle:
 
@@ -4180,9 +4183,9 @@ where dependency structure permits.
 
 Global recomputation is a last resort.
 
----
+______________________________________________________________________
 
-# 173. Anti-Fabrication Rules
+## 173. Anti-Fabrication Rules
 
 Never invent:
 
@@ -4210,9 +4213,9 @@ UNKNOWN/GAP
 
 for unresolved load-bearing semantics.
 
----
+______________________________________________________________________
 
-# 174. Anti-Regression
+## 174. Anti-Regression
 
 A registry optimization is acceptable only if it preserves or improves:
 
@@ -4232,9 +4235,9 @@ REPAIRABILITY
 
 Otherwise roll back.
 
----
+______________________________________________________________________
 
-# 175. RSCF Node
+## 175. RSCF Node
 
 ```yaml
 node_id: AMOS_UNIVERSAL_VARIABLE_REGISTRY
@@ -4314,9 +4317,9 @@ does_not_establish:
   - authority to mutate state
 ```
 
----
+______________________________________________________________________
 
-# 176. Promotion Gate
+## 176. Promotion Gate
 
 Promotion:
 
@@ -4366,9 +4369,9 @@ Unknown definitions remain `UNKNOWN/GAP`.
 
 Promotion must not manufacture completeness.
 
----
+______________________________________________________________________
 
-# 177. Canonical Summary
+## 177. Canonical Summary
 
 AMOS variable reasoning follows:
 
@@ -4513,9 +4516,9 @@ UNKNOWN/GAP
 UNTIL EVIDENCE RESOLVES IT.
 ```
 
----
+______________________________________________________________________
 
-# 178. Changelog
+## 178. Changelog
 
 ## v1.0.0 — 2026-08-25
 
@@ -4554,30 +4557,33 @@ Added:
 - anti-fabrication rules;
 - canon promotion requirements.
 
----
+______________________________________________________________________
 
 **Related:** README|AMOS OS · [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]|Architecture · [[00_ROOT/00_ROOT_NAMING_STANDARD|00_ROOT_NAMING_STANDARD]]|Naming Standard · [[00_ROOT/PLACEMENT_RULES|PLACEMENT_RULES]]|Placement Rules · [[01_CANON/00_INDEX/CANON_MAP|CANON_MAP]]|Canon Map · [[01_CANON/01_CORE_LAWS/AMOS_CORE_LAWS|AMOS Core Laws]] · [[01_CANON/01_CORE_LAWS/INVARIANT_REGISTRY|INVARIANT_REGISTRY]]|Invariant Registry · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]]|Law Hierarchy · [[01_CANON/05_VARIABLE_REGISTRY/SYMBOL_REGISTRY|SYMBOL_REGISTRY]]|Symbol Registry · [[01_CANON/05_VARIABLE_REGISTRY/UNIT_REGISTRY|UNIT_REGISTRY]]|Unit Registry · [[01_CANON/02_UNIVERSE_CANON/HML_CANON|HML_CANON]]|H/M/L Canon · [[01_CANON/02_UNIVERSE_CANON/PERSISTENCE_CANON|PERSISTENCE_CANON]]|Persistence Canon · [[01_CANON/03_COGNITION_CANON/COGNITION_CANON|COGNITION_CANON]]|Cognition Canon · [[01_CANON/04_INFRASTRUCTURE_CANON/AUTHORITY_CANON|AUTHORITY_CANON]]|Authority Canon · [[01_CANON/04_INFRASTRUCTURE_CANON/CONTROL_PLANE_CANON|CONTROL_PLANE_CANON]]|Control Plane Canon · [[02_KERNEL/00_INDEX/KERNEL_MAP|KERNEL_MAP]]|Kernel Map · [[03_CONTROL_PLANE/00_INDEX/CONTROL_PLANE_MAP|CONTROL_PLANE_MAP]]|Control Plane Map · [[04_RUNTIME/00_INDEX/RUNTIME_MAP|RUNTIME_MAP]]|Runtime Map · [[05_COGNITIVE_ORGANISM/00_INDEX/COGNITIVE_ORGANISM_MAP|COGNITIVE_ORGANISM_MAP]]|Cognitive Organism Map · [[10_MEMORY/00_INDEX/MEMORY_MEMORY_MAP|MEMORY_MEMORY_MAP]]|Memory Map · Knowledge Map · [[12_STATE/00_INDEX/STATE_STATE_MAP|STATE_STATE_MAP]]|State Map · [[13_MODELS/00_INDEX/MODEL_MAP|MODEL_MAP]]|Model Map · [[16_SCHEMAS/00_INDEX/SCHEMA_MAP|SCHEMA_MAP]]|Schema Map · [[17_OBSERVABILITY/00_INDEX/OBSERVABILITY_OBSERVABILITY_MAP|OBSERVABILITY_OBSERVABILITY_MAP]]|Observability Map · [[18_SECURITY/00_INDEX/SECURITY_MAP|SECURITY_MAP]]|Security Map · [[19_TESTS/00_INDEX/TEST_MAP|TEST_MAP]]|Test Map · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_ARCHITECTURE|COGNITIVE_MATRIX_ARCHITECTURE]]|Cognitive Matrix
 
 ```text
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: universal_variable_registry
 node_type: note
 path: 01_CANON/05_VARIABLE_REGISTRY/UNIVERSAL_VARIABLE_REGISTRY.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[01_CANON/05_VARIABLE_REGISTRY/05_VARIABLE_REGISTRY_MOC|05_VARIABLE_REGISTRY_MOC]]
-

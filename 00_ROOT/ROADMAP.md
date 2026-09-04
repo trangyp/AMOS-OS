@@ -3,8 +3,7 @@ type: roadmap
 source: 00_ROOT
 artifact_id: AMOS-OS-ROADMAP
 name: AMOS_OS_ROADMAP
-title: AMOS OS Roadmap — Governed Promotion, Integration, Validation, and Operational
-  Maturity Plan
+title: AMOS OS Roadmap — Governed Promotion, Integration, Validation, and Operational Maturity Plan
 document_version: 2.0.0
 roadmap_version: 1.0.0
 amos_core_target: v4.4
@@ -18,74 +17,73 @@ steward: Trang Phan
 created: 2026-08-25
 updated: 2026-08-25
 tags:
-- amos
-- amos-os
-- root
-- amos-os
-- roadmap
-- architecture-roadmap
-- system-evolution
-- implementation
-- validation
-- promotion
-- lifecycle
-- canon
-- kernel
-- control-plane
-- runtime
-- cognition
-- cognitive-organism
-- agents
-- skills
-- workflows
-- protocols
-- memory
-- knowledge
-- state
-- models
-- tools
-- interfaces
-- schemas
-- provenance
-- observability
-- security
-- tests
-- operations
-- domains
-- modes
-- research
-- archive
-- cognitive-matrix
-- rscf
-- gmef
-- hml
-- dependency-closure
-- failure-recovery
-- migration
-- regression
-- governance
-- authority
-- canon-group/tech-ai
-- canon/roadmap
-- rscf/claim
-- rscf/provenance
-- rscf/state/derived
-- topic/amos-os
-- topic/roadmap
-- topic/system-promotion
-- topic/operational-maturity
-- readme
-- neural-network
-- architecture
-- full-tree
-- authoritative-state
-- placement-rules
-- amos-full-brain-os-architecture
-- operating-model
-- cognitive-matrix-architecture
+  - amos
+  - amos-os
+  - root
+  - amos-os
+  - roadmap
+  - architecture-roadmap
+  - system-evolution
+  - implementation
+  - validation
+  - promotion
+  - lifecycle
+  - canon
+  - kernel
+  - control-plane
+  - runtime
+  - cognition
+  - cognitive-organism
+  - agents
+  - skills
+  - workflows
+  - protocols
+  - memory
+  - knowledge
+  - state
+  - models
+  - tools
+  - interfaces
+  - schemas
+  - provenance
+  - observability
+  - security
+  - tests
+  - operations
+  - domains
+  - modes
+  - research
+  - archive
+  - cognitive-matrix
+  - rscf
+  - gmef
+  - hml
+  - dependency-closure
+  - failure-recovery
+  - migration
+  - regression
+  - governance
+  - authority
+  - canon-group/tech-ai
+  - canon/roadmap
+  - rscf/claim
+  - rscf/provenance
+  - rscf/state/derived
+  - topic/amos-os
+  - topic/roadmap
+  - topic/system-promotion
+  - topic/operational-maturity
+  - readme
+  - neural-network
+  - architecture
+  - full-tree
+  - authoritative-state
+  - placement-rules
+  - amos-full-brain-os-architecture
+  - operating-model
+  - cognitive-matrix-architecture
 aliases:
-- AMOS Roadmap - AMOS OS Roadmap - AMOS Implementation Roadmap - AMOS Promotion Roadmap
-  - AM
+  - AMOS Roadmap - AMOS OS Roadmap - AMOS Implementation Roadmap - AMOS Promotion Roadmap - AM
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -94,19 +92,22 @@ rscf:
 ---
 
 # AMOS OS Roadmap
+
 **Origin architect / steward:** Trang Phan
+
 > **Status:** `ACTIVE_ROADMAP`
 > **Roadmap version:** `1.0.0`
 > **AMOS_CORE target:** `v4.4`
 > **Conclusion class:** `AMOS_MODEL`
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: root_index
----
+> rscf:
+> state: SOURCE_CLAIM
+> claim_class: SOURCE_CLAIM
+> provenance: AMOS_corpus
+> scope: root_index
 
-# AMOS OS Roadmap — Governed Promotion, Integration, Validation, and Operational Maturity Plan
+______________________________________________________________________
+
+## AMOS OS Roadmap — Governed Promotion, Integration, Validation, and Operational Maturity Plan
 
 ## 0. Purpose
 
@@ -161,7 +162,7 @@ Current verified implementation state belongs in:
 AUTHORITATIVE_STATE
 ```
 
----
+______________________________________________________________________
 
 ## 1. Governing Promotion Order
 
@@ -209,7 +210,7 @@ This order is dependency-oriented.
 
 It is not simply chronological project management.
 
----
+______________________________________________________________________
 
 ## 2. Core Promotion Law
 
@@ -239,12 +240,14 @@ IMPLEMENTATION
 !=
 VALIDATION
 ```
+
 ```text
 UNKNOWN/GAP
 !=
 PASS
 ```
----
+
+______________________________________________________________________
 
 ## 3. Artifact Lifecycle
 
@@ -285,7 +288,7 @@ IN_DOUBT
 SUPERSEDED
 ```
 
----
+______________________________________________________________________
 
 ## 4. Promotion Evidence Contract
 
@@ -329,7 +332,7 @@ RoadmapItem:
   promoted_at:
 ```
 
----
+______________________________________________________________________
 
 ## 5. Priority Classes
 
@@ -375,7 +378,7 @@ Improves performance, ergonomics, coverage, observability, or maintainability.
 
 Experimental or research work that does not block stable operation.
 
----
+______________________________________________________________________
 
 ## 6. Gap Classes
 
@@ -402,7 +405,7 @@ COSMETIC
 
 Do not spend effort polishing presentation while load-bearing architecture remains unknown.
 
----
+______________________________________________________________________
 
 ## 7. Phase 0 — Root Structure
 
@@ -447,7 +450,7 @@ AMOS_MODEL
 
 until repository audit verifies implementation.
 
----
+______________________________________________________________________
 
 ## 8. Phase 1 — Canon Surface
 
@@ -494,7 +497,7 @@ model analogy
 
 directly into active canon.
 
----
+______________________________________________________________________
 
 ## 9. Phase 2 — Kernel Contracts
 
@@ -531,7 +534,7 @@ version
 tests
 ```
 
----
+______________________________________________________________________
 
 ## 10. Phase 3 — Identity and Versioning
 
@@ -568,7 +571,7 @@ archive lineage rules
 
 No major migration proceeds while identity is ambiguous.
 
----
+______________________________________________________________________
 
 ## 11. Phase 4 — Dependency Map
 
@@ -611,7 +614,7 @@ VALID
 
 for load-bearing paths.
 
----
+______________________________________________________________________
 
 ## 12. Phase 5 — Provenance
 
@@ -662,7 +665,7 @@ MULTIPLE COPIES
 INDEPENDENT SOURCES
 ```
 
----
+______________________________________________________________________
 
 ## 13. Phase 6 — RSCF Integration
 
@@ -716,7 +719,7 @@ FailedPremise
 GlobalReset
 ```
 
----
+______________________________________________________________________
 
 ## 14. Phase 7 — Authority Plane
 
@@ -759,7 +762,7 @@ MODEL CONFIDENCE != AUTHORITY
 MEMORY != CURRENT AUTHORITY
 ```
 
----
+______________________________________________________________________
 
 ## 15. Phase 8 — Commit Governance
 
@@ -795,7 +798,7 @@ PROPOSAL
 COMMIT
 ```
 
----
+______________________________________________________________________
 
 ## 16. Phase 9 — State Architecture
 
@@ -837,7 +840,7 @@ StateEnvelope:
   status:
 ```
 
----
+______________________________________________________________________
 
 ## 17. Phase 10 — Concurrency / State Finality
 
@@ -869,7 +872,7 @@ before authoritative commit.
 
 These remain implementation-scoped concepts until runtime evidence confirms support.
 
----
+______________________________________________________________________
 
 ## 18. Phase 11 — Runtime Wiring
 
@@ -912,7 +915,7 @@ failure state
 recovery state
 ```
 
----
+______________________________________________________________________
 
 ## 19. Phase 12 — Runtime Lifecycle
 
@@ -958,7 +961,7 @@ ERROR
 
 when the distinction affects recovery or authority.
 
----
+______________________________________________________________________
 
 ## 20. Phase 13 — Cognitive Organism
 
@@ -993,7 +996,7 @@ embodiment
 
 unless independently established.
 
----
+______________________________________________________________________
 
 ## 21. Phase 14 — Live Cognition Field
 
@@ -1035,7 +1038,7 @@ runtime integration
 reset behavior
 ```
 
----
+______________________________________________________________________
 
 ## 22. Phase 15 — Mode System
 
@@ -1076,7 +1079,7 @@ CHILD ONTOLOGY KNOWN
 
 Unknown children remain `UNKNOWN/GAP`.
 
----
+______________________________________________________________________
 
 ## 23. Phase 16 — Reasoning Modes
 
@@ -1106,7 +1109,7 @@ before
 FINALIZATION
 ```
 
----
+______________________________________________________________________
 
 ## 24. Phase 17 — Epistemic Modes
 
@@ -1123,7 +1126,7 @@ freshness-revalidation
 
 Do not invent canonical child mode names until source-backed or formally admitted.
 
----
+______________________________________________________________________
 
 ## 25. Phase 18 — Agents
 
@@ -1153,7 +1156,7 @@ VALIDATED_FOR_SCOPE
 ACTIVE
 ```
 
----
+______________________________________________________________________
 
 ## 26. Phase 19 — Agent Contract Completion
 
@@ -1178,7 +1181,7 @@ recovery
 
 Missing load-bearing fields block promotion.
 
----
+______________________________________________________________________
 
 ## 27. Phase 20 — Skills
 
@@ -1210,7 +1213,7 @@ verification
 pitfalls
 ```
 
----
+______________________________________________________________________
 
 ## 28. Phase 21 — Workflows
 
@@ -1235,7 +1238,7 @@ provenance
 
 Do not bury long cross-system workflows inside one agent implementation.
 
----
+______________________________________________________________________
 
 ## 29. Phase 22 — Protocols
 
@@ -1256,7 +1259,7 @@ knowledge promotion
 provenance propagation
 ```
 
----
+______________________________________________________________________
 
 ## 30. Phase 23 — Memory Architecture
 
@@ -1282,7 +1285,7 @@ REMEMBERED
 VALIDATED
 ```
 
----
+______________________________________________________________________
 
 ## 31. Phase 24 — Knowledge Architecture
 
@@ -1308,7 +1311,7 @@ SCOPE / REGIME CHECK
 VALIDATED KNOWLEDGE
 ```
 
----
+______________________________________________________________________
 
 ## 32. Phase 25 — Model Registry
 
@@ -1346,7 +1349,7 @@ DEPRECATED
 RETIRED
 ```
 
----
+______________________________________________________________________
 
 ## 33. Phase 26 — Tool Registry
 
@@ -1379,7 +1382,7 @@ TOOL AVAILABLE
 TOOL AUTHORIZED
 ```
 
----
+______________________________________________________________________
 
 ## 34. Phase 27 — Interface Contracts
 
@@ -1398,7 +1401,7 @@ UI
 
 Every stable interface must be schema-backed or otherwise explicitly typed.
 
----
+______________________________________________________________________
 
 ## 35. Phase 28 — Schemas
 
@@ -1421,7 +1424,7 @@ EXECUTION_RECEIPT_SCHEMA
 PROVENANCE_SCHEMA
 ```
 
----
+______________________________________________________________________
 
 ## 36. Phase 29 — Observability
 
@@ -1452,7 +1455,7 @@ CORRECT
 
 Observability enables validation; it does not replace it.
 
----
+______________________________________________________________________
 
 ## 37. Phase 30 — Security Hardening
 
@@ -1474,7 +1477,7 @@ provenance integrity
 
 High-impact tools cannot rely on agent self-declared authority.
 
----
+______________________________________________________________________
 
 ## 38. Phase 31 — Tests
 
@@ -1506,7 +1509,7 @@ TEST PASS
 UNIVERSAL PROOF
 ```
 
----
+______________________________________________________________________
 
 ## 39. Phase 32 — Determinism Tests
 
@@ -1524,7 +1527,7 @@ same output
 
 If environmental dependency makes this impossible, determinism scope must be narrowed.
 
----
+______________________________________________________________________
 
 ## 40. Phase 33 — Replay Tests
 
@@ -1544,7 +1547,7 @@ EXPECTED STATE
 
 Replay mismatch becomes a first-class failure.
 
----
+______________________________________________________________________
 
 ## 41. Phase 34 — Failure Injection
 
@@ -1565,7 +1568,7 @@ rollback failure
 
 A system is not mature merely because happy-path tests pass.
 
----
+______________________________________________________________________
 
 ## 42. Phase 35 — Recovery
 
@@ -1602,7 +1605,7 @@ DEPENDENCY-AWARE
 PROVENANCE-PRESERVING
 ```
 
----
+______________________________________________________________________
 
 ## 43. Phase 36 — `IN_DOUBT`
 
@@ -1626,7 +1629,7 @@ UNKNOWN OUTCOME
 FAILURE
 ```
 
----
+______________________________________________________________________
 
 ## 44. Phase 37 — Rollback
 
@@ -1643,7 +1646,7 @@ rollback verification
 
 If rollback is impossible, classify the action as irreversible or compensatable.
 
----
+______________________________________________________________________
 
 ## 45. Phase 38 — Reversibility Classification
 
@@ -1659,7 +1662,7 @@ UNKNOWN
 
 High-impact + unknown reversibility blocks autonomous commit.
 
----
+______________________________________________________________________
 
 ## 46. Phase 39 — Freshness
 
@@ -1680,7 +1683,7 @@ UNKNOWN
 
 A stale load-bearing premise requires revalidation before high-impact reuse.
 
----
+______________________________________________________________________
 
 ## 47. Phase 40 — Regime Handling
 
@@ -1701,7 +1704,7 @@ runtime regime
 
 A regime transition should invalidate dependent conclusions when validity conditions no longer hold.
 
----
+______________________________________________________________________
 
 ## 48. Phase 41 — Competing Hypotheses
 
@@ -1730,7 +1733,7 @@ COMPETING
 
 not forced winner selection.
 
----
+______________________________________________________________________
 
 ## 49. Phase 42 — Causal Firewall
 
@@ -1750,7 +1753,7 @@ causal effect
 
 Do not convert sequence, resemblance, or co-occurrence into causation.
 
----
+______________________________________________________________________
 
 ## 50. Phase 43 — Sensitivity
 
@@ -1767,7 +1770,7 @@ capable of flipping the decision.
 
 Test that first.
 
----
+______________________________________________________________________
 
 ## 51. Phase 44 — Adversarial Validation
 
@@ -1797,7 +1800,7 @@ or
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
 ## 52. Phase 45 — Calibration
 
@@ -1830,7 +1833,7 @@ precision/recall
 confidence calibration
 ```
 
----
+______________________________________________________________________
 
 ## 53. Phase 46 — Negative Memory
 
@@ -1848,7 +1851,7 @@ known dependency incompatibility
 
 Negative knowledge must be scoped and freshness-bounded.
 
----
+______________________________________________________________________
 
 ## 54. Phase 47 — Domain Integration
 
@@ -1870,7 +1873,7 @@ DOMAIN-SPECIFIC OUTPUT
 
 Do not duplicate core mechanisms per domain.
 
----
+______________________________________________________________________
 
 ## 55. Phase 48 — Domain-to-Core Promotion
 
@@ -1887,7 +1890,7 @@ governance approves
 
 Domain success alone is insufficient.
 
----
+______________________________________________________________________
 
 ## 56. Phase 49 — Research Integration
 
@@ -1913,7 +1916,7 @@ KNOWLEDGE
 OPTIONAL CANON PROMOTION
 ```
 
----
+______________________________________________________________________
 
 ## 57. Phase 50 — Archive / Supersession
 
@@ -1938,7 +1941,7 @@ ARCHIVE
 DELETE
 ```
 
----
+______________________________________________________________________
 
 ## 58. Phase 51 — Cognitive Matrix
 
@@ -1966,7 +1969,7 @@ RELATION MAP
 SECOND AUTHORITY SOURCE
 ```
 
----
+______________________________________________________________________
 
 ## 59. Phase 52 — Neural Network Graph Health
 
@@ -1987,7 +1990,7 @@ Graph connectivity is a navigation property.
 
 It is not proof of implementation or truth.
 
----
+______________________________________________________________________
 
 ## 60. Phase 53 — Operating Model
 
@@ -2006,7 +2009,7 @@ deprecation authority
 
 Machine authority and organizational authority remain distinct.
 
----
+______________________________________________________________________
 
 ## 61. Phase 54 — Release Governance
 
@@ -2035,7 +2038,7 @@ Release:
   released_at:
 ```
 
----
+______________________________________________________________________
 
 ## 62. Phase 55 — Migration Governance
 
@@ -2061,7 +2064,7 @@ POST-MIGRATION AUDIT
 
 No destructive bulk migration without rollback path.
 
----
+______________________________________________________________________
 
 ## 63. Phase 56 — Full Repository Audit
 
@@ -2096,7 +2099,7 @@ RepositoryAudit:
   critical_gaps:
 ```
 
----
+______________________________________________________________________
 
 ## 64. Phase 57 — Authoritative State Automation
 
@@ -2116,7 +2119,7 @@ version manifests
 
 Automation must not promote unknowns to success.
 
----
+______________________________________________________________________
 
 ## 65. Phase 58 — Dependency Closure Automation
 
@@ -2140,7 +2143,7 @@ FAIL
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
 ## 66. Phase 59 — Provenance Independence Analysis
 
@@ -2162,7 +2165,7 @@ demonstrate independence
 
 rather than assuming it.
 
----
+______________________________________________________________________
 
 ## 67. Phase 60 — v4.4 Fast Path
 
@@ -2189,7 +2192,7 @@ FAST PATH
 SKIP VALIDATION
 ```
 
----
+______________________________________________________________________
 
 ## 68. Phase 61 — Performance Optimization
 
@@ -2210,7 +2213,7 @@ graph traversal
 
 Optimization is accepted only if integrity remains equal or stronger.
 
----
+______________________________________________________________________
 
 ## 69. Phase 62 — Proof Capsule Cache
 
@@ -2229,7 +2232,7 @@ confidence ceiling
 
 Reuse allowed only while all validity conditions remain intact.
 
----
+______________________________________________________________________
 
 ## 70. Phase 63 — Selective Invalidation Engine
 
@@ -2255,7 +2258,7 @@ GLOBAL RECOMPUTE
 
 where correctness is preserved.
 
----
+______________________________________________________________________
 
 ## 71. Phase 64 — Operational Maturity
 
@@ -2275,7 +2278,7 @@ provenance recoverable
 authority bounded
 ```
 
----
+______________________________________________________________________
 
 ## 72. Phase 65 — Validated Operation
 
@@ -2307,7 +2310,7 @@ validated
 
 when scope matters.
 
----
+______________________________________________________________________
 
 ## 73. Phase 66 — Production Readiness
 
@@ -2337,7 +2340,7 @@ RollbackPass
 
 Production status must still be bounded by the actual deployment environment.
 
----
+______________________________________________________________________
 
 ## 74. Phase 67 — Continuous Revalidation
 
@@ -2356,7 +2359,7 @@ security assumptions change
 
 Validation is not permanent.
 
----
+______________________________________________________________________
 
 ## 75. Cross-Plane Dependencies
 
@@ -2395,7 +2398,7 @@ TESTS
 OPERATIONS
 ```
 
----
+______________________________________________________________________
 
 ## 76. Critical Dependency Order
 
@@ -2425,7 +2428,7 @@ RECOVERY
 
 Missing a load-bearing upstream dependency blocks downstream promotion.
 
----
+______________________________________________________________________
 
 ## 77. Promotion Gate Formula
 
@@ -2453,7 +2456,7 @@ For effectful components additionally:
 ∧ ReversibilityKnown(X)
 ```
 
----
+______________________________________________________________________
 
 ## 78. Promotion Blockers
 
@@ -2472,7 +2475,7 @@ unsupported implementation claim
 critical stale evidence
 ```
 
----
+______________________________________________________________________
 
 ## 79. Conditional Promotion
 
@@ -2493,7 +2496,7 @@ VALIDATED_FOR_READ_ONLY_SCOPE
 
 while write capability remains blocked.
 
----
+______________________________________________________________________
 
 ## 80. No-Op / Read-Only First
 
@@ -2517,7 +2520,7 @@ increasing governance with each stage.
 
 This minimizes irreversible risk during early promotion.
 
----
+______________________________________________________________________
 
 ## 81. Authority Escalation Ladder
 
@@ -2537,7 +2540,7 @@ HIGH-IMPACT EFFECT
 
 Each step requires stronger validation and narrower authority.
 
----
+______________________________________________________________________
 
 ## 82. Adaptive Complexity Roadmap
 
@@ -2564,7 +2567,7 @@ scope mismatch
 governance impact
 ```
 
----
+______________________________________________________________________
 
 ## 83. Roadmap Stop Conditions
 
@@ -2582,7 +2585,7 @@ are achieved.
 
 Do not overbuild non-decision-relevant infrastructure.
 
----
+______________________________________________________________________
 
 ## 84. Roadmap Anti-Patterns
 
@@ -2601,7 +2604,7 @@ hide unknowns to make dashboards green
 rewrite history during migration
 ```
 
----
+______________________________________________________________________
 
 ## 85. Anti-Regression Gate
 
@@ -2625,7 +2628,7 @@ If not:
 ROLL BACK
 ```
 
----
+______________________________________________________________________
 
 ## 86. Roadmap Metrics
 
@@ -2652,7 +2655,7 @@ These are engineering indicators.
 
 They are not measures of intelligence or truth.
 
----
+______________________________________________________________________
 
 ## 87. Coverage Firewall
 
@@ -2674,7 +2677,7 @@ They are not measures of intelligence or truth.
 EMPIRICAL VALIDATION
 ```
 
----
+______________________________________________________________________
 
 ## 88. Release Milestones
 
@@ -2735,7 +2738,7 @@ continuous revalidation
 validated operation
 ```
 
----
+______________________________________________________________________
 
 ## 89. Maturity Levels
 
@@ -2752,7 +2755,7 @@ L7 — CONTINUOUSLY REVALIDATED
 
 No maturity level should be inferred from folder naming.
 
----
+______________________________________________________________________
 
 ## 90. Current Roadmap State
 
@@ -2769,19 +2772,22 @@ FULL REPOSITORY IMPLEMENTATION
 =
 UNKNOWN/GAP
 ```
+
 ```text
 FULL RUNTIME VALIDATION
 =
 UNKNOWN/GAP
 ```
+
 ```text
 FULL OPERATIONAL MATURITY
 =
 UNKNOWN/GAP
 ```
+
 These require direct audit evidence.
 
----
+______________________________________________________________________
 
 ## 91. Roadmap and Authoritative State
 
@@ -2805,7 +2811,7 @@ ROADMAP STATE
 ACTUAL STATE
 ```
 
----
+______________________________________________________________________
 
 ## 92. Roadmap and Full Tree
 
@@ -2823,7 +2829,7 @@ WHEN THOSE ARTIFACTS MAY BE PROMOTED
 
 A complete tree is only the beginning of implementation maturity.
 
----
+______________________________________________________________________
 
 ## 93. Roadmap and Dependency Map
 
@@ -2839,7 +2845,7 @@ RECALCULATION
 
 Therefore phase order is governed by dependencies, not fixed aesthetics.
 
----
+______________________________________________________________________
 
 ## 94. Roadmap and Research
 
@@ -2861,7 +2867,7 @@ until
 ALL RESEARCH COMPLETE
 ```
 
----
+______________________________________________________________________
 
 ## 95. Roadmap and Archive
 
@@ -2881,7 +2887,7 @@ OLD VERSION ARCHIVED
 
 This supports rollback and lineage reconstruction.
 
----
+______________________________________________________________________
 
 ## 96. 7-Part Roadmap Mapping
 
@@ -2897,7 +2903,7 @@ This supports rollback and lineage reconstruction.
 
 **Conclusion class:** `AMOS_MODEL`
 
----
+______________________________________________________________________
 
 ## 97. Roadmap Invariants
 
@@ -2929,7 +2935,7 @@ RM24 PROMOTION REQUIRES EVIDENCE
 RM25 CRITICAL GAPS BLOCK PROMOTION
 ```
 
----
+______________________________________________________________________
 
 ## 98. Failure Registry
 
@@ -2961,7 +2967,7 @@ RM-F024 OPTIMIZATION_REGRESSION
 RM-F025 FULL_REBUILD_USED_WHEN_LOCAL_REPAIR_SUFFICIENT
 ```
 
----
+______________________________________________________________________
 
 ## 99. Roadmap Item Template
 
@@ -3028,7 +3034,7 @@ promotion_decision:
   UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
 ## 100. Near-Term Priority Queue
 
@@ -3072,7 +3078,7 @@ P2.6 ADVERSARIAL VALIDATION
 P2.7 CALIBRATION
 ```
 
----
+______________________________________________________________________
 
 ## 101. Do Not Skip Ahead Gate
 
@@ -3101,7 +3107,7 @@ are sufficiently defined.
 
 Capability expansion without governance creates architectural debt.
 
----
+______________________________________________________________________
 
 ## 102. Validation Sufficiency
 
@@ -3119,7 +3125,7 @@ have been reached for its declared scope.
 
 No requirement exists to solve unrelated future architecture before closing a bounded milestone.
 
----
+______________________________________________________________________
 
 ## 103. Unresolved Gaps
 
@@ -3153,7 +3159,7 @@ FULL DELIVERY STATE
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
 ## 104. Master RSCF Node
 
@@ -3232,7 +3238,7 @@ confidence_ceiling:
   future_completion: not_claimed
 ```
 
----
+______________________________________________________________________
 
 ## 105. Changelog
 
@@ -3313,7 +3319,7 @@ rollback path
 conclusion class
 ```
 
----
+______________________________________________________________________
 
 ## 106. Final Roadmap Law
 
@@ -3369,29 +3375,33 @@ The fourth invariant is:
 
 > **When implementation and integrity compete, integrity wins; when global recomputation and local repair are equally correct, local repair wins.**
 
----
+______________________________________________________________________
 
 **Related:** README|AMOS OS · [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|MOC · [[00_ROOT/NEURAL_NETWORK|NEURAL_NETWORK]]|Neural Network · [[00_ROOT/ARCHITECTURE|ARCHITECTURE]]|Architecture · [[00_ROOT/FULL_TREE|FULL_TREE]]|Full Tree · [[00_ROOT/SYSTEM_MAP|SYSTEM_MAP]]|System Map · [[00_ROOT/DEPENDENCY_MAP|DEPENDENCY_MAP]]|Dependency Map · [[00_ROOT/AUTHORITATIVE_STATE|AUTHORITATIVE_STATE]]|Authoritative State · [[00_ROOT/00_ROOT_NAMING_STANDARD|00_ROOT_NAMING_STANDARD]]|Naming Standard · [[00_ROOT/PLACEMENT_RULES|PLACEMENT_RULES]]|Placement Rules · [[01_CANON/00_INDEX/CANON_MAP|CANON_MAP]]|CANON · [[02_KERNEL/00_INDEX/KERNEL_MAP|KERNEL_MAP]]|KERNEL · [[03_CONTROL_PLANE/00_INDEX/CONTROL_PLANE_MAP|CONTROL_PLANE_MAP]]|CONTROL_PLANE · [[04_RUNTIME/00_INDEX/RUNTIME_MAP|RUNTIME_MAP]]|RUNTIME · [[05_COGNITIVE_ORGANISM/00_INDEX/COGNITIVE_ORGANISM_MAP|COGNITIVE_ORGANISM_MAP]]|COGNITIVE_ORGANISM · [[06_AGENTS/00_INDEX/AGENT_MAP|AGENT_MAP]]|[[AGENTS|AGENTS]] · [[07_SKILLS/00_INDEX/SKILL_MAP|SKILL_MAP]]|SKILLS · [[08_WORKFLOWS/00_INDEX/WORKFLOW_MAP|WORKFLOW_MAP]]|WORKFLOWS · [[09_PROTOCOLS/00_INDEX/PROTOCOL_MAP|PROTOCOL_MAP]]|PROTOCOLS · [[10_MEMORY/00_INDEX/MEMORY_MEMORY_MAP|MEMORY_MEMORY_MAP]]|MEMORY · [[11_KNOWLEDGE/AMOS_FULL_BRAIN_OS_ARCHITECTURE|AMOS_FULL_BRAIN_OS_ARCHITECTURE]]|KNOWLEDGE · [[12_STATE/00_INDEX/STATE_STATE_MAP|STATE_STATE_MAP]]|STATE · [[13_MODELS/00_INDEX/MODEL_MAP|MODEL_MAP]]|MODELS · [[14_TOOLS/00_INDEX/TOOL_MAP|TOOL_MAP]]|TOOLS · [[15_INTERFACES/00_INDEX/INTERFACE_MAP|INTERFACE_MAP]]|INTERFACES · [[16_SCHEMAS/00_INDEX/SCHEMA_MAP|SCHEMA_MAP]]|SCHEMAS · [[17_OBSERVABILITY/00_INDEX/OBSERVABILITY_OBSERVABILITY_MAP|OBSERVABILITY_OBSERVABILITY_MAP]]|OBSERVABILITY · [[18_SECURITY/00_INDEX/SECURITY_MAP|SECURITY_MAP]]|SECURITY · [[19_TESTS/00_INDEX/TEST_MAP|TEST_MAP]]|TESTS · [[20_OPERATIONS/00_INDEX/OPERATIONS_MAP|OPERATIONS_MAP]]|OPERATIONS · [[21_DOMAINS/00_INDEX/DOMAIN_ALIAS_MAP|DOMAIN_ALIAS_MAP]]|DOMAINS · [[22_RESEARCH/00_INDEX/INDEX_RESEARCH_README|INDEX_RESEARCH_README]]|RESEARCH · [[23_OPERATING_MODEL/00_INDEX/OPERATING_MODEL|OPERATING_MODEL]]|[[23_OPERATING_MODEL/00_INDEX/OPERATING_MODEL|OPERATING_MODEL]] · [[24_ARCHIVE/00_LEGACY/LEGACY_ARCHIVE_README|LEGACY_ARCHIVE_README]]|ARCHIVE · [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_ARCHITECTURE|COGNITIVE_MATRIX_ARCHITECTURE]]|COGNITIVE_MATRIX
 
 ```text
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: roadmap
 node_type: note
 path: 00_ROOT/ROADMAP.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[00_ROOT/00_COSMO_BRAIN_MOC|00_COSMO_BRAIN_MOC]]

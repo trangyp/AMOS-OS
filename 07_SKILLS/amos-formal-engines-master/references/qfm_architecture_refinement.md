@@ -1,16 +1,19 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: qfm architecture refinement
 type: reference
 source: 07_SKILLS/amos-formal-engines-master/references
 tags:
-- reference
-- amos-formal-engines-master
-- type/skill
-- system-scan-agent
-- automation-profiles
-- amos-simulation-kernel-v0-math-foundations
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-formal-engines-master
+  - type/skill
+  - system-scan-agent
+  - automation-profiles
+  - amos-simulation-kernel-v0-math-foundations
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -23,15 +26,11 @@ rscf:
 > Source: `_00_Cosmo brain/dated/2026-08-25/2026-08-25 QFM Architecture Refinement Pass.md`
 > Epistemic class: SOURCE_DERIVED
 
----
-title: 2026-08-25 QFM Architecture Refinement Pass
-type: daily-learning
-date: 2026-08-25
-epistemic: DERIVED
-tags: [architecture, refinement, qfm, routing, dated, dated/2026-08-25]
----
+______________________________________________________________________
 
-# 2026-08-25 — QFM Refinement Pass (using what was created)
+## title: 2026-08-25 QFM Architecture Refinement Pass type: daily-learning date: 2026-08-25 epistemic: DERIVED tags: [architecture, refinement, qfm, routing, dated, dated/2026-08-25]
+
+## 2026-08-25 — QFM Refinement Pass (using what was created)
 
 ## Method shift
 
@@ -41,8 +40,8 @@ Previous passes added components. This pass **refined the created components aga
 
 1. **Router drift**: `amos-qfm-master-router` (created mid-session) predated 5 later artifacts — RG-fractal bridge, QCI governance, law-stack enforcement, tensor composition gate. Its layer table and gate composition were stale.
    - Fixed: layer table updated (L2 + RG bridge deepening; L4 + QCI coherence; new Cross-cutting tensor row); routing question 6 added (joins); gates extended to 8+2+1 (G11 = tensor composition).
-2. **G3 was a name without a procedure** in the orchestration workflow — now explicitly bound to `amos-law-stack-enforcement` + gate agent with ordered LoL→R2→R4.
-3. **Dependency audit**: 8/8 session agents parse valid JSON; one (bridge-auditor) uses a different dependency schema shape than siblings (`dependencies.{skills,workflows,agents}` vs flat keys) — functional but noted for future normalization.
+1. **G3 was a name without a procedure** in the orchestration workflow — now explicitly bound to `amos-law-stack-enforcement` + gate agent with ordered LoL→R2→R4.
+1. **Dependency audit**: 8/8 session agents parse valid JSON; one (bridge-auditor) uses a different dependency schema shape than siblings (`dependencies.{skills,workflows,agents}` vs flat keys) — functional but noted for future normalization.
 
 ## Final architecture (all verified on disk)
 
@@ -62,12 +61,13 @@ Agents owned per layer: 8 dedicated + orchestration + router
 
 **Refinement passes are not optional after building passes.** Components created at different times drift from each other; the router itself became stale within one session. Schedule: build pass → refine pass → build pass → refine pass, never N builds in a row.
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC|KNOWLEDGE_MOC]] · AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS · SYSTEM_SCAN_AGENT · AUTOMATION_PROFILES
 
----
-**MOC:** references_MOC
----
+______________________________________________________________________
+
+## **MOC:** references_MOC
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -75,12 +75,14 @@ Agents owned per layer: 8 dedicated + orchestration + router
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-formal-engines-master-qfm-architecture-refinement
 node_type: reference
 path: 07_SKILLS/amos-formal-engines-master/references/qfm_architecture_refinement.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

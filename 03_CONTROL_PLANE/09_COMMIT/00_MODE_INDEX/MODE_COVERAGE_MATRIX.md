@@ -1,40 +1,43 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: MODE COVERAGE MATRIX
 type: coverage
 source: 03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX
 tags:
-- control-plane
-- commit
-- mode_index
-- note
-- canon/control-plane
-- mode-admission-queue
-- task-resolver
-- capability-resolver
-- k-system-state
-- k-context-state
-- k-world-model
-- k-event-bus
-- k-identity
-- k-binding
-- k-constraint-propagation
-- k-rscf
-- k-gmef
-- k-hml
-- k-provenance
-- k-provenance-topology
-- k-sybil-hardening
-- k-risk-constraint
-- k-capability-authorization
-- k-effect-classification
-- k-information-exposure
-- k-commit-time-authority
-- k-collapse-recovery
-- k-homeostasis
-- k-repair-harm
-- k-repair-priority
-- integration
-- validation
+  - control-plane
+  - commit
+  - mode_index
+  - note
+  - canon/control-plane
+  - mode-admission-queue
+  - task-resolver
+  - capability-resolver
+  - k-system-state
+  - k-context-state
+  - k-world-model
+  - k-event-bus
+  - k-identity
+  - k-binding
+  - k-constraint-propagation
+  - k-rscf
+  - k-gmef
+  - k-hml
+  - k-provenance
+  - k-provenance-topology
+  - k-sybil-hardening
+  - k-risk-constraint
+  - k-capability-authorization
+  - k-effect-classification
+  - k-information-exposure
+  - k-commit-time-authority
+  - k-collapse-recovery
+  - k-homeostasis
+  - k-repair-harm
+  - k-repair-priority
+  - integration
+  - validation
 rscf:
   state: DERIVED
   claim_class: EMPIRICAL
@@ -46,7 +49,8 @@ rscf:
 
 `MODE_COVERAGE_MATRIX.md` in Drive is currently only the generic placeholder, so there is no substantive canonical matrix to reproduce verbatim.
 
----
+______________________________________________________________________
+
 artifact_id: AMOS-OS-MODE-COVERAGE-MATRIX
 title: AMOS OS Mode Coverage Matrix
 canonical_name: MODE_COVERAGE_MATRIX
@@ -61,47 +65,47 @@ status: CANDIDATE_CANON
 conclusion_class: DERIVED
 
 source_state:
-  existing_file: PLACEHOLDER
-  recovered_substantive_implementation: false
+existing_file: PLACEHOLDER
+recovered_substantive_implementation: false
 
 related_artifacts:
-  - [[03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX/MODE_ADMISSION_QUEUE|MODE_ADMISSION_QUEUE]].md
-  - [[03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX/MODE_COMPOSITION_REGISTRY|MODE_COMPOSITION_REGISTRY]].md
-  - [[03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX/MODE_CONFLICT_REGISTRY|MODE_CONFLICT_REGISTRY]].md
-  - [[03_CONTROL_PLANE/01_TASK_CONTRACT/TASK_CONTRACT|TASK_CONTRACT]].md
-  - [[03_CONTROL_PLANE/01_TASK_CONTRACT/TASK_RESOLVER|TASK_RESOLVER]].md
-  - [[03_CONTROL_PLANE/02_CAPABILITY/CAPABILITY_RESOLVER|CAPABILITY_RESOLVER]].md
-  - [[02_KERNEL/04_STATE/K_SYSTEM_STATE|K_SYSTEM_STATE]]
-  - [[02_KERNEL/04_STATE/K_CONTEXT_STATE|K_CONTEXT_STATE]]
-  - [[02_KERNEL/04_STATE/K_WORLD_MODEL|K_WORLD_MODEL]]
-  - [[02_KERNEL/04_STATE/K_EVENT_BUS|K_EVENT_BUS]]
-  - [[02_KERNEL/04_STATE/K_IDENTITY|K_IDENTITY]]
-  - [[02_KERNEL/09_INTEGRATION/K_BINDING|K_BINDING]]
-  - [[02_KERNEL/09_INTEGRATION/K_CONSTRAINT_PROPAGATION|K_CONSTRAINT_PROPAGATION]]
-  - [[02_KERNEL/09_INTEGRATION/K_RSCF|K_RSCF]]
-  - [[02_KERNEL/09_INTEGRATION/K_GMEF|K_GMEF]]
-  - [[02_KERNEL/09_INTEGRATION/K_HML|K_HML]]
-  - [[02_KERNEL/08_PROVENANCE/K_PROVENANCE|K_PROVENANCE]]
-  - [[02_KERNEL/08_PROVENANCE/K_PROVENANCE_TOPOLOGY|K_PROVENANCE_TOPOLOGY]]
-  - [[02_KERNEL/08_PROVENANCE/K_SYBIL_HARDENING|K_SYBIL_HARDENING]]
-  - [[02_KERNEL/06_RISK_REPAIR/K_RISK_CONSTRAINT|K_RISK_CONSTRAINT]]
-  - [[02_KERNEL/07_AUTHORITY/K_CAPABILITY_AUTHORIZATION|K_CAPABILITY_AUTHORIZATION]]
-  - [[02_KERNEL/07_AUTHORITY/K_EFFECT_CLASSIFICATION|K_EFFECT_CLASSIFICATION]]
-  - [[02_KERNEL/07_AUTHORITY/K_INFORMATION_EXPOSURE|K_INFORMATION_EXPOSURE]]
-  - [[02_KERNEL/07_AUTHORITY/K_COMMIT_TIME_AUTHORITY|K_COMMIT_TIME_AUTHORITY]]
-  - [[02_KERNEL/06_RISK_REPAIR/K_COLLAPSE_RECOVERY|K_COLLAPSE_RECOVERY]]
-  - [[02_KERNEL/06_RISK_REPAIR/K_HOMEOSTASIS|K_HOMEOSTASIS]]
-  - [[02_KERNEL/06_RISK_REPAIR/K_REPAIR_HARM|K_REPAIR_HARM]]
-  - [[02_KERNEL/06_RISK_REPAIR/K_REPAIR_PRIORITY|K_REPAIR_PRIORITY]]
+
+- [[03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX/MODE_ADMISSION_QUEUE|MODE_ADMISSION_QUEUE]].md
+- [[03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX/MODE_COMPOSITION_REGISTRY|MODE_COMPOSITION_REGISTRY]].md
+- [[03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX/MODE_CONFLICT_REGISTRY|MODE_CONFLICT_REGISTRY]].md
+- [[03_CONTROL_PLANE/01_TASK_CONTRACT/TASK_CONTRACT|TASK_CONTRACT]].md
+- [[03_CONTROL_PLANE/01_TASK_CONTRACT/TASK_RESOLVER|TASK_RESOLVER]].md
+- [[03_CONTROL_PLANE/02_CAPABILITY/CAPABILITY_RESOLVER|CAPABILITY_RESOLVER]].md
+- [[02_KERNEL/04_STATE/K_SYSTEM_STATE|K_SYSTEM_STATE]]
+- [[02_KERNEL/04_STATE/K_CONTEXT_STATE|K_CONTEXT_STATE]]
+- [[02_KERNEL/04_STATE/K_WORLD_MODEL|K_WORLD_MODEL]]
+- [[02_KERNEL/04_STATE/K_EVENT_BUS|K_EVENT_BUS]]
+- [[02_KERNEL/04_STATE/K_IDENTITY|K_IDENTITY]]
+- [[02_KERNEL/09_INTEGRATION/K_BINDING|K_BINDING]]
+- [[02_KERNEL/09_INTEGRATION/K_CONSTRAINT_PROPAGATION|K_CONSTRAINT_PROPAGATION]]
+- [[02_KERNEL/09_INTEGRATION/K_RSCF|K_RSCF]]
+- [[02_KERNEL/09_INTEGRATION/K_GMEF|K_GMEF]]
+- [[02_KERNEL/09_INTEGRATION/K_HML|K_HML]]
+- [[02_KERNEL/08_PROVENANCE/K_PROVENANCE|K_PROVENANCE]]
+- [[02_KERNEL/08_PROVENANCE/K_PROVENANCE_TOPOLOGY|K_PROVENANCE_TOPOLOGY]]
+- [[02_KERNEL/08_PROVENANCE/K_SYBIL_HARDENING|K_SYBIL_HARDENING]]
+- [[02_KERNEL/06_RISK_REPAIR/K_RISK_CONSTRAINT|K_RISK_CONSTRAINT]]
+- [[02_KERNEL/07_AUTHORITY/K_CAPABILITY_AUTHORIZATION|K_CAPABILITY_AUTHORIZATION]]
+- [[02_KERNEL/07_AUTHORITY/K_EFFECT_CLASSIFICATION|K_EFFECT_CLASSIFICATION]]
+- [[02_KERNEL/07_AUTHORITY/K_INFORMATION_EXPOSURE|K_INFORMATION_EXPOSURE]]
+- [[02_KERNEL/07_AUTHORITY/K_COMMIT_TIME_AUTHORITY|K_COMMIT_TIME_AUTHORITY]]
+- [[02_KERNEL/06_RISK_REPAIR/K_COLLAPSE_RECOVERY|K_COLLAPSE_RECOVERY]]
+- [[02_KERNEL/06_RISK_REPAIR/K_HOMEOSTASIS|K_HOMEOSTASIS]]
+- [[02_KERNEL/06_RISK_REPAIR/K_REPAIR_HARM|K_REPAIR_HARM]]
+- [[02_KERNEL/06_RISK_REPAIR/K_REPAIR_PRIORITY|K_REPAIR_PRIORITY]]
 
 implementation_status: SPECIFICATION
 formal_verification_status: NOT_CLAIMED
 empirical_validation_status: NOT_CLAIMED
 
-promotion_required: true
----
+## promotion_required: true
 
-# MODE COVERAGE MATRIX — part 2
+## MODE COVERAGE MATRIX — part 2
 
 > **Status:** `CANDIDATE_CANON`
 >
@@ -111,9 +115,9 @@ promotion_required: true
 >
 > **Origin Architect:** Trang Phan
 
----
+______________________________________________________________________
 
-# 0. PURPOSE
+## 0. PURPOSE
 
 `MODE_COVERAGE_MATRIX` is the governed AMOS OS representation of which
 operating modes cover which task classes, capabilities, control surfaces,
@@ -163,9 +167,9 @@ WHERE ARE THERE FALSE APPEARANCES OF REDUNDANCY CAUSED BY SHARED ANCESTRY?
 The matrix is therefore a governance and reasoning artifact, not merely a
 spreadsheet-style inventory.
 
----
+______________________________________________________________________
 
-# 1. CORE LAW
+## 1. CORE LAW
 
 ```text
 NAMED COVERAGE
@@ -201,9 +205,9 @@ HISTORICAL COVERAGE
 CURRENT COVERAGE
 ```
 
----
+______________________________________________________________________
 
-# 2. COVERAGE BOUNDARY
+## 2. COVERAGE BOUNDARY
 
 The matrix must distinguish:
 
@@ -235,9 +239,9 @@ FAILURE COVERAGE
 
 A mode may strongly cover one dimension while not covering another.
 
----
+______________________________________________________________________
 
-# 3. ROLE IN MODE GOVERNANCE
+## 3. ROLE IN MODE GOVERNANCE
 
 Conceptually:
 
@@ -259,9 +263,9 @@ GAPS / OVERLAPS / SINGLE POINTS / COMPOSITIONS
 MODE SELECTION OR EVOLUTION
 ```
 
----
+______________________________________________________________________
 
-# 4. MATRIX OBJECT
+## 4. MATRIX OBJECT
 
 ```yaml
 ModeCoverageMatrix:
@@ -307,9 +311,9 @@ ModeCoverageMatrix:
   updated_at:
 ```
 
----
+______________________________________________________________________
 
-# 5. COVERAGE CELL
+## 5. COVERAGE CELL
 
 The atomic matrix unit is not a boolean.
 
@@ -377,9 +381,9 @@ ModeCoverageCell:
   invalidation_conditions: []
 ```
 
----
+______________________________________________________________________
 
-# 6. COVERAGE STATES
+## 6. COVERAGE STATES
 
 Candidate states:
 
@@ -409,9 +413,9 @@ STALE
 
 These remain candidate specification identifiers until canonically fixed.
 
----
+______________________________________________________________________
 
-# 7. FULL COVERAGE
+## 7. FULL COVERAGE
 
 `FULL` means the mode satisfies the complete declared requirement within the
 registered applicability envelope.
@@ -431,9 +435,9 @@ regime G
 version V
 ```
 
----
+______________________________________________________________________
 
-# 8. PARTIAL COVERAGE
+## 8. PARTIAL COVERAGE
 
 A mode satisfies only part of the requirement.
 
@@ -455,9 +459,9 @@ PARTIAL
 
 not `FULL`.
 
----
+______________________________________________________________________
 
-# 9. CONDITIONAL COVERAGE
+## 9. CONDITIONAL COVERAGE
 
 Coverage depends on a predicate.
 
@@ -471,9 +475,9 @@ network_available = true
 
 The condition remains part of the coverage claim.
 
----
+______________________________________________________________________
 
-# 10. COMPOSITE-ONLY COVERAGE
+## 10. COMPOSITE-ONLY COVERAGE
 
 No single mode covers the requirement, but a valid governed composition does.
 
@@ -498,23 +502,23 @@ A ⊕ B ⊕ C
 
 may cover the end-to-end requirement if composition validity is established.
 
----
+______________________________________________________________________
 
-# 11. FALLBACK-ONLY COVERAGE
+## 11. FALLBACK-ONLY COVERAGE
 
 A mode is not preferred primary coverage but can provide safe fallback under
 specified conditions.
 
----
+______________________________________________________________________
 
-# 12. DEGRADED COVERAGE
+## 12. DEGRADED COVERAGE
 
 The mode can satisfy the requirement only at reduced quality, scale,
 freshness, scope, or effect semantics.
 
----
+______________________________________________________________________
 
-# 13. CONFLICTED COVERAGE
+## 13. CONFLICTED COVERAGE
 
 Evidence or mode relations disagree about whether the coverage exists.
 
@@ -526,25 +530,25 @@ CONFLICTED
 
 with an explicit link to `MODE_CONFLICT_REGISTRY`.
 
----
+______________________________________________________________________
 
-# 14. UNVALIDATED COVERAGE
+## 14. UNVALIDATED COVERAGE
 
 A source or manifest claims coverage, but required validation has not been
 performed.
 
 This is distinct from `UNKNOWN`.
 
----
+______________________________________________________________________
 
-# 15. NOT COVERED
+## 15. NOT COVERED
 
 Evidence establishes that the mode does not satisfy the requirement within
 the relevant envelope.
 
----
+______________________________________________________________________
 
-# 16. UNKNOWN/GAP
+## 16. UNKNOWN/GAP
 
 Insufficient evidence exists to determine coverage.
 
@@ -566,15 +570,15 @@ or:
 FULL
 ```
 
----
+______________________________________________________________________
 
-# 17. STALE
+## 17. STALE
 
 A previously valid coverage claim no longer satisfies freshness requirements.
 
----
+______________________________________________________________________
 
-# 18. COVERAGE TYPE
+## 18. COVERAGE TYPE
 
 Candidate types:
 
@@ -598,40 +602,40 @@ RECOVERY
 MODEL_ONLY
 ```
 
----
+______________________________________________________________________
 
-# 19. DIRECT COVERAGE
+## 19. DIRECT COVERAGE
 
 The mode itself directly satisfies the requirement.
 
----
+______________________________________________________________________
 
-# 20. DERIVED COVERAGE
+## 20. DERIVED COVERAGE
 
 Coverage follows from validated constituent claims.
 
 Dependency lineage must remain attached.
 
----
+______________________________________________________________________
 
-# 21. COMPOSITE COVERAGE
+## 21. COMPOSITE COVERAGE
 
 Coverage arises only from a mode composition.
 
 The composition proof must be referenced.
 
----
+______________________________________________________________________
 
-# 22. DELEGATED COVERAGE
+## 22. DELEGATED COVERAGE
 
 A mode satisfies the requirement through a governed dependent subsystem or
 mode.
 
 Delegated coverage must preserve the dependency.
 
----
+______________________________________________________________________
 
-# 23. WRAPPED COVERAGE
+## 23. WRAPPED COVERAGE
 
 A wrapper mode governs another mode that performs the underlying capability.
 
@@ -655,9 +659,9 @@ from:
 EXECUTION COVERAGE
 ```
 
----
+______________________________________________________________________
 
-# 24. MODEL-ONLY COVERAGE
+## 24. MODEL-ONLY COVERAGE
 
 A conceptual or simulated mode appears to cover the requirement, but no
 validated execution evidence establishes operational coverage.
@@ -668,9 +672,9 @@ Class:
 MODEL
 ```
 
----
+______________________________________________________________________
 
-# 25. MATRIX AXES
+## 25. MATRIX AXES
 
 The matrix may be projected across several axes.
 
@@ -702,9 +706,9 @@ MODE × AUTHORITY FUNCTION
 MODE × FAILURE CLASS
 ```
 
----
+______________________________________________________________________
 
-# 26. TASK-CLASS COVERAGE
+## 26. TASK-CLASS COVERAGE
 
 Candidate task classes include:
 
@@ -740,9 +744,9 @@ MONITORING
 
 Coverage may vary by task class.
 
----
+______________________________________________________________________
 
-# 27. CAPABILITY COVERAGE
+## 27. CAPABILITY COVERAGE
 
 Candidate capability dimensions:
 
@@ -778,9 +782,9 @@ TRANSACT
 ROLLBACK
 ```
 
----
+______________________________________________________________________
 
-# 28. CONTROL-FUNCTION COVERAGE
+## 28. CONTROL-FUNCTION COVERAGE
 
 Coverage should include governance functions such as:
 
@@ -810,9 +814,9 @@ REPLAY
 ROLLBACK
 ```
 
----
+______________________________________________________________________
 
-# 29. SYSTEM-STATE COVERAGE
+## 29. SYSTEM-STATE COVERAGE
 
 Modes may cover only specific system states.
 
@@ -836,9 +840,9 @@ PARTIALLY_CONNECTED
 UNKNOWN_STATE
 ```
 
----
+______________________________________________________________________
 
-# 30. REGIME COVERAGE
+## 30. REGIME COVERAGE
 
 Coverage may differ across:
 
@@ -860,9 +864,9 @@ GOVERNANCE
 MIGRATION
 ```
 
----
+______________________________________________________________________
 
-# 31. EFFECT COVERAGE
+## 31. EFFECT COVERAGE
 
 Candidate effect classes:
 
@@ -890,9 +894,9 @@ GOVERNANCE
 INFORMATION_EXPOSURE
 ```
 
----
+______________________________________________________________________
 
-# 32. RISK COVERAGE
+## 32. RISK COVERAGE
 
 Modes may explicitly cover risk classes such as:
 
@@ -919,9 +923,9 @@ INSTITUTIONAL
 Risk coverage means governance competence, not permission to perform the
 action.
 
----
+______________________________________________________________________
 
-# 33. OBSERVABILITY COVERAGE
+## 33. OBSERVABILITY COVERAGE
 
 Candidate dimensions:
 
@@ -945,9 +949,9 @@ AUDITABILITY
 REPLAYABILITY
 ```
 
----
+______________________________________________________________________
 
-# 34. RECOVERY COVERAGE
+## 34. RECOVERY COVERAGE
 
 Candidate recovery dimensions:
 
@@ -969,9 +973,9 @@ FORWARD_RECOVERY
 MODE_FAILOVER
 ```
 
----
+______________________________________________________________________
 
-# 35. PROVENANCE COVERAGE
+## 35. PROVENANCE COVERAGE
 
 Candidate functions:
 
@@ -993,9 +997,9 @@ DERIVATION TRACKING
 INVALIDATION PROPAGATION
 ```
 
----
+______________________________________________________________________
 
-# 36. AUTHORITY COVERAGE
+## 36. AUTHORITY COVERAGE
 
 Candidate functions:
 
@@ -1013,9 +1017,9 @@ AUTHORITY WITNESS
 COMMIT-TIME REVALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 37. FAILURE COVERAGE
+## 37. FAILURE COVERAGE
 
 The matrix should identify whether a mode handles:
 
@@ -1045,9 +1049,9 @@ COMMIT_FAILURE
 RECOVERY_FAILURE
 ```
 
----
+______________________________________________________________________
 
-# 38. BOOLEAN MATRIX FIREWALL
+## 38. BOOLEAN MATRIX FIREWALL
 
 Do not reduce complex coverage to:
 
@@ -1077,9 +1081,9 @@ VALIDATION
 FRESHNESS
 ```
 
----
+______________________________________________________________________
 
-# 39. COVERAGE CLAIM
+## 39. COVERAGE CLAIM
 
 Conceptually:
 
@@ -1103,9 +1107,9 @@ E =
 
 Coverage without an applicability envelope is incomplete.
 
----
+______________________________________________________________________
 
-# 40. COVERAGE SUFFICIENCY
+## 40. COVERAGE SUFFICIENCY
 
 Conceptually:
 
@@ -1132,9 +1136,9 @@ ValidationSufficient
 with authority/policy evaluated separately where they concern execution
 permission rather than structural coverage.
 
----
+______________________________________________________________________
 
-# 41. COVERAGE STRENGTH
+## 41. COVERAGE STRENGTH
 
 Candidate strength classes:
 
@@ -1154,32 +1158,32 @@ EXPERIMENTAL
 MODEL_ONLY
 ```
 
----
+______________________________________________________________________
 
-# 42. PRIMARY COVERAGE
+## 42. PRIMARY COVERAGE
 
 The preferred mode or composition for a requirement under the declared
 conditions.
 
 Primary does not mean exclusive.
 
----
+______________________________________________________________________
 
-# 43. SECONDARY COVERAGE
+## 43. SECONDARY COVERAGE
 
 Valid but nonpreferred coverage.
 
----
+______________________________________________________________________
 
-# 44. REDUNDANT COVERAGE
+## 44. REDUNDANT COVERAGE
 
 An independent alternate path can satisfy the same requirement.
 
 Independence must be demonstrated.
 
----
+______________________________________________________________________
 
-# 45. FALSE REDUNDANCY
+## 45. FALSE REDUNDANCY
 
 Example:
 
@@ -1203,16 +1207,16 @@ A + B
 
 do not provide full failure-independent redundancy for failures of `D`.
 
----
+______________________________________________________________________
 
-# 46. PROVENANCE REDUNDANCY FIREWALL
+## 46. PROVENANCE REDUNDANCY FIREWALL
 
 Two coverage claims derived from one underlying implementation are not
 independent evidence of coverage.
 
----
+______________________________________________________________________
 
-# 47. FAILURE-DOMAIN REDUNDANCY
+## 47. FAILURE-DOMAIN REDUNDANCY
 
 Redundancy should track shared failure domains.
 
@@ -1240,9 +1244,9 @@ redundancy:
   independence_class:
 ```
 
----
+______________________________________________________________________
 
-# 48. INDEPENDENCE CLASSES
+## 48. INDEPENDENCE CLASSES
 
 Candidate:
 
@@ -1258,9 +1262,9 @@ SAME_ORIGIN
 UNKNOWN
 ```
 
----
+______________________________________________________________________
 
-# 49. GAP ANALYSIS
+## 49. GAP ANALYSIS
 
 The matrix's most important function is identifying uncovered requirements.
 
@@ -1272,9 +1276,9 @@ NoSufficientCoverage(R)
 
 within the active envelope.
 
----
+______________________________________________________________________
 
-# 50. GAP TYPES
+## 50. GAP TYPES
 
 Candidate:
 
@@ -1304,85 +1308,85 @@ PROVENANCE_GAP
 REDUNDANCY_GAP
 ```
 
----
+______________________________________________________________________
 
-# 51. TOTAL GAP
+## 51. TOTAL GAP
 
 No mode or valid composition covers the requirement.
 
----
+______________________________________________________________________
 
-# 52. PARTIAL GAP
+## 52. PARTIAL GAP
 
 Some but not all required semantics are covered.
 
----
+______________________________________________________________________
 
-# 53. CONDITIONAL GAP
+## 53. CONDITIONAL GAP
 
 Coverage exists only if a condition not currently satisfied becomes true.
 
----
+______________________________________________________________________
 
-# 54. REGIME GAP
+## 54. REGIME GAP
 
 Coverage exists in another regime but not the current one.
 
----
+______________________________________________________________________
 
-# 55. SCOPE GAP
+## 55. SCOPE GAP
 
 Coverage exists only outside the requested scope.
 
----
+______________________________________________________________________
 
-# 56. VERSION GAP
+## 56. VERSION GAP
 
 Coverage exists for a different mode/system version.
 
----
+______________________________________________________________________
 
-# 57. TEMPORAL GAP
+## 57. TEMPORAL GAP
 
 Coverage was valid historically but is stale now.
 
----
+______________________________________________________________________
 
-# 58. AUTHORITY GAP
+## 58. AUTHORITY GAP
 
 Structural coverage exists but the required authority path does not.
 
 This should remain distinct from capability coverage.
 
----
+______________________________________________________________________
 
-# 59. OBSERVABILITY GAP
+## 59. OBSERVABILITY GAP
 
 The task can execute but completion/failure cannot be adequately observed.
 
----
+______________________________________________________________________
 
-# 60. RECOVERY GAP
+## 60. RECOVERY GAP
 
 Execution coverage exists but no valid recovery path exists.
 
 For irreversible or high-risk tasks this may become a critical gap.
 
----
+______________________________________________________________________
 
-# 61. PROVENANCE GAP
+## 61. PROVENANCE GAP
 
 Coverage is claimed, but source lineage or independence cannot be established.
 
----
+______________________________________________________________________
 
-# 62. REDUNDANCY GAP
+## 62. REDUNDANCY GAP
 
 Coverage exists but only through a single failure domain.
 
----
+______________________________________________________________________
 
-# 63. GAP CLASSIFICATION
+## 63. GAP CLASSIFICATION
 
 Use:
 
@@ -1398,9 +1402,9 @@ COSMETIC
 
 Resolve in that order.
 
----
+______________________________________________________________________
 
-# 64. CRITICAL COVERAGE GAP
+## 64. CRITICAL COVERAGE GAP
 
 A requirement is critical when lack of coverage prevents safe execution or
 governed decision-making.
@@ -1413,27 +1417,27 @@ IRREVERSIBLE EFFECT
 NO POST-EFFECT OBSERVABILITY
 ```
 
----
+______________________________________________________________________
 
-# 65. DECISION-RELEVANT GAP
+## 65. DECISION-RELEVANT GAP
 
 Could change mode selection or execution plan.
 
----
+______________________________________________________________________
 
-# 66. EXPLANATORY GAP
+## 66. EXPLANATORY GAP
 
 Limits documentation but not the current action.
 
----
+______________________________________________________________________
 
-# 67. COSMETIC GAP
+## 67. COSMETIC GAP
 
 Non-semantic matrix metadata.
 
----
+______________________________________________________________________
 
-# 68. OVERLAP ANALYSIS
+## 68. OVERLAP ANALYSIS
 
 Multiple modes may cover the same requirement.
 
@@ -1457,9 +1461,9 @@ FALSE REDUNDANCY
 
 The matrix must distinguish them.
 
----
+______________________________________________________________________
 
-# 69. COVERAGE OVERLAP RECORD
+## 69. COVERAGE OVERLAP RECORD
 
 ```yaml
 ModeCoverageOverlap:
@@ -1485,9 +1489,9 @@ ModeCoverageOverlap:
   preferred_resolution:
 ```
 
----
+______________________________________________________________________
 
-# 70. SPECIALIZED OVERLAP
+## 70. SPECIALIZED OVERLAP
 
 Example:
 
@@ -1501,9 +1505,9 @@ high-stakes research
 
 Both cover research, but their applicability envelopes differ.
 
----
+______________________________________________________________________
 
-# 71. DUPLICATE COVERAGE
+## 71. DUPLICATE COVERAGE
 
 Two modes may have effectively identical purpose, constraints, and
 dependencies.
@@ -1522,9 +1526,9 @@ UNRESOLVED SUPERSESSION
 
 and should trigger mode identity review.
 
----
+______________________________________________________________________
 
-# 72. CONFLICTED OVERLAP
+## 72. CONFLICTED OVERLAP
 
 Two modes both claim primary control of the same requirement while imposing
 incompatible semantics.
@@ -1535,9 +1539,9 @@ Link to:
 MODE_CONFLICT_REGISTRY
 ```
 
----
+______________________________________________________________________
 
-# 73. COMPOSITE COVERAGE
+## 73. COMPOSITE COVERAGE
 
 Some requirements are covered only through composition.
 
@@ -1573,9 +1577,9 @@ CompositeCoverageRecord:
   invalidation_conditions:
 ```
 
----
+______________________________________________________________________
 
-# 74. COMPOSITION FIREWALL
+## 74. COMPOSITION FIREWALL
 
 ```text
 Coverage(A,R1)
@@ -1591,9 +1595,9 @@ Coverage(A⊕B,R1+R2)
 
 unless composition validity is established.
 
----
+______________________________________________________________________
 
-# 75. END-TO-END COVERAGE
+## 75. END-TO-END COVERAGE
 
 A task may require a pipeline:
 
@@ -1616,9 +1620,9 @@ RECOVER IF REQUIRED
 Coverage is end-to-end only when all load-bearing stages are sufficiently
 covered.
 
----
+______________________________________________________________________
 
-# 76. CHAIN COVERAGE
+## 76. CHAIN COVERAGE
 
 Conceptually:
 
@@ -1636,9 +1640,9 @@ Coverage(StageN)
 
 subject to valid stage composition.
 
----
+______________________________________________________________________
 
-# 77. WEAKEST-LINK CEILING
+## 77. WEAKEST-LINK CEILING
 
 ```text
 Confidence(EndToEndCoverage)
@@ -1650,9 +1654,9 @@ MIN(
 
 unless a weak stage is independently revalidated.
 
----
+______________________________________________________________________
 
-# 78. COVERAGE PATH
+## 78. COVERAGE PATH
 
 ```yaml
 ModeCoveragePath:
@@ -1680,9 +1684,9 @@ ModeCoveragePath:
   confidence_ceiling:
 ```
 
----
+______________________________________________________________________
 
-# 79. SINGLE POINT OF FAILURE
+## 79. SINGLE POINT OF FAILURE
 
 A requirement has a structural SPOF when all valid coverage paths depend on
 one load-bearing component.
@@ -1695,9 +1699,9 @@ D
 
 Then `D` is a coverage-critical dependency.
 
----
+______________________________________________________________________
 
-# 80. SPOF RECORD
+## 80. SPOF RECORD
 
 ```yaml
 CoverageSinglePointOfFailure:
@@ -1719,42 +1723,42 @@ CoverageSinglePointOfFailure:
   criticality:
 ```
 
----
+______________________________________________________________________
 
-# 81. SHARED AUTHORITY SPOF
+## 81. SHARED AUTHORITY SPOF
 
 Multiple modes may provide technical redundancy but all require one authority
 principal.
 
 That authority can remain a control-plane single point of failure.
 
----
+______________________________________________________________________
 
-# 82. SHARED PROVENANCE SPOF
+## 82. SHARED PROVENANCE SPOF
 
 Multiple coverage claims may all rely on one source family.
 
 This creates an epistemic rather than operational SPOF.
 
----
+______________________________________________________________________
 
-# 83. SHARED EFFECT-TARGET SPOF
+## 83. SHARED EFFECT-TARGET SPOF
 
 Multiple execution modes may act on one external receiver.
 
 Receiver failure can defeat all paths.
 
----
+______________________________________________________________________
 
-# 84. SHARED RUNTIME SPOF
+## 84. SHARED RUNTIME SPOF
 
 Different logical modes may rely on one runtime substrate.
 
 Logical mode count does not imply infrastructure redundancy.
 
----
+______________________________________________________________________
 
-# 85. COVERAGE DENSITY
+## 85. COVERAGE DENSITY
 
 Coverage density may be calculated as an operational metric.
 
@@ -1768,9 +1772,9 @@ HIGH QUALITY
 
 A matrix full of stale or correlated cells may be misleading.
 
----
+______________________________________________________________________
 
-# 86. COVERAGE QUALITY
+## 86. COVERAGE QUALITY
 
 Coverage quality should consider:
 
@@ -1794,9 +1798,9 @@ OBSERVABILITY
 
 not raw cell count.
 
----
+______________________________________________________________________
 
-# 87. COVERAGE DEBT
+## 87. COVERAGE DEBT
 
 Candidate concept:
 
@@ -1807,9 +1811,9 @@ COVERAGE_DEBT
 represents known requirements with weak, stale, conditional, or unvalidated
 coverage that do not yet block current operations but may become material.
 
----
+______________________________________________________________________
 
-# 88. COVERAGE DEBT RECORD
+## 88. COVERAGE DEBT RECORD
 
 ```yaml
 CoverageDebt:
@@ -1829,9 +1833,9 @@ CoverageDebt:
   recommended_revalidation:
 ```
 
----
+______________________________________________________________________
 
-# 89. COVERAGE DRIFT
+## 89. COVERAGE DRIFT
 
 Coverage can drift as:
 
@@ -1853,9 +1857,9 @@ ENVIRONMENT CHANGES
 
 The matrix must therefore be freshness-aware.
 
----
+______________________________________________________________________
 
-# 90. FRESHNESS
+## 90. FRESHNESS
 
 Each load-bearing cell may include:
 
@@ -1871,9 +1875,9 @@ freshness:
   revalidation_trigger:
 ```
 
----
+______________________________________________________________________
 
-# 91. STALE CELL
+## 91. STALE CELL
 
 If freshness expires:
 
@@ -1893,9 +1897,9 @@ STALE
 
 until revalidated.
 
----
+______________________________________________________________________
 
-# 92. MATRIX EPOCH
+## 92. MATRIX EPOCH
 
 Conceptually:
 
@@ -1919,9 +1923,9 @@ CoverageMatrixEpoch:
   capability_epoch:
 ```
 
----
+______________________________________________________________________
 
-# 93. READ SET
+## 93. READ SET
 
 A matrix snapshot may depend on:
 
@@ -1949,9 +1953,9 @@ REGIME
 PROVENANCE
 ```
 
----
+______________________________________________________________________
 
-# 94. MVCC PATTERN
+## 94. MVCC PATTERN
 
 Conceptually:
 
@@ -1974,9 +1978,9 @@ USE            RECOMPUTE
 
 This is a reasoning pattern, not a claim of literal implementation.
 
----
+______________________________________________________________________
 
-# 95. SELECTIVE INVALIDATION
+## 95. SELECTIVE INVALIDATION
 
 If one mode changes:
 
@@ -1989,9 +1993,9 @@ MODE A@v2
 invalidate only cells and aggregate conclusions that depend on `A@v1`
 semantics.
 
----
+______________________________________________________________________
 
-# 96. MATRIX DEPENDENCY GRAPH
+## 96. MATRIX DEPENDENCY GRAPH
 
 ```text
 MODE A
@@ -2015,9 +2019,9 @@ may need revalidation.
 
 Unrelated cells remain valid.
 
----
+______________________________________________________________________
 
-# 97. GLOBAL RECOMPUTATION
+## 97. GLOBAL RECOMPUTATION
 
 Global matrix rebuild is last resort.
 
@@ -2035,9 +2039,9 @@ SYSTEM-WIDE POLICY INVALIDATES MANY CELLS
 PROVENANCE COLLAPSE IS SYSTEMIC
 ```
 
----
+______________________________________________________________________
 
-# 98. TASK CONTRACT INTEGRATION
+## 98. TASK CONTRACT INTEGRATION
 
 Given Task Contract `T`, the matrix should derive required coverage vector:
 
@@ -2069,9 +2073,9 @@ TaskCoverageRequirement:
   authority: []
 ```
 
----
+______________________________________________________________________
 
-# 99. TASK-SPECIFIC COVERAGE
+## 99. TASK-SPECIFIC COVERAGE
 
 ```text
 CoverageForTask(T)
@@ -2081,9 +2085,9 @@ should use only matrix dimensions material to `T`.
 
 Do not compute the whole universe for every task.
 
----
+______________________________________________________________________
 
-# 100. SMALLEST SUFFICIENT PROOF SCOPE
+## 100. SMALLEST SUFFICIENT PROOF SCOPE
 
 AMOS v4.4 fast path:
 
@@ -2095,9 +2099,9 @@ THAT CAN CHANGE
 THE TASK DECISION.
 ```
 
----
+______________________________________________________________________
 
-# 101. CAPABILITY RESOLVER INTEGRATION
+## 101. CAPABILITY RESOLVER INTEGRATION
 
 The matrix may answer:
 
@@ -2116,9 +2120,9 @@ MODE COVERAGE
 LIVE CAPABILITY AVAILABILITY
 ```
 
----
+______________________________________________________________________
 
-# 102. MODE COMPOSITION REGISTRY INTEGRATION
+## 102. MODE COMPOSITION REGISTRY INTEGRATION
 
 When coverage requires multiple modes:
 
@@ -2132,9 +2136,9 @@ MODE COMPOSITION REGISTRY
 valid / invalid / conditional
 ```
 
----
+______________________________________________________________________
 
-# 103. MODE CONFLICT REGISTRY INTEGRATION
+## 103. MODE CONFLICT REGISTRY INTEGRATION
 
 If overlapping coverage is contradictory:
 
@@ -2146,9 +2150,9 @@ MODE_CONFLICT_REGISTRY
 
 The matrix should not resolve the conflict silently.
 
----
+______________________________________________________________________
 
-# 104. MODE ADMISSION INTEGRATION
+## 104. MODE ADMISSION INTEGRATION
 
 Coverage claims for non-admitted modes should be marked accordingly.
 
@@ -2160,9 +2164,9 @@ PROPOSED COVERAGE
 
 but must not appear as active canonical coverage until admitted.
 
----
+______________________________________________________________________
 
-# 105. CANDIDATE COVERAGE
+## 105. CANDIDATE COVERAGE
 
 Candidate modes may be included in planning views if clearly labeled:
 
@@ -2172,9 +2176,9 @@ CANDIDATE_ONLY
 
 and excluded from guaranteed coverage calculations unless policy allows.
 
----
+______________________________________________________________________
 
-# 106. AUTHORITY COVERAGE FIREWALL
+## 106. AUTHORITY COVERAGE FIREWALL
 
 A mode may know how to perform an operation but not have authority to do so.
 
@@ -2186,36 +2190,36 @@ TECHNICAL COVERAGE
 AUTHORIZED COVERAGE
 ```
 
----
+______________________________________________________________________
 
-# 107. POLICY COVERAGE FIREWALL
+## 107. POLICY COVERAGE FIREWALL
 
 Coverage under current policy must remain separate from capability existence.
 
----
+______________________________________________________________________
 
-# 108. EFFECT COVERAGE FIREWALL
+## 108. EFFECT COVERAGE FIREWALL
 
 A mode that can produce an effect is not necessarily permitted to produce it
 for the current task.
 
----
+______________________________________________________________________
 
-# 109. OBSERVABILITY FIREWALL
+## 109. OBSERVABILITY FIREWALL
 
 Execution capability without observation may be insufficient for tasks whose
 completion condition requires external confirmation.
 
----
+______________________________________________________________________
 
-# 110. RECOVERY FIREWALL
+## 110. RECOVERY FIREWALL
 
 Coverage for high-risk execution may be incomplete if no acceptable recovery
 or containment path exists.
 
----
+______________________________________________________________________
 
-# 111. CAUSAL FIREWALL
+## 111. CAUSAL FIREWALL
 
 Mode coverage should not infer causal effectiveness merely from structural
 fit.
@@ -2230,9 +2234,9 @@ improves recovery
 must not be treated as empirically established causal coverage unless
 appropriately validated.
 
----
+______________________________________________________________________
 
-# 112. PROVENANCE
+## 112. PROVENANCE
 
 Every consequential coverage cell should retain:
 
@@ -2252,9 +2256,9 @@ VALIDATION BASIS
 CORRELATION RISK
 ```
 
----
+______________________________________________________________________
 
-# 113. SOURCE CLAIM
+## 113. SOURCE CLAIM
 
 Documentation saying:
 
@@ -2270,9 +2274,9 @@ SOURCE_CLAIM
 
 not `VERIFIED`.
 
----
+______________________________________________________________________
 
-# 114. OBSERVATION
+## 114. OBSERVATION
 
 One successful execution:
 
@@ -2284,22 +2288,22 @@ supports an observation within that execution envelope.
 
 It does not establish universal coverage.
 
----
+______________________________________________________________________
 
-# 115. DERIVED COVERAGE
+## 115. DERIVED COVERAGE
 
 Coverage inferred from validated dependencies remains `DERIVED`.
 
----
+______________________________________________________________________
 
-# 116. MODEL COVERAGE
+## 116. MODEL COVERAGE
 
 Architecture diagrams or simulations remain `MODEL` until stronger evidence
 exists.
 
----
+______________________________________________________________________
 
-# 117. CONCLUSION CLASSES
+## 117. CONCLUSION CLASSES
 
 Use:
 
@@ -2319,9 +2323,9 @@ UNKNOWN/GAP
 
 The weakest accurate class governs.
 
----
+______________________________________________________________________
 
-# 118. PROVENANCE TOPOLOGY
+## 118. PROVENANCE TOPOLOGY
 
 Multiple matrix cells may derive from one source.
 
@@ -2334,9 +2338,9 @@ SOURCE A
 
 This does not create independent validation.
 
----
+______________________________________________________________________
 
-# 119. SYBIL HARDENING
+## 119. SYBIL HARDENING
 
 Do not inflate coverage confidence through:
 
@@ -2352,16 +2356,16 @@ FORKED DOCUMENTS
 REPEATED REGISTRY ROWS
 ```
 
----
+______________________________________________________________________
 
-# 120. COVERAGE INDEPENDENCE
+## 120. COVERAGE INDEPENDENCE
 
 Independent redundancy requires independent load-bearing ancestry or failure
 domains appropriate to the requirement.
 
----
+______________________________________________________________________
 
-# 121. COMPETING COVERAGE CLAIMS
+## 121. COMPETING COVERAGE CLAIMS
 
 If:
 
@@ -2387,9 +2391,9 @@ CONCLUSION CLASS = COMPETING
 
 until discriminating evidence exists.
 
----
+______________________________________________________________________
 
-# 122. DISCRIMINATING TEST
+## 122. DISCRIMINATING TEST
 
 Candidate coverage test:
 
@@ -2423,9 +2427,9 @@ CoverageDiscriminatingTest:
   provenance:
 ```
 
----
+______________________________________________________________________
 
-# 123. TEST PRIORITY
+## 123. TEST PRIORITY
 
 Prefer the cheapest test capable of flipping:
 
@@ -2439,9 +2443,9 @@ EXECUTION ELIGIBILITY
 RECOVERY REQUIREMENT
 ```
 
----
+______________________________________________________________________
 
-# 124. SENSITIVITY
+## 124. SENSITIVITY
 
 Find the smallest assumption that changes coverage.
 
@@ -2456,16 +2460,16 @@ network access
 If that is the only fragile premise, test network dependence before deeper
 analysis.
 
----
+______________________________________________________________________
 
-# 125. ROBUST COVERAGE
+## 125. ROBUST COVERAGE
 
 Coverage is robust when plausible perturbations of noncritical assumptions do
 not alter sufficiency.
 
----
+______________________________________________________________________
 
-# 126. FRAGILE COVERAGE
+## 126. FRAGILE COVERAGE
 
 If small changes flip coverage:
 
@@ -2475,9 +2479,9 @@ CONDITIONAL
 
 and expose the load-bearing condition.
 
----
+______________________________________________________________________
 
-# 127. COVERAGE SCORE FIREWALL
+## 127. COVERAGE SCORE FIREWALL
 
 A numeric score may be useful operationally, but must not erase semantics.
 
@@ -2495,9 +2499,9 @@ PARTIAL BUT CURRENT
 
 to one opaque number without preserving the underlying vector.
 
----
+______________________________________________________________________
 
-# 128. COVERAGE VECTOR
+## 128. COVERAGE VECTOR
 
 Conceptually:
 
@@ -2517,18 +2521,18 @@ CoverageVector =
 )
 ```
 
----
+______________________________________________________________________
 
-# 129. NO UNIVERSAL WEIGHTS
+## 129. NO UNIVERSAL WEIGHTS
 
 This specification does not assert universal numeric weights for coverage
 scoring.
 
 Weights, if used, must be context-governed and transparent.
 
----
+______________________________________________________________________
 
-# 130. PRIORITY ANALYSIS
+## 130. PRIORITY ANALYSIS
 
 Coverage gaps may be prioritized by:
 
@@ -2552,17 +2556,17 @@ RECOVERY WEAKNESS
 FRESHNESS
 ```
 
----
+______________________________________________________________________
 
-# 131. MODE CENTRALITY
+## 131. MODE CENTRALITY
 
 A mode covering many critical requirements can become a systemic dependency.
 
 High centrality is not automatically desirable.
 
----
+______________________________________________________________________
 
-# 132. CENTRALITY RISK
+## 132. CENTRALITY RISK
 
 ```text
 HIGH COVERAGE
@@ -2572,9 +2576,9 @@ NO INDEPENDENT FALLBACK
 CONCENTRATION RISK
 ```
 
----
+______________________________________________________________________
 
-# 133. COVERAGE BALANCE
+## 133. COVERAGE BALANCE
 
 A healthy matrix may prefer:
 
@@ -2592,17 +2596,17 @@ EXPLICIT GAPS
 
 rather than maximum overlap everywhere.
 
----
+______________________________________________________________________
 
-# 134. MODE BLOAT FIREWALL
+## 134. MODE BLOAT FIREWALL
 
 A new mode should not be admitted merely to fill a cosmetic matrix gap.
 
 Coverage gap importance must be decision-relevant.
 
----
+______________________________________________________________________
 
-# 135. GOVERNED EVOLUTION
+## 135. GOVERNED EVOLUTION
 
 A critical uncovered requirement may trigger:
 
@@ -2622,9 +2626,9 @@ ARCHITECTURE CHANGE
 
 through GMEF as appropriate.
 
----
+______________________________________________________________________
 
-# 136. GMEF INTEGRATION
+## 136. GMEF INTEGRATION
 
 Coverage analysis can supply evidence to governed evolution.
 
@@ -2642,9 +2646,9 @@ MODE ADMISSION
 COVERAGE REVALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 137. RSCF INTEGRATION
+## 137. RSCF INTEGRATION
 
 A coverage claim may be represented as:
 
@@ -2681,9 +2685,9 @@ ModeCoverageRSCF:
   invalidation_conditions:
 ```
 
----
+______________________________________________________________________
 
-# 138. RECURSIVE RSCF
+## 138. RECURSIVE RSCF
 
 ```text
 COVERAGE RSCF
@@ -2698,17 +2702,17 @@ COVERAGE RSCF
 └── RECOVERY RSCF
 ```
 
----
+______________________________________________________________________
 
-# 139. ATOMIC MULTI-RSCF
+## 139. ATOMIC MULTI-RSCF
 
 For end-to-end coverage, several RSCFs may jointly support one conclusion.
 
 They must be evaluated against compatible scope, regime, and state.
 
----
+______________________________________________________________________
 
-# 140. H/M/L INTEGRATION
+## 140. H/M/L INTEGRATION
 
 Suggested retrieval:
 
@@ -2724,9 +2728,9 @@ L REQUIREMENT / MODE CELL
 RAW EVIDENCE IF REQUIRED
 ```
 
----
+______________________________________________________________________
 
-# 141. RAW EVIDENCE RULE
+## 141. RAW EVIDENCE RULE
 
 Raw evidence defaults:
 
@@ -2756,9 +2760,9 @@ VERSION
 FAILURE
 ```
 
----
+______________________________________________________________________
 
-# 142. COVERAGE FAST PATH
+## 142. COVERAGE FAST PATH
 
 A local coverage lookup may use fast path only when:
 
@@ -2784,9 +2788,9 @@ DEPENDENCIES VALID
 NO COMPOSITION AMBIGUITY
 ```
 
----
+______________________________________________________________________
 
-# 143. FAST-PATH DENIAL
+## 143. FAST-PATH DENIAL
 
 Escalate if:
 
@@ -2812,23 +2816,23 @@ PROVENANCE CORRELATED
 RECOVERY GAP
 ```
 
----
+______________________________________________________________________
 
-# 144. CAUSAL EPOCH FINALITY
+## 144. CAUSAL EPOCH FINALITY
 
 Coverage based on a causal state valid in one epoch must not silently cross to
 another material causal epoch.
 
----
+______________________________________________________________________
 
-# 145. PROOF-BASED COORDINATION AVOIDANCE
+## 145. PROOF-BASED COORDINATION AVOIDANCE
 
 Do not query unrelated matrix regions if proof shows they cannot alter the
 task's coverage decision.
 
----
+______________________________________________________________________
 
-# 146. LOCAL COVERAGE CLOSURE
+## 146. LOCAL COVERAGE CLOSURE
 
 Conceptually:
 
@@ -2846,9 +2850,9 @@ Conflicts
 
 Stop when the load-bearing closure is sufficient.
 
----
+______________________________________________________________________
 
-# 147. EVENT MODEL
+## 147. EVENT MODEL
 
 Candidate events:
 
@@ -2878,9 +2882,9 @@ MODE_COVERAGE_MATRIX_EPOCH_ADVANCED
 
 Exact event identifiers remain specification-level.
 
----
+______________________________________________________________________
 
-# 148. EVENT RECORD
+## 148. EVENT RECORD
 
 ```yaml
 ModeCoverageEvent:
@@ -2910,9 +2914,9 @@ ModeCoverageEvent:
   timestamp:
 ```
 
----
+______________________________________________________________________
 
-# 149. OBSERVABILITY
+## 149. OBSERVABILITY
 
 The matrix should make it possible to answer:
 
@@ -2942,9 +2946,9 @@ WHICH MODE IS A SYSTEMIC SINGLE POINT OF FAILURE?
 WHICH GAPS BLOCK CURRENT TASKS?
 ```
 
----
+______________________________________________________________________
 
-# 150. METRICS
+## 150. METRICS
 
 Conceptually:
 
@@ -2982,9 +2986,9 @@ metrics:
 
 Metrics do not prove correctness.
 
----
+______________________________________________________________________
 
-# 151. FAILURE MODES
+## 151. FAILURE MODES
 
 ```text
 MCM-F01 BOOLEAN_OVERSIMPLIFICATION
@@ -3028,9 +3032,9 @@ MCM-F19 COVERAGE_BLOAT
 MCM-F20 FALSE_CANONICALIZATION
 ```
 
----
+______________________________________________________________________
 
-# 152. BOOLEAN OVERSIMPLIFICATION
+## 152. BOOLEAN OVERSIMPLIFICATION
 
 Unsafe:
 
@@ -3046,9 +3050,9 @@ CONDITIONAL
 STALE
 ```
 
----
+______________________________________________________________________
 
-# 153. UNKNOWN-AS-UNCOVERED
+## 153. UNKNOWN-AS-UNCOVERED
 
 Unsafe:
 
@@ -3066,9 +3070,9 @@ UNKNOWN/GAP
 
 unless search scope is authoritative and closed.
 
----
+______________________________________________________________________
 
-# 154. PARTIAL-AS-FULL
+## 154. PARTIAL-AS-FULL
 
 Unsafe:
 
@@ -3078,84 +3082,84 @@ Mode handles 2 of 3 required stages
 FULL COVERAGE
 ```
 
----
+______________________________________________________________________
 
-# 155. SCOPE LEAK
+## 155. SCOPE LEAK
 
 Coverage in subsystem A must not become global coverage.
 
----
+______________________________________________________________________
 
-# 156. REGIME LEAK
+## 156. REGIME LEAK
 
 Coverage in sandbox must not imply production coverage.
 
----
+______________________________________________________________________
 
-# 157. VERSION LEAK
+## 157. VERSION LEAK
 
 Coverage for v1 must not imply v2.
 
----
+______________________________________________________________________
 
-# 158. COMPOSITION OVERREACH
+## 158. COMPOSITION OVERREACH
 
 Individual cells do not establish valid composition.
 
----
+______________________________________________________________________
 
-# 159. FALSE REDUNDANCY
+## 159. FALSE REDUNDANCY
 
 Two paths with one shared critical dependency do not provide full
 failure-independent coverage.
 
----
+______________________________________________________________________
 
-# 160. HIDDEN SPOF
+## 160. HIDDEN SPOF
 
 The matrix must identify dependencies shared across apparently distinct modes.
 
----
+______________________________________________________________________
 
-# 161. AUTHORITY CONFUSION
+## 161. AUTHORITY CONFUSION
 
 Technical coverage must not be reported as authorized execution coverage.
 
----
+______________________________________________________________________
 
-# 162. EFFECT CONFUSION
+## 162. EFFECT CONFUSION
 
 A mode's ability to create an effect must not be confused with task
 permission for that effect.
 
----
+______________________________________________________________________
 
-# 163. OBSERVABILITY OMISSION
+## 163. OBSERVABILITY OMISSION
 
 Execution-only coverage may be insufficient when completion must be verified.
 
----
+______________________________________________________________________
 
-# 164. RECOVERY OMISSION
+## 164. RECOVERY OMISSION
 
 Critical execution coverage may be insufficient when failure is unrecoverable
 and task governance requires repairability.
 
----
+______________________________________________________________________
 
-# 165. GLOBAL INVALIDATION
+## 165. GLOBAL INVALIDATION
 
 One cell becoming stale should not invalidate unrelated coverage.
 
----
+______________________________________________________________________
 
-# 166. COVERAGE BLOAT
+## 166. COVERAGE BLOAT
 
 Do not add modes solely to maximize matrix density.
 
----
+______________________________________________________________________
 
-# 167. COVERAGE PROOF CAPSULE
+## 167. COVERAGE PROOF CAPSULE
 
 ```yaml
 ModeCoverageProofCapsule:
@@ -3217,9 +3221,9 @@ ModeCoverageProofCapsule:
   invalidation_conditions:
 ```
 
----
+______________________________________________________________________
 
-# 168. UNCERTAINTY VECTOR
+## 168. UNCERTAINTY VECTOR
 
 ```text
 Ucoverage =
@@ -3236,9 +3240,9 @@ Ucoverage =
 )
 ```
 
----
+______________________________________________________________________
 
-# 169. ADVERSARIAL VALIDATION
+## 169. ADVERSARIAL VALIDATION
 
 For consequential coverage claims, challenge:
 
@@ -3274,9 +3278,9 @@ IS AUTHORITY BEING CONFUSED WITH CAPABILITY?
 ARE MULTIPLE COVERAGE CLAIMS FROM ONE SOURCE ANCESTRY?
 ```
 
----
+______________________________________________________________________
 
-# 170. FALSIFIERS
+## 170. FALSIFIERS
 
 Coverage falsifiers include:
 
@@ -3306,9 +3310,9 @@ AUTHORITY REVOCATION
 
 where applicable to the claim.
 
----
+______________________________________________________________________
 
-# 171. COVERAGE RESOLUTION PSEUDOCODE
+## 171. COVERAGE RESOLUTION PSEUDOCODE
 
 ```text
 function evaluate_coverage(requirement, mode, context):
@@ -3412,9 +3416,9 @@ function evaluate_coverage(requirement, mode, context):
     )
 ```
 
----
+______________________________________________________________________
 
-# 172. TASK COVERAGE PSEUDOCODE
+## 172. TASK COVERAGE PSEUDOCODE
 
 ```text
 function evaluate_task_mode_coverage(task):
@@ -3456,9 +3460,9 @@ function evaluate_task_mode_coverage(task):
     return select_smallest_sufficient_path(paths)
 ```
 
----
+______________________________________________________________________
 
-# 173. SELECTIVE INVALIDATION PSEUDOCODE
+## 173. SELECTIVE INVALIDATION PSEUDOCODE
 
 ```text
 function invalidate_coverage_dependency(dependency):
@@ -3476,9 +3480,9 @@ function invalidate_coverage_dependency(dependency):
     preserve_unaffected_cells()
 ```
 
----
+______________________________________________________________________
 
-# 174. PROPERTY TESTS
+## 174. PROPERTY TESTS
 
 ```text
 ModeExists(M)
@@ -3491,16 +3495,19 @@ PartialCoverage(M,R)
 ↛
 FullCoverage(M,R)
 ```
+
 ```text
 Coverage(M,R,S1)
 ↛
 Coverage(M,R,S2)
 ```
+
 ```text
 Coverage(M@v1,R)
 ↛
 Coverage(M@v2,R)
 ```
+
 ```text
 Coverage(A,R1)
 ∧
@@ -3508,14 +3515,16 @@ Coverage(B,R2)
 ↛
 Coverage(A⊕B,R1+R2)
 ```
+
 ```text
 TwoCoveragePaths
 ↛
 IndependentRedundancy
 ```
----
 
-# 175. SCOPE METAMORPHIC TEST
+______________________________________________________________________
+
+## 175. SCOPE METAMORPHIC TEST
 
 Original:
 
@@ -3536,9 +3545,9 @@ SCOPE-DEPENDENT CELLS
 REVALIDATED
 ```
 
----
+______________________________________________________________________
 
-# 176. REGIME METAMORPHIC TEST
+## 176. REGIME METAMORPHIC TEST
 
 ```text
 TEST
@@ -3552,9 +3561,9 @@ Expected:
 NO SILENT COVERAGE CARRYOVER
 ```
 
----
+______________________________________________________________________
 
-# 177. VERSION METAMORPHIC TEST
+## 177. VERSION METAMORPHIC TEST
 
 ```text
 M@v1
@@ -3569,9 +3578,9 @@ INVALIDATE
 ONLY VERSION-DEPENDENT CELLS
 ```
 
----
+______________________________________________________________________
 
-# 178. COMPOSITION TEST
+## 178. COMPOSITION TEST
 
 Provide two individually sufficient modes whose combination is registered
 incompatible.
@@ -3582,9 +3591,9 @@ Expected:
 NO COMPOSITE COVERAGE
 ```
 
----
+______________________________________________________________________
 
-# 179. REDUNDANCY TEST
+## 179. REDUNDANCY TEST
 
 Provide two modes sharing one critical dependency.
 
@@ -3599,9 +3608,9 @@ CORRELATED
 
 not `INDEPENDENT`.
 
----
+______________________________________________________________________
 
-# 180. PROVENANCE TEST
+## 180. PROVENANCE TEST
 
 Duplicate one source ten times.
 
@@ -3613,9 +3622,9 @@ DOES NOT INCREASE
 DUE TO COPY COUNT
 ```
 
----
+______________________________________________________________________
 
-# 181. STALE TEST
+## 181. STALE TEST
 
 Expire one cell's freshness.
 
@@ -3629,9 +3638,9 @@ STALE
 
 with dependent task paths re-evaluated.
 
----
+______________________________________________________________________
 
-# 182. OBSERVABILITY TEST
+## 182. OBSERVABILITY TEST
 
 Mode can execute effect but cannot observe completion.
 
@@ -3647,9 +3656,9 @@ CRITICAL OBSERVABILITY GAP
 
 not `FULL`.
 
----
+______________________________________________________________________
 
-# 183. RECOVERY TEST
+## 183. RECOVERY TEST
 
 Mode covers irreversible execution but no recovery and task requires
 repairability.
@@ -3660,9 +3669,9 @@ Expected:
 COVERAGE INSUFFICIENT
 ```
 
----
+______________________________________________________________________
 
-# 184. COVERAGE GAP RECORD
+## 184. COVERAGE GAP RECORD
 
 ```yaml
 ModeCoverageGap:
@@ -3692,9 +3701,9 @@ ModeCoverageGap:
   status:
 ```
 
----
+______________________________________________________________________
 
-# 185. COVERAGE REPAIR
+## 185. COVERAGE REPAIR
 
 Potential responses to a coverage gap:
 
@@ -3722,9 +3731,9 @@ CHANGE TASK SCOPE
 
 Only governed and semantically valid repairs are acceptable.
 
----
+______________________________________________________________________
 
-# 186. REPAIR HARM
+## 186. REPAIR HARM
 
 Filling a coverage gap must not create greater risk than leaving it explicit.
 
@@ -3738,9 +3747,9 @@ BAD REPAIR:
 grant unrestricted write everywhere
 ```
 
----
+______________________________________________________________________
 
-# 187. REPAIR PRIORITY
+## 187. REPAIR PRIORITY
 
 Prefer repairs that are:
 
@@ -3758,9 +3767,9 @@ LOW-BLAST-RADIUS
 TESTABLE
 ```
 
----
+______________________________________________________________________
 
-# 188. COVERAGE EVOLUTION
+## 188. COVERAGE EVOLUTION
 
 Coverage history should remain traceable:
 
@@ -3778,9 +3787,9 @@ MODE EVOLUTION
 MATRIX V3
 ```
 
----
+______________________________________________________________________
 
-# 189. SUPERSESSION
+## 189. SUPERSESSION
 
 A newer matrix snapshot does not erase the old one.
 
@@ -3798,9 +3807,9 @@ PRESERVED CELLS
 INVALIDATED CELLS
 ```
 
----
+______________________________________________________________________
 
-# 190. REPLAY
+## 190. REPLAY
 
 A coverage decision may be replayed using:
 
@@ -3822,16 +3831,16 @@ PROVENANCE EPOCH
 SYSTEM STATE
 ```
 
----
+______________________________________________________________________
 
-# 191. REPLAY FIREWALL
+## 191. REPLAY FIREWALL
 
 Successful replay proves reproducibility under replay conditions, not
 universal correctness.
 
----
+______________________________________________________________________
 
-# 192. MATRIX MACHINE FORM
+## 192. MATRIX MACHINE FORM
 
 ```yaml
 mode_coverage_matrix:
@@ -3951,43 +3960,43 @@ mode_coverage_matrix:
   conflicts: []
 ```
 
----
+______________________________________________________________________
 
-# 193. MATRIX VIEW — TASK CLASS
+## 193. MATRIX VIEW — TASK CLASS
 
 Example structure:
 
-| Mode | Info | Analysis | Research | Planning | Execution | Recovery | Governance |
-|---|---|---|---|---|---|---|---|
-| MODE_A | FULL | FULL | PARTIAL | UNKNOWN | NOT_COVERED | NOT_COVERED | NOT_COVERED |
-| MODE_B | PARTIAL | FULL | FULL | FULL | CONDITIONAL | PARTIAL | NOT_COVERED |
+| Mode   | Info    | Analysis | Research | Planning | Execution   | Recovery    | Governance  |
+| ------ | ------- | -------- | -------- | -------- | ----------- | ----------- | ----------- |
+| MODE_A | FULL    | FULL     | PARTIAL  | UNKNOWN  | NOT_COVERED | NOT_COVERED | NOT_COVERED |
+| MODE_B | PARTIAL | FULL     | FULL     | FULL     | CONDITIONAL | PARTIAL     | NOT_COVERED |
 
 This table is only a view over typed coverage cells.
 
 The underlying cells remain authoritative.
 
----
+______________________________________________________________________
 
-# 194. MATRIX VIEW — CONTROL PLANE
+## 194. MATRIX VIEW — CONTROL PLANE
 
-| Mode | Task | Capability | Policy | Authority | Provenance | Effects | Commit | Recovery |
-|---|---|---|---|---|---|---|---|---|
-| MODE_A | FULL | PARTIAL | NOT_COVERED | NOT_COVERED | FULL | PARTIAL | NOT_COVERED | PARTIAL |
+| Mode   | Task | Capability | Policy      | Authority   | Provenance | Effects | Commit      | Recovery |
+| ------ | ---- | ---------- | ----------- | ----------- | ---------- | ------- | ----------- | -------- |
+| MODE_A | FULL | PARTIAL    | NOT_COVERED | NOT_COVERED | FULL       | PARTIAL | NOT_COVERED | PARTIAL  |
 
 Again, the display must not erase scope/regime/validation metadata.
 
----
+______________________________________________________________________
 
-# 195. MATRIX VIEW — COVERAGE QUALITY
+## 195. MATRIX VIEW — COVERAGE QUALITY
 
-| Requirement | Primary Mode | Fallback | Independent? | Current? | Conflict? | Gap |
-|---|---|---|---|---|---|---|
-| R1 | MODE_A | MODE_B | PARTIAL | YES | NO | NONE |
-| R2 | MODE_C | NONE | NO | STALE | YES | CRITICAL |
+| Requirement | Primary Mode | Fallback | Independent? | Current? | Conflict? | Gap      |
+| ----------- | ------------ | -------- | ------------ | -------- | --------- | -------- |
+| R1          | MODE_A       | MODE_B   | PARTIAL      | YES      | NO        | NONE     |
+| R2          | MODE_C       | NONE     | NO           | STALE    | YES       | CRITICAL |
 
----
+______________________________________________________________________
 
-# 196. COVERAGE STATUS SUMMARY
+## 196. COVERAGE STATUS SUMMARY
 
 Candidate compact status:
 
@@ -4019,9 +4028,9 @@ CoverageSummary:
   independent_fallbacks:
 ```
 
----
+______________________________________________________________________
 
-# 197. ANTI-FABRICATION
+## 197. ANTI-FABRICATION
 
 Never transform:
 
@@ -4067,9 +4076,9 @@ INDEPENDENT REDUNDANCY
 
 without independence proof.
 
----
+______________________________________________________________________
 
-# 198. ANTI-REGRESSION
+## 198. ANTI-REGRESSION
 
 Matrix optimization must preserve or improve:
 
@@ -4103,9 +4112,9 @@ SELECTIVE INVALIDATION
 AUDITABILITY
 ```
 
----
+______________________________________________________________________
 
-# 199. KNOWN GAPS
+## 199. KNOWN GAPS
 
 ```yaml
 KnownGaps:
@@ -4151,9 +4160,9 @@ KnownGaps:
       is asserted by this specification.
 ```
 
----
+______________________________________________________________________
 
-# 200. PROMOTION CHECKLIST
+## 200. PROMOTION CHECKLIST
 
 ```text
 [ ] canonical repository location confirmed
@@ -4235,9 +4244,9 @@ KnownGaps:
 [ ] steward approval completed
 ```
 
----
+______________________________________________________________________
 
-# 201. CANONICAL COMPRESSION
+## 201. CANONICAL COMPRESSION
 
 ```text
 MODE COVERAGE MATRIX
@@ -4356,9 +4365,9 @@ AT THE COST OF
 INTEGRITY.
 ```
 
----
+______________________________________________________________________
 
-# 202. MASTER CONTRACT
+## 202. MASTER CONTRACT
 
 Conceptually:
 
@@ -4420,9 +4429,9 @@ RECOVERY SUFFICIENCY
 SELECTIVE INVALIDATION
 ```
 
----
+______________________________________________________________________
 
-# 203. FINAL LAW
+## 203. FINAL LAW
 
 ```text
 WHEN ASKING:
@@ -4552,29 +4561,33 @@ IS MORE IMPORTANT
 THAN COVERAGE DENSITY.
 ```
 
-# END — MODE COVERAGE MATRIX
+## END — MODE COVERAGE MATRIX
 
 ```
 
 This is `DERIVED / CANDIDATE_CANON`, not recovered original canon. The actual Drive file still contains only the reservation placeholder and explicitly warns against treating it as implemented logic or final canon.
 ```
 
----
+______________________________________________________________________
 
 [[00_ROOT/00_ROOT_MOC|00_ROOT_MOC]]|[[00_ROOT/AMOS MOC|AMOS MOC]]
 
----
+______________________________________________________________________
+
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: mode_coverage_matrix
 node_type: note
 path: 03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX/MODE_COVERAGE_MATRIX.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
-  - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
-claim_class: AMOS_MODEL
 
----
+- INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
+- INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
+  claim_class: AMOS_MODEL
+
+______________________________________________________________________
+
 **MOC:** [[03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX/00_MODE_INDEX_MOC|00_MODE_INDEX_MOC]]

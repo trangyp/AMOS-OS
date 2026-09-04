@@ -12,19 +12,19 @@ segment: 21_DOMAINS/06_BIOLOGY
 artifact_kind: DOMAIN_ENGINE
 path: 21_DOMAINS/06_BIOLOGY/NBI.md
 tags:
-- amos-os
-- domain
-- vault
-- 06_biology
-- nbi
-- neurobiological_intelligence
-- cognitive_load_limits
-- rscf
-- canon_candidate
-- canon/domain
-- ubi-neurobiological-intelligence
-- unified-biological-intelligence
-- ubi-x-full-brain
+  - amos-os
+  - domain
+  - vault
+  - 06_biology
+  - nbi
+  - neurobiological_intelligence
+  - cognitive_load_limits
+  - rscf
+  - canon_candidate
+  - canon/domain
+  - ubi-neurobiological-intelligence
+  - unified-biological-intelligence
+  - ubi-x-full-brain
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -39,13 +39,13 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-  - 11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/UBI_NEUROBIOLOGICAL_INTELLIGENCE
-  - 11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE
-  - AMOS_CORPUS
+    - 11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/UBI_NEUROBIOLOGICAL_INTELLIGENCE
+    - 11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE
+    - AMOS_CORPUS
   scope:
-  - DOMAIN_BIOLOGY
-  - NBI_ENGINE
-  - SOURCE_DEFINED_MODEL
+    - DOMAIN_BIOLOGY
+    - NBI_ENGINE
+    - SOURCE_DEFINED_MODEL
 framework_binding:
   domain_knowledge:
     artifact: 11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/UBI_NEUROBIOLOGICAL_INTELLIGENCE
@@ -64,25 +64,25 @@ epistemic_boundary:
 
 `NBI.md` is the canonical Domain Plane specification governing the real-time telemetry ingestion, working memory load estimation, and neural frequency phase-locking of the **Neurobiological Intelligence (NBI)** subsystem within `21_DOMAINS/06_BIOLOGY`.
 
----
+______________________________________________________________________
 
-# 1. NBI Operational Mechanics
+## 1. NBI Operational Mechanics
 
 1. **Cortical Load Governance:** Monitors token ingestion rate and neural fatigue indices to prevent working memory saturation.
-2. **Phase Synchronization:** Measures continuous theta/gamma oscillations to align inference pacing.
-3. **Non-Compensatory Vector:** Emits normalized scalar $\text{NBI} \in [0, 1]$ into the UBI composite alignment formula $i_{\text{UBI}} = (\text{NBI} \cdot \text{NEI} \cdot \text{SI} \cdot \text{BEI})^{1/4}$.
+1. **Phase Synchronization:** Measures continuous theta/gamma oscillations to align inference pacing.
+1. **Non-Compensatory Vector:** Emits normalized scalar $\text{NBI} \in [0, 1]$ into the UBI composite alignment formula $i_{\text{UBI}} = (\text{NBI} \cdot \text{NEI} \cdot \text{SI} \cdot \text{BEI})^{1/4}$.
 
----
+______________________________________________________________________
 
-# 2. Inter-Plane & Vault Connections
+## 2. Inter-Plane & Vault Connections
 
 - **Knowledge Domain:** 11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/[[11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/UBI_NEUROBIOLOGICAL_INTELLIGENCE|UBI_NEUROBIOLOGICAL_INTELLIGENCE]]
 - **Biological Master:** 11_KNOWLEDGE/05_FRAMEWORKS/[[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]]
 - **Cognitive Matrix:** 25_COGNITIVE_MATRIX/[[25_COGNITIVE_MATRIX/UBI_X_FULL_BRAIN|UBI_X_FULL_BRAIN]]
 
----
+______________________________________________________________________
 
-# 3. RSCF Contract
+## 3. RSCF Contract
 
 ```yaml
 RSCF:
@@ -100,10 +100,10 @@ RSCF:
     runtime: UNKNOWN
 ```
 
----
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[21_DOMAINS/21_DOMAINS_MOC|21_DOMAINS_MOC]] · 11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/[[11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/UBI_NEUROBIOLOGICAL_INTELLIGENCE|UBI_NEUROBIOLOGICAL_INTELLIGENCE]] · 11_KNOWLEDGE/05_FRAMEWORKS/[[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE|UNIFIED_BIOLOGICAL_INTELLIGENCE]]
 
----
-**MOC:** [[21_DOMAINS/21_DOMAINS_MOC|21_DOMAINS_MOC]]
+______________________________________________________________________
 
+**MOC:** [[21_DOMAINS/21_DOMAINS_MOC|21_DOMAINS_MOC]]

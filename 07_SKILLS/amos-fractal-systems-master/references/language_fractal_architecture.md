@@ -1,13 +1,16 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: language fractal architecture
 type: reference
 source: 07_SKILLS/amos-fractal-systems-master/references
 tags:
-- reference
-- amos-fractal-systems-master
-- type/skill
-- law-hierarchy
-- trang-framework-recursive-ontology-dynamics
+  - reference
+  - amos-fractal-systems-master
+  - type/skill
+  - law-hierarchy
+  - trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -20,14 +23,11 @@ rscf:
 > Source: `_00_Cosmo brain/fractal/Language Fractal Architecture.md`
 > Epistemic class: SOURCE_DERIVED
 
----
-type: doc
-title: Language Fractal Architecture — Fractal Cognitive Architecture and H/M/L Runtime
-created: 2026-08-22
-tags: [canon-group/fractal, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/language-fractal-architecture, fractal]
----
+______________________________________________________________________
 
-# Language Fractal Architecture — part 2
+## type: doc title: Language Fractal Architecture — Fractal Cognitive Architecture and H/M/L Runtime created: 2026-08-22 tags: [canon-group/fractal, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/language-fractal-architecture, fractal]
+
+## Language Fractal Architecture — part 2
 
 The Language Fractal Architecture module contains language-specific fractal architecture data and states within the AMOS cognitive framework. It is part of a broader fractal reasoning system that uses H/M/L (High/Medium/Low) scale decomposition to represent problems at multiple levels of abstraction, with recursive self-similarity across scales.
 
@@ -43,11 +43,11 @@ Default retrieval path: `bootstrap capsule -> H -> M -> L -> raw evidence only i
 
 ### L/M/H Lens in Cognitive Architecture
 
-| Level | Meaning |
-|-------|---------|
-| L | foundation and material stability |
-| M | balance and transition |
-| H | expansion and transformation |
+| Level | Meaning                           |
+| ----- | --------------------------------- |
+| L     | foundation and material stability |
+| M     | balance and transition            |
+| H     | expansion and transformation      |
 
 ## Fractal Tensor
 
@@ -71,31 +71,31 @@ The fractal tensor encodes the full state of a fractal reasoning unit:
 
 ## Core Equations (SOURCE)
 
-| ID | Name | Formula / Rule |
-|----|------|----------------|
-| EQ-01 | cognitive_fractal | The same cognitive layers repeat at every scale. Layers: intention -> input -> memory -> deterministic_core -> entropy_layer -> validation -> output |
-| EQ-02 | deterministic_core | Same input, same memory, same constraints, same output. Role: stable transformation |
-| EQ-03 | entropy_from_layers | Entropy appears when many deterministic layers interact and the interaction map is incomplete. Role: complexity measurement |
-| EQ-04 | feature_reality | A feature is real only if it has intention, input, state, implementation, validation, output, and error handling. Role: fake feature detector |
-| EQ-05 | garbage_code | Garbage code is code with broken data flow, hidden state, fake dependency, fake feature, or missing validation. Role: quality detector |
-| EQ-06 | recursive_composition | A function is a small architecture. A module is a larger architecture. A system is the same architecture repeated. Role: fractal programming |
-| EQ-07 | entropy_absorption | A good system does not remove entropy. It names it, routes it, handles it, and lowers confidence when needed. Role: robustness |
+| ID    | Name                  | Formula / Rule                                                                                                                                       |
+| ----- | --------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| EQ-01 | cognitive_fractal     | The same cognitive layers repeat at every scale. Layers: intention -> input -> memory -> deterministic_core -> entropy_layer -> validation -> output |
+| EQ-02 | deterministic_core    | Same input, same memory, same constraints, same output. Role: stable transformation                                                                  |
+| EQ-03 | entropy_from_layers   | Entropy appears when many deterministic layers interact and the interaction map is incomplete. Role: complexity measurement                          |
+| EQ-04 | feature_reality       | A feature is real only if it has intention, input, state, implementation, validation, output, and error handling. Role: fake feature detector        |
+| EQ-05 | garbage_code          | Garbage code is code with broken data flow, hidden state, fake dependency, fake feature, or missing validation. Role: quality detector               |
+| EQ-06 | recursive_composition | A function is a small architecture. A module is a larger architecture. A system is the same architecture repeated. Role: fractal programming         |
+| EQ-07 | entropy_absorption    | A good system does not remove entropy. It names it, routes it, handles it, and lowers confidence when needed. Role: robustness                       |
 
 ## Deterministic Rules (SOURCE)
 
 1. Every feature must have one clear intention.
-2. Every feature must define input contract.
-3. Every feature must define state or memory usage.
-4. Every feature must define output contract.
-5. Every transformation must be named.
-6. Same input under same memory and constraints must produce same output.
-7. Data flow must be explicit from input to output.
-8. No hidden state unless documented.
-9. No fake dependency.
-10. No fake application programming interface.
-11. No fake feature.
-12. No output before validation.
-13. No feature outside specification unless explicitly marked as proposed.
+1. Every feature must define input contract.
+1. Every feature must define state or memory usage.
+1. Every feature must define output contract.
+1. Every transformation must be named.
+1. Same input under same memory and constraints must produce same output.
+1. Data flow must be explicit from input to output.
+1. No hidden state unless documented.
+1. No fake dependency.
+1. No fake application programming interface.
+1. No fake feature.
+1. No output before validation.
+1. No feature outside specification unless explicitly marked as proposed.
 
 ## Core Scores
 
@@ -126,6 +126,7 @@ This remains AMOS MODEL unless independently grounded in established mathematics
 ## Compression Rule
 
 At each scale retain only information capable of changing:
+
 - the conclusion
 - the action
 - the confidence ceiling
@@ -147,10 +148,12 @@ At each scale retain only information capable of changing:
 - `_00_Cosmo brain/fractal/FRACTAL_RUNTIME.md` — Fractal H/M/L Runtime (recursive cell, scores)
 - `_00_Cosmo brain/fractal/fractal-cognitive-architecture.md` — Core equations, deterministic rules, entropy rules
 
----
+______________________________________________________________________
+
 - [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
-**MOC:** references_MOC
----
+  **MOC:** references_MOC
+
+______________________________________________________________________
 
 **Related:** [[00_ROOT/00_HOME|00_HOME]] · [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|LAW_HIERARCHY]] · references_MOC · [[07_SKILLS/07_SKILLS_MOC|07_SKILLS_MOC]]
 
@@ -158,12 +161,14 @@ At each scale retain only information capable of changing:
 
 **Trang Framework:** [[11_KNOWLEDGE/TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS|TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: amos-fractal-systems-master-language-fractal-architecture
 node_type: reference
 path: 07_SKILLS/amos-fractal-systems-master/references/language_fractal_architecture.md
 RSCF-RELATIONS:
+
 - INDEXED_BY: [[00_ROOT/00_HOME|00_HOME]]
 - INDEXED_BY: [[00_ROOT/AMOS_RSCF_NODES|AMOS_RSCF_NODES]]
 - CHILD_OF: references_MOC

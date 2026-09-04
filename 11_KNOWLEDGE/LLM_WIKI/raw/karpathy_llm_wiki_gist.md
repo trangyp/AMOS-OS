@@ -1,12 +1,15 @@
 ---
+origin_architect: Trang Phan
+steward: Trang Phan
+amos_core_target: v4.4
 title: Karpathy LLM Wiki Gist
 type: raw
 source: 11_KNOWLEDGE/LLM_WIKI/raw
 tags:
-- raw
-- source
-- llm-wiki
-- karpathy-llm-wiki-summary
+  - raw
+  - source
+  - llm-wiki
+  - karpathy-llm-wiki-summary
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -23,30 +26,36 @@ rscf:
 > Instead of just retrieving from raw documents at query time, the LLM incrementally builds and maintains a persistent wiki — a structured, interlinked collection of markdown files. The wiki is a persistent, compounding artifact. The cross-references are already there; the contradictions have already been flagged; the synthesis already reflects everything you’ve read.
 
 **Architecture**
+
 1. Raw sources — immutable source documents.
-2. The wiki — LLM-generated markdown pages.
-3. The schema — a document telling the LLM how the wiki is structured.
+1. The wiki — LLM-generated markdown pages.
+1. The schema — a document telling the LLM how the wiki is structured.
 
 **Operations**
+
 - Ingest — read source, write summary, update pages, update index, append log.
 - Query — read index, synthesize answer, file valuable answers back into the wiki.
 - Lint — check contradictions, orphans, stale claims, missing pages.
 
 **Indexing**
+
 - `index.md` — content catalog.
 - `log.md` — chronological activity log.
 
 See [[11_KNOWLEDGE/LLM_WIKI/wiki/karpathy_llm_wiki_summary|karpathy_llm_wiki_summary]] for an AMOS-vault interpretation.
 
----
+______________________________________________________________________
+
 RSCF-NODE
 node_id: karpathy_llm_wiki_gist
 node_type: source
 path: 11_KNOWLEDGE/LLM_WIKI/raw/karpathy_llm_wiki_gist.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[11_KNOWLEDGE/LLM_WIKI/raw/LLM_WIKI_RAW_README|LLM_WIKI_RAW_README]]
-  - SUMMARIZED_BY: [[11_KNOWLEDGE/LLM_WIKI/wiki/karpathy_llm_wiki_summary|karpathy_llm_wiki_summary]]
-claim_class: SOURCE_CLAIM
 
----
+- INDEXED_BY: [[11_KNOWLEDGE/LLM_WIKI/raw/LLM_WIKI_RAW_README|LLM_WIKI_RAW_README]]
+- SUMMARIZED_BY: [[11_KNOWLEDGE/LLM_WIKI/wiki/karpathy_llm_wiki_summary|karpathy_llm_wiki_summary]]
+  claim_class: SOURCE_CLAIM
+
+______________________________________________________________________
+
 **MOC:** [[11_KNOWLEDGE/LLM_WIKI/LLM_WIKI_MOC|LLM_WIKI_MOC]]
